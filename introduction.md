@@ -25,7 +25,7 @@ To learn more please visit the [Telerik UI for Xamarin](http://www.telerik.com/x
 
 Our suite features the following controls for cross-platform development with Xamarin.Forms:
 
-{% include intro-page-table.html  %}
+
 
 ### Telerik UI for Xamarin.Native
 
