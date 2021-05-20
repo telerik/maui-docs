@@ -1,6 +1,6 @@
 # The public documentation URL, used for sitemap.xml
 url: "https://docs.telerik.com/devtools/maui"
-site_name: Xamarin
+site_name: MAUI
 
 # Exclude files which should not be in the output 
 exclude: [README.md,Gemfile,Gemfile.lock]
@@ -94,7 +94,7 @@ defaults:
 # "foo": "Bar"
 
 # Define any custom fields that you use in the site here
-framework_name: Xamarin
+framework_name: MAUI
 
 # Feedback Form Google Sheet ID
 ff-sheet-id: 1XHRCSFFh2aL9W_EfhfO2lXDGTR8kKFnK8x289HbujIU
