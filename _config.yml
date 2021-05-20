@@ -8,19 +8,19 @@ exclude_navigation: [knowledge-base/*]
 
 navigation:
 ## List your directory names and order here, like this:
-## Root Level   
+## Root Level    
     licensing:
         title: "Licensing"
-        position: 4 
+        position: 4   
     controls:
         title: "<b>MAUI Controls</b>"
-        position: 7   
+        position: 7
 ## End Root Level
 ## Controls Sub-Folders
     ## Border
     controls/border:
         title: "Border"
-    ## End Border 
+    ## End Border   
     ## Button
     controls/button:
         title: "Button"
@@ -67,8 +67,8 @@ navigation:
         position: 11
         ## End Chart Sub-Folders
     ## End Chart
- ## End Controls Sub-Folders
- 
+## End Controls Sub-Folders
+
 ## The application virtual path
 baseurl: "/devtools/maui"
 
@@ -76,9 +76,9 @@ baseurl: "/devtools/maui"
 mvcCoreVersion: "2016.2.616"
 
 ## The product name
-productName: "Telerik UI for MAUI"
-product: "Telerik UI for MAUI"
-platform: maui
+productName: "Telerik UI for Xamarin"
+product: "Telerik UI for Xamarin"
+platform: xamarin
 
 ## Assign layout and category per different paths
 defaults:
@@ -142,93 +142,6 @@ footer_social:
 
 has_kb_portal: false
 has_cta_panels: false
-
-intro_columns:
--
-  categories:
-  -
-    title: "Data Controls"  
-    items:
-      "DataGrid": "datagrid-overview"
-      "ListView": "listview-overview"
-      "DataForm": "dataform-overview"   
-  -
-    title: "Pdf Viewer"
-    items:
-      "PdfViewer": "pdfviewer-overview"
-  -
-    title: "Calendar & Scheduling"
-    items:
-        "Calendar": "calendar-overview"
--
-  categories:
-  -
-    title: "Navigation & Layout"
-    items:
-        "TreeView": "treeview-overview"
-        "SideDrawer": "sidedrawer-overview"
-        "TabView": "tabview-overview"
-        "Accordion": "accordion-overview"
-        "Expander": "expander-overview"
-        "DockLayout": "docklayout-overview"
-  -
-    title: "Buttons"
-    items:
-        "Segmented Control": "segmentedcontrol-overview"
-        "Button": "button-overview"
-        "CheckBox": "checkbox-overview"
--
-  categories:
-  -   
-    title: "Editors"
-    items: 
-        "AutoCompleteView": "autocompleteview-overview"
-        "ComboBox": "combobox-overview"
-        "Date Picker": "date-picker-overview"
-        "DateTime Picker": "datetime-picker-overview"        
-        "Entry": "entry-overview"
-        "Image Editor": "imageeditor-overview"
-        "List Picker": "list-picker-overview"
-        "MaskedInput": "maskedinput-overview"
-        "NumericInput": "numericinput-overview"        
-        "RichTextEditor": "richtexteditor-overview"
-        "Templated Picker": "templated-picker-overview"
-        "Time Picker": "time-picker-overview"
-        "TimeSpan Picker": "timespan-picker-overview"
--
-  categories:
-  -
-    title: "Data Visualization"
-    items:
-        "Charts": "chart-overview"
-        "Map": "map-overview"
-        "Gauge": "gauge-overview"
-        "Rating": "rating-overview"
-        "Barcode": "barcode-overview"    
-  - 
-    title: "Interactivity & UX"
-    items:
-        "BusyIndicator": "busyindicator-overview"
-        "Popup": "popup-overview"
-        "SlideView": "slideview-overview"
-        "Border": "border-overview"
-        "Path": "path-overview"
-        "BadgeView": "badgeview-overview"
-        "Shadow": "shadow-overview"
--
-  categories:
-  -
-    title: "Document Processing Libraries"
-    items:
-        "PdfProcessing": "radpdfprocessing-overview"
-        "WordsProcessing": "radwordsprocessing-overview"
-        "SpreadProcessing": "radspreadprocessing-overview"
-        "SpreadStreamProcessing": "radspreadstreamprocessing-overview"
-        "ZipLibrary": "radziplibrary-overview"
-  -
-    title: "Chatbots"
-    items:
-        "Conversational UI": "chat-overview"
         
 # Assets pipeline configuration
 assets:
