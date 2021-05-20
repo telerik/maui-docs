@@ -1,0 +1,244 @@
+# The public documentation URL, used for sitemap.xml
+url: "https://docs.telerik.com/devtools/maui"
+site_name: Xamarin
+
+# Exclude files which should not be in the output 
+exclude: [README.md,Gemfile,Gemfile.lock]
+exclude_navigation: [knowledge-base/*]
+
+navigation:
+## List your directory names and order here, like this:
+## Root Level   
+    licensing:
+        title: "Licensing"
+        position: 4 
+    controls:
+        title: "<b>MAUI Controls</b>"
+        position: 7   
+## End Root Level
+## Controls Sub-Folders
+    ## Border
+    controls/border:
+        title: "Border"
+    ## End Border 
+    ## Button
+    controls/button:
+        title: "Button"
+        ## Button Sub-Folders
+    controls/button/howto:
+        title: "How To"
+        position: 3
+        ## End Button Sub-Folders
+    ## End Button
+    ## Chart
+    controls/chart:
+        title: "Chart"
+        ## Chart Sub-Folders
+    controls/chart/types:
+        title: "Chart Types"
+        position: 3
+    controls/chart/axes:
+        title: "Axes"
+        position: 4
+    controls/chart/behaviors:
+        title: "Behaviors"
+        position: 6
+    controls/chart/series:
+        title: "Series"
+        position: 5
+            ## Chart Series Sub-Folders
+    controls/chart/series/cartesian:
+        title: "CartesianSeries"
+        position: 2
+                ## Chart Series CartesianSeries Sub-Folders
+    controls/chart/series/cartesian/features:
+        title: "Features"
+        position: 1
+                ## End Chart Series CartesianSeries Sub-Folders
+    controls/chart/series/pie:
+        title: "PieSeries"
+        position: 3
+    controls/chart/series/financial:
+        title: "Financial Series"
+        position: 4
+            ## End Chart Series Sub-Folders
+    controls/chart/how-to:
+        title: "How To"
+        position: 11
+        ## End Chart Sub-Folders
+    ## End Chart
+ ## End Controls Sub-Folders
+ 
+## The application virtual path
+baseurl: "/devtools/maui"
+
+## The MVC Core version used
+mvcCoreVersion: "2016.2.616"
+
+## The product name
+productName: "Telerik UI for MAUI"
+product: "Telerik UI for MAUI"
+platform: maui
+
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "documentation"
+        category: "default"
+        product: "xamarin-ui"
+        
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# Define any custom fields that you use in the site here
+framework_name: Xamarin
+
+# Feedback Form Google Sheet ID
+ff-sheet-id: 1XHRCSFFh2aL9W_EfhfO2lXDGTR8kKFnK8x289HbujIU
+
+# The google services configuration
+google_tag_manager: GTM-6X92
+gcs_engine: '001595215763381649090:hqd69dmjy2k'
+gcs_api_key: 'AIzaSyBNBA7GFG6zyMuswUt4MB_FSXKVgtTTe7k'
+
+tabbed_code_marker_length: 3
+tabbed_code_complex_separator: true
+
+edit_repo_url: https://github.com/telerik/xamarin-forms-docs/edit/master
+download: https://www.telerik.com/download/xamarin-ui
+nav:
+  "Demos": https://www.telerik.com/support/demos#mobile
+  "Whats New": https://www.telerik.com/support/whats-new/xamarin-ui
+  "About": https://www.telerik.com/xamarin-ui
+  "Pricing": https://www.telerik.com/purchase/xamarin-ui
+
+footer:
+-
+  title: "Sample Applications"
+  links:
+    "Telerik Tagit": https://www.telerik.com/xamarin-ui/telerik-tagit
+    "iOS Demo App": https://itunes.apple.com/dm/app/telerik-ui-for-xamarin-)examples/id1083924868?mt=8
+    "Android Demo App": https://play.google.com/store/apps/details?id=com.telerik.xamarin&hl=en
+-
+  title: "Support Resources"
+  links:
+    "Xamarin.Forms SDK Examples": https://github.com/telerik/xamarin-forms-sdk
+-
+  title: "Community"
+  links:
+    "Forums": https://www.telerik.com/forums/xamarin
+    "Blogs": https://www.telerik.com/blogs/mobile
+    "Feedback Portal": https://feedback.progress.com/project/168
+  
+
+footer_social: 
+    facebook: https://www.facebook.com/Telerik/
+    youtube: https://www.youtube.com/user/TelerikInc
+    linkedin: https://www.linkedin.com/showcase/telerik/ 
+    twitter: https://twitter.com/Telerik/ 
+
+has_kb_portal: false
+has_cta_panels: false
+
+intro_columns:
+-
+  categories:
+  -
+    title: "Data Controls"  
+    items:
+      "DataGrid": "datagrid-overview"
+      "ListView": "listview-overview"
+      "DataForm": "dataform-overview"   
+  -
+    title: "Pdf Viewer"
+    items:
+      "PdfViewer": "pdfviewer-overview"
+  -
+    title: "Calendar & Scheduling"
+    items:
+        "Calendar": "calendar-overview"
+-
+  categories:
+  -
+    title: "Navigation & Layout"
+    items:
+        "TreeView": "treeview-overview"
+        "SideDrawer": "sidedrawer-overview"
+        "TabView": "tabview-overview"
+        "Accordion": "accordion-overview"
+        "Expander": "expander-overview"
+        "DockLayout": "docklayout-overview"
+  -
+    title: "Buttons"
+    items:
+        "Segmented Control": "segmentedcontrol-overview"
+        "Button": "button-overview"
+        "CheckBox": "checkbox-overview"
+-
+  categories:
+  -   
+    title: "Editors"
+    items: 
+        "AutoCompleteView": "autocompleteview-overview"
+        "ComboBox": "combobox-overview"
+        "Date Picker": "date-picker-overview"
+        "DateTime Picker": "datetime-picker-overview"        
+        "Entry": "entry-overview"
+        "Image Editor": "imageeditor-overview"
+        "List Picker": "list-picker-overview"
+        "MaskedInput": "maskedinput-overview"
+        "NumericInput": "numericinput-overview"        
+        "RichTextEditor": "richtexteditor-overview"
+        "Templated Picker": "templated-picker-overview"
+        "Time Picker": "time-picker-overview"
+        "TimeSpan Picker": "timespan-picker-overview"
+-
+  categories:
+  -
+    title: "Data Visualization"
+    items:
+        "Charts": "chart-overview"
+        "Map": "map-overview"
+        "Gauge": "gauge-overview"
+        "Rating": "rating-overview"
+        "Barcode": "barcode-overview"    
+  - 
+    title: "Interactivity & UX"
+    items:
+        "BusyIndicator": "busyindicator-overview"
+        "Popup": "popup-overview"
+        "SlideView": "slideview-overview"
+        "Border": "border-overview"
+        "Path": "path-overview"
+        "BadgeView": "badgeview-overview"
+        "Shadow": "shadow-overview"
+-
+  categories:
+  -
+    title: "Document Processing Libraries"
+    items:
+        "PdfProcessing": "radpdfprocessing-overview"
+        "WordsProcessing": "radwordsprocessing-overview"
+        "SpreadProcessing": "radspreadprocessing-overview"
+        "SpreadStreamProcessing": "radspreadstreamprocessing-overview"
+        "ZipLibrary": "radziplibrary-overview"
+  -
+    title: "Chatbots"
+    items:
+        "Conversational UI": "chat-overview"
+        
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
