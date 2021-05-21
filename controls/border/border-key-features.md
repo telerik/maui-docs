@@ -1,7 +1,7 @@
 ---
 title: Key Features
-page_title: Xamarin Border Documentation | Key Features
-description: Check our &quot;Key Features&quot; documentation article for Telerik Border for Xamarin control.
+page_title: .NET MAUI Border Documentation | Key Features
+description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI control.
 position: 2
 slug: border-key-features
 ---
@@ -16,25 +16,45 @@ You can use the **BorderColor** property to specify the color of RadBorder. The 
 
 ## Setting Border Thickness
 
-The **BorderThickness** property is of type *Xamarin.Forms.Thickness* and is used to set the borders’ width. Type Thickness gives you the option to define different border on each side of the surrounded element.
+The **BorderThickness** property is of type *Microsoft.Maui.Thickness* and is used to set the borders’ width. Type Thickness gives you the option to define different border on each side of the surrounded element.
 
 Here is a quick example on how to use BorderColor and BorderThickness properties:
 
-<snippet id='border-features-thickness'/>
+```XAML
+<telerikMauiControls:RadBorder BorderColor="#4488F6" BorderThickness="1, 2, 1, 2">
+    <Label Text="Hello there" Margin="2" />
+</telerikMauiControls:RadBorder>
+```
 
 Where:
 
-<snippet id='xmlns-telerikprimitives'/>
+```XAML
+xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+```
 
 ## Defining Different Corners
 
-The **CornerRadius** property represents the degree to which the corners of the Border are rounded. CornerRadius is of type *Xamarin.Forms.Thickness* so it allows you to set separate values on the four corners of the border. 
+The **CornerRadius** property represents the degree to which the corners of the Border are rounded. CornerRadius is of type *Microsoft.Maui.Thickness* so it allows you to set separate values on the four corners of the border. 
 
-<snippet id='border-features-cornerradius'/>
+```XAML
+<telerikMauiControls:RadBorder BorderColor="#4488F6" 
+							   BorderThickness="1" 
+							   CornerRadius="15, 5, 15, 5">
+    <Label Text="Hello there" Margin="2" />
+</telerikMauiControls:RadBorder>
+```
 
 Additionally, the wrapped content will be clipped according to each side’s specified corner radius. The next example shows how you could have circle image by wrapping Image control with RadBorder.
 
-<snippet id='border-features-circularimage'/>
+```XAML
+<telerikMauiControls:RadBorder CornerRadius="25" 
+							   BorderThickness="2" 
+							   BorderColor="Red">
+    <Image Source="XamarinIcon.png" 
+		   WidthRequest="50" 
+		   HeightRequest="50" />
+</telerikMauiControls:RadBorder>
+```
 
 Here is the end result:
 
