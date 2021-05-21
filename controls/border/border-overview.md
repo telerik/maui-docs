@@ -20,4 +20,4 @@ With the new **Telerik RadBorder for MAUI** component you will have full control
 
 ## See Also
 
-- [Getting Started]({%slug border-getting-started %})
+- [Getting Started]({%slug maui-getting-started %})
