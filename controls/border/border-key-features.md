@@ -62,4 +62,4 @@ Here is the end result:
 
 ## See Also
 
-- [Getting Started]({% slug border-getting-started%})
+- [Getting Started]({% slug maui-getting-started%})

@@ -1,7 +1,8 @@
 ---
 title: Create Circle Button
-page_title: Xamarin Button Documentation | Create Circle Button
-description: Check our &quot;Create Circle Button&quot; documentation article for Telerik Button for Xamarin control.
+page_title: .NET MAUI Button Documentation | Create Circle Button
+description: Check our &quot;Create Circle Button&quot; documentation article for Telerik Button for .NET MAUI control.
+description: Check our &quot;Create Circle Button&quot; documentation article for Telerik Button for .NET MAUI control.
 position: 0
 slug: button-howto-create-circle-button
 ---
@@ -28,4 +29,4 @@ Appearance of different circular buttons:
 
 ## See Also
 
-- [Button Getting Started]({%slug button-getting-started%})
+- [Button Getting Started]({%slug maui-getting-started%})
