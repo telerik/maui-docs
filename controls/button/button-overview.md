@@ -24,7 +24,7 @@ If you are new to the **Telerik Button for Xamarin** control, see the [Getting S
  
 * **Creating circle button**: You can create a circular button by adjusting the Width, Height and BorderRadius of RadButton. See the [How To: Create Circle Button] ({%slug button-howto-create-circle-button%}) topic for more details.
  
-* **Theming support**: RadButton comes with built-in theming support that helps you achieve a look consistent with the other controls from the Telerik UI for Xamarin suite. For more information, see the [Theme Overview]({%slug common-themes-overview %}) article.
+* **Theming support**: RadButton comes with built-in theming support that helps you achieve a look consistent with the other controls from the Telerik UI for Xamarin suite.
 
 ## See Also
 
