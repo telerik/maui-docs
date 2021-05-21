@@ -19,14 +19,9 @@ This article will guide you through the steps needed to add a basic **RadChart**
 
 Take a look at these articles and follow the instructions to set up your app:
 
-- [Set up app with Telerik UI for Xamarin on Windows]({%slug getting-started-windows%})
-- [Set up app with Telerik UI for Xamarin on Mac]({%slug getting-started-mac%})
-
 ## 2. Adding the required Telerik references ##
 
 You have two options:
-
-* Add the Telerik UI for Xamarin Nuget package following the instructions in [Telerik NuGet package server]({%slug telerik-nuget-server%}) topic.
 
 If you don't want to add the all Telerik.UI.for.Xamarin nuget package, you have the option to install a separate nuget package. For RadChart control you have to install the **Telerik.UI.for.Xamarin.Chart** nuget package. This nuget will automatically refer the Telerik.UI.for.Xamarin.Common nuget package.
 
@@ -46,9 +41,6 @@ You could use one of the following approaches:
 #### Drag the control from the Toolbox. ####
 
 Take a look at the following topics on how to use the toolbox:
-
-* [Telerik UI for Xamarin Toolbox on Windows]({%slug telerik-xamarin-toolbox%})
-* [Telerik UI for Xamarin Toolbox on Mac]({%slug telerik-xamarin-toolbox-mac%})
 	
 #### Create the control definition in XAML or C#. ####
 
