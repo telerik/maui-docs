@@ -1,14 +1,14 @@
 ---
 title: Overview
-page_title: Xamarin Border Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Border for Xamarin control.
+page_title: MAUI Border Documentation | Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik Border for .NET MAUI control.
 position: 0
 slug: border-overview
 ---
 
 # Overview
 
-With the new **Telerik RadBorder for Xamarin** component you will have full control over the look & feel of the border that wraps around your Xamarin views. You could surround any view such as Label, Image, and other, and specify different border thickness and corner radius on each side.
+With the new **Telerik RadBorder for MAUI** component you will have full control over the look & feel of the border that wraps around your MAUI views. You could surround any view such as Label, Image, and other, and specify different border thickness and corner radius on each side.
 
 #### Figure 1: RadBorder Overview
 ![Border Overview](images/border-overview.png "RadBorder Overview")
