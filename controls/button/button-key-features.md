@@ -1,50 +1,70 @@
 ---
 title: Key Features
-page_title: Xamarin Button Documentation | Key Features
-description: Check our &quot;Key Features&quot; documentation article for Telerik Button for Xamarin control.
+page_title: .NET MAUI Button Documentation | Key Features for .NET MAUI Button
+description: Check our &quot;Key Features&quot; documentation article for Telerik Button for .NET MAUI.
 position: 2
+tags: .net maui, telerik .net maui, ui for .net maui, button 
 slug: button-key-features
 ---
 
-# Key Features
+# Telerik Button for .NET MAUI - Key Features
 
-The purpose of this help article is to show you the key features of the **RadButton** control. 
+RadButton definition in XAML
+
+```XAML
+<telerikInput:RadButton Text="RadButton" BackgroundColor="Transparent" BorderColor="Red" BorderThickness="2"/>
+```
+
+Add the following napespace: 
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
+```
 
 ## Content Alignment
 
-RadButton exposes **HorizontalContentAlignment** and **VerticalContentAlignment** properties of type Xamarin.Forms.TextAlignment which you can use to set different positioning of its content. 
+RadButton exposes **HorizontalContentAlignment** and **VerticalContentAlignment** properties of type Microsoft.Maui.TextAlignment which you can use to set different positioning of its content. 
 
 Here is a quick example how you can apply these:
 
-<snippet id='button-features-contentalignment'/>
+```XAML
+<telerikInput:RadButton Text="Click me!"  
+                        BorderColor="#4488F6" 
+                        HorizontalContentAlignment="End" 
+                        VerticalContentAlignment="Start" />
+```
 
-Where:
-
-<snippet id='xmlns-telerikinput'/>
 
 ## Border Thickness
 
-The **BorderThickness** property is of type Xamarin.Forms.Thickness and is used to set the borders’ width.  Type Thickness gives you the option to define different border on each side of the Button.
+The **BorderThickness** property is of type Microsoft.Maui.Thickness and is used to set the borders’ width. Type Thickness gives you the option to define different border on each side of the Button.
 
 The snippet below demonstrates how BorderThickness could be defined.
 
-<snippet id='button-features-borderthickness'/>
+```XAML
+<telerikInput:RadButton Text="Click me!"  
+                        BorderThickness="6, 2, 2, 6" 
+                        BorderColor="#4488F6" />
+```
 
 ## Background Image
 
-The **BackgroundImage** property is of type ImageSource and is used to set a graphic as a background of the RadButton control.   
+The **BackgroundImage** property is of type Microsoft.Maui.Controls.ImageSource and is used to set a graphic as a background of the RadButton control.   
 
 The next snippet shows how you can apply the background image.
 
-<snippet id='button-features-backgroundimage'/>
+```XAML
+<telerikInput:RadButton Text="Click me!"  
+                        BackgroundImage="button_backgroundImage.png"/>
+```
 
->In the example buttonBackground.png image is located in each of the application projects (Resources folder in iOS, Resources/Drawable folder in Android, and application root in UWP; each with the appropriate build action set). You can read more on loading and displaying images in Xamarin.Forms here:  [Xamarin.Forms -> User Interface-> Images](https://developer.xamarin.com/guides/xamarin-forms/user-interface/images/#Local_Images).
+>important .NET MAUI has a built-in cross-platform resources which you can use to add any images, fonts, translation files. These resources have to be added in the Resources folder of the cross-platform project.
 
-Here is the end result:
+## Image how Button for .NET MAUI looks
 
 ![Button Key Features Example](images/button-key-features.png)
 
 ## See Also
 
 - [Circular Button]({%slug button-howto-create-circle-button%})
-- [Button with disabled text color]({%slug button-howto-textcolor-disabled-button%})
+

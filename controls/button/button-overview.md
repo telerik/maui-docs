@@ -1,18 +1,18 @@
 ---
 title: Overview
-page_title: Xamarin Button Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Button for Xamarin control.
+page_title: .NET MAUI Button Documentation | Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik Button for MAUI control.
 position: 0
 slug: button-overview
 ---
 
 # Overview
 
-**Telerik Button for Xamarin** is a button control that enhances the functionality of the standard Xamarin Forms Button by providing means for customizing its look &amp; feel. UI customization is possible through the provided themes. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
+**Telerik Button for .NET MAUI** is a button control that enhances the functionality of the standard .NET MAUI Button by providing means for customizing its look &amp; feel. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
 
-If you are new to the **Telerik Button for Xamarin** control, see the [Getting Started]({%slug button-getting-started%}) guide for more information on how to add the control to your application.
+If you are new to **Telerik UI for MAUI**, go to the [Getting Started with Telerik UI for MAUI]({%slug maui-getting-started%}) guide for more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
 
-![Button Overview](images/button-overview.png "Button Overview")
+![Button Overview](images/button-overview.png "Button for .NET MAUI")
 
 ## Key features
 
@@ -24,8 +24,6 @@ If you are new to the **Telerik Button for Xamarin** control, see the [Getting S
  
 * **Creating circle button**: You can create a circular button by adjusting the Width, Height and BorderRadius of RadButton. See the [How To: Create Circle Button] ({%slug button-howto-create-circle-button%}) topic for more details.
  
-* **Theming support**: RadButton comes with built-in theming support that helps you achieve a look consistent with the other controls from the Telerik UI for Xamarin suite.
-
 ## See Also
 
 - [Key Features]({%slug button-key-features%})
