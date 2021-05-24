@@ -3,7 +3,7 @@ title: Key Features
 page_title: .NET MAUI Button Documentation | Key Features for .NET MAUI Button
 description: Check our &quot;Key Features&quot; documentation article for Telerik Button for .NET MAUI.
 position: 2
-tags: .net maui, telerik .net maui, ui for .net maui, button 
+tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
 slug: button-key-features
 ---
 
