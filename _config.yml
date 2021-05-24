@@ -67,6 +67,31 @@ navigation:
         position: 11
         ## End Chart Sub-Folders
     ## End Chart
+    ##ItemsControl
+    controls/itemscontrol:
+        title: "ItemsControl"
+    ## End ItemsControl
+    ## ListView
+    controls/listview:
+        title: "ListView"
+        ## ListView Sub-Folders
+    controls/listview/grouping:
+        title: "Grouping"
+        position: 4
+    controls/listview/gestures:
+        title: "Gestures"
+        position: 11
+    controls/listview/cells:
+        title: Cells
+        position: 2   
+    controls/listview/styling:
+        title: "Theming and Styles"
+        position: 14         
+    controls/listview/howto:
+        title: "How To"
+        position: 15
+        ## End ListView Sub-Folders
+    ## End ListView
 ## End Controls Sub-Folders
 
 ## The application virtual path

@@ -1,14 +1,14 @@
 ---
 title: Overview
-page_title: Xamarin ListView Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 0
 slug: listview-overview
 ---
 
 # Overview
 
-**RadListView** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in one control with the idea to save developer's time and provide better experience. 
+**Telerik RadListView for .NET MAUI** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in one control with the idea to save developer's time and provide better experience. 
 
 #### Figure 1: RadListView Overview
 
@@ -27,4 +27,4 @@ slug: listview-overview
 
 ## See Also
 
-- [Getting Started]({% slug listview-getting-started %})
+- [Getting Started]({% slug listview-getting-started%})
