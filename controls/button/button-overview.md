@@ -1,16 +1,17 @@
 ---
 title: Overview
 page_title: .NET MAUI Button Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Button for MAUI control.
+description: Check our &quot;Overview&quot; documentation article for Telerik Button for .NET MAUI.
+tags: button for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: button-overview
 ---
 
 # Overview
 
-**Telerik Button for .NET MAUI** is a button control that enhances the functionality of the standard .NET MAUI Button by providing means for customizing its look &amp; feel. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
+With the new **Telerik RadButton for .NET MAUI** is a button control that enhances the functionality of the standard .NET MAUI Button by providing means for customizing its look &amp; feel. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
 
-If you are new to **Telerik UI for MAUI**, go to the [Getting Started with Telerik UI for MAUI]({%slug maui-getting-started%}) guide for more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
+>important [Getting Started with Telerik UI for .NET MAUI]({%slug maui-getting-started%}) guide will help you with more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
 
 ![Button Overview](images/button-overview.png "Button for .NET MAUI")
 

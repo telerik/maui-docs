@@ -1,13 +1,14 @@
 ---
 title: Introduction
-page_title: Telerik UI for MAUI Documentation
-description: Learn how to decrease development time and build stunning MAUI apps with Telerik UI for MAUI controls
+page_title: Telerik UI for .NET MAUI Documentation
+description: Learn how to decrease development time and build stunning MAUI apps with Telerik UI for .NET MAUI controls
+tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui
 position: 0
 ---
 
 ## Welcome to Telerik UI for MAUI
 
-Thank you for choosing Telerik UI for MAUI.
+Thank you for choosing Telerik UI for .NET MAUI - Preview.
 
 **Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting multiple devices across mobile & desktop.
 
@@ -26,6 +27,12 @@ Our suite features the following controls for cross-platform development with MA
 * [Border]({%slug border-overview%})
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
+* [ItemsControl]({%slug itemscontrol-overview%})
+* [ListView]({%slug listview-overview%})
+
+## Getting Started with Telerik UI for .NET MAUI
+
+Information how to get started with .NET MAUI and Telerik UI for .NET MAUI can be found in our [Getting Started]({%slug maui-getting-started%}) guide.
 
 ## Support Options
 
