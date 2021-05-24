@@ -1,12 +1,13 @@
 ---
 title: Visual Structure
-page_title: Xamarin Chart Documentation | RadChart Visual Structure
-description: Check our &quot;Visual Structure&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | RadChart Visual Structure
+description: Check our &quot;Visual Structure&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 1
+tags: chart for .net maui, ui for .net maui, microsoft .net maui
 slug: chart-visual-structure
 ---
 
-# Visual Structure #
+# Visual Structure
 
 Here are described all visual elements and terms used in a standard RadChart control.
 

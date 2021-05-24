@@ -1,7 +1,7 @@
 ---
 title: Key Features
 page_title: .NET MAUI Border Documentation | Key Features
-description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI control.
+description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI.
 position: 2
 slug: border-key-features
 ---
