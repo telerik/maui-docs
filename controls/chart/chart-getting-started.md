@@ -1,76 +1,92 @@
 ---
 title: Getting Started
-page_title: Getting Started with Xamarin.Forms Chart Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: Getting Started with .NET MAUI Chart Control
+description: Check our &quot;Getting Started&quot; documentation article for Telerik Chart for .NET MAUI.
+tags: chart, .net maui, ui for .net maui, maui, microsoft,
 position: 2
 slug: chart-getting-started
 ---
 
-# Getting Started #
+# Getting Started
    
-This article will guide you through the steps needed to add a basic **RadChart** control in your application.
+## Create the control definition in XAML
 
-* [Setting up the app](#1-setting-up-the-app)
-* [Adding the required Telerik references](#2-adding-the-required-telerik-references)
-* [Adding RadChart control](#3-adding-radchart-control)
-* [Populating RadChart with data](#4-populating-radchart-with-data)
-
-## 1. Setting up the app ##
-
-Take a look at these articles and follow the instructions to set up your app:
-
-## 2. Adding the required Telerik references ##
-
-You have two options:
-
-If you don't want to add the all Telerik.UI.for.Xamarin nuget package, you have the option to install a separate nuget package. For RadChart control you have to install the **Telerik.UI.for.Xamarin.Chart** nuget package. This nuget will automatically refer the Telerik.UI.for.Xamarin.Common nuget package.
-
-* Add the references to Telerik assemblies manually, check the list below with the required assemblies for **RadChart** component:
-
-| Platform | Assemblies |
-| -------- | ---------- |
-| Portable | Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Chart.dll |
-| Android  | Telerik.Xamarin.Android.Common.dll<br/>Telerik.Xamarin.Android.Chart.dll<br/>Telerik.Xamarin.Android.Primitives.dll<br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Chart.dll |
-| iOS      | Telerik.Xamarin.iOS.dll <br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Chart.dll |
-| UWP      | Telerik.Core.dll<br/>Telerik.UI.Xaml.Chart.UWP.dll<br/>Telerik.UI.Xaml.Primitives.UWP.dll<br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Chart.dll |
-
-## 3. Adding RadChart control ##
-
-You could use one of the following approaches:
-
-#### Drag the control from the Toolbox. ####
-
-Take a look at the following topics on how to use the toolbox:
-	
-#### Create the control definition in XAML or C#. ####
-
-The snippet below shows a simple RadChart definition:
-
-<snippet id='chart-getting-started-xaml-chart'/>
-<snippet id='chart-getting-started-csharp-chart'/>
-
+```XAML
+<telerikChart:RadCartesianChart>     
+	<telerikChart:RadCartesianChart.BindingContext>         
+		<vm:ChartViewModel />     
+	</telerikChart:RadCartesianChart.BindingContext>     
+	<telerikChart:RadCartesianChart.HorizontalAxis>         
+		<telerikChart:CategoricalAxis />     
+	</telerikChart:RadCartesianChart.HorizontalAxis>     
+	<telerikChart:RadCartesianChart.VerticalAxis>         
+		<telerikChart:NumericalAxis />     
+	</telerikChart:RadCartesianChart.VerticalAxis>     
+	<telerikChart:RadCartesianChart.Series>         
+		<telerikChart:BarSeries CategoryBinding="Category" 
+								ValueBinding="Value" 
+								ItemsSource="{Binding Data}" />     
+	</telerikChart:RadCartesianChart.Series> 
+</telerikChart:RadCartesianChart>
+```
 In addition to this, you need to add the following namespace:
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+```XAML
+xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
+```
+
+To visualize RadCartesianChart and RadPieChart -> Register renderers inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+
+```C#
+.ConfigureMauiHandlers(handlers => {
+			
+	// renderer for Telerik UI for MAUI RadCartesianChart control
+	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
+	
+	// renderer for Telerik UI for MAUI RadCPieChart control
+	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));		
+```
 
 ## 4. Populating RadChart with data ##
 
 Here is how the business model is defined:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Here is the sample data used as binding context:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-getting-started-viewmodel'/>
+and the ViewModel:
+
+```C#
+public class ChartViewModel
+{
+    public ChartViewModel()
+    {
+        this.Data = new ObservableCollection<CategoricalData>()
+        {
+            new CategoricalData { Category = "A", Value = 5 },
+            new CategoricalData { Category = "B", Value = 15 },
+            new CategoricalData { Category = "C", Value = 3 },
+            new CategoricalData { Category = "D", Value = 10 },
+            new CategoricalData { Category = "E", Value = 2 },
+            new CategoricalData { Category = "F", Value = 9 },
+        };
+    }
+	
+    public ObservableCollection<CategoricalData> Data { get; set; }
+}
+```
 
 Here is the result:
 
 ![Basic RadCartesianChart](images/chart-gettingstarted.png "Basic RadCartesianChart")
 
->important **SDK Browser** and **QSF** applications contain different examples that show RadChart's main features. You can find the applications in the **Examples** and **QSF** folders of your local **Telerik UI for Xamarin** installation.
-
-## See Also ##
+## See Also
 
 - [Cartesian Chart]({%slug chart-types-cartesian-chart%})
 - [Pie Chart]({%slug chart-types-pie-chart%})

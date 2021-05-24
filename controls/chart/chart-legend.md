@@ -1,8 +1,8 @@
 ---
 title: Chart Legend
-page_title: Xamarin Chart Documentation | Chart Legend 
+page_title: .NET MAUI Chart Documentation | Chart Legend 
 slug: chart-features-legend
-description: Check our &quot;Chart Legend&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Chart Legend&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 9
 ---
 

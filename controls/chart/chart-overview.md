@@ -2,15 +2,14 @@
 title: Overview
 page_title: .NET MAUI Chart Documentation | RadChart Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik Chart for .NET MAUI.
+tags: chart, .net maui, ui for .net maui, 
 position: 0
 slug: chart-overview
 ---
 
-# RadChart Overview #
+# Overview
 
-With the new **Telerik Chart for .NET MAUI** is a feature-rich, intuitive and easy to use data visualization control which employs the Xamarin.Forms technology and allows you to build native iOS, Android and Windows Phone apps in C#. For the Xamarin wrapper lovers, Telerik Chart comes also in the form of Xamarin.iOS and Xamarin.Android wrappers on top of the native Telerik iOS and Android suites.
-
-While Chart for Xamarin capitalizes all the innate benefits of the native UI, it exposes its objects and properties in C#, allowing for no-compromise customization and flexibility. Using Telerik Chart along with the Xamarin.Forms technology allows developers to easily implement various chart scenarios in their apps from a single shared C# code base.
+**Telerik Chart for .NET MAUI** is a feature-rich, intuitive and easy to use data visualization control. While Chart for .NET MAUI capitalizes all the innate benefits of the native UI, it exposes its objects and properties in C#, allowing for no-compromise customization and flexibility. Using Telerik Chart along with the .NET MAUI allows developers to easily implement various chart scenarios in their apps from a single shared C# code base.
 
 ![Chart examples](images/chart-overview.png)
 

@@ -21,6 +21,16 @@ Add the following napespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
 ```
 
+To visualize RadButton -> Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+
+```C#
+.ConfigureMauiHandlers(handlers => {
+			
+	// renderer for Telerik UI for MAUI Button control
+	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadButton), typeof(InputRenderer.ButtonRenderer));
+	.....			
+```
+
 ## Content Alignment
 
 RadButton exposes **HorizontalContentAlignment** and **VerticalContentAlignment** properties of type Microsoft.Maui.TextAlignment which you can use to set different positioning of its content. 
@@ -67,4 +77,3 @@ The next snippet shows how you can apply the background image.
 ## See Also
 
 - [Circular Button]({%slug button-howto-create-circle-button%})
-

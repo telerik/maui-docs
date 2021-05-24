@@ -1,12 +1,13 @@
 ---
 title: Null Values
-page_title: Xamarin Chart Documentation | Null Values Support
+page_title: .NET MAUI Chart Documentation | Null Values Support
 position: 10
-description: Check our &quot;Null Values&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Null Values&quot; documentation article for Telerik Chart for .NET MAUI.
+tags: .net maui, ui for .net maui, microsoft, maui
 slug: chart-nullvalues
 ---
 
-# Null Values #
+# Null Values
 
 There are many scenarios, in which some of the data points visualized in RadChart contain empty/null values. These are the cases when data is not available for some records from the used dataset.
 In cases of CartesianSeries that require X and Y axes (line, area, bar, etc), RadChart represents null data points with an empty space or gap. In case of other chart types (pie, donut) these data points are not visualized.

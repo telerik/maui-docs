@@ -1,14 +1,13 @@
 ---
 title: Pan And Zoom Behavior
-page_title: Xamarin Chart Documentation | Pan And Zoom Behavior
-description: Check our &quot;Pan And Zoom Behavior&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | Pan And Zoom Behavior
+description: Check our &quot;Pan And Zoom Behavior&quot; documentation article for Telerik Chart for .NET MAUI.
+tags, chart, .net maui, pan, zoom, ui for maui
 position: 4
 slug: chart-behaviors-pan-and-zoom
 ---
 
 # ChartPanAndZoomBehavior
-
-## Overview
 
 With **ChartPanAndZoomBehavior**, RadChart handles the gestures drag, pinch open and pinch close which respectively cause panning, zooming in and zooming out of the associated chart plot area.
 
