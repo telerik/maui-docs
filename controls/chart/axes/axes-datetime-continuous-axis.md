@@ -4,6 +4,7 @@ page_title: Xamarin Chart Documentation | DateTimeContinuous Axis
 slug: axes-date-time-continuous-axis
 description: Check our &quot;DateTimeContinuous Axis&quot; documentation article for Telerik Chart for Xamarin control.
 ---
+
 # DateTimeContinuousAxis
 
 ## Overview
@@ -12,7 +13,6 @@ The **DateTimeContinuousAxis** is a special axis that extends the base Cartesian
 DateTimeContinuousAxis also expects valid DateTime values so that the data could be plotted correctly. Think of DateTimeContinuousAxis as a timeline where each data point has a certain position, depending on its DateTime value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two DateTime values. There might be empty time slots if no data falling into them is found, because the axis behaves like a numerical one.
 
 The **CategoricalAxis** inherits from the base **Axis** class. You can see the inherited properties [here]({% slug axes-overview %}).
-
 
 ## Features
 
@@ -27,28 +27,107 @@ The **CategoricalAxis** inherits from the base **Axis** class. You can see the i
 
 Here is an example how to format axis labes on DateTimeContinuous Axis:
 
-First, create the needed business objects:
+Create the needed business objects:
 
-<snippet id='temporal-data-model'/>
+```C#
+public class TemporalData
+{
+    public DateTime Date { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-customization-formataxislabels-view-model'/>
+Create a ViewModel:
+
+```C#
+public class ViewModel
+{
+    public ObservableCollection<TemporalData> Data { get; set; }
+
+    public ViewModel()
+    {
+        this.Data = GetDateTimeData(6);
+    }
+
+    private static ObservableCollection<TemporalData> GetDateTimeData(int itemsCount)
+    {
+        var startDate = new DateTime(2015, 03, 01);
+
+        ObservableCollection<TemporalData> items = new ObservableCollection<TemporalData>();
+        for (int i = 0; i < itemsCount; i++)
+        {
+            TemporalData data = new TemporalData();
+            data.Date = startDate.AddDays(i);
+            data.Value = Math.Sin(i);
+
+            items.Add(data);
+        }
+
+        return items;
+    }
+}
+```
 
 Create a class, for example DateLabelFormatter that inherits from **LabelFormatterBase<DateTime>** for DateTimeContinuous Axis
 
-<snippet id='chart-customization-format-axis-labels-label-formatter'/>
+```C#
+public class DateLabelFormatter : LabelFormatterBase<DateTime>
+{
+    public override string FormatTypedValue(DateTime value)
+    {
+        if (value.Day == 1)
+        {
+            return value.Day + "st";
+        }
+        else if (value.Day == 2)
+        {
+            return value.Day + "nd";
+        }
+        else if (value.Day == 3)
+        {
+            return value.Day + "rd";
+        }
+        else
+        {
+            return value.Day + "th";
+        }
+    }
+}
+```
 
-Finally, use the following snippet to declare the RadChart in XAML or in C#:
+Finally, use the following snippet to declare the RadChart in XAML :
 
-<snippet id='chart-chart-customization-formataxislabels-xaml'/>
-<snippet id='chart-customization-formataxislabels-csharp'/>
+```XAML
+<telerikChart:RadCartesianChart>
+	<telerikChart:RadCartesianChart.BindingContext>
+	    <local:ViewModel />
+	</telerikChart:RadCartesianChart.BindingContext>
+	<telerikChart:RadCartesianChart.HorizontalAxis>
+	    <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+	                                         MajorStepUnit="Day">
+	        <telerikChart:DateTimeContinuousAxis.LabelFormatter>
+	            <local:DateLabelFormatter />
+	        </telerikChart:DateTimeContinuousAxis.LabelFormatter>
+	    </telerikChart:DateTimeContinuousAxis>
+	</telerikChart:RadCartesianChart.HorizontalAxis>
+	<telerikChart:RadCartesianChart.VerticalAxis>
+	    <telerikChart:NumericalAxis LabelFormat="C"
+	                                MajorStep="0.5"
+	                                Minimum="-1"
+	                                Maximum="1" />
+	</telerikChart:RadCartesianChart.VerticalAxis>
+	<telerikChart:RadCartesianChart.Series>
+	    <telerikChart:LineSeries ValueBinding="Value"
+	                             CategoryBinding="Date"
+	                             ItemsSource="{Binding Data}" />
+	</telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the DateTimeContinuous Axis Formatter looks:
 
 ![DateTimeContinuous Axis](images/chart-date-time-continuous-axis-example.png)
-
->important A sample Format Axis Label example can be found in the Chart/Customization folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 

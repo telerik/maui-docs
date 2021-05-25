@@ -1,8 +1,8 @@
 ---
 title: Categorical Axis
-page_title: Xamarin Chart Documentation | Categorical Axis
+page_title: .NET MAUI Chart Documentation | Categorical Axis
 slug: axes-categorical-axis
-description: Check our &quot;Categorical Axis&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Categorical Axis&quot; documentation article for Telerik Chart for .NET MAUI
 ---
 
 # CategoricalAxis
@@ -29,11 +29,41 @@ Here is an example how to format axis labes on Categorical Axis:
 
 First, create the needed business objects:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-series-categorical-data-view-model'/>
+```C#
+public class CategoricalDataViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
+
+    public CategoricalDataViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
+
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "A", Value = 101 },
+            new CategoricalData { Category = "B", Value = 45 },
+            new CategoricalData { Category = "C", Value = 77 },
+            new CategoricalData { Category = "D", Value = 15 },
+            new CategoricalData { Category = "E", Value = 56 },
+        };
+        return data;
+    }
+}
+```
 
 Finally, use the following snippet to declare the RadChart in XAML or in C#:
 

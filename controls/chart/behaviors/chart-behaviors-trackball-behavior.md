@@ -1,7 +1,7 @@
 ---
 title: TrackBall Behavior
-page_title: Xamarin Chart Documentation | TrackBall Behavior
-description: Check our &quot;Track Ball Behavior&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | TrackBall Behavior
+description: Check our &quot;Track Ball Behavior&quot; documentation article for Telerik Chart for .NET MAUI
 position: 2
 slug: chart-behaviors-trackball
 ---
@@ -12,8 +12,6 @@ slug: chart-behaviors-trackball
 
 **ChartTrackBallBehavior** is responsible for rendering concise information about several data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
 
->important With R2 2018 SP release Behaviors property of RadChart was replaced with **ChartBehaviors**. Behaviors property is marked as obsolete, so please use **ChartBehaviors** instead.
-
 ## Features 
 
 - **ShowTrackInfo**(bool):  Determines whether the visual information for all the closest data points will be displayed.
@@ -23,29 +21,91 @@ slug: chart-behaviors-trackball
 
 Here is an example of how the Chart TrackBall Behavior works:
 
-First, create the needed business objects, for example:
+Create the needed business objects, for example:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-track-ball-behavior-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadCartesianChart in XAML and in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data1 { get; set; }
+    public ObservableCollection<CategoricalData> Data2 { get; set; }
 
-<snippet id='chart-interactivity-trackballseries-xaml'/>
-<snippet id='chart-interactivity-trackballseries-csharp'/>
+    public ViewModel()
+    {
+        this.Data1 = GetCategoricalData1();
+        this.Data2 = GetCategoricalData2();
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static ObservableCollection<CategoricalData> GetCategoricalData1()
+    {
+        var data = new ObservableCollection<CategoricalData>  {
+        new CategoricalData { Category = "Greenings", Value = 52 },
+        new CategoricalData { Category = "Perfecto", Value = 60 },
+        new CategoricalData { Category = "NearBy", Value = 77 },
+        new CategoricalData { Category = "Family", Value = 50 },
+        new CategoricalData { Category = "Fresh", Value = 56 },
+    };
+        return data;
+    }
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData2()
+    {
+        var data = new ObservableCollection<CategoricalData>  {
+        new CategoricalData { Category = "Greenings", Value = 33 },
+        new CategoricalData { Category = "Perfecto", Value = 88 },
+        new CategoricalData { Category = "NearBy", Value = 61 },
+        new CategoricalData { Category = "Family", Value = 94 },
+        new CategoricalData { Category = "Fresh", Value = 72 },
+    };
+        return data;
+    }
+}
+```
+
+Declare a RadCartesianChart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+                                      PlotMode="OnTicks" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Category"
+                                 DisplayName="Sales 1"
+                                 ItemsSource="{Binding Data1}" />
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Category"
+                                 DisplayName="Sales 2"
+                                 ItemsSource="{Binding Data2}" />
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.ChartBehaviors>
+        <telerikChart:ChartTrackBallBehavior ShowIntersectionPoints="True"
+                                             ShowTrackInfo="True" />
+    </telerikChart:RadCartesianChart.ChartBehaviors>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the trackball looks:
 
 ![Chart Track Ball Behavior](images/chart-behaviors-trackball.png)
-
->important A sample TrackBall example can be found in the Chart/Interactivity folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 # See Also
 

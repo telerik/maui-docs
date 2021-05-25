@@ -25,35 +25,99 @@ With **ChartPanAndZoomBehavior**, RadChart handles the gestures drag, pinch open
 	- Both
 - **HandleDoubleTap**: Determines whether a double-tap gesture will be handled by the behavior to reset the values of the Zoom and ScrollOffset (Pan) properties of the chart.
 
->important With R2 2018 SP release Behaviors property of RadChart was replaced with **ChartBehaviors**. Behaviors property is marked as obsolete, so please use **ChartBehaviors** instead.
-
 ## Example
 
 Here is an example of how the Chart PanAndZoom Behavior works:
 
-First, create the needed business objects, for example:
+Create the needed business objects, for example:
 
-<snippet id='temporal-data-model'/>
+```C#
+public class TemporalData
+{
+    public DateTime Date { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-pan-and-zoom-behavior-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadCartesianChart in XAML and in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<TemporalData> Data { get; set; }
 
-<snippet id='chart-interactivity-panzoom-xaml'/>
-<snippet id='chart-interactivity-panzoom-csharp'/>
+    public ViewModel()
+    {
+        this.Data = new ObservableCollection<TemporalData>(GetDateTimeData(200));
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static List<TemporalData> GetDateTimeData(int itemsCount)
+    {
+        var startDate = new DateTime(2015, 03, 01);
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+        List<TemporalData> items = new List<TemporalData>();
+        for (int i = 0; i < itemsCount; i++)
+        {
+            TemporalData data = new TemporalData();
+            data.Date = startDate.AddDays(i);
+
+            if (i % 2 == 0)
+            {
+                data.Value = i + 5;
+            }
+            else
+            {
+                if (i % 5 == 0)
+                {
+                    data.Value = i - 15;
+                }
+            }
+
+            items.Add(data);
+        }
+
+        return items;
+    }
+}
+```
+
+Declare a RadCartesianChart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart PaletteName="Light"
+                                Zoom="2, 1">
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel/>
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+                                             MajorStepUnit="Day"
+                                             PlotMode="OnTicks"
+                                             LabelFormat="dd MMM"
+                                             MajorStep="20"
+                                             ShowLabels="True"/>
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Date"
+                                 DisplayName="Sales"
+                                 ItemsSource="{Binding Data}"/>
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.ChartBehaviors>
+        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal" 
+                                              PanMode="Horizontal" 
+                                              HandleDoubleTap="True"/>
+    </telerikChart:RadCartesianChart.ChartBehaviors>
+</telerikChart:RadCartesianChart>
+```
 
 Here is the result:
 
 ![Chart Pan And Zoom Behavior](images/chart-behaviors-panandzoom.png "Chart Pan And Zoom Behavior")
-
->important A sample Pan And Zoom example can be found in the Chart/Interactivity folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 # See Also
 

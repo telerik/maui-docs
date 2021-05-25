@@ -1,8 +1,8 @@
 ---
 title: Cartesian Chart
-page_title: Xamarin Chart Documentation | Cartesian Chart
+page_title: .NET MAUI Chart Documentation | Cartesian Chart
 position: 1
-description: Check our &quot;Cartesian Chart&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Cartesian Chart&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-types-cartesian-chart
 ---
 
@@ -69,9 +69,6 @@ Each of the above series of the same type may be combined in either [stacks or c
 <telerikChart:RadCartesianChart>
 </telerikChart:RadCartesianChart>
 ```
-```C#
-var chart = new RadCartesianChart();
-```
 
 2. The RadCartesianChart control needs two axes - horizontal and vertical to plot its data.
 
@@ -83,10 +80,7 @@ var chart = new RadCartesianChart();
 	<telerikChart:NumericalAxis/>
 </telerikChart:RadCartesianChart.VerticalAxis>
 ```
-```C#
-chart.HorizontalAxis = new CategoricalAxis();
-chart.VerticalAxis = new NumericalAxis();
-```
+
 
 3. After that you can add the series to the RadCartesianChart.Series collection:
 
@@ -104,13 +98,6 @@ chart.VerticalAxis = new NumericalAxis();
 	</telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
 ```
-```C#	
-var series = new BarSeries();
-series.SetBinding(BarSeries.ItemsSourceProperty, new Binding("CategoricalData"));
-series.ValueBinding = new PropertyNameDataPointBinding("Value");
-series.CategoryBinding = new PropertyNameDataPointBinding("Category");            
-chart.Series.Add(series);
-```
 
 4. You also have to set a BindingContext of the chart if none of its parents have a context:
  
@@ -118,9 +105,6 @@ chart.Series.Add(series);
 <telerikChart:RadCartesianChart.BindingContext>
 	<local:ViewModel/>
 </telerikChart:RadCartesianChart.BindingContext>
-```
-```C#
-chart.BindingContext = new ViewModel();
 ```
 
 Where `local` is
@@ -135,22 +119,66 @@ Here is the full definition of the chart:
 
 First, create the needed business object, for example:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-series-categorical-data-view-model'/>
+```C#
+public class CategoricalDataViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
 
-Finally use the following snippet to declare a RadPieChart with Pie Series in XAML and in C#:
+    public CategoricalDataViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
 
-<snippet id='chart-series-barvertical-xaml'/>
-<snippet id='chart-series-barvertical-csharp'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "A", Value = 101 },
+            new CategoricalData { Category = "B", Value = 45 },
+            new CategoricalData { Category = "C", Value = 77 },
+            new CategoricalData { Category = "D", Value = 15 },
+            new CategoricalData { Category = "E", Value = 56 },
+        };
+        return data;
+    }
+}
+```
+
+Declare the chart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:CategoricalDataViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 Here is the final result:
 
 ![Cartesian Chart](images/cartesian-bar-series-basic-example.png)
-
->important [SDK Browser application]({%slug developer-focused-examples%}) contains various examples with RadCartesianChart control.
 
 ## See Also
 

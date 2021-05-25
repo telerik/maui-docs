@@ -1,7 +1,7 @@
 ---
 title: ToolTip Behavior
-page_title: Xamarin Chart Documentation | ToolTip Behavior
-description: Check our &quot;Tool Tip Behavior&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | ToolTip Behavior
+description: Check our &quot;Tool Tip Behavior&quot; documentation article for Telerik Chart for .NET MAUI
 position: 3
 slug: chart-behaviors-tooltip
 ---
@@ -11,8 +11,6 @@ slug: chart-behaviors-tooltip
 ## Overview
 
 **ChartTooltipBehavior** is responsible for rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
-
->important With R2 2018 SP release Behaviors property of RadChart was replaced with **ChartBehaviors**. Behaviors property is marked as obsolete, so please use **ChartBehaviors** instead.
 
 ## Features
 
@@ -24,29 +22,95 @@ slug: chart-behaviors-tooltip
 
 Here is an example of how the Chart ToolTip Behavior works:
 
-First, create the needed business objects, for example:
+Create the business object:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class TemporalData
+{
+    public DateTime Date { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-tool-tip-behavior-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadCartesianChart in XAML and in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<TemporalData> Data { get; set; }
 
-<snippet id='chart-interactivity-tooltipseries-xaml'/>
-<snippet id='chart-interactivity-tooltipseries-csharp'/>
+    public ViewModel()
+    {
+        this.Data = new ObservableCollection<TemporalData>(GetDateTimeData(200));
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static List<TemporalData> GetDateTimeData(int itemsCount)
+    {
+        var startDate = new DateTime(2015, 03, 01);
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+        List<TemporalData> items = new List<TemporalData>();
+        for (int i = 0; i < itemsCount; i++)
+        {
+            TemporalData data = new TemporalData();
+            data.Date = startDate.AddDays(i);
+
+            if (i % 2 == 0)
+            {
+                data.Value = i + 5;
+            }
+            else
+            {
+                if (i % 5 == 0)
+                {
+                    data.Value = i - 15;
+                }
+            }
+
+            items.Add(data);
+        }
+
+        return items;
+    }
+}
+```
+
+Declare a RadCartesianChart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart PaletteName="Light"
+                                Zoom="2, 1">
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel/>
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+                                             MajorStepUnit="Day"
+                                             PlotMode="OnTicks"
+                                             LabelFormat="dd MMM"
+                                             MajorStep="20"
+                                             ShowLabels="True"/>
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Date"
+                                 DisplayName="Sales"
+                                 ItemsSource="{Binding Data}"/>
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.ChartBehaviors>
+        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal" 
+                                              PanMode="Horizontal" 
+                                              HandleDoubleTap="True"/>
+    </telerikChart:RadCartesianChart.ChartBehaviors>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the tool-tip looks:
 
 ![Chart Tooltip Behavior](images/chart-behaviors-tooltip.png)
-
->important A sample ToolTip example can be found in the Chart/Interactivity folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 # See Also
 

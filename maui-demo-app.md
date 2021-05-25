@@ -7,7 +7,7 @@ tags: .net maui, ui for .net maui, .net maui controls
 position: 2
 ---
 
-#  Telerik UI for .NET MAUI Demo Application
+#  Telerik UI for MAUI Demo Application
 
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo.png)
 
