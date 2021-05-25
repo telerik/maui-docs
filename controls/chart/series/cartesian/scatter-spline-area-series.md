@@ -1,7 +1,7 @@
 ---
 title: ScatterSplineArea Series
-page_title: Xamarin Chart Documentation | ScatterSplineArea Series
-description: Check our &quot;ScatterSplineArea Series&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | ScatterSplineArea Series
+description: Check our &quot;ScatterSplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-spline-area-series
 position: 0
 ---
@@ -26,27 +26,69 @@ Here is an example how to create RadCartesianChart with ScatterSplineArea Series
 
 First, create the needed business objects, for example:
 
-<snippet id='numerical-data-model'/>
+```C#
+public class NumericalData
+{
+    public double XData { get; set; }
+    public double YData { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-series-numerica-view-model'/>
+```C#
+public class NumericalViewModel
+{
+    public ObservableCollection<NumericalData> Data { get; set; }
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterSplineArea Series in XAML and in C#:
+    public NumericalViewModel()
+    {
+        this.Data = GetNumericData();
+    }
 
-<snippet id='chart-series-scattersplinearea-xaml'/>
-<snippet id='chart-series-scattersplinearea-csharp'/>
+    public static ObservableCollection<NumericalData> GetNumericData()
+    {
+        var data = new ObservableCollection<NumericalData>
+        {
+            new NumericalData { XData = 4, YData = 9 },
+            new NumericalData { XData = 8, YData = 10 },
+            new NumericalData { XData = 9, YData = 13 },
+            new NumericalData { XData = 12, YData = 24 },
+            new NumericalData { XData = 17, YData = 24 },
+            new NumericalData { XData = 21, YData = 4 },
+            new NumericalData { XData = 26, YData = 13 },
+            new NumericalData { XData = 29, YData = 3 },
+            new NumericalData { XData = 30, YData = 16 },
+        };
+        return data;
+    }
+}
+```
 
-Where the **telerikChart** namespace is the following:
+Finally, use the following snippet to declare a RadCartesianChart with ScatterSplineArea Series in XAML:
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:NumericalViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:NumericalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:ScatterSplineAreaSeries XValueBinding="XData"
+                                              YValueBinding="YData"
+                                              ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 And here is the result:
 
 ![Basic ScatterSplineAreaSeries](images/cartesian-scatter-spline-area-series-basic-example.png)
-
->important A sample ScatterSplineArea Series example can be found in the Chart/Series folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ### Customization Example
 
