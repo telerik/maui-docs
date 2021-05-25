@@ -1,8 +1,8 @@
 ---
 title: Donut Series
-page_title: Xamarin Chart Documentation | Donut Series
+page_title: .NET MAUI Chart Documentation | Donut Series
 slug: chart-series-donut-series
-description: Check our &quot;DonutSeries&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;DonutSeries&quot; documentation article for Telerik Chart for .NET MAUI control.
 position: 1
 ---
 
@@ -23,26 +23,61 @@ position: 1
 
 Here is an example that shows how to create a basic RadPieChart with DonutSeries in XAML: 
 
-<snippet id='chart-series-donut-xaml'/>
-
-Where:
-
-<snippet id='xmlns-telerikchart'/>
+```XAML
+<telerikChart:RadPieChart>
+    <telerikChart:RadPieChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadPieChart.BindingContext>
+    <telerikChart:RadPieChart.Series>
+        <telerikChart:DonutSeries ShowLabels="True"
+                                  InnerRadiusFactor="0.4"
+                                  ValueBinding="Value"
+                                  ItemsSource="{Binding Data}" />
+    </telerikChart:RadPieChart.Series>
+</telerikChart:RadPieChart>
+```
 
 And the business object exposes the following properties:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 You'd also need to add a ViewModel class and add some data:
 
-<snippet id='chart-piechart-view-model'/>
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
+
+    public ViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
+
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 82 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
+}
+```
 
 Here is the result:
 
 ![Basic Donut Series](images/donut-series-basic-example.png)
-
->important A sample Donut Series example can be found in the Chart/PieChart folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
-
 
 ## See Also
 

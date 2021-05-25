@@ -1,8 +1,8 @@
 ---
 title: Pie Series
-page_title: Xamarin Chart Documentation | Pie Series
+page_title: .NET MAUI Chart Documentation | Pie Series
 slug: chart-series-pie-series
-description: Check our &quot;PieSeries&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;PieSeries&quot; documentation article for Telerik Chart for .NET MAUI
 ---
 
 # PieSeries
@@ -21,29 +21,63 @@ description: Check our &quot;PieSeries&quot; documentation article for Telerik C
 
 Here is an example how to create RadPieChart with Pie Series:
 
-First, create the needed business objects, for example:
+Create the needed business object:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-piechart-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadPieChart with Pie Series in XAML and in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
 
-<snippet id='chart-piechart-xaml'/>
-<snippet id='chart-piechart-csharp'/>
+    public ViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
 
-In addition to this you need to add the following namespace:
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 82 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
+}
+```
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+Declare a RadPieChart with Pie Series in XAML:
+
+```XAML
+<telerikChart:RadPieChart>
+    <telerikChart:RadPieChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadPieChart.BindingContext>
+    <telerikChart:RadPieChart.Series>
+        <telerikChart:PieSeries ShowLabels="True"
+                                RadiusFactor="0.8"
+                                ValueBinding="Value"
+                                ItemsSource="{Binding Data}" />
+    </telerikChart:RadPieChart.Series>
+</telerikChart:RadPieChart>
+```
 
 Here is the result:
 
 ![Basic PieSeries using the following properties](images/pie-series-basic-example.png)
-
->important A sample Pie Series example can be found in the Chart/PieChart folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 

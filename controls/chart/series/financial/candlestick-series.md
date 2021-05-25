@@ -1,8 +1,8 @@
 ---
 title: Candlestick Series
-page_title: Xamarin Chart Documentation | Candlestick Series
+page_title: .NET MAUI Chart Documentation | Candlestick Series
 slug: chart-series-candlestick-series
-description: Check our &quot;Candlestick Series&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Candlestick Series&quot; documentation article for Telerik Chart for .NET MAUI
 position: 1
 ---
 
@@ -16,22 +16,117 @@ position: 1
 
 Here is an example of how to create a basic RadCartesianChart with CandlestickSeries in XAML and C#:
 
-<snippet id='chart-series-candlestick-xaml'/>
-<snippet id='chart-series-candlestick-csharp'/> 
+```XAML
+<telerikChart:RadCartesianChart PaletteName="Light" 
+                                SelectionPaletteName="LightSelected"
+                                BackgroundColor="White" >
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:DateTimeContinuousAxis LineColor="#A9A9A9" 
+                                             LabelFitMode="Rotate"
+                                             LabelFormat="MMM"
+                                             PlotMode="BetweenTicks" 
+                                             MajorStepUnit="Month"/>
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis LineColor="#A9A9A9" 
+                                    MajorTickBackgroundColor="#A9A9A9" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:CandlestickSeries CategoryBinding="Category"
+                                        OpenBinding="Open" 
+                                        HighBinding="High"
+                                        LowBinding="Low"
+                                        CloseBinding="Close"
+                                        ItemsSource="{Binding SeriesData}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
-Add the following namespace:
-
-<snippet id='xmlns-telerikchart'/>
 
 Here is how the business model is defined:
 
-<snippet id='chart-ohlc-datapoint-csharp'/>
+```C#
+public class OhlcDataPoint : NotifyPropertyChangedBase
+{
+    private DateTime category;
+    private double open;
+    private double high;
+    private double low;
+    private double close;
+
+    public DateTime Category
+    {
+        get { return this.category; }
+        set
+        {
+            if (value != this.category)
+            {
+                this.category = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Open
+    {
+        get { return this.open; }
+        set
+        {
+            if (value != this.open)
+            {
+                this.open = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double High
+    {
+        get { return this.high; }
+        set
+        {
+            if (value != this.high)
+            {
+                this.high = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Low
+    {
+        get { return this.low; }
+        set
+        {
+            if (value != this.low)
+            {
+                this.low = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Close
+    {
+        get { return this.close; }
+        set
+        {
+            if (value != this.close)
+            {
+                this.close = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+}
+```
 
 And here is the result:
 
 ![Basic Candlestick](images/candlestick_series.png)
-
->important **SDK Browser** application contains an example that shows how to use the CandlestickSeries. You can find the application in the **Examples** folder of your local **Telerik UI for Xamarin** installation.
 
 ## See Also
 

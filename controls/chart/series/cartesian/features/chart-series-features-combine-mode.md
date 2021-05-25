@@ -1,7 +1,7 @@
 ---
 title: CategoricalSeries Combine Mode
-page_title: Xamarin Chart Documentation | CategoricalSeries Combine Mode
-description: Check our &quot;CategoricalSeries Combine Mode&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | CategoricalSeries Combine Mode
+description: Check our &quot;CategoricalSeries Combine Mode&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-combine-mode
 position: 0
 ---
@@ -23,29 +23,88 @@ The default combine mode is **None**. You can define the current combine mode wi
 
 Here is an example how to create Stack CartesianChart with Bar Series :
 
-First, create the needed business objects, for example:
+Create the needed business objects, for example:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-series-series-categorical-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a CombineMode property to the Bar Series in XAML and in C#:
+```C#
+public class SeriesCategoricalViewModel
+{
+    public ObservableCollection<CategoricalData> Data1 { get; set; }
+    public ObservableCollection<CategoricalData> Data2 { get; set; }
 
-<snippet id='chart-series-stackbarvertical-xaml'/>
-<snippet id='chart-series-stackbarvertical-csharp'/>
+    public SeriesCategoricalViewModel()
+    {
+        this.Data1 = GetCategoricalData1();
+        this.Data2 = GetCategoricalData2();
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static ObservableCollection<CategoricalData> GetCategoricalData1()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 82 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData2()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 33 },
+            new CategoricalData { Category = "Perfecto", Value = 51 },
+            new CategoricalData { Category = "NearBy", Value = 11 },
+            new CategoricalData { Category = "Family", Value = 94 },
+            new CategoricalData { Category = "Fresh", Value = 12 },
+        };
+        return data;
+    }
+}
+```
+
+Declare a CombineMode property to the Bar Series in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:SeriesCategoricalViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                CombineMode="Stack"
+                                ItemsSource="{Binding Data1}" />
+        <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                CombineMode="Stack"
+                                ItemsSource="{Binding Data2}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how Stack Bar Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-bar-series.png)
-
->important A sample StackBarSeries example can be found in the Chart/Series folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## Stack Area Series Example
 
@@ -53,15 +112,11 @@ Here is how Stack Area Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-area-series.png)
 
->important A sample StackAreaSeries example can be found in the Chart/Series folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
-
 ## Stack Spline Area Series Example
 
 Here is how Stack Spline Area Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-spline-area-series.png)
-
->important A sample StackSplineSeries example can be found in the Chart/Series folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 
