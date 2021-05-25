@@ -101,8 +101,8 @@ baseurl: "/devtools/maui"
 mvcCoreVersion: "2016.2.616"
 
 ## The product name
-productName: "Telerik UI for Xamarin"
-product: "Telerik UI for Xamarin"
+productName: "Telerik UI for MAUI"
+product: "Telerik UI for MAUI"
 platform: xamarin
 
 ## Assign layout and category per different paths
@@ -113,7 +113,7 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
-        product: "xamarin-ui"
+        product: "maui-ui"
         
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
@@ -141,16 +141,7 @@ nav:
   "Pricing": https://www.telerik.com/purchase/xamarin-ui
 
 footer:
--
-  title: "Sample Applications"
-  links:
-    "Telerik Tagit": https://www.telerik.com/xamarin-ui/telerik-tagit
-    "iOS Demo App": https://itunes.apple.com/dm/app/telerik-ui-for-xamarin-)examples/id1083924868?mt=8
-    "Android Demo App": https://play.google.com/store/apps/details?id=com.telerik.xamarin&hl=en
--
-  title: "Support Resources"
-  links:
-    "Xamarin.Forms SDK Examples": https://github.com/telerik/xamarin-forms-sdk
+
 -
   title: "Community"
   links:

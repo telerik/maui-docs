@@ -9,5 +9,5 @@ position: 1
 
 &nbsp;
 
-The End User License Agreement for Telerik UI for Xamarin can be found on the following page:       
-[https://www.telerik.com/purchase/license-agreement/ui-for-xamarin](https://www.telerik.com/purchase/license-agreement/ui-for-xamarin).
+The End User License Agreement for Telerik UI for MAUI can be found on the following page:       
+[https://www.telerik.com/purchase/license-agreements](https://www.telerik.com/purchase/license-agreements).
