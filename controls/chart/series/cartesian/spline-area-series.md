@@ -1,7 +1,7 @@
 ---
 title: SplineArea Series
-page_title: Xamarin Chart Documentation | SplineArea Series
-description: Check our &quot;SplineArea Series&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | SplineArea Series
+description: Check our &quot;SplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-spline-area-series
 position: 0
 ---
@@ -24,21 +24,63 @@ Here is an example how to create RadCartesianChart with SplineArea Series:
 
 First, create the needed business objects, for example:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-series-categorical-view-model'/>
+```C#
+public class CategoricalViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
+
+    public CategoricalViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
+
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 82 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
+}
+```
 
 Finally, use the following snippet to declare a RadCartesianChart with SplineArea Series in XAML and in C#:
 
-<snippet id='chart-series-splinearea-xaml'/>
-<snippet id='chart-series-scatterspline-csharp'/>
-
-Where the **telerikChart** namespace is the following:
-
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:CategoricalViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+                                      PlotMode="OnTicks" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:SplineAreaSeries ValueBinding="Value"
+                                       CategoryBinding="Category"
+                                       ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 And here is the result:
 

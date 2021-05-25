@@ -9,7 +9,13 @@ position: 2
 
 #  Telerik UI for MAUI Demo Application
 
+On Android
+
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo.png)
+
+on iPad
+
+![Telerik UI for .NET MAUI Demo Application Folder](images/demo-ipad.png)
 
 ## Download the Demo App
 

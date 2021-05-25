@@ -21,7 +21,7 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 >important Telerik .NET MAUI Preview controls are available for Android and iOS
 
-### Download product file
+### Download product files
 
 **1. Log into your [Telerik account](https://www.telerik.com/account/).**
 
@@ -37,16 +37,26 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 ![MSI Telerik .NET MAUI](images/download_product_files_3.png)
 
-### Installation
+### Installation for Windows
 
 * Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Telerik\ or C:\Program Files (x86)\Telerik\ for a 64bit machine.
-* Telerik_UI_for_Maui_[version]_[license].pkg - runnable pkg file used for automatic installation (for use on Mac).
 
-**Exploring the installation folder**
-
-If you open the installation folder you will probably note the following sub directories:
+The installation folder has the following sub directories:
 
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
+
+* Binaries - Contains the needed dlls for Android and iOS 
+* DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
+* LicenseAgreements - provides the product EULA.
+* Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
+
+### Installation for macOS
+
+* Telerik_UI_for_Maui_[version]_[license].pkg - runnable pkg file used for automatic installation (for use on Mac).
+
+The installation folder has the following sub directories:
+
+![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
 * DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
@@ -81,7 +91,7 @@ public class Startup : IStartup
 				// renderer for Telerik UI for MAUI RadCartesianChart control
 				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
 				
-				// renderer for Telerik UI for MAUI RadCPieChart control
+				// renderer for Telerik UI for MAUI RadPieChart control
 				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));
 				
 				// renderer for Telerik UI for MAUI RadListView control
@@ -110,7 +120,13 @@ public class Startup : IStartup
 
 Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates the Telerik Preview controls for Microsoft .NET MAUI. For more details visit our [Demo App article]({%slug maui-demo-app%}).
 
+### Telerik UI for MAUI Demo App on Android
+
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo.png)
+
+### Telerik UI for MAUI Demo App on iPad
+
+![Telerik UI for .NET MAUI Demo Application Folder](images/demo-ipad.png)
 
 ## See Also
 
