@@ -21,17 +21,15 @@ on iPad
 
 **1. Log into your [Telerik account](https://www.telerik.com/account/).**
 
-**2. Click on the __Downloads__ tab:**
+**2. Go to [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)**
 
-![MAUI Poguct](images/download_product_files_1.png)
+**3. Click Download Telerik UI for MAUI button:**
 
-**3. Select Telerik UI for MAUI product title:**
+![Telerik UI for .NET MAUI](images/download_maui.png)
 
-![Telerik UI for .NET MAUI](images/download_product_files_2.png)
+**4. The download starts automatically**
 
-**4. The next page allows you to download the Automatic Installation files**
-
-![MSI Telerik .NET MAUI](images/download_product_files_3.png)
+![Telerik UI for .NET MAUI](images/downloading-maui.png)
 
 **Installation for Windows**
 
