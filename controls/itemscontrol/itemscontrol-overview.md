@@ -9,14 +9,16 @@ slug: itemscontrol-overview
 
 # Overview
 
-With the new **Telerik RadItemsControl for .NET MAUI** 
+With **Telerik ItemsControl for .NET MAUI** you can easily visualize a list of items. You have full control over the way each item is presented by defining the **ItemTemplate** property. The template can contain any view that you can use to display your data according to the design requirements you have.
 
 >important [Getting Started with Telerik UI for .NET MAUI]({%slug maui-getting-started%}) guide will help you with more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
 
-#### Figure 1: RadBorder Overview
+#### Figure 1: RadItemsControl Overview
 
 ## Key features
 
+* **Define the ItemsSource**: Through the **ItemsSource** property you can define a collection of items that will populate the ItemsControl with data.
+* **Apply ItemTemplate**: **ItemTemplate** property provides you with great flexibility to define the presentation of your data. 
 
 ## See Also
 

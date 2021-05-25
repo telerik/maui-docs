@@ -9,7 +9,7 @@ slug: button-overview
 
 # Overview
 
-With the new **Telerik RadButton for .NET MAUI** is a button control that enhances the functionality of the standard .NET MAUI Button by providing means for customizing its look &amp; feel. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
+**Telerik RadButton for .NET MAUI** is a button control that enhances the functionality of the standard .NET MAUI Button by providing means for customizing its look &amp; feel. Additionally, you can add borders, transparency, text alignment, backgrounds, and images.
 
 >important [Getting Started with Telerik UI for .NET MAUI]({%slug maui-getting-started%}) guide will help you with more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
 
