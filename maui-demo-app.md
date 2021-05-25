@@ -29,23 +29,37 @@ on iPad
 
 ![Telerik UI for .NET MAUI](images/download_product_files_2.png)
 
-**4. The next page allows you to download the Automatic Installation msi file**
+**4. The next page allows you to download the Automatic Installation files**
 
 ![MSI Telerik .NET MAUI](images/download_product_files_3.png)
 
-**3. Install** Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC).
+**Installation for Windows**
 
-Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for Xamarin component in the following folder unless you specify otherwise: C:\Program Files\Telerik\ or C:\Program Files (x86)\Telerik\ for a 64bit machine.
+* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Telerik\ or C:\Program Files (x86)\Telerik\ for a 64bit machine.
 
-The Installation folder has the following structure:
+The installation folder has the following sub directories:
+
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
-* **DemoApp - Dempo App with Telerik UI for .NET MAUI controls**
+* DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
-**4. Open the DemoApp.sln file in Visual Studio**
+**Installation for macOS**
+
+* Telerik_UI_for_Maui_[version]_[license].pkg - runnable pkg file used for automatic installation (for use on Mac).
+
+The installation folder has the following sub directories:
+
+![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
+
+* Binaries - Contains the needed dlls for Android and iOS 
+* DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
+* LicenseAgreements - provides the product EULA.
+* Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
+
+**5. Open the DemoApp.sln file in Visual Studio**
 
 ## See Also
 
