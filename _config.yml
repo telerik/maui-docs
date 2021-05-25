@@ -145,9 +145,9 @@ footer:
 -
   title: "Community"
   links:
-    "Forums": https://www.telerik.com/forums/xamarin
+    "Forums": https://www.telerik.com/forums/
     "Blogs": https://www.telerik.com/blogs/mobile
-    "Feedback Portal": https://feedback.progress.com/project/168
+    "Feedback Portal": https://feedback.telerik.com/maui
   
 
 footer_social: 
