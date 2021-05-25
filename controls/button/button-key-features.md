@@ -61,19 +61,6 @@ The snippet below demonstrates how BorderThickness could be defined.
                         BorderColor="#4488F6" />
 ```
 
-## Background Image
-
-The **BackgroundImage** property is of type Microsoft.Maui.Controls.ImageSource and is used to set a graphic as a background of the RadButton control.   
-
-The next snippet shows how you can apply the background image.
-
-```XAML
-<telerikInput:RadButton Text="Click me!"  
-                        BackgroundImage="button_backgroundImage.png"/>
-```
-
->important .NET MAUI has a built-in cross-platform resources which you can use to add any images, fonts, translation files. These resources have to be added in the Resources folder of the cross-platform project.
-
 #### Telerik Button for .NET MAUI
 
 ![Button Key Features Example](images/button-key-features.png)

@@ -20,9 +20,7 @@ slug: button-overview
 * **Content alignment options**: With RadButton, you can easily control the horizontal and vertical positioning of its content. For more details, see the [Key Features: Content Alignment]({% slug button-key-features %}#content-alignment) section in RadButton's documentation.
  
 * **Setting border thickness**: RadButton provides a **BorderThickness** property, which you can use together with **BorderColor**. This combination allows you to apply various types of borders around your buttons. See [Key Features: Border Thickness]({% slug button-key-features %}#border-thickness) for more information.
- 
-* **Setting background image**: You can customize RadButton's appearance by applying an image as a background. See [Key Features: Background Image]({% slug button-key-features %}#background-image) for details.
- 
+
 * **Creating circle button**: You can create a circular button by adjusting the Width, Height and BorderRadius of RadButton. See the [How To: Create Circle Button] ({%slug button-howto-create-circle-button%}) topic for more details.
  
 ## See Also
