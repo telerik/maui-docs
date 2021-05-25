@@ -119,4 +119,3 @@ Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates 
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
-* [ListView]({%slug listview-overview%})

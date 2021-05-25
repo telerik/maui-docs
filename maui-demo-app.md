@@ -47,4 +47,3 @@ The Installation folder has the following structure:
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
-* [ListView]({%slug listview-overview%})

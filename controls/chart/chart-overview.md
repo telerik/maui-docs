@@ -73,14 +73,6 @@ Another feature of RadChart is the ability to show [annotations]({% slug chart-a
 - **CartesianGridLine**: In the case of the Cartesian chart, the grid line represents a vertical or horizontal line which crosses the entire plot area.
 - **CartesianPlotBand**: The Cartesian Plot Band annotation is either a horizontal or a vertical stripe that crosses entirely the vertical or horizontal axis, respectively.
 
-## Palettes ##
-
-The [chart palettes]({% slug chart-how-to-create-custom-palette %}) are a set of predefined values that you can use to set colors of a chart.
-
 ## Labels ##
 
 Chart can display different labels for the series and axes that are displayed. The labels can be customized according to your preferences.
-
-## Platform-Specific Features ##
-
-You can [customize the control]({% slug chart-how-to-create-custom-renderer %}) for a specific platform by creating a custom renderer.

@@ -28,7 +28,6 @@ Our suite features the following controls for cross-platform development with MA
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
-* [ListView]({%slug listview-overview%})
 
 ## Getting Started with Telerik UI for .NET MAUI
 
