@@ -113,7 +113,6 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
-        product: "maui-ui"
         
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
@@ -135,10 +134,7 @@ tabbed_code_complex_separator: true
 edit_repo_url: https://github.com/telerik/xamarin-forms-docs/edit/master
 download: https://www.telerik.com/download/xamarin-ui
 nav:
-  "Demos": https://www.telerik.com/support/demos#mobile
-  "Whats New": https://www.telerik.com/support/whats-new/xamarin-ui
-  "About": https://www.telerik.com/xamarin-ui
-  "Pricing": https://www.telerik.com/purchase/xamarin-ui
+  "About": https://www.telerik.com/maui-ui
 
 footer:
 
@@ -157,6 +153,7 @@ footer_social:
     twitter: https://twitter.com/Telerik/ 
 
 has_kb_portal: false
+has_api_reference: false
 has_cta_panels: false
         
 # Assets pipeline configuration
