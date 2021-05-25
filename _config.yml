@@ -3,7 +3,7 @@ url: "https://docs.telerik.com/devtools/maui"
 site_name: MAUI
 
 # Exclude files which should not be in the output 
-exclude: [README.md,Gemfile,Gemfile.lock]
+exclude: [README.md,Gemfile,Gemfile.lock, controls/listview, controls/chart/how-to]
 exclude_navigation: [knowledge-base/*]
 
 navigation:
@@ -65,7 +65,6 @@ navigation:
     controls/chart/how-to:
         title: "How To"
         position: 11
-        published:false
         ## End Chart Sub-Folders
     ## End Chart
     ##ItemsControl
@@ -75,7 +74,6 @@ navigation:
     ## ListView
     controls/listview:
         title: "ListView"
-        published:false
         ## ListView Sub-Folders
     controls/listview/grouping:
         title: "Grouping"
