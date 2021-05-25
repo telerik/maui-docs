@@ -6,11 +6,13 @@ position: 2
 slug: itemscontrol-key-features
 ---
 
-# Telerik ItemsControl for .NET MAUI - Key Features
+# Key Features
 
 The purpose of this help article is to show you the key features of the **RadItemsControl** control. 
 
-## Define the ItemsControl:
+## Define the ItemsControl
+
+**ItemsSource** property defines the collection of the items that will popula
 
 ```XAML
 <telerikMauiControls:RadItemsControl/>
@@ -22,6 +24,7 @@ Add the following namespace:
 xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
+## Apply ItemTemplate
 
 
 

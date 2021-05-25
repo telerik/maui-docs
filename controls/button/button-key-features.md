@@ -7,21 +7,25 @@ tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net mau
 slug: button-key-features
 ---
 
-# Telerik Button for .NET MAUI - Key Features
+# Key Features
 
-RadButton definition in XAML
+The purpose of this help article is to show you the key features of the **RadButton** control. 
+
+## Define RadButton
+
+Add RadButton definition in XAML:
 
 ```XAML
 <telerikInput:RadButton Text="RadButton" BackgroundColor="Transparent" BorderColor="Red" BorderThickness="2"/>
 ```
 
-Add the following napespace: 
+Add the following namespace: 
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
 ```
 
-To visualize RadButton -> Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project:
 
 ```C#
 .ConfigureMauiHandlers(handlers => {
@@ -70,7 +74,7 @@ The next snippet shows how you can apply the background image.
 
 >important .NET MAUI has a built-in cross-platform resources which you can use to add any images, fonts, translation files. These resources have to be added in the Resources folder of the cross-platform project.
 
-## Image how Button for .NET MAUI looks
+#### Telerik Button for .NET MAUI
 
 ![Button Key Features Example](images/button-key-features.png)
 

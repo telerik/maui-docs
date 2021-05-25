@@ -7,9 +7,7 @@ position: 2
 
 # Copyright
 
-
-
-__© Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.__
+__© {{ site.time | date: '%Y' }} Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.__
 
 These materials and all Progress® software products are copyrighted and all rights are reserved by Progress Software Corporation. The information in these materials is subject to change without notice, and Progress Software Corporation assumes no responsibility for any errors that may appear therein. The references in these materials to specific platforms supported are subject to change.
 

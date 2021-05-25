@@ -1,7 +1,8 @@
 ---
 title: Key Features
-page_title: .NET MAUI Border Documentation | Key Features
+page_title: .NET MAUI Border Documentation | Key Features for .NET MAUI Border
 description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI.
+tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
 position: 2
 slug: border-key-features
 ---
@@ -10,11 +11,27 @@ slug: border-key-features
 
 The purpose of this help article is to show you the key features of the **RadBorder** control. 
 
-## Setting Border Color
+## Define RadBorder
+
+Add RadBorder definition in XAML:
+
+```XAML
+<telerikMauiControls:RadBorder BorderColor="Red" BorderThickness="1">
+    <Label Text="Hello there" Margin="2" />
+</telerikMauiControls:RadBorder>
+```
+
+Add the following namespace: 
+
+```XAML
+xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+```
+
+## Border Color
 
 You can use the **BorderColor** property to specify the color of RadBorder. The property has no effect if BorderThickness is set to “0”.
 
-## Setting Border Thickness
+## Border Thickness
 
 The **BorderThickness** property is of type *Microsoft.Maui.Thickness* and is used to set the borders’ width. Type Thickness gives you the option to define different border on each side of the surrounded element.
 
@@ -26,13 +43,7 @@ Here is a quick example on how to use BorderColor and BorderThickness properties
 </telerikMauiControls:RadBorder>
 ```
 
-Where:
-
-```XAML
-xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
-
-## Defining Different Corners
+## Different Corners
 
 The **CornerRadius** property represents the degree to which the corners of the Border are rounded. CornerRadius is of type *Microsoft.Maui.Thickness* so it allows you to set separate values on the four corners of the border. 
 
@@ -57,6 +68,8 @@ Additionally, the wrapped content will be clipped according to each side’s spe
 ```
 
 Here is the end result:
+
+#### Telerik Border for .NET MAUI
 
 ![Border Key Features Example](images/border-key-features.png)
 
