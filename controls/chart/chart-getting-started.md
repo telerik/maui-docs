@@ -7,9 +7,9 @@ position: 2
 slug: chart-getting-started
 ---
 
-# Getting Started
+# Getting Started with Telerik Chart for .NET MAUI
    
-## Create the control definition in XAML
+## RadChart definition in XAML
 
 ```XAML
 <telerikChart:RadCartesianChart>     
@@ -29,7 +29,8 @@ slug: chart-getting-started
 	</telerikChart:RadCartesianChart.Series> 
 </telerikChart:RadCartesianChart>
 ```
-In addition to this, you need to add the following namespace:
+
+Add the following namespace:
 
 ```XAML
 xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
@@ -69,12 +70,11 @@ public class ChartViewModel
     {
         this.Data = new ObservableCollection<CategoricalData>()
         {
-            new CategoricalData { Category = "A", Value = 5 },
-            new CategoricalData { Category = "B", Value = 15 },
-            new CategoricalData { Category = "C", Value = 3 },
-            new CategoricalData { Category = "D", Value = 10 },
-            new CategoricalData { Category = "E", Value = 2 },
-            new CategoricalData { Category = "F", Value = 9 },
+            new CategoricalData { Category = "A", Value = 0.63 },
+            new CategoricalData { Category = "B", Value = 0.85 },
+            new CategoricalData { Category = "C", Value = 1.05 },
+            new CategoricalData { Category = "D", Value = 0.96 },
+            new CategoricalData { Category = "E", Value = 0.78 },
         };
     }
 	

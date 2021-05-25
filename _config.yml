@@ -65,6 +65,7 @@ navigation:
     controls/chart/how-to:
         title: "How To"
         position: 11
+        published:false
         ## End Chart Sub-Folders
     ## End Chart
     ##ItemsControl
@@ -74,6 +75,7 @@ navigation:
     ## ListView
     controls/listview:
         title: "ListView"
+        published:false
         ## ListView Sub-Folders
     controls/listview/grouping:
         title: "Grouping"
