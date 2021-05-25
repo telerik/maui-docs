@@ -1,7 +1,7 @@
 ---
 title: Series Features
-page_title: Xamarin Chart Documentation | Series Features
-description: Check our &quot;Series Features&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: >NET MAUI Chart Documentation | Series Features
+description: Check our &quot;Series Features&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-features
 position: 1
 ---
@@ -31,18 +31,71 @@ You could customize the series labels text using the properties below:
 
 Here is a quick example how you could apply **LabelFormat** to a LineSeries:
 
-First, create the needed business objects, for example:
+Create the business object:
 
-<snippet id='temporal-data-model'/>
+```C#
+public class TemporalData
+{
+    public DateTime Date { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-customization-formatserielabels-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadCartesianChart with Line Series in XAML and in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<TemporalData> Data { get; set; }
 
-<snippet id='chart-customization-formatserieslabels-xaml'/>
-<snippet id='chart-customization-formatserieslabels-csharp'/>
+    public ViewModel()
+    {
+        this.Data = GetDateTimeData(6);
+    }
+
+    private static ObservableCollection<TemporalData> GetDateTimeData(int itemsCount)
+    {
+        var startDate = new DateTime(2018, 03, 01);
+
+        ObservableCollection<TemporalData> items = new ObservableCollection<TemporalData>();
+        for (int i = 0; i < itemsCount; i++)
+        {
+            TemporalData data = new TemporalData();
+            data.Date = startDate.AddDays(i);
+            data.Value = Math.Sin(i);
+
+            items.Add(data);
+        }
+
+        return items;
+    }
+}
+```
+
+Declare a RadCartesianChart with Line Series in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart x:Name="chart">
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+                                             MajorStepUnit="Day" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis Minimum="-1.5"
+                                    Maximum="1.5" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>            
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Date"
+                                 ItemsSource="{Binding Data}"
+                                 ShowLabels="True"
+                                 LabelFormat="{}{0:N2}"/>
+</telerikChart:RadCartesianChart.Series>
+```
 
 And the result is:
 

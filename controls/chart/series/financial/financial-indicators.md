@@ -1,8 +1,8 @@
 ---
 title: Financial Indicators
-page_title: Xamarin Chart Documentation | Financial Indicators
+page_title: .NET MAUI Chart Documentation | Financial Indicators
 slug: chart-series-financial-indicators
-description: Check our &quot;Financial Indicators&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Financial Indicators&quot; documentation article for Telerik Chart for .NET MAUI
 position: 2
 ---
 
@@ -42,22 +42,136 @@ Indicators that have a category and high/low/close value bindings as well as non
 
 Here is an example of how to create a basic RadCartesianChart with OhlcSeries and a couple of **ExponentialMovingAverageIndicator** instances with different period set:
 
-<snippet id='chart-series-indicators-xaml'/>
-<snippet id='chart-series-financial-indicators-csharp'/> 
+```XAML
+<telerikChart:RadCartesianChart PaletteName="Light" 
+                                SelectionPaletteName="LightSelected"
+                                BackgroundColor="White" >
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:DateTimeContinuousAxis LineColor="#A9A9A9" 
+                                             LabelFitMode="Rotate"
+                                             LabelFormat="dd/MM"
+                                             PlotMode="BetweenTicks" 
+                                             MajorStep="2"
+                                             MajorStepUnit="Day"/>
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis LineColor="#A9A9A9" 
+                                    Minimum="320"
+                                    Maximum="350"
+                                    MajorTickBackgroundColor="#A9A9A9" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:OhlcSeries CategoryBinding="Category"
+                                 DisplayName="AppleStocks-OHLC"
+                                 OpenBinding="Open"
+                                 HighBinding="High"
+                                 LowBinding="Low"
+                                 CloseBinding="Close"
+                                 ItemsSource="{Binding SeriesData}"/>
 
-Add the following namespace:
+        <telerikChart:ExponentialMovingAverageIndicator CategoryBinding="Category"
+                                                        DisplayName="EMA 7days"
+                                                        ValueBinding="Close"
+                                                        Period="7"
+                                                        StrokeThickness="1"
+                                                        Stroke="DarkGreen"
+                                                        ItemsSource="{Binding SeriesData}"/>
 
-<snippet id='xmlns-telerikchart'/>
+        <telerikChart:ExponentialMovingAverageIndicator CategoryBinding="Category"
+                                                        DisplayName="EMA 14days"
+                                                        ValueBinding="Close"
+                                                        Period="14"
+                                                        StrokeThickness="1"
+                                                        Stroke="DarkOrange"
+                                                        ItemsSource="{Binding SeriesData}"/>
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the business model is defined:
 
-<snippet id='chart-ohlc-datapoint-csharp'/>
+```C#
+public class OhlcDataPoint : NotifyPropertyChangedBase
+{
+    private DateTime category;
+    private double open;
+    private double high;
+    private double low;
+    private double close;
+
+    public DateTime Category
+    {
+        get { return this.category; }
+        set
+        {
+            if (value != this.category)
+            {
+                this.category = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Open
+    {
+        get { return this.open; }
+        set
+        {
+            if (value != this.open)
+            {
+                this.open = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double High
+    {
+        get { return this.high; }
+        set
+        {
+            if (value != this.high)
+            {
+                this.high = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Low
+    {
+        get { return this.low; }
+        set
+        {
+            if (value != this.low)
+            {
+                this.low = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Close
+    {
+        get { return this.close; }
+        set
+        {
+            if (value != this.close)
+            {
+                this.close = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
+}
+```
 
 And here is the result:
 
 ![Financial Indicators](images/indicators_series.png)
-
->important **SDK Browser** application contains an example that shows how to use the Financial Indicators. You can find the application in the **Examples** folder of your local **Telerik UI for Xamarin** installation.
 
 ## See Also
 

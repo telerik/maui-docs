@@ -1,7 +1,7 @@
 ---
 title: Line Series
-page_title: Xamarin Chart Documentation | Line Series
-description: Check our &quot;Line Series&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | Line Series
+description: Check our &quot;Line Series&quot; documentation article for Telerik Chart for .NET MAUI
 position: 0
 slug: chart-series-line-series
 ---
@@ -23,27 +23,85 @@ Here is an example how to create RadCartesianChartChart with Line Series:
 
 First, create the needed business objects, for example:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-series-series-categorical-view-model'/>
+```C#
+public class SeriesCategoricalViewModel
+{
+    public ObservableCollection<CategoricalData> Data1 { get; set; }
+    public ObservableCollection<CategoricalData> Data2 { get; set; }
 
-Finally, use the following snippet to declare a RadCartesianChart with Line Series in XAML and in C#:
+    public SeriesCategoricalViewModel()
+    {
+        this.Data1 = GetCategoricalData1();
+        this.Data2 = GetCategoricalData2();
+    }
 
-<snippet id='chart-series-line-xaml'/>
-<snippet id='chart-series-line-csharp'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData1()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 82 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static ObservableCollection<CategoricalData> GetCategoricalData2()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 33 },
+            new CategoricalData { Category = "Perfecto", Value = 51 },
+            new CategoricalData { Category = "NearBy", Value = 11 },
+            new CategoricalData { Category = "Family", Value = 94 },
+            new CategoricalData { Category = "Fresh", Value = 12 },
+        };
+        return data;
+    }
+}
+```
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+Finally, use the following snippet to declare a RadCartesianChart with Line Series in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:SeriesCategoricalViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+                                      PlotMode="OnTicks" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Category"
+                                 ItemsSource="{Binding Data1}" />
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Category"
+                                 ItemsSource="{Binding Data2}" />
+    </telerikChart:RadCartesianChart.Series>
+</telerikChart:RadCartesianChart>
+```
 
 And here is the result:
 
 ![Basic LineSeries](images/cartesian-line-series-basic-example.png)
-
->important A sample Line Series example can be found in the Chart/Series folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ### Customization Example
 Here we make some customizations:
