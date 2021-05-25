@@ -25,17 +25,15 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 **1. Log into your [Telerik account](https://www.telerik.com/account/).**
 
-**2. Click on the __Downloads__ tab:**
+**2. Go to [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)**
 
-![MAUI Poguct](images/download_product_files_1.png)
+**3. Click Download Telerik UI for MAUI button:**
 
-**3. Select Telerik UI for MAUI product title:**
+![Telerik UI for .NET MAUI](images/download_maui.png)
 
-![Telerik UI for .NET MAUI](images/download_product_files_2.png)
+**4. The download starts automatically**
 
-**4. The next page allows you to download the Automatic Installation msi file**
-
-![MSI Telerik .NET MAUI](images/download_product_files_3.png)
+![Telerik UI for .NET MAUI](images/downloading-maui.png)
 
 ### Installation for Windows
 
@@ -76,43 +74,47 @@ Here is how the Startup.cs file looks when Telerik UI for .NET MAUI renderers ar
 ```C#
 public class Startup : IStartup
 {
-	public void Configure(IAppHostBuilder appBuilder)
-	{
-		appBuilder
-			.UseFormsCompatibility()
-			.ConfigureFonts(fonts => {
-				fonts.AddFont("ionicons.ttf", "IonIcons");
-			})
-			.ConfigureMauiHandlers(handlers => {
-			
-			    // renderer for Telerik UI for MAUI Button control
-				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadButton), typeof(InputRenderer.ButtonRenderer));
+    public void Configure(IAppHostBuilder appBuilder)
+    {
+        appBuilder
+            .UseFormsCompatibility()
+            .ConfigureFonts(fonts => {
+                fonts.AddFont("ionicons.ttf", "IonIcons");
+            })
+            .ConfigureMauiHandlers(handlers => {
+                // ****** Compatibility Renderers ***** //
 				
-				// renderer for Telerik UI for MAUI RadCartesianChart control
-				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
-				
-				// renderer for Telerik UI for MAUI RadPieChart control
-				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));
-				
-				// renderer for Telerik UI for MAUI RadListView control
-				handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(DataControlsRenderer.ListViewRenderer));
-			})
-			.UseMauiApp<App>()
-			.ConfigureLifecycleEvents(lifecycle => {
+                // Compatibillity renderer for Telerik UI for MAUI Button control
+                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadButton), typeof(InputRenderer.ButtonRenderer));
+
+                // Compatibillity renderer for Telerik UI for MAUI RadCartesianChart control
+                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
+
+                // Compatibillity renderer for Telerik UI for MAUI RadPieChart control
+                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));
+
+                // Compatibillity renderer for Telerik UI for MAUI RadListView control
+                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(DataControlsRenderer.ListViewRenderer));
+                                                
+                // ****** Handlers ***** //       
+				                        
+                // Add the Telerik UI for MAUI Handlers for ItemsControl control
+                handlers.AddHandler<IRadItemsControl, RadItemsControlHandler>();
+                                                
+                // Add the handlers for Telerik UI for MAUI Border control
+                handlers.AddHandler<IRadBorder, RadBorderHandler>();
+            })
+            .UseMauiApp<App>()
+            .ConfigureLifecycleEvents(lifecycle => {
 #if ANDROID
-				lifecycle.AddAndroid(d => {
-					d.OnBackPressed(activity => {
-						System.Diagnostics.Debug.WriteLine("Back button pressed!");
-					});
-				});
+                lifecycle.AddAndroid(d => {
+                    d.OnBackPressed(activity => {
+                        System.Diagnostics.Debug.WriteLine("Back button pressed!");
+                    });
+                });
 #endif
-			})
-			.ConfigureMauiHandlers((_, handlers) =>
-			{
-				handlers.AddHandler<IRadItemsControl, RadItemsControlHandler>();
-				handlers.AddHandler<IRadBorder, RadBorderHandler>();
-			});
-	}
+            });
+    }
 }
 ```
 
