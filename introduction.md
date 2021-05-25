@@ -10,9 +10,9 @@ position: 0
 
 Thank you for choosing Telerik UI for .NET MAUI - Preview.
 
-**Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting multiple devices across mobile & desktop.
+**Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting multiple mobile devices.
 
-To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/xamarin-ui) product overview page.
+To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/maui-ui) product overview page.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-introduction.html %}
@@ -29,7 +29,7 @@ Our suite features the following controls for cross-platform development with MA
 * [Chart]({%slug chart-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
 
-## Getting Started with Telerik UI for .NET MAUI
+## Getting Started with Telerik UI for MAUI
 
 Information how to get started with .NET MAUI and Telerik UI for .NET MAUI can be found in our [Getting Started]({%slug maui-getting-started%}) guide.
 
@@ -37,7 +37,6 @@ Information how to get started with .NET MAUI and Telerik UI for .NET MAUI can b
 
 For any issues you might encounter while working with Telerik UI for MAUI, use any of the available support channels:
 
-* License holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [dedicated support system](https://www.telerik.com/account/support-tickets) system.
 * [Our forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the team on all kinds of general issues.
 * [Our feedback portal](https://feedback.telerik.com/maui) provides information on the features/bugs in discussion and also the planned ones for release.
 * You may still need a tailor-made solution for your project. In such cases, go straight to [Progress Services](https://www.progress.com/services).
