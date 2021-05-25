@@ -57,32 +57,6 @@ Finally, use the following snippet to declare the RadChart in XAML or in C#:
 	  </telerikChart:RadCartesianChart.Series>
     </telerikChart:RadCartesianChart>
 ```
-```C#
-var chart = new RadCartesianChart
-{
-	BindingContext = new ViewModel2(),
-	HorizontalAxis = new CategoricalAxis()
-	{
-		PlotMode = AxisPlotMode.OnTicks,
-        MajorTickInterval = 2,
-        GapLength = 0.5
-	},
-    VerticalAxis = new NumericalAxis()
-    {
-		LabelFitMode = AxisLabelFitMode.MultiLine,
-	},
-	Series =
-	{
-		new BarSeries
-       	{
-        	ValueBinding = new PropertyNameDataPointBinding("Value"),
-        	CategoryBinding = new PropertyNameDataPointBinding("Category")
-        }
- 	}
-};
-
-chart.Series[0].SetBinding(ChartSeries.ItemsSourceProperty, "Data");
-```
 
 Here is how the Categorical Axis Format looks:
 

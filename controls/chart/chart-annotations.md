@@ -1,7 +1,8 @@
 ---
 title: Annotations
-page_title: Xamarin Chart Documentation | Annotations
-description: Check our &quot;Annotations&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | Annotations
+description: Check our &quot;Annotations&quot; documentation article for Telerik Chart for .NET MAUI.
+tags: .net maui, chart, ui for .net maui
 position: 7
 slug: chart-annotations
 ---
@@ -34,22 +35,81 @@ Here is an example of how the CartesianGridLineAnnotation works:
 
 First, create the needed business objects:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-annotations-grid-line-view-model'/>
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
+    public double Threshold { get; set; }
 
-Finally, use the following snippet to declare the RadChart in XAML or in C#:
+    public ViewModel()
+    {
+        this.Data = GetCategoricalData();
+        this.Threshold = this.Data.Average(data => data.Value);
+    }
 
-<snippet id='chart-annotations-gridline-xaml'/>
-<snippet id='chart-annotations-gridline-csharp'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 21 },
+            new CategoricalData { Category = "Perfecto", Value = 18 },
+            new CategoricalData { Category = "NearBy", Value = 44 },
+            new CategoricalData { Category = "Family", Value = 77 },
+            new CategoricalData { Category = "Fresh", Value = 34 },
+        };
+        return data;
+    }
+}
+```
+
+Finally, use the following snippet to declare the RadChart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis x:Name="verticalAxis" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.Annotations>
+        <telerikChart:CartesianGridLineAnnotation Stroke="#0E72F6" 
+                                                  StrokeThickness="2"
+                                                  Axis="{x:Reference verticalAxis}"
+                                                  Value="{Binding Threshold}">
+            <telerikChart:CartesianGridLineAnnotation.DashArray>
+                <x:Array Type="{x:Type x:Double}">
+                    <x:Double>4.0</x:Double>
+                    <x:Double>2.0</x:Double>
+                </x:Array>
+            </telerikChart:CartesianGridLineAnnotation.DashArray>
+        </telerikChart:CartesianGridLineAnnotation>
+    </telerikChart:RadCartesianChart.Annotations>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the CartesianGridLineAnnotation looks:
 
 ![Annotations](images/chart-annotations-grid-line-examples.png)
-
->important A sample CartesianGridLineAnnotation example can be found in the Chart/Annotations folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## CartesianPlotBandAnnotation
 
@@ -68,22 +128,80 @@ Here is an example of how the CartesianPlotBandAnnotation works:
 
 First, create the needed business objects:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-annotations-plot-band-view-model'/>
+The ViewModel:
 
-Finally, use the following snippet to declare the RadChart control in XAML or in C#:
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
+    public double StartThreshold { get; private set; }
+    public double EndThreshold { get; private set; }
 
-<snippet id='chart-annotations-plotband-xaml'/>
-<snippet id='chart-annotations-plotband-csharp'/>
+    public ViewModel()
+    {
+        this.Data = GetCategoricalData();
+        var threshold = this.Data.Average(data => data.Value);
+        this.StartThreshold = threshold * 0.9;
+        this.EndThreshold = threshold * 1.1;
+    }
+
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 66 },
+            new CategoricalData { Category = "Perfecto", Value = 19 },
+            new CategoricalData { Category = "NearBy", Value = 92 },
+            new CategoricalData { Category = "Family", Value = 23 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
+}
+```
+
+Finally, use the following snippet to declare the RadChart control in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+                                      PlotMode="OnTicks" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis x:Name="verticalAxis" />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:LineSeries ValueBinding="Value"
+                                 CategoryBinding="Category"
+                                 ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.Annotations>
+        <telerikChart:CartesianPlotBandAnnotation StrokeThickness="2"
+                                                  Stroke="Green"
+                                                  Fill="#2F66FF33"
+                                                  Axis="{x:Reference verticalAxis}"
+                                                  From="{Binding StartThreshold}"
+                                                  To="{Binding EndThreshold}" />
+    </telerikChart:RadCartesianChart.Annotations>
+</telerikChart:RadCartesianChart>
+```
 
 Here is how the CartesianPlotBandAnnotation looks:
 
 ![Annotations](images/chart-annotations-plot-band-example.png)
-
->important A sample CartesianPlotBandAnnotation example can be found in the Chart/Annotations folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 

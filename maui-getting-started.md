@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Telerik UI for MAUI
+title: Getting Started
 page_title: Getting Started with Telerik .NET MAUI controls
 description: Getting Started with .NET MAUI - Telerik UI controls for .NET MAUI
 slug: maui-getting-started
@@ -17,7 +17,9 @@ Information about what are the exact steps to get started with Microsoft .NET MA
 
 ## Getting Started with Telerik .NET MAUI
 
-Once you have .NET MAUI configured on your machine, then follow the steps needed to set up the Telerik UI for .NET MAUI
+Once you have .NET MAUI configured on your machine, then follow the steps needed to set up the Telerik UI for .NET MAUI. 
+
+>important Telerik .NET MAUI Preview controls are available for Android and iOS
 
 ### Download product file
 
@@ -107,7 +109,7 @@ public class Startup : IStartup
 
 ## Demo App
 
-Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates the Telerik Preview controls for Microsoft .NET MAUI. 
+Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates the Telerik Preview controls for Microsoft .NET MAUI. For more details visit our [Demo App article]({%slug maui-demo-app%}).
 
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo.png)
 

@@ -31,22 +31,78 @@ Here is an example how the CartesianChartGrid works:
 
 First, create the needed business objects:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
+
+    public double Value { get; set; }
+}
+```
 
 Then create a ViewModel:
 
-<snippet id='chart-customization-grid-lines-view-model'/>
+```C#
+public class ViewModel
+{
+    public ObservableCollection<CategoricalData> Data { get; set; }
 
-Finally, use the following snippet to declare the RadChart in XAML or in C#:
+    public ViewModel()
+    {
+        this.Data = GetCategoricalData();
+    }
 
-<snippet id='chart-customization-gridlines-xaml'/>
-<snippet id='chart-customization-gridlines-csharp'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 21 },
+            new CategoricalData { Category = "Perfecto", Value = 44 },
+            new CategoricalData { Category = "NearBy", Value = 39 },
+            new CategoricalData { Category = "Family", Value = 11 },
+            new CategoricalData { Category = "Fresh", Value = 83 },
+        };
+        return data;
+    }
+}
+```
+
+Finally, use the following snippet to declare the RadChart in XAML:
+
+```XAML
+<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:NumericalAxis />
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.Series>
+        <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                ItemsSource="{Binding Data}" />
+    </telerikChart:RadCartesianChart.Series>
+    <telerikChart:RadCartesianChart.Grid>
+        <telerikChart:CartesianChartGrid StripLinesVisibility="Y"
+                                         MajorLinesVisibility="XY"
+                                         MajorLineColor="LightGreen"
+                                         MajorLineThickness="3" />
+    </telerikChart:RadCartesianChart.Grid>
+</telerikChart:RadCartesianChart>
+```
+
+Add the following namespace:
+
+```XAML
+xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
+```
 
 Here is how the CartesianGridLineAnnotation looks:
 
 ![Chart Grid](images/chart-grid-example.png)
-
->important A sample Glid Lines example can be found in the Chart/Customization folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 
