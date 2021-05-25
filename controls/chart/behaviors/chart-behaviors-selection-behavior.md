@@ -1,7 +1,7 @@
 ---
 title: Selection Behavior
-page_title: Xamarin Chart Documentation | Selection Behavior
-description: Check our &quot;Selection Behavior&quot; documentation article for Telerik Chart for Xamarin control.
+page_title: .NET MAUI Chart Documentation | Selection Behavior
+description: Check our &quot;Selection Behavior&quot; documentation article for Telerik Chart for .NET MAUI control.
 position: 1
 slug: chart-behaviors-selection
 ---
@@ -11,8 +11,6 @@ slug: chart-behaviors-selection
 ## Overview
 
 **ChartSelectionBehavior** is responsible for selecting, deselecting and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
-
->important With R2 2018 SP release Behaviors property of RadChart was replaced with **ChartBehaviors**. Behaviors property is marked as obsolete, so please use **ChartBehaviors** instead.
 
 ## Features
 
@@ -45,29 +43,142 @@ ChartSelectionBehavior exposes support for **Commands**.
 
 Here is an example of how the Chart Selection Behavior works with Command:
 
-First, create the needed business objects, for example:
+Create the business objects:
 
-<snippet id='categorical-data-model'/>
+```C#
+public class CategoricalData
+{
+    public object Category { get; set; }
 
-Then create a ViewModel:
+    public double Value { get; set; }
+}
+```
 
-<snippet id='chart-selection-behavior-view-model'/>
+Create a ViewModel:
 
-Finally, use the following snippet to declare a RadCartesianChart in XAML and in C#:
+```C#
+public class ViewModel : NotifyPropertyChangedBase
+{
+    private int counter = 0;
+    private string displayCount;
+    public ObservableCollection<CategoricalData> Data1 { get; set; }
+    public ObservableCollection<CategoricalData> Data2 { get; set; }
+    public ICommand IsSelectionChangedCommand { get; }
 
-<snippet id='chart-interactivity-selectionseries-xaml'/>
-<snippet id='chart-interactivity-selectionseries-csharp'/>
+    public ViewModel()
+    {
+        this.Data1 = GetCategoricalData1();
+        this.Data2 = GetCategoricalData2();
+        this.IsSelectionChangedCommand = new Command(this.IncreaseCount);
+    }
+    public int Counter
+    {
+        get
+        {
+            return this.counter;
+        }
+        set
+        {
+            this.counter = value;
+            this.DisplayCount = $"Command executed {counter} times.";
+        }
+    }
+    public string DisplayCount
+    {
+        get
+        {
+            return this.displayCount;
+        }
+        set
+        {
+            if (this.displayCount != value)
+            {
+                this.displayCount = value;
+                this.OnPropertyChanged();
+            }
+        }
+    }
 
-Where the **telerikChart** namespace is the following:
+    private static ObservableCollection<CategoricalData> GetCategoricalData1()
+    {
+        var data = new ObservableCollection<CategoricalData>
+        {
+            new CategoricalData { Category = "Greenings", Value = 52 },
+            new CategoricalData { Category = "Perfecto", Value = 60 },
+            new CategoricalData { Category = "NearBy", Value = 77 },
+            new CategoricalData { Category = "Family", Value = 50 },
+            new CategoricalData { Category = "Fresh", Value = 56 },
+        };
+        return data;
+    }
 
-<snippet id='xmlns-telerikchart'/>
-<snippet id='ns-telerikchart'/>
+    private static ObservableCollection<CategoricalData> GetCategoricalData2()
+    {
+        var data = new ObservableCollection<CategoricalData>  
+        {
+            new CategoricalData { Category = "Greenings", Value = 33 },
+            new CategoricalData { Category = "Perfecto", Value = 88 },
+            new CategoricalData { Category = "NearBy", Value = 61 },
+            new CategoricalData { Category = "Family", Value = 94 },
+            new CategoricalData { Category = "Fresh", Value = 72 },
+        };
+        return data;
+    }
+    private void IncreaseCount()
+    {
+        this.Counter++;
+    }
+}
+```
+
+Declare a RadCartesianChart in XAML:
+
+```XAML
+<ContentView.BindingContext>
+    <local:ViewModel/>
+</ContentView.BindingContext>
+<Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="0.3*"/>
+    </Grid.RowDefinitions>
+
+    <telerikChart:RadCartesianChart Grid.Row="0">
+        <telerikChart:RadCartesianChart.HorizontalAxis>
+            <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
+        </telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:RadCartesianChart.VerticalAxis>
+            <telerikChart:NumericalAxis />
+        </telerikChart:RadCartesianChart.VerticalAxis>
+        <telerikChart:RadCartesianChart.Series>
+            <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                CombineMode="Stack"
+                                StackGroupKey="1"
+                                AllowSelect="True"
+                                ItemsSource="{Binding Data1}" />
+            <telerikChart:BarSeries ValueBinding="Value"
+                                CategoryBinding="Category"
+                                CombineMode="Stack"
+                                StackGroupKey="1"
+                                AllowSelect="True"
+                                ItemsSource="{Binding Data2}" />
+        </telerikChart:RadCartesianChart.Series>
+        <telerikChart:RadCartesianChart.ChartBehaviors>
+            <telerikChart:ChartSelectionBehavior DataPointSelectionMode="Single"
+                                                 Command="{Binding IsSelectionChangedCommand}"
+                                                 SeriesSelectionMode="None" />
+        </telerikChart:RadCartesianChart.ChartBehaviors>
+    </telerikChart:RadCartesianChart>
+
+    <Label Grid.Row="2" Text="{Binding DisplayCount}"/>
+</Grid>
+```
 
 Here is how the selection looks:
 
 ![Selection Behavior](images/chart-behaviors-selection.png)
-
->important A sample Selection example can be found in the Chart/Interactivity folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 # See Also
 

@@ -1,8 +1,8 @@
 ---
 title: Numerical Axis
-page_title: Xamarin Chart Documentation | Numerical Axis
+page_title: .NET MAUI Chart Documentation | Numerical Axis
 slug: axes-numerical-axis
-description: Check our &quot;Numerical Axis&quot; documentation article for Telerik Chart for Xamarin control.
+description: Check our &quot;Numerical Axis&quot; documentation article for Telerik Chart for .NET MAUI.
 ---
 
 # NumericalAxis
@@ -35,8 +35,6 @@ The **NumericalAxis** inherits from the base **Axis** class. You can see the inh
 							Minimum="-1"
 							Maximum="1" />
 ```
-
->important A sample Format Axis Label example can be found in the Chart/Customization folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 

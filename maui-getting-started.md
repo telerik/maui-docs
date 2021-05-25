@@ -7,9 +7,9 @@ tags: .net maui, ui for .net maui, .net maui controls
 position: 1
 ---
 
-#  Telerik UI for .NET MAUI - Getting Started
+# Getting Started
 
-This article will guide you through the basics of Telerik UI for .NET MAUI and how to start using the product.
+This article will guide you through the basics of Telerik UI for MAUI and how to start using the product.
 
 ## Getting Started with .NET MAUI
 
