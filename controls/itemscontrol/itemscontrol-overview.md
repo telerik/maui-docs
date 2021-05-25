@@ -14,6 +14,7 @@ With **Telerik ItemsControl for .NET MAUI** you can easily visualize a list of i
 >important [Getting Started with Telerik UI for .NET MAUI]({%slug maui-getting-started%}) guide will help you with more information about the steps for setting up the .NET MAUI and Telerik UI for MAUI in your application.
 
 #### Figure 1: RadItemsControl Overview
+![ItemsControl Overview](images/itemscontrol-overview.png "ItemsControl Overview")
 
 ## Key features
 
