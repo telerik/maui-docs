@@ -103,7 +103,7 @@ mvcCoreVersion: "2016.2.616"
 ## The product name
 productName: "Telerik UI for MAUI"
 product: "Telerik UI for MAUI"
-platform: xamarin
+platform: maui
 
 ## Assign layout and category per different paths
 defaults:
