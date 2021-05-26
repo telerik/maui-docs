@@ -37,27 +37,27 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 ### Installation for Windows
 
-* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Telerik\ or C:\Program Files (x86)\Telerik\ for a 64bit machine.
+* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
 
-The installation folder has the following sub directories:
+The installation folder has the following subdirectories:
 
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
-* DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
+* DemoApp - Dempo App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
 ### Installation for macOS
 
-* Telerik_UI_for_Maui_[version]_[license].pkg - runnable pkg file used for automatic installation (for use on Mac).
+* Telerik_UI_for_Maui_[version]_Preview.pkg - runnable pkg file used for automatic installation (for use on Mac).
 
-The installation folder has the following sub directories:
+The installation folder has the following subdirectories:
 
 ![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
-* DemoAPP - Dempo App with Telerik UI for .NET MAUI controls
+* DemoApp - Dempo App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
