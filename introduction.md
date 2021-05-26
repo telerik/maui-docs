@@ -1,8 +1,8 @@
 ---
 title: Introduction
-page_title: Telerik UI for .NET MAUI Documentation
-description: Learn how to decrease development time and build stunning MAUI apps with Telerik UI for .NET MAUI controls
-tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui
+page_title: .NET MAUI Cross-Platform App UI Documentation | Telerik UI for MAUI
+description: Revolutionize your multi-platform app development with the preview version of Telerik UI for MAUI
+tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for maui
 position: 0
 ---
 
