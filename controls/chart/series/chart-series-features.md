@@ -1,6 +1,6 @@
 ---
 title: Series Features
-page_title: >NET MAUI Chart Documentation | Series Features
+page_title: .NET MAUI Chart Documentation | Series Features
 description: Check our &quot;Series Features&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-features
 position: 1

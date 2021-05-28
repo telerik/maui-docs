@@ -21,9 +21,9 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 >important Telerik .NET MAUI Preview controls are available for Android and iOS
 
-### Download product files
+## Download product files from Telerik UI for MAUI product page
 
-**1. Log into your [Telerik account](https://www.telerik.com/account/).**
+**1. Log into your [Telerik Account](https://www.telerik.com/account/).**
 
 **2. Go to [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)**
 
@@ -35,7 +35,24 @@ Once you have .NET MAUI configured on your machine, then follow the steps needed
 
 ![Telerik UI for .NET MAUI](images/downloading-maui.png)
 
-### Installation for Windows
+## Download product files from your Telerik Account
+
+
+**1. Log into your [Telerik Account](https://www.telerik.com/account/).**
+
+**2. Click on the __Downloads__ tab:**
+
+![Telerik UI for .NET MAUI](images/download-tab.png)
+
+**3. Search maui and Select __Telerik UI for MAUI__ product title:**
+
+![Telerik UI for .NET MAUI](images/search-for-maui.png)
+
+**4. The next page allows you to download the Automatic Installations .msi file, .pkg file and Telerik .NET MAUI NuGet Package:**
+
+![Telerik UI for .NET MAUI](images/product-files.png)
+
+## Installation for Windows
 
 * Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
 
@@ -48,7 +65,7 @@ The installation folder has the following subdirectories:
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
-### Installation for macOS
+## Installation for macOS
 
 * Telerik_UI_for_Maui_[version]_Preview.pkg - runnable pkg file used for automatic installation (for use on Mac).
 
@@ -61,17 +78,39 @@ The installation folder has the following subdirectories:
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
-### NuGet Package
+## NuGet Package
 
 * Telerik_UI_for_Maui_[version]_Preview.nupkg file for Windows and macOS users.
+
+The Telerik UI for MAUI Nuget Package is availabe in the **Telerik NuGet Server**.
+
+![Telerik UI for MAUI Installation Folder](images/maui-nuget.png)
 
 ## Register the needed handlers and renderers
 
 In order to visualize the Telerik UI for MAUI controls you have to register the needed renderers for Button, Chart and ListView controls inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
 
-Here is how the Startup.cs file looks when Telerik UI for .NET MAUI renderers are registered.
+1. Add the needed usings inside the `Startup.cs` file:
 
 ```C#
+
+// add the needed usings
+
+#if __ANDROID__
+using InputRenderer = Telerik.XamarinForms.InputRenderer.Android;
+using ChartRenderer = Telerik.XamarinForms.ChartRenderer.Android;
+#elif __IOS__
+using InputRenderer = Telerik.XamarinForms.InputRenderer.iOS;
+using ChartRenderer = Telerik.XamarinForms.ChartRenderer.iOS;
+#endif
+
+```
+
+2. Register the needed handlers and renderers for Telerik UI for .NET MAUI inside the `Startup.cs` file:
+
+
+```C#
+
 public class Startup : IStartup
 {
     public void Configure(IAppHostBuilder appBuilder)
@@ -82,6 +121,7 @@ public class Startup : IStartup
                 fonts.AddFont("ionicons.ttf", "IonIcons");
             })
             .ConfigureMauiHandlers(handlers => {
+			
                 // ****** Compatibility Renderers ***** //
 				
                 // Compatibillity renderer for Telerik UI for MAUI Button control

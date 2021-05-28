@@ -4,7 +4,7 @@ page_title: Telerik .NET MAUI Examples
 description: .NET MAUI - Telerik UI controls for .NET MAUI
 slug: maui-demo-app
 tags: .net maui, ui for .net maui, .net maui controls
-position: 2
+position: 3
 ---
 
 #  Telerik UI for MAUI Demo Application
