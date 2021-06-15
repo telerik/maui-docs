@@ -92,6 +92,10 @@ navigation:
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## SegmentedControl
+    controls/segmentedcontrol:
+        title: "SegmentedControl"
+    ## End SegmentedControl   
 ## End Controls Sub-Folders
 
 ## The application virtual path
