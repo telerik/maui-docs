@@ -20,6 +20,31 @@ RadCheckBox provides three states – **Checked**, **Unchecked** and **Indetermi
 
 The default value of **IsChecked** is false.
 
+```XAMl
+<telerikPrimitives:RadCheckBox x:Name="checkboxIsChecked" IsChecked="{Binding IsChecked}" IsThreeState="True" />
+```
+
+and the ViewModel:
+
+```C#
+public class ViewModel : NotifyPropertyChangedBase
+{
+    private bool? isChecked;
+
+    public bool? IsChecked
+    {
+        get { return this.isChecked; }
+        set
+        {
+            if (this.isChecked != value)
+            {
+                this.isChecked = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+}
+```
 
 ## CheckBox Length
 
@@ -27,7 +52,9 @@ The width and height of the checkbox is controlled through the **Length** proper
 
 Here is an example of setting the `Length` value:
 
-
+```XAMl
+<telerikPrimitives:RadCheckBox x:Name="checkboxLength" Length="40" StrokeWidth="5"/>
+```
 
 ## Stroke Thickness
 
@@ -36,7 +63,9 @@ The RadCheckBox control exposes a **StrokeWidth** property that specifies the wi
 Here is an example how you can apply a `StrokeWidth` value:
 
 
-
+```XAMl
+<telerikPrimitives:RadCheckBox x:Name="checkboxStrokeWidth" StrokeWidth="5"/>
+```
 
 > RadCheckBox follows the guidelines of the operating system, meaning that on iOS it is visualized as circle and on Android and WinUI - as square.
 
