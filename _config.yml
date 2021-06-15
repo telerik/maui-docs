@@ -67,6 +67,10 @@ navigation:
         position: 11
         ## End Chart Sub-Folders
     ## End Chart
+    ##CheckBox
+    controls/checkbox:
+        title: "CheckBox"
+    ## End CheckBox
     ##ItemsControl
     controls/itemscontrol:
         title: "ItemsControl"

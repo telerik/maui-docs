@@ -22,6 +22,34 @@ RadCheckBox exposes a few useful Color properties for customizing its visual app
    * **CheckedSymbolColor**: Defines the Color applied to the check symbol of the control when it is in Checked state.
    * **IndeterminateSymbolColor**: Defines the Color applied to the Indeterminate symbol of the control.
 
+## Example
+
+Here is an example how to apply indeterminate color and indeterminate symbol color:
+
+
+### Checked Color
+
+```XAML
+<telerikPrimitives:RadCheckBox CheckedColor="Aqua" />
+```
+
+### UncheckedColor
+
+```XAML
+<telerikPrimitives:RadCheckBox UncheckedColor="DarkBlue" />
+```
+
+### CheckedSymbol Color
+
+```XAML
+<telerikPrimitives:RadCheckBox CheckedSymbolColor="Black" />
+```
+
+### Indeterminate and IndeterminateSymbol Color
+
+```XAML
+<telerikPrimitives:RadCheckBox x:Name="checkbox" IsChecked="{x:Null}" IndeterminateColor="Brown" IndeterminateSymbolColor="Coral" />
+```
 
 Here is the result at runtime with all of the above examples:
 
