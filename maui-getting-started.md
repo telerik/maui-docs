@@ -98,10 +98,12 @@ In order to visualize the Telerik UI for MAUI controls you have to register the 
 
 #if __ANDROID__
 using InputRenderer = Telerik.XamarinForms.InputRenderer.Android;
-using ChartRenderer = Telerik.XamarinForms.ChartRenderer.Android;
+using ChartRenderer = Telerik.XamarinForms.ChartRenderer.Android;   
+using PrimitivesRenderer = Telerik.XamarinForms.PrimitivesRenderer.Android;
 #elif __IOS__
 using InputRenderer = Telerik.XamarinForms.InputRenderer.iOS;
 using ChartRenderer = Telerik.XamarinForms.ChartRenderer.iOS;
+using PrimitivesRenderer = Telerik.XamarinForms.PrimitivesRenderer.iOS;
 #endif
 
 ```
@@ -135,6 +137,12 @@ public class Startup : IStartup
 
                 // Compatibillity renderer for Telerik UI for MAUI RadListView control
                 handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(DataControlsRenderer.ListViewRenderer));
+				
+				// renderer for Telerik UI for MAUI SegmentedControl
+			    handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadSegmentedControl), typeof(InputRenderer.SegmentedControlRenderer));
+				
+				// renderer for Telerik UI for MAUI CheckBox
+    			handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Primitives.RadCheckBox), typeof(PrimitivesRenderer.CheckBoxRenderer));
                                                 
                 // ****** Handlers ***** //       
 				                        
