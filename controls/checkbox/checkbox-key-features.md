@@ -67,6 +67,12 @@ Here is an example how you can apply a `StrokeWidth` value:
 <telerikPrimitives:RadCheckBox x:Name="checkboxStrokeWidth" StrokeWidth="5"/>
 ```
 
+### Example
+
+Here is the result at runtime showing the above Indeterminate state as well as StrokeWidth and Length examples:
+
+![CheckBox Key Feature Example](images/checkbox-features.png)
+
 > RadCheckBox follows the guidelines of the operating system, meaning that on iOS it is visualized as circle and on Android and WinUI - as square.
 
 ## See Also
