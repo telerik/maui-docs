@@ -38,6 +38,12 @@ The following example shows how to disable a segment and define a color.
 </telerikInput:RadSegmentedControl>
 ```
 
+And you can disable any segment with `SetSegmentEnabled` method:
+
+```C#
+this.segmentControl.SetSegmentEnabled(2, false);
+```
+
 #### Figure 1: Disabled segment
 
 ![SegmentedControl disable segment example](images/segmentcontrol-features-disablesegment-0.png) 
