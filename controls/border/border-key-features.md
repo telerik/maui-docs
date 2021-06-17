@@ -60,7 +60,7 @@ Additionally, the wrapped content will be clipped according to each side’s spe
 ```XAML
 <telerikMauiControls:RadBorder CornerRadius="25" 
 							   BorderThickness="2" 
-							   BorderColor="Red">
+							   BorderColor="CornflowerBlue">
     <Image Source="XamarinIcon.png" 
 		   WidthRequest="50" 
 		   HeightRequest="50" />

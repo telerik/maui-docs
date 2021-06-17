@@ -66,7 +66,8 @@ Add the RadItemsControl definition with ItemsSource and sample ItemTemplate appl
 	<telerikMauiControls:RadItemsControl.BindingContext>
 		<local:ViewModel />
 	</telerikMauiControls:RadItemsControl.BindingContext>
-	<telerikMauiControls:RadItemsControl.ItemTemplate>		
+	<telerikMauiControls:RadItemsControl.ItemTemplate>	
+		<DataTemplate>	
 			<StackLayout Margin="10"
 						 Spacing="5"
 						 Orientation="Horizontal">

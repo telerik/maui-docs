@@ -10,7 +10,7 @@ position: 0
 
 Thank you for choosing Telerik UI for .NET MAUI - Preview.
 
-**Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting multiple mobile devices.
+**Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting Android, iOS and WinUI.
 
 To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/maui-ui) product overview page.
 
@@ -27,6 +27,7 @@ Our suite features the following controls for cross-platform development with MA
 * [Border]({%slug border-overview%})
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
+* [CheckBox]({%slug checkbox-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
 * [SegmentedControl]({%slug segmentedcontrol-overview%})
 
