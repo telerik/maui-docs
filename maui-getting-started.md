@@ -19,7 +19,7 @@ Information about what are the exact steps to get started with Microsoft .NET MA
 
 Once you have .NET MAUI configured on your machine, then follow the steps needed to set up the Telerik UI for .NET MAUI. 
 
->important Telerik .NET MAUI Preview controls are available for Android and iOS
+>important Telerik .NET MAUI Preview controls are available for Android, iOS and WinUI.
 
 ## Download product files from Telerik UI for MAUI product page
 
@@ -177,6 +177,10 @@ Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates 
 ### Telerik UI for MAUI Demo App on iPad
 
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo-ipad.png)
+
+### Telerik UI for MAUI Demo App in WinUI
+
+![Telerik UI for .NET MAUI Demo Application](images/demo-winui.png)
 
 ## See Also
 
