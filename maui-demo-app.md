@@ -9,13 +9,17 @@ position: 3
 
 #  Telerik UI for MAUI Demo Application
 
-On Android
+### On Android
 
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo.png)
 
-on iPad
+### On iPad
 
 ![Telerik UI for .NET MAUI Demo Application Folder](images/demo-ipad.png)
+
+### On WinUI
+
+![Telerik UI for .NET MAUI Demo Application](images/demo-winui.png)
 
 ## Download the Demo App
 
@@ -39,7 +43,7 @@ The installation folder has the following subdirectories:
 
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
-* Binaries - Contains the needed dlls for Android and iOS 
+* Binaries - Contains the needed dlls for Android, iOS and WinUI
 * DemoApp - Demo App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
@@ -52,12 +56,12 @@ The installation folder has the following subdirectories:
 
 ![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
 
-* Binaries - Contains the needed dlls for Android and iOS 
+* Binaries - Contains the needed dlls for Android, iOS and WinUI
 * DemoApp - Demo App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
-**5. Open the DemoApp.sln file in Visual Studio**
+**5. Open the DemoApp.sln file in Visual Studio / Visual Studio for Mac**
 
 ## See Also
 
