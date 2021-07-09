@@ -71,6 +71,15 @@ navigation:
     controls/checkbox:
         title: "CheckBox"
     ## End CheckBox
+    ## Gauge
+    controls/gauge:
+        title: "Gauge"
+        ## Gauge Sub-Folders
+    controls/gauge/gauge-types:
+        title: "Gauge Types"
+        position: 2
+        ## End Gauge Sub-Folders
+    ## End Gauge
     ##ItemsControl
     controls/itemscontrol:
         title: "ItemsControl"
