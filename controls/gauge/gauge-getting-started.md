@@ -8,6 +8,8 @@ slug: gauge-getting-started
 
 # Getting Started
 
+>important RadGauge is rendered via the **SkiaSharp** graphics library so you need to install also `SkiaSharp.Views.Forms.Maui.Controls.Compatibility`.
+
 ## Define RadGauge control
 
 ```XAML
@@ -45,7 +47,8 @@ xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.
 Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.UseSkiaSharpCompatibilityRenderers().UseSkiaSharpHandlers()    
+.UseSkiaSharpCompatibilityRenderers()
+.UseSkiaSharpHandlers()    
 ```
 
 This is the result:
