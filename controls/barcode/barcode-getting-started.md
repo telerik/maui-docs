@@ -24,10 +24,27 @@ If your app is setup, you are ready to add a **RadBarcode** control to your page
 </telerikBarcode:RadBarcode>
 ```
 
-In addition to this you need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
+Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
+
+
+
+
+```C#
+.UseSkiaSharpCompatibilityRenderers()
+.UseSkiaSharpHandlers()    
+```
+
+Add the following usings inside the `Startup.cs` file:
+
+```C#
+using SkiaSharp.Views.Maui.Controls.Compatibility;
+using SkiaSharp.Views.Maui.Controls;
 ```
 
 Here is the result:

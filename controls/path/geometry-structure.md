@@ -1,7 +1,7 @@
 ---
 title: PathGeometry
-page_title: Xamarin Path Documentation | PathGeometry
-description: Check our &quot;PathGeometry&quot; documentation article for Telerik Path for Xamarin control.
+page_title: .NET MAUI Path Documentation | PathGeometry
+description: Check our &quot;PathGeometry&quot; documentation article for Telerik Path for .NET MAUI.
 position: 2
 slug: path-structure
 ---
@@ -31,7 +31,20 @@ The scheme below shows how **StartAngle** and **SweepAngle** are applied to the 
 
 Here is a sample implementation of an **RadArcSegment** object:
 
-<snippet id='path-geometry-simplearc-xaml' />
+```XAML
+<telerikPrimitives:RadPath x:Name="simpleArcPath"
+                           StrokeThickness="4" 
+                           Stroke="#2EC262">
+    <telerikCommon:RadPathGeometry>
+        <telerikCommon:RadPathFigure StartPoint="1, 0.5">
+            <telerikCommon:RadArcSegment Center = "0.5, 0.5"
+                                         Size = "1, 1"
+                                         StartAngle = "0"
+                                         SweepAngle = "180" />
+        </telerikCommon:RadPathFigure>
+    </telerikCommon:RadPathGeometry>
+ </telerikPrimitives:RadPath>
+```
 
 ### RadLineSegment
 
@@ -41,7 +54,17 @@ The thickness and the color of the line are determined by the **StrokeThickness*
 
 Check below a simple example of how to create a line PathFigure:
 
-<snippet id='path-geometry-simpleline-xaml'/>
+```XAML
+<telerikPrimitives:RadPath x:Name="simpleLinePath"
+                           StrokeThickness="4" 
+                           Stroke="#2EC262">
+    <telerikCommon:RadPathGeometry>
+        <telerikCommon:RadPathFigure StartPoint="0.8, 0.1">
+            <telerikCommon:RadLineSegment Point="0.1, 0.8" />
+        </telerikCommon:RadPathFigure>
+    </telerikCommon:RadPathGeometry>
+</telerikPrimitives:RadPath>
+```
 
 ## Example 
 
@@ -49,11 +72,28 @@ The following example shows how to create a more complex **RadPathGeometry** obj
 
 First you should define the **RadPath** figure:
 
-<snippet id='path-geometry-customline-xaml'/>
+```XAML
+<telerikPrimitives:RadPath x:Name="customLinePath"
+                           Grid.Row="0"
+                           StrokeThickness="0" 
+                           Fill="#3DBAFE"/>
+```
 
 And then you set its **Geometry** to have the following structure:
 
-<snippet id='path-geometry-customline-segment'/>
+```C#
+RadPathFigure customLine = new RadPathFigure();
+customLine.StartPoint = new Point(0.8, 0.1);
+customLine.Segments.Add(new RadLineSegment(new Point(0.1, 0.8)));
+
+customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.125, 0.825), StartAngle = 135, SweepAngle = 180, Size = new Size(0.070710678, 0.070710678) });
+customLine.Segments.Add(new RadLineSegment(new Point(0.85, 0.15)));
+customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.825, 0.125), StartAngle = 315, SweepAngle = 180, Size = new Size(0.070710678, 0.070710678) });
+
+RadPathGeometry geometry = new RadPathGeometry();
+geometry.Figures.Add(customLine);
+customLinePath.Geometry = geometry;
+```
 
 Check the screenshot below which shows the result after creating the three Paths:
 

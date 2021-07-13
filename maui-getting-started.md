@@ -94,6 +94,9 @@ In order to visualize the Telerik UI for MAUI controls you have to register the 
 ```C#
 
 // add the needed usings
+using SkiaSharp.Views.Maui.Controls.Compatibility;
+using SkiaSharp.Views.Maui.Controls;
+
 
 #if __ANDROID__
 using InputRenderer = Telerik.XamarinForms.InputRenderer.Android;
@@ -151,16 +154,9 @@ public class Startup : IStartup
                 // Add the handlers for Telerik UI for MAUI Border control
                 handlers.AddHandler<IRadBorder, RadBorderHandler>();
             })
-            .UseMauiApp<App>()
-            .ConfigureLifecycleEvents(lifecycle => {
-#if ANDROID
-                lifecycle.AddAndroid(d => {
-                    d.OnBackPressed(activity => {
-                        System.Diagnostics.Debug.WriteLine("Back button pressed!");
-                    });
-                });
-#endif
-            });
+            .UseSkiaSharpCompatibilityRenderers()
+            .UseSkiaSharpHandlers()
+            .UseMauiApp<App>();            
     }
 }
 ```
