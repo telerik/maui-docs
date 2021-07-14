@@ -129,6 +129,10 @@ navigation:
     controls/path:
         title: "Path"   
     ## End Path
+    ## Popup
+    controls/popup:
+        title: "Popup"   
+    ## End Popup
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
