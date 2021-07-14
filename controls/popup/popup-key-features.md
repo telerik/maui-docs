@@ -120,7 +120,7 @@ Below is an example on how you could apply OutsideBackgroundColor to a modal pop
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="26" />
                     </Grid.RowDefinitions>
-                    <Label Text="Telerik RadPopup for Xamarin" />
+                    <Label Text="Telerik RadPopup for .NET MAUI" />
                     <Button Grid.Row="1" 
                             Padding="2" 
                             HorizontalOptions="Center" 
@@ -187,7 +187,7 @@ RadPopup provides a few useful properties which will help you position it per yo
                 <Label  WidthRequest="160"
 						HeightRequest="200"
 						LineBreakMode="WordWrap"
-						Text="With Telerik Popup for Xamarin you could easily add modal popups to your application in order to draw attention to important information or receive user input." /> 
+						Text="With Telerik Popup for .NET MAUI you could easily add modal popups to your application in order to draw attention to important information or receive user input." /> 
             </telerikMauiControls:RadBorder>
         </telerikPrimitives:RadPopup>
     </telerikPrimitives:RadPopup.Popup>
