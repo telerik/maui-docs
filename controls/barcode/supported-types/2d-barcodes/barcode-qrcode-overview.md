@@ -1,7 +1,7 @@
 ---
 title: QRCode
-page_title: Xamarin Barcode Documentation | QRCode Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for Xamarin control.
+page_title: .NET MAUI Barcode Documentation | QRCode Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
 position: 1
 slug: barcode-qrcode-overview
 ---
@@ -43,11 +43,25 @@ The format data is encoded in 15 bits. One full copy of the format data is locat
 
 Check below a quick example with QRCode symbology applied to RadBarcode:
 
-<snippet id='qrcode-example-xaml' />
+```XAML
+<telerikBarcode:RadBarcode x:Name="barcode"
+                       Value="https://docs.telerik.com/devtools/xamarin/introduction">
+    <telerikBarcode:RadBarcode.Symbology>
+        <telerikBarcode:QRCode SizingMode="Stretch" 
+                               CodeMode="Byte"
+                               ErrorCorrectionLevel="H"                                    
+                               ECIMode ="ISO8859_1" 
+                               FNC1Mode="SecondPosition"  
+                               ApplicationIndicator="00"/>
+    </telerikBarcode:RadBarcode.Symbology>
+</telerikBarcode:RadBarcode>
+```
 
 Add the *telerikBarcode* namespace:
 
-<snippet id='xmlns-telerikbarcode'/>
+```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 Here is the result:
 

@@ -1,7 +1,7 @@
 ---
 title: SwissQRCode
-page_title: Xamarin Barcode Documentation | SwissQRCode Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik SwissQRCode for Xamarin control.
+page_title: .NET MAUI Barcode Documentation | SwissQRCode Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik SwissQRCode for .NET MAUI.
 position: 2	
 slug: barcode-swissqrcode-overview
 ---
@@ -26,7 +26,21 @@ In addition, the measurements of the Swiss QR Code for printing must always be *
 
 To generate a Swiss Barcode using Telerik UI for Xamarin, you need to first set the **Symbology** of the Barcode to **SwissQRCode**.
 
-<snippet id='swissqrbarcode-example-xaml' />
+```XAML
+<telerikBarcode:RadBarcode x:Name="Barcode" 
+                           WidthRequest="100" 
+                           HeightRequest="100">
+    <telerikBarcode:RadBarcode.Symbology>
+        <telerikBarcode:SwissQRCode/>
+    </telerikBarcode:RadBarcode.Symbology>
+</telerikBarcode:RadBarcode>
+```
+
+Add the namespace:
+
+```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 The Swiss QR code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the **SwissQRCodeValueStringBuilder** helper class. Its purpose is to hold the information needed for a SwissQRCode in a type-safe manner, to validate this information and to generate the input. Through its constructor, you need to set the following properties:
 
@@ -39,11 +53,36 @@ The Swiss QR code standard mandates that the input provided for the generation o
 * **Amount**: The amount of the payment.
 * **AlternativeProcedure**: The alternative procedures for the payment.
 
-<snippet id='swissqrbarcode-example-builder' />
+```C#
+SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
+      new Iban("CH4431999123000889012", IbanType.QRIBAN),
+      SwissQRCodeCurrency.EUR,
+      new Contact("Max Muster & Söhne",
+      new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "123")),
+      new Reference(ReferenceType.QRR, "210000000003139471430009017"),
+      new AdditionalInformation("Order from 15.03.2021", "//S1/10/1234/11/201021/30/102673386/32/7.7/40/0:30"),
+      new Contact("Simon Muster", new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "1")),
+      (decimal)1949.75,
+      new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
+```
+
+Add the namespace:
+
+```C#
+using Telerik.Barcode
+```
+
 
 Once you've set up the SwissQRCodeValueStringBuilder you can call its **Validate** method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If there are no errors - **null** is returned. In this case, you can call the **BuildValue** method of the string builder which will build the string value to be provided to the RadBarcode.
 
-<snippet id='swissqrbarcode-example-validate' />
+```C#
+string errors = qrCodeValue.Validate();
+
+if (string.IsNullOrEmpty(errors))
+{
+    this.Barcode.Value = qrCodeValue.BuildValue();
+}
+```
 
 Invoking the code from the above snippets will generate the following result:
 

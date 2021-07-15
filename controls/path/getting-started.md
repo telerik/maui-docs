@@ -8,7 +8,7 @@ slug: path-getting-started
 
 # Getting Started
 
->important RadPath is rendered via the **SkiaSharp** graphics library so you need to install also `SkiaSharp.Views.Forms.Maui.Controls.Compatibility`.
+>important RadPath is rendered via the **SkiaSharp** graphics library.
 
 ## Define RadPath control
 
@@ -35,7 +35,8 @@ You can choose any of those and set it directly to the Geometry property of the 
 In addition to this you need to add the following namespaces:
 
 ```XAML
-
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
@@ -77,7 +78,8 @@ The next example shows a RadPath with an Arc definition:
 and add the following namespace:
 
 ```XAML
-
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 Both RadPath objects appearance can be reviewed in the image below:

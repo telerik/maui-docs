@@ -46,6 +46,13 @@ Here is a sample implementation of an **RadArcSegment** object:
  </telerikPrimitives:RadPath>
 ```
 
+Add the namespace: 
+
+```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
 ### RadLineSegment
 
 Creates a line between two points in a **RadPathFigure**. The starting point of the line is defined either by the previous segment's end point or by the **StartPoint** of the PathFigure object. The end point is defined by the **Point** property of the LineSegment object.
@@ -66,6 +73,13 @@ Check below a simple example of how to create a line PathFigure:
 </telerikPrimitives:RadPath>
 ```
 
+Add the namespace: 
+
+```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
 ## Example 
 
 The following example shows how to create a more complex **RadPathGeometry** object and add a line with curved edges to its Figures collection. 
@@ -77,6 +91,13 @@ First you should define the **RadPath** figure:
                            Grid.Row="0"
                            StrokeThickness="0" 
                            Fill="#3DBAFE"/>
+```
+
+Add the namespace: 
+
+```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 And then you set its **Geometry** to have the following structure:
@@ -93,6 +114,13 @@ customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.825, 0.125), 
 RadPathGeometry geometry = new RadPathGeometry();
 geometry.Figures.Add(customLine);
 customLinePath.Geometry = geometry;
+```
+
+Add the namespace:
+
+```C#
+using Microsoft.Maui.Graphics;
+using Telerik.XamarinForms.Common;
 ```
 
 Check the screenshot below which shows the result after creating the three Paths:

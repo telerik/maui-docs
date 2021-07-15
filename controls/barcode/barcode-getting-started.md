@@ -8,7 +8,7 @@ slug: barcode-getting-started
 
 # Getting Started
 
->important RadBarcode is rendered via the **SkiaSharp** graphics library so you need to install also `SkiaSharp.Views.Forms.Maui.Controls.Compatibility`.
+>important RadBarcode is rendered via the **SkiaSharp** graphics library.
 
 ## Define RadBarcode control
 
@@ -31,9 +31,6 @@ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Teleri
 ```
 
 Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
-
-
-
 
 ```C#
 .UseSkiaSharpCompatibilityRenderers()

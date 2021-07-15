@@ -1,7 +1,7 @@
 ---
 title: Specifications
-page_title: Xamarin Barcode Documentation | 1D Barcodes Specifications
-description: Check our &quot;Specifications&quot; documentation article for Telerik Barcode for Xamarin control.
+page_title: .NET MAUI Barcode Documentation | 1D Barcodes Specifications
+description: Check our &quot;Specifications&quot; documentation article for Telerik Barcode for .NET MAUI.
 position: 0
 slug: barcode-1d-specifications
 ---
