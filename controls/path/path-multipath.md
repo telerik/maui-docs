@@ -48,14 +48,14 @@ Here is a an example of RadMultiPath definition:
                                   Grid.Row="1"
                                   HorizontalOptions="Center"
                                   VerticalOptions="Center">
-    <telerikPrimitives:RadPathDefinition Stroke="#FF364781" StrokeThickness="{StaticResource strokeThickness}">
+    <telerikPrimitives:RadPathDefinition Stroke="#FF364781" StrokeThickness="30">
       <telerikCommon:RadPathGeometry>
         <telerikCommon:RadPathFigure StartPoint="0.95, 0.95">
           <telerikCommon:RadLineSegment Point="0.75, 0.75" />
         </telerikCommon:RadPathFigure>
       </telerikCommon:RadPathGeometry>
     </telerikPrimitives:RadPathDefinition>
-    <telerikPrimitives:RadPathDefinition Fill="#FF64B5FF" Stroke="#FF616161" StrokeThickness="{StaticResource strokeThickness}">
+    <telerikPrimitives:RadPathDefinition Fill="#FF64B5FF" Stroke="#FF616161" StrokeThickness="30">
       <telerikCommon:RadPathGeometry>
         <telerikCommon:RadPathFigure StartPoint="0.75, 0.75">
           <telerikCommon:RadArcSegment Center="0.4, 0.4" StartAngle="-45" SweepAngle="360" Size="0.7, 0.7" />
@@ -74,6 +74,37 @@ Here is a an example of RadMultiPath definition:
     </telerikPrimitives:RadPathDefinition>
   </telerikPrimitives:RadMultiPath>
 </Grid>
+```
+
+Add the namespaces:
+
+```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
+```
+
+And the code behing logic for grid size changed:
+
+```C#
+public partial class MainPage : ContentPage, IPage
+{
+    public MainPage()
+    {
+        //RadCartesianChart
+
+        InitializeComponent();
+        this.root.SizeChanged += Root_SizeChanged;
+    }
+
+    private void Root_SizeChanged(object sender, EventArgs e)
+    {
+        double size = Math.Min(this.root.Width, this.root.Height / 2);
+        this.multiPath.WidthRequest = size;
+        this.multiPath.HeightRequest = size;
+        this.path2.WidthRequest = size;
+        this.path2.HeightRequest = size;
+    }
+}
 ```
 
 The image below shows the result:

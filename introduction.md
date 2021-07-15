@@ -24,11 +24,15 @@ To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/maui
 
 Our suite features the following controls for cross-platform development with MAUI:
 
+* [Barcode]({%slug barcode-overview%})
 * [Border]({%slug border-overview%})
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
 * [CheckBox]({%slug checkbox-overview%})
+* [Gauge]({%slug gauge-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
+* [Path]({%slug path-overview%})
+* [Popup]({%slug popup-overview%})
 * [SegmentedControl]({%slug segmentedcontrol-overview%})
 
 ## Getting Started with Telerik UI for MAUI

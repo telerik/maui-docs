@@ -44,6 +44,14 @@ Here is an example with **RadSweepGradientBrush**:
 </telerikPrimitives:RadPath>
 ```
 
+Add the namespaces:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
+```
+
 Below you can check an example with **RadSolidColorBrush**:
 
 ```XAML
@@ -62,6 +70,13 @@ Below you can check an example with **RadSolidColorBrush**:
 </telerikPrimitives:RadPath>
 ```
 
+And the used namespace:
+
+```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
+```
+
 And the result is shown below:
 
 ![RadPath Styling](images/path_styling.png)
@@ -70,7 +85,3 @@ And the result is shown below:
 ## See Also
 
 - [PathGeometry]({% slug path-structure %})
-
-
-
-

@@ -43,7 +43,7 @@ Here is a quick example of RadBarcode with the Code39 symbology applied:
 </telerikBarcode:RadBarcode>
 ```
 
-You need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
@@ -77,6 +77,12 @@ The next example shows the same Barcode with Manual SizingMode:
 </telerikBarcode:RadBarcode>
 ```
 
+Add the following namespace:
+
+```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
 And here is the result:
 
 #### Figure 2: Barcode with Manual SizingMode
@@ -103,6 +109,12 @@ You could easily change the visual appearance of your Barcodes in order to match
         <telerikBarcode:Code39 SizingMode="Stretch" />
     </telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
+```
+
+Add the following namespace:
+
+```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 	
 #### Figure 3: Barcode with customized colors
