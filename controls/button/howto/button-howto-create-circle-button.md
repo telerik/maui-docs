@@ -20,9 +20,23 @@ You could easily create circular buttons with RadButton by adjusting its Width, 
 
 Here is a quick example:
 
-<snippet id='button-circular-xaml'/>
+```XAML
+<telerikInput:RadButton WidthRequest="120" 
+					    HeightRequest="120"                                
+					    Text="Circle Button" 
+					    FontSize="Micro" 
+					    TextColor="White" 
+					    BackgroundColor="DarkBlue" 
+					    CornerRadius="60"  />
+```
 
-Appearance of different circular buttons:
+Add the namespace: 
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
+```
+
+How it looks:
 
 ![Button Key Features Example](../images/button-howto-circlebutton.png)
 
