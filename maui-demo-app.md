@@ -49,7 +49,27 @@ The DemoApp folder is inside the installation folder. The installation folder ha
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
-**5. Open the DemoApp.sln file in Visual Studio / Visual Studio for Mac**
+## Run Demo App using Visual Studio 2022 Preview
+
+### Run on Android
+
+* Open the DemoApp.sln file in Visual Studio 2022 Preview**
+
+### Run on WinUI
+
+**Open the DemoAppWinUI3.sln file in Visual Studio 2022 Preview**
+
+>important If you want to build and run the app on WinUI you must install the [Single-Project MSIX Packaging Tool for VS 2022 Preview](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17)
+
+### Run thew DemoApp using Visual Studio Code for Windows**
+
+* Open the HelloMaui folder inside VS Code for Windows
+
+## Run DemoApp using Visual Studio Code for Mac**
+
+
+
+![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
 
 ## Demo App on Android
 
