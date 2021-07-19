@@ -17,7 +17,7 @@ If your app is setup, you are ready to add a **RadBarcode** control to your page
 ```XAML
 <telerikBarcode:RadBarcode x:Name="barcode" 
 	                       Value="https://www.telerik.com/maui-ui"                               
-	                       WidthRequest="100" HeightRequest="100">
+	                       WidthRequest="1000" HeightRequest="1000">
     <telerikBarcode:RadBarcode.Symbology>
         <telerikBarcode:QRCode SizingMode="Stretch" />
     </telerikBarcode:RadBarcode.Symbology>

@@ -36,6 +36,9 @@ Add the namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
 ```
 
+>important CornerRadius property does not work on Android as it is still not supported [check this ifo here](https://github.com/dotnet/maui/wiki/Status#%EF%B8%8F-button).
+
+
 How it looks:
 
 ![Button Key Features Example](../images/button-howto-circlebutton.png)
