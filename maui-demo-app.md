@@ -27,7 +27,7 @@ position: 3
 
 **Installation for Windows**
 
->important First, you have to run `maui-check --preview` in the terminal to use the Telerik UI for MAUI controls and build and run the DemoApp.
+>important `maui-check --preview` is required for using Telerik UI for MAUI controls and build and run the DemoApp.
 
 * Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
 
@@ -42,7 +42,7 @@ The DemoApp folder is inside the installation folder. The Installation folder ha
 
 **Installation for macOS**
 
->important First, you have to run the command `maui-check --preview` in the command prompt to use the Telerik UI for MAUI DemoApp.
+>important `maui-check --preview` is required for using Telerik UI for MAUI controls and build and run the DemoApp.
 
 * Telerik_UI_for_Maui_[version]_Preview.pkg - runnable pkg file used for automatic installation (for use on Mac).
 
