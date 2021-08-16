@@ -29,6 +29,8 @@ Our suite features the following controls for cross-platform development with MA
 * [Button]({%slug button-overview%})
 * [Chart]({%slug chart-overview%})
 * [CheckBox]({%slug checkbox-overview%})
+* [DataGrid]({%slug datagrid-overview%})
+* [Entry]({%slug entry-overview%})
 * [Gauge]({%slug gauge-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
 * [Path]({%slug path-overview%})

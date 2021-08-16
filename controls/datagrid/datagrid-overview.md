@@ -10,6 +10,8 @@ slug: datagrid-overview
 
 Most of the data on the Internet is stored in tables within a database. **RadDataGrid for .NET MAUI** provides the same abstraction over the data – it has Columns and Rows and the intersection of a Row and a Column is called a Cell. When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called ViewModel) where each instance represents a Table Row and each property of the object represents a Column within the original table.
 
+>important Telerik UI for MAUI DataGrid is available for Android and iOS.
+
 ![Overview DataGrid](images/overview-grid-1.png)
 
 ## Key features
@@ -30,7 +32,7 @@ Most of the data on the Internet is stored in tables within a database. **RadDat
 
 * **Rows Alternation**: RadDataGrid supports alternating row colors so your app users can easily distinguish one row from another.
 
-* **Styling API and Themes**: DataGrid comes with built-in theming support that allows you to easily build slick interfaces with the look-and-feel of a predefined theme. In addition, it is highly customizable should you prefer using your own styling. Read the [Styling]({%slug datagrid-styling%}) topic for more details.
+* **Styling API**: DataGrid is highly customizable if you prefer using your own styling. Read the [Styling]({%slug datagrid-styling%}) topic for more details.
 
 >tip Check out RadDataGrid [Getting Started]({%slug datagrid-getting-started%}) help article that shows how to use it in a basic scenario.
 
