@@ -32,8 +32,6 @@ Most of the data on the Internet is stored in tables within a database. **RadDat
 
 * **Styling API and Themes**: DataGrid comes with built-in theming support that allows you to easily build slick interfaces with the look-and-feel of a predefined theme. In addition, it is highly customizable should you prefer using your own styling. Read the [Styling]({%slug datagrid-styling%}) topic for more details.
 
-* **Localization**: The control has built-in localization support, which makes it easy to localize your app to any language your project demands. Read the [Localization]({%slug datagrid-features-localization %}) topic for more details.
-
 >tip Check out RadDataGrid [Getting Started]({%slug datagrid-getting-started%}) help article that shows how to use it in a basic scenario.
 
 ## See Also
@@ -45,4 +43,3 @@ Most of the data on the Internet is stored in tables within a database. **RadDat
 - [Grouping]({%slug datagrid-grouping-overview%})
 - [Selection]({%slug datagrid-selection-overview %})
 - [Styling]({%slug datagrid-styling%})
-- [Localization]({%slug datagrid-features-localization%})

@@ -15,13 +15,13 @@ slug: datagrid-getting-started
 The snippet below shows a simple RadDataGrid definition:
 
 ```XAML	
-<telerikDataGrid:RadDataGrid x:Name="DataGrid"/>
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"/>
 ```
 
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```	
 
 > RadDataGrid control provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fill into. The following scenarios will measure the control with infinity and the virtualization will not work:
@@ -36,7 +36,6 @@ By default, the **RadDataGrid** control will autogenerate rows depending on the 
 public class Data
 {
 	public string Country { get; set; }
-
 	public string Capital { get; set; }
 }
 ```
@@ -44,7 +43,7 @@ public class Data
 After you have created your collection of custom objects, you should assign it to the **ItemsSource** property of the control:
 
 ```C#
-this.DataGrid.ItemsSource = new List<Data>
+this.dataGrid.ItemsSource = new List<Data>
 {
 	new Data { Country = "India", Capital = "New Delhi"},
 	new Data { Country = "South Africa", Capital = "Cape Town"},
