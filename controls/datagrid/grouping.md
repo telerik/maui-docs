@@ -1,7 +1,7 @@
 ---
 title: Grouping
-page_title: Xamarin DataGrid Documentation | Grouping Overview
-description: Check our &quot;Grouping&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Grouping Overview
+description: Check our &quot;Grouping&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 4
 slug: datagrid-grouping-overview
 ---
@@ -20,10 +20,7 @@ Programmatic grouping can be done by adding descriptors to the **GroupDescriptor
 All GroupDescriptors are located in the Telerik.XamarinForms.Common.Data namespace:
 
 ```XAML
- xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.XamarinForms.Common"
-```
-```C#
-using Telerik.XamarinForms.Common.Data;
+ xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 ### Property Group Descriptor
@@ -38,11 +35,39 @@ To use the PropertyGroupDescriptor you have to set its property PropertyName.
 
 Let's, for example, have the following business object:
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-object' />
+```C#
+public class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Department { get; set; }
+}
+```
 
 And a ViewModel class with a collection of **Person** objects:
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-viewmodel' />
+```C#
+public class ViewModel
+{
+    public ViewModel()
+    {
+        this.People = new ObservableCollection<Person>()
+        {
+            new Person { Name = "Kiko", Age = 23, Department = "Production" },
+            new Person { Name = "Jerry", Age = 23, Department = "Accounting and Finance"},
+            new Person { Name = "Ethan", Age = 51, Department = "Marketing" },
+            new Person { Name = "Isabella", Age = 25, Department = "Marketing" },
+            new Person { Name = "Joshua", Age = 45, Department = "Production" },
+            new Person { Name = "Logan", Age = 26, Department = "Production"},
+            new Person { Name = "Aaron", Age = 32, Department = "Production" },
+            new Person { Name = "Elena", Age = 37, Department = "Accounting and Finance"},
+            new Person { Name = "Ross", Age = 30, Department = "Marketing" },
+        };
+    }
+
+    public ObservableCollection<Person> People { get; set; }
+}
+```
 
 Next snippet demonstrates how you could group the people by "Department" property through the PropertyGroupDescriptor:
 
@@ -57,30 +82,13 @@ Next snippet demonstrates how you could group the people by "Department" propert
 
 All that is left is to set the ViewModel as BindingContext of the page:
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-setvm'/>
+```C#
+this.BindingContext = new ViewModel();
+```
 
 Here is how the RadDataGrid looks when it is grouped:
 
 ![](images/datagrid_grouping.png)
-
-### GroupHeaderTemplate
-
-In addition, you can create custom GroupHeaderTemplate in order to achieve the desired look when grouping the DataGrid. The BindingContext of the GroupHeader is a **GroupHeaderContext** object and it includes the following properties:
-
-* Descriptor: Specifies the used descriptor for the grouping;
-* Group: Gets details on the group such as:
-	* Items: Gets the child items of the group.
-	* Key: Gets the specific for the group key.
-* IsExpanded: Defines a value indicating whether the group is currently expanded (has its child items visible).
-* Level: Gets the zero-based level (or the depth) of the group.
-
-The snippet below shows how the GroupHeaderTemplate is defined:
-
-<snippet id='datagrid-grouping-groupheadertemplate' />
-
-Check the result in the image below:
-
-![](images/datagrid_grouping_groupheader.png)
 
 ### Delegate Group Descriptor
 
@@ -92,15 +100,26 @@ You have to set the following property of the DelegateGroupDescriptor:
 
 >note You can easily sort the groups in ascending or descending order using the **SortOrder** property.
 
-You have to create a class that implements the **IKeyLookup** interface which will return the Key you want to group by. Then you need to add the **DelegateGroupDescriptor** to the RadDataGrid.GroupDescriptors collection and set its **KeyLookUp** property.
+You have to create a class that implements the **IKeyLookup** interface which will return the Key you want to group by. Then you need to add the **DelegateGroupDescriptor** to the RadDataGrid.GroupDescriptors collection and set its **KeyLookup** property.
 
 Check below a sample **IKeyLookup** implementation:
 
-<snippet id='datagrid-grouping-delegategroupdescriptor-lookup'/>
+```C#
+class CustomIKeyLookup : Telerik.XamarinForms.Common.Data.IKeyLookup
+{
+    public object GetKey(object instance)
+    {
+        var item = instance as Person;
+        return item?.Name[0];
+    }
+}
+```
 
 Adding it to the **GroupDescriptors** collection of the **RadDataGrid**:
 
-<snippet id='datagrid-grouping-delegategroupdescriptor'/>
+```C#
+this.dataGrid.GroupDescriptors.Add(new DelegateGroupDescriptor() { KeyLookup = new CustomIKeyLookup() });
+```
 
 Here is how the RadDataGrid looks when it is grouped through a DelegateGroupDescriptor:
 
@@ -108,15 +127,13 @@ Here is how the RadDataGrid looks when it is grouped through a DelegateGroupDesc
 
 ## Grouping UI
 
-The Grouping UI  is enabled by design and it allows user to group the data by column value. The Grouping UI exposes the following property:
+Grouping UI is enabled by design and it allows user to group the data by column value. Grouping UI exposes the following property:
 
 * **UserGroupMode**: Defines whether the Grouping UI is enabled/disabled. The available options are *Auto/Enabled/Disabled*. The default value of the UserGroupMode is *Auto*.
 
 The following property is used to enable/disable the grouping of a specific column:
 
-* **CanUserGroup** (bool): Defines a value indicationg whether the user can filter the column by ysing the Grouping UI.
-
->important A sample Grouping example can be found in the DataGrid/Grouping folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+* **CanUserGroup** (bool): Defines a value indication whether the user can filter the column by using the Grouping UI.
 
 ## Expand and Collapse Groups
 

@@ -14,7 +14,7 @@ slug: datagrid-editing
 
 You would need to define the **UserEditMode** property of the DataGrid control in order to enable the editing feature.
 
-**UserEditMode** property is type of *DataGridUserSortMode* and accepts the following values:
+**UserEditMode** property is type of *Telerik.XamarinForms.DataGrid.DataGridUserEditMode* and accepts the following values:
 
 * **None**: Editing is disabled (by default);
 * **Cell**: Used to enable the editing option.

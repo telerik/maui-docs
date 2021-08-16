@@ -23,7 +23,7 @@ The **SelectionUnit** property (type of *Telerik.XamarinForms.DataGrid.DataGridS
 * **Row**: The unit to select is a grid row (by default).
 * **Cell**: The unit to select is a cell within a grid row.
 
-  >note To define a Cell when using a selection, you can use the DataGridCellInfo class that holds all the information about the Cell. To define a Row when using a selection, you can use your data object.
+>note To define a Cell when using a selection, you can use the DataGridCellInfo class that holds all the information about the Cell. To define a Row when using a selection, you can use your data object.
 
 The example below shows how to set **SelectionUnit** in XAML and code-behind:
 

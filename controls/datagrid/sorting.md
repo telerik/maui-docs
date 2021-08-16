@@ -1,14 +1,14 @@
 ---
 title: Sorting
-page_title: Xamarin DataGrid Documentation | Sorting Overview
-description: Check our &quot;Sorting&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Sorting Overview
+description: Check our &quot;Sorting&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 6
 slug: datagrid-sorting-overview
 ---
 
 # Sorting
 
-**RadDataGrid** provides you with a built-in sorting functionality, which allows the user to easily order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
+**RadDataGrid** provides built-in sorting functionality which allows the user to easily order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
 
 ## Programmatic Sorting
 
@@ -24,18 +24,17 @@ You can sort the data in a DataGrid by pointing a property from the class that d
 * **PropertyName:** Gets or sets the name of the property that is used to retrieve the key to sort by.
 * **SortOrder:** Gets or sets the order of the sorting. It can be Ascending or Descending.
 
-<snippet id='datagrid-propertysortdescriptor-xaml'/>
 ```XAML
-<telerikGrid:RadDataGrid.SortDescriptors>
+<telerikDataGrid:RadDataGrid.SortDescriptors>
 	<telerikCommon:PropertySortDescriptor PropertyName="Name"/>
-</telerikGrid:RadDataGrid.SortDescriptors>
+</telerikDataGrid:RadDataGrid.SortDescriptors>
 ```
 
 where the used namespaces are defined like this:
 
 ```XAML
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.XamarinForms.Common"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 ### Delegate Sort Descriptor
@@ -64,7 +63,7 @@ Adding it to the **GroupDescriptors** collection of the RadDataGrid:
 
 <snippet id='datagrid-delegatesortdescriptor-csharp'/>
 ```C#
-this.grid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new CustomIKeyLookup()});
+this.dataGrid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new CustomIKeyLookup()});
 ```
 
 Here is how the RadDataGrid looks when sorting is applied:
@@ -80,8 +79,6 @@ Here is how the RadDataGrid looks when sorting is applied:
 The following property is used to enable/disable the sorting of a specific column:
 
 * **CanUserSort** (bool): Defines a value indicating whether the user can sort the data by the values in the column.
-
->important A sample Sorting example can be found in the DataGrid/Sorting folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 
