@@ -1,7 +1,7 @@
 ---
 title: Columns Width
-page_title: Xamarin DataGrid Documentation | Columns Width
-description: Check our &quot;Columns Width&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Columns Width
+description: Check our &quot;Columns Width&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 2
 slug: datagrid-columns-width
 ---

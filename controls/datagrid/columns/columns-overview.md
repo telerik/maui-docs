@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Xamarin DataGrid Documentation | Columns Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Columns Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 0
 slug: datagrid-columns-overview
 ---
@@ -49,9 +49,6 @@ All types of columns inherit from the **DataGridColumn** class which provides th
 * **CellDecorationStyleSelector** (DataGridStyleSelector): Defines the StyleSelector instance that allows for dynamic decoration on a per cell basis.
 * **CellContentTemplate** (DataTemplate): Defines the appearance of each cell associated with concrete column.
 * **CellEditTemplate** (DataTemplate): Defines the editor associated with the concrete column. The CellEditTemplate is displayed when the cell is in edit mode.
-* **FilterControlTemplate**(DataTemplate): Specifies the user defined template used for Filtering UI. The template must contain an instance of the Telerik.XamarinForms.DataGrid.DataGridFilterControlBase class
-
->important **CellContentTemplate**, **CellEditTemplate** and **FilterControlTemplate** properties are part of the DataGrid features from R2 2020 Official Release. For more details on celledit and cell content templates features check the [Cell Templates]({%slug datagrid-cell-templates%})article. For more details on filtercontrol template please review the [FilterControl Template]({%slug datagrid-filtering-overview%}#filtercontrol-template) section.
 
 >tip More information about **CellDecorationStyle** and  **CellDecorationStyleSelector** can be found in [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 
@@ -62,7 +59,59 @@ All types of columns inherit from the **DataGridColumn** class which provides th
 Here is an example containing all types of columns RadDataGrid control provides.
 
 Use the following snippet to declare a RadDataGrid in XAML: 
-<snippet id='datagrid-columns-xaml'/>
+
+```XAML
+<telerikDataGrid:RadDataGrid x:Name="grid" 
+         ItemsSource="{Binding Clubs}" 
+         AutoGenerateColumns="False" 
+         UserEditMode="Cell">
+    <telerikDataGrid:RadDataGrid.Columns>
+        <telerikDataGrid:DataGridTextColumn PropertyName="Name" 
+                    HeaderText="Name">
+            <telerikDataGrid:DataGridTextColumn.CellContentStyle>
+                <telerikDataGrid:DataGridTextCellStyle TextColor="Green" 
+                               FontSize="15" 
+                               SelectedTextColor="Orange"  />
+            </telerikDataGrid:DataGridTextColumn.CellContentStyle>
+        </telerikDataGrid:DataGridTextColumn>
+
+        <telerikDataGrid:DataGridNumericalColumn PropertyName="StadiumCapacity" 
+                         HeaderText="Stadium Capacity"/>
+
+        <telerikDataGrid:DataGridBooleanColumn PropertyName="IsChampion" 
+                       HeaderText="Champion?"/>
+
+        <telerikDataGrid:DataGridDateColumn PropertyName="Established" 
+                    HeaderText="Date Established"/>
+
+        <telerikDataGrid:DataGridPickerColumn PropertyName="Country"
+                      HeaderText="Country"
+                      ItemsSourcePath="Countries"/>
+
+        <telerikDataGrid:DataGridTemplateColumn HeaderText="Template Column">
+            <telerikDataGrid:DataGridTemplateColumn.CellContentTemplate>
+                <DataTemplate>
+                    <StackLayout InputTransparent="True">
+                        <Grid BackgroundColor="Orange"
+                          Margin="0, 10, 0, 0">
+                            <Label Text="{Binding Country}" 
+                               Margin="0, 5, 0, 5"
+                               HorizontalOptions="Center"
+                               VerticalTextAlignment="Center"/>
+                        </Grid>
+                        <Label Text="Some Custom Text" 
+                           TextColor="DarkGreen"
+                           FontSize="10"/>
+                    </StackLayout>
+                </DataTemplate>
+            </telerikDataGrid:DataGridTemplateColumn.CellContentTemplate>
+        </telerikDataGrid:DataGridTemplateColumn>
+
+        <telerikDataGrid:DataGridTimeColumn PropertyName="Time" 
+                    HeaderText="Time Column"/>
+    </telerikDataGrid:RadDataGrid.Columns>
+</telerikDataGrid:RadDataGrid>
+```
 
 Where the **telerikDataGrid** namespace is the following:
 
@@ -72,13 +121,101 @@ xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Tele
 
 The **ViewModel** class is declared as following:
 
-<snippet id='datagrid-columns-viewmodel'/>
+```C#
+public class ColumnsViewModel
+{
+    private ObservableCollection<Club> clubs;
+
+    public ObservableCollection<Club> Clubs => clubs ?? (clubs = CreateClubs());
+
+    private ObservableCollection<Club> CreateClubs()
+    {
+        return new ObservableCollection<Club>
+        {
+            new Club("UK Liverpool ", new DateTime(1892, 1, 1), new DateTime(2018, 2, 22, 3, 28, 33), 45362, "England"),
+            new Club("Manchester Utd.", new DateTime(1878, 1, 1), new DateTime(2018, 1, 1, 2, 56, 44), 76212, "England") { IsChampion = true },
+            new Club("Chelsea", new DateTime(1905, 1, 1), new DateTime(2018, 6, 17, 6, 19, 59), 42055, "England"),
+            new Club("Barcelona", new DateTime(1899, 1, 1), new DateTime(2018, 7, 12, 12, 25, 31), 99354, "Spain")
+        };
+    }
+}
+```
 	
 And the **Club** custom object:
 
-<snippet id='datagrid-columns-data'/>
+```C#
+public class Club : INotifyPropertyChanged
+{
+    private string name;
+    private DateTime established;
+    private DateTime time;
+    private int stadiumCapacity;
+    private bool isChampion;
+    private string country;
 
->important An example with DataGrid columns can be found in the DataGrid/Columns folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+    public Club(string name, DateTime established, DateTime time, int stadiumCapacity, string country)
+    {
+        Name = name;
+        Established = established;
+        Time = time;
+        StadiumCapacity = stadiumCapacity;
+        Country = country;
+    }
+
+    public string Name
+    {
+        get { return this.name; }
+        set { this.UpdateValue(ref this.name, value); }
+    }
+    public DateTime Established
+    {
+        get { return this.established; }
+        set { this.UpdateValue(ref this.established, value); }
+    }
+
+    public DateTime Time
+    {
+        get { return this.time; }
+        set { this.UpdateValue(ref this.time, value); }
+    }
+
+    public int StadiumCapacity
+    {
+        get { return this.stadiumCapacity; }
+        set { this.UpdateValue(ref this.stadiumCapacity, value); }
+    }
+
+    public string Country
+    {
+        get { return this.country; }
+        set { this.UpdateValue(ref this.country, value); }
+    }
+
+    public bool IsChampion
+    {
+        get { return this.isChampion; }
+        set { this.UpdateValue(ref this.isChampion, value); }
+    }
+
+    public List<string> Countries => new List<string> { "England", "Spain", "France", "Bulgaria" };
+
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
+    protected void UpdateValue<T>(ref T field, T newValue, [CallerMemberName] string propertyName = null)
+    {
+        if (!object.Equals(field, newValue))
+        {
+            field = newValue;
+            this.OnPropertyChanged(propertyName);
+        }
+    }
+}
+```
 
 ## See Also
 

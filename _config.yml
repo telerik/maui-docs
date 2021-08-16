@@ -104,7 +104,7 @@ navigation:
         title: "Commands"
         position: 9
     controls/datagrid/theming-and-styles: 
-        title: "Styles"
+        title: "Styling"
         position: 10
     ## End DataGrid
     ## Entry
