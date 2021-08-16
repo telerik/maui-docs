@@ -91,6 +91,26 @@ navigation:
     controls/checkbox:
         title: "CheckBox"
     ## End CheckBox
+    ## DataGrid
+    controls/datagrid:
+        title: "DataGrid"
+    controls/datagrid/columns: 
+        title: "Columns"
+        position: 2
+    controls/datagrid/columns/column-types: 
+        title: "Column Types"
+        position: 1    
+    controls/datagrid/commands:
+        title: "Commands"
+        position: 9
+    controls/datagrid/theming-and-styles: 
+        title: "Styles"
+        position: 10
+    ## End DataGrid
+    ## Entry
+    controls/entry:
+        title: "Entry"
+    ## End Entry
     ## Gauge
     controls/gauge:
         title: "Gauge"

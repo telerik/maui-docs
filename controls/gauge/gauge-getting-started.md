@@ -44,11 +44,20 @@ xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
 ```			
 
-Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.UseSkiaSharpCompatibilityRenderers()
-.UseSkiaSharpHandlers()    
+using Telerik.Maui.Controls.Compatibility;
+
+ 
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 This is the result:

@@ -39,18 +39,20 @@ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.UseSkiaSharpCompatibilityRenderers()
-.UseSkiaSharpHandlers()    
-```
+using Telerik.Maui.Controls.Compatibility;
 
-Add the following usings inside the `Startup.cs` file:
+ 
 
-```C#
-using SkiaSharp.Views.Maui.Controls.Compatibility;
-using SkiaSharp.Views.Maui.Controls;
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 ## Creating RadPath with custom geometry

@@ -36,16 +36,20 @@ Add the following namespace:
 xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
 ```
 
-To visualize RadCartesianChart and RadPieChart -> Register renderers inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+To visualize RadCartesianChart and RadPieChart -> Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.ConfigureMauiHandlers(handlers => {
-			
-	// renderer for Telerik UI for MAUI RadCartesianChart control
-	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
-	
-	// renderer for Telerik UI for MAUI RadCPieChart control
-	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));		
+using Telerik.Maui.Controls.Compatibility;
+
+ 
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 ## 4. Populating RadChart with data ##
