@@ -1,7 +1,7 @@
 ---
 title: DataGrid Styling
-page_title: Xamarin DataGrid Documentation | DataGrid Styling
-description: Check our &quot;DataGrid Styling&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | DataGrid Styling
+description: Check our &quot;DataGrid Styling&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
 slug: datagrid-styling
 ---
@@ -22,14 +22,35 @@ RowBackgroundStyle, AlternateRowBackgroundStyle and SelectionStyle are from type
 Here is an example how to set the RowBackgroundStyle property:
 
 <snippet id='datagrid-styling-rowbackgroundstyle'/>
+```XAML
+<telerikDataGrid:RadDataGrid.RowBackgroundStyle>
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="CadetBlue" 
+                                     BorderColor="DarkOrchid" 
+                                     BorderThickness="1"/>
+</telerikDataGrid:RadDataGrid.RowBackgroundStyle>
+```
 
 An example how to set the AlternateRowBackgroundStyle is shown below:
 
 <snippet id='datagrid-styling-alternaterowbackgroundstyle'/>
+```XAML
+<telerikDataGrid:RadDataGrid.AlternateRowBackgroundStyle>
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="LightBlue" 
+                                     BorderThickness="1"
+                                     BorderColor="BlanchedAlmond"/>
+</telerikDataGrid:RadDataGrid.AlternateRowBackgroundStyle>
+```
 
 The SelectionStyle property could be set as shown below:
 
 <snippet id='datagrid-styling-selectionstyle'/>
+```XAML
+<telerikDataGrid:RadDataGrid.SelectionStyle>
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="SeaGreen" 
+                                     BorderColor="Wheat" 
+                                     BorderThickness="2"/>
+</telerikDataGrid:RadDataGrid.SelectionStyle>
+```
 
 GoupHeaderStyle property is applied once the DataGrid is grouped. The following properties can be used for customizing the grouped DataGrid:
 
@@ -49,12 +70,17 @@ GoupHeaderStyle property is applied once the DataGrid is grouped. The following 
 Here is an example how to apply the GoupHeaderStyle property to the RadDataGrid control:
 
 <snippet id='datagrid-styling-groupheaderstyle'/>
+```XAML
+<telerikDataGrid:RadDataGrid.GroupHeaderStyle>
+    <telerikDataGrid:DataGridGroupHeaderStyle BorderThickness="1"
+                                          TextColor="DarkTurquoise"
+                                          BorderColor="Brown"/>
+</telerikDataGrid:RadDataGrid.GroupHeaderStyle>
+```
 
 Here is how the RadDataGrid looks:
 
 ![DataGrid Styling](../images/datagrid-styling.png)
-
->important [SDK Samples Browser application]({%slug developer-focused-examples%}) contains DataGridStyling example in the DataGrid/Styling folder. 
 
 ## See Also
 

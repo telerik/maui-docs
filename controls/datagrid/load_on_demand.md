@@ -128,10 +128,33 @@ Besides the different approaches for loading the data, **RadDataGrid** exposes s
 This property can be used to style the appearance of the row that contains the "Load More" button when the **LoadOnDemandMode** is **Manual**.
 
 The custom style is of type DataGridLoadOnDemandRowStyle:
+
 <snippet id='datagrid-loadondemandrowstyle-xaml'/>
+```XAML
+<telerikDataGrid:DataGridLoadOnDemandRowStyle x:Key="CustomDataGridLoadOnDemandRowStyle" 
+                                              BackgroundColor="LightYellow"
+                                              BorderColor="LightBlue"
+                                              IndicatorAnimationColor="Orange"
+                                              IndicatorAnimationType="Animation5"
+                                              HorizontalTextAlignment="Center"
+                                              VerticalTextAlignment="Center"
+                                              OverlayOpacity="0.5"
+                                              Text="Some Text"
+                                              TextFontSize="16"
+                                              TextColor="DarkGray"
+                                              TextFontFamily="Times New Roman"/>
+```
 
 And you should set it to the LoadOnDemandRowStyle property of the RadDataGrid:
+
 <snippet id='datagrid-setting-loadondemandrowstyle-xaml'/>
+```XAML
+<telerikDataGrid:RadDataGrid x:Name="dataGrid" 
+							 ItemsSource="{Binding Items}"
+                             LoadOnDemand="dataGrid_LoadOnDemand"
+                             LoadOnDemandMode="Manual"
+                             LoadOnDemandRowStyle="{StaticResource CustomDataGridLoadOnDemandRowStyle}"/>
+```
 
 #### Figure 2: The appearance of the row after setting the LoadOnDemandRowStyle
 ![](images/datagrid-rowstyle.png)
@@ -141,10 +164,36 @@ And you should set it to the LoadOnDemandRowStyle property of the RadDataGrid:
 This property can be used to set the template of the row that contains the "Load More" button when the **LoadOnDemandMode** is **Manual**.
 
 Here is a custom DataTemplate:
+
 <snippet id='datagrid-loadondemandrowtemplate-xaml'/>
+```XAML
+<DataTemplate x:Key="CustomLoadOnDemandRowTemplate">
+    <Label Text="Load more from Template"
+           Margin="0,30,0,30"
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand"
+           IsEnabled="{Binding IsDataLoading}">
+        <Label.Triggers>
+            <Trigger TargetType="Label"
+                     Property="IsEnabled" Value="False">
+                <Setter Property="BackgroundColor" Value="LightBlue" />
+            </Trigger>
+        </Label.Triggers>
+    </Label>
+</DataTemplate>
+```
 
 And how you set the property:
+
 <snippet id='datagrid-setting-loadondemandrowtemplate-xaml'/>
+```XAML
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"
+							 ItemsSource="{Binding Items}"
+                             LoadOnDemand="dataGrid_LoadOnDemand"
+                             LoadOnDemandMode="Manual"
+                             LoadOnDemandRowTemplate="{StaticResource CustomLoadOnDemandRowTemplate}"/>
+```
+
 
 #### Figure 3: The appearance of the row after setting the LoadOnDemandRowTemplate
 ![](images/datagrid-rowtemplate.png)
