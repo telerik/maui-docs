@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Xamarin DataGrid Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
 slug: datagrid-commands-overview
 ---

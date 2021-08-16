@@ -1,7 +1,7 @@
 ---
 title: Columns Styling
-page_title: Xamarin DataGrid Documentation | Columns Styling
-description: Check our &quot;Columns Styling&quot; documentation article for Telerik DataGrid for Xamarin control.
+page_title: .NET MAUI DataGrid Documentation | Columns Styling
+description: Check our &quot;Columns Styling&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 1
 slug: datagrid-columns-styling
 ---
@@ -12,9 +12,9 @@ RadDataGrid component provides styling mechanism for customizing the look of the
 
 The styling mechanism is represented by the following properties:
 * **HeaderStyle** (DataGridColumnHeaderStyle)
-* **CellContentStyle** (DataGridTypedColumn)
+* **CellContentStyle** (Style with TargetType depending on the column type)
 * **CellDecorationStyle** (DataGridBorderStyle)
-* **CellEditorStyle** (DataGridTypedColumn)
+* **CellEditorStyle** (Style with TargetType depending on the editor type)
 
 ## HeaderStyle
 
@@ -29,17 +29,6 @@ To style the RadDataGridColumnHeader use the following properties:
 * **Font Options** (TextFontAttributes, TextFontFamily, TextFontSize): Define the font options to the text part of the ColumnHeader.
 * **Text Alignment** (TextMargin, HorizontalTextAlignment, VerticalTextAlignment): Define the positioning for the text part of the ColumnHeader.
 
-### FilterIndicator Styling
-
-Use the following properties for styling the FilterIndicator of the ColumnsHeader.
-
-* **FilterIndicator Font Options** (FilterIndicatorFontAttributes, FilterIndicatorFontFamily, FilterIndicatorFontSize): Define the font options for the ColumnHeader filter symbol.
-* **FilterIndicatorMargin**: Defines the margin of the filter symbol of the ColumnHeader.
-* **FilterIndicatorText**: Defines the text for the filter symbol of the ColumnHeader.
-* **FilterIndicatorTextColor**: Defines the color of the normal state of the filter symbol.
-
->note Please note that once the filter operation is applied, the filter indicator will be visible in the ColumnHeader cell. Also, by default the FilterIndicator is using an internal symbol font family. To show text instead of symbol, set a font family to the **FilterIndicatorFontFamily** property and set a text to the **FilterIndicatorText** property. For more details on the filtering feature go [here]({%slug datagrid-filtering-overview%}).
-
 ### SortIndicator Styling 
 
 The **Indicator** is shown once the RadDataGridColumnHeader is sorted (tapped/clicked on the ColumnHeader cell) and can be styled with the following properties:
@@ -53,35 +42,14 @@ The **Indicator** is shown once the RadDataGridColumnHeader is sorted (tapped/cl
 
 >note By default, the indicator is represented by a string symbol that could be changed using **IndicatorText** and **IndicatorFontFamily** properties. For more details on the sorting feature check [here]({%slug datagrid-sorting-overview%}).
 
-### OptionsButton Styling
-
-The **OptionsButton** of the RadDataGridColumnHeader refers to the FilteringUI of the DataGrid. Using the OptionsButton you can open the Filtering UI control. 
-
-The style of the options button can be customized using the following properties:
-
-* **OptonsButton Font Options** (OptonsButtonFontAttributes, OptionsButtonFontFamily, OptionsButtonFontSize): Define the font options for the ColumHeaders options button,
-* **OptionsButtonMargin**: Defines the margin of the ColumnsHeader options button
-* **OptionsButtonText**: Defines the text of the ColumnHeaders options button. 
-* **OptionsButtonTextColor**: Defines the text color of the ColumnHeaders options button. 
-
->tip In order to change the OptionsButton visibility you can set the `IsOptionsButtonVisible` `bool` property. By default its value is `True` which means that the OptionsButton is visible by default.
-
-![OptionsButton three dots visibility](../images/datagrid-optionsbutton-visibility.png "OptionsButton three dots visibility")
-
 ```XAML
-<telerikGrid:DataGridTextColumn.HeaderStyle>
-    <telerikGrid:DataGridColumnHeaderStyle IsOptionsButtonVisible="False"
-                                           TextColor="Black"
-                                           BorderColor="Black" 
-                                           BorderThickness="2"/>
-</telerikGrid:DataGridTextColumn.HeaderStyle>
+<telerikDataGrid:DataGridTextColumn.HeaderStyle>
+	<telerikDataGrid:DataGridColumnHeaderStyle BackgroundColor="LightSkyBlue"
+											   TextColor="Black"
+											   BorderColor="Black" 
+											   BorderThickness="2"/>
+</telerikDataGrid:DataGridTextColumn.HeaderStyle>
 ```
-
->note By default the options button is represented by a string symbol that could be changed through **OptionsButtonText** and **OptionsButtonFontFamily** properties.
-
-An example how to set the HeaderStyle property is shown below:
-
-<snippet id='datagrid-columnstyle-headerstyle'/>
 
 ## CellContentStyle
 
@@ -94,6 +62,17 @@ An example how to set the HeaderStyle property is shown below:
 Here is an example how to set the CellContentStyle property:
 
 <snippet id='datagrid-columnstyle-cellcontent'/>
+```XAML
+<telerikDataGrid:DataGridTextColumn.CellContentStyle>
+	<telerikDataGrid:DataGridTextCellStyle TextColor="DarkOliveGreen"
+										   FontSize="12"
+										   TextMargin="2"
+										   VerticalTextAlignment="Center" 
+										   HorizontalTextAlignment="Center"
+										   SelectedTextColor="Brown">
+	</telerikDataGrid:DataGridTextCellStyle>
+</telerikDataGrid:DataGridTextColumn.CellContentStyle>
+```
 
 ## CellDecorationStyle
 
@@ -102,6 +81,13 @@ To style the border of each cell associated with the column the **CellDecoration
 Here is an example how to set those properties on a column:
 
 <snippet id='datagrid-columnstyle-celldecoration'/>
+```XAML
+<telerikDataGrid:DataGridTextColumn.CellDecorationStyle>
+	<telerikDataGrid:DataGridBorderStyle BorderColor="DarkBlue"  
+										 BorderThickness="3" 
+										 BackgroundColor="LightBlue" />
+</telerikDataGrid:DataGridTextColumn.CellDecorationStyle>
+```
 
 ## CellEditorStyle
 
@@ -110,12 +96,18 @@ Here is an example how to set those properties on a column:
 Here is an example how to set this property:
 
 <snippet id='datagrid-columnstyle-celleditor'/>
+```XAML
+<telerikDataGrid:DataGridTextColumn.CellEditorStyle>
+	<Style TargetType="Entry">
+		<Setter Property="FontSize" Value="Large"/>
+		<Setter Property="FontAttributes" Value="Bold"/>
+	</Style>
+</telerikDataGrid:DataGridTextColumn.CellEditorStyle>
+```
 
 And this is how the column style looks when the properties are applied for customizing the column are applied: 
 
 ![DataGrid Columns Styling](../images/datagrid-columns-styling.png)
-
->important [SDK Samples Browser application]({%slug developer-focused-examples%}) contains Columns Styling example in the DataGrid/Styling folder.  
 
 ## See Also
 
