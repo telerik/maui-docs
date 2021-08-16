@@ -89,7 +89,7 @@ The Telerik UI for MAUI Nuget Package is availabe in the **Telerik NuGet Server*
 
 ## Register the needed handlers and renderers
 
-In order to visualize the Telerik UI for MAUI controls you have to register the needed renderers for Button, Chart and ListView controls inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+In order to visualize the Telerik UI for MAUI controls you have to register the needed renderers Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project. 
 
 1. Add the needed usings inside the `Startup.cs` file:
 
@@ -97,7 +97,7 @@ In order to visualize the Telerik UI for MAUI controls you have to register the 
 using Telerik.Maui.Controls.Compatibility;
 ```
 
-2. Register the needed handlers and renderers for Telerik UI for .NET MAUI inside the `Startup.cs` file:
+2. Call `UseTelerik()` method inside the `Startup.cs` file:
 
 
 ```C#
