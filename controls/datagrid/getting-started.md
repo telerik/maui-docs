@@ -24,6 +24,19 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```	
 
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+
+```C#
+using Telerik.Maui.Controls.Compatibility;
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+	appBuilder		
+		.UseTelerik()
+		.UseMauiApp<App>();
+		
+}    
+
 > RadDataGrid control provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fill into. The following scenarios will measure the control with infinity and the virtualization will not work:
 >	* positioning the DataGrid control inside StackLayout which is wrapped in ScrollView.
 >	* positioning the DataGrid inside ScrollView.
