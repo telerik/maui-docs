@@ -30,18 +30,20 @@ Add the following namespace:
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Register a SkiaSharp renderer inside the `Configure` method of the **Startup.cs** file of your project:
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.UseSkiaSharpCompatibilityRenderers()
-.UseSkiaSharpHandlers()    
-```
+using Telerik.Maui.Controls.Compatibility;
 
-Add the following usings inside the `Startup.cs` file:
+ 
 
-```C#
-using SkiaSharp.Views.Maui.Controls.Compatibility;
-using SkiaSharp.Views.Maui.Controls;
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 Here is the result:

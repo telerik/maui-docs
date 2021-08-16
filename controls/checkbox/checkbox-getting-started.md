@@ -20,14 +20,20 @@ Add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Compatibility"
 ```
 
-Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project:
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.ConfigureMauiHandlers(handlers => {
+using Telerik.Maui.Controls.Compatibility;
 
-    // renderer for Telerik UI for MAUI CheckBox
-	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Primitives.RadCheckBox), typeof(PrimitivesRenderer.CheckBoxRenderer));
-    .....           
+ 
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 ## See Also

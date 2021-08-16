@@ -42,14 +42,20 @@ You have to add the following namespaces:
 
 ```
 
-To visualize RadListView -> Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project. 
+To visualize RadListView -> Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.ConfigureMauiHandlers(handlers => {
-			
-	// renderer for Telerik UI for MAUI RadListView control
-	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(DataControlsRenderer.ListViewRenderer));
-	.............
+using Telerik.Maui.Controls.Compatibility;
+
+ 
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 This is the result:

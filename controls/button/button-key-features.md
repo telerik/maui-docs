@@ -25,14 +25,20 @@ Add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
 ```
 
-Register a renderer inside the `ConfigureMauiHandlers` method of the **Startup.cs** file of your project:
+Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
 
 ```C#
-.ConfigureMauiHandlers(handlers => {
-			
-	// renderer for Telerik UI for MAUI Button control
-	handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadButton), typeof(InputRenderer.ButtonRenderer));
-	.....			
+using Telerik.Maui.Controls.Compatibility;
+
+ 
+
+public void Configure(IAppHostBuilder appBuilder)
+{
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();
+        
+}              
 ```
 
 ## Content Alignment

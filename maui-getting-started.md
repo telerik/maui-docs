@@ -19,7 +19,7 @@ Information about what are the exact steps to get started with Microsoft .NET MA
 
 Once you have .NET MAUI configured on your machine, then follow the steps needed to set up the Telerik UI for .NET MAUI. 
 
->important Run `maui-check --preview`. It is required for using Telerik UI for MAUI controls and build and run the DemoApp.
+>important Run `maui-check`. It is required for using Telerik UI for MAUI controls and build and run the DemoApp.
 
 >important Telerik .NET MAUI Preview controls are available for Android, iOS and WinUI.
 
@@ -94,22 +94,7 @@ In order to visualize the Telerik UI for MAUI controls you have to register the 
 1. Add the needed usings inside the `Startup.cs` file:
 
 ```C#
-
-// add the needed usings
-using SkiaSharp.Views.Maui.Controls.Compatibility;
-using SkiaSharp.Views.Maui.Controls;
-
-
-#if __ANDROID__
-using InputRenderer = Telerik.XamarinForms.InputRenderer.Android;
-using ChartRenderer = Telerik.XamarinForms.ChartRenderer.Android;   
-using PrimitivesRenderer = Telerik.XamarinForms.PrimitivesRenderer.Android;
-#elif __IOS__
-using InputRenderer = Telerik.XamarinForms.InputRenderer.iOS;
-using ChartRenderer = Telerik.XamarinForms.ChartRenderer.iOS;
-using PrimitivesRenderer = Telerik.XamarinForms.PrimitivesRenderer.iOS;
-#endif
-
+using Telerik.Maui.Controls.Compatibility;
 ```
 
 2. Register the needed handlers and renderers for Telerik UI for .NET MAUI inside the `Startup.cs` file:
@@ -126,38 +111,7 @@ public class Startup : IStartup
             .ConfigureFonts(fonts => {
                 fonts.AddFont("ionicons.ttf", "IonIcons");
             })
-            .ConfigureMauiHandlers(handlers => {
-			
-                // ****** Compatibility Renderers ***** //
-				
-                // Compatibillity renderer for Telerik UI for MAUI Button control
-                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadButton), typeof(InputRenderer.ButtonRenderer));
-
-                // Compatibillity renderer for Telerik UI for MAUI RadCartesianChart control
-                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(ChartRenderer.CartesianChartRenderer));
-
-                // Compatibillity renderer for Telerik UI for MAUI RadPieChart control
-                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(ChartRenderer.PieChartRenderer));
-
-                // Compatibillity renderer for Telerik UI for MAUI RadListView control
-                handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(DataControlsRenderer.ListViewRenderer));
-				
-				// renderer for Telerik UI for MAUI SegmentedControl
-			    handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Input.RadSegmentedControl), typeof(InputRenderer.SegmentedControlRenderer));
-				
-				// renderer for Telerik UI for MAUI CheckBox
-    			handlers.AddCompatibilityRenderer(typeof(Telerik.XamarinForms.Primitives.RadCheckBox), typeof(PrimitivesRenderer.CheckBoxRenderer));
-                                                
-                // ****** Handlers ***** //       
-				                        
-                // Add the Telerik UI for MAUI Handlers for ItemsControl control
-                handlers.AddHandler<IRadItemsControl, RadItemsControlHandler>();
-                                                
-                // Add the handlers for Telerik UI for MAUI Border control
-                handlers.AddHandler<IRadBorder, RadBorderHandler>();
-            })
-            .UseSkiaSharpCompatibilityRenderers()
-            .UseSkiaSharpHandlers()
+            .UseTelerik()
             .UseMauiApp<App>();            
     }
 }
