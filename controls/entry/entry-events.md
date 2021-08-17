@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI Entry Documentation | Events
 description: Check our &quot;Events&quot; documentation article for Telerik Entry for .NET MAUI control.
-position: 3
+position: 5
 slug: entry-events
 ---
 
@@ -58,4 +58,4 @@ private void Entry_Completed(object sender, EventArgs e)
 ## See Also
 
 - [Entry Getting Started]({% slug entry-getting-started%})
-- [Entry Theming and Style]({% slug entry-theming-style%})
+- [Entry Styling]({% slug entry-styling%})
