@@ -10,8 +10,9 @@ slug: entry-getting-started
 
 ## Define RadEntry control
 
-```C#
-var entry = new RadEntry();
+```XAML
+<telerikInput:RadEntry x:Name="entry" 
+					   WatermarkText="Enter first name"/>
 ```
 
 In addition to this you need to add the following namespace:
@@ -40,6 +41,6 @@ Here is the result:
 
 ## See Also
 
-- [Key Features]({% slug entry-key-features%})
+- [Text Appearance]({% slug entry-text-appearance%})
 - [Events]({% slug entry-events%})
-- [Styling]({% slug entry-theming-style%})
+- [Styling]({% slug entry-styling%})
