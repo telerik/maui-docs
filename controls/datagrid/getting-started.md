@@ -35,7 +35,8 @@ public void Configure(IAppHostBuilder appBuilder)
 		.UseTelerik()
 		.UseMauiApp<App>();
 		
-}    
+}
+```  
 
 > RadDataGrid control provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fill into. The following scenarios will measure the control with infinity and the virtualization will not work:
 >	* positioning the DataGrid control inside StackLayout which is wrapped in ScrollView.
