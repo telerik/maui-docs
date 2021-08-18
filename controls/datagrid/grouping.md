@@ -8,7 +8,7 @@ slug: datagrid-grouping-overview
 
 # Grouping
 
-**RadDataGrid** supports grouping operations either through the UI - [Grouping UI](#grouping-ui) or [programmatically](#programmatic-grouping). 
+**RadDataGrid** provides programmatic approach for grouping its data per concrete criteria. 
 
 ## Programmatic Grouping
 
@@ -124,16 +124,6 @@ this.dataGrid.GroupDescriptors.Add(new DelegateGroupDescriptor() { KeyLookup = n
 Here is how the RadDataGrid looks when it is grouped through a DelegateGroupDescriptor:
 
 ![](images/datagrid_grouping_delegategroup.png)
-
-## Grouping UI
-
-Grouping UI is enabled by design and it allows user to group the data by column value. Grouping UI exposes the following property:
-
-* **UserGroupMode**: Defines whether the Grouping UI is enabled/disabled. The available options are *Auto/Enabled/Disabled*. The default value of the UserGroupMode is *Auto*.
-
-The following property is used to enable/disable the grouping of a specific column:
-
-* **CanUserGroup** (bool): Defines a value indication whether the user can filter the column by using the Grouping UI.
 
 ## Expand and Collapse Groups
 
