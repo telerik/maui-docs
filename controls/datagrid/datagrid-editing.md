@@ -56,6 +56,14 @@ You could change the visual appearance of each editor through the **CellEditorSt
 Check below a quick snippet with **CellEditorStyle** applied to **DataGridTextColumn**:
 
 <snippet id='datagrid-columnstyle-celleditor'/>
+```XAML
+<telerikDataGrid:DataGridTextColumn.CellEditorStyle>
+    <Style TargetType="Entry">
+        <Setter Property="FontSize" Value="Large"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+</telerikDataGrid:DataGridTextColumn.CellEditorStyle>
+```
 
 ## See Also
 

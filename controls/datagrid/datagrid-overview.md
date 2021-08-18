@@ -26,7 +26,7 @@ Most of the data on the Internet is stored in tables within a database. **RadDat
 
 * **Editing**: You could easily enable app users to edit data presented in the grid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For instance, if one of the columns is a date, a date-picker will be used to offer user a change in date field. Go to [Editing]({%slug datagrid-editing %}) topic for more details.
 
-* **Sorting, Grouping**: Easily perform SORT and GROUP operations on your data via the intuitive user interface or with the convenient API of the DataGrid. Read the [Sorting]({%slug datagrid-sorting-overview %}) and [Grouping]({%slug datagrid-grouping-overview %}) topic for more details.
+* **Sorting, Filtering, Grouping**: Easily perform SORT, FILTER and GROUP operations on your data with the convenient API of the DataGrid. Read the [Sorting]({%slug datagrid-sorting-overview %}),  [Filtering]({%slug datagrid-filtering-overview%}) and [Grouping]({%slug datagrid-grouping-overview %}) topic for more details.
 
 * **Selection Modes**: DataGrid features single or multiple item selection, as well as controlling the selection unit – Cell or Row—thus enabling any selection scenario you want your Xamarin app users to have. Go to [Selection]({%slug datagrid-selection-overview %}) topic for more info.
 
@@ -42,6 +42,7 @@ Most of the data on the Internet is stored in tables within a database. **RadDat
 - [Load on Demand]({%slug datagrid-features-loadondemand%})
 - [Commands]({%slug datagrid-commands-overview%})
 - [Sorting]({%slug datagrid-sorting-overview%})
+- [Filtering]({%slug datagrid-filtering-overview%})
 - [Grouping]({%slug datagrid-grouping-overview%})
 - [Selection]({%slug datagrid-selection-overview %})
 - [Styling]({%slug datagrid-styling%})
