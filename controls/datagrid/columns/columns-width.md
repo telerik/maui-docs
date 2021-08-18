@@ -56,7 +56,7 @@ this.grid.ItemsSource = new List<Data>
 	Where the **telerikGrid** namespace is the following:
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 	
 >important The **Width** property of columns will apply only when **SizeMode="Fixed"**.
@@ -79,7 +79,7 @@ The first and second columns have set widths of 100 and 200, respectively:
 Where the **telerikGrid** namespace is the following:
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 The columns take all the available space proportionally. The Width property is ignored.
@@ -100,7 +100,7 @@ The columns take all the available space proportionally. The Width property is i
 Where the **telerikGrid** namespace is the following:
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 The columns take only as much space as they need. The Width property is ignored.
@@ -122,7 +122,7 @@ Lastly, lets use three columns to fully clarify the SizeMode behavior:
 Where the **telerikGrid** namespace is the following:
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 The first and the third columns each have a fixed size of 100 and the second column takes all the available space because of SizeMode="Stretch":
