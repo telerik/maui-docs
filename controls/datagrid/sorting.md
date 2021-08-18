@@ -84,4 +84,5 @@ The following property is used to enable/disable the sorting of a specific colum
 
 - [Columns]({%slug datagrid-columns-overview%})
 - [Grouping]({%slug datagrid-grouping-overview%})
+- [Filtering]({%slug datagrid-filtering-overview%})
 - [Selection]({%slug datagrid-selection-overview%})

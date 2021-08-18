@@ -182,4 +182,5 @@ dataView.CollapseItem(lastItem);
 
 - [Columns]({%slug datagrid-columns-overview%})
 - [Sorting]({%slug datagrid-sorting-overview%})
+- [Filtering]({%slug datagrid-filtering-overview%})
 - [Selection]({%slug datagrid-selection-overview%})
