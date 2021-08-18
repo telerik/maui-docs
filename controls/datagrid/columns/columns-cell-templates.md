@@ -63,8 +63,7 @@ Use the following snippet to declare a RadDataGrid in XAML:
 And add the following namespaces:
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 The **ViewModel** class is declared as following:
@@ -231,8 +230,7 @@ Use the following snippet to declare a RadDataGrid in XAML:
 And add the following namespaces
 
 ```xml
-xmlns:telerikGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid"
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 The **ViewModel** class is declared as following:
