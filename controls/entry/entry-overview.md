@@ -9,7 +9,7 @@ slug: entry-overview
 
 # Overview
 
-**RadEntry** is a text input control that accepts string input and provides a look and feel consistent with the rest of the Telerik UI for MAUI components through an innovative theming mechanism.
+**RadEntry** is a text input control that accepts string input and provides various customization options such as watermark, read-only-state, border styles, and more.
 
 If you are new to RadEntry, see the [Getting Started]({% slug entry-getting-started%}) guide that demonstrates how to add the control to your application.
 
