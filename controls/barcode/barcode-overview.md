@@ -1,29 +1,28 @@
 ---
 title: Overview
-page_title: .NET MAUI Barcode Documentation | RadBarcode Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
+page_title: RadBarcode Overview | Telerik UI for MAUI
+description: "Learn more about the Telerik UI for MAUI Barcode an the features it delivers."
 position: 0
 slug: barcode-overview
 ---
 
-# Overview
+# Telerik UI for MAUI Barcode Overview
 
-**Telerik RadBarcode for .NET MAUI** is a control used for creating and showing barcodes. You can generate and visualize barcodes in a machine-readable format via the RadBarcode control by providing numeric or character data.
-
-> Barcode for .NET MAUI is available for Android, iOS and WinUI.
-
-
-#### Figure 1: RadBarcode Overview
+The Telerik UI for MAUI Barcode is a control used for creating and showing barcodes. It provides numeric or character data for generating and visualizing barcodes in a machine-readable format through the RadBarcode control.
 
 ![RadBarcode Overview](images/barcode_overview.png)
 
-## Key features
+## Key Features
 
-* **Support for different one-dimensional barcodes**: including EAN13, EAN8, UPC-A, UPC-E and Code39 symbologies. Go to [1D barcodes]({%slug barcode-supported-types-overview %}#linear-1d-barcodes) section for the full list.
-* **Support for different two-dimensional barcodes**:  such as the popular QR Code, SwissQR Code and PDF417. Go to [2D barcodes]({%slug barcode-supported-types-overview %}#matrix-2d-barcodes) for more details on this.
-* **Three sizing modes**: RadBarcode provides three sizing modes that will help you fine-tune the rendering of your codes. For more details read [Defining the sizing mode]({% slug barcode-key-features %}#defining-the-sizing-mode) section.
-* **Styling capabilities**: RadBarcode exposes ForegroundColor and BackgroundColor properties that can be used to customize its visual appearance. Go to [Changing the colors]({%slug barcode-key-features %}#changing-the-colors) section for more information.
+* [Value and symbology]({% slug barcode-valuesymbology %})&mdash;The RadBarcode enables you set the symbology that will be used to convert the value of the control into a visual barcode representation.
+* [Sizing modes]({% slug barcode-sizingmodes %})&mdash;The RadBarcode provides three sizing modes that enable you to fine-tune the rendering of the barcodes.
+* [Auto-check sum]({% slug barcode-autochecksum %})&mdash;You can also disable the auto-check sum functionality that is otherwise provided by the RadBarcode by default.
+* [Styling]({% slug barcode-styling %})&mdash;The RadBarcode exposes the `ForegroundColor` and `BackgroundColor` properties that can be used to customize its visual appearance.
+* [Support for one-dimensional (1D) Barcodes]({% slug 1dbarcode-overview %})&mdash;The Telerik UI for MAUI Barcode supports linear barcode types such as EAN13, EAN8, UPC-A, UPC-E, and Code39.
+* [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;The Telerik UI for MAUI Barcode supports matrix barcode types such as QR Code, SwissQR Code, and PDF417.
 
-## See Also
+## Next Steps
 
-- [Getting Started]({% slug barcode-getting-started %})
+- [Getting Started with the Telerik UI for MAUI Barcode]({% slug barcode-getting-started %})
+- [1D Supported Barcodes]({% slug 1dbarcode-overview %})
+- [2D Supported Barcodes]({% slug 2dbarcode-overview %})

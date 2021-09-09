@@ -1,8 +1,8 @@
 ---
 title: PDF417
-page_title: .NET MAUI Barcode Documentation | PDF417 Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
-position: 0
+page_title: PDF417 2D Barcode Type | Telerik UI for MAUI
+description: "Learn more about the two-dimensional (2D) PDF417 barcode type supported by the Telerik UI for MAUI Barcode."
+position: 1
 slug: barcode-pdf417-overview
 ---
 
@@ -10,7 +10,7 @@ slug: barcode-pdf417-overview
 
 PDF417 is a stacked linear barcode symbol format used in a variety of applications, primarily transport, identification cards, and inventory management. PDF stands for Portable Data File. The 417 signifies that each pattern in the code consists of 4 bars and spaces, and that each pattern is 17 units long. The PDF417 symbology was invented by Dr. Ynjiun P. Wang at Symbol Technologies in 1991. (Wang 1993) It is represented by ISO standard 15438.
 
->caption Figure 1. PDF417 RadBarcode
+The following image demonstrates a PDF417 RadBarcode.
 
 ![Telerik Xamarin Barcode PDF417](images/barcode-2d-barcodes-pdf417-overview001.png)
 
@@ -20,8 +20,7 @@ The code is divided into rows and columns, which accommodate all the encoded dat
 
 The PDF417 barcode has the following structure:
 
-
->caption Figure 2. PDF417 RadBarcode's structure
+The following image shows the structure of a PDF417 RadBarcode.
 
 ![Telerik Xamarin Barcode PDF417 structure](images/barcode-2d-barcodes-pdf417-overview002.png)
 
@@ -53,17 +52,16 @@ Check below a quick example with PDF417 symbology applied to RadBarcode:
 </telerikBarcode:RadBarcode>
 ```
 
-Add the *telerikBarcode* namespace:
+Add the `telerikBarcode` namespace:
 
 ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Here is the result:
+The following image shows the result of the suggested implementation.
 
 ![PDF417](images/barcode-2d-barcodes-pdf417-example.png)
 
 ## See Also
 
-- [Key Features]({% slug barcode-key-features%})
-- [Supported Barcodes]({% slug barcode-supported-types-overview%})
+- [2D Barcodes Overview]({% slug 2dbarcode-overview %})

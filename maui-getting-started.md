@@ -1,129 +1,143 @@
 ---
 title: Getting Started
-page_title: Getting Started with Telerik .NET MAUI controls
-description: Getting Started with .NET MAUI - Telerik UI controls for .NET MAUI
+page_title: Getting Started with Telerik UI for MAUI Controls
+description: "Get started with Telerik UI controls for .NET MAUI."
 slug: maui-getting-started
 tags: .net maui, ui for .net maui, .net maui controls
 position: 1
 ---
 
-# Getting Started
+# Getting Started with Telerik UI for MAUI
 
-This article will guide you through the basics of Telerik UI for MAUI and how to start using the product.
+This guide provides the information you need to start using the Telerik UI for MAUI suite&mdash;it includes instructions about the available installation approaches, the required dependencies, the code for running the project, and links to additional resources.
 
-## Getting Started with .NET MAUI
+After the completion of this guide, you will be able to achieve an end result as demonstrated in the following example.
 
-Information about what are the exact steps to get started with Microsoft .NET MAUI and what are the system requrements are desricbed inside the [Microsoft .NET MAUI Documentation page](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation)
+(demo/screenshot)
 
-## Getting Started with Telerik .NET MAUI
+## Setting Up Your Microsoft Project
 
-Once you have .NET MAUI configured on your machine, then follow the steps needed to set up the Telerik UI for .NET MAUI. 
+Before you start with the installation of any Telerik UI for MAUI control, ensure that you have a running Microsoft project. The prerequisites to accomplish the installation of the components are always the same regardless of the Telerik UI for MAUI component you want to use, and are fully described in the [official Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
->important Run `maui-check`. It is required for using Telerik UI for MAUI controls and build and run the DemoApp.
+Once the Microsoft project is set up, run `maui-check`. The command builds and runs the Telerik UI for MAUI Demo App and is required by the Telerik UI for MAUI controls.
 
->important Telerik .NET MAUI Preview controls are available for Android, iOS and WinUI.
+## Downloading Telerik UI for MAUI
 
-## Download product files from Telerik UI for MAUI product page
+You can choose to use either of the following approaches for downloading the Telerik UI for MAUI product files:
 
-**1. Log into your [Telerik Account](https://www.telerik.com/account/).**
+* [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)
+* [Your Telerik account](https://www.telerik.com/account/)
 
-**2. Go to [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)**
+### Downloading from Telerik UI for MAUI Product Page
 
-**3. Click Download Telerik UI for MAUI button:**
+1. Log into your [Telerik Account](https://www.telerik.com/account/).
+1. Go to the [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)
+1. Click the **Download Telerik UI for MAUI** button:
 
-![Telerik UI for .NET MAUI](images/download_maui.png)
+  ![Telerik UI for .NET MAUI](images/download_maui.png)
 
-**4. The download starts automatically**
+1. As a result, the download starts automatically.
 
-![Telerik UI for .NET MAUI](images/downloading-maui.png)
+  ![Telerik UI for .NET MAUI](images/downloading-maui.png)
 
-## Download product files from your Telerik Account
+### Downloading from Your Telerik Account
 
-**1. Log into your [Telerik Account](https://www.telerik.com/account/).**
+1. Log into your [Telerik Account](https://www.telerik.com/account/).
+2. Click the `Downloads` tab:
 
-**2. Click on the __Downloads__ tab:**
+  ![Telerik UI for .NET MAUI](images/download-tab.png)
 
-![Telerik UI for .NET MAUI](images/download-tab.png)
+1. Search `maui` and select the **Telerik UI for MAUI** product title:
 
-**3. Search maui and Select __Telerik UI for MAUI__ product title:**
+  ![Telerik UI for .NET MAUI](images/search-for-maui.png)
 
-![Telerik UI for .NET MAUI](images/search-for-maui.png)
+1. The page that loads next allows you to download the `.msi` and `.pkg` files for automatic installation and the Telerik .NET MAUI NuGet package:
 
-**4. The next page allows you to download the Automatic Installations .msi file, .pkg file and Telerik .NET MAUI NuGet Package:**
+  ![Telerik UI for .NET MAUI](images/product-files.png)
 
-![Telerik UI for .NET MAUI](images/product-files.png)
+## Installing Telerik UI for MAUI
 
-## Installation for Windows
+Depending on whether you work with Windows or MacOS on your machine, use the corresponding approach to install Telerik UI for MAUI:
 
-* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
+* [Installation for Windows](#installation-for-windows)
+* [Installation for MacOS](#installation-for-macos)
+* [Installation for Windows and MacOS with NuGet](#installation-with-nuget)
 
-The installation folder has the following subdirectories:
+### Installation for Windows
+
+`Telerik_UI_for_Maui_[version]_Preview.msi` is a runnable `.msi` file that is used for automatic installation on PC only. Run the file and follow the instructions.
+
+Unless you specify otherwise, the wizard will install the Telerik UI for MAUI component in the following folders:
+
+* (On 32bit machines) `C:\Program Files\Progress\`
+* (On 64bit machines) `C:\Program Files (x86)\Progress\`
+
+The installation folder provides the following subdirectories:
+
+* `Binaries`&mdash;Contains the needed dlls for Android and iOS.
+* `DemoApp`&mdash;Contains the Demo App with Telerik UI for .NET MAUI controls.
+* `LicenseAgreements`&mdash;Provides the product EULA.
+* `Packages`&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
-* Binaries - Contains the needed dlls for Android and iOS 
-* DemoApp - Demo App with Telerik UI for .NET MAUI controls
-* LicenseAgreements - provides the product EULA.
-* Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
+## Installation for MacOS
 
-## Installation for macOS
+`Telerik_UI_for_Maui_[version]_Preview.pkg` is a runnable `.pkg` file that is used for automatic installation Mac only.
 
-* Telerik_UI_for_Maui_[version]_Preview.pkg - runnable pkg file used for automatic installation (for use on Mac).
+The installation folder provides the following subdirectories:
 
-The installation folder has the following subdirectories:
+* `Binaries`&mdash;Contains the needed dlls for Android and iOS.
+* `DemoApp`&mdash;Contains the Demo App with Telerik UI for .NET MAUI controls.
+* `LicenseAgreements`&mdash;Provides the product EULA.
+* `Packages`&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
 ![Telerik UI for MAUI Installation Folder](images/installation-macos.png)
 
-* Binaries - Contains the needed dlls for Android and iOS 
-* DemoApp - Demo App with Telerik UI for .NET MAUI controls
-* LicenseAgreements - provides the product EULA.
-* Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
+### Installation with NuGet
 
-## NuGet Package
-
-* Telerik_UI_for_Maui_[version]_Preview.nupkg file for Windows and macOS users.
-
-The Telerik UI for MAUI Nuget Package is availabe in the **Telerik NuGet Server**.
+The `Telerik_UI_for_Maui_[version]_Preview.nupkg` file is intended both for Windows and MacOS users. The Telerik UI for MAUI NuGet package is available in the **Telerik NuGet Server**.
 
 ![Telerik UI for MAUI Installation Folder](images/maui-nuget.png)
 
-## Register the needed handlers and renderers
+For more information, refer to the [guide on installing Telerik UI for MAUI with the Telerik NuGet Server]({% slug telerik-nuget-server %}).
 
-In order to visualize the Telerik UI for MAUI controls you have to register the needed renderers Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project. 
+## Registering Required Handlers and Renderers
+
+To visualize the Telerik UI for MAUI controls, you have to register the required renderers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `Startup.cs` file of your project.
 
 1. Add the needed usings inside the `Startup.cs` file:
 
-```C#
-using Telerik.Maui.Controls.Compatibility;
-```
+    ```C#
+    using Telerik.Maui.Controls.Compatibility;
+    ```
 
-2. Call `UseTelerik()` method inside the `Startup.cs` file:
+2. Call the `UseTelerik()` method inside the `Startup.cs` file:
 
 
-```C#
+    ```C#
 
-public class Startup : IStartup
-{
-    public void Configure(IAppHostBuilder appBuilder)
+    public class Startup : IStartup
     {
-        appBuilder
-            .UseFormsCompatibility()
-            .ConfigureFonts(fonts => {
-                fonts.AddFont("ionicons.ttf", "IonIcons");
-            })
-            .UseTelerik()
-            .UseMauiApp<App>();            
+        public void Configure(IAppHostBuilder appBuilder)
+        {
+            appBuilder
+                .UseFormsCompatibility()
+                .ConfigureFonts(fonts => {
+                    fonts.AddFont("ionicons.ttf", "IonIcons");
+                })
+                .UseTelerik()
+                .UseMauiApp<App>();            
+        }
     }
-}
-```
+    ```
 
-## Demo App
+## Running the Demo App
 
-Telerik UI for MAUI.Preview version comes with a sample app, which demonstrates the Telerik Preview controls for Microsoft .NET MAUI. For more details visit our [Demo App article]({%slug maui-demo-app%}).
+The Telerik UI for MAUI Preview version comes with a sample application which demonstrates the Telerik UI for MAUI Preview controls. For more information, refer to the [Demo App article]({% slug maui-demo-app %}).
 
-## See Also
+## Suggested Links
 
-* [Border]({%slug border-overview%})
-* [Button]({%slug button-overview%})
-* [Chart]({%slug chart-overview%})
-* [ItemsControl]({%slug itemscontrol-overview%})
+* [Installing Telerik UI for MAUI with the Telerik NuGet Server]({%slug telerik-nuget-server %})
+* [Getting Started with Telerik UI for MAUI Demo App]({% slug maui-demo-app %})
+* [Getting Started with Telerik UI for MAUI Barcode]({% slug barcode-overview %})
