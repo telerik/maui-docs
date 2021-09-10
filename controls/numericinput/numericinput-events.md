@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI NumericInput Documentation | Events
 description: Check our &quot;Events&quot; documentation article for Telerik NumericInput for .NET MAUI
-position: 0
+position: 8
 slug: numericinput-events
 ---
 

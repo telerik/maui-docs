@@ -2,7 +2,7 @@
 title: Customization
 page_title: .NET MAUI NumericInput Documentation | Customization
 description: Check our &quot;Customization&quot; documentation article for Telerik NumericInput for .NET MAUI
-position: 2
+position: 5
 slug: numericinput-customization
 ---
 

@@ -12,13 +12,13 @@ This article will explain all configuration options that NumericInput control pr
 
 ## Numeric Value
 
-* **Value**(*double?*) property allows you to set a predefined value that will be presented by the control.
+* `Value`(*double?*) property allows you to set a predefined value that will be presented by the control.
 
 ### Example
 
 ## Null Value Support
 
-The **Value** property is of type nullable double, which enables the NumericInput control to accept null value as well.
+The `Value` property is of type nullable double, which enables the NumericInput control to accept null value as well.
 
 ### Example
 
@@ -27,14 +27,14 @@ The **Value** property is of type nullable double, which enables the NumericInpu
 
 You can restrinct the input using the `Minimum` and `Maximum` properties:
 
-* **Minimum**(*double*): The minimum value that can be insert in the numeric input.
-* **Maximum**(*double*): The maximum value that can be insert in the numeric input.
+* `Minimum`(*double*): The minimum value that can be insert in the numeric input.
+* `Maximum`(*double*): The maximum value that can be insert in the numeric input.
 
 ### Example
 
 ## Step for Increment and Decrement value 
 
-The **Step** property defines the value step that will be applied to the input value upon each decrease/increase action. The default step is 1.
+The `Step` property defines the value step that will be applied to the input value upon each decrease/increase action. The default step is 1.
 
 ### Example
 

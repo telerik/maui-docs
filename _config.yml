@@ -107,6 +107,10 @@ navigation:
         title: "Styling"
         position: 10
     ## End DataGrid
+    ## DockLayout
+    controls/docklayout:
+        title: "DockLayout"
+    ## End DockLayout
     ## Entry
     controls/entry:
         title: "Entry"
@@ -145,6 +149,10 @@ navigation:
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## NumericInput
+    controls/numericinput:
+        title: "NumericInput"
+    ## End NumericInput
     ## Path
     controls/path:
         title: "Path"   
