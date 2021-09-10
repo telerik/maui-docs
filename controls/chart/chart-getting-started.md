@@ -7,9 +7,9 @@ position: 2
 slug: chart-getting-started
 ---
 
-# Getting Started with Telerik Chart for .NET MAUI
+# Getting Started
    
-## RadChart definition in XAML
+## Define RadChart control
 
 ```XAML
 <telerikChart:RadCartesianChart>     
@@ -52,7 +52,7 @@ public void Configure(IAppHostBuilder appBuilder)
 }              
 ```
 
-## 4. Populating RadChart with data ##
+## Populating RadChart with data
 
 Here is how the business model is defined:
 
