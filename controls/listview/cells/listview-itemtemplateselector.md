@@ -2,7 +2,7 @@
 title: ItemTemplateSelector
 page_title: Xamarin ListView Documentation | ItemTemplateSelector
 description: Check our &quot;ItemTemplateSelector&quot; documentation article for Telerik ListView for Xamarin control.
-position: 2
+position: 3
 slug: listview-item-template-selector
 ---
 

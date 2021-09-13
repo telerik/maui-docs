@@ -1,21 +1,18 @@
 ---
-title: Cell Types
-page_title: Xamarin ListView Documentation | Cell Types
-description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for Xamarin control.
+title: ListView TextCell
+page_title: .NET MAUI ListView Documentation | Cell Types
+description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 1
-slug: listview-cells
+slug: listview-textcell
 ---
 
-# ListView Cell Types
+# ListView TextCell
 
-Cells in RadListView are the presentation of each data item from the control's ItemsSource. You can choose between two types of cells, namely:
+Cells in RadListView are the presentation of each data item from the control's ItemsSource. You can choose between two types of cells - ListViewTextCell and ListViewTemplateCell.
 
-- **ListViewTextCell** derives from Xamarin.Forms.**TextCell** and displays text. It can optionally render detail text as a second row within a list view item. This is the default cell of the RadListView.
-- **ListViewTemplateCell** derives from Xamarin.Forms.**ViewCell** and used to present complex data sets as RadListView.**ItemTemplate**.
+**ListViewTextCell** derives from Xamarin.Forms.**TextCell** and displays text. It can optionally render detail text as a second row within a list view item. This is the default cell of the RadListView.
 
-## ListViewTextCell Example
-
-This example demonstrates how to create a list view with text cells, like this:
+The example below demonstrates how to create a list view with text cells, like this:
 
 ![](../images/listview-celltypes-textcell.png)
 
