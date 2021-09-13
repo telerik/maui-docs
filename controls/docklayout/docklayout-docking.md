@@ -21,18 +21,18 @@ Following is a quick example on how you could utilize the docking functionality:
 
 <snippet id='docklayout-docking-feature' />
 ```XAML
-<telerikCommon:RadDockLayout x:Name="dockLayout">
-    <Label Text="Left" telerikCommon:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
-    <Label Text="Top" telerikCommon:RadDockLayout.Dock="Top" HeightRequest="60" BackgroundColor="LightGreen" />
-    <Label Text="Right" telerikCommon:RadDockLayout.Dock="Right" WidthRequest="60" BackgroundColor="LightBlue" />
-    <Label Text="Bottom" telerikCommon:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
-</telerikCommon:RadDockLayout>
+<telerik:RadDockLayout x:Name="dockLayout">
+    <Label Text="Left" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
+    <Label Text="Top" telerik:RadDockLayout.Dock="Top" HeightRequest="60" BackgroundColor="LightGreen" />
+    <Label Text="Right" telerik:RadDockLayout.Dock="Right" WidthRequest="60" BackgroundColor="LightBlue" />
+    <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
+</telerik:RadDockLayout>
 ```
 
-where *telerikCommon* is defined like this:
+where *telerik* is defined like this:
 
 ```XAML
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
 Check the result on different platforms below:
@@ -45,12 +45,12 @@ Setting the same docking side to a few child elements will arrange them accordin
 
 <snippet id='docklayout-position-elementsoneside'/>
 ```XAML
-<telerikCommon:RadDockLayout x:Name="dockLayout" >
-    <Label Text="Left 1" telerikCommon:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
-    <Label Text="Left 2" telerikCommon:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightGreen" />
-    <Label Text="Left 3" telerikCommon:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightBlue" />
-    <Label Text="Last Child" telerikCommon:RadDockLayout.Dock="Left" BackgroundColor="LightYellow" />
-</telerikCommon:RadDockLayout>
+<telerik:RadDockLayout x:Name="dockLayout" >
+    <Label Text="Left 1" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
+    <Label Text="Left 2" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightGreen" />
+    <Label Text="Left 3" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightBlue" />
+    <Label Text="Last Child" telerik:RadDockLayout.Dock="Left" BackgroundColor="LightYellow" />
+</telerik:RadDockLayout>
 ```
 
 And the result is:
@@ -63,12 +63,12 @@ By default, the last element inside the DockLayout stretches along the remaining
 
 <snippet id='docklayout-position-lastelement'/>
 ```XAML
-<telerikCommon:RadDockLayout x:Name="dockLayout" StretchLastChild="False">
-    <Label Text="Left" telerikCommon:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
-    <Label Text="Top" telerikCommon:RadDockLayout.Dock="Top" HeightRequest="60" BackgroundColor="LightGreen" />
-    <Label Text="Right" telerikCommon:RadDockLayout.Dock="Right" WidthRequest="60" BackgroundColor="LightBlue" />
-    <Label Text="Bottom" telerikCommon:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
-</telerikCommon:RadDockLayout>
+<telerik:RadDockLayout x:Name="dockLayout" StretchLastChild="False">
+    <Label Text="Left" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
+    <Label Text="Top" telerik:RadDockLayout.Dock="Top" HeightRequest="60" BackgroundColor="LightGreen" />
+    <Label Text="Right" telerik:RadDockLayout.Dock="Right" WidthRequest="60" BackgroundColor="LightBlue" />
+    <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
+</telerik:RadDockLayout>
 ```
 
 And here is how it looks:
