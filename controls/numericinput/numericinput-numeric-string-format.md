@@ -19,7 +19,18 @@ slug: numericinput-numeric-string-format
 You can find detailed information about the supported numeric formats here: [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings).
 
 ## Example
+```XAML
+<telerikInput:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
+```
+Add the following namespase: 
 
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
+And the result:
+
+![NumericInput String Format](images/numericinput-string-format.png)
 
 ## See Also
 

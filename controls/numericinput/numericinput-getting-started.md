@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-page_title: Getting Started with Xamarin.Forms NumericInput Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik NumericInput for Xamarin control.
+page_title: Getting Started with .NET MAUI NumericInput Control
+description: Check our &quot;Getting Started&quot; documentation article for Telerik NumericInput for .NET MAUI.
 position: 1
 slug: numericinput-getting-started
 ---
@@ -28,7 +28,7 @@ using Telerik.XamarinForms.Input;
 #### Figure 1: NumericInput Getting Started
 Here is the result:
 
-![NumericInput Getting Started Example](images/numericinput_getting_started.png)
+![NumericInput Getting Started Example](images/numericinput-getting-started.png)
 
 >important The **SDK Browser MAUI application** contain different examples that show RadNumericInput's main features.
 
