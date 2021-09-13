@@ -12,15 +12,24 @@ This article will guide you through all customizations options that NumericInput
 
 ## Numeric Input Buttons Text
 
-![NumericInput Button Text Default Look](images/numericinput-button-text.png "NumericInput Button Text Default Look")
+![NumericInput Button Text Default Look](images/numericinput-getting-started.png "NumericInput Button Text Default Look")
 
 * `IncreaseButtonText`(of type string): Defines the text displayed inside the IncreaseButton. The default string calue is "+".
 * `DecreaseButtonText`(of type string): Defines the text displayed inside the DecreaseButton. The default string calue is "-".
 
-
 ## Customze Buttons Text
 
-![NumericInput Button Text Customization](images/numericinput-custom-buton-text.png "NumericInput Button Text Customization")
+![NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
+
+```XAML
+ <telerikInput:RadNumericInput x:Name="numericBtnText" IncreaseButtonText="&gt;" DecreaseButtonText="&lt;" />
+```
+
+Add the following namespase: 
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## See Also
 
