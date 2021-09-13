@@ -12,22 +12,21 @@ slug: docklayout-getting-started
 
 <snippet id='docklayout-getting-started-xaml' />
 ```XAML
-<telerikCommon:RadDockLayout x:Name="dockLayout">
+<telerik:RadDockLayout x:Name="dockLayout">
     <Grid HeightRequest="60"
           BackgroundColor="#009688"
-          telerikCommon:RadDockLayout.Dock="Top">
+          telerik:RadDockLayout.Dock="Top">
         <Label Margin="20" Text="Title"/>
     </Grid>
-    <Grid
-        BackgroundColor="#659BFC"
-        telerikCommon:RadDockLayout.Dock="Left">
+    <Grid BackgroundColor="#659BFC"
+          telerik:RadDockLayout.Dock="Left">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Label Margin="20" Text="Navigation" />
     </Grid>
     <Grid BackgroundColor="#1455C9"
-        telerikCommon:RadDockLayout.Dock="Bottom">
+          telerik:RadDockLayout.Dock="Bottom">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -36,13 +35,13 @@ slug: docklayout-getting-started
     <Grid  BackgroundColor="#FCCFB0">
         <Label Margin="20" Text="Content" />
     </Grid>
-</telerikCommon:RadDockLayout>
+</telerik:RadDockLayout>
 ```
 
 In addition to this you need to add the following namespace:
 
 ```XAML
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
 Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
