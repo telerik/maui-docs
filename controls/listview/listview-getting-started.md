@@ -111,6 +111,7 @@ This is the result:
 
 ## See Also
 
-- [Cell Types]({% slug listview-cells%})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
 - [Selection]({% slug listview-features-selection%})
 - [Grouping]({% slug listview-features-grouping%})

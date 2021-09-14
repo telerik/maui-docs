@@ -72,7 +72,8 @@ This is the result:
 
 ## See Also
 
-- [ListView Cell Types]({% slug listview-cells %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})
 - [Reorder Items]({% slug listview-features-reorder-items %})

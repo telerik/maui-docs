@@ -63,7 +63,8 @@ The recommended use is to place the RadListView control in a container that expa
 
 ## See Also
 
-- [ListView Cell Types]({% slug listview-cells %})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Layouts]({% slug listview-features-layouts %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Reorder Items]({% slug listview-features-reorder-items %})

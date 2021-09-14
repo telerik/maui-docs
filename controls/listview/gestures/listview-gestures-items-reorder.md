@@ -36,7 +36,8 @@ Here is the result:
 
 ## See Also
 
-- [ListView Cell Types]({% slug listview-cells %})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Layouts]({% slug listview-features-layouts %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})

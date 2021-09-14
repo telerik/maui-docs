@@ -8,24 +8,51 @@ slug: listview-templatecell
 
 # ListView TemplateCell
 
-Cells in RadListView are the presentation of each data item from the control's ItemsSource. You can choose between two types of cells, namely:
+Cells in RadListView are the presentation of each data item from the control's ItemsSource. You can choose between two types of cells - ListViewTextCell and ListViewTemplateCell.
 
-- **ListViewTextCell** derives from Xamarin.Forms.**TextCell** and displays text. It can optionally render detail text as a second row within a list view item. This is the default cell of the RadListView.
-- **ListViewTemplateCell** derives from Xamarin.Forms.**ViewCell** and used to present complex data sets as RadListView.**ItemTemplate**.
+**ListViewTemplateCell** derives from Xamarin.Forms.**ViewCell** and used to present complex data sets as RadListView.**ItemTemplate**.
 
-## ListViewTemplateCell Example
-
-This example demonstrates how to create a list view with templated cells, like this:
+The example below demonstrates how to create a ListView with templated cells, like this:
 
 ![](../images/listview-celltypes-templatecell.png)
 
-1. Create a view model that will be the source of the list view:
+1. Create a view model that will be the source of the ListView:
 
-<snippet id='listview-celltypes-templatecell-viewmodel'/>
+	<snippet id='listview-celltypes-templatecell-viewmodel'/>
+	```C#
+	public class Book
+	{
+		public string Title { get; set; }
+		public string Author { get; set; }
+		public bool IsFavourite { get; set; }
+	}
 
-2. Define the listview control either in Xaml or in code behind.
+	public class ViewModel
+	{
+		public ViewModel()
+		{
+			this.Source = new List<Book>{
+				new Book{ Title = "The Fault in Our Stars ",  Author = "John Green"},
+				new Book{ Title = "Divergent",  Author = "Veronica Roth"},
+				new Book{ Title = "Gone Girl",  Author = "Gillian Flynn", IsFavourite = true},
+				new Book{ Title = "Clockwork Angel",  Author = "Cassandra Clare"},
+				new Book{ Title = "The Martian",  Author = "Andy Weir"},
+				new Book{ Title = "Ready Player One",  Author = "Ernest Cline"},
+				new Book{ Title = "The Lost Hero",  Author = "Rick Riordan", IsFavourite = true},
+				new Book{ Title = "All the Light We Cannot See",  Author = "Anthony Doerr"},
+				new Book{ Title = "Cinder",  Author = "Marissa Meyer"},
+				new Book{ Title = "Me Before You",  Author = "Jojo Moyes"},
+				new Book{ Title = "The Night Circus",  Author = "Erin Morgenstern"},
+			};
+		}
 
-You can define the list view in Xaml like this:
+		public List<Book> Source { get; set; }
+	}
+	```
+
+2. Define the ListView control either in XAML or in code behind.
+
+You can define the list view in XAML like this:
 	
 <snippet id='listview-celltypes-templatecell-listview-xaml'/>
 	

@@ -16,55 +16,71 @@ The example below demonstrates how to create a list view with text cells, like t
 
 ![](../images/listview-celltypes-textcell.png)
 
-1. Create a view model that will be the source of the list view:
-	
+**1.** Create a view model that will be the source of the list view:
+
 <snippet id='listview-celltypes-textcell-viewmodel'/>
-	
-2. Add the definition of the listview control:
+```C#
+public class Book
+{
+	string Title { get; set; }
+	string Author { get; set; }
+}
+
+public class ViewModel
+{
+	public ViewModel()
+	{
+		this.Source = new List<Book>{
+		new Book{ Title = "The Fault in Our Stars ",  Author = "John Green"},
+		new Book{ Title = "Divergent",  Author = "Veronica Roth"},
+		new Book{ Title = "Gone Girl",  Author = "Gillian Flynn"},
+		new Book{ Title = "Clockwork Angel",  Author = "Cassandra Clare"},
+		new Book{ Title = "The Martian",  Author = "Andy Weir"},
+		new Book{ Title = "Ready Player One",  Author = "Ernest Cline"},
+		new Book{ Title = "The Lost Hero",  Author = "Rick Riordan"},
+		new Book{ Title = "All the Light We Cannot See",  Author = "Anthony Doerr"},
+		new Book{ Title = "Cinder",  Author = "Marissa Meyer"},
+		new Book{ Title = "Me Before You",  Author = "Jojo Moyes"},
+		new Book{ Title = "The Night Circus",  Author = "Erin Morgenstern"},
+		};
+	}
+
+	public List<Book> Source { get; set; }
+}
+```
+
+**2.** Add the definition of the ListView control:
 	
 <snippet id='listview-celltypes-textcell-listview-xaml'/>
 <snippet id='listview-celltypes-textcell-listview-csharp'/>
+```XAML
+<telerikDataControls:RadListView ItemsSource="{Binding Source}" x:Name="listView">
+	<telerikDataControls:RadListView.BindingContext>
+		<local:ViewModel />
+	</telerikDataControls:RadListView.BindingContext>
+	<telerikDataControls:RadListView.ItemTemplate>
+		<DataTemplate>
+			<telerikListView:ListViewTextCell Text="{Binding Title}" 
+											  Detail="{Binding Author}" 
+											  TextColor="Black" 
+											  DetailColor="Gray" />
+		</DataTemplate>
+	</telerikDataControls:RadListView.ItemTemplate>
+	<telerikDataControls:RadListView.LayoutDefinition>
+		<telerikListView:ListViewLinearLayout ItemLength="60" />
+	</telerikDataControls:RadListView.LayoutDefinition>
+</telerikDataControls:RadListView>
+```
 	
-3. Add the following namespaces:
+**3.** Add the following namespaces:
 	
-<snippet id='xmlns-teleriklistview'/>
-<snippet id='ns-teleriklistview'/>
-	
-4. Finally, set the list view as the content of your page.
-
-## ListViewTemplateCell Example
-
-This example demonstrates how to create a list view with templated cells, like this:
-
-![](../images/listview-celltypes-templatecell.png)
-
-1. Create a view model that will be the source of the list view:
-
-<snippet id='listview-celltypes-templatecell-viewmodel'/>
-
-2. Define the listview control either in Xaml or in code behind.
-
-You can define the list view in Xaml like this:
-	
-<snippet id='listview-celltypes-templatecell-listview-xaml'/>
-	
-* Define the namespace
-
-<snippet id='xmlns-teleriklistview'/>
-		
-* You can define the list view in code behind:
-		
-* For clarity, let's build the template of the list view cell in a separate method:
-		
-<snippet id='listview-celltypes-templatecell-cellcontent'/>
-		
-* Define the list view:
-		
-<snippet id='listview-celltypes-templatecell-listview-code'/>
-	
-3. Finally, set the list view as the content of your page.
+```XAML
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## See Also
-- [ListView Item TemplateSelector]({%slug listview-item-template-selector%})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [TemplateCell]({%slug listview-textcell%})
+- [ItemTemplate Selector]({%slug listview-item-template-selector%})
+- [Layouts]({% slug listview-features-layouts %})
 - [Items Styling]({% slug listview-features-styling %})
