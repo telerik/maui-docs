@@ -38,6 +38,7 @@ A full example that shows the scenario is available in the **SDK Samples Browser
 
 ## See Also
 
-- [ListView Cells]({%slug listview-cells%})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Layouts]({% slug listview-features-layouts %})
 - [Items Styling]({% slug listview-features-styling %})

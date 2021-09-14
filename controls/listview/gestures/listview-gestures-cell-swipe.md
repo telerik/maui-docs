@@ -115,8 +115,9 @@ The following example demonstrates how to add a delete button to the swipe conte
 
 ## See Also
 
-- [ListView Cell Types]({% slug listview-cells %})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Layouts]({% slug listview-features-layouts %})
 - [Commands]({% slug listview-features-commands %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})
 - [Reorder Items]({% slug listview-features-reorder-items %})
