@@ -22,7 +22,26 @@ The `ValueChanged` event is raised after the input value is changed. The ValueCh
 
 ## Example
 
+NumericInput definition
 
+```XAML
+<telerikInput:RadNumericInput x:Name="numericInput" ValueChanged="RadNumericInput_ValueChanged"/>
+```
+
+Add the namespace
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
+The ValueChanged event definition:
+
+```C#
+private void RadNumericInput_ValueChanged(object sender, Telerik.XamarinForms.Input.NumericInput.ValueChangedEventArgs e)
+{
+   // implement your logic here
+}
+```
 
 ## See Also
 

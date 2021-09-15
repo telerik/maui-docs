@@ -14,15 +14,79 @@ This topic gives an overview of the **ControlTemplate** of the NumericInput cont
 
 #### The original ControlTemplate
 
-The XAML defined below relies on the following namespaces to be set:
+```XAML
+<ResourceDictionary>
+	<ControlTemplate x:Key="RadNumericInput_ControlTemplate">
+	    <Grid ColumnSpacing="10"
+	          HeightRequest="{OnPlatform Android='45',iOS='36', UWP='32'}"
+	          MinimumHeightRequest="{OnPlatform Android='28',iOS='28', UWP='33'}">
+	        <Grid.Resources>
+	            <ResourceDictionary>
+	                <Style TargetType="local:NumericInputButton" Class="DefaultNumericInputButtonStyle">
+	                    <Setter Property="CornerRadius" Value="{OnPlatform iOS='10', UWP='0'}"/>
+	                    <Setter Property="BorderColor" Value="{x:Static Application.AccentColor}"/>
+	                    <Setter Property="TextColor" Value="{x:Static Application.AccentColor}"/>
+	                    <Setter Property="BackgroundColor" Value="Transparent"/>
+	                    <Setter Property="BorderThickness" Value="2"/>
+	                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+	                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+	                    <Setter Property="Padding" Value="0,0,0,0"/>
+	                </Style>
+	                <Style TargetType="local:NumericInputEntry" Class="DefaultNumericInputEntryStyle">
+	                    <Setter Property="HorizontalTextAlignment" Value="Center"/>
+	                    <Setter Property="VerticalTextAlignment" Value="Center"/>
+	                    <Setter Property="Padding" Value="0,0,0,0"/>
+	                    <Setter Property="Keyboard" Value="Numeric"/>
+	                    <Setter Property="BorderStyle" Value="{OnPlatform Android='0,0,0,2',iOS='2', UWP='2'}"/>
+	                </Style>
+	            </ResourceDictionary>
+	        </Grid.Resources>
+	        <Grid.ColumnDefinitions>
+	            <ColumnDefinition Width="58"/>
+	            <ColumnDefinition Width="*"/>
+	            <ColumnDefinition Width="58"/>
+	        </Grid.ColumnDefinitions>
+	        <telerikNumeric:NumericInputButton Text="{TemplateBinding DecreaseButtonText}"
+	                                  Command="{TemplateBinding DecreaseCommand}"
+	                                  StyleClass="DefaultNumericInputButtonStyle"
+	                                  common:StyleManager.InheritedStyleClass="{TemplateBinding ActualStyleClass}"
+	                                  AutomationId="NumericDecreaseButton"
+	                                  AutomationProperties.HelpText="{OnPlatform iOS='NumericDecreaseButton', UWP='NumericDecreaseButton'}"/>
+	
+	        <telerikNumeric:NumericInputEntry Grid.Column="1"
+	                                 x:Name="PART_Entry"
+	                                 StyleClass="DefaultNumericInputEntryStyle"
+	                                 Text="{TemplateBinding Value, Mode=OneWay}"
+	                                 InputTransparent="{TemplateBinding IsReadOnly}"
+	                                 common:StyleManager.InheritedStyleClass="{TemplateBinding ActualStyleClass}"
+	                                 AutomationId="NumericEntry"/>
+	
+	        <telerikNumeric:NumericInputButton Grid.Column="2"
+	                                  Text="{TemplateBinding IncreaseButtonText}"
+	                                  Command="{TemplateBinding IncreaseCommand}"
+	                                  StyleClass="DefaultNumericInputButtonStyle"
+	                                  common:StyleManager.InheritedStyleClass="{TemplateBinding ActualStyleClass}"
+	                                  AutomationId="NumericIncreaseButton"
+	                                  AutomationProperties.HelpText="{OnPlatform iOS='NumericIncreaseButton', UWP='NumericIncreaseButton'}"/>
+	    </Grid>
+	</ControlTemplate>
+</ResourceDictionary>
+```
 
+Add the namespaces: 
+
+```XAML
+xmlns:common="clr-namespace:Telerik.XamarinForms.Common"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input"
+xmlns:telerikNumeric="clr-namespace:Telerik.XamarinForms.Input.NumericInput"
+```
 
 You need to copy the original ControlTemplate and its resource dependencies to the Resources section of the page, then you can modify the used colors, sizes, relocate or remove elements (for example you can align the two buttons after the entry). 
 
-> Any ControlTemplate element that is prefixed with "PART_" is almost always a required part. Removing such a part will result in the control not working. For example the *NumericInputEntry* control is named **PART_Entry** and *cannot* be removed.
+Set the `ControlTemplate` to the RadNumericInput:
 
-Finally, use the custom ControlTemplate as a **StaticResource** on any instance of RadNumericInput:
-
-
+```XAML
+<telerikInput:RadNumericInput x:Name="numericInput" ControlTemplate="{StaticReource RadNumericInput_ControlTemplate}" />
+```
 
 ## See Also
