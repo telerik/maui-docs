@@ -31,6 +31,10 @@ Add the following namespase:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+## Change BackgroundColor 
+
+* **BackgroundColor**: allows you to change the background color of the NumericInput control.
+
 ## See Also
 
 - [Globalization]({%slug numericinput-globalization%})
