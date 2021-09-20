@@ -8,7 +8,7 @@ slug: listview-features-header-footer
 
 # Header and Footer
 
-With R1 2019 release of Telerik UI for Xamarin RadListView exposes two new templates - **Header** and **Footer**, which will allow you to add content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the ListView items. 
+RadListView provides the option to add - **Header** and **Footer**, which will allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the ListView items. 
 
 * **HeaderTemplate**(DataTemplate): Defines the Header of the ListView before all items.
 * **FooterTemplate**(DataTemplate): Defines the Footer of the ListView after all items.
@@ -17,23 +17,63 @@ With R1 2019 release of Telerik UI for Xamarin RadListView exposes two new templ
 
 Here is an example how to add Header and Footer to the RadListView control.
 
-First, create a ViewModel:
+**1** Create a ViewModel:
 
-<snippet id='listview-features-header-and-footer-viewmodel'/>
+```C#
+public class HeaderAndFooterViewModel
+{
+    public HeaderAndFooterViewModel()
+    {
+        this.Items = GetItems(20);
+    }
 
-Add the following sample DataTemplates to the resources of the page that will be used as:
+    public ObservableCollection<string> Items { get; set; }
+
+    private static ObservableCollection<string> GetItems(int count)
+    {
+        var items = new ObservableCollection<string>();
+        for (int i = 0; i < count; i++)
+        {
+            items.Add(string.Format("item {0}", i));
+        }
+
+        return items;
+    }
+}
+```
+
+**2** Add the following sample DataTemplates to the resources of the page that will be used as:
 
 **HeaderTemplate**:
 
-<snippet id='listview-features-header-template-xaml'/>
+```XAML
+<DataTemplate x:Key="HeaderTemplate">
+    <Label Text="The Available Items are: " 
+           TextColor="Black" 
+           FontAttributes="Bold" 
+           FontSize="25"/>
+</DataTemplate>
+```
 
 **FooterTemplate**:
 
-<snippet id='listview-features-footer-template-xaml'/>
+```XAML
+ <DataTemplate x:Key="FooterTemplate">
+    <Label Text="All Items!" 
+           TextColor="Black" 
+           FontAttributes="Bold" 
+           FontSize="25"/>
+</DataTemplate>
+```
 
-Use the following snippet to declare the RadListView in XAML:
+**3** Use the following snippet to declare the RadListView in XAML:
 
-<snippet id='listview-features-header-and-footer-xaml'/>
+```XAML
+<telerikDataControls:RadListView x:Name="listView" 
+                                     ItemsSource="{Binding Items}"
+                                     HeaderTemplate="{StaticResource HeaderTemplate}" 
+                                     FooterTemplate="{StaticResource FooterTemplate}"/>
+```
 
 Here is how the ListView Header looks:
 
@@ -43,7 +83,7 @@ and the ListView Footer:
 
 ![RadListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
 
->important A sample Header and Footer example can be found in our [SDK Samples Browser application]({%slug developer-focused-examples%}) and [QSF App]({%slug developer-focused-examples%}).
+>important A sample Header and Footer example can be found in the **SDKBrowser MAUI application**.
 
 ## See Also
 
