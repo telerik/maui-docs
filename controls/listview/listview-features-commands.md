@@ -1,7 +1,7 @@
 ---
 title: Commands
-page_title: Xamarin ListView Documentation | Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Commands
+description: Check our &quot;Commands&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 13
 slug: listview-features-commands
 description: Describing the commands of the RadListView
@@ -49,31 +49,82 @@ For each of the available commands, there is a *context* object of type [Command
 
 To demonstrate inheriting from ListViewCommand, the following example handles the **ItemTap** action as a Command:
 
-1. Create a class that inherits from ListViewCommand and set its Id property. Then override the **CanExecute** and **Execute** methods:
+**1.** Create a class that inherits from ListViewCommand and set its Id property. Then override the **CanExecute** and **Execute** methods:
 
-    <snippet id='listview-features-commands-listviewcommand'/>
+<snippet id='listview-features-commands-listviewcommand'/>
+```C#
+public class ItemTappedUserCommand : ListViewCommand
+{
+	public ItemTappedUserCommand()
+	{
+		Id = CommandId.ItemTap;
+	}
+	public override bool CanExecute(object parameter)
+	{
+		return true;
+	}
+	public override void Execute(object parameter)
+	{
+		var tappedItem = (parameter as ItemTapCommandContext).Item;
+		//add your logic here
+		Application.Current.MainPage.DisplayAlert("", "You've selected " + tappedItem, "OK");
+	}
+}
+```
 
-2. Add the custom command to the Commands collection of the RadListView instance:
+**2.** Add the custom command to the Commands collection of the RadListView instance:
 
-    <snippet id='listview-features-commands-add'/>
+<snippet id='listview-features-commands-add'/>
+```C#
+listView.Commands.Add(new ItemTappedUserCommand());
+```
 
 ## Binding ListViewUserCommand
 
 With the ListViewUserCommand binding approach, you can directly handle the custom commands in the ViewModel. Here is a quick example:
 
-1. Add the custom command to the ViewModel:
+**1.** Add the custom command to the ViewModel:
 
-    <snippet id='listview-features-commands-viewmodel'/>
+<snippet id='listview-features-commands-viewmodel'/>
+```C#
+public class ViewModel
+{
+	public ViewModel()
+	{
+		this.Source = new List<string> { "Tom", "Anna", "Peter", "Teodor", "Martin" };
+		this.ItemTapCommand = new Command<ItemTapCommandContext>(this.ItemTapped);
+	}
+	private void ItemTapped(ItemTapCommandContext context)
+	{
+		var tappedItem = context.Item;
+		//add your logic here
+		Application.Current.MainPage.DisplayAlert("", "You've selected " + tappedItem, "OK");
+	}
+	public List<string> Source { get; set; }
+	public ICommand ItemTapCommand { get; set; }
+}
+```
 
-1. Bind the ItemTapCommand through the predefined ListViewUserCommand command. Its Id property is used to map the command to the corresponding action with the control:
+**2.** Bind the ItemTapCommand through the predefined ListViewUserCommand command. Its Id property is used to map the command to the corresponding action with the control:
 
-    <snippet id='listview-commands-listviewusercommand-xaml'/>
+```XAML
+<telerikDataControls:RadListView x:Name="listView" 
+								 ItemsSource="{Binding Source}">
+	<telerikDataControls:RadListView.BindingContext>
+		<local:ViewModel />
+	</telerikDataControls:RadListView.BindingContext>
+	<telerikDataControls:RadListView.Commands>
+		<telerikListViewCommands:ListViewUserCommand Id="ItemTap" 
+													 Command="{Binding ItemTapCommand}" />
+	</telerikDataControls:RadListView.Commands>
+</telerikDataControls:RadListView>
+```
 
-1. Define the telerikListViewCommands:
+**3.** Define the telerikListViewCommands:
 
-    ```XAML
-    xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.XamarinForms.DataControls"
-    ```
+```XAML
+xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## See Also
 

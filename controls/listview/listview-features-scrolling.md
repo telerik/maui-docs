@@ -1,7 +1,7 @@
 ---
 title: Scrolling
-page_title: Xamarin ListView Documentation | Scrolling
-description: Check our &quot;Scrolling&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Scrolling
+description: Check our &quot;Scrolling&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 9
 slug: listview-features-scrolling
 description: Describing how to scroll RadListView to a certain item
@@ -12,7 +12,7 @@ tags: programmatic, scrolling
 
 ## Vertical ScrollBar
 
-With R1 2020 SP release RadListView provides the option to set the visibility of its vertical scrollbar according to your preferences:
+You can set the visibility of ListView vertical scrollbar according to your preferences with the `VerticalScrollBarVisibility` property.
 
 * **VerticalScrollBarVisibility**(*Xamarin.Forms.ScrollBarVisibility*): Specifies whether the vertical scrollbar will be visualized. By default it is set to ScrollBarVisibility.Default which means the scrollbar behavior depends on the target platform.
 
@@ -35,21 +35,67 @@ RadListView exposes the following method for programmatic scrolling to a specifi
 
 ## Example
 
-Here is the definition of the ListView control:
+Check below a simple example of `ScrollItemIntoView` usage inside a button click event handler.
+
+Here is a sample view with a ListView control and a button:
 
 <snippet id='listview-features-programmatic-scrolling-xaml'/>
+```XAML
+<Grid Margin="10">
+	<Grid.RowDefinitions>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition/>
+	</Grid.RowDefinitions>
+	<StackLayout>
+		<Button Clicked="ScrollItemIntoViewClicked" 
+				Text="ScrollItemIntoView"/>
+		<Label x:Name="label"/>
+	</StackLayout>
+	<telerikDataControls:RadListView x:Name="listView" 
+									 Grid.Row="1" 
+									 ItemsSource="{Binding Items}">
+		<telerikDataControls:RadListView.BindingContext>
+			<local:ViewModel />
+		</telerikDataControls:RadListView.BindingContext>
+	</telerikDataControls:RadListView>
+</Grid>
+```
 
-use the following code to create a simple data for the ListView component:
+Use the following ViewModel to create a simple data for the ListView component:
 
 <snippet id='listview-features-programmatic-scrolling'/>
+```C#
+public class ViewModel
+{
+	public ViewModel()
+	{
+		this.Items = new ObservableCollection<string>();
 
-Create a method called **ScrollToItem** and inside this method use __ScrollItemIntoView__ to navigate to a concrete item:
+		for (int i = 0; i < 100; i++)
+		{
+			this.Items.Add("Item " + i);
+		}
+	}
+	public ObservableCollection<string> Items { get; set; }
+}
+```
+
+Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a concrete item:
 
 <snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
+```C#
+private void ScrollItemIntoViewClicked(object sender, EventArgs e)
+{
+	var rnd = new Random();
+	var items = this.listView.ItemsSource as ObservableCollection<string>;
+	var item = items[rnd.Next(items.Count - 1)];
+	this.label.Text = "Scrolled to: " + item;
+	this.listView.ScrollItemIntoView(item);
+}
+```
 	
 And the end result:
 
-#### Figure 1: Scrolling item into View
 ![](images/listview-features-scrolling.png)
 	
 ## See Also
@@ -57,5 +103,3 @@ And the end result:
 - [Selection]({%slug listview-features-selection%})
 - [Grouping]({%slug listview-features-grouping%})
 - [Reordering]({%slug listview-features-reorder-items%})
-
-
