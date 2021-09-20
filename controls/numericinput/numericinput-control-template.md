@@ -22,7 +22,7 @@ This topic gives an overview of the **ControlTemplate** of the NumericInput cont
 	          MinimumHeightRequest="{OnPlatform Android='28',iOS='28', UWP='33'}">
 	        <Grid.Resources>
 	            <ResourceDictionary>
-	                <Style TargetType="local:NumericInputButton" Class="DefaultNumericInputButtonStyle">
+	                <Style TargetType="telerikNumeric:NumericInputButton" Class="DefaultNumericInputButtonStyle">
 	                    <Setter Property="CornerRadius" Value="{OnPlatform iOS='10', UWP='0'}"/>
 	                    <Setter Property="BorderColor" Value="{x:Static Application.AccentColor}"/>
 	                    <Setter Property="TextColor" Value="{x:Static Application.AccentColor}"/>
@@ -32,7 +32,7 @@ This topic gives an overview of the **ControlTemplate** of the NumericInput cont
 	                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
 	                    <Setter Property="Padding" Value="0,0,0,0"/>
 	                </Style>
-	                <Style TargetType="local:NumericInputEntry" Class="DefaultNumericInputEntryStyle">
+	                <Style TargetType="telerikNumeric:NumericInputEntry" Class="DefaultNumericInputEntryStyle">
 	                    <Setter Property="HorizontalTextAlignment" Value="Center"/>
 	                    <Setter Property="VerticalTextAlignment" Value="Center"/>
 	                    <Setter Property="Padding" Value="0,0,0,0"/>
@@ -82,6 +82,8 @@ xmlns:telerikNumeric="clr-namespace:Telerik.XamarinForms.Input.NumericInput"
 ```
 
 You need to copy the original ControlTemplate and its resource dependencies to the Resources section of the page, then you can modify the used colors, sizes, relocate or remove elements (for example you can align the two buttons after the entry). 
+
+>important Any ControlTemplate element that is prefixed with "PART_" is almost always a required part. Removing such a part will result in the control not working. For example the NumericInputEntry control is named PART_Entry and cannot be removed.
 
 Set the `ControlTemplate` to the RadNumericInput:
 

@@ -70,21 +70,149 @@ The example below shows how to utilize RadListView selection feature - how you c
 
 First, create a ViewModel class with two collections - one for the ItemsSource of the ListView and one that will hold the SelectedItems. For the purpose of the example RadListView is bound to a collection of strings:
 
-<snippet id='listview-features-selection-viewmodel'/>
+```C#
+public class ViewModel : NotifyPropertyChangedBase
+{
+    private ObservableCollection<object> _selectedNames;
+
+    public ViewModel()
+    {
+        this.Names = new ObservableCollection<string>() { "Tom", "Anna", "Peter", "Teodor", "Lorenzo", "Andrea", "Martin" };
+    }
+
+    public ObservableCollection<string> Names { get; set; }
+    public ObservableCollection<object> SelectedNames
+    {
+        get { return this._selectedNames; }
+        set
+        {
+            if (this._selectedNames != value)
+            {
+                if (this._selectedNames != null)
+                {
+                    this._selectedNames.CollectionChanged -= this.SelectedNamesCollectionChanged;
+                }
+
+                this._selectedNames = value;
+
+                if (this._selectedNames != null)
+                {
+                    this._selectedNames.CollectionChanged += this.SelectedNamesCollectionChanged;
+                }
+
+                OnPropertyChanged("SelectedNames");
+
+            }
+        }
+    }
+
+    private void SelectedNamesCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+    {
+        if (this.SelectedNames.Count > 0)
+        {
+            Application.Current.MainPage.DisplayAlert("Selected items:", string.Join(",", this.SelectedNames.ToArray()), "OK");
+        }
+    }
+}
+```
 
 Next, add RadListView instance to your page with selection properties applied:
 
-<snippet id='listview-features-selection-xaml'/>
+```XAML
+<Grid Margin="10">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition/>
+    </Grid.RowDefinitions>
+            <VerticalStackLayout Margin="10">
+                <Label Text="Set selection mode:" />
+                <Picker x:Name="selectionModePicker" AutomationId="SelectionModePicker"/>
+                <Label Text="Set selection gesture:" />
+                <Picker x:Name="selectionGesturePicker" AutomationId="SelectionGesturePicker"/>
+            </VerticalStackLayout>
+    <Grid Grid.Row="1">
+        <!-- >> listview-features-selection-xaml -->
+        <telerikDataControls:RadListView  x:Name="listView" Margin="10"
+                                      ItemsSource="{Binding Names}"
+                                      SelectionMode="Multiple"
+                                      SelectedItems="{Binding SelectedNames}">
+            <telerikDataControls:RadListView.SelectedItemStyle>
+                <telerikListView:ListViewItemStyle BackgroundColor="#88FFF5BA" 
+                                               BorderColor="#88FFF5BA" />
+            </telerikDataControls:RadListView.SelectedItemStyle>
+        </telerikDataControls:RadListView>
+        <!-- << listview-features-selection-xaml -->
+    </Grid>
+</Grid>
+```
 
-Lastly, set the ViewModel class as a BindingContext:
+Add the namespaces:
 
-<snippet id='listview-features-selection-setvm' />
+```XAML
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"                       
+```
+
+Set the ViewModel class as a BindingContext and call the InitializePickers() method:
+
+```C#
+this.BindingContext = new ViewModel();
+this.InitializePickers();
+```
+
+The InitializePickers and SelectionChanged event implementation:
+
+```C#
+private void InitializePickers()
+{
+    selectionModePicker.Items.Add("None");
+    selectionModePicker.Items.Add("Single");
+    selectionModePicker.Items.Add("Multiple");
+    selectionModePicker.SelectedIndexChanged += this.OnSelectionModeChanged;
+    selectionModePicker.SelectedIndex = 2;
+
+    selectionGesturePicker.Items.Add("Tap");
+    selectionGesturePicker.Items.Add("Hold");
+    selectionGesturePicker.SelectedIndexChanged += this.OnSelectionGestureChanged;
+    selectionGesturePicker.SelectedIndex = 0;
+}
+
+// >> listview-features-onselectionchanged-csharp
+private void OnSelectionGestureChanged(object sender, EventArgs e)
+{
+    switch ((sender as Picker).SelectedIndex)
+    {
+        case 0:
+            listView.SelectionGesture = SelectionGesture.Tap;
+            break;
+        case 1:
+            listView.SelectionGesture = SelectionGesture.Hold;
+            break;
+    }
+}
+
+private void OnSelectionModeChanged(object sender, EventArgs e)
+{
+    switch ((sender as Picker).SelectedIndex)
+    {
+        case 0:
+            listView.SelectionMode = Telerik.XamarinForms.DataControls.ListView.SelectionMode.None;
+            break;
+        case 1:
+            listView.SelectionMode = Telerik.XamarinForms.DataControls.ListView.SelectionMode.Single;
+            break;
+        case 2:
+            listView.SelectionMode = Telerik.XamarinForms.DataControls.ListView.SelectionMode.Multiple;
+            break;
+    }
+}
+```
 
 Here is how the **RadListView** control looks like on different platforms when multiple items are selected:
 
 ![MultipleSelection](images/listview-features-selection-multiple.png "Multiple Selection")
 
->important A sample Selection example is available in ListView -> Features folder of the [SDK Browser application]({%slug developer-focused-examples%}#sdk-browser-application).
+>important A sample Selection example is available in ListView -> Features folder of the [SDK Browser MAUI application]({%slug developer-focused-examples%}#sdk-browser-application).
 
 ## See Also
 - [Items Grouping]({%slug listview-features-grouping%})
