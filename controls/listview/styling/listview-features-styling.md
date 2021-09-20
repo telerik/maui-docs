@@ -1,7 +1,7 @@
 ---
 title: Item Styles
-page_title: Xamarin ListView Documentation | Item Styles
-description: Check our &quot;Item Styles&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Item Styles
+description: Check our &quot;Item Styles&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 0
 slug: listview-features-styling
 description: Describing the styling options of the RadListView
@@ -41,8 +41,48 @@ This enumeration contains the following members:
 
 ### Example
 
-<snippet id='listview-styling-listview-xaml'/>
-<snippet id='listview-styling-listview-csharp'/>
+```XAML
+<telerikDataControls:RadListView x:Name="listView" 
+                                             ItemsSource="{Binding Source}" 
+                                             IsItemsReorderEnabled="True">
+        <telerikDataControls:RadListView.BindingContext>
+            <local:ViewModel />
+        </telerikDataControls:RadListView.BindingContext>
+        <telerikDataControls:RadListView.ItemTemplate>
+            <DataTemplate>
+                <telerikListView:ListViewTextCell Text="{Binding Name}" />
+            </DataTemplate>
+        </telerikDataControls:RadListView.ItemTemplate>
+        <telerikDataControls:RadListView.ItemStyle>
+            <telerikListView:ListViewItemStyle BackgroundColor="#1263E5"
+                                    TextCellTextColor="#AAC7F6"
+                                    BorderColor="#0A3A82"                                                
+                                    BorderWidth="2"
+                                    BorderLocation="All" />
+        </telerikDataControls:RadListView.ItemStyle>
+        <telerikDataControls:RadListView.SelectedItemStyle>
+            <telerikListView:ListViewItemStyle BackgroundColor="#83A9E2"
+                                    TextCellTextColor="#AAC7F6"
+                                    BorderColor="#0A3A82"
+                                    BorderWidth="2" 
+                                    BorderLocation="Bottom"/>
+        </telerikDataControls:RadListView.SelectedItemStyle>
+        <telerikDataControls:RadListView.PressedItemStyle>
+            <telerikListView:ListViewItemStyle BackgroundColor="#C1C1C1" 
+                                    TextCellTextColor="#AAC7F6"
+                                    BorderColor="#0B3D89" 
+                                    BorderWidth="2" 
+                                    BorderLocation="Bottom"/>
+        </telerikDataControls:RadListView.PressedItemStyle>
+        <telerikDataControls:RadListView.ReorderItemStyle>
+            <telerikListView:ListViewItemStyle BackgroundColor="#0B3D89"
+                                    TextCellTextColor="#AAC7F6"
+                                    BorderColor="Black"
+                                    BorderWidth="2"
+                                    BorderLocation="All" />
+        </telerikDataControls:RadListView.ReorderItemStyle>
+    </telerikDataControls:RadListView>
+```
 
 And here is the end result:
 
@@ -54,22 +94,8 @@ And here is the end result:
 
 >important You can find a working demo labeled **ItemStyles** in the ListView/Styling folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}). 
 
-## ListViewItemStyle with Bindable Properties
 
-Additionally, the styling properties of **ListViewItemStyle**  could be used as bindable properties in order to allow you even more flexibility in customizing the visual appearance of RadListiView.
-
-### Example
-
-Here is a quick example on how you could bind ListViewItemStyle's properties to corresponding properties of type Color/Location inside the ViewModel:
-
-<snippet id='listview-features-styling-bindable-itemstyle-xaml'/>
-
-Here is how the ItemStyle bindable property looks:
-#### Figure 3: ListView with Bindable ItemStyle
-
-![](../images/listvirew-features-bindable-itemstyle.png)
-
->important There are examples in the ListView/Styling folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}), how you can use those properties as a bindable. 
+>important There are examples in the ListView/Styling folder of the SDKBrowser MAUI application, how you can use those properties as a bindable. 
 
 ## See Also
 
