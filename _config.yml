@@ -164,7 +164,11 @@ navigation:
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
-    ## End SegmentedControl   
+    ## End SegmentedControl
+    ## WrapLayout
+    controls/wraplayout:
+        title: "WrapLayout"
+    ## End WrapLayout       
 ## End Controls Sub-Folders
 
 ## The application virtual path
