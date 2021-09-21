@@ -145,7 +145,7 @@ navigation:
         title: Cells
         position: 2   
     controls/listview/styling:
-        title: "Theming and Styles"
+        title: "Styling"
         position: 14         
     controls/listview/howto:
         title: "How To"
