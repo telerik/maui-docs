@@ -88,7 +88,9 @@ And the result is:
 
 ## Configure last child element position
 
-By default, the last element inside the WrapLayout stretches along the remaining space not occupied by the other child elements. You can prevent this behavior by setting `StretchLastChild` property of the WrapLayout control to *False*. Check the example below how it would work when set to both values:
+RadWrapLayout exposes `StretchLastChild` property which gives you the option to control the position and layout of the last child item from the layout items collection. If set to *True* the last element will stretch along the remaining space from the last row or column depending on the layout orientation.
+
+Check the example below how `StretchLastChild` would work when set to both values:
 
 <snippet id='wraplayout-position-lastelement'/>
 ```XAML
