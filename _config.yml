@@ -8,13 +8,16 @@ exclude_navigation: [knowledge-base/*]
 
 navigation:
 ## List your directory names and order here, like this:
-## Root Level    
-    licensing:
-        title: "Licensing"
-        position: 4   
+## Root Level 
+    demos-and-sample-apps:
+        title: "Demos and Sample Apps"
+        position: 2      
     controls:
         title: "<b>MAUI Controls</b>"
         position: 7
+    licensing:
+        title: "Licensing"
+        position: 9 
     troubleshooting:
         title: "Troubleshooting"
         position: 12

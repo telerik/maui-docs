@@ -1,12 +1,12 @@
 ---
 title: Introduction
 page_title: .NET MAUI Cross-Platform App UI Documentation
-description: Revolutionize your multi-platform app development with the preview version of Telerik UI for MAUI
-tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for maui
+description: Revolutionize your multi-platform app development with the preview version of Telerik UI for .NET MAUI
+tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 position: 0
 ---
 
-## Welcome to Telerik UI for MAUI
+# Welcome to Telerik UI for MAUI
 
 Thank you for choosing Telerik UI for .NET MAUI - Preview.
 
@@ -20,7 +20,7 @@ To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/maui
 
 ![Telerik UI for MAUI](front-image.png)
 
-### Telerik UI for MAUI Controls
+## Telerik UI for MAUI Controls
 
 Our suite features the following controls for cross-platform development with MAUI:
 
@@ -30,12 +30,15 @@ Our suite features the following controls for cross-platform development with MA
 * [Chart]({%slug chart-overview%})
 * [CheckBox]({%slug checkbox-overview%})
 * [DataGrid]({%slug datagrid-overview%})
+* [DockLayout]({%slug docklayout-overview%})
 * [Entry]({%slug entry-overview%})
 * [Gauge]({%slug gauge-overview%})
 * [ItemsControl]({%slug itemscontrol-overview%})
+* [ListView]({%slug listview-overview%})
 * [Path]({%slug path-overview%})
 * [Popup]({%slug popup-overview%})
 * [SegmentedControl]({%slug segmentedcontrol-overview%})
+* [WrapLayout]({%slug wraplayout-overview%})
 
 ## Getting Started with Telerik UI for MAUI
 
