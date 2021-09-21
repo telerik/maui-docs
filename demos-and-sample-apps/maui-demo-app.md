@@ -59,13 +59,13 @@ The SDKBrowserMaui folder is inside the installation folder. The installation fo
 
 * Open the SDKBrowser folder in Visual Studio 2022 Preview
 
-![Telerik UI Maui SDKBrowser Maui App VS Code](../images/maui-app-vs-code-windows.png)
+![Telerik UI Maui SDKBrowser Maui App VS Code](../images/sdkmaui-structure.png)
 
 * Wait the project to restore
 
 * Select Project's Target Framework
 
-![Telerik UI SDKBrowser Maui App VS Code](../images/maui-vs-code-options.png)
+![Telerik UI SDKBrowser Maui App](../images/maui-win-ui-project-structure.png)
 
 * Select the emulator/device you want to run the app
 
@@ -89,11 +89,11 @@ The SDKBrowserMaui folder is inside the installation folder. The installation fo
 
 ### Telerik SDKBrowser MAUI app on iPhone
 
-![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-ipad.png)
+![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-iphone.png)
 
 ### Telerik SDKBrowser MAUI app on MacOS
 
-![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-ipad.png)
+![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-macos.png)
 
 ## See Also
 
