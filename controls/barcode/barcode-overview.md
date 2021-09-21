@@ -10,11 +10,6 @@ slug: barcode-overview
 
 **Telerik RadBarcode for .NET MAUI** is a control used for creating and showing barcodes. You can generate and visualize barcodes in a machine-readable format via the RadBarcode control by providing numeric or character data.
 
-> Barcode for .NET MAUI is available for Android, iOS and WinUI.
-
-
-#### Figure 1: RadBarcode Overview
-
 ![RadBarcode Overview](images/barcode_overview.png)
 
 ## Key features
