@@ -3,18 +3,21 @@ url: "https://docs.telerik.com/devtools/maui"
 site_name: MAUI
 
 # Exclude files which should not be in the output 
-exclude: [README.md,Gemfile,Gemfile.lock, controls/listview, controls/chart/how-to]
+exclude: [README.md,Gemfile,Gemfile.lock, controls/chart/how-to]
 exclude_navigation: [knowledge-base/*]
 
 navigation:
 ## List your directory names and order here, like this:
-## Root Level    
-    licensing:
-        title: "Licensing"
-        position: 4   
+## Root Level 
+    demos-and-sample-apps:
+        title: "Demos and Sample Apps"
+        position: 2      
     controls:
         title: "<b>MAUI Controls</b>"
         position: 7
+    licensing:
+        title: "Licensing"
+        position: 9 
     troubleshooting:
         title: "Troubleshooting"
         position: 12
@@ -107,6 +110,10 @@ navigation:
         title: "Styling"
         position: 10
     ## End DataGrid
+    ## DockLayout
+    controls/docklayout:
+        title: "DockLayout"
+    ## End DockLayout
     ## Entry
     controls/entry:
         title: "Entry"
@@ -145,6 +152,10 @@ navigation:
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## NumericInput
+    controls/numericinput:
+        title: "NumericInput"
+    ## End NumericInput
     ## Path
     controls/path:
         title: "Path"   
@@ -156,7 +167,11 @@ navigation:
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
-    ## End SegmentedControl   
+    ## End SegmentedControl
+    ## WrapLayout
+    controls/wraplayout:
+        title: "WrapLayout"
+    ## End WrapLayout       
 ## End Controls Sub-Folders
 
 ## The application virtual path

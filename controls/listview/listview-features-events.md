@@ -1,7 +1,7 @@
 ---
 title: Events
-page_title: Xamarin ListView Documentation | Events
-description: Check our &quot;Events&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Events
+description: Check our &quot;Events&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 12
 slug: listview-features-events
 description: Describing the events of the RadListView

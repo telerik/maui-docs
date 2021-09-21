@@ -1,8 +1,8 @@
 ---
 title: Multi-Level Grouping
-page_title: Xamarin ListView Documentation | Grouping
-description: Check our &quot;Multi-Level Grouping&quot; documentation article for Telerik ListView for Xamarin control.
-position: 2
+page_title: .NET MAUI ListView Documentation | Grouping
+description: Check our &quot;Multi-Level Grouping&quot; documentation article for Telerik ListView for .NET MAUI
+position: 5
 slug: listview-grouping-multilevel
 description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor, multilevel
@@ -14,29 +14,122 @@ This article provides an overview on how you could enable multi-level grouping i
 
 >note Before proceeding please go through [Grouping Overview]({%slug listview-features-grouping%}) topic.
 
-First, let's create the following business object:
+**1** Create the following business object:
 
-<snippet id='listview-grouping-multilevel-businessobject' />
+```C#
+public class City
+{
+    public string Continent { get; set; }
+    public string Name { get; set; }
+    public string Country { get; set; }
+}
+```
 
-The next example demonstrates how RadListView could be bound to a collection of *City* objects and grouped hieararchically by *Continent* and *Country*.
+**2** Create a ViewModel class as shown below:
 
-To accomplish the task, create a ViewModel class as shown below:
+```C#
+public class GroupingViewModel : NotifyPropertyChangedBase
+{
+    public ObservableCollection<City> Cities { get; set; }
 
-<snippet id='listview-grouping-multilevel-viewmodel' />
+    public GroupingViewModel()
+    {
+        this.Cities = new ObservableCollection<City>()
+        {
+            new City() { Name = "Barcelona", Country = "Spain", Continent = "Europe"},
+            new City() { Name = "Madrid", Country = "Spain", Continent = "Europe" },
+            new City() { Name = "Rome", Country = "Italy", Continent = "Europe" },
+            new City() { Name = "Florence", Country = "Italy", Continent = "Europe" },
+            new City() { Name = "London", Country = "England", Continent = "Europe" },
+            new City() { Name = "Manchester", Country = "England", Continent = "Europe"},
+            new City() { Name = "New York", Country = "USA", Continent = "North America" },
+            new City() { Name = "Boston", Country = "USA",  Continent = "North America" }
+         };
+    }
+}
+```
 
-Then, in order to visualize the hierarchical relation between groups, add a custom **GroupHeaderTemplate** (of type *DataTemplate*) to the Resources of your page:
+**3** In order to visualize the hierarchical relation between groups, add a custom **GroupHeaderTemplate** (of type *DataTemplate*) to the Resources of your page:
 
-<snippet id='listview-grouping-multilevel-templates' />
+```XAML
+<ResourceDictionary>
+    <multiLevelGrouping:LevelToMarginConverter x:Key="LevelToMarginConverter" />
+    <DataTemplate x:Key="ListViewItemTemplate">
+        <telerikListView:ListViewTemplateCell>
+            <telerikListView:ListViewTemplateCell.View>
+                <Grid Padding="50, 0, 0, 0" BackgroundColor="#F1F2F5">
+                    <Label Text="{Binding Name}" TextColor="#6F6F70" FontSize="Small" />
+                </Grid>
+            </telerikListView:ListViewTemplateCell.View>
+        </telerikListView:ListViewTemplateCell>
+    </DataTemplate>
+    <DataTemplate x:Key="ListViewMultiLevelGroupHeaderTemplate">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Text="&#x25B8;" Margin="{Binding Level, Converter={StaticResource LevelToMarginConverter}}" 
+                   TextColor="DarkGray" FontSize="Medium">
+                <Label.Triggers>
+                    <DataTrigger TargetType="Label" Binding="{Binding IsExpanded}" Value="True">
+                        <Setter Property="Text" Value="&#x25BE;" />
+                    </DataTrigger>
+                </Label.Triggers>
+            </Label>
+            <Label Margin="0, 12, 0, 6" Text="{Binding }" Grid.Column="1" TextColor="DarkGray" FontSize="Medium" HorizontalOptions="Start" />
+        </Grid>
+    </DataTemplate>
+    <telerikListView:ListViewGroupStyle x:Key="ListViewGroupHeaderStyle" BackgroundColor="Transparent" />
+</ResourceDictionary>
+```
 
-where LevelToMarginConverter just calculates the margin of each group header according to its Level:
+**4** LevelToMarginConverter just calculates the margin of each group header according to its Level:
 
-<snippet id='listview-grouping-multilevel-templates' />
+```C#
+public class LevelToMarginConverter : IValueConverter
+{
+    public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        if (value != null)
+        {
+            var level = (int)value;
+            return new Thickness(((level - 1) * 20) + 8, 12, 0, 6);
+        }
+        else return value;
+    }
+    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        return value;
+    }
+}
+```
 
-Lastly, add the RadListView definition with two **PropertyGroupDescriptors** as shown in the next snippet:
+**5** Add the RadListView definition with two **PropertyGroupDescriptors** as shown in the next snippet:
 
-<snippet id='listview-grouping-multilevel-definition' />
+```XAML
+<telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Cities}"
+                                     ItemTemplate="{StaticResource ListViewItemTemplate}"
+                                     GroupHeaderTemplate="{StaticResource ListViewMultiLevelGroupHeaderTemplate}"
+                                     GroupHeaderStyle="{StaticResource ListViewGroupHeaderStyle}">
+    <telerikDataControls:RadListView.BindingContext>
+        <local:GroupingViewModel/>
+    </telerikDataControls:RadListView.BindingContext>
+    <telerikDataControls:RadListView.GroupDescriptors>
+        <telerikListView:PropertyGroupDescriptor PropertyName="Continent"/>
+        <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
+    </telerikDataControls:RadListView.GroupDescriptors>
+</telerikDataControls:RadListView>
+```
 
-Here is the final result:
+and the namespaces used:
+
+```XAML
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
+**6** The final result:
 
 ![](../images/listview_grouping_multilevel.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Pull to Refresh
-page_title: Xamarin ListView Documentation | Pull to Refresh
-description: Check our &quot;Pull to Refresh&quot; documentation article for Telerik ListView for Xamarin control.
+page_title: .NET MAUI ListView Documentation | Pull to Refresh
+description: Check our &quot;Pull to Refresh&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 
 slug: listview-features-pull-to-refresh
 ---
@@ -21,21 +21,39 @@ This feature consists of:
 
 This example demonstrates how to enable the pull to refresh functionality.
 
-Here is the definition of the list view in Xaml:
+**1.** ListView definition:
 
-<snippet id='listview-gestures-pulltorefresh-listview'/>
+```XAML
+ <telerikDataControls:RadListView x:Name="listView"
+                                         IsPullToRefreshEnabled="True"
+                                         RefreshRequested="RefreshRequested" />
+```
 
-Where:
+**2.** Namespaces:
 
-<snippet id='xmlns-telerikdatacontrols'/>
+```XAML
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
-Let's set some simple source to the list view in the code behind of the page:
+**3.** Sample source for the ListView ItemsSource
 
-<snippet id='listview-gestures-pulltorefresh-source'/>
+```C#
+listView.ItemsSource = Enumerable.Range(0, this.count);
+```
 
-And this is the method that updates the source of the list view when refresh is triggered:
+**4.** And this is the method that updates the source of the list view when refresh is triggered:
 
-<snippet id='listview-gestures-pulltorefresh-event'/>
+```C#
+private int count = 10;
+
+private async void RefreshRequested(object sender, PullToRefreshRequestedEventArgs e)
+{
+    await Task.Delay(3000);
+    listView.ItemsSource = Enumerable.Range(this.count, 10);
+    this.count += 10;
+    listView.EndRefresh();
+}
+```
 
 This is how the refresh indicator looks like:
 
@@ -63,7 +81,8 @@ The recommended use is to place the RadListView control in a container that expa
 
 ## See Also
 
-- [ListView Cell Types]({% slug listview-cells %})
-- [ListView Layouts]({% slug listview-features-layouts %})
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Layouts]({% slug listview-features-layouts %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Reorder Items]({% slug listview-features-reorder-items %})
