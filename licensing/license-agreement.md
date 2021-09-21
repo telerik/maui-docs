@@ -9,5 +9,5 @@ position: 1
 
 &nbsp;
 
-The End User License Agreement for Telerik UI for MAUI can be found on the following page:       
+The End User License Agreement for Telerik UI for .NET MAUI can be found on the following page:       
 [https://www.telerik.com/purchase/license-agreements](https://www.telerik.com/purchase/license-agreements).

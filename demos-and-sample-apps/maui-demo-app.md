@@ -7,17 +7,17 @@ tags: .net maui, ui for .net maui, .net maui controls
 position: 1
 ---
 
-#  Telerik UI for MAUI SDKBrowser Application
+#  Telerik UI for .NET MAUI SDKBrowser Application
 
-![Telerik UI for MAUI SDKBrowserMaui App](../images/demo-maui.gif)
+![Telerik UI for .NET MAUI SDKBrowserMaui App](../images/demo-maui.gif)
 
 ## SDKBrowser location:
 
 **1. Log into your [Telerik account](https://www.telerik.com/account/).**
 
-**2. Go to [Telerik UI for MAUI product page](https://www.telerik.com/maui-ui)**
+**2. Go to [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui)**
 
-**3. Click Download Telerik UI for MAUI button:**
+**3. Click Download Telerik UI for .NET MAUI button:**
 
 ![Telerik UI for .NET MAUI](../images/download_maui.png)
 
@@ -27,13 +27,13 @@ position: 1
 
 **Installation for Windows**
 
->important Run `maui-check` inside command prompt. This command is required for using Telerik UI for MAUI controls and build and run the `SDKBrowserMaui.sln`.
+>important Run `maui-check` inside command prompt. This command is required for using Telerik UI for .NET MAUI controls and build and run the `SDKBrowserMaui.sln`.
 
-* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for MAUI component in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
+* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for .NET MAUI components in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
 
 The SDKBrowser folder is inside the installation folder. The Installation folder has the following subdirectories:
 
-![Telerik UI for MAUI Installation Folder](../images/telerik-ui-for-maui-installation-folder.png)
+![Telerik UI for .NET MAUI Installation Folder](../images/telerik-ui-for-maui-installation-folder.png)
 
 * Binaries - Contains the needed dlls for Android, iOS and WinUI
 * **SDKBrowser** - SDKBrowser app with Telerik UI for .NET MAUI controls
@@ -42,13 +42,13 @@ The SDKBrowser folder is inside the installation folder. The Installation folder
 
 **Installation for macOS**
 
->important Run `maui-check` inside the terminal. This command is required for using Telerik UI for MAUI controls and build and run the `SDKBrowserMaui.sln`.
+>important Run `maui-check` inside the terminal. This command is required for using Telerik UI for .NET MAUI controls and build and run the `SDKBrowserMaui.sln`.
 
 * Telerik_UI_for_Maui_[version]_Preview.pkg - runnable pkg file used for automatic installation (for Mac).
 
 The SDKBrowserMaui folder is inside the installation folder. The installation folder has the following subdirectories:
 
-![Telerik UI for MAUI Installation Folder](../images/installation-macos.png)
+![Telerik UI for .NET MAUI Installation Folder](../images/installation-macos.png)
 
 * Binaries - Contains the needed dlls for Android, iOS and WinUI
 * **SDKBrowser** - SDKBrowserMaui App with Telerik UI for .NET MAUI controls
