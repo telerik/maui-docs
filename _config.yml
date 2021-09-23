@@ -13,7 +13,7 @@ navigation:
         title: "Demos and Sample Apps"
         position: 2      
     controls:
-        title: "<b>MAUI Controls</b>"
+        title: "<b>.NET MAUI Controls</b>"
         position: 7
     licensing:
         title: "Licensing"
@@ -181,8 +181,8 @@ baseurl: "/devtools/maui"
 mvcCoreVersion: "2016.2.616"
 
 ## The product name
-productName: "Telerik UI for MAUI"
-product: "Telerik UI for MAUI"
+productName: "Telerik UI for .NET MAUI"
+product: "Telerik UI for .NET MAUI"
 platform: maui
 
 ## Assign layout and category per different paths
