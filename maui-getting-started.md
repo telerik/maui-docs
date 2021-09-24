@@ -62,7 +62,7 @@ The installation folder has the following subdirectories:
 ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
-* SDKBrowser - Demo App with Telerik UI for .NET MAUI controls
+* Examples - SDK App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
@@ -75,7 +75,7 @@ The installation folder has the following subdirectories:
 ![Telerik UI for .NET MAUI Installation Folder](images/installation-macos.png)
 
 * Binaries - Contains the needed dlls for Android and iOS 
-* SDKBrowser - Demo App with Telerik UI for .NET MAUI controls
+* Examples - SDK App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 

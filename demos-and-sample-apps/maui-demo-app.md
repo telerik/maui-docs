@@ -36,7 +36,7 @@ The SDKBrowser folder is inside the installation folder. The Installation folder
 ![Telerik UI for .NET MAUI Installation Folder](../images/telerik-ui-for-maui-installation-folder.png)
 
 * Binaries - Contains the needed dlls for Android, iOS and WinUI
-* **SDKBrowser** - SDKBrowser app with Telerik UI for .NET MAUI controls
+* **Examples** - SDK app with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
@@ -51,7 +51,7 @@ The SDKBrowserMaui folder is inside the installation folder. The installation fo
 ![Telerik UI for .NET MAUI Installation Folder](../images/installation-macos.png)
 
 * Binaries - Contains the needed dlls for Android, iOS and WinUI
-* **SDKBrowser** - SDKBrowserMaui App with Telerik UI for .NET MAUI controls
+* **Examples** - SDK App with Telerik UI for .NET MAUI controls
 * LicenseAgreements - provides the product EULA.
 * Packages - Telerik_UI_for_Maui_[version]_Preview.nupkg file
 
