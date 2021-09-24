@@ -29,7 +29,11 @@ position: 1
 
 >important Run `maui-check` inside command prompt. This command is required for using Telerik UI for .NET MAUI controls and build and run the `SDKBrowserMaui.sln`.
 
-* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will install the UI for .NET MAUI components in the following folder unless you specify otherwise: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
+* Telerik_UI_for_Maui_[version]_Preview.msi - runnable msi file used for automatic installation (for use on PC). Run the MSI file and follow the instructions. On a 32bit machine the wizard will suggest to install the UI for .NET MAUI components in the following folder: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine.
+
+>important Specify different installation folder with a shorter path. For example install the Telerik UI for .NET MAUI components on **C:\T\** folder. **D:\T\**, etc.
+
+If the path is too long the following error occurs: *Error occurred while restoring NuGet packages: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.*
 
 The SDKBrowser folder is inside the installation folder. The Installation folder has the following subdirectories:
 
