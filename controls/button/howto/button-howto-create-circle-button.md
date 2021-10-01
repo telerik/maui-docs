@@ -33,7 +33,7 @@ Here is a quick example:
 Add the namespace: 
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 >important CornerRadius property does not work on Android as it is still not supported [check this ifo here](https://github.com/dotnet/maui/wiki/Status#%EF%B8%8F-button).
