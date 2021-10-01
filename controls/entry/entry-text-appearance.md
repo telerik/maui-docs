@@ -32,7 +32,7 @@ RadEntry exposes **WatermarkText**(*string*) property used to give guidance to t
 Where:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 ![Entry with Watermark](images/entry_watermark.png)
