@@ -234,7 +234,54 @@ footer_social:
 has_kb_portal: false
 has_api_reference: false
 has_cta_panels: false
-        
+
+intro_columns:
+-
+  categories:
+  -
+    title: "Data Controls"  
+    items:
+      "DataGrid": "datagrid-overview"
+      "ListView": "listview-overview"
+      "ItemsControl": "itemscontrol-overview"
+-
+  categories:
+  -
+    title: "Data Visualization"
+    items:
+        "Charts": "chart-overview"
+        "Gauge": "gauge-overview"
+        "Barcode": "barcode-overview"
+-
+  categories:
+  -   
+    title: "Editors"
+    items:        
+        "Entry": "entry-overview"
+        "NumericInput": "numericinput-overview"
+  -
+    title: "Buttons"
+    items:
+        "Segmented Control": "segmentedcontrol-overview"
+        "Button": "button-overview"
+        "CheckBox": "checkbox-overview"
+-
+  categories:
+  -
+    title: "Layouts"
+    items:
+        "DockLayout": "docklayout-overview"
+        "WrapLayout": "wraplayout-overview"
+  
+-
+  categories:    
+  - 
+    title: "Interactivity & UX"
+    items:
+        "Popup": "popup-overview"
+        "Border": "border-overview"
+        "Path": "path-overview"
+
 # Assets pipeline configuration
 assets:
     cachebust: soft
