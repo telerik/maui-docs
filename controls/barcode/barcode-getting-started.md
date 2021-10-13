@@ -48,8 +48,6 @@ public void Configure(IAppHostBuilder appBuilder)
 
 Here is the result:
 
-#### Figure 1: Barcode Getting Started
-
 ![Getting Started Example](images/barcode_getting_started.png)
 
 ## See Also

@@ -6,41 +6,27 @@ tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui f
 position: 0
 ---
 
-# Welcome to Telerik UI for MAUI
+# Welcome to Telerik UI for .NET MAUI
 
-Thank you for choosing Telerik UI for .NET MAUI - Preview.
+Thank you for choosing Telerik UI for .NET MAUI - Preview!
 
-**Telerik UI for MAUI** features MAUI controls for building professional-looking modern applications targeting Android, iOS and WinUI.
+**Telerik UI for .NET MAUI** features .NET MAUI controls for building professional-looking modern mobile and desktop applications targeting Android, iOS, macOS and Windows from a single shared code-base.
 
-To learn more please visit the [Telerik UI for MAUI](http://www.telerik.com/maui-ui) product overview page.
+To learn more about the benefits of using Telerik UI for MAUI, visit the [product overview page](https://www.telerik.com/maui-ui).
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-introduction.html %}
 {% endif %}
 
-![Telerik UI for MAUI](front-image.png)
+![Telerik UI for .NET MAUI](front-image.png)
 
-## Telerik UI for MAUI Controls
+## Telerik UI for .NET MAUI Controls
 
-Our suite features the following controls for cross-platform development with MAUI:
+Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI:
 
-* [Barcode]({%slug barcode-overview%})
-* [Border]({%slug border-overview%})
-* [Button]({%slug button-overview%})
-* [Chart]({%slug chart-overview%})
-* [CheckBox]({%slug checkbox-overview%})
-* [DataGrid]({%slug datagrid-overview%})
-* [DockLayout]({%slug docklayout-overview%})
-* [Entry]({%slug entry-overview%})
-* [Gauge]({%slug gauge-overview%})
-* [ItemsControl]({%slug itemscontrol-overview%})
-* [ListView]({%slug listview-overview%})
-* [Path]({%slug path-overview%})
-* [Popup]({%slug popup-overview%})
-* [SegmentedControl]({%slug segmentedcontrol-overview%})
-* [WrapLayout]({%slug wraplayout-overview%})
+{% include intro-page-table.html  %}
 
-## Getting Started with Telerik UI for MAUI
+## Getting Started with Telerik UI for .NET MAUI
 
 Information how to get started with .NET MAUI and Telerik UI for .NET MAUI can be found in our [Getting Started]({%slug maui-getting-started%}) guide.
 
@@ -48,7 +34,16 @@ Information how to get started with .NET MAUI and Telerik UI for .NET MAUI can b
 
 For any issues you might encounter while working with Telerik UI for MAUI, use any of the available support channels:
 
-* [Our forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the team on all kinds of general issues.
-* [Our feedback portal](https://feedback.telerik.com/maui) provides information on the features/bugs in discussion and also the planned ones for release.
+* The [Telerik UI for .NET MAUI forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the Telerik UI for .NET MAUI team on all kinds of general issues and questions you have.
+* The [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui) provides information on the features in discussion and also the planned ones for release.
 * You may still need a tailor-made solution for your project. In such cases, go straight to [Progress Services](https://www.progress.com/services).
 
+## Learning Resources
+
+* [Official Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui)
+* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)
+
+## Next Steps
+
+* [First steps guide on getting started with Telerik UI for .NET MAUI]({%slug maui-getting-started%})

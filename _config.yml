@@ -13,7 +13,7 @@ navigation:
         title: "Demos and Sample Apps"
         position: 2      
     controls:
-        title: "<b>MAUI Controls</b>"
+        title: "<b>.NET MAUI Controls</b>"
         position: 7
     licensing:
         title: "Licensing"
@@ -145,7 +145,7 @@ navigation:
         title: Cells
         position: 2   
     controls/listview/styling:
-        title: "Theming and Styles"
+        title: "Styling"
         position: 14         
     controls/listview/howto:
         title: "How To"
@@ -181,8 +181,8 @@ baseurl: "/devtools/maui"
 mvcCoreVersion: "2016.2.616"
 
 ## The product name
-productName: "Telerik UI for MAUI"
-product: "Telerik UI for MAUI"
+productName: "Telerik UI for .NET MAUI"
+product: "Telerik UI for .NET MAUI"
 platform: maui
 
 ## Assign layout and category per different paths
@@ -234,7 +234,54 @@ footer_social:
 has_kb_portal: false
 has_api_reference: false
 has_cta_panels: false
-        
+
+intro_columns:
+-
+  categories:
+  -
+    title: "Data Controls"  
+    items:
+      "DataGrid": "datagrid-overview"
+      "ListView": "listview-overview"
+      "ItemsControl": "itemscontrol-overview"
+-
+  categories:
+  -
+    title: "Data Visualization"
+    items:
+        "Charts": "chart-overview"
+        "Gauge": "gauge-overview"
+        "Barcode": "barcode-overview"
+-
+  categories:
+  -   
+    title: "Editors"
+    items:        
+        "Entry": "entry-overview"
+        "NumericInput": "numericinput-overview"
+  -
+    title: "Buttons"
+    items:
+        "Segmented Control": "segmentedcontrol-overview"
+        "Button": "button-overview"
+        "CheckBox": "checkbox-overview"
+-
+  categories:
+  -
+    title: "Layouts"
+    items:
+        "DockLayout": "docklayout-overview"
+        "WrapLayout": "wraplayout-overview"
+  
+-
+  categories:    
+  - 
+    title: "Interactivity & UX"
+    items:
+        "Popup": "popup-overview"
+        "Border": "border-overview"
+        "Path": "path-overview"
+
 # Assets pipeline configuration
 assets:
     cachebust: soft

@@ -1,7 +1,7 @@
 ---
 title: Telerik NuGet Server
 page_title: Telerik NuGet Server
-description: Check our detailed documentation atricle on how to use Telerik UI for MAUI NuGet package.
+description: Check our detailed documentation article on how to use Telerik UI for .NET MAUI NuGet package.
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
 slug: telerik-nuget-server
 position: 2
@@ -31,7 +31,7 @@ In the Source field users should fill in the address of the Telerik server (URL:
 
 The Telerik server is now ready to use. Users can go to their solution and open the solution package manager.
 
-### Add Telerik UI for MAUI pack in Visual Studio for Windows
+### Add Telerik UI for .NET MAUI pack in Visual Studio for Windows
 
 Find the **Telerik.UI.for.Maui** package and install it to their projects following these steps:
 
