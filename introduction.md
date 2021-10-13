@@ -10,7 +10,7 @@ position: 0
 
 Thank you for choosing Telerik UI for .NET MAUI - Preview!
 
-**Telerik UI for .NET MAUI** features .NET MAUI controls for building professional-looking modern modile and desktop applications targeting Android, iOS, macOS and Windows from a single shared code-base.
+**Telerik UI for .NET MAUI** features .NET MAUI controls for building professional-looking modern mobile and desktop applications targeting Android, iOS, macOS and Windows from a single shared code-base.
 
 To learn more about the benefits of using Telerik UI for MAUI, visit the [product overview page](https://www.telerik.com/maui-ui).
 
