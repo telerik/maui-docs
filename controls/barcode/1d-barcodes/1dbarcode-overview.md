@@ -1,24 +1,16 @@
 ---
-title: Overview
-page_title: .NET MAUI Barcode Documentation | Supported Types Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
+title: 1D Barcodes Overview
+page_title: 1D Barcodes Overview | Telerik UI for MAUI
+description: "Learn more about the one-dimensional (1D) barcode types supported by the Telerik UI for MAUI Barcode."
 position: 0
-slug: barcode-supported-types-overview
+slug: 1dbarcode-overview
 ---
 
-# Supported Types
+# One-Dimensional Barcodes Overview
 
-There are two types of barcodes according to their dimensions:
+The linear, one-dimensional (1D) barcodes are made up of lines and spaces of various widths that create specific patterns.
 
-## Matrix (2D) barcodes
-
-The matrix code is a two-dimensional way for representing information. It can also be referred to as a 2D barcode or simply a 2D code. It is similar to the linear (one dimensional) barcode, but can represent more data per unit area.
-
-Currently, **RadBarcode** supports [QR Code]({% slug barcode-qrcode-overview%}), [PDF417]({% slug barcode-pdf417-overview%}) and [SwissQR Code]({% slug barcode-swissqrcode-overview%}) matrix barcode types.
-
-## Linear (1D) barcodes
-
-The linear (one dimensional) barcodes are made up of lines and spaces of various widths that create specific patterns. Currently, **RadBarcode** supports the following one dimensional barcode types:
+Currently, RadBarcode supports the following 1D barcode types:
 
 |Barcode|Description|
 |----|----|
@@ -31,13 +23,13 @@ The linear (one dimensional) barcodes are made up of lines and spaces of various
 |**Code 93**|(aka USS-93): Compressed form of Code 39|
 |**Code 93 Extended**|(aka USS-93): Compressed form of Code 39, supports full ASCII|
 |**Code 128**|Very dense code, used extensively worldwide|
-|**Code 128 A**|Subset of Code 128  \*(more info in 1D Barcodes)|
-|**Code 128 B**|Subset of Code 128  \*(more info in 1D Barcodes)|
-|**Code 128 C**|Subset of Code 128  \*(more info in 1D Barcodes)|
+|**Code 128 A**|Subset of Code 128 |
+|**Code 128 B**|Subset of Code 128  |
+|**Code 128 C**|Subset of Code 128  |
 |**MSI**|Variation of Plessey code, with similar applications|
 |**EAN 8**|Short version of EAN-13, 8 characters|
 |**EAN 13**|Used with consumer products internationally, 13 characters|
-|**GS1-128**|Formerly known as UCC-128 and EAN-128. Used to encode shipping/product information  \*(more info in 1D Barcodes)|
+|**GS1-128**|Formerly known as UCC-128 and EAN-128. Used to encode shipping/product information  |
 |**Postnet**|Printed by U.S. Post Office on envelopes|
 |**Planet**|Used by the U.S. Postal Service to identify and track pieces of mail during delivery - the Post Office's "CONFIRM" services|
 |**UPC A**|Used with consumer products in U.S., 12 characters|
@@ -47,4 +39,4 @@ The linear (one dimensional) barcodes are made up of lines and spaces of various
 
 ## See Also
 
-- [Key Features]({% slug barcode-key-features%})
+* [1D Barcodes Specifications]({% slug barcode-1d-specifications %})
