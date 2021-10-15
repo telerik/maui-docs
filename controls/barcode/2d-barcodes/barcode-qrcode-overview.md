@@ -1,14 +1,14 @@
 ---
-title: QRCode
-page_title: .NET MAUI Barcode Documentation | QRCode Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
-position: 1
+title: QR Code
+page_title: QR Code 2D Barcode Type | Telerik UI for MAUI
+description: "Learn more about the two-dimensional (2D) QR Code barcode type supported by the Telerik UI for MAUI Barcode."
+position: 2
 slug: barcode-qrcode-overview
 ---
 
-# QRCode
+# QR Code
 
-QR code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode first designed for the automotive industry in Japan. The QR Code system has become popular outside the automotive industry due to its fast readability and greater storage capacity compared to standard UPC barcodes.
+QR Code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode first designed for the automotive industry in Japan. The QR Code system has become popular outside the automotive industry due to its fast readability and greater storage capacity compared to standard UPC barcodes.
 
 A QR code consists of black modules (square dots) arranged in a square grid on a white background, which can be read by an imaging device (such as a camera) and processed using Reed–Solomon error correction until the image can be appropriately interpreted. The required data are then extracted from patterns present in both horizontal and vertical components of the image.
 
@@ -41,33 +41,32 @@ The format data is encoded in 15 bits. One full copy of the format data is locat
 
 ## Example
 
-Check below a quick example with QRCode symbology applied to RadBarcode:
+Check below a quick example with QR Code symbology applied to the RadBarcode:
 
 ```XAML
 <telerikBarcode:RadBarcode x:Name="barcode"
                        Value="https://docs.telerik.com/devtools/xamarin/introduction">
     <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:QRCode SizingMode="Stretch" 
+        <telerikBarcode:QRCode SizingMode="Stretch"
                                CodeMode="Byte"
                                ErrorCorrectionLevel="H"                                    
-                               ECIMode ="ISO8859_1" 
+                               ECIMode ="ISO8859_1"
                                FNC1Mode="SecondPosition"  
                                ApplicationIndicator="00"/>
     </telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
 ```
 
-Add the *telerikBarcode* namespace:
+Add the `telerikBarcode` namespace:
 
 ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Here is the result:
+The following image shows the result of the suggested implementation.
 
 ![QRCode](images/barcode-2d-barcodes-qrcode-example.png)
- 
+
 ## See Also
 
-- [Key Features]({% slug barcode-key-features%})
-- [Supported Barcodes]({% slug barcode-supported-types-overview%})
+- [2D Barcodes Overview]({% slug 2dbarcode-overview %})
