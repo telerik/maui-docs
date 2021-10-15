@@ -10,7 +10,7 @@ slug: 1dbarcode-overview
 
 The linear, one-dimensional (1D) barcodes are made up of lines and spaces of various widths that create specific patterns.
 
-Currently, RadBarcode supports the following 1D barcode types:
+Currently, the RadBarcode supports the following 1D barcode types:
 
 |Barcode|Description|
 |----|----|

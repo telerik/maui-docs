@@ -6,13 +6,13 @@ position: 0
 slug: 2dbarcode-overview
 ---
 
-# Two-Dimensional Barcodes
+# Two-Dimensional Barcodes Overview
 
 The matrix barcode is a two-dimensional (2D) way for representing information.
 
 It can also be referred to as a 2D barcode or simply a 2D code. 2D barcodes are similar to the linear (1D) barcodes, but can represent more data per unit area.
 
-Currently, RadBarcode supports the [QR Code]({% slug barcode-qrcode-overview%}), [PDF417]({% slug barcode-pdf417-overview%}), and [SwissQR Code]({% slug barcode-swissqrcode-overview%}) matrix barcode types.
+Currently, the RadBarcode supports the [QR Code]({% slug barcode-qrcode-overview%}), [PDF417]({% slug barcode-pdf417-overview%}), and [SwissQR Code]({% slug barcode-swissqrcode-overview%}) matrix barcode types.
 
 ## See Also
 

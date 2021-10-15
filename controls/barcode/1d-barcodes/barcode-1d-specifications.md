@@ -10,7 +10,7 @@ slug: barcode-1d-specifications
 
 One dimensional (1D) barcodes are made up of lines and spaces of various widths that create specific patterns.
 
-The following table describes the specific characteristics of the bar codes per type.
+The following table describes the specific characteristics of the barcodes per type.
 
 |Barcode type|Image|Description|Character Set|Length|Check Digit|
 |----|----|----|----|----|----|

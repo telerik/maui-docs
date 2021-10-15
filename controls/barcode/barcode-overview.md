@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI Barcode Documentation | RadBarcode Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Barcode for .NET MAUI.
+description: "Try now the Telerik Barcode for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 slug: barcode-overview
 ---
 
-# Overview
+# Telerik RadBarcode for .NET MAUI Overview
 
-**Telerik RadBarcode for .NET MAUI** is a control used for creating and showing barcodes. You can generate and visualize barcodes in a machine-readable format via the RadBarcode control by providing numeric or character data.
+The **Telerik RadBarcode for .NET MAUI** control enables you to create and show barcodes. You can generate and visualize barcodes in a machine-readable format through the RadBarcode control by providing numeric or character data.
 
 ![RadBarcode Overview](images/barcode_overview.png)
 
