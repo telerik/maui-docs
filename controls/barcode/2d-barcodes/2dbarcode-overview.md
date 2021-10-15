@@ -1,5 +1,5 @@
 ---
-title: 2D Barcodes Overview
+title: Overview
 page_title: 2D Barcodes Overview | Telerik UI for MAUI
 description: "Learn more about the two-dimensional (2D) barcode types supported by the Telerik UI for MAUI Barcode."
 position: 0
