@@ -4,7 +4,7 @@ page_title: Telerik NuGet Server
 description: Check our detailed documentation article on how to use Telerik UI for .NET MAUI NuGet package.
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
 slug: telerik-nuget-server
-position: 2
+position: 30
 ---
 
 # Telerik NuGet Server

@@ -1,63 +1,47 @@
 ---
-title: How To Enable Windows Project
+title: Enabling the Windows Project
 page_title: Enabling the Windows MAUI Project
-description: Tutorial on how to enable the Windows project in a .NET MAUI project.
+description: "Learn how to enable the Windows project in a Telerik UI for .NET MAUI project."
 tags: .net maui, maui, windows, WinUI, TFM
 slug: enable-windows-project
 ---
 
-# Problem
+# Enabling the Windows Project
 
-In .NET 6 RC1, you can now use a single project for all the MAUI target platforms. This means you no longer need an external WinUI project.  However, this is not currently enabled by default, there are some configuration steps needed. 
+In .NET 6 RC1, you can use a single project for all the MAUI target platforms.
 
-> This is expected to be fixed in future releases of Visual Studio 2022 and .NET 6.
+This means that you no longer need an external WinUI project. However, this functionality is not yet enabled by default and to implement it, you need to apply further configuration steps.
 
-## Setup
+> Future Telerik UI for .NET MAUI releases of Visual Studio 2022 and .NET 6 intend to implement the auggested approach out of the box.
 
-The first thing you need to do is make sure you have the prerequisite tooling installed, let's cover those quickly.
+## Prerequisites
 
-### 1. Visual Studio 2022 Preview 4 with the .NET MAUI Workload
-
-When installing Visual Studio 2022, make sure the .NET MAUI tools are selected underneath the *optional* section.
+* Install Visual Studio 2022 Preview 4 with the .NET MAUI Workload. Make sure that under the **optional** section the .NET MAUI tools are selected. For detailed instructions, check out the official blog post on [updating the .NET Multi-Platform Application](https://devblogs.microsoft.com/dotnet/update-on-dotnet-maui/).
 
 ![](../images/troubleshooting/vs2022-preview4-maui-installer.png)
 
-> Visit the official blog post on the topic [Update on .NET Multi-platform App UI .NET MAUI](https://devblogs.microsoft.com/dotnet/update-on-dotnet-maui/) and carefully read the instructions.
-
-### WinUI Tooling
-
-Next, you need to get something that doesn't come with Visual Studio yet. Download and install the [Single Project MSIX Packaging Tools](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17) VSExtension to Visual Studio 2022.
+* Download and install the [Single Project MSIX Packaging Tools](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17) VSExtension to Visual Studio 2022.
 
 ## Solution
 
-Let's start with a brand new .NET MAUI project (*Visual Studio > File > New project > select .NET MAUI App*).
+1. Create a new .NET MAUI project on **Visual Studio** > **File** > **New project** > **.NET MAUI App**.
 
-![](../images/troubleshooting/maui-project-template.png)
+    ![](../images/troubleshooting/maui-project-template.png)
 
-At this point, you should have a MAUI project with `Android`, `iOS`, `MacCatalyst` and `Windows` listed under the **Platforms** folder. However, the Windows Platform doesn't have a TFM enabled so there's no way to build and deploy a Windows app.
+    On Android, iOS, MacCatalyst, and Windows, the new MAUI project is listed under the **Platforms** folder. However, the Windows Platform doesn't have a TFM enabled and you are not able to build and deploy a Windows application.
 
-Take the following steps to fix this.
+1. Enable the Windows TFM by manually editing the `.csproj` file and uncomment the following line:
 
-### 1. Enable the Windows TFM
+    ![](../images/troubleshooting/windows-tfm-in-csproj.png)
 
-To enable the Windows platform, you'll need to manually edit the **.csproj** file and uncomment the following line:
+1. Save the `csproj` file and let the project reload itself. After reloading, you can then see a `net6.0-windows10.0.19041` TFM in the dependencies list.
 
-![](../images/troubleshooting/windows-tfm-in-csproj.png)
+    ![](../images/troubleshooting/windows-tfm-in-solution-explorer.png)
 
-Make sure you *save the csproj file immediately* and let the project reload itself. After it is done reloading, you should now see a `net6.0-windows10.0.19041` TFM in the dependencies list:
+1. Now that you have a Windows platform in the project, configure Visual Studio to deploy. Expand the target platform and change to **Windows Machine**. Change the framework to `net6.0-windows10.0.19041`.
 
-![](../images/troubleshooting/windows-tfm-in-solution-explorer.png)
+    ![](../images/troubleshooting/selecting-windows-tfm-target.png)
 
-### 2. Deploy a Windows Project
+1. Build and deploy the WinUI project to the local PC.
 
-Now that you have a Windows platform in the project, we need to configure Visual Studio to Deploy. Expand the target platform and change to **Windows Machine** and change the Framework to `net6.0-windows10.0.19041`:
-
-![](../images/troubleshooting/selecting-windows-tfm-target.png)
-
-Now, you can build and deploy the WinUI project to the local PC:
-
-![](../images/troubleshooting/windows-deployed.png)
-
-
-
-
+    ![](../images/troubleshooting/windows-deployed.png)
