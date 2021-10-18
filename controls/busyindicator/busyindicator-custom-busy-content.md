@@ -26,4 +26,4 @@ You could check the result in the image below:
 
 ## See Also
 
-- [Animations]({% slug busyindicator-features-animations %})
+- [Animations]({% slug busyindicator-animations %})

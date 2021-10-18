@@ -59,5 +59,4 @@ The following example demonstrates how to create a custom animation that changes
 
 ## See Also
 
-- [Project Wizard]({% slug project-wizard %})
 - [Getting Started]({% slug busyindicator-getting-started %})
