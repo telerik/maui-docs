@@ -1,13 +1,13 @@
 ---
-title: Demo App
+title: SDKBrowser Demo App
 page_title: Telerik .NET MAUI Examples
-description: .NET MAUI - Telerik UI controls for .NET MAUI
+description: "Learn how to download and install the SDKBrowser Demo App and check out the Telerik UI for .NET MAUI controls library."
 slug: maui-demo-app
 tags: .net maui, ui for .net maui, .net maui controls
 position: 1
 ---
 
-# SDKBrowser Application
+# SDKBrowser Demo Application
 
 The Telerik UI for .NET MAUI SDKBrowser is a demo application, which demonstrates the available library controls.  
 
@@ -43,7 +43,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
     * **Examples**&mdash;Contains the SDK application with the Telerik UI for .NET MAUI controls.
-    * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
+    * **LicenseAgreements**&mdash;Provides the product End-User License Agreement (EULA).
     * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
     ![Telerik UI for .NET MAUI Installation Folder](../images/telerik-ui-for-maui-installation-folder.png)

@@ -10,7 +10,7 @@ position: 0
 
 Thank you for choosing Telerik UI for .NET MAUI Preview!
 
-**Telerik UI for .NET MAUI** delivers .NET MAUI controls for building professional-looking, modern mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS and Windows from a single shared code-base.
+**Telerik UI for .NET MAUI** delivers .NET MAUI controls for building professional-looking, modern mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS and Windows from a single shared code-base. The library comes with the [sample SDKBrowser demo application]({%slug maui-demo-app%}), which showcases the controls for Microsoft .NET MAUI in their Preview version.
 
 .NET MAUI is a next-generation framework for providing a single-project experience by empowering .NET developers with a unified stack that supports all modern mobile and desktop platforms. The native features of each platform and their controls are readily available by using a simple, cross-platform API, which delivers no-compromise user experiences while enabling developers to share even more code than ever before.
 
