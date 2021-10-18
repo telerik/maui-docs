@@ -1,8 +1,8 @@
 ---
 title: Specifications
-page_title: .NET MAUI Barcode Documentation | 1D Barcodes Specifications
-description: Check our &quot;Specifications&quot; documentation article for Telerik Barcode for .NET MAUI.
-position: 0
+page_title: 1D Barcode Specifications | Telerik UI for MAUI
+description: "Learn more about the specifications of the one-dimensional barcode types supported by the Telerik UI for MAUI Barcode."
+position: 1
 slug: barcode-1d-specifications
 ---
 
@@ -38,34 +38,31 @@ The following table describes the specific characteristics of the bar codes per 
 |**UPC Supplement 2**|![barcode-1d-barcodes 020](images/barcode-1d-barcodes020.png)|A two digit UPC supplementary code. This barcode should only be used with magazines, newspapers and other such periodicals.|0123456789|2|none|
 |**UPC Supplement 5**|![barcode-1d-barcodes 021](images/barcode-1d-barcodes021.png)|A five digit UPC supplementary code. This barcode is used on books to indicate a suggested retail price.|0123456789|5|none|
 
-## 1D Barcode example
+1. The following example demonstrates how to apply the Code39 symbology to a RadBarcode.
 
-Here is a quick example of RadBarcode with the Code39 symbology applied:
+    ```XAML
+    <telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
+            HorizontalOptions="Center" VerticalOptions="Center"
+            Value="58000106">
+        <telerikBarcode:RadBarcode.Symbology>
+            <telerikBarcode:Code39 HorizontalTextAlignment="Center"
+                              SizingMode="Stretch"
+                              ShowText="True"  
+                              CodeTextSpacing="10"/>
+        </telerikBarcode:RadBarcode.Symbology>
+    </telerikBarcode:RadBarcode>
+    ```
 
-```XAML
-<telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100" 
-        HorizontalOptions="Center" VerticalOptions="Center"
-        Value="58000106">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:Code39 HorizontalTextAlignment="Center"
-                          SizingMode="Stretch" 
-                          ShowText="True"  
-                          CodeTextSpacing="10"/>
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
-```
+1. Add the following namespace.
 
-You need to add the following namespace:
+    ```XAMl
+    xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+    ```
 
-```XAMl
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-```
-
-Check the result below:
+Th following image shows the result from the suggested implementation.
 
 ![Barcode Symbology](../../images/barcode_setsymbology_1.png)
 
 ## See Also
 
-- [Key Features]({% slug barcode-key-features%})
-- [Supported Barcodes]({% slug barcode-supported-types-overview%})
+- [1D Barcodes Overview]({% slug 1dbarcode-overview %})

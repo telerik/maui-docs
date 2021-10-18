@@ -12,13 +12,16 @@ slug: barcode-overview
 
 ![RadBarcode Overview](images/barcode_overview.png)
 
-## Key features
+## Key Features
 
-* **Support for different one-dimensional barcodes**: including EAN13, EAN8, UPC-A, UPC-E and Code39 symbologies. Go to [1D barcodes]({%slug barcode-supported-types-overview %}#linear-1d-barcodes) section for the full list.
-* **Support for different two-dimensional barcodes**:  such as the popular QR Code, SwissQR Code and PDF417. Go to [2D barcodes]({%slug barcode-supported-types-overview %}#matrix-2d-barcodes) for more details on this.
-* **Three sizing modes**: RadBarcode provides three sizing modes that will help you fine-tune the rendering of your codes. For more details read [Defining the sizing mode]({% slug barcode-key-features %}#defining-the-sizing-mode) section.
-* **Styling capabilities**: RadBarcode exposes ForegroundColor and BackgroundColor properties that can be used to customize its visual appearance. Go to [Changing the colors]({%slug barcode-key-features %}#changing-the-colors) section for more information.
+* [Value and symbology]({% slug barcode-valuesymbology %})&mdash;RadBarcode enables you set the symbology that will be used to convert the value of the control into a visual barcode representation.
+* [Sizing modes]({% slug barcode-sizingmodes %})&mdash;RadBarcode provides three sizing modes that enable you to fine-tune the rendering of the barcodes.
+* [Support for one-dimensional (1D) Barcodes]({% slug 1dbarcode-overview %})&mdash;Telerik UI for .NET MAUI Barcode supports linear barcode types such as EAN13, EAN8, UPC-A, UPC-E, and Code39.
+* [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;Telerik UI for .NET MAUI Barcode supports matrix barcode types such as QR Code, SwissQR Code, and PDF417.
+* [Styling]({% slug barcode-styling %})&mdash;RadBarcode exposes `ForegroundColor` and `BackgroundColor` properties that can be used to customize its visual appearance.
 
-## See Also
+## Next Steps
 
-- [Getting Started]({% slug barcode-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
+- [1D Supported Barcodes]({% slug 1dbarcode-overview %})
+- [2D Supported Barcodes]({% slug 2dbarcode-overview %})
