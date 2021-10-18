@@ -26,21 +26,21 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 1. To generate a SwissQR Barcode by using Telerik UI for MAUI, set the `Symbology` of the Barcode to `SwissQRCode`.
 
-    ```XAML
-    <telerikBarcode:RadBarcode x:Name="Barcode"
-                               WidthRequest="100"
-                               HeightRequest="100">
-        <telerikBarcode:RadBarcode.Symbology>
-            <telerikBarcode:SwissQRCode/>
-        </telerikBarcode:RadBarcode.Symbology>
-    </telerikBarcode:RadBarcode>
-    ```
+ ```XAML
+<telerikBarcode:RadBarcode x:Name="Barcode"
+                           WidthRequest="100"
+                           HeightRequest="100">
+    <telerikBarcode:RadBarcode.Symbology>
+        <telerikBarcode:SwissQRCode/>
+    </telerikBarcode:RadBarcode.Symbology>
+</telerikBarcode:RadBarcode>
+ ```
 
     Add the namespace.
 
-    ```XAML
-    xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-    ```
+ ```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+ ```
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
@@ -76,14 +76,14 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 1. Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the RadBarcode.
 
-    ```C#
-    string errors = qrCodeValue.Validate();
+ ```C#
+string errors = qrCodeValue.Validate();
 
-    if (string.IsNullOrEmpty(errors))
-    {
-        this.Barcode.Value = qrCodeValue.BuildValue();
-    }
-    ```
+if (string.IsNullOrEmpty(errors))
+{
+    this.Barcode.Value = qrCodeValue.BuildValue();
+}
+ ```
 
 Invoking the code from the above snippets will generate the following result:
 

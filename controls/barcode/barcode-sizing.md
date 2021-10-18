@@ -14,9 +14,9 @@ RadBarcode provides three sizing modes that enable you to fine-tune the renderin
 * Snap&mdash;In the snap sizing mode the code is stretched to the available size, but each line or dot is drawn with an exact number of pixels. As a result, the lines and dots seem sharp.
 * Stretch&mdash;In the stretch sizing mode the code is stretched so as to fit exactly the available size. Each line or dot size is calculated so they snap to the device pixels. In order for the lines to stay sharp and stretch the barcode to the available size, some of them are slightly thicker than others.
 
-**1.** Apply the desired sizing mode to the barcode, for example, the manual one.
+1. Apply the desired sizing mode to the barcode, for example, the manual one.
 
-```XAML
+ ```XAML
 <telerikBarcode:RadBarcode WidthRequest="300" HeightRequest="100"
 		HorizontalOptions="Center" VerticalOptions="Center"
 		Value="58000106">
@@ -28,13 +28,13 @@ RadBarcode provides three sizing modes that enable you to fine-tune the renderin
 						  CodeTextSpacing="10"/>
 	</telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
-```
+ ```
 
-**2.** Add the following namespace.
+2. Add the following namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 The following image shows a barcode with its applied manual sizing mode.
 

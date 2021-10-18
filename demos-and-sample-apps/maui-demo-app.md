@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI SDKBrowser is a demo application, which demonstrate
 
 ![Telerik UI for .NET MAUI SDKBrowserMaui App](../images/demo-maui.gif)
 
-To start using the SDKBrowser application, you have to first download it and then install and run it on the desired platform, or mobile device or emulator.
+To start using the SDKBrowser application, you have to first download it and, then, install and run it on the desired platform, or mobile device or emulator.
 
 ## Download the SDKBrowser Demo App
 

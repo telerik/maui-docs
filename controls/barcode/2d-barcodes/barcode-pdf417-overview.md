@@ -26,10 +26,10 @@ The following image shows the structure of a PDF417 RadBarcode.
 
 The Data codewords are located in the middle section of the barcode and include the following sections:
 
-1. The length indicator cluster (each cluster contains 17 modules), which signifies the total length of the data code words.
-2. The actual data, which represents the data initially entered by the user, encoded.
-3. Error correction clusters, which help the decoder in recovering any data from the code.
-4. Padding clusters&mdash;Since a rectangular matrix is allocated for the data code words, to fill any gaps in the available matrix, it may become necessary to pad the data and add one or more clusters.
+* The length indicator cluster (each cluster contains 17 modules), which signifies the total length of the data code words.
+* The actual data, which represents the data initially entered by the user, encoded.
+* Error correction clusters, which help the decoder in recovering any data from the code.
+* Padding clusters&mdash;Since a rectangular matrix is allocated for the data code words, to fill any gaps in the available matrix, it may become necessary to pad the data and add one or more clusters.
 
 The Left Row Indicator codewords, as well as the Right Row Indicator codewords help the decoder locate each row. Essentially the row indicators represent an encoding of the row number.
 

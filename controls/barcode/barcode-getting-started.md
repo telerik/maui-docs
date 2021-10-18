@@ -24,37 +24,35 @@ Before adding the Barcode, first you need to [set up your .NET MAUI application]
 
 1. When the your .NET MAUI application is set up, you are ready to add a RadBarcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
-		```XAML
-		<telerikBarcode:RadBarcode x:Name="barcode"
-			                       Value="https://www.telerik.com/maui-ui"                               
-			                       WidthRequest="1000" HeightRequest="1000">
-		    <telerikBarcode:RadBarcode.Symbology>
-		        <telerikBarcode:QRCode SizingMode="Stretch" />
-		    </telerikBarcode:RadBarcode.Symbology>
-		</telerikBarcode:RadBarcode>
-		```
+ ```XAML
+<telerikBarcode:RadBarcode x:Name="barcode"
+	                       Value="https://www.telerik.com/maui-ui"                               
+	                       WidthRequest="1000" HeightRequest="1000">
+    <telerikBarcode:RadBarcode.Symbology>
+        <telerikBarcode:QRCode SizingMode="Stretch" />
+    </telerikBarcode:RadBarcode.Symbology>
+</telerikBarcode:RadBarcode>
+ ```
 
 1. Add the following namespace:
 
-		```XAML
-		xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-		```
+ ```XAML
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+ ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-		```C#
-		using Telerik.Maui.Controls.Compatibility;
+ ```C#
+using Telerik.Maui.Controls.Compatibility;
 
+ public void Configure(IAppHostBuilder appBuilder)
+ {
+     appBuilder        
+         .UseTelerik()
+         .UseMauiApp<App>();
 
-
-		public void Configure(IAppHostBuilder appBuilder)
-		{
-		    appBuilder        
-		        .UseTelerik()
-		        .UseMauiApp<App>();
-
-		}              
-		```
+ }              
+ ```
 
 ## See Also
 
