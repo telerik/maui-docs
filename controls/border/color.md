@@ -1,9 +1,9 @@
 ---
 title: Color
-page_title: Border Color
-description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI.
+page_title: .NET MAUI Border Documentation | Color
+description: "Learn more about how to set the color of the Telerik UI for .NET MAUI Barcode control."
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
-position: 2
+position: 20
 slug: styling_border
 ---
 

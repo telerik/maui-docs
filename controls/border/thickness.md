@@ -1,9 +1,9 @@
 ---
 title: Thickness
-page_title: Border Thickness
-description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI.
+page_title: .NET MAUI Border Documentation | Thickness
+description: "Learn more about how to set the thickness of the Telerik UI for .NET MAUI Border control."
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
-position: 2
+position: 40
 slug: thickness_border
 ---
 

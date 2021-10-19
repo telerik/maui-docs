@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Border Overview  
-description: "Try now the Telerik Border for .NET MAUI delivering a set of options for creating and showing barcodes."
+page_title: .NET MAUI Border Documentation | Overview
+description: "Try now the Telerik UI for .NET MAUI Border, which enables you to control the look and feel of the border that wraps around your MAUI views."
 position: 0
 tags: .net maui, border, ui for .net maui, .net maui conrols, microsoft .net maui
 slug: border-overview

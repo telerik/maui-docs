@@ -1,8 +1,8 @@
 ---
 title: Getting Started
-page_title: Getting Started with the Border
+page_title: .NET MAUI Border Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Border control and learn how to add the control to your .NET MAUI application."
-position: 1
+position: 10
 slug: border_getting_started
 ---
 

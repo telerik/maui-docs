@@ -1,9 +1,9 @@
 ---
 title: Corner Radius
-page_title: Border Corner Radius
-description: Check our &quot;Key Features&quot; documentation article for Telerik Border for .NET MAUI.
+page_title: .NET MAUI Border Documentation | Corner Radius
+description: "Learn more about how to define the corner radius of the Telerik UI for .NET MAUI Border control."
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
-position: 2
+position: 30
 slug: corner_radius_border
 ---
 
