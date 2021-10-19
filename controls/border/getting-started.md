@@ -42,4 +42,6 @@ xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.
 
 ## See Also
 
-- [Getting Started]({% slug maui-getting-started%})
+- [Setting the Color of the Border]({% slug color_border %})
+- [Setting the Border Thickness]({% slug thickness_border %})
+- [Configuring the Corner Radius of the Border]({% slug corner_radius_border %})

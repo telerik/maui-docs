@@ -12,7 +12,7 @@ PDF417 is a stacked linear barcode symbol format used in a variety of applicatio
 
 PDF stands for Portable Data File. The 417 signifies that each pattern in the code consists of four bars and spaces, and that each pattern is 17 units long. The PDF417 symbology was invented by Dr. Ynjiun P. Wang at Symbol Technologies in 1991 (Wang 1993). It is represented by the 15438 ISO standard.
 
-The following image demonstrates a PDF417 RadBarcode.
+The following image demonstrates a PDF417 Barcode.
 
 ![Telerik Xamarin Barcode PDF417](images/barcode-2d-barcodes-pdf417-overview001.png)
 
@@ -20,7 +20,7 @@ The following image demonstrates a PDF417 RadBarcode.
 
 The code is divided into rows and columns, which accommodate all the encoded data, the error correction code words, as well as any additional format information, such as start and stop sequences.
 
-The following image shows the structure of a PDF417 RadBarcode.
+The following image shows the structure of a PDF417 Barcode.
 
 ![Telerik Xamarin Barcode PDF417 structure](images/barcode-2d-barcodes-pdf417-overview002.png)
 
@@ -39,7 +39,7 @@ Additionally, next to each side of the PDF417 barcode two or more modules, dedic
 
 ## Example
 
-The following example demonstrates a RadBarcode with an applied PDF417 symbology:
+The following example demonstrates a Barcode with an applied PDF417 symbology:
 
 ```XAMl
 <telerikBarcode:RadBarcode x:Name="Barcode"                                 

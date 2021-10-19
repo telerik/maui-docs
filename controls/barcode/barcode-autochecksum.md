@@ -8,7 +8,7 @@ slug: barcode-autochecksum
 
 # Auto-Check Sum
 
-By default, the RadBarcode control automatically adds a checksum at the end.
+By default, the Barcode control automatically adds a checksum at the end.
 
 To disable the auto-check sum functionality, set the `AutoCheckSum` property of its Symbology to `false`.  
 

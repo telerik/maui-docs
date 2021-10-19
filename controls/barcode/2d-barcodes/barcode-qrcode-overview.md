@@ -42,7 +42,7 @@ Disregarding the data, which consists of the actual encoded data, along with the
 
 ## Example
 
-The following example demonstrates a RadBarcode with an applied QR Code symbology:
+The following example demonstrates a Barcode with an applied QR Code symbology:
 
 ```XAML
 <telerikBarcode:RadBarcode x:Name="barcode"

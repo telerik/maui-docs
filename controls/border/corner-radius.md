@@ -9,22 +9,9 @@ slug: corner_radius_border
 
 # Corner Radius
 
-The Telerik UI for .NET MAUI Border provides the `BorderColor` property, which enables you to specify its color.
+The Telerik UI for .NET MAUI Border enables you to set a different corner radius to its angles through the `CornerRadius` property.
 
-If the thickness of the Border is set to `0`, the `BorderColor` property is disabled.
-
-The following figure demonstrates how to set the color of the Border control.  
-
-![Border Key Features Example](images/border-key-features.png)
-
-
-
-The following figure demonstrates how to set the corner radius of the Border control.  
-
-![Border Key Features Example](images/border-key-features.png)
-
-
-The **CornerRadius** property represents the degree to which the corners of the Border are rounded. CornerRadius is of type *Microsoft.Maui.Thickness* so it allows you to set separate values on the four corners of the border.
+The `CornerRadius` property represents the degree to which the corners of the Border are rounded. `CornerRadius` is of the `Microsoft.Maui.Thickness` type.
 
 ```XAML
 <telerikMauiControls:RadBorder BorderColor="#4488F6"
@@ -34,7 +21,7 @@ The **CornerRadius** property represents the degree to which the corners of the 
 </telerikMauiControls:RadBorder>
 ```
 
-Additionally, the wrapped content will be clipped according to each side’s specified corner radius. The next example shows how you could have circle image by wrapping Image control with RadBorder.
+Additionally, the wrapped content will be clipped according to the specified corner radius of each side. The following example demonstrates how to render a circle image by wrapping an Image control in a Border.
 
 ```XAML
 <telerikMauiControls:RadBorder CornerRadius="25"
@@ -46,12 +33,11 @@ Additionally, the wrapped content will be clipped according to each side’s spe
 </telerikMauiControls:RadBorder>
 ```
 
-Here is the end result:
-
-#### Telerik Border for .NET MAUI
+The following image shows the end result.
 
 ![Border Key Features Example](images/border-key-features.png)
 
 ## See Also
 
-- [Getting Started]({% slug maui-getting-started%})
+- [Setting the Color of the Border]({% slug color_border %})
+- [Setting the Border Thickness]({% slug thickness_border %})

@@ -74,7 +74,7 @@ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Teleri
     using Telerik.Barcode
     ```
 
-1. Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the RadBarcode.
+1. Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
 
  ```C#
 string errors = qrCodeValue.Validate();

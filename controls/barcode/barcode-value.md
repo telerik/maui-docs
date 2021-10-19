@@ -12,7 +12,7 @@ The Barcode exposes a `Value` property that is used to set the barcode data pres
 
 To set the symbology that will be used to convert the `Value` of the control into a visual barcode representation, use its `Symbology` property.
 
-The most common symbologies that are supported by the RadBarcode are:
+The most common symbologies that are supported by the Barcode are:
 
 * EAN13  
 * EAN8  

@@ -24,11 +24,11 @@ Before adding the Barcode, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#installing-telerik-ui-for-maui).
 
-1. Install the [SkiaSharp graphics library](https://skia.org/) as the RadBarcode requires it.
+1. Install the [SkiaSharp graphics library](https://skia.org/) as the Barcode requires it.
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a RadBarcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
+1. When the your .NET MAUI application is set up, you are ready to add a Barcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
  ```XAML
 <telerikBarcode:RadBarcode x:Name="barcode"

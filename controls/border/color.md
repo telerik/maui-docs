@@ -4,7 +4,7 @@ page_title: .NET MAUI Border Documentation | Color
 description: "Learn more about how to set the color of the Telerik UI for .NET MAUI Barcode control."
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
 position: 20
-slug: styling_border
+slug: color_border
 ---
 
 # Color
@@ -19,5 +19,5 @@ The following figure demonstrates how to set the color of the Border control.
 
 ## See Also
 
-- [Setting the Border Corners]({% slug %})
-- [Setting the Border Thickness]({% slug %})
+- [Setting the Border Thickness]({% slug thickness_border %})
+- [Configuring the Corner Radius of the Border]({% slug corner_radius_border %})

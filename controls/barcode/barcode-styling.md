@@ -8,7 +8,7 @@ slug: barcode-styling
 
 # Styling Options
 
-RadBarcode enables you to change the visual appearance of your Barcodes so they match your application theme.
+The Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
 
 1. To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
 
