@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | .NET MAUI Cross-Platform App UI Documentation
+page_title: Introduction 
 description: "Revolutionize your multi-platform app development with the Preview version of Telerik UI for .NET MAUI."
 tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 position: 0

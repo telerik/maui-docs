@@ -1,12 +1,12 @@
 ---
-title: Styling
-page_title: .NET MAUI Barcode Documentation | Styling the RadBarcode
+title: Styling Options
+page_title: .NET MAUI Barcode Documentation | Styling Options
 description: "Learn how to customize the colors of the Telerik UI for .NET MAUI Barcode."
 position: 8
 slug: barcode-styling
 ---
 
-# Styling
+# Styling Options
 
 RadBarcode enables you to change the visual appearance of your Barcodes so they match your application theme.
 

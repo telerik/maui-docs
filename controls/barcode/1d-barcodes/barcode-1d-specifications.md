@@ -1,6 +1,6 @@
 ---
 title: Specifications
-page_title: 1D Barcode Specifications | Telerik UI for MAUI
+page_title: .NET MAUI 1D Barcode Documentation | Specifications 
 description: "Learn more about the specifications of the one-dimensional barcode types supported by the Telerik UI for MAUI Barcode."
 position: 1
 slug: barcode-1d-specifications

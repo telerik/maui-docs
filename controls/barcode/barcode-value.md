@@ -1,14 +1,14 @@
 ---
 title: Value and Symbology
-page_title:  .NET MAUI Barcode Documentation | RadBarcode Value and Symbology
-description: "Learn how to define the manual, snap, or stretch sizing mode for the Telerik UI for MAUI Barcode."
+page_title:  .NET MAUI Barcode Documentation | Value and Symbology
+description: "Learn how to set the value of the Telerik UI for .NET MAUI Barcode and control the presented data."
 position: 2
 slug: barcode-valuesymbology
 ---
 
 # Value and Symbology
 
-RadBarcode exposes a `Value` property that is used to set the barcode data presented by the control. The `Value` of the barcode is of type string and the allowed length depends on the symbology you choose.
+The Barcode exposes a `Value` property that is used to set the barcode data presented by the control. The `Value` of the barcode is of type string and the allowed length depends on the symbology you choose.
 
 To set the symbology that will be used to convert the `Value` of the control into a visual barcode representation, use its `Symbology` property.
 

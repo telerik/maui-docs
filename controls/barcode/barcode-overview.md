@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Barcode Documentation | RadBarcode Overview
+page_title: .NET MAUI Barcode Documentation | Overview
 description: "Try now the Telerik Barcode for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 slug: barcode-overview
@@ -22,6 +22,6 @@ The **Telerik RadBarcode for .NET MAUI** control enables you to create and show 
 
 ## Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
+- [Getting Started with the Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
 - [1D Supported Barcodes]({% slug 1dbarcode-overview %})
 - [2D Supported Barcodes]({% slug 2dbarcode-overview %})

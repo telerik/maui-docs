@@ -1,14 +1,14 @@
 ---
 title: Getting Started
-page_title: Getting Started with the RadBarcode
-description: "Get started with the Telerik UI for .NET MAUI Barcode control."
+page_title: .NET MAUI Barcode Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI Barcode control and add the control to your .NET MAUI project."
 position: 1
 slug: barcode-getting-started
 ---
 
-# Getting Started
+# Getting Started with the Telerik UI for .NET MAUI Barcode
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by defining the control in your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
@@ -26,7 +26,7 @@ Before adding the Barcode, you need to:
 
 1. Install the [SkiaSharp graphics library](https://skia.org/) as the RadBarcode requires it.
 
-## Define the RadBarcode
+## Define the Control
 
 1. When the your .NET MAUI application is set up, you are ready to add a RadBarcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
