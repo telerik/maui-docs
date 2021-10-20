@@ -16,7 +16,7 @@ slug: rating-overview
 
 * [Predefined rating shapes]({%slug rating-shape-rating%}): RadRating provides several simple shapes such as star, circle and diamond, that can be used for rating items out of the box.
 * [Customizing shapes]({%slug rating-shape-rating%}#shapes-styling): You could take advantage of the control’s flexible API for customizing the appearance of the predefined shapes.
-* [Custom items template support]({% slug templated-rating%}): The Rating control provides two templates options for normal state and selected state, allowing you to achieve the desired look and feel.
+* [Custom items template support]({%slug rating-templated-rating%}): The Rating control provides two templates options for normal state and selected state, allowing you to achieve the desired look and feel.
 * [Read-Only Mode]({%slug rating-read-only-mode%}): restrict the end user to change the Value of the selected items. 
 
 ## See Also

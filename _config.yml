@@ -38,7 +38,11 @@ navigation:
     ## Border
     controls/border:
         title: "Border"
-    ## End Border   
+    ## End Border 
+    ## BusyIndicator
+    controls/busyindicator:
+        title: "BusyIndicator"
+    ## End BusyIndicator    
     ## Button
     controls/button:
         title: "Button"
@@ -159,6 +163,10 @@ navigation:
     controls/popup:
         title: "Popup"   
     ## End Popup
+    ## Rating
+    controls/rating:
+        title: "Rating"    
+    ## End Rating
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
@@ -244,9 +252,10 @@ intro_columns:
   -
     title: "Data Visualization"
     items:
+        "Barcode": "barcode-overview"
         "Charts": "chart-overview"
         "Gauge": "gauge-overview"
-        "Barcode": "barcode-overview"
+        "Rating": "rating-overview"
 -
   categories:
   -   
@@ -273,9 +282,12 @@ intro_columns:
   - 
     title: "Interactivity & UX"
     items:
-        "Popup": "popup-overview"
         "Border": "border-overview"
+        "BusyIndicator": "busyindicator-overview"
         "Path": "path-overview"
+        "Popup": "popup-overview"
+        
+        
 
 # Assets pipeline configuration
 assets:
