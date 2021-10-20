@@ -24,21 +24,22 @@ Before adding the BusyIndicator, first you need to [setup your .NET MAUI app]({%
 
 1. When the app is setup, you are ready to add a RadBusyIndicator control to your page. The busy indicator is a layout control that can display two views depending on its current state - busy and not-busy. You can define the state of the control via its `IsBusy` property. The default value is False and the control's normal content is displayed. If you change it to True, the busy content is displayed, which by default is a spinning balls animation. Check the [Animations]({% slug busyindicator-animations %}) article to see the built-in animations, how to change them and how to us a custom animation.
 
-	```XAML
-	<telerikBarcode:RadBarcode x:Name="barcode"
-						   Value="https://www.telerik.com/maui-ui"                               
-						   WidthRequest="1000" 
-						   HeightRequest="1000">
-	<telerikBarcode:RadBarcode.Symbology>
-		<telerikBarcode:QRCode SizingMode="Stretch" />
-	</telerikBarcode:RadBarcode.Symbology>
-	</telerikBarcode:RadBarcode>
-	```
+ ```XAML
+<telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"
+									AnimationContentHeightRequest="100"
+									AnimationContentWidthRequest="100"
+									IsBusy="True">
+	<telerikPrimitives:RadBusyIndicator.Content>
+		<Label Text="This is the content of the RadBusyIndicator control displayed when the indicator is not busy."
+			   TextColor="Black" />
+	</telerikPrimitives:RadBusyIndicator.Content>
+</telerikPrimitives:RadBusyIndicator>
+ ```
 
 2. Add the following namespace:
 
  ```XAML
- xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
 3. Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
