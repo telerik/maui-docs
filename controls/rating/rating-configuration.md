@@ -10,7 +10,7 @@ slug: rating-configuration
 
 RadRating is presented by two components named [RadShapeRating]({% slug rating-shape-rating%}) and [RadTemplatedRating]({% slug rating-templated-rating%}) in order to provide various visualizations of the rating functionality. 
 
-The features described in this article are common for both **RadShapeRating** and **RadTemplatedRating**.
+The features described in this article are common for both `RadShapeRating` and `RadTemplatedRating`.
 
 >tip RadShapeRating and RadTemplatedRating inherit from the `RatingBase` abstract class that provides their common features.
 
@@ -23,6 +23,12 @@ RadRating exposes a `Value` property that is used to set and read the number of 
                              Value="4" />
 ```
 
+And the namespace:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
+
 ## Configuration Settings
 
 * `ItemsCount`: Defines the number of the items that are visualized in the rating control. The default value is `5` items;
@@ -33,6 +39,12 @@ RadRating exposes a `Value` property that is used to set and read the number of 
                              Value="4"
                              ItemsCount="7"
                              ItemsSpacing="20" />
+```
+
+And the namespace:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 ## See Also

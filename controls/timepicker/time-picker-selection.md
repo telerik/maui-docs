@@ -12,7 +12,7 @@ slug: time-picker-selection
 
 ## Time Property
 
-* **Time**(*TimeSpan?*): Defines the current time selection. The default value is `null`.
+* `Time`(*TimeSpan?*): Defines the current time selection. The default value is `null`.
 
 ```XAML
 <telerikInput:RadTimePicker Time="10:30:00"/>
@@ -26,7 +26,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Methods
 
-Cancel the selected time using the **ClearSelection** method.
+Cancel the selected time using the `ClearSelection` method.
 
 ```XAML
 <StackLayout>
@@ -46,7 +46,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 
 ## Events 
 
-* **SelectionChanged** event which is raised when the user picks a time value.
+* `SelectionChanged` event which is raised when the user picks a time value.
 
 ```XAML
 <telerikInput:RadTimePicker x:Name="timePicker" 

@@ -1,5 +1,5 @@
 ---
-title: Time Format Strings
+title: Formatting
 page_title: .NET MAUI Time Picker Documentation | Time Format Strings
 description: Check our &quot;Time Format Strings&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
@@ -12,7 +12,7 @@ Time Picker for .NET MAUI allows you to use standard or custom time format strin
 
 ## DisplayString Format
 
-* **DisplayStringFormat**(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
+* `DisplayStringFormat`(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
 
 >note The format set for **DisplayStringFormat** should be a valid time format - [Standard Time Formst Strings]({%slug time-picker-formatting%}#standard-time-format-strings) and [Custom Time format Strings]({%slug time-picker-formatting%}#custom-time-format-strings). 
 
@@ -30,7 +30,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Spinner Format
 
-* **SpinnerFormat**(*string*): Defines the string format for the spinners. The default format is **"g"**. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+* `SpinnerFormat`(*string*): Defines the string format for the spinners. The default format is **"g"**. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
 
 ## Standard Тime Format Strings
 

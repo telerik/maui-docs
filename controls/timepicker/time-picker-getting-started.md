@@ -6,7 +6,7 @@ position: 1
 slug: time-picker-getting-started
 ---
 
-# Getting Started with Time Picker for Xamarin
+# Getting Started
 
 This guide demonstrates how to add Telerik UI for .NET MAUI TimePicker control to your application.
 
@@ -16,11 +16,11 @@ At the end, you will be able to achieve the following result:
 
 ## Prerequisites
 
-Before adding the Rating, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#setting-up-your-microsoft-project), and [download]({% slug maui-getting-started %}#downloading-telerik-ui-for-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#installing-telerik-ui-for-maui).
+Before adding the Time Picker, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#setting-up-your-microsoft-project), and [download]({% slug maui-getting-started %}#downloading-telerik-ui-for-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#installing-telerik-ui-for-maui).
 
-## Define RadShapeRating control
+## Define RadTimePicker control
 
-1. When the app is setup, you are ready to add a RadShapeRating control to your page:
+1. When the app is setup, you are ready to add a RadTimePicker control to your page:
 
 ```XAML
 <telerikInput:RadTimePicker />

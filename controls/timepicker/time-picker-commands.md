@@ -12,8 +12,8 @@ slug: time-picker-commands
 
 RadTime Picker exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected time:
 
-* **ToggleCommand**(*ICommand*): Allows you to show/hide the popup used for selecting a time value.
-* **ClearCommand**(*ICommand*): Allows you to clear the selected time.
+* `ToggleCommand`(*ICommand*): Allows you to show/hide the popup used for selecting a time value.
+* `ClearCommand`(*ICommand*): Allows you to clear the selected time.
 
 #### Example for ToggleCommand and ClearCommand
 
@@ -28,7 +28,7 @@ RadTime Picker exposes the following commands you can use to programmatically ma
 also you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 ## PopupSelector Commands
@@ -37,8 +37,8 @@ Through the popup users can pick a time. The time value should be confirmed or r
 
 RadTimePicker allows you to add a custom logic for the Accept and Cancel commands which are executed when OK and Cancel buttons, respectively, are pressed. 
 
-* **AcceptCommand**(*ICommand*): Defines the command which confirms the current selection of the picker and closes the popup. 
-* **CancelCommand**(*ICommand*): Defines the command which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(*ICommand*): Defines the command which confirms the current selection of the picker and closes the popup. 
+* `CancelCommand`(*ICommand*): Defines the command which rejects the current selection of the picker and closes the popup.
 
 The Accept and Cancel commands can be applied using the SelectorSettings property of RadTimePicker. Here is a quick example on how they could be set:
 
@@ -51,6 +51,12 @@ The Accept and Cancel commands can be applied using the SelectorSettings propert
 												  CancelCommand="{Binding Cancel}"/>
 	</telerikInput:RadTimePicker.SelectorSettings>
 </telerikInput:RadTimePicker>
+```
+
+Add the namespace:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 Let's add a sample ViewModel class:

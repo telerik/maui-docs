@@ -10,9 +10,9 @@ slug: rating-events
 
 RadRating provides the following event:
 
-* **ValueChanged**: Occurs whenever Value property is changed. The ValueChanged event handler receives two parameters:
-	* The sender argument which is of type *object*, but can be cast to *RadShapeRating* or *RadTemplatedRating* type;
-	* А **ValueChangedEventArgs** object which exposes both old and new values of the **Value** property.
+* `ValueChanged`: Occurs whenever Value property is changed. The ValueChanged event handler receives two parameters:
+	* The `sender` argument which is of type `object`, but can be cast to `RadShapeRating` or `RadTemplatedRating` type;
+	* А `ValueChangedEventArgs` object which exposes both old and new values of the `Value` property.
  
 ## See Also
 
