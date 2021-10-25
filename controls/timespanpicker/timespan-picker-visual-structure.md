@@ -26,7 +26,7 @@ Here are described all visual elements used in the TimeSpan Picker for .NET MAUI
 
 - **DisplayStringFormat** - the text vislualized after a date/time is picked.
 
-- **Header** and **HeaderLabelText**- the text displayed in the popup header. It could se set a direct text through the [HeaderLabelText]({%slug timespan-picker-styling%}) property or fully customize the popup header using the [HeaderTemplate]({%slug datetime-picker-templates%}#headertemplate) property.
+- **Header** and **HeaderLabelText**- the text displayed in the popup header. It could se set a direct text through the [HeaderLabelText]({%slug timespan-picker-styling%}) property or fully customize the popup header using the [HeaderTemplate]({%slug timespan-picker-templates%}#headertemplate) property.
 
 - **SpinnersHeader** - the text visualized for spinner header depending on the values to be picked. For example if the `SpinnerFormat` is *g* the text visualized for spinner header will be **Days** **Hours** **Minutes** **Seconds**.
 
