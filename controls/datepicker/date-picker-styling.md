@@ -23,7 +23,7 @@ Date Picker control for .NET MAUI provides the following Style properties for cu
 * `BackgroundColor`(*Xamarin.Forms.Color*): Defines the background color of the picker.
 * `BorderColor`(*Xamarin.Forms.Color*): Defines the border color of the picker.
 * `BorderThickness`(*Xamarin.Forms.Thickness*): Specifies the border thickness of the picker. Default value is *new Thickness(0,0,0,1)*.
-* `CornerRadius`(*Xamarin.Forms.Thinckness*): Specifies the corner radius of the picker.
+* `CornerRadius`(*Xamarin.Forms.Thickness*): Specifies the corner radius of the picker.
 
 ## Popup Styling
 
@@ -44,14 +44,14 @@ The `SelectorSettings` also provides the following properties for popup customiz
 	* When *IsPopupModal="False"* the popup could be closed when clicking outside the popup. 	
 	
 * `HeaderLabelText`(*string*): Specifies the text visualized in the popup header.
-* `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the valuse is *True*.
-* `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the valuse is *True*.
+* `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the value is *True*.
+* `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the value is *True*.
 * `AcceptButtonText`(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
 * `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
 
 ## Namespaces
 
-Using **PopupViewStyle**, **HeaderStyle**, **FooterStyle** you will need to add the following namespace:
+Using `PopupViewStyle`, `HeaderStyle`, `FooterStyle` you will need to add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -73,7 +73,7 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 Here is a sample example that shows how the styling properties are applied.
 
-A sample **Date Picker** definition:
+A sample RadDatePicker definition:
 
 <snippet id='datepicker-style' />
 ```XAML
