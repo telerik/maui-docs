@@ -22,4 +22,4 @@ slug: rating-overview
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI Rating]({%slug rating-getting-started%})
-- [Configuration]({%slug rating-configration%})
+- [Configuration]({%slug rating-configuration%})

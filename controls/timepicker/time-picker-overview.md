@@ -35,4 +35,3 @@ slug: time-picker-overview
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI TimePicker]({%slug time-picker-getting-started%})
-- [Visual Structure]({%slug rating-configration%})
