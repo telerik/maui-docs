@@ -20,21 +20,31 @@ Before adding the DatePicker, first you need to [setup your .NET MAUI app]({%slu
 
 ## Define RadDatePicker control
 
-<snippet id='datepicker-getting-started-xaml' />
-<snippet id='datepicker-getting-started-csharp' />
-```XAML
+1. When the app is setup, you are ready to add a RadDatePicker control to your page:
+
+ ```XAML
 <telerikInput:RadDatePicker x:Name="datePicker" />
-```
+ ```
 
-In addition to this, you need to add the following namespace:
+2. Add the following namespace:
 
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
-```C#
-using Telerik.XamarinForms.Input;
-```
+ ```XAML
+ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+ ```
 
+3. Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+
+ ```C#
+using Telerik.Maui.Controls.Compatibility;
+
+ public void Configure(IAppHostBuilder appBuilder)
+ {
+    appBuilder        
+        .UseTelerik()
+        .UseMauiApp<App>();    
+ }              
+ ```
+ 
 ## See Also
 
 - [Formatting]({%slug date-picker-formatting%})
