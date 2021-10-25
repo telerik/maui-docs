@@ -19,9 +19,7 @@ slug: rating-overview
 * [Custom items template support]({%slug rating-templated-rating%}): The Rating control provides two templates options for normal state and selected state, allowing you to achieve the desired look and feel.
 * [Read-Only Mode]({%slug rating-read-only-mode%}): restrict the end user to change the Value of the selected items. 
 
-## See Also
+## Next Steps
 
-- [Getting Started]({% slug rating-getting-started%})
-- [Configuration]({% slug rating-configuration%})
-- [Shape Rating]({% slug rating-shape-rating%})
-- [Templated Rating]({% slug rating-templated-rating%})
+- [Getting Started with Telerik UI for .NET MAUI Rating]({%slug rating-getting-started%})
+- [Configuration]({%slug rating-configration%})
