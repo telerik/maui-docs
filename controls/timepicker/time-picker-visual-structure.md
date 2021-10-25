@@ -23,7 +23,7 @@ Here are described all visual elements used in the Time Picker for Xamarin.
 - **Placeholder** - the text visualized before picking a time value. Placeholder can be customized through the [PlaceholderTemplate]({%slug time-picker-templates%}#placeholdertemplate) property.
 - **DisplayStringFormat** - the text visualized after a time value is picked.
 - **Header** - the text displayed in the popup header. It can be set to a direct text through the [HeaderLabelText]({%slug time-picker-styling%}#popup-styling) property or fully customize the popup header using the [HeaderTemplate]({%slug time-picker-templates%}#headertemplate) property.
-- **SpinnerHeader** - the text visualized for spinner header depending on the values to be picked. For example if the *SpinnerFormatString* is *g* and *AreSpinnerHeadersVisible="True"* The text visualized for spinner header will be **Hours** **Minutes** **AM/PM**.
+- **SpinnerHeader** - the text visualized for spinner header depending on the values to be picked. For example if the `SpinnerFormatString` is *g* and `AreSpinnerHeadersVisible="True"` The text visualized for spinner header will be **Hour** **Minutes** **AM/PM**.
 - **Spinner** - displays items in a list.
 - **SelectionHighlight** - highlight the currently selected time when the popup is open.
 - **Footer** - the footer of the popup. By default is contains OK and Cancel Buttons. It can be customized through the [FooterTemplate]({%slug time-picker-templates%}#footertemplate) property.

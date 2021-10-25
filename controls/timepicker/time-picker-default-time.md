@@ -12,24 +12,42 @@ This article shows the options you can use to set a default time to the RadTimeP
 
 ## Current Selected Time
 
-* **Time**(*TimeSpan?*): Defines the current time selection. The default value is null.
+* `Time`(*TimeSpan?*): Defines the current time selection. The default value is null.
 
 ### Example 
 
-<snippet id='timepicker-keyfeatures-time' />
+```
+<telerikInput:RadTimePicker Time="10:30:00"/>
+```
+
+And the namespace:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## DefaultHighlightedTime
 
-RadTime Picker DefaultHighlightedTime(*TimeSpan*) defines the System.TimeSpan which will be used to pre-scroll each spinner when RadTimePicker.Time property is set to null.
+* `DefaultHighlightedTime`(*TimeSpan*) defines the System.TimeSpan which will be used to pre-scroll each spinner when RadTimePicker.Time property is set to null.
 
 ### Example
 
-<snippet id='timepicker-keyfeatures-time-defaulthighlighted' />
+```XAML
+<telerikInput:RadTimePicker DefaultHighlightedTime="11:30:00"
+                                        SpinnerFormat="t"
+                                        AreSpinnerHeadersVisible="False"/>
+```
+
+And the namespace:
+
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## See Also
 
 - [Templates]({%slug time-picker-templates%})
-- [Time Format Strings]({%slug time-picker-formatting%})
+- [Formatting]({%slug time-picker-formatting%})
 - [Styling]({%slug time-picker-styling%})
 - [Selection]({%slug time-picker-selection%})
 - [Commands]({%slug time-picker-commands%})

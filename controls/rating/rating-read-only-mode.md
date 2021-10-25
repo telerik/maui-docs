@@ -12,20 +12,20 @@ RadRating supports read-only mode in which the end user cannot change its `Value
 
 ## Example
 
-1. DefineRadShapeRating in XAML:
+DefineRadShapeRating in XAML:
 
- ```XAML
- <telerikInput:RadShapeRating AutomationId="readOnlyRating"
-                               Value="4"
-                               x:Name="radRating"
-                               IsReadOnly="True"/>
+```XAML
+<telerikInput:RadShapeRating AutomationId="readOnlyRating"
+                           Value="4"
+                           x:Name="radRating"
+                           IsReadOnly="True"/>
  ```
  
-1. Add the namespace:
+Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
- ```
+```
  
 ## See Also
 

@@ -1,24 +1,24 @@
 ---
 title: Styling
-page_title: .NET MAUI Time Picker Documentation | Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik TimePicker for .NET MAUI.
+page_title: .NET MAUI TimeSpan Picker Documentation | Styling
+description: Check our &quot;Selection&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
 position: 8
-slug: time-picker-styling
+slug: timespan-picker-styling
 ---
 
 # Styling
 
-## TimePicker Styling
+## TimeSpanPicker Styling
 
-Time Picker control for Xamаrin provides the following Style properties for customizing its look:
+TimeSpan Picker control for Xamаrin provides the following Style properties for customizing its look:
 
-* `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**): Defines the style applied to the spinner item and selected item.
+* `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**): Defines the style applied to the spinner item and selected item interval.
 * `SpinnerHeaderStyle`(of type *Style* with target type **Xamarin.Forms.Label**): Specifies the style applied to the spinner header labels.
 * `SelectionHighlightStyle`(of type *Style* with target type **telerikPrimitives:RadBorder**): Specifies the style applied to the selection inside the popup. 
 * `PlaceholderLabelStyle`(of type *Style* with target type **Xamarin.Forms.Label**): Defines the style applied to the placeholder label. 
-* `DisplayLabelStyle`(of type *Style* with target type **Xamarin.Forms.Label**): Defines the style applied to the label which is visualized when time is selected.
+* `DisplayLabelStyle`(of type *Style* with target type **Xamarin.Forms.Label**): Defines the style applied to the label which is visualized when time duration is selected.
 
-In addition, RadTimePicker exposes properties for specifying its border style and background color, namely:
+In addition, RadTimeSpanPicker exposes properties for specifying its border style and background color, namely:
 
 * `BackgroundColor`(*Xamarin.Forms.Color*): Defines the background color of the picker.
 * `BorderColor`(*Xamarin.Forms.Color*): Defines the border color of the picker.
@@ -27,27 +27,27 @@ In addition, RadTimePicker exposes properties for specifying its border style an
 
 ## Popup Styling
 
-Using the **SelectorSettings** property (of type *Telerik.XamarinForms.Input.PickerPopupSelectorSettings*) of the TimePicker you can modify the appearance of the dialog (popup). PickerPopupSelectorSettings class exposes the following Style properties:
+Using the `SelectorSettings` property (of type *Telerik.XamarinForms.Input.PickerPopupSelectorSettings*) of the TimeSpanPicker you can modify the appearance of the dialog (popup). PickerPopupSelectorSettings class exposes the following Style properties:
 
 * `PopupViewStyle`(of type *Style* with target type **telerikInput:PickerPopupContentView**): Defines the popup view style.
 * `HeaderStyle`(of type *Style* with target type **telerikInput:PickerPopupHeaderView**): Defines the popup header style.
 * `HeaderLabelStyle`(of type *Style* with target type **Xamarin.Forms.Label**): Defines the popup header label style.
 * `FooterStyle`(of type *Style* with target type **telerikInput:PickerPopupFooterView**): Defines the popup footer style.
-* `AcceptButtonStyle`(of type *Style* with target type **Xamarin.Forms.Button**): Defines the Accept button style.
-* `CancelButtonStyle`(of type *Style* with target type **Xamarin.Forms.Button**): Defines the Cancel button style.
+* `AcceptButtonStyle**(of type *Style* with target type **Xamarin.Forms.Button**): Defines the Accept button style.
+* `CancelButtonStyle**(of type *Style* with target type **Xamarin.Forms.Button**): Defines the Cancel button style.
 
 The SelectorSettings also provides the following properties for popup customization:
 
 * `PopupOutsideBackgroundColor`(*Xamarin.Forms.Color*): Defines the color outside of the popup.
 * `IsPopupModal`(*bool*): Defines a boolean value indicating if the popup should be closed when tapped outside of the popup. 
 	* When `IsPopupModal="True"`  the UI behind the popup gets inactive and cannot be used until the popup is closed. 
-	* When `IsPopupModal="False"` the popup could be closed when clicking outside the popup. By default the value of the `IsPopupModal` is `False`.
+	* When `IsPopupModal="False"` the popup could be closed when clicking outside the popup. By default the value of the **IsPopupModal** is **false**.
 	
 * `HeaderLabelText`(*string*): Specifies the text visualized in the popup header.
-* `IsHeaderVisible**(*bool*): Specifies whether the Popup header is currently visible. By default the valuse is *True*.
-* `IsFooterVisible**(*bool*): Specifies whether the Popup footer is currently visible. By default the valuse is *True*.
-* `AcceptButtonText**(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
-* `CancelButtonText**(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
+* `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the valuse is *True*.
+* `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the valuse is *True*.
+* `AcceptButtonText`(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
+* `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
 
 ## Namespaces
 
@@ -75,36 +75,16 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 Here is a sample example that shows how the styling properties are applied.
 
-Let's have the following **Time Picker** definition:
+Let's have the following **TimeSpan Picker** definition:
 
-```XAML
-<telerikInput:RadTimePicker SpinnerHeaderStyle="{StaticResource spinnerHeaderStyle}"
-                                    SpinnerStyle="{StaticResource spinnerStyle}"
-                                    SelectionHighlightStyle="{StaticResource selectionHighlightStyle}"
-                                    DisplayLabelStyle="{StaticResource displayLabelStyle}"
-                                    PlaceholderLabelStyle="{StaticResource placeholderLabelStyle}"
-                                    DisplayStringFormat="HH:mm">
-    <telerikInput:RadTimePicker.SelectorSettings>
-        <telerikInput:PickerPopupSelectorSettings PopupOutsideBackgroundColor="#D9D9D9CC"
-                                                  PopupViewStyle="{StaticResource popupViewStyle}"
-                                                  HeaderStyle="{StaticResource headerStyle}"
-                                                  HeaderLabelText="Time Picker"
-                                                  HeaderLabelStyle="{StaticResource headerLabelStyle}"
-                                                  FooterStyle="{StaticResource footerStyle}"
-                                                  AcceptButtonStyle="{StaticResource acceptButtonStyle}"
-                                                  CancelButtonStyle="{StaticResource cancelButtonStyle}"/>
-    </telerikInput:RadTimePicker.SelectorSettings>
-</telerikInput:RadTimePicker>
-```
+<snippet id='timespanpicker-style' />
 
 And here are how the styles are defined in the page resources.
 
-## Spinner Style 
-
-Spinner ItemStyle and SelectedItemStyle
+### Spinner Style
 
 ```XAML
- <Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
+<Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
     <Setter Property="ItemStyle">
         <Setter.Value>
             <Style TargetType="telerikDataControls:SpinnerItemView">
@@ -128,7 +108,7 @@ Spinner ItemStyle and SelectedItemStyle
 </Style>
 ```
 
-## SpinnerHeader Style
+### SpinnerHeader Style
 
 ```XAML
 <Style TargetType="Label" x:Key="spinnerHeaderStyle">
@@ -141,41 +121,42 @@ Spinner ItemStyle and SelectedItemStyle
 </Style>
 ```
 
-## SelectionHighlight Style
+### SelectionHighlight Style
 
 ```XAML
-<Style TargetType="telerik:RadBorder" x:Key="selectionHighlightStyle">
+ <Style TargetType="telerik:RadBorder" x:Key="selectionHighlightStyle">
     <Setter Property="BorderColor" Value="#00B5DC"/>
     <Setter Property="BorderThickness" Value="1"/>
     <Setter Property="Padding" Value="0,6,0,6"/>
     <Setter Property="HeightRequest" Value="40"/>
     <Setter Property="VerticalOptions" Value="Center"/>
+    <Setter Property="BackgroundColor" Value="#F9F9F9"/>
 </Style>
 ```
 
-## PlaceholderLabel Style
+### PlaceholderLabel Style
 
 ```XAML
 <Style TargetType="Label" x:Key="placeholderLabelStyle">
-    <Setter Property="TextColor" Value="#4A4949"/>
+    <Setter Property="TextColor" Value="#1188FF"/>
     <Setter Property="VerticalTextAlignment" Value="Center"/>
     <Setter Property="HorizontalTextAlignment" Value="Center"/>
     <Setter Property="HeightRequest" Value="50"/>
 </Style>
 ```
 
-## DisplayLabel Style
+### DisplayLabel Style
 
 ```XAML
 <Style TargetType="Label" x:Key="displayLabelStyle">
-    <Setter Property="TextColor" Value="Black"/>
+    <Setter Property="TextColor" Value="#1188FF"/>
     <Setter Property="VerticalTextAlignment" Value="Center"/>
     <Setter Property="HorizontalTextAlignment" Value="Center"/>
     <Setter Property="HeightRequest" Value="50"/>
 </Style>
 ```
 
-## PopupView Style
+### PopupView Style
 
 ```XAML
 <Style TargetType="telerikInput:PickerPopupContentView" x:Key="popupViewStyle">
@@ -184,7 +165,7 @@ Spinner ItemStyle and SelectedItemStyle
 </Style>
 ```
 
-## Header Style
+### Header Style
 
 ```XAML
 <Style TargetType="telerikInput:PickerPopupHeaderView" x:Key="headerStyle">
@@ -197,7 +178,7 @@ Spinner ItemStyle and SelectedItemStyle
 </Style>
 ```
 
-## HeaderLabel Style
+### HeaderLabel Style
 
 ```XAML
 <Style TargetType="Label" x:Key="headerLabelStyle">
@@ -208,50 +189,54 @@ Spinner ItemStyle and SelectedItemStyle
 </Style>
 ```
 
-## Footer Style
+### Footer Style
 
-```XAMl
+```XAML
 <Style TargetType="telerikInput:PickerPopupFooterView" x:Key="footerStyle">
-    <Setter Property="BackgroundColor" Value="Transparent"/>
+    <Setter Property="BackgroundColor" Value="#00B5DC"/>
 </Style>
 ```
 
-## AcceptButton Style
+#### AcceptButton Style
 
 ```XAML
 <Style TargetType="Button" x:Key="acceptButtonStyle">
     <Setter Property="BackgroundColor" Value="Transparent"/>
-    <Setter Property="Text" Value="OK"/>
-    <Setter Property="TextColor" Value="#00B5DC"/>
+    <Setter Property="Text" Value="Accept"/>
+    <Setter Property="TextColor" Value="White"/>
 </Style>
 ```
 
-## CancelButton Style
+#### CancelButton Style
 
 ```XAML
 <Style TargetType="Button" x:Key="cancelButtonStyle">
     <Setter Property="BackgroundColor" Value="Transparent"/>
-    <Setter Property="Text" Value="X"/>
-    <Setter Property="TextColor" Value="#00B5DC"/>
+    <Setter Property="Text" Value="Reject"/>
+    <Setter Property="TextColor" Value="White"/>
 </Style>
 ```
 
-## Namespaces
+#### Namespaces
 
 In addition, add the following namespaces:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is how the Time Picker control looks when the styles described above are applied:
+This is how the TimeSpan Picker control looks when the styles described above are applied:
 
-![Time Picker](images/timepicker_style.png)
+![TimeSpan Picker](images/timespan_picker_style.png)
+
+>important A sample Styling example can be found in the TimeSpanPicker/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 
 ## See Also
 
-- [Custom Templates]({%slug time-picker-templates%})
-- [Commands]({%slug time-picker-commands%})
-- [Visual Structure]({%slug time-picker-visual-structure%})
+- [Key Features]({%slug timespan-picker-key-features%})
+- [Custom Templates]({%slug timespan-picker-templates%})
+- [Commands]({%slug timespan-picker-commands%})
+- [Visual Structure]({%slug timespan-picker-visual-structure%})

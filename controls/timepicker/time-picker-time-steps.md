@@ -10,25 +10,25 @@ slug: time-picker-time-steps
 
 By default the TimePicker increments each part of its time values by one step. You can change the default setup using the following properties:
 
-* **HourStep**(*int*): Controls the incremental step of the hour value. Default value is 1.
-* **MinuteStep**(*int*): Controls the incremental step of the minute value. Default value is 1. 
-* **SecondStep**(*int*): Controls the incremental step of the second value. Default value is 1.
+* `HourStep`(*int*): Controls the incremental step of the hour value. Default value is `1`.
+* `MinuteStep`(*int*): Controls the incremental step of the minute value. Default value is `1`. 
+* `SecondStep`(*int*): Controls the incremental step of the second value. Default value is `1`.
 
 ## Example
 
-1. RadTimePicker definition:
+RadTimePicker definition:
 
- ```XAML
- <telerikInput:RadTimePicker HourStep="2" 
-                             MinuteStep="10" 
-                             SecondStep="30"/>
- ```
+```XAML
+<telerikInput:RadTimePicker HourStep="2" 
+                         MinuteStep="10" 
+                         SecondStep="30"/>
+```
 
-1. Add the namespace:
+Add the namespace:
 
- ```XAML
- xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+```
 
 ## See Also
 

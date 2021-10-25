@@ -12,9 +12,9 @@ slug: rating-shape-rating
 
 ## Shape Types
 
-RadShapeRating exposes **ItemShape** property of type *RadPathGeometry* which is used to define the shape of the rating items.
+RadShapeRating exposes `ItemShape` property of type `RadPathGeometry` which is used to define the shape of the rating items.
 
-For easy and fast setup RadRating includes several simple shapes that can be used for rating items out of the box. This is accomplished through the static **Geometries** class which resides in the **Telerik.XamarinForms.Primitives.SkiaSharp.Rating** namespace. This class exposes static properties that return predefined shapes. 
+For easy and fast setup RadRating includes several simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. This class exposes static properties that return predefined shapes. 
 
 >tip For more details on RadPath and RadPathGeometry check the documentation here: [RadPath Overview]({%slug path-overview%}).
 
@@ -91,22 +91,22 @@ You can control the visual appearance of the predefined shapes through the follo
 
 ### Example
 
-1. Define the RadShapeRating:
- ```XAML
- <telerikInput:RadShapeRating AutomationId="styledRating" 
-                              ItemFill="YellowGreen"
-                              ItemStroke="YellowGreen"
-                              SelectedItemFill="Pink"
-                              SelectedItemStroke="Red" />
- ```
+Define the RadShapeRating:
+```XAML
+<telerikInput:RadShapeRating AutomationId="styledRating" 
+                          ItemFill="YellowGreen"
+                          ItemStroke="YellowGreen"
+                          SelectedItemFill="Pink"
+                          SelectedItemStroke="Red" />
+```
 
-1. Add the namespace:
+Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
- ```
+```
 
-1. Resilt:
+Resilt:
 
  ![Rating Styling](images/rating-styles.png)
 
