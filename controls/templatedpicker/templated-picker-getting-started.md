@@ -144,6 +144,6 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 ## See Also
 
 - [Visual Structure]({%slug templated-picker-visual-structure%})
-- [Key Features]({%slug templated-picker-key-features%})
+- [Data Binding]({%slug templated-picker-data-binding%})
 - [Templates]({%slug templated-picker-templates%})
 - [Styling]({%slug templated-picker-styling%})

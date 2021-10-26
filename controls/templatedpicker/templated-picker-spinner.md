@@ -8,7 +8,7 @@ slug: templated-picker-spinner
 
 # Spinner
 
-**RadSpinner for .NET MAUI** is a control which allows you to display items in a list. It also provides an option to loop through its items. RadSpinner control is used for the [DateTime Picker]({%slug datetime-picker-overview%}), [ListPicker]({%slug list-picker-overview%}). Also is could be used inside the [Templated Picker SelectorTemplate]({%slug templated-picker-templates%}). 
+**RadSpinner for .NET MAUI** is a control which allows you to display items in a list. It also provides an option to loop through its items. RadSpinner control is used for the [Date Picker]({%slug date-picker-overview%}), [ListPicker]({%slug list-picker-overview%}). Also is could be used inside the [Templated Picker SelectorTemplate]({%slug templated-picker-templates%}). 
 
 ## Configuration
 

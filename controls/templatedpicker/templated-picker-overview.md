@@ -16,7 +16,7 @@ slug: templated-picker-overview
 
 * [Selector Template]({%slug templated-picker-templates%}): Custom Picker control allows you to define a template for the items. 
 
-* [DisplayString Format]({%slug templated-picker-key-features%}#displaystringformat): You can choose what text to display when an item from the selector template was picked through the Picker `DisplayStringFormat` property.
+* [DisplayString Format]({%slug templated-picker-data-binding%}#displaystringformat): You can choose what text to display when an item from the selector template was picked through the Picker `DisplayStringFormat` property.
 
 * [Flexible Styling API]({%slug templated-picker-styling%}): Take advantage of the styling capabilities of Templated Picker. You can easily style its Spinners, the Popup and its header and footer. 
 
