@@ -232,11 +232,8 @@ This is how the TimeSpan Picker control looks when the styles described above ar
 
 ![TimeSpan Picker](images/timespan_picker_style.png)
 
->important A sample Styling example can be found in the TimeSpanPicker/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
-
 ## See Also
 
-- [Key Features]({%slug timespan-picker-key-features%})
 - [Custom Templates]({%slug timespan-picker-templates%})
 - [Commands]({%slug timespan-picker-commands%})
 - [Visual Structure]({%slug timespan-picker-visual-structure%})

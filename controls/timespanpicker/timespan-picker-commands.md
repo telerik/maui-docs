@@ -92,6 +92,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Key Features]({%slug timespan-picker-key-features%})
 - [Templates]({%slug timespan-picker-templates%})
 - [Selection]({%slug timespan-picker-selection%})

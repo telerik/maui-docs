@@ -81,6 +81,5 @@ private void RadTimeSpanPicker_SelectionChanged(object sender, EventArgs e)
 
 ## See Also
 
-- [Key Features]({%slug timespan-picker-key-features%})
 - [Templates]({% slug timespan-picker-templates%})
 - [Commands]({% slug timespan-picker-commands%})
