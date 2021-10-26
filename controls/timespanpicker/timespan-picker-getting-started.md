@@ -16,7 +16,7 @@ At the end, you will be able to achieve the following result:
 
 ## Prerequisites
 
-Before adding the TimeSpan Picker, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#setting-up-your-microsoft-project), and [download]({% slug maui-getting-started %}#downloading-telerik-ui-for-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#installing-telerik-ui-for-maui).
+Before adding the TimeSpan Picker, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#setup-your-net-maui-app), and [download]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
 ## Define RadTimeSpanPicker control
 

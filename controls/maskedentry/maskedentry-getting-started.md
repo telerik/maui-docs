@@ -1,22 +1,38 @@
 ---
 title: Getting Started
-page_title: Getting Started with Xamarin.Forms MaskedInput Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik MaskedInput for Xamarin control.
+page_title: .NET MAUI MaskedInput Documentation | Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for Telerik MaskedInput for .NET MAUI control.
 position: 1
 slug: maskedentry-getting-started
 ---
 
-#  Getting Started
+# Getting Started
 
-This article will guide you through the steps needed to add a basic **RadMaskedInput** control in your application and will provide information regarding the most important properties of the control. 
+This guide demonstrates how to add Telerik UI for .NET MAUI MaskedEntry control to your application. 
 
+At the end, you will be able to achieve the following result:
 
+![Regex Masked Entry Picker Getting Started](images/maskedentry-getting-started.png)
 
-This is the result:
-![Getting started](images/maskedinput_gettingstarted.png)
+## Prerequisites
 
->important **SDK Browser** and **QSF** applications contain different examples that show RadMaskedInput's main features. You can find the applications in the **Examples** and **QSF** folders of your local **Telerik UI for Xamarin** installation.
+Before adding the MaskedEntry, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#setup-your-net-maui-app), and [download]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
+## Define RadMaskedEntry control
+
+1. When the app is setup, you are ready to add a RadMaskedEntry control to your page. The example demonstrates the definition of the `RadRegexMaskedEntry` with `Mask` and `PlaceholderText` properties applied
+
+ ```XAML
+<telerik:RadRegexMaskedEntry x:Name="regexMaskedEntry" Mask="^[a-z]$" PlaceholderText="^[a-z]$" />
+ ```
+
+1. Add the following namespace:
+
+ ```XAML
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+ ```
+ 
 ## See Also
 
-
+- [Masked Types]({%slug maskedentry-masked-types%})
+- [Events]({%slug maskedentry-events%})
