@@ -10,6 +10,8 @@ slug: templated-picker-overview
 
 **Telerik Templated Picker for .NET MAUI** is a fully customizable picker control which allows you create a custom picker based on the scenario you want to achieve. You can pick an item from a selector with a custom template. 
 
+>important Telerik UI for .NET MAUI Templated Picker is currenly available for Android and iOS.
+
 ![Templated Picker Overview](images/templated_picker_overview.png)
 
 ## Key features
