@@ -111,7 +111,7 @@ navigation:
     ## End DataGrid
     ## DatePicker
     controls/datepicker:
-        title: "Date Picker"
+        title: "DatePicker"
     ## End DatePicker
     ## DockLayout
     controls/docklayout:
@@ -136,7 +136,7 @@ navigation:
     ## End ItemsControl
     ## ListPicker
     controls/listpicker:
-        title: "List Picker"
+        title: "ListPicker"
     ## End ListPicker
     ## ListView
     controls/listview:
@@ -190,7 +190,7 @@ navigation:
     ## End SegmentedControl
     ## TemplatedPicker
     controls/templatedpicker:
-        title: "Templated Picker"
+        title: "TemplatedPicker"
     ## End TemplatedPicker
     ## TimePicker
     controls/timepicker:
@@ -288,12 +288,12 @@ intro_columns:
   -   
     title: "Editors"
     items:        
-        "Date Picker": "date-picker-overview"
+        "DatePicker": "datepicker-overview"
         "Entry": "entry-overview"
-        "List Picker": "list-picker-overview"
+        "ListPicker": "listpicker-overview"
         "MaskedEntry": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
-        "Templated Picker": "templated-picker-overview"
+        "TemplatedPicker": "templatedpicker-overview"
         "Time Picker": "time-picker-overview"
         "TimeSpan Picker": "timespan-picker-overview"        
 -
