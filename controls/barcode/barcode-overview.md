@@ -6,9 +6,9 @@ position: 0
 slug: barcode-overview
 ---
 
-# Telerik UI for .NET MAUI Barcode Overview
+# Overview
 
-The **Telerik UI for .NET MAUI Barcode** control enables you to create and show barcodes. You can generate and visualize barcodes in a machine-readable format through the Barcode control by providing numeric or character data.
+**Telerik UI for .NET MAUI Barcode** control enables you to create and show barcodes. You can generate and visualize barcodes in a machine-readable format through the Barcode control by providing numeric or character data.
 
 ![RadBarcode Overview](images/barcode_overview.png)
 
@@ -22,6 +22,6 @@ The **Telerik UI for .NET MAUI Barcode** control enables you to create and show 
 
 ## Next Steps
 
-- [Getting Started with the Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
 - [1D Supported Barcodes]({% slug 1dbarcode-overview %})
 - [2D Supported Barcodes]({% slug 2dbarcode-overview %})

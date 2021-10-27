@@ -9,7 +9,7 @@ position: 1
 
 # SDKBrowser Demo Application
 
-The Telerik UI for .NET MAUI SDKBrowser is a demo application, which demonstrates the available library controls.  
+Telerik UI for .NET MAUI SDKBrowser is a demo application, which demonstrates the available library controls.  
 
 ![Telerik UI for .NET MAUI SDKBrowserMaui App](../images/demo-maui.gif)
 

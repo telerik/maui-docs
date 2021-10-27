@@ -8,9 +8,9 @@ slug: border-overview
 previous_url: /controls/border/border-key-features
 ---
 
-# Telerik Border for .NET MAUI Overview
+# Overview
 
-The **Telerik UI for .NET MAUI Border** enables you to control the look and feel of the border that wraps around your MAUI views.
+**Telerik UI for .NET MAUI Border** enables you to control the look and feel of the border that wraps around your MAUI views.
 
 It provides various border thickness types and corner-side radiuses, which can be used for surrounding labels, images, and other elements.
 
@@ -18,10 +18,12 @@ It provides various border thickness types and corner-side radiuses, which can b
 
 ## Key Features
 
-* [Thickness]({% slug thickness_border %})&mdash;The Telerik UI for .NET MAUI Border provides options for setting its thickness and enables you to visually enhance your label, image, and other views.
-* [Color]({% slug color_border %})&mdash;You can also use the settings for changing the color of the Border control.
-* [Corner radius]({% slug corner_radius_border %})&mdash;The Border allows you specify a different corner radius value for each of its four angles.
+* [Thickness]({% slug border-styling%}#border-thickness): Telerik UI for .NET MAUI Border provides options for setting its thickness and enables you to visually enhance your label, image, and other views.
 
-## See Also
+* [Color]({%slug border-styling %}#border-color): You can also use the settings for changing the color of the Border control.
 
-- [Getting Started with the Telerik UI for .NET MAUI Border]({% slug border_getting_started %})
+* [Corner radius]({%slug border-corner-radius%}): Border allows you specify a different corner radius value for each of its four angles.
+
+## Next Steps
+
+- [Getting Started with the Telerik UI for .NET MAUI Border]({% slug border-getting-started %})

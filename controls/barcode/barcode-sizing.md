@@ -8,7 +8,7 @@ slug: barcode-sizingmodes
 
 # Sizing Modes
 
-The Barcode provides three sizing modes that enable you to fine-tune the rendering of your codes.
+Barcode provides three sizing modes that enable you to fine-tune the rendering of your codes.
 
 * Manual&mdash;You can define the size of the smallest line or dot of the barcode through the `Module` property and, as a result, the other lines and dots multiply that size. The `Module` property is measured in device pixels.
 * Snap&mdash;In the snap sizing mode the code is stretched to the available size, but each line or dot is drawn with an exact number of pixels. As a result, the lines and dots seem sharp.

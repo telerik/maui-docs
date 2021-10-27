@@ -1,14 +1,14 @@
 ---
-title: Styling Options
-page_title: .NET MAUI Barcode Documentation | Styling Options
+title: Styling
+page_title: .NET MAUI Barcode Documentation | Styling
 description: "Learn how to customize the colors of the Telerik UI for .NET MAUI Barcode."
 position: 8
 slug: barcode-styling
 ---
 
-# Styling Options
+# Styling
 
-The Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
+Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
 
 1. To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
 

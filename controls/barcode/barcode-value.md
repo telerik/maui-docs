@@ -8,11 +8,11 @@ slug: barcode-valuesymbology
 
 # Value and Symbology
 
-The Barcode exposes a `Value` property that is used to set the barcode data presented by the control. The `Value` of the barcode is of type string and the allowed length depends on the symbology you choose.
+Barcode exposes a `Value` property that is used to set the barcode data presented by the control. The `Value` of the barcode is of type string and the allowed length depends on the symbology you choose.
 
 To set the symbology that will be used to convert the `Value` of the control into a visual barcode representation, use its `Symbology` property.
 
-The most common symbologies that are supported by the Barcode are:
+The most common symbologies that are supported by Barcode are:
 
 * EAN13  
 * EAN8  
