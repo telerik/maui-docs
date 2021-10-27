@@ -194,11 +194,11 @@ navigation:
     ## End TemplatedPicker
     ## TimePicker
     controls/timepicker:
-        title: "Time Picker"
+        title: "TimePicker"
     ## End TimePicker
     ## TimeSpanPicker
     controls/timespanpicker:
-        title: "TimeSpan Picker"
+        title: "TimeSpanPicker"
     ## End TimeSpanPicker
     ## WrapLayout
     controls/wraplayout:
@@ -294,9 +294,9 @@ intro_columns:
         "MaskedEntry": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
         "TemplatedPicker": "templatedpicker-overview"
-        "Time Picker": "time-picker-overview"
-        "TimeSpan Picker": "timespan-picker-overview"        
--
+        "TimePicker": "timepicker-overview"
+        "TimeSpanPicker": "timespanpicker-overview"        
+
   categories:
   -
     title: "Layouts"
