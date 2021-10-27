@@ -1,9 +1,9 @@
 ---
 title: Selection
-page_title: .NET MAUI TimeSpan Picker Documentation | Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | Selection
+description: Check our &quot;Selection&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 6
-slug: timespan-picker-selection
+slug: timespanpicker-selection
 ---
 
 # Selection
@@ -81,5 +81,5 @@ private void RadTimeSpanPicker_SelectionChanged(object sender, EventArgs e)
 
 ## See Also
 
-- [Templates]({% slug timespan-picker-templates%})
-- [Commands]({% slug timespan-picker-commands%})
+- [Templates]({% slug timespanpicker-templates%})
+- [Commands]({% slug timespanpicker-commands%})

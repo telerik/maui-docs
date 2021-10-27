@@ -1,9 +1,9 @@
 ---
 title: Templates
-page_title: .NET MAUI TimeSpan Picker Documentation | Templates
-description: Check our &quot;Templates&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | Templates
+description: Check our &quot;Templates&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 4
-slug: timespan-picker-templates
+slug: timespanpicker-templates
 ---
 
 # Templates
@@ -85,4 +85,4 @@ and the TimeSpan Picker definition:
 
 ## See Also
 
-- [Commands]({% slug timespan-picker-commands%})
+- [Commands]({% slug timespanpicker-commands%})

@@ -1,14 +1,14 @@
 ---
 title: TimeSpan Range
-page_title: .NET MAUI TimeSpan Picker Documentation | TimeSpan Range
-description: Check our &quot;TimeSpan Range&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Range
+description: Check our &quot;TimeSpan Range&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 3
-slug: timespan-picker-timespan-range
+slug: timespanpicker-timespan-range
 ---
 
 ## TimeSpan Range 
 
-TimeSpan Picker allows you to define a timespan range and choose a time interval in between through the following properties:
+TimeSpanPicker allows you to define a timespan range and choose a time interval in between through the following properties:
 
 * `MinimumTime`(*TimeSpan*): Defines the lowest limit of the available selection range. The default value is `TimeSpan(0, 0, 0, 0, 0)`.
 
@@ -31,7 +31,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug timespan-picker-templates%})
-- [Styling]({%slug timespan-picker-styling%})
-- [Commands]({%slug timespan-picker-commands%})
-- [Selection]({%slug timespan-picker-selection%})
+- [Templates]({%slug timespanpicker-templates%})
+- [Styling]({%slug timespanpicker-styling%})
+- [Commands]({%slug timespanpicker-commands%})
+- [Selection]({%slug timespanpicker-selection%})

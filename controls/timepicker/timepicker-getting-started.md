@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-page_title: .NET MAUI Time Picker Documentation | Getting Started
+page_title: .NET MAUI TimePicker Documentation | Getting Started
 description: Check our &quot;Getting Started&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 1
-slug: time-picker-getting-started
+slug: timepicker-getting-started
 ---
 
 # Getting Started
@@ -53,6 +53,6 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-- [Supported Standard Time Format Strings]({%slug time-picker-formatting%})
-- [Templates]({%slug time-picker-templates%})
-- [Styling]({%slug time-picker-styling%})
+- [Supported Standard Time Format Strings]({%slug timepicker-formatting%})
+- [Templates]({%slug timepicker-templates%})
+- [Styling]({%slug timepicker-styling%})

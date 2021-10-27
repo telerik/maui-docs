@@ -16,17 +16,17 @@ slug: datepicker-overview
 
 ## Key features
 
-* [Spinner Format]({%slug datepicker-formatting%}#spinner-format): Date Picker for .NET MAUI allows you to use standard or custom date format string through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+* [Spinner Format]({%slug datepicker-formatting%}#spinner-format): DatePicker for .NET MAUI allows you to use standard or custom date format string through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
 
 * [Templates]({%slug datepicker-templates%}): DatePicker provides templates for its header and footer. Also we have exposed templates for the picker placeholder and display text.
 
 * [DisplayString Format]({%slug datepicker-formatting%}#displaystring-format): You can choose what text to be displayed when a date is selected using the DatePicker `DisplayStringFormat` property. 
 
-* [Date Range]({%slug datepicker-date-range%}): Date Picker allows you to define a date range when setting minimum and maximum date values and choose a date in between.
+* [Date Range]({%slug datepicker-date-range%}): DatePicker allows you to define a date range when setting minimum and maximum date values and choose a date in between.
 
 * [Flexible Styling API]({%slug datepicker-styling%}): Take advantage of the styling capabilities of the RadDatePicker control. You can easily style its Spinners, the Popup and its header and footer, the text displayed after date is selected and many more.
 
-* [Commands Support]({%slug datepicker-commands%}): Date Picker exposes command that allows you to clear the selected date - `Clear Command` and `Toggle Command` that allows you to open and close the dialog.
+* [Commands Support]({%slug datepicker-commands%}): DatePicker exposes command that allows you to clear the selected date - `Clear Command` and `Toggle Command` that allows you to open and close the dialog.
 
 ## Next Steps
 

@@ -1,16 +1,16 @@
 ---
 title: Commands
-page_title: .NET MAUI TimeSpan Picker Documentation | Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | Commands
+description: Check our &quot;Commands&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 7
-slug: timespan-picker-commands
+slug: timespanpicker-commands
 ---
 
 # Commands
 
 ## TimeSpanPicker Commands
 
-TimeSpan Picker for Xamarin exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected time interval:
+TimeSpanPicker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected time interval:
 
 * `ToggleCommand`(*ICommand*): Allows you to show/hide the popup used for selecting a time interval.
 * `ClearCommand`(*ICommand*): Allows you to clear the displayed time interval.
@@ -92,5 +92,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug timespan-picker-templates%})
-- [Selection]({%slug timespan-picker-selection%})
+- [Templates]({%slug timespanpicker-templates%})
+- [Selection]({%slug timespanpicker-selection%})

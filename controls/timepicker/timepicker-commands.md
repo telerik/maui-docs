@@ -1,9 +1,9 @@
 ---
 title: Commands
-page_title: .NET MAUI Time Picker Documentation | Commands
+page_title: .NET MAUI TimePicker Documentation | Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 7
-slug: time-picker-commands
+slug: timepicker-commands
 ---
 
 # Commands
@@ -87,5 +87,5 @@ public class ViewModel
 
 ## See Also
 
-- [Templates]({%slug time-picker-templates%})
-- [Selection]({%slug time-picker-selection%})
+- [Templates]({%slug timepicker-templates%})
+- [Selection]({%slug timepicker-selection%})

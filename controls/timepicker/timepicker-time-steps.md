@@ -1,9 +1,9 @@
 ---
 title: Time Steps
-page_title: .NET MAUI Time Picker Documentation | Time Steps
+page_title: .NET MAUI TimePicker Documentation | Time Steps
 description: Check our &quot;Time Steps&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
-slug: time-picker-time-steps
+slug: timepicker-time-steps
 ---
 
 # Time Steps
@@ -32,8 +32,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug time-picker-templates%})
-- [Time Format Strings]({%slug time-picker-formatting%})
-- [Styling]({%slug time-picker-styling%})
-- [Selection]({%slug time-picker-selection%})
-- [Commands]({%slug time-picker-commands%})
+- [Templates]({%slug timepicker-templates%})
+- [Time Format Strings]({%slug timepicker-formatting%})
+- [Styling]({%slug timepicker-styling%})
+- [Selection]({%slug timepicker-selection%})
+- [Commands]({%slug timepicker-commands%})
