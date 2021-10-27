@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI Barcode Documentation | Styling the RadBarcode
+page_title: .NET MAUI Barcode Documentation | Styling
 description: "Learn how to customize the colors of the Telerik UI for .NET MAUI Barcode."
 position: 8
 slug: barcode-styling
@@ -8,11 +8,11 @@ slug: barcode-styling
 
 # Styling
 
-RadBarcode enables you to change the visual appearance of your Barcodes so they match your application theme.
+Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
 
-**1.** To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
+1. To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
 
-```XAML
+ ```XAML
 <telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
 		HorizontalOptions="Center" VerticalOptions="Center"
 		ForegroundColor="DarkBlue"
@@ -22,13 +22,13 @@ RadBarcode enables you to change the visual appearance of your Barcodes so they 
 		<telerikBarcode:Code39 SizingMode="Stretch" />
 	</telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
-```
+ ```
 
-**2.** Add the following namespace.
+2. Add the following namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 The following image shows a barcode with custom colors.
 

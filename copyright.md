@@ -2,7 +2,7 @@
 title: Copyright
 page_title: Copyright
 slug: Copyright
-position: 2
+position: 70
 ---
 
 # Copyright

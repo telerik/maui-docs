@@ -1,6 +1,6 @@
 ---
-title: 1D Barcodes Overview
-page_title: 1D Barcodes Overview | Telerik UI for MAUI
+title: Overview
+page_title: .NET MAUI 1D Barcode Documentation | Overview
 description: "Learn more about the one-dimensional (1D) barcode types supported by the Telerik UI for MAUI Barcode."
 position: 0
 slug: 1dbarcode-overview
