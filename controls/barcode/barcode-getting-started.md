@@ -18,11 +18,11 @@ At the end, you will be able to achieve the following result.
 
 Before adding the Barcode, you need to:
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#setting-up-your-microsoft-project).
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#downloading-telerik-ui-for-maui).
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#installing-telerik-ui-for-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
 1. Install the [SkiaSharp graphics library](https://skia.org/) as the Barcode requires it.
 
