@@ -1,6 +1,6 @@
 ---
-title: License
-page_title: License
+title: Licensing
+page_title: Licensing
 slug: license-agreement
 position: 60
 previous_url: /licensing/license-agreement

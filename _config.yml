@@ -2,43 +2,47 @@
 url: "https://docs.telerik.com/devtools/maui"
 site_name: MAUI
 
-# Exclude files which should not be in the output
+# Exclude files which should not be in the output 
 exclude: [README.md,Gemfile,Gemfile.lock, controls/chart/how-to]
 exclude_navigation: [knowledge-base/*]
 
 navigation:
 ## List your directory names and order here, like this:
-## Root Level
+## Root Level 
     get-started:
         title: "Getting Started"
-        position: 20
-    controls:
-        title: "Controls"
-        position: 30
+        position: 1
     demos-and-sample-apps:
         title: "Sample Applications"
-        position: 40
+        position: 2      
+    controls:
+        title: ".NET MAUI Controls"
+        position: 7
     troubleshooting:
         title: "Troubleshooting"
-        position: 50
+        position: 12
 ## End Root Level
 ## Controls Sub-Folders
     ## Barcode
     controls/barcode:
         title: "Barcode"
-        ## Barcode Sub-Folders
+        ## Barcode Sub-Folders  
     controls/barcode/1d-barcodes:
         title: "1D Barcodes"
         position: 5
     controls/barcode/2d-barcodes:
         title: "2D Barcodes"
-        position: 6
+        position: 6        
         ## End Barcode Sub-Folders
-    ## End Barcode
+    ## End Barcode   
     ## Border
     controls/border:
         title: "Border"
-    ## End Border
+    ## End Border 
+    ## BusyIndicator
+    controls/busyindicator:
+        title: "BusyIndicator"
+    ## End BusyIndicator    
     ## Button
     controls/button:
         title: "Button"
@@ -92,19 +96,23 @@ navigation:
     ## DataGrid
     controls/datagrid:
         title: "DataGrid"
-    controls/datagrid/columns:
+    controls/datagrid/columns: 
         title: "Columns"
         position: 2
-    controls/datagrid/columns/column-types:
+    controls/datagrid/columns/column-types: 
         title: "Column Types"
-        position: 1
+        position: 1    
     controls/datagrid/commands:
         title: "Commands"
         position: 9
-    controls/datagrid/theming-and-styles:
+    controls/datagrid/theming-and-styles: 
         title: "Styling"
         position: 10
     ## End DataGrid
+    ## DatePicker
+    controls/datepicker:
+        title: "DatePicker"
+    ## End DatePicker
     ## DockLayout
     controls/docklayout:
         title: "DockLayout"
@@ -126,6 +134,10 @@ navigation:
     controls/itemscontrol:
         title: "ItemsControl"
     ## End ItemsControl
+    ## ListPicker
+    controls/listpicker:
+        title: "ListPicker"
+    ## End ListPicker
     ## ListView
     controls/listview:
         title: "ListView"
@@ -138,35 +150,60 @@ navigation:
         position: 11
     controls/listview/cells:
         title: Cells
-        position: 2
+        position: 2   
     controls/listview/styling:
         title: "Styling"
-        position: 14
+        position: 14         
     controls/listview/howto:
         title: "How To"
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## MaskedEntry
+    controls/maskedentry:
+        title: "MaskedEntry"
+        ## MaskedEntry Sub-Folders
+    controls/maskedentry/maskedtypes:
+        title: "Masked Types"
+        position: 3
+        ## End MaskedEntry Sub-Folders
+    ## End MaskedEntry
     ## NumericInput
     controls/numericinput:
         title: "NumericInput"
     ## End NumericInput
     ## Path
     controls/path:
-        title: "Path"
+        title: "Path"   
     ## End Path
     ## Popup
     controls/popup:
-        title: "Popup"
+        title: "Popup"   
     ## End Popup
+    ## Rating
+    controls/rating:
+        title: "Rating"    
+    ## End Rating
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
+    ## TemplatedPicker
+    controls/templatedpicker:
+        title: "TemplatedPicker"
+    ## End TemplatedPicker
+    ## TimePicker
+    controls/timepicker:
+        title: "Time Picker"
+    ## End TimePicker
+    ## TimeSpanPicker
+    controls/timespanpicker:
+        title: "TimeSpan Picker"
+    ## End TimeSpanPicker
     ## WrapLayout
     controls/wraplayout:
         title: "WrapLayout"
-    ## End WrapLayout
+    ## End WrapLayout       
 ## End Controls Sub-Folders
 
 ## The application virtual path
@@ -188,7 +225,7 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
-
+        
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
@@ -218,13 +255,13 @@ footer:
     "Forums": https://www.telerik.com/forums/maui
     "Blogs": https://www.telerik.com/blogs/mobile
     "Feedback Portal": https://feedback.telerik.com/maui
+  
 
-
-footer_social:
+footer_social: 
     facebook: https://www.facebook.com/Telerik/
     youtube: https://www.youtube.com/user/TelerikInc
-    linkedin: https://www.linkedin.com/showcase/telerik/
-    twitter: https://twitter.com/Telerik/
+    linkedin: https://www.linkedin.com/showcase/telerik/ 
+    twitter: https://twitter.com/Telerik/ 
 
 has_kb_portal: false
 has_api_reference: false
@@ -234,32 +271,31 @@ intro_columns:
 -
   categories:
   -
-    title: "Data Controls"
+    title: "Data Controls"  
     items:
       "DataGrid": "datagrid-overview"
       "ListView": "listview-overview"
       "ItemsControl": "itemscontrol-overview"
--
-  categories:
   -
     title: "Data Visualization"
     items:
+        "Barcode": "barcode-overview"
         "Charts": "chart-overview"
         "Gauge": "gauge-overview"
-        "Barcode": "barcode-overview"
+        "Rating": "rating-overview"
 -
   categories:
-  -
+  -   
     title: "Editors"
-    items:
+    items:        
+        "DatePicker": "datepicker-overview"
         "Entry": "entry-overview"
+        "ListPicker": "listpicker-overview"
+        "MaskedEntry": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
-  -
-    title: "Buttons"
-    items:
-        "Segmented Control": "segmentedcontrol-overview"
-        "Button": "button-overview"
-        "CheckBox": "checkbox-overview"
+        "TemplatedPicker": "templatedpicker-overview"
+        "Time Picker": "time-picker-overview"
+        "TimeSpan Picker": "timespan-picker-overview"        
 -
   categories:
   -
@@ -267,15 +303,23 @@ intro_columns:
     items:
         "DockLayout": "docklayout-overview"
         "WrapLayout": "wraplayout-overview"
-
--
-  categories:
   -
+    title: "Buttons"
+    items:
+        "Segmented Control": "segmentedcontrol-overview"
+        "Button": "button-overview"
+        "CheckBox": "checkbox-overview"
+-
+  categories:    
+  - 
     title: "Interactivity & UX"
     items:
-        "Popup": "popup-overview"
         "Border": "border-overview"
+        "BusyIndicator": "busyindicator-overview"
         "Path": "path-overview"
+        "Popup": "popup-overview"
+        
+        
 
 # Assets pipeline configuration
 assets:
