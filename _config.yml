@@ -162,6 +162,11 @@ navigation:
     ## MaskedEntry
     controls/maskedentry:
         title: "MaskedEntry"
+        ## MaskedEntry Sub-Folders
+    controls/maskedentry/maskedtypes:
+        title: "Masked Types"
+        position: 3
+        ## End MaskedEntry Sub-Folders
     ## End MaskedEntry
     ## NumericInput
     controls/numericinput:
