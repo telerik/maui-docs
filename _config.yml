@@ -271,8 +271,6 @@ intro_columns:
       "DataGrid": "datagrid-overview"
       "ListView": "listview-overview"
       "ItemsControl": "itemscontrol-overview"
--
-  categories:
   -
     title: "Data Visualization"
     items:
@@ -292,13 +290,7 @@ intro_columns:
         "NumericInput": "numericinput-overview"
         "Templated Picker": "templated-picker-overview"
         "Time Picker": "time-picker-overview"
-        "TimeSpan Picker": "timespan-picker-overview"
-  -
-    title: "Buttons"
-    items:
-        "Segmented Control": "segmentedcontrol-overview"
-        "Button": "button-overview"
-        "CheckBox": "checkbox-overview"
+        "TimeSpan Picker": "timespan-picker-overview"        
 -
   categories:
   -
@@ -306,7 +298,12 @@ intro_columns:
     items:
         "DockLayout": "docklayout-overview"
         "WrapLayout": "wraplayout-overview"
-  
+  -
+    title: "Buttons"
+    items:
+        "Segmented Control": "segmentedcontrol-overview"
+        "Button": "button-overview"
+        "CheckBox": "checkbox-overview"
 -
   categories:    
   - 
