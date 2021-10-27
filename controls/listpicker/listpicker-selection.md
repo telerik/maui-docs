@@ -1,9 +1,9 @@
 ---
 title: Selection
-page_title: .NET MAUI List Picker Documentation | Selection
+page_title: .NET MAUI ListPicker Documentation | Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 5
-slug: list-picker-selection
+slug: listpicker-selection
 ---
 
 # Selection
@@ -12,11 +12,11 @@ ListPicker for .NET MAUI enables the app users to quickly and easily select an i
 
 ## Important Properties
 
-* `SelectedItem`(*object*): Specifies the selected item of the list picker. 
+* `SelectedItem`(*object*): Specifies the selected item of the ListPicker. 
 
 ## Methods
 
-List Picker for .NET MAUI allows you to clear the selected date/time through its `ClearSelection` method
+ListPicker for .NET MAUI allows you to clear the selected date/time through its `ClearSelection` method
 
 ### Example
 
@@ -66,7 +66,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Xa
 
 ## Events
 
-List Picker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
+ListPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
 
 ### Example
 
@@ -146,4 +146,4 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Commands]({%slug list-picker-commands%})
+- [Commands]({%slug listpicker-commands%})

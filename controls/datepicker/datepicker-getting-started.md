@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Date Picker Control
+page_title: Getting Started with .NET MAUI DatePicker Control
 description: Check our &quot;Getting Started&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 1
-slug: date-picker-getting-started
+slug: datepicker-getting-started
 ---
 
 # Getting Started
@@ -47,8 +47,8 @@ using Telerik.Maui.Controls.Compatibility;
  
 ## See Also
 
-- [Formatting]({%slug date-picker-formatting%})
-- [Date Range]({%slug date-picker-date-range%})
-- [Templates]({%slug date-picker-templates%})
-- [Selection]({%slug date-picker-selection%})
-- [Styling]({%slug date-picker-styling%})
+- [Formatting]({%slug datepicker-formatting%})
+- [Date Range]({%slug datepicker-date-range%})
+- [Templates]({%slug datepicker-templates%})
+- [Selection]({%slug datepicker-selection%})
+- [Styling]({%slug datepicker-styling%})

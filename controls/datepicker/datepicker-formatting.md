@@ -1,9 +1,9 @@
 ---
 title: Formatting
-page_title: .NET MAUI Date Picker Documentation | Date Format Strings
-description: Check our &quot;Date Format Strings&quot; documentation article for Telerik Date Picker for .NET MAUI control.
+page_title: .NET MAUI DatePicker Documentation | Date Format Strings
+description: Check our &quot;Date Format Strings&quot; documentation article for Telerik DatePicker for .NET MAUI control.
 position: 2
-slug: date-picker-formatting
+slug: datepicker-formatting
 ---
 
 # Formatting
@@ -35,7 +35,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Spinner Format
 
-Date Picker for .NET MAUI allows you to use standard or custom date format strings through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+DatePicker for .NET MAUI allows you to use standard or custom date format strings through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
 
 `SpinnerFormat` property defines the string format for the spinners. The default format is **"g"**.
 
@@ -128,7 +128,7 @@ And the result:
 
 ## See Also
 
-- [Templates]({%slug date-picker-templates%})
-- [Styling]({%slug date-picker-styling%})
-- [Selection]({%slug date-picker-selection%})
-- [Commands]({%slug date-picker-commands%})
+- [Templates]({%slug datepicker-templates%})
+- [Styling]({%slug datepicker-styling%})
+- [Selection]({%slug datepicker-selection%})
+- [Commands]({%slug datepicker-commands%})

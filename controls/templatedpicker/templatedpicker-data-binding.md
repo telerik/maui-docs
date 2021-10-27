@@ -1,9 +1,9 @@
 ---
 title: Data Binding
-page_title: .NET MAUI Templated Picker Documentation | Data Binding
+page_title: .NET MAUI TemplatedPicker Documentation | Data Binding
 description: Check our &quot;Data Binding&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 2
-slug: templated-picker-data-binding
+slug: templatedpicker-data-binding
 ---
 
 # Data Binding
@@ -348,9 +348,9 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 This is the result:
 
-![Templated Picker Selected Value](images/templatedpicker_data_binding.png)
+![TemplatedPicker Selected Value](images/templatedpicker_data_binding.png)
 
 ## See Also
 
-- [Templates]({%slug templated-picker-templates%})
-- [Styling]({%slug templated-picker-styling%})
+- [Templates]({%slug templatedpicker-templates%})
+- [Styling]({%slug templatedpicker-styling%})

@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Templated Picker Control
+page_title: Getting Started with .NET MAUI TemplatedPicker Control
 description: Check our &quot;Getting Started&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
 position: 1
-slug: templated-picker-getting-started
+slug: templatedpicker-getting-started
 ---
 
 # Getting Started
@@ -12,7 +12,7 @@ This guide demonstrates how to add Telerik UI for .NET MAUI TemplatedPicker cont
 
 At the end, you will be able to achieve the following result:
 
-![Templated Picker Getting Started](images/templatedpicker_getting_started.png)
+![TemplatedPicker Getting Started](images/templatedpicker_getting_started.png)
 
 ## Prerequisites
 
@@ -143,7 +143,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
  
 ## See Also
 
-- [Visual Structure]({%slug templated-picker-visual-structure%})
-- [Data Binding]({%slug templated-picker-data-binding%})
-- [Templates]({%slug templated-picker-templates%})
-- [Styling]({%slug templated-picker-styling%})
+- [Visual Structure]({%slug templatedpicker-visual-structure%})
+- [Data Binding]({%slug templatedpicker-data-binding%})
+- [Templates]({%slug templatedpicker-templates%})
+- [Styling]({%slug templatedpicker-styling%})

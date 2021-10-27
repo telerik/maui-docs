@@ -1,16 +1,16 @@
 ---
 title: Styling
-page_title: .NET MAUI  List Picker Documentation | Styling
+page_title: .NET MAUI  ListPicker Documentation | Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 8
-slug: list-picker-styling
+slug: listpicker-styling
 ---
 
 # Styling
 
 ## ListPicker Styling
 
-List Picker for Xamarin provides the following Style properties for customizing its look:
+ListPicker for .NET MAUI provides the following Style properties for customizing its look:
 
 * `ItemStyle`(of type *Style* with target type **telerikDataControls:SpinnerItemView**): Defines the style applied to the list of items.
 * `SelectedItemStyle`(of type *Style* with target type **telerikDataControls:SpinnerItemView**): Defines the style applied to the seledted item.
@@ -256,17 +256,17 @@ public class CitiesViewModel
 also you will need to add the following namespaces:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is how the List Picker looks when the styling properties are applied:
+This is how the ListPicker looks when the styling properties are applied:
 
-![List Picker Styling](images/listpicker_styling.png)
+![ListPicker Styling](images/listpicker_styling.png)
 
 >important A sample Styling example can be found in the ListPicker/Styling folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
-- [Looping]({%slug list-picker-looping%})
-- [Templates]({%slug list-picker-templates%})
+- [Looping]({%slug listpicker-looping%})
+- [Templates]({%slug listpicker-templates%})
