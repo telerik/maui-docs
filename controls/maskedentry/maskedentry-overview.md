@@ -19,7 +19,7 @@ slug: maskedentry-overview
 
 * **Setting Mask**: Allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used RadMaskedEntry -> Regex, Numeric, etc. 
 
-* **Returns the user input without the formatting characters** using the `Value` proeprty.
+* **Returns the user input without the formatting characters** using the `Value` property.
 
 * **Keyboard Support**: In addition to the standard keyboard input, the RadMaskedEntry controls deliver the convenience of desktop applications with support for arrow-key navigation for desktop apps.
 
