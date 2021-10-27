@@ -109,6 +109,10 @@ navigation:
         title: "Styling"
         position: 10
     ## End DataGrid
+    ## DatePicker
+    controls/datepicker:
+        title: "Date Picker"
+    ## End DatePicker
     ## DockLayout
     controls/docklayout:
         title: "DockLayout"
@@ -130,6 +134,10 @@ navigation:
     controls/itemscontrol:
         title: "ItemsControl"
     ## End ItemsControl
+    ## ListPicker
+    controls/listpicker:
+        title: "List Picker"
+    ## End ListPicker
     ## ListView
     controls/listview:
         title: "ListView"
@@ -151,6 +159,10 @@ navigation:
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## MaskedEntry
+    controls/maskedentry:
+        title: "MaskedEntry"
+    ## End MaskedEntry
     ## NumericInput
     controls/numericinput:
         title: "NumericInput"
@@ -171,6 +183,18 @@ navigation:
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
+    ## TemplatedPicker
+    controls/templatedpicker:
+        title: "Templated Picker"
+    ## End TemplatedPicker
+    ## TimePicker
+    controls/timepicker:
+        title: "Time Picker"
+    ## End TimePicker
+    ## TimeSpanPicker
+    controls/timespanpicker:
+        title: "TimeSpan Picker"
+    ## End TimeSpanPicker
     ## WrapLayout
     controls/wraplayout:
         title: "WrapLayout"
@@ -261,8 +285,14 @@ intro_columns:
   -   
     title: "Editors"
     items:        
+        "Date Picker": "date-picker-overview"
         "Entry": "entry-overview"
+        "List Picker": "list-picker-overview"
+        "MaskedEntry": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
+        "Templated Picker": "templated-picker-overview"
+        "Time Picker": "time-picker-overview"
+        "TimeSpan Picker": "timespan-picker-overview"
   -
     title: "Buttons"
     items:
