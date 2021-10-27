@@ -1,21 +1,21 @@
 ---
 title: Formatting
-page_title: .NET MAUI TimeSpan Picker Documentation | TimeSpan Format Strings
-description: Check our &quot;Formatting&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Format Strings
+description: Check our &quot;Formatting&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 2
-slug: timespan-picker-formatting
+slug: timespanpicker-formatting
 ---
 
 
 # TimeSpan Formatting
 
-Time Picker for .NET MAUI allows you to use standard or custom time format strings. Set formatting to the spinners that are displayed when the picker is opened - through the `SpinnerFormat` property and when time is selected through the `DisplayStringFormat` property. 
+TimeSpanPicker for .NET MAUI allows you to use standard or custom time format strings. Set formatting to the spinners that are displayed when the picker is opened - through the `SpinnerFormat` property and when time is selected through the `DisplayStringFormat` property. 
 
 ## DisplayString Format
 
 * `DisplayStringFormat`(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
 
->note The format set for **DisplayStringFormat** should be a valid time span format - [Standard Time Formst Strings]({%slug timespan-picker-formatting%}#standard-timespan-format-strings) and [Custom Time format Strings]({%slug timespan-picker-formatting%}#custom-timespan-format-strings). 
+>note The format set for **DisplayStringFormat** should be a valid time span format - [Standard Time Formst Strings]({%slug timespanpicker-formatting%}#standard-timespan-format-strings) and [Custom Time format Strings]({%slug timespanpicker-formatting%}#custom-timespan-format-strings). 
 
 ## Spinner Format
 
@@ -70,7 +70,7 @@ When SpinnerFormat is set and device culture is changed, the separators used for
 
 ## See Also
 
-- [Templates]({%slug timespan-picker-templates%})
-- [Styling]({%slug timespan-picker-styling%})
-- [Selection]({%slug timespan-picker-selection%})
-- [Commands]({%slug timespan-picker-commands%})
+- [Templates]({%slug timespanpicker-templates%})
+- [Styling]({%slug timespanpicker-styling%})
+- [Selection]({%slug timespanpicker-selection%})
+- [Commands]({%slug timespanpicker-commands%})

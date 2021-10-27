@@ -1,9 +1,9 @@
 ---
 title: Selection
-page_title: .NET MAUI Time Picker Documentation | Selection
+page_title: .NET MAUI TimePicker Documentation | Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 5
-slug: time-picker-selection
+slug: timepicker-selection
 ---
 
 # Selection
@@ -64,5 +64,5 @@ private void TimePicker_SelectionChanged(object sender, EventArgs e)
 
 ## See Also
 
-- [Templates]({% slug time-picker-templates%})
-- [Commands]({% slug time-picker-commands%})
+- [Templates]({% slug timepicker-templates%})
+- [Commands]({% slug timepicker-commands%})

@@ -1,9 +1,9 @@
 ---
 title: Default Time
-page_title: .NET MAUI Time Picker Documentation | Default Time
+page_title: .NET MAUI TimePicker Documentation | Default Time
 description: Check our &quot;Default Time&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
-slug: time-picker-default-time
+slug: timepicker-default-time
 ---
 
 # Default Time
@@ -46,8 +46,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug time-picker-templates%})
-- [Formatting]({%slug time-picker-formatting%})
-- [Styling]({%slug time-picker-styling%})
-- [Selection]({%slug time-picker-selection%})
-- [Commands]({%slug time-picker-commands%})
+- [Templates]({%slug timepicker-templates%})
+- [Formatting]({%slug timepicker-formatting%})
+- [Styling]({%slug timepicker-styling%})
+- [Selection]({%slug timepicker-selection%})
+- [Commands]({%slug timepicker-commands%})

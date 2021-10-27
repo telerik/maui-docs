@@ -15,7 +15,7 @@ slug: maskedentry-overview
 
 ## Key features
 
-* [Rich set of mask types]({%slug maskedentry-masked-types%}): The masked input control allows you to use different type of masks depending on our scenario.
+* [Rich set of mask types]({%slug maskedentry-masked-types%}): The masked input control allows you to use different type of masks depending on your scenario.
 
 * **Setting Mask**: Allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used RadMaskedEntry -> Regex, Numeric, etc. 
 

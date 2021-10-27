@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-page_title:  .NET MAUI TimeSpan Picker Documentation | Getting Started
-description: Check our &quot;Getting Started&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title:  .NET MAUI TimeSpanPicker Documentation | Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 1
-slug: timespan-picker-getting-started
+slug: timespanpicker-getting-started
 ---
 
 # Getting Started
@@ -12,7 +12,7 @@ This guide demonstrates how to add Telerik UI for .NET MAUI TimeSpanPicker contr
 
 At the end, you will be able to achieve the following result:
 
-![TimeSpan Picker for Xamarin](images/timespanpicker_getting_started.png)
+![TimeSpan Picker for .NeT MAUI](images/timespanpicker_getting_started.png)
 
 ## Prerequisites
 
@@ -53,6 +53,6 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-- [Suppoted Standard TimeSpan Format Strings]({%slug timespan-picker-formatting%})
-- [Templates]({%slug timespan-picker-templates%})
-- [Styling]({%slug timespan-picker-styling%})
+- [Suppoted Standard TimeSpan Format Strings]({%slug timespanpicker-formatting%})
+- [Templates]({%slug timespanpicker-templates%})
+- [Styling]({%slug timespanpicker-styling%})

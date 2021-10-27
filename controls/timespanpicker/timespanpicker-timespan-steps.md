@@ -1,14 +1,14 @@
 ---
 title: Time Steps
-page_title: .NET MAUI TimeSpan Picker Documentation | Time Steps
-description: Check our &quot;Time Steps&quot; documentation article for Telerik TimeSpan Picker for .NET MAUI.
+page_title: .NET MAUI TimeSpanPicker Documentation | Time Steps
+description: Check our &quot;Time Steps&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 3
-slug: timespan-picker-timespan-steps
+slug: timespanpicker-timespan-steps
 ---
 
 # Incremental Time Steps
 
-By defaul the TimeSpan Picker increments each part of its time values by one step. You can change the default setup using the following properties:
+By defaul the TimeSpanPicker increments each part of its time values by one step. You can change the default setup using the following properties:
 
 * `DayStep`(*int*): Controls the incremental step of the day value. Default value is 1.
 * `HourStep`(*int*): Controls the incremental step of the hour value. Default value is 1.
@@ -32,7 +32,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug timespan-picker-templates%})
-- [Styling]({%slug timespan-picker-styling%})
-- [Commands]({%slug timespan-picker-commands%})
-- [Selection]({%slug timespan-picker-selection%})
+- [Templates]({%slug timespanpicker-templates%})
+- [Styling]({%slug timespanpicker-styling%})
+- [Commands]({%slug timespanpicker-commands%})
+- [Selection]({%slug timespanpicker-selection%})

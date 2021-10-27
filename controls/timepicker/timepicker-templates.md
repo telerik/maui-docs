@@ -1,9 +1,9 @@
 ---
 title: Templates
-page_title: .NET MAUI Time Picker Documentation | Templates
+page_title: .NET MAUI TimePicker Documentation | Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 3
-slug: time-picker-templates
+slug: timepicker-templates
 ---
 
 # Templates
@@ -100,5 +100,5 @@ For the example the templates definition are added to the page's resources:
 
 ## See Also
 
-- [Suppoted Standard Time Format Strings]({%slug time-picker-formatting%})
-- [Styling]({%slug time-picker-styling%})
+- [Suppoted Standard Time Format Strings]({%slug timepicker-formatting%})
+- [Styling]({%slug timepicker-styling%})

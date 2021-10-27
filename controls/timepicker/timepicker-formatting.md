@@ -1,9 +1,9 @@
 ---
 title: Formatting
-page_title: .NET MAUI Time Picker Documentation | Time Format Strings
+page_title: .NET MAUI TimePicker Documentation | Time Format Strings
 description: Check our &quot;Time Format Strings&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
-slug: time-picker-formatting
+slug: timepicker-formatting
 ---
 
 # Time Formatting
@@ -14,7 +14,7 @@ Time Picker for .NET MAUI allows you to use standard or custom time format strin
 
 * `DisplayStringFormat`(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
 
->note The format set for **DisplayStringFormat** should be a valid time format - [Standard Time Formst Strings]({%slug time-picker-formatting%}#standard-time-format-strings) and [Custom Time format Strings]({%slug time-picker-formatting%}#custom-time-format-strings). 
+>note The format set for **DisplayStringFormat** should be a valid time format - [Standard Time Formst Strings]({%slug timepicker-formatting%}#standard-time-format-strings) and [Custom Time format Strings]({%slug timepicker-formatting%}#custom-time-format-strings). 
 
 ### Example 
 
@@ -91,6 +91,6 @@ And the result:
 
 ## See Also
 
-- [Templates]({%slug time-picker-templates%})
-- [Styling]({%slug time-picker-styling%})
-- [Commands]({%slug time-picker-commands%})
+- [Templates]({%slug timepicker-templates%})
+- [Styling]({%slug timepicker-styling%})
+- [Commands]({%slug timepicker-commands%})
