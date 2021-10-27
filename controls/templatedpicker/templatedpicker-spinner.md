@@ -1,14 +1,14 @@
 ---
 title: Spinner
-page_title: .NET MAUI Templated Picker Documentation | Spinner
+page_title: .NET MAUI TemplatedPicker Documentation | Spinner
 description: Check our &quot;Spinner&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 8
-slug: templated-picker-spinner
+slug: templatedpicker-spinner
 ---
 
 # Spinner
 
-**RadSpinner for .NET MAUI** is a control which allows you to display items in a list. It also provides an option to loop through its items. RadSpinner control is used for the [Date Picker]({%slug date-picker-overview%}), [ListPicker]({%slug list-picker-overview%}). Also is could be used inside the [Templated Picker SelectorTemplate]({%slug templated-picker-templates%}). 
+**RadSpinner for .NET MAUI** is a control which allows you to display items in a list. It also provides an option to loop through its items. RadSpinner control is used for the [DatePicker]({%slug datepicker-overview%}), [ListPicker]({%slug listpicker-overview%}). Also is could be used inside the [TemplatedPicker SelectorTemplate]({%slug templatedpicker-templates%}). 
 
 ## Configuration
 
@@ -51,4 +51,4 @@ slug: templated-picker-spinner
 
 ## See Also
 
-- [Templates]({%slug templated-picker-templates%})
+- [Templates]({%slug templatedpicker-templates%})

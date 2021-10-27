@@ -1,9 +1,9 @@
 ---
 title: Default Dates
-page_title: .NET MAUI Date Picker Documentation | Default Dates
+page_title: .NET MAUI DatePicker Documentation | Default Dates
 description: Check our &quot;Key Features&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 4
-slug: date-picker-default-dates
+slug: datepicker-default-dates
 ---
 
 # Default Dates
@@ -48,7 +48,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Templates]({%slug date-picker-templates%})
-- [Styling]({%slug date-picker-styling%})
-- [Commands]({%slug date-picker-commands%})
-- [Selection]({%slug date-picker-selection%})
+- [Templates]({%slug datepicker-templates%})
+- [Styling]({%slug datepicker-styling%})
+- [Commands]({%slug datepicker-commands%})
+- [Selection]({%slug datepicker-selection%})

@@ -1,16 +1,16 @@
 ---
 title: Commands
-page_title: .NET MAUI Date Picker Documentation | Commands
+page_title: .NET MAUI DatePicker Documentation | Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 7
-slug: date-picker-commands
+slug: datepicker-commands
 ---
 
 # Commands
 
 ## DatePicker Commands
 
-Date Picker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected date:
+DatePicker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected date:
 
 * `ToggleCommand`(*ICommand*): Allows you to show/hide the popup used for selecting a date value.
 * `ClearCommand`(*ICommand*): Allows you to clear the displayed date.
@@ -92,6 +92,6 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Formatting]({%slug date-picker-formatting%})
-- [Templates]({%slug date-picker-templates%})
-- [Selection]({%slug date-picker-selection%})
+- [Formatting]({%slug datepicker-formatting%})
+- [Templates]({%slug datepicker-templates%})
+- [Selection]({%slug datepicker-selection%})

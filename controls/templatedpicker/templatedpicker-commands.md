@@ -1,9 +1,9 @@
 ---
 title: Commands
-page_title: .NET MAUI Templated Picker Documentation | Commands
+page_title: .NET MAUI TemplatedPicker Documentation | Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 7
-slug: templated-picker-commands
+slug: templatedpicker-commands
 ---
 
 # Commands
@@ -28,7 +28,7 @@ The Accept and Cancel commands can be applied using the `SelectorSettings` prope
 
 ## Example
 
-Here is the Templated Picker definition:
+Here is the RadTemplatedPicker definition:
 
 ```XAML
 <StackLayout>
@@ -91,5 +91,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Events]({%slug templated-picker-events%})
-- [Templates]({%slug templated-picker-templates%})
+- [Events]({%slug templatedpicker-events%})
+- [Templates]({%slug templatedpicker-templates%})

@@ -1,9 +1,9 @@
 ---
 title: Templates
-page_title: .NET MAUI Date Picker Documentation | Templates
+page_title: .NET MAUI DatePicker Documentation | Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 6
-slug: date-picker-templates
+slug: datepicker-templates
 ---
 
 # Templates
@@ -152,7 +152,7 @@ Now lets add the templates definition to the page resources:
 </ControlTemplate>
 ```
 
-![Date Picker PlaceholderTemplate](images/datepicker_placeholder_template.png)
+![DatePicker PlaceholderTemplate](images/datepicker_placeholder_template.png)
 
 ### Custom DisplayTemplate
 
@@ -167,7 +167,7 @@ Now lets add the templates definition to the page resources:
 </ControlTemplate>
 ```
 
-![Date Picker DisplayTemplate](images/datepicker_display_template.png)
+![DatePicker DisplayTemplate](images/datepicker_display_template.png)
 
 ### Custom HeaderTemplate
 
@@ -200,7 +200,7 @@ Now lets add the templates definition to the page resources:
 </ControlTemplate>
 ```
 
-![Date Picker FooterTemplate](images/datepicker_header_footer_template.png)
+![DatePicker FooterTemplate](images/datepicker_header_footer_template.png)
 
 In addition to this, you need to add the following namespace:
 
@@ -210,6 +210,6 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Formatting]({%slug date-picker-formatting%})
-- [Date Range]({%slug date-picker-date-range%})
-- [Styling]({%slug date-picker-styling%})
+- [Formatting]({%slug datepicker-formatting%})
+- [Date Range]({%slug datepicker-date-range%})
+- [Styling]({%slug datepicker-styling%})

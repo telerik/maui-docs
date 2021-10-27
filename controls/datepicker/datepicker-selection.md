@@ -1,9 +1,9 @@
 ---
 title: Selection
-page_title: .NET MAUI Date Picker Documentation | Selection
+page_title: .NET MAUI DatePicker Documentation | Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 5
-slug: date-picker-selection
+slug: datepicker-selection
 ---
 
 # Selection
@@ -30,7 +30,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Methods
 
-Date Picker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method:
+DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method:
 
 ```XAML
 <StackLayout>
@@ -81,6 +81,6 @@ private void RadDatePicker_SelectionChanged(object sender, EventArgs e)
 
 ## See Also
 
-- [Default Dates]({%slug date-picker-default-dates%})
-- [Commands]({% slug date-picker-commands%})
-- [Templates]({% slug date-picker-templates%})
+- [Default Dates]({%slug datepicker-default-dates%})
+- [Commands]({% slug datepicker-commands%})
+- [Templates]({% slug datepicker-templates%})

@@ -10,7 +10,7 @@ slug: maskedentry-events
 
 RadMaskedEntry exposes the following events:
 
-* `ValueChanging`: Occurs when the editing value is changing. Through the `MaskedEntryValueChangingEventArgs` you can get ahold of:
+* `ValueChanging`: Occurs when the editing value is changing. Through the `MaskedEntryValueChangingEventArgs` you can get a hold of:
 
 	* NewValue: Gets or sets the new Value to be set to the control.
 	* IsValid: Gets or sets a value indicating the new value in considered valid according to internal (mask, regex) and external (application) validation.

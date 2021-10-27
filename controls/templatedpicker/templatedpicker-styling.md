@@ -1,9 +1,9 @@
 ---
 title: Styling
-page_title: .NET MAUI Templated Picker Documentation | Styling
+page_title: .NET MAUI TemplatedPicker Documentation | Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 9
-slug: templated-picker-styling
+slug: templatedpicker-styling
 ---
 
 # Styling
@@ -26,7 +26,7 @@ TemplatedPicker exposes the following properties for styling its Border and Back
 
 ### PlaceholderLabel Style
 
-![Templated Picker Placeholder Label Style](images/templatedpicker_placeholder_styling.png)
+![TemplatedPicker Placeholder Label Style](images/templatedpicker_placeholder_styling.png)
 ```XAML
 <Style x:Key="DefaultPlaceholderLabelStyle" TargetType="Label">
 	<Setter Property="TextColor" Value="#4A4949"/>
@@ -37,7 +37,7 @@ TemplatedPicker exposes the following properties for styling its Border and Back
 
 ### DisplayLabel Style
 
-![Templated Picker Display Label Style](images/templatedpicker_display_styling.png)
+![TemplatedPicker Display Label Style](images/templatedpicker_display_styling.png)
 ```XAML
 <Style x:Key="DisplayLabelStyle" TargetType="Label">
 	<Setter Property="TextColor" Value="#4A4949"/>
@@ -92,7 +92,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 Here is a sample example which shows how the styling properties are applied.
 
-A sample Templated Picker definition:
+A sample TemplatedPicker definition:
 
 <snippet id='templatedpicker-style' />
 ```XAML
@@ -511,13 +511,13 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is how the Templated Picker looks when the styling properties are applied:
+This is how the TemplatedPicker looks when the styling properties are applied:
 
-![Templated Picker Styling](images/templatedpicker_styling.png)
+![TemplatedPicker Styling](images/templatedpicker_styling.png)
 
 >important A sample Styling example can be found in the TemplatedPicker/Styling folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
-- [Getting Started]({%slug templated-picker-getting-started%})
-- [Templates]({%slug templated-picker-templates%})
+- [Getting Started]({%slug templatedpicker-getting-started%})
+- [Templates]({%slug templatedpicker-templates%})

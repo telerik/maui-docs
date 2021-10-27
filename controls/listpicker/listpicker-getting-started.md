@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-page_title: Getting Started .NET MAUI List Picker Control
+page_title: Getting Started .NET MAUI ListPicker Control
 description: Check our &quot;Getting Started&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 1
-slug: list-picker-getting-started
+slug: listpicker-getting-started
 ---
 
 # Getting Started
@@ -12,7 +12,7 @@ This guide demonstrates how to add Telerik UI for .NET MAUI ListPicker control t
 
 At the end, you will be able to achieve the following result:
 
-![List Picker](images/listpicker_getting_started.png)
+![ListPicker](images/listpicker_getting_started.png)
 	
 ## Prerequisites
 
@@ -109,7 +109,7 @@ using Telerik.Maui.Controls.Compatibility;
  
 ## See Also
 
-- [Looping]({%slug list-picker-looping%})
-- [Templates]({%slug list-picker-templates%})
-- [Styling]({%slug list-picker-styling%})
-- [Visual Structure]({%slug list-picker-visual-structure%})
+- [Looping]({%slug listpicker-looping%})
+- [Templates]({%slug listpicker-templates%})
+- [Styling]({%slug listpicker-styling%})
+- [Visual Structure]({%slug listpicker-visual-structure%})

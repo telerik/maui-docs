@@ -1,14 +1,14 @@
 ---
 title: Looping
-page_title: .NET MAUI List Picker Documentation | Looping
+page_title: .NET MAUI ListPicker Documentation | Looping
 description: Check our &quot;Looping&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 2
-slug: list-picker-looping
+slug: listpicker-looping
 ---
 
 # Looping
 
-List Picker for .NET MAUI provides looping functionality which allows you to loop the list of items after reaching the last item.
+ListPicker for .NET MAUI provides looping functionality which allows you to loop the list of items after reaching the last item.
 
 You can achieve this by setting ListPicker `IsLooping`(*bool*) property to *true*.
 
@@ -78,13 +78,13 @@ public class CitiesViewModel
 
 This is how the Looping functionality looks:
 
-![List Picker Looping](images/looping_gif.gif)
+![ListPicker Looping](images/looping_gif.gif)
 
 >important A sample Looping example can be found in the ListPicker/Looping folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
-- [Templates]({%slug list-picker-templates%})
-- [Styling]({%slug list-picker-styling%})
-- [Selection]({%slug list-picker-selection%})
-- [Commands]({%slug list-picker-commands%})
+- [Templates]({%slug listpicker-templates%})
+- [Styling]({%slug listpicker-styling%})
+- [Selection]({%slug listpicker-selection%})
+- [Commands]({%slug listpicker-commands%})

@@ -1,14 +1,14 @@
 ---
 title: Events
-page_title: .NET MAUI Templated Picker Documentation | Events
+page_title: .NET MAUI TemplatedPicker Documentation | Events
 description: Check our &quot;Events&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 5
-slug: templated-picker-events
+slug: templatedpicker-events
 ---
 
 # Events
 
-Templated Picker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
+TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
 
 ## Example
 
@@ -33,6 +33,6 @@ private void RadTemplatedPicker_SelectionChanged(object sender, System.EventArgs
 
 ## See Also
 
-- [Commands]({%slug templated-picker-commands%})
-- [Methods]({%slug templated-picker-methods%})
-- [Templates]({% slug templated-picker-templates%})
+- [Commands]({%slug templatedpicker-commands%})
+- [Methods]({%slug templatedpicker-methods%})
+- [Templates]({% slug templatedpicker-templates%})

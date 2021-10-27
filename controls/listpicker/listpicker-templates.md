@@ -1,14 +1,14 @@
 ---
 title: Templates
-page_title: .NET MAUI List Picker Documentation | Templates
+page_title: .NET MAUI ListPicker Documentation | Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 6
-slug: list-picker-templates
+slug: listpicker-templates
 ---
 
 # Templates
 
-List Picker for .NET MAUI provides the following templates:
+ListPicker for .NET MAUI provides the following templates:
 
 * `ItemTemplate`(*DataTemplate*): Defines the template used for displaying the list of items.
 * `SelectedItemTemplate`(*DataTemplate*): Specifies the template used for visualizing the selected item from the list.
@@ -20,11 +20,11 @@ Using `SelectorSettings` property(of type *Telerik.XamarinForms.Input.PickerPopu
 * `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
 * `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
 
-This is the Visual Srtucture of the List Picker Templates:
+This is the Visual Srtucture of the ListPicker Templates:
 
-![List Picker Visual Structure](images/listpicker_visual_structure_templates.png)
+![ListPicker Visual Structure](images/listpicker_visual_structure_templates.png)
 
-In addition the List Picker for .NET MAUI provides the following properties:
+In addition the ListPicker for .NET MAUI provides the following properties:
 
 * `ItemsSource`(*IList*): Specifies the collection used to generate the content of the list picker.
 * `ItemLength`(*double*): Defines the length of the items inside the list.
@@ -34,7 +34,7 @@ In addition the List Picker for .NET MAUI provides the following properties:
 
 ## Example
 
-Here is a sample List Picker definition:
+Here is a sample ListPicker definition:
 
 <snippet id='listpicker-features-templates' />
 ```XAML
@@ -194,10 +194,10 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 This is the result:
 
-![List Picker Templates](images/listpicker_templates.png)
+![ListPicker Templates](images/listpicker_templates.png)
 
 >important A sample Templates example can be found in the ListPicker/Templates folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
-- [Styling]({%slug list-picker-styling%})
+- [Styling]({%slug listpicker-styling%})

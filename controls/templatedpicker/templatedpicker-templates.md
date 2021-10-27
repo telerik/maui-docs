@@ -1,14 +1,14 @@
 ---
 title: Templates
-page_title: .NET MAUI Templated Picker Documentation | Templates
+page_title: .NET MAUI TemplatedPicker Documentation | Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
 position: 3
-slug: templated-picker-templates
+slug: templatedpicker-templates
 ---
 
 # Templates
 
-Templated Picker for .NET MAUI provides the following templates:
+TemplatedPicker for .NET MAUI provides the following templates:
 
 * `SelectorTemplate`(*ControlTemplate*): Defines the template used for displaying the selector of the picker.
 
@@ -352,10 +352,10 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is the templated picker visual structure:
+This is the TemplatedPicker visual structure:
 
-![Templated Picker](images/templated_picker_visual_structure.png)
+![TemplatedPicker](images/templated_picker_visual_structure.png)
 
 ## See Also
 
-- [Styling]({%slug templated-picker-styling%})
+- [Styling]({%slug templatedpicker-styling%})

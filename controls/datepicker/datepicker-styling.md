@@ -1,21 +1,21 @@
 ---
 title: Styling
-page_title: .NET MAUI Date Picker Documentation | Styling
+page_title: .NET MAUI DatePicker Documentation | Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 8
-slug: date-picker-styling
+slug: datepicker-styling
 ---
 
 # Styling
 
 ## DatePicker Styling
 
-Date Picker control for .NET MAUI provides the following Style properties for customizing its look:
+DatePicker control for .NET MAUI provides the following Style properties for customizing its look:
 
 * `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**): Defines the style applied to the spinner item and selected item.
 * `SpinnerHeaderStyle`(of type *Style* with target type **Label**): Specifies the style applied to each spinner header label.
 * `SelectionHighlightStyle`(of type *Style* with target type **telerikPrimitives:RadBorder**): Specifies the style applied to the border highlights the selection.
-* `PlaceholderLabelStyle`(of type *Style* with target type **Label**): Specifies the style applied to the label defined in the [default PlaceholderTemplate]({%slug date-picker-templates%}#default-placeholdertemplate). 
+* `PlaceholderLabelStyle`(of type *Style* with target type **Label**): Specifies the style applied to the label defined in the [default PlaceholderTemplate]({%slug datepicker-templates%}#default-placeholdertemplate). 
 * `DisplayLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the label which is visualized when date is selected.
 
 `PickerContentView` class exposes the following properties for styling the DatePicker Border and Background Color:
@@ -253,11 +253,11 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 This is how the Date Picker control looks when the styles described above are applied:
 
-![Date Picker](images/datepicker_style.png)
+![DatePicker](images/datepicker_style.png)
 
 ## See Also
 
-- [Formatting]({%slug date-picker-formatting%})
-- [Templates]({%slug date-picker-templates%})
-- [Commands]({%slug date-picker-commands%})
-- [Visual Structure]({%slug date-picker-visual-structure%})
+- [Formatting]({%slug datepicker-formatting%})
+- [Templates]({%slug datepicker-templates%})
+- [Commands]({%slug datepicker-commands%})
+- [Visual Structure]({%slug datepicker-visual-structure%})

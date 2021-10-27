@@ -1,14 +1,14 @@
 ---
 title: Methods
-page_title: .NET MAUI Templated Picker Documentation | Methods
+page_title: .NET MAUI TemplatedPicker Documentation | Methods
 description: Check our &quot;Methods&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 6
-slug: templated-picker-methods
+slug: templatedpicker-methods
 ---
 
 # Methods
 
-Templated Picker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
+TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
 
 ### Example
 
@@ -42,5 +42,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;Telerik.Maui.Contro
 
 ## See Also
 
-- [Events]({%slug templated-picker-events%})
-- [Commands]({%slug templated-picker-commands%})
+- [Events]({%slug templatedpicker-events%})
+- [Commands]({%slug templatedpicker-commands%})

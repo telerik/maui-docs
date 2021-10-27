@@ -1,9 +1,9 @@
 ---
 title: Commands
-page_title: .NET MAUI List Picker Documentation | Commands
+page_title: .NET MAUI ListPicker Documentation | Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 7
-slug: list-picker-commands
+slug: listpicker-commands
 ---
 
 # Commands
@@ -123,5 +123,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Selection]({%slug list-picker-selection%})
-- [Templates]({%slug list-picker-templates%})
+- [Selection]({%slug listpicker-selection%})
+- [Templates]({%slug listpicker-templates%})
