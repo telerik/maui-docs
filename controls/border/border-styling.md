@@ -9,24 +9,22 @@ slug: border-styling
 
 # Styling
 
-The purpose of this help article is to show you the styling options of the RadBorder control. 
+The Border control provides options for styling its appearance and enables you to set its color and thickness.
 
 ## Border Color
 
-RadBorder exposes `BorderColor` property, which enables you to specify its color. If the thickness of the Border is set to `0`, the `BorderColor` property is disabled.
+To specify the color of the Border, use the `BorderColor` property. If the thickness of the Border is set to `0`, the `BorderColor` property is disabled.
 
 ## Border Thickness
 
-RadBorder provides the `BorderThickness` property, which enables you to specify its width.
+To specify the width of the Border control, use its `BorderThickness` property.
 
 `BorderThickness` is of the `Microsoft.Maui.Thickness` type and allows you to define a different border on each side of the surrounded element.
-
-### Example
 
 The following example demonstrates how to use the `BorderColor` and `BorderThickness` properties.
 
 ```XAML
-<telerikPrimitives:RadBorder BorderColor="#4488F6" 
+<telerikPrimitives:RadBorder BorderColor="#4488F6"
 							 BorderThickness="1, 2, 1, 2">
     <Label Text="Hello there" Margin="2" />
 </telerikPrimitives:RadBorder>
