@@ -52,13 +52,13 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     4.1 Open the SDKBrowser folder in Visual Studio 2022 Preview.
 
-        ![Telerik UI Maui SDKBrowser Maui App VS Code](../images/sdkmaui-structure.png)
+   ![Telerik UI Maui SDKBrowser Maui App VS Code](../images/sdkmaui-structure.png)
 
     4.2 Wait the project to restore.
 
     4.3 Select the target framework of the project.
 
-        ![Telerik UI SDKBrowser Maui App](../images/maui-win-ui-project-structure.png)
+   ![Telerik UI SDKBrowser Maui App](../images/maui-win-ui-project-structure.png)
 
     4.4 Select the emulator or device on which you want to run the application.
 
