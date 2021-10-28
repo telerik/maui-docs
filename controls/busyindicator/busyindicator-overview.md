@@ -10,13 +10,13 @@ slug: busyindicator-overview
 
 **Telerik BusyIndicator for .NET MAUI** allows you to display a notification whenever a long-running process is being handled by the application. This makes the UI more informative and the user experience smoother.
 
-![BusyIndicator example](images/busyindicator-overview.png) 
+![BusyIndicator example](images/busyindicator-overview.png)
 
-## Key features
+## Key Features
 
-- [Built-in animations]({%slug busyindicator-animations%})&mdash; The busy indicator component provides a few built-in animations which you can use.
-- [Custom animation]({%slug busyindicator-animations%}#custom-animation) &mdash; The control allows you to define a custom content and animate it using `RadAnimation` class. 
-- [Custom Busy Content]({%slug busyindicator-custom-busy-content%}) &mdash;  Setting `BusyContent` property of RadBusyIndicator allows you to display any content together with the built-in animations while the control is in Busy state.
+- [Built-in animations]({%slug busyindicator-animations%})&mdash;The BusyIndicator component provides a set of built-in animations, which you can use.
+- [Custom animation]({%slug busyindicator-animations%}#custom-animation) &mdash;The control allows you to define custom content and animate it by using the `RadAnimation` class.
+- [Custom busy content]({%slug busyindicator-custom-busy-content%})&mdash;Setting the `BusyContent` property of BusyIndicator allows you to display any content along with the built-in animations while the control is in its Busy state.
 
 ## Next Steps
 
