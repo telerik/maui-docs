@@ -30,7 +30,6 @@ NumericMaskedEntry is used for handling numeric user input.  The numeric mask is
 * Decimal values.
 * Currency (culture-aware).
 * Fixed point values.
-* Percent values.
 
 Through the `Mask` property you can specify the exact format of the expected input. Here is an example of `RadNumericMaskedEntry` with "Currency" value:
 
@@ -66,7 +65,7 @@ Create a `RadIPMaskedEntry` like this:
 
 ## Text Mask
 
-TextMaskedEntry is used for for handling standard (alphanumeric) user input. Resulting value is string object.
+TextMaskedEntry is used for handling standard (alphanumeric) user input. Resulting value is string object.
 
 Create a `RadTextMaskedEntry` like this:
 
