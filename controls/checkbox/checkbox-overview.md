@@ -1,26 +1,25 @@
 ---
 title: Overview
 page_title: .NET MAUI CheckBox Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik CheckBox for .NET MAUI.
+description: "Try now the Telerik CheckBox for .NET MAUI enabling users to make a choice between two mutually exclusive options."
 position: 0
 slug: checkbox-overview
 ---
 
 # Overview
 
-**Telerik RadCheckBox for .NET MAUI** is a checkbox control which enables users to make a choice between two mutually exclusive options. The user’s selection is indicated by a check mark, and when a user clicks the checkbox its appearance and state change.  
+**Telerik RadCheckBox for .NET MAUI** is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
 
-#### Figure 1: RadCheckBox Overview
+> The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS it is visualized as a circle while Android and WinUI display it as a square.
+
 ![CheckBox Overview](images/checkbox-overview.png "CheckBox Overview")
 
-## Key features
+## Key Features
 
-* **Indeterminate state support**: RadCheckBox provides an additional indeterminate state which indicates the control is neither checked nor unchecked, for more details go [here]({%slug checkbox-key-features %}#checkbox-states).
-* **Color customization**: You will be able to set various Color properties to make changes to the look of different parts of the CheckBox control, check [here]({% slug checkbox-styling %}#colors) for more details.
-* **Stroke Width customization**: You will have the option to customize the layout of the CheckBox, including the borders and the check mark, read more [here]({%slug checkbox-styling %}#stroke-width).
-* **Different sizes**: You will be able to set the dimension of the CheckBox by adjusting only one property - the Length property, check the details [here]({%slug checkbox-styling %}#checkbox-length).
+* [States]({% slug checkbox_states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
+* [Dimensions]({% slug checkbox_dimensions %})&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
+* [Styling]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
 ## See Also
 
-- [Getting Started]({%slug checkbox-getting-started %})
-- [CheckBox Styling]({% slug checkbox-styling%})
+- [Getting Started with Telerik UI for .NET MAUI CheckBox]({% slug checkbox-getting-started %})
