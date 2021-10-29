@@ -1,38 +1,33 @@
 ---
 title: Overview
 page_title: .NET MAUI DatePicker Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik DatePicker for .NET MAUI.
+description: "Try now the Telerik DatePicker for .NET MAUI delivering a set of options for selecting dates."
 position: 0
 slug: datepicker-overview
 ---
 
 # Overview
 
-**Telerik DatePicker for .NET MAUI** allows the users to select a date. Its items are visualized inside a popup. DatePicker control has a number of features which allows you to set a date range, date format and fully customize the dialog appearance such as its header and footer.  
+**Telerik DatePicker for .NET MAUI** allows the user to select a date and visualizes its items inside a popup. The DatePicker control has a number of features which enable you to set a date range, date format and fully customize the dialog appearance by setting, for example, its header and footer.  
 
 >important Telerik UI for .NET MAUI DatePicker is available for Android and iOS.
 
 ![DateTime Picker Overview](images/date_picker_overview.png)
 
-## Key features
+## Key Features
 
-* [Spinner Format]({%slug datepicker-formatting%}#spinner-format): DatePicker for .NET MAUI allows you to use standard or custom date format string through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+* [Spinner format]({%slug datepicker-formatting%}#setting-the-spinner-format)&mdash;The DatePicker for .NET MAUI allows you to use a standard or custom date format string through its `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with the prepopulated values ready to be picked.
 
-* [Templates]({%slug datepicker-templates%}): DatePicker provides templates for its header and footer. Also we have exposed templates for the picker placeholder and display text.
+* [Templates]({%slug datepicker-templates%})&mdash;The DatePicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
 
-* [DisplayString Format]({%slug datepicker-formatting%}#displaystring-format): You can choose what text to be displayed when a date is selected using the DatePicker `DisplayStringFormat` property. 
+* [DisplayString format]({%slug datepicker-formatting%}#setting-the-closed-dialog-string-format)&mdash;You can choose what text that will be displayed when a date is selected by using the `DisplayStringFormat` property of the DatePicker.
 
-* [Date Range]({%slug datepicker-date-range%}): DatePicker allows you to define a date range when setting minimum and maximum date values and choose a date in between.
+* [Date ranges]({%slug datepicker-date-range%})&mdash;You can also define date ranges by setting minimum and maximum date values, and choose a date within that range.
 
-* [Flexible Styling API]({%slug datepicker-styling%}): Take advantage of the styling capabilities of the RadDatePicker control. You can easily style its Spinners, the Popup and its header and footer, the text displayed after date is selected and many more.
+* [Flexible styling API]({%slug datepicker-styling%})&mdash;The DatePicker provides a number of styling capabilities, which enable you to easily style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
 
-* [Commands Support]({%slug datepicker-commands%}): DatePicker exposes command that allows you to clear the selected date - `Clear Command` and `Toggle Command` that allows you to open and close the dialog.
+* [Commands support]({%slug datepicker-commands%})&mdash;The DatePicker exposes commands that allow you to clear the selected date and to open and close the popup.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI DatePicker]({%slug datepicker-getting-started%})
-- [Visual Structure]({%slug datepicker-visual-structure%})
-- [Formatting]({%slug datepicker-formatting%})
-- [Date Range]({%slug datepicker-date-range%})
-- [Templates]({%slug datepicker-templates%})
-- [Styling]({%slug datepicker-styling%})

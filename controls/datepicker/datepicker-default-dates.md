@@ -1,20 +1,18 @@
 ---
 title: Default Dates
 page_title: .NET MAUI DatePicker Documentation | Default Dates
-description: Check our &quot;Key Features&quot; documentation article for Telerik DatePicker for .NET MAUI.
+description: "Define preselected dates in the Telerik DatePicker for .NET MAUI and in the spinner."
 position: 4
 slug: datepicker-default-dates
 ---
 
 # Default Dates
 
-This article will explain how you can define preselected dates both in the DatePicker - the selected date, and in the spinner - the highlighted date.
+You can define preselected dates both in the DatePicker (the selected date) and in the spinner (the highlighted date).
 
-## Current Selected Date
+## Defining the Current Date Selection
 
-Through the `Date` property of type *DateTime?* you can define the current date selection. The default value is null.
-
-### Example 
+Through the `Date` property of the `DateTime?` type you can define the current date selection. The default value is `null`.
 
 <snippet id='datepicker-keyfeatures-date-spinnerformat' />
 ```XAML
@@ -22,17 +20,15 @@ Through the `Date` property of type *DateTime?* you can define the current date 
                             SpinnerFormat="yyy-MMM"/>
 ```
 
-and add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Default Highlighted Date
+## Setting the Highlighted Date
 
-RadDatePicker `DefaultHighlightedDate` of type *DateTime* defines the System.DateTime which will be used to pre-scroll each spinner when `Date` property is set to null.
-
-### Example
+The `DefaultHighlightedDate` property of type `DateTime` defines the `System.DateTime`, which will be used to pre-scroll each spinner when the `Date` property is set to `null`.
 
 ```XAML
 <telerikInput:RadDateTimePicker Date="{x:Null}"
@@ -40,7 +36,7 @@ RadDatePicker `DefaultHighlightedDate` of type *DateTime* defines the System.Dat
                                 SpinnerFormat="dd/MMM/yyyy"/>
 ```
 
-and the namespace needed:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"

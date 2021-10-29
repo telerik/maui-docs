@@ -1,82 +1,86 @@
 ---
 title: Styling
 page_title: .NET MAUI DatePicker Documentation | Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik DatePicker for .NET MAUI.
+description: "Apply the styling options of the Telerik UI for .NET MAUI DatePicker and set the appearance of the control and its popup."
 position: 8
 slug: datepicker-styling
 ---
 
 # Styling
 
+The DatePicker control for .NET MAUI provides styling options for customizing its appearance.
+
 ## DatePicker Styling
 
-DatePicker control for .NET MAUI provides the following Style properties for customizing its look:
+The control supports the following properties:
 
-* `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**): Defines the style applied to the spinner item and selected item.
-* `SpinnerHeaderStyle`(of type *Style* with target type **Label**): Specifies the style applied to each spinner header label.
-* `SelectionHighlightStyle`(of type *Style* with target type **telerikPrimitives:RadBorder**): Specifies the style applied to the border highlights the selection.
-* `PlaceholderLabelStyle`(of type *Style* with target type **Label**): Specifies the style applied to the label defined in the [default PlaceholderTemplate]({%slug datepicker-templates%}#default-placeholdertemplate). 
-* `DisplayLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the label which is visualized when date is selected.
+* `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**)&mdash;Defines the style applied to the spinner item and the selected item.
+* `SpinnerHeaderStyle`(of type *Style* with target type **Label**)&mdash;Specifies the style applied to each spinner header label.
+* `SelectionHighlightStyle`(of type *Style* with target type **telerikPrimitives:RadBorder**)&mdash;Specifies the style applied to the border that highlights the selection.
+* `PlaceholderLabelStyle`(of type *Style* with target type **Label**)&mdash;Specifies the style applied to the label defined in the [default `PlaceholderTemplate`]({%slug datepicker-templates%}#default-placeholdertemplate).
+* `DisplayLabelStyle`(of type *Style* with target type **Label**)&mdash;Defines the style applied to the label, which is visualized when a date is selected.
 
-`PickerContentView` class exposes the following properties for styling the DatePicker Border and Background Color:
+The `PickerContentView` class exposes the following properties for styling the DatePicker border and background color:
 
-* `BackgroundColor`: Defines the background color of the picker.
-* `BorderColor`: Defines the border color of the picker.
-* `BorderThickness`: Specifies the border thickness of the picker. Default value is *new Thickness(0,0,0,1)*.
-* `CornerRadius`: Specifies the corner radius of the picker.
+* `BackgroundColor`&mdash;Defines the background color of the picker.
+* `BorderColor`&mdash;Defines the border color of the picker.
+* `BorderThickness`&mdash;Specifies the border thickness of the picker. Its default value is `new Thickness(0,0,0,1)`.
+* `CornerRadius`&mdash;Specifies the corner radius of the picker.
 
 ## Popup Styling
 
-Using the `SelectorSettings` property (*of type Telerik.XamarinForms.Input.PickerPopupSelectorSettings*) of the DatePicker you can modify the appearance of the dialog (popup). `PickerPopupSelectorSettings` class exposes the following Style properties:
+By using the `SelectorSettings` property (of type **Telerik.XamarinForms.Input.PickerPopupSelectorSettings**) of the DatePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSelectorSettings` class exposes the following `Style` properties:
 
-* `PopupViewStyle`(of type *Style* with target type **telerikInput:PickerPopupContentView**): Defines the popup view style.
-* `HeaderStyle`(of type *Style* with target type **telerikInput:PickerPopupHeaderView**): Defines the popup header style.
-* `HeaderLabelStyle`(of type *Style* with target type **Label**): Defines the popup header label style.
-* `FooterStyle`(of type *Style* with target type **telerikInput:PickerPopupFooterView**): Defines the popup footer style.
-* `AcceptButtonStyle`(of type *Style* with target type **Button**): Defines the Accept button style.
-* `CancelButtonStyle`(of type *Style* with target type **Button**): Defines the Cancel button style.
+* `PopupViewStyle`(of type *Style* with target type **telerikInput:PickerPopupContentView**)&mdash;Defines the popup view style.
+* `HeaderStyle`(of type *Style* with target type **telerikInput:PickerPopupHeaderView**)&mdash;Defines the popup header style.
+* `HeaderLabelStyle`(of type *Style* with target type **Label**)&mdash;Defines the popup header label style.
+* `FooterStyle`(of type *Style* with target type **telerikInput:PickerPopupFooterView**)&mdash;Defines the popup footer style.
+* `AcceptButtonStyle`(of type *Style* with target type **Button**)&mdash;Defines the **Accept** button style.
+* `CancelButtonStyle`(of type *Style* with target type **Button**)&mdash;Defines the **Cancel** button style.
 
 The `SelectorSettings` also provides the following properties for popup customization:
 
-* `PopupOutsideBackgroundColor`: Defines the color outside of the popup.
-* `IsPopupModal`(*bool*): Defines a boolean value indicating if the popup should be closed when tapped outside of the popup. By default the value of the `IsPopupModal` is **false**.
-	* When *IsPopupModal="True"*  the UI behind the popup gets inactive and cannot be used until the popup is closed. 
-	* When *IsPopupModal="False"* the popup could be closed when clicking outside the popup. 	
-	
-* `HeaderLabelText`(*string*): Specifies the text visualized in the popup header.
-* `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the value is *True*.
-* `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the value is *True*.
-* `AcceptButtonText`(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
-* `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
+* `PopupOutsideBackgroundColor`&mdash;Defines the color outside of the popup.
+* `IsPopupModal`(*bool*)&mdash;Defines a Boolean value indicating if the popup will be closed when tapped outside of the popup. By default, the value of the `IsPopupModal` is `false`.
+
+	When `IsPopupModal="True"`, the UI behind the popup gets inactive and cannot be used until the popup is closed.
+
+	When `IsPopupModal="False"`, the popup can be closed when clicking outside the popup. 	
+
+* `HeaderLabelText`(*string*)&mdash;Specifies the text visualized in the popup header.
+* `IsHeaderVisible`(*bool*)&mdash;Specifies whether the Popup header is currently visible. By default, the value is `True`
+* `IsFooterVisible`(*bool*)&mdash;Specifies whether the Popup footer is currently visible. By default, the value is `True`.
+* `AcceptButtonText`(*string*)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
+* `CancelButtonText`(*string*)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
 ## Namespaces
 
-Using `PopupViewStyle`, `HeaderStyle`, `FooterStyle` you will need to add the following namespace:
+When you use `PopupViewStyle`, `HeaderStyle`, `FooterStyle`, you will need to add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Using **SelectionHighlightStyle** you need to add the following namespace:
+When you use `SelectionHighlightStyle`, you need to add the following namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-Using **SpinnerStyle** you need to add the following namespace:
+When you use `SpinnerStyle`, you need to add the following namespace:
 
 ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-### Example
+## Example for Implementing the Styling Options
 
-Here is a sample example that shows how the styling properties are applied.
+The following example demonstrates how to define a sample RadDatePicker.
 
-A sample RadDatePicker definition:
+#### Defining the RadDatePicker
 
 <snippet id='datepicker-style' />
-```XAML
+ ```XAML
 <telerikInput:RadDatePicker SpinnerHeaderStyle="{StaticResource spinnerHeaderStyle}"
 							SpinnerStyle="{StaticResource spinnerStyle}"
 							SelectionHighlightStyle="{StaticResource selectionHighlightStyle}"
@@ -96,11 +100,11 @@ A sample RadDatePicker definition:
 												  CancelButtonStyle="{StaticResource cancelButtonStyle}"/>
 	</telerikInput:RadDatePicker.SelectorSettings>
 </telerikInput:RadDatePicker>
-```
-		
-and here are how the styles are defined in the page resources:
+ ```
 
-## Spinner Style
+The following examples demonstrate how to set the styling of the page resources.
+
+#### Spinner Style
 
 <snippet id='datepicker-style-spinner-style' />
 ```XAML
@@ -123,7 +127,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## SpinnerHeader Style
+#### SpinnerHeader Style
 
 <snippet id='datepicker-style-spinner-header-style' />
 ```XAML
@@ -137,7 +141,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## SelectionHighlight Style
+#### SelectionHighlight Style
 
 <snippet id='datepicker-style-selection-highlight-style' />
 ```XAML
@@ -150,7 +154,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## PlaceholderLabel Style
+#### PlaceholderLabel Style
 
 <snippet id='datepicker-style-placeholder-label-style' />
 ```XAML
@@ -162,7 +166,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## DisplayLabel Style
+#### DisplayLabel Style
 
 <snippet id='datepicker-style-display-label-style' />
 ```XAML
@@ -174,7 +178,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## PopupView Style
+#### PopupView Style
 
 <snippet id='datepicker-style-popupview-style' />
 ```XAML
@@ -184,7 +188,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## Header Style
+#### Header Style
 
 <snippet id='datepicker-style-header-style' />
 ```XAML
@@ -198,7 +202,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## HeaderLabel Style
+#### HeaderLabel Style
 
 <snippet id='datepicker-style-header-label-style' />
 ```XAML
@@ -210,7 +214,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## Footer Style
+#### Footer Style
 
 <snippet id='datepicker-style-footer-style' />
 ```XAML
@@ -219,7 +223,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## AcceptButton Style
+#### AcceptButton Style
 
 <snippet id='datepicker-style-accept-button-style' />
 ```XAML
@@ -230,7 +234,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## CancelButton Style
+#### CancelButton Style
 
 <snippet id='datepicker-style-cancel-button-style' />
 ```XAML
@@ -241,7 +245,7 @@ and here are how the styles are defined in the page resources:
 </Style>
 ```
 
-## Namespaces
+#### Namespaces
 
 In addition, add the following namespaces:
 
@@ -251,7 +255,7 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-This is how the Date Picker control looks when the styles described above are applied:
+The following image shows what the DatePicker control looks like when the styles described above are applied:
 
 ![DatePicker](images/datepicker_style.png)
 
