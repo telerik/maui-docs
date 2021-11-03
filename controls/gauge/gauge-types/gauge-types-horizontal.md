@@ -1,18 +1,16 @@
 ---
 title: Horizontal Gauge
-page_title: download Gauge Documentation | Horizontal Gauge
-description: Check our &quot;Horizontal Gauge&quot; documentation article for Telerik Gauge for download control.
+page_title: .NET MAUI Gauge Documentation | Horizontal Gauge
+description: "Get started with the Telerik UI for .NET MAUI Horizontal Gauge and add the control to your .NET MAUI project."
 position: 1
 slug: gauge-types-horizontal
 ---
 
 # Horizontal Gauge
 
-The **RadHorizontalGauge** control allows you to display the scale's range in a linear form, horizontally oriented.
+The Horizontal Gauge allows you to display the scale range in a linear form and horizontally oriented.
 
-## Setting up the gauge
-
-The following example shows a **RadHorizontalGauge**'s basic set up.
+The following example shows the basic setup of the Horizontal Gauge.
 
 ```XAML
 <telerikGauges:RadHorizontalGauge x:Name="gauge">
@@ -38,9 +36,9 @@ The following example shows a **RadHorizontalGauge**'s basic set up.
 </telerikGauges:RadHorizontalGauge>
 ```
 
-Here is the result:
+The following image shows the end result.
 
-![Radial gauge example](../images/gauge-types-horizontal-gauge-0.png) 
+![Radial gauge example](../images/gauge-types-horizontal-gauge-0.png)
 
 ## See Also
 

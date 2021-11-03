@@ -1,18 +1,16 @@
 ---
 title: Vertical Gauge
 page_title: .NET MAUI Gauge Documentation | Vertical Gauge
-description: Check our &quot;Vertical Gauge&quot; documentation article for Telerik Gauge for .NET MAUI control.
+description: "Get started with the Telerik UI for .NET MAUI Vertical Gauge and add the control to your .NET MAUI project."
 position: 2
 slug: gauge-types-vertical
 ---
 
 # Vertical Gauge
 
-The **RadVerticalGauge** control allows you to display the scale's range in a linear form, vertically oriented.
+The Vertical Gauge allows you to display the scale range in a linear form and vertically oriented.
 
-## Setting up the gauge
-
-The following example shows a **RadVerticalGauge**'s basic set up.
+The following example shows the basic setup of the Vertical Gauge.
 
 ```XAML
 <telerikGauges:RadVerticalGauge x:Name="gauge">
@@ -38,11 +36,12 @@ The following example shows a **RadVerticalGauge**'s basic set up.
 </telerikGauges:RadVerticalGauge>
 ```
 
-Here is the result:
+The following image shows the end result.
 
-![Vertical gauge example](../images/gauge-types-vertical-gauge-0.png) 
+![Vertical gauge example](../images/gauge-types-vertical-gauge-0.png)
 
 ## See Also
+
 - [Radial Gauge]({%slug gauge-types-radial%})
 - [Horizontal Gauge]({%slug gauge-types-horizontal%})
 - [Axis]({%slug gauge-axis%})

@@ -1,26 +1,24 @@
 ---
 title: Animations
 page_title: .NET MAUI Gauge Documentation | Animations
-description: Check our &quot;Animations&quot; documentation article for Telerik Gauge for .NET MAUI control.
+description: "Control the animations behavior of the Telerik Gauge for .NET MAUI by using the supported animation options."
 position: 3
 slug: gauge-animations
 ---
 
 # Animations
 
-All gauge indicators are being animated upon initial load and upon value change. The animations are enabled by default and you have full control over them via the **AnimationSettings** property. 
+All Gauge indicators are animated upon initial load and upon value change. The animations are enabled by default.
 
-**AnimationSettings** property could be applied to the Gauge or separately to the indicators. By default the property of the indicator is null and in this case the **AnimationSettings** property of the gauge is taken into consideration. This allows you to control all animations by setting only one property - the property of the gauge. If you need an indicator to be animated differently, you can set its **AnimationSettings** property as it has a higher precedence than the gauge's property.
+To control the Gauge animations, use the **AnimationSettings** property by applying it either to the Gauge or separately to its indicators. By default, the property of the indicator is `null` and in this case the **AnimationSettings** property of the Gauge will be considered. This behavior allows you to control all animations by setting a single property, that of the Gauge. To animate an indicator differently, set its **AnimationSettings** property as it has a higher precedence than the Gauge property.
 
 The **AnimationSettings** class contains the following properties:
 
-* Duration *(int)*: Defines the duration of the animation in milliseconds.
-* Easing: Defines the easing of the animation.
-* Enabled *(bool)*: Specifies whether the animation will be enabled or not. By default the Enabled property is *true*.
+* Duration *(int)*&mdash;Defines the duration of the animation in milliseconds.
+* Easing&mdash;Defines the easing of the animation.
+* Enabled *(bool)*&mdash;Specifies whether the animation will be enabled or not. By default, the `Enabled` property is *true*.
 
-## Example
-
-Here is an example how to set the AnimationSettings property:
+The following example demonstrates how to set the `AnimationSettings` property:
 
 ```XAML
 <telerikGauges:RadRadialGauge x:Name="gauge1"
@@ -55,7 +53,7 @@ Here is an example how to set the AnimationSettings property:
 </telerikGauges:RadRadialGauge>
 ```
 
-Here is a gif animation that shows all animations provided in the Gauge control:
+The following GIF animation shows all animations supported by the Gauge.
 
 ![Gauge Animations](images/gauge-animations.gif)
 
