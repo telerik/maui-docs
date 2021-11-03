@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Entry Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Entry for .NET MAUI control.
+description: "Try now the Telerik for .NET MAUI Entry accepting string input and providing various customization options such as adding watermarks and more."
 tags: entry for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: entry-overview
@@ -9,24 +9,16 @@ slug: entry-overview
 
 # Overview
 
-**RadEntry** is a text input control that accepts string input and provides various customization options such as watermark, read-only-state, border styles, and more.
+**Telerik UI for .NET MAUI Entry** is a text input control that accepts string input and provides various customization options such as adding watermarks, setting its read-only state, defining border styles, and more.
 
-If you are new to RadEntry, see the [Getting Started]({% slug entry-getting-started%}) guide that demonstrates how to add the control to your application.
-
-#### Figure 1: RadEntry Overview
 ![Entry Overview](images/entry_overview.png "Entry Overview")
 
-## Key features
+## Key Features
 
-* **Watermark**: RadEntry allows you to add a hint text as a placeholder in the control. You can use this text to guide the users what is the expected input. For more details, see the [Text Appearance]({% slug entry-text-appearance%}#watermark) article.
-* **Keyboard support**: You can add a virtual keyboard and specify its type, for example, `Numeric`.
-* **Non-Editable (Read-Only) state**: Using a single property - `IsReadOnly`, you can specify whether the RadEntry control can be edited or not. Example and explanation can be found in [Text Appearance - Read-Only State]({%slug entry-text-appearance%}#read-only-state).
-* You can define the **maximum number of symbols** allowed in the RadEntry control. For detailed explanation and example check the [Text Appearance - Max Length]({%slug entry-text-appearance%}#max-length) section.
-* **Border styles**: RadEntry gives you the option to customize the look of the border around the input by using the BorderStyle property. For more details, see the [Styling]({% slug entry-styling%}) topic.
+* [Text appearance options]({% slug entry-text-appearance %})&mdash;The Entry provides a set of options for configuring the its text input, adding a watermark to that text, setting a read-only state for the input field, defining a keyboard type, and more.
+* [Text selection]({% slug entry-text-selection %})&mdash;You can specify the starting position of the selected text as well as the number of characters of the selected Entry input.
+* [Styling]({% slug entry-styling %})&mdash;You can also customize the appearance of the border around the Entry input and set the font styles of the text.
 
 ## See Also
 
-- [Getting Started]({% slug entry-getting-started%})
-- [Text Appearance]({% slug entry-text-appearance%})
-- [Text Selection]({%slug entry-text-selection %})
-- [Events]({% slug entry-events%})
+- [Getting Started with Telerik UI for .NET MAUI Entry]({% slug entry-getting-started%})
