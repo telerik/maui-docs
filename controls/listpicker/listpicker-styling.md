@@ -13,7 +13,7 @@ slug: listpicker-styling
 ListPicker for .NET MAUI provides the following Style properties for customizing its look:
 
 * `ItemStyle`(of type *Style* with target type **telerikDataControls:SpinnerItemView**): Defines the style applied to the list of items.
-* `SelectedItemStyle`(of type *Style* with target type **telerikDataControls:SpinnerItemView**): Defines the style applied to the seledted item.
+* `SelectedItemStyle`(of type *Style* with target type **telerikDataControls:SpinnerItemView**): Defines the style applied to the selected item.
 * `SelectionHighlightStyle`(of type *Style* with target type **telerik:RadBorder**): Specifies the style applied to the border where the current selection is.  
 * `PlaceholderLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the placeholder label.
 * `DisplayLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the label which is visualized when item of the list is selected.
@@ -39,15 +39,15 @@ Using the `SelectorSettings` property (of type *Telerik.XamarinForms.Input.Picke
 The `SelectorSettings` also provides the following properties for popup customization:
 
 * `PopupOutsideBackgroundColor`: Defines the color outside of the popup.
-* `IsPopupModal`(*bool*): Defines a boolean value indicating if the popup should be closed when tapped outside of the popup. By default the value of the **IsPopupModal** is **false**.
-	* When *IsPopupModal="True"*  the UI behind the popup gets inactive and cannot be used until the popup is closed. 
-	* When *IsPopupModal="False"* the popup could be closed when clicking outside the popup. 
-	
+* `IsPopupModal`(*bool*): Defines a Boolean value indicating if the popup should be closed when tapped outside of the popup. By default the value of the **IsPopupModal** is **false**.
+	* When *IsPopupModal="True"*  the UI behind the popup gets inactive and cannot be used until the popup is closed.
+	* When *IsPopupModal="False"* the popup could be closed when clicking outside the popup.
+
 * `HeaderLabelText`(*string*): Specifies the text visualized in the popup header. The default text is **Select Item**.
 * `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the value is *True*.
 * `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the value is *True*.
 * `AcceptButtonText`(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
-* `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
+* `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*.
 
 ## Namespaces
 
@@ -55,7 +55,7 @@ Using `ItemStyle`, `SelectedItemStyle` you need to add the following namespace:
 
 ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-``` 
+```
 
 Using `PopupViewStyle`, `HeaderStyle`, `FooterStyle` add the following namespace:
 
@@ -78,7 +78,7 @@ A sample RadListPicker definition:
 <snippet id='listpicker-features-styling' />
 ```XAML
 <telerikInput:RadListPicker Placeholder="Pick a City Name!"
-							ItemsSource="{Binding Items}" 
+							ItemsSource="{Binding Items}"
 							DisplayMemberPath="Name"
 							IsLooping="True"
 							DisplayStringFormat="You have picked: {0}"
@@ -224,7 +224,7 @@ public class City
 	public int Population { get; set; }
 }
 ```
-	
+
 and a ViewModel:
 
 <snippet id='listpicker-features-viewmodel' />

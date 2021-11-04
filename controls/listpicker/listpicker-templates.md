@@ -20,7 +20,7 @@ Using `SelectorSettings` property(of type *Telerik.XamarinForms.Input.PickerPopu
 * `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
 * `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
 
-This is the Visual Srtucture of the ListPicker Templates:
+This is the Visual Structure of the ListPicker Templates:
 
 ![ListPicker Visual Structure](images/listpicker_visual_structure_templates.png)
 
@@ -30,7 +30,7 @@ In addition the ListPicker for .NET MAUI provides the following properties:
 * `ItemLength`(*double*): Defines the length of the items inside the list.
 * `ItemSpacing`(*double*): Defines the spacing between the items inside the list.
 * `SelectedItem`(*object*): Specifies the selected item of the list picker
-* `DisplayMemberPath`(*string*): Defines the path of the property which is to be displayed as DisplayString. 
+* `DisplayMemberPath`(*string*): Defines the path of the property which is to be displayed as DisplayString.
 
 ## Example
 
@@ -43,7 +43,7 @@ Here is a sample ListPicker definition:
 							SelectedItemTemplate="{StaticResource selectedItemTemplate}"
 							ItemLength="40"
 							ItemSpacing="4"
-							ItemsSource="{Binding Items}" 
+							ItemsSource="{Binding Items}"
 							DisplayMemberPath="Name"
 							x:Name="listPicker">
 	<telerikInput:RadListPicker.BindingContext>
@@ -63,9 +63,9 @@ and the templates definition in the page resources:
 <snippet id='listpicker-features-itemtemplate' />
 ```XAML
 <DataTemplate x:Key="itemTemplate">
-	<Label Text="{Binding Population}" 
+	<Label Text="{Binding Population}"
 		   BackgroundColor="LightYellow"
-		   HorizontalTextAlignment="Center" 
+		   HorizontalTextAlignment="Center"
 		   VerticalTextAlignment="Center"/>
 </DataTemplate>
 ```
@@ -75,9 +75,9 @@ and the templates definition in the page resources:
 <snippet id='listpicker-features-selecteditemtemplate' />
 ```XAML
 <DataTemplate x:Key="selectedItemTemplate">
-	<Label Text="{Binding Name}" 
+	<Label Text="{Binding Name}"
 		   BackgroundColor="LightBlue"
-		   HorizontalTextAlignment="Center" 
+		   HorizontalTextAlignment="Center"
 		   VerticalTextAlignment="Center"/>
 </DataTemplate>
 ```
@@ -87,10 +87,10 @@ and the templates definition in the page resources:
 <snippet id='listpicker-features-placeholdertemplate' />
 ```XAML
 <ControlTemplate x:Key="placeholderTemplate">
-	<Label Text="Tap to open list picker" 
-		   FontAttributes="Bold" 
+	<Label Text="Tap to open list picker"
+		   FontAttributes="Bold"
 		   TextColor="White"
-		   BackgroundColor="#B73562" 
+		   BackgroundColor="#B73562"
 		   HeightRequest="50"
 		   VerticalTextAlignment="Center"
 		   HorizontalTextAlignment="Center">
@@ -120,7 +120,7 @@ and the templates definition in the page resources:
 <snippet id='listpicker-features-headertemplate' />
 ```XAML
 <ControlTemplate x:Key="headerTemplate">
-	<Label Text="Select city:" 
+	<Label Text="Select city:"
 		   TextColor="White"
 		   FontSize="16"
 		   VerticalTextAlignment="Center"
@@ -135,11 +135,11 @@ and the templates definition in the page resources:
 ```XAML
 <ControlTemplate x:Key="footerTemplate">
 	<StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="FillAndExpand" BackgroundColor="#B73562">
-		<Button Text="Cancel" 
+		<Button Text="Cancel"
 				TextColor="White"
 				BackgroundColor="Transparent"
 				Command="{TemplateBinding CancelCommand}" />
-		<Button Text="OK" 
+		<Button Text="OK"
 				TextColor="White"
 				BackgroundColor="Transparent"
 				Command="{TemplateBinding AcceptCommand}" />
