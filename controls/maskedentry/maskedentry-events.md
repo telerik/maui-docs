@@ -8,7 +8,7 @@ slug: maskedentry-events
 
 # Events
 
-RadMaskedEntry exposes the following events:
+The MaskedEntry exposes the following events:
 
 * `ValueChanging`: Occurs when the editing value is changing. Through the `MaskedEntryValueChangingEventArgs` you can get a hold of:
 
@@ -17,8 +17,8 @@ RadMaskedEntry exposes the following events:
 	* ValidationErrors: Gets a list of the internal validation errors.
 	* ValidationMessage: Gets or sets a validation message for the end user.
 	* Cancel: Gets or sets a value indicating whether the event should be canceled.
-	
-	
+
+
 * `ValueChanged`: Occurs when the editing value has been changed. This event is fired if the `ValueChanging` event is not canceled. Through the `MaskedEntryValueChangedEventArgs` you can get the following properties:
 
 	* Value: Specifies the new value set to the control;
