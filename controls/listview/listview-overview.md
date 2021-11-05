@@ -1,30 +1,28 @@
 ---
 title: Overview
 page_title: .NET MAUI ListView Documentation | Overview
-description: "Try now the Telerik ListView for .NET MAUI delivering a set of options for creating and showing barcodes."
+description: "Try now the Telerik ListView for .NET MAUI virtualizing list components in scenarios where an items list is used."
 position: 0
 slug: listview-overview
 ---
 
 # Overview
 
-**Telerik RadListView for .NET MAUI** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in one control with the idea to save developer's time and provide better experience.
-
-#### Figure 1: RadListView Overview
+**Telerik ListView for .NET MAUI** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in a single control for saving developers' time and providing better experience.
 
 ![ListView Overview](images/listview.png)
 
-## Key features
+## Key Features
 
-* **Selection**: RadListView supports both single and multiple selection, additionally items can be selected on tap or on hold gestures. For more details check [Selection]({%slug listview-features-selection %}) article.
-* **Different layouts and orientation**: You could choose between linear and grid layout as well as define the scroll direction of the layout. Read more about this in the [Layouts]({%slug listview-features-layouts%}) topic.
-* **ItemTemplateSelector**: RadListView control exposes an ItemTemplateSelector property which you can use to apply different template to each item depending on a specific condition.  Read more about it in the [ItemTemplateSelector]({%slug listview-item-template-selector%}) topic.
-* **Reorder Items**: Allows end-users to reorder ListView items using drag and drop. Read more about it in the [Reorder Items]({%slug listview-features-reorder-items%}) topic.
-* **Load on demand**: In addition to the built-in UI virtualization, the control supports load-on-demand. This optimizes the initial loading of the app and the new items are loaded before the user reaches the bottom of the ListView. Read more about this functionality in the [Load on Demand]({%slug listview-features-load-on-demand%}) article.
-* **Item Swipe**: The item swipe feature enables end-users to swipe an item to reveal actionable content beneath. For more details check [Cell Swipe]({%slug listview-features-cell-swipe%}) topic.
-* **Grouping, sorting and filtering**: You could easily visualize your items in groups, sorted and filtered in accordance with your criteria. For detailed instructions on how to enable these features, check [Grouping]({%slug listview-features-grouping %}), [Sorting]({%slug listview-features-sorting%}) and [Filtering]({%slug listview-features-filtering%}) topics.
-* **Customizable Items**: Take advantage of the styling capabilities of RadListView by using its Style properties such as ItemStyle, SelectedItemStyle, etc. For more details check [Styling]({%slug listview-features-styling%}) article.
+* [Selection]({% slug listview-features-selection %})&mdash;The ListView supports both single and multiple selections and you can also select items on tap and hold gestures.
+* [Different layouts and orientation]({% slug listview-features-layouts %})&mdash;You can choose between the linear and grid layout as well as define the scroll direction of the ListView layout.
+* [Items template selector]({% slug listview-item-template-selector %})&mdash;The ListView control exposes an properties for applying different templates to each item based on a specific condition.  
+* [Reorder Items]({% slug listview-features-reorder-items %})&mdash;The ListView allows end users to reorder ListView items through dragging and dropping.
+* [Load on demand]({% slug listview-features-load-on-demand %})&mdash;In addition to the built-in UI virtualization, the ListView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded before the user reaches the bottom of the ListView.
+* [Item Swipe]({% slug listview-features-cell-swipe %})&mdash;The item swipe feature enables end users to swipe an item to reveal its actionable content.
+* [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them in accordance with your criteria.
+* [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its appearance.
 
 ## See Also
 
-- [Getting Started]({% slug listview-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI ListView]({% slug listview-getting-started%})

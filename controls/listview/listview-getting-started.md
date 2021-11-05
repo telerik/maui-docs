@@ -1,41 +1,56 @@
 ---
 title: Getting Started
 page_title: Getting Started with .NET MAUI ListView Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik ListView for .NET MAUI.
+description: "Get started with the Telerik UI for .NET MAUI ListView and add the control to your .NET MAUI project."
 position: 1
 slug: listview-getting-started
 ---
 
-# Getting Started
+# Getting Started with the Telerik UI for .NET MAUI ListView
 
-## Define RadListView control
+This guide provides the information you need to start using the Telerik UI for .NET MAUI ListView by adding the control to your project.
 
-The snippet below shows a sample RadListView definition(_Do not use a `StackLayout` or `ScrollView` parent, see the **WARNING** note below_):
+At the end, you will be able to achieve the following result.
 
-```XAML
+![RadListView](images/listview-gettingstarted.png)
+
+## Prerequisites
+
+Before adding the ListView, you need to:
+
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When the your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition.
+
+  The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
+
+  * Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
+  * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
+
+ ```XAML
 <telerikDataControls:RadListView x:Name="listView" />
-```
-```C#
+ ```
+ ```C#
 var listView = new RadListView();
-```
+ ```
 
-In addition to this, you need to add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-> **WARNING**: RadListView control provides UI virtualization, this feature requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms, please follow these rules: 
->	* **Do not** place the RadListView control inside a `StackLayout`
->	* **Do not** place the RadListVew inside a `ScrollView`
->	* **Do not** set the RadListVew to a Grid `RowDefinition Height="Auto"`
->
+## Populate the ListView with Data
 
-## Populate RadListView with data
+1. First, let's create simple `Data` and `ViewModel` classes:
 
-First, lets create a simple data and view model classes:
-
-```C#
+ ```C#
 public class SourceItem
 {
     public SourceItem(string name)
@@ -50,22 +65,22 @@ public class ViewModel
 {
     public ViewModel()
     {
-        this.Source = new List<SourceItem> { new SourceItem("Tom"), 
-											 new SourceItem("Anna"), 
-											 new SourceItem("Peter"), 
-											 new SourceItem("Teodor"), 
+        this.Source = new List<SourceItem> { new SourceItem("Tom"),
+											 new SourceItem("Anna"),
+											 new SourceItem("Peter"),
+											 new SourceItem("Teodor"),
 											 new SourceItem("Lorenzo"),
-											 new SourceItem("Andrea"), 
+											 new SourceItem("Andrea"),
 											 new SourceItem("Martin") };
     }
 
     public List<SourceItem> Source { get; set; }
 }
-```
+ ```
 
-Here is the setup of the ListView:
+1. Set up the ListView:
 
-```XAML
+ ```XAML
 <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Source}">
     <telerikDataControls:RadListView.BindingContext>
         <local:ViewModel />
@@ -82,18 +97,18 @@ Here is the setup of the ListView:
         </DataTemplate>
     </telerikDataControls:RadListView.ItemTemplate>
 </telerikDataControls:RadListView>
-```
+ ```
 
-You have to add the following namespaces:
+1. Add the following namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-To visualize RadListView -> Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
+ ```C#
 using Telerik.Maui.Controls.Compatibility;
 
 public void Configure(IAppHostBuilder appBuilder)
@@ -101,13 +116,9 @@ public void Configure(IAppHostBuilder appBuilder)
     appBuilder        
         .UseTelerik()
         .UseMauiApp<App>();
-        
+
 }              
-```
-
-This is the result:
-
-![RadListView](images/listview-gettingstarted.png)
+ ```
 
 ## See Also
 
