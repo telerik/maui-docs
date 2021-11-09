@@ -16,9 +16,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 1. Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
-1. Once you configure the .NET MAUI project on your machine, install or run the .NET MAUI Check tool. The Check tool is a command line utility that verifies your development environment and installs any missing components and workloads. For more details on installing and using the tool, refer to the [dotnet-maui-check GitHub repository](https://github.com/Redth/dotnet-maui-check).
-
-1. Once you install the missing components, run the `maui-check` command again to ensure that your environment has the latest tools and SDKs required by .NET MAUI.
+>important For .NET MAUI Apps you must have **Visual Studio 2022 Preview - 17.1 Preview 1**
 
 ## Download Telerik UI for .NET MAUI
 
@@ -75,9 +73,7 @@ To install Telerik UI for .NET MAUI on Windows:
 
 1. Run the `Telerik_UI_for_Maui_[version]_Preview.msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
-    On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
-
-    Try to specify a shorter path for the installation folder&mdash;for example, `C:\T\`, `D:\T\`, and so on. If the path is too long, you will run into the following error: `Error occurred while restoring NuGet packages: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.`
+On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
 
 1. The installation folder provides the following subdirectories:
 
