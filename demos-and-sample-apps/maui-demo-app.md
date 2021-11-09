@@ -35,9 +35,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 
 1. Run the `Telerik_UI_for_Maui_[version]_Preview.msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
-    On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
-
-    Try to specify a shorter path for the installation folder&mdash;for example, `C:\T\`, `D:\T\`, and so on. If the path is too long, you will run into the following error: `Error occurred while restoring NuGet packages: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.`
+On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
 
 1. The **SDKBrowser** folder is located inside the installation folder and you can now use the following subdirectories:
 
