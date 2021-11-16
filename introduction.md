@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction 
+page_title: Introduction
 description: "Revolutionize your multi-platform app development with the Preview version of Telerik UI for .NET MAUI."
 tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 position: 0
@@ -10,9 +10,9 @@ position: 0
 
 Thank you for choosing Telerik UI for .NET MAUI Preview!
 
-**Telerik UI for .NET MAUI** is the most extensive UI suite on the market that delivers controls for building modern and professional-looking mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS, and Windows from a single shared code-base. 
+**Telerik UI for .NET MAUI** is the most extensive UI suite on the market that delivers controls for building modern and professional-looking mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS, and Windows from a single shared code-base.
 
-This brand-new UI library comes with the [sample SDKBrowser demo application]({%slug maui-demo-app%}), that showcases our growing number of controls in Preview. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest Preview versions from Microsoft.
+This brand-new UI library comes with the [sample SDKBrowser demo application]({%slug maui-demo-app%}) that showcases the growing number of controls in Preview. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest Preview versions from Microsoft.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-introduction.html %}

@@ -18,11 +18,11 @@ It provides various border thickness types and corner-side radiuses, which can b
 
 ## Key Features
 
-* [Thickness]({% slug border-styling%}#border-thickness): Telerik UI for .NET MAUI Border provides options for setting its thickness and enables you to visually enhance your label, image, and other views.
+* [Thickness]({% slug border-styling%}#border-thickness)&mdash;Telerik UI for .NET MAUI Border provides options for setting its thickness and enables you to visually enhance your label, image, and other views.
 
-* [Color]({%slug border-styling %}#border-color): You can also use the settings for changing the color of the Border control.
+* [Color]({%slug border-styling %}#border-color)&mdash;You can also use the settings for changing the color of the Border control.
 
-* [Corner radius]({%slug border-corner-radius%}): Border allows you specify a different corner radius value for each of its four angles.
+* [Corner radius]({%slug border-corner-radius%})&mdash;Border allows you specify a different corner radius value for each of its four angles.
 
 ## Next Steps
 
