@@ -1,12 +1,12 @@
 ---
-title: States
-page_title: .NET MAUI CheckBox Documentation | Key Features
-description: "Defines the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI."
+title: Checked States
+page_title: .NET MAUI CheckBox Documentation | Checked States
+description: "Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI."
 position: 2
-slug: checkbox_states
+slug: checkbox-checked-states
 ---
 
-# States
+# Checked States
 
 The CheckBox enables you to define its state as Checked, Unchecked, or Indeterminate.
 
