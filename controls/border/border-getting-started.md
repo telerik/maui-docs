@@ -28,13 +28,13 @@ Before adding the Border, you need to:
 
 1. When the your .NET MAUI application is set up, you are ready to add the Border control to your page by using its definition in XAML.
 
-<snippet id='border-getting-started-xaml' />
+ <snippet id='border-getting-started-xaml' />
 
 1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```
 
 ## See Also
 
