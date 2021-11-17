@@ -1,18 +1,18 @@
 ---
 title: Radial Gauge
 page_title: .NET MAUI Gauge Documentation | Radial Gauge
-description: Check our &quot;Radial Gauge&quot; documentation article for Telerik Gauge for .NET MAUI control.
+description: "Get started with the Telerik UI for .NET MAUI Radial Gauge and add the control to your .NET MAUI project."
 position: 0
 slug: gauge-types-radial
 ---
 
 # Radial Gauge
 
-The **RadRadialGauge** control allows you to display the scale's range in a radial form.
+The Radial Gauge allows you to display the scale range in a radial form.
 
-## Setting up the gauge
+## Setting Up the Radial Gauge
 
-The following example shows a **RadRadialGauge**'s basic set up.
+The following example shows the basic setup of the Radial Gauge.
 
 ```XAML
 <telerikGauges:RadRadialGauge x:Name="gauge">
@@ -38,20 +38,22 @@ The following example shows a **RadRadialGauge**'s basic set up.
 </telerikGauges:RadRadialGauge>
 ```
 
-This is the result:
+The following image shows the end result.
 
 ![Radial gauge example](../images/gauge-types-radial-gauge-0.png)
 
-## Setting rotation and radius
+## Setting the Rotation and Radius
 
-The radial gauge allows you to define the radius of its axis. This can be done via the **AxisRadiusFactor** property of **RadRadialGauge**. Read more about the property in the [Positioning]({%slug gauge-positioning%}#radial-gauge-specifics) help article.
+The Radial Gauge allows you to define the radius of its axis through its **AxisRadiusFactor** property. For more information about the **AxisRadiusFactor**, refer to the article on [positioning and offset]({%slug gauge-positioning%}#radial-gauge-specifics).
 
-You can also control the start angle, the sweep angle and sweep direction of the axis. This can be done via the following properties:
-- **StartAngle**: The start angle determines the origin position of the axis.
-- **SweepAngle**: The sweep angle defines the size of the axis' arc. For example, if the start angle is 90 and the sweep angle is 30, the axis will be drawn between the 90th and 120th angle. If the sweep direction is counter-clockwise, the axis will be drawn between 60 and 90.
-- **SweepDirection**: You can use this property to set the axis sweep direction - clockwise or counter-clockwise.
+You can also control the start angle, the sweep angle, and the sweep direction of the axis through the following properties:
+
+- **StartAngle**&mdash;The start angle determines the origin position of the axis.
+- **SweepAngle**&mdash;The sweep angle defines the size of the axis arc. For example, if the start angle is 90 and the sweep angle is 30, the axis will be drawn between the 90<sup>th</sup> and 120<sup>th</sup> angle. If the sweep direction is counter-clockwise, the axis will be drawn between 60 and 90.
+- **SweepDirection**&mdash;Sets the axis sweep direction as clockwise or counter-clockwise.
 
 ## See Also
+
 - [Horizontal Gauge]({%slug gauge-types-horizontal%})
 - [Vertical Gauge]({%slug gauge-types-vertical%})
 - [Axis]({%slug gauge-axis%})
