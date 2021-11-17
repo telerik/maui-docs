@@ -1,6 +1,6 @@
 ---
 title: Border Thickness
-page_title: .NET MAUI Button Documentation | Border Thickness of .NET MAUI Button
+page_title: .NET MAUI Button Documentation | Border Thickness
 description: "Learn how to set the thickness of the Telerik Button for .NET MAUI border."
 position: 3
 tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui

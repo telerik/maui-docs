@@ -6,7 +6,7 @@ position: 1
 slug: barcode-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI Button
+# Getting Started 
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Button by adding the control to your project.
 
