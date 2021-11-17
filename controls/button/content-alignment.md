@@ -4,7 +4,7 @@ page_title: .NET MAUI Button Documentation | Content Alignment of .NET MAUI Butt
 description: "Learn how to horizontally or vertically align the content of the Telerik Button for .NET MAUI."
 position: 2
 tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
-slug: content_alignment_button
+slug: content-alignment-button
 ---
 
 # Content Alignment

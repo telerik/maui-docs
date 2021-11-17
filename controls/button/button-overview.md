@@ -15,8 +15,8 @@ slug: button-overview
 
 ## Key Features
 
-* [Content alignment]({% slug content_alignment_button %})&mdash;The Button enables you to easily control the horizontal and vertical positioning of its content.
-* [Border thickness]({% slug border_thickness_button %})&mdash;You can also apply various types of borders around your buttons by using the `BorderThickness` and the `BorderColor` properties.
+* [Content alignment]({% slug content-alignment-button %})&mdash;The Button enables you to easily control the horizontal and vertical positioning of its content.
+* [Border thickness]({% slug border-thickness-button %})&mdash;You can also apply various types of borders around your buttons by using the `BorderThickness` and the `BorderColor` properties.
 
 ## See Also
 
