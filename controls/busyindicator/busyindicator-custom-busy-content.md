@@ -6,11 +6,13 @@ position: 2
 slug: busyindicator-custom-busy-content
 ---
 
-#  Custom Busy Content
+# Custom Busy Content
 
-Setting `BusyContent` property of RadBusyIndicator allows you to display any content together with the built-in animations while the control is in Busy state. Additionally, you can customize the `BusyContentTemplate` in order to arrange the custom content and the animated content per your choice.
+Setting the `BusyContent` property of BusyIndicator allows you to display any content together with the built-in animations while the control is in its Busy state.
 
-Here is a quick example demonstrating how to apply `BusyContent` and `BusyContentTemplate` properties.
+Additionally, you can customize the `BusyContentTemplate` to arrange the custom content and the animated content per your choice.
+
+The following example demonstrates how to apply the `BusyContent` and `BusyContentTemplate` properties.
 
 <snippet id='busyindicator-custombusycontent-xaml' />
 ```XAML
@@ -40,17 +42,17 @@ Here is a quick example demonstrating how to apply `BusyContent` and `BusyConten
 </telerikPrimitives:RadBusyIndicator>
 ```
 
-Also you will need to add the **telerikPrimitives** namespace:
+Also, you will need to add the `telerikPrimitives` namespace:
 
 <snippet id='xmlns-telerikprimitives' />
 ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Check the result in the image below:
+The following image shows the result.
 
 ![BusyIndicator example](images/busyindicator-custombusycontent.png)
 
 ## See Also
 
-- [Animations]({% slug busyindicator-animations %})
+- [BusyIndicator Animations]({% slug busyindicator-animations %})

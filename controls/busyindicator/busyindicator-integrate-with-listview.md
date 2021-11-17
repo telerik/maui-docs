@@ -6,31 +6,31 @@ position: 2
 slug: busyindicator-integrate-with-listview
 ---
 
-#  Integration with ListView
+# ListView Integration
 
-Telerik BusyIndicator for .NET MAUI is useful in scenarios whether you'd like to display a notification to the end users of the app while a long-running operation, such as loading data from a service, is currently in progress. 
+The Telerik BusyIndicator for .NET MAUI is useful when you want to display a notification to the end users of the application while a long-running operation, such as loading data from a service, is currently in progress.
 
-The example below demonstrates a sample integration of RadBusyIndicator with RadListView control. The ListView loads its data asynchronously (this is simulated for the purpose of the example) and while the load operation is taking place, RadBusyIndicator's IsBusy state is enabled.
+The example below demonstrates a sample integration of the BusyIndicator with the ListView control. The ListView loads its data asynchronously (this is simulated for the purpose of the example) and while the load operation is taking place, the `IsBusy` state of the BusyIndicator is enabled.
 
-First, create a sample **Book** class used for the ItemsSource of the ListView:
+1. Create a sample `Book` class used for the `ItemsSource` of the ListView:
 
 <snippet id='busyindicator-withlistview-model' />
-```C#
+ ```C#
 public class Book
 {
     public string Title { get; set; }
     public string Author { get; set; }      
 }
-```
+ ```
 
-Then, add a ViewModel class, which provides the following:
+1. Add a `ViewModel` class, which provides the following:
 
-* Collection of *Book* objects that is used for binding the ListView;
-* Boolean *IsLoading* property to control the BusyIndicator's busy state;
-* LoadData command that starts the loading of the items;
+  * A collection of `Book` objects that is used for binding the ListView.
+  * A Boolean `IsLoading` property to control the Busy state of the BusyIndicator.
+  * A `LoadData` command that starts the loading of the items.
 
 <snippet id='busyindicator-withlistview-csharp' />
-```C#
+ ```C#
 public class ViewModel : NotifyPropertyChangedBase
 {
     private bool _isLoading = false;     
@@ -92,12 +92,12 @@ public class ViewModel : NotifyPropertyChangedBase
         });
     }
 }
-```
+ ```
 
-Add the ListView and BusyIndicator controls to the view:
+1. Add the ListView and BusyIndicator controls to the view:
 
 <snippet id='busyindicator-withlistview-xaml' />
-```XAML
+ ```XAML
 <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="40" />
@@ -123,19 +123,19 @@ Add the ListView and BusyIndicator controls to the view:
                             IsBusy="{Binding IsLoading}" />
     </Grid>
 </Grid>
-```
+ ```
 
-Lastly, set the ViewModel class as BindingContext of the page:
+1. Set the `ViewModel` class as `BindingContext` of the page:
 
 <snippet id='busyindicator-withlistview-setvm' />
-```C#
+ ```C#
 this.BindingContext = new ViewModel();
-```
+ ```
 
-The image below shows the result:
+The image below shows the result.
 
 ![BusyIndicator with ListView](images/busyindicator-withlistview.png)
 
 ## See Also
 
-- [Animations]({% slug busyindicator-animations %})
+- [BusyIndicator Animations]({% slug busyindicator-animations %})
