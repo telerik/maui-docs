@@ -28,19 +28,6 @@ By default, the size of the animation content is 25x25 pixels.
 The snippet below shows how to configure the predefined RadBusyIndicator animations:
 
 <snippet id='busyindicator-animations-settings' />
-```XAML
-<telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"
-									AnimationType="Animation2"
-									AnimationContentColor="#2374FF"
-									AnimationContentHeightRequest="150"
-									AnimationContentWidthRequest="150"
-									IsBusy="True">
-    <telerikPrimitives:RadBusyIndicator.Content>
-        <Label Text="This is displayed when the indicator is not busy." 
-               TextColor="Black" />
-    </telerikPrimitives:RadBusyIndicator.Content>
-</telerikPrimitives:RadBusyIndicator>
-```
 
 The image below shows the modified BusyIndicator in busy state:
 
@@ -62,24 +49,9 @@ The following example demonstrates how to create a custom animation that changes
 
 <snippet id='busyindicator-animations-xaml'/>
 <snippet id='busyindicator-animations-code'/>
-```XAML
-<telerikPrimitives:RadBusyIndicator x:Name="radBusyIndicator"
-									AnimationType="Custom"
-									IsBusy="True">
-    <telerikPrimitives:RadBusyIndicator.Content>
-        <Label Text="This is the content of the RadBusyIndicator control displayed when the indicator is not busy." />
-    </telerikPrimitives:RadBusyIndicator.Content>
-    <telerikPrimitives:RadBusyIndicator.BusyContent>
-        <Label HorizontalOptions="Center"
-               Text="Loading..."
-               VerticalOptions="Center" />
-    </telerikPrimitives:RadBusyIndicator.BusyContent>
-</telerikPrimitives:RadBusyIndicator>
-```
 
 ### Defining custom animation in code-behind
 
-<snippet id='busyindicator-animations-csharp'/>
 ```C#
 RadBusyIndicator radBusyIndicator = new RadBusyIndicator()
 {
