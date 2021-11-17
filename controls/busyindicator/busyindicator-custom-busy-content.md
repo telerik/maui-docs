@@ -14,7 +14,6 @@ Additionally, you can customize the `BusyContentTemplate` to arrange the custom 
 
 The following example demonstrates how to apply the `BusyContent` and `BusyContentTemplate` properties.
 
-<snippet id='busyindicator-custombusycontent-xaml' />
 ```XAML
 <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"
 									AnimationContentHeightRequest="100"
@@ -44,7 +43,6 @@ The following example demonstrates how to apply the `BusyContent` and `BusyConte
 
 Also, you will need to add the `telerikPrimitives` namespace:
 
-<snippet id='xmlns-telerikprimitives' />
 ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 ```
