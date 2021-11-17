@@ -8,21 +8,16 @@ slug: path-overview
 
 # Overview
 
-**RadPath** is a control which can be used to draw complex shapes that are composed of different geometries like arcs, ellipses, lines and rectangles. 
-
-> Path for .NET MAUI is available for Android, iOS and WinUI.
-
-#### Figure 1: RadPath Overview
+**Telerik UI for .NET MAUI Path** is a control which can be used to draw complex shapes that are composed of different geometries like arcs, ellipses, lines and rectangles. 
 
 ![Path Overview](images/paths.png)
 
-## Key features
+## Key Features
 
-* **Styling options**: RadPath exposes a few useful properties for defining the colors of the drawn shape.  For more info go to [Styling]({%slug path-styling %}) topic.
-* **Geometry support**: You could implement any shape through the RadPathGeometry object which contains Figures such as Line and Arc. For more details on this check the following topic: [PathGeometry]({%slug path-structure %}).
-* **MultiPath object**: Through RadMultiPath you could combine several PathGeometry objects into a single element. Check [MultiPath]({%slug path-multipath %}) article for more information on this.
+* [Styling options]({%slug path-styling %})&mdash;The Path exposes a few useful properties for defining the colors of the drawn shape.
+* [Geometry support]({%slug path-structure %})&mdash;You can implement any shape through the `RadPathGeometry` object which contains Figures such as Line and Arc.
+* [MultiPath object]({%slug path-multipath %})&mdash;Through `RadMultiPath` you could combine several PathGeometry objects into a single element.
 
+## Next Steps
 
-## See Also
-
-* [Getting Started]({%slug path-getting-started %})
+* [Getting Started with Telerik UI for .NET MAUI Path]({%slug path-getting-started %})
