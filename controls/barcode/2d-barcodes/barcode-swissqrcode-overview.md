@@ -26,20 +26,12 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 1. To generate a SwissQR Barcode by using Telerik UI for MAUI, set the `Symbology` of the Barcode to `SwissQRCode`.
 
- ```XAML
-<telerikBarcode:RadBarcode x:Name="Barcode"
-                           WidthRequest="100"
-                           HeightRequest="100">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:SwissQRCode/>
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
- ```
+<snippet id='swissqrbarcode-example-xaml' />
 
-    Add the namespace.
+Add the namespace:
 
  ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
