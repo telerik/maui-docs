@@ -12,10 +12,10 @@ The DatePicker provides a set of templates for customizing its elements.
 
 To customize the control, use any of the templates it supports:
 
-* `PlaceholderTemplate`(*ControlTemplate*)&mdash;Defines the template visualized for the placeholder.  
-* `DisplayTemplate`(*ControlTemplate*)&mdash;Defines the template visualized when the picked date/time is displayed.
-* `HeaderTemplate`(*ControlTemplate*)&mdash;Defines what will be displayed inside the dialog (popup) header.
-* `FooterTemplate`(*ControlTemplate*)&mdash;Defines what will be displayed inside the dialog (popup) footer.
+* `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
+* `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when the picked date/time is displayed.
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
+* `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) footer.
 
 ## PlaceholderTemplate
 

@@ -14,11 +14,11 @@ The DatePicker control for .NET MAUI provides styling options for customizing it
 
 The control supports the following properties:
 
-* `SpinnerStyle`(of type *Style* with target type **telerikDataControls:RadSpinner**)&mdash;Defines the style applied to the spinner item and the selected item.
-* `SpinnerHeaderStyle`(of type *Style* with target type **Label**)&mdash;Specifies the style applied to each spinner header label.
-* `SelectionHighlightStyle`(of type *Style* with target type **telerikPrimitives:RadBorder**)&mdash;Specifies the style applied to the border that highlights the selection.
-* `PlaceholderLabelStyle`(of type *Style* with target type **Label**)&mdash;Specifies the style applied to the label defined in the [default `PlaceholderTemplate`]({%slug datepicker-templates%}#default-placeholdertemplate).
-* `DisplayLabelStyle`(of type *Style* with target type **Label**)&mdash;Defines the style applied to the label, which is visualized when a date is selected.
+* `SpinnerStyle`(of type `Style` with target type `telerikDataControls:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
+* `SpinnerHeaderStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to each spinner header label.
+* `SelectionHighlightStyle`(of type `Style` with target type `telerikPrimitives:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
+* `PlaceholderLabelStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to the label defined in the [default `PlaceholderTemplate`]({%slug datepicker-templates%}#default-placeholdertemplate).
+* `DisplayLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the style applied to the label, which is visualized when a date is selected.
 
 The `PickerContentView` class exposes the following properties for styling the DatePicker border and background color:
 
@@ -29,29 +29,29 @@ The `PickerContentView` class exposes the following properties for styling the D
 
 ## Popup Styling
 
-By using the `SelectorSettings` property (of type **Telerik.XamarinForms.Input.PickerPopupSelectorSettings**) of the DatePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSelectorSettings` class exposes the following `Style` properties:
+By using the `SelectorSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSelectorSettings`) of the DatePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSelectorSettings` class exposes the following `Style` properties:
 
-* `PopupViewStyle`(of type *Style* with target type **telerikInput:PickerPopupContentView**)&mdash;Defines the popup view style.
-* `HeaderStyle`(of type *Style* with target type **telerikInput:PickerPopupHeaderView**)&mdash;Defines the popup header style.
-* `HeaderLabelStyle`(of type *Style* with target type **Label**)&mdash;Defines the popup header label style.
-* `FooterStyle`(of type *Style* with target type **telerikInput:PickerPopupFooterView**)&mdash;Defines the popup footer style.
-* `AcceptButtonStyle`(of type *Style* with target type **Button**)&mdash;Defines the **Accept** button style.
-* `CancelButtonStyle`(of type *Style* with target type **Button**)&mdash;Defines the **Cancel** button style.
+* `PopupViewStyle`(of type `Style` with target type `telerikInput:PickerPopupContentView`)&mdash;Defines the popup view style.
+* `HeaderStyle`(of type `Style` with target type `telerikInput:PickerPopupHeaderView`)&mdash;Defines the popup header style.
+* `HeaderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the popup header label style.
+* `FooterStyle`(of type `Style` with target type `telerikInput:PickerPopupFooterView`)&mdash;Defines the popup footer style.
+* `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
+* `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
 The `SelectorSettings` also provides the following properties for popup customization:
 
 * `PopupOutsideBackgroundColor`&mdash;Defines the color outside of the popup.
-* `IsPopupModal`(*bool*)&mdash;Defines a Boolean value indicating if the popup will be closed when tapped outside of the popup. By default, the value of the `IsPopupModal` is `false`.
+* `IsPopupModal`(`bool`)&mdash;Defines a Boolean value indicating if the popup will be closed when tapped outside of the popup. By default, the value of the `IsPopupModal` is `false`.
 
 	When `IsPopupModal="True"`, the UI behind the popup gets inactive and cannot be used until the popup is closed.
 
 	When `IsPopupModal="False"`, the popup can be closed when clicking outside the popup. 	
 
-* `HeaderLabelText`(*string*)&mdash;Specifies the text visualized in the popup header.
-* `IsHeaderVisible`(*bool*)&mdash;Specifies whether the Popup header is currently visible. By default, the value is `True`
-* `IsFooterVisible`(*bool*)&mdash;Specifies whether the Popup footer is currently visible. By default, the value is `True`.
-* `AcceptButtonText`(*string*)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
-* `CancelButtonText`(*string*)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
+* `HeaderLabelText`(`string`)&mdash;Specifies the text visualized in the popup header.
+* `IsHeaderVisible`(`bool`)&mdash;Specifies whether the Popup header is currently visible. By default, the value is `True`
+* `IsFooterVisible`(`bool`)&mdash;Specifies whether the Popup footer is currently visible. By default, the value is `True`.
+* `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
+* `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
 ## Namespaces
 
@@ -75,7 +75,7 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 ## Example for Implementing the Styling Options
 
-The following example demonstrates how to define a sample RadDatePicker.
+The following example demonstrates how to define a sample DatePicker.
 
 #### Defining the RadDatePicker
 
