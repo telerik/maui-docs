@@ -8,17 +8,17 @@ slug: entry-events
 
 # Events
 
-The Telerik UI for .NET MAUI Entry control exposes a number of events and commands for handling its behavior.
+The Telerik UI for .NET MAUI Entry control exposes a number of events and commands for notifying after user interactions.
 
-The supported events of the Entry are:
+The Entry supports the following events:
 
-* **TextChanged**&mdash;Occurs when the text is changed. The `TextChanged` event handler receives a `TextChangedEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
-	* NewTextValue*(string)*&mdash;Gets the new text value.
-	* OldTextValue*(string)*&mdash;Gets the old text value.
+* `TextChanged`&mdash;Occurs when the text is changed. The `TextChanged` event handler receives a `TextChangedEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
+	* `NewTextValue(string)`&mdash;Gets the new text value.
+	* `OldTextValue(string)`&mdash;Gets the old text value.
 
-* **Completed**&mdash;Occurs when the user finalizes the text in an entry with the return key.
+* `Completed`&mdash;Occurs when the user finalizes the text in an entry with the return key.
 
-For its **Completed** event, the Entry exposes the **CompletedCommand**(*ICommand*) command.
+For its `Completed` event, the Entry exposes the `CompletedCommand`(`ICommand`) command.
 
 The following example demonstrates the Entry definition in XAML with the `TextChanged` and `Completed` event handlers.
 

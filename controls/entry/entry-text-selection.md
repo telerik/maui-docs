@@ -12,8 +12,8 @@ The Entry supports a number of settings for managing the selection of its input 
 
 The text selection properties provided by the Entry are:
 
-* **CursorPosition**(*int*)&mdash;Specifies the starting position of the selected text in the entry.
-* **SelectionLength**(*int*)&mdash;Specifies the number of characters in the current Entry selection.
+* `CursorPosition`(`int`)&mdash;Specifies the starting position of the selected text in the entry.
+* `SelectionLength`(`int`)&mdash;Specifies the number of characters in the current Entry selection.
 
 The following snippet shows how to preselect a part of the Entry text when the control is focused by applying both properties.
 

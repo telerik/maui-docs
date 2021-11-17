@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Entry Control
+page_title: .NET MAUI Entry Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Entry control and add the control to your .NET MAUI project."
 position: 1
 slug: entry-getting-started

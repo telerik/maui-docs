@@ -14,15 +14,15 @@ The Entry provides a number of settings for configuring the appearance of the te
 
 The following properties are related to the Entry Text appearance and alignment:
 
-* **Text**(*string*)&mdash;Defines the text.
-* **TextColor**(*Color*)&mdash;Defines the color of the visible Entry text.
-* **VerticalTextAlignment**(*of type Xamarin.Forms.TextAlignment*)&mdash;Specifies the vertical alignment of the text.
-* **HorizontalTextAlignment**(*of type Xamarin.Forms.TextAlignment*)&mdash;Specifies the horizontal alignment of the text.
-* **Padding**(*Thickness*)&mdash;Defines the padding of the text.
+* `Text`(`string`)&mdash;Defines the text.
+* `TextColor`(`Color`)&mdash;Defines the color of the visible Entry text.
+* `VerticalTextAlignment` (of type `Xamarin.Forms.TextAlignment`)&mdash;Specifies the vertical alignment of the text.
+* `HorizontalTextAlignment` (of type `Xamarin.Forms.TextAlignment`)&mdash;Specifies the horizontal alignment of the text.
+* `Padding`(`Thickness`)&mdash;Defines the padding of the text.
 
 ## Adding Watermarks
 
-The Entry exposes the **WatermarkText**(*string*) property that prompts users what kind of information they  are expected to enter in the text input. The watermark text is displayed when the control is empty.  Additionally, you can set the **WatermarkTextColor**(*Color*) to customize the look of the watermark text as demonstrated in the following example.
+The Entry exposes the `WatermarkText`(`string`) property that prompts users what kind of information they  are expected to enter in the text input. The watermark text is displayed when the control is empty.  Additionally, you can set the `WatermarkTextColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
 
 ```XAML
 <telerikInput:RadEntry WatermarkText="First Name"
@@ -41,7 +41,7 @@ The following image shows the end result.
 
 ## Setting the Read-Only State
 
-You can choose whether the Entry control is editable for end users or not by setting its read-only state through the **IsReadOnly** *bool* property. By default, **IsReadOnly** is set to `False`. To restrict the control from editing, set the `IsReadOnly` to `True`.
+You can choose whether the Entry control is editable for end users or not by setting its read-only state through the `IsReadOnly` `bool` property. By default, `IsReadOnly` is set to `False`. To restrict the control from editing, set the `IsReadOnly` to `True`.
 
 ```XAML
 <telerikInput:RadEntry x:Name="telerikEntry"
@@ -51,7 +51,7 @@ You can choose whether the Entry control is editable for end users or not by set
 
 ## Defining the Max Length
 
-You can restrict the number of the symbols the Entry control allows for its input field by using the **MaxLength** (*int*) property.
+You can restrict the number of the symbols the Entry control allows for its input field by using the `MaxLength` (`int`) property.
 
 The following example demonstrates how to set the maximum length of the input to 10 symbols.
 
@@ -63,7 +63,7 @@ The following example demonstrates how to set the maximum length of the input to
 
 ## Setting the Keyboard Type
 
-The **Keyboard** property of type *Xamarin.Forms.Keyboard* allows you to define the type of the keyboard that will be visualized by the device.
+The `Keyboard` property of type `Xamarin.Forms.Keyboard` allows you to define the type of the keyboard that will be visualized by the device.
 
 ```XAML
 <telerikInput:RadEntry x:Name="entry"

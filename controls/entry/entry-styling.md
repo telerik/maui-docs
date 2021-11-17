@@ -12,13 +12,13 @@ The Entry provides styling options for setting the appearance of its border and 
 
 ## Border Styles
 
-The **BorderStyle**(*of type Telerik.XamarinForms.Input.BorderStyle*) property allows you to customize the border around the Entry through the following properties:
+The `BorderStyle` (of type `Telerik.XamarinForms.Input.BorderStyle`) property allows you to customize the border around the Entry through the following properties:
 
-* **BorderColor**(*Color*)
-* **BorderThickness**(*Thickness*)
-* **CornerRadius**(*double*)
+* `BorderColor`(`Color`)
+* `BorderThickness`(`Thickness`)
+* `CornerRadius`(`double`)
 
-You can define the **BorderStyle** in the **Resources** of your page as shown in the example below:
+You can define the `BorderStyle` in the **Resources** of your page as shown in the example below:
 
 ```XAML
 <telerikInput:BorderStyle x:Key="EntryBorderStyle"
@@ -42,9 +42,9 @@ The following image shows the end result.
 
 The Entry control has the following properties for defining the font options:
 
-* **FontAttributes**
-* **FontFamily**
-* **FontSize**
+* `FontAttributes`
+* `FontFamily`
+* `FontSize`
 
 The following example demonstrates how to apply the font options to the Entry.
 
