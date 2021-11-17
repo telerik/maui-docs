@@ -41,16 +41,7 @@ Additionally, next to each side of the PDF417 barcode two or more modules, dedic
 
 The following example demonstrates a Barcode with an applied PDF417 symbology:
 
-```XAMl
-<telerikBarcode:RadBarcode x:Name="Barcode"                                 
-                           Value="Encoded data which will influence the rendered PDF417">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:PDF417 SizingMode="Stretch"
-                        Rows="30"
-                        ECLevel="5"/>
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
-```
+<snippet id='pdf417-example-xaml' />
 
 Add the `telerikBarcode` namespace:
 
