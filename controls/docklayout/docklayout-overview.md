@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DockLayout Documentation | RadDockLayout Overview
+page_title: .NET MAUI DockLayout Documentation | Overview
 description: "Try now the Telerik UI for .NET MAUI DockLayout providing mechanisms for child elements to be docked to various areas of the layout."
 position: 0
 slug: docklayout-overview
@@ -14,9 +14,9 @@ slug: docklayout-overview
 
 ## Key Features
 
-* [Positioning child elements]({% slug docklayout-docking %})&mdash;You can set the position of each child element inside the layout as well as render multiple child elements to one side.
-* [Adaptable docking]({% slug adaptable_docklayout %})&mdash;The DockLayout enables you to overwrite the default behavior of the last docked element, which stretches over the remaining space that is unoccupied by the other child elements.
+* [Docking functionality]({% slug docklayout-docking %})&mdash;You can set the position of each child element inside the layout as well as render multiple child elements to one side.
+* [Adaptable docking]({% slug docklayout-docking %}#setting-the-position-of-the-last-child-element)&mdash;The DockLayout enables you to overwrite the default behavior of the last docked element, which stretches over the remaining space that is unoccupied by the other child elements.
 
 ## See Also
 
-- [Getting Started]({% slug docklayout-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI DockLayout]({% slug docklayout-getting-started %})

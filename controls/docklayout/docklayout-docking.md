@@ -1,16 +1,16 @@
 ---
-title: Positioning Child Elements
-page_title: .NET MAUI DockLayout Documentation | Docking functionality
+title: Docking Functionality
+page_title: .NET MAUI DockLayout Documentation | Docking Functionality
 description: "Learn how to use the docking functionality and position child elements with the Telerik UI for .NET MAUI DockLayout control."
 position: 2
 slug: docklayout-docking
 ---
 
-# Positioning Child Elements
+# Docking Functionality
 
 The DockLayout provides options for setting the position of child elements to different areas of the layout and aligning multiple elements to one side.  
 
-## Setting the Position
+## Setting the Position of Child Elements
 
 To define the docking side of a child element inside the dock layout component, use **RadDockLayout.Dock** attached property which receives any of the following values:
 
@@ -33,19 +33,19 @@ Following is a quick example on how you can utilize the docking functionality:
 </telerik:RadDockLayout>
 ```
 
-where *telerik* is defined like this:
+Define `telerik` in the following way:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-Check the result on different platforms below:
+The following image shows the result on different platforms:
 
 ![RadDockLayout Docking](images/docklayout_docking_feature.png)
 
 ## Positioning Multiple Elements on One Side
 
-Setting the same docking side to a few child elements will arrange them according to their order inside the DockLayout’s Children collection.  
+Setting the same docking side to a few child elements will arrange them according to their order inside the DockLayout children collection.  
 
 <snippet id='docklayout-position-elementsoneside'/>
 ```XAML
@@ -57,10 +57,26 @@ Setting the same docking side to a few child elements will arrange them accordin
 </telerik:RadDockLayout>
 ```
 
-And the result is:
+The following image shows the end result.
 
 ![RadDockLayout Elements on one side](images/docklayout_positiononeside.png)
 
-## See Also
+## Setting the Position of the Last Child Element
 
-* [Using Adaptable Docking]({% slug adaptable_docklayout %})
+By default, the last element inside the DockLayout stretches over the remaining space that is not occupied by the other child elements.
+
+You can prevent this behavior by setting `StretchLastChild` property of the DockLayout control to `False` as demonstrated in the following example.
+
+<snippet id='docklayout-position-lastelement'/>
+```XAML
+<telerik:RadDockLayout x:Name="dockLayout" StretchLastChild="False">
+    <Label Text="Left" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
+    <Label Text="Top" telerik:RadDockLayout.Dock="Top" HeightRequest="60" BackgroundColor="LightGreen" />
+    <Label Text="Right" telerik:RadDockLayout.Dock="Right" WidthRequest="60" BackgroundColor="LightBlue" />
+    <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
+</telerik:RadDockLayout>
+```
+
+The following image shows the end result.
+
+![RadDockLayout Positioning](images/docklayout_positionlast.png)

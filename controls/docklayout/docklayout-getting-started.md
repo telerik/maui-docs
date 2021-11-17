@@ -1,12 +1,12 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI DockLayout Control
+page_title: .NET MAUI DockLayout Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI DockLayout and add the control to your .NET MAUI project."
 position: 1
 slug: docklayout-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI DockLayout
+# Getting Started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DockLayout by adding the control to your project.
 
@@ -78,5 +78,4 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-* [Positioning Child Elements]({% slug docklayout-docking %})
-* [Using Adaptable Docking]({% slug adaptable_docklayout %})
+* [Docking Functionality]({% slug docklayout-docking %})
