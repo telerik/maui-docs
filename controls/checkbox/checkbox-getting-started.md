@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI CheckBox Control
+page_title: .NET MAUI CheckBox Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI CheckBox and add the control to your .NET MAUI project."
 position: 1
 slug: checkbox-getting-started
