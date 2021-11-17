@@ -16,7 +16,7 @@ slug: maskedentry-overview
 
 * [Rich set of mask types]({%slug maskedentry-masked-types%})&mdash;The MaskedEntry control comes with a number of mask rules you can apply to validate user input as an email, IP address, text, regex, and more.
 * [Exhaustive number of events]({% slug maskedentry-events %})&mdash;You can use the events exposed by the MaskedEntry to execute various operations on user interaction such as value changing.
-* [Keyboard Support]({% slug ? %})&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
+* [Keyboard support]({% slug ? %})&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
 
 ## Next Steps
 
