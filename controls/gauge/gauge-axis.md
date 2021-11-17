@@ -12,7 +12,7 @@ The axis provides options for you to control all its displayed elements includin
 
 ## Axis Range
 
-Presently, the axis does not have an auto-range mechanism so it is mandatory that you set the **Minimum**, **Maximum**, and **Step** properties.
+Presently, the axis does not have an auto-range mechanism so it is mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
 
 ```XAML
 <telerikGauges:GaugeLinearAxis Maximum="4"
@@ -26,7 +26,7 @@ The following image shows the end result.
 
 ## Axis Line Stroke and Ticks
 
-You can control the stroke of the axis line and ticks through the **Stroke** property. To set a different color for the ticks, use the **TickStroke** property. Similarly, setting the **StrokeThickness** affects both the axis line and ticks. To set a different stroke thickness for the ticks, use the **TickThickness** property.
+You can control the stroke of the axis line and ticks through the `Stroke` property. To set a different color for the ticks, use the `TickStroke` property. Similarly, setting the `StrokeThickness` affects both the axis line and ticks. To set a different stroke thickness for the ticks, use the `TickThickness` property.
 
 ```XAML
 <telerikGauges:GaugeLinearAxis Maximum="4"
@@ -45,7 +45,7 @@ The following image shows the end result.
 
 ## Font Style
 
-You can control the appearance of the labels with the **FontSize**, **FontFamily** and **FontAttributes** properties.
+You can control the appearance of the labels with the `FontSize`, `FontFamily` and `FontAttributes` properties.
 
 ```XAML
 <telerikGauges:GaugeLinearAxis FontAttributes="Bold"
@@ -61,7 +61,7 @@ The following image shows the end result.
 
 ## Font Family
 
-The **FontFamily** property is of type `string` and you need to pass the name of the font family. Remember that the different platforms work with different fonts so you may need to use the **OnPlatform** method.
+The `FontFamily` property is of type `string` and you need to pass the name of the font family. Remember that the different platforms work with different fonts so you may need to use the `OnPlatform` method.
 
 <snippet id='gauge-axis-font-family'/>
 
@@ -102,7 +102,7 @@ The following image shows the end result.
 
 ## Offset and Length
 
-The distance between the specific element and the axis line is defined by the **Offset**, **TickOffset**, and **LabelOffset** properties. You can also specify the length of the ticks.
+The distance between the specific element and the axis line is defined by the `Offset`, `TickOffset`, and `LabelOffset` properties. You can also specify the length of the ticks.
 
 ```XAML
 <telerikGauges:GaugeLinearAxis LabelOffset="8"

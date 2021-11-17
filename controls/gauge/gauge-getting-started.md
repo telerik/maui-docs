@@ -1,12 +1,12 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Gauge Control
+page_title: .NET MAUI Gauge Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Gauge and add the control to your .NET MAUI project."
 position: 1
 slug: gauge-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI Gauge
+# Getting Started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Gauge by adding the control to your project.
 
@@ -23,8 +23,6 @@ Before adding the Gauge, you need to:
 1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
-
-1. Install the [SkiaSharp graphics library](https://skia.org/) as the Gauge requires it.
 
 ## Define the Control
 

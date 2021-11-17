@@ -12,13 +12,13 @@ The Gauge indicators are elements that display data-related values in a differen
 
 ## Needle Indicator
 
-The **GaugeNeedleIndicator** is part of the Radial Gauge. It presents a single value set by the **Value** property. The needle is intended to be visually similar to an actual gauge needle. The center of rotation of the needle coincides with the center of the gauge and is directed towards where the value on the gauge axis is. How far the tip of the needle gets is determined by its **Position** and **Offset** properties.
+The `GaugeNeedleIndicator` is part of the Radial Gauge. It presents a single value set by the `Value` property. The needle is intended to be visually similar to an actual gauge needle. The center of rotation of the needle coincides with the center of the gauge and is directed towards where the value on the gauge axis is. How far the tip of the needle gets is determined by its `Position` and `Offset` properties.
 
 ![Gauge example](images/gauge-needle-indicator.png)
 
-## Customizing the Needle Indicator
+## Custom Needle Indicator
 
-You can use a custom shape for the needle by taking advantage of the **Shape** property. To achieve the desired output, set up the geometry that describes the needle you want.
+You can use a custom shape for the needle by taking advantage of the `Shape` property. To achieve the desired output, set up the geometry that describes the needle you want.
 
 When the shape geometry is set, the gauge expects the following conditions to be met:
 
@@ -59,10 +59,10 @@ The following image shows the end result.
 
 ## Shape Indicator
 
-The **GaugeShapeIndicator** has the following properties:
+The `GaugeShapeIndicator` has the following properties:
 
-* **Value**&mdash;Defines a single value of the shape indicator.
-* **Size**&mdash;Defines the size of the shape indicator.
+* `Value`&mdash;Defines a single value of the shape indicator.
+* `Size`&mdash;Defines the size of the shape indicator.
 
 The shape indicator is essentially a square box and is drawn so that its center coincides with the point defined by the `Position` and `Offset` properties. The shape is rotated around its center so that the default arrow shape always points towards the axis line.
 
@@ -70,7 +70,7 @@ The shape indicator is essentially a square box and is drawn so that its center 
 
 ## Customizing the Shape Indicator
 
-You can use a custom shape for the **GaugeShapeIndicator** by taking advantage of the **Shape** property. To achieve the desired output, set up the geometry that describes the shape you want.
+You can use a custom shape for the `GaugeShapeIndicator` by taking advantage of the `Shape` property. To achieve the desired output, set up the geometry that describes the shape you want.
 
 When the shape geometry is set, the gauge expects that these conditions are met:
 
@@ -99,7 +99,7 @@ The following image shows the end result.
 
 ## Bar Indicator
 
-The **GaugeBarIndicator** presents a single value set by the **Value** property. The bar indicator is drawn alongside and parallel to the axis line, and is drawn from the axis origin value.
+The `GaugeBarIndicator` presents a single value set by the `Value` property. The bar indicator is drawn alongside and parallel to the axis line, and is drawn from the axis origin value.
 
 ```XAML
 <telerikGauges:GaugeBarIndicator Fill="Green"
@@ -110,16 +110,16 @@ The **GaugeBarIndicator** presents a single value set by the **Value** property.
 
 In addition, the Bar indicator has the following properties:
 
-* **StartThickness**(*double*)&mdash;Specifies the start thickness of the Bar indicator.
-* **EndThickness**(*double*)&mdash;Specifies the end thickness of the Bar indicator.
-* **StartCap**(of type *Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration*)&mdash;Defines the start cap of the Bar indicator.
-* **EndCap**(of type *Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration*)&mdash;Defines the end cap of the Bar indicator.
+* `StartThickness`(`double`)&mdash;Specifies the start thickness of the Bar indicator.
+* `EndThickness`(`double`)&mdash;Specifies the end thickness of the Bar indicator.
+* `StartCap`(of type `Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Bar indicator.
+* `EndCap`(of type `Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Bar indicator.
 
-  The available options from the **GaugeBarIndicatorCap** enumeration are **Flat**, **Oval**, and **ConcaveOval**. The default value for the start and end caps is *Flat*.
+  The available options from the `GaugeBarIndicatorCap` enumeration are `Flat`, `Oval`, and `ConcaveOval`. The default value for the start and end caps is `Flat`.
 
 ## Range Bar Indicator
 
-The **GaugeBarIndicator** presents a value range set by the **From** and **To** properties.
+The `GaugeBarIndicator` presents a value range set by the `From` and `To` properties.
 
 ```XAML
 <telerikGauges:GaugeRangeBarIndicator FromCap="Oval"
@@ -142,16 +142,16 @@ The following image shows the end result.
 
 In addition, the Range Bar indicator has the following properties:
 
-* **FromThickness**(*double*)&mdash;Specifies the start thickness of the Range Bar indicator.
-* **ToThickness**(*double*)&mdash;Specifies the end thickness of the Range Bar indicator.
-* **FromCap**(of type *Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration*)&mdash;Defines the start cap of the Range Bar indicator.
-* **ToCap**(of type *Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration*)&mdash;Defines the end cap of the Range Bar indicator.
+* `FromThickness`(`double`)&mdash;Specifies the start thickness of the Range Bar indicator.
+* `ToThickness`(`double`)&mdash;Specifies the end thickness of the Range Bar indicator.
+* `FromCap`(of type `Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Range Bar indicator.
+* `ToCap`(of type `Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Range Bar indicator.
 
-  The available options from the **GaugeBarIndicatorCap** enumeration are **Flat**, **Oval**, and **ConcaveOval**. The default value is *Flat*.
+  The available options from the `GaugeBarIndicatorCap` enumeration are `Flat`, `Oval`, and `ConcaveOval`. The default value is *Flat*.
 
 ## Text Indicator
 
-The **GaugeTextIndicator** allows you to present some text on a specific value.
+The `GaugeTextIndicator` allows you to present some text on a specific value.
 
 ```XAML
 <telerikGauges:GaugeTextIndicator HorizontalTextPlacement="Right"

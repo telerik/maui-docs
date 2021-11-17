@@ -10,7 +10,7 @@ slug: gauge-positioning
 
 The gauge arranges most of its elements by taking into consideration the respective position and offset properties.
 
-Some elements like the indicators have properties named **Position** and **Offset**. Other elements are composite, like the axis that handles both ticks and labels, and requires two sets of properties - **TickPosition** and **TickOffset**, and **LabelPosition** and **LabelOffset**.
+Some elements like the indicators have properties named `Position` and `Offset`. Other elements are composite, like the axis that handles both ticks and labels, and requires two sets of properties - `TickPosition` and `TickOffset`, and `LabelPosition` and `LabelOffset`.
 
 The offset is the distance from the axis line to the element. The gauge allows the overlapping of elements and you have to set adequate offset values to ensure that they are not positioned on top of each other.
 
@@ -79,9 +79,9 @@ The following image shows the end result.
 
 ## Radial Gauge Specifics
 
-While the offset is the absolute distance from the axis line to the element, the position of the axis line itself is determined by the **AxisRadiusFactor** property, which is a relative value between 0 and 1.
+While the offset is the absolute distance from the axis line to the element, the position of the axis line itself is determined by the `AxisRadiusFactor` property, which is a relative value between 0 and 1.
 
-When the Radial Gauge is arranged, it calculates the largest square box in the middle of its arrange bounds and the gauge is laid out within this square box. The **AxisRadiusFactor** determines the size of the radius of the axis arc inside this box. Setting the radius factor to 1.0 results in the axis line occupying as much space as possible.
+When the Radial Gauge is arranged, it calculates the largest square box in the middle of its arrange bounds and the gauge is laid out within this square box. The `AxisRadiusFactor` determines the size of the radius of the axis arc inside this box. Setting the radius factor to 1.0 results in the axis line occupying as much space as possible.
 
 ## See Also
 
