@@ -1,6 +1,6 @@
 ---
 title: Formatting
-page_title: .NET MAUI DatePicker Documentation | Date Format Strings
+page_title: .NET MAUI DatePicker Documentation | Formatting
 description: "Use the formatting options provided by the Telerik DatePicker for .NET MAUI control."
 position: 2
 slug: datepicker-formatting
