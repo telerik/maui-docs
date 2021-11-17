@@ -1,63 +1,73 @@
 ---
 title: Styling
 page_title: .NET MAUI CheckBox Documentation | Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik CheckBox for .NET MAUI control.
+description: "Set the border, background, and symbol color of the Telerik UI for .NET MAUI CheckBox and customize its visual appearance."
 position: 4
 slug: checkbox-styling
 ---
 
 # Styling
 
-The purpose of this help article is to show you the styling options of the **RadCheckBox** control. 
+The CheckBox provides a set of styling options by exposing properties for customizing its visual appearance.
 
-## Colors
+You can set the color of the check mark as well as the control itself in each of the available states.
 
-RadCheckBox exposes a few useful Color properties for customizing its visual appearance. You could set the color of the check mark as well as the control itself in each of the available states.
+## Background, Border, and Symbol Colors
 
- * Background/Border Colors
-   * **CheckedColor**: Defines the Color applied to the control when it is checked. This is both the border and background color.
-   * **UncheckedColor**: Defines the Color applied to the control when it is unchecked. This is the border color only, the background is transparent when unchecked.
-   * **IndeterminateColor**: Defines the Color applied to the control when it is in Indeterminate state. This is both the border and background color.
- * Symbol Colors
-   * **CheckedSymbolColor**: Defines the Color applied to the check symbol of the control when it is in Checked state.
-   * **IndeterminateSymbolColor**: Defines the Color applied to the Indeterminate symbol of the control.
+To set the background and border colors of the CheckBox, use the following properties:
 
-## Example
+* `CheckedColor`&mdash;Defines the Color applied to the control when it is checked. This is both the border and background color.
+* `UncheckedColor`&mdash;Defines the Color applied to the control when it is unchecked. This is the border color only, the background is transparent when unchecked.
+* `IndeterminateColor`&mdash;Defines the Color applied to the control when it is in Indeterminate state. This is both the border and background color.
 
-Here is an example how to apply indeterminate color and indeterminate symbol color:
+To set the symbol colors of the CheckBox, use the following properties:
 
+* `CheckedSymbolColor`&mdash;Defines the Color applied to the check symbol of the control when it is in Checked state.
+* `IndeterminateSymbolColor`&mdash;Defines the Color applied to the Indeterminate symbol of the control.
 
-### Checked Color
+The following example demonstrates how to set the `CheckedColor` property.
 
-```XAML
+ ```XAML
 <telerikPrimitives:RadCheckBox CheckedColor="Aqua" />
-```
+ ```
 
-### UncheckedColor
+The following example demonstrates how to set the `UncheckedColor` property.
 
 ```XAML
 <telerikPrimitives:RadCheckBox UncheckedColor="DarkBlue" />
 ```
 
-### CheckedSymbol Color
+The following example demonstrates how to set the `CheckedSymbolColor` property.
 
-```XAML
+ ```XAML
 <telerikPrimitives:RadCheckBox CheckedSymbolColor="Black" />
-```
+ ```
 
-### Indeterminate and IndeterminateSymbol Color
+The following example demonstrates how to set the `IndeterminateColor` and `IndeterminateSymbolColor` properties.
 
 ```XAML
 <telerikPrimitives:RadCheckBox x:Name="checkbox" IsChecked="{x:Null}" IndeterminateColor="Brown" IndeterminateSymbolColor="Coral" />
 ```
 
-Here is the result at runtime with all of the above examples:
+The image below shows the end result.
 
 ![CheckBox Color Changing Options Example](images/checkbox-colors.png)
 
-> RadCheckBox follows the guidelines of the operating system, meaning that on iOS it is visualized as circle and on Android and WinUI - as square.
+## Stroke Thickness
+
+The CheckBox exposes a `StrokeWidth` property that specifies the width of the lines with which the Checkbox element is drawn. It affects the border of the control as well as the check mark.
+
+The following example demonstrates how to apply a `StrokeWidth` value.
+
+```XAMl
+<telerikPrimitives:RadCheckBox x:Name="checkboxStrokeWidth" StrokeWidth="5"/>
+```
+
+The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length`.
+
+![CheckBox Key Feature Example](images/checkbox-features.png)
 
 ## See Also
 
-- [CheckBox Getting Started]({% slug checkbox-getting-started%})
-- [CheckBox Key Features]({% slug checkbox-key-features%})
+- [Setting the Checkbox Dimensions]({% slug checkbox_dimensions %})
+- [Defining the Checkbox State]({% slug checkbox_states %})
