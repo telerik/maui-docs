@@ -8,14 +8,14 @@ slug: path-styling
 
 # Styling
 
-The RadPath element exposes the following properties you can use to customize the look of the path figures:
+The `RadPath` element exposes the following properties you can use to customize the look of the path figures:
 
-* **Fill:** Used for setting up the color within the figures. You should set an object of type **RadBrush**. This can be a **RadSolidColorBrush** or a **RadSweepGradientBrush**
-* **Stroke:** You can use this property to set the stroke color.
-* **StrokeThickness:** You can use this property to set the thickness of the stroke.
-* **BackgroundColor:** You can use this property to modify the color of the rectangle which contains the specific figure.
+* `Fill`: Used for setting up the color within the figures. You have to set an object of type `RadBrush`. This can be a `RadSolidColorBrush` or a `RadSweepGradientBrush`
+* `Stroke`: You can use this property to set the stroke color.
+* `StrokeThickness`: You can use this property to set the thickness of the stroke.
+* `BackgroundColor`: You can use this property to modify the color of the rectangle which contains the specific figure.
 
-Here is an example with **RadSweepGradientBrush**:
+Here is an example with `RadSweepGradientBrush`:
 
 ```XAML
 <telerikPrimitives:RadPath x:Name="gradientPath"
@@ -52,12 +52,12 @@ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
 ```
 
-Below you can check an example with **RadSolidColorBrush**:
+Below you can check an example with `RadSolidColorBrush`:
 
 ```XAML
 <telerikPrimitives:RadPath x:Name="solidPath"
                            Grid.Row="0"
-                           StrokeThickness="2" 
+                           StrokeThickness="2"
                            Stroke="#1481FF"
                            Fill="#BCE1FF">
     <telerikCommon:RadPathGeometry>
