@@ -8,7 +8,7 @@ slug: busyindicator-animations
 
 # Animations
 
-The BusyIndicator provides options for controlling the behavior of its built-in animations and enables you to define custom animations.
+The BusyIndicator provides options for controlling the size and color of its built-in animations and enables you to define custom animations.
 
 ## Built-in Animations
 
@@ -18,7 +18,7 @@ To change the selected animation of the BusyIndicator, use its `AnimationType` p
 
 ![BusyIndicator animations list](images/busyindicator-features-animations-0.png)
 
-## Controlling Size and Color
+### Controlling Size and Color
 
 To change the size and color of the animated element (animation content), use the following properties:
 

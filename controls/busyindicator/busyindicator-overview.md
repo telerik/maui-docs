@@ -14,7 +14,7 @@ slug: busyindicator-overview
 
 ## Key Features
 
-- [Built-in animations]({%slug busyindicator-animations%})&mdash;The BusyIndicator component provides a set of built-in animations, which you can use.
+- [Built-in animations]({%slug busyindicator-animations%}#built-in-animations)&mdash;The BusyIndicator control provides a set of built-in animations, which you can use.
 - [Custom animation]({%slug busyindicator-animations%}#custom-animation) &mdash;The control allows you to define custom content and animate it by using the `RadAnimation` class.
 - [Custom busy content]({%slug busyindicator-custom-busy-content%})&mdash;Setting the `BusyContent` property of BusyIndicator allows you to display any content along with the built-in animations while the control is in its Busy state.
 
