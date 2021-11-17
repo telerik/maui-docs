@@ -26,45 +26,45 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 1. To generate a SwissQR Barcode by using Telerik UI for MAUI, set the `Symbology` of the Barcode to `SwissQRCode`.
 
-<snippet id='swissqrbarcode-example-xaml' />
+ <snippet id='swissqrbarcode-example-xaml' />
 
 Add the namespace:
 
  ```XAML
- xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
-    Through its constructor, you need to set the following properties:
+Through its constructor, you need to set the following properties:
 
-    * `Iban`&mdash;The IBAN of the Account/Payable to.
-    * `Currency`&mdash;The currency of the payment (CHF or EUR).
-    * `Creditor`&mdash;The information of the contact that receives the payment.
-    * `Reference`&mdash;The reference information for the payment.
-    * `AdditionalInformation`&mdash;The additional information for the payment.
-    * `Debtor`&mdash;The information of the contact that makes the payment.
-    * `Amount`&mdash;The amount of the payment.
-    * `AlternativeProcedure`&mdash;The alternative procedures for the payment.
+* `Iban`&mdash;The IBAN of the Account/Payable to.
+* `Currency`&mdash;The currency of the payment (CHF or EUR).
+* `Creditor`&mdash;The information of the contact that receives the payment.
+* `Reference`&mdash;The reference information for the payment.
+* `AdditionalInformation`&mdash;The additional information for the payment.
+* `Debtor`&mdash;The information of the contact that makes the payment.
+* `Amount`&mdash;The amount of the payment.
+* `AlternativeProcedure`&mdash;The alternative procedures for the payment.
 
-    ```C#
-    SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
-          new Iban("CH4431999123000889012", IbanType.QRIBAN),
-          SwissQRCodeCurrency.EUR,
-          new Contact("Max Muster & Söhne",
-          new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "123")),
-          new Reference(ReferenceType.QRR, "210000000003139471430009017"),
-          new AdditionalInformation("Order from 15.03.2021", "//S1/10/1234/11/201021/30/102673386/32/7.7/40/0:30"),
-          new Contact("Simon Muster", new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "1")),
-          (decimal)1949.75,
-          new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
-    ```
+ ```C#
+SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
+      new Iban("CH4431999123000889012", IbanType.QRIBAN),
+      SwissQRCodeCurrency.EUR,
+      new Contact("Max Muster & Söhne",
+      new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "123")),
+      new Reference(ReferenceType.QRR, "210000000003139471430009017"),
+      new AdditionalInformation("Order from 15.03.2021", "//S1/10/1234/11/201021/30/102673386/32/7.7/40/0:30"),
+      new Contact("Simon Muster", new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "1")),
+      (decimal)1949.75,
+      new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
+ ```
 
-    Add the namespace.
+Add the namespace.
 
-    ```C#
-    using Telerik.Barcode
-    ```
+ ```C#
+using Telerik.Barcode
+ ```
 
 1. Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
 
