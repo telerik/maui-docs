@@ -8,15 +8,15 @@ slug: listpicker-selection
 
 # Selection
 
-ListPicker for .NET MAUI enables the app users to quickly and easily select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
+The ListPicker for .NET MAUI enables the application users to quickly and easily select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
 
 ## Important Properties
 
-* `SelectedItem`(*object*): Specifies the selected item of the ListPicker. 
+The `SelectedItem`(`object`) property specifies the selected item of the ListPicker.
 
 ## Methods
 
-ListPicker for .NET MAUI allows you to clear the selected date/time through its `ClearSelection` method
+The ListPicker for .NET MAUI allows you to clear the selected date/time through its `ClearSelection` method.
 
 ### Example
 
@@ -24,16 +24,16 @@ ListPicker for .NET MAUI allows you to clear the selected date/time through its 
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerikInput:RadListPicker x:Name="listPicker"
-                                Placeholder="Pick a name!" 
-                                ItemsSource="{Binding Items}" 
+                                Placeholder="Pick a name!"
+                                ItemsSource="{Binding Items}"
                                 DisplayMemberPath="FullName">
         <telerikInput:RadListPicker.BindingContext>
             <local:ViewModel/>
         </telerikInput:RadListPicker.BindingContext>
         <telerikInput:RadListPicker.ItemTemplate>
             <DataTemplate>
-                <Label Text="{Binding Name}" 
-                       HorizontalTextAlignment="Center" 
+                <Label Text="{Binding Name}"
+                       HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center"/>
             </DataTemplate>
         </telerikInput:RadListPicker.ItemTemplate>
@@ -41,7 +41,7 @@ ListPicker for .NET MAUI allows you to clear the selected date/time through its 
 </StackLayout>
 ```
 
-and we can clear the selection inside the button click event:
+Clear the selection inside the button `click` event:
 
 ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
@@ -50,15 +50,15 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 }
 ```
 
-a sample ViewModel:
+Set a sample `ViewModel`:
 
 <snippet id='listpicker-getting-started-viewmodel' />
 
-and the Business model:
+Define the Business model:
 
 <snippet id='listpicker-getting-started-business-model' />
 
-also you will need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
@@ -66,13 +66,13 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Xa
 
 ## Events
 
-ListPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
+The ListPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
 
 ### Example
 
 ```XAML
-<telerikInput:RadListPicker Placeholder="Pick a name!" 
-	                        ItemsSource="{Binding Items}" 
+<telerikInput:RadListPicker Placeholder="Pick a name!"
+	                        ItemsSource="{Binding Items}"
 	                        SelectionChanged="RadListPicker_SelectionChanged"
 	                        DisplayMemberPath="FullName">
     <telerikInput:RadListPicker.BindingContext>
@@ -80,15 +80,15 @@ ListPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when
     </telerikInput:RadListPicker.BindingContext>
     <telerikInput:RadListPicker.ItemTemplate>
         <DataTemplate>
-            <Label Text="{Binding Name}" 
-				   HorizontalTextAlignment="Center" 
+            <Label Text="{Binding Name}"
+				   HorizontalTextAlignment="Center"
 				   VerticalTextAlignment="Center"/>
         </DataTemplate>
     </telerikInput:RadListPicker.ItemTemplate>
 </telerikInput:RadListPicker>
 ```
 
-and the `SelectionChanged` event, where *sender* is the RadListPicker control:
+The following snippet demonstrates how to set the `SelectionChanged` event, where `sender` corresponds to the ListPicker control:
 
 ```C#
 private void RadListPicker_SelectionChanged(object sender, System.EventArgs e)
@@ -97,7 +97,7 @@ private void RadListPicker_SelectionChanged(object sender, System.EventArgs e)
 }
 ```
 
-a sample ViewModel:
+Define a sample `ViewModel`:
 
 <snippet id='listpicker-getting-started-viewmodel' />
 ```C#
@@ -125,7 +125,7 @@ public class CitiesViewModel
 }
 ```
 
-and the Business model:
+Set the Business model:
 
 <snippet id='listpicker-getting-started-business-model' />
 ```C#
@@ -136,9 +136,9 @@ public class City
 }
 ```
 
-where the *sender* is the RadListPicker control.
+In the example, the `sender` is the ListPicker control.
 
-also you will need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility""

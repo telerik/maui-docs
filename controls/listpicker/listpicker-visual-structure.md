@@ -1,6 +1,6 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI List Picker Documentation | ListPicker Visual Structure
+page_title: .NET MAUI List Picker Documentation | Visual Structure
 description: Check our &quot;Visual Structure&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 0
 slug: listpicker-visual-structure
@@ -20,9 +20,9 @@ Here are described all visual elements used in the List Picker for .NET MAUI.
 
 ## Legend
 
-- **Placeholder** - the text visualized before picking an item from the list of items. Placeholder could be customized through the [PlaceholderTemplate]({%slug listpicker-templates%}#placeholder-template) property.
-- **DisplayStringFormat** - the text visualized after an item from the list of items is picked.
-- **Header** - the text displayed in the popup header. It could be set a direct text through the [HeaderLabelText]({%slug listpicker-templates%}) property or fully customize the popup header using the [HeaderTemplate]({%slug listpicker-templates%}#header-template) property
-- **ItemTemplate**  - Defines the template used for displaying the list of items. For more information review [Templates]({%slug listpicker-templates%}) article.
-- **SelectedItemTemplate** - Specifies the template used for visualizing the selected item from the list. For more information review [Templates]({%slug listpicker-templates%}) article.
-- **Footer** - the footer of the popup. By default is contains OK and Cancel Buttons. It could be customized through the FooterTemplate property. For more information review [Templates]({%slug listpicker-templates%}) article.
+- **Placeholder**&mdash;The text visualized before picking an item from the list of items. A placeholder can be customized through the [`PlaceholderTemplate`]({%slug listpicker-templates%}#placeholder-template) property.
+- **DisplayStringFormat**&mdash;The text visualized after an item from the list of items is picked.
+- **Header**&mdash;The text displayed in the popup header. You can set a direct text through the [`HeaderLabelText`]({%slug listpicker-templates%}) property or fully customize the popup header by using the [`HeaderTemplate`]({%slug listpicker-templates%}#header-template) property.
+- **ItemTemplate**&mdash;Defines the template used for displaying the list of items. For more information review [Templates]({%slug listpicker-templates%}) article.
+- **SelectedItemTemplate**&mdash;Specifies the template used for visualizing the selected item from the list. For more information review the [Templates]({%slug listpicker-templates%}) article.
+- **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the `FooterTemplate` property. For more information, review the [Templates]({%slug listpicker-templates%}) article.

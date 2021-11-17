@@ -8,33 +8,33 @@ slug: listpicker-templates
 
 # Templates
 
-ListPicker for .NET MAUI provides the following templates:
+The ListPicker for .NET MAUI provides the following templates:
 
-* `ItemTemplate`(*DataTemplate*): Defines the template used for displaying the list of items.
-* `SelectedItemTemplate`(*DataTemplate*): Specifies the template used for visualizing the selected item from the list.
-* `PlaceholderTemplate`(*ControlTemplate*): Defines the template visualized for the placeholder.  
-* `DisplayTemplate`(*ControlTemplate*): Defines the template visualized when an item from the list is selected.
+* `ItemTemplate`(`DataTemplate`)&mdash;Defines the template used for displaying the list of items.
+* `SelectedItemTemplate`(`DataTemplate`)&mdash;Specifies the template used for visualizing the selected item from the list.
+* `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
+* `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when an item from the list is selected.
 
-Using `SelectorSettings` property(of type *Telerik.XamarinForms.Input.PickerPopupSelectorSettings*) you can define the following templates:
+Using `SelectorSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSelectorSettings`) you can define the following templates:
 
-* `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
-* `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog(popup) header.
+* `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog(popup) footer.
 
-This is the Visual Structure of the ListPicker Templates:
+This is the Visual Structure of the ListPicker templates:
 
 ![ListPicker Visual Structure](images/listpicker_visual_structure_templates.png)
 
-In addition the ListPicker for .NET MAUI provides the following properties:
+In addition, the ListPicker for .NET MAUI provides the following properties:
 
-* `ItemsSource`(*IList*): Specifies the collection used to generate the content of the list picker.
-* `ItemLength`(*double*): Defines the length of the items inside the list.
-* `ItemSpacing`(*double*): Defines the spacing between the items inside the list.
-* `SelectedItem`(*object*): Specifies the selected item of the list picker
-* `DisplayMemberPath`(*string*): Defines the path of the property which is to be displayed as DisplayString.
+* `ItemsSource`(`IList`)&mdash;Specifies the collection used to generate the content of the list picker.
+* `ItemLength`(`double`)&mdash;Defines the length of the items inside the list.
+* `ItemSpacing`(`double`)&mdash;Defines the spacing between the items inside the list.
+* `SelectedItem`(`object`)&mdash;Specifies the selected item of the list picker
+* `DisplayMemberPath`(`string`)&mdash;Defines the path of the property which is to be displayed as `DisplayString`.
 
 ## Example
 
-Here is a sample ListPicker definition:
+The following example demonstrates how to define a sample ListPicker:
 
 <snippet id='listpicker-features-templates' />
 ```XAML
@@ -56,7 +56,7 @@ Here is a sample ListPicker definition:
 </telerikInput:RadListPicker>
 ```
 
-and the templates definition in the page resources:
+Define the templates in the page resources:
 
 ## Item Template
 
@@ -147,7 +147,7 @@ and the templates definition in the page resources:
 </ControlTemplate>
 ```
 
-and a sample business model:
+Set a sample business model:
 
 <snippet id='listpicker-features-businessmodel' />
 ```C#
@@ -158,7 +158,7 @@ public class City
 }
 ```
 
-and the ViewModel:
+Define the `ViewModel`:
 
 <snippet id='listpicker-features-viewmodel' />
 ```C#
@@ -186,17 +186,17 @@ public class CitiesViewModel
 }
 ```
 
-also you will need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is the result:
+The following image shows the end result:
 
 ![ListPicker Templates](images/listpicker_templates.png)
 
->important A sample Templates example can be found in the ListPicker/Templates folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample templates example, refer to the **ListPicker/Templates** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 

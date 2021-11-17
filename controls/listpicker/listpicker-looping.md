@@ -8,13 +8,13 @@ slug: listpicker-looping
 
 # Looping
 
-ListPicker for .NET MAUI provides looping functionality which allows you to loop the list of items after reaching the last item.
+The ListPicker for .NET MAUI provides a looping functionality which allows you to loop the list of items after reaching the last item.
 
-You can achieve this by setting ListPicker `IsLooping`(*bool*) property to *true*.
+You can achieve this by setting the `IsLooping`(`bool`) property to `true`.
 
-### Example
+## Example
 
-The snippet below shows a simple RadListPicker definition:
+The snippet below shows a simple ListPicker definition:
 
 <snippet id='listpicker-features-looping' />
 ```XAML
@@ -22,22 +22,22 @@ The snippet below shows a simple RadListPicker definition:
 							IsLooping="True"
 							ItemLength="40"
 							ItemSpacing="3"
-							ItemsSource="{Binding Items}" 
+							ItemsSource="{Binding Items}"
 							DisplayMemberPath="Name">
 		<telerikInput:RadListPicker.BindingContext>
 			<local:CitiesViewModel/>
 		</telerikInput:RadListPicker.BindingContext>
 		<telerikInput:RadListPicker.ItemTemplate>
 			<DataTemplate>
-				<Label Text="{Binding Name}" 
-					   HorizontalTextAlignment="Center" 
+				<Label Text="{Binding Name}"
+					   HorizontalTextAlignment="Center"
 					   VerticalTextAlignment="Center"/>
 			</DataTemplate>
 		</telerikInput:RadListPicker.ItemTemplate>
 	</telerikInput:RadListPicker>
 ```
 
-A sample business model:
+Define a sample business model:
 
 <snippet id='listpicker-features-businessmodel' />
 ```C#
@@ -48,7 +48,7 @@ public class City
 }
 ```
 
-and a ViewModel:
+Set the `ViewModel`:
 
 <snippet id='listpicker-features-viewmodel' />
 ```C#
@@ -76,11 +76,11 @@ public class CitiesViewModel
 }
 ```
 
-This is how the Looping functionality looks:
+The following image shows the end result.
 
 ![ListPicker Looping](images/looping_gif.gif)
 
->important A sample Looping example can be found in the ListPicker/Looping folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample looping example, refer to the **ListPicker/Looping** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
