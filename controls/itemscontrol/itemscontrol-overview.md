@@ -15,8 +15,8 @@ slug: itemscontrol-overview
 
 ## Key Features
 
-* [Setting the items source]({% slig itemssource_itemscontrol %})&mdash;The ItemsControl provides the **ItemsSource** property, which enables you to define a collection of items and populate them with data.
-* [Using the items template]({% slug templates_itemscontrol %})&mdash;You can also customize the visualization of the ItemsControl items by using the **ItemTemplate** property.
+* [Setting the items source]({% slug configuration-itemscontrol %}#setting-the-items-source)&mdash;The ItemsControl provides the `ItemsSource` property, which enables you to define a collection of items and populate them with data.
+* [Using the items template]({% slug configuration-itemscontrol %}#customizing-the-appearance)&mdash;You can also customize the visualization of the ItemsControl items by using the `ItemTemplate` property.
 
 ## Next Steps
 
