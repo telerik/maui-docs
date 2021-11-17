@@ -1,36 +1,50 @@
 ---
 title: Getting Started
 page_title: Getting Started with .NET MAUI NumericInput Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik NumericInput for .NET MAUI.
+description: "Get started with the Telerik UI for .NET MAUI NumericInput and add the control to your .NET MAUI project."
 position: 1
 slug: numericinput-getting-started
 ---
 
 # Getting Started
 
-## Define RadNumericInput control
+This guide provides the information you need to start using the Telerik UI for .NET MAUI NumericInput by adding the control to your project.
 
-```XAML
-<telerikInput:RadNumericInput x:Name="numericInput" />
-```
-```C#
-var numericInput = new RadNumericInput();
-```
-
-Add the following namespase: 
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
-```C#
-using Telerik.XamarinForms.Input;
-```
-#### Figure 1: NumericInput Getting Started
-Here is the result:
+At the end, you will be able to achieve the following result.
 
 ![NumericInput Getting Started Example](images/numericinput-getting-started.png)
 
->important The **SDK Browser MAUI application** contain different examples that show RadNumericInput's main features.
+For more examples on the NumericInput main features, refer to the [SDK Browser MAUI application]({% slug maui-demo-app %}).
+
+## Prerequisites
+
+Before adding the NumericInput, you need to:
+
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When the your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
+
+ ```XAML
+<telerikInput:RadNumericInput x:Name="numericInput" />
+ ```
+ ```C#
+var numericInput = new RadNumericInput();
+ ```
+
+1. Add the following namespase:
+
+ ```XAML
+xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+ ```
+ ```C#
+using Telerik.XamarinForms.Input;
+ ```
 
 ## See Also
 

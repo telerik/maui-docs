@@ -8,11 +8,11 @@ slug: numericinput-commands
 
 # Commands
 
-RadNumericInput exposes `IncreaseCommand` and `DecreaseCommand` which could be used to define custom functionality upon the respective actions.  These commands allow you to easily change and extend the control's default behavior.
+The NumericInput exposes `IncreaseCommand` and `DecreaseCommand` which could be used to define custom functionality upon the respective actions. These commands allow you to easily change and extend the control's default behavior.
 
 In the next example, you can see how the NumericInput commands could be utilized in order to implement auto-reverse functionality – start from the Minimum value when the Maximum is reached and vice versa.
 
-First, create the ViewModel with both IncreaseCommand and DecreaseCommand implementations:
+First, create the `ViewModel` with both `IncreaseCommand` and `DecreaseCommand` implementations:
 
 ```C#
 public class CommandsViewModel : NotifyPropertyChangedBase
@@ -95,7 +95,7 @@ Where:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
->You can find a working demo in the NumericInput/Features/Commands folder of the SDK Browser MAUI application.
+>You can find a working demo in the **NumericInput/Features/Commands** folder of the SDK Browser MAUI application.
 
 ## See Also
 
