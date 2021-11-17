@@ -1,12 +1,12 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI ListView Control
+page_title: .NET MAUI ListView Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI ListView and add the control to your .NET MAUI project."
 position: 1
 slug: listview-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI ListView
+# Getting Started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ListView by adding the control to your project.
 
@@ -26,7 +26,7 @@ Before adding the ListView, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition.
+1. When your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition.
 
   The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
