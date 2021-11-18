@@ -24,5 +24,5 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ## See Also
 
-- [Defining the Checkbox State]({% slug checkbox_states %})
+- [Defining the Checkbox State]({% slug checkbox-checked-states %})
 - [Styling Options of the Checkbox]({% slug checkbox-styling%})

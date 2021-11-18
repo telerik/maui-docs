@@ -4,7 +4,7 @@ page_title: .NET MAUI ItemsControl Documentation | Configuration
 description: "Set the items of the Telerik UI for .NET MAUI ItemsControl and populate them with data."
 position: 2
 tags: .net maui, telerik .net maui, ui for .net maui, microsoft .net maui
-slug: configuration-itemscontrol
+slug: itemscontrol-configuration
 ---
 
 # Configuration
@@ -108,4 +108,4 @@ The following image shows the end result.
 
 ## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug get_started_itemscontrol %})
+- [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug itemscontrol-getting-started %})

@@ -3,7 +3,7 @@ title: Getting Started
 page_title: .NET MAUI ItemsControl Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI ItemsControl and add the control to your .NET MAUI project."
 position: 1
-slug: get_started_itemscontrol
+slug: itemscontrol-getting-started
 ---
 
 # Getting Started with the Telerik UI for .NET MAUI ItemsControl
@@ -54,5 +54,5 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-- [Setting the Items Source]({% slug %})
-- [Using the Items Template]({% slug %})
+- [Setting the Items Source]({% slug itemscontrol-configuration%}#setting-the-items-source)
+- [Using the Items Template]({% slug itemscontrol-configuration%}#customizing-the-appearance)

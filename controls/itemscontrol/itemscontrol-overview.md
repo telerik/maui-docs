@@ -15,9 +15,9 @@ slug: itemscontrol-overview
 
 ## Key Features
 
-* [Setting the items source]({% slug configuration-itemscontrol %}#setting-the-items-source)&mdash;The ItemsControl provides the `ItemsSource` property, which enables you to define a collection of items and populate them with data.
-* [Using the items template]({% slug configuration-itemscontrol %}#customizing-the-appearance)&mdash;You can also customize the visualization of the ItemsControl items by using the `ItemTemplate` property.
+* [Setting the items source]({% slug itemscontrol-configuration %}#setting-the-items-source)&mdash;The ItemsControl provides the `ItemsSource` property, which enables you to define a collection of items and populate them with data.
+* [Using the items template]({% slug itemscontrol-configuration %}#customizing-the-appearance)&mdash;You can also customize the visualization of the ItemsControl items by using the `ItemTemplate` property.
 
 ## Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug get_started_itemscontrol %})
+- [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug itemscontrol-getting-started %})
