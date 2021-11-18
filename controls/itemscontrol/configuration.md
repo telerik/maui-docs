@@ -1,47 +1,33 @@
 ---
-title: Key Features
-page_title: .NET MAUI ItemsControl Documentation | Key Features for .NET MAUI Button
-description: Check our &quot;Key Features&quot; documentation article for Telerik ItemsControl for .NET MAUI.
+title: Configuration
+page_title: .NET MAUI ItemsControl Documentation | Configuration
+description: "Set the items of the Telerik UI for .NET MAUI ItemsControl and populate them with data."
 position: 2
-tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
-slug: itemscontrol-key-features
+tags: .net maui, telerik .net maui, ui for .net maui, microsoft .net maui
+slug: configuration-itemscontrol
 ---
 
-# Key Features
+# Configuration
 
-The purpose of this help article is to show you the key features of the **RadItemsControl** control. 
+The ItemsControl enables you to define the collection of the rendered items and also to customize their appearance by using the item template.
 
-## Define RadItemsControl
+## Setting the Items Source
 
-Add RadButton definition in XAML:
+To set the items of the ItemsControl and populate them with data, use its `ItemsSource` property:
 
-```XAML
-<telerikMauiControls:RadItemsControl/>
-```
+1. Use the following data item:
 
-Add the following namespace:
-
-```XAML
-xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
-
-## Set ItemsSource
-
-**ItemsSource** property defines the collection of the items that will populate the ItemsControl. 
-
-Let's for example use the following data item:
-
-```C#
+ ```C#
 public class Experience
 {
 	public string Title { get; set; }
 	public string Company { get; set; }
 }
-```
+ ```
 
-Create a ViewModel class and define a collection of `Experience` objects:
+1. Create a `ViewModel` class and define a collection of `Experience` objects:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ViewModel()
@@ -56,41 +42,41 @@ public class ViewModel
 
     public ObservableCollection<Experience> Experiences { get; set; }
 }
-```
+ ```
 
-Add the RadItemsControl definition with ItemsSource and sample ItemTemplate applied:
+1. Add the ItemsControl definition with the `ItemsSource` and a sample `ItemTemplate` applied:
 
-```XAML
+ ```XAML
 <telerikMauiControls:RadItemsControl x:Name="itemsControl"
 							      ItemsSource="{Binding Experiences, Mode=TwoWay}">
 	<telerikMauiControls:RadItemsControl.BindingContext>
 		<local:ViewModel />
 	</telerikMauiControls:RadItemsControl.BindingContext>
-	<telerikMauiControls:RadItemsControl.ItemTemplate>	
-		<DataTemplate>	
+	<telerikMauiControls:RadItemsControl.ItemTemplate>
+		<DataTemplate>
 			<StackLayout Margin="10"
 						 Spacing="5"
 						 Orientation="Horizontal">
-				<Label Text="{Binding Title}" 
+				<Label Text="{Binding Title}"
 							   FontSize="14"/>
 				<Label Text="{Binding Company}"
-							   TextColor="#99000000" 
+							   TextColor="#99000000"
 							   FontSize="12"/>
 			</StackLayout>
 		</DataTemplate>
 	</telerikMauiControls:RadItemsControl.ItemTemplate>
 </telerikMauiControls:RadItemsControl>
-```
+ ```
 
-Check the result below:
+The following image shows the end result.
 
 ![](images/itemscontrol-itemssource.png)
 
-## Apply ItemTemplate
+## Customizing the Appearance
 
-Through the **ItemTemplate** property you can fully customize the way your data is visualized - you can place various controls inside in order to achieve more appealing designs.
+You can customize the visualization of the ItemsControl items and place various controls inside the control for more appealing designs by using the `ItemTemplate` property.
 
-The example below shows the same scenario with the `Experience` objects from [Set ItemsSource](#set-itemssource) section with slightly modified ItemTemplate with [RadBorder control]({%slug button-overview%}):
+The following example demonstrates how to set the items template and uses the `Experience` objects together with the [Telerik UI for .NET MAUI Border]({% slug border-overview %}).
 
 ```XAML
 <telerikMauiControls:RadItemsControl x:Name="itemsControl"
@@ -104,10 +90,10 @@ The example below shows the same scenario with the `Experience` objects from [Se
                                            BorderThickness="0, 0, 0, 1">
                 <StackLayout Margin="10"
                         Spacing="5">
-                    <Label Text="{Binding Title}" 
+                    <Label Text="{Binding Title}"
                             FontSize="14"/>
                     <Label Text="{Binding Company}"
-                            TextColor="#99000000" 
+                            TextColor="#99000000"
                             FontSize="12"/>
                 </StackLayout>
             </telerikPrimitives:RadBorder>
@@ -116,10 +102,10 @@ The example below shows the same scenario with the `Experience` objects from [Se
 </telerikMauiControls:RadItemsControl>
 ```
 
-#### Telerik Button for .NET MAUI
+The following image shows the end result.
 
 ![](images/itemscontrol-itemtemplate.png)
 
 ## See Also
 
-- [Getting Started]({% slug maui-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug get_started_itemscontrol %})
