@@ -10,19 +10,19 @@ slug: templatedpicker-styling
 
 ## TemplatedPicker Styling
 
-* `PlaceholderLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the placeholder label.
+* `PlaceholderLabelStyle` (of type `Style` with target type `Label`)&mdash;Defines the style applied to the placeholder label.
 
-* `DisplayLabelStyle`(of type *Style* with target type **Label**): Defines the style applied to the label which is visualized when item from the selector is picked.
+* `DisplayLabelStyle` (of type `Style` with target type `Label`)&mdash;Defines the style applied to the label which is visualized when an item from the selector is picked.
 
-TemplatedPicker exposes the following properties for styling its Border and Background Color:
+The TemplatedPicker exposes the following properties for styling its border and background color:
 
-* `BackgroundColor`: Defines the background color of the picker.
+* `BackgroundColor`&mdash;Defines the background color of the picker.
 
-* `BorderColor`: Defines the border color of the picker.
+* `BorderColor`&mdash;Defines the border color of the picker.
 
-* `BorderThickness`: Specifies the border thickness of the picker. Default value is `new Thickness(0,0,0,1)`.
+* `BorderThickness`&mdash;Specifies the border thickness of the picker. The default value is `new Thickness(0,0,0,1)`.
 
-* `CornerRadius`: Specifies the corner radius of the picker.
+* `CornerRadius`&mdash;Specifies the corner radius of the picker.
 
 ### PlaceholderLabel Style
 
@@ -48,41 +48,41 @@ TemplatedPicker exposes the following properties for styling its Border and Back
 
 ## Popup Styling
 
-Using the `SelectorSettings` property of the TemplatedPicker you can modify the appearance of the dialog (popup). `PickerPopupSelectorSettings` class exposes the following Style properties:
+By using the `SelectorSettings` property of the TemplatedPicker you can modify the appearance of the dialog (popup). The `PickerPopupSelectorSettings` class exposes the following `Style` properties:
 
-* `PopupViewStyle`(of type *Style* with target type **telerikInput:PickerPopupContentView**): Defines the popup view style.
+* `PopupViewStyle`(of type `Style` with target type `telerikInput:PickerPopupContentView`)&mdash;Defines the popup view style.
 
-* `HeaderStyle`(of type *Style* with target type **telerikInput:PickerPopupHeaderView**): Defines the popup header style.
+* `HeaderStyle`(of type `Style` with target type `telerikInput:PickerPopupHeaderView`)&mdash;Defines the popup header style.
 
-* `HeaderLabelStyle`(of type *Style* with target type **Label**): Defines the popup header label style.
+* `HeaderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the popup header label style.
 
-* `FooterStyle`(of type *Style* with target type **telerikInput:PickerPopupFooterView**): Defines the popup footer style.
+* `FooterStyle`(of type `Style` with target type `telerikInput:PickerPopupFooterView`)&mdash;Defines the popup footer style.
 
-* `AcceptButtonStyle`(of type *Style* with target type **Button**): Defines the Accept button style.
+* `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 
-* `CancelButtonStyle`(of type *Style* with target type **Button**): Defines the Cancel button style.
+* `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
 `SelectorSettings` also provides the following properties for popup customization:
 
-* `PopupOutsideBackgroundColor`: Defines the color outside of the popup.
+* `PopupOutsideBackgroundColor`&mdash;Defines the color outside of the popup.
 
-* `IsPopupModal`(*bool*): Defines a boolean value indicating if the popup should be closed when tapped outside of the popup. By default the value of the `IsPopupModal` is **false**.
-	* When *IsPopupModal="True"*  the UI behind the popup gets inactive and cannot be used until the popup is closed. 
-	* When *IsPopupModal="False"* the popup could be closed when clicking outside the popup. 
-	
-* `HeaderLabelText`(*string*): Specifies the text visualized in the popup header.
+* `IsPopupModal`(`bool`)&mdash;Defines a boolean value indicating if the popup will be closed when the user clicks outside the popup. By default, the value of the `IsPopupModal` is `false`.
+	* When `IsPopupModal="True"`, the UI behind the popup gets inactive and cannot be used until the popup is closed.
+	* When `IsPopupModal="False"` the popup can be closed when the user clicks outside the popup.
 
-* `IsHeaderVisible`(*bool*): Specifies whether the Popup header is currently visible. By default the valuse is *True*.
+* `HeaderLabelText`(`string`)&mdash;Specifies the text visualized in the popup header.
 
-* `IsFooterVisible`(*bool*): Specifies whether the Popup footer is currently visible. By default the valuse is *True*.
+* `IsHeaderVisible`(`bool`)&mdash;Specifies whether the popup header is currently visible. By default, the value is `True`.
 
-* `AcceptButtonText`(*string*): Defines the text visualized for the accept button. By default the text is *OK*.
+* `IsFooterVisible`(`bool`)&mdash;Specifies whether the popup footer is currently visible. By default, the value is `True`.
 
-* `CancelButtonText`(*string*): Defines the text visualized for the cancel button. By default the text is *Cancel*. 
+* `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
+
+* `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
 ## Namespaces
 
-Using one of the following styles **PopupViewStyle**, **HeaderStyle**, **FooterStyle** you need to add the following namespace
+When you use one of the `PopupViewStyle`, `HeaderStyle`, `FooterStyle` styles, you need to add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -92,11 +92,11 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 Here is a sample example which shows how the styling properties are applied.
 
-A sample TemplatedPicker definition:
+Define a sample TemplatedPicker:
 
 <snippet id='templatedpicker-style' />
 ```XAML
-<telerikInput:RadTemplatedPicker Placeholder="Pick a destination!" 
+<telerikInput:RadTemplatedPicker Placeholder="Pick a destination!"
 								 DisplayStringFormat="Destination choosen: {0}"
 								 DisplayLabelStyle="{StaticResource DisplayLabelStyle}"
 								 PlaceholderLabelStyle="{StaticResource DefaultPlaceholderLabelStyle}"
@@ -115,7 +115,7 @@ A sample TemplatedPicker definition:
 						<Label Text="Origin Country"
 							   Style="{StaticResource PickerHeaderLabelStyle}" />
 						<Label Grid.Column="1"
-							   Text="Origin City" 
+							   Text="Origin City"
 							   Style="{StaticResource PickerHeaderLabelStyle}" />
 					</Grid>
 				</ControlTemplate>
@@ -126,13 +126,13 @@ A sample TemplatedPicker definition:
 				</Style>
 			</telerikInput:PickerPopupSelectorSettings.HeaderStyle>
 			<telerikInput:PickerPopupSelectorSettings.AcceptButtonStyle>
-				<Style TargetType="Button" 
+				<Style TargetType="Button"
 					   BasedOn="{StaticResource PickerPopupFooterAcceptButton_Style}">
 					<Setter Property="TextColor" Value="{StaticResource AccentColor}" />
 				</Style>
 			</telerikInput:PickerPopupSelectorSettings.AcceptButtonStyle>
 			<telerikInput:PickerPopupSelectorSettings.CancelButtonStyle>
-				<Style TargetType="Button" 
+				<Style TargetType="Button"
 					   BasedOn="{StaticResource PickerPopupFooterCancelButton_Style}">
 					<Setter Property="TextColor" Value="{StaticResource AccentColor}" />
 				</Style>
@@ -169,7 +169,7 @@ A sample TemplatedPicker definition:
 </telerikInput:RadTemplatedPicker>
 ```
 
-and here are how the styles are defined in the page resources
+The following examples demonstrate how the styles are defined in the page resources.
 
 ## PlaceholderLabel Style
 
@@ -243,7 +243,7 @@ and here are how the styles are defined in the page resources
 </Style>
 ```
 
-add the following data item for the first spinner:
+Add the following data item for the first spinner:
 
 <snippet id='templatedpicker-country-businessmodel' />
 ```C#
@@ -275,7 +275,7 @@ public class Country : NotifyPropertyChangedBase
 }
 ```
 
-add the following data item for the second spinner:
+Add the following data item for the second spinner:
 
 <snippet id='templatedpicker-city-businessmodel' />
 ```C#
@@ -300,7 +300,7 @@ public class City : NotifyPropertyChangedBase
 }
 ```
 
-here is a sample definition of the ViewModel:
+Here is a sample definition of the `ViewModel`:
 
 <snippet id='templatedpicker-viewmodel' />
 ```C#
@@ -499,7 +499,7 @@ public class LocationViewModel : NotifyPropertyChangedBase
 }
 ```
 
-Set thus defined LocationViewModel as a BindingContext of the page:
+Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new LocationViewModel();
@@ -515,7 +515,7 @@ This is how the TemplatedPicker looks when the styling properties are applied:
 
 ![TemplatedPicker Styling](images/templatedpicker_styling.png)
 
->important A sample Styling example can be found in the TemplatedPicker/Styling folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample Styling example, refer to the `TemplatedPicker/Styling` folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 

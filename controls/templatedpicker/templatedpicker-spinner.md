@@ -8,46 +8,47 @@ slug: templatedpicker-spinner
 
 # Spinner
 
-**RadSpinner for .NET MAUI** is a control which allows you to display items in a list. It also provides an option to loop through its items. RadSpinner control is used for the [DatePicker]({%slug datepicker-overview%}), [ListPicker]({%slug listpicker-overview%}). Also is could be used inside the [TemplatedPicker SelectorTemplate]({%slug templatedpicker-templates%}). 
+The Spinner for .NET MAUI is a control which allows you to display items in a list. It also provides an option to loop through its items.
+
+The Spinner is used for the [DatePicker]({%slug datepicker-overview%}), [ListPicker]({%slug listpicker-overview%}). Also you can use it inside the [TemplatedPicker `SelectorTemplate`]({%slug templatedpicker-templates%}).
 
 ## Configuration
 
-* `ItemLength`(*double*): Defines the length of the items in the spinner.
+* `ItemLength`(`double`)&mdash;Defines the length of the items in the spinner.
 
-* `ItemSpacing`(*double*): Defines the spacing between the items.
+* `ItemSpacing`(`double`)&mdash;Defines the spacing between the items.
 
-* `IsLooping`(*bool*): Defines a value indicating whether the items should loop infinitely while scrolling. By default the looping is disabled. In order to enable it set *IsLooping="True"*.
+* `IsLooping`(`bool`)&mdash;Defines a value indicating whether the items will loop infinitely while scrolling. By default, the looping is disabled. To enable it, set `IsLooping="True"`.
 
 ## Data Binding
 
-* `ItemsSource`(*IList*): Defines a collection used to generate the content of the spinner.
+* `ItemsSource`(`IList`)&mdash;Defines a collection used to generate the content of the spinner.
 
-* `SelectedItem`(*object*): Defines the selected item.
+* `SelectedItem`(`object`)&mdash;Defines the selected item.
 
-* `SelectedIndex`(*int*): Specifies the selected index of the Spinner control.
+* `SelectedIndex`(`int`)&mdash;Specifies the selected index of the Spinner control.
 
-* `DisplayStringFormat`(*string*): Defines the string format used to display the items of the spinner.
+* `DisplayStringFormat`(`string`)&mdash;Defines the string format that is used to display the items of the spinner.
 
-* `DisplayMemberPath`(*string*): Specifies a path to the property used to display the items of the spinner
+* `DisplayMemberPath`(`string`)&mdash;Specifies a path to the property that is used to display the items of the spinner.
 
 ## Templates
 
-* `ItemTemplate`(*DataTemplate*): Defines the template for the spinner items
+* `ItemTemplate`(`DataTemplate`)&mdash;Defines the template for the spinner items.
 
-* `SelectedItemTemplate`(*DataTemplate*): Defines the template for spinner selected item
+* `SelectedItemTemplate`(`DataTemplate`)&mdash;Defines the template for the selected spinner item.
 
 ## Styling
 
-* `ItemStyle`(*Style*): Defines the style for the spinner items.
+* `ItemStyle`(`Style`)&mdash;Defines the style for the spinner items.
 
-* `SelectedItemStyle`(*Style*): Defines the style for the spinner selected item.
+* `SelectedItemStyle`(`Style`)&mdash;Defines the style for the selected spinner item.
 
 ## Events
 
-* `SelectionChanged`: Raised when the user confirms the selected item.
+The Spinner exposes the `SelectionChanged` event that is raised when the user confirms the selected item.
 
-
->important Sample example with RadSpinner control can be found in the TemplatedPicker/DataBinding folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample example with the Spinner control, refer to the **TemplatedPicker/DataBinding** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 

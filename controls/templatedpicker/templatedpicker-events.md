@@ -8,9 +8,9 @@ slug: templatedpicker-events
 
 # Events
 
-TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
+The TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
 
-## Example
+Define the TemplatedPicker:
 
 ```XAML
 <telerikInput:RadTemplatedPicker SelectionChanged="RadTemplatedPicker_SelectionChanged" x:Name="picker">
@@ -22,7 +22,7 @@ TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is raised
 </telerikInput:RadTemplatedPicker>
 ```
 
-and the `SelectionChanged` event, where the *sender* is the RadTemplatedPicker control
+Set the `SelectionChanged` event where the `sender` is the TemplatedPicker control.
 
 ```C#
 private void RadTemplatedPicker_SelectionChanged(object sender, System.EventArgs e)

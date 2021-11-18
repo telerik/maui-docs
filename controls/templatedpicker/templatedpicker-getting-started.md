@@ -1,28 +1,34 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI TemplatedPicker Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
+page_title: .NET MAUI TemplatedPicker Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI TemplatedPicker and add the control to your .NET MAUI project."
 position: 1
 slug: templatedpicker-getting-started
 ---
 
 # Getting Started
 
-This guide demonstrates how to add Telerik UI for .NET MAUI TemplatedPicker control to your application.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
 
-At the end, you will be able to achieve the following result:
+At the end, you will be able to achieve the following result.
 
 ![TemplatedPicker Getting Started](images/templatedpicker_getting_started.png)
 
 ## Prerequisites
 
-Before adding the TemplatedPicker, first you need to [setup your .NET MAUI app]({%slug maui-getting-started %}#set-up-your-net-maui-application), and [download]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui) and [install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+Before adding the TemplatedPicker, you need to:
 
-## Define RadTemplatedPicker control
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
-TemplatedPicker exposes `SelectorTemplate`, which gives you the option to place any content inside the popup for the user to choose from, and `DisplayTemplate`, which allow you to present the selected value per your needs.
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
-1. When the app is setup, you are ready to add a RadTemplatedPicker control to your page. The example demonstrates a custom picker control which gives the option to choose a color from a set of predefined colors.
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any content inside the popup for the user to choose from, and a `DisplayTemplate`, which allows you to present the selected value as required.
+
+1. When your .NET MAUI application is set up, you are ready to add a TemplatedPicker control to your page. The following example demonstrates a custom picker control, which provides the option to choose a color from a set of predefined colors.
 
  ```XAML
 <telerikInput:RadTemplatedPicker Placeholder="Select a Color">
@@ -85,8 +91,8 @@ TemplatedPicker exposes `SelectorTemplate`, which gives you the option to place 
 	</telerikInput:RadTemplatedPicker.SelectorTemplate>
 </telerikInput:RadTemplatedPicker>
  ```
- 
-2. Add the referenced *ColorViewModel* which holds the collection with the predefined colors:
+
+1. Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
 
  ```C#
  public class ColorViewModel : NotifyPropertyChangedBase
@@ -122,13 +128,13 @@ TemplatedPicker exposes `SelectorTemplate`, which gives you the option to place 
  }
  ```
 
-3. Add the following namespace:
+1. Add the following namespace:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
-4. Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;
@@ -140,7 +146,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
         .UseMauiApp<App>();    
  }              
  ```
- 
+
 ## See Also
 
 - [Visual Structure]({%slug templatedpicker-visual-structure%})
