@@ -30,9 +30,9 @@ You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings`
 
 ## Example
 
-Define the TemplatedPicker:
+1. Define the TemplatedPicker:
 
-```XAML
+ ```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference picker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference picker}, Path=ClearCommand}"/>
@@ -51,11 +51,11 @@ Define the TemplatedPicker:
             </telerikInput:RadTemplatedPicker.BindingContext>
     </telerikInput:RadTemplatedPicker>
 </StackLayout>
-```
+ ```
 
-Set a sample `ViewModel`:
+1. Set a sample `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ViewModel()
@@ -77,19 +77,19 @@ public class ViewModel
     public ICommand Accept { get; set; }
     public ICommand Cancel { get; set; }
 }
-```
+ ```
 
-Set the defined `ViewModel` as a `BindingContext` of the page:
+1. Set the defined `ViewModel` as a `BindingContext` of the page:
 
-```C#
+ ```C#
 this.BindingContext = new ViewModel();
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 
