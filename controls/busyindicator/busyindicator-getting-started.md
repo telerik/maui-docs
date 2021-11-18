@@ -32,7 +32,7 @@ Before adding the BusyIndicator, you need to:
 
   To define the state of the control, use its `IsBusy` property. By default, `IsBusy` is set to `False` and the control displays its normal content. If you change it to `True`, the control displays its busy content, which by default, is a spinning-balls animation. Check the article on [animations]({% slug busyindicator-animations %}) to see the built-in animations, how to change them, and how to use a custom animation.
 
-<snippet id='busyindicator-getting-started-xaml' />
+ <snippet id='busyindicator-getting-started-xaml' />
 
 2. Add the following namespace:
 
