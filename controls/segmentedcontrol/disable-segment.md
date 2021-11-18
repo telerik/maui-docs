@@ -1,22 +1,25 @@
 ---
-title: Disable a Segment
-page_title: .NET MAUI SegmentedControl Documentation | Disable a Segment
+title: Disabled Segments
+page_title: .NET MAUI SegmentedControl Documentation | Disabled Segments
 description: Check our &quot;Disable a Segment&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
 position: 3
-slug: segmentedcontrol-features-disable-segment
+slug: segmentedcontrol-disable-segment
 ---
 
-# Disable a Segment
+# Disabled Segments
 
-RadSegmentedControl allows you to disable each of its segments individually. 
+The SegmentedControl allows you to disable each of its segments individually.
 
-To disable a segment you can use the **SetSegmentEnabled** method. The method accepts two arguments **index** that determines the index of the segment. And **isEnabled** that determines whether the item is enabled or not.
+To disable a segment, use the `SetSegmentEnabled` method, which accepts the following arguments:
 
-You can also check if an item is enabled via the **IsSegmentEnabled** method. The method accepts a single argument - **index**.
+* `index` determines the index of the segment.
+* `isEnabled` determines whether the item is enabled or not.
 
-### Setting a text color
+You can also check if an item is enabled through the `IsSegmentEnabled` method. The method accepts a single `index` argument.
 
-You can set the text color of the disabled segment through the **DisabledSegmentTextColor**.
+## Setting the Text Color
+
+You can set the text color of the disabled segment through the `DisabledSegmentTextColor`.
 
 ### Example
 
@@ -38,16 +41,16 @@ The following example shows how to disable a segment and define a color.
 </telerikInput:RadSegmentedControl>
 ```
 
-And you can disable any segment with `SetSegmentEnabled` method:
+You can disable any segment with `SetSegmentEnabled` method:
 
 ```C#
 this.segmentControl.SetSegmentEnabled(2, false);
 ```
 
-#### Figure 1: Disabled segment
+The following image shows the end result.
 
-![SegmentedControl disable segment example](images/segmentcontrol-features-disablesegment-0.png) 
+![SegmentedControl disable segment example](images/segmentcontrol-features-disablesegment-0.png)
 
-### See Also
+## See Also
 
-- [Customize Segment Colors]({%slug segmentedcontrol-features-customizesegmentcolors%})
+- [Customizing the Segment Colors]({%slug segmentedcontrol-styling%})
