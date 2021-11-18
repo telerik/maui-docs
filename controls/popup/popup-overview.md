@@ -1,31 +1,27 @@
 ---
 title: Overview
-page_title: .NET MAUI Popup Documentation | RadPopup Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Popup for .NET MAUI control.
+page_title: .NET MAUI Popup Documentation | Overview
+description: "Try now the Telerik Popup for .NET MAUI delivering a set of options for adding modal popups to your application and for drawing attention to important information or receiving user input."
 position: 0
 slug: popup-overview
 ---
 
-# Overview #
+# Overview
 
-With **Telerik Popup for .NET MAUI** you could easily add modal popups to your application in order to draw attention to important information or receive user input.
+**Telerik UI for .NET MAUI Popup** enables you to easily add modal popups to your application and draw attention to important information or receive user input.
 
-**RadPopup** lets you display content of your choice on top of existing view. The component provides a flexible API to easily control its behavior and makes possible the implementation of complex logic for a wide range of scenarios.
+The Popup lets you display content of your choice on top of an existing view. The component provides a flexible API for controlling its behavior and makes it possible to implement complex logic for a wide range of scenarios.
 
 ![RadPopup Overview](images/popup_overview.png)
 
-## Key features
+## Key Features
 
-* **Modal popups**: You could define whether the popup will be modal or not; in both cases the UI behind the popup gets inactive and cannot be used until the popup is closed. When you have a modal popup, it will not be automatically closed when the user clicks outside. For more details go to [Modal Popup Support]({% slug popup-key-features%}#modal-popup).
+* [Modal popups]({% slug popup-modal %})&mdash;You can define whether the popup will be modal or not. In both cases, the UI behind the popup gets inactive and cannot be used until the popup is closed. When you have a modal popup, it will not be automatically closed when the user clicks outside its viewport.
 
-* **Placement configuration**: You could place the popup control at any position through various settings such as placement mode, placement target and horizontal/vertical offsets. For more information on this check [Key Features: Placement Configuration]({% slug popup-key-features%}#placement-configuration) section.
+* [Placement configuration]({% slug popup-placement %})&mdash;You can place the Popup control in various positions by using the supported settings such as the placement mode, target, and horizontal and vertical offsets.
 
-* **Animation settings**: RadPopup provides sleek customizable animation played while the control is displayed/hidden, for additional info go to [Key Features: Animation Settings]({% slug popup-key-features%}#animation-settings).
-
->tip Check out RadPopup [Getting Started]({%slug popup-getting-started%}) help article that shows how to use it in a basic scenario.
+* [Animation settings]({% slug popup-animations %})&mdash;The Popup provides sleek customizable animations played while the control is displayed or hidden.
 
 ## See Also
 
-- [Modal Popup Support]({%slug popup-key-features%}#modal-popup)
-- [Placement Configuration]({%slug popup-key-features%}#placement-configuration)
-- [Animation Settings]({%slug popup-key-features%}#animation-settings)
+* [Getting Started with Telerik UI for .NE MAUI Popup]({% slug popup-getting-started %})
