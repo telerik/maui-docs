@@ -49,7 +49,7 @@ navigation:
         ## Button Sub-Folders
     controls/button/howto:
         title: "How To"
-        position: 3
+        position: 6
         ## End Button Sub-Folders
     ## End Button
     ## Chart
