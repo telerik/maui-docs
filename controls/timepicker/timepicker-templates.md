@@ -8,18 +8,20 @@ slug: timepicker-templates
 
 # Templates
 
-In case the default templates of the TimePicker control do not suit your needs, you can easily define a custom template. The available templates for customizing are:
+In case the default templates of the TimePicker control do not suit your needs, you can easily define a custom template.
 
-* `PlaceholderTemplate`(*ControlTemplate*): Defines the template visualized for the placeholder.  
-* `DisplayTemplate`(*ControlTemplate*): Defines the template visualized when the picked time is displayed.
-* `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
-* `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
+The available templates for customization are:
 
-The snippet below shows a sample RadTimePicker definition with the listed above template properties applied:
+* `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
+* `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when the picked time is displayed.
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
+* `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) footer.
 
-RadTimePicker definition:
+The example below shows a sample TimePicker definition with the listed above template properties applied:
 
-```XAML
+1. Define the TimePicker.
+
+ ```XAML
 <telerikInput:RadTimePicker SpinnerFormat="H:mm"
                             PlaceholderTemplate="{StaticResource placeholderTemplate}"
                             DisplayTemplate="{StaticResource displayTemplate}">
@@ -28,24 +30,24 @@ RadTimePicker definition:
                                                   FooterTemplate="{StaticResource footerTemplate}"/>
     </telerikInput:RadTimePicker.SelectorSettings>
 </telerikInput:RadTimePicker>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
  ```XAML
  xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
- 
-For the example the templates definition are added to the page's resources:
+
+For the example, the template definitions are added to the page resources:
 
 ## PlaceholderTemplate
 
 ```XAML
 <ControlTemplate x:Key="placeholderTemplate">
-    <Button Text="Pick a time" 
-            FontAttributes="Bold" 
+    <Button Text="Pick a time"
+            FontAttributes="Bold"
             TextColor="White"
-            BackgroundColor="#B73562" 
+            BackgroundColor="#B73562"
             HeightRequest="50" Command="{TemplateBinding ToggleCommand}" />
 </ControlTemplate>
 ```
@@ -56,8 +58,8 @@ For the example the templates definition are added to the page's resources:
 
 ```XAML
 <ControlTemplate x:Key="displayTemplate">
-    <Button Text="{TemplateBinding DisplayString}" 
-            TextColor="White" 
+    <Button Text="{TemplateBinding DisplayString}"
+            TextColor="White"
             BackgroundColor="#7BAEFF"
             HeightRequest="50"
             Command="{TemplateBinding ToggleCommand}" />
@@ -70,7 +72,7 @@ For the example the templates definition are added to the page's resources:
 
 ```XAML
 <ControlTemplate x:Key="headerTemplate">
-    <Label Text="Time Picker" 
+    <Label Text="Time Picker"
            TextColor="White"
            VerticalTextAlignment="Center"
            HorizontalTextAlignment="Center"
@@ -83,7 +85,7 @@ For the example the templates definition are added to the page's resources:
 ```XAML
 <ControlTemplate x:Key="footerTemplate">
     <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="FillAndExpand" BackgroundColor="#B73562">
-        <Button Text="No" 
+        <Button Text="No"
                 TextColor="White"
                 BackgroundColor="Transparent"
                 Command="{TemplateBinding CancelCommand}" />

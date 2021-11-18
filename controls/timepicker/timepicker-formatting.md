@@ -8,84 +8,88 @@ slug: timepicker-formatting
 
 # Time Formatting
 
-Time Picker for .NET MAUI allows you to use standard or custom time format strings. Set formatting to the spinners that are displayed when the picker is opened - through the `SpinnerFormat` property and when time is selected through the `DisplayStringFormat` property. 
+The TimePicker for .NET MAUI allows you to use standard or custom time format strings.
+
+To set formatting to the spinners that are displayed when the picker is opened, use the `SpinnerFormat` property. To set formatting to the spinners that are displayed when time is selected, use the `DisplayStringFormat` property.
 
 ## DisplayString Format
 
-* `DisplayStringFormat`(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
+To define the format of the string that will be visualized when the picker dialog is closed, use the `DisplayStringFormat`(`string`) property.
 
->note The format set for **DisplayStringFormat** should be a valid time format - [Standard Time Formst Strings]({%slug timepicker-formatting%}#standard-time-format-strings) and [Custom Time format Strings]({%slug timepicker-formatting%}#custom-time-format-strings). 
+>note The format set for `DisplayStringFormat` has to be a valid time format. For more information, refer to the [Standard Time Format Strings]({%slug timepicker-formatting%}#standard-time-format-strings) and [Custom Time Format Strings]({%slug timepicker-formatting%}#custom-time-format-strings) articles.
 
-### Example 
+**Example for Setting the DisplayString Format**
 
-```XAML
+1. Define the TimePicker.
+
+ ```XAML
 <telerikInput:RadTimePicker DisplayStringFormat="H:mm"/>
-```
+ ```
 
-and namespace:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## Spinner Format
 
-* `SpinnerFormat`(*string*): Defines the string format for the spinners. The default format is **"g"**. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+To define the string format for the spinners, use the `SpinnerFormat`(`string`) property. The default format is `"g"`. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 
-## Standard Тime Format Strings
+## Standard Time Format Strings
 
-The available standard date and time format strings that can be set to the SpinnerFormat property are described in the table below:
+The available standard date and time format strings that can be set to the `SpinnerFormat` property are described in the table below:
 
 | Supported Standard Time Format String | Description |
 | -------- | -------- |
-| "G" | Short Date and Long Time Format Specifier |
-| "g" | Short Date and Short Time Format Specifier |
-| "T" | Long Time Format Specifier |
-| "t" | Short Time Format Specifier |
+| `"G"` | Short Date and Long Time Format Specifier |
+| `"g"` | Short Date and Short Time Format Specifier |
+| `"T"` | Long Time Format Specifier |
+| `"t"` | Short Time Format Specifier |
 
->tip For more information on different format go to [Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) topic on Microsoft Docs.
+>tip For more information on the different formats, refer to the [Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) topic on Microsoft Docs.
 
-## Custom Time Format String
+## Custom Time Format Strings
 
-The available custom time format strings that can be set to the SpinnerFormat property are described in the table below:
+The available custom time format strings that can be set to the `SpinnerFormat` property are described in the table below:
 
 | Supported Custom Time Format Strings|
 | -------- |
-| "H" |
-| "HH" |
-| "h" |
-| "hh" |
-| "m" |
-| "mm" |
-| "s" |
-| "ss" |
-| "t" |
-| "tt" |
- 
->tip For more details on different formats go to [Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) topic on Microsoft Docs.
+| `"H"` |
+| `"HH"` |
+| `"h"` |
+| `"hh"` |
+| `"m"` |
+| `"mm"` |
+| `"s"` |
+| `"ss"` |
+| `"t"` |
+| `"tt"` |
+
+>tip For more details on the different formats, refer to the [Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) topic on Microsoft Docs.
 
 ## Supported Separators
 
-When SpinnerFormat is set and device culture is changed, the separators used for the format string won't be changed. Check below a list of the available separators:
+When `SpinnerFormat` is set and the device culture is changed, the separators used for the format string won't be changed.
+
+The following table lists the available separators:
 
 | Supported Time Separators Formats |
 | -------- |
-| "-" |
-| "." |
-| "'" |
-| " " |
-| ":" |
-| "/" |
+| `"-"` |
+| `"."` |
+| `"'"` |
+| `" "` |
+| `":"` |
+| `"/"` |
 
-## Example
-
-### SpinnerFormat="H:mm"
+The following example demonstrates how to set `SpinnerFormat="H:mm"`.
 
 ```XAML
 <telerikInput:RadTimePicker SpinnerFormat="H:mm" />
 ```
 
-And the result:
+The following image shows the end result.
 
 ![](images/timepicker-string-format-H-mm.png)
 
