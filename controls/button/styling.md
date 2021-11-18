@@ -1,13 +1,13 @@
 ---
-title: Border Thickness
-page_title: .NET MAUI Button Documentation | Border Thickness
-description: "Learn how to set the thickness of the Telerik Button for .NET MAUI border."
+title: Styling
+page_title: .NET MAUI Button Documentation | Styling
+description: "Learn how to set the border color and border thickness of the Telerik Button for .NET MAUI."
 position: 3
 tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
-slug: border-thickness-button
+slug: button-styling
 ---
 
-# Border Thickness
+# Styling 
 
 To define the border thickness of the Button, use the `BorderThickness` property, which is of the `Microsoft.Maui.Thickness` type. Type `Thickness` allows you to define a different border on each side of the Button.
 

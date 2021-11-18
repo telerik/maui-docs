@@ -3,7 +3,7 @@ title: Getting Started
 page_title: .NET MAUI Button Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Button control and add the control to your .NET MAUI project."
 position: 1
-slug: barcode-getting-started
+slug: button-getting-started
 ---
 
 # Getting Started 
@@ -43,17 +43,16 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
  ```C#
 using Telerik.Maui.Controls.Compatibility;
 
-public void Configure(IAppHostBuilder appBuilder)
-{
+ public void Configure(IAppHostBuilder appBuilder)
+ {
     appBuilder        
         .UseTelerik()
         .UseMauiApp<App>();
-
-}              
+ }              
  ```
 
 ## See Also
 
-* [Positioning the Content of the Button]({% slug content_alignment_button %})
-* [Setting the Border Thickness of Button]({% slug border_thickness_button %})
+* [Positioning the Content of the Button]({% slug button-content-alignment %})
+* [Setting the Border Thickness & Color of Button]({% slug button-styling %})
 - [Creating a Circular Button]({%slug button-howto-create-circle-button%})
