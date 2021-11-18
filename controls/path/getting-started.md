@@ -1,93 +1,64 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Path Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik Path for .NET MAUI.
+page_title: .NET MAUI Path Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI Path and add the control to your .NET MAUI project."
 position: 1
 slug: path-getting-started
 ---
 
 # Getting Started
 
->important RadPath is rendered via the **SkiaSharp** graphics library.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Path by adding the control to your project.
 
-## Define RadPath control
+At the end, you will be able to achieve the following result.
 
-RadPath control exposes **Geometry** property which should be assigned to a RadPathGeometry object. [RadPathGeometry]({% slug path-structure %}) consists of different RadPathFigures such as line and arc. RadPath also provides a few predefined geometries such as star, circle and other. Below you can find two examples of creating a path with built-in as well as custom geometry.
+...
 
-## Creating RadPath with built-in geometry
+## Prerequisites
 
-RadPath provides several built-in geometries that can be found in the *Telerik.XamarinForms.Input.Geometries* static class. Below you could find a list of the available geometries:
+Before adding the Path, you need to:
 
-* Star;
-* Circle;
-* Heart;
-* Diamond.
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
-You can choose any of those and set it directly to the Geometry property of the Path component:
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
-```XAML
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When your .NET MAUI application is set up, you are ready to add a Path control to your page. The Path exposes the `Geometry` property, which you have to assign to a `RadPathGeometry` object. The [`RadPathGeometry`]({% slug path-structure %}) object consists of different Path figures such as lines and arcs.
+
+  For demonstration purposes, let's choose one of the built-in geometries the Path supports, for example, the star pattern, and set it directly to the `Geometry` property:
+
+ ```XAML
 <telerikPrimitives:RadPath x:Name="starPath"
-                           StrokeThickness="0" 
+                           StrokeThickness="0"
                            Fill="#FFC325"
                            Geometry="{x:Static telerikInput:Geometries.Star}" />
-```
+ ```
 
-In addition to this you need to add the following namespaces:
+1. Add the following namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
+ ```C#
 using Telerik.Maui.Controls.Compatibility;
-
- 
 
 public void Configure(IAppHostBuilder appBuilder)
 {
     appBuilder        
         .UseTelerik()
         .UseMauiApp<App>();
-        
+
 }              
-```
-
-## Creating RadPath with custom geometry
-
-You are free to create a custom geometry which will be visualized by the **RadPath** control. For that purpose, you need to create object of type **RadPathGeometry** and add a **RadPathFigure** with the needed segments.
-
-The next example shows a RadPath with an Arc definition:
-
-```XAML
-<telerikPrimitives:RadPath x:Name="customPath"
-                       Grid.Row="0"
-                       StrokeThickness="4" 
-                       Stroke="#2EC262">
-    <telerikCommon:RadPathGeometry>
-        <telerikCommon:RadPathFigure StartPoint="0.85, 0.85">
-            <telerikCommon:RadArcSegment Center = "0.5, 0.5"
-                                         Size = "1, 1"
-                                         StartAngle = "315"
-                                         SweepAngle = "270" />
-        </telerikCommon:RadPathFigure>
-    </telerikCommon:RadPathGeometry>
-</telerikPrimitives:RadPath>
-```
-
-and add the following namespace:
-
-```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
-
-Both RadPath objects appearance can be reviewed in the image below:
-
-![RadPath Figures](images/custom_default_paths.png)
+ ```
 
 ## See Also
 
-- [PathGeometry]({% slug path-structure %})
+- [Path Geometry]({% slug path-structure %})
+- [Geometry Types]({% slug geometry-types %})

@@ -2,15 +2,15 @@
 title: MultiPath
 page_title: .NET MAUI Path Documentation | MultiPath
 description: Check our &quot;MultiPath&quot; documentation article for Telerik Path for .NET MAUI.
-position: 3
+position: 4
 slug: path-multipath
 ---
 
 # MultiPath
 
-RadMultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of **RadPathDefinition** objects and each of them provides a **Geometry** property as well as the same styling properties as the RadPath.
+RadMultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
 
-Here is a an example of RadMultiPath definition:
+The following example demonstrates how to define a `RadMultiPath`:
 
 ```XAML
     <Grid x:Name="root">
@@ -83,7 +83,7 @@ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
 ```
 
-And the code behing logic for grid size changed:
+The following code demonstrates the logic behind changing the Grid size:
 
 ```C#
 public partial class MainPage : ContentPage, IPage
