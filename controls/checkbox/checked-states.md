@@ -52,5 +52,5 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ## See Also
 
-- [Setting the Checkbox Dimensions]({% slug checkbox_dimensions %})
+- [Setting the Checkbox Dimensions]({% slug checkbox-size %})
 - [Styling Options of the Checkbox]({% slug checkbox-styling%})
