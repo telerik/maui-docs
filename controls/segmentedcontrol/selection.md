@@ -2,7 +2,7 @@
 title: Selection
 page_title: .NET MAUI SegmentedControl Documentation | Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik SegmentedControl for NET MAUI control.
-slug: segmentedcontrol-features-selection
+slug: segmentedcontrol-selection
 tags: selection
 position: 2
 ---
@@ -72,4 +72,4 @@ The image below shows the end result on different platforms:
 
 ## See Also
 
-- [Customizing the Segment Colors]({%slug segmentedcontrol-features-customizesegmentcolors%})
+- [Customizing the Segment Colors]({%slug segmentedcontrol-styling%})

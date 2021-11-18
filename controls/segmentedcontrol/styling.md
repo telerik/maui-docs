@@ -1,9 +1,9 @@
 ---
 title: Styling
 page_title: .NET MAUI SegmentedControl Documentation | Styling
-description: Check our &quot;Customize Segment Colors&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
+description: "Learn how to customize the segments colors of Telerik SegmentedControl for .NET MAUI control."
 position: 4
-slug: segmentedcontrol-features-customizesegmentcolors
+slug: segmentedcontrol-styling
 ---
 
 # Styling
@@ -53,5 +53,5 @@ The following image shows the end result.
 
 ## See Also
 
-- [Selection]({%slug segmentedcontrol-features-selection%})
-- [Disabled Segments]({%slug segmentedcontrol-features-disable-segment%})
+- [Selection]({%slug segmentedcontrol-selection%})
+- [Disabled Segments]({%slug segmentedcontrol-disable-segment%})

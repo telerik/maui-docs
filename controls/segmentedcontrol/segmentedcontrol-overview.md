@@ -15,9 +15,9 @@ slug: segmentedcontrol-overview
 
 ## Key Features
 
-* [Selection]({% slug segmentedcontrol-features-selection %})&mdash;The SegmentedControl exposes properties for working with its items selection.
-* [Disabling segments]({% slug segmentedcontrol-features-disable-segment %})&mdash;You can disable the interactions with a specific segment and also set a specific color for this state.
-* [Customizable segment colors]({% slug segmentedcontrol-features-customizesegmentcolors %})&mdash;You can customize the colors of the segments in each of the supported normal, selected, and disabled states.
+* [Selection]({% slug segmentedcontrol-selection %})&mdash;The SegmentedControl exposes properties for working with its items selection.
+* [Disabling segments]({% slug segmentedcontrol-disable-segment %})&mdash;You can disable the interactions with a specific segment and also set a specific color for this state.
+* [Styling]({% slug segmentedcontrol-styling %})&mdash;You can customize the colors of the segments in each of the supported normal, selected, and disabled states.
 
 ## See Also
 

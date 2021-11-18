@@ -65,5 +65,5 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-- [Selection]({%slug segmentedcontrol-features-selection%})
-- [Disabled Segments]({%slug segmentedcontrol-features-disable-segment%})
+- [Selection]({%slug segmentedcontrol-selection%})
+- [Disabled Segments]({%slug segmentedcontrol-disable-segment%})

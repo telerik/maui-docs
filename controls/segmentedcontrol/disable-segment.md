@@ -3,7 +3,7 @@ title: Disabled Segments
 page_title: .NET MAUI SegmentedControl Documentation | Disabled Segments
 description: Check our &quot;Disable a Segment&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
 position: 3
-slug: segmentedcontrol-features-disable-segment
+slug: segmentedcontrol-disable-segment
 ---
 
 # Disabled Segments
@@ -53,4 +53,4 @@ The following image shows the end result.
 
 ## See Also
 
-- [Customizing the Segment Colors]({%slug segmentedcontrol-features-customizesegmentcolors%})
+- [Customizing the Segment Colors]({%slug segmentedcontrol-styling%})
