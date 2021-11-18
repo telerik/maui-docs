@@ -83,6 +83,6 @@ xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.
 
 ## See Also
 
-- [Modal Popup Support]({%slug popup-key-features%}#modal-popup)
-- [Placement Configuration]({%slug popup-key-features%}#placement-configuration)
-- [Animation Settings]({%slug popup-key-features%}#animation-settings)
+- [Modal Popup Support]({%slug popup-modal%})
+- [Placement Configuration]({%slug popup-placement%})
+- [Animations]({%slug popup-animations%})
