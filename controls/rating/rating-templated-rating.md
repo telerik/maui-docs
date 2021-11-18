@@ -8,16 +8,18 @@ slug: rating-templated-rating
 
 # Templated Rating
 
-**RadTemplatedRating** component is designed to be used in the cases where it is easier to provide a template (e.g. just an image) for the rating items instead of creating custom `RadPathGeometry`. On top of the [common Rating API]({%slug rating-configuration%}) this component adds the following members:
+The `RadTemplatedRating` component is designed for cases where it is easier to provide a template (for example, an image) for the rating items instead of creating custom `RadPathGeometry`.
 
-* `ItemTemplate` (*DataTemplate*): Defines the template used in the rating item.
-* `SelectedItemTemplate` (*DataTemplate*): Specifies the template used in the selected rating item.
+On top of the [common Rating API]({%slug rating-configuration%}), this component adds the following members:
 
-> Set both templates - ItemTemplate and SelectedItemTemplate
+* `ItemTemplate` (`DataTemplate`)&mdash;Defines the template used in the rating item.
+* `SelectedItemTemplate` (`DataTemplate`)&mdash;Specifies the template used in the selected rating item.
+
+> Set both the `ItemTemplate` and `SelectedItemTemplate` templates.
 
 ![](images/rating-templates.png)
 
-RadTemplatedRating definition in XAML:
+The following example demonstrates how to define `RadTemplatedRating` in XAML:
 
 ```XAML
 <telerikInput:RadTemplatedRating AutomationId="templatedRating" ValueChanged="RadTemplatedRating_ValueChanged">
@@ -34,7 +36,7 @@ RadTemplatedRating definition in XAML:
 </telerikInput:RadTemplatedRating>
 ```
 
-Namespace for the RadTemplatedRating
+Add the namespace for the `RadTemplatedRating`.
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
@@ -42,5 +44,5 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## See Also
 
-- [Configuration]({% slug rating-configuration%})
+- [Configuration of the Rating]({% slug rating-configuration%})
 - [Shape Rating]({% slug rating-shape-rating%})

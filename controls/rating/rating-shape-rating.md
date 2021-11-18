@@ -8,55 +8,57 @@ slug: rating-shape-rating
 
 # Shape Rating
 
-**RadShapeRating** component is designed to be used in the simplest scenarios where an ordinary rating component is required. This control allows easy customization of the colors and shape of the default rating item.
+The `RadShapeRating` component is designed for the simplest scenarios where an ordinary Rating component is required. `RadShapeRating` allows easy customization of the colors and shape of the default rating item.
 
 ## Shape Types
 
-RadShapeRating exposes `ItemShape` property of type `RadPathGeometry` which is used to define the shape of the rating items.
+`RadShapeRating` exposes the `ItemShape` property of type `RadPathGeometry` which is used to define the shape of the rating items.
 
-For easy and fast setup RadRating includes several simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. This class exposes static properties that return predefined shapes. 
+For an easy and fast setup, the Rating includes several simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. The `Geometries` class exposes static properties that return predefined shapes.
 
->tip For more details on RadPath and RadPathGeometry check the documentation here: [RadPath Overview]({%slug path-overview%}).
+>tip For more details on `RadPath` and `RadPathGeometry`, refer to the [Path Overview article]({%slug path-overview%}).
 
 ## Geometries
 
-- **Star** (default)
+The Rating supports the following geometry types:
 
-![Star Shape Rating](images/rating-star.png)
+- (Default) `Star`
 
-```XAML
+ ![Star Shape Rating](images/rating-star.png)
+
+ ```XAML
 <telerikInput:RadShapeRating AutomationId="defaultRating" />
-```
+ ```
 
-- **Circle**
+- `Circle`
 
-![Circle Shape Rating](images/rating-circle.png)
+ ![Circle Shape Rating](images/rating-circle.png)
 
-```XAML
+ ```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Circle}" AutomationId="circleRating" />
-```
+ ```
 
-- **Diamond**
+- `Diamond`
 
-![Diamond Shape Rating](images/rating-diamond.png)
+ ![Diamond Shape Rating](images/rating-diamond.png)
 
-```XAML
+ ```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Diamond}" AutomationId="diamondRating" />
-```
+ ```
 
-- **Heart**
+- `Heart`
 
-![](images/rating-heart.png)
+ ![](images/rating-heart.png)
 
-```XAML
+ ```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Heart}" AutomationId="heartRating" />
-```
+ ```
 
-- Custom RadPathGeometry Shape:
+- Custom `RadPathGeometry` shape:
 
-![](images/rating-triangle.png)
+ ![](images/rating-triangle.png)
 
-```XAML
+ ```XAML
  <telerikInput:RadShapeRating AutomationId="triangularRating">
     <telerikInput:RadShapeRating.ItemShape>
         <telerikCommon:RadPathGeometry>
@@ -68,32 +70,33 @@ For easy and fast setup RadRating includes several simple shapes that can be use
         </telerikCommon:RadPathGeometry>
     </telerikInput:RadShapeRating.ItemShape>
 </telerikInput:RadShapeRating>
-```
+ ```
 
-where `telerikCommon` namespace is defined like this:
+ In the example, the `telerikCommon` namespace is defined like this:
 
-```XAML
+ ```XAML
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## Shapes Styling
 
 You can control the visual appearance of the predefined shapes through the following styling settings:
 
-* **ItemFill** (*Color*): Specifies the color used to fill the rating item.
-* **ItemStroke** (*Color*): Defines the color used by the border around the geometry.
-* **ItemStrokeThickness** (*double*): Sets the width of the border around the geometry.
-* **SelectedItemFill** (*Color*): Defines the color used to fill the selected rating item.
-* **SelectedItemStroke** (*Color*): Sets the color used by the border around the selected geometry.
-* **SelectedItemStrokeThickness** (*double*): Specifies the width of the border around the selected geometry.
+* `ItemFill` (`Color`)&mdash;Specifies the color used to fill the rating item.
+* `ItemStroke` (`Color`)&mdash;Defines the color used by the border around the geometry.
+* `ItemStrokeThickness` (`double`)&mdash;Sets the width of the border around the geometry.
+* `SelectedItemFill` (`Color`)&mdash;Defines the color used to fill the selected rating item.
+* `SelectedItemStroke` (`Color`)&mdash;Sets the color used by the border around the selected geometry.
+* `SelectedItemStrokeThickness` (`double`)&mdash;Specifies the width of the border around the selected geometry.
 
 ![Rating Styling](images/rating-styles.png)
 
 ### Example
 
-Define the RadShapeRating:
+Define the `RadShapeRating`:
+
 ```XAML
-<telerikInput:RadShapeRating AutomationId="styledRating" 
+<telerikInput:RadShapeRating AutomationId="styledRating"
                           ItemFill="YellowGreen"
                           ItemStroke="YellowGreen"
                           SelectedItemFill="Pink"
@@ -106,11 +109,11 @@ Add the namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
 ```
 
-Resilt:
+The following image shows the end result.
 
  ![Rating Styling](images/rating-styles.png)
 
 ## See Also
 
-- [Configuration]({% slug rating-configuration%})
+- [Configuration of the Rating]({% slug rating-configuration%})
 - [Templated Rating]({% slug rating-templated-rating%})

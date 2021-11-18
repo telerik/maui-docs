@@ -1,25 +1,25 @@
 ---
 title: Overview
 page_title: .NET MAUI Rating Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik Rating for .NET MAUI.
+description: "Try now the Telerik Rating for .NET MAUI that allows users to express their satisfaction from products, services, and experiences by selecting a corresponding number of elements from a predefined maximum range."
 position: 0
 slug: rating-overview
 ---
 
 # Overview
 
-**Telerik Rating for .NET MAUI** is UI component that allows users to intuitively rate by selecting number of items [stars] from a predefined number of items.
+**Telerik UI for .NET MAUI Rating** is an intuitive UI component that allows users to express their satisfaction from products, services, and experiences by selecting a corresponding number of elements from a predefined maximum range.
 
 ![RatingOverview](images/rating-overview.png)
 
-## Key features
+## Key Features
 
-* [Predefined rating shapes]({%slug rating-shape-rating%}): RadRating provides several simple shapes such as star, circle and diamond, that can be used for rating items out of the box.
-* [Customizing shapes]({%slug rating-shape-rating%}#shapes-styling): You could take advantage of the control’s flexible API for customizing the appearance of the predefined shapes.
-* [Custom items template support]({%slug rating-templated-rating%}): The Rating control provides two templates options for normal state and selected state, allowing you to achieve the desired look and feel.
-* [Read-Only Mode]({%slug rating-read-only-mode%}): restrict the end user to change the Value of the selected items. 
+* [Predefined rating shapes]({%slug rating-shape-rating%})&mdash;The Rating provides simple shapes such as star, circle, and diamond that can be used for rating items out of the box.
+* [Customizable shapes]({%slug rating-shape-rating%}#shapes-styling)&mdash;You can take advantage of the flexible Rating API and customize the appearance of the predefined shapes.
+* [Custom items template support]({%slug rating-templated-rating%})&mdash;The Rating control provides two templates options for its normal and selected state, allowing you to achieve the desired look and feel.
+* [Read-only mode]({%slug rating-read-only-mode%})&mdash;You can also prevent end users from changing the value of the selected items.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI Rating]({%slug rating-getting-started%})
-- [Configuration]({%slug rating-configuration%})
+- [Configuration of the Rating]({%slug rating-configuration%})

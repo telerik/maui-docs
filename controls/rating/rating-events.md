@@ -5,15 +5,16 @@ description: Check our &quot;Key Features&quot; documentation article for Teleri
 position: 6
 slug: rating-events
 ---
- 
+
 # Events
 
-RadRating provides the following event:
+The Rating provides the `ValueChanged` event, which occurs whenever the `Value` property is changed.
 
-* `ValueChanged`: Occurs whenever Value property is changed. The ValueChanged event handler receives two parameters:
-	* The `sender` argument which is of type `object`, but can be cast to `RadShapeRating` or `RadTemplatedRating` type;
-	* А `ValueChangedEventArgs` object which exposes both old and new values of the `Value` property.
- 
+The `ValueChanged` event handler receives two parameters:
+
+* The `sender` argument which is of type `object`, but can be cast to the `RadShapeRating` or `RadTemplatedRating` type.
+* А `ValueChangedEventArgs` object, which exposes both old and new values of the `Value` property.
+
 ## See Also
 
 - [Shape Rating]({% slug rating-shape-rating%})
