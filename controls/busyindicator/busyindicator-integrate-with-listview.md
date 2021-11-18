@@ -57,10 +57,7 @@ The example below demonstrates a sample integration of the BusyIndicator with th
 
 1. Set the `ViewModel` class as `BindingContext` of the page:
 
-<snippet id='busyindicator-withlistview-setvm' />
- ```C#
-this.BindingContext = new ViewModel();
- ```
+ <snippet id='busyindicator-withlistview-setvm' />
 
 The image below shows the result.
 
