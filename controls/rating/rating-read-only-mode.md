@@ -5,14 +5,12 @@ description: Check our &quot;Key Features&quot; documentation article for Teleri
 position: 3
 slug: rating-read-only-mode
 ---
- 
+
 # Read-Only Mode
 
-RadRating supports read-only mode in which the end user cannot change its `Value` (the number of the selected items). You could enable the read-only mode through `IsReadOnly` property:
+The Rating control supports a read-only mode in which the end user cannot change its `Value` (the number of the selected items). You can enable the read-only mode through `IsReadOnly` property.
 
-## Example
-
-DefineRadShapeRating in XAML:
+Define the `RadShapeRating` in XAML:
 
 ```XAML
 <telerikInput:RadShapeRating AutomationId="readOnlyRating"
@@ -20,13 +18,13 @@ DefineRadShapeRating in XAML:
                            x:Name="radRating"
                            IsReadOnly="True"/>
  ```
- 
+
 Add the namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
 ```
- 
+
 ## See Also
 
 - [Shape Rating]({% slug rating-shape-rating %})
