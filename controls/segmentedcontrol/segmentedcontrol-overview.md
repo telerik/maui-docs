@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI SegmentedControl Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
+description: "Try now the Telerik SegmentedControl for .NET MAUI displaying a list of horizontally aligned, mutually exclusive button options, which can be selected by the user."
 tags: segmentedcontrol for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: segmentedcontrol-overview
@@ -9,18 +9,16 @@ slug: segmentedcontrol-overview
 
 # Overview
 
-**Telerik SegmentedControl for .NET MAUI** allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display a text or an image.
+**Telerik UI for .NET MAUI SegmentedControl** allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display text or an image.
 
-#### Figure 1: RadSegmentedControl Overview
+![RadSegmentedControl example](images/segmentcontrol-overview-0.png)
 
-![RadSegmentedControl example](images/segmentcontrol-overview-0.png) 
+## Key Features
 
-### Key features
+* [Selection]({% slug segmentedcontrol-features-selection %})&mdash;The SegmentedControl exposes properties for working with its items selection.
+* [Disabling segments]({% slug segmentedcontrol-features-disable-segment %})&mdash;You can disable the interactions with a specific segment and also set a specific color for this state.
+* [Customizable segment colors]({% slug segmentedcontrol-features-customizesegmentcolors %})&mdash;You can customize the colors of the segments in each of the supported normal, selected, and disabled states.
 
-* **Selection**: RadSegmentedControl exposes a few useful properties that can help you work with the items selection. For additional info on this read [here]({% slug segmentedcontrol-features-selection %}).
-* **Disabling segments**: You can disable the interactions with a specific segment and also set a specific color for this state. Read [here]({% slug segmentedcontrol-features-disable-segment %}) for more details on the matter.
-* **Customizable segment colors**: You can customize the colors of the segments in the different states - normal, selected, disabled. Check [here]({% slug segmentedcontrol-features-customizesegmentcolors %}) for more info on this.
+## See Also
 
-### See Also
-
-- [Getting Started]({% slug segmentedcontrol-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI SegmentedControl]({% slug segmentedcontrol-getting-started %})

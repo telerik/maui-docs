@@ -1,18 +1,34 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI SegmentedControl Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
+page_title: NET MAUI SegmentedControl Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI SegmentedControl and add the control to your .NET MAUI project."
 position: 1
 slug: segmentedcontrol-getting-started
 ---
 
 # Getting Started
 
-## Define SegmentedControl
+This guide provides the information you need to start using the Telerik UI for .NET MAUI SegmentedControl by adding the control to your project.
 
-Add RadSegmentedControl definition in XAML:
+At the end, you will be able to achieve the following result.
 
-```XAML
+..........
+
+## Prerequisites
+
+Before adding the SegmentedControl, you need to:
+
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When your .NET MAUI application is set up, you are ready to add a SegmentedControl control to your page.
+
+ ```XAML
 <telerikInput:RadSegmentedControl x:Name="segmentControlText"
 								  HeightRequest="60"
                                   VerticalOptions="Start">
@@ -25,40 +41,29 @@ Add RadSegmentedControl definition in XAML:
         </x:Array>
     </telerikInput:RadSegmentedControl.ItemsSource>
 </telerikInput:RadSegmentedControl>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Compatibility"
-```
+ ```
 
-Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
+ ```C#
 using Telerik.Maui.Controls.Compatibility;
-
- 
 
 public void Configure(IAppHostBuilder appBuilder)
 {
     appBuilder        
         .UseTelerik()
         .UseMauiApp<App>();
-        
+
 }              
-```
+ ```
 
-## Set segment colors
-
-You can set the background of the segments via the **SegmentBackgroundColor** property. The color will be applied to all segments except the selected one. To change the background of the selected item you can set the **SelectedSegmentBackgroundColor**
-
-To set the text color of the strings in the items via the **SegmentTextColor** property. The color of the selected segment can be set via the **SelectedSegmentTextColor** property.
-
-You can find an example with the selected color properties in the [Selection]({%slug segmentedcontrol-features-selection%}) article.
-
-
-### See Also
+## See Also
 
 - [Selection]({%slug segmentedcontrol-features-selection%})
-- [Disable segment]({%slug segmentedcontrol-features-disable-segment%})
+- [Disabled Segments]({%slug segmentedcontrol-features-disable-segment%})

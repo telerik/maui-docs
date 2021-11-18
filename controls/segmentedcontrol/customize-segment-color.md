@@ -1,30 +1,30 @@
 ---
-title: Customize Segment Colors
-page_title: .NET MAUI SegmentedControl Documentation | Customize Segment Colors
+title: Styling
+page_title: .NET MAUI SegmentedControl Documentation | Styling
 description: Check our &quot;Customize Segment Colors&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
 position: 4
 slug: segmentedcontrol-features-customizesegmentcolors
 ---
 
-# Customize Segment Colors
+# Styling
 
-**RadSegmentedControl** has several properties which you can use to customize the text and background colors of the segments.
+The SegmentedControl provides a set of properties for customizing the text and background colors of its segments.
 
-### List of color properties
+## List of Color Properties
 
-There are different colors applied to the segments in their different states. The control exposes the following **properties**:
+The colors that are applied to the segments differ between the states of the control.
 
-- **SegmentBackgroundColor**: This is the background color applied to the unselected segments.
-- **SegmentTextColor**: This is the text color applied to the unselected segments.
+The SegmentedControl exposes the following properties:
 
-- **SelectedSegmentBackgroundColor**: This is the background color applied to the selected segment.
-- **SelectedSegmentTextColor**: This is the text color applied to the selected segment.
-
-- **DisabledSegmentTextColor**: This is the text color applied to the disabled segments.
+- `SegmentBackgroundColor`&mdash;The background color applied to the unselected segments.
+- `SegmentTextColor`&mdash;The text color applied to the unselected segments.
+- `SelectedSegmentBackgroundColor`&mdash;The background color applied to the selected segment.
+- `SelectedSegmentTextColor`&mdash;The text color applied to the selected segment.
+- `DisabledSegmentTextColor`&mdash;The text color applied to the disabled segments.
 
 ### Example
 
-This example shows setting the different segment colors.
+The following example shows how to set the different segment colors.
 
 ```XAML
 <telerikInput:RadSegmentedControl x:Name="segmentControl"
@@ -47,12 +47,11 @@ This example shows setting the different segment colors.
 </telerikInput:RadSegmentedControl>
 ```
 
-#### Figure 1: Customized segment colors
- 
-![SegmentedControl colors customization](images/segmentcontrol-features-customizecolors-0.png) 
+The following image shows the end result.
 
-### See Also
+![SegmentedControl colors customization](images/segmentcontrol-features-customizecolors-0.png)
 
-- [Getting Started]({%slug segmentedcontrol-getting-started%})
+## See Also
+
 - [Selection]({%slug segmentedcontrol-features-selection%})
-- [Disable segment]({%slug segmentedcontrol-features-disable-segment%})
+- [Disabled Segments]({%slug segmentedcontrol-features-disable-segment%})
