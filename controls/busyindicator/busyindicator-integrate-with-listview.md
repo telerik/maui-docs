@@ -26,9 +26,8 @@ The example below demonstrates a sample integration of the BusyIndicator with th
 
 1. Add the ListView and BusyIndicator controls to the view:
 
-<snippet id='busyindicator-withlistview-xaml' />
  ```XAML
-<Grid>
+ <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="40" />
         <RowDefinition Height="*" />
@@ -52,7 +51,7 @@ The example below demonstrates a sample integration of the BusyIndicator with th
                             HeightRequest="100"
                             IsBusy="{Binding IsLoading}" />
     </Grid>
-</Grid>
+ </Grid>
  ```
 
 1. Set the `ViewModel` class as `BindingContext` of the page:
