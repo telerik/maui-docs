@@ -14,10 +14,10 @@ This article will guide you through all customizations options that NumericInput
 
 ![NumericInput Button Text Default Look](images/numericinput-getting-started.png "NumericInput Button Text Default Look")
 
-* `IncreaseButtonText`(of type string): Defines the text displayed inside the IncreaseButton. The default string calue is "+".
-* `DecreaseButtonText`(of type string): Defines the text displayed inside the DecreaseButton. The default string calue is "-".
+* `IncreaseButtonText`(of type `string`): Defines the text displayed inside the **Increase** button. The default string value is `"+"`.
+* `DecreaseButtonText`(of type `string`): Defines the text displayed inside the **Decrease** button. The default string value is `"-"`.
 
-## Customze Buttons Text
+## Customize Buttons Text
 
 ![NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
 
@@ -25,15 +25,15 @@ This article will guide you through all customizations options that NumericInput
  <telerikInput:RadNumericInput x:Name="numericBtnText" IncreaseButtonText="&gt;" DecreaseButtonText="&lt;" />
 ```
 
-Add the following namespase: 
+Add the following namespase:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Change BackgroundColor 
+## Change BackgroundColor
 
-* **BackgroundColor**: allows you to change the background color of the NumericInput control.
+The `BackgroundColor` allows you to change the background color of the NumericInput control.
 
 ## See Also
 

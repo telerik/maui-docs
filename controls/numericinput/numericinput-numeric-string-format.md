@@ -8,21 +8,21 @@ slug: numericinput-numeric-string-format
 
 # Numeric Input Value Formatting
 
-**RadNumericInput** provides you the option to define the format of its numeric value. The desired format which will be applied when the control loses focus.
+The NumericInput provides you the option to define the format of its numeric value. The desired format which will be applied when the control loses focus.
 
 ## String Format
 
-* `StringFormat`(`string`): Specifies the string format applied to the numeric value when the control loses focus.
+The `StringFormat`(`string`) specifies the string format applied to the numeric value when the control loses focus.
 
 ## Standard Numeric Format Strings
 
-You can find detailed information about the supported numeric formats here: [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings).
+You can find detailed information about the supported numeric formats in the [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) Microsoft documentation.
 
 ## Example
 ```XAML
 <telerikInput:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
 ```
-Add the following namespase: 
+Add the following namespase:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
