@@ -8,22 +8,22 @@ slug: datagrid-style-selectors
 
 # Style Selectors
 
-RadDataGrid component exposes conditional styling feature. It allows users to apply different Style on a cell or per group header depending on a specific condition. 
+RadDataGrid component exposes conditional styling feature. It allows users to apply different Style on a cell or per group header depending on a specific condition.
 
 You could set different style on a specific cell from a specific column based on a custom selection logic with the following properties:
 
-* **CellContentStyleSelector**: Style the content of the cell using the text alignment options (TextMargin, HorizontalTextAlignment, VerticalTextAlignment), font options (FontAttributes, FontFamily, FontSize) and TextColor property 
-* **CellDecorationStyleSelector**: Style the decoration on a cell
+* `CellContentStyleSelector`: Style the content of the cell using the text alignment options (TextMargin, HorizontalTextAlignment, VerticalTextAlignment), font options (FontAttributes, FontFamily, FontSize) and TextColor property
+* `CellDecorationStyleSelector`: Style the decoration on a cell
 
-Different style can be applied on a per group header once the RadDataGrid control is grouped using **GroupHeaderStyleSelector** property. 
+Different style can be applied on a per group header once the RadDataGrid control is grouped using `GroupHeaderStyleSelector` property.
 
-The CellContentStyleSelector, CellDecorationStyleSelector and GroupStyleSelector use the **SelectStyle** method to change the style.
+The CellContentStyleSelector, CellDecorationStyleSelector and GroupStyleSelector use the `SelectStyle` method to change the style.
 
 ## Example
 
 The following example will demonstrate how to apply the style selectors in the RadDataGrid control:
 
-Let’s add the RadDataGrid control and set the **CellContentStyleSelector** to be static resource from type *MyCellContentStyleSelector*, **CellDecorationStyleSelector** as a static resource from type *MyCellDecorationStyleSelector* and **GroupStyleSelector** as a static resource from type *MyGroupStyleSelector*. 
+Let’s add the RadDataGrid control and set the `CellContentStyleSelector` to be static resource from type *MyCellContentStyleSelector*, `CellDecorationStyleSelector` as a static resource from type *MyCellDecorationStyleSelector* and `GroupStyleSelector` as a static resource from type *MyGroupStyleSelector*.
 
 Here is an example:
 
@@ -32,12 +32,12 @@ Here is an example:
 <telerikDataGrid:RadDataGrid x:Name="dataGrid"
 							 ItemsSource="{Binding Items}"
 							 AutoGenerateColumns="False"
-							 GroupHeaderStyleSelector="{StaticResource MyGroupSelector}" 
+							 GroupHeaderStyleSelector="{StaticResource MyGroupSelector}"
 							 UserEditMode="Cell">
 	<telerikDataGrid:RadDataGrid.Columns>
 		<telerikDataGrid:DataGridTextColumn PropertyName="Country" />
-		<telerikDataGrid:DataGridTextColumn PropertyName="Capital" 
-											CellContentStyleSelector="{StaticResource MyCellContentStyleSelector}" 
+		<telerikDataGrid:DataGridTextColumn PropertyName="Capital"
+											CellContentStyleSelector="{StaticResource MyCellContentStyleSelector}"
 											CellDecorationStyleSelector="{StaticResource MyCellDecorationSelector}" />
 	</telerikDataGrid:RadDataGrid.Columns>
 </telerikDataGrid:RadDataGrid>
@@ -85,11 +85,11 @@ As a next step you need to add *MyCellContentStyleSelector*, *MyCellDecorationSt
 ```XAML
 <local:MyGroupSelector x:Key="MyGroupSelector">
 	<local:MyGroupSelector.CountryTemplate1>
-		<telerikDataGrid:DataGridGroupHeaderStyle BackgroundColor="LightYellow" 
+		<telerikDataGrid:DataGridGroupHeaderStyle BackgroundColor="LightYellow"
 												  TextColor="Black"/>
 	</local:MyGroupSelector.CountryTemplate1>
 	<local:MyGroupSelector.CountryTemplate2>
-		<telerikDataGrid:DataGridGroupHeaderStyle BackgroundColor="LightSkyBlue" 
+		<telerikDataGrid:DataGridGroupHeaderStyle BackgroundColor="LightSkyBlue"
 											      TextColor="Red"/>
 	</local:MyGroupSelector.CountryTemplate2>
 </local:MyGroupSelector>
@@ -113,7 +113,7 @@ As a next step you need to add *MyCellContentStyleSelector*, *MyCellDecorationSt
 </local:MyCellDecorationSelector>
 ```
 
-Let’s create a custom class for each selector and this class derives from **DataGridStyleSelector** and overrides its **SelectStyle** method
+Let’s create a custom class for each selector and this class derives from `DataGridStyleSelector` and overrides its `SelectStyle` method
 
 MyCellContentStyleSelector class implementation is as follow:
 
@@ -123,7 +123,7 @@ class MyCellContentSelector : DataGridStyleSelector
 {
     public DataGridStyle CellTemplate1 { get; set; }
     public DataGridStyle CellTemplate2 { get; set; }
-	
+
     public override DataGridStyle SelectStyle(object item, BindableObject container)
     {
         DataGridCellInfo cellInfo = item as DataGridCellInfo;
@@ -182,7 +182,7 @@ class MyGroupSelector : DataGridStyleSelector
     {
         GroupHeaderContext header = item as GroupHeaderContext;
         if (header != null)
-        { 
+        {
             if (header.Group.Key == "India")
             {
                 return CountryTemplate1;

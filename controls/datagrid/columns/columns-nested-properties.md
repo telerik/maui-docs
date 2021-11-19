@@ -11,15 +11,15 @@ slug: datagrid-nested-properties
 DataGrid provides support for nested properties - this allows binding of complex objects to the grid columns.
 
 In addition, the DataGrid control provides the following property:  
-* **ListenForNestedPropertyChange** *(bool)*: Allows the DataGrid to listen for changes of the nested properties' values. By default it is *false*. 
+* `ListenForNestedPropertyChange` *(bool)*: Allows the DataGrid to listen for changes of the nested properties' values. By default it is *false*.
 
 >tip ListenForNestedPropertyChange is false due to optimization purposes, you could enable it in case you'd need to update the nested properties' values.
 
 ## Example
 
-Here is an example how you could utilize the nested properties feature in DataGrid: 
+Here is an example how you could utilize the nested properties feature in DataGrid:
 
-First, create the needed business objects, for example type **Person** that will have property of type **Address**:
+First, create the needed business objects, for example type `Person` that will have property of type `Address`:
 
 ```C#
 public class Person : NotifyPropertyChangedBase
@@ -72,7 +72,7 @@ In the sample both classes inherit from NotifyPropertyChangedBase class which ba
 using Telerik.XamarinForms.Common;
 ```
 
-Then create a ViewModel with a collection of **Person** objects:
+Then create a ViewModel with a collection of `Person` objects:
 
 ```C#
 public class ViewModel
@@ -97,7 +97,7 @@ public class ViewModel
 }
 ```
 
-Finally, use the following snippet to declare a RadDataGrid in XAML: 
+Finally, use the following snippet to declare a RadDataGrid in XAML:
 
 ```XAML
 <telerikDataGrid:RadDataGrid Grid.Row="1" x:Name="grid"
@@ -112,7 +112,7 @@ Finally, use the following snippet to declare a RadDataGrid in XAML:
 </telerikDataGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"

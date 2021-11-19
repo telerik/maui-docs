@@ -10,16 +10,16 @@ slug: datagrid-commands-validation
 
 RadDataGrid control provides a validation command that has an entry point for validating cells content. The execution parameter is of type *ValidateCellContext* that exposes the following properties:
 
-* **CellInfo**: Gets the cell info associated with the operation.
-* **Errors**: Gets or sets the errors (if any) that occurred during the validation.
+* `CellInfo`: Gets the cell info associated with the operation.
+* `Errors`: Gets or sets the errors (if any) that occurred during the validation.
 
 ## Example
 
 Here is an example how the RadDataGrid ValidateCell Command works:
 
-First, create class Data (our business object) that inherits from the **INotifyDataErrorInfo** and **INotifyPropertyChanged** interfaces.
+First, create class Data (our business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces.
 
->note We are going to do the validation through the **INotifyDataErrorInfo** interface.
+>note We are going to do the validation through the `INotifyDataErrorInfo` interface.
 
 <snippet id='datagrid-commands-validation-businessobject'/>
 ```C#
@@ -211,10 +211,10 @@ Define the RadDataGrid in XAML:
         <RowDefinition Height="Auto"/>
         <RowDefinition/>
     </Grid.RowDefinitions>
-    <Grid x:Name="errorContainer" 
+    <Grid x:Name="errorContainer"
           IsVisible="false">
         <BoxView BackgroundColor="DarkRed" />
-        <Label Text="country name length must be less than 15 symbols" 
+        <Label Text="country name length must be less than 15 symbols"
                FontSize="15"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"

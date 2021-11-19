@@ -10,15 +10,15 @@ slug: datagrid-commands-editing
 
 RadDataGrid control provides the following commands for editing the data inside the column:
 
-* **BeginEdit**: Provides an entry point just before the editing begins. 
-* **CancelEdit**: Provides an entry point just before the editing is canceled.
-* **CommitEdit**: Provides an entry point just before the editing is committed.
+* `BeginEdit`: Provides an entry point just before the editing begins.
+* `CancelEdit`: Provides an entry point just before the editing is canceled.
+* `CommitEdit`: Provides an entry point just before the editing is committed.
 
-The execution parameter of the **Editing Commands** is of type *EditContext* that exposes the following properties:
+The execution parameter of the `Editing Commands` is of type *EditContext* that exposes the following properties:
 
-* **CellInfo**: Gets the cell info associated with the operation.
-* **TriggerAction**: Gets the SourceTriggerAction value that triggered the operation.
-* **Parameter**: Gets an optional parameter holding additional information associated with the operation.
+* `CellInfo`: Gets the cell info associated with the operation.
+* `TriggerAction`: Gets the SourceTriggerAction value that triggered the operation.
+* `Parameter`: Gets an optional parameter holding additional information associated with the operation.
 
 ## BeginEdit and CommitEdit Commands Example
 
@@ -51,7 +51,7 @@ public class ViewModel
             new Data { Country = "Singapore", Capital = "Singapore" }
         };
     }
-	
+
 	public ObservableCollection<Data> Items { get; set; }
 }
 ```
@@ -118,7 +118,7 @@ Define the RadDataGrid in XAML:
 
 <snippet id='datagrid-commands-editing'/>
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid" 
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"
                              ItemsSource="{Binding Items}"
                              UserEditMode="Cell"/>
 ```

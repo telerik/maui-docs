@@ -10,12 +10,12 @@ slug: datagrid-columns-width
 
 This article describes how to set a width to the DataGrid column using the SizeMode and Width properties.
 
-* **SizeMode** (DataGridColumnSizeMode): Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
+* `SizeMode` (DataGridColumnSizeMode): Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
   * Fixed: The column has a fixed width as defined by its Width property.
   * Stretch: The column is stretched to the available width proportionally to its desired width.
   * Auto: The columns is sized to its desired width. That is the maximum desired width of all associated cells.
-* **Width** (double): - Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
-* **ActualWidth** (double): Gets the actual width of the column.
+* `Width` (double): - Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
+* `ActualWidth` (double): Gets the actual width of the column.
 
 ## Example
 
@@ -53,13 +53,13 @@ this.grid.ItemsSource = new List<Data>
 </telerikGrid:RadDataGrid>
 ```
 
-	Where the **telerikGrid** namespace is the following:
+	Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
-	
->important The **Width** property of columns will apply only when **SizeMode="Fixed"**.
+
+>important The `Width` property of columns will apply only when `SizeMode="Fixed"`.
 
 The first and second columns have set widths of 100 and 200, respectively:
 
@@ -76,7 +76,7 @@ The first and second columns have set widths of 100 and 200, respectively:
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
@@ -97,7 +97,7 @@ The columns take all the available space proportionally. The Width property is i
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
@@ -119,7 +119,7 @@ Lastly, lets use three columns to fully clarify the SizeMode behavior:
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
