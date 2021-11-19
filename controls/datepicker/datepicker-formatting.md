@@ -10,7 +10,7 @@ slug: datepicker-formatting
 
 Telerik UI for .NET MAUI DatePicker provides formatting options both when the picker dialog is open and when a date value is picked.
 
-## Setting the Closed Dialog String Format
+## DisplayString Format
 
 The `DisplayStringFormat` property defines the format of the string that will be visualized when the picker dialog is closed.
 
@@ -33,7 +33,7 @@ Add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Setting the Spinner Format
+## Spinner Format
 
 The DatePicker allows you to use standard or custom date format strings through its `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values that can be picked.
 
@@ -41,7 +41,7 @@ The `SpinnerFormat` property defines the string format for the spinners. The def
 
 ## Standard Date Format Strings
 
-The available Standard Date Format Strings, which can be set to the `SpinnerFormat` property, are described in the following table.
+The available Standard Date Format Strings, which can be set to the `SpinnerFormat` and `DisplayStringFormat` properties, are described in the following table.
 
 | Supported Standard Date Format String | Description |
 | -------- | -------- |
@@ -55,7 +55,7 @@ The available Standard Date Format Strings, which can be set to the `SpinnerForm
 
 ## Custom Date Format Strings
 
-The available Custom Date Format Strings, which can be set to the `SpinnerFormat` property, are described in the following table.
+The available Custom Date Format Strings, which can be set to the `SpinnerFormat` and `DisplayStringFormat` properties, are described in the following table.
 
 | Supported Custom Date Format Strings|
 | -------- |
@@ -71,7 +71,7 @@ The available Custom Date Format Strings, which can be set to the `SpinnerFormat
 
 >important Currently, the DatePicker does not support any standard date formats, which contain a long date inside them. For more information, refer to the official Microsoft documentation on [Standard Date Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Supported Separators
+## Supported Separators
 
 When `SpinnerFormat` is set and the device culture is changed, the separators used for the format string won't be changed:
 
@@ -84,9 +84,9 @@ When `SpinnerFormat` is set and the device culture is changed, the separators us
 | `":"` |
 | `"/"` |
 
-### Examples
+## Examples
 
-#### SpinnerFormat="MMMM dd"
+### SpinnerFormat="MMMM dd"
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMMM dd" />
@@ -96,7 +96,7 @@ And the result:
 
 ![](images/datepicker-string-format-mmmm-dd.png)
 
-#### SpinnerFormat="dd"
+### SpinnerFormat="dd"
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="dd" />
@@ -106,7 +106,7 @@ And the result:
 
 ![](images/datepicker-string-format-dd.png)
 
-#### SpinnerFormat="MMM yyyy"
+### SpinnerFormat="MMM yyyy"
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMM yyyy" />
@@ -116,7 +116,7 @@ And the result:
 
 ![](images/datepicker-string-format-mmm-yyyy.png)
 
-#### SpinnerFormat="yyyy/dd/MMM"
+### SpinnerFormat="yyyy/dd/MMM"
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
