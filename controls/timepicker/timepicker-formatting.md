@@ -38,7 +38,7 @@ To define the string format for the spinners, use the `SpinnerFormat`(`string`) 
 
 ## Standard Time Format Strings
 
-The available standard date and time format strings that can be set to the `SpinnerFormat` property are described in the table below:
+The available standard date and time format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
 | Supported Standard Time Format String | Description |
 | -------- | -------- |
@@ -51,7 +51,7 @@ The available standard date and time format strings that can be set to the `Spin
 
 ## Custom Time Format Strings
 
-The available custom time format strings that can be set to the `SpinnerFormat` property are described in the table below:
+The available custom time format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
 | Supported Custom Time Format Strings|
 | -------- |
