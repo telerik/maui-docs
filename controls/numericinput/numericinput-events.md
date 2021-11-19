@@ -14,8 +14,8 @@ RadNumericInput has a `ValueChanged` event.
 
 The `ValueChanged` event is raised after the input value is changed. The ValueChanged event handler receives two parameters:
 
-* The Sender which is the RadNumericInput control;
-* ValueChangedEventArgs provides the following properties:
+* The `Sender` which is the RadNumericInput control;
+* `ValueChangedEventArgs` provides the following properties:
 
 	* `OldValue` of type `nullable double` gets the old value.
 	* `NewValue` of type `nullable double` gets the new value.
