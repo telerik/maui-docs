@@ -39,7 +39,7 @@ The available standard time-span format strings that can be set to the `SpinnerF
 
 ## Custom TimeSpan Format Strings
 
-The available custom time span format strings that can be set to the `SpiinerFormat` property are described in the table below:
+The available custom time span format strings that can be set to the `SpinnerFormat` property are described in the table below:
 
 | Supported Custom TimeSpan Format Strings|
 | -------- |
