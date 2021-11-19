@@ -22,7 +22,7 @@ To enable the email mask type, set the `RadEmailMaskedEntry` instance:
 
 The following image shows the end result.
 
-![RadEmailMaskedEntry](../images/maskedentry_email.png)
+![RadEmailMaskedEntry](images/maskedentry_email.png)
 
 ## Numeric Mask
 
@@ -43,7 +43,7 @@ Through the `Mask` property you can specify the exact format of the expected inp
 
 The following image shows the end result.
 
-![RadNumericMaskedEntry](../images/maskedentry_numeric.png)
+![RadNumericMaskedEntry](images/maskedentry_numeric.png)
 
 ## Regex Mask
 
@@ -57,7 +57,7 @@ The following example demonstrates how to set the `RadRegexMaskedEntry`.
 
 The following image shows the end result.
 
-![RadRegexMaskedEntry](../images/maskedentry_regex.png)
+![RadRegexMaskedEntry](images/maskedentry_regex.png)
 
 ## IP Mask
 
@@ -71,7 +71,7 @@ The following example demonstrates how to create a `RadIPMaskedEntry`.
 
 The following image shows the end result.
 
-![RadIPMaskedEntry](../images/maskedentry_ip.png)
+![RadIPMaskedEntry](images/maskedentry_ip.png)
 
 ## Text Mask
 
@@ -85,7 +85,7 @@ The following example demonstrates how to create a `RadTextMaskedEntry`.
 
 The following image shows the end result.
 
-![RadTextMaskedEntry](../images/maskedentry_text.png)
+![RadTextMaskedEntry](images/maskedentry_text.png)
 
 ## See Also
 
