@@ -54,7 +54,7 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## Visualize Sample Data
 
-The DataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the DataGrid with infinity and the virtualization will not work:
+The DataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the DataGrid with infinite width and height constraints and the virtualization will not work:
 
 * Positioning the DataGrid inside a StackLayout which is wrapped in a ScrollView.
 * Positioning the DataGrid inside a ScrollView.
