@@ -1,33 +1,33 @@
 ---
-title: Time Range
-page_title: .NET MAUI TimePicker Documentation | Time Range
+title: Time Ranges
+page_title: .NET MAUI TimePicker Documentation | Time Ranges
 description: Check our &quot;Time Range&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
 slug: timepicker-time-range
 ---
 
-# Time Range
+# Time Ranges
 
-Time Picker allows you to define a time range and choose a time in between through the following properties:
+The TimePicker allows you to define a time range and choose a time within that range through the following properties:
 
-* `MinimumTime`(*TimeSpan*): Defines a time which marks the beginning of the range of the available time values. The default value is `TimeSpan.Zero`.
+* `MinimumTime`(`TimeSpan`)&mdash;Defines a time which marks the beginning of the range of the available time values. The default value is `TimeSpan.Zero`.
 
-* `MaximumTime`(*TimeSpan*): Defines a time which marks the end of the range of the available time values to choose from. The default value is `TimeSpan(23, 59, 59)`.
+* `MaximumTime`(`TimeSpan`)&mdash;Defines a time which marks the end of the range of the available time values to choose from. The default value is `TimeSpan(23, 59, 59)`.
 
-## Example
+**Example for Setting Time Ranges**
 
-RadTimePicker definition:
+1. Define the TimePicker:
 
-```XAML
+ ```XAML
 <telerikInput:RadTimePicker MinimumTime="8:00:00"
                          MaximumTime="19:00:00"/>
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

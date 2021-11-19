@@ -8,17 +8,17 @@ slug: timepicker-selection
 
 # Selection
 
-**RadTimePicker** control enables the app users to quickly and easily select a time value. This topic explaines the TimePicker API related to time selection.
+The TimePicker control enables users to quickly and easily select a time value. This topic explains the TimePicker API related to time selection.
 
 ## Time Property
 
-* `Time`(*TimeSpan?*): Defines the current time selection. The default value is `null`.
+To define the current time selection, use the `Time`(`TimeSpan?`) property. The default value is `null`.
 
 ```XAML
 <telerikInput:RadTimePicker Time="10:30:00"/>
 ```
 
-And the namespace used:
+Add the namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -26,7 +26,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Methods
 
-Cancel the selected time using the `ClearSelection` method.
+To cancel the selected time, use the `ClearSelection` method.
 
 ```XAML
 <StackLayout>
@@ -35,7 +35,7 @@ Cancel the selected time using the `ClearSelection` method.
 </StackLayout>
 ```
 
-Call `ClearSelection` inside the button click event - as a result `Time` property will be updated to `null`.
+Call `ClearSelection` inside the button `click` event to update the `Time` property to `null`.
 
 ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
@@ -44,16 +44,16 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 }
 ```
 
-## Events 
+## Events
 
-* `SelectionChanged` event which is raised when the user picks a time value.
+The TimePicker exposes the `SelectionChanged` event, which is raised when the user picks a time value.
 
 ```XAML
-<telerikInput:RadTimePicker x:Name="timePicker" 
+<telerikInput:RadTimePicker x:Name="timePicker"
                             SelectionChanged="TimePicker_SelectionChanged"/>
 ```
 
-Add the `SelectionChanged` event, where the `sender` is of type `object`, but can be cast to `RadTimePicker` type:
+Add the `SelectionChanged` event, where the `sender` is of type `object`, but can be cast to the `RadTimePicker` type:
 
 ```C#
 private void TimePicker_SelectionChanged(object sender, EventArgs e)
