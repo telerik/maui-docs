@@ -8,9 +8,9 @@ slug: templatedpicker-methods
 
 # Methods
 
-TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
+The TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
 
-### Example
+Define the TemplatedPicker:
 
 ```XAML
 <StackLayout>
@@ -25,7 +25,7 @@ TemplatedPicker for .NET MAUI allows you to clear the selected value through its
 </StackLayout>
 ```
 
-and you can clear the selection inside the button click event:
+Clear the selection inside the button `click` event:
 
 ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
@@ -34,7 +34,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 }
 ```
 
-also you will need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;Telerik.Maui.Controls.Compatibility"

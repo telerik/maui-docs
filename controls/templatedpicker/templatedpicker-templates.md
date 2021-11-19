@@ -8,23 +8,23 @@ slug: templatedpicker-templates
 
 # Templates
 
-TemplatedPicker for .NET MAUI provides the following templates:
+The TemplatedPicker for .NET MAUI provides the following templates:
 
-* `SelectorTemplate`(*ControlTemplate*): Defines the template used for displaying the selector of the picker.
+* `SelectorTemplate`(`ControlTemplate`)&mdash;Defines the template used for displaying the selector of the picker.
 
-* `PlaceholderTemplate`(*ControlTemplate*): Defines the template visualized for the placeholder.  
+* `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
 
-* `DisplayTemplate`(*ControlTemplate*): Defines the template visualized when an item from the selector was picked.
+* `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when an item from the selector was picked.
 
-Using `SelectorSettings` property(of type *Telerik.XamarinForms.Input.PickerPopupSelectorSettings*) you can define the following templates:
+When you use the `SelectorSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSelectorSettings`), you can define the following templates:
 
-* `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
 
-* `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
+* `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) footer.
 
 ### Example
 
-Here is a sample TemplatedPicker definition:
+Define a sample TemplatedPicker:
 
 <snippet id='templatedpicker-keyfeatures' />
 ```XAML
@@ -39,7 +39,7 @@ Here is a sample TemplatedPicker definition:
 
 ## Selector Template
 
-Here is a sample definition of the SelectorTemplate:
+Here is a sample definition of the `SelectorTemplate`:
 
 <snippet id='templatedpicker-keyfeatures-selectortemplate' />
 ```XAML
@@ -61,7 +61,7 @@ Here is a sample definition of the SelectorTemplate:
 </ControlTemplate>
 ```
 
-## Header Template:
+## Header Template
 
 <snippet id='templatedpicker-keyfeatures-headertemplate' />
 ```XAML
@@ -76,7 +76,7 @@ Here is a sample definition of the SelectorTemplate:
 			   VerticalOptions="Center"
 			   TextColor="White" />
 		<Label Grid.Column="1"
-			   Text="Origin City" 
+			   Text="Origin City"
 			   HorizontalOptions="Center"
 			   VerticalOptions="Center"
 			   TextColor="White" />
@@ -84,7 +84,7 @@ Here is a sample definition of the SelectorTemplate:
 </ControlTemplate>
 ```
 
-add the following data item for the first spinner:
+Add the following data item for the first spinner:
 
 <snippet id='templatedpicker-country-businessmodel' />
 ```C#
@@ -116,7 +116,7 @@ public class Country : NotifyPropertyChangedBase
 }
 ```
 
-add the following data item for the second spinner:
+Add the following data item for the second spinner:
 
 <snippet id='templatedpicker-city-businessmodel' />
 ```C#
@@ -141,7 +141,7 @@ public class City : NotifyPropertyChangedBase
 }
 ```
 
-here is a sample definition of the ViewModel:
+Define a sample `ViewModel`:
 
 <snippet id='templatedpicker-viewmodel' />
 ```C#
@@ -340,7 +340,7 @@ public class LocationViewModel : NotifyPropertyChangedBase
 }
 ```
 
-Set thus defined LocationViewModel as a BindingContext of the page:
+Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new LocationViewModel();
@@ -352,7 +352,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is the TemplatedPicker visual structure:
+The following image shows the TemplatedPicker visual structure:
 
 ![TemplatedPicker](images/templated_picker_visual_structure.png)
 

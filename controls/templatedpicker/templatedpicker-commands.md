@@ -8,29 +8,31 @@ slug: templatedpicker-commands
 
 # Commands
 
+Telerik UI for .NET MAUI TemplatedPicker exposes a number of commands for programmatic manipulation of its popup rendering.
+
 ## TemplatedPicker Commands
 
-TemplatedPicker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected item:
+The TemplatedPicker for .NET MAUI exposes the following commands, which enable you to programmatically manipulate the display of the popup and the clearing of the selected item:
 
-* `ToggleCommand`: Allows you to show/hide the popup used for selecting an item from the custom picker.
-* `ClearCommand`: Allows you to clear the displayed item.
+* `ToggleCommand`&mdash;Allows you to show/hide the popup. Used for selecting an item from the custom picker.
+* `ClearCommand`&mdash;Allows you to clear the displayed item.
 
 ## PopupSelector Commands
 
-Through the popup users can pick an item. The value should be confirmed or rejected through the OK and Cancel buttons placed on the popup.
+Through the popup, users can pick an item. The value has to be confirmed or rejected through the **OK** and **Cancel** buttons that are displayed in the popup.
 
-TemplatedPicker allows you to add a custom logic for the Accept and Cancel commands which are executed when OK and Cancel buttons, respectively, are pressed.
+The TemplatedPicker allows you to add custom logic for the `Accept` and `Cancel` commands, which are executed when the **OK** and **Cancel** buttons, respectively, are clicked.
 
-* `AcceptCommand`: Defines the command which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`: Defines the command which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
+* `CancelCommand`&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
 
-The Accept and Cancel commands can be applied using the `SelectorSettings` property of RadTemplatedPicker.
+You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TemplatedPicker.
 
 ## Example
 
-Here is the RadTemplatedPicker definition:
+1. Define the TemplatedPicker:
 
-```XAML
+ ```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference picker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference picker}, Path=ClearCommand}"/>
@@ -49,11 +51,11 @@ Here is the RadTemplatedPicker definition:
             </telerikInput:RadTemplatedPicker.BindingContext>
     </telerikInput:RadTemplatedPicker>
 </StackLayout>
-```
+ ```
 
-a sample ViewModel:
+1. Set a sample `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ViewModel()
@@ -75,19 +77,19 @@ public class ViewModel
     public ICommand Accept { get; set; }
     public ICommand Cancel { get; set; }
 }
-```
+ ```
 
-Set thus defined ViewModel as a BindingContext of the page:
+1. Set the defined `ViewModel` as a `BindingContext` of the page:
 
-```C#
+ ```C#
 this.BindingContext = new ViewModel();
-```
+ ```
 
-also you will need to add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

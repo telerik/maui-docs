@@ -8,19 +8,19 @@ slug: templatedpicker-data-binding
 
 # Data Binding
 
-TemplatedPicker for .NET MAUI provides means for creating a fully-customizable picker control. You can place any list of items inside the popup for the user to choose from and show the selected value in a defined format. 
+The TemplatedPicker for .NET MAUI provides means for creating a fully-customizable picker control. You can place any list of items inside the popup for the user to choose from and show the selected value in a defined format.
 
-This article describes the RadTemplatedPicker properties used for binding and presenting the selected value coming from the selector data source. The selector can be any control showing a list of items user can choose from, for example CollectionView, RadSpinner, etc.
+This article describes the TemplatedPicker properties that are used for binding and presenting the selected value, which comes from the selector data source. The selector can be any control shows a list of items user can choose from, for example, `CollectionView`, `RadSpinner`, and so on.
 
-* `DisplayMemberPath`: Specifies a property of the source object to serve as the visual representation of the selected item.
+* `DisplayMemberPath`&mdash;Specifies a property of the source object to serve as the visual representation of the selected item.
 
-* `DisplayStringFormat`: You can choose what text to display when an item from the selector was picked through the Picker `DisplayStringFormat` property. 
+* `DisplayStringFormat`&mdash;Enables you to choose what text to display when an item from the selector was picked through the `DisplayStringFormat` TemplatedPicker property.
 
-* `SelectedValue`: Used when you have linked your RadTemplatedPicker to a data source, and you want to return a value of type object other than the one which is displayed. 
+* `SelectedValue`&mdash;Used when you have linked your TemplatedPicker to a data source, and you want to return a value of type object different from the one which is displayed.
 
 ### Example
 
-The example below uses two [RadSpinner controls] inside the `SelectorTemplate` of RadTemplatedPicker which present cascading lists of items (the items shown in the second spinner depend on the selected value from the first spinner). Through the `SelectedValue` and `DisplayMemberPath` properties you can define how the selection from the spinners is visualized in the picker when the popup is closed.
+The example below uses two `RadSpinner` controls inside the `SelectorTemplate` of the TemplatedPicker which present cascading lists of items (the items shown in the second spinner depend on the selected value from the first spinner). Through the `SelectedValue` and `DisplayMemberPath` properties you can define how the selection from the spinners is visualized in the picker when the popup is closed.
 
 <snippet id='templatedpicker-keyfeatures' />
 ```XAML
@@ -55,7 +55,7 @@ Here is a sample definition of the SelectorTemplate:
 </ControlTemplate>
 ```
 
-and for the HeaderTemplate:
+Define the `HeaderTemplate`:
 
 <snippet id='templatedpicker-keyfeatures-headertemplate' />
 ```XAML
@@ -70,7 +70,7 @@ and for the HeaderTemplate:
 			   VerticalOptions="Center"
 			   TextColor="White" />
 		<Label Grid.Column="1"
-			   Text="Origin City" 
+			   Text="Origin City"
 			   HorizontalOptions="Center"
 			   VerticalOptions="Center"
 			   TextColor="White" />
@@ -78,7 +78,7 @@ and for the HeaderTemplate:
 </ControlTemplate>
 ```
 
-add the following data item for the first spinner:
+Add the following data item for the first spinner:
 
 <snippet id='templatedpicker-country-businessmodel' />
 ```C#
@@ -110,7 +110,7 @@ public class Country : NotifyPropertyChangedBase
 }
 ```
 
-add the following data item for the second spinner:
+Add the following data item for the second spinner:
 
 <snippet id='templatedpicker-city-businessmodel' />
 ```C#
@@ -135,7 +135,7 @@ public class City : NotifyPropertyChangedBase
 }
 ```
 
-here is a sample definition of the ViewModel:
+Here is a sample definition of the `ViewModel`:
 
 <snippet id='templatedpicker-viewmodel' />
 ```C#
@@ -334,7 +334,7 @@ public class LocationViewModel : NotifyPropertyChangedBase
 }
 ```
 
-Set thus defined LocationViewModel as a BindingContext of the page:
+Set thus defined `LocationViewModel` as a `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new LocationViewModel();
@@ -346,7 +346,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-This is the result:
+The following image shows the end result.
 
 ![TemplatedPicker Selected Value](images/templatedpicker_data_binding.png)
 

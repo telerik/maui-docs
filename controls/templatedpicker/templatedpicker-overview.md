@@ -1,32 +1,29 @@
 ---
 title: Overview
 page_title: .NET MAUI TemplatedPicker Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
+description: "Try now the Telerik TemplatedPicker for .NET MAUI allowing you to create custom pickers based on your requirements and the scenario you want to achieve."
 position: 0
 slug: templatedpicker-overview
 ---
 
 # Overview
 
-**Telerik TemplatedPicker for .NET MAUI** is a fully customizable picker control which allows you create a custom picker based on the scenario you want to achieve. You can pick an item from a selector with a custom template. 
+**Telerik TemplatedPicker for .NET MAUI** is a fully customizable picker control which allows you to create a custom picker based on the scenario you want to achieve. You can pick an item from a selector with a custom template.
 
->important Telerik UI for .NET MAUI TemplatedPicker is currenly available for Android and iOS.
+Currently, the TemplatedPicker is available for Android and iOS.
 
 ![TemplatedPicker Overview](images/templated_picker_overview.png)
 
-## Key features
+## Key Features
 
-* [Selector Template]({%slug templatedpicker-templates%}): Custom Picker control allows you to define a template for the items. 
+* [Selector template]({%slug templatedpicker-templates%})&mdash;The custom picker control allows you to define a template for the items.
 
-* [DisplayString Format]({%slug templatedpicker-data-binding%}#displaystringformat): You can choose what text to display when an item from the selector template was picked through the Picker `DisplayStringFormat` property.
+* [DisplayString Format]({%slug templatedpicker-data-binding%}#displaystringformat)&mdash;You can choose what text to display when an item from the selector template is picked through the `DisplayStringFormat` TemplatedPicker property.
 
-* [Flexible Styling API]({%slug templatedpicker-styling%}): Take advantage of the styling capabilities of TemplatedPicker. You can easily style its Spinners, the Popup and its header and footer. 
+* [Flexible styling API]({%slug templatedpicker-styling%})&mdash;Take advantage of the styling capabilities of TemplatedPicker. You can easily style its spinners, the popup, and its header and footer.
 
-* [Commands Support]({%slug templatedpicker-commands%}): TemplatedPicker exposes commands that allows you to clear the selected item - `ClearCommand` and `ToggleCommand` which allows you to open and close the dialog. 
+* [Commands support]({%slug templatedpicker-commands%})&mdash;The TemplatedPicker exposes the `ClearCommand` command that allows you to clear the selected item and the `ToggleCommand` that allows you to open and close the dialog.
 
 ## See Also
 
-- [Visual Structure]({%slug templatedpicker-visual-structure%})
-- [Getting Started]({%slug templatedpicker-getting-started%})
-- [Templates]({%slug templatedpicker-templates%})
-- [Styling]({%slug templatedpicker-styling%})
+- [Getting Started with Telerik UI for .NET MAUI TemplatedPicker]({%slug templatedpicker-getting-started%})
