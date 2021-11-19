@@ -1,29 +1,29 @@
 ---
 title: Overview
 page_title: .NET MAUI MaskedEntry Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik MaskedEntry for .NET MAUI.
+description: "Try now the Telerik MaskedEntry for .NET MAUI formatting and restricting text to predefined patterns, and providing input validation and masks."
 position: 0
 slug: maskedentry-overview
 ---
 
 # Overview
 
-**Telerik MaskedEntry for .NET MAUI** formats and constrains text to a predefined pattern or a pattern you define. It provides input validation and masks, such as Text, Regex, IP , Email and Numeric.
+**Telerik UI for .NET MAUI MaskedEntry** formats and restricts text inputs to predefined or defined patterns, and provides input validation and masks, such as text, Regex, IP, email, and numeric.
 
 ![maskedentry-overview](images/maskedentry-overview.png)
 
+## Key Features
 
-## Key features
+* [Rich set of mask types]({%slug maskedentry-masked-types%})&mdash;The MaskedEntry control comes with a number of mask rules you can apply to validate user input as an email, IP address, text, regex, and more.
 
-* [Rich set of mask types]({%slug maskedentry-masked-types%}): The masked input control allows you to use different type of masks depending on your scenario.
+* [Exhaustive number of events]({%slug maskedentry-events%})&mdash;You can use the events exposed by the MaskedEntry to execute various operations on user interaction such as value changing.
 
 * **Setting Mask**: Allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used RadMaskedEntry -> Regex, Numeric, etc. 
 
 * **Returns the user input without the formatting characters** using the `Value` property.
 
-* **Keyboard Support**: In addition to the standard keyboard input, the RadMaskedEntry controls deliver the convenience of desktop applications with support for arrow-key navigation for desktop apps.
+* Keyboard support&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI MaskedEntry]({%slug maskedentry-getting-started%})
-
