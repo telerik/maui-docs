@@ -27,7 +27,7 @@ To define the string format for the spinners, use the `SpinnerFormat`(`string`) 
 
 ## Standard TimeSpan Format Strings
 
-The available standard time-span format strings that can be set to the `SpinnerFormat` property are described in the table below:
+The available standard time-span format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properies are described in the table below:
 
 | Supported Standard TimeSpan Format String | Description |
 | -------- | -------- |
@@ -39,7 +39,7 @@ The available standard time-span format strings that can be set to the `SpinnerF
 
 ## Custom TimeSpan Format Strings
 
-The available custom time span format strings that can be set to the `SpinnerFormat` property are described in the table below:
+The available custom time span format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
 | Supported Custom TimeSpan Format Strings|
 | -------- |
