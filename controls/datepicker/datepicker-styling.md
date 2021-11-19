@@ -77,7 +77,7 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 The following example demonstrates how to define a sample DatePicker.
 
-#### Defining the RadDatePicker
+1. Defining the RadDatePicker
 
 <snippet id='datepicker-style' />
  ```XAML
@@ -104,7 +104,7 @@ The following example demonstrates how to define a sample DatePicker.
 
 The following examples demonstrate how to set the styling of the page resources.
 
-#### Spinner Style
+## Spinner Style
 
 <snippet id='datepicker-style-spinner-style' />
 ```XAML
@@ -127,7 +127,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### SpinnerHeader Style
+## SpinnerHeader Style
 
 <snippet id='datepicker-style-spinner-header-style' />
 ```XAML
@@ -141,7 +141,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### SelectionHighlight Style
+## SelectionHighlight Style
 
 <snippet id='datepicker-style-selection-highlight-style' />
 ```XAML
@@ -154,7 +154,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### PlaceholderLabel Style
+## PlaceholderLabel Style
 
 <snippet id='datepicker-style-placeholder-label-style' />
 ```XAML
@@ -166,7 +166,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### DisplayLabel Style
+## DisplayLabel Style
 
 <snippet id='datepicker-style-display-label-style' />
 ```XAML
@@ -178,7 +178,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### PopupView Style
+## PopupView Style
 
 <snippet id='datepicker-style-popupview-style' />
 ```XAML
@@ -188,7 +188,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### Header Style
+## Header Style
 
 <snippet id='datepicker-style-header-style' />
 ```XAML
@@ -202,7 +202,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### HeaderLabel Style
+## HeaderLabel Style
 
 <snippet id='datepicker-style-header-label-style' />
 ```XAML
@@ -214,7 +214,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### Footer Style
+## Footer Style
 
 <snippet id='datepicker-style-footer-style' />
 ```XAML
@@ -223,7 +223,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### AcceptButton Style
+## AcceptButton Style
 
 <snippet id='datepicker-style-accept-button-style' />
 ```XAML
@@ -234,7 +234,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### CancelButton Style
+## CancelButton Style
 
 <snippet id='datepicker-style-cancel-button-style' />
 ```XAML
@@ -245,7 +245,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-#### Namespaces
+## Namespaces
 
 In addition, add the following namespaces:
 
