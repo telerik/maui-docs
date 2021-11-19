@@ -182,7 +182,7 @@ And here are how the styles are defined in the page resources.
 </Style>
 ```
 
-## HeaderLabel Style**
+## HeaderLabel Style
 
 ```XAML
 <Style TargetType="Label" x:Key="headerLabelStyle">
