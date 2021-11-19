@@ -8,13 +8,13 @@ slug: datagrid-commands-cell-tap
 
 # CellTap Command
 
-The DataGrid CellTap Command handles the Tap gesture over a grid cell, that is, the intersection of a data row and a column.
+The DataGrid `CellTap` command handles the tap (click) gesture over a grid cell, that is, the intersection of a data row and a column.
 
 ## Example
 
-Here is an example how the RadDataGrid CellTap Command works:
+Here is an example how the RadDataGrid `CellTap` command works:
 
-First, create the needed business objects, for example type Country with the following properties:
+First, create the needed business objects, for example, type `Country` with the following properties:
 
 <snippet id='datagrid-commands-celltap-businessobject'/>
 ```C#
@@ -25,7 +25,7 @@ public class Data
 }
 ```
 
-Then create a ViewModel with a collection of Data objects:
+Then, create a `ViewModel` with a collection of `Data` objects:
 
 ```C#
 public class ViewModel
@@ -40,19 +40,18 @@ public class ViewModel
             new Data { Country = "Singapore", Capital = "Singapore" }
         };
     }
-	
+
 	public ObservableCollection<Data> Items { get; set; }
 }
 ```
 
-Set the ViewModel class as BindingContext of the page:
+Set the `ViewModel` class as `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new ViewModel();
 ```
 
-Then handle the CellTap action as a Command. First, create a class that inherits from the `DataGridCommand` and set its Id property accordingly.
-You would also need to override CanExecute and Execute methods as demonstrated in the example below:
+Then, handle the `CellTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
 <snippet id='datagrid-commands-celltap'/>
 ```C#
@@ -76,18 +75,18 @@ public class CellTapUserCommand: DataGridCommand
 }
 ```
 
-Then add this Command to the Commands collection of the RadDataGrid instance:
+Then, add this command to the `Commands` collection of the `RadDataGrid` instance:
 
 <snippet id='datagrid-commands-cetttap-add'/>
 ```C#
 dataGrid.Commands.Add(new CellTapUserCommand());
 ```
 
-Define the RadDataGrid in XAML:
+Define the DataGrid in XAML:
 
 <snippet id='datagrid-commands-celltap-xaml'/>
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid" 
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"
 							 ItemsSource="{Binding Items}"/>
 ```
 

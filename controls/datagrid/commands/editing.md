@@ -8,23 +8,23 @@ slug: datagrid-commands-editing
 
 # Editing Commands
 
-RadDataGrid control provides the following commands for editing the data inside the column:
+The DataGrid control provides the following commands for editing the data inside the column:
 
-* `BeginEdit`: Provides an entry point just before the editing begins.
-* `CancelEdit`: Provides an entry point just before the editing is canceled.
-* `CommitEdit`: Provides an entry point just before the editing is committed.
+* `BeginEdit`&mdash;Provides an entry point just before the editing begins.
+* `CancelEdit`&mdash;Provides an entry point just before the editing is canceled.
+* `CommitEdit`&mdash;Provides an entry point just before the editing is committed.
 
-The execution parameter of the `Editing Commands` is of type *EditContext* that exposes the following properties:
+The execution parameter of the `Editing Commands` is of type `EditContext` that exposes the following properties:
 
-* `CellInfo`: Gets the cell info associated with the operation.
-* `TriggerAction`: Gets the SourceTriggerAction value that triggered the operation.
-* `Parameter`: Gets an optional parameter holding additional information associated with the operation.
+* `CellInfo`&mdash;Gets the cell information associated with the operation.
+* `TriggerAction`&mdash;Gets the `SourceTriggerAction` value that triggered the operation.
+* `Parameter`&mdash;Gets an optional parameter holding additional information associated with the operation.
 
 ## BeginEdit and CommitEdit Commands Example
 
-Here is an example how the RadDataGrid Editing Commands work.
+Here is an example how the DataGrid `Editing` commands work.
 
-First, create the needed business objects, for example type Data with the following properties:
+First, create the needed business objects, for example type `Data` with the following properties:
 
 <snippet id='datagrid-commands-editing-businessobject'/>
 ```C#
@@ -35,7 +35,7 @@ public class Data
 }
 ```
 
-Then create a ViewModel with a collection of Data objects:
+Then, create a `ViewModel` with a collection of Data objects:
 
 <snippet id='datagrid-commands-editing-viewmodel'/>
 ```C#
@@ -56,14 +56,13 @@ public class ViewModel
 }
 ```
 
-Set the ViewModel class as BindingContext of the page:
+Set the `ViewModel` class as `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new ViewModel();
 ```
 
-Then handle the BeginEdit action as a Command. First, create a class that inherits from the `DataGridCommand` and set its Id property accordingly.
-You would also need to override CanExecute and Execute methods as demonstrated in the example below:
+Then, handle the `BeginEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
 <snippet id='datagrid-commands-editing-beginedit'/>
 ```C#
@@ -84,8 +83,7 @@ public class BeginEditCommand : DataGridCommand
 }
 ```
 
-Then handle the CommitEdit action as a Command. First, create a class that inherits from the `DataGridCommand` and set its Id property accordingly.
-You would also need to override CanExecute and Execute methods as demonstrated in the example below:
+Then, handle the `CommitEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
 <snippet id='datagrid-commands-editing-commitedit'/>
 ```C#
@@ -106,7 +104,7 @@ public class CommitEditCommand : DataGridCommand
 }
 ```
 
-Then add this Commands to the Commands collection of the RadDataGrid instance:
+Then, add this `Command` to the `Commands` collection of the `RadDataGrid` instance:
 
 <snippet id='datagrid-commands-editing-binding'/>
 ```C#
@@ -114,7 +112,7 @@ dataGrid.Commands.Add(new BeginEditCommand());
 dataGrid.Commands.Add(new CommitEditCommand());
 ```
 
-Define the RadDataGrid in XAML:
+Define the DataGrid in XAML:
 
 <snippet id='datagrid-commands-editing'/>
 ```XAML
