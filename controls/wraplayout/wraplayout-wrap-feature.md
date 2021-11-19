@@ -1,20 +1,20 @@
 ---
-title: Wrap functionality
-page_title: .NET MAUI WrapLayout Documentation | Wrap functionality
+title: Wrap Functionality
+page_title: .NET MAUI WrapLayout Documentation | Wrap Functionality
 description: Check our &quot;Key Features&quot; documentation article for Telerik WrapLayout for .NET MAUI control.
 position: 2
 slug: wraplayout-wrap-feature
 ---
 
-# Wrap functionality
+# Wrap Functionality
 
-RadWrapLayout is a layout container that lets you position items in rows or columns, based on the `Orientation` property. When the space is filled, the container automatically wraps items onto a new row or column.
+The WrapLayout is a layout container that lets you position items in rows or columns based on the `Orientation` property. When the space is filled, the container automatically wraps items onto a new row or column.
 
-## Wrap Orientation
+## Orientation
 
-WrapLayout exposes `Orientation` property which specifies whether the child items will be wrapped in rows - Horizontal orientation or in columns - Vertical orientation. By default WrapLayout wraps items horizontally.
+The WrapLayout exposes the `Orientation` property, which specifies whether the child items will be wrapped in rows (horizontal orientation) or in columns (vertical orientation). By default, the WrapLayout wraps its items horizontally.
 
-Check a quick example below with both "Horizontal" and "Vertical" Orientation:
+The following example demonstrates how to set both the `"Horizontal"` and `"Vertical"` orientation:
 
 ```XAML
 <VerticalStackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,5">
@@ -58,21 +58,21 @@ Check a quick example below with both "Horizontal" and "Vertical" Orientation:
 </VerticalStackLayout>
 ```
 
-where *telerik* is defined like this:
+In the example, `telerik` is defined like this:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-Check the result on different platforms below:
+The following image shows the end result on different platforms:
 
 ![WrapLayout Orientation](images/wraplayout_orientation.png)
 
 ## Item Size
 
-WrapLayout exposes `ItemWidth` and `ItemHeight` properties which define the layout area for each child element. By default the available size for the items is not restricted.
+The WrapLayout exposes the `ItemWidth` and `ItemHeight` properties, which define the layout area for each child element. By default, the available size for the items is not restricted.
 
-Here is a quick sample of RadWrapLayout with specified item size:
+Here is a quick sample of a WrapLayout with a specified item size:
 
 ```XAML
 <telerik:RadWrapLayout x:Name="wrapLayout" ItemHeight="50" ItemWidth="150" Margin="0,20,0,0">
@@ -82,15 +82,15 @@ Here is a quick sample of RadWrapLayout with specified item size:
 </telerik:RadWrapLayout>
 ```
 
-And the result is:
+The following image shows the end result.
 
 ![RadWrapLayout ItemSize](images/wraplayout_itemsize.png)
 
-## Configure last child element position
+## Positioning the Last Child Element
 
-RadWrapLayout exposes `StretchLastChild` property which gives you the option to control the position and layout of the last child item from the layout items collection. If set to *True* the last element will stretch along the remaining space from the last row or column depending on the layout orientation.
+The WrapLayout exposes the `StretchLastChild` property, which enables you to control the position and layout of the last child item from the layout items collection. If set to `True`, the last element will stretch along the remaining space from the last row or column depending on the layout orientation.
 
-Check the example below how `StretchLastChild` would work when set to both values:
+The following example shows how `StretchLastChild` will work when set to both values:
 
 <snippet id='wraplayout-position-lastelement'/>
 ```XAML
@@ -109,10 +109,10 @@ Check the example below how `StretchLastChild` would work when set to both value
 </StackLayout>
 ```
 
-And here is how it looks:
+The following image shows the end result.
 
 ![RadWrapLayout Positioning](images/wraplayout_positionlast.png)
 
 ## See Also
 
-- [Getting Started]({% slug wraplayout-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI WrapLayout]({% slug wraplayout-getting-started%})

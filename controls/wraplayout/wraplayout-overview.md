@@ -1,23 +1,25 @@
 ---
 title: Overview
 page_title: .NET MAUI WrapLayout Documentation | RadWrapLayout Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik WrapLayout for .NET MAUI control.
+description: "Try now the Telerik WrapLayout for .NET MAUI providing a mechanism for arranging child elements in rows or columns depending on their orientation and wrapping them on new rows and columns when the available space is filled."
 position: 0
 slug: wraplayout-overview
 ---
 
-# Overview #
+# Overview
 
-**Telerik RadWrapLayout for .NET MAUI** is a layout that provides a mechanism for child elements to be arranged in rows or columns depending on orientation property until space is filled and then wraps them on а new row or column.
+**Telerik UI for .NET MAUI WrapLayout** provides a mechanism for arranging child elements in rows or columns depending on the `Orientation` property. When the available space is filled, the control wraps these elements on а new row or column.
 
 ![WrapLayout Overview](images/wraplayout_overview.png)
 
-## Key features
+## Key Features
 
-* **Wrap Orientation**: Through the `Orientation` property you can control whether the child items will be wrapped in rows - Horizontal orientation or in columns - Vertical orientation. Go to [Wrap Orientation]({%slug wraplayout-wrap-feature%}) topic for more details.
-* **Items Size**: WrapLayout exposes `ItemWidth` and `ItemHeight` properties which lets you specify the size of the child elements. For more information on this check [Item Size]({%slug wraplayout-wrap-feature%}##item-size) topic.
-* **Last Child Item Stretch**: You can easily control the last child element position through WrapLayout `StretchLastChild` property. If set to *True* the last element will stretch along the available space from the last row or column depending on the layout orientation. Go to [Configure last child element position]({%slug wraplayout-wrap-feature%}#configure-last-child-element-position) for more information regarding this.
+* [Wrap orientation]({% slug wraplayout-wrap-feature %})&mdash;Through the `Orientation` property you can control whether the child items of the WrapLayout will be wrapped in rows (horizontal orientation) or in columns (vertical orientation).
+
+* [Items size]({% slug wraplayout-wrap-feature%}##item-size)&mdash;The WrapLayout exposes the `ItemWidth` and `ItemHeight` properties, which let you specify the size of the child elements.
+
+* [Last child item stretch]({% slug wraplayout-wrap-feature%}#configure-last-child-element-position)&mdash;You can easily control the last child element position through the `StretchLastChild` property of the WrapLayout. If set to `True`, the last element will stretch along the available space from the last row or column depending on the layout orientation.
 
 ## See Also
 
-- [Getting Started]({% slug wraplayout-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI WrapLayout]({% slug wraplayout-getting-started %})
