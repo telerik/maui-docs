@@ -8,22 +8,24 @@ slug: timespanpicker-templates
 
 # Templates
 
-If the default templates of the control do not suit your needs, you can easily define custom ones. The available templates for customizing are:
+If the default templates of the control do not suit your needs, you can easily define custom ones.
 
-* `PlaceholderTemplate`(*ControlTemplate*): Defines the template visualized for the placeholder.  
-* `DisplayTemplate`(*ControlTemplate*): Defines the template visualized when the picked date/time is displayed.
-* `HeaderTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) header.
-* `FooterTemplate`(*ControlTemplate*): Defines what will be displayed inside the dialog(popup) footer.
+The available templates for customizing are:
+
+* `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
+* `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when the picked date/time is displayed.
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
+* `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) footer.
 
 ## PlaceholderTemplate
 
 ```XAML
 <ControlTemplate x:Key="placeholderTemplate">
-    <Button Text="Pick a time interval" 
-            FontAttributes="Bold" 
+    <Button Text="Pick a time interval"
+            FontAttributes="Bold"
             TextColor="White"
-            BackgroundColor="#70B8FF" 
-            HeightRequest="50" 
+            BackgroundColor="#70B8FF"
+            HeightRequest="50"
             Command="{TemplateBinding ToggleCommand}" />
 </ControlTemplate>
 ```
@@ -32,8 +34,8 @@ If the default templates of the control do not suit your needs, you can easily d
 
 ```XAML
  <ControlTemplate x:Key="displayTemplate">
-    <Button Text="{TemplateBinding DisplayString}" 
-            TextColor="White" 
+    <Button Text="{TemplateBinding DisplayString}"
+            TextColor="White"
             BackgroundColor="#70B8FF"
             HeightRequest="50"
             Command="{TemplateBinding ToggleCommand}" />
@@ -44,7 +46,7 @@ If the default templates of the control do not suit your needs, you can easily d
 
 ```XAML
  <ControlTemplate x:Key="headerTemplate">
-    <Label Text="Select Duration" 
+    <Label Text="Select Duration"
            TextColor="White"
            VerticalTextAlignment="Center"
            HorizontalTextAlignment="Center"

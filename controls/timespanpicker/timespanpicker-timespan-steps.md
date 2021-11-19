@@ -8,27 +8,31 @@ slug: timespanpicker-timespan-steps
 
 # Incremental Time Steps
 
-By defaul the TimeSpanPicker increments each part of its time values by one step. You can change the default setup using the following properties:
+By default, the TimeSpanPicker increments each part of its time values by one step.
 
-* `DayStep`(*int*): Controls the incremental step of the day value. Default value is 1.
-* `HourStep`(*int*): Controls the incremental step of the hour value. Default value is 1.
-* `MinuteStep`(*int*): Controls the incremental step of the minute value. Default value is 1. 
-* `SecondStep`(*int*): Controls the incremental step of the second value. Default value is 1.
+You can change the default setup using the following properties:
 
-### Example 
+* `DayStep`(`int`)&mdash;Controls the incremental step of the day value. The default value is `1`.
+* `HourStep`(`int`)&mdash;Controls the incremental step of the hour value. The default value is `1`.
+* `MinuteStep`(`int`)&mdash;Controls the incremental step of the minute value. The default value is `1`.
+* `SecondStep`(`int`)&mdash;Controls the incremental step of the second value. The default value is `1`.
 
-```XAML
+**Example for Setting Time Steps**
+
+1. Define the TimeSpanPicker.
+
+ ```XAML
 <telerikInput:RadTimeSpanPicker DayStep="2"
-                                HourStep="4" 
-                                MinuteStep="10" 
+                                HourStep="4"
+                                MinuteStep="10"
                                 SecondStep="30"/>
-```
+ ```
 
-And the namespace used:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 
