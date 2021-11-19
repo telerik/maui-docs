@@ -14,7 +14,7 @@ slug: numericinput-overview
 
 ## Key Features
 
-* [Minimum and maximum values]({% slug numericinput-configuration%}#input-range %})&mdash;The NumericInput allows you to restrict the input value through setting its `Min` and `Max` properties.
+* [Minimum and maximum values]({% slug numericinput-configuration%}#input-range %})&mdash;The NumericInput allows you to restrict the input value through setting its `Minimum` and `Maximum` properties.
 * [Incremental steps]({%slug numericinput-configuration%}#step-for-increment-and-decrement-value)&mdash;You can define the step that will be applied to the input value upon each decrease or increase action.
 * [Customizable button text]({%slug numericinput-customization%}#numeric-input-buttons-text)&mdash;You can also specify the text of the **Increase** and **Decrease** buttons, so that it’s applicable to your scenario.
 * [Commands]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
