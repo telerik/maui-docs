@@ -8,11 +8,13 @@ slug: datagrid-filtering-overview
 
 # Filtering
 
-The DataGrid provides programmatic approach for filtering its data per concrete criteria.
+The DataGrid provides a programmatic approach for filtering its data per specific criteria.
 
 ## Programmatic Filtering
 
-Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control. The following descriptor types are supported:
+Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+
+The following descriptor types are supported:
 
 * [`TextFilterDescriptor`](#text-filter-descriptor)
 * [`NumericalFilterDescriptor`](#numerical-filter-descriptor)
@@ -21,7 +23,7 @@ Programmatic filtering is achieved by adding different filter descriptors in the
 * [`CompositeFilterDescriptor`](#composite-filter-descriptor)
 * [`DelegateFilterDescriptor`](#delegate-filter-descriptor)
 
-All FilterDescriptors are located in the Telerik.XamarinForms.Common.Data namespace:
+All `FilterDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
 
 ```XAML
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
@@ -29,14 +31,14 @@ xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Tel
 
 ### Text Filter Descriptor
 
-Properties:
+The `TextFilterDescriptor` supports the following properties:
 
-* `PropertyName`: Gets or sets the name of the property that is used to retrieve the value to filter by.
-* `Operator`: Gets or sets the TextOperator value that defines how the Value member is compared with each value from the items source.
-* `Value`: Gets or sets the value used in the comparisons. This is the right operand of the comparison.
-* `IsCaseSensitive`: Gets or sets a value that determines whether the text comparisons will be case-sensitive. Default value is true.
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Operator`&mdash;Gets or sets the `TextOperator` value that defines how the `Value` member is compared with each value from the items source.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `IsCaseSensitive`&mdash;Gets or sets a value that determines whether the text comparisons will be case-sensitive. The default value is `True`.
 
-To use `TextFilterDescriptor` you need to add its instance to the `RadDataGrid.FilterDescriptors` collection and to set its `PropertyName` property to associate it with the property from your custom objects. Then through the `Operator` and `Value` properties you need to set the filter condition and the value to compare. You can also take advantage of the `IsCaseSensitive` property to determine if the text comparisons will be case-sensitive or not.
+To use `TextFilterDescriptor`, you need to add its instance to the `RadDataGrid.FilterDescriptors` collection and to set its `PropertyName` property to associate it with the property from your custom objects. Then, through the `Operator` and `Value` properties, you need to set the filter condition and the value to compare. You can also use the `IsCaseSensitive` property to determine if the text comparisons will be case-sensitive or not.
 
 <snippet id='datagrid-textfilterdescriptor-xaml'/>
 ```XAML
@@ -48,11 +50,13 @@ To use `TextFilterDescriptor` you need to add its instance to the `RadDataGrid.F
 
 ### Numerical Filter Descriptor
 
-Represents a Descriptor which filters by property of numerical data type. It exposes the following properties.
+The `NumericalFilterDescriptor` represents a descriptor which filters by properties of the `numerical` data type.
 
-* `PropertyName`: Gets or sets the name of the property that is used to retrieve the value to filter by.
-* `Value`: Gets or sets the value used in the comparisons. This is the right operand of the comparison.
-* `Operator`: Gets or sets the NumericalOperator value that defines the boolean logc behind the left and right operand comparison.
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
 <snippet id='datagrid-numericalfilterdecsriptor-xaml'/>
 ```XAML
@@ -63,11 +67,13 @@ Represents a Descriptor which filters by property of numerical data type. It exp
 
 ### DateTime Filter Descriptor
 
-The DateTimeFilterDescriptor is a Descriptor which filters by property of System.DateTime data type. It exposes the following properties:
+The `DateTimeFilterDescriptor` is a descriptor which filters by properties of the `System.DateTime` data type.
 
-* `PropertyName`: Gets or sets the name of the property that is used to retrieve the value to filter by.
-* `Value`: Gets or sets the value used in the comparisons. This is the right operand of the comparison.
-* `Operator`: Gets or sets the NumericalOperator value that defines the boolean logic behind the left and right operand comparison.
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
 <snippet id='datagrid-datetimefilterdescriptor-xaml'/>
 ```XAML
@@ -78,10 +84,12 @@ The DateTimeFilterDescriptor is a Descriptor which filters by property of System
 
 ### Boolean Filter Descriptor
 
-The BooleanFilterDescriptor is a Descriptor which filters by property of System.Boolean data type. It exposes the following properties:
+The `BooleanFilterDescriptor` is a descriptor which filters by properties of the `System.Boolean` data type.
 
-* `PropertyName`: Gets or sets the name of the property that is used to retrieve the value to filter by.
-* `Value`: Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 
 <snippet id='datagrid-booleanfilterdescriptor-xaml'/>
 ```XAML
@@ -91,7 +99,7 @@ The BooleanFilterDescriptor is a Descriptor which filters by property of System.
 
 ### Composite Filter Descriptor
 
-The CompositeFilterDescriptor represents a special FilterDescriptorBase that stores an arbitrary number of other Descriptors instances. The logical AND or OR operator is applied upon all composed filters to determine the result of the PassesFilter routine.
+The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that stores an arbitrary number of other descriptors instances. The logical `AND` or `OR` operator is applied upon all composed filters to determine the result of the `PassesFilter` routine.
 
 <snippet id='datagrid-compositefilterdescriptor-xaml'/>
 ```XAML
@@ -109,15 +117,13 @@ The CompositeFilterDescriptor represents a special FilterDescriptorBase that sto
 
 ### Delegate Filter Descriptor
 
-The DelegateFilterDescriptor exposes the following property:
+The `DelegateFilterDescriptor` exposes the `Filter` property, which gets or sets the `IFilter` implementation used to check whether a data item passes the filter or not.
 
-* `Filter`: Gets or sets the `IFilter` implementation used to check whether a data item passes the filter or not.
+To use a `DelegateFilterDescriptor`, you need to create a class that implements the `IFilter` interface which will return the `Key` by which you want to filter.
 
-To use a `DelegateFilterDescriptor` you need to create a class that implements the `IFilter` interface which will return the `Key` you want to filter by.
+Then, you need to add a `DelegateFilterDescriptor` to the `RadDataGrid.FilterDescriptors` collection and set its `Filter` property.
 
-Then you need to add a DelegateFilterDescriptor to the RadDataGrid.FilterDescriptors collection and set its Filter property.
-
-The `CustomFilter` implementation:
+The following example demonstrates the `CustomFilter` implementation:
 
 <snippet id='datagrid-delegatefilterdescriptor-csharp'/>
 ```C#
@@ -137,7 +143,7 @@ class CustomFilter : IFilter
 }
 ```
 
-Adding the `DelegateFilterDescriptor` to the `RadDataGrid`:
+Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
 <snippet id='datagrid-delegatefilterdescriptor-added'/>
 ```C#
