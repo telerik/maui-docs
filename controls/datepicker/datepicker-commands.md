@@ -58,7 +58,7 @@ You can apply the `Accept` and `Cancel` commands can by using the `SelectorSetti
 </StackLayout>
 ```
 
-The following example demonstrates how to set the `ViewModel`.
+Set the `ViewModel`.
 
 ```C#
 public class ViewModel
