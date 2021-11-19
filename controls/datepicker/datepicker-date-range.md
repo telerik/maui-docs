@@ -1,21 +1,22 @@
 ---
-title: Date Range
-page_title: .NET MAUI Date Picker Documentation | Date Range
-description: Check our &quot;Date Range&quot; documentation article for Telerik DatePicker for .NET MAUI.
+title: Date Ranges
+page_title: .NET MAUI Date Picker Documentation | Date Ranges
+description: "Set and control date ranges in the Telerik DatePicker for .NET MAUI."
 position: 3
 slug: datepicker-date-range
 ---
 
-# Date Range
+# Date Ranges
 
+The DatePicker allows you to define a date range and choose a date within that range.
 
-DatePicker allows you to define a date range and choose a date in between through the following properties:
+To implement date ranges, use the following DatePicker properties:
 
-* `MinimumDate`(*DateTime*): Defines a date which marks the beginning of the range of the available dates. The default value is *DateTime(2000,1,1)*.
+* `MinimumDate`(`DateTime`)&mdash;Defines a date, which marks the beginning of the range of the available dates. The default value is `DateTime(2000,1,1)`.
 
-* `MaximumDate` (*DateTime*): Defines a date which marks the end of the range of the available dates to choose from. The default value is *DateTime(2099, 12, 31, 23, 59, 59)*.
+* `MaximumDate`(`DateTime`)&mdash;Defines a date, which marks the end of the range of the available dates to choose from. The default value is `DateTime(2099, 12, 31, 23, 59, 59)`.
 
-### Example
+The following example demonstrates how to set date ranges in the DatePicker.
 
 <snippet id='datepicker-keyfeatures-minmaxdate' />
 ```XAML
@@ -24,7 +25,7 @@ DatePicker allows you to define a date range and choose a date in between throug
                             DisplayStringFormat="yyy-ddd-MMM"/>
 ```
 
-Use the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"

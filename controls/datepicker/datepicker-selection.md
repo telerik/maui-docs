@@ -8,13 +8,13 @@ slug: datepicker-selection
 
 # Selection
 
-RadDatePicker control enables the app users to quickly and easily select a date value. This topic will go through the provided by the DatePicker API related to date selection.
+The DatePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
 
 ## Important Properties
 
-* `Date`(*DateTime?*): Defines the current date selection. The default value is null.
+The `Date`(`DateTime?`) proprty defines the current date selection. Its default value is `null`.
 
-Check below a quick example of Time property usage:
+The following example demonstrates how to set the `Date` property.
 
 <snippet id='datepicker-keyfeatures-date-spinnerformat' />
 ```XAML
@@ -30,7 +30,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Methods
 
-DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method:
+The DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method:
 
 ```XAML
 <StackLayout>
@@ -45,7 +45,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-Call `ClearSelection` inside the button click event - as a result Date property will be updated to null.
+Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
 
 ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
@@ -56,9 +56,9 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 
 ## Events
 
-RadDatePicker exposes a `SelectionChanged` event which is raised when the user picks a date value.
+The DatePicker exposes a `SelectionChanged` event, which is raised when the user picks a date value.
 
-### Example
+The following example demonstrates how to use `SelectionChanged`.
 
 ```XAML
 <telerikInput:RadDatePicker SelectionChanged="RadDatePicker_SelectionChanged"/>
@@ -70,7 +70,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-and the `SelectionChanged` event, where the *sender* is the RadDatePicker instance:
+Add the `SelectionChanged` event, where the `sender` is the `RadDatePicker` instance.
 
 ```C#
 private void RadDatePicker_SelectionChanged(object sender, EventArgs e)
