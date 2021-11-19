@@ -10,7 +10,7 @@ slug: datepicker-commands
 
 Telerik UI for .NET MAUI DatePicker exposes a number of commands for programmatic manipulation of its popup rendering.  
 
-## Clearing Selected Dates
+## DatePicker Commands
 
 The DatePicker supports the following commands, which enable you to control the display of its popup and clear the selected date:
 
@@ -33,7 +33,7 @@ Add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Accepting and Canceling Date Selection
+## PopupSelector Commands
 
 Through the popup users can pick a date. The date value has to be confirmed or rejected with the **OK** or **Cancel** buttons that are located on the popup.
 
