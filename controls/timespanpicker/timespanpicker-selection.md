@@ -8,76 +8,82 @@ slug: timespanpicker-selection
 
 # Selection
 
-**RadTimeSpanPicker** control enables the app users to quickly and easily select a time interval. This topic explaines the TimeSpanPicker API related to time interval selection.
+The TimeSpanPicker control enables users to quickly and easily select a time interval. This topic explains the TimeSpanPicker API related to the time-interval selection.
 
 ## Time Property
 
-* `Time`(*TimeSpan?*): Defines the current selection of time interval. The default value is null.
+To define the current time-interval selection, use the `Time`(`TimeSpan?`) property. The default value is `null`.
 
-### Example 
+**Example for Setting the Time Property**
 
-```XAML
+1. Define the TimeSpanPicker.
+
+ ```XAML
 <telerikInput:RadTimeSpanPicker Time="5:10:30:00"/>
-```
+ ```
 
-And the namespace used:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## Methods
 
-Cancel the selected time using the `ClearSelection` method.
+To cancel the selected time, use the `ClearSelection` method.
 
-### Example
+**Example for Setting the ClearSelection Method**
 
-```XAML
+1. Define the TimeSpanPicker.
+
+ ```XAML
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerikInput:RadTimeSpanPicker x:Name="timeSpanPicker"/>
 </StackLayout>
-```
+ ```
 
-And the namespace used:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Call ClearSelection inside the button click event - as a result Time property will be updated to null.
+1. Call `ClearSelection` inside the button `click` event. As a result, the `Time` property will be updated to `null`.
 
-```C#
+ ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.timeSpanPicker.ClearSelection();
 }
-```
+ ```
 
 ## Events
 
-* `SelectionChanged` event which is raised when the user picks a time value.
+The TimeSpanPicker exposes the `SelectionChanged` event, which is raised when the user picks a time value.
 
-### Example
+**Example for Setting the SelectionChanged Event**
 
-```XAML
+1. Define the TimeSpanPicker.
+
+ ```XAML
 <telerikInput:RadTimeSpanPicker SelectionChanged="RadTimeSpanPicker_SelectionChanged"/>
-```
+ ```
 
-And the namespace used:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-and the `SelectionChanged` event, where the `sender` is the `RadTimeSpanPicker` control
+1. Define the `SelectionChanged` event where the `sender` is the `RadTimeSpanPicker` control.
 
-```C#
+ ```C#
 private void RadTimeSpanPicker_SelectionChanged(object sender, EventArgs e)
 {
 	// implement your logic here
 }
-```
+ ```
 
 ## See Also
 

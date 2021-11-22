@@ -1,33 +1,35 @@
 ---
-title: TimeSpan Range
-page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Range
+title: TimeSpan Ranges
+page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Ranges
 description: Check our &quot;TimeSpan Range&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 3
 slug: timespanpicker-timespan-range
 ---
 
-## TimeSpan Range 
+# TimeSpan Ranges
 
-TimeSpanPicker allows you to define a timespan range and choose a time interval in between through the following properties:
+The TimeSpanPicker allows you to define a time-span range and choose a time interval within that range through the following properties:
 
-* `MinimumTime`(*TimeSpan*): Defines the lowest limit of the available selection range. The default value is `TimeSpan(0, 0, 0, 0, 0)`.
+* `MinimumTime`(`TimeSpan`)&mdash;Defines the lowest limit of the available selection range. The default value is `TimeSpan(0, 0, 0, 0, 0)`.
 
-* `MaximumTime`(*TimeSpan*): Defines the upper limit of the available selection range. The default value is `TimeSpan(30, 23, 59, 59)`.
+* `MaximumTime`(`TimeSpan`)&mdash;Defines the uppermost limit of the available selection range. The default value is `TimeSpan(30, 23, 59, 59)`.
 
->important If negaive value is set for MinimumTime, the TimeSpan Picker will coerce this value to minimum value - `TimeSpan(0, 0, 0, 0, 0)`.
+>important If you set a negative value for `MinimumTime`, the TimeSpanPicker will consider this value to be the minimum `TimeSpan(0, 0, 0, 0, 0)` value.
 
-### Example
+**Example for Setting Time Ranges**
 
-```XAML
+1. Define the TimeSpanPicker.
+
+ ```XAML
 <telerikInput:RadTimeSpanPicker MinimumTime="0:0:00:00"
                                 MaximumTime="8:00:00:0"/>
-```
+ ```
 
-And the namespace:
+1. Add the namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

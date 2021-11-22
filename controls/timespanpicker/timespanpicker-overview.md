@@ -1,36 +1,36 @@
 ---
 title: Overview
 page_title: .NET MAUI TimeSpanPicker Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: "Try now the Telerik TimeSpanPicker for .NET MAUI representing a time interval and allowing you to set a time range between two time intervals."
 position: 0
 slug: timespanpicker-overview
 ---
 
 # Overview
 
-**Telerik TimeSpanPicker for .NET MAUI** provides an easy way to select a time duration. TimeSpan control represents a time interval and allows you to set a time range between two times measured in numbers of days, hours, minutes and seconds. The Flexible Styling API gives you the opportunity to fully customize the dialog appearance such as its header and footer.
+**Telerik UI for .NET MAUI TimeSpanPicker** provides an easy way to select a time duration. The control represents a time interval and allows you to set a time range between two time intervals, which can be measured in days, hours, minutes, and seconds. The flexible styling API gives you the opportunity to fully customize the dialog appearance, for example, its header and footer.
 
->important Telerik UI for .NET MAUI TimeSpanPicker is currenly available for Android and iOS.
+Currently, the Telerik UI for .NET MAUI TimeSpanPicker is available for Android and iOS.
 
 ![TimeSpan Picker Overview](images/timespan_picker_overview.png)
 
-## Key features
+## Key Features
 
-* [Spinner Format]({%slug timespanpicker-formatting%}): TimeSpanPicker for .NET MAUI allows you to use standard or custom timespan format string through the TimeSpanPicker.SpinnerFormat property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+* [Spinner Format]({%slug timespanpicker-formatting%})&mdash;The TimeSpanPicker for .NET MAUI allows you to use standard or custom timespan format string through its `TimeSpanPicker.SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 
-* [DisplayString Format]({%slug timespanpicker-formatting%}): You can choose what text to be displayed when a time interval is selected using the TimeSpanPicker DisplayStringFormat property.
+* [DisplayString format]({%slug timespanpicker-formatting%})&mdash;You can choose what text to be displayed when a time interval is selected using the TimeSpanPicker `DisplayStringFormat` property.
 
-* [Templates]({%slug timespanpicker-templates%}): TimeSpanPicker provides templates for its header and footer. Also we have exposed templates for the picker placeholder and display text.
+* [Templates]({%slug timespanpicker-templates%})&mdash;The TimeSpanPicker provides templates for its header and footer. Also, the control exposes templates for its placeholder and display text.
 
-* [Time Range]({%slug timespanpicker-timespan-range%}): RadTimeSpanPicker allows you to define a time range when setting minimum and maximum time values and choose a time in between.
+* [Time range]({%slug timespanpicker-timespan-range%})&mdash;The TimeSpanPicker allows you to define a time range by setting minimum and maximum time values and enables users to choose a time within that range.
 
-* [Time Interval Selection]({%slug timespanpicker-selection%}):  You can set a current selected time interval to the TimeSpanPicker or set a default highlighted time interval.
+* [Time interval selection]({%slug timespanpicker-selection%})&mdash;You can set a currently selected time interval to the TimeSpanPicker or define a default highlighted time interval.
 
-* [Incremental Time Steps]({%slug timespanpicker-timespan-steps%}) - Change the default time interval values steps for day, hour, minute and second.
+* [Incremental time steps]({%slug timespanpicker-timespan-steps%})&mdash;You can also change the default time interval steps to days, hours, minutes, or seconds.
 
-* [Flexible Styling API]({%slug timespanpicker-styling%}): Take advantage of the styling capabilities of the RadTimeSpanPicker control. You can easily style its Spinners, the Popup and its header and footer, the text displayed after time is selected and many more.
+* [Flexible styling API]({%slug timespanpicker-styling%})&mdash;Take advantage of the styling capabilities of the TimeSpanPicker control. You can easily style its spinners, the popup and its header and footer, the text displayed after a time interval is selected, and many more.
 
-* [Commands Support]({%slug timespanpicker-commands%}) TimeSpanPicker exposes command that allows you to clear the selected time interval - **Clear Command** and **Toggle Command** that allows you to open and close the dialog.
+* [Commands support]({%slug timespanpicker-commands%})&mdash;The TimeSpanPicker exposes the `ClearCommand` that allows you to clear the selected time interval and the `ToggleCommand` that allows you to open and close the dialog.
 
 ## Next Steps
 

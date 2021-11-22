@@ -9,64 +9,67 @@ slug: timespanpicker-formatting
 
 # TimeSpan Formatting
 
-TimeSpanPicker for .NET MAUI allows you to use standard or custom time format strings. Set formatting to the spinners that are displayed when the picker is opened - through the `SpinnerFormat` property and when time is selected through the `DisplayStringFormat` property. 
+The TimeSpanPicker for .NET MAUI allows you to use standard or custom time format strings.
+
+To set formatting to the spinners that are displayed when the picker is opened, use the `SpinnerFormat` property. To set formatting to the spinners that are displayed when time is selected, use the `DisplayStringFormat` property.
 
 ## DisplayString Format
 
-* `DisplayStringFormat`(*string*): Defines the format of the string that will be visualized when the picker dialog is closed. 
+To define the format of the string that will be visualized when the picker dialog is closed, use the `DisplayStringFormat`(`string`) property.
 
->note The format set for **DisplayStringFormat** should be a valid time span format - [Standard Time Formst Strings]({%slug timespanpicker-formatting%}#standard-timespan-format-strings) and [Custom Time format Strings]({%slug timespanpicker-formatting%}#custom-timespan-format-strings). 
+>note The format set for `DisplayStringFormat` has to be a valid time span format. For more information, refer to the [Standard Time Format Strings]({%slug timepicker-formatting%}#standard-time-format-strings) and [Custom Time Format Strings]({%slug timepicker-formatting%}#custom-time-format-strings) articles.
 
 ## Spinner Format
 
-TimeSpan Picker for Xamarin allows you to use standard or custom timespan format strings through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with prepopulated values to be picked.
+The TimeSpanPicker allows you to use standard or custom timespan format strings through the `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with -prepopulated values that can be picked.
 
-* `SpinnerFormat`(*string*): Defines the string format for the spinners. The default format is **"g"**.
+To define the string format for the spinners, use the `SpinnerFormat`(`string`) property. The default format is `"g"`.
 
 ## Standard TimeSpan Format Strings
 
-The available Standard TimeSpan Format Strings which can be set to the SpinnerFormat property are described in the table below:
+The available standard time-span format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properies are described in the table below:
 
 | Supported Standard TimeSpan Format String | Description |
 | -------- | -------- |
-| "G" | General Long "G" format specifier |
-| "g" | General Short "g" format specifier |
-| "c" | Constant "c" format specifier |
+| `"G"` | General Long "G" format specifier |
+| `"g"` | General Short "g" format specifier |
+| `"c"` | Constant "c" format specifier |
 
->important You can set only short [Standard TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings) to the TimeSpan Picker control.
+>important You can set only short [Standard TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings) to the TimeSpanPicker control.
 
 ## Custom TimeSpan Format Strings
 
-The available Custom TimeSpan Format Strings which can be set to the SpiinerFormat property are described in the table below:
+The available custom time span format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
 | Supported Custom TimeSpan Format Strings|
 | -------- |
-| "d" |
-| "dd" |
-| "ddd" |
-| "dddd" |
-| "h" |
-| "hh" |
-| "m" |
-| "mm" |
-| "s" |
-| "ss" |
+| `"d"` |
+| `"dd"` |
+| `"ddd"` |
+| `"dddd"` |
+| `"h"` |
+| `"hh"` |
+| `"m"` |
+| `"mm"` |
+| `"s"` |
+| `"ss"` |
 
-
->important You can set only short [Custom TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) to the TimeSpan Picker control.
+>important You can set only short [Custom TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) to the TimeSpanPicker control.
 
 ## Supported Separators
 
-When SpinnerFormat is set and device culture is changed, the separators used for the format string won't be changed:
+When the `SpinnerFormat` is set and the device culture is changed, the separators used for the format string won't be updated.
+
+The following table lists the available separators:
 
 | Supported Separator Formats |
 | -------- |
-| "-" |
-| "." |
-| "," |
-| " " |
-| ":" |
-| "/" |
+| `"-"` |
+| `"."` |
+| `","` |
+| `" "` |
+| `":"` |
+| `"/"` |
 
 ## See Also
 
