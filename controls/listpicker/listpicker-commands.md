@@ -12,32 +12,31 @@ slug: listpicker-commands
 
 List Picker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected item:
 
-* `ToggleCommand`(*ICommand*): Allows you to show/hide the popup used for selecting an item from a list of items.
-* `ClearCommand`(*ICommand*): Allows you to clear the displayed item.
+* `ToggleCommand`(`ICommand`)&mdash;Allows you to show/hide the popup used for selecting an item from a list of items.
+* `ClearCommand`(`ICommand`)&mdash;Allows you to clear the displayed item.
 
 ## PopupSelector Commands
 
-Through the popup users can pick an item. The date value should be confirmed or rejected through the OK and Cancel buttons placed on the popup.
+Through the popup users can pick an item. The date value should be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
 
-ListPicker allows you to add a custom logic for the Accept and Cancel commands which are executed when OK and Cancel buttons, respectively, are pressed.
+The ListPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** and **Cancel** buttons, respectively, are pressed.
 
-* `AcceptCommand`(*ICommand*): Defines the command which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(*ICommand*): Defines the command which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
 
-The Accept and Cancel commands can be applied using the `SelectorSettings` property of RadListPicker.
-
+The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` property of ListPicker.
 
 ## Example
 
-Here is the List Picker definition:
+The following example demonstrates how to define the ListPicker.
 
 ```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference listPicker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference listPicker}, Path=ClearCommand}"/>
-    <telerikInput:RadListPicker Placeholder="Pick a name!" 
+    <telerikInput:RadListPicker Placeholder="Pick a name!"
                                 x:Name="listPicker"
-                                ItemsSource="{Binding Items}" 
+                                ItemsSource="{Binding Items}"
                                 DisplayMemberPath="FullName">
         <telerikInput:RadListPicker.SelectorSettings>
             <telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
@@ -50,7 +49,7 @@ Here is the List Picker definition:
 </StackLayout>
 ```
 
-a sample ViewModel:
+Set the sample `ViewModel`:
 
 ```C#
 public class ViewModel
@@ -89,7 +88,7 @@ public class ViewModel
 }
 ```
 
-and the Business model:
+Add the Business model:
 
 <snippet id='listpicker-getting-started-business-model' />
 ```C#
@@ -115,7 +114,7 @@ public class Person
 }
 ```
 
-also you will need to add the following namespace:
+Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"

@@ -1,35 +1,31 @@
 ---
 title: Overview
 page_title: .NET MAUI ListPicker Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik ListPicker for .NET MAUI.
+description: "Try now the Telerik ListPicker for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 slug: listpicker-overview
 ---
 
 # Overview
 
-**Telerik ListPicker for .NET MAUI** allows you to select an item from a list of items. This list is visualized inside a popup. ListPicker provides the ability to loop its items infinitely while scrolling. Also you can fully customize the dialog appearance, style the list items and define templates for the items and for the selected one.  
+**Telerik ListPicker for .NET MAUI** allows the user to select an item from a list of items and visualizes that items list inside a popup. The ListPicker control has a number of features which enable you to loop through its items infinitely while scrolling, to fully customize the dialog appearance and style the items, to define templates for the items, and more.
 
 >important Telerik UI for .NET MAUI ListPicker is available for Android and iOS.
 
 ![ListPicker Overview](images/list_picker_overview.png)
 
-## Key features
+## Key Features
 
-* [Looping]({%slug listpicker-looping%}): ListPicker for .NET MAUI provides the ability to loop its items infinitely while scrolling.
+* [Looping]({%slug listpicker-looping%})&mdash;The ListPicker enables you to loop through its items infinitely while scrolling.
 
-* [Templates]({%slug listpicker-templates%}): ListPicker allows you to define a template for the list items and the selected one through the `ItemTemplate` and `SelectedItemTemplate` properties. 
+* [Templates]({%slug listpicker-templates%})&mdash;The ListPicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
 
-* [DisplayString Format]({%slug listpicker-visual-structure%}): You can choose what text to display when an item from the list was picked through the ListPicker `DisplayStringFormat` property. 
+* [DisplayString format]({%slug listpicker-visual-structure%})&mdash;You can choose what text that will be displayed when an item is selected by using the `DisplayStringFormat` property of the ListPicker.
 
-* [Flexible Styling API]({%slug listpicker-styling%}):  Take advantage of the styling capabilities of ListPicker by using its Style properties such as `ItemStyle`, `SelectedItemStyle`, etc. 
+* [Flexible styling API]({%slug listpicker-styling%})&mdash;The ListPicker provides a number of styling capabilities, which enable you to easily style its spinners, the popup and popup header and footer, the displayed text after an item is selected, and more.
 
-* [Commands Support]({%slug listpicker-commands%}): RadListPicker class exposes commands that allow you to clear the selected item - `Clear Command` and `Toggle Command` which allows you to open and close the dialog.
+* [Commands support]({%slug listpicker-commands%})&mdash;The ListPicker exposes commands that allow you to clear the selected item and to open and close the popup.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI ListPicker]({%slug listpicker-getting-started%})
-- [Visual Structure]({%slug listpicker-visual-structure%})
-- [Looping]({%slug listpicker-looping%})
-- [Templates]({%slug listpicker-templates%})
-- [Styling]({%slug listpicker-styling%})
