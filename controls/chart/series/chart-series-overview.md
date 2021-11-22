@@ -1,12 +1,12 @@
 ---
-title: Overview
-page_title: .NET MAUI Chart Documentation | RadChart Series Overview
+title: Series Overview
+page_title: .NET MAUI Chart Documentation | Series Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-overview
 position: 0
 ---
 
-# Overview #
+# Series Overview
 
 The data visualization in RadChart is done by a hierarchy of classes that inherit from the ChartSeries class. Each series has a collection of data points, that is the view model of the data. A series may have its data populated by data-binding to an arbitrary IEnumerable instance through the ItemsSource property.
 
@@ -27,7 +27,7 @@ Here are listed all supported series grouped by the chart types that can use the
     - [Spline Series]({%slug chart-series-spline-series %})
     - [Area Series]({%slug chart-series-area-series %})
     - [SplineArea Series]({%slug chart-series-spline-area-series %})
-	
+
 - **ScatterSeries**
 
     - [ScatterPoint Series]({% slug chart-series-scatter-point-series%})
@@ -38,14 +38,14 @@ Here are listed all supported series grouped by the chart types that can use the
 
 ### PieChart
 
-- [Pie Series]({%slug chart-series-pie-series%}) 
+- [Pie Series]({%slug chart-series-pie-series%})
 - [Donut Series]({%slug chart-series-donut-series%})
 
 ### Financial Chart
 
-- [Ohlc Series]({%slug chart-series-ohlc-series%}) 
+- [Ohlc Series]({%slug chart-series-ohlc-series%})
 - [Candlestick Series]({%slug chart-series-candlestick-series%})
-- [Financial Series]({%slug chart-series-financial-indicators%}) 
+- [Financial Series]({%slug chart-series-financial-indicators%})
 
 ## See Also
 

@@ -1,14 +1,14 @@
 ---
-title: Series Features
-page_title: .NET MAUI Chart Documentation | Series Features
+title: Common Features
+page_title: .NET MAUI Chart Documentation | Common Series Features
 description: Check our &quot;Series Features&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-features
 position: 1
 ---
 
-# Common Features
+# Common Series Features
 
-* **ItemsSource**(IList): Defines the data set that will fill the series data points. 
+* **ItemsSource**(IList): Defines the data set that will fill the series data points.
 * **DisplayName**(string): The display name of the series.
 
 ## Selection
@@ -25,9 +25,9 @@ You could customize the series labels text using the properties below:
 * **ShowLabels**(bool): Defines whether the series will display labels for each plotted data point.
 * **LabelBinding**(PropertyNameDataPointBinding): Allows the user to bind the series labels to a property of the data point item.
 * **LabelFormat**(string): Sets label format string such as `"N"`, `"P2"`.
-* **LabelFormatter**(ILabelFormatter): Allows custom series label formatting. 
+* **LabelFormatter**(ILabelFormatter): Allows custom series label formatting.
 
-### Example 
+### Example
 
 Here is a quick example how you could apply **LabelFormat** to a LineSeries:
 

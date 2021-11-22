@@ -1,40 +1,39 @@
 ---
-title: ScatterSpline Series
-page_title: .NET MAUI Chart Documentation | ScatterSpline Series
+title: Scatter Spline
+page_title: .NET MAUI Chart Documentation | Scatter Spline Series
 description: Check our &quot;ScatterSpline Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-spline-series
 position: 0
 ---
 
-# ScatterSplineSeries #
+# Scatter Spline Series
 
-## Overview ##
+The Scatter Spline Series are represented on the chart as data points connected with curved line segments. The Scatter Spline Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 
-The **ScatterSplineSeries** are represented on the chart as data points connected with curved line segments. The **ScatterSplineSeries** inherit from the[**ScatterPointSeries**]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be of type **NumericalAxis**.
+## Features
 
-## Features ##
+The Scatter Spline Series provides the following properties:
 
-- **Stroke** (Color): changes the color used to draw lines.
-- **StrokeThickness** (double): changes the width of the lines.
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
 
+## Scatter Spline Series Example
 
-## Example ##
+The following example shows how to create a `RadCartesianChart` with a Scatter Spline Series:
 
-Here is an example how to create RadCartesianChart with ScatterSpline Series:
+1. First, create the needed business objects, for example:
 
-First, create the needed business objects, for example:
-
-```C#
+ ```C#
 public class NumericalData
 {
     public double XData { get; set; }
     public double YData { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesNumericalViewModel
 {
     public ObservableCollection<NumericalData> Data1 { get; set; }
@@ -79,11 +78,11 @@ public class SeriesNumericalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterSpline Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a Scatter Spline Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesNumericalViewModel />
@@ -103,21 +102,24 @@ Finally, use the following snippet to declare a RadCartesianChart with ScatterSp
                                           ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
-	
+The following image shows the end result:
+
 ![Basic ScatterSplineSeries](images/cartesian-scatter-spline-series-basic-example.png)
 
-### Customization Example
+## Customization Example
+
+You can further customize the Scatter Spline Series:
 
 ```C#
-	var series = new ScatterSplineSeries 
-	{ 
-		Stroke = new Color(0.6, 0.6, 0.9), 
-		StrokeThickness = 5 
+	var series = new ScatterSplineSeries
+	{
+		Stroke = new Color(0.6, 0.6, 0.9),
+		StrokeThickness = 5
 	};
 ```
+
 ## See Also
 
 - [Line Series]({%slug chart-series-line-series%})

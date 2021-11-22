@@ -1,39 +1,39 @@
 ---
-title: ScatterPoint Series
-page_title: .NET MAUI Chart Documentation | ScatterPoint Series
+title: Scatter Point
+page_title: .NET MAUI Chart Documentation | Scatter Point Series
 description: Check our &quot;ScatterPoint Series&quot; documentation article for Telerik Chart for .NET MAUI control.
 slug: chart-series-scatter-point-series
 position: 0
 ---
 
-# ScatterPoint Series
+# Scatter Point Series
 
-## Overview
-
-The **ScatterPointSeries** are represented on the chart as not connected data points. Each scatter data point has to provide values for the X and Y coordinate on the **RadCartesianChart**. The **ScatterPointSeries** require both axes of the chart to be of type **NumericalAxis**.
+The Scatter Point Series are represented on the chart as data points that are not connected. Each scatter data point has to provide values for the X and Y coordinates on the `RadCartesianChart`. The Scatter Point Series require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-- **XValueBinding** : Defines the binding that will be used to fill the XValue of ScatterDataPoint members of the DataPoints collection.
-- **YValueBinding** : Defines the binding that will be used to fill the YValue of ScatterDataPoint members of the DataPoints collection.
+The Scatter Point Series provides the following properties:
+
+- `XValueBinding`&mdash;Defines the binding that will be used to fill the `XValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
+- `YValueBinding`&mdash;Defines the binding that will be used to fill the `YValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
 
 ## Example
 
-Here is an example how to create RadCartesianChart with ScatterPoint Series:
+The following example shows how to create a `RadCartesianChart` with a Scatter Point Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class NumericalData
 {
     public double XData { get; set; }
     public double YData { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesNumericalViewModel
 {
     public ObservableCollection<NumericalData> Data1 { get; set; }
@@ -78,11 +78,11 @@ public class SeriesNumericalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterPoint Series in XAML and in C#:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a Scatter Point Series in XAML and in C#:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart PaletteName="LightSelected">
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesNumericalViewModel />
@@ -102,9 +102,9 @@ Finally, use the following snippet to declare a RadCartesianChart with ScatterPo
                                          ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic ScatterPointSeries](images/cartesian-scatter-point-series-basic-example.png)
 

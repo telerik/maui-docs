@@ -1,42 +1,40 @@
 ---
-title: ScatterArea Series
-page_title: .NET MAUI Chart Documentation | ScatterArea Series
+title: Scatter Area
+page_title: .NET MAUI Chart Documentation | Scatter Area Series
 description: Check our &quot;ScatterArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-area-series
 position: 0
 ---
 
-# ScatterAreaSeries
+# Scatter Area Series
 
-## Overview
-
-**RadCartesianChart** visualizes **ScatterAreaSeries** as the area enclosed by the coordinate axes and straight line segments that connect the series data points. The **ScatterAreaSeries** inherit from the **[ScatterPointSeries]()** class and also require both axes of the chart to be of type **NumericalAxis**.
+The Cartesian Chart visualizes the Scatter Area Series as the area enclosed by the coordinate axes and straight line segments that connect the series data points. The Scatter Area Series inherit from the `[ScatterPointSeries]()` class and also require both Chart axes to be Numerical Axes.
 
 ## Features
 
-**ScatterAreaSeries** provides the following properties to change its style:
+The Scatter Area Series provides the following properties to change its style:
 
-- **Stroke** (Color): Changes the color used to draw lines.
-- **StrokeThickness** (double): Changes the width of the lines.
-- **Fill** (Color): Changes the color of the chart area.
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
+- `Fill` (Color)&mdash;Changes the color of the chart area.
 
-## Example
+## Scatter Area Series Example
 
-Here is an example how to create RadCartesianChart with ScatterArea Series:
+The following example shows how to create a `RadCartesianChart` with a Scatter Area Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class NumericalData
 {
     public double XData { get; set; }
     public double YData { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class NumericalViewModel
 {
     public ObservableCollection<NumericalData> Data { get; set; }
@@ -63,11 +61,11 @@ public class NumericalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterArea Series in XAML:
+1. Finally, use the following snippet to declare a Cartesian Chart with a Scatter Area Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:NumericalViewModel />
@@ -84,21 +82,22 @@ Finally, use the following snippet to declare a RadCartesianChart with ScatterAr
                                         ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic ScatterAreaSeries](images/cartesian-scatter-area-series-basic-example.png)
 
-### Customization Example
+## Customization Example
 
-Here we make some customization:
+You can further customize the Scatter Area Series:
+
 ```C#
-	var series = new ScatterAreaSeries 
-	{ 
-		Stroke = new Color(0.6, 0.6, 0.9), 
-		StrokeThickness = 5, 
-		Fill = new Color(0.8, 0.8, 1) 
+	var series = new ScatterAreaSeries
+	{
+		Stroke = new Color(0.6, 0.6, 0.9),
+		StrokeThickness = 5,
+		Fill = new Color(0.8, 0.8, 1)
 	};
 ```
 
