@@ -8,57 +8,57 @@ position: 2
 
 # Financial Indicators
 
-## Overview
+The financial, or also called stock, indicators are mainly used for keeping track of stock prices and patterns of price changes over time. For more information about what indicators are and what their purpose is, refer to the [Short information about financial indicators](https://www.investopedia.com/terms/t/technicalindicator.asp) article.
 
-The financial, or also called stock indicators, are mainly used for keeping track of stock prices and patterns of price changes over time. You can find further information about what indicators are and what they are being used for by following this link: [Short information about financial indicators](https://www.investopedia.com/terms/t/technicalindicator.asp).
+In terms of using the indicators in the `RadCartesianChart`, you need to add them in the same way you add any other Cartesian series. Every indicator has a related formula by which it calculates the expected result. All you need to do is provide the needed data.
 
-In terms of using the indicators in the RadCartesianChart, you will need to add them as you would add any other Cartesian series. Every indicator has a related formula by which it calculates the expected result. All you need to do is provide the needed data.
+In terms of setting their properties and getting them ready for displaying your stock data, the financial indicators are two types:
 
-There are two types of indicators in terms of setting their properties and getting them ready for displaying your stock data:
+* Indicators that have a category and a value binding (usually the **close** one) as well as one or more periods:  
 
-Indicators that have a category and a value(usually the close) bindings as well as one or more periods. Here are the available indicators:
+  * `OscillatorIndicator`
+  * `RateOfChangeIndicator`
+  * `RelativeStrengthIndexIndicator`
+  * `TrixIndicator`
+  * `WeightedMovingAverageIndicator`
+  * `ExponentialMovingAverageIndicator`
+  * `AdaptiveMovingAverageKaufmanIndicator`
+  * `BollingerBandsIndicator`
+  * `RelativeMomentumIndexIndicator`
+  * `MacdIndicator`
 
-* **OscillatorIndicator** 
-* **RateOfChangeIndicator**
-* **RelativeStrengthIndexIndicator**
-* **TrixIndicator**
-* **WeightedMovingAverageIndicator**
-* **ExponentialMovingAverageIndicator** 
-* **AdaptiveMovingAverageKaufmanIndicator**
-* **BollingerBandsIndicator**
-* **RelativeMomentumIndexIndicator**
-* **MacdIndicator**
- 
-Indicators that have a category and high/low/close value bindings as well as none, one, or more periods:
+* Indicators that have a category and **high**, **low**, or **close** value bindings as well as none, one, or more periods:
 
-* **AverageTrueRangeIndicator**
-* **CommodityChannelIndexIndicator**
-* **StochasticFastIndicator**
-* **StochasticSlowIndicator**
-* **TrueRangeIndicator**
-* **UltimateOscillatorIndicator**
+  * `AverageTrueRangeIndicator`
+  * `CommodityChannelIndexIndicator`
+  * `StochasticFastIndicator`
+  * `StochasticSlowIndicator`
+  * `TrueRangeIndicator`
+  * `UltimateOscillatorIndicator`
 
 ## Example
 
-Here is an example of how to create a basic RadCartesianChart with OhlcSeries and a couple of **ExponentialMovingAverageIndicator** instances with different period set:
+The following example shows how to create a basic `RadCartesianChart` with an OHLC Series and how to set a couple of `ExponentialMovingAverageIndicator` instances with different periods.
 
-```XAML
-<telerikChart:RadCartesianChart PaletteName="Light" 
+1. Define the `RadCartesianChart`.
+
+ ```XAML
+<telerikChart:RadCartesianChart PaletteName="Light"
                                 SelectionPaletteName="LightSelected"
                                 BackgroundColor="White" >
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
     </telerikChart:RadCartesianChart.BindingContext>
     <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:DateTimeContinuousAxis LineColor="#A9A9A9" 
+        <telerikChart:DateTimeContinuousAxis LineColor="#A9A9A9"
                                              LabelFitMode="Rotate"
                                              LabelFormat="dd/MM"
-                                             PlotMode="BetweenTicks" 
+                                             PlotMode="BetweenTicks"
                                              MajorStep="2"
                                              MajorStepUnit="Day"/>
     </telerikChart:RadCartesianChart.HorizontalAxis>
     <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis LineColor="#A9A9A9" 
+        <telerikChart:NumericalAxis LineColor="#A9A9A9"
                                     Minimum="320"
                                     Maximum="350"
                                     MajorTickBackgroundColor="#A9A9A9" />
@@ -89,11 +89,11 @@ Here is an example of how to create a basic RadCartesianChart with OhlcSeries an
                                                         ItemsSource="{Binding SeriesData}"/>
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how the business model is defined:
+1. Define the business model:
 
-```C#
+ ```C#
 public class OhlcDataPoint : NotifyPropertyChangedBase
 {
     private DateTime category;
@@ -167,9 +167,9 @@ public class OhlcDataPoint : NotifyPropertyChangedBase
         }
     }
 }
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Financial Indicators](images/indicators_series.png)
 

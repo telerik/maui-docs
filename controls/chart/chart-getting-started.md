@@ -104,10 +104,9 @@ public class ChartViewModel
 
 ## See Also
 
-- [Cartesian Chart Type]({%slug chart-types-cartesian-chart%})
-- [Pie Chart Type]({%slug chart-types-pie-chart%})
-- [Cartesian Grid Chart Type]({% slug cartesian-chart-grid %})
+- [Cartesian Charts]({% slug chart-types-cartesian-chart %})
+- [Pie Charts]({% slug chart-types-pie-chart %})
 - [Chart Series]({% slug chart-series-overview %})
-- [Chart Axes]({% slug axes-overview %})
 - [Chart Behaviors]({% slug chart-behaviors-selection %})
-- [Chart Legend]({%slug chart-features-legend%})
+- [Chart Axes]({% slug axes-categorical-axis %})
+- [Chart Legend]({% slug chart-features-legend %})

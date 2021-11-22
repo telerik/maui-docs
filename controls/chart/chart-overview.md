@@ -25,10 +25,10 @@ Each Telerik UI for .NET MAUI Chart can be enabled with interactivity through it
 
 The Telerik UI for .NET MAUI Charts support the following behaviors:
 
-- [`PanAndZoomBehavior`]({% slug chart-behaviors-pan-and-zoom %})&mdash;This behavior handles `Manipulation` events and/or `MouseMove` and `MouseWheel` to enable the panning and zooming of the associated chart plot area.
-- [`TooltipBehavior`]({% slug chart-behaviors-tooltip %})&mdash;This behavior handles `Hold` and/or `MouseMove` events to enable context-sensitive information about a data point. It differs from the `TrackballBehavior` in terms of visual information and trigger action.
-- [`SelectionBehavior`]({% slug chart-behaviors-selection %})&mdash;This behavior handles the `Tap` event to enable the selection and deselection of data points and/or chart series. When a data point becomes `"Selected"`, you can use the `SelectionPalette` property of the Chart to visualize the selected point.
-- [`ChartTrackBallBehavior`]({% slug chart-behaviors-trackball %})&mdash;This behavior handles `Hold` events to enable context-sensitive information about a data point.
+- [Pan-and-Zoom behavior]({% slug chart-behaviors-pan-and-zoom %})&mdash;This behavior handles `Manipulation` events and/or `MouseMove` and `MouseWheel` to enable the panning and zooming of the associated chart plot area.
+- [Tooltip behavior]({% slug chart-behaviors-tooltip %})&mdash;This behavior handles `Hold` and/or `MouseMove` events to enable context-sensitive information about a data point. It differs from the `TrackballBehavior` in terms of visual information and trigger action.
+- [Selection behavior]({% slug chart-behaviors-selection %})&mdash;This behavior handles the `Tap` event to enable the selection and deselection of data points and/or chart series. When a data point becomes `"Selected"`, you can use the `SelectionPalette` property of the Chart to visualize the selected point.
+- [TrackBall behavior]({% slug chart-behaviors-trackball %})&mdash;This behavior handles `Hold` events to enable context-sensitive information about a data point.
 
 ### Annotations
 
@@ -45,54 +45,30 @@ The Chart can display different labels for the series and axes that are displaye
 
 ## Available Chart Types
 
-The Telerik UI for .NET MAUI Chart provides a number of series, which enable you to visualize different types of data in various ways and depending on your preferences and requirements.
+The Telerik UI for .NET MAUI Chart provides the Cartesian and the Pie Charts as well as a number of series, which enable you to visualize different types of data in various ways and depending on your preferences and requirements.
 
 ### Cartesian Charts
 
-The [Cartesian Chart]({% slug chart-types-cartesian-chart %}) control uses the Cartesian coordinate system to plot the data points in its chart series. The X and Y axes define how the coordinates of each point in the plot area are calculated.
+The [Cartesian Chart]({% slug chart-types-cartesian-chart %}) uses the Cartesian coordinate system to plot the data points in its chart series. The X and Y axes define how the coordinates of each point in the plot area are calculated.
 
-#### Axes
+Depending on the type of Cartesian Chart and the used series, the Chart provides a [Categorical axis]({% slug axes-categorical-axis %}), a [Numerical axis]({% slug axes-numerical-axis %}), and a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
 
-The following Cartesian axes are available:
+The Cartesian Chart supports a number of series types, among which:
 
-- [Categorical axis]({% slug axes-categorical-axis %})&mdash;Arranges the plotted data points in categories where the key of each category is the point’s value (if available) for that axis or its index within the points collection. The coordinate of the point, specified by this axis, is discrete and is calculated depending on the size of the category slot where the point resides.
-- [Numerical axis]({% slug axes-numerical-axis %})&mdash;Calculates the coordinate of each data point, depending on the actual numerical value this point provides for the axis. Exposes the `Minimum` and `Maximum` properties to allow you to explicitly define the range of values visible on this axis. If these properties are not specified, the axis will automatically calculate the range depending on the minimum and maximum data point values.
-- [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %})&mdash;A special axis that expects each data point to provide a `System.DateTime` structure as its value for this axis. Think of this axis as a time line where the coordinate of each data point is calculated depending on the position of its associated date and time on the time line. The base unit (or the step) of the axis is calculated depending on the smallest difference between any two dates.
+* Categorical Series such as the [Area]({% slug chart-series-area-series %}) and [Bar]({% slug chart-series-bar-series %}) Charts.
+* Scatter Series such as the [Scatter Line]({% slug chart-series-scatter-line-series %}) and [Scatter Point]({% slug chart-series-scatter-point-series %}) Charts.
+* Financial Series such as the [OHLC]({% slug chart-series-ohlc-series %}) and [Candlestick]({% slug chart-series-candlestick-series %}) Charts.
 
-#### Series
+The Cartesian Chart also provides the [Chart Grid type]({% slug cartesian-chart-grid %}), which is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
 
-The Cartesian Chart supports the Categorical and Scatter series:
+### Pie Charts
 
-  * Categorical Cartesian Chart series&mdash;Need a [Numerical]({% slug axes-numerical-axis %}) and a [Categorical]({% slug axes-categorical-axis %}) or [Date-Time Continuous]({% slug axes-date-time-continuous-axis %}) axes to get properly plotted.
-
-  The Categorical Cartesian Chart supports the following series:
-
-  - [Bar]({% slug chart-series-bar-series %})&mdash;Data points are represented by a box where the height (width) of the box is the distance between the numerical value of the point and the categorical axis that plots the point. Bars may be either horizontal or vertical depending on whether the categorical axis is specified as an `"X-axis"` or as a `"Y-axis"`.
-  - [Line]({% slug chart-series-line-series %})&mdash;Data points are connected with straight line segments.
-  - [Spline]({% slug chart-series-spline-series %})&mdash;Data points are connected with smooth line segments.
-  - [Area]({% slug chart-series-area-series %})&mdash;Data points and the corresponding coordinate axis enclose an area that may be optionally stroked and/or filled.
-  - [SplineArea]({% slug chart-series-spline-area-series %})&mdash;An area where points are connected with smooth rather than straight segments.
-
-  You can combine each of the above series of the same type in [stacks or clusters]({% slug chart-series-combine-mode %}). Combinations are formed when more than one data point from different series fall within the same category. The Cluster combine mode will position such points next to each other while the Stack combine mode will arrange such points in a stack-like structure. When stacks are formed, the numerical axis (if present) will consider each stack as a single entity and its sum will be the actual used value rather than the value of each point.
-
-- Scatter Cartesian Chart series&mdash;Scatter series require two Numerical axes to get properly plotted. Scattered data provides both the X and the Y coordinate.
-
-  The Scatter Cartesian Chart supports the following series:
-
-  - [ScatterPoint]({% slug chart-series-scatter-point-series %})&mdash;Data points are represented by an arbitrary template.
-  - [ScatterLine]({% slug chart-series-scatter-line-series %})&mdash;Data points are connected with straight line segments.
-  - [ScatterSpline]({% slug chart-series-scatter-spline-series %})&mdash;Data points are connected with smooth line segments.
-  - [ScatterArea]({% slug chart-series-scatter-area-series %})&mdash;Data points and the horizontal axis enclose an area that may be optionally stroked and/or filled.
-  - [ScatterSplineArea]({% slug chart-series-scatter-spline-area-series %})&mdash;A ScatterArea Chart where points are connected with smooth rather than straight segments.
-
-### Cartesian Chart Grid
-
-The [Chart Grid type]({% slug cartesian-chart-grid %}) is a Cartesian Chart that is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
-
-### Pie Chart
-
-The [Pie Chart type]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum.
+The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum. Telerik UI for .NET MAUI provides the [Donut Series]({% slug chart-series-donut-series %}) and the [Pie Series]({% slug chart-series-pie-series %}).
 
 ## Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI Charts]({% slug barcode-getting-started %})
+- [Getting Started with Telerik UI for .NET MAUI Charts]({% slug chart-getting-started %})
+- [Overview of the Cartesian Charts]({% slug chart-types-cartesian-chart %})
+- [Overview of the Pie Charts]({% slug chart-types-pie-chart %})
+- [Overview of the Chart Series]({% slug chart-series-overview %})
+- [Common Features for the Chart Series]({% slug chart-series-features %})

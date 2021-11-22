@@ -7,46 +7,42 @@ position: 7
 slug: chart-annotations
 ---
 
-# Annotations 
+# Annotations
 
-## Overview
+Annotations are visual elements that are used to highlight certain areas on the plot. They can be displayed as comments or as markers for specific values on the plot. You can practically utilize any visual element as a template for the annotation.
 
-**Annotations** are visual elements used to highlight certain areas on the plot. They can be used as comments or as markers for specific values on the plot. You can practically use any visual element as a template for the annotation.
+The Chart supports the following types of annotations:
 
-RadChart provides support for the following types of annotations:
-
-- **Cartesian GridLineAnnotations**: this annotation is visually represented by straight lines across the chart that marks a specific value on the associated Cartesian axis.
-- **Cartesian PlotBandAnnotations**: this annotation is visually represented by a band across the chart that marks a specific range on the associated Cartesian axis.
+- `CartesianGridLineAnnotation`&mdash;This annotation is visually represented by straight lines across the chart that mark specific values on the associated Cartesian axis.
+- `CartesianPlotBandAnnotation`&mdash;This annotation is visually represented by a band across the chart that marks a specific range on the associated Cartesian axis.
 
 ## CartesianGridLineAnnotation
 
-The **CartesianGridLineAnnotation** represents a vertical or horizontal line that crosses the entire plot area.
+The `CartesianGridLineAnnotation` represents a vertical or horizontal line that crosses the entire plot area and provides the following features:
 
-### Features
+- `Axis`&mdash;The `CartesianGridLineAnnotation` has to be explicitly associated with a horizontal or a vertical cartesian axis.
+- `Value`&mdash;The place on the associated axis where a line crosses it.
 
-- **Axis** : the CartesianGridLineAnnotation should be associated with horizontal or vertical cartesian axis explicitly.
-- **Value** : the place on the associated axis where a line crosses it.
+>note When the associated axis is numerical, the `CartesianGridLineAnnotation` expects a numeric value. When the associated axis is a Categorical Axis, the `CartesianGridLineAnnotation` expects a category.
 
-> Note: When the associated axis is numerical - a numeric value is expected, and when it is a CategoricalAxis - a category is expected. 
+**Example for CartesianGridLineAnnotation**
 
-### Example
+The following example shows how the `CartesianGridLineAnnotation` works:
 
-Here is an example of how the CartesianGridLineAnnotation works:
+1. First, create the needed business objects:
 
-First, create the needed business objects:
-
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -71,11 +67,11 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare the RadChart in XAML:
+1. Finally, declare the `RadChart` in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -92,7 +88,7 @@ Finally, use the following snippet to declare the RadChart in XAML:
                                 ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
     <telerikChart:RadCartesianChart.Annotations>
-        <telerikChart:CartesianGridLineAnnotation Stroke="#0E72F6" 
+        <telerikChart:CartesianGridLineAnnotation Stroke="#0E72F6"
                                                   StrokeThickness="2"
                                                   Axis="{x:Reference verticalAxis}"
                                                   Value="{Binding Threshold}">
@@ -105,41 +101,39 @@ Finally, use the following snippet to declare the RadChart in XAML:
         </telerikChart:CartesianGridLineAnnotation>
     </telerikChart:RadCartesianChart.Annotations>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how the CartesianGridLineAnnotation looks:
+The following image shows how the `CartesianGridLineAnnotation` looks:
 
 ![Annotations](images/chart-annotations-grid-line-examples.png)
 
 ## CartesianPlotBandAnnotation
 
-The **CartesianPlotBandAnnotation** represents a vertical or horizontal area that crosses the entire plot area.  
+The `CartesianPlotBandAnnotation` represents a vertical or horizontal area that crosses the entire plot area and provides the following features:
 
-### Features
+- `Axis`&mdash;The `CartesianPlotBandAnnotation` needs to be explicitly associated with a horizontal or a vertical axis.
+- `From`&mdash;The starting value for the plot band.
+- `To`&mdash;The ending value for the plot band.
+- `Fill`&mdash;Gets or sets the Fill.
 
-- **Axis** : the cartesian plotband annotation needs to be associated with horizontal or vertical axis explicitly.
-- **From** : the starting value for the plotband.
-- **To** : the ending value for the plotband.
-- **Fill** :  Gets or sets the Fill. 
+**Example for CartesianPlotBandAnnotation**
 
-### Example
+The following example shows how the `CartesianPlotBandAnnotation` works:
 
-Here is an example of how the CartesianPlotBandAnnotation works:
+1. First, create the needed business objects:
 
-First, create the needed business objects:
-
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-The ViewModel:
+1. Define the `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -167,11 +161,11 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare the RadChart control in XAML:
+1. Finally, declare the `RadChart` control in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -197,9 +191,9 @@ Finally, use the following snippet to declare the RadChart control in XAML:
                                                   To="{Binding EndThreshold}" />
     </telerikChart:RadCartesianChart.Annotations>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how the CartesianPlotBandAnnotation looks:
+The following image shows how the `CartesianPlotBandAnnotation` looks:
 
 ![Annotations](images/chart-annotations-plot-band-example.png)
 

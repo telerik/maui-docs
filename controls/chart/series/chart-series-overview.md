@@ -8,19 +8,21 @@ position: 0
 
 # Series Overview
 
-The data visualization in RadChart is done by a hierarchy of classes that inherit from the ChartSeries class. Each series has a collection of data points, that is the view model of the data. A series may have its data populated by data-binding to an arbitrary IEnumerable instance through the ItemsSource property.
+The data visualization in the Chart is done by a hierarchy of classes that inherit from the `ChartSeries` class. Each series has a collection of data points, that is the view model of the data. A series may have its data populated by data-binding to an arbitrary `IEnumerable` instance through the `ItemsSource` property.
 
-## Series Class Hierarchy ##
+## Series Class Hierarchy
 
-Concrete series types are available for specific charts. For example, there is a set of CartesianSeries applicable in the context of a RadCartesianChart. Here is the hierarchy of all series:
+Specific series types are available for specific charts. For example, a set of Cartesian Series is applicable in the context of a `RadCartesianChart`.
+
+The following image shows the hierarchy of all series:
 
 ![Series Class Diagram](images/chart-series-class-diagram.png)
 
-Here are listed all supported series grouped by the chart types that can use them:
+## Cartesian Chart Series
 
-### CartesianChart
+The Cartesian Chart provides a number of Categorical and Scatter Series.
 
-- **CategoricalSeries**
+- Supported Categorical Series:
 
     - [Bar Series]({%slug chart-series-bar-series %})
     - [Line Series]({%slug chart-series-line-series %})
@@ -28,7 +30,7 @@ Here are listed all supported series grouped by the chart types that can use the
     - [Area Series]({%slug chart-series-area-series %})
     - [SplineArea Series]({%slug chart-series-spline-area-series %})
 
-- **ScatterSeries**
+- Supported Scatter Series:
 
     - [ScatterPoint Series]({% slug chart-series-scatter-point-series%})
     - [ScatterLine Series]({% slug chart-series-scatter-line-series%})
@@ -36,14 +38,18 @@ Here are listed all supported series grouped by the chart types that can use the
     - [ScatterArea Series]({% slug chart-series-scatter-area-series%})
     - [ScatterSplineArea Series]({% slug chart-series-scatter-spline-area-series%})
 
-### PieChart
+## Pie Chart Series
+
+The Pie Chart provides the following series:
 
 - [Pie Series]({%slug chart-series-pie-series%})
 - [Donut Series]({%slug chart-series-donut-series%})
 
-### Financial Chart
+## Financial Chart Series
 
-- [Ohlc Series]({%slug chart-series-ohlc-series%})
+The Financial Chart provides the following series:
+
+- [OHLC Series]({%slug chart-series-ohlc-series%})
 - [Candlestick Series]({%slug chart-series-candlestick-series%})
 - [Financial Series]({%slug chart-series-financial-indicators%})
 
