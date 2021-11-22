@@ -6,7 +6,7 @@ position: 3
 slug: timespanpicker-timespan-range
 ---
 
-## TimeSpan Ranges
+# TimeSpan Ranges
 
 The TimeSpanPicker allows you to define a time-span range and choose a time interval within that range through the following properties:
 

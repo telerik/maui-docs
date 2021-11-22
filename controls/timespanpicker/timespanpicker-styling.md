@@ -8,6 +8,8 @@ slug: timespanpicker-styling
 
 # Styling
 
+The TimeSpanPicker provides a set of options for styling the appearance of its elements such as its spinner, placeholder, and popup, as well as its border style and background color.  
+
 ## TimeSpanPicker Styling
 
 The TimeSpanPicker control for .NET MAUI provides the following `Style` properties for customizing its look:
