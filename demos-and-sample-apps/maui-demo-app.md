@@ -52,7 +52,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 
    ![Telerik UI Maui SDKBrowser Maui App VS Code](../images/sdkmaui-structure.png)
 
-    4.2 Wait the project to restore.
+    4.2 Wait for the project to restore.
 
     4.3 Select the target framework of the project.
 
