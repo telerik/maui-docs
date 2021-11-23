@@ -43,6 +43,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Teler
  ```C#
 using Telerik.Maui.Controls.Compatibility;
 
+
+
 public void Configure(IAppHostBuilder appBuilder)
 {
     appBuilder        
@@ -54,6 +56,6 @@ public void Configure(IAppHostBuilder appBuilder)
 
 ## See Also
 
-- [Setting the Checkbox Dimensions]({% slug checkbox-size %})
-- [Defining the Checkbox State]({% slug checkbox-checked-states %})
+- [Setting the Checkbox Size]({% slug checkbox-size %})
+- [Defining the Checked State]({% slug checkbox-checked-states %})
 - [Styling Options of the Checkbox]({% slug checkbox-styling%})
