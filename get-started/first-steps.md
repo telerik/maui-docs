@@ -12,13 +12,13 @@ previous_url: /maui-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI suite&mdash;it includes instructions about the available download and installation approaches as well as the required handlers and renderers you have to register.
 
-## Set Up Your .NET MAUI Application
+## Step 1: Set Up Your .NET MAUI Application
 
 1. Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 >important For .NET MAUI Apps you must have **Visual Studio 2022 Preview - 17.1 Preview 1**
 
-## Download Telerik UI for .NET MAUI
+## Step 2: Download Telerik UI for .NET MAUI
 
 Telerik UI for .NET MAUI provides the following approaches to download the library:
 
@@ -59,7 +59,7 @@ To download Telerik UI for .NET MAUI from your Telerik account:
 
   ![Telerik UI for .NET MAUI](images/product-files.png)
 
-## Install Telerik UI for .NET MAUI
+## Step 3: Install Telerik UI for .NET MAUI
 
 Telerik UI for .NET MAUI provides the following installation options:
 
@@ -99,7 +99,7 @@ To install Telerik UI for .NET MAUI on MacOS:
 
     ![Telerik UI for .NET MAUI Installation Folder](images/installation-macos.png)
 
-## Register Required Handlers and Renderers
+## Step 4: Register Required Handlers and Renderers
 
 To visualize the Telerik UI for .NET MAUI controls, you have to register the required renderers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `Startup.cs` file of your project.
 
