@@ -58,6 +58,7 @@ The example below demonstrates a sample integration of the BusyIndicator with th
 
  <snippet id='busyindicator-withlistview-setvm' />
 
+
 The image below shows the result.
 
 ![BusyIndicator with ListView](images/busyindicator-withlistview.png)
