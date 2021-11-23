@@ -12,7 +12,7 @@ By default, the Barcode control automatically adds a checksum at the end.
 
 To disable the auto-check sum functionality, set the `AutoCheckSum` property of its Symbology to `false`.  
 
->When the auto-check sum feature is disabled, you have to manually add a checksum to ensure the reliability of the barcode symbol.
+>When the auto-check sum feature is disabled, you have to manually add a check sum to ensure the reliability of the barcode symbol.
 
 ## See Also
 

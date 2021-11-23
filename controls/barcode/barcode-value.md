@@ -24,7 +24,9 @@ The most common symbologies that are supported by Barcode are:
 
 For more details on the available Telerik UI for .NET MAUI Barcode symbologies, refer to the articles on [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
-1. Apply the desired symbology to the barcode, for example, the Code39 one.
+To apply the desired symbology to the Barcode:
+
+1. Add the symbology you need to the Barcode, for example, the Code39 one.
 
  ```XAML
 <telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
@@ -41,7 +43,7 @@ For more details on the available Telerik UI for .NET MAUI Barcode symbologies, 
 
 2. Add the following namespace.
 
-```XAML
+ ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
