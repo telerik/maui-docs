@@ -128,7 +128,7 @@ Add the DatePicker definition:
 </telerikInput:RadDatePicker>
 ```
 
-## Example for Customizing the Default Look
+## Customization Examples
 
 The snippet below shows a simple Date Picker definition:
 
@@ -149,7 +149,7 @@ The snippet below shows a simple Date Picker definition:
 
 Now, let's add the templates definition to the page resources:
 
-#### Custom PlaceholderTemplate
+**Define Custom PlaceholderTemplate**
 
 <snippet id='datepicker-placeholder-template' />
 ```XAML
@@ -164,7 +164,7 @@ Now, let's add the templates definition to the page resources:
 
 ![DatePicker PlaceholderTemplate](images/datepicker_placeholder_template.png)
 
-#### Custom DisplayTemplate
+**Define Custom DisplayTemplate**
 
 <snippet id='datepicker-display-template' />
 ```XAML
@@ -179,7 +179,7 @@ Now, let's add the templates definition to the page resources:
 
 ![DatePicker DisplayTemplate](images/datepicker_display_template.png)
 
-#### Custom HeaderTemplate
+**Define Custom HeaderTemplate**
 
 <snippet id='datepicker-header-template' />
 ```XAML
@@ -192,7 +192,7 @@ Now, let's add the templates definition to the page resources:
 </ControlTemplate>
 ```
 
-#### Custom FooterTemplate
+**Define Custom FooterTemplate**
 
 <snippet id='datepicker-footer-template' />
 ```XAML

@@ -73,14 +73,14 @@ When you use `SpinnerStyle`, you need to add the following namespace:
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Example for Implementing the Styling Options
+## Styling Examples
 
 The following example demonstrates how to define a sample DatePicker.
 
-1. Defining the RadDatePicker
+Define the `RadDatePicker`.
 
 <snippet id='datepicker-style' />
- ```XAML
+```XAML
 <telerikInput:RadDatePicker SpinnerHeaderStyle="{StaticResource spinnerHeaderStyle}"
 							SpinnerStyle="{StaticResource spinnerStyle}"
 							SelectionHighlightStyle="{StaticResource selectionHighlightStyle}"
@@ -100,11 +100,11 @@ The following example demonstrates how to define a sample DatePicker.
 												  CancelButtonStyle="{StaticResource cancelButtonStyle}"/>
 	</telerikInput:RadDatePicker.SelectorSettings>
 </telerikInput:RadDatePicker>
- ```
+```
 
 The following examples demonstrate how to set the styling of the page resources.
 
-## Spinner Style
+**Define the Spinner Style**
 
 <snippet id='datepicker-style-spinner-style' />
 ```XAML
@@ -127,7 +127,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## SpinnerHeader Style
+**Define the SpinnerHeaderStyle**
 
 <snippet id='datepicker-style-spinner-header-style' />
 ```XAML
@@ -141,7 +141,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## SelectionHighlight Style
+**Define the SelectionHighlightStyle**
 
 <snippet id='datepicker-style-selection-highlight-style' />
 ```XAML
@@ -154,7 +154,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## PlaceholderLabel Style
+**Define the PlaceholderLabelStyle**
 
 <snippet id='datepicker-style-placeholder-label-style' />
 ```XAML
@@ -166,7 +166,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## DisplayLabel Style
+**Define the DisplayLabelStyle**
 
 <snippet id='datepicker-style-display-label-style' />
 ```XAML
@@ -178,7 +178,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## PopupView Style
+**Define the PopupViewStyle**
 
 <snippet id='datepicker-style-popupview-style' />
 ```XAML
@@ -188,7 +188,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## Header Style
+**Define the HeaderStyle**
 
 <snippet id='datepicker-style-header-style' />
 ```XAML
@@ -202,7 +202,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## HeaderLabel Style
+**Define the HeaderLabelStyle**
 
 <snippet id='datepicker-style-header-label-style' />
 ```XAML
@@ -214,7 +214,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## Footer Style
+**Define the FooterStyle**
 
 <snippet id='datepicker-style-footer-style' />
 ```XAML
@@ -223,7 +223,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## AcceptButton Style
+**Define the AcceptButtonStyle**
 
 <snippet id='datepicker-style-accept-button-style' />
 ```XAML
@@ -234,7 +234,7 @@ The following examples demonstrate how to set the styling of the page resources.
 </Style>
 ```
 
-## CancelButton Style
+**Define the CancelButtonStyle**
 
 <snippet id='datepicker-style-cancel-button-style' />
 ```XAML
