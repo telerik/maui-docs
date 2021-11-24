@@ -8,24 +8,24 @@ slug: datagrid-selection-overview
 
 # Selection
 
-**RadDataGrid** exposes a selection feature - users can select a cell or a row by tapping on it. To cancel the selection, they can simply tap on the cell or a row again. The control provides single and multiple selection.
+The DataGrid exposes a selection feature which enables users to select a cell or a row by clicking (tapping) on it. To cancel the selection, users can click the cell or the row again. The control provides a single and multiple selection feature.
 
-This article explains the basic properties and methods that RadDataGrid provides for working with selection.
+This article explains the basic properties and methods that the DataGrid provides for working with selection.
 
 ## Important Properties
 
-RadDataGrid supports different selection modes that you can modify through the [**SelectionUnit**](#selectionunit) and [**SelectedItems**](#selecteditems) properties. Before you can set the [**SelectionMode**](#selectionmode), you must choose which Unit can be selected.
+The DataGrid supports different selection modes that you can modify through the [SelectionUnit](#selectionunit) and [SelectedItems](#selecteditems) properties. Before you can set the [SelectionMode](#selectionmode), you must choose which `Unit` can be selected.
 
 ### SelectionUnit
 
-The **SelectionUnit** property (type of *Telerik.XamarinForms.DataGrid.DataGridSelectionUnit*) allows you to control which Unit can be selected:
+The `SelectionUnit` property (of type `Telerik.XamarinForms.DataGrid.DataGridSelectionUnit`) allows you to control which `Unit` can be selected:
 
-* **Row**: The unit to select is a grid row (by default).
-* **Cell**: The unit to select is a cell within a grid row.
+* (Default) `Row`&mdash;The unit to select is a grid row.
+* `Cell`&mdash;The unit to select is a cell within a grid row.
 
->note To define a Cell when using a selection, you can use the DataGridCellInfo class that holds all the information about the Cell. To define a Row when using a selection, you can use your data object.
+>note To define a cell when using a selection, you can utilize the `DataGridCellInfo` class that holds all the information about the cell. To define a row when using a selection, you can use your `data` object.
 
-The example below shows how to set **SelectionUnit** in XAML and code-behind:
+The example below shows how to set `SelectionUnit` in XAML and code-behind:
 
 ```XAML
 <telerikDataGrid:RadDataGrid x:Name="dataGrid"
@@ -38,13 +38,13 @@ dataGrid.SelectionUnit = Telerik.XamarinForms.DataGrid.DataGridSelectionUnit.Cel
 
 ### SelectionMode
 
-The **SelectionMode** property (type of *Telerik.XamarinForms.DataGrid.DataGridSelectionMode*) provides the following modes:
+The `SelectionMode` property (of type `Telerik.XamarinForms.DataGrid.DataGridSelectionMode`) provides the following modes:
 
-* **Single**: Single unit may be selected(by default).
-* **Multiple**: Multiple units may be selected.
-* **None**: No selection is allowed.
+* (Default) `Single`&mdash;A single unit may be selected.
+* `Multiple`&mdash;Multiple units may be selected.
+* `None`&mdash;No selection is allowed.
 
-The example below shows how to set **SelectionMode** in XAML and code-behind:
+The example below shows how to set `SelectionMode` in XAML and code-behind:
 
 ```XAML
 <telerikDataGrid:RadDataGrid x:Name="dataGrid"
@@ -57,56 +57,55 @@ dataGrid.SelectionMode = Telerik.XamarinForms.DataGrid.DataGridSelectionMode.Mul
 
 ### SelectedItems
 
-Once you make a selection, you can get or modify the collection with the selected Items by using the **SelectedItems** property:
+Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type of `ObservableCollection&lt;object&gt;`. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row.
 
-* **SelectedItems** property (type of *ObservableCollection&lt;object&gt;*): Gets or Modifies an ObservableCollection of the currently selected Items (their type depends on the applied SelectionUnit, that is, DataGridCellInfo for Cell and Data Item for Row).
-
->note You can listen to the CollectionChanged event of the SelectedItems directly.
+>note You can listen to the `CollectionChanged` event of the `SelectedItems` directly.
 
 ## Events
 
-- **SelectionChanged**: An event that is triggered whenever the SelectedItems collection is changed. The SelectionChanged event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the __RadDataGrid__ type.
-	* A __DataGridSelectionChangedEventArgs__ object, which provides the following properties:
-		- RemovedItems - gets a list of the removed items from the SelectedItems collection.
-		- AddedItems - gets a list of the added items to the SelectedItems collection.
+- `SelectionChanged`&mdash;An event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
+		- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
+		- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
 
 ## Methods
 
-Additional functionalities for programmatic selecting and deselecting items are exposed by RadDataGrid as methods. They also depend on the applied **SelectionUnit**.
+Additional functionalities for programmatic selectin and deselection of items are exposed by the DataGrid as methods. They also depend on the applied `SelectionUnit`.
 
-#### Methods for programmatic selection when SelectionUnit is "Row":
+#### Methods for Programmatic Selection When SelectionUnit Is "Row"
 
-* **SelectItem**(object item): Selects the specified data item and adds it in the SelectedItems collection.
-* **DeselectItem**(object item): Removes the selection for the specified data item and removes it from the SelectedItems collection.
+* `SelectItem`(object item)&mdash;Selects the specified data item and adds it to the `SelectedItems` collection.
+* `DeselectItem`(object item)&mdash;Removes the selection for the specified data item and removes it from the `SelectedItems` collection.
 
-#### Methods for programmatic selection when SelectionUnit is "Cell":
+#### Methods for Programmatic Selection When SelectionUnit Is "Cell"
 
-* **SelectCell**(DataGridCellInfo item): Selects the grid cell as defined by the specified cell info.
-* **DeselectCell**(DataGridCellInfo item): Removes the selection for the grid cell defined by the specified cell info.
+* `SelectCell`(`DataGridCellInfo` item)&mdash;Selects the grid cell as defined by the specified cell information.
+* `DeselectCell`(`DataGridCellInfo` item)&mdash;Removes the selection for the grid cell defined by the specified cell information.
 
-#### Methods for programmatic selection of all items
+#### Methods for Programmatic Selection of All Items
 
-* **SelectAll**(): Selects all the items as defined when SelectionMode is "Multiple".
-* **DeselectAll**(): Clears the current selected items as defined by the SelectionUnit property.
+* `SelectAll`()&mdash;Selects all the items as defined when the `SelectionMode` is "Multiple".
+* `DeselectAll`()&mdash;Clears the current selected items as defined by the `SelectionUnit` property.
 
 ### Example
-In order to illustrate how these methods can be used, let's have the following example:
 
-1) Add a sample business object:
+To illustrate how these methods can be used, let's have the following example:
 
-```XAML
+1. Add a sample business object:
+
+ ```XAML
 public class Person
 {
 	public string Name { get; set; }
 	public int Age { get; set; }
 	public string Department { get; set; }
 }
-```
+ ```
 
-2) Add a ViewModel with a list of "Person" objects:
+1. Add a `ViewModel` with a list of `Person` objects:
 
-```C#
+ ```C#
 public class ViewModel
 {
 	public ViewModel()
@@ -127,42 +126,42 @@ public class ViewModel
 
 	public ObservableCollection<Person> People { get; set; }
 }
-```
+ ```
 
-3) Add the RadDataGrid definition:
+1. Add the DataGrid definition:
 
-```XAML
+ ```XAML
 <telerikDataGrid:RadDataGrid x:Name="dataGrid"
 						  ItemsSource="{Binding People}" />
-```
+ ```
 
-4) Set the ViewModel class as a BindingContext:
+1. Set the `ViewModel` class as a `BindingContext`:
 
-```C#
+ ```C#
 this.BindingContext = new ViewModel();
-```
+ ```
 
-Now you use various approaches to select the first employee from the Marketing department. Each snippet shows a possible approach:
+1. Now, use various approaches to select the first employee from the Marketing department. Each snippet shows a possible approach:
 
-* In the case of Row selection, use SelectItem method:
+* In the case of row selection, use the `SelectItem` method:
 
-```C#
+ ```C#
 var firstMarketingItem = ((ObservableCollection<Person>)this.dataGrid.ItemsSource).First(p => p.Department == "Marketing");
 this.dataGrid.SelectItem(firstMarketingItem);
-```
+ ```
 
-* For Cell selection, use SelectCell method - it takes as a parameter a **DataGridCellInfo** object. DataGridCellInfo object can be easily created using the needed data item (of type Person in our case) and setting the column corresponding to the cell you'd need to select.
+* For a cell selection, use the `SelectCell` method. It takes as a parameter a `DataGridCellInfo` object. The `DataGridCellInfo` object can be easily created by using the needed data item (of type `Person` in this case) and setting the column corresponding to the cell you need to select.
 
-```C#
+ ```C#
 var firstMarketingCell = ((ObservableCollection<Person>)this.dataGrid.ItemsSource).First(p => p.Department == "Marketing");
 this.dataGrid.SelectCell(new DataGridCellInfo(firstMarketingCell, this.dataGrid.Columns[2]));
-```
+ ```
 
-* Lastly, you call the SelectAll/DeselectAll method like this:
+* Lastly, call the `SelectAll` or `DeselectAll` method like this:
 
-```C#
+ ```C#
 this.dataGrid.SelectAll();
-```
+ ```
 
 ## See Also
 

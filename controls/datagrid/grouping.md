@@ -8,16 +8,16 @@ slug: datagrid-grouping-overview
 
 # Grouping
 
-**RadDataGrid** provides programmatic approach for grouping its data per concrete criteria. 
+The DataGrid provides a programmatic approach for grouping its data based on specific criteria.
 
 ## Programmatic Grouping
 
-Programmatic grouping can be done by adding descriptors to the **GroupDescriptors** collection. There are two types of descriptors:
+Programmatic grouping can be done by adding descriptors to the `GroupDescriptors` collection. There are two types of descriptors:
 
-* [**PropertyGroupDescriptor**](#property-group-descriptor): use a property from the model as a group key.
-* [**DelegateGroupDescriptor**](#delegate-group-descriptor): create a custom group key which you can use.
+* [PropertyGroupDescriptor](#property-group-descriptor)&mdash;Uses a property from the model as a group key.
+* [DelegateGroupDescriptor](#delegate-group-descriptor)&mdash;Creates a custom group key which you can use.
 
-All GroupDescriptors are located in the Telerik.XamarinForms.Common.Data namespace:
+All `GroupDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
 
 ```XAML
  xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
@@ -25,13 +25,11 @@ All GroupDescriptors are located in the Telerik.XamarinForms.Common.Data namespa
 
 ### Property Group Descriptor
 
-The PropertyGroupDescriptor is used to group the data in a DataGrid by property from the class that defines your objects.
+The `PropertyGroupDescriptor` is used to group the data in a DataGrid by property from the class that defines your objects.
 
-To use the PropertyGroupDescriptor you have to set its property PropertyName.
+To use the `PropertyGroupDescriptor`, you have to set its `PropertyName` (`string`) property, which gets or sets the name of the property that is used to retrieve the key by which to group.
 
-* **PropertyName** (string): Gets or sets the name of the property that is used to retrieve the key to group by.
-
->note You can easily sort the groups in ascending or descending order using the **SortOrder** property.
+>note You can sort the groups in ascending or descending order by using the `SortOrder` property.
 
 Let's, for example, have the following business object:
 
@@ -44,7 +42,7 @@ public class Person
 }
 ```
 
-And a ViewModel class with a collection of **Person** objects:
+Add a sample `ViewModel` class with a collection of `Person` objects:
 
 ```C#
 public class ViewModel
@@ -69,7 +67,7 @@ public class ViewModel
 }
 ```
 
-Next snippet demonstrates how you could group the people by "Department" property through the PropertyGroupDescriptor:
+The following snippet demonstrates how to group the people by the `"Department"` property through the `PropertyGroupDescriptor`:
 
 ```XAML
 <telerikDataGrid:RadDataGrid x:Name="dataGrid"
@@ -80,29 +78,27 @@ Next snippet demonstrates how you could group the people by "Department" propert
 </telerikDataGrid:RadDataGrid>
 ```
 
-All that is left is to set the ViewModel as BindingContext of the page:
+All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 
 ```C#
 this.BindingContext = new ViewModel();
 ```
 
-Here is how the RadDataGrid looks when it is grouped:
+Here is how the DataGrid looks when it is grouped:
 
 ![](images/datagrid_grouping.png)
 
 ### Delegate Group Descriptor
 
-The difference between the **DelegateGroupDescriptor** and the **PropertyGroupDescriptor** is that DelegateGroupDescriptor groups data by a custom Key while the PropertyGroupDescriptor groups by a defined Key which is a property from our model.
+The difference between the `DelegateGroupDescriptor` and the `PropertyGroupDescriptor` is that the `DelegateGroupDescriptor` groups data by a custom key, while the `PropertyGroupDescriptor` groups by a defined key which is a property from the model.
 
-You have to set the following property of the DelegateGroupDescriptor:
+You have to set the `KeyLookup` property of the `DelegateGroupDescriptor`, which gets or sets the `IKeyLookup` instance that is used to retrieve the group key for each data item.
 
- * **KeyLookup**: Gets or sets the **IKeyLookup** instance that is used to retrieve the group key for each data item.
+>note You can sort the groups in ascending or descending order by using the `SortOrder` property.
 
->note You can easily sort the groups in ascending or descending order using the **SortOrder** property.
+You have to create a class that implements the `IKeyLookup` interface which will return the key by which you want to group. Then, you need to add the `DelegateGroupDescriptor` to the `RadDataGrid.GroupDescriptors` collection and set its `KeyLookup` property.
 
-You have to create a class that implements the **IKeyLookup** interface which will return the Key you want to group by. Then you need to add the **DelegateGroupDescriptor** to the RadDataGrid.GroupDescriptors collection and set its **KeyLookup** property.
-
-Check below a sample **IKeyLookup** implementation:
+The following example demonstrates a sample `IKeyLookup` implementation:
 
 ```C#
 class CustomIKeyLookup : Telerik.XamarinForms.Common.Data.IKeyLookup
@@ -115,33 +111,33 @@ class CustomIKeyLookup : Telerik.XamarinForms.Common.Data.IKeyLookup
 }
 ```
 
-Adding it to the **GroupDescriptors** collection of the **RadDataGrid**:
+Add it to the `GroupDescriptors` collection of the `RadDataGrid` instance:
 
 ```C#
 this.dataGrid.GroupDescriptors.Add(new DelegateGroupDescriptor() { KeyLookup = new CustomIKeyLookup() });
 ```
 
-Here is how the RadDataGrid looks when it is grouped through a DelegateGroupDescriptor:
+Here is how the DataGrid looks when it is grouped through a `DelegateGroupDescriptor`:
 
 ![](images/datagrid_grouping_delegategroup.png)
 
 ## Expand and Collapse Groups
 
-**RadDataGrid** supports groups expand and collapse operations either through the UI by tapping on the group headers or programmatically. By default, all the groups are expanded.
+The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
 
-This help topic will provide an overview of the methods and commands used to control the expand/collapse state of the DataGrid groups.
+This section provides an overview of the methods and commands used to control the expand/collapse state of the DataGrid groups.
 
-### Get the grouped DataGrid items
+### Get the Grouped DataGrid Items
 
-To manipulate the collapsible DataGrid groups, first you will need to call its **GetDataView** method. In short, GetDataView method provides a view of the ItemsSource after all the Sort, Group and Filter operations are applied.  The return type is *IDataViewCollection* which exposes the expand and collapse methods described in the following sections.
+To manipulate the collapsible DataGrid groups, first you will need to call its `GetDataView` method. In short, the `GetDataView` method provides a view of the `ItemsSource` after all the sorting, grouping, and filtering operations are applied. The return type is `IDataViewCollection` which exposes the `expand` and `collapse` methods described in the following sections.
 
 ```C#
 var dataView = this.dataGrid.GetDataView();
 ```
 
-### Expand and collapse all groups 
+### Expand and Collapse All Groups
 
-In order to expand all groups, use the **ExpandAll** method and respectively use the **CollapseAll** method - to collapse all groups.
+To expand all groups, use the `ExpandAll` method and, respectively, the `CollapseAll` method to collapse all groups.
 
 ```C#
 //expand all
@@ -153,13 +149,13 @@ var dataView = this.dataGrid.GetDataView();
 dataView.CollapseAll();
 ```
 
-### Expand and collapse a certain group
+### Expand and Collapse Specific Groups
 
-You could retrieve the first-level groups through the **GetGroups** method of the *IDataViewCollection* object and use **ExpandGroup**/**CollapseGroup** to make a certain group to expand or collapse respectively. You could check whether a group is expanded trough the **GetIsExpanded** method.
+You can retrieve the first-level groups through the `GetGroups` method of the `IDataViewCollection` object and use `ExpandGroup`/`CollapseGroup` to make a certain group to expand or collapse respectively. You can check whether a group is expanded trough the `GetIsExpanded` method.
 
-Here is quick snippet on how these methods are used:
+The following example demonstrates how these methods are used:
 
-```C# 
+```C#
 var dataView = this.dataGrid.GetDataView();
 var rootGroups = dataView.GetGroups();
 
@@ -170,7 +166,7 @@ dataView.ExpandGroup(rootGroups.First());
 dataView.CollapseGroup(rootGroups.First());
 ```
 
-Additionally, *IDataViewCollection* provides **ExpandItem**/**CollapseItem** methods that takes a data item as a parameter and expand/collapse the immediate group containing this item.	
+Additionally, `IDataViewCollection` provides the `ExpandItem`/`CollapseItem` methods that take a data item as a parameter and expand/collapse the immediate group containing this item.
 
 ```C#
 var lastItem = (dataGrid.ItemsSource as IEnumerable<City>).Last();

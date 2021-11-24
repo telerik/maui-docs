@@ -1,48 +1,39 @@
 ---
 title: Overview
-page_title: .NET MAUI DataGrid Documentation | RadDataGrid Overview
+page_title: .NET MAUI DataGrid Documentation | Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
 slug: datagrid-overview
 ---
 
-# Overview #
+# Overview
 
-Most of the data on the Internet is stored in tables within a database. **RadDataGrid for .NET MAUI** provides the same abstraction over the data – it has Columns and Rows and the intersection of a Row and a Column is called a Cell. When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called ViewModel) where each instance represents a Table Row and each property of the object represents a Column within the original table.
+Most of the data on the Internet is stored in tables within a database. **Telerik UI for .NET MAUI DataGrid** provides the same abstraction over the data&mdash;it has columns and rows, and the intersection of a row and a column is called a cell. When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table.
 
->important Telerik UI for .NET MAUI DataGrid is available for Android and iOS.
+Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iOS.
 
 ![Overview DataGrid](images/overview-grid-1.png)
 
-## Key features
+## Key Features
 
-* **Different column types**: RadDataGrid provides plenty of built-in columns such as Text, Boolean, Numeric, ComboBox, DateTime and Template. These pre-defined templates allow for handling different data types and user scenarios, each with its specific editor. Go to [Columns]({%slug datagrid-columns-overview %}) topic for more information on this.
+* [Different column types]({%slug datagrid-columns-overview %})&mdash;The DataGrid provides plenty of built-in columns such as Text, Boolean, Numeric, ComboBox, DateTime, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 
-* **Load on Demand**: In some cases you may need to load data in the RadDataGrid when the control is already displayed as this can improve the performance of your app. RadDataGrid offers automatic data loading once the user scrolled to the last available record, or by displaying a customizable button which will initiate loading more data items. For more info go to [Load on Demand]({%slug datagrid-features-loadondemand %}) topic.
+* [Load on demand]({%slug datagrid-features-loadondemand %})&mdash;In some cases, you may need to load data in the DataGrid when the control is already displayed as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
 
-* **Commands**: RadDataGrid allows you to attach commands that will be executed when certain actions, such as ColumnHeaderTap, CellTap, BeginEdit, etc, occur. For detailed information on the matter go to [Commands]({%slug datagrid-commands-overview %}) article.
+* [Commands]({%slug datagrid-commands-overview %})&mdash;The DataGrid allows you to attach commands, such as `ColumnHeaderTap`, `CellTap`, `BeginEdit`, and more, which will be executed when certain actions occur.
 
-* **UI Virtualization**: The highly optimized data layer of the DataGrid enables fast grouping, sorting and filtering operations. The user interface uses virtualization for its row and cell elements, meaning visual elements are created only when needed and only for the currently visible cells.
+* UI Virtualization&mdash;The highly optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
-* **Editing**: You could easily enable app users to edit data presented in the grid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For instance, if one of the columns is a date, a date-picker will be used to offer user a change in date field. Go to [Editing]({%slug datagrid-editing %}) topic for more details.
+* [Editing]({%slug datagrid-editing %})&mdash;You can enable users to edit the data presented in the DataGrid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For example, if one of the columns is a date, a date-picker will be used to offer a change in the date field.
 
-* **Sorting, Filtering, Grouping**: Easily perform SORT, FILTER and GROUP operations on your data with the convenient API of the DataGrid. Read the [Sorting]({%slug datagrid-sorting-overview %}),  [Filtering]({%slug datagrid-filtering-overview%}) and [Grouping]({%slug datagrid-grouping-overview %}) topic for more details.
+* [Sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %})&mdash;You can easily perform SORT, FILTER, and GROUP operations on your data by using the convenient API of the control.
 
-* **Selection Modes**: DataGrid features single or multiple item selection, as well as controlling the selection unit – Cell or Row—thus enabling any selection scenario you want your Xamarin app users to have. Go to [Selection]({%slug datagrid-selection-overview %}) topic for more info.
+* [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
-* **Rows Alternation**: RadDataGrid supports alternating row colors so your app users can easily distinguish one row from another.
+* Rows alternation&mdash;The DataGrid supports alternating row colors so that your users can easily distinguish one row from another.
 
-* **Styling API**: DataGrid is highly customizable if you prefer using your own styling. Read the [Styling]({%slug datagrid-styling%}) topic for more details.
-
->tip Check out RadDataGrid [Getting Started]({%slug datagrid-getting-started%}) help article that shows how to use it in a basic scenario.
+* [Flexible styling API]({%slug datagrid-styling%})&mdash;The DataGrid is highly customizable if you prefer to use your own styling.
 
 ## See Also
 
-- [Columns]({%slug datagrid-columns-overview%})
-- [Load on Demand]({%slug datagrid-features-loadondemand%})
-- [Commands]({%slug datagrid-commands-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
-- [Filtering]({%slug datagrid-filtering-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Selection]({%slug datagrid-selection-overview %})
-- [Styling]({%slug datagrid-styling%})
+- [Getting Started with Telerik UI for .NET MAUI DataGrid]({% slug datagrid-getting-started %})
