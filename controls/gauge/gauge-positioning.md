@@ -73,6 +73,7 @@ In the example below, all elements are arranged so that they are 2 pixels apart 
 </telerikGauges:RadRadialGauge>
 ```
 
+
 The following image shows the end result.
 
 ![Gauge example](images/gauge-positioning.png)

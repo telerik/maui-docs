@@ -53,6 +53,7 @@ Here is an example of a custom needle shape:
 </telerikCommon:RadPathGeometry>
 ```
 
+
 The following image shows the end result.
 
 ![Gauge example](images/gauge-custom-needle-shape.png)
@@ -92,6 +93,7 @@ Here is an example of a custom shape:
     </telerikCommon:RadPathFigure>
 </telerikCommon:RadPathGeometry>
 ```
+
 
 The following image shows the end result.
 
@@ -136,6 +138,7 @@ The `GaugeBarIndicator` presents a value range set by the `From` and `To` proper
 </telerikGauges:GaugeRangeBarIndicator>
 ```
 
+
 The following image shows the end result.
 
 ![Gauge example](images/gauge-bar-indicator-overview.png)
@@ -164,6 +167,7 @@ The `GaugeTextIndicator` allows you to present some text on a specific value.
                                   Offset="15"
                                   Value="65" />
 ```
+
 
 The following image shows the end result.
 

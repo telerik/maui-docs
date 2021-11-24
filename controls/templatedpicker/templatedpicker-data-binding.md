@@ -346,6 +346,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+
 The following image shows the end result.
 
 ![TemplatedPicker Selected Value](images/templatedpicker_data_binding.png)

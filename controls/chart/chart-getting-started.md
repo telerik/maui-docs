@@ -68,6 +68,7 @@ public void Configure(IAppHostBuilder appBuilder)
 }              
  ```
 
+
 ## Visualize Sample Data
 
 1. Now that you have added the control to your project, define the business model:
@@ -101,6 +102,7 @@ public class ChartViewModel
     public ObservableCollection<CategoricalData> Data { get; set; }
 }
  ```
+
 
 ## See Also
 

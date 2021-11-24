@@ -169,6 +169,7 @@ public class OhlcDataPoint : NotifyPropertyChangedBase
 }
  ```
 
+
 The following image shows the end result:
 
 ![Financial Indicators](images/indicators_series.png)

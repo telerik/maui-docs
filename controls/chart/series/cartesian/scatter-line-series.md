@@ -104,6 +104,7 @@ public class SeriesNumericalViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic ScatterLineSeries](images/cartesian-scatter-line-series-basic-example.png)
@@ -137,6 +138,7 @@ The following example adds customizations to the ScatterLine Series by applying 
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
 ```
+
 
 The following image shows the final result:
 

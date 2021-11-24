@@ -34,6 +34,7 @@ Then, apply that Style to the Entry instance:
 					   BorderStyle="{StaticResource EntryBorderStyle}"/>
 ```
 
+
 The following image shows the end result.
 
 ![Entry BorderStyle](images/entry_borderstyle.png)

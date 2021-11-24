@@ -86,6 +86,7 @@ public class CategoricalDataViewModel
     </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result.
 
 ![CategoricalAxis](images/axes-categorical-axis-example.png)

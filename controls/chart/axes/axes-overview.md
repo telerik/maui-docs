@@ -34,7 +34,7 @@ You can customize the labels orientation and style with the following properties
 - `LabelFontSize`&mdash;Specifies the font size of the labels.
 - `LabelTextColor`&mdash;Specifies the color of the labels.
 
-#### Example
+The following example demonstrates how to define the `LabelFitMode` and the font size and color of the label.
 
 ```XAML
 <telerikChart:CategoricalAxis LabelFitMode="Rotate"
@@ -52,8 +52,6 @@ You can customize the labels text with the following properties:
   - `CategoricalAxis`&mdash;`"{0} items"`, `"{0:N}"`.
 - `LabelFormatter`&mdash;Specifies a custom formatter that implements the `ILabelFormatter` interface to apply a custom rule for setting each label text.
 
-#### Example
-
 The following example shows how to set `LabelFormat` to a Numerical Axis:
 
 ```XAML
@@ -67,13 +65,9 @@ The following example shows how to set `LabelFormat` to a Numerical Axis:
 
 The `LabelFormatterBase<T>` class is a base implementation of the `ILabelFormatter` interface that can be used in the most common scenarios.
 
-#### Example
-
-The following example shows how to set a label formatter for the Date-Time Continuous Axis.
+The following example shows how to set a label formatter for the Date-Time Continuous Axis. You can apply it in the following way:
 
 <snippet id='chart-customization-format-axis-labels-label-formatter'/>
-
-You can apply it in the following way:
 
 ```XAML
 <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
@@ -93,7 +87,7 @@ You can customize the appearance of the axis line and ticks with the following p
 - `LineColor`&mdash;Specifies the color of the axis line.
 - `LineDashArray`&mdash;Specifies the array that is used to create a dash line, which will be applied to the axis line.
 
-#### Example
+The following example demonstrates how to define the major ticks color and set their thickness and line color.  
 
 ```XAML
 	<telerikChart:NumericalAxis MajorTickBackgroundColor="#FFCC88CC"
@@ -108,7 +102,7 @@ You can specify the location of the axis with the following properties:
 - `HorizontalLocation`&mdash;Specifies the horizontal location of the axis. Applicable for vertical axes.
 - `VerticalLocation`&mdash;Specifies the vertical location of the axis. Applicable for horizontal axes.
 
-#### Example
+The following example demonstrates how to set a vertical location for the axis.
 
 ```XAML
 	<telerikChart:CategoricalAxis VerticalLocation="Top"/>

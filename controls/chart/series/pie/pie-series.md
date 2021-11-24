@@ -75,6 +75,7 @@ public class ViewModel
 </telerikChart:RadPieChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic PieSeries using the following properties](images/pie-series-basic-example.png)

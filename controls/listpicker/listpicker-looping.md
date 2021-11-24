@@ -76,6 +76,7 @@ public class CitiesViewModel
 }
 ```
 
+
 The following image shows the end result.
 
 ![ListPicker Looping](images/looping_gif.gif)

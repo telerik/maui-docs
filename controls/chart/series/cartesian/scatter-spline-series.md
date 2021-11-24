@@ -104,6 +104,7 @@ public class SeriesNumericalViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic ScatterSplineSeries](images/cartesian-scatter-spline-series-basic-example.png)

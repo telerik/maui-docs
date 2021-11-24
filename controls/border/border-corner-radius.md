@@ -21,7 +21,8 @@ The `CornerRadius` property represents the degree to which the corners of the Bo
 </telerikMauiControls:RadBorder>
 ```
 
-The following image shows the result from that implementation. 
+
+The following image shows the result from that implementation.
 
 ![Border CornerRadius Example](images/border_corner_radius.png)
 
@@ -36,6 +37,7 @@ Additionally, the wrapped content will be clipped according to the specified cor
 		   HeightRequest="50" />
 </telerikMauiControls:RadBorder>
 ```
+
 
 The following image shows the end result.
 

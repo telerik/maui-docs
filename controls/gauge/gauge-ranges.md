@@ -35,6 +35,7 @@ To include ranges in your gauge
 </telerikGauges:GaugeRangesDefinition>
 ```
 
+
 The following image shows the end result.
 
 ![Gauge Ranges](images/gauge-ranges-overview.png)
@@ -56,6 +57,7 @@ Here is an example when the offset is relative.
 </telerikGauges:GaugeRangesDefinition>
 ```
 
+
 The following image shows the end result.
 
 ![Gauge Relative Offset](images/gauge-ranges-relative.png)
@@ -72,6 +74,7 @@ Here is an example when the offset is absolute.
     </telerikGauges:GaugeGradientRange>
 </telerikGauges:GaugeRangesDefinition>
 ```
+
 
 The following image shows the end result.
 

@@ -51,6 +51,7 @@ The following example demonstrates a Barcode with an applied PDF417 symbology:
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
+
 The following image shows the result of the suggested implementation.
 
 ![PDF417](images/barcode-2d-barcodes-pdf417-example.png)

@@ -39,6 +39,7 @@ Define `telerik` in the following way:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
+
 The following image shows the result on different platforms:
 
 ![RadDockLayout Docking](images/docklayout_docking_feature.png)
@@ -56,6 +57,7 @@ Setting the same docking side to a few child elements will arrange them accordin
     <Label Text="Last Child" telerik:RadDockLayout.Dock="Left" BackgroundColor="LightYellow" />
 </telerik:RadDockLayout>
 ```
+
 
 The following image shows the end result.
 
@@ -76,6 +78,7 @@ You can prevent this behavior by setting `StretchLastChild` property of the Dock
     <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
 </telerik:RadDockLayout>
 ```
+
 
 The following image shows the end result.
 

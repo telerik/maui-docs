@@ -89,6 +89,7 @@ The following example demonstrates how to set `SpinnerFormat="H:mm"`.
 <telerikInput:RadTimePicker SpinnerFormat="H:mm" />
 ```
 
+
 The following image shows the end result.
 
 ![](images/timepicker-string-format-H-mm.png)

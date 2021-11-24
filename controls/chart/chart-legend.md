@@ -27,6 +27,7 @@ To add the legend feature in your application, you need to initialize a new obje
                         LegendProvider="{x:Reference Name=pieChart}"/>
 ```
 
+
 The following image shows the `RadLegend` in combination with the Pie Chart.
 
 ![Pie Chart legend](images/piechart-legend.png)
@@ -75,6 +76,7 @@ The following list summarizes the most important properties of the `RadLegend` c
                             LegendItemFontColor="DarkGreen"
                             HeightRequest="200"/>
 ```
+
 
 The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 

@@ -83,6 +83,7 @@ private void Checkbox_IsCheckedChanged(object sender, IsCheckedChangedEventArgs 
 }
  ```
 
+
 The following image shows the end result.
 
 ![Popup Content Template](images/popup_features_contenttemplate.png)

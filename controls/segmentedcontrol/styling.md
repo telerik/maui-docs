@@ -47,6 +47,7 @@ The following example shows how to set the different segment colors.
 </telerikInput:RadSegmentedControl>
 ```
 
+
 The following image shows the end result.
 
 ![SegmentedControl colors customization](images/segmentcontrol-features-customizecolors-0.png)

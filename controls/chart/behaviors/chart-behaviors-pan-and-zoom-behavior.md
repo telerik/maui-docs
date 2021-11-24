@@ -115,6 +115,7 @@ public class ViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result.
 
 ![Chart Pan And Zoom Behavior](images/chart-behaviors-panandzoom.png "Chart Pan And Zoom Behavior")

@@ -37,6 +37,7 @@ private void FocusButtonClicked(object sender, System.EventArgs e)
 }
 ```
 
+
 The following image shows the end result.
 
 ![Entry Text Selection](images/entry_text_selection.png)

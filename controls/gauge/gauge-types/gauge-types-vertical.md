@@ -36,6 +36,7 @@ The following example shows the basic setup of the Vertical Gauge.
 </telerikGauges:RadVerticalGauge>
 ```
 
+
 The following image shows the end result.
 
 ![Vertical gauge example](../images/gauge-types-vertical-gauge-0.png)

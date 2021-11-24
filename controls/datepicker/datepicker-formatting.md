@@ -98,6 +98,7 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerikInput:RadDatePicker SpinnerFormat="MMMM dd" />
 ```
 
+
 The following image shows the result:
 
 ![](images/datepicker-string-format-mmmm-dd.png)
@@ -109,6 +110,7 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="dd" />
 ```
+
 
 The following image shows the result:
 
@@ -122,6 +124,7 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerikInput:RadDatePicker SpinnerFormat="MMM yyyy" />
 ```
 
+
 The following image shows the result:
 
 ![](images/datepicker-string-format-mmm-yyyy.png)
@@ -133,6 +136,7 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
 ```
+
 
 The following image shows the result:
 

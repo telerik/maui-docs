@@ -7,7 +7,7 @@ tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net mau
 slug: button-styling
 ---
 
-# Styling 
+# Styling
 
 To define the border thickness of the Button, use the `BorderThickness` property, which is of the `Microsoft.Maui.Thickness` type. Type `Thickness` allows you to define a different border on each side of the Button.
 
@@ -18,6 +18,7 @@ The snippet below demonstrates how to define the `BorderThickness` property.
                         BorderThickness="6, 2, 2, 6"
                         BorderColor="#4488F6" />
 ```
+
 
 The following image shows the end result.
 

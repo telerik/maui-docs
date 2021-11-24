@@ -47,6 +47,7 @@ You can disable any segment with `SetSegmentEnabled` method:
 this.segmentControl.SetSegmentEnabled(2, false);
 ```
 
+
 The following image shows the end result.
 
 ![SegmentedControl disable segment example](images/segmentcontrol-features-disablesegment-0.png)

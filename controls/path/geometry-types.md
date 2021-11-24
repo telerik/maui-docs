@@ -52,6 +52,7 @@ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+
 The following image shows the end result.
 
 ![RadPath Figures](images/custom_default_paths.png)

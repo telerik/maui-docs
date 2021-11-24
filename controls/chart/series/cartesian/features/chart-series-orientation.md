@@ -75,6 +75,7 @@ public class CategoricalDataViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result.
 
 ![Horizontal BarSeries](images/chart-series-features-horizontal-series.png)
@@ -161,6 +162,7 @@ public class SeriesCategoricalViewModel
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
  ```
+
 
 The following image shows the end result:
 

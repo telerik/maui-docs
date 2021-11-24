@@ -66,6 +66,7 @@ The following example demonstrates a Barcode with an applied QR Code symbology.
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
+
 The following image shows the result of the suggested implementation.
 
 ![QRCode](images/barcode-2d-barcodes-qrcode-example.png)

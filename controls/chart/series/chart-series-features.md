@@ -101,6 +101,7 @@ public class ViewModel
 </telerikChart:RadCartesianChart.Series>
  ```
 
+
 The following image shows the end result:
 
 ![Series Labels](images/chart-series-labels.png)
