@@ -8,34 +8,34 @@ position: 0
 
 # Area Series
 
-## Overview
-
-**RadCartesianChart** visualizes **AreaSeries** as an area on the chart that is enclosed by the coordinate axes and straight line segments that connect the data points represented by these series. The **AreaSeries** extend **CategoricalStrokedSeries**, so they are also **CategoricalSeries** and require one **CategoricalAxis** and one **NumricalAxis**.
+The Cartesian Chart visualizes the Area Series as an area on the chart that is enclosed by the coordinate axes and straight line segments that connect the data points represented by these series. The Area Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 
 ## Features
 
-- **Fill** : Defines the fill of the AreaSeries.
-- **Stroke** : Changes the color used to draw lines.
-- **StrokeThickness** : Changes the width of the lines.
+The Area Series supports the following properties:
 
-## Example
+- `Fill`&mdash;Defines the fill of the Area Series.
+- `Stroke`&mdash;Changes the color for drawing lines.
+- `StrokeThickness`&mdash;Changes the width of the lines.
 
-Here is an example how to create RadCartesianChart with Area Series:
+## Area Series Example
 
-First, create the needed business objects, for example:
+The following example shows how to create a Cartesian Chart with an Area Series:
 
-```C#
+1. First, create the needed business objects, for example:
+
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then create a `ViewModel`:
 
-```C#
+ ```C#
 public class CategoricalViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -58,11 +58,11 @@ public class CategoricalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Area Series in XAML and in C#:
+1. Finally, use the following snippet to declare a Cartesian Chart with an Area Series in XAML and in C#:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:CategoricalViewModel />
@@ -80,25 +80,26 @@ Finally, use the following snippet to declare a RadCartesianChart with Area Seri
                                  ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is the result:
+The following image shows the end result:
 
 ![Basic AreaSeries](images/cartesian-area-series-basic-example.png)
 
-### Customization Example
+## Customization Example
 
-Here we have some customizations:
+You can further customize the Area Series:
+
 ```C#
-	var series = new AreaSeries 
-	{ 
+	var series = new AreaSeries
+	{
 		Fill = new Color(0.8, 0.8, 1),
-		Stroke = new Color(0.6, 0.6, 0.9), 
+		Stroke = new Color(0.6, 0.6, 0.9),
 		StrokeThickness = 5
 	};
 ```
 
-This is the final result:
+The following image shows the final result:
 
 ![Customized AreaSeries](images/cartesian-area-series-customization-example.png)
 

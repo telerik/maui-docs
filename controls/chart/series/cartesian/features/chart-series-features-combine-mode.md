@@ -1,42 +1,44 @@
 ---
-title: CategoricalSeries Combine Mode
-page_title: .NET MAUI Chart Documentation | CategoricalSeries Combine Mode
+title: Combine Mode
+page_title: .NET MAUI Chart Documentation | Categorical Series Combine Mode
 description: Check our &quot;CategoricalSeries Combine Mode&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-combine-mode
 position: 0
 ---
 
-# Combine Mode
+# Categorical Series Combine Mode
 
-When the series in a RadCartesianChart are more than one, a few different drawing strategies can be used. The possible strategies are:
+When the series in a Cartesian Chart are more than one, a few different drawing strategies can be used.
 
-- **None**: The series are not combined - each series is plotted independently.
-- **Cluster**: Series are combined next to each other (applicable for BarSeries).
-- **Stack**: Series form stacks.
-- **Stack100**: Series form stacks that occupy 100% of the plot area and the characterictic size of each series is proportional to its relative value.
+The possible strategies are:
 
-The default combine mode is **None**. You can define the current combine mode with the series **CombineMode** property.
+- `None`&mdash;The series are not combined and each series is plotted independently.
+- `Cluster`&mdash;The series are combined next to each other (applicable for Bar Series).
+- `Stack`&mdash;The series form stacks.
+- `Stack100`&mdash;The series form stacks that occupy 100% of the plot area and the characteristic size of each series is proportional to its relative value.
 
->note CombineMode could be applied only to Categorical Series, such as Bar, Line and Area.
+The default combine mode is `None`. You can define the current combine mode with the `CombineMode` property of the series.
+
+>note The `CombineMode` can be applied only to Categorical Series such as Bar, Line, and Area.
 
 ## Stack Bar Series Example
 
-Here is an example how to create Stack CartesianChart with Bar Series :
+The following example shows how to create a Stack Cartesian Chart with Bar Series :
 
-Create the needed business objects, for example:
+1. Create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Create a ViewModel:
+1. Create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesCategoricalViewModel
 {
     public ObservableCollection<CategoricalData> Data1 { get; set; }
@@ -74,11 +76,11 @@ public class SeriesCategoricalViewModel
         return data;
     }
 }
-```
+ ```
 
-Declare a CombineMode property to the Bar Series in XAML:
+1. Declare a `CombineMode` property to the Bar Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesCategoricalViewModel />
@@ -100,21 +102,21 @@ Declare a CombineMode property to the Bar Series in XAML:
                                 ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how Stack Bar Series looks:
+The following image shows how a Stack Bar Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-bar-series.png)
 
 ## Stack Area Series Example
 
-Here is how Stack Area Series looks:
+The following image shows how a Stack Area Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-area-series.png)
 
 ## Stack Spline Area Series Example
 
-Here is how Stack Spline Area Series looks:
+The following image shows how a Stack Spline Area Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-spline-area-series.png)
 

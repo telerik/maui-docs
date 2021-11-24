@@ -5,36 +5,35 @@ description: Check our &quot;ScatterLine Series&quot; documentation article for 
 slug: chart-series-scatter-line-series
 position: 0
 ---
+
 # ScatterLine Series
 
-## Overview
-
-The **ScatterLineSeries** are represented on the chart as data points connected with straight line segments. The **ScatterLineSeries** inherit from the **[ScatterPointSeries]()** class and also require both axes of the chart to be of type **NumericalAxis**.
+The ScatterLine Series are represented on the chart as data points connected with straight line segments. The ScatterLine Series inherit from the `[ScatterPointSeries]()` class and also require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-**ScatterLineSeries** provide the following properties to change their style:
+The ScatterLine Series provides the following properties to change its style:
 
-- **Stroke** (Color): changes the color used to draw lines.
-- **StrokeThickness** (double): changes the width of the lines.
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
 
-## Example
+## ScatterLine Series Example
 
-Here is an example how to create RadCartesianChart with ScatterLine Series:
+The following example shows how to create a `RadCartesianChart` with a ScatterLine Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class NumericalData
 {
     public double XData { get; set; }
     public double YData { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesNumericalViewModel
 {
     public ObservableCollection<NumericalData> Data1 { get; set; }
@@ -79,11 +78,11 @@ public class SeriesNumericalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterLine Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a ScatterLine Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesNumericalViewModel />
@@ -103,15 +102,15 @@ Finally, use the following snippet to declare a RadCartesianChart with ScatterLi
                                         ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic ScatterLineSeries](images/cartesian-scatter-line-series-basic-example.png)
 
-### Customization Example
+## Customization Example
 
-Here we make some customizations on the ScatterLine Series applying `Stroke` and `StrokeThickness` to the series. We extended the example above:
+The following example adds customizations to the ScatterLine Series by applying `Stroke` and `StrokeThickness` to the series.
 
 ```XAML
 <telerikChart:RadCartesianChart>
@@ -139,7 +138,7 @@ Here we make some customizations on the ScatterLine Series applying `Stroke` and
 </telerikChart:RadCartesianChart>
 ```
 
-Here is the result:
+The following image shows the final result:
 
 ![Scatter Line Series Customization](images/chart-scatter-line-series-customizatrion.png)
 

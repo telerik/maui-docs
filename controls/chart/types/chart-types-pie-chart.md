@@ -6,37 +6,37 @@ description: Check our &quot;Pie Chart&quot; documentation article for Telerik C
 slug: chart-types-pie-chart
 ---
 
-# RadPieChart #
+# Pie Chart
 
-The **RadPieChart**  visualizes its data points using radial coordinate system. Each data point is represented as a slice from a pie. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
+The Pie Chart visualizes its data points by using the radial coordinate system. Each data point is represented as a slice from a pie. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
 
 ## Properties
 
-* **Series**: Gets a collection of all series presented by the chart instance.
-* **Behaviors**: Gets a collection of all enabled behaviors.
-* **Palette**: Gets or sets the **ChartPalette** instance that defines the appearance of the chart.
-* **PaletteName**: Gets or sets the name of the predefined Palette that will be applied to the chart.
-* **SelectionPalette**: Gets or sets the **ChartPalette** instance that defines the appearance of the chart for selected series and/or data points.
-* **SelectionPaletteName**: Gets or sets the name of the predefined SelectionPalette that will be applied to the chart.
+The Pie Chart supports the following properties:
 
-## Supported Series ##
+* `Series`&mdash;Gets a collection of all series presented by the chart instance.
+* `Behaviors`&mdash;Gets a collection of all enabled behaviors.
+* `Palette`&mdash;Gets or sets the `ChartPalette` instance that defines the appearance of the chart.
+* `PaletteName`&mdash;Gets or sets the name of the predefined `Palette` that will be applied to the chart.
+* `SelectionPalette`&mdash;Gets or sets the `ChartPalette` instance that defines the appearance of the chart for the selected series and/or data points.
+* `SelectionPaletteName`&mdash;Gets or sets the name of the predefined `SelectionPalette` that will be applied to the chart.
 
-**RadPieChart** can visualize the following types of series:
+## Series
 
-- **PieSeries**: The PieSeries are used to visualize a single series of data in a pie chart. The sweep of a pie's slices is directly proportional to the magnitude of the data points' values.
+The Pie Chart supports the Pie Series, which visualize a single series of data in a pie chart. The sweep of a pie slice is directly proportional to the magnitude of the data point values.
 
-## Example ##
+## Example
 
-1. Define RadPieChart:  
-	
-```XAML
+1. Define the `RadPieChart`:  
+
+ ```XAML
 <telerikChart:RadPieChart>
 </telerikChart:RadPieChart>
-```
+ ```
 
-2. After that you can add the series to the RadPieChart.Series collection:
+1. Add the series to the `RadPieChart.Series` collection:
 
-```XAML
+ ```XAML
 <telerikChart:RadPieChart.Series>
 	<telerikChart:PieSeries ItemsSource="{Binding Data}">
 		<telerikChart:PieSeries.ValueBinding>
@@ -44,34 +44,34 @@ The **RadPieChart**  visualizes its data points using radial coordinate system. 
 		</telerikChart:PieSeries.ValueBinding>
 	</telerikChart:PieSeries>
 </telerikChart:RadPieChart.Series>
-```
+ ```
 
-3. You also have to set a BindingContext of the chart if none of its parents have a context:
- 
-```XAML
+1. Set the `BindingContext` of the chart if none of its parents has a context:
+
+ ```XAML
 <telerikChart:RadPieChart.BindingContext>
 	<local:ViewModel/>
 </telerikChart:RadPieChart.BindingContext>
 ```
 
-### PieChart Example
+## Pie Chart Example
 
-Here is the full definition of the chart:
+The following example shows the full definition of the chart.
 
-First, create the needed business object, for example:
+1. First, create the needed business object, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -94,11 +94,11 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally use the following snippet to declare a RadPieChart with Pie Series in XAML and in C#:
+1. Finally, declare a `RadPieChart` with a Pie Series in XAML and in C#:
 
-```XAML
+ ```XAML
 <telerikChart:RadPieChart>
     <telerikChart:RadPieChart.BindingContext>
         <local:ViewModel />
@@ -110,9 +110,9 @@ Finally use the following snippet to declare a RadPieChart with Pie Series in XA
                                 ItemsSource="{Binding Data}" />
     </telerikChart:RadPieChart.Series>
 </telerikChart:RadPieChart>
-```
+ ```
 
-Here is the result:
+The following image shows the end result:
 
 ![Pie Chart](images/pie-chart-example.png)
 

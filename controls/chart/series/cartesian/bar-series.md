@@ -8,32 +8,30 @@ slug: chart-series-bar-series
 
 # Bar Series
 
-## Overview
+The Cartesian Chart visualizes each data point from the Bar Series as a rectangle (or a bar). These rectangles can be displayed either horizontally, or vertically, depending on whether the Categorical Axis is the vertical axis or the horizontal one. When the horizontal axis is categorical, the rectangles are displayed vertically. This means that they display an equal width while their height represents the numerical value of each of the data points. On the other hand, when the vertical axis is categorical, the rectangles have equal height, while their width represents the value of the data point.
 
-**RadCartesianChart** visualizes each data point from the **BarSeries** as a rectangle. These rectangles (or bars) can be displayed either horizontally, or vertically, depending on whether the **CategoricalAxis** is the vertical axis or the horizontal. When the horizontal axis is categorical, the rectangles are displayed vertically. This means that they have equal width while their height represents the numerical value of each of the data points. On the other hand, when the vertical axis is categorical, the rectangles have equal height, while their width represents the value of the data point. 
+The Bar Series inherits from the Categorical Series and requires one Categorical Axis and one Numerical Axis.
 
-The **BarSeries** inherits from **CategoricalSeries** and requires one **CategoricalAxis** and one **NumericalAxis**. 
-
->tip You could check the common CategoricalSeries features that are also applicable to **BarSeries** at the following link: [Series Features]({%slug chart-series-overview%}).
+>tip For more information about the common Categorical Series features that are also applicable to the Bar Series, refer to the [article on series features]({%slug chart-series-overview%}).
 
 ## Example
 
-Here is an example how to create RadCartesianChart with Bar Series:
+The following example shows how to create a Cartesian Chart with Bar Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class CategoricalDataViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -56,11 +54,11 @@ public class CategoricalDataViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Bar Series in XAML:
+1. Finally, use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:CategoricalDataViewModel />
@@ -77,9 +75,9 @@ Finally, use the following snippet to declare a RadCartesianChart with Bar Serie
                                 ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how it looks:
+The following image shows how the Bar Series looks:
 
 ![Basic BarSeries](images/cartesian-bar-series-basic-example.png)
 

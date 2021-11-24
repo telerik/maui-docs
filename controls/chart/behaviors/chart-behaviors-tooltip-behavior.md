@@ -1,41 +1,39 @@
 ---
-title: ToolTip Behavior
+title: ToolTip
 page_title: .NET MAUI Chart Documentation | ToolTip Behavior
 description: Check our &quot;Tool Tip Behavior&quot; documentation article for Telerik Chart for .NET MAUI
 position: 3
 slug: chart-behaviors-tooltip
 ---
 
-# ChartToolTipBehavior
+# ToolTip Behavior
 
-## Overview
-
-**ChartTooltipBehavior** is responsible for rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
+The Tooltip behavior of the Chart is responsible for rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
 
 ## Features
 
-- **TriggerMode**: Determines the gestures on which the ChartToolTipBehavior should show a tool tip. The available values are:
-	- Tap
-	- Hold
+The ToolTip behavior of the Chart supports the `TriggerMode` property that determines the gestures on which the `ChartToolTipBehavior` will show a tool tip. The available values are:
+	- `Tap`
+	- `Hold`
 
 ## Example
 
-Here is an example of how the Chart ToolTip Behavior works:
+The following example shows how the ToolTip behavior of the Chart works:
 
-Create the business object:
+1. Create the business object:
 
-```C#
+ ```C#
 public class TemporalData
 {
     public DateTime Date { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Create a ViewModel:
+1. Create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -73,11 +71,11 @@ public class ViewModel
         return items;
     }
 }
-```
+ ```
 
-Declare a RadCartesianChart in XAML:
+1. Declare a `RadCartesianChart` in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart PaletteName="Light"
                                 Zoom="2, 1">
     <telerikChart:RadCartesianChart.BindingContext>
@@ -101,14 +99,14 @@ Declare a RadCartesianChart in XAML:
                                  ItemsSource="{Binding Data}"/>
     </telerikChart:RadCartesianChart.Series>
     <telerikChart:RadCartesianChart.ChartBehaviors>
-        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal" 
-                                              PanMode="Horizontal" 
+        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal"
+                                              PanMode="Horizontal"
                                               HandleDoubleTap="True"/>
     </telerikChart:RadCartesianChart.ChartBehaviors>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how the tool-tip looks:
+The following image shows how the ToolTip looks:
 
 ![Chart Tooltip Behavior](images/chart-behaviors-tooltip.png)
 

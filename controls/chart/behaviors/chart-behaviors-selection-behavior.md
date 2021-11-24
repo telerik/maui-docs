@@ -1,62 +1,64 @@
 ---
-title: Selection Behavior
+title: Selection
 page_title: .NET MAUI Chart Documentation | Selection Behavior
 description: Check our &quot;Selection Behavior&quot; documentation article for Telerik Chart for .NET MAUI control.
 position: 1
 slug: chart-behaviors-selection
 ---
 
-# ChartSelectionBehavior
+# Selection Behavior
 
-## Overview
-
-**ChartSelectionBehavior** is responsible for selecting, deselecting and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
+The Selection behavior of the Chart is responsible for selecting, deselecting, and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
 
 ## Features
 
+The Chart exposes properties, methods, events, and commands for handling its Selection behavior.
+
 ### Properties
 
-- **DataPointSelectionMode**: Gets or sets the ChartSelectionMode that controls the selection behavior of the data points within the chart series. The available values are:
-	-  None
-	-  Single
-	-  Multiple
-- **SeriesSelectionMode**: Gets or sets the ChartSelectionMode that controls the selection behavior of the series within the plot area. The available values are:
-	-  None
-	-  Single
-	-  Multiple
-- **SelectedPoints**: Retrieves all the points from all series within the chart plot area that are currently selected.
-- **SelectedSeries**: Retrieves all the series instances within the plot area that are currently selected.
+The Selection behavior supports the following properties:
+
+- `DataPointSelectionMode`&mdash;Gets or sets the `ChartSelectionMode` that controls the selection behavior of the data points within the chart series. The available values are:
+	-  `None`
+	-  `Single`
+	-  `Multiple`
+- `SeriesSelectionMode`&mdash;Gets or sets the `ChartSelectionMode` that controls the selection behavior of the series within the plot area. The available values are:
+	-  `None`
+	-  `Single`
+	-  `Multiple`
+- `SelectedPoints`&mdash;Retrieves all the points from all currently selected series within the chart plot area.
+- `SelectedSeries`&mdash;Retrieves all currently selected series instances within the plot area.
 
 ### Methods
 
-- **ClearSelecton()** method : Removes the current selection within the chart.
+The Selection behavior supports the `ClearSelecton()` method, which removes the current selection within the chart.
 
 ### Events
 
-- **SelectionChanged** event: Occurs when a selection has been made.
+The Selection behavior supports the `SelectionChanged` event, which occurs when a selection has been made.
 
 ### Commands
 
-ChartSelectionBehavior exposes support for **Commands**. 
+The Selection behavior supports the `Commands` selection.
 
 ## Example
 
-Here is an example of how the Chart Selection Behavior works with Command:
+The following example shows how the Selection behavior of the Chart works with a `Command`:
 
-Create the business objects:
+1. Create the business objects:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Create a ViewModel:
+1. Create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel : NotifyPropertyChangedBase
 {
     private int counter = 0;
@@ -129,11 +131,11 @@ public class ViewModel : NotifyPropertyChangedBase
         this.Counter++;
     }
 }
-```
+ ```
 
-Declare a RadCartesianChart in XAML:
+1. Declare a `RadCartesianChart` in XAML:
 
-```XAML
+ ```XAML
 <ContentView.BindingContext>
     <local:ViewModel/>
 </ContentView.BindingContext>
@@ -174,9 +176,9 @@ Declare a RadCartesianChart in XAML:
 
     <Label Grid.Row="2" Text="{Binding DisplayCount}"/>
 </Grid>
-```
+ ```
 
-Here is how the selection looks:
+The following image shows how the selection looks:
 
 ![Selection Behavior](images/chart-behaviors-selection.png)
 

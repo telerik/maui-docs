@@ -1,17 +1,35 @@
 ---
 title: Getting Started
-page_title: Getting Started with .NET MAUI Chart Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik Chart for .NET MAUI.
+page_title: .NET MAUI Charts Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI Chart and add the control to your .NET MAUI project."
 tags: chart, .net maui, ui for .net maui, maui, microsoft,
 position: 2
 slug: chart-getting-started
 ---
 
 # Getting Started
-   
-## Define RadChart control
 
-```XAML
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Chart by adding the control to your project.
+
+At the end, you will be able to achieve the following result.
+
+![Basic RadCartesianChart](images/chart-gettingstarted.png "Basic RadCartesianChart")
+
+## Prerequisites
+
+Before adding the Chart, you need to:
+
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When your .NET MAUI application is set up, you are ready to add a Barcode control to your page.
+
+ ```XAML
 <telerikChart:RadCartesianChart>     
 	<telerikChart:RadCartesianChart.BindingContext>         
 		<vm:ChartViewModel />     
@@ -23,51 +41,49 @@ slug: chart-getting-started
 		<telerikChart:NumericalAxis />     
 	</telerikChart:RadCartesianChart.VerticalAxis>     
 	<telerikChart:RadCartesianChart.Series>         
-		<telerikChart:BarSeries CategoryBinding="Category" 
-								ValueBinding="Value" 
+		<telerikChart:BarSeries CategoryBinding="Category"
+								ValueBinding="Value"
 								ItemsSource="{Binding Data}" />     
-	</telerikChart:RadCartesianChart.Series> 
+	</telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
-```
+ ```
 
-To visualize RadCartesianChart and RadPieChart -> Register the Telerik controls through `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the **Startup.cs** file of your project:
+1. To visualize the Cartesian and the Pie Chart types, register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
+ ```C#
 using Telerik.Maui.Controls.Compatibility;
-
- 
 
 public void Configure(IAppHostBuilder appBuilder)
 {
     appBuilder        
         .UseTelerik()
         .UseMauiApp<App>();
-        
+
 }              
-```
+ ```
 
-## Populating RadChart with data
+## Visualize Sample Data
 
-Here is how the business model is defined:
+1. Now that you have added the control to your project, define the business model:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-and the ViewModel:
+1. Set the `ViewModel` class:
 
-```C#
+ ```C#
 public class ChartViewModel
 {
     public ChartViewModel()
@@ -81,17 +97,16 @@ public class ChartViewModel
             new CategoricalData { Category = "E", Value = 0.78 },
         };
     }
-	
+
     public ObservableCollection<CategoricalData> Data { get; set; }
 }
-```
-
-Here is the result:
-
-![Basic RadCartesianChart](images/chart-gettingstarted.png "Basic RadCartesianChart")
+ ```
 
 ## See Also
 
-- [Cartesian Chart]({%slug chart-types-cartesian-chart%})
-- [Pie Chart]({%slug chart-types-pie-chart%})
-- [Chart Legend]({%slug chart-features-legend%})
+- [Cartesian Charts]({% slug chart-types-cartesian-chart %})
+- [Pie Charts]({% slug chart-types-pie-chart %})
+- [Chart Series]({% slug chart-series-overview %})
+- [Chart Behaviors]({% slug chart-behaviors-selection %})
+- [Chart Axes]({% slug axes-categorical-axis %})
+- [Chart Legend]({% slug chart-features-legend %})

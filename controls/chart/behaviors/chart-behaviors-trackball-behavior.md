@@ -1,40 +1,38 @@
 ---
-title: TrackBall Behavior
+title: TrackBall
 page_title: .NET MAUI Chart Documentation | TrackBall Behavior
 description: Check our &quot;Track Ball Behavior&quot; documentation article for Telerik Chart for .NET MAUI
 position: 2
 slug: chart-behaviors-trackball
 ---
 
-# ChartTrackBallBehavior
+# TrackBall Behavior
 
-## Overview
+The TrackBall behavior is responsible for rendering concise information about several data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
 
-**ChartTrackBallBehavior** is responsible for rendering concise information about several data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
+## Features
 
-## Features 
-
-- **ShowTrackInfo**(bool):  Determines whether the visual information for all the closest data points will be displayed.
-- **ShowIntersectionPoints**(bool): Defines a value indicating whether a visual information for all the closest data points will be displayed.
+- `ShowTrackInfo` (`bool`)&mdash;Determines whether the visual information for all the closest data points will be displayed.
+- `ShowIntersectionPoints` (`bool`)&mdash;Defines a value indicating whether a visual information for all the closest data points will be displayed.
 
 ## Example
 
-Here is an example of how the Chart TrackBall Behavior works:
+The following example shows how the TrackBall behavior of the Chart works:
 
-Create the needed business objects, for example:
+1. Create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Create a ViewModel:
+1. Create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data1 { get; set; }
@@ -70,11 +68,11 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Declare a RadCartesianChart in XAML:
+1. Declare a `RadCartesianChart` in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -101,9 +99,9 @@ Declare a RadCartesianChart in XAML:
                                              ShowTrackInfo="True" />
     </telerikChart:RadCartesianChart.ChartBehaviors>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is how the trackball looks:
+The following image shows how the TrackBall looks:
 
 ![Chart Track Ball Behavior](images/chart-behaviors-trackball.png)
 
@@ -112,4 +110,3 @@ Here is how the trackball looks:
 - [Chart Selection Behavior]({%slug chart-behaviors-selection%})
 - [Chart Tool Tip Behavior]({%slug chart-behaviors-tooltip%})
 - [Chart Pan And Zoom Behavior]({%slug chart-behaviors-pan-and-zoom%})
-
