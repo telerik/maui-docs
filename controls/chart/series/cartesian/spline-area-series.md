@@ -1,26 +1,26 @@
 ---
-title: Spline Area
-page_title: .NET MAUI Chart Documentation | Spline Area Series
+title: SplineArea Series
+page_title: .NET MAUI Chart Documentation | SplineArea Series
 description: Check our &quot;SplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-spline-area-series
 position: 0
 ---
 
-# Spline Area Series
+# SplineArea Series
 
-The Cartesian Chart visualizes the Spline Area Series as an area on the chart that is enclosed by the coordinate axes and straight line segments, which connect the data points represented by these series. The Spline Area Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
+The Cartesian Chart visualizes the SplineArea Series as an area on the chart that is enclosed by the coordinate axes and straight line segments, which connect the data points represented by these series. The SplineArea Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 
 ## Features
 
-The Spline Area Series provides the following properties:
+The SplineArea Series provides the following properties:
 
 - `Stroke` (Color)&mdash;Changes the color for drawing lines.
 - `StrokeThickness` (double)&mdash;Changes the width of the lines.
 - `Fill` (Color)&mdash;Changes the color for filling the area shapes.
 
-## Spline Area Series Example
+## SplineArea Series Example
 
-The following example shows how to create a `RadCartesianChart` with a Spline Area Series:
+The following example shows how to create a `RadCartesianChart` with a SplineArea Series:
 
 1. First, create the needed business objects, for example:
 
@@ -60,7 +60,7 @@ public class CategoricalViewModel
 }
  ```
 
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Spline Area Series in XAML and in C#:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a SplineArea Series in XAML and in C#:
 
  ```XAML
 <telerikChart:RadCartesianChart>
@@ -88,7 +88,7 @@ The following image shows the end result:
 
 ## Customization Example
 
-You can further customize the Spline Area Series:
+You can further customize the SplineArea Series:
 
 ```C#
 	var series = new SplineAreaSeries

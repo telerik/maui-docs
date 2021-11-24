@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Chart Documentation | RadChart Overview
+page_title: .NET MAUI Chart Documentation | Overview
 description: "Try now the Telerik Chart for .NET MAUI exposing its objects and properties in C#, allowing for no-compromise customization and flexibility."
 tags: chart, .net maui, ui for .net maui,
 position: 0
@@ -14,6 +14,28 @@ slug: chart-overview
 The intuitive object model and public API allow complex charts to be easily set up either in XAML or in code-behind. The Chart is completely data-aware as the binding mechanism of the control is used to create the appropriate data points from the raw data. Chart types and series are organized in hierarchies, depending on the coordinate system, used to plot data points.
 
 ![Chart examples](images/chart-overview.png)
+
+## Available Chart Types
+
+The Telerik UI for .NET MAUI Chart provides the Cartesian and the Pie Charts as well as a number of series, which enable you to visualize different types of data in various ways and depending on your preferences and requirements.
+
+### Cartesian Charts
+
+The [Cartesian Chart]({% slug chart-types-cartesian-chart %}) uses the Cartesian coordinate system to plot the data points in its chart series. The X and Y axes define how the coordinates of each point in the plot area are calculated.
+
+Depending on the type of Cartesian Chart and the used series, the Chart provides a [Categorical axis]({% slug axes-categorical-axis %}), a [Numerical axis]({% slug axes-numerical-axis %}), and a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
+
+The Cartesian Chart supports a number of series types, among which:
+
+* Categorical Series such as the [Area]({% slug chart-series-area-series %}) and [Bar]({% slug chart-series-bar-series %}) Charts.
+* Scatter Series such as the [Scatter Line]({% slug chart-series-scatter-line-series %}) and [ScatterPoint]({% slug chart-series-scatter-point-series %}) Charts.
+* Financial Series such as the [OHLC]({% slug chart-series-ohlc-series %}) and [Candlestick]({% slug chart-series-candlestick-series %}) Charts.
+
+The Cartesian Chart also provides the [Chart Grid type]({% slug cartesian-chart-grid %}), which is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
+
+### Pie Charts
+
+The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum. Telerik UI for .NET MAUI provides the [Donut Series]({% slug chart-series-donut-series %}) and the [Pie Series]({% slug chart-series-pie-series %}).
 
 ## Key Features
 
@@ -42,28 +64,6 @@ The provided types of annotations include:
 ### Labels
 
 The Chart can display different labels for the series and axes that are displayed. Additionally, you can customize the labels according to your preferences.
-
-## Available Chart Types
-
-The Telerik UI for .NET MAUI Chart provides the Cartesian and the Pie Charts as well as a number of series, which enable you to visualize different types of data in various ways and depending on your preferences and requirements.
-
-### Cartesian Charts
-
-The [Cartesian Chart]({% slug chart-types-cartesian-chart %}) uses the Cartesian coordinate system to plot the data points in its chart series. The X and Y axes define how the coordinates of each point in the plot area are calculated.
-
-Depending on the type of Cartesian Chart and the used series, the Chart provides a [Categorical axis]({% slug axes-categorical-axis %}), a [Numerical axis]({% slug axes-numerical-axis %}), and a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
-
-The Cartesian Chart supports a number of series types, among which:
-
-* Categorical Series such as the [Area]({% slug chart-series-area-series %}) and [Bar]({% slug chart-series-bar-series %}) Charts.
-* Scatter Series such as the [Scatter Line]({% slug chart-series-scatter-line-series %}) and [Scatter Point]({% slug chart-series-scatter-point-series %}) Charts.
-* Financial Series such as the [OHLC]({% slug chart-series-ohlc-series %}) and [Candlestick]({% slug chart-series-candlestick-series %}) Charts.
-
-The Cartesian Chart also provides the [Chart Grid type]({% slug cartesian-chart-grid %}), which is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
-
-### Pie Charts
-
-The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum. Telerik UI for .NET MAUI provides the [Donut Series]({% slug chart-series-donut-series %}) and the [Pie Series]({% slug chart-series-pie-series %}).
 
 ## Next Steps
 

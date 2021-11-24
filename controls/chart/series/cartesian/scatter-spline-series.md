@@ -1,25 +1,25 @@
 ---
-title: Scatter Spline
-page_title: .NET MAUI Chart Documentation | Scatter Spline Series
+title: ScatterSpline Series
+page_title: .NET MAUI Chart Documentation | ScatterSpline Series
 description: Check our &quot;ScatterSpline Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-spline-series
 position: 0
 ---
 
-# Scatter Spline Series
+# ScatterSpline Series
 
-The Scatter Spline Series are represented on the chart as data points connected with curved line segments. The Scatter Spline Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
+The ScatterSpline Series are represented on the chart as data points connected with curved line segments. The ScatterSpline Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-The Scatter Spline Series provides the following properties:
+The ScatterSpline Series provides the following properties:
 
 - `Stroke` (Color)&mdash;Changes the color for drawing lines.
 - `StrokeThickness` (double)&mdash;Changes the width of the lines.
 
-## Scatter Spline Series Example
+## ScatterSpline Series Example
 
-The following example shows how to create a `RadCartesianChart` with a Scatter Spline Series:
+The following example shows how to create a `RadCartesianChart` with a ScatterSpline Series:
 
 1. First, create the needed business objects, for example:
 
@@ -80,7 +80,7 @@ public class SeriesNumericalViewModel
 }
  ```
 
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Scatter Spline Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a ScatterSpline Series in XAML:
 
  ```XAML
 <telerikChart:RadCartesianChart>
@@ -110,7 +110,7 @@ The following image shows the end result:
 
 ## Customization Example
 
-You can further customize the Scatter Spline Series:
+You can further customize the ScatterSpline Series:
 
 ```C#
 	var series = new ScatterSplineSeries

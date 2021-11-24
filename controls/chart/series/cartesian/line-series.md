@@ -1,5 +1,5 @@
 ---
-title: Line
+title: Line Series
 page_title: .NET MAUI Chart Documentation | Line Series
 description: Check our &quot;Line Series&quot; documentation article for Telerik Chart for .NET MAUI
 position: 0

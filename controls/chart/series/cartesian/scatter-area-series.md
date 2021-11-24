@@ -1,26 +1,26 @@
 ---
-title: Scatter Area
-page_title: .NET MAUI Chart Documentation | Scatter Area Series
+title: ScatterArea Series
+page_title: .NET MAUI Chart Documentation | ScatterArea Series
 description: Check our &quot;ScatterArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-area-series
 position: 0
 ---
 
-# Scatter Area Series
+# ScatterArea Series
 
-The Cartesian Chart visualizes the Scatter Area Series as the area enclosed by the coordinate axes and straight line segments that connect the series data points. The Scatter Area Series inherit from the `[ScatterPointSeries]()` class and also require both Chart axes to be Numerical Axes.
+The Cartesian Chart visualizes the ScatterArea Series as the area enclosed by the coordinate axes and straight line segments that connect the series data points. The ScatterArea Series inherit from the `[ScatterPointSeries]()` class and also require both Chart axes to be Numerical Axes.
 
 ## Features
 
-The Scatter Area Series provides the following properties to change its style:
+The ScatterArea Series provides the following properties to change its style:
 
 - `Stroke` (Color)&mdash;Changes the color for drawing lines.
 - `StrokeThickness` (double)&mdash;Changes the width of the lines.
 - `Fill` (Color)&mdash;Changes the color of the chart area.
 
-## Scatter Area Series Example
+## ScatterArea Series Example
 
-The following example shows how to create a `RadCartesianChart` with a Scatter Area Series:
+The following example shows how to create a `RadCartesianChart` with a ScatterArea Series:
 
 1. First, create the needed business objects, for example:
 
@@ -63,7 +63,7 @@ public class NumericalViewModel
 }
  ```
 
-1. Finally, use the following snippet to declare a Cartesian Chart with a Scatter Area Series in XAML:
+1. Finally, use the following snippet to declare a Cartesian Chart with a ScatterArea Series in XAML:
 
  ```XAML
 <telerikChart:RadCartesianChart>
@@ -90,7 +90,7 @@ The following image shows the end result:
 
 ## Customization Example
 
-You can further customize the Scatter Area Series:
+You can further customize the ScatterArea Series:
 
 ```C#
 	var series = new ScatterAreaSeries

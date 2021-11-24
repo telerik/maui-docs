@@ -1,5 +1,5 @@
 ---
-title: Bar
+title: Bar Series
 page_title: .NET MAUI Chart Documentation | Bar Series
 description: Check our &quot;Bar Series&quot; documentation article for Telerik Chart for .NET MAUI
 position: 0

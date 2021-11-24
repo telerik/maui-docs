@@ -1,5 +1,5 @@
 ---
-title: OHLC
+title: OHLC Series
 page_title: .NET MAUI Chart Documentation | OHLC Series
 slug: chart-series-ohlc-series
 description: Check our &quot;Ohlc Series&quot; documentation article for Telerik Chart for .NET MAUI

@@ -1,25 +1,25 @@
 ---
-title: Scatter Point
-page_title: .NET MAUI Chart Documentation | Scatter Point Series
+title: ScatterPoint Series
+page_title: .NET MAUI Chart Documentation | ScatterPoint Series
 description: Check our &quot;ScatterPoint Series&quot; documentation article for Telerik Chart for .NET MAUI control.
 slug: chart-series-scatter-point-series
 position: 0
 ---
 
-# Scatter Point Series
+# ScatterPoint Series
 
-The Scatter Point Series are represented on the chart as data points that are not connected. Each scatter data point has to provide values for the X and Y coordinates on the `RadCartesianChart`. The Scatter Point Series require both axes of the chart to be Numerical Axes.
+The ScatterPoint Series are represented on the chart as data points that are not connected. Each scatter data point has to provide values for the X and Y coordinates on the `RadCartesianChart`. The ScatterPoint Series require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-The Scatter Point Series provides the following properties:
+The ScatterPoint Series provides the following properties:
 
 - `XValueBinding`&mdash;Defines the binding that will be used to fill the `XValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
 - `YValueBinding`&mdash;Defines the binding that will be used to fill the `YValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
 
 ## Example
 
-The following example shows how to create a `RadCartesianChart` with a Scatter Point Series:
+The following example shows how to create a `RadCartesianChart` with a ScatterPoint Series:
 
 1. First, create the needed business objects, for example:
 
@@ -80,7 +80,7 @@ public class SeriesNumericalViewModel
 }
  ```
 
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Scatter Point Series in XAML and in C#:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a ScatterPoint Series in XAML and in C#:
 
  ```XAML
 <telerikChart:RadCartesianChart PaletteName="LightSelected">

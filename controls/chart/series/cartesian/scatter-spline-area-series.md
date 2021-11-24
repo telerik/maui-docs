@@ -1,18 +1,18 @@
 ---
-title: Scatter Spline Area
-page_title: .NET MAUI Chart Documentation | Scatter Spline Area Series
+title: ScatterSplineArea Series
+page_title: .NET MAUI Chart Documentation | ScatterSplineArea Series
 description: Check our &quot;ScatterSplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-spline-area-series
 position: 0
 ---
 
-# Scatter Spline Area Series
+# ScatterSplineArea Series
 
-The Cartesian Chart visualizes Scatter Spline Area Series as the area enclosed by the coordinate axes and curved line segments that connect the series data points. The Scatter Spline Area Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
+The Cartesian Chart visualizes ScatterSplineArea Series as the area enclosed by the coordinate axes and curved line segments that connect the series data points. The ScatterSplineArea Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-The Scatter Spline Area Series provides the following properties:
+The ScatterSplineArea Series provides the following properties:
 
 - `XValueBinding`&mdash;Defines the binding that will be used to fill the `XValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
 - `YValueBinding`&mdash;Defines the binding that will be used to fill the `YValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
@@ -20,9 +20,9 @@ The Scatter Spline Area Series provides the following properties:
 - `StrokeThickness` (double)&mdash;Changes the width of the lines.
 - `Fill` (Color)&mdash;Changes the color for filling the area shapes.
 
-## Scatter Spline Area Series Example
+## ScatterSplineArea Series Example
 
-The following example shows how to create a `RadCartesianChart` with a Scatter Spline Area Series:
+The following example shows how to create a `RadCartesianChart` with a ScatterSplineArea Series:
 
 1. First, create the needed business objects, for example:
 
@@ -65,7 +65,7 @@ public class NumericalViewModel
 }
  ```
 
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Scatter Spline Area Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a ScatterSplineArea Series in XAML:
 
  ```XAML
 <telerikChart:RadCartesianChart>
@@ -92,7 +92,7 @@ The following image shows the end result:
 
 ## Customization Example
 
-You can further customize the Scatter Spline Area Series:
+You can further customize the ScatterSplineArea Series:
 
 ```C#
 	var series = new ScatterSplineAreaSeries

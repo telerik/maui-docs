@@ -1,5 +1,5 @@
 ---
-title: Common Features
+title: Common Series Features
 page_title: .NET MAUI Chart Documentation | Common Series Features
 description: Check our &quot;Series Features&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-features
