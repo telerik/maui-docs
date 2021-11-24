@@ -60,20 +60,29 @@ xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
 using Telerik.Maui.Controls.Compatibility;
 
 
 
-public void Configure(IAppHostBuilder appBuilder)
+public static class MauiProgram
 {
-    appBuilder        
-        .UseTelerik()
-        .UseMauiApp<App>();
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
 
-}              
+		return builder.Build();
+	}
+}           
  ```
 
 ## See Also
