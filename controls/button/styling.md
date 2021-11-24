@@ -25,4 +25,4 @@ The following image shows the end result.
 
 ## See Also
 
-- [Creating a Circular Button]({%slug button-howto-create-circle-button%})
+- [Creating a Circular Button]({%slug button-create-circle-button%})

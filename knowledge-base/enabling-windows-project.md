@@ -14,12 +14,12 @@ res_type: kb
 
 |   |   |
 |---|---|
-| Product   |Telerik UI for .NET MAUI
+| Product   |Telerik UI for .NET MAUI|
 | Product Version | ...  |
 
 ## Description
 
-In .NET 6 RC1, you can use a single project for all the MAUI target platforms, which means that you no longer need an external .NET MAUI project.
+In .NET 6 RC1, you can use a single project for all the MAUI target platforms, which means that you no longer need an external WinUI project.
 
 ## Cause
 
@@ -46,7 +46,7 @@ This functionality is not yet enabled by default. To implement it, you need to a
 
     ![](../images/troubleshooting/maui-project-template.png)
 
-    On Android, iOS, MacCatalyst, and Windows, the new MAUI project is listed under the **Platforms** folder. However, the Windows Platform doesn't have an enabled TFM and you cannot build and deploy a Windows application.
+    On Android, iOS, MacCatalyst, and Windows, the new .NET MAUI project is listed under the **Platforms** folder. However, the Windows Platform doesn't have an enabled TFM and you cannot build and deploy a Windows application.
 
 1. Enable the Windows TFM by manually editing the `.csproj` file. Uncomment the following line:
 

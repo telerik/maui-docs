@@ -14,7 +14,7 @@ res_type: kb
 
 |   |   |
 |---|---|
-| Product   |Telerik UI for .NET MAUI
+| Product   |Telerik UI for .NET MAUI|
 | Product Version | ...  |
 
 ## Description
