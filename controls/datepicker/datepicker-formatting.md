@@ -88,7 +88,11 @@ When `SpinnerFormat` is set and the device culture is changed, the separators us
 
 ## Examples
 
-**SpinnerFormat="MMMM dd"**
+The following examples demonstrate how to set the `SpinnerFormat` property of the DatePicker to different formats.
+
+### SpinnerFormat="MMMM dd"
+
+The following example demonstrates how to set the `SpinnerFormat` property to the `"MMMM dd"` format.
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMMM dd" />
@@ -98,7 +102,9 @@ The following image shows the result:
 
 ![](images/datepicker-string-format-mmmm-dd.png)
 
-**SpinnerFormat="dd"**
+### SpinnerFormat="dd"
+
+The following example demonstrates how to set the `SpinnerFormat` property to the `"dd"` format.
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="dd" />
@@ -108,7 +114,9 @@ The following image shows the result:
 
 ![](images/datepicker-string-format-dd.png)
 
-**SpinnerFormat="MMM yyyy"**
+### SpinnerFormat="MMM yyyy"
+
+The following example demonstrates how to set the `SpinnerFormat` property to the `"MM yyyy"` format.
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMM yyyy" />
@@ -118,7 +126,9 @@ The following image shows the result:
 
 ![](images/datepicker-string-format-mmm-yyyy.png)
 
-**SpinnerFormat="yyyy/dd/MMM"**
+### SpinnerFormat="yyyy/dd/MMM"
+
+The following example demonstrates how to set the `SpinnerFormat` property to the `"yyyy/dd/MMM"` format.
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
