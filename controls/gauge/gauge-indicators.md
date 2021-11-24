@@ -26,13 +26,15 @@ When the shape geometry is set, the gauge expects the following conditions to be
 - The rotation pivot point is (0.5, 0.5).
 - The needle orientation is from (0.5, 0.5) to (1, 0.5).
 
-When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. It is then rotated so that the needle points at the value. In the example below, the angle of rotation is 45 and in this case coincides with the needle value.
+When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. It is then rotated so that the needle points at the value.
+
+In the following example, the angle of rotation is 45 degrees and, in this case, coincides with the needle value.
 
 ![Gauge example](images/gauge-needle-indicator-shape.png)
 ![Gauge example](images/gauge-needle-indicator-shape-rotated.png)
 ![Gauge example](images/gauge-needle-indicator-with-grid.png)
 
-Here is an example of a custom needle shape:
+The following example demonstrates a custom needle shape:
 
 ```XAML
 <telerikCommon:RadPathGeometry x:Key="Needle3">
@@ -60,7 +62,7 @@ The following image shows the end result.
 
 ## Shape Indicator
 
-The `GaugeShapeIndicator` has the following properties:
+The `GaugeShapeIndicator` supports the following properties:
 
 * `Value`&mdash;Defines a single value of the shape indicator.
 * `Size`&mdash;Defines the size of the shape indicator.
@@ -103,14 +105,7 @@ The following image shows the end result.
 
 The `GaugeBarIndicator` presents a single value set by the `Value` property. The bar indicator is drawn alongside and parallel to the axis line, and is drawn from the axis origin value.
 
-```XAML
-<telerikGauges:GaugeBarIndicator Fill="Green"
-                                 StartThickness="0"
-                                 Offset="15"
-                                 Value="75" />
-```
-
-In addition, the Bar indicator has the following properties:
+The Bar indicator supports the following properties:
 
 * `StartThickness`(`double`)&mdash;Specifies the start thickness of the Bar indicator.
 * `EndThickness`(`double`)&mdash;Specifies the end thickness of the Bar indicator.
@@ -118,6 +113,16 @@ In addition, the Bar indicator has the following properties:
 * `EndCap`(of type `Telerik.XamarinForms.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Bar indicator.
 
   The available options from the `GaugeBarIndicatorCap` enumeration are `Flat`, `Oval`, and `ConcaveOval`. The default value for the start and end caps is `Flat`.
+
+The following example demonstrates how to implement a Bar indicator. 
+
+```XAML
+<telerikGauges:GaugeBarIndicator Fill="Green"
+                                 StartThickness="0"
+                                 Offset="15"
+                                 Value="75" />
+```
+
 
 ## Range Bar Indicator
 

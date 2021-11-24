@@ -1,6 +1,6 @@
 ---
-title: Positioning
-page_title: .NET MAUI Gauge Documentation | Positioning
+title: Positioning and Offset
+page_title: .NET MAUI Gauge Documentation | Positioning and Offset
 description: "Set the position and offset of the indicators when working with the Telerik Gauge for .NET MAUI control and learn what the Radial Gauge specifics are."
 position: 5
 slug: gauge-positioning
