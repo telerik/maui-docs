@@ -13,7 +13,7 @@ res_type: kb
 |   |   |
 |---|---|
 | Product   |Telerik UI for .NET MAUI Button|
-| Product Version | ...  |
+| Product Version | Telerik Ui for .NET MAUI 0.2.0 
 
 ## Description
 
