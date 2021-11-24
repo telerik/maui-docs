@@ -18,21 +18,23 @@ The `BorderStyle` (of type `Telerik.XamarinForms.Input.BorderStyle`) property al
 * `BorderThickness`(`Thickness`)
 * `CornerRadius`(`double`)
 
-You can define the `BorderStyle` in the **Resources** of your page as shown in the example below:
+The following example demonstrates how to apply the border styles of the Entry.
 
-```XAML
+1. Define the `BorderStyle` in the **Resources** of your page:
+
+ ```XAML
 <telerikInput:BorderStyle x:Key="EntryBorderStyle"
 						  BorderThickness="2"
 						  BorderColor="Red" />
-```
+ ```
 
-Then, apply that Style to the Entry instance:
+1. Then, apply that style to the Entry instance:
 
-```XAML
+ ```XAML
 <telerikInput:RadEntry x:Name="entry"
 					   WatermarkText="First Name"
 					   BorderStyle="{StaticResource EntryBorderStyle}"/>
-```
+ ```
 
 
 The following image shows the end result.
