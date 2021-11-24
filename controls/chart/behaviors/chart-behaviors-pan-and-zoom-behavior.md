@@ -1,5 +1,5 @@
 ---
-title: Pan And Zoom
+title: Pan and Zoom
 page_title: .NET MAUI Chart Documentation | Pan And Zoom Behavior
 description: Check our &quot;Pan And Zoom Behavior&quot; documentation article for Telerik Chart for .NET MAUI.
 tags: chart, .net maui, pan, zoom, ui for maui

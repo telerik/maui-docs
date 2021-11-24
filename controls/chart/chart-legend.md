@@ -46,6 +46,8 @@ The following list summarizes the most important properties of the `RadLegend` c
 
 `RadLegend` can be used in combination with `RadCartesianChart` as well.
 
+The following example demonstrates how to define some of the most important Chart legend properties.
+
 ```XAML
 <telerikChart:RadCartesianChart x:Name="chart" HeightRequest="300">
   <telerikChart:RadCartesianChart.BindingContext>

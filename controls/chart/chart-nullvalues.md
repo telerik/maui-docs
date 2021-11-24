@@ -13,7 +13,7 @@ In many scenarios some of the data points that are visualized in the Chart conta
 
 In case of Cartesian Series that require X and Y axes (Line, Area, Bar, and so on), the Chart represents `null` data points with an empty space or gap. In case of other chart types (Pie or Donut), these data points are not visualized.
 
-The following example demonstrates a data-bound scenario where nullable `double` type is used.
+The following example demonstrates a data-bound scenario where a nullable `double` type is used.
 
 1. First, create a `ViewModel` with a collection of `CategoryItems` objects, where a few of the items have null values:
 

@@ -25,7 +25,7 @@ The following example shows how to create a basic `RadPieChart` with a Donut Ser
 
 1. Define the `RadPieChart`:
 
-```XAML
+ ```XAML
 <telerikChart:RadPieChart>
     <telerikChart:RadPieChart.BindingContext>
         <local:ViewModel />

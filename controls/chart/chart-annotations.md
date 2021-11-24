@@ -25,8 +25,6 @@ The `CartesianGridLineAnnotation` represents a vertical or horizontal line that 
 
 >note When the associated axis is numerical, the `CartesianGridLineAnnotation` expects a numeric value. When the associated axis is a Categorical Axis, the `CartesianGridLineAnnotation` expects a category.
 
-**Example for CartesianGridLineAnnotation**
-
 The following example shows how the `CartesianGridLineAnnotation` works:
 
 1. First, create the needed business objects:
@@ -115,8 +113,6 @@ The `CartesianPlotBandAnnotation` represents a vertical or horizontal area that 
 - `From`&mdash;The starting value for the plot band.
 - `To`&mdash;The ending value for the plot band.
 - `Fill`&mdash;Gets or sets the Fill.
-
-**Example for CartesianPlotBandAnnotation**
 
 The following example shows how the `CartesianPlotBandAnnotation` works:
 
