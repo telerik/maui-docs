@@ -55,4 +55,4 @@ using Telerik.Maui.Controls.Compatibility;
 
 * [Positioning the Content of the Button]({% slug button-content-alignment %})
 * [Setting the Border Thickness & Color of Button]({% slug button-styling %})
-- [Creating a Circular Button]({%slug button-howto-create-circle-button%})
+- [Creating a Circular Button]({%slug button-create-circle-button%})
