@@ -14,7 +14,7 @@ This article explains the basic properties and methods that the DataGrid provide
 
 ## Important Properties
 
-The DataGrid supports different selection modes that you can modify through the [`SelectionUnit`](#selectionunit) and [`SelectedItems`](#selecteditems) properties. Before you can set the [`SelectionMode`](#selectionmode), you must choose which `Unit` can be selected.
+The DataGrid supports different selection modes that you can modify through the [SelectionUnit](#selectionunit) and [SelectedItems](#selecteditems) properties. Before you can set the [SelectionMode](#selectionmode), you must choose which `Unit` can be selected.
 
 ### SelectionUnit
 

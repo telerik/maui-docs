@@ -22,7 +22,7 @@ Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iO
 
 * [Commands]({%slug datagrid-commands-overview %})&mdash;The DataGrid allows you to attach commands, such as `ColumnHeaderTap`, `CellTap`, `BeginEdit`, and more, which will be executed when certain actions occur.
 
-* [UI Virtualization]&mdash;The highly optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
+* UI Virtualization&mdash;The highly optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
 * [Editing]({%slug datagrid-editing %})&mdash;You can enable users to edit the data presented in the DataGrid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For example, if one of the columns is a date, a date-picker will be used to offer a change in the date field.
 
@@ -30,7 +30,7 @@ Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iO
 
 * [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
-* [Rows alternation]&mdash;The DataGrid supports alternating row colors so that your users can easily distinguish one row from another.
+* Rows alternation&mdash;The DataGrid supports alternating row colors so that your users can easily distinguish one row from another.
 
 * [Flexible styling API]({%slug datagrid-styling%})&mdash;The DataGrid is highly customizable if you prefer to use your own styling.
 

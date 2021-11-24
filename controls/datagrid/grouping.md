@@ -14,8 +14,8 @@ The DataGrid provides a programmatic approach for grouping its data based on spe
 
 Programmatic grouping can be done by adding descriptors to the `GroupDescriptors` collection. There are two types of descriptors:
 
-* [`PropertyGroupDescriptor`](#property-group-descriptor)&mdash;Uses a property from the model as a group key.
-* [`DelegateGroupDescriptor`](#delegate-group-descriptor)&mdash;Creates a custom group key which you can use.
+* [PropertyGroupDescriptor](#property-group-descriptor)&mdash;Uses a property from the model as a group key.
+* [DelegateGroupDescriptor](#delegate-group-descriptor)&mdash;Creates a custom group key which you can use.
 
 All `GroupDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
 

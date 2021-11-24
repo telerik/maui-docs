@@ -24,9 +24,9 @@ The DataGrid offers two loading modes which are present in the `LoadOnDemandMode
 
 The DataGrid supports three different options for using its load-on-demand feature. You can choose the most convenient for you based on your application requirements:
 
- * [Using the `LoadOnDemand` collection](#loadondemandcollection)
- * [Using the `LoadOnDemand` event](#loadondemand-event)
- * [Using the `LoadMoreData` command](#loadmoredata-command)
+ * [Using the LoadOnDemand collection](#loadondemandcollection)
+ * [Using the LoadOnDemand event](#loadondemand-event)
+ * [Using the LoadMoreData command](#loadmoredata-command)
 
 ### LoadOnDemandCollection
 

@@ -14,8 +14,8 @@ The DataGrid provides a built-in sorting functionality which allows the user to 
 
 The DataGrid provides two ways of programmatic sorting:
 
-* By a property with a [`PropertySortDescriptor`](#property-sort-descriptor)
-* By a custom key with a [`DelegateSortDescriptor`](#delegate-sort-descriptor)
+* By a property with a [PropertySortDescriptor](#property-sort-descriptor)
+* By a custom key with a [DelegateSortDescriptor](#delegate-sort-descriptor)
 
 ### Property Sort Descriptor
 

@@ -16,12 +16,12 @@ Programmatic filtering is achieved by adding different filter descriptors in the
 
 The following descriptor types are supported:
 
-* [`TextFilterDescriptor`](#text-filter-descriptor)
-* [`NumericalFilterDescriptor`](#numerical-filter-descriptor)
-* [`DateTimeFilterDescriptor`](#datetime-filter-descriptor)
-* [`BooleanFilterDescriptor`](#boolean-filter-descriptor)
-* [`CompositeFilterDescriptor`](#composite-filter-descriptor)
-* [`DelegateFilterDescriptor`](#delegate-filter-descriptor)
+* [TextFilterDescriptor](#text-filter-descriptor)
+* [NumericalFilterDescriptor](#numerical-filter-descriptor)
+* [DateTimeFilterDescriptor](#datetime-filter-descriptor)
+* [BooleanFilterDescriptor](#boolean-filter-descriptor)
+* [CompositeFilterDescriptor](#composite-filter-descriptor)
+* [DelegateFilterDescriptor](#delegate-filter-descriptor)
 
 All `FilterDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
 
