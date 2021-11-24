@@ -21,7 +21,7 @@ To define the docking side of a child element inside the dock layout component, 
 
 The way the child elements are docked and arranged depends on their order inside the DockLayout’s Children collection (the order they’re defined in XAML).
 
-Following is a quick example on how you can utilize the docking functionality:
+The following example demonstrates how to utilize the docking functionality:
 
 <snippet id='docklayout-docking-feature' />
 ```XAML
