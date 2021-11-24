@@ -15,7 +15,7 @@ res_type: kb
 |   |   |
 |---|---|
 | Product   |Telerik UI for .NET MAUI|
-| Product Version | ...  |
+| Product Version | Telerik UI for .NET MAUI 0.0.1   |
 
 ## Description
 
