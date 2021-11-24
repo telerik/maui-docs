@@ -8,35 +8,33 @@ position: 0
 
 # Spline Series
 
-## Overview
-
-**RadCartesianChart** visualizes each data item from the **LineSeries** and connects them with curved line segments. The **SplineSeries** extend **LineSeries**, so they are also **CategoricalSeries** and require one **CategoricalAxis** and one **NumricalAxis**.
+The Cartesian Chart visualizes each data item from the Line Series and connects them with curved line segments. The Spline Series extend the [Line Series]({% slug chart-series-line-series %}), so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 
 ## Features
 
-**SplineSeries** extend [**LineSeries**]({% slug chart-series-line-series %}) so they provide the same properties to change their style:
+The Spline Series extend the Line Series so they provide the same properties to change their style:
 
-- **Stroke** (Color): changes the color used to draw lines.
-- **StrokeThickness** (double): changes the width of the lines.
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
 
-## Example
+## Spline Series Example
 
-Here is an example how to create RadCartesianChart with Spline Series:
+The following example shows how to create a `RadCartesianChart` with a Spline Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class CategoricalDataViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -59,11 +57,11 @@ public class CategoricalDataViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Spline Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a Spline Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:CategoricalDataViewModel />
@@ -81,21 +79,21 @@ Finally, use the following snippet to declare a RadCartesianChart with Spline Se
                                    ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic SplineSeries](images/cartesian-spline-series-basic-example.png)
 
-### Customization Example
+## Customization Example
 
-Here we make some customization:
+You can further customize the Spline Series:
 
 ```C#
-	var series = new SplineSeries 
-	{ 
-		Stroke = new Color(0.6, 0.6, 0.9), 
-		StrokeThickness = 5 
+	var series = new SplineSeries
+	{
+		Stroke = new Color(0.6, 0.6, 0.9),
+		StrokeThickness = 5
 	};
 ```
 

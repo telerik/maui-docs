@@ -1,6 +1,6 @@
 ---
 title: Chart Legend
-page_title: .NET MAUI Chart Documentation | Chart Legend 
+page_title: .NET MAUI Chart Documentation | Legend
 slug: chart-features-legend
 description: Check our &quot;Chart Legend&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 9
@@ -8,9 +8,9 @@ position: 9
 
 # Chart Legend
 
-The Legend feature of the **RadChart** makes it easy for you to provide description regarding the series which are visualized within the control. In order to add the legend feature in your application, you need to initialize a new object of type **RadLegend**. 
+The Legend feature of the `RadChart` makes it easy for you to provide description regarding the series which are visualized within the control.
 
-Chart Legend definition:
+To add the legend feature in your application, you need to initialize a new object of type `RadLegend`.
 
 ```XAML
 <telerikChart:RadPieChart x:Name="pieChart" HeightRequest="300">
@@ -21,28 +21,29 @@ Chart Legend definition:
         <telerikChart:PieSeries DisplayName="Value" LegendTitleBinding="Category" ItemsSource="{Binding Data1}" ValueBinding="Value"/>
     </telerikChart:RadPieChart.Series>
 </telerikChart:RadPieChart>
-<telerikChart:RadLegend HeightRequest="200" 
+<telerikChart:RadLegend HeightRequest="200"
                         LegendItemFontColor="DarkGreen"
                         LegendItemFontSize="20"
                         LegendProvider="{x:Reference Name=pieChart}"/>
 ```
 
-### **Figure 1: RadLegend in combination with PieChart**
+The following image shows the `RadLegend` in combination with the Pie Chart.
 
 ![Pie Chart legend](images/piechart-legend.png)
 
-As shown in **Figure 1**, each item within the **RadLegend** represents particular series. The most important property which you need to set is the **LegendProvider**. It should point to the chart object whose series will be included in the legend. 
+## Properties
 
-Here are the most important properties of the **RadLegend** control. In brackets is commented the type of the property:
+As shown in the previous image, each item within the `RadLegend` represents a specific series. The most important property which you need to set is the `LegendProvider`. It will point to the chart object whose series will be included in the legend.
 
-* **LegendProvider**(RadChartBase): The Chart control whose series will be described in the legend.
-* **LegendItemFontSize**(double): The size of the item's title text.
-* **LegendItemFontColor**(Color): The color of the item's title text.
-* **LegendItemIconSize**(Size): The size of the title icons.
-* **Orientation**(LegendOrientation): Sets the orientation of the legend. Can be Horizontal or Vertical.
+The following list summarizes the most important properties of the `RadLegend` control. In brackets is commented the type of the property:
 
+* `LegendProvider` (`RadChartBase`)&mdash;The Chart control whose series will be described in the legend.
+* `LegendItemFontSize` (`double`)&mdash;The size of the item's title text.
+* `LegendItemFontColor` (`Color`)&mdash;The color of the item's title text.
+* `LegendItemIconSize` (`Size`)&mdash;The size of the title icons.
+* `Orientation` (`LegndOrientation`)&mdash;Sets the orientation of the legend. Can be `Horizontal` or `Vertical`.
 
-The control can be used in combination with **RadCartesianChart** as well. 
+`RadLegend` can be used in combination with `RadCartesianChart` as well.
 
 ```XAML
 <telerikChart:RadCartesianChart x:Name="chart" HeightRequest="300">
@@ -56,38 +57,38 @@ The control can be used in combination with **RadCartesianChart** as well.
     <telerikChart:NumericalAxis />
   </telerikChart:RadCartesianChart.VerticalAxis>
   <telerikChart:RadCartesianChart.Series>
-    <telerikChart:LineSeries CategoryBinding="Category" 
-                            ValueBinding="Value" 
+    <telerikChart:LineSeries CategoryBinding="Category"
+                            ValueBinding="Value"
                             DisplayName=" Data1"
                             ItemsSource="{Binding Data1}" />
-    <telerikChart:LineSeries CategoryBinding="Category" 
-                             ValueBinding="Value" 
+    <telerikChart:LineSeries CategoryBinding="Category"
+                             ValueBinding="Value"
                              DisplayName=" Data2"
                              ItemsSource="{Binding Data2}" />
-    <telerikChart:LineSeries CategoryBinding="Category" 
-                             ValueBinding="Value" 
+    <telerikChart:LineSeries CategoryBinding="Category"
+                             ValueBinding="Value"
                              DisplayName=" Data3"
                              ItemsSource="{Binding Data3}" />
   </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-    <telerikChart:RadLegend LegendProvider="{x:Reference Name=chart}" 
+    <telerikChart:RadLegend LegendProvider="{x:Reference Name=chart}"
                             LegendItemFontColor="DarkGreen"
                             HeightRequest="200"/>
 ```
 
-### **Figure 2: RadLegend in combination with CartesianChart**
+The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 
 ![Cartesian Chart legend](images/cartesianchart-legend.png)
 
-## LegendTitleBinding
+## Legend Title Binding
 
-The **LegendTitleBinding** is a property which can be set specifically for the **PieSeries**. It points to the property of the data item which will be used as a title in the legend. For all other series, the **DisplayName** property will be used instead.
+The `LegendTitleBinding` is a property which can be set specifically for the Pie Series. It points to the property of the data item which will be used as a title in the legend. For all other series, the `DisplayName` property will be used instead.
 
 ```XAML
 <telerikChart:RadPieChart.Series>
-    <telerikChart:PieSeries DisplayName="Value" 
-							LegendTitleBinding="Category" 
-							ItemsSource="{Binding Data1}" 
+    <telerikChart:PieSeries DisplayName="Value"
+							LegendTitleBinding="Category"
+							ItemsSource="{Binding Data1}"
 							ValueBinding="Value"/>
 </telerikChart:RadPieChart.Series>
 ```

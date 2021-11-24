@@ -6,22 +6,24 @@ description: Check our &quot;DonutSeries&quot; documentation article for Telerik
 position: 1
 ---
 
-# DonutSeries #
+# Donut Series
 
-## Overview ##
+The Pie Chart visualizes the Donut Series in the shape of a donut. The inner empty space is set according to the `InnerRadiusFactor` property. Each data item is visually represented by a donut slice. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
 
-**RadPieChart** visualizes the **DonutSeries** in the shape of a donut. The inner empty space is set according to the **InnerRadiusFactor** property. Each data item is visually represented by a donut slice. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
+## Features
 
-## Features ##
+The Donut Series supports the following properties:
 
-- **ValueBinding**: Defines the binding to a property of the data model that will be used to fill the pie slices.
-- **RadiusFactor**: Specifies the radius factor used to calculate the radius of the visual series. This value is usually within the [0,1] range but it is possible to oversize the series by setting a value greater than 1.
-- **InnerRadiusFactor**: Specifies the radius factor used to calculate the radius of the inner empty space within the Donut visual element.
-- **SelectedPointOffset**: Sets the offset applied to the currently selected point.
+- `ValueBinding`&mdash;Defines the binding to a property of the data model that will be used to fill the pie slices.
+- `RadiusFactor`&mdash;Specifies the radius factor used to calculate the radius of the visual series. This value is usually within the [0,1] range but it is possible to oversize the series by setting a value greater than `1`.
+- `InnerRadiusFactor`&mdash;Specifies the radius factor used to calculate the radius of the inner empty space within the Donut visual element.
+- `SelectedPointOffset`&mdash;Sets the offset applied to the currently selected point.
 
-## Example ##
+## Example
 
-Here is an example that shows how to create a basic RadPieChart with DonutSeries in XAML: 
+The following example shows how to create a basic `RadPieChart` with a Donut Series in XAML.
+
+1. Define the `RadPieChart`:
 
 ```XAML
 <telerikChart:RadPieChart>
@@ -35,22 +37,22 @@ Here is an example that shows how to create a basic RadPieChart with DonutSeries
                                   ItemsSource="{Binding Data}" />
     </telerikChart:RadPieChart.Series>
 </telerikChart:RadPieChart>
-```
+ ```
 
-And the business object exposes the following properties:
+1. Define the business object exposing the following properties:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-You'd also need to add a ViewModel class and add some data:
+1. Add a `ViewModel` class and some data:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -73,9 +75,9 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Here is the result:
+The following image shows the end result.
 
 ![Basic Donut Series](images/donut-series-basic-example.png)
 
@@ -83,4 +85,3 @@ Here is the result:
 
 - [Pie Series Overview]({%slug chart-series-pie-series %})
 - [Categorical Series Overview]({%slug chart-series-overview %})
-

@@ -1,35 +1,35 @@
 ---
-title: CategoricalSeries Orientation
-page_title: .NET MAUI Chart Documentation | CategoricalSeries Orientation
+title: Orientation
+page_title: .NET MAUI Chart Documentation | Categorical Series Orientation
 description: Check our &quot;CategoricalSeries Orientation&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-orientation
 position: 0
 ---
 
-# Orientation
+# Categorical Series Orientation
 
-The orientation of the series depends on which chart axis is horizontal and which one is vertical. 
+The orientation of the series depends on which chart axis is horizontal and which one is vertical.
 
->note Orientation property could be applied only to CategoricalSeries, such as Bar, Line and Area.
+>note The `Orientation` property can be applied only to Categorical Series, such as Bar, Line, and Area.
 
-## Horizontal BarSeries Example
+## Horizontal Bar Series Example
 
-Here is an example how to create RadCartesianChart with vertical CategoricalAxis and Horizontal Bar Series:
+The following example shows how to create a Cartesian Chart with a vertical `CategoricalAxis` and a Horizontal Bar Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class CategoricalDataViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -52,11 +52,11 @@ public class CategoricalDataViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Bar Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a Bar Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:CategoricalDataViewModel />
@@ -73,31 +73,30 @@ Finally, use the following snippet to declare a RadCartesianChart with Bar Serie
                                 ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-
-Here is the result:
+The following image shows the end result.
 
 ![Horizontal BarSeries](images/chart-series-features-horizontal-series.png)
 
-## Horizontal Stack BarSeries Example
+## Horizontal Stack Bar Series Example
 
-Here is an example how to create RadCartesianChart with vertical CategoricalAxis and Stack Horizontal Bar Series:
+The following example shows how to create a Cartesian Chart with a vertical `CategoricalAxis` and a Stack Horizontal Bar Series:
 
-First, create the needed business objects, for example:
+1. First, create the needed business objects, for example:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesCategoricalViewModel
 {
     public ObservableCollection<CategoricalData> Data1 { get; set; }
@@ -135,11 +134,11 @@ public class SeriesCategoricalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Bar Series in XAML:
+1. Finally, use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesCategoricalViewModel />
@@ -161,9 +160,9 @@ Finally, use the following snippet to declare a RadCartesianChart with Bar Serie
                                 ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is the result:
+The following image shows the end result:
 
 ![Horizontal BarSeries](images/chart-series-features-horizontal-stack-series.png)
 

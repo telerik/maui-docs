@@ -1,48 +1,48 @@
 ---
-title: CartesianChart Grid
-page_title: Xamarin Chart Documentation | CartesianChart Grid
+title: Cartesian Chart Grid
+page_title: .NET MAUI Charts Documentation | Cartesian Chart Grid
 description: Check our &quot;CartesianChart Grid&quot; documentation article for Telerik Chart for Xamarin control.
 slug: cartesian-chart-grid
 position: 8
 ---
 
-# CartesianChartGrid
+# Cartesian Chart Grid
 
-## Overview
-
-The CartesianChartGrid represents a decoration over the plot area of RadCartesianChart. It adds major lines connected to each Major tick of each axis. You can set a new grid through the RadCartesianChart.Grid property.
+The Cartesian Chart Grid represents a decoration over the plot area of `RadCartesianChart`. It adds major lines connected to each `Major` tick of each axis. You can set a new grid through the `RadCartesianChart.Grid` property.
 
 ## Features
 
-- **MajorLinesVisibility** : Gets or sets the visibility of major grid lines. In other means : a line that extends the major ticks throughout the plot area.
-- **MajorLineThickness**: Gets or sets the thickness of the Major Grid Lines.
-- **MajorLineColor**: Gets or sets the color the of Major Grid Lines.
-- **MajorXLineDashArray** : Gets or sets a collection of Double values that indicates the pattern of dashes and gaps that is used to outline Major X Grid Line.
-- **MajorYLineDashArray**: Gets or sets a collection of Double values that indicates the pattern of dashes and gaps that is used to outline Major Y Grid Line.
-- **StripeLinesVisibility**:  Gets or sets the visibility of the grid stripes. In other means : the area between two grid lines.
-- **YStripeColor** : Gets or sets the color of the area between two major ticks of the Vertical Axis. This color alternates with the YStripeAlternativeColor starting from the first area.
-- **YStripeAlternativeColor** : Gets or sets the color of the area between two major ticks of the Vertical Axis. This color alternates with the YStripeColor starting from the second area.
-- **XStripeColor**: Gets or sets the color of the area between two major ticks of the Horizontal Axis. This color alternates with the XStripeAlternativeColor starting from the first area.
-- **XStripeAlternativeColor**: Gets or sets the color of the area between two major ticks of the Horizontal Axis. This color alternates with the XStripeAlternativeColor starting from the second area.
+The Cartesian Chart Grid provides the following features:
+
+- `MajorLinesVisibility`&mdash;Gets or sets the visibility of major grid lines; in other words, a line that extends the major ticks throughout the plot area.
+- `MajorLineThickness`&mdash;Gets or sets the thickness of the major grid lines.
+- `MajorLineColor`&mdash;Gets or sets the color the of major grid lines.
+- `MajorXLineDashArray`&mdash;Gets or sets a collection of double values that indicates the pattern of dashes and gaps that is used to outline the X major grid line.
+- `MajorYLineDashArray`&mdash;Gets or sets a collection of double values that indicates the pattern of dashes and gaps that is used to outline Y major grid line.
+- `StripeLinesVisibility`&mdash;Gets or sets the visibility of the grid stripes; in other words, the area between two grid lines.
+- `YStripeColor`&mdash;Gets or sets the color of the area between two major ticks of the Vertical Axis. This color alternates with the `YStripeAlternativeColor` starting from the first area.
+- `YStripeAlternativeColor`&mdash;Gets or sets the color of the area between two major ticks of the Vertical Axis. This color alternates with the `YStripeColor` starting from the second area.
+- `XStripeColor`&mdash;Gets or sets the color of the area between two major ticks of the Horizontal Axis. This color alternates with the `XStripeAlternativeColor` starting from the first area.
+- `XStripeAlternativeColor`&mdash;Gets or sets the color of the area between two major ticks of the Horizontal Axis. This color alternates with the `XStripeAlternativeColor` starting from the second area.
 
 ## Example
 
-Here is an example how the CartesianChartGrid works:
+The following example shows how the Cartesian Chart Grid works:
 
-First, create the needed business objects:
+1. First, create the needed business objects:
 
-```C#
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -65,11 +65,11 @@ public class ViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare the RadChart in XAML:
+1. Finally, declare the `RadChart` in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -92,15 +92,15 @@ Finally, use the following snippet to declare the RadChart in XAML:
                                          MajorLineThickness="3" />
     </telerikChart:RadCartesianChart.Grid>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
-```
+ ```
 
-Here is how the CartesianGridLineAnnotation looks:
+The following image shows how the `CartesianGridLineAnnotation` looks:
 
 ![Chart Grid](images/chart-grid-example.png)
 

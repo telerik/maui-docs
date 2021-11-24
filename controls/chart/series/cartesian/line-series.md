@@ -8,33 +8,33 @@ slug: chart-series-line-series
 
 # Line Series
 
-## Overview
-
-**RadCartesianChart** visualizes each data item from the **LineSeries** and connects them with straight line segments. The **LineSeries** extend **CategoricalStrokedSeries**, so they are also **CategoricalSeries** and require one **CategoricalAxis** and one **NumricalAxis**.
+The Cartesian Chart visualizes each data item from the Line Series and connects them with straight line segments. The Line Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 
 ## Features
 
-- **Stroke** (Color): changes the color used to draw lines.
-- **StrokeThickness** (double): changes the width of the lines.
+The Line Series supports the following properties:
 
-## Example
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
 
-Here is an example how to create RadCartesianChartChart with Line Series:
+## Line Series Example
 
-First, create the needed business objects, for example:
+The following example shows how to create a `RadCartesianChartChart` with a Line Series:
 
-```C#
+1. First, create the needed business objects, for example:
+
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class SeriesCategoricalViewModel
 {
     public ObservableCollection<CategoricalData> Data1 { get; set; }
@@ -72,11 +72,11 @@ public class SeriesCategoricalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with Line Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a Line Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:SeriesCategoricalViewModel />
@@ -97,21 +97,24 @@ Finally, use the following snippet to declare a RadCartesianChart with Line Seri
                                  ItemsSource="{Binding Data2}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic LineSeries](images/cartesian-line-series-basic-example.png)
 
-### Customization Example
-Here we make some customizations:
+## Customization Example
+
+You can further customize the Line Series:
+
 ```C#
-	var series = new LineSeries 
-	{ 
+	var series = new LineSeries
+	{
 		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5 
+		StrokeThickness = 5
 	};
 ```
+
 ![Customized LineSeries](images/cartesian-line-series-customization-example.png)
 
 ## See Also

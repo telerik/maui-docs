@@ -8,35 +8,35 @@ position: 0
 
 # ScatterSplineArea Series
 
-## Overview
-
-**RadCartesianChart** visualizes **ScatterSplineAreaSeries** as the area enclosed by the coordinate axes and curved line segments that connect the series data points. The **ScatterSplineAreaSeries** inherit from the [**ScatterPointSeries**]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be of type **NumericalAxis**.
+The Cartesian Chart visualizes ScatterSplineArea Series as the area enclosed by the coordinate axes and curved line segments that connect the series data points. The ScatterSplineArea Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 
 ## Features
 
-- **XValueBinding** : Defines the binding that will be used to fill the XValue of ScatterDataPoint members of the DataPoints collection.
-- **YValueBinding** : Defines the binding that will be used to fill the YValue of ScatterDataPoint members of the DataPoints collection.
-- **Stroke** (Color): Changes the color used to draw lines.
-- **StrokeThickness** (double): Changes the width of the lines.
-- **Fill** (Color): Changes the color used to fill the area shapes.
- 
-## Example
+The ScatterSplineArea Series provides the following properties:
 
-Here is an example how to create RadCartesianChart with ScatterSplineArea Series:
+- `XValueBinding`&mdash;Defines the binding that will be used to fill the `XValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
+- `YValueBinding`&mdash;Defines the binding that will be used to fill the `YValue` of the `ScatterDataPoint` members of the `DataPoints` collection.
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
+- `Fill` (Color)&mdash;Changes the color for filling the area shapes.
 
-First, create the needed business objects, for example:
+## ScatterSplineArea Series Example
 
-```C#
+The following example shows how to create a `RadCartesianChart` with a ScatterSplineArea Series:
+
+1. First, create the needed business objects, for example:
+
+ ```C#
 public class NumericalData
 {
     public double XData { get; set; }
     public double YData { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class NumericalViewModel
 {
     public ObservableCollection<NumericalData> Data { get; set; }
@@ -63,11 +63,11 @@ public class NumericalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with ScatterSplineArea Series in XAML:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a ScatterSplineArea Series in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:NumericalViewModel />
@@ -84,21 +84,22 @@ Finally, use the following snippet to declare a RadCartesianChart with ScatterSp
                                               ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic ScatterSplineAreaSeries](images/cartesian-scatter-spline-area-series-basic-example.png)
 
-### Customization Example
+## Customization Example
 
-Here we make some customization:
+You can further customize the ScatterSplineArea Series:
+
 ```C#
-	var series = new ScatterSplineAreaSeries 
-	{ 
-		Stroke = new Color(0.6, 0.6, 0.9), 
-		StrokeThickness = 5, 
-		Fill = new Color(0.8, 0.8, 1) 
+	var series = new ScatterSplineAreaSeries
+	{
+		Stroke = new Color(0.6, 0.6, 0.9),
+		StrokeThickness = 5,
+		Fill = new Color(0.8, 0.8, 1)
 	};
 ```
 

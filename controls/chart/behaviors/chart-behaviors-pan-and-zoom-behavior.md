@@ -1,5 +1,5 @@
 ---
-title: Pan And Zoom Behavior
+title: Pan And Zoom
 page_title: .NET MAUI Chart Documentation | Pan And Zoom Behavior
 description: Check our &quot;Pan And Zoom Behavior&quot; documentation article for Telerik Chart for .NET MAUI.
 tags: chart, .net maui, pan, zoom, ui for maui
@@ -7,42 +7,42 @@ position: 4
 slug: chart-behaviors-pan-and-zoom
 ---
 
-# ChartPanAndZoomBehavior
+# Pan and Zoom Behavior
 
-With **ChartPanAndZoomBehavior**, RadChart handles the gestures drag, pinch open and pinch close which respectively cause panning, zooming in and zooming out of the associated chart plot area.
+The Pan-and-Zoom behavior of the Chart handles the drag, pinch open, and pinch close gestures which respectively cause panning, zooming in, and zooming out of the associated chart plot area.
 
 ## Features
 
-- **ZoomMode**: Gets or sets value that specifies how the chart will respond to a zoom gesture. The available values are:
-	- None
-	- Horizontal
-	- Vertical
+- `ZoomMode`&mdash;Gets or sets value that specifies how the chart will respond to a zoom gesture. The available values are:
+	- `None`
+	- `Horizontal`
+	- `Vertical`
 	- Both
-- **PanMode**: Gets or sets value that specifies how the chart will respond to a pan gesture. The available values are:
-	- None
-	- Horizontal
-	- Vertical
+- `PanMode`&mdash;Gets or sets the value that specifies how the chart will respond to a pan gesture. The available values are:
+	- `None`
+	- `Horizontal`
+	- `Vertical`
 	- Both
-- **HandleDoubleTap**: Determines whether a double-tap gesture will be handled by the behavior to reset the values of the Zoom and ScrollOffset (Pan) properties of the chart.
+- `HandleDoubleTap`&mdash;Determines whether a double-tap gesture will be handled by the behavior to reset the values of the `Zoom` and `ScrollOffset` (`Pan`) properties of the chart.
 
 ## Example
 
-Here is an example of how the Chart PanAndZoom Behavior works:
+The following example shows how the pan-and-zoom behavior of the Cart works:
 
-Create the needed business objects, for example:
+1. Create the needed business objects, for example:
 
-```C#
+ ```C#
 public class TemporalData
 {
     public DateTime Date { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Create a ViewModel:
+1. Create a `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -80,11 +80,11 @@ public class ViewModel
         return items;
     }
 }
-```
+ ```
 
-Declare a RadCartesianChart in XAML:
+1. Declare a `RadCartesianChart` in XAML:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart PaletteName="Light"
                                 Zoom="2, 1">
     <telerikChart:RadCartesianChart.BindingContext>
@@ -108,14 +108,14 @@ Declare a RadCartesianChart in XAML:
                                  ItemsSource="{Binding Data}"/>
     </telerikChart:RadCartesianChart.Series>
     <telerikChart:RadCartesianChart.ChartBehaviors>
-        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal" 
-                                              PanMode="Horizontal" 
+        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal"
+                                              PanMode="Horizontal"
                                               HandleDoubleTap="True"/>
     </telerikChart:RadCartesianChart.ChartBehaviors>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-Here is the result:
+The following image shows the end result.
 
 ![Chart Pan And Zoom Behavior](images/chart-behaviors-panandzoom.png "Chart Pan And Zoom Behavior")
 
@@ -124,5 +124,3 @@ Here is the result:
 - [Chart Selection Behavior]({%slug chart-behaviors-selection%})
 - [Chart Track Ball Behavior]({%slug chart-behaviors-trackball%})
 - [Chart Tool Tip Behavior]({%slug chart-behaviors-tooltip%})
-
-	

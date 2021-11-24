@@ -8,34 +8,34 @@ position: 0
 
 # SplineArea Series
 
-## Overview
-
-**RadCartesianChart** visualizes **SplineAreaSeries** as an area on the chart that is enclosed by the coordinate axes and straight line segments that connect the data points represented by these series. The **SplineAreaSeries** extend **CategoricalStrokedSeries**, so they are also **CategoricalSeries** and require one **CategoricalAxis** and one **NumricalAxis**.
+The Cartesian Chart visualizes the SplineArea Series as an area on the chart that is enclosed by the coordinate axes and straight line segments, which connect the data points represented by these series. The SplineArea Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 
 ## Features
 
-- **Stroke** (Color): changes the color used to draw lines.
-- **StrokeThickness** (double): changes the width of the lines.
-- **Fill** (Color): changes the color used to fill the area shapes.
+The SplineArea Series provides the following properties:
 
-## Example
+- `Stroke` (Color)&mdash;Changes the color for drawing lines.
+- `StrokeThickness` (double)&mdash;Changes the width of the lines.
+- `Fill` (Color)&mdash;Changes the color for filling the area shapes.
 
-Here is an example how to create RadCartesianChart with SplineArea Series:
+## SplineArea Series Example
 
-First, create the needed business objects, for example:
+The following example shows how to create a `RadCartesianChart` with a SplineArea Series:
 
-```C#
+1. First, create the needed business objects, for example:
+
+ ```C#
 public class CategoricalData
 {
     public object Category { get; set; }
 
     public double Value { get; set; }
 }
-```
+ ```
 
-Then create a ViewModel:
+1. Then, create a `ViewModel`:
 
-```C#
+ ```C#
 public class CategoricalViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -58,11 +58,11 @@ public class CategoricalViewModel
         return data;
     }
 }
-```
+ ```
 
-Finally, use the following snippet to declare a RadCartesianChart with SplineArea Series in XAML and in C#:
+1. Finally, use the following snippet to declare a `RadCartesianChart` with a SplineArea Series in XAML and in C#:
 
-```XAML
+ ```XAML
 <telerikChart:RadCartesianChart>
     <telerikChart:RadCartesianChart.BindingContext>
         <local:CategoricalViewModel />
@@ -80,22 +80,25 @@ Finally, use the following snippet to declare a RadCartesianChart with SplineAre
                                        ItemsSource="{Binding Data}" />
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
-```
+ ```
 
-And here is the result:
+The following image shows the end result:
 
 ![Basic SplineAreaSeries](images/cartesian-spline-area-series-basic-example.png)
 
-### Customization Example
+## Customization Example
+
+You can further customize the SplineArea Series:
 
 ```C#
-	var series = new SplineAreaSeries 
-	{ 
-		Stroke = new Color(0.6, 0.6, 0.9), 
-		StrokeThickness = 5, 
-		Fill = new Color(0.8, 0.8, 1) 
+	var series = new SplineAreaSeries
+	{
+		Stroke = new Color(0.6, 0.6, 0.9),
+		StrokeThickness = 5,
+		Fill = new Color(0.8, 0.8, 1)
 	};
 ```
+
 ![Customized SplineAreaSeries](images/cartesian-spline-area-series-customization-example.png)
 
 ## See Also
