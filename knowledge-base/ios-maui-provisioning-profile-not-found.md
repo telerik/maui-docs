@@ -25,10 +25,6 @@ While you are building the Telerik MAUI Demo app or the .NET MAUI application, y
 
 `Could not find any available provisioning profiles for HelloMaui on iOS`.
 
-## Cause
-
-....
-
 ## Solution
 
 Apply either of the following approaches:
