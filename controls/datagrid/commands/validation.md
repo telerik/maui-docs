@@ -8,18 +8,16 @@ slug: datagrid-commands-validation
 
 # Validation Command
 
-RadDataGrid control provides a validation command that has an entry point for validating cells content. The execution parameter is of type *ValidateCellContext* that exposes the following properties:
+The DataGrid control provides a validation command that has an entry point for validating cells content. The execution parameter is of type `ValidateCellContext` and exposes the following properties:
 
-* **CellInfo**: Gets the cell info associated with the operation.
-* **Errors**: Gets or sets the errors (if any) that occurred during the validation.
+* `CellInfo`&mdash;Gets the cell information associated with the operation.
+* `Errors`&mdash;Gets or sets the errors (if any) that occurred during the validation.
 
 ## Example
 
-Here is an example how the RadDataGrid ValidateCell Command works:
+Here is an example how the DataGrid `ValidateCell` command works:
 
-First, create class Data (our business object) that inherits from the **INotifyDataErrorInfo** and **INotifyPropertyChanged** interfaces.
-
->note We are going to do the validation through the **INotifyDataErrorInfo** interface.
+First, create a `Data` class (the business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces. For demonstration purposes, the example will do the validation through the `INotifyDataErrorInfo` interface.
 
 <snippet id='datagrid-commands-validation-businessobject'/>
 ```C#
@@ -141,7 +139,7 @@ public class Data : INotifyDataErrorInfo, INotifyPropertyChanged
 }
 ```
 
-Then create a ViewModel with a collection of Data objects:
+Then, create a `ViewModel` with a collection of `Data` objects:
 
 <snippet id='datagrid-commands-validation-viewmodel'/>
 ```C#
@@ -172,8 +170,7 @@ public class ViewModel : INotifyPropertyChanged
 }
 ```
 
-Then handle the CellTap action as a Command. First, create a class that inherits from the `DataGridCommand` and set its Id property accordingly.
-You would also need to override CanExecute and Execute methods as demonstrated in the example below:
+Then, handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
 <snippet id='datagrid-commands-validation-validatecell'/>
 ```C#
@@ -194,7 +191,7 @@ public class ValidateCellCommand : DataGridCommand
 }
 ```
 
-Then set the BindingContext to be the ViewModel and add this Command to the Commands collection of the RadDataGrid instance:
+Then, set the `BindingContext` to be the `ViewModel` and add this command to the `Commands` collection of the `RadDataGrid` instance:
 
 <snippet id='datagrid-commands-validation-binding'/>
 ```C#
@@ -202,7 +199,7 @@ this.BindingContext = new ViewModel();
 this.dataGrid.Commands.Add(new ValidateCellCommand(errorContainer));
 ```
 
-Define the RadDataGrid in XAML:
+Define the DataGrid in XAML:
 
 <snippet id='datagrid-commands-validation'/>
 ```XAML
@@ -211,10 +208,10 @@ Define the RadDataGrid in XAML:
         <RowDefinition Height="Auto"/>
         <RowDefinition/>
     </Grid.RowDefinitions>
-    <Grid x:Name="errorContainer" 
+    <Grid x:Name="errorContainer"
           IsVisible="false">
         <BoxView BackgroundColor="DarkRed" />
-        <Label Text="country name length must be less than 15 symbols" 
+        <Label Text="country name length must be less than 15 symbols"
                FontSize="15"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"

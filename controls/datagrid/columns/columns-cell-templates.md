@@ -8,35 +8,35 @@ slug: datagrid-cell-templates
 
 # Columns Cell Templates
 
-This article describes how to set the content and edit templates to the DataGrid column using the **CellContentTemplate** and **CellEditTemplate** properties.
+This article describes how to set the content and edit templates to the DataGrid column using the `CellContentTemplate` and `CellEditTemplate` properties.
 
-* **CellContentTemplate** (DataTemplate): Defines the appearance of each cell associated with the concrete column. CellContenTemplate gives you the opportunity to wrap the text inside each datagrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's **LineBreakMode** property.
-* **CellEditTemplate** (DataTemplate): Defines the editor associated with the concrete column. The CellEditTemplate is displayed when the cell is in edit mode.
+* `CellContentTemplate` (DataTemplate): Defines the appearance of each cell associated with the concrete column. CellContenTemplate gives you the opportunity to wrap the text inside each datagrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's `LineBreakMode` property.
+* `CellEditTemplate` (DataTemplate): Defines the editor associated with the concrete column. The CellEditTemplate is displayed when the cell is in edit mode.
 
 ## Cell Content Template Example
 
-Use the following snippet to declare a RadDataGrid in XAML: 
+Use the following snippet to declare a RadDataGrid in XAML:
 
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid" 
-                             ItemsSource="{Binding Clubs}" 
-                             AutoGenerateColumns="False" 
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"
+                             ItemsSource="{Binding Clubs}"
+                             AutoGenerateColumns="False"
                              UserEditMode="Cell">
     <telerikDataGrid:RadDataGrid.Columns>
-        <telerikDataGrid:DataGridTextColumn PropertyName="Name" 
+        <telerikDataGrid:DataGridTextColumn PropertyName="Name"
                                             Width="100"
                                             SizeMode="Fixed"
                                             HeaderText="Name">
             <telerikDataGrid:DataGridColumn.CellContentTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding Name}" 
+                    <Label Text="{Binding Name}"
                            LineBreakMode="TailTruncation"
                            VerticalOptions="Center"/>
                 </DataTemplate>
             </telerikDataGrid:DataGridColumn.CellContentTemplate>
         </telerikDataGrid:DataGridTextColumn>
 
-        <telerikDataGrid:DataGridBooleanColumn PropertyName="IsChampion" 
+        <telerikDataGrid:DataGridBooleanColumn PropertyName="IsChampion"
                                                HeaderText="Champion?">
             <telerikDataGrid:DataGridColumn.CellContentTemplate>
                 <DataTemplate>
@@ -49,7 +49,7 @@ Use the following snippet to declare a RadDataGrid in XAML:
         <telerikDataGrid:DataGridTemplateColumn HeaderText="Template Column">
             <telerikDataGrid:DataGridColumn.CellContentTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding Country}" 
+                    <Label Text="{Binding Country}"
                            Margin="0, 5, 0, 5"
                            HorizontalOptions="Center"
                            VerticalTextAlignment="Center"/>
@@ -66,7 +66,7 @@ And add the following namespaces:
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-The **ViewModel** class is declared as following:
+The `ViewModel` class is declared as following:
 
 ```C#
 public class ColumnsViewModel
@@ -87,8 +87,8 @@ public class ColumnsViewModel
     }
 }
 ```
-	
-And the **Club** custom object:
+
+And the `Club` custom object:
 
 ```C#
 public class Club : INotifyPropertyChanged
@@ -170,16 +170,16 @@ DataGrid Date Column with CellContentTemplate property and inside the template w
 
 ## Cell Edit Template Example
 
-Use the following snippet to declare a RadDataGrid in XAML: 
+Use the following snippet to declare a RadDataGrid in XAML:
 
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid" 
-                             ItemsSource="{Binding Clubs}" 
-                             AutoGenerateColumns="False" 
+<telerikDataGrid:RadDataGrid x:Name="dataGrid"
+                             ItemsSource="{Binding Clubs}"
+                             AutoGenerateColumns="False"
                              SelectionMode="None"
                              UserEditMode="Cell">
     <telerikDataGrid:RadDataGrid.Columns>
-        <telerikDataGrid:DataGridTextColumn PropertyName="Name" 
+        <telerikDataGrid:DataGridTextColumn PropertyName="Name"
                                             HeaderText="Name">
             <telerikDataGrid:DataGridColumn.CellEditTemplate>
                 <DataTemplate>
@@ -196,7 +196,7 @@ Use the following snippet to declare a RadDataGrid in XAML:
             </telerikDataGrid:DataGridColumn.CellEditTemplate>
         </telerikDataGrid:DataGridTextColumn>
 
-        <telerikDataGrid:DataGridBooleanColumn PropertyName="IsChampion" 
+        <telerikDataGrid:DataGridBooleanColumn PropertyName="IsChampion"
                                                HeaderText="Champion?">
             <telerikDataGrid:DataGridColumn.CellEditTemplate>
                 <DataTemplate>
@@ -212,10 +212,10 @@ Use the following snippet to declare a RadDataGrid in XAML:
         <telerikDataGrid:DataGridNumericalColumn PropertyName="StadiumCapacity">
             <telerikDataGrid:DataGridColumn.CellEditTemplate>
                 <DataTemplate>
-                    <StackLayout Orientation="Horizontal" 
+                    <StackLayout Orientation="Horizontal"
                                  BackgroundColor="LightGray">
-                        <Slider Maximum="80000" Minimum="30000" 
-                                Value="{Binding Item.StadiumCapacity}" 
+                        <Slider Maximum="80000" Minimum="30000"
+                                Value="{Binding Item.StadiumCapacity}"
                                 HorizontalOptions="FillAndExpand" />
                         <Button Text="X" Command="{Binding CancelEditCommand}" />
                         <Button Text="OK" Command="{Binding CommitEditCommand}" />
@@ -233,7 +233,7 @@ And add the following namespaces
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-The **ViewModel** class is declared as following:
+The `ViewModel` class is declared as following:
 
 ```C#
 public class ColumnsViewModel
@@ -254,8 +254,8 @@ public class ColumnsViewModel
     }
 }
 ```
-	
-And the **Club** custom object:
+
+And the `Club` custom object:
 
 ```C#
 public class Club : INotifyPropertyChanged

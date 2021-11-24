@@ -10,19 +10,19 @@ slug: datagrid-columns-width
 
 This article describes how to set a width to the DataGrid column using the SizeMode and Width properties.
 
-* **SizeMode** (DataGridColumnSizeMode): Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
+* `SizeMode` (DataGridColumnSizeMode): Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
   * Fixed: The column has a fixed width as defined by its Width property.
   * Stretch: The column is stretched to the available width proportionally to its desired width.
   * Auto: The columns is sized to its desired width. That is the maximum desired width of all associated cells.
-* **Width** (double): - Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
-* **ActualWidth** (double): Gets the actual width of the column.
+* `Width` (double): Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
+* `ActualWidth` (double): Gets the actual width of the column.
 
 ## Example
 
 For the purpose of this example, we are going to use the following business object:
 
 ```C#
- public class Data
+public class Data
 {
 	public string Country { get; set; }
 	public string Capital { get; set; }
@@ -42,7 +42,7 @@ this.grid.ItemsSource = new List<Data>
 };
 ```
 
-1. First scenario when SizeMode="Fixed":
+### First scenario when SizeMode="Fixed":
 
 ```XAML
 <telerikGrid:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -53,19 +53,19 @@ this.grid.ItemsSource = new List<Data>
 </telerikGrid:RadDataGrid>
 ```
 
-	Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
 ```
-	
->important The **Width** property of columns will apply only when **SizeMode="Fixed"**.
+
+>important The `Width` property of columns will apply only when `SizeMode="Fixed"`.
 
 The first and second columns have set widths of 100 and 200, respectively:
 
 ![DataGrid SizeMode Property](../images/datagrid-columns-width-fixed.png)
 
-1. Second scenario when SizeMode="Stretch":
+### Second scenario when SizeMode="Stretch":
 
 ```XAML
 <telerikGrid:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -76,7 +76,7 @@ The first and second columns have set widths of 100 and 200, respectively:
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
@@ -86,7 +86,7 @@ The columns take all the available space proportionally. The Width property is i
 
 ![DataGrid SizeMode Property](../images/datagrid-columns-width-stretch.png)
 
-1. Third scenario when SizeMode="Auto":
+### Third scenario when SizeMode="Auto":
 
 ```XAML
 <telerikGrid:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -97,7 +97,7 @@ The columns take all the available space proportionally. The Width property is i
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
@@ -106,6 +106,8 @@ xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Tele
 The columns take only as much space as they need. The Width property is ignored.
 
 ![DataGrid SizeMode Property](../images/datagrid-columns-width-auto.png)
+
+###  Fourth scenario with different SizeMode values
 
 Lastly, lets use three columns to fully clarify the SizeMode behavior:
 
@@ -119,7 +121,7 @@ Lastly, lets use three columns to fully clarify the SizeMode behavior:
 </telerikGrid:RadDataGrid>
 ```
 
-Where the **telerikGrid** namespace is the following:
+Where the `telerikGrid` namespace is the following:
 
 ```xml
 xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"

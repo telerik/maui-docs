@@ -1,6 +1,6 @@
 ---
 title: DataGrid Styling
-page_title: .NET MAUI DataGrid Documentation | DataGrid Styling
+page_title: .NET MAUI DataGrid Documentation | Styling
 description: Check our &quot;DataGrid Styling&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
 slug: datagrid-styling
@@ -8,66 +8,68 @@ slug: datagrid-styling
 
 # DataGrid Styling
 
-RadDataGrid control provides the following Style properties for customizing its look & feel:
+The DataGrid control provides the following `Style` properties for customizing its look & feel:
 
-* **RowBackgroundStyle**: Defines the style of each row.
-* **AlternateRowBackgroundStyle**: Defines the appearance style of an alternate row.
-* **GroupHeaderStyle**: Defines the appearance style of the group header once the data grid is grouped.
-* **SelectionStyle**: Defines the appearance setting applied to the DataGrid selected row.
+* `RowBackgroundStyle`&mdash;Defines the style of each row.
+* `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
+* `GroupHeaderStyle`&mdash;Defines the appearance style of the group header once the DataGrid is grouped.
+* `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
 
 ## Styling Properties
 
-RowBackgroundStyle, AlternateRowBackgroundStyle and SelectionStyle are from type *DataGridBorderStyle* that defines the appearance setting applied to a BorderPaintable instance and exposes the following properties: **BackgroundColor**, **BorderColor**, **BorderTickness**.
+`RowBackgroundStyle`, `AlternateRowBackgroundStyle`, and `SelectionStyle` are of type `DataGridBorderStyle` that defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
 
-Here is an example how to set the RowBackgroundStyle property:
+Here is an example how to set the `RowBackgroundStyle` property:
 
 <snippet id='datagrid-styling-rowbackgroundstyle'/>
 ```XAML
 <telerikDataGrid:RadDataGrid.RowBackgroundStyle>
-    <telerikDataGrid:DataGridBorderStyle BackgroundColor="CadetBlue" 
-                                     BorderColor="DarkOrchid" 
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="CadetBlue"
+                                     BorderColor="DarkOrchid"
                                      BorderThickness="1"/>
 </telerikDataGrid:RadDataGrid.RowBackgroundStyle>
 ```
 
-An example how to set the AlternateRowBackgroundStyle is shown below:
+An example how to set the `AlternateRowBackgroundStyle` is shown below:
 
 <snippet id='datagrid-styling-alternaterowbackgroundstyle'/>
 ```XAML
 <telerikDataGrid:RadDataGrid.AlternateRowBackgroundStyle>
-    <telerikDataGrid:DataGridBorderStyle BackgroundColor="LightBlue" 
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="LightBlue"
                                      BorderThickness="1"
                                      BorderColor="BlanchedAlmond"/>
 </telerikDataGrid:RadDataGrid.AlternateRowBackgroundStyle>
 ```
 
-The SelectionStyle property could be set as shown below:
+The `SelectionStyle` property can be set as shown below:
 
 <snippet id='datagrid-styling-selectionstyle'/>
 ```XAML
 <telerikDataGrid:RadDataGrid.SelectionStyle>
-    <telerikDataGrid:DataGridBorderStyle BackgroundColor="SeaGreen" 
-                                     BorderColor="Wheat" 
+    <telerikDataGrid:DataGridBorderStyle BackgroundColor="SeaGreen"
+                                     BorderColor="Wheat"
                                      BorderThickness="2"/>
 </telerikDataGrid:RadDataGrid.SelectionStyle>
 ```
 
-GoupHeaderStyle property is applied once the DataGrid is grouped. The following properties can be used for customizing the grouped DataGrid:
+The `GoupHeaderStyle` property is applied once the DataGrid is grouped.
 
-* **BackgroundColor**: Defines the color that fills the area within the header of the DataGrid’s GroupHeader.
-* **BorderColor**: Defines the that fills the border region of the GroupHeader
-* **BorderThickness**: Defines the thickness of the border.
-* **Button Font Options** (ButtonFontAttributes, ButtonFontFamily, ButtonFontSize): Define the font options of the GroupedHeader expand/collapse symbol.
-* **ButtonMargin**: Defines the margin of the expand/collapse symbol of the GroupHeader.
-* **ButtonTextColor**: Defines the text color of the expand/collapse symbol of the GroupHeader.
-* **CollapseButtonText**: Defines the text for the collapse state of the GroupHeader.
-* **ExpandButtonText**: Defines the text for the expand state of the GroupHeader.
-* **Text Alignment** (TextMargin, VerticalTextAlignment, HorizontalTextAlignment): Define the positioning for the text part of the GroupHeader.
-* **Text Font Options** (TextFontattributes, TextFontFamily, TextFontSize): Define the font options of the GroupHeaders text part. 
+The following properties can be used for customizing the grouped DataGrid:
 
->note Please note that once the group is applied to the DataGrid the GroupHeader will appear. Also, by default the Button of the GroupHeader uses an internal symbol font family. In order to show text when the button is expanded/collapsed instead of symbol set a font family to the **ButtonFontFamily** property and set a text to the **ExpandButtonText** and **CollapseButtonText** properties. For more details on the group feature refer [here]({%slug datagrid-grouping-overview%}).
+* `BackgroundColor`&mdash;Defines the color that fills the area within the header of the DataGrid `GroupHeader`.
+* `BorderColor`&mdash;Defines the color that fills the border region of the `GroupHeader`.
+* `BorderThickness`&mdash;Defines the thickness of the border.
+* `Button Font Options` (`ButtonFontAttributes`, `ButtonFontFamily`, `ButtonFontSize`)&mdash;Define the font options of the `GroupedHeader` expand/collapse symbol.
+* `ButtonMargin`&mdash;Defines the margin of the expand/collapse symbol of the `GroupHeader`.
+* `ButtonTextColor`&mdash;Defines the text color of the expand/collapse symbol of the `GroupHeader`.
+* `CollapseButtonText`&mdash;Defines the text for the collapse state of the `GroupHeader`.
+* `ExpandButtonText`&mdash;Defines the text for the expand state of the `GroupHeader`.
+* `Text` alignment options (`TextMargin`, `VerticalTextAlignment`, `HorizontalTextAlignment`)&mdash;Define the positioning for the text part of the `GroupHeader`.
+* `TextFont` options (`TextFontattributes`, `TextFontFamily`, `TextFontSize`)&mdash;Define the font options of the `GroupHeaders` text part.
 
-Here is an example how to apply the GoupHeaderStyle property to the RadDataGrid control:
+>note Note that once the group is applied to the DataGrid, the `GroupHeader` will appear. Also, by default, the Button of the `GroupHeader` uses an internal symbol font family. To show text when the button is expanded or collapsed, instead of a symbol set a font family to the `ButtonFontFamily` property and define text to the `ExpandButtonText` and `CollapseButtonText` properties. For more details, refer to the [group feature of the DataGrid]({%slug datagrid-grouping-overview%}).
+
+Here is an example how to apply the `GoupHeaderStyle` property to the DataGrid control:
 
 <snippet id='datagrid-styling-groupheaderstyle'/>
 ```XAML
@@ -78,7 +80,7 @@ Here is an example how to apply the GoupHeaderStyle property to the RadDataGrid 
 </telerikDataGrid:RadDataGrid.GroupHeaderStyle>
 ```
 
-Here is how the RadDataGrid looks:
+Here is how the DataGrid looks:
 
 ![DataGrid Styling](../images/datagrid-styling.png)
 

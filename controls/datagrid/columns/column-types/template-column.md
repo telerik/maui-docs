@@ -8,24 +8,24 @@ slug: datagrid-columns-template-column
 
 # DataGrid TemplateColumn
 
-If you want to completely customize the content of the cells in a grid column you can use **DataGridTemplateColumn**, which uses a **DataTemplate** to describe the content of each associated grid cell.
+If you want to completely customize the content of the cells in a grid column, you can use `DataGridTemplateColumn`, which utilizes a `DataTemplate` to describe the content of each associated grid cell.
 
-## Important Properties:
+## Important Properties
 
-* **HeaderText**: Defines the content to be displayed in the Header UI that represents the column.
-* **SortDescriptor** (*SortDescriptorBase*)
-* **GroupDescriptor** (*GroupDescriptorBase*)
-* **CellContentTemplate** (DataTemplate): Defines the DataTemplate instance that defines the appearance of each cell associated with this column.
-* **CellContentTemplateSelector** (DataTemplateSelector): Defines a DataTemplateSelector instance that may be used to retrieve dynamic data templates on a per cell basis.
-* **CellEditTemplate** (DataTemplate): Defines the editor associated with the concrete column. The CellEditTemplate is displayed when the cell is in edit mode.
+* `HeaderText`&mdash;Defines the content that will be displayed in the Header UI that represents the column.
+* `SortDescriptor` (`SortDescriptorBase`)
+* `GroupDescriptor` (`GroupDescriptorBase`)
+* `CellContentTemplate` (`DataTemplate`)&mdash;Defines the `DataTemplate` instance that sets the appearance of each cell associated with this column.
+* `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.
+* `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 
->important More information about Sorting and Grouping can be found in [DataGrid Soting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
+>important For more information about sorting and grouping, refer to the [DataGrid Sorting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
 
 ## Sorting and Grouping for Template Column
 
-The example below shows how Sorting and Grouping can be applied to the DataGrid Template Column. 
+The example below shows how to apply sorting and grouping to the DataGrid Template Column.
 
-Here is how the VieWModel and the business object are defined:
+Here is how the `VieWModel` and the business object are defined:
 
 ```C#
 public class ViewModel
@@ -54,11 +54,11 @@ public class Person
 }
 ```
 
-The DataGrid definition:
+Define the DataGrid:
 
 ```XAML
 <telerikDataGrid:RadDataGrid AutoGenerateColumns="False"
-                             ItemsSource="{Binding Data}" 
+                             ItemsSource="{Binding Data}"
                              UserSortMode="Multiple">
     <telerikDataGrid:RadDataGrid.BindingContext>
         <local:ViewModel/>
