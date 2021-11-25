@@ -10,40 +10,42 @@ tags: style, selected, hovered, pressed, item, highlighted
 
 # Item Styles
 
-The RadListView component provides styling mechanism for customizing the look of its items. This mechanism consists of the following properties of type "ListViewItemStyle":
+The ListView component provides styling mechanism for customizing the look of its items.
 
-* **ItemStyle**
-* **SelectedItemStyle**
-* **PressedItemStyle**
-* **ReorderItemStyle**
+This mechanism consists of the following properties of type `ListViewItemStyle`:
+
+* `ItemStyle`
+* `SelectedItemStyle`
+* `PressedItemStyle`
+* `ReorderItemStyle`
 
 ## ListViewItemStyle
 
 The properties of this object are respectively applied to the native components. The supported ones are the following:
 
-* **BackgroundColor** (*Color*): sets the background of the item(s).
-* **BorderColor** (*Color*): sets the color of the border.
-* **BorderWidth** (*double*): defines the width of the borer.
-* **BorderLocation** (*Location*): describes an enumeration describing where the border should be visible.
-* **TextCellTextColor** (*Color*): defines the text color of the ListView TextCell.
+* `BackgroundColor` (`Color`)&mdash;Sets the background of the item(s).
+* `BorderColor` (`Color`)&mdash;Sets the color of the border.
+* `BorderWidth` (`double`)&mdash;Defines the width of the borer.
+* `BorderLocation` (`Location`)&mdash;Describes an enumeration describing where the border will be visible.
+* `TextCellTextColor` (`Color`)&mdash;Defines the text color of the ListView `TextCell`.
 
 
 ### Location
 
 This enumeration contains the following members:
 
-- **None** - the border should not be visualized.
-- **Top** - the border should be visualized only at the top side.
-- **Bottom** -the border should be visualized only at the bottom side.
-- **Left** - the border should be visualized only at the left side.
-- **Right** - the border should be visualized only at the right side.
-- **All** (default value) - the border should be visualized all around the item.
+- `None`&mdash;The border will not be visualized.
+- `Top`&mdash;The border will be visualized only at the top side.
+- `Bottom`&mdash;The border will be visualized only at the bottom side.
+- `Left`&mdash;The border will be visualized only at the left side.
+- `Right`&mdash;The border will be visualized only at the right side.
+- (Default) `All`&mdash;The border will be visualized all around the item.
 
 ### Example
 
 ```XAML
-<telerikDataControls:RadListView x:Name="listView" 
-                                             ItemsSource="{Binding Source}" 
+<telerikDataControls:RadListView x:Name="listView"
+                                             ItemsSource="{Binding Source}"
                                              IsItemsReorderEnabled="True">
         <telerikDataControls:RadListView.BindingContext>
             <local:ViewModel />
@@ -64,14 +66,14 @@ This enumeration contains the following members:
             <telerikListView:ListViewItemStyle BackgroundColor="#83A9E2"
                                     TextCellTextColor="#AAC7F6"
                                     BorderColor="#0A3A82"
-                                    BorderWidth="2" 
+                                    BorderWidth="2"
                                     BorderLocation="Bottom"/>
         </telerikDataControls:RadListView.SelectedItemStyle>
         <telerikDataControls:RadListView.PressedItemStyle>
-            <telerikListView:ListViewItemStyle BackgroundColor="#C1C1C1" 
+            <telerikListView:ListViewItemStyle BackgroundColor="#C1C1C1"
                                     TextCellTextColor="#AAC7F6"
-                                    BorderColor="#0B3D89" 
-                                    BorderWidth="2" 
+                                    BorderColor="#0B3D89"
+                                    BorderWidth="2"
                                     BorderLocation="Bottom"/>
         </telerikDataControls:RadListView.PressedItemStyle>
         <telerikDataControls:RadListView.ReorderItemStyle>
@@ -84,18 +86,19 @@ This enumeration contains the following members:
     </telerikDataControls:RadListView>
 ```
 
-And here is the end result:
 
-#### Figure 1: ListView with ItemStyle and SelectedItemStyle
+The following image shows a ListView with its `ItemStyle` and `SelectedItemStyle` applied.
+
 ![](../images/listview_features_itemstyle.png)
 
-#### Figure 2: ListView with ReorderItemStyle
+
+The following image shows a ListView with its `ReorderItemStyle` applied.
+
 ![](../images/listview_features_reorderItemstyle.png)
 
->important You can find a working demo labeled **ItemStyles** in the ListView/Styling folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}). 
+>important * For a **ItemStyles** demo, refer to the **ListView/Styling** folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+>* The **ListView/Styling** folder of the SDKBrowser MAUI application contains examples on how you can use those properties as `bindable`.
 
-
->important There are examples in the ListView/Styling folder of the SDKBrowser MAUI application, how you can use those properties as a bindable. 
 
 ## See Also
 

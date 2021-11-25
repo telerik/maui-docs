@@ -1,25 +1,25 @@
 ---
-title: ListView TemplateCell
+title: TemplateCell
 page_title: .NET MAUI ListView Documentation | Cell Types
 description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 2
 slug: listview-templatecell
 ---
 
-# ListView TemplateCell
+# TemplateCell
 
-Cells in RadListView are the presentation of each data item from the control's ItemsSource. You can choose between two types of cells - ListViewTextCell and ListViewTemplateCell.
+Cells in the ListView are the presentation of each data item from the control's `ItemsSource`. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.
 
-**ListViewTemplateCell** derives from Xamarin.Forms.**ViewCell** and used to present complex data sets as RadListView.**ItemTemplate**.
+The `ListViewTemplateCell` derives from `Xamarin.Forms.ViewCell` and used to present complex data sets as `RadListView.ItemTemplate`.
 
 The example below demonstrates how to create a ListView with templated cells, like this:
 
 ![](../images/listview-celltypes-templatecell.png)
 
-**1.** Create a view model that will be the source of the ListView:
+1. Create a view model that will be the source of the ListView:
 
-<snippet id='listview-celltypes-templatecell-viewmodel'/>
-```C#
+ <snippet id='listview-celltypes-templatecell-viewmodel'/>
+ ```C#
 public class Book
 {
 	public string Title { get; set; }
@@ -48,14 +48,14 @@ public class ViewModel
 
 	public List<Book> Source { get; set; }
 }
-```
+ ```
 
-**2.** Define the ListView control either in XAML or in code behind.
+1. Define the ListView control either in XAML or in code behind.
 
-#### Define the list view in XAML:
-	
-<snippet id='listview-celltypes-templatecell-listview-xaml'/>
-```XAML
+	**Define the ListVew in XAML**
+
+ <snippet id='listview-celltypes-templatecell-listview-xaml'/>
+ ```XAML
 <telerikDataControls:RadListView ItemsSource="{Binding Source}" x:Name="listView">
 	<telerikDataControls:RadListView.BindingContext>
 		<local:ViewModel />
@@ -82,22 +82,22 @@ public class ViewModel
 		<telerikListView:ListViewLinearLayout ItemLength="60" />
 	</telerikDataControls:RadListView.LayoutDefinition>
 </telerikDataControls:RadListView>
-```
-	
-Add the needed namespaces:
+ ```
 
-<snippet id='xmlns-teleriklistview'/>
-```XAML
+	Add the needed namespaces:
+
+ <snippet id='xmlns-teleriklistview'/>
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```						
+ ```						
 
-#### Define the list view in code behind:
-		
-* For clarity, let's build the template of the list view cell in a separate method:
-		
-<snippet id='listview-celltypes-templatecell-cellcontent'/>
-```C#
+**Define the ListView in code-behind**
+
+	For clarity, let's build the template of the list view cell in a separate method:
+
+  <snippet id='listview-celltypes-templatecell-cellcontent'/>
+  ```C#
 public View GetCellContent()
 {
     var content = new Grid();
@@ -151,12 +151,12 @@ public View GetCellContent()
 
     return content;
 }
-```
-		
-* Define the list view:
-		
-<snippet id='listview-celltypes-templatecell-listview-code'/>
-```C#
+ ```
+
+	Define the ListVew:
+
+ <snippet id='listview-celltypes-templatecell-listview-code'/>
+ ```C#
 var listView = new RadListView
 {
     ItemsSource = new ViewModel().Source,
@@ -168,9 +168,11 @@ var listView = new RadListView
         };
     }),
 };
-```
-	
+ ```
+
+
 ## See Also
+
 - [ListView Item TemplateSelector]({%slug listview-item-template-selector%})
 - [ListView Layouts]({% slug listview-features-layouts %})
 - [Items Styling]({% slug listview-features-styling %})

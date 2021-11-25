@@ -10,16 +10,16 @@ tags: programmatic, scrolling
 
 # Scrolling
 
+The ListView supports a number of options which define its scrolling behavior.
+
 ## Vertical ScrollBar
 
-You can set the visibility of ListView vertical scrollbar according to your preferences with the `VerticalScrollBarVisibility` property.
+You can set the visibility of ListView vertical scrollbar according to your preferences with the `VerticalScrollBarVisibility` property. `VerticalScrollBarVisibility` (`Xamarin.Forms.ScrollBarVisibility`) specifies whether the vertical scrollbar will be visualized. By default it is set to `ScrollBarVisibility.Default` which means the scrollbar behavior depends on the target platform.
 
-* **VerticalScrollBarVisibility**(*Xamarin.Forms.ScrollBarVisibility*): Specifies whether the vertical scrollbar will be visualized. By default it is set to ScrollBarVisibility.Default which means the scrollbar behavior depends on the target platform.
-
-Here is a quick snippet on how you can set it to ScrollBarVisibility.Always:
+Here is a quick snippet on how you can set it to `ScrollBarVisibility.Always`:
 
 ```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+<telerikDataControls:RadListView x:Name="listView"
                                  VerticalScrollBarVisibility="Always" />
 ```
 ```C#
@@ -29,42 +29,38 @@ listView.VerticalScrollBarVisibility = ScrollBarVisibility.Always;
 
 ## Programmatic Scrolling
 
-RadListView exposes the following method for programmatic scrolling to a specific data item: 
+The ListView exposes the `ScrollItemIntoView(object item)` method for programmatic scrolling to a specific data item. `ScrollItemIntoView` attempts to bring the specified data item into the view.
 
-* **ScrollItemIntoView(object item)**: Attempts to bring the specified data item into the view.
+The following example demonstrates how to use `ScrollItemIntoView` inside a button click event handler.
 
-## Example
+1. Define a sample view with a ListView control and a button:
 
-Check below a simple example of `ScrollItemIntoView` usage inside a button click event handler.
-
-Here is a sample view with a ListView control and a button:
-
-<snippet id='listview-features-programmatic-scrolling-xaml'/>
-```XAML
+ <snippet id='listview-features-programmatic-scrolling-xaml'/>
+ ```XAML
 <Grid Margin="10">
 	<Grid.RowDefinitions>
 		<RowDefinition Height="Auto"/>
 		<RowDefinition/>
 	</Grid.RowDefinitions>
 	<StackLayout>
-		<Button Clicked="ScrollItemIntoViewClicked" 
+		<Button Clicked="ScrollItemIntoViewClicked"
 				Text="ScrollItemIntoView"/>
 		<Label x:Name="label"/>
 	</StackLayout>
-	<telerikDataControls:RadListView x:Name="listView" 
-									 Grid.Row="1" 
+	<telerikDataControls:RadListView x:Name="listView"
+									 Grid.Row="1"
 									 ItemsSource="{Binding Items}">
 		<telerikDataControls:RadListView.BindingContext>
 			<local:ViewModel />
 		</telerikDataControls:RadListView.BindingContext>
 	</telerikDataControls:RadListView>
 </Grid>
-```
+ ```
 
-Use the following ViewModel to create a simple data for the ListView component:
+1. Use the following `ViewModel` to create a simple data for the ListView component:
 
-<snippet id='listview-features-programmatic-scrolling'/>
-```C#
+ <snippet id='listview-features-programmatic-scrolling'/>
+ ```C#
 public class ViewModel
 {
 	public ViewModel()
@@ -78,12 +74,12 @@ public class ViewModel
 	}
 	public ObservableCollection<string> Items { get; set; }
 }
-```
+ ```
 
-Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a concrete item:
+1. Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a specific item:
 
-<snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
-```C#
+ <snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
+ ```C#
 private void ScrollItemIntoViewClicked(object sender, EventArgs e)
 {
 	var rnd = new Random();
@@ -92,12 +88,13 @@ private void ScrollItemIntoViewClicked(object sender, EventArgs e)
 	this.label.Text = "Scrolled to: " + item;
 	this.listView.ScrollItemIntoView(item);
 }
-```
-	
-And the end result:
+ ```
+
+
+The following image shows the end result:
 
 ![](images/listview-features-scrolling.png)
-	
+
 ## See Also
 
 - [Selection]({%slug listview-features-selection%})

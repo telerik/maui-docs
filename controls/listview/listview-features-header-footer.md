@@ -8,18 +8,16 @@ slug: listview-features-header-footer
 
 # Header and Footer
 
-RadListView provides the option to add - **Header** and **Footer**, which will allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the ListView items. 
+The ListView provides the option to add - `Header` and `Footer`, which will allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the ListView items.
 
-* **HeaderTemplate**(DataTemplate): Defines the Header of the ListView before all items.
-* **FooterTemplate**(DataTemplate): Defines the Footer of the ListView after all items.
+* `HeaderTemplate`(`DataTemplate`)&mdash;Defines the Header of the ListView before all items.
+* `FooterTemplate`(`DataTemplate`)&mdash;Defines the Footer of the ListView after all items.
 
-## Example
+The following example shows how to add a Header and a Footer to the ListView control.
 
-Here is an example how to add Header and Footer to the RadListView control.
+1. Create a `ViewModel`:
 
-**1** Create a ViewModel:
-
-```C#
+ ```C#
 public class HeaderAndFooterViewModel
 {
     public HeaderAndFooterViewModel()
@@ -40,50 +38,52 @@ public class HeaderAndFooterViewModel
         return items;
     }
 }
-```
+ ```
 
-**2** Add the following sample DataTemplates to the resources of the page that will be used as:
+1. Add the following sample `DataTemplates` to the resources of the page that will be used as:
 
-**HeaderTemplate**:
+  **Define the HeaderTemplate**
 
-```XAML
+ ```XAML
 <DataTemplate x:Key="HeaderTemplate">
-    <Label Text="The Available Items are: " 
-           TextColor="Black" 
-           FontAttributes="Bold" 
+    <Label Text="The Available Items are: "
+           TextColor="Black"
+           FontAttributes="Bold"
            FontSize="25"/>
 </DataTemplate>
-```
+ ```
 
-**FooterTemplate**:
+ **Define the FooterTemplate**
 
-```XAML
+ ```XAML
  <DataTemplate x:Key="FooterTemplate">
-    <Label Text="All Items!" 
-           TextColor="Black" 
-           FontAttributes="Bold" 
+    <Label Text="All Items!"
+           TextColor="Black"
+           FontAttributes="Bold"
            FontSize="25"/>
 </DataTemplate>
-```
+ ```
 
-**3** Use the following snippet to declare the RadListView in XAML:
+1. Use the following snippet to declare the ListView in XAML:
 
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
                                      ItemsSource="{Binding Items}"
-                                     HeaderTemplate="{StaticResource HeaderTemplate}" 
+                                     HeaderTemplate="{StaticResource HeaderTemplate}"
                                      FooterTemplate="{StaticResource FooterTemplate}"/>
-```
+ ```
 
-Here is how the ListView Header looks:
+
+
+The following image shows how the ListView Header looks.
 
 ![RadListView Footer Template](images/listview-features-header-template.png "[RadListView Footer Template")
 
-and the ListView Footer:
+The following image shows how the ListView Footer looks.
 
 ![RadListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
 
->important A sample Header and Footer example can be found in the **SDKBrowser MAUI application**.
+>important For a sample Header and Footer example, refer to the **SDKBrowser MAUI application**.
 
 ## See Also
 

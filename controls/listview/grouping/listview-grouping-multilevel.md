@@ -10,24 +10,24 @@ tags: group, radlistview, groupdescriptor, multilevel
 
 # Multi-Level Grouping
 
-This article provides an overview on how you could enable multi-level grouping in RadListView. 
+This article provides an overview on how you could enable multi-level grouping in the ListView.
 
->note Before proceeding please go through [Grouping Overview]({%slug listview-features-grouping%}) topic.
+>note Before proceeding, go through the [Grouping Overview]({%slug listview-features-grouping%}) topic.
 
-**1** Create the following business object:
+1. Create the following business object:
 
-```C#
+ ```C#
 public class City
 {
     public string Continent { get; set; }
     public string Name { get; set; }
     public string Country { get; set; }
 }
-```
+ ```
 
-**2** Create a ViewModel class as shown below:
+1. Create a `ViewModel` class as shown below:
 
-```C#
+ ```C#
 public class GroupingViewModel : NotifyPropertyChangedBase
 {
     public ObservableCollection<City> Cities { get; set; }
@@ -47,11 +47,11 @@ public class GroupingViewModel : NotifyPropertyChangedBase
          };
     }
 }
-```
+ ```
 
-**3** In order to visualize the hierarchical relation between groups, add a custom **GroupHeaderTemplate** (of type *DataTemplate*) to the Resources of your page:
+1. To visualize the hierarchical relation between groups, add a custom `GroupHeaderTemplate` (of type `DataTemplate`) to the Resources of your page:
 
-```XAML
+ ```XAML
 <ResourceDictionary>
     <multiLevelGrouping:LevelToMarginConverter x:Key="LevelToMarginConverter" />
     <DataTemplate x:Key="ListViewItemTemplate">
@@ -69,7 +69,7 @@ public class GroupingViewModel : NotifyPropertyChangedBase
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Label Text="&#x25B8;" Margin="{Binding Level, Converter={StaticResource LevelToMarginConverter}}" 
+            <Label Text="&#x25B8;" Margin="{Binding Level, Converter={StaticResource LevelToMarginConverter}}"
                    TextColor="DarkGray" FontSize="Medium">
                 <Label.Triggers>
                     <DataTrigger TargetType="Label" Binding="{Binding IsExpanded}" Value="True">
@@ -82,11 +82,11 @@ public class GroupingViewModel : NotifyPropertyChangedBase
     </DataTemplate>
     <telerikListView:ListViewGroupStyle x:Key="ListViewGroupHeaderStyle" BackgroundColor="Transparent" />
 </ResourceDictionary>
-```
+ ```
 
-**4** LevelToMarginConverter just calculates the margin of each group header according to its Level:
+1. The `LevelToMarginConverter` calculates the margin of each group header according to its Level:
 
-```C#
+ ```C#
 public class LevelToMarginConverter : IValueConverter
 {
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -103,11 +103,11 @@ public class LevelToMarginConverter : IValueConverter
         return value;
     }
 }
-```
+ ```
 
-**5** Add the RadListView definition with two **PropertyGroupDescriptors** as shown in the next snippet:
+1. Add the `RadListView` definition with two `PropertyGroupDescriptors` as shown in the next snippet:
 
-```XAML
+ ```XAML
 <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Cities}"
                                      ItemTemplate="{StaticResource ListViewItemTemplate}"
                                      GroupHeaderTemplate="{StaticResource ListViewMultiLevelGroupHeaderTemplate}"
@@ -120,16 +120,17 @@ public class LevelToMarginConverter : IValueConverter
         <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
     </telerikDataControls:RadListView.GroupDescriptors>
 </telerikDataControls:RadListView>
-```
+ ```
 
-and the namespaces used:
+1. Add the namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-**6** The final result:
+
+The following image shows the final result.
 
 ![](../images/listview_grouping_multilevel.png)
 

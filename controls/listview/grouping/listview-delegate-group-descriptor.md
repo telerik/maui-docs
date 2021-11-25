@@ -10,24 +10,24 @@ tags: group, radlistview, groupdescriptor
 
 # Grouping
 
-**RadListView** provides you with the functionality to programmatically group its data at runtime. This can be achieved through adding groupdescriptors to the **RadListView.GroupDescriptors** collection.
+The ListView provides the functionality to programmatically group its data at runtime. This can be achieved through adding `GroupDescriptors` to the `RadListView.GroupDescriptors` collection.
 
-* **PropertyGroupDescriptor**
-* **DelegateGroupDescriptor**
+* `PropertyGroupDescriptor`
+* `DelegateGroupDescriptor`
 
-## DelegateGroupDescriptor 
+## DelegateGroupDescriptor
 
 This descriptor enables you to group by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
 
-- **KeyExtractor**: Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
-- **SortOrder**:  Defines the sort order in each group to Ascending or Descending.
+- `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
+- `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
 
-Let's use the same example from the previous section, just add DelegateGroupDescriptor through code instead. 
+Let's use the same example from the previous section, just add DelegateGroupDescriptor through code instead.
 
-**1** RadListView definition:
+1. Define the `RadListView`:
 
-```XAML
- <telerikDataControls:RadListView x:Name="listView" 
+ ```XAML
+ <telerikDataControls:RadListView x:Name="listView"
                                              ItemsSource="{Binding Cities}"
                                              ItemTemplate="{StaticResource ListViewItemTemplate}"
                                              GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}"
@@ -36,18 +36,18 @@ Let's use the same example from the previous section, just add DelegateGroupDesc
         <local:GroupingViewModel/>
     </telerikDataControls:RadListView.BindingContext>
 </telerikDataControls:RadListView>
-```
+ ```
 
-**2** Add the namespaces:
+1. Add the namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-**3** Create and apply a delegate for grouping the items (for example by their first letter) as following:
+1. Create and apply a delegate for grouping the items (for example by their first letter) as following:
 
-```C#
+ ```C#
 var delegateDescriptor = new DelegateGroupDescriptor
 {
     KeyExtractor = FirstLetterKeyExtractor
@@ -62,22 +62,22 @@ private object FirstLetterKeyExtractor(object arg)
     var item = arg as City;
     return item?.Name.Substring(0, 1);
 }
-```
+ ```
 
-**4** Add a business model:
+1. Add a business model:
 
-```C#
+ ```C#
 public class City
 {
     public string Continent { get; set; }
     public string Name { get; set; }
     public string Country { get; set; }
 }
-```
+ ```
 
-**5** Add a ViewModel with a collection of Cities:
+1. Add a `ViewModel` with a collection of Cities:
 
-```C#
+ ```C#
 public class GroupingViewModel : NotifyPropertyChangedBase
 {
     public ObservableCollection<City> Cities { get; set; }
@@ -97,12 +97,14 @@ public class GroupingViewModel : NotifyPropertyChangedBase
          };
     }
 }
-```
+ ```
 
-#### Figure 1: ListView grouped through DelegateGroupDescriptor
+
+The following image shows a ListView grouped through the `DelegateGroupDescriptor`.
+
 ![ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
 
->important You can find a working demo labeled **Delegate Group Descriptors** in the ListView/Bindable Collections folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}). 
+>important For a **Delegate Group Descriptors** demo, refer to the **ListView/Bindable Collections** folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}).
 
 ## See Also
 
