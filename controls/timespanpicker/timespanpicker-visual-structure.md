@@ -10,7 +10,7 @@ slug: timespanpicker-visual-structure
 
 This article describes all visual elements that are used in the TimeSpanPicker for .NET MAUI.
 
-## Before and after Time Interval Selection
+## Before and After Time Interval Selection
 
 ![TimeSpan Picker Visual Structure](images/timespan_picker_placeholder_display.png "Visual elements of TimeSpan Picker control")
 

@@ -43,8 +43,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
-using Telerik.Maui.Controls.Compatibility;
+ ```C#
+ using Telerik.Maui.Controls.Compatibility;
 
 public void Configure(IAppHostBuilder appBuilder)
 {
@@ -53,7 +53,7 @@ public void Configure(IAppHostBuilder appBuilder)
         .UseMauiApp<App>();
 
 }              
-```
+ ```
 
 ## See Also
 
