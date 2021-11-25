@@ -147,6 +147,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
  }              
  ```
 
+
+
 ## See Also
 
 - [Visual Structure]({%slug templatedpicker-visual-structure%})

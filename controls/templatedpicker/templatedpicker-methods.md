@@ -10,9 +10,9 @@ slug: templatedpicker-methods
 
 The TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
 
-Define the TemplatedPicker:
+1. Define the TemplatedPicker:
 
-```XAML
+ ```XAML
 <StackLayout>
     <Button Clicked="OnClearSelectionClicked" Text="clear selection"/>
     <telerikInput:RadTemplatedPicker x:Name="picker">
@@ -23,22 +23,24 @@ Define the TemplatedPicker:
         </telerikInput:RadTemplatedPicker.SelectorTemplate>
     </telerikInput:RadTemplatedPicker>
 </StackLayout>
-```
+ ```
 
-Clear the selection inside the button `click` event:
+1. Clear the selection inside the button `click` event:
 
-```C#
+ ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.picker.ClearSelection();
 }
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;Telerik.Maui.Controls.Compatibility"
-```
+ ```
+
+
 
 ## See Also
 

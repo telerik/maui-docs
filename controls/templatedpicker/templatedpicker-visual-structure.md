@@ -10,7 +10,7 @@ slug: templatedpicker-visual-structure
 
 This article describes all visual elements that are used in the TemplatedPicker for .NET MAUI.
 
-## Before and after Selection
+## Before and After Selection
 
 ![TemplatedPicker Visual Structure Display Text](images/templatedpicker_structure_placeholder_display.png "Visual elements of TemplatedPicker control")
 
