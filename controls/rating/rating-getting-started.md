@@ -24,6 +24,8 @@ Before adding the Rating, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
+>important The Rating is rendered through the [SkiaSharp graphics library](https://skia.org/).
+
 ## Define the Control
 
 1. When your .NET MAUI application is set up, you are ready to add a Rating control to your page.
@@ -40,8 +42,8 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
-```C#
-using Telerik.Maui.Controls.Compatibility;
+ ```C#
+ using Telerik.Maui.Controls.Compatibility;
 
 public void Configure(IAppHostBuilder appBuilder)
 {
@@ -50,7 +52,7 @@ public void Configure(IAppHostBuilder appBuilder)
         .UseMauiApp<App>();
 
 }              
-```
+ ```
 
 ## See Also
 
