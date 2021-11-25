@@ -6,7 +6,7 @@ position: 1
 slug: itemscontrol-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI ItemsControl
+# Getting Started 
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ItemsControl by adding the control to your project.
 

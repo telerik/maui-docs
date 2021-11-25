@@ -10,11 +10,11 @@ slug: listpicker-visual-structure
 
 Here are described all visual elements used in the List Picker for .NET MAUI.
 
-## List Picker Structure before and after an item is selected
+## Before and After an Item Is Selected
 
 ![ListPicker Visual Structure](images/listpicker_structure_placeholder_display.png "Visual elements of ListPicker control")
 
-## ListPicker Popup Visual Structure
+## Popup Visual Structure
 
 ![ListPicker Visual Structure Popup](images/listpicker_structure.png "Visual elements of List Picker Popup")
 

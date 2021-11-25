@@ -14,10 +14,10 @@ You can achieve this by setting the `IsLooping`(`bool`) property to `true`.
 
 ## Example
 
-The snippet below shows a simple ListPicker definition:
+1. Define the ListPicker:
 
-<snippet id='listpicker-features-looping' />
-```XAML
+ <snippet id='listpicker-features-looping' />
+ ```XAML
 <telerikInput:RadListPicker Placeholder="Pick a City Name!"
 							IsLooping="True"
 							ItemLength="40"
@@ -35,23 +35,23 @@ The snippet below shows a simple ListPicker definition:
 			</DataTemplate>
 		</telerikInput:RadListPicker.ItemTemplate>
 	</telerikInput:RadListPicker>
-```
+ ```
 
-Define a sample business model:
+1. Define a sample business model:
 
-<snippet id='listpicker-features-businessmodel' />
-```C#
+ <snippet id='listpicker-features-businessmodel' />
+ ```C#
 public class City
 {
 	public string Name { get; set; }
 	public int Population { get; set; }
 }
-```
+ ```
 
-Set the `ViewModel`:
+1. Set the `ViewModel`:
 
-<snippet id='listpicker-features-viewmodel' />
-```C#
+ <snippet id='listpicker-features-viewmodel' />
+ ```C#
 public class CitiesViewModel
 {
 	public CitiesViewModel()
@@ -74,7 +74,7 @@ public class CitiesViewModel
 
 	public ObservableCollection<City> Items { get; set; }
 }
-```
+ ```
 
 
 The following image shows the end result.

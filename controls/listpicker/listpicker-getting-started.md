@@ -6,7 +6,7 @@ position: 1
 slug: listpicker-getting-started
 ---
 
-# Getting Started 
+# Getting Started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ListPicker by adding the control to your project.
 
@@ -103,7 +103,7 @@ public class Person
 5. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
  public void Configure(IAppHostBuilder appBuilder)
  {
