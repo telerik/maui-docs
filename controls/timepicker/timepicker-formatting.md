@@ -18,7 +18,7 @@ To define the format of the string that will be visualized when the picker dialo
 
 >note The format set for `DisplayStringFormat` has to be a valid time format. For more information, refer to the [Standard Time Format Strings]({%slug timepicker-formatting%}#standard-time-format-strings) and [Custom Time Format Strings]({%slug timepicker-formatting%}#custom-time-format-strings) articles.
 
-**Example for Setting the DisplayString Format**
+The following example shows how to set the `DisplayStringFormat`.
 
 1. Define the TimePicker.
 

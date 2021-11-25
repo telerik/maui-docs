@@ -14,7 +14,7 @@ The TimeSpanPicker provides options for setting its default time interval.
 
 To define the currently selected time, use the `Time`(`TimeSpan?`) property, which defines the current time interval selection. The default value is `null`.
 
-**Example for Setting the Currently Selected Time Interval**
+The following example shows how to set the currently selected time interval.
 
 1. Define the TimeSpanPicker.
 
@@ -28,11 +28,13 @@ To define the currently selected time, use the `Time`(`TimeSpan?`) property, whi
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
+
+
 ## DefaultHighlightedTime Interval
 
 The TimeSpanPicker enables you to set its default highlighted time interval by using the  `DefaultHighlightedTime`(`TimeSpan`) property, which defines the `System.TimeSpan` that will be used to pre-scroll each spinner when the `RadTimeSpanPicker.Time` property is set to `null`.
 
-**Example for Setting the Default Highlighted Time Interval**
+The following example shows how to set the default highlighted time interval.
 
 1. Define the TimeSpanPicker.
 
@@ -47,6 +49,8 @@ The TimeSpanPicker enables you to set its default highlighted time interval by u
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
+
+
 
 ## See Also
 

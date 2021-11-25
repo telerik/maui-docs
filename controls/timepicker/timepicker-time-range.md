@@ -14,7 +14,7 @@ The TimePicker allows you to define a time range and choose a time within that r
 
 * `MaximumTime`(`TimeSpan`)&mdash;Defines a time which marks the end of the range of the available time values to choose from. The default value is `TimeSpan(23, 59, 59)`.
 
-**Example for Setting Time Ranges**
+The following example shows how to set the time ranges.
 
 1. Define the TimePicker:
 

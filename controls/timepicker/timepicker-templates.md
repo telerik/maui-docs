@@ -38,7 +38,7 @@ The example below shows a sample TimePicker definition with the listed above tem
  xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
-For the example, the template definitions are added to the page resources:
+For the example, the template definitions are added to the page resources as follows.
 
 ## PlaceholderTemplate
 
