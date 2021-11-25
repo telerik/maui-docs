@@ -57,7 +57,7 @@ xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Ma
 1. To visualize the Cartesian and the Pie Chart types, register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
 public void Configure(IAppHostBuilder appBuilder)
 {

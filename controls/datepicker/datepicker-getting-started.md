@@ -41,7 +41,7 @@ Before adding the DatePicker, you need to:
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
  public void Configure(IAppHostBuilder appBuilder)
  {
