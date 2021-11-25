@@ -8,11 +8,13 @@ slug: path-multipath
 
 # MultiPath
 
-RadMultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
+The MultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
 
-The following example demonstrates how to define a `RadMultiPath`:
+The following example demonstrates how to define a `RadMultiPath`.
 
-```XAML
+1. Define the control.
+
+ ```XAML
     <Grid x:Name="root">
         <Grid.RowDefinitions>
           <RowDefinition />
@@ -74,14 +76,16 @@ The following example demonstrates how to define a `RadMultiPath`:
     </telerikPrimitives:RadPathDefinition>
   </telerikPrimitives:RadMultiPath>
 </Grid>
-```
+ ```
 
-Add the namespaces:
+1. Add the namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
-```
+ ```
+
+
 
 The following code demonstrates the logic behind changing the Grid size:
 
@@ -106,6 +110,7 @@ public partial class MainPage : ContentPage, IPage
     }
 }
 ```
+
 
 The image below shows the result:
 

@@ -24,6 +24,8 @@ Before adding the Path, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
+>important The Path is rendered through the [SkiaSharp graphics library](https://skia.org/).
+
 ## Define the Control
 
 1. When your .NET MAUI application is set up, you are ready to add a Path control to your page. The Path exposes the `Geometry` property, which you have to assign to a `RadPathGeometry` object. The [`RadPathGeometry`]({% slug path-structure %}) object consists of different Path figures such as lines and arcs.
@@ -47,7 +49,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
 public void Configure(IAppHostBuilder appBuilder)
 {
