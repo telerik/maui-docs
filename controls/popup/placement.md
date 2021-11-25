@@ -52,7 +52,7 @@ When the Popup is declared in XAML and you want to center it, attach it to the `
 </Button>
 ```
 
-Here is the Button `Clicked` event handler:
+Set the Button `Clicked` event handler:
 
 ```C#
 private void ShowPopup(object sender, EventArgs e)
