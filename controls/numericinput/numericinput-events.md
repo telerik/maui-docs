@@ -8,11 +8,9 @@ slug: numericinput-events
 
 # Events
 
-RadNumericInput has a `ValueChanged` event.
+The NumericInput exposes a `ValueChanged` event, which is raised after the input value is changed.
 
-## ValueChanged Event
-
-The `ValueChanged` event is raised after the input value is changed. The ValueChanged event handler receives two parameters:
+The `ValueChanged` event handler receives two parameters:
 
 * The `Sender` which is the RadNumericInput control;
 * `ValueChangedEventArgs` provides the following properties:
@@ -20,28 +18,28 @@ The `ValueChanged` event is raised after the input value is changed. The ValueCh
 	* `OldValue` of type `nullable double` gets the old value.
 	* `NewValue` of type `nullable double` gets the new value.
 
-## Example
+The following example demonstrates how to use the `ValueChanged` event.
 
-Define the NumericInput:
+1. Define the NumericInput:
 
-```XAML
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" ValueChanged="RadNumericInput_ValueChanged"/>
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Set the `ValueChanged` event:
+1. Set the `ValueChanged` event:
 
-```C#
+ ```C#
 private void RadNumericInput_ValueChanged(object sender, Telerik.XamarinForms.Input.NumericInput.ValueChangedEventArgs e)
 {
    // implement your logic here
 }
-```
+ ```
 
 ## See Also
 

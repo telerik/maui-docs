@@ -12,9 +12,9 @@ The NumericInput exposes `IncreaseCommand` and `DecreaseCommand` which could be 
 
 In the next example, you can see how the NumericInput commands could be utilized in order to implement auto-reverse functionality – start from the Minimum value when the Maximum is reached and vice versa.
 
-First, create the `ViewModel` with both `IncreaseCommand` and `DecreaseCommand` implementations:
+1. First, create the `ViewModel` with both `IncreaseCommand` and `DecreaseCommand` implementations:
 
-```C#
+ ```C#
 public class CommandsViewModel : NotifyPropertyChangedBase
 {
     private double value;
@@ -71,11 +71,11 @@ public class CommandsViewModel : NotifyPropertyChangedBase
             this.Value = this.Minimum;
     }
 }
-```
+ ```
 
-And define the NumericInput with the respective bindings:
+1. Define the NumericInput with the respective bindings:
 
-```XAML
+ ```XAML
  <telerikInput:RadNumericInput x:Name="input"
 					            Minimum="{Binding Minimum}"
 					            Maximum="{Binding Maximum}"
@@ -87,15 +87,15 @@ And define the NumericInput with the respective bindings:
         <local:CommandsViewModel />
     </telerikInput:RadNumericInput.BindingContext>
 </telerikInput:RadNumericInput>
-```
+ ```
 
-Where:
+ In the example:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
->You can find a working demo in the **NumericInput/Features/Commands** folder of the SDK Browser MAUI application.
+>tip For a demo, refer to the **NumericInput/Features/Commands** folder of the SDK Browser MAUI application.
 
 ## See Also
 

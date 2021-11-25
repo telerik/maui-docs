@@ -6,29 +6,30 @@ position: 2
 slug: numericinput-configuration
 ---
 
-# Configuration options
+# Configuration Options
 
 This article will explain all configuration options that NumericInput control provides.
 
 ## Numeric Value
 
-* `Value`(`double?`) property allows you to set a predefined value that will be presented by the control.
+The NumericInput provides the `Value`(`double?`) property, which allows you to set a predefined value that will be presented by the control.
 
-### Example
+The following example demonstrates how to use `Value`.
 
-The NumericInput definition in XAML with the `Value` property set:
+1. Define the NumericInput in XAML with the `Value` property set:
 
-```XAML
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Value="12" />
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-And the result:
+
+The following image shows the end result.
 
 ![NumericInput Value](images/numericinput-value.png)
 
@@ -36,19 +37,22 @@ And the result:
 
 The `Value` property is of type nullable double, which enables the NumericInput control to accept `null` values as well.
 
-### Example
+The following example demonstrates how to set the `Value` property to accept `null` values.
 
-```XAML
+1. Define the NumericInput.
+
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Value="{x:Null}" />
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-And the result:
+
+The following image shows the result:
 
 ![NumericInput Null Value](images/numericinput-null-value.png)
 
@@ -56,22 +60,25 @@ And the result:
 
 You can restrict the input using the `Minimum` and `Maximum` properties:
 
-* `Minimum`(`double`): The minimum value that can be insert in the numeric input.
-* `Maximum`(`double`): The maximum value that can be insert in the numeric input.
+* `Minimum`(`double`)&mdash;The minimum value that can be insert in the numeric input.
+* `Maximum`(`double`)&mdash;The maximum value that can be insert in the numeric input.
 
-### Example
+The following example demonstrates ho to set a range.
 
-```XAML
+1. Define the NumericInput.
+
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Minimum="-5" Maximum="15" />
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-And the result:
+
+The following image shows the end result:
 
 ![NumericInput Minimum Maximum Values](images/numeric-min-max-values.gif)
 
@@ -79,18 +86,22 @@ And the result:
 
 The `Step` property defines the value step that will be applied to the input value upon each decrease/increase action. The default step is 1.
 
-### Example
+The following example demonstrates how to set a step.
 
-```XAML
+1. Define the NumericInput.
+
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Step="10" />
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
-And the result:
+ ```
+
+
+The following image shows the end result:
 
 ![NumericInput Step Feature](images/numericinput-step-feature.gif)
 
