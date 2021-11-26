@@ -1,6 +1,6 @@
 ---
-title: Pan and Zoom
-page_title: .NET MAUI Chart Documentation | Pan And Zoom Behavior
+title: Pan and Zoom Behavior
+page_title: .NET MAUI Chart Documentation | Pan and Zoom Behavior
 description: Check our &quot;Pan And Zoom Behavior&quot; documentation article for Telerik Chart for .NET MAUI.
 tags: chart, .net maui, pan, zoom, ui for maui
 position: 4
@@ -9,7 +9,7 @@ slug: chart-behaviors-pan-and-zoom
 
 # Pan and Zoom Behavior
 
-The Pan-and-Zoom behavior of the Chart handles the drag, pinch open, and pinch close gestures which respectively cause panning, zooming in, and zooming out of the associated chart plot area.
+The Pan and Zoom behavior of the Chart handles the drag, pinch open, and pinch close gestures which respectively cause panning, zooming in, and zooming out of the associated chart plot area.
 
 ## Features
 
@@ -27,7 +27,7 @@ The Pan-and-Zoom behavior of the Chart handles the drag, pinch open, and pinch c
 
 ## Example
 
-The following example shows how the pan-and-zoom behavior of the Cart works:
+The following example shows how the Pan and Zoom behavior of the Cart works:
 
 1. Create the needed business objects, for example:
 
