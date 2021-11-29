@@ -10,7 +10,7 @@ slug: listpicker-overview
 
 **Telerik ListPicker for .NET MAUI** allows the user to select an item from a list of items and visualizes that items list inside a popup. The ListPicker control has a number of features which enable you to loop through its items infinitely while scrolling, to fully customize the dialog appearance and style the items, to define templates for the items, and more.
 
->important Telerik UI for .NET MAUI ListPicker is available for Android and iOS.
+>important Currently, the Telerik UI for .NET MAUI ListPicker is available for Android and iOS.
 
 ![ListPicker Overview](images/list_picker_overview.png)
 

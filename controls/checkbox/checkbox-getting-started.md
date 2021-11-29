@@ -41,7 +41,9 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Teler
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
+
+
 
 
 
@@ -65,6 +67,6 @@ public static class MauiProgram
 
 ## See Also
 
-- [Setting the Checkbox Dimensions]({% slug checkbox-size %})
-- [Defining the Checkbox State]({% slug checkbox-checked-states %})
+- [Setting the Checkbox Size]({% slug checkbox-size %})
+- [Defining the Checked State]({% slug checkbox-checked-states %})
 - [Styling Options of the Checkbox]({% slug checkbox-styling%})

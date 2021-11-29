@@ -10,25 +10,27 @@ tags: group, radlistview, reordering
 
 # Reorder Items in Grouped ListView
 
-This help topic will provide an overview on how you could enable reordering feature of RadListView control when its items are grouped.
+This help topic will provide an overview on how you could enable reordering feature of the ListView control when its items are grouped.
 
->tip Before proceeding, please check the [Reorder Items]({%slug listview-features-reorder-items%}) topic which describes in details reordering functionality of the ListView.
+>tip Before proceeding, check the [Reorder Items]({%slug listview-features-reorder-items%}) topic which describes in details the reordering functionality of the ListView.
 
-When the items of RadListView are grouped by a certain criteria and the end user drags/starts reordering an item, the dragged item could be added to a different group. Since this depends on the items' relation, in order to handle the scenario, you would need to subscribe to the ListView Reorder Command and manually update the dragged item details. Below you could find a sample implementation.
+When the items of the ListView are grouped by certain criteria and the end user drags/starts reordering an item, the dragged item can be added to a different group. Since this depends on the items' relation, to handle the scenario, you need to subscribe to the ListView `Reorder` command and manually update the dragged item details.
 
-The *ReorderEndedCommandContext* gives you access to the:
+The `ReorderEndedCommandContext` gives you access to the following properties:
 
-* Item: Refers to the data item that is being interacted with.
-* DestinationItem: Refers to the data item that corresponds to the location where the dragged item has been released.
-* Group: Gets the group containing the data item that is being interacted with.
-* DestinationGroup: Refers to the group that corresponds to the location where the dragged item has been released.
-* Placement (of type *ItemReorderPlacement*):  Indicates whether the dragged item should be placed before or after the destination item.
+* `Item`&mdash;Refers to the data item that is being interacted with.
+* `DestinationItem`&mdash;Refers to the data item that corresponds to the location where the dragged item has been released.
+* `Group`&mdash;Gets the group containing the data item that is being interacted with.
+* `DestinationGroup`&mdash;Refers to the group that corresponds to the location where the dragged item has been released.
+* `Placement` (of type `ItemReorderPlacement`)&mdash;Indicates whether the dragged item should be placed before or after the destination item.
 
-**1** RadListView definition with PropertyGroupDescriptor and Reorder command applied:
+Below you can find a sample implementation.
 
-```XAML
+1. The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
+
+ ```XAML
  <telerikDataControls:RadListView x:Name="listView"
-                                     ItemsSource="{Binding Events}" 
+                                     ItemsSource="{Binding Events}"
                                      IsItemsReorderEnabled="True">
     <telerikDataControls:RadListView.BindingContext>
         <local:ViewModel/>
@@ -50,19 +52,19 @@ The *ReorderEndedCommandContext* gives you access to the:
                                                      Command="{Binding ReorderCommand}" />
     </telerikDataControls:RadListView.Commands>
 </telerikDataControls:RadListView>
-```
+ ```
 
-**2** Add the namespaces used:
+1. Add the namespaces used:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-**3** Create a ViewModel class containing a collection of *Event* objects as well as a Reorder command implementation considering the Events will be grouped according to *Day* property. Inside the Reorder command you will have access to some useful details through *ReorderEndedCommandContext* such as:
+1. Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ViewModel()
@@ -102,11 +104,11 @@ public class ViewModel
         this.Events.Insert(destinationIndex, sourceItem);
     }
 }
-```
+ ```
 
-**4** And the business model:
+1. And the business model:
 
-```C#
+ ```C#
 public class Event : NotifyPropertyChangedBase
 {
     public string content;
@@ -132,9 +134,10 @@ public class Event : NotifyPropertyChangedBase
 
     }
 }
-```
+ ```
 
-You could check the result on the image below:
+
+The following image shows the result:
 
 ![ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
 

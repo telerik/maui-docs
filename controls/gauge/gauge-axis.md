@@ -20,6 +20,7 @@ Presently, the axis does not have an auto-range mechanism so it is mandatory tha
                                Step="0.5" />
 ```
 
+
 The following image shows the end result.  
 
 ![Gauge Axis Range](images/gauge-axis-range.png)
@@ -39,6 +40,7 @@ You can control the stroke of the axis line and ticks through the `Stroke` prope
                                TickThickness="2" />
 ```
 
+
 The following image shows the end result.
 
 ![Gauge Appearance](images/gauge-axis-appearance.png)
@@ -55,6 +57,7 @@ You can control the appearance of the labels with the `FontSize`, `FontFamily` a
                                Step="0.5" />
 ```
 
+
 The following image shows the end result.
 
 ![Gauge Font Style](images/gauge-axis-fontstyle.png)
@@ -64,6 +67,7 @@ The following image shows the end result.
 The `FontFamily` property is of type `string` and you need to pass the name of the font family. Remember that the different platforms work with different fonts so you may need to use the `OnPlatform` method.
 
 <snippet id='gauge-axis-font-family'/>
+
 
 The following image shows the end result.
 
@@ -79,6 +83,7 @@ You can control the numeric format of the content of the labels. The default lab
                                Minimum="0"
                                Step="0.5" />
 ```							   
+
 
 The following image shows the end result.
 
@@ -96,6 +101,7 @@ In the Radial Gauge, the Gauge elements can be positioned on the inside or on th
                                TickPosition="Start" />
 ```
 
+
 The following image shows the end result.
 
 ![Gauge example](images/gauge-axis-label-and-tick-position.png)
@@ -112,6 +118,7 @@ The distance between the specific element and the axis line is defined by the `O
                                TickLength="3"
                                TickOffset="3" />
 ```							   
+
 
 The following image shows the end result.
 

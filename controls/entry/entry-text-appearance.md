@@ -35,6 +35,7 @@ In the provided example:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+
 The following image shows the end result.
 
 ![Entry with Watermark](images/entry_watermark.png)

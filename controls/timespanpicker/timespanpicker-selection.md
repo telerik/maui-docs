@@ -14,7 +14,7 @@ The TimeSpanPicker control enables users to quickly and easily select a time int
 
 To define the current time-interval selection, use the `Time`(`TimeSpan?`) property. The default value is `null`.
 
-**Example for Setting the Time Property**
+The following example shows how to set the `Time` property.
 
 1. Define the TimeSpanPicker.
 
@@ -28,11 +28,12 @@ To define the current time-interval selection, use the `Time`(`TimeSpan?`) prope
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
+
 ## Methods
 
 To cancel the selected time, use the `ClearSelection` method.
 
-**Example for Setting the ClearSelection Method**
+The following example shows how to set the `ClearSelection` method.
 
 1. Define the TimeSpanPicker.
 
@@ -58,11 +59,12 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 }
  ```
 
+
 ## Events
 
 The TimeSpanPicker exposes the `SelectionChanged` event, which is raised when the user picks a time value.
 
-**Example for Setting the SelectionChanged Event**
+The following example shows how to set the `SelectionChanged` event.
 
 1. Define the TimeSpanPicker.
 

@@ -82,6 +82,7 @@ public class CategoricalViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic AreaSeries](images/cartesian-area-series-basic-example.png)
@@ -98,6 +99,7 @@ You can further customize the Area Series:
 		StrokeThickness = 5
 	};
 ```
+
 
 The following image shows the final result:
 

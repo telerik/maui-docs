@@ -27,6 +27,7 @@ To add the legend feature in your application, you need to initialize a new obje
                         LegendProvider="{x:Reference Name=pieChart}"/>
 ```
 
+
 The following image shows the `RadLegend` in combination with the Pie Chart.
 
 ![Pie Chart legend](images/piechart-legend.png)
@@ -44,6 +45,8 @@ The following list summarizes the most important properties of the `RadLegend` c
 * `Orientation` (`LegndOrientation`)&mdash;Sets the orientation of the legend. Can be `Horizontal` or `Vertical`.
 
 `RadLegend` can be used in combination with `RadCartesianChart` as well.
+
+The following example demonstrates how to define some of the most important Chart legend properties.
 
 ```XAML
 <telerikChart:RadCartesianChart x:Name="chart" HeightRequest="300">
@@ -75,6 +78,7 @@ The following list summarizes the most important properties of the `RadLegend` c
                             LegendItemFontColor="DarkGreen"
                             HeightRequest="200"/>
 ```
+
 
 The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 

@@ -10,19 +10,17 @@ tags: filter, radlistview, filterdescriptor
 
 # Filtering
 
-**RadListView** provides you with the functionality to programmatically filter its data at runtime. This can be achieved through adding filter descriptors that implement the IFilter interface to the **RadListView.FilterDescriptors** collection. You can use our **DelegateFilterDescriptor** implementation.
+The ListView provides the functionality to programmatically filter its data at runtime. This can be achieved through adding filter descriptors that implement the IFilter interface to the `RadListView.FilterDescriptors` collection. You can use our `DelegateFilterDescriptor` implementation.
 
-## DelegateFilterDescriptor 
+## DelegateFilterDescriptor
 
-- **Filter**: Defines the function used to check whether a data item passes the filter or not.
+The `DelegateFilterDescriptor` property supports a `Filter`, which defines the function used to check whether a data item passes the filter or not.
 
-### Example
+1. First, define the ListView in XAML:
 
-First, define the ListView in XAML:
-
-<snippet id='listview-features-filtering-xaml'/>
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ <snippet id='listview-features-filtering-xaml'/>
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
 								 ItemsSource="{Binding Items}">
 	<telerikDataControls:RadListView.BindingContext>
 		<local:ViewModel/>
@@ -42,29 +40,29 @@ First, define the ListView in XAML:
 		</DataTemplate>
 	</telerikDataControls:RadListView.ItemTemplate>
 </telerikDataControls:RadListView>
-```
+ ```
 
-Add a DelegateFilterDescriptor to the FilerDescriptors collection of the ListView instance:
+1. Add a `DelegateFilterDescriptor` to the `FilerDescriptors` collection of the ListView instance:
 
-<snippet id='listview-features-filtering-agefilter'/>
-```C#
+ <snippet id='listview-features-filtering-agefilter'/>
+ ```C#
 listView.FilterDescriptors.Add(new Telerik.XamarinForms.DataControls.ListView.DelegateFilterDescriptor { Filter = this.AgeFilter });
-```
+ ```
 
-Here is the AgeFilter method containing the filtering logic:
+1. Here is the `AgeFilter` method containing the filtering logic:
 
-```C#
+ ```C#
 private bool AgeFilter(object arg)
 {
     var age = ((Item)arg).Age;
     return age >= 25 && age <= 35;
 }
-```
+ ```
 
-Here is the ViewModel class:
+1. Define the `ViewModel` class:
 
-<snippet id='listview-features-filtering-viewmodel'/>
-```C#
+ <snippet id='listview-features-filtering-viewmodel'/>
+ ```C#
 public class ViewModel
 {
 	public ViewModel()
@@ -95,45 +93,46 @@ public class ViewModel
 		return items;
 	}
 }
-```
-    
-And here is the Person data class:
+ ```
 
-<snippet id='listview-features-filtering-data-class'/>	
-```C#
+1. Set the `Person` data class:
+
+ <snippet id='listview-features-filtering-data-class'/>
+ ```C#
 public class Person
 {
 	public string Name { get; set; }
 	public int Age { get; set; }
 }
-```
+ ```
 
-Check the result after the data is filtered:
+
+The following image shows the result after the data is filtered:
 
 ![Filtering](images/listview-features-filtering.png "Filtering")
 
 ## Bindable FilterDescriptors
 
-FilerDescriptors collection of the RadListView supports binding - this means you can modify the directly descriptors directly from the ViewModel.
+The `FilerDescriptors` collection of the ListView supports binding, which means that you can modify the directly descriptors directly from the `ViewModel`.
 
-In order to control the FilterDescriptor collection through MVVM: 
+To control the `FilterDescriptor` collection through MVVM:
 
-* Create a property of type ObservableCollection<FilterDescriptorBase> in your ViewModel which will contain the needed filters. Here is a sample ViewModel:
-    
-<snippet id='listview-features-bindable-filterdescriptor-viewmodel' /> 
-```C#
+1. Create a property of type `ObservableCollection<FilterDescriptorBase>` in your `ViewModel`, which will contain the needed filters.
+
+ <snippet id='listview-features-bindable-filterdescriptor-viewmodel' />
+ ```C#
 public ObservableCollection<FilterDescriptorBase> FilterDescriptors
 {
 	get { return this.filterDescriptors; }
 	set { this.UpdateValue(ref this.filterDescriptors, value); }
 }
-```
+ ```
 
-* Use **OneWayToSource** binding mode to bind that property to the FilterDescriptors property of RadListView ((keep in mind this ListView uses the same ViewModel as in the [Example above](#example):)
+1. Use the `OneWayToSource` binding mode to bind that property to the `FilterDescriptors` property of ListView. For demonstration purposes this ListView uses the same `ViewModel` as in the previous example:
 
-<snippet id='listview-features-bindable-filterdescriptor-xaml' />
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ <snippet id='listview-features-bindable-filterdescriptor-xaml' />
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
 								 Grid.Row="1"
 								 ItemsSource="{Binding Items}"
 								 FilterDescriptors="{Binding FilterDescriptors, Mode=OneWayToSource}" >
@@ -152,11 +151,11 @@ public ObservableCollection<FilterDescriptorBase> FilterDescriptors
 		</DataTemplate>
 	</telerikDataControls:RadListView.ItemTemplate>
 </telerikDataControls:RadListView>
-```
+ ```
 
-* According to your preferences, add sort descriptors to the **FilerDescriptors** collection in the ViewModel, for example:
+1. According to your preferences, add sort descriptors to the `FilerDescriptors` collection in the `ViewModel`:
 
-```C#
+ ```C#
 private void UpdateExistingFilterDescriptor()
 {
 	if (this.FilterDescriptors == null)
@@ -170,9 +169,10 @@ private void UpdateExistingFilterDescriptor()
 		});
 	}
 }
-```
+ ```
 
-Here is how this looks like:
+
+The following image shows how this looks like:
 
 ![FilterDescriptorsMVVM](images/listview-features-bindable-filter.png)
 

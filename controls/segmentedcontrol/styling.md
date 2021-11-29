@@ -22,7 +22,7 @@ The SegmentedControl exposes the following properties:
 - `SelectedSegmentTextColor`&mdash;The text color applied to the selected segment.
 - `DisabledSegmentTextColor`&mdash;The text color applied to the disabled segments.
 
-### Example
+## Example
 
 The following example shows how to set the different segment colors.
 
@@ -46,6 +46,7 @@ The following example shows how to set the different segment colors.
     </telerikInput:RadSegmentedControl.ItemsSource>
 </telerikInput:RadSegmentedControl>
 ```
+
 
 The following image shows the end result.
 

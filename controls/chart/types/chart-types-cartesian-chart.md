@@ -129,6 +129,7 @@ The Financial Cartesian Chart supports the following series:
 xmlns:local="clr-namespace:[The namespace where the ViewModel class is defined];assembly=[The assembly name]"
  ```
 
+
 ## Cartesian Chart Example
 
 The following example shows the full definition of the chart.
@@ -191,6 +192,7 @@ public class CategoricalDataViewModel
     </telerikChart:RadCartesianChart.Series>
 </telerikChart:RadCartesianChart>
  ```
+
 
 The following image shows the final result:
 

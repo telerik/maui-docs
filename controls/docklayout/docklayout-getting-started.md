@@ -28,7 +28,7 @@ Before adding the DockLayout, you need to:
 
 1. When the your .NET MAUI application is set up, you are ready to add a Barcode control to your page.
 
-<snippet id='docklayout-getting-started-xaml' />
+ <snippet id='docklayout-getting-started-xaml' />
  ```XAML
 <telerik:RadDockLayout x:Name="dockLayout">
     <Grid HeightRequest="60"
@@ -65,7 +65,9 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
+
+
 
 
 

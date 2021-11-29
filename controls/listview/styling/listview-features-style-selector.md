@@ -8,19 +8,16 @@ slug: listview-features-style-selector
 
 # ItemStyle Selector
 
-The **RadListView** component exposes conditional styling feature. It allows users to apply a different **Style** to each item depending on a specific condition. 
-
+The ListView component exposes conditional styling feature. It allows users to apply a different `Style` to each item depending on a specific condition.
 
 ## Example
 
-The following example will demonstrate how to apply the **Conditional Styling** in the RadlistView control.
+The following example will demonstrate how to apply the `Conditional Styling` in the ListView control. Let's add the RadlistView component and create a simple data.
 
-Lets add the RadlistView component and create a simple data.
+1. Set up the ListView control:
 
-Here is an example how to setup the ListView control:
-
-```XAML
- <telerikDataControls:RadListView x:Name="listView" 
+ ```XAML
+ <telerikDataControls:RadListView x:Name="listView"
                                   ItemsSource="{Binding Source}">
     <telerikDataControls:RadListView.BindingContext>
         <local:ViewModel />
@@ -44,11 +41,11 @@ Here is an example how to setup the ListView control:
         <local:ExampleListViewStyleSelector />
     </telerikDataControls:RadListView.ItemStyleSelector>
 </telerikDataControls:RadListView>
-```
+ ```
 
-**2.** Create a simple data for the ListView component:
+1. Create a simple data for the ListView component:
 
-```C#
+ ```C#
 public class Person
 {
     public Person(string name, int age)
@@ -78,11 +75,11 @@ public class ViewModel
 
     public List<Person> Source { get; set; }
 }
-```
+ ```
 
-**3.** We can set a different style for a specific item using the **ListViewStyleSelector** class. We can use the **OnSelectStyle** method to change the styles of the items in the RadListView control. A sample implementation of a custom class that derives from **ListViewStyleSelector** and overrides its **OnSelectStyle** method is shown below: 
+1. You can set a different style for a specific item by using the `ListViewStyleSelector` class. We can use the `OnSelectStyle` method to change the styles of the items in the ListView control. A sample implementation of a custom class that derives from `ListViewStyleSelector` and overrides its `OnSelectStyle` method is shown below:
 
-```C#
+ ```C#
 public class ExampleListViewStyleSelector : ListViewStyleSelector
 {
     protected override void OnSelectStyle(object item, ListViewStyleContext styleContext)
@@ -111,15 +108,15 @@ public class ExampleListViewStyleSelector : ListViewStyleSelector
         }
     }
 }
-```
+ ```
 
-## Conditional Styling
 
-This is how the **RadListView** control will look like when conditional styling is used.
+
+The following image shows how the ListView control will look like when conditional styling is used.
 
 ![StyleSelector](../images/listview-features-style-selector.png "Style Selector")
 
->important **SDK Browser** application contains an example that shows StyleSelector feature in RadListView cotrol.
+>important The **SDK Browser** application contains an example that shows the `StyleSelector` feature in the ListView control.
 
 ## See Also
 

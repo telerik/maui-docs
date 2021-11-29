@@ -12,9 +12,11 @@ The visual appearance of the NumericInput is defined through a Control Template.
 
 This topic gives an overview of the `ControlTemplate` of the NumericInput control, so you can copy it to your app and make changes. The template consists of **Decrease** and **Increase** buttons, the entry control for entering values as well as the accompanying styles.  
 
-#### The original ControlTemplate
+The following example shows the original `ControlTemplate`.
 
-```XAML
+1. Define the NumericInput.
+
+ ```XAML
 <ResourceDictionary>
 	<ControlTemplate x:Key="RadNumericInput_ControlTemplate">
 	    <Grid ColumnSpacing="10"
@@ -71,22 +73,24 @@ This topic gives an overview of the `ControlTemplate` of the NumericInput contro
 	    </Grid>
 	</ControlTemplate>
 </ResourceDictionary>
-```
+ ```
 
-Add the namespaces:
+1. Add the namespaces:
 
-```XAML
+ ```XAML
 xmlns:common="clr-namespace:Telerik.XamarinForms.Common"
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input"
 xmlns:telerikNumeric="clr-namespace:Telerik.XamarinForms.Input.NumericInput"
-```
+ ```
+
+
 
 You need to copy the original `ControlTemplate` and its resource dependencies to the Resources section of the page, then you can modify the used colors, sizes, relocate or remove elements (for example, you can align the two buttons after the entry).
 
 >important Any `ControlTemplate` element that is prefixed with `"PART_"` is almost always a required part. Removing such a part will result in the control not working. For example the NumericInputEntry control is named `PART_Entry` and cannot be removed.
 
-Set the `ControlTemplate` to the RadNumericInput:
+The following example demonstrates how to set the `ControlTemplate` to the NumericInput:
 
-```XAML
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" ControlTemplate="{StaticReource RadNumericInput_ControlTemplate}" />
-```
+ ```

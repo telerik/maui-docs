@@ -29,9 +29,11 @@ The scheme below shows how `StartAngle` and `SweepAngle` are applied to the `Arc
 
 ![ArcSegment Angles](images/path_arcsegment_scheme.png)
 
-Here is a sample implementation of an `RadArcSegment` object:
+The following example shows a sample implementation of an `RadArcSegment` object.
 
-```XAML
+1. Define the Path.
+
+ ```XAML
 <telerikPrimitives:RadPath x:Name="simpleArcPath"
                            StrokeThickness="4"
                            Stroke="#2EC262">
@@ -44,14 +46,14 @@ Here is a sample implementation of an `RadArcSegment` object:
         </telerikCommon:RadPathFigure>
     </telerikCommon:RadPathGeometry>
  </telerikPrimitives:RadPath>
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ### RadLineSegment
 
@@ -59,9 +61,11 @@ The `RadLineSegment` creates a line between two points in a `RadPathFigure`. The
 
 The thickness and the color of the line are determined by the `StrokeThickness` and `Stroke` properties of the Path object to which this line figure is added.
 
-Check below a simple example of how to create a line `PathFigure`:
+The following example shows how to create a line `PathFigure`.
 
-```XAML
+1. Define the Path.
+
+ ```XAML
 <telerikPrimitives:RadPath x:Name="simpleLinePath"
                            StrokeThickness="4"
                            Stroke="#2EC262">
@@ -71,38 +75,38 @@ Check below a simple example of how to create a line `PathFigure`:
         </telerikCommon:RadPathFigure>
     </telerikCommon:RadPathGeometry>
 </telerikPrimitives:RadPath>
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## Example
 
 The following example shows how to create a more complex `RadPathGeometry` object and add a line with curved edges to its Figures collection.
 
-First, define the `RadPath` figure:
+1. First, define the `RadPath` figure:
 
-```XAML
+ ```XAML
 <telerikPrimitives:RadPath x:Name="customLinePath"
                            Grid.Row="0"
                            StrokeThickness="0"
                            Fill="#3DBAFE"/>
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Then, set its `Geometry` to have the following structure:
+1. Then, set its `Geometry` to have the following structure:
 
-```C#
+ ```C#
 RadPathFigure customLine = new RadPathFigure();
 customLine.StartPoint = new Point(0.8, 0.1);
 customLine.Segments.Add(new RadLineSegment(new Point(0.1, 0.8)));
@@ -114,16 +118,18 @@ customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.825, 0.125), 
 RadPathGeometry geometry = new RadPathGeometry();
 geometry.Figures.Add(customLine);
 customLinePath.Geometry = geometry;
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```C#
+ ```C#
 using Microsoft.Maui.Graphics;
 using Telerik.XamarinForms.Common;
-```
+ ```
 
-Check the screenshot below which shows the result after creating the three Paths:
+
+
+The following image shows the result after creating the three Paths:
 
 ![Path Geometry](images/path_geometry.png)
 

@@ -6,7 +6,7 @@ position: 1
 slug: entry-getting-started
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI Entry
+# Getting Started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Entry by adding the control to your project.
 
@@ -33,7 +33,7 @@ Before adding the Entry, you need to:
 					   WatermarkText="Enter first name"/>
  ```
 
- 1. Add the following namespace:
+1. Add the following namespace:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -42,7 +42,9 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
+
+
 
 
 

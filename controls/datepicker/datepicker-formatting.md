@@ -18,20 +18,22 @@ The `DisplayStringFormat` property defines the format of the string that will be
 
 The following example demonstrates how to set the `DisplayStringFormat` definition.
 
-<snippet id='datepicker-keyfeatures-date-defaulthighlighted' />
-```XAML
+1. Define the control and the `DisplayStringFormat`.
+
+ <snippet id='datepicker-keyfeatures-date-defaulthighlighted' />
+ ```XAML
 <telerikInput:RadDatePicker DefaultHighlightedDate="2020,05,15"
                             DisplayStringFormat="yyyy/MMM/dd"
                             Placeholder="Pick a date!"
                             SpinnerFormat="dd/MMM/yyyy"
                             AreSpinnerHeadersVisible="False"/>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## Spinner Format
 
@@ -86,43 +88,57 @@ When `SpinnerFormat` is set and the device culture is changed, the separators us
 
 ## Examples
 
+The following examples demonstrate how to set the `SpinnerFormat` property of the DatePicker to different formats.
+
 ### SpinnerFormat="MMMM dd"
+
+The following example demonstrates how to set the `SpinnerFormat` property to the `"MMMM dd"` format.
 
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMMM dd" />
 ```
 
-And the result:
+
+The following image shows the result:
 
 ![](images/datepicker-string-format-mmmm-dd.png)
 
 ### SpinnerFormat="dd"
 
+The following example demonstrates how to set the `SpinnerFormat` property to the `"dd"` format.
+
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="dd" />
 ```
 
-And the result:
+
+The following image shows the result:
 
 ![](images/datepicker-string-format-dd.png)
 
 ### SpinnerFormat="MMM yyyy"
 
+The following example demonstrates how to set the `SpinnerFormat` property to the `"MM yyyy"` format.
+
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="MMM yyyy" />
 ```
 
-And the result:
+
+The following image shows the result:
 
 ![](images/datepicker-string-format-mmm-yyyy.png)
 
 ### SpinnerFormat="yyyy/dd/MMM"
 
+The following example demonstrates how to set the `SpinnerFormat` property to the `"yyyy/dd/MMM"` format.
+
 ```XAML
 <telerikInput:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
 ```
 
-And the result:
+
+The following image shows the result:
 
 ![](images/datepicker-string-format-yyyy-dd-MMM.png)
 

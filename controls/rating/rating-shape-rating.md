@@ -91,23 +91,24 @@ You can control the visual appearance of the predefined shapes through the follo
 
 ![Rating Styling](images/rating-styles.png)
 
-### Example
+The following example shows how to set the shapes styling.
 
-Define the `RadShapeRating`:
+1. Define the `RadShapeRating`:
 
-```XAML
+ ```XAML
 <telerikInput:RadShapeRating AutomationId="styledRating"
                           ItemFill="YellowGreen"
                           ItemStroke="YellowGreen"
                           SelectedItemFill="Pink"
                           SelectedItemStroke="Red" />
-```
+ ```
 
-Add the namespace:
+1. Add the namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
-```
+ ```
+
 
 The following image shows the end result.
 

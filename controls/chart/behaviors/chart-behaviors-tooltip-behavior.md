@@ -1,5 +1,5 @@
 ---
-title: ToolTip
+title: ToolTip Behavior
 page_title: .NET MAUI Chart Documentation | ToolTip Behavior
 description: Check our &quot;Tool Tip Behavior&quot; documentation article for Telerik Chart for .NET MAUI
 position: 3

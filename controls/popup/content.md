@@ -22,7 +22,7 @@ The example below demonstrates how to create a sample `DataTemplate` and set it 
 
 1. Add the needed `DataTemplate` to the page Resources:
 
-```XAML
+ ```XAML
 <ResourceDictionary>
     <DataTemplate x:Key="PopupTemplate">
         <telerikMauiControls:RadBorder CornerRadius="8"
@@ -82,6 +82,7 @@ private void Checkbox_IsCheckedChanged(object sender, IsCheckedChangedEventArgs 
         popup.IsOpen = true;
 }
  ```
+
 
 The following image shows the end result.
 

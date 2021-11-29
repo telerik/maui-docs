@@ -8,29 +8,27 @@ slug: listview-features-layouts
 
 # Layouts
 
-RadListView control supports two layouts: linear and grid through the `LayoutDefinition` property. It accepts values of type ListViewLayoutBase which is a base class for all list view layouts. 
+The ListView control supports two layouts: linear and grid through its `LayoutDefinition` property. It accepts values of type `ListViewLayoutBase` which is a base class for all list view layouts.
 
-Here are the properties exposed by the ListViewLayoutBase class: 
+Here are the properties exposed by the `ListViewLayoutBase` class:
 
-- **VerticalItemSpacing** (double): Gets or sets the vertical space between two items.
-- **HorizontalItemSpacing** (double): Gets or sets the horizontal space between two items.
-- **ItemLength** (double): Gets or sets the width or height (depending on the layout orientation) of the items. The default value is -1 which means that the items will be sized according to the targeted platform default behavior.
-- **GroupHeaderLength** (double): Gets or sets the width or height (depending on the layout orientation) of the group headers. The default value is -1 which means that the items will be sized according to the targeted platform default behavior.
-- **Orientation** (Orientation): Gets or sets the orientation (scroll direction) of the layout.
+- `VerticalItemSpacing` (`double`)&mdash;Gets or sets the vertical space between two items.
+- `HorizontalItemSpacing` (`double`)&mdash;Gets or sets the horizontal space between two items.
+- `ItemLength` (`double`)&mdash;Gets or sets the width or height (depending on the layout orientation) of the items. The default value is `-1`, which means that the items will be sized according to the targeted platform default behavior.
+- `GroupHeaderLength` (`double`)&mdash;Gets or sets the width or height (depending on the layout orientation) of the group headers. The default value is -1 which means that the items will be sized according to the targeted platform default behavior.
+- `Orientation` (`Orientation`)&mdash;Gets or sets the orientation (scroll direction) of the layout.
 
 ## Linear Layout
 
-Linear layout is the default layout of the control. It can be explicitly set by creating an instance of the **ListViewLinearLayout** class and assigning it to the **RadListView.LayoutDefinition** property.
+Linear layout is the default layout of the control. It can be explicitly set by creating an instance of the `ListViewLinearLayout` class and assigning it to the `RadListView.LayoutDefinition` property.
 
-### Example
+The following example demonstrates how to use the `RadListViewLinearLayout`.
 
-This example will demonstrate how to use the **RadListViewLinearLayout**.
+1. Define the list view in XAML:
 
-Here is the list view definition in XAML:
-
-<snippet id='listview-layouts-linearlayout-listview'/>
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ <snippet id='listview-layouts-linearlayout-listview'/>
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
 								 ItemsSource="{Binding Items}">
 	<telerikDataControls:RadListView.BindingContext>
 		<local:ViewModel/>
@@ -50,26 +48,26 @@ Here is the list view definition in XAML:
 		<telerikListView:ListViewLinearLayout ItemLength="40" VerticalItemSpacing="2" />
 	</telerikDataControls:RadListView.LayoutDefinition>
 </telerikDataControls:RadListView>
-```
+ ```
 
-Where:
+	In the example:
 
-<snippet id='xmlns-teleriklistview'/>
-```XAML
+ <snippet id='xmlns-teleriklistview'/>
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Add the ViewModel class with the ItemsSource collection:
+1. Add the `ViewModel` class with the `ItemsSource` collection:
 
-<snippet id='listview-layouts-linearlayout-source'/>
-```C#
+ <snippet id='listview-layouts-linearlayout-source'/>
+ ```C#
 public class Item
 {
 	public string Name { get; set; }
 	public Color Color { get; set; }
 }
-	
+
 public class ViewModel
 {
 	public ViewModel()
@@ -83,28 +81,25 @@ public class ViewModel
 	}
 	public ObservableCollection<Item> Items { get; set; }
 }
-```
+ ```
 
-This is the result:
+
+The following image shows the result:
 
 ![Linear Vertical](images/listview-layouts-linear.png)
 
 ## Grid Layout
 
-The Grid Layout allows distributing cells in a fixed number of columns/rows. It exposes the following properties in addition to the basic layout properties:
+The Grid Layout allows distributing cells in a fixed number of columns/rows. To the basic layout properties, it exposes the `SpanCount` (`int`) property, which gets or sets the count of the columns/rows (depending on the orientation) of the list.
 
-- **SpanCount** (int): Gets or sets the count of the columns / rows (depending on the orientation) of the list. 
+The grid layout can be utilized by setting the `RadListView.LayoutDefinition` property to a new instance of the `ListViewGridLayout` class.
 
-The grid layout can be utilized by setting the **RadListView.LayoutDefinition** property to a new instance of the **ListViewGridLayout** class.
+The following example demonstrates how to use the `RadListViewGridLayout`.
 
-### Example
+1. Define the list view in XAML:
 
-This example will demonstrate how to use the **RadListViewGridLayout**.
-
-Here is the list view definition in XAML:
-
-<snippet id='listview-layouts-gridlayout-listview'/>
-```XAML
+ <snippet id='listview-layouts-gridlayout-listview'/>
+ ```XAML
 <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Items}">
 	<telerikDataControls:RadListView.BindingContext>
 		<local:ViewModel/>
@@ -121,31 +116,31 @@ Here is the list view definition in XAML:
 		</DataTemplate>
 	</telerikDataControls:RadListView.ItemTemplate>
 	<telerikDataControls:RadListView.LayoutDefinition>
-		<telerikListView:ListViewGridLayout ItemLength="40" 
-											HorizontalItemSpacing="2" 
+		<telerikListView:ListViewGridLayout ItemLength="40"
+											HorizontalItemSpacing="2"
 											VerticalItemSpacing="2" />
 	</telerikDataControls:RadListView.LayoutDefinition>
 </telerikDataControls:RadListView>
-```
+ ```
 
-Where:
+	In the example:
 
-<snippet id='xmlns-teleriklistview'/>
-```XAML
+ <snippet id='xmlns-teleriklistview'/>
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-Add the ViewModel class with the ItemsSource collection:
+1. Add the `ViewModel` class with the `ItemsSource` collection:
 
-<snippet id='listview-layouts-gridlayout-source'/>
-```C#
+ <snippet id='listview-layouts-gridlayout-source'/>
+ ```C#
 public class Item
 {
 	public string Name { get; set; }
 	public Color Color { get; set; }
 }
-	
+
 public class ViewModel
 {
 	public ViewModel()
@@ -159,9 +154,10 @@ public class ViewModel
 	}
 	public ObservableCollection<Item> Items { get; set; }
 }
-```
+ ```
 
-This is the result:
+
+The following image shows the result:
 
 ![Linear Vertical](images/listview-layouts-grid.png)
 

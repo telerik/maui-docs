@@ -24,6 +24,8 @@ Before adding the Gauge, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
+>important The Gauge is rendered through the [SkiaSharp graphics library](https://skia.org/).
+
 ## Define the Control
 
 1. When the your .NET MAUI application is set up, you are ready to add a Gauge control to your page.
@@ -63,9 +65,7 @@ xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
-
-
+ using Telerik.Maui.Controls.Compatibility;
 
 public static class MauiProgram
 {

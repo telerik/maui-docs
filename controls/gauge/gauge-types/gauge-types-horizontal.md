@@ -36,6 +36,7 @@ The following example shows the basic setup of the Horizontal Gauge.
 </telerikGauges:RadHorizontalGauge>
 ```
 
+
 The following image shows the end result.
 
 ![Radial gauge example](../images/gauge-types-horizontal-gauge-0.png)

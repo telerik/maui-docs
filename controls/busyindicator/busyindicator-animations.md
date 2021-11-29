@@ -37,7 +37,7 @@ The image below shows the modified BusyIndicator in its busy state.
 
 ![BusyIndicator Settings](images/busyindicator-animations-settings.png)
 
-## Custom Animations
+## Custom Animation
 
 To create a custom animation, use a combination of the `AnimationType`, `BusyContent`, and `Animations` properties:
 

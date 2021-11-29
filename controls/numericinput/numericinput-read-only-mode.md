@@ -8,25 +8,24 @@ slug: numericinput-read-only-mode
 
 # Read-Only Mode
 
-The NumericInput supports read-only mode in which the end user cannot type into the input field – **updating the value is possible only through the increase/decrease buttons**.
+The NumericInput supports read-only mode in which the end user cannot type into the input field. Updating the value is possible only through the **Increase** and **Decrease** buttons.
 
-* Enable the read-only mode when setting `IsReadOnly` to `True`.
+To enable the read-only mode, set `IsReadOnly` to `True`.
 
-## Example
+1. Define the NumericInput in XAML with `IsReadOnly` set to `True`.
 
-Define the NumerinInput in XAML with `IsReadOnly` set to `True`.
-
-```XAML
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" IsReadOnly="True"/>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-And the result:
+
+The following image shows the result:
 
 ![NumericInput Read-Only mode](images/numericinput-read-only-mode.png)
 

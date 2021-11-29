@@ -87,8 +87,6 @@ And here are how the styles are defined in the page resources.
 
 ## Spinner Style
 
-**Example for Setting the Spinner Style**
-
 ```XAML
 <Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
     <Setter Property="ItemStyle">

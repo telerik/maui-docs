@@ -21,8 +21,8 @@ The MaskedEntry exposes the following events:
 
 * `ValueChanged`&mdash;Occurs when the editing value has been changed. This event is fired if the `ValueChanging` event is not canceled. Through the `MaskedEntryValueChangedEventArgs` you can get the following properties:
 
-	* `Value`&mdash;Specifies the new value set to the control;
-	* `Text`&mdash;Specifies the new value with the formatting applied;
+	* `Value`&mdash;Specifies the new value set to the control.
+	* `Text`&mdash;Specifies the new value with the formatting applied.
 	* `IsValid`&mdash;Indicates whether the new value is considered valid according to internal (mask, regex) and external (application) validation.
 	* `ValidationMessage`&mdash;Defines a validation message for the end user.
 

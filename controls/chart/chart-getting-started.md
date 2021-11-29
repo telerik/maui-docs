@@ -57,7 +57,7 @@ xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Ma
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
 
 
@@ -78,6 +78,7 @@ public static class MauiProgram
 	}
 }           
  ```
+
 
 ## Visualize Sample Data
 
@@ -112,6 +113,7 @@ public class ChartViewModel
     public ObservableCollection<CategoricalData> Data { get; set; }
 }
  ```
+
 
 ## See Also
 

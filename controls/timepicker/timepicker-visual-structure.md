@@ -10,7 +10,7 @@ slug: timepicker-visual-structure
 
 This article describes all visual elements that are used in the TimePicker for .NET MAUI.
 
-## Before and after Time Value Selection
+## Before and After Time Value Selection
 
 ![Time Picker Visual Structure](images/time_picker_placeholder_display.png "Visual elements of Time Picker control")
 

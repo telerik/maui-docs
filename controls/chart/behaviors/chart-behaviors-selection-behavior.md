@@ -1,5 +1,5 @@
 ---
-title: Selection
+title: Selection Behavior
 page_title: .NET MAUI Chart Documentation | Selection Behavior
 description: Check our &quot;Selection Behavior&quot; documentation article for Telerik Chart for .NET MAUI control.
 position: 1

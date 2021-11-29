@@ -54,6 +54,7 @@ The Pie Chart supports the Pie Series, which visualize a single series of data i
 </telerikChart:RadPieChart.BindingContext>
 ```
 
+
 ## Pie Chart Example
 
 The following example shows the full definition of the chart.
@@ -111,6 +112,7 @@ public class ViewModel
     </telerikChart:RadPieChart.Series>
 </telerikChart:RadPieChart>
  ```
+
 
 The following image shows the end result:
 

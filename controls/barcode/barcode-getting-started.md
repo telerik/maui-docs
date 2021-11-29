@@ -24,7 +24,7 @@ Before adding the Barcode, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
-1. Install the [SkiaSharp graphics library](https://skia.org/) as the Barcode requires it.
+>important The Barcode is rendered through the [SkiaSharp graphics library](https://skia.org/).
 
 ## Define the Control
 
@@ -49,7 +49,7 @@ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Teleri
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
 
 

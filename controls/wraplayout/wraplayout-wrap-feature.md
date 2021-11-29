@@ -64,6 +64,7 @@ In the example, `telerik` is defined like this:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
+
 The following image shows the end result on different platforms:
 
 ![WrapLayout Orientation](images/wraplayout_orientation.png)
@@ -81,6 +82,7 @@ Here is a quick sample of a WrapLayout with a specified item size:
 	<telerikInput:RadButton BorderThickness="1" Text="Item 3" Margin="2"/>
 </telerik:RadWrapLayout>
 ```
+
 
 The following image shows the end result.
 
@@ -108,6 +110,7 @@ The following example shows how `StretchLastChild` will work when set to both va
 	</telerik:RadWrapLayout>
 </StackLayout>
 ```
+
 
 The following image shows the end result.
 

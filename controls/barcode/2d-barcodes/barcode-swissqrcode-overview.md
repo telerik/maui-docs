@@ -28,7 +28,7 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
  <snippet id='swissqrbarcode-example-xaml' />
 
-Add the namespace:
+1. Add the namespace:
 
  ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
@@ -36,16 +36,16 @@ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Teleri
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
-Through its constructor, you need to set the following properties:
+  Through its constructor, you need to set the following properties:
 
-* `Iban`&mdash;The IBAN of the Account/Payable to.
-* `Currency`&mdash;The currency of the payment (CHF or EUR).
-* `Creditor`&mdash;The information of the contact that receives the payment.
-* `Reference`&mdash;The reference information for the payment.
-* `AdditionalInformation`&mdash;The additional information for the payment.
-* `Debtor`&mdash;The information of the contact that makes the payment.
-* `Amount`&mdash;The amount of the payment.
-* `AlternativeProcedure`&mdash;The alternative procedures for the payment.
+  * `Iban`&mdash;The IBAN of the Account/Payable to.
+  * `Currency`&mdash;The currency of the payment (CHF or EUR).
+  * `Creditor`&mdash;The information of the contact that receives the payment.
+  * `Reference`&mdash;The reference information for the payment.
+  * `AdditionalInformation`&mdash;The additional information for the payment.
+  * `Debtor`&mdash;The information of the contact that makes the payment.
+  * `Amount`&mdash;The amount of the payment.
+  * `AlternativeProcedure`&mdash;The alternative procedures for the payment.
 
  ```C#
 SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
@@ -60,7 +60,7 @@ SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
       new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
  ```
 
-Add the namespace.
+1. Add the namespace.
 
  ```C#
 using Telerik.Barcode

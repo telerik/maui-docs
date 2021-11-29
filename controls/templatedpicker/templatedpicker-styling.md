@@ -8,6 +8,8 @@ slug: templatedpicker-styling
 
 # Styling
 
+The TemplatedPicker control for .NET MAUI provides styling options for customizing its appearance.
+
 ## TemplatedPicker Styling
 
 * `PlaceholderLabelStyle` (of type `Style` with target type `Label`)&mdash;Defines the style applied to the placeholder label.
@@ -27,6 +29,7 @@ The TemplatedPicker exposes the following properties for styling its border and 
 ### PlaceholderLabel Style
 
 ![TemplatedPicker Placeholder Label Style](images/templatedpicker_placeholder_styling.png)
+
 ```XAML
 <Style x:Key="DefaultPlaceholderLabelStyle" TargetType="Label">
 	<Setter Property="TextColor" Value="#4A4949"/>
@@ -38,6 +41,7 @@ The TemplatedPicker exposes the following properties for styling its border and 
 ### DisplayLabel Style
 
 ![TemplatedPicker Display Label Style](images/templatedpicker_display_styling.png)
+
 ```XAML
 <Style x:Key="DisplayLabelStyle" TargetType="Label">
 	<Setter Property="TextColor" Value="#4A4949"/>
@@ -90,7 +94,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Example
 
-Here is a sample example which shows how the styling properties are applied.
+The following example shows how the styling properties are applied.
 
 Define a sample TemplatedPicker:
 

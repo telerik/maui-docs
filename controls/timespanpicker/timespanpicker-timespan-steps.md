@@ -17,7 +17,7 @@ You can change the default setup using the following properties:
 * `MinuteStep`(`int`)&mdash;Controls the incremental step of the minute value. The default value is `1`.
 * `SecondStep`(`int`)&mdash;Controls the incremental step of the second value. The default value is `1`.
 
-**Example for Setting Time Steps**
+The following example shows how to set the time steps.
 
 1. Define the TimeSpanPicker.
 
@@ -33,6 +33,8 @@ You can change the default setup using the following properties:
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
+
+
 
 ## See Also
 

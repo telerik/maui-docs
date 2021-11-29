@@ -21,11 +21,13 @@ You can also check if an item is enabled through the `IsSegmentEnabled` method. 
 
 You can set the text color of the disabled segment through the `DisabledSegmentTextColor`.
 
-### Example
+## Example
 
-The following example shows how to disable a segment and define a color.
+The following example shows how to disable a segment and define a color for it.
 
-```XAML
+1. Define the control.
+
+ ```XAML
 <telerikInput:RadSegmentedControl x:Name="segmentControl"
                                   DisabledSegmentTextColor="#CA5100"
                                   HeightRequest="60"
@@ -39,13 +41,14 @@ The following example shows how to disable a segment and define a color.
         </x:Array>
     </telerikInput:RadSegmentedControl.ItemsSource>
 </telerikInput:RadSegmentedControl>
-```
+ ```
 
-You can disable any segment with `SetSegmentEnabled` method:
+1. You can disable any segment with `SetSegmentEnabled` method:
 
-```C#
+ ```C#
 this.segmentControl.SetSegmentEnabled(2, false);
-```
+ ```
+
 
 The following image shows the end result.
 

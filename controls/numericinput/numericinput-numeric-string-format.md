@@ -19,16 +19,21 @@ The `StringFormat`(`string`) specifies the string format applied to the numeric 
 You can find detailed information about the supported numeric formats in the [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) Microsoft documentation.
 
 ## Example
-```XAML
+
+1. Define the NumericInput.
+
+ ```XAML
 <telerikInput:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
-```
-Add the following namespase:
+ ```
 
-```XAML
+1. Add the following namespace:
+
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-And the result:
+
+The following image shows the end result:
 
 ![NumericInput String Format](images/numericinput-string-format.png)
 

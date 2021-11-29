@@ -91,6 +91,8 @@ this.BindingContext = new ViewModel();
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
+
+
 ## See Also
 
 - [Events]({%slug templatedpicker-events%})
