@@ -16,7 +16,7 @@ navigation:
         title: "Sample Applications"
         position: 2
     controls:
-        title: ".NET MAUI Controls"
+        title: "Controls"
         position: 7
     troubleshooting:
         title: "Troubleshooting"

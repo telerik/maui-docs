@@ -16,11 +16,19 @@ slug: maskedentry-overview
 
 * [Rich set of mask types]({%slug maskedentry-masked-types%})&mdash;The MaskedEntry control comes with a number of mask rules you can apply to validate user input as an email, IP address, text, regex, and more.
 
+* **Setting Mask**: Allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used RadMaskedEntry -> Regex, Numeric, etc. 
+
 * [Exhaustive number of events]({%slug maskedentry-events%})&mdash;You can use the events exposed by the MaskedEntry to execute various operations on user interaction such as value changing.
 
 * [Mask types]({% slug maskedentry-masked-types %})&mdash;The MaskedEntry allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used MaskedEntry such as Regex, Numeric, and more.
 
-* [Value property]({% slug maskedentry-events %})&mdash;Through its `Value` property, the MaskedEntry returns the user input without the formatting characters.
+* [Value property]({% slug maskedentry-events%})&mdash;Through its `Value` property, the MaskedEntry returns the user input without the formatting characters.
+
+* [Null Values Support]()&mdash;
+
+* [Validation UI]()&mdash;
+
+* [Exhaustive number of events]({%slug maskedentry-events%})&mdash;You can use the events exposed by the MaskedEntry to execute various operations on user interaction such as value changing.
 
 * Keyboard support&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
 
