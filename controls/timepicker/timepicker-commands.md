@@ -17,7 +17,7 @@ The TimePicker for .NET MAUI exposes the following commands, which enable you to
 * `ToggleCommand`(`ICommand`)&mdash;Allows you to show and hide the popup. Used for selecting a time value.
 * `ClearCommand`(`ICommand`)&mdash;Allows you to clear the selected time.
 
-**Example for ToggleCommand and ClearCommand**
+The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 
 1. Define the TimePicker.
 
@@ -46,7 +46,7 @@ The TimePicker allows you to add custom logic for the `Accept` and `Cancel` comm
 
 You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TemplatedPicker.
 
-**Example for AcceptCommand and CancelCommand**
+The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
 1. Define the TimePicker.
 

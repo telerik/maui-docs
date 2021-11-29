@@ -10,35 +10,35 @@ tags: sort, radlistview, sorting, sortdescriptor
 
 # Sorting
 
-**RadListView** can be used to sort the visualized data. This can be achieved by adding different SortDescriptors to its **SortDescriptors** collection. There are two types of descriptors shipped with our code.
+The ListView can be used to sort the visualized data. This can be achieved by adding different `SortDescriptors` to its `SortDescriptors` collection. There are two types of descriptors shipped with our code.
 
-## PropertySortDescriptor 
+## PropertySortDescriptor
 
 You can sort the data by a property value from the class that defines your business items. This descriptor exposes the following properties:
 
-- **PropertyName**: Defines the string name of the property that is used to retrieve the key to sort by.
-- **SortOrder**: Specifies sort order to Ascending or Descending.
+- `PropertyName`&mdash;Defines the string name of the property that is used to retrieve the key to sort by.
+- `SortOrder`&mdash;Specifies sort order to ascending or descending.
 
-## DelegateSortDescriptor 
+## DelegateSortDescriptor
 
-This descriptor enables you to sort by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
+This descriptor enables you to sort by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
 
-- **SortOrder**: Sets the sort order to Ascending or Descending.
-- **Comparer**: Defines the Compare method used by the internal [IComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.icomparer).
+- `SortOrder`&mdash;Sets the sort order to ascending or descending.
+- `Comparer`&mdash;Defines the `Compare` method used by the internal [IComparer](https://docs.microsoft.com/en-us/dotnet/api/system.collections.icomparer).
 
 ### Example
 
-Here is an example that will guide you how to use SortDescriptor in ListView.
+Here is an example that will guide you how to use `SortDescriptor` in the ListView.
 
-First, define the ListView in XAML:
+1. First, define the ListView in XAML:
 
-<snippet id='listview-features-sorting-xaml'/>
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ <snippet id='listview-features-sorting-xaml'/>
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
 					 ItemsSource="{Binding Items}">
 	<telerikDataControls:RadListView.BindingContext>
 		<local:ViewModel/>
-	</telerikDataControls:RadListView.BindingContext>	
+	</telerikDataControls:RadListView.BindingContext>
 	<telerikDataControls:RadListView.ItemTemplate>
 		<DataTemplate>
 			<telerikListView:ListViewTemplateCell>
@@ -54,19 +54,19 @@ First, define the ListView in XAML:
 		</DataTemplate>
 	</telerikDataControls:RadListView.ItemTemplate>
 </telerikDataControls:RadListView>
-```
+ ```
 
-Add a PropertySortDescriptor to the SortDescriptors collection of the ListView:
+1. Add a `PropertySortDescriptor` to the `SortDescriptors` collection of the ListView:
 
-<snippet id='listview-features-sorting-agesort'/>
-```C#
+ <snippet id='listview-features-sorting-agesort'/>
+ ```C#
 listView.SortDescriptors.Add(new Telerik.XamarinForms.DataControls.ListView.PropertySortDescriptor { PropertyName = "Age", SortOrder = SortOrder.Ascending });
-```
+ ```
 
-Use the following snippet for the ViewModel class: 
+1. Use the following snippet for the `ViewModel` class:
 
-<snippet id='listview-features-sorting-viewmodel'/>
-```C#
+ <snippet id='listview-features-sorting-viewmodel'/>
+ ```C#
 public class ViewModel
 {
 	public ViewModel()
@@ -97,45 +97,46 @@ public class ViewModel
 		return items;
 	}
 }
-```
+ ```
 
-Create a class Person and add the code below:
+1. Create a `Person` class and add the code below:
 
-<snippet id='listview-features-sorting-data-class'/>
-```C#
+ <snippet id='listview-features-sorting-data-class'/>
+ ```C#
 public class Person
 {
 	public string Name { get; set; }
 	public int Age { get; set; }
 }
-```
+ ```
 
-Here is the result once the data is sorted.
+
+The following image shows the result once the data is sorted.
 
 ![Sorting](images/listview-features-sorting.png "Sorting")
 
 ## Bindable SortDescriptors
 
-SortDescriptors collection of the RadListView supports binding - this means you can modify the sort descriptors directly from the ViewModel.
+The `SortDescriptors` collection of the ListView supports binding, which means you can modify the sort descriptors directly from the `ViewModel`.
 
-In order to control the descriptors collections through MVVM: 
+To control the descriptors collections through MVVM:
 
-* Create a property of type ObservableCollection<SortDescriptorBase> in your ViewModel which will contain the needed sort descriptors:
+1. Create a property of type `ObservableCollection<SortDescriptorBase>` in your `ViewModel` which will contain the needed sort descriptors:
 
-<snippet id='listview-features-bindable-sortdescriptor-viewmodel' />
-```C#
+ <snippet id='listview-features-bindable-sortdescriptor-viewmodel' />
+ ```C#
 public ObservableCollection<SortDescriptorBase> SortDescriptors
 {
 	get { return this.sortDescriptors; }
 	set { this.UpdateValue(ref this.sortDescriptors, value); }
 }
-```
+ ```
 
-* Use **OneWayToSource** binding mode to bind that property to the SortDescriptors property of RadListView (keep in mind this ListView uses the same ViewModel as in the [Example above](#example):
+1. Use the `OneWayToSource` binding mode to bind that property to the `SortDescriptors` property of ListView. For demonstration purposes, this ListView uses the same `ViewModel` as in the previous example.
 
-<snippet id='listview-features-bindable-sortdescriptor-xaml' />
-```XAML
-<telerikDataControls:RadListView x:Name="listView" 
+ <snippet id='listview-features-bindable-sortdescriptor-xaml' />
+ ```XAML
+<telerikDataControls:RadListView x:Name="listView"
 								 Grid.Row="2"
 								 SortDescriptors="{Binding SortDescriptors, Mode=OneWayToSource}"
 								 ItemsSource="{Binding Items}">              
@@ -154,11 +155,11 @@ public ObservableCollection<SortDescriptorBase> SortDescriptors
 		</DataTemplate>
 	</telerikDataControls:RadListView.ItemTemplate>
 </telerikDataControls:RadListView>
-```
+ ```
 
-* According to your preferences, add sort descriptors to the **SortDescriptors** collection in the ViewModel, for example:
+1. According to your preferences, add sort descriptors to the `SortDescriptors` collection in the `ViewModel`, for example:
 
-```C#
+ ```C#
 private void UpdateExistingSortDescriptor()
 {
 	if (this.SortDescriptors == null)
@@ -173,9 +174,10 @@ private void UpdateExistingSortDescriptor()
 		});
 	}
 }
-```
+ ```
 
-Here is the result:
+
+The following image shows the result:
 
 ![SortDescriptorMVVM](images/listview-features-bindable-sort.png)
 

@@ -18,12 +18,14 @@ This article describes the TemplatedPicker properties that are used for binding 
 
 * `SelectedValue`&mdash;Used when you have linked your TemplatedPicker to a data source, and you want to return a value of type object different from the one which is displayed.
 
-### Example
+## Example
 
 The example below uses two `RadSpinner` controls inside the `SelectorTemplate` of the TemplatedPicker which present cascading lists of items (the items shown in the second spinner depend on the selected value from the first spinner). Through the `SelectedValue` and `DisplayMemberPath` properties you can define how the selection from the spinners is visualized in the picker when the popup is closed.
 
-<snippet id='templatedpicker-keyfeatures' />
-```XAML
+1. Define the control.
+
+ <snippet id='templatedpicker-keyfeatures' />
+ ```XAML
 <telerikInput:RadTemplatedPicker SelectedValue="{Binding FromCity, Mode=TwoWay}"
 								 DisplayMemberPath="Name"
 								 SelectorTemplate="{StaticResource SelectorTemplate}">
@@ -31,12 +33,12 @@ The example below uses two `RadSpinner` controls inside the `SelectorTemplate` o
 		<telerikInput:PickerPopupSelectorSettings HeaderTemplate="{StaticResource HeaderTemplate}"/>
 	</telerikInput:RadTemplatedPicker.SelectorSettings>
 </telerikInput:RadTemplatedPicker>
-```
+ ```
 
-Here is a sample definition of the SelectorTemplate:
+1. Define the `SelectorTemplate`:
 
-<snippet id='templatedpicker-keyfeatures-selectortemplate' />
-```XAML
+ <snippet id='templatedpicker-keyfeatures-selectortemplate' />
+ ```XAML
 <ControlTemplate x:Key="SelectorTemplate">
 	<Grid HeightRequest="250">
 		<Grid.ColumnDefinitions>
@@ -53,12 +55,12 @@ Here is a sample definition of the SelectorTemplate:
 										DisplayMemberPath="Name" />
 	</Grid>
 </ControlTemplate>
-```
+ ```
 
-Define the `HeaderTemplate`:
+1. Define the `HeaderTemplate`:
 
-<snippet id='templatedpicker-keyfeatures-headertemplate' />
-```XAML
+ <snippet id='templatedpicker-keyfeatures-headertemplate' />
+ ```XAML
 <ControlTemplate x:Key="HeaderTemplate">
 	<Grid BackgroundColor="DarkGray">
 		<Grid.ColumnDefinitions>
@@ -76,12 +78,12 @@ Define the `HeaderTemplate`:
 			   TextColor="White" />
 	</Grid>
 </ControlTemplate>
-```
+ ```
 
-Add the following data item for the first spinner:
+1. Add the following data item for the first spinner:
 
-<snippet id='templatedpicker-country-businessmodel' />
-```C#
+ <snippet id='templatedpicker-country-businessmodel' />
+ ```C#
 public class Country : NotifyPropertyChangedBase
 {
 	private string name;
@@ -108,12 +110,12 @@ public class Country : NotifyPropertyChangedBase
 
 	public ObservableCollection<City> Cities { get; }
 }
-```
+ ```
 
-Add the following data item for the second spinner:
+1. Add the following data item for the second spinner:
 
-<snippet id='templatedpicker-city-businessmodel' />
-```C#
+ <snippet id='templatedpicker-city-businessmodel' />
+ ```C#
 public class City : NotifyPropertyChangedBase
 {
 	private string name;
@@ -133,12 +135,12 @@ public class City : NotifyPropertyChangedBase
 		}
 	}
 }
-```
+ ```
 
-Here is a sample definition of the `ViewModel`:
+1. Define the `ViewModel`:
 
-<snippet id='templatedpicker-viewmodel' />
-```C#
+ <snippet id='templatedpicker-viewmodel' />
+ ```C#
 public class LocationViewModel : NotifyPropertyChangedBase
 {
 	private Country fromCountry;
@@ -332,19 +334,21 @@ public class LocationViewModel : NotifyPropertyChangedBase
 
 	public ObservableCollection<Country> Countries { get; }
 }
-```
+ ```
 
-Set thus defined `LocationViewModel` as a `BindingContext` of the page:
+1. Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
-```C#
+ ```C#
 this.BindingContext = new LocationViewModel();
-```
+ ```
 
-In addition to this, you need to add the following namespace:
+1. In addition to this, you need to add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
+
+
 
 The following image shows the end result.
 

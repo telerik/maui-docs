@@ -1,21 +1,21 @@
 ---
-title: Date-Time Continuous Axis
-page_title: .NET MAUI Chart Documentation | Date-Time Continuous Axis
+title: DateTime Continuous Axis
+page_title: .NET MAUI Chart Documentation | DateTime Continuous Axis
 slug: axes-date-time-continuous-axis
 description: Check our &quot;DateTimeContinuous Axis&quot; documentation article for Telerik Chart for .NET MAUI control.
 ---
 
-# Date-Time Continuous Axis
+# DateTime Continuous Axis
 
-The Date-Time Continuous Axis is a special axis that extends the base `CartesianAxis` class and may be considered as a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
+The DateTime Continuous Axis is a special axis that extends the base `CartesianAxis` class and may be considered as a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
 
-The Date-Time Continuous Axis also expects valid `DateTime` values so that the data can be plotted correctly. Think of the `DateTimeContinuousAxis` as a timeline where each data point has a certain position, depending on its `DateTime` value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two `DateTime` values. It is possible to have empty time slots if no data falling into them is found, because the axis behaves like a numerical one.
+The DateTime Continuous Axis also expects valid `DateTime` values so that the data can be plotted correctly. Think of the `DateTimeContinuousAxis` as a timeline where each data point has a certain position, depending on its `DateTime` value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two `DateTime` values. It is possible to have empty time slots if no data falling into them is found, because the axis behaves like a numerical one.
 
 The `CategoricalAxis` inherits from the base `Axis` class. For more information, refer to the article on [inherited properties]({% slug axes-overview %}).
 
 ## Features
 
-The Date-Time Continuous Axis exposes the following properties:
+The DateTime Continuous Axis exposes the following properties:
 
 - `Minimum`&mdash;Defines the start value of the timeline. Specify `DateTime.Minimum` to clear the value and force the axis to determine it automatically, depending on the smallest present `DateTime` value.
 - `Maximum`&mdash;Defines the end value of the timeline. Specify `DateTime.Maximum` to clear the value and force the axis to determine it automatically, depending on the greatest present `DateTime` value.
@@ -26,7 +26,7 @@ The Date-Time Continuous Axis exposes the following properties:
 
 ## Example
 
-The following example shows how to format the axis labels on the Date-Time Continuous Axis:
+The following example shows how to format the axis labels on the DateTime Continuous Axis:
 
 1. Create the needed business objects:
 
@@ -70,7 +70,7 @@ public class ViewModel
 }
  ```
 
-1. Create a class, for example, `DateLabelFormatter` that inherits from `LabelFormatterBase<DateTime>` for the Date-Time Continuous Axis.
+1. Create a class, for example, `DateLabelFormatter` that inherits from `LabelFormatterBase<DateTime>` for the DateTime Continuous Axis.
 
  ```C#
 public class DateLabelFormatter : LabelFormatterBase<DateTime>
@@ -126,7 +126,7 @@ public class DateLabelFormatter : LabelFormatterBase<DateTime>
 </telerikChart:RadCartesianChart>
  ```
 
-The following image shows how the Date-Time Continuous Axis `Formatter` looks:
+The following image shows how the DateTime Continuous Axis `Formatter` looks:
 
 ![DateTimeContinuous Axis](images/chart-date-time-continuous-axis-example.png)
 

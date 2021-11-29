@@ -123,6 +123,7 @@ public class OhlcDataPoint : NotifyPropertyChangedBase
 }
  ```
 
+
 The following image shows the end result:
 
 ![Basic OhlcSeries](images/ohlc_series.png)

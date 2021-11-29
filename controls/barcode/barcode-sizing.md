@@ -8,13 +8,15 @@ slug: barcode-sizingmodes
 
 # Sizing Modes
 
-Barcode provides three sizing modes that enable you to fine-tune the rendering of your codes.
+The Barcode provides three sizing modes that enable you to fine-tune the rendering of your codes.
 
 * Manual&mdash;You can define the size of the smallest line or dot of the barcode through the `Module` property and, as a result, the other lines and dots multiply that size. The `Module` property is measured in device pixels.
 * Snap&mdash;In the snap sizing mode the code is stretched to the available size, but each line or dot is drawn with an exact number of pixels. As a result, the lines and dots seem sharp.
 * Stretch&mdash;In the stretch sizing mode the code is stretched so as to fit exactly the available size. Each line or dot size is calculated so they snap to the device pixels. In order for the lines to stay sharp and stretch the barcode to the available size, some of them are slightly thicker than others.
 
-1. Apply the desired sizing mode to the barcode, for example, the manual one.
+To apply the desired sizing mode to the Barcode:
+
+1. Add the sizing mode you need to the barcode, for example, the manual one.
 
  ```XAML
 <telerikBarcode:RadBarcode WidthRequest="300" HeightRequest="100"
@@ -35,6 +37,7 @@ Barcode provides three sizing modes that enable you to fine-tune the rendering o
  ```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
  ```
+
 
 The following image shows a barcode with its applied manual sizing mode.
 

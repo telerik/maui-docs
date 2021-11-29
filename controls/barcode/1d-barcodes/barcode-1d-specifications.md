@@ -1,6 +1,6 @@
 ---
 title: Specifications
-page_title: .NET MAUI 1D Barcode Documentation | Specifications 
+page_title: .NET MAUI 1D Barcode Documentation | Specifications
 description: "Learn more about the specifications of the one-dimensional barcode types supported by the Telerik UI for MAUI Barcode."
 position: 1
 slug: barcode-1d-specifications
@@ -8,7 +8,7 @@ slug: barcode-1d-specifications
 
 # 1D Barcode Specifications
 
-One dimensional (1D) barcodes are made up of lines and spaces of various widths that create specific patterns.
+One-dimensional (1D) barcodes are made up of lines and spaces of various widths that create specific patterns.
 
 The following table describes the specific characteristics of the barcodes per type.
 

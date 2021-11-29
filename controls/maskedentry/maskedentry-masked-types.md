@@ -20,6 +20,7 @@ To enable the email mask type, set the `RadEmailMaskedEntry` instance:
 <telerik:RadEmailMaskedEntry x:Name="emailMaskedEntry" />
 ```
 
+
 The following image shows the end result.
 
 ![RadEmailMaskedEntry](images/maskedentry_email.png)
@@ -41,6 +42,7 @@ Through the `Mask` property you can specify the exact format of the expected inp
 <telerik:RadNumericMaskedEntry x:Name="numericMaskedEntry" Mask="C" />
 ```
 
+
 The following image shows the end result.
 
 ![RadNumericMaskedEntry](images/maskedentry_numeric.png)
@@ -54,6 +56,7 @@ The following example demonstrates how to set the `RadRegexMaskedEntry`.
 ```XAML
 <telerik:RadRegexMaskedEntry x:Name="regexMaskedEntry" Mask="^[a-z]$" PlaceholderText="^[a-z]$" />
 ```
+
 
 The following image shows the end result.
 
@@ -69,6 +72,7 @@ The following example demonstrates how to create a `RadIPMaskedEntry`.
 <telerik:RadIPMaskedEntry x:Name="ipMaskedEntry" />
 ```
 
+
 The following image shows the end result.
 
 ![RadIPMaskedEntry](images/maskedentry_ip.png)
@@ -82,6 +86,7 @@ The following example demonstrates how to create a `RadTextMaskedEntry`.
 ```XAML
 <telerik:RadTextMaskedEntry x:Name="textMaskedEntry" Mask="aaaaaaaaaaaaaaaaaaaa" />
 ```
+
 
 The following image shows the end result.
 

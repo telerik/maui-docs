@@ -31,8 +31,6 @@ To customize the series labels text, use the following properties:
 * `LabelFormat`(`string`)&mdash;Sets the label format string such as `"N"`, `"P2"`.
 * `LabelFormatter`(`ILabelFormatter`)&mdash;Allows custom series label formatting.
 
-**Label Customization Example**
-
 The following example shows how to apply `LabelFormat` to a Line Series:
 
 1. Create the business object:
@@ -100,6 +98,7 @@ public class ViewModel
                                  LabelFormat="{}{0:N2}"/>
 </telerikChart:RadCartesianChart.Series>
  ```
+
 
 The following image shows the end result:
 

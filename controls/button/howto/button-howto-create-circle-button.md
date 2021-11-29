@@ -32,6 +32,7 @@ Add the namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+
 The following image shows the end result.
 
 ![Button Key Features Example](../images/button-howto-circlebutton.png)

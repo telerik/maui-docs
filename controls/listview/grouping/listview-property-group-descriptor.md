@@ -10,33 +10,34 @@ tags: group, radlistview, groupdescriptor
 
 # Grouping
 
-**RadListView** provides you with the functionality to programmatically group its data at runtime. This can be achieved through adding groupdescriptors to the **RadListView.GroupDescriptors** collection.
+The ListView provides the functionality to programmatically group its data at runtime. This can be achieved through adding `GroupDescriptors` to the `RadListView.GroupDescriptors` collection.
+
 There are two types of grouping, using:
 
-* **PropertyGroupDescriptor**
-* **DelegateGroupDescriptor**
+* `PropertyGroupDescriptor`
+* `DelegateGroupDescriptor`
 
-## PropertyGroupDescriptor 
+## PropertyGroupDescriptor
 
 You can group the data by a property value from the class that defines your items. This descriptor exposes the following properties:
 
-- **PropertyName**: Defines the string name of the property you want to group by.
-- **SortOrder**: Defines the sort order in each group to Ascending or Descending.
+- `PropertyName`&mdash;Defines the string name of the property you want to group by.
+- `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
 
-**1** Add the following business object:
+1. Add the following business object:
 
-```C#
+ ``` C#
 public class City
 {
     public string Continent { get; set; }
     public string Name { get; set; }
     public string Country { get; set; }
 }
-```
+ ```
 
-**2** Add a ViewModel with a collection of Cities:
+1. Add a `ViewModel` with a collection of Cities:
 
-```C#
+ ```C#
 public class GroupingViewModel : NotifyPropertyChangedBase
 {
     public ObservableCollection<City> Cities { get; set; }
@@ -56,11 +57,11 @@ public class GroupingViewModel : NotifyPropertyChangedBase
          };
     }
 }
-```
+ ```
 
-**3** Group the Cities by "Country" property through the PropertyGroupDescriptor:
+1. Group the Cities by the `Country` property through the `PropertyGroupDescriptor`:
 
-```XAML
+ ```XAML
 <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Cities}"
                                      ItemTemplate="{StaticResource ListViewItemTemplate}"
                                      GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}"
@@ -72,11 +73,11 @@ public class GroupingViewModel : NotifyPropertyChangedBase
         <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
     </telerikDataControls:RadListView.GroupDescriptors>
 </telerikDataControls:RadListView>
-```
+ ```
 
-**4** And the Templates definition in the page's resources:
+1. Add the `Templates` definition in the page resources:
 
-```XAML
+ ```XAML
 <ResourceDictionary>
     <DataTemplate x:Key="ListViewItemTemplate">
         <telerikListView:ListViewTemplateCell>
@@ -105,16 +106,17 @@ public class GroupingViewModel : NotifyPropertyChangedBase
     </DataTemplate>
     <telerikListView:ListViewGroupStyle x:Key="ListViewGroupHeaderStyle" BackgroundColor="Transparent" />
 </ResourceDictionary>
-```
+ ```
 
-**5** The namespaces used:
+1. The namespaces used:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
->important You can find a working demo labeled **Property Group Descriptor** in the ListView/Bindable Collections folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}). 
+
+>important For a **Property Group Descriptor** demo, refer to the **ListView/Bindable Collections** folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}).
 
 ## See Also
 

@@ -27,7 +27,7 @@ The `SelectionChanged` event handler receives two parameters:
 * The sender argument, which is of type `object`, but can be cast to the `RadSegmentedControl` type.
 * A `ValueChangedEventArgs&lt;int&gt;` object, which provides the old and new value of the `SelectedIndex`.
 
-### Example
+## Example
 
 The following example demonstrates how to utilize the selection feature of SegmentedControl.
 

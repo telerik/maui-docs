@@ -12,11 +12,11 @@ tags: group, radlistview, groupdescriptor
 
 The GroupDescriptor collection now can be controlled by users using MVVM.
 
-In order to control the GroupDescriptor collection through MVVM: 
+In order to control the GroupDescriptor collection through MVVM:
 
-**1** Create a property of type ObservableCollection<GroupDescriptorBase> in your ViewModel which will contain the needed group descriptors:
- 
-```C#
+1. Create a property of type `ObservableCollection<GroupDescriptorBase>` in your `ViewModel` which will contain the needed group descriptors:
+
+ ```C#
  public class ViewModel : NotifyPropertyChangedBase
 {
     private ObservableCollection<GroupDescriptorBase> groupDescriptors;
@@ -102,11 +102,11 @@ In order to control the GroupDescriptor collection through MVVM:
         }
     }
 }
-```
- 
-**2** Use **OneWayToSource** binding mode to bind that property to the GroupDescriptors property of RadListView:
+ ```
 
-```XAML
+1. Use the `OneWayToSource` binding mode to bind that property to the `GroupDescriptors` property of `RadListView`:
+
+ ```XAML
 <Grid Margin="16,0,0,0">
     <Grid.RowDefinitions>
         <RowDefinition Height="40" />
@@ -129,8 +129,8 @@ In order to control the GroupDescriptor collection through MVVM:
         <Switch IsToggled="{Binding IsPropertyNameGroupSwitchToggled, Mode=OneWayToSource}" AutomationId="GroupOrderSwitch"/>
     </HorizontalStackLayout>
     <!-- >> listview-features-bindable-groupdescriptor-xaml -->
-    <telerikDataControls:RadListView x:Name="listView" 
-                                Grid.Row="2" 
+    <telerikDataControls:RadListView x:Name="listView"
+                                Grid.Row="2"
                                 GroupDescriptors="{Binding GroupDescriptors, Mode=OneWayToSource}"  
                                 ItemsSource="{Binding Items}">
         <!-- << listview-features-bindable-groupdescriptor-xaml -->
@@ -154,13 +154,13 @@ In order to control the GroupDescriptor collection through MVVM:
         </telerikDataControls:RadListView.ItemTemplate>
     </telerikDataControls:RadListView>
  </Grid>
-```
+ ```
 
-Here is how the GroupDescriptor collection looks like through MVVM:
+Here is how the `GroupDescriptor` collection looks like through MVVM:
 
 ![GroupDescriptorsMVVM](../images/listview-features-bindable-group.png)
 
->important You can find a working demo labeled **Bindable Group Descriptors** in the ListView/Bindable Collections folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}). 
+>important For a **Bindable Group Descriptors** demo, refer to the **ListView/Bindable Collections** folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}).
 
 ## See Also
 

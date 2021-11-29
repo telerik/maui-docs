@@ -192,6 +192,7 @@ Add the following namespace:
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+
 The following image shows the end result:
 
 ![ListPicker Templates](images/listpicker_templates.png)

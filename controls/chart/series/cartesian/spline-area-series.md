@@ -82,6 +82,7 @@ public class CategoricalViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic SplineAreaSeries](images/cartesian-spline-area-series-basic-example.png)

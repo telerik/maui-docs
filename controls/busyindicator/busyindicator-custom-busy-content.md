@@ -12,9 +12,11 @@ Setting the `BusyContent` property of BusyIndicator allows you to display any co
 
 Additionally, you can customize the `BusyContentTemplate` to arrange the custom content and the animated content per your choice.
 
-The following example demonstrates how to apply the `BusyContent` and `BusyContentTemplate` properties.
+The following example demonstrates how to customize the busy content.
 
-```XAML
+1. Apply the `BusyContent` and `BusyContentTemplate` properties.
+
+ ```XAML
 <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"
 									AnimationContentHeightRequest="100"
 									AnimationContentWidthRequest="100"  
@@ -39,13 +41,14 @@ The following example demonstrates how to apply the `BusyContent` and `BusyConte
         </ControlTemplate>
     </telerikPrimitives:RadBusyIndicator.BusyContentTemplate>
 </telerikPrimitives:RadBusyIndicator>
-```
+ ```
 
-Also, you will need to add the `telerikPrimitives` namespace:
+1. Add the `telerikPrimitives` namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
+
 
 The following image shows the result.
 

@@ -21,7 +21,7 @@ To define the docking side of a child element inside the dock layout component, 
 
 The way the child elements are docked and arranged depends on their order inside the DockLayout’s Children collection (the order they’re defined in XAML).
 
-Following is a quick example on how you can utilize the docking functionality:
+The following example demonstrates how to utilize the docking functionality:
 
 <snippet id='docklayout-docking-feature' />
 ```XAML
@@ -38,6 +38,7 @@ Define `telerik` in the following way:
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
+
 
 The following image shows the result on different platforms:
 
@@ -56,6 +57,7 @@ Setting the same docking side to a few child elements will arrange them accordin
     <Label Text="Last Child" telerik:RadDockLayout.Dock="Left" BackgroundColor="LightYellow" />
 </telerik:RadDockLayout>
 ```
+
 
 The following image shows the end result.
 
@@ -76,6 +78,7 @@ You can prevent this behavior by setting `StretchLastChild` property of the Dock
     <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
 </telerik:RadDockLayout>
 ```
+
 
 The following image shows the end result.
 

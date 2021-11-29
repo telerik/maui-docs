@@ -30,6 +30,9 @@ The following example demonstrates how to use the `BorderColor` and `BorderThick
 </telerikPrimitives:RadBorder>
 ```
 
+
+The following image shows the end result.
+
 ![Border Styling](images/border-styling.png)
 
 ## See Also

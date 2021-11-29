@@ -42,9 +42,11 @@ The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` co
 * `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup.
 * `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup.
 
-You can apply the `Accept` and `Cancel` commands can by using the `SelectorSettings` property of DatePicker as demonstrated in the following example.
+You can apply the `Accept` and `Cancel` commands can by using the `SelectorSettings` property of DatePicker.
 
-```XAML
+1. Define the control and add the commands.
+
+ ```XAML
 <StackLayout>
     <telerikInput:RadDatePicker>
         <telerikInput:RadDatePicker.SelectorSettings>
@@ -56,11 +58,11 @@ You can apply the `Accept` and `Cancel` commands can by using the `SelectorSetti
             </telerikInput:RadDatePicker.BindingContext>
     </telerikInput:RadDatePicker>
 </StackLayout>
-```
+ ```
 
-Set the `ViewModel`.
+1. Set the `ViewModel`.
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -82,13 +84,13 @@ public class ViewModel
         // implement your custom logic here
     }
 }
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

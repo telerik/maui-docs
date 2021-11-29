@@ -19,13 +19,15 @@ The state is controlled through the `IsChecked` property, which is of the `bool?
 
 The following example demonstrates how to set the `IsChecked` property.
 
-```XAMl
+1. Define the checked state of the CheckBox.
+
+ ```XAMl
 <telerikPrimitives:RadCheckBox x:Name="checkboxIsChecked" IsChecked="{Binding IsChecked}" IsThreeState="True" />
-```
+ ```
 
-The following example demonstrates how set the `ViewModel`.
+1. Set the `ViewModel`.
 
-```C#
+ ```C#
 public class ViewModel : NotifyPropertyChangedBase
 {
     private bool? isChecked;
@@ -43,7 +45,8 @@ public class ViewModel : NotifyPropertyChangedBase
         }
     }
 }
-```
+ ```
+
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
 

@@ -16,7 +16,7 @@ The TimeSpanPicker allows you to define a time-span range and choose a time inte
 
 >important If you set a negative value for `MinimumTime`, the TimeSpanPicker will consider this value to be the minimum `TimeSpan(0, 0, 0, 0, 0)` value.
 
-**Example for Setting Time Ranges**
+The following example shows how to set the time ranges.
 
 1. Define the TimeSpanPicker.
 

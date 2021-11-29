@@ -41,12 +41,10 @@ xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Tele
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
-using Telerik.Maui.Controls.Compatibility;
+ using Telerik.Maui.Controls.Compatibility;
 
-
-
-public static class MauiProgram
-{
+ public static class MauiProgram
+ {
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -60,7 +58,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+ }           
  ``` 
 
 ## Visualize Sample Data

@@ -46,6 +46,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 using Telerik.XamarinForms.Input;
  ```
 
+
 ## See Also
 
 - [Globalization]({%slug numericinput-globalization%})

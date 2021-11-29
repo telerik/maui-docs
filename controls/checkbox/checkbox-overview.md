@@ -16,9 +16,9 @@ slug: checkbox-overview
 
 ## Key Features
 
-* [States]({% slug checkbox-checked-states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
-* [Dimensions]({% slug checkbox-size %})&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
-* [Styling]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
+* [Checked states]({% slug checkbox-checked-states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
+* [Size]({% slug checkbox-size %})&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
+* [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
 ## See Also
 

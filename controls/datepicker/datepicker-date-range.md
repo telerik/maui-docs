@@ -18,18 +18,20 @@ To implement date ranges, use the following DatePicker properties:
 
 The following example demonstrates how to set date ranges in the DatePicker.
 
-<snippet id='datepicker-keyfeatures-minmaxdate' />
-```XAML
+1. Define the control and the date ranges.
+
+ <snippet id='datepicker-keyfeatures-minmaxdate' />
+ ```XAML
 <telerikInput:RadDatePicker MinimumDate="2020,1,1"
                             MaximumDate="2020,12,31"
                             DisplayStringFormat="yyy-ddd-MMM"/>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

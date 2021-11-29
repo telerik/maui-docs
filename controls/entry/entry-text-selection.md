@@ -17,25 +17,28 @@ The text selection properties provided by the Entry are:
 
 The following snippet shows how to preselect a part of the Entry text when the control is focused by applying both properties.
 
-```XAML
+1. Define the text orientation and the text of the Entry.
+
+ ```XAML
 <StackLayout Orientation="Horizontal">
     <telerikInput:RadEntry x:Name="selectEntry"
 						   Text="select some text" />
     <telerikInput:RadButton Text="Focus"
 							Clicked="FocusButtonClicked" />
 </StackLayout>
-```
+ ```
 
-Set the `Clicked` event handler:
+1. Set the `Clicked` event handler:
 
-```C#
+ ```C#
 private void FocusButtonClicked(object sender, System.EventArgs e)
 {
     selectEntry.Focus();
     selectEntry.CursorPosition = 7;
     selectEntry.SelectionLength = 9;
 }
-```
+ ```
+
 
 The following image shows the end result.
 

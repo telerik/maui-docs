@@ -99,6 +99,7 @@ public class SeriesCategoricalViewModel
 </telerikChart:RadCartesianChart>
  ```
 
+
 The following image shows the end result:
 
 ![Basic LineSeries](images/cartesian-line-series-basic-example.png)

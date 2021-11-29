@@ -68,6 +68,7 @@ public class ViewModel
 </telerikMauiControls:RadItemsControl>
  ```
 
+
 The following image shows the end result.
 
 ![](images/itemscontrol-itemssource.png)
@@ -101,6 +102,7 @@ The following example demonstrates how to set the items template and uses the `E
     </telerikMauiControls:RadItemsControl.ItemTemplate>
 </telerikMauiControls:RadItemsControl>
 ```
+
 
 The following image shows the end result.
 

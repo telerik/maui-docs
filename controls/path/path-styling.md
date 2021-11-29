@@ -15,9 +15,11 @@ The `RadPath` element exposes the following properties you can use to customize 
 * `StrokeThickness`: You can use this property to set the thickness of the stroke.
 * `BackgroundColor`: You can use this property to modify the color of the rectangle which contains the specific figure.
 
-Here is an example with `RadSweepGradientBrush`:
+The following example shows how to use `RadSweepGradientBrush`.
 
-```XAML
+1. Define the control.
+
+ ```XAML
 <telerikPrimitives:RadPath x:Name="gradientPath"
                            StrokeThickness="1"
                            Stroke="White"                                        
@@ -42,19 +44,22 @@ Here is an example with `RadSweepGradientBrush`:
         </telerikCommon:RadSweepGradientBrush>
     </telerikPrimitives:RadPath.Fill>
 </telerikPrimitives:RadPath>
-```
+ ```
 
-Add the namespaces:
+1. Add the namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
-```
+ ```
 
-Below you can check an example with `RadSolidColorBrush`:
 
-```XAML
+The following example shows how to use `RadSolidColorBrush`.
+
+1. Define the control.
+
+ ```XAML
 <telerikPrimitives:RadPath x:Name="solidPath"
                            Grid.Row="0"
                            StrokeThickness="2"
@@ -68,16 +73,17 @@ Below you can check an example with `RadSolidColorBrush`:
         </telerikCommon:RadPathFigure>
     </telerikCommon:RadPathGeometry>
 </telerikPrimitives:RadPath>
-```
+ ```
 
-And the used namespace:
+1. Add the used namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
-```
+ ```
 
-And the result is shown below:
+
+The following image shows the result:
 
 ![RadPath Styling](images/path_styling.png)
 

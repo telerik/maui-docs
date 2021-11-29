@@ -22,7 +22,9 @@ For its `Completed` event, the Entry exposes the `CompletedCommand`(`ICommand`) 
 
 The following example demonstrates the Entry definition in XAML with the `TextChanged` and `Completed` event handlers.
 
-```XAML
+1. Define the Entry.
+
+ ```XAML
 <StackLayout>
     <telerikInput:RadEntry x:Name="entry"
                            Keyboard="Numeric"
@@ -31,25 +33,25 @@ The following example demonstrates the Entry definition in XAML with the `TextCh
                            Completed="Entry_Completed"/>
     <Label x:Name="textChangedLabel"/>
 </StackLayout>
-```
+ ```
 
-Here is a sample implementation of the `TexhChanged` event.
+1. Set the `TexhChanged` event.
 
-```C#
+ ```C#
 private void Entry_TextChanged(object sender, TextChangedEventArgs e)
 {
     this.textChangedLabel.Text = $"Text changed from {e.OldTextValue} to {e.NewTextValue}";
 }
-```
+ ```
 
-Here is a sample implementation of the `Completed` event.
+1. Set the `Completed` event.
 
-```C#
+ ```C#
 private void Entry_Completed(object sender, EventArgs e)
 {
     this.textChangedLabel.Text = "User completed entering text";
 }
-```
+ ```
 
 ## See Also
 

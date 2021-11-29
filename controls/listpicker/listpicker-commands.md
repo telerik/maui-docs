@@ -28,9 +28,9 @@ The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` p
 
 ## Example
 
-The following example demonstrates how to define the ListPicker.
+1. Define the ListPicker.
 
-```XAML
+ ```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference listPicker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference listPicker}, Path=ClearCommand}"/>
@@ -47,11 +47,11 @@ The following example demonstrates how to define the ListPicker.
         </telerikInput:RadListPicker.BindingContext>
     </telerikInput:RadListPicker>
 </StackLayout>
-```
+ ```
 
-Set the sample `ViewModel`:
+1. Set the sample `ViewModel`:
 
-```C#
+ ```C#
 public class ViewModel
 {
     public ViewModel()
@@ -86,12 +86,12 @@ public class ViewModel
     public ICommand Accept { get; set; }
     public ICommand Cancel { get; set; }
 }
-```
+ ```
 
-Add the Business model:
+1. Add the Business model:
 
-<snippet id='listpicker-getting-started-business-model' />
-```C#
+ <snippet id='listpicker-getting-started-business-model' />
+ ```C#
 public class Person
 {
     public Person(string name, string lastName)
@@ -112,13 +112,13 @@ public class Person
         }
     }
 }
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
 ## See Also
 

@@ -14,7 +14,7 @@ The TimePicker provides options for setting its default time.
 
 To define the currently selected time, use the `Time`(`TimeSpan?`) property, which defines the current time selection. The default value is `null`.
 
-**Example for Setting the Currently Selected Time**
+The following example shows how to set the currently selected time.
 
 1. Define the TimePicker.
 
@@ -32,7 +32,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 The TimePicker enables you to set its default highlighted time by using the  `DefaultHighlightedTime`(`TimeSpan`) property, which defines the `System.TimeSpan` that will be used to pre-scroll each spinner when the `RadTimePicker.Time` property is set to `null`.
 
-**Example for Setting the Default Highlighted Time**
+The following example shows how to set the default highlighted time.
 
 1. Define the TimePicker.
 
@@ -47,6 +47,7 @@ The TimePicker enables you to set its default highlighted time by using the  `De
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
+ 
 
 ## See Also
 

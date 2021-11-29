@@ -101,7 +101,7 @@ And here are how the styles are defined in the page resources.
 
 ## Spinner Style
 
-**Example for Setting the Spinner ItemStyle and SelectedItemStyle**
+The following example shows how to set the spinner `ItemStyle` and `SelectedItemStyle`.
 
 ```XAML
  <Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
