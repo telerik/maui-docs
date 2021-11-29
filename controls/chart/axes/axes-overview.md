@@ -65,9 +65,11 @@ The following example shows how to set `LabelFormat` to a Numerical Axis:
 
 The `LabelFormatterBase<T>` class is a base implementation of the `ILabelFormatter` interface that can be used in the most common scenarios.
 
-The following example shows how to set a label formatter for the Date-Time Continuous Axis. You can apply it in the following way:
+The following example shows how to set a label formatter for the Date-Time Continuous Axis.
 
 <snippet id='chart-customization-format-axis-labels-label-formatter'/>
+
+You can apply it in the following way:
 
 ```XAML
 <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
