@@ -45,7 +45,7 @@ Before adding the ListPicker, you need to:
 </telerikInput:RadListPicker>
  ```
 
-2. Add a sample `ViewModel` class:
+1. Add a sample `ViewModel` class:
 
  ```C#
 public class PeopleViewModel
@@ -69,7 +69,7 @@ public class PeopleViewModel
 }
  ```
 
-3. Create the Business model:
+1. Create the Business model:
 
  ```C#
 public class Person
@@ -94,23 +94,35 @@ public class Person
 }
  ```
 
-4. Add the following namespace:
+1. Add the following namespace:
 
  ```XAML
  xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
-5. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `Configure` method of the `Startup.cs` file of your project:
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;
 
- public void Configure(IAppHostBuilder appBuilder)
- {
-    appBuilder        
-        .UseTelerik()
-        .UseMauiApp<App>();    
- }              
+
+
+public static class MauiProgram
+{
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+}           
  ```
 
 ## See Also
