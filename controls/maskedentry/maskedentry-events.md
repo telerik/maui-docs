@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI MaskedEntry Documentation | Events
 description: Check our &quot;Events&quot; documentation article for Telerik MaskedEntry for .NET MAUI.
-position: 7
+position: 10
 slug: maskedentry-events
 ---
 

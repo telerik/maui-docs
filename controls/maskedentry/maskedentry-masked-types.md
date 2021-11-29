@@ -2,7 +2,7 @@
 title: Masks
 page_title: .NET MAUI MaskedEntry Documentation | Masks
 description: Check our &quot;Masked Types&quot; documentation article for Telerik MaskedEntry for .NET MAUI.
-position: 4
+position: 2
 slug: maskedentry-masked-types
 ---
 
