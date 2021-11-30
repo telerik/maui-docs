@@ -62,4 +62,4 @@ You can define a input pattern of your choice and set it to the `Mask` property 
 - [Setting Value]({%slug maskedentry-value%})
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

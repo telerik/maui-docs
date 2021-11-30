@@ -37,4 +37,4 @@ You can easily customize the default validation error message using the `Validat
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Prompt Character]({%slug maskedentry-prompt-character%})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

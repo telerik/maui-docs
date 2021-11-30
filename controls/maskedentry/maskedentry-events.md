@@ -32,4 +32,4 @@ The MaskedEntry exposes the following events:
 - [Mask Types]({%slug maskedentry-masked-types%})
 - [Validation]({%slug maskedentry-validation%})
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

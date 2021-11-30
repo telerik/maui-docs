@@ -37,4 +37,4 @@ In rder to change the default promt char set the `PromptChar`(`char`) property.
 - [Setting Value]({%slug maskedentry-value%})
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})
