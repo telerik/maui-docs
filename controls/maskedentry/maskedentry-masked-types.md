@@ -1,12 +1,12 @@
 ---
-title: Masks
-page_title: .NET MAUI MaskedEntry Documentation | Masks
+title: Mask Types
+page_title: .NET MAUI MaskedEntry Documentation | Mask Types
 description: Check our &quot;Masked Types&quot; documentation article for Telerik MaskedEntry for .NET MAUI.
 position: 2
 slug: maskedentry-masked-types
 ---
 
-# Masks
+# Mask Types
 
 The MaskedEntry provides a number of mask types, which enable you to restrict user input to a specific type such as email, text, and more.
 
@@ -95,4 +95,7 @@ The following image shows the end result.
 ## See Also
 
 - [Getting Started]({%slug maskedentry-getting-started%})
-- [Events]({%slug maskedentry-getting-started%})
+- [Validation]({%slug maskedentry-validation%})
+- [Null Values Support]({%slug maskedentry-value%}#null-value-support})
+- [Events]({%slug maskedentry-events%})
+- [Globalization]({%slug maskedentry-maskedentry-globalization%})

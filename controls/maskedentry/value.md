@@ -1,7 +1,7 @@
 ---
 title: Value
 page_title: .NET MAUI MaskedEntry Documentation | Value
-description: "Try now the Telerik MaskedEntry for .NET MAUI formatting and restricting text to predefined patterns, and providing input validation and masks."
+description: "Check the Telerik MaskedEntry for .NET MAUI Value article for details how to set predefined values inside the control"
 position: 4
 slug: maskedentry-value
 ---
@@ -25,7 +25,7 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 ## Null Value Support
 
-By default the MaskedEntry control doesn't allow you to set `null` to its `Value` property. To allow null values you have to set the `AllowNullValue` property to `True`.
+By default the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead `null` in the NumericMaskedEntry the value is coerced to `0`. To allow null values you have to set the `AllowNullValue` property to `True`.
 
 **Example for Null Value with RadNumericMaskedEntry**
 
@@ -37,7 +37,11 @@ And the namespace used:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
->tip AllowNullValues eample can be found in the MaskedEntry/Features folder of the [SDK MAUI Application]({%slug maui-demo-app%}).
+>tip AllowNullValues example can be found in the MaskedEntry/Features folder of the [SDK MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 
+- [Mask Types]({%slug maskedentry-masked-types%})
+- [Validation]({%slug maskedentry-validation%})
+- [Events]({%slug maskedentry-events%})
+- [Globalization]({%slug maskedentry-maskedentry-globalization%})
