@@ -44,4 +44,4 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 - [Mask Types]({%slug maskedentry-masked-types%})
 - [Validation]({%slug maskedentry-validation%})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

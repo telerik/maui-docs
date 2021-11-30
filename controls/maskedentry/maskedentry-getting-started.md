@@ -28,9 +28,7 @@ Before adding the MaskedEntry, you need to:
 
 1. When the your .NET MAUI application is set up, you are ready to add a MaskedEntry control to your page. The following example demonstrates the definition of the `RadRegexMaskedEntry` with the `Mask` and `PlaceholderText` properties applied.
 
- ```XAML
-<telerik:RadRegexMaskedEntry x:Name="regexMaskedEntry" Mask="^[a-z]$" PlaceholderText="^[a-z]$" />
- ```
+ <snippet id='regexmaskedentry-getting-started-xaml' />
 
 1. Add the following namespace:
 
@@ -46,4 +44,4 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Prompt Character]({%slug maskedentry-prompt-character%})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

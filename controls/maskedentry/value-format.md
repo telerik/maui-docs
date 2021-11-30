@@ -60,4 +60,4 @@ For example, if `Mask="##-##"` and you enter `222` the `Value` property will be 
 - [Setting Value]({%slug maskedentry-value%})
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})

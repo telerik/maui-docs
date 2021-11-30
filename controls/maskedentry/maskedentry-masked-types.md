@@ -16,10 +16,7 @@ To validate the user input as an email entry, use the `EmailMaskedEntry`. The re
 
 To enable the email mask type, set the `RadEmailMaskedEntry` instance:
 
-```XAML
-<telerik:RadEmailMaskedEntry x:Name="emailMaskedEntry" />
-```
-
+<snippet id='emailmaskedentry-xaml' />
 
 The following image shows the end result.
 
@@ -38,10 +35,7 @@ The numeric mask displays the following values:
 
 Through the `Mask` property you can specify the exact format of the expected input. The following example demonstrates how to set the `RadNumericMaskedEntry` with the `Currency` value.
 
-```XAML
-<telerik:RadNumericMaskedEntry x:Name="numericMaskedEntry" Mask="C" />
-```
-
+<snippet id='numericmaskedentry-mask-c-xaml' />
 
 The following image shows the end result.
 
@@ -53,10 +47,7 @@ To validate the user input as a standard (alphanumeric) user input against a reg
 
 The following example demonstrates how to set the `RadRegexMaskedEntry`.
 
-```XAML
-<telerik:RadRegexMaskedEntry x:Name="regexMaskedEntry" Mask="^[a-z]$" PlaceholderText="^[a-z]$" />
-```
-
+<snippet id='regexmaskedentry-getting-started-xaml' />
 
 The following image shows the end result.
 
@@ -68,10 +59,7 @@ To validate the user input as an IP Address input, use the `IPMaskedEntry`. The 
 
 The following example demonstrates how to create a `RadIPMaskedEntry`.
 
-```XAML
-<telerik:RadIPMaskedEntry x:Name="ipMaskedEntry" />
-```
-
+<snippet id='ipmaskedentry-xaml' />
 
 The following image shows the end result.
 
@@ -83,10 +71,7 @@ To validate the user input as text symbols, use the `TextMaskedEntry`. The resul
 
 The following example demonstrates how to create a `RadTextMaskedEntry`.
 
-```XAML
-<telerik:RadTextMaskedEntry x:Name="textMaskedEntry" Mask="aaaaaaaaaaaaaaaaaaaa" />
-```
-
+<snippet id='textmaskedentry-getting-started-xaml' />
 
 The following image shows the end result.
 
@@ -98,4 +83,4 @@ The following image shows the end result.
 - [Validation]({%slug maskedentry-validation%})
 - [Null Values Support]({%slug maskedentry-value%}#null-value-support})
 - [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-maskedentry-globalization%})
+- [Globalization]({%slug maskedentry-globalization%})
