@@ -1,7 +1,7 @@
 ---
 title: Globalization
 page_title: .NET MAUI MaskedEntry Documentation | Globalization
-description: "Try now the Telerik MaskedEntry for .NET MAUI formatting and restricting text to predefined patterns, and providing input validation and masks."
+description: "Telerik MaskedEntry for .NET MAUI has a globalization support"
 position: 8
 slug: maskedentry-globalization
 ---
@@ -12,21 +12,26 @@ Globalization refers to developing an application in such a way that it works wi
 
 Telerik UI for .NET MAUI NumericMaskedEntry control has a globalization support. 
 
-**Globalization Example**
+**Globalization Example with NumericMaskedEntry**
 
-NumericMaskedEntry definition in XAMLL
+1. Define the NumericMaskedEntry in XAML:
 
-<snippet id='numericmaskedentry-globalization-xaml' />
+ <snippet id='numericmaskedentry-globalization-xaml' />
 
-The culture is set in code behind
+1. Set the desired culture in code behind:
 
-<snippet id='numericmaskedentry-globalization' />
+ <snippet id='numericmaskedentry-globalization' />
 
-And the nampespace used:
+1. And the nampespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```
 
 ## See Also
 
+- [Mask Types]({%slug maskedentry-masked-types%})
+- [Mask]({%slug maskedentry-mask%})
+- [Validation]({%slug maskedentry-validation%})
+- [Null Values Support]({%slug maskedentry-value%}#null-value-support})
+- [Events]({%slug maskedentry-events%})
