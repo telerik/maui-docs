@@ -43,10 +43,8 @@ Before adding the DatePicker, you need to:
  ```C#
  using Telerik.Maui.Controls.Compatibility;
 
-
-
-public static class MauiProgram
-{
+ public static class MauiProgram
+ {
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -60,7 +58,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+ }           
  ```
 
 

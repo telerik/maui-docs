@@ -46,24 +46,23 @@ var listView = new RadListView();
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
  ```
 
-
 ## Populate the ListView with Data
 
 1. First, let's create simple `Data` and `ViewModel` classes:
 
  ```C#
-public class SourceItem
-{
+ public class SourceItem
+ {
     public SourceItem(string name)
     {
         this.Name = name;
     }
 
     public string Name { get; set; }
-}
+ }
 
-public class ViewModel
-{
+ public class ViewModel
+ {
     public ViewModel()
     {
         this.Source = new List<SourceItem> { new SourceItem("Tom"),
@@ -76,7 +75,7 @@ public class ViewModel
     }
 
     public List<SourceItem> Source { get; set; }
-}
+ }
  ```
 
 1. Set up the ListView:
@@ -112,10 +111,8 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
  ```C#
  using Telerik.Maui.Controls.Compatibility;
 
-
-
-public static class MauiProgram
-{
+ public static class MauiProgram
+ {
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -129,7 +126,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+ }           
  ```
 
 ## See Also
