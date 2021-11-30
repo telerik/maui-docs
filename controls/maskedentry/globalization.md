@@ -14,19 +14,21 @@ Telerik UI for .NET MAUI NumericMaskedEntry control has a globalization support.
 
 **Globalization Example with NumericMaskedEntry**
 
-1. Define the NumericMaskedEntry in XAML:
+Define the NumericMaskedEntry in XAML:
 
- <snippet id='numericmaskedentry-globalization-xaml' />
+<snippet id='numericmaskedentry-globalization-xaml' />
 
-1. Set the desired culture in code behind:
+Set the desired culture in code behind:
 
- <snippet id='numericmaskedentry-globalization' />
+<snippet id='numericmaskedentry-globalization' />
 
-1. And the nampespace:
+And the nampespace:
 
- ```XAML
+```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
- ```
+```
+ 
+>tip Culture example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 

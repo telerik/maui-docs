@@ -77,6 +77,8 @@ The following image shows the end result.
 
 ![RadTextMaskedEntry](images/maskedentry_text.png)
 
+>note Mask Types example can be found in the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
+
 ## See Also
 
 - [Getting Started]({%slug maskedentry-getting-started%})

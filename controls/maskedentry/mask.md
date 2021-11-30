@@ -54,6 +54,8 @@ You can define a input pattern of your choice and set it to the `Mask` property 
 
 <snippet id='regexmaskedentry-xaml' />
 
+>tip Mask Types example can be found in the MaskedEntry/MaskTypes folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+
 ## See Also
 
 - [Mask Types]({%slug maskedentry-masked-types%})
