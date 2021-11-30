@@ -22,13 +22,15 @@ MaskedEntry has a deafult validation error message, based on the used Masked Typ
 
 You can easily customize the default validation error message using the `ValidationErrorMessage`(`string`) property.
 
-**Email MaskedEntry Validation Error Message**
+**RadEmailMaskedEntry ValidationErrorMessage**
 
 <snippet id='emailmaskedentry-validationerrormessage-xaml' />
 
-**Regex MaskedEntry Validation Error Message**
+**RadRegexMaskedEntry ValidationErrorMessage**
 
 <snippet id='regexmaskedentry-validationerrormessage-xaml' />
+
+>tip ValidationErrorMessage example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 

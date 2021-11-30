@@ -10,7 +10,7 @@ slug: maskedentry-value
 
 If you want to have a prefedfined values inside the MAskedEntry, set the `Value`(`string`) property. It returns the user input without the formatting characters. 
 
-**Example with RadTextMaskedEntry with Value property**
+**RadTextMaskedEntry with Value property**
 
 <snippet id='textmaskedentry-value-xaml' />
 ```C#
@@ -27,7 +27,7 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 By default the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead `null` in the NumericMaskedEntry the value is coerced to `0`. To allow null values you have to set the `AllowNullValue` property to `True`.
 
-**Example for Null Value with RadNumericMaskedEntry**
+**RadNumericMaskedEntry with null value support**
 
 <snippet id='numericmaskedentry-allownullvalues-true-xaml' />
 
@@ -37,7 +37,7 @@ And the namespace used:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
->tip AllowNullValues example can be found in the MaskedEntry/Features folder of the [SDK MAUI Application]({%slug maui-demo-app%}).
+>tip AllowNullValues example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 

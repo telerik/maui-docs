@@ -53,6 +53,8 @@ For example, if `Mask="##-##"` and you enter `222` the `Value` property will be 
 
 <snippet id='textmaskedentry-includelpromptandliterals-xaml' />
 
+>tip Value Format example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+
 ## See Also
 
 - [Mask Types]({%slug maskedentry-masked-types%})
