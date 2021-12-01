@@ -61,8 +61,8 @@ xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Teleri
 
 Thе following image shows the result from the suggested implementation.
 
-![Barcode Symbology](../../images/barcode_setsymbology_1.png)
+![Barcode Symbology](../images/barcode_setsymbology_1.png)
 
 ## See Also
 
-- [1D Barcodes Overview]({% slug 1dbarcode-overview %})
+- [1D Barcodes Overview]({%slug 1dbarcode-overview%})

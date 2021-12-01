@@ -18,14 +18,12 @@ The example below demonstrates how to create a list view with text cells, like t
 
 1. Create a view model that will be the source of the list view:
 
- <snippet id='listview-celltypes-textcell-viewmodel'/>
  ```C#
 public class Book
 {
 	string Title { get; set; }
 	string Author { get; set; }
 }
-
 public class ViewModel
 {
 	public ViewModel()
@@ -51,8 +49,6 @@ public class ViewModel
 
 1. Add the definition of the ListView control:
 
- <snippet id='listview-celltypes-textcell-listview-xaml'/>
- <snippet id='listview-celltypes-textcell-listview-csharp'/>
  ```XAML
 <telerikDataControls:RadListView ItemsSource="{Binding Source}" x:Name="listView">
 	<telerikDataControls:RadListView.BindingContext>

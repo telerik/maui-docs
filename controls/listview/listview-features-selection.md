@@ -74,12 +74,10 @@ The example below shows how to utilize ListView selection feature and demonstrat
 public class ViewModel : NotifyPropertyChangedBase
 {
     private ObservableCollection<object> _selectedNames;
-
     public ViewModel()
     {
         this.Names = new ObservableCollection<string>() { "Tom", "Anna", "Peter", "Teodor", "Lorenzo", "Andrea", "Martin" };
     }
-
     public ObservableCollection<string> Names { get; set; }
     public ObservableCollection<object> SelectedNames
     {
@@ -105,7 +103,6 @@ public class ViewModel : NotifyPropertyChangedBase
             }
         }
     }
-
     private void SelectedNamesCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
     {
         if (this.SelectedNames.Count > 0)
@@ -170,7 +167,6 @@ private void InitializePickers()
     selectionModePicker.Items.Add("Multiple");
     selectionModePicker.SelectedIndexChanged += this.OnSelectionModeChanged;
     selectionModePicker.SelectedIndex = 2;
-
     selectionGesturePicker.Items.Add("Tap");
     selectionGesturePicker.Items.Add("Hold");
     selectionGesturePicker.SelectedIndexChanged += this.OnSelectionGestureChanged;
@@ -207,8 +203,6 @@ private void OnSelectionModeChanged(object sender, EventArgs e)
     }
 }
  ```
-
-
 
 The following image shows how the ListView looks like on different platforms when multiple items are selected:
 
