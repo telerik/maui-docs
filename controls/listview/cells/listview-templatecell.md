@@ -18,7 +18,6 @@ The example below demonstrates how to create a ListView with templated cells, li
 
 1. Create a view model that will be the source of the ListView:
 
- <snippet id='listview-celltypes-templatecell-viewmodel'/>
  ```C#
 public class Book
 {
@@ -54,7 +53,6 @@ public class ViewModel
 
 	**Define the ListVew in XAML**
 
- <snippet id='listview-celltypes-templatecell-listview-xaml'/>
  ```XAML
 <telerikDataControls:RadListView ItemsSource="{Binding Source}" x:Name="listView">
 	<telerikDataControls:RadListView.BindingContext>
@@ -86,7 +84,6 @@ public class ViewModel
 
 	Add the needed namespaces:
 
- <snippet id='xmlns-teleriklistview'/>
  ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
@@ -96,7 +93,6 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
 
 	For clarity, let's build the template of the list view cell in a separate method:
 
-  <snippet id='listview-celltypes-templatecell-cellcontent'/>
   ```C#
 public View GetCellContent()
 {
@@ -155,7 +151,6 @@ public View GetCellContent()
 
 	Define the ListVew:
 
- <snippet id='listview-celltypes-templatecell-listview-code'/>
  ```C#
 var listView = new RadListView
 {
