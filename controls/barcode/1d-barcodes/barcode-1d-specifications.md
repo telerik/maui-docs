@@ -38,9 +38,11 @@ The following table describes the specific characteristics of the barcodes per t
 |**UPC Supplement 2**|![barcode-1d-barcodes 020](images/barcode-1d-barcodes020.png)|A two digit UPC supplementary code. This barcode should only be used with magazines, newspapers and other such periodicals.|0123456789|2|none|
 |**UPC Supplement 5**|![barcode-1d-barcodes 021](images/barcode-1d-barcodes021.png)|A five digit UPC supplementary code. This barcode is used on books to indicate a suggested retail price.|0123456789|5|none|
 
-1. The following example demonstrates how to apply the Code39 symbology to a RadBarcode.
+## Example with Code39 symbology
 
- ```XAML
+Apply the Code39 symbology to a RadBarcode.
+
+```XAML
 <telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
         HorizontalOptions="Center" VerticalOptions="Center"
         Value="58000106">
@@ -51,13 +53,13 @@ The following table describes the specific characteristics of the barcodes per t
                           CodeTextSpacing="10"/>
     </telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
- ```
+```
 
-1. Add the following namespace.
+Add the following namespace.
 
- ```XAMl
+```XAMl
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 Thе following image shows the result from the suggested implementation.
 

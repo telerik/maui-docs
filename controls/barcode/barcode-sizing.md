@@ -16,9 +16,9 @@ The Barcode provides three sizing modes that enable you to fine-tune the renderi
 
 To apply the desired sizing mode to the Barcode:
 
-1. Add the sizing mode you need to the barcode, for example, the manual one.
+Add the sizing mode you need to the barcode, for example, the manual one.
 
- ```XAML
+```XAML
 <telerikBarcode:RadBarcode WidthRequest="300" HeightRequest="100"
 		HorizontalOptions="Center" VerticalOptions="Center"
 		Value="58000106">
@@ -30,13 +30,13 @@ To apply the desired sizing mode to the Barcode:
 						  CodeTextSpacing="10"/>
 	</telerikBarcode:RadBarcode.Symbology>
 </telerikBarcode:RadBarcode>
- ```
+```
 
-2. Add the following namespace.
+Add the following namespace.
 
- ```XAML
+```XAML
 xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 
 The following image shows a barcode with its applied manual sizing mode.

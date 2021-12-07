@@ -81,4 +81,4 @@ Device.StartTimer(TimeSpan.FromMilliseconds(5000),
 
 ## See Also
 
-- [Getting Started with the BusyIndicator]({% slug busyindicator-getting-started %})
+- [Custom Busy Content]({% slug busyindicator-custom-busy-content%})
