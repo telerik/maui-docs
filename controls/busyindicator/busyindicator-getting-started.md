@@ -63,7 +63,7 @@ Before adding the BusyIndicator, you need to:
  }           
  ```
 
-### See Also
+## See Also
 
 - [Animations]({% slug busyindicator-animations %})
 - [Custom Busy Content]({% slug busyindicator-custom-busy-content %})
