@@ -200,6 +200,10 @@ navigation:
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
+    ## TabView
+    controls/tabview:
+        title: "TabView"
+    ## End TabView
     ## TemplatedPicker
     controls/templatedpicker:
         title: "TemplatedPicker"
@@ -312,9 +316,10 @@ intro_columns:
 -
   categories:
   -
-    title: "Layouts"
+    title: "Navigation & Layouts"
     items:
         "DockLayout": "docklayout-overview"
+        "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
   -
     title: "Buttons"
