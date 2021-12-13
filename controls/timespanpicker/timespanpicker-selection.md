@@ -16,17 +16,17 @@ To define the current time-interval selection, use the `Time`(`TimeSpan?`) prope
 
 The following example shows how to set the `Time` property.
 
-1. Define the TimeSpanPicker.
+Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <telerikInput:RadTimeSpanPicker Time="5:10:30:00"/>
- ```
+```
 
-1. Add the namespace.
+Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 
 ## Methods

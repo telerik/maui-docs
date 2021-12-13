@@ -77,144 +77,50 @@ The following examples show how the styling properties are applied.
 
 1. Define the ListPicker:
 
- <snippet id='listpicker-features-styling' />
- ```XAML
-<telerikInput:RadListPicker Placeholder="Pick a City Name!"
-							ItemsSource="{Binding Items}"
-							DisplayMemberPath="Name"
-							IsLooping="True"
-							DisplayStringFormat="You have picked: {0}"
-							DisplayLabelStyle="{StaticResource displayLabelStyle}"
-							ItemStyle="{StaticResource ItemStyle}"
-							SelectedItemStyle="{StaticResource SelectedItemStyle}"
-							PlaceholderLabelStyle="{StaticResource placeholderLabelStyle}">
-	<telerikInput:RadListPicker.BindingContext>
-		<local:CitiesViewModel/>
-	</telerikInput:RadListPicker.BindingContext>
-	<telerikInput:RadListPicker.SelectorSettings>
-		<telerikInput:PickerPopupSelectorSettings PopupOutsideBackgroundColor="#4A4949F"
-												  PopupViewStyle="{StaticResource popupViewStyle}"
-												  HeaderStyle="{StaticResource headerStyle}"
-												  HeaderLabelText="Select city"
-												  HeaderLabelStyle="{StaticResource headerLabelStyle}"
-												  FooterStyle="{StaticResource footerStyle}"
-												  AcceptButtonStyle="{StaticResource acceptButtonStyle}"
-												  CancelButtonStyle="{StaticResource cancelButtonStyle}"/>
-	</telerikInput:RadListPicker.SelectorSettings>
-</telerikInput:RadListPicker>
- ```
+<snippet id='listpicker-features-styling' />
 
-1. Define the styles in the page resources:
+Define the styles in the page resources:
 
- 	**Define the itemstyle**
+**Define the itemstyle**
 
- <snippet id='listpicker-features-itemstyle' />
+<snippet id='listpicker-features-itemstyle' />
 
-	**Define the SelectedItem Style**
+**Define the SelectedItem Style**
 
- <snippet id='listpicker-features-selecteditemstyle' />
- ```XAML
-<Style TargetType="telerikDataControls:SpinnerItemView" x:Key="SelectedItemStyle">
-	<Setter Property="BackgroundColor" Value="#F0F0F0"/>
-	<Setter Property="CornerRadius" Value="0"/>
-	<Setter Property="BorderThickness" Value="0"/>
-	<Setter Property="TextColor" Value="#4A4949" />
-	<Setter Property="FontSize" Value="16"/>
-</Style>
-```
+<snippet id='listpicker-features-selecteditemstyle' />
 
-	**Define the PlaceholderLabel Style**
+**Define the PlaceholderLabel Style**
 
- <snippet id='listpicker-style-placeholder-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="placeholderLabelStyle">
-	<Setter Property="TextColor" Value="#4A4949"/>
-	<Setter Property="VerticalTextAlignment" Value="Center"/>
-	<Setter Property="HorizontalTextAlignment" Value="Center"/>
-	<Setter Property="HeightRequest" Value="50"/>
-</Style>
- ```
+<snippet id='listpicker-style-placeholder-label-style' />
 
 **Define the DisplayLabel Style**
 
- <snippet id='listpicker-style-display-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="displayLabelStyle">
-	<Setter Property="TextColor" Value="Black"/>
-	<Setter Property="VerticalTextAlignment" Value="Center"/>
-	<Setter Property="HorizontalTextAlignment" Value="Center"/>
-	<Setter Property="HeightRequest" Value="50"/>
-</Style>
- ```
+<snippet id='listpicker-style-display-label-style' />
 
 **Define the PopupView Style**
 
- <snippet id='listpicker-style-popupview-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupContentView" x:Key="popupViewStyle">
-	<Setter Property="BackgroundColor" Value="White"/>
-	<Setter Property="WidthRequest" Value="270"/>
-</Style>
- ```
+<snippet id='listpicker-style-popupview-style' />
 
-	**Define the Header Style**
+**Define the Header Style**
 
- <snippet id='listpicker-style-header-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupHeaderView" x:Key="headerStyle">
-	<Setter Property="BackgroundColor" Value="#1188FF"/>
-	<Setter Property="HeightRequest" Value="64"/>
-	<Setter Property="Margin" Value="0"/>
-	<Setter Property="Padding" Value="0"/>
-	<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-	<Setter Property="VerticalOptions" Value="FillAndExpand"/>
-</Style>
- ```
+<snippet id='listpicker-style-header-style' />
 
-	**Define the HeaderLabel Style**
+**Define the HeaderLabel Style**
 
- <snippet id='listpicker-style-header-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="headerLabelStyle">
-	<Setter Property="TextColor" Value="White"/>
-	<Setter Property="HorizontalOptions" Value="Center"/>
-	<Setter Property="VerticalOptions" Value="Center"/>
-	<Setter Property="FontSize" Value="18"/>
-	<Setter Property="FontAttributes" Value="Bold"/>
-</Style>
- ```
+<snippet id='listpicker-style-header-label-style' />
 
-	**Define the FooterStyle**
+**Define the FooterStyle**
 
- <snippet id='listpicker-style-footer-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupFooterView" x:Key="footerStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-	<Setter Property="HeightRequest" Value="60"/>
-</Style>
- ```
+<snippet id='listpicker-style-footer-style' />
 
-	**Define the AcceptButton Style**
+**Define the AcceptButton Style**
 
- <snippet id='listpicker-style-accept-button-style' />
- ```XAML
-<Style TargetType="Button" x:Key="acceptButtonStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-	<Setter Property="Text" Value="OK"/>
-	<Setter Property="TextColor" Value="#1188FF"/>
-</Style>
- ```
+<snippet id='listpicker-style-accept-button-style' />
 
 **Define the CancelButton Style**
 
  <snippet id='listpicker-style-cancel-button-style' />
- ```XAML
-<Style TargetType="Button" x:Key="cancelButtonStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-	<Setter Property="Text" Value="CANCEL"/>
-	<Setter Property="TextColor" Value="#1188FF"/>
-</Style>
- ```
+
 
 1. Define a sample business model:
 
@@ -230,30 +136,6 @@ public class City
 1. Set a `ViewModel`:
 
  <snippet id='listpicker-features-viewmodel' />
- ```C#
-public class CitiesViewModel
-{
-	public CitiesViewModel()
-	{
-		this.Items = new ObservableCollection<City>
-		{
-			new City { Name = "Tokyo", Population = 13929286 },
-			new City { Name = "New York", Population = 8623000 },
-			new City { Name = "London", Population = 8908081 },
-			new City { Name = "Madrid", Population = 3223334 },
-			new City { Name = "Los Angeles", Population = 4000000},
-			new City { Name = "Paris", Population = 2141000 },
-			new City { Name = "Beijing", Population = 21540000 },
-			new City { Name = "Singapore", Population = 5612000 },
-			new City { Name = "New Delhi", Population = 18980000 },
-			new City { Name = "Bangkok", Population = 8305218 },
-			new City { Name = "Berlin", Population = 3748000 },
-		};
-	}
-
-	public ObservableCollection<City> Items { get; set; }
-}
- ```
 
 1. Add the following namespaces:
 
@@ -261,7 +143,6 @@ public class CitiesViewModel
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
  ```
-
 
 The following image shows how the ListPicker looks when the styling properties are applied:
 

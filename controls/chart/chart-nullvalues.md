@@ -18,8 +18,8 @@ The following example demonstrates a data-bound scenario where a nullable `doubl
 1. First, create a `ViewModel` with a collection of `CategoryItems` objects, where a few of the items have null values:
 
  ```C#
-public class ViewModel
-{
+ public class ViewModel
+ {
     public ViewModel()
     {
         this.Data = new ObservableCollection<CategoryItem>()
@@ -40,13 +40,13 @@ public class ViewModel
     }
 
     public ObservableCollection<CategoryItem> Data { get; private set; }
-}
+ }
 
-public class CategoryItem
-{
+ public class CategoryItem
+ {
     public string Category { get; set; }
     public double? Value { get; set; }
-}
+ }
  ```
 
 1. Then, add a `RadCartesianChart` with a Spline Area Series, for example:

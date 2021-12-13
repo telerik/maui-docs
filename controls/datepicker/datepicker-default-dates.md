@@ -14,7 +14,6 @@ You can define preselected dates both in the DatePicker (the selected date) and 
 
 Through the `Date` property of the `DateTime?` type you can define the current date selection. The default value is `null`.
 
-<snippet id='datepicker-keyfeatures-date-spinnerformat' />
 ```XAML
 <telerikInput:RadDatePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>

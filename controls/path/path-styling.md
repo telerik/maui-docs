@@ -15,11 +15,11 @@ The `RadPath` element exposes the following properties you can use to customize 
 * `StrokeThickness`: You can use this property to set the thickness of the stroke.
 * `BackgroundColor`: You can use this property to modify the color of the rectangle which contains the specific figure.
 
-The following example shows how to use `RadSweepGradientBrush`.
+## Styling the Path using the RadSweepGradientBrush
 
-1. Define the control.
+Define the control.
 
- ```XAML
+```XAML
 <telerikPrimitives:RadPath x:Name="gradientPath"
                            StrokeThickness="1"
                            Stroke="White"                                        
@@ -44,22 +44,21 @@ The following example shows how to use `RadSweepGradientBrush`.
         </telerikCommon:RadSweepGradientBrush>
     </telerikPrimitives:RadPath.Fill>
 </telerikPrimitives:RadPath>
- ```
+```
 
-1. Add the namespaces:
+Add the namespaces:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
- ```
+```
 
+## Styling the Path using the RadSolidColorBrush
 
-The following example shows how to use `RadSolidColorBrush`.
+Define the control.
 
-1. Define the control.
-
- ```XAML
+```XAML
 <telerikPrimitives:RadPath x:Name="solidPath"
                            Grid.Row="0"
                            StrokeThickness="2"
@@ -73,14 +72,14 @@ The following example shows how to use `RadSolidColorBrush`.
         </telerikCommon:RadPathFigure>
     </telerikCommon:RadPathGeometry>
 </telerikPrimitives:RadPath>
- ```
+```
 
-1. Add the used namespace:
+Add the used namespace:
 
- ```XAML
+```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
- ```
+```
 
 
 The following image shows the result:

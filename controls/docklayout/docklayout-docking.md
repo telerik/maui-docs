@@ -23,7 +23,6 @@ The way the child elements are docked and arranged depends on their order inside
 
 The following example demonstrates how to utilize the docking functionality:
 
-<snippet id='docklayout-docking-feature' />
 ```XAML
 <telerik:RadDockLayout x:Name="dockLayout">
     <Label Text="Left" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
@@ -48,7 +47,6 @@ The following image shows the result on different platforms:
 
 Setting the same docking side to a few child elements will arrange them according to their order inside the DockLayout children collection.  
 
-<snippet id='docklayout-position-elementsoneside'/>
 ```XAML
 <telerik:RadDockLayout x:Name="dockLayout" >
     <Label Text="Left 1" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
@@ -69,7 +67,6 @@ By default, the last element inside the DockLayout stretches over the remaining 
 
 You can prevent this behavior by setting `StretchLastChild` property of the DockLayout control to `False` as demonstrated in the following example.
 
-<snippet id='docklayout-position-lastelement'/>
 ```XAML
 <telerik:RadDockLayout x:Name="dockLayout" StretchLastChild="False">
     <Label Text="Left" telerik:RadDockLayout.Dock="Left" WidthRequest="60" BackgroundColor="LightPink" />
@@ -78,7 +75,6 @@ You can prevent this behavior by setting `StretchLastChild` property of the Dock
     <Label Text="Bottom" telerik:RadDockLayout.Dock="Bottom" BackgroundColor="LightYellow" />
 </telerik:RadDockLayout>
 ```
-
 
 The following image shows the end result.
 

@@ -19,21 +19,21 @@ The TimeSpanPicker for .NET MAUI exposes the following commands, which enable yo
 
 The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 
-1. Define the TimeSpanPicker.
+Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <StackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference timeSpanPicker}, Path=ToggleCommand}"/>
 	<Button Text="Clear Command" Command="{Binding Source={x:Reference timeSpanPicker}, Path=ClearCommand}"/>
 	<telerikInput:RadTimePicker x:Name="timeSpanPicker" />
 </StackLayout>
- ```
+```
 
-1. Add the namespace.
+Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 
 ## PopupSelector Commands

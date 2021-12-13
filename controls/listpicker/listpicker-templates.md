@@ -37,69 +37,20 @@ In addition, the ListPicker for .NET MAUI provides the following properties:
 The following example demonstrates how to define a sample ListPicker:
 
 <snippet id='listpicker-features-templates' />
-```XAML
-<telerikInput:RadListPicker PlaceholderTemplate="{StaticResource placeholderTemplate}"
-							ItemTemplate="{StaticResource itemTemplate}"
-							SelectedItemTemplate="{StaticResource selectedItemTemplate}"
-							ItemLength="40"
-							ItemSpacing="4"
-							ItemsSource="{Binding Items}"
-							DisplayMemberPath="Name"
-							x:Name="listPicker">
-	<telerikInput:RadListPicker.BindingContext>
-		<local:CitiesViewModel/>
-	</telerikInput:RadListPicker.BindingContext>
-	<telerikInput:RadListPicker.SelectorSettings>
-		<telerikInput:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
-												  FooterTemplate="{StaticResource footerTemplate}"/>
-	</telerikInput:RadListPicker.SelectorSettings>
-</telerikInput:RadListPicker>
-```
 
 Define the templates in the page resources:
 
 ## Item Template
 
 <snippet id='listpicker-features-itemtemplate' />
-```XAML
-<DataTemplate x:Key="itemTemplate">
-	<Label Text="{Binding Population}"
-		   BackgroundColor="LightYellow"
-		   HorizontalTextAlignment="Center"
-		   VerticalTextAlignment="Center"/>
-</DataTemplate>
-```
 
 ## SelectedItem Template
 
 <snippet id='listpicker-features-selecteditemtemplate' />
-```XAML
-<DataTemplate x:Key="selectedItemTemplate">
-	<Label Text="{Binding Name}"
-		   BackgroundColor="LightBlue"
-		   HorizontalTextAlignment="Center"
-		   VerticalTextAlignment="Center"/>
-</DataTemplate>
-```
 
 ## Placeholder Template
 
 <snippet id='listpicker-features-placeholdertemplate' />
-```XAML
-<ControlTemplate x:Key="placeholderTemplate">
-	<Label Text="Tap to open list picker"
-		   FontAttributes="Bold"
-		   TextColor="White"
-		   BackgroundColor="#B73562"
-		   HeightRequest="50"
-		   VerticalTextAlignment="Center"
-		   HorizontalTextAlignment="Center">
-		<Label.GestureRecognizers>
-			<TapGestureRecognizer Command="{TemplateBinding ToggleCommand}" />
-		</Label.GestureRecognizers>
-	</Label>
-</ControlTemplate>
-```
 
 ## DisplayTemplate
 
@@ -118,80 +69,24 @@ Define the templates in the page resources:
 ## Header Template
 
 <snippet id='listpicker-features-headertemplate' />
-```XAML
-<ControlTemplate x:Key="headerTemplate">
-	<Label Text="Select city:"
-		   TextColor="White"
-		   FontSize="16"
-		   VerticalTextAlignment="Center"
-		   HorizontalTextAlignment="Center"
-		   BackgroundColor="#B73562"/>
-</ControlTemplate>
-```
 
 ## Footer Template
 
 <snippet id='listpicker-features-footertemplate' />
-```XAML
-<ControlTemplate x:Key="footerTemplate">
-	<StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="FillAndExpand" BackgroundColor="#B73562">
-		<Button Text="Cancel"
-				TextColor="White"
-				BackgroundColor="Transparent"
-				Command="{TemplateBinding CancelCommand}" />
-		<Button Text="OK"
-				TextColor="White"
-				BackgroundColor="Transparent"
-				Command="{TemplateBinding AcceptCommand}" />
-	</StackLayout>
-</ControlTemplate>
-```
 
 Set a sample business model:
 
 <snippet id='listpicker-features-businessmodel' />
-```C#
-public class City
-{
-	public string Name { get; set; }
-	public int Population { get; set; }
-}
-```
 
 Define the `ViewModel`:
 
 <snippet id='listpicker-features-viewmodel' />
-```C#
-public class CitiesViewModel
-{
-	public CitiesViewModel()
-	{
-		this.Items = new ObservableCollection<City>
-		{
-			new City { Name = "Tokyo", Population = 13929286 },
-			new City { Name = "New York", Population = 8623000 },
-			new City { Name = "London", Population = 8908081 },
-			new City { Name = "Madrid", Population = 3223334 },
-			new City { Name = "Los Angeles", Population = 4000000},
-			new City { Name = "Paris", Population = 2141000 },
-			new City { Name = "Beijing", Population = 21540000 },
-			new City { Name = "Singapore", Population = 5612000 },
-			new City { Name = "New Delhi", Population = 18980000 },
-			new City { Name = "Bangkok", Population = 8305218 },
-			new City { Name = "Berlin", Population = 3748000 },
-		};
-	}
-
-	public ObservableCollection<City> Items { get; set; }
-}
-```
 
 Add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
-
 
 The following image shows the end result:
 

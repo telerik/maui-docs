@@ -64,6 +64,9 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
  }           
  ```
 
+
+
+
 ## See Also
 
 - [Suppoted Standard TimeSpan Format Strings]({%slug timespanpicker-formatting%})

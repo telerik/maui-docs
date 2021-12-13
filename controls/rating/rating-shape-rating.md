@@ -26,39 +26,39 @@ The Rating supports the following geometry types:
 
  ![Star Shape Rating](images/rating-star.png)
 
- ```XAML
+```XAML
 <telerikInput:RadShapeRating AutomationId="defaultRating" />
- ```
+```
 
 - `Circle`
 
  ![Circle Shape Rating](images/rating-circle.png)
 
- ```XAML
+```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Circle}" AutomationId="circleRating" />
- ```
+```
 
 - `Diamond`
 
  ![Diamond Shape Rating](images/rating-diamond.png)
 
- ```XAML
+```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Diamond}" AutomationId="diamondRating" />
- ```
+```
 
 - `Heart`
 
  ![](images/rating-heart.png)
 
- ```XAML
+```XAML
 <telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Heart}" AutomationId="heartRating" />
- ```
+```
 
 - Custom `RadPathGeometry` shape:
 
  ![](images/rating-triangle.png)
 
- ```XAML
+```XAML
  <telerikInput:RadShapeRating AutomationId="triangularRating">
     <telerikInput:RadShapeRating.ItemShape>
         <telerikCommon:RadPathGeometry>
@@ -70,13 +70,13 @@ The Rating supports the following geometry types:
         </telerikCommon:RadPathGeometry>
     </telerikInput:RadShapeRating.ItemShape>
 </telerikInput:RadShapeRating>
- ```
+```
 
  In the example, the `telerikCommon` namespace is defined like this:
 
- ```XAML
+```XAML
 xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 ## Shapes Styling
 
@@ -93,26 +93,26 @@ You can control the visual appearance of the predefined shapes through the follo
 
 The following example shows how to set the shapes styling.
 
-1. Define the `RadShapeRating`:
+Define the `RadShapeRating`:
 
- ```XAML
+```XAML
 <telerikInput:RadShapeRating AutomationId="styledRating"
                           ItemFill="YellowGreen"
                           ItemStroke="YellowGreen"
                           SelectedItemFill="Pink"
                           SelectedItemStroke="Red" />
- ```
+```
 
-1. Add the namespace:
+Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
- ```
+```
 
 
 The following image shows the end result.
 
- ![Rating Styling](images/rating-styles.png)
+![Rating Styling](images/rating-styles.png)
 
 ## See Also
 

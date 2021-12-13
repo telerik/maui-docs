@@ -143,9 +143,9 @@ public class City
 
 1. Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility""
- ```
+```
 
 ## See Also
 

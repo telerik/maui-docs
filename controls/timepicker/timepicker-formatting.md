@@ -20,17 +20,17 @@ To define the format of the string that will be visualized when the picker dialo
 
 The following example shows how to set the `DisplayStringFormat`.
 
-1. Define the TimePicker.
+Define the TimePicker.
 
- ```XAML
+```XAML
 <telerikInput:RadTimePicker DisplayStringFormat="H:mm"/>
- ```
+```
 
-1. Add the namespace.
+Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 ## Spinner Format
 
@@ -53,18 +53,7 @@ The available standard date and time format strings that can be set to the `Spin
 
 The available custom time format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
-| Supported Custom Time Format Strings|
-| -------- |
-| `"H"` |
-| `"HH"` |
-| `"h"` |
-| `"hh"` |
-| `"m"` |
-| `"mm"` |
-| `"s"` |
-| `"ss"` |
-| `"t"` |
-| `"tt"` |
+The Supported Custom Time Format Strings are: `"H"`, `"HH"`,  `"h"`, `"hh"`, `"m"`, `"mm"`, `"s"`, `"ss"`, `"t"`, `"tt"`.
 
 >tip For more details on the different formats, refer to the [Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) topic on Microsoft Docs.
 
@@ -72,16 +61,7 @@ The available custom time format strings that can be set to the `SpinnerFormat` 
 
 When `SpinnerFormat` is set and the device culture is changed, the separators used for the format string won't be changed.
 
-The following table lists the available separators:
-
-| Supported Time Separators Formats |
-| -------- |
-| `"-"` |
-| `"."` |
-| `"'"` |
-| `" "` |
-| `":"` |
-| `"/"` |
+The Supported Time Format Separators are: `"-"`, `"."`, `","`, `" "`, `":"`,`"/"`.
 
 The following example demonstrates how to set `SpinnerFormat="H:mm"`.
 
