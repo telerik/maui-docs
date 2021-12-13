@@ -1,36 +1,36 @@
 ---
-title: Validation
-page_title: .NET MAUI MaskedEntry Documentation | Validation
-description: "Check the MaskedEntry Validation topic to learn more about the built-in validation error messages and how to define a custom error message"
+title: Validation Message
+page_title: .NET MAUI MaskedEntry Documentation | Validation Message
+description: "Learn more about the built-in validation error messages and how to define a custom error message in the Telerik UI for .NET MAUI MaskedEntry."
 position: 7
 slug: maskedentry-validation
 ---
 
-# Validation
+# Validation Message
 
-Telerik MaskedEntry for .NET MAUI has a built-in validation message. If you entering an input that does not match the mask requrements an error message will be displayed.
+The Telerik MaskedEntry for .NET MAUI provides a built-in validation message. If the user is entering an input that does not match the mask requirements, the MaskedEntry will display an error message.
 
-## Default Validation Error Message
+## Default Error Message
 
-MaskedEntry has a deafult validation error message, based on the used Masked Type:
+The MaskedEntry supports a default validation error message that is based on the used Masked Type:
 
-* EmailMaskedEntry&mdash;`E-Mail is not valid`.
+* `EmailMaskedEntry`&mdash;Supports the `E-Mail is not valid` error message.
 
-* RegexMaskedEntry&mdash;`Input does not match the regex`.
+* `RegexMaskedEntry`&mdash;Supports the `Input does not match the regex` error message.
 
-## Custom Validation Error Message 
+## Custom Error Message
 
-You can easily customize the default validation error message using the `ValidationErrorMessage`(`string`) property.
+To customize the default validation error message, use the `ValidationErrorMessage`(`string`) property.
 
-**RadEmailMaskedEntry ValidationErrorMessage**
+**Custom Validation Error Message for the RadEmailMaskedEntry**
 
 <snippet id='emailmaskedentry-validationerrormessage-xaml' />
 
-**RadRegexMaskedEntry ValidationErrorMessage**
+**Custom Validation Error Message for the RadRegexMaskedEntry**
 
 <snippet id='regexmaskedentry-validationerrormessage-xaml' />
 
->tip ValidationErrorMessage example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+>tip For the **ValidationErrorMessage** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 

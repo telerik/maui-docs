@@ -1,14 +1,14 @@
 ---
 title: Value
 page_title: .NET MAUI MaskedEntry Documentation | Value
-description: "Check the Telerik MaskedEntry for .NET MAUI Value article for details how to set predefined values inside the control"
+description: "Set predefined values in the Telerik UI for .NET MAUI MaskedEntry and learn how to enable its null value support."
 position: 4
 slug: maskedentry-value
 ---
 
 # Value
 
-If you want to have a prefedfined values inside the MAskedEntry, set the `Value`(`string`) property. It returns the user input without the formatting characters. 
+To set a predefined value inside the MaskedEntry, define the `Value`(`string`) property. It returns the user input without the formatting characters.
 
 **RadTextMaskedEntry with Value property**
 
@@ -17,7 +17,7 @@ If you want to have a prefedfined values inside the MAskedEntry, set the `Value`
 this.textMaskedEntry.Value = "Test";
 ```
 
-And the namespace used:
+Add the namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
@@ -25,19 +25,19 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 ## Null Value Support
 
-By default the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead `null` in the NumericMaskedEntry the value is coerced to `0`. To allow null values you have to set the `AllowNullValue` property to `True`.
+By default, the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead, the `null` value in the NumericMaskedEntry is coerced to `0`. To allow `null` values, you have to set the `AllowNullValue` property to `True`.
 
 **RadNumericMaskedEntry with null value support**
 
 <snippet id='numericmaskedentry-allownullvalues-true-xaml' />
 
-And the namespace used:
+Add the namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
->tip AllowNullValues example can be found in the MaskedEntry/Features folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+>tip For the **AllowNullValues** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 
