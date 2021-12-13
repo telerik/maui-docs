@@ -14,12 +14,6 @@ This article will guide you through the steps needed to add a basic **RadTabView
 * [Adding the required Telerik references](#2-adding-the-required-telerik-references)
 * [Adding RadTabView control](#3-adding-radtabview-control)
 
-## 1. Setting up the app
-
-Take a look at these articles and follow the instructions to setup your app:
-
-- [Setup app with Telerik UI for Xamarin on Windows]({%slug getting-started-windows%})
-- [Setup app with Telerik UI for Xamarin on Mac]({%slug getting-started-mac%})
 
 ## 2. Adding the required Telerik references
 
@@ -42,12 +36,7 @@ If you don't want to add the all Telerik.UI.for.Xamarin nuget package, you have 
 
 You could use one of the following approaches:
 
-#### Drag the control from the Toolbox. 
 
-Take a look at the following topics on how to use the toolbox:
-
-* [Telerik UI for Xamarin Toolbox on Windows]({%slug telerik-xamarin-toolbox%})
-* [Telerik UI for Xamarin Toolbox on Mac]({%slug telerik-xamarin-toolbox-mac%})
 	
 #### Create the control definition in XAML or C#.
 

@@ -20,9 +20,9 @@ slug: map-overview
 
 * [Various ways to load shapefiles]({% slug map-layers-shapefilelayer %})&mdash;You can load the shapefiles from a stream, from a file added as embedded resource or a file located on the device,etc.
 
-* [Pan and Zoom]({% slug map-key-features %})&mdash;The Map provides pan and zoom functionality that will help you interact with the view and inspect your data. You could choose between only pan, only zoom or both through `InteractionMode` property. 
+* [Pan and Zoom]({% slug map-pan-zoom %})&mdash;The Map provides pan and zoom functionality that will help you interact with the view and inspect your data. You could choose between only pan, only zoom or both through `InteractionMode` property. 
 
-* [Shape Labels]({% slug map-key-features %})&mdash;You can show a label for each shape in the Map control through the `LabelAttributeName` property of the ShapefileLayer instance.
+* [Shape Labels]({% slug map-layers-shapefilelayer %}#labels)&mdash;You can show a label for each shape in the Map control through the `LabelAttributeName` property of the ShapefileLayer instance.
 
 * [Selection]({% slug map-selection %})&mdash;The control supports single and multiple selection of shapes to help you draw attention on specific areas. 
 
