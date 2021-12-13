@@ -35,16 +35,17 @@ Before adding the Map, you need to:
 
 1. Add the following namespace:
 
-<snippet id='xmlns-telerikmap' />
-<snippet id='ns-telerikmap' />
+ ```XAML
+ xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
+ ```
 
-RadMap uses *.shp files that contain the coordinates of the shapes that will be drawn by the map and an optional *.dbf file for each *.shp file with additional attributes of the shapes.
+1. RadMap uses *.shp files that contain the coordinates of the shapes that will be drawn by the map and an optional *.dbf file for each *.shp file with additional attributes of the shapes.
 
-You would need to assign the .shp file containing the data through the **Source** property of the MapShapeReader like this:
+ You would need to assign the .shp file containing the data through the **Source** property of the MapShapeReader like this:
 
-<snippet id='map-gettingstarted-setting-source' />
+ <snippet id='map-gettingstarted-setting-source' />
 
->note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({% slug map-layers-shapefilelayer%}) topic.
+>note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
 ## See Also
 

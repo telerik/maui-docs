@@ -46,42 +46,42 @@ The following example will demonstrate how to apply the `Conditional Styling` in
 1. Create a simple data for the ListView component:
 
  ```C#
-public class Person
-{
-    public Person(string name, int age)
-    {
-        this.Name = name;
-        this.Age = age;
-    }
+ public class Person
+ {
+	public Person(string name, int age)
+	{
+		this.Name = name;
+		this.Age = age;
+	}
 
-    public string Name { get; set; }
+	public string Name { get; set; }
 
-    public int Age { get; set; }
-}
+	public int Age { get; set; }
+ }
 
-public class ViewModel
-{
-    public ViewModel()
-    {
-        this.Source = new List<Person> {
-            new Person("Tom", 25),
-            new Person("Anna",18),
-            new Person("Peter",43),
-            new Person("Teodor",29),
-            new Person("Lorenzo",65),
-            new Person("Andrea",79),
-            new Person("Martin",5) };
-    }
+ public class ViewModel
+ {
+	public ViewModel()
+	{
+		this.Source = new List<Person> {
+			new Person("Tom", 25),
+			new Person("Anna",18),
+			new Person("Peter",43),
+			new Person("Teodor",29),
+			new Person("Lorenzo",65),
+			new Person("Andrea",79),
+			new Person("Martin",5) };
+	}
 
-    public List<Person> Source { get; set; }
-}
+	public List<Person> Source { get; set; }
+ }
  ```
 
 1. You can set a different style for a specific item by using the `ListViewStyleSelector` class. We can use the `OnSelectStyle` method to change the styles of the items in the ListView control. A sample implementation of a custom class that derives from `ListViewStyleSelector` and overrides its `OnSelectStyle` method is shown below:
 
  ```C#
-public class ExampleListViewStyleSelector : ListViewStyleSelector
-{
+ public class ExampleListViewStyleSelector : ListViewStyleSelector
+ {
     protected override void OnSelectStyle(object item, ListViewStyleContext styleContext)
     {
         var style = new ListViewItemStyle
@@ -107,10 +107,8 @@ public class ExampleListViewStyleSelector : ListViewStyleSelector
             styleContext.ItemStyle.BackgroundColor = Colors.Green;
         }
     }
-}
+ }
  ```
-
-
 
 The following image shows how the ListView control will look like when conditional styling is used.
 

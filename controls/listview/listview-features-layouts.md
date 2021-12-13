@@ -62,14 +62,14 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
 
  <snippet id='listview-layouts-linearlayout-source'/>
  ```C#
-public class Item
-{
+ public class Item
+ {
 	public string Name { get; set; }
 	public Color Color { get; set; }
-}
+ }
 
-public class ViewModel
-{
+ public class ViewModel
+ {
 	public ViewModel()
 	{
 		this.Items = new ObservableCollection<Item>();
@@ -80,9 +80,8 @@ public class ViewModel
 		}
 	}
 	public ObservableCollection<Item> Items { get; set; }
-}
+ }
  ```
-
 
 The following image shows the result:
 
@@ -125,7 +124,6 @@ The following example demonstrates how to use the `RadListViewGridLayout`.
 
 	In the example:
 
- <snippet id='xmlns-teleriklistview'/>
  ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
@@ -135,14 +133,14 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
 
  <snippet id='listview-layouts-gridlayout-source'/>
  ```C#
-public class Item
-{
+ public class Item
+ {
 	public string Name { get; set; }
 	public Color Color { get; set; }
-}
+ }
 
-public class ViewModel
-{
+ public class ViewModel
+ {
 	public ViewModel()
 	{
 		this.Items = new ObservableCollection<Item>();
@@ -153,9 +151,8 @@ public class ViewModel
 		}
 	}
 	public ObservableCollection<Item> Items { get; set; }
-}
+ }
  ```
-
 
 The following image shows the result:
 

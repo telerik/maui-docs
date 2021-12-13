@@ -12,8 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-..........
-
+![SegmentedControl Getting Started](images/segmentcontrol-gettingstarted.png)
 ## Prerequisites
 
 Before adding the SegmentedControl, you need to:

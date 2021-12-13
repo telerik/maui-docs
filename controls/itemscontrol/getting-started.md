@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-............
+![ItemsControl Getting Started](images/itemscontrol-getting-started.png)
 
 ## Prerequisites
 
@@ -36,6 +36,12 @@ Before adding the ItemsControl, you need to:
 
  ```XAML
 xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+ ```
+ 
+1. Populate the ItemsControl with some data - in the example its `ItemsSource` is set to a list of string values:
+
+ ```C#
+this.itemsControl.ItemsSource = new List<string> {"Tom", "Anna", "Peter", "Teodor", "Lorenzo", "Andrea", "Jeremy", "Linda", "Mario", "Alex", "Barbara", "Nicole", "Paul", "Raul", "Lenny", "Laura", "Mike", "Taylor", "Martin"};
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

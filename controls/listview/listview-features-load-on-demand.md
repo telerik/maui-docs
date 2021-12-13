@@ -135,11 +135,11 @@ this.listView.ItemsSource = this.source;
 1. Add the following event handler:
 
  ```C#
-private ObservableCollection<string> source;
-private int lodCounter = 0;
+ private ObservableCollection<string> source;
+ private int lodCounter = 0;
 
-private async void ListView_LoadOnDemand(object sender, EventArgs e)
-{
+ private async void ListView_LoadOnDemand(object sender, EventArgs e)
+ {
     // If you need to get new data asynchronously, you must manually update the loading status.
     this.listView.IsLoadOnDemandActive = true;
 
@@ -150,14 +150,14 @@ private async void ListView_LoadOnDemand(object sender, EventArgs e)
     }
 
     this.listView.IsLoadOnDemandActive = false;
-}
+ }
 
-private async Task<IEnumerable<string>> GetNewItems()
-{
+ private async Task<IEnumerable<string>> GetNewItems()
+ {
     this.lodCounter++;
     await Task.Delay(4000);  // Mimic getting data from server asynchronously.
     return Enum.GetNames(typeof(DayOfWeek)).Select(day => string.Format("LOD: {0} - {1}", this.lodCounter, day));
-}
+ }
  ```
 
 ### Using LoadOnDemand Command

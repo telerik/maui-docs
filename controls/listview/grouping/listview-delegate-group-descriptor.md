@@ -48,20 +48,18 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
 1. Create and apply a delegate for grouping the items (for example by their first letter) as following:
 
  ```C#
-var delegateDescriptor = new DelegateGroupDescriptor
-{
+ var delegateDescriptor = new DelegateGroupDescriptor
+ { 
     KeyExtractor = FirstLetterKeyExtractor
-};
+ };
 
-listView.GroupDescriptors.Add(delegateDescriptor);
+ listView.GroupDescriptors.Add(delegateDescriptor);
 
-
-
-private object FirstLetterKeyExtractor(object arg)
-{
+ private object FirstLetterKeyExtractor(object arg)
+ {
     var item = arg as City;
     return item?.Name.Substring(0, 1);
-}
+ }
  ```
 
 1. Add a business model:
