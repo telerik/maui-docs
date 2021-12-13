@@ -26,18 +26,17 @@ The following image shows the result from setting the options.
 
 The following example demonstrates how to customize the NumericInput buttons text.
 
-1. Define the NumericInput.
+Define the NumericInput.
 
- ```XAML
- <telerikInput:RadNumericInput x:Name="numericBtnText" IncreaseButtonText="&gt;" DecreaseButtonText="&lt;" />
- ```
+```XAML
+<telerikInput:RadNumericInput x:Name="numericBtnText" IncreaseButtonText="&gt;" DecreaseButtonText="&lt;" />
+```
 
-1. Add the following namespace:
+Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the NumericInput with some custom buttons text.
 

@@ -12,18 +12,17 @@ The NumericInput supports read-only mode in which the end user cannot type into 
 
 To enable the read-only mode, set `IsReadOnly` to `True`.
 
-1. Define the NumericInput in XAML with `IsReadOnly` set to `True`.
+Define the NumericInput in XAML with `IsReadOnly` set to `True`.
 
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" IsReadOnly="True"/>
- ```
+```
 
-1. Add the following namespace:
+Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the result:
 

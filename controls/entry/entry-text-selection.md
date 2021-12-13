@@ -13,32 +13,32 @@ The Entry supports a number of settings for managing the selection of its input 
 The text selection properties provided by the Entry are:
 
 * `CursorPosition`(`int`)&mdash;Specifies the starting position of the selected text in the entry.
+
 * `SelectionLength`(`int`)&mdash;Specifies the number of characters in the current Entry selection.
 
 The following snippet shows how to preselect a part of the Entry text when the control is focused by applying both properties.
 
-1. Define the text orientation and the text of the Entry.
+Define the text orientation and the text of the Entry.
 
- ```XAML
+```XAML
 <StackLayout Orientation="Horizontal">
     <telerikInput:RadEntry x:Name="selectEntry"
 						   Text="select some text" />
     <telerikInput:RadButton Text="Focus"
 							Clicked="FocusButtonClicked" />
 </StackLayout>
- ```
+```
 
-1. Set the `Clicked` event handler:
+Set the `Clicked` event handler:
 
- ```C#
+```C#
 private void FocusButtonClicked(object sender, System.EventArgs e)
 {
     selectEntry.Focus();
     selectEntry.CursorPosition = 7;
     selectEntry.SelectionLength = 9;
 }
- ```
-
+```
 
 The following image shows the end result.
 

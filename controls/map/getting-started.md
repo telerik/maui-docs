@@ -1,64 +1,39 @@
 ---
 title: Getting Started
-page_title: Getting Started with Xamarin.Forms Map Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik Map for Xamarin control.
+page_title: NET MAUI Map Documentation | Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for Telerik Map for .NET MAUI control.
 position: 1
 slug: map-getting-started
 ---
 
 # Getting Started
 
-This article will guide you through the steps needed to add a basic **RadMap** control in your application.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Map by adding the control to your project.
 
-* [Setting up the app](#1-setting-up-the-app)
-* [Adding the required Telerik references](#2-adding-the-required-telerik-references)
-* [Adding RadMap control](#3-adding-radmap-control)
+At the end, you will be able to achieve the following result.
 
-## 1. Setting up the app
+![Getting Started Example](images/map_getting_started.png)
 
-Take a look at these articles and follow the instructions to setup your app:
+## Prerequisites
 
-- [Setup app with Telerik UI for Xamarin on Windows]({%slug getting-started-windows%})
-- [Setup app with Telerik UI for Xamarin on Mac]({%slug getting-started-mac%})
+Before adding the Map, you need to:
 
-## 2. Adding the required Telerik references
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
-You have two options:
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
-* Add the Telerik UI for Xamarin Nuget package following the instructions in [Telerik NuGet package server]({%slug telerik-nuget-server%}) topic.
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
-If you don't want to add the all Telerik.UI.for.Xamarin nuget package, you have the option to add a separate nuget package. For RadMap control you have to install the **Telerik.UI.for.Xamarin.Map** nuget package. This nuget will automatically refer the *Telerik.UI.for.Xamarin.Common*, *Telerik.UI.for.Xamarin.Primitives*, *Telerik.UI.for.Xamarin.DataControls*, *SkiaSharp* and *ShiaSharp.Views.Forms* nuget packages.
+>important The Map is rendered through the [SkiaSharp graphics library](https://skia.org/).
 
-* Add the references to Telerik assemblies manually, check the list below with the required assemblies for **RadMap** component:
+## Define the Control
 
-| Platform | Assemblies |
-| -------- | ---------- |
-| Portable | Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Map.dll |
-| Android  | Telerik.Xamarin.Android.Common.dll<br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Map.dll |
-| iOS      | Telerik.Xamarin.iOS.dll <br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Map.dll |
-| UWP      | Telerik.Core.dll<br/>Telerik.UI.Xaml.Primitives.UWP.dll<br/>Telerik.XamarinForms.Common.dll<br/>Telerik.XamarinForms.Map.dll |
+1. When your .NET MAUI application is set up, you are ready to add a Map control to your page.
 
->important RadMap is rendered via the **SkiaSharp** graphics library so you need to install also [SkiaSharp](https://www.nuget.org/packages/SkiaSharp/) and [SkiaSharp.Views.Forms](https://www.nuget.org/packages/SkiaSharp.Views.Forms) in all projects of the Xamarin solution (portable, android, ios, etc). 
+ <snippet id='map-getting-started-xaml' />
+ <snippet id='map-gettingstarted-csharp' />
 
-## 3. Adding RadMap control
-
-You could use one of the following approaches:
-
-#### Drag the control from the Toolbox. 
-
-Take a look at the following topics on how to use the toolbox:
-
-* [Telerik UI for Xamarin Toolbox on Windows]({%slug telerik-xamarin-toolbox%})
-* [Telerik UI for Xamarin Toolbox on Mac]({%slug telerik-xamarin-toolbox-mac%})
-	
-#### Create the control definition in XAML or C#.
-
-The snippet below shows a simple RadMap definition:
-
-<snippet id='map-getting-started-xaml' />
-<snippet id='map-gettingstarted-csharp' />
-
-In addition to this, you need to add the following namespace:
+1. Add the following namespace:
 
 <snippet id='xmlns-telerikmap' />
 <snippet id='ns-telerikmap' />
@@ -70,12 +45,6 @@ You would need to assign the .shp file containing the data through the **Source*
 <snippet id='map-gettingstarted-setting-source' />
 
 >note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({% slug map-layers-shapefilelayer%}) topic.
-
-This is the result:
-
-![RadMap](images/map_getting_started.png)
-
->important **SDK Browser** and **QSF** applications contain different examples that show RadMap's main features. You can find the applications in the **Examples** and **QSF** folders of your local **Telerik UI for Xamarin** installation.
 
 ## See Also
 

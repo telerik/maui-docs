@@ -81,12 +81,12 @@ public class ViewModel
 </telerikDataControls:RadListView>
 ```
 
-Add the needed namespaces:
+1. Add the needed namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```						
+ ```						
 
 **Define the ListView in code-behind**
 

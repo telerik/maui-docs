@@ -1,12 +1,12 @@
 ---
-title: Key Features
+title: Pan and Zoom
 page_title: Xamarin Map Documentation | Key Features
 description: Check our &quot;Key Features&quot; documentation article for Telerik Map for Xamarin control.
 position: 2
-slug: map-key-features
+slug: map-pan-zoom
 ---
 
-# Key Features
+# Pan and Zoom
 
 The purpose of this help article is to show you the key features of the **RadMap** control. 
 
@@ -46,10 +46,6 @@ In addition, you can use the method below to set the provided zoom value as the 
 
 * void ZoomToLevel(double zoomLevel);
 
-## Layers
-
-RadMap can display rich spatial data from ESRI shapefiles. Each shapefile should be loaded and configured through a ShapefileLayer instance added to the *Layers* collection of the control. By adding more ShapefileLayers you can visualize different types of elements on the same map.  For detailed information on the matter go to [Layers Overview]({% slug map-layers-overview %}) topic.
-
 ## Setting the View
 
 If you would like to show a specific area from the map, you can use **SetView** method as described below:
@@ -65,11 +61,6 @@ Here is an example how you could utilize SetView method (in the example the used
 <snippet id='map-setview-code' />
 
 ![Map SetView](images/map_getbestview.png)
-
-## Hardware Acceleration
-
-RadMap is rendered via the SkiaSharp library and uses by default the hardware-accelerated [SKGLView](https://docs.microsoft.com/en-us/dotnet/api/skiasharp.views.forms.skglview?view=skiasharp-views-forms) class for its drawing. 
-You could easily replace it with the [SKCanvasView](https://docs.microsoft.com/en-us/dotnet/api/skiasharp.views.forms.skcanvasview?view=skiasharp-views-forms) by setting **EnableHardwareAcceleration** to False.
 
 >important A sample Key Features example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 

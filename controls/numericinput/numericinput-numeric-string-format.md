@@ -20,18 +20,17 @@ You can find detailed information about the supported numeric formats in the [St
 
 ## Example
 
-1. Define the NumericInput.
+Define the NumericInput.
 
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
- ```
+```
 
-1. Add the following namespace:
+Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the end result:
 

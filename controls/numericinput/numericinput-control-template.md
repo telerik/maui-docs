@@ -14,9 +14,9 @@ This topic gives an overview of the `ControlTemplate` of the NumericInput contro
 
 The following example shows the original `ControlTemplate`.
 
-1. Define the NumericInput.
+Define the NumericInput.
 
- ```XAML
+```XAML
 <ResourceDictionary>
 	<ControlTemplate x:Key="RadNumericInput_ControlTemplate">
 	    <Grid ColumnSpacing="10"
@@ -73,16 +73,15 @@ The following example shows the original `ControlTemplate`.
 	    </Grid>
 	</ControlTemplate>
 </ResourceDictionary>
- ```
+```
 
-1. Add the namespaces:
+Add the namespaces:
 
- ```XAML
+```XAML
 xmlns:common="clr-namespace:Telerik.XamarinForms.Common"
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input"
 xmlns:telerikNumeric="clr-namespace:Telerik.XamarinForms.Input.NumericInput"
- ```
-
+```
 
 
 You need to copy the original `ControlTemplate` and its resource dependencies to the Resources section of the page, then you can modify the used colors, sizes, relocate or remove elements (for example, you can align the two buttons after the entry).
@@ -91,6 +90,6 @@ You need to copy the original `ControlTemplate` and its resource dependencies to
 
 The following example demonstrates how to set the `ControlTemplate` to the NumericInput:
 
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" ControlTemplate="{StaticReource RadNumericInput_ControlTemplate}" />
- ```
+```
