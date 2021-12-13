@@ -19,20 +19,20 @@ You can change the default setup using the following properties:
 
 The following example shows how to set the time steps.
 
-1. Define the TimeSpanPicker.
+Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <telerikInput:RadTimeSpanPicker DayStep="2"
                                 HourStep="4"
                                 MinuteStep="10"
                                 SecondStep="30"/>
- ```
+```
 
-1. Add the namespace.
+Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 
 

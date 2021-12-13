@@ -77,173 +77,56 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 The following examples demonstrate how to define use the styling properties of the DatePicker.
 
-1. Define the `RadDatePicker`.
+**Define the `RadDatePicker`**
 
- <snippet id='datepicker-style' />
- ```XAML
-<telerikInput:RadDatePicker SpinnerHeaderStyle="{StaticResource spinnerHeaderStyle}"
-							SpinnerStyle="{StaticResource spinnerStyle}"
-							SelectionHighlightStyle="{StaticResource selectionHighlightStyle}"
-							DisplayLabelStyle="{StaticResource displayLabelStyle}"
-							PlaceholderLabelStyle="{StaticResource placeholderLabelStyle}"
-							DefaultHighlightedDate="2020,05,15"
-							SpinnerFormat="yyy/MMM/dd"
-							DisplayStringFormat="yyyy/MMM/dd">
-	<telerikInput:RadDatePicker.SelectorSettings>
-		<telerikInput:PickerPopupSelectorSettings PopupOutsideBackgroundColor="#D9D9D9CC"
-												  PopupViewStyle="{StaticResource popupViewStyle}"
-												  HeaderStyle="{StaticResource headerStyle}"
-												  HeaderLabelText="Date Picker"
-												  HeaderLabelStyle="{StaticResource headerLabelStyle}"
-												  FooterStyle="{StaticResource footerStyle}"
-												  AcceptButtonStyle="{StaticResource acceptButtonStyle}"
-												  CancelButtonStyle="{StaticResource cancelButtonStyle}"/>
-	</telerikInput:RadDatePicker.SelectorSettings>
-</telerikInput:RadDatePicker>
- ```
+<snippet id='datepicker-style' />
 
-	**Define the Spinner Style**
+**Define the Spinner Style**
 
- <snippet id='datepicker-style-spinner-style' />
- ```XAML
-<Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
-	<Setter Property="ItemStyle">
-		<Setter.Value>
-			<Style TargetType="telerikDataControls:SpinnerItemView">
-				<Setter Property="TextColor" Value="#4A4949"/>
-			</Style>
-		</Setter.Value>
-	</Setter>
-	<Setter Property="SelectedItemStyle">
-		<Setter.Value>
-			<Style TargetType="telerikDataControls:SpinnerItemView">
-				<Setter Property="TextColor" Value="Black"/>
-				<Setter Property="FontAttributes" Value="Bold"/>
-			</Style>
-		</Setter.Value>
-	</Setter>
-</Style>
- ```
+<snippet id='datepicker-style-spinner-style' />
 
-	**Define the SpinnerHeaderStyle**
+**Define the SpinnerHeaderStyle**
 
- <snippet id='datepicker-style-spinner-header-style' />
- ```XAML
-<Style TargetType="Label" x:Key="spinnerHeaderStyle">
-	<Setter Property="TextColor" Value="Black"/>
-	<Setter Property="FontAttributes" Value="Bold"/>
-	<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-	<Setter Property="VerticalOptions" Value="FillAndExpand"/>
-	<Setter Property="HorizontalTextAlignment" Value="Center"/>
-	<Setter Property="VerticalTextAlignment" Value="Center"/>
-</Style>
- ```
+<snippet id='datepicker-style-spinner-header-style' />
 
-	**Define the SelectionHighlightStyle**
+**Define the SelectionHighlightStyle**
 
- <snippet id='datepicker-style-selection-highlight-style' />
- ```XAML
-<Style TargetType="telerik:RadBorder" x:Key="selectionHighlightStyle">
-	<Setter Property="BorderColor" Value="#00B5DC"/>
-	<Setter Property="BorderThickness" Value="1"/>
-	<Setter Property="Padding" Value="0,6,0,6"/>
-	<Setter Property="HeightRequest" Value="40"/>
-	<Setter Property="VerticalOptions" Value="Center"/>
-</Style>
- ```
+<snippet id='datepicker-style-selection-highlight-style' />
 
-	**Define the PlaceholderLabelStyle**
+**Define the PlaceholderLabelStyle**
 
- <snippet id='datepicker-style-placeholder-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="placeholderLabelStyle">
-	<Setter Property="TextColor" Value="#4A4949"/>
-	<Setter Property="VerticalTextAlignment" Value="Center"/>
-	<Setter Property="HorizontalTextAlignment" Value="Center"/>
-	<Setter Property="HeightRequest" Value="50"/>
-</Style>
- ```
+<snippet id='datepicker-style-placeholder-label-style' />
 
-	**Define the DisplayLabelStyle**
+**Define the DisplayLabelStyle**
 
- <snippet id='datepicker-style-display-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="displayLabelStyle">
-	<Setter Property="TextColor" Value="Black"/>
-	<Setter Property="VerticalTextAlignment" Value="Center"/>
-	<Setter Property="HorizontalTextAlignment" Value="Center"/>
-	<Setter Property="HeightRequest" Value="50"/>
-</Style>
- ```
+<snippet id='datepicker-style-display-label-style' />
 
-	**Define the PopupViewStyle**
+**Define the PopupViewStyle**
 
- <snippet id='datepicker-style-popupview-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupContentView" x:Key="popupViewStyle">
-	<Setter Property="BackgroundColor" Value="White"/>
-	<Setter Property="WidthRequest" Value="270"/>
-</Style>
- ```
+<snippet id='datepicker-style-popupview-style' />
 
-	**Define the HeaderStyle**
+**Define the HeaderStyle**
 
- <snippet id='datepicker-style-header-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupHeaderView" x:Key="headerStyle">
-	<Setter Property="BackgroundColor" Value="#00B5DC"/>
-	<Setter Property="HeightRequest" Value="60"/>
-	<Setter Property="Margin" Value="0"/>
-	<Setter Property="Padding" Value="0"/>
-	<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-	<Setter Property="VerticalOptions" Value="FillAndExpand"/>
-</Style>
- ```
+<snippet id='datepicker-style-header-style' />
 
-	**Define the HeaderLabelStyle**
+**Define the HeaderLabelStyle**
 
- <snippet id='datepicker-style-header-label-style' />
- ```XAML
-<Style TargetType="Label" x:Key="headerLabelStyle">
-	<Setter Property="TextColor" Value="White"/>
-	<Setter Property="HorizontalOptions" Value="Center"/>
-	<Setter Property="VerticalOptions" Value="Center"/>
-	<Setter Property="FontSize" Value="Title"/>
-</Style>
- ```
+<snippet id='datepicker-style-header-label-style' />
 
-	**Define the FooterStyle**
+**Define the FooterStyle**
 
- <snippet id='datepicker-style-footer-style' />
- ```XAML
-<Style TargetType="telerikInput:PickerPopupFooterView" x:Key="footerStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-</Style>
- ```
+<snippet id='datepicker-style-footer-style' />
 
-	**Define the AcceptButtonStyle**
+**Define the AcceptButtonStyle**
 
- <snippet id='datepicker-style-accept-button-style' />
- ```XAML
-<Style TargetType="Button" x:Key="acceptButtonStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-	<Setter Property="Text" Value="OK"/>
-	<Setter Property="TextColor" Value="#00B5DC"/>
-</Style>
- ```
+<snippet id='datepicker-style-accept-button-style' />
 
-	**Define the CancelButtonStyle**
+**Define the CancelButtonStyle**
 
- <snippet id='datepicker-style-cancel-button-style' />
- ```XAML
-<Style TargetType="Button" x:Key="cancelButtonStyle">
-	<Setter Property="BackgroundColor" Value="Transparent"/>
-	<Setter Property="Text" Value="X"/>
-	<Setter Property="TextColor" Value="#00B5DC"/>
-</Style>
- ```
+<snippet id='datepicker-style-cancel-button-style' />
 
-1. In addition, add the following namespaces:
+
+In addition, add the following namespaces:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"

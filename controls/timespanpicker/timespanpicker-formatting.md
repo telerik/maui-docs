@@ -41,18 +41,7 @@ The available standard time-span format strings that can be set to the `SpinnerF
 
 The available custom time span format strings that can be set to the `SpinnerFormat` and `DisplayStringFormat` properties are described in the table below:
 
-| Supported Custom TimeSpan Format Strings|
-| -------- |
-| `"d"` |
-| `"dd"` |
-| `"ddd"` |
-| `"dddd"` |
-| `"h"` |
-| `"hh"` |
-| `"m"` |
-| `"mm"` |
-| `"s"` |
-| `"ss"` |
+The Supported Custom TimeSpan Format Strings are: `"d"`, `"dd"`, `"ddd"`, `"dddd"`, `"h"`, `"hh"`, `"m"`, `"mm"`, `"s"`, `"ss"`.
 
 >important You can set only short [Custom TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) to the TimeSpanPicker control.
 
@@ -62,14 +51,7 @@ When the `SpinnerFormat` is set and the device culture is changed, the separator
 
 The following table lists the available separators:
 
-| Supported Separator Formats |
-| -------- |
-| `"-"` |
-| `"."` |
-| `","` |
-| `" "` |
-| `":"` |
-| `"/"` |
+The Supported TimeSpan Format Separators are: `"-"`, `"."`, `","`, `" "`, `":"`,`"/"`.
 
 ## See Also
 

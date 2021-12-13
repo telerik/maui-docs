@@ -18,22 +18,21 @@ The `DisplayStringFormat` property defines the format of the string that will be
 
 The following example demonstrates how to set the `DisplayStringFormat` definition.
 
-1. Define the control and the `DisplayStringFormat`.
+Define the control and the `DisplayStringFormat`.
 
- <snippet id='datepicker-keyfeatures-date-defaulthighlighted' />
- ```XAML
+```XAML
 <telerikInput:RadDatePicker DefaultHighlightedDate="2020,05,15"
                             DisplayStringFormat="yyyy/MMM/dd"
                             Placeholder="Pick a date!"
                             SpinnerFormat="dd/MMM/yyyy"
                             AreSpinnerHeadersVisible="False"/>
- ```
+```
 
-1. Add the following namespace:
+Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```
 
 ## Spinner Format
 
@@ -59,17 +58,7 @@ The available Standard Date Format Strings, which can be set to the `SpinnerForm
 
 The available Custom Date Format Strings, which can be set to the `SpinnerFormat` and `DisplayStringFormat` properties, are described in the following table.
 
-| Supported Custom Date Format Strings|
-| -------- |
-| `"d"` |
-| `"dd"` |
-| `"M"` |
-| `"MM"` |
-| `"MMM"` |
-| `"MMMM"` |
-| `"y"` |
-| `"yyy"` |
-| `"yyyy"` |
+The Supported Custom Date Format Strings are: `"d"`, `"dd"`, `"M"`, `"MM"`, `"MMM"`, `"MMMM"`, `"y"`, `"yyy"`, `"yyyy"`.
 
 >important Currently, the DatePicker does not support any standard date formats, which contain a long date inside them. For more information, refer to the official Microsoft documentation on [Standard Date Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
@@ -77,14 +66,7 @@ The available Custom Date Format Strings, which can be set to the `SpinnerFormat
 
 When `SpinnerFormat` is set and the device culture is changed, the separators used for the format string won't be changed:
 
-| Supported Format Separators |
-| -------- |
-| `"-"` |
-| `"."` |
-| `","` |
-| `" "` |
-| `":"` |
-| `"/"` |
+The Supported Date Format Separators are: `"-"`, `"."`, `","`, `" "`, `":"`,`"/"`.
 
 ## Examples
 

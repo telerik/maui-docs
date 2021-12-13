@@ -16,7 +16,6 @@ The `Date`(`DateTime?`) proprty defines the current date selection. Its default 
 
 The following example demonstrates how to set the `Date` property.
 
-<snippet id='datepicker-keyfeatures-date-spinnerformat' />
 ```XAML
 <telerikInput:RadDatePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>

@@ -31,9 +31,6 @@ Before adding the TimePicker, you need to:
  ```XAML
 <telerikInput:RadTimePicker />
  ```
- ```C#
-var timePicker = new RadTimePicker();
- ```
 
 1. Add the following namespace:
 
@@ -63,6 +60,9 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 	}
  }           
  ```
+
+
+
 
 ## See Also
 
