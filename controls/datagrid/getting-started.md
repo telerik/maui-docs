@@ -68,21 +68,21 @@ The DataGrid provides UI virtualization, so it requires its visual parent to pro
 * Positioning the DataGrid inside a StackLayout which is wrapped in a ScrollView.
 * Positioning the DataGrid inside a ScrollView.
 
-1. Now that you have added the control to your view, you need to make sure that is properly loaded with the required data.
+Now that you have added the control to your view, you need to make sure that is properly loaded with the required data.
 
-  By default, the DataGrid will auto-generate rows depending on the number of objects in the collection set as its `ItemsSource`. For demonstration purposes, you will use the following simple business objects:
+By default, the DataGrid will auto-generate rows depending on the number of objects in the collection set as its `ItemsSource`. For demonstration purposes, you will use the following simple business objects:
 
- ```C#
+```C#
 public class Data
 {
 	public string Country { get; set; }
 	public string Capital { get; set; }
 }
- ```
+```
 
-1. After you have created your collection of custom objects, you have to assign it to the `ItemsSource` property of the DataGrid:
+After you have created your collection of custom objects, you have to assign it to the `ItemsSource` property of the DataGrid:
 
- ```C#
+```C#
 this.dataGrid.ItemsSource = new List<Data>
 {
 	new Data { Country = "India", Capital = "New Delhi"},
@@ -90,7 +90,7 @@ this.dataGrid.ItemsSource = new List<Data>
 	new Data { Country = "Nigeria", Capital = "Abuja" },
 	new Data { Country = "Singapore", Capital = "Singapore" }
 };
- ```
+```
 
 ## See Also
 

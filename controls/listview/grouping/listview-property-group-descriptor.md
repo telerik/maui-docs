@@ -116,7 +116,7 @@ xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;
  ```
 
 
->important For a **Property Group Descriptor** demo, refer to the **ListView/Bindable Collections** folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}).
+>important For a **Property Group Descriptor** demo, refer to the **ListView/Grouping** folder of the [SDKBrowser .NET MAUI application]({%slug maui-demo-app%}).
 
 ## See Also
 

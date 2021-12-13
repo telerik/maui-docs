@@ -16,18 +16,17 @@ The NumericInput provides the `Value`(`double?`) property, which allows you to s
 
 The following example demonstrates how to use `Value`.
 
-1. Define the NumericInput in XAML with the `Value` property set:
+Define the `RadNumericInput` instance in XAML with the `Value` property set:
 
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Value="12" />
- ```
+```
 
-1. Add the namespace:
+Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the end result.
 
@@ -39,18 +38,9 @@ The `Value` property is of type nullable double, which enables the NumericInput 
 
 The following example demonstrates how to set the `Value` property to accept `null` values.
 
-1. Define the NumericInput.
-
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Value="{x:Null}" />
- ```
-
-1. Add the namespace:
-
- ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the result:
 
@@ -61,22 +51,14 @@ The following image shows the result:
 You can restrict the input using the `Minimum` and `Maximum` properties:
 
 * `Minimum`(`double`)&mdash;The minimum value that can be insert in the numeric input.
+
 * `Maximum`(`double`)&mdash;The maximum value that can be insert in the numeric input.
 
 The following example demonstrates ho to set a range.
 
-1. Define the NumericInput.
-
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Minimum="-5" Maximum="15" />
- ```
-
-1. Add the namespace:
-
- ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the end result:
 
@@ -88,18 +70,9 @@ The `Step` property defines the value step that will be applied to the input val
 
 The following example demonstrates how to set a step.
 
-1. Define the NumericInput.
-
- ```XAML
+```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" Step="10" />
- ```
-
-1. Add the namespace:
-
- ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
+```
 
 The following image shows the end result:
 

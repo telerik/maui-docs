@@ -13,21 +13,26 @@ The CheckBox enables you to define its state as Checked, Unchecked, or Indetermi
 The state is controlled through the `IsChecked` property, which is of the `bool?` type. You can set all states either through the UI or programmatically. The **Indeterminate** state can be applied through the UI only for three-state checkboxes.
 
 * Checked state&mdash;When `IsChecked` is set to `true`.
+
 * (Default) Unchecked state&mdash;When `IsChecked` is set to `false`.
+
 * Indeterminate state&mdash;When `IsChecked` is `null`.
+
 * `IsThreeState` (`bool`)&mdash;Defines whether you can apply the Indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the Indeterminate state along with the Checked and Unchecked states. By default, `IsThreeState` is set to `false`.
 
 The following example demonstrates how to set the `IsChecked` property.
 
-1. Define the checked state of the CheckBox.
+Define the checked state of the CheckBox.
 
- ```XAMl
-<telerikPrimitives:RadCheckBox x:Name="checkboxIsChecked" IsChecked="{Binding IsChecked}" IsThreeState="True" />
- ```
+```XAML
+<telerikPrimitives:RadCheckBox x:Name="checkboxIsChecked" 
+							   IsChecked="{Binding IsChecked}" 
+							   IsThreeState="True" />
+```
 
-1. Set the `ViewModel`.
+Set the `ViewModel`.
 
- ```C#
+```C#
 public class ViewModel : NotifyPropertyChangedBase
 {
     private bool? isChecked;
@@ -45,15 +50,13 @@ public class ViewModel : NotifyPropertyChangedBase
         }
     }
 }
- ```
-
+```
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
 
 ![CheckBox Key Feature Example](images/checkbox-features.png)
 
-
 ## See Also
 
-- [Setting the Checkbox Dimensions]({% slug checkbox-size %})
-- [Styling Options of the Checkbox]({% slug checkbox-styling%})
+- [Setting the Checkbox Size]({%slug checkbox-size %})
+- [Styling Options of the Checkbox]({%slug checkbox-styling%})

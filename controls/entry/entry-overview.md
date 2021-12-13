@@ -16,10 +16,15 @@ slug: entry-overview
 ## Key Features
 
 * [Watermark]({% slug entry-text-appearance %}#adding-watermarks)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input.
+
 * [Keyboard support]({% slug entry-text-appearance %}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
+
 * [Non-editable (Read-only) state]({% slug entry-text-appearance %}#setting-the-read-only-state)&mdash;You can define whether users will be able to edit the Entry or not by setting a single property.
+
 * [Maximum number of symbols]({% slug entry-text-appearance %}#defining-the-max-length)&mdash;The Entry enables you to set a maximum length for its input.
+
 * [Text selection]({% slug entry-text-selection %})&mdash;You can specify the starting position of the selected text as well as the number of characters of the selected Entry input.
+
 * [Border styles]({% slug entry-styling %})&mdash;You can also customize the appearance of the border around the Entry input and set the font styles of the text.
 
 ## See Also

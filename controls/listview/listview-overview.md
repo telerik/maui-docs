@@ -15,12 +15,19 @@ slug: listview-overview
 ## Key Features
 
 * [Selection]({% slug listview-features-selection %})&mdash;The ListView supports both single and multiple selections and you can also select items on tap and hold gestures.
+
 * [Different layouts and orientation]({% slug listview-features-layouts %})&mdash;You can choose between the linear and grid layout as well as define the scroll direction of the ListView layout.
-* [Items template selector]({% slug listview-item-template-selector %})&mdash;The ListView control exposes an properties for applying different templates to each item based on a specific condition.  
+
+* [Items template selector]({% slug listview-item-template-selector %})&mdash;The ListView control exposes an properties for applying different templates to each item based on a specific condition. 
+ 
 * [Reorder Items]({% slug listview-features-reorder-items %})&mdash;The ListView allows end users to reorder ListView items through dragging and dropping.
+
 * [Load on demand]({% slug listview-features-load-on-demand %})&mdash;In addition to the built-in UI virtualization, the ListView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded before the user reaches the bottom of the ListView.
+
 * [Item Swipe]({% slug listview-features-cell-swipe %})&mdash;The item swipe feature enables end users to swipe an item to reveal its actionable content.
+
 * [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them in accordance with your criteria.
+
 * [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its appearance.
 
 ## See Also

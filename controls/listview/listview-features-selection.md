@@ -160,8 +160,8 @@ this.InitializePickers();
 1. Implement the `InitializePickers` and `SelectionChanged` events:
 
  ```C#
-private void InitializePickers()
-{
+ private void InitializePickers()
+ {
     selectionModePicker.Items.Add("None");
     selectionModePicker.Items.Add("Single");
     selectionModePicker.Items.Add("Multiple");
@@ -173,9 +173,8 @@ private void InitializePickers()
     selectionGesturePicker.SelectedIndex = 0;
 }
 
-// >> listview-features-onselectionchanged-csharp
-private void OnSelectionGestureChanged(object sender, EventArgs e)
-{
+ private void OnSelectionGestureChanged(object sender, EventArgs e)
+ {
     switch ((sender as Picker).SelectedIndex)
     {
         case 0:
@@ -185,10 +184,10 @@ private void OnSelectionGestureChanged(object sender, EventArgs e)
             listView.SelectionGesture = SelectionGesture.Hold;
             break;
     }
-}
+ }
 
-private void OnSelectionModeChanged(object sender, EventArgs e)
-{
+ private void OnSelectionModeChanged(object sender, EventArgs e)
+ {
     switch ((sender as Picker).SelectedIndex)
     {
         case 0:
@@ -201,14 +200,14 @@ private void OnSelectionModeChanged(object sender, EventArgs e)
             listView.SelectionMode = Telerik.XamarinForms.DataControls.ListView.SelectionMode.Multiple;
             break;
     }
-}
+ }
  ```
 
 The following image shows how the ListView looks like on different platforms when multiple items are selected:
 
 ![MultipleSelection](images/listview-features-selection-multiple.png "Multiple Selection")
 
->important For a sample Selection example, refer to the **ListView/Features** folder of the [SDK Browser MAUI application]({%slug developer-focused-examples%}#sdk-browser-application).
+>important For a sample Selection example, refer to the **ListView** folder of the [SDK Browser .NET MAUI application]({%slug maui-demo-app%}).
 
 ## See Also
 

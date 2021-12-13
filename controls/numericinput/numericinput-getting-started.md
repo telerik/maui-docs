@@ -33,19 +33,35 @@ Before adding the NumericInput, you need to:
  ```XAML
 <telerikInput:RadNumericInput x:Name="numericInput" />
  ```
- ```C#
-var numericInput = new RadNumericInput();
- ```
 
 1. Add the following namespase:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
  ```
- ```C#
-using Telerik.XamarinForms.Input;
- ```
+ 
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
+ ```C#
+ using Telerik.Maui.Controls.Compatibility;
+
+ public static class MauiProgram
+ {
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+ }           
+ ```
 
 ## See Also
 

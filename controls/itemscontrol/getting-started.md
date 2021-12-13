@@ -64,4 +64,5 @@ xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.
 ## See Also
 
 - [Setting the Items Source]({% slug itemscontrol-configuration%}#setting-the-items-source)
+
 - [Using the Items Template]({% slug itemscontrol-configuration%}#customizing-the-appearance)
