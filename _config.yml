@@ -159,6 +159,18 @@ navigation:
         position: 15
         ## End ListView Sub-Folders
     ## End ListView
+    ## Map
+    controls/map:
+        title: "Map"
+        ## Map Sub-Folders
+    controls/map/layers:
+        title: "Layers"
+        position: 3
+    controls/map/styling:
+        title: "Styling"
+        position: 9
+        ## End Map Sub-Folders
+    ## End Map
     ## MaskedEntry
     controls/maskedentry:
         title: "MaskedEntry"
@@ -282,6 +294,7 @@ intro_columns:
         "Barcode": "barcode-overview"
         "Charts": "chart-overview"
         "Gauge": "gauge-overview"
+        "Map": "map-overview"
         "Rating": "rating-overview"
 -
   categories:
