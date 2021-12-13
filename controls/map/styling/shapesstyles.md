@@ -1,22 +1,22 @@
 ---
 title: Shapes Styling
-page_title: Xamarin Map Documentation | Shapes Styling
-description: Check our &quot;Shapes Styling&quot; documentation article for Telerik Map for Xamarin control.
+page_title: .NET MAUI Map Documentation | Shapes Styling
+description: Review the Shapes Styling option of the .NET MAUI Map control.
 position: 1
 slug: map-styling-shapesstyles
 ---
 
 # Shapes Styling
 
-The **ShapefileLayer** exposes **ShapeStyle**/**SelectedShapeStyle** as well as a **ShapeStyleSelector** properties that will help achieve the desired look &amp; feel of the shapes on the map.
+The Map `ShapefileLayer` exposes `ShapeStyle` property which helps you to style the shapes, as well as the selected shapes using the `SelectedShapeStyle` proeprty. A conditional styling is applied using the `ShapeStyleSelector` proeprty.
 
 ## Shapes Styles
 
-**ShapeStyle** and **SelectedShapeStyle** properties are of type *MapShapeStyle* which provides the following styling options for the shapes:
+`ShapeStyle` and `SelectedShapeStyle` properties of type( `MapShapeStyle`) provides the following styling options for the shapes:
 
-* StrokeWidth;
-* StrokeColor;
-* FillColor.
+* `StrokeWidth`
+* `StrokeColor`
+* `FillColor`
 
 The snippet below shows how ShapeStyle property can be applied:
 
@@ -26,33 +26,39 @@ Here is the result:
 
 ![Map Shapes Styling](../images/map_styling_shapestyle.png)
 
-where the **Source** and the **DataSource** of the MapShapeReader should be set to a .shp and .dbf files, respectively:
+where the `Source` and the `DataSource` of the MapShapeReader should be set to a .shp and .dbf files, respectively:
 
-<snippet id='map-labels-settintsource' />
+<snippet id='map-interactionmode-settintsource' />
 
-## Shapes StyleSelector
+## Style Selector for Shapes
 
-Through the **ShapeStyleSelector** property of the ShapefileLayer you could implement conditional styling. 
+Using the `ShapeStyleSelector` property of the `ShapefileLayer` you could implement conditional styling. 
 
 The example below shows how to apply different styles to shapes according to certain property value of each shape.
 
-First, create the selector class that should inherit from **MapShapeStyleSelector**:
+1. First, create the selector class which inherit from `MapShapeStyleSelector`:
 
-<snippet id='map-shapesstyleselector-code' />
+ <snippet id='map-shapesstyleselector-code' />
 
-Then, define the selector with the Styles as a resource inside a ResourceDictionary:
+1. De fine the selector with the Styles as a resource inside a ResourceDictionary:
 
 <snippet id='map-styling-shapeslstyleselector-styles' />
 
-Lastly, add the definition of the RadMap control with the PopulationShapeStyleSelector applied;
+1. Add the definition of the RadMap control with the PopulationShapeStyleSelector applied;
 
 <snippet id='map-styling-shapeslstyleselector-xaml' />
+
+1. Add the namespace:
+
+ ```XAML
+xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.XamarinForms.Map"
+ ```
 
 Check the result in the screenshot below:
 
 ![Map ShapeStyleSelector](../images/map_styling_shapestyleselector.png)
 
->important Sample Shapes Styling examples can be found in the Map/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+>note Sample Shapes Style Selector examples can be found in the Map/Features folder of the [SDK .NET MAUI Demo application]({%slug maui-demo-app%}).
 
 ## See Also
 
