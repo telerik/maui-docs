@@ -62,5 +62,4 @@ Before adding the TabView, you need to:
 	}
  }           
  ```
-
-## See Also
+ 
