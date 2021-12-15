@@ -1,65 +1,66 @@
 ---
 title: Getting Started
-page_title: Getting Started with Xamarin.Forms TabView Control
-description: Check our &quot;Getting Started&quot; documentation article for Telerik TabView for Xamarin control.
+page_title: .NET MAUI TabView Documentation | Getting Started
+description: "Get started with the Telerik UI for .NET MAUI TabView and add the control to your .NET MAUI project."
 position: 1
 slug: tabview-getting-started
 ---
 
 # Getting Started
 
-This article will guide you through the steps needed to add a basic **RadTabView** control in your application.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI TabView by adding the control to your project.
 
-* [Setting up the app](#1-setting-up-the-app)
-* [Adding the required Telerik references](#2-adding-the-required-telerik-references)
-* [Adding RadTabView control](#3-adding-radtabview-control)
+At the end, you will be able to achieve the following result.
 
-
-## 2. Adding the required Telerik references
-
-You have two options:
-
-* Add the Telerik UI for Xamarin Nuget package following the instructions in [Telerik NuGet package server]({%slug telerik-nuget-server%}) topic.
-
-If you don't want to add the all Telerik.UI.for.Xamarin nuget package, you have the option to add a separate nuget package. For RadTabView control you have to install the **Telerik.UI.for.Xamarin.Primitives** nuget package. This nuget will automatically refer the *Telerik.UI.for.Xamarin.Common* and *Telerik.UI.for.Xamarin.SkiaSharp* nuget packages.
-
-* Add the references to Telerik assemblies manually, check the list below with the required assemblies for **RadTabView** component:
-
-| Platform | Assemblies |
-| -------- | ---------- |
-| Portable | Telerik.XamarinForms.Common.dll <br/> Telerik.XamarinForms.Primitives.dll |
-| Android  | Telerik.XamarinForms.Common.dll <br/> Telerik.XamarinForms.Primitives.dll <br />Telerik.Xamarin.Android.Common.dll <br /> Telerik.Xamarin.Android.Primitives.dll |
-| iOS      | Telerik.XamarinForms.Common.dll <br/> Telerik.XamarinForms.Primitives.dll |
-| UWP      | Telerik.XamarinForms.Common.dll <br/> Telerik.XamarinForms.Primitives.dll |
-
-## 3. Adding RadTabView control
-
-You could use one of the following approaches:
-
-
-	
-#### Create the control definition in XAML or C#.
-
-The snippet below shows a simple RadTabView definition:
-
-<snippet id='tabview-getting-started-xaml'/>
-<snippet id='tabview-getting-started-csharp'/>
-
-In addition to this, you need to add the following namespace:
-
-<snippet id='xmlns-telerikprimitives'/>
-<snippet id='ns-telerikprimitives'/>
-
-To display something in the tab you can define [TabViewItem] elements in its **Items** collection.
-
-To define the header of a TabViewItem you can use its **HeaderText** property as in the example. If you need to show a more complex layout you can use the **Header** property.
-
-This is the result:
- 
 ![TabView Getting Started](images/tabview-getting-started.png)
 
->important **SDK Browser** and **QSF** applications contain different examples that show RadTabView's main features. You can find the applications in the **Examples** and **QSF** folders of your local **Telerik UI for Xamarin** installation.
+## Prerequisites
+
+Before adding the TabView, you need to:
+
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+
+## Define the Control
+
+1. When your .NET MAUI application is set up, you are ready to add a TabView control to your page.
+
+ To display something in the tab you can define `TabViewItem` elements in its `Items` collection.
+
+ To define the header of a `TabViewItem` you can use its `HeaderText` property as in the example. If you need to show a more complex layout you can use the `Header` property.
+
+ <snippet id='tabview-getting-started-xaml'/>
+ 
+1. Add the following namespaces:
+
+ ```XAML
+ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+ ```
+
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+
+ ```C#
+ using Telerik.Maui.Controls.Compatibility;
+
+ public static class MauiProgram
+ {
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+ }           
+ ```
 
 ## See Also
-
-

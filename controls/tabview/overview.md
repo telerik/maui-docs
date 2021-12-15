@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Xamarin TabView Documentation | Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik TabView for Xamarin control.
+page_title: .NET MAUI TabView Documentation | Overview
+description: Check our &quot;Overview&quot; documentation article for Telerik TabView for .NET MAUI control.
 description: Overview
 slug: tabview-overview
 tags: tabview, overview
@@ -10,19 +10,21 @@ position: 0
 
 # Overview
 
-**Telerik TabView for Xamarin** is a flexible navigation control that allows you to build tabbed interfaces. Each tabview item has an associated content displayed on selection.
+**Telerik TabView for .NET MAUI** is a flexible navigation control that allows you to build tabbed interfaces. Each tabview item has an associated content displayed on selection.
 
 ![TabView example](images/tabview-overview.png) 
 
-## Key features
+## Key Features
 
-* **Item Selection**: RadTabView exposes selection API which allows you as a developer to extend the navigation per application needs. For more details read the [Selection] topic.
-* **Flexible header and content of the items**: You can easily customize the header and the content of the tabview items. Go to the [TabViewItem] topic for more information on this.
-* **Customizable tab strip area position**: The tab strip can be positioned top or bottom. Go to [TabViewHeaderItem] article.
-* **Support for Scrolling Tabs**: The tab strip area has configuration for scrolling the items inside. For more information go to [TabView Scrolling Tabs] article.
-* RadTabView gives you the ability to **swipe inside the content** in order to change the selected item. This scenario can be achieved with and without using animation. For more details review the [Key Features] article.
-* **Layout option for overflow tabs**: If there are too many items in the TabView control and they cannot fit into the tab strip area, a customizable overflow button will be displayed. 
+* **Item Selection**&mdash;TabView exposes selection API which allows you as a developer to extend the navigation per application needs.
+* **Header Customization**&mdash;TabView provides means for fully customizing the header area containing the tabs - through `HeaderStyle` property you can change its position, orientation and spacing between the tabs, through `HeaderTemplate` property you can completely modify its look &amp; feel.
+* **Various Tabs States**&mdash;
+* **Tabs Customization**&mdash;You can fully customize the appearance of each tab. `TabViewItem` class exposes 
+* **Content Area Customization**&mdash;
+* **Customizable Header Position**: The header area containing the tabs can be positioned top, bottom, left or right. 
+* **Support for Scrolling Tabs**: The header area has configuration for scrolling the items inside. You can control the scrolling behavior through `IsHeaderScrollable` property of the TabView.
+* **Swipe Inside the Content**:&mdash;TabView gives you the ability to swipe inside the content in order to change the selected tab. You can configure the behavior through `IsContentScrollable` property of the TabView.
 
-## See Also
+## Next Steps
 
-- [Getting Started]({%slug tabview-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI TabView]({%slug tabview-getting-started%})
