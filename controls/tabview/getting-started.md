@@ -30,7 +30,7 @@ Before adding the TabView, you need to:
 
  To display something in the tab you can define `TabViewItem` elements in its `Items` collection.
 
- To define the header of a `TabViewItem` you can use its `HeaderText` property as in the example. If you need to show a more complex layout you can use the `Header` property.
+ To define the header of a `TabViewItem` you can use its `HeaderText` property as in the example.
 
  <snippet id='tabview-getting-started-xaml'/>
  
