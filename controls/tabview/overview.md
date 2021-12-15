@@ -21,7 +21,6 @@ position: 0
 * **Image suppor in the header**&mdash;Easily add images inside the header. In addition you can controls the position of the image and the spacing between the image and the header text.
 * **Change the header position** to top, bottom, left or right. 
 * **Tabs Customization**&mdash;You can fully customize the appearance of each tab. Each tab has a header and content. The `TabViewItem` class gives you the option to set Tab's header text, add an image which will be displayed in the header, add a content and decide whether the tab will be selected, visible and enabled.
-* **Swipe Inside the Content**:&mdash;TabView gives you the ability to swipe inside the content in order to change the selected tab. You can configure the behavior through `IsContentSwipable` property of the TabView.
 
 ## Next Steps
 
