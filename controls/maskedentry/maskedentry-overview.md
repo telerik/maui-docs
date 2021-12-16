@@ -30,6 +30,8 @@ slug: maskedentry-overview
 
 * [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works with respect to the target device culture.
 
+* [Localization support]({%slug maskedentry-localization%})&mdash;translate the text displayed as a validation error message to other languages when the device culute is changed.
+
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI MaskedEntry]({%slug maskedentry-getting-started%})

@@ -4,7 +4,7 @@ page_title: Telerik UI for .NET MAUI Localization and Globalization
 description: Learn how you can utilize the localization and globalization features of the Telerik UI for .NET MAUI controls.
 slug: globalization-localization
 tags: localization, globalization, datepicker, maskedentry, timepicker, timespanpicker, culture, device culture, numeric input.
-position: 6
+position: 9
 ---
 
 # Globalization and Localization 
