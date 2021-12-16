@@ -11,7 +11,7 @@ position: 9
 
 Localization and Globalization is the process of designing and developing your application in such a way that it adapts to different languages and culture configurations. 
 
-This topic provides an overview on how you could utilize localization and globalization feature of Telerik UI for Xamarin components.
+This topic provides an overview on how you could utilize localization and globalization feature of Telerik UI for .NET MAUI controls.
 
 ## Globalization
 
@@ -91,7 +91,7 @@ using Telerik.Maui;
 
 The second option for applying localization is through setting a custom `ResourceManager`.
 
-In the same way as the built-in mechanism for localizing .NET applications uses [RESX files](https://docs.microsoft.com/en-us/dotnet/core/extensions/create-resource-files) and the classes in the `System.Resources` and `System.Globalization` namespaces, Telerik Xamarin controls rely on similar setup to achieve the functionality.
+In the same way as the built-in mechanism for localizing .NET applications uses [RESX files](https://docs.microsoft.com/en-us/dotnet/core/extensions/create-resource-files) and the classes in the `System.Resources` and `System.Globalization` namespaces, Telerik .NET MAUI controls rely on similar setup to achieve the functionality.
 
 You should add different resource `.RESX` files according to the different languages/cultures which you would like to use. Imagine that you want to translate your control, MaskedEntry for example, into English and German. You will have to add two new resource files to your .NET MAUI project with `Embedded resource` Build action:
 
@@ -110,8 +110,6 @@ TelerikLocalizationManager.Manager.ResourceManager = MaskResource.ResourceManage
 
 InitializeComponent();
 ```
-
-And the RadMaskedEntry 
 
 >important You should set the custom manager before the `InitializeComponent()` method is invoked otherwise the default values will be applied to the RadMaskedEntry.
 
