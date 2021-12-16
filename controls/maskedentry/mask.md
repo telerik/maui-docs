@@ -1,60 +1,60 @@
 ---
-title: Mask
-page_title: .NET MAUI MaskedEntry Documentation | Mask
-description: Check out the Telerik MaskedEntry for .NET MAUI Mask feature that constrain the user input.
+title: Setting the Mask
+page_title: .NET MAUI MaskedEntry Documentation | Setting the Mask
+description: "Learn how to restrict user input by using the Mask property of the Telerik UI for .NET MAUI MaskedEntry."
 position: 3
 slug: maskedentry-mask
 ---
 
-# Mask
+# Setting the Mask
 
-Telerik MaskedEntry for .NET MAUI exposes a `Mask`(`string`) property. The property is a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters depending on the used Mask Type - numeric, text, regex.
+The Telerik MaskedEntry for .NET MAUI exposes a `Mask`(`string`) property, which represents a string of characters restricting user input. The `Mask` property can contain literals and special mask characters depending on the used mask type (numeric, text, or regex).
 
-## Mask for NumericMaskedEntry 
+## Mask for the NumericMaskedEntry
 
-You can easily set one of the [Standard Numeric Format Specifier](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings#standard-format-specifiers) to the `Mask` property of the RadNumericMaskedEntry. 
+You can set one of the [Standard Numeric Format Specifiers](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings#standard-format-specifiers) to the `Mask` property of the `RadNumericMaskedEntry`.
 
-**Percent (double) mask:**
+**Setting the Percent (double) Mask**
 
 <snippet id='numericmaskedentry-mask-p-xaml' />
 
-**Fixed (decimal) mask:**
+**Setting the Fixed (decimal) Mask**
 
 <snippet id='numericmaskedentry-mask-f-xaml' />
 
-**Fixed (decimal) mask:**
+**Setting the Fixed (decimal) Mask**
 
 <snippet id='numericmaskedentry-mask-g-xaml' />
-				
-**Decimal (decimal) mask:**
+
+**Setting the Decimal (decimal) Mask**
 
 <snippet id='numericmaskedentry-mask-n-xaml' />
 
-**Standart (long) mask:**
+**Setting the Standard (long) Mask**
 
 <snippet id='numericmaskedentry-mask-d-xaml' />
 
-**Currency (decimal) mask:**
+**Setting the Currency (decimal) Mask**
 
 <snippet id='numericmaskedentry-mask-c-xaml' />
 
-## Mask for TextMaskedEntry
+## Mask for the TextMaskedEntry
 
-If you want to allo usesrs to enter only numbers inside the RadTextMaskedEntry you can apply the following `Mask`:
+To allow users to enter only numbers inside the `RadTextMaskedEntry`, apply the `Mask` for numeric restriction:
 
 <snippet id='textmaskedentry-numbers-xaml' />
 
-And Letters Mask: 
+To allow users to enter only literals inside the `RadTextMaskedEntry`, apply the `Mask` for letter characters restriction:
 
 <snippet id='textmaskedentry-mask-xaml' />
 
 ## Mask for RegexMaskedEntry
 
-You can define a input pattern of your choice and set it to the `Mask` property of the RadRegexMaskedEntry:
+You can define a input pattern of your choice and set it to the `Mask` property of the `RadRegexMaskedEntry`:
 
 <snippet id='regexmaskedentry-xaml' />
 
->tip Mask Types example can be found in the MaskedEntry/MaskTypes folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+>tip For the **Mask Types** example, refer to the **MaskedEntry/MaskTypes** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
 
 ## See Also
 

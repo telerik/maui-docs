@@ -16,19 +16,19 @@ slug: maskedentry-overview
 
 * [Mask types]({%slug maskedentry-masked-types%})&mdash;The MaskedEntry allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used MaskedEntry such as Regex, Numeric, and more.
 
-* [Value property]({%slug maskedentry-value%})&mdash;MaskedEntry returns the user input without the formatting characters.
+* [Value property]({%slug maskedentry-value%})&mdash;The MaskedEntry returns the user input without the formatting characters.
 
-* [Null Values support]({%slug maskedentry-value%}#null-value-support)&mdash;MaskedEntry has a support for null values. 
+* [Null Values support]({%slug maskedentry-value%}#null-value-support)&mdash;The MaskedEntry provides support for null values.
 
-* [Validation UI]({%slug maskedentry-validation%})&mdash;If you entering an input that does not match the mask requrements an error message will be displayed. You can easily customize the error message.
+* [Validation UI]({%slug maskedentry-validation%})&mdash;If the user is entering a value not matching the mask requirements, the MaskedEntry will display an error message, which you can easily customize.
 
-* [Prompt Character]({%slug maskedentry-prompt-character%})&mdash; is displayed in the MaskedEntry control for any mask position that the user has not filled in yet.
+* [Prompt Character]({%slug maskedentry-prompt-character%})&mdash;The MaskedEntry enables you to display a prompt character for any mask position which is not yet filled in by the user.
 
 * [Exhaustive number of events]({%slug maskedentry-events%})&mdash;You can use the events exposed by the MaskedEntry to execute various operations on user interaction such as value changing.
 
 * Keyboard support&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
 
-* [Globalization support]({%slug maskedentry-globalization%})&mdash;develop your application in such a way that it works with respect to the target device culture.
+* [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works with respect to the target device culture.
 
 ## Next Steps
 
