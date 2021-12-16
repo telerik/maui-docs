@@ -69,9 +69,9 @@ To apply localization to your controls just instantiate your custom TelerikLocal
 
 1. Add the namespace:
 
-```C#
+ ```C#
 using Telerik.Maui;
-```
+ ```
 
 1. Set it as the `TelerikLocalizationManager.Manager`:
 
