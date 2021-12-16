@@ -1,14 +1,14 @@
 ---
-title: User Input Restrictions
-page_title: .NET MAUI MaskedEntry Documentation | User Input Restrictions
+title: Setting the Mask
+page_title: .NET MAUI MaskedEntry Documentation | Setting the Mask
 description: "Learn how to restrict user input by using the Mask property of the Telerik UI for .NET MAUI MaskedEntry."
 position: 3
 slug: maskedentry-mask
 ---
 
-# User Input Restrictions
+# Setting the Mask
 
-The Telerik MaskedEntry for .NET MAUI exposes a `Mask`(`string`) property, which represents a string of characters restricting user input. The `Mask` property may contain literals and special mask characters depending on the used mask type (numeric, text, or regex).
+The Telerik MaskedEntry for .NET MAUI exposes a `Mask`(`string`) property, which represents a string of characters restricting user input. The `Mask` property can contain literals and special mask characters depending on the used mask type (numeric, text, or regex).
 
 ## Mask for the NumericMaskedEntry
 
