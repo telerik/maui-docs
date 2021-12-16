@@ -96,7 +96,7 @@ The following image shows a ListView with its `ReorderItemStyle` applied.
 
 ![](../images/listview_features_reorderItemstyle.png)
 
->important * For a **ItemStyles** demo, refer to the **ListView/Styling** folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+>important * For a **ItemStyles** demo, refer to the **ListView/Styling** folder of the [SDK Samples Browser application]({%slug maui-demo-app%}).
 >* The **ListView/Styling** folder of the SDKBrowser MAUI application contains examples on how you can use those properties as `bindable`.
 
 
