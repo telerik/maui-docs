@@ -1,5 +1,5 @@
 ---
-title: Localization and Globalization
+title: Globalization and Localization
 page_title: Telerik UI for .NET MAUI Localization and Globalization
 description: Learn how you can utilize the localization and globalization features of the Telerik UI for .NET MAUI controls.
 slug: globalization-localization
@@ -29,9 +29,12 @@ Localization refers to the translation of application resources into localized v
 
 * MaskedEntry
 
+
+
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 
 * [Localization using Custom Localization Manager](#localization-using-custom-localization-manager)
+
 * [Localization using ResourceManager](#localization-using-resourcemanager)
 
 In both cases you would need to provide a translation of all the resource keys used inside the supported controls.
