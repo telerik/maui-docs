@@ -4,7 +4,7 @@ page_title: Telerik .NET MAUI Demo Applications
 description: "Learn how to download and install the Crypto Tracker Demo App and check out the Telerik UI for .NET MAUI controls library."
 slug: maui-crypto-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application
-position: 1
+position: 2
 ---
 
 # Crypto Tracker Application
@@ -31,32 +31,32 @@ You can start using the Crypto Tracker application in the following ways:
 
 1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022 Preview.
 
-    ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
+![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
 
-    1.2 Wait for the project to restore.
+1. Wait for the project to restore.
 
-    1.3 Select the target framework of the project.
+1. Select the target framework of the project.
 
-    ![Telerik UI .NET MAUI CryptoTracker App](../images/maui-win-ui-project-structure.png)
+![Telerik UI .NET MAUI CryptoTracker App](../images/maui-win-ui-project-structure.png)
 
-    1.4 Select the emulator or device on which you want to run the application.
+1. Select the emulator or device on which you want to run the application.
 	
-	* CryptoTracker application on Android.
+* CryptoTracker application on Android.
 
-    ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
+![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
 	
-	* CryptoTracker application on WinUI.
+* CryptoTracker application on WinUI.
 
-    ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
+![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
 
 ## Run CryptoTracker on macOS
 
 Open the `CryptoTracker.sln` file by using Visual Studio for Mac.
 
-    * CryptoTracker application on iPhone.
+* CryptoTracker application on iPhone.
 
-    ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
+![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
 
-    * CryptoTracker application on MacOS.
+* CryptoTracker application on MacOS.
 
-    ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
+![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
