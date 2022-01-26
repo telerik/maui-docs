@@ -19,7 +19,7 @@ The Line Series supports the following properties:
 
 ## Line Series Example
 
-The following example shows how to create a `RadCartesianChartChart` with a Line Series:
+The following example shows how to create a `RadCartesianChart` with a Line Series:
 
 1. First, create the needed business objects, for example:
 

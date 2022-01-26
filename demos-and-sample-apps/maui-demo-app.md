@@ -40,7 +40,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 1. The **SDKBrowser** folder is located inside the installation folder and you can now use the following subdirectories:
 
     * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
-    * **Examples**&mdash;Contains the SDK application with the Telerik UI for .NET MAUI controls.
+    * **Examples**&mdash;Contains all examples available (`Sdk app` and `CryptoTracker app`) with the Telerik UI for .NET MAUI controls.
     * **LicenseAgreements**&mdash;Provides the product End-User License Agreement (EULA).
     * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
@@ -69,7 +69,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 1. The **SDKBrowserMaui** folder is located inside the installation folder and you can now use the following subdirectories:
 
     * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
-    * **Examples**&mdash;Contains the SDK application with the Telerik UI for .NET MAUI controls.
+    * **Examples**&mdash;Contains all examples available (**Sdk app** and **CryptoTracker app**) with the Telerik UI for .NET MAUI controls.
     * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
     * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 

@@ -27,7 +27,7 @@ Before adding the Chart, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a Barcode control to your page.
+1. When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
 
  ```XAML
 <telerikChart:RadCartesianChart>     
