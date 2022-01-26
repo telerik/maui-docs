@@ -23,6 +23,10 @@ navigation:
         position: 12
 ## End Root Level
 ## Controls Sub-Folders
+    ## BadgeView
+    controls/badgeview:
+        title: "BadgeView"
+    ## End BadgeView
     ## Barcode
     controls/barcode:
         title: "Barcode"
@@ -332,6 +336,7 @@ intro_columns:
   -
     title: "Interactivity & UX"
     items:
+        "BadgeView": "badgeview-overview"
         "Border": "border-overview"
         "BusyIndicator": "busyindicator-overview"
         "Path": "path-overview"
