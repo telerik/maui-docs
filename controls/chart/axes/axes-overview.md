@@ -47,7 +47,7 @@ The following example demonstrates how to define the `LabelFitMode` and the font
 You can customize the labels text with the following properties:
 
 - `LabelFormat`&mdash;Provides a format string that will be used when converting the label value to a string. Each axis type requires different format:
-  - `NumericalAxis`&mdash;Aany numeric format like `"N"`, `"P2"`.
+  - `NumericalAxis`&mdash;Any numeric format like `"N"`, `"P2"`.
   - `DateTimeContinuousAxis`&mdash;Any date format like `"dd-MM-yy"`, `"HH:mm"`.
   - `CategoricalAxis`&mdash;`"{0} items"`, `"{0:N}"`.
 - `LabelFormatter`&mdash;Specifies a custom formatter that implements the `ILabelFormatter` interface to apply a custom rule for setting each label text.
