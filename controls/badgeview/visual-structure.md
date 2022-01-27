@@ -21,7 +21,7 @@ Here are described all visual elements used in the BadgeView for .NET MAUI.
 ## See Also
 
 - [Getting Started]({%slug badgeview-getting-started%})
-- [Key Features]({%slug badgeview-key-features%})
+- [Configuration]({%slug badgeview-configuration%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Badge Types]({%slug badgeview-predefined-badges%})

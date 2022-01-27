@@ -45,7 +45,7 @@ The final result:
 
 ## See Also
 
-- [Key Features]({%slug badgeview-key-features%})
+- [Configuration]({%slug badgeview-configuration%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [CustomizAation]({%slug badgeview-customization%})

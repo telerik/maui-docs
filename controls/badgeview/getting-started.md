@@ -56,7 +56,7 @@ Add the RadBadgeView and set `Content` property and `BadgeText` property.
 
 ## See Also
 
-- [Key Features]({%slug badgeview-key-features%})
+- [Configuration]({%slug badgeview-configuration%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Badge Types]({%slug badgeview-predefined-badges%})

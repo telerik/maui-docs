@@ -52,7 +52,7 @@ Badge Types example can be found in [SDKBrowser Demo Application]({%slug maui-de
 
 ## See Also
 
-- [Key Features]({%slug badgeview-key-features%})
+- [Configuration]({%slug badgeview-configuration%})
 - [Badge Position, Alignment and Offset]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Styling]({%slug badgeview-styling%})

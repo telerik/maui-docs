@@ -27,7 +27,7 @@ In addition you can change the badge look setting different predefined badge typ
 
 - [Visual Structure]({%slug badgeview-visual-structure%})
 - [Getting Started]({%slug badgeview-getting-started%})
-- [Key Features]({%slug badgeview-key-features%})
+- [Configuration]({%slug badgeview-configuration%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Badge Types]({%slug badgeview-predefined-badges%})
