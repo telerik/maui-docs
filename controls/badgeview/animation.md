@@ -11,13 +11,13 @@ slug: badgeview-animation
 
 BadgeView allows you to display the badge indicator using animation. The following properties are related to the Badge animation feature:
 
-* `BadgeAnimationType`(enum of type *Telerik.XamarinForms.Primitives.BadgeAnimationType*): Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default BadgeAnimationType is `Scale`. 
+* `BadgeAnimationType`(enum of type `Telerik.XamarinForms.Primitives.BadgeAnimationType`): Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default BadgeAnimationType is `Scale`. 
 
-* `BadgeAnimationDuration`(*int*): Specifies the duration for the badge animation in milliseconds. The default value is `300`.
+* `BadgeAnimationDuration`(`int`): Specifies the duration for the badge animation in milliseconds. The default value is `300`.
 
-* `BadgeAnimationEasing`(*Microsoft.Maui.Easing*): Specifies the Easing of the badge animation. The default value is `SinInOut`.
+* `BadgeAnimationEasing`(`Microsoft.Maui.Easing`): Specifies the Easing of the badge animation. The default value is `SinInOut`.
 
-* `BadgeStartAnimationCommand`(*System.Windows.Input.ICommand*): Gets the command that starts the badge animation.
+* `BadgeStartAnimationCommand`(`System.Windows.Input.ICommand`): Gets the command that starts the badge animation.
 
 ```C#
 this.badgeView.BadgeStartAnimationCommand.Execute(null);
