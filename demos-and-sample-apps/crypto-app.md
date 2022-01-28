@@ -37,7 +37,7 @@ You can start using the Crypto Tracker application in the following ways:
 
 1. Select the target framework of the project.
 
-![Telerik UI .NET MAUI CryptoTracker App](../images/maui-win-ui-project-structure.png)
+![Telerik UI .NET MAUI CryptoTracker App](../images/crypto-tracker-visual-studio.png)
 
 1. Select the emulator or device on which you want to run the application.
 	

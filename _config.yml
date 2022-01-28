@@ -179,8 +179,8 @@ navigation:
     controls/maskedentry:
         title: "MaskedEntry"
         ## MaskedEntry Sub-Folders
-    controls/maskedentry/maskedtypes:
-        title: "Masked Types"
+    controls/maskedentry/mask-types:
+        title: "Mask Types"
         position: 3
         ## End MaskedEntry Sub-Folders
     ## End MaskedEntry
