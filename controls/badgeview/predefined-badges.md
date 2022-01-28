@@ -14,7 +14,7 @@ slug: badgeview-predefined-badges
 
 You can change the Badge type using one of the predefined badge types. 
 
-* `BadgeType`(of type *Telerik.XamarinForms.Primitives.BadgeType*): Specifies the type of the Badge. The default value is `Default`
+* `BadgeType`(of type `Telerik.XamarinForms.Primitives.BadgeType`): Specifies the type of the Badge. The default value is `Default`
 
 The available options are:  
 
