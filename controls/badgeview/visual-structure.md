@@ -14,9 +14,9 @@ Here are described all visual elements used in the BadgeView for .NET MAUI.
 
 ## Legend
 
-* **BadgeView** - The BadgeView control which includes the Badge marker(indicator) and the content the marker is related to.
-* **Badge** - The marker that can be used for notifications, statuses, etc.
-* **BadgeView Content** - The Badge marker/indicator is positioned based on the content inside the RadBadgeView. Without a content the Badge won't be visualized.
+* **BadgeView**&mdash;The BadgeView control which includes the Badge marker(indicator) and the content the marker is related to.
+* **Badge**&mdash;The marker that can be used for notifications, statuses, etc.
+* **BadgeView Content**&mdash;The Badge marker/indicator is positioned based on the content inside the RadBadgeView. Without a content the Badge won't be visualized.
 
 ## See Also
 

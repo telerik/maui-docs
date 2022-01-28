@@ -11,7 +11,7 @@ position: 2
 
 Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, built with the Telerik Ui for .NET MAUI controls.
 
-![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.gif)
+![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
 You can start using the Crypto Tracker application in the following ways:
 
@@ -31,23 +31,23 @@ You can start using the Crypto Tracker application in the following ways:
 
 1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022 Preview.
 
-![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
+  ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
 
 1. Wait for the project to restore.
 
 1. Select the target framework of the project.
 
-![Telerik UI .NET MAUI CryptoTracker App](../images/crypto-tracker-visual-studio.png)
+  ![Telerik UI .NET MAUI CryptoTracker App](../images/crypto-tracker-visual-studio.png)
 
 1. Select the emulator or device on which you want to run the application.
 	
-* CryptoTracker application on Android.
+ * CryptoTracker application on Android.
 
-![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
+  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
 	
-* CryptoTracker application on WinUI.
+ * CryptoTracker application on WinUI.
 
-![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
+  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
 
 ## Run CryptoTracker on macOS
 
