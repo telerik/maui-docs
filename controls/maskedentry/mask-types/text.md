@@ -1,6 +1,6 @@
 ---
-title: Mask Types
-page_title: .NET MAUI MaskedEntry Documentation | Mask Types
+title: Text Mask
+page_title: .NET MAUI MaskedEntry Documentation | Text Mask
 description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as text."
 position: 2
 slug: maskedentry-text-mask
@@ -16,7 +16,7 @@ The following example demonstrates how to create a `RadTextMaskedEntry`.
 
 The following image shows the end result.
 
-![RadTextMaskedEntry](images/maskedentry_text.png)
+![RadTextMaskedEntry](../images/maskedentry_text.png)
 
 >note For the **Mask Types** example, refer to the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
 
