@@ -17,7 +17,7 @@ In addition you can change the badge look setting different predefined badge typ
 
 ## Key Features
 
-* [Badge Position]({%slug badgeview-position-alignment%}#badge-position) &mdash;BadgeView allows you to specify the badge **Position** based on its content.
+* [Badge Position]({%slug badgeview-position-alignment%}#badge-position)&mdash;BadgeView allows you to specify the badge **Position** based on its content.
 * [Badge Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can easily align the badge according to its content.
 * [Badge Animation]({%slug badgeview-animation%})&mdash;You can choose whether to have an **Animation** while displaying the badge. In addition, you can specify the animation duration and animation easing. 
 * [Badge Types]({%slug badgeview-predefined-badges%})&mdash;You can choose in between various predefined badge types. Also, you have the option to customize and style the badge types.

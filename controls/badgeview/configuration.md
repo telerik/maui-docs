@@ -14,7 +14,7 @@ The purpose of this help article is to show you the main configuration options o
 
 >important The BadgeView will be visualized only if its `Content` property is set. 
 
-* `Content`(of type `Microsoft.Maui.Controls.View`): Defines the content of the BadgeView.
+* `Content`(of type `Microsoft.Maui.Controls.View`)&mdash;Defines the content of the BadgeView.
 
 You must define a content. The Badge marker/indicator is positioned based on the content inside the BadgeView. Without a content the Badge won't be visualized.
 
@@ -72,9 +72,9 @@ Change the Badge visibility state using the `BadgeVisibility` property (enum of 
 
 The available options are:
 
-* `Visible` - The badge marker/indicator is visualized.
-* `Hidden` - The badge marker/indicator is hidden.
-* `Collapsed` - The badge marker/indicator is collapsed.
+* `Visible`&mdash;The badge marker/indicator is visualized.
+* `Hidden`&mdash;The badge marker/indicator is hidden.
+* `Collapsed`&mdash;The badge marker/indicator is collapsed.
 
 The default value of `BadgeVisibility` is `Visible`.
 
@@ -101,7 +101,7 @@ The default value of `BadgeVisibility` is `Visible`.
 
 ## Padding
 
-* `Padding`(`Xamarin.Forms.Thickness`): Defines the inner padding of the BadgeView.
+* `Padding`(`Xamarin.Forms.Thickness`)&mdash;Defines the inner padding of the BadgeView.
 
 ```XAML
  <telerikPrimitives:RadBadgeView BadgeText="Add" Padding="30">

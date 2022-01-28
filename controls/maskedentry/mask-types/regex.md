@@ -1,6 +1,6 @@
 ---
-title: Mask Types
-page_title: .NET MAUI MaskedEntry Documentation | Mask Types
+title: Regex Mask
+page_title: .NET MAUI MaskedEntry Documentation | Regex Mask
 description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as regex."
 position: 4
 slug: maskedentry-regex-mask
@@ -16,7 +16,7 @@ The following example demonstrates how to set the `RadRegexMaskedEntry`.
 
 The following image shows the end result.
 
-![RadRegexMaskedEntry](images/maskedentry_regex.png)
+![RadRegexMaskedEntry](../images/maskedentry_regex.png)
 
 >note For the **Mask Types** example, refer to the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
 

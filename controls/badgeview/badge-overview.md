@@ -36,19 +36,19 @@ xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=
 
 Badge has the following properties: 
 
-* `Text`(`string`): Defines the badge text.
-* `TextColor`(`Microsoft.Maui.Graphics.Color`): Defines the text color of the badge.
-* `TextMargin`(`Microsoft.Maui.Thickness`): Defines the margin of the badge text.
-* `FontSize`(`double`): Defines the badge text font size.
-* `FontFamily`(`string`): Defines the badge text font family.
-* `FontAttributes`(`Microsoft.Maui.Controls.FontAttributes`): Defines the badge text font attributes.
-* `BorderColor`(`Microsoft.Maui.Graphics.Color`): Defines the badge border color.
-* `CornerRadius`(`Microsoft.Maui.Thickness`): Defines the corner radius of the badge border.
-* `BorderThickness`(`Microsoft.Maui.Thickness`): Defines the badge border thickness.
-* `AnimationType`(`Telerik.XamarinForms.Primitives.BadgeAnimationType`). You can choose between `Scale` and `None`. The default value is `Scale`.
-* `AnimationEasing`(`Microsoft.Maui.Easing`): Defines the animation easing. For more details about different easing options check the [Xamarin.Forms.Easing](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/easing) article. The default value is `SinInOut`.
-* `AnimationDuration` in milliseconds(`int`) Defines the animation duration in milliseconds. The default value is 300.
-* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`): Specifies the Badge control template.
+* `Text`(`string`)&mdash;Defines the badge text.
+* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the text color of the badge.
+* `TextMargin`(`Microsoft.Maui.Thickness`)&mdash;Defines the margin of the badge text.
+* `FontSize`(`double`)&mdash;Defines the badge text font size.
+* `FontFamily`(`string`)&mdash;Defines the badge text font family.
+* `FontAttributes`(`Microsoft.Maui.Controls.FontAttributes`)&mdash;Defines the badge text font attributes.
+* `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the badge border color.
+* `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the badge border.
+* `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the badge border thickness.
+* `AnimationType`(`Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
+* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options check the [Xamarin.Forms.Easing](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/easing) article. The default value is `SinInOut`.
+* `AnimationDuration` in milliseconds(`int`)&mdash;Defines the animation duration in milliseconds. The default value is 300.
+* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the Badge control template.
 
 ## Default ControlTemplate
 
