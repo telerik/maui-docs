@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI BadgeView Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI BadgeView control and add the control to your .NET MAUI project."
-position: 1
+position: 2
 slug: badgeview-getting-started
 ---
 
@@ -26,7 +26,7 @@ Before adding the BadgeView, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a **RadBadgeView** control to your page. 
+1. When the your .NET MAUI application is set up, you are ready to add a BadgeView control to your page.
 
  ```XAML
 <telerikPrimitives:RadBadgeView/>
@@ -41,14 +41,12 @@ var badge = new RadBadgeView();
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
  ````
 
-1. Set `Content` and `BadgeText` properties:
+1. Set `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if the `Content` property of the BadgeView is set.
 
->important The Badge marker(indicator) which is part of the RadBadgeView will be visualized only if RadBadgeView `Content` property is set. 
+ <snippet id='badgeview-getting-started-xaml'/>
+ <snippet id='badgeview-getting-started-csharp'/>
 
-<snippet id='badgeview-getting-started-xaml'/>
-<snippet id='badgeview-getting-started-csharp'/>
-
->important BadgeView Getting Started examples can be found in [SDKBrowser Demo Application]({%slug maui-demo-app%}).
+>important For examples on getting started, refer to the [SDKBrowser Demo Application]({%slug maui-demo-app%}).
 
 ## See Also
 

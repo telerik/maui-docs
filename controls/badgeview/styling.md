@@ -1,47 +1,49 @@
 ---
-title: Badge Styling
-page_title: .NET MAUI BadgeView Documentation | Badge Styling
+title: Styling
+page_title: .NET MAUI BadgeView Documentation | Styling
 description: "Check our &quot;Badge Styling&quot; documentation article for Telerik BadgeView for .NET MAUI."
-position: 9
+position: 8
 slug: badgeview-styling
 ---
 
-# Badge Styling
+# Styling
 
-Use the following properties to style the look of the badge:
+The BadgeView exposes a number of properties which allow you to style the appearance of the Badge indicator.
 
-* `BadgeText`(`string`)&mdash;Defines the badge text.
-* `BadgeTextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the badge text color.
-* `BadgeTextMargin`(`Microsoft.Maui.Thickness`)&mdash;Defines the mergin of the badge text.
-* `BadgeFontSize`(`double`)&mdash; Defines the font size of the badge text.
-* `BadgeFontFamily`(`string`)&mdash; Defines the badge text font family.
-* `BadgeFontAttributes`(`Microsoft.Maui.Controls.FontAttributes`)&mdash; Defines the badge text font attributes.
-* `BadgeBackgroundColor`(`Microsoft.Maui.Graphics.Color`)&mdash; Defines the background color of the badge.
-* `BadgeBorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash; Defines the badge border color. 
-* `BadgeBorderThickness`(`Microsoft.Maui.Thickness`)&mdash; Defines the thickness of the badge border.
-* `BadgeCornerRadius`(`Microsoft.Maui.Thickness`)&mdash; Defines the corner radius of the badge border.
-* `BadgeMinimumWidth`(`double`)&mdash; Defines the minimum width of tha badge.
-* `BadgeMinimumHeight`(`double`)&mdash; Defines the minimum height of the badge.
+To style the Badge, use the following options:
 
->important Use `BadgeType` for predefined types for the badge. If you set the `BadgeText` it will override the predefined icon for the badge type.
+* `BadgeText`(`string`)&mdash;Defines the Badge text.
+* `BadgeTextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the Badge text color.
+* `BadgeTextMargin`(`Microsoft.Maui.Thickness`)&mdash;Defines the margin of the Badge text.
+* `BadgeFontSize`(`double`)&mdash;Defines the font size of the Badge text.
+* `BadgeFontFamily`(`string`)&mdash;Defines the font family of the Badge text.
+* `BadgeFontAttributes`(`Microsoft.Maui.Controls.FontAttributes`)&mdash;Defines the font attributes of the Badge text.
+* `BadgeBackgroundColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the background color of the Badge.
+* `BadgeBorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the Badge border color.
+* `BadgeBorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the thickness of the Badge border.
+* `BadgeCornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the Badge border.
+* `BadgeMinimumWidth`(`double`)&mdash;Defines the minimum width of the Badge.
+* `BadgeMinimumHeight`(`double`)&mdash;Defines the minimum height of the Badge.
 
-## Example
+>important To configure the predefined types of the Badge, use the `BadgeType` property. Setting the `BadgeText` will override the predefined icon for the Badge type.
 
-The BadgeView definition with some of the above properties set.
+The following example demonstrates how to style the Badge indicator.
 
-<snippet id='badgeview-styling'/>
+1. Define the BadgeView with some of the above properties.
 
-Use the following namespace:
+ <snippet id='badgeview-styling'/>
 
-```XAML
+1. Use the following namespace:
+
+ ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```
 
-The final result:
+The following image shows the final result.
 
 ![Badge Styling](images/badgeview-badge-styling.png)
 
->tip Badge Styling Example can be found inside the FeaturesCategory folder in  [SDKBrowser Demo Application]({%slug maui-demo-app%}).
+>tip For the Badge Styling Example go to the `FeaturesCategory` folder in the [SDKBrowser Demo Application]({%slug maui-demo-app%}).
 
 ## See Also
 

@@ -10,44 +10,42 @@ slug: badgeview-predefined-badges
 
 # Badge Types
 
+The BadgeView supports a set of Badge indicator types.  
+
 ![Badge Types](images/badgeview-badge-types.png)
 
-You can change the Badge type using one of the predefined badge types. 
+To change and specify the Badge type, use the `BadgeType`(of type `Telerik.XamarinForms.Primitives.BadgeType`) property, which exposes the following options:
 
-* `BadgeType`(of type `Telerik.XamarinForms.Primitives.BadgeType`): Specifies the type of the Badge. The default value is `Default`
+* (Default) `Default`
+* `Available`
+* `Away`
+* `DoNotDisturb`
+* `Offline`
+* `OutOfOffice`
+* `Dot`
+* `Add`
+* `Remove`
+* `Rejected`
 
-The available options are:  
+The following example demonstrates how to set the type of the Badge indicator.
 
-* Default 
-* Available 
-* Away 
-* DoNotDisturb 
-* Offline 
-* OutOfOffice
-* Dot  
-* Add 
-* Remove 
-* Rejected 
+1. Define the BadgeView:
 
-## Example
+ <snippet id='badgeview-badge-types'/>
 
-Define the BadgeView:
+1. Use the following namespace:
 
-<snippet id='badgeview-badge-types'/>
+ ```XAML
+xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"                       
+ ```
 
-Use the following namespace:
-
-```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility" 
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility" 
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"                        
-```
-
-The result:
+The following image shows the final result.
 
 ![Badge Types](images/badgeview-badge-types-example.png)
 
-Badge Types example can be found in [SDKBrowser Demo Application]({%slug maui-demo-app%}), just navigate to BadgeView -> Features category.
+> For the Badge Types example, go to the [SDKBrowser Demo Application]({%slug maui-demo-app%}) and navigate to **BadgeView** -> **Features** category.
 
 
 ## See Also

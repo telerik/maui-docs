@@ -1,23 +1,25 @@
 ---
-title: Badge Animation
-page_title: .NET MAUI BadgeView Documentation | RadBadgeView Animation
+title: Animation
+page_title: .NET MAUI BadgeView Documentation | Animation
 description: "Check our &quot;Badge Animation&quot; documentation article for Telerik BadgeView for .NET MAUI."
 tags: badge, animation, badgeview for .net maui, badge for .net maui
-position: 4
+position: 7
 slug: badgeview-animation
 ---
 
-# Badge Animation
+# Animation
 
-BadgeView allows you to display the badge indicator using animation. The following properties are related to the Badge animation feature:
+The BadgeView allows you to display the Badge indicator with an animation flow.
 
-* `BadgeAnimationType`(enum of type `Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default BadgeAnimationType is `Scale`. 
+The following properties are related to the Badge animation feature:
 
-* `BadgeAnimationDuration`(`int`)&mdash;Specifies the duration for the badge animation in milliseconds. The default value is `300`.
+* `BadgeAnimationType`(enum of type `Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default `BadgeAnimationType` is `Scale`.
 
-* `BadgeAnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies the Easing of the badge animation. The default value is `SinInOut`.
+* `BadgeAnimationDuration`(`int`)&mdash;Specifies the duration for the Badge animation in milliseconds. The default value is `300`.
 
-* `BadgeStartAnimationCommand`(`System.Windows.Input.ICommand`)&mdash;Gets the command that starts the badge animation.
+* `BadgeAnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies the easing of the badge animation. The default value is `SinInOut`.
+
+* `BadgeStartAnimationCommand`(`System.Windows.Input.ICommand`)&mdash;Gets the command that starts the Badge animation.
 
 ```C#
 this.badgeView.BadgeStartAnimationCommand.Execute(null);
@@ -25,11 +27,11 @@ this.badgeView.BadgeStartAnimationCommand.Execute(null);
 
 ## Example
 
-Here is the Animation properties set to the RadBadgeVierw control:
+The following example demonstrates how to set the `Animation` properties to the BadgeView:
 
 <snippet id='badgeview-animation'/>
 
->tip Badge Animation example can be found in [SDKBrowser Demo Application]({%slug maui-demo-app%}), just navigate to BadgeView -> Features category.
+>tip For the Badge Animation example, go to the [SDKBrowser Demo Application]({%slug maui-demo-app%}) and navigate to **BadgeView** -> **Features** category.
 
 ## See Also
 
