@@ -9,7 +9,7 @@ position: 2
 
 # Crypto Tracker Application
 
-Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, built with the Telerik Ui for .NET MAUI controls.
+Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, built with the Telerik UI for .NET MAUI controls.
 
 ![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
