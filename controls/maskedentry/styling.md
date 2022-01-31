@@ -31,6 +31,8 @@ Add the namespace:
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
+
+
 **ClearButtonColor**
 
 ![maskedentry-styling](images/maskedentry-clear-button-color.png)
