@@ -16,7 +16,7 @@ The table below describe the mask characters that can be used with `TextMaskedEn
 |----|----|
 |`0`|Digit, required. This element will accept any single digit between 0 and 9.|
 |`9`|Digit or space, optional.|
-|`#`|Digit or space, optional. If this position is blank in the mask, it will be rendered as the character in the [PromptChar]({%slug winforms/editors/maskededitbox/working-with-radmaskededitbox%}) property. For example, "$######.##" displays as a literal "$", accepts a numeric amount with six places and two places to the right of the decimal, i.e. $123456.56.|
+|`#`|Digit or space, optional. If this position is blank in the mask, it will be rendered as the character in the [PromptChar]({%slug maskedentry-prompt-character%}) property. For example, "$######.##" displays as a literal "$", accepts a numeric amount with six places and two places to the right of the decimal, i.e. $123456.56.|
 |`L`|Accepts letters only.|
 |`?`|Letter, optional.|
 |`&`|Character, required.|
@@ -31,7 +31,7 @@ The table below describe the mask characters that can be used with `TextMaskedEn
 |`<`|Shift down. Converts all characters that follow to lowercase.|
 |`>`|Shift up. Converts all characters that follow to uppercase.|
 |`\`|Disable a previous shift up or shift down.|
-|`\\`|Escape. Escapes a mask character, turning it into a literal. "\\" is the escape sequence for a backslash.|
+|`\\`|Escape. Escapes a mask character, turning it into a literal. `"\\"` is the escape sequence for a backslash.|
 |All other characters|All non-mask elements will appear as themselves within `RadTextMaskedEntry`. Literals always occupy a static position in the mask at run time, and cannot be moved or deleted by the user|
 
 ## Example
