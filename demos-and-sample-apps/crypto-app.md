@@ -13,9 +13,7 @@ Crypto Tracker demo is a real-case crypto application that shows changes in cryp
 
 ![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
-You can start using the Crypto Tracker application in the following ways:
-
-* Explore the CryptoTracek source code directly in the [public GitHub repository]().
+You can start using the Crypto Tracker application in the following way:
 
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/CryptoTracker** folder and open the `CryptoTracker.sln` file;
   The **CryptoTracker** folder is located inside the Examples folder inside the installation folder and you can now use the following subdirectories:
