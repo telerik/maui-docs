@@ -17,11 +17,27 @@ The numeric mask displays the following values:
 * Currency (culture-aware).
 * Fixed point values.
 
-Through the `Mask` property you can specify the exact format of the expected input. The following example demonstrates how to set the `RadNumericMaskedEntry` with the `Currency` value.
+Through the `Mask` property you can specify the exact format of the expected input. The following table lists the supported formats and the resulting type of the value with each format:
+
+| Mask | Numeric Type | Resulting .NET Type |
+| ------ | ------ | ------ |
+| `"C"` or `"c"` | Currency | `decimal` |
+| `"D"` or `"d"` | Standard | `long (int64)` |
+| `"F"` or `"f"` | Fixed-point | `decimal` |
+| `"G"` or `"g"` | Fixed-point | `decimal` |
+| `"N"` or `"n"` | Decimal | `decimal` |
+| `"P"` or `"p"` | Percent | `double` |
+| `Other` | Decimal | `decimal` |
+
+Full list of the supported masks (except "E" and "X") can be found in the following MSDN article: [Standard Numeric masks](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings).
+
+## Example
+
+The following example demonstrates how to set the `RadNumericMaskedEntry` with the `Currency` value:
 
 <snippet id='numericmaskedentry-mask-c-xaml' />
 
-The following image shows the end result.
+And the end result:
 
 ![RadNumericMaskedEntry](../images/maskedentry_numeric.png)
 
