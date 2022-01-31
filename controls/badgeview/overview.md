@@ -9,19 +9,21 @@ slug: badgeview-overview
 
 # Overview
 
-**Telerik UI for .NET MAUI BadgeView** allows you to display badges in your application. Badges can be used for an additional marker for any element: to decorate avatars, navigation menus, or other components in the application when the visual notification is needed.
+**Telerik UI for .NET MAUI BadgeView** allows you to display badges in your application.
 
-In addition you can change the badge look setting different predefined badge types, using templates and various styling options.    
+Badges can be used as an additional marker for any element: to decorate avatars, navigation menus, or other components in the application when the visual notification is needed. In addition, you can change the look of the Badge indicator by setting different predefined Badge types, and by using templates and various styling options.    
 
 ![RadBadgeView Overview](images/badgeview-overview.png)
 
+
 ## Key Features
 
-* [Badge Position]({%slug badgeview-position-alignment%}#badge-position)&mdash;BadgeView allows you to specify the badge **Position** based on its content.
-* [Badge Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can easily align the badge according to its content.
-* [Badge Animation]({%slug badgeview-animation%})&mdash;You can choose whether to have an **Animation** while displaying the badge. In addition, you can specify the animation duration and animation easing. 
-* [Badge Types]({%slug badgeview-predefined-badges%})&mdash;You can choose in between various predefined badge types. Also, you have the option to customize and style the badge types.
-* [Flexible Styling API]({%slug badgeview-styling%}) and [Customization Options]({%slug badgeview-customization%}) – Allows you to change the BadgeView BackgroundColor, Border Thickness and Color. Also, we have exposed API which you can use to fully customize and style the badge indicator.
+* [Badge indicator]({% slug badge-overview %})&mdash;The BadgeView provides a number of features for customizing its Badge indicator.
+* [Position]({%slug badgeview-position-alignment%}#badge-position)&mdash;The BadgeView allows you to specify the `Position` of the Badge indicator based on its content.
+* [Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can easily align the Badge indicator according to its content.
+* [Animation]({%slug badgeview-animation%})&mdash;You can choose whether to have an `Animation` while displaying the Badge indicator. In addition, you can specify the animation duration and animation easing.
+* [Badge types]({%slug badgeview-predefined-badges%})&mdash;You can select the type of a Badge from a set of various predefined options. Also, you can customize and style each Badge type.
+* [Flexible styling API]({%slug badgeview-styling%}) and [customization options]({%slug badgeview-customization%})–Allows you to change the `BackgroundColor`, `BorderThickness`, and `Color` properties of the BadgeView. Also, the BadgeView exposes an API which you can use to fully customize and style the Badge indicator.
 
 ## See Also
 

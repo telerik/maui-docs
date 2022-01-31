@@ -1,62 +1,60 @@
 ---
-title: Badge Control
-page_title: .NET MAUI Badge Documentation | Badge Overview
+title: Badge Indicator
+page_title: .NET MAUI BadgeView Documentation | Badge Indicator
 description: Check our &quot;Badge&quot; documentation article for Telerik Badge for .NET MAUI.
-position: 12
+position: 4
 slug: badge-overview
 ---
 
-# Badge Control
+# Badge Indicator
 
-This article explains the `RadBadge` conrol and it's features. Also what is the difference between the `RadBadge` and `RadBadgeView` controls
+The Badge is the indicator (or marker) which is displayed to show notifications, statuses, and so on, while the BadgeView is the control in which you can add content and position the Badge based on this content.
 
-## Badge vs BadgeView 
+>important To provide the best experience out of the BadgeView control and the Badge indicator, it is recommended that you use the [BadgeView]({%slug badgeview-overview%}) and customize the Badge whenever needed.
+
+The following image shows the difference between the BadgeView control and the Badge indicator.
 
 ![Badge vs BadgeView](images/badge-badgeview.png)
 
-Badge is the marker which is displayed to show notifications, statuses, etc. The BadgeView is the control in which you can add a content and position the badge based on this content. 
+## Badge Features
 
->important We recommend you use the [BadgeView control]({%slug badgeview-overview%})
+The Badge indicator provides the following properties:
 
-## Define the Badge 
+* `Text`(`string`)&mdash;Defines the Badge text.
+* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the text color of the Badge.
+* `TextMargin`(`Microsoft.Maui.Thickness`)&mdash;Defines the margin of the Badge text.
+* `FontSize`(`double`)&mdash;Defines the Badge text font size.
+* `FontFamily`(`string`)&mdash;Defines the Badge text font family.
+* `FontAttributes`(`Microsoft.Maui.Controls.FontAttributes`)&mdash;Defines the Badge text font attributes.
+* `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the Badge border color.
+* `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the Badge border.
+* `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the Badge border thickness.
+* `AnimationType`(`Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
+* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options, refer to the article on [`Xamarin.Forms.Easing`](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/easing). The default value is `SinInOut`.
+* `AnimationDuration` in milliseconds(`int`)&mdash;Defines the animation duration in milliseconds. The default value is 300.
+* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the Badge control template.
 
-Here is the XAML definition of the `RadBadge`:
+## Define the Badge
+
+The following example demonstrates how to define the Badge in XAML:
 
 ```XAML
 <telerikPrimitives:Badge/>
 ```
 
-And the namespace used:
+Add the namespace:
 
 ```XAML
 xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
-## Features 
+## Use the Default ControlTemplate
 
-Badge has the following properties: 
-
-* `Text`(`string`)&mdash;Defines the badge text.
-* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the text color of the badge.
-* `TextMargin`(`Microsoft.Maui.Thickness`)&mdash;Defines the margin of the badge text.
-* `FontSize`(`double`)&mdash;Defines the badge text font size.
-* `FontFamily`(`string`)&mdash;Defines the badge text font family.
-* `FontAttributes`(`Microsoft.Maui.Controls.FontAttributes`)&mdash;Defines the badge text font attributes.
-* `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the badge border color.
-* `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the badge border.
-* `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the badge border thickness.
-* `AnimationType`(`Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
-* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options check the [Xamarin.Forms.Easing](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/easing) article. The default value is `SinInOut`.
-* `AnimationDuration` in milliseconds(`int`)&mdash;Defines the animation duration in milliseconds. The default value is 300.
-* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the Badge control template.
-
-## Default ControlTemplate
-
-The default Badge ControlTemplate definition in XAML
+The default Badge `ControlTemplate` definition in XAML is the following:
 
 <snippet id='badgeview-badge-control-template'/>
 
-Define the Badge:
+Define the Badge in the following way:
 
 ```XAML
 <telerikPrimitives:Badge/>

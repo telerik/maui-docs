@@ -1,50 +1,46 @@
 ---
 title: Configuration
 page_title: .NET MAUI BadgeView Documentation | Configuration
-description:  "Learn how to define Content, BadgeText, BadgeVisibility and Padding for the Telerik UI for .NET MAUI BadgeView."
-position: 2
+description:  "Learn how to define the Content, BadgeText, BadgeVisibility, and Padding properties of the Telerik UI for .NET MAUI BadgeView."
+position: 3
 slug: badgeview-configuration
 ---
 
 # Configuration
 
-The purpose of this help article is to show you the main configuration options of the BadgeView for .NET MAUI control.
+This article demonstrates the main configuration options of the Telerik UI for .NET MAUI BadgeView control.
 
 ## Content
 
->important The BadgeView will be visualized only if its `Content` property is set. 
+The BadgeView exposes the `Content`(of type `Microsoft.Maui.Controls.View`) property, which defines its content. The Badge marker/indicator is positioned based on the content inside the BadgeView.
 
-* `Content`(of type `Microsoft.Maui.Controls.View`)&mdash;Defines the content of the BadgeView.
-
-You must define a content. The Badge marker/indicator is positioned based on the content inside the BadgeView. Without a content the Badge won't be visualized.
+>important You are required to define content for the BadgeView by setting its `Content` property. Otherwise, the control will not be visualized.
 
 ```XAML
 <telerikPrimitives:RadBadgeView>
     <telerikPrimitives:RadBadgeView.Content>
-        <!-- add the content of the RadBadgeView. For exmaple: Label, Image, Frame, Border, Button, etc -->
+        <!-- Add the content of the BadgeView. For exmaple: Label, Image, Frame, Border, Button, and so on. -->
     </telerikPrimitives:RadBadgeView.Content>
 </telerikPrimitives:RadBadgeView>
 ```
 
 ### Example
 
-There is a Button inside the Content. The BadgeText is updated on a ButtonClick.  
+The example demonstrates how to set the content of the BadgeView and features a Button inside the `Content`. The BadgeText will be updated on a `ButtonClick`.  
 
 <snippet id='badgeview-content'/>
 
-And the page's code behind where is the button click implementation:
+The following snippet demonstrates the code behind with the button click implementation:
 
 <snippet id='badgeview-content-code-behind'/>
 
-And the result
+The following image shows the final result.
 
 ![BadgeView Badge Content](images/badgeview-content-text.gif)
 
 ## Badge Text
 
-With `BadgeText` property(`string`) you can define a text. The text will be displayed in the badge marker. 
-
-### Example
+To define some text in the BadgeView, set the `BadgeText` property(`string`). The text will be displayed in the Badge indicator.
 
 ```XAML
 <telerikPrimitives:RadBadgeView BadgeText="Badge Text">
@@ -53,7 +49,7 @@ With `BadgeText` property(`string`) you can define a text. The text will be disp
                                      HeightRequest="80"
                                      BorderThickness="1"
                                      BorderColor="LightGray">
-            <Label Text="Telerik Badge View for Xamarin" 
+            <Label Text="Telerik Badge View for Xamarin"
                    FontSize="14"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"/>
@@ -62,23 +58,25 @@ With `BadgeText` property(`string`) you can define a text. The text will be disp
 </telerikPrimitives:RadBadgeView>
 ```
 
+The following image shows the final result.
+
 ![BadgeView Badge Text](images/badgeview-badgetext.png)
 
->tip You can fully customize the look &amp; feel of the BadgeView, for detailed information check the [Badge Styling]({%slug badgeview-styling%}) and [Badge Customization]({%slug badgeview-customization%}) articles.
+>tip You can fully customize the look and feel of the BadgeView. For detailed information, refer to articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
 
 ## Badge Visibility
 
-Change the Badge visibility state using the `BadgeVisibility` property (enum of type `Telerik.XamarinForms.Common.Visibility`).
+To change the visibility state of the Badge indicator, use the `BadgeVisibility` property (enum of type `Telerik.XamarinForms.Common.Visibility`).
 
-The available options are:
+The following options are supported:
 
-* `Visible`&mdash;The badge marker/indicator is visualized.
-* `Hidden`&mdash;The badge marker/indicator is hidden.
-* `Collapsed`&mdash;The badge marker/indicator is collapsed.
+* (Default) `Visible`&mdash;The Badge marker/indicator is visualized.
+* `Hidden`&mdash;The Badge marker/indicator is hidden.
+* `Collapsed`&mdash;The Badge marker/indicator is collapsed.
 
-The default value of `BadgeVisibility` is `Visible`.
+### Example
 
-### Example with BadgeVisibility Hidden
+The following example demonstrates how to hide the `BadgeVisibility` state.
 
 ```XAML
 <telerikPrimitives:RadBadgeView BadgeText="1" BadgeVisibility="Hidden">
@@ -87,7 +85,7 @@ The default value of `BadgeVisibility` is `Visible`.
                                     HeightRequest="80"
                                     BorderThickness="1"
                                     BorderColor="LightGray">
-            <Label Text="Telerik Badge View for Xamarin" 
+            <Label Text="Telerik Badge View for Xamarin"
                 FontSize="14"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"/>
@@ -96,12 +94,14 @@ The default value of `BadgeVisibility` is `Visible`.
 </telerikPrimitives:RadBadgeView>
 ```
 
+The following image shows the final result.
+
 ![BadgeView Badge Visibility](images/badgeview-badge-visibility.png)
 
 
 ## Padding
 
-* `Padding`(`Xamarin.Forms.Thickness`)&mdash;Defines the inner padding of the BadgeView.
+The BadgeView provides the `Padding`(`Xamarin.Forms.Thickness`) property, which defines its inner padding.
 
 ```XAML
  <telerikPrimitives:RadBadgeView BadgeText="Add" Padding="30">
@@ -110,6 +110,8 @@ The default value of `BadgeVisibility` is `Visible`.
 	 </telerikPrimitives:RadBadgeView.Content>
  </telerikPrimitives:RadBadgeView>
 ```
+
+The following image shows the result.
 
 ![BadgeView Padding](images/badgeview-padding.png)
 
