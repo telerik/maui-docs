@@ -63,7 +63,7 @@ You can start using the Crypto Tracker application in the following way:
 
 1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
-`> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ `> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
 
 	* CryptoTracker application on iPhone.
 
