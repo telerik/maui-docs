@@ -46,7 +46,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     ![Telerik UI for .NET MAUI Installation Folder](../images/telerik-ui-for-maui-installation-folder.png)
 
-1. Run the `SDKBrowserMaui.sln` on Windows with Visual Studio.
+1. `SDKBrowserMaui.sln` on Windows with Visual Studio.
 
     4.1 Open the SDKBrowser folder in Visual Studio 2022 Preview.
 
@@ -60,7 +60,23 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     4.4 Select the emulator or device on which you want to run the application.
 
+1. Run On Windows: 
+
+	5.1 Install the [Single-Project MSIX Packaging Tool for VS 2022 Preview](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17) to build and run the application.
+
+   ![Telerik UI SDKBrowser Maui App](../images/maui-win-ui-project-structure.png)
+   
+    5.2 The SdkBrowserMaui on Windows:
+ 
+    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-winui.png)
+	
+1. SdkBrowserMaui On Android: 
+
+![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo.png)
+	
 ## Install and Run SDKBrowser on macOS
+
+>important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
 1. Inside the terminal, run the `maui-check` command, which is required for using Telerik UI for .NET MAUI controls, and for building and running `SDKBrowserMaui.sln`.
 
@@ -75,28 +91,22 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     ![Telerik UI for .NET MAUI Installation Folder](../images/installation-macos.png)
 
-1. Run the `SDKBrowserMaui.sln` file by using Visual Studio for Mac.
+1. Open the Sdk app folder.
+ 
+1. Open the Terminal
 
-    * To run the SDKBrowser application on iPhone, follow the demonstrated approach.
+1. Run on macOS using the following command:
 
-    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-iphone.png)
+ `dotnet build -t:Run -f net6.0-maccatalyst`
+ 
+	* SDKBrowserMaui application on MacOS.
+	
+	![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-macos.png)
+	
+1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
-    * To run the SDKBrowser application on MacOS, follow the demonstrated approach.
+`> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
 
-    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-macos.png)
+	* SDKBrowserMaui application on iPhone.
 
-## Run SDKBrowser on Android
-
-The following screenshot demonstrates how to run the SDKBrowser application on Android.
-
-![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo.png)
-
-## Run SDKBrowser on WinUI
-
-1. Install the [Single-Project MSIX Packaging Tool for VS 2022 Preview](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17) to build and run the application.
-
-    ![Telerik UI SDKBrowser Maui App](../images/maui-win-ui-project-structure.png)
-
-1. Run the `SDKBrowserMaui` file.
-
-    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-winui.png)
+    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-iphone.png)  

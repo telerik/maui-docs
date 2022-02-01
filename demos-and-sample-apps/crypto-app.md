@@ -23,7 +23,7 @@ You can start using the Crypto Tracker application in the following way:
     * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
     * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
->important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug % slug maui-getting-started %}#download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui) help topics where all steps are described. 
+>important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-2-download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-install-telerik-ui-for-net-maui) help topics where all steps are described. 
 
 ## Run CryptoTracker on Windows
 
@@ -49,12 +49,23 @@ You can start using the Crypto Tracker application in the following way:
 
 ## Run CryptoTracker on macOS
 
-Open the `CryptoTracker.sln` file by using Visual Studio for Mac.
+>important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
-* CryptoTracker application on iPhone.
+1. Open the CryptoTracker folder. 
+1. Open the Terminal
+1. Run on macOS using the following command:
 
-![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
+ `dotnet build -t:Run -f net6.0-maccatalyst`
+ 
+	* CryptoTracker application on MacOS.
+	
+	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
 
-* CryptoTracker application on MacOS.
+1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
-![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
+`> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+
+	* CryptoTracker application on iPhone.
+
+	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
+
