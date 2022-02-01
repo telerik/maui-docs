@@ -53,7 +53,7 @@ You can start using the Crypto Tracker application in the following way:
 
 1. Open the CryptoTracker folder. 
 1. Open the Terminal
-1. Run on macOS using the followiung command:
+1. Run on macOS using the following command:
 
  `dotnet build -t:Run -f net6.0-maccatalyst`
  

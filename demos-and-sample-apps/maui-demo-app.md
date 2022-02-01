@@ -95,7 +95,7 @@ To start using the SDKBrowser application, you have to first download it and, th
  
 1. Open the Terminal
 
-1. Run on macOS using the followiung command:
+1. Run on macOS using the following command:
 
  `dotnet build -t:Run -f net6.0-maccatalyst`
  
