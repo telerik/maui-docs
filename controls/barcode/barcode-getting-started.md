@@ -20,7 +20,7 @@ Before adding the Barcode, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({%slug maui-getting-started %}#download-telerik-ui-for-net-maui).
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
