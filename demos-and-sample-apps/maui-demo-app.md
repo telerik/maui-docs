@@ -76,7 +76,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 	
 ## Install and Run SDKBrowser on macOS
 
->important Check the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install), how to get started on macOS. 
+>important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
 1. Inside the terminal, run the `maui-check` command, which is required for using Telerik UI for .NET MAUI controls, and for building and running `SDKBrowserMaui.sln`.
 

@@ -49,7 +49,7 @@ You can start using the Crypto Tracker application in the following way:
 
 ## Run CryptoTracker on macOS
 
->important Check the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install), how to get started on macOS. 
+>important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
 1. Open the CryptoTracker folder. 
 1. Open the Terminal
