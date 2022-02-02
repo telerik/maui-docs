@@ -13,15 +13,18 @@ Crypto Tracker demo is a real-case crypto application that shows changes in cryp
 
 ![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
-You can start using the Crypto Tracker application in the following way:
+You can start using the Crypto Tracker application in the following ways:
 
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/CryptoTracker** folder and open the `CryptoTracker.sln` file;
+
   The **CryptoTracker** folder is located inside the Examples folder inside the installation folder and you can now use the following subdirectories:
 
     * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
     * **Examples**&mdash;Contains all examples available (**Sdk app** and **CryptoTracker app**) with the Telerik UI for .NET MAUI controls.
     * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
     * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
+
+* Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker).
 
 >important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-2-download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-install-telerik-ui-for-net-maui) help topics where all steps are described. 
 
@@ -51,8 +54,7 @@ You can start using the Crypto Tracker application in the following way:
 
 >important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
-1. Open the CryptoTracker folder. 
-1. Open the Terminal
+1. Open Terminal inside the CryptoTracler folder.
 1. Run on macOS using the following command:
 
  `dotnet build -t:Run -f net6.0-maccatalyst`
@@ -61,11 +63,13 @@ You can start using the Crypto Tracker application in the following way:
 	
 	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
 
-1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
+1. Run on iOS using the following command:
 
- `> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ `dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ 
+ where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
 
-	* CryptoTracker application on iPhone.
+	* CryptoTracker application on iOS.
 
 	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
 
