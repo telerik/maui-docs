@@ -91,9 +91,7 @@ To start using the SDKBrowser application, you have to first download it and, th
 
     ![Telerik UI for .NET MAUI Installation Folder](../images/installation-macos.png)
 
-1. Open the Sdk app folder.
- 
-1. Open the Terminal
+1. Open Terminal inside the Sdk app folder.
 
 1. Run on macOS using the following command:
 
@@ -105,8 +103,10 @@ To start using the SDKBrowser application, you have to first download it and, th
 	
 1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
- `> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ `dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ 
+ where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
 
-	* SDKBrowserMaui application on iPhone.
+	* SDKBrowserMaui application on iOS.
 
    ![Telerik UI for .NET MAUI SDKBrowser Maui Application](../images/demo-iphone.png)  
