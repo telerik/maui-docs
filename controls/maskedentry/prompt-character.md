@@ -10,11 +10,11 @@ slug: maskedentry-prompt-character
 
 The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symbol (char) for any mask position that the user has not filled in yet. The default `PromptChar` value is `_` (underscore).
 
-**Setting the RadIPMaskedEntry**
+**Setting the IPMaskedEntry**
 
 <snippet id='ipmaskedentry-xaml' />
 
-**Setting the RadTextMaskedEntry**
+**Setting the TextMaskedEntry**
 
 <snippet id='textmaskedentry-mask-xaml' />
 
@@ -22,11 +22,11 @@ The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symb
 
 To change the default prompt character, set the `PromptChar`(`char`) property.
 
-**RadIPMaskedEntry with PromptChar="#"**
+**IPMaskedEntry with PromptChar="#"**
 
 <snippet id='ipmaskedentry-promptchar-xaml' />
 
-**RadTextMaskedEntry with PromptChar=" "**
+**TextMaskedEntry with PromptChar=" "**
 
 <snippet id='textmaskedentry-numbers-xaml' />
 

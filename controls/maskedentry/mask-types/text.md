@@ -10,37 +10,35 @@ slug: maskedentry-text-mask
 
 To validate the user input as text symbols, use the `TextMaskedEntry`. The resulting value is a string object.
 
-The table below describe the mask characters that can be used with `TextMaskedEntry`. The characters can be set to the `Mask` property.
+The table below lists the mask characters that can be used with `TextMaskedEntry`. The characters can be set to the `Mask` property.
 
 | **Mask Character** | **Description** |
 |----|----|
-|`0`|Digit, required. This element will accept any single digit between 0 and 9.|
-|`9`|Digit or space, optional.|
-|`#`|Digit or space, optional. If this position is blank in the mask, it will be rendered as the character in the [PromptChar]({%slug maskedentry-prompt-character%}) property. For example, "$######.##" displays as a literal "$", accepts a numeric amount with six places and two places to the right of the decimal, i.e. $123456.56.|
-|`L`|Accepts letters only.|
-|`?`|Letter, optional.|
-|`&`|Character, required.|
-|`C`|Character, optional.|
-|`A`|Alphanumeric, required. Accepts any symbol.|
-|`a`|Alphanumeric, optional.|
+|`0`|(Required) Digit. This element will accept any single digit between 0 and 9.|
+|`9`|(Optional) Digit or space.|
+|`#`|(Optional) Digit or space. If this position is blank in the mask, it will be rendered as the character in the [`PromptChar`]({%slug maskedentry-prompt-character%}) property. For example, `"$######.##"` displays as a literal `"$"`, accepts a numeric amount with six places and two places to the right of the decimal, that is, `$123456.56`.|
+|`L`|(Required) Accepts letters only.|
+|`?`|(Optional) Letter.|
+|`&`|(Required) Character.|
+|`C`|(Optional) Character.|
+|`A`|(Required) Alphanumeric. Accepts any symbol.|
+|`a`|(Optional) Alphanumeric.|
 |`.`|Decimal placeholder.|
 |`,`|Thousands placeholder.|
 |`:`|Time separator.|
 |`/`|Date separator.|
 |`$`|Currency symbol.|
-|`<`|Shift down. Converts all characters that follow to lowercase.|
-|`>`|Shift up. Converts all characters that follow to uppercase.|
-|`\`|Disable a previous shift up or shift down.|
+|`<`|Shifts down. Converts all characters that follow to lowercase.|
+|`>`|Shifts up. Converts all characters that follow to uppercase.|
+|`\`|Disables a previous shift up or shift down.|
 |`\\`|Escape. Escapes a mask character, turning it into a literal. `"\\"` is the escape sequence for a backslash.|
-|All other characters|All non-mask elements will appear as themselves within `RadTextMaskedEntry`. Literals always occupy a static position in the mask at run time, and cannot be moved or deleted by the user|
-
-## Example
+|All other characters|All non-mask elements will appear as themselves within `RadTextMaskedEntry`. Literals always occupy a static position in the mask at run time, and cannot be moved or deleted by the user.|
 
 The following example demonstrates how to create a `RadTextMaskedEntry`:
 
 <snippet id='textmaskedentry-getting-started-xaml' />
 
-And the end result:
+The image below shows the end result.
 
 ![RadTextMaskedEntry](../images/maskedentry_text.png)
 

@@ -12,7 +12,7 @@ The Telerik MaskedEntry for .NET MAUI provides a built-in validation message. If
 
 ## Default Error Message
 
-The MaskedEntry supports a default validation error message that is based on the used Masked Type:
+The MaskedEntry supports a default validation error message that is based on the used masked type:
 
 * `EmailMaskedEntry`&mdash;Supports the `E-Mail is not valid` error message.
 
@@ -22,11 +22,11 @@ The MaskedEntry supports a default validation error message that is based on the
 
 To customize the default validation error message, use the `ValidationErrorMessage`(`string`) property.
 
-**Custom Validation Error Message for the RadEmailMaskedEntry**
+**Custom Validation Error Message for the EmailMaskedEntry**
 
 <snippet id='emailmaskedentry-validationerrormessage-xaml' />
 
-**Custom Validation Error Message for the RadRegexMaskedEntry**
+**Custom Validation Error Message for the RegexMaskedEntry**
 
 <snippet id='regexmaskedentry-validationerrormessage-xaml' />
 

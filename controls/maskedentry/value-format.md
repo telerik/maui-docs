@@ -46,7 +46,7 @@ For example, if `Mask="##-##"` and you enter `22-2_`, the `Value` will be `22-2`
 
 ## IncludePromptAndLiterals
 
-The `Value` MaskedEntry property contains both the literals and prompt characters for the missing positions required by the `Mask`property.
+The `Value` MaskedEntry property contains both the literals and prompt characters for the missing positions required by the `Mask` property.
 
 For example, if `Mask="##-##"` and you enter `222,` the `Value` property will be `22-2_`.
 

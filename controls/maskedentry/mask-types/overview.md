@@ -8,7 +8,7 @@ slug: maskedentry-masked-types
 
 # Mask Types
 
-The MaskedEntry provides separate masked entry controls wich can handle different types of user input. They all inherit from a common `RadMaskedEntryBase` class.
+The MaskedEntry provides separate masked entry controls which can handle different types of user input. They all inherit from a common `RadMaskedEntryBase` class.
 
 The available masks and their purpose are listed below:
 
