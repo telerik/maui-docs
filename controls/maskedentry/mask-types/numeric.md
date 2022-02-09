@@ -29,15 +29,13 @@ Through the `Mask` property you can specify the exact format of the expected inp
 | `"P"` or `"p"` | Percent | `double` |
 | `Other` | Decimal | `decimal` |
 
-Full list of the supported masks (except "E" and "X") can be found in the following MSDN article: [Standard Numeric masks](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings).
-
-## Example
+For the full list of supported masks (except for the `"E"` and `"X"` ones), refer to the [Standard Numeric masks](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) MSDN article.
 
 The following example demonstrates how to set the `RadNumericMaskedEntry` with the `Currency` value:
 
 <snippet id='numericmaskedentry-mask-c-xaml' />
 
-And the end result:
+The image below shows the end result.
 
 ![RadNumericMaskedEntry](../images/maskedentry_numeric.png)
 

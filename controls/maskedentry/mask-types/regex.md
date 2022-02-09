@@ -21,13 +21,12 @@ To validate the user input as a standard (alphanumeric) user input against a reg
 |`"[0-9a-zA-Z]"` | all without special symbols and space|
 |`"[0-9a-zA-Z ]"` | all without special symbols|
 
-## Example
 
 The following example demonstrates how to set the `RadRegexMaskedEntry`:
 
 <snippet id='regexmaskedentry-getting-started-xaml' />
 
-And the end result:
+The image below shows the end result.
 
 ![RadRegexMaskedEntry](../images/maskedentry_regex.png)
 

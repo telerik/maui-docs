@@ -8,21 +8,19 @@ slug: maskedentry-styling
 
 # Styling
 
-This article explains all styling options you can apply to the MaskedEntry control. The properties are valid for all mask types.
+The MaskedEntry control delivers a set of options for styling its appearance.
 
-The `MaskedEntryBase` class exposes the following properties: 
+The `MaskedEntryBase` class exposes the following properties, which are valid for all mask types.:
 
-* `TextColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the text inside the masked entry.
-* `EntryCornerRadius`(`Microsoft.Maui`)&mdash;Defines the corner radius around the masked entry 
-* `EntryBackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defnes the bacground color of the masked entry
+* `TextColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the text inside the MaskedEntry.
+* `EntryCornerRadius`(`Microsoft.Maui`)&mdash;Defines the corner radius around the MaskedEntry.
+* `EntryBackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the MaskedEntry.
 * `BackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the masked control.
-* `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the clear button.
-* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the clear button when it is hovered. The color appears only on desktop.
-* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the clear button when it is pressed.
+* `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button.
+* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when it is hovered. The color appears only on desktop.
+* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when it is clicked.
 
-## Example
-
-We will style the `EmailMaskedEntry`. Here is the XAML definition:
+The following example demonstrates how to style the `EmailMaskedEntry`. Define the control in XAML:
 
 <snippet id='maskedentry-styling-xaml' />
 
