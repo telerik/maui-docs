@@ -37,13 +37,15 @@ using Telerik.Maui.Controls;
 </telerik:RadTabView>
 ```
 
-![TabView example](images/tabview-overview.png) 
-
 And the namespace used:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
+
+## Events
+
+* `SelectionChanged` event
 
 ## Next Steps
 
