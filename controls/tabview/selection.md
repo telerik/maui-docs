@@ -9,9 +9,12 @@ position: 0
 
 # Selection
 
-**Telerik TabView for .NET MAUI** exposes a proeprty which helps you work with the items selction: 
+**Telerik TabView for .NET MAUI** exposes properties that help you work with the item selection: 
 
 * `SelectedItem`(of type `Telerik.Maui.Controls.TabViewItem`)&mdash; set the selected item.
+* `TabViewItem` can be selected by setting its `IsSelected`(`bool`) property to `True`.
+
+**Example with SelectedItem**
 
 <snippet id='tabview-features-selection-csharp'/>
 
@@ -21,7 +24,7 @@ And the namespace used:
 using Telerik.Maui.Controls;
 ```
 
-* `TabViewItem` can be selected by setting its `IsSelected`(`bool`) property to `True`.
+**Example with IsSelected**
 
 ```XAML
 <telerik:RadTabView x:Name="tabView">
@@ -45,7 +48,9 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 ## Events
 
-* `SelectionChanged` event
+* `SelectionChanged` event which is raised when the currently selected `TabViewItem` has changed. The `SelectionChanged` event handler receives two parameters: 
+	* The `Sender` which is of type `Telerik.Maui.Controls.RadTabView`.
+	* and `EventArgs`.
 
 ## Next Steps
 
