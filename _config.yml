@@ -12,9 +12,12 @@ navigation:
     get-started:
         title: "Getting Started"
         position: 1
+    installation:
+        title: "Installation"
+        position: 2
     demos-and-sample-apps:
         title: "Sample Applications"
-        position: 2
+        position: 3
     controls:
         title: "Controls"
         position: 7
@@ -22,6 +25,11 @@ navigation:
         title: "Troubleshooting"
         position: 12
 ## End Root Level
+## Intallation Sub-Folders
+    installation/windows:
+        title: "Windows"
+        position: 3
+## End Intallation Sub-Folders
 ## Controls Sub-Folders
     ## BadgeView
     controls/badgeview:
