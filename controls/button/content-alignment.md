@@ -16,10 +16,10 @@ To define a specific position of the Button content, set the `HorizontalContentA
 The following example demonstrates how to use the properties.
 
 ```XAML
-<telerikInput:RadButton Text="Click me!"  
-                        BorderColor="#4488F6"
-                        HorizontalContentAlignment="End"
-                        VerticalContentAlignment="Start" />
+<telerik:RadButton Text="Click me!"  
+                   BorderColor="#4488F6"
+                   HorizontalContentAlignment="End"
+                   VerticalContentAlignment="Start" />
 ```
 
 

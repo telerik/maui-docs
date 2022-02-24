@@ -33,7 +33,7 @@ Before adding the Button, you need to:
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
 1. Then define the Click event handler:

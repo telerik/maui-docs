@@ -14,9 +14,9 @@ To define the border thickness of the Button, use the `BorderThickness` property
 The snippet below demonstrates how to define the `BorderThickness` property.
 
 ```XAML
-<telerikInput:RadButton Text="Click me!"  
-                        BorderThickness="6, 2, 2, 6"
-                        BorderColor="#4488F6" />
+<telerik:RadButton Text="Click me!"  
+				   BorderThickness="6, 2, 2, 6"
+				   BorderColor="#4488F6" />
 ```
 
 
