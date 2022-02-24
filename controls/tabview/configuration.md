@@ -73,7 +73,7 @@ If you want to prevent this feature you will need to set the `IsContentSwipingEn
 
 ## See Also
 
-- [TabViewItem]({%slug %})
+- [TabViewItem]({%slug tabview-item%})
 - [Selection]({%slug tabview-selection%})
-- [Styling]({%slug %})
+- [Styling]({%slug tabview-styling%})
 - [Templates]({%slug tabview-templates%})

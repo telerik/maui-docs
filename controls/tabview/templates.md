@@ -43,10 +43,10 @@ And the namespace used:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
->note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView HeaderItem and TabView Content using the flexible styling API. For more details review the [TabView Styling article]().
+>note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView HeaderItem and TabView Content using the flexible styling API. For more details review the [TabView Styling article]({%slug tabview-styling%}).
 
 ## See Also
 
-- [TabViewItem]({%slug %})
+- [TabViewItem]({%slug tabview-item%})
 - [Selection]({%slug tabview-selection%})
-- [Styling]({%slug %})
+- [Styling]({%slug tabview-styling%})
