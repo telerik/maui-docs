@@ -4,7 +4,7 @@ page_title: .NET MAUI TabView Documentation | Visual Structure
 description: The Visual structure of the Telerik TabView for .NET MAUI control.
 slug: tabview-visual-structure
 tags: tabview, header, content, items
-position: 0
+position: 1
 ---
 
 # Visual Structure
