@@ -3,7 +3,7 @@ title: Templates
 page_title: .NET MAUI TabView Documentation | Templates
 description: Review the customization options of the Telerik TabView for .NET MAUI control.
 slug: tabview-templates
-tags: tabview, overview
+tags: tabview, templates, customization
 position: 14
 ---
 
@@ -12,7 +12,7 @@ position: 14
 The TabView provides set of templates for its elements. If you want to fully change the TabView appearance you can use the provided templates: 
 
 * `HeaderTemplate`(`ControlTemplate`)&mdashDefines the template of the entire header area.
-* `HeaderitemTemplate`(`ControlTemplate`)&mdashDefines the template of the individual header items.
+* `HeaderItemTemplate`(`ControlTemplate`)&mdashDefines the template of the individual header items.
 * `ContentTemplate`(`ControlTemplate`)&mdashDefined the template of the entire content area. 
 
 **Example with TabView templates**
