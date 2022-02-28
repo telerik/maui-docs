@@ -52,6 +52,8 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 	* The `Sender` which is of type `Telerik.Maui.Controls.RadTabView`.
 	* and `EventArgs`.
 
-## Next Steps
+## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI TabView]({%slug tabview-getting-started%})
+- [TabViewItem]({%slug tabview-item%})
+- [Styling]({%slug tabview-styling%})
+- [Templates]({%slug tabview-templates%})
