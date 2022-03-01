@@ -13,7 +13,6 @@ TabView provides means for modifying its visual appearance, so that it matches t
 
 > Check the [TabView Visual Structure]({%slug tabview-visual-structure%}) topic for a visual representation of the TabView elements.
 
-
 ## TabView Styling
 
 You can use any of the following TabView properties to change its look&amp;feel:
@@ -34,11 +33,39 @@ In addition, TabView provides the listed below styling properties for modifying 
 
 Through `HeaderStyle` property of the TabView you can modify the `TabViewHeader`. `TabViewHeader` provides the following properties:
 
-* `Orientation`(`Telerik.Maui.Controls.TabViewScrollOrientation`)&mdash;Specifies the tabview items orientation - can be horizontal or vertical;
-* `Position`(`Telerik.Maui.Controls.TabViewHeaderPosition`)&mdash;Controls the position of the header - can be top, bottom left or right;
-* `Spacing`(`double`)&mdash;Applies spacing in pixels between the header area and the content area;
-* `IsScrollable`&mdash;Enables scrolling through the tabs inside the TabView Header.
-      
+* `BackgroundColor`
+* `BorderColor`
+* `BorderThickness` 
+* `CornerRadius`
+* `ContentPadding`
+
+Check below a quick example:
+
+```XAML
+<telerik:RadTabView x:Name="tabView">
+	<telerik:RadTabView.HeaderStyle>
+		<Style TargetType="telerik:TabViewHeader">
+			<Setter Property="BackgroundColor" Value="#CCCCCC" />
+			<Setter Property="BorderColor" Value="#623FEA" />
+			<Setter Property="BorderThickness" Value="2" />
+		</Style>
+	</telerik:RadTabView.HeaderStyle>
+	<telerik:TabViewItem HeaderText="Home">
+		<Label Margin="10" Text="This is the content of the Home tab" />
+	</telerik:TabViewItem>
+	<telerik:TabViewItem HeaderText="Folder">
+		<Label Margin="10" Text="This is the content of the Folder tab" />
+	</telerik:TabViewItem>
+	<telerik:TabViewItem HeaderText="View">
+		<Label Margin="10" Text="This is the content of the View tab" />
+	</telerik:TabViewItem>
+</telerik:RadTabView>
+```
+
+And the result is the following:
+
+![](images/styling-headerstyle.png)
+
 ## HeaderItem Styling
 
 Through `HeaderItemStyle` property of the TabView the following styling properties can be applied to the `TabViewHeaderItem`:
@@ -66,7 +93,6 @@ Through `HeaderItemStyle` property of the TabView the following styling properti
 
 TabView's `ContentStyle` property allows you to style the content area. `TabViewContent` provides the following properties:
 
-* `IsSwipeEnabled`&mdash;Controls whether it will be possible to swipe through the tabs' content;
 * `BackgroundColor`
 * `BorderColor`
 * `BorderThickness` 
