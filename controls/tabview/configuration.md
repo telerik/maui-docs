@@ -62,7 +62,7 @@ To enable the scrolling use the `IsHeaderScrollable`(`bool`)property. The defaul
 
 ![TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
 
-## Overlaied header area
+## Overlaid header area
 
 * `IsHeaderOverlaid`(`bool`)&mdashIndicates whether the header area is overlaid on top of the content area. 
 
