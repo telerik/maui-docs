@@ -12,5 +12,5 @@ While building the Telerik MAUI Demo App or the .NET MAUI App, you may get the f
 
 To fix this issue, apply either of the following approaches:
 
-* From the **Preferenes**, add your Apple developer account to both **XCode** and **Visual Studio for Mac**. Build the application.
+* From the IDE's **Preferences** option, add your Apple developer account to both **XCode** and **Visual Studio for Mac**. Build the application.
 * Create an empty or blank iOS application in XCode and deploy it to a simulator.
