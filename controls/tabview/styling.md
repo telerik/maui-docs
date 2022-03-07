@@ -41,26 +41,7 @@ Through `HeaderStyle` property of the TabView you can modify the `TabViewHeader`
 
 Check below a quick example:
 
-```XAML
-<telerik:RadTabView x:Name="tabView">
-	<telerik:RadTabView.HeaderStyle>
-		<Style TargetType="telerik:TabViewHeader">
-			<Setter Property="BackgroundColor" Value="#CCCCCC" />
-			<Setter Property="BorderColor" Value="#623FEA" />
-			<Setter Property="BorderThickness" Value="2" />
-		</Style>
-	</telerik:RadTabView.HeaderStyle>
-	<telerik:TabViewItem HeaderText="Home">
-		<Label Margin="10" Text="This is the content of the Home tab" />
-	</telerik:TabViewItem>
-	<telerik:TabViewItem HeaderText="Folder">
-		<Label Margin="10" Text="This is the content of the Folder tab" />
-	</telerik:TabViewItem>
-	<telerik:TabViewItem HeaderText="View">
-		<Label Margin="10" Text="This is the content of the View tab" />
-	</telerik:TabViewItem>
-</telerik:RadTabView>
-```
+<snippet id='tabview-styling-headerstyle' />
 
 And the result is the following:
 
@@ -89,6 +70,12 @@ Through `HeaderItemStyle` property of the TabView the following styling properti
 * `ImageSpacing` - specifies the spacing between the image icon and the text in the header item
 * `ImagePosition` - specifies the position of the image icon relative to the text (Left, Top, Right, Bottom)
 
+<snippet id='tabview-styling-headeritemstyle' />
+
+Here is the TabView after applying the `HeaderItemStyle`:
+
+![](images/styling-headeritemstyle.png)
+
 ## Content Styling
 
 TabView's `ContentStyle` property allows you to style the content area. `TabViewContent` provides the following properties:
@@ -98,6 +85,12 @@ TabView's `ContentStyle` property allows you to style the content area. `TabView
 * `BorderThickness` 
 * `CornerRadius`
 * `ContentPadding`
+
+<snippet id='tabview-styling-contentstyle' />
+
+The image below shows TabView after applying `ContentStyle`:
+
+![](images/styling-contentstyle.png)
 
 ## See Also
 
