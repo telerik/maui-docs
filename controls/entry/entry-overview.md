@@ -27,11 +27,11 @@ slug: entry-overview
 
 * [Text selection]({%slug entry-text-selection%})&mdash;You can specify the starting position of the selected text as well as the number of characters of the selected Entry input.
 
-* [Text Prediction]({%slug entry-text-appearance%}#setting-text-prediction)&mdash;Define whether to have a predictive text while typing in the Entry.
+* [Text prediction]({%slug entry-text-appearance%}#setting-text-prediction)&mdash;Define whether to have a predictive text while typing in the Entry.
 
 * [Validation]({%slug entry-validation%})&mdash;If the user is entering a value not matching the requirements, the Entry will display an error message, which you can easily customize.
 
-* [Clear button]()&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
+* [Clear button]({%slug entry-text-appearance%}#defining-the-clear-button-visibility)&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
 
 * [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
 
