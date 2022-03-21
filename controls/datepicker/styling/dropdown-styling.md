@@ -23,7 +23,7 @@ The `DropDownSettings` also provides the following properties for dropdown custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
-> __DropDownSettings__ provide styling options for the dropdown, its footer and position, and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DatePicker. For more detailed information on them go to [Styling]({%slug datepicker-styling%}) topic.
+> __DropDownSettings__ provides styling options for the dropdown, its footer and position, and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DatePicker. For more detailed information on them go to [DatePicker Styling]({%slug datepicker-styling%}) topic.
 
 ## Namespaces
 
@@ -41,17 +41,9 @@ The following examples demonstrate how to define use the styling properties of t
 
 <snippet id='datepicker-dropdown-style' />
 
-**Define the Spinner Style**
+**Define the DropDownViewStyle**
 
-<snippet id='datepicker-style-spinner-style' />
-
-**Define the SpinnerHeaderStyle**
-
-<snippet id='datepicker-style-spinner-header-style' />
-
-**Define the SelectionHighlightStyle**
-
-<snippet id='datepicker-style-selection-highlight-style' />
+<snippet id='datepicker-style-dropdownview-style' />
 
 **Define the FooterStyle**
 
@@ -80,6 +72,6 @@ The following image shows what the DatePicker control looks like when the styles
 
 ## See Also
 
-- [Styling]({%slug datepicker-styling%})
+- [DatePicker Styling]({%slug datepicker-styling%})
 - [Formatting]({%slug datepicker-formatting%})
 - [Visual Structure]({%slug datepicker-visual-structure%})

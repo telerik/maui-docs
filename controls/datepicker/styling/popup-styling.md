@@ -17,7 +17,9 @@ By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.Picke
 * `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 * `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
+
 The `PickerPopupSettings` also provides the following properties for popup customization:
+
 
 * `PopupOutsideBackgroundColor`&mdash;Defines the color outside of the popup.
 * `IsPopupModal`(`bool`)&mdash;Defines a Boolean value indicating if the popup will be closed when tapped outside of the popup. By default, the value of the `IsPopupModal` is `false`.
@@ -32,7 +34,7 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
-> __PopupSettings__ provide styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DatePicker. For more detailed information on them go to [Styling]({%slug datepicker-styling%}) topic.
+> __PopupSettings__ provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DatePicker. For more detailed information on them go to [DatePicker Styling]({%slug datepicker-styling%}) topic.
 
 ## Namespaces
 
@@ -102,6 +104,6 @@ The following image shows what the DatePicker control looks like when the styles
 
 ## See Also
 
-- [Styling]({%slug datepicker-styling%})
+- [DatePicker Styling]({%slug datepicker-styling%})
 - [Formatting]({%slug datepicker-formatting%})
 - [Visual Structure]({%slug datepicker-visual-structure%})
