@@ -38,7 +38,7 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 
 ## Namespaces
 
-When you use `PopupViewStyle`, `HeaderStyle`, `FooterStyle`, you will need to add the following namespace:
+When you use `PopupViewStyle`, `HeaderStyle`, `FooterStyle` you will need to add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -51,18 +51,6 @@ The following examples demonstrate how to define use the styling properties of t
 **Define the `RadDatePicker`**
 
 <snippet id='datepicker-popup-style' />
-
-**Define the Spinner Style**
-
-<snippet id='datepicker-style-spinner-style' />
-
-**Define the SpinnerHeaderStyle**
-
-<snippet id='datepicker-style-spinner-header-style' />
-
-**Define the SelectionHighlightStyle**
-
-<snippet id='datepicker-style-selection-highlight-style' />
 
 **Define the PopupViewStyle**
 
@@ -93,14 +81,11 @@ In addition, add the following namespaces:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
-
 
 The following image shows what the DatePicker control looks like when the styles described above are applied:
 
-![DatePicker](images/datepicker_style.png)
+![DatePicker](../images/datepicker_style.png)
 
 ## See Also
 

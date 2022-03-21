@@ -27,7 +27,7 @@ The `DropDownSettings` also provides the following properties for dropdown custo
 
 ## Namespaces
 
-When you use `DropDownViewStyle`, `FooterStyle`, you will need to add the following namespace:
+When you use `DropDownViewStyle`, `FooterStyle` you will need to add the following namespace:
 
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
@@ -62,8 +62,6 @@ In addition, add the following namespaces:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
 The following image shows what the DatePicker control looks like when the styles described above are applied:
