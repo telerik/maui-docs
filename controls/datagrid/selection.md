@@ -57,7 +57,7 @@ dataGrid.SelectionMode = Telerik.XamarinForms.DataGrid.DataGridSelectionMode.Mul
 
 ### SelectedItems
 
-Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type of `ObservableCollection&lt;object&gt;`. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row.
+Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type ObservableCollection&lt;object&gt;. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row.
 
 >note You can listen to the `CollectionChanged` event of the `SelectedItems` directly.
 
