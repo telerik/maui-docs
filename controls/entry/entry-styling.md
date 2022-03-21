@@ -10,36 +10,20 @@ slug: entry-styling
 
 The Entry provides styling options for setting the appearance of its border and font.
 
-## Border Styles
+## Entry Style
 
-The `BorderStyle` (of type `Telerik.XamarinForms.Input.BorderStyle`) property allows you to customize the border around the Entry through the following properties:
+Style the entry using the following properties:
 
-* `BorderColor`(`Color`)
-* `BorderThickness`(`Thickness`)
-* `CornerRadius`(`double`)
+* `CornerRadius`(`Microsoft.Maui.CornerRadius`)
+* `BackgroundColor``(`Microsoft.Maui.Graphics`)
 
-The following example demonstrates how to apply the border styles of the Entry.
+## ClearButton Style
 
-1. Define the `BorderStyle` in the **Resources** of your page:
+Style the Clear button which is displayed by default when entering text in the control using the following properties:
 
- ```XAML
-<telerikInput:BorderStyle x:Key="EntryBorderStyle"
-						  BorderThickness="2"
-						  BorderColor="Red" />
- ```
-
-1. Then, apply that style to the Entry instance:
-
- ```XAML
-<telerikInput:RadEntry x:Name="entry"
-					   WatermarkText="First Name"
-					   BorderStyle="{StaticResource EntryBorderStyle}"/>
- ```
-
-
-The following image shows the end result.
-
-![Entry BorderStyle](images/entry_borderstyle.png)
+* `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button.
+* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is hovered. The color appears only on desktop(Windows and macOS).
+* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is clicked.
 
 ## Font Options
 
@@ -48,17 +32,18 @@ The Entry control has the following properties for defining the font options:
 * `FontAttributes`
 * `FontFamily`
 * `FontSize`
+* `FontAutoScalingEnabled`
 
 The following example demonstrates how to apply the font options to the Entry.
 
 ```XAML
-<StackLayout>
-    <telerikInput:RadEntry Text="Normal Text" x:Name="entry"/>
-    <telerikInput:RadEntry Text="Bold Text - Large" FontAttributes="Bold" FontSize="Large" />
-    <telerikInput:RadEntry Text="Italic Text - Medium" FontAttributes="Italic" FontSize="Medium"/>
-    <telerikInput:RadEntry Text="Italic and Bold Text - Small"  FontSize="Small" x:Name="smallEntry"/>
-    <telerikInput:RadEntry Text="Micro Text"  FontSize="Micro" />
-</StackLayout>
+<VerticalStackLayout>
+    <telerik:RadEntry Text="Normal Text" x:Name="entry"/>
+    <telerik:RadEntry Text="Bold Text - Large" FontAttributes="Bold" FontSize="Large" />
+    <telerik:RadEntry Text="Italic Text - Medium" FontAttributes="Italic" FontSize="Medium"/>
+    <telerik:RadEntry Text="Italic and Bold Text - Small"  FontSize="Small" x:Name="smallEntry"/>
+    <telerik:RadEntry Text="Micro Text"  FontSize="Micro" />
+</VerticalStackLayout>
 ```
 
 ## See Also

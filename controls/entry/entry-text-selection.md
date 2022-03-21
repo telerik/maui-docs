@@ -21,12 +21,12 @@ The following snippet shows how to preselect a part of the Entry text when the c
 Define the text orientation and the text of the Entry.
 
 ```XAML
-<StackLayout Orientation="Horizontal">
-    <telerikInput:RadEntry x:Name="selectEntry"
-						   Text="select some text" />
-    <telerikInput:RadButton Text="Focus"
-							Clicked="FocusButtonClicked" />
-</StackLayout>
+<HorizontalStackLayout>
+    <telerik:RadEntry x:Name="selectEntry"
+					  Text="select some text" />
+    <telerik:RadButton Text="Focus"
+				       Clicked="FocusButtonClicked" />
+</HorizontalStackLayout>
 ```
 
 Set the `Clicked` event handler:

@@ -15,17 +15,27 @@ slug: entry-overview
 
 ## Key Features
 
-* [Watermark]({% slug entry-text-appearance %}#adding-watermarks)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input.
+* [Placeholder]({%slug entry-text-appearance%}#adding-watermarks)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
 
-* [Keyboard support]({% slug entry-text-appearance %}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
+* [Password functionality]&mdash;You can hide the characters that users type for privacy and security reasons.
 
-* [Non-editable (Read-only) state]({% slug entry-text-appearance %}#setting-the-read-only-state)&mdash;You can define whether users will be able to edit the Entry or not by setting a single property.
+* [Keyboard support]({%slug entry-text-appearance%}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
 
-* [Maximum number of symbols]({% slug entry-text-appearance %}#defining-the-max-length)&mdash;The Entry enables you to set a maximum length for its input.
+* [Non-editable (Read-only) state]({%slug entry-text-appearance%}#setting-the-read-only-state)&mdash;You can define whether users will be able to edit the Entry or not by setting a single property.
 
-* [Text selection]({% slug entry-text-selection %})&mdash;You can specify the starting position of the selected text as well as the number of characters of the selected Entry input.
+* [Maximum number of symbols]({%slug entry-text-appearance%}#defining-the-max-length)&mdash;The Entry enables you to set a maximum length for its input.
 
-* [Border styles]({% slug entry-styling %})&mdash;You can also customize the appearance of the border around the Entry input and set the font styles of the text.
+* [Text selection]({%slug entry-text-selection%})&mdash;You can specify the starting position of the selected text as well as the number of characters of the selected Entry input.
+
+* [Text Prediction]({%slug entry-text-appearance%}#setting-text-prediction)&mdash;Define whether to have a predictive text while typing in the Entry.
+
+* [Validation]({%slug entry-validation%})&mdash;If the user is entering a value not matching the requirements, the Entry will display an error message, which you can easily customize.
+
+* [Clear button]()&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
+
+* [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
+
+* [Various styling options]({%entry-styling%})&mdash;for applying corner radius, clear button color, placeholder color and more.
 
 ## See Also
 

@@ -18,21 +18,19 @@ The Entry supports the following events:
 
 * `Completed`&mdash;Occurs when the user finalizes the text in an entry with the return key.
 
-For its `Completed` event, the Entry exposes the `CompletedCommand`(`ICommand`) command.
-
 The following example demonstrates the Entry definition in XAML with the `TextChanged` and `Completed` event handlers.
 
 1. Define the Entry.
 
  ```XAML
-<StackLayout>
-    <telerikInput:RadEntry x:Name="entry"
-                           Keyboard="Numeric"
-                           WatermarkText="Watermark Text"
-                           TextChanged="Entry_TextChanged"
-                           Completed="Entry_Completed"/>
+<VerticalStackLayout>
+    <telerik:RadEntry x:Name="entry"
+                      Keyboard="Numeric"
+                      WatermarkText="Watermark Text"
+                      TextChanged="Entry_TextChanged"
+                      Completed="Entry_Completed"/>
     <Label x:Name="textChangedLabel"/>
-</StackLayout>
+</VerticalStackLayout>
  ```
 
 1. Set the `TexhChanged` event.
