@@ -8,15 +8,15 @@ slug: datepicker-overview
 
 # Overview
 
-**Telerik DatePicker for .NET MAUI** allows the user to select a date and visualizes its items inside a popup. The DatePicker control has a number of features which enable you to set a date range, date format and fully customize the dialog appearance by setting, for example, its header and footer.  
-
->important Currently, the Telerik UI for .NET MAUI DatePicker is available for Android and iOS.
+**Telerik DatePicker for .NET MAUI** allows the user to select a date and visualizes its items inside a popup or a dropdown. The DatePicker control has a number of features which enable you to set a date range, date format and fully customize the dialog appearance by setting, for example, its header and footer.  
 
 ![DateTime Picker Overview](images/date_picker_overview.png)
 
 ## Key Features
 
 * [Spinner format]({%slug datepicker-formatting%}#setting-the-spinner-format)&mdash;The DatePicker for .NET MAUI allows you to use a standard or custom date format string through its `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with the prepopulated values ready to be picked.
+
+* [Picker mode]({%slug datepicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available date values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
 * [Templates]({%slug datepicker-templates%})&mdash;The DatePicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
 

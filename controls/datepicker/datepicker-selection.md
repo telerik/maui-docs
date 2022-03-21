@@ -12,7 +12,7 @@ The DatePicker control enables the application users to quickly and easily selec
 
 ## Important Properties
 
-The `Date`(`DateTime?`) proprty defines the current date selection. Its default value is `null`.
+The `Date`(`DateTime?`) property defines the current date selection. Its default value is `null`.
 
 The following example demonstrates how to set the `Date` property.
 
@@ -26,6 +26,14 @@ In addition to this, you need to add the following namespace:
 ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
+
+You can also enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the DatePicker:
+
+```XAML
+<telerikInput:RadDatePicker Date="2020,05,15"
+                            IsClearButtonVisible="True" />
+```
+
 
 ## Methods
 
