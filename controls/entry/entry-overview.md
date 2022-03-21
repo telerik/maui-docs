@@ -31,7 +31,7 @@ slug: entry-overview
 
 * [Validation]({%slug entry-validation%})&mdash;If the user is entering a value not matching the requirements, the Entry will display an error message, which you can easily customize.
 
-* [Clear button]()&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
+* [Clear button]({%slug entry-text-appearance%}#defining-the-clear-button-visibility)&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
 
 * [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
 
