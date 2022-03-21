@@ -26,17 +26,14 @@ Before adding the Entry, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add an Entry control to your page.
+1. When your .NET MAUI application is set up, you are ready to add an Entry control to your page.
 
- ```XAML
-<telerikInput:RadEntry x:Name="entry"
-					   WatermarkText="Enter first name"/>
- ```
+ <snippet id='entry-getting-started-xaml' />
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
