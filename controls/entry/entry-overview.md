@@ -17,7 +17,7 @@ slug: entry-overview
 
 * [Placeholder]({%slug entry-text-appearance%}#adding-watermarks)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
 
-* [Password functionality]&mdash;You can hide the characters that users type for privacy and security reasons.
+* [Password functionality]({%slug entry-text-appearance%}#password-functionality%})&mdash;You can hide the characters that users type for privacy and security reasons.
 
 * [Keyboard support]({%slug entry-text-appearance%}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
 
@@ -35,7 +35,7 @@ slug: entry-overview
 
 * [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
 
-* [Various styling options]({%entry-styling%})&mdash;for applying corner radius, clear button color, placeholder color and more.
+* [Various styling options]({%slug entry-styling%})&mdash;for applying corner radius, clear button color, placeholder color and more.
 
 ## See Also
 
