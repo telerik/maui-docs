@@ -8,7 +8,9 @@ slug: datepicker-popup-styling
 
 # Popup Styling
 
-By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the DatePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSettings` class exposes the following `Style` properties:
+By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the DatePicker, you can modify the appearance of the dialog (popup). 
+
+The `PickerPopupSettings` class exposes the following `Style` properties:
 
 * `PopupViewStyle`(of type `Style` with target type `telerikInput:PickerPopupContentView`)&mdash;Defines the popup view style.
 * `HeaderStyle`(of type `Style` with target type `telerikInput:PickerPopupHeaderView`)&mdash;Defines the popup header style.
@@ -77,7 +79,7 @@ The following examples demonstrate how to define use the styling properties of t
 <snippet id='datepicker-style-cancel-button-style' />
 
 
-In addition, add the following namespaces:
+In addition, add the following namespace:
 
  ```XAML
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"

@@ -10,8 +10,6 @@ slug: datepicker-styling
 
 The DatePicker control for .NET MAUI provides styling options for customizing its appearance. You can style the DatePicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug datepicker-picker-mode%}) setting.
 
-## DatePicker Styling
-
 The control supports the following styling properties:
 
 * `BackgroundColor`&mdash;Defines the background color of the picker.

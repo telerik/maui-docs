@@ -124,6 +124,9 @@ navigation:
     ## DatePicker
     controls/datepicker:
         title: "DatePicker"
+    controls/datepicker/styling:
+        title: "Styling"
+        position: 20
     ## End DatePicker
     ## DockLayout
     controls/docklayout:
@@ -223,6 +226,9 @@ navigation:
     ## TimePicker
     controls/timepicker:
         title: "TimePicker"
+    controls/timepicker/styling:
+        title: "Styling"
+        position: 20
     ## End TimePicker
     ## TimeSpanPicker
     controls/timespanpicker:
