@@ -34,17 +34,19 @@ The following example shows a sample implementation of an `RadArcSegment` object
 Define the Path.
 
 ```XAML
-<telerikPrimitives:RadPath x:Name="simpleArcPath"
+ <telerikPrimitives:RadPath x:Name="simpleArcPath"
                            StrokeThickness="4"
                            Stroke="#2EC262">
-    <telerikCommon:RadPathGeometry>
-        <telerikCommon:RadPathFigure StartPoint="1, 0.5">
-            <telerikCommon:RadArcSegment Center = "0.5, 0.5"
-                                         Size = "1, 1"
-                                         StartAngle = "0"
-                                         SweepAngle = "180" />
-        </telerikCommon:RadPathFigure>
-    </telerikCommon:RadPathGeometry>
+    <telerikPrimitives:RadPath.Geometry>
+        <telerikCommon:RadPathGeometry>
+            <telerikCommon:RadPathFigure StartPoint="1, 0.5">
+                <telerikCommon:RadArcSegment Center = "0.5, 0.5"
+                                             Size = "1, 1"
+                                             StartAngle = "0"
+                                             SweepAngle = "180" />
+            </telerikCommon:RadPathFigure>
+        </telerikCommon:RadPathGeometry>
+    </telerikPrimitives:RadPath.Geometry>
  </telerikPrimitives:RadPath>
 ```
 
@@ -69,11 +71,13 @@ Define the Path.
 <telerikPrimitives:RadPath x:Name="simpleLinePath"
                            StrokeThickness="4"
                            Stroke="#2EC262">
-    <telerikCommon:RadPathGeometry>
-        <telerikCommon:RadPathFigure StartPoint="0.8, 0.1">
-            <telerikCommon:RadLineSegment Point="0.1, 0.8" />
-        </telerikCommon:RadPathFigure>
-    </telerikCommon:RadPathGeometry>
+    <telerikPrimitives:RadPath.Geometry>
+        <telerikCommon:RadPathGeometry>
+            <telerikCommon:RadPathFigure StartPoint="0.8, 0.1">
+                <telerikCommon:RadLineSegment Point="0.1, 0.8" />
+            </telerikCommon:RadPathFigure>
+        </telerikCommon:RadPathGeometry>
+    </telerikPrimitives:RadPath.Geometry>
 </telerikPrimitives:RadPath>
 ```
 
