@@ -21,9 +21,9 @@ Define the control.
 
 ```XAML
 <telerikPrimitives:RadPath x:Name="gradientPath"
-                           StrokeThickness="1"
-                           Stroke="White"                                        
-                           Geometry="{x:Static telerikInput:Geometries.Diamond}">
+                            StrokeThickness="1"
+                            Stroke="White"
+                            Geometry="{x:Static telerikInput:Geometries.Diamond}">
     <telerikPrimitives:RadPath.Fill>
         <telerikCommon:RadSweepGradientBrush>
             <x:Arguments>
@@ -34,7 +34,7 @@ Define the control.
                     <Color>#1481FF</Color>
                     <x:Double>180</x:Double>
                 </x:Arguments>
-            </telerikCommon:RadSweepGradientStop>                     
+            </telerikCommon:RadSweepGradientStop>
             <telerikCommon:RadSweepGradientStop>
                 <x:Arguments>
                     <Color>#BCE1FF</Color>
@@ -60,17 +60,19 @@ Define the control.
 
 ```XAML
 <telerikPrimitives:RadPath x:Name="solidPath"
-                           Grid.Row="0"
-                           StrokeThickness="2"
-                           Stroke="#1481FF"
-                           Fill="#BCE1FF">
-    <telerikCommon:RadPathGeometry>
-        <telerikCommon:RadPathFigure StartPoint="0, 1">
-            <telerikCommon:RadLineSegment Point="1, 1" />
-            <telerikCommon:RadLineSegment Point="0.5, 0" />
-            <telerikCommon:RadLineSegment Point="0, 1" />
-        </telerikCommon:RadPathFigure>
-    </telerikCommon:RadPathGeometry>
+                            Grid.Row="0"
+                            StrokeThickness="2"
+                            Stroke="#1481FF"
+                            Fill="#BCE1FF">
+    <telerikPrimitives:RadPath.Geometry>
+        <telerikCommon:RadPathGeometry>
+            <telerikCommon:RadPathFigure StartPoint="0, 1">
+                <telerikCommon:RadLineSegment Point="1, 1" />
+                <telerikCommon:RadLineSegment Point="0.5, 0" />
+                <telerikCommon:RadLineSegment Point="0, 1" />
+            </telerikCommon:RadPathFigure>
+        </telerikCommon:RadPathGeometry>
+    </telerikPrimitives:RadPath.Geometry>
 </telerikPrimitives:RadPath>
 ```
 
