@@ -49,27 +49,27 @@ The following examples demonstrate how to define use the styling properties of t
 
 **Define the `RadDateTimePicker`**
 
-<snippet id='datepicker-style' />
+<snippet id='datetimepicker-style' />
 
 **Define the Spinner Style**
 
-<snippet id='datepicker-style-spinner-style' />
+<snippet id='datetimepicker-style-spinner-style' />
 
-**Define the SpinnerHeaderStyle**
+**Define the SpinnerHeader Style**
 
-<snippet id='datepicker-style-spinner-header-style' />
+<snippet id='datetimepicker-style-spinner-header-style' />
 
-**Define the SelectionHighlightStyle**
+**Define the SelectionHighlight Style**
 
-<snippet id='datepicker-style-selection-highlight-style' />
+<snippet id='datetimepicker-style-selection-highlight-style' />
 
-**Define the PlaceholderLabelStyle**
+**Define the PlaceholderLabel Style**
 
-<snippet id='datepicker-style-placeholder-label-style' />
+<snippet id='datetimepicker-style-placeholder-label-style' />
 
-**Define the DisplayLabelStyle**
+**Define the DisplayLabel Style**
 
-<snippet id='datepicker-style-display-label-style' />
+<snippet id='datetimepicker-style-display-label-style' />
 
 **Define the ClearButtonStyle**
 

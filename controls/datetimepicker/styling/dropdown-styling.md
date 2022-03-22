@@ -39,23 +39,23 @@ The following examples demonstrate how to define use the styling properties of t
 
 **Define the `RadDateTimePicker`**
 
-<snippet id='datepicker-dropdown-style' />
+<snippet id='datetimepicker-style' />
 
 **Define the DropDownViewStyle**
 
 <snippet id='datepicker-style-dropdownview-style' />
 
-**Define the FooterStyle**
+**Define the Footer Style**
 
-<snippet id='datepicker-style-footer-style' />
+<snippet id='datetimepicker-style-footer-style' />
 
-**Define the AcceptButtonStyle**
+**Define the AcceptButton Style**
 
-<snippet id='datepicker-style-accept-button-style' />
+<snippet id='datetimepicker-style-accept-button-style' />
 
-**Define the CancelButtonStyle**
+**Define the CancelButton Style**
 
-<snippet id='datepicker-style-cancel-button-style' />
+<snippet id='datetimepicker-style-cancel-button-style' />
 
 
 In addition, add the following namespaces:
