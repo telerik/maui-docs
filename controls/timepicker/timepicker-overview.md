@@ -1,18 +1,16 @@
 ---
 title: Overview
 page_title: .NET MAUI TimePicker Documentation | Overview
-description: "Try now the Telerik TimePicker for .NET MAUI enabling users to select a time and visualizing its items inside a popup."
+description: "Try now the Telerik TimePicker for .NET MAUI enabling users to select a time and visualizing its items inside a popup or a dropdown."
 position: 0
 slug: timepicker-overview
 ---
 
 # Overview
 
-**Telerik UI for .NET MAUI TimePicker** provides a convenient way for users to select a time and visualizes its items inside a popup.
+**Telerik UI for .NET MAUI TimePicker** provides a convenient way for users to select a time and visualizes its items inside a popup or a dropdown.
 
-The TimePicker provides a number of features which allow you to set a time range, time format, and to fully customize the dialog appearance, for example, its header and footer.  
-
-Currently, the Telerik UI for .NET MAUI TimePicker is available for Android and iOS.
+The TimePicker provides a number of features which allow you to set a time range, time format, and to fully customize the dialog/dropdown appearance, for example, its header and footer.  
 
 ![TimePicker Overview](images/time_picker_overview.png)
 
@@ -21,6 +19,8 @@ Currently, the Telerik UI for .NET MAUI TimePicker is available for Android and 
 * [Time ranges]({%slug timepicker-time-range%})&mdash;The TimePicker allows you to define a time range by setting minimum and maximum time values and enables users to choose a time within that range.
 
 * [Spinner format]({%slug timepicker-formatting%}spinner-format)&mdash;The TimePicker for .NET MAUI allows you to use a standard or a custom time format string through the `TimePicker.SpinnerFormat` property. Depending on the types of the format that is set, the picker visualizes spinner controls with pre-populated values that can be picked.
+
+* [Picker mode]({%slug timepicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available time values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
 * [DisplayString format]({%slug timepicker-formatting%}#displaystring-format)&mdash;You can choose what text to be displayed when a time value is selected by using the `DisplayStringFormat` TimePicker property.
 
