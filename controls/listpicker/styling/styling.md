@@ -97,41 +97,9 @@ Define the styles in the page resources:
 
 <snippet id='listpicker-style-display-label-style' />
 
-**Define the PopupView Style**
-
-<snippet id='listpicker-style-popupview-style' />
-
-**Define the Header Style**
-
-<snippet id='listpicker-style-header-style' />
-
-**Define the HeaderLabel Style**
-
-<snippet id='listpicker-style-header-label-style' />
-
-**Define the FooterStyle**
-
-<snippet id='listpicker-style-footer-style' />
-
-**Define the AcceptButton Style**
-
-<snippet id='listpicker-style-accept-button-style' />
-
-**Define the CancelButton Style**
-
- <snippet id='listpicker-style-cancel-button-style' />
-
-
 1. Define a sample business model:
 
  <snippet id='listpicker-features-businessmodel' />
- ```C#
-public class City
-{
-	public string Name { get; set; }
-	public int Population { get; set; }
-}
- ```
 
 1. Set a `ViewModel`:
 
@@ -146,11 +114,13 @@ xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assem
 
 The following image shows how the ListPicker looks when the styling properties are applied:
 
-![ListPicker Styling](images/listpicker_styling.png)
+![ListPicker Styling](../images/listpicker_styling.png)
 
 >important For a sample styling example, refer to the **ListPicker/Styling** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 
 ## See Also
 
+- [Popup Styling]({%slug listpicker-popup-styling%})
+- [DropDown Styling]({%slug listpicker-dropdown-styling%})
 - [Looping]({%slug listpicker-looping%})
 - [Templates]({%slug listpicker-templates%})

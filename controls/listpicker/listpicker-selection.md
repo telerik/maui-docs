@@ -10,9 +10,17 @@ slug: listpicker-selection
 
 The ListPicker for .NET MAUI enables the application users to quickly and easily select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
 
-## Important Properties
+## SelectedItem Properties
 
 The `SelectedItem`(`object`) property specifies the selected item of the ListPicker.
+
+## Clear Button
+
+You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set `IsClearButtonVisible` property of the DateTimePicker:
+
+```XAML
+<telerikInput:RadListPicker IsClearButtonVisible="True" />
+```
 
 ## Methods
 
@@ -105,41 +113,10 @@ private void RadListPicker_SelectionChanged(object sender, System.EventArgs e)
 1. Define a sample `ViewModel`:
 
  <snippet id='listpicker-getting-started-viewmodel' />
- ```C#
-public class CitiesViewModel
-{
-    public CitiesViewModel()
-    {
-        this.Items = new ObservableCollection<City>
-        {
-            new City { Name = "Tokyo", Population = 13929286 },
-            new City { Name = "New York", Population = 8623000 },
-            new City { Name = "London", Population = 8908081 },
-            new City { Name = "Madrid", Population = 3223334 },
-            new City { Name = "Los Angeles", Population = 4000000},
-            new City { Name = "Paris", Population = 2141000 },
-            new City { Name = "Beijing", Population = 21540000 },
-            new City { Name = "Singapore", Population = 5612000 },
-            new City { Name = "New Delhi", Population = 18980000 },
-            new City { Name = "Bangkok", Population = 8305218 },
-            new City { Name = "Berlin", Population = 3748000 },
-        };
-    }
-
-    public ObservableCollection<City> Items { get; set; }
-}
- ```
 
 1. Set the Business model. In the example, the `sender` is the ListPicker control.
 
  <snippet id='listpicker-getting-started-business-model' />
- ```C#
-public class City
-{
-    public string Name { get; set; }
-    public int Population { get; set; }
-}
- ```
 
 1. Add the following namespace:
 

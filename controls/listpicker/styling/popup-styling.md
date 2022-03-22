@@ -1,14 +1,14 @@
 ---
 title: Popup Styling
-page_title: .NET MAUI DateTimePicker Documentation | Popup Styling
-description: "Apply the styling options of the Telerik UI for .NET MAUI DateTimePicker Popup."
+page_title: .NET MAUI ListPicker Documentation | Popup Styling
+description: "Apply the styling options of the Telerik UI for .NET MAUI ListPicker Popup."
 position: 1
-slug: datetimepicker-popup-styling
+slug: listpicker-popup-styling
 ---
 
 # Popup Styling
 
-By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the DateTimePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSettings` class exposes the following `Style` properties:
+By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the ListPicker, you can modify the appearance of the dialog (popup). The `PickerPopupSettings` class exposes the following `Style` properties:
 
 * `PopupViewStyle`(of type `Style` with target type `telerikInput:PickerPopupContentView`)&mdash;Defines the popup view style.
 * `HeaderStyle`(of type `Style` with target type `telerikInput:PickerPopupHeaderView`)&mdash;Defines the popup header style.
@@ -34,8 +34,6 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
-> __PopupSettings__ provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DateTimePicker. For more detailed information on them go to [DateTimePicker Styling]({%slug datetimepicker-styling%}) topic.
-
 ## Namespaces
 
 When you use `PopupViewStyle`, `HeaderStyle`, `FooterStyle`, you will need to add the following namespace:
@@ -46,43 +44,35 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 
 ## Styling Examples
 
-The following examples demonstrate how to define use the styling properties of the DateTimePicker.
+The following examples demonstrate how to define use the styling properties of the ListPicker.
 
-**Define the `RadDateTimePicker`**
+**Define the `RadListPicker`**
 
-<snippet id='datepicker-popup-style' />
+<snippet id='listpicker-features-styling' />
 
-**Define the Spinner Style**
+**Define the PopupViewStyle**
 
-<snippet id='datetimepicker-style-spinner-style' />
+<snippet id='listpicker-style-popupview-style' />
 
-**Define the SpinnerHeader Style**
+**Define the HeaderStyle**
 
-<snippet id='datetimepicker-style-spinner-header-style' />
+<snippet id='listpicker-style-header-style' />
 
-**Define the PopupView Style**
+**Define the HeaderLabelStyle**
 
-<snippet id='datetimepicker-style-popupview-style' />
+<snippet id='listpicker-style-header-label-style' />
 
-**Define the Header Style**
+**Define the FooterStyle**
 
-<snippet id='datetimepicker-style-header-style' />
+<snippet id='listpicker-style-footer-style' />
 
-**Define the HeaderLabel Style**
+**Define the AcceptButtonStyle**
 
-<snippet id='datetimepicker-style-header-label-style' />
+<snippet id='listpicker-style-accept-button-style' />
 
-**Define the Footer Style**
+**Define the CancelButtonStyle**
 
-<snippet id='datetimepicker-style-footer-style' />
-
-**Define the AcceptButton Style**
-
-<snippet id='datetimepicker-style-accept-button-style' />
-
-**Define the CancelButton Style**
-
-<snippet id='datetimepicker-style-cancel-button-style' />
+<snippet id='listpicker-style-cancel-button-style' />
 
 
 In addition, add the following namespaces:
@@ -96,10 +86,8 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 The following image shows what the DateTimePicker control looks like when the styles described above are applied:
 
-![DateTimePicker](../images/datetimepicker_style.png)
+![ListPicker](../images/datetimepicker_style.png)
 
 ## See Also
 
-- [DateTimePicker Styling]({%slug datetimepicker-styling%})
-- [Formatting]({%slug datetimepicker-formatting%})
-- [Visual Structure]({%slug datetimepicker-visual-structure%})
+- [ListPicker Styling]({%slug listpicker-styling%})
