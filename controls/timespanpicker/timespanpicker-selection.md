@@ -28,6 +28,14 @@ Add the namespace.
 xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
+## Clear Button
+
+You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TimePicker:
+
+```XAML
+<telerikInput:RadTimeSpanPicker Time="5:10:30:00"
+								IsClearButtonVisible="True" />
+```
 
 ## Methods
 

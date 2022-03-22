@@ -243,6 +243,9 @@ navigation:
     ## TimeSpanPicker
     controls/timespanpicker:
         title: "TimeSpanPicker"
+    controls/timespanpicker/styling:
+        title: "Styling"
+        position: 20
     ## End TimeSpanPicker
     ## WrapLayout
     controls/wraplayout:

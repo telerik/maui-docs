@@ -8,9 +8,7 @@ slug: timespanpicker-overview
 
 # Overview
 
-**Telerik UI for .NET MAUI TimeSpanPicker** provides an easy way to select a time duration. The control represents a time interval and allows you to set a time range between two time intervals, which can be measured in days, hours, minutes, and seconds. The flexible styling API gives you the opportunity to fully customize the dialog appearance, for example, its header and footer.
-
->note Currently, the Telerik UI for .NET MAUI TimeSpanPicker is available for Android and iOS.
+**Telerik UI for .NET MAUI TimeSpanPicker** provides an easy way to select a time duration. The control represents a time interval and allows you to set a time range between two time intervals, which can be measured in days, hours, minutes, and seconds. The flexible styling API gives you the opportunity to fully customize the dialog/dropdown appearance, for example, its header and footer.
 
 ![TimeSpan Picker Overview](images/timespan_picker_overview.png)
 
@@ -19,6 +17,8 @@ slug: timespanpicker-overview
 * [Spinner Format]({%slug timespanpicker-formatting%})&mdash;The TimeSpanPicker for .NET MAUI allows you to use standard or custom timespan format string through its `TimeSpanPicker.SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 
 * [DisplayString format]({%slug timespanpicker-formatting%})&mdash;You can choose what text to be displayed when a time interval is selected using the TimeSpanPicker `DisplayStringFormat` property.
+
+* [Picker mode]({%slug timespanpicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available time values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
 * [Templates]({%slug timespanpicker-templates%})&mdash;The TimeSpanPicker provides templates for its header and footer. Also, the control exposes templates for its placeholder and display text.
 
