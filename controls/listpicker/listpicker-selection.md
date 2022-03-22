@@ -23,7 +23,7 @@ The following example demonstrates how to use the `ClearSelection` method of the
 1. Define the ListPicker:
 
  ```XAML
-<StackLayout>
+<VerticalStackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerikInput:RadListPicker x:Name="listPicker"
                                 Placeholder="Pick a name!"
@@ -40,7 +40,7 @@ The following example demonstrates how to use the `ClearSelection` method of the
             </DataTemplate>
         </telerikInput:RadListPicker.ItemTemplate>
     </telerikInput:RadListPicker>
-</StackLayout>
+</VerticalStackLayout>
  ```
 
 1. Clear the selection inside the button `click` event:

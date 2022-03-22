@@ -16,7 +16,7 @@ slug: datetimepicker-overview
 
 * [Spinner format]({%slug datetimepicker-formatting%}#setting-the-spinner-format)&mdash;The DateTimePicker for .NET MAUI allows you to use a standard or custom date format string through its `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with the prepopulated values ready to be picked.
 
-* [Picker mode]({%slug datetimepicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available date values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
+* [Picker mode]({%slug datetimepicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available date and time values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
 * [Templates]({%slug datetimepicker-templates%})&mdash;The DateTimePicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
 
