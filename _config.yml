@@ -128,6 +128,13 @@ navigation:
         title: "Styling"
         position: 20
     ## End DatePicker
+    ## DateTimePicker
+    controls/datetimepicker:
+        title: "DateTimePicker"
+    controls/datetimepicker/styling:
+        title: "Styling"
+        position: 20
+    ## End DateTimePicker
     ## DockLayout
     controls/docklayout:
         title: "DockLayout"
@@ -152,6 +159,9 @@ navigation:
     ## ListPicker
     controls/listpicker:
         title: "ListPicker"
+    controls/listpicker/styling:
+        title: "Styling"
+        position: 20
     ## End ListPicker
     ## ListView
     controls/listview:
