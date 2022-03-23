@@ -18,6 +18,13 @@ This article describes the TemplatedPicker properties that are used for binding 
 
 * `SelectedValue`&mdash;Used when you have linked your TemplatedPicker to a data source, and you want to return a value of type object different from the one which is displayed.
 
+## Clear Button
+
+You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TemplatedPicker:
+
+```XAML
+<telerikInput:RadTemplatedPicker IsClearButtonVisible="True" />
+
 ## Example
 
 The example below uses two `RadSpinner` controls inside the `SelectorTemplate` of the TemplatedPicker which present cascading lists of items (the items shown in the second spinner depend on the selected value from the first spinner). Through the `SelectedValue` and `DisplayMemberPath` properties you can define how the selection from the spinners is visualized in the picker when the popup is closed.
