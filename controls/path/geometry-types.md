@@ -34,14 +34,16 @@ The following example shows a Path with an Arc definition:
                        Grid.Row="0"
                        StrokeThickness="4"
                        Stroke="#2EC262">
-    <telerikCommon:RadPathGeometry>
-        <telerikCommon:RadPathFigure StartPoint="0.85, 0.85">
-            <telerikCommon:RadArcSegment Center = "0.5, 0.5"
-                                         Size = "1, 1"
-                                         StartAngle = "315"
-                                         SweepAngle = "270" />
-        </telerikCommon:RadPathFigure>
-    </telerikCommon:RadPathGeometry>
+    <telerikPrimitives:RadPath.Geometry>
+        <telerikCommon:RadPathGeometry>
+            <telerikCommon:RadPathFigure StartPoint="0.85, 0.85">
+                <telerikCommon:RadArcSegment Center="0.5, 0.5"
+                                             Size="1, 1"
+                                             StartAngle="315"
+                                             SweepAngle="270" />
+            </telerikCommon:RadPathFigure>
+        </telerikCommon:RadPathGeometry>
+    </telerikPrimitives:RadPath.Geometry>
 </telerikPrimitives:RadPath>
 ```
 

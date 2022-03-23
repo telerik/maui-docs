@@ -17,64 +17,104 @@ Define the control.
 ```XAML
 <Grid x:Name="root">
     <Grid.RowDefinitions>
-      <RowDefinition />
-      <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
     </Grid.RowDefinitions>
     <telerikPrimitives:RadMultiPath x:Name="multiPath"
-                              Grid.Row="0"
-                              HorizontalOptions="Center"
-                              VerticalOptions="Center">
-        <telerikPrimitives:RadPathDefinition Fill="#FF4285F4">
-            <telerikCommon:RadPathGeometry>
-                <telerikCommon:RadPathFigure>
-                    <telerikCommon:RadArcSegment Center="0.5, 0.5" SweepAngle="360" Size="0.9, 0.9" />
-                </telerikCommon:RadPathFigure>
-            </telerikCommon:RadPathGeometry>
-        </telerikPrimitives:RadPathDefinition>
-        <telerikPrimitives:RadPathDefinition Fill="#FFEA4335">
-            <telerikCommon:RadPathGeometry>
-                <telerikCommon:RadPathFigure>
-                    <telerikCommon:RadArcSegment Center="0.5, 0.5" SweepAngle="360" Size="0.6, 0.6" />
-                </telerikCommon:RadPathFigure>
-            </telerikCommon:RadPathGeometry>
-        </telerikPrimitives:RadPathDefinition>
-        <telerikPrimitives:RadPathDefinition Fill="#FFFBBC05">
-            <telerikCommon:RadPathGeometry>
-                <telerikCommon:RadPathFigure>
-                    <telerikCommon:RadArcSegment Center="0.5, 0.5" SweepAngle="360" Size="0.3, 0.3" />
-                </telerikCommon:RadPathFigure>
-            </telerikCommon:RadPathGeometry>
-        </telerikPrimitives:RadPathDefinition>
+                                    Grid.Row="0"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+        <telerikPrimitives:RadMultiPath.Definitions>
+            <telerikPrimitives:RadPathDefinition Fill="#FF4285F4">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure>
+                            <telerikCommon:RadArcSegment Center="0.5, 0.5"
+                                                            SweepAngle="360"
+                                                            Size="0.9, 0.9" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+            <telerikPrimitives:RadPathDefinition Fill="#FFEA4335">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure>
+                            <telerikCommon:RadArcSegment Center="0.5, 0.5"
+                                                            SweepAngle="360"
+                                                            Size="0.6, 0.6" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+            <telerikPrimitives:RadPathDefinition Fill="#FFFBBC05">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure>
+                            <telerikCommon:RadArcSegment Center="0.5, 0.5"
+                                                            SweepAngle="360"
+                                                            Size="0.3, 0.3" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+        </telerikPrimitives:RadMultiPath.Definitions>
     </telerikPrimitives:RadMultiPath>
     <telerikPrimitives:RadMultiPath x:Name="path2"
-                              Grid.Row="1"
-                              HorizontalOptions="Center"
-                              VerticalOptions="Center">
-<telerikPrimitives:RadPathDefinition Stroke="#FF364781" StrokeThickness="30">
-  <telerikCommon:RadPathGeometry>
-    <telerikCommon:RadPathFigure StartPoint="0.95, 0.95">
-      <telerikCommon:RadLineSegment Point="0.75, 0.75" />
-    </telerikCommon:RadPathFigure>
-  </telerikCommon:RadPathGeometry>
-</telerikPrimitives:RadPathDefinition>
-<telerikPrimitives:RadPathDefinition Fill="#FF64B5FF" Stroke="#FF616161" StrokeThickness="30">
-  <telerikCommon:RadPathGeometry>
-    <telerikCommon:RadPathFigure StartPoint="0.75, 0.75">
-      <telerikCommon:RadArcSegment Center="0.4, 0.4" StartAngle="-45" SweepAngle="360" Size="0.7, 0.7" />
-    </telerikCommon:RadPathFigure>
-  </telerikCommon:RadPathGeometry>
-</telerikPrimitives:RadPathDefinition>
-<telerikPrimitives:RadPathDefinition Fill="#FFBDE0FF">
-  <telerikCommon:RadPathGeometry>
-    <telerikCommon:RadPathFigure StartPoint="0.241, 0.241">
-      <telerikCommon:RadArcSegment Center="0.4, 0.4" StartAngle="135" SweepAngle="-90" Size="0.45, 0.45" />
-      <telerikCommon:RadArcSegment Center="0.541, 0.259" StartAngle="45" SweepAngle="-180" Size="0.05, 0.05" />
-      <telerikCommon:RadArcSegment Center="0.4, 0.4" StartAngle="45" SweepAngle="90" Size="0.35, 0.35" />
-      <telerikCommon:RadArcSegment Center="0.259, 0.259" StartAngle="-45" SweepAngle="-180" Size="0.05, 0.05" />
-    </telerikCommon:RadPathFigure>
-  </telerikCommon:RadPathGeometry>
-</telerikPrimitives:RadPathDefinition>
-</telerikPrimitives:RadMultiPath>
+                                    Grid.Row="1"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+        <telerikPrimitives:RadMultiPath.Definitions>
+            <telerikPrimitives:RadPathDefinition Stroke="#FF364781"
+                                                    StrokeThickness="30">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure StartPoint="0.95, 0.95">
+                            <telerikCommon:RadLineSegment Point="0.75, 0.75" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+            <telerikPrimitives:RadPathDefinition Fill="#FF64B5FF"
+                                                    Stroke="#FF616161"
+                                                    StrokeThickness="30">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure StartPoint="0.75, 0.75">
+                            <telerikCommon:RadArcSegment Center="0.4, 0.4"
+                                                            StartAngle="-45"
+                                                            SweepAngle="360"
+                                                            Size="0.7, 0.7" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+            <telerikPrimitives:RadPathDefinition Fill="#FFBDE0FF">
+                <telerikPrimitives:RadPathDefinition.Geometry>
+                    <telerikCommon:RadPathGeometry>
+                        <telerikCommon:RadPathFigure StartPoint="0.241, 0.241">
+                            <telerikCommon:RadArcSegment Center="0.4, 0.4"
+                                                            StartAngle="135"
+                                                            SweepAngle="-90"
+                                                            Size="0.45, 0.45" />
+                            <telerikCommon:RadArcSegment Center="0.541, 0.259"
+                                                            StartAngle="45"
+                                                            SweepAngle="-180"
+                                                            Size="0.05, 0.05" />
+                            <telerikCommon:RadArcSegment Center="0.4, 0.4"
+                                                            StartAngle="45"
+                                                            SweepAngle="90"
+                                                            Size="0.35, 0.35" />
+                            <telerikCommon:RadArcSegment Center="0.259, 0.259"
+                                                            StartAngle="-45"
+                                                            SweepAngle="-180"
+                                                            Size="0.05, 0.05" />
+                        </telerikCommon:RadPathFigure>
+                    </telerikCommon:RadPathGeometry>
+                </telerikPrimitives:RadPathDefinition.Geometry>
+            </telerikPrimitives:RadPathDefinition>
+        </telerikPrimitives:RadMultiPath.Definitions>
+    </telerikPrimitives:RadMultiPath>
 </Grid>
 ```
 
@@ -88,12 +128,10 @@ xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.
 The following code demonstrates the logic behind changing the Grid size:
 
 ```C#
-public partial class MainPage : ContentPage, IPage
+public partial class MainPage : ContentPage
 {
     public MainPage()
     {
-        //RadCartesianChart
-
         InitializeComponent();
         this.root.SizeChanged += Root_SizeChanged;
     }
