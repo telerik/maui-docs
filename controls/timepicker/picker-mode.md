@@ -16,41 +16,38 @@ The TimePicker for .NET MAUI exposes `PickerMode` property of `Telerik.XamarinFo
 Here is a sample of `PickerMode` set to `Popup`:
 
 ```XAML
-<telerikInput:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
-							PickerMode="Popup"  />
+<telerikInput:RadTimePicker Time="10:30:00"
+							PickerMode="Popup" />
 ```
 
 Check below the result on mobile and desktop:
 
-![](images/datepicker-pickermode-popup.png)
+![](images/timepicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
 ```XAML
-<telerikInput:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
-							PickerMode="DropDown"  />
+<telerikInput:RadTimePicker Time="10:30:00"
+							PickerMode="DropDown" />
 ```
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/datepicker-pickermode-dropdown.png)
+![](images/timepicker-pickermode-dropdown.png)
 
 ## Toggle Button
 
 In addition, TimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
 
 ```XAML
-<telerikInput:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
+<telerikInput:RadTimePicker Time="10:30:00"/>
 							PickerMode="DropDown"
 							IsToggleButtonVisible="True" />
 ```
 
 ## See Also
 
-- [Templates]({%slug datepicker-templates%})
-- [Styling]({%slug datepicker-styling%})
-- [Commands]({%slug datepicker-commands%})
-- [Selection]({%slug datepicker-selection%})
+- [Templates]({%slug timepicker-templates%})
+- [Styling]({%slug timepicker-styling%})
+- [Commands]({%slug timepicker-commands%})
+- [Selection]({%slug timepicker-selection%})
