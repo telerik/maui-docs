@@ -37,10 +37,10 @@ Check the result of `DropDown` mode on mobile and desktop:
 
 ## Toggle Button
 
-In addition, TimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
+In addition, TimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
 
 ```XAML
-<telerikInput:RadTimePicker Time="10:30:00"/>
+<telerikInput:RadTimePicker Time="10:30:00"
 							PickerMode="DropDown"
 							IsToggleButtonVisible="True" />
 ```
