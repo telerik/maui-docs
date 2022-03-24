@@ -17,33 +17,30 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 ```XAML
 <telerikInput:RadDateTimePicker Date="2020,05,15" 
-								DisplayStringFormat="yyy-ddd-MMM" 
 								PickerMode="Popup" />
 ```
 
 Check below the result on mobile and desktop:
 
-![](images/datepicker-pickermode-popup.png)
+![](images/datetimepicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
 ```XAML
 <telerikInput:RadDateTimePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
-							PickerMode="DropDown"  />
+							PickerMode="DropDown" />
 ```
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/datepicker-pickermode-dropdown.png)
+![](images/datetimepicker-pickermode-dropdown.png)
 
 ## Toggle Button
 
-In addition, DateTimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
+In addition, DateTimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15" 
-								DisplayStringFormat="yyy-ddd-MMM" 
+<telerikInput:RadDateTimePicker Date="2020,05,15"
 								PickerMode="DropDown"
 								IsToggleButtonVisible="True" />
 ```

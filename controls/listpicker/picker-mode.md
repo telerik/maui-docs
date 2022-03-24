@@ -33,6 +33,8 @@ Check the result of `DropDown` mode on mobile and desktop:
 
 ![](images/listpicker-pickermode-dropdown.png)
 
+> Go to [Getting Started]({%slug listpicker-getting-started%}) topic for the complete example with the ListPicker control.
+
 ## Toggle Button
 
 In addition, ListPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:

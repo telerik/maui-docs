@@ -21,7 +21,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![](images/timepicker-pickermode-popup.png)
+![](images/templatedpicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
@@ -31,7 +31,9 @@ Quick example of `PickerMode` set to `DropDown`:
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/timepicker-pickermode-dropdown.png)
+![](images/templatedpicker-pickermode-dropdown.png)
+
+> Go to [Getting Started]({%slug templatedpicker-getting-started%}) topic for the complete example with the TemplatedPicker control.
 
 ## Toggle Button
 
