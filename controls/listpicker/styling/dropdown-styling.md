@@ -2,7 +2,7 @@
 title: DropDown Styling
 page_title: .NET MAUI ListPicker Documentation | DropDown Styling
 description: "Apply the styling options of the Telerik UI for .NET MAUI ListPicker DropDown"
-position: 2
+position: 3
 slug: listpicker-dropdown-styling
 ---
 
