@@ -8,7 +8,7 @@ slug: listpicker-styling
 
 # Styling
 
-The ListPicker control for .NET MAUI provides styling options for customizing its appearance. You can style the TimePicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug listpicker-picker-mode%}) setting.
+The ListPicker control for .NET MAUI provides styling options for customizing its appearance. You can style the ListPicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug listpicker-picker-mode%}) setting.
 
 The control supports the following styling properties:
 
