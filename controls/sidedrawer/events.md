@@ -1,0 +1,28 @@
+---
+title: Events
+page_title: .NET MAUI SideDrawer Documentation | Events
+description: Check our &quot;Events&quot; documentation article for Telerik SideDrawer for .NET MAUI control.
+position: 4
+slug: sidedrawer-features-events
+---
+
+# Events
+
+RadSideDrawer exposes the following events&mdash;
+
+* `DrawerOpening`&mdash; Raised when the drawer starts opening.
+* `DrawerOpened`&mdash; Raised when the drawer is already opened.
+* `DrawerClosing`&mdash; Raised when the drawer starts closing.
+* `DrawerClosed`&mdash; Raised when the drawer is already closed.
+
+where the event handlers listed above recieves two paameters&mdash;
+
+* `sender`&mdash; which is of type object, but can be cast to the RadSideDrawer type.
+* `EventArgs`
+
+## See Also
+
+- [Getting-Started]({%slug sidedrawer-getting-started%})
+- [Configuration]({%slug sidedrawer-features-configuration%})
+- [Commands]({%slug sidedrawer-features-commands%})
+- [Transitions]({%slug sidedrawer-features-transitions%})
