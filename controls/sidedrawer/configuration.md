@@ -8,20 +8,20 @@ slug: sidedrawer-features-configuration
 
 # Configuration
 
-This article will explain all configuration options that SideDrawer control provides.
+This article explains all configuration options that the SideDrawer control provides.
 
-* `DrawerContent` (`View`)&mdash; Specifies the drawer (initially hidden) content.
-* `MainContent` (`View`) Specifies the (initially visible) content of the component.
-* `IsOpen` (`bool`)&mdash; Specifies a value indicating if the drawer content is visible.
-* `DrawerLength` (`double`)&mdash; Defines how much the drawer content should be extended over the main content in opened position.
-* `DrawerLocation` (`SideDrawerLocation`)&mdash; Specifies the location from which the drawer will be opened. The following options are available&mdash; 
+* `DrawerContent`(`View`)&mdash;Specifies the drawer (initially hidden) content.
+* `MainContent`(`View`)&mdash;Specifies the (initially visible) content of the component.
+* `IsOpen`(`bool`)&mdash;Specifies a value indicating if the drawer content is visible.
+* `DrawerLength`(`double`)&mdash;Defines how much the drawer content should be extended over the main content in opened position.
+* `DrawerLocation`(`SideDrawerLocation`)&mdash;Specifies the location from which the drawer will be opened. The following options are available:
 	* `Left` 
 	* `Right`
 	* `Top`
 	* `Bottom`
 
-* `AreGesturesEnabled` (`bool`)&mdash; Specifies ability for gestures to open and close the drawer.
-* `TouchTargetThreshold` (`double`)&mdash; Defines the touchable area (number of pixels from the screen edges) that will allow to open the DrawerContent. 
+* `AreGesturesEnabled`(`bool`)&mdash;Specifies ability for gestures to open and close the drawer.
+* `TouchTargetThreshold`(`double`)&mdash;Defines the touchable area (number of pixels from the screen edges) that will allow to open the DrawerContent. 
 
 >important A sample Location example can be found in the SideDrawer/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
 

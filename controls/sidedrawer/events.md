@@ -8,16 +8,16 @@ slug: sidedrawer-features-events
 
 # Events
 
-RadSideDrawer exposes the following events&mdash;
+SideDrawer exposes the following events
 
-* `DrawerOpening`&mdash; Raised when the drawer starts opening.
-* `DrawerOpened`&mdash; Raised when the drawer is already opened.
-* `DrawerClosing`&mdash; Raised when the drawer starts closing.
-* `DrawerClosed`&mdash; Raised when the drawer is already closed.
+* `DrawerOpening`&mdash;Raised when the drawer starts opening.
+* `DrawerOpened`&mdash;Raised when the drawer is already opened.
+* `DrawerClosing`&mdash;Raised when the drawer starts closing.
+* `DrawerClosed`&mdash;Raised when the drawer is already closed.
 
-where the event handlers listed above recieves two paameters&mdash;
+where the event handlers listed above recieves two paameters
 
-* `sender`&mdash; which is of type object, but can be cast to the RadSideDrawer type.
+* `sender`&mdash;which is of type object, but can be cast to the RadSideDrawer type.
 * `EventArgs`
 
 ## See Also

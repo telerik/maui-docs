@@ -14,18 +14,14 @@ slug: sidedrawer-overview
 
 ## Key features
 
-* [Drawer positions]({%slug sidedrawer-features-configuration%})&mdash; The drawer can be shown from any of the four edges of the screen.  You can define its position through the DrawerLocation property.
+* [Drawer positions]({%slug sidedrawer-features-configuration%})&mdash;The drawer can be shown from any of the four edges of the screen.  You can define its position through the DrawerLocation property.
 
-* [Effects and transitions]({%slug sidedrawer-features-transitions%})&mdash; SideDrawer supports transition animations that are applied to the opening and closing view. We provide several predefined animations that can be easily set or changed at runtime to meet our customers’ requirements.
+* [Effects and transitions]({%slug sidedrawer-features-transitions%})&mdash;SideDrawer supports transition animations that are applied to the opening and closing view. We provide several predefined animations that can be easily set or changed at runtime to meet our customers’ requirements.
 
-* [Drawer length]({%slug sidedrawer-features-configuration%})&mdash;
+* [Drawer length]({%slug sidedrawer-features-configuration%})&mdash;SideDrawer allows you to modify the length of the drawer content.
 
-* [Commands]({%slug sidedrawer-features-commands%})&mdash; SideDrawer allows you to attach commands that will be executed when certain actions, such as Opening and Closing occur.
+* [Commands support]({%slug sidedrawer-features-commands%})&mdash;SideDrawer allows you to attach commands that will be executed when certain actions, such as Opening and Closing occur.
 
 ## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI SideDrawer]({%slug sidedrawer-getting-started%}) 
-- [Configuration]({%slug sidedrawer-features-configuration%})
-- [Commands]({%slug sidedrawer-features-commands%})
-- [Events]({%slug sidedrawer-features-events%})
-- [Transitions]({%slug sidedrawer-features-transitions%})
+- [Getting Started with Telerik UI for .NET MAUI SideDrawer]({%slug sidedrawer-getting-started%})

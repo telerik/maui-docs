@@ -16,7 +16,7 @@ At the end, you will be able to achieve the following result.
 
 ## Prerequisites
 
-Before adding the TemplatedPicker, you need to&mdash;
+Before adding the TemplatedPicker, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
 
@@ -35,13 +35,13 @@ The SideDrawer control contains two views - `MainContent` and `DrawerContent` Th
 
  <snippet id='sidedrawer-gettingstarted-xaml'/>
 
-1. Add the following namespace&mdash;
+1. Add the following namespace:
 
  ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project&mdash;
+1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;
