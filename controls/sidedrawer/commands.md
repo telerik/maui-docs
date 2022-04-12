@@ -26,7 +26,7 @@ The following examples demonstrates how to use the SideDrawer commands in differ
 
 ## Inheriting from the SideDrawerCommandBase class
 
-You can create a class deriving from the `SideDrawerCommandBase` class and set its `Id` property to the desired command trigger event. Furthermore, you can override its `CanExecute()` and `Execute()` methods. A sample implementation is shown below:
+1. Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation is shown below:
 
  ```C#
 public class CustomDrawerCommand : SideDrawerCommandBase
@@ -48,7 +48,7 @@ public class CustomDrawerCommand : SideDrawerCommandBase
 }
  ```
 
-Once such command is created it can be used in XAML like this:
+1. When you create the command, define the SideDrawer and the command in XAML:
 
  ```XAML
 <telerik:RadSideDrawer>
@@ -64,31 +64,31 @@ Once such command is created it can be used in XAML like this:
 </telerik:RadSideDrawer>
  ```
 
-You will need to add the following namespaces
+1. Add the following namespaces
 
  ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:local="the namespace where the custom command is defined"
  ```
 
 Where the `local` alias points to the namespace where the `CustomUserCommand` is defined.
 
 ## Using the SideDrawerUserCommand class
 
-You can define a class that implements the `ICommand` interface:
+1. Define a class that implements the `ICommand` interface:
 
  <snippet id='sidedrawer-customcommands-cs' />
 
-After that you can use this class with the `SideDrawerUserCommand` in XAML like this:
+1. Use this class with the `SideDrawerUserCommand` in XAML like this:
 
  <snippet id='sidedrawer-commands-xaml' />
 
-You will need to add the following namespaces
+1. Add the following namespaces:
 
  ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:local="the namespace where the custom command is defined"
  ```
-
-and the `local` alias points to the namespace where the `CustomCommand` is defined.
 
 ## Binding to a ViewModel
 
