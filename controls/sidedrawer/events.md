@@ -15,7 +15,7 @@ SideDrawer exposes the following events
 * `DrawerClosing`&mdash;Raised when the drawer starts closing.
 * `DrawerClosed`&mdash;Raised when the drawer is already closed.
 
-where the event handlers listed above recieves two paameters
+where the event handlers listed above recieves two parameters
 
 * `sender`&mdash;which is of type object, but can be cast to the RadSideDrawer type.
 * `EventArgs`

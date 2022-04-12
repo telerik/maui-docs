@@ -41,7 +41,7 @@ Add the following namespace:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
->tip In addition to the transition type, you can also control the transition duration and opacity value through `DrawerTransitionDuration` and `DrawerTransitionFadeOpacity` properties, respectively. For more details on this go to [Configuration]({%slug sidedrawer-features-properties%}) topic.
+>tip In addition to the transition type, you can also control the transition duration and opacity value through `DrawerTransitionDuration` and `DrawerTransitionFadeOpacity` properties, respectively. For more details on this go to [Configuration]({%slug sidedrawer-features-configuration%}) topic.
 
 ### Examples
 

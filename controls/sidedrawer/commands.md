@@ -84,9 +84,9 @@ After that you can use this class with the `SideDrawerUserCommand` in XAML like 
 
 You will need to add the following namespaces
 
-```XAML
+ ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```
 
 and the `local` alias points to the namespace where the `CustomCommand` is defined.
 

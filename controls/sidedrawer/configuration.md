@@ -20,10 +20,10 @@ This article explains all configuration options that the SideDrawer control prov
 	* `Top`
 	* `Bottom`
 
-* `AreGesturesEnabled`(`bool`)&mdash;Specifies ability for gestures to open and close the drawer.
+* `AreGesturesEnabled`(`bool`)&mdash;This is a mobile exclusive property which specifies ability for gestures to open and close the drawer.
 * `TouchTargetThreshold`(`double`)&mdash;Defines the touchable area (number of pixels from the screen edges) that will allow to open the DrawerContent. 
 
->important A sample Location example can be found in the SideDrawer/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+>important A sample Location example can be found in the SideDrawer/Features folder of the [SDK Samples Browser application]({%slug maui-demo-app%}).
 
 ## See Also
 

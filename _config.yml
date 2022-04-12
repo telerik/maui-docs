@@ -225,6 +225,10 @@ navigation:
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
+    ## SideDrawer
+    controls/sidedrawer:
+        title: "SideDrawer"
+    ## End SideDrawer
     ## TabView
     controls/tabview:
         title: "TabView"
@@ -352,6 +356,7 @@ intro_columns:
         "DockLayout": "docklayout-overview"
         "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
+        "SideDrawer": "sidedrawer-overview"
   -
     title: "Buttons"
     items:
