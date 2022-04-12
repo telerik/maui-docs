@@ -85,12 +85,10 @@ Where the `local` alias points to the namespace where the `CustomUserCommand` is
 
 1. Add the following namespaces:
 
-```XAML
+ ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 xmlns:local="the namespace where the custom command is defined"
-```
-
-the `local` alias points to the namespace where the `CustomCommand` is defined.
+ ```
 
 ## Binding to a ViewModel
 
