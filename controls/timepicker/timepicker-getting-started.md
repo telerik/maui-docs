@@ -8,7 +8,7 @@ slug: timepicker-getting-started
 
 # Getting Started
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI TimePicker by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 

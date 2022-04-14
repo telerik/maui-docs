@@ -3,6 +3,7 @@ title: Docking Functionality
 page_title: .NET MAUI DockLayout Documentation | Docking Functionality
 description: "Learn how to use the docking functionality and position child elements with the Telerik UI for .NET MAUI DockLayout control."
 position: 2
+previous_url: /controls/docklayout/docklayout-docking
 slug: docklayout-docking
 ---
 
