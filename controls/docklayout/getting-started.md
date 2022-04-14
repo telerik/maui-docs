@@ -3,6 +3,7 @@ title: Getting Started
 page_title: .NET MAUI DockLayout Documentation | Getting Started
 description: "Get started with the Telerik UI for .NET MAUI DockLayout and add the control to your .NET MAUI project."
 position: 1
+previous_url: /controls/docklayout/docklayout-getting-started
 slug: docklayout-getting-started
 ---
 
@@ -26,7 +27,7 @@ Before adding the DockLayout, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a Barcode control to your page.
+1. When the your .NET MAUI application is set up, you are ready to add a DockLayout control to your page.
 
  <snippet id='docklayout-getting-started-xaml' />
  ```XAML
