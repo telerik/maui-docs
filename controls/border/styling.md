@@ -4,6 +4,7 @@ page_title: .NET MAUI Border Documentation | Styling
 description: "Learn more about how to set the color and thickness of the Telerik UI for .NET MAUI Barcode."
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
 position: 40
+previous_url: /controls/border/border-styling
 slug: border-styling
 ---
 

@@ -3,6 +3,7 @@ title: Animations
 page_title: .NET MAUI BusyIndicator Documentation | Animations
 description: Check our &quot;Animations&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
 position: 2
+previous_url: /controls/busyindicator/busyindicator-animations
 slug: busyindicator-animations
 ---
 

@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI CheckBox Documentation | Overview
 description: "Try now the Telerik CheckBox for .NET MAUI enabling users to make a choice between two mutually exclusive options."
 position: 0
+previous_url: /controls/checkbox/checkbox-overview
 slug: checkbox-overview
 ---
 
