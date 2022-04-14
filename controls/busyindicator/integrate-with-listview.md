@@ -3,6 +3,7 @@ title: Integration
 page_title: .NET MAUI BusyIndicator Documentation | ListView Integration
 description: Check our &quot;Integration with ListView&quot; documentation article for Telerik BusyIndicator for .NET MAUI control.
 position: 2
+previous_url: /controls/busyindicator/busyindicator-integrate-with-listview
 slug: busyindicator-integrate-with-listview
 ---
 

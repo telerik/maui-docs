@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI BusyIndicator Documentation | Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
 position: 0
+previous_url: /controls/busyindicator/busyindicator-overview
 slug: busyindicator-overview
 ---
 
