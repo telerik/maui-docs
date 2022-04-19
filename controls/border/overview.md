@@ -27,5 +27,3 @@ It provides various border thickness types and corner-side radiuses, which can b
 ## Next Steps
 
 - [Getting Started with the Telerik UI for .NET MAUI Border]({% slug border-getting-started %})
-
--
