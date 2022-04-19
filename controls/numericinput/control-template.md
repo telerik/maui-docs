@@ -147,11 +147,3 @@ The following example demonstrates how to set the desired `ControlTemplate` depe
     </telerik:RadNumericInput.ControlTemplate>
 </telerik:RadNumericInput>
 ```
-
-### See Also
-
-Important Microsoft .NET MAUI Documentation
-- [Styles](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/styles/xaml)
-- [ControlTemplates](https://docs.microsoft.com/en-us/dotnet/maui/fundamentals/controltemplate)
-- [Namespaces](https://docs.microsoft.com/en-us/dotnet/maui/xaml/namespaces/)
-- [OnPlatform Markup Extension](https://docs.microsoft.com/en-us/dotnet/maui/xaml/markup-extensions/consume#onplatform-markup-extension)
