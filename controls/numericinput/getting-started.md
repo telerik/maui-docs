@@ -32,13 +32,13 @@ Before adding the NumericInput, you need to:
 1. When the your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
 
  ```XAML
-<telerikInput:RadNumericInput x:Name="numericInput" />
+<telerik:RadNumericInput x:Name="numericInput" />
  ```
 
 1. Add the following namespase:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
  
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

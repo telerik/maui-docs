@@ -22,7 +22,7 @@ Any culture-specific symbols in the display format will be applied according to 
 Let’s, for example, have the following NumericInput where `C` represents the Currency symbol:
 
 ```XAML
-<telerikInput:RadNumericInput StringFormat="{}{0:C2}" Value="1000" />
+<telerik:RadNumericInput StringFormat="{}{0:C2}" Value="1000" />
 ```
 
 Depending on the UICulture of the current thread, the result is the following:
