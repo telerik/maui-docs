@@ -341,6 +341,7 @@ intro_columns:
     title: "Editors"
     items:
         "DatePicker": "datepicker-overview"
+        "DateTimePicker": "datetimepicker-overview"
         "Entry": "entry-overview"
         "ListPicker": "listpicker-overview"
         "MaskedEntry": "maskedentry-overview"
