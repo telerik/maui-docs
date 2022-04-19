@@ -25,116 +25,6 @@ Within the appropriate resources section, define the base styles and finally the
 
 ```XAML
 <ResourceDictionary>
-    <Style x:Key="NumericButtonBaseStyle" TargetType="telerik:NumericInputButton">
-        <Setter Property="TextColor" Value="Black"/>
-        <Setter Property="FontSize" Value="{OnPlatform Default='21', MacCatalyst='7', WinUI='11'}"/>
-        <Setter Property="HorizontalContentAlignment" Value="Center"/>
-        <Setter Property="VerticalContentAlignment" Value="Center"/>
-        <Setter Property="BackgroundColor" Value="{OnPlatform Default='#F8F8F8', MacCatalyst='White', WinUI='#00FFFFFF'}"/>
-        <Setter Property="IsEnabled" Value="{TemplateBinding IsEnabled}"/>
-        <Setter Property="VisualStateManager.VisualStateGroups">
-            <VisualStateGroupList>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal"/>
-                    <VisualState x:Name="Disabled">
-                        <VisualState.Setters>
-                            <Setter Property="TextColor" Value="#61000000"/>
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateGroupList>
-        </Setter>
-    </Style>
-
-    <Style x:Key="IncreaseButtonBaseStyle" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource NumericButtonBaseStyle}">
-        <Setter Property="Text" Value="{TemplateBinding IncreaseButtonText}"/>
-        <Setter Property="Command" Value="{TemplateBinding IncreaseCommand}"/>
-        <Setter Property="AutomationId" Value="NumericIncreaseButton"/>
-    </Style>
-
-    <Style x:Key="DecreaseButtonBaseStyle" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource NumericButtonBaseStyle}">
-        <Setter Property="Text" Value="{TemplateBinding DecreaseButtonText}"/>
-        <Setter Property="Command" Value="{TemplateBinding DecreaseCommand}"/>
-        <Setter Property="AutomationId" Value="NumericDecreaseButton"/>
-    </Style>
-
-    <Style x:Key="IncreaseButtonStyle_Catalyst" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource IncreaseButtonBaseStyle}">
-        <Setter Property="FontFamily" Value="TelerikFont"/>
-        <Setter Property="VerticalContentAlignment" Value="End"/>
-        <Setter Property="Padding" Value="0.5, 0, 0, 2.5"/>
-    </Style>
-
-    <Style x:Key="DecreaseButtonStyle_Catalyst" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource DecreaseButtonBaseStyle}">
-        <Setter Property="FontFamily" Value="TelerikFont"/>
-        <Setter Property="VerticalContentAlignment" Value="Start"/>
-        <Setter Property="Padding" Value="0.5, 2.5, 0, 0"/>
-    </Style>
-
-    <Style x:Key="IncreaseButtonStyle_Android_iOS" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource IncreaseButtonBaseStyle}">
-        <Setter Property="MinimumWidthRequest" Value="44"/>
-    </Style>
-
-    <Style x:Key="DecreaseButtonStyle_Android_iOS" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource DecreaseButtonBaseStyle}">
-        <Setter Property="MinimumWidthRequest" Value="44"/>
-    </Style>
-
-    <Style x:Key="IncreaseButtonStyle_WinUI" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource IncreaseButtonBaseStyle}">
-        <Setter Property="FontFamily" Value="TelerikFont"/>
-        <Setter Property="BorderThickness" Value="0"/>
-        <Setter Property="HeightRequest" Value="22"/>
-        <Setter Property="WidthRequest" Value="22"/>
-        <Setter Property="MinimumWidthRequest" Value="0"/>
-        <Setter Property="Padding" Value="5, 0, 5, 0"/>
-        <Setter Property="VerticalOptions" Value="Center"/>
-    </Style>
-
-    <Style x:Key="DecreaseButtonStyle_WinUI" TargetType="telerik:NumericInputButton" BasedOn="{StaticResource DecreaseButtonBaseStyle}">
-        <Setter Property="FontFamily" Value="TelerikFont"/>
-        <Setter Property="BorderThickness" Value="0"/>
-        <Setter Property="HeightRequest" Value="22"/>
-        <Setter Property="WidthRequest" Value="22"/>
-        <Setter Property="MinimumWidthRequest" Value="0"/>
-        <Setter Property="Padding" Value="5, 0, 5, 0"/>
-        <Setter Property="VerticalOptions" Value="Center"/>
-    </Style>
-
-    <Style x:Key="NumericEntryBaseStyle" TargetType="telerik:NumericInputEntry">
-        <Setter Property="VerticalTextAlignment" Value="Center"/>
-        <Setter Property="FontSize" Value="{OnPlatform Android='16', iOS='17', MacCatalyst='15', WinUI='14'}"/>
-        <Setter Property="Keyboard" Value="Numeric"/>
-        <Setter Property="IsEnabled" Value="{TemplateBinding IsEnabled}"/>
-        <Setter Property="BorderBrush" Value="#DFDFDF"/>
-        <Setter Property="IsReadOnly" Value="{TemplateBinding IsReadOnly}"/>
-        <Setter Property="ClearButtonVisibility" Value="Never"/>
-        <Setter Property="AutomationId" Value="NumericEntry"/>
-        <Setter Property="VisualStateManager.VisualStateGroups">
-            <VisualStateGroupList>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal"/>
-                    <VisualState x:Name="ReadOnly">
-                        <VisualState.Setters>
-                            <Setter Property="BorderThickness" Value="0"/>
-                        </VisualState.Setters>
-                    </VisualState>
-                    <VisualState x:Name="Disabled">
-                        <VisualState.Setters>
-                            <Setter Property="TextColor" Value="#AAAAAA"/>
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateGroupList>
-        </Setter>
-    </Style>
-
-    <Style x:Key="NumericEntryStyle_Catalyst" TargetType="telerik:NumericInputEntry" BasedOn="{StaticResource NumericEntryBaseStyle}">
-        <Setter Property="CornerRadius" Value="0"/>
-    </Style>
-
-    <Style x:Key="NumericEntryStyle_WinUI" TargetType="telerik:NumericInputEntry" BasedOn="{StaticResource NumericEntryBaseStyle}">
-        <Setter Property="BorderThickness" Value="0"/>
-        <Setter Property="FocusedBorderThickness" Value="0"/>
-    </Style>
-    
     <ControlTemplate x:Key="RadNumericInput_ControlTemplate_WinUI">
         <Grid>
             <telerik:RadBorder x:Name="PART_BorderVisual"
@@ -236,7 +126,6 @@ Within the appropriate resources section, define the base styles and finally the
     </ControlTemplate>
 </ResourceDictionary>
 ```
-
 
 You need to copy the original `ControlTemplate` and its resource dependencies to the Resources section of the page, then you can modify the used colors, sizes, relocate or remove elements (for example, you can align the two buttons after the entry).
 
