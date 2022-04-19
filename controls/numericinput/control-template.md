@@ -19,7 +19,6 @@ First, add the required namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-xmlns:core="clr-namespace:Telerik.Maui.Core;assembly=Telerik.Maui.Core"
 ```
 
 Within the appropriate resources section, define the base styles and finally the ControlTemplates for each platform.
@@ -180,7 +179,7 @@ Within the appropriate resources section, define the base styles and finally the
                         <VisualState x:Name="Normal"/>
                         <VisualState x:Name="Focused">
                             <VisualState.Setters>
-                                <Setter Property="BorderColor" Value="{x:Static core:RadMauiCoreHelper.ColorAccent}"/>
+                                <Setter Property="BorderColor" Value="{StaticResource PrimaryColor}"/>
                             </VisualState.Setters>
                         </VisualState>
                         <VisualState x:Name="ReadOnly">
