@@ -24,13 +24,13 @@ You can find detailed information about the supported numeric formats in the [St
 Define the NumericInput.
 
 ```XAML
-<telerikInput:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
+<telerik:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
 ```
 
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
 The following image shows the end result:

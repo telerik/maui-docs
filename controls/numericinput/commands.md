@@ -19,6 +19,7 @@ In the next example, you can see how the NumericInput commands could be utilized
 public class CommandsViewModel : NotifyPropertyChangedBase
 {
     private double value;
+    
     public CommandsViewModel()
     {
         this.CustomIncreaseCommand = new Command(this.IncreaseCommandExecute, this.IncreaseCommandCanExecute);
@@ -28,9 +29,13 @@ public class CommandsViewModel : NotifyPropertyChangedBase
         this.Minimum = 0;
         this.Maximum = 6;
     }
+    
     public double Maximum { get; set; }
+    
     public double Minimum { get; set; }
+    
     public double Step { get; set; }
+    
     public double Value
     {
         get
@@ -45,12 +50,16 @@ public class CommandsViewModel : NotifyPropertyChangedBase
             }
         }
     }
+    
     public ICommand CustomDecreaseCommand { get; set; }
+    
     public ICommand CustomIncreaseCommand { get; set; }
+    
     private bool DecreaseCommandCanExecute(object arg)
     {
         return true;
     }
+    
     private void DecreaseCommandExecute(object obj)
     {
         double newValue = this.Value - this.Step;
@@ -59,10 +68,12 @@ public class CommandsViewModel : NotifyPropertyChangedBase
         else
             this.Value = this.Maximum;
     }
+    
     private bool IncreaseCommandCanExecute(object arg)
     {
         return true;
     }
+    
     private void IncreaseCommandExecute(object obj)
     {
         double nextValue = this.Value + this.Step;
@@ -77,23 +88,23 @@ public class CommandsViewModel : NotifyPropertyChangedBase
 1. Define the NumericInput with the respective bindings:
 
  ```XAML
- <telerikInput:RadNumericInput x:Name="input"
-					            Minimum="{Binding Minimum}"
-					            Maximum="{Binding Maximum}"
-					            Step="{Binding Step}"
-					            Value="{Binding Value, Mode=TwoWay}"                                    
-					            IncreaseCommand="{Binding CustomIncreaseCommand}"
-					            DecreaseCommand="{Binding CustomDecreaseCommand}">
-    <telerikInput:RadNumericInput.BindingContext>
+ <telerik:RadNumericInput x:Name="input"
+					      Minimum="{Binding Minimum}"
+					      Maximum="{Binding Maximum}"
+					      Step="{Binding Step}"
+					      Value="{Binding Value, Mode=TwoWay}"                                    
+					      IncreaseCommand="{Binding CustomIncreaseCommand}"
+					      DecreaseCommand="{Binding CustomDecreaseCommand}">
+    <telerik:RadNumericInput.BindingContext>
         <local:CommandsViewModel />
-    </telerikInput:RadNumericInput.BindingContext>
-</telerikInput:RadNumericInput>
+    </telerik:RadNumericInput.BindingContext>
+</telerik:RadNumericInput>
  ```
 
  In the example:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
 >tip For a demo, refer to the **NumericInput/Features/Commands** folder of the SDK Browser MAUI application.

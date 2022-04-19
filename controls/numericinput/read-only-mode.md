@@ -16,13 +16,13 @@ To enable the read-only mode, set `IsReadOnly` to `True`.
 Define the NumericInput in XAML with `IsReadOnly` set to `True`.
 
 ```XAML
-<telerikInput:RadNumericInput x:Name="numericInput" IsReadOnly="True"/>
+<telerik:RadNumericInput x:Name="numericInput" IsReadOnly="True"/>
 ```
 
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
 The following image shows the result:
