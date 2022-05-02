@@ -35,8 +35,8 @@ Before adding the Popup, you need to:
 	VerticalOptions="Start"
 	Text="Add a comment"
 	Clicked="ShowPopup">
-	<telerikPrimitives:RadPopup.Popup>
-		<telerikPrimitives:RadPopup x:Name="popup"
+	<telerikMauiControls:RadPopup.Popup>
+		<telerikMauiControls:RadPopup x:Name="popup"
 									IsModal="True"
 									OutsideBackgroundColor="#6F000000">
 			<telerikMauiControls:RadBorder CornerRadius="8"
@@ -56,8 +56,8 @@ Before adding the Popup, you need to:
 						Clicked="ClosePopup" />
 				</Grid>
 			</telerikMauiControls:RadBorder>
-		</telerikPrimitives:RadPopup>
-	</telerikPrimitives:RadPopup.Popup>
+		</telerikMauiControls:RadPopup>
+	</telerikMauiControls:RadPopup.Popup>
 </Button>
  ```
 
@@ -74,10 +74,9 @@ private void ShowPopup(object sender, EventArgs e)
 }
  ```
 
-1. Add the namespace. Note that the `telerikMauiControls` namespace is needed by the Border control that is used in the example while it is not required for the Popup to work properly.
+1. Add the namespace.
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
 xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 

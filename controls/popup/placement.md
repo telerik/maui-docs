@@ -31,8 +31,8 @@ When the Popup is declared in XAML and you want to center it, attach it to the `
         Text="Show popup"
         Clicked="ShowPopup"
         x:Name="button">
-    <telerikPrimitives:RadPopup.Popup>
-        <telerikPrimitives:RadPopup x:Name="popup"
+    <telerikMauiControls:RadPopup.Popup>
+        <telerikMauiControls:RadPopup x:Name="popup"
                                     Placement="Bottom"
                                     HorizontalOffset="20"
                                     VerticalOffset="20">
@@ -47,8 +47,8 @@ When the Popup is declared in XAML and you want to center it, attach it to the `
 						LineBreakMode="WordWrap"
 						Text="With Telerik Popup for .NET MAUI you can easily add modal popups to your application to draw attention to important information or receive user input." />
             </telerikMauiControls:RadBorder>
-        </telerikPrimitives:RadPopup>
-    </telerikPrimitives:RadPopup.Popup>
+        </telerikMauiControls:RadPopup>
+    </telerikMauiControls:RadPopup.Popup>
 </Button>
 ```
 

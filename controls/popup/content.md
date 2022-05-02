@@ -59,11 +59,11 @@ The example below demonstrates how to create a sample `DataTemplate` and set it 
 <StackLayout Orientation="Horizontal" VerticalOptions="Start">
     <telerikPrimitives:RadCheckBox x:Name="checkbox"
                                    IsCheckedChanged="Checkbox_IsCheckedChanged">
-        <telerikPrimitives:RadPopup.Popup>
-            <telerikPrimitives:RadPopup x:Name="popup"
+        <telerikMauiControls:RadPopup.Popup>
+            <telerikMauiControls:RadPopup x:Name="popup"
                                         Placement="Bottom"
                                         ContentTemplate="{StaticResource PopupTemplate}" />
-        </telerikPrimitives:RadPopup.Popup>
+        </telerikMauiControls:RadPopup.Popup>
     </telerikPrimitives:RadCheckBox>
     <Label Text="Agree to the Terms &amp; Conditions"/>
 </StackLayout>
