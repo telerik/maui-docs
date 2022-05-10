@@ -32,16 +32,10 @@ The following Style properties are related to the spinner controls inside the po
 
 When defining some of these styles, you need to include additional namespaces, so that the target types are properly resolved.
 
-When you use `SelectionHighlightStyle`, you need to add the following namespace:
+When you use `SelectionHighlightStyle` and `SpinnerStyle`, you need to add the following namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
-
-When you use `SpinnerStyle`, you need to add the following namespace:
-
-```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Example
@@ -82,8 +76,7 @@ The following example shows how the styling properties can be applied.
 In addition, add the following namespaces:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows how the TimePicker control looks when the styles described above are applied.

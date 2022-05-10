@@ -14,10 +14,10 @@ By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.Picke
 
 The `PickerPopupSettings` class exposes the following `Style` properties:
 
-* `PopupViewStyle`(of type `Style` with target type `telerikInput:PickerPopupContentView`)&mdash;Defines the popup view style.
-* `HeaderStyle`(of type `Style` with target type `telerikInput:PickerPopupHeaderView`)&mdash;Defines the popup header style.
+* `PopupViewStyle`(of type `Style` with target type `telerik:PickerPopupContentView`)&mdash;Defines the popup view style.
+* `HeaderStyle`(of type `Style` with target type `telerik:PickerPopupHeaderView`)&mdash;Defines the popup header style.
 * `HeaderLabelStyle`(of type `Style` with target type `Xamarin.Forms.Label`)&mdash;Defines the popup header label style.
-* `FooterStyle`(of type `Style` with target type `telerikInput:PickerPopupFooterView`)&mdash;Defines the popup footer style.
+* `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the popup footer style.
 * `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 * `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
@@ -43,7 +43,7 @@ When defining some of these styles, you will need to include additional namespac
 If you use `PopupViewStyle`, `HeaderStyle`, or `FooterStyle`, you will need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Example
@@ -59,7 +59,7 @@ And here are how the styles are defined in the page resources.
 ## PopupView Style
 
 ```XAML
-<Style TargetType="telerikInput:PickerPopupContentView" x:Key="popupViewStyle">
+<Style TargetType="telerik:PickerPopupContentView" x:Key="popupViewStyle">
     <Setter Property="BackgroundColor" Value="White"/>
     <Setter Property="WidthRequest" Value="270"/>
 </Style>
@@ -68,7 +68,7 @@ And here are how the styles are defined in the page resources.
 ## Header Style
 
 ```XAML
-<Style TargetType="telerikInput:PickerPopupHeaderView" x:Key="headerStyle">
+<Style TargetType="telerik:PickerPopupHeaderView" x:Key="headerStyle">
     <Setter Property="BackgroundColor" Value="#00B5DC"/>
     <Setter Property="HeightRequest" Value="60"/>
     <Setter Property="Margin" Value="0"/>
@@ -92,7 +92,7 @@ And here are how the styles are defined in the page resources.
 ## Footer Style
 
 ```XAML
-<Style TargetType="telerikInput:PickerPopupFooterView" x:Key="footerStyle">
+<Style TargetType="telerik:PickerPopupFooterView" x:Key="footerStyle">
     <Setter Property="BackgroundColor" Value="#00B5DC"/>
 </Style>
 ```
@@ -120,10 +120,7 @@ And here are how the styles are defined in the page resources.
 ## Namespaces
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 This is how the TimeSpanPicker control looks when the styles described above are applied:

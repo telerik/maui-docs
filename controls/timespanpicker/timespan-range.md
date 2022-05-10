@@ -22,14 +22,14 @@ The following example shows how to set the time ranges.
 Define the TimeSpanPicker.
 
 ```XAML
-<telerikInput:RadTimeSpanPicker MinimumTime="0:0:00:00"
+<telerik:RadTimeSpanPicker MinimumTime="0:0:00:00"
                                 MaximumTime="8:00:00:0"/>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

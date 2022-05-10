@@ -16,7 +16,7 @@ The ListPicker for .NET MAUI exposes `PickerMode` property of `Telerik.XamarinFo
 Here is a sample of `PickerMode` set to `Popup`:
 
 ```XAML
-<telerikInput:RadListPicker PickerMode="Popup"  />
+<telerik:RadListPicker PickerMode="Popup"  />
 ```
 
 Check below the result on mobile and desktop:
@@ -26,7 +26,7 @@ Check below the result on mobile and desktop:
 Quick example of `PickerMode` set to `DropDown`:
 
 ```XAML
-<telerikInput:RadListPicker PickerMode="DropDown"  />
+<telerik:RadListPicker PickerMode="DropDown"  />
 ```
 
 Check the result of `DropDown` mode on mobile and desktop:
@@ -40,7 +40,7 @@ Check the result of `DropDown` mode on mobile and desktop:
 In addition, ListPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
 
 ```XAML
-<telerikInput:RadListPicker PickerMode="DropDown"
+<telerik:RadListPicker PickerMode="DropDown"
 							IsToggleButtonVisible="True" />
 ```
 

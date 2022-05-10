@@ -30,7 +30,7 @@ Before adding the TimeSpanPicker, you need to:
 1. When your .NET MAUI application is set up, you are ready to add a TimeSpanPicker control to your page.
 
  ```XAML
-<telerikInput:RadTimeSpanPicker />
+<telerik:RadTimeSpanPicker />
  ```
  ```C#
 var timeSpanPicker = new RadTimeSpanPicker();
@@ -39,7 +39,7 @@ var timeSpanPicker = new RadTimeSpanPicker();
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

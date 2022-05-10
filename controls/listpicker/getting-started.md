@@ -30,20 +30,20 @@ Before adding the ListPicker, you need to:
 1. When the your .NET MAUI application is set up, you are ready to add a ListPicker control to your page.
 
  ```XAML
-<telerikInput:RadListPicker Placeholder="Pick a name!"
+<telerik:RadListPicker Placeholder="Pick a name!"
 							ItemsSource="{Binding Items}"
 							DisplayMemberPath="FullName">
-	<telerikInput:RadListPicker.BindingContext>
+	<telerik:RadListPicker.BindingContext>
 		<local:PeopleViewModel/>
-	</telerikInput:RadListPicker.BindingContext>
-	<telerikInput:RadListPicker.ItemTemplate>
+	</telerik:RadListPicker.BindingContext>
+	<telerik:RadListPicker.ItemTemplate>
 		<DataTemplate>
 			<Label Text="{Binding Name}"
 				   HorizontalTextAlignment="Center"
 				   VerticalTextAlignment="Center"/>
 		</DataTemplate>
-	</telerikInput:RadListPicker.ItemTemplate>
-</telerikInput:RadListPicker>
+	</telerik:RadListPicker.ItemTemplate>
+</telerik:RadListPicker>
  ```
 
 1. Add a sample `ViewModel` class:
@@ -98,7 +98,7 @@ public class Person
 1. Add the following namespace:
 
  ```XAML
- xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

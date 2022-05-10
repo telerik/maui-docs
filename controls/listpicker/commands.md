@@ -35,18 +35,18 @@ The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` p
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference listPicker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference listPicker}, Path=ClearCommand}"/>
-    <telerikInput:RadListPicker Placeholder="Pick a name!"
+    <telerik:RadListPicker Placeholder="Pick a name!"
                                 x:Name="listPicker"
                                 ItemsSource="{Binding Items}"
                                 DisplayMemberPath="FullName">
-        <telerikInput:RadListPicker.SelectorSettings>
-            <telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
+        <telerik:RadListPicker.SelectorSettings>
+            <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
                                                         CancelCommand="{Binding Cancel}" />
-        </telerikInput:RadListPicker.SelectorSettings>
-        <telerikInput:RadListPicker.BindingContext>
+        </telerik:RadListPicker.SelectorSettings>
+        <telerik:RadListPicker.BindingContext>
             <local:ViewModel/>
-        </telerikInput:RadListPicker.BindingContext>
-    </telerikInput:RadListPicker>
+        </telerik:RadListPicker.BindingContext>
+    </telerik:RadListPicker>
 </StackLayout>
  ```
 
@@ -118,7 +118,7 @@ public class Person
 1. Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

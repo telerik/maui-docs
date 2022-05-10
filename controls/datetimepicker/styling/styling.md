@@ -33,15 +33,11 @@ The following Style properties are related to the spinner controls inside the po
 
 When you use `SelectionHighlightStyle`, you need to add the following namespace:
 
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
-When you use `SpinnerStyle`, you need to add the following namespace:
-
-```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-```
+The same namespace can also be used for the `SpinnerStyle`.
 
 ## Styling Examples
 
@@ -78,13 +74,6 @@ The following examples demonstrate how to define use the styling properties of t
 **Define the ToggleButtonStyle**
 
 <snippet id='datepicker-style-toggle-button-style' />
-
-In addition, add the following namespaces:
-
- ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
- ```
 
 The following image shows what the DateTimePicker control looks like when the styles described above are applied:
 

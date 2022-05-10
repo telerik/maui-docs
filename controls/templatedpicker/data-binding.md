@@ -24,7 +24,7 @@ This article describes the TemplatedPicker properties that are used for binding 
 You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TemplatedPicker:
 
 ```XAML
-<telerikInput:RadTemplatedPicker IsClearButtonVisible="True" />
+<telerik:RadTemplatedPicker IsClearButtonVisible="True" />
 
 ## Example
 
@@ -63,7 +63,7 @@ this.BindingContext = new LocationViewModel();
 1. In addition to this, you need to add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 

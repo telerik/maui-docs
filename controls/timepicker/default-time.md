@@ -20,13 +20,13 @@ The following example shows how to set the currently selected time.
 Define the TimePicker.
 
 ```
-<telerikInput:RadTimePicker Time="10:30:00"/>
+<telerik:RadTimePicker Time="10:30:00"/>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## DefaultHighlightedTime
@@ -38,7 +38,7 @@ The following example shows how to set the default highlighted time.
 Define the TimePicker.
 
 ```XAML
-<telerikInput:RadTimePicker DefaultHighlightedTime="11:30:00"
+<telerik:RadTimePicker DefaultHighlightedTime="11:30:00"
                                         SpinnerFormat="t"
                                         AreSpinnerHeadersVisible="False"/>
 ```
@@ -46,7 +46,7 @@ Define the TimePicker.
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
  
 

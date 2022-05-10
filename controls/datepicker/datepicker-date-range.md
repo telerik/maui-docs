@@ -22,7 +22,7 @@ Define the control and the date ranges.
 
 
 ```XAML
-<telerikInput:RadDatePicker MinimumDate="2020,1,1"
+<telerik:RadDatePicker MinimumDate="2020,1,1"
                             MaximumDate="2020,12,31"
                             DisplayStringFormat="yyy-ddd-MMM"/>
 ```
@@ -30,7 +30,7 @@ Define the control and the date ranges.
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

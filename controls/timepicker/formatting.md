@@ -24,13 +24,13 @@ The following example shows how to set the `DisplayStringFormat`.
 Define the TimePicker.
 
 ```XAML
-<telerikInput:RadTimePicker DisplayStringFormat="H:mm"/>
+<telerik:RadTimePicker DisplayStringFormat="H:mm"/>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Spinner Format
@@ -67,7 +67,7 @@ The Supported Time Format Separators are: `"-"`, `"."`, `","`, `" "`, `":"`,`"/"
 The following example demonstrates how to set `SpinnerFormat="H:mm"`.
 
 ```XAML
-<telerikInput:RadTimePicker SpinnerFormat="H:mm" />
+<telerik:RadTimePicker SpinnerFormat="H:mm" />
 ```
 
 

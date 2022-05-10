@@ -20,13 +20,13 @@ The following example shows how to set the currently selected time interval.
 Define the TimeSpanPicker.
 
 ```XAML
-<telerikInput:RadTimeSpanPicker Time="5:10:30:00"/>
+<telerik:RadTimeSpanPicker Time="5:10:30:00"/>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 
@@ -40,7 +40,7 @@ The following example shows how to set the default highlighted time interval.
 Define the TimeSpanPicker.
 
 ```XAML
-<telerikInput:RadTimeSpanPicker DefaultHighlightedTime="5:10:30:00"
+<telerik:RadTimeSpanPicker DefaultHighlightedTime="5:10:30:00"
                                             SpinnerFormat="G"
                                             AreSpinnerHeadersVisible="False"/>
 ```
@@ -48,7 +48,7 @@ Define the TimeSpanPicker.
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 

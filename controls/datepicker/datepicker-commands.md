@@ -23,14 +23,14 @@ The following example demonstrates how to set `ToggleCommand` and `ClearCommand`
 <StackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference datePicker}, Path=ToggleCommand}"/>
 	<Button Text="Clear Command" Command="{Binding Source={x:Reference datePicker}, Path=ClearCommand}"/>
-	<telerikInput:RadDatePicker x:Name="datePicker" />
+	<telerik:RadDatePicker x:Name="datePicker" />
 </StackLayout>
 ```
 
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## PopupSelector Commands
@@ -48,15 +48,15 @@ You can apply the `Accept` and `Cancel` commands can by using the `SelectorSetti
 
  ```XAML
 <StackLayout>
-    <telerikInput:RadDatePicker>
-        <telerikInput:RadDatePicker.SelectorSettings>
-            <telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
+    <telerik:RadDatePicker>
+        <telerik:RadDatePicker.SelectorSettings>
+            <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
                                                       CancelCommand="{Binding Cancel}"/>
-        </telerikInput:RadDatePicker.SelectorSettings>
-            <telerikInput:RadDatePicker.BindingContext>
+        </telerik:RadDatePicker.SelectorSettings>
+            <telerik:RadDatePicker.BindingContext>
                 <local:ViewModel/>
-            </telerikInput:RadDatePicker.BindingContext>
-    </telerikInput:RadDatePicker>
+            </telerik:RadDatePicker.BindingContext>
+    </telerik:RadDatePicker>
 </StackLayout>
  ```
 
@@ -89,7 +89,7 @@ public class ViewModel
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ## See Also
