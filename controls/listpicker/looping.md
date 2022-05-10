@@ -19,23 +19,23 @@ You can achieve this by setting the `IsLooping`(`bool`) property to `true`.
 
  <snippet id='listpicker-features-looping' />
  ```XAML
-<telerikInput:RadListPicker Placeholder="Pick a City Name!"
+<telerik:RadListPicker Placeholder="Pick a City Name!"
 							IsLooping="True"
 							ItemLength="40"
 							ItemSpacing="3"
 							ItemsSource="{Binding Items}"
 							DisplayMemberPath="Name">
-		<telerikInput:RadListPicker.BindingContext>
+		<telerik:RadListPicker.BindingContext>
 			<local:CitiesViewModel/>
-		</telerikInput:RadListPicker.BindingContext>
-		<telerikInput:RadListPicker.ItemTemplate>
+		</telerik:RadListPicker.BindingContext>
+		<telerik:RadListPicker.ItemTemplate>
 			<DataTemplate>
 				<Label Text="{Binding Name}"
 					   HorizontalTextAlignment="Center"
 					   VerticalTextAlignment="Center"/>
 			</DataTemplate>
-		</telerikInput:RadListPicker.ItemTemplate>
-	</telerikInput:RadListPicker>
+		</telerik:RadListPicker.ItemTemplate>
+	</telerik:RadListPicker>
  ```
 
 1. Define a sample business model:

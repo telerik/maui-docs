@@ -16,13 +16,13 @@ The TimePicker control enables users to quickly and easily select a time value. 
 To define the current time selection, use the `Time`(`TimeSpan?`) property. The default value is `null`.
 
 ```XAML
-<telerikInput:RadTimePicker Time="10:30:00"/>
+<telerik:RadTimePicker Time="10:30:00"/>
 ```
 
 Add the namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Clear Button
@@ -30,7 +30,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TimePicker:
 
 ```XAML
-<telerikInput:RadTimePicker Time="10:30:00"
+<telerik:RadTimePicker Time="10:30:00"
                             IsClearButtonVisible="True" />
 ```
 
@@ -41,7 +41,7 @@ To cancel the selected time, use the `ClearSelection` method.
 ```XAML
 <StackLayout>
 	<Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
-	<telerikInput:RadTimePicker x:Name="timePicker"/>
+	<telerik:RadTimePicker x:Name="timePicker"/>
 </StackLayout>
 ```
 
@@ -59,7 +59,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 The TimePicker exposes the `SelectionChanged` event, which is raised when the user picks a time value.
 
 ```XAML
-<telerikInput:RadTimePicker x:Name="timePicker"
+<telerik:RadTimePicker x:Name="timePicker"
                             SelectionChanged="TimePicker_SelectionChanged"/>
 ```
 

@@ -21,17 +21,17 @@ The following example demonstrates how to set the `DisplayStringFormat` definiti
 Define the control and the `DisplayStringFormat`.
 
 ```XAML
-<telerikInput:RadDatePicker DefaultHighlightedDate="2020,05,15"
-                            DisplayStringFormat="yyyy/MMM/dd"
-                            Placeholder="Pick a date!"
-                            SpinnerFormat="dd/MMM/yyyy"
-                            AreSpinnerHeadersVisible="False"/>
+<telerik:RadDatePicker DefaultHighlightedDate="2020,05,15"
+                       DisplayStringFormat="yyyy/MMM/dd"
+                       Placeholder="Pick a date!"
+                       SpinnerFormat="dd/MMM/yyyy"
+                       AreSpinnerHeadersVisible="False"/>
 ```
 
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Spinner Format
@@ -77,7 +77,7 @@ The following examples demonstrate how to set the `SpinnerFormat` property of th
 The following example demonstrates how to set the `SpinnerFormat` property to the `"MMMM dd"` format.
 
 ```XAML
-<telerikInput:RadDatePicker SpinnerFormat="MMMM dd" />
+<telerik:RadDatePicker SpinnerFormat="MMMM dd" />
 ```
 
 
@@ -90,7 +90,7 @@ The following image shows the result:
 The following example demonstrates how to set the `SpinnerFormat` property to the `"dd"` format.
 
 ```XAML
-<telerikInput:RadDatePicker SpinnerFormat="dd" />
+<telerik:RadDatePicker SpinnerFormat="dd" />
 ```
 
 
@@ -103,7 +103,7 @@ The following image shows the result:
 The following example demonstrates how to set the `SpinnerFormat` property to the `"MM yyyy"` format.
 
 ```XAML
-<telerikInput:RadDatePicker SpinnerFormat="MMM yyyy" />
+<telerik:RadDatePicker SpinnerFormat="MMM yyyy" />
 ```
 
 
@@ -116,7 +116,7 @@ The following image shows the result:
 The following example demonstrates how to set the `SpinnerFormat` property to the `"yyyy/dd/MMM"` format.
 
 ```XAML
-<telerikInput:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
+<telerik:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
 ```
 
 

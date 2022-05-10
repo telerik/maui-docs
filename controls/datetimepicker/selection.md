@@ -17,14 +17,14 @@ The `Date`(`DateTime?`) property defines the current date selection. Its default
 The following example demonstrates how to set the `Date` property.
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15"
+<telerik:RadDateTimePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>
 ```
 
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Clear Button
@@ -32,7 +32,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set `IsClearButtonVisible` property of the DateTimePicker:
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15"
+<telerik:RadDateTimePicker Date="2020,05,15"
                             IsClearButtonVisible="True" />
 ```
 
@@ -43,14 +43,14 @@ The DateTimePicker for .NET MAUI allows you to clear the selected date through i
 ```XAML
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
-    <telerikInput:RadDateTimePicker x:Name="dateTimePicker"/>
+    <telerik:RadDateTimePicker x:Name="dateTimePicker"/>
 </StackLayout>
 ```
 
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
 ```
 
 Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
@@ -69,13 +69,13 @@ The DateTimePicker exposes a `SelectionChanged` event, which is raised when the 
 The following example demonstrates how to use `SelectionChanged`.
 
 ```XAML
-<telerikInput:RadDateTimePicker SelectionChanged="RadDateTimePicker_SelectionChanged"/>
+<telerik:RadDateTimePicker SelectionChanged="RadDateTimePicker_SelectionChanged"/>
 ```
 
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Add the `SelectionChanged` event, where the `sender` is the `RadDateTimePicker` instance.

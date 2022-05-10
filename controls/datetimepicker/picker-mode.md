@@ -16,7 +16,7 @@ The DateTimePicker for .NET MAUI exposes `PickerMode` property of `Telerik.Xamar
 Here is a sample of `PickerMode` set to `Popup`:
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15" 
+<telerik:RadDateTimePicker Date="2020,05,15" 
 								PickerMode="Popup" />
 ```
 
@@ -27,7 +27,7 @@ Check below the result on mobile and desktop:
 Quick example of `PickerMode` set to `DropDown`:
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15" 
+<telerik:RadDateTimePicker Date="2020,05,15" 
 							PickerMode="DropDown" />
 ```
 
@@ -40,7 +40,7 @@ Check the result of `DropDown` mode on mobile and desktop:
 In addition, DateTimePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
 
 ```XAML
-<telerikInput:RadDateTimePicker Date="2020,05,15"
+<telerik:RadDateTimePicker Date="2020,05,15"
 								PickerMode="DropDown"
 								IsToggleButtonVisible="True" />
 ```

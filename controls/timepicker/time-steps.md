@@ -22,7 +22,7 @@ The following example shows how to set the time steps.
 1. Define the TimePicker.
 
  ```XAML
-<telerikInput:RadTimePicker HourStep="2"
+<telerik:RadTimePicker HourStep="2"
                          MinuteStep="10"
                          SecondStep="30"/>
  ```
@@ -30,7 +30,7 @@ The following example shows how to set the time steps.
 1. Add the namespace.
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ## See Also

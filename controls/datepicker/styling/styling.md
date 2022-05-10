@@ -25,22 +25,16 @@ The control supports the following styling properties:
 The following Style properties are related to the spinner controls inside the popup/dropdown:
 
 
-* `SpinnerStyle`(of type `Style` with target type `telerikDataControls:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
+* `SpinnerStyle`(of type `Style` with target type `telerik:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
 * `SpinnerHeaderStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to each spinner header label.
-* `SelectionHighlightStyle`(of type `Style` with target type `telerikPrimitives:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
+* `SelectionHighlightStyle`(of type `Style` with target type `telerik:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
 
 ## Namespaces
 
-When you use `SelectionHighlightStyle`, you need to add the following namespace:
+When you use `SelectionHighlightStyle` and `SpinnerStyle`, you need to add the following namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
-
-When you use `SpinnerStyle`, you need to add the following namespace:
-
-```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Styling Examples
@@ -82,8 +76,7 @@ The following examples demonstrate how to define use the styling properties of t
 In addition, add the following namespaces:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows what the DatePicker control looks like when the styles described above are applied:

@@ -48,7 +48,7 @@ The snippet below shows a simple RadDateTimePicker definition:
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Create a custom class that inherits from TelerikLocalizationManager and override the GetString() method:

@@ -16,13 +16,13 @@ The TemplatedPicker for .NET MAUI allows you to clear the selected value through
  ```XAML
 <StackLayout>
     <Button Clicked="OnClearSelectionClicked" Text="clear selection"/>
-    <telerikInput:RadTemplatedPicker x:Name="picker">
-        <telerikInput:RadTemplatedPicker.SelectorTemplate>
+    <telerik:RadTemplatedPicker x:Name="picker">
+        <telerik:RadTemplatedPicker.SelectorTemplate>
             <ControlTemplate>
-                <telerikInput:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
+                <telerik:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
             </ControlTemplate>
-        </telerikInput:RadTemplatedPicker.SelectorTemplate>
-    </telerikInput:RadTemplatedPicker>
+        </telerik:RadTemplatedPicker.SelectorTemplate>
+    </telerik:RadTemplatedPicker>
 </StackLayout>
  ```
 
@@ -38,7 +38,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 

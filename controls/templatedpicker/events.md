@@ -14,13 +14,13 @@ The TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is ra
 Define the TemplatedPicker:
 
 ```XAML
-<telerikInput:RadTemplatedPicker SelectionChanged="RadTemplatedPicker_SelectionChanged" x:Name="picker">
-    <telerikInput:RadTemplatedPicker.SelectorTemplate>
+<telerik:RadTemplatedPicker SelectionChanged="RadTemplatedPicker_SelectionChanged" x:Name="picker">
+    <telerik:RadTemplatedPicker.SelectorTemplate>
         <ControlTemplate>
-            <telerikInput:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
+            <telerik:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
         </ControlTemplate>
-    </telerikInput:RadTemplatedPicker.SelectorTemplate>
-</telerikInput:RadTemplatedPicker>
+    </telerik:RadTemplatedPicker.SelectorTemplate>
+</telerik:RadTemplatedPicker>
 ```
 
 Set the `SelectionChanged` event where the `sender` is the TemplatedPicker control.

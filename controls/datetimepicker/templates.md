@@ -44,17 +44,17 @@ The following example demonstrates how to use the `FooterTemplate`.
 Add the DateTimePicker definition:
 
 ```XAML
-<telerikInput:RadDateTimePicker MinimumDate="2020,01,1"
+<telerik:RadDateTimePicker MinimumDate="2020,01,1"
 							MaximumDate="2025,12,31"
 							SpinnerFormat="MMM/dd/yyyy"
 							PlaceholderTemplate="{StaticResource Picker_PlaceholderView_ControlTemplate}"
 							DisplayTemplate="{StaticResource Picker_DisplayView_ControlTemplate}">
-	<telerikInput:RadDateTimePicker.SelectorSettings>
-		<telerikInput:PickerPopupSelectorSettings HeaderTemplate="{StaticResource PopupView_Header_ControlTemplate}"
+	<telerik:RadDateTimePicker.SelectorSettings>
+		<telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource PopupView_Header_ControlTemplate}"
 												  HeaderLabelText="Date Picker"
 												  FooterTemplate="{StaticResource PopupView_Footer_ControlTemplate}"/>
-	</telerikInput:RadDateTimePicker.SelectorSettings>
-</telerikInput:RadDateTimePicker>
+	</telerik:RadDateTimePicker.SelectorSettings>
+</telerik:RadDateTimePicker>
 ```
 
 ## Customization Examples
@@ -88,7 +88,7 @@ Now, let's add the templates definition to the page resources:
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ![DateTimePicker FooterTemplate](images/datepicker_header_footer_template.png)

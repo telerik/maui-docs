@@ -37,20 +37,20 @@ You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings`
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference picker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference picker}, Path=ClearCommand}"/>
-    <telerikInput:RadTemplatedPicker x:Name="picker">
-        <telerikInput:RadTemplatedPicker.SelectorTemplate>
+    <telerik:RadTemplatedPicker x:Name="picker">
+        <telerik:RadTemplatedPicker.SelectorTemplate>
             <ControlTemplate>
-                <telerikInput:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
+                <telerik:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
             </ControlTemplate>
-        </telerikInput:RadTemplatedPicker.SelectorTemplate>
-		<telerikInput:RadTemplatedPicker.SelectorSettings>
-                <telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
+        </telerik:RadTemplatedPicker.SelectorTemplate>
+		<telerik:RadTemplatedPicker.SelectorSettings>
+                <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
                                                           CancelCommand="{Binding Cancel}"/>
-            </telerikInput:RadTemplatedPicker.SelectorSettings>
-            <telerikInput:RadTemplatedPicker.BindingContext>
+            </telerik:RadTemplatedPicker.SelectorSettings>
+            <telerik:RadTemplatedPicker.BindingContext>
                 <local:ViewModel/>
-            </telerikInput:RadTemplatedPicker.BindingContext>
-    </telerikInput:RadTemplatedPicker>
+            </telerik:RadTemplatedPicker.BindingContext>
+    </telerik:RadTemplatedPicker>
 </StackLayout>
  ```
 
@@ -89,7 +89,7 @@ this.BindingContext = new ViewModel();
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 

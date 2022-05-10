@@ -26,14 +26,14 @@ Define the TimeSpanPicker.
 <StackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference timeSpanPicker}, Path=ToggleCommand}"/>
 	<Button Text="Clear Command" Command="{Binding Source={x:Reference timeSpanPicker}, Path=ClearCommand}"/>
-	<telerikInput:RadTimePicker x:Name="timeSpanPicker" />
+	<telerik:RadTimePicker x:Name="timeSpanPicker" />
 </StackLayout>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 
@@ -54,15 +54,15 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
  ```XAML
 <StackLayout>
-    <telerikInput:RadTimeSpanPicker>
-        <telerikInput:RadTimeSpanPicker.SelectorSettings>
-            <telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
+    <telerik:RadTimeSpanPicker>
+        <telerik:RadTimeSpanPicker.SelectorSettings>
+            <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
                                                       CancelCommand="{Binding Cancel}"/>
-        </telerikInput:RadTimeSpanPicker.SelectorSettings>
-            <telerikInput:RadTimeSpanPicker.BindingContext>
+        </telerik:RadTimeSpanPicker.SelectorSettings>
+            <telerik:RadTimeSpanPicker.BindingContext>
                 <local:ViewModel/>
-            </telerikInput:RadTimeSpanPicker.BindingContext>
-    </telerikInput:RadTimeSpanPicker>
+            </telerik:RadTimeSpanPicker.BindingContext>
+    </telerik:RadTimeSpanPicker>
 </StackLayout>
  ```
 
@@ -95,7 +95,7 @@ public class ViewModel
 1. Add the following namespace.
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 

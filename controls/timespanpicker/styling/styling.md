@@ -23,7 +23,7 @@ The control supports the following styling properties:
 &nbsp;
 The following Style properties are related to the spinner controls inside the popup/dropdown:
 &nbsp;
-* `SpinnerStyle`(of type `Style` with target type `telerikDataControls:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item interval.
+* `SpinnerStyle`(of type `Style` with target type `telerik:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item interval.
 * `SpinnerHeaderStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to the spinner header labels.
 * `SelectionHighlightStyle`(of type `Style` with target type `telerikPrimitives:RadBorder`)&mdash;Specifies the style applied to the selection inside the popup.
 
@@ -34,13 +34,13 @@ When defining some of these styles, you will need to include additional namespac
 If you use `SelectionHighlightStyle`, you need to add the following namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 If you use `SpinnerStyle`, you need to add the following namespace:
 
 ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Example
@@ -56,10 +56,10 @@ And here are how the styles are defined in the page resources.
 ## Spinner Style
 
 ```XAML
-<Style TargetType="telerikDataControls:RadSpinner" x:Key="spinnerStyle">
+<Style TargetType="telerik:RadSpinner" x:Key="spinnerStyle">
     <Setter Property="ItemStyle">
         <Setter.Value>
-            <Style TargetType="telerikDataControls:SpinnerItemView">
+            <Style TargetType="telerik:SpinnerItemView">
                 <Setter Property="TextColor" Value="#797979" />
                 <Setter Property="BackgroundColor" Value="#F2F2F2" />
                 <Setter Property="CornerRadius" Value="10" />
@@ -69,7 +69,7 @@ And here are how the styles are defined in the page resources.
     </Setter>
     <Setter Property="SelectedItemStyle">
         <Setter.Value>
-            <Style TargetType="telerikDataControls:SpinnerItemView">
+            <Style TargetType="telerik:SpinnerItemView">
                 <Setter Property="TextColor" Value="#00B5DC" />
                 <Setter Property="BackgroundColor" Value="#E4F3F9" />
                 <Setter Property="CornerRadius" Value="10" />
@@ -131,9 +131,7 @@ And here are how the styles are defined in the page resources.
 ## Namespaces
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 This is how the TimeSpanPicker control looks when the styles described above are applied:

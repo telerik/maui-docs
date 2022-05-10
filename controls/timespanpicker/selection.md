@@ -20,13 +20,13 @@ The following example shows how to set the `Time` property.
 Define the TimeSpanPicker.
 
 ```XAML
-<telerikInput:RadTimeSpanPicker Time="5:10:30:00"/>
+<telerik:RadTimeSpanPicker Time="5:10:30:00"/>
 ```
 
 Add the namespace.
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Clear Button
@@ -34,7 +34,7 @@ xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Ma
 You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TimePicker:
 
 ```XAML
-<telerikInput:RadTimeSpanPicker Time="5:10:30:00"
+<telerik:RadTimeSpanPicker Time="5:10:30:00"
 								IsClearButtonVisible="True" />
 ```
 
@@ -49,14 +49,14 @@ The following example shows how to set the `ClearSelection` method.
  ```XAML
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
-    <telerikInput:RadTimeSpanPicker x:Name="timeSpanPicker"/>
+    <telerik:RadTimeSpanPicker x:Name="timeSpanPicker"/>
 </StackLayout>
  ```
 
 1. Add the namespace.
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Call `ClearSelection` inside the button `click` event. As a result, the `Time` property will be updated to `null`.
@@ -78,13 +78,13 @@ The following example shows how to set the `SelectionChanged` event.
 1. Define the TimeSpanPicker.
 
  ```XAML
-<telerikInput:RadTimeSpanPicker SelectionChanged="RadTimeSpanPicker_SelectionChanged"/>
+<telerik:RadTimeSpanPicker SelectionChanged="RadTimeSpanPicker_SelectionChanged"/>
  ```
 
 1. Add the namespace.
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Define the `SelectionChanged` event where the `sender` is the `RadTimeSpanPicker` control.

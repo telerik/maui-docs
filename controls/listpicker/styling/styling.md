@@ -24,22 +24,10 @@ The control supports the following styling properties:
 
 ## Namespaces
 
-Using `ItemStyle`, `SelectedItemStyle` you need to add the following namespace:
+Using `ItemStyle`, `SelectedItemStyle`, `PopupViewStyle`, `HeaderStyle`, `FooterStyle`, `SelectionHighlightStyle` you need to add the following namespace:
 
 ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-```
-
-Using `PopupViewStyle`, `HeaderStyle`, `FooterStyle` add the following namespace:
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-```
-
-`SelectionHighlightStyle` requires the following namespace:
-
-```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Styling Examples
@@ -79,8 +67,7 @@ Define the styles in the page resources:
 1. Add the following namespaces:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows how the ListPicker looks when the styling properties are applied:

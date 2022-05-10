@@ -26,14 +26,14 @@ The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 <StackLayout>
 	 <Button Text="Toggle Popup" Command="{Binding Source={x:Reference timePicker}, Path=ToggleCommand}"/>
      <Button Text="Clear Selected Time" Command="{Binding Source={x:Reference timePicker}, Path=ClearCommand}"/>
-	<telerikInput:RadTimePicker x:Name="timePicker" />
+	<telerik:RadTimePicker x:Name="timePicker" />
 </StackLayout>
  ```
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ## PopupSelector Commands
@@ -52,18 +52,18 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 1. Define the TimePicker.
 
  ```XAML
-<telerikInput:RadTimePicker x:Name="timePicker">
-	<telerikInput:RadTimePicker.SelectorSettings>
-		<telerikInput:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"  
+<telerik:RadTimePicker x:Name="timePicker">
+	<telerik:RadTimePicker.SelectorSettings>
+		<telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"  
 												  CancelCommand="{Binding Cancel}"/>
-	</telerikInput:RadTimePicker.SelectorSettings>
-</telerikInput:RadTimePicker>
+	</telerik:RadTimePicker.SelectorSettings>
+</telerik:RadTimePicker>
  ```
 
 1. Add the namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Add a sample `ViewModel` class.

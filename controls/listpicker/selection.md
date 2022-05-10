@@ -20,7 +20,7 @@ The `SelectedItem`(`object`) property specifies the selected item of the ListPic
 You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set `IsClearButtonVisible` property of the DateTimePicker:
 
 ```XAML
-<telerikInput:RadListPicker IsClearButtonVisible="True" />
+<telerik:RadListPicker IsClearButtonVisible="True" />
 ```
 
 ## Methods
@@ -34,21 +34,21 @@ The following example demonstrates how to use the `ClearSelection` method of the
  ```XAML
 <VerticalStackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
-    <telerikInput:RadListPicker x:Name="listPicker"
+    <telerik:RadListPicker x:Name="listPicker"
                                 Placeholder="Pick a name!"
                                 ItemsSource="{Binding Items}"
                                 DisplayMemberPath="FullName">
-        <telerikInput:RadListPicker.BindingContext>
+        <telerik:RadListPicker.BindingContext>
             <local:ViewModel/>
-        </telerikInput:RadListPicker.BindingContext>
-        <telerikInput:RadListPicker.ItemTemplate>
+        </telerik:RadListPicker.BindingContext>
+        <telerik:RadListPicker.ItemTemplate>
             <DataTemplate>
                 <Label Text="{Binding Name}"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center"/>
             </DataTemplate>
-        </telerikInput:RadListPicker.ItemTemplate>
-    </telerikInput:RadListPicker>
+        </telerik:RadListPicker.ItemTemplate>
+    </telerik:RadListPicker>
 </VerticalStackLayout>
  ```
 
@@ -72,7 +72,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ## Events
@@ -85,21 +85,21 @@ The following example demonstrates how to use the `SelectionChanged` event of th
 1. Define the ListPicker:
 
  ```XAML
-<telerikInput:RadListPicker Placeholder="Pick a name!"
+<telerik:RadListPicker Placeholder="Pick a name!"
 	                        ItemsSource="{Binding Items}"
 	                        SelectionChanged="RadListPicker_SelectionChanged"
 	                        DisplayMemberPath="FullName">
-    <telerikInput:RadListPicker.BindingContext>
+    <telerik:RadListPicker.BindingContext>
         <local:ViewModel/>
-    </telerikInput:RadListPicker.BindingContext>
-    <telerikInput:RadListPicker.ItemTemplate>
+    </telerik:RadListPicker.BindingContext>
+    <telerik:RadListPicker.ItemTemplate>
         <DataTemplate>
             <Label Text="{Binding Name}"
 				   HorizontalTextAlignment="Center"
 				   VerticalTextAlignment="Center"/>
         </DataTemplate>
-    </telerikInput:RadListPicker.ItemTemplate>
-</telerikInput:RadListPicker>
+    </telerik:RadListPicker.ItemTemplate>
+</telerik:RadListPicker>
  ```
 
 1. Set the `SelectionChanged` event, where `sender` corresponds to the ListPicker control:
@@ -122,7 +122,7 @@ private void RadListPicker_SelectionChanged(object sender, System.EventArgs e)
 1. Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

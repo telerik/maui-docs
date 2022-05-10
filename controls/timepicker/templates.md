@@ -23,20 +23,20 @@ The example below shows a sample TimePicker definition with the listed above tem
 1. Define the TimePicker.
 
  ```XAML
-<telerikInput:RadTimePicker SpinnerFormat="H:mm"
+<telerik:RadTimePicker SpinnerFormat="H:mm"
                             PlaceholderTemplate="{StaticResource placeholderTemplate}"
                             DisplayTemplate="{StaticResource displayTemplate}">
-    <telerikInput:RadTimePicker.SelectorSettings>
-        <telerikInput:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
+    <telerik:RadTimePicker.SelectorSettings>
+        <telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
                                                   FooterTemplate="{StaticResource footerTemplate}"/>
-    </telerikInput:RadTimePicker.SelectorSettings>
-</telerikInput:RadTimePicker>
+    </telerik:RadTimePicker.SelectorSettings>
+</telerik:RadTimePicker>
  ```
 
 1. Add the following namespace:
 
  ```XAML
- xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 For the example, the template definitions are added to the page resources as follows.

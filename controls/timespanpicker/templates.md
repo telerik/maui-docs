@@ -77,13 +77,13 @@ The available templates for customizing are:
 and the TimeSpan Picker definition:
 
 ```XAML
-<telerikInput:RadTimeSpanPicker PlaceholderTemplate="{StaticResource placeholderTemplate}"
+<telerik:RadTimeSpanPicker PlaceholderTemplate="{StaticResource placeholderTemplate}"
                                 DisplayTemplate="{StaticResource displayTemplate}">
-    <telerikInput:RadTimeSpanPicker.SelectorSettings>
-        <telerikInput:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
+    <telerik:RadTimeSpanPicker.SelectorSettings>
+        <telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
                                                   FooterTemplate="{StaticResource footerTemplate}"/>
-    </telerikInput:RadTimeSpanPicker.SelectorSettings>
-</telerikInput:RadTimeSpanPicker>
+    </telerik:RadTimeSpanPicker.SelectorSettings>
+</telerik:RadTimeSpanPicker>
 ```
 
 ## See Also
