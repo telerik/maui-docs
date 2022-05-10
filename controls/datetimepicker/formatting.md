@@ -21,7 +21,7 @@ The following example demonstrates how to set the `DisplayStringFormat` definiti
 Define the control and the `DisplayStringFormat`.
 
 ```XAML
-<telerikInput:RadDateTimePicker DefaultHighlightedDate="2020,05,15"
+<telerik:RadDateTimePicker DefaultHighlightedDate="2020,05,15"
                                 DisplayStringFormat="yyyy/MMM/dd"
                                 Placeholder="Pick a date!"
                                 SpinnerFormat="dd/MMM/yyyy"
@@ -31,7 +31,7 @@ Define the control and the `DisplayStringFormat`.
 Add the following namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Spinner Format
@@ -80,7 +80,7 @@ The following examples demonstrate how to set the `SpinnerFormat` property of th
 ### SpinnerFormat="MMMM dd"
 
 ```XAML
-<telerikInput:RadDateTimePicker SpinnerFormat="MMMM dd" />
+<telerik:RadDateTimePicker SpinnerFormat="MMMM dd" />
 ```
 
 And the result:
@@ -90,7 +90,7 @@ And the result:
 ### SpinnerFormat="dd"
 
 ```XAML
-<telerikInput:RadDateTimePicker SpinnerFormat="dd" />
+<telerik:RadDateTimePicker SpinnerFormat="dd" />
 ```
 
 And the result:
@@ -100,7 +100,7 @@ And the result:
 ### SpinnerFormat="H:mm"
 
 ```XAML
-<telerikInput:RadDateTimePicker SpinnerFormat="H:mm" />
+<telerik:RadDateTimePicker SpinnerFormat="H:mm" />
 ```
 
 And the result:

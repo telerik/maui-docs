@@ -32,12 +32,12 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 1. When your .NET MAUI application is set up, you are ready to add a TemplatedPicker control to your page. The following example demonstrates a custom picker control, which provides the option to choose a color from a set of predefined colors.
 
  ```XAML
-<telerikInput:RadTemplatedPicker Placeholder="Select a Color">
-	<telerikInput:RadTemplatedPicker.BindingContext>
+<telerik:RadTemplatedPicker Placeholder="Select a Color">
+	<telerik:RadTemplatedPicker.BindingContext>
         <local:ColorViewModel />
-    </telerikInput:RadTemplatedPicker.BindingContext>
-    </telerikInput:RadTemplatedPicker.BindingContext>
-	<telerikInput:RadTemplatedPicker.DisplayTemplate>
+    </telerik:RadTemplatedPicker.BindingContext>
+    </telerik:RadTemplatedPicker.BindingContext>
+	<telerik:RadTemplatedPicker.DisplayTemplate>
 		<ControlTemplate>
 			<Grid BackgroundColor="{TemplateBinding DisplayString}">
 				<Grid.GestureRecognizers>
@@ -49,8 +49,8 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 					   Text="{TemplateBinding DisplayString}" />
 			</Grid>
 		</ControlTemplate>
-	</telerikInput:RadTemplatedPicker.DisplayTemplate>
-	<telerikInput:RadTemplatedPicker.SelectorTemplate>
+	</telerik:RadTemplatedPicker.DisplayTemplate>
+	<telerik:RadTemplatedPicker.SelectorTemplate>
 		<ControlTemplate>
 			<CollectionView HeightRequest="240"
 							SelectionMode="Single"
@@ -89,8 +89,8 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 				</CollectionView.ItemsLayout>
 			</CollectionView>
 		</ControlTemplate>
-	</telerikInput:RadTemplatedPicker.SelectorTemplate>
-</telerikInput:RadTemplatedPicker>
+	</telerik:RadTemplatedPicker.SelectorTemplate>
+</telerik:RadTemplatedPicker>
  ```
 
 1. Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
@@ -132,7 +132,7 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
