@@ -8,7 +8,7 @@ slug: datagrid-row-height
 
 # Row Height
 
-Telerik UI for .NET MAUI suite DataGrid provides the option to manually set the grid row height, so you have full control over the way the content is accommodated inside the grid cells.  By default row height is calculated according to the cells content.
+Telerik UI for .NET MAUI DataGrid provides the option to manually set the grid row height, so you have full control over the way the content is accommodated inside the grid cells.  By default row height is calculated according to the cells content.
 
 Apply `RowHeight` property of type `double` to the DataGrid instance to specify the row height: 
 
