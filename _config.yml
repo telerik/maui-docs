@@ -355,6 +355,7 @@ intro_columns:
     title: "Navigation & Layouts"
     items:
         "DockLayout": "docklayout-overview"
+        "SideDrawer": "sidedrawer-overview"
         "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
   -
