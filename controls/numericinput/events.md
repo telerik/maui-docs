@@ -44,5 +44,4 @@ private void RadNumericInput_ValueChanged(object sender, Telerik.Maui.Controls.N
 
 ## See Also
 
-- [Getting Started]({%slug numericinput-getting-started%})
 - [Commands]({%slug numericinput-commands%})

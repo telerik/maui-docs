@@ -19,17 +19,15 @@ The following example demonstrates how to use `Value`.
 
 Define the `RadNumericInput` instance in XAML with the `Value` property set:
 
-```XAML
-<telerik:RadNumericInput x:Name="numericInput" Value="12" />
-```
+<snippet id='numericinput-features-value'/>
 
-Add the namespace:
+Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-The following image shows the end result.
+The following image shows the result on different platforms:
 
 ![NumericInput Value](images/numericinput-value.png)
 
@@ -43,7 +41,7 @@ The following example demonstrates how to set the `Value` property to accept `nu
 <telerik:RadNumericInput x:Name="numericInput" Value="{x:Null}" />
 ```
 
-The following image shows the result:
+Check the result in the image below:
 
 ![NumericInput Null Value](images/numericinput-null-value.png)
 
@@ -57,9 +55,7 @@ You can restrict the input using the `Minimum` and `Maximum` properties:
 
 The following example demonstrates ho to set a range.
 
-```XAML
-<telerik:RadNumericInput x:Name="numericInput" Minimum="-5" Maximum="15" />
-```
+<snippet id='numericinput-features-minmax' />
 
 The following image shows the end result:
 
@@ -71,9 +67,7 @@ The `Step` property defines the value step that will be applied to the input val
 
 The following example demonstrates how to set a step.
 
-```XAML
-<telerik:RadNumericInput x:Name="numericInput" Step="10" />
-```
+<snippet id='numericinput-features-step' />
 
 The following image shows the end result:
 

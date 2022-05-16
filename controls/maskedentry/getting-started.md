@@ -27,7 +27,7 @@ Before adding the MaskedEntry, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a MaskedEntry control to your page. The following example demonstrates the definition of the `RadRegexMaskedEntry` with the `Mask` and `PlaceholderText` properties applied.
+1. When your .NET MAUI application is set up, you are ready to add a MaskedEntry control to your page. The following example demonstrates the definition of the `RadRegexMaskedEntry` with the `Mask` and `PlaceholderText` properties applied.
 
  <snippet id='regexmaskedentry-getting-started-xaml' />
 

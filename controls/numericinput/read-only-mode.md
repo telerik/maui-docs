@@ -11,13 +11,9 @@ slug: numericinput-read-only-mode
 
 The NumericInput supports read-only mode in which the end user cannot type into the input field. Updating the value is possible only through the **Increase** and **Decrease** buttons.
 
-To enable the read-only mode, set `IsReadOnly` to `True`.
+To enable the read-only mode, set `IsReadOnly` to `True`:
 
-Define the NumericInput in XAML with `IsReadOnly` set to `True`.
-
-```XAML
-<telerik:RadNumericInput x:Name="numericInput" IsReadOnly="True"/>
-```
+<snippet id='numericinput-features-readonly' />
 
 Add the following namespace:
 
@@ -31,5 +27,5 @@ The following image shows the result:
 
 ## See Also
 
-- [Globalization]({%slug numericinput-globalization%})
-- [Commands]({%slug numericinput-commands%})
+- [Configuration]({%slug numericinput-configuration%})
+- [Customization]({%slug numericinput-customization%})

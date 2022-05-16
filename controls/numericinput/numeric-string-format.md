@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-numeric-string-format
 slug: numericinput-numeric-string-format
 ---
 
-# Numeric Input Value Formatting
+# Numeric Format String
 
 The NumericInput provides you the option to define the format of its numeric value. The desired format which will be applied when the control loses focus.
 
@@ -23,17 +23,15 @@ You can find detailed information about the supported numeric formats in the [St
 
 Define the NumericInput.
 
-```XAML
-<telerik:RadNumericInput x:Name="numericStrFormat" StringFormat="{}{0:C2}" />
-```
+<snippet id='numericinput-features-stringformat' />
 
-Add the following namespace:
+Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-The following image shows the end result:
+Check below the result on different platforms:
 
 ![NumericInput String Format](images/numericinput-string-format.png)
 
