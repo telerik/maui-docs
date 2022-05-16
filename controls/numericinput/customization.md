@@ -11,44 +11,36 @@ slug: numericinput-customization
 
 This article will guide you through all customizations options that NumericInput control provides.
 
-## Numeric Input Buttons Text
+## Set Numeric Buttons Text
 
 The NumericInput provides the following properties for customizing the text in its text input buttons.
 
 * `IncreaseButtonText`(of type `string`): Defines the text displayed inside the **Increase** button. The default string value is `"+"`.
 * `DecreaseButtonText`(of type `string`): Defines the text displayed inside the **Decrease** button. The default string value is `"-"`.
 
-The following image shows the result from setting the options.
-
-![NumericInput Button Text Default Look](images/numericinput-getting-started.png "NumericInput Button Text Default Look")
-
-
-## Customize Buttons Text
-
 The following example demonstrates how to customize the NumericInput buttons text.
 
 Define the NumericInput.
 
-```XAML
-<telerik:RadNumericInput x:Name="numericBtnText" IncreaseButtonText="&gt;" DecreaseButtonText="&lt;" />
-```
+<snippet id='numericinput-features-btntext' />
 
-Add the following namespace:
+Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-The following image shows the NumericInput with some custom buttons text.
+Check the result of the NumericInput with custom button text below:
 
 ![NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
 
+## Change Background
 
-## Change BackgroundColor
+The `BackgroundColor` property allows you to modify the background color of the input area of the NumericInput:
 
-The `BackgroundColor` allows you to change the background color of the NumericInput control.
+<snippet id='numericinput-features-background' />
 
 ## See Also
 
-- [Globalization]({%slug numericinput-globalization%})
-- [Commands]({%slug numericinput-commands%})
+- [Numeric String Format]({%slug numericinput-numeric-string-format%})
+- [Control Template]({%slug numericinput-control-template%})
