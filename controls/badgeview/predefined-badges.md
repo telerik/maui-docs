@@ -45,7 +45,7 @@ The following image shows the final result.
 
 ![Badge Types](images/badgeview-badge-types-example.png)
 
-> For the Badge Types example, go to the [SDKBrowser Demo Application]({%slug maui-demo-app%}) and navigate to **BadgeView** -> **Features** category.
+> For the Badge Types example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to **BadgeView** -> **Features** category.
 
 
 ## See Also
@@ -54,4 +54,4 @@ The following image shows the final result.
 - [Badge Position, Alignment and Offset]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Styling]({%slug badgeview-styling%})
-- [Customizaation]({%slug badgeview-customization%})
+- [Customization]({%slug badgeview-customization%})

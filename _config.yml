@@ -105,6 +105,10 @@ navigation:
     controls/checkbox:
         title: "CheckBox"
     ## End CheckBox
+    ## ComboBox
+    controls/combobox:
+        title: "ComboBox"     
+    ## End ComboBox
     ## DataGrid
     controls/datagrid:
         title: "DataGrid"
@@ -360,6 +364,7 @@ intro_columns:
   -
     title: "Editors"
     items:
+        "ComboBox": "combobox-overview"
         "DatePicker": "datepicker-overview"
         "DateTimePicker": "datetimepicker-overview"
         "Entry": "entry-overview"

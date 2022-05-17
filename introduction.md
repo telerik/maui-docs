@@ -1,18 +1,18 @@
 ---
 title: Introduction
 page_title: Introduction
-description: "Revolutionize your multi-platform app development with the Preview version of Telerik UI for .NET MAUI."
+description: "Revolutionize your multi-platform app development with Telerik UI for .NET MAUI."
 tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 position: 0
 ---
 
 # Welcome to Telerik UI for .NET MAUI
 
-Thank you for choosing Telerik UI for .NET MAUI Preview!
+Thank you for choosing Telerik UI for .NET MAUI!
 
 **Telerik UI for .NET MAUI** is the most extensive UI suite on the market that delivers controls for building modern and professional-looking mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS, and Windows from a single shared code-base.
 
-This brand-new UI library comes with the [sample SDKBrowser demo application]({%slug maui-demo-app%}) that showcases the growing number of controls in Preview. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest Preview versions from Microsoft.
+This brand-new UI library comes with [sample demo applications]({%slug sampleapps-overview%}) that showcase the growing number of controls. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest versions from Microsoft.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-introduction.html %}
@@ -33,7 +33,7 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 * [Telerik UI for .NET MAUI forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the Telerik UI for .NET MAUI team on all kinds of general issues and questions you have.
 * [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui) provides information on the features in discussion and also the planned ones for release.
 * For any features that have already been released, visit the [Telerik UI for .NET MAUI Release History](https://www.telerik.com/support/whats-new/maui-ui/release-history) and [What's New](https://www.telerik.com/support/whats-new/maui-ui) pages.
-* This official Telerik UI for .NET MAUI documentation is public and available for all users. If you want to share your feedback on a specific article, fill in the **Was this article helpful?** form at the end and tell us more about whether the content was useful for you to successfully achieve what you wanted.
+* This official Telerik UI for .NET MAUI documentation is public and available for all users. If you want to share your feedback on a specific article, fill in the **Is this article helpful?** form and tell us more about whether the content was useful for you to successfully achieve what you wanted.
 
 ## Learning Resources
 

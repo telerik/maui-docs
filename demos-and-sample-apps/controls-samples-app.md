@@ -1,36 +1,32 @@
 ---
-title: Crypto Tracker Demo App
-page_title: Telerik .NET MAUI Demo Applications
-description: "Learn how to download and install the Crypto Tracker Demo App and check out the Telerik UI for .NET MAUI controls library."
-slug: maui-crypto-app
+title: Controls Samples App
+page_title: Telerik .NET MAUI Controls Samples Application
+description: "Learn how to download and install the Controls Samples App and check out the Telerik UI for .NET MAUI controls library."
+slug: controls-samples-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application
-position: 3
+position: 1
 ---
 
-# Crypto Tracker Application
+# Controls Samples Application
 
-Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, built with the Telerik UI for .NET MAUI controls.
+The **Telerik UI for .NET MAUI Controls Samples** application provides many scenario-specific use cases designed to show off a subset of features for each component.
 
-![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
+You can access the Controls Samples application in the following ways:
 
-You can start using the Crypto Tracker application in the following ways:
+* If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/ControlsSamples** folder and open the `ControlsSamples.sln` file;
+* You can explore the code directly in the [.NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples);
 
-* If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/CryptoTracker** folder and open the `CryptoTracker.sln` file;
+![](images/samplesapplication_0.png)
 
-  The **CryptoTracker** folder is located inside the Examples folder inside the installation folder and you can now use the following subdirectories:
+The following images show a concrete example from the ControlsSamples application:
 
-    * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
-    * **Examples**&mdash;Contains all examples available (**Sdk app** and **CryptoTracker app**) with the Telerik UI for .NET MAUI controls.
-    * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
-
-* Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker).
+![](images/samplesapplication_1.png)
 
 >important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-2-download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-install-telerik-ui-for-net-maui) help topics where all steps are described. 
 
-## Run CryptoTracker on Windows
+## Run ControlsSamples on Windows
 
-1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022 Preview.
+1. Open the `ControlsSamples.sln` on Windows with Visual Studio 2022.
 
   ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
 
@@ -50,16 +46,16 @@ You can start using the Crypto Tracker application in the following ways:
 
   ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
 
-## Run CryptoTracker on macOS
+## Run ControlsSamples on macOS
 
 >important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
-1. Open Terminal inside the CryptoTracler folder.
+1. Open Terminal inside the ControlsSamples folder.
 1. Run on macOS using the following command:
 
  `dotnet build -t:Run -f net6.0-maccatalyst`
  
-	* CryptoTracker application on MacOS.
+	* ControlsSamples application on MacOS.
 	
 	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
 
