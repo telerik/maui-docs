@@ -15,8 +15,6 @@ At the end, you will be able to achieve the following result.
 
 ![NumericInput Getting Started Example](images/numericinput-getting-started.png)
 
-For more examples on the NumericInput main features, refer to the [SDK Browser MAUI application]({% slug maui-demo-app %}).
-
 ## Prerequisites
 
 Before adding the NumericInput, you need to:

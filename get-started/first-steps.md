@@ -133,5 +133,4 @@ public static class MauiProgram
 ## See Also
 
 * [Installing Telerik UI for .NET MAUI with the Telerik NuGet Server]({%slug telerik-nuget-server %})
-* [Getting Started with Telerik UI for .NET MAUI Demo Application]({% slug maui-demo-app %})
-* [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-overview %})
+* [Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})
