@@ -71,16 +71,16 @@ Telerik UI for .NET MAUI provides the following installation options:
 
 To install Telerik UI for .NET MAUI on Windows:
 
-1. Run the `Telerik_UI_for_Maui_[version]_Preview.msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
+1. Run the `Telerik_UI_for_dot_NET_Maui_[version]_[license].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
     On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
 
 1. The installation folder provides the following subdirectories:
 
     * **Binaries**&mdash;Contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
-    * **Examples**&mdash;Contains the SDK application with the Telerik UI for .NET MAUI controls.
+    * **Examples**&mdash;Contains the sample applications provided with the Telerik UI for .NET MAUI controls - SDK Browser, Crypto Tracker.
     * **LicenseAgreements**&mdash;Provides the product End-User License Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
+    * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file.
 
     ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
