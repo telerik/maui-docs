@@ -213,6 +213,10 @@ navigation:
     controls/path:
         title: "Path"
     ## End Path
+    ## PdfProcessing
+    controls/pdfprocessing:
+        title: "PdfProcessing"
+    ## End PdfProcessing   
     ## Popup
     controls/popup:
         title: "Popup"
@@ -229,6 +233,14 @@ navigation:
     controls/sidedrawer:
         title: "SideDrawer"
     ## End SideDrawer
+    ##SpreadProcessing
+    controls/spreadprocessing:
+        title: "SpreadProcessing"
+    ##End SpreadProcessing
+    ## SpreadStreamProcessing
+    controls/spreadstreamprocessing:
+        title: "SpreadStreamProcessing"
+    ## End SpreadStreamProcessing
     ## TabView
     controls/tabview:
         title: "TabView"
@@ -251,10 +263,18 @@ navigation:
         title: "Styling"
         position: 20
     ## End TimeSpanPicker
+    ## WordsProcessing
+    controls/wordsprocessing:
+        title: "WordsProcessing"    
+    ## End WordsProcessing
     ## WrapLayout
     controls/wraplayout:
         title: "WrapLayout"
     ## End WrapLayout
+    ## ZipLibrary
+    controls/ziplibrary:
+        title: "ZipLibrary"
+    ## End ZipLibrary   
 ## End Controls Sub-Folders
 
 ## The application virtual path
@@ -374,8 +394,14 @@ intro_columns:
         "BusyIndicator": "busyindicator-overview"
         "Path": "path-overview"
         "Popup": "popup-overview"
-
-
+  -
+    title: "Document Processing Libraries"
+    items:
+        "PdfProcessing": "pdfprocessing-overview"
+        "WordsProcessing": "wordsprocessing-overview"
+        "SpreadProcessing": "spreadprocessing-overview"
+        "SpreadStreamProcessing": "spreadstreamprocessing-overview"
+        "ZipLibrary": "ziplibrary-overview"
 
 # Assets pipeline configuration
 assets:
