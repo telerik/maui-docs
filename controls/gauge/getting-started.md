@@ -31,36 +31,12 @@ Before adding the Gauge, you need to:
 
 1. When the your .NET MAUI application is set up, you are ready to add a Gauge control to your page.
 
- ```XAML
-<telerikGauges:RadRadialGauge x:Name="gauge">
-    <telerikGauges:RadRadialGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="200"
-                                       Minimum="0"
-                                       Step="25" />
-    </telerikGauges:RadRadialGauge.Axis>
-    <telerikGauges:RadRadialGauge.Indicators>
-        <telerikGauges:GaugeNeedleIndicator Offset="30" Value="60" />
-        <telerikGauges:GaugeShapeIndicator Value="80" />
-    </telerikGauges:RadRadialGauge.Indicators>
-    <telerikGauges:RadRadialGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition>
-            <telerikGauges:GaugeRange Color="Green"
-                                      From="0"
-                                      To="150" />
-            <telerikGauges:GaugeGradientRange From="150" To="200">
-                <telerikCommon:RadGradientStop Offset="150" Color="Yellow" />
-                <telerikCommon:RadGradientStop Offset="200" Color="Red" />
-            </telerikGauges:GaugeGradientRange>
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadRadialGauge.Ranges>
-</telerikGauges:RadRadialGauge>
- ```
+ <snippet id='gauge-getting-started-xaml'/>
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

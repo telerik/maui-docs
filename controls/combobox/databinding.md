@@ -21,7 +21,9 @@ Here is the ComboBox definition in XAML:
 
 In addition to this, you need to add the following namespace:
 
-<snippet id='xmlns-telerikinput'/>
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 the sample business model
 
@@ -29,7 +31,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='combobox-getting-started-viewmodel'/>
+<snippet id='combobox-cities-viewmodel'/>
 
 ## See Also
 

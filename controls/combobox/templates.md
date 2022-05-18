@@ -24,17 +24,19 @@ Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-item-selecteditem-templates'/>
 
-you need to add the following namespace:
+you need to add the `telerik` namespace:
 
-<snippet id='xmlns-telerikinput'/>
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 the sample business model
 
-<snippet id='combobox-store-businessmodel'/>
+<snippet id='combobox-city-businessmodel'/>
 
 and the ViewModel used:
 
-<snippet id='combobox-searching-mode-viewmodel'/>
+<snippet id='combobox-cities-viewmodel'/>
 
 The final result: 
 
@@ -48,19 +50,15 @@ Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-tokentemplate'/>
 
-add the following namespace:
-
-<snippet id='xmlns-telerikinput'/>
-
-the sample business model
+Add the sample business model
 
 <snippet id='combobox-city-businessmodel'/>
 
 and the ViewModel used:
 
-<snippet id='comobobox-editing-viewmodel'/>
+<snippet id='combobox-cities-viewmodel'/>
 
-> when the default TokenTemplate is overriden, you will need to implement custom logic for removing the tokens from the ComboBox:
+> when the default TokenTemplate is overridden, you will need to implement custom logic for removing the tokens from the ComboBox:
 
 here is a sample logic removing the token when adding TapGestureRecognizer to the Label:
 

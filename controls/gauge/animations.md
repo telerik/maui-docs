@@ -22,36 +22,36 @@ The `AnimationSettings` class contains the following properties:
 The following example demonstrates how to set the `AnimationSettings` property:
 
 ```XAML
-<telerikGauges:RadRadialGauge x:Name="gauge1"
-                              Grid.Row="1"
-                              Grid.Column="1">
-    <telerikGauges:RadRadialGauge.AnimationSettings>
-        <telerikCommon:AnimationSettings x:Name="gauge1Animations" Easing="CubicOut" />
-    </telerikGauges:RadRadialGauge.AnimationSettings>
-    <telerikGauges:RadRadialGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="200"
-                                       Minimum="0"
-                                       Step="25" />
-    </telerikGauges:RadRadialGauge.Axis>
-    <telerikGauges:RadRadialGauge.Indicators>
-        <telerikGauges:GaugeShapeIndicator Value="80" />
-        <telerikGauges:GaugeBarIndicator Offset="30" Value="100" />
-        <telerikGauges:GaugeNeedleIndicator Fill="Blue"
-                                            Offset="30"
-                                            Value="120" />
-    </telerikGauges:RadRadialGauge.Indicators>
-    <telerikGauges:RadRadialGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition>
-            <telerikGauges:GaugeRange Color="Green"
-                                      From="0"
-                                      To="150" />
-            <telerikGauges:GaugeGradientRange From="150" To="200">
-                <telerikCommon:RadGradientStop Offset="150" Color="Yellow" />
-                <telerikCommon:RadGradientStop Offset="200" Color="Red" />
-            </telerikGauges:GaugeGradientRange>
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadRadialGauge.Ranges>
-</telerikGauges:RadRadialGauge>
+<telerik:RadRadialGauge x:Name="gauge1"
+					    Grid.Row="1"
+					    Grid.Column="1">
+    <telerik:RadRadialGauge.AnimationSettings>
+        <telerik:AnimationSettings x:Name="gauge1Animations" Easing="CubicOut" />
+    </telerik:RadRadialGauge.AnimationSettings>
+    <telerik:RadRadialGauge.Axis>
+        <telerik:GaugeLinearAxis Maximum="200"
+							     Minimum="0"
+							     Step="25" />
+    </telerik:RadRadialGauge.Axis>
+    <telerik:RadRadialGauge.Indicators>
+        <telerik:GaugeShapeIndicator Value="80" />
+        <telerik:GaugeBarIndicator Offset="30" Value="100" />
+        <telerik:GaugeNeedleIndicator Fill="Blue"
+									  Offset="30"
+									  Value="120" />
+    </telerik:RadRadialGauge.Indicators>
+    <telerik:RadRadialGauge.Ranges>
+        <telerik:GaugeRangesDefinition>
+            <telerik:GaugeRange Color="Green"
+							    From="0"
+							    To="150" />
+            <telerik:GaugeGradientRange From="150" To="200">
+                <telerik:RadGradientStop Offset="150" Color="Yellow" />
+                <telerik:RadGradientStop Offset="200" Color="Red" />
+            </telerik:GaugeGradientRange>
+        </telerik:GaugeRangesDefinition>
+    </telerik:RadRadialGauge.Ranges>
+</telerik:RadRadialGauge>
 ```
 
 The following GIF animation shows all animations supported by the Gauge.

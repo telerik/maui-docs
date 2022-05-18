@@ -25,9 +25,9 @@ The following example demonstrates how to set the `IsChecked` property.
 Define the checked state of the CheckBox.
 
 ```XAML
-<telerikPrimitives:RadCheckBox x:Name="checkboxIsChecked" 
-							   IsChecked="{Binding IsChecked}" 
-							   IsThreeState="True" />
+<telerik:RadCheckBox x:Name="checkboxIsChecked" 
+					 IsChecked="{Binding IsChecked}" 
+				     IsThreeState="True" />
 ```
 
 Set the `ViewModel`.

@@ -13,30 +13,7 @@ The Vertical Gauge allows you to display the scale range in a linear form and ve
 
 The following example shows the basic setup of the Vertical Gauge.
 
-```XAML
-<telerikGauges:RadVerticalGauge x:Name="gauge">
-    <telerikGauges:RadVerticalGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="200"
-                                       Minimum="0"
-                                       Step="25" />
-    </telerikGauges:RadVerticalGauge.Axis>
-    <telerikGauges:RadVerticalGauge.Indicators>
-        <telerikGauges:GaugeShapeIndicator Value="90" />
-    </telerikGauges:RadVerticalGauge.Indicators>
-    <telerikGauges:RadVerticalGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition>
-            <telerikGauges:GaugeRange Color="Green"
-                                      From="0"
-                                      To="150" />
-            <telerikGauges:GaugeGradientRange From="150" To="200">
-                <telerikCommon:RadGradientStop Offset="150" Color="Yellow" />
-                <telerikCommon:RadGradientStop Offset="200" Color="Red" />
-            </telerikGauges:GaugeGradientRange>
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadVerticalGauge.Ranges>
-</telerikGauges:RadVerticalGauge>
-```
-
+<snippet id='gauge-types-verticalgauge-xaml'/>
 
 The following image shows the end result.
 

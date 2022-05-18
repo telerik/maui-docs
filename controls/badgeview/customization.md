@@ -81,7 +81,7 @@ The following image shows the final result.
 
 ![Badge Custom Control Template](images/badgeview-custom-controltemplate.png)
 
->important For a BadgeView ControlTemplate example, go to the `FeaturesCategory` folder in [`SDKBrowserMaui Demo Application/Examples/BadgeViewControl`](%slug maui-demo-app%}).
+> For a Badge ControlTemplate example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
 
 ## See Also
 

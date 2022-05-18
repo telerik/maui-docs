@@ -17,19 +17,19 @@ To create a circular button with the Telerik UI for .NET MAUI Button, adjust its
 The following example demonstrates how to implement the suggested approach. Note that the `CornerRadius` property is not supported on Android. For more information, refer to article on [implementing the `CornerRadius` support](https://github.com/dotnet/maui/wiki/Status#%EF%B8%8F-button).
 
 ```XAML
-<telerikInput:RadButton WidthRequest="120"
-					    HeightRequest="120"                                
-					    Text="Circle Button"
-					    FontSize="Micro"
-					    TextColor="White"
-					    BackgroundColor="DarkBlue"
-					    CornerRadius="60"  />
+<telerik:RadButton WidthRequest="120"
+				   HeightRequest="120"                                
+				   Text="Circle Button"
+				   FontSize="Micro"
+				   TextColor="White"
+				   BackgroundColor="DarkBlue"
+				   CornerRadius="60" />
 ```
 
 Add the namespace:
 
 ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 

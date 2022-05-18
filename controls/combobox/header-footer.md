@@ -27,7 +27,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='comobobox-editing-viewmodel'/>
+<snippet id='combobox-cities-viewmodel'/>
 
 This is how the Header and Footer Templates look: 
 

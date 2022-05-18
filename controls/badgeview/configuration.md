@@ -17,11 +17,11 @@ The BadgeView exposes the `Content`(of type `Microsoft.Maui.Controls.View`) prop
 >important You are required to define content for the BadgeView by setting its `Content` property. Otherwise, the control will not be visualized.
 
 ```XAML
-<telerikPrimitives:RadBadgeView>
-    <telerikPrimitives:RadBadgeView.Content>
+<telerik:RadBadgeView>
+    <telerik:RadBadgeView.Content>
         <!-- Add the content of the BadgeView. For exmaple: Label, Image, Frame, Border, Button, and so on. -->
-    </telerikPrimitives:RadBadgeView.Content>
-</telerikPrimitives:RadBadgeView>
+    </telerik:RadBadgeView.Content>
+</telerik:RadBadgeView>
 ```
 
 ### Example
@@ -43,19 +43,19 @@ The following image shows the final result.
 To define some text in the BadgeView, set the `BadgeText` property(`string`). The text will be displayed in the Badge indicator.
 
 ```XAML
-<telerikPrimitives:RadBadgeView BadgeText="Badge Text">
-    <telerikPrimitives:RadBadgeView.Content>
-        <telerikPrimitives:RadBorder WidthRequest="80"
-                                     HeightRequest="80"
-                                     BorderThickness="1"
-                                     BorderColor="LightGray">
-            <Label Text="Telerik Badge View for Xamarin"
+<telerik:RadBadgeView BadgeText="Badge Text">
+    <telerik:RadBadgeView.Content>
+        <telerik:RadBorder WidthRequest="80"
+						   HeightRequest="80"
+						   BorderThickness="1"
+						   BorderColor="LightGray">
+            <Label Text="Telerik BadgeView for .NET MAUI"
                    FontSize="14"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"/>
-        </telerikPrimitives:RadBorder>
-    </telerikPrimitives:RadBadgeView.Content>
-</telerikPrimitives:RadBadgeView>
+        </telerik:RadBorder>
+    </telerik:RadBadgeView.Content>
+</telerik:RadBadgeView>
 ```
 
 The following image shows the final result.
@@ -79,19 +79,19 @@ The following options are supported:
 The following example demonstrates how to hide the `BadgeVisibility` state.
 
 ```XAML
-<telerikPrimitives:RadBadgeView BadgeText="1" BadgeVisibility="Hidden">
-    <telerikPrimitives:RadBadgeView.Content>
-        <telerikPrimitives:RadBorder WidthRequest="80"
-                                    HeightRequest="80"
-                                    BorderThickness="1"
-                                    BorderColor="LightGray">
+<telerik:RadBadgeView BadgeText="1" BadgeVisibility="Hidden">
+    <telerik:RadBadgeView.Content>
+        <telerik:RadBorder WidthRequest="80"
+						   HeightRequest="80"
+						   BorderThickness="1"
+						   BorderColor="LightGray">
             <Label Text="Telerik Badge View for Xamarin"
                 FontSize="14"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"/>
-        </telerikPrimitives:RadBorder>
-    </telerikPrimitives:RadBadgeView.Content>
-</telerikPrimitives:RadBadgeView>
+        </telerik:RadBorder>
+    </telerik:RadBadgeView.Content>
+</telerik:RadBadgeView>
 ```
 
 The following image shows the final result.
@@ -104,11 +104,11 @@ The following image shows the final result.
 The BadgeView provides the `Padding`(`Xamarin.Forms.Thickness`) property, which defines its inner padding.
 
 ```XAML
- <telerikPrimitives:RadBadgeView BadgeText="Add" Padding="30">
-	 <telerikPrimitives:RadBadgeView.Content>
+ <telerik:RadBadgeView BadgeText="Add" Padding="30">
+	 <telerik:RadBadgeView.Content>
 	 <!-- add your content here -->
-	 </telerikPrimitives:RadBadgeView.Content>
- </telerikPrimitives:RadBadgeView>
+	 </telerik:RadBadgeView.Content>
+ </telerik:RadBadgeView>
 ```
 
 The following image shows the result.

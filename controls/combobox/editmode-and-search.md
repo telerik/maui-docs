@@ -39,7 +39,9 @@ Here is the ComboBox definition in XAML:
 
 In addition to this, you need to add the following namespace:
 
-<snippet id='xmlns-telerikinput'/>
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 the sample business model
 
@@ -47,9 +49,9 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='comobobox-editing-viewmodel'/> 
+<snippet id='combobox-cities-viewmodel'/>
 
-Herre is how the control looks in edit mode:
+Here is how the control looks in edit mode:
 
 ![ComboBox Edit Mode](images/combobox-edit.png)
 

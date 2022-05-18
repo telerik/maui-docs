@@ -29,25 +29,25 @@ To set the symbol colors of the CheckBox, use the following properties:
 The following example demonstrates how to set the `CheckedColor` property.
 
  ```XAML
-<telerikPrimitives:RadCheckBox CheckedColor="Aqua" />
+<telerik:RadCheckBox CheckedColor="Aqua" />
  ```
 
 The following example demonstrates how to set the `UncheckedColor` property.
 
 ```XAML
-<telerikPrimitives:RadCheckBox UncheckedColor="DarkBlue" />
+<telerik:RadCheckBox UncheckedColor="DarkBlue" />
 ```
 
 The following example demonstrates how to set the `CheckedSymbolColor` property.
 
  ```XAML
-<telerikPrimitives:RadCheckBox CheckedSymbolColor="Black" />
+<telerik:RadCheckBox CheckedSymbolColor="Black" />
  ```
 
 The following example demonstrates how to set the `IndeterminateColor` and `IndeterminateSymbolColor` properties.
 
 ```XAML
-<telerikPrimitives:RadCheckBox x:Name="checkbox" IsChecked="{x:Null}" IndeterminateColor="Brown" IndeterminateSymbolColor="Coral" />
+<telerik:RadCheckBox x:Name="checkbox" IsChecked="{x:Null}" IndeterminateColor="Brown" IndeterminateSymbolColor="Coral" />
 ```
 
 The image below shows the end result.
@@ -61,7 +61,7 @@ The CheckBox exposes a `StrokeWidth` property that specifies the width of the li
 The following example demonstrates how to apply a `StrokeWidth` value.
 
 ```XAMl
-<telerikPrimitives:RadCheckBox x:Name="checkboxStrokeWidth" StrokeWidth="5"/>
+<telerik:RadCheckBox x:Name="checkboxStrokeWidth" StrokeWidth="5"/>
 ```
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length`.

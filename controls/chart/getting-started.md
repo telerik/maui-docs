@@ -30,24 +30,7 @@ Before adding the Chart, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
 
- ```XAML
-<telerikChart:RadCartesianChart>     
-	<telerikChart:RadCartesianChart.BindingContext>         
-		<vm:ChartViewModel />     
-	</telerikChart:RadCartesianChart.BindingContext>     
-	<telerikChart:RadCartesianChart.HorizontalAxis>         
-		<telerikChart:CategoricalAxis />     
-	</telerikChart:RadCartesianChart.HorizontalAxis>     
-	<telerikChart:RadCartesianChart.VerticalAxis>         
-		<telerikChart:NumericalAxis />     
-	</telerikChart:RadCartesianChart.VerticalAxis>     
-	<telerikChart:RadCartesianChart.Series>         
-		<telerikChart:BarSeries CategoryBinding="Category"
-								ValueBinding="Value"
-								ItemsSource="{Binding Data}" />     
-	</telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
+ <snippet id='chart-getting-started-xaml' />
 
 1. Add the following namespace:
 

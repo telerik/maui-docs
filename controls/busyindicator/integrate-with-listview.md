@@ -35,22 +35,22 @@ The example below demonstrates a sample integration of the BusyIndicator with th
     </Grid.RowDefinitions>
     <Button Text="Load Data" Command="{Binding LoadDataCommand}" />
     <Grid  Grid.Row="1">
-        <telerikDataControls:RadListView ItemsSource="{Binding Source}">
-            <telerikDataControls:RadListView.ItemTemplate>
+        <telerik:RadListView ItemsSource="{Binding Source}">
+            <telerik:RadListView.ItemTemplate>
                 <DataTemplate>
                     <telerikListView:ListViewTextCell Text="{Binding Title}" Detail="{Binding Author}" />
                 </DataTemplate>
-            </telerikDataControls:RadListView.ItemTemplate>
-            <telerikDataControls:RadListView.LayoutDefinition>
+            </telerik:RadListView.ItemTemplate>
+            <telerik:RadListView.LayoutDefinition>
                 <telerikListView:ListViewLinearLayout ItemLength="80" VerticalItemSpacing="2" />
-            </telerikDataControls:RadListView.LayoutDefinition>
-        </telerikDataControls:RadListView>
-        <telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"                             
-                            VerticalOptions="Center"
-                            AnimationContentHeightRequest="100"
-                            AnimationContentWidthRequest="100"
-                            HeightRequest="100"
-                            IsBusy="{Binding IsLoading}" />
+            </telerik:RadListView.LayoutDefinition>
+        </telerik:RadListView>
+        <telerik:RadBusyIndicator x:Name="BusyIndicator"                             
+								  VerticalOptions="Center"
+								  AnimationContentHeightRequest="100"
+								  AnimationContentWidthRequest="100"
+								  HeightRequest="100"
+								  IsBusy="{Binding IsLoading}" />
     </Grid>
  </Grid>
  ```
