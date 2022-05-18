@@ -36,7 +36,7 @@ Before adding the Map, you need to:
 1. Add the following namespace:
 
  ```XAML
- xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
+ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. RadMap uses *.shp files that contain the coordinates of the shapes that will be drawn by the map and an optional *.dbf file for each *.shp file with additional attributes of the shapes.

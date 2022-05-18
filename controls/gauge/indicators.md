@@ -38,22 +38,22 @@ In the following example, the angle of rotation is 45 degrees and, in this case,
 The following example demonstrates a custom needle shape:
 
 ```XAML
-<telerikCommon:RadPathGeometry x:Key="Needle3">
-    <telerikCommon:RadPathFigure StartPoint="0.533, 0.51">
-        <telerikCommon:RadLineSegment Point="1, 0.5" />
-        <telerikCommon:RadLineSegment Point="0.533, 0.49" />
-        <telerikCommon:RadArcSegment Center="0.5, 0.5"
+<telerik:RadPathGeometry x:Key="Needle3">
+    <telerik:RadPathFigure StartPoint="0.533, 0.51">
+        <telerik:RadLineSegment Point="1, 0.5" />
+        <telerik:RadLineSegment Point="0.533, 0.49" />
+        <telerik:RadArcSegment Center="0.5, 0.5"
                                      Size="0.07, 0.07"
                                      StartAngle="20"
                                      SweepAngle="142" />
-        <telerikCommon:RadLineSegment Point="0.43, 0.488" />
-        <telerikCommon:RadLineSegment Point="0.43, 0.512" />
-        <telerikCommon:RadArcSegment Center="0.5, 0.5"
+        <telerik:RadLineSegment Point="0.43, 0.488" />
+        <telerik:RadLineSegment Point="0.43, 0.512" />
+        <telerik:RadArcSegment Center="0.5, 0.5"
                                      Size="0.07, 0.07"
                                      StartAngle="200"
                                      SweepAngle="142" />
-    </telerikCommon:RadPathFigure>
-</telerikCommon:RadPathGeometry>
+    </telerik:RadPathFigure>
+</telerik:RadPathGeometry>
 ```
 
 
@@ -89,14 +89,13 @@ When the gauge draws the shape, the geometry is scaled to the size in which it w
 Here is an example of a custom shape:
 
 ```XAML
-<telerikCommon:RadPathGeometry x:Key="Shape1">
-    <telerikCommon:RadPathFigure StartPoint="0, 0.5">
-        <telerikCommon:RadLineSegment Point="1, 0.3" />
-        <telerikCommon:RadLineSegment Point="1, 0.7" />
-    </telerikCommon:RadPathFigure>
-</telerikCommon:RadPathGeometry>
+<telerik:RadPathGeometry x:Key="Shape1">
+    <telerik:RadPathFigure StartPoint="0, 0.5">
+        <telerik:RadLineSegment Point="1, 0.3" />
+        <telerik:RadLineSegment Point="1, 0.7" />
+    </telerik:RadPathFigure>
+</telerik:RadPathGeometry>
 ```
-
 
 The following image shows the end result.
 
@@ -118,32 +117,30 @@ The Bar indicator supports the following properties:
 The following example demonstrates how to implement a Bar indicator. 
 
 ```XAML
-<telerikGauges:GaugeBarIndicator Fill="Green"
-                                 StartThickness="0"
-                                 Offset="15"
-                                 Value="75" />
+<telerik:GaugeBarIndicator Fill="Green"
+                           StartThickness="0"
+                           Offset="15"
+                           Value="75" />
 ```
-
 
 ## Range Bar Indicator
 
 The `GaugeBarIndicator` presents a value range set by the `From` and `To` properties.
 
 ```XAML
-<telerikGauges:GaugeRangeBarIndicator FromCap="Oval"
-                                      ToCap="Oval"
-                                      Offset="65"
-                                      From="-75"
-                                      To="75">
-    <telerikGauges:GaugeRangeBarIndicator.GradientStops>
-        <telerikCommon:RadGradientStop Offset="-75" Color="Gray" />
-        <telerikCommon:RadGradientStop Offset="-25" Color="Red" />
-        <telerikCommon:RadGradientStop Offset="25" Color="Yellow" />
-        <telerikCommon:RadGradientStop Offset="75" Color="Green" />
-    </telerikGauges:GaugeRangeBarIndicator.GradientStops>
-</telerikGauges:GaugeRangeBarIndicator>
+<telerik:GaugeRangeBarIndicator FromCap="Oval"
+							  ToCap="Oval"
+							  Offset="65"
+							  From="-75"
+							  To="75">
+    <telerik:GaugeRangeBarIndicator.GradientStops>
+        <telerik:RadGradientStop Offset="-75" Color="Gray" />
+        <telerik:RadGradientStop Offset="-25" Color="Red" />
+        <telerik:RadGradientStop Offset="25" Color="Yellow" />
+        <telerik:RadGradientStop Offset="75" Color="Green" />
+    </telerik:GaugeRangeBarIndicator.GradientStops>
+</telerik:GaugeRangeBarIndicator>
 ```
-
 
 The following image shows the end result.
 
@@ -163,15 +160,15 @@ In addition, the Range Bar indicator has the following properties:
 The `GaugeTextIndicator` allows you to present some text on a specific value.
 
 ```XAML
-<telerikGauges:GaugeTextIndicator HorizontalTextPlacement="Right"
-                                  Stroke="#FF4062AD"
-                                  StrokeThickness="1"
-                                  Text="indicator at 65"
-                                  TextColor="#FF4062AD"
-                                  TextMargin="4"
-                                  VerticalTextPlacement="Top"
-                                  Offset="15"
-                                  Value="65" />
+<telerik:GaugeTextIndicator HorizontalTextPlacement="Right"
+						  Stroke="#FF4062AD"
+						  StrokeThickness="1"
+						  Text="indicator at 65"
+						  TextColor="#FF4062AD"
+						  TextMargin="4"
+						  VerticalTextPlacement="Top"
+						  Offset="15"
+						  Value="65" />
 ```
 
 

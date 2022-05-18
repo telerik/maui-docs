@@ -33,7 +33,7 @@ Where the `Source` and the `DataSource` of the MapShapeReader should be set to a
 Add the namespace:
 
 ```XAML
-xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Check below how RadMap with a few selected shapes will look like:

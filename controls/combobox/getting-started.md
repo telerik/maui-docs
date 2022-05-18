@@ -31,7 +31,6 @@ When your .NET MAUI application is set up, you are ready to add a ComboBox contr
 ### Using static data
 
 <snippet id='combobox-getting-started-static-items-xaml'/>
-<snippet id='combobox-getting-started-static-items-csharp'/>
 
 Here is the result:
 
@@ -39,12 +38,11 @@ Here is the result:
 
 ### Binding to a complex object
 
-Here is the ComboBox definition in XAML and in code behind:
+Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
-<snippet id='combobox-getting-started-complex-object-csharp'/>
 
->note When binding to a complex objects, ComboBox **DisplayMemberPath** property should be set.
+> When binding to a complex objects, ComboBox **DisplayMemberPath** property should be set.
 
 the sample business model
 
@@ -52,7 +50,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='combobox-getting-started-viewmodel'/>
+<snippet id='combobox-cities-viewmodel'/>
 
 Here is the result:
 

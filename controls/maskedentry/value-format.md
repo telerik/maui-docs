@@ -52,7 +52,7 @@ For example, if `Mask="##-##"` and you enter `222,` the `Value` property will be
 
 <snippet id='textmaskedentry-includelpromptandliterals-xaml' />
 
->tip For the **Value Format** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Value Format example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 
 ## See Also
 

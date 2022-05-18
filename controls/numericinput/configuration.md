@@ -24,7 +24,7 @@ Define the `RadNumericInput` instance in XAML with the `Value` property set:
 Add the `telerik` namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows the result on different platforms:

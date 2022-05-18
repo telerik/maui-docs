@@ -35,9 +35,9 @@ Following is a quick example on how the commands of the Map control can be calle
 
 1. And the namespace for RadMap: 
 
-```XAML
-xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 ## See Also
 

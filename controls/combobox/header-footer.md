@@ -33,7 +33,7 @@ This is how the Header and Footer Templates look:
 
 ![ComboBox Header Footer Templates](images/combobox-header-footer.png)
 
->important Header and Footer Template example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox Header and Footer example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 
 ## See Also
 

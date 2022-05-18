@@ -40,25 +40,23 @@ The example below shows how to apply different styles to shapes according to cer
 
  <snippet id='map-shapesstyleselector-code' />
 
-1. De fine the selector with the Styles as a resource inside a ResourceDictionary:
+1. Define the selector with the Styles as a resource inside a ResourceDictionary:
 
-<snippet id='map-styling-shapeslstyleselector-styles' />
+ <snippet id='map-styling-shapeslstyleselector-styles' />
 
 1. Add the definition of the RadMap control with the PopulationShapeStyleSelector applied;
 
-<snippet id='map-styling-shapeslstyleselector-xaml' />
+ <snippet id='map-styling-shapeslstyleselector-xaml' />
 
 1. Add the namespace:
 
  ```XAML
-xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.XamarinForms.Map"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 Check the result in the screenshot below:
 
 ![Map ShapeStyleSelector](../images/map_styling_shapestyleselector.png)
-
->note Sample Shapes Style Selector examples can be found in the Map/Features folder of the [SDK .NET MAUI Demo application]({%slug maui-demo-app%}).
 
 ## See Also
 

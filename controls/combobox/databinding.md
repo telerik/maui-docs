@@ -17,7 +17,7 @@ slug: combobox-databinding
 
 Here is the ComboBox definition in XAML:
 
-<snippet id='combobox-getting-started-complex-object-xaml'/>
+<snippet id='combobox-getting-started-complex-object-xaml '/>
 
 In addition to this, you need to add the following namespace:
 

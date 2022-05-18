@@ -18,7 +18,7 @@ The following example shows the original `ControlTemplate` used by the NumericIn
 First, add the required namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Within the appropriate resources section, define the base styles and finally the ControlTemplates for each platform.

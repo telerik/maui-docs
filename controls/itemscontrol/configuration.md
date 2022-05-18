@@ -47,12 +47,12 @@ public class ViewModel
 1. Add the ItemsControl definition with the `ItemsSource` and a sample `ItemTemplate` applied:
 
  ```XAML
-<telerikMauiControls:RadItemsControl x:Name="itemsControl"
+<telerik:RadItemsControl x:Name="itemsControl"
 							      ItemsSource="{Binding Experiences, Mode=TwoWay}">
-	<telerikMauiControls:RadItemsControl.BindingContext>
+	<telerik:RadItemsControl.BindingContext>
 		<local:ViewModel />
-	</telerikMauiControls:RadItemsControl.BindingContext>
-	<telerikMauiControls:RadItemsControl.ItemTemplate>
+	</telerik:RadItemsControl.BindingContext>
+	<telerik:RadItemsControl.ItemTemplate>
 		<DataTemplate>
 			<StackLayout Margin="10"
 						 Spacing="5"
@@ -64,10 +64,9 @@ public class ViewModel
 							   FontSize="12"/>
 			</StackLayout>
 		</DataTemplate>
-	</telerikMauiControls:RadItemsControl.ItemTemplate>
-</telerikMauiControls:RadItemsControl>
+	</telerik:RadItemsControl.ItemTemplate>
+</telerik:RadItemsControl>
  ```
-
 
 The following image shows the end result.
 
