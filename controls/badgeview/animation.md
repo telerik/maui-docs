@@ -31,7 +31,7 @@ The following example demonstrates how to set the `Animation` properties to the 
 
 <snippet id='badgeview-animation'/>
 
->tip For the Badge Animation example, go to the [SDKBrowser Demo Application]({%slug maui-demo-app%}) and navigate to **BadgeView** -> **Features** category.
+>tip For the Badge Animation example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
 
 ## See Also
 

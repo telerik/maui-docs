@@ -16,9 +16,9 @@ The axis provides options for you to control all its displayed elements includin
 Presently, the axis does not have an auto-range mechanism so it is mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis Maximum="4"
-                               Minimum="0"
-                               Step="0.5" />
+<telerik:GaugeLinearAxis Maximum="4"
+					     Minimum="0"
+					     Step="0.5" />
 ```
 
 
@@ -31,14 +31,14 @@ The following image shows the end result.
 You can control the stroke of the axis line and ticks through the `Stroke` property. To set a different color for the ticks, use the `TickStroke` property. Similarly, setting the `StrokeThickness` affects both the axis line and ticks. To set a different stroke thickness for the ticks, use the `TickThickness` property.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis Maximum="4"
-                               Minimum="0"
-                               Step="0.5"
-                               Stroke="#FFDD789B"
-                               StrokeThickness="1"
-                               TextColor="#FF4062AD"
-                               TickStroke="#FFAAC271"
-                               TickThickness="2" />
+<telerik:GaugeLinearAxis Maximum="4"
+					     Minimum="0"
+					     Step="0.5"
+					     Stroke="#FFDD789B"
+					     StrokeThickness="1"
+					     TextColor="#FF4062AD"
+					     TickStroke="#FFAAC271"
+					     TickThickness="2" />
 ```
 
 
@@ -51,7 +51,7 @@ The following image shows the end result.
 You can control the appearance of the labels with the `FontSize`, `FontFamily` and `FontAttributes` properties.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis FontAttributes="Bold"
+<telerik:GaugeLinearAxis FontAttributes="Bold"
                                FontSize="30"
                                Maximum="4"
                                Minimum="0"
@@ -79,12 +79,11 @@ The following image shows the end result.
 You can control the numeric format of the content of the labels. The default label format is `"G7"`.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis LabelFormat="N2"
-                               Maximum="4"
-                               Minimum="0"
-                               Step="0.5" />
+<telerik:GaugeLinearAxis LabelFormat="N2"
+					     Maximum="4"
+					     Minimum="0"
+					     Step="0.5" />
 ```							   
-
 
 The following image shows the end result.
 
@@ -95,11 +94,11 @@ The following image shows the end result.
 In the Radial Gauge, the Gauge elements can be positioned on the inside or on the outside of the axis line. Some of the elements, such as the ticks, can also be centered on the axis line. This behavior is controlled by the `Position` property of the specific element.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis LabelPosition="Start"
-                               Maximum="4"
-                               Minimum="0"
-                               Step="0.5"
-                               TickPosition="Start" />
+<telerik:GaugeLinearAxis LabelPosition="Start"
+					     Maximum="4"
+					     Minimum="0"
+					     Step="0.5"
+					     TickPosition="Start" />
 ```
 
 
@@ -112,12 +111,12 @@ The following image shows the end result.
 The distance between the specific element and the axis line is defined by the `Offset`, `TickOffset`, and `LabelOffset` properties. You can also specify the length of the ticks.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis LabelOffset="8"
-                               Maximum="4"
-                               Minimum="0"
-                               Step="0.5"
-                               TickLength="3"
-                               TickOffset="3" />
+<telerik:GaugeLinearAxis LabelOffset="8"
+					     Maximum="4"
+					     Minimum="0"
+					     Step="0.5"
+					     TickLength="3"
+					     TickOffset="3" />
 ```							   
 
 
@@ -130,10 +129,10 @@ The following image shows the end result.
 You can change axis label visibility by setting the `ShowLabels = "False"`. The default value is `True`. 
 
 ```XAML
-<telerikGauges:GaugeLinearAxis ShowLabels="False"
-							   Maximum="250"
-                               Minimum="0"
-                               Step="25" />
+<telerik:GaugeLinearAxis ShowLabels="False"
+						  Maximum="250"
+						  Minimum="0"
+						  Step="25" />
 ```
 
 The following image shows the end result.
@@ -147,10 +146,10 @@ Change the thickness of the axis ticks using the `TickThickness` property.
 If you want to completely remove the ticks set `TickThickness="0"`.
 
 ```XAML
-<telerikGauges:GaugeLinearAxis Maximum="250"
-                               Minimum="0"
-                               Step="25" 
-							   TickThickness="0" />
+<telerik:GaugeLinearAxis Maximum="250"
+					   Minimum="0"
+					   Step="25" 
+					   TickThickness="0" />
 ```
 
 The following image shows the end result.
@@ -160,11 +159,11 @@ The following image shows the end result.
 In scenario when Labels are hidden and the tick thickness is set to 0:
 
 ```XAML
-<telerikGauges:GaugeLinearAxis Maximum="250"
-                               Minimum="0"
-                               Step="25" 
-							   TickThickness="0" 
-							   ShowLabels="False" />
+<telerik:GaugeLinearAxis Maximum="250"
+					   Minimum="0"
+					   Step="25" 
+					   TickThickness="0" 
+					   ShowLabels="False" />
 ```
 
 ![Gauge Label and Tick Visibility](images/gauge-axis-label-tick-hidden.png)

@@ -46,7 +46,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  <snippet id='badgeview-getting-started-xaml'/>
  <snippet id='badgeview-getting-started-csharp'/>
 
->important For examples on getting started, refer to the [SDKBrowser Demo Application]({%slug maui-demo-app%}).
+> For the BadgeView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

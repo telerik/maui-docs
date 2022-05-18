@@ -13,30 +13,7 @@ The Horizontal Gauge allows you to display the scale range in a linear form and 
 
 The following example shows the basic setup of the Horizontal Gauge.
 
-```XAML
-<telerikGauges:RadHorizontalGauge x:Name="gauge">
-    <telerikGauges:RadHorizontalGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="200"
-                                       Minimum="0"
-                                       Step="25" />
-    </telerikGauges:RadHorizontalGauge.Axis>
-    <telerikGauges:RadHorizontalGauge.Indicators>
-        <telerikGauges:GaugeShapeIndicator Value="90" />
-    </telerikGauges:RadHorizontalGauge.Indicators>
-    <telerikGauges:RadHorizontalGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition>
-            <telerikGauges:GaugeRange Color="Green"
-                                      From="0"
-                                      To="150" />
-            <telerikGauges:GaugeGradientRange From="150" To="200">
-                <telerikCommon:RadGradientStop Offset="150" Color="Yellow" />
-                <telerikCommon:RadGradientStop Offset="200" Color="Red" />
-            </telerikGauges:GaugeGradientRange>
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadHorizontalGauge.Ranges>
-</telerikGauges:RadHorizontalGauge>
-```
-
+<snippet id='gauge-types-horizontalgauge-xaml'/>
 
 The following image shows the end result.
 

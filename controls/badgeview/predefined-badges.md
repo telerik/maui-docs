@@ -43,7 +43,7 @@ The following image shows the final result.
 
 ![Badge Types](images/badgeview-badge-types-example.png)
 
-> For the Badge Types example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to **BadgeView** -> **Features** category.
+> For the Badge Types example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
 
 
 ## See Also

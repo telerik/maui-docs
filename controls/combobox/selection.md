@@ -33,7 +33,9 @@ Here is the ComboBox definition in XAML:
 
 you need to add the following namespace:
 
-<snippet id='xmlns-telerikinput'/>
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 the sample business model
 
@@ -41,7 +43,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='comobobox-selection-viewmodel'/> 
+<snippet id='combobox-cities-viewmodel'/>
 
 This is how single selection looks:
 
@@ -53,9 +55,6 @@ Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-single-selection-selecteditem'/>
 
-you need to add the following namespace:
-
-<snippet id='xmlns-telerikinput'/>
 
 the sample business model
 
@@ -63,7 +62,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='comobobox-selection-viewmodel'/> 
+<snippet id='combobox-cities-viewmodel'/>
 
 ## Multiple Selection
 
@@ -83,7 +82,7 @@ the sample business model
 
 and the ViewModel used:
 
-<snippet id='comobobox-selection-viewmodel'/> 
+<snippet id='combobox-cities-viewmodel'/>
 
 This is how multiple selection looks: 
 

@@ -37,7 +37,7 @@ Before adding the MaskedEntry, you need to:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
  ```
 
->tip For the Getting Started example, refer to the `MaskedEntry/GettingStarted` folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+>important For the MaskedEntry Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

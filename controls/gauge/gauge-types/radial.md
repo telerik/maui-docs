@@ -15,30 +15,7 @@ The Radial Gauge allows you to display the scale range in a radial form.
 
 The following example shows the basic setup of the Radial Gauge.
 
-```XAML
-<telerikGauges:RadRadialGauge x:Name="gauge">
-    <telerikGauges:RadRadialGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="200"
-                                       Minimum="0"
-                                       Step="25" />
-    </telerikGauges:RadRadialGauge.Axis>
-    <telerikGauges:RadRadialGauge.Indicators>
-        <telerikGauges:GaugeNeedleIndicator Offset="30" Value="60" />
-    </telerikGauges:RadRadialGauge.Indicators>
-    <telerikGauges:RadRadialGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition>
-            <telerikGauges:GaugeRange Color="Green"
-                                      From="0"
-                                      To="150" />
-            <telerikGauges:GaugeGradientRange From="150" To="200">
-                <telerikCommon:RadGradientStop Offset="150" Color="Yellow" />
-                <telerikCommon:RadGradientStop Offset="200" Color="Red" />
-            </telerikGauges:GaugeGradientRange>
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadRadialGauge.Ranges>
-</telerikGauges:RadRadialGauge>
-```
-
+<snippet id='gauge-types-radialgauge-xaml'/>
 
 The following image shows the end result.
 

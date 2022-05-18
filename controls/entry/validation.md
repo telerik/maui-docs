@@ -25,7 +25,7 @@ The Telerik UI for .NET MAUI entry control provides validation mechanism. If the
 And the namespace used:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

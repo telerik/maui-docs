@@ -33,7 +33,7 @@ The Entry exposes the `Placeholder`(`string`) property that prompts users what k
 In the provided example:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows the end result.

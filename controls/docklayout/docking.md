@@ -33,10 +33,10 @@ The following example demonstrates how to utilize the docking functionality:
 </telerik:RadDockLayout>
 ```
 
-Define `telerik` in the following way:
+Define `telerik` namespace in the following way:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 

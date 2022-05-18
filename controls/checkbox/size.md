@@ -15,7 +15,7 @@ To define the dimensions of the control, use the `Length` property, which mainta
 The following example demonstrates how to set the `Length` value.
 
 ```XAMl
-<telerikPrimitives:RadCheckBox x:Name="checkboxLength" Length="40" StrokeWidth="5"/>
+<telerik:RadCheckBox x:Name="checkboxLength" Length="40" StrokeWidth="5"/>
 ```
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.

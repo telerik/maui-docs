@@ -30,10 +30,10 @@ Before adding the Button, you need to:
 
  <snippet id='button-getting-started-xaml' />
 
-1. Add the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Then define the Click event handler:
