@@ -33,10 +33,10 @@ The following example demonstrates how to style the Badge indicator.
 
  <snippet id='badgeview-styling'/>
 
-1. Use the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows the final result.
@@ -50,4 +50,4 @@ The following image shows the final result.
 - [Configuration]({%slug badgeview-configuration%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
-- [CustomizAation]({%slug badgeview-customization%})
+- [Customization]({%slug badgeview-customization%})

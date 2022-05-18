@@ -30,7 +30,7 @@ The Badge indicator provides the following properties:
 * `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the Badge border.
 * `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the Badge border thickness.
 * `AnimationType`(`Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
-* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options, refer to the article on [`Xamarin.Forms.Easing`](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/easing). The default value is `SinInOut`.
+* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options, refer to the article on [`Microsoft.Maui.Easing`](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/animation/easing). The default value is `SinInOut`.
 * `AnimationDuration` in milliseconds(`int`)&mdash;Defines the animation duration in milliseconds. The default value is 300.
 * `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the Badge control template.
 
@@ -39,13 +39,13 @@ The Badge indicator provides the following properties:
 The following example demonstrates how to define the Badge in XAML:
 
 ```XAML
-<telerikPrimitives:Badge/>
+<telerik:Badge/>
 ```
 
 Add the namespace:
 
 ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Use the Default ControlTemplate
@@ -57,19 +57,13 @@ The default Badge `ControlTemplate` definition in XAML is the following:
 Define the Badge in the following way:
 
 ```XAML
-<telerikPrimitives:Badge/>
-```
-
-Add the following namespace:
-
-```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+<telerik:Badge/>
 ```
 
 ## See Also
 
-- [BadgeView Overview]({%slug badgeview-overview%})
-- [BadgeView Getting Started]({%slug badgeview-getting-started%})
+- [Overview]({%slug badgeview-overview%})
+- [Getting Started]({%slug badgeview-getting-started%})
 - [Badge Position and Alignment]({%slug badgeview-position-alignment%})
 - [Badge Animation]({%slug badgeview-animation%})
 - [Badge Types]({%slug badgeview-predefined-badges%})

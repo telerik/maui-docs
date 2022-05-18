@@ -29,23 +29,12 @@ To apply the desired symbology to the Barcode:
 
 Add the symbology you need to the Barcode, for example, the Code39 one.
 
-```XAML
-<telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
-		HorizontalOptions="Center" VerticalOptions="Center"
-		Value="58000106">
-	<telerikBarcode:RadBarcode.Symbology>
-		<telerikBarcode:Code39 HorizontalTextAlignment="Center"
-						  SizingMode="Stretch"
-						  ShowText="True"  
-						  CodeTextSpacing="10"/>
-	</telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
-```
+<snippet id='barcode-features-symbology'/>
 
-Add the following namespace.
+Add the `telerik` namespace.
 
 ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows a barcode with an applied Code39 symbology.

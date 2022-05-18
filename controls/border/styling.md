@@ -24,13 +24,7 @@ To specify the width of the Border control, use its `BorderThickness` property.
 
 The following example demonstrates how to use the `BorderColor` and `BorderThickness` properties.
 
-```XAML
-<telerikPrimitives:RadBorder BorderColor="#4488F6"
-							 BorderThickness="1, 2, 1, 2">
-    <Label Text="Hello there" Margin="2" />
-</telerikPrimitives:RadBorder>
-```
-
+<snippet id='border-features-thickness' />
 
 The following image shows the end result.
 

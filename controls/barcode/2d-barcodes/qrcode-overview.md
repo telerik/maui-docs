@@ -48,23 +48,23 @@ The following example demonstrates a Barcode with an applied QR Code symbology.
 Define the Barcode and apply the QR Code symbology:
 
 ```XAML
-<telerikBarcode:RadBarcode x:Name="barcode"
-                       Value="https://docs.telerik.com/devtools/xamarin/introduction">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:QRCode SizingMode="Stretch"
-                               CodeMode="Byte"
-                               ErrorCorrectionLevel="H"                                    
-                               ECIMode ="ISO8859_1"
-                               FNC1Mode="SecondPosition"  
-                               ApplicationIndicator="00"/>
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
+<telerik:RadBarcode x:Name="barcode"
+                    Value="https://docs.telerik.com/devtools/maui/introduction">
+    <telerik:RadBarcode.Symbology>
+        <telerik:QRCode SizingMode="Stretch"
+					    CodeMode="Byte"
+					    ErrorCorrectionLevel="H"                                    
+					    ECIMode ="ISO8859_1"
+					    FNC1Mode="SecondPosition"  
+					    ApplicationIndicator="00"/>
+    </telerik:RadBarcode.Symbology>
+</telerik:RadBarcode>
 ```
 
-Add the `telerikBarcode` namespace:
+Add the `telerik` namespace:
 
 ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 

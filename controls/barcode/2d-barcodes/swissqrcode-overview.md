@@ -29,10 +29,10 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
  <snippet id='swissqrbarcode-example-xaml' />
 
-1. Add the namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.

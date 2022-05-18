@@ -31,10 +31,10 @@ Before adding the Border, you need to:
 
  <snippet id='border-getting-started-xaml' />
 
-1. Add the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
  
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

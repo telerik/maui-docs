@@ -46,10 +46,10 @@ Define the Barcode and apply the PDF417 symbology:
 
 <snippet id='barcodepdf-example-xaml' />
 
-Add the `telerikBarcode` namespace:
+Add the `telerik` namespace:
 
 ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows the result of the suggested implementation.
