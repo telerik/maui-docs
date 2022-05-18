@@ -31,20 +31,12 @@ Before adding the Barcode, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a Barcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
- ```XAML
-<telerikBarcode:RadBarcode x:Name="barcode"
-	                       Value="https://www.telerik.com/maui-ui"                               
-	                       WidthRequest="1000" HeightRequest="1000">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:QRCode SizingMode="Stretch" />
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
- ```
+ <snippet id='barcode-gettingstarted' />
 
-1. Add the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

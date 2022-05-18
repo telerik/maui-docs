@@ -18,15 +18,15 @@ The following example demonstrates how to customize the busy content.
 Apply the `BusyContent` and `BusyContentTemplate` properties.
 
 ```XAML
-<telerikPrimitives:RadBusyIndicator x:Name="BusyIndicator"
-									AnimationContentHeightRequest="100"
-									AnimationContentWidthRequest="100"  
-									AnimationType="Animation6"                                            
-									IsBusy="True">           
-    <telerikPrimitives:RadBusyIndicator.BusyContent>
+<telerik:RadBusyIndicator x:Name="BusyIndicator"
+						 AnimationContentHeightRequest="100"
+						 AnimationContentWidthRequest="100"  
+						  AnimationType="Animation6"                                            
+						IsBusy="True">           
+    <telerik:RadBusyIndicator.BusyContent>
         <Label Text="Working on it, just a moment, please..." />
-    </telerikPrimitives:RadBusyIndicator.BusyContent>
-    <telerikPrimitives:RadBusyIndicator.BusyContentTemplate>
+    </telerik:RadBusyIndicator.BusyContent>
+    <telerik:RadBusyIndicator.BusyContentTemplate>
         <ControlTemplate>
             <Grid>
                 <Grid.RowDefinitions>
@@ -40,16 +40,15 @@ Apply the `BusyContent` and `BusyContentTemplate` properties.
                                   HorizontalOptions="Center" />
             </Grid>
         </ControlTemplate>
-    </telerikPrimitives:RadBusyIndicator.BusyContentTemplate>
-</telerikPrimitives:RadBusyIndicator>
+    </telerik:RadBusyIndicator.BusyContentTemplate>
+</telerik:RadBusyIndicator>
 ```
 
-Add the `telerikPrimitives` namespace:
+Add the `telerik` namespace:
 
 ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
 
 The following image shows the result.
 

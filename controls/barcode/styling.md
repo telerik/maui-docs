@@ -13,22 +13,12 @@ The Barcode enables you to change the visual appearance of your barcodes so they
 
 To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
 
-```XAML
-<telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
-		HorizontalOptions="Center" VerticalOptions="Center"
-		ForegroundColor="DarkBlue"
-		BackgroundColor="Beige"
-		Value="58000106">
-	<telerikBarcode:RadBarcode.Symbology>
-		<telerikBarcode:Code39 SizingMode="Stretch" />
-	</telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
-```
+<snippet id='barcode-features-colors' />
 
-Add the following namespace.
+Add the `telerik` namespace.
 
 ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 The following image shows a barcode with custom colors.

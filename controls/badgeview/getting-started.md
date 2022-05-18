@@ -29,7 +29,7 @@ Before adding the BadgeView, you need to:
 1. When the your .NET MAUI application is set up, you are ready to add a BadgeView control to your page.
 
  ```XAML
-<telerikPrimitives:RadBadgeView/>
+<telerik:RadBadgeView/>
  ```
  ```C#
 var badge = new RadBadgeView();
@@ -38,7 +38,7 @@ var badge = new RadBadgeView();
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ````
 
 1. Set `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if the `Content` property of the BadgeView is set.

@@ -19,24 +19,12 @@ To apply the desired sizing mode to the Barcode:
 
 Add the sizing mode you need to the barcode, for example, the manual one.
 
-```XAML
-<telerikBarcode:RadBarcode WidthRequest="300" HeightRequest="100"
-		HorizontalOptions="Center" VerticalOptions="Center"
-		Value="58000106">
-	<telerikBarcode:RadBarcode.Symbology>
-		<telerikBarcode:Code39 HorizontalTextAlignment="Center"
-						  SizingMode="Manual"
-						  Module="2"
-						  ShowText="True"  
-						  CodeTextSpacing="10"/>
-	</telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
-```
+<snippet id='barcode-features-sizingmode' />
 
 Add the following namespace.
 
 ```XAML
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 

@@ -1,6 +1,6 @@
 ---
 title: Customization
-page_title: .NET MAUI BadgeView Documentation | Customizatin
+page_title: .NET MAUI BadgeView Documentation | Customization
 description: Check our &quot;Badge Customization&quot; documentation article for Telerik BadgeView for .NET MAUI.
 position: 9
 slug: badgeview-customization
@@ -11,9 +11,9 @@ slug: badgeview-customization
 If you don't want to use a [predefined Badge type]({%slug badgeview-predefined-badges%}) and need to customize the text inside the Badge indicator, use the `BadgeText`(`string`) property.
 
 ```XAML
-<telerikPrimitives:RadBadgeView BadgeText="Badge Text">
-    <telerikPrimitives:RadBadgeView.Content>
-        <telerikPrimitives:RadBorder WidthRequest="80"
+<telerik:RadBadgeView BadgeText="Badge Text">
+    <telerik:RadBadgeView.Content>
+        <telerik:RadBorder WidthRequest="80"
                                      HeightRequest="80"
                                      BorderThickness="1"
                                      BorderColor="LightGray">
@@ -21,9 +21,9 @@ If you don't want to use a [predefined Badge type]({%slug badgeview-predefined-b
                    FontSize="14"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"/>
-        </telerikPrimitives:RadBorder>
-    </telerikPrimitives:RadBadgeView.Content>
-</telerikPrimitives:RadBadgeView>
+        </telerik:RadBorder>
+    </telerik:RadBadgeView.Content>
+</telerik:RadBadgeView>
 ```
 
 The following image shows the final result.
@@ -34,7 +34,7 @@ The following image shows the final result.
 
 The BadgeView supports a default `ControlTemplate` which you can customize.
 
->important To override the default control template, you need to set an implicit style with `TargetType="telerikPrimitives:Badge"`.
+>important To override the default control template, you need to set an implicit style with `TargetType="telerik:Badge"`.
 
 ### Use the Default ControlTemplate
 
@@ -48,10 +48,11 @@ To use the default `ControlTemplate`:
 
  <snippet id='badgeview-controltemplate'/>
 
-1. Add the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+
  ```
 
 The following image shows the final result.
@@ -73,7 +74,7 @@ To customize the `ControlTemplate`:
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows the final result.

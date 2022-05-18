@@ -33,12 +33,10 @@ The following example demonstrates how to set the type of the Badge indicator.
 
  <snippet id='badgeview-badge-types'/>
 
-1. Use the following namespace:
+1. Use the `telerik` namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"                       
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                    
  ```
 
 The following image shows the final result.
