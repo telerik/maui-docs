@@ -35,8 +35,6 @@ Here is the result:
 
 ![Map Labels Styling](../images/map_styling_labelsstyle.png)
 
->important A sample Labels Styling example can be found in the Map/Features folder of the [SDK .NET MAUI Demo application]({%slug maui-demo-app%}).
-
 ## See Also
 
 - [ShapefileLayer]({% slug map-layers-shapefilelayer%})

@@ -23,9 +23,9 @@ This topic describes in details the configuration options related to the editabl
 
 ComboBox provides both case-sensitive and case-insensitive searching modes. The following properties are exposed:
 
-- **SearchMode** (enumeration of type *Telerik.XamarinForms.Input.SearchMode*): Defines the value that sets search sets some search criteria for the control. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. The default SearchMode is `StartsWith`.
-- **SearchTexhPath**(*string*): Specifies the name of the property against which the searching will be performed.
-* **HighlightTextColor** (*Xamarin.Forms.Color*): Defines the color of the text that will be highlighted when searching is performed.
+- `SearchMode` (enumeration of type *Telerik.XamarinForms.Input.SearchMode*): Defines the value that sets search sets some search criteria for the control. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. The default SearchMode is `StartsWith`.
+- `SearchTexhPath`(`string`): Specifies the name of the property against which the searching will be performed.
+* `HighlightTextColor` (*Microsoft.Maui.Graphics.Color*): Defines the color of the text that will be highlighted when searching is performed.
 
 > Searching can be performed when `IsEditable` is set to `true`.
 
@@ -35,7 +35,7 @@ Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-editing'/>
 
->note When binding to a complex objects, ComboBox **DisplayMemberPath** property should be set. Also when `IsEditable` is `true` `SearchTextPath` property should be set.
+>note When binding to a complex objects, ComboBox `DisplayMemberPath` property should be set. Also when `IsEditable` is `true` `SearchTextPath` property should be set.
 
 In addition to this, you need to add the following namespace:
 

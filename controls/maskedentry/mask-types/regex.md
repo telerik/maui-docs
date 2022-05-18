@@ -30,7 +30,7 @@ The image below shows the end result.
 
 ![RadRegexMaskedEntry](../images/maskedentry_regex.png)
 
->note For the **Mask Types** example, refer to the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Regex Mask examples, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Mask Types category.
 
 ## See Also
 

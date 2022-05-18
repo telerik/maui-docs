@@ -15,12 +15,6 @@ To enable the read-only mode, set `IsReadOnly` to `True`:
 
 <snippet id='numericinput-features-readonly' />
 
-Add the following namespace:
-
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
-
 The following image shows the result:
 
 ![NumericInput Read-Only mode](images/numericinput-read-only-mode.png)

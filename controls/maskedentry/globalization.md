@@ -28,7 +28,7 @@ Add the namespace:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
->tip For the **Culture** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Culture example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 
 ## See Also
 

@@ -43,7 +43,7 @@ The following image shows the final result.
 
 ![Badge Styling](images/badgeview-badge-styling.png)
 
->tip For the Badge Styling Example go to the `FeaturesCategory` folder in the [SDKBrowser Demo Application]({%slug maui-demo-app%}).
+> For the BadgeView Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
 
 ## See Also
 

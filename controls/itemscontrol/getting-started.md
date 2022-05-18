@@ -29,13 +29,13 @@ Before adding the ItemsControl, you need to:
 1. When the your .NET MAUI application is set up, you are ready to add a ItemsControl to your page.
 
  ```XAML
-<telerikMauiControls:RadItemsControl/>
+<telerik:RadItemsControl/>
  ```
 
-1. Add the following namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
  
 1. Populate the ItemsControl with some data - in the example its `ItemsSource` is set to a list of string values:

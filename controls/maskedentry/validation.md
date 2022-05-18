@@ -30,7 +30,8 @@ To customize the default validation error message, use the `ValidationErrorMessa
 
 <snippet id='regexmaskedentry-validationerrormessage-xaml' />
 
->tip For the **ValidationErrorMessage** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Validation Error Message example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
+
 
 ## See Also
 

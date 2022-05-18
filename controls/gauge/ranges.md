@@ -22,18 +22,18 @@ To include ranges in your gauge
 1. In this collection, add `GaugeRange` items when you need a solid color, or add `GaugeGradientRange` items when you need gradient colors.
 
 ```XAML
-<telerikGauges:GaugeRangesDefinition>
-    <telerikGauges:GaugeRange Color="Green"
+<telerik:GaugeRangesDefinition>
+    <telerik:GaugeRange Color="Green"
                               From="0"
                               To="100" />
-    <telerikGauges:GaugeRange Color="Yellow"
+    <telerik:GaugeRange Color="Yellow"
                               From="100"
                               To="150" />
-    <telerikGauges:GaugeGradientRange From="150" To="200">
-        <telerikCommon:RadGradientStop Offset="150" Color="Red" />
-        <telerikCommon:RadGradientStop Offset="200" Color="Black" />
-    </telerikGauges:GaugeGradientRange>
-</telerikGauges:GaugeRangesDefinition>
+    <telerik:GaugeGradientRange From="150" To="200">
+        <telerik:RadGradientStop Offset="150" Color="Red" />
+        <telerik:RadGradientStop Offset="200" Color="Black" />
+    </telerik:GaugeGradientRange>
+</telerik:GaugeRangesDefinition>
 ```
 
 
@@ -48,14 +48,14 @@ You can use the `GaugeGradientRange` to include ranges with gradient color by de
 Here is an example when the offset is relative.
 
 ```XAML
-<telerikGauges:GaugeRangesDefinition>
-    <telerikGauges:GaugeGradientRange IsOffsetRelative="True"
+<telerik:GaugeRangesDefinition>
+    <telerik:GaugeGradientRange IsOffsetRelative="True"
                                       From="-25"
                                       To="25">
-        <telerikCommon:RadGradientStop Offset="0" Color="Blue" />
-        <telerikCommon:RadGradientStop Offset="1" Color="Red" />
-    </telerikGauges:GaugeGradientRange>
-</telerikGauges:GaugeRangesDefinition>
+        <telerik:RadGradientStop Offset="0" Color="Blue" />
+        <telerik:RadGradientStop Offset="1" Color="Red" />
+    </telerik:GaugeGradientRange>
+</telerik:GaugeRangesDefinition>
 ```
 
 
@@ -66,16 +66,15 @@ The following image shows the end result.
 Here is an example when the offset is absolute.
 
 ```XAML
-<telerikGauges:GaugeRangesDefinition EndThickness="15"
+<telerik:GaugeRangesDefinition EndThickness="15"
                                      StartThickness="0"
                                      Offset="2">
-    <telerikGauges:GaugeGradientRange From="-25" To="25">
-        <telerikCommon:RadGradientStop Offset="-25" Color="Blue" />
-        <telerikCommon:RadGradientStop Offset="25" Color="Red" />
-    </telerikGauges:GaugeGradientRange>
-</telerikGauges:GaugeRangesDefinition>
+    <telerik:GaugeGradientRange From="-25" To="25">
+        <telerik:RadGradientStop Offset="-25" Color="Blue" />
+        <telerik:RadGradientStop Offset="25" Color="Red" />
+    </telerik:GaugeGradientRange>
+</telerik:GaugeRangesDefinition>
 ```
-
 
 The following image shows the end result.
 

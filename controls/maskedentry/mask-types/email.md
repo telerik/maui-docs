@@ -19,7 +19,7 @@ The following image shows the end result.
 
 ![RadEmailMaskedEntry](../images/maskedentry_email.png)
 
->note For the **Mask Types** example, refer to the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Email Mask examples, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Mask Types category.
 
 ## See Also
 

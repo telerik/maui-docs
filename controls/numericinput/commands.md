@@ -21,13 +21,8 @@ In the next example, you can see how the NumericInput commands could be utilized
 
  <snippet id='numericinput-features-commands' />
 
- In the example:
+> For the NumericInput Commands example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to NumericInput -> Features category.
 
- ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
- ```
-
->tip For a demo, refer to the **NumericInput/Features/Commands** folder of the [SDKBrowser Demo Application]({%slug maui-demo-app%}).
 
 ## See Also
 

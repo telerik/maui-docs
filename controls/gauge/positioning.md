@@ -18,62 +18,61 @@ The offset is the distance from the axis line to the element. The gauge allows t
 In the example below, all elements are arranged so that they are 2 pixels apart and never overlap each other.
 
 ```XAML
-<telerikGauges:RadRadialGauge x:Name="gauge"
-                              Margin="2"
-                              AxisRadiusFactor="1"
-                              StartAngle="90"
-                              SweepAngle="360">
-    <telerikGauges:RadRadialGauge.Axis>
-        <telerikGauges:GaugeLinearAxis Maximum="100"
+<telerik:RadRadialGauge x:Name="gauge"
+						  Margin="2"
+						  AxisRadiusFactor="1"
+						  StartAngle="90"
+						  SweepAngle="360">
+    <telerik:RadRadialGauge.Axis>
+        <telerik:GaugeLinearAxis Maximum="100"
                                        Minimum="0"
                                        ShowLabels="False"
                                        StrokeThickness="0" />
-    </telerikGauges:RadRadialGauge.Axis>
-    <telerikGauges:RadRadialGauge.Ranges>
-        <telerikGauges:GaugeRangesDefinition EndThickness="1"
+    </telerik:RadRadialGauge.Axis>
+    <telerik:RadRadialGauge.Ranges>
+        <telerik:GaugeRangesDefinition EndThickness="1"
                                              StartThickness="1"
                                              Offset="0">
-            <telerikGauges:GaugeRange Color="#FFDD789B"
+            <telerik:GaugeRange Color="#FFDD789B"
                                       From="0"
                                       To="25" />
-            <telerikGauges:GaugeRange Color="#FFAAC271"
+            <telerik:GaugeRange Color="#FFAAC271"
                                       From="25"
                                       To="50" />
-            <telerikGauges:GaugeRange Color="#FF4062AD"
+            <telerik:GaugeRange Color="#FF4062AD"
                                       From="50"
                                       To="75" />
-        </telerikGauges:GaugeRangesDefinition>
-    </telerikGauges:RadRadialGauge.Ranges>
-    <telerikGauges:RadRadialGauge.Indicators>
-        <telerikGauges:GaugeBarIndicator EndCap="Oval"
+        </telerik:GaugeRangesDefinition>
+    </telerik:RadRadialGauge.Ranges>
+    <telerik:RadRadialGauge.Indicators>
+        <telerik:GaugeBarIndicator EndCap="Oval"
                                          EndThickness="10"
                                          Fill="#FFDD789B"
                                          StartThickness="10"
                                          Offset="3"
                                          Value="12.5" />
-        <telerikGauges:GaugeBarIndicator EndCap="Oval"
+        <telerik:GaugeBarIndicator EndCap="Oval"
                                          EndThickness="10"
                                          Fill="#FFAAC271"
                                          StartThickness="10"
                                          Offset="15"
                                          Value="37.5" />
-        <telerikGauges:GaugeBarIndicator EndCap="Oval"
+        <telerik:GaugeBarIndicator EndCap="Oval"
                                          EndThickness="10"
                                          Fill="#FF4062AD"
                                          StartThickness="10"
                                          Offset="27"
                                          Value="62.5" />
-        <telerikGauges:GaugeShapeIndicator Fill="#FF4062AD"
+        <telerik:GaugeShapeIndicator Fill="#FF4062AD"
                                            Position="Start"
                                            Offset="39"
                                            Value="56" />
-        <telerikGauges:GaugeNeedleIndicator Fill="#FFAAC271"
+        <telerik:GaugeNeedleIndicator Fill="#FFAAC271"
                                             Offset="51"
                                             Value="37.5" />
-    </telerikGauges:RadRadialGauge.Indicators>
-</telerikGauges:RadRadialGauge>
+    </telerik:RadRadialGauge.Indicators>
+</telerik:RadRadialGauge>
 ```
-
 
 The following image shows the end result.
 

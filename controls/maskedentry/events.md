@@ -26,7 +26,7 @@ The MaskedEntry exposes a set of events.
 	* `IsValid`&mdash;Indicates whether the new value is considered valid according to internal (mask, regex) and external (application) validation.
 	* `ValidationMessage`&mdash;Defines a validation message for the end user.
 
->tip For the **Events** example, refer to the **MaskedEntry/Events** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Events example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 
 ## See Also
 

@@ -20,7 +20,7 @@ The available masks and their purpose are listed below:
 
 >important The `Value` can also be `null` for all mask types.
 
->note For the **Mask Types** example, refer to the [SDKBrowserMaui Demo Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Mask Types examples, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Mask Types category.
 
 ## See Also
 

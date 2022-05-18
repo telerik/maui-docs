@@ -34,10 +34,10 @@ Before adding the MaskedEntry, you need to:
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
->important For the MaskedEntry Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> For the MaskedEntry Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

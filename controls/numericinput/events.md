@@ -27,12 +27,6 @@ The following example demonstrates how to use the `ValueChanged` event.
 <telerik:RadNumericInput x:Name="numericInput" ValueChanged="RadNumericInput_ValueChanged"/>
  ```
 
-1. Add the namespace:
-
- ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
- ```
-
 1. Set the `ValueChanged` event:
 
  ```C#

@@ -20,15 +20,7 @@ The NumericInput provides the following properties for customizing the text in i
 
 The following example demonstrates how to customize the NumericInput buttons text.
 
-Define the NumericInput.
-
 <snippet id='numericinput-features-btntext' />
-
-Add the `telerik` namespace:
-
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
 
 Check the result of the NumericInput with custom button text below:
 

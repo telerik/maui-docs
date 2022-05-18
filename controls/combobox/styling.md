@@ -24,9 +24,11 @@ Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-styling'/>
 
-in addition you will need to add the following namespace:
+in addition you will need to add the `telerik` namespace:
 
-<snippet id='xmlns-telerikinput'/>
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 the sample business model
 
@@ -44,7 +46,7 @@ Here is how the styling is applied when the control is focused and item is selec
 
 ![ComboBox Edit Mode](images/combobox-styling-focused.png)
 
->important The ComboBox Styling example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Styling category.
 
 ## DropDown Styling
 
@@ -82,7 +84,7 @@ Here is how the Drop Down Styling looks:
 
 ![ComboBox Drop Down Style](images/combobox-drop-down-style.png)
 
->important The DropDown Styling example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox DropDown Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Styling category.
 
 ## See Also
 

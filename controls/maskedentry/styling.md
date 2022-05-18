@@ -43,7 +43,8 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 ![maskedentry-styling](images/maskedentry-hovered-clear-button-color.png)
 
->tip For the **Styling** example, refer to the **MaskedEntry/Features** folder of the [SDK .NET MAUI Application]({%slug maui-demo-app%}).
+> For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
+
 
 ## See Also
 

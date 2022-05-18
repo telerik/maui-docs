@@ -42,7 +42,7 @@ The final result:
 
 ![ComboBox Item and selectedItem Templates](images/combobox-item-selecteditem-templates.png)
 
->important The Item and SelectedItem Template example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox Item and SelectedItem Templates example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 
 ### Example with TokenTemplate and ShowMoreTemplate
 
@@ -68,7 +68,7 @@ Here is the how the Token and ShowMore Templates look:
 
 ![ComboBox Token and Show More Templates](images/combobox-token-showmore-templates.png)
 
->important The Token and ShowMore Template example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox TokenTemplate and ShowMoreTemplate example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 
 ## See Also
 
