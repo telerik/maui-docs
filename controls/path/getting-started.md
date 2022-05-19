@@ -32,18 +32,12 @@ Before adding the Path, you need to:
 
   For demonstration purposes, let's choose one of the built-in geometries the Path supports, for example, the star pattern, and set it directly to the `Geometry` property:
 
- ```XAML
-<telerikPrimitives:RadPath x:Name="starPath"
-                           StrokeThickness="0"
-                           Fill="#FFC325"
-                           Geometry="{x:Static telerikInput:Geometries.Star}" />
- ```
+ <snippet id='path-gettingstarted-starpath-xaml'/>
 
 1. Add the following namespaces:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

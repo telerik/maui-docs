@@ -10,27 +10,16 @@ position: 2
 
 # SDKBrowser Demo Application
 
-Telerik UI for .NET MAUI SDKBrowser is a demo application, which demonstrates the available library controls.  
+**Telerik UI for .NET MAUI SDKBrowser** is a set of examples that explain how to use the features of a control. The SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
 
 ![Telerik UI for .NET MAUI SDKBrowserMaui App](../images/demo-maui.gif)
 
-To start using the SDKBrowser application, you have to first download it and, then, install and run it on the desired platform, or mobile device or emulator.
+You can access the SDKBrowser application in the following ways:
 
-## Download the SDKBrowser Demo App
+* If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/Sdk** folder and open the `SdkBrowserMaui.sln` file;
+* You can explore the code directly in the [.NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples);
 
-1. Log into your [Telerik account](https://www.telerik.com/account/).
-
-1. Go to the [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui).
-
-1. Click the **Download Telerik UI for .NET MAUI** button.
-
-  ![Telerik UI for .NET MAUI](../images/download_maui.png)
-
-1. The download starts automatically.
-
-  ![Telerik UI for .NET MAUI](../images/downloading-maui.png)
-
-## Install and Run SDKBrowser on Windows
+## Run SDKBrowser on Windows
 
 1. Inside the command prompt, run the `maui-check` command, which is required for using Telerik UI for .NET MAUI controls, and for building and running `SDKBrowserMaui.sln`.
 

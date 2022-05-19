@@ -33,28 +33,12 @@ The following example shows a sample implementation of an `RadArcSegment` object
 
 Define the Path.
 
-```XAML
- <telerikPrimitives:RadPath x:Name="simpleArcPath"
-                           StrokeThickness="4"
-                           Stroke="#2EC262">
-    <telerikPrimitives:RadPath.Geometry>
-        <telerikCommon:RadPathGeometry>
-            <telerikCommon:RadPathFigure StartPoint="1, 0.5">
-                <telerikCommon:RadArcSegment Center = "0.5, 0.5"
-                                             Size = "1, 1"
-                                             StartAngle = "0"
-                                             SweepAngle = "180" />
-            </telerikCommon:RadPathFigure>
-        </telerikCommon:RadPathGeometry>
-    </telerikPrimitives:RadPath.Geometry>
- </telerikPrimitives:RadPath>
-```
+<snippet id='path-geometry-simplearc-xaml' />
 
 Add the namespace:
 
 ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ### RadLineSegment
@@ -67,25 +51,12 @@ The following example shows how to create a line `PathFigure`.
 
 Define the Path.
 
-```XAML
-<telerikPrimitives:RadPath x:Name="simpleLinePath"
-                           StrokeThickness="4"
-                           Stroke="#2EC262">
-    <telerikPrimitives:RadPath.Geometry>
-        <telerikCommon:RadPathGeometry>
-            <telerikCommon:RadPathFigure StartPoint="0.8, 0.1">
-                <telerikCommon:RadLineSegment Point="0.1, 0.8" />
-            </telerikCommon:RadPathFigure>
-        </telerikCommon:RadPathGeometry>
-    </telerikPrimitives:RadPath.Geometry>
-</telerikPrimitives:RadPath>
-```
+<snippet id='path-geometry-simpleline-xaml' />
 
 Add the namespace:
 
 ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Example
@@ -94,35 +65,17 @@ The following example shows how to create a more complex `RadPathGeometry` objec
 
 1. First, define the `RadPath` figure:
 
- ```XAML
-<telerikPrimitives:RadPath x:Name="customLinePath"
-                           Grid.Row="0"
-                           StrokeThickness="0"
-                           Fill="#3DBAFE"/>
- ```
+  <snippet id='path-geometry-customline-xaml' />
 
 1. Add the namespace:
 
  ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Then, set its `Geometry` to have the following structure:
 
- ```C#
- RadPathFigure customLine = new RadPathFigure();
- customLine.StartPoint = new Point(0.8, 0.1);
- customLine.Segments.Add(new RadLineSegment(new Point(0.1, 0.8)));
-
- customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.125, 0.825), StartAngle = 135, SweepAngle = 180, Size = new Size(0.070710678, 0.070710678) });
- customLine.Segments.Add(new RadLineSegment(new Point(0.85, 0.15)));
- customLine.Segments.Add(new RadArcSegment() { Center = new Point(0.825, 0.125), StartAngle = 315, SweepAngle = 180, Size = new Size(0.070710678, 0.070710678) });
-
- RadPathGeometry geometry = new RadPathGeometry();
- geometry.Figures.Add(customLine);
- customLinePath.Geometry = geometry;
- ```
+ <snippet id='path-geometry-customline-segment' />
 
 1. Add the namespace:
 

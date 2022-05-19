@@ -18,72 +18,52 @@ The `RadPath` element exposes the following properties you can use to customize 
 
 ## Styling the Path using the RadSweepGradientBrush
 
-Define the control.
-
 ```XAML
-<telerikPrimitives:RadPath x:Name="gradientPath"
+<telerik:RadPath x:Name="gradientPath"
                             StrokeThickness="1"
                             Stroke="White"
                             Geometry="{x:Static telerikInput:Geometries.Diamond}">
-    <telerikPrimitives:RadPath.Fill>
-        <telerikCommon:RadSweepGradientBrush>
+    <telerik:RadPath.Fill>
+        <telerik:RadSweepGradientBrush>
             <x:Arguments>
                 <Point>0.5, 0.5</Point>
             </x:Arguments>
-            <telerikCommon:RadSweepGradientStop>
+            <telerik:RadSweepGradientStop>
                 <x:Arguments>
                     <Color>#1481FF</Color>
                     <x:Double>180</x:Double>
                 </x:Arguments>
-            </telerikCommon:RadSweepGradientStop>
-            <telerikCommon:RadSweepGradientStop>
+            </telerik:RadSweepGradientStop>
+            <telerik:RadSweepGradientStop>
                 <x:Arguments>
                     <Color>#BCE1FF</Color>
                     <x:Double>360</x:Double>
                 </x:Arguments>
-            </telerikCommon:RadSweepGradientStop>
-        </telerikCommon:RadSweepGradientBrush>
-    </telerikPrimitives:RadPath.Fill>
-</telerikPrimitives:RadPath>
-```
-
-Add the namespaces:
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
+            </telerik:RadSweepGradientStop>
+        </telerik:RadSweepGradientBrush>
+    </telerik:RadPath.Fill>
+</telerik:RadPath>
 ```
 
 ## Styling the Path using the RadSolidColorBrush
 
-Define the control.
-
 ```XAML
-<telerikPrimitives:RadPath x:Name="solidPath"
+<telerik:RadPath x:Name="solidPath"
                             Grid.Row="0"
                             StrokeThickness="2"
                             Stroke="#1481FF"
                             Fill="#BCE1FF">
-    <telerikPrimitives:RadPath.Geometry>
-        <telerikCommon:RadPathGeometry>
-            <telerikCommon:RadPathFigure StartPoint="0, 1">
-                <telerikCommon:RadLineSegment Point="1, 1" />
-                <telerikCommon:RadLineSegment Point="0.5, 0" />
-                <telerikCommon:RadLineSegment Point="0, 1" />
-            </telerikCommon:RadPathFigure>
-        </telerikCommon:RadPathGeometry>
-    </telerikPrimitives:RadPath.Geometry>
-</telerikPrimitives:RadPath>
+    <telerik:RadPath.Geometry>
+        <telerik:RadPathGeometry>
+            <telerik:RadPathFigure StartPoint="0, 1">
+                <telerik:RadLineSegment Point="1, 1" />
+                <telerik:RadLineSegment Point="0.5, 0" />
+                <telerik:RadLineSegment Point="0, 1" />
+            </telerik:RadPathFigure>
+        </telerik:RadPathGeometry>
+    </telerik:RadPath.Geometry>
+</telerik:RadPath>
 ```
-
-Add the used namespace:
-
-```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"           
-```
-
 
 The following image shows the result:
 

@@ -21,8 +21,6 @@ The supported preconfigured geometries are:
 * Heart
 * Diamond
 
-....example
-
 ## Custom Geometries
 
 You can also create a custom geometry, which will be visualized by the Path. For that purpose, create an object of type `RadPathGeometry` and add a `RadPathFigure` with the needed segments.
@@ -30,28 +28,27 @@ You can also create a custom geometry, which will be visualized by the Path. For
 The following example shows a Path with an Arc definition:
 
 ```XAML
-<telerikPrimitives:RadPath x:Name="customPath"
+<telerik:RadPath x:Name="customPath"
                        Grid.Row="0"
                        StrokeThickness="4"
                        Stroke="#2EC262">
-    <telerikPrimitives:RadPath.Geometry>
-        <telerikCommon:RadPathGeometry>
-            <telerikCommon:RadPathFigure StartPoint="0.85, 0.85">
-                <telerikCommon:RadArcSegment Center="0.5, 0.5"
+    <telerik:RadPath.Geometry>
+        <telerik:RadPathGeometry>
+            <telerik:RadPathFigure StartPoint="0.85, 0.85">
+                <telerik:RadArcSegment Center="0.5, 0.5"
                                              Size="1, 1"
                                              StartAngle="315"
                                              SweepAngle="270" />
-            </telerikCommon:RadPathFigure>
-        </telerikCommon:RadPathGeometry>
-    </telerikPrimitives:RadPath.Geometry>
-</telerikPrimitives:RadPath>
+            </telerik:RadPathFigure>
+        </telerik:RadPathGeometry>
+    </telerik:RadPath.Geometry>
+</telerik:RadPath>
 ```
 
 Add the following namespace:
 
 ```XAML
-xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 
