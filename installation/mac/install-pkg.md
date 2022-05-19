@@ -23,4 +23,3 @@ To install Telerik UI for .NET MAUI on your machine from the Apple Installer .pk
 	
 ## See Also
 
-- [Project Wizard]({%slug mac-project-wizard%})
