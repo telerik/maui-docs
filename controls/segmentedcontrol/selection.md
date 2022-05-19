@@ -50,14 +50,14 @@ public class ViewModel
 1. Then, add the SegmentedControl definition and apply the `ItemsSource`, `SelectedIndex`, and the selection colors properties:
 
  ```XAML
-<telerikInput:RadSegmentedControl x:Name="segmentControl"
-                                  ItemsSource="{Binding Categories}"
-                                  SelectedIndex="{Binding SelectedCategory}"
-                                  SelectedSegmentTextColor="White"
-                                  SelectedSegmentBackgroundColor="CornflowerBlue"                                
-                                  HeightRequest="60"
-                                  VerticalOptions="Start">
-</telerikInput:RadSegmentedControl>
+<telerik:RadSegmentedControl x:Name="segmentControl"
+							  ItemsSource="{Binding Categories}"
+							  SelectedIndex="{Binding SelectedCategory}"
+							  SelectedSegmentTextColor="White"
+							  SelectedSegmentBackgroundColor="CornflowerBlue"                                
+							  HeightRequest="60"
+							  VerticalOptions="Start">
+</telerik:RadSegmentedControl>
  ```
 
 1. Lastly, define the `ViewModel` as the `BindingContext` of the control:

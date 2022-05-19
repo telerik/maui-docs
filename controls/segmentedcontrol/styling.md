@@ -27,24 +27,24 @@ The SegmentedControl exposes the following properties:
 The following example shows how to set the different segment colors.
 
 ```XAML
-<telerikInput:RadSegmentedControl x:Name="segmentControl"
-                                  Margin="10"
-                                  DisabledSegmentTextColor="#C2C3C9"
-                                  HeightRequest="60"
-                                  SegmentBackgroundColor="#FFFFFF"
-                                  SegmentTextColor="#3A9BFD"
-                                  SelectedSegmentBackgroundColor="#3A9BFD"
-                                  SelectedSegmentTextColor="#FFFFFF"
-                                  VerticalOptions="Start">
-    <telerikInput:RadSegmentedControl.ItemsSource>
+<telerik:RadSegmentedControl x:Name="segmentControl"
+							  Margin="10"
+							  DisabledSegmentTextColor="#C2C3C9"
+							  HeightRequest="60"
+							  SegmentBackgroundColor="#FFFFFF"
+							  SegmentTextColor="#3A9BFD"
+							  SelectedSegmentBackgroundColor="#3A9BFD"
+							  SelectedSegmentTextColor="#FFFFFF"
+							  VerticalOptions="Start">
+    <telerik:RadSegmentedControl.ItemsSource>
         <x:Array Type="{x:Type x:String}">
             <x:String>Popular</x:String>
             <x:String>Library</x:String>
             <x:String>Playlists</x:String>
             <x:String>Friends</x:String>
         </x:Array>
-    </telerikInput:RadSegmentedControl.ItemsSource>
-</telerikInput:RadSegmentedControl>
+    </telerik:RadSegmentedControl.ItemsSource>
+</telerik:RadSegmentedControl>
 ```
 
 
