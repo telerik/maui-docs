@@ -26,57 +26,31 @@ The Rating supports the following geometry types:
 
  ![Star Shape Rating](images/rating-star.png)
 
-```XAML
-<telerikInput:RadShapeRating AutomationId="defaultRating" />
-```
+ <snippet id='rating-geometries-star' />
 
 - `Circle`
 
  ![Circle Shape Rating](images/rating-circle.png)
 
-```XAML
-<telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Circle}" AutomationId="circleRating" />
-```
+ <snippet id='rating-geometries-circle' />
 
 - `Diamond`
 
  ![Diamond Shape Rating](images/rating-diamond.png)
 
-```XAML
-<telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Diamond}" AutomationId="diamondRating" />
-```
+ <snippet id='rating-geometries-diamond' />
 
 - `Heart`
 
  ![](images/rating-heart.png)
 
-```XAML
-<telerikInput:RadShapeRating ItemShape="{x:Static telerikInput:Geometries.Heart}" AutomationId="heartRating" />
-```
+ <snippet id='rating-geometries-heart' />
 
 - Custom `RadPathGeometry` shape:
 
  ![](images/rating-triangle.png)
 
-```XAML
- <telerikInput:RadShapeRating AutomationId="triangularRating">
-    <telerikInput:RadShapeRating.ItemShape>
-        <telerikCommon:RadPathGeometry>
-            <telerikCommon:RadPathFigure StartPoint="0, 1">
-                <telerikCommon:RadLineSegment Point="1, 1" />
-                <telerikCommon:RadLineSegment Point="0.5, 0" />
-                <telerikCommon:RadLineSegment Point="0, 1" />
-            </telerikCommon:RadPathFigure>
-        </telerikCommon:RadPathGeometry>
-    </telerikInput:RadShapeRating.ItemShape>
-</telerikInput:RadShapeRating>
-```
-
- In the example, the `telerikCommon` namespace is defined like this:
-
-```XAML
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ <snippet id='rating-geometries-customgeometry ' />
 
 ## Shapes Styling
 
@@ -95,20 +69,7 @@ The following example shows how to set the shapes styling.
 
 Define the `RadShapeRating`:
 
-```XAML
-<telerikInput:RadShapeRating AutomationId="styledRating"
-                          ItemFill="YellowGreen"
-                          ItemStroke="YellowGreen"
-                          SelectedItemFill="Pink"
-                          SelectedItemStroke="Red" />
-```
-
-Add the namespace:
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
-```
-
+<snippet id='rating-geometries-styling' />
 
 The following image shows the end result.
 

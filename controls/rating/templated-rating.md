@@ -22,26 +22,7 @@ On top of the [common Rating API]({%slug rating-configuration%}), this component
 
 The following example demonstrates how to define `RadTemplatedRating` in XAML:
 
-```XAML
-<telerikInput:RadTemplatedRating AutomationId="templatedRating" ValueChanged="RadTemplatedRating_ValueChanged">
-    <telerikInput:RadTemplatedRating.ItemTemplate>
-        <DataTemplate>
-            <Image Source="unread.png" />
-        </DataTemplate>
-    </telerikInput:RadTemplatedRating.ItemTemplate>
-    <telerikInput:RadTemplatedRating.SelectedItemTemplate>
-        <DataTemplate>
-            <Image Source="success.png" />
-        </DataTemplate>
-    </telerikInput:RadTemplatedRating.SelectedItemTemplate>
-</telerikInput:RadTemplatedRating>
-```
-
-Add the namespace for the `RadTemplatedRating`.
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
-```
+<snippet id='rating-templates' />
 
 ## See Also
 

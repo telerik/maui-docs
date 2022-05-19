@@ -30,36 +30,7 @@ Before adding the Popup, you need to:
 
 	For demonstration purposes, the current scenario demonstrates how to add a sample Popup attached to a Button control. The purpose of the Popup here is to receive user input&mdash;it contains the Entry control for allowing the user to enter a comment and a button for closing the popup.
 
- ```XAML
-<Button HorizontalOptions="Center"
-	VerticalOptions="Start"
-	Text="Add a comment"
-	Clicked="ShowPopup">
-	<telerikMauiControls:RadPopup.Popup>
-		<telerikMauiControls:RadPopup x:Name="popup"
-									IsModal="True"
-									OutsideBackgroundColor="#6F000000">
-			<telerikMauiControls:RadBorder CornerRadius="8"
-										   BackgroundColor="Wheat">
-				<Grid Padding="20"
-					  WidthRequest="200"
-					  HeightRequest="100">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="30" />
-						<RowDefinition Height="40" />
-					</Grid.RowDefinitions>
-					<Entry Placeholder="add a note here" />
-					<Button Grid.Row="1"
-						Padding="2"
-						HorizontalOptions="End"
-						Text="Send"
-						Clicked="ClosePopup" />
-				</Grid>
-			</telerikMauiControls:RadBorder>
-		</telerikMauiControls:RadPopup>
-	</telerikMauiControls:RadPopup.Popup>
-</Button>
- ```
+ <snippet id='popup-getting-started-xaml' />
 
 1. Reference the event handlers.
 
@@ -77,7 +48,7 @@ private void ShowPopup(object sender, EventArgs e)
 1. Add the namespace.
 
  ```XAML
-xmlns:telerikMauiControls="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

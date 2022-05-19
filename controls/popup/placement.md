@@ -23,44 +23,11 @@ In the following XAML example, the Popup is defined inline through the attached 
 
 When the Popup is declared in XAML and you want to center it, attach it to the `Page` element and set its `Placement` property to `"Center"`.
 
-```XAML
-<Button HorizontalOptions="Center"
-        VerticalOptions="Start"
-        BackgroundColor="#7A9BFF"
-        TextColor="White"
-        Text="Show popup"
-        Clicked="ShowPopup"
-        x:Name="button">
-    <telerikMauiControls:RadPopup.Popup>
-        <telerikMauiControls:RadPopup x:Name="popup"
-                                    Placement="Bottom"
-                                    HorizontalOffset="20"
-                                    VerticalOffset="20">
-            <telerikMauiControls:RadBorder
-                WidthRequest="180"
-                CornerRadius="6"
-                BackgroundColor="#93D7FF"
-                BorderColor="#7A9BFF"
-                Padding="10">
-                <Label  WidthRequest="160"
-						HeightRequest="200"
-						LineBreakMode="WordWrap"
-						Text="With Telerik Popup for .NET MAUI you can easily add modal popups to your application to draw attention to important information or receive user input." />
-            </telerikMauiControls:RadBorder>
-        </telerikMauiControls:RadPopup>
-    </telerikMauiControls:RadPopup.Popup>
-</Button>
-```
+<snippet id='popup-features-placement' />
 
 Set the Button `Clicked` event handler:
 
-```C#
-private void ShowPopup(object sender, EventArgs e)
-{
-    popup.IsOpen = true;
-}
-```
-
+<snippet id=' popup-features-placement-event' />
 
 The following image shows the end result.
 

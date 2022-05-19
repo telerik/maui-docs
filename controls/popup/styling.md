@@ -24,11 +24,11 @@ Below is an example on how to apply `OutsideBackgroundColor` to a modal popup.
         Text="Show modal popup"
         Clicked="ShowPopup"
         x:Name="button">
-    <telerikMauiControls:RadPopup.Popup>
-        <telerikMauiControls:RadPopup x:Name="popup"
+    <telerik:RadPopup.Popup>
+        <telerik:RadPopup x:Name="popup"
                                     IsModal="True"
                                     OutsideBackgroundColor="#B3FFF493">
-            <telerikMauiControls:RadBorder
+            <telerik:RadBorder
                 CornerRadius="6"
                 BackgroundColor="#93D7FF"
                 Padding="10">
@@ -47,9 +47,9 @@ Below is an example on how to apply `OutsideBackgroundColor` to a modal popup.
                             BackgroundColor="#7A9BFF"
                             TextColor="White" />
                 </Grid>
-            </telerikMauiControls:RadBorder>
-        </telerikMauiControls:RadPopup>
-    </telerikMauiControls:RadPopup.Popup>
+            </telerik:RadBorder>
+        </telerik:RadPopup>
+    </telerik:RadPopup.Popup>
 </Button>
 ```
 

@@ -22,67 +22,15 @@ The example below demonstrates how to create a sample `DataTemplate` and set it 
 
 1. Add the needed `DataTemplate` to the page Resources:
 
- ```XAML
-<ResourceDictionary>
-    <DataTemplate x:Key="PopupTemplate">
-        <telerikMauiControls:RadBorder CornerRadius="8"
-                                     BackgroundColor="#93D7FF"
-                                     WidthRequest="250"
-                                     Padding="10">
-            <Grid WidthRequest="250"
-				  HeightRequest="150">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30" />
-                    <RowDefinition Height="50" />
-                    <RowDefinition Height="30" />
-                </Grid.RowDefinitions>
-                <Label Text="ACCEPT TERMS" />
-                <Label Grid.Row="1"
-                       Text="By checking this, you agree to the Terms of Service and Privacy Policy." />
-                <Button Grid.Row="2"
-                        Padding="2"
-                        HorizontalOptions="Start"
-                        Text="Agree &amp; Continue"
-                        Clicked="ClosePopup"
-                        CornerRadius="6"
-                        BackgroundColor="#7A9BFF"
-                        TextColor="White"/>
-            </Grid>
-        </telerikMauiControls:RadBorder>
-    </DataTemplate>
-</ResourceDictionary>
- ```
+ <snippet id='popup-features-contenttemplate-resource' />
 
 1. When you define the Popup either in XAML or as code-behind, apply the `ContentTemplate` property:
 
- ```XAML
-<StackLayout Orientation="Horizontal" VerticalOptions="Start">
-    <telerikPrimitives:RadCheckBox x:Name="checkbox"
-                                   IsCheckedChanged="Checkbox_IsCheckedChanged">
-        <telerikMauiControls:RadPopup.Popup>
-            <telerikMauiControls:RadPopup x:Name="popup"
-                                        Placement="Bottom"
-                                        ContentTemplate="{StaticResource PopupTemplate}" />
-        </telerikMauiControls:RadPopup.Popup>
-    </telerikPrimitives:RadCheckBox>
-    <Label Text="Agree to the Terms &amp; Conditions"/>
-</StackLayout>
- ```
+ <snippet id='popup-features-contenttemplate-xaml' />
 
 1. Add the events as shown below:
 
- ```C#
-private void ClosePopup(object sender, EventArgs e)
-{
-    popup.IsOpen = false;
-}
-private void Checkbox_IsCheckedChanged(object sender, IsCheckedChangedEventArgs e)
-{
-    if (e.NewValue == true)
-        popup.IsOpen = true;
-}
- ```
-
+ <snippet id='popup-features-contenttemplate-events' />
 
 The following image shows the end result.
 

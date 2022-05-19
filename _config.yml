@@ -29,6 +29,9 @@ navigation:
     installation/windows:
         title: "Windows"
         position: 3
+    installation/mac:
+        title: "Mac"
+        position: 4
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
     ## BadgeView

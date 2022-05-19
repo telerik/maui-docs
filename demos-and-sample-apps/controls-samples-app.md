@@ -16,12 +16,6 @@ You can access the Controls Samples application in the following ways:
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/ControlsSamples** folder and open the `ControlsSamples.sln` file;
 * You can explore the code directly in the [.NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples);
 
-![](images/samplesapplication_0.png)
-
-The following images show a concrete example from the ControlsSamples application:
-
-![](images/samplesapplication_1.png)
-
 >important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-2-download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-install-telerik-ui-for-net-maui) help topics where all steps are described. 
 
 ## Run ControlsSamples on Windows

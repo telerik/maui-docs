@@ -13,18 +13,7 @@ The Rating control supports a read-only mode in which the end user cannot change
 
 Define the `RadShapeRating` in XAML:
 
-```XAML
-<telerikInput:RadShapeRating AutomationId="readOnlyRating"
-                           Value="4"
-                           x:Name="radRating"
-                           IsReadOnly="True"/>
- ```
-
-Add the namespace:
-
-```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
-```
+<snippet id='rating-features-readonly' />
 
 ## See Also
 

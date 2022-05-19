@@ -9,7 +9,7 @@ slug: rating-getting-started
 
 # Getting Started
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Rating by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
@@ -31,14 +31,12 @@ Before adding the Rating, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a Rating control to your page.
 
- ```XAML
-<telerikInput:RadShapeRating AutomationId="radRating"/>
- ```
+ <snippet id='rating-gettingstarted-xaml' />
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"  
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

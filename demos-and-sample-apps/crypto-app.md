@@ -30,7 +30,7 @@ You can start using the Crypto Tracker application in the following ways:
 
 ## Run CryptoTracker on Windows
 
-1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022 Preview.
+1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022.
 
   ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
 
