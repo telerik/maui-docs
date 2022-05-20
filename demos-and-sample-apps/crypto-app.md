@@ -15,14 +15,9 @@ Crypto Tracker demo is a real-case crypto application that shows changes in cryp
 
 You can start using the Crypto Tracker application in the following ways:
 
+You can access the SDKBrowser application in the following ways:
+
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/CryptoTracker** folder and open the `CryptoTracker.sln` file;
-
-  The **CryptoTracker** folder is located inside the Examples folder inside the installation folder and you can now use the following subdirectories:
-
-    * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
-    * **Examples**&mdash;Contains all examples available (**Sdk app** and **CryptoTracker app**) with the Telerik UI for .NET MAUI controls.
-    * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
 
 * Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker).
 
@@ -32,7 +27,7 @@ You can start using the Crypto Tracker application in the following ways:
 
 1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022.
 
-  ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
+  ![Telerik UI .NET MAUI CryptoTracker App VS](images/sampleapps-visual-studio.png)
 
 1. Wait for the project to restore.
 
