@@ -32,8 +32,8 @@ Below you can find a list of the available files:
 
 ### Installation
 
-* Telerik_UI_for_dot_NET_Maui_[Version].msi - runnable msi file used for automatic installation (for use on PC).
-* Telerik_UI_for_dot_NET_Maui_[Version].pkg - runnable pkg file used for automatic installation (for use on Mac).
+* Telerik_UI_for_dot_NET_Maui_[Version]_[License].msi - runnable msi file used for automatic installation (for use on PC).
+* Telerik_UI_for_dot_NET_Maui_[Version]_[License].pkg - runnable pkg file used for automatic installation (for use on Mac).
 
 ### Other Setup Files
 
