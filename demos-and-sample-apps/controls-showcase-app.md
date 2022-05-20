@@ -22,23 +22,23 @@ You can access the Controls Samples application in the following ways:
 
 1. Open the `ControlsSamples.sln` on Windows with Visual Studio 2022.
 
-  ![Telerik UI .NET MAUI CryptoTracker App VS](../images/cryptotracker-structure.png)
+  ![Telerik UI .NET MAUI ControlsSamples App VS](images/controlssamples_structure.png)
 
 1. Wait for the project to restore.
 
 1. Select the target framework of the project.
 
-  ![Telerik UI .NET MAUI CryptoTracker App](../images/crypto-tracker-visual-studio.png)
+  ![Telerik UI .NET MAUI ControlsSamples App](images/sampleapps-visual-studio.png)
 
 1. Select the emulator or device on which you want to run the application.
 	
- * CryptoTracker application on Android.
+ * ControlsSamples application on Android.
 
-  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
+  ![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples_android.png)
 	
- * CryptoTracker application on WinUI.
+ * ControlsSamples application on WinUI.
 
-  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
+  ![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples-winui.png)
 
 ## Run ControlsSamples on macOS
 
@@ -51,7 +51,7 @@ You can access the Controls Samples application in the following ways:
  
 	* ControlsSamples application on MacOS.
 	
-	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
+	![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples-macos.png)
 
 1. Run on iOS using the following command:
 
@@ -59,7 +59,7 @@ You can access the Controls Samples application in the following ways:
  
  where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
 
-	* CryptoTracker application on iOS.
+	* ControlsSamples application on iOS.
 
-	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
+	![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples-iphone.png)
 

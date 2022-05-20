@@ -13,7 +13,7 @@ Telerik UI for .NET MAUI provides a few fully-features demo applications demonst
 
 ## Controls Samples App
 
-The **Telerik UI for .NET MAUI Controls Samples** is the application you can find in the app stores (Google Play, Apple App Store and  Windows Store). It is highly polished and has many scenario-specific use cases designed to show off a subset of features for each component.
+The Telerik UI for .NET MAUI Controls Samples is the application you can find in the app stores (Google Play, Apple App Store and  Windows Store). It is highly polished and has many scenario-specific use cases designed to show off a subset of features for each component.
 
 ## SDKBrowser App
 
@@ -22,3 +22,7 @@ The SDKBrowser is a set of examples that explain how to use the features of a co
 ## Crypto Tracker App 
 
 Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, built with the Telerik UI for .NET MAUI controls.
+
+![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
+
+For more information on it, refer to [Crypro Tracker App]({%slug maui-crypto-app%}).

@@ -357,11 +357,11 @@ intro_columns:
   -
     title: "Data Visualization"
     items:
-        "Barcode": "barcode-overview"
+        "Barcodes": "barcode-overview"
         "Charts": "chart-overview"
-        "Gauge": "gauge-overview"
+        "Gauges": "gauge-overview"
         "Map": "map-overview"
-        "Rating": "rating-overview"
+        "Ratings": "rating-overview"
 -
   categories:
   -
@@ -372,7 +372,7 @@ intro_columns:
         "DateTimePicker": "datetimepicker-overview"
         "Entry": "entry-overview"
         "ListPicker": "listpicker-overview"
-        "MaskedEntry": "maskedentry-overview"
+        "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
