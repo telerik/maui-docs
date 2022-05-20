@@ -64,6 +64,6 @@ DataGrid Boolean Column with CellEditTemplate property and inside the template w
 
 ## See Also
 
-- [ComboBOx Column]({%slug datagrid-columns-picker-column %})
+- [ComboBox Column]({%slug datagrid-columns-picker-column %})
 - [Template Column]({%slug datagrid-columns-template-column %})
 - [Text Column]({%slug datagrid-columns-text-column %})
