@@ -12,43 +12,47 @@ The Telerik UI for .NET MAUI project template is a Visual Studio add-in that imp
 
 ## Installation
 
-First, you have to download the **ProjectTemplateXamarin.mpack** file from the Telerik UI for Xamarin product download page inside your [Telerik account](https://www.telerik.com/account/). Go to [Download Product Files]({%slug download-product-files %}) for exact steps on how to navigate to the download page.
+You can access the Telerik UI for .NET MAUI Project Template in the following ways:
 
-Then, you have to install the project wizard add-in package. Open the Visual Studio **Extension Manager** and select the *Install form file...* option. __Figure 1__ shows how to access the Extension Manager.
+* If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Extensions** folder - in it you'll find the **telerik.ui.for.maui.mpack** file.
 
-#### __Figure 1: Accessing Visual Studio Extensions__
+* You can download the **telerik.ui.for.maui.mpack** file from your Telerik account. Go to [Download Product Files]({%slug download-product-files %}) for exact steps on how to navigate to the download page.
 
-![Visual Studio Extensions](images/project-wizard/VisualStudioExtensions.png)
+Then, you have to install the project wizard add-in package. Open the Visual Studio **Extension Manager** and select the *Install form file...* option:
+
+#### Accessing Visual Studio Extensions
+
+![Visual Studio Extensions](images/visualstudio-extensions.png)
 
 Once you have accessed the **Extension Manager**, the following dialog will appear and you should look for the **Install from file** option.
 
-#### __Figure 2: Reaching the Extension Manager__
+#### Reaching the Extension Manager
 
-![Visual Studio Extensions](images/project-wizard/ExtensionManager.png)
+![Visual Studio Extensions](images/visualstudio-extensionsmanager.png)
 
-Navigate to the **ProjectTemplateXamarin.mpack** file. 
+Navigate to the **telerik.ui.for.maui.mpack** file. 
 
-#### __Figure 3: The ProjectTemplate location__
+#### The ProjectTemplate location
 
-![Visual Studio Extensions](images/project-wizard/InstallExtensionPackage.png)
+![Visual Studio Extensions](images/installextensionpackage.png)
 
 If the add-in is successfully added to Visual Studio, you should see it in the **IDE** extensions section.
 
 **Restart Visual Studio for Mac** to complete the installation.
 
-## New Telerik Xamarin UI Application
+## New Telerik .NET MAUI Blank App
 
 Now you can create a new project using the Telerik Project Template.
 
-#### __Figure 4: Create New Project Dialog__
+#### Create New Project Dialog
 
-![Xamarin Studio Create new project](images/project-wizard/CreateNewProject.png)
+![Visual Studio Create new project](images/vs-createnewproject.png)
 
-The **Telerik Xamarin UI Application** template can be found in *Other > .NET* section.
+The **telerik.ui.for.maui.mpack** template can be found in *Other > .NET* section.
 
-#### __Figure 5: Telerik Xamarin UI Application template__
+#### Configure Application Dialog
 
-![Xamarin Studio Create new project](images/project-wizard/ChooseTemplate.png)
+![Visual Studio Configure Project](images/vs-configureproject.png)
 
 Follow the steps to setup your app.
 

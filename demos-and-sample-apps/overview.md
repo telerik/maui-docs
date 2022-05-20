@@ -13,11 +13,15 @@ Telerik UI for .NET MAUI provides a few fully-features demo applications demonst
 
 ## Controls Samples App
 
-The Telerik UI for .NET MAUI Controls Samples is the application you can find in the app stores (Google Play, Apple App Store and  Windows Store). It is highly polished and has many scenario-specific use cases designed to show off a subset of features for each component.
+The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component.
+
+For more information on it, refer to [Controls Samples App]({%slug controls-samples-app%}).
 
 ## SDKBrowser App
 
 The SDKBrowser is a set of examples that explain how to use the features of a control. Contrary to the Controls Samples application, the SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
+
+For more information on it, refer to [SDKBrowser App]({%slug sdkbrowser-app%}).
 
 ## Crypto Tracker App 
 
