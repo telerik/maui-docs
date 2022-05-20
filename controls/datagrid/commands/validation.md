@@ -17,216 +17,31 @@ The DataGrid control provides a validation command that has an entry point for v
 
 Here is an example how the DataGrid `ValidateCell` command works:
 
-First, create a `Data` class (the business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces. For demonstration purposes, the example will do the validation through the `INotifyDataErrorInfo` interface.
+1. Create a `Data` class (the business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces. For demonstration purposes, the example will do the validation through the `INotifyDataErrorInfo` interface.
 
-<snippet id='datagrid-commands-validation-businessobject'/>
-```C#
-public class Data : INotifyDataErrorInfo, INotifyPropertyChanged
-{
-    private Dictionary<string, HashSet<object>> errors = new Dictionary<string, HashSet<object>>();
-    private string country;
+ <snippet id='datagrid-commands-validation-businessobject'/>
 
-    public string Country
-    {
-        get
-        {
-            return this.country;
-        }
+T1. Create a `ViewModel` with a collection of `Data` objects:
 
-        set
-        {
-            this.country = value;
+ <snippet id='datagrid-commands-validation-viewmodel'/>
 
-            if (this.country.Length > 15)
-            {
-                this.AddError("Country", string.Format("Country too long", new DateTime()));
-            }
-            else
-            {
-                this.RemoveErrors("Country");
-            }
+1. Handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
-            this.OnPropertyChanged("Country");
-        }
-    }
+ <snippet id='datagrid-commands-validation-validatecell'/>
 
-    public string Capital { get; set; }
+1. Set the `BindingContext` to be the `ViewModel` and add this command to the `Commands` collection of the `RadDataGrid` instance:
 
-    public bool HasErrors
-    {
-        get
-        {
-            return this.errors.Count > 0;
-        }
-    }
+ <snippet id='datagrid-commands-validation-binding'/>
 
-    public IEnumerable GetErrors(string propertyName)
-    {
-        if (string.IsNullOrEmpty(propertyName))
-        {
-            return this.errors.SelectMany(c => c.Value);
-        }
+1. Define the DataGrid in XAML:
 
-        HashSet<object> propertyErrors;
+ <snippet id='datagrid-commands-validation'/>
 
-        this.errors.TryGetValue(propertyName, out propertyErrors);
+ 1. Use the `telerik` namespace:
 
-        return propertyErrors ?? Enumerable.Empty<object>();
-    }
-
-    protected virtual void AddError(string propertyName, object errorMessage)
-    {
-        HashSet<object> propertyErrors;
-
-        if (!this.errors.TryGetValue(propertyName, out propertyErrors))
-        {
-            propertyErrors = new HashSet<object>();
-            this.errors.Add(propertyName, propertyErrors);
-
-            propertyErrors.Add(errorMessage);
-
-            this.OnErrorsChanged(propertyName);
-        }
-        else
-        {
-            if (!propertyErrors.Contains(errorMessage))
-            {
-                propertyErrors.Add(errorMessage);
-                this.OnErrorsChanged(propertyName);
-            }
-        }
-    }
-
-    protected virtual void RemoveErrors(string propertyName = null)
-    {
-        if (string.IsNullOrEmpty(propertyName))
-        {
-            if (this.errors.Count > 0)
-            {
-                this.errors.Clear();
-                this.OnErrorsChanged(propertyName);
-            }
-        }
-        else
-        {
-            if (this.errors.Remove(propertyName))
-            {
-                this.OnErrorsChanged(propertyName);
-            }
-        }
-    }
-
-    public event EventHandler<DataErrorsChangedEventArgs> ErrorsChanged;
-
-    protected virtual void OnErrorsChanged(string propertyName)
-    {
-        if (this.ErrorsChanged != null)
-        {
-            this.ErrorsChanged(this, new DataErrorsChangedEventArgs(propertyName));
-        }
-    }
-
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    protected void OnPropertyChanged(string name)
-    {
-        PropertyChangedEventHandler handler = PropertyChanged;
-        if (handler != null)
-        {
-            handler(this, new PropertyChangedEventArgs(name));
-        }
-    }
-}
-```
-
-Then, create a `ViewModel` with a collection of `Data` objects:
-
-<snippet id='datagrid-commands-validation-viewmodel'/>
-```C#
-public class ViewModel : INotifyPropertyChanged
-{
-    public ObservableCollection<Data> Items { get; set; }
-    public ViewModel()
-    {
-        this.Items = new ObservableCollection<Data>()
-        {
-             new Data { Country = "India", Capital = "New Delhi"},
-             new Data { Country = "South Africa", Capital = "Cape Town"},
-             new Data { Country = "Nigeria", Capital = "Abuja" },
-             new Data { Country = "Singapore", Capital = "Singapore" }
-       };
-    }
-
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    protected void OnPropertyChanged(string name)
-    {
-        PropertyChangedEventHandler handler = PropertyChanged;
-        if (handler != null)
-        {
-            handler(this, new PropertyChangedEventArgs(name));
-        }
-    }
-}
-```
-
-Then, handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
-
-<snippet id='datagrid-commands-validation-validatecell'/>
-```C#
-public class ValidateCellCommand : DataGridCommand
-{
-    Grid grid;
-    public ValidateCellCommand(Grid grid)
-    {
-        this.Id = DataGridCommandId.ValidateCell;
-        this.grid = grid;
-    }
-
-    public override void Execute(object parameter)
-    {
-        var context = (ValidateCellContext)parameter;
-        this.grid.IsVisible = context.Errors.Count > 0;
-    }
-}
-```
-
-Then, set the `BindingContext` to be the `ViewModel` and add this command to the `Commands` collection of the `RadDataGrid` instance:
-
-<snippet id='datagrid-commands-validation-binding'/>
-```C#
-this.BindingContext = new ViewModel();
-this.dataGrid.Commands.Add(new ValidateCellCommand(errorContainer));
-```
-
-Define the DataGrid in XAML:
-
-<snippet id='datagrid-commands-validation'/>
-```XAML
-<Grid Margin="0,20,0,0">
-    <Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition/>
-    </Grid.RowDefinitions>
-    <Grid x:Name="errorContainer"
-          IsVisible="false">
-        <BoxView BackgroundColor="DarkRed" />
-        <Label Text="country name length must be less than 15 symbols"
-               FontSize="15"
-               HorizontalOptions="CenterAndExpand"
-               VerticalOptions="CenterAndExpand"
-               HorizontalTextAlignment="Center"
-               TextColor="White"/>
-    </Grid>
-
-    <telerikDataGrid:RadDataGrid x:Name="dataGrid"
-                                 Grid.Row="1"
-                                 UserEditMode="Cell"
-                                 AutoGenerateColumns="True"
-                                 ItemsSource="{Binding Items}">
-    </telerikDataGrid:RadDataGrid>
-</Grid>
-```
+  ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 ## See Also
 

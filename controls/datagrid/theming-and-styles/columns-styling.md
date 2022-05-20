@@ -30,27 +30,43 @@ To style the `RadDataGridColumnHeader` use the following properties:
 * `Font Options` (`TextFontAttributes`, `TextFontFamily`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnHeader`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnHeader`.
 
+<snippet id='datagrid-columnstyle-headerstyle'/>
+
 ### SortIndicator Styling
 
-The `Indicator` is shown once the `RadDataGridColumnHeader` is sorted (tapped/clicked on the `ColumnHeader` cell) and can be styled with the following properties:
+The `SortIndicator` is shown once the `RadDataGridColumnHeader` is sorted (tapped/clicked on the `ColumnHeader` cell) and can be styled with the following properties:
 
-* `IndicatorColor`&mdash;Defines the color for the indicator part of the `ColumnHeader`.  
-* `Indicator` font options (`IndicatorFontAttributes`, `IndicatoFontFamily`, `IndicatoFontSize`)&mdash;Define the font options for the `ColumnHeader` indicator.
-* `IndicatorMargin`&mdash;Defines the margin of the indicator part of the `ColumnHeader`.
-* `IndicatorText`&mdash;Defines the text of the indicator part of the `ColumnHeader`.
+* `SortIndicatorColor`&mdash;Defines the color for the sort indicator part of the `ColumnHeader`.  
+* `SortIndicatorMargin`&mdash;Defines the margin of the sort indicator part of the `ColumnHeader`.
 * `SortIndicatorAscendingText`&mdash;Defines the text of the sort indicator when the sorting is ascending.
 * `SortIndicatorDescendingText`&mdash;Defines the text of the sort indicator when the sorting is descending.
 
 >note By default, the indicator is represented by a string symbol that can be changed by using the `IndicatorText` and `IndicatorFontFamily` properties. For more details, refer to the [article on sorting the DataGrid]({%slug datagrid-sorting-overview%}).
 
-```XAML
-<telerikDataGrid:DataGridTextColumn.HeaderStyle>
-	<telerikDataGrid:DataGridColumnHeaderStyle BackgroundColor="LightSkyBlue"
-											   TextColor="Black"
-											   BorderColor="Black"
-											   BorderThickness="2"/>
-</telerikDataGrid:DataGridTextColumn.HeaderStyle>
-```
+### OptiponsButton Styling
+
+> OptionsButton (three dots) is visualized only on Android and iOS. The button opens the built-in filtering UI.
+
+Style the `OptiponsButton` using the following properties:
+
+* `OptiponsButtonTextColor`&mdash;Defines the color for the option indicator part of the `ColumnHeader`.  
+* `OptiponsButtonText`&mdash;Defines the text for the option indicator part of the `ColumnHeader`.  
+* `OptiponsButtonMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
+* `Font Options`(`OptiponsButtonFontAttributes`, `OptiponsButtonFontFamily`, `OptiponsButtonFontSize`)&mdash;Define the font options to the option indicator text. 
+
+
+### FilterIndicator Styling
+
+> On Mobile (Android and iOS)&mdash;`FilterIndicator` is shown once the `RadDataGridColumnHeader` is filtered (tapped on the `ColumnHeader` cell) 
+>
+> On Desktop(MacCatalyst and Windows)&mdash;`FilterIndicator` is shown by default.
+
+Style the `FilterIndicator` using the following properties:
+
+* `FilterIndicatorTextColor`&mdash;Defines the color for the filter indicator part of the `ColumnHeader`.  
+* `FilterIndicatorText`&mdash;Defines the text for the filter indicator part of the `ColumnHeader`.  
+* `FilterIndicatorMargin`&mdash;Defines the margin of the filter indicator part of the `ColumnHeader`.
+* `Font Options`(`FilterIndicatorFontAttributes`, `FilterIndicatorFontFamily`, `FilterIndicatorFontSize`)&mdash;Define the font options to the filter indicator text. 
 
 ## CellContentStyle
 
@@ -65,17 +81,6 @@ The following properties can be used to define the style of the text cell elemen
 Here is an example how to set the `CellContentStyle` property:
 
 <snippet id='datagrid-columnstyle-cellcontent'/>
-```XAML
-<telerikDataGrid:DataGridTextColumn.CellContentStyle>
-	<telerikDataGrid:DataGridTextCellStyle TextColor="DarkOliveGreen"
-										   FontSize="12"
-										   TextMargin="2"
-										   VerticalTextAlignment="Center"
-										   HorizontalTextAlignment="Center"
-										   SelectedTextColor="Brown">
-	</telerikDataGrid:DataGridTextCellStyle>
-</telerikDataGrid:DataGridTextColumn.CellContentStyle>
-```
 
 ## CellDecorationStyle
 
@@ -84,13 +89,6 @@ To style the border of each cell associated with the column the `CellDecorationS
 Here is an example how to set those properties on a column:
 
 <snippet id='datagrid-columnstyle-celldecoration'/>
-```XAML
-<telerikDataGrid:DataGridTextColumn.CellDecorationStyle>
-	<telerikDataGrid:DataGridBorderStyle BorderColor="DarkBlue"  
-										 BorderThickness="3"
-										 BackgroundColor="LightBlue" />
-</telerikDataGrid:DataGridTextColumn.CellDecorationStyle>
-```
 
 ## CellEditorStyle
 
@@ -99,14 +97,6 @@ Here is an example how to set those properties on a column:
 Here is an example how to set this property:
 
 <snippet id='datagrid-columnstyle-celleditor'/>
-```XAML
-<telerikDataGrid:DataGridTextColumn.CellEditorStyle>
-	<Style TargetType="Entry">
-		<Setter Property="FontSize" Value="Large"/>
-		<Setter Property="FontAttributes" Value="Bold"/>
-	</Style>
-</telerikDataGrid:DataGridTextColumn.CellEditorStyle>
-```
 
 And this is how the column style looks when the properties for customizing the column are applied:
 

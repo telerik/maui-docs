@@ -14,7 +14,7 @@ Apply `RowHeight` property of type `double` to the DataGrid instance to specify 
 
 
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
+<telerik:RadDataGrid x:Name="dataGrid"
 							RowHeight="50"
 							ItemsSource="{Binding Source}" />
 ```

@@ -8,7 +8,7 @@ slug: datagrid-columns-date-column
 
 # DataGrid DateColumn
 
-The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the DatePicker control to pick a value in EditMode.
+The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Telerik Ui for .NET MAUI [DatePicker control](%slug datepicker-overview%) to pick a value in EditMode.
 
 ## Important Properties
 
@@ -27,15 +27,15 @@ The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Da
 ## Example
 
 ```XAML
-<telerikGrid:DataGridDateColumn PropertyName="Established"
+<telerik:DataGridDateColumn PropertyName="Established"
                                 HeaderText="Date Established"
                                 CellContentFormat="{}{0: ddd-d-MMM-yyyy}">
-    <telerikGrid:DataGridDateColumn.CellContentStyle>
-        <telerikGrid:DataGridTextCellStyle TextColor="LightBlue"
+    <telerik:DataGridDateColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle TextColor="LightBlue"
                                            FontSize="18"
                                            SelectedTextColor="Blue" />
-    </telerikGrid:DataGridDateColumn.CellContentStyle>
-</telerikGrid:DataGridDateColumn>
+    </telerik:DataGridDateColumn.CellContentStyle>
+</telerik:DataGridDateColumn>
 ```
 
 ![Date Column](images/datecolumn-overview.png)

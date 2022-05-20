@@ -33,15 +33,15 @@ Here are the specific properties for the Text Columns:
 Here is an example how the Text Column properties can be used:
 
 ```XAML
-<telerikGrid:DataGridTextColumn PropertyName="Name"
-                                HeaderText="Name"
-								CellContentFormat="FC {0}">
-	<telerikGrid:DataGridTextColumn.CellContentStyle>
-    	<telerikGrid:DataGridTextCellStyle TextColor="Green"
-                                           FontSize="15"
-                                           SelectedTextColor="Orange"  />
- 	</telerikGrid:DataGridTextColumn.CellContentStyle>
- </telerikGrid:DataGridTextColumn>
+<telerik:DataGridTextColumn PropertyName="Name"
+                            HeaderText="Name"
+							CellContentFormat="FC {0}">
+	<telerik:DataGridTextColumn.CellContentStyle>
+    	<telerik:DataGridTextCellStyle TextColor="Green"
+                                       FontSize="15"
+                                       SelectedTextColor="Orange"/>
+ 	</telerik:DataGridTextColumn.CellContentStyle>
+ </telerik:DataGridTextColumn>
 ```
 
 ![Text Column](images/textcolumn-overview.png)
