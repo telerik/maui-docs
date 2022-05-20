@@ -8,7 +8,7 @@ slug: datagrid-columns-numerical-column
 
 # DataGrid NumericalColumn
 
-The `DataGridNumericalColumn` is used to represent only numerical values. It uses an Entry control to edit the value in EditMode. The difference between this column and the text one is that it will directly invoke the numeric keyboard on the mobile devices.
+The `DataGridNumericalColumn` is used to represent only numerical values. It uses the Telerik UI for .NET MAUI [NumericInput control]({%slug numericinput-overview%}) to edit the value in EditMode. The difference between this column and the text one is that it will directly invoke the numeric keyboard on the mobile devices.
 
 ## Important Properties
 
@@ -27,15 +27,15 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 ## Example
 
 ```XAML
-<telerikGrid:DataGridNumericalColumn PropertyName="StadiumCapacity"
+<telerik:DataGridNumericalColumn PropertyName="StadiumCapacity"
                                      HeaderText="Stadium Capacity"
                                      CellContentFormat=" Seats - {0:D}">
-    <telerikGrid:DataGridNumericalColumn.CellContentStyle>
-        <telerikGrid:DataGridTextCellStyle TextColor="Green"
+    <telerik:DataGridNumericalColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle TextColor="Green"
                                            FontSize="18"
                                            SelectedTextColor="LightCoral" />
-    </telerikGrid:DataGridNumericalColumn.CellContentStyle>
-</telerikGrid:DataGridNumericalColumn>
+    </telerik:DataGridNumericalColumn.CellContentStyle>
+</telerik:DataGridNumericalColumn>
 ```
 
 ![Numerical Column](images/numericalcolumn-overview.png)

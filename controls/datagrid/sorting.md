@@ -10,6 +10,12 @@ slug: datagrid-sorting-overview
 
 The DataGrid provides a built-in sorting functionality which allows the user to order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
 
+## Sorting through the UI
+
+* Sort through the UI by clicking or tapping the column header. `UserSortMode` defines how user input (column header tap/click) affects the current sort state of the grid. The available options are `Auto`, `Multiple`, `None`, and `Single`. The default value of the `UserSortMode` is `Auto`.
+
+The `CanUserSort` (bool) property is used to enable or disable the sorting of a specific column. It defines a value indicating whether the user can sort the data by the values in the column.
+
 ## Programmatic Sorting
 
 The DataGrid provides two ways of programmatic sorting:
@@ -72,11 +78,6 @@ Here is how the DataGrid looks when sorting is applied:
 
 ![](images/datagrid_sorting.png)
 
-## Sorting through the UI
-
-The DataGrid allows sorting through the UI by clicking or tapping the column header and through the `UserSortMode` property. `UserSortMode` defines how user input (column header tap/click) affects the current sort state of the grid. The available options are `Auto`, `Multiple`, `None`, and `Single`. The default value of the `UserSortMode` is `Auto`.
-
-The `CanUserSort` (bool) property is used to enable or disable the sorting of a specific column. It defines a value indicating whether the user can sort the data by the values in the column.
 
 ## See Also
 

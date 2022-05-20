@@ -8,7 +8,7 @@ slug: datagrid-columns-boolean-column
 
 # DataGrid BooleanColumn
 
-The `DataGridBooleanColumn` is used to represent boolean values. It uses the Switch control to edit its values in EditMode.
+The `DataGridBooleanColumn` is used to represent boolean values. It uses the CheckBox control to edit its values in EditMode.
 
 ## Important Properties
 
@@ -27,14 +27,14 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Swi
 ## Example
 
 ```XAML
-<telerikGrid:DataGridBooleanColumn PropertyName="IsChampion"
+<telerik:DataGridBooleanColumn PropertyName="IsChampion"
                                     HeaderText="Champion?">
-    <telerikGrid:DataGridBooleanColumn.CellContentStyle>
-        <telerikGrid:DataGridTextCellStyle TextColor="Green"
+    <telerik:DataGridBooleanColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle TextColor="Green"
                                             FontSize="18"
                                             SelectedTextColor="Blue" />
-    </telerikGrid:DataGridBooleanColumn.CellContentStyle>
-</telerikGrid:DataGridBooleanColumn>
+    </telerik:DataGridBooleanColumn.CellContentStyle>
+</telerik:DataGridBooleanColumn>
 ```
 
 ![Boolean Column](images/booleancolumn-overview.png)

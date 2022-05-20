@@ -8,7 +8,28 @@ slug: datagrid-filtering-overview
 
 # Filtering
 
-The DataGrid provides a programmatic approach for filtering its data per specific criteria.
+The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) and [programmatic filtering](#programmatic-filtering).
+
+
+## Filtering UI
+
+> On Mobile (iOs and Android) Filtering UI appears when clicking the options icon (**OptionsButton**, three dots) on each column's header and it allows the user to easily filter data by column values.
+>
+> On Desktop Filtering UI appears when clicking on the filtering icon on each column's header'.
+
+The Filtering UI exposes the following property:
+
+* `UserFilterMode`&mdash;Defines whether the Filtering UI is enabled/disabled. The available options are *Auto/Enabled/Disabled*. The default value of the UserFilterMode is *Auto*. Set the property on DataGrid control.
+
+* `CanUserFilter`(`bool`) property is used to enable/disable the filtering of a specific column. Set the property to a specific column.
+
+* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included int he Filering UI. By default the value is true.
+
+## FilterControl Template
+
+The Telerik DataGrid allows you to apply filtering to the datagrid column using the FilterControlTemplate property.
+
+* **FilterControlTemplate**(DataTemplate): Specifies the user defined template used for Filtering UI. The template must contain an instance of the Telerik.XamarinForms.DataGrid.DataGridFilterControlBase class
 
 ## Programmatic Filtering
 
@@ -25,8 +46,8 @@ The following descriptor types are supported:
 
 All `FilterDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
 
-```XAML
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
+```C#
+using Telerik.XamarinForms.Common.Data;
 ```
 
 ### Text Filter Descriptor

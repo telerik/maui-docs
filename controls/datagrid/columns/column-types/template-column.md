@@ -57,36 +57,36 @@ public class Person
 Define the DataGrid:
 
 ```XAML
-<telerikDataGrid:RadDataGrid AutoGenerateColumns="False"
+<telerik:RadDataGrid AutoGenerateColumns="False"
                              ItemsSource="{Binding Data}"
                              UserSortMode="Multiple">
-    <telerikDataGrid:RadDataGrid.BindingContext>
+    <telerik:RadDataGrid.BindingContext>
         <local:ViewModel/>
-    </telerikDataGrid:RadDataGrid.BindingContext>
-    <telerikDataGrid:RadDataGrid.Columns>
-		<telerikDataGrid:DataGridTextColumn PropertyName="Name"
+    </telerik:RadDataGrid.BindingContext>
+    <telerik:RadDataGrid.Columns>
+		<telerik:DataGridTextColumn PropertyName="Name"
 	                                        HeaderText="Name"
 	                                        CanUserSort="True"/>
-        <telerikDataGrid:DataGridTemplateColumn HeaderText="Age"
+        <telerik:DataGridTemplateColumn HeaderText="Age"
                                                 CanUserSort="True">
-            <telerikDataGrid:DataGridTemplateColumn.CellContentTemplate>
+            <telerik:DataGridTemplateColumn.CellContentTemplate>
                 <DataTemplate>
                     <Label Text="{Binding Age}" />
                 </DataTemplate>
-            </telerikDataGrid:DataGridTemplateColumn.CellContentTemplate>
+            </telerik:DataGridTemplateColumn.CellContentTemplate>
 
             <!-- Tell the DataGrid to sort using Age property with a SortDescriptor -->
-            <telerikDataGrid:DataGridTemplateColumn.SortDescriptor>
-                <telerikCommon:PropertySortDescriptor PropertyName="Age" />
-            </telerikDataGrid:DataGridTemplateColumn.SortDescriptor>
+            <telerik:DataGridTemplateColumn.SortDescriptor>
+                <telerik:PropertySortDescriptor PropertyName="Age" />
+            </telerik:DataGridTemplateColumn.SortDescriptor>
 
             <!-- Tell the DataGrid to group using Age property with a GroupDescriptor -->
-            <telerikDataGrid:DataGridTemplateColumn.GroupDescriptor>
-                <telerikCommon:PropertyGroupDescriptor PropertyName="Age" />
-            </telerikDataGrid:DataGridTemplateColumn.GroupDescriptor>
-        </telerikDataGrid:DataGridTemplateColumn>
-    </telerikDataGrid:RadDataGrid.Columns>
-</telerikDataGrid:RadDataGrid>
+            <telerik:DataGridTemplateColumn.GroupDescriptor>
+                <telerik:PropertyGroupDescriptor PropertyName="Age" />
+            </telerik:DataGridTemplateColumn.GroupDescriptor>
+        </telerik:DataGridTemplateColumn>
+    </telerik:RadDataGrid.Columns>
+</telerik:RadDataGrid>
 ```
 
 ![Template Column](images/templatecolumn-overview.png)

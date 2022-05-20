@@ -31,11 +31,11 @@ The following table lists the related .NET MAUI control for editing the values i
 | Column Type 		| Editor 			|
 |-------------------|-------------------|
 | `TextColumn`		| Entry				|
-| `NumericalColumn`	| Entry				|
-| `BooleanColumn`		| Switch			|
-| `DateColumn`		| DatePicker		|
-| `TimeColumn`		| TimePicker		|
-| `PickerColumn`		| Picker			|
+| `NumericalColumn`	| RadNumericInput	|
+| `BooleanColumn`	| CheckBox		    |
+| `DateColumn`		| RadDatePicker		|
+| `TimeColumn`		| RadTimePicker		|
+| `PickerColumn`	| RadComboBox	    |
 | `TemplateColumn`	| A custom editor by defining `CellEditTemplate`. |
 
 ## CellEditTemplate
@@ -59,14 +59,6 @@ You can change the visual appearance of each editor through the `CellEditorStyle
 The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColumn`:
 
 <snippet id='datagrid-columnstyle-celleditor'/>
-```XAML
-<telerikDataGrid:DataGridTextColumn.CellEditorStyle>
-    <Style TargetType="Entry">
-        <Setter Property="FontSize" Value="Large"/>
-        <Setter Property="FontAttributes" Value="Bold"/>
-    </Style>
-</telerikDataGrid:DataGridTextColumn.CellEditorStyle>
-```
 
 ## See Also
 

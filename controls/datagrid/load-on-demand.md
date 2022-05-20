@@ -135,31 +135,11 @@ The `LoadOnDemandRowStyle` property can be used to style the appearance of the r
 The custom style is of type `DataGridLoadOnDemandRowStyle`:
 
 <snippet id='datagrid-loadondemandrowstyle-xaml'/>
-```XAML
-<telerikDataGrid:DataGridLoadOnDemandRowStyle x:Key="CustomDataGridLoadOnDemandRowStyle"
-                                              BackgroundColor="LightYellow"
-                                              BorderColor="LightBlue"
-                                              IndicatorAnimationColor="Orange"
-                                              IndicatorAnimationType="Animation5"
-                                              HorizontalTextAlignment="Center"
-                                              VerticalTextAlignment="Center"
-                                              OverlayOpacity="0.5"
-                                              Text="Some Text"
-                                              TextFontSize="16"
-                                              TextColor="DarkGray"
-                                              TextFontFamily="Times New Roman"/>
-```
+
 
 You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 <snippet id='datagrid-setting-loadondemandrowstyle-xaml'/>
-```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-							 ItemsSource="{Binding Items}"
-                             LoadOnDemand="dataGrid_LoadOnDemand"
-                             LoadOnDemandMode="Manual"
-                             LoadOnDemandRowStyle="{StaticResource CustomDataGridLoadOnDemandRowStyle}"/>
-```
 
 **Row Appearance after Setting the LoadOnDemandRowStyle**
 
@@ -172,34 +152,10 @@ The `LoadOnDemandRowTemplate` property can be used to set the template of the ro
 The following example demonstrates a custom `DataTemplate`:
 
 <snippet id='datagrid-loadondemandrowtemplate-xaml'/>
-```XAML
-<DataTemplate x:Key="CustomLoadOnDemandRowTemplate">
-    <Label Text="Load more from Template"
-           Margin="0,30,0,30"
-           HorizontalOptions="CenterAndExpand"
-           VerticalOptions="CenterAndExpand"
-           IsEnabled="{Binding IsDataLoading}">
-        <Label.Triggers>
-            <Trigger TargetType="Label"
-                     Property="IsEnabled" Value="False">
-                <Setter Property="BackgroundColor" Value="LightBlue" />
-            </Trigger>
-        </Label.Triggers>
-    </Label>
-</DataTemplate>
-```
 
 The following example shows how to set the property:
 
 <snippet id='datagrid-setting-loadondemandrowtemplate-xaml'/>
-```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-							 ItemsSource="{Binding Items}"
-                             LoadOnDemand="dataGrid_LoadOnDemand"
-                             LoadOnDemandMode="Manual"
-                             LoadOnDemandRowTemplate="{StaticResource CustomLoadOnDemandRowTemplate}"/>
-```
-
 
 **Row Appearance after Setting the LoadOnDemandRowTemplate**
 

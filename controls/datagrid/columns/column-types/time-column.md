@@ -8,7 +8,7 @@ slug: datagrid-columns-time-column
 
 # DataGrid TimeColumn
 
-The `DataGridTimeColumn` is used to represent `DateTime` objects. It uses the TimePicker control to pick a value in EditMode.
+The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Telerik UI for .NET MAUI [TimePicker control]({%slug timepicker-overview%}) to pick a value in EditMode.
 
 ## Important Properties
 
@@ -27,15 +27,15 @@ The `DataGridTimeColumn` is used to represent `DateTime` objects. It uses the Ti
 ## Example
 
 ```XAML
-<telerikGrid:DataGridTimeColumn PropertyName="Time"
-                                HeaderText="Time Column"
-                                CellContentFormat="{}{0: hh:mm:ss}">
-    <telerikGrid:DataGridTimeColumn.CellContentStyle>
-        <telerikGrid:DataGridTextCellStyle TextColor="Lime"
-                                           FontSize="18"
-                                           SelectedTextColor="Red" />
-    </telerikGrid:DataGridTimeColumn.CellContentStyle>
-</telerikGrid:DataGridTimeColumn>
+<telerik:DataGridTimeColumn PropertyName="Time"
+                            HeaderText="Time Column"
+                            CellContentFormat="{}{0: hh:mm:ss}">
+    <telerik:DataGridTimeColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle TextColor="Lime"
+                                       FontSize="18"
+                                       SelectedTextColor="Red" />
+    </telerik:DataGridTimeColumn.CellContentStyle>
+</telerik:DataGridTimeColumn>
 ```
 
 ![Time Column](images/timecolumn-overview.png)

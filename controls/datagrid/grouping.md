@@ -33,55 +33,28 @@ To use the `PropertyGroupDescriptor`, you have to set its `PropertyName` (`strin
 
 Let's, for example, have the following business object:
 
-```C#
-public class Person
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
-    public string Department { get; set; }
-}
-```
+<snippet id='datagrid-grouping-propertygroupdescriptor-object' />
+
 
 Add a sample `ViewModel` class with a collection of `Person` objects:
 
-```C#
-public class ViewModel
-{
-    public ViewModel()
-    {
-        this.People = new ObservableCollection<Person>()
-        {
-            new Person { Name = "Kiko", Age = 23, Department = "Production" },
-            new Person { Name = "Jerry", Age = 23, Department = "Accounting and Finance"},
-            new Person { Name = "Ethan", Age = 51, Department = "Marketing" },
-            new Person { Name = "Isabella", Age = 25, Department = "Marketing" },
-            new Person { Name = "Joshua", Age = 45, Department = "Production" },
-            new Person { Name = "Logan", Age = 26, Department = "Production"},
-            new Person { Name = "Aaron", Age = 32, Department = "Production" },
-            new Person { Name = "Elena", Age = 37, Department = "Accounting and Finance"},
-            new Person { Name = "Ross", Age = 30, Department = "Marketing" },
-        };
-    }
+<snippet id='datagrid-grouping-propertygroupdescriptor-viewmodel' />
 
-    public ObservableCollection<Person> People { get; set; }
-}
-```
+Define the `DataGrid`:
 
-The following snippet demonstrates how to group the people by the `"Department"` property through the `PropertyGroupDescriptor`:
-
-```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-							 ItemsSource="{Binding People}">
-	<telerikDataGrid:RadDataGrid.GroupDescriptors>
-		<telerikCommon:PropertyGroupDescriptor PropertyName="Department" />
-	</telerikDataGrid:RadDataGrid.GroupDescriptors>
-</telerikDataGrid:RadDataGrid>
-```
+<snippet id='datagrid-grouping-groupheadertemplate' />
 
 All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 
+<snippet id='datagrid-grouping-propertygroupdescriptor-setvm' />
+
+Apply the `PropertyGroupDescriptor`:
+
 ```C#
-this.BindingContext = new ViewModel();
+this.dataGrid.GroupDescriptors.Add(new Telerik.XamarinForms.Common.Data.PropertyGroupDescriptor()
+{
+    PropertyName="Department"
+});
 ```
 
 Here is how the DataGrid looks when it is grouped:
@@ -100,22 +73,11 @@ You have to create a class that implements the `IKeyLookup` interface which will
 
 The following example demonstrates a sample `IKeyLookup` implementation:
 
-```C#
-class CustomIKeyLookup : Telerik.XamarinForms.Common.Data.IKeyLookup
-{
-    public object GetKey(object instance)
-    {
-        var item = instance as Person;
-        return item?.Name[0];
-    }
-}
-```
+<snippet id='datagrid-grouping-delegategroupdescriptor-lookup' />
 
 Add it to the `GroupDescriptors` collection of the `RadDataGrid` instance:
 
-```C#
-this.dataGrid.GroupDescriptors.Add(new DelegateGroupDescriptor() { KeyLookup = new CustomIKeyLookup() });
-```
+<snippet id='datagrid-grouping-delegategroupdescriptor' />
 
 Here is how the DataGrid looks when it is grouped through a `DelegateGroupDescriptor`:
 

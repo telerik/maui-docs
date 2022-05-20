@@ -1,14 +1,14 @@
 ---
-title: Picker Column
-page_title: .NET MAUI DataGrid Documentation | Picker Column
-description: Check our &quot;Picker Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
+title: ComboBox Column
+page_title: .NET MAUI DataGrid Documentation | ComboBox Column
+description: Check our &quot;ComboBox Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 5
 slug: datagrid-columns-picker-column
 ---
 
-# DataGrid PickerColumn  
+# DataGrid ComboBoxColumn  
 
-The `DataGridPickerColumn` uses a Picker control in Edit mode to select a value from a list.
+The `DataGridComboBoxColumn` uses the Telerik Ui for .NET MAUI [ComboBox control]({%slug combobox-overview%}) in Edit mode to select a value from a list.
 
 ## Important Properties
 
@@ -33,16 +33,16 @@ Here are the specific properties defined for `DataGridPickerColumn`:
 ## Example
 
 ```XAML
-<telerikGrid:DataGridPickerColumn PropertyName="Country"
-                                  HeaderText="Country"
-                                  CellContentFormat="Picked: {0}"
-                                  ItemsSourcePath="Countries">
-    <telerikGrid:DataGridPickerColumn.CellContentStyle>
-        <telerikGrid:DataGridTextCellStyle SelectedTextColor="DarkGreen"
-                                           TextColor="Black"
-                                           FontSize="15" />
-    </telerikGrid:DataGridPickerColumn.CellContentStyle>
-</telerikGrid:DataGridPickerColumn>
+<telerik:DataGridComboBoxColumn PropertyName="Country"
+                                HeaderText="Country"
+                                CellContentFormat="Picked: {0}"
+                                ItemsSourcePath="Countries">
+    <telerik:DataGridComboBoxColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle SelectedTextColor="DarkGreen"
+                                       TextColor="Black"
+                                       FontSize="15" />
+    </telerik:DataGridComboBoxColumn.CellContentStyle>
+</telerik:DataGridComboBoxColumn>
 ```
 
 ![Picker Column](images/pickercolumn-overview.png)

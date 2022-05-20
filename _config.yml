@@ -327,12 +327,23 @@ nav:
 
 footer:
 
--
+  title: "Sample Applications"
+  links:
+    "Controls Samples App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/controls-showcase-app
+    "Crypto Tracker App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app
+
+  title: "Support Resources"
+  links:
+    ".NET MAUI SDKBrowser App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/sdkbrowser-app
+
   title: "Community"
   links:
     "Forums": https://www.telerik.com/forums/maui
     "Blogs": https://www.telerik.com/blogs/mobile
     "Feedback Portal": https://feedback.telerik.com/maui
+    "YouTube Channel": https://www.youtube.com/watch?v=3nInlHGsO8M&list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N&ab_channel=ProgressTelerik
+
+
 
 
 footer_social:

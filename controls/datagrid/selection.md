@@ -28,8 +28,8 @@ The `SelectionUnit` property (of type `Telerik.XamarinForms.DataGrid.DataGridSel
 The example below shows how to set `SelectionUnit` in XAML and code-behind:
 
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-							 SelectionUnit="Cell" />
+<telerik:RadDataGrid x:Name="dataGrid"
+					 SelectionUnit="Cell" />
 ```
 ```C#
 var dataGrid = new RadDataGrid();
@@ -47,8 +47,8 @@ The `SelectionMode` property (of type `Telerik.XamarinForms.DataGrid.DataGridSel
 The example below shows how to set `SelectionMode` in XAML and code-behind:
 
 ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-							 SelectionMode="Multiple" />
+<telerik:RadDataGrid x:Name="dataGrid"
+					 SelectionMode="Multiple" />
 ```
 ```C#
 var dataGrid = new RadDataGrid();
@@ -94,14 +94,7 @@ To illustrate how these methods can be used, let's have the following example:
 
 1. Add a sample business object:
 
- ```XAML
-public class Person
-{
-	public string Name { get; set; }
-	public int Age { get; set; }
-	public string Department { get; set; }
-}
- ```
+ <snippet id='datagrid-selection-object'/>
 
 1. Add a `ViewModel` with a list of `Person` objects:
 
@@ -131,8 +124,8 @@ public class ViewModel
 1. Add the DataGrid definition:
 
  ```XAML
-<telerikDataGrid:RadDataGrid x:Name="dataGrid"
-						  ItemsSource="{Binding People}" />
+<telerik:RadDataGrid x:Name="dataGrid"
+					 ItemsSource="{Binding People}" />
  ```
 
 1. Set the `ViewModel` class as a `BindingContext`:
