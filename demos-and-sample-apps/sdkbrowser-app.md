@@ -45,19 +45,6 @@ You can access the SDKBrowser application in the following ways:
 
 >important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
-1. Inside the terminal, run the `maui-check` command, which is required for using Telerik UI for .NET MAUI controls, and for building and running `SDKBrowserMaui.sln`.
-
-1. Run the `Telerik_UI_for_Maui_[version]_Preview.pkg` file, which automatically installs Telerik UI for .NET MAUI on your Mac.
-
-1. The **SDKBrowserMaui** folder is located inside the installation folder and you can now use the following subdirectories:
-
-    * **Binaries**&mdash;Contains the needed dlls for Android, iOS, and WinUI.
-    * **Examples**&mdash;Contains all examples available (**Sdk app** and **CryptoTracker app**) with the Telerik UI for .NET MAUI controls.
-    * **LicenseAgreements**&mdash;Provides the product End-User Licensce Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik_UI_for_Maui_[version]_Preview.nupkg` file.
-
-    ![Telerik UI for .NET MAUI Installation Folder](../images/installation-macos.png)
-
 1. Open Terminal inside the Sdk app folder.
 
 1. Run on macOS using the following command:
