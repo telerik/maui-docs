@@ -36,7 +36,8 @@ Let’s add the DataGrid and set the `CellContentStyleSelector` as a static reso
 
 1. Set the `ItemsSource` of the `DataGrid` class:
 
- <snippet id='datagrid-styleselector-items'/>
+  <snippet id='datagrid-styleselector-items'/>
+
 
 1. Add `MyCellContentStyleSelector`, `MyCellDecorationStyleSelector`, and `MyGroupStyleSelector` as resources in the **Resource** page of the application:
 
