@@ -22,7 +22,7 @@ This article describes how to set the content and edit templates to the DataGrid
 
 1. And add the following namespaces:
 
- ``XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
@@ -41,6 +41,8 @@ DataGrid Date Column with CellContentTemplate property and inside the template w
 ## Cell Edit Template Example
 
 1. Use the following snippet to declare a RadDataGrid in XAML:
+
+ <snippet id='datagrid-columns-celledittemplate-xaml' />
 
 1. And add the following namespaces
 
@@ -62,6 +64,6 @@ DataGrid Boolean Column with CellEditTemplate property and inside the template w
 
 ## See Also
 
-- [Picker Column]({%slug datagrid-columns-picker-column %})
+- [ComboBox Column]({%slug datagrid-columns-picker-column %})
 - [Template Column]({%slug datagrid-columns-template-column %})
 - [Text Column]({%slug datagrid-columns-text-column %})

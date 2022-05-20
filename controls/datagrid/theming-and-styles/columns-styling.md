@@ -57,7 +57,7 @@ Style the `OptiponsButton` using the following properties:
 
 ### FilterIndicator Styling
 
-> On Mobile (Android and iOS)&mdash;`FilterIndicator` is shown once the `RadDataGridColumnHeader` is filtered (tapped on the `ColumnHeader` cell) 
+> On Mobile (Android and iOS)&mdash;`FilterIndicator` is shown once the `RadDataGridColumnHeader` is filtered. 
 >
 > On Desktop(MacCatalyst and Windows)&mdash;`FilterIndicator` is shown by default.
 

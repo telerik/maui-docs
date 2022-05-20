@@ -35,7 +35,8 @@ T1. Create a `ViewModel` with a collection of `Data` objects:
 
 1. Define the DataGrid in XAML:
 
- <snippet id='datagrid-commands-validation'/>
+  <snippet id='datagrid-commands-validation'/>
+
 
  1. Use the `telerik` namespace:
 
