@@ -326,16 +326,16 @@ nav:
   "About": https://www.telerik.com/maui-ui
 
 footer:
-
+-
   title: "Sample Applications"
   links:
     "Controls Samples App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/controls-showcase-app
     "Crypto Tracker App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app
-
+-
   title: "Support Resources"
   links:
     ".NET MAUI SDKBrowser App": https://docs.telerik.com/devtools/maui/demos-and-sample-apps/sdkbrowser-app
-
+-
   title: "Community"
   links:
     "Forums": https://www.telerik.com/forums/maui

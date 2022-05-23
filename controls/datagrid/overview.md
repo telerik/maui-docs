@@ -17,7 +17,7 @@ Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iO
 
 ## Key Features
 
-* [Different column types]({%slug datagrid-columns-overview %})&mdash;The DataGrid provides plenty of built-in columns such as Text, Boolean, Numeric, ComboBox, DateTime, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
+* [Different column types]({%slug datagrid-columns-overview %})&mdash;The DataGrid provides plenty of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 
 * [Load on demand]({%slug datagrid-features-loadondemand %})&mdash;In some cases, you may need to load data in the DataGrid when the control is already displayed as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
 
@@ -32,6 +32,8 @@ Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iO
 * [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
 * Rows alternation&mdash;The DataGrid supports alternating row colors so that your users can easily distinguish one row from another.
+
+* [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.
 
 * [Flexible styling API]({%slug datagrid-styling%})&mdash;The DataGrid is highly customizable if you prefer to use your own styling.
 
