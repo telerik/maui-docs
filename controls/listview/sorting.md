@@ -31,86 +31,17 @@ This descriptor enables you to sort by a custom key (for example, some complex e
 
 Here is an example that will guide you how to use `SortDescriptor` in the ListView.
 
-1. First, define the ListView in XAML:
+First, define the ListView in XAML and add `PropertySortDescriptor` to its `SortDescriptors` collection :
 
- <snippet id='listview-features-sorting-xaml'/>
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-					 ItemsSource="{Binding Items}">
-	<telerikDataControls:RadListView.BindingContext>
-		<local:ViewModel/>
-	</telerikDataControls:RadListView.BindingContext>
-	<telerikDataControls:RadListView.ItemTemplate>
-		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
-					<HorizontalStackLayout>
-						<Label Text="Name:"/>
-						<Label Text="{Binding Name}"/>
-						<Label Text=", Age:"/>
-						<Label Text="{Binding Age}"/>
-					</HorizontalStackLayout>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
-		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-</telerikDataControls:RadListView>
- ```
+<snippet id='listview-features-sorting-xaml'/>
 
-1. Add a `PropertySortDescriptor` to the `SortDescriptors` collection of the ListView:
+Use the following snippet for the `ViewModel` class:
 
- <snippet id='listview-features-sorting-agesort'/>
- ```C#
-listView.SortDescriptors.Add(new Telerik.XamarinForms.DataControls.ListView.PropertySortDescriptor { PropertyName = "Age", SortOrder = SortOrder.Ascending });
- ```
+<snippet id='listview-features-sorting-viewmodel'/>
 
-1. Use the following snippet for the `ViewModel` class:
+Where the `Person` class is defined like this:
 
- <snippet id='listview-features-sorting-viewmodel'/>
- ```C#
-public class ViewModel
-{
-	public ViewModel()
-	{
-		this.Items = GetData();
-	}
-
-	public ObservableCollection<Person> Items { get; set; }
-
-	private static ObservableCollection<Person> GetData()
-	{
-		var items = new ObservableCollection<Person>();
-
-		items.Add(new Person { Name = "Tom", Age = 41 });
-		items.Add(new Person { Name = "Anna", Age = 32 });
-		items.Add(new Person { Name = "Peter", Age = 28 });
-		items.Add(new Person { Name = "Teodor", Age = 39 });
-		items.Add(new Person { Name = "Lorenzo", Age = 25 });
-		items.Add(new Person { Name = "Andrea", Age = 33 });
-		items.Add(new Person { Name = "Martin", Age = 36 });
-		items.Add(new Person { Name = "Alexander", Age = 29 });
-		items.Add(new Person { Name = "Maria", Age = 22 });
-		items.Add(new Person { Name = "Elena", Age = 27 });
-		items.Add(new Person { Name = "Stefano", Age = 44 });
-		items.Add(new Person { Name = "Jake", Age = 31 });
-		items.Add(new Person { Name = "Leon", Age = 28 });
-
-		return items;
-	}
-}
- ```
-
-1. Create a `Person` class and add the code below:
-
- <snippet id='listview-features-sorting-data-class'/>
- ```C#
-public class Person
-{
-	public string Name { get; set; }
-	public int Age { get; set; }
-}
- ```
-
+<snippet id='listview-features-sorting-data-class'/>
 
 The following image shows the result once the data is sorted.
 
