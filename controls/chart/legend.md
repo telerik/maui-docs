@@ -13,20 +13,7 @@ The Legend feature of the `RadChart` makes it easy for you to provide descriptio
 
 To add the legend feature in your application, you need to initialize a new object of type `RadLegend`.
 
-```XAML
-<telerikChart:RadPieChart x:Name="pieChart" HeightRequest="300">
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadPieChart.Series>
-        <telerikChart:PieSeries DisplayName="Value" LegendTitleBinding="Category" ItemsSource="{Binding Data1}" ValueBinding="Value"/>
-    </telerikChart:RadPieChart.Series>
-</telerikChart:RadPieChart>
-<telerikChart:RadLegend HeightRequest="200"
-                        LegendItemFontColor="DarkGreen"
-                        LegendItemFontSize="20"
-                        LegendProvider="{x:Reference Name=pieChart}"/>
-```
+<snippet id='chart-features-piechart-legend-definition-xaml'/>
 
 
 The following image shows the `RadLegend` in combination with the Pie Chart.
@@ -49,37 +36,7 @@ The following list summarizes the most important properties of the `RadLegend` c
 
 The following example demonstrates how to define some of the most important Chart legend properties.
 
-```XAML
-<telerikChart:RadCartesianChart x:Name="chart" HeightRequest="300">
-  <telerikChart:RadCartesianChart.BindingContext>
-    <local:ViewModel />
-  </telerikChart:RadCartesianChart.BindingContext>
-  <telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:CategoricalAxis />
-  </telerikChart:RadCartesianChart.HorizontalAxis>
-  <telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:NumericalAxis />
-  </telerikChart:RadCartesianChart.VerticalAxis>
-  <telerikChart:RadCartesianChart.Series>
-    <telerikChart:LineSeries CategoryBinding="Category"
-                            ValueBinding="Value"
-                            DisplayName=" Data1"
-                            ItemsSource="{Binding Data1}" />
-    <telerikChart:LineSeries CategoryBinding="Category"
-                             ValueBinding="Value"
-                             DisplayName=" Data2"
-                             ItemsSource="{Binding Data2}" />
-    <telerikChart:LineSeries CategoryBinding="Category"
-                             ValueBinding="Value"
-                             DisplayName=" Data3"
-                             ItemsSource="{Binding Data3}" />
-  </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
-    <telerikChart:RadLegend LegendProvider="{x:Reference Name=chart}"
-                            LegendItemFontColor="DarkGreen"
-                            HeightRequest="200"/>
-```
-
+<snippet id='chart-features-cartesianchart-legend-definition-xaml'/>
 
 The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 
@@ -89,14 +46,7 @@ The following image shows the `RadLegend` control in combination with a Cartesia
 
 The `LegendTitleBinding` is a property which can be set specifically for the Pie Series. It points to the property of the data item which will be used as a title in the legend. For all other series, the `DisplayName` property will be used instead.
 
-```XAML
-<telerikChart:RadPieChart.Series>
-    <telerikChart:PieSeries DisplayName="Value"
-							LegendTitleBinding="Category"
-							ItemsSource="{Binding Data1}"
-							ValueBinding="Value"/>
-</telerikChart:RadPieChart.Series>
-```
+<snippet id='chart-features-piechart-legendtitlebinding-xaml'/>
 
 ## See Also
 

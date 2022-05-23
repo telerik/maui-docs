@@ -35,7 +35,7 @@ Before adding the Chart, you need to:
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
@@ -66,35 +66,11 @@ xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Ma
 
 1. Now that you have added the control to your project, define the business model:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
+1. Set the ViewModel:
 
-1. Set the `ViewModel` class:
-
- ```C#
-public class ChartViewModel
-{
-    public ChartViewModel()
-    {
-        this.Data = new ObservableCollection<CategoricalData>()
-        {
-            new CategoricalData { Category = "A", Value = 0.63 },
-            new CategoricalData { Category = "B", Value = 0.85 },
-            new CategoricalData { Category = "C", Value = 1.05 },
-            new CategoricalData { Category = "D", Value = 0.96 },
-            new CategoricalData { Category = "E", Value = 0.78 },
-        };
-    }
-
-    public ObservableCollection<CategoricalData> Data { get; set; }
-}
- ```
+ <snippet id='chart-getting-started-viewmodel' />
 
 
 ## See Also

@@ -30,14 +30,7 @@ The following example shows how the `CartesianGridLineAnnotation` works:
 
 1. First, create the needed business objects:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
-
-    public double Value { get; set; }
-}
- ```
+ <snippet id='categorical-data-model' />
 
 1. Then, create a `ViewModel`:
 
@@ -71,35 +64,35 @@ public class ViewModel
 1. Finally, declare the `RadChart` in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis x:Name="verticalAxis" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:BarSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis x:Name="verticalAxis" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:BarSeries ValueBinding="Value"
                                 CategoryBinding="Category"
                                 ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-    <telerikChart:RadCartesianChart.Annotations>
-        <telerikChart:CartesianGridLineAnnotation Stroke="#0E72F6"
+    </telerik:RadCartesianChart.Series>
+    <telerik:RadCartesianChart.Annotations>
+        <telerik:CartesianGridLineAnnotation Stroke="#0E72F6"
                                                   StrokeThickness="2"
                                                   Axis="{x:Reference verticalAxis}"
                                                   Value="{Binding Threshold}">
-            <telerikChart:CartesianGridLineAnnotation.DashArray>
+            <telerik:CartesianGridLineAnnotation.DashArray>
                 <x:Array Type="{x:Type x:Double}">
                     <x:Double>4.0</x:Double>
                     <x:Double>2.0</x:Double>
                 </x:Array>
-            </telerikChart:CartesianGridLineAnnotation.DashArray>
-        </telerikChart:CartesianGridLineAnnotation>
-    </telerikChart:RadCartesianChart.Annotations>
-</telerikChart:RadCartesianChart>
+            </telerik:CartesianGridLineAnnotation.DashArray>
+        </telerik:CartesianGridLineAnnotation>
+    </telerik:RadCartesianChart.Annotations>
+</telerik:RadCartesianChart>
  ```
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
@@ -119,14 +112,8 @@ The following example shows how the `CartesianPlotBandAnnotation` works:
 
 1. First, create the needed business objects:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Define the `ViewModel`:
 
@@ -163,31 +150,31 @@ public class ViewModel
 1. Finally, declare the `RadChart` control in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LabelFitMode="MultiLine"
                                       PlotMode="OnTicks" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis x:Name="verticalAxis" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:LineSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis x:Name="verticalAxis" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:LineSeries ValueBinding="Value"
                                  CategoryBinding="Category"
                                  ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-    <telerikChart:RadCartesianChart.Annotations>
-        <telerikChart:CartesianPlotBandAnnotation StrokeThickness="2"
+    </telerik:RadCartesianChart.Series>
+    <telerik:RadCartesianChart.Annotations>
+        <telerik:CartesianPlotBandAnnotation StrokeThickness="2"
                                                   Stroke="Green"
                                                   Fill="#2F66FF33"
                                                   Axis="{x:Reference verticalAxis}"
                                                   From="{Binding StartThreshold}"
                                                   To="{Binding EndThreshold}" />
-    </telerikChart:RadCartesianChart.Annotations>
-</telerikChart:RadCartesianChart>
+    </telerik:RadCartesianChart.Annotations>
+</telerik:RadCartesianChart>
  ```
 
 The following image shows how the `CartesianPlotBandAnnotation` looks:

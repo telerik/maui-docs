@@ -32,14 +32,8 @@ The following example shows how the Pan and Zoom behavior of the Cart works:
 
 1. Create the needed business objects, for example:
 
- ```C#
-public class TemporalData
-{
-    public DateTime Date { get; set; }
+ <snippet id='temporal-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Create a `ViewModel`:
 
@@ -86,34 +80,34 @@ public class ViewModel
 1. Declare a `RadCartesianChart` in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart PaletteName="Light"
+<telerik:RadCartesianChart PaletteName="Light"
                                 Zoom="2, 1">
-    <telerikChart:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel/>
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
                                              MajorStepUnit="Day"
                                              PlotMode="OnTicks"
                                              LabelFormat="dd MMM"
                                              MajorStep="20"
                                              ShowLabels="True"/>
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:LineSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:LineSeries ValueBinding="Value"
                                  CategoryBinding="Date"
                                  DisplayName="Sales"
                                  ItemsSource="{Binding Data}"/>
-    </telerikChart:RadCartesianChart.Series>
-    <telerikChart:RadCartesianChart.ChartBehaviors>
-        <telerikChart:ChartPanAndZoomBehavior ZoomMode="Horizontal"
+    </telerik:RadCartesianChart.Series>
+    <telerik:RadCartesianChart.ChartBehaviors>
+        <telerik:ChartPanAndZoomBehavior ZoomMode="Horizontal"
                                               PanMode="Horizontal"
                                               HandleDoubleTap="True"/>
-    </telerikChart:RadCartesianChart.ChartBehaviors>
-</telerikChart:RadCartesianChart>
+    </telerik:RadCartesianChart.ChartBehaviors>
+</telerik:RadCartesianChart>
  ```
 
 

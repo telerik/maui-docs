@@ -39,8 +39,8 @@ Define the TimePicker.
 
 ```XAML
 <telerik:RadTimePicker DefaultHighlightedTime="11:30:00"
-                                        SpinnerFormat="t"
-                                        AreSpinnerHeadersVisible="False"/>
+                       SpinnerFormat="t"
+                       AreSpinnerHeadersVisible="False"/>
 ```
 
 Add the namespace.

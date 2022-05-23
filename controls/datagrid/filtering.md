@@ -40,7 +40,10 @@ The following descriptor types are supported:
 * [TextFilterDescriptor](#text-filter-descriptor)
 * [NumericalFilterDescriptor](#numerical-filter-descriptor)
 * [DateTimeFilterDescriptor](#datetime-filter-descriptor)
+* [TimeSpanFilterDescriptor](#timespan-filter-descriptor)
 * [BooleanFilterDescriptor](#boolean-filter-descriptor)
+* [NestedPropertyTextFilterDescriptor](#nested-property-text-filter-descriptor)
+* [DistinctValuesFilterDescriptor](#distinct-values-filter-descriptor)
 * [CompositeFilterDescriptor](#composite-filter-descriptor)
 * [DelegateFilterDescriptor](#delegate-filter-descriptor)
 
@@ -103,6 +106,23 @@ It exposes the following properties:
                                  Value="1900/01/01"/>
 ```
 
+### TimeSpan Filter Descriptor
+
+The `TimeSpanFilterDescriptor` is a descriptor which filters by properties of the `System.TimeSpan` data type.
+
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
+
+<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+```XAML
+<telerikCommon:TimeSpanFilterDescriptor PropertyName="Time"
+                                 Operator="IsLessThan"
+                                 Value="22/11/21"/>
+```
+
 ### Boolean Filter Descriptor
 
 The `BooleanFilterDescriptor` is a descriptor which filters by properties of the `System.Boolean` data type.
@@ -116,6 +136,39 @@ It exposes the following properties:
 ```XAML
 <telerikCommon:BooleanFilterDescriptor PropertyName="IsChampion"
                                 Value="true"/>
+```
+
+### Nested Property Text Filter Descriptor
+
+The `NestedProprtyTextFilterDescriptor` is a descriptor which filters the nested properties.
+
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Operator`&mdash;Gets or sets the `TextOperator` value that defines how the `Value` member is compared with each value from the items source.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `IsCaseSensitive`&mdash;Gets or sets a value that determines whether the text comparisons will be case-sensitive. The default value is `True`.
+
+<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+```XAML
+<telerikCommon:NestedProprtyTextFilterDescriptor PropertyName="Address"
+                                 Operator="Contains"
+                                 IsCaseSensitive="Falses"
+                                 Value="Barcelona"/>
+```
+
+### Distinct Values Filter Descriptor
+
+The `DistinctValuesFilterDescriptor` is a descriptor which filters by distinct values.
+
+It exposes the following properties:
+
+* `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+
+<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+```XAML
+<telerikCommon:DistinctValuesFilterDescriptor />
 ```
 
 ### Composite Filter Descriptor

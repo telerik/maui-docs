@@ -21,83 +21,20 @@ The Line Series supports the following properties:
 
 The following example shows how to create a `RadCartesianChart` with a Line Series:
 
-1. First, create the needed business objects, for example:
+1. Create the needed business objects, for example:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
-1. Then, create a `ViewModel`:
+1. Create a `ViewModel`:
 
- ```C#
-public class SeriesCategoricalViewModel
-{
-    public ObservableCollection<CategoricalData> Data1 { get; set; }
-    public ObservableCollection<CategoricalData> Data2 { get; set; }
+ <snippet id='chart-series-series-categorical-view-model' />
 
-    public SeriesCategoricalViewModel()
-    {
-        this.Data1 = GetCategoricalData1();
-        this.Data2 = GetCategoricalData2();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData1()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData2()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 33 },
-            new CategoricalData { Category = "Perfecto", Value = 51 },
-            new CategoricalData { Category = "NearBy", Value = 11 },
-            new CategoricalData { Category = "Family", Value = 94 },
-            new CategoricalData { Category = "Fresh", Value = 12 },
-        };
-        return data;
-    }
-}
- ```
 
 1. Finally, use the following snippet to declare a `RadCartesianChart` with a Line Series in XAML:
 
- ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:SeriesCategoricalViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
-                                      PlotMode="OnTicks" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:LineSeries ValueBinding="Value"
-                                 CategoryBinding="Category"
-                                 ItemsSource="{Binding Data1}" />
-        <telerikChart:LineSeries ValueBinding="Value"
-                                 CategoryBinding="Category"
-                                 ItemsSource="{Binding Data2}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
+ <snippet id='chart-series-line-xaml' />
+
 
 
 The following image shows the end result:

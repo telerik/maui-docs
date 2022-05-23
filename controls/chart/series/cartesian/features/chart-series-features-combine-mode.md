@@ -27,82 +27,17 @@ The following example shows how to create a Stack Cartesian Chart with Bar Serie
 
 1. Create the needed business objects, for example:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Create a `ViewModel`:
 
- ```C#
-public class SeriesCategoricalViewModel
-{
-    public ObservableCollection<CategoricalData> Data1 { get; set; }
-    public ObservableCollection<CategoricalData> Data2 { get; set; }
+ <snippet id='chart-series-series-categorical-view-model' />
 
-    public SeriesCategoricalViewModel()
-    {
-        this.Data1 = GetCategoricalData1();
-        this.Data2 = GetCategoricalData2();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData1()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData2()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 33 },
-            new CategoricalData { Category = "Perfecto", Value = 51 },
-            new CategoricalData { Category = "NearBy", Value = 11 },
-            new CategoricalData { Category = "Family", Value = 94 },
-            new CategoricalData { Category = "Fresh", Value = 12 },
-        };
-        return data;
-    }
-}
- ```
 
 1. Declare a `CombineMode` property to the Bar Series in XAML:
 
- ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:SeriesCategoricalViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:BarSeries ValueBinding="Value"
-                                CategoryBinding="Category"
-                                CombineMode="Stack"
-                                ItemsSource="{Binding Data1}" />
-        <telerikChart:BarSeries ValueBinding="Value"
-                                CategoryBinding="Category"
-                                CombineMode="Stack"
-                                ItemsSource="{Binding Data2}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
+ <snippet id='chart-series-stackbarvertical-xaml' />
 
 The following image shows how a Stack Bar Series looks:
 
@@ -110,11 +45,20 @@ The following image shows how a Stack Bar Series looks:
 
 ## Stack Area Series Example
 
+`CombineMode="Stack"` for `AreaSeries`
+
+ <snippet id='chart-series-stackarea-xaml' />
+
 The following image shows how a Stack Area Series looks:
 
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-area-series.png)
 
 ## Stack Spline Area Series Example
+
+
+`CombineMode="Stack"` for `SplineAreaSeries`
+
+ <snippet id='chart-series-stacksplinearea-xaml' />
 
 The following image shows how a Stack Spline Area Series looks:
 

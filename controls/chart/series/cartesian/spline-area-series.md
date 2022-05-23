@@ -24,63 +24,17 @@ The following example shows how to create a `RadCartesianChart` with a SplineAre
 
 1. First, create the needed business objects, for example:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Then, create a `ViewModel`:
 
- ```C#
-public class CategoricalViewModel
-{
-    public ObservableCollection<CategoricalData> Data { get; set; }
+ <snippet id='chart-series-categorical-view-model' />
 
-    public CategoricalViewModel()
-    {
-        this.Data = GetCategoricalData();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-}
- ```
 
 1. Finally, use the following snippet to declare a `RadCartesianChart` with a SplineArea Series in XAML and in C#:
 
- ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:CategoricalViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
-                                      PlotMode="OnTicks" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:SplineAreaSeries ValueBinding="Value"
-                                       CategoryBinding="Category"
-                                       ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
+ <snippet id='chart-series-splinearea-xaml' />
 
 
 The following image shows the end result:

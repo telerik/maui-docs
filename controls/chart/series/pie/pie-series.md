@@ -23,57 +23,15 @@ The following example shows how to create a basic `RadPieChart` with a Pie Serie
 
 1. Create the needed business object:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
-
-    public double Value { get; set; }
-}
- ```
+ <snippet id='categorical-data-model' />
 
 1. Create a `ViewModel`:
 
- ```C#
-public class ViewModel
-{
-    public ObservableCollection<CategoricalData> Data { get; set; }
-
-    public ViewModel()
-    {
-        this.Data = GetCategoricalData();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-}
- ```
+ <snippet id='chart-piechart-view-model' />
 
 1. Declare a `RadPieChart` with Pie Series in XAML:
 
- ```XAML
-<telerikChart:RadPieChart>
-    <telerikChart:RadPieChart.BindingContext>
-        <local:ViewModel />
-    </telerikChart:RadPieChart.BindingContext>
-    <telerikChart:RadPieChart.Series>
-        <telerikChart:PieSeries ShowLabels="True"
-                                RadiusFactor="0.8"
-                                ValueBinding="Value"
-                                ItemsSource="{Binding Data}" />
-    </telerikChart:RadPieChart.Series>
-</telerikChart:RadPieChart>
- ```
+ <snippet id='chart-piechart-xaml' />
 
 
 The following image shows the end result:

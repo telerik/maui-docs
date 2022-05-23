@@ -22,65 +22,20 @@ The Area Series supports the following properties:
 
 The following example shows how to create a Cartesian Chart with an Area Series:
 
-1. First, create the needed business objects, for example:
+1. Create the a sample business object:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
-1. Then create a `ViewModel`:
+1. Create a `ViewModel`:
 
- ```C#
-public class CategoricalViewModel
-{
-    public ObservableCollection<CategoricalData> Data { get; set; }
+ <snippet id='chart-series-categorical-view-model' />
 
-    public CategoricalViewModel()
-    {
-        this.Data = GetCategoricalData();
-    }
 
-    private static ObservableCollection<CategoricalData> GetCategoricalData()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-}
- ```
+1. Use the following snippet to declare a Cartesian Chart with an Area Series in XAML and in C#:
 
-1. Finally, use the following snippet to declare a Cartesian Chart with an Area Series in XAML and in C#:
+ <snippet id='chart-series-area-xaml' />
 
- ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:CategoricalViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
-                                      PlotMode="OnTicks" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:AreaSeries ValueBinding="Value"
-                                 CategoryBinding="Category"
-                                 ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
 
 
 The following image shows the end result:

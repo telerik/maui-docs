@@ -29,30 +29,17 @@ Before adding the WrapLayout, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a WrapLayout control to your page.
 
- ```XAML
-<telerik:RadWrapLayout Orientation="Horizontal">
-	<telerik:RadBorder BorderColor="Gray" BorderThickness="2" Margin="2" WidthRequest="100">
-		<Label Text="Item 1" HorizontalOptions="Center" Margin="2"/>
-	</telerik:RadBorder>
-	<telerik:RadBorder BorderColor="Gray" BorderThickness="2" Margin="2" WidthRequest="120">
-		<Label Text="Item 2" HorizontalOptions="Center" Margin="2"/>
-	</telerik:RadBorder>
-	<telerik:RadBorder BorderColor="Gray" BorderThickness="2" Margin="2" WidthRequest="140">
-		<Label Text="Item 3" HorizontalOptions="Center" Margin="2"/>
-	</telerik:RadBorder>
-	<telerik:RadBorder BorderColor="Gray" BorderThickness="2" Margin="2" WidthRequest="160">
-		<Label Text="Item 4" HorizontalOptions="Center" Margin="2"/>
-	</telerik:RadBorder>
-	<telerik:RadBorder BorderColor="Gray" BorderThickness="2" Margin="2" WidthRequest="200">
-		<Label Text="Item 5" HorizontalOptions="Center" Margin="2"/>
-	</telerik:RadBorder>
-</telerik:RadWrapLayout>
- ```
+ <snippet id='wraplayout-getting-started-xaml' />
+
+ 1. The resources for RadBorder applied in the Page's Resource:
+ 
+ <snippet id='wraplayout-getting-started-xaml-resources' />
+
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

@@ -20,71 +20,26 @@ The available templates for customizing are:
 
 ## PlaceholderTemplate
 
-```XAML
-<ControlTemplate x:Key="placeholderTemplate">
-    <Button Text="Pick a time interval"
-            FontAttributes="Bold"
-            TextColor="White"
-            BackgroundColor="#70B8FF"
-            HeightRequest="50"
-            Command="{TemplateBinding ToggleCommand}" />
-</ControlTemplate>
-```
+<snippet id='timespanpicker-placeholder-template' />
+
 
 ## DisplayTemplate
 
-```XAML
- <ControlTemplate x:Key="displayTemplate">
-    <Button Text="{TemplateBinding DisplayString}"
-            TextColor="White"
-            BackgroundColor="#70B8FF"
-            HeightRequest="50"
-            Command="{TemplateBinding ToggleCommand}" />
-</ControlTemplate>
-```
+<snippet id='timespanpicker-display-template' />
+
 
 ## HeaderTemplate
 
-```XAML
- <ControlTemplate x:Key="headerTemplate">
-    <Label Text="Select Duration"
-           TextColor="White"
-           VerticalTextAlignment="Center"
-           HorizontalTextAlignment="Center"
-           BackgroundColor="#70B8FF"/>
-</ControlTemplate>
-```
+<snippet id='timespanpicker-header-template' />
+
 
 ## FooterTemplate
 
-```XAML
-<ControlTemplate x:Key="footerTemplate">
-    <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="FillAndExpand" BackgroundColor="#70B8FF">
-        <Button Text="&#xE80A;"
-                FontFamily="TelerikFontExamples"
-                TextColor="White"
-                BackgroundColor="Transparent"
-                Command="{TemplateBinding CancelCommand}" />
-        <Button Text="&#xE809;"
-                FontFamily="TelerikFontExamples"
-                TextColor="White"
-                BackgroundColor="Transparent"
-                Command="{TemplateBinding AcceptCommand}" />
-    </StackLayout>
-</ControlTemplate>
-```
+<snippet id='timespanpicker-footer-template' />
 
 and the TimeSpan Picker definition:
 
-```XAML
-<telerik:RadTimeSpanPicker PlaceholderTemplate="{StaticResource placeholderTemplate}"
-                                DisplayTemplate="{StaticResource displayTemplate}">
-    <telerik:RadTimeSpanPicker.SelectorSettings>
-        <telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
-                                                  FooterTemplate="{StaticResource footerTemplate}"/>
-    </telerik:RadTimeSpanPicker.SelectorSettings>
-</telerik:RadTimeSpanPicker>
-```
+<snippet id='timespanpicker-custom-templates' />
 
 ## See Also
 

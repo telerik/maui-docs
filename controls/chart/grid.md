@@ -31,14 +31,8 @@ The following example shows how the Cartesian Chart Grid works:
 
 1. First, create the needed business objects:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Then, create a `ViewModel`:
 
@@ -70,34 +64,34 @@ public class ViewModel
 1. Finally, declare the `RadChart` in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:BarSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:BarSeries ValueBinding="Value"
                                 CategoryBinding="Category"
                                 ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-    <telerikChart:RadCartesianChart.Grid>
-        <telerikChart:CartesianChartGrid StripLinesVisibility="Y"
+    </telerik:RadCartesianChart.Series>
+    <telerik:RadCartesianChart.Grid>
+        <telerik:CartesianChartGrid StripLinesVisibility="Y"
                                          MajorLinesVisibility="XY"
                                          MajorLineColor="LightGreen"
                                          MajorLineThickness="3" />
-    </telerikChart:RadCartesianChart.Grid>
-</telerikChart:RadCartesianChart>
+    </telerik:RadCartesianChart.Grid>
+</telerik:RadCartesianChart>
  ```
 
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.Maui.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
