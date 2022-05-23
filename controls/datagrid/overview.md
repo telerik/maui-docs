@@ -13,7 +13,7 @@ Most of the data on the Internet is stored in tables within a database. **Teleri
 
 Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iOS.
 
-![Overview DataGrid](images/overview-grid-1.png)
+![Overview DataGrid](images/datagrid-overview.png)
 
 ## Key Features
 
