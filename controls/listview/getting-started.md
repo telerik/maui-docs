@@ -49,13 +49,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Populate the ListView with Data
 
-1. First, let's create simple `Data` and `ViewModel` classes:
+First, let's create simple `Data` and `ViewModel` classes:
 
- <snippet id='listview-gettingstarted-source' />
+<snippet id='listview-gettingstarted-source' />
 
-1. Set up the ListView:
+Set up the ListView:
 
- ```XAML
+```XAML
 <telerik:RadListView x:Name="listView" ItemsSource="{Binding Source}">
     <telerik:RadListView.BindingContext>
         <local:ViewModel />
@@ -72,21 +72,21 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
         </DataTemplate>
     </telerik:RadListView.ItemTemplate>
 </telerik:RadListView>
- ```
+```
 
-1. Add the following namespaces:
+Add the following namespaces:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -100,8 +100,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```
+}           
+```
 
 ## See Also
 

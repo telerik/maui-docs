@@ -27,116 +27,23 @@ The `ReorderEndedCommandContext` gives you access to the following properties:
 
 Below you can find a sample implementation.
 
-1. The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
+The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
 
- ```XAML
- <telerikDataControls:RadListView x:Name="listView"
-                                     ItemsSource="{Binding Events}"
-                                     IsItemsReorderEnabled="True">
-    <telerikDataControls:RadListView.BindingContext>
-        <local:ViewModel/>
-    </telerikDataControls:RadListView.BindingContext>
-    <telerikDataControls:RadListView.ItemTemplate>
-        <DataTemplate>
-            <telerikListView:ListViewTemplateCell>
-                <telerikListView:ListViewTemplateCell.View>
-                    <Label Text="{Binding Content}" TextColor="#6F6F70" FontSize="Small" />
-                </telerikListView:ListViewTemplateCell.View>
-            </telerikListView:ListViewTemplateCell>
-        </DataTemplate>
-    </telerikDataControls:RadListView.ItemTemplate>
-    <telerikDataControls:RadListView.GroupDescriptors>
-        <telerikListView:PropertyGroupDescriptor PropertyName="Day"/>
-    </telerikDataControls:RadListView.GroupDescriptors>
-    <telerikDataControls:RadListView.Commands>
-        <telerikListViewCommands:ListViewUserCommand Id="ReorderEnded"
-                                                     Command="{Binding ReorderCommand}" />
-    </telerikDataControls:RadListView.Commands>
-</telerikDataControls:RadListView>
- ```
+<snippet id='listview-grouping-reorderitems-xaml' />
 
-1. Add the namespaces used:
+Include the `telerik` namespace:
 
- ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+```
 
-1. Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
+Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
 
- ```C#
-public class ViewModel
-{
-    public ViewModel()
-    {
-        this.Events = new ObservableCollection<Event>()
-        {
-            new Event() { Content = "Meeting with John", Day = "Tommorow" },
-            new Event() { Content = "This also happens today", Day = "Yesterday" },
-            new Event() { Content = "More events today", Day = "Today" },
-            new Event() { Content = "Go shopping after 19:00", Day = "Yesterday" },
-            new Event() { Content = "Lunch with Sara", Day = "Today" },
-            new Event() { Content = "Planning for tommorow", Day = "Today"},
-            new Event() { Content = "Free lunch time", Day = "Yesterday" },
-            new Event() { Content = "Kids Party", Day = "Tommorow" },
-            new Event() { Content = "Party", Day = "Tommorow" }
-        };
-        this.ReorderCommand = new Command<ReorderEndedCommandContext>(this.Reorder);
-    }
-    public ObservableCollection<Event> Events { get; set; }
-    public Command<ReorderEndedCommandContext> ReorderCommand { get; }
-    private void Reorder(ReorderEndedCommandContext context)
-    {
-        var sourceItem = (Event)context.Item;
+<snippet id='listview-grouping-reorderitems-viewmodel' />
 
-        this.Events.Remove(sourceItem);
+And the business model:
 
-        var destinationItem = (Event)context.DestinationItem;
-        var destinationGroup = context.DestinationGroup;
-        var destinationIndex = this.Events.IndexOf(destinationItem);
-
-        if (context.Placement == ItemReorderPlacement.After)
-        {
-            destinationIndex++;
-        }
-
-        sourceItem.Day = (string)destinationGroup.Key;
-        this.Events.Insert(destinationIndex, sourceItem);
-    }
-}
- ```
-
-1. And the business model:
-
- ```C#
-public class Event : NotifyPropertyChangedBase
-{
-    public string content;
-    public string day;
-    public string category;
-
-    public string Content
-    {
-        get { return this.content; }
-        set { this.UpdateValue(ref this.content, value); }
-
-    }
-    public string Day
-    {
-        get { return this.day; }
-        set { this.UpdateValue(ref this.day, value); }
-
-    }
-    public string Category
-    {
-        get { return this.category; }
-        set { this.UpdateValue(ref this.category, value); }
-
-    }
-}
- ```
-
+<snippet id='listview-grouping-reorderitems-businessobject'/>
 
 The following image shows the result:
 

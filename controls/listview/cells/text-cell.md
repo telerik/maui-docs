@@ -17,20 +17,19 @@ The example below demonstrates how to create a list view with text cells, like t
 
 ![](../images/listview-celltypes-textcell.png)
 
-1. Create a view model that will be the source of the list view:
+Create a view model that will be the source of the list view:
 
- <snippet id='listview-celltypes-textcell-viewmodel' />
+<snippet id='listview-celltypes-textcell-viewmodel' />
 
-1. Add the definition of the ListView control:
+Add the definition of the ListView control:
 
- <snippet id='listview-celltypes-textcell-listview-xaml' />
+<snippet id='listview-celltypes-textcell-listview-xaml' />
 
-1. Add the following namespaces:
+Add the `telerik` namespaces:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
+```
 
 ## See Also
 
