@@ -13,7 +13,7 @@ The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) a
 
 ## Filtering UI
 
-> On Mobile (iOs and Android) Filtering UI appears when clicking the options icon (**OptionsButton**, three dots) on each column's header and it allows the user to easily filter data by column values.
+> On Mobile (iOS and Android) Filtering UI appears when clicking the options icon (**OptionsButton**, three dots) on each column's header and it allows the user to easily filter data by column values.
 >
 > On Desktop Filtering UI appears when clicking on the filtering icon on each column's header'.
 
