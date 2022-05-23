@@ -56,4 +56,16 @@ The **telerik.ui.for.maui.mpack** template can be found in *Other > .NET* sectio
 
 Follow the steps to setup your app.
 
-When you are done the project will contain all required packages and binaries and you can start writing your app right away.
+If you do not have the [Telerik Nuget Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials and the Telerik Nuget Server will be automatically configured as nuget source in Visual Studio:
+
+![](images/vs_projecttemplate_nuget.png)
+
+When you are done the project will contain all required Telerik packages, so you can start writing your app right away.
+
+Here is the result after running the app:
+
+![](images/vs-projecttemplate-app.png)
+
+## See Also
+
+- [Telerik UI for .NET MAUI Toolbox]({%slug toolbox-support-mac%})
