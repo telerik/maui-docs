@@ -25,57 +25,17 @@ The following example shows how to create a basic `RadPieChart` with a Donut Ser
 
 1. Define the `RadPieChart`:
 
- ```XAML
-<telerikChart:RadPieChart>
-    <telerikChart:RadPieChart.BindingContext>
-        <local:ViewModel />
-    </telerikChart:RadPieChart.BindingContext>
-    <telerikChart:RadPieChart.Series>
-        <telerikChart:DonutSeries ShowLabels="True"
-                                  InnerRadiusFactor="0.4"
-                                  ValueBinding="Value"
-                                  ItemsSource="{Binding Data}" />
-    </telerikChart:RadPieChart.Series>
-</telerikChart:RadPieChart>
- ```
+ <snippet id='chart-series-donut-xaml' />
+
 
 1. Define the business object exposing the following properties:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Add a `ViewModel` class and some data:
 
- ```C#
-public class ViewModel
-{
-    public ObservableCollection<CategoricalData> Data { get; set; }
-
-    public ViewModel()
-    {
-        this.Data = GetCategoricalData();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "Greenings", Value = 52 },
-            new CategoricalData { Category = "Perfecto", Value = 19 },
-            new CategoricalData { Category = "NearBy", Value = 82 },
-            new CategoricalData { Category = "Family", Value = 23 },
-            new CategoricalData { Category = "Fresh", Value = 56 },
-        };
-        return data;
-    }
-}
- ```
+ <snippet id='chart-piechart-view-model' />
 
 
 The following image shows the end result.

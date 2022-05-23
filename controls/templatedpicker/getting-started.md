@@ -31,103 +31,13 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 
 1. When your .NET MAUI application is set up, you are ready to add a TemplatedPicker control to your page. The following example demonstrates a custom picker control, which provides the option to choose a color from a set of predefined colors.
 
- ```XAML
-<telerik:RadTemplatedPicker Placeholder="Select a Color">
-	<telerik:RadTemplatedPicker.BindingContext>
-        <local:ColorViewModel />
-    </telerik:RadTemplatedPicker.BindingContext>
-    </telerik:RadTemplatedPicker.BindingContext>
-	<telerik:RadTemplatedPicker.DisplayTemplate>
-		<ControlTemplate>
-			<Grid BackgroundColor="{TemplateBinding DisplayString}">
-				<Grid.GestureRecognizers>
-					<TapGestureRecognizer Command="{TemplateBinding ToggleCommand}" />
-				</Grid.GestureRecognizers>
-				<Label Margin="10, 0"
-					   TextColor="Black"
-					   VerticalOptions="Center"
-					   Text="{TemplateBinding DisplayString}" />
-			</Grid>
-		</ControlTemplate>
-	</telerik:RadTemplatedPicker.DisplayTemplate>
-	<telerik:RadTemplatedPicker.SelectorTemplate>
-		<ControlTemplate>
-			<CollectionView HeightRequest="240"
-							SelectionMode="Single"
-							ItemsSource="{Binding Colors}"
-							SelectedItem="{TemplateBinding SelectedValue, Mode=TwoWay}">
-				<CollectionView.ItemTemplate>
-					<DataTemplate>
-						<Grid HeightRequest="60">
-							<VisualStateManager.VisualStateGroups>
-								<VisualStateGroup Name="CommonStates">
-									<VisualState Name="Normal">
-										<VisualState.Setters>
-											<Setter Property="BackgroundColor" Value="White" />
-										</VisualState.Setters>
-									</VisualState>
-									<VisualState Name="Selected">
-										<VisualState.Setters>
-											<Setter Property="BackgroundColor" Value="WhiteSmoke" />
-										</VisualState.Setters>
-									</VisualState>
-								</VisualStateGroup>
-							</VisualStateManager.VisualStateGroups>
-							<telerik:RadBorder WidthRequest="40"
-											   HeightRequest="40"
-											   CornerRadius="20"
-											   HorizontalOptions="Center"
-											   VerticalOptions="Center"
-											   BorderColor="LightGray"
-											   BorderThickness="2"
-											   BackgroundColor="{Binding}" />
-						</Grid>
-					</DataTemplate>
-				</CollectionView.ItemTemplate>
-				<CollectionView.ItemsLayout>
-					<GridItemsLayout Orientation="Vertical" Span="5" />
-				</CollectionView.ItemsLayout>
-			</CollectionView>
-		</ControlTemplate>
-	</telerik:RadTemplatedPicker.SelectorTemplate>
-</telerik:RadTemplatedPicker>
- ```
+ <snippet id='templatedpicker-getting-started-xaml' />
+ <snippet id='templatedpicker-getting-started-csharp' />
+
 
 1. Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
 
- ```C#
- public class ColorViewModel : NotifyPropertyChangedBase
- {
-	public ColorViewModel()
-	{
-		this.Colors = new ObservableCollection<string>
-		{
-			"#FFFFFF",
-			"#EE534F",
-			"#AB47BC",
-			"#7E57C2",
-			"#5D6BC0",
-			"#42A5F5",
-			"#26C5DA",
-			"#24A79A",
-			"#66BB6A",
-			"#9CCC65",
-			"#D4E157",
-			"#FFEE58",
-			"#FFCA29",
-			"#FFA726",
-			"#FF7043",
-			"#8D6E63",
-			"#BDBDBD",
-			"#78909C",
-			"#3C3C3C",
-			"#000000"
-		};
-	}
-
-	public ObservableCollection<string> Colors { get; }
- }
- ```
+  <snippet id='templatedpicker-color-viewmodel' />
 
 1. Add the following namespace:
 

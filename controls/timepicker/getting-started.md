@@ -32,6 +32,8 @@ Before adding the TimePicker, you need to:
  ```XAML
 <telerik:RadTimePicker />
  ```
+ <snippet id='timepicker-getting-started-csharp' />
+
 
 1. Add the following namespace:
 

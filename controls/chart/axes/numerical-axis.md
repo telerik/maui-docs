@@ -34,10 +34,10 @@ The Numerical Axis exposes the following properties:
 Define the Numerical Axis:
 
 ```XAML
-<telerikChart:NumericalAxis LabelFormat="C"
-							MajorStep="0.5"
-							Minimum="-1"
-							Maximum="1" />
+<telerik:NumericalAxis LabelFormat="C"
+					   MajorStep="0.5"
+					   Minimum="-1"
+					   Maximum="1" />
 ```
 
 ## See Also

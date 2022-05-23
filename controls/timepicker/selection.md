@@ -60,7 +60,7 @@ The TimePicker exposes the `SelectionChanged` event, which is raised when the us
 
 ```XAML
 <telerik:RadTimePicker x:Name="timePicker"
-                            SelectionChanged="TimePicker_SelectionChanged"/>
+                       SelectionChanged="TimePicker_SelectionChanged"/>
 ```
 
 Add the `SelectionChanged` event, where the `sender` is of type `object`, but can be cast to the `RadTimePicker` type:

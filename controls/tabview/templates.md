@@ -39,9 +39,9 @@ The TabView provides set of templates for its elements. If you want to fully cha
 
 And the namespace used:
 
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+ ```
 
 >note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView HeaderItem and TabView Content using the flexible styling API. For more details review the [TabView Styling article]({%slug tabview-styling%}).
 

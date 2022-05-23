@@ -38,7 +38,7 @@ You can customize the labels orientation and style with the following properties
 The following example demonstrates how to define the `LabelFitMode` and the font size and color of the label.
 
 ```XAML
-<telerikChart:CategoricalAxis LabelFitMode="Rotate"
+<telerik:CategoricalAxis LabelFitMode="Rotate"
 							  LabelFontSize="25"
 							  LabelTextColor="#FFCC88CC"/>
 ```
@@ -56,7 +56,7 @@ You can customize the labels text with the following properties:
 The following example shows how to set `LabelFormat` to a Numerical Axis:
 
 ```XAML
-<telerikChart:NumericalAxis LabelFormat="C"
+<telerik:NumericalAxis LabelFormat="C"
 							MajorStep="0.5"
 							Minimum="-1"
 							Maximum="1" />
@@ -73,12 +73,12 @@ The following example shows how to set a label formatter for the Date-Time Conti
 You can apply it in the following way:
 
 ```XAML
-<telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+<telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
                                      MajorStepUnit="Day">
-    <telerikChart:DateTimeContinuousAxis.LabelFormatter>
+    <telerik:DateTimeContinuousAxis.LabelFormatter>
         <local:DateLabelFormatter />
-    </telerikChart:DateTimeContinuousAxis.LabelFormatter>
-</telerikChart:DateTimeContinuousAxis>
+    </telerik:DateTimeContinuousAxis.LabelFormatter>
+</telerik:DateTimeContinuousAxis>
 ```
 
 ### Styling the Axis Line and Ticks
@@ -93,7 +93,7 @@ You can customize the appearance of the axis line and ticks with the following p
 The following example demonstrates how to define the major ticks color and set their thickness and line color.  
 
 ```XAML
-	<telerikChart:NumericalAxis MajorTickBackgroundColor="#FFCC88CC"
+	<telerik:NumericalAxis MajorTickBackgroundColor="#FFCC88CC"
 								MajorTickThickness="5"
 								LineColor="#FFCC88CC"/>
 ```
@@ -108,7 +108,7 @@ You can specify the location of the axis with the following properties:
 The following example demonstrates how to set a vertical location for the axis.
 
 ```XAML
-	<telerikChart:CategoricalAxis VerticalLocation="Top"/>
+	<telerik:CategoricalAxis VerticalLocation="Top"/>
 ```
 
 ## See Also

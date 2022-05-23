@@ -42,9 +42,9 @@ using Telerik.Maui.Controls;
 
 And the namespace used:
 
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+ ```
 
 ## Events
 

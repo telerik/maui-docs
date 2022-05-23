@@ -48,14 +48,8 @@ The following example shows how the Selection behavior of the Chart works with a
 
 1. Create the business objects:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Create a `ViewModel`:
 
@@ -147,33 +141,33 @@ public class ViewModel : NotifyPropertyChangedBase
         <RowDefinition Height="0.3*"/>
     </Grid.RowDefinitions>
 
-    <telerikChart:RadCartesianChart Grid.Row="0">
-        <telerikChart:RadCartesianChart.HorizontalAxis>
-            <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
-        </telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:RadCartesianChart.VerticalAxis>
-            <telerikChart:NumericalAxis />
-        </telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:RadCartesianChart.Series>
-            <telerikChart:BarSeries ValueBinding="Value"
+    <telerik:RadCartesianChart Grid.Row="0">
+        <telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:CategoricalAxis LabelFitMode="MultiLine" />
+        </telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:RadCartesianChart.VerticalAxis>
+            <telerik:NumericalAxis />
+        </telerik:RadCartesianChart.VerticalAxis>
+        <telerik:RadCartesianChart.Series>
+            <telerik:BarSeries ValueBinding="Value"
                                 CategoryBinding="Category"
                                 CombineMode="Stack"
                                 StackGroupKey="1"
                                 AllowSelect="True"
                                 ItemsSource="{Binding Data1}" />
-            <telerikChart:BarSeries ValueBinding="Value"
+            <telerik:BarSeries ValueBinding="Value"
                                 CategoryBinding="Category"
                                 CombineMode="Stack"
                                 StackGroupKey="1"
                                 AllowSelect="True"
                                 ItemsSource="{Binding Data2}" />
-        </telerikChart:RadCartesianChart.Series>
-        <telerikChart:RadCartesianChart.ChartBehaviors>
-            <telerikChart:ChartSelectionBehavior DataPointSelectionMode="Single"
+        </telerik:RadCartesianChart.Series>
+        <telerik:RadCartesianChart.ChartBehaviors>
+            <telerik:ChartSelectionBehavior DataPointSelectionMode="Single"
                                                  Command="{Binding IsSelectionChangedCommand}"
                                                  SeriesSelectionMode="None" />
-        </telerikChart:RadCartesianChart.ChartBehaviors>
-    </telerikChart:RadCartesianChart>
+        </telerik:RadCartesianChart.ChartBehaviors>
+    </telerik:RadCartesianChart>
 
     <Label Grid.Row="2" Text="{Binding DisplayCount}"/>
 </Grid>

@@ -32,14 +32,7 @@ The following example shows how to format the axis labels on the DateTime Contin
 
 1. Create the needed business objects:
 
- ```C#
-public class TemporalData
-{
-    public DateTime Date { get; set; }
-
-    public double Value { get; set; }
-}
- ```
+ <snippet id='temporal-data-model' />
 
 1. Create a `ViewModel`:
 
@@ -102,30 +95,30 @@ public class DateLabelFormatter : LabelFormatterBase<DateTime>
 1. Finally, use the following snippet to declare the `RadChart` in XAML :
 
  ```XAML
-<telerikChart:RadCartesianChart>
-	<telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+	<telerik:RadCartesianChart.BindingContext>
 	    <local:ViewModel />
-	</telerikChart:RadCartesianChart.BindingContext>
-	<telerikChart:RadCartesianChart.HorizontalAxis>
-	    <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
+	</telerik:RadCartesianChart.BindingContext>
+	<telerik:RadCartesianChart.HorizontalAxis>
+	    <telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
 	                                         MajorStepUnit="Day">
-	        <telerikChart:DateTimeContinuousAxis.LabelFormatter>
+	        <telerik:DateTimeContinuousAxis.LabelFormatter>
 	            <local:DateLabelFormatter />
-	        </telerikChart:DateTimeContinuousAxis.LabelFormatter>
-	    </telerikChart:DateTimeContinuousAxis>
-	</telerikChart:RadCartesianChart.HorizontalAxis>
-	<telerikChart:RadCartesianChart.VerticalAxis>
-	    <telerikChart:NumericalAxis LabelFormat="C"
+	        </telerik:DateTimeContinuousAxis.LabelFormatter>
+	    </telerik:DateTimeContinuousAxis>
+	</telerik:RadCartesianChart.HorizontalAxis>
+	<telerik:RadCartesianChart.VerticalAxis>
+	    <telerik:NumericalAxis LabelFormat="C"
 	                                MajorStep="0.5"
 	                                Minimum="-1"
 	                                Maximum="1" />
-	</telerikChart:RadCartesianChart.VerticalAxis>
-	<telerikChart:RadCartesianChart.Series>
-	    <telerikChart:LineSeries ValueBinding="Value"
+	</telerik:RadCartesianChart.VerticalAxis>
+	<telerik:RadCartesianChart.Series>
+	    <telerik:LineSeries ValueBinding="Value"
 	                             CategoryBinding="Date"
 	                             ItemsSource="{Binding Data}" />
-	</telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
+	</telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
  ```
 
 The following image shows how the DateTime Continuous Axis `Formatter` looks:

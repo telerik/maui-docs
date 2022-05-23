@@ -85,8 +85,8 @@ Where the `local` alias points to the namespace where the `CustomUserCommand` is
 
 1. Add the following namespaces:
 
- ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+  ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 xmlns:local="the namespace where the custom command is defined"
  ```
 
@@ -109,7 +109,7 @@ Use the `SideDrawerUserCommand` to bind its `Command` property to a view model.
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 and the `local` alias points to the namespace where the `CustomCommand` and `ViewModel` are defined.

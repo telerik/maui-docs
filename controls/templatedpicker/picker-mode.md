@@ -41,7 +41,7 @@ In addition, TemplatedPicker exposes `IsToggleButtonVisible` property which when
 
 ```XAML
 <telerik:RadTemplatedPicker PickerMode="DropDown"
-							     IsToggleButtonVisible="True" />
+							IsToggleButtonVisible="True" />
 ```
 
 ## See Also

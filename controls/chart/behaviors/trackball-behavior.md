@@ -22,14 +22,8 @@ The following example shows how the TrackBall behavior of the Chart works:
 
 1. Create the needed business objects, for example:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Create a `ViewModel`:
 
@@ -74,32 +68,32 @@ public class ViewModel
 1. Declare a `RadCartesianChart` in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LabelFitMode="MultiLine"
                                       PlotMode="OnTicks" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:LineSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:LineSeries ValueBinding="Value"
                                  CategoryBinding="Category"
                                  DisplayName="Sales 1"
                                  ItemsSource="{Binding Data1}" />
-        <telerikChart:LineSeries ValueBinding="Value"
+        <telerik:LineSeries ValueBinding="Value"
                                  CategoryBinding="Category"
                                  DisplayName="Sales 2"
                                  ItemsSource="{Binding Data2}" />
-    </telerikChart:RadCartesianChart.Series>
-    <telerikChart:RadCartesianChart.ChartBehaviors>
-        <telerikChart:ChartTrackBallBehavior ShowIntersectionPoints="True"
+    </telerik:RadCartesianChart.Series>
+    <telerik:RadCartesianChart.ChartBehaviors>
+        <telerik:ChartTrackBallBehavior ShowIntersectionPoints="True"
                                              ShowTrackInfo="True" />
-    </telerikChart:RadCartesianChart.ChartBehaviors>
-</telerikChart:RadCartesianChart>
+    </telerik:RadCartesianChart.ChartBehaviors>
+</telerik:RadCartesianChart>
  ```
 
 The following image shows how the TrackBall looks:

@@ -38,7 +38,7 @@ Here is a sample snippet on how you can set `DrawerTransitionType` property of R
 Add the following namespace:
 
  ```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 >tip In addition to the transition type, you can also control the transition duration and opacity value through `DrawerTransitionDuration` and `DrawerTransitionFadeOpacity` properties, respectively. For more details on this go to [Configuration]({%slug sidedrawer-features-configuration%}) topic.

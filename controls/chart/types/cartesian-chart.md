@@ -84,44 +84,44 @@ The Financial Cartesian Chart supports the following series:
 1. Define the `RadCartesianChart`:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-</telerikChart:RadCartesianChart>
+<telerik:RadCartesianChart>
+</telerik:RadCartesianChart>
  ```
 
 1. The `RadCartesianChart` requires you to set a horizontal and a vertical axis to plot its data.
 
  ```XAML
-<telerikChart:RadCartesianChart.HorizontalAxis>
-	<telerikChart:CategoricalAxis/>
-</telerikChart:RadCartesianChart.HorizontalAxis>
-<telerikChart:RadCartesianChart.VerticalAxis>
-	<telerikChart:NumericalAxis/>
-</telerikChart:RadCartesianChart.VerticalAxis>
+<telerik:RadCartesianChart.HorizontalAxis>
+	<telerik:CategoricalAxis/>
+</telerik:RadCartesianChart.HorizontalAxis>
+<telerik:RadCartesianChart.VerticalAxis>
+	<telerik:NumericalAxis/>
+</telerik:RadCartesianChart.VerticalAxis>
  ```
 
 1. Now, add the series to the `RadCartesianChart.Series` collection:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-	<telerikChart:RadCartesianChart.Series>
-		<telerikChart:BarSeries ItemsSource="{Binding CategoricalData}">
-			<telerikChart:BarSeries.ValueBinding>
-				<telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
-			</telerikChart:BarSeries.ValueBinding>
-			<telerikChart:BarSeries.CategoryBinding>
-				<telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
-			</telerikChart:BarSeries.CategoryBinding>
-		</telerikChart:BarSeries>
-	</telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
+<telerik:RadCartesianChart>
+	<telerik:RadCartesianChart.Series>
+		<telerik:BarSeries ItemsSource="{Binding CategoricalData}">
+			<telerik:BarSeries.ValueBinding>
+				<telerik:PropertyNameDataPointBinding PropertyName="Value"/>
+			</telerik:BarSeries.ValueBinding>
+			<telerik:BarSeries.CategoryBinding>
+				<telerik:PropertyNameDataPointBinding PropertyName="Category"/>
+			</telerik:BarSeries.CategoryBinding>
+		</telerik:BarSeries>
+	</telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
  ```
 
 1. Set the `BindingContext` of the chart if none of its parents has a context:
 
  ```XAML
-<telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart.BindingContext>
 	<local:ViewModel/>
-</telerikChart:RadCartesianChart.BindingContext>
+</telerik:RadCartesianChart.BindingContext>
  ```
 
  In the example, `local` is defined as follows:
@@ -137,61 +137,32 @@ The following example shows the full definition of the chart.
 
 1. First, create the needed business object, for example:
 
- ```C#
-public class CategoricalData
-{
-    public object Category { get; set; }
+ <snippet id='categorical-data-model' />
 
-    public double Value { get; set; }
-}
- ```
 
 1. Then, create a `ViewModel`:
 
- ```C#
-public class CategoricalDataViewModel
-{
-    public ObservableCollection<CategoricalData> Data { get; set; }
-
-    public CategoricalDataViewModel()
-    {
-        this.Data = GetCategoricalData();
-    }
-
-    private static ObservableCollection<CategoricalData> GetCategoricalData()
-    {
-        var data = new ObservableCollection<CategoricalData>
-        {
-            new CategoricalData { Category = "A", Value = 101 },
-            new CategoricalData { Category = "B", Value = 45 },
-            new CategoricalData { Category = "C", Value = 77 },
-            new CategoricalData { Category = "D", Value = 15 },
-            new CategoricalData { Category = "E", Value = 56 },
-        };
-        return data;
-    }
-}
- ```
+ <snippet id='chart-series-categorical-data-view-model' />
 
 1. Declare the chart in XAML:
 
  ```XAML
-<telerikChart:RadCartesianChart>
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.BindingContext>
         <local:CategoricalDataViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:CategoricalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis LabelFitMode="MultiLine" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:BarSeries ValueBinding="Value"
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LabelFitMode="MultiLine" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis LabelFitMode="MultiLine" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:BarSeries ValueBinding="Value"
                                 CategoryBinding="Category"
                                 ItemsSource="{Binding Data}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
+    </telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
  ```
 
 

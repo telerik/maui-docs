@@ -16,113 +16,16 @@ The following example shows how to create a basic `RadCartesianChart` with an OH
 
 1. Define the Cartesian Chart.
 
- ```XAML
-<telerikChart:RadCartesianChart PaletteName="Light"
-                                SelectionPaletteName="LightSelected"
-                                BackgroundColor="White" >
-    <telerikChart:RadCartesianChart.BindingContext>
-        <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:DateTimeContinuousAxis LineColor="#A9A9A9"
-                                             LabelFitMode="Rotate"
-                                             LabelFormat="MMM"
-                                             PlotMode="BetweenTicks"
-                                             MajorStepUnit="Month"/>
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis LineColor="#A9A9A9"
-                                    MajorTickBackgroundColor="#A9A9A9" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>
-        <telerikChart:OhlcSeries CategoryBinding="Category"
-                                 OpenBinding="Open"
-                                 HighBinding="High"
-                                 LowBinding="Low"
-                                 CloseBinding="Close"
-                                 ItemsSource="{Binding SeriesData}" />
-    </telerikChart:RadCartesianChart.Series>
-</telerikChart:RadCartesianChart>
- ```
+ <snippet id='chart-series-ohlc-xaml' />
+
 
 1. Define the business model:
 
- ```C#
-public class OhlcDataPoint : NotifyPropertyChangedBase
-{
-    private DateTime category;
-    private double open;
-    private double high;
-    private double low;
-    private double close;
+ <snippet id='chart-ohlc-datapoint-csharp' />
 
-    public DateTime Category
-    {
-        get { return this.category; }
-        set
-        {
-            if (value != this.category)
-            {
-                this.category = value;
-                this.OnPropertyChanged();
-            }
-        }
-    }
+ 1. The ViewModel:
 
-    public double Open
-    {
-        get { return this.open; }
-        set
-        {
-            if (value != this.open)
-            {
-                this.open = value;
-                this.OnPropertyChanged();
-            }
-        }
-    }
-
-    public double High
-    {
-        get { return this.high; }
-        set
-        {
-            if (value != this.high)
-            {
-                this.high = value;
-                this.OnPropertyChanged();
-            }
-        }
-    }
-
-    public double Low
-    {
-        get { return this.low; }
-        set
-        {
-            if (value != this.low)
-            {
-                this.low = value;
-                this.OnPropertyChanged();
-            }
-        }
-    }
-
-    public double Close
-    {
-        get { return this.close; }
-        set
-        {
-            if (value != this.close)
-            {
-                this.close = value;
-                this.OnPropertyChanged();
-            }
-        }
-    }
-}
- ```
-
+  <snippet id='chart-series-ohlc-viewmodel' />
 
 The following image shows the end result:
 

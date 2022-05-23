@@ -22,16 +22,7 @@ The example below shows a sample TimePicker definition with the listed above tem
 
 1. Define the TimePicker.
 
- ```XAML
-<telerik:RadTimePicker SpinnerFormat="H:mm"
-                            PlaceholderTemplate="{StaticResource placeholderTemplate}"
-                            DisplayTemplate="{StaticResource displayTemplate}">
-    <telerik:RadTimePicker.SelectorSettings>
-        <telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource headerTemplate}"
-                                                  FooterTemplate="{StaticResource footerTemplate}"/>
-    </telerik:RadTimePicker.SelectorSettings>
-</telerik:RadTimePicker>
- ```
+ <snippet id='timepicker-custom-templates' />
 
 1. Add the following namespace:
 
@@ -43,60 +34,24 @@ For the example, the template definitions are added to the page resources as fol
 
 ## PlaceholderTemplate
 
-```XAML
-<ControlTemplate x:Key="placeholderTemplate">
-    <Button Text="Pick a time"
-            FontAttributes="Bold"
-            TextColor="White"
-            BackgroundColor="#B73562"
-            HeightRequest="50" Command="{TemplateBinding ToggleCommand}" />
-</ControlTemplate>
-```
+<snippet id='timepicker-placeholder-template' />
+
 
 ![RadTimePicker PlaceholderTemplate](images/timepicker_placeholder_template.png)
 
 ## DisplayTemplate
 
-```XAML
-<ControlTemplate x:Key="displayTemplate">
-    <Button Text="{TemplateBinding DisplayString}"
-            TextColor="White"
-            BackgroundColor="#7BAEFF"
-            HeightRequest="50"
-            Command="{TemplateBinding ToggleCommand}" />
-</ControlTemplate>
-```
+<snippet id='timepicker-display-template' />
 
 ![RadTimePicker DisplayTemplate](images/timepicker_display_template.png)
 
 ## HeaderTemplate
 
-```XAML
-<ControlTemplate x:Key="headerTemplate">
-    <Label Text="Time Picker"
-           TextColor="White"
-           VerticalTextAlignment="Center"
-           HorizontalTextAlignment="Center"
-           BackgroundColor="#B73562"/>
-</ControlTemplate>
-```
+<snippet id='timepicker-header-template' />
 
 ## FooterTemplate
 
-```XAML
-<ControlTemplate x:Key="footerTemplate">
-    <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="FillAndExpand" BackgroundColor="#B73562">
-        <Button Text="No"
-                TextColor="White"
-                BackgroundColor="Transparent"
-                Command="{TemplateBinding CancelCommand}" />
-        <Button Text="Yes"
-                TextColor="White"
-                BackgroundColor="Transparent"
-                Command="{TemplateBinding AcceptCommand}" />
-    </StackLayout>
-</ControlTemplate>
-```
+<snippet id='timepicker-footer-template' />
 
 ![RadTimePicker FooterTemplate](images/timepicker_header_footer_template.png)
 
