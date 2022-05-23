@@ -16,8 +16,6 @@ This guide provides the information you need to start using the Telerik UI for .
 
 Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
->important For .NET MAUI applications, you must have **Visual Studio 2022 17.3.0 Preview 1.0** installed. Telerik UI for .NET MAUI works with .NET MAUI RC3.
-
 ## Step 2: Download Telerik UI for .NET MAUI
 
 Telerik UI for .NET MAUI provides the following approaches to download the library:

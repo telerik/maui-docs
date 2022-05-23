@@ -11,6 +11,10 @@ position: 0
 
 Telerik UI for .NET MAUI provides a few fully-features demo applications demonstrating our .NET MAUI controls. You can review the source code of each app and get familiar with the way various Telerik .NET MAUI controls are utilized.
 
+* [Controls Samples App](#controls-samples-app)
+* [SDKBrowser App](#sdkbrowser-app)
+* [Crypto Tracker App](#crypto-tracker-app)
+
 ## Controls Samples App
 
 The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component.
