@@ -27,33 +27,14 @@ Before adding the ListView, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition.
+When your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition populated with sample data.
 
   The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
   * Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
   * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
 
- ```XAML
-<telerik:RadListView x:Name="listView" />
- ```
- ```C#
-var listView = new RadListView();
- ```
-
-1. Add the following namespace:
-
- ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
-## Populate the ListView with Data
-
-First, let's create simple `Data` and `ViewModel` classes:
-
-<snippet id='listview-gettingstarted-source' />
-
-Set up the ListView:
+Set up the `RadListView` instance:
 
 ```XAML
 <telerik:RadListView x:Name="listView" ItemsSource="{Binding Source}">
@@ -74,11 +55,15 @@ Set up the ListView:
 </telerik:RadListView>
 ```
 
-Add the following namespaces:
+Add the `telerik` namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+Let's create sample `Data` and `ViewModel` classes:
+
+<snippet id='listview-gettingstarted-source' />
 
 Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 

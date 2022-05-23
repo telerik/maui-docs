@@ -32,15 +32,18 @@ Below you can find a list of the available files:
 
 ### Installation
 
+* Telerik_UI_for_dot_NET_Maui_[Version]_[License].zip - contains binaries, VSExtensions and examples used for manual installation.
 * Telerik_UI_for_dot_NET_Maui_[Version]_[License].msi - runnable msi file used for automatic installation (for use on PC).
 * Telerik_UI_for_dot_NET_Maui_[Version]_[License].pkg - runnable pkg file used for automatic installation (for use on Mac).
 
 ### Other Setup Files
 
-* Telerik.UI.for.Maui.[Version].nupkg
+* Telerik.UI.for.Maui.[Version].nupkg - nuget package that contains the Telerik UI for .NET MAUI assemblies. 
+* telerik.ui.for.maui.[Version].mpack - a Visual Studio for Mac add-in which provides a project template, pre-setup with all requirements to run Telerik UI for .NET MAUI components.
 
 ## See Also
 
 - [First Steps]({%slug maui-getting-started%})
-- [Installing with NuGet]({%slug telerik-nuget-server%})
 - [Installing from MSI file]({%slug install-msi%})
+- [Installing from PKG file]({%slug install-pkg%})
+- [Installing with NuGet]({%slug telerik-nuget-server%})
