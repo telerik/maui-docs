@@ -37,5 +37,5 @@ Embedding the controls from the suite is made as easy as possible and all you ne
 
 ## See Also
 
-- [Project Wizard for Visual Studio for Mac]({%slug mac-project-template%})
+- [Project Template for Visual Studio for Mac]({%slug mac-project-template%})
 - [Telerik NuGet packages server]({%slug telerik-nuget-server %})
