@@ -46,18 +46,17 @@ In addition, you can create a custom `GroupHeaderTemplate` to achieve the desire
 1. Set the template to the `RadListView`:
 
  ```XAML
-<telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Cities}"
-                                     GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}">
-    <telerikDataControls:RadListView.BindingContext>
+<telerik:RadListView x:Name="listView" 
+					 ItemsSource="{Binding Cities}"
+                     GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}">
+    <telerik:RadListView.BindingContext>
         <local:GroupingViewModel/>
-    </telerikDataControls:RadListView.BindingContext>
-    <telerikDataControls:RadListView.GroupDescriptors>
+    </telerik:RadListView.BindingContext>
+    <telerik:RadListView.GroupDescriptors>
         <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
-    </telerikDataControls:RadListView.GroupDescriptors>
-</telerikDataControls:RadListView>
+    </telerik:RadListView.GroupDescriptors>
+</telerik:RadListView>
  ```
-
-
 
 ## See Also
 

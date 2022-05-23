@@ -25,85 +25,33 @@ This descriptor enables you to group by a custom key (e.g. some complex expressi
 
 Let's use the same example from the previous section, just add DelegateGroupDescriptor through code instead.
 
-1. Define the `RadListView`:
+Define the `RadListView`:
 
- ```XAML
- <telerikDataControls:RadListView x:Name="listView"
-                                             ItemsSource="{Binding Cities}"
-                                             ItemTemplate="{StaticResource ListViewItemTemplate}"
-                                             GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}"
-                                             GroupHeaderStyle="{StaticResource ListViewGroupHeaderStyle}">
-    <telerikDataControls:RadListView.BindingContext>
-        <local:GroupingViewModel/>
-    </telerikDataControls:RadListView.BindingContext>
-</telerikDataControls:RadListView>
- ```
+<snippet id='listview-grouping-delegategroupdescriptor' />
 
-1. Add the namespaces:
+Include the `telerik` namespace:
 
- ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
- ```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+```
 
-1. Create and apply a delegate for grouping the items (for example by their first letter) as following:
+Create and apply a delegate for grouping the items (for example by their first letter) as following:
 
- ```C#
- var delegateDescriptor = new DelegateGroupDescriptor
- { 
-    KeyExtractor = FirstLetterKeyExtractor
- };
+<snippet id='listview-grouping-delegategroupdescriptor-settingdelegate' />
 
- listView.GroupDescriptors.Add(delegateDescriptor);
+Add a business model:
 
- private object FirstLetterKeyExtractor(object arg)
- {
-    var item = arg as City;
-    return item?.Name.Substring(0, 1);
- }
- ```
+<snippet id='listview-grouping-groupdescriptors-businessobject' />
 
-1. Add a business model:
+Add a `ViewModel` with a collection of Cities:
 
- ```C#
-public class City
-{
-    public string Continent { get; set; }
-    public string Name { get; set; }
-    public string Country { get; set; }
-}
- ```
-
-1. Add a `ViewModel` with a collection of Cities:
-
- ```C#
-public class GroupingViewModel : NotifyPropertyChangedBase
-{
-    public ObservableCollection<City> Cities { get; set; }
-
-    public GroupingViewModel()
-    {
-        this.Cities = new ObservableCollection<City>()
-        {
-            new City() { Name = "Barcelona", Country = "Spain", Continent = "Europe"},
-            new City() { Name = "Madrid", Country = "Spain", Continent = "Europe" },
-            new City() { Name = "Rome", Country = "Italy", Continent = "Europe" },
-            new City() { Name = "Florence", Country = "Italy", Continent = "Europe" },
-            new City() { Name = "London", Country = "England", Continent = "Europe" },
-            new City() { Name = "Manchester", Country = "England", Continent = "Europe"},
-            new City() { Name = "New York", Country = "USA", Continent = "North America" },
-            new City() { Name = "Boston", Country = "USA",  Continent = "North America" }
-         };
-    }
-}
- ```
-
+<snippet id='listview-grouping-groupdescriptors-viewmodel' />
 
 The following image shows a ListView grouped through the `DelegateGroupDescriptor`.
 
 ![ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
 
->important For a **Delegate Group Descriptors** demo, refer to the **ListView/Bindable Collections** folder of the [SDKBrowser MAUI application]({%slug developer-focused-examples%}).
+> For the ListView DelegateGroupDescriptor example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Grouping category.
 
 ## See Also
 

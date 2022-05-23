@@ -16,8 +16,8 @@ The ListView provides the option to set its group headers as sticky. This means 
 To enable the sticky group headers behavior, just set `IsGroupHeaderSticky` property of the ListView to `True`. By default `IsGroupHeaderSticky` value is `False`.
 
 ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-                                  IsGroupHeaderSticky="True"  />
+<telerik:RadListView x:Name="listView"
+                     IsGroupHeaderSticky="True"  />
 ```
 ```C#
 var listView = new RadListView();
