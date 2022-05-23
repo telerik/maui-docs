@@ -35,7 +35,7 @@ Before adding the ListView, you need to:
   * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
 
  ```XAML
-<telerikDataControls:RadListView x:Name="listView" />
+<telerik:RadListView x:Name="listView" />
  ```
  ```C#
 var listView = new RadListView();
@@ -44,67 +44,40 @@ var listView = new RadListView();
 1. Add the following namespace:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ## Populate the ListView with Data
 
 1. First, let's create simple `Data` and `ViewModel` classes:
 
- ```C#
- public class SourceItem
- {
-    public SourceItem(string name)
-    {
-        this.Name = name;
-    }
-
-    public string Name { get; set; }
- }
-
- public class ViewModel
- {
-    public ViewModel()
-    {
-        this.Source = new List<SourceItem> { new SourceItem("Tom"),
-											 new SourceItem("Anna"),
-											 new SourceItem("Peter"),
-											 new SourceItem("Teodor"),
-											 new SourceItem("Lorenzo"),
-											 new SourceItem("Andrea"),
-											 new SourceItem("Martin") };
-    }
-
-    public List<SourceItem> Source { get; set; }
- }
- ```
+ <snippet id='listview-gettingstarted-source' />
 
 1. Set up the ListView:
 
  ```XAML
-<telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Source}">
-    <telerikDataControls:RadListView.BindingContext>
+<telerik:RadListView x:Name="listView" ItemsSource="{Binding Source}">
+    <telerik:RadListView.BindingContext>
         <local:ViewModel />
-    </telerikDataControls:RadListView.BindingContext>
-    <telerikDataControls:RadListView.ItemTemplate>
+    </telerik:RadListView.BindingContext>
+    <telerik:RadListView.ItemTemplate>
         <DataTemplate>
-            <telerikListView:ListViewTemplateCell>
-                <telerikListView:ListViewTemplateCell.View>
+            <telerik:ListViewTemplateCell>
+                <telerik:ListViewTemplateCell.View>
                     <Grid>
                         <Label Margin="10" Text="{Binding Name}" />
                     </Grid>
-                </telerikListView:ListViewTemplateCell.View>
-            </telerikListView:ListViewTemplateCell>
+                </telerik:ListViewTemplateCell.View>
+            </telerik:ListViewTemplateCell>
         </DataTemplate>
-    </telerikDataControls:RadListView.ItemTemplate>
-</telerikDataControls:RadListView>
+    </telerik:RadListView.ItemTemplate>
+</telerik:RadListView>
  ```
 
 1. Add the following namespaces:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

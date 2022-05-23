@@ -19,74 +19,18 @@ The example below demonstrates how to create a ListView with templated cells, li
 
 1. Create a view model that will be the source of the ListView:
 
- ```C#
-public class Book
-{
-	public string Title { get; set; }
-	public string Author { get; set; }
-	public bool IsFavourite { get; set; }
-}
-public class ViewModel
-{
-	public ViewModel()
-	{
-		this.Source = new List<Book>{
-			new Book{ Title = "The Fault in Our Stars ",  Author = "John Green"},
-			new Book{ Title = "Divergent",  Author = "Veronica Roth"},
-			new Book{ Title = "Gone Girl",  Author = "Gillian Flynn", IsFavourite = true},
-			new Book{ Title = "Clockwork Angel",  Author = "Cassandra Clare"},
-			new Book{ Title = "The Martian",  Author = "Andy Weir"},
-			new Book{ Title = "Ready Player One",  Author = "Ernest Cline"},
-			new Book{ Title = "The Lost Hero",  Author = "Rick Riordan", IsFavourite = true},
-			new Book{ Title = "All the Light We Cannot See",  Author = "Anthony Doerr"},
-			new Book{ Title = "Cinder",  Author = "Marissa Meyer"},
-			new Book{ Title = "Me Before You",  Author = "Jojo Moyes"},
-			new Book{ Title = "The Night Circus",  Author = "Erin Morgenstern"},
-		};
-	}
-
-	public List<Book> Source { get; set; }
-}
- ```
+ <snippet id='listview-celltypes-templatecell-viewmodel' />
 
 1. Define the ListView control either in XAML or in code behind.
 
 **Define the ListVew in XAML**
 
-```XAML
-<telerikDataControls:RadListView ItemsSource="{Binding Source}" x:Name="listView">
-	<telerikDataControls:RadListView.BindingContext>
-		<local:ViewModel />
-	</telerikDataControls:RadListView.BindingContext>
-	<telerikDataControls:RadListView.ItemTemplate>
-		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
-					<Grid>
-						<HorizontalStackLayout Margin="10, 10, 10, 0">
-							<Image IsVisible="{Binding IsFavourite}" Source="favourite.png" HeightRequest="16" VerticalOptions="Center" />
-							<Label Text="{Binding Title}" FontSize="16" FontAttributes="Bold" TextColor="Black" VerticalOptions="Center" />
-						</HorizontalStackLayout>
-						<HorizontalStackLayout Grid.Row="1" Margin="10, 0, 10, 10">
-							<Label Text="by" FontSize="13" FontAttributes="Italic" TextColor="Gray" />
-							<Label Text="{Binding Author}" FontSize="13" FontAttributes="Italic" TextColor="Gray" />
-						</HorizontalStackLayout>
-					</Grid>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
-		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-	<telerikDataControls:RadListView.LayoutDefinition>
-		<telerikListView:ListViewLinearLayout ItemLength="60" />
-	</telerikDataControls:RadListView.LayoutDefinition>
-</telerikDataControls:RadListView>
-```
+ <snippet id='listview-celltypes-templatecell-listview-xaml' />
 
 1. Add the needed namespaces:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```						
 
 **Define the ListView in code-behind**
