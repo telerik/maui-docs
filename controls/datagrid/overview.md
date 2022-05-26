@@ -11,8 +11,6 @@ slug: datagrid-overview
 
 Most of the data on the Internet is stored in tables within a database. **Telerik UI for .NET MAUI DataGrid** provides the same abstraction over the data&mdash;it has columns and rows, and the intersection of a row and a column is called a cell. When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table.
 
-Currently, the Telerik UI for .NET MAUI DataGrid is available for Android and iOS.
-
 ![Overview DataGrid](images/datagrid-overview.png)
 
 ## Key Features

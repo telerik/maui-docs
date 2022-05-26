@@ -69,13 +69,13 @@ Now, let's add the templates definition to the page resources:
 
 <snippet id='datepicker-placeholder-template' />
 
-![DateTimePicker PlaceholderTemplate](images/datepicker_placeholder_template.png)
+![DateTimePicker PlaceholderTemplate](images/datetimepicker_placeholder_template.png)
 
 **Define Custom DisplayTemplate**
 
 <snippet id='datepicker-display-template' />
 
-![DateTimePicker DisplayTemplate](images/datepicker_display_template.png)
+![DateTimePicker DisplayTemplate](images/datetimepicker_display_template.png)
 
 **Define Custom HeaderTemplate**
 
