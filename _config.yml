@@ -355,7 +355,7 @@ footer_social:
     twitter: https://twitter.com/Telerik/
 
 has_kb_portal: false
-has_api_reference: false
+has_api_reference: true
 has_cta_panels: false
 
 intro_columns:
