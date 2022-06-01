@@ -1,0 +1,3 @@
+Android\Telerik.Maui.Controls.Compatibility.dll
+Android\Telerik.Maui.Controls.dll
+Android\Telerik.Maui.Core.dll
