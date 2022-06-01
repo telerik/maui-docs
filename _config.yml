@@ -295,6 +295,8 @@ productName: "Telerik UI for .NET MAUI"
 product: "Telerik UI for .NET MAUI"
 platform: maui
 
+api_reference_url: "api/"
+
 ## Assign layout and category per different paths
 defaults:
 -
