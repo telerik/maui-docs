@@ -12,11 +12,9 @@
                 <h6 class="mt-0 mb-10">Sample Applications</h6>
                 <ul class="list-unstyled">
                   
-                    <li><a href="https://www.telerik.com/xamarin-ui/telerik-tagit" target="_blank">Telerik Tagit</a></li>
+                    <li><a href="https://docs.telerik.com/devtools/maui/demos-and-sample-apps/controls-showcase-app" target="_blank">Controls Samples App</a></li>
                   
-                    <li><a href="https://itunes.apple.com/dm/app/telerik-ui-for-xamarin-)examples/id1083924868?mt=8" target="_blank">iOS Demo App</a></li>
-                  
-                    <li><a href="https://play.google.com/store/apps/details?id=com.telerik.xamarin&hl=en" target="_blank">Android Demo App</a></li>
+                    <li><a href="https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app" target="_blank">Crypto Tracker App</a></li>                
                   
                 </ul>
             </div>
@@ -25,12 +23,8 @@
                 <h6 class="mt-0 mb-10">Support Resources</h6>
                 <ul class="list-unstyled">
                   
-                    <li><a href="https://docs.telerik.com/devtools/ios/" target="_blank">iOS Wrappers</a></li>
-                  
-                    <li><a href="https://docs.telerik.com/devtools/android/introduction" target="_blank">Android Wrappers</a></li>
-                  
-                    <li><a href="https://github.com/telerik/xamarin-forms-sdk" target="_blank">Xamarin.Forms SDK Examples</a></li>
-                  
+                    <li><a href="https://docs.telerik.com/devtools/maui/demos-and-sample-apps/sdkbrowser-app" target="_blank">.NET MAUI SDKBrowser App</a></li>
+                                    
                 </ul>
             </div>
           
@@ -38,12 +32,13 @@
                 <h6 class="mt-0 mb-10">Community</h6>
                 <ul class="list-unstyled">
                   
-                    <li><a href="https://www.telerik.com/forums/xamarin" target="_blank">Forums</a></li>
+                    <li><a href="https://www.telerik.com/forums/maui" target="_blank">Forums</a></li>
                   
                     <li><a href="https://www.telerik.com/blogs/mobile" target="_blank">Blogs</a></li>
                   
-                    <li><a href="https://feedback.progress.com/project/168" target="_blank">Feedback Portal</a></li>
+                    <li><a href="https://feedback.telerik.com/maui" target="_blank">Feedback Portal</a></li>
                   
+				    <li><a href="https://www.youtube.com/watch?v=3nInlHGsO8M&list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N&ab_channel=ProgressTelerik" target="_blank">YouTube Channel</a></li>
                 </ul>
             </div>
           
