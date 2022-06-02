@@ -27,7 +27,7 @@ where the Source of the MapShapeReader should be defined as well:
 
 <snippet id='map-interactionmode-settintsource' />
 
->note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({% slug map-layers-shapefilelayer%}) topic.
+>note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
 ## Zoom Level Support
 
@@ -62,6 +62,6 @@ Here is an example how you could utilize `SetView` method (in the example the us
 
 ## See Also
 
-- [Layers]({% slug map-layers-overview%})
-- [Selection]({% slug map-selection%})
-- [Styling]({% slug map-styling-shapesstyles %})
+- [Layers]({%slug map-layers-overview%})
+- [Selection]({%slug map-selection%})
+- [Styling]({%slug map-styling-shapesstyles%})
