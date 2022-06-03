@@ -16,7 +16,7 @@ The available masks and their purpose are listed below:
 * [Numeric]({%slug maskedentry-numeric-mask%})&mdash;Used for handling numeric user input. The `Value` property can be `double` or `decimal`.
 * [Regex]({%slug maskedentry-regex-mask%})&mdash;Used for handling and validating a standard (alphanumeric) user input against a regular expression. Provides errors if the regex is not matched. The `Value` property is a `string`.
 * [IP]({%slug maskedentry-ip-mask%})&mdash;Used for handling and validating an IP Address input. The `Value` property is `string`.
-* [Email]({&slug maskedentry-email-mask&})&mdash;Used for handling and validating an email input. The Value property is string.
+* [Email]({%slug maskedentry-email-mask%})&mdash;Used for handling and validating an email input. The Value property is string.
 
 >important The `Value` can also be `null` for all mask types.
 

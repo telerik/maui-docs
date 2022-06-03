@@ -32,9 +32,9 @@ To add the Telerik server to the NuGet package sources:
 
   ![](images/nuget-vs-add-source.png)
 
-1. In the **Source** field, add the Telerik server by filling in its URL: **https://nuget.telerik.com/v3/index.json**. Click **Update**.
+1. In the **Source** field, add the Telerik server by filling in its URL: [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json). Click **Update**.
 
-  Note that the [https://nuget.telerik.com/nuget](https://nuget.telerik.com/nuget) server will be deprecated and you are recommended to switch to the v3 API, which is faster and more lightweight, and also reduces the number of requests from NuGet clients.
+  Note that the [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster and more lightweight, and also reduces the number of requests from NuGet clients.
 
   ![](images/nuget-vs-telerik-server.png)
 
