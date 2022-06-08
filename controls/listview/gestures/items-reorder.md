@@ -11,67 +11,31 @@ slug: listview-features-reorder-items
 
 The items reorder feature allows end-users reorder the list view data items. If the feature is enabled, when the user holds on an item, the reorder mode is triggered and the user can move and release the item at the desired position. This will perform reorder operation on the data.
 
-Reorder functionality can be enabled by setting the **IsItemsReorderEnabled** property to `true`.
+Reorder functionality can be enabled by setting the `IsItemsReorderEnabled` property to `true`.
 
 ## Example
 
 This example will demonstrate how to enable the items reorder functionality and style the list view items.
 
-**1.** ListView definition:
+1. Add the ListView definition:
 
-```XAML
- <telerikDataControls:RadListView x:Name="listView"
-                                         IsItemsReorderEnabled="True"
-                                         SelectionMode="None">
-    <telerikDataControls:RadListView.ItemTemplate>
-        <DataTemplate>
-            <telerikListView:ListViewTemplateCell>
-                <telerikListView:ListViewTemplateCell.View>
-                    <StackLayout Spacing="0">
-                        <Label Margin="5,10,5,10"
-                           FontSize="16"
-                           Text="{Binding}"
-                           TextColor="Black"
-                           VerticalTextAlignment="Center" />
-                        <BoxView Margin="0"
-                             BackgroundColor="Gray"
-                             HeightRequest="1" />
-                    </StackLayout>
-                </telerikListView:ListViewTemplateCell.View>
-            </telerikListView:ListViewTemplateCell>
-        </DataTemplate>
-    </telerikDataControls:RadListView.ItemTemplate>
-</telerikDataControls:RadListView>
-```
+ <snippet id='listview-gestures-reorderitems-listview'/>
 
-**2.** Namespaces:
+1. Define the `telerik` namespace:
 
-```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
+ ```
 
-**3.** ListViewItemsSource:
+1. Add a simple ItemsSource to the ListView:
 
-```C#
-this.listView.ItemsSource = new ObservableCollection<string>()
-{
-  "Check weather for London",
-  "Call Brian Ingram",
-  "Check the childrens' documents",
-  "Take care of the dog",
-  "Airplane tickets reschedule",
-  "Check the trains schedule",
-  "Bills due: Alissa's ballet class",
-  "Weekly organic basket"
-};
-```
+ <snippet id='listview-gestures-reorderitems-code'/>
 
 Here is the result:
 
 ![](images/listview-gestures-reorder.png)
 
->You could also take advantage of the [Reorder Events]({% slug listview-features-events %}#groupreorder-events) for additional control over the reorder functionality of RadListView.
+>You can also take advantage of the [Reorder Events]({% slug listview-features-events %}#groupreorder-events) for additional control over the reorder functionality of the ListView.
 
 ## See Also
 

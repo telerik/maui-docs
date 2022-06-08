@@ -28,62 +28,17 @@ The following example demonstrates how to use the `RadListViewLinearLayout`.
 1. Define the list view in XAML:
 
  <snippet id='listview-layouts-linearlayout-listview'/>
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-								 ItemsSource="{Binding Items}">
-	<telerikDataControls:RadListView.BindingContext>
-		<local:ViewModel/>
-	</telerikDataControls:RadListView.BindingContext>
-	<telerikDataControls:RadListView.ItemTemplate>
-		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
-					<telerik:RadBorder BorderColor="LightBlue" BorderThickness="2">
-						<Label Text="{Binding Name}"/>
-					</telerik:RadBorder>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
-		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-	<telerikDataControls:RadListView.LayoutDefinition>
-		<telerikListView:ListViewLinearLayout ItemLength="40" VerticalItemSpacing="2" />
-	</telerikDataControls:RadListView.LayoutDefinition>
-</telerikDataControls:RadListView>
- ```
-
+ 
 	In the example:
 
- <snippet id='xmlns-teleriklistview'/>
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 1. Add the `ViewModel` class with the `ItemsSource` collection:
 
  <snippet id='listview-layouts-linearlayout-source'/>
- ```C#
- public class Item
- {
-	public string Name { get; set; }
-	public Color Color { get; set; }
- }
-
- public class ViewModel
- {
-	public ViewModel()
-	{
-		this.Items = new ObservableCollection<Item>();
-		for (int i = 0; i < 14; i++)
-		{
-			var c = 200 - 10 * i;
-			this.Items.Add(new Item() { Name = "Item " + i, });
-		}
-	}
-	public ObservableCollection<Item> Items { get; set; }
- }
- ```
-
+ 
 The following image shows the result:
 
 ![Linear Vertical](images/listview-layouts-linear.png)
@@ -99,62 +54,11 @@ The following example demonstrates how to use the `RadListViewGridLayout`.
 1. Define the list view in XAML:
 
  <snippet id='listview-layouts-gridlayout-listview'/>
- ```XAML
-<telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Items}">
-	<telerikDataControls:RadListView.BindingContext>
-		<local:ViewModel/>
-	</telerikDataControls:RadListView.BindingContext>
-	<telerikDataControls:RadListView.ItemTemplate>
-		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
-					<telerik:RadBorder BorderColor="LightBlue" BorderThickness="2">
-						<Label Text="{Binding Name}"/>
-					</telerik:RadBorder>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
-		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-	<telerikDataControls:RadListView.LayoutDefinition>
-		<telerikListView:ListViewGridLayout ItemLength="40"
-											HorizontalItemSpacing="2"
-											VerticalItemSpacing="2" />
-	</telerikDataControls:RadListView.LayoutDefinition>
-</telerikDataControls:RadListView>
- ```
-
-	In the example:
-
- ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
- ```
 
 1. Add the `ViewModel` class with the `ItemsSource` collection:
 
- <snippet id='listview-layouts-gridlayout-source'/>
- ```C#
- public class Item
- {
-	public string Name { get; set; }
-	public Color Color { get; set; }
- }
-
- public class ViewModel
- {
-	public ViewModel()
-	{
-		this.Items = new ObservableCollection<Item>();
-		for (int i = 0; i < 14; i++)
-		{
-			var c = 200 - 10 * i;
-			this.Items.Add(new Item() { Name = "Item " + i, });
-		}
-	}
-	public ObservableCollection<Item> Items { get; set; }
- }
- ```
-
+ <snippet id='listview-layouts-linearlayout-source'/>
+ 
 The following image shows the result:
 
 ![Linear Vertical](images/listview-layouts-grid.png)

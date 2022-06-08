@@ -51,32 +51,10 @@ To demonstrate inheriting from the `ListViewCommand`, the following example hand
 1. Create a class that inherits from the `ListViewCommand` and set its `Id` property. Then override the `CanExecute` and `Execute` methods:
 
  <snippet id='listview-features-commands-listviewcommand'/>
- ```C#
-public class ItemTappedUserCommand : ListViewCommand
-{
-	public ItemTappedUserCommand()
-	{
-		Id = CommandId.ItemTap;
-	}
-	public override bool CanExecute(object parameter)
-	{
-		return true;
-	}
-	public override void Execute(object parameter)
-	{
-		var tappedItem = (parameter as ItemTapCommandContext).Item;
-		//add your logic here
-		Application.Current.MainPage.DisplayAlert("", "You've selected " + tappedItem, "OK");
-	}
-}
- ```
 
 1. Add the custom command to the Commands collection of the `RadListView` instance:
 
  <snippet id='listview-features-commands-add'/>
- ```C#
-listView.Commands.Add(new ItemTappedUserCommand());
- ```
 
 ## Binding ListViewUserCommand
 
@@ -85,47 +63,10 @@ With the `ListViewUserCommand` binding approach, you can directly handle the cus
 1. Add the custom command to the `ViewModel`:
 
  <snippet id='listview-features-commands-viewmodel'/>
- ```C#
-public class ViewModel
-{
-	public ViewModel()
-	{
-		this.Source = new List<string> { "Tom", "Anna", "Peter", "Teodor", "Martin" };
-		this.ItemTapCommand = new Command<ItemTapCommandContext>(this.ItemTapped);
-	}
-	private void ItemTapped(ItemTapCommandContext context)
-	{
-		var tappedItem = context.Item;
-		//add your logic here
-		Application.Current.MainPage.DisplayAlert("", "You've selected " + tappedItem, "OK");
-	}
-	public List<string> Source { get; set; }
-	public ICommand ItemTapCommand { get; set; }
-}
- ```
-
+ 
 1. Bind the `ItemTapCommand` through the predefined `ListViewUserCommand` command. Its `Id` property is used to map the command to the corresponding action with the control:
 
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-								 ItemsSource="{Binding Source}">
-	<telerikDataControls:RadListView.BindingContext>
-		<local:ViewModel />
-	</telerikDataControls:RadListView.BindingContext>
-	<telerikDataControls:RadListView.Commands>
-		<telerikListViewCommands:ListViewUserCommand Id="ItemTap"
-													 Command="{Binding ItemTapCommand}" />
-	</telerikDataControls:RadListView.Commands>
-</telerikDataControls:RadListView>
- ```
-
-1. Define the `telerikListViewCommands`:
-
- ```XAML
-xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
-
+ <snippet id='listview-commands-listviewusercommand-xaml'/>
 
 ## See Also
 

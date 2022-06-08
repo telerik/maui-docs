@@ -37,60 +37,14 @@ The following example demonstrates how to use `ScrollItemIntoView` inside a butt
 1. Define a sample view with a ListView control and a button:
 
  <snippet id='listview-features-programmatic-scrolling-xaml'/>
- ```XAML
-<Grid Margin="10">
-	<Grid.RowDefinitions>
-		<RowDefinition Height="Auto"/>
-		<RowDefinition/>
-	</Grid.RowDefinitions>
-	<StackLayout>
-		<Button Clicked="ScrollItemIntoViewClicked"
-				Text="ScrollItemIntoView"/>
-		<Label x:Name="label"/>
-	</StackLayout>
-	<telerikDataControls:RadListView x:Name="listView"
-									 Grid.Row="1"
-									 ItemsSource="{Binding Items}">
-		<telerikDataControls:RadListView.BindingContext>
-			<local:ViewModel />
-		</telerikDataControls:RadListView.BindingContext>
-	</telerikDataControls:RadListView>
-</Grid>
- ```
-
+ 
 1. Use the following `ViewModel` to create a simple data for the ListView component:
 
  <snippet id='listview-features-programmatic-scrolling'/>
- ```C#
-public class ViewModel
-{
-	public ViewModel()
-	{
-		this.Items = new ObservableCollection<string>();
-
-		for (int i = 0; i < 100; i++)
-		{
-			this.Items.Add("Item " + i);
-		}
-	}
-	public ObservableCollection<string> Items { get; set; }
-}
- ```
 
 1. Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a specific item:
 
  <snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
- ```C#
-private void ScrollItemIntoViewClicked(object sender, EventArgs e)
-{
-	var rnd = new Random();
-	var items = this.listView.ItemsSource as ObservableCollection<string>;
-	var item = items[rnd.Next(items.Count - 1)];
-	this.label.Text = "Scrolled to: " + item;
-	this.listView.ScrollItemIntoView(item);
-}
- ```
-
 
 The following image shows the end result:
 

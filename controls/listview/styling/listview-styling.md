@@ -30,7 +30,6 @@ The properties of this object are respectively applied to the native components.
 * `BorderLocation` (`Location`)&mdash;Describes an enumeration describing where the border will be visible.
 * `TextCellTextColor` (`Color`)&mdash;Defines the text color of the ListView `TextCell`.
 
-
 ### Location
 
 This enumeration contains the following members:
@@ -44,62 +43,17 @@ This enumeration contains the following members:
 
 ### Example
 
-```XAML
-<telerikDataControls:RadListView x:Name="listView"
-                                             ItemsSource="{Binding Source}"
-                                             IsItemsReorderEnabled="True">
-        <telerikDataControls:RadListView.BindingContext>
-            <local:ViewModel />
-        </telerikDataControls:RadListView.BindingContext>
-        <telerikDataControls:RadListView.ItemTemplate>
-            <DataTemplate>
-                <telerikListView:ListViewTextCell Text="{Binding Name}" />
-            </DataTemplate>
-        </telerikDataControls:RadListView.ItemTemplate>
-        <telerikDataControls:RadListView.ItemStyle>
-            <telerikListView:ListViewItemStyle BackgroundColor="#1263E5"
-                                    TextCellTextColor="#AAC7F6"
-                                    BorderColor="#0A3A82"                                                
-                                    BorderWidth="2"
-                                    BorderLocation="All" />
-        </telerikDataControls:RadListView.ItemStyle>
-        <telerikDataControls:RadListView.SelectedItemStyle>
-            <telerikListView:ListViewItemStyle BackgroundColor="#83A9E2"
-                                    TextCellTextColor="#AAC7F6"
-                                    BorderColor="#0A3A82"
-                                    BorderWidth="2"
-                                    BorderLocation="Bottom"/>
-        </telerikDataControls:RadListView.SelectedItemStyle>
-        <telerikDataControls:RadListView.PressedItemStyle>
-            <telerikListView:ListViewItemStyle BackgroundColor="#C1C1C1"
-                                    TextCellTextColor="#AAC7F6"
-                                    BorderColor="#0B3D89"
-                                    BorderWidth="2"
-                                    BorderLocation="Bottom"/>
-        </telerikDataControls:RadListView.PressedItemStyle>
-        <telerikDataControls:RadListView.ReorderItemStyle>
-            <telerikListView:ListViewItemStyle BackgroundColor="#0B3D89"
-                                    TextCellTextColor="#AAC7F6"
-                                    BorderColor="Black"
-                                    BorderWidth="2"
-                                    BorderLocation="All" />
-        </telerikDataControls:RadListView.ReorderItemStyle>
-    </telerikDataControls:RadListView>
-```
-
+<snippet id='listview-styling-listview-xaml'/>
 
 The following image shows a ListView with its `ItemStyle` and `SelectedItemStyle` applied.
 
 ![](../images/listview_features_itemstyle.png)
 
-
 The following image shows a ListView with its `ReorderItemStyle` applied.
 
 ![](../images/listview_features_reorderItemstyle.png)
 
->important * For a **ItemStyles** demo, refer to the **ListView/Styling** folder of the [SDK Samples Browser application]({%slug maui-demo-app%}).
->* The **ListView/Styling** folder of the SDKBrowser MAUI application contains examples on how you can use those properties as `bindable`.
-
+> For a Item Styles example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 
 ## See Also
 
