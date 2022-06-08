@@ -39,62 +39,16 @@ The example below demonstrates how to use the `LoadOnDemandCollection`:
 
 1. Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
 
- ```C#
-public class ViewModel
-{
-    public ListViewLoadOnDemandCollection Source { get; set; }
-    private int lodTriggerCount;
-    public ViewModel()
-    {
-        this.Source = new ListViewLoadOnDemandCollection((cancelationToken) =>
-        {
-            List<string> result = new List<string>();
-
-            try
-            {
-                //simulates connection latency
-                Task.Delay(4000, cancelationToken).Wait();
-
-                this.lodTriggerCount++;
-                foreach (string item in Enum.GetNames(typeof(DayOfWeek)))
-                {
-                    result.Add(string.Format("LOD: {0} - {1}", lodTriggerCount, item));
-                }
-                return result;
-            }
-            catch
-            {
-                //exception is thrown when the task is canceled. Returning null does not affect the ItemsSource.
-                return null;
-            }
-        });
-
-        for (int i = 0; i < 14; i++)
-        {
-            Source.Add(string.Format("Item {0}", i));
-        }
-    }
-}
- ```
+ <snippet id='listview-loadondemand-loadondemandcollection-viewmodel'/>
 
 1. Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
 
- ```XAML
- <telerikDataControls:RadListView x:Name="listView"
-                                             IsLoadOnDemandEnabled="True"
-                                             ItemsSource="{Binding Source}"
-                                             LoadOnDemandMode="Automatic" >
-    <telerikDataControls:RadListView.BindingContext>
-        <local:ViewModel />
-    </telerikDataControls:RadListView.BindingContext>
-</telerikDataControls:RadListView>
- ```
+ <snippet id='listview-loadondemand-loadondemandcollection-declaration'/>
 
-1. Define the ListView namespace:
+1. Add the `telerik` namespace:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 ### Using LoadOnDemand Event
@@ -108,58 +62,15 @@ The example below demonstrates how to use the LoadOnDemand event:
 
 1. Define the ListView:
 
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-                                             IsLoadOnDemandEnabled="True"
-                                             LoadOnDemand="ListView_LoadOnDemand"
-                                             LoadOnDemandMode="Automatic" />
- ```
+ <snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
 
-1. Define the ListView namespace:
+1. Set the ListView `ItemsSource` , for example in the page constructor:
 
- ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.Maui.Controls.Compatibility"
- ```
-
-1. Set the ListView `ItemsSource` in the page constructor:
-
- ```C#
-this.source = new ObservableCollection<string>();
-for (int i = 0; i < 14; i++)
-{
-    source.Add(string.Format("Item {0}", i));
-}
-this.listView.ItemsSource = this.source;
- ```
+ <snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
 
 1. Add the following event handler:
 
- ```C#
- private ObservableCollection<string> source;
- private int lodCounter = 0;
-
- private async void ListView_LoadOnDemand(object sender, EventArgs e)
- {
-    // If you need to get new data asynchronously, you must manually update the loading status.
-    this.listView.IsLoadOnDemandActive = true;
-
-    IEnumerable<string> newItems = await this.GetNewItems();
-    foreach (string newItem in newItems)
-    {
-        this.source.Add(newItem);
-    }
-
-    this.listView.IsLoadOnDemandActive = false;
- }
-
- private async Task<IEnumerable<string>> GetNewItems()
- {
-    this.lodCounter++;
-    await Task.Delay(4000);  // Mimic getting data from server asynchronously.
-    return Enum.GetNames(typeof(DayOfWeek)).Select(day => string.Format("LOD: {0} - {1}", this.lodCounter, day));
- }
- ```
+ <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
 
 ### Using LoadOnDemand Command
 
@@ -172,80 +83,17 @@ The example below demonstrates how to use the `LoadOnDemand` command:
 
 1. Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` bool property:
 
- ```C#
-public class ViewModel : NotifyPropertyChangedBase
-{
-    private bool isLoadingMoreItems;
-    private int lodCounter = 0;
-
-    public ViewModel()
-    {
-        this.Source = new ObservableCollection<string>();
-        for (int i = 0; i < 14; i++)
-        {
-            this.Source.Add(string.Format("Item {0}", i));
-        }
-        this.LoadItemsCommand = new Command(this.LoadItemsCommandExecute);
-    }
-
-    public ObservableCollection<string> Source { get; }
-    public ICommand LoadItemsCommand { get; set; }
-
-    public bool IsLoadingMoreItems
-    {
-        get { return this.isLoadingMoreItems; }
-        set { this.UpdateValue(ref this.isLoadingMoreItems, value); }
-    }
-
-    private async void LoadItemsCommandExecute(object obj)
-    {
-        // If you need to get new data asynchronously, you must manually update the loading status.
-        this.IsLoadingMoreItems = true;
-
-        IEnumerable<string> newItems = await this.GetNewItems();
-        foreach (string newItem in newItems)
-        {
-            this.Source.Add(newItem);
-        }
-
-        this.IsLoadingMoreItems = false;
-    }
-
-    private async Task<IEnumerable<string>> GetNewItems()
-    {
-        this.lodCounter++;
-        await Task.Delay(4000);  // Mimic getting data from server asynchronously.
-        return Enum.GetNames(typeof(DayOfWeek)).Select(day => string.Format("LOD: {0} - {1}", this.lodCounter, day));
-    }
-}
- ```
+ <snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
 
 1. Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
 
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
-                                             ItemsSource="{Binding Source}"
-                                             IsLoadOnDemandEnabled="True"
-                                             IsLoadOnDemandActive="{Binding IsLoadingMoreItems}"
-                                             LoadOnDemandMode="Manual">
-                <telerikDataControls:RadListView.BindingContext>
-                    <local:ViewModel/>
-                </telerikDataControls:RadListView.BindingContext>
-                <telerikDataControls:RadListView.Commands>
-                    <telerikListViewCommands:ListViewUserCommand Id="LoadOnDemand"
-                                                             Command="{Binding LoadItemsCommand}" />
-                </telerikDataControls:RadListView.Commands>
-            </telerikDataControls:RadListView>
- ```
+ <snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
 
 1. Define the following namespaces:
 
  ```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
-xmlns:telerikListViewCommands="clr-namespace:Telerik.XamarinForms.DataControls.ListView.Commands;assembly=Telerik.XamarinForms.DataControls"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
-
-
 
 ## Advanced Options
 
@@ -259,18 +107,7 @@ This feature works in conjunction with the [LoadOnDemandMode.Automatic mode of t
 
 This feature works in conjunction with the [LoadOnDemandMode.Manual mode of the ListView]({%slug listview-features-load-on-demand%}#manual-loading-mode). You can control the content of the Load More Button through the `LoadOnDemandItemTemplate` property.
 
-```XAML
-telerikDataControls:RadListView.LoadOnDemandItemTemplate>
-    <DataTemplate>
-        <Grid BackgroundColor="Red">
-            <Label FontSize="24"
-               HorizontalOptions="Center"
-               Text="Load more items"
-               TextColor="Black" />
-        </Grid>
-    </DataTemplate>
-</telerikDataControls:RadListView.LoadOnDemandItemTemplate>
-```
+<snippet id='listview-loadondemand-loadondemandcustomizations-lodbutton' />
 
 ### Change the Appearance of the Manual Loading Indicator
 
@@ -278,18 +115,7 @@ This feature works in conjunction with the [LoadOnDemandMode.Manual mode of the 
 
 You can control the content of the Loading Indicator through the `LoadingOnDemandItemTemplate` property.
 
-```XAML
-<telerikDataControls:RadListView.LoadingOnDemandItemTemplate>
-    <DataTemplate>
-        <Grid BackgroundColor="Green">
-            <Label FontSize="24"
-               HorizontalOptions="Center"
-               Text="Loading..."
-               TextColor="White" />
-        </Grid>
-    </DataTemplate>
-</telerikDataControls:RadListView.LoadingOnDemandItemTemplate>
-```
+<snippet id='listview-loadondemand-loadondemandcustomizations-loadingindicator'/>
 
 ## See Also
 

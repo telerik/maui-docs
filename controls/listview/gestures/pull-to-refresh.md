@@ -9,52 +9,36 @@ slug: listview-features-pull-to-refresh
 
 # Pull to Refresh
 
-If the list contains items, which may change after the initial load, it may be good idea to allow users to refresh that list. **RadListView** is capable of doing this by a pull-to-refresh gesture. The feature allows the data to be refreshed by swiping finger down when the content is scrolled up to the top. This will trigger an animated activity indicator which will stay visible until data is refreshed.
+If the list contains items which may change after the initial load, it may be good idea to allow users to refresh that list. Telerik ListView for .NET MAUI is capable of doing this by a pull-to-refresh gesture. The feature allows the data to be refreshed by swiping finger down when the content is scrolled up to the top. This will trigger an animated activity indicator which will stay visible until data is refreshed.
 
 This feature consists of:
 
-- **RadListView.IsPullToRefreshEnabled**: a boolean property which gets or sets a statement disabling or enabling the feature. The default value of the property is false.
-- **RadListView.RefreshRequested**: a public event which is triggered when the pull-to-refresh gesture is triggered. The custom data refreshing logic should be implemented in its handler.
-- **RadListView.EndRefresh()**: a public method which must be called when the custom data refreshing logic finishes executing.
+- `IsPullToRefreshEnabled`&mdash;A boolean property which enables/disables the pull-to-refresh feature. The default value of the property is `false`.
+- `RefreshRequested`&mdash;A public event which is raised when the pull-to-refresh gesture is triggered. The custom data refreshing logic should be implemented in its handler.
+- `EndRefresh()`&mdash;A public method which must be called when the custom data refreshing logic finishes executing.
 
 
 ## Example
 
 This example demonstrates how to enable the pull to refresh functionality.
 
-**1.** ListView definition:
+1. Add the ListView definition:
 
-```XAML
- <telerikDataControls:RadListView x:Name="listView"
-                                         IsPullToRefreshEnabled="True"
-                                         RefreshRequested="RefreshRequested" />
-```
+ <snippet id='listview-gestures-pulltorefresh-listview'/>
 
-**2.** Namespaces:
+1. Define the `telerik` namespace:
 
-```XAML
-xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
+ ```
 
-**3.** Sample source for the ListView ItemsSource
+1. Set sample ItemsSource to the ListView:
 
-```C#
-listView.ItemsSource = Enumerable.Range(0, this.count);
-```
+ <snippet id='listview-gestures-pulltorefresh-source'/>
 
-**4.** And this is the method that updates the source of the list view when refresh is triggered:
+1. Add the `RefreshRequested` method that updates the source of the ListView when refresh is triggered:
 
-```C#
-private int count = 10;
-
-private async void RefreshRequested(object sender, PullToRefreshRequestedEventArgs e)
-{
-    await Task.Delay(3000);
-    listView.ItemsSource = Enumerable.Range(this.count, 10);
-    this.count += 10;
-    listView.EndRefresh();
-}
-```
+ <snippet id='listview-gestures-pulltorefresh-event'/>
 
 This is how the refresh indicator looks like:
 
@@ -62,7 +46,7 @@ This is how the refresh indicator looks like:
 
 ## Troubleshooting
 
-RadListView should not be used in a View that restricts the Height to the minimum amount of vertical space. An example is `StackLayout` or a Grid with `<RowDefinition Height="Auto" />`. This will restrict the RadListView from expanding when items are populated and  prevents Pull To Refresh from working correctly.
+ListView should not be used in a View that restricts the Height to the minimum amount of vertical space. An example is `StackLayout` or a Grid with `<RowDefinition Height="Auto" />`. This will restrict the ListView from expanding when items are populated and  prevents Pull To Refresh from working correctly.
 
 The recommended use is to place the RadListView control in a container that expands to fill available space. For example, the RadListView in the example below is in the star-sized Grid RowDefinition.
 
