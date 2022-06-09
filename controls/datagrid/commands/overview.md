@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI DataGrid Documentation | Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
+previous_url: /controls/datagrid/commands/commands
 slug: datagrid-commands-overview
 ---
 
