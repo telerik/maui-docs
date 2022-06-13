@@ -35,8 +35,6 @@ Add the `RadListView` definition with two `PropertyGroupDescriptors` as shown in
 
 <snippet id='listview-grouping-multilevel-definition' />
 
-1. Add the namespaces:
-
 Include the `telerik` namespace:
 
 ```XAML

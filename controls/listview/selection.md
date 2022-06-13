@@ -77,7 +77,7 @@ Next, add a `RadListView` instance to your page with selection properties applie
 
 <snippet id='listview-features-selection-xaml' />
 
-1. Add the `telerik` namespace:
+Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                           

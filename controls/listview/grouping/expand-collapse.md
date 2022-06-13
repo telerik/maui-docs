@@ -64,7 +64,7 @@ var dataView = this.listView.GetDataView();
 dataView.CollapseItem(lastItem);
 ```
 
-## Handle the GroupHeaderTap Cmmand
+## Handle the GroupHeaderTap Command
 
 The `GroupHeaderTap` command is raised when a group header of a grouped ListView is tapped. By default, tapping on a group header collapses the group if it is expanded and vice-versa.
 

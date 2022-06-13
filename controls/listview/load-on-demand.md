@@ -62,15 +62,15 @@ The example below demonstrates how to use the LoadOnDemand event:
 
 1. Define the ListView:
 
- <snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
+	<snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
 
 1. Set the ListView `ItemsSource` , for example in the page constructor:
 
- <snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
+	<snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
 
 1. Add the following event handler:
 
- <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
+	<snippet id='listview-loadondemand-loadondemandeventauto-event'/>
 
 ### Using LoadOnDemand Command
 
@@ -83,17 +83,17 @@ The example below demonstrates how to use the `LoadOnDemand` command:
 
 1. Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` bool property:
 
- <snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
+	<snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
 
 1. Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
 
- <snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
+	<snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
 
 1. Define the following namespaces:
 
- ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+	```XAML
+	xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+	```
 
 ## Advanced Options
 
