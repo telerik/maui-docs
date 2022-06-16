@@ -35,6 +35,16 @@ The example below shows how to set `SelectionUnit` in XAML and code-behind:
 var dataGrid = new RadDataGrid();
 dataGrid.SelectionUnit = Telerik.XamarinForms.DataGrid.DataGridSelectionUnit.Cell;
 ```
+### SelectedItem
+
+The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of `SelectedItem` depends on the value of `SelectedUnit`.
+
+* `Row`&mdash; `SelectedItem` is of type `DataGridCellInfo`.
+* `Cell`&mdash; `SelectedItem` is the same type as the business object.
+
+```C#
+var selectedItem = this.dataGrid.SelectedItem;
+```
 
 ### SelectionMode
 
