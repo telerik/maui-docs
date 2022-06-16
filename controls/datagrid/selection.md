@@ -42,7 +42,10 @@ The `SelectedItem` property gets or sets the value of the selected item in the `
 * `Row`&mdash; `SelectedItem` is of type `DataGridCellInfo`.
 * `Cell`&mdash; `SelectedItem` is the same type as the business object.
 
+The example shows how to use the `SelectedItem` property:
 ```C#
+var dataGrid = new RadDataGrid();
+dataGrid.SelectionUnit = Telerik.XamarinForms.DataGrid.DataGridSelectionUnit.Cell;
 var selectedItem = this.dataGrid.SelectedItem;
 ```
 
