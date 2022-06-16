@@ -62,6 +62,22 @@ Another way to handle loading more items is to use the `LoadOnDemand` event. Thi
 
 The example below demonstrates how to use the LoadOnDemand event:
 
+With HTML: 
+
+<ol>
+<li>Define the ListView:
+<snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
+</li>
+<li>Set the ListView `ItemsSource` , for example in the page constructor:
+<snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
+</li>
+<li>Add the following event handler:
+<snippet id='listview-loadondemand-loadondemandeventauto-event'/>
+</li>
+</ol>
+
+With md lists:
+
 1. Define the ListView:
 
 	<snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
