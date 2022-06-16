@@ -17,6 +17,7 @@ If the default templates of the control do not suit your needs, you can easily d
 * `SelectedItemTemplate`(`DataTemplate`): Defines the template of the selected items that are visualized in the dropdown list.
 * `TokenTemplate`(`DataTemplate`): Defines the template of the tokens that are visualized when multiple selection is performed.
 * `ShowMoreTemplate`(`DataTemplate`): Defines the Template of the show more UI that gets visualized when the control is not focused and there is not enough space for all Tokens to be visualized when the selection mode is multiple.
+* `SelectionBoxTemplate`: Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable.
 
 ### Example with ItemTemplate and SelectedItemTemplate
 
