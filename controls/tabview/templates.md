@@ -11,9 +11,9 @@ position: 14
 
 The TabView provides set of templates for its elements. If you want to fully change the TabView appearance you can use the provided templates: 
 
-* `HeaderTemplate`(`ControlTemplate`)&mdashDefines the template of the entire header area.
-* `HeaderItemTemplate`(`ControlTemplate`)&mdashDefines the template of the individual header items.
-* `ContentTemplate`(`ControlTemplate`)&mdashDefined the template of the entire content area. 
+* `HeaderTemplate`(`ControlTemplate`)&mdash;Defines the template of the entire header area.
+* `HeaderItemTemplate`(`ControlTemplate`)&mdash;Defines the template of the individual header items.
+* `ContentTemplate`(`ControlTemplate`)&mdash;Defined the template of the entire content area. 
 
 **Example with TabView templates**
 
