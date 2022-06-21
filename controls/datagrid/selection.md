@@ -36,20 +36,6 @@ var dataGrid = new RadDataGrid();
 dataGrid.SelectionUnit = Telerik.XamarinForms.DataGrid.DataGridSelectionUnit.Cell;
 ```
 
-### SelectedItem
-
-The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of `SelectedItem` depends on the value of `SelectedUnit`.
-
-* `Row`&mdash; `SelectedItem` is of type `DataGridCellInfo`.
-* `Cell`&mdash; `SelectedItem` is the same type as the business object.
-
-The example shows how to use the `SelectedItem` property:
-```C#
-var dataGrid = new RadDataGrid();
-dataGrid.SelectionUnit = Telerik.XamarinForms.DataGrid.DataGridSelectionUnit.Cell;
-var selectedItem = this.dataGrid.SelectedItem;
-```
-
 ### SelectionMode
 
 The `SelectionMode` property (of type `Telerik.XamarinForms.DataGrid.DataGridSelectionMode`) provides the following modes:
@@ -69,11 +55,17 @@ var dataGrid = new RadDataGrid();
 dataGrid.SelectionMode = Telerik.XamarinForms.DataGrid.DataGridSelectionMode.Multiple;
 ```
 
-### SelectedItems
+### SelectedItem/SelectedItems
 
+DataGrid exposes `SelectedItem` and `SelectedItems` properties which you can use depending on whether you have Single or Multiple SelectionMode.
 Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type ObservableCollection&lt;object&gt;. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row.
 
 >note You can listen to the `CollectionChanged` event of the `SelectedItems` directly.
+
+The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of `SelectedItem` depends on the value of `SelectedUnit`.
+
+* `Row`&mdash; `SelectedItem` is of type `DataGridCellInfo`.
+* `Cell`&mdash; `SelectedItem` is the same type as the business object.
 
 ## Events
 
