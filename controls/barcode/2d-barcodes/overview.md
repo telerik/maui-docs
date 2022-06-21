@@ -18,3 +18,4 @@ Currently, the Barcode supports the following matrix barcode types:
 * [QR Code]({% slug barcode-qrcode-overview%})
 * [PDF417]({% slug barcode-pdf417-overview%})
 * [SwissQR Code]({% slug barcode-swissqrcode-overview%})
+* [DataMatrix]({% slug barcode-datamatrix-overview%})
