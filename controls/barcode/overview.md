@@ -18,7 +18,7 @@ slug: barcode-overview
 * [Value and symbology]({% slug barcode-valuesymbology %})&mdash;The Barcode enables you set the symbology that will be used to convert the value of the control into a visual barcode representation.
 * [Sizing modes]({% slug barcode-sizingmodes %})&mdash;The Barcode provides three sizing modes that enable you to fine-tune the rendering of the barcodes.
 * [Support for one-dimensional (1D) Barcodes]({% slug 1dbarcode-overview %})&mdash;The Telerik UI for .NET MAUI Barcode supports linear barcode types such as EAN13, EAN8, UPC-A, UPC-E, and Code39.
-* [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;The Barcode also supports matrix barcode types such as QR Code, SwissQR Code, and PDF417.
+* [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;The Barcode also supports matrix barcode types such as QR Code, SwissQR Code, PDF417 and DataMatrix.
 * [Styling]({% slug barcode-styling %})&mdash;You can use the `ForegroundColor` and `BackgroundColor` properties of the Barcode for customizing its visual appearance.
 
 ## Next Steps
