@@ -38,20 +38,19 @@ To load items on demand, you can utilize the `ListViewLoadOnDemandCollection` an
 
 The example below demonstrates how to use the `LoadOnDemandCollection`:
 
-1. Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
+Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
 
- <snippet id='listview-loadondemand-loadondemandcollection-viewmodel'/>
+<snippet id='listview-loadondemand-loadondemandcollection-viewmodel'/>
 
-1. Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
+Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
 
- <snippet id='listview-loadondemand-loadondemandcollection-declaration'/>
+<snippet id='listview-loadondemand-loadondemandcollection-declaration'/>
 
-1. Add the `telerik` namespace:
+Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
-
 
 ### Using LoadOnDemand Event
 
@@ -62,60 +61,40 @@ Another way to handle loading more items is to use the `LoadOnDemand` event. Thi
 
 The example below demonstrates how to use the LoadOnDemand event:
 
-With HTML: 
+Define the ListView:
 
-<ol>
-<li>Define the ListView:
 <snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
-</li>
-<li>Set the ListView `ItemsSource` , for example in the page constructor:
+
+Set the ListView `ItemsSource` , for example in the page constructor:
+
 <snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
-</li>
-<li>Add the following event handler:
+
+Add the following event handler:
+
 <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
-</li>
-</ol>
-
-With md lists:
-
-1. Define the ListView:
-
-	<snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
-
-1. Set the ListView `ItemsSource` , for example in the page constructor:
-
-	<snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
-
-1. Add the following event handler:
-
-	<snippet id='listview-loadondemand-loadondemandeventauto-event'/>
-
-
 	
 ### Using LoadOnDemand Command
 
 This approach is similar to [using the LoadOnDemand event](#using-loadondemand-event), but in this case, the load-on-demand is handled in the `ViewModel` through the `LoadOnDemandUserCommand` exposed by the ListView. In the `Execute` method of the command, you can add items right away or asynchronously:
-
-<snippet id='listview-loadondemand-loadondemandeventauto-event'/>
 
 * If the data is available right away, add the items to the ListView `ItemsSource` in the `LoadOnDemand` command `Execute` method.
 * If you require an async operation, set the `IsLoadOnDemandActive` property of the ListView to `True`. This notifies the ListView that it must display the loading indicator. Then an async call can be initiated to get the data. When the new items are ready, you must set the `IsLoadOnDemandActive` property to `False` again to notify the ListView that the load-on-demand operation is completed. You can control the behavior of `IsLoadOnDemandActive` through a binding to a boolean property in the `ViewModel` class.
 
 The example below demonstrates how to use the `LoadOnDemand` command:
 
-1. Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` bool property:
+Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` bool property:
 
-	<snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
+<snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
 
-1. Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
+Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
 
-	<snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
+<snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
 
-1. Define the following namespaces:
+Add the `telerik` namespaces:
 
-	```XAML
-	xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-	```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 ## Advanced Options
 
