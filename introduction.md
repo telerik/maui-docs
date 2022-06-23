@@ -15,7 +15,7 @@ Thank you for choosing Telerik UI for .NET MAUI!
 This brand-new UI library comes with [sample demo applications]({%slug sampleapps-overview%}) that showcase the growing number of controls. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest versions from Microsoft.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-introduction.html %}
+{% include cta-panel-maui-introduction.html %}
 {% endif %}
 
 ![Telerik UI for .NET MAUI](front-image.png)

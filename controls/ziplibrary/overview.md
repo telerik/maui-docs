@@ -18,7 +18,7 @@ CTAControlName: ZipLibrary
 Have you ever wondered how to increase the responsiveness of your applications by compressing the data that you send over the internet? With __Telerik ZipLibrary for .NET MAUI__ you can compress data like images, docx or pdf files and send them over the wire. Thus, you will achieve fast and secure transactions. 
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-overview.html %}
+{% include cta-panel-maui-overview.html %}
 {% endif %}
 
 This is a list with short descriptions of the top-of-the-line features of Telerik's ZipLibrary control:

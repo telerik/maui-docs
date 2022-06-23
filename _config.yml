@@ -356,7 +356,7 @@ footer_social:
 
 has_kb_portal: false
 has_api_reference: true
-has_cta_panels: false
+has_cta_panels: true
 
 intro_columns:
 -
