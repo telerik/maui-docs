@@ -1,6 +1,6 @@
 ---
 title: DataGrid Styling
-page_title: .NET MAUI DataGrid Documentation | Styling
+page_title: .NET MAUI DataGrid Documentation - Styling
 description: Check our &quot;DataGrid Styling&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 0
 previous_url: /controls/datagrid/theming-and-styles/datagrid-styling

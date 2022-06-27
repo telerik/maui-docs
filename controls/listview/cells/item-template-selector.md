@@ -1,6 +1,6 @@
 ---
 title: ItemTemplateSelector
-page_title: .NET MAUI ListView Documentation | ItemTemplateSelector
+page_title: .NET MAUI ListView Documentation - ItemTemplateSelector
 description: Check our &quot;ItemTemplateSelector&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 3
 previous_url: /controls/listview/cells/listview-itemtemplateselector

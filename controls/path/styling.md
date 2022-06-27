@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI Path Documentation | Styling
+page_title: .NET MAUI Path Documentation - Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik Path for .NET MAUI.
 position: 8
 previous_url: /controls/path/path-styling

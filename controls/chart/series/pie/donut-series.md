@@ -1,6 +1,6 @@
 ---
 title: Donut Series
-page_title: .NET MAUI Chart Documentation | Donut Series
+page_title: .NET MAUI Chart Documentation - Donut Series
 slug: chart-series-donut-series
 description: Check our &quot;DonutSeries&quot; documentation article for Telerik Chart for .NET MAUI control.
 position: 1

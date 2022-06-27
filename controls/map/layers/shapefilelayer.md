@@ -1,6 +1,6 @@
 ---
 title: Shapefile Layer
-page_title: .NET MAUI Map Documentation | Map ShapefileLayer
+page_title: .NET MAUI Map Documentation - Map ShapefileLayer
 description: Check our &quot;Shapefile Layer&quot; documentation article for Telerik Map for .NET MAUI control.
 position: 1
 slug: map-layers-shapefilelayer

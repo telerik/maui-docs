@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DockLayout Documentation | Overview
+page_title: .NET MAUI DockLayout Documentation - Overview
 description: "Try now the Telerik UI for .NET MAUI DockLayout providing mechanisms for child elements to be docked to various areas of the layout."
 position: 0
 previous_url: /controls/docklayout/docklayout-overview

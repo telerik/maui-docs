@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI NumericInput Documentation | Events
+page_title: .NET MAUI NumericInput Documentation - Events
 description: Check our &quot;Events&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 8
 previous_url: /controls/numericinput/numericinput-events

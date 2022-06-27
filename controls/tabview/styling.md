@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI TabView Documentation | Styling
+page_title: .NET MAUI TabView Documentation - Styling
 description: TabView Styling documentation.
 slug: tabview-styling
 tags: tabview, overview

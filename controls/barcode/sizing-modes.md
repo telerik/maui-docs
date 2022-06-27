@@ -1,6 +1,6 @@
 ---
 title: Sizing Modes
-page_title:  .NET MAUI Barcode Documentation | Sizing Modes
+page_title:  .NET MAUI Barcode Documentation - Sizing Modes
 description: "Learn how to define the manual, snap, or stretch sizing mode for the Telerik UI for MAUI Barcode."
 position: 3
 previous_url: /controls/barcode/barcode-sizing

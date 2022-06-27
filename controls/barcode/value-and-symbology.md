@@ -1,6 +1,6 @@
 ---
 title: Value and Symbology
-page_title:  .NET MAUI Barcode Documentation | Value and Symbology
+page_title:  .NET MAUI Barcode Documentation - Value and Symbology
 description: "Learn how to set the value of the Telerik UI for .NET MAUI Barcode and control the presented data."
 position: 2
 previous_url: /controls/barcode/barcode-value

@@ -1,6 +1,6 @@
 ---
 title: Sticky Group Headers
-page_title: .NET MAUI ListView Documentation | Grouping
+page_title: .NET MAUI ListView Documentation - Sticky Group Grouping
 description: Check our &quot;Sticky Group Headers&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 6
 slug: listview-sticky-group-header

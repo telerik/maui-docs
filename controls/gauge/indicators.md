@@ -1,6 +1,6 @@
 ---
 title: Indicators
-page_title: .NET MAUI Gauge Documentation | Indicators
+page_title: .NET MAUI Gauge Documentation - Indicators
 description: "Render a Needle, Shape, Bar, Range Bar, or Text indicators in the Telerik Gauge for .NET MAUI control and customize their behavior by using the exposed properties."
 position: 5
 previous_url: /controls/gauge/gauge-indicators

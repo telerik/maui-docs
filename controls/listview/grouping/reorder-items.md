@@ -1,6 +1,6 @@
 ---
 title: Reorder Items in Grouped ListView
-page_title: .NET MAUI ListView Documentation | Reorder Items in Grouped ListView
+page_title: .NET MAUI ListView Documentation - Reorder Items in Grouped ListView
 description: Check our &quot;Reorder Items in Grouped ListView&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 4
 slug: listview-grouping-reorderitems

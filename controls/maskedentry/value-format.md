@@ -1,6 +1,6 @@
 ---
 title: Value Format
-page_title: .NET MAUI MaskedEntry Documentation | Value Format
+page_title: .NET MAUI MaskedEntry Documentation - Value Format
 description: "Use the ValueFormat option to control the value of the Telerik UI for .NET MAUI MaskedEntry when its Mask property is set."
 position: 5
 slug: maskedentry-value-format

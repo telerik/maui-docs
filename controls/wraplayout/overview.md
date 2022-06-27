@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI WrapLayout Documentation | RadWrapLayout Overview
+page_title: .NET MAUI WrapLayout Documentation - RadWrapLayout Overview
 description: "Try now the Telerik WrapLayout for .NET MAUI providing a mechanism for arranging child elements in rows or columns depending on their orientation and wrapping them on new rows and columns when the available space is filled."
 position: 0
 previous_url: /controls/wraplayout/wraplayout-overview

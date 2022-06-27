@@ -1,6 +1,6 @@
 ---
 title: Badge Indicator
-page_title: .NET MAUI BadgeView Documentation | Badge Indicator
+page_title: .NET MAUI BadgeView Documentation - Badge Indicator
 description: Check our &quot;Badge&quot; documentation article for Telerik Badge for .NET MAUI.
 position: 4
 slug: badge-overview

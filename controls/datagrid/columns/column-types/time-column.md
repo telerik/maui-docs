@@ -1,6 +1,6 @@
 ---
 title: Time Column
-page_title: .NET MAUI DataGrid Documentation | Time Column
+page_title: .NET MAUI DataGrid Documentation - Time Column
 description: Check our &quot;Time Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 4
 slug: datagrid-columns-time-column

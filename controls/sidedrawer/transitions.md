@@ -1,6 +1,6 @@
 ---
 title: Transitions
-page_title: .NET MAUI SideDrawer Documentation | Transitions
+page_title: .NET MAUI SideDrawer Documentation - Transitions
 description: Check our &quot;Transitions&quot; documentation article for Telerik UI for .NET MAUI SideDrawer control.
 position: 3
 slug: sidedrawer-features-transitions

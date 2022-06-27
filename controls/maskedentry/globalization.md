@@ -1,6 +1,6 @@
 ---
 title: Globalization
-page_title: .NET MAUI MaskedEntry Documentation | Globalization
+page_title: .NET MAUI MaskedEntry Documentation - Globalization
 description: "Learn how to adapt the Telerik UI for .NET MAUI MaskedEntry to device cultures by utilizing its globalization support options."
 position: 8
 slug: maskedentry-globalization

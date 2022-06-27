@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI SegmentedControl Documentation | Selection
+page_title: .NET MAUI SegmentedControl Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik SegmentedControl for NET MAUI control.
 slug: segmentedcontrol-selection
 tags: selection

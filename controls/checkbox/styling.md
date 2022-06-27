@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI CheckBox Documentation | Styling
+page_title: .NET MAUI CheckBox Documentation - Styling
 description: "Set the border, background, and symbol color of the Telerik UI for .NET MAUI CheckBox and customize its visual appearance."
 position: 4
 previous_url: /controls/checkbox/checkbox-styling

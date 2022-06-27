@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI WordsProcessing Documentation | Overview
+page_title: .NET MAUI WordsProcessing Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik WordsProcessing for .NET MAUI.
 description: Overview
 slug: wordsprocessing-overview

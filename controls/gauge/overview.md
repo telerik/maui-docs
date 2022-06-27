@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Gauge Documentation | Overview
+page_title: .NET MAUI Gauge Documentation - Overview
 description: "Try now the Telerik Gauge for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 previous_url: /controls/gauge/gauge-overview

@@ -1,6 +1,6 @@
 ---
 title: Pie Series
-page_title: .NET MAUI Chart Documentation | Pie Series
+page_title: .NET MAUI Chart Documentation - Pie Series
 slug: chart-series-pie-series
 description: Check our &quot;PieSeries&quot; documentation article for Telerik Chart for .NET MAUI
 ---

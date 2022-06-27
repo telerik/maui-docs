@@ -1,6 +1,6 @@
 ---
 title: Series Overview
-page_title: .NET MAUI Chart Documentation | Series Overview
+page_title: .NET MAUI Chart Documentation - Series Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik Chart for .NET MAUI.
 slug: chart-series-overview
 previous_url: /controls/chart/series/chart-series-overview

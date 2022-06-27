@@ -1,6 +1,6 @@
 ---
 title: Templated Rating
-page_title: .NET MAUI Rating Documentation | Templated Rating
+page_title: .NET MAUI Rating Documentation - Templated Rating
 description: Check our &quot;Templated Rating&quot; documentation article for Telerik Rating for .NET MAUI.
 position: 5
 previous_url: /controls/rating/rating-templated-rating

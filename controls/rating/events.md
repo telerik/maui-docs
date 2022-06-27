@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI Rating Documentation | Events
+page_title: .NET MAUI Rating Documentation - Events
 description: Check our &quot;Key Features&quot; documentation article for Telerik Rating for .NET MAUI.
 position: 6
 previous_url: /controls/rating/rating-events

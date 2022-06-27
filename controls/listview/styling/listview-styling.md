@@ -1,6 +1,6 @@
 ---
 title: Item Styles
-page_title: .NET MAUI ListView Documentation | Item Styles
+page_title: .NET MAUI ListView Documentation - Item Styles
 description: Check our &quot;Item Styles&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 0
 slug: listview-features-styling

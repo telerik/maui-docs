@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Button Documentation | Overview
+page_title: .NET MAUI Button Documentation - Overview
 description: "Try now the Telerik Button for .NET MAUI providing options for customizing the look and feel of the .NET MAUI Button."
 tags: button for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0

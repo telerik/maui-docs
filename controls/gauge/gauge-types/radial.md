@@ -1,6 +1,6 @@
 ---
 title: Radial Gauge
-page_title: .NET MAUI Gauge Documentation | Radial Gauge
+page_title: .NET MAUI Gauge Documentation - Radial Gauge
 description: "Get started with the Telerik UI for .NET MAUI Radial Gauge and add the control to your .NET MAUI project."
 position: 0
 previous_url: /controls/gauge/gauge-types/gauge-types-radial

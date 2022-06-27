@@ -1,6 +1,6 @@
 ---
 title: Sorting
-page_title: .NET MAUI DataGrid Documentation | Sorting Overview
+page_title: .NET MAUI DataGrid Documentation - Sorting
 description: Check our &quot;Sorting&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 6
 slug: datagrid-sorting-overview

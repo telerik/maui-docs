@@ -1,6 +1,6 @@
 ---
 title: Regex Mask
-page_title: .NET MAUI MaskedEntry Documentation | Regex Mask
+page_title: .NET MAUI MaskedEntry Documentation - Regex Mask
 description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as regex."
 position: 4
 slug: maskedentry-regex-mask

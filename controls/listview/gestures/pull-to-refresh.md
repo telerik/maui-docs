@@ -1,6 +1,6 @@
 ---
 title: Pull to Refresh
-page_title: .NET MAUI ListView Documentation | Pull to Refresh
+page_title: .NET MAUI ListView Documentation - Pull to Refresh
 description: Check our &quot;Pull to Refresh&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-pull-to-refresh

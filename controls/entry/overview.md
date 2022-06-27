@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Entry Documentation | Overview
+page_title: .NET MAUI Entry Documentation - Overview
 description: "Try now the Telerik for .NET MAUI Entry accepting string input and providing various customization options such as adding watermarks and more."
 tags: entry for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0

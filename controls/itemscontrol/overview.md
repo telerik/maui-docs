@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI ItemsControl Documentation | Overview
+page_title: .NET MAUI ItemsControl Documentation - Overview
 description: "Try now the Telerik ItemsControl for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 tags: .net maui, itemscontrol, ui for .net maui, .net maui conrols, microsoft .net maui

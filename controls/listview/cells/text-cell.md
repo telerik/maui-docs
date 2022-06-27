@@ -1,6 +1,6 @@
 ---
 title: TextCell
-page_title: .NET MAUI ListView Documentation | TextCell
+page_title: .NET MAUI ListView Documentation - TextCell
 description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 1
 previous_url: /controls/listview/cells/listview-textcell

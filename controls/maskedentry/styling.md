@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI MaskedEntry Documentation | Styling
+page_title: .NET MAUI MaskedEntry Documentation - Styling
 description: "Explore the Styling API of the MaskedEntry control."
 position: 11
 slug: maskedentry-styling

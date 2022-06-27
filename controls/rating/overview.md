@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Rating Documentation | Overview
+page_title: .NET MAUI Rating Documentation - Overview
 description: "Try now the Telerik Rating for .NET MAUI that allows users to express their satisfaction from products, services, and experiences by selecting a corresponding number of elements from a predefined maximum range."
 position: 0
 previous_url: /controls/rating/rating-overview

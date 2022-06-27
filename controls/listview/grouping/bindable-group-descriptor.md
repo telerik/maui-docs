@@ -1,6 +1,6 @@
 ---
 title: Bindable GroupDescriptor
-page_title: .NET MAUI ListView Documentation | Grouping
+page_title: .NET MAUI ListView Documentation - Bindable Group Descriptors
 description: Check our &quot;Bindable GroupDescriptor&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 10
 slug: listview-bindable-group-descriptor

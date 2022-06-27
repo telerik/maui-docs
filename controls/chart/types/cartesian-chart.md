@@ -1,6 +1,6 @@
 ---
 title: Cartesian Chart
-page_title: .NET MAUI Chart Documentation | Cartesian Chart
+page_title: .NET MAUI Chart Documentation - Cartesian Chart
 position: 1
 description: Check our &quot;Cartesian Chart&quot; documentation article for Telerik Chart for .NET MAUI.
 previous_url: /controls/chart/types/chart-types-cartesian-chart

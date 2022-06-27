@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI Rating Documentation | Configuration
+page_title: .NET MAUI Rating Documentation - Configuration
 description: Check our &quot;Configuration&quot; documentation article for Telerik Rating for .NET MAUI.
 position: 2
 previous_url: /controls/rating/rating-configuration

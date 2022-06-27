@@ -1,6 +1,6 @@
 ---
 title: Chart Legend
-page_title: .NET MAUI Chart Documentation | Legend
+page_title: .NET MAUI Chart Documentation - Legend
 description: Check our &quot;Chart Legend&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 9
 previous_url: /controls/chart/chart-legend

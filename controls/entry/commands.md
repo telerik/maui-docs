@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI Entry Documentation | Commands
+page_title: .NET MAUI Entry Documentation - Commands
 description: "Learn how to use the commands availabe in the Telerik UI for .NET MAUI Entry control."
 position: 5
 slug: entry-commands

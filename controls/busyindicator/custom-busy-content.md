@@ -1,6 +1,6 @@
 ---
 title: Custom Busy Content
-page_title: .NET MAUI BusyIndicator Documentation | Custom Busy Content
+page_title: .NET MAUI BusyIndicator Documentation - Custom Busy Content
 description: Check our &quot;Custom Busy Content&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
 position: 2
 previous_url: /controls/busyindicator/busyindicator-custom-busy-content

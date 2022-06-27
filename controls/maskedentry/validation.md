@@ -1,6 +1,6 @@
 ---
 title: Validation Message
-page_title: .NET MAUI MaskedEntry Documentation | Validation Message
+page_title: .NET MAUI MaskedEntry Documentation - Validation Message
 description: "Learn more about the built-in validation error messages and how to define a custom error message in the Telerik UI for .NET MAUI MaskedEntry."
 position: 7
 slug: maskedentry-validation

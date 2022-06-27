@@ -1,6 +1,6 @@
 ---
 title: ScatterSpline Series
-page_title: .NET MAUI Chart Documentation | ScatterSpline Series
+page_title: .NET MAUI Chart Documentation - ScatterSpline Series
 description: Check our &quot;ScatterSpline Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-spline-series
 position: 0

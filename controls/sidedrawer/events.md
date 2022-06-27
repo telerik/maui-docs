@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI SideDrawer Documentation | Events
+page_title: .NET MAUI SideDrawer Documentation - Events
 description: Check our &quot;Events&quot; documentation article for Telerik SideDrawer for .NET MAUI control.
 position: 4
 slug: sidedrawer-features-events

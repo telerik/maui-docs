@@ -1,6 +1,6 @@
 ---
 title: Shapes Styling
-page_title: .NET MAUI Map Documentation | Shapes Styling
+page_title: .NET MAUI Map Documentation - Shapes Styling
 description: Review the Shapes Styling option of the .NET MAUI Map control.
 position: 1
 slug: map-styling-shapesstyles

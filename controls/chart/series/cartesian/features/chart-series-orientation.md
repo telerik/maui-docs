@@ -1,6 +1,6 @@
 ---
 title: Orientation
-page_title: .NET MAUI Chart Documentation | Categorical Series Orientation
+page_title: .NET MAUI Chart Documentation - Categorical Series Orientation
 description: Check our &quot;CategoricalSeries Orientation&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-orientation
 position: 0

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Barcode Documentation | Overview
+page_title: .NET MAUI Barcode Documentation - Overview
 description: "Try now the Telerik Barcode for .NET MAUI delivering a set of options for creating and showing barcodes."
 position: 0
 previous_url: /controls/barcode/barcode-overview

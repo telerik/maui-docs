@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI SideDrawer Documentation | Configuration
+page_title: .NET MAUI SideDrawer Documentation - Configuration
 description: Check our &quot;configuration&quot; documentation article for Telerik UI for .NET MAUI SideDrawer control.
 position: 2
 slug: sidedrawer-features-configuration

@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: NET MAUI Map Documentation | Getting Started
+page_title: NET MAUI Map Documentation - Getting Started
 description: Check our &quot;Getting Started&quot; documentation article for Telerik Map for .NET MAUI control.
 position: 1
 slug: map-getting-started

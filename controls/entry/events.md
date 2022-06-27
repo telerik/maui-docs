@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI Entry Documentation | Events
+page_title: .NET MAUI Entry Documentation - Events
 description: "Use the exposed events of the Telerik UI for .NET MAUI Entry control."
 position: 5
 previous_url: /controls/entry/entry-events

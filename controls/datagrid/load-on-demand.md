@@ -1,6 +1,6 @@
 ---
 title: Load On Demand
-page_title: .NET MAUI DataGrid Documentation | Load on Demand
+page_title: .NET MAUI DataGrid Documentation - Load on Demand
 description: Check our &quot;Load On Demand&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 8
 slug: datagrid-features-loadondemand

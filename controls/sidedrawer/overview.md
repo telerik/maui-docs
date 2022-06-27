@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI SideDrawer Documentation | Overview
+page_title: .NET MAUI SideDrawer Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik SideDrawer for .NET MAUI control.
 position: 0
 slug: sidedrawer-overview

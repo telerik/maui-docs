@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: .NET MAUI Charts Documentation | Getting Started
+page_title: .NET MAUI Charts Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Chart and add the control to your .NET MAUI project."
 tags: chart, .net maui, ui for .net maui, maui, microsoft,
 position: 2

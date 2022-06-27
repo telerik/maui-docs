@@ -1,6 +1,6 @@
 ---
 title: MultiPath
-page_title: .NET MAUI Path Documentation | MultiPath
+page_title: .NET MAUI Path Documentation - MultiPath
 description: Check our &quot;MultiPath&quot; documentation article for Telerik Path for .NET MAUI.
 position: 4
 previous_url: /controls/path/path-multipath

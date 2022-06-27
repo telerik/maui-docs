@@ -1,6 +1,6 @@
 ---
 title: Template Column
-page_title: .NET MAUI DataGrid Documentation | Template Column
+page_title: .NET MAUI DataGrid Documentation - Template Column
 description: Check our &quot;Template Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 6
 slug: datagrid-columns-template-column

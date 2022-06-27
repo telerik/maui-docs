@@ -1,6 +1,6 @@
 ---
 title: Customization
-page_title: .NET MAUI NumericInput Documentation | Customization
+page_title: .NET MAUI NumericInput Documentation - Customization
 description: Check our &quot;Customization&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 5
 previous_url: /controls/numericinput/numericinput-customization

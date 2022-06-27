@@ -1,6 +1,6 @@
 ---
 title: Delegate Group Descriptor
-page_title: .NET MAUI ListView Documentation | Grouping
+page_title: .NET MAUI ListView Documentation - Grouping
 description: Check our &quot;Delegate Group Descriptor&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 2
 slug: listview-delegate-group-descriptor

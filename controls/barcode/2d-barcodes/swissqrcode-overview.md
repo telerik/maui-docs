@@ -1,6 +1,6 @@
 ---
 title: SwissQR Code
-page_title: .NET MAUI 2D Barcode Documentation | SwissQR Code Type
+page_title: .NET MAUI 2D Barcode Documentation - SwissQR Code Type
 description: "Learn more about the two-dimensional (2D) SwissQR Code barcode type supported by the Telerik UI for MAUI Barcode."
 position: 3
 previous_url: /controls/barcode/2d-barcodes/barcode-swissqrcode-overview

@@ -1,6 +1,6 @@
 ---
 title: Validation Command
-page_title: .NET MAUI DataGrid Documentation | Validation Command
+page_title: .NET MAUI DataGrid Documentation - Validation Command
 description: Check our &quot;Validation Command&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 3
 slug: datagrid-commands-validation

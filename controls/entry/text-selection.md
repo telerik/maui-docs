@@ -1,6 +1,6 @@
 ---
 title: Text Selection
-page_title: .NET MAUI Entry Documentation | Text Selection
+page_title: .NET MAUI Entry Documentation - Text Selection
 description: "Specify the starting position of the selected text input and the number of characters in the current selection of the Telerik Entry for .NET MAUI control."
 position: 3
 previous_url: /controls/entry/entry-text-selection

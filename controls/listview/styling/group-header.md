@@ -1,6 +1,6 @@
 ---
 title: GroupHeader Style
-page_title: .NET MAUI ListView Documentation | GroupHeader Style
+page_title: .NET MAUI ListView Documentation - GroupHeader Style
 description: Check our &quot;GroupHeader Style&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 2
 slug: listview-styling-group-header
