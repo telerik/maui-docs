@@ -1,6 +1,6 @@
 ---
 title: Group Header Template
-page_title: .NET MAUI ListView Documentation | Grouping
+page_title: .NET MAUI ListView Documentation - Group Templates
 description: Check our &quot;Group Header Template&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 4
 slug: listview-customize-group-header

@@ -1,6 +1,6 @@
 ---
 title: Text Column
-page_title: .NET MAUI DataGrid Documentation | Text Column
+page_title: .NET MAUI DataGrid Documentation - Text Column
 description: Check our &quot;Text Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 0
 slug: datagrid-columns-text-column

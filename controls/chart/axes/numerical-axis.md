@@ -1,6 +1,6 @@
 ---
 title: Numerical Axis
-page_title: .NET MAUI Chart Documentation | Numerical Axis
+page_title: .NET MAUI Chart Documentation - Numerical Axis
 slug: axes-numerical-axis
 description: Check our &quot;Numerical Axis&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 3

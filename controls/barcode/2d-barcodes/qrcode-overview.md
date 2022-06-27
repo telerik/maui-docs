@@ -1,6 +1,6 @@
 ---
 title: QR Code
-page_title: .NET MAUI 2D Barcode Documentation | QR Code Type
+page_title: .NET MAUI 2D Barcode Documentation - QR Code Type
 description: "Learn more about the two-dimensional (2D) QR Code barcode type supported by the Telerik UI for MAUI Barcode."
 position: 2
 previous_url: /controls/barcode/2d-barcodes/barcode-qrcode-overview

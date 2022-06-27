@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: .NET MAUI ListView Documentation | Filtering
+page_title: .NET MAUI ListView Documentation - Filtering
 description: Check our &quot;Filtering&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 6
 slug: listview-features-filtering

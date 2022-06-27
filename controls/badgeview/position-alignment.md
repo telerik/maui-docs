@@ -1,6 +1,6 @@
 ---
 title: Alignment and Position
-page_title: .NET MAUI BadgeView Documentation | Align and Position
+page_title: .NET MAUI BadgeView Documentation - Align and Position
 description: Check our &quot;Align and Position&quot; documentation article for Telerik BadgeView for .NET MAUI.
 position: 6
 slug: badgeview-position-alignment

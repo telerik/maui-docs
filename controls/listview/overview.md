@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI ListView Documentation | Overview
+page_title: .NET MAUI ListView Documentation - Overview
 description: "Try now the Telerik ListView for .NET MAUI virtualizing list components in scenarios where an items list is used."
 position: 0
 previous_url: /controls/listview/listview-overview

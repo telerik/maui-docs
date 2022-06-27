@@ -1,6 +1,6 @@
 ---
 title: Globalization
-page_title: .NET MAUI NumericInput Documentation | Globalization
+page_title: .NET MAUI NumericInput Documentation - Globalization
 description: Check our &quot;Globalization&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 7
 previous_url: /controls/numericinput/numericinput-globalization

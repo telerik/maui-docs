@@ -1,6 +1,6 @@
 ---
 title: CellTap Command
-page_title: .NET MAUI DataGrid Documentation | CellTap Command
+page_title: .NET MAUI DataGrid Documentation - CellTap Command
 description: Check our &quot;CellTap Command&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 1
 slug: datagrid-commands-cell-tap

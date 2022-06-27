@@ -1,6 +1,6 @@
 ---
 title: Axis
-page_title: .NET MAUI Gauge Documentation | Axis
+page_title: .NET MAUI Gauge Documentation - Axis
 description: "Use the exposed axis options of the Telerik Gauge for .NET MAUI control to set the axis range, line stroke, ticks, font style and font family, and more."
 position: 4
 previous_url: /controls/gauge/gauge-axis

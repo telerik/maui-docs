@@ -1,6 +1,6 @@
 ---
 title: Disabled Segments
-page_title: .NET MAUI SegmentedControl Documentation | Disabled Segments
+page_title: .NET MAUI SegmentedControl Documentation - Disabled Segments
 description: Check our &quot;Disable a Segment&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
 position: 3
 slug: segmentedcontrol-disable-segment

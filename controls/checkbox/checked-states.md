@@ -1,6 +1,6 @@
 ---
 title: Checked States
-page_title: .NET MAUI CheckBox Documentation | Checked States
+page_title: .NET MAUI CheckBox Documentation - Checked States
 description: "Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI."
 position: 2
 slug: checkbox-checked-states

@@ -1,6 +1,6 @@
 ---
 title: Numeric Format String
-page_title: .NET MAUI NumericInput Documentation | Numeric String Format
+page_title: .NET MAUI NumericInput Documentation - Numeric String Format
 description: Check our &quot;Numeric String Format&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 3
 previous_url: /controls/numericinput/numericinput-numeric-string-format

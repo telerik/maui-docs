@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: .NET MAUI MaskedEntry Documentation | Localization
+page_title: .NET MAUI MaskedEntry Documentation - Localization
 description: "Try now the Telerik MaskedEntry for .NET MAUI localizarion options to apply different text for the validation error message when device cultrure is changed."
 position: 8
 slug: maskedentry-localization

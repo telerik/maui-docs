@@ -1,6 +1,6 @@
 ---
 title: Layers Overview
-page_title: .NET MAUI Map Documentation | Map Layers Overview
+page_title: .NET MAUI Map Documentation - Map Layers Overview
 description: Check our &quot;Layers Overview&quot; documentation article for Telerik Map for .NET MAUI control.
 position: 0
 slug: map-layers-overview

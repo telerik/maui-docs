@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI TabView Documentation | Configuration
+page_title: .NET MAUI TabView Documentation - Configuration
 description: Review the configuration options of the Telerik TabView for .NET MAUI control.
 slug: tabview-configuration
 tags: tabview, overview

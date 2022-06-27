@@ -1,6 +1,6 @@
 ---
 title: Combine Mode
-page_title: .NET MAUI Chart Documentation | Categorical Series Combine Mode
+page_title: .NET MAUI Chart Documentation - Categorical Series Combine Mode
 description: Check our &quot;CategoricalSeries Combine Mode&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-combine-mode
 position: 0

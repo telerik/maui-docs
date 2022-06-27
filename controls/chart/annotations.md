@@ -1,6 +1,6 @@
 ---
 title: Annotations
-page_title: .NET MAUI Chart Documentation | Annotations
+page_title: .NET MAUI Chart Documentation - Annotations
 description: Check our &quot;Annotations&quot; documentation article for Telerik Chart for .NET MAUI.
 tags: .net maui, chart, ui for .net maui
 position: 7

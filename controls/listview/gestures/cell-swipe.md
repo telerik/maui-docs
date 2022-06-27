@@ -1,6 +1,6 @@
 ---
 title: Cell Swipe
-page_title: .NET MAUI ListView Documentation | Cell Swipe
+page_title: .NET MAUI ListView Documentation - Cell Swipe
 description: Check our &quot;Cell Swipe&quot; documentation article for Telerik ListView for .NT MAUI.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-cell-swipe

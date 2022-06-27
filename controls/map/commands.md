@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI Map Documentation | Map Commands
+page_title: .NET MAUI Map Documentation - Map Commands
 description: All Commands available in Telerik Map for .NET MAUI control. 
 position: 8
 slug: map-commands

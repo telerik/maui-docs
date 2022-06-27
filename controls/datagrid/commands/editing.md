@@ -1,6 +1,6 @@
 ---
 title: Editing Commands
-page_title: .NET MAUI DataGrid Documentation | Editing Commands
+page_title: .NET MAUI DataGrid Documentation - Editing Commands
 description: Check our &quot;Editing Commands&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 2
 slug: datagrid-commands-editing

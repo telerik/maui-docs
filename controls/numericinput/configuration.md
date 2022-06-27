@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI NumericInput Documentation | Configuration
+page_title: .NET MAUI NumericInput Documentation - Configuration
 description: Check our &quot;Configuration&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 2
 previous_url: /controls/numericinput/numericinput-configuration

@@ -1,6 +1,6 @@
 ---
 title: Labels Styling
-page_title: .NET MAUI Map Documentation | Labels Styling
+page_title: .NET MAUI Map Documentation - Labels Styling
 description: Check our &quot;Labels Styling&quot; documentation article for Telerik Map for .NET MAUI control.
 position: 0
 slug: map-styling-labelstyles

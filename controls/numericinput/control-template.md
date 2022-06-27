@@ -1,6 +1,6 @@
 ---
 title: Control Template
-page_title: .NET MAUI NumericInput Documentation | Control Template
+page_title: .NET MAUI NumericInput Documentation - Control Template
 description: Check our &quot;Control Template&quot; documentation article for Telerik NumericInput for .NET MAUI
 position: 6
 previous_url: /controls/numericinput/numericinput-control-template

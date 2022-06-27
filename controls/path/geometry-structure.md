@@ -1,6 +1,6 @@
 ---
 title: PathGeometry
-page_title: .NET MAUI Path Documentation | PathGeometry
+page_title: .NET MAUI Path Documentation - PathGeometry
 description: Check our &quot;PathGeometry&quot; documentation article for Telerik Path for .NET MAUI.
 position: 2
 slug: path-structure

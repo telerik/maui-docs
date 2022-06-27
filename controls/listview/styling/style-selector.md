@@ -1,6 +1,6 @@
 ---
 title: ItemStyle Selector
-page_title: .NET MAUI ListView Documentation | ItemStyle Selector
+page_title: .NET MAUI ListView Documentation - ItemStyle Selector
 description: Check our &quot;ItemStyle Selector&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 1
 previous_url: /controls/listview/styling/listview-features-style-selector

@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI SideDrawer Documentation | Commands
+page_title: .NET MAUI SideDrawer Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik SideDrawer for .NET MAUI control.
 position: 5
 slug: sidedrawer-features-commands

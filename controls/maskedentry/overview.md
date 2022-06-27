@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI MaskedEntry Documentation | Overview
+page_title: .NET MAUI MaskedEntry Documentation - Overview
 description: "Try now the Telerik MaskedEntry for .NET MAUI formatting and restricting text to predefined patterns, and providing input validation and masks."
 position: 0
 previous_url: /controls/maskedentry/maskedentry-overview

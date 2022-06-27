@@ -1,6 +1,6 @@
 ---
 title: Animations
-page_title: .NET MAUI Gauge Documentation | Animations
+page_title: .NET MAUI Gauge Documentation - Animations
 description: "Control the animations behavior of the Telerik Gauge for .NET MAUI by using the supported animation options."
 position: 3
 previous_url: /controls/gauge/gauge-animations

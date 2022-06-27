@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: .NET MAUI Button Documentation | Getting Started
+page_title: .NET MAUI Button Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI Button control and add the control to your .NET MAUI project."
 position: 1
 slug: button-getting-started

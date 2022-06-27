@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DataGrid Documentation | Columns Overview
+page_title: .NET MAUI DataGrid Documentation - Columns Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 0
 previous_url: /controls/datagrid/columns/datagrid-columns-overview

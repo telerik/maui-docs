@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: .NET MAUI ComboBox Documentation | Getting Started
+page_title: .NET MAUI ComboBox Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI ComboBox and add the control to your .NET MAUI project."
 position: 1
 slug: combobox-getting-started

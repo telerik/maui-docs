@@ -1,6 +1,6 @@
 ---
 title: Numeric Mask
-page_title: .NET MAUI MaskedEntry Documentation | Numeric Mask
+page_title: .NET MAUI MaskedEntry Documentation - Numeric Mask
 description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as numbers."
 position: 3
 slug: maskedentry-numeric-mask

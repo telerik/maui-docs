@@ -1,6 +1,6 @@
 ---
 title: Property Group Descriptor
-page_title: .NET MAUI ListView Documentation | Grouping
+page_title: .NET MAUI ListView Documentation - Grouping
 description: Check our &quot;Property Group Descriptor&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 1
 slug: listview-property-group-descriptor

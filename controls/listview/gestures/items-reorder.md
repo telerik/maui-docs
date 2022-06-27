@@ -1,6 +1,6 @@
 ---
 title: Reorder Items
-page_title: .NET MAUI ListView Documentation | Reorder Items
+page_title: .NET MAUI ListView Documentation - Reorder Items
 description: Check our &quot;Reorder Items&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-items-reorder

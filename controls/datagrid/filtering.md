@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: .NET MAUI DataGrid Documentation | Filtering
+page_title: .NET MAUI DataGrid Documentation - Filtering
 description: Check our &quot;Filtering&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 5
 slug: datagrid-filtering-overview

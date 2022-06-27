@@ -1,6 +1,6 @@
 ---
 title: Candlestick Series
-page_title: .NET MAUI Chart Documentation | Candlestick Series
+page_title: .NET MAUI Chart Documentation - Candlestick Series
 slug: chart-series-candlestick-series
 description: Check our &quot;Candlestick Series&quot; documentation article for Telerik Chart for .NET MAUI
 position: 1

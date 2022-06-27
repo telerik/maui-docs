@@ -1,6 +1,6 @@
 ---
 title: SplineArea Series
-page_title: .NET MAUI Chart Documentation | SplineArea Series
+page_title: .NET MAUI Chart Documentation - SplineArea Series
 description: Check our &quot;SplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-spline-area-series
 position: 0

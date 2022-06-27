@@ -1,6 +1,6 @@
 ---
 title: Prompt Character
-page_title: .NET MAUI MaskedEntry Documentation | Prompt Character
+page_title: .NET MAUI MaskedEntry Documentation - Prompt Character
 description: "Implement prompt characters for the mask positions which have not yet been filled in by the user in the Telerik UI for .NET MAUI MaskedEntry."
 position: 6
 slug: maskedentry-prompt-character

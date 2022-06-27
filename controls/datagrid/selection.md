@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI DataGrid Documentation | Selection
+page_title: .NET MAUI DataGrid Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 3
 slug: datagrid-selection-overview

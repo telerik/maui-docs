@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI ListView Documentation | Selection
+page_title: .NET MAUI ListView Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 3
 previous_url: /controls/listview/listview-features-selection

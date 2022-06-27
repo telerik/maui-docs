@@ -1,6 +1,6 @@
 ---
 title: Customization
-page_title: .NET MAUI BadgeView Documentation | Customization
+page_title: .NET MAUI BadgeView Documentation - Customization
 description: Check our &quot;Badge Customization&quot; documentation article for Telerik BadgeView for .NET MAUI.
 position: 9
 slug: badgeview-customization

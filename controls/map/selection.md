@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI Map Documentation | Map Selection
+page_title: .NET MAUI Map Documentation - Map Selection
 description: Learn about all selection possibilities in Telerik Map for .NET MAUI control.
 position: 6
 slug: map-selection

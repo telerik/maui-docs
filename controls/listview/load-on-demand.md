@@ -1,6 +1,6 @@
 ---
 title: Load on Demand
-page_title: .NET MAUI ListView Documentation | Load on Demand
+page_title: .NET MAUI ListView Documentation - Load on Demand
 description: Check our &quot;Load on Demand&quot; documentation article for Telerik ListView for .NET MAUI.
 position: 8
 previous_url: /controls/listview/listview-features-load-on-demand

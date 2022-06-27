@@ -1,6 +1,6 @@
 ---
 title: Categorical Axis
-page_title: .NET MAUI Chart Documentation | Categorical Axis
+page_title: .NET MAUI Chart Documentation - Categorical Axis
 slug: axes-categorical-axis
 description: Check our &quot;Categorical Axis&quot; documentation article for Telerik Chart for .NET MAUI.
 position: 2

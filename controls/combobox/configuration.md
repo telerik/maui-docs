@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI ComboBox Documentation | Configuration
+page_title: .NET MAUI ComboBox Documentation - Configuration
 description: "Check our &quot;Configuration&quot; documentation article for Telerik UI for .NET MAUI ComboBox."
 position: 2
 slug: combobox-configuration

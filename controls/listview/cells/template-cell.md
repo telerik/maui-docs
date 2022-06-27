@@ -1,6 +1,6 @@
 ---
 title: TemplateCell
-page_title: .NET MAUI ListView Documentation | Cell Types
+page_title: .NET MAUI ListView Documentation - Cell Types
 description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 2
 previous_url: /controls/listview/cells/listview-templatecell

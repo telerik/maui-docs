@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Chart Documentation | Overview
+page_title: .NET MAUI Chart Documentation - Overview
 description: "Try now the Telerik Chart for .NET MAUI exposing its objects and properties in C#, allowing for no-compromise customization and flexibility."
 tags: chart, .net maui, ui for .net maui,
 position: 0

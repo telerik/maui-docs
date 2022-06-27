@@ -1,6 +1,6 @@
 ---
 title: Configuration
-page_title: .NET MAUI ItemsControl Documentation | Configuration
+page_title: .NET MAUI ItemsControl Documentation - Configuration
 description: "Set the items of the Telerik UI for .NET MAUI ItemsControl and populate them with data."
 position: 2
 tags: .net maui, telerik .net maui, ui for .net maui, microsoft .net maui

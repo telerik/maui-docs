@@ -1,6 +1,6 @@
 ---
 title: ComboBox Column
-page_title: .NET MAUI DataGrid Documentation | ComboBox Column
+page_title: .NET MAUI DataGrid Documentation - ComboBox Column
 description: Check our &quot;ComboBox Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 5
 slug: datagrid-columns-picker-column

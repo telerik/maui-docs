@@ -1,6 +1,6 @@
 ---
 title: Boolean Column
-page_title: .NET MAUI DataGrid Documentation | Boolean Column
+page_title: .NET MAUI DataGrid Documentation - Boolean Column
 description: Check our &quot;Boolean Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 2
 slug: datagrid-columns-boolean-column

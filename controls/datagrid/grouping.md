@@ -1,6 +1,6 @@
 ---
 title: Grouping
-page_title: .NET MAUI DataGrid Documentation | Grouping Overview
+page_title: .NET MAUI DataGrid Documentation - Grouping
 description: Check our &quot;Grouping&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 4
 slug: datagrid-grouping-overview

@@ -1,6 +1,6 @@
 ---
 title: Scrolling
-page_title: .NET MAUI ListView Documentation | Scrolling
+page_title: .NET MAUI ListView Documentation - Scrolling
 description: Check our &quot;Scrolling&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 9
 slug: listview-features-scrolling

@@ -1,6 +1,6 @@
 ---
 title: ScatterArea Series
-page_title: .NET MAUI Chart Documentation | ScatterArea Series
+page_title: .NET MAUI Chart Documentation - ScatterArea Series
 description: Check our &quot;ScatterArea Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-scatter-area-series
 position: 0

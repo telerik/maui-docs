@@ -1,6 +1,6 @@
 ---
 title: DateTime Continuous Axis
-page_title: .NET MAUI Chart Documentation | DateTime Continuous Axis
+page_title: .NET MAUI Chart Documentation - DateTime Continuous Axis
 description: Check our &quot;DateTimeContinuous Axis&quot; documentation article for Telerik Chart for .NET MAUI control.
 previous_url: /controls/chart/axes/axes-datetime-continuous-axis
 position: 4

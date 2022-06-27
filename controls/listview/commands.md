@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI ListView Documentation | Commands
+page_title: .NET MAUI ListView Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 13
 slug: listview-features-commands

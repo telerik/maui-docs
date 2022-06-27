@@ -1,6 +1,6 @@
 ---
 title: Sorting
-page_title: .NET MAUI ListView Documentation | Sorting
+page_title: .NET MAUI ListView Documentation - Sorting
 description: Check our &quot;Sorting&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 5
 slug: listview-features-sorting

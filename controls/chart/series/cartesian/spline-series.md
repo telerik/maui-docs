@@ -1,6 +1,6 @@
 ---
 title: Spline Series
-page_title: .NET MAUI Chart Documentation | Spline Series
+page_title: .NET MAUI Chart Documentation - Spline Series
 description: Check our &quot;Spline Series&quot; documentation article for Telerik Chart for .NET MAUI
 slug: chart-series-spline-series
 position: 0

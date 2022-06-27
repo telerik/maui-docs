@@ -1,6 +1,6 @@
 ---
 title: Ranges
-page_title: .NET MAUI Gauge Documentation | Ranges
+page_title: .NET MAUI Gauge Documentation - Ranges
 description: "Provide context to the indicated axis values of the Telerik Gauge for .NET MAUI by setting solid color or gradient ranges."
 position: 6
 previous_url: /controls/gauge/gauge-ranges

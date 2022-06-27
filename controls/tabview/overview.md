@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI TabView Documentation | Overview
+page_title: .NET MAUI TabView Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik TabView for .NET MAUI control.
 slug: tabview-overview
 tags: tabview, overview

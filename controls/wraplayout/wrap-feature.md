@@ -1,6 +1,6 @@
 ---
 title: Wrap Functionality
-page_title: .NET MAUI WrapLayout Documentation | Wrap Functionality
+page_title: .NET MAUI WrapLayout Documentation - Wrap Functionality
 description: Check our &quot;Key Features&quot; documentation article for Telerik WrapLayout for .NET MAUI control.
 position: 2
 previous_url: /controls/wraplayout/wraplayout-wrap-feature

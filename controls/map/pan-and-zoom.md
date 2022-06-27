@@ -1,6 +1,6 @@
 ---
 title: Pan and Zoom
-page_title: Xamarin Map Documentation | Key Features
+page_title: Xamarin Map Documentation - Pan and Zoom
 description: Check our &quot;Key Features&quot; documentation article for Telerik Map for Xamarin control.
 position: 2
 slug: map-pan-zoom

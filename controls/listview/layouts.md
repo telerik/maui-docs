@@ -1,6 +1,6 @@
 ---
 title: Layouts
-page_title: .NET MAUI ListView Documentation | Layouts
+page_title: .NET MAUI ListView Documentation - Layouts
 description: Check our &quot;Layouts&quot; documentation article for Telerik ListView for .NET MAUI control.
 position: 10
 previous_url: /controls/listview/listview-features-layouts

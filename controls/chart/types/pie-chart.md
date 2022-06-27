@@ -1,6 +1,6 @@
 ---
 title: Pie Chart
-page_title: .NET MAUI Chart Documentation | Pie Chart
+page_title: .NET MAUI Chart Documentation - Pie Chart
 position: 2
 description: Check our &quot;Pie Chart&quot; documentation article for Telerik Chart for .NET MAUI
 previous_url: /controls/chart/types/chart-types-pie-chart

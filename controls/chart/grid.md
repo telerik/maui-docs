@@ -1,6 +1,6 @@
 ---
 title: Cartesian Chart Grid
-page_title: .NET MAUI Charts Documentation | Cartesian Chart Grid
+page_title: .NET MAUI Charts Documentation - Cartesian Chart Grid
 description: Check our &quot;CartesianChart Grid&quot; documentation article for Telerik Chart for Xamarin control.
 slug: cartesian-chart-grid
 position: 8

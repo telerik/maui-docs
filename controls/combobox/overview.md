@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI ComboBox Documentation | Overview
+page_title: .NET MAUI ComboBox Documentation - Overview
 description: "Try now the Telerik ComboBox for .NET MAUI for selecting an item from a predefined list of items. ComboBox has a number of features, such as searching, single and multiple selection, flexible styling API and more."
 position: 0
 slug: combobox-overview

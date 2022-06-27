@@ -1,6 +1,6 @@
 ---
 title: TabViewItem
-page_title: .NET MAUI TabView Documentation | TabViewItem
+page_title: .NET MAUI TabView Documentation - TabViewItem
 description: TabView Item documentation.
 slug: tabview-item
 tags: tabview, overview

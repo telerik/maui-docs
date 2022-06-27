@@ -1,6 +1,6 @@
 ---
 title: Header and Footer
-page_title: .NET MAUI ListView Documentation | Header and Footer
+page_title: .NET MAUI ListView Documentation - Header and Footer
 description: Check our &quot;Header and Footer&quot; documentation article for Telerik ListView for .NET MAUI
 position: 7
 previous_url: /controls/listview/listview-features-header-footer

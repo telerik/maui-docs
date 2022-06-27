@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI ComboBox Documentation | Events
+page_title: .NET MAUI ComboBox Documentation - Events
 description: Check our &quot;Evenys&quot; documentation article for Telerik ComboBox for .NET MAUI control.
 position: 7
 slug: combobox-events

@@ -1,6 +1,6 @@
 ---
 title: Badge Types
-page_title: .NET MAUI BadgeView Documentation | Predefined Badges
+page_title: .NET MAUI BadgeView Documentation - Predefined Badges
 description: "Check our &quot;Predefined Badges&quot; documentation article for Telerik BadgeView for .NET MAUI."
 tags: badge, marker, indicator, badgeview for .net maui, badge for .net maui
 position: 5

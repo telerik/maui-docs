@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Popup Documentation | Overview
+page_title: .NET MAUI Popup Documentation - Overview
 description: "Try now the Telerik Popup for .NET MAUI delivering a set of options for adding modal popups to your application and for drawing attention to important information or receiving user input."
 position: 0
 slug: popup-overview

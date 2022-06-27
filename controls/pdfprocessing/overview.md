@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI PdfProcessing Documentation | Overview
+page_title: .NET MAUI PdfProcessing Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik PdfProcessing for .NET MAUI.
 description: Overview
 slug: pdfprocessing-overview

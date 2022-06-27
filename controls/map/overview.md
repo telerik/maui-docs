@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Map Documentation | Overview
+page_title: .NET MAUI Map Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik Map for .NET MAUI.
 position: 0
 slug: map-overview

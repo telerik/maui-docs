@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: .NET MAUI BadgeView Documentation | Animation
+page_title: .NET MAUI BadgeView Documentation - Animation
 description: "Check our &quot;Badge Animation&quot; documentation article for Telerik BadgeView for .NET MAUI."
 tags: badge, animation, badgeview for .net maui, badge for .net maui
 position: 7

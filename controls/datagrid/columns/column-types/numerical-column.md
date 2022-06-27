@@ -1,6 +1,6 @@
 ---
 title: Numerical Column
-page_title: .NET MAUI DataGrid Documentation | Numerical Column
+page_title: .NET MAUI DataGrid Documentation - Numerical Column
 description: Check our &quot;Numerical Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 1
 slug: datagrid-columns-numerical-column

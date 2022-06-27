@@ -1,6 +1,6 @@
 ---
 title: Vertical Gauge
-page_title: .NET MAUI Gauge Documentation | Vertical Gauge
+page_title: .NET MAUI Gauge Documentation - Vertical Gauge
 description: "Get started with the Telerik UI for .NET MAUI Vertical Gauge and add the control to your .NET MAUI project."
 position: 2
 previous_url: /controls/gauge/gauge-types/gauge-types-vertical

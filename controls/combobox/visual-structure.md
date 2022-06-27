@@ -1,6 +1,6 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI ComboBox Documentation | ComboBox Visual Structure
+page_title: .NET MAUI ComboBox Documentation - ComboBox Visual Structure
 description: Check our &quot;Visual Structure&quot; documentation article for Telerik ComboBox for .NET MAUI control.
 position: 0
 slug: combobox-visual-structure

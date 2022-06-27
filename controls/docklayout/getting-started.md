@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: .NET MAUI DockLayout Documentation | Getting Started
+page_title: .NET MAUI DockLayout Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI DockLayout and add the control to your .NET MAUI project."
 position: 1
 previous_url: /controls/docklayout/docklayout-getting-started

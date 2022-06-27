@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI SegmentedControl Documentation | Styling
+page_title: .NET MAUI SegmentedControl Documentation - Styling
 description: "Learn how to customize the segments colors of Telerik SegmentedControl for .NET MAUI control."
 position: 4
 slug: segmentedcontrol-styling
