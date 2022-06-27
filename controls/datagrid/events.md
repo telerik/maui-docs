@@ -29,6 +29,9 @@ For more information about Filtering options in DataGrid review the [DataGrid Fi
 
 
 * `DataBindingComplete`&mdash;Occurs when the associated DataGrid data(`ItemsSource`) has been successfully bound to the control or any data operation like Group, Sort or filter is applied.
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `DataBindingCompleteEventArgs` object, which provides the following property:
+		- `DataView`(`IDataViewCollection`)&mdash;Implementation that allows for traversing and/or manipulating the already computed data view.
 
 * `SelectionChanged`&mdash;event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
