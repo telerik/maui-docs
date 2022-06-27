@@ -58,7 +58,7 @@ public LoadOnDemandCollection<Person> Items { get; set; }
 
 ### LoadOnDemand Event
 
-You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded so that the event is correctly fired afterwards.
+You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded using the `IsDataLoaded`(`bool`) property.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
 ```C#
@@ -71,10 +71,6 @@ private void dataGrid_LoadOnDemand(object sender, Telerik.XamarinForms.DataGrid.
     e.IsDataLoaded = true;
 }
 ```
-
-### LoadOnDemand Properties
-
-* `IsDataLoaded`&mdash;Boolean property that is updated when the data of the `DataGrid` gets loaded. To use this property a new instance of the `LoadOnDemandEventArgs` class needs to be initialized.
 
 ### LoadMoreData Command
 

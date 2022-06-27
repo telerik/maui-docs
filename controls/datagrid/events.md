@@ -12,25 +12,36 @@ tags: events
 
 The DataGrid component exposes a set of events.
 
-## Load On Demand Events
+* `LoadOnDemand`&mdash; Occurs when the load on demand is requested. The `LoadOnDemand` event handler receives two parameters:
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `LoadOnDemandEventArgs` object, which provides the following property:
+		- `IsDataLoaded`(`bool`)&mdash; Indicating whether the data is loaded.
 
-* `LoadOnDemand`&mdash; Occurs when the load on demand is requested
+For more information about LoadOnDemand event review the [DataGrid LoadOnDemand article]({%slug datagrid-features-loadondemand%}).
 
-## Disctinct Values Events
+* `DistinctValuesLoading`&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
+		- `DistinctValues`&mdash; Is a property which specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
+		- `Column`&mdash; Is a readonly property of type `DataGridColumn` which gets the column for which the distinct values are being loaded.
 
-* `DistinctValuesLoading`&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`.
+For more information about Filtering options in DataGrid review the [DataGrid Filtering article]({%slug datagrid-filtering-overview%}).
 
-## Data Binding
 
-* `DataBindingComplete`&mdash; Occurs when the associated DataGrid data(`ItemsSource`) has been successfully bound to the control or any data operation like Group, Sort or filter is applied.
+* `DataBindingComplete`&mdash;Occurs when the associated DataGrid data(`ItemsSource`) has been successfully bound to the control or any data operation like Group, Sort or filter is applied.
 
-## Selection Change
+* `SelectionChanged`&mdash;event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
+		- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
+		- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
 
-* `SelectionChanged`&mdash; Occurs when the currently selected items change.
+For more information about SelectionChanged event review the [DataGrid Selection article]({%slug datagrid-selection-overview%}).
+
 
 ## Example
 
-The following example demonstrates the usage of the `LoadOnDemand` event&mdash;
+The following example demonstrates the usage of the `LoadOnDemand` event.
 
 Define the LoadOnDemand method in XAML:
 
