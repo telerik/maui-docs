@@ -1,6 +1,6 @@
 ---
 title: Using Telerik UI for .NET MAUI on Windows
-page_title: Getting Started with Telerik UI for .NET MAUI on Windows
+page_title: Telerik UI for .NET MAUI - Getting Started on Windows
 description: Check our detailed documentation article on how to get started with Telerik UI for .NET MAUI on Windows. Find all you need to know about .NET MAUI installation documentation.
 slug: getting-started-windows
 position: 0

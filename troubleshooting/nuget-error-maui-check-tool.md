@@ -1,6 +1,6 @@
 ---
 title: NuGet MAUI Check Tool Error
-page_title: MAUI Check Tool Remote Source Error
+page_title: .NET MAUI - Check Tool Remote Source Error
 description: "Failed to retrieve information about redth.net.maui.check from a remote source when working with Telerik UI for .NET MAUI."
 tags: .net maui, maui, maui check, error, failed
 slug: nuget-error-maui-check-tool

@@ -1,6 +1,6 @@
 ---
 title: First Steps
-page_title: Getting Started with Telerik .NET MAUI Controls
+page_title: Telerik .NET MAUI - Getting Started
 description: "Get started with Telerik UI for .NET MAUI and learn how to configure the .NET MAUI project on your machine, download and install the library, and register the required handlers and renderers."
 slug: maui-getting-started
 tags: .net maui, ui for .net maui, .net maui controls

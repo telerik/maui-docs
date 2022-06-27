@@ -1,6 +1,6 @@
 ---
 title: Installing Telerik UI for .NET MAUI from PKG File
-page-title: Installing Telerik UI for .NET MAUI from PKG File
+page-title: Telerik UI for .NET MAUI - Install from PKG File
 description: This article will guide you through the steps you have to follow in order to download and install the Telerik UI for .NET MAUI.
 position: 0 
 slug: install-pkg

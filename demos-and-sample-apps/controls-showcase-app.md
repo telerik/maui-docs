@@ -1,6 +1,6 @@
 ---
 title: Controls Samples App
-page_title: Telerik .NET MAUI Controls Samples Application
+page_title: .NET MAUI - Controls Samples Application
 description: "Learn how to download and install the Controls Samples App and check out the Telerik UI for .NET MAUI controls library."
 slug: controls-samples-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application
