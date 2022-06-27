@@ -27,6 +27,10 @@ The Filtering UI exposes the following property:
 
 * `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included int he Filering UI. By default the value is true.
 
+* `DistinctValues`&mdash; Is a property which gets or sets a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
+
+* `Column`&mdash; Is a readonly property of type `DataGridColumn` which gets the column for which the distinct values are being loaded.
+
 ## FilterControl Template
 
 The Telerik DataGrid allows you to apply filtering to the datagrid column using the FilterControlTemplate property.

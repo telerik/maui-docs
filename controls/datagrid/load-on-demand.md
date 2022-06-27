@@ -72,6 +72,10 @@ private void dataGrid_LoadOnDemand(object sender, Telerik.XamarinForms.DataGrid.
 }
 ```
 
+### LoadOnDemand Properties
+
+* `IsDataLoaded`&mdash;Boolean property that is updated when the data of the `DataGrid` gets loaded. To use this property a new instance of the `LoadOnDemandEventArgs` class needs to be initialized.
+
 ### LoadMoreData Command
 
 The `LoadMoreData` command is another alternative which you can use and which is suitable for MVVM scenarios.
