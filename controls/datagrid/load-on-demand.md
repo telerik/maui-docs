@@ -58,7 +58,7 @@ public LoadOnDemandCollection<Person> Items { get; set; }
 
 ### LoadOnDemand Event
 
-You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded so that the event is correctly fired afterwards.
+You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded using the `IsDataLoaded`(`bool`) property.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
 ```C#
