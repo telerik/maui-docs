@@ -3,7 +3,7 @@ title: Events
 page_title: .NET MAUI DataGrid Documentation | Events
 description: Check our &quot;Events&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 9
-slug: datagrid-events-overview
+slug: datagrid-events
 description: Describing the events of the RadDataGrid
 tags: events
 ---
