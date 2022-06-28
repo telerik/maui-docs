@@ -1,6 +1,6 @@
 ---
 title: Templates
-page_title: .NET MAUI DatePicker Documentation | Templates
+page_title: .NET MAUI DatePicker Documentation - Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik DatePicker for .NET MAUI.
 position: 6
 previous_url: /controls/datepicker/datepicker-templates

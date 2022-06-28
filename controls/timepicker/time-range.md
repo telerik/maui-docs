@@ -1,6 +1,6 @@
 ---
 title: Time Ranges
-page_title: .NET MAUI TimePicker Documentation | Time Ranges
+page_title: .NET MAUI TimePicker Documentation - Time Ranges
 description: Check our &quot;Time Range&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 2
 previous_url: /controls/timepicker/timepicker-time-range

@@ -1,6 +1,6 @@
 ---
 title: Default Dates
-page_title: .NET MAUI DatePicker Documentation | Default Dates
+page_title: .NET MAUI DatePicker Documentation - Default Dates
 description: "Define preselected dates in the Telerik DatePicker for .NET MAUI and in the spinner."
 position: 4
 previous_url: /controls/datepicker/datepicker-default-dates

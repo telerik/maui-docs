@@ -1,6 +1,6 @@
 ---
 title: Methods
-page_title: .NET MAUI TemplatedPicker Documentation | Methods
+page_title: .NET MAUI TemplatedPicker Documentation - Methods
 description: Check our &quot;Methods&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 6
 previous_url: /controls/templatedpicker/templatedpicker-methods

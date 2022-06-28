@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI DateTimePicker Documentation | Selection
+page_title: .NET MAUI DateTimePicker Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik DateTimePicker for .NET MAUI.
 position: 5
 slug: datetimepicker-selection

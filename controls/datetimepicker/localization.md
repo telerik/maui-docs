@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: .NET MAUI DateTimePicker Documentation | Localization
+page_title: .NET MAUI DateTimePicker Documentation - Localization
 description: "Use the localization options of the DateTimePicker for .NET MAUI."
 position: 4
 slug: datetimepicker-localization

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DatePicker Documentation | Overview
+page_title: .NET MAUI DatePicker Documentation - Overview
 description: "Try now the Telerik DatePicker for .NET MAUI delivering a set of options for selecting dates."
 position: 0
 previous_url: /controls/datepicker/datepicker-overview

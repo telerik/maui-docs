@@ -1,6 +1,6 @@
 ---
 title: TimeSpanPicker Styling
-page_title: .NET MAUI TimeSpanPicker Documentation | Styling
+page_title: .NET MAUI TimeSpanPicker Documentation - Styling
 description: Check our &quot;Selection&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 0
 slug: timespanpicker-styling

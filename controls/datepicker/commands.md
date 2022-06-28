@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI DatePicker Documentation | Commands
+page_title: .NET MAUI DatePicker Documentation - Commands
 description: "Use the exposed commands of the Telerik UI for .NET MAUI DatePicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection."
 position: 7
 previous_url: /controls/datepicker/datepicker-commands

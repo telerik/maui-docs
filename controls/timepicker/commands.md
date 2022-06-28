@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI TimePicker Documentation | Commands
+page_title: .NET MAUI TimePicker Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 7
 previous_url: /controls/timepicker/timepicker-commands

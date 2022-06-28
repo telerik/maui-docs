@@ -1,6 +1,6 @@
 ---
 title: Picker Mode
-page_title: .NET MAUI TimeSpanPicker Documentation | Picker Mode
+page_title: .NET MAUI TimeSpanPicker Documentation - Picker Mode
 description: "Define PickerMode of Telerik TimeSpanPicker for .NET MAUI to either DropDown or Popup."
 position: 5
 slug: timespanpicker-picker-mode

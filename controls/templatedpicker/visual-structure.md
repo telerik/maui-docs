@@ -1,6 +1,6 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI TemplatedPicker Documentation | Visual Structure
+page_title: .NET MAUI TemplatedPicker Documentation - Visual Structure
 description: Check our &quot;Visual Structure&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
 position: 0
 previous_url: /controls/templatedpicker/templatedpicker-visual-structure

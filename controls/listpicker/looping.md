@@ -1,6 +1,6 @@
 ---
 title: Looping
-page_title: .NET MAUI ListPicker Documentation | Looping
+page_title: .NET MAUI ListPicker Documentation - Looping
 description: Check our &quot;Looping&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 2
 previous_url: /controls/listpicker/listpicker-looping

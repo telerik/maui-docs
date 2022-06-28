@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI TimeSpanPicker Documentation | Overview
+page_title: .NET MAUI TimeSpanPicker Documentation - Overview
 description: "Try now the Telerik TimeSpanPicker for .NET MAUI representing a time interval and allowing you to set a time range between two time intervals."
 position: 0
 previous_url: /controls/timespanpicker/timespanpicker-overview

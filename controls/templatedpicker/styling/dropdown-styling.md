@@ -1,6 +1,6 @@
 ---
 title: DropDown Styling
-page_title: .NET MAUI TemplatedPicker Documentation | DropDown Styling
+page_title: .NET MAUI TemplatedPicker Documentation - DropDown Styling
 description: Check our &quot;DropDown Styling&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 2
 slug: templatedpicker-dropdown-styling

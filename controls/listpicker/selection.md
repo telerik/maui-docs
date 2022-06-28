@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI ListPicker Documentation | Selection
+page_title: .NET MAUI ListPicker Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 5
 slug: listpicker-selection
