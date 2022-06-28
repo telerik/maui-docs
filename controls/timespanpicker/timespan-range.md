@@ -1,6 +1,6 @@
 ---
 title: TimeSpan Ranges
-page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Ranges
+page_title: .NET MAUI TimeSpanPicker Documentation - TimeSpan Ranges
 description: Check our &quot;TimeSpan Range&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-timespan-range

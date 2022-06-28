@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI TimeSpanPicker Documentation | Commands
+page_title: .NET MAUI TimeSpanPicker Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 7
 previous_url: /controls/timespanpicker/timespanpicker-commands

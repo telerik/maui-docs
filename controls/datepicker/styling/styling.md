@@ -1,6 +1,6 @@
 ---
 title: DatePicker Styling
-page_title: .NET MAUI DatePicker Documentation | Styling
+page_title: .NET MAUI DatePicker Documentation - Styling
 description: "Apply the styling options of the Telerik UI for .NET MAUI DatePicker and set the appearance of the control and its popup."
 position: 0
 slug: datepicker-styling

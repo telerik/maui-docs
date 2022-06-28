@@ -1,6 +1,6 @@
 ---
 title: Styling
-page_title: .NET MAUI TemplatedPicker Documentation | Styling
+page_title: .NET MAUI TemplatedPicker Documentation - Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 9
 slug: templatedpicker-styling

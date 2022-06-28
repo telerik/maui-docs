@@ -1,6 +1,6 @@
 ---
 title: Popup Styling
-page_title: .NET MAUI DatePicker Documentation | Popup Styling
+page_title: .NET MAUI DatePicker Documentation - Popup Styling
 description: "Apply the styling options of the Telerik UI for .NET MAUI DatePicker Popup."
 position: 1
 slug: datepicker-popup-styling

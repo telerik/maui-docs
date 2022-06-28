@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI ListPicker Documentation | Commands
+page_title: .NET MAUI ListPicker Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 7
 previous_url: /controls/listpicker/listpicker-commands

@@ -1,6 +1,6 @@
 ---
 title: Templates
-page_title: .NET MAUI ListPicker Documentation | Templates
+page_title: .NET MAUI ListPicker Documentation - Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 6
 previous_url: /controls/listpicker/listpicker-templates

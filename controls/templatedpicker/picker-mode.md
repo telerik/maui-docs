@@ -1,6 +1,6 @@
 ---
 title: Picker Mode
-page_title: .NET MAUI TemplatedPicker Documentation | Picker Mode
+page_title: .NET MAUI TemplatedPicker Documentation - Picker Mode
 description: "Define PickerMode of Telerik TemplatedPicker for .NET MAUI to either DropDown or Popup."
 position: 5
 slug: templatedpicker-picker-mode

@@ -1,6 +1,6 @@
 ---
 title: Popup Styling
-page_title: .NET MAUI ListPicker Documentation | Popup Styling
+page_title: .NET MAUI ListPicker Documentation - Popup Styling
 description: "Apply the styling options of the Telerik UI for .NET MAUI ListPicker Popup."
 position: 2
 slug: listpicker-popup-styling

@@ -1,6 +1,6 @@
 ---
 title: Spinner
-page_title: .NET MAUI TemplatedPicker Documentation | Spinner
+page_title: .NET MAUI TemplatedPicker Documentation - Spinner
 description: Check our &quot;Spinner&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 8
 previous_url: /controls/templatedpicker/templatedpicker-spinner

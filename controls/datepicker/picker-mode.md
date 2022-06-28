@@ -1,6 +1,6 @@
 ---
 title: Picker Mode
-page_title: .NET MAUI DatePicker Documentation | Picker Mode
+page_title: .NET MAUI DatePicker Documentation - Picker Mode
 description: "Define PickerMode of Telerik DatePicker for .NET MAUI to either DropDown or Popup."
 position: 5
 slug: datepicker-picker-mode

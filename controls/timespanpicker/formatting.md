@@ -1,6 +1,6 @@
 ---
 title: Formatting
-page_title: .NET MAUI TimeSpanPicker Documentation | TimeSpan Format Strings
+page_title: .NET MAUI TimeSpanPicker Documentation - TimeSpan Format Strings
 description: Check our &quot;Formatting&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 2
 previous_url: /controls/timespanpicker/timespanpicker-formatting

@@ -1,6 +1,6 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI List Picker Documentation | Visual Structure
+page_title: .NET MAUI List Picker Documentation - Visual Structure
 description: Check our &quot;Visual Structure&quot; documentation article for Telerik ListPicker for .NET MAUI.
 position: 0
 previous_url: /controls/listpicker/listpicker-visual-structure

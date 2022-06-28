@@ -1,6 +1,6 @@
 ---
 title: Selection
-page_title: .NET MAUI TimePicker Documentation | Selection
+page_title: .NET MAUI TimePicker Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik TimePicker for .NET MAUI.
 position: 5
 previous_url: /controls/timepicker/timepicker-selection

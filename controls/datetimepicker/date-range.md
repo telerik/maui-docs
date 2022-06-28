@@ -1,6 +1,6 @@
 ---
 title: Date Ranges
-page_title: .NET MAUI DateTime Picker Documentation | Date Ranges
+page_title: .NET MAUI DateTime Picker Documentation - Date Ranges
 description: "Set and control date ranges in the Telerik DatePicker for .NET MAUI."
 position: 3
 slug: datetimepicker-date-range

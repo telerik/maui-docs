@@ -1,6 +1,6 @@
 ---
 title: Commands
-page_title: .NET MAUI TemplatedPicker Documentation | Commands
+page_title: .NET MAUI TemplatedPicker Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 7
 previous_url: /controls/templatedpicker/templatedpicker-commands

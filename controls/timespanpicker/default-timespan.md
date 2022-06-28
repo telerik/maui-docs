@@ -1,6 +1,6 @@
 ---
 title: Default TimeSpan
-page_title: .NET MAUI TimeSpanPicker Documentation | Default TimeSpan
+page_title: .NET MAUI TimeSpanPicker Documentation - Default TimeSpan
 description: Check our &quot;Default TimeSpan&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-default-timespan

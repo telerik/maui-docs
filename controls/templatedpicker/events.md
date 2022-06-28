@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: .NET MAUI TemplatedPicker Documentation | Events
+page_title: .NET MAUI TemplatedPicker Documentation - Events
 description: Check our &quot;Events&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
 position: 5
 previous_url: /controls/templatedpicker/templatedpicker-events

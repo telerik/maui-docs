@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI TemplatedPicker Documentation | Overview
+page_title: .NET MAUI TemplatedPicker Documentation - Overview
 description: "Try now the Telerik TemplatedPicker for .NET MAUI allowing you to create custom pickers based on your requirements and the scenario you want to achieve."
 position: 0
 previous_url: /controls/templatedpicker/templatedpicker-overview
