@@ -1,6 +1,6 @@
 ---
 title: Crypto Tracker Demo App
-page_title: Telerik .NET MAUI Demo Applications
+page_title: .NET MAUI - Demo Applications
 description: "Learn how to download and install the Crypto Tracker Demo App and check out the Telerik UI for .NET MAUI controls library."
 slug: maui-crypto-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application

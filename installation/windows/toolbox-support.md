@@ -1,6 +1,6 @@
 ---
 title: Telerik UI for .NET MAUI Toolbox
-page_title: Telerik UI for .NET MAUI Toolbox
+page_title: Telerik UI for .NET MAUI - Toolbox
 description: Check our detailed documentation article for the Toolbox Extension of Telerik UI for .NET MAUI on Windows.
 slug: toolbox-support
 position: 6
