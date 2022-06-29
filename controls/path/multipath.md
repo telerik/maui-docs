@@ -39,7 +39,7 @@ public partial class MainPage : ContentPage
 
 The image below shows the result:
 
-![RadMultiPath](images/path_multipath.png)
+![MultiPath](images/path_multipath.png)
 
 ## See Also
 

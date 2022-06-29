@@ -12,7 +12,7 @@ slug: popup-overview
 
 The Popup lets you display content of your choice on top of an existing view. The component provides a flexible API for controlling its behavior and makes it possible to implement complex logic for a wide range of scenarios.
 
-![RadPopup Overview](images/popup_overview.png)
+![Popup Overview](images/popup_overview.png)
 
 ## Key Features
 

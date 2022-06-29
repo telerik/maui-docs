@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![RadListView](images/listview-gettingstarted.png)
+![ListView Getting Started](images/listview-gettingstarted.png)
 
 ## Prerequisites
 

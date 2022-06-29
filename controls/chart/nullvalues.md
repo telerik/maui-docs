@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The image below shows how the null data points are visualized as gaps.
 
-![RadCartesianChart NullValues](images/chart-nullvalues.png)
+![CartesianChart NullValues](images/chart-nullvalues.png)
 
 ## See Also
 

@@ -16,11 +16,11 @@ To specify the position of the Badge according to its content, use the following
 
 * `BadgeHorizontalPosition`(of type `Telerik.XamarinForms.Primitives.BadgePosition`)&mdash;Specifies the horizontal `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
-  ![Badge Position](images/badgeview-horizontal-position.png)
+  ![Badge Horizontal Position](images/badgeview-horizontal-position.png)
 
 * `BadgeVerticalPosition`(of type `Telerik.XamarinForms.Primitives. BadgePosition`)&mdash;Specifies the vertical `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `Start`.
 
-  ![Badge Position](images/badgeview-vertical-position.png)
+  ![Badge Vertical Position](images/badgeview-vertical-position.png)
 
 ## Aligning the Badge
 
@@ -28,11 +28,11 @@ To specify the alignment of the Badge according to its content, use the followin
 
 * `BadgeHorizontalAlignment`(of type `Telerik.XamarinForms.Primitives.BadgeAlignment`)&mdash;Specifies the horizontal alignment of the badge. The supported options are: `Start`, `Center`, `End`. The default value is `Center`.
 
-  ![Badge Alignment](images/badgeview-horizontal-alignment.png)
+  ![Badge Horizontal Alignment](images/badgeview-horizontal-alignment.png)
 
 * `BadgeVerticalAlignment`(of type `Telerik.XamarinForms.Primitives.BadgeAlignment`)&mdash;Specifies the vertical alignment of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
-  ![Badge Alignment](images/badgeview-vertical-alignment.png)
+  ![Badge Vertical Alignment](images/badgeview-vertical-alignment.png)
 
 ## Offset
 

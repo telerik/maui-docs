@@ -48,7 +48,7 @@ private bool AgeFilter(object arg)
  
 The following image shows the result after the data is filtered:
 
-![Filtering](images/listview-features-filtering.png "Filtering")
+![ListView Filtering](images/listview-features-filtering.png "Filtering")
 
 ## Bindable FilterDescriptors
 
@@ -113,7 +113,7 @@ private void UpdateExistingFilterDescriptor()
 
 The following image shows how this looks like:
 
-![FilterDescriptorsMVVM](images/listview-features-bindable-filter.png)
+![ListView Filter Descriptors MVVM](images/listview-features-bindable-filter.png)
 
 ## See Also
 

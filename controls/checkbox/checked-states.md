@@ -54,7 +54,7 @@ public class ViewModel : NotifyPropertyChangedBase
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
 
-![CheckBox Key Feature Example](images/checkbox-features.png)
+![CheckBox States Configuration](images/checkbox-features.png)
 
 ## See Also
 

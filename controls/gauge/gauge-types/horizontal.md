@@ -17,7 +17,7 @@ The following example shows the basic setup of the Horizontal Gauge.
 
 The following image shows the end result.
 
-![Radial gauge example](../images/gauge-types-horizontal-gauge-0.png)
+![Horizontal Gauge](../images/gauge-types-horizontal-gauge-0.png)
 
 ## See Also
 

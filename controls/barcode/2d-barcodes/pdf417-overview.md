@@ -15,7 +15,7 @@ PDF stands for Portable Data File. The 417 signifies that each pattern in the co
 
 The following image demonstrates a PDF417 Barcode.
 
-![Telerik Xamarin Barcode PDF417](images/barcode-2d-barcodes-pdf417-overview001.png)
+![Barcode PDF417](images/barcode-2d-barcodes-pdf417-overview001.png)
 
 ## Visual Structure
 
@@ -23,7 +23,7 @@ The code is divided into rows and columns, which accommodate all the encoded dat
 
 The following image shows the structure of a PDF417 Barcode.
 
-![Telerik Xamarin Barcode PDF417 structure](images/barcode-2d-barcodes-pdf417-overview002.png)
+![Barcode PDF417 structure](images/barcode-2d-barcodes-pdf417-overview002.png)
 
 The Data codewords are located in the middle section of the barcode and include the following sections:
 
@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result of the suggested implementation.
 
-![PDF417](images/barcode-2d-barcodes-pdf417-example.png)
+![Barcode PDF417](images/barcode-2d-barcodes-pdf417-example.png)
 
 ## See Also
 

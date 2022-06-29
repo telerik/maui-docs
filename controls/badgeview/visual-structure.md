@@ -10,7 +10,7 @@ slug: badgeview-visual-structure
 
 This article describes all visual elements of the Telerik UI for .NET MAUI BadgeView.
 
-![Badge Types](images/badgeview-visual-structure.png)
+![Badge Visual Structure](images/badgeview-visual-structure.png)
 
 ## Legend
 

@@ -89,7 +89,7 @@ Define the DataGrid:
 </telerik:RadDataGrid>
 ```
 
-![Template Column](images/templatecolumn-overview.png)
+![DataGrid Template Column](images/templatecolumn-overview.png)
 
 ## See Also
 

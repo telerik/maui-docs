@@ -40,7 +40,7 @@ The following example shows how to create a basic `RadPieChart` with a Donut Ser
 
 The following image shows the end result.
 
-![Basic Donut Series](images/donut-series-basic-example.png)
+![Chart Donut Series](images/donut-series-basic-example.png)
 
 ## See Also
 

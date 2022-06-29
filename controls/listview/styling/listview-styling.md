@@ -47,11 +47,11 @@ This enumeration contains the following members:
 
 The following image shows a ListView with its `ItemStyle` and `SelectedItemStyle` applied.
 
-![](../images/listview_features_itemstyle.png)
+![ListView Item and SelectedIten Styling](../images/listview_features_itemstyle.png)
 
 The following image shows a ListView with its `ReorderItemStyle` applied.
 
-![](../images/listview_features_reorderItemstyle.png)
+![ListView reorder items styling](../images/listview_features_reorderItemstyle.png)
 
 > For a Item Styles example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 

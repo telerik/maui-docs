@@ -29,7 +29,7 @@ The following example will demonstrate how to apply the `Conditional Styling` in
 
 The following image shows how the ListView control will look like when conditional styling is used.
 
-![StyleSelector](../images/listview-features-style-selector.png "Style Selector")
+![ListView StyleSelector](../images/listview-features-style-selector.png "Style Selector")
 
 > For ItemStyle Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 

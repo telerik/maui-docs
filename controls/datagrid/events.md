@@ -19,6 +19,7 @@ The DataGrid component exposes a set of events.
 
 For more information about LoadOnDemand event review the [DataGrid LoadOnDemand article]({%slug datagrid-features-loadondemand%}).
 
+
 * `DistinctValuesLoading`&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
@@ -32,6 +33,7 @@ For more information about Filtering options in DataGrid review the [DataGrid Fi
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `DataBindingCompleteEventArgs` object, which provides the following property:
 		- `DataView`(`IDataViewCollection`)&mdash;Implementation that allows for traversing and/or manipulating the already computed data view.
+
 
 * `SelectionChanged`&mdash;event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
@@ -48,11 +50,11 @@ The following example demonstrates the usage of the `LoadOnDemand` event.
 
 Define the LoadOnDemand method in XAML:
 
-<snippet id ="datagrid-loadondemand-event-xaml"/>
+<snippet id ='datagrid-loadondemand-event-xaml'/>
 
 Create the method defining the functionality of the event:
 
-<snippet id="datagrid-loadondemand-event-csharp"/>
+<snippet id='datagrid-loadondemand-event-csharp'/>
 
 ## See Also
 

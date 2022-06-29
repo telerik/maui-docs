@@ -123,10 +123,10 @@ navigation:
         position: 1
     controls/datagrid/commands:
         title: "Commands"
-        position: 9
+        position: 10
     controls/datagrid/theming-and-styles:
         title: "Styling"
-        position: 10
+        position: 11
     ## End DataGrid
     ## DatePicker
     controls/datepicker:

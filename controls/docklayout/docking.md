@@ -42,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result on different platforms:
 
-![RadDockLayout Docking](images/docklayout_docking_feature.png)
+![DockLayout Docking](images/docklayout_docking_feature.png)
 
 ## Positioning Multiple Elements on One Side
 
@@ -60,7 +60,7 @@ Setting the same docking side to a few child elements will arrange them accordin
 
 The following image shows the end result.
 
-![RadDockLayout Elements on one side](images/docklayout_positiononeside.png)
+![DockLayout Elements on one side](images/docklayout_positiononeside.png)
 
 ## Setting the Position of the Last Child Element
 
@@ -79,4 +79,4 @@ You can prevent this behavior by setting `StretchLastChild` property of the Dock
 
 The following image shows the end result.
 
-![RadDockLayout Positioning](images/docklayout_positionlast.png)
+![DockLayout Positioning](images/docklayout_positionlast.png)

@@ -35,42 +35,16 @@ To use this approach, you have to feed the `RadDataGrid` with a collection of ty
 The following example demonstrates a simple setup that shows how to use the collection:
 
 <snippet id='datagrid-loadondemand-collection-csharp'/>
-```C#
-this.Items = new LoadOnDemandCollection<Person>((cancelationToken) =>
-{
-    var list = new List<Person>();
-    for (int i = 0; i < 10; i++)
-    {
-        var person = new Person { Name = "LOD Person " + i, Age = i + 18, Gender = i % 2 == 0 ? Gender.Male : Gender.Female };
-        list.Add(person);
-    }
-
-    return list;
-});
-```
 
 In the example, the `Items` property is declared as follows:
 
 <snippet id='datagrid-loadondemand-collection-property-csharp'/>
-```C#
-public LoadOnDemandCollection<Person> Items { get; set; }
-```
 
 ### LoadOnDemand Event
 
 You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded using the `IsDataLoaded`(`bool`) property.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
-```C#
-private void dataGrid_LoadOnDemand(object sender, Telerik.XamarinForms.DataGrid.LoadOnDemandEventArgs e)
-{
-    for (int i = 0; i < 15; i++)
-    {
-        ((sender as RadDataGrid).ItemsSource as ObservableCollection<Person>).Add(new Person() { Name = "Person " + i, Age = i + 18, Gender = i % 2 == 0 ? Gender.Male : Gender.Female });
-    }
-    e.IsDataLoaded = true;
-}
-```
 
 ### LoadMoreData Command
 
@@ -79,48 +53,10 @@ The `LoadMoreData` command is another alternative which you can use and which is
 The following example demonstrates how to create the command.
 
 <snippet id='datagrid-customloadmoredatacommand-csharp'/>
-```C#
-public class CustomLoadMoreDataCommand : DataGridCommand
-{
-    public CustomLoadMoreDataCommand()
-    {
-        this.Id = DataGridCommandId.LoadMoreData;
-    }
-
-    public override bool CanExecute(object parameter)
-    {
-        return true;
-    }
-
-    public async override void Execute(object parameter)
-    {
-        if (parameter == null)
-        {
-            return;
-        }
-
-        ((LoadOnDemandContext)parameter).ShowLoadOnDemandLoadingIndicator();
-
-        await System.Threading.Tasks.Task.Delay(1500);
-        var viewModel = this.Owner.BindingContext as LoadMoreDataCommandViewModel;
-        if (viewModel != null)
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                viewModel.Items.Add(new Person { Name = "Person " + i, Age = i + 18, Gender = i % 2 == 0 ? Gender.Male : Gender.Female });
-            }
-        }
-        ((LoadOnDemandContext)parameter).HideLoadOnDemandLoadingIndicator();
-    }
-}
-```
 
 Eventually, you need to add this custom command to the `Commands` collection of the DataGrid.
 
 <snippet id='datagrid-customloadmoredatacommand-addtocollection-csharp'/>
-```C#
-this.dataGrid.Commands.Add(new CustomLoadMoreDataCommand());
-```
 
 >important Invoking the `ShowLoadOnDemandLoadingIndicator` and `HideLoadOnDemandLoadingIndicators` is a notable part as without calling these methods, the BusyIndicator used for the functionality will not be visualized.
 
@@ -143,7 +79,7 @@ You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 **Row Appearance after Setting the LoadOnDemandRowStyle**
 
-![](images/datagrid-rowstyle.png)
+![DataGrid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
 
 ### LoadOnDemandRowTemplate
 
@@ -159,7 +95,7 @@ The following example shows how to set the property:
 
 **Row Appearance after Setting the LoadOnDemandRowTemplate**
 
-![](images/datagrid-rowtemplate.png)
+![DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
 
 ## See Also
 

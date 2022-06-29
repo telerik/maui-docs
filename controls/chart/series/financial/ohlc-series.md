@@ -29,7 +29,7 @@ The following example shows how to create a basic `RadCartesianChart` with an OH
 
 The following image shows the end result:
 
-![Basic OhlcSeries](images/ohlc_series.png)
+![Chart OhlcSeries](images/ohlc_series.png)
 
 ## See Also
 

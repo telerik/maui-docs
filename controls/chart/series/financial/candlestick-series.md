@@ -29,7 +29,7 @@ The following example shows how to create a basic `RadCartesianChart` with a Can
 
 The following image shows the end result:
 
-![Basic Candlestick](images/candlestick_series.png)
+![Chart Candlestick](images/candlestick_series.png)
 
 ## See Also
 

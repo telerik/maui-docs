@@ -52,7 +52,7 @@ this.segmentControl.SetSegmentEnabled(2, false);
 
 The following image shows the end result.
 
-![SegmentedControl disable segment example](images/segmentcontrol-features-disablesegment-0.png)
+![SegmentedControl disable segment](images/segmentcontrol-features-disablesegment-0.png)
 
 ## See Also
 

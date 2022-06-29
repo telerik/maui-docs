@@ -97,7 +97,7 @@ public class ViewModel
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
 
-![Annotations](images/chart-annotations-grid-line-examples.png)
+![Chart GridLine Annotations](images/chart-annotations-grid-line-examples.png)
 
 ## CartesianPlotBandAnnotation
 
@@ -179,7 +179,7 @@ public class ViewModel
 
 The following image shows how the `CartesianPlotBandAnnotation` looks:
 
-![Annotations](images/chart-annotations-plot-band-example.png)
+![Chart PlotAndBand Annotations](images/chart-annotations-plot-band-example.png)
 
 ## See Also
 

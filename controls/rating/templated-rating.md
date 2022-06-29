@@ -18,7 +18,7 @@ On top of the [common Rating API]({%slug rating-configuration%}), this component
 
 > Set both the `ItemTemplate` and `SelectedItemTemplate` templates.
 
-![](images/rating-templates.png)
+![Rating Template](images/rating-templates.png)
 
 The following example demonstrates how to define `RadTemplatedRating` in XAML:
 

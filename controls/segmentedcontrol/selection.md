@@ -68,7 +68,7 @@ this.segmentControl.BindingContext = new ViewModel();
 
 The image below shows the end result on different platforms:
 
-![SegmentedControl selection example](images/segmentcontrol-features-selection-0.png)
+![SegmentedControl selection](images/segmentcontrol-features-selection-0.png)
 
 ## See Also
 

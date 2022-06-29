@@ -41,7 +41,7 @@ and the ViewModel used:
 
 The final result: 
 
-![ComboBox Item and selectedItem Templates](images/combobox-item-selecteditem-templates.png)
+![ComboBox Item and SelectedItem Templates](images/combobox-item-selecteditem-templates.png)
 
 > For the ComboBox Item and SelectedItem Templates example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 

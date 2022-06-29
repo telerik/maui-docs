@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Getting Started Example](images/barcode_getting_started.png)
+![Barcode Getting Started](images/barcode_getting_started.png)
 
 ## Prerequisites
 

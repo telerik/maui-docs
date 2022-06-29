@@ -40,11 +40,11 @@ and the ViewModel used:
 
 Here is how the Combobox looks when styling is applied:
 
-![ComboBox Edit Mode](images/combobox-styling.png)
+![ComboBox Styling](images/combobox-styling.png)
 
 Here is how the styling is applied when the control is focused and item is selected:
 
-![ComboBox Edit Mode](images/combobox-styling-focused.png)
+![ComboBox Styling on Seleced Item](images/combobox-styling-focused.png)
 
 > For the ComboBox Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Styling category.
 

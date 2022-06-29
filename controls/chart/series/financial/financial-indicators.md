@@ -57,7 +57,7 @@ The following example shows how to create a basic `RadCartesianChart` with an OH
 
 The following image shows the end result:
 
-![Financial Indicators](images/indicators_series.png)
+![Chart Financial Indicators](images/indicators_series.png)
 
 ## See Also
 

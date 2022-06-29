@@ -36,7 +36,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 DataGrid Date Column with CellContentTemplate property and inside the template we have added a DateTime Picker control
 
-![DataGrid Cell Content Template Property](../images/datagrid-column-cell-content-template.png)
+![DataGrid Cell Content Template](../images/datagrid-column-cell-content-template.png)
 
 ## Cell Edit Template Example
 
@@ -60,7 +60,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 DataGrid Boolean Column with CellEditTemplate property and inside the template we have added a switch, and two buttons. The edit template is visualized when the cell is in edit mode.
 
-![DataGrid Cell Content Template Property](../images/datagrid-column-cell-edit-template.png)
+![DataGrid Cell Edit Template](../images/datagrid-column-cell-edit-template.png)
 
 ## See Also
 

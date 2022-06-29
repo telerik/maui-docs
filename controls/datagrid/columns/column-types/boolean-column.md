@@ -37,7 +37,7 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 </telerik:DataGridBooleanColumn>
 ```
 
-![Boolean Column](images/booleancolumn-overview.png)
+![DataGrid Boolean Column](images/booleancolumn-overview.png)
 
 ## See Also
 

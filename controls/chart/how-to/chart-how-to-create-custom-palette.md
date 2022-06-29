@@ -28,7 +28,7 @@ Finally, declare the RadCartesianChart in XAML or C#:
 
 Here is the result:
 
-![Custom Palette](images/chart-how-to-create-custom-palette.png)
+![Chart Custom Palette](images/chart-how-to-create-custom-palette.png)
 
 ## See Also
 

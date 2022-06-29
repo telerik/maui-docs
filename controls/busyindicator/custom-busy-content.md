@@ -52,7 +52,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result.
 
-![BusyIndicator example](images/busyindicator-custombusycontent.png)
+![BusyIndicator custom busy content](images/busyindicator-custombusycontent.png)
 
 ## See Also
 

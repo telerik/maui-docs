@@ -76,7 +76,7 @@ this.dataGrid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new
 
 Here is how the DataGrid looks when sorting is applied:
 
-![](images/datagrid_sorting.png)
+![DataGrid Sorting](images/datagrid_sorting.png)
 
 
 ## See Also

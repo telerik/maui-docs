@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Getting Started Example](images/busyindicator-getting-started.png)
+![BusyIndicator Getting Started](images/busyindicator-getting-started.png)
 
 ## Prerequisites
 

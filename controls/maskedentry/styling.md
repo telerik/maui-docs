@@ -33,15 +33,15 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 **ClearButtonColor**
 
-![maskedentry-styling](images/maskedentry-clear-button-color.png)
+![MaskedEntry ClearButton Color](images/maskedentry-clear-button-color.png)
 
 **PressedClearButtonColor**
 
-![maskedentry-styling](images/maskedentry-pressed-clear-button-color.png)
+![MaskedEntry Pressed ClearButton Color](images/maskedentry-pressed-clear-button-color.png)
 
 **HoveredClearButtonColor**
 
-![maskedentry-styling](images/maskedentry-hovered-clear-button-color.png)
+![MaskedEntry Hovered ClearButton Color](images/maskedentry-hovered-clear-button-color.png)
 
 > For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 

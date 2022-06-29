@@ -17,7 +17,7 @@ The following example shows the basic setup of the Vertical Gauge.
 
 The following image shows the end result.
 
-![Vertical gauge example](../images/gauge-types-vertical-gauge-0.png)
+![Vertical Gauge](../images/gauge-types-vertical-gauge-0.png)
 
 ## See Also
 

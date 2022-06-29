@@ -17,7 +17,7 @@ Specific series types are available for specific charts. For example, a set of C
 
 The following image shows the hierarchy of all series:
 
-![Series Class Diagram](images/chart-series-class-diagram.png)
+![Chart Series Class Diagram](images/chart-series-class-diagram.png)
 
 ## Cartesian Chart Series
 

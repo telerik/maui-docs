@@ -39,7 +39,7 @@ The `ListViewGroupStyle` provides means for customizing the border as well as ba
 
 The following image shows the end result:
 
-![](../images/listview_styling_groupheader.png)
+![ListView Styling GroupHeader](../images/listview_styling_groupheader.png)
 
 > For a GroupHeader Style example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 

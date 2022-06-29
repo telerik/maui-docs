@@ -12,7 +12,7 @@ slug: segmentedcontrol-overview
 
 **Telerik UI for .NET MAUI SegmentedControl** allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display text or an image.
 
-![RadSegmentedControl example](images/segmentcontrol-overview-0.png)
+![SegmentedControl Overview](images/segmentcontrol-overview-0.png)
 
 ## Key Features
 

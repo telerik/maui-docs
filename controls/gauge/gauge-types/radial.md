@@ -19,7 +19,7 @@ The following example shows the basic setup of the Radial Gauge.
 
 The following image shows the end result.
 
-![Radial gauge example](../images/gauge-types-radial-gauge-0.png)
+![Radial Gauge](../images/gauge-types-radial-gauge-0.png)
 
 ## Setting the Rotation and Radius
 

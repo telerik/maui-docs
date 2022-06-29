@@ -36,11 +36,11 @@ The following example shows how to add a Header and a Footer to the ListView con
 
 The following image shows how the ListView Header looks.
 
-![RadListView Footer Template](images/listview-features-header-template.png "[RadListView Footer Template")
+![ListView Header Template](images/listview-features-header-template.png "[RadListView Footer Template")
 
 The following image shows how the ListView Footer looks.
 
-![RadListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
+![ListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
 
 >important For a sample Header and Footer example, refer to the **SDKBrowser MAUI application**.
 
