@@ -19,10 +19,10 @@ In order to show the Toolbox and start using the controls, you should navigate t
 Next images show where you can find the options in Visual Studio for Mac:
 
 #### Showing the Telerik Toolbox when clicking on MainPage.xaml 
-![](images/enabled_toolbox_mac.png)
+![Telerik .NET MAUI Toolbox](images/enabled_toolbox_mac.png)
 
 #### Showing the Telerik Toolbox from Search field
-![](images/search_toolbox_mac.png)
+![Telerik .NET MAUI Toolbox](images/search_toolbox_mac.png)
 
 Once you have clicked the option you should be prompted to the window which contains the different controls from the suite. 
 

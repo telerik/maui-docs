@@ -23,7 +23,7 @@ To install Telerik UI for .NET MAUI on your machine from the Windows Installer M
     * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
 	* **VSExtensions**&mdash;Contains VSExtension for Visual Studio 2022.
 
-    ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
+    ![Telerik .NET MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
 ## See Also
 

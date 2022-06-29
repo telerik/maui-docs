@@ -51,7 +51,7 @@ You can access the Controls Samples application in the following ways:
  
 	* ControlsSamples application on MacOS.
 	
-	![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples-macos.png)
+	![Telerik UI for .NET MAUI ControlsSamples Application MacOS](images/controlssamples-macos.png)
 
 1. Run on iOS using the following command:
 
@@ -61,5 +61,5 @@ You can access the Controls Samples application in the following ways:
 
 	* ControlsSamples application on iOS.
 
-	![Telerik UI for .NET MAUI ControlsSamples Application](images/controlssamples-iphone.png)
+	![Telerik UI for .NET MAUI ControlsSamples Application iOS](images/controlssamples-iphone.png)
 

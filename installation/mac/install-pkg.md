@@ -25,7 +25,7 @@ To install Telerik UI for .NET MAUI on your machine from the Apple Installer .pk
     * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
 	* **VSExtensions**&mdash;Contains the Project Wizard for Visual Studio for Mac.
 	
-	![](images/mac-folders.png)
+	![Telerik .NET MAUI Installation Folder](images/mac-folders.png)
 	
 ## See Also
 

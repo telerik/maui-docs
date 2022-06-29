@@ -39,11 +39,11 @@ You can access the SDKBrowser application in the following ways:
 	
  * CryptoTracker application on Android.
 
-  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-android.png)
+  ![Telerik UI for .NET MAUI CryptoTracker App Android](../images/cryptotracker-android.png)
 	
  * CryptoTracker application on WinUI.
 
-  ![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-winui.png)
+  ![Telerik UI for .NET MAUI CryptoTracker App WinUI](../images/cryptotracker-winui.png)
 
 ## Run CryptoTracker on macOS
 
@@ -56,7 +56,7 @@ You can access the SDKBrowser application in the following ways:
  
 	* CryptoTracker application on MacOS.
 	
-	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-macos.png)
+	![Telerik UI for .NET MAUI CryptoTracker App MasOS](../images/cryptotracker-macos.png)
 
 1. Run on iOS using the following command:
 
@@ -66,5 +66,5 @@ You can access the SDKBrowser application in the following ways:
 
 	* CryptoTracker application on iOS.
 
-	![Telerik UI for .NET MAUI CryptoTracker Application](../images/cryptotracker-iphone.png)
+	![Telerik UI for .NET MAUI CryptoTracker App iOS](../images/cryptotracker-iphone.png)
 
