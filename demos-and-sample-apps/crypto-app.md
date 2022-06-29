@@ -56,7 +56,7 @@ You can access the SDKBrowser application in the following ways:
  
 	* CryptoTracker application on MacOS.
 	
-	![Telerik UI for .NET MAUI CryptoTracker App MasOS](../images/cryptotracker-macos.png)
+	![Telerik UI for .NET MAUI CryptoTracker App MacCatalyst](../images/cryptotracker-macos.png)
 
 1. Run on iOS using the following command:
 

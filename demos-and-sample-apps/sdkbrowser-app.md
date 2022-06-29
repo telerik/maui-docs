@@ -53,7 +53,7 @@ You can access the SDKBrowser application in the following ways:
  
 	* SDKBrowserMaui application on MacOS.
 	
-	![Telerik UI for .NET MAUI SDKBrowser Maui App MacOS](images/demo-macos.png)
+	![Telerik UI for .NET MAUI SDKBrowser Maui App MacCatalyst](images/demo-macos.png)
 	
 1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
