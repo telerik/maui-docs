@@ -81,7 +81,7 @@ To install Telerik UI for .NET MAUI on Windows:
     * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
 	* **VSExtensions**&mdash;Contains VSExtension for Visual Studio 2022.
 	
-    ![Telerik UI for MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
+    ![Telerik .NET MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
 ### Installation for macOS
 
@@ -99,7 +99,7 @@ To install Telerik UI for .NET MAUI on MacOS:
     * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
 	* **VSExtensions**&mdash;Contains the Project Wizard for Visual Studio for Mac.
 	
-	![](images/mac-folders.png)
+	![Telerik .NET MAUI Installation on MacOS](images/mac-folders.png)
 
 ## Step 4: Register Required Handlers and Renderers
 

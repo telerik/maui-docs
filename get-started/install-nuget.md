@@ -26,17 +26,17 @@ To add the Telerik server to the NuGet package sources:
 
 1. Go to **Tools** > **Package Manager Settings**.
 
-  ![](images/nuget-vs-pm-settings.png)
+  ![Telerik NuGet Package](images/nuget-vs-pm-settings.png)
 
 1. Open the **Package Sources** section.
 
-  ![](images/nuget-vs-add-source.png)
+  ![Telerik NuGet Package](images/nuget-vs-add-source.png)
 
 1. In the **Source** field, add the Telerik server by filling in its URL: [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json). Click **Update**.
 
   Note that the [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster and more lightweight, and also reduces the number of requests from NuGet clients.
 
-  ![](images/nuget-vs-telerik-server.png)
+  ![Telerik NuGet Package](images/nuget-vs-telerik-server.png)
 
 The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
 
@@ -50,7 +50,7 @@ To install the `Telerik.UI.for.Maui` package to your projects:
 1. Select the projects which require the package.
 1. Select the version and click **Install**.
 
-![](images/maui-nuget.png)
+![Telerik .NET MAUI Package](images/maui-nuget.png)
 
 ## See Also
 

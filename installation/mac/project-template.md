@@ -58,13 +58,13 @@ Follow the steps to setup your app.
 
 If you do not have the [Telerik Nuget Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials and the Telerik Nuget Server will be automatically configured as nuget source in Visual Studio:
 
-![](images/vs_projecttemplate_nuget.png)
+![Telerik NuGet Server](images/vs_projecttemplate_nuget.png)
 
 When you are done the project will contain all required Telerik packages, so you can start writing your app right away.
 
 Here is the result after running the app:
 
-![](images/vs-projecttemplate-app.png)
+![Telerik .NET MAUI Project Template](images/vs-projecttemplate-app.png)
 
 ## See Also
 

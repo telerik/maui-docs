@@ -18,7 +18,7 @@ Telerik UI for .NET MAUI Visual Studio Extensions are distributed with the Teler
 
 To show the Toolbox and start using the controls, navigate to the tab "Extensions" -> "Telerik" -> "Telerik UI for .NET MAUI" -> "Open Telerik UI for .NET MAUI Toolbox" within Visual Studio. You can also find this option when you type "Telerik UI for .NET MAUI Toolbox" in the Quick Launch search field (top right corner in Visual Studio).
 
-![](images/enabled_toolbox.png)
+![Telerik .NET MAUI Toolbox](images/enabled_toolbox.png)
 
 When you open the Telerik UI for .NET MAUI Toolbox, you will see a window with the different controls from the suite. 
 
@@ -28,7 +28,7 @@ When you open the Telerik UI for .NET MAUI Toolbox, you will see a window with t
 
 Embedding the controls from the suite is made as easy as possible. All you need to do is simply drag one of the controls within your XAML file. This adds the control definition and maps the needed namespace declarations. 
 
-![](images/maui_toolbox.gif)
+![Add Telerik .NET MAUI Controls from Toolbox](images/maui_toolbox.gif)
 
 ## See Also
 

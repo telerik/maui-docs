@@ -35,11 +35,11 @@ You can access the SDKBrowser application in the following ways:
 	
  * SdkBrowserMaui application on Android.
 
-  ![Telerik UI for .NET MAUI SdkBrowserMaui Application](images/sdkbrowser.png)
+  ![Telerik UI for .NET MAUI SdkBrowserMaui App Android](images/sdkbrowser.png)
 	
  * ControlsSamples application on WinUI.
 
-  ![Telerik UI for .NET MAUI SdkBrowserMaui Application](images/sdkbrowser-winui.png)
+  ![Telerik UI for .NET MAUI SdkBrowserMaui App WinUI](images/sdkbrowser-winui.png)
 	
 ## Install and Run SDKBrowser on macOS
 
@@ -53,7 +53,7 @@ You can access the SDKBrowser application in the following ways:
  
 	* SDKBrowserMaui application on MacOS.
 	
-	![Telerik UI for .NET MAUI SDKBrowser Maui Application](images/demo-macos.png)
+	![Telerik UI for .NET MAUI SDKBrowser Maui App MacCatalyst](images/demo-macos.png)
 	
 1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
 
@@ -63,4 +63,4 @@ You can access the SDKBrowser application in the following ways:
 
 	* SDKBrowserMaui application on iOS.
 
-   ![Telerik UI for .NET MAUI SDKBrowser Maui Application](images/demo-iphone.png)  
+   ![Telerik UI for .NET MAUI SDKBrowser Maui App iOS](images/demo-iphone.png)  
