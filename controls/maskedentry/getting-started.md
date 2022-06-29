@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Regex Masked Entry Picker Getting Started](images/maskedentry-getting-started.png)
+![Masked Entry Getting Started](images/maskedentry-getting-started.png)
 
 ## Prerequisites
 

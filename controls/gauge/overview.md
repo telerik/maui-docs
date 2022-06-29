@@ -13,7 +13,7 @@ slug: gauge-overview
 
 To provide the indicated value or values with context, the Gauges use axes and ranges. Axes state minimum and maximum values, which determine the set ranges. The Gauge ranges denote certain parts of the axis range and are usually displayed with different colors to provide additional information. For example, in a `[0, 200]` axis range, a red Gauge range of `[180, 200]` can be added to articulate that values within this range are too high.
 
-![Gauge example](images/gauge-overview.png)
+![Gauge Overview](images/gauge-overview.png)
 
 ## Key Features
 

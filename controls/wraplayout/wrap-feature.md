@@ -45,7 +45,7 @@ Here is a quick sample of a WrapLayout with a specified item size:
 
 The following image shows the end result.
 
-![RadWrapLayout ItemSize](images/wraplayout_itemsize.png)
+![WrapLayout ItemSize](images/wraplayout_itemsize.png)
 
 ## Positioning the Last Child Element
 
@@ -57,7 +57,7 @@ The following example shows how `StretchLastChild` will work when set to both va
 
 The following image shows the end result.
 
-![RadWrapLayout Positioning](images/wraplayout_positionlast.png)
+![WrapLayout Positioning](images/wraplayout_positionlast.png)
 
 ## See Also
 

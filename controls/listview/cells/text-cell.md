@@ -11,11 +11,11 @@ slug: listview-textcell
 
 Cells in the ListView are the presentation of each data item from the control's ItemsSource. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.
 
-`ListViewTextCell` derives from `Xamarin.Forms.TextCell` and displays text. It can optionally render detail text as a second row within a list view item. This is the default cell of the ListView.
+`ListViewTextCell` derives from `Microsoft.Maui.Controls.TextCell` and displays text. It can optionally render detail text as a second row within a list view item. This is the default cell of the ListView.
 
 The example below demonstrates how to create a list view with text cells, like this:
 
-![](../images/listview-celltypes-textcell.png)
+![ListView Text Cell](../images/listview-celltypes-textcell.png)
 
 Create a view model that will be the source of the list view:
 

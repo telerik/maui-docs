@@ -38,7 +38,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 </telerik:DataGridNumericalColumn>
 ```
 
-![Numerical Column](images/numericalcolumn-overview.png)
+![DataGrid Numerical Column](images/numericalcolumn-overview.png)
 
 ## See Also
 

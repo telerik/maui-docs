@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Gauge example](images/gauge-gettingstarted.png)
+![Gauge Getting Started](images/gauge-gettingstarted.png)
 
 ## Prerequisites
 

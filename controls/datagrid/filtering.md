@@ -17,7 +17,7 @@ The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) a
 >
 > On Desktop Filtering UI appears when clicking on the filtering icon on each column's header'.
 
-![DataGrid Filtering UI Overview](images/datagrid-filtering.png)
+![DataGrid Filtering UI](images/datagrid-filtering.png)
 
 The Filtering UI exposes the following properties:
 

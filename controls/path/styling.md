@@ -67,7 +67,7 @@ The `RadPath` element exposes the following properties you can use to customize 
 
 The following image shows the result:
 
-![RadPath Styling](images/path_styling.png)
+![Path Styling](images/path_styling.png)
 
 
 ## See Also

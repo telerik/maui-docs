@@ -45,7 +45,7 @@ Here are the specific properties defined for `DataGridPickerColumn`:
 </telerik:DataGridComboBoxColumn>
 ```
 
-![Picker Column](images/pickercolumn-overview.png)
+![DataGrid Picker Column](images/pickercolumn-overview.png)
 
 ## See Also
 

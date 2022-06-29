@@ -52,7 +52,7 @@ The following example demonstrates how to set the `IndeterminateColor` and `Inde
 
 The image below shows the end result.
 
-![CheckBox Color Changing Options Example](images/checkbox-colors.png)
+![CheckBox Color Changing Options](images/checkbox-colors.png)
 
 ## Stroke Thickness
 
@@ -66,7 +66,7 @@ The following example demonstrates how to apply a `StrokeWidth` value.
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length`.
 
-![CheckBox Key Feature Example](images/checkbox-features.png)
+![CheckBox Stroke Thickness](images/checkbox-features.png)
 
 ## See Also
 

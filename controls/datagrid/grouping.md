@@ -59,7 +59,7 @@ this.dataGrid.GroupDescriptors.Add(new Telerik.XamarinForms.Common.Data.Property
 
 Here is how the DataGrid looks when it is grouped:
 
-![](images/datagrid_grouping.png)
+![DataGrid Property GroupDescriptor](images/datagrid_grouping.png)
 
 ### Delegate Group Descriptor
 
@@ -81,7 +81,7 @@ Add it to the `GroupDescriptors` collection of the `RadDataGrid` instance:
 
 Here is how the DataGrid looks when it is grouped through a `DelegateGroupDescriptor`:
 
-![](images/datagrid_grouping_delegategroup.png)
+![DataGrid Delegate GroupDescriptor](images/datagrid_grouping_delegategroup.png)
 
 ## Expand and Collapse Groups
 

@@ -34,7 +34,7 @@ When your .NET MAUI application is set up, you are ready to add a ComboBox contr
 
 Here is the result:
 
-![ComboBox Getting Started Example](images/combobox-getting-started.png)
+![ComboBox Getting Started](images/combobox-getting-started.png)
 
 ### Binding to a complex object
 
@@ -54,7 +54,7 @@ and the ViewModel used:
 
 Here is the result:
 
-![ComboBox Getting Started Example](images/combobox-getting-started-complex-data.png)
+![ComboBox Binding](images/combobox-getting-started-complex-data.png)
 
 >important For the ComboBox Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

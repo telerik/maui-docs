@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Badge Default control Template](images/badgeview-default-controltemplate.png)
+![Badge Default Control Template](images/badgeview-default-controltemplate.png)
 
 ### Use a Custom ControlTemplate
 

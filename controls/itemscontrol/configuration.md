@@ -70,7 +70,7 @@ public class ViewModel
 
 The following image shows the end result.
 
-![](images/itemscontrol-itemssource.png)
+![ItemsControl ItemsSource](images/itemscontrol-itemssource.png)
 
 ## Customizing the Appearance
 
@@ -105,7 +105,7 @@ The following example demonstrates how to set the items template and uses the `E
 
 The following image shows the end result.
 
-![](images/itemscontrol-itemtemplate.png)
+![ItemsControl Item Template](images/itemscontrol-itemtemplate.png)
 
 ## See Also
 

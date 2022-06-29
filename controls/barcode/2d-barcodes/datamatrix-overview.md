@@ -16,7 +16,7 @@ Data Matrix code consists of dark and light square cells that form a matrix. The
 
 **A Data Matrix Barcode**
 
-![DataMatrix barcode](images/barcode-datamatrix-structure.png)
+![Barcode DataMatrix](images/barcode-datamatrix-structure.png)
 
 * **Finder pattern**&mdash;The L-shaped lines at the bottom and left of the code are called "finder pattern". It is used by the readers for orientation, adjustment and to correct distortion.
 

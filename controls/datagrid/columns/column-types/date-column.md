@@ -38,7 +38,7 @@ The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Te
 </telerik:DataGridDateColumn>
 ```
 
-![Date Column](images/datecolumn-overview.png)
+![DataGrid Date Column](images/datecolumn-overview.png)
 
 ## See Also
 

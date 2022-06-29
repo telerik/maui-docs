@@ -15,7 +15,7 @@ The Gauge indicators are elements that display data-related values in a differen
 
 The `GaugeNeedleIndicator` is part of the Radial Gauge. It presents a single value set by the `Value` property. The needle is intended to be visually similar to an actual gauge needle. The center of rotation of the needle coincides with the center of the gauge and is directed towards where the value on the gauge axis is. How far the tip of the needle gets is determined by its `Position` and `Offset` properties.
 
-![Gauge example](images/gauge-needle-indicator.png)
+![Gauge Indicators](images/gauge-needle-indicator.png)
 
 ## Custom Needle Indicator
 
@@ -31,9 +31,9 @@ When the gauge draws the needle, the geometry is scaled to the size in which it 
 
 In the following example, the angle of rotation is 45 degrees and, in this case, coincides with the needle value.
 
-![Gauge example](images/gauge-needle-indicator-shape.png)
-![Gauge example](images/gauge-needle-indicator-shape-rotated.png)
-![Gauge example](images/gauge-needle-indicator-with-grid.png)
+![Gauge needle indicator](images/gauge-needle-indicator-shape.png)
+![Gauge needle indicator](images/gauge-needle-indicator-shape-rotated.png)
+![Gauge needle indicator](images/gauge-needle-indicator-with-grid.png)
 
 The following example demonstrates a custom needle shape:
 
@@ -59,7 +59,7 @@ The following example demonstrates a custom needle shape:
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-custom-needle-shape.png)
+![Gauge needle indicator](images/gauge-custom-needle-shape.png)
 
 ## Shape Indicator
 
@@ -70,7 +70,7 @@ The `GaugeShapeIndicator` supports the following properties:
 
 The shape indicator is essentially a square box and is drawn so that its center coincides with the point defined by the `Position` and `Offset` properties. The shape is rotated around its center so that the default arrow shape always points towards the axis line.
 
-![Gauge example](images/gauge-shape-indicator.png)
+![Gauge shape indicator](images/gauge-shape-indicator.png)
 
 ## Customizing the Shape Indicator
 
@@ -84,7 +84,7 @@ When the shape geometry is set, the gauge expects that these conditions are met:
 
 When the gauge draws the shape, the geometry is scaled to the size in which it will be displayed. Then it is moved to the point defined by the `Position` and `Offset` properties. It is then rotated so that the shape points at the axis line. In the example below, the indicator value is 3.5 and the angle of rotation is 35 degrees.
 
-![Gauge example](images/gauge-shape-indicator-gif.gif)
+![Gauge shape indicator customization](images/gauge-shape-indicator-gif.gif)
 
 Here is an example of a custom shape:
 
@@ -99,7 +99,7 @@ Here is an example of a custom shape:
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-shape-custom-shape.png)
+![Gauge custom shape indicator](images/gauge-shape-custom-shape.png)
 
 ## Bar Indicator
 
@@ -144,7 +144,7 @@ The `GaugeBarIndicator` presents a value range set by the `From` and `To` proper
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-bar-indicator-overview.png)
+![Gauge range bar indicator](images/gauge-bar-indicator-overview.png)
 
 In addition, the Range Bar indicator has the following properties:
 
@@ -174,7 +174,7 @@ The `GaugeTextIndicator` allows you to present some text on a specific value.
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-indicators-text-indicator.png)
+![Gauge text indicator](images/gauge-indicators-text-indicator.png)
 
 ## See Also
 

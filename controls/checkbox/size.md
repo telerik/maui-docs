@@ -20,7 +20,7 @@ The following example demonstrates how to set the `Length` value.
 
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
 
-![CheckBox Key Feature Example](images/checkbox-features.png)
+![CheckBox Stroke Size](images/checkbox-features.png)
 
 ## See Also
 

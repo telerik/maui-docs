@@ -87,7 +87,7 @@ You can control the numeric format of the content of the labels. The default lab
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-axis-label-format.png)
+![Gauge label format](images/gauge-axis-label-format.png)
 
 ## Label and Tick Position
 
@@ -104,7 +104,7 @@ In the Radial Gauge, the Gauge elements can be positioned on the inside or on th
 
 The following image shows the end result.
 
-![Gauge example](images/gauge-axis-label-and-tick-position.png)
+![Gauge label and tick position](images/gauge-axis-label-and-tick-position.png)
 
 ## Offset and Length
 

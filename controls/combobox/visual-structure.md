@@ -12,25 +12,25 @@ Here are described all visual elements used in the ComboBox for .NET MAUI.
 
 ## ComboBox Visual Structure
 
-![Placeholder Visual Structure](images/combobox-visual-structure.png "Visual elements of ComboBox control")
+![ComboBox Placeholder Visual Structure](images/combobox-visual-structure.png "Visual elements of ComboBox control")
 
 ### Single Selection
 
-![Single Selection Visual Structure](images/combobox-single-selection-visual-structure.png "Visual elements of ComboBox control")
+![ComboBox Single Selection Visual Structure](images/combobox-single-selection-visual-structure.png "Visual elements of ComboBox control")
 
 ### Multiple Selection
 
-![ComboBox Visual Structure](images/combobox-multiple-selection-visual-structure.png "Visual elements of ComboBox control")
+![ComboBox Multiple Selection Visual Structure](images/combobox-multiple-selection-visual-structure.png "Visual elements of ComboBox control")
 
 ## DropDown Visual Structure
 
 ### Single Selection
 
-![DropDown Visual Structure](images/dropdown-single-selection.png "Visual elements of ComboBox control")
+![ComboBox DropDown Single Selection Visual Structure](images/dropdown-single-selection.png "Visual elements of ComboBox control")
 
 ### Multiple Selection
 
-![DropDown Visual Structure](images/dropdown-multiple-selection.png "Visual elements of ComboBox control")
+![ComboBox DropDown Multiple Selection Visual Structure](images/dropdown-multiple-selection.png "Visual elements of ComboBox control")
 
 ## Legend
 

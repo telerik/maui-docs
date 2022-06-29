@@ -14,7 +14,7 @@ slug: chart-overview
 
 The intuitive object model and public API allow complex charts to be easily set up either in XAML or in code-behind. The Chart is completely data-aware as the binding mechanism of the control is used to create the appropriate data points from the raw data. Chart types and series are organized in hierarchies, depending on the coordinate system, used to plot data points.
 
-![Chart examples](images/chart-overview.png)
+![Chart Overview](images/chart-overview.png)
 
 ## Available Chart Types
 

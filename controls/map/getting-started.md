@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Getting Started Example](images/map_getting_started.png)
+![Map Getting Started](images/map_getting_started.png)
 
 ## Prerequisites
 

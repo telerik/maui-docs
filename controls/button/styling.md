@@ -22,7 +22,7 @@ The snippet below demonstrates how to define the `BorderThickness` property.
 
 The following image shows the end result.
 
-![Button Key Features Example](images/button-key-features.png)
+![Button Styling](images/button-key-features.png)
 
 ## See Also
 

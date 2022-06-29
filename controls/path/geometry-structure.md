@@ -27,7 +27,7 @@ The `RadArcSegment` represents an elliptical arc between two points. It exposes 
 
 The scheme below shows how `StartAngle` and `SweepAngle` are applied to the `ArcSegment`:
 
-![ArcSegment Angles](images/path_arcsegment_scheme.png)
+![Path ArcSegment Angles](images/path_arcsegment_scheme.png)
 
 The following example shows a sample implementation of an `RadArcSegment` object.
 

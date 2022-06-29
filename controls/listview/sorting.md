@@ -45,7 +45,7 @@ Where the `Person` class is defined like this:
 
 The following image shows the result once the data is sorted.
 
-![Sorting](images/listview-features-sorting.png "Sorting")
+![ListView Sorting](images/listview-features-sorting.png "Sorting")
 
 ## Bindable SortDescriptors
 
@@ -111,7 +111,7 @@ private void UpdateExistingSortDescriptor()
 
 The following image shows the result:
 
-![SortDescriptorMVVM](images/listview-features-bindable-sort.png)
+![ListView Sort Descriptor MVVM](images/listview-features-bindable-sort.png)
 
 ## See Also
 

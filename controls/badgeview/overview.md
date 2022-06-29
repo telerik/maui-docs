@@ -13,7 +13,7 @@ slug: badgeview-overview
 
 Badges can be used as an additional marker for any element: to decorate avatars, navigation menus, or other components in the application when the visual notification is needed. In addition, you can change the look of the Badge indicator by setting different predefined Badge types, and by using templates and various styling options.    
 
-![RadBadgeView Overview](images/badgeview-overview.png)
+![BadgeView Overview](images/badgeview-overview.png)
 
 
 ## Key Features

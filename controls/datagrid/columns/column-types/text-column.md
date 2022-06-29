@@ -44,7 +44,7 @@ Here is an example how the Text Column properties can be used:
  </telerik:DataGridTextColumn>
 ```
 
-![Text Column](images/textcolumn-overview.png)
+![DataGrid Text Column](images/textcolumn-overview.png)
 
 ## See Also
 

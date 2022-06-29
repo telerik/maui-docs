@@ -58,7 +58,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The first and second columns have set widths of 100 and 200, respectively:
 
-![DataGrid SizeMode Property](../images/datagrid-columns-width-fixed.png)
+![DataGrid Fixes Column Size](../images/datagrid-columns-width-fixed.png)
 
 ### Second scenario when SizeMode="Stretch":
 
@@ -79,7 +79,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The columns take all the available space proportionally. The Width property is ignored.
 
-![DataGrid SizeMode Property](../images/datagrid-columns-width-stretch.png)
+![DataGrid Stretch Column Size](../images/datagrid-columns-width-stretch.png)
 
 ### Third scenario when SizeMode="Auto":
 
@@ -100,7 +100,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The columns take only as much space as they need. The Width property is ignored.
 
-![DataGrid SizeMode Property](../images/datagrid-columns-width-auto.png)
+![DataGrid Auto Column Size](../images/datagrid-columns-width-auto.png)
 
 ###  Fourth scenario with different SizeMode values
 
@@ -124,7 +124,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The first and the third columns each have a fixed size of 100 and the second column takes all the available space because of SizeMode="Stretch":
 
-![DataGrid SizeMode Property](../images/datagrid-columns-width.png)
+![DataGrid SizeMode](../images/datagrid-columns-width.png)
 
 ## See Also
 

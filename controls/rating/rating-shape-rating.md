@@ -42,13 +42,13 @@ The Rating supports the following geometry types:
 
 - `Heart`
 
- ![](images/rating-heart.png)
+ ![Heart Shape Rating](images/rating-heart.png)
 
  <snippet id='rating-geometries-heart' />
 
 - Custom `RadPathGeometry` shape:
 
- ![](images/rating-triangle.png)
+ ![Custom Shape Rating](images/rating-triangle.png)
 
  <snippet id='rating-geometries-customgeometry ' />
 

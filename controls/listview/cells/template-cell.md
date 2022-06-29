@@ -11,11 +11,11 @@ slug: listview-templatecell
 
 Cells in the ListView are the presentation of each data item from the control's `ItemsSource`. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.
 
-The `ListViewTemplateCell` derives from `Xamarin.Forms.ViewCell` and used to present complex data sets as `RadListView.ItemTemplate`.
+The `ListViewTemplateCell` derives from `Microsoft.Maui.Controls.ViewCell` and used to present complex data sets as `RadListView.ItemTemplate`.
 
 The example below demonstrates how to create a ListView with templated cells, like this:
 
-![](../images/listview-celltypes-templatecell.png)
+![ListView Template Cell](../images/listview-celltypes-templatecell.png)
 
 Create a view model that will be the source of the ListView:
 

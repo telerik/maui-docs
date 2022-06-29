@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![RadPath Figures](images/custom_default_paths.png)
+![Path Figures](images/custom_default_paths.png)
 
 ## See Also
 

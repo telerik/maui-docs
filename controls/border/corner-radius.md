@@ -18,7 +18,7 @@ The `CornerRadius` property represents the degree to which the corners of the Bo
 
 The following image shows the result from that implementation.
 
-![Border CornerRadius Example](images/border_corner_radius.png)
+![Border CornerRadius](images/border_corner_radius.png)
 
 Additionally, the wrapped content will be clipped according to the specified corner radius of each side. The following example demonstrates how to render a circle image by wrapping an Image control in a Border.
 

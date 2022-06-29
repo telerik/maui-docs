@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Getting Started Example](images/badgeview-getting-started.png)
+![BadgeView Getting Started](images/badgeview-getting-started.png)
 
 ## Prerequisites
 

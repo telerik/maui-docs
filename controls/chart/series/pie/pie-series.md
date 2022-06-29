@@ -36,7 +36,7 @@ The following example shows how to create a basic `RadPieChart` with a Pie Serie
 
 The following image shows the end result:
 
-![Basic PieSeries using the following properties](images/pie-series-basic-example.png)
+![Chart PieSeries](images/pie-series-basic-example.png)
 
 ## See Also
 

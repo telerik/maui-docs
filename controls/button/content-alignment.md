@@ -25,7 +25,7 @@ The following example demonstrates how to use the properties.
 
 The following image shows the end result.
 
-![Button Key Features Example](images/button-key-features.png)
+![Button Content Alignment](images/button-key-features.png)
 
 ## See Also
 

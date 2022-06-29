@@ -43,7 +43,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![](../images/listview_grouping_multilevel.png)
+![ListView Multi-Level Grouping](../images/listview_grouping_multilevel.png)
 
 ## See Also
 

@@ -45,7 +45,7 @@ Check below a quick example:
 
 And the result is the following:
 
-![](images/styling-headerstyle.png)
+![TabView Header Style](images/styling-headerstyle.png)
 
 ## HeaderItem Styling
 
@@ -74,7 +74,7 @@ Through `HeaderItemStyle` property of the TabView the following styling properti
 
 Here is the TabView after applying the `HeaderItemStyle`:
 
-![](images/styling-headeritemstyle.png)
+![TabView HeaderItem Style](images/styling-headeritemstyle.png)
 
 ## Content Styling
 
@@ -90,7 +90,7 @@ TabView's `ContentStyle` property allows you to style the content area. `TabView
 
 The image below shows TabView after applying `ContentStyle`:
 
-![](images/styling-contentstyle.png)
+![TabView Content Style](images/styling-contentstyle.png)
 
 ## See Also
 

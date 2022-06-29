@@ -38,7 +38,7 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 </telerik:DataGridTimeColumn>
 ```
 
-![Time Column](images/timecolumn-overview.png)
+![DataGrid Time Column](images/timecolumn-overview.png)
 
 ## See Also
 
