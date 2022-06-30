@@ -3,9 +3,9 @@ title: Different color for each bar
 description: Apply different bar chart colors using MVVM.
 type: how-to
 page_title: Different Chart Palette for Bar Series using MVVM pattern.
-slug: net-maui-chart-palette-mvvm
+slug: chart-color-for-each-bar-mvvm
 position: 
-tags: maui, chart, barseries
+tags: maui, chart, barseries, chart color, bar color, mvvm
 ticketid: 1567000
 res_type: kb
 ---
@@ -26,8 +26,8 @@ res_type: kb
 
 
 ## Description
-Currently the only way to add a Chart Palette is by adding a Palette entry in XAML.
-To be able to set a different color to the Bar Series Chart by using a MVVM manner, a custom chart Palette has to be created in the ViewModel
+Currently the only way to add a Chart Palette is by adding a Palette entry in XAML. This article will show you how-to set a different color to the Chart Bar Series using MVVM manner.
+In general you have to create a custom chart palette in the ViewModel
 
 ## Solution
 This solution uses the code from Telerik UI for .NET MAUI documentation for Bar Series and adds the necessary components to achieve the desired result: 
