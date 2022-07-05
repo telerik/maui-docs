@@ -17,7 +17,6 @@ If you want to completely customize the content of the cells in a grid column, y
 * `GroupDescriptor` (`GroupDescriptorBase`)
 * `CellContentTemplate` (`DataTemplate`)&mdash;Defines the `DataTemplate` instance that sets the appearance of each cell associated with this column.
 * `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.
-* `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 
 >important For more information about sorting and grouping, refer to the [DataGrid Sorting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
 
