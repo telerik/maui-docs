@@ -67,7 +67,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the TemplatedPicker visual structure:
 
-![TemplatedPicker](images/templated_picker_visual_structure.png)
+![TemplatedPicker Templates](images/templated_picker_visual_structure.png)
 
 ## See Also
 

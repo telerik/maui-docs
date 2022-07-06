@@ -74,7 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows how the TimePicker control looks when the styles described above are applied.
 
-![Time Picker](../images/templatedpicker_popupstyle.png)
+![TemplatedPicker Popup Style](../images/templatedpicker_popupstyle.png)
 
 ## See Also
 

@@ -85,7 +85,7 @@ The following examples demonstrate how to set the `SpinnerFormat` property of th
 
 And the result:
 
-![](images/datetimepicker-string-format-mmmm-dd.png)
+![DateTimePicker Spinner Format](images/datetimepicker-string-format-mmmm-dd.png)
 
 ### SpinnerFormat="dd"
 
@@ -95,7 +95,7 @@ And the result:
 
 And the result:
 
-![](images/datetimepicker-string-format-dd.png)
+![DateTimePicker Spinner Format](images/datetimepicker-string-format-dd.png)
 
 ### SpinnerFormat="H:mm"
 
@@ -105,7 +105,7 @@ And the result:
 
 And the result:
 
-![](images/datetimepicker-string-format-H-mm.png)
+![DateTimePicker Spinner Format](images/datetimepicker-string-format-H-mm.png)
 
 ## See Also
 

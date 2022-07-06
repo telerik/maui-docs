@@ -21,7 +21,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![](images/templatedpicker-pickermode-popup.png)
+![CustomPicker Picker Mode](images/templatedpicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 

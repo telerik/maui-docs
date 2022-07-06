@@ -74,7 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  
 The following image shows what the DatePicker control looks like when the styles described above are applied on different platforms:
 
-![DatePicker](../images/datepicker_style.png)
+![DatePicker Styling](../images/datepicker_style.png)
 
 ## See Also
 

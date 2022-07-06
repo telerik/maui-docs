@@ -13,13 +13,13 @@ This article describes all visual elements that are used in the TimeSpanPicker f
 
 ## Before and After Time Interval Selection
 
-![TimeSpan Picker Visual Structure](images/timespan_picker_placeholder_display.png "Visual elements of TimeSpan Picker control")
+![TimeSpanPicker Visual Structure](images/timespan_picker_placeholder_display.png "Visual elements of TimeSpan Picker control")
 
 ## Popup Visual Structure
 
 >note Currently, the TimeSpanPicker does not provide spinners for milliseconds.
 
-![TimeSpan Picker Popup Visual Structure](images/timespan_picker_structure.png "Visual elements of TimeSpan Picker Popup")
+![TimeSpanPicker Popup Visual Structure](images/timespan_picker_structure.png "Visual elements of TimeSpan Picker Popup")
 
 ## Legend
 

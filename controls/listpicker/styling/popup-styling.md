@@ -76,7 +76,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the DateTimePicker control looks like when the styles described above are applied:
 
-![ListPicker](../images/listpicker_popupstyle.png)
+![ListPicker Popup Styling](../images/listpicker_popupstyle.png)
 
 ## See Also
 

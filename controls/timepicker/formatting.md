@@ -73,7 +73,7 @@ The following example demonstrates how to set `SpinnerFormat="H:mm"`.
 
 The following image shows the end result.
 
-![](images/timepicker-string-format-H-mm.png)
+![TimePicker Formatting](images/timepicker-string-format-H-mm.png)
 
 ## See Also
 

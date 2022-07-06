@@ -37,13 +37,13 @@ For the example, the template definitions are added to the page resources as fol
 <snippet id='timepicker-placeholder-template' />
 
 
-![RadTimePicker PlaceholderTemplate](images/timepicker_placeholder_template.png)
+![TimePicker PlaceholderTemplate](images/timepicker_placeholder_template.png)
 
 ## DisplayTemplate
 
 <snippet id='timepicker-display-template' />
 
-![RadTimePicker DisplayTemplate](images/timepicker_display_template.png)
+![TimePicker DisplayTemplate](images/timepicker_display_template.png)
 
 ## HeaderTemplate
 
@@ -53,7 +53,7 @@ For the example, the template definitions are added to the page resources as fol
 
 <snippet id='timepicker-footer-template' />
 
-![RadTimePicker FooterTemplate](images/timepicker_header_footer_template.png)
+![TimePicker FooterTemplate](images/timepicker_header_footer_template.png)
 
 
 ## See Also
