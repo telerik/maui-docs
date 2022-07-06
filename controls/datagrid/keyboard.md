@@ -12,8 +12,8 @@ RadDataGrid exposes several useful properties and events, which can help you con
 
 In the following table you can find some of the actions and the respective hotkeys that invoke them:
 
-| Hotkey 		            | Action 			|
-|---------------------------|-------------------|
+| Hotkey 		    | Action 			|
+|-------------------|-------------------|
 | `Arrow Keys`      | Тhe current cell will be changed. The selection will be changed as well when in single mode.|
 | `F2`              |Enter in edit mode of the current cell.|
 | `Enter `	        |Select next/previous row. When in edit mode the changes will be committed and the next row will be selected.|
