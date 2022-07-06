@@ -25,16 +25,6 @@ The `DropDownSettings` also provides the following properties for dropdown custo
 
 > __DropDownSettings__ provides styling options for the dropdown, its footer and position, and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the TimePicker. For more detailed information on them go to [TimePicker Styling]({%slug timepicker-styling%}) topic.
 
-## Namespaces
-
-When defining some of these styles, you need to include additional namespaces, so that the target types are properly resolved.
-
-When you use `PopupViewStyle`, `HeaderStyle`, or `FooterStyle`, you will need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Example
 
 The following example shows how the styling properties are applied.
@@ -69,7 +59,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows how the TimePicker control looks when the styles described above are applied.
 
-![Time Picker](../images/timepicker_style.png)
+![Time Picker](../images/timepicker_dropdownstyle.png)
 
 ## See Also
 

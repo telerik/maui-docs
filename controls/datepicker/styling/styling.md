@@ -22,24 +22,16 @@ The control supports the following styling properties:
 * `DisplayLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the style applied to the label, which is visualized when a date is selected.
 
 
-The following Style properties are related to the spinner controls inside the popup/dropdown:
 
+The following Style properties are related to the spinner controls inside the popup/dropdown:
 
 * `SpinnerStyle`(of type `Style` with target type `telerik:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
 * `SpinnerHeaderStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to each spinner header label.
 * `SelectionHighlightStyle`(of type `Style` with target type `telerik:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
 
-## Namespaces
-
-When you use `SelectionHighlightStyle` and `SpinnerStyle`, you need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Styling Examples
 
-The following examples demonstrate how to define use the styling properties of the DatePicker.
+The following examples demonstrate how to use the styling properties of the DatePicker.
 
 **Define the `RadDatePicker`**
 
@@ -73,13 +65,14 @@ The following examples demonstrate how to define use the styling properties of t
 
 <snippet id='datepicker-style-toggle-button-style' />
 
-In addition, add the following namespaces:
+In addition, add the `telerik` namespaces:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-The following image shows what the DatePicker control looks like when the styles described above are applied:
+ 
+The following image shows what the DatePicker control looks like when the styles described above are applied on different platforms:
 
 ![DatePicker](../images/datepicker_style.png)
 
