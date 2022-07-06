@@ -43,16 +43,16 @@ The `SortIndicator` is shown once the `RadDataGridColumnHeader` is sorted (tappe
 
 >note By default, the indicator is represented by a string symbol that can be changed by using the `IndicatorText` and `IndicatorFontFamily` properties. For more details, refer to the [article on sorting the DataGrid]({%slug datagrid-sorting-overview%}).
 
-### OptiponsButton Styling
+### OptionsButton Styling
 
 > OptionsButton (three dots) is visualized only on Android and iOS. The button opens the built-in filtering UI.
 
-Style the `OptiponsButton` using the following properties:
+Style the `OptionsButton` using the following properties:
 
-* `OptiponsButtonTextColor`&mdash;Defines the color for the option indicator part of the `ColumnHeader`.  
-* `OptiponsButtonText`&mdash;Defines the text for the option indicator part of the `ColumnHeader`.  
-* `OptiponsButtonMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
-* `Font Options`(`OptiponsButtonFontAttributes`, `OptiponsButtonFontFamily`, `OptiponsButtonFontSize`)&mdash;Define the font options to the option indicator text. 
+* `OptionsButtonTextColor`&mdash;Defines the color for the option indicator part of the `ColumnHeader`.  
+* `OptionsButtonText`&mdash;Defines the text for the option indicator part of the `ColumnHeader`.  
+* `OptionsButtonMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
+* `Font Options`(`OptionsButtonFontAttributes`, `OptionsButtonFontFamily`, `OptionsButtonFontSize`)&mdash;Define the font options to the option indicator text. 
 
 
 ### FilterIndicator Styling
