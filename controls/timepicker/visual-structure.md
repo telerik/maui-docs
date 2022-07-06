@@ -13,11 +13,11 @@ This article describes all visual elements that are used in the TimePicker for .
 
 ## Before and After Time Value Selection
 
-![Time Picker Visual Structure](images/time_picker_placeholder_display.png "Visual elements of Time Picker control")
+![TimePicker Visual Structure](images/time_picker_placeholder_display.png "Visual elements of Time Picker control")
 
 ## Popup Visual Structure
 
-![Time Picker Popup Visual Structure](images/time_picker_structure.png "Visual elements of Time Picker Popup")
+![TimePicker Popup Visual Structure](images/time_picker_structure.png "Visual elements of Time Picker Popup")
 
 ## Legend
 

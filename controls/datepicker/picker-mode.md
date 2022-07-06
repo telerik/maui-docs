@@ -23,7 +23,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![](images/datepicker-pickermode-popup.png)
+![DatePicker Picker Mode](images/datepicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
@@ -35,7 +35,7 @@ Quick example of `PickerMode` set to `DropDown`:
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/datepicker-pickermode-dropdown.png)
+![DatePicker Picker Mode](images/datepicker-pickermode-dropdown.png)
 
 ## Toggle Button
 

@@ -21,7 +21,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![](images/listpicker-pickermode-popup.png)
+![ListPicker Popup Picker Mode](images/listpicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
@@ -31,7 +31,7 @@ Quick example of `PickerMode` set to `DropDown`:
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/listpicker-pickermode-dropdown.png)
+![ListPicker DropDown Picker Mode](images/listpicker-pickermode-dropdown.png)
 
 > Go to [Getting Started]({%slug listpicker-getting-started%}) topic for the complete example with the ListPicker control.
 

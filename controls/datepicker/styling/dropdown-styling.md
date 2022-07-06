@@ -66,7 +66,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the DatePicker control looks like when the styles described above are applied:
 
-![DatePicker](../images/datepicker_dropdown_styling.png)
+![DatePicker DropDown Styling](../images/datepicker_dropdown_styling.png)
 
 ## See Also
 

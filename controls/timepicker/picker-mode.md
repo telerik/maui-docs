@@ -22,7 +22,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![](images/timepicker-pickermode-popup.png)
+![TimePicker Picker mode](images/timepicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
@@ -33,7 +33,7 @@ Quick example of `PickerMode` set to `DropDown`:
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/timepicker-pickermode-dropdown.png)
+![TimePicker Picker mode](images/timepicker-pickermode-dropdown.png)
 
 ## Toggle Button
 

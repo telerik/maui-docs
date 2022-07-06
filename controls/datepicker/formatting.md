@@ -81,10 +81,9 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerik:RadDatePicker SpinnerFormat="MMMM dd" />
 ```
 
-
 The following image shows the result:
 
-![](images/datepicker-string-format-mmmm-dd.png)
+![DatePicker Spinner Format](images/datepicker-string-format-mmmm-dd.png)
 
 ### SpinnerFormat="dd"
 
@@ -94,10 +93,9 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerik:RadDatePicker SpinnerFormat="dd" />
 ```
 
-
 The following image shows the result:
 
-![](images/datepicker-string-format-dd.png)
+![DatePicker Spinner Format](images/datepicker-string-format-dd.png)
 
 ### SpinnerFormat="MMM yyyy"
 
@@ -107,10 +105,9 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerik:RadDatePicker SpinnerFormat="MMM yyyy" />
 ```
 
-
 The following image shows the result:
 
-![](images/datepicker-string-format-mmm-yyyy.png)
+![DatePicker Spinner Format](images/datepicker-string-format-mmm-yyyy.png)
 
 ### SpinnerFormat="yyyy/dd/MMM"
 
@@ -120,10 +117,9 @@ The following example demonstrates how to set the `SpinnerFormat` property to th
 <telerik:RadDatePicker SpinnerFormat="yyyy/dd/MMM" />
 ```
 
-
 The following image shows the result:
 
-![](images/datepicker-string-format-yyyy-dd-MMM.png)
+![DatePicker Spinner Format](images/datepicker-string-format-yyyy-dd-MMM.png)
 
 ## See Also
 

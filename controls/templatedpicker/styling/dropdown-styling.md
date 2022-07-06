@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows how the TemplatedPicker control looks when the styles described above are applied.
 
-![Time Picker](../images/templatedpicker_dropdownstyle.png)
+![TemplatedPicker DropDown Styling](../images/templatedpicker_dropdownstyle.png)
 
 ## See Also
 
