@@ -77,7 +77,7 @@ The following examples demonstrate how to define use the styling properties of t
 
 The following image shows what the DateTimePicker control looks like when the styles described above are applied:
 
-![DateTimePicker](../images/datepicker_style.png)
+![DateTimePicker](../images/datetimepicker_style.png)
 
 ## See Also
 

@@ -32,16 +32,6 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the accept button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the cancel button. By default, the text is `Cancel`.
 
-## Namespaces
-
-When defining some of these styles, you need to include additional namespaces, so that the target types are properly resolved.
-
-When you use `PopupViewStyle`, `HeaderStyle`, or `FooterStyle`, you will need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Example
 
 The following example shows how the styling properties are applied.
@@ -84,7 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows how the TimePicker control looks when the styles described above are applied.
 
-![Time Picker](../images/timepicker_style.png)
+![Time Picker](../images/templatedpicker_popupstyle.png)
 
 ## See Also
 

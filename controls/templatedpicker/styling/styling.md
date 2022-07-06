@@ -23,14 +23,6 @@ The control supports the following styling properties:
 
 The TemplatedPicker exposes the following properties for styling its border and background color:
 
-## Namespaces
-
-When you use one of the `PopupViewStyle`, `HeaderStyle`, `FooterStyle` styles, you need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Example
 
 The following example shows how the styling properties are applied.
@@ -67,7 +59,7 @@ this.BindingContext = new LocationViewModel();
 
 This is how the TemplatedPicker looks when the styling properties are applied:
 
-![TemplatedPicker Styling](images/templatedpicker_styling.png)
+![TemplatedPicker Styling](../images/templatedpicker_styling.png)
 
 >important For a sample Styling example, refer to the `TemplatedPicker/Styling` folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
 

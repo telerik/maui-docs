@@ -23,14 +23,6 @@ The `DropDownSettings` also provides the following properties for dropdown custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
-## Namespaces
-
-When you use `DropDownViewStyle`, `FooterStyle`, you will need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Styling Examples
 
 The following examples demonstrate how to define use the styling properties of the ListPicker.
@@ -60,7 +52,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the ListPicker control looks like when the styles described above are applied:
 
-![ListPicker](../images/datepicker_style.png)
+![ListPicker](../images/listpicker_dropdownstyle.png)
 
 ## See Also
 

@@ -125,7 +125,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is how the TimeSpanPicker control looks when the styles described above are applied:
 
-![TimeSpan Picker](../images/timespan_picker_style.png)
+![TimeSpan Picker](../images/timespan_picker_popupstyle.png)
 
 ## See Also
 
