@@ -29,11 +29,11 @@ In the following table you can find some of the actions and the respective hotke
 
 
 
-* `CurrentCell`(of type `DataGridCellInfo`)&mdash; Defines the information for the current cell received when keyboard navigation. 
+* `CurrentCell`(of type `DataGridCellInfo`)&mdash; Specifies the information for the current cell received during a keyboard navigation. 
 
 ## Events
 
-DataGrid exposes the `CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives two parameters:
+DataGrid exposes the `CurrentCellChanged` event which is invoked when the current cell changes during a keyboard navigation. The `CurrentCellChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
 		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
