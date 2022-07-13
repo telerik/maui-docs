@@ -1,11 +1,10 @@
 ---
 title: Bindable GroupDescriptor
 page_title: .NET MAUI ListView Documentation - Bindable Group Descriptors
-description: Check our &quot;Bindable GroupDescriptor&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Explore the Telerik UI for .NET MAUI ListView bindable GroupDescriptor feature that lets you control the GroupDescriptor through MVVM
 position: 10
 slug: listview-bindable-group-descriptor
 previous_url: /controls/listview/grouping/listview-bindable-group-descriptor
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor
 ---
 

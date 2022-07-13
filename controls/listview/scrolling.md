@@ -1,11 +1,10 @@
 ---
 title: Scrolling
 page_title: .NET MAUI ListView Documentation - Scrolling
-description: Check our &quot;Scrolling&quot; documentation article for Telerik ListView for .NET MAUI control.
+description: Try now the Telerik UI for .NET MAUI ListView Scrolling options like the Vertical Scrollbar and programmatic scrolling with the ScrollItemIntoView method.
 position: 9
 slug: listview-features-scrolling
 previous_url: /controls/listview/listview-features-scrolling
-description: Describing how to scroll RadListView to a certain item
 tags: programmatic, scrolling
 ---
 

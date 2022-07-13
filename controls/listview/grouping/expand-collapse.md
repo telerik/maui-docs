@@ -1,11 +1,10 @@
 ---
 title: Expand and Collapse Groups
 page_title: .NET MAUI ListView Documentation - Expand and Collapse Groups
-description: Check our &quot;Expand and Collapse Groups&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Try the Telerik UI for .NET MAUI ListView Expand and Collapse group operations and review how to use them programmatically and how to handle the GroupHeaderTap Command.
 position: 3
 slug: listview-features-expand-collapse
 previous_url: /controls/listview/grouping/listview-features-expand-collapse
-description: Describing RadListView grouping feature
 tags: group, radlistview, expand, collapse, collapsible
 ---
 

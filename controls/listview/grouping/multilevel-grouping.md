@@ -1,11 +1,10 @@
 ---
 title: Multi-Level Grouping
 page_title: .NET MAUI ListView Documentation - Grouping
-description: Check our &quot;Multi-Level Grouping&quot; documentation article for Telerik ListView for .NET MAUI
+description: Review the Telerik UI for .NET MAUI ListView Multi-Level Grouping feature and how to enable it. 
 position: 5
 slug: listview-grouping-multilevel
 previous_url: /controls/listview/grouping/listview-grouping-multilevel
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor, multilevel
 ---
 

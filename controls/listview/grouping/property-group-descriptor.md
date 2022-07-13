@@ -1,11 +1,10 @@
 ---
 title: Property Group Descriptor
 page_title: .NET MAUI ListView Documentation - Grouping
-description: Check our &quot;Property Group Descriptor&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Try now the Telerik UI for .NET MAUI ListView option PropertyGroupDescriptor for grouping items by a property value from the class that defines them.
 position: 1
 slug: listview-property-group-descriptor
 previous_url: /controls/listview/grouping/listview-property-group-descriptor
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor
 ---
 

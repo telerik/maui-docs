@@ -1,11 +1,10 @@
 ---
 title: Delegate Group Descriptor
 page_title: .NET MAUI ListView Documentation - Grouping
-description: Check our &quot;Delegate Group Descriptor&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Review the Telerik UI for .NET MAUI ListView DelegateGroupDescriptor option which enables you to group by a custom key
 position: 2
 slug: listview-delegate-group-descriptor
 previous_url: /controls/listview/grouping/listview-delegate-group-descriptor
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor
 ---
 

@@ -1,11 +1,10 @@
 ---
 title: GroupHeader Style
 page_title: .NET MAUI ListView Documentation - GroupHeader Style
-description: Check our &quot;GroupHeader Style&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Explore the Telerik UI for .NET MAUI ListView GroupHeader style feature options that let you modify the visual appearance of its group headers when grouping is enabled.
 position: 2
 slug: listview-styling-group-header
 previous_url: /controls/listview/styling/listview-styling-group-header
-description: Describing the styling options of the RadListView
 tags: style, group, header
 ---
 
