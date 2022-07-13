@@ -35,7 +35,7 @@ For more information about Filtering options in DataGrid review the [DataGrid Fi
 		- `DataView`(`IDataViewCollection`)&mdash;Implementation that allows for traversing and/or manipulating the already computed data view.
 
 
-* `SelectionChanged` event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
+* `SelectionChanged` event is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
 		- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
