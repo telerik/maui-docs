@@ -44,7 +44,7 @@ For more information about Filtering options in DataGrid review the [DataGrid Fi
 For more information about `SelectionChanged` event review the [DataGrid Selection article]({%slug datagrid-selection-overview%}).
 
 
-`CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives two parameters:
+* `CurrentCellChanged` event is invoked when the current cell changes. The `CurrentCellChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
 		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
