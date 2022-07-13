@@ -15,10 +15,11 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
 * `GroupHeaderStyle`&mdash;Defines the appearance style of the group header once the DataGrid is grouped.
 * `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
+* `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
 
 ## Styling Properties
 
-`RowBackgroundStyle`, `AlternateRowBackgroundStyle`, and `SelectionStyle` are of type `DataGridBorderStyle` that defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
+`RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle` and `CurrentCellStyle` are of type `DataGridBorderStyle` that defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
 
 Example how to set the `RowBackgroundStyle` property:
 
@@ -31,6 +32,10 @@ Example how to set the `AlternateRowBackgroundStyle` is shown below:
 The `SelectionStyle` property can be set as shown below:
 
 <snippet id='datagrid-styling-selectionstyle'/>
+
+The `CurrentCellStyle` property can be set as shown below:
+
+<snippet id='datagrid-keyboard-navigation-style' />
 
 The `GoupHeaderStyle` property is applied once the DataGrid is grouped.
 

@@ -35,13 +35,22 @@ For more information about Filtering options in DataGrid review the [DataGrid Fi
 		- `DataView`(`IDataViewCollection`)&mdash;Implementation that allows for traversing and/or manipulating the already computed data view.
 
 
-* `SelectionChanged`&mdash;event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
+* `SelectionChanged` event that is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
 		- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
 		- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
 
-For more information about SelectionChanged event review the [DataGrid Selection article]({%slug datagrid-selection-overview%}).
+For more information about `SelectionChanged` event review the [DataGrid Selection article]({%slug datagrid-selection-overview%}).
+
+
+`CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives two parameters:
+	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
+	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
+		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
+		- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
+
+For more information about `CurrentCellChanged` event review the [DataGrid Current Cell article]({%slug datagrid-current-cell%}).
 
 
 ## Example
