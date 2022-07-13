@@ -1,14 +1,14 @@
 ---
-title: Keyboard
+title: Keyboard Support
 page_title: .NET MAUI DataGrid Documentation - Keyboard
-description: Check тхе Telerik DataGrid for .NET MAUI Keyboard navigation article.
+description: Check the Telerik DataGrid for .NET MAUI Keyboard navigation article.
 position: 9
-slug: datagrid-keyboard
+slug: datagrid-keyboard-support
 ---
 
-# Keyboard
+# Keyboard Support
 
-RadDataGrid exposes several useful properties and events, which can help you control the keyboard interaction and get notified when keyboard events occur.
+RadDataGrid exposes several useful properties and events, which can help you control the keyboard interaction and get notified when current cell is chnaged during keyboard navigation.
 
 >important Keyboard navigation support is available only on Windows.
 
