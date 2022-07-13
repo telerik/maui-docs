@@ -1,11 +1,10 @@
 ---
 title: Filtering
 page_title: .NET MAUI ListView Documentation - Filtering
-description: Check our &quot;Filtering&quot; documentation article for Telerik ListView for .NET MAUI control.
+description: Check the Telerik .NET MAUI ListView filtering options like programmatically filtering and using filter descriptors.
 position: 6
 slug: listview-features-filtering
 previous_url: /controls/listview/listview-features-filtering
-description: Describing RadListView filtering feature
 tags: filter, radlistview, filterdescriptor
 ---
 

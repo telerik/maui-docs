@@ -1,11 +1,10 @@
 ---
 title: Overview
 page_title: .NET MAUI ListView Documentation - Grouping
-description: Check our &quot;Overview&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Review the Telerik UI for .NET MAUI ListView Grouping feature.
 position: 0
 slug: listview-features-grouping
 previous_url: /controls/listview/grouping/listview-grouping
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI Map Documentation - Map Commands
-description: All Commands available in Telerik Map for .NET MAUI control. 
+description: Try the Telerik UI for .NET MAUI Map commands used for handling the zoom level. 
 position: 8
 slug: map-commands
 ---
