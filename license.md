@@ -1,6 +1,7 @@
 ---
 title: Licensing
 page_title: Telerik .NET MAUI - License Agreement
+description: Telerik .NET MAUI End User License agreeement
 slug: license-agreement
 position: 60
 previous_url: /licensing/license-agreement
