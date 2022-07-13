@@ -16,7 +16,7 @@ The `CurrentCellChanged` event is invoked when the current cell changes during a
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
 		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
-		- `NewCurrentCell`&mdash;Gets the new `CurrentCell` received from the keyboard navigation.
+		- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
 
 
 ## Styling
