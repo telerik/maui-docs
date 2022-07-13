@@ -8,11 +8,11 @@ slug: datagrid-current-cell
 
 # Current Cell
 
-DataGrid control gives you the option to define the current cell using the `CurrentCell`(of type `DataGridCellInfo`)property. You can modify the current cell programmatically, during a keyboard navigation, using a mouse, etc. 
+DataGrid control gives you the option to define the current cell using the `CurrentCell`(of type `DataGridCellInfo`) property. You can modify the current cell programmatically, during a keyboard navigation, using a mouse, etc. 
 
 ## Event
 
-The `CurrentCellChanged` event is invoked when the current cell changes during a keyboard navigation. The `CurrentCellChanged` event handler receives two parameters:
+* `CurrentCellChanged` event is invoked when the current cell changes during a keyboard navigation. The `CurrentCellChanged` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
 		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
