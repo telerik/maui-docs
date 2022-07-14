@@ -28,7 +28,7 @@ In the following table you can find some of the actions and the respective hotke
 | `Ctrl + Home`		| Focus first cell of grid. |
 | `Ctrl + End`		| Focus last cell of grid. |
 | `Tab `	        | Focus next cell. When in edit mode - next cell editor is focused. |
-| `Shift + Tab`		| Focus previous cell. When in edit mode - previous editoris focused. |
+| `Shift + Tab`		| Focus previous cell. When in edit mode - previous editor is focused. |
 
 ## See Also
 
