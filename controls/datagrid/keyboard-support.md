@@ -21,14 +21,14 @@ In the following table you can find some of the actions and the respective hotke
 | `F2`              | Put current cell in edit mode. |
 | `Enter`	        | Select next/previous row. When in edit mode the changes are committed and the next row is selected. |
 | `Esc`				| Cancel the editing of the current cell. |
-| `PageUp`		    | Focus first cell. |
-| `PageDown`	    | Focus last cell. |
+| `PageUp`		    | Focus first cell of view port. |
+| `PageDown`	    | Focus last cell of view port. |
 | `Home`	        | Focus first cell of selected row. |
 | `End`				| Focus last cell of selected row. |
-| `Ctrl + Home`		| Focus the first cell of the grid. |
-| `Ctrl + End`		| Focus the last cell of the grid. |
-| `Tab `	        | Focus next cell. We tries to focus the next editor when in edit mode. |
-| `Shift + Tab`		| Focus previous cell. We tries to focus the previous editor when in edit mode. |
+| `Ctrl + Home`		| Focus first cell of grid. |
+| `Ctrl + End`		| Focus last cell of grid. |
+| `Tab `	        | Focus next cell. When in edit mode - next cell editor is focused. |
+| `Shift + Tab`		| Focus previous cell. When in edit mode - previous editoris focused. |
 
 ## See Also
 
