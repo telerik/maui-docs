@@ -1,11 +1,10 @@
 ---
 title: Item Styles
 page_title: .NET MAUI ListView Documentation - Item Styles
-description: Check our &quot;Item Styles&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Check the Telerik for .NET MAUI ListView styling options for the ListViewItemStyle object
 position: 0
 slug: listview-features-styling
 previous_url: /controls/listview/styling/listview-features-styling
-description: Describing the styling options of the RadListView
 tags: style, selected, hovered, pressed, item, highlighted
 ---
 

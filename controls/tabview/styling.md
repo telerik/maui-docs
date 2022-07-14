@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI TabView Documentation - Styling
-description: TabView Styling documentation.
+description: Review the Telerik for .NET MAUI TabView styling options like Header styling, HeaderItem styling and Content styling
 slug: tabview-styling
 tags: tabview, overview
 position: 15

@@ -1,11 +1,10 @@
 ---
 title: Sticky Group Headers
 page_title: .NET MAUI ListView Documentation - Sticky Group Grouping
-description: Check our &quot;Sticky Group Headers&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Review the Telerik UI for .NET MAUI ListView Sticky Group Headers option which if enabled makes the GroupHeader freeze while scrolling through the items until the whole group is scrolled away.
 position: 6
 slug: listview-sticky-group-header
 previous_url: /controls/listview/grouping/listview-sticky-group-header
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor, sticky, group, headers
 ---
 

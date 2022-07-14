@@ -1,11 +1,10 @@
 ---
 title: Group Header Template
 page_title: .NET MAUI ListView Documentation - Group Templates
-description: Check our &quot;Group Header Template&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Check the Telerik UI for .NET MAUI ListView GroupHeader's BindingContext properties and how to define a custom GroupHeaderTemplate.
 position: 4
 slug: listview-customize-group-header
 previous_url: /controls/listview/grouping/listview-customize-group-header
-description: Describing RadListView grouping feature
 tags: group, radlistview, groupdescriptor, custom group header
 ---
 
