@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI ListView Documentation - Commands
-description: Check the Telerik UI for .NET MAUI ListView Commands collection that lets you register custom commands.
+description: Review the Telerik UI for .NET MAUI ListView Commands for operations like item swiping, item tap, reordering, pull to refresh, grouping and more. 
 position: 13
 slug: listview-features-commands
 previous_url: /controls/listview/listview-features-commands
