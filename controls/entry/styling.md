@@ -16,7 +16,7 @@ The Entry provides styling options for setting the appearance of its border and 
 Style the entry using the following properties:
 
 * `CornerRadius`(`Microsoft.Maui.CornerRadius`)
-* `BackgroundColor``(`Microsoft.Maui.Graphics`)
+* `BackgroundColor`(`Microsoft.Maui.Graphics`)
 
 ## ClearButton Style
 
