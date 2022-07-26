@@ -1,7 +1,7 @@
 ---
 title: Migrate my Xamarin.Forms app to .NET MAUI app
 page_title: Migrate my Xamarin.Forms app to .NET MAUI app
-description: "Get started with migrating your existing Xamarin.Forms app to .NET MAUI and replacing Telerik Xamarin controls with Telerik .NET controls."
+description: "Get started with migrating your existing Xamarin.Forms app to .NET MAUI and replacing Telerik Xamarin controls with Telerik .NET MAUI controls."
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-to-net-maui
 position: 40
