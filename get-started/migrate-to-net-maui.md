@@ -1,7 +1,7 @@
 ---
 title: Migrate my Xamarin.Forms app to .NET MAUI app
 page_title: Migrate my Xamarin.Forms app to .NET MAUI app
-description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls by using the Telerik NuGet Server with Visual Studio for Windows."
+description: "Get started with migrating your existing Xamarin.Forms app to .NET MAUI and replacing Telerik Xamarin controls with Telerik .NET controls."
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-to-net-maui
 position: 40
@@ -37,24 +37,26 @@ In general, there are two ways to reference our controls – by manually adding 
 
 * Use Telerik Nuget Server to reference Telerik nuget package
 
-You've already had **Telerik Nuget Server** configured in Visual Studio. All you need to do is to uninstall `Telerik.UI.for.Xamarin` nuget package and install `Telerik.UI.for.Maui` package instead.
+	You've already had **Telerik Nuget Server** configured in Visual Studio. All you need to do is to uninstall `Telerik.UI.for.Xamarin` nuget package and install `Telerik.UI.for.Maui` package instead.
 
-> Check detailed steps on how to configure Telerik Nuget Server and install the Telerik .NET MAUI nuget package here: [Installing with Nuget]({%slug telerik-nuget-server%}).
+	> Check detailed steps on how to configure Telerik Nuget Server and install the Telerik .NET MAUI nuget package here: [Installing with Nuget]({%slug telerik-nuget-server%}).
 
 * Reference required assemblies
 
-If you've added the Telerik Xamarin assemblies to the corresponding projects - shared, Android, iOS, the same approach is also available for .NET MAUI controls.
+	If you've added the Telerik Xamarin assemblies to the corresponding projects - shared, Android, iOS, the same approach is also available for .NET MAUI controls.
 
-You would need to download either an automatic installation for Windows/Mac or a zip containing the binaries from your Telerik account - find detailed steps in the [Download Product Files]({%slug download-product-files%}) topic.
+	You would need to download either an automatic installation for Windows/Mac or a zip containing the binaries from your Telerik account - find detailed steps in the [Download Product Files]({%slug download-product-files%}) topic.
 
-&mdash;For automatic installation guide on Windows refer to [Installing Telerik UI for .NET MAUI from MSI file]({%slug install-msi%});
-&mdash;For automatic installation on Mac go to [Installing Telerik UI for .NET MAUI from PKG file]({%slug install-pkg%}).
- 
-No matter whether you've used the automatic installation or the zip, you'll have Binaries folder containing all the needed assemblies in platform-specific folders - Android, iOS, MacCatalyst, WinUI.
+	* For automatic installation guide on Windows refer to [Installing Telerik UI for .NET MAUI from MSI file]({%slug install-msi%});
+	* For automatic installation on Mac go to [Installing Telerik UI for .NET MAUI from PKG file]({%slug install-pkg%}).
+	 
+	No matter whether you've used the automatic installation or the zip, you'll have Binaries folder containing all the needed assemblies in platform-specific folders - Android, iOS, MacCatalyst, WinUI.
 
-Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:
+	Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:
 
-![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
+	![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
+	
+	>important As some of the controls included in Telerik UI for .NET MAUI suite rely on **SkiaSharp** rendering library, you should also install **SkiaSharp.Views.Maui.Controls.Compatibility** nuget package.
 
 ### Step 2: Register the Telerik .NET MAUI controls inside CreateMauiApp method:
 
@@ -155,7 +157,58 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Port Custom Renderers to Handlers
 
+In Xamarin.Forms custom renderers and platform effects are widely used in order to customize the appearance and behavior of the native controls on each platform. Now we have .NET MAUI, where the renderers are replaced with handlers and in this section you will find a quick example on how to port a sample custom renderer to a handler.
 
+>important Check the Microsoft guide for custom renderers to handlers migration here: [Porting Custom Renderers to Handlers](https://github.com/dotnet/maui/wiki/Porting-Custom-Renderers-to-Handlers).
+
+For the purpose of the example let's take the following Xamarin.Forms ListView custom renderer on iOS for disabling bounce effect in iOS ListView:
+
+```C#
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+using MyXamarinApp.iOS;
+using Telerik.XamarinForms.DataControls;
+
+[assembly: ExportRenderer(typeof(RadListView), typeof(CustomListViewRenderer))]
+namespace MyXamarinApp.iOS
+{
+    public class CustomListViewRenderer : Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer
+    {
+        protected override void OnElementChanged(ElementChangedEventArgs<RadListView> e)
+        {
+            base.OnElementChanged(e);
+
+            var nativeListView = this.Control as Telerik.XamarinForms.DataControlsRenderer.iOS.TKExtendedListView;
+            if (nativeListView != null)
+            {
+                nativeListView.Layout.CollectionView.Bounces = false;
+            }
+        }
+    }
+}
+```
+
+In .NET MAUI you would need to use the `HandlerChanged` event to access the native view and apply any customizations. So, first subscribe to `HandlerChanged` using your `RadListView` instance:
+
+```C#
+this.listView.HandlerChanged += ListView_HandlerChanged;
+```
+
+Then, inside the "ListView_HandlerChanged" event handler use preprocessor directives for iOS, access the native ListView control and apply the required settings:
+
+```C#
+private void ListView_HandlerChanged(object sender, EventArgs e)
+{
+	var handler = ((RadListView)sender).Handler;
+	if (handler != null)
+	{
+#if __IOS__
+		var nativeView = handler.PlatformView as Telerik.Maui.Controls.Compatibility.DataControlsRenderer.iOS.TKExtendedListView;
+		nativeView.Layout.CollectionView.Bounces = false;	
+#endif
+    }
+}
+```
 	
 ## See Also
 
