@@ -47,3 +47,4 @@ Below you can find a list of the available files:
 - [Installing from MSI file]({%slug install-msi%})
 - [Installing from PKG file]({%slug install-pkg%})
 - [Installing with NuGet]({%slug telerik-nuget-server%})
+- [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})
