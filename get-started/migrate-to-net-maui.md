@@ -45,7 +45,7 @@ In general, there are two ways to reference our controls – by manually adding 
 
 	In order to get the Telerik .NET MAUI .nupkg file you have to download an `automatic installation` for Windows/Mac or the `.zip` containing the nupkg, or the `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account - find detailed steps in the [Download Product Files]({%slug download-product-files%}) topic. 
 
-	> Check detailed steps on how to setup the Local Nuget Package at the official Microsoft documentation here: [Seting up Local NuGet Feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
+    When the .nupkg file is available on your machine, then you can setup the local nuget feed. The steps on how to setup the Local Nuget Package are described in the official Microsoft documentation: [Seting up Local NuGet Feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
 
 
 ### Step 2: Register the Telerik .NET MAUI controls inside CreateMauiApp method:
