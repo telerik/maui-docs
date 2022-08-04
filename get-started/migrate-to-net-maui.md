@@ -41,22 +41,12 @@ In general, there are two ways to reference our controls – by manually adding 
 
 	> Check detailed steps on how to configure Telerik Nuget Server and install the Telerik .NET MAUI nuget package here: [Installing with Nuget]({%slug telerik-nuget-server%}).
 
-* Reference required assemblies
+* Use local nuget feeds to reference the Telerik UI for .NET MAUI nuget package
 
-	If you've added the Telerik Xamarin assemblies to the corresponding projects - shared, Android, iOS, the same approach is also available for .NET MAUI controls.
+	In order to get the Telerik .NET MAUI .nupkg file you have to download an `automatic installation` for Windows/Mac or the `.zip` containing the nupkg, or the `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account - find detailed steps in the [Download Product Files]({%slug download-product-files%}) topic. 
 
-	You would need to download either an automatic installation for Windows/Mac or a zip containing the binaries from your Telerik account - find detailed steps in the [Download Product Files]({%slug download-product-files%}) topic.
+	> Check detailed steps on how to setup the Local Nuget Package at the official Microsoft documentation here: [Seting up Local NuGet Feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
 
-	* For automatic installation guide on Windows refer to [Installing Telerik UI for .NET MAUI from MSI file]({%slug install-msi%});
-	* For automatic installation on Mac go to [Installing Telerik UI for .NET MAUI from PKG file]({%slug install-pkg%}).
-	 
-	No matter whether you've used the automatic installation or the zip, you'll have Binaries folder containing all the needed assemblies in platform-specific folders - Android, iOS, MacCatalyst, WinUI.
-
-	Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:
-
-	![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
-	
-	>important As some of the controls included in Telerik UI for .NET MAUI suite rely on **SkiaSharp** rendering library, you should also install **SkiaSharp.Views.Maui.Controls.Compatibility** nuget package.
 
 ### Step 2: Register the Telerik .NET MAUI controls inside CreateMauiApp method:
 
