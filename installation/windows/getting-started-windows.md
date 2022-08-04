@@ -53,6 +53,15 @@ If you prefer to manually reference the required Telerik UI for .NET MAUI assemb
 * Through the MSI installation - in this case after [installing Telerik UI for .NET MAUI]({%slug install-msi %}) on your machine, you can find the assemblies in the following default folder: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine;
 * Download a ZIP file containing all the assemblies, for more details on this go to [Download Product Files]({%slug download-product-files %}) topic. You can then unzip the file to any location on your machine and reference the assemblies from that location.
 
+No matter whether you've used the automatic installation or the zip, you'll have Binaries folder containing all the needed assemblies in platform-specific folders - Android, iOS, MacCatalyst, WinUI.
+
+	Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:
+
+	![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
+	
+	>important As some of the controls included in Telerik UI for .NET MAUI suite rely on **SkiaSharp** rendering library, you should also install **SkiaSharp.Views.Maui.Controls.Compatibility** nuget package.
+
+
 ## See Also
 
 - [Visual Studio Extensions]({%slug visualstudio-extensions%})
