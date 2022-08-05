@@ -2,7 +2,7 @@
 title: Column Footer
 page_title: .NET MAUI DataGrid Documentation - Footer
 description: Check our &quot;Column Footer&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 1
+position: 2
 slug: datagrid-column-footer
 ---
 
@@ -30,9 +30,9 @@ To define a text inside the footer you have to use the `FooterText` property. Th
 					 ShowColumnFooters="True" 
 					 AutoGenerateColumns="False">
 	<telerik:RadDataGrid.Columns>
-		<telerik:DataGridTextColumn PropertyName="Capital" 
+		<telerik:DataGridTextColumn PropertyName="Capital"
 									FooterText="Capital Footer"/>
-		<telerik:DataGridTextColumn PropertyName="Country" 
+		<telerik:DataGridTextColumn PropertyName="Country"
 									FooterText="Country Footer"/>
 	</telerik:RadDataGrid.Columns>
 </telerik:RadDataGrid>
