@@ -29,6 +29,8 @@ Most of the data on the Internet is stored in tables within a database. **Teleri
 
 * [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
+* [Footer support]({%slug datagrid-column-footer%}) For datagrid columns.
+
 * Rows alternation&mdash;The DataGrid supports alternating row colors so that your users can easily distinguish one row from another.
 
 * [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.

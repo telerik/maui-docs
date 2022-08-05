@@ -17,6 +17,9 @@ If you want to completely customize the content of the cells in a grid column, y
 * `GroupDescriptor` (`GroupDescriptorBase`)
 * `CellContentTemplate` (`DataTemplate`)&mdash;Defines the `DataTemplate` instance that sets the appearance of each cell associated with this column.
 * `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.
+* `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
+* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
+* `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 
 >important For more information about sorting and grouping, refer to the [DataGrid Sorting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
 

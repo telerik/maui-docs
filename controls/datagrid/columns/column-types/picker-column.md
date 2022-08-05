@@ -25,6 +25,9 @@ Here are the specific properties defined for `DataGridPickerColumn`:
 * `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContenTemplate` enables you to customize the default look of the cell.
 * `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for the Filtering UI. The template must contain an instance of the `Telerik.XamarinForms.DataGrid.DataGridFilterControlBase` class.
+* `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
+* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
+* `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 
 >tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 

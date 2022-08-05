@@ -16,6 +16,7 @@ The styling mechanism is represented by the following properties:
 * `CellContentStyle` (`Style` with `TargetType` depending on the column type)
 * `CellDecorationStyle` (`DataGridBorderStyle`)
 * `CellEditorStyle` (`Style` with `TargetType` depending on the editor type)
+* `FooterStyle` (`DataGridColumnFooterStyle`)
 
 ## HeaderStyle
 
@@ -101,6 +102,20 @@ Here is an example how to set this property:
 And this is how the column style looks when the properties for customizing the column are applied:
 
 ![DataGrid Columns Styling](../images/datagrid-columns-styling.png)
+
+## FooterStyle
+
+`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes the following properties for styling its footer:
+
+* `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
+* `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column footer.
+* `Font Options` (`TextFontFamily`, `TextFontAttributes`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnFooter`.
+* `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnFooter`.
+
+<snippet id='datagrid-columnstyle-footerstyle' />
+
+![DataGrid Column Footer](../images/column-footer-style.png)
+
 
 ## See Also
 
