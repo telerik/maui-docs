@@ -2,7 +2,7 @@
 title: Columns Cell Templates
 page_title: .NET MAUI DataGrid Documentation - Columns Cell Templates
 description: Check our &quot;Columns CellTemplates&quot; documentation article for Telerik DataGrid for .NET MAUI.
-position: 2
+position: 3
 previous_url: /controls/datagrid/columns/datagrid-columns-cell-templates
 slug: datagrid-cell-templates
 ---
