@@ -25,19 +25,6 @@ The following example shows how to define a footer in the DataGrid:
 
 To define a text inside the footer you have to use the `FooterText` property. The property is per column:
 
-```XAML
-<telerik:RadDataGrid x:Name="dataGrid" 
-					 ShowColumnFooters="True" 
-					 AutoGenerateColumns="False">
-	<telerik:RadDataGrid.Columns>
-		<telerik:DataGridTextColumn PropertyName="Capital"
-									FooterText="Capital Footer"/>
-		<telerik:DataGridTextColumn PropertyName="Country"
-									FooterText="Country Footer"/>
-	</telerik:RadDataGrid.Columns>
-</telerik:RadDataGrid>
-```
-
 > Note that the footer has to be defined per column otherwise the cell will appear empty.
 
 ## Styling 
