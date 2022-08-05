@@ -1,54 +1,64 @@
 ---
-title: Footer
+title: Column Footer
 page_title: .NET MAUI DataGrid Documentation - Footer
-description: Check our &quot;Sorting&quot; documentation article for Telerik DataGrid for .NET MAUI control.
+description: Check our &quot;Column Footer&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 1
-slug: datagrid-footer-overview
+slug: datagrid-column-footer
 ---
 
 # Column Footers
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
-By default, column footers are hidden and in order to make them visible you have to set the ShowColumnFooters property to True.
+![Column Footer](../images/column-footer.png)
 
-## Footer Example
+By default, column footers are hidden and in order to make them visible you have to set the `ShowColumnFooters` property to True.
 
-The following example shows how to define a footer in the DataGrid&mdash;
+The following example shows how to define a footer in the DataGrid:
 
 ```XAML
 <telerik:RadDataGrid x:Name="dataGrid" 
                      ShowColumnFooters="True"/>
 ```
 
-To set the value of the footer cells, you can use the Footer property when defining the columns&mdash;
+## Setting text in the footer
+
+To define a text inside the footer you have to use the `FooterText` property. The property is per column:
+
 ```XAML
-<telerik:DataGridTextColumn PropertyName="Name" 
-                            FooterText="Footer Cell"
-                            HeaderText="Name">
+<telerik:RadDataGrid x:Name="dataGrid" 
+					 ShowColumnFooters="True" 
+					 AutoGenerateColumns="False">
+	<telerik:RadDataGrid.Columns>
+		<telerik:DataGridTextColumn PropertyName="Capital" 
+									FooterText="Capital Footer"/>
+		<telerik:DataGridTextColumn PropertyName="Country" 
+									FooterText="Country Footer"/>
+	</telerik:RadDataGrid.Columns>
+</telerik:RadDataGrid>
 ```
 
-> Note that the footer content needs to be defined for every column otherwise the cell will appear empty.
+> Note that the footer has to be defined per column otherwise the cell will appear empty.
 
+## Styling 
 
-## Properties
+Use the `FooterStyle` property in order to style the DataGridColumn footer.
 
-The DataGrid footer comes with its certain set of properties. The following API has been provided&mdash;
+Check the [DataGrid Column Footer Styling]({%datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
 
-| Name 		              | Class 			 | Type 					  | Default value |
-|-------------------------|------------------|----------------------------|---------------|
-| `ShowColumnFooters`	  | `RadDataGrid` 	 | `Bool` 					  | `false`		  |
-| `FooterText` 			  | `DataGridColumn` | `String` 				  | `null` 		  |
-| `FooterStyle`    		  | `DataGridColumn` | `DataGridColumnFooterStyle`| `null` 		  |
-| `FooterContentTemplate` | `DataGridColumn` | `DataTemplate` 			  | `null` 		  |
+## Custom Footer
 
+You can easily customize the default footer appearance using the `FooterContentTemplate`(`DataTemplate`) property.
 
-* `ShowColumnFooters`&mdash;Gets or sets a value indicating whether to show column footers.
-* `FooterText`&mdash;Gets or sets the content to be displayed in the Footer UI of the Column.
-* `FooterStyle`&mdash;Gets or sets the `DataGridColumnFooterStyle` instance that defines the appearance of the DataGridColumn footer.
-* `FooterContentTemplate`&mdash;Gets or sets the DataTemplate instance that defines the appearance of the footer.
+Define the `DataTemplate` for the footer:
 
-More information about `DataGridColumnFooterStyle` you can find on the following link&mdash; ({%datagrid-columns-styling%})
+<snippet id='datagrid-footercontenttemplate-datatemplate' />
+
+Define the `FooterContentTemplate` in the DataGrid:
+
+<snippet id='datagrid-footercontenttemplate' />
+
+![DataGrid Column Footer Template](../images/footer-content-template.png)
 
 ## See Also
 

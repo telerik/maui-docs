@@ -105,23 +105,18 @@ And this is how the column style looks when the properties for customizing the c
 
 ## FooterStyle
 
-`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes properties for styling its footer.
-
-### Footer Styling
+`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes the following properties for styling its footer:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
 * `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column footer.
 * `Font Options` (`TextFontFamily`, `TextFontAttributes`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnFooter`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnFooter`.
 
-```XAML
-<telerik:DataGridTextColumn.FooterStyle>
-                        <telerik:DataGridColumnFooterStyle BackgroundColor="AliceBlue"
-                                                           TextColor="Black"
-                                                           BorderColor="DarkBlue"
-                                                           BorderThickness="3"/>
-                    </telerik:DataGridTextColumn.FooterStyle>
-```
+<snippet id='datagrid-columnstyle-footerstyle' />
+
+![DataGrid Column Footer](../images/column-footer-style.png)
+
+
 ## See Also
 
 - [DataGrid Styling]({%slug datagrid-styling%})

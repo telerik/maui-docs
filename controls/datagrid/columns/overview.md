@@ -34,6 +34,9 @@ All types of columns inherit from the `DataGridColumn` class which provides the 
 * `HeaderText` (string): Gets or sets the content to be displayed in the Header UI that represents the column.
 * `HeaderStyle` (DataGridColumnHeaderStyle): Gets or sets the Style instance that defines the appearance of the DataGridColumnHeader control.
 * `HeaderContentTemplate` (DataTemplate): Gets or sets the DataTemplate instance that defines the appearance of the header.
+* `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
+* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
+* `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 * `SizeMode` (DataGridColumnSizeMode): Gets or sets the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
   * Fixed: The column has a fixed width as defined by its Width property.
   * Stretch: The column is stretched to the available width proportionally to its desired width.
