@@ -16,10 +16,7 @@ By default, column footers are hidden and in order to make them visible you have
 
 The following example shows how to define a footer in the DataGrid:
 
-```XAML
-<telerik:RadDataGrid x:Name="dataGrid" 
-                     ShowColumnFooters="True"/>
-```
+
 
 ## Setting text in the footer
 
