@@ -19,6 +19,9 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 * `CellContentFormat`&mdash;Defines the custom format for each cell value. The `String.Format` routine is used and the format passed has to be in the form required by this method.
 * `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContenTemplate` enables you to customize the default content of the cell.
 * `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
+* `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
+* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
+* `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 
 >tip For more information about `CellDecorationStyle` and `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 
