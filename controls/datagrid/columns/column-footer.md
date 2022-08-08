@@ -11,25 +11,40 @@ slug: datagrid-column-footer
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
-![DataGrid Column Footer](../images/column-footer.png)
+![Column Footer](../images/column-footer.png)
 
 By default, column footers are hidden and in order to make them visible you have to set the `ShowColumnFooters` property to True.
 
 The following example shows how to define a footer in the DataGrid:
 
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid" 
+                     ShowColumnFooters="True"/>
+```
 
 ## Setting text in the footer
 
 To define a text inside the footer you have to use the `FooterText` property. The property is per column:
 
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid" 
+					 ShowColumnFooters="True" 
+					 AutoGenerateColumns="False">
+	<telerik:RadDataGrid.Columns>
+		<telerik:DataGridTextColumn PropertyName="Capital" 
+									FooterText="Capital Footer"/>
+		<telerik:DataGridTextColumn PropertyName="Country" 
+									FooterText="Country Footer"/>
+	</telerik:RadDataGrid.Columns>
+</telerik:RadDataGrid>
+```
 
->important Note that the footer has to be defined per column otherwise the cell will appear empty.
-
+> Note that the footer has to be defined per column otherwise the cell will appear empty.
 ## Styling 
 
 Use the `FooterStyle` property in order to style the DataGridColumn footer.
 
-Check the [DataGrid Column Footer Styling]({%datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
+Check the [DataGrid Column Footer Styling]({%slug datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
 
 ## Custom Footer
 
@@ -37,7 +52,11 @@ You can easily customize the default footer appearance using the `FooterContentT
 
 Define the `DataTemplate` for the footer:
 
+<snippet id='datagrid-footercontenttemplate-datatemplate' />
+
 Define the `FooterContentTemplate` in the DataGrid:
+
+<snippet id='datagrid-footercontenttemplate' />
 
 ![DataGrid Column Footer Template](../images/footer-content-template.png)
 
