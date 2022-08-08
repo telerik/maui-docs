@@ -1,8 +1,8 @@
 ---
-title: Column Footer
-page_title: .NET MAUI DataGrid Documentation - Footer
-description: Check our &quot;Column Footer&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 2
+title: Columns Footer
+page_title: .NET MAUI DataGrid Documentation - Columns Footer
+description: Check our &quot;Columns Footer&quot; documentation article for Telerik DataGrid for .NET MAUI.
+position: 3
 slug: datagrid-column-footer
 ---
 
@@ -16,11 +16,27 @@ By default, column footers are hidden and in order to make them visible you have
 
 The following example shows how to define a footer in the DataGrid:
 
-
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid" 
+                     ShowColumnFooters="True"/>
+```
 
 ## Setting text in the footer
 
 To define a text inside the footer you have to use the `FooterText` property. The property is per column:
+
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid" 
+					 ShowColumnFooters="True" 
+					 AutoGenerateColumns="False">
+	<telerik:RadDataGrid.Columns>
+		<telerik:DataGridTextColumn PropertyName="Capital" 
+									FooterText="Capital Footer"/>
+		<telerik:DataGridTextColumn PropertyName="Country" 
+									FooterText="Country Footer"/>
+	</telerik:RadDataGrid.Columns>
+</telerik:RadDataGrid>
+```
 
 > Note that the footer has to be defined per column otherwise the cell will appear empty.
 
