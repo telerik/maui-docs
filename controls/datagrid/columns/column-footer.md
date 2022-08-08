@@ -40,6 +40,7 @@ To define a text inside the footer you have to use the `FooterText` property. Th
 ```
 
 > Note that the footer has to be defined per column otherwise the cell will appear empty.
+
 ## Styling 
 
 Use the `FooterStyle` property in order to style the DataGridColumn footer.
