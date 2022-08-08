@@ -6,6 +6,7 @@ position: 3
 slug: datagrid-column-footer
 ---
 
+
 # Column Footers
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
@@ -44,17 +45,17 @@ To define a text inside the footer you have to use the `FooterText` property. Th
 
 Use the `FooterStyle` property in order to style the DataGridColumn footer.
 
-Check the [DataGrid Column Footer Styling]({%datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
+Check the [DataGrid Column Footer Styling]({%slug datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
 
-## Custom Footer
+## Footer Content Customization
 
-You can easily customize the default footer appearance using the `FooterContentTemplate`(`DataTemplate`) property.
+You can easily customize the content of the footer using the `FooterContentTemplate`(`DataTemplate`) property.
 
 Define the `DataTemplate` for the footer:
 
 <snippet id='datagrid-footercontenttemplate-datatemplate' />
 
-Define the `FooterContentTemplate` in the DataGrid:
+Define the `FooterContentTemplate` in the DataGridColumn:
 
 <snippet id='datagrid-footercontenttemplate' />
 
@@ -62,6 +63,6 @@ Define the `FooterContentTemplate` in the DataGrid:
 
 ## See Also
 
-- [Text Column]({%slug datagrid-columns-text-column %})
-- [Picker Column]({%slug datagrid-columns-picker-column %})
-- [Template Column]({%slug datagrid-columns-template-column %})
+- [Text Column]({%slug datagrid-columns-text-column%})
+- [Picker Column]({%slug datagrid-columns-picker-column%})
+- [Template Column]({%slug datagrid-columns-template-column%})
