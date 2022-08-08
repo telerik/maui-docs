@@ -11,9 +11,10 @@ slug: datagrid-column-footer
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
+![DataGrid Column Footer](../images/column-footer.png)
 
 ## See Also
 
-- [Text Column]({%slug datagrid-columns-text-column %})
-- [Picker Column]({%slug datagrid-columns-picker-column %})
-- [Template Column]({%slug datagrid-columns-template-column %})
+- [Text Column]({%slug datagrid-columns-text-column%})
+- [Picker Column]({%slug datagrid-columns-picker-column%})
+- [Template Column]({%slug datagrid-columns-template-column%})
