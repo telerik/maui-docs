@@ -105,7 +105,7 @@ And this is how the column style looks when the properties for customizing the c
 
 ## FooterStyle
 
-`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes the following properties for styling its footer:
+`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes the following properties for styling:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
 * `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column footer.
