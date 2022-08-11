@@ -21,15 +21,15 @@ slug: barcode-overview
 * [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;The Barcode also supports matrix barcode types such as QR Code, SwissQR Code, PDF417 and DataMatrix.
 * [Styling]({% slug barcode-styling %})&mdash;You can use the `ForegroundColor` and `BackgroundColor` properties of the Barcode for customizing its visual appearance.
 
+## Additional Resources
+
+- [.NET MAUIÂ BarcodeÂ product page](https://www.telerik.com/maui-ui/barcode)
+- [.NET MAUIÂ BarcodeÂ forum page](https://www.telerik.com/forums/maui?tagId=1780)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
 - [1D Supported Barcodes]({% slug 1dbarcode-overview %})
 - [2D Supported Barcodes]({% slug 2dbarcode-overview %})
-
-## Additional Resources
-
-- [.NET MAUI Barcode product page](https://www.telerik.com/maui-ui/barcode)
-- [.NET MAUI Barcode forum page](https://www.telerik.com/forums/maui?tagId=1780)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
