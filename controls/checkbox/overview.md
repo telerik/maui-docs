@@ -23,13 +23,13 @@ slug: checkbox-overview
 
 * [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
-## Additional Resources
+## Next Step
 
-- [.NET MAUI CheckBox product page](https://www.telerik.com/maui-ui/checkbox)
-- [.NET MAUI CheckBox forum page](https://www.telerik.com/forums/maui?tagId=1784)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Getting Started with Telerik UI for .NET MAUI CheckBox]({% slug checkbox-getting-started %})
 
 ## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI CheckBox]({% slug checkbox-getting-started %})
+- [.NET MAUIÂ CheckBoxÂ product page](https://www.telerik.com/maui-ui/checkbox)
+- [.NET MAUIÂ CheckBoxÂ forum page](https://www.telerik.com/forums/maui?tagId=1784)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
