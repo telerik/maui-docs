@@ -30,7 +30,7 @@ It provides various border thickness types and corner-side radiuses, which can b
 
 ## Additional Resources
 
--[.NET MAUI Border product page](https://www.telerik.com/maui-ui/border)
--[.NET MAUI Border forum page](https://www.telerik.com/forums/maui?tagId=1763)
--[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
--[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Border product page](https://www.telerik.com/maui-ui/border)
+- [.NET MAUI Border forum page](https://www.telerik.com/forums/maui?tagId=1763)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
