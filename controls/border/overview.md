@@ -24,13 +24,15 @@ It provides various border thickness types and corner-side radiuses, which can b
 
 * [Corner radius]({%slug border-corner-radius%})&mdash;Border allows you specify a different corner radius value for each of its four angles.
 
+## Additional Resources
+
+- [.NET MAUIÂ BorderÂ product page](https://www.telerik.com/maui-ui/border)
+- [.NET MAUIÂ BorderÂ forum page](https://www.telerik.com/forums/maui?tagId=1763)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## Next Steps
 
 - [Getting Started with the Telerik UI for .NET MAUI Border]({% slug border-getting-started %})
 
-## Additional Resources
 
-- [.NET MAUI Border product page](https://www.telerik.com/maui-ui/border)
-- [.NET MAUI Border forum page](https://www.telerik.com/forums/maui?tagId=1763)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
