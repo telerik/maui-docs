@@ -25,13 +25,13 @@ slug: templatedpicker-overview
 
 * [Commands support]({%slug templatedpicker-commands%})&mdash;The TemplatedPicker exposes the `ClearCommand` command that allows you to clear the selected item and the `ToggleCommand` that allows you to open and close the dialog.
 
-## Additional Resources
+## Next Steps
 
-- [.NET MAUI TemplatedPicker product page](https://www.telerik.com/maui-ui/templatedpicker)
-- [.NET MAUI TemplatedPicker forum page](https://www.telerik.com/forums/maui?tagId=1854)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Getting Started with Telerik UI for .NET MAUI TemplatedPicker]({%slug templatedpicker-getting-started%})
 
 ## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI TemplatedPicker]({%slug templatedpicker-getting-started%})
+- [.NET MAUIÂ TemplatedPickerÂ product page](https://www.telerik.com/maui-ui/templatedpicker)
+- [.NET MAUIÂ TemplatedPickerÂ forum page](https://www.telerik.com/forums/maui?tagId=1854)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
