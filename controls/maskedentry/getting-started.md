@@ -48,3 +48,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Prompt Character]({%slug maskedentry-prompt-character%})
 - [Events]({%slug maskedentry-events%})
 - [Globalization]({%slug maskedentry-globalization%})
+
+
+## Additional Resources
+
+-[.NET MAUI MaskedEntry product page](https://www.telerik.com/maui-ui/maskedentry)
+-[.NET MAUI MaskedEntry forum page](https://www.telerik.com/forums/maui?tagId=1852)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

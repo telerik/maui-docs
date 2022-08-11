@@ -38,6 +38,13 @@ slug: entry-overview
 
 * [Various styling options]({%slug entry-styling%})&mdash;for applying corner radius, clear button color, placeholder color and more.
 
+## Additional Resources
+
+-[.NET MAUI Entry product page](https://www.telerik.com/maui-ui/entry)
+-[.NET MAUI Entry forum page](https://www.telerik.com/forums/maui?tagId=1800)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI Entry]({% slug entry-getting-started%})

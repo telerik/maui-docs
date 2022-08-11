@@ -31,6 +31,14 @@ slug: listview-overview
 
 * [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its appearance.
 
+## Additional Resources
+
+-[.NET MAUI ListView product page](https://www.telerik.com/maui-ui/listview)
+-[.NET MAUI ListView forum page](https://www.telerik.com/forums/maui?tagId=1829)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI ListView]({% slug listview-getting-started%})
+

@@ -65,3 +65,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Text Appearance]({% slug entry-text-appearance%})
 - [Events]({% slug entry-events%})
 - [Styling]({% slug entry-styling%})
+
+## Additional Resources
+
+-[.NET MAUI Entry product page](https://www.telerik.com/maui-ui/entry)
+-[.NET MAUI Entry forum page](https://www.telerik.com/forums/maui?tagId=1800)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

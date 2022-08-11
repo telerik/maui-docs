@@ -48,6 +48,14 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 > For the BadgeView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
+## Additional Resources
+
+-[.NET MAUI BadgeView product page](https://www.telerik.com/maui-ui/badgeview)
+-[.NET MAUI BadgeView forum page](https://www.telerik.com/forums/maui?tagId=1900)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+
 ## See Also
 
 - [Configuration]({%slug badgeview-configuration%})

@@ -23,3 +23,10 @@ slug: busyindicator-overview
 
 - [Getting Started with Telerik UI for .NET MAUI BusyIndicator]({% slug busyindicator-getting-started %})
 - [Animations]({% slug busyindicator-animations %})
+
+## Additional Resources
+
+-[.NET MAUI BusyIndicator product page](https://www.telerik.com/maui-ui/busyindicator)
+-[.NET MAUI BusyIndicator forum page](https://www.telerik.com/forums/maui?tagId=1856)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

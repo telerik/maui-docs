@@ -73,3 +73,10 @@ The Chart can display different labels for the series and axes that are displaye
 - [Overview of the Pie Charts]({% slug chart-types-pie-chart %})
 - [Overview of the Chart Series]({% slug chart-series-overview %})
 - [Common Features for the Chart Series]({% slug chart-series-features %})
+
+## Additional Resources
+
+-[.NET MAUI Chart product page](https://www.telerik.com/maui-ui/chart)
+-[.NET MAUI Chart forum page](https://www.telerik.com/forums/maui?tagId=1765)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

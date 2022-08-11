@@ -22,6 +22,14 @@ slug: segmentedcontrol-overview
 
 * [Styling]({% slug segmentedcontrol-styling %})&mdash;You can customize the colors of the segments in each of the supported normal, selected, and disabled states.
 
+## Additional Resources
+
+-[.NET MAUI  product page](https://www.telerik.com/maui-ui/segmented-control)
+-[.NET MAUI  forum page](https://www.telerik.com/forums/maui?tagId=1785)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI SegmentedControl]({% slug segmentedcontrol-getting-started %})
+

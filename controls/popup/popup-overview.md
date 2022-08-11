@@ -22,6 +22,13 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 * [Animation settings]({% slug popup-animations %})&mdash;The Popup provides sleek customizable animations played while the control is displayed or hidden.
 
+## Additional Resources
+
+-[.NET MAUI Popup product page](https://www.telerik.com/maui-ui/popup)
+-[.NET MAUI Popup forum page](https://www.telerik.com/forums/maui?tagId=1782)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 * [Getting Started with Telerik UI for .NE MAUI Popup]({% slug popup-getting-started %})

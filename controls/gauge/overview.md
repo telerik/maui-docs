@@ -24,9 +24,17 @@ To provide the indicated value or values with context, the Gauges use axes and r
 * [Animations]({% slug gauge-animations %})&mdash;By default, all Gauge indicators are animated when the control initially load and when their value changes. In addition, the Gauge provides settings, which enable you to fully control their behavior.
 * [Positioning and offset]({% slug gauge-positioning %})&mdash;You can arrange the Gauge elements either according to the settings determining their position, or through the configuration options defining their offset.
 
+## Additional Resources
+
+-[.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
+-[.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI Gauge]({% slug gauge-getting-started %})
 - [Radial Gauge]({%slug gauge-types-radial%})
 - [Horizontal Gauge]({%slug gauge-types-horizontal%})
 - [Vertical Gauge]({%slug gauge-types-vertical%})
+

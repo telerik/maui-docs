@@ -27,6 +27,13 @@ slug: numericinput-overview
 
 * [Read-only mode]({%slug numericinput-read-only-mode%})&mdash;You can prevent users from typing into the input field and allow them to update the value only through the **Increase** and **Decrease** buttons.
 
+## Additional Resources
+
+-[.NET MAUI NumericInput product page](https://www.telerik.com/maui-ui/numericinput)
+-[.NET MAUI NumericInput forum page](https://www.telerik.com/forums/maui?tagId=1830)
+-[Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+-[Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI NumericInput]({%slug numericinput-getting-started%})
