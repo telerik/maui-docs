@@ -62,15 +62,15 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  }           
 ```
 
-## See Also
-
-- [Radial Gauge]({%slug gauge-types-radial%})
-- [Horizontal Gauge]({%slug gauge-types-horizontal%})
-- [Vertical Gauge]({%slug gauge-types-vertical%})
-
 ## Additional Resources
 
 - [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
 - [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Radial Gauge]({%slug gauge-types-radial%})
+- [Horizontal Gauge]({%slug gauge-types-horizontal%})
+- [Vertical Gauge]({%slug gauge-types-vertical%})

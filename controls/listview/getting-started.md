@@ -88,16 +88,16 @@ public static class MauiProgram
 }           
 ```
 
-## See Also
-
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
-- [Selection]({% slug listview-features-selection%})
-- [Grouping]({% slug listview-features-grouping%})
-
 ## Additional Resources
 
 - [.NET MAUI ListView product page](https://www.telerik.com/maui-ui/listview)
 - [.NET MAUI ListView forum page](https://www.telerik.com/forums/maui?tagId=1829)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [ListView TextCell]({% slug listview-textcell %})
+- [ListView TemplateCell]({% slug listview-templatecell %})
+- [Selection]({% slug listview-features-selection%})
+- [Grouping]({% slug listview-features-grouping%})

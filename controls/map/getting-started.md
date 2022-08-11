@@ -47,16 +47,16 @@ Before adding the Map, you need to:
 
 >note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
-## See Also
-
-- [ShapefileLayer]({% slug map-layers-shapefilelayer%})
-- [Selection]({% slug map-selection%})
-- [Styling]({% slug map-styling-shapesstyles %})
-
-
 ## Additional Resources
 
 - [.NET MAUI Map product page](https://www.telerik.com/maui-ui/map)
 - [.NET MAUI Map forum page](https://www.telerik.com/forums/maui?tagId=1870)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [ShapefileLayer]({% slug map-layers-shapefilelayer%})
+- [Selection]({% slug map-selection%})
+- [Styling]({% slug map-styling-shapesstyles %})
+

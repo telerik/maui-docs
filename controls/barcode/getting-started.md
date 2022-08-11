@@ -63,14 +63,14 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 
-## See Also
-
-- [1D Supported Barcodes]({% slug 1dbarcode-overview %})
-- [2D Supported Barcodes]({% slug 2dbarcode-overview %})
-
 ## Additional Resources
 
 - [.NET MAUI Barcode product page](https://www.telerik.com/maui-ui/barcode)
 - [.NET MAUI Barcode forum page](https://www.telerik.com/forums/maui?tagId=1780)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [1D Supported Barcodes]({% slug 1dbarcode-overview %})
+- [2D Supported Barcodes]({% slug 2dbarcode-overview %})

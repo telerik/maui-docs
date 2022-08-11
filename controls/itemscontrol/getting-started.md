@@ -67,15 +67,15 @@ this.itemsControl.ItemsSource = new List<string> {"Tom", "Anna", "Peter", "Teodo
  }           
  ```
 
-## See Also
-
-- [Setting the Items Source]({% slug itemscontrol-configuration%}#setting-the-items-source)
-
-- [Using the Items Template]({% slug itemscontrol-configuration%}#customizing-the-appearance)
-
 ## Additional Resources
 
 - [.NET MAUI ItemsControl product page](https://www.telerik.com/maui-ui/itemscontrol)
 - [.NET MAUI ItemsControl forum page](https://www.telerik.com/forums/maui?tagId=1766)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Setting the Items Source]({% slug itemscontrol-configuration%}#setting-the-items-source)
+
+- [Using the Items Template]({% slug itemscontrol-configuration%}#customizing-the-appearance)

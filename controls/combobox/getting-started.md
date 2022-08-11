@@ -58,16 +58,16 @@ Here is the result:
 
 >important For the ComboBox Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
-## See Also
-
-- [Configuration]({%slug combobox-configuration%})
-- [Data Binding]({%slug combobox-databinding%})
-- [Edit Mode & Search]({%slug combobox-editmode-and-search%}) 
-- [Single and Multiple Selection]({%slug combobox-selection%})
-
 ## Additional Resources
 
 - [.NET MAUI ComboBox product page](https://www.telerik.com/maui-ui/checkbox)
 - [.NET MAUI ComboBox forum page](https://www.telerik.com/forums/maui?tagId=1937)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Configuration]({%slug combobox-configuration%})
+- [Data Binding]({%slug combobox-databinding%})
+- [Edit Mode & Search]({%slug combobox-editmode-and-search%}) 
+- [Single and Multiple Selection]({%slug combobox-selection%})
