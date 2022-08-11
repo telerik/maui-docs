@@ -27,10 +27,10 @@ position: 0
 
 - [Getting Started with Telerik UI for .NET MAUI TabView]({%slug tabview-getting-started%})
 
-## Additional Resources
+## See Also
 
-- [.NET MAUI TabView product page](https://www.telerik.com/maui-ui/tabview)
-- [.NET MAUI TabView forum page](https://www.telerik.com/forums/maui?tagId=1871)
+- [.NET MAUIÂ TabViewÂ product page](https://www.telerik.com/maui-ui/tabview)
+- [.NET MAUIÂ TabViewÂ forum page](https://www.telerik.com/forums/maui?tagId=1871)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
