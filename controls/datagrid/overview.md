@@ -37,13 +37,13 @@ Most of the data on the Internet is stored in tables within a database. **Teleri
 
 * [Flexible styling API]({%slug datagrid-styling%})&mdash;The DataGrid is highly customizable if you prefer to use your own styling.
 
-## Additional Resources
+## Next Steps
 
-- [.NET MAUI DataGrid product page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid forum page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Getting Started with Telerik UI for .NET MAUI DataGrid]({% slug datagrid-getting-started %})
 
 ## See Also
 
-- [Getting Started with Telerik UI for .NET MAUI DataGrid]({% slug datagrid-getting-started %})
+- [.NET MAUIÂ DataGridÂ product page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUIÂ DataGridÂ forum page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
