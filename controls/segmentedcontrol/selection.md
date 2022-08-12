@@ -11,9 +11,10 @@ position: 2
 
 The SegmentedControl exposes properties, which can help you work with the items selection.
 
-## Setting the Selected Segment
+## Main Properties
 
-The SegmentedControl provides a `SelectedItem` property and a `SelectedIndex` property, which you can use to set the selected item.
+* `SelectedIndex`(`int`): Specifies the index of the first item in the current selection or -1 if the selection is empty.
+* `SelectedItem`(`object`): Defines the first item in the current selection, or null if the selection is empty.
 
 ## Setting the Selection Colors
 
