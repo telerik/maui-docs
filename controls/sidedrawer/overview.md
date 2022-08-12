@@ -26,7 +26,7 @@ slug: sidedrawer-overview
 
 - [Getting Started with Telerik UI for .NET MAUI SideDrawer]({%slug sidedrawer-getting-started%})
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI SideDrawer forum page](https://www.telerik.com/forums/maui?tagId=1938)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
