@@ -25,20 +25,13 @@ Badges can be used as an additional marker for any element: to decorate avatars,
 * [Badge types]({%slug badgeview-predefined-badges%})&mdash;You can select the type of a Badge from a set of various predefined options. Also, you can customize and style each Badge type.
 * [Flexible styling API]({%slug badgeview-styling%}) and [customization options]({%slug badgeview-customization%})–Allows you to change the `BackgroundColor`, `BorderThickness`, and `Color` properties of the BadgeView. Also, the BadgeView exposes an API which you can use to fully customize and style the Badge indicator.
 
-## Additional Resources
+## Next Steps
+
+- [Getting Started with Telerik UI for .NET MAUI BadgeView]({% slug badgeview-getting-started %})
+
+## See Also
 
 - [.NET MAUI BadgeView product page](https://www.telerik.com/maui-ui/badgeview)
 - [.NET MAUI BadgeView forum page](https://www.telerik.com/forums/maui?tagId=1900)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
-## See Also
-
-- [Visual Structure]({%slug badgeview-visual-structure%})
-- [Getting Started]({%slug badgeview-getting-started%})
-- [Configuration]({%slug badgeview-configuration%})
-- [Badge Position and Alignment]({%slug badgeview-position-alignment%})
-- [Badge Animation]({%slug badgeview-animation%})
-- [Badge Types]({%slug badgeview-predefined-badges%})
-- [Styling]({%slug badgeview-styling%})
-- [Customization]({%slug badgeview-customization%})
