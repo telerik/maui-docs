@@ -13,7 +13,7 @@ The SegmentedControl exposes properties, which can help you work with the items 
 
 ## Setting the Selected Segment
 
-The SegmentedControl provides a `SelectedIndex` property, which you can use to set the selected item.
+The SegmentedControl provides a `SelectedItem` property and a `SelectedIndex` property, which you can use to set the selected item.
 
 ## Setting the Selection Colors
 
@@ -33,32 +33,13 @@ The following example demonstrates how to utilize the selection feature of Segme
 
 1. First, create a `ViewModel` class containing the SegmentedControl items and the `int` property for defining the `SelectedIndex`:
 
- ```C#
-public class ViewModel
-{
-    public ViewModel()
-    {
-        this.Categories = new ObservableCollection<string>() { "Popular", "Library", "Playlists", "Friends" };
-        this.SelectedCategory = 2;
-    }
+<snippet id='segmentcontrol-selection-viewmodel' />
 
-    public ObservableCollection<string> Categories { get; set; }
-    public int SelectedCategory { get; set; }
-}
- ```
 
-1. Then, add the SegmentedControl definition and apply the `ItemsSource`, `SelectedIndex`, and the selection colors properties:
+1. Then, add the SegmentedControl definition and apply the `ItemsSource`, `SelectedItem`, and the selection colors properties:
 
- ```XAML
-<telerik:RadSegmentedControl x:Name="segmentControl"
-							  ItemsSource="{Binding Categories}"
-							  SelectedIndex="{Binding SelectedCategory}"
-							  SelectedSegmentTextColor="White"
-							  SelectedSegmentBackgroundColor="CornflowerBlue"                                
-							  HeightRequest="60"
-							  VerticalOptions="Start">
-</telerik:RadSegmentedControl>
- ```
+<snippet id='segmentcontrol-selection-xaml' />
+
 
 1. Lastly, define the `ViewModel` as the `BindingContext` of the control:
 
