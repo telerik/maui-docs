@@ -72,6 +72,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-* [Positioning the Content of the Button]({% slug button-content-alignment %})
-* [Setting the Border Thickness & Color of Button]({% slug button-styling %})
+- [Positioning the Content of the Button]({% slug button-content-alignment %})
+- [Setting the Border Thickness & Color of Button]({% slug button-styling %})
 - [Creating a Circular Button]({%slug button-create-circle-button%})

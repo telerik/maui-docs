@@ -77,5 +77,4 @@ this.itemsControl.ItemsSource = new List<string> {"Tom", "Anna", "Peter", "Teodo
 ## See Also
 
 - [Setting the Items Source]({% slug itemscontrol-configuration%}#setting-the-items-source)
-
 - [Using the Items Template]({% slug itemscontrol-configuration%}#customizing-the-appearance)

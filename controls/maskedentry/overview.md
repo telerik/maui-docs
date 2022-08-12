@@ -39,7 +39,7 @@ slug: maskedentry-overview
 
 - [Getting Started with Telerik UI for .NET MAUI MaskedEntry]({%slug maskedentry-getting-started%})
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI MaskedEntry product page](https://www.telerik.com/maui-ui/maskedentry)
 - [.NET MAUI MaskedEntry forum page](https://www.telerik.com/forums/maui?tagId=1852)

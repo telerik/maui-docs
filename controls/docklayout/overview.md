@@ -18,13 +18,14 @@ slug: docklayout-overview
 * [Docking functionality]({% slug docklayout-docking %})&mdash;You can set the position of each child element inside the layout as well as render multiple child elements to one side.
 * [Adaptable docking]({% slug docklayout-docking %}#setting-the-position-of-the-last-child-element)&mdash;The DockLayout enables you to overwrite the default behavior of the last docked element, which stretches over the remaining space that is unoccupied by the other child elements.
 
-## Additional Resources
+
+## Next steps
+
+- [Getting Started with Telerik UI for .NET MAUI DockLayout]({% slug docklayout-getting-started %})
+
+## See also
 
 - [.NET MAUI DockLayout product page](https://www.telerik.com/maui-ui/docklayout)
 - [.NET MAUI DockLayout forum page](https://www.telerik.com/forums/maui?tagId=1828)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
-## See Also
-
-- [Getting Started with Telerik UI for .NET MAUI DockLayout]({% slug docklayout-getting-started %})

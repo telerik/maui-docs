@@ -25,7 +25,7 @@ slug: path-overview
 
 * [Getting Started with Telerik UI for .NET MAUI Path]({%slug path-getting-started %})
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI Path product page](https://www.telerik.com/maui-ui/path)
 - [.NET MAUI Path forum page](https://www.telerik.com/forums/maui?tagId=1783)

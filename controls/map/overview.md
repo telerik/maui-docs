@@ -34,7 +34,7 @@ slug: map-overview
 
 - [Getting Started with Telerik UI for .NET MAUI Map]({%slug map-getting-started %})
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI Map product page](https://www.telerik.com/maui-ui/map)
 - [.NET MAUI Map forum page](https://www.telerik.com/forums/maui?tagId=1870)

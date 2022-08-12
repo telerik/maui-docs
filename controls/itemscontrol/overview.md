@@ -23,7 +23,7 @@ previous_url: /controls/itemscontrol/itemscontrol-overview
 
 - [Getting Started with Telerik UI for .NET MAUI ItemsControl]({% slug itemscontrol-getting-started %})
 
-## Additional Resources
+## See also
 
 - [.NET MAUI ItemsControl product page](https://www.telerik.com/maui-ui/itemscontrol)
 - [.NET MAUI ItemsControl forum page](https://www.telerik.com/forums/maui?tagId=1766)

@@ -23,7 +23,7 @@ slug: checkbox-overview
 
 * [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
-## Next Step
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI CheckBox]({% slug checkbox-getting-started %})
 

@@ -26,7 +26,7 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 * [Getting Started with Telerik UI for .NE MAUI Popup]({% slug popup-getting-started %})
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI Popup product page](https://www.telerik.com/maui-ui/popup)
 - [.NET MAUI Popup forum page](https://www.telerik.com/forums/maui?tagId=1782)

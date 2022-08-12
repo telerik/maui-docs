@@ -26,7 +26,7 @@ slug: rating-overview
 - [Configuration of the Rating]({%slug rating-configuration%})
 
 
-## Additional Resources
+## See Also
 
 - [.NET MAUI Rating product page](https://www.telerik.com/maui-ui/rating)
 - [.NET MAUI Rating forum page](https://www.telerik.com/forums/maui?tagId=1857)
