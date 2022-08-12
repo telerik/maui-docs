@@ -34,9 +34,9 @@ slug: datetimepicker-overview
 
 - [Getting Started with Telerik UI for .NET MAUI DateTimePicker]({%slug datetimepicker-getting-started%})
 
-## Additional Resources
+## See Also
 
-- [.NET MAUI DateTimePicker product page](https://www.telerik.com/maui-ui/datetimepicker)
-- [.NET MAUI DateTimePicker forum page](https://www.telerik.com/forums/maui?tagId=1918)
+- [.NET MAUIÂ DateTimePickerÂ product page](https://www.telerik.com/maui-ui/datetimepicker)
+- [.NET MAUIÂ DateTimePickerÂ forum page](https://www.telerik.com/forums/maui?tagId=1918)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
