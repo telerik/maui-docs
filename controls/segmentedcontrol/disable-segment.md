@@ -28,27 +28,11 @@ The following example shows how to disable a segment and define a color for it.
 
 Define the control.
 
-```XAML
-<telerik:RadSegmentedControl x:Name="segmentControl"
-							  DisabledSegmentTextColor="#CA5100"
-							  HeightRequest="60"
-							  VerticalOptions="Start">
-    <telerik:RadSegmentedControl.ItemsSource>
-        <x:Array Type="{x:Type x:String}">
-            <x:String>Popular</x:String>
-            <x:String>Library</x:String>
-            <x:String>Playlists</x:String>
-            <x:String>Friends</x:String>
-        </x:Array>
-    </telerik:RadSegmentedControl.ItemsSource>
-</telerik:RadSegmentedControl>
-```
+<snippet id='segmentcontrol-disablesegment-xaml' />
 
 You can disable any segment with `SetSegmentEnabled` method:
 
-```C#
-this.segmentControl.SetSegmentEnabled(2, false);
-```
+<snippet id='segmentcontrol-disablesegment-setsegmentenabled' />
 
 The following image shows the end result.
 
