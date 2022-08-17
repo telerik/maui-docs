@@ -56,10 +56,6 @@ Style the `Indicator` using the following properties:
 
 ### FilterIndicator Styling
 
-> On Mobile (Android and iOS)&mdash;`FilterIndicator` is shown once the `RadDataGridColumnHeader` is filtered. 
->
-> On Desktop(MacCatalyst and Windows)&mdash;`FilterIndicator` is shown by default.
-
 Style the `FilterIndicator` using the following properties:
 
 * `FilterIndicatorTextColor`&mdash;Defines the color for the filter indicator part of the `ColumnHeader`.  
