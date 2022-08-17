@@ -44,16 +44,14 @@ The `SortIndicator` is shown once the `RadDataGridColumnHeader` is sorted (tappe
 
 >note By default, the indicator is represented by a string symbol that can be changed by using the `IndicatorText` and `IndicatorFontFamily` properties. For more details, refer to the [article on sorting the DataGrid]({%slug datagrid-sorting-overview%}).
 
-### OptionsButton Styling
+### Indicator Styling
 
-> OptionsButton (three dots) is visualized only on Android and iOS. The button opens the built-in filtering UI.
+Style the `Indicator` using the following properties:
 
-Style the `OptionsButton` using the following properties:
-
-* `OptionsButtonTextColor`&mdash;Defines the color for the option indicator part of the `ColumnHeader`.  
-* `OptionsButtonText`&mdash;Defines the text for the option indicator part of the `ColumnHeader`.  
-* `OptionsButtonMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
-* `Font Options`(`OptionsButtonFontAttributes`, `OptionsButtonFontFamily`, `OptionsButtonFontSize`)&mdash;Define the font options to the option indicator text. 
+ * `IndicatorColor`&mdash;Defines the color for the indicator part of the `ColumnHeader`.
+* `IndicatorText`&mdash;Defines the text for the indicator part of the `ColumnHeader`.  
+* `IndicatorMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
+* `Font Options`(`IndicatorFontAttributes`, `IndicatorFontFamily`, `IndicatorFontSize`)&mdash;Define the font options to the option indicator text. 
 
 
 ### FilterIndicator Styling
@@ -65,7 +63,7 @@ Style the `OptionsButton` using the following properties:
 Style the `FilterIndicator` using the following properties:
 
 * `FilterIndicatorTextColor`&mdash;Defines the color for the filter indicator part of the `ColumnHeader`.  
-* `FilterIndicatorText`&mdash;Defines the text for the filter indicator part of the `ColumnHeader`.  
+* `FilterIndicatorText`&mdash;Defines the text for the filter indicator part of the `ColumnHeader`. For the `FilterIndicatorText` to appear the `FilterIndicatorFontFamily` should be specified.
 * `FilterIndicatorMargin`&mdash;Defines the margin of the filter indicator part of the `ColumnHeader`.
 * `Font Options`(`FilterIndicatorFontAttributes`, `FilterIndicatorFontFamily`, `FilterIndicatorFontSize`)&mdash;Define the font options to the filter indicator text. 
 
