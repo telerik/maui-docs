@@ -48,7 +48,7 @@ The `SortIndicator` is shown once the `RadDataGridColumnHeader` is sorted (tappe
 
 Style the `Indicator` using the following properties:
 
- * `IndicatorColor`&mdash;Defines the color for the indicator part of the `ColumnHeader`.
+* `IndicatorColor`&mdash;Defines the color for the indicator part of the `ColumnHeader`.
 * `IndicatorText`&mdash;Defines the text for the indicator part of the `ColumnHeader`.  
 * `IndicatorMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
 * `Font Options`(`IndicatorFontAttributes`, `IndicatorFontFamily`, `IndicatorFontSize`)&mdash;Define the font options to the option indicator text. 
