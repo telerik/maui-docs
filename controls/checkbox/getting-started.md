@@ -65,8 +65,8 @@ Before adding the CheckBox, you need to:
 
 ## Additional Resources
 
-- [.NET MAUI CheckBox product page](https://www.telerik.com/maui-ui/checkbox)
-- [.NET MAUI CheckBox forum page](https://www.telerik.com/forums/maui?tagId=1784)
+- [.NET MAUI CheckBox product page](https://www.telerik.com/maui-ui/checkbox)
+- [.NET MAUI CheckBox forum page](https://www.telerik.com/forums/maui?tagId=1784)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
