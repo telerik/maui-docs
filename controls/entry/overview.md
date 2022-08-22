@@ -43,6 +43,7 @@ slug: entry-overview
 - [Getting Started with Telerik UI for .NET MAUI Entry]({% slug entry-getting-started%})
 
 ## See Also
+
 - [.NET MAUI Entry product page](https://www.telerik.com/maui-ui/entry)
 - [.NET MAUI Entry forum page](https://www.telerik.com/forums/maui?tagId=1800)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)

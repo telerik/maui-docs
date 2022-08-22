@@ -44,8 +44,8 @@ Most of the data on the Internet is stored in tables within a database. **Teleri
 
 ## See Also
 
-- [.NET MAUI DataGrid product page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid forum page](https://www.telerik.com/forums/maui?tagId=1801)
+- [.NET MAUI DataGrid product page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid forum page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

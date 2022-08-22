@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI Popup Documentation - Overview
 description: "Try now the Telerik Popup for .NET MAUI delivering a set of options for adding modal popups to your application and for drawing attention to important information or receiving user input."
 position: 0
+previous_url: /controls/popup/popup-overview
 slug: popup-overview
 ---
 
@@ -28,7 +29,7 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 ## See Also
 
-- [.NET MAUI Popup product page](https://www.telerik.com/maui-ui/popup)
-- [.NET MAUI Popup forum page](https://www.telerik.com/forums/maui?tagId=1782)
+- [.NET MAUI Popup product page](https://www.telerik.com/maui-ui/popup)
+- [.NET MAUI Popup forum page](https://www.telerik.com/forums/maui?tagId=1782)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
