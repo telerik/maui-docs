@@ -22,6 +22,12 @@ slug: sidedrawer-overview
 
 * [Commands support]({%slug sidedrawer-features-commands%})&mdash;SideDrawer allows you to attach commands that will be executed when certain actions, such as Opening and Closing occur.
 
-## See Also
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI SideDrawer]({%slug sidedrawer-getting-started%})
+
+## See Also
+
+- [.NET MAUI SideDrawer forum page](https://www.telerik.com/forums/maui?tagId=1938)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

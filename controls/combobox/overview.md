@@ -36,6 +36,10 @@ slug: combobox-overview
 
 * [Flexible Styling API]({%slug combobox-styling%}) – Allows you to change the ComboBox background color, style the control’s dropdown box, change the clear and dropdown buttons. In addition, you can change the Placeholder text color and the Highlighted text color.
 
+## Next Steps
+
+- [Getting Started with Telerik UI for .NET MAUI ComboBox]({%slug combobox-getting-started%})
+
 ## See Also
 
 - [Visual Structure]({%slug combobox-visual-structure%})
@@ -47,3 +51,7 @@ slug: combobox-overview
 - [Header and Footer]({%slug combobox-header-footer%})
 - [Templates]({%slug combobox-templates%})
 - [Styling]({%slug combobox-styling%})
+- [.NET MAUI ComboBox product page](https://www.telerik.com/maui-ui/checkbox)
+- [.NET MAUI ComboBox forum page](https://www.telerik.com/forums/maui?tagId=1937)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

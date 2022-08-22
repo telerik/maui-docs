@@ -26,3 +26,10 @@ slug: barcode-overview
 - [Getting Started with Telerik UI for .NET MAUI Barcode]({% slug barcode-getting-started %})
 - [1D Supported Barcodes]({% slug 1dbarcode-overview %})
 - [2D Supported Barcodes]({% slug 2dbarcode-overview %})
+
+## See Also
+
+- [.NET MAUI Barcode product page](https://www.telerik.com/maui-ui/barcode)
+- [.NET MAUI Barcode forum page](https://www.telerik.com/forums/maui?tagId=1780)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

@@ -21,6 +21,14 @@ slug: wraplayout-overview
 
 * [Last child item stretch]({% slug wraplayout-wrap-feature%}#positioning-the-last-child-element)&mdash;You can easily control the last child element position through the `StretchLastChild` property of the WrapLayout. If set to `True`, the last element will stretch along the available space from the last row or column depending on the layout orientation.
 
-## See Also
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI WrapLayout]({% slug wraplayout-getting-started %})
+
+## See Also
+
+- [.NET MAUI WrapLayout product page](https://www.telerik.com/maui-ui/wraplayout)
+- [.NET MAUI WrapLayout forum page](https://www.telerik.com/forums/maui?tagId=1831)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+

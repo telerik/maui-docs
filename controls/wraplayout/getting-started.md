@@ -9,7 +9,7 @@ slug: wraplayout-getting-started
 
 # Getting Started
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI WrapLayout by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
@@ -64,6 +64,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 	}
  }           
  ```
+ 
+## Additional Resources
+
+- [.NET MAUI WrapLayout product page](https://www.telerik.com/maui-ui/wraplayout)
+- [.NET MAUI WrapLayout forum page](https://www.telerik.com/forums/maui?tagId=1831)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 
