@@ -34,7 +34,7 @@ The table below shows all commands in the DataGrid control and for each of the a
 | Unknown | `DataGridColumn` |
 | `ColumnHeaderTap`  | `DataGridTextColumn` |
 | `GroupHeaderTap`      | `GroupHeaderContext` |
-| `GroupHeaderButtonTap`      | `GroupHeaderContext` |
+| `OptionsTap`      | `OptionsTapContext` |
 | `CellTap` | `DataGridCellInfo` |
 | `CellDoubleTap` | `DataGridCellInfo` |
 | `GenerateColumn` | `GenerateColumnContext` |
