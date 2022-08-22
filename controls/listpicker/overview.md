@@ -33,7 +33,7 @@ previous_url: /controls/listpicker/listpicker-overview
 
 ## Additional Resources
 
-- [.NET MAUI ListPicker product page](https://www.telerik.com/maui-ui/listpicker)
-- [.NET MAUI ListPicker forum page](https://www.telerik.com/forums/maui?tagId=1855)
+- [.NET MAUI ListPicker product page](https://www.telerik.com/maui-ui/listpicker)
+- [.NET MAUI ListPicker forum page](https://www.telerik.com/forums/maui?tagId=1855)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

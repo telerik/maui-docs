@@ -28,7 +28,7 @@ slug: segmentedcontrol-overview
 
 ## See Also
 
-- [.NET MAUI  product page](https://www.telerik.com/maui-ui/segmented-control)
-- [.NET MAUI  forum page](https://www.telerik.com/forums/maui?tagId=1785)
+- [.NET MAUI SegmentedControl product page](https://www.telerik.com/maui-ui/segmented-control)
+- [.NET MAUI SegmentedControl forum page](https://www.telerik.com/forums/maui?tagId=1785)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
