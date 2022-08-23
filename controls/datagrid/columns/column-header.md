@@ -37,7 +37,7 @@ You can easily sort a particular column tapping ot its header. When the data is 
 
 ![.NET MAUI DataGrid Column Header Sorting indicator](../images/column-header-sorting.png)
 
-To learn more about the sorting functionality take a look at the [Sorting]({%datagrid-sorting-overview%}) article.
+To learn more about the sorting functionality take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
 
 ## Filtering
 
