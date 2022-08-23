@@ -45,7 +45,7 @@ The header of the column hosts the built-in filtering mechanism (the filter indi
 
 ![.NET MAUI DataGrid Column Header filter indicator](../images/column-header-filtering.png)
 
-To learn more about the filtering functionality take a look at the [Filtering]({%datagrid-filtering-overview%}) article.
+To learn more about the filtering functionality take a look at the [Filtering]({%slug datagrid-filtering-overview%}) article.
 
 ## Styling 
 
