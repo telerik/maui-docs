@@ -11,7 +11,7 @@ slug: datagrid-column-footer
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
-![Column Footer](../images/column-footer.png)
+![.NET MAUI DataGrid Column Footer](../images/column-footer.png)
 
 By default, column footers are hidden and in order to make them visible you have to set the `ShowColumnFooters` property to True.
 
@@ -45,7 +45,7 @@ To define a text inside the footer you have to use the `FooterText` property. Th
 
 Use the `FooterStyle` property in order to style the DataGridColumn footer.
 
-Check the [DataGrid Column Footer Styling]({%slug datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
+Check the [.NET MAUI DataGrid Column Footer Styling]({%slug datagrid-columns-styling%}#footerstyle) topic for more information about the styling options you can use. 
 
 ## Footer Content Customization
 
@@ -57,9 +57,9 @@ Define the `DataTemplate` for the footer:
 
 Define the `FooterContentTemplate` in the DataGridColumn:
 
-<snippet id='datagrid-footercontenttemplate' />
+<snippet id='datagrid-headerfootercontenttemplate' />
 
-![DataGrid Column Footer Template](../images/footer-content-template.png)
+![.NET MAUI DataGrid Column Footer Template](../images/footer-content-template.png)
 
 ## See Also
 
