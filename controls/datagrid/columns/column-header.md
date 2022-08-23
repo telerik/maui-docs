@@ -29,8 +29,6 @@ To customize text inside the header you have to use the `HeaderText` property. T
 </telerik:RadDataGrid>
 ```
 
-> Note that the header has to be defined per column otherwise the cell will appear empty.
-
 ## Sorting
 
 You can easily sort a particular column tapping ot its header. When the data is sorted by a column, its header changes its appearance and shows the sort direction via an indicator.
