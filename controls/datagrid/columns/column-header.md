@@ -2,7 +2,7 @@
 title: Column Headers
 page_title: .NET MAUI DataGrid Documentation - Columns Header
 description: Check our &quot;Columns Header&quot; documentation article for Telerik DataGrid for .NET MAUI.
-position: 3
+position: 2
 slug: datagrid-column-header
 ---
 
