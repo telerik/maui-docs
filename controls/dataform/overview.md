@@ -14,7 +14,7 @@ slug: dataform-overview
 
 ## Key features
 
-* [Built-in editors]({%slug dataform-editors-overview%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as numeric, string, boolean, enumerations, DateTime, TimeSpan. The control detects the types of the data object’s properties and automatically displays the appropriate editor.  
+* [Built-in editors]({%slug dataform-editors%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as numeric, string, boolean, enumerations, DateTime, TimeSpan. The control detects the types of the data object’s properties and automatically displays the appropriate editor.  
 
 * [Validation support]({%slug dataform-validation%})&mdash;Use the built-in validation support which gives you full control over the data collected through the control.
 
@@ -22,7 +22,7 @@ slug: dataform-overview
 
 * [Grouping]({%slug dataform-grouping%}) support that allows you to easily group the editors.
 
-* [Data annotations support]({%slug %})&mdash;In order to customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. RadDataForm provides a number of data annotations, such as.
+* [Data annotations support]({%slug dataform-data-annotations%})&mdash;In order to customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. RadDataForm provides a number of data annotations, such as.
 
 * [Different layouts]({%slug dataform-layouts%})&mdash;Arrange the editors and the groups using different layouts like stack, grid and more.
 
