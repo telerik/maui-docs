@@ -18,11 +18,18 @@ The DataForm control for .NET MAUI provides the following properties to configur
 Each group has a header. Here are the properties you can use to configure the group header:
 
 * `HeaderText`(`string`)&mdash;Specifies the text of the header.
-* `HeaderImageSource`(`Microsoft.Maui.controls.ImageSource`)&mdash;Specifies the image in the header.
+* `HeaderImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the image in the header.
 * `HeaderDisplayOptions`(`Telerik.Maui.Controls.DataFormHeaderDisplayOptions`)&mdash;Specifies the display options of the header. The available options are:
 	* `None`&mdash;Header image and text are not visualzied.
 	* `Text`&mdash;Visualizes the header text. For this option `HeaderText` has to be defined.
 	* `Image`&mdash;Visualizes the image in the header. For this option `HeaderImageSource` has to be defined.
+
+You can combine the `Text` and the `Image` in the ``HeaderDisplayOption`:
+
+```XAML
+HeaderDisplayOptions="Image, Text"
+```
+
 
 ** Example for Header options**
 

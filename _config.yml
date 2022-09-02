@@ -118,9 +118,6 @@ navigation:
     controls/dataform/editors:
         title: "Editors"
         position: 4
-    controls/dataform/data-annotations:
-        title: "Data Annotations"
-        position: 5
     controls/dataform/grouping:
         title: "Grouping"
         position: 6

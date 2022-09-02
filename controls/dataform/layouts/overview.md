@@ -6,7 +6,7 @@ position: 0
 slug: dataform-layouts
 ---
 
-# Overview
+# .NET MAUI Overview
 
 The Telerik .NET MAUI DataForm supports different layouts which allows ou to arrange the editors. You can use the predefined layouts or create a custom one.
 
@@ -15,8 +15,6 @@ DataForm provides the following layouts though the `LayoutDefinition` property:
 * [StackLayout]({%slug dataform-layouts-verticalstack%})&mdash;Arranges the items of the RadDataForm in a vertical stacklayout.
 
 * [GroupLayout]({%slug dataform-layouts-grid%})&mdash;Arranges the items of the RadDataForm in a grid layout. The grid has a pre-defined number of columns with uniform lengths.
-
-* [FlexLayout]({%slug dataform-layouts-flex%})&mdash;Arranges the items of the RadDataForm in a flex layout.
 
 * [CustomLayout]({%slug dataform-layouts-custom%})&mdash;Arranges the items of a Telerik.Maui.Controls.RadDataForm in a custom layout through a `LayoutTemplate`.
 

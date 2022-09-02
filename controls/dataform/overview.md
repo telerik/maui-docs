@@ -22,7 +22,7 @@ slug: dataform-overview
 
 * [Grouping]({%slug dataform-grouping%}) support that allows you to easily group the editors.
 
-* [Data annotations support]({%slug dataform-data-annotations%})&mdash;In order to customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. RadDataForm provides a number of data annotations, such as.
+* [Data annotations support]({%slug dataform-data-annotations%})&mdash;In order to customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. Use annotations like Requres, DataType, Display, RegularExpression and more.
 
 * [Different layouts]({%slug dataform-layouts%})&mdash;Arrange the editors and the groups using different layouts like stack, grid and more.
 
