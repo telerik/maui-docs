@@ -112,6 +112,25 @@ navigation:
     controls/combobox:
         title: "ComboBox"     
     ## End ComboBox
+    ## DataForm
+    controls/dataform:
+        title: "DataForm"
+    controls/dataform/editors:
+        title: "Editors"
+        position: 4
+    controls/dataform/data-annotations:
+        title: "Data Annotations"
+        position: 5
+    controls/dataform/grouping:
+        title: "Grouping"
+        position: 6
+    controls/dataform/layouts:
+        title: "Layouts"
+        position: 7
+    controls/dataform/Styling:
+        title: "Styling"
+        position: 15
+    ## End DataForm
     ## DataGrid
     controls/datagrid:
         title: "DataGrid"
@@ -364,6 +383,7 @@ intro_columns:
   -
     title: "Data Controls"
     items:
+      "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
       "ListView": "listview-overview"
       "ItemsControl": "itemscontrol-overview"
