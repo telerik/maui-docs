@@ -1,12 +1,12 @@
 ---
-title: Layouts
+title: Overview
 page_title: .NET MAUI DataForm Documentation | Layouts
 description: Review the .NET MAUI DataForm &quot;Layouts&quot; options such as stack, grid, flex and custom layouts.
 position: 0
 slug: dataform-layouts
 ---
 
-# .NET MAUI Overview
+# .NET MAUI DataForm Layouts
 
 The Telerik .NET MAUI DataForm supports different layouts which allows ou to arrange the editors. You can use the predefined layouts or create a custom one.
 

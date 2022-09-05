@@ -1,10 +1,10 @@
 ---
-title: DataForm Styling
-page_title: .NET MAUI DataForm Documentation |DataForm Styling
-description: Review the available Styling options which DataForm for .NET MAUI control provides.
-position: 0
-slug: dataform-styling
+title: Validation Styling
+page_title: .NET MAUI DataForm Documentation | Validation Styling
+description: Review the available styling options which DataForm for .NET MAUI control provides when validating its data.
+position: 4
+slug: dataform-validation-styling
 ---
 
-# DataForm Styling
+# Validation Styling
 

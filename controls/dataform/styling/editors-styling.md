@@ -1,10 +1,10 @@
 ---
-title: DataForm Styling
-page_title: .NET MAUI DataForm Documentation |DataForm Styling
-description: Review the available Styling options which DataForm for .NET MAUI control provides.
-position: 0
-slug: dataform-styling
+title: Editors Styling
+page_title: .NET MAUI DataForm Documentation | Editors Styling
+description: Review the available Styling options which DataForm for .NET MAUI control provides for its editors.
+position: 1
+slug: dataform-editors-styling
 ---
 
-# DataForm Styling
+# Editors Styling
 

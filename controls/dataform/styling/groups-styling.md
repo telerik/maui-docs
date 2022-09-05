@@ -1,10 +1,10 @@
 ---
-title: DataForm Styling
-page_title: .NET MAUI DataForm Documentation |DataForm Styling
-description: Review the available Styling options which DataForm for .NET MAUI control provides.
-position: 0
-slug: dataform-styling
+title: Group Styling
+page_title: .NET MAUI DataForm Documentation | Group Styling
+description: Review the available Styling options which DataForm for .NET MAUI control provides when groups are applied.
+position: 2
+slug: dataform-group-styling
 ---
 
-# DataForm Styling
+# Group Styling
 
