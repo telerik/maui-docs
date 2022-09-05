@@ -1,7 +1,7 @@
 ---
 title: Data Annotations
 page_title: .NET MAUI DataForm Documentation | Data Annotations
-description: Review all annotation possibilities provided in Telerik DataForm for .NET MAUI control.
+description: "Review all annotation possibilities provided in Telerik DataForm for .NET MAUI control."
 position: 5
 slug: dataform-data-annotations
 ---

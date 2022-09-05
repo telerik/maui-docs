@@ -1,7 +1,7 @@
 ---
 title: Data Binding
 page_title: .NET MAUI DataForm Documentation | Data Binding
-description: Review the available options for &quot;Data Binding&quot; which DataForm for .NET MAUI control.
+description: "Review the available options for &quot;Data Binding&quot; which DataForm for .NET MAUI control."
 position: 3
 slug: dataform-data-binding
 ---

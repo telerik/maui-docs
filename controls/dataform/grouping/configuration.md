@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI DataForm Documentation | Configuration
-description: Check our &quot;Configuration&quot; documentation article for Telerik DataForm for .NET MAUI control.
+description: "Check our &quot;Configuration&quot; documentation article for Telerik DataForm for .NET MAUI control."
 position: 1
 slug: dataform-configuration
 ---

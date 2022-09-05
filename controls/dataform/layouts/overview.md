@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataForm Documentation | Layouts
-description: Review the .NET MAUI DataForm &quot;Layouts&quot; options such as stack, grid, flex and custom layouts.
+description: "Review the .NET MAUI DataForm &quot;Layouts&quot; options such as stack, grid, flex and custom layouts."
 position: 0
 slug: dataform-layouts
 ---

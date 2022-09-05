@@ -1,7 +1,7 @@
 ---
 title: GridLayout
 page_title: .NET MAUI DataForm Documentation | GridLayout
-description: Review the .NET MAUI DataForm &quot;GridLayout&quot; option.
+description: "Review the .NET MAUI DataForm &quot;GridLayout&quot; option."
 position: 2
 slug: dataform-layouts-grid
 ---
