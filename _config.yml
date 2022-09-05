@@ -124,7 +124,7 @@ navigation:
     controls/dataform/layouts:
         title: "Layouts"
         position: 7
-    controls/dataform/Styling:
+    controls/dataform/styling:
         title: "Styling"
         position: 15
     ## End DataForm
