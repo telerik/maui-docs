@@ -37,3 +37,7 @@ The table below describes the available editors which use the .NET MAUI controls
 | `DataFormDatePickerEditor`	 | `DateTime?` | ` .NET MAUI DatePicker` |
 | `DataFormTimePickerEditor`		| `TimeSpan?` | ` .NET MAUI TimePicker` |
 | `DataFormSwitchEditor`		 | `bool` | `.NET MAUI Switch` |
+
+## Styling
+
+For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
