@@ -6,25 +6,38 @@ position: 0
 slug: dataform-editors
 ---
 
-# Editors
+# .NET MAUI DataForm Editors
 
-The Telerik DataFrom control supports buil-in editors described in the table below: 
+The Telerik DataFrom control supports built-in editors.
 
-| Editor name 		 | Editor Class | Type | Input control |
-|--------------------|----------------|------------|-------|
-| `DataFormTextEditor` 		 | `DataFormInputEditor` | `string` | `Telerik .NET MAUI RadEntry` |
-| `DataFormTextMaskedEditor` 		 | `DataFormMaskedEditor` | `string` | `Telerik .NET MAUI RadTextMaskedEntry` |
-| `DataFormNumericMaskedEditor` 		| `DataFormValueMaskedEditor` | `object` | `Telerik .NET MAUI RadNumericMaskedEntry` |
-| `DataFormEmailMaskedEditor` 		 | `DataFormMaskedEditor` | `string` | `Telerik .NET MAUI RadEmailMaskedEntry` |
-| `DataFormRegexMaskedEditor` 		 | `DataFormMaskedEditor` | `string` | `Telerik .NET MAUI RadRegexMaskedEntry` |
-| `DataFormNumericEditor` 		 | `DataFormEditor` | `double?` | `Telerik .NET MAUI RadNumericInput` |
-| `DataFormMultiLineEditor` 		 | `DataFormInputEditor` | `string` | `.NET MAUI Editor` |
-| `DataFormDatePickerEditor`	 | `DataFormPickerEditor` | `DateTime?` | `Telerik .NET MAUI RadDatePicker` |
-| `DataFormDateTimePickerEditor`		| `DataFormPickerEditor` | `DateTime?` | `Telerik .NET MAUI RadDateTimePicker` |
-| `DataFormTimePickerEditor`		| `DataFormPickerEditor` | `TimeSpan?` | `Telerik .NET MAUI RadTimePicker` |
-| `DataFormTimeSpanPickerEditor` 	 | `DataFormPickerEditor` | `TimeSpan?` | `Telerik .NET MAUI RadTimeSpanPicker` |
-| `DataFormListPickerEditor`     | `DataFormPickerEditor` | `enum` | `Telerik .NET MAUI RadListPicker` |
-| `DataFormComboBoxEditor`		 | `DataFormEditor` | `enum` | `Telerik .NET MAUI RadComboBox` |
-| `DataFormCheckBoxEditor`		 | `DataFormEditor` | `bool?` | `Telerik .NET MAUI RadCheckBox` |
-| `DataFormSegmentedEditor`		 | `DataFormEditor` | `enum` | `Telerik .NET MAUI RadSegmentedControl` |
-| `DataFormSwitchEditor`		 | `DataFormEditor` | `bool` | `.NET MAUI Switch` |
+The table below describes the available editors which use the Telerik .NET MAUI controls:
+
+| Editor name 		 | Type | Input control |
+|--------------------|------------|-------|
+| `DataFormRadEntryEditor` 		 | `string` | `Telerik .NET MAUI RadEntry` |
+| `DataFormRadTextMaskedEditor` 		 | `string` | `Telerik .NET MAUI RadTextMaskedEntry` |
+| `DataFormRadNumericMaskedEditor` 		| `object` | `Telerik .NET MAUI RadNumericMaskedEntry` |
+| `DataFormRadEmailMaskedEditor` 		 | `string` | `Telerik .NET MAUI RadEmailMaskedEntry` |
+| `DataFormRadRegexMaskedEditor` 		 | `string` | `Telerik .NET MAUI RadRegexMaskedEntry` |
+| `DataFormRadNumericEditor` 		 | `double?` | `Telerik .NET MAUI RadNumericInput` |
+| `DataFormRadDatePickerEditor`	 | `DateTime?` | `Telerik .NET MAUI RadDatePicker` |
+| `DataFormRadDateTimePickerEditor`		| `DateTime?` | `Telerik .NET MAUI RadDateTimePicker` |
+| `DataFormRadTimePickerEditor`		| `TimeSpan?` | `Telerik .NET MAUI RadTimePicker` |
+| `DataFormRadTimeSpanPickerEditor` 	 | `TimeSpan?` | `Telerik .NET MAUI RadTimeSpanPicker` |
+| `DataFormRadListPickerEditor`     | `enum` | `Telerik .NET MAUI RadListPicker` |
+| `DataFormRadComboBoxEditor`		 | `enum` | `Telerik .NET MAUI RadComboBox` |
+| `DataFormRadCheckBoxEditor`		 | `bool?` | `Telerik .NET MAUI RadCheckBox` |
+| `DataFormRadSegmentedEditor`		 | `enum` | `Telerik .NET MAUI RadSegmentedControl` |
+
+The table below describes the available editors which use the .NET MAUI controls:
+
+| Editor name 		 | Type | Input control |
+|--------------------|------------|-------|
+| `DataFormMultiLineEditor` 		 | `string` | `.NET MAUI Editor` |
+| `DataFormDatePickerEditor`	 | `DateTime?` | ` .NET MAUI DatePicker` |
+| `DataFormTimePickerEditor`		| `TimeSpan?` | ` .NET MAUI TimePicker` |
+| `DataFormSwitchEditor`		 | `bool` | `.NET MAUI Switch` |
+
+## Styling
+
+For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
