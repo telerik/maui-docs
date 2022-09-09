@@ -40,7 +40,7 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 
 ## Example
 
-The following examples demonstrate how to define use the styling properties of the DatePicker.
+The following examples demonstrate how to define and use the styling properties of the DatePicker.
 
 **Define the `RadDatePicker`**
 
