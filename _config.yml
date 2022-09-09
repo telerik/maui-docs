@@ -34,6 +34,15 @@ navigation:
         position: 4
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
+    ## AutoComplete
+    controls/autocomplete:
+        title: "AutoComplete"
+        ## AutoComplete Sub-Folders
+    controls/autocomplete/templates:
+        title: "Templates"
+        position: 13
+        ## End AutoComplete Sub-Folders
+    ## End Barcode
     ## BadgeView
     controls/badgeview:
         title: "BadgeView"
@@ -400,6 +409,7 @@ intro_columns:
   -
     title: "Editors"
     items:
+        "AutoComplete": "autocomplete-overview"
         "ComboBox": "combobox-overview"
         "DatePicker": "datepicker-overview"
         "DateTimePicker": "datetimepicker-overview"
