@@ -6,7 +6,7 @@ position: 10
 slug: dataform-commit-data
 ---
 
-# Commit Data
+# .NET MAUI DataForm Commit Data
 
 The values entered in the DataForm can be submitted to the underlying data object on three different occasions, using the `CommitMode` property of the DataForm.
 

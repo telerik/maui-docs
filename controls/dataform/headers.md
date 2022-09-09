@@ -1,6 +1,6 @@
 ---
 title: Headers
-page_title: .Net MAUI DataForm Documentation | Headers
+page_title: .NET MAUI DataForm Documentation | Headers
 description: "Check our &quot;Headers&quot; documentation article for Telerik .NET MAUI DataForm control."
 position: 8
 slug: dataform-headers
@@ -26,7 +26,7 @@ Each Editor has a header.
 	* `Text`&mdash;Visualizes the header text. For this option `HeaderText` has to be defined.
 	* `Image`&mdash;Visualizes the image in the header. For this option `HeaderImageSource` has to be defined.
 
-You can combine the `Text` and the `Image` in the ``HeaderDisplayOption`:
+You can combine the `Text` and the `Image` in the ``HeaderDisplayOptions`:
 
 ```XAML
 HeaderDisplayOptions="Image, Text"
