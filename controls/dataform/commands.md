@@ -6,13 +6,13 @@ position: 11
 slug: dataform-commands
 ---
 
-# Commands
+# .NET MAUI DataForm Commands
 
-Telerik UI for .NET MAUI DatePicker exposes a number of commands that execute the validation logic, commit all pending changes and cancel the pending changes.
+Telerik UI for .NET MAUI DataForm exposes a number of commands that execute the validation logic, commit all pending changes and cancel the pending changes.
 
-* `ValidateCommand`(`ICommand`)&mdashGets a command to execute the validation logic of the RadDataForm. This command is mostly useful when the DataForm `ValidationMode` property is set to `Explicit`. For more details review the [Validation]() article.
-* `CommitCommand`(`ICommand`)&mdashGets a command to commit all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. For more details review the [Commit Data]() article.
-* `CancelCommand`(`ICommand`)&mdash Gets a command to cancel all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
+* `ValidateCommand`(`ICommand`)&mdash;Gets a command to execute the validation logic of the RadDataForm. This command is mostly useful when the DataForm `ValidationMode` property is set to `Explicit`. For more details review the [Validation]() article.
+* `CommitCommand`(`ICommand`)&mdash;Gets a command to commit all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. For more details review the [Commit Data]() article.
+* `CancelCommand`(`ICommand`)&mdash;Gets a command to cancel all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
      
 
 ## See Also

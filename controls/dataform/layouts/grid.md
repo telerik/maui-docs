@@ -8,7 +8,7 @@ slug: dataform-layouts-grid
 
 # .NET MAUI DataForm GridLayout Definition
 
-The `DataFormGridLayout` definition allows you to arrange the items in a grid layout. The grid has a pre-defined number of columns(`1`) with uniform lengths. Starting from the top left corner, the items are arranged horizontally by columns, until the maximum number of columns is reached, then the process continues from the next row. Each item occupies only a single cell of the grid by default.
+The `DataFormGridLayout` definition allows you to arrange the items in a grid layout. The grid has a pre-defined number of columns(`2`). Starting from the top left corner, the items are arranged horizontally by columns, until the maximum number of columns is reached, then the process continues from the next row. Each item occupies only a single cell of the grid by default.
 
 Use the following properties which the DataFormGridLayout provides: 
 

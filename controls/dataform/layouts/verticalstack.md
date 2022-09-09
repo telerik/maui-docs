@@ -1,7 +1,7 @@
 ---
-title: StackLayout
-page_title: .NET MAUI DataForm Documentation | StackLayout
-description: "Review the .NET MAUI DataForm &quot;StackLayout&quot; option."
+title: VerticalStackLayout
+page_title: .NET MAUI DataForm Documentation | VerticalStackLayout
+description: "Review the .NET MAUI DataForm &quot;VerticalStackLayout&quot; option."
 position: 1
 slug: dataform-layouts-verticalstack
 ---
@@ -14,7 +14,7 @@ Use the `Spacing`(`double`) property to specify the spacing in pixels between th
 
 ![DataForm Stack Layout Definition](images/dataform-layouts-stack.png)
 
-**RadDataForm XAML definition with StackLayout applied:**
+**RadDataForm XAML definition with VerticalStackLayout applied:**
 
 <snippet id='dataform-layouts-stack'/>
 
