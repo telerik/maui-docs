@@ -23,14 +23,14 @@ slug: autocomplete-overview
 * [Custom Templates]({%slug autocomplete-custom-templates%})&mdash;If any of the default templates does not fit in a particular scenario, you can easily define a custom template.
 * [Remote Search]({%slug autocomplete-remote-search%})&mdash;Allows you to easily take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the AutoComplete.
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to show/hide all suggestions immediately when you focused on the input field.
-* [Highlight customization]({%slug autocomplete-styling-options%}#hightlight-customization)&mdash;The ability to highlight the text inside the custom template.
+* [Highlight customization]({%slug autocomplete-styling%}#hightlight-customization)&mdash;The ability to highlight the text inside the custom template.
 * [Nested properties support]()&mdash;This allows binding of a complex object to the TextSearchPath property. 
 * [Styling options]({%slug autocomplete-styling%})&mdash;for changing the control's border brush and thickness, font options, suggestion item highlight text color and more
 
 
 # Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI AutoComplete]({% slug autocomplete-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI AutoComplete]({%slug autocomplete-getting-started%})
 
 ## See Also
 

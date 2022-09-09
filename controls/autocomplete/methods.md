@@ -1,9 +1,9 @@
 ---
 title: Methods
-page_title: Xamarin AutoCompleteView Documentation | Methods
-description: Check our &quot;Methods&quot; documentation article for Telerik AutoCompleteView for Xamarin control.
+page_title: .NET MAUI AutoComplete Documentation | Methods
+description: Check our &quot;Methods&quot; documentation article for Telerik .NET MAUI AutoComplete control.
 position: 9
-slug: autocompleteview-methods
+slug: autocomplet-methods
 ---
 
 # .NET MAUI AutoComplete Methods
