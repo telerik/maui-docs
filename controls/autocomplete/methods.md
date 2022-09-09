@@ -3,7 +3,7 @@ title: Methods
 page_title: .NET MAUI AutoComplete Documentation | Methods
 description: Check our &quot;Methods&quot; documentation article for Telerik .NET MAUI AutoComplete control.
 position: 9
-slug: autocomplet-methods
+slug: autocomplete-methods
 ---
 
 # .NET MAUI AutoComplete Methods
