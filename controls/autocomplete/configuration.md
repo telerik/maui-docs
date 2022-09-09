@@ -1,7 +1,7 @@
 ---
-title: Key Features
-page_title: Xamarin AutoCompleteView Documentation | Key Features
-description: Check our &quot;Key Features&quot; documentation article for Telerik AutoCompleteView for Xamarin control.
+title: Configuration
+page_title: .NET MAUI AutoComplete Documentation - Configuration
+description: Check our &quot;Key Features&quot; documentation article for Telerik .NET MAUI AutoComplete control.
 position: 2
 slug: autocomplete-configuration
 ---
