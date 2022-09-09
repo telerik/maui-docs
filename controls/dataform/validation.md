@@ -47,13 +47,20 @@ The method returns `true` if the validation passes, otherwise `false`.
 
 ## Validation message - styling and customization
 
-When validation is applied the DataForm has a default styles to the validation messaaged and validation summery messqage. In addition there is an image displayed. You can use the following properties for validation styling andcustomization:
+You can use the following properties for validation styling and customization:
 
 * `ValidationSummaryImageSource`(`ImageSource`)&mdash;Specifies the `ImageSource` of the image displayed in the validation summary.
-* `ValidationSummaryImageStyle`(`Style`)&mdash;Specifies the Style applied to the image of the validationsummary. The target type of this style is the .NET MAUI `Image` control.
+* `ValidationSummaryImageStyle`(`Style`)&mdash;Specifies the style applied to the image of the validationsummary. The target type of this style is the .NET MAUI `Image` control.
 * `ValidationSummaryStyle`(`Style`)&mdash;Specifies the style applied to the validation summary. The target type of this style is the `Telerik.Maui.Controls.DataFormValidationSummaryView`.         
 * `ValidationSummaryLabelStyle`(`Style`)&mdash;Specifies the style applied to the labels of the validation summary. The target type of this style is the .NET MAUI `Label` control.
-        
+
+## Error message - styling and customization
+
+You can use the following properties for error message styling and customization:
+
+* `ErrorImageSource`(`ImageSource`)&mdash;Specifies the `ImageSource` of the image displayed in the error message.
+* `ErrorImageStyle`(`Style`)&mdash;Specifies the style applied to the image of the error message. The target type of this style is the .NET MAUI `Image` control.
+* `ErrorLabelStyle`(`Style`)&mdash;Specifies the style applied to the labels of the error message. The target type of this style is the .NET MAUI `Label` control.
 
 ## See Also
 
