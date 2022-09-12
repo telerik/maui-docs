@@ -26,7 +26,7 @@ And the business model used:
 
 ### Use GroupName Display Attribute in the model
 
-Apply goruping using the `GroupName` display attribute. More information about this can be found in the [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.groupname?view=net-6.0).
+Apply grouping using the `GroupName` display attribute. More information about this can be found in the [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.groupname?view=net-6.0).
 
 Example with `GroupName` display attribute applied in the business model. The model is used for RadDataForm:
 
@@ -40,7 +40,7 @@ And the DataForm definition in XAML:
 
 You acan apply the groups in the XAML and set the `GroupName` property. Then inside the model add the GroupName attribute to the concrete proeprty. 
 
-DataForm XAML definition with goruping applied:
+DataForm XAML definition with grouping applied:
 
 <snippet id='dataform-grouping-mix'/>
 

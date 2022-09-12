@@ -18,15 +18,15 @@ To set up the `DelegateAggregateDescriptor`, use the following properties:
 
 The following example uses the `DelegateAggregateDescriptor` and a custom implementation for a `SumIf` function which sums the values in a range that meet a certain criteria:
 
-1. First, create a class that inherits from the `IKeyLookup` interface. It will return the values of a Price property declared in our business model that is of type double.
+**1.** First, create a class that inherits from the `IKeyLookup` interface. It will return the values of a Price property declared in our business model that is of type double.
 
 <snippet id='datagrid-delegate-aggregate-key'/>
 
-2. Then, implement a class that inherits from the `IAggregateFunction` interface. This class will contain our logic for the SumIf function which we will later implement through XAML:
+**2.** Then, implement a class that inherits from the `IAggregateFunction` interface. This class will contain our logic for the SumIf function which we will later implement through XAML:
 
 <snippet id='datagrid-delegate-aggregate-function'/>
 
-3. Declare the `DelegateAggregateDescriptor` in XAML.
+**3.** Declare the `DelegateAggregateDescriptor` in XAML.
 
 <snippet id='datagrid-property-delegate-descriptor-example'/>
 
