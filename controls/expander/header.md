@@ -1,6 +1,6 @@
 ---
 title: ExpanderHeader control
-page_title: .NET MAUI Expander Documentation | ExpanderHeader control
+page_title: .NET MAUI Expander Documentation - Header control
 description: "Check our ExpanderHeader control documentation article for Telerik Expander for .NET MAUI control."
 position: 3
 slug: expander-header
@@ -39,4 +39,4 @@ Check the example below on how the Indicator options and border properties could
 
 ## See Also
 
-- [Key Features]({% slug expander-key-features%})
+- [Configuration]({% slug expander-configuration%})
