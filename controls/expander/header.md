@@ -14,22 +14,22 @@ slug: expander-header
 
 The indicator is the little triangle that is rotated according to whether the Expander control is expanded or collapsed. ExpanderHeader provides various options for customizing the look of the indicator via the following properties:
 
-* `IndicatorText`: The indicator is represented by a string symbol that could be changed through IndicatorText property;
-* `IndicatorFontFamily`: Specifies the indicator text FontFamily;
-* `IndicatorFontSize`: Defines the indicator text font size;
-* `IndicatorColor`: This property sets the color of the indicator;
-* `IndicatorLocation`: This property is of type *ExpandCollapseIndicatorLocation* and is used to place the indicator to the left or to the right inside the Header;
-* `IndicatorAnimationDuration`: Specifies the duration of the rotation animation of the indicator;
-* `IndicatorAnimationEasing`: Specifies the easing of the rotation animation of the indicator;
-* `IndicatorMargin`: This property is of type *Thickness* and sets the margin applied to the indicator;
+* `IndicatorText`&mdash;The indicator is represented by a string symbol that could be changed through IndicatorText property;
+* `IndicatorFontFamily`&mdash;Specifies the indicator text FontFamily;
+* `IndicatorFontSize`&mdash;Defines the indicator text font size;
+* `IndicatorColor`&mdash;This property sets the color of the indicator;
+* `IndicatorLocation`&mdash;This property is of type *ExpandCollapseIndicatorLocation* and is used to place the indicator to the left or to the right inside the Header;
+* `IndicatorAnimationDuration`&mdash;Specifies the duration of the rotation animation of the indicator;
+* `IndicatorAnimationEasing`&mdash;Specifies the easing of the rotation animation of the indicator;
+* `IndicatorMargin`&mdash;This property is of type *Thickness* and sets the margin applied to the indicator;
 
-## Border Styling
+## Border styling
 
 You could apply `BorderColor` and `BorderThickness` properties of HeaderExpander to make it consistent with the design of your app. 
 
-## Text Styling
+## Text styling
 
-You could apply the `HeaderTextStyle` property of HeaderExpander to change the Text Style of the Header.
+You could apply the `HeaderTextStyle`(Style with target type `Label`) property of HeaderExpander to change the Text Style of the Header.
 
 ## Example
 

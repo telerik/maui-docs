@@ -178,6 +178,10 @@ navigation:
     controls/entry:
         title: "Entry"
     ## End Entry
+    ## Expander
+    controls/expander:
+        title: "Expander"
+    ## End Expander
     ## Gauge
     controls/gauge:
         title: "Gauge"
@@ -426,6 +430,7 @@ intro_columns:
     title: "Navigation & Layouts"
     items:
         "DockLayout": "docklayout-overview"
+        "Expander": "expander-overview"
         "SideDrawer": "sidedrawer-overview"
         "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
