@@ -43,5 +43,5 @@ slug: maskedentry-overview
 
 - [.NET MAUI MaskedEntry product page](https://www.telerik.com/maui-ui/maskedentry)
 - [.NET MAUI MaskedEntry forum page](https://www.telerik.com/forums/maui?tagId=1852)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

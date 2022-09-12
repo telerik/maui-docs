@@ -29,5 +29,5 @@ slug: path-overview
 
 - [.NET MAUI Path product page](https://www.telerik.com/maui-ui/path)
 - [.NET MAUI Path forum page](https://www.telerik.com/forums/maui?tagId=1783)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

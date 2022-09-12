@@ -51,7 +51,7 @@ Before adding the Map, you need to:
 
 - [.NET MAUI Map product page](https://www.telerik.com/maui-ui/map)
 - [.NET MAUI Map forum page](https://www.telerik.com/forums/maui?tagId=1870)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also

@@ -33,5 +33,5 @@ Badges can be used as an additional marker for any element: to decorate avatars,
 
 - [.NET MAUI BadgeView product page](https://www.telerik.com/maui-ui/badgeview)
 - [.NET MAUI BadgeView forum page](https://www.telerik.com/forums/maui?tagId=1900)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
