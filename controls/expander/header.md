@@ -3,7 +3,7 @@ title: ExpanderHeader control
 page_title: .NET MAUI Expander Documentation | ExpanderHeader control
 description: "Check our ExpanderHeader control documentation article for Telerik Expander for .NET MAUI control."
 position: 3
-slug: expander-expanderheader
+slug: expander-header
 ---
 
 # .NET MAUI ExpanderHeader control

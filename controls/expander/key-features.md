@@ -18,17 +18,9 @@ You could use `IsExpanded` Boolean property to switch the current state of the c
 
 ## Expander Header
 
-You could either apply `HeaderText` property or use the `ExpanderHeader` content control which provides a set of useful properties for customizing the way the header looks. For more details refer to [ExpanderHeader control]({% slug expander-expanderheader%}) topic.
+You could either apply `HeaderText` property or use the `ExpanderHeader` content control which provides a set of useful properties for customizing the way the header looks. For more details refer to [ExpanderHeader control]({% slug expander-header%}) topic.
 
 <snippet id='expander-features-headerlocation'/>
-
-## Changing the text style in the header
-
-To customize the text inside the header you have to use the `HeaderTextStyle` property. If `HeaderTextStyle` is not set, the text inside is bold by default.
-
-The following code shows how to declare the HeaderTextStyle property in the Expander:
-
-<snippet id='expander-features-headertext-styling'/>
 
 ## Animation while expanding/collapsing
 
@@ -40,11 +32,19 @@ You could also customize the duration and easing (acceleration over time) throug
 
 You could apply `BorderColor` and `BorderThickness` properties of RadExpander to make it consistent with the design of your app.
 
->note ExpanderHeader also provides means for customizing its border, you can learn more about this in the [ExpanderHeader: Border Styling]({%slug expander-expanderheader%}#border-styling) article.
+>note ExpanderHeader also provides means for customizing its border, you can learn more about this in the [ExpanderHeader: Border Styling]({%slug expander-header%}#border-styling) article.
 
 Check the example below on how the border settings could be defined:
 
 <snippet id='expander-features-borderstyling'/>
+
+## Text Styling
+
+To customize the text inside the header you have to use the `HeaderTextStyle` property. If `HeaderTextStyle` is not set, the text inside is bold by default.
+
+The following code shows how to declare the HeaderTextStyle property in the Expander:
+
+<snippet id='expander-features-headertext-styling'/>
 
 ## See Also
 
