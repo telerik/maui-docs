@@ -24,7 +24,7 @@ Before adding the AutoComplete, you need to:
 
 ## Define the Control
 
-When your .NET MAUI application is set up, you are ready to add a AutoComplete control to your page. The following example demonstrates the definition of the `RadAutoComplete` with `ItemsSource` bound to property from a ViewModel class.
+When your .NET MAUI application is set up, you are ready to add a AutoComplete control to your page.
 
 Here is the AutoComplete definition in XAML and C#:
 

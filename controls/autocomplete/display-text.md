@@ -8,7 +8,7 @@ slug: autocomplete-display-text-formatter
 
 # .NET MAUI Autocomplete Display Text Formatting
 
-The AutoCompleteV control provides the option to format the visualized text in the input, so you could modify the displayed details of the selected item. The format of the text could be defined when `AutoComplete` `DisplayMode` is `Plain` or `Tokens`:
+The AutoCompleteV control provides the option to format the visualized text in the input, so you could modify the displayed details when item is get from the suggestion view. The format of the text could be defined when `AutoComplete` `DisplayMode` is `Plain` or `Tokens`:
 
 * `DisplayTextFormatter`(IDisplayTextFormatter): Defines the formatter of the selected item.
 
