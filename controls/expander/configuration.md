@@ -1,14 +1,14 @@
 ---
 title: Configuration
 page_title: .NET MAUI Expander Documentation - Configuration
-description: "Check our Key Features documentation article for Telerik Expander for .NET MAUI control."
+description: "Check our Configuration documentation article for Telerik Expander for .NET MAUI control."
 position: 2
 slug: expander-configuration
 ---
 
 # .NET MAUI Expander Configuration
 
-The purpose of this help article is to show you the key features of the `RadExpander` control. 
+The purpose of this help article is to show you how to configure the Telerik .NET MAUI Expander control. 
 
 ## Collapsed/expanded States
 
