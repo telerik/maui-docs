@@ -26,9 +26,9 @@ slug: dataform-overview
 
 * [Different layouts]({%slug dataform-layouts%})&mdash;Arrange the editors and the groups using different layouts like stack, grid and more.
 
-* [Commands support]({%slug dataform-commands%})for validation and commit data and canceling the commit operation.
+* [Commands support]({%slug dataform-commands%}) for validation and commit data and canceling the commit operation.
 
-* Flexible Styling API for customizing the look of the DataForm, its Editors, Groups and Headers. In addiiton you can customize the error and validation messages.
+* [Flexible Styling API]({%slug dataform-styling%}) for customizing the look of the DataForm, its Editors, Groups and Headers. In addiiton you can customize the error and validation messages.
 
 ## Next Steps
 
