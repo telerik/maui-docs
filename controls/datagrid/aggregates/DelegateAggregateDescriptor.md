@@ -22,7 +22,7 @@ The following example uses the `DelegateAggregateDescriptor` and a custom implem
 
 <snippet id='datagrid-delegate-aggregate-key'/>
 
-**2.** Then, implement a class that inherits from the `IAggregateFunction` interface. This class will contain our logic for the SumIf function which we will later implement through XAML:
+**2.** Then, declare a class that inherits from the `IAggregateFunction` interface. This class will contain our logic for the SumIf function which we will later implement through XAML:
 
 <snippet id='datagrid-delegate-aggregate-function'/>
 

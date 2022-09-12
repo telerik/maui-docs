@@ -13,7 +13,7 @@ The `PropertyAggregateDescriptor` allows you to define a property and a function
 To set up the `PropertyAggregateDescriptor`, use the following properties:
 * `PropertyName`&mdash;Defines the name of the property that is used to compute the aggregate value.
 * `Function`&mdash;Defines a KnownFunction value that will be applied to the aggregate.
-* `Caption`&mdash;Defines the caption of the aggregate. You can use `Caption` to display text in the UI when the `AggregatesTemplate` is set.
+* `Caption`&mdash;Defines the caption of the aggregate. You can use `Caption` to display text in the UI.
 * `Format`&mdash;Defines the string format that will be applied over the aggregated value.
 
 The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggregates:
@@ -29,7 +29,7 @@ The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggrega
 * `Var` - The `Variance` is a measure of dispersion, based on a sample function.
 * `VarP` - The `Variance` is a measure of dispersion, based on the entire population function.
 
-The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid. It will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min` and `Max` prices as well as `Average` price for delivery and the `Count` of the listed items.
+The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's Columns. It will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min` and `Max` prices as well as `Average` price for delivery and the `Count` of the listed items.
 
 <snippet id='datagrid-property-aggregate-descriptor-example'/>
 
