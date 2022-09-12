@@ -1,7 +1,7 @@
 ---
 title: Property Aggregate Descriptor
 page_title: .NET MAUI DataGrid Documentation - Property Aggregate Descriptor
-description: Check our Property Aggregate Descriptor documentation article for Telerik DataGrid for .NET MAUI control.
+description: "Check our Property Aggregate Descriptor documentation article for Telerik DataGrid for .NET MAUI control."
 position: 1
 slug: datagrid-property-aggregate-descriptor
 ---
@@ -18,7 +18,7 @@ To set up the `PropertyAggregateDescriptor`, use the following properties:
 
 The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid. It will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min` and `Max` prices as well as `Average` price for delivery and the `Count` of the listed items.
 
-<snippet id="datagrid-property-aggregate-descriptor-example">
+<snippet id='datagrid-property-aggregate-descriptor-example'/>
 
 ## See Also
 

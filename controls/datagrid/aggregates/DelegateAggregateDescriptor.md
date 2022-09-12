@@ -1,7 +1,7 @@
 ---
 title: Delegate Aggregate Descriptor
 page_title: .NET MAUI DataGrid Documentation - Delegate Aggregate Descriptor
-description: Check our Delegate Aggregate Descriptor documentation article for Telerik DataGrid for .NET MAUI control.
+description: "Check our Delegate Aggregate Descriptor documentation article for Telerik DataGrid for .NET MAUI control."
 position: 2
 slug: datagrid-delegate-aggregate-descriptor
 ---
@@ -16,19 +16,19 @@ To set up the `DelegateAggregateDescriptor`, use the following properties:
 * `Function`&mdash;Defines an `IAggregateFunction` instance that performs the aggregation of the values as specified by the `ValueLookup` property.
 * `Format`&mdash;Defines the string format that will be applied over the aggregated value.
 
-The following example shows how to implement the `IKeyLookup` and `IAggregateFunction` and use them with the `DelegateAggregateDescriptor`. 
+The following example uses the `DelegateAggregateDescriptor` and a custom implementation for a `SumIf` function which sums the values in a range that meet a certain criteria:
 
 1. First, create a class that inherits from the `IKeyLookup` interface. It will return the values of a Price property declared in our business model that is of type double.
 
-<snippet id="datagrid-delegate-aggregate-key">
+<snippet id='datagrid-delegate-aggregate-key'/>
 
-2. Then, implement a class that inherits from the `IAggregateFunction` interface. This function will return half of the maximum value of the `Price` property and round it to the closest whole number.
+2. Then, implement a class that inherits from the `IAggregateFunction` interface. This class will contain our logic for the SumIf function which we will later implement through XAML:
 
-<snippet id="datagrid-delegate-aggregate-function">
+<snippet id='datagrid-delegate-aggregate-function'/>
 
 3. Declare the `DelegateAggregateDescriptor` in XAML.
 
-<snippet id="datagrid-property-delegate-descriptor-example">
+<snippet id='datagrid-property-delegate-descriptor-example'/>
 
 ## See Also
 
