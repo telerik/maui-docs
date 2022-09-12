@@ -1,33 +1,32 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Aggregate Overview
-description: Review the Telerik .NET MAUI DataGrid Aggregates documentation article to learn more about all built in Aggregate functions you can use.
+description: "Review the Telerik .NET MAUI DataGrid Aggregates documentation article to learn more about all built in Aggregate functions you can use."
 position: 0
 slug: datagrid-aggregates
 ---
 
 # Overview
 
-The DataGrid exposes an Aggregates API through the `RadDataGrid.AggregateDescriptors` property where you can add PropertyAggregateDescriptors or DelegateAggregateDescriptors.
+The DataGrid exposes an Aggregates API through the `DataGridColumn.AggregateDescriptors` property where you can add PropertyAggregateDescriptors or DelegateAggregateDescriptors.
 
-The PropertyAggregateDescriptor enables you to utilize a set of available functions, while the `DelegateAggregateDescriptor` allows you to implement a custom function through the `IAggregateFunction` interface.
+The [PropertyAggregateDescriptor]({%slug datagrid-property-aggregate-descriptor %}) enables you to utilize a set of available functions, while the [DelegateAggregateDescriptor]({%slug datagrid-delegate-aggregate-descriptor %}) allows you to implement a custom function through the `IAggregateFunction` interface.
 
-The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `DataGrid Footer` as well as the `GroupHeader`, `GroupFooter` and `ColumnFooter`
+The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFooter` as well as the `GroupHeader`, `GroupFooter` and 
 
-The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggregates:
+The `ShowColumnFooters` property is used to visualize the [ColumnFooters]({%slug datagrid-column-footer %}) of the `DataGrid`. However it is also used to display the Aggregates for the columns.
 
-* `Sum` - The `Sum` function sumarizes all values in the column.
-* `Min` - The `Minimum` value of the cells in the column.
-* `Max` - The `Maximum` value of the cells in the column.
-* `Average` - The `Average` value of the cells in the column.
-* `Count` - The `COUNT` function counts the items in the column.
-* `Product` - The `PRODUCT` function multiplies all the numbers given as arguments and returns the product.
-* `StdDev` - The `Standard Deviation` is a measure of how widely values are dispersed from the average value, based on a sample function.
-* `StdDevP` - The `Standard Deviation` is a measure of how widely values are dispersed from the average value, based on the entire population function.
-* `Var` - The `Variance` is a measure of dispersion, based on a sample function.
-* `VarP` - The `Variance` is a measure of dispersion, based on the entire population function.
+![DataGrid Column Footer Aggregate](images/datagrid-column-footer-aggregate.png)
 
 > The Aggregates are displayed only if there is no FooterText set.
+
+When [Grouping]({%slug datagrid-grouping-overview %}) is applied you can display the aggregate results for the group's data in the `Group Footer`. In order to visualize the footer the `ShowGroupFooters` property needs to be set to True. The Group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
+
+![DataGrid Group Footer Aggregate](images/datagrid-group-footer-aggregate.png)
+
+The aggregate results can also be visualized in the Group header next to the title of the group. In order to show the Aggregates in the Header of the group the `ShowGroupHeaderAggregates` should be used.
+
+![DataGrid Group Header Aggregate](images/datagrid-group-header-aggregate.png)
 
 ## See Also
 
