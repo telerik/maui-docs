@@ -68,7 +68,7 @@ Before adding the BusyIndicator, you need to:
 
 - [.NET MAUI BusyIndicator product page](https://www.telerik.com/maui-ui/busyindicator)
 - [.NET MAUI BusyIndicator forum page](https://www.telerik.com/forums/maui?tagId=1856)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
