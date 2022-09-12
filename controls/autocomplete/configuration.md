@@ -19,11 +19,11 @@ You could also use the `PlaceholderColor` property to define the placeholder tex
 
 ## Display Mode
 
-* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Determines whether a single or multiple selection is enabled. The default `DisplayMode` is `Plain`, for multiple selection you have to set it to `Tokens`.
+* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifying the way in which a picked item from the SuggestionView will be visualize. The default `DisplayMode` is `Plain`, for multiple selection you have to set it to `Tokens`.
 
 ## Completion Mode
 
-* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. The matching items to the filter are displayed in a SuggestionView if the RadAutoComplete.AutoCompleteSuggestMode is `Append` or `SuggestAppend`.
+* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. The matching items to the filter are displayed in a SuggestionView if the RadAutoComplete.AutoCompleteSuggestMode is `Suggest` or `SuggestAppend`.
 
 ## Keyboard
 
