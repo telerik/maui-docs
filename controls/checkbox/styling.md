@@ -54,9 +54,17 @@ The image below shows the end result.
 
 ![CheckBox Color Changing Options](images/checkbox-colors.png)
 
+## Corner Radius
+
+Easily apply corner radius to the Checkbox control using the `CornerRadius`(`double?`) property.
+
+```XAML
+<telerik:RadCheckBox x:Name="checkbox" CornerRadius="3"/>
+```
+
 ## Stroke Thickness
 
-The CheckBox exposes a `StrokeWidth` property that specifies the width of the lines with which the Checkbox element is drawn. It affects the border of the control as well as the check mark.
+The CheckBox exposes a `StrokeWidth`(`double`) property that specifies the width of the lines with which the Checkbox element is drawn. It affects the border of the control as well as the check mark. The default value is `2`.
 
 The following example demonstrates how to apply a `StrokeWidth` value.
 
@@ -67,6 +75,7 @@ The following example demonstrates how to apply a `StrokeWidth` value.
 The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length`.
 
 ![CheckBox Stroke Thickness](images/checkbox-features.png)
+
 
 ## See Also
 
