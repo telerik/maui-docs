@@ -1,7 +1,7 @@
 ---
 title: SuggestionView Template
-page_title:  Xamarin AutoCompleteView Documentation | SuggestionView Template
-description: Check our &quot;SuggestionView Template&quot; documentation article for Telerik AutoCompleteView for Xamarin control.
+page_title: .NET MAUI AutoCompleteView Documentation | SuggestionView Template
+description: Check our &quot;SuggestionView Template&quot; documentation article for Telerik AutoComplete for .NET MAUI control.
 position: 4
 slug: autocomplete-suggestion-view-template
 ---
@@ -30,7 +30,7 @@ Here is an example how to use the RadAutoComplete SuggestionViewTemplate:
 
 Here is the result:
 
-![AutoCompleteView SuggestionViewTemplate Example](images/autocompleteview-suggestionview-template.png "AutoCompleteView SuggestionItemTemplate Example")
+![AutoComplete SuggestionViewTemplate Example](images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
 
 >important For autoComplete SuggestionView Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

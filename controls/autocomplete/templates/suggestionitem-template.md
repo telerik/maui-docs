@@ -1,7 +1,7 @@
 ---
 title: SuggestionItem Template
-page_title: Xamarin AutoCompleteView Documentation | SuggestionItem Template
-description: Check our &quot;SuggestionItem Template&quot; documentation article for Telerik AutoCompleteView for Xamarin control.
+page_title: .NET MAUI AutoCompleteView Documentation | SuggestionItem Template
+description: Check our &quot;SuggestionItem Template&quot; documentation article for Telerik AutoComplete for .NET MAUI control.
 position: 1
 slug: autocomplete-suggestion-item-template
 ---
@@ -14,7 +14,7 @@ Whenever the default template does not fit a particular scenario you can use the
 
 ## Example
 
-Here is an example how to use the RadAutoCompleteView SuggestionItemTemplate:
+Here is an example how to use the RadAutoComplete SuggestionItemTemplate:
 
 **1.** Create the needed business objects, for example type City with the following properties:
 
@@ -30,7 +30,7 @@ Here is an example how to use the RadAutoCompleteView SuggestionItemTemplate:
 
 Here is the result:
 
-![.NET MAUI AutoComplete SuggestionItemTemplate Example](images/autocompleteview-suggestionitem-template.png "AutoComplete SuggestionItemTemplate Example")
+![.NET MAUI AutoComplete SuggestionItemTemplate Example](images/autocomplete-suggestionitem-template.png "AutoComplete SuggestionItemTemplate Example")
 
 >important For autocomplete SuggestionItemTemplate example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
