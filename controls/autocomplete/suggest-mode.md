@@ -44,7 +44,7 @@ And the final result:
 
 ![AutoComplete Append](images/autocomplete-suggest-mode-append.png "AutoComplete Append")
 
-**Example when **`SuggestMode="SuggestAppend"`**:
+**Example when `SuggestMode="SuggestAppend"`**:
 
 <snippet id='autocomplete-suggestmode-suggest-append'/>
 

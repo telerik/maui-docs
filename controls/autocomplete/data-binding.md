@@ -18,7 +18,7 @@ The AutoComplete component provides a default template for suggestion items that
 
 ## Example
 
-Here is an example how the RadAutoCompleteView Data Binding works:
+Here is an example how the RadAutoComplete Data Binding works:
 
 **1.** Create the needed business objects, for example type Client with the following properties:
 

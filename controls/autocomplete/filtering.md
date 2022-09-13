@@ -61,7 +61,7 @@ For example, if the source string is `Main Street, 101` and the user searches `M
 ```
 public class CustomAutoCompleteFilter : IAutoCompleteFilter
 {
-    public bool Filter(object item, string searchText, CompletionMode completionMode)
+    public bool Filter(object item, string searchText, AutoCompleteCompletionMode completionMode)
     {
         var googleSearchResult = (string)item;
 

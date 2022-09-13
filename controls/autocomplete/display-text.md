@@ -1,5 +1,5 @@
 ---
-title: DisplayText Formatter
+title: DisplayText Formatting
 page_title: .NET MAUI Autocomplete Documentation - DisplayText Formatter
 description: Check our &quot;DisplayText Formatter&quot; documentation article for Telerik .NET MAUI Autocomplete control.
 position: 6
@@ -8,7 +8,7 @@ slug: autocomplete-display-text-formatter
 
 # .NET MAUI Autocomplete Display Text Formatting
 
-The AutoCompleteV control provides the option to format the visualized text in the input, so you could modify the displayed details when item is get from the suggestion view. The format of the text could be defined when `AutoComplete` `DisplayMode` is `Plain` or `Tokens`:
+The AutoComplete control provides the option to format the visualized text in the input, so you could modify the displayed details when item is get from the suggestion view. The format of the text could be defined when `AutoComplete` `DisplayMode` is `Plain` or `Tokens`:
 
 * `DisplayTextFormatter`(IDisplayTextFormatter): Defines the formatter of the selected item.
 
@@ -31,7 +31,7 @@ Here is an example how the RadAutoComplete DisplayText Formatter works on Plain 
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** reate a class for example MyTextFormatter that inherist from Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter:
+**3.** Create a class for example MyTextFormatter that inherits from Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter:
 
 <snippet id='autocomplete-text-formatter-plain-class'/>
 

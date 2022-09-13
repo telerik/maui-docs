@@ -10,7 +10,7 @@ slug: autocomplete-remote-search
 
 The Remote Search functionality of the AutoComplete control allows you to easily take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the control.
 
-* `LoadingTemplate`(`DataTemplate`)&mdash;Defines the loading message.
+* `LoadingTemplate`(`DataTemplate`)&mdash;Defines the template of the loading view.
 
 Implement your custom searching algorithm inside the body of the `TextChanged` event handler. 
 
@@ -28,7 +28,7 @@ Here is an example how the RadAutoComplete Remote Search works:
 
 **3.** Use the following snippet to declare a RadAutoComplete in XAML:
 
-<snippet id='autocompleteview-features-remote-search'/>
+<snippet id='autocomplete-remote-search'/>
 
 **4.** Create a custom searching algorithm and assign the result to the control's ItemsSource inside the TextChanged event handler: 
 

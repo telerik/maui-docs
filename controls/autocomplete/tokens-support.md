@@ -12,7 +12,7 @@ With AutoComplete you could enable users to search for and pick several items. T
 
 The Tokens Support feature exposes the following properties:
 
-* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Determines whether a single or multiple selection is enabled. The default DisplayMode is `Plain`, for multiple selection you would need to set it to `Tokens`.
+* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Determines whether a single or multiple items are picked from the suggestion view. The default DisplayMode is `Plain`, for multiple selection you would need to set it to `Tokens`.
 * `ShowMoreItems`(`bool`)&mdash;Defines the visibility of the view that is used to represents more items. When `ShowMoreItems` is set to `true` and `ShowMoreTemplate` is set, the RadAutoComplete hides the tokens that are not on the first line and will show the hidden count. By default `ShowMoreItems` is `true`. If you want to hide the hidden count you should set the `ShowMoreItems` to `false`.
 * `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the template used to create show more view.
 
