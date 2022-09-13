@@ -10,7 +10,7 @@ slug: checkbox-size
 
 The CheckBox provides options for setting its height and width.
 
-To define the dimensions of the control, use the `Length` property, which maintains a 1:1 aspect ratio.
+To define the dimensions of the control, use the `Length`(`double`) property, which maintains a 1:1 aspect ratio. The default value is `18`.
 
 The following example demonstrates how to set the `Length` value.
 

@@ -7,11 +7,31 @@ previous_url: /controls/busyindicator/busyindicator-custom-busy-content
 slug: busyindicator-custom-busy-content
 ---
 
-# Custom Busy Content
+# Content
 
-Setting the `BusyContent` property of BusyIndicator allows you to display any content together with the built-in animations while the control is in its Busy state.
+This article explains the content options of the BusyIndicator when the control is and isn't busy state.
 
-Additionally, you can customize the `BusyContentTemplate` to arrange the custom content and the animated content per your choice.
+When the control is not busy you can display a content using the `Content`(View`) property.
+
+<snippet id='busyindicator-getting-started-xaml' />
+
+The `ContentUnderOpacity`(`double`)&mdash;Defines the opacity when the indicator is busy. the content behind the indicator is visible.
+
+```XAML
+<telerik:RadBusyIndicator x:Name="BusyIndicator" ContentUnderOpacity="0.4">
+   <telerik:RadBusyIndicator.Content>
+      <Label Text="This is the content of the RadBusyIndicator control displayed when the indicator is not busy." TextColor="Black" />
+   </telerik:RadBusyIndicator.Content>
+</telerik:RadBusyIndicator>
+```
+
+## Busy content
+
+Setting the `BusyContent` property of BusyIndicator allows you to display any content together with the built-in animations while the control is in its Busy state. 
+
+### Custom busy content
+
+You can customize the `BusyContentTemplate` to arrange the custom content and the animated content per your choice.
 
 The following example demonstrates how to customize the busy content.
 
@@ -19,10 +39,10 @@ Apply the `BusyContent` and `BusyContentTemplate` properties.
 
 ```XAML
 <telerik:RadBusyIndicator x:Name="BusyIndicator"
-						 AnimationContentHeightRequest="100"
-						 AnimationContentWidthRequest="100"  
+						  AnimationContentHeightRequest="100"
+						  AnimationContentWidthRequest="100"  
 						  AnimationType="Animation6"                                            
-						IsBusy="True">           
+						  IsBusy="True">           
     <telerik:RadBusyIndicator.BusyContent>
         <Label Text="Working on it, just a moment, please..." />
     </telerik:RadBusyIndicator.BusyContent>
