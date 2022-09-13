@@ -1,6 +1,6 @@
 ---
-title: Custom Busy Content
-page_title: .NET MAUI BusyIndicator Documentation - Custom Busy Content
+title: Content
+page_title: .NET MAUI BusyIndicator Documentation - Content
 description: Check our &quot;Custom Busy Content&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
 position: 2
 previous_url: /controls/busyindicator/busyindicator-custom-busy-content
@@ -11,7 +11,7 @@ slug: busyindicator-custom-busy-content
 
 This article explains the content options of the BusyIndicator when the control is and isn't in a busy state.
 
-When the control is not busy you can display a content using the `Content`(View`) property.
+When the control is not busy you can display a content using the `Content`(`View`) property.
 
 <snippet id='busyindicator-getting-started-xaml' />
 
