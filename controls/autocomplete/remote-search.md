@@ -1,6 +1,6 @@
 ---
 title: Remote Search
-page_title: .NET MAUI AutoCompleteView Documentation - Remote Search
+page_title: .NET MAUI AutoComplete Documentation - Remote Search
 description: "Implement remote searching in the AutoComplete for .NET MAUI control."
 position: 10
 slug: autocomplete-remote-search
@@ -16,7 +16,7 @@ Implement your custom searching algorithm inside the body of the `TextChanged` e
 
 ## Example
 
-Here is an example how the RadAutoCompleteView Remote Search works:
+Here is an example how the RadAutoComplete Remote Search works:
 
 **1.** Create the needed business objects, for example type Client with the following properties:
 
@@ -36,11 +36,11 @@ Here is an example how the RadAutoCompleteView Remote Search works:
 
 This is the result when LoadingTemplate is searching for results: 
 
-![.NET MAUI AutoComplete Remote Search Searching](images/autocompleteview-remote-search-searching.png "AutoComplete Remote Search Searching")
+![.NET MAUI AutoComplete Remote Search Searching](images/autocomplete-remote-search-searching.png "AutoComplete Remote Search Searching")
 
 This is the search complete results:
 
-![.NET MAUI AutoComplete Remote Search Results](images/autocompleteview-remote-search-results.png "AutoComplete Remote Search Results")
+![.NET MAUI AutoComplete Remote Search Results](images/autocomplete-remote-search-results.png "AutoComplete Remote Search Results")
 
 >important For the AutoComplete Remote Search example  refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

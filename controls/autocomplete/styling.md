@@ -69,7 +69,7 @@ Here is an example with `RadHighlightLabel`:
 
 Here is the result:
 
-![AutoCompleteView Highlight Customization](images/autocompleteview-highlight.png "AutoCompleteView Highlight Customization")
+![AutoComplete Highlight Customization](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
 
 >important For AutoComplete HighlightText example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

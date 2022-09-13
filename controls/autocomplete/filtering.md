@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: .NET MAUI AutoCompleteView Documentation - Filtering
+page_title: .NET MAUI AutoComplete Documentation - Filtering
 description: "Review all filtering options that AutoComplete for .NET MAUI provides."
 position: 7
 slug: autocomplete-filtering
