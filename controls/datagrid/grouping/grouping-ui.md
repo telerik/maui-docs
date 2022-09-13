@@ -16,7 +16,7 @@ The data can be grouped by more than one column. To do that drag another column 
 
 ## Configuration
 
-The **DataGrid Grouping UI** exposes the following properties:
+In order to manipulate the state of the **Grouping UI** you can use the following properties:
 
 * `UserGroupMode`(`enum` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserGroupMode`) - Enables or disables the Grouping UI of the DataGrid. The default value is `Auto`.
 * `CanUserGroup`(`bool` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridColumn`) - Enables or disables grouping for a specific column. The default value is `True`.
