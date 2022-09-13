@@ -16,7 +16,7 @@ slug: autocomplete-overview
 
 * [Tokens Support]({%slug autocomplete-tokens-support%})&mdash;With AutoComplete you could enable users to search for and pick several items in one control.
 * [Filtering Options]({%slug autocomplete-filtering%})&mdash;You could define the filtering behavior to display all the matches that either `StartsWith` or `Contains` the typed symbols.
-* [Different Suggest Modes Support]({%slug autocompleteview-suggest-mode%})&mdash;RadAutoCompleteView exposes three different modes (Suggest, Append, SuggestAppend) for providing suggestions.
+* [Different Suggest Modes Support]({%slug autocomplete-suggest-mode%})&mdash;RadAutoCompleteView exposes three different modes (Suggest, Append, SuggestAppend) for providing suggestions.
 * [Placeholder]({%slug autocomplete-configuration%}#placeholder)&mdash;Used to give guidance to the end user on what should be entered in the text input.
 * [No results message]({%slug autocomplete-configuration%}#no-results-message)&mdash;NoResults message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.
 * [Vizualized text formatting]({%slug autocomplete-display-text-formatter%})&mdash;You can control how the text is visualized when get an item from the suggestion view.
