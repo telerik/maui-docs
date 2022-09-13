@@ -8,18 +8,18 @@ slug: datagrid-grouping-ui
 
 # Grouping UI
 
-**Telerik UI for .NET MAUI DataGrid** provides a built-in grouping functionality, which allows the user to easily group the data by one or more column.
+**Telerik UI for .NET MAUI DataGrid** provides a built-in grouping functionality, which allows the user to easily group the data by one or more columns.
 
 The **DataGrid Grouping UI** exposes the `DataGridServicePanel` view which contains the `DataGridGroupingPanel` in itself. In order to group data the user has to drag the desired column header to the `DataGridGroupingPanel` located at the top of the DataGrid.
 
-The data can be grouped by more than one column. To do that drag another column into the grouping area and the data will be grouped against these two criteria.
+> The user can drag more than one column into the panel.
 
 ## Configuration
 
 In order to manipulate the state of the **Grouping UI** you can use the following properties:
 
-* `UserGroupMode`(`enum` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserGroupMode`) - Enables or disables the Grouping UI of the DataGrid. The default value is `Auto`.
-* `CanUserGroup`(`bool` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridColumn`) - Enables or disables grouping for a specific column. The default value is `True`.
+* `UserGroupMode`(`enum` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserGroupMode`) - The `UserGroupMode` has to be set on the DataGrid, it enables or disables the Grouping UI of the DataGrid. The default value is `Auto`.
+* `CanUserGroup`(`bool` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridColumn`) - The `CanUserGroup` has to be set on the DataGrid.Columns, it enables or disables the Grouping UI of a specific DataGrid Column. The default value is `True`.
 
 ## Disabling Grouping
 
