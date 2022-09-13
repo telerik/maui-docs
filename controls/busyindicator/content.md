@@ -9,7 +9,7 @@ slug: busyindicator-custom-busy-content
 
 # Content
 
-This article explains the content options of the BusyIndicator when the control is and isn't busy state.
+This article explains the content options of the BusyIndicator when the control is and isn't in a busy state.
 
 When the control is not busy you can display a content using the `Content`(View`) property.
 
