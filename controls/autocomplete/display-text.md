@@ -21,7 +21,7 @@ There are two options to define the formatter of the selected item:
 
 ### DisplayText Formatter with DisplayMode Plain
 
-Here is an example how the RadAutoCompleteView DisplayText Formatter works on Plain DisplayMode:
+Here is an example how the RadAutoComplete DisplayText Formatter works on Plain DisplayMode:
 
 **1.** Create the needed business objects, for example type Client with the following properties:
 
@@ -35,13 +35,13 @@ Here is an example how the RadAutoCompleteView DisplayText Formatter works on Pl
 
 <snippet id='autocomplete-text-formatter-plain-class'/>
 
-**4.**Use the following snippet to declare a RadAutoCompleteView in XAML:
+**4.**Use the following snippet to declare a RadAutoComplete in XAML:
 
 <snippet id='autocomplete-textformatter-plain'/>
 
 ### DisplayText Formatter with DisplayMode Token
 
-Here is an example how the RadAutoCompleteView DisplayText Formatter works on Tokens:
+Here is an example how the RadAutoComplete DisplayText Formatter works on Tokens:
 
 First, create the needed business objects, for example type Client with the following properties:
 
@@ -53,13 +53,13 @@ First, create the needed business objects, for example type Client with the foll
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Use the following snippet to declare a RadAutoCompleteView in XAML:
+**3.** Use the following snippet to declare a RadAutoComplete in XAML:
 
 <snippet id='autocomplete-textformatter-tokens'/>
 
 Here is how the DisplayText Formatter looks in both cases:
 
-![.NET MAUI AutoComplete DisplayText Formatter](images/autocompleteview-features-display-text-formatter.png "AutoComplete DisplayText Formatter")
+![.NET MAUI AutoComplete DisplayText Formatter](images/autocomplete-features-display-text-formatter.png "AutoComplete DisplayText Formatter")
 
 >important For Autocomplete DisplayText Formatter example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

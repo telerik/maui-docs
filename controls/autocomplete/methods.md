@@ -25,7 +25,7 @@ The example below uses `ShowSuggesstions` method to display all items as soon as
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Declare the RadAutoCompleteView in XAML:
+**3.** Declare the RadAutoComplete in XAML:
 
 <snippet id='autocomplete-data-binding'/>
 

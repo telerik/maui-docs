@@ -1,9 +1,9 @@
 ---
 title: Suggest Mode
-page_title: Xamarin AutoCompleteView Documentation | Suggest Mode
+page_title: .NET MAUI AutoCompleteView Documentation | Suggest Mode
 description: Check our &quot;Suggest Mode&quot; documentation article for Telerik AutoCompleteView for Xamarin control.
 position: 3
-slug: autocompleteview-suggest-mode
+slug: autocomplete-suggest-mode
 ---
 
 # .NET MAUI AutoComplete Suggest Mode
@@ -34,7 +34,7 @@ Create a ViewModel with a collection of Client objects:
 
 Here is the result when `SuggestMode` is set to `Suggest`:
 
-![AutoCompleteView Suggest](images/autocompleteview-suggest-mode-suggest.png "AutoCompleteView Suggest")
+![AutoComplete Suggest](images/autocomplete-suggest-mode-suggest.png "AutoComplete Suggest")
 
 **Exmaple when `SuggestMode="Append"`**:
 
@@ -42,7 +42,7 @@ Here is the result when `SuggestMode` is set to `Suggest`:
 
 And the final result:
 
-![AutoCompleteView Append](images/autocompleteview-suggest-mode-append.png "AutoCompleteView Append")
+![AutoComplete Append](images/autocomplete-suggest-mode-append.png "AutoComplete Append")
 
 **Example when **`SuggestMode="SuggestAppend"`**:
 
@@ -50,7 +50,7 @@ And the final result:
 
 Here is the result:
 
-![AutoCompleteView SuggestAppend](images/autocompleteview-suggest-mode-suggestappend.png "AutoCompleteView SuggestAppend")
+![AutoComplete SuggestAppend](images/autocomplete-suggest-mode-suggestappend.png "AutoComplete SuggestAppend")
 
 >important For AutoComplete Suggest Mode example refer the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

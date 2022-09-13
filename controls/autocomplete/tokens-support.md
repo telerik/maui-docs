@@ -8,7 +8,7 @@ slug: autocomplete-tokens-support
 
 # .NET MAUI AutoComplete Tokens Support
 
-With AutoCompleteView you could enable users to search for and pick several items. These items appear as tokens that can easily be deselected using their close button.
+With AutoComplete you could enable users to search for and pick several items. These items appear as tokens that can easily be deselected using their close button.
 
 The Tokens Support feature exposes the following properties:
 
@@ -35,7 +35,7 @@ private void Tokens_CollectionChanged(object sender, System.Collections.Speciali
 
 ## Example
 
-Here is an example how the RadAutoCompleteView Tokens feature works:
+Here is an example how the RadAutoComplete Tokens feature works:
 
 **1.** Create the needed business objects, for example type City with the following properties:
 
@@ -45,13 +45,13 @@ Here is an example how the RadAutoCompleteView Tokens feature works:
 
 <snippet id='autocomplete-city-viewmodel'/>
 
-**3.** Use the following snippet to declare a RadAutoCompleteView in XAML:
+**3.** Use the following snippet to declare a RadAutoComplete in XAML:
 
 <snippet id='autocomplete-tokens'/>
 
 Here is the result when ShowMoreTemplate is used:
 
-![AutoCompleteView Tokens Support](images/autocompleteview-features-tokens-support.png "AutoCompleteView Tokens Support")
+![AutoComplete Tokens Support](images/autocomplete-features-tokens-support.png "AutoComplete Tokens Support")
 
 >important For Autocomplete Tokens example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
