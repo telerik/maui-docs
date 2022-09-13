@@ -15,9 +15,11 @@ Overall, Telerik .NET MAUI AutoComplete control preserves the same API as Xamari
 | control name - `AutoCompleteView` | control name - `AutoComplete` |
 | `WatermarkText` | `Placeholder` |
 | `WatermarkTextColor` | `PlaceholderColor` |
-| `SuggestionItemTextColor` | `SuggestionItemHighlightText` |
-| Uses Xamarin.Forms ListView for the Suggestion List | Uses .NET MAUI CollectionView for the Suggestion List |
-| `SuggestionItemLabel` |  |
-| `ImagePath` | - |
+| `SuggestionItemTextColor` | `SuggestionItemHighlightTextColor` |
+| `SuggestionItemLabel` | `RadHighlightLabel` |
+| `ImagePath` | removed |
+| `CompletionMode ` | `AutoCompleteCompletionMode` |
+| `PopupPosition  ` | `AutoCompletePopupPosition` |
+| `SuggestMode   ` | `AutoCompleteSuggestMode` |
 
 ## See Also

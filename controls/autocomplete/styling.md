@@ -27,7 +27,10 @@ Use the `ClearButtonStyle` property (of type `Style` with target type `RadButton
 
 * `SuggestionViewBackgroundColor`(`Color`)&mdash;Defines the background color of the suggestion view.
 * `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
+* `SuggestionViewBorderThickness`&mdash;Defines the thickness of the border around the suggestion view.
+* `SuggestionViewCornerRadius`&mdash;Defines the corner radius applied to the Suggestion View.
 * `SuggestionItemHighlightTextColor`&mdash;Defines the highlightcolor of the selection items.
+
 
 Here is an example how to use the SuggestionItemHighlightTextColor property:
 
@@ -45,9 +48,9 @@ Here is an example how to use the SuggestionItemHighlightTextColor property:
 
 ## Highlight Customization
 
-In case a custom template is used, the user can achieve text highlighting inside the RadAutoComplete.SuggestionItemTemplate using `RadHighlightLabel` and the following namespace:
+In case a custom template is used, the user can achieve text highlighting inside the RadAutoComplete.SuggestionItemTemplate using `RadHighlightLabel`.
 
-The AutoCompleteView `RadHighlightLabel` exposes the following properties:
+The AutoComplete `RadHighlightLabel` exposes the following properties:
 
 * `HighlightTextColor`
 * `HighlightText`
@@ -63,7 +66,7 @@ Here is an example with `RadHighlightLabel`:
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Use the following snippet to declare a RadAutoCompleteView in XAML with SuggestionItemLabel property:
+**3.** Use the following snippet to declare a RadAutoComplete in XAML with RadHighlightLabel:
 
 <snippet id='autocomplete-highlight-text-behavior'/>
 

@@ -10,7 +10,7 @@ slug: autocomplete-token-template
 
 AutoComplete provides an option to customize the template that vizualize the tokens through `TokenTemplate` property.
 
-* `TokenTemplate` (`DataTemplate`)&mdash;Defines the template used to vizualize the tokens.
+* `TokenTemplate`(`DataTemplate`)&mdash;Defines the template used to vizualize the tokens.
 
 ## Example
 

@@ -30,7 +30,7 @@ You could also use the `PlaceholderColor` property to define the placeholder tex
 The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define the type of the keyboard that will be visualized by the device. 
 
 ```XAML
-<telerikInput:RadAutoCompleteView Keyboard="Numeric" />
+<telerikInput:RadAutoComplete Keyboard="Numeric" />
 ```
 
 ## Clear button visibility
