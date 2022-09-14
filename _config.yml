@@ -149,6 +149,9 @@ navigation:
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
+    controls/datagrid/grouping:
+        title: "Grouping"
+        position: 4
     controls/datagrid/commands:
         title: "Commands"
         position: 10

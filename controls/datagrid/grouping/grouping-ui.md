@@ -2,7 +2,7 @@
 title: Grouping UI
 page_title: .NET MAUI DataGrid Documentation - Grouping UI
 description: "Review the Telerik .NET MAUI DataGrid Grouping UI documentation article to learn more about the built in Grouping UI functions you can use."
-position: 0
+position: 1
 slug: datagrid-grouping-ui
 ---
 
