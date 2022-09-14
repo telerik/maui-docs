@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFoo
 
 The `ShowColumnFooters` property is used to visualize the [ColumnFooters]({%slug datagrid-column-footer %}) of the `DataGrid`. However it is also used to display the Aggregates for the columns.
 
-![DataGrid Column Footer Aggregate](../images/property-aggregate-windows.png)
+![DataGrid Column Footer Aggregate](../images/datagrid-property-aggregate-windows.png)
 
 > The Aggregates are displayed only if there is no FooterText set.
 
