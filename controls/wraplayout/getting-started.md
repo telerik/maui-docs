@@ -69,7 +69,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 - [.NET MAUI WrapLayout product page](https://www.telerik.com/maui-ui/wraplayout)
 - [.NET MAUI WrapLayout forum page](https://www.telerik.com/forums/maui?tagId=1831)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/tag/.net-maui)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
