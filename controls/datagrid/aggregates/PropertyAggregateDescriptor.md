@@ -33,7 +33,7 @@ The following example shows how to add a `PropertyAggregateDescriptor` to the Da
 
 <snippet id='datagrid-property-aggregate-descriptor-example'/>
 
-![Property Aggregate Descriptor](../images/property-aggregate-windows.png)
+![Property Aggregate Descriptor](../images/datagrid-property-aggregate-windows.png)
 
 ## See Also
 
