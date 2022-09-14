@@ -16,17 +16,17 @@ The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFoo
 
 The `ShowColumnFooters` property is used to visualize the [ColumnFooters]({%slug datagrid-column-footer %}) of the `DataGrid`. However it is also used to display the Aggregates for the columns.
 
-![DataGrid Column Footer Aggregate](images/datagrid-column-footer-aggregate.png)
+![DataGrid Column Footer Aggregate](../images/property-aggregate-windows.png)
 
 > The Aggregates are displayed only if there is no FooterText set.
 
 When [Grouping]({%slug datagrid-grouping-overview %}) is applied you can display the aggregate results for the group's data in the `Group Footer`. In order to visualize the footer the `ShowGroupFooters` property needs to be set to True. The Group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
 
-![DataGrid Group Footer Aggregate](images/datagrid-group-footer-aggregate.png)
+![DataGrid Group Footer Aggregate](../images/datagrid-group-footer-aggregate.png)
 
 The aggregate results can also be visualized in the Group header next to the title of the group. In order to show the Aggregates in the Header of the group the `ShowGroupHeaderAggregates` needs to be set to True.
 
-![DataGrid Group Header Aggregate](images/datagrid-group-header-aggregate.png)
+![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
 
 ## See Also
 

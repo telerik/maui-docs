@@ -30,6 +30,8 @@ The following example uses the `DelegateAggregateDescriptor` and a custom implem
 
 <snippet id='datagrid-property-delegate-descriptor-example'/>
 
+![Delegate Aggregate Descriptor](../images/delegate-aggregate-windows.png)
+
 ## See Also
 
 - [Property Aggregate Descriptor]({%slug datagrid-property-aggregate-descriptor%})
