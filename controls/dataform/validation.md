@@ -8,7 +8,7 @@ slug: dataform-validation
 
 # Validation
 
-Telerik DataForm for .NET MAUI provides built-in validation, which gives you full control over the data collected through the control. 
+.NET MAUI DataForm provides built-in validation, which gives you full control over the data collected through the control. 
 
 The next sections list all DataForm members related to validation.
 

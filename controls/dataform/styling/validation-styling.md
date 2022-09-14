@@ -6,7 +6,7 @@ position: 4
 slug: dataform-validation-styling
 ---
 
-# .NET MAUI Validation Styling
+# .NET MAUI DataForm Validation Styling
 
 You can easily customize the validation look using the following styling properties:
 

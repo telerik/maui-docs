@@ -6,7 +6,7 @@ position: 5
 slug: dataform-header-styling
 ---
 
-# .NET MAUI Header Styling
+# .NET MAUI DataForm Header Styling
 
 The DatePicker control for .NET MAUI provides styling options for customizing the apperance of the header label or image above each editor.
 

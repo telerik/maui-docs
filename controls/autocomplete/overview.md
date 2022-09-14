@@ -16,10 +16,10 @@ slug: autocomplete-overview
 
 * [Tokens Support]({%slug autocomplete-tokens-support%})&mdash;With AutoComplete you could enable users to search for and pick several items in one control.
 * [Filtering Options]({%slug autocomplete-filtering%})&mdash;You could define the filtering behavior to display all the matches that either `StartsWith` or `Contains` the typed symbols.
-* [Different Suggest Modes Support]({%slug autocomplete-suggest-mode%})&mdash;RadAutoCompleteView exposes three different modes (Suggest, Append, SuggestAppend) for providing suggestions.
+* [Different Suggest Modes Support]({%slug autocomplete-suggest-mode%})&mdash;RadAutoComplete exposes three different modes (Suggest, Append, SuggestAppend) for providing suggestions.
 * [Placeholder]({%slug autocomplete-configuration%}#placeholder)&mdash;Used to give guidance to the end user on what should be entered in the text input.
 * [No results message]({%slug autocomplete-configuration%}#no-results-message)&mdash;NoResults message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.
-* [Vizualized text formatting]({%slug autocomplete-display-text-formatter%})&mdash;You can control how the text is visualized when get an item from the suggestion view.
+* [Vizualized text formatting]({%slug autocomplete-display-text-formatter%})&mdash;You can control how the text is visualized when chosen an item from the suggestion view.
 * [Custom Templates]({%slug autocomplete-custom-templates%})&mdash;If any of the default templates does not fit in a particular scenario, you can easily define a custom template.
 * [Remote Search]({%slug autocomplete-remote-search%})&mdash;Allows you to easily take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the AutoComplete.
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to hide the view with the suggestions.
