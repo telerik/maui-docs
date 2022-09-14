@@ -22,6 +22,8 @@ You could either apply `HeaderText` property or use the `ExpanderHeader` content
 
 <snippet id='expander-features-headerlocation'/>
 
+![.NET MAUI Expander Header location](images/expander-header-location.png "Expander header location")
+
 ## Animation while expanding or collapsing
 
 To enable or disable the animation you need to use the `IsAnimationEnabled` property of RadExpander. By default, the Animation is enabled.
@@ -38,13 +40,17 @@ Check the example below on how the border settings could be defined:
 
 <snippet id='expander-features-borderstyling'/>
 
-## Text styling
+## Header text styling
 
 To customize the text inside the header you have to use the `HeaderTextStyle` property. If `HeaderTextStyle` is not set, the text inside is bold by default.
 
 The following code shows how to declare the HeaderTextStyle property in the Expander:
 
 <snippet id='expander-features-headertext-styling'/>
+
+And the result:
+
+![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
 
 ## See Also
 

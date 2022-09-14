@@ -25,17 +25,17 @@ The indicator is the little triangle that is rotated according to whether the Ex
 
 ## Border styling
 
-You could apply `BorderColor` and `BorderThickness` properties of HeaderExpander to make it consistent with the design of your app. 
-
-## Text styling
-
-You could apply the `HeaderTextStyle`(Style with target type `Label`) property of HeaderExpander to change the Text Style of the Header.
+You could apply `BorderColor` and `BorderThickness` properties of the `ExpanderHeader` to make it consistent with the design of your app. 
 
 ## Example
 
 Check the example below on how the Indicator options and border properties could be applied:
 
 <snippet id='expander-features-expanderheader'/>
+
+And the final result:
+
+![.NET MAUI Expander Header customization](images/expander-custom-header.png "Expander Header customization")
 
 ## See Also
 
