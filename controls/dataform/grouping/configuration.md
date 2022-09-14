@@ -10,7 +10,7 @@ slug: dataform-configuration
 
 The DataForm control for .NET MAUI provides the following properties to configure and customize the groups appearance. 
 
-* `GroupName`(`string`)Specified the unique name of the group.
+* `GroupName`(`string`)&mdash;Specified the unique name of the group.
 * `Spacing`(`double`)&mdash;Specifies the spacing in pixels between the header view and the content view(where the editors are defined).
 
 ## Header
@@ -37,7 +37,7 @@ HeaderDisplayOptions="Image, Text"
 
 ## Layouts
 
-DataGormd supports different group layouts. You can easily apply a layout to a particular group by setting the `LayoutDefinition` property to the DataFormGroup. The available layouts are described in the [DataForm Layouts](%slug dataform-layouts%) article.
+DataFormd supports different group layouts. You can easily apply a layout to a particular group by setting the `LayoutDefinition` property to the DataFormGroup. The available layouts are described in the [DataForm Layouts]({%slug dataform-layouts%}) article.
 
 This is an example when the `DataFormGroup.LayoutDefinition` is set to `DataFormGridLayout`:
 
@@ -54,6 +54,6 @@ This is an example when the `DataFormGroup.LayoutDefinition` is set to `DataForm
 
 ## Styling
 
-You can fully cusomize the groups using the flexible styling API. For more details review the [Groups Styling]() article.
+You can fully cusomize the groups using the flexible styling API. For more details review the [Groups Styling]({%slug dataform-group-styling%}) article.
 
 ## See Also

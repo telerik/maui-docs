@@ -6,9 +6,9 @@ position: 1
 slug: dataform-editors-styling
 ---
 
-# .NET MAUI Editors Styling
+# .NET MAUI DataForm Editors Styling
 
-The DatePicker control for .NET MAUI provides styling options for customizing the apperance of its editors. You have to apply a style to each editor individually.
+The DataForm control for .NET MAUI provides styling options for customizing the appearance of its editors. You have to apply a style to each editor individually.
 
 Each editor provides the following properties:
 
