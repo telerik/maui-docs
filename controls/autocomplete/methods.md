@@ -39,7 +39,7 @@ The example below uses `ShowSuggesstions` method to display all items as soon as
 
 Here is the result:
 
-![.NET MAUI AutoComplete Show Suggestions](images/autocompleteview-showsuggestions.png "AutoComplete ShowSuggestions")
+![.NET MAUI AutoComplete Show Suggestions](images/autocomplete-showsuggestions.png "AutoComplete ShowSuggestions")
 
 # See Also
 
