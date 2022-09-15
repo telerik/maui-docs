@@ -34,7 +34,7 @@ and the code for Label.GestureRecognizer property:
 
 Here is the result:
 
-![.NET MAUI AutoComplete TokenTemplate Example](images/autocomplete-token-template.png "AutoComplete TokenTemplate Example")
+![.NET MAUI AutoComplete TokenTemplate Example](../images/autocomplete-token-template.png "AutoComplete TokenTemplate Example")
 
 >important For AutoComplete Tokens Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
