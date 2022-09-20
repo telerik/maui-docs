@@ -34,3 +34,5 @@ The `DataGrid` supports group expand and collapse operations either through the 
 ## See Also
 
 - [Grouping UI]({%slug datagrid-grouping-ui%})
+- [Property Group Descriptor]({%slug datagrid-property-group-descriptor%})
+- [Delegate Group Descriptor]({%slug datagrid-delegate-group-descriptor%})
