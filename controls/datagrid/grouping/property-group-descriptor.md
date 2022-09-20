@@ -2,7 +2,7 @@
 title: Property Group Descriptor
 page_title: .NET MAUI DataGrid Documentation - Property Group Descriptor
 description: "Review the Telerik .NET MAUI DataGrid Property Group Descriptor documentation article to learn more about the property grouping function you can use."
-position: 0
+position: 2
 slug: datagrid-property-group-descriptor
 ---
 
@@ -42,3 +42,7 @@ this.dataGrid.GroupDescriptors.Add(new Telerik.XamarinForms.Common.Data.Property
 Here is how the DataGrid looks when it is grouped:
 
 ![DataGrid Property GroupDescriptor](../images/datagrid_grouping.png)
+
+## See Also
+
+- [Grouping UI]({%slug datagrid-grouping-ui%})

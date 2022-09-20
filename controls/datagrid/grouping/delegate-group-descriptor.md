@@ -2,7 +2,7 @@
 title: Delegate Group Descriptor
 page_title: .NET MAUI DataGrid Documentation - Delegate Group Descriptor
 description: "Review the Telerik .NET MAUI DataGrid Delegate Group Descriptor  documentation article to learn more about the delegate grouping function you can use."
-position: 0
+position: 3
 slug: datagrid-delegate-group-descriptor
 ---
 
