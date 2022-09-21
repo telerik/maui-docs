@@ -8,36 +8,45 @@ slug: dataform-picker-editors
 
 # .NET MAUI DataForm Picker Editors
 
-You can use the following Picker Editors the DataForm provides:
+Picker editors which are based on Telerik .NET MAUI controls:
 
 * `DataFormRadDatePickerEditor`&mdash;of type `RadDatePicker`({%slug datepicker-overview%})
-* `DataFormRadDateTimePickerEditor` &mdash;of type `RadDateTimePicker`({%slug datetimepicker-overview%})
-* `DataFormRadTimePickerEditor` &mdash;of type `RadTimePicker`({%slug timepicker-overview%})
-* `DataFormRadTimeSpanPickerEditor` &mdash;of type `RadTimeSpanPicker`({%slug timespanpicker-overview%})
+* `DataFormRadDateTimePickerEditor`&mdash;of type `RadDateTimePicker`({%slug datetimepicker-overview%})
 
-* `DataFormRadListPickerEditor` &mdash;of type `RadListPicker`({%slug listpicker-overview%})
 
-* `DataFormDatePickerEditor` &mdash;of type `.NET MAUI DatePicker`
-* `DataFormTimePickerEditor` &mdash;of type `.NET MAUI TimePicker`
 
-Each Picker Editor has a Placeholder property.
+* `DataFormRadTimePickerEditor`&mdash;of type `RadTimePicker`({%slug timepicker-overview%})
+* `DataFormRadTimeSpanPickerEditor`&mdash;of type `RadTimeSpanPicker`({%slug timespanpicker-overview%})
 
-## Styling 
+* `DataFormRadListPickerEditor`&mdash;of type `RadListPicker`({%slug listpicker-overview%})
 
-You can easily style the editors using the properties BackgroundColor, BorderColor and BorderThickness. You can additionally style each editor by applying a style with the same target type as the underlying control.
+
+Picker editors that are based on .NET MAUI controls:
+
+* `DataFormDatePickerEditor`&mdash;of type `.NET MAUI DatePicker`
+* `DataFormTimePickerEditor`&mdash;of type `.NET MAUI TimePicker`
+
+
+## Common properties
+
+* `Placeholder` property(`string`) that prompts users what kind of information they are expected to enter. 
+
+You can easily style the editors using the properties `BackgroundColor`, `BorderColor` and `BorderThickness`. You can additionally style each editor by applying a style with the same target type as the underlying control.
 
 A table with all editors and their control types is available in the [Editors Overview article]({%slug dataform-editors%}).
+
+>note More information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
 
 **Example with DataFormRadTextMaskedEditor**
 
 ```XAML
 <Style x:Key="RadDatePickerStyle" TargetType="telerik:RadDatePicker">
-            <Setter Property="Placeholder"
-                    Value="Enter the starting date" />
-            <Setter Property="MinimumDate"
-                    Value="2022,1,1" />
-            <Setter Property="IsToggleButtonVisible"
-                    Value="False" />
+    <Setter Property="Placeholder"
+            Value="Enter the starting date" />
+    <Setter Property="MinimumDate"
+            Value="2022,1,1" />
+    <Setter Property="IsToggleButtonVisible"
+            Value="False" />
 </Style>
 ```
 
@@ -51,4 +60,3 @@ And the editor definition
                                      BorderThickness="2"
                                      EditorStyle="{StaticResource RadDatePickerStyle}"/>
 ```
-For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).

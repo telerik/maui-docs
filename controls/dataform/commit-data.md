@@ -41,7 +41,7 @@ or to each editor.
 * `CommitChanges`&mdash; Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to ``Explicit`.
 The method returns `true` if the validation passes, otherwise `false`.
 
-* `CancelChnages`&mdash;Cancels all pending changes in the RadDataForm and reverts to the original values from the underlying business object. This method is mostly useful when the `CommitMode` property is set `Explicit`.
+* `CancelChanges`&mdash;Cancels all pending changes in the RadDataForm and reverts to the original values from the underlying business object. This method is mostly useful when the `CommitMode` property is set `Explicit`.
 
 ## Commands
 

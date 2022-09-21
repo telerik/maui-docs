@@ -8,7 +8,7 @@ slug: dataform-headers
 
 # .NET MAUI DataForm Headers
 
-DataForm has a headers for the Editors and for the Groups. 
+DataForm has headers for the Editors and for the Groups. 
 
 ## Header in Editors
 
@@ -34,7 +34,7 @@ HeaderDisplayOptions="Image, Text"
 
 * `HeaderTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the header view.
 
->note All Header properties for he Editors can be applied directly in the DataForm control and they will be common for all editors.
+>note All Header properties for the Editors can be applied directly in the DataForm control and they will be common for all editors.
 
 ### Styling
 

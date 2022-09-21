@@ -15,6 +15,7 @@ The table below describes the available editors which use the Telerik .NET MAUI 
 | Editor name 		 | Type | Input control |
 |--------------------|------------|-------|
 | `DataFormRadEntryEditor` 		 | `string` | `Telerik .NET MAUI RadEntry` |
+| `DataFormRadEntryPasswordEditor` 		 | `string` | `Telerik .NET MAUI RadEntry` |
 | `DataFormRadTextMaskedEditor` 		 | `string` | `Telerik .NET MAUI RadTextMaskedEntry` |
 | `DataFormRadNumericMaskedEditor` 		| `object` | `Telerik .NET MAUI RadNumericMaskedEntry` |
 | `DataFormRadEmailMaskedEditor` 		 | `string` | `Telerik .NET MAUI RadEmailMaskedEntry` |

@@ -20,27 +20,16 @@ You can easily style the editors using the properties BackgroundColor, BorderCol
 
 A table with all editors and their control types is available in the [Editors Overview article]({%slug dataform-editors%}).
 
-**Example with DataFormRadTextMaskedEditor**
+**Example with DataFormRadCheckBoxEditor**
 
 ```XAML
-<Style x:Key="RadDateBooleanStyle" TargetType="telerik:RadDateBoolean">
-            <Setter Property="Placeholder"
-                    Value="Enter the starting date" />
-            <Setter Property="MinimumDate"
-                    Value="2022,1,1" />
-            <Setter Property="IsToggleButtonVisible"
-                    Value="False" />
-</Style>
+<telerik:DataFormRadCheckBoxEditor PropertyName="Visited"
+                                   HeaderText="Visited before"
+                                   EditorStyle="{StaticResource CheckBoxStyle}" />
 ```
 
-And the editor definition
+**Define the `CheckBoxStyle` for the RadCheckBox editor**
 
-```XAML
-<telerik:DataFormRadDateBooleanEditor PropertyName="StartDate"
-                                     HeaderText="Start Date"
-                                     BackgroundColor="LightSteelBlue"
-                                     BorderColor="DarkGray"
-                                     BorderThickness="2"
-                                     EditorStyle="{StaticResource RadDateBooleanStyle}"/>
-```
+<snippet id='dataform-editors-stlying-checkbox-style' />
+
 For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).

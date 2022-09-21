@@ -15,7 +15,7 @@ You can use the following Masked Editors the DataForm provides:
 * `DataFormRadEmailMaskedEditor` &mdash;of type `RadEmailMaskedEntry`({%slug maskedentry-email-mask%})
 * `DataFormRadRegexMaskedEditor` &mdash;of type `RadRegexMaskedEntry`({%slug maskedentry-regex-mask%})
 
-Each Masked Editor has a Mask property.
+Each Masked Editor has Mask and Culture properties.
 
 ## Styling 
 
