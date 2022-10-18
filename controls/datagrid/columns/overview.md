@@ -77,6 +77,12 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
  <snippet id='datagrid-column-view-model' />
 
+ And the namespace used for `NotifyPropertyChangedBase`:
+
+ ```C#
+ using Telerik.Maui.Controls
+ ```
+
 1. And the `Club` custom object:
 
  <snippet id='datagrid-club-model' />
