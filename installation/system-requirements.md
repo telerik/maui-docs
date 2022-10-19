@@ -8,7 +8,7 @@ position: 1
 
 # System Requirements for Telerik UI for .NET MAUI
 
->note With **Telerik .NET MAUI 3.2.0** version we have added a support for .NET 7.0
+>note With **Telerik .NET MAUI 3.2.0** version we have added a support for .NET 7.0 RC
 
 In order to develop applications with Telerik UI for .NET MAUI you need to have the following development tools installed:
 
