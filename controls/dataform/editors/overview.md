@@ -58,7 +58,7 @@ The table below describes the available editors which use the .NET MAUI controls
 * `ErrorPosition`(`Telerik.Maui.Controls.DataFormErrorPosition?`)&mdash;Specifies the error position in the editor.
 * `ErrorImageSource`(`Telerik.Maui.Controls.ImageSource`)&mdash;Specifies the image source of the error icon.
 
-* Properties related to the error styling are described in the [Error message styling article]({%slug dataform-headers}]).
+* Properties related to the error styling are described in the [Error message styling article]({%slug dataform-error-message-styling}).
 
 ## Styling
 
