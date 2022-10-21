@@ -3,7 +3,7 @@ title: Download Product Files
 page_title: Download Product Files for Telerik UI for .NET MAUI
 description: Check our detailed documentation article on how to download product files for Telerik UI for .NET MAUI.
 slug: download-product-files
-position: 1
+position: 2
 ---
 
 # Download Product Files

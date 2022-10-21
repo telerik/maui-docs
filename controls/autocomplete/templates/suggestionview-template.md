@@ -30,7 +30,7 @@ Here is an example how to use the RadAutoComplete SuggestionViewTemplate:
 
 Here is the result:
 
-![AutoComplete SuggestionViewTemplate Example](images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
+![AutoComplete SuggestionViewTemplate Example](../images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
 
 >important For autoComplete SuggestionView Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

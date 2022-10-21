@@ -14,11 +14,12 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 
 | Xamarin DataForm | .NET MAUI DataForm |
 | ------------- | --------------- |
-| Source | gets the data directly from the set BidingContext |
+| Source | gets the data directly from the set BindingContext |
 | Telerik.XamarinForms.Common.DataAnnotations| System.ComponentModel.DataAnnotations.DatаAnnotations |
 | Validation modes - Immediate, OnLostFocus, Manual | Validation modes - PropertyChanged, LostFocus, Explicit |
 | FormValidationCompleted,PropertyValidationCompleted | - |
-| ValidateAll, ValidateProperty | ValidateChanges |
+| ValidateAll, ValidateProperty | - |
+| - | ValidateChanges |
 | - | ValidateCommand, CancelCommand, CommitCommand |
 | Commit modes - Immediate, OnLostFocus, Manual| Commit modes - PropertyChanged, LostFocus, Explicit |
 | CommitAll, CommitProperty | CommitChanges |
@@ -26,7 +27,5 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | DataFormGroupStackLayoutDefinition | DataFormVerticalStackLayout |
 | DataFormGroupGridLayoutDefinition  | DataFormGridLayout  |
 | -  | DataFormCustomLayout  |
-
-## See Also
-
-
+| DataFormGroupGridLayoutDefinition  | DataFormGridLayout |
+| -  | DataFormCustomLayout |
