@@ -20,4 +20,4 @@ The following example demonstrate how to use the styling properties of the DataF
 
 <snippet id='dataform-styling' />
 
-![.NET MAUI DataForm Styling](../images/dataform_style.png)
+![.NET MAUI DataForm Styling](../images/dataform-style.png)

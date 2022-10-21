@@ -52,4 +52,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
-![.NET MAUI DataForm Group Styling](../images/dataform_group_styling.png)
+![.NET MAUI DataForm Group Styling](../images/dataform-group-styling.png)

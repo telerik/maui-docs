@@ -38,4 +38,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
-![.NET MAUI DataForm Validation Styling](../images/dataform_validation_styling.png)
+![.NET MAUI DataForm Validation Styling](../images/dataform-validation-styling.png)
