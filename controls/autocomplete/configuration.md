@@ -25,7 +25,13 @@ The default `DisplayMode` is `Plain`&mdash;The picked item is visualized as plai
 
 ## Completion Mode
 
-* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. The matching items to the filter are displayed in a SuggestionView if the RadAutoComplete.AutoCompleteSuggestMode is `Suggest` or `SuggestAppend`.
+* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. 
+
+The available options are:
+	* `StartsWith`&mdash;Filters the items that start with the text typed in the input area.
+	* `Contains`&mdash;Filters the items that contain the text typed in the input area.
+
+The matching items to the filter are displayed in a SuggestionView if the RadAutoComplete.AutoCompleteSuggestMode is `Append` or `SuggestAppend`.
 
 ## Keyboard
 

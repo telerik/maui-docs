@@ -15,6 +15,9 @@ Telerik UI for .NET MAUI provides a few fully-features demo applications demonst
 * [SDKBrowser App](#sdkbrowser-app)
 * [Crypto Tracker App](#crypto-tracker-app)
 
+> With **Telerik .NET MAUI 3.2.0** version we have added a support for .NET 7.0 RC. You can easily switch the .NET version to .NET 6.0 or .NET 7.0 RC to build the apps. 
+> Inside the Examples folder of the installation/.zip file there are two `.bat` files - `SwitchToNet6.bat` and `SwitchToNet7.bat` and two `.sh` files - `SwitchToNet6.sh` and `SwitchToNet7.sh`. You can use them to switch the .NET version.
+
 ## Controls Samples App
 
 The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component.

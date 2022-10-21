@@ -50,3 +50,8 @@ The following example demonstrates how to disable the grouping for a specific co
     </telerik:RadDataGrid.Columns>
 </telerik:RadDataGrid>
 ```
+
+## See Also
+
+- [Property Group Descriptor]({%slug datagrid-property-group-descriptor%})
+- [Delegate Group Descriptor]({%slug datagrid-delegate-group-descriptor%})
