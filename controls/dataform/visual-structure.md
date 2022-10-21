@@ -23,7 +23,7 @@ The DataForm for .NET MAUI uses a set of visual elements when rendered.
 
 The following image shows the structure of the DataForm:
 
-![DataForm Visual Structure](images/date_picker_placeholder_display.png "Visual elements of DataForm control")
+![DataForm Visual Structure](images/.png "Visual elements of DataForm control")
 
 ## See Also
 

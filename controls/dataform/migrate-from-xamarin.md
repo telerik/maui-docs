@@ -25,10 +25,7 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | CommitAll, CommitProperty | CommitChanges |
 | - | CancelChanges |
 | DataFormGroupStackLayoutDefinition | DataFormVerticalStackLayout |
+| DataFormGroupGridLayoutDefinition  | DataFormGridLayout  |
+| -  | DataFormCustomLayout  |
 | DataFormGroupGridLayoutDefinition  | DataFormGridLayout |
 | -  | DataFormCustomLayout |
-
-
-## See Also
-
-
