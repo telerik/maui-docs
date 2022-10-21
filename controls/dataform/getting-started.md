@@ -41,7 +41,7 @@ and the Model used:
 
 Here is the result:
 
-![.NET MAUI DataForm Getting Started](images/combobox-getting-started-complex-data.png)
+![DataForm Getting Started](images/dataform-getting-started.png)
 
 >important For the DataForm Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

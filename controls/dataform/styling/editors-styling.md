@@ -37,4 +37,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
-![.NET MAUI DataForm Editor Styling](../images/dataform_editor_styling.png)
+![.NET MAUI DataForm Editor Styling](../images/dataform-editor-styling.png)
