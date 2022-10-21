@@ -10,15 +10,14 @@ slug: dataform-boolean-editors
 
 You can use the following Boolean Editors the DataForm provides:
 
-* `DataFormRadCheckBoxEditor` &mdash;of type `RadCheckBox`({%slug checkbox-overview%})
-* `DataFormSwitchEditor`&mdash;of type `.NET MAUI Switch`
+* `DataFormRadCheckBoxEditor` &mdash;of type `RadCheckBox`({%slug checkbox-overview%}). Using the `IsThreeState` porperty of type `bool?` you can specify whether the CheckBox editor will have three states - true, false, indeterminate.
+* `DataFormSwitchEditor`&mdash;of type `.NET MAUI Switch`.
 
+Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 
 ## Styling 
 
 You can easily style the editors using the properties BackgroundColor, BorderColor and BorderThickness. You can additionally style each editor by applying a style with the same target type as the underlying control.
-
-A table with all editors and their control types is available in the [Editors Overview article]({%slug dataform-editors%}).
 
 **Example with DataFormRadCheckBoxEditor**
 
@@ -33,3 +32,7 @@ A table with all editors and their control types is available in the [Editors Ov
 <snippet id='dataform-editors-stlying-checkbox-style' />
 
 For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
+
+## See Also
+
+- [Editors Overview article]({%slug dataform-editors%})

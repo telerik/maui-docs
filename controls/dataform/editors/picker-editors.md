@@ -8,23 +8,41 @@ slug: dataform-picker-editors
 
 # .NET MAUI DataForm Picker Editors
 
-Picker editors which are based on Telerik .NET MAUI controls:
+This article explains all picker editors available in Telerik .NET MAUI DataForm control.
+
+## Picker editors based on Telerik .NET MAUI controls:
 
 * `DataFormRadDatePickerEditor`&mdash;of type `RadDatePicker`({%slug datepicker-overview%})
 * `DataFormRadDateTimePickerEditor`&mdash;of type `RadDateTimePicker`({%slug datetimepicker-overview%})
 
+Shared properties for DataFormRadDatePickerEditor and DataFormRadDateTimePickerEditor are:
 
+* `MinimumDate`(`DateTime?`)&mdash;Specifies the minimum date for the editor.
+* `MaximumDate`(`DateTime?`)&mdash;Specifies the maximum date for the editor.
+* `FallbackDate`(`DateTime?`)&mdash;Specifies the fallback date for the editor.
 
 * `DataFormRadTimePickerEditor`&mdash;of type `RadTimePicker`({%slug timepicker-overview%})
 * `DataFormRadTimeSpanPickerEditor`&mdash;of type `RadTimeSpanPicker`({%slug timespanpicker-overview%})
 
-* `DataFormRadListPickerEditor`&mdash;of type `RadListPicker`({%slug listpicker-overview%})
+Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerEditor are:
+
+* `MinimumDate`(`DateTime?`)&mdash;Specifies the minimum time for the editor.
+* `MaximumDate`(`DateTime?`)&mdash;Specifies the maximum time for the editor.
+* `FallbackDate`(`DateTime?`)&mdash;Specifies the fallback time for the editor.
+* `HoursStep`(`int?`)&mdash;Specifies the hours step for the editor.
+* `MinutesStep`(`int?`)&mdash;Specifies the minutes step for the editor.
+* `SecondsStep`(`int?`)&mdash;Specifies the seconds step for the editor.
+
+* `DataFormRadListPickerEditor`&mdash;of type `RadListPicker`({%slug listpicker-overview%}). The editos has an `ItemsSource` property. Specifies a collection of items to use with the RadListPicker. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
 
 
-Picker editors that are based on .NET MAUI controls:
+## Picker editors based on .NET MAUI controls:
 
 * `DataFormDatePickerEditor`&mdash;of type `.NET MAUI DatePicker`
 * `DataFormTimePickerEditor`&mdash;of type `.NET MAUI TimePicker`
+
+
+Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 
 
 ## Common properties

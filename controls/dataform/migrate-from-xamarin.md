@@ -26,7 +26,3 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | DataFormGroupStackLayoutDefinition | DataFormVerticalStackLayout |
 | DataFormGroupGridLayoutDefinition  | DataFormGridLayout  |
 | -  | DataFormCustomLayout  |
-
-## See Also
-
-

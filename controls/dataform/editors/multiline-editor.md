@@ -15,6 +15,8 @@ You can use the following Multiline Editors the DataForm provides:
 
 DataFormMultiLineEditor has a placeholder property
 
+Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
+
 ## Styling 
 
 You can easily style the editors using the properties BackgroundColor, BorderColor and BorderThickness. You can additionally style each editor by applying a style with the same target type as the underlying control.
