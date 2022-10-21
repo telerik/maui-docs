@@ -51,14 +51,14 @@ The table below describes the available editors which use the .NET MAUI controls
 * `ColumnSpacing`(`double`)&mdash;Specifies the horizontal spacing between the rows in the editor.
 * `RowSpacing`(`double`)&mdash;Specifies the vertical spacing between the rows in the editor.
 
-* Properties related to the header position, text and style are described in the [Header article]({%slug dataform-headers%}).
+Properties related to the header position, text and style are described in the [Header article]({%slug dataform-headers%}).
 
 * `ErrorDisplayOptions`(`Telerik.Maui.Controls.DataFormErrorDisplayOptions?`)&mdash;Specifies the display options of the header.
 * `ErrorLength`(`Microsoft.Maui.GridLength`)&mdash;Specifies the length of the error in the editor. This property has an effect only when the `Telerik.Maui.Controls.DataFormEditor.ErrorPosition` property is set to `Beside`.
 * `ErrorPosition`(`Telerik.Maui.Controls.DataFormErrorPosition?`)&mdash;Specifies the error position in the editor.
 * `ErrorImageSource`(`Telerik.Maui.Controls.ImageSource`)&mdash;Specifies the image source of the error icon.
 
-* Properties related to the error styling are described in the [Error message styling article]({%slug dataform-error-message-styling}).
+Properties related to the error styling are described in the [Error message styling article]({%slug dataform-error-message-styling}).
 
 ## Styling
 
