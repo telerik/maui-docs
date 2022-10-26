@@ -6,22 +6,22 @@ position: 0
 slug: datagrid-aggregates-styling
 ---
 
-# DataGrid Aggregates Styling
+# .NET MAUI DataGrid Aggregates Styling
 
-The DataGrid Aggregate component provides styling mechanism customizing the look of the DataGrid Column Footer, the Group Footer and Group Header.
+The .NET MAUI DataGrid provides a styling functionality for its Group Footer, Header and Column Footer aggregates.
 
-The styling mechanism is represented by the following properties:
+Use the following properties to style the aggregates:
 
 * `GroupHeaderStyle`(`DataGridGroupHeaderStyle`)&mdash;Defines the style of the `GroupHeader` and the aggregates inside the header.
 * `GroupFooterStyle`(`DataGridGroupFooterStyle`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
 * `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash; Defines the style of the selected GroupFooter by passing the `GroupFooterContext` in the selector.
 * `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer. 
 
-> In order to visualize the GroupFooter the `ShowGroupFooters` needs to be set to `True`.
+> To visualize the GroupFooter, set the `ShowGroupFooters` to `True`. The property is a property inside the RadDataGrid.
 
-> To visualize the GroupHeader Aggregates the `ShowGroupHeaderAggregates` property needs to be set to `True`.
+> To visualize the GroupHeader, set the `ShowGroupHeaderAggregates` to `True`. The property is a property inside the RadDataGrid.
 
-## GroupFooterStyle 
+## Apply style in the group footer
 
 The following example shows how to define the GroupFooterStyle in XAML:
 
