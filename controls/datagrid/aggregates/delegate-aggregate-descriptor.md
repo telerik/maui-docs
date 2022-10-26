@@ -3,10 +3,11 @@ title: Delegate Aggregate Descriptor
 page_title: .NET MAUI DataGrid Documentation - Delegate Aggregate Descriptor
 description: "Check our Delegate Aggregate Descriptor documentation article for Telerik DataGrid for .NET MAUI control."
 position: 2
+previous_url: /controls/datagrid/aggregates/DelegateAggregateDescriptor
 slug: datagrid-delegate-aggregate-descriptor
 ---
 
-# DelegateAggregateDescriptor
+# Delegate Aggregate Descriptor
 
 The `DelegateAggregateDescriptor` allows you to define property look-up logic and a custom function that are applied over the property values of the DataGrid, which accumulates an aggregated result based on the component data.
 

@@ -18,6 +18,8 @@ You can set a different style on a specific cell from a specific column based on
 
 Different styles can be applied on a per-group header once the DataGrid control is grouped through `GroupHeaderStyleSelector` property.
 
+Different styles can be applied on a per-group footer once the DataGrid control is grouped through `GroupFooterStyleSelector` property.
+
 The `CellContentStyleSelector`, `CellDecorationStyleSelector`, and `GroupStyleSelector` use the `SelectStyle` method to change the style.
 
 ## Example
