@@ -20,7 +20,7 @@ Different styles can be applied on a per-group header once the DataGrid control 
 
 Different styles can be applied on a per-group footer once the DataGrid control is grouped through `GroupFooterStyleSelector` property.
 
-> To see the group footer the `ShowGroupFooters` property needs has to be `True`.
+> To see the group footer the `ShowGroupFooters` property has to be `True`.
 
 The `CellContentStyleSelector`, `CellDecorationStyleSelector`, and `GroupStyleSelector` use the `SelectStyle` method to change the style.
 
