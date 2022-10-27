@@ -39,6 +39,22 @@ Define the style selector which will passed to the DataGrid in XAML.
 
 <snippet id='datagrid-group-aggregate-style-selector-xaml'/>
 
+## Footer Style
+
+Customizing the footer in the DataGrid also changes the appearance of the Aggregates inside of it.
+
+The following example demonstrates how to change the style of the Column Footer Aggregates.
+
+Define the footer style in XAML:
+
+<snippet id='datagrid-column-aggregate-styling-example'/>
+
+Add the styling to the DataGrid:
+
+<snippet id='datagrid-aggregate-styling-example'/>
+
+> The Footer Style is added per column.
+
 The final result is as follows:
 
 ![Group Aggregate Style](../images/datagrid-grouping-aggregates.png)
