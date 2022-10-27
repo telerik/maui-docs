@@ -2,7 +2,7 @@
 title: Aggregate Styling
 page_title: .NET MAUI DataGrid Documentation - Aggregate Styling
 description: "Review the Telerik .NET MAUI DataGrid Aggregates Styling documentation article to learn more about all built in Aggregate Styling functions you can use."
-position: 0
+position: 3
 slug: datagrid-aggregates-styling
 ---
 
