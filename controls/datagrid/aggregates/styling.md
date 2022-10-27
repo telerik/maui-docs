@@ -17,7 +17,7 @@ Use the following properties to style the aggregates:
 * `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash; Defines the style of the selected GroupFooter by passing the `GroupFooterContext` in the selector.
 * `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer. 
 
-> To visualize the GroupFooter, set the `ShowGroupFooters` to `True`. The property is a property inside the RadDataGrid.
+> To visualize the GroupFooter, set the `ShowGroupFooters` property to `True`. The property is a property inside the RadDataGrid.
 
 > To visualize the GroupHeader, set the `ShowGroupHeaderAggregates` to `True`. The property is a property inside the RadDataGrid.
 
