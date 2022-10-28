@@ -18,7 +18,7 @@ Use the following properties which the DataFormGridLayout provides:
 
 > For more details about the GridLayout review the official [GridLayout Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/layouts/grid).
 
-![DataForm Grid Layout Definition](images/dataform-layouts-stack.png)
+![DataForm Grid Layout Definition](../images/dataform-grid-layout-desktop.png)
 
 **RadDataForm XAML definition with GridLayout applied:**
 
@@ -27,3 +27,8 @@ Use the following properties which the DataFormGridLayout provides:
 **The Model used for the DataForm editors**
 
 <snippet id='dataform-editors-model'/>
+
+## See Also
+
+- [VerticalStack Layout]({%slug dataform-layouts-verticalstack%})
+- [Custom Layout]({%slug dataform-layouts-custom%})

@@ -3,7 +3,8 @@ title: Configuration
 page_title: .NET MAUI DataForm Documentation | Configuration
 description: "Check our &quot;Configuration&quot; documentation article for Telerik DataForm for .NET MAUI control."
 position: 1
-slug: dataform-configuration
+previous_url: /controls/dataform/grouping/dataform-configuration
+slug: dataform-grouping-configuration
 ---
 
 # Configuration
@@ -35,6 +36,8 @@ HeaderDisplayOptions="Image, Text"
 
 <snippet id='dataform-grouping-configuration-header'/>
 
+![DataForm Groups Configuration](../images/dataform-groups-configuration-desktop.png)
+
 ## Layouts
 
 DataFormd supports different group layouts. You can easily apply a layout to a particular group by setting the `LayoutDefinition` property to the DataFormGroup. The available layouts are described in the [DataForm Layouts]({%slug dataform-layouts%}) article.
@@ -57,3 +60,7 @@ This is an example when the `DataFormGroup.LayoutDefinition` is set to `DataForm
 You can fully cusomize the groups using the flexible styling API. For more details review the [Groups Styling]({%slug dataform-group-styling%}) article.
 
 ## See Also
+
+- [Editors]({%slug dataform-editors%})
+- [Commit Data]({%slug dataform-commit-data%})
+- [Validation]({%slug dataform-validation%})

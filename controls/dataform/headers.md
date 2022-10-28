@@ -12,7 +12,7 @@ DataForm has headers for the Editors and for the Groups.
 
 ## Header in Editors
 
-Each Editor has a header.
+You can use the following properties for header configuration:
 
 * `HeaderText`(`string`)&mdash;Specifies the text of the header.
 * `HeaderLength`(`Microsoft.Maui.GridLength?`)&mdash;Specifies the length of the header view in the editor. This property has an effect only when the `Telerik.Maui.Controls.DataFormEditor.HeaderPosition` property is set to `Beside`.
@@ -37,6 +37,8 @@ HeaderDisplayOptions="Image, Text"
 
 >note All Header properties for the Editors can be applied directly in the DataForm control and they will be common for all editors.
 
+![.NET MAUI DataForm Headers in Editors](images/dataform-header-configuration-desktop.png)
+
 ### Styling
 
 For all styling options applied to the headers in the DataForm Editors review the DataForm [Header Styling]({%slug dataform-header-styling%}) artile.
@@ -60,7 +62,16 @@ HeaderDisplayOptions="Image, Text"
 
 * `HeaderTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the header view.
 
+![.NET MAUI DataForm Headers in Groups](images/dataform-groups-configuration-desktop.png)
+
 ### Styling
 
 For all styling options applied to the headers in the DataForm Groups review the DataForm [Header Styling]({%slug dataform-header-styling%}) artile.
 
+## See Also
+
+- [Editors]({%slug dataform-editors%})
+- [Grouping]({%slug dataform-grouping%})
+- [Layouts]({%slug dataform-layouts%})
+- [Commit Data]({%slug dataform-commit-data%})
+- [Commands]({%slug dataform-commands%})

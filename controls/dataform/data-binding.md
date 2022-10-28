@@ -24,6 +24,7 @@ DataForm definition with BindingContext set:
 
 <snippet id='dataform-gettingstarted-xaml'/>
 
+![DataForm auto generated editors](images/dataform-editors-auto-generated.png)
 
 ## Manually generated items
 
@@ -33,5 +34,13 @@ RadDataForm definition with BindingContext set and `AutoGenerateItems="False"`:
 
 <snippet id='dataform-editors'/>
 
+![DataForm Manually added editors](images/dataform-editors-desktop.png)
+
 ## See Also
 
+- [Editors]({%slug dataform-editors%})
+- [Grouping]({%slug dataform-grouping%})
+- [Headers]({%slug dataform-headers%})
+- [Layouts]({%slug dataform-layouts%})
+- [Commit Data]({%slug dataform-commit-data%})
+- [Commands]({%slug dataform-commands%})
