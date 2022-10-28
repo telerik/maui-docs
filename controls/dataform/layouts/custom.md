@@ -12,8 +12,6 @@ The `DataFormCustomLayout` definition allows you to arrange the items using a cu
 
 In order to build the custom layout you have to use the `LayoutTemplate`(`DataTemplate`) proeprty.
 
-![DataForm Custom Layout Definition](images/dataform-layouts-stack.png)
-
 **RadDataForm XAML definition with CustomLayout applied using a HorizontalStackLayout**
 
 <snippet id='dataform-layouts-custom'/>
@@ -21,3 +19,8 @@ In order to build the custom layout you have to use the `LayoutTemplate`(`DataTe
 **The Model used for the DataForm editors**
 
 <snippet id='dataform-editors-model'/>
+
+## See Also
+
+- [VerticalStack Layout]({%slug dataform-layouts-verticalstack%})
+- [Grid Layout]({%slug dataform-layouts-grid%})
