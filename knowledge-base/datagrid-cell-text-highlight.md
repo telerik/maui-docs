@@ -5,7 +5,7 @@ type: how-to
 page_title: Cell Text Highlight through a search
 slug: datagrid-cell-text-highlight
 position: 
-tags: MAUI
+tags: maui, datagrid, ui for maui, highlight search result, text highlight
 ticketid: 1582978
 res_type: kb
 ---
@@ -27,13 +27,13 @@ res_type: kb
 
 ## Description
 
-How can I have highlighted matching text from a search entry inside Telerik UI for .NET MAUI DataGrid Cell?
+In this article I will show you how to highlight a text inside a DataGrid cell when searching from an external UI.
 
 ## Solution
 
-This solution uses RadEntry and RadHighlighted Label to achieve the desired result.
+Use a RadEntry/Entry control for the Searching UI
 
-You can use the `UnformattedText`, `HighlightText` and `HighlightTextColor` properties of RadHighlight Label to get the following result.
+For highlighting the text in the DataGrid, you have to use a `CellTemplateColumn` and add a `RadHighlightLabel` in it. Then set the following properties to the control: `UnformattedText`, `HighlightText` and `HighlightTextColor` properties of RadHighlight Label to get the following result.
 
 ![DataGrid Highlighted Text](images/highlightedtext.png)
 
