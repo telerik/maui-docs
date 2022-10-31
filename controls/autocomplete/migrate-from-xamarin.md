@@ -2,7 +2,7 @@
 title: Migrate from Xamarin.Forms
 page_title: .NET MAUI AutoComplete Documentation - Migrate from Xamarin
 description: "Learn how to migrate from Xamarin.Forms AutoCompleteView to .NET MAUI AutoCompolete control."
-position: 2
+position: 1
 slug: autocomplete-migrate-from-xamarin
 ---
 

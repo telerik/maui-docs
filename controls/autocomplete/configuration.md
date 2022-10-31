@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI AutoComplete Documentation - Configuration
 description: Check our &quot;Configuration&quot; documentation article for Telerik .NET MAUI AutoComplete control.
-position: 2
+position: 3
 slug: autocomplete-configuration
 ---
 
