@@ -10,7 +10,7 @@ slug: dataform-overview
 
 **Telerik UI for .NET MAUI DataForm** is a customizable component allowing you to easily create a form for collecting or editing business object data. The control supports different commit modes allowing you to commit property values one by one or commit the whole form at once. You could also determine at what moment the properties should be validated choosing between different validation modes. The control lets you use rich set of editors out of the box. In addition you can use the flexible styling API to customize the groups, editors, validaiton messages, etc. 
 
-![RadDataForm Overview](images/dataform-overview.png)
+![.NET MAUI DataForm Overview](images/dataform-overview.png)
 
 ## Key features
 
@@ -37,7 +37,7 @@ slug: dataform-overview
 ## See Also
 
 - [.NET MAUI DataForm product page](https://www.telerik.com/maui-ui/dataform)
-- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1853)
+- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1979)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

@@ -35,4 +35,4 @@ For more information about how to style the editors, review the [Editors Styling
 
 ## See Also
 
-- [Editors Overview article]({%slug dataform-editors%})
+- [Editors]({%slug dataform-editors%})

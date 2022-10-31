@@ -28,15 +28,35 @@ Before adding the Chart, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
+**1.**When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
 
- <snippet id='chart-getting-started-xaml' />
+<snippet id='chart-getting-started-xaml' />
+```C#
+var chart = new RadCartesianChart
+{
+	HorizontalAxis = new CategoricalAxis(),
+	VerticalAxis = new NumericalAxis(),
+	BindingContext = new ViewModel()
+};
 
-1. Add the following namespace:
+var series = new BarSeries();
 
- ```XAML
+series.SetBinding(ChartSeries.ItemsSourceProperty, new Binding("Data"));
+
+series.ValueBinding = new PropertyNameDataPointBinding { PropertyName = "Value" };
+series.CategoryBinding = new PropertyNameDataPointBinding { PropertyName = "Category" };
+
+chart.Series.Add(series);
+```
+
+**2.**Add the following namespace:
+
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
+```C#
+using Telerik.Maui.Controls.Compatibility.Chart;
+```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
@@ -64,13 +84,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Visualize Sample Data
 
-1. Now that you have added the control to your project, define the business model:
+**1.** Now that you have added the control to your project, define the business model:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
-1. Set the ViewModel:
+**2.** Set the ViewModel:
 
- <snippet id='chart-getting-started-viewmodel' />
+<snippet id='chart-getting-started-viewmodel' />
 
 ## Additional Resources
 

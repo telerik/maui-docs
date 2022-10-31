@@ -16,6 +16,7 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `GroupHeaderStyle`&mdash;Defines the appearance style of the group header once the DataGrid is grouped.
 * `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
 * `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
+* `HoverTextColor`&mdash;Defines the text color of the hovered cell.
 
 ## Styling Properties
 
@@ -36,6 +37,20 @@ The `SelectionStyle` property can be set as shown below:
 The `CurrentCellStyle` property can be set as shown below:
 
 <snippet id='datagrid-keyboard-navigation-style' />
+
+The `HoverTextColor` property can be set as shown below:
+
+```XAML
+<telerik:DataGridTextColumn PropertyName="Name" 
+                            HeaderText="Name">
+    <telerik:DataGridTextColumn.CellContentStyle>
+        <telerik:DataGridTextCellStyle TextColor="Green" 
+                                        HoverTextColor="Red"
+                                        FontSize="15" 
+                                        SelectedTextColor="Orange"  />   
+    </telerik:DataGridTextColumn.CellContentStyle>
+</telerik:DataGridTextColumn>
+```
 
 The `GoupHeaderStyle` property is applied once the DataGrid is grouped.
 

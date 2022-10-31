@@ -48,9 +48,16 @@ Here is the result:
 ## Additional Resources
 
 - [.NET MAUI DataForm product page](https://www.telerik.com/maui-ui/dataform)
-- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1853)
+- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1979)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
+
+- [Editors]({%slug dataform-editors%})
+- [Grouping]({%slug dataform-grouping%})
+- [Headers]({%slug dataform-headers%})
+- [Layouts]({%slug dataform-layouts%})
+- [Commit Data]({%slug dataform-commit-data%})
+- [Commands]({%slug dataform-commands%})
 

@@ -39,11 +39,22 @@ And the items source for the suggestion list:
 
 ## Additional Resources
 
-- [.NET MAUI AutoComplete product page](https://www.telerik.com/maui-ui/checkbox)
-- [.NET MAUI AutoComplete forum page](https://www.telerik.com/forums/maui?tagId=1937)
+- [.NET MAUI AutoComplete product page]https://www.telerik.com/maui-ui/autocomplete)
+- [.NET MAUI AutoComplete forum page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 
+- [Data Binding]({%slug autocomplete-data-binding%})
+- [Configuration]({%slug autocomplete-configuration%})
+- [Suggest Mode]({%slug autocomplete-suggest-mode%})
+- [Display Text]({%slug autocomplete-display-text-formatter%})
+- [Tokens Support]({%slug autocomplete-tokens-support%})
+- [Remote Search]({%slug autocomplete-remote-search%})
+- [Filtering]({%slug autocomplete-filtering%})
+- [Events]({%slug autocomplete-events%})
+- [Methods]({%slug autocomplete-methods%})
+- [Templates]({%slug autocomplete-custom-templates%})
+- [Styling]({%slug autocomplete-styling%})
 

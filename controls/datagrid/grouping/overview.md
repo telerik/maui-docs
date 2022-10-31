@@ -29,7 +29,25 @@ Programmatic grouping can be done by adding descriptors to the `GroupDescriptors
 
 ## Expand and Collapse Groups
 
-The `DataGrid` supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
+The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
+
+## Group Footer
+
+The DataGrid has a support for group footers. You can visualize the footers by setting the `ShowGroupFooters` to `True`. 
+
+If you want to fully customize the group footers you can use the `GroupFooterTemplate`(`DataTemplate`) property.
+
+**Defining the `GroupFooterTemplate`**
+
+```XAML
+<telerik:RadDataGrid.GroupFooterTemplate>
+    <DataTemplate>
+        <Label Text="RandomText" TextColor="Crimson"/>
+    </DataTemplate>
+</telerik:RadDataGrid.GroupFooterTemplate>
+```
+
+> `GroupFooterTemplate` overrides the aggregates of the footer.
 
 ## See Also
 

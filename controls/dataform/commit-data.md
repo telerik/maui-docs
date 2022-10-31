@@ -10,6 +10,8 @@ slug: dataform-commit-data
 
 The values entered in the DataForm can be submitted to the underlying data object on three different occasions, using the `CommitMode` property of the DataForm.
 
+![RadDataForm Overview](images/dataform-commit-data-desktop.png)
+
 The next sections list all DataForm members related to commit data feature.
 
 ## Commit modes
@@ -50,3 +52,9 @@ The method returns `true` if the validation passes, otherwise `false`.
 >important All commit methods call validation first. If the property value passes validation, then the corresponding validation finished event is raised and the value is committed successfully.
 
 ## See Also
+
+- [Editors]({%slug dataform-editors%})
+- [Grouping]({%slug dataform-grouping%})
+- [Headers]({%slug dataform-headers%})
+- [Layouts]({%slug dataform-layouts%})
+- [Commands]({%slug dataform-commands%})

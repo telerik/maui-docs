@@ -49,3 +49,5 @@ DataForm XAML definition with grouping applied:
 <snippet id='dataform-group-model'/>
 
 ## See Also
+
+- [Configure the Groupis]({%slug dataform-grouping-configuration%})
