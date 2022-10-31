@@ -2,7 +2,7 @@
 title: DisplayText Formatting
 page_title: .NET MAUI Autocomplete Documentation - DisplayText Formatter
 description: Check our &quot;DisplayText Formatter&quot; documentation article for Telerik .NET MAUI Autocomplete control.
-position: 6
+position: 3
 slug: autocomplete-display-text-formatter
 ---
 
@@ -65,3 +65,13 @@ Here is how the DisplayText Formatter looks in both cases:
 
 ## See Also
 
+- [Data Binding]({%slug autocomplete-data-binding%})
+- [Configuration]({%slug autocomplete-configuration%})
+- [Suggest Mode]({%slug autocomplete-suggest-mode%})
+- [Tokens Support]({%slug autocomplete-tokens-support%})
+- [Remote Search]({%slug autocomplete-remote-search%})
+- [Filtering]({%slug autocomplete-filtering%})
+- [Events]({%slug autocomplete-events%})
+- [Methods]({%slug autocomplete-methods%})
+- [Templates]({%slug autocomplete-custom-templates%})
+- [Styling]({%slug autocomplete-styling%})

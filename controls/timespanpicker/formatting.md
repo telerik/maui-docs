@@ -44,6 +44,14 @@ The available custom time span format strings that can be set to the `SpinnerFor
 
 The Supported Custom TimeSpan Format Strings are: `"d"`, `"dd"`, `"ddd"`, `"dddd"`, `"h"`, `"hh"`, `"m"`, `"mm"`, `"s"`, `"ss"`.
 
+**Example for custom time span formatting for d:hh:mm**
+
+```XAML
+<telerik:RadTimeSpanPicker DefaultHighlightedTime="5:10:30:00"
+                           SpinnerFormat="d\:hh\:mm"
+                           DisplayStringFormat="d\:hh\:mm"/>
+```
+
 >important You can set only short [Custom TimeSpan Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-timespan-format-strings) to the TimeSpanPicker control.
 
 ## Supported Separators

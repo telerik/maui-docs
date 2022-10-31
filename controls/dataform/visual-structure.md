@@ -15,7 +15,6 @@ The DataForm for .NET MAUI uses a set of visual elements when rendered.
 * `Header`&mdash;Headers for the editors and for the groups.
 * `Editor`&mdash;The editor in the DataForm control.
 * `Groups`&mdash;The editors can be organized by groups.
-* `Validation for editor`&mdash;Validation message
 * `Error Message for editor`&mdash;Error message when the input does not match the required data.
 * `Summer error message`&mdash;The common error message displayed for all editors where the input data do not match the requirements.
 
