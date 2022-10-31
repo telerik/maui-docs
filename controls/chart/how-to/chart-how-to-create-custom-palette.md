@@ -10,7 +10,7 @@ slug: chart-how-to-create-custom-palette
 
 Chart has a default set of colors when data points are displayed. 
 
-The defualt palette colors use on WinUI: 
+The defualt palette colors on WinUI are: 
 
 * `#0078D4`
 * `#EA005E`
