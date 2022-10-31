@@ -1,12 +1,29 @@
 ---
-title: Custom Chart Palette
+title: Chart Palette
 page_title: Xamarin Chart Documentation | Custom Chart Palette
 description: Check our &quot;Custom Chart Palette&quot; documentation article for Telerik Chart for Xamarin control.
 position: 1
 slug: chart-how-to-create-custom-palette
 ---
 
-# Custom Chart Palette
+# Chart Palette
+
+Chart has a default set of colors when data points are displayed. 
+
+The defualt palette colors use on WinUI: 
+
+* `#0078D4`
+* `#EA005E`
+* `#60CCFE`
+* `#0093F9`
+* `#00B7C3`
+* `#FFB900`
+* `#C239B3`
+* `#6B69D6`
+
+
+## Custom Chart Palette
+
 When a user needs to define custom sets of colors, they can take advantage of custom palettes. Here is an example that shows how to achieve this: 
 
 ## Example

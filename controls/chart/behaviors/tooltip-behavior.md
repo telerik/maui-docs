@@ -94,10 +94,8 @@ public class ViewModel
                                  ItemsSource="{Binding Data}"/>
     </telerik:RadCartesianChart.Series>
     <telerik:RadCartesianChart.ChartBehaviors>
-        <telerik:ChartPanAndZoomBehavior ZoomMode="Horizontal"
-                                              PanMode="Horizontal"
-                                              HandleDoubleTap="True"/>
-    </telerik:RadCartesianChart.ChartBehaviors>
+        <telerik:ChartTooltipBehavior TriggerMode="Tap" />
+     </telerik:RadCartesianChart.ChartBehaviors>
 </telerik:RadCartesianChart>
  ```
 

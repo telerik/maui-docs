@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Popup Getting Started](images/popup_getting_started.png)
+![Popup Getting Started](images/popup-getting-started.png)
 
 ## Prerequisites
 
