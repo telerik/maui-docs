@@ -3,6 +3,7 @@ title: Column Footers
 page_title: .NET MAUI DataGrid Documentation - Columns Footer
 description: Check our &quot;Columns Footer&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 3
+previous_url: /controls/datagrid/columns/column-footer
 slug: datagrid-column-footer
 ---
 
