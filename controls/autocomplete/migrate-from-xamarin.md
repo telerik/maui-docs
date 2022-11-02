@@ -21,5 +21,3 @@ Overall, Telerik .NET MAUI AutoComplete control preserves the same API as Xamari
 | `CompletionMode ` | `AutoCompleteCompletionMode` |
 | `PopupPosition  ` | `AutoCompletePopupPosition` |
 | `SuggestMode   ` | `AutoCompleteSuggestMode` |
-
-## See Also
