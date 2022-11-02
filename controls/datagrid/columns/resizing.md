@@ -13,6 +13,10 @@ Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feat
 
 On WinUI and MacOS you can change the column width by positioning the mouse over the columns vertical grid line (in the column header) and dragging it until the desired size is achieved.
 
+
+
+**Column Resizing on MacCatalyst**
+
 ![DataGrid Column Header](../images/column-resizing.png)
 
 To resize a column programatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug datagrid-columns-width%}) article.
