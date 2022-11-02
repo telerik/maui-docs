@@ -1,11 +1,10 @@
 ---
 title: Column Resizing
 page_title: .NET MAUI DataGrid Documentation - Column Resizing
-description: "Check how to resize the columns in the .NET MAUI DataGrid control".
+description: Check how to resize the columns in the .NET MAUI DataGrid control
 position: 4
 slug: datagrid-column-resizing
 ---
-
 
 # .NET MAUI DataGrid Column Resizing
 
@@ -17,7 +16,7 @@ On WinUI and MacOS you can change the column width by positioning the mouse over
 
 **Column Resizing on MacCatalyst**
 
-![DataGrid Column Header](../images/column-resizing.png)
+![DataGrid Column Resizing](../images/column-resizing.gif)
 
 To resize a column programatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug datagrid-columns-width%}) article.
 
@@ -46,7 +45,7 @@ In order to disable the resizing on a specific column set the `IsResizable` prop
                                  IsResizable="False"/>
 ```
 
-![.NET MAUI DataGrid disable column resizing](../images/column-resizing-disable-column-level.png)
+![.NET MAUI DataGrid disable column resizing](../images/column-resizing-disable-column-level.gif)
 
 ## See Also
 
