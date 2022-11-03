@@ -15,7 +15,7 @@ When the control is not busy you can display a content using the `Content`(`View
 
 <snippet id='busyindicator-getting-started-xaml' />
 
-The `ContentUnderOpacity`(`double`)&mdash;Defines the opacity when the indicator is busy. the content behind the indicator is visible.
+The `ContentUnderOpacity`(`double`)&mdash;Defines the opacity when the indicator is busy. the content behind the indicator is visible. The default value is `0`.
 
 ```XAML
 <telerik:RadBusyIndicator x:Name="BusyIndicator" ContentUnderOpacity="0.4">

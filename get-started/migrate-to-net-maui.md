@@ -17,7 +17,7 @@ In this guide we’ll go through the needed steps to migrate your app built with
 
 You wouldn’t need to rewrite your existing Xamarin.Forms app to move it to .NET Multi-platform App UI (.NET MAUI). Still, there are some code changes that need to be implemented to ensure the smooth transition to .NET 6.0 and update to .NET MAUI.
 
-To migrate a Xamarin.Forms app to .NET 6 and .NET 7.0 RC and update the code to .NET MAUI, you'll need to do the following:
+To migrate a Xamarin.Forms app to .NET 6 and .NET 7.0 and update the code to .NET MAUI, you'll need to do the following:
 
 * Convert the projects from .NET Framework to .NET SDK style.
 * Update namespaces.
