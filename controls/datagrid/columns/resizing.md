@@ -12,13 +12,15 @@ Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feat
 
 On WinUI and MacOS you can change the column width by positioning the mouse over the columns vertical grid line (in the column header) and dragging it until the desired size is achieved.
 
-
+![DataGrid Column Resizing](../images/column-resizing.png)
 
 **Column Resizing on MacCatalyst**
 
-![DataGrid Column Resizing](../images/column-resizing.gif)
+![DataGrid Column Resizing](../images/column-resizing-mac.gif)
 
 To resize a column programatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug datagrid-columns-width%}) article.
+
+In addition, you can set a `MinimumWidth`(`double`) to the column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `Minimumwidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
 
 ## Disabling Resizing
 
@@ -49,6 +51,6 @@ In order to disable the resizing on a specific column set the `IsResizable` prop
 
 ## See Also
 
-- [Column Reordering]({%slug datagrid-columns-text-column%})
-- [Column Header]({%slug datagrid-columns-picker-column%})
-- [Column Footer]({%slug datagrid-columns-template-column%})
+- [Column Reordering]({%slug datagrid-columns-reordering%})
+- [Column Header]({%slug datagrid-column-header%})
+- [Column Footer]({%slug datagrid-column-footer%})

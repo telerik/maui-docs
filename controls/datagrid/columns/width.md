@@ -11,11 +11,13 @@ slug: datagrid-columns-width
 
 This article describes how to set a width to the DataGrid column using the SizeMode and Width properties.
 
-* `SizeMode` (DataGridColumnSizeMode): Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
-  * Fixed: The column has a fixed width as defined by its Width property.
-  * Stretch: The column is stretched to the available width proportionally to its desired width.
-  * Auto: The columns is sized to its desired width. That is the maximum desired width of all associated cells.
-* `Width` (double): Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
+* `SizeMode`(`DataGridColumnSizeMode`)&mdash;Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
+  * `Fixed`&mdash;The column has a fixed width as defined by its Width property.
+  * `Stretch`&mdash;The column is stretched to the available width proportionally to its desired width.
+  * `Auto`&mdash;The columns is sized to its desired width. That is the maximum desired width of all associated cells.
+* `Width`(`double`)&mdash;Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
+* `MinimumWidth`(`double`)&mdash;Specifies the minimum width of a column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `Minimumwidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
+
 * `ActualWidth` (double): Gets the actual width of the column.
 
 ## Example
