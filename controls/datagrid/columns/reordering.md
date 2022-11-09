@@ -19,6 +19,8 @@ The DataGrid exposes a reordering feature allowing the user to drag and drop col
 
 ## Example
 
+### CanUserReorderColumns
+
 The following example shows how to bind the `CanUserReorderColumns` using MVVM.
 
 Define the DataGrid and a control which will change the `CanUserReorderColumns` value in XAML:
@@ -31,7 +33,32 @@ Define the ViewModel:
 
 The result on mobile:
 
-![DataGrid Reordering Phone](../images/datagrid-reordering-ios.gif)
+![DataGrid Reordering Phone](../images/datagrid-reordering-android.gif)
+
+### ColumnReorderIndicatorTemplate
+
+The following example shows how to define the `ColumnReorderIndicatorTemplate` in XAML:
+
+Define the DataTemplate for the Indicator in the Resources of the page:
+```XAML
+<ContentView.Resources>
+    <DataTemplate x:Key="reorderingIndicator">
+        <Label Text="Place here" TextColor="Red"/>
+    </DataTemplate>
+</ContentView.Resources>
+```
+
+Define the property in the DataGrid:
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid"
+                     Grid.Row="1"
+                     CanUserReorderColumns="{Binding IsReorderingEnabled}"
+                     ItemsSource="{Binding Data}"/>   
+```
+
+The result on mobile:
+
+![DataGrid Reordering Phone](../images/datagrid-reordering-indicator.png)
 
 ## See Also
 
