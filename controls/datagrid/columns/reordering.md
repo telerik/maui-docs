@@ -58,7 +58,7 @@ Define the property in the DataGrid:
 
 The result on mobile:
 
-![DataGrid Reordering Phone](../images/datagrid-reordering-indicator.png)
+![DataGrid Reordering Indicator Phone](../images/datagrid-reordering-indicator.png)
 
 ## See Also
 
