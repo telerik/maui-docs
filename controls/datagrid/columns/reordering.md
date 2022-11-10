@@ -19,7 +19,7 @@ The DataGrid exposes a reordering feature allowing the user to drag and drop col
 
 ## Example
 
-### CanUserReorderColumns
+**Example with Reorder Columns**
 
 The following example shows how to bind the `CanUserReorderColumns` using MVVM.
 
@@ -35,17 +35,20 @@ The result on mobile:
 
 ![DataGrid Reordering Phone](../images/datagrid-reordering-android.gif)
 
-### ColumnReorderIndicatorTemplate
+**Example with indicator template applied when reordering columns**
 
 The following example shows how to define the `ColumnReorderIndicatorTemplate` in XAML:
 
 Define the DataTemplate for the Indicator in the Resources of the page:
 ```XAML
-<ContentView.Resources>
-    <DataTemplate x:Key="reorderingIndicator">
-        <Label Text="Place here" TextColor="Red"/>
-    </DataTemplate>
-</ContentView.Resources>
+<DataTemplate x:Key="reorderingIndicator">
+    <telerik:RadBorder BackgroundColor="LightSalmon"
+                       WidthRequest="4"
+                       HeightRequest="55"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       InputTransparent="True" />
+</DataTemplate>
 ```
 
 Define the property in the DataGrid:
@@ -53,12 +56,13 @@ Define the property in the DataGrid:
 <telerik:RadDataGrid x:Name="dataGrid"
                      Grid.Row="1"
                      CanUserReorderColumns="{Binding IsReorderingEnabled}"
-                     ItemsSource="{Binding Data}"/>   
+                     ColumnReorderIndicatorTemplate="{StaticResource reorderingIndicator}"
+                     ItemsSource="{Binding Data}"/>    
 ```
 
 The result on mobile:
 
-![DataGrid Reordering Indicator Phone](../images/datagrid-reordering-indicator.png)
+![DataGrid Reordering Indicator Phone](../images/datagrid-reordering-indicator.gif)
 
 ## See Also
 
