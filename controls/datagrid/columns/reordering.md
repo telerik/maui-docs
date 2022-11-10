@@ -55,7 +55,6 @@ Define the property in the DataGrid:
 ```XAML
 <telerik:RadDataGrid x:Name="dataGrid"
                      Grid.Row="1"
-                     CanUserReorderColumns="{Binding IsReorderingEnabled}"
                      ColumnReorderIndicatorTemplate="{StaticResource reorderingIndicator}"
                      ItemsSource="{Binding Data}"/>    
 ```
