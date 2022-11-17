@@ -1,11 +1,11 @@
 ---
-title: Chart: Dashed line series
-description: Modify the line chart to have dashed lines by using the native chart.
+title: Create dashed line series using Telerik .NET MAUI Chart
+description: Create dashed line chart series using line series on Android, iOS, MacCatalyst, WinUI.
 type: how-to
 page_title: Dashed line chart
 slug: chart-dash-series
 position: 
-tags: MAUI
+tags: MAUI, chart, .net maui, dashed chart, ios, mac, windows, android, line chart
 ticketid: 1582451
 res_type: kb
 ---
@@ -15,7 +15,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product Version</td>
-			<td>3.2.1</td>
+			<td>4.0.0</td>
 		</tr>
 		<tr>
 			<td>Product</td>
@@ -27,13 +27,97 @@ res_type: kb
 
 ## Description
 
-In this article I will show you how to define a stroke for the Line Series Chart to change its appearance to that of a Dashed Chart.
+In this article I will show you how to create a dashed line chart using Line Series of the Telerik .NET MAUI Chart.
 
 ## Solution
 
 This solution uses the Native Chart Classes and their respective property/method for DashedArray to achieve the desired Dashed Line Series behavior.
 
-## Code
+First Define the Business Model and the ViewModel
+
+```C#
+public class NumericalData
+{
+	public double XData { get; set; }
+	public double YData { get; set; }
+}
+
+internal class ViewModel : NotifyPropertyChangedBase
+{
+	public ObservableCollection<NumericalData> Data1 { get; set; }
+	public ObservableCollection<NumericalData> Data2 { get; set; }
+
+	public ViewModel()
+	{
+		this.Data1 = GetNumericData1();
+		this.Data2 = GetNumericData2();
+	}
+
+	public static ObservableCollection<NumericalData> GetNumericData1()
+	{
+		var data = new ObservableCollection<NumericalData>
+		{
+			new NumericalData { XData = 2, YData = 13 },
+			new NumericalData { XData = 19, YData = 31 },
+			new NumericalData { XData = 22, YData = 33 },
+			new NumericalData { XData = 28, YData = 35 },
+			new NumericalData { XData = 33, YData = 46 },
+			new NumericalData { XData = 38, YData = 34 },
+			new NumericalData { XData = 49, YData = 66 },
+			new NumericalData { XData = 55, YData = 24 },
+			new NumericalData { XData = 62, YData = 41 },
+		};
+		return data;
+	}
+	public static ObservableCollection<NumericalData> GetNumericData2()
+	{
+		var data = new ObservableCollection<NumericalData>
+		{
+			new NumericalData { XData = 19, YData = 17 },
+			new NumericalData { XData = 22, YData = 19 },
+			new NumericalData { XData = 28, YData = 21 },
+			new NumericalData { XData = 33, YData = 35 },
+			new NumericalData { XData = 38, YData = 43 },
+			new NumericalData { XData = 49, YData = 15 },
+			new NumericalData { XData = 55, YData = 21 },
+			new NumericalData { XData = 62, YData = 47 },
+		};
+		return data;
+	}
+}
+```
+
+Afterwards define the Chart in XAML:
+
+```XAML
+<telerik:RadCartesianChart x:Name="chart" HeightRequest="300">
+            <telerik:RadCartesianChart.BindingContext>
+                <local:ViewModel />
+            </telerik:RadCartesianChart.BindingContext>
+            <telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:CategoricalAxis />
+            </telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:RadCartesianChart.VerticalAxis>
+                <telerik:NumericalAxis />
+            </telerik:RadCartesianChart.VerticalAxis>
+            <telerik:RadCartesianChart.Series>
+                <telerik:LineSeries CategoryBinding="XData"
+                                    ValueBinding="YData"
+                                    DisplayName=" Data1"
+                                    ItemsSource="{Binding Data1}" />
+                <telerik:LineSeries CategoryBinding="XData" 
+                                    ValueBinding="YData"
+                                    DisplayName=" Data2"
+                                    ItemsSource="{Binding Data2}" />
+            </telerik:RadCartesianChart.Series>
+        </telerik:RadCartesianChart>
+        <telerik:RadLegend LegendProvider="{x:Reference Name=chart}"
+                           LegendItemFontColor="DarkGreen"
+                           Orientation="Horizontal"
+                           HeightRequest="200"/>
+```
+
+ Here is the implementation you need to add in the project in order to achieve dashed series:
 
 ```C#
 public partial class MainPage : ContentPage
@@ -72,6 +156,6 @@ public partial class MainPage : ContentPage
 }
 ```
 
-## Final Result
+And this is the result on MacCatalyst:
 
 ![Chart Palette](images/dashedchart-mac.png)
