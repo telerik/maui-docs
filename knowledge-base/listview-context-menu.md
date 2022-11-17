@@ -162,4 +162,4 @@ The XAML, uses a `RadPopup` in the `ItemTemplate` with a slight offset. Here are
 
 And the final result:
 
-![.NET MAUI ListView Context menu Palette](images/listview-context-menu.png)
+![.NET MAUI ListView context menu](images/listview-context-menu.png)
