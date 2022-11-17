@@ -31,7 +31,10 @@ In this article I will show you how to create a dashed line chart using Line Ser
 
 ## Solution
 
-This solution uses the Native Chart Classes and their respective property/method for DashedArray to achieve the desired Dashed Line Series behavior.
+For creating a dashed line series in the chart we will use:
+1. Native iOS, Android and WinUI chart controls
+2. Stroke to draw the lines of the chart series
+3. DashedArray which is part of the Stroke tool.
 
 First Define the Business Model and the ViewModel
 
