@@ -1,5 +1,5 @@
 ---
-title: XamlC error XFC0000: Cannot resolve type "http://schemas.telerik.com/2022/xaml/maui:telerik:control".
+title: XamlC error XFC0000 - Cannot resolve type "schemas.telerik.com/2022/xaml/maui:telerik:control".
 description: Cannot resolve type Telerik schema xaml error
 type: troubleshooting
 page_title: schema error cannot resolve type Telerik schema
