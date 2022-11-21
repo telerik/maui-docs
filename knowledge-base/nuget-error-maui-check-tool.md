@@ -6,7 +6,6 @@ tags: .net maui, maui, maui check, error, failed
 slug: nuget-error-maui-check-tool
 type: troubleshooting
 ticketid:
-publish: false
 res_type: kb
 ---
 
