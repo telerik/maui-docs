@@ -26,11 +26,11 @@ res_type: kb
 
 ## Description
 
-This article will giude you what are the approaches used to workaround the common schema error. In general, the error is not related to the Telerik .NET MAUI controls. It is an issue in .NET MAUI framework when custom controls(controls that are not provided from Microsoft .NET MAUI) are deifned. The issue is logged here: https://github.com/dotnet/maui/issues/7503
+This article will giude you for what are the approaches used to workaround the common schema error. In general, the error is not related to the Telerik .NET MAUI controls. It is an issue in .NET MAUI framework when custom controls(controls that are not provided from Microsoft .NET MAUI) are used. The issue is logged here: https://github.com/dotnet/maui/issues/7503
 
 ## Steps to Reproduce
 
-Start using a custom controls library, and add a common schema namespace. 
+Start using a custom controls library and add a common schema namespace. 
 
 ## Error Message
 
