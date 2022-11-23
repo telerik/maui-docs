@@ -130,9 +130,12 @@ navigation:
     controls/dataform/grouping:
         title: "Grouping"
         position: 6
+    controls/dataform/grouping:
+        title: "Filtering"
+        position: 7
     controls/dataform/layouts:
         title: "Layouts"
-        position: 7
+        position: 8
     controls/dataform/styling:
         title: "Styling"
         position: 15
