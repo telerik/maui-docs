@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-commands
 slug: templatedpicker-commands
 ---
 
-# Commands
+# .NET MAUI TemplatedPicker Commands
 
 Telerik UI for .NET MAUI TemplatedPicker exposes a number of commands for programmatic manipulation of its popup rendering.
 

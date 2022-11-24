@@ -6,7 +6,7 @@ position: 2
 slug: datetimepicker-formatting
 ---
 
-# Formatting
+# .NET MAUI DateTimePicker Formatting
 
 Telerik UI for .NET MAUI DateTimePicker provides formatting options both when the picker dialog is open and when a date value is picked.
 

@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-templates
 slug: templatedpicker-templates
 ---
 
-# Templates
+# .NET MAUI TemplatedPicker Templates
 
 The TemplatedPicker for .NET MAUI provides the following templates:
 

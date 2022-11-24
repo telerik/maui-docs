@@ -7,7 +7,7 @@ previous_url: /controls/listpicker/listpicker-visual-structure
 slug: listpicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI ListPicker Visual Structure
 
 Here are described all visual elements used in the List Picker for .NET MAUI.
 

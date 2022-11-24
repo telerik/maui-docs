@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-commands
 slug: timespanpicker-commands
 ---
 
-# Commands
+# .NET MAUI TimeSpanPicker Commands
 
 The Telerik UI for .NET MAUI TimeSpanPicker exposes a number of commands for programmatic manipulation of its popup rendering.
 

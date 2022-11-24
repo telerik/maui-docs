@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-data-binding
 slug: templatedpicker-data-binding
 ---
 
-# Data Binding
+# .NET MAUI TemplatedPicker Data Binding
 
 The TemplatedPicker for .NET MAUI provides means for creating a fully-customizable picker control. You can place any list of items inside the popup for the user to choose from and show the selected value in a defined format.
 

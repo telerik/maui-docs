@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-methods
 slug: templatedpicker-methods
 ---
 
-# Methods
+# .NET MAUI TemplatedPicker Methods
 
 The TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
 

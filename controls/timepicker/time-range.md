@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-time-range
 slug: timepicker-time-range
 ---
 
-# Time Ranges
+# Time Ranges in .NET MAUI TimePicker
 
 The TimePicker allows you to define a time range and choose a time within that range through the following properties:
 

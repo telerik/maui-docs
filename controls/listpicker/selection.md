@@ -7,7 +7,7 @@ slug: listpicker-selection
 previous_url: /controls/listpicker/listpicker-selection
 ---
 
-# Selection
+# .NET MAUI ListPicker Selection
 
 The ListPicker for .NET MAUI enables the application users to quickly and easily select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
 

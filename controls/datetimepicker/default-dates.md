@@ -6,7 +6,7 @@ position: 4
 slug: datetimepicker-default-dates
 ---
 
-# Default Dates
+# .NET MAUI DateTimePicker Default Dates
 
 You can define preselected dates both in the DateTimePicker (the selected date) and in the spinner (the highlighted date).
 

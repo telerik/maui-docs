@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-visual-structure
 slug: timepicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI TimePicker Visual Structure
 
 This article describes all visual elements that are used in the TimePicker for .NET MAUI.
 

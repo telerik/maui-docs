@@ -6,7 +6,7 @@ position: 7
 slug: datetimepicker-commands
 ---
 
-# Commands
+# .NET MAUI DateTimePicker Commands
 
 Telerik UI for .NET MAUI DateTimePicker exposes a number of commands for programmatic manipulation of its popup rendering.  
 

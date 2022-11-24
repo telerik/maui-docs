@@ -7,7 +7,7 @@ previous_url: /controls/listpicker/listpicker-getting-started
 slug: listpicker-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI ListPicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ListPicker by adding the control to your project.
 

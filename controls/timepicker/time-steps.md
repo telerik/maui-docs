@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-time-steps
 slug: timepicker-time-steps
 ---
 
-# Time Steps
+# .NET MAUI TimePicker Time Steps
 
 By default, the TimePicker increments each part of its time values by one step.
 

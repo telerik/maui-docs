@@ -6,7 +6,7 @@ position: 1
 slug: datetimepicker-popup-styling
 ---
 
-# Popup Styling
+# .NET MAUI DateTimePicker Popup Styling
 
 By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the DateTimePicker, you can modify the appearance of the dialog (popup). The `PickerPopupSettings` class exposes the following `Style` properties:
 
