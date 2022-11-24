@@ -6,7 +6,7 @@ position: 9
 slug: combobox-header-footer
 ---
 
-# Header and Footer 
+# Header and Footer in .NET MAUI ComboBox
 
 You can easily add Header and Footer to the DropDown list of the ComboBox control through the following properties:
 

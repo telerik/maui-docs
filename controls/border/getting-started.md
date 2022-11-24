@@ -7,7 +7,7 @@ previous_url: /controls/border/border-getting-started
 slug: border-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI Border
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Border by adding the control to your project.
 

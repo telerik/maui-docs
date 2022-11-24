@@ -6,7 +6,7 @@ position: 4
 slug: datagrid-expand-collapse
 ---
 
-# Expand and Collapse Groups
+# Expand and Collapse Groups in .NET MAUI DataGrid
 
 The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
 

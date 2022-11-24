@@ -6,7 +6,7 @@ position: 2
 slug: popup-content
 ---
 
-# Content
+# .NET MAUI Popup Content
 
 The Popup provides options for setting its content and for defining when it will open and close.
 

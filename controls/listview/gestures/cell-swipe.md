@@ -7,7 +7,7 @@ previous_url: /controls/listview/gestures/listview-gestures-cell-swipe
 slug: listview-features-cell-swipe
 ---
 
-# Cell Swipe
+# .NET MAUI ListView Cell Swipe
 
 Cell swipe allows end-users to use swipe gestures on cells. When users swipe, they reveal a designated custom view with buttons, images etc.
 

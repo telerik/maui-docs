@@ -7,7 +7,7 @@ previous_url: /controls/listview/gestures/listview-gestures-items-reorder
 slug: listview-features-reorder-items
 ---
 
-# Reorder Items
+# .NET MAUI ListView Reorder Items
 
 The items reorder feature allows end-users reorder the list view data items. If the feature is enabled, when the user holds on an item, the reorder mode is triggered and the user can move and release the item at the desired position. This will perform reorder operation on the data.
 

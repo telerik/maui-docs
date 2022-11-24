@@ -6,7 +6,7 @@ position: 4
 slug: datagrid-columns-time-column
 ---
 
-# DataGrid TimeColumn
+# .NET MAUI DataGrid TimeColumn
 
 The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Telerik UI for .NET MAUI [TimePicker control]({%slug timepicker-overview%}) to pick a value in EditMode.
 

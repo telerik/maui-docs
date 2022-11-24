@@ -6,7 +6,7 @@ slug: chart-series-spline-area-series
 position: 0
 ---
 
-# SplineArea Series
+# .NET MAUI Chart SplineArea Series
 
 The Cartesian Chart visualizes the SplineArea Series as an area on the chart that is enclosed by the coordinate axes and straight line segments, which connect the data points represented by these series. The SplineArea Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 

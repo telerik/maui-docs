@@ -6,7 +6,7 @@ slug: chart-series-scatter-point-series
 position: 0
 ---
 
-# ScatterPoint Series
+# .NET MAUI Chart ScatterPoint Series
 
 The ScatterPoint Series are represented on the chart as data points that are not connected. Each scatter data point has to provide values for the X and Y coordinates on the `RadCartesianChart`. The ScatterPoint Series require both axes of the chart to be Numerical Axes.
 

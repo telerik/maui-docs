@@ -8,7 +8,7 @@ slug: datagrid-column-header
 ---
 
 
-# Column Headers
+# .NET MAUI DataGrid Column Headers
 
 This article will guide you through the usage of the column headers, their customization as well through performing different data operations. Column headers are always visible and cannot be hidden.
 

@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-globalization
 slug: numericinput-globalization
 ---
 
-# Globalization
+# .NET MAUI NumericInput Globalization
 
 &nbsp;
 

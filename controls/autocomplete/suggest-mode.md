@@ -6,7 +6,7 @@ position: 4
 slug: autocomplete-suggest-mode
 ---
 
-# .NET MAUI AutoComplete Suggest Mode
+# Suggest Modes in .NET MAUI AutoComplete
 
 AutoComplete exposes three different modes for providing suggestions:
 

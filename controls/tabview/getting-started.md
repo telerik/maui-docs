@@ -6,7 +6,7 @@ position: 2
 slug: tabview-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI TabView
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TabView by adding the control to your project.
 

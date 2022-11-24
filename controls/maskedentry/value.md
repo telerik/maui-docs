@@ -6,7 +6,7 @@ position: 4
 slug: maskedentry-value
 ---
 
-# Value
+# .NET MAUI MaskedEntry Value
 
 To set a predefined value inside the MaskedEntry, define the `Value`(`string`) property. It returns the user input without the formatting characters.
 

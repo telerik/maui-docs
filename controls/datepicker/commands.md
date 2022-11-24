@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-commands
 slug: datepicker-commands
 ---
 
-# Commands
+# .NET MAUI DatePicker Commands
 
 Telerik UI for .NET MAUI DatePicker exposes a number of commands for programmatic manipulation of its popup rendering.  
 

@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-getting-started
 slug: rating-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI Rating
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Rating by adding the control to your project.
 

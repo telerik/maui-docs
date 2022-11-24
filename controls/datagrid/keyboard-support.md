@@ -6,7 +6,7 @@ position: 9
 slug: datagrid-keyboard-support
 ---
 
-# Keyboard Support
+# .NET MAUI DataGrid Keyboard Support
 
 RadDataGrid provides keyboard navigation support which is curently available on WinUI. You can easily change the DataGrid `CurrentCell` when using some of the keyboard keys. For more details about CurentCell review the [Current Cell]({%slug datagrid-current-cell%}) article	
 

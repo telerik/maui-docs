@@ -6,7 +6,7 @@ position: 1
 slug: datagrid-columns-numerical-column
 ---
 
-# DataGrid NumericalColumn
+# .NET MAUI DataGrid NumericalColumn
 
 The `DataGridNumericalColumn` is used to represent only numerical values. It uses the Telerik UI for .NET MAUI [NumericInput control]({%slug numericinput-overview%}) to edit the value in EditMode. The difference between this column and the text one is that it will directly invoke the numeric keyboard on the mobile devices.
 

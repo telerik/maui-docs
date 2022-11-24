@@ -6,7 +6,7 @@ position: 2
 slug: maskedentry-text-mask
 ---
 
-# Text Mask
+# .NET MAUI Text Mask
 
 To validate the user input as text symbols, use the `TextMaskedEntry`. The resulting value is a string object.
 

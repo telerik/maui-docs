@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-ranges
 slug: gauge-ranges
 ---
 
-# Ranges
+# .NET MAUI Gauge Ranges
 
 The Gauge ranges provide context to the indicated value or values. The ranges denote certain parts of the axis range and are usually displayed with different colors to provide additional information.
 

@@ -7,7 +7,7 @@ previous_url: /controls/barcode/barcode-autochecksum
 slug: barcode-autochecksum
 ---
 
-# Auto-Checksum
+# .NET MAUI Barcode Auto-Checksum
 
 By default, the Barcode control automatically adds a checksum at the end.
 

@@ -6,7 +6,7 @@ position: 2
 slug: checkbox-checked-states
 ---
 
-# Check States
+# Check States for .NET MAUI CheckBox
 
 The CheckBox enables you to define its state as `Checked`, `Unchecked`, or `Indeterminate`.
 

@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-configuration
 slug: numericinput-configuration
 ---
 
-# Configuration Options
+# .NET MAUI NumericInput Configuration Options
 
 This article will explain all configuration options that NumericInput control provides.
 

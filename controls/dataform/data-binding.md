@@ -6,7 +6,7 @@ position: 3
 slug: dataform-data-binding
 ---
 
-# Data Binding
+# Data Binding in .NET MAUI DataForm
 
 One way to set data form source is to use a class and decorate its properties with data annotations. These data annotations are used to build metadata for each property used by the data form to customize its UI.
 

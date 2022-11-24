@@ -7,7 +7,7 @@ tags: tabview, overview
 position: 5
 ---
 
-# Configuration
+# Configure the .NET MAUI TabView
 
 In this article we will review all configuration options that the TabView control provides. 
 

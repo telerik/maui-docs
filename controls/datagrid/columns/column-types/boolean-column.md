@@ -6,7 +6,7 @@ position: 2
 slug: datagrid-columns-boolean-column
 ---
 
-# DataGrid BooleanColumn
+# .NET MAUI DataGrid BooleanColumn
 
 The `DataGridBooleanColumn` is used to represent boolean values. It uses the CheckBox control to edit its values in EditMode.
 

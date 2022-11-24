@@ -6,7 +6,7 @@ position: 0
 slug: chart-series-line-series
 ---
 
-# Line Series
+# .NET MAUI Chart Line Series
 
 The Cartesian Chart visualizes each data item from the Line Series and connects them with straight line segments. The Line Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 

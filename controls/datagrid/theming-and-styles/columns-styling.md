@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/theming-and-styles/datagrid-columns-styling
 slug: datagrid-columns-styling
 ---
 
-# Columns Styling
+# .NET MAUI DataGrid Columns Styling
 
 The DataGrid component provides styling mechanism for customizing the look of the columns and their cells.
 

@@ -8,7 +8,7 @@ previous_url: /controls/chart/chart-visual-structure
 slug: chart-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI Chart Visual Structure
 
 This article describes all visual elements and terms that are used in a standard Chart control.
 

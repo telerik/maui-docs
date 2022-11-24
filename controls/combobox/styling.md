@@ -6,7 +6,7 @@ position: 10
 slug: combobox-styling
 ---
 
-# Styling
+# .NET MAUI ComboBox Styling
 
 ComboBox control for .NET MAUI provides the following Style properties for customizing its look:
 

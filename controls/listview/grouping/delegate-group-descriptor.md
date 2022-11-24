@@ -8,16 +8,9 @@ previous_url: /controls/listview/grouping/listview-delegate-group-descriptor
 tags: group, radlistview, groupdescriptor
 ---
 
-# Grouping
+# .NET MAUI ListView Delegate Group Descriptor
 
-The ListView provides the functionality to programmatically group its data at runtime. This can be achieved through adding `GroupDescriptors` to the `RadListView.GroupDescriptors` collection.
-
-* `PropertyGroupDescriptor`
-* `DelegateGroupDescriptor`
-
-## DelegateGroupDescriptor
-
-This descriptor enables you to group by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
+DelegateGroup descriptor enables you to group by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
 
 - `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
 - `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.

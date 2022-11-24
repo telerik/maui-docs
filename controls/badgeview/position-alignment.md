@@ -6,7 +6,7 @@ position: 6
 slug: badgeview-position-alignment
 ---
 
-# Alignment and Position
+# Align and Position the .NET MAUI BadgeView
 
 The BadgeView provides properties for setting the alignment and position of the Badge indicator based on the BadgeView `Content`.
 

@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-positioning
 slug: gauge-positioning
 ---
 
-# Positioning and Offset
+# .NET MAUI Gauge Positioning and Offset
 
 The gauge arranges most of its elements by taking into consideration the respective position and offset properties.
 

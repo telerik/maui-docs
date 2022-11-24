@@ -6,7 +6,7 @@ position: 5
 slug: popup-placement
 ---
 
-# Placement
+# .NET MAUI Popup Placement
 
 The Popup supports useful properties, which enable you to position it depending on your requirements.
 

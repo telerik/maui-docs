@@ -7,7 +7,7 @@ position: 3
 previous_url: /controls/chart/axes/axes-numerical-axis
 ---
 
-# Numerical Axis
+# .NET MAUI Chart Numerical Axis
 
 The Numerical Axis plots the associated data points by using each point's numerical value, provided for the axis. It will build a numerical range (user-defined or automatically calculated) and will determine each data point X or Y coordinate (depending on whether the axis is specified as `Horizontal` or as `Vertical`).
 

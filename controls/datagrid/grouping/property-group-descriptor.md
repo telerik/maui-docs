@@ -6,7 +6,7 @@ position: 2
 slug: datagrid-property-group-descriptor
 ---
 
-# Property Group Descriptor
+# Property Group Descriptor for .NET MAUI DataGrid
 
 The `PropertyGroupDescriptor` is used to group the data in a DataGrid by property from the class that defines your objects.
 

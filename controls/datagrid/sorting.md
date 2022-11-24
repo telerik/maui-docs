@@ -6,7 +6,7 @@ position: 6
 slug: datagrid-sorting-overview
 ---
 
-# Sorting
+# .NET MAUI DataGrid Sorting
 
 The DataGrid provides a built-in sorting functionality which allows the user to order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
 

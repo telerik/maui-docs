@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-events
 slug: rating-events
 ---
 
-# Events
+# .NET MAUI Rating Events
 
 The Rating provides the `ValueChanged` event, which occurs whenever the `Value` property is changed.
 

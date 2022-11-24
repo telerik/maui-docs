@@ -6,7 +6,7 @@ position: 8
 slug: badgeview-styling
 ---
 
-# Styling
+# .NET MAUI BadgeView Styling
 
 The BadgeView exposes a number of properties which allow you to style the appearance of the Badge indicator.
 

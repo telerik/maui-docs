@@ -6,7 +6,7 @@ position: 10
 slug: popup-styling
 ---
 
-# Styling
+# .NET MAUI Popup Styling
 
 The `OutsideBackgroundColor` property of the Popup lets you customize the color outside the element.
 

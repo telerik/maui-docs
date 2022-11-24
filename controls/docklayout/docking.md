@@ -7,7 +7,7 @@ previous_url: /controls/docklayout/docklayout-docking
 slug: docklayout-docking
 ---
 
-# Docking Functionality
+# .NET MAUI Docking Functionality for DocjkLayout control
 
 The DockLayout provides options for setting the position of child elements to different areas of the layout and aligning multiple elements to one side.  
 

@@ -7,7 +7,7 @@ previous_url: /controls/chart/behaviors/chart-behaviors-tooltip-behavior
 slug: chart-behaviors-tooltip
 ---
 
-# ToolTip Behavior
+# .NET MAUI Chart ToolTip Behavior
 
 The Tooltip behavior of the Chart is responsible for rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
 

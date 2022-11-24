@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/theming-and-styles/datagrid-styling
 slug: datagrid-styling
 ---
 
-# DataGrid Styling
+# .NET MAUI DataGrid Styling
 
 The DataGrid control provides the following `Style` properties for customizing its look & feel:
 

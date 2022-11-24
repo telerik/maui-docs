@@ -7,7 +7,7 @@ previous_url: /controls/entry/entry-events
 slug: entry-events
 ---
 
-# Events
+# .NET MAUI Entry Events
 
 The Telerik UI for .NET MAUI Entry control exposes a number of events and commands for notifying after user interactions.
 

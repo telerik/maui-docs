@@ -6,7 +6,7 @@ position: 3
 slug: datagrid-selection-overview
 ---
 
-# Selection
+# Selection in .NET MAUI DataGrid
 
 The DataGrid exposes a selection feature which enables users to select a cell or a row by clicking (tapping) on it. To cancel the selection, users can click the cell or the row again. The control provides a single and multiple selection feature.
 

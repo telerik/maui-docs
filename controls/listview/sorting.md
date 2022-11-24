@@ -8,7 +8,7 @@ previous_url: /controls/listview/listview-features-sorting
 tags: sort, radlistview, sorting, sortdescriptor
 ---
 
-# Sorting
+# .NET MAUI ListView Sorting
 
 The ListView can be used to sort the visualized data. This can be achieved by adding different `SortDescriptors` to its `SortDescriptors` collection. There are two types of descriptors shipped with our code.
 

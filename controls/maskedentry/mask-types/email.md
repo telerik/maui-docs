@@ -7,7 +7,7 @@ slug: maskedentry-email-mask
 ---
 
 
-# Email Mask
+# .NET MAUI Email Mask
 
 To validate the user input as an email entry, use the `EmailMaskedEntry`. The resulting value is a string object.
 

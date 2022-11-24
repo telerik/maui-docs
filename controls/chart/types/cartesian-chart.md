@@ -7,7 +7,7 @@ previous_url: /controls/chart/types/chart-types-cartesian-chart
 slug: chart-types-cartesian-chart
 ---
 
-# Cartesian Chart
+# .NET MAUI Cartesian Chart
 
 The Cartesian Chart visualizes its data points by using the Cartesian coordinate system. The X and Y axes define how the coordinates of each point in the plot area are calculated and the series type defines the way these data points will be visualized.  
 

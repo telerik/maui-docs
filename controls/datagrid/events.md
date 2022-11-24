@@ -8,7 +8,7 @@ description: Describing the events of the RadDataGrid
 tags: events
 ---
 
-# Events
+# .NET MAUI DataGrid Events
 
 The DataGrid component exposes a set of events.
 

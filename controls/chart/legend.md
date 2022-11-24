@@ -7,7 +7,7 @@ previous_url: /controls/chart/chart-legend
 slug: chart-features-legend
 ---
 
-# Chart Legend
+# .NET MAUI Chart Legend
 
 The Legend feature of the `RadChart` makes it easy for you to provide description regarding the series which are visualized within the control.
 

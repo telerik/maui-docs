@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-templates
 slug: datepicker-templates
 ---
 
-# Templates
+# .NET MAUI DatePicker Templates
 
 The DatePicker provides a set of templates for customizing its elements.
 

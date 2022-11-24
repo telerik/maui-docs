@@ -6,7 +6,7 @@ position: 0
 slug: dataform-grouping
 ---
 
-# Grouping
+# .NET MAUI DataForm Grouping
 
 Telerik UI for .NET MAUI DataForm supports grouping. You can define the groups directly in the DataForm or using the `GroupName` DisplayAttribute in the business model.
 

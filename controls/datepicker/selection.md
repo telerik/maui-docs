@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-selection
 slug: datepicker-selection
 ---
 
-# Selection
+# Selection in .NET MAUI DatePicker
 
 The DatePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
 

@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/columns/datagrid-columns-nested-properties
 slug: datagrid-nested-properties
 ---
 
-# Nested Properties Support
+# .NET MAUI DataGrid Nested Properties Support
 
 DataGrid provides support for nested properties - this allows binding of complex objects to the grid columns.
 

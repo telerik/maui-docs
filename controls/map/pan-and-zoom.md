@@ -6,7 +6,7 @@ position: 2
 slug: map-pan-zoom
 ---
 
-# Pan and Zoom
+# .NET MAUI Map Pan and Zoom
 
 Telerik UI for .NET MAUI Map provides pan and zoom functionality that will help you interact with the view and inspect your data. The Map control handles the gestures drag, pinch-open and pinch-close which respectively cause panning, zooming-in and zooming-out of the associated plot area.
 

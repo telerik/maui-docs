@@ -6,7 +6,7 @@ position: 5
 slug: sidedrawer-features-commands
 ---
 
-# Overview
+# .NET MAUI SideDrawer Commands
 
 The SideDrawer control exposes a `Commands` collection that allows you to
 register custom commands with each control’s instance. The commands allow the user to easily change and extend the control default behavior.
@@ -20,11 +20,11 @@ Each element in the `Commands` collection inherits from the `SideDrawerCommandBa
 
 For your convenience we have created a special `SideDrawerUserCommand` class that also exposes a `Command` dependency property which can be set to an instance of type that implements the `ICommand` interface.
 
-# Examples
+## Examples
 
 The following examples demonstrates how to use the SideDrawer commands in different scenarios.
 
-## Inheriting from the SideDrawerCommandBase class
+### Inheriting from the SideDrawerCommandBase class
 
 1. Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation is shown below:
 
@@ -73,7 +73,7 @@ xmlns:local="the namespace where the custom command is defined"
 
 Where the `local` alias points to the namespace where the `CustomUserCommand` is defined.
 
-## Using the SideDrawerUserCommand class
+### Using the SideDrawerUserCommand class
 
 1. Define a class that implements the `ICommand` interface:
 
@@ -90,7 +90,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 xmlns:local="the namespace where the custom command is defined"
  ```
 
-## Binding to a ViewModel
+### Binding to a ViewModel
 
 Use the `SideDrawerUserCommand` to bind its `Command` property to a view model.
 

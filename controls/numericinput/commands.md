@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-commands
 slug: numericinput-commands
 ---
 
-# Commands
+# .NET MAUI NumericInput Commands
 
 The NumericInput exposes `IncreaseCommand` and `DecreaseCommand` which could be used to define custom functionality upon the respective actions. These commands allow you to easily change and extend the control's default behavior.
 

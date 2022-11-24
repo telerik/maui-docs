@@ -6,7 +6,7 @@ position: 4
 slug: entry-validation
 ---
 
-# Validation
+# .NET MAUI Entry Validation
 
 The Telerik UI for .NET MAUI entry control provides validation mechanism. If the user is entering a value not matching the requirements, the Entry will display an error message, which you can easily customize.
 

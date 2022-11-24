@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/columns/datagrid-columns-overview
 slug: datagrid-columns-overview
 ---
 
-# Columns Overview
+# .NET MAUI DataGrid Columns
 
 You can add columns in your RadDataGrid by working with the Columns collection of the control. Generally, there are three approaches that you can take to define differrent columns:
 

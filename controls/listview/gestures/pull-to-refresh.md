@@ -7,7 +7,7 @@ previous_url: /controls/listview/gestures/listview-gestures-pull-to-refresh
 slug: listview-features-pull-to-refresh
 ---
 
-# Pull to Refresh
+# .NET MAUI ListView Pull to Refresh
 
 If the list contains items which may change after the initial load, it may be good idea to allow users to refresh that list. Telerik ListView for .NET MAUI is capable of doing this by a pull-to-refresh gesture. The feature allows the data to be refreshed by swiping finger down when the content is scrolled up to the top. This will trigger an animated activity indicator which will stay visible until data is refreshed.
 

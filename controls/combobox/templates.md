@@ -6,7 +6,7 @@ position: 9
 slug: combobox-templates
 ---
 
-# Templates
+# .NET MAUI ComboBox Templates
 
 If the default templates of the control do not suit your needs, you can easily define custom ones. The available templates for customizing are:
 

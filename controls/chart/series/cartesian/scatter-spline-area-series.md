@@ -6,7 +6,7 @@ slug: chart-series-scatter-spline-area-series
 position: 0
 ---
 
-# ScatterSplineArea Series
+# .NET MAUI Chart ScatterSplineArea Series
 
 The Cartesian Chart visualizes ScatterSplineArea Series as the area enclosed by the coordinate axes and curved line segments that connect the series data points. The ScatterSplineArea Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 

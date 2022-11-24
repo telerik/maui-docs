@@ -8,7 +8,7 @@ previous_url: /controls/listview/listview-features-events
 tags: events
 ---
 
-# Events
+# .NET MAUI ListView Events
 
 The ListView component exposes a set of events.
 

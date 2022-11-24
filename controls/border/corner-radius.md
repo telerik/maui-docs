@@ -8,7 +8,7 @@ previous_url: /controls/border/border-corner-radius
 slug: border-corner-radius
 ---
 
-# Corner Radius
+# .NET MAUI Border Corner Radius
 
 Telerik UI for .NET MAUI Border enables you to set a different corner radius to its angles through the `CornerRadius` property.
 

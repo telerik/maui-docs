@@ -8,7 +8,7 @@ previous_url: /controls/chart/chart-overview
 slug: chart-overview
 ---
 
-# Overview
+# .NET MAUI Chart Overview
 
 **Telerik UI for .NET MAUI Charts** are feature-rich, intuitive, and easy to use data-visualization controls. While the Chart for .NET MAUI capitalizes all the innate benefits of the native UI, it exposes its objects and properties in C#, allowing for no-compromise customization and flexibility. Using Telerik Chart along with the .NET MAUI allows developers to easily implement various chart scenarios in their applications from a single shared C# code base.
 

@@ -6,7 +6,7 @@ position: 1
 slug: datagrid-commands-cell-tap
 ---
 
-# CellTap Command
+# .NET MAUI DataGrid CellTap Command
 
 The DataGrid `CellTap` command handles the tap (click) gesture over a grid cell, that is, the intersection of a data row and a column.
 

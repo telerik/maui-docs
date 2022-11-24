@@ -6,7 +6,7 @@ position: 6
 slug: popup-animations
 ---
 
-# Animations
+# .NET MAUI Popup Animations
 
 The Popup provides two built-in animations that are played when the Popup is shown or hidden.
 

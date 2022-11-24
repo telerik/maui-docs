@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-formatting
 slug: datepicker-formatting
 ---
 
-# Formatting
+# .NET MAUI DatePicker Formatting
 
 Telerik UI for .NET MAUI DatePicker provides formatting options both when the picker dialog is open and when a date value is picked.
 

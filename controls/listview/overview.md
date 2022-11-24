@@ -7,7 +7,7 @@ previous_url: /controls/listview/listview-overview
 slug: listview-overview
 ---
 
-# Overview
+# .NET MAUI ListView Overview
 
 **Telerik ListView for .NET MAUI** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in a single control for saving developers' time and providing better experience.
 

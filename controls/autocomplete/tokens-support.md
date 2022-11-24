@@ -6,7 +6,7 @@ position: 4
 slug: autocomplete-tokens-support
 ---
 
-# .NET MAUI AutoComplete Tokens Support
+# Tokens Support in .NET MAUI AutoComplete
 
 With AutoComplete you could enable users to search for and pick several items. These items appear as tokens that can easily be deselected using their close button.
 

@@ -7,7 +7,7 @@ previous_url: /controls/path/path-styling
 slug: path-styling
 ---
 
-# Styling
+# .NET MAUI Path Styling
 
 The `RadPath` element exposes the following properties you can use to customize the look of the path figures:
 

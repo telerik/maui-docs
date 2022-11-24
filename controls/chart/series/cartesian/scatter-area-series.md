@@ -6,7 +6,7 @@ slug: chart-series-scatter-area-series
 position: 0
 ---
 
-# ScatterArea Series
+# .NET MAUI Chart ScatterArea Series
 
 The Cartesian Chart visualizes the ScatterArea Series as the area enclosed by the coordinate axes and straight line segments that connect the series data points. The ScatterArea Series inherit from the `[ScatterPointSeries]()` class and also require both Chart axes to be Numerical Axes.
 

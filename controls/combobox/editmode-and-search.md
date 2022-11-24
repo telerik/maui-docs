@@ -6,7 +6,7 @@ position: 4
 slug: combobox-editmode-and-search
 ---
 
-# Edit Mode & Search
+# .NET MAUI ComboBox Edit Mode & Search
 
 ComboBox supports both **editable** and **noneditable** state. When the control is in edit mode, users can type into the input field and searching through the control's ItemsSource can be performed. 
 

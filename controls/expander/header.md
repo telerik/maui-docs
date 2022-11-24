@@ -6,7 +6,7 @@ position: 3
 slug: expander-header
 ---
 
-# .NET MAUI ExpanderHeader control
+# .NET MAUI Expander Header control
 
 `ExpanderHeader` represents the Header of the Expander control which is used to show or hide the expandable container. ExpanderHeader provides a customizable Indicator to mark the current state of the Expander as well as BorderColor and BorderThickness properties to style the Header per your needs.
 

@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/commands/commands
 slug: datagrid-commands-overview
 ---
 
-# Commands
+# .NET MAUI DataGrid Commands
 
 The command design-pattern is very important and widely used in the XAML and MVVM world. The DataGrid strictly follows these best practices and provides an intuitive and an easy-to-use set of APIs that allow different aspects of the DataGrid behavior to be handled and/or completely overridden.
 

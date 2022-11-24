@@ -7,7 +7,7 @@ tags: .net maui, telerik .net maui, ui for .net maui, microsoft .net maui
 slug: itemscontrol-configuration
 ---
 
-# Configuration
+# .NET MAUI ItemsControl Configuration
 
 The ItemsControl enables you to define the collection of the rendered items and also to customize their appearance by using the item template.
 

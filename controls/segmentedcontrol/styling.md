@@ -6,7 +6,7 @@ position: 4
 slug: segmentedcontrol-styling
 ---
 
-# Styling
+# .NET MAUI SegmentedControl Styling
 
 The SegmentedControl provides a set of properties for customizing the text and background colors of its segments.
 

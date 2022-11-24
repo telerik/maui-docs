@@ -7,7 +7,7 @@ tags: tabview, overview
 position: 15
 ---
 
-# Styling
+# .NET MAUI TabView Styling
 
 TabView provides means for modifying its visual appearance, so that it matches the style of the app.  You can style different parts of the TabView - its header, items and content area. 
 

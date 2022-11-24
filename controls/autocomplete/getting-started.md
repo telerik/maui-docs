@@ -6,6 +6,8 @@ position: 1
 slug: autocomplete-getting-started
 ---
 
+# Getting Started with .NET MAUI AutoComplete control
+
 This guide provides the information you need to start using the Telerik UI for .NET MAUI AutoComplete by adding the control to your project.
 
 At the end, you will be able to achieve the following result.

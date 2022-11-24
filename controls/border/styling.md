@@ -8,7 +8,7 @@ previous_url: /controls/border/border-styling
 slug: border-styling
 ---
 
-# Styling
+# .NET MAUI Border Styling
 
 The Border control provides options for styling its appearance and enables you to set its color and thickness.
 

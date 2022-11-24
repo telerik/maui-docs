@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-date-range
 slug: datepicker-date-range
 ---
 
-# Date Ranges
+# Date Ranges in .NET MAUI DatePicker
 
 The DatePicker allows you to define a date range and choose a date within that range.
 
