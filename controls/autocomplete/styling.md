@@ -6,7 +6,7 @@ position: 14
 slug: autocomplete-styling
 ---
 
-#  .NET MAUI AutoComplete Styling
+# .NET MAUI AutoComplete Styling
 
 AutoComplete control provides the following Style properties for customizing its look:
 

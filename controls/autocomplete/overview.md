@@ -6,7 +6,7 @@ position: 0
 slug: autocomplete-overview
 ---
 
-# .NET MAUI AutoComplete - Overview
+# .NET MAUI AutoComplete Overview
 
 **Telerik UI for .NET MAUI AutoComplete** can automatically complete user input string by comparing the text being entered to all strings in the associated data source. The control has a number of advanced features such as different filtering options, tokens support and remote search, as well as full customization capabilities.
 
