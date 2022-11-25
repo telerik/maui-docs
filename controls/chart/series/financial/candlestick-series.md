@@ -6,7 +6,7 @@ description: Check our &quot;Candlestick Series&quot; documentation article for 
 position: 1
 ---
 
-# Candlestick Series
+# .NET MAUI Chart Candlestick Series
 
 The Cartesian Chart visualizes each data point from the Candlestick Series as a visual that resembles a candlestick. This is a typical financial series that can be used to visualize the state of a market for a period of time. The series operates with a special kind of data in the form of four parameters defining the stock market - **open**, **high**, **low**, and **close**. The **high** and **low** values show the price range (the highest and lowest prices) over one unit of time. The **open** and **close** values indicate the opening and closing price of the stock for the corresponding period
 

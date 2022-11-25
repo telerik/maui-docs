@@ -7,7 +7,7 @@ position: 4
 slug: axes-date-time-continuous-axis
 ---
 
-# DateTime Continuous Axis
+# .NET MAUI Chart DateTime Continuous Axis
 
 The DateTime Continuous Axis is a special axis that extends the base `CartesianAxis` class and may be considered as a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
 

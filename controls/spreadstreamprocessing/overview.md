@@ -9,7 +9,7 @@ published: True
 position: 0
 ---
 
-# Overview
+# .NET MAUI SpreadStreamProcessing Overview
 
 This article briefly explains the specifics of **SpreadStreamProcessing** - what is spread streaming, how it works compared to the RadSpreadProcessing library and when to use it.
 

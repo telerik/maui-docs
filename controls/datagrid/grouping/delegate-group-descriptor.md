@@ -6,7 +6,7 @@ position: 3
 slug: datagrid-delegate-group-descriptor
 ---
 
-# Delegate Group Descriptor
+# Delegate Group Descriptor for .NET MAUI DataGrid
 
 The difference between the `DelegateGroupDescriptor` and the [PropertyGroupDescriptor]({%slug datagrid-property-group-descriptor%}) is that the `DelegateGroupDescriptor` groups data by a custom key, while the `PropertyGroupDescriptor` groups by a defined key which is a property from the model.
 

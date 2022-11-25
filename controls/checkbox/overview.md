@@ -7,7 +7,7 @@ previous_url: /controls/checkbox/checkbox-overview
 slug: checkbox-overview
 ---
 
-# Overview
+# .NET MAUI CheckBox Overview
 
 **Telerik RadCheckBox for .NET MAUI** is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
 

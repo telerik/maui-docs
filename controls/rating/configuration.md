@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-configuration
 slug: rating-configuration
 ---
 
-# Configuration
+# Configure the .NET MAUI Rating
 
 The Rating is presented by two components named [`RadShapeRating`]({% slug rating-shape-rating%}) and [`RadTemplatedRating`]({% slug rating-templated-rating%}) in order to provide various visualizations of the rating functionality.
 

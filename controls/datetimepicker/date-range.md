@@ -6,7 +6,7 @@ position: 3
 slug: datetimepicker-date-range
 ---
 
-# Date Ranges
+# Date Ranges in .NET MAUI DateTimePicker
 
 The DateTimePicker allows you to define a date range and choose a date within that range.
 

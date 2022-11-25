@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-axis
 slug: gauge-axis
 ---
 
-# Axis
+# .NET MAUI Gauge Axis
 
 The axis provides options for you to control all its displayed elements including ticks, labels, appearance, and axis range.
 

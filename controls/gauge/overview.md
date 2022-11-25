@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-overview
 slug: gauge-overview
 ---
 
-# Overview
+# .NET MAUI Gauge Overview
 
 **Telerik UI for .NET MAUI Gauges** serve as instruments for indication and visual display of amount, level, or contents as part of a greater unit. These values are presented through indicators such as needles, arrows, and others.
 

@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-getting-started
 slug: templatedpicker-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI TemplatedPicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TemplatedPicker by adding the control to your project.
 

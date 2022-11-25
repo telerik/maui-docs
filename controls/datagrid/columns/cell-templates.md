@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/columns/datagrid-columns-cell-templates
 slug: datagrid-cell-templates
 ---
 
-# Columns Cell Templates
+# .NET MAUI DataGrid Columns Cell Templates
 
 This article describes how to set the content and edit templates to the DataGrid column using the `CellContentTemplate` and `CellEditTemplate` properties.
 

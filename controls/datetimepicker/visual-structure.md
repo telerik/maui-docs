@@ -6,7 +6,7 @@ position: 0
 slug: datetimepicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI DateTimePicker Visual Structure
 
 The DateTimePicker uses a set of visual elements when rendered.
 

@@ -6,7 +6,7 @@ position: 3
 slug: sidedrawer-features-transitions
 ---
 
-# Transitions
+# .NET MAUI SideDrawer Transitions
 
 Transitions are the animation effects applied to the side drawer while it is being opened and closed. The following properties are related to the sideDrawer transition:
 

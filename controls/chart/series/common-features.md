@@ -7,7 +7,7 @@ previous_url: /controls/chart/series/chart-series-features
 position: 1
 ---
 
-# Common Series Features
+# .NET MAUI Chart Common Series Features
 
 The `RadChart` exposes a number of features shared by the available Chart series.
 

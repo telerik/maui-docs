@@ -8,7 +8,7 @@ slug: timespanpicker-formatting
 ---
 
 
-# TimeSpan Formatting
+# .NET MAUI TimeSpan Formatting
 
 The TimeSpanPicker for .NET MAUI allows you to use standard or custom time format strings.
 

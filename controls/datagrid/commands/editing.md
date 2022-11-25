@@ -6,7 +6,7 @@ position: 2
 slug: datagrid-commands-editing
 ---
 
-# Editing Commands
+# .NET MAUI DataGrid Editing Commands
 
 The DataGrid control provides the following commands for editing the data inside the column:
 

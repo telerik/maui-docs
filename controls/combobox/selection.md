@@ -6,7 +6,7 @@ position: 6
 slug: combobox-selection
 ---
 
-# Selection
+# .NET MAUI ComboBox Selection
 
 ComboBox for .NET MAUI enables the app users to quickly and easily select item/items fro a dropdown list. This topic will go through the provided by the ComboBox API related to item/items selection.
 

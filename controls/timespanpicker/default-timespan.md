@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-default-timespan
 slug: timespanpicker-default-timespan
 ---
 
-# Default TimeSpan
+# .NET MAUI TimeSpanPicker Default TimeSpan
 
 The TimeSpanPicker provides options for setting its default time interval.
 

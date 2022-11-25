@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-numeric-string-format
 slug: numericinput-numeric-string-format
 ---
 
-# Numeric Format String
+# .NET MAUI Numeric Format String
 
 The NumericInput provides you the option to define the format of its numeric value. The desired format which will be applied when the control loses focus.
 

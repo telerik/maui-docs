@@ -6,7 +6,7 @@ slug: chart-series-area-series
 position: 0
 ---
 
-# Area Series
+# .NET MAUI Chart Area Series
 
 The Cartesian Chart visualizes the Area Series as an area on the chart that is enclosed by the coordinate axes and straight line segments that connect the data points represented by these series. The Area Series extend the Categorical Stroked Series, so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 

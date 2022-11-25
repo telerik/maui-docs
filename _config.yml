@@ -3,7 +3,7 @@ url: "https://docs.telerik.com/devtools/maui"
 site_name: MAUI
 
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock, controls/chart/how-to, knowledge-base]
+exclude: [README.md,Gemfile,Gemfile.lock, controls/chart/how-to]
 exclude_navigation: [knowledge-base/*]
 
 navigation:
@@ -24,6 +24,9 @@ navigation:
     troubleshooting:
         title: "Troubleshooting"
         position: 12
+    "knowledge-base":
+        title: "Knowledge Base"
+        position: 14
 ## End Root Level
 ## Intallation Sub-Folders
     installation/windows:
@@ -389,7 +392,7 @@ footer_social:
     linkedin: https://www.linkedin.com/showcase/telerik/
     twitter: https://twitter.com/Telerik/
 
-has_kb_portal: false
+has_kb_portal: true
 has_api_reference: true
 has_cta_panels: true
 

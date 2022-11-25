@@ -7,7 +7,7 @@ previous_url: /controls/path/path-multipath
 slug: path-multipath
 ---
 
-# MultiPath
+# .NET MAUI Multi Path
 
 The MultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
 

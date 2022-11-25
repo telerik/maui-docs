@@ -6,7 +6,7 @@ position: 3
 slug: combobox-databinding
 ---
 
-# Data Binding
+# Data Binding in .NET MAUI ComboBox
 
 - `ItemsSource`(`IEnumerable`): Defines the collection of the items that will populate the control with data.
 - `DisplayMemberPath`(`string`): Defines the name of the property which will be visualized inside the dropdown list.

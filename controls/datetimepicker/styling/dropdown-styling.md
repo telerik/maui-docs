@@ -6,7 +6,7 @@ position: 2
 slug: datetimepicker-dropdown-styling
 ---
 
-# DropDown Styling
+# .NET MAUI DateTimePicker DropDown Styling
 
 By using the `DropDownSettings` property (of type `Telerik.XamarinForms.Input.PickerDropDownSettings`) of the DateTimePicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
 

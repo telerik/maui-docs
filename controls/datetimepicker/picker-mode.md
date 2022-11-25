@@ -6,7 +6,7 @@ position: 5
 slug: datetimepicker-picker-mode
 ---  
 
-# Picker Mode
+# .NET MAUI DateTimePicker Modes
 
 The DateTimePicker for .NET MAUI exposes `PickerMode` property of `Telerik.XamarinForms.Input.PickerMode` type which can be set to one of the following values:
 

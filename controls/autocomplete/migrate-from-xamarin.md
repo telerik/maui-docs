@@ -6,7 +6,7 @@ position: 1
 slug: autocomplete-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms
+# Migrate from Xamarin.Forms AutoCompleteView to .NET MAUI AutoComplete
 
 Overall, Telerik .NET MAUI AutoComplete control preserves the same API as Xamarin.Forms AutoCompleteView with a few changes and improvements listed in the table below:
 

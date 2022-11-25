@@ -6,7 +6,7 @@ position: 6
 slug: maskedentry-prompt-character
 ---
 
-# Prompt Character
+# .NET MAUI MaskedEntry Prompt Character
 
 The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symbol (char) for any mask position that the user has not filled in yet. The default `PromptChar` value is `_` (underscore).
 

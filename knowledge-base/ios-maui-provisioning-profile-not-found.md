@@ -5,8 +5,6 @@ description: "Cannot find any available provisioning profiles on iOS when workin
 tags: .net maui, maui, maui check, error, provisioning profile, ios, mac, xcode
 slug: ios-maui-provisioning-profile-not-found
 type: troubleshooting
-ticketid:
-publish: false
 res_type: kb
 ---
 

@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-selection
 slug: timespanpicker-selection
 ---
 
-# Selection
+# .NET MAUI TimeSpanPicker Selection
 
 The TimeSpanPicker control enables users to quickly and easily select a time interval. This topic explains the TimeSpanPicker API related to the time-interval selection.
 

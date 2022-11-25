@@ -6,7 +6,7 @@ position: 3
 slug: maskedentry-mask
 ---
 
-# Setting the Mask
+# Setting the Mask in .NET MAUI MaskedEntry
 
 The Telerik MaskedEntry for .NET MAUI exposes a `Mask`(`string`) property, which represents a string of characters restricting user input. The `Mask` property can contain literals and special mask characters depending on the used mask type (numeric, text, or regex).
 

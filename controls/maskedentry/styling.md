@@ -6,7 +6,7 @@ position: 11
 slug: maskedentry-styling
 ---
 
-# Styling
+# .NET MAUI MaskedEntry Styling
 
 The MaskedEntry control delivers a set of options for styling its appearance.
 

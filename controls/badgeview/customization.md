@@ -6,7 +6,7 @@ position: 9
 slug: badgeview-customization
 ---
 
-# Customization
+# Customizations in .NET MAUI BadgeView
 
 If you don't want to use a [predefined Badge type]({%slug badgeview-predefined-badges%}) and need to customize the text inside the Badge indicator, use the `BadgeText`(`string`) property.
 

@@ -7,7 +7,7 @@ previous_url: /controls/chart/behaviors/chart-behaviors-trackball-behavior
 slug: chart-behaviors-trackball
 ---
 
-# TrackBall Behavior
+# .NET MAUI Chart TrackBall Behavior
 
 The TrackBall behavior is responsible for rendering concise information about several data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
 

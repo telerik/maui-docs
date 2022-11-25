@@ -7,7 +7,7 @@ previous_url: /controls/entry/entry-text-selection
 slug: entry-text-selection
 ---
 
-# Text Selection
+# .NET MAUI Entry Text Selection
 
 The Entry supports a number of settings for managing the selection of its input text.
 

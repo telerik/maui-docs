@@ -6,7 +6,7 @@ position: 2
 slug: dataform-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI DataForm
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DataForm by adding the control to your project.
 

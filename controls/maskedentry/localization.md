@@ -6,7 +6,7 @@ position: 8
 slug: maskedentry-localization
 ---
 
-# Localization
+# .NET MAUI MaskedEntry Localization
 
 The Telerik MaskedEntry for .NET MAUI provides localization support. In short, you can translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions.
 

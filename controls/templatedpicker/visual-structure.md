@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-visual-structure
 slug: templatedpicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI TemplatedPicker Visual Structure
 
 This article describes all visual elements that are used in the TemplatedPicker for .NET MAUI.
 

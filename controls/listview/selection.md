@@ -7,7 +7,7 @@ previous_url: /controls/listview/listview-features-selection
 slug: listview-features-selection
 ---
 
-# Selection
+# .NET MAUI ListView Selection
 
 The ListView component exposes selection feature. It allows single or multiple selection of the ListView items. This feature provides both visual and programmatic feedback for the actions of the user. Also you can disable the selection.
 

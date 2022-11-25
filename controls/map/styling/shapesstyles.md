@@ -6,7 +6,7 @@ position: 1
 slug: map-styling-shapesstyles
 ---
 
-# Shapes Styling
+# .NET MAUI Map Shapes Styling
 
 The Map `ShapefileLayer` exposes `ShapeStyle` property which helps you to style the shapes, as well as the selected shapes using the `SelectedShapeStyle` proeprty. A conditional styling is applied using the `ShapeStyleSelector` proeprty.
 

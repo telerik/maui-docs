@@ -8,7 +8,7 @@ previous_url: /controls/listview/styling/listview-features-styling
 tags: style, selected, hovered, pressed, item, highlighted
 ---
 
-# Item Styles
+# .NET MAUI ListView Item Styles
 
 The ListView component provides styling mechanism for customizing the look of its items.
 

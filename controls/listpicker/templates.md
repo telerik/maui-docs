@@ -7,7 +7,7 @@ previous_url: /controls/listpicker/listpicker-templates
 slug: listpicker-templates
 ---
 
-# Templates
+# .NET MAUI ListPicker Templates
 
 The ListPicker for .NET MAUI provides the following templates:
 

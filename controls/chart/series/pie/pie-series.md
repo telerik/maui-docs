@@ -5,7 +5,7 @@ slug: chart-series-pie-series
 description: Check our &quot;PieSeries&quot; documentation article for Telerik Chart for .NET MAUI
 ---
 
-# Pie Series
+# .NET MAUI Chart Pie Series
 
 The Pie Chart visualizes the Pie Series in the shape of a pie. Each data item is visually represented by a pie slice. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
 

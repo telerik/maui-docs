@@ -6,7 +6,7 @@ position: 2
 slug: dataform-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms
+# Migrate from Xamarin.Forms DataForm to .NET MAUI DataForm
 
 Overall, Telerik .NET MAUI DataForm control is a complete new control with new API, improvements and flexible styling mechanisum implemented.
 

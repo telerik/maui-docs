@@ -6,7 +6,7 @@ position: 2
 slug: sidedrawer-features-configuration
 ---
 
-# Configuration
+# Configure the .NET MAUI SideDrawer
 
 This article explains all configuration options that the SideDrawer control provides.
 

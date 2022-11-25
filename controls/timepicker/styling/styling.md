@@ -6,7 +6,7 @@ position: 0
 slug: timepicker-styling
 ---
 
-# TimePicker Styling
+# .NET MAUI TimePicker Styling
 
 The TimePicker control for .NET MAUI provides styling options for customizing its appearance. You can style the TimePicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug timepicker-picker-mode%}) setting.
 

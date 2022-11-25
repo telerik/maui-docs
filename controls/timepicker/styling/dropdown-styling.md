@@ -6,7 +6,7 @@ position: 2
 slug: timepicker-dropdown-styling
 ---
 
-# DropDown Styling
+# .NET MAUI TimePicker DropDown Styling
 
 By using the `DropDownSettings` property (of type `Telerik.XamarinForms.Input.PickerDropDownSettings`) of the TimePicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
 

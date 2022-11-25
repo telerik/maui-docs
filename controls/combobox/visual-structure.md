@@ -6,7 +6,7 @@ position: 0
 slug: combobox-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI ComboBox Visual Structure
 
 Here are described all visual elements used in the ComboBox for .NET MAUI.
 

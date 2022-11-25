@@ -7,7 +7,7 @@ previous_url: /controls/entry/entry-styling
 slug: entry-styling
 ---
 
-# Styling
+# .NET MAUI Entry Styling
 
 The Entry provides styling options for setting the appearance of its border and font.
 

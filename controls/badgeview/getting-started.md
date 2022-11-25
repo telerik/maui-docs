@@ -6,7 +6,7 @@ position: 2
 slug: badgeview-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI BadgeView control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI BadgeView by adding the control to your project.
 

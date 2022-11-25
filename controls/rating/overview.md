@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-overview
 slug: rating-overview
 ---
 
-# Overview
+# .NET MAUI Rating Overview
 
 **Telerik UI for .NET MAUI Rating** is an intuitive UI component that allows users to express their satisfaction from products, services, and experiences by selecting a corresponding number of elements from a predefined maximum range.
 

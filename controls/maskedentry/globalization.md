@@ -6,7 +6,7 @@ position: 8
 slug: maskedentry-globalization
 ---
 
-# Globalization
+# .NET MAUI MaskedEntry Globalization
 
 Globalization refers to developing an application in such a way that it works with respect to the target device culture. This includes number formatting which can vary between cultures, especially for some specific symbols, such as decimal separators, currency and other.
 

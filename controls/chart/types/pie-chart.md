@@ -7,7 +7,7 @@ previous_url: /controls/chart/types/chart-types-pie-chart
 slug: chart-types-pie-chart
 ---
 
-# Pie Chart
+# .NET MAUI Pie Chart
 
 The Pie Chart visualizes its data points by using the radial coordinate system. Each data point is represented as a slice from a pie. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
 

@@ -6,7 +6,7 @@ slug: chart-series-combine-mode
 position: 0
 ---
 
-# Categorical Series Combine Mode
+# .NET MAUI Chart Categorical Series Combine Mode
 
 When the series in a Cartesian Chart are more than one, a few different drawing strategies can be used.
 

@@ -43,6 +43,7 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 ## Learning Resources
 
 * [Official Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui)
+* [Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)
 * [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
 * [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)
 

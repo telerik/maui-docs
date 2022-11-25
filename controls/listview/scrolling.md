@@ -8,7 +8,7 @@ previous_url: /controls/listview/listview-features-scrolling
 tags: programmatic, scrolling
 ---
 
-# Scrolling
+# .NET MAUI ListView Scrolling
 
 The ListView supports a number of options which define its scrolling behavior.
 

@@ -10,7 +10,7 @@ position: 0
 CTAControlName: ZipLibrary
 ---
 
-# Overview
+# .NET MAUI ZipLibrary Overview
 
 
 >**ZipLibrary** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary](https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview).

@@ -6,7 +6,7 @@ position: 6
 slug: datagrid-columns-template-column
 ---
 
-# DataGrid TemplateColumn
+# .NET MAUI DataGrid TemplateColumn
 
 If you want to completely customize the content of the cells in a grid column, you can use `DataGridTemplateColumn`, which utilizes a `DataTemplate` to describe the content of each associated grid cell.
 

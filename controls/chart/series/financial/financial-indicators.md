@@ -6,7 +6,7 @@ description: Check our &quot;Financial Indicators&quot; documentation article fo
 position: 2
 ---
 
-# Financial Indicators
+# .NET MAUI Chart Financial Indicators
 
 The financial, or also called stock, indicators are mainly used for keeping track of stock prices and patterns of price changes over time. For more information about what indicators are and what their purpose is, refer to the [Short information about financial indicators](https://www.investopedia.com/terms/t/technicalindicator.asp) article.
 

@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-types/gauge-types-vertical
 slug: gauge-types-vertical
 ---
 
-# Vertical Gauge
+# .NET MAUI Vertical Gauge
 
 The Vertical Gauge allows you to display the scale range in a linear form and vertically oriented.
 

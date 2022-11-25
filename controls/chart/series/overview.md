@@ -7,7 +7,7 @@ previous_url: /controls/chart/series/chart-series-overview
 position: 0
 ---
 
-# Series Overview
+# .NET MAUI Chart Series
 
 The data visualization in the Chart is done by a hierarchy of classes that inherit from the `ChartSeries` class. Each series has a collection of data points, that is the view model of the data. A series may have its data populated by data-binding to an arbitrary `IEnumerable` instance through the `ItemsSource` property.
 

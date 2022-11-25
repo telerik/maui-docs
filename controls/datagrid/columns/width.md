@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/columns/datagrid-columns-width
 slug: datagrid-columns-width
 ---
 
-# Columns Width
+# .NET MAUI DataGrid Columns Width
 
 This article describes how to set a width to the DataGrid column using the SizeMode and Width properties.
 

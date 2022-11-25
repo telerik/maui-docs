@@ -8,7 +8,7 @@ previous_url: /controls/entry/entry-overview
 slug: entry-overview
 ---
 
-# Overview
+# .NET MAUI Entry Overview
 
 **Telerik UI for .NET MAUI Entry** is a text input control that accepts string input and provides various customization options such as adding watermarks, setting its read-only state, defining border styles, and more.
 

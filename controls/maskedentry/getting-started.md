@@ -7,7 +7,7 @@ previous_url: /controls/maskedentry/maskedentry-getting-started
 slug: maskedentry-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI MaskedEntry
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI MaskedEntry by adding the control to your project.
 

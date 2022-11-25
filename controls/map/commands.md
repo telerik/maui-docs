@@ -6,7 +6,7 @@ position: 8
 slug: map-commands
 ---
 
-# Commands
+# .NET MAUI Map Commands
 
 Telerik .NET MAUI Map control provides the following commands of type `ICommand` which handle the zoom level of the visualized shapes:
 

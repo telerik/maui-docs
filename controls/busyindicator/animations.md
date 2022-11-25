@@ -7,7 +7,7 @@ previous_url: /controls/busyindicator/busyindicator-animations
 slug: busyindicator-animations
 ---
 
-# Animations
+# Animations in .NET MAUI BusyIndicator
 
 The BusyIndicator provides options for controlling the size and color of its built-in animations and enables you to define custom animations.
 

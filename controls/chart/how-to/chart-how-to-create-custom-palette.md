@@ -6,7 +6,7 @@ position: 1
 slug: chart-how-to-create-custom-palette
 ---
 
-# Chart Palette
+# .NET MAUI Chart Palette
 
 Chart has a default set of colors when data points are displayed. 
 

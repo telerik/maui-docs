@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-types/gauge-types-horizontal
 slug: gauge-types-horizontal
 ---
 
-# Horizontal Gauge
+# .NET MAUI Horizontal Gauge
 
 The Horizontal Gauge allows you to display the scale range in a linear form and horizontally oriented.
 

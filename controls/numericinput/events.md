@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-events
 slug: numericinput-events
 ---
 
-# Events
+# .NET MAUI NumericInput Events
 
 The NumericInput exposes a `ValueChanged` event, which is raised after the input value is changed.
 

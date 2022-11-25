@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-events
 slug: templatedpicker-events
 ---
 
-# Events
+# .NET MAUI TemplatedPicker Events
 
 The TemplatedPicker for .NET MAUI exposes a `SelectionChanged` event which is raised when the user confirms the selected item.
 

@@ -7,7 +7,7 @@ previous_url: /controls/maskedentry/maskedentry-overview
 slug: maskedentry-overview
 ---
 
-# Overview
+# .NET MAUI MaskedEntry Overview
 
 **Telerik UI for .NET MAUI MaskedEntry** formats and restricts text inputs to predefined or defined patterns, and provides input validation and masks, such as text, Regex, IP, email, and numeric.
 

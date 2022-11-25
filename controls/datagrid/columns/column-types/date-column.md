@@ -6,7 +6,7 @@ position: 3
 slug: datagrid-columns-date-column
 ---
 
-# DataGrid DateColumn
+# .NET MAUI DataGrid DateColumn
 
 The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Telerik Ui for .NET MAUI [DatePicker control](%slug datepicker-overview%) to pick a value in EditMode.
 

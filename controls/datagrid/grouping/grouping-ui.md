@@ -6,7 +6,7 @@ position: 1
 slug: datagrid-grouping-ui
 ---
 
-# Grouping UI
+# .NET MAUI DataGrid Grouping UI
 
 ![Grouping UI](../images/grouping-ui-windows.gif)
 

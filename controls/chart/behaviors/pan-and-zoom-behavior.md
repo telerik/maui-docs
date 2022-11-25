@@ -8,7 +8,7 @@ previous_url: /controls/chart/behaviors/chart-behaviors-pan-and-zoom-behavior
 slug: chart-behaviors-pan-and-zoom
 ---
 
-# Pan and Zoom Behavior
+# .NET MAUI Chart Pan and Zoom Behavior
 
 The Pan and Zoom behavior of the Chart handles the drag, pinch open, and pinch close gestures which respectively cause panning, zooming in, and zooming out of the associated chart plot area.
 

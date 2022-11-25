@@ -6,7 +6,7 @@ position: 0
 slug: combobox-overview
 ---
 
-# Overview
+# .NET MAUI ComboBox Overview
 
 **Telerik UI for .NET MAUI ComboBox** allows users to select item/items from a drop down list of items. The control has a number of features such as searching, single and multiple selection, flexible styling API, dropdown customizations and more.  
 

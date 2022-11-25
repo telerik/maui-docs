@@ -7,7 +7,7 @@ tags: badge, .net maui, badgeview, notifications, indicator, marker, badge for .
 slug: badgeview-overview
 ---
 
-# Overview
+# .NET MAUI BadgeView - Overview
 
 **Telerik UI for .NET MAUI BadgeView** allows you to display badges in your application.
 

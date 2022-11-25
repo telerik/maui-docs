@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-control-template
 slug: numericinput-control-template
 ---
 
-# Control Template
+# .NET MAUI NumericInput Control Template
 
 The visual appearance of the NumericInput is defined through a Control Template. To customize the way the NumericInput looks, you would need to take the default `ControlTemplate` and modify it.
 

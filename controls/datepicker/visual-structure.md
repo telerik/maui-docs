@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-visual-structure
 slug: datepicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI DatePicker Visual Structure
 
 The DatePicker uses a set of visual elements when rendered.
 

@@ -7,7 +7,7 @@ previous_url: /controls/chart/behaviors/chart-behaviors-selection-behavior
 slug: chart-behaviors-selection
 ---
 
-# Selection Behavior
+# .NET MAUI Chart Selection Behavior
 
 The Selection behavior of the Chart is responsible for selecting, deselecting, and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
 

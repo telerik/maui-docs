@@ -7,7 +7,7 @@ previous_url: /controls/checkbox/checkbox-styling
 slug: checkbox-styling
 ---
 
-# Styling
+# .NET MAUI CheckBox Styling
 
 The CheckBox provides a set of styling options by exposing properties for customizing its visual appearance.
 

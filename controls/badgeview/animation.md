@@ -7,7 +7,7 @@ position: 7
 slug: badgeview-animation
 ---
 
-# Animation
+# .NET MAUI BadgeView Animation
 
 The BadgeView allows you to display the Badge indicator with an animation flow.
 
