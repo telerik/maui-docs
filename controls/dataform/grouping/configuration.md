@@ -7,7 +7,7 @@ previous_url: /controls/dataform/grouping/dataform-configuration
 slug: dataform-grouping-configuration
 ---
 
-# Configuration
+# Configure the Groups in .NET MAUI DataForm
 
 The DataForm control for .NET MAUI provides the following properties to configure and customize the groups appearance. 
 

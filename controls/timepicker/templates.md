@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-templates
 slug: timepicker-templates
 ---
 
-# Templates
+# .NET MAUI TimePicker Templates
 
 In case the default templates of the TimePicker control do not suit your needs, you can easily define a custom template.
 

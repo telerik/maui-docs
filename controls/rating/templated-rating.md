@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-templated-rating
 slug: rating-templated-rating
 ---
 
-# Templated Rating
+# .NET MAUI Templated Rating
 
 The `RadTemplatedRating` component is designed for cases where it is easier to provide a template (for example, an image) for the rating items instead of creating custom `RadPathGeometry`.
 

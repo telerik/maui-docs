@@ -6,7 +6,7 @@ position: 10
 slug: autocomplete-remote-search
 ---
 
-# .NET MAUI AutoComplete Remote Search
+# Remote Search in .NET MAUI AutoComplete
 
 The Remote Search functionality of the AutoComplete control allows you to easily take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the control.
 

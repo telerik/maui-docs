@@ -7,7 +7,7 @@ previous_url: /controls/barcode/barcode-value
 slug: barcode-valuesymbology
 ---
 
-# Value and Symbology
+# Value and Symbology in .NET MAUI Barcode
 
 Barcode exposes a `Value` property that is used to set the barcode data presented by the control. The `Value` of the barcode is of type string and the allowed length depends on the symbology you choose.
 

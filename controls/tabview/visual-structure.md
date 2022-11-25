@@ -7,7 +7,7 @@ tags: tabview, header, content, items, visualization
 position: 1
 ---
 
-# Visual Structure
+# .NET MAUI TabView Visual Structure
 
 The TabView uses a set of visual elements when rendered.
 

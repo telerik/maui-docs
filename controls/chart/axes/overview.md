@@ -7,7 +7,7 @@ previous_url: /controls/chart/axes/axes-overview
 slug: axes-overview
 ---
 
-# Overview
+# .NET MAUI Chart Axes
 
 The Cartesian Chart plots data points in a coordinate system defined by its two axes. Instead of having one axis type that does hundreds of things, axes provides a hierarchy where each concrete axis type exposes a specific functionality.
 

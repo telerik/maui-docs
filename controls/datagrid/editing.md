@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/datagrid-editing
 slug: datagrid-editing
 ---
 
-# Editing
+# .NET MAUI DataGrid Editing
 
 The DataGrid provides a built-in editing functionality, which allows the app users to easily edit the data presented in the Grid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. As soon as the user double-clicks on a certain cell, the cell is switched to an edit mode.
 

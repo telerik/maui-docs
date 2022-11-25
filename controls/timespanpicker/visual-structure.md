@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-visual-structure
 slug: timespanpicker-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI TimeSpanPicker Visual Structure
 
 This article describes all visual elements that are used in the TimeSpanPicker for .NET MAUI.
 

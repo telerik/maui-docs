@@ -6,7 +6,7 @@ position: 2
 slug: combobox-configuration
 ---
 
-# Configuration
+# Configure the .NET MAUI ComboBox
 
 The purpose of this help article is to show the basic configuration options of the ComboBox control.
 

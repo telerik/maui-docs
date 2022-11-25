@@ -8,7 +8,7 @@ previous_url: /controls/border/border-overview
 slug: border-overview
 ---
 
-# Overview
+# .NET MAUI Border Overview
 
 **Telerik UI for .NET MAUI Border** enables you to control the look and feel of the border that wraps around your MAUI views.
 

@@ -7,7 +7,7 @@ previous_url: /controls/wraplayout/wraplayout-getting-started
 slug: wraplayout-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI WrapLayout
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI WrapLayout by adding the control to your project.
 

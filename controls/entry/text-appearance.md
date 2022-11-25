@@ -7,7 +7,7 @@ previous_url: /controls/entry/entry-text-appearance
 slug: entry-text-appearance
 ---
 
-# Text Appearance
+# .NET MAUI Entry Text Appearance
 
 The Entry provides a number of settings for configuring the appearance of the text it displays such as the text input itself, adding a watermark to the text, setting the Entry in its read-only state, and so on.
 

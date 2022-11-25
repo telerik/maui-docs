@@ -7,7 +7,7 @@ previous_url: /controls/popup/popup-overview
 slug: popup-overview
 ---
 
-# Overview
+# .NET MAUI Popup Overview
 
 **Telerik UI for .NET MAUI Popup** enables you to easily add modal popups to your application and draw attention to important information or receive user input.
 

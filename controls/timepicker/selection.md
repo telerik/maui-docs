@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-selection
 slug: timepicker-selection
 ---
 
-# Selection
+# .NET MAUI TimePicker Selection
 
 The TimePicker control enables users to quickly and easily select a time value. This topic explains the TimePicker API related to time selection.
 

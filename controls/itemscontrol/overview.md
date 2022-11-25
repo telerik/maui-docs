@@ -8,7 +8,7 @@ slug: itemscontrol-overview
 previous_url: /controls/itemscontrol/itemscontrol-overview
 ---
 
-# Overview
+# .NET MAUI ItemsControl Overview
 
 **Telerik UI for .NET MAUI ItemsControl** enables you to visualize a list of items and provides full control over the way each item is rendered through the supported item template. The template can contain any view that you can use to display your data according to your design requirements.
 

@@ -6,7 +6,7 @@ position: 5
 slug: entry-commands
 ---
 
-# Commands
+# .NET MAUI Entry Commands
 
 When using Telerik UI for .NET MAUI entry control, you can use the following commands: 
 

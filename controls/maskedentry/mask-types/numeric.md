@@ -6,7 +6,7 @@ position: 3
 slug: maskedentry-numeric-mask
 ---
 
-# Numeric Mask
+# .NET MAUI Numeric Mask
 
 To validate the user input as numeric values, use the `NumericMaskedEntry`.
 

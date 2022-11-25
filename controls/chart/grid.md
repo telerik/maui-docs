@@ -6,7 +6,7 @@ slug: cartesian-chart-grid
 position: 8
 ---
 
-# Cartesian Chart Grid
+# .NET MAUI Cartesian Chart Grid
 
 The Cartesian Chart Grid represents a decoration over the plot area of `RadCartesianChart`. It adds major lines connected to each `Major` tick of each axis. You can set a new grid through the `RadCartesianChart.Grid` property.
 

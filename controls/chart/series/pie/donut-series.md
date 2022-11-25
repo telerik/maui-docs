@@ -6,7 +6,7 @@ description: Check our &quot;DonutSeries&quot; documentation article for Telerik
 position: 1
 ---
 
-# Donut Series
+# .NET MAUI Chart Donut Series
 
 The Pie Chart visualizes the Donut Series in the shape of a donut. The inner empty space is set according to the `InnerRadiusFactor` property. Each data item is visually represented by a donut slice. The ratio between the space consumed by each slice and the space consumed by the whole chart is the same as the ratio between the value of the data point that it represents and the total value of all data points in the series.
 

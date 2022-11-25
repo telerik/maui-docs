@@ -7,7 +7,7 @@ previous_url: /controls/datagrid/aggregates/PropertyAggregateDescriptor
 slug: datagrid-property-aggregate-descriptor
 ---
 
-# Property Aggregate Descriptor
+# .NET MAUI DataGrid Property Aggregate Descriptor
 
 The `PropertyAggregateDescriptor` allows you to define a property and a function that are applied over the property values of the DataGrid, which accumulates an aggregated result based on the component data.
 

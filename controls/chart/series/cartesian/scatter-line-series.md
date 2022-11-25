@@ -6,7 +6,7 @@ slug: chart-series-scatter-line-series
 position: 0
 ---
 
-# ScatterLine Series
+# .NET MAUI Chart ScatterLine Series
 
 The ScatterLine Series are represented on the chart as data points connected with straight line segments. The ScatterLine Series inherit from the `[ScatterPointSeries]()` class and also require both axes of the chart to be Numerical Axes.
 

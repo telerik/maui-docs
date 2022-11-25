@@ -8,7 +8,7 @@ slug: datagrid-column-footer
 ---
 
 
-# Column Footers
+# .NET MAUI DataGrid Column Footers
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 

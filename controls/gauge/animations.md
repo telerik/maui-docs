@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-animations
 slug: gauge-animations
 ---
 
-# Animations
+# .NET MAUI Gauge Animations
 
 All Gauge indicators are animated upon initial load and upon value change. The animations are enabled by default.
 

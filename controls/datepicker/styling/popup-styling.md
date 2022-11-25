@@ -6,7 +6,7 @@ position: 1
 slug: datepicker-popup-styling
 ---
 
-# Popup Styling
+# .NET MAUI DatePicker Popup Styling
 
 By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the DatePicker, you can modify the appearance of the dialog (popup). 
 

@@ -6,7 +6,7 @@ position: 7
 slug: combobox-events
 ---
 
-# Events
+# .NET MAUI ComboBox Events
 
 ComboBox for .NET MAUI exposes the following events:
 

@@ -6,7 +6,7 @@ position: 9
 slug: dataform-validation
 ---
 
-# Validation
+# .NET MAUI DataForm Validation
 
 .NET MAUI DataForm provides built-in validation, which gives you full control over the data collected through the control. 
 

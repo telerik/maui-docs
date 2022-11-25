@@ -6,7 +6,7 @@ slug: chart-series-scatter-spline-series
 position: 0
 ---
 
-# ScatterSpline Series
+# .NET MAUI Chart ScatterSpline Series
 
 The ScatterSpline Series are represented on the chart as data points connected with curved line segments. The ScatterSpline Series inherit from the [`ScatterPointSeries`]({% slug chart-series-scatter-point-series %}) class and also require both axes of the chart to be Numerical Axes.
 

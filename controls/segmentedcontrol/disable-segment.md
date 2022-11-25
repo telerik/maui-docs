@@ -6,7 +6,7 @@ position: 3
 slug: segmentedcontrol-disable-segment
 ---
 
-# Disabled Segments
+# Disabling Segments in .NET MAUI SegmentedControl
 
 The SegmentedControl allows you to disable each of its segments individually.
 

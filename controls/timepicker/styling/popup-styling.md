@@ -6,7 +6,7 @@ position: 1
 slug: timepicker-popup-styling
 ---
 
-# Popup Styling
+# .NET MAUI TimePicker Popup Styling
 
 By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the TimePicker, you can modify the appearance of the dialog (popup).
 

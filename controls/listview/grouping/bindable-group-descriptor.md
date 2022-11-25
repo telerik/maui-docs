@@ -8,7 +8,7 @@ previous_url: /controls/listview/grouping/listview-bindable-group-descriptor
 tags: group, radlistview, groupdescriptor
 ---
 
-# Bindable GroupDescriptor
+# .NET MAUI ListView Bindable GroupDescriptor
 
 The GroupDescriptor collection now can be controlled by users using MVVM.
 

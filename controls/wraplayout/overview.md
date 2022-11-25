@@ -7,7 +7,7 @@ previous_url: /controls/wraplayout/wraplayout-overview
 slug: wraplayout-overview
 ---
 
-# Overview
+# .NET MAUI WrapLayout Overview
 
 **Telerik UI for .NET MAUI WrapLayout** provides a mechanism for arranging child elements in rows or columns depending on the `Orientation` property. When the available space is filled, the control wraps these elements on а new row or column.
 

@@ -7,7 +7,7 @@ previous_url: /controls/barcode/barcode-getting-started
 slug: barcode-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI Barcode control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Barcode by adding the control to your project.
 

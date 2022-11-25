@@ -6,7 +6,7 @@ position: 4
 slug: rating-shape-rating
 ---
 
-# Shape Rating
+# .NET MAUI Shape Rating
 
 The `RadShapeRating` component is designed for the simplest scenarios where an ordinary Rating component is required. `RadShapeRating` allows easy customization of the colors and shape of the default rating item.
 

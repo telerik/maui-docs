@@ -6,7 +6,7 @@ position: 0
 slug: datagrid-aggregates
 ---
 
-# Overview
+# .NET MAUI DataGrid Aggregates
 
 The DataGrid exposes an Aggregates API through the `DataGridColumn.AggregateDescriptors` property where you can add PropertyAggregateDescriptors or DelegateAggregateDescriptors.
 

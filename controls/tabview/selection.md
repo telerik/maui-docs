@@ -7,7 +7,7 @@ tags: tabview, selection, selected item, .net maui
 position: 7
 ---
 
-# Selection
+# Selection in .NET MAUI TabView
 
 **Telerik TabView for .NET MAUI** exposes properties that help you work with the item selection: 
 

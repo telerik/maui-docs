@@ -7,7 +7,7 @@ previous_url: /controls/busyindicator/busyindicator-custom-busy-content
 slug: busyindicator-custom-busy-content
 ---
 
-# Content
+# .NET MAUI BusyIndicator Content
 
 This article explains the content options of the BusyIndicator when the control is and isn't in a busy state.
 

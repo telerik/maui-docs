@@ -6,7 +6,7 @@ position: 7
 slug: maskedentry-validation
 ---
 
-# Validation Message
+# .NET MAUI MaskedEntry Validation Message
 
 The Telerik MaskedEntry for .NET MAUI provides a built-in validation message. If the user is entering an input that does not match the mask requirements, the MaskedEntry will display an error message.
 

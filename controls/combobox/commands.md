@@ -6,7 +6,7 @@ position: 8
 slug: combobox-commands
 ---
 
-# Commands
+# .NET MAUI ComboBox Commands
 
 ComboBox has the following commands:
 

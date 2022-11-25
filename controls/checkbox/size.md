@@ -6,7 +6,7 @@ position: 3
 slug: checkbox-size
 ---
 
-# Size
+# .NET MAUI CheckBox Size
 
 The CheckBox provides options for setting its height and width.
 

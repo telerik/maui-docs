@@ -7,7 +7,7 @@ tags: tabview, templates, customization
 position: 14
 ---
 
-# Templates
+# .NET MAUI TabView Templates
 
 The TabView provides set of templates for its elements. If you want to fully change the TabView appearance you can use the provided templates: 
 

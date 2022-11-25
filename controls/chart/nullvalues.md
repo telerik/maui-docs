@@ -8,7 +8,7 @@ previous_url: /controls/chart/chart-nullvalues
 slug: chart-nullvalues
 ---
 
-# Null Values
+# Null Values Support in .NET MAUI Chart
 
 In many scenarios some of the data points that are visualized in the Chart contain empty or null values. These are the cases when data is not available for some records from the used dataset.
 

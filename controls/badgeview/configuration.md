@@ -6,7 +6,7 @@ position: 3
 slug: badgeview-configuration
 ---
 
-# Configuration
+# Configure the .NET MAUI BadgeView
 
 This article demonstrates the main configuration options of the Telerik UI for .NET MAUI BadgeView control.
 

@@ -8,7 +8,7 @@ previous_url: /controls/listview/grouping/listview-grouping-multilevel
 tags: group, radlistview, groupdescriptor, multilevel
 ---
 
-# Multi-Level Grouping
+# .NET MAUI ListView Multi-Level Grouping
 
 This article provides an overview on how you could enable multi-level grouping in the ListView.
 

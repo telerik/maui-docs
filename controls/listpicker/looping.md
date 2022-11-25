@@ -7,7 +7,7 @@ previous_url: /controls/listpicker/listpicker-looping
 slug: listpicker-looping
 ---
 
-# Looping
+# .NET MAUI ListPicker Looping
 
 The ListPicker for .NET MAUI provides a looping functionality which allows you to loop the list of items after reaching the last item.
 

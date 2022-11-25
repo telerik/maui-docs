@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-formatting
 slug: timepicker-formatting
 ---
 
-# Time Formatting
+# .NET MAUI Time Formatting
 
 The TimePicker for .NET MAUI allows you to use standard or custom time format strings.
 

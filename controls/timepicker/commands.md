@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-commands
 slug: timepicker-commands
 ---
 
-# Commands
+# .NET MAUI TimePicker Commands
 
 The Telerik UI for .NET MAUI TimePicker exposes a number of commands for programmatic manipulation of its popup rendering.
 

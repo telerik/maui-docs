@@ -6,7 +6,7 @@ position: 2
 slug: path-structure
 ---
 
-# PathGeometry
+# .NET MAUI Path Geometry
 
 To create a specific Path, you need to set a `RadPathGeometry` object to its `Geometry` property. The `RadPathGeometry` object exposes a `Figures` property which is a collection of `RadPathFigures`.
 

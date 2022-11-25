@@ -6,7 +6,7 @@ position: 1
 slug: datagrid-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI DataGrid
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DataGrid by adding the control to your project.
 

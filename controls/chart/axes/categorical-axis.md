@@ -7,7 +7,7 @@ position: 2
 previous_url: /controls/chart/axes/axes-categorical-axis
 ---
 
-# Categorical Axis
+# .NET MAUI Chart Categorical Axis
 
 When the Cartesian Chart visualizes Categorical Series, it needs an axis that can represents the different categories. Categories are built depending on the `CategoryBinding` value of each categorical data point in the owning Categorical Series. The axis is divided into discrete slots and each data point is visualized in the slot corresponding to its categorical value.
 

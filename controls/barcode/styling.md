@@ -7,7 +7,7 @@ previous_url: /controls/barcode/barcode-styling
 slug: barcode-styling
 ---
 
-# Styling
+# .NET MAUI Barcode Styling
 
 The Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
 

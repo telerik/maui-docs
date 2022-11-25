@@ -6,7 +6,7 @@ position: 4
 slug: maskedentry-regex-mask
 ---
 
-# Regex Mask
+# .NET MAUI Regex Mask
 
 To validate the user input as a standard (alphanumeric) user input against a regular expression, use the `RegexMaskedEntry`, which provides errors if the regular expression (regex) rule is not matched. The resulting value is a string.
 

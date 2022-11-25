@@ -6,7 +6,7 @@ position: 1
 slug: path-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI Path
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Path by adding the control to your project.
 

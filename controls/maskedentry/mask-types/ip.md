@@ -6,7 +6,7 @@ position: 5
 slug: maskedentry-ip-mask
 ---
 
-# IP Mask
+# .NET MAUI IP Mask
 
 To validate the user input as an IP Address input, use the `IPMaskedEntry`. The resulting value is a string object.
 

@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-default-dates
 slug: datepicker-default-dates
 ---
 
-# Default Dates
+# .NET MAUI DatePicker Default Dates
 
 You can define preselected dates both in the DatePicker (the selected date) and in the spinner (the highlighted date).
 

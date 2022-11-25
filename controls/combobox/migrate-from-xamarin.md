@@ -6,7 +6,7 @@ position: 2
 slug: combobox-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms
+# Migrate from Xamarin.Forms ComboBox to .NET MAUI ComboBox
 
 Compared API changes in Xamarin.Forms ComboBox and .NET MAUI ComboBox are described in the table below:
 

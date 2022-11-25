@@ -6,7 +6,7 @@ position: 1
 slug: expander-getting-started
 ---
 
-# .NET MAUI Expander Getting Started
+# Getting Started with .NET MAUI Expander
 
 This article will guide you through the steps needed to add a basic `RadExpander` control in your application.
 

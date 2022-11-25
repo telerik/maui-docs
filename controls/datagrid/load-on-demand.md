@@ -6,7 +6,7 @@ position: 8
 slug: datagrid-features-loadondemand
 ---
 
-# Load On Demand
+# .NET MAUI DataGrid Load On Demand
 
 In specific cases you may need to load data in the `RadDataGrid` when the control is already displayed as this can improve the performance and save computing resources. Loading a large data set on a mobile device has its challenges. One of the most popular approaches is using incremental data loading the moment the items need to be visualized.
 

@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-customization
 slug: numericinput-customization
 ---
 
-# Customization Options
+# .NET MAUI NumericInput Customization Options
 
 This article will guide you through all customizations options that NumericInput control provides.
 

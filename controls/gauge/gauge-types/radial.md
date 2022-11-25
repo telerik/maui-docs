@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-types/gauge-types-radial
 slug: gauge-types-radial
 ---
 
-# Radial Gauge
+# .NET MAUI Radial Gauge
 
 The Radial Gauge allows you to display the scale range in a radial form.
 

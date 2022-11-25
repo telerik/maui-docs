@@ -6,7 +6,7 @@ position: 9
 slug: templatedpicker-styling
 ---
 
-# Styling
+# .NET MAUI TemplatedPicker Styling
 
 The TemplatedPicker control for .NET MAUI provides styling options for customizing its appearance.  You can style the TemplatedPicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug templatedpicker-picker-mode%}) setting.
 

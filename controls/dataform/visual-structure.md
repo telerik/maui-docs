@@ -6,7 +6,7 @@ position: 1
 slug: dataform-visual-structure
 ---
 
-# Visual Structure
+# .NET MAUI DataForm Visual Structure
 
 The DataForm for .NET MAUI uses a set of visual elements when rendered.
 

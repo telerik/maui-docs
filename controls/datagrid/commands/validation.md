@@ -6,7 +6,7 @@ position: 3
 slug: datagrid-commands-validation
 ---
 
-# Validation Command
+# .NET MAUI DataGrid Validation Command
 
 The DataGrid control provides a validation command that has an entry point for validating cells content. The execution parameter is of type `ValidateCellContext` and exposes the following properties:
 

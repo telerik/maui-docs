@@ -7,7 +7,7 @@ previous_url: /controls/rating/rating-read-only-mode
 slug: rating-read-only-mode
 ---
 
-# Read-Only Mode
+# Read-Only Mode for .NET MAUI Rating
 
 The Rating control supports a read-only mode in which the end user cannot change its `Value` (the number of the selected items). You can enable the read-only mode through `IsReadOnly` property.
 

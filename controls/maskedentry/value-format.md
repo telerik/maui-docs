@@ -6,7 +6,7 @@ position: 5
 slug: maskedentry-value-format
 ---
 
-# Value Format
+# .NET MAUI MaskedEntry Value Format
 
 The Telerik MaskedEntry for .NET MAUI allows you to set the behavior of the `Value` property in a mask scenario (when the `Mask` property is set). By default, the `Value` holds the characters without including the prompt characters and the literals defined in the mask.
 

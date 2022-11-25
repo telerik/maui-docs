@@ -6,7 +6,7 @@ position: 0
 slug: datagrid-columns-text-column
 ---
 
-# DataGrid TextColumn
+# .NET MAUI DataGrid TextColumn
 
 A `DataGridTextColumn` converts the content of each associated cell to a `System.String` object.
 

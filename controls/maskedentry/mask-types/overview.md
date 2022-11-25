@@ -6,7 +6,7 @@ position: 1
 slug: maskedentry-masked-types
 ---
 
-# Mask Types
+# Mask Types in .NET MAUI MaskedEntry
 
 The MaskedEntry provides separate masked entry controls which can handle different types of user input. They all inherit from a common `RadMaskedEntryBase` class.
 

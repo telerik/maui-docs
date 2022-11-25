@@ -6,7 +6,7 @@ slug: chart-series-orientation
 position: 0
 ---
 
-# Categorical Series Orientation
+# .NET MAUI Chart Categorical Series Orientation
 
 The orientation of the series depends on which chart axis is horizontal and which one is vertical.
 

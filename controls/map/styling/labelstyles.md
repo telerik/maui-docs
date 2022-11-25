@@ -6,7 +6,7 @@ position: 0
 slug: map-styling-labelstyles
 ---
 
-# Label Styling
+# .NET MAUI Map Label Styling
 
 The Map `ShapefileLayer` has a `ShapeLabelStyle` property that is of `MapShapeLabelStyle` type and defines the style of the labels.
 

@@ -6,7 +6,7 @@ position: 6
 slug: map-selection
 ---
 
-# Selection
+# .NET MAUI Map Selection
 
 The Map allows users to select one or many shapes out of the source applied by each ShapefileLayer. This feature provides both visual and programmatic feedback for the actions of the user. 
 

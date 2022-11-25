@@ -6,7 +6,7 @@ position: 0
 slug: map-overview
 ---
 
-# Overview
+# .NET MAUI Map Overview
 
 **Telerik Map for .NET MAUI** is a data visualization control whose primary purpose is to visualize rich spatial data. The control provides visualization of ESRI shapefiles that consist of geometric objects, such as lines, polylines and polygons. Such objects are commonly used to display various schemes, for example floor plans and seats distribution, all the way to parts of maps for countries, roads, rivers, etc.
 

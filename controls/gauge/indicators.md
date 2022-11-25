@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-indicators
 slug: gauge-indicators
 ---
 
-# Indicators
+# .NET MAUI Gauge Indicators
 
 The Gauge indicators are elements that display data-related values in a different manner.
 

@@ -8,7 +8,7 @@ previous_url: /controls/chart/chart-getting-started
 slug: chart-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI Chart
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Chart by adding the control to your project.
 

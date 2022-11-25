@@ -7,7 +7,7 @@ previous_url: /controls/path/path-overview
 slug: path-overview
 ---
 
-# Overview
+# .NET MAUI Path Overview
 
 **Telerik UI for .NET MAUI Path** is a control which can be used to draw complex shapes that are composed of different geometries like arcs, ellipses, lines, and rectangles.
 

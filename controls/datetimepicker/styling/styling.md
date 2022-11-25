@@ -6,7 +6,7 @@ position: 0
 slug: datetimepicker-styling
 ---
 
-# DateTimePicker Styling
+# .NET MAUI DateTimePicker Styling
 
 The DateTimePicker control for .NET MAUI provides styling options for customizing its appearance. You can style the DateTimePicker itself, as well as its popup or dropdown depending on the [PickerMode]({%slug datetimepicker-picker-mode%}) setting.
 

@@ -6,7 +6,7 @@ position: 2
 slug: listpicker-popup-styling
 ---
 
-# Popup Styling
+# .NET MAUI ListPicker Popup Styling
 
 By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the ListPicker, you can modify the appearance of the dialog (popup). The `PickerPopupSettings` class exposes the following `Style` properties:
 

@@ -6,7 +6,7 @@ position: 4
 slug: datetimepicker-localization
 ---
 
-# Date and Time Picker Localization
+# .NET MAUI DateTimePicker Localization
 
 Telerik UI for .NET MAUI DateTimePicker provides language localization. In short, you can translate the used across the Date and Time Picker texts to other languages, so that your app can be adapted to different regions.
 

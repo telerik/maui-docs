@@ -6,7 +6,7 @@ position: 6
 slug: datetimepicker-templates
 ---
 
-# Templates
+# .NET MAUI DateTimePicker Templates
 
 The DateTimePicker provides a set of templates for customizing its elements.
 

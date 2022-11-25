@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-templates
 slug: timespanpicker-templates
 ---
 
-# Templates
+# .NET MAUI TimeSpanPicker Templates
 
 If the default templates of the control do not suit your needs, you can easily define custom ones.
 

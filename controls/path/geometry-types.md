@@ -6,7 +6,7 @@ position: 3
 slug: geometry-types
 ---
 
-# Geometry Types
+# .NET MAUI Path Geometry Types
 
 The Path provides a set of preconfigured geometry types and enables you to set custom geometries as well.
 

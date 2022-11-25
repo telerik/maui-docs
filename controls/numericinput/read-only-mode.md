@@ -7,7 +7,7 @@ previous_url: /controls/numericinput/numericinput-read-only-mode
 slug: numericinput-read-only-mode
 ---
 
-# Read-Only Mode
+# .NET MAUI NumericInput Read-Only Mode
 
 The NumericInput supports read-only mode in which the end user cannot type into the input field. Updating the value is possible only through the **Increase** and **Decrease** buttons.
 

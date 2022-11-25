@@ -7,7 +7,7 @@ previous_url: /controls/busyindicator/busyindicator-integrate-with-listview
 slug: busyindicator-integrate-with-listview
 ---
 
-# ListView Integration
+# .NET MAUI BusyIndicator Integration with ListView
 
 The Telerik BusyIndicator for .NET MAUI is useful when you want to display a notification to the end users of the application while a long-running operation, such as loading data from a service, is currently in progress.
 

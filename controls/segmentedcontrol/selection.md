@@ -7,7 +7,7 @@ tags: selection
 position: 2
 ---
 
-# Selection
+# Selection in .NET MAUI SegmentedControl
 
 The SegmentedControl exposes properties, which can help you work with the items selection.
 

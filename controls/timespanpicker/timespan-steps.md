@@ -7,7 +7,7 @@ previous_url: /controls/timespanpicker/timespanpicker-timespan-steps
 slug: timespanpicker-timespan-steps
 ---
 
-# Incremental Time Steps
+# .NET MAUI TimeSpanPicker Incremental Time Steps
 
 By default, the TimeSpanPicker increments each part of its time values by one step.
 

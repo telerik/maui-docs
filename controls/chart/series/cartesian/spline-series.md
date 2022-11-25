@@ -6,7 +6,7 @@ slug: chart-series-spline-series
 position: 0
 ---
 
-# Spline Series
+# .NET MAUI Chart Spline Series
 
 The Cartesian Chart visualizes each data item from the Line Series and connects them with curved line segments. The Spline Series extend the [Line Series]({% slug chart-series-line-series %}), so they are also Categorical Series and require one Categorical Axis and one Numerical Axis.
 

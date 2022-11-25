@@ -7,7 +7,7 @@ previous_url: /controls/barcode/barcode-sizing
 slug: barcode-sizingmodes
 ---
 
-# Sizing Modes
+# Sizing Modes for .NET MAUI Barcode
 
 The Barcode provides three sizing modes that enable you to fine-tune the rendering of your codes.
 

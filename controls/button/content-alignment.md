@@ -7,7 +7,7 @@ tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net mau
 slug: button-content-alignment
 ---
 
-# Content Alignment
+# Content Alignment in .NET MAUI Button
 
 The Button enables you to set the positioning of its content.
 

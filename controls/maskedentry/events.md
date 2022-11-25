@@ -7,7 +7,7 @@ previous_url: /controls/maskedentry/maskedentry-events
 slug: maskedentry-events
 ---
 
-# Events
+# .NET MAUI MaskedEntry Events
 
 The MaskedEntry exposes a set of events.
 

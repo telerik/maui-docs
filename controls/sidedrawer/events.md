@@ -6,7 +6,7 @@ position: 4
 slug: sidedrawer-features-events
 ---
 
-# Events
+# .NET MAUI SideDrawer Events
 
 SideDrawer exposes the following events
 

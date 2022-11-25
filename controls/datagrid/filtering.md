@@ -6,7 +6,7 @@ position: 5
 slug: datagrid-filtering-overview
 ---
 
-# Filtering
+# .NET MAUI DataGrid Filtering
 
 The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) and [programmatic filtering](#programmatic-filtering).
 

@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-getting-started
 slug: datepicker-getting-started
 ---
 
-# Getting Started
+# Getting Started with .NET MAUI DatePicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DatePicker by adding the control to your project.
 

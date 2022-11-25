@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-overview
 slug: timepicker-overview
 ---
 
-# Overview
+# .NET MAUI TimePicker Overview
 
 **Telerik UI for .NET MAUI TimePicker** provides a convenient way for users to select a time and visualizes its items inside a popup or a dropdown.
 

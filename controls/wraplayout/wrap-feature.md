@@ -7,7 +7,7 @@ previous_url: /controls/wraplayout/wraplayout-wrap-feature
 slug: wraplayout-wrap-feature
 ---
 
-# Wrap Functionality
+# .NET MAUI Wrap Functionality for WrapLayout control
 
 The WrapLayout is a layout container that lets you position items in rows or columns based on the `Orientation` property. When the space is filled, the container automatically wraps items onto a new row or column.
 

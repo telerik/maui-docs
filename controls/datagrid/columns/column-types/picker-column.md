@@ -6,7 +6,7 @@ position: 5
 slug: datagrid-columns-picker-column
 ---
 
-# DataGrid ComboBoxColumn  
+# .NET MAUI DataGrid ComboBoxColumn  
 
 The `DataGridComboBoxColumn` uses the Telerik Ui for .NET MAUI [ComboBox control]({%slug combobox-overview%}) in Edit mode to select a value from a list.
 

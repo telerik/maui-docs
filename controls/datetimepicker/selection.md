@@ -6,7 +6,7 @@ position: 5
 slug: datetimepicker-selection
 ---
 
-# Selection
+# .NET MAUI DateTimePicker Selection
 
 The DateTimePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
 

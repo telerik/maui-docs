@@ -6,7 +6,7 @@ position: 9
 slug: datagrid-current-cell
 ---
 
-# Current Cell
+# .NET MAUI DataGrid Current Cell
 
 DataGrid control gives you the option to define the current cell using the `CurrentCell`(of type `DataGridCellInfo`) property. You can modify the current cell programmatically, during a keyboard navigation, using a mouse, etc. 
 

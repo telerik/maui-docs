@@ -6,7 +6,7 @@ position: 2
 slug: templatedpicker-dropdown-styling
 ---
 
-# DropDown Styling
+# .NET MAUI TemplatedPicker DropDown Styling
 
 By using the `DropDownSettings` property (of type `Telerik.XamarinForms.Input.PickerDropDownSettings`) of the TemplatedPicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
 

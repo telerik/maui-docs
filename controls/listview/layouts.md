@@ -7,7 +7,7 @@ previous_url: /controls/listview/listview-features-layouts
 slug: listview-features-layouts
 ---
 
-# Layouts
+# .NET MAUI ListView Layouts
 
 The ListView control supports two layouts: linear and grid through its `LayoutDefinition` property. It accepts values of type `ListViewLayoutBase` which is a base class for all list view layouts.
 
