@@ -1,6 +1,6 @@
 ---
 title: Picker Editors
-page_title: .NET MAUI DataForm Documentation | Picker Editors
+page_title: .NET MAUI DataForm Documentation - Picker Editors
 description: "Check our &quot;Picker Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
 position: 2
 slug: dataform-picker-editors

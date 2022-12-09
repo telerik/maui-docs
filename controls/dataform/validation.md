@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: .NET MAUI DataForm Documentation | Validation
+page_title: .NET MAUI DataForm Documentation - Validation
 description: "Check the &quot;Validation&quot; possibilities which Telerik DataForm for .NET MAUI control provides."
 position: 9
 slug: dataform-validation

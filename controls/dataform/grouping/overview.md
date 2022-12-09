@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DataForm Documentation | Grouping
+page_title: .NET MAUI DataForm Documentation - Grouping
 description: "Check our &quot;Grouping&quot; documentation article for Telerik DataForm for .NET MAUI control."
 position: 0
 slug: dataform-grouping
