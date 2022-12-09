@@ -1,6 +1,6 @@
 ---
 title: Header Styling
-page_title: .NET MAUI DataForm Documentation | Header Styling
+page_title: .NET MAUI DataForm Documentation - Header Styling
 description: "Review the available Styling options which DataForm for .NET MAUI control provides for its editors'."
 position: 5
 slug: dataform-header-styling

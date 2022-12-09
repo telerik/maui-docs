@@ -1,6 +1,6 @@
 ---
 title: VerticalStackLayout
-page_title: .NET MAUI DataForm Documentation | VerticalStackLayout
+page_title: .NET MAUI DataForm Documentation - VerticalStackLayout
 description: "Review the .NET MAUI DataForm &quot;VerticalStackLayout&quot; option."
 position: 1
 slug: dataform-layouts-verticalstack

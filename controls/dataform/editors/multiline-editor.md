@@ -1,6 +1,6 @@
 ---
 title: Multiline Editors
-page_title: .NET MAUI DataForm Documentation | Multiline Editors
+page_title: .NET MAUI DataForm Documentation - Multiline Editors
 description: "Check our &quot;Multiline Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
 position: 4
 slug: dataform-multiline-editors

@@ -29,3 +29,31 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | -  | DataFormCustomLayout  |
 | DataFormGroupGridLayoutDefinition  | DataFormGridLayout |
 | -  | DataFormCustomLayout |
+
+## Editors
+
+Telerik Xamarin.Forms DataForm control uses native editors while in the .NET MAUI DataForm editors the main controls used are from Telerik .NET MAUI and .NET MAUI. 
+
+Compared editors are displayed in the table below:
+
+| Xamarin DataForm | .NET MAUI DataForm |
+| ------------- | --------------- |
+| TextEditor | DataFormRadEntryEditor |
+| SliderEditor | - |
+| - | DataFormRadComboBoxEditor |
+| - | DataFormRadEntryPasswordEditor |
+| - | DataFormRadTextMaskedEditor |
+| - | DataFormRadNumericMaskedEditor |
+| - | DataFormRadEmailMaskedEditor |
+| - | DataFormRadRegexMaskedEditor |
+| IntegerEditor | - |
+| DecimalEditor | DataFormRadNumericEditor |
+| NumberPickerEditor | - |
+| CheckBoxEditor | DataFormRadCheckBoxEditor |
+| ToggleButtonEditor | DataFormSwitchEditor |
+| SegmentedEditor | DataFormRadSegmentedEditor |
+| DataFormGroupStackLayoutDefinition | DataFormVerticalStackLayout |
+| DateEditor  | DataFormRadDatePickerEditor, DataFormDatePickerEditor |
+| TimeEditor  | DataFormRadTimePickerEditor, DataFormTimePickerEditor  |
+| -  | RadDateTimePickerEditor  |
+| CustomEditor  | - |

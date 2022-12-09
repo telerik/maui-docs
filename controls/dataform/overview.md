@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI DataForm Documentation | Overview
+page_title: .NET MAUI DataForm Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik .NET MAUI DataForm control.
 position: 0
 slug: dataform-overview

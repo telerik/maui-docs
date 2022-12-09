@@ -1,6 +1,6 @@
 ---
 title: CustomLayout
-page_title: .NET MAUI DataForm Documentation | CustomLayout
+page_title: .NET MAUI DataForm Documentation - CustomLayout
 description: "Review the .NET MAUI DataForm &quot;CustomLayout&quot; option."
 position: 4
 slug: dataform-layouts-custom
