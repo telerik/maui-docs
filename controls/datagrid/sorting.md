@@ -31,16 +31,15 @@ You can sort the data in a DataGrid by pointing a property from the class that d
 * `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
 
 ```XAML
-<telerikDataGrid:RadDataGrid.SortDescriptors>
-	<telerikCommon:PropertySortDescriptor PropertyName="Name"/>
-</telerikDataGrid:RadDataGrid.SortDescriptors>
+<telerik:RadDataGrid.SortDescriptors>
+	<telerik:PropertySortDescriptor PropertyName="Name"/>
+</telerik:RadDataGrid.SortDescriptors>
 ```
 
-In the example, the used namespaces are defined like this:
+The `telerik` namespace is defined as:
 
 ```XAML
-xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.Maui.Controls.Compatibility"
-xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ### Delegate Sort Descriptor
@@ -58,7 +57,7 @@ The following example demonstrates a custom `IKeyLookup` implementation.
 
 <snippet id='datagrid-delegatesortdescriptor-ikeylookup'/>
 ```C#
-public class CustomIKeyLookup : IKeyLookup
+public class CustomIKeyLookup : Telerik.Maui.Controls.Compatibility.Common.Data.IKeyLookup
 {
 	public object GetKey(object instance)
 	{

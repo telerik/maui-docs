@@ -31,7 +31,7 @@ Here is an example how you could utilize the nested properties feature in DataGr
 In the sample both classes inherit from NotifyPropertyChangedBase class which basically implements the INotifyPropertyChanged interface. You would need to add the following namespace to use it:
 
  ```C#
-using Telerik.XamarinForms.Common;
+using Telerik.Maui.Controls.Compatibility.Common;
  ```
 
 1. Create a ViewModel with a collection of `Person` objects:

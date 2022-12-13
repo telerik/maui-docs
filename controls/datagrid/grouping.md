@@ -18,11 +18,17 @@ Programmatic grouping can be done by adding descriptors to the `GroupDescriptors
 * [PropertyGroupDescriptor](#property-group-descriptor)&mdash;Uses a property from the model as a group key.
 * [DelegateGroupDescriptor](#delegate-group-descriptor)&mdash;Creates a custom group key which you can use.
 
-All `GroupDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
+All `GroupDescriptors` are located in the `telerik` namespace:
 
 ```XAML
- xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common.Data;assembly=Telerik.Maui.Controls.Compatibility"
+ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+or if using C#, add a using statement `Telerik.Maui.Controls.Compatibility.Common.Data`.
+
+```CSHARP
+using Telerik.Maui.Controls.Compatibility.Common.Data;
+``
 
 ### Property Group Descriptor
 
@@ -52,7 +58,7 @@ All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 Apply the `PropertyGroupDescriptor`:
 
 ```C#
-this.dataGrid.GroupDescriptors.Add(new Telerik.XamarinForms.Common.Data.PropertyGroupDescriptor()
+this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Compatibility.Common.Data.PropertyGroupDescriptor()
 {
     PropertyName="Department"
 });
