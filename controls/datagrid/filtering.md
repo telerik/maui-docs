@@ -10,7 +10,6 @@ slug: datagrid-filtering-overview
 
 The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) and [programmatic filtering](#programmatic-filtering).
 
-
 ## Filtering UI
 
 > On Mobile (iOS and Android) Filtering UI appears when clicking the options icon (**OptionsButton**, three dots) on each column's header and it allows the user to easily filter data by column values.
@@ -40,7 +39,7 @@ Events related to DistinctValuesFilter:
 
 The Telerik DataGrid allows you to apply filtering to the datagrid column using the FilterControlTemplate property.
 
-* **FilterControlTemplate**(DataTemplate): Specifies the user defined template used for Filtering UI. The template must contain an instance of the Telerik.XamarinForms.DataGrid.DataGridFilterControlBase class
+* **FilterControlTemplate**(DataTemplate): Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class
 
 ## Programmatic Filtering
 
@@ -48,20 +47,33 @@ Programmatic filtering is achieved by adding different filter descriptors in the
 
 The following descriptor types are supported:
 
-* [TextFilterDescriptor](#text-filter-descriptor)
-* [NumericalFilterDescriptor](#numerical-filter-descriptor)
-* [DateTimeFilterDescriptor](#datetime-filter-descriptor)
-* [TimeSpanFilterDescriptor](#timespan-filter-descriptor)
-* [BooleanFilterDescriptor](#boolean-filter-descriptor)
-* [NestedPropertyTextFilterDescriptor](#nested-property-text-filter-descriptor)
-* [DistinctValuesFilterDescriptor](#distinct-values-filter-descriptor)
-* [CompositeFilterDescriptor](#composite-filter-descriptor)
-* [DelegateFilterDescriptor](#delegate-filter-descriptor)
+- [.NET MAUI DataGrid Filtering](#net-maui-datagrid-filtering)
+  - [Filtering UI](#filtering-ui)
+  - [FilterControl Template](#filtercontrol-template)
+  - [Programmatic Filtering](#programmatic-filtering)
+    - [Text Filter Descriptor](#text-filter-descriptor)
+    - [Numerical Filter Descriptor](#numerical-filter-descriptor)
+    - [DateTime Filter Descriptor](#datetime-filter-descriptor)
+    - [TimeSpan Filter Descriptor](#timespan-filter-descriptor)
+    - [Boolean Filter Descriptor](#boolean-filter-descriptor)
+    - [Nested Property Text Filter Descriptor](#nested-property-text-filter-descriptor)
+    - [Distinct Values Filter Descriptor](#distinct-values-filter-descriptor)
+    - [Composite Filter Descriptor](#composite-filter-descriptor)
+    - [Delegate Filter Descriptor](#delegate-filter-descriptor)
+  - [See Also](#see-also)
 
-All `FilterDescriptors` are located in the `Telerik.XamarinForms.Common.Data` namespace:
+All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+
+When using C#, you'll need to add the using statement
 
 ```C#
-using Telerik.XamarinForms.Common.Data;
+using Telerik.Maui.Controls.Compatibility.Common.Data;
+```
+
+Alternatively, if using XAML, they're be resolved through the same `telerik` xmlns:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ### Text Filter Descriptor
@@ -75,12 +87,12 @@ The `TextFilterDescriptor` supports the following properties:
 
 To use `TextFilterDescriptor`, you need to add its instance to the `RadDataGrid.FilterDescriptors` collection and to set its `PropertyName` property to associate it with the property from your custom objects. Then, through the `Operator` and `Value` properties, you need to set the filter condition and the value to compare. You can also use the `IsCaseSensitive` property to determine if the text comparisons will be case-sensitive or not.
 
-<snippet id='datagrid-textfilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-textfilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:TextFilterDescriptor PropertyName="Country"
-                             Operator="StartsWith"
-                             IsCaseSensitive="False"
-                             Value="En"/>
+<telerik:TextFilterDescriptor PropertyName="Country"
+                              Operator="StartsWith"
+                              IsCaseSensitive="False"
+                              Value="En"/>
 ```
 
 ### Numerical Filter Descriptor
@@ -93,11 +105,11 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<snippet id='datagrid-numericalfilterdecsriptor-xaml'/>
+<!-- <snippet id='datagrid-numericalfilterdecsriptor-xaml'/> -->
 ```XAML
-<telerikCommon:NumericalFilterDescriptor PropertyName="StadiumCapacity"
-                                  Operator="IsLessThan"
-                                  Value="80000"/>
+<telerik:NumericalFilterDescriptor PropertyName="StadiumCapacity"
+                                   Operator="IsLessThan"
+                                   Value="80000"/>
 ```
 
 ### DateTime Filter Descriptor
@@ -110,11 +122,11 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:DateTimeFilterDescriptor PropertyName="Established"
-                                 Operator="IsLessThan"
-                                 Value="1900/01/01"/>
+<telerik:DateTimeFilterDescriptor PropertyName="Established"
+                                  Operator="IsLessThan"
+                                  Value="1900/01/01"/>
 ```
 
 ### TimeSpan Filter Descriptor
@@ -127,11 +139,11 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:TimeSpanFilterDescriptor PropertyName="Time"
-                                 Operator="IsLessThan"
-                                 Value="22/11/21"/>
+<telerik:TimeSpanFilterDescriptor PropertyName="Time"
+                                  Operator="IsLessThan"
+                                  Value="22/11/21"/>
 ```
 
 ### Boolean Filter Descriptor
@@ -143,10 +155,10 @@ It exposes the following properties:
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 
-<snippet id='datagrid-booleanfilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-booleanfilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:BooleanFilterDescriptor PropertyName="IsChampion"
-                                Value="true"/>
+<telerik:BooleanFilterDescriptor PropertyName="IsChampion"
+                                 Value="true"/>
 ```
 
 ### Nested Property Text Filter Descriptor
@@ -160,12 +172,12 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `IsCaseSensitive`&mdash;Gets or sets a value that determines whether the text comparisons will be case-sensitive. The default value is `True`.
 
-<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:NestedProprtyTextFilterDescriptor PropertyName="Address"
-                                 Operator="Contains"
-                                 IsCaseSensitive="Falses"
-                                 Value="Barcelona"/>
+<telerik:NestedProprtyTextFilterDescriptor PropertyName="Address"
+                                           Operator="Contains"
+                                           IsCaseSensitive="Falses"
+                                           Value="Barcelona"/>
 ```
 
 ### Distinct Values Filter Descriptor
@@ -177,27 +189,27 @@ It exposes the following properties:
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 
-<snippet id='datagrid-datetimefilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:DistinctValuesFilterDescriptor />
+<telerik:DistinctValuesFilterDescriptor PropertyName="Country" Value="Austria" />
 ```
 
 ### Composite Filter Descriptor
 
 The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that stores an arbitrary number of other descriptors instances. The logical `AND` or `OR` operator is applied upon all composed filters to determine the result of the `PassesFilter` routine.
 
-<snippet id='datagrid-compositefilterdescriptor-xaml'/>
+<!-- <snippet id='datagrid-compositefilterdescriptor-xaml'/> -->
 ```XAML
-<telerikCommon:CompositeFilterDescriptor Operator="And">
-	<telerikCommon:CompositeFilterDescriptor.Descriptors>
-		<telerikCommon:NumericalFilterDescriptor PropertyName="StadiumCapacity"
-                                          Operator="IsGreaterThan"
-                                          Value="55000"/>
-			<telerikCommon:NumericalFilterDescriptor PropertyName="StadiumCapacity"
-                                              Operator="IsLessThan"
-                                              Value="85000"/>
-	</telerikCommon:CompositeFilterDescriptor.Descriptors>
-</telerikCommon:CompositeFilterDescriptor>
+<telerik:CompositeFilterDescriptor Operator="And">
+	<telerik:CompositeFilterDescriptor.Descriptors>
+		<telerik:NumericalFilterDescriptor PropertyName="StadiumCapacity"
+                                           Operator="IsGreaterThan"
+                                           Value="55000"/>
+			<telerik:NumericalFilterDescriptor PropertyName="StadiumCapacity"
+                                               Operator="IsLessThan"
+                                               Value="85000"/>
+	</telerik:CompositeFilterDescriptor.Descriptors>
+</telerik:CompositeFilterDescriptor>
 ```
 
 ### Delegate Filter Descriptor
@@ -210,27 +222,31 @@ Then, you need to add a `DelegateFilterDescriptor` to the `RadDataGrid.FilterDes
 
 The following example demonstrates the `CustomFilter` implementation:
 
-<snippet id='datagrid-delegatefilterdescriptor-csharp'/>
+<!-- <snippet id='datagrid-delegatefilterdescriptor-csharp'/> -->
 ```C#
-class CustomFilter : IFilter
+class CustomFilter : Telerik.Maui.Controls.Compatibility.Common.Data.IFilter
 {
-	public bool PassesFilter(object item)
- 	{
-		if ((item as Club).StadiumCapacity > 60000 && (item as Club).StadiumCapacity <85000)
+    public bool PassesFilter(object item)
+    {
+        if(item is Club club 
+           && club.StadiumCapacity > 60000 
+           && club.StadiumCapacity < 85000)
         {
-			return true;
+            return true;
         }
         else
         {
-			return false;
+            return false;
         }
-	}
+    }
 }
 ```
 
+> Take notice that `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
-<snippet id='datagrid-delegatefilterdescriptor-added'/>
+<!-- <snippet id='datagrid-delegatefilterdescriptor-added'/> -->
 ```C#
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
