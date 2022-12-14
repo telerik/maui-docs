@@ -15,7 +15,7 @@ The DataGrid provides a built-in editing functionality, which allows the app use
 
 You need to define the `UserEditMode` property of the DataGrid control to enable the editing feature.
 
-The `UserEditMode` property is of type `Telerik.XamarinForms.DataGrid.DataGridUserEditMode` and accepts the following values:
+The `UserEditMode` property is of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserEditMode` and accepts the following values:
 
 * (Default) `None`&mdash;Editing is disabled.
 * `Cell`&mdash;Enables the editing option.

@@ -20,7 +20,7 @@ On WinUI and MacOS you can change the column width by positioning the mouse over
 
 To resize a column programatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug datagrid-columns-width%}) article.
 
-In addition, you can set a `MinimumWidth`(`double`) to the column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `Minimumwidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
+In addition, you can set a `MinimumWidth`(`double`) to the column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `MinimumWidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
 
 ## Disabling Resizing
 
