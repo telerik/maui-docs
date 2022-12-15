@@ -8,7 +8,7 @@ slug: accordion-animation
 
 # .NET MAUI Accordion Animation
 
-Telerik .NET MAUI accordion provides an option to set the animation when expanding/collapsing an accordion item.
+Telerik .NET MAUI Accordion provides an option to set the animation when expanding/collapsing an accordion item.
 
 ## Animation while expanding/collapsing
 
@@ -16,8 +16,8 @@ To enable or disable the animation you need to use the `IsAnimationEnabled` prop
 
 You could also customize the duration and easing through `AnimationDuration` and `AnimationEasing` properties.
 
-* `AnimationDuration` (`int`)&mdash;Defines the duration of the animation while expanding/collapsing the AccordionItem. The default value is 500.
-* `AnimationEasing` (`.NET MAUI.Forms.Easing`)&mdash;Specifies animation acceleration over time. The default value is Easing.Linear.
+* `AnimationDuration`(`int`)&mdash;Defines the duration of the animation while expanding/collapsing the AccordionItem. The default value is 500.
+* `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies animation acceleration over time. The default value is Easing.Linear.
 
 ## Example
 
@@ -33,7 +33,7 @@ And the `RadAccordion` when all items are collapsed:
 
 ![.NET MAUI Accordion Animation](images/accordion_keyfeatures_2.png)
 
->important A sample Animation example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}#sdk-browser-application).
+>important For the Accordion Animation example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
