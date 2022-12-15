@@ -1,6 +1,6 @@
 ---
-title: Expand&Collapse States
-page_title: .NET MAUI Accordion Documentation - Expand&Collapse States
+title: Expand and Collapse States
+page_title: .NET MAUI Accordion Documentation - Expand and Collapse States
 description: Check our &quot;Expand and Collapse States&quot; documentation article for Telerik .NET MAUI Accordion control.
 position: 4
 slug: accordion-expand-collapse-states
@@ -10,7 +10,7 @@ slug: accordion-expand-collapse-states
 
 The purpose of this help article is to show you the expanded/collapsed states of the Telerik .NET MAUI Accordion control. 
 
-## Collapsed/expanded States
+## Collapsed/Expanded States
 
 In the Accordion control each item provides a header that expands when clicked, showing more information. The control is designed in such a way that opening one AccordionItem automatically closes the previously displayed content. 
 
@@ -34,7 +34,7 @@ And the `RadAccordion` when all items are collapsed:
 
 ![.NET MAUI Accordion States](images/accordion_keyfeatures_2.png)
 
->important A sample expand and collapse states example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}#sdk-browser-application).
+>important For the Accordion Expand and Collapse states example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
