@@ -37,6 +37,6 @@ And the `RadAccordion` when all items are collapsed:
 
 ## See Also
 
-- [AccordionItem]({%slug accordion-accordionitem%})
+- [AccordionItem]({%slug accordion-accordion-item%})
 - [Expand and Collapse states]({%slug accordion-expand-collapse-states%})
 - [Item spacing]({%slug accordion-item-spacing%})

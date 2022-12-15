@@ -28,6 +28,6 @@ And the Accordion when all items are collapsed:
 
 ## See Also
 
-- [AccordionItem]({%slug accordion-accordionitem%})
+- [AccordionItem]({%slug accordion-accordion-item%})
 - [Expand and Collapse states]({%slug accordion-expand-collapse-states%})
 - [Animation]({%slug accordion-animation%})

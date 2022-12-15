@@ -49,4 +49,4 @@ And the items source for the suggestion list:
 ## See Also
 
 - [Configuration]({%slug autocomplete-data-binding%})
-- [Accordion Item]({%slug autocomplete-configuration%})
+- [AccordionItem]({%slug accordion-accordion-item%})

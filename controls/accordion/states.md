@@ -14,7 +14,7 @@ The purpose of this help article is to show you the expanded/collapsed states of
 
 In the Accordion control each item provides a header that expands when clicked, showing more information. The control is designed in such a way that opening one AccordionItem automatically closes the previously displayed content. 
 
-There can be only one expanded item at a time indicated by `IsExpanded` property of the [AccordionItem]({%slug accordion-accordionitem%}) object.
+There can be only one expanded item at a time indicated by `IsExpanded` property of the [AccordionItem]({%slug accordion-accordion-item%}) object.
 
 ## Collapse All Items
 
@@ -38,6 +38,6 @@ And the `RadAccordion` when all items are collapsed:
 
 ## See Also
 
-- [AccordionItem]({%slug accordion-accordionitem%})
+- [AccordionItem]({%slug accordion-accordion-item%})
 - [Item spacing]({%slug accordion-item-spacing%})
 - [Animation]({%slug accordion-animation%})
