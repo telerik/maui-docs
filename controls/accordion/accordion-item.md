@@ -1,14 +1,14 @@
 ---
-title: AccordionItem control
-page_title: .NET MAUI Accordion Documentation - AccordionItem control
+title: AccordionItem
+page_title: .NET MAUI Accordion Documentation - AccordionItem
 description: Check our &quot;AccordionItem control&quot; documentation article for Telerik .NET MAUI Accordion control.
 position: 2
 slug: accordion-accordion-item
 ---
 
-# AccordionItem control
+# .NET MAUI AccordionItem
 
-This articles explains the configuration options of the AccordionItem.
+This articles explains the configuration options of the Accordion Item.
 
 ## AccordionItem Header
 
@@ -26,22 +26,22 @@ The indicator is the little triangle that is rotated according to whether the Ac
 * `IndicatorMargin`(`Thickness`)&mdash;Specifies the margin applied to the indicator;
 
 ## IsExpanded
-	
-IsExpanded is a Boolean property to indicate the currently expanded state of the AccordionItem.	
+
+Change the expanded state of the AccordionItem using the `IsExpanded`(`bool`)property.
 	
 ## Border Styles
 
-You could utilize `BorderColor`, `BorderThickness` and `CornerRadius` properties of RadAccordionItem to change the way the Border around the control looks.
+Utilize `BorderColor`, `BorderThickness` and `CornerRadius` properties of RadAccordionItem to change the way the Border around the control looks.
 
 The following snippet shows how to customize the `AccordionItemHeader`:
 
 <snippet id='accordion-features-accordionitem' />
 
-Next image displays how the `RadAccordion` will look with thus defined items:
+Next image displays how the `RadAccordion` looks with thus defined items:
 
 ![.NET MAUI AccordionItem](images/accordion_accordionitem.png)
 
->important A sample AccordionItem example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}).
+>important For the AccordionItem example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
