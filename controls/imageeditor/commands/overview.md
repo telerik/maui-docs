@@ -76,7 +76,13 @@ Commands which cancel/apply the changes made in interactive commands:
 
 * `ApplyInteractiveCommand`&mdash;Applies the changes done in interactive command such as `Telerik.XamarinForms.ImageEditor.RadImageEditor.CropInteractiveCommand`.
 
-When using the `CropInteractiveCommand` you can apply the crop changes using `ApplyInteractiveCommand` and cancel the changes using `CancelInteractiveCommand`.
+>important When using the **Interactive Commands** you can apply the changes using `ApplyInteractiveCommand` and cancel the changes using `CancelInteractiveCommand`.
+
+* `UndoCommand`(`ICommand`)&mdash;Gets the command for the undo action.
+
+* `RedoCommand`(`ICommand`)&mdash;Gets the command for the redo action.
+
+* `RotateBackwardCommand`(`ICommand`)&mdash;Rotates the image backwards.
 
 ### Example
 

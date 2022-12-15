@@ -3,7 +3,7 @@ title: Zooming
 page_title: .NET MAUI ImageEditor Documentation - Zooming
 description: "Review how to set the zoom level of the images in .NET MAUI ImageEditor control."
 position: 2
-slug: imageeditor-zooming
+slug: imageeditor-zooming-image
 ---
 
 # .NET MAUI ImageEditor Zooming
@@ -20,9 +20,17 @@ In addition, you can restrict the zooming by applying min and max zoom:
 
 ** Example with Min and Max Zoom levels**
 
+RadImageEditor definition:
 
+<snippet id='imageeditor-zoom-level'/>
+
+Add the namespace used:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 ## See Also
 
-- [Saving Images]({%slug imageeditor-save-image%})
-- [Loading Images]({%slug imageeditor-load-image%})
+- [Saving Images]({%slug imageeditor-saving-image%})
+- [Loading Images]({%slug imageeditor-loading-image%})

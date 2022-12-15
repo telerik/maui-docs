@@ -3,7 +3,7 @@ title: Display Images
 page_title: .NET MAUI ImageEditor Documentation - Display Images
 description: "Review the options to display images in the .NET MAUI ImageEditor control."
 position: 2
-slug: imageeditor-load-image
+slug: imageeditor-loading-image
 ---
 
 # Display Images in .NET MAUI ImageEdiotor
@@ -24,11 +24,19 @@ The images could be loaded from:
 
 **Load images for Uri**
 
+```XAML
+<telerik:RadImageEditor x:Name="imageEditor" 
+                        Source="https://raw.githubusercontent.com/telerik/maui-samples/main/Samples/ControlsSamples/Resources/Images/borderconfigurationavatar.png" />
+        
+```
 
 **Load images for Resource**
 
 
+
 **Load images for Stream**
+
+<snippet id='load-image-from-stream'/>
 
 ## Loading Template
 
@@ -36,8 +44,19 @@ By default a busy indicator is shown when loading an image. You can change the i
 
 * `BusyIndicatorTemplate`(`DataTemplate`)&mdash;Defines the loading indicator when loading an image. When no template is specified, a default busy indicator is shown.
 
+**Example with BusyTemplate**
+
+RadImageEditor definition:
+
+<snippet id='imageeditor-busy-template'/>
+
+Add the namespace used:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 ## See Also
 
-- [Zooming Image]({%slug imageeditor-zoom-image%})
-- [Saving Image]({%slug imageeditor-save-image%})
+- [Zooming Image]({%slug imageeditor-zooming-image%})
+- [Saving Image]({%slug imageeditor-saving-image%})
