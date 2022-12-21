@@ -17,6 +17,8 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
 * `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
 * `HoverTextColor`&mdash;Defines the text color of the hovered cell.
+* `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property allows you to style the splitter UI. The Splitter UI splits the frozen columns from the unfrozen columns.
+
 
 ## Styling Properties
 
@@ -76,6 +78,19 @@ Example how to apply the `GoupHeaderStyle` property to the DataGrid control:
 Here is how the DataGrid looks:
 
 ![DataGrid Styling](../images/datagrid-styling.png)
+
+**Splitter UI Style**
+
+Style the Splitter UI using the following properties&mdash;`Width`, `BackgroundColor`, `BorderColor` and `BorderThickness`.
+
+```XAML
+<telerik:RadDataGrid.FrozenColumnsSplitterStyle>
+    <telerik:DataGridFrozenColumnsSplitterStyle Width="20"
+                                                BorderColor="Gray"
+                                                BorderThickness="2"
+                                                BackgroundColor="LightBlue"/>
+</telerik:RadDataGrid.FrozenColumnsSplitterStyle>
+```
 
 ## See Also
 

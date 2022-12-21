@@ -21,6 +21,7 @@ If you want to completely customize the content of the cells in a grid column, y
 * `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
 * `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 * `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only suppoted in WinUI and MacCatalyst.
+* `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 
 >important For more information about sorting and grouping, refer to the [DataGrid Sorting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
 

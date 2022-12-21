@@ -27,6 +27,7 @@ Here are the specific properties for the Text Columns:
 * `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
 * `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 * `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only suppoted in WinUI and MacCatalyst.
+* `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 
 >tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 
