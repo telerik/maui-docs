@@ -12,8 +12,6 @@ The DataGrid exposes a reordering feature allowing the user to drag and drop col
 
 ![DataGrid Reordering Desktop](../images/datagrid-reordering-mac.gif)
 
-## Properties
-
 `CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `True`.
 `ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator which is shown between two columns during reordering.
 
