@@ -62,6 +62,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 >important For the ProgressBar Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
+## Additional Resources
+
+- [.NET MAUI ProgressBar product page](https://www.telerik.com/maui-ui/progressbar)
+- [.NET MAUI ProgressBar forum page](https://www.telerik.com/forums/maui?tagId=1978)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
 - [Configuration]({%slug progressbar-configuration%})

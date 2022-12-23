@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ProgressBar Documentation - Configuration
-description: Check our &quot;Configuration&quot; documentation article for Telerik ProgressBar for .NET MAUI control.
+description: "Review how to define vlaue and segmentm, text formatting, value range and more for the Telerik ProgressBar for .NET MAUI control."
 position: 2
 slug: progressbar-configuration
 ---
@@ -12,10 +12,10 @@ This article will explain all configuration options that ProgressBar control pro
 
 ## Value and Progress
 
-The ProgressBar exposes `Value` and `Progress` properties which are used to set and report, respectively, the progress of a task inside the ProgressBar control.
+The LinearProgressBar exposes `Value` and `Progress` properties which are used to set and report, respectively, the progress of a task inside the ProgressBar control.
 
-* `Value`&mdash;Sets the value of the ProgressBar. When `Value` property is updated, this initiates the progress animation of the progress bar.
-* `Progress`&mdash;Reports the current progress of the ProgressBar. `Progress` property is updated internally after `Value` is updated and progress animation is complete.
+* `Value`(`double`)&mdash;Sets the value of the ProgressBar. When `Value` property is updated, this initiates the progress animation of the progress bar.
+* `Progress`(`double`)&mdash;Reports the current progress of the ProgressBar. `Progress` property is updated internally after `Value` is updated and progress animation is complete.
 
 Here is a quick example showing how you can update `Value` and get the `Progress`:
 
@@ -33,8 +33,8 @@ Check the result in the gif below:
 
 `Minimum` and `Maximum` properties are used to set the minimum and maximum values that the ProgressBar can display.
 
-* `Minimum`&mdash;Specifies the lower limit of the `Value` property, by default its value is 0.
-* `Maximum`&mdash;Defines the upper limit of the `Value` property, default value is 100.
+* `Minimum`(`double`)&mdash;Specifies the lower limit of the `Value` property, by default its value is 0.
+* `Maximum`(`double`)&mdash;Defines the upper limit of the `Value` property, default value is 100.
 
 You can define `Minimum` and `Maximum` properties of the ProgressBar as shown below:
 
@@ -68,6 +68,8 @@ You can also use `ValueDisplayMode` set to `Text` together with `CustomText`:
 Divide the ProgressBar in segments using the `SegmentCount`(`int`) property.
 
 <snippet id='progressbar-configuration-segments'/>
+
+How to style the segments refer to [Styling the segments]({%slug progressbar-styling%}#styling-the-segments) section.
 
 ## Label Alignment
 

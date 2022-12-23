@@ -6,11 +6,11 @@ position: 0
 slug: progressbar-overview
 ---
 
-# Overview
+# .NET MAUI ProgressBar Overview
 
 **Telerik ProgressBar for ProgressBar** is designed to display progress information to the users during a long-running operation. With the ProgressBar you can track the progress of various tasks. The control has an indeterminate mode and segments support. In addition you can customize it using the Flexible Styling API.  
 
-![ProgressBar Overview](images/progressbar-overview.gif)
+![.NET MAUI ProgressBar Overview](images/progressbar-overview.gif)
 
 ## Key Features
 
@@ -24,6 +24,13 @@ slug: progressbar-overview
 * [Events]({%slug progressbar-events%})&mdash;for tracking when the progress progress changes and completion.  
 * [Flexible styling API]({%slug progressbar-styling%})&mdash;for customizing the progress fill, track fill, indeterminate fill, label text color, font size and more.
 
-## See Also
+## Next Steps
 
 - [Getting Started with ProgressBar for .NET MAUI]({%slug progressbar-getting-started%})
+
+## See Also
+
+- [.NET MAUI ProgressBar product page](https://www.telerik.com/maui-ui/progressbar)
+- [.NET MAUI ProgressBar forum page](https://www.telerik.com/forums/maui?tagId=1978)
+- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

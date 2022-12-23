@@ -28,22 +28,22 @@ Before adding the ImageEditor, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add an ImageEditor control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add an ImageEditor control to your page.
 
- <snippet id='imageeditor-getting-started-xaml'/>
- <snippet id='imageeditor-getting-started-csharp'/>
+<snippet id='imageeditor-getting-started-xaml'/>
+<snippet id='imageeditor-getting-started-csharp'/>
 
-**1.** Add the following namespace:
+**2.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**2.** For the demo the image is loaded in the ImageEditor for a `stream`:
+**3.** For the demo the image is loaded in the ImageEditor for a `stream`:
 
 <snippet id='load-image-from-stream'/>
 
-**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
