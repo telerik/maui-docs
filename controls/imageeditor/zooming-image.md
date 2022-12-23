@@ -30,6 +30,8 @@ Add the namespace used:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+ >important For the ImageEditor Zoom Level example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+
 ## See Also
 
 - [Saving Images]({%slug imageeditor-saving-image%})

@@ -47,6 +47,7 @@ Here is how the RadImageEditor is defined:
 
 <snippet id='imageeditor-saveimage-downscaled'/>
 
+ >important For the ImageEditor Save Image example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

@@ -16,10 +16,10 @@ The images could be loaded from:
 
 * `File`
 * `Uri`
-* `Resource`
 * `Stream`
 
 **Load images for File**
+
 
 
 **Load images for Uri**
@@ -29,10 +29,6 @@ The images could be loaded from:
                         Source="https://raw.githubusercontent.com/telerik/maui-samples/main/Samples/ControlsSamples/Resources/Images/borderconfigurationavatar.png" />
         
 ```
-
-**Load images for Resource**
-
-
 
 **Load images for Stream**
 
@@ -55,6 +51,8 @@ Add the namespace used:
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+ >important For the ImageEditor Busy Template example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
