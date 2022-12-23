@@ -28,14 +28,43 @@ Before adding the Accordion, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a Accordion control to your page.
 
-Here is the Accordion definition in XAML and C#:
+**1.** Here is the Accordion definition in XAML and C#:
 
 <snippet id='accordion-getting-started-xaml' />
 <snippet id='accordion-getting-started-csharp' />
 
-And the items source for the suggestion list:
+**2.** And the items source for the suggestion list:
 
 <snippet id='accordion-getting-started-items-source'/>
+
+**3.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+
+```C#
+using Telerik.Maui.Controls.Compatibility;
+
+public static class MauiProgram
+{
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+}           
+```
 
 >important For the Accordion Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

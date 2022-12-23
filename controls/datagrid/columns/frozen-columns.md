@@ -1,7 +1,7 @@
 ---
 title: Frozen Columns
 page_title: .NET MAUI DataGrid Documentation - Frozen Columns
-description: "Frozen columns for Telerik DataGrid for .NET MAUI.""
+description: "Frozen columns for Telerik DataGrid for .NET MAUI."
 position: 4
 slug: datagrid-frozen-columns
 ---
