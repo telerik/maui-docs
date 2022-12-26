@@ -40,10 +40,6 @@ And the `RadAccordion` when all items are collapsed:
 
 >important For the Accordion Expand and Collapse states example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
-
-## Example
-
-
 ## See Also
 
 - [AccordionItem]({%slug accordion-accordion-item%})
