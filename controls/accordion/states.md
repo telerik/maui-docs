@@ -18,11 +18,15 @@ There can be only one expanded item at a time indicated by `IsExpanded` property
 
 ## Collapse All Items
 
-Through `CanCollapseAllItems` boolean property you can allow users to fully collapse the Accordion items. If `CanCollapseAllItems` is enabled, clicking on the header of an expanded Accordion item will collapse it.
+Through the `CanCollapseAllItems` boolean property you can allow users to fully collapse the Accordion items. If `CanCollapseAllItems` is enabled, clicking on the header of an expanded Accordion item will collapse it.
+
+## Expand Multiple Items
+
+Through the `CanExpandMultipleItems` boolean property you can allow users to expand more than one item. If `CanExpandMultipleItems` is enabled, clicking on the header of a collapsed accordion item will expand it, regardless of how many items are expanded. If `CanExpandMultipleItems` is disabled, the expansion of one item causes the collapse of a previously expanded accordion item.
 
 ## Example
 
-The snippet below shows how the `CanCollapseAllItems` property can be applied:
+The snippet below shows how the `CanCollapseAllItems`, `CanExpandMultipleItems` properties can be applied:
 
 <snippet id='accordion-key-features-xaml'/>
 
@@ -35,6 +39,10 @@ And the `RadAccordion` when all items are collapsed:
 ![.NET MAUI Accordion States](images/accordion_keyfeatures_2.png)
 
 >important For the Accordion Expand and Collapse states example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+
+
+## Example
+
 
 ## See Also
 
