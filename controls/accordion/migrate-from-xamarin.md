@@ -12,5 +12,6 @@ Overall, Telerik .NET MAUI Accordion control preserves the same API as Xamarin.F
 
 | Xamarin Accordion | .NET MAUI Accordion |
 | ------------- | --------------- |
+| - | `CanExpandMultipleItems` |
 | - | `Items` |
 
