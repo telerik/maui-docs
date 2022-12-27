@@ -18,15 +18,15 @@ There can be only one expanded item at a time indicated by `IsExpanded` property
 
 ## Collapse All Items
 
-Through the `CanCollapseAllItems` boolean property you can allow users to fully collapse the Accordion items. If `CanCollapseAllItems` is enabled, clicking on the header of an expanded Accordion item will collapse it.
+Using the `CanCollapseAllItems`(`bool`) property you can collapse all Accordion items by tapping/clicking on the Accordion item header. The default value is `false`.
 
 ## Expand Multiple Items
 
-Through the `CanExpandMultipleItems` boolean property you can allow users to expand more than one item. If `CanExpandMultipleItems` is enabled, clicking on the header of a collapsed accordion item will expand it, regardless of how many items are expanded. If `CanExpandMultipleItems` is disabled, the expansion of one item causes the collapse of a previously expanded accordion item.
+Through the `CanExpandMultipleItems` boolean property you can allow users to expand more than one item. Default value is `false`. If `CanExpandMultipleItems` is set to `true`, clicking on the header of a collapsed accordion item will expand it, regardless of how many items are expanded. If `CanExpandMultipleItems` is set to `false`, the expansion of one item causes the collapse of a previously expanded accordion item.
 
 ## Example
 
-The snippet below shows how the `CanCollapseAllItems`, `CanExpandMultipleItems` properties can be applied:
+The snippet below shows how the `CanCollapseAllItems` and `CanExpandMultipleItems` properties can be applied:
 
 <snippet id='accordion-key-features-xaml'/>
 
