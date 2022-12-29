@@ -28,7 +28,7 @@ Before adding the ImageEditor, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add an ImageEditor control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add an ImageEditor control and th built-in Toolbar to your page.
 
 <snippet id='imageeditor-getting-started-xaml'/>
 <snippet id='imageeditor-getting-started-csharp'/>
@@ -65,6 +65,7 @@ public static class MauiProgram
 	}
  }           
  ```
+
  >important For the ImageEditor Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## Additional Resources
