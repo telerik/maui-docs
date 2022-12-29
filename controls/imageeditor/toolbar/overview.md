@@ -37,11 +37,10 @@ The table below shows the built-in toolbar items available for desktop - WinUI a
 | `ImageEditorRotateRightToolbarItem` | Rotates the image 90 degrees to the right |
 | `ImageEditorFlipHorizontalToolbarItem` | Flips the image in horizontal direction |
 | `ImageEditorFlipVerticalToolbarItem` | Flips the image in vertical direction |
-| `ImageEditorFilterOptionsToolbarItem` | epresents a button displaying a filter options panel for applying filters like blur, hue, saturation, etc. |
+| `ImageEditorFilterOptionsToolbarItem` | Represents a button displaying a filter options panel for applying filters like blur, hue, saturation, etc. |
 | `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
 | `SeparatorToolbarItem` | Represents a separator between the toolbar items |
-
 
 ## Toolbar Configuration
 
@@ -53,7 +52,7 @@ The table below shows the built-in toolbar items available for desktop - WinUI a
 
 ### Common properties
 
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling 
+`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar
 
  >important For the ImageEditorToolbar example review the ImageEditor Getting Started example in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

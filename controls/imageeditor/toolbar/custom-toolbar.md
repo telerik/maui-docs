@@ -8,16 +8,61 @@ slug: imageeditor-custom-toolbar
 
 # .NET MAUI ImageEditor Custom Toolbar
 
-The Telerik ImageEditor for .NET MAUI comes with various editing capabilities and with the help of the **ImageEditorToolbar** you can provide to the users easy and quick way to edit their images. The default toolbar include items for all the available image editing options, alternatively you could customize the shown editing options according to your needs.
+The ImageEditor Toolbar can be fully customized. You can populate the toolbar with the ToolbarItems needed for editing the image. 
 
-By default the items in the `ImageEditorToolbar` are auto-populated. You could change this by setting the `RadImageEditorToolbar.AutoGenerateItems`(of type `bool`) to `False`. 
+Each toolbar item executes the appropriate cmmand related to it. 
 
-In addition you can have a combination of both custom toolbar and all auto generated items: 
+## Toolbar items
 
+When you customize the toolbar you could include the following editing capabilities:
 
+### Applying image transformations
 
- >important For the ImageEditorToolbar example review the ImageEditor Getting Started example in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+* The toolbar items for applying **image transformations** to the image are:
+	* `ImageEditorCropToolbarItem`
+	* `ImageEditorResizeToolbarItem`
+	* `ImageEditorRotateLeftToolbarItem`
+	* `ImageEditorRotateRightToolbarItem`
+	* `ImageEditorFlipHorizontalToolbarItem`
+	* `ImageEditorFlipVerticalToolbarItem`
 
+>tip To group the transformations you could use the `ImageEditorTransformationsToolbarItem`.
+
+### Applying filters
+
+* The toolbar items for applying **filters** to the image are:
+	* `ImageEditorHueToolbarItem`
+	* `ImageEditorSaturationToolbarItem`
+	* `ImageEditorBrightnessToolbarItem`
+	* `ImageEditorContrastToolbarItem`
+	* `ImageEditorBlurToolbarItem`
+	* `ImageEditorSharpenToolbarItem`
+
+>tip To group the filters you could use the `ImageEditorFiltersToolbarItem` on mobile and `ImageEditorFilterOptionsToolbarItem` on desktop.
+
+## Reversing and re-applying actions
+
+* The toolbar items for reversing and re-applying actions are:
+	* `ImageEditorUndoToolbarItem`
+	* `ImageEditorRedoToolbarItem`
+	* `ImageEditorResetToolbarItem`
+
+## Navigation toolbar item
+
+For navigating in the toolbar use the `NavigationButtonToolbarItem`.
+
+## Zooming toolbar item
+
+To fit the image in the available screen space use the `ImageEditorZoomToFitToolbarItem`. 
+
+## Custom Toolbar item
+
+* For applying custom command in the ImageEditorToolbar use the  use the `ButtonToolbarItem`. The coomand allows you to execute an arbitrary user-defined command from the toolbar. It exposes the following properties:
+	* `Command`(`ICommand`)&mdash;Specifies the command to execute. 
+	* `CommandParameter`(`object`)&mdash;Specifies a parameter to be passed to the command upon execution.
+	* `Clicked event`&mdash;Raised when the button is clicked.
+
+>important For the ImageEditor CustomToolbar example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
