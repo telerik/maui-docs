@@ -29,29 +29,29 @@ Before adding the TemplatedPicker, you need to:
 
 The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any content inside the popup for the user to choose from, and a `DisplayTemplate`, which allows you to present the selected value as required.
 
-1. When your .NET MAUI application is set up, you are ready to add a TemplatedPicker control to your page. The following example demonstrates a custom picker control, which provides the option to choose a color from a set of predefined colors.
+**1.** When your .NET MAUI application is set up, you are ready to add a TemplatedPicker control to your page. The following example demonstrates a custom picker control, which provides the option to choose a color from a set of predefined colors.
 
- <snippet id='templatedpicker-getting-started-xaml' />
- <snippet id='templatedpicker-getting-started-csharp' />
+<snippet id='templatedpicker-getting-started-xaml' />
+<snippet id='templatedpicker-getting-started-csharp' />
 
 
-1. Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
+**2.** Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
 
-  <snippet id='templatedpicker-color-viewmodel' />
+<snippet id='templatedpicker-color-viewmodel' />
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -65,8 +65,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```           
+}           
+```           
  
 ## Additional Resources
 

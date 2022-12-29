@@ -8,7 +8,7 @@ slug: progressbar-overview
 
 # .NET MAUI ProgressBar Overview
 
-**Telerik ProgressBar for ProgressBar** is designed to display progress information to the users during a long-running operation. With the ProgressBar you can track the progress of various tasks. The control has an indeterminate mode and segments support. In addition you can customize it using the Flexible Styling API.  
+**Telerik .NET MAUI ProgressBar** is designed to display progress information to the users during a long-running operation. With the ProgressBar you can track the progress of various tasks. The control has an indeterminate mode and segments support. In addition you can customize it using the Flexible Styling API.  
 
 ![.NET MAUI ProgressBar Overview](images/progressbar-overview.gif)
 
