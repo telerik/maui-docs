@@ -55,12 +55,16 @@ For navigating in the toolbar use the `NavigationButtonToolbarItem`.
 
 To fit the image in the available screen space use the `ImageEditorZoomToFitToolbarItem`. 
 
-## Custom Toolbar item
+## Custom toolbar item
 
 * For applying custom command in the ImageEditorToolbar use the  use the `ButtonToolbarItem`. The coomand allows you to execute an arbitrary user-defined command from the toolbar. It exposes the following properties:
-	* `Command`(`ICommand`)&mdash;Specifies the command to execute. 
+	* `Command`(`ICommand`)&mdash;Specifies the command to execute.
 	* `CommandParameter`(`object`)&mdash;Specifies a parameter to be passed to the command upon execution.
-	* `Clicked event`&mdash;Raised when the button is clicked.
+	* `Clicked` event&mdash;Raised when the button is clicked.
+
+## Separate the toolbar items
+
+You can easily separate the toolbar items using the `SeparatorToolbarItem`.
 
 >important For the ImageEditor CustomToolbar example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

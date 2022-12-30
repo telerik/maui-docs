@@ -2,7 +2,7 @@
 title: Saving Images
 page_title: .NET MAUI ImageEditor Documentation - Saving Images
 description: "Review the Saving Options the Telerik .NET MAUI ImageEditor control provides."
-position: 2
+position: 5
 slug: imageeditor-saving-image
 ---
 
