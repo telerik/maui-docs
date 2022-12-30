@@ -14,12 +14,11 @@ slug: toolbar-overview
 
 ## Key features
 
-* [Rich collection of toolbar items]()&mdash;
-* [Text and image support]()&mdash;
+* [Rich collection of toolbar items]()&mdash;navigation button,.split button, slider, listpicker, radio buttons and more 
+* Adding text and image to the toolbar item.
 * [Horizontal or vertical orientation]()&mdash;Toolbar support both horizontal and vertical orientation.
 * [Overflow menu]()&mdash;When the toolbar items cannot fit in the available space an overflow button is displayed. The items are added in the overflow menu. You can display them using the different modes of the overflow menu.
-* [Panning and scrolling]()&mdash;
-* [Commands]({%slug toolbar-commands%})&mdash;while navigating and scrolling.
+* [Panning and scrolling]()throught the Toolbar items.
 * [Styling options]()&mdash;for overflow menu button, back navigation button and more.
 
 ## Next steps
