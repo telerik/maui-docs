@@ -13,7 +13,7 @@ Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin
 | Xamarin ImageEditor | .NET MAUI ImageEditor |
 | ------------- | --------------- |
 | - | `UndoCommand` |
-| - | `ReduCommand` |
+| - | `RedoCommand` |
 | - | `RotateBackwardCommand` |
 | - | `SaturationInteractiveCommand` |
 | - | `BrightnessInteractiveCommand` |

@@ -2,7 +2,7 @@
 title: Highlighting Text in the DataGrid through search Entry
 description: Highlight Text in DataGrid cell through an Entry
 type: how-to
-page_title: Cell Text Highlight through a search
+page_title: Search and higlight the result in the DataGrid cell
 slug: datagrid-cell-text-highlight
 position: 
 tags: maui, datagrid, ui for maui, highlight search result, text highlight

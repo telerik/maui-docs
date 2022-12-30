@@ -10,7 +10,7 @@ slug: accordion-expand-collapse-states
 
 The purpose of this help article is to show you the expanded/collapsed states of the Telerik .NET MAUI Accordion control. 
 
-## Collapsed/Expanded States
+## Collapse/Expand States
 
 In the Accordion control each item provides a header that expands when clicked, showing more information. The control is designed in such a way that opening one AccordionItem automatically closes the previously displayed content. 
 
