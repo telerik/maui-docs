@@ -10,87 +10,59 @@ slug: imageeditor-toolbar
 
 The **ImageEditorToolbar for .NET MAUI** includes items for editing the image in the ImageEditor, alternatively you could customize the shown editing options according to your needs.
 
+## Configuration of the ImageEditorToolbar
+
+`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar.
+
+The configuration properties are described below
+
 * Attach the `RadImageEditorToolbar` to the `RadImageEditor` control by setting the `ImageEditor`(of type `RadImageEditor`)property.
 
 <snippet id='imageeditor-getting-started-xaml'/>
 
 * By default the items in the `ImageEditorToolbar` are auto-populated. You could change this by setting the `RadImageEditorToolbar.AutoGenerateItems`(of type `bool`) to `False`. The default value is `True`.
 
-## Built-in Toolbar items for image editing
+* By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify rhe orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
+* `OptionsPanel`(`Telerik.Maui.Controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar.
+* `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the items in the toolbar. The default value is `8`.
+* `LineSpacing`(`double`)&mdash;Specifies the spacing in pixels between the lines of items in the toolbar. This property has effect when the toolbar is in a multi-line wrap overflow mode. The default value is `8`.
 
-The biult-in toolbar items are described in the tables below:
+### Configuration of the Overflow menu
 
-### Toolbar items available on mobile - Android and iOS
+* `OverflowMode`(enum of type `Telerik.Maui.Controls.ToolbarOverflowMode`)&mdash; Specifies the overflow mode when the items in the toolbar cannot fit in the available space. The available options are:
+	* `DropDown`(the default mode)&mdash;When the toolbar items cannot fit in the available space, they are placed in the overflow drop-down menu.
+	* `Scroll`&mdash;When the toolbar items cannot fit in the available space, they are scrolled horizontally or vertically, based on the orienatation of the toolbar.
+	* `Wrap`&mdash;When the toolbar items cannot fit in the available space, they are wrapped horizontally or vertically on multiple lines, based on the orientation of the toolbar.
 
-The table below shows the built-in toolbar items available for mobile -  Android and iOS:
+* `OverflowMenuButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the overflow menu button in the toolbar. The available options are:
+	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
+	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
+	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-| Toolbar Item | Description |
-| ------------ | ------- |
-| `ImageEditorTransformationsToolbarItem` | Common toolbar item that includes all available transformaion options like crop, resize, rotate(left and right) and flip(horizontal and vertical) |
-| `ImageEditorFiltersToolbarItem` | Common toolbar item that includes all available filter toolbar items: blur, sharpen, contrast, hue, saturation, brightness |
-| `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
-| `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
+* `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
+* `IsOverflowMenuButtonVisible`(`bool`)&mdash;Indicating whether the overflow menu button is currently visible in the toolbar.
 
-### Toolbar items available on desktop - WinUI and MacCatalyst
 
-The table below shows the built-in toolbar items available for desktop - WinUI and MacCatalyst:
+### Configuration of the back navigation button
 
-| Toolbar Item | Description |
-| ------------ | ------- |
-| `ImageEditorCropOptionsToolbarItem` | Represents a button displaying a crop options panel |
-| `ImageEditorResizeOptionsToolbarItem` | Represents a button displaying a resize options panel |
-| `ImageEditorRotateLeftToolbarItem` | Rotates the image 90 degrees to the left |
-| `ImageEditorRotateRightToolbarItem` | Rotates the image 90 degrees to the right |
-| `ImageEditorFlipHorizontalToolbarItem` | Flips the image in horizontal direction |
-| `ImageEditorFlipVerticalToolbarItem` | Flips the image in vertical direction |
-| `ImageEditorFilterOptionsToolbarItem` | Represents a button displaying a filter options panel for applying filters like blur, hue, saturation, etc. |
-| `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
-| `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
-| `SeparatorToolbarItem` | Represents a separator between the toolbar items |
+* `BackNavigationButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the back navigation button in the toolbar. The available options are:
+	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
+	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
+	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-## Toolbar Configuration
+* `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the back navigation button in the toolbar.
+* `IsBackNavigationButtonVisible`(`bool`)&mdash;Indicating whether the back navigation button is currently visible in the toolbar.
 
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar.
+### Configuration for the scroll button, scroll forward and backward buttons
 
-## Toolbar Item Configuration 
+* `ScrollButtonsVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the scroll buttons in the toolbar. The available options are:
+	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
+	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
+	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-Review all properties availabe for toolbar items configuration.
-
-**Properties for all toolbar items**
-
-The properties described bellow apply to all tollbar items available in the ImageEditorToolbar:
-
-* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate` with target type `Telerik.Maui.Controls.ToolbarItem`)&mdash;Specifies the control template of the toolbar item.
-* `IsEnabled`(`bool`)&mdash;Specifies whether the toolbar item is enabled.
-* `IsVisible`(`bool`)&mdash;Specifies whether the toolbar item is visible.
-* `PlacementOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemPlacementOptions`)&mdash;Defines the allowed placement options of the toolbar item in the toolbar. The available options are:
-	* ToolStrip&mdash;The toolbar item appears in the main tool strip area of the toolbar.
-	* DropDown&mdash;The toolbar item appears in the overflow drop-down menu of the toolbar.
-
-**Properties for specific toolbar items**
-
-The properties described below applies only on `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`, `flip`, `resize`, `undo`, `redo`, `crop`, `rotate`, `button` toolbar items:
-
-* `Text`(`string`)&mdash;Specifies the text in the toolbar item.
-* `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
-* `Style`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ToolbarItemView`)&mdash;Specifies the style applied to the toolbar item.
-* `Command`(`ICommand`)&mdash;Defines the command that is executed when the button is clicked.
-* `CommandParameter`(`object`)&mdash;Defines the parameter of the command, which is executed when the button is clicked.
-* `Clicked` event&mdash;Raised when the button is clicked.
-
-**Properties for filter toolbar items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
-
-* `Value`(`double`)&mdash;Defines the current value, when using an auto-generated slider content. Default value is`0`.
-* `MinimumProperty`(`double`)&mdash;Defines the minimum value, when using an auto-generated slider content. Default value is `-100`.
-* `MaximumProperty`(`double`)&mdash;Defines the maximum value, when using an auto-generated slider content. Default value is `100`.
-
-**Properties for navigation toolbar item**
-
-* `AutoGenerateItems`(`bool`)&mdash;Specifies a value indicating whether to auto-generate all child items by default. The default value is `true`.
-* `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of Telerik.Maui.Controls.ToolbarItems.
-
- >important For the ImageEditorToolbar example review the ImageEditor Getting Started example in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
-
+* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the forward scroll button in the toolbar.
+* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
+* `AreScrollButtonsVisible`(`bool`)&mdash;Indicating whether the scroll buttons are currently visible in the toolbar.
 
 ## See Also
 
