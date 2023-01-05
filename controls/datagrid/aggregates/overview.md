@@ -10,9 +10,13 @@ slug: datagrid-aggregates
 
 The DataGrid exposes an Aggregates API through the `DataGridColumn.AggregateDescriptors` property where you can add PropertyAggregateDescriptors or DelegateAggregateDescriptors.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-overview.html %}
+{% endif %}
+
 The [PropertyAggregateDescriptor]({%slug datagrid-property-aggregate-descriptor %}) enables you to utilize a set of available functions, while the [DelegateAggregateDescriptor]({%slug datagrid-delegate-aggregate-descriptor %}) allows you to implement a custom function through the `IAggregateFunction` interface.
 
-The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFooter` as well as the `GroupHeader` and  `GroupFooter`. 
+The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFooter` as well as the `GroupHeader` and `GroupFooter`.
 
 The `ShowColumnFooters` property is used to visualize the [ColumnFooters]({%slug datagrid-column-footer %}) of the `DataGrid`. However it is also used to display the Aggregates for the columns.
 
@@ -27,6 +31,8 @@ When [Grouping]({%slug datagrid-grouping-overview %}) is applied you can display
 The aggregate results can also be visualized in the Group header next to the title of the group. In order to show the Aggregates in the Header of the group the `ShowGroupHeaderAggregates` needs to be set to True.
 
 ![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
+
+>tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 

@@ -9,7 +9,7 @@ slug: listview-getting-started
 
 # Getting Started with .NET MAUI ListView
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI ListView by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
@@ -29,10 +29,10 @@ Before adding the ListView, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a ListView control to your page. The following example shows a sample ListView definition populated with sample data.
 
-  The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
+The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
-  * Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
-  * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
+- Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
+- Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
 
 Set up the `RadListView` instance:
 
@@ -85,7 +85,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+}
 ```
 
 ## Additional Resources

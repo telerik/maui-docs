@@ -41,6 +41,7 @@ The control supports groups expand and collapse operations either through the UI
 
 Users can control the `GroupDescriptor` collection by using MVVM. For more details, refer to the [Bindable Group Descriptors]({%slug listview-bindable-group-descriptor%}) article.
 
+>tip For an outline of all ListView features review the [.NET MAUI ListView Overview]({%slug listview-overview%}) article.
 
 ## See Also
 
