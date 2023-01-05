@@ -18,7 +18,8 @@ When you customize the toolbar you could include the following editing capabilit
 
 ### Applying image transformations
 
-* The toolbar items for applying **image transformations** to the image are:
+The toolbar items for applying **image transformations** to the image are:
+
 	* `ImageEditorCropToolbarItem`
 	* `ImageEditorResizeToolbarItem`
 	* `ImageEditorRotateLeftToolbarItem`
@@ -30,7 +31,8 @@ When you customize the toolbar you could include the following editing capabilit
 
 ### Applying filters
 
-* The toolbar items for applying **filters** to the image are:
+The toolbar items for applying **filters** to the image are:
+
 	* `ImageEditorHueToolbarItem`
 	* `ImageEditorSaturationToolbarItem`
 	* `ImageEditorBrightnessToolbarItem`

@@ -20,10 +20,10 @@ slug: imageeditor-overview
 	* **Image Transformations**
 		* **Crop**
 		* **Resize**
-		* **Rotate&mdash;Left and Right**
-		* **Flip&mdash;Horizontal and Vertical**
+		* **Rotate**&mdash;**Left and Right**
+		* **Flip**&mdash;**Horizontal and Vertical**
 	
-	* **Effects**
+	* **Filters**
 		* **Hue**
 		* **Saturation**
 		* **Brightness**
@@ -33,8 +33,8 @@ slug: imageeditor-overview
 * [Save the image]({%slug imageeditor-saving-image%})in a different format, size, quality and more.
 * **Support for undo/redo and reset**&mdash;ImageEditor has a history stack with the changes applied to the image. This means that you can reverse and re-apply actions.
 * **Support for Interactive Pan and Zoom**&mdash;ImageEditor provides pan and zoom functionality that will help you interact with the image and display it in a convenient way.
-* **Built-in Toolbar**&mdash;You could take advantage of a pre-defined UI automatically wired with all toolbar items provided by the control through built-in functionality.
-* **Custom Toolbar**&mdash;The ImageEditor Toolbar can be fully customized. You could populate the toolbar with the ToolbarItems needed for editing the image.
+* [Built-in Toolbar]({%slug imageeditor-toolbar%})&mdash;You could take advantage of a pre-defined UI automatically wired with all toolbar items provided by the control through built-in functionality.
+* [Custom Toolbar]({%slug imageeditor-custom-toolbar%})&mdash;The ImageEditor Toolbar can be fully customized. You could populate the toolbar with the ToolbarItems needed for editing the image.
 * [Commands support]({%slug imageeditor-commands%})&mdash;The control provides built in commands and interactive commands. In addition there are Toolbar commands.
 
 ## Next steps

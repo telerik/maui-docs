@@ -84,6 +84,14 @@ Commands which cancel/apply the changes made in interactive commands:
 
 * `RotateBackwardCommand`(`ICommand`)&mdash;Rotates the image backwards.
 
+## Commands iherited from the Toolbar control
+
+* `NavigateCommand`(`ICommand`)&mdash;Gets a command for navigating to the next level of the toolbar hierarchy. The command accepts a collection of `Telerik.Maui.Controls.ToolbarItems` as a parameter.
+* `NavigateBackCommand`(`ICommand`)&mdash;Gets a command for navigating back to the previous level of the toolbar hierarchy. The previous `Telerik.Maui.Controls.ToolbarItems` stored in the navigation stack from the last invocation of the `Telerik.Maui.Controls.RadToolbar.NavigateCommand` are restored in the toolbar.
+* `ScrollForwardCommand`(`ICommand`)&mdash;Gets a command for scrolling the contents of the toolbar in forward direction. This command is applicable when the `RadToolbar.OverflowMode` is set to `Scroll`.
+* `ScrollBackwardCommand`(`ICommand`)&mdash;Gets a command for scrolling the contents of the toolbar in backward direction. This command is applicable when the `RadToolbar.OverflowMode` is set to Scroll.
+
+
 ### Example
 
 

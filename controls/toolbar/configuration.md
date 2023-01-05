@@ -1,33 +1,36 @@
 ---
-title: Overview
-page_title: .NET MAUI ImageEditor Documentation - Toolbar
-description: "Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor."
-position: 0
-slug: imageeditor-toolbar
+title: Configuration
+page_title: .NET MAUI Toolbar Documentation - Configuration
+description: "Reviwe all Configuration options Telerik .NET MAUI Toolbar provides."
+position: 10
+slug: toolbar-configuration
 ---
 
-# .NET MAUI ImageEditor Toolbar
+# .NET MAUI Toolbar Configuration
 
-The **ImageEditorToolbar for .NET MAUI** includes items for editing the image in the ImageEditor, alternatively you could customize the shown editing options according to your needs.
+This article describes all configuration options available in the .NET MAUI Toolbar control.
 
-## Configuration of the ImageEditorToolbar
-
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar.
-
-The configuration properties are described below
-
-* Attach the `RadImageEditorToolbar` to the `RadImageEditor` control by setting the `ImageEditor`(of type `RadImageEditor`)property.
-
-<snippet id='imageeditor-getting-started-xaml'/>
-
-* By default the items in the `ImageEditorToolbar` are auto-populated. You could change this by setting the `RadImageEditorToolbar.AutoGenerateItems`(of type `bool`) to `False`. The default value is `True`.
+## Orientation
 
 * By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify rhe orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
-* `OptionsPanel`(`Telerik.Maui.Controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar.
+
+## Spacing between the toolbar items
+
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the items in the toolbar. The default value is `8`.
+
+## Spacing between the elements in the toolbar items
+
 * `LineSpacing`(`double`)&mdash;Specifies the spacing in pixels between the lines of items in the toolbar. This property has effect when the toolbar is in a multi-line wrap overflow mode. The default value is `8`.
 
-### Configuration of the Overflow menu
+* `OptionsPanel`(`Telerik.Maui.Controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar.
+
+## Toolbar Items
+
+* `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `ToolbarItems`.
+
+## Overflow menu
+
+When the items cannot fit in the toolbar available space an overflow menu is displayed. The properties related to the Overflow menu are: 
 
 * `OverflowMode`(enum of type `Telerik.Maui.Controls.ToolbarOverflowMode`)&mdash; Specifies the overflow mode when the items in the toolbar cannot fit in the available space. The available options are:
 	* `DropDown`(the default mode)&mdash;When the toolbar items cannot fit in the available space, they are placed in the overflow drop-down menu.
@@ -41,9 +44,11 @@ The configuration properties are described below
 
 * `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
 * `IsOverflowMenuButtonVisible`(`bool`)&mdash;Indicating whether the overflow menu button is currently visible in the toolbar.
+* `OverflowItems`(`IReadOnlyList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems` that are in the overflow area of the toolbar.
 
+## Back navigation button
 
-### Configuration of the back navigation button
+Back navigation button is displayed
 
 * `BackNavigationButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the back navigation button in the toolbar. The available options are:
 	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
@@ -53,7 +58,9 @@ The configuration properties are described below
 * `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the back navigation button in the toolbar.
 * `IsBackNavigationButtonVisible`(`bool`)&mdash;Indicating whether the back navigation button is currently visible in the toolbar.
 
-### Configuration for the scroll button, scroll forward and backward buttons
+## Scroll buttons
+
+Properties related to the scroll buttons configuration are:
 
 * `ScrollButtonsVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the scroll buttons in the toolbar. The available options are:
 	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
@@ -64,8 +71,8 @@ The configuration properties are described below
 * `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
 * `AreScrollButtonsVisible`(`bool`)&mdash;Indicating whether the scroll buttons are currently visible in the toolbar.
 
+
+
 ## See Also
 
-- [Saving Images]({%slug imageeditor-saving-image%})
-- [Loading Images]({%slug imageeditor-loading-image%})
-- [Zooming Images]({%slug imageeditor-zooming-image%})
+

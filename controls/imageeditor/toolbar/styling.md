@@ -20,7 +20,14 @@ Style the Toolbar using the following properties:
 * `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Specifies the corner radius of the border around the toolbar.
 * `Style`(of type `Microsoft.Maui.Controls.Style`, with targe type `Telerik.Maui.Controls.ToolbarContentView`)&mdash;Specifies the style of the toolbar. 
 
-## Style the Toolbar Item
+## Style the Overflow menu
+
+* `OverflowMenuButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the Style applied to the overflow menu button in the toolbar. 
+* `BackNavigationButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the Style applied to the back navigation button in the toolbar. 
+* `ScrollForwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the forward scroll button in the toolbar. 
+* `ScrollBackwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the backward scroll button in the toolbar. 
+
+## Style the Toolbar item
 
 Style the Toolbar item using the following properties:
 
