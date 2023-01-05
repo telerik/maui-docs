@@ -74,4 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [Commands]({%slug toolbar-commands%})
+- [Configuration]({%slug toolbar-configuration%})
+- [ToolbarItems]({%slug toolbar-items%})
 
