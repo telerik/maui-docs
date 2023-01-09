@@ -28,6 +28,6 @@ slug: toolbar-overview
 ## See Also
 
 - [.NET Toolbar page](https://www.telerik.com/maui-ui/toolbar)
-- [.NET MAUI Toolbar forum page](https://www.telerik.com/forums/maui?tagId=1781)
+- [.NET MAUI Toolbar forum page](https://www.telerik.com/forums/maui?tagId=1781)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
