@@ -98,6 +98,4 @@ Commands which cancel/apply the changes made in interactive commands:
 ## See Also
 
 - [Custom Toolbar]({%slug imageeditor-custom-toolbar%})
-- [Effects]({%slug imageeditor-effects%})
-- [Image Transformations]({%slug imageeditor-image-transformations%})
 - [Toolbar Styling]({%slug imageeditor-toolbar-styling%})

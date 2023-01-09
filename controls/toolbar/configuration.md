@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI Toolbar Documentation - Configuration
 description: "Reviwe all Configuration options Telerik .NET MAUI Toolbar provides."
-position: 10
+position: 3
 slug: toolbar-configuration
 ---
 

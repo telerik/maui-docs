@@ -331,7 +331,10 @@ navigation:
     ## End TimeSpanPicker
     ## Toolbar
     controls/toolbar:
-        title: "Toolbar"    
+        title: "Toolbar"
+    controls/toolbar/items:
+        title: "Items"
+        position: 4
     ## End Toolbar
     ## WordsProcessing
     controls/wordsprocessing:

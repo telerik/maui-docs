@@ -3,7 +3,7 @@ title: add context menu to the ListView Item
 description: Add context menu to the Telerik .NET MAUI ListView Item
 type: how-to
 page_title: How to add context menu to the ListView Item
-slug: chart-multiple-axis
+slug: listview-context-menu
 position: 
 tags: maui, listview, item, context menu, dotnet maui
 res_type: kb
