@@ -19,6 +19,6 @@ Add the namespace:
 
 ## See Also
 
-- [Signature Configuration]({% slug shadow-key-features%})
-- [Events]({% slug signaturepad-events%})
-- [Saving Options]({% slug signaturepad-saving-options%})
+- [Signature Configuration]({%slug signaturepad-configuration%})
+- [Events]({%slug signaturepad-events%})
+- [Saving Options]({%slug signaturepad-saving-options%})
