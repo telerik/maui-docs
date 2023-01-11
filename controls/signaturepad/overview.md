@@ -6,7 +6,7 @@ position: 0
 slug: signaturepad-overview
 ---
 
-# .NET MAUI SignaturePad vOverview
+# .NET MAUI SignaturePad Overview
 
 **Telerik UI for .NET MAUI SignaturePad** control gives you the option to capture a signature in your mobile and desktop applications, and fully customize signature's stroke and color. In addition you can easily save the signature as PNG or JPEG with additional saving settings using the flexible Saving API of the SignaturePad.  
 

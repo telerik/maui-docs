@@ -39,13 +39,13 @@ Once a column is frozen, it is added to the `FrozenColumns` collection (read-onl
 
 ## Styling
 
-When there is/are frozen column(s) a Splitter UI is visualized. The spliter UI splits the pinned(frozen) columns from the unpinned(unfrozen). 
+When there is/are frozen column(s) a splitter UI is visualized. The splitter UI splits the frozen columns from the unfrozen. 
 
-You can style the frozen splitter UI using the `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property.
+You can style the frozen splitter UI using the `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property. The `FrozenColumnsSplitterStyle` property is a property of the DataGrid. It cannot be set on a specific column.
 
-Style the Splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThickness`.
+Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThickness`. 
 
->important The `FrozenColumnsSplitterStyle` property is a property of the DataGrid. It cannot be set on a specific column.
+**Example for FrozenColumnsSplitterStyle**
 
 ```XAML
 <telerik:RadDataGrid.FrozenColumnsSplitterStyle>

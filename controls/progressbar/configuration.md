@@ -77,6 +77,16 @@ The ProgressBar exposes `LabelHorizontalOptions` property of type `Microsoft.Mau
 
 <snippet id='progressbar-configuration-labelalignment' />
 
+## Corners
+
+You can define corners of the progress indicator by setting the `ProgressCornerRadius`(`Microsoft.Maui.CornerRadius`) property. 
+
+Define corners to the background track by setting the `TrackCornerRadius`(`Microsoft.Maui.CornerRadius`) property.
+
+<snippet id='progressbar-styling-corner-radius'/>
+
+![Corners](images/progressbar-styling-corners.png)
+
 >important For the ProgressBar Configuration example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 Here is how the Configuration example looks:
