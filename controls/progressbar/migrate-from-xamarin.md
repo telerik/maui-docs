@@ -13,7 +13,6 @@ Overall, Telerik .NET MAUI ProgressBar control preserves the same API as Xamarin
 | Xamarin ProgressBar | .NET MAUI ProgressBar |
 | ------------- | --------------- |
 | `IndeterminateFill` | `ProgressFill` |
-| - | `CornerRadius` |
 | - | `ProgressCornerRadius` |
 | - | `TrackCornerRadius` |
 | - | `TrackThickness` |

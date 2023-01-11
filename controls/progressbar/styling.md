@@ -11,12 +11,15 @@ slug: progressbar-styling
 The ProgressBar control for .NET MAUI provides styling options for customizing its appearance.
 
 * `TrackFill`(`Brush`)&mdash;Specifies the color of the background track.
+* `TrackThickness`(`double`)&mdash;Specifies the thickness of the background track.
+* Define corners to the background track by setting the `TrackCornerRadius`(`Microsoft.Maui.CornerRadius`) property.
 
 <snippet id='progressbar-styling-trackfill'/>
 
 ![ProgressBar Track Fill](images/progressbar-styling-track-fill.png)
 
 * `ProgressFill`(`Brush`)&mdash;Specifies the color of the progress indicator.
+* Define corners of the progress indicator by setting the `ProgressCornerRadius`(`Microsoft.Maui.CornerRadius`) property. 
 
 <snippet id='progressbar-styling-progressfill'/>
 

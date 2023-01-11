@@ -9,7 +9,7 @@ tags: programmatic, scrolling
 
 # .NET MAUI DataGrid Scrolling
 
-The DataGrid has an internall scrolling mechanisum. There are vertical and horizontal scrollbars for scrolling through the data in the DataGrid. 
+The DataGrid has an internall scrolling mechanism. There are vertical and horizontal scrollbars for scrolling through the data in the DataGrid. 
 
 >important Avoid nesting the DataGrid in a ScrollView and other controls that provide scrolling.
 
