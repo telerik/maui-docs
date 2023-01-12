@@ -17,10 +17,11 @@ The images could be loaded from:
 * `File`
 * `Uri`
 * `Stream`
+* `Resources`
 
 **Load images for File**
 
-
+<snippet id='imageeditor-load-image-from-file'/>
 
 **Load images for Uri**
 
@@ -33,6 +34,10 @@ The images could be loaded from:
 **Load images for Stream**
 
 <snippet id='load-image-from-stream'/>
+
+**Load images for Resources**
+
+<snippet id='imageeditor-toolbar-styling'/>
 
 ## Loading Template
 
