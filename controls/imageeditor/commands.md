@@ -16,18 +16,16 @@ ImageEditor for .NET MAUI provides commands for programatically editing the imag
 
 * `CropCommand`(`ICommand`)&mdash;Crop the image.
 The `CropCommandContext` object is passed as a parameter to the `CropCommand`. The CropCommandContext has the following properties:
-	* `Geometry`(of type `Telerik.XamarinForms.Common.RadGeometry`)&mdash;Specifies the geometry of the crop selection.
+	* `Geometry`(of type `Telerik.Maui.Controls.RadGeometry`)&mdash;Specifies the geometry of the crop selection.
 	* `Bounds`(of type `Rectangle`)&mdash;Used to get the current crop bounding rectangle.
 
 * `CropInteractiveCommand`(`ICommand`)&mdash;Initiates the crop action.
 
 * `ResizeCommand`&mdash;For image resizing. 
 The `ResizeCommandContext` object is passed as a parameter to the `ResizeCommand`. The ResizeCommandContext has the following property:
-	* `Size`(of type`Xamarin.Forms.Size`)&mdash;Specifies the size which will be used to resize the image.
+	* `Size`(of type`Microsoft.Maui.Graphics.Size`)&mdash;Specifies the size which will be used to resize the image.
 
-* `RotateLeftCommand`(`ICommand`): for image rotation 90 degree to the left.
-
-* `RotateRightCommand`: for image rotation 90 degree to the right.
+* `ResizeInteractiveCommand`&mdash;For image resizing. 
 
 * `BlurCommand`&mdash;Applies blur to the image.
 The `BlurCommandContext` object is passed as a parameter to the `BlurCommand`. The BlurCommandContext has the following property:
@@ -70,17 +68,29 @@ The `SaturationCommandContext` object is passed as a parameter to the `SharpenCo
 
 * `FlipVerticalCommand`(`ICommand`)&mdash;Flips the image vertically.
 
+* `FilterCommand`(`ICommand`)&mdash;Applies a composite filter to the image.
+
+* `FilterInteractiveCommand`(`ICommand`)&mdash;Initiates the composite filter action of the image.
+
 Commands which cancel/apply the changes made in interactive commands:
 
-* `CancelInteractiveCommand`&mdash;Cancels the changes done in interactive command such as `Telerik.XamarinForms.ImageEditor.RadImageEditor.CropInteractiveCommand`.
+* `CancelInteractiveCommand`&mdash;Cancels the changes done in interactive command such as `Telerik.Maui.Controls.RadImageEditor.CropInteractiveCommand`.
 
-* `ApplyInteractiveCommand`&mdash;Applies the changes done in interactive command such as `Telerik.XamarinForms.ImageEditor.RadImageEditor.CropInteractiveCommand`.
+* `ApplyInteractiveCommand`&mdash;Applies the changes done in interactive command such as `Telerik.Maui.Controls.RadImageEditor.CropInteractiveCommand`.
 
 >important When using the **Interactive Commands** you can apply the changes using `ApplyInteractiveCommand` and cancel the changes using `CancelInteractiveCommand`.
+
+* `ZoomToFitCommand`(`ICommand`)Gets the command which zooms the image to fit the available screen space.
+
+* `RotateLeftCommand`(`ICommand`)&mdash;for image rotation 90 degree to the left.
+
+* `RotateRightCommand`&mdash;for image rotation 90 degree to the right.
 
 * `UndoCommand`(`ICommand`)&mdash;Gets the command for the undo action.
 
 * `RedoCommand`(`ICommand`)&mdash;Gets the command for the redo action.
+
+* `ResetCommnad`(`ICommand`)&mdash;Reset all changes applied to the image.
 
 * `RotateBackwardCommand`(`ICommand`)&mdash;Rotates the image backwards.
 

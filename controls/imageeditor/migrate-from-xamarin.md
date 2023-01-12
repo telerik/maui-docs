@@ -12,6 +12,8 @@ Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin
 
 | Xamarin ImageEditor | .NET MAUI ImageEditor |
 | ------------- | --------------- |
+| - | support for exporting images as `Gif` |
+| - | support for exporting images as `Bmp` |
 | - | `UndoCommand` |
 | - | `RedoCommand` |
 | - | `RotateBackwardCommand` |

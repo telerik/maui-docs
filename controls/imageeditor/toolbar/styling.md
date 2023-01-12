@@ -2,7 +2,7 @@
 title: Styling
 page_title: .NET MAUI ImageEditor Documentation - Toolbar Styling
 description: "Review all styling oprions that can be applied to the ImageEditor toolbar for .NET MAUI."
-position: 2
+position: 3
 slug: imageeditor-toolbar-styling
 ---
 

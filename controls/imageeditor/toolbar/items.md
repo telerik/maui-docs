@@ -2,7 +2,7 @@
 title: ImageEditorToolbar Items
 page_title: .NET MAUI ImageEditor Documentation - ImageEditorToolbar Items
 description: "Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor."
-position: 0
+position: 1
 slug: imageeditor-toolbar-items
 ---
 
