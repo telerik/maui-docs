@@ -28,6 +28,8 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 * `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `ToolbarItems`.
 
+>important All built-in toolbar items are desctibed in the Toolbar Items secrion.
+
 ## Overflow menu
 
 When the items cannot fit in the toolbar available space an overflow menu is displayed. The properties related to the Overflow menu are: 
@@ -43,8 +45,12 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
-* `IsOverflowMenuButtonVisible`(`bool`)&mdash;Indicating whether the overflow menu button is currently visible in the toolbar.
 * `OverflowItems`(`IReadOnlyList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems` that are in the overflow area of the toolbar.
+* `OverflowMenuButtonStyle`(`Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the style applied to the Overflow menu button.
+
+## Separator between the toolbar items
+
+You can easily separate the toolbar items using the `SeparatorToolbarItem`.
 
 ## Back navigation button
 
@@ -56,7 +62,7 @@ Back navigation button is displayed
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the back navigation button in the toolbar.
-* `IsBackNavigationButtonVisible`(`bool`)&mdash;Indicating whether the back navigation button is currently visible in the toolbar.
+* `BackNavigationButtonStyle`(`Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the style applied to the back navigation button.
 
 ## Scroll buttons
 
@@ -68,10 +74,9 @@ Properties related to the scroll buttons configuration are:
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the forward scroll button in the toolbar.
+* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Definess the style applied to the forward scroll button in the toolbar.
 * `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
-* `AreScrollButtonsVisible`(`bool`)&mdash;Indicating whether the scroll buttons are currently visible in the toolbar.
-
-
+* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Definess the style applied to the backward scroll button in the toolbar.
 
 ## See Also
 

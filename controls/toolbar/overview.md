@@ -20,6 +20,8 @@ slug: toolbar-overview
 * [Overflow menu]()&mdash;When the toolbar items cannot fit in the available space an overflow button is displayed. The items are added in the overflow menu. You can display them using the different modes of the overflow menu.
 * Panning and scrolling throught the Toolbar items.
 * [Styling options]()&mdash;for overflow menu button, back navigation button and more.
+* Options to separate the toolbar items through UI element part of the toolbar items&mdash;SeparatorToolbarItem.
+* Options to group the toolbar items.
 
 ## Next steps
 

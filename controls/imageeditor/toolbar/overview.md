@@ -40,8 +40,7 @@ The configuration properties are described below
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
-* `IsOverflowMenuButtonVisible`(`bool`)&mdash;Indicating whether the overflow menu button is currently visible in the toolbar.
-
+* `OverflowMenuButtonStyle`(`Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the style applied to the Overflow menu button.
 
 ### Configuration of the back navigation button
 
@@ -51,7 +50,7 @@ The configuration properties are described below
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the back navigation button in the toolbar.
-* `IsBackNavigationButtonVisible`(`bool`)&mdash;Indicating whether the back navigation button is currently visible in the toolbar.
+* `BackNavigationButtonStyle`(`Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the style applied to the back navigation button.
 
 ### Configuration for the scroll button, scroll forward and backward buttons
 
@@ -61,8 +60,10 @@ The configuration properties are described below
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
 * `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the forward scroll button in the toolbar.
+* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Definess the style applied to the forward scroll button in the toolbar.
 * `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
-* `AreScrollButtonsVisible`(`bool`)&mdash;Indicating whether the scroll buttons are currently visible in the toolbar.
+* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Definess the style applied to the backward scroll button in the toolbar.
+
 
 ## See Also
 
