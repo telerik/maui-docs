@@ -17,4 +17,5 @@ This article describes all available commands in the .NET MAUI Toolbar control.
 
 ## See Also
 
-
+- [Toolbar Items]({%slug toolbar-items%})
+- [Styling]({%slug toolbar-styling%})

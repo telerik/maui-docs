@@ -15,6 +15,8 @@ The exposed properties are:
 * `IsOpen`(`bool`)&mdash;Indicating whether the drop-down is currently open.
 * `DropDownContentTemplate`(`ControlTemplate`)&mdash;Specifies the ControlTemplate of the drop-down content. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewContent.`
 * `DropDownIndicatorTemplate`(`ControlTemplate`)&mdash;Specifies the ControlTemplate of the drop-down indicator. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewIndicator.`
+* `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
+* `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
 ## Events
 

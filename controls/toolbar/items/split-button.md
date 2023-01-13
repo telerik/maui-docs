@@ -18,7 +18,7 @@ The exposed property is `Items`(of type `IList<ToolbarItem>`)&mdash;Read-only co
 
 SplitButtonToolbarItem has `Style` property with target type `SplitButtonToolbarItemView`.
 
-The properties that can be applied through style are the properties applicable for [DropDownButtonToolbarItem]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
+The properties that can be applied through style are the properties applicable for [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
 ## See Also
 

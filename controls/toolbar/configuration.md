@@ -46,11 +46,11 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 
 * `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
 * `OverflowItems`(`IReadOnlyList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems` that are in the overflow area of the toolbar.
-* `OverflowMenuButtonStyle`(`Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the style applied to the Overflow menu button.
+* `OverflowMenuButtonStyle`(`Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the style applied to the Overflow menu button. The properties that can be applied through style are the properties applicable for [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
 ## Separator between the toolbar items
 
-You can easily separate the toolbar items using the `SeparatorToolbarItem`.
+You can easily separate the toolbar items using the `[SeparatorToolbarItem]({%slug toolbar-items-separator%})`.
 
 ## Back navigation button
 
@@ -80,4 +80,6 @@ Properties related to the scroll buttons configuration are:
 
 ## See Also
 
-
+- [Toolbar Items]({%slug toolbar-items%})
+- [Styling]({%slug toolbar-styling%})
+- [Commands]({%slug toolbar-commands%})

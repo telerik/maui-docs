@@ -1,18 +1,18 @@
 ---
-title: Navigation Button
-page_title: .NET MAUI Toolbar Documentation - Navigation Button
+title: NavigationButton
+page_title: .NET MAUI Toolbar Documentation - NavigationButton ToolbarItem
 description: "Review the Toolbar navigation button item for .NET MAUI"
 position: 0
 slug: toolbar-items-navigation-button
 ---
 
-# .NET MAUI Toolbar Navigation Button
+# .NET MAUI NavigationButton ToolbarItem
 
 Add a navigation button in the Toolbar control using the `NavigationButtonToolbarItem`. The `NavigationButtonToolbarItem` inherits from [ButtonToolbarItem]({%slug toolbar-items-button%}). All properties applicable for button toolbar item can be used in the navigation button toolbar item.
 
 * `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems` to navigate to in the toolbar.
 
-* `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbaritm control. You can display an image next to the text.
+* `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
 <snippet id='toolbar-navigationbutton-item'/>

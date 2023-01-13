@@ -33,4 +33,5 @@ All styling options applicable for the toolbar items are described in each toolb
 
 ## See Also
 
-
+- [Toolbar Items]({%slug toolbar-items%})
+- [Commands]({%slug toolbar-commands%})
