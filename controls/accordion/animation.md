@@ -27,11 +27,11 @@ The snippet below shows how the `AnimationDuration`, `AnimationEasing` propertie
 
 The image below shows the result after running the snippet:
 
-![.NET MAUI Accordion Animation](images/accordion_animation_1.png)
+![.NET MAUI Accordion Animation](images/accordion-animation-1.png)
 
 And the `RadAccordion` when all items are collapsed:
 
-![.NET MAUI Accordion Animation](images/accordion_animation_2.png)
+![.NET MAUI Accordion Animation](images/accordion-animation-2.png)
 
 >important For the Accordion Animation example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
