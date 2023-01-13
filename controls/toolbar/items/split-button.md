@@ -2,7 +2,7 @@
 title: SplitButton
 page_title: .NET MAUI Toolbar Documentation - SplitButton ToolbarItem
 description: "Review the Toolbar split button item for .NET MAUI"
-position: 0
+position: 5
 slug: toolbar-items-split-button
 ---
 

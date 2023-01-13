@@ -2,7 +2,7 @@
 title: Slider
 page_title: .NET MAUI Toolbar Documentation - Slider
 description: "Review the Toolbar Slider item for .NET MAUI"
-position: 0
+position: 8
 slug: toolbar-items-slider
 ---
 

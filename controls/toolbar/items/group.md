@@ -2,7 +2,7 @@
 title: Group
 page_title: .NET MAUI Toolbar Documentation - Group ToolbarItem
 description: "Review the Toolbar group item for .NET MAUI"
-position: 0
+position: 10
 slug: toolbar-items-group
 ---
 
