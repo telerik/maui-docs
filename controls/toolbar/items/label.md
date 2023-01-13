@@ -45,6 +45,8 @@ The available properties are:
 * `HorizontalContentOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the horizontal alignment options of the content displayed in the toolbar item.
 * `VerticalContentOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the vertical alignment options of the content displayed in the toolbar item.
 
+All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling).
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

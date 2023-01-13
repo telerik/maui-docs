@@ -23,7 +23,7 @@ GroupToolbarItem has a `Style` property with target type `GroupToolbarItemView`.
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the toolbar items in the group.
 * `ItemsSource`(`IList`)&mdash;Specifies a collection of toolbar items to be placed in the group.
 
-All other properties that can be applied thorug style are the properties exposed for [ToolbarItemView]({%slug toolbar-items%}#styling).
+All other properties that can be applied through style are the properties exposed for [ToolbarItemView]({%slug toolbar-items%}#styling).
 
 
 ## See Also

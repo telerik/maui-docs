@@ -42,7 +42,7 @@ The available commands are:
 
 ButtonToolbarItem has a `Style` property with target type `ButtonToolbarItemView`. The properties exposed in the `ButtonToolbarItemView` are `Command`, `CommandParameter`, `Clicked` event.
 
-All other properties that can be applied thorug style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
+All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
 
 <snippet id='imageeditor-styling-button-toolbar-style'/>
 
