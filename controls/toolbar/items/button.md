@@ -12,7 +12,7 @@ Add buttons in the toolbar using the `ButtonToolbarItem`.
 
 The available properties for configuration are:
 
-* `Text`(`string`)&mdash;Defines the text(target type Label) in the toolbaritm control. You can display an image nexto to the text.
+* `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
 ```XAML
@@ -42,7 +42,7 @@ The available commands are:
 
 ButtonToolbarItem has a `Style` property with target type `ButtonToolbarItemView`. The properties exposed in the `ButtonToolbarItemView` are `Command`, `CommandParameter`, `Clicked` event.
 
-All other properties that can be applied thorug style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
+All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
 <snippet id='imageeditor-styling-button-toolbar-style'/>
 
