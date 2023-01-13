@@ -28,7 +28,7 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 * `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `ToolbarItems`.
 
->important All built-in toolbar items are desctibed in the Toolbar Items secrion.
+>important All built-in toolbar items are desctibed in the [Toolbar Items]({%slug toolbar-items%}) section.
 
 ## Overflow menu
 

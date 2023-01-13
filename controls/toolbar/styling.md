@@ -27,6 +27,9 @@ Style the Toolbar using the following properties:
 * `ScrollForwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the forward scroll button in the toolbar. 
 * `ScrollBackwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the backward scroll button in the toolbar. 
 
+## Styling the toolbar items
+
+All styling options applicable for the toolbar items are described in each toolbar item article.
 
 ## See Also
 

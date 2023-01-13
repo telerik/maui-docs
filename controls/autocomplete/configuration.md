@@ -25,9 +25,7 @@ The default `DisplayMode` is `Plain`&mdash;The picked item is visualized as plai
 
 ## Completion Mode
 
-* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. 
-
-The available options are:
+* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. The available options are:
 	* `StartsWith`&mdash;Filters the items that start with the text typed in the input area.
 	* `Contains`&mdash;Filters the items that contain the text typed in the input area.
 
@@ -65,10 +63,10 @@ By default the search is triggered as soon as the user types into the input fiel
 ## SuggestionView visibility
 
 * `ShowSuggestionView`(`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
-* `SuggestionViewHeight`(double`)&mdash;Defines the SuggestionViewHeight of the control.
+* `SuggestionViewHeight`(`double`)&mdash;Defines the SuggestionViewHeight of the control.
 * `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
-* `SuggestionViewBorderThickness`&mdash;Defines the thickness of the border around the suggestion view.
-* `SuggestionViewCornerRadius`&mdash;Defines the corner radius applied to the Suggestion View.
+* `SuggestionViewBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.
+* `SuggestionViewCornerRadius`(`Thickness`)&mdash;Defines the corner radius applied to the Suggestion View.
 * `SuggestionViewBackgroundColor`(`Color`)&mdash;Defines the BackgroundColor of the suggestion view.
 
 <snippet id='autocomplete-suggestionview'/>
@@ -77,9 +75,9 @@ By default the search is triggered as soon as the user types into the input fiel
 
 * `SuggestionViewPosition` property which enables you to explicitly define whether the suggestions popup will be shown below or above the input field. `SuggestionViewPosition` is of enum type `Telerik.Maui.Controls.AutoCompletePopupPosition` and can be set to any of the following values:
 
-* (default) `Auto`
-* `Top`
-* `Bottom`
+	* (default) `Auto`
+	* `Top`
+	* `Bottom`
 
 Where `Auto` calculates the available space and chooses what's the best position of the popup, starting with `Bottom`. With `Top`/`Bottom` setting, the popup is positioned above or below the AutoComplete respectively.
 
