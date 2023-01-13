@@ -18,11 +18,11 @@ The snippet below shows how the `Spacing` property can be applied:
 
 The image below shows the result after running the snippet:
 
-![.NET MAUI Accordion Item Spacing](images/accordion_item-spacing-1.png)
+![.NET MAUI Accordion Item Spacing](images/accordion-item-spacing-1.png)
 
 And the Accordion when all items are collapsed:
 
-![.NET MAUI Accordion Item Spacing](images/accordion_item-spacing_2.png)
+![.NET MAUI Accordion Item Spacing](images/accordion-item-spacing-2.png)
 
 >important A sample Item Spacing example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}#sdk-browser-application).
 
