@@ -33,17 +33,16 @@ When your .NET MAUI application is set up, you are ready to add a Accordion cont
 <snippet id='accordion-getting-started-xaml' />
 <snippet id='accordion-getting-started-csharp' />
 
-**2.** And the items source for the suggestion list:
 
-<snippet id='accordion-getting-started-items-source'/>
+>important RadAccordion provides a read only collection `Items` of type `IList<AccordionItem>`.
 
-**3.** Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
