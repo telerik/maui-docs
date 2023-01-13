@@ -1,12 +1,12 @@
 ---
-title: Radio Button
-page_title: .NET MAUI Toolbar Documentation - Radio Button
+title: RadioButton
+page_title: .NET MAUI Toolbar Documentation - RadioButton ToolbarItem
 description: "Review the Toolbar radio button item for .NET MAUI"
-position: 0
+position: 3
 slug: toolbar-items-radio-button
 ---
 
-# .NET MAUI Toolbar Radio Button
+# .NET MAUI RadioButton ToolbarItem
 
 You can add radio buttons in the toolbar control using the `RadioButtonToolbarItem`.
 

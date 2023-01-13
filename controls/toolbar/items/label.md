@@ -2,7 +2,7 @@
 title: Label
 page_title: .NET MAUI Toolbar Documentation - Label ToolbarItem
 description: "Review the Toolbar item label for .NET MAUI"
-position: 0
+position: 1
 slug: toolbar-items-label
 ---
 

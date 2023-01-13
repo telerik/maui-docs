@@ -2,7 +2,7 @@
 title: ToggleButton
 page_title: .NET MAUI Toolbar Documentation - ToggleButton ToolbarItem
 description: "Review the Toolbar toggle button item for .NET MAUI"
-position: 0
+position: 4
 slug: toolbar-items-toggle-button
 ---
 
