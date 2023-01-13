@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **3.** Add Toolbar items to the RadToolbar control:
 
-
+<snippet id='toolbar-getting-started'/>
 
 **4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
@@ -74,7 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Commands]({%slug toolbar-commands%})
 - [Configuration]({%slug toolbar-configuration%})
 - [ToolbarItems]({%slug toolbar-items%})
+- [Commands]({%slug toolbar-commands%})
 
