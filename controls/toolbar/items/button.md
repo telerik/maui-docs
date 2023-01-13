@@ -15,6 +15,16 @@ The available properties for configuration are:
 * `Text`(`string`)&mdash;Defines the text(target type Label) in the toolbaritm control. You can display an image nexto to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
+```XAML
+<telerik:ButtonToolbarItem Text="Undo">
+    <telerik:ButtonToolbarItem.ImageSource>
+        <FontImageSource Glyph="{x:Static telerik:TelerikFont.IconUndo}"
+                            FontFamily="{x:Static telerik:TelerikFont.Name}"
+                            Size="16" />
+    </telerik:ButtonToolbarItem.ImageSource>
+</telerik:ButtonToolbarItem>
+```
+
 ## Events
 
 The exposed events are:
@@ -28,16 +38,6 @@ The available commands are:
 * `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
 * `CommandParameter`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
 
-```XAML
-<telerik:ButtonToolbarItem Text="Undo">
-    <telerik:ButtonToolbarItem.ImageSource>
-        <FontImageSource Glyph="{x:Static telerik:TelerikFont.IconUndo}"
-                            FontFamily="{x:Static telerik:TelerikFont.Name}"
-                            Size="16" />
-    </telerik:ButtonToolbarItem.ImageSource>
-</telerik:ButtonToolbarItem>
-```
-
 ## Styling
 
 ButtonToolbarItem has a `Style` property with target type `ButtonToolbarItemView`. The properties exposed in the `ButtonToolbarItemView` are `Command`, `CommandParameter`, `Clicked` event.
@@ -48,9 +48,12 @@ All other properties that can be applied thorug style are the properties applica
 
 ## See Also
 
-- [SplitButton ToolbarItem]({%slug %})
-- [ToggleButton ToolbarItem]({%slug %})
+- [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})
+- [ToggleButton ToolbarItem]({%slug toolbar-items-toggle-button%})
 - [Label ToolbarItem]({%slug toolbar-items-label%})
-- [NavigationButton ToolbarItem]({%slug %})
-- [ListPicker ToolbarItem]({%slug %})
+- [NavigationButton ToolbarItem]({%slug toolbar-items-navigation-button%})
+- [ListPicker ToolbarItem]({%slug toolbar-items-listpicker-button%})
+- [Group ToolbarItem]({%slug toolbar-items-group%})
+- [RadioButton ToolbarItem]({%slug toolbar-items-radio-button%})
+- [Slider ToolbarItem]({%slug toolbar-items-slider%})
 
