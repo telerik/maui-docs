@@ -33,7 +33,7 @@ The available commands are:
 
 ToggleButtonToolbarItem has a `Style` property with target type `ToggleButtonToolbarItemView`. The property exposed in the `ToggleButtonToolbarItemView` is the `IsSelected` property.
 
-All other properties that can be applied through style are the properties applicable for [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling) [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
+All other properties that can be applied through style are the properties applicable for [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
 
 ## See Also
 

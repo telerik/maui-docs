@@ -12,7 +12,7 @@ Add labels in the toolbar using the `LabelToolbarItem`.
 
 The available properties for configuration are:
 
-* `Text`(`string`)&mdash;Defines the text(target type Label) in the toolbaritm control. You can display an image nexto to the text.
+* `Text`(`string`)&mdash;Defines the text(target type Label) in the toolbaritm control. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
 ## Styling
