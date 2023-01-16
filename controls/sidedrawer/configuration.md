@@ -33,6 +33,8 @@ Use the folloing properties to define content of the SideDrawer control:
 
 By default the SideDrawer Drawer Content closes when user clicks/taps outside of it. By setting the `TapOutsideToClose`(`bool`) to `false`, the drawer content remains open if the user taps/clicks outside of it and the main content area remains active. The default value of `TapOutsideToClose` is `true`.
 
+![SideDrawer Main Content Area active Started](images/sidedrawer-main-content-active.gif)
+
 >important A sample Location example can be found in the SideDrawer/Features folder of the [SDK Samples Browser application]({%slug maui-demo-app%}).
 
 ## See Also

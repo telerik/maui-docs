@@ -12,7 +12,7 @@ This article describes the frozen columns feature that DataGrid provides.
 
 You can pin a column on the left side of the grid by setting the `IsFrozen`(`bool`) property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. 
 
-![.NET MAUI DataGrid Frozen Column](../images/frozen-column.png)
+![.NET MAUI DataGrid Frozen Column](../images/frozen-column.gif)
 
 Set the column freeze in XAML
 
@@ -49,7 +49,7 @@ Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThi
 
 ```XAML
 <telerik:RadDataGrid.FrozenColumnsSplitterStyle>
-    <telerik:DataGridFrozenColumnsSplitterStyle Width="20"
+    <telerik:DataGridFrozenColumnsSplitterStyle Width="8"
                                                 BorderColor="Gray"
                                                 BorderThickness="2"
                                                 BackgroundColor="LightBlue"/>
