@@ -8,7 +8,7 @@ slug: toolbar-items
 
 # .NET MAUI ToolbarItem Overview
 
-Telerik .NET MAUI Toolbar provides a built-in toolbar items. The availabler items are descirbed in the table below: 
+Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available items are described in the table below: 
 
 | Toolbar Item | Description |
 | ------------ | ------- |
