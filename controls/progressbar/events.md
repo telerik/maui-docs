@@ -37,7 +37,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='progressbar-progresscompleted-event'/>
 
-The final result when using the `ProgressChanged` and `ProgressCompleted` events:
+The final result when using the `ProgressChanged` and `ProgressCompleted` events on Android:
+
+![.NET MAUI ProgressBar events](images/progressbar-events-android.gif)
+
+And on WinUI:
+
+![.NET MAUI ProgressBar events](images/progressbar-progress-windows.gif)
 
 >important For the ProgressBar Events example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

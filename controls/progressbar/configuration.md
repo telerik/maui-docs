@@ -89,9 +89,13 @@ Define corners to the background track by setting the `TrackCornerRadius`(`Micro
 
 >important For the ProgressBar Configuration example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
-Here is how the Configuration example looks:
+Here is how the Configuration example looks on MacCatalyst and WinUI:
 
 ![ProgressBar Configuration](images/progressbar-configuration.png)
+
+And how the example looks on iOS and Android: 
+
+![ProgressBar Configuration](images/progressbar-configuration-mobile.png)
 
 ## See Also
 
