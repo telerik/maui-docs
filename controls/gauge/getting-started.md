@@ -25,7 +25,7 @@ Before adding the Gauge, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
 
-> important The Gauge is rendered through the [SkiaSharp graphics library](https://skia.org/).
+>important The Gauge is rendered through the [SkiaSharp graphics library](https://skia.org/).
 
 ## Define the Control
 
@@ -35,9 +35,9 @@ Before adding the Gauge, you need to:
 
 1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
@@ -59,13 +59,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }
+ }           
 ```
 
 ## Additional Resources
 
-- [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
-- [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
+- [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
+- [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

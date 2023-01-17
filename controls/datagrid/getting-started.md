@@ -28,23 +28,23 @@ Before adding the DataGrid, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a DataGrid control to your page.
 
-```XAML
+ ```XAML
 <telerik:RadDataGrid x:Name="dataGrid"/>
-```
+ ```
 
 1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
-```C#
-using Telerik.Maui.Controls.Compatibility;
+ ```C#
+ using Telerik.Maui.Controls.Compatibility;
 
-public static class MauiProgram
-{
+ public static class MauiProgram
+ {
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -58,15 +58,15 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}
-```
+ }           
+ ``` 
 
 ## Visualize Sample Data
 
 The DataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the DataGrid with infinite width and height constraints and the virtualization will not work:
 
-- Positioning the DataGrid inside a StackLayout which is wrapped in a ScrollView.
-- Positioning the DataGrid inside a ScrollView.
+* Positioning the DataGrid inside a StackLayout which is wrapped in a ScrollView.
+* Positioning the DataGrid inside a ScrollView.
 
 Now that you have added the control to your view, you need to make sure that is properly loaded with the required data.
 
@@ -92,12 +92,14 @@ this.dataGrid.ItemsSource = new List<Data>
 };
 ```
 
+
 ## Additional Resources
 
 - [.NET MAUI DataGrid product page](https://www.telerik.com/maui-ui/datagrid)
 - [.NET MAUI DataGrid forum page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 
 ## See Also
 

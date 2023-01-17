@@ -13,15 +13,15 @@ The command design-pattern is very important and widely used in the XAML and MVV
 
 The DataGrid exposes a `Commands` collection that allows you to register custom commands with each control instance through the `RadDataGrid.Commands` property:
 
-- `Commands`&mdash;Gets the collection with all the custom commands registered with the `CommandService`. Custom commands have higher priority than the built-in (default) ones.
+* `Commands`&mdash;Gets the collection with all the custom commands registered with the `CommandService`. Custom commands have higher priority than the built-in (default) ones.
 
 ## Command Types
 
-- `DataGridCommand`&mdash;All the default commands within RadDataGrid derive from the base DataGridCommand. Think of this command as a UI-related command as it operates over the RadDataGrid instance that owns the command.
+* `DataGridCommand`&mdash;All the default commands within RadDataGrid derive from the base DataGridCommand. Think of this command as a UI-related command as it operates over the RadDataGrid instance that owns the command.
 
-- `Id`&mdash;The key that relates a command instance to a particular action/routine. This value is used to associate a command with a known event within a `RadDataGrid` instance.
-- `Command`&mdash;Gets or sets the generic `ICommand` implementation that may come from the `ViewModel`.
-- `EnableDefaultCommand`&mdash;Gets or sets a value indicating whether the default (built-in) UI command associated with the specified `Id` will be executed. The default value is `True`.
+ * `Id`&mdash;The key that relates a command instance to a particular action/routine. This value is used to associate a command with a known event within a `RadDataGrid` instance.
+ * `Command`&mdash;Gets or sets the generic `ICommand` implementation that may come from the `ViewModel`.
+ * `EnableDefaultCommand`&mdash;Gets or sets a value indicating whether the default (built-in) UI command associated with the specified `Id` will be executed. The default value is `True`.      
 
 ## DataGridCommandId Enumeration
 
@@ -29,21 +29,21 @@ All the predefined commands within a `RadDataGrid` instance are identified by a 
 
 The table below shows all commands in the DataGrid control and for each of the available commands there is an object which is passed as a `parameter` in its `Execute` method.
 
-| Commands              | Object type                    |
-| --------------------- | ------------------------------ |
-| Unknown               | `DataGridColumn`               |
-| `ColumnHeaderTap`     | `DataGridTextColumn`           |
-| `GroupHeaderTap`      | `GroupHeaderContext`           |
-| `OptionsTap`          | `OptionsTapContext`            |
-| `CellTap`             | `DataGridCellInfo`             |
-| `CellDoubleTap`       | `DataGridCellInfo`             |
-| `GenerateColumn`      | `GenerateColumnContext`        |
+| Commands | Object type |
+| -------- | ---------- |
+| Unknown | `DataGridColumn` |
+| `ColumnHeaderTap`  | `DataGridTextColumn` |
+| `GroupHeaderTap`      | `GroupHeaderContext` |
+| `OptionsTap`      | `OptionsTapContext` |
+| `CellTap` | `DataGridCellInfo` |
+| `CellDoubleTap` | `DataGridCellInfo` |
+| `GenerateColumn` | `GenerateColumnContext` |
 | `DataBindingComplete` | `DataBindingCompleteEventArgs` |
-| `BeginEdit`           | `EditContext`                  |
-| `CancelEdit`          | `EditContext`                  |
-| `CommitEdit`          | `EditContext`                  |
-| `ValidateCell`        | `ValidateCellContext`          |
-| `LoadMoreData`        | `LoadOnDemandContext`          |
+| `BeginEdit` | `EditContext` |
+| `CancelEdit` | `EditContext` |
+| `CommitEdit` | `EditContext` |
+| `ValidateCell` | `ValidateCellContext` |
+| `LoadMoreData` | `LoadOnDemandContext` |
 
 >tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 

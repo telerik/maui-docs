@@ -14,7 +14,7 @@ slug: datagrid-grouping-overview
 
 ![Grouping UI](../images/grouping-ui-windows.gif)
 
-The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile, it allows the user to group the DataGrid by dragging and dropping the column headers to the `DataGridGroupingPanel`.
+The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile, it allows the user to group the DataGrid by dragging and dropping the column headers to the `DataGridGroupingPanel`. 
 
 The UI is represented by the `DataGridGroupingPanel`. The panel is part of the DataGrid and it is visualized at the top.
 
@@ -24,9 +24,8 @@ The UI is represented by the `DataGridGroupingPanel`. The panel is part of the D
 
 Programmatic grouping can be done by adding descriptors to the `GroupDescriptors` collection. There are two types of descriptors:
 
-- `PropertyGroupDescriptor`&mdash;Uses a property from the model as a group key.
-- `PropertyGroupDescriptor`&mdash;Uses a property from the model as a group key.
-- `DelegateGroupDescriptor`&mdash;Creates a custom group key which you can use.
+* `PropertyGroupDescriptor`&mdash;Uses a property from the model as a group key.
+* `DelegateGroupDescriptor`&mdash;Creates a custom group key which you can use.
 
 ## Expand and Collapse Groups
 
@@ -34,7 +33,7 @@ The DataGrid supports group expand and collapse operations either through the UI
 
 ## Group Footer
 
-The DataGrid has a support for group footers. You can visualize the footers by setting the `ShowGroupFooters` to `True`.
+The DataGrid has a support for group footers. You can visualize the footers by setting the `ShowGroupFooters` to `True`. 
 
 If you want to fully customize the group footers you can use the `GroupFooterTemplate`(`DataTemplate`) property.
 
@@ -48,7 +47,7 @@ If you want to fully customize the group footers you can use the `GroupFooterTem
 </telerik:RadDataGrid.GroupFooterTemplate>
 ```
 
->`GroupFooterTemplate` overrides the aggregates of the footer.
+> `GroupFooterTemplate` overrides the aggregates of the footer.
 
 >tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
