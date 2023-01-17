@@ -54,7 +54,7 @@ For indeterminate mode you can style the ProgressBar using the `ProgressFill`(`B
 
 <snippet id='progressbar-styling-separator-segments'/>
 
-![ProgressBar Style the indeterminate mode fill](images/progressbar-styling-segments-separator.png)
+![ProgressBar Style the indeterminate mode fill](images/progressbar-styling-indeterminate-fill.png)
 
 >important For the ProgressBar Styling example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

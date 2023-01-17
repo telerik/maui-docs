@@ -29,9 +29,13 @@ Add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Here is the result:
+Here is the result on Android:
 
-![ProgressBar Animation Duration and Easing](images/progress-animation-duration-easing.gif)
+![ProgressBar Animation Duration and Easing](images/progress-animation-duration-easing-android.gif)
+
+Here is the result on WinUI:
+
+![ProgressBar Animation Duration and Easing](images/progress-animation-duration-easing-windows.gif)
 
 ## Animation when Indeterminate Mode 
 
@@ -52,9 +56,13 @@ Add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Here is the result:
+Here is the result on Android:
 
-![ProgressBar Indeterminate Animation Duration and Easing](images/indeterminate-animation-duration-easing.gif)
+![ProgressBar Indeterminate Animation Duration and Easing](images/indeterminate-animation-duration-easing-android.gif)
+
+Here is the result on WinUI:
+
+![ProgressBar Indeterminate Animation Duration and Easing](images/indeterminate-animation-duration-easing-windows.gif)
 
 >important For the ProgressBar Animation example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
