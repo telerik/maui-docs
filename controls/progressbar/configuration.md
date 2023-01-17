@@ -27,7 +27,7 @@ And the Update button click event handler:
 
 Check the result in the gif below:
 
-![ProgressBar Progress Update](images/progressbar-progress.gif)
+![ProgressBar Progress Update](images/progressbar-progress-android.gif)
 
 ## Value Range
 
@@ -85,6 +85,8 @@ Define corners to the background track by setting the `TrackCornerRadius`(`Micro
 
 <snippet id='progressbar-styling-corner-radius'/>
 
+TrackCornerRadius on WinUI:
+
 ![Corners](images/progressbar-styling-corners.png)
 
 >important For the ProgressBar Configuration example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
@@ -93,9 +95,9 @@ Here is how the Configuration example looks on MacCatalyst and WinUI:
 
 ![ProgressBar Configuration](images/progressbar-configuration.png)
 
-And how the example looks on iOS and Android: 
+And how the example looks on MacCatalyst and WinUI: 
 
-![ProgressBar Configuration](images/progressbar-configuration-mobile.png)
+![ProgressBar Configuration](images/progressbar-configuration-desktop.png)
 
 ## See Also
 
