@@ -91,7 +91,7 @@ TrackCornerRadius on WinUI:
 
 >important For the ProgressBar Configuration example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
-Here is how the Configuration example looks on MacCatalyst and WinUI:
+Here is how the Configuration example looks on iOS and Android:
 
 ![ProgressBar Configuration](images/progressbar-configuration.png)
 
