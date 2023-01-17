@@ -16,7 +16,9 @@ Telerik ProgressBar for MAUI supports two modes of operation:
 
 Using the `IsIndeterminate` property(of type `bool`) you can specify whether the control is in Indeterminate mode or not. The default value is `false`.
 
-![.NET MAUI ProgressBar Indeterminate support](images/progressbar-indeterminate-mode.gif)
+![.NET MAUI ProgressBar Indeterminate support on Android](images/progressbar-indeterminate-mode-android.gif)
+
+![.NET MAUI ProgressBar Indeterminate support on WinUI](images/progressbar-indeterminate-mode-windows.gif)
 
 **Example with Indeterminate mode**
 
