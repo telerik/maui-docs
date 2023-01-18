@@ -54,7 +54,7 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 
 ## Separator between the toolbar items
 
-![.NET MAUI Toolbar Orientation](images/toolbar-overflow-menu.png)
+![.NET MAUI Toolbar Orientation](images/toolbar-separator.png)
 
 You can easily separate the toolbar items using the `[SeparatorToolbarItem]({%slug toolbar-items-separator%})`.
 
