@@ -8,7 +8,7 @@ slug: toolbar-items
 
 # .NET MAUI ToolbarItem Overview
 
-![Toolbar Visual Structure](images/toolbar-visual-structure.png "Visual elements of Toolbar")
+![Toolbar Visual Structure](../images/toolbar-visual-structure.png "Visual elements of Toolbar")
 
 Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available items are described in the table below: 
 
