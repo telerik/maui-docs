@@ -39,6 +39,8 @@ Here is how the RadImageEditor is defined:
 
 <snippet id='imageeditor-saveimage-original'/>
 
+![Toolbar Visual Structure](images/imageeditor-saving-originalsize.png "Visual elements of Toolbar")
+
 * **Save with specific size**:
 
 <snippet id='imageeditor-saveimage-specific-size'/>
