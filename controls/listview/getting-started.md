@@ -9,7 +9,7 @@ slug: listview-getting-started
 
 # Getting Started with .NET MAUI ListView
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI ListView by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
