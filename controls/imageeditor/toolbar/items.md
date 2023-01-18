@@ -25,6 +25,8 @@ The table below shows the built-in toolbar items available for mobile -  Android
 | `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
 
+![ImageEditor ToolbarItems for Mobile](../images/imageeditor-tooolbar-items-mobile.png "ToolbarItems for Mobile")
+
 ### Toolbar items available on desktop - WinUI and MacCatalyst
 
 The table below shows the built-in toolbar items available for desktop - WinUI and MacCatalyst:
@@ -41,6 +43,8 @@ The table below shows the built-in toolbar items available for desktop - WinUI a
 | `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
 | `SeparatorToolbarItem` | Represents a separator between the toolbar items |
+
+![ImageEditor ToolbarItems for Desktop](../images/imageeditor-tooolbar-items-desktop.png "ToolbarItems for Mobile")
 
 ## Toolbar Configuration
 

@@ -14,6 +14,8 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 * By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify rhe orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
 
+![.NET MAUI Toolbar Orientation](images/toolbar-orientation.png)
+
 ## Spacing between the toolbar items
 
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the items in the toolbar. The default value is `8`.
@@ -31,6 +33,8 @@ This article describes all configuration options available in the .NET MAUI Tool
 >important All built-in toolbar items are desctibed in the [Toolbar Items]({%slug toolbar-items%}) section.
 
 ## Overflow menu
+
+![.NET MAUI Toolbar Orientation](images/toolbar-overflow-menu.png)
 
 When the items cannot fit in the toolbar available space an overflow menu is displayed. The properties related to the Overflow menu are: 
 
@@ -50,11 +54,13 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 
 ## Separator between the toolbar items
 
+![.NET MAUI Toolbar Orientation](images/toolbar-overflow-menu.png)
+
 You can easily separate the toolbar items using the `[SeparatorToolbarItem]({%slug toolbar-items-separator%})`.
 
 ## Back navigation button
 
-Back navigation button is displayed
+![.NET MAUI Toolbar Orientation](images/toolbar-back-navigationbutton.png)
 
 * `BackNavigationButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the back navigation button in the toolbar. The available options are:
 	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
