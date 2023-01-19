@@ -31,7 +31,7 @@ Quick example of `PickerMode` set to `DropDown`:
 
 Check the result of `DropDown` mode on mobile and desktop:
 
-![](images/templatedpicker-pickermode-dropdown.png)
+![.NET MAUI TemplatedPicker Drop-down mode](images/templatedpicker-pickermode-dropdown.png)
 
 > Go to [Getting Started]({%slug templatedpicker-getting-started%}) topic for the complete example with the TemplatedPicker control.
 

@@ -14,7 +14,7 @@ The TemplatedPicker for .NET MAUI allows you to clear the selected value through
 1. Define the TemplatedPicker:
 
  ```XAML
-<StackLayout>
+<VerticalStackLayout>
     <Button Clicked="OnClearSelectionClicked" Text="clear selection"/>
     <telerik:RadTemplatedPicker x:Name="picker">
         <telerik:RadTemplatedPicker.SelectorTemplate>
@@ -23,7 +23,7 @@ The TemplatedPicker for .NET MAUI allows you to clear the selected value through
             </ControlTemplate>
         </telerik:RadTemplatedPicker.SelectorTemplate>
     </telerik:RadTemplatedPicker>
-</StackLayout>
+</VerticalStackLayout>
  ```
 
 1. Clear the selection inside the button `click` event:
