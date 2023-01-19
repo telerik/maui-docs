@@ -37,6 +37,10 @@ navigation:
         position: 4
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
+    ## Accordion
+    controls/accordion:
+        title: "Accordion"
+    ## End Accordion
     ## AutoComplete
     controls/autocomplete:
         title: "AutoComplete"
@@ -197,6 +201,15 @@ navigation:
         position: 2
         ## End Gauge Sub-Folders
     ## End Gauge
+    ## ImageEditor
+    controls/imageeditor:
+        title: "ImageEditor"
+        ## ImageEditor Sub-Folders
+    controls/imageeditor/toolbar:
+        title: "Toolbar"
+        position: 4
+        ## End ImageEditor Sub-Folders
+    ## End ImageEditor
     ##ItemsControl
     controls/itemscontrol:
         title: "ItemsControl"
@@ -266,6 +279,10 @@ navigation:
     controls/popup:
         title: "Popup"
     ## End Popup
+    ## ProgressBar
+    controls/progressbar:
+        title: "ProgressBar"
+    ## End ProgressBar
     ## Rating
     controls/rating:
         title: "Rating"
@@ -278,10 +295,14 @@ navigation:
     controls/sidedrawer:
         title: "SideDrawer"
     ## End SideDrawer
-    ##SpreadProcessing
+    ## SignaturePad
+    controls/signaturepad:
+        title: "SignaturePad"
+    ## End SignaturePad
+    ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
-    ##End SpreadProcessing
+    ## End SpreadProcessing
     ## SpreadStreamProcessing
     controls/spreadstreamprocessing:
         title: "SpreadStreamProcessing"
@@ -308,6 +329,13 @@ navigation:
         title: "Styling"
         position: 20
     ## End TimeSpanPicker
+    ## Toolbar
+    controls/toolbar:
+        title: "Toolbar"
+    controls/toolbar/items:
+        title: "Items"
+        position: 4
+    ## End Toolbar
     ## WordsProcessing
     controls/wordsprocessing:
         title: "WordsProcessing"    
@@ -413,6 +441,7 @@ intro_columns:
         "Charts": "chart-overview"
         "Gauges": "gauge-overview"
         "Map": "map-overview"
+        "ProgressBar": "progressbar-overview"
         "Ratings": "rating-overview"
 -
   categories:
@@ -424,17 +453,20 @@ intro_columns:
         "DatePicker": "datepicker-overview"
         "DateTimePicker": "datetimepicker-overview"
         "Entry": "entry-overview"
+        "ImageEditor": "imageeditor-overview"
         "ListPicker": "listpicker-overview"
         "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
         "TimeSpanPicker": "timespanpicker-overview"
+        "SignaturePad": "signaturepad-overview"
 -
   categories:
   -
     title: "Navigation & Layouts"
     items:
+        "Accordion": "accordion-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "SideDrawer": "sidedrawer-overview"
@@ -456,6 +488,7 @@ intro_columns:
         "BusyIndicator": "busyindicator-overview"
         "Path": "path-overview"
         "Popup": "popup-overview"
+        "Toolbar": "toolbar-overview"
   -
     title: "Document Processing Libraries"
     items:
