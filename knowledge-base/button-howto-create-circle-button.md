@@ -33,7 +33,7 @@ The following example demonstrates how to implement the suggested approach. Note
 1. Define the `RadButton`:
 
  ```XAML
-<telerikInput:RadButton WidthRequest="120"
+<telerik:RadButton WidthRequest="120"
 					    HeightRequest="120"                                
 					    Text="Circle Button"
 					    FontSize="Micro"
@@ -45,7 +45,7 @@ The following example demonstrates how to implement the suggested approach. Note
 1. Add the namespace:
 
  ```XAML
-xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
 
 The following image shows the end result.
