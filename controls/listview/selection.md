@@ -13,7 +13,7 @@ The ListView component exposes selection feature. It allows single or multiple s
 
 ## Selection Mode
 
-The ListView provides three selection modes, which allow you to manipulate the type of selection. This is controlled by the `SelectionMode` (`Telerik.XamarinForms.DataControls.ListView.SelectionMode`) property which has the following entries:
+The ListView provides three selection modes, which allow you to manipulate the type of selection. This is controlled by the `SelectionMode` (`Telerik.Maui.Controls.Compatibility.DataControls.ListView.SelectionMode`) property which has the following entries:
 
 - `None`&mdash;This mode doesn't allow users to select an item.
 - `Single`&mdash;This is the default selection mode. It allows users to select only one item.
@@ -27,12 +27,12 @@ Check below how you can set `SelectionMode` in XAML and code-behind:
 ```
 ```C#
 var listView = new RadListView();
-listView.SelectionMode = Telerik.XamarinForms.DataControls.ListView.SelectionMode.Multiple;
+listView.SelectionMode = Telerik.Maui.Controls.Compatibility.DataControls.ListView.SelectionMode.Multiple;
 ```
 
 ## Selection Gestures
 
-You can also configure how the selection to be triggered by the end users through the `SelectionGesture` (`Telerik.XamarinForms.DataControls.ListView.SelectionGesture`) property:
+You can also configure how the selection to be triggered by the end users through the `SelectionGesture` (`Telerik.Maui.Controls.Compatibility.DataControls.ListView.SelectionGesture`) property:
 
 - `Tap`&mdash;Tap on an item to select it. This is the default `SelectionGesture` value.
 - `Hold`&mdash;Ttap and hold an item to select it.
@@ -43,7 +43,7 @@ You can also configure how the selection to be triggered by the end users throug
 ```
 ```C#
 var listView = new RadListView();
-listView.SelectionGesture = Telerik.XamarinForms.DataControls.ListView.SelectionGesture.Hold;
+listView.SelectionGesture = Telerik.Maui.Controls.Compatibility.DataControls.ListView.SelectionGesture.Hold;
 ```
 
 ## Selected Item

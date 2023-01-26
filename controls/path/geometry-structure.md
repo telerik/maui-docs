@@ -81,7 +81,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
  ```C#
 using Microsoft.Maui.Graphics;
-using Telerik.XamarinForms.Common;
+using Telerik.Maui.Control;
+using Telerik.Maui.Controls.Compatibility.Common;
  ```
 
 The following image shows the result after creating the three Paths:

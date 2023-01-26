@@ -13,7 +13,7 @@ The BadgeView allows you to display the Badge indicator with an animation flow.
 
 The following properties are related to the Badge animation feature:
 
-* `BadgeAnimationType`(enum of type `Telerik.XamarinForms.Primitives.BadgeAnimationType`)&mdash;Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default `BadgeAnimationType` is `Scale`.
+* `BadgeAnimationType`(enum of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgeAnimationType`)&mdash;Specifies the type of the animation applied to the BadgeView. You can choose between two options: `None` and `Scale`. The default `BadgeAnimationType` is `Scale`.
 
 * `BadgeAnimationDuration`(`int`)&mdash;Specifies the duration for the Badge animation in milliseconds. The default value is `300`.
 

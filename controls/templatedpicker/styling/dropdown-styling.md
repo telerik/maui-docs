@@ -8,7 +8,7 @@ slug: templatedpicker-dropdown-styling
 
 # .NET MAUI TemplatedPicker DropDown Styling
 
-By using the `DropDownSettings` property (of type `Telerik.XamarinForms.Input.PickerDropDownSettings`) of the TemplatedPicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
+By using the `DropDownSettings` property (of type `Telerik.Maui.Controls.PickerDropDownSettings`) of the TemplatedPicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
 
 * `DropDownViewStyle`(of type `Style` with target type `telerikInput:PickerDropDownContentView`)&mdash;Defines the dropdown view style.
 * `FooterStyle`(of type `Style` with target type `telerikInput:PickerPopupFooterView`)&mdash;Defines the dropdown footer style.
