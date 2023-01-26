@@ -14,6 +14,8 @@ The exposed property is `Items`(of type `IList<ToolbarItem>`)&mdash;Read-only co
 
 >important `DropDownMenuButtonToolbarItem` inherits from `DropDownButtonToolbarItem`. You can apply all properties from the `DropDownButtonToolbarItem` to the `SplitButtonToolbarItem`. The properties are described in the [DropDownButton ToolbarItem]({%slug toolbar-items-dropdown-button%}) article.
 
+<snippet id='toolbar-splitbutton-item'/>
+
 ## Styling
 
 SplitButtonToolbarItem has `Style` property with target type `SplitButtonToolbarItemView`.
