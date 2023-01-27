@@ -66,7 +66,7 @@ The following image shows the final result.
 
 ## Badge Visibility
 
-To change the visibility state of the Badge indicator, use the `BadgeVisibility` property (enum of type `Telerik.XamarinForms.Common.Visibility`).
+To change the visibility state of the Badge indicator, use the `BadgeVisibility` property (enum of type `Microsoft.Maui.Visibility`).
 
 The following options are supported:
 

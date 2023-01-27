@@ -24,7 +24,7 @@ The `DelegateFilterDescriptor` property supports a `Filter`, which defines the f
 
  <snippet id='listview-features-filtering-agefilter'/>
  ```C#
-listView.FilterDescriptors.Add(new Telerik.XamarinForms.DataControls.ListView.DelegateFilterDescriptor { Filter = this.AgeFilter });
+listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataControls.ListView.DelegateFilterDescriptor { Filter = this.AgeFilter });
  ```
 
 1. Here is the `AgeFilter` method containing the filtering logic:

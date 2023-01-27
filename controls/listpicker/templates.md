@@ -16,7 +16,7 @@ The ListPicker for .NET MAUI provides the following templates:
 * `PlaceholderTemplate`(`ControlTemplate`)&mdash;Defines the template visualized for the placeholder.  
 * `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when an item from the list is selected.
 
-Using `SelectorSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSelectorSettings`) you can define the following templates:
+Using `SelectorSettings` property (of type `Telerik.Maui.Controls.PickerPopupSelectorSettings`) you can define the following templates:
 
 * `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog(popup) header.
 * `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog(popup) footer.

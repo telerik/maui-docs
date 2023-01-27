@@ -14,11 +14,11 @@ The BadgeView provides properties for setting the alignment and position of the 
 
 To specify the position of the Badge according to its content, use the following properties:
 
-* `BadgeHorizontalPosition`(of type `Telerik.XamarinForms.Primitives.BadgePosition`)&mdash;Specifies the horizontal `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
+* `BadgeHorizontalPosition`(of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgePosition`)&mdash;Specifies the horizontal `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
   ![Badge Horizontal Position](images/badgeview-horizontal-position.png)
 
-* `BadgeVerticalPosition`(of type `Telerik.XamarinForms.Primitives. BadgePosition`)&mdash;Specifies the vertical `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `Start`.
+* `BadgeVerticalPosition`(of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgePosition`)&mdash;Specifies the vertical `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `Start`.
 
   ![Badge Vertical Position](images/badgeview-vertical-position.png)
 
@@ -26,11 +26,11 @@ To specify the position of the Badge according to its content, use the following
 
 To specify the alignment of the Badge according to its content, use the following properties:  
 
-* `BadgeHorizontalAlignment`(of type `Telerik.XamarinForms.Primitives.BadgeAlignment`)&mdash;Specifies the horizontal alignment of the badge. The supported options are: `Start`, `Center`, `End`. The default value is `Center`.
+* `BadgeHorizontalAlignment`(of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgeAlignment`)&mdash;Specifies the horizontal alignment of the badge. The supported options are: `Start`, `Center`, `End`. The default value is `Center`.
 
   ![Badge Horizontal Alignment](images/badgeview-horizontal-alignment.png)
 
-* `BadgeVerticalAlignment`(of type `Telerik.XamarinForms.Primitives.BadgeAlignment`)&mdash;Specifies the vertical alignment of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
+* `BadgeVerticalAlignment`(of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgeAlignment`)&mdash;Specifies the vertical alignment of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
   ![Badge Vertical Alignment](images/badgeview-vertical-alignment.png)
 

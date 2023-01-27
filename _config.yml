@@ -314,6 +314,9 @@ navigation:
     ## TemplatedPicker
     controls/templatedpicker:
         title: "TemplatedPicker"
+    controls/templatedpicker/styling:
+        title: "Styling"
+        position: 20
     ## End TemplatedPicker
     ## TimePicker
     controls/timepicker:

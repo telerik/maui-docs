@@ -14,15 +14,15 @@ slug: map-layers-shapefilelayer
 
 ShapefileLayer provides a `Reader` property used to read the data from the defined shapefile. The `Reader` is of type *Telerik.XamarinForms.Map.MapShapeReader* and has two important properties you need to apply in order to properly load and visualize your shapes:
 
-* `Source` (of type *Telerik.XamarinForms.Map.MapSource*) : Gets or sets the MapSource that points to the .shp file to read data from. 
-* `DataSource` (of type *Telerik.XamarinForms.Map.MapSource*) : Gets or sets the MapSource that points to the *dbf file, containing the data(or attributes) for each shape within the shape file. 
+* `Source` (of type `Telerik.Maui.Controls.Compatibility.Map.MapSource`)&mdash;Gets or sets the MapSource that points to the .shp file to read data from. 
+* `DataSource` (of type `Telerik.Maui.Controls.Compatibility.Map.MapSource`)&mdash;Gets or sets the MapSource that points to the *dbf file, containing the data(or attributes) for each shape within the shape file. 
 
 The above used `MapSource` class provides a few useful static methods that will help load the shapefile:
 
 * `FromResource`(string resource, Assembly sourceAssembly) / `FromResource`(string resource, Type resolvingType): Two overrides you can choose from to easily create `MapSource`from a provided embedded resource. 
 
-* `FromStream`(Stream stream): returns a `MapSource` from a passed stream.
-* `FromFile`(string file):  Returns `MapSource` from a passed string the represents a specific file path.
+* `FromStream`(Stream stream)&mdash;Returns a `MapSource` from a passed stream.
+* `FromFile`(string file)&mdash;Returns `MapSource` from a passed string the represents a specific file path.
 
 In addition, `MapShapeReader` provides a read-only `Shapes` property that can be used to get a list of all the shapes that are read from the Source. 
 
@@ -30,9 +30,9 @@ In addition, `MapShapeReader` provides a read-only `Shapes` property that can be
 
 ShapefileLayer provides a way to visualize the shapes in such a way that the best view of the layer is achieved. The approach is implemented through the `GetBestView` method:
 
-*  LocationRect `GetBestView`() -  Gets location rectangle which represents best view for the layer.
+*  LocationRect `GetBestView()`&mdash;Gets location rectangle which represents best view for the layer.
 
-First, `LocationRect` class is a special type from the *Telerik.XamarinForms.ShapefileReader* namespace which describes a rectangle region through the locations of the northwest to the southeast points.  
+First, `LocationRect` class is a special type from the `Telerik.Maui.Controls.Compatibility.ShapefileReader` namespace which describes a rectangle region through the locations of the northwest to the southeast points.  
 
 >tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
 
@@ -56,12 +56,13 @@ where the `Source` and the `DataSource` of the MapShapeReader should be defined 
 
 ## Selection
 
-RadMap supports single and multiple selection of shapes to help you draw attention on specific areas. You would need to set **SelectionMode** property of the ShapefileLayer to enable the selection. 
+RadMap supports single and multiple selection of shapes to help you draw attention on specific areas. You would need to set `SelectionMode` property of the ShapefileLayer to enable the selection. 
 
-**SelectionMode** could receive the following values:
-* None;
-* Single;
-* Multiple.
+`SelectionMode` could receive the following values:
+
+	* None;
+	* Single;
+	* Multiple.
 
 Read the [Selection]({% slug map-selection%}) topic for more details regarding this feature.
 

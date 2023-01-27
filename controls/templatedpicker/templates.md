@@ -17,7 +17,7 @@ The TemplatedPicker for .NET MAUI provides the following templates:
 
 * `DisplayTemplate`(`ControlTemplate`)&mdash;Defines the template visualized when an item from the selector was picked.
 
-When you use the `SelectorSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSelectorSettings`), you can define the following templates:
+When you use the `SelectorSettings` property (of type `Telerik.Maui.Controls.PickerPopupSelectorSettings`), you can define the following templates:
 
 * `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
 

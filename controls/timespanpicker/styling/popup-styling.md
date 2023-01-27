@@ -10,7 +10,7 @@ slug: timespanpicker-popup-styling
 
 The TimeSpanPicker provides a set of options for styling the appearance of its elements such as its spinner, placeholder, and popup, as well as its border style and background color.  
 
-By using the `PopupSettings` property (of type `Telerik.XamarinForms.Input.PickerPopupSettings`) of the TimeSpanPicker, you can modify the appearance of the dialog (popup).
+By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the TimeSpanPicker, you can modify the appearance of the dialog (popup).
 
 The `PickerPopupSettings` class exposes the following `Style` properties:
 
