@@ -14,6 +14,7 @@ The Telerik UI for .NET MAUI entry control provides validation mechanism. If the
 
 * `ValidationErrorMessage`(`string`)&mdash;Specifies the the error message which is displayed when the text entered inside the control is not valid.
 
+
 ```XAML
 <telerik:RadEntry ValidationErrorMessage="Value is not valid"
 				  IsValueValid="False"
@@ -27,6 +28,12 @@ And the namespace used:
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+* `ReserveSpaceForErrorView`(`string`)&mdash; The Entry control in MacCatalyst is preserving space on its right side for the error icon. If developers are not using the validation feature of the Entry, there is an API that makes the control takes its entire space - the ReserveSpaceForErrorView property. The property should be set to false.
+The image below shows how the control looks like after setting this property:
+
+![Entry validation](images/entry_ReserveSpaceForErrorView_property.png)
+
 
 ## See Also
 
