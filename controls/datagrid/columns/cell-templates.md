@@ -9,56 +9,56 @@ slug: datagrid-cell-templates
 
 # .NET MAUI DataGrid Columns Cell Templates
 
-This article describes how to set the content and edit templates to the DataGrid column using the `CellContentTemplate` and `CellEditTemplate` properties.
+This article describes how to extend the functionality of a DataGrid column and define custom content and edit templates using the `CellContentTemplate` and `CellEditTemplate` properties.
 
-* `CellContentTemplate` (DataTemplate): Defines the appearance of each cell associated with the concrete column. CellContenTemplate gives you the opportunity to wrap the text inside each datagrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's `LineBreakMode` property.
+* `CellContentTemplate` (DataTemplate): Defines the appearance of each cell associated with the concrete column. CellContentTemplate gives you the opportunity to wrap the text inside each datagrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's `LineBreakMode` property.
 * `CellEditTemplate` (DataTemplate): Defines the editor associated with the concrete column. The CellEditTemplate is displayed when the cell is in edit mode.
 
 ## Cell Content Template Example
+
+The following example demonstrates how to use the CellContentTemplate property to customize your columns. We set a RadDateTimePicker as a CellContentTemplate for the DataGrid Date Column (Date Established) and a Switch - for the DataGrid Boolean Column (Champion).
 
 1. Use the following snippet to declare a RadDataGrid in XAML:
 
  <snippet id='datagrid-columns-cellcontenttemplate-xaml' />
 
-1. And add the following namespaces:
+1. Add the following namespaces:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. The `ViewModel` class is declared as following:
+1. Declare the `ViewModel` class:
 
  <snippet id='datagrid-column-view-model' />
 
 1. And the `Club` custom object:
 
  <snippet id='datagrid-club-model' />
-
-DataGrid Date Column with CellContentTemplate property and inside the template we have added a DateTime Picker control
 
 ![DataGrid Cell Content Template](../images/datagrid-column-cell-content-template.png)
 
 ## Cell Edit Template Example
 
+The following example demonstrates how to use the CellEditTemplate property to customize your columns. Here, for the DataGrid Boolean Column (Champion) we set a CellEditTemplate containing a Switch and two Buttons for confirming or canceling the edit operation. The edit template is visualized when the cell is in edit mode.
+
 1. Use the following snippet to declare a RadDataGrid in XAML:
 
  <snippet id='datagrid-columns-celledittemplate-xaml' />
 
-1. And add the following namespaces
+1. Add the following namespaces:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. The `ViewModel` class is declared as following:
+1. Declare the `ViewModel`:
 
  <snippet id='datagrid-column-view-model' />
 
 1. And the `Club` custom object:
 
  <snippet id='datagrid-club-model' />
-
-DataGrid Boolean Column with CellEditTemplate property and inside the template we have added a switch, and two buttons. The edit template is visualized when the cell is in edit mode.
 
 ![DataGrid Cell Edit Template](../images/datagrid-column-cell-edit-template.png)
 
