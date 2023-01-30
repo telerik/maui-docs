@@ -52,7 +52,7 @@ The following example demonstrates how to use the CellEditTemplate property to c
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. Declare the `ViewModel`:
+1. Declare the `ViewModel` class:
 
  <snippet id='datagrid-column-view-model' />
 
