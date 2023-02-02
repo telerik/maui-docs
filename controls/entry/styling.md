@@ -16,7 +16,27 @@ The Entry provides styling options for setting the appearance of its border and 
 Style the entry using the following properties:
 
 * `CornerRadius`(`Microsoft.Maui.CornerRadius`)
-* `BackgroundColor`(`Microsoft.Maui.Graphics`)
+* `BackgroundColor`(`Microsoft.Maui.Graphics.Color`) or `Background`(`Microsoft.Maui.Controls.SolidColorBrush`)
+* `BorderBrush` (`Microsoft.Maui.Controls.SolidColorBrush`)
+* `BorderThickness` (`Microsoft.Maui.Thickness`)
+* `TextColor` (`Microsoft.Maui.Graphics.Color`)
+
+For example
+
+```XAML
+<telerik:RadEntry x:Name="MyEntry"
+                  Text="Hello World"
+                  TextColor="DarkRed"
+                  Background="Wheat"
+                  BorderBrush="DarkRed"
+                  BorderThickness="4,1,1,1"
+                  CornerRadius="5,7,7,5"
+                  WidthRequest="150"/>
+```
+
+Produces the following result on Windows:
+
+![](./images/entry-border-styling.png)
 
 ## ClearButton Style
 
