@@ -15,13 +15,14 @@ The Entry provides styling options for setting the appearance of its border and 
 
 Style the entry using the following properties:
 
-* `CornerRadius`(`Microsoft.Maui.CornerRadius`)
-* `BackgroundColor`(`Microsoft.Maui.Graphics.Color`) or `Background`(`Microsoft.Maui.Controls.SolidColorBrush`)
-* `BorderBrush` (`Microsoft.Maui.Controls.SolidColorBrush`)
-* `BorderThickness` (`Microsoft.Maui.Thickness`)
-* `TextColor` (`Microsoft.Maui.Graphics.Color`)
+* `CornerRadius` (of type `Microsoft.Maui.CornerRadius`)
+* `BackgroundColor` (of type `Microsoft.Maui.Graphics.Color`)
+  * or `Background` (of type `Microsoft.Maui.Controls.SolidColorBrush`)
+* `BorderBrush` (of type `Microsoft.Maui.Controls.SolidColorBrush`)
+* `BorderThickness` (of type `Microsoft.Maui.Thickness`)
+* `TextColor` (of type `Microsoft.Maui.Graphics.Color`)
 
-For example
+For example:
 
 ```XAML
 <telerik:RadEntry x:Name="MyEntry"
@@ -38,13 +39,13 @@ Produces the following result on Windows:
 
 ![](./images/entry-border-styling.png)
 
-## ClearButton Style
+## Clear Button Style
 
 Style the Clear button which is displayed by default when entering text in the control using the following properties:
 
-* `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button.
-* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is hovered. The color appears only on desktop(Windows and macOS).
-* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is clicked.
+* `ClearButtonColor` (of type `Microsoft.Maui.Graphics`): Defines the color of the Clear button.
+* `HoveredClearButtonColor` (of type `Microsoft.Maui.Graphics`): Defines the color of the Clear button when the cursor is hovering over it. The color appears only on desktop (Windows and MacOS).
+* `PressedClearButtonColor` (of type `Microsoft.Maui.Graphics`): Defines the color of the Clear button when clicked.
 
 ## Font Options
 
@@ -59,11 +60,11 @@ The following example demonstrates how to apply the font options to the Entry.
 
 ```XAML
 <VerticalStackLayout>
-    <telerik:RadEntry Text="Normal Text" x:Name="entry"/>
-    <telerik:RadEntry Text="Bold Text - Large" FontAttributes="Bold" FontSize="Large" />
-    <telerik:RadEntry Text="Italic Text - Medium" FontAttributes="Italic" FontSize="Medium"/>
-    <telerik:RadEntry Text="Italic and Bold Text - Small"  FontSize="Small" x:Name="smallEntry"/>
-    <telerik:RadEntry Text="Micro Text"  FontSize="Micro" />
+    <telerik:RadEntry Text="Normal Text" />
+    <telerik:RadEntry FontSize="Large" FontAttributes="Bold" Text="Bold Text - Large" />
+    <telerik:RadEntry FontSize="Medium" FontAttributes="Italic" Text="Italic Text - Medium"/>
+    <telerik:RadEntry FontSize="Small" Text="Italic and Bold Text - Small"  />
+    <telerik:RadEntry FontSize="Micro" Text="Micro Text" />
 </VerticalStackLayout>
 ```
 
