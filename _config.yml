@@ -13,7 +13,7 @@ navigation:
         title: "Getting Started"
         position: 1
     installation:
-        title: "Installation"
+        title: "Download & Installation"
         position: 2
     demos-and-sample-apps:
         title: "Sample Applications"
@@ -126,7 +126,7 @@ navigation:
     ## End CheckBox
     ## ComboBox
     controls/combobox:
-        title: "ComboBox"     
+        title: "ComboBox"
     ## End ComboBox
     ## DataForm
     controls/dataform:
@@ -274,7 +274,7 @@ navigation:
     ## PdfProcessing
     controls/pdfprocessing:
         title: "PdfProcessing"
-    ## End PdfProcessing   
+    ## End PdfProcessing
     ## Popup
     controls/popup:
         title: "Popup"
@@ -341,7 +341,7 @@ navigation:
     ## End Toolbar
     ## WordsProcessing
     controls/wordsprocessing:
-        title: "WordsProcessing"    
+        title: "WordsProcessing"
     ## End WordsProcessing
     ## WrapLayout
     controls/wraplayout:
@@ -350,7 +350,7 @@ navigation:
     ## ZipLibrary
     controls/ziplibrary:
         title: "ZipLibrary"
-    ## End ZipLibrary   
+    ## End ZipLibrary
 ## End Controls Sub-Folders
 
 ## The application virtual path
