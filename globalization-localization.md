@@ -4,12 +4,12 @@ page_title: .NET MAUI - Localization and Globalization
 description: Learn how you can utilize the localization and globalization features of the Telerik UI for .NET MAUI controls.
 slug: globalization-localization
 tags: localization, globalization, datepicker, maskedentry, timepicker, timespanpicker, culture, device culture, numeric input.
-position: 9
+position: 6
 ---
 
-# Globalization and Localization 
+# Globalization and Localization
 
-Localization and Globalization is the process of designing and developing your application in such a way that it adapts to different languages and culture configurations. 
+Localization and Globalization is the process of designing and developing your application in such a way that it adapts to different languages and culture configurations.
 
 This topic provides an overview on how you could utilize localization and globalization feature of Telerik UI for .NET MAUI controls.
 
@@ -64,7 +64,7 @@ To apply localization to your controls just instantiate your custom TelerikLocal
         {
             return "Maske ist unvollständig";
         }
-		
+
         return base.GetString(key);
     }
  }
@@ -106,7 +106,7 @@ Next image shows an example of a custom resource file used for German:
 
 ![custom resource file](images/maskentry-resource-file.png)
 
-In order to apply the localization from the `MaskResource` resource files, you would need to set the `ResourceManager` property of the `TelerikLocalizationManager.Manager` to the `MaskResource.ResourceManager`: 
+In order to apply the localization from the `MaskResource` resource files, you would need to set the `ResourceManager` property of the `TelerikLocalizationManager.Manager` to the `MaskResource.ResourceManager`:
 
 ```C#
 TelerikLocalizationManager.Manager.ResourceManager = MaskResource.ResourceManager;

@@ -3,7 +3,7 @@ title: Migrating from Xamarin
 page_title: Migrating the ListView from Xamarin.Forms to .NET MAUI
 description: "Learn how to migrate the Telerik UI for Xamarin ListView to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
-slug: migrate-to-net-maui
+slug: migrate-xamarin-listview-to-maui
 position: 2
 ---
 
@@ -13,7 +13,62 @@ The Telerik UI for .NET MAUI ListView preserves the same API as its Xamarin coun
 
 ...
 
-The following example shows how to disable the bounce effect for the .NET MAUI ListView on iOS by using the custom renderer of the Xamarin ListView.
+## Step 1: Convert the ListView to .NET MAUI
+
+For the purposes of this guide, take the following scenario:
+
+**1.** Let's suppose you have the following `RadListView` definition in a Xamarin application:
+
+```XAML
+<telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Source}">
+    <telerikDataControls:RadListView.ItemTemplate>
+        <DataTemplate>
+            <telerikListView:ListViewTemplateCell>
+                <telerikListView:ListViewTemplateCell.View>
+                    <Grid>
+                        <Label Margin="10" Text="{Binding Name}" />
+                    </Grid>
+                </telerikListView:ListViewTemplateCell.View>
+            </telerikListView:ListViewTemplateCell>
+        </DataTemplate>
+    </telerikDataControls:RadListView.ItemTemplate>
+</telerikDataControls:RadListView>
+```
+
+In this Xamarin project, the namespaces are defined as follows:
+
+```XAML
+xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"         
+```
+
+**2.** In the .NET MAUI project, replace the namespaces in the following way:
+
+```XAML
+<telerik:RadListView x:Name="listView" ItemsSource="{Binding Source}">
+    <telerik:RadListView.ItemTemplate>
+        <DataTemplate>
+            <telerik:ListViewTemplateCell>
+                <telerik:ListViewTemplateCell.View>
+                    <Grid>
+                        <Label Margin="10" Text="{Binding Name}" />
+                    </Grid>
+                </telerik:ListViewTemplateCell.View>
+            </telerik:ListViewTemplateCell>
+        </DataTemplate>
+    </telerik:RadListView.ItemTemplate>
+</telerik:RadListView>
+```
+
+**3.** Also, add the common `telerik` namespace to the .NET MAUI project:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+## Step 2: Port the ListView Custom Renderers to Handlers  
+
+In this step, you will disable the bounce effect for the .NET MAUI ListView on iOS by using the custom renderer of the Xamarin ListView.
 
 **1.** Port the custom renderer to a handler.
 
