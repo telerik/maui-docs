@@ -49,7 +49,7 @@ To reference the Telerik UI for .NET MAUI package, use the local NuGet feeds. To
 
 When the `.nupkg` file is available on your machine, you are ready to set up the local NuGet feed. For the detailed guide on setting up the local NuGet package, go to the [Local feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) official Microsoft topic.
 
-## Step 2: Register the .NET MAUI Controls inside the CreateMauiApp Method
+## Step 2: Register the .NET MAUI Controls
 
 Now, you will register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method that will be called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
@@ -122,4 +122,4 @@ For the detailed guide, go to the official Microsoft documentation on GitHub abo
 
 ## See Also
 
-* [Telerik UI for .NET Sample Applications]({% slug sampleapps-overview %})
+* [Telerik UI for .NET MAYU Sample Applications]({% slug controls-samples-app %})
