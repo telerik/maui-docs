@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI ListView Documentation - Events
 description: Explore the Telerik UI for .NET MAUI ListView Events like Item Events, Selection Events, Group/Reorder Events and Swipe Events.
-position: 12
+position: 13
 slug: listview-features-events
 previous_url: /controls/listview/listview-features-events
 tags: events

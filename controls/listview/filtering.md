@@ -2,7 +2,7 @@
 title: Filtering
 page_title: .NET MAUI ListView Documentation - Filtering
 description: Check the Telerik .NET MAUI ListView filtering options like programmatically filtering and using filter descriptors.
-position: 6
+position: 7
 slug: listview-features-filtering
 previous_url: /controls/listview/listview-features-filtering
 tags: filter, radlistview, filterdescriptor
@@ -19,7 +19,7 @@ The `DelegateFilterDescriptor` property supports a `Filter`, which defines the f
 1. First, define the ListView in XAML:
 
  <snippet id='listview-features-filtering-xaml'/>
- 
+
 1. Add a `DelegateFilterDescriptor` to the `FilerDescriptors` collection of the ListView instance:
 
  <snippet id='listview-features-filtering-agefilter'/>
@@ -44,7 +44,7 @@ private bool AgeFilter(object arg)
 1. Set the `Person` data class:
 
  <snippet id='listview-features-filtering-data-class'/>
- 
+
 The following image shows the result after the data is filtered:
 
 ![ListView Filtering](images/listview-features-filtering.png "Filtering")

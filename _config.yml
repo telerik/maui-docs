@@ -227,19 +227,19 @@ navigation:
         ## ListView Sub-Folders
     controls/listview/grouping:
         title: "Grouping"
-        position: 4
+        position: 5
     controls/listview/gestures:
         title: "Gestures"
-        position: 11
+        position: 12
     controls/listview/cells:
         title: Cells
-        position: 2
+        position: 3
     controls/listview/styling:
         title: "Styling"
-        position: 14
+        position: 15
     controls/listview/howto:
         title: "How To"
-        position: 15
+        position: 16
         ## End ListView Sub-Folders
     ## End ListView
     ## Map
