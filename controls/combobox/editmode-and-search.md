@@ -29,9 +29,9 @@ ComboBox provides both case-sensitive and case-insensitive searching modes. The 
 
 > Searching can be performed when `IsEditable` is set to `true`.
 
-> When we want to set the HighlightTextColor property using custom templates, we have to use the `RadHighlightLabel class` inside the template.
+If you want the text to be highlighted when using custom ItemTemplate, you have to add a `RadHighlightLabel` inside the ItemTemplate.
 
-Here is the example in XAML:
+Here is an example:
 
 ```XAML
 <telerik:RadComboBox x:Name="comboBox"
@@ -71,7 +71,6 @@ Here is the example in XAML:
     </telerik:RadComboBox.SelectedItemTemplate>
 </telerik:RadComboBox>
  ```
-
 
 ## Example
 
