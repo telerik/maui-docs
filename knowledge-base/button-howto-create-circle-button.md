@@ -50,4 +50,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![Button Key Features Example](../images/button-howto-circlebutton.png)
+![Button Key Features Example](images/button-howto-circlebutton.png)
