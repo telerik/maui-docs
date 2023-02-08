@@ -29,6 +29,49 @@ ComboBox provides both case-sensitive and case-insensitive searching modes. The 
 
 > Searching can be performed when `IsEditable` is set to `true`.
 
+If you want the text to be highlighted when using custom ItemTemplate, you have to add a `RadHighlightLabel` inside the ItemTemplate.
+
+Here is an example:
+
+```XAML
+<telerik:RadComboBox x:Name="comboBox"
+        ItemsSource="{Binding Items}" 
+        DisplayMemberPath="Name"
+        Placeholder="Select City"
+        AutomationId="comboBox"
+        HighlightTextColor="Red"
+        IsEditable="True">
+    <telerik:RadComboBox.ItemTemplate>
+        <DataTemplate>
+            <telerik:RadBorder BackgroundColor="LightYellow"
+                MinimumWidthRequest="300">
+
+                <telerik:RadHighlightLabel TextColor="Black" Padding="10"
+            HighlightTextColor="BlueViolet"
+            UnformattedText="{Binding Name}"
+            HighlightText="{Binding Source={x:Reference comboBox}, Path=Text}" />
+
+            </telerik:RadBorder>
+        </DataTemplate>
+    </telerik:RadComboBox.ItemTemplate>
+    <telerik:RadComboBox.SelectedItemTemplate>
+        <DataTemplate>
+            <telerik:RadBorder BackgroundColor="LightBlue"
+                MinimumWidthRequest="300">
+                <VerticalStackLayout>
+                    <Label Text="{Binding Name}"
+            Padding="8, 7, 0, 7"
+            TextColor="Black"/>
+                    <Label Text="{Binding Population}" 
+            FontSize="12"
+            Padding="8, 7, 0, 7"/>
+                </VerticalStackLayout>
+            </telerik:RadBorder>
+        </DataTemplate>
+    </telerik:RadComboBox.SelectedItemTemplate>
+</telerik:RadComboBox>
+ ```
+
 ## Example
 
 Here is the ComboBox definition in XAML:
