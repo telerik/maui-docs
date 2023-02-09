@@ -21,14 +21,14 @@ The example shows the ShapeLabelStyle property applied:
 
 <snippet id='map-styling-shapelabelstyle' />
 
-where the **Source** and the **DataSource** of the MapShapeReader should be set to a .shp and .dbf files, respectively:
+where the `Source` and the `DataSource` of the MapShapeReader should be set to a .shp and .dbf files, respectively:
 
 <snippet id='map-interactionmode-settintsource' />
 
 And the used namespace:
 
 ```XAML
-xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Here is the result:

@@ -141,7 +141,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 	
 
 *	In case you use components that are currently not available in .NET MAUI:
-	* We’re planning to deliver a few more .NET MAUI controls this year, please check the [Telerik UI for .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap) for more details on what’s coming in 2022.
+	* We’re planning to deliver a few more .NET MAUI controls this year, please check the [Telerik UI for .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap) for more details on what’s coming in 2023.
 	* You can also take a look at the [Telerik UI for .NET MAUI Feedback Portal](https://feedback.telerik.com/maui) for the logged feature requests for new components;
 	* Contact us directly either through the [support ticketing system](https://www.telerik.com/account/support-center/contact-us/technical-support?pid=2338), [our forums](https://www.telerik.com/forums/maui) or [feedback portal](https://feedback.telerik.com/maui).
 

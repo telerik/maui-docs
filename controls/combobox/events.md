@@ -16,7 +16,7 @@ ComboBox for .NET MAUI exposes the following events:
 		- `AddedItems`: the items added to the SelectedItemsCollection
 		- `RemovedItems`: the items removed from the SelectedItemsCollection
 
-- `Completed`: Invoked when the completed button of the keyboard gets pressed. In UWP it is invoked when entered gets pressed. 
+- `Completed`: Invoked when the completed button of the keyboard gets pressed. In WinUI and MacCatalyst it is invoked when entered gets pressed. 
 
 ## See Also
 
