@@ -1,10 +1,9 @@
 ---
-title: add context menu to the ListView Item
-description: Add context menu to the Telerik .NET MAUI ListView Item
+title: Showing Context Menus for ListView Items
+page_title: Adding a Context Menu to a ListView Item - .NET MAUI Knowledge Base
+description: Learn how to implement and render a context menu for an item of the Telerik UI for .NET MAUI ListView component.
 type: how-to
-page_title: How to add context menu to the ListView Item
 slug: listview-context-menu
-position: 
 tags: maui, listview, item, context menu, dotnet maui
 res_type: kb
 ---
@@ -13,28 +12,26 @@ res_type: kb
 
 <table>
 	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>4.0.0</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>ListView for .NET MAUI</td>
-		</tr>
+    <tr>
+      <td>Product</td>
+      <td>Telerik UI for .NET MAUI ListView</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>4.0.0</td>
+  	</tr>
 	</tbody>
 </table>
 
 ## Description
 
-This article shows how to add a context menu to the ListView item.
+How can I add a context menu to a Telerik UI for .NET MAUI ListView item?
 
 ## Solution
 
-This scenario could be achieved for example, with [RadButton]({%slug button-overview%}), [RadPopup]({%slug popup-overview%}) controls.
+A possible approach to achieve the desired scenario is to use the [Telerik UI for .NET MAUI Button]({%slug button-overview%}) or [Popup]({%slug popup-overview%}) control.
 
-## Example
-
-Let's create a business model for the items:
+**1.** Create a business model for the items:
 
 ```C#
 public class DataItem : Telerik.Maui.Controls.NotifyPropertyChangedBase
@@ -61,7 +58,7 @@ public class DataItem : Telerik.Maui.Controls.NotifyPropertyChangedBase
 }
 ```
 
-Then, in the view model, let's create some sample names to populate the data source and a command that will toggle the IsPopupOpen property of that item (the command opens the context menu):
+**2.** In the `ViewModel`, create some sample names to populate the data source and add a command that will toggle the `IsPopupOpen` property of that item (the command opens the context menu):
 
 ```C#
 public class ViewModel
@@ -86,11 +83,10 @@ public class ViewModel
 }
 ```
 
-The XAML, uses a `RadPopup` in the `ItemTemplate` with a slight offset. Here are the important takeaways:
+**3.** Add the code in XAML. It uses a `RadPopup` in the `ItemTemplate` with a slight offset and provides the takeaways:
 
-    * The control's IsOpen property is bound to the model's IsPopupOpen property.
-
-    * The RadButton Command uses x:Reference to get to the view model command property.
+  * The `IsOpen` property of the control is bound to the `IsPopupOpen` property of the model.
+  * The `Command` of the Button uses `x:Reference` to get to the `command` property of the `ViewModel`.
 
 ```XAML
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -128,7 +124,7 @@ The XAML, uses a `RadPopup` in the `ItemTemplate` with a slight offset. Here are
                                      VerticalOptions="End"
                                      HeightRequest="1" />
 
-                            <!-- If you want just the ellipsis to open the context menu, use a Button instead. 
+                            <!-- If you want just the ellipsis to open the context menu, use a Button instead.
                                  Since the command is in the page's ViewModel, so we use x:Reference to escape the BindingContext of the DataTemplate -->
                             <Button Text=":"
                                     Command="{Binding BindingContext.OpenContextMenuCommand, Source={x:Reference listView}}"
@@ -160,6 +156,6 @@ The XAML, uses a `RadPopup` in the `ItemTemplate` with a slight offset. Here are
 </ContentPage>
 ```
 
-And the final result:
+The following image shows the final result.
 
 ![.NET MAUI ListView context menu](images/listview-context-menu.png)

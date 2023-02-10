@@ -77,11 +77,6 @@ navigation:
     ## Button
     controls/button:
         title: "Button"
-        ## Button Sub-Folders
-    controls/button/howto:
-        title: "How To"
-        position: 6
-        ## End Button Sub-Folders
     ## End Button
     ## Chart
     controls/chart:
@@ -115,9 +110,6 @@ navigation:
         title: "Financial Series"
         position: 4
             ## End Chart Series Sub-Folders
-    controls/chart/how-to:
-        title: "How To"
-        position: 11
         ## End Chart Sub-Folders
     ## End Chart
     ##CheckBox
@@ -126,7 +118,7 @@ navigation:
     ## End CheckBox
     ## ComboBox
     controls/combobox:
-        title: "ComboBox"     
+        title: "ComboBox"
     ## End ComboBox
     ## DataForm
     controls/dataform:
@@ -274,7 +266,7 @@ navigation:
     ## PdfProcessing
     controls/pdfprocessing:
         title: "PdfProcessing"
-    ## End PdfProcessing   
+    ## End PdfProcessing
     ## Popup
     controls/popup:
         title: "Popup"
@@ -341,7 +333,7 @@ navigation:
     ## End Toolbar
     ## WordsProcessing
     controls/wordsprocessing:
-        title: "WordsProcessing"    
+        title: "WordsProcessing"
     ## End WordsProcessing
     ## WrapLayout
     controls/wraplayout:
@@ -350,7 +342,7 @@ navigation:
     ## ZipLibrary
     controls/ziplibrary:
         title: "ZipLibrary"
-    ## End ZipLibrary   
+    ## End ZipLibrary
 ## End Controls Sub-Folders
 
 ## The application virtual path

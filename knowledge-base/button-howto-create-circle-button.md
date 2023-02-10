@@ -1,19 +1,27 @@
 ---
 title: Creating Circular Buttons
-page_title: .NET MAUI Knowledge Base | Creating Circular Buttons
-description: "Learn how to create, implement, and develop a circular button when using the Telerik Button for .NET MAUI control."
+page_title: Rendering Circular Buttons - .NET MAUI Knowledge Base
+description: Learn how to create, implement, and develop a circular button when using the Telerik UI for .NET MAUI Button control.
 type: how-to
 slug: button-create-circle-button
-publish: false
+previous_url: /controls/button/howto/button-howto-create-circle-button
 res_type: kb
 ---
 
 ## Environment
 
-|   |   |
-|---|---|
-| Product   |Telerik UI for .NET MAUI Button|
-| Product Version | Telerik Ui for .NET MAUI 0.2.0 |
+<table>
+	<tbody>
+    <tr>
+      <td>Product</td>
+      <td>Telerik UI for .NET MAUI Button</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>0.2.0</td>
+  	</tr>
+	</tbody>
+</table>
 
 ## Description
 
@@ -23,12 +31,12 @@ How can I create a circular Button based on the Button control for my Telerik UI
 
 To create a circular button with the Telerik UI for .NET MAUI Button, adjust its `Width`, `Height`, and `BorderRadius` properties in the following way:
 
-* Set `Width` as equal to `Height`.
-* Set `BorderRadius` as half of the `Width`/`Height` value.
+1. Set `Width` as equal to `Height`.
+1. Set `BorderRadius` as half of the `Width`/`Height` value.
 
 >important In some cases, you may need to set a `BorderWidth` value in order for the `BorderRadius` to take effect.
 
-The following example demonstrates how to implement the suggested approach. Note that the `CornerRadius` property is not supported on Android. For more information, refer to article on [implementing the CornerRadius support](https://github.com/dotnet/maui/wiki/Status#%EF%B8%8F-button).
+The following example demonstrates how to implement the suggested approach. Note that the `CornerRadius` property is not supported on Android. For more information, refer to the article on [implementing the `CornerRadius` support](https://github.com/dotnet/maui/wiki/Status#%EF%B8%8F-button).
 
 1. Define the `RadButton`:
 
@@ -45,9 +53,9 @@ The following example demonstrates how to implement the suggested approach. Note
 1. Add the namespace:
 
  ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
 The following image shows the end result.
 
-![Button Key Features Example](images/button-howto-circlebutton.png)
+![A Telerik UI for .NET MAUI Circular Button in iOS, Android, and WinUI desktop environment](images/button-howto-circlebutton.png)

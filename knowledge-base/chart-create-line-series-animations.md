@@ -1,14 +1,38 @@
 ---
-title: How To Create Line Series With Animation
-page_title: Xamarin Chart Documentation | How To Create Line Series With Animation
-description: Check our &quot;How To Create Line Series With Animation&quot; documentation article for Telerik Chart for Xamarin control.
-position: 3
+title: Creating Line Series with Animation
+page_title: Adding Animations to the Chart Line Series - .NET MAUI Knowledge Base
+description: Learn how to create animations and add them to the Telerik UI for .NET MAUI Line Chart component.
+type: how-to
 slug: chart-how-to-create-custom-renderer
+tags: maui, chart, animation, line, series, create, add
+res_type: kb
 ---
 
-# Example
+## Environment
 
-Let us consider the following example: we need to apply animation to **LineSeries** in **iOS**. Create a class which inherits from **Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartRenderer** and override the **UpdateNativeWidget** and **CreateChartDelegate** methods:
+<table>
+	<tbody>
+    <tr>
+      <td>Product</td>
+      <td>Telerik UI for .NET MAUI Chart</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>2.0.0</td>
+  	</tr>
+	</tbody>
+</table>
+
+
+## Description
+
+How can I add animations to my Telerik UI for .NET MAUI Line Chart?
+
+## Solution
+
+For the purpose of this example, let's consider that you need to apply animation to LineSeries in iOS.
+
+**1.** Create a class which inherits from `Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartRenderer` and override the `UpdateNativeWidget` and `CreateChartDelegate` methods:
 
 ```C#
 	public class LineWithAnimationRenderer : CartesianChartRenderer
@@ -30,7 +54,7 @@ Let us consider the following example: we need to apply animation to **LineSerie
 	}
 ```
 
-**UpdateNativeWidget** method takes care of allowing animations for the chart. **CreateChartDelegate** supplies an instance of a class that inherits from **TKChartDelegate**, configured with animations as per the [iOS chart help](https://docs.telerik.com/devtools/xamarin/nativecontrols/ios/chart/animations/custom). **ChartWithAnimationDelegate** inherits from Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartDelegate, which in turn inherits from **TKChartdelegate**. This way you only need to extend it with the desired features:
+**2.** The `UpdateNativeWidget` method takes care of allowing animations for the Chart. The `CreateChartDelegate` method supplies an instance of a class that inherits from `TKChartDelegate`, configured with animations as per the [iOS chart help](https://docs.telerik.com/devtools/xamarin/nativecontrols/ios/chart/animations/custom). The `ChartWithAnimationDelegate` method inherits from `Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartDelegate`, which in turn inherits from `TKChartdelegate`. As a result, you only need to extend it with the desired features:
 
 ```C#
 	public class ChartWithAnimationDelegate : CartesianChartDelegate
@@ -80,7 +104,7 @@ Let us consider the following example: we need to apply animation to **LineSerie
 	chart.Palette = CustomPalettes.CustomDark;
 ```
 
-Now you only need to register your custom renderer using the ExportRenderer assembly level attribute:
+**3.** Now, register your custom renderer by using the `ExportRenderer` assembly level attribute:
 
 ```C#	 
 	[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(LineWithAnimationRenderer))]
