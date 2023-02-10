@@ -122,4 +122,4 @@ For the detailed guide, go to the official Microsoft documentation on GitHub abo
 
 ## See Also
 
-* [Telerik UI for .NET MAYU Sample Applications]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Applications]({% slug controls-samples-app %})
