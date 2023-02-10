@@ -8,7 +8,7 @@ position: 30
 previous_url: /telerik-nuget-server, /get-started/install-nuget
 ---
 
-# Installing .NET MAUI with Telerik NuGet Server
+# Installing Telerik UI for .NET MAUI using the Telerik NuGet Server
 
 NuGet is a popular .NET package manager. Progress maintains the Telerik NuGet Feed for registered users and you can include the Telerik UI for .NET MAUI suite in your solution and/or update to the latest available version from there as well. Installing the Telerik UI for .NET MAUI library with NuGet works both for Windows and MacOS machines.
 
