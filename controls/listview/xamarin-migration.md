@@ -11,8 +11,6 @@ position: 2
 
 The Telerik UI for .NET MAUI ListView preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
-...
-
 ## Step 1: Convert the ListView to .NET MAUI
 
 For the purposes of this guide, take the following scenario:
