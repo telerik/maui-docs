@@ -2,7 +2,7 @@
 title: Layouts
 page_title: .NET MAUI ListView Documentation - Layouts
 description: Check our &quot;Layouts&quot; documentation article for Telerik ListView for .NET MAUI control.
-position: 10
+position: 11
 previous_url: /controls/listview/listview-features-layouts
 slug: listview-features-layouts
 ---
@@ -28,7 +28,7 @@ The following example demonstrates how to use the `RadListViewLinearLayout`.
 1. Define the list view in XAML:
 
  <snippet id='listview-layouts-linearlayout-listview'/>
- 
+
 	In the example:
 
  ```XAML
@@ -38,7 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 1. Add the `ViewModel` class with the `ItemsSource` collection:
 
  <snippet id='listview-layouts-linearlayout-source'/>
- 
+
 The following image shows the result:
 
 ![ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
@@ -58,7 +58,7 @@ The following example demonstrates how to use the `RadListViewGridLayout`.
 1. Add the `ViewModel` class with the `ItemsSource` collection:
 
  <snippet id='listview-layouts-linearlayout-source'/>
- 
+
 The following image shows the result:
 
 ![ListView Layouts Grid](images/listview-layouts-grid.png)

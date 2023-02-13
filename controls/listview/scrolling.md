@@ -2,7 +2,7 @@
 title: Scrolling
 page_title: .NET MAUI ListView Documentation - Scrolling
 description: Try now the Telerik UI for .NET MAUI ListView Scrolling options like the Vertical Scrollbar and programmatic scrolling with the ScrollItemIntoView method.
-position: 9
+position: 10
 slug: listview-features-scrolling
 previous_url: /controls/listview/listview-features-scrolling
 tags: programmatic, scrolling
@@ -36,7 +36,7 @@ The following example demonstrates how to use `ScrollItemIntoView` inside a butt
 1. Define a sample view with a ListView control and a button:
 
  <snippet id='listview-features-programmatic-scrolling-xaml'/>
- 
+
 1. Use the following `ViewModel` to create a simple data for the ListView component:
 
  <snippet id='listview-features-programmatic-scrolling'/>
