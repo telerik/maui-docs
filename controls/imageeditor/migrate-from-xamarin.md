@@ -14,8 +14,8 @@ Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin ImageEditor | `RadImageEditor` | `xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor"` | `using Telerik.XamarinForms.ImageEditor;` | 
-| .NET MAUI ImageEditor | `RadImageEditor` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin ImageEditor | `RadImageEditor` | xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor" | using Telerik.XamarinForms.ImageEditor; | 
+| .NET MAUI ImageEditor | `RadImageEditor` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
 ## API Changes

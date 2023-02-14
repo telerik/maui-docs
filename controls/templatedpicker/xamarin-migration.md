@@ -15,8 +15,8 @@ The Telerik UI for .NET MAUI TemplatedPicker preserves the same API as its Xamar
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin TemplatedPicker | `RadTemplatedPicker` | `xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"` | `using Telerik.XamarinForms.Input;` | 
-| .NET MAUI TemplatedPicker | `RadTemplatedPicker` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin TemplatedPicker | `RadTemplatedPicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| .NET MAUI TemplatedPicker | `RadTemplatedPicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
 ## API Changes

@@ -14,8 +14,8 @@ Compared API changes in Xamarin.Forms ComboBox and .NET MAUI ComboBox are descri
 
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
-| Xamarin ComboBox | `RadComboBox` | `using Telerik.XamarinForms.Input;` | `xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"`|
-| .NET MAUI ComboBox | `RadComboBox` | `using Telerik.Maui.Controls;` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` |
+| Xamarin ComboBox | `RadComboBox` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
+| .NET MAUI ComboBox | `RadComboBox` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 

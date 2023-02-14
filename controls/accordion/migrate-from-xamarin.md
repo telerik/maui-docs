@@ -14,8 +14,8 @@ Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Acco
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin Accordion | `RadAccordion` | `xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"` | `using Telerik.XamarinForms.Primitives;` | 
-| .NET MAUI Accordion | `RadAccordion` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin Accordion | `RadAccordion` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; | 
+| .NET MAUI Accordion | `RadAccordion` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 

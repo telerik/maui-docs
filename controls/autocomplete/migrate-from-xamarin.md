@@ -14,8 +14,8 @@ Telerik .NET MAUI AutoComplete control preserves the same API as Xamarin.Forms A
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin AutoCompleteView | `RadAutoCompleteView` | `xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"` | `using Telerik.XamarinForms.Input;` | 
-| .NET MAUI AutoComplete | `RadAutoComplete` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin AutoCompleteView | `RadAutoCompleteView` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| .NET MAUI AutoComplete | `RadAutoComplete` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 
