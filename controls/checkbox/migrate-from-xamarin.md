@@ -14,8 +14,8 @@ Overall, Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Fo
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin CheckBox | `RadCheckBox` | `xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"` | `using Telerik.XamarinForms.Primitives;` | 
-| .NET MAUI CheckBox | `RadCheckBox` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin CheckBox | `RadCheckBox` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; | 
+| .NET MAUI CheckBox | `RadCheckBox` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 

@@ -14,8 +14,8 @@ Overall, Telerik .NET MAUI DataForm control is a complete new control with new A
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin DataForm | `RadDataForm` | `xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"` | `using Telerik.XamarinForms.Input;` | 
-| .NET MAUI DataForm | `RadDataForm` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin DataForm | `RadDataForm` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| .NET MAUI DataForm | `RadDataForm` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
 ## API Changes
@@ -25,7 +25,7 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | Xamarin DataForm | .NET MAUI DataForm |
 | ------------- | --------------- |
 | Source | gets the data directly from the set BindingContext |
-| `Telerik.XamarinForms.Common.DataAnnotations` | `System.ComponentModel.DataAnnotations.DatаAnnotations` |
+| Telerik.XamarinForms.Common.DataAnnotations | System.ComponentModel.DataAnnotations.DataAnnotations |
 | Validation modes - `Immediate`, `OnLostFocus`, `Manual` | Validation modes - `PropertyChanged`, `LostFocus`, `Explicit` |
 | `FormValidationCompleted`, `PropertyValidationCompleted` | - |
 | `ValidateAll`, `ValidateProperty` | - |
