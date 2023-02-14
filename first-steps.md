@@ -106,9 +106,9 @@ To install Telerik UI for .NET MAUI on MacOS:
 
 For the step-by-step guide on how to install Telerik UI for .NET MAUI with NuGet, refer to the article on [getting up and running with the controls by using the Telerik NuGet Server and Visual Studio for Windows]({% slug telerik-nuget-server %}).
 
-## Step 4: Register Required Handlers and Renderers
+## Step 4: Register Required Handlers
 
-To visualize the Telerik UI for .NET MAUI controls, you have to register the required renderers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+To visualize the Telerik UI for .NET MAUI controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
 
 1. Add the needed `using` settings inside the `MauiProgram.cs` file.
 
