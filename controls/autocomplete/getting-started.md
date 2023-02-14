@@ -37,11 +37,11 @@ And the items source for the suggestion list:
 
 <snippet id='autocomplete-getting-started-items-source'/>
 
-1. Add the following namespace:
+Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
