@@ -24,7 +24,7 @@ The `DelegateFilterDescriptor` property supports a `Filter`, which defines the f
 
  <snippet id='listview-features-filtering-agefilter'/>
  ```C#
-listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataControls.ListView.DelegateFilterDescriptor { Filter = this.AgeFilter });
+this.listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataControls.ListView.ListViewDelegateFilterDescriptor { Filter = this.AgeFilter });
  ```
 
 1. Here is the `AgeFilter` method containing the filtering logic:
@@ -32,7 +32,7 @@ listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataContr
  ```C#
 private bool AgeFilter(object arg)
 {
-    var age = ((Item)arg).Age;
+    var age = ((Person)arg).Age;
     return age >= 25 && age <= 35;
 }
  ```

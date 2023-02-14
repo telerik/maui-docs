@@ -18,6 +18,7 @@ This topic provides an overview on how you could utilize localization and global
 Globalization refers to developing an application in such a way that it works with respect to the target device culture. This includes numbers formatting which can vary between cultures, especially for some specific symbols, such as decimal separators, currency and other, as well as date and time formatting. Following is a list of Telerik .NET MAUI controls that support globalization:
 
 * DatePicker
+* DateTimePicker
 * MaskedEntry
 * NumericInput
 * TimePicker
@@ -27,9 +28,10 @@ Globalization refers to developing an application in such a way that it works wi
 
 Localization refers to the translation of application resources into localized versions for the specific languages that the application supports. Check below a list of Telerik .NET MAUI controls that support localization:
 
+* DataForm
+* DataGrid
+* ImageEditor
 * MaskedEntry
-
-
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 

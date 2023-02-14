@@ -40,7 +40,7 @@ The following examples demonstrate how to define use the styling properties of t
 
 **Define the `RadListPicker`**
 
-<snippet id='listpicker-features-styling' />
+<snippet id='listpicker-popup-style' />
 
 **Define the PopupViewStyle**
 

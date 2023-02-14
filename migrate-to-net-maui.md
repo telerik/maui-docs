@@ -107,12 +107,18 @@ The following list includes the links to the available Xamarin-to-MAUI migration
 * [CheckBox]({% slug checkbox-migrate-from-xamarin %})
 * [ComboBox]({% slug combobox-migrate-from-xamarin %})
 * [DataForm]({% slug dataform-migrate-from-xamarin %})
+* [DatePicker]({% slug migrate-xamarin-datepicker-to-maui %})
+* [DateTimePicker]({% slug migrate-xamarin-datetimepicker-to-maui %})
 * [Entry]({% slug entry-migrate-from-xamarin %})
 * [ImageEditor]({% slug imageeditor-migrate-from-xamarin %})
+* [ListPicker]({% slug migrate-xamarin-listpicker-to-maui %})
 * [ListView]({% slug migrate-xamarin-listview-to-maui %})
 * [MaskedEntry]({% slug maskedentry-migrate-from-xamarin %})
 * [ProgressBar]({% slug progressbar-migrate-from-xamarin %})
 * [SignaturePad]({% slug signaturepad-migrate-from-xamarin %})
+* [TemplatedPicker]({% slug  migrate-xamarin-templatedpicker-to-maui %})
+* [TimePicker]({% slug  migrate-xamarin-timepicker-to-maui %})
+* [TimeSpanPicker]({% slug migrate-xamarin-timespanpicker-to-maui %})
 
 ## Step 4: Port Custom Renderers to Handlers
 

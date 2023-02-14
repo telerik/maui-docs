@@ -49,10 +49,10 @@ You can apply the `Accept` and `Cancel` commands can by using the `SelectorSetti
  ```XAML
 <StackLayout>
     <telerik:RadDateTimePicker>
-        <telerik:RadDateTimePicker.SelectorSettings>
-            <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
-                                                      CancelCommand="{Binding Cancel}"/>
-        </telerik:RadDateTimePicker.SelectorSettings>
+        <telerik:RadDateTimePicker.PopupSettings>
+            <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
+                                         CancelCommand="{Binding Cancel}"/>
+        </telerik:RadDateTimePicker.PopupSettings>
             <telerik:RadDateTimePicker.BindingContext>
                 <local:ViewModel/>
             </telerikInput:RadDateTimePicker.BindingContext>

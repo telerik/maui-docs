@@ -43,10 +43,10 @@ You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings`
                 <telerik:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
             </ControlTemplate>
         </telerik:RadTemplatedPicker.SelectorTemplate>
-		<telerik:RadTemplatedPicker.SelectorSettings>
-                <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
-                                                          CancelCommand="{Binding Cancel}"/>
-            </telerik:RadTemplatedPicker.SelectorSettings>
+		<telerik:RadTemplatedPicker.PopupSettings>
+                <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
+                                             CancelCommand="{Binding Cancel}"/>
+            </telerik:RadTemplatedPicker.PopupSettings>
             <telerik:RadTemplatedPicker.BindingContext>
                 <local:ViewModel/>
             </telerik:RadTemplatedPicker.BindingContext>

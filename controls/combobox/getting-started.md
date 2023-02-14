@@ -24,7 +24,7 @@ Before adding the ComboBox, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
-1. [Register Required Handlers and Renderers]({%slug maui-getting-started %}#step-4-register-required-handlers-and-renderers).
+1. [Register Required Handlers]({%slug maui-getting-started %}#step-4-register-required-handlers).
 
 ## Define the Control
 
