@@ -153,6 +153,9 @@ navigation:
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
+    controls/datagrid/filtering:
+        title: "Filtering"
+        position: 3
     controls/datagrid/grouping:
         title: "Grouping"
         position: 4

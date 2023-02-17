@@ -82,7 +82,7 @@ Here is the ComboBox definition in XAML:
 
 In addition to this, you need to add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
