@@ -1,14 +1,15 @@
 ---
 title: Programmatic Filtering
 page_title: .NET MAUI DataGrid Documentation - Programmatic Filtering
-description: Check our Programmatic Filtering documentation article for Telerik DataGrid for .NET MAUI control.
+description: Programmatic Filtering can be used for external filtering. You could disable the built-in filtering UI and programmatically filter tha data in the grid.
 position: 3
 slug: datagrid-programmatic-filtering
 ---
 
 # Programmatic Filtering
 
-Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+Programmatic Filtering could be used for external filtering. For example, disable the built-in filtering UI and to filter the data in the grid programmatically. 
+Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control. 
 
 The following descriptor types are supported:
 
@@ -207,7 +208,7 @@ class CustomFilter : Telerik.Maui.Controls.Compatibility.Common.Data.IFilter
 }
 ```
 
-> Take notice that `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+> `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
 
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
@@ -215,3 +216,5 @@ Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 ```C#
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
+
+>important You could check our Programmatic Filtering example referring to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
