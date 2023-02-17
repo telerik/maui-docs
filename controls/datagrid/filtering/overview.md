@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI DataGrid Documentation - Filtering Overview
 description: "Review the Telerik .NET MAUI DataGrid Filtering documentation article to learn more about all built in filtering functions you can use."
 position: 0
+previous_url: /controls/datagrid/datagrid-filtering-overview
 slug: datagrid-filtering-overview
 ---
 
