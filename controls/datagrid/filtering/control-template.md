@@ -1,7 +1,7 @@
 ---
 title: Control Template
 page_title: .NET MAUI DataGrid Documentation - Control Template
-description: "Review the Telerik .NET MAUI DataGrid Control Template documentation article to learn more about applying custom filter to the DataGrid using FilterControlTemplate property.
+description: "Review the Telerik .NET MAUI DataGrid Control Template documentation article to learn more about applying custom filter to the DataGrid using FilterControlTemplate property."
 position: 2
 slug: datagrid-control-template
 ---
