@@ -45,6 +45,15 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 
 > For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 
+# Setting the Keyboard Type
+
+The `Keyboard` property allows you to define the type of the keyboard that will be visualized by the device.
+
+```XAML
+<telerik:RadEntry x:Name="maskedEntry"
+				  Keyboard="Numeric"
+				  Placeholder="Enter Text" />
+```
 
 ## See Also
 
