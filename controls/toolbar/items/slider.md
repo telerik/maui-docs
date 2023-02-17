@@ -16,6 +16,8 @@ The available properties for configuration are:
 * `Minimum`(`double`)&mdash;Specifies the minimum value of the slider.
 * `Maximum`(`double`)&mdash;Specifies the maximum value of the slider.
 
+<snippet id='toolbar-slider-item'/>
+
 ## Events
 
 * `ValueChanged`&mdash;Raised when the `SliderToolbarItem.Value` property has changed.

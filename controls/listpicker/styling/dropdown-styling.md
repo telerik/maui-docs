@@ -8,7 +8,7 @@ slug: listpicker-dropdown-styling
 
 # .NET MAUI ListPicker DropDown Styling
 
-By using the `DropDownSettings` property (of type `Telerik.XamarinForms.Input.PickerDropDownSettings`) of the ListPicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
+By using the `DropDownSettings` property (of type `Telerik.Maui.controls.PickerDropDownSettings`) of the ListPicker, you can modify the appearance of the dropdown. The `PickerDropDownSettings` class exposes the following `Style` properties:
 
 * `DropDownViewStyle`(of type `Style` with target type `telerik:PickerDropDownContentView`)&mdash;Defines the dropdown view style.
 * `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the dropdown footer style.
@@ -29,7 +29,7 @@ The following examples demonstrate how to define use the styling properties of t
 
 **Define the `RadListPicker`**
 
-<snippet id='listpicker-features-styling' />
+<snippet id='listpicker-dropdown-style' />
 
 **Define the FooterStyle**
 

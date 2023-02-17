@@ -9,7 +9,7 @@ slug: listview-getting-started
 
 # Getting Started with .NET MAUI ListView
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI ListView by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
@@ -19,11 +19,11 @@ At the end, you will be able to achieve the following result.
 
 Before adding the ListView, you need to:
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
 ## Define the Control
 

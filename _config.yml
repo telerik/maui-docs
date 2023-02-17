@@ -9,18 +9,15 @@ exclude_navigation: [knowledge-base/*]
 navigation:
 ## List your directory names and order here, like this:
 ## Root Level
-    get-started:
-        title: "Getting Started"
-        position: 1
     installation:
-        title: "Installation"
+        title: "Download & Installation"
         position: 2
     demos-and-sample-apps:
         title: "Sample Applications"
         position: 3
     controls:
         title: "Controls"
-        position: 7
+        position: 4
     troubleshooting:
         title: "Troubleshooting"
         position: 12
@@ -126,7 +123,7 @@ navigation:
     ## End CheckBox
     ## ComboBox
     controls/combobox:
-        title: "ComboBox"     
+        title: "ComboBox"
     ## End ComboBox
     ## DataForm
     controls/dataform:
@@ -156,6 +153,9 @@ navigation:
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
+    controls/datagrid/filtering:
+        title: "Filtering"
+        position: 3
     controls/datagrid/grouping:
         title: "Grouping"
         position: 4
@@ -227,19 +227,19 @@ navigation:
         ## ListView Sub-Folders
     controls/listview/grouping:
         title: "Grouping"
-        position: 4
+        position: 5
     controls/listview/gestures:
         title: "Gestures"
-        position: 11
+        position: 12
     controls/listview/cells:
         title: Cells
-        position: 2
+        position: 3
     controls/listview/styling:
         title: "Styling"
-        position: 14
+        position: 15
     controls/listview/howto:
         title: "How To"
-        position: 15
+        position: 16
         ## End ListView Sub-Folders
     ## End ListView
     ## Map
@@ -274,7 +274,7 @@ navigation:
     ## PdfProcessing
     controls/pdfprocessing:
         title: "PdfProcessing"
-    ## End PdfProcessing   
+    ## End PdfProcessing
     ## Popup
     controls/popup:
         title: "Popup"
@@ -314,6 +314,9 @@ navigation:
     ## TemplatedPicker
     controls/templatedpicker:
         title: "TemplatedPicker"
+    controls/templatedpicker/styling:
+        title: "Styling"
+        position: 20
     ## End TemplatedPicker
     ## TimePicker
     controls/timepicker:
@@ -338,7 +341,7 @@ navigation:
     ## End Toolbar
     ## WordsProcessing
     controls/wordsprocessing:
-        title: "WordsProcessing"    
+        title: "WordsProcessing"
     ## End WordsProcessing
     ## WrapLayout
     controls/wraplayout:
@@ -347,7 +350,7 @@ navigation:
     ## ZipLibrary
     controls/ziplibrary:
         title: "ZipLibrary"
-    ## End ZipLibrary   
+    ## End ZipLibrary
 ## End Controls Sub-Folders
 
 ## The application virtual path
@@ -383,7 +386,7 @@ ff-sheet-id: 6ed4da75-840a-44ce-8832-ddf46f650e79
 
 # The google services configuration
 google_tag_manager: GTM-6X92
-gcs_engine: '7eeef440dfb667c8a'
+gcs_engine: 'f5ca20400f4bf4c7d'
 gcs_api_key: 'AIzaSyAF3UVKPTp93jQDEvt5iLqDfOwwrscqaok'
 
 tabbed_code_marker_length: 3

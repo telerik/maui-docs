@@ -18,11 +18,11 @@ At the end, you will be able to achieve the following result.
 
 Before adding the TemplatedPicker, you need to:
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
 ## Define the Control
 
@@ -40,6 +40,42 @@ The SideDrawer control contains two views - `MainContent` and `DrawerContent` Th
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
  ```
+
+1. Add the DefaultButtonStyle to the VerticalStackLayout's Resources.
+
+```XAML
+<telerik:RadSideDrawer x:Name="drawer" 
+                       DrawerLength="200">
+    <telerik:RadSideDrawer.MainContent>
+        <Grid>
+            <Label Text="Main content" />
+        </Grid>
+    </telerik:RadSideDrawer.MainContent>
+    <telerik:RadSideDrawer.DrawerContent>
+        <VerticalStackLayout Spacing="10"
+                             Padding="10, 10, 0, 0">
+            <VerticalStackLayout.Resources>
+	        <!-- A button style for only DrawerContent -->
+                <Style x:Key="DefaultButtonStyle" TargetType="Button">
+                    <Setter Property="WidthRequest" Value="180" />
+                    <Setter Property="HeightRequest" Value="40" />
+                    <Setter Property="BackgroundColor" Value="#b1b1b1" />
+                    <Setter Property="TextColor" Value="Black" />
+                </Style>
+            </VerticalStackLayout.Resources>
+
+            <Button Text="Mail"
+                    Style="{StaticResource DefaultButtonStyle}" />
+            <Button Text="Calendar"
+                    Style="{StaticResource DefaultButtonStyle}" />
+            <Button Text="People"
+                    Style="{StaticResource DefaultButtonStyle}" />
+            <Button Text="Tasks"
+                    Style="{StaticResource DefaultButtonStyle}" />
+        </VerticalStackLayout>
+    </telerik:RadSideDrawer.DrawerContent>
+</telerik:RadSideDrawer>
+```
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 

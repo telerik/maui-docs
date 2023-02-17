@@ -114,9 +114,9 @@ public class DateLabelFormatter : LabelFormatterBase<DateTime>
 	                                Maximum="1" />
 	</telerik:RadCartesianChart.VerticalAxis>
 	<telerik:RadCartesianChart.Series>
-	    <telerik:LineSeries ValueBinding="Value"
-	                             CategoryBinding="Date"
-	                             ItemsSource="{Binding Data}" />
+	    <telerik:LineSeries ItemsSource="{Binding Data}"
+                            CategoryBinding="Date"
+                            ValueBinding="Value" />
 	</telerik:RadCartesianChart.Series>
 </telerik:RadCartesianChart>
  ```

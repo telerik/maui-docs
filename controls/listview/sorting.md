@@ -2,7 +2,7 @@
 title: Sorting
 page_title: .NET MAUI ListView Documentation - Sorting
 description: Check the Telerik .NET MAUI ListView sorting options using different types of sort descriptors.
-position: 5
+position: 6
 slug: listview-features-sorting
 previous_url: /controls/listview/listview-features-sorting
 tags: sort, radlistview, sorting, sortdescriptor

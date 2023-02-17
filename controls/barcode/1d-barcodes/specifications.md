@@ -44,23 +44,23 @@ The following table describes the specific characteristics of the barcodes per t
 Apply the Code39 symbology to a RadBarcode.
 
 ```XAML
-<telerikBarcode:RadBarcode WidthRequest="200" HeightRequest="100"
+<telerik:RadBarcode WidthRequest="200" HeightRequest="100"
         HorizontalOptions="Center" VerticalOptions="Center"
         Value="58000106">
-    <telerikBarcode:RadBarcode.Symbology>
-        <telerikBarcode:Code39 HorizontalTextAlignment="Center"
+    <telerik:RadBarcode.Symbology>
+        <telerike:Code39 HorizontalTextAlignment="Center"
                           SizingMode="Stretch"
                           ShowText="True"  
                           CodeTextSpacing="10"/>
-    </telerikBarcode:RadBarcode.Symbology>
-</telerikBarcode:RadBarcode>
+    </telerik:RadBarcode.Symbology>
+</telerik:RadBarcode>
 ```
 
 Add the following namespace.
 
-```XAMl
-xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.Maui.Controls.Compatibility"
-```
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ````
 
 Thе following image shows the result from the suggested implementation.
 

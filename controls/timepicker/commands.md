@@ -53,10 +53,10 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
  ```XAML
 <telerik:RadTimePicker x:Name="timePicker">
-	<telerik:RadTimePicker.SelectorSettings>
-		<telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"  
-												  CancelCommand="{Binding Cancel}"/>
-	</telerik:RadTimePicker.SelectorSettings>
+	<telerik:RadTimePicker.PopupSettings>
+		<telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"  
+									 CancelCommand="{Binding Cancel}"/>
+	</telerik:RadTimePicker.PopupSettings>
 </telerik:RadTimePicker>
  ```
 

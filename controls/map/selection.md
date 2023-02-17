@@ -53,7 +53,7 @@ And the event handlers:
 <snippet id='map-selection-runtime-code' />
 
 ```XAML
-xmlns:telerikMap="clr-namespace:Telerik.XamarinForms.Map;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Here is the result:

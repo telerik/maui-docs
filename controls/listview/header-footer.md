@@ -2,7 +2,7 @@
 title: Header and Footer
 page_title: .NET MAUI ListView Documentation - Header and Footer
 description: Check our &quot;Header and Footer&quot; documentation article for Telerik ListView for .NET MAUI
-position: 7
+position: 8
 previous_url: /controls/listview/listview-features-header-footer
 slug: listview-features-header-footer
 ---
@@ -29,7 +29,7 @@ The following example shows how to add a Header and a Footer to the ListView con
  **Define the FooterTemplate**
 
  <snippet id='listview-features-footer-template-xaml'/>
- 
+
 1. Use the following snippet to declare the ListView in XAML:
 
  <snippet id='listview-features-header-and-footer-xaml'/>

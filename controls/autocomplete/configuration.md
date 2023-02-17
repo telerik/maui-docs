@@ -85,3 +85,10 @@ Where `Auto` calculates the available space and chooses what's the best position
 
 ## See Also
 
+- [Remote Search]({%slug autocomplete-remote-search%})
+- [Suggest Mode]({%slug autocomplete-suggest-mode%})
+- [Filtering]({%slug autocomplete-filtering%})
+- [Events]({%slug autocomplete-events%})
+- [Methods]({%slug autocomplete-methods%})
+- [Templates]({%slug autocomplete-custom-templates%})
+- [Styling]({%slug autocomplete-styling%})

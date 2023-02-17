@@ -19,11 +19,11 @@ At the end, you will be able to achieve the following result.
 
 Before adding the Gauge, you need to:
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#install-telerik-ui-for-net-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
 >important The Gauge is rendered through the [SkiaSharp graphics library](https://skia.org/).
 
@@ -64,8 +64,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
-- [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
+- [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
+- [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
 - [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

@@ -50,7 +50,7 @@ The DateTimePicker for .NET MAUI allows you to clear the selected date through i
 In addition to this, you need to add the following namespace:
 
 ```XAML
-xmlns:telerik="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.Maui.Controls.Compatibility"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.

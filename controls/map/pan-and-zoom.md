@@ -50,7 +50,7 @@ If you would like to show a specific area from the map, you can use `SetView` me
 
 * `SetView`(LocationRect locationRect) – Sets the provided location as the current view of the map. 
 
-`LocationRect` class is a special type from the *Telerik.XamarinForms.ShapefileReader* namespace, which describes a rectangle region through the locations of the northwest and southeast points.  
+`LocationRect` class is a special type from the `Telerik.Maui.Controls.Compatibility.ShapefileReader` namespace, which describes a rectangle region through the locations of the northwest and southeast points.  
 
 >tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
 

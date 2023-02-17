@@ -36,7 +36,7 @@ The following examples show how the styling properties are applied.
 
 1. Define the ListPicker:
 
-<snippet id='listpicker-features-styling' />
+<snippet id='listpicker-style' />
 
 Define the styles in the page resources:
 

@@ -1,6 +1,6 @@
 ---
 title: Headers
-page_title: .NET MAUI DataForm Documentation | Headers
+page_title: .NET MAUI DataForm Documentation - Headers
 description: "Check our &quot;Headers&quot; documentation article for Telerik .NET MAUI DataForm control."
 position: 8
 slug: dataform-headers
