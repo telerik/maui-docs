@@ -23,7 +23,7 @@ The DataGrid control provides the following `Style` properties for customizing i
 
 ![DataGrid Styling](../images/datagrid-borderBrush.png)
 
-The `BorderBrush` and `BorderThickness` propeties set to the DataGrid control below:
+The `BorderBrush` and `BorderThickness` properties set to the DataGrid control below:
 ```XAML
  <telerik:RadDataGrid x:Name="DataGrid" 
                       BorderBrush="#8660C5" 
