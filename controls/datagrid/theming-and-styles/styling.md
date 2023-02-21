@@ -11,6 +11,8 @@ slug: datagrid-styling
 
 The DataGrid control provides the following `Style` properties for customizing its look & feel:
 
+* `BorderBrush`&mdash;Defines the border color of the whole DataGrid control.
+* `BorderThickness`&mdash;Defines the thickness of the border, set to the whole DataGrid control.
 * `RowBackgroundStyle`&mdash;Defines the style of each row.
 * `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
 * `GroupHeaderStyle`&mdash;Defines the appearance style of the group header once the DataGrid is grouped.
@@ -19,6 +21,14 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `HoverTextColor`&mdash;Defines the text color of the hovered cell.
 * `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property allows you to style the splitter UI. The Splitter UI splits the frozen columns from the unfrozen columns.
 
+![DataGrid Styling](../images/datagrid-borderBrush.png)
+
+The `BorderBrush` and `BorderThickness` propeties set to the DataGrid control below:
+```XAML
+ <telerik:RadDataGrid x:Name="DataGrid" 
+                      BorderBrush="#8660C5" 
+                      BorderThickness="4"/>
+```
 
 ## Styling Properties
 
