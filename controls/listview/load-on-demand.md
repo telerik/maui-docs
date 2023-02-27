@@ -2,7 +2,7 @@
 title: Load on Demand
 page_title: .NET MAUI ListView Documentation - Load on Demand
 description: Check our &quot;Load on Demand&quot; documentation article for Telerik ListView for .NET MAUI.
-position: 8
+position: 9
 previous_url: /controls/listview/listview-features-load-on-demand
 slug: listview-features-load-on-demand
 ---
@@ -72,7 +72,7 @@ Set the ListView `ItemsSource` , for example in the page constructor:
 Add the following event handler:
 
 <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
-	
+
 ### Using LoadOnDemand Command
 
 This approach is similar to [using the LoadOnDemand event](#using-loadondemand-event), but in this case, the load-on-demand is handled in the `ViewModel` through the `LoadOnDemandUserCommand` exposed by the ListView. In the `Execute` method of the command, you can add items right away or asynchronously:

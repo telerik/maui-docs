@@ -1,8 +1,9 @@
 ---
 title: Introduction
 page_title: Introduction
-description: ".NET MAUI Documentation for Cross-Platform Apps | Telerik UI for .NET MAUI"
+description: "Kickstart your cross-platform app development with the comprehensive Telerik UI library of .NET MAUI controls and learn how to build native applications for Windows, macOS, Android, and iOS by reading the .NET MAUI documentation."
 tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
+previous_url: /license
 position: 0
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Commands
 page_title: .NET MAUI ListView Documentation - Commands
-description: Review the Telerik UI for .NET MAUI ListView Commands for operations like item swiping, item tap, reordering, pull to refresh, grouping and more. 
-position: 13
+description: Review the Telerik UI for .NET MAUI ListView Commands for operations like item swiping, item tap, reordering, pull to refresh, grouping and more.
+position: 14
 slug: listview-features-commands
 previous_url: /controls/listview/listview-features-commands
 tags: commands
@@ -62,7 +62,7 @@ With the `ListViewUserCommand` binding approach, you can directly handle the cus
 1. Add the custom command to the `ViewModel`:
 
  <snippet id='listview-features-commands-viewmodel'/>
- 
+
 1. Bind the `ItemTapCommand` through the predefined `ListViewUserCommand` command. Its `Id` property is used to map the command to the corresponding action with the control:
 
  <snippet id='listview-commands-listviewusercommand-xaml'/>

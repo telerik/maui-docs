@@ -39,10 +39,10 @@ The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` p
                                 x:Name="listPicker"
                                 ItemsSource="{Binding Items}"
                                 DisplayMemberPath="FullName">
-        <telerik:RadListPicker.SelectorSettings>
-            <telerik:PickerPopupSelectorSettings AcceptCommand="{Binding Accept}"
-                                                        CancelCommand="{Binding Cancel}" />
-        </telerik:RadListPicker.SelectorSettings>
+        <telerik:RadListPicker.PopupSettings>
+            <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
+                                         CancelCommand="{Binding Cancel}" />
+        </telerik:RadListPicker.PopupSettings>
         <telerik:RadListPicker.BindingContext>
             <local:ViewModel/>
         </telerik:RadListPicker.BindingContext>

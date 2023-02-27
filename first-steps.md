@@ -1,14 +1,14 @@
 ---
-title: First Steps
-page_title: Telerik .NET MAUI - Getting Started
+title: Getting Started
+page_title: Telerik .NET MAUI Getting Started Guide
 description: "Get started with Telerik UI for .NET MAUI and learn how to configure the .NET MAUI project on your machine, download and install the library, and register the required handlers and renderers."
 slug: maui-getting-started
 tags: .net maui, ui for .net maui, .net maui controls
-position: 10
-previous_url: /maui-getting-started
+position: 1
+previous_url: /maui-getting-started, /get-started/first-steps
 ---
 
-# Getting Started
+# Getting Started with Telerik UI for .NET MAUI
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI suite&mdash;it includes instructions about the available download and installation approaches as well as the required handlers and renderers you have to register.
 
@@ -61,11 +61,11 @@ To download Telerik UI for .NET MAUI from your Telerik account:
 
 Telerik UI for .NET MAUI provides the following installation options:
 
-* [Installing on Windows](#installation-for-windows)
-* [Installing on MacOS](#installation-for-macos)
-* [Installing with NuGet (for Windows and MacOS)]({% slug telerik-nuget-server %})
+* [Installing on Windows](#installing-on-windows)
+* [Installing on MacOS](#installing-on-macos)
+* [Installing with NuGet]({% slug telerik-nuget-server %})
 
-### Installation for Windows
+### Installing on Windows
 
 To install Telerik UI for .NET MAUI on Windows:
 
@@ -73,37 +73,42 @@ To install Telerik UI for .NET MAUI on Windows:
 
     On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
 
-1. The installation folder provides the following subdirectories:
+1. Use the subdirectory of the installation folder you need:
 
-    * **Binaries**&mdash;Contains two folders Net6 and Net7. Each contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
-    * **Examples**&mdash;Contains the samples applications demonstrating the Telerik UI for .NET MAUI controls. For more details go to [Sample Applications]({%slug sampleapps-overview%}) topic.
-    * **LicenseAgreements**&mdash;Provides the product End-User License Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
-	* **VSExtensions**&mdash;Contains VSExtension for Visual Studio 2022.
-	
+    * `Binaries`&mdash;Contains the `Net6` and `Net7` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
+    * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
+    * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
+    * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
+	* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
+
     ![Telerik .NET MAUI Installation Folder](images/telerik-ui-for-maui-installation-folder.png)
 
-### Installation for macOS
+### Installing on macOS
 
 To install Telerik UI for .NET MAUI on MacOS:
 
-1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. 
-	
+1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions.
+
 	The file automatically installs Telerik UI for .NET MAUI on your Mac.
 
-1. The installation folder provides the following subdirectories:
+1. Use the subdirectory of the installation folder you need:
 
-    * **Binaries**&mdash;Contains two folders Net6 and Net7. Each contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
-    * **Examples**&mdash;Contains the samples applications demonstrating the Telerik UI for .NET MAUI controls. For more details go to [Sample Applications]({%slug sampleapps-overview%}) topic.
-    * **LicenseAgreements**&mdash;Provides the product End-User License Agreement (EULA).
-    * **Packages**&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing nuget packages.
-	* **VSExtensions**&mdash;Contains the Project Wizard for Visual Studio for Mac.
-	
+    * `Binaries`&mdash;Contains the `Net6` and `Net7` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
+    * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
+    * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
+    * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
+	* `VSExtensions`&mdash;Contains the Project Wizard for Visual Studio for Mac.
+
 	![Telerik .NET MAUI Installation on MacOS](images/mac-folders.png)
 
-## Step 4: Register Required Handlers and Renderers
 
-To visualize the Telerik UI for .NET MAUI controls, you have to register the required renderers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+### Installing with NuGet
+
+For the step-by-step guide on how to install Telerik UI for .NET MAUI with NuGet, refer to the article on [getting up and running with the controls by using the Telerik NuGet Server and Visual Studio for Windows]({% slug telerik-nuget-server %}).
+
+## Step 4: Register Required Handlers
+
+To visualize the Telerik UI for .NET MAUI controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
 
 1. Add the needed `using` settings inside the `MauiProgram.cs` file.
 
@@ -131,6 +136,8 @@ public static class MauiProgram
 	}
 }
  ```
+
+
 
 ## See Also
 
