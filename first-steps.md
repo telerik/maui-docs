@@ -29,11 +29,11 @@ To download Telerik UI for .NET MAUI from its product page:
 
 1. Log into your [Telerik Account](https://www.telerik.com/account/).
 
-1. Go to the [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui).
+1. Go to the [Telerik UI for .NET MAUI controls overview page](https://www.telerik.com/maui-ui).
 
 1. Click the **Download Telerik UI for .NET MAUI** button.
 
-  ![Telerik UI for .NET MAUI](images/download_maui.png)
+  ![Telerik UI for .NET MAUI](images/download_maui2.png "Telerik .NET MAUI Controls")
 
 1. As a result, the download starts automatically.
 
