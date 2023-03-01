@@ -1,6 +1,6 @@
 ---
 title: Restoring NuGet Packages in CI
-page_title: Restoring NuGet Packages in Continuous Integration 
+page_title: Restoring NuGet Packages in Continuous Integration
 description: "Learn how to use NuGet Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment."
 slug: nuget-keys
 position: 10
@@ -113,6 +113,6 @@ If you just start using the Telerik NuGet server in your CI or inter-department 
 ## See Also
 
 - [First Steps]({%slug maui-getting-started%})
-- [Installing from MSI file]({%slug install-msi%})
+- [Installing from MSI file]({%slug maui-getting-started%})
 - [Installing from PKG file]({%slug install-pkg%})
 - [Installing with NuGet]({%slug telerik-nuget-server%})

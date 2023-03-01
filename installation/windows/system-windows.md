@@ -17,7 +17,9 @@ To develop applications with Telerik UI for .NET MAUI, and depending on the plat
 
   Alternatively, Windows 10, version 1809 or later, using [Windows UI Library (WinUI) 3](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/).
 
-* For .NET 7.0 projects, [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/). Otherwise, [Visual Studio 2022 17.3 or later](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation).
+* (For .NET 7.0 projects) [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/)
+
+  Otherwise, [Visual Studio 2022 17.3 or later](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 ## Supported Platforms
 

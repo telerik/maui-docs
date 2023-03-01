@@ -1,12 +1,31 @@
 ---
 title:
-page_title: 
+page_title:
 description: Check our detailed documentation article on how to get started with Telerik UI for .NET MAUI on Windows. Find all you need to know about .NET MAUI installation documentation.
 slug: getting-started-windows
 position: 0
 ---
 
 # Using Telerik UI for .NET MAUI on Windows
+
+### Using the Product Page
+
+To download Telerik UI for .NET MAUI from its product page:
+
+1. Log into your [Telerik Account](https://www.telerik.com/account/).
+
+1. Go to the [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui).
+
+1. Click the **Download Telerik UI for .NET MAUI** button.
+
+  ![Telerik UI for .NET MAUI](images/download_maui.png)
+
+1. As a result, the download starts automatically.
+
+  ![Telerik UI for .NET MAUI](images/downloading-maui.png)
+
+-------------
+
 
 This article aims to help you set up your application to use **Telerik UI for .NET MAUI** suite on **Windows OS**.
 
@@ -50,7 +69,7 @@ You can use our [Telerik NuGet package server]({%slug telerik-nuget-server%}) to
 
 If you prefer to manually reference the required Telerik UI for .NET MAUI assemblies into your solution, you can get them in the following ways:
 
-* Through the MSI installation - in this case after [installing Telerik UI for .NET MAUI]({%slug install-msi %}) on your machine, you can find the assemblies in the following default folder: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine;
+* Through the MSI installation - in this case after [installing Telerik UI for .NET MAUI]({%slug maui-getting-started %}) on your machine, you can find the assemblies in the following default folder: C:\Program Files\Progress\ or C:\Program Files (x86)\Progress\ for a 64bit machine;
 * Download a ZIP file containing all the assemblies, for more details on this go to [Download Product Files]({%slug download-product-files %}) topic. You can then unzip the file to any location on your machine and reference the assemblies from that location.
 
 No matter whether you've used the automatic installation or the zip, you'll have Binaries folder has two folders Net6 and Net7 that contain platform-specific folders - Android, iOS, MacCatalyst, WinUI. All assemblies are in these folders. Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:

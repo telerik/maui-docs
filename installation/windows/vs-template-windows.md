@@ -28,7 +28,7 @@ Visual Studio installation needs to have the following components included:
 
 ## Using the Telerik .NET MAUI App project templates
 
-Both Telerik .NET MAUI App project templates are installed as part of the [Telerik UI for .NET MSI installation]({%slug install-msi %}).
+Both Telerik .NET MAUI App project templates are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}).
 
 When you finish with the automatic installation, you're ready to utilize the project template:
 
