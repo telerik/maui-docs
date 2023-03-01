@@ -6,24 +6,11 @@ slug: system-requirements
 position: 1
 ---
 
-# System Requirements for Telerik UI for .NET MAUI
+# System Requirements for Telerik UI for .NET MAUI on macOS
 
 >note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
 
 To develop applications with Telerik UI for .NET MAUI, and depending on the platform you are using, you need to install specific development tools.
-
-* [Prerequisites for Windows](#windows)
-* [Prerequisites for macOS](#macos)
-
-## Windows
-
-* Windows 11
-
-  Alternatively, Windows 10, version 1809 or later, using [Windows UI Library (WinUI) 3](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/).
-
-* For .NET 7.0 projects, [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/). Otherwise, [Visual Studio 2022 17.3 or later](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation).
-
-## macOS
 
 While you can develop Android, iOS, and macOS apps on macOS, the operating system does not support WinUI apps.
 
@@ -44,12 +31,5 @@ You can use Telerik UI for .NET MAUI for application development for the followi
 | Android | 5.0 (API 21) or later |
 | iOS | 10 or later |
 | macOS | 10.15 or later, using Mac Catalyst |
-| Windows | 11 and Windows 10, version 1809 or later, using Windows UI Library (WinUI) 3 |
 
 ## See Also
-
-- [First Steps with Telerik UI for .NET MAUI]({%slug maui-getting-started%})
-- [MSI Telerik UI for .NET MAUI Installation]({%slug install-msi%})
-- [PKG Telerik UI for .NET MAUI Installation]({%slug install-pkg%})
-- [NuGet Telerik UI for .NET MAUI Installation]({%slug telerik-nuget-server%})
-- [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})

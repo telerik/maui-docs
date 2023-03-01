@@ -20,14 +20,6 @@ The available product files include the following items:
 
 To download any of the product files:
 
-
-
-    Log into your Telerik account.
-
-    Navigate to the Telerik UI for WinUI Downloads page and select the desired files.
-
-Telerik WinUI Download Page
-
 1. Log into your [Telerik account](https://www.telerik.com/account/).
 
 2. Click the __Downloads__ tab:
@@ -42,14 +34,11 @@ Telerik WinUI Download Page
 
  ![Available Telerik UI for .NET MAUI product files on the Downloads page](images/download_product_files_3.png)
 
-Below you can find a list of the available files:
+## List of Options and Product Files
 
-### List of Options and Product Files
-
-Note that in the following table, you have to replace the following entries:
+Note that in the following table, you have to modify the following entries:
 
 * Replace `[license]` either with `Dev` or `Trial`, depending on the [Trial or Commercial]({%slug license-limitations%}) license you have.
-
 * Replace `[version]` with the version to which the file corresponds.
 
 |  File Name | Description   | Required License |
@@ -61,9 +50,3 @@ Note that in the following table, you have to replace the following entries:
 | `Telerik.ui.for.maui.[Version].mpack` | Contains the Visual Studio for Mac add-in with a project template and pre-setup requirements for running Telerik UI for .NET MAUI components. | Commercial or Trial |
 
 ## See Also
-
-- [First Steps with Telerik UI for .NET MAUI]({%slug maui-getting-started%})
-- [MSI Telerik UI for .NET MAUI Installation]({%slug install-msi%})
-- [PKG Telerik UI for .NET MAUI Installation]({%slug install-pkg%})
-- [NuGet Telerik UI for .NET MAUI Installation]({%slug telerik-nuget-server%})
-- [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})

@@ -1,8 +1,8 @@
 ---
-title: Installing Telerik UI for .NET MAUI from MSI File
-page-title: Telerik UI for .NET MAUI - Install from MSI File
+title:
+page-title: 
 description: This article will guide you through the steps you have to follow in order to download and install the Telerik UI for .NET MAUI.
-position: 1 
+position: 1
 slug: install-msi
 ---
 # Installing Telerik UI for .NET MAUI from MSI file #

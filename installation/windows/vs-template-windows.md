@@ -5,6 +5,7 @@ description: "Check our detailed documentation article for the Visual Studio Ext
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
 position: 2
 slug: visualstudio-extensions
+previous_url: /installation/windows/visualstudio-extensions
 ---
 
 # Visual Studio Extensions
@@ -51,10 +52,10 @@ When you finish with the automatic installation, you're ready to utilize the pro
 	* Telerik .NET MAUI App - Configurable Wizard&mdash;provides an additional screen for choosing predefined application template:
 
 	![](images/vsextensions_chooseblank.png)
-	
+
 	* Telerik .NET MAUI Blank App&mdash;directly creates a blank solution.
 
-6. Visual Studio opens the solution directly configured to use our .NET MAUI controls - **Telerik.UI.for.Maui** nuget package is installed. 
+6. Visual Studio opens the solution directly configured to use our .NET MAUI controls - **Telerik.UI.for.Maui** nuget package is installed.
 
 If you do not have the [Telerik Nuget Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials and the Telerik Nuget Server will be automatically configured as nuget source in Visual Studio:
 

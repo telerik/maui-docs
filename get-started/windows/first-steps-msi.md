@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: MSI Quickstart
 page_title: Telerik .NET MAUI Getting Started Guide
 description: "Get started with Telerik UI for .NET MAUI and learn how to configure the .NET MAUI project on your machine, download and install the library, and register the required handlers and renderers."
 slug: maui-getting-started

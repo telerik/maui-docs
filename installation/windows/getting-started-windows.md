@@ -1,6 +1,6 @@
 ---
-title: Using Telerik UI for .NET MAUI on Windows
-page_title: Telerik UI for .NET MAUI - Getting Started on Windows
+title:
+page_title: 
 description: Check our detailed documentation article on how to get started with Telerik UI for .NET MAUI on Windows. Find all you need to know about .NET MAUI installation documentation.
 slug: getting-started-windows
 position: 0
@@ -13,11 +13,11 @@ This article aims to help you set up your application to use **Telerik UI for .N
 ## 1. Start with .NET MAUI app
 
 Depending on your scenario, you either have an existing app where you will add our components, or you have to create a new blank app.
- 
+
 ### Add Telerik components to an already existing app
 
 You can manually reference the Telerik UI for .NET MAUI assemblies into your project or use the Telerik Nuget packages. For detailed instructions, go to [Step 2: Add references to Telerik Components](#2-add-references-to-telerik-components).
- 
+
 ### Create a new app with Telerik UI for .NET MAUI
 
 If you just start your app, you have two options:
@@ -40,7 +40,7 @@ If you just start your app, you have two options:
 
 ## 2. Add references to Telerik Components
 
-You have two options: 
+You have two options:
 
 ### Telerik NuGet package server
 
@@ -56,7 +56,7 @@ If you prefer to manually reference the required Telerik UI for .NET MAUI assemb
 No matter whether you've used the automatic installation or the zip, you'll have Binaries folder has two folders Net6 and Net7 that contain platform-specific folders - Android, iOS, MacCatalyst, WinUI. All assemblies are in these folders. Just need to add the assemblies from these folders to the corresponding platforms' Packages folders inside the .NET MAUI project:
 
 ![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
-	
+
 >important As some of the controls included in Telerik UI for .NET MAUI suite rely on **SkiaSharp** rendering library, you should also install **SkiaSharp.Views.Maui.Controls.Compatibility** nuget package.
 
 

@@ -3,7 +3,8 @@ title: Project Template for Visual Studio for Mac
 page_title: Project Template for Visual Studio for Mac
 description: All you need to know about the project template for Visual Studio on Mac. Find all you need to know in .NET MAUI installation documentation.
 slug: mac-project-template
-position: 1
+position: 2
+previous_url: /installation/mac/project-template
 ---
 
 # Project Template for Visual Studio for Mac
@@ -30,7 +31,7 @@ Once you have accessed the **Extension Manager**, the following dialog will appe
 
 ![Visual Studio Extensions](images/visualstudio-extensionsmanager.png)
 
-Navigate to the **telerik.ui.for.maui.mpack** file. 
+Navigate to the **telerik.ui.for.maui.mpack** file.
 
 #### The ProjectTemplate location
 

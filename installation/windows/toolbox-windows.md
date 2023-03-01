@@ -3,7 +3,8 @@ title: Telerik UI for .NET MAUI Toolbox
 page_title: Telerik UI for .NET MAUI - Toolbox
 description: Check our detailed documentation article for the Toolbox Extension of Telerik UI for .NET MAUI on Windows.
 slug: toolbox-support
-position: 6
+position: 3
+previous_url: /installation/windows/toolbox-support
 ---
 
 # Telerik UI for .NET MAUI Toolbox
@@ -20,13 +21,13 @@ To show the Toolbox and start using the controls, navigate to the tab "Extension
 
 ![Telerik .NET MAUI Toolbox](images/enabled_toolbox.png)
 
-When you open the Telerik UI for .NET MAUI Toolbox, you will see a window with the different controls from the suite. 
+When you open the Telerik UI for .NET MAUI Toolbox, you will see a window with the different controls from the suite.
 
->important If no usable controls are present in the toolbox, make sure that you [added all the required references]({%slug getting-started-windows%}#2-add-references-to-telerik-components), and try to rebuild your project. 
+>important If no usable controls are present in the toolbox, make sure that you [added all the required references]({%slug getting-started-windows%}#2-add-references-to-telerik-components), and try to rebuild your project.
 
 ## Adding Controls to Your Project
 
-Embedding the controls from the suite is made as easy as possible. All you need to do is simply drag one of the controls within your XAML file. This adds the control definition and maps the needed namespace declarations. 
+Embedding the controls from the suite is made as easy as possible. All you need to do is simply drag one of the controls within your XAML file. This adds the control definition and maps the needed namespace declarations.
 
 ![Add Telerik .NET MAUI Controls from Toolbox](images/maui_toolbox.gif)
 
