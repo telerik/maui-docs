@@ -5,7 +5,6 @@ description: "Get started with Telerik UI for .NET MAUI and learn how to install
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
 slug: telerik-nuget-server
 position: 30
-previous_url: /telerik-nuget-server, /get-started/install-nuget
 ---
 
 # Installing Telerik UI for .NET MAUI by Using the Telerik NuGet Server
