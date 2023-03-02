@@ -23,7 +23,7 @@ To show the Toolbox and start using the controls, navigate to the tab "Extension
 
 When you open the Telerik UI for .NET MAUI Toolbox, you will see a window with the different controls from the suite.
 
->important If no usable controls are present in the toolbox, make sure that you [added all the required references]({%slug getting-started-windows%}#2-add-references-to-telerik-components), and try to rebuild your project.
+>important If no usable controls are present in the toolbox, make sure that you added all the required references and try to rebuild your project.
 
 ## Adding Controls to Your Project
 

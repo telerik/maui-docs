@@ -3,7 +3,7 @@ title: Available Product Files
 page_title: Available Product Files for Download
 description: Learn which Telerik UI for .NET MAUI product files are available and how to download the assemblies, examples, and more.
 slug: download-product-files
-position: 2
+position: 3
 ---
 
 # Available .NET MAUI Product Files for Download
