@@ -10,7 +10,7 @@ slug: maskedentry-keyboard
 
 You can change the keyboard type of the MaskedEntry by setting the `Keyboard`(of type `Microsoft.Maui.Keyboard`) property. The available otions are: `Plain`, `Chat`, `Default`, `Email`, `Numeric`, `Telephone`, `Text`, `Uri`.
 
-** Example with setting the `Keyboard` to `Numeric` on `TextMaskedEntry`**
+**Example with setting the `Keyboard` to `Numeric` on `TextMaskedEntry`**
 
 ```XAML
 <telerik:RadTextMaskedEntry x:Name="maskedEntry"
