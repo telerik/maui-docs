@@ -11,8 +11,8 @@ slug: datagrid-styling
 
 The DataGrid control provides the following `Style` properties for customizing its look & feel:
 
-* `BorderBrush`&mdash;Defines the border color of the whole DataGrid control.
-* `BorderThickness`&mdash;Defines the thickness of the border, set to the whole DataGrid control.
+* `BorderBrush`&mdash;Defines the brush of the border placed around the DataGrid control.
+* `BorderThickness`&mdash;Defines the thickness of the border around the DataGrid control.
 * `RowBackgroundStyle`&mdash;Defines the style of each row.
 * `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
 * `GroupHeaderStyle`&mdash;Defines the appearance style of the group header once the DataGrid is grouped.
