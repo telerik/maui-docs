@@ -3,7 +3,7 @@ title: Localization
 page_title: .NET MAUI List Picker Documentation | Localization
 description: Check our localization documentation article for Telerik .NET MAUI ListPicker control.
 position: 8
-slug: list-picker-localization
+slug: listpicker-localization
 ---
 
 # List Picker Localization

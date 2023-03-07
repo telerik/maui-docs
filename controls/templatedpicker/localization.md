@@ -3,7 +3,7 @@ title: Localization
 page_title: Telerik .NET MAUI Templated Picker Documentation | Localization
 description: Check our Localization documentation article for Telerik .NET MAUI TemplatedPicker control.
 position: 9
-slug: templated-picker-localization
+slug: templatedpicker-localization
 ---
 
 # Templated Picker Localization

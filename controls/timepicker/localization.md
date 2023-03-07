@@ -3,7 +3,7 @@ title: Localization
 page_title: Telerik .NET MAUI Time Picker Documentation | Localization
 description: Check our Localization documentation article for Telerik .NET MAUI TimePicker control.
 position: 8
-slug: time-picker-localization
+slug: timepicker-localization
 ---
 
 # Тime Picker Localization

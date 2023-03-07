@@ -33,10 +33,10 @@ Localization refers to the translation of application resources into localized v
 * [DateTimePicker]({% slug datetimepicker-localization%})
 * [ImageEditor]({% slug imageeditor-localization%})
 * [MaskedEntry]({% slug maskedentry-localization%})
-* [DatePicker]({% slug date-picker-localization%})
-* [ListPicker]({% slug list-picker-localization%})
-* [TemplatedPicker]({% slug templated-picker-localization%})
-* [TimePicker]({% slug time-picker-localization%})
+* [DatePicker]({% slug datepicker-localization%})
+* [ListPicker]({% slug listpicker-localization%})
+* [TemplatedPicker]({% slug templatedpicker-localization%})
+* [TimePicker]({% slug timepicker-localization%})
 
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
