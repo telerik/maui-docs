@@ -65,21 +65,7 @@ Here is the result after running the app:
 
 ![](images/vsextensions_projecttemplate.png)
 
-## Troubleshooting
-
-#### Nuget package restore failed
-
-*Reason:*
-
-Telerik Nuget Server has not been properly configured.
-
-*Suggested solution:*
-
-1. Manually add the Telerik Nuget Server as a nuget package source in Visual Studio following the instructions here: [Installing with NuGet]({%slug telerik-nuget-server %}#prerequisites).
-
-2. Go to the solution in Visual Studio and choose "Restore NuGet Packages" from the context menu.
-
-3. Clean and rebuild the solution.
+> For a complete instructions go to [Get Started: Build you first app](https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-android) topic in Microsoft Docs.
 
 ## See Also
 
