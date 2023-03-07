@@ -3,7 +3,7 @@ title: Localization
 page_title: .NET MAUI DatePicker Documentation - Localization
 description: "Check our Localization documentation article for Telerik DatePicker for .NET MAUI control."
 position: 8
-slug: date-picker-localization
+slug: datepicker-localization
 ---
 
 # .NET MAUI DatePicker Localization
