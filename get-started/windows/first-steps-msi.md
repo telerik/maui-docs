@@ -12,7 +12,7 @@ previous_url: /maui-getting-started, /get-started/first-steps, /installation/win
 
 The Telerik UI for .NET MAUI library provides an option for installing its controls by downloading and executing the MSI file, which contains the suite.
 
-This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the automatic MSI installation approach.
+This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the automatic MSI installation approach on Windows.
 
 * First, you will set up your .NET MAUI project and create the .NET MAUI application.
 * Next, you'll install the Telerik UI for .NET MAUI library from the MSI file.

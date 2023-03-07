@@ -1,8 +1,8 @@
 ---
 title: First Steps with NuGet
-page_title: Getting Started Guide for Installing with Telerik NuGet Server and VS for Windows
+page_title: Windows Getting Started Guide for Installing with Telerik NuGet Server and VS
 description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls by using the Telerik NuGet Server with Visual Studio for Windows."
-tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
+tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, windows, install
 slug: telerik-nuget-server
 position: 2
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget
@@ -14,18 +14,16 @@ NuGet is a popular .NET package manager. Progress maintains the Telerik NuGet Fe
 
 While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on Windows.
 
+* First, you will set up your .NET MAUI project and create the .NET MAUI application.
+* Next, you'll install the Telerik UI for .NET MAUI library by using the Telerik NuGet feed...
+* Then, you will ...
+* Finally, you will ...
+
 The following video demonstrates how to register the feed on your system and add the product package you need by using Visual Studio for Windows.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 >important The `Telerik.UI.for.Maui` NuGet works with .NET 6.0 and .NET 7.0 projects and automatically restores the required packages depending on the .NET version you are using in your project.
-
-This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the NuGet installation approach on Windows.
-
-* First, you will set up your .NET MAUI project and create the .NET MAUI application.
-* Next, you'll install the Telerik UI for .NET MAUI library by using the Telerik NuGet feed...
-* Then, you will ...
-* Finally, you will ...
 
 ## Step 1: Set Up Your .NET MAUI Project
 
