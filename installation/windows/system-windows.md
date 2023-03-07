@@ -1,7 +1,7 @@
 ---
 title: System Requirements
-page_title: .NET MAUI System Requirements
-description: Learn what system requirements you need to provide when using any of the installation approaches for the Telerik UI for .NET MAUI library.
+page_title: Windows .NET MAUI System Requirements
+description: Learn what system requirements you need to provide when using any of the installation approaches for the Telerik UI for .NET MAUI library on Windows.
 slug: system-requirements
 position: 1
 previous_url: /installation/system-requirements
@@ -11,7 +11,7 @@ previous_url: /installation/system-requirements
 
 >note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
 
-To develop applications with Telerik UI for .NET MAUI, and depending on the platform you are using, you need to install specific development tools.
+To develop applications with Telerik UI for .NET MAUI on Windows, you need to install specific development tools.
 
 * Windows 11
 
