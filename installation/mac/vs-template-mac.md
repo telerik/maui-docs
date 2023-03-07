@@ -1,71 +1,65 @@
 ---
-title: Project Template for Visual Studio for Mac
-page_title: Project Template for Visual Studio for Mac
-description: All you need to know about the project template for Visual Studio on Mac. Find all you need to know in .NET MAUI installation documentation.
+title: Project Template for VS
+page_title: Telerik Project Template for Visual Studio on macOS
+description: "Learn more about the Telerik extensions and project template for Visual Studio on macOS supported by Telerik UI for .NET MAUI."
 slug: mac-project-template
 position: 2
 previous_url: /installation/mac/project-template
 ---
 
-# Project Template for Visual Studio for Mac
+# Telerik Project Template for VS on macOS
 
-The Telerik UI for .NET MAUI project template is a Visual Studio add-in that improves the getting started experience for Telerik customers. It provides a project template that is pre-setup with all requirements to run our components, so you can start writing .NET MAUI apps right away.
+The Telerik UI for .NET MAUI project template for Visual Studio (VS) on macOS aims to help developers when creating .NET MAUI applications with Telerik UI for .NET MAUI components.
 
-## Installation
+The project template for VS on macOS is an add-in that improves the getting started experience for Telerik developers and is pre-configured with all requirements to run the Telerik UI for .NET MAUI components.
 
-You can access the Telerik UI for .NET MAUI Project Template in the following ways:
+## Accessing the Project Template
 
-* If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Extensions** folder - in it you'll find the **telerik.ui.for.maui.mpack** file.
+1. Install the add-in by using either of the following ways:
 
-* You can download the **telerik.ui.for.maui.mpack** file from your Telerik account. Go to [Download Product Files]({%slug download-product-files %}) for exact steps on how to navigate to the download page.
+  * If you have already installed Telerik UI for .NET MAUI, navigate to the `/[installation-path]/Telerik UI for .NET MAUI [version]/Extensions` folder. It contains the `telerik.ui.for.maui.mpack` file.
 
-Then, you have to install the project wizard add-in package. Open the Visual Studio **Extension Manager** and select the *Install form file...* option:
+  * Download the `telerik.ui.for.maui.mpack` file from your Telerik account. For details on how to do this, go to the topic about the [available Telerik UI for .NET MAUI product files]({%slug download-product-files %}).
 
-#### Accessing Visual Studio Extensions
+1. Install the project wizard add-in package by opening the VS **Extension Manager** and selecting the **Install form file...** option:
 
-![Visual Studio Extensions](images/visualstudio-extensions.png)
+  ![Accessing Visual Studio extensions on macOS](images/visualstudio-extensions.png)
 
-Once you have accessed the **Extension Manager**, the following dialog will appear and you should look for the **Install from file** option.
+  As a result, the following dialog will appear.
 
-#### Reaching the Extension Manager
+  ![Reaching the Extension Manager on macOS](images/visualstudio-extensionsmanager.png)
 
-![Visual Studio Extensions](images/visualstudio-extensionsmanager.png)
+1. Select the **Install from file** option.
 
-Navigate to the **telerik.ui.for.maui.mpack** file.
+1. Navigate to the `telerik.ui.for.maui.mpack` file.
 
-#### The ProjectTemplate location
+  ![Project Template location on macOS](images/installextensionpackage.png)
 
-![Visual Studio Extensions](images/installextensionpackage.png)
+  If the add-in is successfully added to VS, you will see it in the **IDE** extensions section.
 
-If the add-in is successfully added to Visual Studio, you should see it in the **IDE** extensions section.
+1. Complete the installation by selecting the **Restart Visual Studio for Mac** option.
 
-**Restart Visual Studio for Mac** to complete the installation.
+## Creating New Projects with the Template
 
-## New Telerik .NET MAUI Blank App
+Now you can create a new project by using the Telerik Project Template.
 
-Now you can create a new project using the Telerik Project Template.
+1. From the **New project** dialog, select a blank app.
 
-#### Create New Project Dialog
+  ![Create new project dialog](images/vs-createnewproject.png)
 
-![Visual Studio Create new project](images/vs-createnewproject.png)
+1. Navigate to the **Other** > **.NET**, choose the `telerik.ui.for.maui.mpack` template and follow the prompts.
 
-The **telerik.ui.for.maui.mpack** template can be found in *Other > .NET* section.
+  ![Configure application dialog](images/vs-configureproject.png)
 
-#### Configure Application Dialog
+  If you do not have the [Telerik NuGet Server]({%slug telerik-nuget-server-mac %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
 
-![Visual Studio Configure Project](images/vs-configureproject.png)
+  ![Credentials dialog for the Telerik NuGet Server](images/vs_projecttemplate_nuget.png)
 
-Follow the steps to setup your app.
+  As a result, the project will contain all required Telerik packages and you can start writing your app right away.
 
-If you do not have the [Telerik Nuget Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials and the Telerik Nuget Server will be automatically configured as nuget source in Visual Studio:
+The following image shows the end result after running the application.
 
-![Telerik NuGet Server](images/vs_projecttemplate_nuget.png)
-
-When you are done the project will contain all required Telerik packages, so you can start writing your app right away.
-
-Here is the result after running the app:
-
-![Telerik .NET MAUI Project Template](images/vs-projecttemplate-app.png)
+![Welcome to Telerik UI for .NET MAUI app initial screen on macOS](images/vs-projecttemplate-app.png)
 
 ## See Also
 

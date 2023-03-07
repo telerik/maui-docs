@@ -1,72 +1,69 @@
 ---
-title: Visual Studio Extensions
-page_title: Visual Studio Extensions
-description: "Check our detailed documentation article for the Visual Studio Extensions on Windows. Find all you need to know about installing and using Telerik UI for .NEТ MAUI VS Extensions."
+title: Project Templates for VS
+page_title: Telerik Project Templates and Extensions for Visual Studio on Windows
+description: "Learn more about the Telerik extensions and project templates for Visual Studio on Windows supported by Telerik UI for .NET MAUI."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
 position: 2
 slug: visualstudio-extensions
 previous_url: /installation/windows/visualstudio-extensions
 ---
 
-# Visual Studio Extensions
+# Telerik Project Templates for VS on Windows
 
-**Visual Studio Extensions** for Telerik UI for .NET MAUI aim to help developers when creating .NET MAUI Application with Telerik .NET MAUI components.
+The Telerik UI for .NET MAUI extensions and project templates for Visual Studio (VS) on Windows aim to help developers when creating .NET MAUI applications with Telerik UI for .NET MAUI components.
+
+## Available Extensions
 
 The extensions handle the following major points in the development with Telerik UI for .NET MAUI:
 
-* **Project creation**: Through the **Telerik .NET MAUI App** and **Telerik .NET MAUI Blank App** project templates you can quickly create an application pre-configured to use Telerik UI for .NET MAUI;
+* Project creation&mdash;Through the **Telerik .NET MAUI App** and **Telerik .NET MAUI Blank App** project templates, you can quickly create an application that is pre-configured to use Telerik UI for .NET MAUI.
+* Toolbox support&mdash;The [Telerik UI for .NET MAUI Toolbox extension for Windows]({% slug toolbox-support %}) facilitates the adding of Telerik controls to your .NET MAUI application.
 
-* **Toolbox support**: Telerik UI for .NET MAUI Toolbox will ease the process of adding Telerik controls to your .NET MAUI application.
+## Using the Project Templates
 
-## Prerequisites
+Telerik UI for .NET MAUI supports two app project templates. Both of them are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}). When you finish with the automatic installation, you're ready to utilize them.
 
-Visual Studio installation needs to have the following components included:
+To start building your Telerik UI for .NET MAUI project with the project templates for VS on Windows:
 
-* **Mobile Development with .NET** workload with **.NET MAUI** component;
+1. Include the following components for Visual Studio to work properly:
 
-* **Text Template Transformation** individual component;
+	* The **Mobile Development with .NET** workload with the **.NET MAUI** component.
+	* The individual **Text Template Transformation** component.
 
-## Using the Telerik .NET MAUI App project templates
+1. Open Visual Studio and choose the **Create a new project** option.
 
-Both Telerik .NET MAUI App project templates are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}).
+2. Search for **maui**:
 
-When you finish with the automatic installation, you're ready to utilize the project template:
+	![Create a new project dialog with maui in the search field and results](images/vsextensions_createapp.png)
 
-1. Open Visual Studio and choose "Create a new project" option;
+	As a result, you can see the supported project templates:
 
-2. Search for "maui":
+	 * **Telerik .NET MAUI App**&mdash;Represents a configurable wizard, which contains various predefined application templates that include the Telerik .NET MAUI suite setup.
+	 * **Telerik .NET MAUI Blank App**&mdash;Represents a blank project for creating a .NET MAUI application that includes the Telerik .NET MAUI suite setup.
 
-	![](images/vsextensions_createapp.png)
+4. Depending on your preferences, you can select either of the available options for configuring your Telerik UI for .NET MAUI project.
 
-3. There are two project templates you can utilize:
+	* If you select the **Telerik .NET MAUI App** configurable wizard, the **Configure your new project** screen loads. In it, set your project name and location.
 
- * Telerik .NET MAUI App - Configurable Wizard&mdash;different predefined application templates that include the Telerik .NET MAUI suite set up.
- * Telerik .NET MAUI Blank App&mdash;a blank project for creating .NET MAUI app that includes the Telerik .NET MAUI suite set up.
+	![Telerik .NET MAUI App configurable wizard initial screen within the Create your new project dialog](images/vsextensions_configureapp.png)
 
-4. "Configure your new project" screen gives you the option to set the project name and location:
+	An additional screen for choosing the predefined application template loads:
 
-	![](images/vsextensions_configureapp.png)
+	![Create new project dialog in the wizard with a blank Telerik UI for .NET MAUI app](images/vsextensions_chooseblank.png)
 
-5. Next step depends on the project template you've chosen:
+	* If you select the **Telerik .NET MAUI Blank App** option, you can start configuring the created blank application.
 
-	* Telerik .NET MAUI App - Configurable Wizard&mdash;provides an additional screen for choosing predefined application template:
+6. Visual Studio opens the solution directly configured to use the Telerik UI for .NET MAUI controls and the `Telerik.UI.for.Maui` NuGet package is installed.
 
-	![](images/vsextensions_chooseblank.png)
+	If you do not have the [Telerik NuGet Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
 
-	* Telerik .NET MAUI Blank App&mdash;directly creates a blank solution.
+	![Connect to nuget.telerik.com dialog for logging your username and password](images/vsextensions_nugetpopup.png)
 
-6. Visual Studio opens the solution directly configured to use our .NET MAUI controls - **Telerik.UI.for.Maui** nuget package is installed.
+The following image shows the end result after running the application.
 
-If you do not have the [Telerik Nuget Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials and the Telerik Nuget Server will be automatically configured as nuget source in Visual Studio:
-
-![](images/vsextensions_nugetpopup.png)
-
-Here is the result after running the app:
-
-![](images/vsextensions_projecttemplate.png)
-
-> For a complete instructions go to [Get Started: Build you first app](https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-android) topic in Microsoft Docs.
+![Welcome to Telerik UI for .NET MAUI app initial screen on Windows](images/vsextensions_projecttemplate.png)
 
 ## See Also
 
-- [Telerik Nuget Server]({%slug telerik-nuget-server %})
+* [MS Docs Get Started: Build you first app](https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-android)
+* [Telerik NuGet Server]({%slug telerik-nuget-server %})

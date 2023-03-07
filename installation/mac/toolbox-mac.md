@@ -1,5 +1,5 @@
 ---
-title: Toolbox VS Extension
+title: Toolbox Extension for VS
 page_title: Telerik Toolbox VS Extension for .NET MAUI on macOS
 description: Learn more about the Telerik Toolbox extension for .NET MAUI on macOS and how to use the toolbox with the Telerik UI for .NET MAUI library.
 slug: toolbox-support-mac
