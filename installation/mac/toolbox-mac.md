@@ -1,40 +1,35 @@
 ---
-title: Telerik UI for .NET MAUI Toolbox
-page_title: Telerik UI for .NET MAUI - Toolbox
-description: Check our detailed documentation article for the Toolbox Extension of Telerik UI for .NET MAUI on Mac.
+title: Toolbox VS Extension
+page_title: Telerik Toolbox VS Extension for .NET MAUI on macOS
+description: Learn more about the Telerik Toolbox extension for .NET MAUI on macOS and how to use the toolbox with the Telerik UI for .NET MAUI library.
 slug: toolbox-support-mac
 position: 3
 previous_url: /installation/mac/toolbox-extension-mac
 ---
 
-# Telerik UI for .NET MAUI Toolbox for Visual Studio for Mac
+# Telerik Toolbox for .NET MAUI on macOS
 
-This article introduces **Telerik UI for .NET MAUI Toolbox** for Visual Studio for Mac which will ease the process of adding Telerik controls to your .NET MAUI application on Mac.
+Telerik products support the Toolbox extension for Visual Studio (VS) on macOS. The Toolbox facilitates the process of adding Telerik controls to your .NET MAUI application.
 
-In order to use the Telerik UI for .NET MAUI Toolbox, first you have to install the [Project Template for Visual Studio for Mac]({%slug mac-project-template %}).
+## Adding Controls with the Toolbox
 
-## Showing the Telerik Toolbox
+1. Install the [Project Template for VS for macOS]({%slug mac-project-template %}).
+1. In your project, navigate to the `MainPage.xaml` file.
+1. Click `MainPage.xaml` or any other XAML file inside your project. As a result, and if the `telerik.ui.for.maui.mpack` file has been successfully installed, you will be able to see the **Toolbox** window.
 
-In order to show the Toolbox and start using the controls, you should navigate to the MainPage.xaml file in your project and click on it. If the **telerik.ui.for.maui.mpack** file is installed successfully, Toolbox window is visible in the project when you click on the MainPage.xaml file (or any other XAML file inside your project). You can also find this option when typing “Toolbox” in the Search filed (top right corner in Visual Studio for Mac).
+  ![Showing the Telerik Toolbox when clicking on the MainPage.xaml file](images/enabled_toolbox_mac.png)
 
-Next images show where you can find the options in Visual Studio for Mac:
+  Alternatively, in the top right corner in Visual Studio for macOS, find the **Search** field and type **Toolbox**.
 
-#### Showing the Telerik Toolbox when clicking on MainPage.xaml
-![Telerik .NET MAUI Toolbox](images/enabled_toolbox_mac.png)
+  ![Showing the Telerik Toolbox from the Search field](images/search_toolbox_mac.png)
 
-#### Showing the Telerik Toolbox from Search field
-![Telerik .NET MAUI Toolbox](images/search_toolbox_mac.png)
+1. Click the **Toolbox** option. As a result, you will be prompted to the window which contains the controls from the suite.
 
-Once you have clicked the option you should be prompted to the window which contains the different controls from the suite.
+  >important If the controls you see in the Toolbox are not the ones you need, make sure that you've added all the required references. Then, rebuild your project.
 
->important If no usable controls are present in the toolbox - make sure all the required references are added and try rebuilding your project.
+1. To embed the controls, drag one of them within your XAML file. As a result, the control definition will be added to your project and the needed namespace declarations will be mapped.
 
-## Adding Controls to Your Project
-
-Embedding the controls from the suite is made as easy as possible and all you need to do is simply drag one of the controls within your XAML file. This will add the control definition and will also map the needed namespace declarations. Next quick screencast shows how the action is performed.
-
-#### Adding Telerik controls to your application
-![](images/toolbox_mac.gif)
+  ![Adding Telerik .NET MAUI controls from the Toolbox by dragging and dropping on macOS](images/toolbox_mac.gif)
 
 ## See Also
 

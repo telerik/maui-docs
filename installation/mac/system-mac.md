@@ -6,7 +6,7 @@ slug: system-requirements-mac
 position: 1
 ---
 
-# System Requirements for Telerik UI for .NET MAUI on macOS
+# System Requirements for macOS
 
 >note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
 

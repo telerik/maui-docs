@@ -7,7 +7,7 @@ position: 1
 previous_url: /installation/system-requirements
 ---
 
-# System Requirements for Running Telerik UI for .NET MAUI on Windows
+# System Requirements for Windows
 
 >note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
 
