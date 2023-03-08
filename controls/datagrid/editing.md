@@ -2,7 +2,7 @@
 title: Editing
 page_title: .NET MAUI DataGrid Documentation - Editing
 description: Check our &quot;Editing&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 4
+position: 5
 previous_url: /controls/datagrid/datagrid-editing
 slug: datagrid-editing
 ---
