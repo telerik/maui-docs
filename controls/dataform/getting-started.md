@@ -41,10 +41,6 @@ and the Model used:
 
 <snippet id='dataform-gettingstarted-model'/>
 
-Here is the result:
-
-![DataForm Getting Started](images/dataform-getting-started.png)
-
 >important For the DataForm Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## Additional Resources

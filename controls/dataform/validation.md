@@ -17,7 +17,7 @@ The next sections list all DataForm members related to validation.
 The selected mode is applied through `ValidationMode`(of type`Telerik.Maui.Controls.DataFormValidationMode`) property of the DataForm control. You could choose between three validation modes:
 
 * `Explicit`&mdash;The changes are validated explicitly by invoking the `ValidateCommand` or calling the `ValidateChanges` method of the DataForm.
-* `LostFocus`&mdash;The changes are validates after the editor loses focus.
+* `LostFocus`&mdash;The changes are validated after the editor loses focus.
 * `PropertyChanged`&mdash;The changes in the editor are validated immediately on each property change (when the property value changes).
 
 The `ValidationMode` can be applied globally to the RadDataForm 
@@ -38,10 +38,29 @@ or to each editor.
 </telerik:RadDataForm>
 ```
 
-## Methods
+## Validation properties
 
-* `ValidateChanges`&mdash;Executes the validation logic associated with the DataForm control. This method is mostly useful when the `ValidationMode` is set to ``Explicit`.
-The method returns `true` if the validation passes, otherwise `false`.
+* `HasValidationErrors`(`bool`)&mdash;Gets a value indicating whether there are validation errors.
+
+## Events
+
+DataForm exposes the following events for validation: 
+
+* `ValidationCompleted`&mdash;Raised when the DataForm validation completes. The `ValidationCompleted` event handler receives two parameters:
+	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type. 
+	* `DataFormObjectValidationCompletedEventArgs` which probvides additional information for the validated `DataObject`, the `ValidationErros`(IReadOnlyList of `DataFormValidationError`) and whether there are validation errors `HasValidationErrors`(`bool`).
+
+## Manual Validation with Methods
+
+DataForm exposes a `ValidateChanges` method with two overloads:
+
+* `ValidateChanges()`&mdash;Executes the validation logic associated with the DataForm control. This method is mostly useful when the `ValidationMode` is set to `Explicit`. The method returns `true` if the validation passes, otherwise `false`.
+
+<snippet id='dataform-editorgenerated-event'/>
+
+* `ValidateChanges(string propertyName)`&mdash;Validates the pending changes in the editor for the specified property. This method is mostly useful when the `RadDataForm.ValidationMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
+
+<snippet id='dataform-oneditors-generated'/>
 
 ## Commands
 
