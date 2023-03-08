@@ -25,13 +25,14 @@ The supported Data Annotations are described in the table below:
 | [RegularExpressionAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.regularexpressionattribute?view=net-7.0) |
 | [NotMappedAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.schema.notmappedattribute?view=net-7.0) |
 | [RequiredAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.requiredattribute?view=net-7.0) |
+| [RangeAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.rangeattribute?view=net-7.0) |
 
 
 > More information about Data Annoations can be found in the [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-7.0).
 
 **Example with business model with Data Annotations**
 
-The example uses the Requred, DataType, Display and RegularExpression attributes:
+The example uses the Required, DataType, Display and RegularExpression attributes:
 
 <snippet id='dataform-datatype-editors-model'/>
 
