@@ -66,6 +66,6 @@ All available commands are descibed in the [DataGrid Commands] article ({%slug d
 
 ## See Also
 
-- [Filtering UI]({%datagrid-filtering-ui%})
-- [Programmatic Filtering]({%datagrid-programmatic-filtering%})
-- [Grouping]({%datagrid-grouping-ui%})
+- [Filtering UI]({%slug datagrid-filtering-ui%})
+- [Programmatic Filtering]({%slug datagrid-programmatic-filtering%})
+- [Grouping]({%slug datagrid-grouping-ui%})
