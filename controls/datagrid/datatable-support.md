@@ -30,7 +30,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-datatable-view-model'/>
 
->A sample Bind to DataTable example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> A sample Bind to DataTable example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## Filtering, Sorting and Grouping operations
 
@@ -56,18 +56,16 @@ All operations like add, remove, update data inside the DataGrid is supported wh
 
 <snippet id='datagrid-datatable-update-data'/>
 
->A sample CRUD Operations example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> A sample CRUD Operations example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## Commands
 
-[All commands]({%slug datagrid-commands-overview%}) DataGrid control provides work when the source is from a DataTable.
+All available commands are descibed in the [DataGrid Commands] article ({%slug datagrid-commands-overview%}).
 
->A sample Commands example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> A sample Commands example can be found in the DataGrid/DataTable folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
 - [Filtering UI]({%datagrid-filtering-ui%})
 - [Programmatic Filtering]({%datagrid-programmatic-filtering%})
 - [Grouping]({%datagrid-grouping-ui%})
-
-
