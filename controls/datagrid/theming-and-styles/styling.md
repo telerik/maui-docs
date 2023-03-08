@@ -19,6 +19,7 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
 * `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
 * `HoverTextColor`&mdash;Defines the text color of the hovered cell.
+* `MouseHoverStyle`&mdash;Specifies the style applied to the cells and rows when the mouse is over them. The style is applicable for Desktop(MacCatalyst and WinUI).
 * `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property allows you to style the splitter UI. The Splitter UI splits the frozen columns from the unfrozen columns.
 
 ![DataGrid Styling](../images/datagrid-borderBrush.png)
@@ -32,7 +33,7 @@ The `BorderBrush` and `BorderThickness` properties set to the DataGrid control b
 
 ## Styling Properties
 
-`RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle` and `CurrentCellStyle` are of type `DataGridBorderStyle` that defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
+`RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle`, `CurrentCellStyle` and `MouseHoverStyle` are of type `DataGridBorderStyle` that defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
 
 Example how to set the `RowBackgroundStyle` property:
 
