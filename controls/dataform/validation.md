@@ -10,6 +10,8 @@ slug: dataform-validation
 
 .NET MAUI DataForm provides built-in validation, which gives you full control over the data collected through the control. 
 
+![RadDataForm Overview](images/dataform-validate-data-desktop.png)
+
 The next sections list all DataForm members related to validation.
 
 ## Validation modes
@@ -26,8 +28,6 @@ The `ValidationMode` can be applied globally to the RadDataForm
 <telerik:RadDataForm x:Name="dataForm"
                      ValidationMode="LostFocus"/>
 ```
-
-![RadDataForm Overview](images/dataform-validate-data-desktop.png)
 
 or to each editor. 
 
@@ -50,17 +50,22 @@ DataForm exposes the following events for validation:
 	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type. 
 	* `DataFormObjectValidationCompletedEventArgs` which probvides additional information for the validated `DataObject`, the `ValidationErros`(IReadOnlyList of `DataFormValidationError`) and whether there are validation errors `HasValidationErrors`(`bool`).
 
+* `EditorValidationCompleted`&mdash;Raised when the validation of an editor has completed. The EditorValidationCompleted event handler receives two parameters:
+    * `sender` argument which is of type object, but can be cast to the `RadDataForm` type. 
+    * `DataFormEditorValidationCompletedEventArgs`  which probvides additional information for the validated `PropertyName`, the original value ff the validated property `PropertyValue`(`object`) in the model and the modified value of the validated property in the editor - `EditorValue`(`object`).
+
+
 ## Manual Validation with Methods
 
 DataForm exposes a `ValidateChanges` method with two overloads:
 
 * `ValidateChanges()`&mdash;Executes the validation logic associated with the DataForm control. This method is mostly useful when the `ValidationMode` is set to `Explicit`. The method returns `true` if the validation passes, otherwise `false`.
 
-<snippet id='dataform-editorgenerated-event'/>
+<snippet id='dataform-validatechanges'/>
 
-* `ValidateChanges(string propertyName)`&mdash;Validates the pending changes in the editor for the specified property. This method is mostly useful when the `RadDataForm.ValidationMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
+* `ValidateChanges(string propertyName)`&mdash;Validates the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `ValidationMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
 
-<snippet id='dataform-oneditors-generated'/>
+<snippet id='dataform-validatechanges-on-property'/>
 
 ## Commands
 

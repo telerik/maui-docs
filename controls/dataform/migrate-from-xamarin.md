@@ -26,19 +26,27 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | ------------- | --------------- |
 | Source | gets the data directly from the set BindingContext |
 | Telerik.XamarinForms.Common.DataAnnotations | System.ComponentModel.DataAnnotations.DataAnnotations |
-| Validation modes - `Immediate`, `OnLostFocus`, `Manual` | Validation modes - `PropertyChanged`, `LostFocus`, `Explicit` |
-| `FormValidationCompleted`, `PropertyValidationCompleted` | - |
-| `ValidateAll`, `ValidateProperty` | - |
-| - | `ValidateChanges` |
-| - | `ValidateCommand`, `CancelCommand`, `CommitCommand` |
-| Commit modes - `Immediate`, `OnLostFocus`, `Manual` | Commit modes - `PropertyChanged`, `LostFocus`, `Explicit` |
-| `CommitAll`, `CommitProperty` | `CommitChanges` | - | 
-| - | CancelChanges |
-| DataFormGroupStackLayoutDefinition | DataFormVerticalStackLayout |
+| `RegisterEditor` | `EditorGenerated` |
+| `EditorValueChanged` | `EditorValueChanged` |
+| - | `GroupGenerated` |
+| - |`HasPendingChanges` |
+| - | `HasValidationErrors` |
+| Validation modes - `Immediate`, `OnLostFocus`, `Manual` | Validation modes - `PropertyChanged`(immediate), `LostFocus`, `Explicit`(manual) |
+| `ValidateAll` | `ValidateChanges` |
+| `ValidateProperty` | `ValidateChanges(string propertyName)` |
+| `FormValidationCompleted` | `ValidationCompleted` |
+| `PropertyValidationCompleted` | `EditorValidationCompleted` |
+| Commit modes - `Immediate`, `OnLostFocus`, `Manual` | Commit modes - `PropertyChanged`(immediate), `LostFocus`, `Explicit`(manual) |
+| `CommitAll` | `CommitChanges` | 
+| `CommitProperty` | `CommitChanges(string propertyName)` |
+| - | `CancelChanges` |
+| - | `CancelChanges(string propertyName)` |
+| - | `ValidateCommand` |
+| - | `CancelCommand` |
+| - | `CommitCommand` |
+| `DataFormGroupStackLayoutDefinition` | `DataFormVerticalStackLayout` |
 | `DataFormGroupGridLayoutDefinition`  | `DataFormGridLayout`  |
 | -  | `DataFormCustomLayout`  |
-| `DataFormGroupGridLayoutDefinition`  | `DataFormGridLayout` |
-| -  | `DataFormCustomLayout` |
 
 ## Editors
 
@@ -66,7 +74,7 @@ Compared editors are displayed in the table below:
 | `DateEditor`  | `DataFormRadDatePickerEditor`, `DataFormDatePickerEditor` |
 | `TimeEditor`  | `DataFormRadTimePickerEditor`, `DataFormTimePickerEditor`  |
 | -  | `RadDateTimePickerEditor` |
-| `CustomEditor`  | - |
+| `CustomEditor` | `CustomEditor` |
 
 ## See Also
 

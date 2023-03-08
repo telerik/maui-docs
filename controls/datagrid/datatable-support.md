@@ -2,7 +2,7 @@
 title: DataTable Support
 page_title: .NET MAUI DataGrid Documentation - DataTable Support
 description: ".NET MAUI DataGrid supports binding to a DataTable"
-position: 11
+position: 7
 slug: datagrid-datatable-support
 ---
 
