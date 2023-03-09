@@ -112,7 +112,7 @@ If you just start using the Telerik NuGet server in your CI or inter-department 
 
 ## See Also
 
-- [First Steps]({%slug maui-getting-started%})
-- [Installing from MSI file]({%slug maui-getting-started%})
-- [Installing from PKG file]({%slug install-pkg%})
-- [Installing with NuGet]({%slug telerik-nuget-server%})
+* [Quickstart with NuGet on Windows]({% slug telerik-nuget-server %})
+* [Quickstart with NuGet on macOS]({% slug telerik-nuget-server-mac %})
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})

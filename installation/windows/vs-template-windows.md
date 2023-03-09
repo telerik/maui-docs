@@ -21,7 +21,7 @@ The extensions handle the following major points in the development with Telerik
 
 ## Using the Project Templates
 
-Telerik UI for .NET MAUI supports two app project templates. Both of them are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}). When you finish with the automatic installation, you're ready to utilize them.
+Telerik UI for .NET MAUI supports two project template apps. Both of them are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}). When you finish with the automatic installation, you're ready to utilize them.
 
 To start building your Telerik UI for .NET MAUI project with the project templates for VS on Windows:
 
@@ -66,4 +66,9 @@ The following image shows the end result after running the application.
 ## See Also
 
 * [MS Docs Get Started: Build you first app](https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-android)
-* [Telerik NuGet Server]({%slug telerik-nuget-server %})
+## See Also
+
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [System Requirements for Windows]({% slug system-requirements %})
+* [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})

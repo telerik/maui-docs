@@ -50,3 +50,9 @@ Note that in the following table, you have to modify the following entries:
 | `Telerik.ui.for.maui.[Version].mpack` | Contains the Visual Studio for Mac add-in with a project template and pre-setup requirements for running Telerik UI for .NET MAUI components. | Commercial or Trial |
 
 ## See Also
+
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+* [MSI Quickstart]({% slug maui-getting-started %})
+* [PKG Quickstart]({% slug install-pkg %})
+* [Quickstart with NuGet on Windows]({% slug telerik-nuget-server %})
+* [Quickstart with NuGet on macOS]({% slug telerik-nuget-server-mac %})

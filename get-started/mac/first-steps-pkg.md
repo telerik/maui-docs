@@ -52,6 +52,15 @@ Now, you are all set to start with the installation on your machine from the App
 
 	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](images/install_pkg.png)
 
+
+## Next Steps
+
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+
 ## See Also
 
-- [VS for macOS Project Template]({%slug mac-project-template %})
+* [System Requirements for macOS]({% slug system-requirements-mac %})
+* [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
+* [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
+* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})

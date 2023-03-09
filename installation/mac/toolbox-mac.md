@@ -33,5 +33,7 @@ Telerik products support the Toolbox extension for Visual Studio (VS) on macOS. 
 
 ## See Also
 
-- [Project Template for Visual Studio for Mac]({%slug mac-project-template%})
-- [Telerik NuGet packages server]({%slug telerik-nuget-server %})
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [System Requirements for macOS]({% slug system-requirements-mac %})
+* [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})

@@ -39,15 +39,15 @@ The project template for VS on macOS is an add-in that improves the getting star
 
 1. Complete the installation by selecting the **Restart Visual Studio for Mac** option.
 
-## Creating New Projects with the Template
+## Creating New Projects
 
-Now you can create a new project by using the Telerik Project Template.
+Now, you can create a new project by using the Telerik Project Template.
 
 1. From the **New project** dialog, select a blank app.
 
   ![Create new project dialog](images/vs-createnewproject.png)
 
-1. Navigate to the **Other** > **.NET**, choose the `telerik.ui.for.maui.mpack` template and follow the prompts.
+1. Navigate to **Other** > **.NET**, choose the `telerik.ui.for.maui.mpack` template, and follow the prompts.
 
   ![Configure application dialog](images/vs-configureproject.png)
 
@@ -63,4 +63,7 @@ The following image shows the end result after running the application.
 
 ## See Also
 
-- [Telerik UI for .NET MAUI Toolbox]({%slug toolbox-support-mac%})
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [System Requirements for macOS]({% slug system-requirements-mac %})
+* [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})

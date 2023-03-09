@@ -71,6 +71,15 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 
 ![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package]()
 
+## Next Steps
+
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+
 ## See Also
 
-* [Telerik UI for .NET Sample Applications]({% slug sampleapps-overview %})
+* [System Requirements for macOS]({% slug system-requirements-mac %})
+* [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
+* [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
+* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})

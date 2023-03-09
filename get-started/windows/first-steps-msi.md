@@ -90,7 +90,14 @@ public static class MauiProgram
 }
  ```
 
+## Next Steps
+
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+
 ## See Also
 
-* [Installing Telerik UI for .NET MAUI with the Telerik NuGet Server]({%slug telerik-nuget-server %})
-* [Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})
+* [System Requirements for Windows]({% slug system-requirements %})
+* [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
+* [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
+* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})

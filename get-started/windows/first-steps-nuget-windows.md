@@ -78,6 +78,15 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 
 ![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](images/maui-nuget.png)
 
+## Next Steps
+
+* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})
+* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+
 ## See Also
 
-* [Telerik UI for .NET Sample Applications]({% slug sampleapps-overview %})
+* [System Requirements for Windows]({% slug system-requirements %})
+* [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
+* [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
+* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})
