@@ -1,7 +1,7 @@
 ---
-title: Schema Error Occurs that Type Telerik Cannot Be Resolved
+title: Schema Error Telerik Type cannot be Resolved
 page_title: Common schema Error Occurs When Using MS .NET MAUI Framework - .NET MAUI Knowledge Base
-description: "Learn how to resolve the common schema error stating XamlC error XFC0000: Cannot resolve type "http://schemas.telerik.com/2022/xaml/maui:telerik:control"."
+description: "Learn how to resolve the common schema error stating XamlC error XFC0000: Cannot resolve type schemas.telerik.com/2022/xaml/maui:telerik:control"
 type: troubleshooting
 slug: telerik-schema-error-cannot-resolve-type
 tags: telerik, schema, maui, error, cannot resolve type schema, combobox, segmented control
