@@ -38,16 +38,41 @@ or to each editor.
 </telerik:RadDataForm>
 ```
 
-## Methods
+## Properties
 
-* `CommitChanges`&mdash; Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to ``Explicit`.
+* `HasPendingChanges`(`bool`)&mdash;Gets a value indicating whether there are pending changes.
+
+<snippet id='dataform-commit-mode'/>
+
+## Manual Commit with Methods
+
+**DataForm exposes a `CommitChanges` method with two overloads:**
+
+* `CommitChanges()`&mdash; Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to `Explicit`.
 The method returns `true` if the validation passes, otherwise `false`.
 
+<snippet id='dataform-commit-changes'/>
+
+* `CommitChanges(string propertyName)`&mdash; Commit the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
+
+<snippet id='dataform-commit-changes-on-property'/>
+
+**DataForm exposes a `CancleChanges` method with two overloads:**
+
 * `CancelChanges`&mdash;Cancels all pending changes in the RadDataForm and reverts to the original values from the underlying business object. This method is mostly useful when the `CommitMode` property is set `Explicit`.
+
+```C#
+this.dataForm.CancelChanges();
+```
+
+* `CancelChanges(string propertyName)`&mdash; Cancels the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
+
+<snippet id='dataform-cancelchanges-on-property'/>
 
 ## Commands
 
 * `CommitCommand`(`ICommand`)&mdash;Gets a command to a command to commit all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
+* `CancelCommand`(`ICommand`)&mdash;Gets a command to cancel all pending changes in the RadDataForm. This command is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
 
 >important All commit methods call validation first. If the property value passes validation, then the corresponding validation finished event is raised and the value is committed successfully.
 
