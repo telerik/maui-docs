@@ -8,6 +8,8 @@ slug: datepicker-localization
 
 # .NET MAUI DatePicker Localization
 
+This article explains the localization keys provided in DatePicker control.
+
 # Date Picker Localization
 
 RadDatePicker for .NET MAUI provides language localization. In short, you can translate the used across the Date Picker texts to other languages, so that your app can be adapted to different regions.
