@@ -5,7 +5,6 @@ description: Learn how to highlight the text in the cells of the Telerik UI for 
 type: how-to
 slug: datagrid-cell-text-highlight
 tags: maui, datagrid, ui for maui, highlight search result, text highlight
-ticketid: 1582978
 res_type: kb
 ---
 
