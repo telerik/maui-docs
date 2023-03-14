@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![ImageEditor Getting Started](images/imageEditor-gettingstarted.png)
+![ImageEditor Getting Started](images/imageeditor-gettingstarted.png)
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Before adding the ImageEditor, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add an ImageEditor control and th built-in Toolbar to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add an ImageEditor control and the built-in Toolbar to your page.
 
 <snippet id='imageeditor-getting-started-xaml'/>
 <snippet id='imageeditor-getting-started-csharp'/>
@@ -39,7 +39,7 @@ Before adding the ImageEditor, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** For the demo the image is loaded in the ImageEditor for a `stream`:
+**3.** For the demo the image is loaded in the ImageEditor from a `stream`:
 
 <snippet id='load-image-from-stream'/>
 

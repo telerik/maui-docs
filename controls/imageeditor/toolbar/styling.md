@@ -41,7 +41,7 @@ Each toolbar item has a `Style` property and the target type of the oproperty is
 | `ImageEditorRotateRightToolbarItem` | `ButtonToolbarItemView` |
 | `ImageEditorFlipHorizontalToolbarItem` | `ButtonToolbarItemView` |
 | `ImageEditorFlipVerticalToolbarItem` | `ButtonToolbarItemView` |
-| `ImageEditorFilterOptionsToolbarItem` | Represents a button displaying a filter options panel for applying filters like blur, hue, saturation, etc. |
+| `ImageEditorFilterOptionsToolbarItem` | `ImageEditorFilterOptionsToolbarItemView` |
 | `ImageEditorUndoToolbarItem` | `ButtonToolbarItemView` |
 | `ImageEditorRedoToolbarItem` | `ButtonToolbarItemView` |
 | `ImageEditorBrightnessToolbarItem` | `NavigationButtonToolbarItemView` |
@@ -67,7 +67,7 @@ Style the content of the toolbar items
 
 ##  Display text and or image in the toolbar item 
 
-* `DisplayOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemDisplayOptions`) property allows you to display text, image in the toolbar or in a combination of both. The options are `Text` and `Image`. This enum type supports a bitwise combination of its members to enable morethan one option.
+* `DisplayOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemDisplayOptions`) property allows you to display text, image in the toolbar or in a combination of both. The options are `Text` and `Image`. This enum type supports a bitwise combination of its members to enable more than one option.
 
  Position the image relative to the text in the toolbar item by setting the `ImagePosition`(enum of type `Telerik.Maui.Controls.ToolbarItemImagePosition`). The available options are: 
 	* `Left`&mdash;The image is displayed to the left of the text.
@@ -83,7 +83,7 @@ The XAML definition:
 
 <snippet id='imageeditor-toolbar-styling'/>
 
-And the style in the page's repources: 
+And the style in the page's resources: 
 
 <snippet id='imageeditor-styling-button-toolbar-style'/>
 
