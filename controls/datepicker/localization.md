@@ -27,7 +27,7 @@ This article explains the localization keys provided in DatePicker control.
 | `Picker_Popup_AcceptButtonText`  | `OK` |
 | `Picker_Popup_CancelButtonText`  | `Cancel` |
 
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+> important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 Check in the image below how the localization strings are presented in Date Picker:
 
