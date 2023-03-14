@@ -29,7 +29,7 @@ How can I add a context menu to a Telerik UI for .NET MAUI ListView item?
 
 ## Solution
 
-A possible approach to achieve the desired scenario is to use the [Telerik UI for .NET MAUI Button]({%slug button-overview%}) or [Popup]({%slug popup-overview%}) control.
+A possible approach to achieve the desired scenario is to use the [Telerik UI for .NET MAUI Button]({%slug button-overview%}) and [Popup]({%slug popup-overview%}) control.
 
 **1.** Create a business model for the items:
 

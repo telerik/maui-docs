@@ -174,34 +174,34 @@ public static class ChartUtils
 
 ```XAML
 <telerik:RadCartesianChart chartPalettes:ChartUtils.ColorsSource="{Binding SeriesData}">
-                    <telerik:RadCartesianChart.ChartBehaviors>
-                        <telerik:ChartSelectionBehavior DataPointSelectionMode="Single"
-                                                             SeriesSelectionMode="None" />
-                    </telerik:RadCartesianChart.ChartBehaviors>
-                    <telerik:RadCartesianChart.HorizontalAxis>
-                        <telerik:CategoricalAxis LineColor="#A9A9A9"
-                                                      MajorTickThickness="2"
-                                                      PlotMode="BetweenTicks"
-                                                      LabelFitMode="MultiLine"
-                                                      ShowLabels="True"
-                                                      MajorTickBackgroundColor="#A9A9A9" />
-                    </telerik:RadCartesianChart.HorizontalAxis>
-                    <telerik:RadCartesianChart.VerticalAxis>
-                        <telerik:NumericalAxis LineColor="#A9A9A9"
-                                                    MajorTickBackgroundColor="#A9A9A9"
-                                                    Minimum="0" />
-                    </telerik:RadCartesianChart.VerticalAxis>
-                    <telerik:RadCartesianChart.Grid>
-                        <telerik:CartesianChartGrid MajorLinesVisibility="Y"
-                                                         MajorLineThickness="1" />
-                    </telerik:RadCartesianChart.Grid>
-                    <telerik:RadCartesianChart.Series>
-                        <telerik:BarSeries CategoryBinding="Category"
-                                           ValueBinding="Value"
-                                           PaletteMode="DataPoint"
-                                           ItemsSource="{Binding SeriesData}" />
-                    </telerik:RadCartesianChart.Series>
-                </telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.ChartBehaviors>
+        <telerik:ChartSelectionBehavior DataPointSelectionMode="Single"
+                                                SeriesSelectionMode="None" />
+    </telerik:RadCartesianChart.ChartBehaviors>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LineColor="#A9A9A9"
+                                        MajorTickThickness="2"
+                                        PlotMode="BetweenTicks"
+                                        LabelFitMode="MultiLine"
+                                        ShowLabels="True"
+                                        MajorTickBackgroundColor="#A9A9A9" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis LineColor="#A9A9A9"
+                                    MajorTickBackgroundColor="#A9A9A9"
+                                    Minimum="0" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Grid>
+        <telerik:CartesianChartGrid MajorLinesVisibility="Y"
+                                            MajorLineThickness="1" />
+    </telerik:RadCartesianChart.Grid>
+    <telerik:RadCartesianChart.Series>
+        <telerik:BarSeries CategoryBinding="Category"
+                            ValueBinding="Value"
+                            PaletteMode="DataPoint"
+                            ItemsSource="{Binding SeriesData}" />
+    </telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
 ```
 
 
