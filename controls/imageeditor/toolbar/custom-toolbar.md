@@ -82,7 +82,7 @@ You can easily separate the toolbar items using the `SeparatorToolbarItem`.
 
 ## Example with custom toolbar
 
-XAML definition of the RadImageEditor and RadImageEditortoolbar:
+XAML definition of the RadImageEditor and RadImageEditorToolbar:
 
 <snippet id='imageeditor-custom-toolbar'/>
 
