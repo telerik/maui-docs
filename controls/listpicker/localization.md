@@ -1,34 +1,34 @@
 ---
 title: Localization
-page_title: .NET MAUI List Picker Documentation | Localization
-description: Check our localization documentation article for Telerik .NET MAUI ListPicker control.
+page_title: .NET MAUI List Picker Documentation - Localization
+description: "Review the localization keys exposed in the Telerik .NET MAUI ListPicker control."
 position: 8
 slug: listpicker-localization
 ---
 
-# List Picker Localization
+# .NET MAUI ListPicker Localization
 
-RadDateTime Picker for .NET MAUI provides language localization. In short, you can translate the used across the List Picker texts to other languages, so that your app can be adapted to different regions.
+The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed keys for localization are explained the the tables below.
 
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
-
-## ListPicker Localization Key
+**ListPicker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| ListPicker_Popup_HeaderLabelText | Select Item |
-| ListPicker_PlaceholderLabelText | Select Item |
+| `ListPicker_Popup_HeaderLabelText` | `Select Ite` |
+| `ListPicker_PlaceholderLabelText` | `Select Item` |
 
-## Common Picker Localizations strings
+**Common Picker localization keys**
 
 | Localization Key | Default Value |
 | ---------------- | ------------- |
-| Picker_Popup_AcceptButtonText | OK |
-| Picker_Popup_CancelButtonText | Cancel |
+| `Picker_Popup_AcceptButtonText` | `OK` |
+| `Picker_Popup_CancelButtonText` | `Cancel` |
 
 Check in the image below how the common localization strings are presented in List Picker:
 
 ![](images/list-picker-localization.png)
+
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 ## See Also
 
