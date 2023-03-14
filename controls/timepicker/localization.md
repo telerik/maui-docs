@@ -1,40 +1,40 @@
 ---
 title: Localization
-page_title: Telerik .NET MAUI Time Picker Documentation | Localization
-description: Check our Localization documentation article for Telerik .NET MAUI TimePicker control.
+page_title: Telerik .NET MAUI Time Picker Documentation - Localization
+description: "Review the Localization keys article for Telerik .NET MAUI TimePicker control."
 position: 8
 slug: timepicker-localization
 ---
 
 # Тime Picker Localization
 
-RadTime Picker for .NET MAUI provides language localization. In short, you can translate the used across the Time Picker texts to other languages, so that your app can be adapted to different regions.
-
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug localization-and-globalization%}) topic.
+RadTimePicker for .NET MAUI provides language localization. The localization keys are described in the tabels below:
 
 The sections below list all the localization keys used in Time Picker Spinners.
 
-## Time Spinners Localization Keys
+**TimePicker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| TimePicker_Popup_HeaderLabelText  | Select Time |
-| TimePicker_PlaceholderLabelText  | Select Time |
+| `TimePicker_Popup_HeaderLabelText`  | `Select Time` |
+| `TimePicker_PlaceholderLabelText`  | `Select Time` |
 
-## Common Picker Localizations strings
+#**Common Picker localizations keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| Picker_AmPmSpinnerHeaderLabelText  | AM/PM |
-| Picker_HourSpinnerHeaderLabelText  | Hours |
-| Picker_MinuteSpinnerHeaderLabelText | Minutes |
-| Picker_SecondSpinnerHeaderLabelText  | Seconds |
-| Picker_Popup_AcceptButtonText  | OK |
-| Picker_Popup_CancelButtonText  | Cancel |
+| `Picker_AmPmSpinnerHeaderLabelText` | `AM/PM` |
+| `Picker_HourSpinnerHeaderLabelText` | `Hours` |
+| `Picker_MinuteSpinnerHeaderLabelText` | `Minutes` |
+| `Picker_SecondSpinnerHeaderLabelText` | `Seconds` |
+| `Picker_Popup_AcceptButtonText` | `OK` |
+| `Picker_Popup_CancelButtonText` | `Cancel` |
+
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug localization-and-globalization%}) topic.
 
 Check in the image below how the localization strings are presented in Time Picker:
 
-![](images/timepicker-localization.png)
+![TimePicker for .NET MAUI Localization](images/timepicker-localization.png)
 
 ## See Also
 

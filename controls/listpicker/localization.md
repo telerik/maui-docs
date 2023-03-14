@@ -14,7 +14,7 @@ The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed k
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| `ListPicker_Popup_HeaderLabelText` | `Select Ite` |
+| `ListPicker_Popup_HeaderLabelText` | `Select Item` |
 | `ListPicker_PlaceholderLabelText` | `Select Item` |
 
 **Common Picker localization keys**
@@ -24,11 +24,11 @@ The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed k
 | `Picker_Popup_AcceptButtonText` | `OK` |
 | `Picker_Popup_CancelButtonText` | `Cancel` |
 
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+
 Check in the image below how the common localization strings are presented in List Picker:
 
-![](images/list-picker-localization.png)
-
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+![.NET MAUI ListPicker localization](images/list-picker-localization.png)
 
 ## See Also
 

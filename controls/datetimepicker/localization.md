@@ -8,9 +8,7 @@ slug: datetimepicker-localization
 
 # .NET MAUI DateTimePicker Localization
 
-Telerik UI for .NET MAUI DateTimePicker provides language localization. In short, you can translate the used across the Date and Time Picker texts to other languages, so that your app can be adapted to different regions.
-
->important To learn in details about the localization process of Telerik UI for Xamarin components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+Telerik UI for .NET MAUI DateTimePicker provides language localization. In short, you can translate the used across the DateTimePicker texts to other languages, so that your app can be adapted to different regions.
 
 The sections below list all the localization keys used in Date and Time Picker Spinners.
 
@@ -34,6 +32,8 @@ The sections below list all the localization keys used in Date and Time Picker S
 | `Picker_YearSpinnerHeaderLabelText` | `Year` |
 | `Picker_Popup_AcceptButtonText` | `OK` |
 | `Picker_Popup_CancelButtonText` | `Cancel` |
+
+>important To learn in details about the localization process of Telerik UI for Xamarin components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 Check in the image below how the localization strings are presented in Date and Time Picker:
 
