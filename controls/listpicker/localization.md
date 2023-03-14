@@ -10,19 +10,19 @@ slug: listpicker-localization
 
 The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed keys for localization are explained the the tables below.
 
-## ListPicker Localization Key
+**ListPicker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| ListPicker_Popup_HeaderLabelText | Select Item |
-| ListPicker_PlaceholderLabelText | Select Item |
+| `ListPicker_Popup_HeaderLabelText` | `Select Ite` |
+| `ListPicker_PlaceholderLabelText` | `Select Item` |
 
-## Common Picker Localizations strings
+**Common Picker localization keys**
 
 | Localization Key | Default Value |
 | ---------------- | ------------- |
-| Picker_Popup_AcceptButtonText | OK |
-| Picker_Popup_CancelButtonText | Cancel |
+| `Picker_Popup_AcceptButtonText` | `OK` |
+| `Picker_Popup_CancelButtonText` | `Cancel` |
 
 Check in the image below how the common localization strings are presented in List Picker:
 
