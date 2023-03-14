@@ -1,16 +1,14 @@
 ---
 title: Localization
-page_title: .NET MAUI List Picker Documentation | Localization
-description: Check our localization documentation article for Telerik .NET MAUI ListPicker control.
+page_title: .NET MAUI List Picker Documentation - Localization
+description: "Review the localization keys exposed in the Telerik .NET MAUI ListPicker control."
 position: 8
 slug: listpicker-localization
 ---
 
-# List Picker Localization
+# .NET MAUI ListPicker Localization
 
-RadDateTime Picker for .NET MAUI provides language localization. In short, you can translate the used across the List Picker texts to other languages, so that your app can be adapted to different regions.
-
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed keys for localization are explained the the tables below.
 
 ## ListPicker Localization Key
 
@@ -29,6 +27,8 @@ RadDateTime Picker for .NET MAUI provides language localization. In short, you c
 Check in the image below how the common localization strings are presented in List Picker:
 
 ![](images/list-picker-localization.png)
+
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 ## See Also
 
