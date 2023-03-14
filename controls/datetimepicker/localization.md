@@ -10,9 +10,7 @@ slug: datetimepicker-localization
 
 Telerik UI for .NET MAUI DateTimePicker provides language localization. In short, you can translate the used across the DateTimePicker texts to other languages, so that your app can be adapted to different regions.
 
-The sections below list all the localization keys used in Date and Time Picker Spinners.
-
-**Date and Time Spinners localization keys**
+**DateTimePicker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
@@ -33,31 +31,11 @@ The sections below list all the localization keys used in Date and Time Picker S
 | `Picker_Popup_AcceptButtonText` | `OK` |
 | `Picker_Popup_CancelButtonText` | `Cancel` |
 
->important To learn in details about the localization process of Telerik UI for Xamarin components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 Check in the image below how the localization strings are presented in Date and Time Picker:
 
-![DateTime Picker Localization](images/datetimepicker-localization.png)
-
-## Example with CustomLocalizationManager
-
-The snippet below shows a simple RadDateTimePicker definition:
-
-<snippet id='datetime-picker-localization-xaml' />
-
-In addition to this, you need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
-Create a custom class that inherits from TelerikLocalizationManager and override the GetString() method:
-
-<snippet id='datetimepicker-localization-code-behind' />
-
-Set it as the TelerikLocalizationManager.Manager:
-
->important A sample Localization example can be found in the DateTimePicker/Features folder of the [SDKBrowser Demo application]({%slug maui-demo-app%}).
+![DateTimePicker Localization](images/datetimepicker-localization.png)
 
 ## See Also
 

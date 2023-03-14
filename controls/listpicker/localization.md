@@ -8,7 +8,7 @@ slug: listpicker-localization
 
 # .NET MAUI ListPicker Localization
 
-The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed keys for localization are explained the the tables below.
+The Telerik ListPicker for .NET MAUI provides localizationsupport. The exposed keys for localization are explained the tables below.
 
 **ListPicker localization keys**
 

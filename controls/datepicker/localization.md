@@ -10,11 +10,7 @@ slug: datepicker-localization
 
 This article explains the localization keys provided in DatePicker control.
 
-# Date Picker Localization
-
-RadDatePicker for .NET MAUI provides language localization. In short, you can translate the used across the Date Picker texts to other languages, so that your app can be adapted to different regions.
-
-**DatePicker Header localization keys**
+**DatePicker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
@@ -31,11 +27,11 @@ RadDatePicker for .NET MAUI provides language localization. In short, you can tr
 | `Picker_Popup_AcceptButtonText`  | `OK` |
 | `Picker_Popup_CancelButtonText`  | `Cancel` |
 
->important To learn in details about the localization process of Telerik UI for MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
+>important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
 Check in the image below how the localization strings are presented in Date Picker:
 
-![Localization Date Picker](images/datepicker-common-localization.png)
+![DatePicker Localization](images/datepicker-common-localization.png)
 
 ## See Also
 

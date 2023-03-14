@@ -8,9 +8,7 @@ slug: timepicker-localization
 
 # Тime Picker Localization
 
-RadTimePicker for .NET MAUI provides language localization. The localization keys are described in the tabels below:
-
-The sections below list all the localization keys used in Time Picker Spinners.
+The TimePicker for .NET MAUI provides language localization. The localization keys are described in the tabels below:
 
 **TimePicker localization keys**
 
