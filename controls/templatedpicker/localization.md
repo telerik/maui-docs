@@ -24,7 +24,7 @@ The Telerik .NET MAUI TemplatedPicker exposes localization keys explained in the
 | `Picker_Popup_AcceptButtonText`  | `OK` |
 | `Picker_Popup_CancelButtonText`  | `Cancel` |
 
->important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug localization-and-globalization%}) topic.
+> important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug localization-and-globalization%}) topic.
 
 Check in the image below how the common localization strings are presented in Templated Picker:
 
