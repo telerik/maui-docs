@@ -74,11 +74,6 @@ navigation:
     ## Button
     controls/button:
         title: "Button"
-        ## Button Sub-Folders
-    controls/button/howto:
-        title: "How To"
-        position: 6
-        ## End Button Sub-Folders
     ## End Button
     ## Chart
     controls/chart:
@@ -112,9 +107,6 @@ navigation:
         title: "Financial Series"
         position: 4
             ## End Chart Series Sub-Folders
-    controls/chart/how-to:
-        title: "How To"
-        position: 11
         ## End Chart Sub-Folders
     ## End Chart
     ##CheckBox

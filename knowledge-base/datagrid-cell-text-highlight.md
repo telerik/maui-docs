@@ -1,47 +1,44 @@
 ---
-title: Highlighting Text in the DataGrid through search Entry
-description: Highlight Text in DataGrid cell through an Entry
+title: Highlighting the Text in the DataGrid through Search Entry
+page_title: Searching and Highlighting the Result in the DataGrid Cells - .NET MAUI Knowledge Base
+description: Learn how to highlight the text in the cells of the Telerik UI for .NET MAUI DataGrid component through the Search entry when searching from an external UI.
 type: how-to
-page_title: Search and higlight the result in the DataGrid cell
 slug: datagrid-cell-text-highlight
-position: 
 tags: maui, datagrid, ui for maui, highlight search result, text highlight
 ticketid: 1582978
 res_type: kb
 ---
 
 ## Environment
+
 <table>
 	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>3.2.1</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>DataGrid for MAUI</td>
-		</tr>
+    <tr>
+      <td>Product</td>
+      <td>Telerik UI for .NET MAUI DataGrid</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>3.2.1</td>
+  	</tr>
 	</tbody>
 </table>
 
-
 ## Description
 
-In this article I will show you how to highlight a text inside a DataGrid cell when searching from an external UI.
+How can I highlight a chunk of text inside a Telerik UI for .NET MAUI DataGrid cell when searching from an external UI?
 
 ## Solution
 
-Use a RadEntry/Entry control for the Searching UI
+Generally, to achieve the desired scenario, use a Telerik UI for .NET MAUI Entry control for the Searching UI.
 
-For highlighting the text in the DataGrid, you have to use a `CellTemplateColumn` and add a `RadHighlightLabel` in it. Then set the following properties to the control: `UnformattedText`, `HighlightText` and `HighlightTextColor` properties of RadHighlight Label to get the following result.
+To highlight the text in the DataGrid, use a `CellTemplateColumn` and add a `RadHighlightLabel` in it. Then, set the `UnformattedText`, `HighlightText`, and `HighlightTextColor` properties of the `RadHighlight` label to get the following result:
 
 ![DataGrid Highlighted Text](images/highlightedtext.png)
 
-## Code
+By binding the `HighlightText` property to the text value of the Entry you will be able to get the characters which need to be highlighted. The `UnformattedText` property must be bound to the `ItemsSource` propertys.
 
-By Binding the `HighlightText` property to the Text Value of the Entry you will be able to get the characters which need to be highlighted. While the `UnformattedText` property should be Bound to the Property of the ItemsSource you wish to be displayed in the column
-
-The code looks as follows:
+The following example shows the implementation the suggested approach.
 
 ```XAML
 <telerik:RadEntry x:Name="searchEntry"

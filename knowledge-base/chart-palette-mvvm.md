@@ -1,39 +1,44 @@
 ---
-title: Different color for each bar
-description: Apply different bar chart colors using MVVM.
+title: Adding Different Colors to the Bars of the Chart
+page_title: Showing a Different Color for Each Chart Bar with MVVM - .NET MAUI Knowledge Base
+description: Learn how to apply a different color to each bar of the Telerik UI for .NET MAUI Chart component by using the MVVM pattern.
 type: how-to
-page_title: Different Chart Palette for Bar Series using MVVM pattern.
 slug: chart-color-for-each-bar-mvvm
-position: 
 tags: maui, chart, barseries, chart color, bar color, mvvm
 ticketid: 1567000
 res_type: kb
 ---
 
 ## Environment
+
 <table>
 	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>2.0.0</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>Chart for .NET MAUI</td>
-		</tr>
+    <tr>
+      <td>Product</td>
+      <td>Telerik UI for .NET MAUI Chart</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>2.0.0</td>
+  	</tr>
 	</tbody>
 </table>
 
 
 ## Description
-Currently the only way to add a Chart Palette is by adding a Palette entry in XAML. This article will show you how-to set a different color to the Chart Bar Series using MVVM manner.
-In general you have to create a custom chart palette in the ViewModel
+
+How can I add a palette to the Telerik UI for .NET MAUI Bar Chart to show each bar in a different color?
 
 ## Solution
-This solution uses the code from Telerik UI for .NET MAUI documentation for Bar Series and adds the necessary components to achieve the desired result: 
-https://docs.telerik.com/devtools/maui/controls/chart/series/cartesian/bar-series
 
-* First, add the `Color` property to the business model:
+To implement a Chart palette, add a `Palette` entry in XAML. In general, you have to create a custom Chart palette in the `ViewModel`.
+
+The suggested approach uses the [code from the Telerik UI for .NET MAUI documentation for the Chart Bar Series]({% slug chart-types-cartesian-chart %}) and adds the necessary components to achieve the desired result.
+
+To achieve the desired scenario:
+
+**1.** Add the `Color` property to the business model:
+
 ```C#
 public class DataItem
     {
@@ -43,7 +48,8 @@ public class DataItem
     }
 ```
 
-* Second, set values for the `barColor` property of type `Color` in the Collection:
+**2.** In the `Collection`, set values for the `barColor` property of type `Color`:
+
 ```C#
 var seriesData = new ObservableCollection<DataItem>()
             {
@@ -55,16 +61,15 @@ var seriesData = new ObservableCollection<DataItem>()
             };
 ```
 
-After creating the business model and the collection of data, create a class in the ViewModel that changes the values of the `Chart Palette`.
+**3.** After creating the business model and the collection of data, create a class in the `ViewModel` that changes the values of the `Chart Palette`.
 
-## Properties
+**4.** Create a `Bindable` property to store the `Colors`:
 
-* Create a Bindable property to store the Colors:
 ```C#
 public static readonly BindableProperty ColorsSourceProperty = BindableProperty.CreateAttached("ColorsSource", typeof(IEnumerable), typeof(ChartUtils), null, propertyChanged: OnColorsSourceChanged);
 ```
 
-* Define the properties which get and set the values in the collection:
+**5.** Define the properties which get and set the values in the collection:
 
 ```C#
 public static IEnumerable GetColorsSource(BindableObject bindableObject)
@@ -78,9 +83,8 @@ public static void SetColorsSource(BindableObject bindableObject, IEnumerable va
         }
 ```
 
-## Methods
+**6.** To get the desired color, add a method which changes the old palette to a new one:
 
-To get the desired color there should be a method which changes the old palette to a new one:
 ```C#
 private static void OnColorsSourceChanged(BindableObject bindable, object oldValue, object newValue)
         {
@@ -90,7 +94,8 @@ private static void OnColorsSourceChanged(BindableObject bindable, object oldVal
         }
 ```
 
-After having the `OnColorsSourceChanged` method we need one which will create new palette entries based on the data from `SeriesData` collection:
+**7.** After having the `OnColorsSourceChanged` method, you need another one which will create the new palette entries based on the data from `SeriesData` collection:
+
 ```C#
 private static ChartPalette ToChartPalette(IEnumerable colorsSource)
         {
@@ -114,9 +119,8 @@ private static ChartPalette ToChartPalette(IEnumerable colorsSource)
         }
 ```
 
-## Final Code
+**8.** Add the following code.   
 
-The final code looks as follows:
 ```C#
 public static class ChartUtils
     {
@@ -163,43 +167,44 @@ public static class ChartUtils
     }
 ```
 
-## XAML
+**9.** Attach the `ChartUtils` class to the Chart in XAML.
 
-Finally we can attach the `ChartUtils` class to the Chart in XAML:
+>tip Set the `PaletteMode` to `DataPoint` properties. Otherwise, the palettes will fail to apply to the Chart.
+
+
 ```XAML
 <telerik:RadCartesianChart chartPalettes:ChartUtils.ColorsSource="{Binding SeriesData}">
-                    <telerik:RadCartesianChart.ChartBehaviors>
-                        <telerik:ChartSelectionBehavior DataPointSelectionMode="Single" 
-                                                             SeriesSelectionMode="None" />
-                    </telerik:RadCartesianChart.ChartBehaviors>
-                    <telerik:RadCartesianChart.HorizontalAxis>
-                        <telerik:CategoricalAxis LineColor="#A9A9A9" 
-                                                      MajorTickThickness="2" 
-                                                      PlotMode="BetweenTicks" 
-                                                      LabelFitMode="MultiLine" 
-                                                      ShowLabels="True" 
-                                                      MajorTickBackgroundColor="#A9A9A9" />
-                    </telerik:RadCartesianChart.HorizontalAxis>
-                    <telerik:RadCartesianChart.VerticalAxis>
-                        <telerik:NumericalAxis LineColor="#A9A9A9" 
-                                                    MajorTickBackgroundColor="#A9A9A9" 
-                                                    Minimum="0" />
-                    </telerik:RadCartesianChart.VerticalAxis>
-                    <telerik:RadCartesianChart.Grid>
-                        <telerik:CartesianChartGrid MajorLinesVisibility="Y" 
-                                                         MajorLineThickness="1" />
-                    </telerik:RadCartesianChart.Grid>
-                    <telerik:RadCartesianChart.Series>
-                        <telerik:BarSeries CategoryBinding="Category" 
-                                           ValueBinding="Value"
-                                           PaletteMode="DataPoint"
-                                           ItemsSource="{Binding SeriesData}" />
-                    </telerik:RadCartesianChart.Series>
-                </telerik:RadCartesianChart>
+    <telerik:RadCartesianChart.ChartBehaviors>
+        <telerik:ChartSelectionBehavior DataPointSelectionMode="Single"
+                                                SeriesSelectionMode="None" />
+    </telerik:RadCartesianChart.ChartBehaviors>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:CategoricalAxis LineColor="#A9A9A9"
+                                        MajorTickThickness="2"
+                                        PlotMode="BetweenTicks"
+                                        LabelFitMode="MultiLine"
+                                        ShowLabels="True"
+                                        MajorTickBackgroundColor="#A9A9A9" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis LineColor="#A9A9A9"
+                                    MajorTickBackgroundColor="#A9A9A9"
+                                    Minimum="0" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Grid>
+        <telerik:CartesianChartGrid MajorLinesVisibility="Y"
+                                            MajorLineThickness="1" />
+    </telerik:RadCartesianChart.Grid>
+    <telerik:RadCartesianChart.Series>
+        <telerik:BarSeries CategoryBinding="Category"
+                            ValueBinding="Value"
+                            PaletteMode="DataPoint"
+                            ItemsSource="{Binding SeriesData}" />
+    </telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
 ```
 
->tip It is important to set `PaletteMode` to `DataPoint` otherwise the chart palettes won't apply.
 
-## Final Result
+The following image shows the end result of the suggested implementation.
 
 ![Chart Palette](images/chart-palette.png)
