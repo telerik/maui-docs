@@ -20,8 +20,8 @@ The sections below list all the localization keys used in Date Picker for MAUI c
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| DatePicker_Popup_HeaderLabelText  | Select Date |
-| DatePicker_PlaceholderLabelText  | Select Date |
+| DatePicker_Popup_HeaderLabelText  | `Select Date` |
+| DatePicker_PlaceholderLabelText  | `Select Date` |
 
 ## Common Picker Localizations strings
 

@@ -14,26 +14,26 @@ Telerik UI for .NET MAUI DateTimePicker provides language localization. In short
 
 The sections below list all the localization keys used in Date and Time Picker Spinners.
 
-## Date and Time Spinners Localization Keys
+**Date and Time Spinners localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| DateTimePicker_Popup_HeaderLabelText  | Select Date and Time |
-| DateTimePicker_PlaceholderLabelText  | Select Date and Time |
+| `DateTimePicker_Popup_HeaderLabelText`  | `Select Date and Time` |
+| `DateTimePicker_PlaceholderLabelText`  | `Select Date and Time` |
 
-## Common Picker Localizations strings
+**Common Picker Localizations keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| Picker_AmPmSpinnerHeaderLabelText  | AM/PM |
-| Picker_DaySpinnerHeaderLabelText  | Day |
-| Picker_HourSpinnerHeaderLabelText  | Hours |
-| Picker_MinuteSpinnerHeaderLabelText | Minutes |
-| Picker_SecondSpinnerHeaderLabelText  | Seconds |
-| Picker_MonthSpinnerHeaderLabelText  | Month |
-| Picker_YearSpinnerHeaderLabelText  | Year |
-| Picker_Popup_AcceptButtonText  | OK |
-| Picker_Popup_CancelButtonText  | Cancel |
+| `Picker_AmPmSpinnerHeaderLabelText` | `AM/PM` |
+| `Picker_DaySpinnerHeaderLabelText` | `Day` |
+| `Picker_HourSpinnerHeaderLabelText` | `Hours` |
+| `Picker_MinuteSpinnerHeaderLabelText` | `Minutes` |
+| `Picker_SecondSpinnerHeaderLabelText` | `Seconds` |
+| `Picker_MonthSpinnerHeaderLabelText` | `Month` |
+| `Picker_YearSpinnerHeaderLabelText` | `Year` |
+| `Picker_Popup_AcceptButtonText` | `OK` |
+| `Picker_Popup_CancelButtonText` | `Cancel` |
 
 Check in the image below how the localization strings are presented in Date and Time Picker:
 
@@ -61,4 +61,4 @@ Set it as the TelerikLocalizationManager.Manager:
 
 ## See Also
 
-* [Localization and Globalization]({%slug globalization-localization%})
+- [Localization and Globalization]({%slug globalization-localization%})
