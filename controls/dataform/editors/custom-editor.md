@@ -8,7 +8,7 @@ slug: dataform-custom-editor
 
 # .NET MAUI DataForm Custom Editors
 
-DataForm has a support for custom editors with 5.0.2 version of Telerik UI for .NET MAUI.
+DataForm has a support for custom editors with 5.1.0 version of Telerik UI for .NET MAUI.
 
 * `DataFormCustomEditor`&mdash;Represents a custom editor in a RadDataForm.
 
