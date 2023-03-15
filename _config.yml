@@ -18,9 +18,6 @@ navigation:
     controls:
         title: "Controls"
         position: 4
-    troubleshooting:
-        title: "Troubleshooting"
-        position: 12
     "knowledge-base":
         title: "Knowledge Base"
         position: 14
