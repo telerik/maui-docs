@@ -8,7 +8,7 @@ slug: dataform-data-annotations
 
 # .NET MAUI DataForm - Data Annotations 
 
-Telerik .NET MAUI DataForm uses `Data Annoations`(`System.ComponentModel.DataAnnotations`).
+Telerik .NET MAUI DataForm uses `Data Annotations`(`System.ComponentModel.DataAnnotations`).
 
 The supported Data Annotations are described in the table below:
 
@@ -27,7 +27,7 @@ The supported Data Annotations are described in the table below:
 | [RequiredAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.requiredattribute?view=net-7.0) |
 | [RangeAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.rangeattribute?view=net-7.0) |
 
-> More information about Data Annoations can be found in the [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-7.0).
+> More information about Data Annotations can be found in the [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-7.0).
 
 **Example with business model with Data Annotations**
 
