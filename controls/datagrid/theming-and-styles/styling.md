@@ -21,6 +21,7 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `HoverTextColor`&mdash;Defines the text color of the hovered cell.
 * `MouseHoverStyle`&mdash;Specifies the style applied to the cells and rows when the mouse is over them. The style is applicable for Desktop(MacCatalyst and WinUI).
 * `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property allows you to style the splitter UI. The Splitter UI splits the frozen columns from the unfrozen columns.
+* `GridLinesVisibility`(`Telerik.Maui.Controls.Compatibility.DataGrid.RadDataGrid.GridLinesVisibility`) property defines which grid lines are currently visible (displayed). The property can be set to `Both`, `Horizontal`, `None` and `Vertical`.
 
 ![DataGrid Styling](../images/datagrid-borderBrush.png)
 
@@ -64,6 +65,18 @@ The `HoverTextColor` property can be set as shown below:
     </telerik:DataGridTextColumn.CellContentStyle>
 </telerik:DataGridTextColumn>
 ```
+
+The `GridLinesVisibility` property can be set as shown below:
+
+```XAML
+ <telerik:RadDataGrid GridLinesVisibility="Both"
+                             Grid.Row="2"
+                             Grid.ColumnSpan="3" 
+                             ItemsSource="{Binding GridSource}" 
+                             GridLinesColor="Red" 
+                             GridLinesThickness="5" />
+```
+
 
 The `GoupHeaderStyle` property is applied once the DataGrid is grouped.
 
