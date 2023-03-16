@@ -4,6 +4,7 @@ page_title: A .NET MAUI iOS Build Signing Error Occurs - .NET MAUI Knowledge Bas
 description: Cannot find any available provisioning profiles on iOS when working with Telerik UI for .NET MAUI.
 tags: .net maui, maui, maui check, error, provisioning profile, ios, mac, xcode
 slug: ios-maui-provisioning-profile-not-found
+previous_url: /troubleshooting/ios-maui-provisioning-profile-not-found
 type: troubleshooting
 res_type: kb
 ---
@@ -14,7 +15,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-      <td>Telerik UI for .NET MAUI</td>
+      <td>Progress® Telerik® UI for .NET MAUI</td>
     </tr>
   	<tr>
   		<td>Product Version</td>
