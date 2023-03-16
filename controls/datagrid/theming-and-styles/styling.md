@@ -23,7 +23,7 @@ The DataGrid control provides the following `Style` properties for customizing i
 * `FrozenColumnsSplitterStyle`(`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property allows you to style the splitter UI. The Splitter UI splits the frozen columns from the unfrozen columns.
 * `GridLinesVisibility`(`Telerik.Maui.Controls.Compatibility.DataGrid.GridLinesVisibility`) property defines which grid lines are currently visible (displayed). The property can be set to `Both`, `Horizontal`, `None` and `Vertical`.
 * `GridLinesColor`&mdash;Defines the appearance of the grid's horizontal and vertical lines.
-`GridLinesThickness`&mdash;Defines the width of the vertical grid lines and the height of the horizontal grid lines.
+* `GridLinesThickness`&mdash;Defines the width of the vertical grid lines and the height of the horizontal grid lines.
 
 ![DataGrid Styling](../images/datagrid-borderBrush.png)
 
