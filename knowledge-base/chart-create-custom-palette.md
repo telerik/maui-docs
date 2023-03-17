@@ -14,7 +14,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-      <td>Telerik UI for .NET MAUI Chart</td>
+      <td>Progress® Telerik® UI for .NET MAUI Chart</td>
     </tr>
   	<tr>
   		<td>Product Version</td>
