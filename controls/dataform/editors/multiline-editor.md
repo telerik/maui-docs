@@ -10,7 +10,7 @@ slug: dataform-multiline-editors
 
 You can use the following Multiline Editors the DataForm provides:
 
-* `DataFormMultiLineEditor` &mdash;of type `.NET MAUI Editor`
+* `DataFormMultiLineEditor`&mdash;of type `.NET MAUI Editor`
 
 Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 
