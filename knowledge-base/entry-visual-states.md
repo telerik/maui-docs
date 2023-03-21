@@ -30,7 +30,7 @@ How can I set the Visual States in the Telerik UI for .NET MAUI Entry?
 
 ## Solution
 
-The RadEntry control inherits the Visual States, which comes from the .NET MAUI Entry. The `Visual State Manager` introduces the concept of visual states. It defines a visual state group named `CommonStates` with the following visual states: `Normal`,`Disabled`, `Focused`, `Selected` and `PointerOver`. It is a good practice to set all visual states even it rhere is nothing to set in them. 
+The RadEntry control inherits the Visual States, which comes from the .NET MAUI Entry. The `Visual State Manager` introduces the concept of visual states. It defines a visual state group named `CommonStates` with the following visual states: `Normal`,`Disabled`, `Focused`, `Selected` and `PointerOver`. It is a good practice to set all visual states even if there is nothing to set in them. 
 
 ```XAML
   <telerik:RadEntry x:Name="tEntry" Placeholder="telerik">
