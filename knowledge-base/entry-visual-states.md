@@ -1,7 +1,7 @@
 ---
-title: Set the Visual States in the RadEntry control 
-page_title: Entry Visual States - .NET MAUI Knowledge Base
-description: Learn how to set a Telerik UI for .NET MAUI Entry Visual States
+title: Set the Visual States of the Entry
+page_title: Configure the Visual States of the Entry Component - .NET MAUI Knowledge Base
+description: Learn how to define the visual states of the Telerik UI for .NET MAUI Entry control.
 type: how-to
 slug: entry-visual-states
 tags: maui, entry, visual states, .net maui entry, focused, normal, disabled, hover
@@ -26,11 +26,11 @@ res_type: kb
 
 ## Description
 
-How can I set the Visual States in the Telerik UI for .NET MAUI Entry?
+How can I set the visual states of the Telerik UI for .NET MAUI Entry control?
 
 ## Solution
 
-The RadEntry control inherits the Visual States, which comes from the .NET MAUI Entry. The `Visual State Manager` introduces the concept of visual states. It defines a visual state group named `CommonStates` with the following visual states: `Normal`,`Disabled`, `Focused`, `Selected` and `PointerOver`. It is a good practice to set all visual states even if there is nothing to set in them. 
+To set the visual states of the Entry control, use the `RadEntry` class, which inherits them from the Entry, and the concept of the visual states, which is introduced by the `VisualStateManager` configuration. `VisualStateManager` defines a visual state group named `CommonStates` and supports the `Normal`, `Disabled`, `Focused`, `Selected`, and `PointerOver` values. It is recommended that you add configurations for all visual states that are available.
 
 ```XAML
   <telerik:RadEntry x:Name="tEntry" Placeholder="telerik">
@@ -65,6 +65,6 @@ The RadEntry control inherits the Visual States, which comes from the .NET MAUI 
 ```
 
 
-The following .gif file represents the result from the code snippet above:
+The following `.gif` file represents the result from the code snippet:
 
-![Entry Visual States](images/entry-visual-states.gif)
+![End result for setting the visual states of the Telerik UI for .NET MAUI Entry control](images/entry-visual-states.gif)
