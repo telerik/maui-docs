@@ -15,6 +15,40 @@ When using Telerik UI for .NET MAUI entry control, you can use the following com
 
 The `ReturnCommand` has a command parameter&mdash;`ReturnCommandParameter` which can be used to pass a parameter to the command execute method.
 
+When using MVVM design pattern its better to use the Entry's Commands insetad of the event handler.
+
+```XAML
+<telerik:RadEntry x:Name="entry"
+                  ReturnCommand="{Binding EntryReturnCommand}"/>
+```
+
+```C#
+public MainPage()
+{
+  InitializeComponent();
+
+  this.BindingContext = new ViewModel();
+}
+```
+
+```C#
+public class ViewModel
+{
+    public ViewModel()
+    {
+        EntryReturnCommand = new Command(EntryReturn);
+    }
+
+    public Command EntryReturnCommand { get; set; }
+
+    private void EntryReturn()
+    {
+    // implement your logic here
+    }
+}
+```
+
+
 ## See Also
 
 - [Text Appearance]({% slug entry-text-appearance%})

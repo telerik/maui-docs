@@ -48,6 +48,8 @@ To create a custom animation, use a combination of the `AnimationType`, `BusyCon
 
 1. The custom animation is added to the `Animations` collection of the BusyIndicator.
 
+The `Animations`(Collection of type `RadAnimation`)&mdash; Used when the `AnimationType` of the BusyIndicator control is set to `Custom`.
+
 The following example demonstrates how to create a custom animation that changes the opacity of a text (blinking effect) in XAML.
 
 <snippet id='busyindicator-animations-xaml'/>

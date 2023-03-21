@@ -89,4 +89,4 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
 * [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
-* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})
+* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)

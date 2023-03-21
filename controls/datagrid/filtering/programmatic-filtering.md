@@ -1,49 +1,15 @@
 ---
-title: Filtering
-page_title: .NET MAUI DataGrid Documentation - Filtering
-description: Check our &quot;Filtering&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 5
-slug: datagrid-filtering-overview
+title: Programmatic Filtering
+page_title: .NET MAUI DataGrid Documentation - Programmatic Filtering
+description: Programmatic Filtering can be used for external filtering. You could disable the built-in filtering UI and programmatically filter tha data in the grid.
+position: 3
+slug: datagrid-programmatic-filtering
 ---
 
-# .NET MAUI DataGrid Filtering
+# Programmatic Filtering
 
-The DataGrid supports filtering through the UI - [Filtering UI](#filtering-ui) and [programmatic filtering](#programmatic-filtering).
-
-## Filtering UI
-
-> On Mobile (iOS and Android) Filtering UI appears when clicking the options icon (**OptionsButton**, three dots) on each column's header and it allows the user to easily filter data by column values.
->
-> On Desktop Filtering UI appears when clicking on the filtering icon on each column's header'.
-
-![DataGrid Filtering UI](images/datagrid-filtering.png)
-
-The Filtering UI exposes the following properties:
-
-* `UserFilterMode`&mdash;Defines whether the Filtering UI is enabled/disabled. The available options are *Auto/Enabled/Disabled*. The default value of the UserFilterMode is *Auto*. Set the property on DataGrid control.
-
-* `CanUserFilter`(`bool`) property is used to enable/disable the filtering of a specific column. Set the property to a specific column.
-
-* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included int he Filering UI. By default the value is true.
-
-
-Events related to DistinctValuesFilter:
-
-* `DistinctValuesLoading` event&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
-		- `DistinctValues`&mdash; Is a property which specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
-		- `Column`&mdash; Is a readonly property of type `DataGridColumn` which gets the column for which the distinct values are being loaded.
-
-## FilterControl Template
-
-The Telerik DataGrid allows you to apply filtering to the datagrid column using the FilterControlTemplate property.
-
-* **FilterControlTemplate**(DataTemplate): Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class
-
-## Programmatic Filtering
-
-Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+Programmatic Filtering could be used for external filtering. For example, disable the built-in filtering UI and to filter the data in the grid programmatically. 
+Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control. 
 
 The following descriptor types are supported:
 
@@ -242,7 +208,7 @@ class CustomFilter : Telerik.Maui.Controls.Compatibility.Common.Data.IFilter
 }
 ```
 
-> Take notice that `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+> `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
 
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
@@ -251,8 +217,4 @@ Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
 
-## See Also
-
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
-- [Selection]({%slug datagrid-selection-overview%})
+>important You could check our Programmatic Filtering example referring to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).

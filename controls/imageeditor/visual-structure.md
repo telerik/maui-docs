@@ -14,5 +14,5 @@ Here are described all visual elements used in the ImageEditor and its Toolbar f
 
 ## Legend
 
-* ImageEditortoolbar 0 - the control used for editing images.
+* ImageEditortoolbar - the control used for editing images.
 * ImageEditor - the control used for displaying images.

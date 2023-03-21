@@ -20,7 +20,7 @@ The table below shows the built-in toolbar items available for mobile -  Android
 
 | Toolbar Item | Description |
 | ------------ | ------- |
-| `ImageEditorTransformationsToolbarItem` | Common toolbar item that includes all available transformaion options like crop, resize, rotate(left and right) and flip(horizontal and vertical) |
+| `ImageEditorTransformationsToolbarItem` | Common toolbar item that includes all available transformation options like crop, resize, rotate(left and right) and flip(horizontal and vertical) |
 | `ImageEditorFiltersToolbarItem` | Common toolbar item that includes all available filter toolbar items: blur, sharpen, contrast, hue, saturation, brightness |
 | `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
@@ -67,7 +67,7 @@ The properties described bellow apply to all tollbar items available in the Imag
 
 **Properties for specific toolbar items**
 
-The properties described below applies only on `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`, `flip`, `resize`, `undo`, `redo`, `crop`, `rotate`, `button` toolbar items:
+The properties described below apply to `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`, `flip`, `resize`, `undo`, `redo`, `crop`, `rotate`, `button` toolbar items:
 
 * `Text`(`string`)&mdash;Specifies the text in the toolbar item.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.

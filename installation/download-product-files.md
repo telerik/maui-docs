@@ -38,7 +38,7 @@ To download any of the product files:
 
 Note that in the following table, you have to modify the following entries:
 
-* Replace `[license]` either with `Dev` or `Trial`, depending on the [Trial or Commercial]({%slug license-limitations%}) license you have.
+* Replace `[license]` either with `Dev` or `Trial`, depending on the Commercial or Trial license you have.
 * Replace `[version]` with the version to which the file corresponds.
 
 |  File Name | Description   | Required License |
@@ -51,8 +51,8 @@ Note that in the following table, you have to modify the following entries:
 
 ## See Also
 
-* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
-* [MSI Quickstart]({% slug maui-getting-started %})
-* [PKG Quickstart]({% slug install-pkg %})
-* [Quickstart with NuGet on Windows]({% slug telerik-nuget-server %})
-* [Quickstart with NuGet on macOS]({% slug telerik-nuget-server-mac %})
+* [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})
+* [MSI Quickstart]({%slug maui-getting-started%})
+* [PKG Quickstart]({%slug install-pkg%})
+* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
+* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})

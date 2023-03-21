@@ -63,4 +63,4 @@ Now, you are all set to start with the installation on your machine from the App
 * [System Requirements for macOS]({% slug system-requirements-mac %})
 * [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
 * [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
-* [Telerik UI for .NET MAUI Product Page]({% slug https://www.telerik.com/maui-ui %})
+* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)

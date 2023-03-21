@@ -29,6 +29,8 @@ slug: maskedentry-overview
 
 * Keyboard support&mdash;The MaskedEntry supports arrow-key keyboard navigation for implementing various commands in your desktop application.
 
+* Option to define different [keyboard type]({%slug maskedentry-keyboard%}) on specific MaskedEntry.
+
 * [flexible Stying API]({%slug maskedentry-styling%})for changing the clear button color, background color of the input and background color of the control.
 
 * [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works with respect to the target device culture.
