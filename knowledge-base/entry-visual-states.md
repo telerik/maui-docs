@@ -1,10 +1,10 @@
 ---
-title: Entry
+title: Set the Visual States in the RadEntry control 
 page_title: Entry Visual States - .NET MAUI Knowledge Base
 description: Learn how to set a Telerik UI for .NET MAUI Entry Visual States
 type: how-to
 slug: entry-visual-states
-tags: maui, entry, visual, states 
+tags: maui, entry, visual states, .net maui entry, focused, normal, disabled, hover
 res_type: kb
 ---
 
@@ -63,3 +63,8 @@ The RadEntry control inherits the Visual States, which comes from the .NET MAUI 
             </VisualStateManager.VisualStateGroups>
         </telerik:RadEntry>
 ```
+
+
+The following .gif file represents the result from the code snippet above:
+
+![Entry Visual States](images/entry-visual-states.gif)
