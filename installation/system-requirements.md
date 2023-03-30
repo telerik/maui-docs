@@ -17,8 +17,6 @@ In order to develop applications with Telerik UI for .NET MAUI you need to have 
 * Windows 11 and Windows 10 version 1809 or higher, using Windows UI Library (WinUI) 3.
 * Visual Studio 2022 17.3 or greater.
 
->important For .NET 7.0 projects use Visual Studio 2022 Preview
-
 > For more detailed instructions go to [Install .NET MAUI in Visual Studio 2022 for Windows ](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vswin).
 
 ## macOS
@@ -26,10 +24,10 @@ In order to develop applications with Telerik UI for .NET MAUI you need to have 
 You can develop Android, iOS and macOS apps. The iOS apps will require iOS 10 and higher. WinUI apps are not supported on macOS.
 
 * macOS 10.15 or higher, using Mac Catalyst
-* Visual Studio 2022 for Mac 17.4 Preview. Visual Studio for Mac installer inspects your system and verifies which components are installed and which need to be updated. 
+* Visual Studio 2022 for Mac 17.4 or greater. Visual Studio for Mac installer inspects your system and verifies which components are installed and which need to be updated. 
 * latest version of [Xcode](https://developer.apple.com/xcode).
 
->note For more detailed instructions go to [Install .NET MAUI in Visual Studio 2022 Preview for Mac](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vsmac).
+>For more detailed instructions go to [Install .NET MAUI in Visual Studio 2022 for Mac](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vsmac).
 
 ## Supported platforms 
 
