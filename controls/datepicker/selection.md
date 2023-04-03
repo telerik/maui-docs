@@ -2,7 +2,7 @@
 title: Selection
 page_title: .NET MAUI DatePicker Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik DatePicker for .NET MAUI.
-position: 5
+position: 6
 previous_url: /controls/datepicker/datepicker-selection
 slug: datepicker-selection
 ---
