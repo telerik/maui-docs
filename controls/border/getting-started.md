@@ -7,7 +7,7 @@ previous_url: /controls/border/border-getting-started
 slug: border-getting-started
 ---
 
-# Getting Started with .NET MAUI Border
+# Getting Started with the .NET MAUI Border
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Border by adding the control to your project.
 
@@ -62,10 +62,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI Border product page](https://www.telerik.com/maui-ui/border)
-- [.NET MAUI Border forum page](https://www.telerik.com/forums/maui?tagId=1763)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Border Product Page](https://www.telerik.com/maui-ui/border)
+- [.NET MAUI Border Forum Page](https://www.telerik.com/forums/maui?tagId=1763)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

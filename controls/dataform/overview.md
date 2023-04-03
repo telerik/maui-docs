@@ -38,8 +38,8 @@ slug: dataform-overview
 
 ## See Also
 
-- [.NET MAUI DataForm product page](https://www.telerik.com/maui-ui/dataform)
-- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1979)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI DataForm Product Page](https://www.telerik.com/maui-ui/dataform)
+- [.NET MAUI DataForm Forum Page](https://www.telerik.com/forums/maui?tagId=1979)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

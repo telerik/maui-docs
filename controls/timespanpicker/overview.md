@@ -39,7 +39,7 @@ slug: timespanpicker-overview
 
 ## See Also
 
-- [.NET MAUI TimeSpanPicker product page](https://www.telerik.com/maui-ui/timespanpicker)
-- [.NET MAUI TimeSpanPicker forum page](https://www.telerik.com/forums/maui?tagId=1851)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TimeSpanPicker Product Page](https://www.telerik.com/maui-ui/timespanpicker)
+- [.NET MAUI TimeSpanPicker Forum Page](https://www.telerik.com/forums/maui?tagId=1851)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

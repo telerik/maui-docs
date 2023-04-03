@@ -43,9 +43,9 @@ The Telerik UI for .NET MAUI DataGrid is a powerful control that allows you to e
 
 ## See Also
 
-- [.NET MAUI DataGrid product page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid forum page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 

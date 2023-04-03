@@ -7,7 +7,7 @@ previous_url: /controls/checkbox/checkbox-getting-started
 slug: checkbox-getting-started
 ---
 
-# Getting Started with .NET MAUI CheckBox
+# Getting Started with the .NET MAUI CheckBox
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI CheckBox by adding the control to your project.
 
@@ -65,10 +65,10 @@ Before adding the CheckBox, you need to:
 
 ## Additional Resources
 
-- [.NET MAUI CheckBox product page](https://www.telerik.com/maui-ui/checkbox)
-- [.NET MAUI CheckBox forum page](https://www.telerik.com/forums/maui?tagId=1784)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI CheckBox Product Page](https://www.telerik.com/maui-ui/checkbox)
+- [.NET MAUI CheckBox Forum Page](https://www.telerik.com/forums/maui?tagId=1784)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 
