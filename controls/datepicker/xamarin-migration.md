@@ -4,7 +4,7 @@ page_title: Migrating the DatePicker from Xamarin.Forms to .NET MAUI
 description: "Learn how to migrate the Telerik UI for Xamarin DatePicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-datepicker-to-maui
-position: 10
+position: 20
 ---
 
 # Migrating the DatePicker from Xamarin to .NET MAUI
@@ -37,3 +37,5 @@ The Telerik UI for .NET MAUI DatePicker preserves the same API as its Xamarin co
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)
+- [.NET MAUI DatePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

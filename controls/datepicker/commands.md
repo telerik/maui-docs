@@ -18,21 +18,23 @@ The DatePicker supports the following commands, which enable you to control the 
 * `ToggleCommand`(`ICommand`)&mdash;Allows you to show or hide the popup that is used for selecting a date value.
 * `ClearCommand`(`ICommand`)&mdash;Allows you to clear the displayed date.
 
-The following example demonstrates how to set `ToggleCommand` and `ClearCommand`.
+To use the DatePicker commands:  
 
-```XAML
+1. Set `ToggleCommand` and `ClearCommand`.
+
+ ```XAML
 <StackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference datePicker}, Path=ToggleCommand}"/>
 	<Button Text="Clear Command" Command="{Binding Source={x:Reference datePicker}, Path=ClearCommand}"/>
 	<telerik:RadDatePicker x:Name="datePicker" />
 </StackLayout>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```
 
 ## PopupSelector Commands
 
@@ -77,12 +79,12 @@ public class ViewModel
 
     private void OnAccept(object obj)
     {
-        // implement your custom logic here
+        // Implement your custom logic here.
     }
 
     private void OnCancel(object obj)
     {
-        // implement your custom logic here
+        // Implement your custom logic here.
     }
 }
  ```
@@ -95,6 +97,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Formatting]({%slug datepicker-formatting%})
-- [Templates]({%slug datepicker-templates%})
-- [Selection]({%slug datepicker-selection%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [Setting Date Ranges in the .NET MAUI DatePicker]({%slug datepicker-date-range%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)

@@ -73,8 +73,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Formatting]({%slug datepicker-formatting%})
-- [Date Range]({%slug datepicker-date-range%})
-- [Templates]({%slug datepicker-templates%})
-- [Selection]({%slug datepicker-selection%})
-- [Styling]({%slug datepicker-styling%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [Setting Date Ranges in the .NET MAUI DatePicker]({%slug datepicker-date-range%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})

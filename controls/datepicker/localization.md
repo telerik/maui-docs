@@ -8,16 +8,26 @@ slug: datepicker-localization
 
 # .NET MAUI DatePicker Localization
 
-This article explains the localization keys provided in DatePicker control.
+This article summarizes the localization keys supported by the DatePicker control.
 
-**DatePicker localization keys**
+For more details about the localization process of Telerik UI for .NET MAUI components, see the article on [localization and globalization approaches]({%slug globalization-localization%}).
+
+The following image presents the supported localization strings by the DatePicker:
+
+![DatePicker Localization](images/datepicker-common-localization.png)
+
+## DatePicker Localization Keys
+
+The following table lists the supported localization keys supported by the DatePicker.
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
 | `DatePicker_Popup_HeaderLabelText` | `Select Date` |
 | `DatePicker_PlaceholderLabelText` | `Select Date` |
 
-**Common Picker Localizations keys**
+## Common Picker Localizations Keys
+
+The following table lists the supported common picker localization keys.
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
@@ -27,12 +37,10 @@ This article explains the localization keys provided in DatePicker control.
 | `Picker_Popup_AcceptButtonText`  | `OK` |
 | `Picker_Popup_CancelButtonText`  | `Cancel` |
 
-> important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
-
-Check in the image below how the localization strings are presented in Date Picker:
-
-![DatePicker Localization](images/datepicker-common-localization.png)
-
 ## See Also
 
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)
+- [.NET MAUI DatePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 * [Localization and Globalization]({%slug globalization-localization%})
