@@ -11,12 +11,7 @@ previous_url: /installation/mac/install-pkg
 
 The Telerik UI for .NET MAUI library provides an option for installing its controls by downloading and executing the PKG file, which contains the suite.
 
-This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the PKG installation approach on macOS.
-
-* First, you will set up your .NET MAUI project and create the .NET MAUI application.
-* Next, you'll install the Telerik UI for .NET MAUI library from the MSI file.
-* Then, you will ...
-* Finally, you will ...
+This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the PKG installation approach on macOS. Here is the step by step guide you have to follow:
 
 ## Step 1: Set Up Your .NET MAUI Project
 

@@ -12,12 +12,7 @@ previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/i
 
 NuGet is a popular .NET package manager. Progress maintains the Telerik NuGet Feed for registered users and you can include the Telerik UI for .NET MAUI suite in your project as well as update to the latest available version from there.
 
-While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on Windows.
-
-* First, you will set up your .NET MAUI project and create the .NET MAUI application.
-* Next, you'll install the Telerik UI for .NET MAUI library by using the Telerik NuGet feed...
-* Then, you will ...
-* Finally, you will ...
+While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on Windows. Here is the step by step guide you have to follow:
 
 The following video demonstrates how to register the feed on your system and add the product package you need by using Visual Studio for Windows.  
 
@@ -37,15 +32,15 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
 1. Click the __Downloads__ tab.
 
-  ![Telerik UI for .NET MAUI Download tab in your account](images/download-tab.png)
+  ![Telerik UI for .NET MAUI Download tab in your account](../images/download-tab.png)
 
 1. Search for MAUI and select the __Telerik UI for .NET MAUI__ product title.
 
-  ![Telerik UI for .NET MAUI Search field in your account](images/search-for-maui.png)
+  ![Telerik UI for .NET MAUI Search field in your account](../images/search-for-maui.png)
 
 1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
 
-  ![Telerik UI for .NET MAUI available product files in your account](images/product-files.png)
+  ![Telerik UI for .NET MAUI available product files in your account](../images/product-files.png)
 
 ## Step 3: Add the Telerik NuGet Package Source to Visual Studio
 
@@ -53,17 +48,17 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
 1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
 
-  ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](images/nuget-vs-pm-settings.png)
+  ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](../images/nuget-vs-pm-settings.png)
 
 1. Select **Package Sources**.
 
-  ![Package Sources dialog with the Available package sources field](images/nuget-vs-add-source.png)
+  ![Package Sources dialog with the Available package sources field](../images/nuget-vs-add-source.png)
 
 1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Update**.
 
   Note that the [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster, more lightweight, and also reduces the number of requests from NuGet clients.
 
-  ![Package Sources field with the checked Telerik NuGet option](images/nuget-vs-telerik-server.png)
+  ![Package Sources field with the checked Telerik NuGet option](../images/nuget-vs-telerik-server.png)
 
 The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
 

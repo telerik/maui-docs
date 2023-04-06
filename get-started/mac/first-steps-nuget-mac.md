@@ -11,12 +11,7 @@ position: 2
 
 NuGet is a popular .NET package manager. Progress maintains the Telerik NuGet Feed for registered users and you can include the Telerik UI for .NET MAUI suite in your project as well as update to the latest available version from there.
 
-While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on macOS.
-
-* First, you will set up your .NET MAUI project and create the .NET MAUI application.
-* Next, you'll install the Telerik UI for .NET MAUI library by using the Telerik NuGet feed...
-* Then, you will ...
-* Finally, you will ...
+While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on macOS. Here is the step by step guide you have to follow:
 
 ## Step 1: Set Up Your .NET MAUI Project
 

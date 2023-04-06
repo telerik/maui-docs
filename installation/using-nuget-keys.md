@@ -3,7 +3,7 @@ title: Restoring NuGet Packages in CI
 page_title: Restoring NuGet Packages in Continuous Integration
 description: "Learn how to use NuGet Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment."
 slug: nuget-keys
-position: 4
+position: 5
 ---
 
 # Restoring NuGet Packages in Your CI Workflow
@@ -63,26 +63,25 @@ For more information on how to use NuGet keys in a build, check the [Announcing 
 
 ### Using a nuget.config File with Your Projects
 
-1. In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
+**1.** In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
 
-    ```xml
-        <configuration>
-        <packageSources>
-            <clear/>
-            <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
-            <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
-        </packageSources>
-        <packageSourceCredentials>
-            <MyTelerikFeed>
-            <add key="Username" value="api-key" />
-            <add key="ClearTextPassword" value="%MY_API_KEY%" />
-            </MyTelerikFeed>
-        </packageSourceCredentials>
-        ...
-        </configuration>
-    ```
+```xml
+  <configuration>
+    <packageSources>
+        <clear/>
+        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+        <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
+    </packageSources>
+    <packageSourceCredentials>
+        <MyTelerikFeed>
+        <add key="Username" value="api-key" />
+        <add key="ClearTextPassword" value="%MY_API_KEY%" />
+        </MyTelerikFeed>
+    </packageSourceCredentials>
+</configuration>
+```
 
-1. Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
+**2.** Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
 
 The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
@@ -92,15 +91,15 @@ You can use the CLI `add source` (or `update source`) command to set the credent
 
 * To set the credentials in Azure DevOps:
 
-    ```
-    dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/index.json' --username 'api-key' --password '$(TELERIK_NUGET_KEY)' --configfile './nuget.config' --store-password-in-clear-text
-    ```
+```
+dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/index.json' --username 'api-key' --password '$(TELERIK_NUGET_KEY)' --configfile './nuget.config' --store-password-in-clear-text
+```
 
 * To set the credentials in GitHub Actions:
 
-    ```
-    dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/index.json' --username 'api-key' --password '${{ secrets.TELERIK_NUGET_KEY }}' --configfile './nuget.config' --store-password-in-clear-text
-    ```
+```
+dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/index.json' --username 'api-key' --password '${{ secrets.TELERIK_NUGET_KEY }}' --configfile './nuget.config' --store-password-in-clear-text
+```
 
 ## Additional Resources
 
@@ -112,7 +111,7 @@ If you just start using the Telerik NuGet server in your CI or inter-department 
 
 ## See Also
 
-* [Quickstart with NuGet on Windows]({% slug telerik-nuget-server %})
-* [Quickstart with NuGet on macOS]({% slug telerik-nuget-server-mac %})
-* [Available Product Files and Assemblies]({% slug download-product-files %})
-* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
+* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})
+* [Available Product Files and Assemblies]({%slug download-product-files%})
+* [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})

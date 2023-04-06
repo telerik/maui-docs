@@ -3,12 +3,12 @@ title: Installation Approaches
 page_title: Ways to Install Telerik UI for .NET MAUI
 description: Learn more about the available approaches to install the Telerik UI for .NET MAUI product files, assemblies, and controls on Windows and macOS by using the MSI or PKG files, or the Telerik NuGet server.
 slug: installation-approaches
-position: 0
+position: 2
 ---
 
 # Installation Approaches for Telerik UI for .NET MAUI
 
-You can use Telerik UI for .NET MAUI both on Windows and macOS. Depending on the operation system you are using and on the preferred way to work with the product, the suite can be installed in the following ways:
+You can use Telerik UI for .NET MAUI on Windows and macOS. Depending on the operation system you are using and on the preferred way to work with the product, the suite can be installed in the following ways:
 
 * [(Windows) MSI file installation](#msi-file-installation)
 * [(macOS) PKG file installation](#pkg-file-installation)
@@ -63,7 +63,7 @@ No matter whether you've used the `.msi` automatic installation or the `zip` fil
 
 ## See Also
 
-* [MSI Quickstart]({% slug maui-getting-started %})
-* [PKG Quickstart]({% slug install-pkg %})
-* [Quickstart with NuGet on Windows]({% slug telerik-nuget-server %})
-* [Quickstart with NuGet on macOS]({% slug telerik-nuget-server-mac %})
+* [MSI Quickstart]({%slug maui-getting-started%})
+* [PKG Quickstart]({%slug install-pkg%})
+* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
+* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})
