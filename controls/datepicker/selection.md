@@ -28,7 +28,7 @@ To define the current date selection, use the `Date`(`DateTime?`) property. By d
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-## Removing Selected Values
+## Clearing the Selection through UI
 
 You can enable the removal of the selected value by rendering a **Clear** button through the `IsClearButtonVisible` property of the DatePicker:
 
@@ -37,7 +37,7 @@ You can enable the removal of the selected value by rendering a **Clear** button
                             IsClearButtonVisible="True" />
  ```
 
-## Clearing the Selection
+## Clearing the Selection Programmatically
 
 The DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method.
 

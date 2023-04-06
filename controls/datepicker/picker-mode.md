@@ -1,7 +1,7 @@
 ---
 title: Modes and Buttons
 page_title: .NET MAUI DatePicker Documentation - Picker Modes
-description: "Define PickerMode of Telerik DatePicker for .NET MAUI to either DropDown or Popup."
+description: "Define the suitable popup or drop-down picker mode supported by the Telerik UI for .NET MAUI DatePicker for your application, or implement the picker mode from the Arrow button."
 position: 6
 slug: datepicker-picker-mode
 ---
@@ -42,7 +42,7 @@ The image below shows the result on mobile and desktop devices:
 
 ![DatePicker Picker Mode](images/datepicker-pickermode-dropdown.png)
 
-## Arrow Picker Mode
+## Arrow Button Picker Mode
 
 In addition, DatePicker exposes the `IsToggleButtonVisible` property which, when set to `True`, renders an `Arrow` button for opening the UI and allows users to pick a date.
 

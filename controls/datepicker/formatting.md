@@ -1,7 +1,7 @@
 ---
 title: Formatting
 page_title: .NET MAUI DatePicker Documentation - Formatting
-description: "Use the formatting options provided by the Telerik DatePicker for .NET MAUI control."
+description: "Use the formatting options provided by the Telerik UI for .NET MAUI DatePicker control."
 position: 3
 previous_url: /controls/datepicker/datepicker-formatting
 slug: datepicker-formatting
