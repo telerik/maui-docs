@@ -9,17 +9,13 @@ previous_url: /installation/system-requirements
 
 # System Requirements for Windows
 
->note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
+>note Telerik .NET MAUI 3.2.0 version supports .NET 7.0.
 
 To develop applications with Telerik UI for .NET MAUI on Windows, you need to install specific development tools.
 
-* Windows 11
+* Windows 11 or Windows 10, version 1809 or later, using [Windows UI Library (WinUI) 3](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/).
 
-  Alternatively, Windows 10, version 1809 or later, using [Windows UI Library (WinUI) 3](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/).
-
-* (For .NET 7.0 projects) [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/)
-
-  Otherwise, [Visual Studio 2022 17.3 or later](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation).
+* [Visual Studio 2022 17.3 or later](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 ## Supported Platforms
 
