@@ -25,15 +25,15 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
 1. Click the __Downloads__ tab.
 
-  ![Telerik UI for .NET MAUI Download tab in your account](images/download-tab.png)
+  ![Telerik UI for .NET MAUI Download tab in your account](../../images/download-tab.png)
 
 1. Search for MAUI and select the __Telerik UI for .NET MAUI__ product title.
 
-  ![Telerik UI for .NET MAUI Search field in your account](images/search-for-maui.png)
+  ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
 
 1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
 
-  ![Telerik UI for .NET MAUI available product files in your account](images/product-files.png)
+  ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
 ## Step 3: Install Telerik UI for .NET MAUI
 
@@ -45,7 +45,7 @@ Now, you are all set to start with the installation on your machine from the App
 
 	For more information about the file included in the **Installation** folder, go to the [list of options and product files]({% slug download-product-files %}#list-of-options-and-product-files).
 
-	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](images/install_pkg.png)
+	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../../images/installation-macos.png)
 
 
 ## Next Steps
