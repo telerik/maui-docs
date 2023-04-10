@@ -39,11 +39,11 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
 Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet feed. To use the available packages, you need to have an active Telerik account and to authenticate.
 
-1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose `Manage NuGet Packages…`.
+1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose `Manage NuGet Packages`.
 
   ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](../../installation/images/open-manage-nuget-packages-mac.png)
 
-1. Choose `Configure Sources…` option from the dropdown in the lower left corner.
+1. Choose `Configure Source` option from the dropdown in the lower left corner.
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-configure-sources.png)
 
