@@ -28,11 +28,11 @@ Apart from the described in detail approach for [installing the suite from your 
 
 1. Click the **Download Telerik UI for .NET MAUI** button.
 
-  ![Product page for downloading Telerik UI for .NET MAUI](images/download_maui.png)
+  ![Product page for downloading Telerik UI for .NET MAUI](../images/ownload_maui2.png)
 
 1. As a result, the download starts automatically.
 
-  ![Your UI for MAUI Installer is downloading... page](images/downloading-maui.png)
+  ![Your UI for MAUI Installer is downloading... page](../images/downloading-maui.png)
 
 ## PKG File Installation
 

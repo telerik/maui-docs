@@ -16,7 +16,7 @@ While you can develop Android, iOS, and macOS apps on macOS, the operating syste
 
 * macOS 10.15 or later using [Mac Catalyst](https://developer.apple.com/mac-catalyst/)
 * [Xcode](https://developer.apple.com/xcode), latest version
-* [Visual Studio 2022 for Mac](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation)
+* [Visual Studio for Mac](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation)
 
   The installer will inspect your system and will verify which components are installed and which require an update.
 
