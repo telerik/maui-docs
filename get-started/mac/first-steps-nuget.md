@@ -35,23 +35,27 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
   ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
-## Step 3: Add the Telerik NuGet Package Source to Visual Studio
+## Step 3: Add the Telerik NuGet Package Source to Visual Studio for Mac
 
 Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet feed. To use the available packages, you need to have an active Telerik account and to authenticate.
 
-1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
+1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose `Manage NuGet Packages…`.
 
-  ![Telerik NuGet Package Manager context menu with the Package Manager Settings option]()
+  ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](../../installation/images/open-manage-nuget-packages-mac.png)
 
-1. Select **Package Sources**.
+1. Choose `Configure Sources…` option from the dropdown in the lower left corner.
 
-  ![Package Sources dialog with the Available package sources field]()
+  ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-configure-sources.png)
+
+1. On the next dialog you can see all the available sources. Choose `Add` to add the new server.
+
+  ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-add-package-source.png)
 
 1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Update**.
 
   Note that the [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster, more lightweight, and also reduces the number of requests from NuGet clients.
 
-  ![Package Sources field with the checked Telerik NuGet option]()
+  ![Package Sources field with the checked Telerik NuGet option](../../installation/images/getting-started-add-telerk-server.png)
 
 The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
 
@@ -64,7 +68,7 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 1. Choose the projects which require the package.
 1. Select the desired version and click **Install**.
 
-![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package]()
+![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/telerik-maui-nuget-mac.png)
 
 ## Next Steps
 
