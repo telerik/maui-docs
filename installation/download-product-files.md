@@ -43,11 +43,11 @@ Note that in the following table, you have to modify the following entries:
 
 |  File Name | Description   | Required License |
 | --- | --- | --- |
-| Telerik_UI_for_dot_NET_Maui_[Version]_[License].zip | Contains binaries, Visual Studio Extensions, and examples used for the Telerik UI for .NET MAUI manual installation. | Commercial or Trial  |
-| Telerik_UI_for_dot_NET_Maui_[Version]_[License].msi | (PC only) Contains the runnable `.msi` file used for the Telerik UI for .NET MAUI automatic installation. For more information, refer to the guide on [first steps with the MSI file installation]({% slug maui-getting-started %}). | Commercial or Trial |
-| Telerik_UI_for_dot_NET_Maui_[Version]_[License].pkg | (Mac only) Contains the runnable `pkg` file used for the Telerik UI for .NET MAUI automatic installation. | Commercial or Trial |
-| Telerik.UI.for.Maui.[Version].nupkg | Contains the NuGet package with the Telerik UI for .NET MAUI assemblies. | Commercial or Trial |
-| telerik.ui.for.maui.[Version].mpack | Contains the Visual Studio for Mac add-in with a project template and pre-setup requirements for running Telerik UI for .NET MAUI components. | Commercial or Trial |
+| `Telerik_UI_for_dot_NET_Maui_[Version]_[License].zip` | Contains binaries, Visual Studio Extensions, and examples used for the Telerik UI for .NET MAUI manual installation. | Commercial or Trial  |
+| `Telerik_UI_for_dot_NET_Maui_[Version]_[License].msi` | (PC only) Contains the runnable `.msi` file used for the Telerik UI for .NET MAUI automatic installation. For more information, refer to the guide on [first steps with the MSI file installation]({% slug maui-getting-started %}). | Commercial or Trial |
+| `Telerik_UI_for_dot_NET_Maui_[Version]_[License].pkg` | (Mac only) Contains the runnable `pkg` file used for the Telerik UI for .NET MAUI automatic installation. | Commercial or Trial |
+| `Telerik.UI.for.Maui.[Version].nupkg` | Contains the NuGet package with the Telerik UI for .NET MAUI assemblies. | Commercial or Trial |
+| `telerik.ui.for.maui.[Version].mpack` | Contains the Visual Studio for Mac add-in with a project template and pre-setup requirements for running Telerik UI for .NET MAUI components. | Commercial or Trial |
 
 ## See Also
 
