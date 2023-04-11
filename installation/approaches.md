@@ -57,7 +57,7 @@ Apart from the described steps in the getting started guides, you can also use a
 
 No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net6` and `Binaries/Net7` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need. To manually reference the assemblies, add them to the `Packages` folders of the corresponding platforms inside the .NET MAUI project.
 
-![.NET MAUI Platforms Packages folders](images/platforms-packages.png)
+![.NET MAUI Platforms Packages folders](../images/telerik-ui-for-maui-installation-folder.png)
 
 >important As some of the controls included in Telerik UI for .NET MAUI suite rely on the SkiaSharp rendering library, you must also install the `SkiaSharp.Views.Maui.Controls.Compatibility` NuGet package.
 
