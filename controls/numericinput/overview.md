@@ -33,7 +33,7 @@ slug: numericinput-overview
 
 ## See also
 
-- [.NET MAUI NumericInput product page](https://www.telerik.com/maui-ui/numericinput)
-- [.NET MAUI NumericInput forum page](https://www.telerik.com/forums/maui?tagId=1830)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI NumericInput Product Page](https://www.telerik.com/maui-ui/numericinput)
+- [.NET MAUI NumericInput Forum Page](https://www.telerik.com/forums/maui?tagId=1830)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

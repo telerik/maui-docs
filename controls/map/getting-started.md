@@ -6,7 +6,7 @@ position: 1
 slug: map-getting-started
 ---
 
-# Getting Started with .NET MAUI Map
+# Getting Started with the .NET MAUI Map
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Map by adding the control to your project.
 
@@ -49,10 +49,10 @@ Before adding the Map, you need to:
 
 ## Additional Resources
 
-- [.NET MAUI Map product page](https://www.telerik.com/maui-ui/map)
-- [.NET MAUI Map forum page](https://www.telerik.com/forums/maui?tagId=1870)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Map Product Page](https://www.telerik.com/maui-ui/map)
+- [.NET MAUI Map Forum Page](https://www.telerik.com/forums/maui?tagId=1870)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

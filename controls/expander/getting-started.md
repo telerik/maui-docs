@@ -6,7 +6,7 @@ position: 1
 slug: expander-getting-started
 ---
 
-# Getting Started with .NET MAUI Expander
+# Getting Started with the .NET MAUI Expander
 
 This article will guide you through the steps needed to add a basic `RadExpander` control in your application.
 
@@ -71,10 +71,10 @@ Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.U
 
 ## Additional Resources
 
-- [.NET MAUI Expander product page](https://www.telerik.com/maui-ui/expander)
-- [.NET MAUI Expander forum page](https://www.telerik.com/forums/maui?tagId=1980)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Expander Product Page](https://www.telerik.com/maui-ui/expander)
+- [.NET MAUI Expander Forum Page](https://www.telerik.com/forums/maui?tagId=1980)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

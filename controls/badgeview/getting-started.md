@@ -6,7 +6,7 @@ position: 2
 slug: badgeview-getting-started
 ---
 
-# Getting Started with .NET MAUI BadgeView control
+# Getting Started with the .NET MAUI BadgeView control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI BadgeView by adding the control to your project.
 
@@ -50,10 +50,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI BadgeView product page](https://www.telerik.com/maui-ui/badgeview)
-- [.NET MAUI BadgeView forum page](https://www.telerik.com/forums/maui?tagId=1900)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI BadgeView Product Page](https://www.telerik.com/maui-ui/badgeview)
+- [.NET MAUI BadgeView Forum Page](https://www.telerik.com/forums/maui?tagId=1900)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 
 ## See Also

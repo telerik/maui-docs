@@ -7,7 +7,7 @@ previous_url: /controls/wraplayout/wraplayout-getting-started
 slug: wraplayout-getting-started
 ---
 
-# Getting Started with .NET MAUI WrapLayout
+# Getting Started with the .NET MAUI WrapLayout
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI WrapLayout by adding the control to your project.
 
@@ -67,10 +67,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  
 ## Additional Resources
 
-- [.NET MAUI WrapLayout product page](https://www.telerik.com/maui-ui/wraplayout)
-- [.NET MAUI WrapLayout forum page](https://www.telerik.com/forums/maui?tagId=1831)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI WrapLayout Product Page](https://www.telerik.com/maui-ui/wraplayout)
+- [.NET MAUI WrapLayout Forum Page](https://www.telerik.com/forums/maui?tagId=1831)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

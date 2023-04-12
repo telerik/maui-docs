@@ -7,7 +7,7 @@ previous_url: /controls/datepicker/datepicker-getting-started
 slug: datepicker-getting-started
 ---
 
-# Getting Started with .NET MAUI DatePicker
+# Getting Started with the .NET MAUI DatePicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DatePicker by adding the control to your project.
 
@@ -65,16 +65,16 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI DatePicker product page](https://www.telerik.com/maui-ui/datepicker)
-- [.NET MAUI DatePicker forum page](https://www.telerik.com/forums/maui?tagId=1853)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)
+- [.NET MAUI DatePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 
 ## See Also
 
-- [Formatting]({%slug datepicker-formatting%})
-- [Date Range]({%slug datepicker-date-range%})
-- [Templates]({%slug datepicker-templates%})
-- [Selection]({%slug datepicker-selection%})
-- [Styling]({%slug datepicker-styling%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [Setting Date Ranges in the .NET MAUI DatePicker]({%slug datepicker-date-range%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})
