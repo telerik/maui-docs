@@ -4,7 +4,7 @@ page_title: Windows .NET MAUI System Requirements
 description: Learn what system requirements you need to provide when using any of the installation approaches for the Telerik UI for .NET MAUI library on Windows.
 slug: system-requirements
 position: 1
-previous_url: /installation/system-requirements
+previous_url: /installation/system-requirements, /installation/windows/getting-started-windows
 ---
 
 # System Requirements for Windows
