@@ -6,7 +6,7 @@ position: 1
 slug: accordion-getting-started
 ---
 
-# Getting Started with .NET MAUI Accordion control
+# Getting Started with the .NET MAUI Accordion control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Accordion by adding the control to your project.
 
@@ -70,10 +70,10 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [.NET MAUI Accordion product page](https://www.telerik.com/maui-ui/accordion)
-- [.NET MAUI Accordion forum page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Accordion Product Page](https://www.telerik.com/maui-ui/accordion)
+- [.NET MAUI Accordion Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

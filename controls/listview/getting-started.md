@@ -7,7 +7,7 @@ previous_url: /controls/listview/listview-getting-started
 slug: listview-getting-started
 ---
 
-# Getting Started with .NET MAUI ListView
+# Getting Started with the .NET MAUI ListView
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.
 
@@ -90,10 +90,10 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [.NET MAUI ListView product page](https://www.telerik.com/maui-ui/listview)
-- [.NET MAUI ListView forum page](https://www.telerik.com/forums/maui?tagId=1829)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI ListView Product Page](https://www.telerik.com/maui-ui/listview)
+- [.NET MAUI ListView Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

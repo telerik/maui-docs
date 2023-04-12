@@ -2,44 +2,46 @@
 title: Selection
 page_title: .NET MAUI DatePicker Documentation - Selection
 description: Check our &quot;Selection&quot; documentation article for Telerik DatePicker for .NET MAUI.
-position: 5
+position: 6
 previous_url: /controls/datepicker/datepicker-selection
 slug: datepicker-selection
 ---
 
 # .NET MAUI DatePicker Selection
 
-The DatePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
+The Telerik UI for .NET MAUI DatePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
 
-## Date Property
+## Setting the Current Date Selection
 
-The `Date`(`DateTime?`) property defines the current date selection. Its default value is `null`.
+To define the current date selection, use the `Date`(`DateTime?`) property. By default, `Date` is `null`.
 
-The following example demonstrates how to set the `Date` property.
+1. Define the DatePicker and set the `Date` property.
 
-```XAML
+ ```XAML
 <telerik:RadDatePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>
-```
+ ```
 
-In addition to this, you need to add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```
 
-## Clear Button
+## Clearing the Selection through UI
 
-You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the DatePicker:
+You can enable the removal of the selected value by rendering a **Clear** button through the `IsClearButtonVisible` property of the DatePicker:
 
  ```XAML
 <telerik:RadDatePicker Date="2020,05,15"
                             IsClearButtonVisible="True" />
  ```
 
-## Methods
+## Clearing the Selection Programmatically
 
-The DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method:
+The DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method.
+
+1. Define the DatePicker and set the method:
 
  ```XAML
 <StackLayout>
@@ -48,48 +50,49 @@ The DatePicker for .NET MAUI allows you to clear the selected date through its `
 </StackLayout>
  ```
 
-In addition to this, you need to add the following namespace:
+1. Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
+1. Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
 
-```C#
+ ```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.datePicker.ClearSelection();
 }
-```
+ ```
 
-## Events
+## Modifying the Selection
 
 The DatePicker exposes a `SelectionChanged` event, which is raised when the user picks a date value.
 
-The following example demonstrates how to use `SelectionChanged`.
+1. Set the `SelectionChanged` event.
 
  ```XAML
 <telerik:RadDatePicker SelectionChanged="RadDatePicker_SelectionChanged"/>
  ```
 
-In addition to this, you need to add the following namespace:
+1. Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-Add the `SelectionChanged` event, where the `sender` is the `RadDatePicker` instance.
+1. Add the `SelectionChanged` event, where the `sender` is the `RadDatePicker` instance.
 
-```C#
+ ```C#
 private void RadDatePicker_SelectionChanged(object sender, EventArgs e)
 {
-	// implement your logic here
+	// Implement your logic here.
 }
-```
+ ```
 
 ## See Also
 
-- [Default Dates]({%slug datepicker-default-dates%})
-- [Commands]({% slug datepicker-commands%})
-- [Templates]({% slug datepicker-templates%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)

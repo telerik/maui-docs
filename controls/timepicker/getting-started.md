@@ -7,7 +7,7 @@ previous_url: /controls/timepicker/timepicker-getting-started
 slug: timepicker-getting-started
 ---
 
-# Getting Started with .NET MAUI TimePicker
+# Getting Started with the .NET MAUI TimePicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TimePicker by adding the control to your project.
 
@@ -66,10 +66,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI TimePicker product page](https://www.telerik.com/maui-ui/timepicker)
-- [.NET MAUI TimePicker forum page](https://www.telerik.com/forums/maui?tagId=1850)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TimePicker Product Page](https://www.telerik.com/maui-ui/timepicker)
+- [.NET MAUI TimePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1850)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

@@ -31,7 +31,7 @@ slug: templatedpicker-overview
 
 ## See Also
 
-- [.NET MAUI TemplatedPicker product page](https://www.telerik.com/maui-ui/templatedpicker)
-- [.NET MAUI TemplatedPicker forum page](https://www.telerik.com/forums/maui?tagId=1854)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TemplatedPicker Product Page](https://www.telerik.com/maui-ui/templatedpicker)
+- [.NET MAUI TemplatedPicker Forum Page](https://www.telerik.com/forums/maui?tagId=1854)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

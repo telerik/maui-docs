@@ -6,7 +6,7 @@ position: 1
 slug: autocomplete-getting-started
 ---
 
-# Getting Started with .NET MAUI AutoComplete control
+# Getting Started with the .NET MAUI AutoComplete control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI AutoComplete by adding the control to your project.
 
@@ -70,10 +70,10 @@ Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.U
 
 ## Additional Resources
 
-- [.NET MAUI AutoComplete product page](https://www.telerik.com/maui-ui/autocomplete)
-- [.NET MAUI AutoComplete forum page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI AutoComplete Product Page](https://www.telerik.com/maui-ui/autocomplete)
+- [.NET MAUI AutoComplete Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

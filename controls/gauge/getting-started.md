@@ -7,7 +7,7 @@ previous_url: /controls/gauge/gauge-getting-started
 slug: gauge-getting-started
 ---
 
-# Getting Started with .NET MAUI Gauge
+# Getting Started with the .NET MAUI Gauge
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Gauge by adding the control to your project.
 
@@ -64,10 +64,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [.NET MAUI Gauge product page](https://www.telerik.com/maui-ui/gauge)
-- [.NET MAUI Gauge forum page](https://www.telerik.com/forums/maui?tagId=1781)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Gauge Product Page](https://www.telerik.com/maui-ui/gauge)
+- [.NET MAUI Gauge Forum Page](https://www.telerik.com/forums/maui?tagId=1781)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

@@ -29,8 +29,8 @@ position: 0
 
 ## See Also
 
-- [.NET MAUI TabView product page](https://www.telerik.com/maui-ui/tabview)
-- [.NET MAUI TabView forum page](https://www.telerik.com/forums/maui?tagId=1871)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TabView Product Page](https://www.telerik.com/maui-ui/tabview)
+- [.NET MAUI TabView Forum Page](https://www.telerik.com/forums/maui?tagId=1871)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

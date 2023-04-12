@@ -20,7 +20,7 @@ Before you start with the installation of Telerik UI for .NET MAUI, make sure yo
 
 Telerik UI for .NET MAUI provides the following approaches to download the library:
 
-* [Using the Telerik UI for .NET MAUI product page](#from-the-product-page)
+* [Using the Telerik UI for .NET MAUI Product Page](#from-the-product-page)
 * [Downloading with your Telerik account](#with-your-telerik-account)
 
 ### Using the Product Page
