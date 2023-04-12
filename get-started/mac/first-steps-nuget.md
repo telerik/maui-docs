@@ -39,19 +39,19 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
 Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet feed. To use the available packages, you need to have an active Telerik account and to authenticate.
 
-1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose `Manage NuGet Packages`.
+1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose **Manage NuGet Packages**.
 
   ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](../../installation/images/open-manage-nuget-packages-mac.png)
 
-1. Choose `Configure Source` option from the dropdown in the lower left corner.
+1. Choose the **Configure Source** option from the drop-down in the lower left corner.
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-configure-sources.png)
 
-1. On the next dialog you can see all the available sources. Choose `Add` to add the new server.
+1. On the next dialog you can see all the available sources. Choose **Add** to add the new server.
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-add-package-source.png)
 
-1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Update**.
+1. In the **Location** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Add Source**.
 
   Note that the [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster, more lightweight, and also reduces the number of requests from NuGet clients.
 
@@ -66,7 +66,7 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 1. Select the Telerik NuGet server as a package source and enter your credentials when prompted.
 1. Search for the `Telerik.UI.for.Maui` package and select it.
 1. Choose the projects which require the package.
-1. Select the desired version and click **Install**.
+1. Select the desired version and click **Add Package**.
 
 ![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/telerik-maui-nuget-mac.png)
 

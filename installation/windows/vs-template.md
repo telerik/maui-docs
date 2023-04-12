@@ -66,8 +66,6 @@ The following image shows the end result after running the application.
 ## See Also
 
 * [MS Docs Get Started: Build you first app](https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-android)
-## See Also
-
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})

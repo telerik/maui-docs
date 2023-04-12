@@ -43,7 +43,7 @@ Now, you are all set to start with the installation on your machine from the App
 
 1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. As a result, the file will automatically install Telerik UI for .NET MAUI on your Mac.
 
-	For more information about the file included in the **Installation** folder, go to the [list of options and product files]({% slug download-product-files %}#list-of-options-and-product-files).
+	For more information about the file included in the `Installation` folder, go to the [list of options and product files]({% slug download-product-files %}#list-of-options-and-product-files).
 
 	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../../images/installation-macos.png)
 
