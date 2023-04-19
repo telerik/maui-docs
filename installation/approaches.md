@@ -3,7 +3,6 @@ title: Installation Approaches
 page_title: Ways to Install Telerik UI for .NET MAUI
 description: Learn more about the available approaches to install the Telerik UI for .NET MAUI product files, assemblies, and controls on Windows and macOS by using the MSI or PKG files, or the Telerik NuGet server.
 slug: installation-approaches
-previous_url: /installation/install-nuget
 position: 2
 ---
 
