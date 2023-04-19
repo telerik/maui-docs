@@ -1,14 +1,14 @@
 ---
 title: Load On Demand
 page_title: .NET MAUI DataGrid Documentation - Load on Demand
-description: Check our &quot;Load On Demand&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 8
+description:
+position: 14
 slug: datagrid-features-loadondemand
 ---
 
 # .NET MAUI DataGrid Load On Demand
 
-In specific cases you may need to load data in the `RadDataGrid` when the control is already displayed as this can improve the performance and save computing resources. Loading a large data set on a mobile device has its challenges. One of the most popular approaches is using incremental data loading the moment the items need to be visualized.
+In specific cases you may need to load data in the `RadDataGrid` when the Telerik UI for .NET MAUI DataGrid control is already displayed as this can improve the performance and save computing resources. Loading a large data set on a mobile device has its challenges. One of the most popular approaches is using incremental data loading the moment the items need to be visualized.
 
 ## Modes
 
@@ -97,7 +97,15 @@ The following example shows how to set the property:
 
 ![DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
 
+## Additional Resources
+
+- [Grouping in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-grouping-overview%})
+- [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+
 ## See Also
 
-* [DataGrid Grouping]({%slug datagrid-grouping-overview%})
-* [DataGrid Sorting]({%slug datagrid-sorting-overview%})
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

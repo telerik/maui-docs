@@ -1,14 +1,14 @@
 ---
 title: Sorting
 page_title: .NET MAUI DataGrid Documentation - Sorting
-description: Check our &quot;Sorting&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 4
+description:
+position: 6
 slug: datagrid-sorting-overview
 ---
 
 # .NET MAUI DataGrid Sorting
 
-The DataGrid provides a built-in sorting functionality which allows the user to order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
+The Telerik UI for .NET MAUI DataGrid provides a built-in sorting functionality which allows the user to order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
 
 ## Sorting through the UI
 
@@ -78,9 +78,16 @@ Here is how the DataGrid looks when sorting is applied:
 ![DataGrid Sorting](images/datagrid_sorting.png)
 
 
+## Additional Resources
+
+- [Setting the Telerik UI for .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
+- [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+
 ## See Also
 
-- [Columns]({%slug datagrid-columns-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Filtering]({%slug datagrid-filtering-overview%})
-- [Selection]({%slug datagrid-selection-overview%})
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

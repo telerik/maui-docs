@@ -2,14 +2,14 @@
 title: Scrolling
 page_title: .NET MAUI DataGrid Documentation - Scrolling
 description: "Try now the Telerik UI for .NET MAUI DataGrid programmatic scrolling with the ScrollItemIntoView method."
-position: 9
+position: 8
 slug: datagrid-scrolling
 tags: programmatic, scrolling
 ---
 
 # .NET MAUI DataGrid Scrolling
 
-The DataGrid has an internall scrolling mechanism. There are vertical and horizontal scrollbars for scrolling through the data in the DataGrid. 
+The Telerik UI for .NET MAUI DataGrid has an internall scrolling mechanism. There are vertical and horizontal scrollbars for scrolling through the data in the DataGrid.
 
 >important Avoid nesting the DataGrid in a ScrollView and other controls that provide scrolling.
 
@@ -31,8 +31,17 @@ private void Button_Clicked(object sender, System.EventArgs e)
 
 ![DataGrid Programmatic Scrolling](images/datagrid-scrollintoview.gif)
 
+## Additional Resources
+
+- [Setting the Telerik UI for .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
+- [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
+- [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+
 ## See Also
 
-- [Selection]({%slug datagrid-selection-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

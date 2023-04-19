@@ -1,14 +1,14 @@
 ---
 title: Selection
 page_title: .NET MAUI DataGrid Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 3
+description:
+position: 7
 slug: datagrid-selection-overview
 ---
 
 # Selection in .NET MAUI DataGrid
 
-The DataGrid exposes a selection feature which enables users to select a cell or a row by clicking (tapping) on it. To cancel the selection, users can click the cell or the row again. The control provides a single and multiple selection feature.
+The Telerik UI for .NET MAUI DataGrid exposes a selection feature which enables users to select a cell or a row by clicking (tapping) on it. To cancel the selection, users can click the cell or the row again. The control provides a single and multiple selection feature.
 
 This article explains the basic properties and methods that the DataGrid provides for working with selection.
 
@@ -162,7 +162,15 @@ this.dataGrid.SelectCell(new DataGridCellInfo(firstMarketingCell, this.dataGrid.
 this.dataGrid.SelectAll();
  ```
 
+## Additional Resources
+
+- [Grouping in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-grouping-overview%})
+- [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+
 ## See Also
 
-* [DataGrid Sorting]({%slug datagrid-sorting-overview%})
-* [DataGrid Commands]({%slug datagrid-commands-overview%})
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

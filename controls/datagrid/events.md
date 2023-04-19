@@ -1,76 +1,84 @@
 ---
 title: Events
 page_title: .NET MAUI DataGrid Documentation - Events
-description: Check our &quot;Events&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 9
+description:
+position: 13
 slug: datagrid-events
-description: Describing the events of the RadDataGrid
 tags: events
 ---
 
 # .NET MAUI DataGrid Events
 
-The DataGrid component exposes a set of events.
+The Telerik UI for .NET MAUI DataGrid component exposes a set of events which help users achieve seamless and effective experience when interacting with the component.  
 
-* `LoadOnDemand`&mdash; Occurs when the load on demand is requested. The `LoadOnDemand` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `LoadOnDemandEventArgs` object, which provides the following property:
-		- `IsDataLoaded`(`bool`)&mdash; Indicating whether the data is loaded.
+## Loading Content on Demand
 
-For more information about LoadOnDemand event review the [DataGrid LoadOnDemand article]({%slug datagrid-features-loadondemand%}).
+The load-on-demand feature gets implemented through the `LoadOnDemand` event. The `LoadOnDemand` event handler receives the following parameters:
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `LoadOnDemandEventArgs` object, which provides the `IsDataLoaded` (`bool`) property, indicating whether the data is loaded.
 
+For more information, see the topic about [loading data on demand in the .NET MAUI DataGrid]({%slug datagrid-features-loadondemand%}).
 
-* `DistinctValuesLoading`&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
-		- `DistinctValues`&mdash; Is a property which specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
-		- `Column`&mdash; Is a readonly property of type `DataGridColumn` which gets the column for which the distinct values are being loaded.
+The following example demonstrates how to use the `LoadOnDemand` event.
 
-For more information about Filtering options in DataGrid review the [DataGrid Filtering article]({%slug datagrid-filtering-overview%}).
-
-
-* `DataBindingComplete`&mdash;Occurs when the associated DataGrid data(`ItemsSource`) has been successfully bound to the control or any data operation like Group, Sort or filter is applied.
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `DataBindingCompleteEventArgs` object, which provides the following property:
-		- `DataView`(`IDataViewCollection`)&mdash;Implementation that allows for traversing and/or manipulating the already computed data view.
-
-
-* `SelectionChanged` event is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
-		- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
-		- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
-
-For more information about `SelectionChanged` event review the [DataGrid Selection article]({%slug datagrid-selection-overview%}).
-
-
-* `CurrentCellChanged` event is invoked when the current cell changes. The `CurrentCellChanged` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
-		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
-		- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
-
-For more information about `CurrentCellChanged` event review the [DataGrid Current Cell article]({%slug datagrid-current-cell%}).
-
-
-## Example
-
-The following example demonstrates the usage of the `LoadOnDemand` event.
-
-Define the LoadOnDemand method in XAML:
+**1.** Define the `LoadOnDemand` method in XAML.
 
 <snippet id ='datagrid-loadondemand-event-xaml'/>
 
-Create the method defining the functionality of the event:
+**2.** Create the method that defines the functionality of the event.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
 
+## Loading Distinct Values
+
+The DataGrid enables you to load the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView` through the `DistinctValuesLoading` event. The `DistinctValuesLoading` event handler receives the following parameters:
+
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
+	- `DistinctValues`&mdash;Specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
+	- (Read-only) `Column` of type `DataGridColumn`&mdash;Gets the column for which the distinct values are being loaded.
+
+For more information, see the topic about the [available filtering options in the .NET MAUI DataGrid]({%slug datagrid-filtering-overview%}).
+
+## Binding to Data
+
+The DataGrid also provides the `DataBindingComplete` event which occurs when the associated DataGrid `ItemsSource` has been successfully bound to the control, or when any data operation like grouping, sorting, or filtering is applied. The `DataBindingComplete` event handler receives the following parameters:
+
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `DataBindingCompleteEventArgs` object, which provides the `DataView` (`IDataViewCollection`) property and allows for traversing and/or manipulating the already computed data view.
+
+## Modifying Group Selections
+
+The DataGrid delivers the `SelectionChanged` event which is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives the following parameters:
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
+	- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
+	- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
+
+For more information, see the article about the [`SelectionChanged` event of the .NET MAUI DataGrid]({%slug datagrid-selection-overview%}).
+
+## Changing the Current Cell
+
+The DataGrid also supports the `CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives the following parameters:
+
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `CurrentCellChangedEventArgs` object, which provides the following properties:
+	- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
+	- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
+
+For more information, see the article about the [`CurrentCellChanged` event in the .NET MAUI DataGrid]({%slug datagrid-current-cell%}).
+
+## Additional Resources
+
+- [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
+- [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
+- [Using the DataGrid Commands]({%slug datagrid-aggregates%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
+
 ## See Also
 
- - [Filtering]({%slug datagrid-filtering-overview%})
- - [Grouping]({%slug datagrid-grouping-overview%})
- - [Selection]({%slug datagrid-selection-overview%})
- - [Load On Demand]({%slug datagrid-features-loadondemand%})
- - [Sorting]({%slug datagrid-sorting-overview%})
- - [Row Height]({%slug datagrid-row-height%})
- - [Editing]({%slug datagrid-editing%})
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
