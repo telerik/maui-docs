@@ -39,7 +39,7 @@ The following table lists the API reference calls you need to update when migrat
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
+* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
 - [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)
-- [.NET MAUI DatePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
+- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

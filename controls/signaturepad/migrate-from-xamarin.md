@@ -10,14 +10,14 @@ slug: signaturepad-migrate-from-xamarin
 
 Overall, Telerik .NET MAUI SignaturePad control preserves the same API as Xamarin.Forms SignaturePad with a few changes and improvements listed in the table below:
 
-## Migrate Namespaces
+## Migrating the Namespaces
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin SignaturePad | `RadSignaturePad` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI SignaturePad | `RadSignaturePad` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
-## API Changes
+## Modifying the API
 
 | Xamarin SignaturePad | .NET MAUI SignaturePad |
 | ------------- | --------------- |
@@ -26,5 +26,7 @@ Overall, Telerik .NET MAUI SignaturePad control preserves the same API as Xamari
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
+* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+- [.NET MAUI SignaturePad Product Page](https://www.telerik.com/maui-ui/signaturepad)
+- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

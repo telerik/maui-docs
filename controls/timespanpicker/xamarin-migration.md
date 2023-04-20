@@ -11,7 +11,7 @@ position: 20
 
 The Telerik UI for .NET MAUI TimeSpanPicker preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
-## Migrate Namespaces
+## Migrating the Namespaces
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
@@ -19,7 +19,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker preserves the same API as its Xamari
 | .NET MAUI TimeSpanPicker | `RadTimeSpanPicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | using Telerik.Maui.Controls; |
 
 
-## API Changes
+## Modifying the API
 
 | Xamarin TimeSpanPicker | .NET MAUI TimeSpanPicker |
 | ------------- | --------------- |
@@ -35,5 +35,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker preserves the same API as its Xamari
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
+* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+- [.NET MAUI TimeSpanPicker Product Page](https://www.telerik.com/maui-ui/timespanpicker)
+- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
