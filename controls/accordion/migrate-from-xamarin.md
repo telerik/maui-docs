@@ -1,8 +1,8 @@
 ---
-title: Migrate from Xamarin.Forms
-page_title: .NET MAUI Accordion Documentation - Migrate from Xamarin
-description: "Learn how to migrate from Xamarin.Forms Accordion to .NET MAUI Accordion control."
-position: 1
+title: Migrating from Xamarin
+page_title: Migrating the Accordion from Xamarin.Forms to .NET MAUI
+description: "Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+position: 20
 slug: accordion-migrate-from-xamarin
 ---
 
@@ -14,7 +14,7 @@ Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Acco
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin Accordion | `RadAccordion` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; | 
+| Xamarin Accordion | `RadAccordion` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI Accordion | `RadAccordion` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
@@ -28,4 +28,3 @@ Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Acco
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
-

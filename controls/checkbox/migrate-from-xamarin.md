@@ -1,8 +1,8 @@
 ---
-title: Migrate from Xamarin.Forms
-page_title: .NET MAUI CheckBox Documentation - Migrate from Xamarin
-description: "Learn how to migrate from Xamarin.Forms CheckBox to .NET MAUI CheckBox control."
-position: 1
+title: Migrating from Xamarin
+page_title: Migrating the CheckBox from Xamarin.Forms to .NET MAUI
+description: "Learn how to migrate the Telerik UI for Xamarin CheckBox to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+position: 20
 slug: checkbox-migrate-from-xamarin
 ---
 
@@ -14,7 +14,7 @@ Overall, Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Fo
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin CheckBox | `RadCheckBox` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; | 
+| Xamarin CheckBox | `RadCheckBox` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI CheckBox | `RadCheckBox` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
@@ -28,4 +28,3 @@ Overall, Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Fo
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
-

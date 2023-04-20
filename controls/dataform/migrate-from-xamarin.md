@@ -1,5 +1,5 @@
 ---
-title: Migrate from Xamarin.Forms
+title: Migrating from Xamarin
 page_title: .NET MAUI DataForm Documentation - Migrate from Xamarin
 description: "Learn how to migrate from Xamarin.Forms DataForm to .NET MAUI DataForm control."
 position: 2
@@ -14,7 +14,7 @@ Overall, Telerik .NET MAUI DataForm control is a complete new control with new A
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin DataForm | `RadDataForm` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| Xamarin DataForm | `RadDataForm` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI DataForm | `RadDataForm` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
@@ -37,7 +37,7 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 | `FormValidationCompleted` | `ValidationCompleted` |
 | `PropertyValidationCompleted` | `EditorValidationCompleted` |
 | Commit modes - `Immediate`, `OnLostFocus`, `Manual` | Commit modes - `PropertyChanged`(immediate), `LostFocus`, `Explicit`(manual) |
-| `CommitAll` | `CommitChanges` | 
+| `CommitAll` | `CommitChanges` |
 | `CommitProperty` | `CommitChanges(string propertyName)` |
 | - | `CancelChanges` |
 | - | `CancelChanges(string propertyName)` |
@@ -50,7 +50,7 @@ Compared API changes in Xamarin.Forms DataForm and .NET MAUI DataForm are descri
 
 ## Editors
 
-Telerik Xamarin.Forms DataForm control uses native editors while in the .NET MAUI DataForm editors the main controls used are from Telerik .NET MAUI and .NET MAUI. 
+Telerik Xamarin.Forms DataForm control uses native editors while in the .NET MAUI DataForm editors the main controls used are from Telerik .NET MAUI and .NET MAUI.
 
 Compared editors are displayed in the table below:
 

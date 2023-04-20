@@ -1,10 +1,10 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the TemplatedPicker from Xamarin.Forms to .NET MAUI
-description: "Learn how to migrate the Telerik UI for Xamarin TemplatedPicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
+description: "Learn how to migrate the Telerik UI for Xamarin TemplatedPicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-templatedpicker-to-maui
-position: 2
+position: 20
 ---
 
 # Migrating the TemplatedPicker from Xamarin to .NET MAUI
@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI TemplatedPicker preserves the same API as its Xamar
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin TemplatedPicker | `RadTemplatedPicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| Xamarin TemplatedPicker | `RadTemplatedPicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI TemplatedPicker | `RadTemplatedPicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 

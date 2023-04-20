@@ -1,12 +1,12 @@
 ---
-title: Migrate from Xamarin.Forms
-page_title: .NET MAUI MaskedEntry Documentation - Migrate from Xamarin
-description: "Learn how to migrate from Xamarin.Forms MaskedInput to .NET MAUI MaskedEntry control."
-position: 1
+title: Migrating from Xamarin
+page_title: Migrating the MaskedInput from Xamarin.Forms to .NET MAUI
+description: "Learn how to migrate the Telerik UI for Xamarin MaskedInput to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+position: 20
 slug: maskedentry-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms MaskedInput to .NET MAUI MaskedEntry
+# Migrating the MaskedInput from Xamarin to .NET MAUI
 
 Overall, Telerik .NET MAUI MaskedEntry control is a complete new control with new API, improvements and flexible styling mechanisum implemented.
 
@@ -14,7 +14,7 @@ Overall, Telerik .NET MAUI MaskedEntry control is a complete new control with ne
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin MaskedInput | `RadMaskedInput` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| Xamarin MaskedInput | `RadMaskedInput` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI MaskedEntry | `RadMaskedEntry` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
@@ -42,4 +42,3 @@ Compared API changes in Xamarin.Forms MaskedInput and .NET MAUI MaskedEntry are 
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
-

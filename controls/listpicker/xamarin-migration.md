@@ -4,7 +4,7 @@ page_title: Migrating the ListPicker from Xamarin.Forms to .NET MAUI
 description: "Learn how to migrate the Telerik UI for Xamarin ListPicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-listpicker-to-maui
-position: 2
+position: 20
 ---
 
 # Migrating the ListPicker from Xamarin to .NET MAUI
@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI ListPicker preserves the same API as its Xamarin co
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin ListPicker | `RadListPicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| Xamarin ListPicker | `RadListPicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI ListPicker | `RadListPicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 

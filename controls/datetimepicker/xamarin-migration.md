@@ -4,7 +4,7 @@ page_title: Migrating the DateTimePicker from Xamarin.Forms to .NET MAUI
 description: "Learn how to migrate the Telerik UI for Xamarin DateTimePicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-datetimepicker-to-maui
-position: 2
+position: 20
 ---
 
 # Migrating the DateTimePicker from Xamarin to .NET MAUI
@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI DateTimePicker preserves the same API as its Xamari
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin DateTimePicker | `RadDateTimePicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| Xamarin DateTimePicker | `RadDateTimePicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI DateTimePicker | `RadDateTimePicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
