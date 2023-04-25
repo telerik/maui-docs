@@ -1,34 +1,45 @@
 ---
 title: Sorting
 page_title: .NET MAUI DataGrid Documentation - Sorting
-description:
+description: "Learn how to implement the sorting functionality of the Telerik UI for .NET MAUI DataGrid through the UI or by using programmatic sorting over a custom or a defined key which is a property from the model."
 position: 6
 slug: datagrid-sorting-overview
 ---
 
 # .NET MAUI DataGrid Sorting
 
-The Telerik UI for .NET MAUI DataGrid provides a built-in sorting functionality which allows the user to order the view of the data the control represents. Sorting the control is possible both through the UI and programmatically.
+The Telerik UI for .NET MAUI DataGrid provides a built-in sorting functionality which allows the user to order the view of the presented data and which is available to implement both through the UI and programmatically.
 
 ## Sorting through the UI
 
-* Sort through the UI by clicking or tapping the column header. `UserSortMode` defines how user input (column header tap/click) affects the current sort state of the grid. The available options are `Auto`, `Multiple`, `None`, and `Single`. The default value of the `UserSortMode` is `Auto`.
+To sort through the UI, click or tap the column header. `UserSortMode` defines how the user input, such as tapping or clicking the column header, affects the current sort state of the DataGrid.
 
-The `CanUserSort` (bool) property is used to enable or disable the sorting of a specific column. It defines a value indicating whether the user can sort the data by the values in the column.
+The DataGrid provides the following options:
+
+* (Default) `Auto`
+* `Multiple`
+* `None`
+* `Single`
+
+You can also enable or disable the sorting of a specific column and define a value which indicates whether the user can sort the data by the column values by using the `CanUserSort` (bool) property.
 
 ## Programmatic Sorting
 
-The DataGrid provides two ways of programmatic sorting:
+To sort the DataGrid programmatically, use either of the following approaches:
 
-* By a property with a [PropertySortDescriptor](#property-sort-descriptor)
-* By a custom key with a [DelegateSortDescriptor](#delegate-sort-descriptor)
+* Sort by a property with the [`PropertySortDescriptor`](#property-sort-descriptor)
+* Sort by a custom key with the [`DelegateSortDescriptor`](#delegate-sort-descriptor)
 
-### Property Sort Descriptor
+### Sorting by Properties
 
-You can sort the data in a DataGrid by pointing a property from the class that defines your objects. This can be achieved with a `PropertySortDescriptor` and setting its `PropertyName` property. The descriptor exposes the following important properties:
+You can sort the data in a DataGrid by pointing a property from the class that defines your objects. To achieve this scenario, use the `PropertySortDescriptor` and set its `PropertyName` property.
+
+The descriptor exposes the following important properties:
 
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the key to sort by.
 * `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
+
+The following snippet shows how to set the `PropertySortDescriptor`.
 
 ```XAML
 <telerik:RadDataGrid.SortDescriptors>
@@ -36,22 +47,22 @@ You can sort the data in a DataGrid by pointing a property from the class that d
 </telerik:RadDataGrid.SortDescriptors>
 ```
 
-The `telerik` namespace is defined as:
+Then, define the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-### Delegate Sort Descriptor
+### Sorting by Custom Keys
 
-The difference between the `DelegateSortDescriptor` and the `PropertySortDescriptor` is that the `DelegateSortDescriptor` sorts data by a custom key, while the `PropertySortDescriptor` sorts by a defined key, which is a property from the model.
+The difference between the `DelegateSortDescriptor` and the `PropertySortDescriptor` is that the `DelegateSortDescriptor` sorts the data by a custom key, while the `PropertySortDescriptor` sorts the data by a defined key, which is a property from the model.
 
-It exposes the following properties:
+The `DelegateSortDescriptor` exposes the following properties:
 
 * `KeyLookup`&mdash;Gets or sets the `IKeyLookup` instance that is used to retrieve the sort key for each data item.
 * `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
 
-To use a `DelegateSortDescriptor`, you need to create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, you need to add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookUp` property.
+To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookUp` property.
 
 The following example demonstrates a custom `IKeyLookup` implementation.
 
@@ -73,10 +84,9 @@ Add it to the `GroupDescriptors` collection of the DataGrid:
 this.dataGrid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new CustomIKeyLookup()});
 ```
 
-Here is how the DataGrid looks when sorting is applied:
+The following image shows how the DataGrid looks after sorting is applied:
 
 ![DataGrid Sorting](images/datagrid_sorting.png)
-
 
 ## Additional Resources
 

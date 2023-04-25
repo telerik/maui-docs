@@ -1,16 +1,16 @@
 ---
 title: Localization
 page_title: .NET MAUI DataGrid Documentation - Localization
-description:
+description: "Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI DataGrid."
 position: 40
 slug: datagrid-localization
 ---
 
 # .NET MAUI DataGrid Localization
 
-The Telerik UI for .NET MAUI DataGrid provides localization support. In short, you can translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions.
+The Telerik UI for .NET MAUI DataGrid provides localization support. You can translate the text displayed as a validation error message to other languages, so that your application can be adapted to different cultures.
 
->important For more details about the localization process of Telerik UI for .NET MAUI components, refer to the common [Globalization and Localization]({%slug globalization-localization%}) topic.
+>important For more details about the localization process of Telerik UI for .NET MAUI components, refer to the topic about [common globalization and localization support by Telerik UI for .NET MAUI]({%slug globalization-localization%}).
 
 The table below shows the localization keys available for the DataGrid control and their default values:
 

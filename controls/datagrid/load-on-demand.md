@@ -1,36 +1,38 @@
 ---
 title: Load On Demand
 page_title: .NET MAUI DataGrid Documentation - Load on Demand
-description:
+description: "Learn more about the available modes and approaches to load huge sets of data in the Telerik UI for .NET MAUI DataGrid to improve the performance of the component and save computing resources."
 position: 14
 slug: datagrid-features-loadondemand
 ---
 
 # .NET MAUI DataGrid Load On Demand
 
-In specific cases you may need to load data in the `RadDataGrid` when the Telerik UI for .NET MAUI DataGrid control is already displayed as this can improve the performance and save computing resources. Loading a large data set on a mobile device has its challenges. One of the most popular approaches is using incremental data loading the moment the items need to be visualized.
+The Telerik UI for .NET MAUI DataGrid enables you to improve its performance and save computing resources, by loading data in the `RadDataGrid` when the control is already displayed.
+
+To load a large data set on mobile devices, you can use incremental data loading at the time when the user required the items to be visualized.
 
 ## Modes
 
-The DataGrid offers two loading modes which are present in the `LoadOnDemandMode` enumeration:
+The DataGrid provides the following data-loading modes, which are present in the `LoadOnDemandMode` enumeration:
 
-* `Automatic`&mdash;The load-on-demand mechanism is activated when you scroll down near the last item present in the view port.
+* `Automatic`&mdash;The load-on-demand mechanism is activated when you scroll down near the last item present in the viewport.
 
-  >important You can control when the items will start loading more precisely by setting the `LoadOnDemandBufferItemsCount` property. It indicates at what point the additional items will start loading. For example, setting it to `20` will cause the new items to be loaded when you have scrolled the DataGrid, so that only 20 of the originally loaded items are left below.
+  >important To control when the items will start loading, set the `LoadOnDemandBufferItemsCount` property. It indicates at which point the additional items will start loading. For example, setting it to `20` will cause the new items to be loaded when you have scrolled the DataGrid, so that only 20 of the originally loaded items are left below.
 
 * `Manual`&mdash;A **Load More** button is present at the bottom of the DataGrid. Clicking it will load additional items based on the approach you have chosen for loading the items (through the event, the command, or the collection).
 
 ## Approaches
 
-The DataGrid supports three different options for using its load-on-demand feature. You can choose the most convenient for you based on your application requirements:
+The DataGrid supports the following options for using its load-on-demand feature, depending on your application requirements:
 
- * [Using the LoadOnDemand collection](#loadondemandcollection)
- * [Using the LoadOnDemand event](#loadondemand-event)
- * [Using the LoadMoreData command](#loadmoredata-command)
+ * [Using the `LoadOnDemand` collection](#loadondemand-collection)
+ * [Using the `LoadOnDemand` event](#loadondemand-event)
+ * [Using the `LoadMoreData` command](#loadmoredata-command)
 
-### LoadOnDemandCollection
+### LoadOnDemand Collection
 
-To use this approach, you have to feed the `RadDataGrid` with a collection of type `LoadOnDemandCollection`. It is a generic type, so you need to point the type of objects it will contain. It extends the `ObservableCollection<T>` class and expects a `Func<CancellationToken, IEnumerable>` in the constructor.
+To use this approach, you have to feed the `RadDataGrid` with a collection of type `LoadOnDemandCollection`. `LoadOnDemandCollection` is a generic type, so you need to point the type of objects it will contain. The type extends the `ObservableCollection<T>` class and expects a `Func<CancellationToken, IEnumerable>` in the constructor.
 
 The following example demonstrates a simple setup that shows how to use the collection:
 
@@ -42,7 +44,7 @@ In the example, the `Items` property is declared as follows:
 
 ### LoadOnDemand Event
 
-You can load new items by utilizing the `LoadOnDemand` event. It uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded using the `IsDataLoaded`(`bool`) property.
+You can load new items by utilizing the `LoadOnDemand` event. The event uses `LoadOnDemandEventArgs` arguments through which you need to indicate when the data is loaded by setting the `IsDataLoaded`(`bool`) property.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
 
@@ -62,9 +64,9 @@ Eventually, you need to add this custom command to the `Commands` collection of 
 
 ## Styling
 
-Besides the different approaches for loading the data, `RadDataGrid` exposes several mechanisms related to the styling of the functionality which you can use according to the approach you have chosen.
+Besides the different approaches for loading the data, the DataGrid exposes several mechanisms related to the styling of the functionality which you can use according to the approach you have chosen.
 
-### LoadOnDemandRowStyle
+### Load-More-Button Row
 
 The `LoadOnDemandRowStyle` property can be used to style the appearance of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
@@ -72,16 +74,15 @@ The custom style is of type `DataGridLoadOnDemandRowStyle`:
 
 <snippet id='datagrid-loadondemandrowstyle-xaml'/>
 
-
 You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 <snippet id='datagrid-setting-loadondemandrowstyle-xaml'/>
 
-**Row Appearance after Setting the LoadOnDemandRowStyle**
+>caption Row appearance after setting the LoadOnDemandRowStyle property
 
 ![DataGrid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
 
-### LoadOnDemandRowTemplate
+### Load-More-Button Row Template
 
 The `LoadOnDemandRowTemplate` property can be used to set the template of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
@@ -93,7 +94,7 @@ The following example shows how to set the property:
 
 <snippet id='datagrid-setting-loadondemandrowtemplate-xaml'/>
 
-**Row Appearance after Setting the LoadOnDemandRowTemplate**
+>caption Row appearance after setting the LoadOnDemandRowTemplate
 
 ![DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
 

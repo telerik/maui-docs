@@ -9,17 +9,13 @@ tags: programmatic, scrolling
 
 # .NET MAUI DataGrid Scrolling
 
-The Telerik UI for .NET MAUI DataGrid has an internall scrolling mechanism. There are vertical and horizontal scrollbars for scrolling through the data in the DataGrid.
+The Telerik UI for .NET MAUI DataGrid has an internal scrolling mechanism achieved by the supported vertical and horizontal scrollbars for scrolling through its data.
 
 >important Avoid nesting the DataGrid in a ScrollView and other controls that provide scrolling.
 
-## Programmatic Scrolling
+For implementing programmatic scrolling to a specific item, the DataGrid exposes the `ScrollItemIntoView(object item)` method, which brings the specified data item into view. Note that `ScrollItemIntoView` works in scenarios where the DataGrid Rows are with the same height. For more details, review the article on [setting the .NET MAUI DataGrid rows]({%slug datagrid-row-height%}).
 
-The DataGrid exposes the `ScrollItemIntoView(object item)` method for programmatic scrolling to a specific data item. `ScrollItemIntoView` brings the specified data item into the view.
-
->important The `ScrollItemIntoView` works in scenarios where the DataGrid Rows are with same height. For more details review the [Row Height]({%slug datagrid-row-height%}) article.
-
-An example how to scroll to the last item in the DataGrid. The code executes on a button click:
+The following example shows how to scroll to the last item of the DataGrid. The code executes on a button click.
 
 ```C#
 private void Button_Clicked(object sender, System.EventArgs e)
@@ -28,6 +24,8 @@ private void Button_Clicked(object sender, System.EventArgs e)
     this.grid.ScrollItemIntoView(item);
 }
 ```
+
+The following image shows the end result.
 
 ![DataGrid Programmatic Scrolling](images/datagrid-scrollintoview.gif)
 
