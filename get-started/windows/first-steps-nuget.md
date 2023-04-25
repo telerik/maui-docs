@@ -98,22 +98,6 @@ If you're receiving this error when connecting to Telerik Nuget Server, you coul
 6. Make sure the URL does not have a trailing slash. It must be only be `https://nuget.telerik.com/nuget`
 7. Reopen Visual Studio and access the Telerik NuGet server. 
 
-### Handling Special Characters in Password
-
-If your password contains a special character, those characters need to be escaped or it may fail authentication resulting in *Error 401 login failure* from the NuGet server. A common character that needs to be escaped is the ampersand `&`, but it can be as unique as the section character `§`. There are two ways to handle this.
-
-1. Change the password so that it only includes characters that do not need to be escaped
-2. HTML encode the password so the special characters are escaped (e.g. `my§uper&P@§§word` becomes `my&sect;uper&amp;P@&sect;&sect;word`).
-
-We **strongly** discourage entering your password into an online encoder utility, use Powershell instead. Here's one example:
-
-	Add-Type -AssemblyName System.Web
-	[System.Web.HttpUtility]::HtmlEncode('my§uper&P@§§word')
-
-Result:
-
-![Powershell Encoding](https://user-images.githubusercontent.com/3520532/93901989-13d98200-fcc5-11ea-9d36-0eaee4272453.png)
-
 ### Networking Problems
 
 Another common problem is that your machine (PC or DevOps agent) is behind a proxy. To check if you're experiencing a networking issue, open the following URL in your web browser:
