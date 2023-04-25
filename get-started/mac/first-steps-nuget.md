@@ -76,6 +76,42 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 * [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})
 * [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
 
+## Troubleshooting
+
+This section lists some of the common problems that are observed during NuGet installation.
+
+### Handling Special Characters in Password
+
+If your password contains a special character, those characters need to be escaped or it may fail authentication resulting in *Error 401 login failure* from the NuGet server. A common character that needs to be escaped is the ampersand `&`, but it can be as unique as the section character `§`. There are two ways to handle this.
+
+1. Change the password so that it only includes characters that do not need to be escaped
+2. HTML encode the password so the special characters are escaped (e.g. `my§uper&P@§§word` becomes `my&sect;uper&amp;P@&sect;&sect;word`).
+
+We **strongly** discourage entering your password into an online encoder utility, use Powershell instead. Here's one example:
+
+	Add-Type -AssemblyName System.Web
+	[System.Web.HttpUtility]::HtmlEncode('my§uper&P@§§word')
+
+Result:
+
+![Powershell Encoding](https://user-images.githubusercontent.com/3520532/93901989-13d98200-fcc5-11ea-9d36-0eaee4272453.png)
+
+### Networking Problems
+
+Another common problem is that your machine (PC or DevOps agent) is behind a proxy. To check if you're experiencing a networking issue, open the following URL in your web browser:
+
+https://nuget.telerik.com/nuget/Search()?$filter=IsAbsoluteLatestVersion&searchTerm=%Maui%27&includePrerelease=true&$skip=0&$top=100&semVerLevel=2.0.0. 
+
+After you enter your telerik.com `username` and `password`, you should see an XML search result containing a list of all the `Telerik.UI.for.Maui` packages available with your license.
+
+### Unable to Load the Service Index for Source
+
+The following error may occur if the nuget.telerik.com server is down.
+
+`Unable to load the service index for source https://nuget.telerik.com/v3/index.json`
+
+If you hit that error, make sure that the Telerik NuGet Feed is live at https://status.telerik.com/.
+
 ## See Also
 
 * [System Requirements for macOS]({% slug system-requirements-mac %})
