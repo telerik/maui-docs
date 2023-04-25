@@ -7,7 +7,7 @@ previous_url: /controls/segmentedcontrol/segmentedcontrol-getting-started
 slug: segmentedcontrol-getting-started
 ---
 
-# Getting Started with .NET MAUI SegmentedControl
+# Getting Started with the .NET MAUI SegmentedControl
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI SegmentedControl by adding the control to your project.
 
@@ -74,10 +74,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  
 ## Additional Resources
 
-- [.NET MAUI SegmentedControl product page](https://www.telerik.com/maui-ui/segmented-control)
-- [.NET MAUI SegmentedControl forum page](https://www.telerik.com/forums/maui?tagId=1785)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI SegmentedControl Product Page](https://www.telerik.com/maui-ui/segmented-control)
+- [.NET MAUI SegmentedControl Forum Page](https://www.telerik.com/forums/maui?tagId=1785)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

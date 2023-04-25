@@ -7,7 +7,7 @@ previous_url: /controls/busyindicator/busyindicator-getting-started
 slug: busyindicator-getting-started
 ---
 
-# Getting Started with .NET MAUI BusyIndicator
+# Getting Started with the .NET MAUI BusyIndicator
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI BusyIndicator by adding the control to your project.
 
@@ -66,10 +66,10 @@ Before adding the BusyIndicator, you need to:
 
 ## Additional Resources
 
-- [.NET MAUI BusyIndicator product page](https://www.telerik.com/maui-ui/busyindicator)
-- [.NET MAUI BusyIndicator forum page](https://www.telerik.com/forums/maui?tagId=1856)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI BusyIndicator Product Page](https://www.telerik.com/maui-ui/busyindicator)
+- [.NET MAUI BusyIndicator Forum Page](https://www.telerik.com/forums/maui?tagId=1856)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

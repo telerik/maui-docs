@@ -1,11 +1,10 @@
 ---
-title: Chart with multiple axis
-description: Create chart with two vertical axis, horizontal axis.
+title: Creating Charts with Multiple Axes
+page_title: Creating Charts with Multiple Horizontal and Vertical Axes - .NET MAUI Knowledge Base
+description: Learn how to create a Telerik UI for .NET MAUI Chart component showing two vertical and a horizontal axis at the same time.
 type: how-to
-page_title: Chart with multiple horizontal and vertical axis.
 slug: chart-multiple-axis
-position: 
-tags: maui, chart, axis, muliple axis, second axis, vertical axis
+tags: maui, chart, axis, multiple axis, second axis, vertical axis
 res_type: kb
 ---
 
@@ -13,28 +12,29 @@ res_type: kb
 
 <table>
 	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>4.0.0</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>Chart for .NET MAUI</td>
-		</tr>
+    <tr>
+      <td>Product</td>
+      <td>Progress® Telerik® UI for .NET MAUI Chart</td>
+    </tr>
+  	<tr>
+  		<td>Product Version</td>
+  		<td>4.0.0</td>
+  	</tr>
 	</tbody>
 </table>
 
+
 ## Description
 
-This article explains how to create chart with muliple axis. If you want to add second horizontal and or vertical axis.
+How can I create a chart with multiple axes when I want to add a second horizontal or vertical axis?
 
 ## Solution
 
-Add 2 separate Charts together and have a transparent background on the top chart.
+To solve this issue, create two separate Charts together and add a transparent background to the top chart.
 
->important Using the Axis `Location` property you can specify the axis position. The options are &mdash;`Right`, `Left` for vertical axis and `Top`, `Bottom` for horizontal axis.
+>important By using the Axis `Location` property, you can specify the axis position. The supported options are Right` and `Left` for vertical axes, and `Top` and `Bottom` for horizontal axes.
 
-This is the XAML code:
+The following example shows the XAML code for implementing the suggested approach:
 
 ```XAML
 <Grid>
@@ -49,18 +49,18 @@ This is the XAML code:
         </telerik:RadCartesianChart.VerticalAxis>
         <telerik:RadCartesianChart.Series>
             <telerik:LineSeries CategoryBinding="Category"
-                                ValueBinding="Value" 
+                                ValueBinding="Value"
                                 ShowLabels="True"
                                 ItemsSource="{Binding Data}" />
         </telerik:RadCartesianChart.Series>
     </telerik:RadCartesianChart>
-        
+
     <!-- top chart -->
     <telerik:RadCartesianChart x:Name="chart2"
                                BackgroundColor="Transparent">
         <telerik:RadCartesianChart.HorizontalAxis>
-            <telerik:CategoricalAxis LabelTextColor="Transparent" 
-                                     LineColor="Transparent" 
+            <telerik:CategoricalAxis LabelTextColor="Transparent"
+                                     LineColor="Transparent"
                                      ShowLabels="False"/>
         </telerik:RadCartesianChart.HorizontalAxis>
         <telerik:RadCartesianChart.VerticalAxis>
@@ -68,11 +68,10 @@ This is the XAML code:
         </telerik:RadCartesianChart.VerticalAxis>
         <telerik:RadCartesianChart.Series>
             <telerik:LineSeries CategoryBinding="Category"
-                                ValueBinding="Value" 
+                                ValueBinding="Value"
                                 ShowLabels="True"
                                 ItemsSource="{Binding Data1}" />
         </telerik:RadCartesianChart.Series>
     </telerik:RadCartesianChart>
 </Grid>
 ```
-

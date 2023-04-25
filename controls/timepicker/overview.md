@@ -42,7 +42,7 @@ The TimePicker provides a number of features which allow you to set a time range
  
 ## See Also
 
-- [.NET MAUI TimePicker product page](https://www.telerik.com/maui-ui/timepicker)
-- [.NET MAUI TimePicker forum page](https://www.telerik.com/forums/maui?tagId=1850)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TimePicker Product Page](https://www.telerik.com/maui-ui/timepicker)
+- [.NET MAUI TimePicker Forum Page](https://www.telerik.com/forums/maui?tagId=1850)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

@@ -1,56 +1,65 @@
 ---
-title: Picker Mode
-page_title: .NET MAUI DatePicker Documentation - Picker Mode
-description: "Define PickerMode of Telerik DatePicker for .NET MAUI to either DropDown or Popup."
-position: 5
+title: Picker Modes
+page_title: .NET MAUI DatePicker Documentation - Picker Modes
+description: "Define the suitable popup or drop-down picker mode supported by the Telerik UI for .NET MAUI DatePicker for your application, or implement the picker mode from the Arrow button."
+position: 6
 slug: datepicker-picker-mode
----  
+---
 
 # .NET MAUI DatePicker Modes
 
-The DatePicker for .NET MAUI exposes `PickerMode` property of `Telerik.Maui.Controls.PickerMode` type which can be set to one of the following values:
+The DatePicker for .NET MAUI provides a popup and a drop-down picker mode.
 
-* `Popup`&mdash;Shows the UI for picking a date inside a popup. It's the default value for mobile (Android and iOS);
-* `DropDown`&mdash; Opens the UI for picking a date inside a dropdown. It's the default value for Desktop (Windows, macOS);
+## Popup Picker Mode
 
-Here is a sample of `PickerMode` set to `Popup`:
+To set the popup picker mode of the DatePicker, use the `PickerMode` property of the `Telerik.Maui.Controls.PickerMode` type and configure it to `Popup`. `Popup` shows the UI for picking a date inside a popup and is the default value for mobile (Android and iOS).
+
+The following example shows how to set the `PickerMode` to `Popup`:
 
 ```XAML
-<telerik:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
+<telerik:RadDatePicker Date="2020,05,15"
+							DisplayStringFormat="yyy-ddd-MMM"
 							PickerMode="Popup"  />
 ```
 
-Check below the result on mobile and desktop:
+The image below shows the result on mobile and desktop devices:
 
 ![DatePicker Picker Mode](images/datepicker-pickermode-popup.png)
 
-Quick example of `PickerMode` set to `DropDown`:
+## Drop-Down Picker Mode
+
+To set the drop-down picker mode of the DatePicker, use the `PickerMode` property of the `Telerik.Maui.Controls.PickerMode` type and configure it to `DropDown`. The `DropDown` value opens the UI for picking a date inside a drop-down, and is the default value for Desktop (Windows, macOS).
+
+The following example shows how to set the `PickerMode` to `DropDown`:
 
 ```XAML
-<telerik:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
+<telerik:RadDatePicker Date="2020,05,15"
+							DisplayStringFormat="yyy-ddd-MMM"
 							PickerMode="DropDown"  />
 ```
 
-Check the result of `DropDown` mode on mobile and desktop:
+The image below shows the result on mobile and desktop devices:
 
 ![DatePicker Picker Mode](images/datepicker-pickermode-dropdown.png)
 
-## Toggle Button
+## Arrow Button Picker Mode
 
-In addition, DatePicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a date. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
+In addition, DatePicker exposes the `IsToggleButtonVisible` property which, when set to `True`, renders an `Arrow` button for opening the UI and allows users to pick a date.
+
+By default, together with the `DropDown` picker mode, `IsToggleButtonVisible` is enabled for desktop devices, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases by using the following implementation:
 
 ```XAML
-<telerik:RadDatePicker Date="2020,05,15" 
-							DisplayStringFormat="yyy-ddd-MMM" 
+<telerik:RadDatePicker Date="2020,05,15"
+							DisplayStringFormat="yyy-ddd-MMM"
 							PickerMode="DropDown"
 							IsToggleButtonVisible="True" />
 ```
 
 ## See Also
 
-- [Templates]({%slug datepicker-templates%})
-- [Styling]({%slug datepicker-styling%})
-- [Commands]({%slug datepicker-commands%})
-- [Selection]({%slug datepicker-selection%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [Setting Date Ranges in the .NET MAUI DatePicker]({%slug datepicker-date-range%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)

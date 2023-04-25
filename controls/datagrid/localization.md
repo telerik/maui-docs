@@ -3,7 +3,7 @@ title: Localization
 page_title: .NET MAUI DataGrid Documentation - Localization
 description: "Check our &quot;Localization&quot; documentation article for Telerik DataGrid for .NET MAUI control."
 position: 10
-slug: dataform-localization
+slug: datagrid-localization
 ---
 
 # .NET MAUI DataGrid Localization
