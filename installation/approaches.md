@@ -57,9 +57,9 @@ Apart from the described steps in the getting started guides, you can also use a
 
 No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net6` and `Binaries/Net7` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
 
-To manually reference the assembly references, create a `libs` folder in your solution folder. Then copy the folder that is the same .NET version that your project is targeting, into the newly created `libs` folder. You can now directly reference the DLLs form the into your MAUI project
+To manually reference the assembly references, create a `libs` folder in your solution folder. Then, copy the content from the desired .NET folder into your "libs" folder (e.g. `Binaries/NET6` copyto-> `libs`). You can now directly reference the DLLs in that `libs` folder instead of the installation folder.
 
-Note that *Visual Studio 2022 does not have support for differentiating DLL references for each target platform*. You must manually edit the csproj file and add conditions for each target platform.
+Note that *Visual Studio 2022 does not have support for differentiating DLL references for each target platform*, you must manually edit the csproj file and add conditions for each target platform.
 
 ```
 <ItemGroup>
@@ -92,11 +92,13 @@ Note that *Visual Studio 2022 does not have support for differentiating DLL refe
 
 ## Referencing Local NuGet Package Files
 
-If you would rather use offlien NuGet package files, you'll need to make a copy of the .nupkg files that would normally get restored form the Telerik NuGet server. We also ship these .nupkg file with the product. You will find offline copies of the .nupkg files in the `Packages` folder of the installation directory. 
+If you would rather use offline NuGet package files, you'll need to make a copy of the .nupkg files that would normally get restored from the Telerik NuGet server. You will find offline copies of the .nupkg files in the `Packages` folder of the installation directory. 
 
 ![.NET MAUI Platforms Packages folders](./images/installation-folders.png)
 
-You can copy these files to a "local_packages" folder in your solution folder. Once you have copied all the nupkg files from that folder, into your project's 'local_packages' folder, you can now add a PackageSource to your nuget.config:
+Create a `local_packages` folder in your solution directory and copy all those nupkg files into it. Once those are copied, you can now add a new PackageSource to your nuget.config that points to that directory. With that package source in the nuget.config, you will see it when using the NuGet Package Manager.
+
+For example:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,6 +109,8 @@ You can copy these files to a "local_packages" folder in your solution folder. O
   </PackageSources>
 </configuration>
 ```
+
+>note You will have to restart Visual Studio before it recognizes any changes to a nuget.config file or see a newly added nuget.config file.
 
 ## See Also
 
