@@ -48,16 +48,62 @@ The NuGet packages are single ZIP files with the `.nupkg` extension that contain
 * For more information about how to install Telerik UI for .NET MAUI with NuGet on macOS-running machines, refer to the article on [first steps with NuGet on macOS]({% slug telerik-nuget-server-mac %}).
 * For more information about restoring Telerik UI for .NET MAUI NuGet packages in your CI workflow, refer to the article on [using token-based NuGet authentication]({% slug nuget-keys %}).
 
-## Manually Adding the Required Assemblies
+## Manually Using Assembly References
 
 Apart from the described steps in the getting started guides, you can also use a manual installation approach for referencing the required Telerik UI for .NET MAUI assemblies into your solution. The manual approach is available in the following cases:
 
 * During the MSI installation&mdash;After you have [automatically installed Telerik UI for .NET MAUI with the MSI file]({%slug maui-getting-started %}), the assemblies will be located in the `C:\Program Files\Progress\` (for 32bit machines) or `C:\Program Files (x86)\Progress\` (for 64bit machines) default directory.
-* Using the ZIP file&mdash;Alternatively, you can download the ZIP file with all the Telerik UI for .NET MAUI assemblies as described in the article on the [available product files]({%slug download-product-files %}). You can then unzip the file to any location on your machine and reference the assemblies from that location.
+* Using the ZIP file - Alternatively, you can download the ZIP file with all the Telerik UI for .NET MAUI assemblies as described in the article on the [available product files]({%slug download-product-files %}). You can then unzip the file to any location on your machine and reference the assemblies from that location.
 
-No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net6` and `Binaries/Net7` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need. To manually reference the assemblies, add them to the `Packages` folders of the corresponding platforms inside the .NET MAUI project.
+No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net6` and `Binaries/Net7` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
+
+To manually reference the assembly references, create a `libs` folder in your solution folder, then copy the .NET version that your project is targeting. Visual Studio 2022 does not have support for differentiating the different platforms when using DLLs for references, so you will have to manually add conditions to your csproj.
+
+```
+<ItemGroup>
+    <!-- You can keep the SHARED assembly references in here -->
+    <Reference Include="..." />
+</ItemGroup>
+
+<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+    <!-- Put Windows-only assembly references in here -->
+    <Reference Include="..." />
+</ItemGroup>
+
+<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'iOS'">
+    <!-- Put iOS-only assembly references in here -->
+    <Reference Include="..." />
+</ItemGroup>
+
+<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">
+    <!-- Put MacCatalyst-only assembly references in here -->
+    <Reference Include="..." />
+</ItemGroup>
+
+<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+    <!-- Put Android-only assembly references in here -->
+    <Reference Include="..." />
+</ItemGroup>
+```
+
+
+## Manually Adding Local NuGet Package File Reference
+
+If you would rather use offlien NuGet package files, you'll need to make a copy of the .nupkg files that would normally get restored form the Telerik NuGet server. We also ship these .nupkg file with the product. You will find offline copies of the .nupkg files in the `Packages` folder of the installation directory. 
 
 ![.NET MAUI Platforms Packages folders](../images/telerik-ui-for-maui-installation-folder.png)
+
+You can copy these files to a "local_packages" folder in your solution folder. Once you have copied all the nupkg files from that folder, into your project's 'local_packages' folder, you can now add a PackageSource to your nuget.config:
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources> 
+    <PackageSources>
+      <add key="telerik_offline" value="../local_packages/" />
+  </PackageSources>
+</configuration>
+```
 
 >important As some of the controls included in Telerik UI for .NET MAUI suite rely on the SkiaSharp rendering library, you must also install the `SkiaSharp.Views.Maui.Controls.Compatibility` NuGet package.
 
