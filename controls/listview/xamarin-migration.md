@@ -4,7 +4,7 @@ page_title: Migrating the ListView from Xamarin.Forms to .NET MAUI
 description: "Learn how to migrate the Telerik UI for Xamarin ListView to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-listview-to-maui
-position: 2
+position: 20
 ---
 
 # Migrating the ListView from Xamarin to .NET MAUI
@@ -119,5 +119,7 @@ private void ListView_HandlerChanged(object sender, EventArgs e)
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
+* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+- [.NET MAUI ListView Product Page](https://www.telerik.com/maui-ui/listview)
+- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

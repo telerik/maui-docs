@@ -1,40 +1,46 @@
 ---
-title: Keyboard Support
+title: Keyboard Navigation
 page_title: .NET MAUI DataGrid Documentation - Keyboard Support
-description: Check the Telerik DataGrid for .NET MAUI Keyboard navigation article.
-position: 9
+description: "Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DataGrid accessibility standards."
+position: 16
 slug: datagrid-keyboard-support
 ---
 
 # .NET MAUI DataGrid Keyboard Support
 
-RadDataGrid provides keyboard navigation support which is curently available on WinUI. You can easily change the DataGrid `CurrentCell` when using some of the keyboard keys. For more details about CurentCell review the [Current Cell]({%slug datagrid-current-cell%}) article	
+The Telerik UI for .NET MAUI DataGrid provides keyboard navigation support which is currently available on WinUI.
 
-In the following table you can find some of the actions and the respective hotkeys that invoke them:
+While applying part of the keyboard keys, you can also change the current cell behavior of the DataGrid component. For more details, see the article on [setting the .NET MAUI DataGrid cells]({%slug datagrid-current-cell%}).
 
-| Hotkey 		    | Action 			|
-|-------------------|-------------------|
-| `Left Arrow Key`  | Focus next cell on the left. The selection is changed as well when in single mode. |
-| `Right Arrow Key` | Focus next cell on the right. The selection is changed as well when in single mode. |
-| `Up Arrow Key`    | Focus next cell above. The selection is changed as well when in single mode. |
-| `Down Arrow Key`  | Focus next cell below. The selection is changed as well when in single mode. |
-| `F2`              | Put current cell in edit mode. |
-| `Enter`	        | Select next/previous row. When in edit mode the changes are committed and the next row is selected. |
-| `Esc`				| Cancel the editing of the current cell. |
-| `PageUp`		    | Focus first cell of view port. |
-| `PageDown`	    | Focus last cell of view port. |
-| `Home`	        | Focus first cell of selected row. |
-| `End`				| Focus last cell of selected row. |
-| `Ctrl + Home`		| Focus first cell of grid. |
-| `Ctrl + End`		| Focus last cell of grid. |
-| `Tab `	        | Focus next cell. When in edit mode - next cell editor is focused. |
-| `Shift + Tab`		| Focus previous cell. When in edit mode - previous editor is focused. |
+The following table lists the actions and keyboard combinations that are available in the DataGrid:
+
+| Hotkey Combinations  | Action 			|
+|----------------------|-------------------|
+| `Left Arrow`  | Focuses the next cell on the left. The selection is changed as well when in single mode. |
+| `Right Arrow` | Focuses the next cell on the right. The selection is changed as well when in single mode. |
+| `Up Arrow`    | Focuses the next cell above. The selection is changed as well when in single mode. |
+| `Down Arrow`  | Focuses the next cell below. The selection is changed as well when in single mode. |
+| `F2`          | Puts the current cell in edit mode. |
+| `Enter`	      | Selects the next or previous row. When in edit mode, the changes are committed and the next row is selected. |
+| `Esc`				  | Cancels the editing of the current cell. |
+| `PageUp`		  | Focuses the first cell of the viewport. |
+| `PageDown`	  | Focuses the last cell of the viewport. |
+| `Home`	      | Focuses the first cell of the selected row. |
+| `End`				  | Focuses the last cell of the selected row. |
+| `Ctrl` + `Home`| Focuses the first cell of the DataGrid. |
+| `Ctrl` + `End`| Focuses the last cell of the DataGrid. |
+| `Tab`	        | Focuses the next cell. When in edit mode, the next cell editor is focused. |
+| `Shift` + `Tab`	| Focuses the previous cell. When in edit mode, the previous editor is focused. |
+
+## Additional Resources
+
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 
-- [Getting Started]({%slug datagrid-getting-started%})
-- [Selection]({%slug datagrid-selection-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
-- [Filtering]({%slug datagrid-filtering-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Editing]({%slug datagrid-editing%})
+- [Sorting Telerik UI for .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})

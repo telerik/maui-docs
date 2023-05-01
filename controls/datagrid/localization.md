@@ -1,16 +1,16 @@
 ---
 title: Localization
 page_title: .NET MAUI DataGrid Documentation - Localization
-description: "Check our &quot;Localization&quot; documentation article for Telerik DataGrid for .NET MAUI control."
-position: 10
+description: "Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI DataGrid."
+position: 18
 slug: datagrid-localization
 ---
 
 # .NET MAUI DataGrid Localization
 
-The Telerik DataGrid for .NET MAUI provides localization support. In short, you can translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions.
+The Telerik UI for .NET MAUI DataGrid provides localization support. You can translate the text displayed as a validation error message to other languages, so that your application can be adapted to different cultures.
 
->important For more details about the localization process of Telerik UI for .NET MAUI components, refer to the common [Globalization and Localization]({%slug globalization-localization%}) topic.
+>important For more details about the localization process of Telerik UI for .NET MAUI components, refer to the topic about [common globalization and localization support by Telerik UI for .NET MAUI]({%slug globalization-localization%}).
 
 The table below shows the localization keys available for the DataGrid control and their default values:
 
@@ -41,10 +41,17 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_TextOperator_IsNotEmpty` | `Is not empty` |
 | `DataGrid_TextOperator_StartsWith` | `Starts with` |
 
+## Additional Resources
+
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
-- [Selection]({%slug datagrid-selection-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
-- [Filtering]({%slug datagrid-filtering-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Editing]({%slug datagrid-editing%})
+- [Aggregating Data in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-aggregates%})
+- [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
+
+
