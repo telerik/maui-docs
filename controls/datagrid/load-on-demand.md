@@ -2,7 +2,7 @@
 title: Load On Demand
 page_title: .NET MAUI DataGrid Documentation - Load on Demand
 description: "Learn more about the available modes and approaches to load huge sets of data in the Telerik UI for .NET MAUI DataGrid to improve the performance of the component and save computing resources."
-position: 14
+position: 13
 slug: datagrid-features-loadondemand
 ---
 

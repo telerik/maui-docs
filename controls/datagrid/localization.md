@@ -2,7 +2,7 @@
 title: Localization
 page_title: .NET MAUI DataGrid Documentation - Localization
 description: "Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI DataGrid."
-position: 40
+position: 18
 slug: datagrid-localization
 ---
 

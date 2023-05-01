@@ -2,7 +2,7 @@
 title: Sorting
 page_title: .NET MAUI DataGrid Documentation - Sorting
 description: "Learn how to implement the sorting functionality of the Telerik UI for .NET MAUI DataGrid through the UI or by using programmatic sorting over a custom or a defined key which is a property from the model."
-position: 6
+position: 5
 slug: datagrid-sorting-overview
 ---
 
