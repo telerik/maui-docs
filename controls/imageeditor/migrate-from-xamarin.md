@@ -1,24 +1,24 @@
 ---
-title: Migrate from Xamarin.Forms
-page_title: .NET MAUI ImageEditor Documentation - Migrate from Xamarin
-description: "Learn how to migrate from Xamarin.Forms ImageEditor to .NET MAUI ImageEditor control."
-position: 1
+title: Migrating from Xamarin
+page_title: Migrating the ImageEditor from Xamarin.Forms to .NET MAUI
+description: "Learn how to migrate the Telerik UI for Xamarin ImageEditor to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+position: 20
 slug: imageeditor-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms ImageEditor to .NET MAUI ImageEditor
+# Migrating the ImageEditor from Xamarin to .NET MAUI
 
 Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin.Forms ImageEditor with a few changes and improvements listed in the tables below:
 
-## Migrate Namespaces
+## Migrating the Namespaces
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin ImageEditor | `RadImageEditor` | xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor" | using Telerik.XamarinForms.ImageEditor; | 
+| Xamarin ImageEditor | `RadImageEditor` | xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor" | using Telerik.XamarinForms.ImageEditor; |
 | .NET MAUI ImageEditor | `RadImageEditor` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
-## API Changes
+## Modifying the API
 
 | Xamarin ImageEditor | .NET MAUI ImageEditor |
 | ------------- | --------------- |
@@ -36,5 +36,7 @@ Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
+* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+- [.NET MAUI ImageEditor Product Page](https://www.telerik.com/maui-ui/imageeditor)
+- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

@@ -145,9 +145,6 @@ navigation:
     controls/datagrid/columns:
         title: "Columns"
         position: 2
-    controls/datagrid/aggregates:
-        title: "Aggregates"
-        position: 3
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
@@ -157,12 +154,15 @@ navigation:
     controls/datagrid/grouping:
         title: "Grouping"
         position: 4
+    controls/datagrid/aggregates:
+        title: "Aggregates"
+        position: 8
     controls/datagrid/commands:
         title: "Commands"
-        position: 10
+        position: 15
     controls/datagrid/theming-and-styles:
         title: "Styling"
-        position: 11
+        position: 20
     ## End DataGrid
     ## DatePicker
     controls/datepicker:

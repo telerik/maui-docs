@@ -1,60 +1,66 @@
 ---
 title: Aggregate Styling
 page_title: .NET MAUI DataGrid Documentation - Aggregate Styling
-description: "Review the Telerik .NET MAUI DataGrid Aggregates Styling documentation article to learn more about all built in Aggregate Styling functions you can use."
+description: "Learn how to style the group footer, header, and column footer of the Telerik UI for .NET MAUI DataGrid when its data is aggregated."
 position: 3
 slug: datagrid-aggregates-styling
 ---
 
 # .NET MAUI DataGrid Aggregates Styling
 
-The .NET MAUI DataGrid provides a styling functionality for its Group Footer, Header and Column Footer aggregates.
+The .NET MAUI DataGrid provides a styling functionality for its group footer, header, and column footer aggregates.
 
-Use the following properties to style the aggregates:
+## Styling the Group Header
 
-* `GroupHeaderStyle`(`DataGridGroupHeaderStyle`)&mdash;Defines the style of the `GroupHeader` and the aggregates inside the header.
+The DataGrid provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header.
+
+> To visualize the `GroupHeader`, set the `ShowGroupHeaderAggregates` to `True`. The property is a property inside the `RadDataGrid` instance.
+
+## Styling the Group Footer
+
+The DataGrid provides the following options for styling its group footer:
+
 * `GroupFooterStyle`(`DataGridGroupFooterStyle`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
 * `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash; Defines the style of the selected GroupFooter by passing the `GroupFooterContext` in the selector.
-* `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer. 
+* `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer.
 
-> To visualize the GroupFooter, set the `ShowGroupFooters` property to `True`. The property is a property inside the RadDataGrid.
+> To visualize the `GroupFooter`, set the `ShowGroupFooters` property to `True`. The property is a property inside the `RadDataGrid` instance.
 
-> To visualize the GroupHeader, set the `ShowGroupHeaderAggregates` to `True`. The property is a property inside the RadDataGrid.
-
-## Apply style in the group footer
-
-The following example shows how to define the GroupFooterStyle in XAML:
+The following example shows how to define the `GroupFooterStyle` in XAML:
 
 <snippet id='datagrid-group-aggregate-styling-example'/>
 
-## GroupFooterStyleSelector
+The following example shows how to use the `GroupFooterStyleSelector` property:
 
-The following example shows how to use the `GroupFooterStyleSelector` property.
-
-Define the class to which the `GroupFooterContext` will be passed.
+**1.** Define the class to which the `GroupFooterContext` will be passed.
 
 <snippet id='datagrid-group-aggregate-style-selector'/>
 
-Define the style selector which will passed to the DataGrid in XAML.
+**2.** Define the style selector which will passed to the DataGrid in XAML.
 
 <snippet id='datagrid-group-aggregate-style-selector-xaml'/>
 
-## Footer Style
+## Customizing the Group Footer Appearance
 
-Customizing the footer in the DataGrid also changes the appearance of the Aggregates inside of it.
+Customizing the footer in the DataGrid also changes the appearance of the aggregates inside the component.
 
-The following example demonstrates how to change the style of the Column Footer Aggregates.
+The following example demonstrates how to change the style of the column footer aggregates:
 
-Define the footer style in XAML:
+**1.** Define the footer style in XAML.
 
 <snippet id='datagrid-column-aggregate-styling-example'/>
 
-Add the styling to the DataGrid:
+**2.** Add the styling to the DataGrid.
 
 <snippet id='datagrid-aggregate-styling-example'/>
 
-> The Footer Style is added per column.
+> The footer style is added per column.
 
-The final result is as follows:
+The following image shows the end result.
 
 ![Group Aggregate Style](../images/datagrid-grouping-aggregates.png)
+
+## See Also
+
+- [Property Aggregate Descriptor]({%slug datagrid-property-aggregate-descriptor%})
+- [Delegate Aggregate Descriptor]({%slug datagrid-delegate-aggregate-descriptor%})
