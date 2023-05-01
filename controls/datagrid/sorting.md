@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI DataGrid provides a built-in sorting functionality 
 
 To sort through the UI, click or tap the column header. `UserSortMode` defines how the user input, such as tapping or clicking the column header, affects the current sort state of the DataGrid.
 
-The DataGrid provides the following options:
+The `UserSortMode` has the following options: 
 
 * (Default) `Auto`
 * `Multiple`
@@ -88,16 +88,9 @@ The following image shows how the DataGrid looks after sorting is applied:
 
 ![DataGrid Sorting](images/datagrid_sorting.png)
 
-## Additional Resources
+## See Also
 
 - [Setting the Telerik UI for .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
 - [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
-
-## See Also
-
-- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

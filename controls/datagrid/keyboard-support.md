@@ -34,13 +34,13 @@ The following table lists the actions and keyboard combinations that are availab
 
 ## Additional Resources
 
-- [Sorting Telerik UI for .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
-- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
-- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
-
-## See Also
-
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
 - [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Sorting Telerik UI for .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})

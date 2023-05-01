@@ -164,15 +164,8 @@ this.dataGrid.SelectCell(new DataGridCellInfo(firstMarketingCell, this.dataGrid.
 this.dataGrid.SelectAll();
  ```
 
-## Additional Resources
+## See Also
 
 - [Grouping in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-grouping-overview%})
 - [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
 - [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
-
-## See Also
-
-- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

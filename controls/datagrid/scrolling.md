@@ -31,15 +31,15 @@ The following image shows the end result.
 
 ## Additional Resources
 
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
 - [Setting the Telerik UI for .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
 - [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
 - [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
-
-## See Also
-
-- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

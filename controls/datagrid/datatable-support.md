@@ -66,14 +66,14 @@ All commands supported by the DataGrid are fully applicable when the component i
 
 ## Additional Resources
 
-- [Filtering UI in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-filtering-ui%})
-- [Programmatic Filtering in the DataGrid]({%slug datagrid-programmatic-filtering%})
-- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
-- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
-
-## See Also
-
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
 - [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Filtering UI in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-filtering-ui%})
+- [Programmatic Filtering in the DataGrid]({%slug datagrid-programmatic-filtering%})
+- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})

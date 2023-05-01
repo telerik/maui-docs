@@ -31,11 +31,11 @@ The following table lists the integrated .NET MAUI control for editing the value
 | Column Type 		| Editor 			|
 |-------------------|-------------------|
 | `TextColumn`		| Entry				|
-| `NumericalColumn`	| NumericInput	|
+| `NumericalColumn`	| RadNumericInput	|
 | `BooleanColumn`	| CheckBox		    |
-| `DateColumn`		| DatePicker		|
-| `TimeColumn`		| TimePicker		|
-| `PickerColumn`	| ComboBox	    |
+| `DateColumn`		| RadDatePicker		|
+| `TimeColumn`		| RadTimePicker		|
+| `PickerColumn`	| RadComboBox	    |
 | `TemplateColumn`	| A custom editor by defining `CellEditTemplate`. |
 
 ## Custom Editors
@@ -62,13 +62,14 @@ The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColu
 
 ## Additional Resources
 
-- [Editing Commands in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-commands-editing%})
-- [Column Cell Templates in the .NET MAUI DataGrid]({%slug datagrid-cell-templates%})
-- [Styling the Columns of the .NET MAUI DataGrid]({%slug datagrid-columns-styling%})
-
-## See Also
-
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
 - [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Editing Commands in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-commands-editing%})
+- [Column Cell Templates in the .NET MAUI DataGrid]({%slug datagrid-cell-templates%})
+- [Styling the Columns of the .NET MAUI DataGrid]({%slug datagrid-columns-styling%})
+
