@@ -104,7 +104,7 @@ If you're receiving this error when connecting to Telerik NuGet Server, you can 
 
 Another common problem is that your machine (PC or DevOps agent) is behind a proxy. To check if you're experiencing a networking issue, open the following URL in your web browser:
 
-`https://nuget.telerik.com/v3/search?q=xamarin`
+`https://nuget.telerik.com/v3/search?q=maui`
 
 After you enter your telerik.com `username` and `password`, you should see a JSON search result containing a list of all the `Telerik.UI.for.Maui` packages available to the account you signed in with.
 
