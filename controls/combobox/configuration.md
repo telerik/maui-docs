@@ -43,8 +43,8 @@ and the result:
 
 ComboBox provides the following properties for managing the drop down:
 
-* `DropDownWidth`&mdash;Defines the width of the dropdown of the control.
-* `DropDownHeight`&mdash;Defines the height of the dropdown fo the control.
+* `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
+* `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
 * `IsDropDownOpen`(`bool`)&mdash;Defines whether the drop down part of the control is opened. Default value is `true`. 
 * `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the drop down should be closed when item is selected/deselected. The default value is `true`.
 
