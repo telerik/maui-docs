@@ -14,15 +14,15 @@ slug: slideview-overview
 
 ## Key Features
 
-* [Item Template]({%slug %})&mdash;
+* [Item Template]({%slug slideview-item-template%})&mdash;You can define an ItemTemplate to present the data in the views in a way that’s most suitable for your scenario.
 
-* [Control Template]({%slug slideview-control-template%})&mdash;
+* [Control Template]({%slug slideview-control-template%})&mdash;SlideView visual appearance is defined through a Control Template. In order to customize the way the RadSlideView looks, you will need to take the default ControlTemplate and modify it.
 
-* [Customizable indicators and slide buttons]({%slug %})&mdash;
+* [Customizable indicators and slide buttons]({%slug indicators-styling%})&mdash;SlideView provides you with the ability to customize the appearance of the indicators and the slide buttons
 
 * [Commands support]({%slug slideview-commands%})&mdash;The Telerik UI for .NET MAUI SlideView exposes a number of commands which will be executed when the slide actions occurs.
 
-* [UI Virtualization]&mdash;RadSlideView supports UI Virtualization which processes only these visual elements that are loaded in the selected view as well as the previous and the next one. This speeds up the loading time, thus enhancing the UI performance.
+* [UI Virtualization]&mdash;SlideView supports UI Virtualization which processes only these visual elements that are loaded in the selected view as well as the previous and the next one. This speeds up the loading time, thus enhancing the UI performance.
 
 ## Next Steps
 
