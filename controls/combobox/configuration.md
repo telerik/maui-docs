@@ -41,7 +41,7 @@ and the result:
 
 ## DropDown Behavior
 
-ComboBox provides the following properties for managing the drop down:
+To manage the dropdown of the ComboBox, use the following properties:
 
 * `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
 * `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
