@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI SlideView Documentation - Commands
 description: Check our &quot;Commands&quot; documentation article for Telerik UI for .NET Maui SlideView control.
-position: 4
+position: 7
 slug: slideview-commands
 ---
 

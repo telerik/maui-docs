@@ -2,7 +2,7 @@
 title: Events 
 page_title: .NET MAUI SlideView Documentation - Events
 description: Check our &quot;Events&quot; documentation article for Telerik UI for .NET Maui SlideView control.
-position: 4
+position: 6
 slug: slideview-events
 ---
 

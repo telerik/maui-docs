@@ -2,7 +2,7 @@
 title: Item Template
 page_title: .NET MAUI SlideView Documentation - Item Template
 description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
-position: 2
+position: 6
 slug: slideview-item-template
 ---
 

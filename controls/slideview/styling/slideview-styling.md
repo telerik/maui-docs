@@ -2,7 +2,7 @@
 title: SlideView Styling
 page_title: .NET MAUI SlideView Documentation - SlideView Styling
 description: "Learn how to style and customize the .NET Maui SlideView control."
-position: 0
+position: 12
 slug: slideview-styling
 ---
 
