@@ -1,7 +1,7 @@
 ---
 title: Animation
 page_title: .NET MAUI SlideView Documentation - Animation
-description: "Try now the Telerik SlideView for .NET MAUI delivering a flexible navigation between different views"
+description: "Try now the Telerik SlideView for .NET MAUI delivering an animation when slididng throught different views"
 position: 9
 slug: slideview-animation
 ---

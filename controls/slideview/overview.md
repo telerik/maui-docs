@@ -10,7 +10,7 @@ slug: slideview-overview
 
 **Telerik SlideView for .NET MAUI** is a flexible navigation control that allows you to slide between different views, thus providing an interactive navigation. With it you can build a gallery display to show your images and content efficiently.
 
-![DatePicker Overview](images//slideview_overview.png)
+![SlideView Overview](images//slideview_overview.png)
 
 ## Key Features
 

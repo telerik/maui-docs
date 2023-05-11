@@ -1,7 +1,7 @@
 ---
 title: Infinite Scrolling
 page_title: .NET MAUI SlideView Documentation - Infinite Scrolling
-description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
+description: "Learn about the infinite scrolling mechanism that SlideView control provides."
 position: 11
 slug: slideview-scrolling
 ---

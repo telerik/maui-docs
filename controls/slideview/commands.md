@@ -1,14 +1,14 @@
 ---
 title: Commands
 page_title: .NET MAUI SlideView Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik UI for .NET Maui SlideView control.
+description: "Use the exposed commands of the Telerik UI for .NET MAUI SlideView to programmatically navigate throught the items."
 position: 7
 slug: slideview-commands
 ---
 
 # .NET MAUI SlideView Commands
 
-The Telerik UI for .NET MAUI SlideView exposes a number of commands which will be executed when the slide actions occurs. To do this you can use the **Commands** collection.
+The Telerik UI for .NET MAUI SlideView exposes a number of commands which will be executed when the slide actions occurs. To do this you can use the `Commands` collection.
 
 The control provides commands that handles the navigations throught the items:
 
@@ -20,12 +20,14 @@ The control provides commands that handles the navigations throught the items:
 
 This example shows how to add a command.
 
-First, add the SlideView definition:
+Add the SlideView definition:
 
 <snippet id='slideview-commands' />
 
-And then, the commands which in this example are bind to buttons:
+Add the commands which in this example are bind to buttons:
 
 <snippet id='slideview-commands-button' />
+
+Add the event hadler:
 
 <snippet id='slideview-commands-button-clicked' />

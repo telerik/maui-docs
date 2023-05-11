@@ -24,11 +24,11 @@ The Telerik UI for .NET MAUI SlideView has some changes to the API and configura
 | Xamarin SlideView | .NET MAUI SlideView |
 | ------------- | --------------- |
 | `IsSwipingEnabled` | `SlideViewInteractionMode` |
-| `Indicator Customization Options - for more information see this artcle:  ` | `Indicator Styling - Indicators are separated form the SlideView`({%slug %})  |
-| - | `HasLooping` |
+| [Indicator Customization Options](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-indicators)   | `Indicator Styling`- Indicators are separated form the SlideView ({%slug indicators-styling%})  |
+| - | `OverScrollMode` |
 | `PageSpacingProperty` | `Spacing` |
 | `IsAnimated` | - |
-| `Customizing the content alignment ` | - |
-| `IsInfiniteScrollingEnabled` | `OverScrollMode` |
-| `Customizing the slide buttons` | `` |
+| [Customizing the content alignment](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-content-alignment) | - |
+| `IsInfiniteScrollingEnabled` | `HasLooping` |
+| [Customizing the slide buttons](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-slide-buttons) | SlideView exposes a styling properties about the `Navigation Buttons` ({%slug slideview-styling%}) |
 | `ItemTemplateSelector` | - |

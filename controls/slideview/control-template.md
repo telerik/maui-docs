@@ -1,7 +1,7 @@
 ---
 title: Control Template
 page_title: .NET MAUI SlideView Documentation - Control Template
-description: Check our &quot;Control Template&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: "Learn about the visual appearence defined throught the control template."
 position: 7
 slug: slideview-control-template
 ---

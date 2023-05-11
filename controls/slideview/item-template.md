@@ -1,7 +1,7 @@
 ---
 title: Item Template
 page_title: .NET MAUI SlideView Documentation - Item Template
-description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
+description: "Learn how to customize the visualization of the views in the ItemsSource of the control using ItemTemplate property."
 position: 6
 slug: slideview-item-template
 ---
@@ -14,7 +14,7 @@ slug: slideview-item-template
 
 The following example shows how to populate the ItemsSource with business items and customize their appearance.
 
-First, create a sample MyItem class: 
+Create a sample MyItem class: 
 
 <snippet id='' />
 
@@ -22,7 +22,7 @@ Add a ViewModel containing a collection of MyItem objects:
 
 <snippet id='' />
 
-Then, add the SlideView definition with a sample ItemTemplate applied:
+Add the SlideView definition with a sample ItemTemplate applied:
 
 <snippet id='' />
 
@@ -35,4 +35,4 @@ Here is the result:
 #### Figure 1: RadSlideView with ItemTemplate applied
 ![RadSlideView example](images)
 
-### See Also
+## See Also

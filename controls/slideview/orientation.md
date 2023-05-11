@@ -1,7 +1,7 @@
 ---
 title: Orientation
 page_title: .NET MAUI SlideView Documentation - Orientation
-description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
+description: "Learn more about how to set the orientation od the SlideView control."
 position: 5
 slug: slideview-orientation
 ---

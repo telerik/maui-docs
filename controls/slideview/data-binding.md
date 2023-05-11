@@ -1,14 +1,14 @@
 ---
 title: Data Binding
 page_title: .NET MAUI SlideView Documentation - Data Binding
-description: Check our &quot;Data Binding&quot; documentation article for Telerik UI for .NET Maui SlideView control.
+description: "Review the data binding oprions for .NET MAUI SlideView control."
 position: 4
 slug: slideview-data-binding
 ---
 
 # .NET MAUI SlideView Data Binding
 
-- `ItemsSource`(`IEnumerable`): Defines the collection of the items that will populate the control with data.
+- `ItemsSource`(`IEnumerable`)&mdash;Defines the collection of the items that will populate the control with data.
 
 ## Binding to a complex object
 
