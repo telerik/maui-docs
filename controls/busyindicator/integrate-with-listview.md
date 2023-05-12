@@ -28,31 +28,31 @@ The example below demonstrates a sample integration of the BusyIndicator with th
 1. Add the ListView and BusyIndicator controls to the view:
 
  ```XAML
- <Grid>
+<Grid>
     <Grid.RowDefinitions>
-        <RowDefinition Height="40" />
-        <RowDefinition Height="*" />
-    </Grid.RowDefinitions>
-    <Button Text="Load Data" Command="{Binding LoadDataCommand}" />
-    <Grid  Grid.Row="1">
-        <telerik:RadListView ItemsSource="{Binding Source}">
-            <telerik:RadListView.ItemTemplate>
-                <DataTemplate>
-                    <telerikListView:ListViewTextCell Text="{Binding Title}" Detail="{Binding Author}" />
-                </DataTemplate>
-            </telerik:RadListView.ItemTemplate>
-            <telerik:RadListView.LayoutDefinition>
-                <telerikListView:ListViewLinearLayout ItemLength="80" VerticalItemSpacing="2" />
-            </telerik:RadListView.LayoutDefinition>
-        </telerik:RadListView>
-        <telerik:RadBusyIndicator x:Name="BusyIndicator"                             
-								  VerticalOptions="Center"
-								  AnimationContentHeightRequest="100"
-								  AnimationContentWidthRequest="100"
-								  HeightRequest="100"
-								  IsBusy="{Binding IsLoading}" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button Text="Load Data" Command="{Binding LoadDataCommand}" />
+        <Grid  Grid.Row="1">
+            <telerik:RadListView ItemsSource="{Binding Source}">
+                <telerik:RadListView.ItemTemplate>
+                    <DataTemplate>
+                        <telerik:ListViewTextCell Text="{Binding Title}" Detail="{Binding Author}"/>
+                    </DataTemplate>
+                </telerik:RadListView.ItemTemplate>
+                <telerik:RadListView.LayoutDefinition>
+                    <telerik:ListViewLinearLayout ItemLength="80" VerticalItemSpacing="2" />
+                </telerik:RadListView.LayoutDefinition>
+            </telerik:RadListView>
+            <telerik:RadBusyIndicator x:Name="BusyIndicator"                             
+                                VerticalOptions="Center"
+                                AnimationContentHeightRequest="100"
+                                AnimationContentWidthRequest="100"
+                                HeightRequest="100"
+                                IsBusy="{Binding IsLoading}" />
     </Grid>
- </Grid>
+</Grid>
  ```
 
 1. Set the `ViewModel` class as `BindingContext` of the page:
