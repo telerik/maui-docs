@@ -299,6 +299,15 @@ navigation:
     controls/signaturepad:
         title: "SignaturePad"
     ## End SignaturePad
+    ## SlideView
+    controls/slideview:
+    title: "SlideView"
+    ##SlideView Sub-Folders
+    controls/slideview/styling:
+    title: "Styling"
+    position:20
+    ## End SlideView Sub-Folders
+    ##End SlideView
     ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
@@ -473,6 +482,7 @@ intro_columns:
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "SideDrawer": "sidedrawer-overview"
+        "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
   -
