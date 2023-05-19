@@ -21,7 +21,7 @@ Add a navigation button in the Toolbar control using the `NavigationButtonToolba
 
 The exposed events are:
 
-* `Clicked`&mdash:Raised when the button is clicked.
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands
 
@@ -32,7 +32,7 @@ The available commands are:
 
 ## Styling
 
-Use the `Styele` property with target type `Telerik.Maui.Controls.NavigationButtonToolbarItemView`. Use all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling) in the NavigationButtonToolbarItemView.
+Use the `Style` property with target type `Telerik.Maui.Controls.NavigationButtonToolbarItemView`. Use all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling) in the NavigationButtonToolbarItemView.
 
 ## See Also
 

@@ -81,6 +81,18 @@ navigation:
     controls/button:
         title: "Button"
     ## End Button
+    ## Calendar
+    controls/calendar:
+        title: "Calendar"
+        ## Calendar Sub-Folders
+    controls/calendar/templates:
+        title: "Templates"
+        position: 9
+    controls/calendar/styling:
+        title: "Styling"
+        position: 15
+        ## End Calendar Sub-Folders
+    ## End Calendar
     ## Chart
     controls/chart:
         title: "Chart"
@@ -473,6 +485,10 @@ intro_columns:
         "SideDrawer": "sidedrawer-overview"
         "TabView": "tabview-overview"
         "WrapLayout": "wraplayout-overview"
+  -
+    title: "Calendar"
+    items:
+        "Calendar": "calendar-overview"
   -
     title: "Buttons"
     items:

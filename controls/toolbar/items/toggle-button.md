@@ -19,8 +19,7 @@ The exposed properties are:
 The exposed events are:
 
 * `IsSelectedChanged`&mdash;Raised when the `IsSelected` property has changed.
-* `Clicked`&mdash:Raised when the button is clicked.
-The available commands are:
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands 
 

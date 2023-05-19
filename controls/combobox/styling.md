@@ -10,13 +10,13 @@ slug: combobox-styling
 
 ComboBox control for .NET MAUI provides the following Style properties for customizing its look:
 
-* `PlaceholderColor`(`Microsoft.Maui.Graphics.Color`): Defines the color for the placeholder text.
-* `TextColor`(`Microsoft.Maui.Graphics.Color`): Defines the color of the text when the control is editable and color of the selected item when it is not editable and selection mode is single.
-* `BackgroundColor`(`Microsoft.Maui.Graphics.Color`): Defines the background color of the control.
-* `BorderColor`(`Microsoft.Maui.Graphics.Color`): Defines the color of the border.
-* `BorderThickness`(`Microsoft.Maui.Thickness`): Defines the thickness of the border.
-* `ClearButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadButton`): Defines the style for the clear button.
-* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`): Define the font options to the text of the RadComboBox. It is applied to the Placeholder, Selected Text(for single selection) and when the control is in Editable Mode.
+* `PlaceholderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color for the placeholder text.
+* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the text when the control is editable and color of the selected item when it is not editable and selection mode is single.
+* `BackgroundColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the background color of the control.
+* `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the border.
+* `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the thickness of the border.
+* `ClearButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadButton`)&mdash;Defines the style for the clear button.
+* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the RadComboBox. It is applied to the Placeholder, Selected Text(for single selection) and when the control is in Editable Mode.
 
 ### Example for ComboBox Styling
 

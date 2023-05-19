@@ -8,16 +8,16 @@ slug: combobox-selection
 
 # .NET MAUI ComboBox Selection
 
-ComboBox for .NET MAUI enables the app users to quickly and easily select item/items fro a dropdown list. This topic will go through the provided by the ComboBox API related to item/items selection.
+ComboBox for .NET MAUI enables the app users to quickly and easily select item/items from the dropdown list. This topic will go through the provided by the ComboBox API related to item/items selection.
 
 ComboBox control has a support for single and multiple selection. You can easily specify the required selection using the `SelectionMode` property.
 
 ## Main Properties
 
-* `SelectionMode` (enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`): Defines whether the selection is single or multiple.
-* `SelectedIndex`(`int`): Specifies the index of the first item in the current selection or -1 if the selection is empty.
-* `SelectedItem`(`object`): Defines the first item in the current selection, or null if the selection is empty.
-* `SelectedItems`(`readonly ObservableCollection &lt;object &gt;`): Gets the collection of currently Selected Items. 
+* `SelectionMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`)&mdash;Defines whether the selection is single or multiple.
+* `SelectedIndex`(`int`)&mdash;Specifies the index of the first item in the current selection or -1 if the selection is empty.
+* `SelectedItem`(`object`)&mdash;Defines the first item in the current selection, or null if the selection is empty.
+* `SelectedItems`(`readonly ObservableCollection &lt;object &gt;`)&mdash;Gets the collection of currently Selected Items. 
 
 > `SelectedItems` collection can be changed only when `SelectionMode` is `Multiple`. For `Single` `SelectionMode` use `SelectedItem`.
 
@@ -267,8 +267,8 @@ The `SelectionChanged` event handler receives two parameters:
 
 ComboBox has two commands related to the Selection feature:
 
-- `SelectAllCommand`(`ICommand`): Selects all items from the source.
-- `ClearSelectionCommand`(`ICommand`): Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
+- `SelectAllCommand`(`ICommand`)&mdash;Selects all items from the source.
+- `ClearSelectionCommand`(`ICommand`)&mdash;Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
 
 ## See Also
 
