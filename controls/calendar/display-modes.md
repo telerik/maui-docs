@@ -25,6 +25,15 @@ Easily change the `DisplayMode` throught the UI by tapping(for mobile) or clicki
 
 ![.NET MAUI Calendar Month View](images/combobox-header-footer.png)
 
+## Setting min and max display mode
+
+You can define a range for the display mode by using the 
+
+* `MinDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`.
+* `MaxDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`.
+
+<snippet id='calendar-display-range'/>
+
 ## Month view
 
 This view represents all days in a single month.
