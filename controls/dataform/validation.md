@@ -22,20 +22,13 @@ The selected mode is applied through `ValidationMode`(of type`Telerik.Maui.Contr
 * `LostFocus`&mdash;The changes are validated after the editor loses focus.
 * `PropertyChanged`&mdash;The changes in the editor are validated immediately on each property change (when the property value changes).
 
+>important When `ValidationMode` is set to `LostFocus`, you have to set `CommitMode` to `LostFocus` or `Explicit`.
+
 The `ValidationMode` can be applied globally to the RadDataForm 
 
 ```XAML
 <telerik:RadDataForm x:Name="dataForm"
                      ValidationMode="LostFocus"/>
-```
-
-or to each editor. 
-
-```XAML
-<telerik:RadDataForm x:Name="dataForm" AutoGenerateItems="False">
-    <telerik:DataFormTextEntry PropertyName="FirstName" HeaderText="Name" ValidationMode="LostFocus"/>
-    <telerik:DataFormNumericEditor PropertyName="People" HeaderText="People" Minimum="1" ValidationMode="PropertyChanged"/>
-</telerik:RadDataForm>
 ```
 
 ## Validation properties
