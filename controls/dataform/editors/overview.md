@@ -47,8 +47,8 @@ The table below describes the available editors which use the .NET MAUI controls
 * `PropertyValue`(`object`)&mdash;Defines the value of the property from the business object this editor is bound to.
 * `EditorValue`(`object`)&mdash;Specifies the current edited value, before applying it to the business object.
 * `IsReadOnly`(`bool?`)&mdash;Specifies whether the current editor is in a read-only mode.
-* `ValidationMode`(`Telerik.Maui.Controls.DataFormValidationMode`)&mdash;Defines the current validation mode of the DataForm editor.
-* `CommitMode`(`Telerik.Maui.Controls.DataFormCommitMode`)&mdash;Specifies the current commit mode of the DataForm editor.
+* `ValidationMode`(`Telerik.Maui.Controls.DataFormValidationMode`)&mdash;Inherits the ValidationMode from the DataForm.
+* `CommitMode`(`Telerik.Maui.Controls.DataFormCommitMode`)&mdash;Inherits the CommitMode from the DataForm.
 * `ColumnSpacing`(`double`)&mdash;Specifies the horizontal spacing between the rows in the editor.
 * `RowSpacing`(`double`)&mdash;Specifies the vertical spacing between the rows in the editor.
 * `ErrorDisplayOptions`(`Telerik.Maui.Controls.DataFormErrorDisplayOptions?`)&mdash;Specifies the display options of the header.
