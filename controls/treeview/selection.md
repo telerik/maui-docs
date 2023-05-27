@@ -24,9 +24,13 @@ The TreeView provides three selection modes, which allow you to manipulate the t
 
 The ListView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the ListView.
 
+>important For the Treeview Selected Item example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category.
+
 ## Selected Items Collection
 
-The TreeView provides the `SelectedItems` (`IList`) property, which is a read-only collection used to get the currently selected items.
+The TreeView provides the `SelectedItems` (`IList`) collection. The collection contains the items that are currently selected in the control.
+
+>important For the Treeview Selected Items example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category.
 
 ## Selection Events
 
@@ -35,8 +39,13 @@ The Treeview provides the `SelectionChanged` event, which is raised when the cur
 * The sender argument which is of type object, but can be cast to the `RadTreeView` type.
 * A `EventArgs` object which provides information on the collection changed event.
 
-
->important For the Treeview Selections example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category.
+>important For the Treeview Selection event refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Events category.
 
 ## See Also
 
+* [Expand/Collapse]({%slug treeview-expand-collapse%})
+* [CheckBoxes]({%slug treeview-checkboxes%})
+* [Styling]({%slug treeview-item-style%})
+* [Scrolling]({%slug treeview-scrolling%})
+* [Events]({%slug treeview-events%})
+* [Commands]({%slug treeview-commands%})
