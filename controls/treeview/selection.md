@@ -28,7 +28,7 @@ The ListView provides the `SelectedItem` (`object`) property, which specifies th
 
 ## Selected Items Collection
 
-The TreeView provides the `SelectedItems` (`IList`) collection. The collection contains the items that are currently selected in the control.
+The TreeView provides the `SelectedItems` collection of type`IList`. The collection contains the items that are currently selected in the control.
 
 >important For the Treeview Selected Items example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category.
 
