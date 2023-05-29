@@ -10,14 +10,14 @@ slug: combobox-templates
 
 If the default templates of the control do not suit your needs, you can easily define custom ones. The available templates for customizing are:
 
-* `ItemTemplate`(`DataTemplate`): Defines the template of the items that are visualized in the dropdown list.
+* `ItemTemplate`(`DataTemplate`)&mdash;Defines the template of the items that are visualized in the dropdown list.
 
 > When the selection mode is single and the control is not editable if there is ItemTemplate set the same template will be visualized in the box part of the control when item is selected.
 
-* `SelectedItemTemplate`(`DataTemplate`): Defines the template of the selected items that are visualized in the dropdown list.
-* `TokenTemplate`(`DataTemplate`): Defines the template of the tokens that are visualized when multiple selection is performed.
-* `ShowMoreTemplate`(`DataTemplate`): Defines the Template of the show more UI that gets visualized when the control is not focused and there is not enough space for all Tokens to be visualized when the selection mode is multiple.
-* `SelectionBoxTemplate`(`DataTemplate`): Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable(IsEditable set to "false").
+* `SelectedItemTemplate`(`DataTemplate`)&mdash;Defines the template of the selected items that are visualized in the dropdown list.
+* `TokenTemplate`(`DataTemplate`)&mdash;Defines the template of the tokens that are visualized when multiple selection is performed.
+* `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the Template of the show more UI that gets visualized when the control is not focused and there is not enough space for all Tokens to be visualized when the selection mode is multiple.
+* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable(IsEditable set to "false").
 
 ### Example with ItemTemplate and SelectedItemTemplate
 

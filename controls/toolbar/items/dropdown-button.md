@@ -23,8 +23,7 @@ The exposed properties are:
 The exposed events are:
 
 * `IsOpenChanged`&mdash;Raised when the `IsOpen` property has changed.
-* `Clicked`&mdash:Raised when the button is clicked.
-The available commands are:
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands 
 
