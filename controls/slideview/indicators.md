@@ -20,9 +20,9 @@ It expodes the following properties:
 
 * `NavigatеOnItemTap`&mdash;Defines a value indicating whether tapping on an item will update the SlideViewIndicator current index and navigation will follow.
 
-* `AnimationDuration`&mdash;Defines the duration in milliseconds od the animation that is run when the current index changes.
+* `AnimationDuration`(`int`)&mdash;Defines the duration in milliseconds od the animation that is run when the current index changes.
 
-* `AnimationEasing`&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
+* `AnimationEasing`(`Easing`)&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
 
 * `CurrentIndex`&mdash;Defines the index of the current item.
 

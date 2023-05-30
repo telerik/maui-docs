@@ -10,7 +10,7 @@ slug: slideview-scrolling
 
 By default when you reach to the last view, the 'next' slide button won't do anything. You can alter this and allow repeating of the views when you reach the last view, via the `OverScrollMode` property.
 
-* `OverScrollMode`&mdash;Defines the different behaviors of the `Telerik.Maui.Controls.RadSlideView` in cases where it is not possible to move the items in the direction that the user is attempting. This can happen for the first and last items when the `HasLooping` property is set to false.
+* `OverScrollMode`&mdash;Defines the different behaviors of the SlideView control. In cases where it is not possible to move the items in the direction that the user is attempting. This can happen for the first and last items when the `HasLooping` property is set to false.
 
 The property has two modes:
 

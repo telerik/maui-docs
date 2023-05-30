@@ -10,6 +10,6 @@ slug: slideview-animation
 
 SlideView provides the following properties:
 
-* **AnimationEasing**&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
+* `AnimationEasing`(`Easing`)&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
 
-* **AnimationDuration**&mdash;Defines the duration in milliseconds of the animation that is run when the current index changes.
+* `AnimationDuration`(`int`)&mdash;Defines the duration in milliseconds of the animation that is run when the current index changes.

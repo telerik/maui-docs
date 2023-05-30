@@ -19,8 +19,12 @@ the SlideView exposes a `NavigationButtonVisibility` property which defines diff
 
 When you slide throught the different view of the control with the Navigation Buttons, the SlideView exposes these commands:
 
-* `NavigateToPreviousItemCommand`(`ICommand`)&mdash;Get a command that handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to true and the current item is the first item, then navigation to the last item can happen and will happen seemingly as if it was the previous item.
+* `NavigateToPreviousItemCommand`(`ICommand`)&mdash;Get a command that handles navigation to the previous item.
+ 
+>If the RadSlideView `HasLooping` property is set to true and the current item is the first item, then navigation to the last item can happen and will happen seemingly as if it was the previous item.
 
-* `NavigateToNextItemCommand` (`ICommand`)&mdash;Get a command that handles the navigation to the next item. If the RadSlideView `HasLooping` property is set to true and the current item is the last item, then navigation to the first item can happen and will happen seemingly as if it was the next item.
+* `NavigateToNextItemCommand` (`ICommand`)&mdash;Get a command that handles the navigation to the next item. 
+
+>If the RadSlideView `HasLooping` property is set to true and the current item is the last item, then navigation to the first item can happen and will happen seemingly as if it was the next item.
 
 
