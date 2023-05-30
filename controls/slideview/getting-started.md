@@ -1,16 +1,18 @@
 ---
 title: Getting Started
 page_title: .NET MAUI SlideView Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project.
 position: 1
 slug: slideview-getting-started
 ---
 
 # Getting Started with .NET MAUI SlideView
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI SlideView by adding the control to your project.
+This guide provides the information you need to start using Telerik UI for .NET MAUI SlideView by adding the control to your project.
 
-Before adding the SlideView, you need to:
+## Prerequisites
+
+Before adding SlideView to your project, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
@@ -55,16 +57,16 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
  ## Additional Resources
 
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Binding SlideView to Data]({%slug slideview-data-binding%})
+- [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Handling the SlideView Events]({%slug slideview-events%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
+- [Styling the SlideView Component]({%slug slideview-styling%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})
 
 ## See Also
 
-- [Data Binding]({%slug slideview-data-binding%})
-- [Interaction ]({%slug slideview-interaction%})
-- [Commands ]({%slug slideview-commands%})
-- [Events ]({%slug slideview-events%})
-- [Item Template]({%slug slideview-item-template%})
-- [Control Template]({%slug slideview-control-template%})
-- [SlideView Styling ]({%slug slideview-styling%})
-- [Indicators Styling]({%slug indicators-styling%})
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

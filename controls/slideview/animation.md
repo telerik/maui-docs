@@ -8,8 +8,10 @@ slug: slideview-animation
 
 # Animation
 
-SlideView provides the following properties:
+Telerik for .NET MAUI SlideView allows you to configure the animation that appears when the user slides between the views.
 
-* **AnimationEasing**&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
+SlideView provides the following properties that control the animation:
 
-* **AnimationDuration**&mdash;Defines the duration in milliseconds of the animation that is run when the current index changes.
+* `AnimationEasing`&mdash;Defines the `Microsoft.Maui.Easing` of the animation that runs when the current index changes.
+
+* `AnimationDuration`&mdash;Defines the duration in milliseconds of the animation that runs when the current index changes.

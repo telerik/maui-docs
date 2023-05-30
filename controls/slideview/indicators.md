@@ -1,31 +1,25 @@
 ---
 title: Indicators
 page_title: .NET MAUI SlideView Documentation - Indicators
-description: "Learn more about the .NET MAUI SlideView indicators and their features."
+description: Learn more about the .NET MAUI SlideView indicators and their features.
 position: 8
 slug: slideview-indicators
 ---
 
 # .NET MAUI SlideView Indicators
 
-The `SlideViewIndicator` is a control that emphasizes changes from the current item to another item in a collection of items. This control also incorporates buttons to enable the end user to navigate between the next or previous items.
+The SlideViewIndicator is a control that emphasizes changes from the current item to another item in a collection of items. This control also incorporates buttons to enable the end user navigate between the next or previous items.
 
-It expodes the following properties:
+The following table represents the properties of the SlideViewIndicator.
 
-* `HasLooping`&mdash;Defines a value that indicates whether the navigation commands can navigate from first to last and from last to first items.
-
-* `Orientation`&mdash;Defines the orientation of the control.
-
-* `NavigationButtonsVisibillity`&mdash;Defines a value that controls the visibility of the navigation buttons.
-
-* `NavigatеOnItemTap`&mdash;Defines a value indicating whether tapping on an item will update the SlideViewIndicator current index and navigation will follow.
-
-* `AnimationDuration`&mdash;Defines the duration in milliseconds od the animation that is run when the current index changes.
-
-* `AnimationEasing`&mdash;Defines the `Microsoft.Maui.Easing` of the animation that is run when the current index changes.
-
-* `CurrentIndex`&mdash;Defines the index of the current item.
-
-* `MaxVisibleItems`&mdash;Defines a value indicating the maximum number of items to be displayed.
-
-* `ItemsSource`&mdash;Defines the SlideViewIndicator ItemsSource 
+|Property| Description|
+|--------|------------|
+| `HasLooping`|Defines a value that indicates whether the navigation commands can navigate from the first to the last and from the last to the first items.|
+| `Orientation`|Defines the orientation of the control.|
+| `NavigationButtonsVisibillity`|Defines a value that controls the visibility of the navigation buttons.|
+| `NavigatеOnItemTap`|Defines a value indicating whether tapping on an item will update the current index of the SlideViewIndicator and whether navigation will follow.|
+| `AnimationDuration`|Defines the duration (in milliseconds) of the animation that runs when the current index changes.|
+| `AnimationEasing`|Defines the `Microsoft.Maui.Easing` of the animation that runs when the current index changes.|
+| `CurrentIndex`|Defines the index of the current item.|
+| `MaxVisibleItems`|Defines a value indicating the maximum number of items to be displayed.|
+| `ItemsSource`|Defines the `ItemsSource` of the SlideViewIndicator.|

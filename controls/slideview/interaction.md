@@ -1,26 +1,25 @@
 ---
-title: Interaction
-page_title: .NET MAUI SlideView Documentation - Interaction
-description: "Learn how to interact with the navigation buttons of the SlideView control."
+title: Navigation Buttons
+page_title: .NET MAUI SlideView Documentation - Navigation Buttons
+description: Learn how to interact with the navigation buttons of the SlideView control.
 position: 10
 slug: slideview-interaction
 ---
 
-# .NET MAUI SlideView Interaction
+# .NET MAUI SlideView Navigation Buttons
 
-When you slide the tgriught the difeerent views you van use `Navigation Buttons`.
-the SlideView exposes a `NavigationButtonVisibility` property which defines different visibility options:
+To switch through the different views of the SlideView, you van use Navigation Buttons.
 
- * `Visisble`&mdash;defines when the buttons are visible
+The SlideView exposes a `NavigationButtonVisibility` property that allows you to control the visibility options of the Navigation Buttons:
 
- * `HiddenWhenDisabled`&mdash;defines when the buttons are visible when enabled, and hidden when disabled.
+* `Visisble`&mdash;The buttons are visible.
 
-  * `Collapsed`&mdash;defines when the button is not visible 
+* `HiddenWhenDisabled`&mdash;The buttons are visible when enabled and hidden when disabled.
 
-When you slide throught the different view of the control with the Navigation Buttons, the SlideView exposes these commands:
+* `Collapsed`&mdash;The buttons are not visible.
 
-* `NavigateToPreviousItemCommand`(`ICommand`)&mdash;Get a command that handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to true and the current item is the first item, then navigation to the last item can happen and will happen seemingly as if it was the previous item.
+When you slide through the different views with the Navigation Buttons, the SlideView exposes the following commands:
 
-* `NavigateToNextItemCommand` (`ICommand`)&mdash;Get a command that handles the navigation to the next item. If the RadSlideView `HasLooping` property is set to true and the current item is the last item, then navigation to the first item can happen and will happen seemingly as if it was the next item.
+* `NavigateToPreviousItemCommand` (`ICommand`)&mdash;Handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to `true` and the current item is the first item, then the navigation to the last item will happen seemingly as if it was the previous item.
 
-
+* `NavigateToNextItemCommand` (`ICommand`)&mdash;Handles the navigation to the next item. If the RadSlideView `HasLooping` property is set to true and the current item is the last item, then the navigation to the first item will happen seemingly as if it was the next item.

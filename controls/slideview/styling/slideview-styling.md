@@ -1,26 +1,23 @@
 ---
 title: SlideView Styling
 page_title: .NET MAUI SlideView Documentation - SlideView Styling
-description: "Learn how to style and customize the .NET Maui SlideView control."
+description: Learn how to style and customize the .NET Maui SlideView control.
 position: 12
 slug: slideview-styling
 ---
 
 # .NET MAUI SlideView Styling
 
-The SlideView control exposes a styling properties about the `Navigation Buttons`:
+The SlideView control exposes properties that allow you to control the appearance of the Navigation Buttons and of the Indicator.
 
-* `NavigateToPreviousItemButtonStyle`&mdash;Defines the custom `Microsoft.Maui.Controls.Style` that is taken into account when the creating actual `Microsoft.Maui.Style` that will be applied to the button that is linked to the SlideView's `NavigateToPreviousItemCommand`.
+To control the appearance of the Navigation Buttons, use the following properties:
 
-* `NavigateToNextItemButtonStyle`&mdash;Defines the custom `Microsoft.Maui.Controls.Style` that is taken into account when creating the actual `Microsoft.Maui.Controls.Style` that will be applied to the button that is linked to the SlideView's `NavigateToNextItemCommand`.
+* `NavigateToPreviousItemButtonStyle`&mdash;Defines the custom `Microsoft.Maui.Controls.Style` that is regarded when creating the `Microsoft.Maui.Style` that will be applied to the button that is linked to the SlideView's `NavigateToPreviousItemCommand`.
 
-The SlideView exposes a property about the Indicator Style:
+* `NavigateToNextItemButtonStyle`&mdash;Defines the custom `Microsoft.Maui.Controls.Style` that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the button that is linked to the SlideView's `NavigateToNextItemCommand`.
 
-* `IndicatorStyle`&mdash;Defines the custom `Microsoft.Maui.Controls.Style` that is taken into account when creating the actual `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator.
+To control the appearance of the SlideView Indicator, use the `IndicatorStyle` property—it defines the custom `Microsoft.Maui.Controls.Style` that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator.
 
 ### Example
 
-Here is an example of how to style the control:
-
-
-
+The following example demonstrates how to style the control.

@@ -1,7 +1,9 @@
 SDKBrowser
 SlideView
 RadSlideView
+SlideViewIndicator
 
 DataGrid
 Customizable
 Roadmap
+Namespaces
