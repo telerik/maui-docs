@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI SlideView Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI SlideView control and add the control to your .NET MAUI project."
-position: 2
+position: 1
 slug: slideview-getting-started
 ---
 

@@ -301,11 +301,11 @@ navigation:
     ## End SignaturePad
     ## SlideView
     controls/slideview:
-    title: "SlideView"
+        title: "SlideView"
     ##SlideView Sub-Folders
     controls/slideview/styling:
-    title: "Styling"
-    position:20
+        title: "Styling"
+        position: 20
     ## End SlideView Sub-Folders
     ##End SlideView
     ## SpreadProcessing
