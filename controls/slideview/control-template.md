@@ -26,7 +26,7 @@ The following code snippet represents the default Control Template of the SlideV
                 <Setter Property="MinimumHeightRequest" Value="40" />
             </Style>
 
-            <Style x:Key="NavigationButtonStyle" TargetType="telerikMauiControls:RadButton">
+            <Style x:Key="NavigationButtonStyle" TargetType="telerik:RadButton">
                 <Setter Property="CornerRadius" Value="{OnPlatform Default=4, iOS=8, Android=12}" />
                 <Setter Property="FontFamily" Value="{Static telerik:TelerikFont.Name}" />
                 <Setter Property="FontSize" Value="{OnPlatform Default=10, WinUI=14}" />
@@ -34,7 +34,7 @@ The following code snippet represents the default Control Template of the SlideV
                 <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F3F3F3, Dark=#1A1A1A}" />
                 <Setter Property="BorderThickness" Value="0" />
                 <Setter Property="Padding" Value="0" />
-                <Setter Property="telerikMauiControls:NavigationButtonUtils.Visibility" Value="{Binding NavigationButtonsVisibility, Source={RelativeSource Mode=TemplatedParent}}" />
+                <Setter Property="telerik:NavigationButtonUtils.Visibility" Value="{Binding NavigationButtonsVisibility, Source={RelativeSource Mode=TemplatedParent}}" />
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">

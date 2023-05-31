@@ -10,14 +10,14 @@ slug: indicators-styling
 
 The SlideView exposes the `IndicatorStyle` property that allows you to adapt the style of the SlideView Indicator.
 
-The `IndicatorStyle` property defines the custom `Microsoft.Maui.Controls.Style` that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator. To style the indicators, set the property `IndicatorStyle` to the SlideView control. You can style the indicators through the `Style` section in XAML.
+The `IndicatorStyle`(`Style`) property defines the custom style that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator. To style the indicators, set the property `IndicatorStyle` to the SlideView control. You can style the indicators through the `Style` section in XAML.
 
 The following table represents the available style properties.
 
 |Style Property|Description|
 |--------------|-----------|
-| `AnimationDuration`|Defines the duration (in milliseconds) of the animation that runs when the current index changes.|
-| `AnimationEasing`|Defines the `Microsoft.Maui.Easing` of the animation that runs when the current index changes.|
+| `AnimationDuration`(`int`)|Defines the duration (in milliseconds) of the animation that runs when the current index changes.|
+| `AnimationEasing`(`Easing`)|Defines the `Microsoft.Maui.Easing` of the animation that runs when the current index changes.|
 | `BackgroundColor`|Defines the color which will fill the background of a `VisualElement`.|
 | `HeightRequest`|Defines the desired height of the element.|
 | `WidthRequest`|Defines the desired width of the element.|
