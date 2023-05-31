@@ -12,7 +12,7 @@ PdfViewer for .NET MAUI provudes a flexible styling API for ites toolbar.
 
 In general the PdfViewerToolbar is based on the [RadToolbar]({%slug toolbar-overview}) control. All toolbar items in the PdfViewer inherit from `ButtonToolbarItem`.
 
-All styling properties available for the `ButtonToolbarItem` are applicable for the pdf toolbar items. For more details review the [ButtonToolbar Styling]({%slug toolbar-items-button%}) article. 
+All styling properties available for the `ButtonToolbarItem` are applicable for the pdf toolbar items. For more details review the ButtonToolbar Styling article. 
 
 Here is an example:
 
