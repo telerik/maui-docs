@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Conversational UI Documentation - Overview
-description: "Try now the Telerik RadChart for .NET MAUI"
+description: Try now the Telerik RadChart for .NET MAUI
 position: 0
 slug: chat-overview
 ---

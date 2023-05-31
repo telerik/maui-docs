@@ -1,7 +1,7 @@
 ---
 title: Typing Indicator
 page_title: .NET MAUI Conversational UI Documentation - Typing Indicator
-description: "Learn more about typing indicator functionality of the Conversational UI."
+description: Learn more about typing indicator functionality of the Conversational UI
 position: 8
 slug: chat-typing-indicator
 ---

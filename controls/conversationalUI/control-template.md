@@ -1,7 +1,7 @@
 ---
 title: Control Template
 page_title: .NET MAUI Conversational UI Documentation - Control Template
-description: "Learn more about the control template property and how to modify it."
+description: Learn more about the control template property and how to modify it
 position: 6
 slug: chat-control-template
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Conversational UI Documentation | RadChat Items Overview
-description: "Learn more about ChatItem collection in RadChat control."
+description: Learn more about ChatItem collection in RadChat control
 position: 0
 slug: chat-items-overview
 ---

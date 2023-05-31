@@ -1,7 +1,7 @@
 ---
 title: ImageCard
 page_title: .NET MAUI Conversational UI Documentation | Chat ImageCardContext
-description: "Learn more about ImageCard functionality of the RadChat control."
+description: Learn more about ImageCard functionality of the RadChat control
 position: 1
 slug: chat-imagecard
 ---

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI Conversational UI Documentation - Getting Started
-description: "Learn how to start using the RadChat control in your project."
+description: Learn how to start using the RadChat control in your project
 position: 2
 slug: chat-getting-started
 ---

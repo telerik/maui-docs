@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: .NET MAUI Conversational UI Documentation - Localization
-description: "Learn more about the localization that Conversational UI provides."
+description: Learn more about the localization that Conversational UI provides
 position: 8
 slug: chat-localization
 ---

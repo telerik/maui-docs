@@ -1,7 +1,7 @@
 ---
 title: Chat Messages
 page_title: .NET MAUI Conversational UI Documentation - Chat Messages
-description: "Learn more about Chat Message unit in RadChat."
+description: Learn more about Chat Message unit in RadChat
 position: 1
 slug: chat-items-messages
 ---

@@ -1,7 +1,7 @@
 ---
 title: Migrate from Xamarin
 page_title: .NET MAUI Conversational UI Documentation - Migrate from Xamarin
-description: "Learn how to migrate the Telerik UI for Xamarin RadChat to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages. "
+description: Learn how to migrate the Telerik UI for Xamarin RadChat to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages
 position: 3
 slug: chat-migrate-from-xamarin
 ---

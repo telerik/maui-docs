@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Conversational UI Documentation | ChatPicker Overview
-description: "Learn more about different pickers that RadChat control provides."
+description: Learn more about different pickers that RadChat control provides
 position: 0
 slug: chat-picker-overview
 ---
