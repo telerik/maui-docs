@@ -1,6 +1,6 @@
 ---
-title: Fonts
-page_title: .NET MAUI PdfViewer Documentation - Fonts
+title: Toolbar Styling
+page_title: .NET MAUI PdfViewer Documentation - Toolbar Styling
 description: Learn how to style the Telerik PdfViewer Toolbar items.
 position: 7
 slug: pdfviewer-styling
@@ -10,7 +10,7 @@ slug: pdfviewer-styling
 
 PdfViewer for .NET MAUI provudes a flexible styling API for ites toolbar. 
 
-In general the PdfViewerToolbar is based on the [RadToolbar]({%slug toolbar-overview}) control. All toolbar items in the PdfViewer inherit from `ButtonToolbarItem`.
+In general the PdfViewerToolbar is based on the RadToolbar control. All toolbar items in the PdfViewer inherit from `ButtonToolbarItem`.
 
 All styling properties available for the `ButtonToolbarItem` are applicable for the pdf toolbar items. For more details review the ButtonToolbar Styling article. 
 
