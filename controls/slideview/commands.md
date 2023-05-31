@@ -20,14 +20,14 @@ The control provides commands that handle the navigation through the items:
 
 The following example shows how to add a command.
 
-1. Add the SlideView definition.
+**1.** Add the SlideView definition.
 
 <snippet id='slideview-commands' />
 
-2. Add the commands. In this example, the commands are bound to buttons:
+**2.** Add the commands. In this example, the commands are bound to buttons:
 
 <snippet id='slideview-commands-button' />
 
-3. Add the event handler.
+**3.** Add the event handler.
 
 <snippet id='slideview-commands-button-clicked' />

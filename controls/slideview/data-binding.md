@@ -14,17 +14,17 @@ To define the collection of the items that will populate the control with data, 
 
 ## Binding to a Complex Object
 
-1. Add the SlideView definition in XAML:
+**1.** Add the SlideView definition in XAML:
 
 <snippet id='slideview-getting-started-complex-object-xaml'/>
 
-2. Add the following namespace:
+**2.** Add the following namespace:
 
     ```XAML
     xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
     ```
 
-3. Add the sample Business Model or the View Model:
+**3.** Add the sample Business Model or the View Model:
 
 - Business Model
 
