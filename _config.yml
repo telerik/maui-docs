@@ -285,6 +285,10 @@ navigation:
     controls/pdfprocessing:
         title: "PdfProcessing"
     ## End PdfProcessing
+    ## PdfViewer
+    controls/pdfviewer:
+        title: "PdfViewer"
+    ## End PdfViewer
     ## Popup
     controls/popup:
         title: "Popup"
@@ -358,6 +362,13 @@ navigation:
         title: "Items"
         position: 4
     ## End Toolbar
+    ## TreeView
+    controls/treeview:
+        title: "TreeView"
+    controls/treeview/styling:
+        title: "Styling"
+        position: 15
+    ## End TreeView
     ## WordsProcessing
     controls/wordsprocessing:
         title: "WordsProcessing"
@@ -494,6 +505,7 @@ intro_columns:
         "SideDrawer": "sidedrawer-overview"
         "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
+        "TreeView": "treeview-overview"
         "WrapLayout": "wraplayout-overview"
   -
     title: "Calendar"
@@ -516,6 +528,10 @@ intro_columns:
         "Path": "path-overview"
         "Popup": "popup-overview"
         "Toolbar": "toolbar-overview"
+  -
+    title: "PDF Viewer"
+    items:
+        "PdfViewer": "pdfviewer-overview"
   -
     title: "Document Processing Libraries"
     items:

@@ -17,11 +17,12 @@ slug: pdfviewer-overview
 ## Key Features
 
 * Visualize pdf documents&mdash;Display pdf documents that include images, shapes (geometrics), different colors(solid, linear and radial gradients), ordered and bullet lists, and more. 
-* [Various document source options]()&mdash;You could load the pdf document from a stream, from a file added as embedded resource or a file located on the device, etc.
-* [Zooming Functionality]()&mdash;PdfViewer provides an option for **zoom in and zoom out** the content of the document. 
-* [Single page and Continuous Scrolling Support]()&mdash;You can choose between two layout modes which allow the document to be scrolled in the viewer. Read [Viewing Modes]({%slug pdfviewer-key-features%}#viewing-modes) for more details.
-* [Commands Support]()&mdash;PdfViewer allows you to extend the default commands, such as ZoomIn, ZoomOut, NavigateTo (NextPage, PreviousPage, Page), FitToWidth and ToggleLayoutMode. For detailed information on the matter check [Commands]({%slug pdfviewer-commands%}) article. 
-* [Toolbar]({%slug pdfviewer-toolbar%}) with predefined items&mdash;Take advantage of a pre-defined UI automatically wired with all of the commands provided by the control through built-in functionality. Check [Pdf Toolbar]({%slug pdfviewer-toolbar%}) article for more info.
+* [Various document source options]({%slug pdfviewer-display-documents%})&mdash;You could load the pdf document from a stream, from a file added as embedded resource or a file located on the device, etc.
+* [Zooming Functionality]({%slug pdfviewer-configuration%})&mdash;PdfViewer provides an option for **zoom in and zoom out** the content of the document. 
+* [Single page and Continuous Scrolling Support]()&mdash;You can choose between two layout modes which allow the document to be scrolled in the viewer.
+* [Commands Support]({%slug pdfviewer-commands%})&mdash;PdfViewer allows you to extend the default commands, such as ZoomIn, ZoomOut, NavigateTo (NextPage, PreviousPage, Page), FitToWidth and ToggleLayoutMode. 
+* [Toolbar]({%slug pdfviewer-toolbar%}) with predefined items&mdash;Take advantage of a pre-defined UI automatically wired with all of the commands provided by the control through built-in functionality.
+* [Style the toolbar]({%slug pdfviewer-styling%}) per your requirements.
 
 ## Next Steps
 
