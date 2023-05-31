@@ -1,7 +1,7 @@
 ---
 title: Layout Modes
 page_title: .NET MAUI PdfViewer Documentation - Layout Modes
-description: "Review the different layout modes of the Pdfviewer for .NET MAUI."
+description: Review the different layout modes of the Pdfviewer for .NET MAUI.
 position: 2
 slug: pdfviewer-layout-modes
 ---

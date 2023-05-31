@@ -1,7 +1,7 @@
 ---
 title: Link Annotations
 page_title: .NET MAUI PdfViewer Documentation - Link Annotations
-description: "Review the link annotations features introduced in Telerik .NET MAUI PdfViewer control."
+description: Review the link annotations features introduced in Telerik .NET MAUI PdfViewer control.
 position: 4
 slug: pdfviewer-annotations
 ---
@@ -24,11 +24,11 @@ The example below demonstrates how you could detect whether the link annotation 
 
 Then, you could implement additional logic for requesting a confirmation from the end user whether to navigate outside of the app in the case of a hyperlink.
 
-Add the PdfViewer definition with the event:
+**1.** Add the PdfViewer definition with the event:
 
 <snippet id='pdfviewer-features-annotations-xaml' />
 
-And the `LinkAnnotationTapped` event handler:
+**2.** And the `LinkAnnotationTapped` event handler:
 
 <snippet id='pdfviewer-annotations-event' />
 

@@ -1,7 +1,7 @@
 ---
 title: Display Documents
 page_title: .NET MAUI PdfViewer Documentation - Display Documents
-description: "Review the options for visualizing pdf documents in the PdfViewer for .NET MAUI."
+description: Review the options for visualizing pdf documents in the PdfViewer for .NET MAUI.
 position: 2
 slug: pdfviewer-display-documents
 ---

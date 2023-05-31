@@ -12,9 +12,9 @@ PdfViewer provides the following commands of type `ICommand`:
 
 * `ZoomInCommand`
 * `ZoomOutCommand`
-* `NavigateToNextPageCommand`
-* `NavigateToPreviousPageCommand`
-* `NavigateToPageCommand`
+* `NavigateToNextPageCommand`Navigates to next page.
+* `NavigateToPreviousPageCommand`&mdash;Navigates to previous page.
+* `NavigateToPageCommand`&mdash;Navigates to a concrete page.
 * `ToggleLayoutModeCommand`&mdash;Triggers the RadPdfViewer LayoutModes (`ContinuousScroll` and `SinglePage`)
 * `FitToWidthCommand`&mdash;There are two options when executing FitToWidth command:
 	* `FitDocumentToWidthCommand`(the default one)&mdash;Refers to the whole document; it would lookup the widest of all pages and set a zoom level, so that this page is fit to width. 
@@ -31,15 +31,15 @@ PdfViewer provides the following commands of type `ICommand`:
 
 Following is an example how the RadPdfViewer commands could be called on a button click action. 
 
->The snippet below shows one of the approaches for loading a pdf document inside RadPdfViewer just for the purpose of the example. For more details on various ways for loading the document check [Key Features: Pdf Document Visualization]({%slug pdfviewer-key-features%}#pdf-document-visualization) topic.
+>The snippet below shows one of the approaches for loading a pdf document inside PdfViewer just for the purpose of the example.
 
-Add a pdf document to the project and set its build action to be **EmbeddedResource**.
+**1.** Add a pdf document to the project and set its build action to be `EmbeddedResource`.
 
-Add the following code to visualize the document:
+**2.** Add the following code to visualize the document:
 
 <snippet id='pdfviewer-commands'/>
 
-Use the following snippet to declare a RadPdfViewer in XAML and add a few buttons that will execute the pdf viewer commands:
+**3.** Use the following snippet to declare a RadPdfViewer in XAML and add a few buttons that will execute the pdf viewer commands:
 
 <snippet id='pdfviewer-commands-xaml'/>
 

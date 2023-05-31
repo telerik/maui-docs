@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI PdfViewer Documentation - Overview
-description: "Try now the Telerik PdfViewer for .NET MAUI."
+description: Try now the Telerik PdfViewer for .NET MAUI.
 position: 0
 slug: pdfviewer-overview
 ---

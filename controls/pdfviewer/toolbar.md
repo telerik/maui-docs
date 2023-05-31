@@ -1,7 +1,7 @@
 ---
 title: PdfViewer Toolbar
 page_title: .NET MAUI PdfViewer Documentation - PdfViewer Toolbar
-description: "Review all predefined items in the .NET MAUI PdfViewer control."
+description: Review all predefined items in the .NET MAUI PdfViewer control.
 position: 3
 slug: pdfviewer-toolbar
 ---
@@ -14,25 +14,27 @@ PdfToolbar includes some of commands that the PdfViewer provides. You have also 
 
 PdfToolbar provides the following toolbar items:
 
-* `ZoomInToolbarItem`
-* `ZoomOutToolbarItem`
-* `NavigateToNextPageToolbarItem`
-* `NavigateToPreviousPageToolbarItem`
-* `FitToWidthToolbarItem`
+* `PdfViewerZoomInToolbarItem`
+* `PdfViewerZoomOutToolbarItem`
+* `PdfViewerNavigateToNextPageToolbarItem`
+* `PdfViewerNavigateToPreviousPageToolbarItem`
+* `PdfViewerFitToWidthToolbarItem`
+
+>note PdfToolbarItems inherit from `ButtonToolbarItem`. All properties applicable for `ButtonToolbarItem` are available for the PdfViewer toolbar items. 
 
 ### Example
 
-Use the following snippet to define the RadPdfViewer and RadPdfToolbar:
+**1.** Use the following snippet to define the RadPdfViewer and RadPdfToolbar:
 
 <snippet id='pdfviewer-toolbar-xaml'/>
 
-Add the following namespace:
+**2.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Then add the following code to visualize the pdf document:
+**3.** Then add the following code to visualize the pdf document:
 
 <snippet id='pdfviewer-toolbar'/>
 
@@ -58,7 +60,7 @@ Here is an example showing how to add a custom ToolbarItem with a sample command
 
 <snippet id='pdfviewer-toolbar-customcommand' />
 
-As you might notice in the previous snippet, there is a ViewModel class set as BindingContext of the page. In the ViewModel get a reference to the `RadFixedDocument` instance through the `Document` property of the PdfViewer as well as execute the `DisplayFileSizeCommand` bound to the `Command` property of the custom ToolbarItem:
+**3.** ViewModel class. In the ViewModel get a reference to the `RadFixedDocument` instance through the `Document` property of the PdfViewer as well as execute the `DisplayFileSizeCommand` bound to the `Command` property of the custom ToolbarItem:
 
 <snippet id='pdfviewer-toolbar-customcommand-vm' />
 

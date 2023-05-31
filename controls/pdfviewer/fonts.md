@@ -1,7 +1,7 @@
 ---
 title: Fonts
 page_title: .NET MAUI PdfViewer Documentation - Fonts
-description: :Review how to register the fonts in the pdf document."
+description: Review how to register the fonts in the pdf document.
 position: 7
 slug: pdfviewer-fonts
 ---

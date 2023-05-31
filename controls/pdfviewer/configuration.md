@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI PdfViewer Documentation - Configuration
-description: "Review how to configure the Pdfviewer for .NET MAUI."
+description: Learn what are the options to configure the PdfViewer for .NET MAUI.
 position: 2
 slug: pdfviewer-configuration
 ---
