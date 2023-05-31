@@ -38,7 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-toolbar'/>
 
->The snippet above shows one of the approaches for loading a pdf document inside RadPdfViewer just for the purpose of the example. For more details on various ways for loading the document check [Key Features: Pdf Document Visualization]({%slug pdfviewer-key-features%}#pdf-document-visualization) topic.
+>The snippet above shows one of the approaches for loading a pdf document inside RadPdfViewer just for the purpose of the example.
 
 This is the result:
 
