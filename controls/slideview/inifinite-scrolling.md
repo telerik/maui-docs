@@ -1,21 +1,21 @@
 ---
 title: Infinite Scrolling
 page_title: .NET MAUI SlideView Documentation - Infinite Scrolling
-description: "Learn about the infinite scrolling mechanism that SlideView control provides."
+description: Learn about the infinite scrolling mechanism that SlideView control provides.
 position: 11
 slug: slideview-scrolling
 ---
 
-# .NET MAUI SlideView Infinite Scrollng
+# .NET MAUI SlideView Infinite Scrolling
 
-By default when you reach to the last view, the 'next' slide button won't do anything. You can alter this and allow repeating of the views when you reach the last view, via the `OverScrollMode` property.
+By default, when you reach the last view, the **Next** slide button won't do anything. You can change this behavior through the `OverScrollMode` property and allow repeating of the views when the user reaches the last view.
 
-* `OverScrollMode`&mdash;Defines the different behaviors of the SlideView control. In cases where it is not possible to move the items in the direction that the user is attempting. This can happen for the first and last items when the `HasLooping` property is set to false.
+The `OverScrollMode` property defines the possible behavior of the SlideView control in cases where the items cannot move in the direction selected by the user. This can happen for the first and last items when you set the `HasLooping` property to `false`.
 
-The property has two modes:
+The `OverScrollMode` property has two modes:
 
-   * `None`&mdash;no overscroll will happen 
-   * `Spring`&mdash;The end-user will be able to move the item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.
+* `None`&mdash;No overscroll will happen.
+* `Spring`&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.  
 
    
 

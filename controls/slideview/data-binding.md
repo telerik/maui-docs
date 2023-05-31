@@ -1,32 +1,36 @@
 ---
 title: Data Binding
 page_title: .NET MAUI SlideView Documentation - Data Binding
-description: "Review the data binding oprions for .NET MAUI SlideView control."
+description: Review the data binding options for the NET MAUI SlideView control.
 position: 4
 slug: slideview-data-binding
 ---
 
 # .NET MAUI SlideView Data Binding
 
-- `ItemsSource`(`IEnumerable`)&mdash;Defines the collection of the items that will populate the control with data.
+The Telerik UI for .NET MAUI SlideView provides built-in options that allow you to bind data.
 
-## Binding to a complex object
+To define the collection of the items that will populate the control with data, use `ItemsSource`(`IEnumerable`).
 
-Here is the SlideView definition in XAML:
+## Binding to a Complex Object
+
+**1.** Add the SlideView definition in XAML:
 
 <snippet id='slideview-getting-started-complex-object-xaml'/>
 
-In addition to this, you need to add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+    ```XAML
+    xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+    ```
 
-the sample business model
+**3.** Add the sample Business Model or the View Model:
+
+- Business Model
 
 <snippet id='slideview-businessmodel'/>
 
-and the ViewModel used:
+- View Model
 
 <snippet id='slideview-viewmodel'/>
 

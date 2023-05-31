@@ -1,16 +1,16 @@
 ---
 title: Control Template
 page_title: .NET MAUI SlideView Documentation - Control Template
-description: "Learn about the visual appearence defined throught the control template."
+description: Learn how to control the visual appearence of the .NET MAUI SlideView component throught the Control Template.
 position: 7
 slug: slideview-control-template
 ---
 
 # .NET MAUI SlideView Control Template
 
-SlideView's visual appearance is defined through a Control Template. In order to customize the way the SlideView looks, you will need to take the default `ControlTemplate` and modify it.
+SlideView's visual appearance is defined through a Control Template. To customize the way the SlideView looks, use the default `ControlTemplate` and modify it.
 
-This topic gives an overview of the ControlTemplate of the SlideView control, so you can copy it to your app and make changes.
+The following code snippet represents the default Control Template of the SlideView control. You can copy it and implement the desired changes.
 
 ```XAML
 <ResourceDictionary>

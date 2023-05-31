@@ -1,38 +1,37 @@
 ---
 title: Item Template
 page_title: .NET MAUI SlideView Documentation - Item Template
-description: "Learn how to customize the visualization of the views in the ItemsSource of the control using ItemTemplate property."
+description: Learn how to customize the visualization of the views in the ItemsSource of the control by using the ItemTemplate property.
 position: 6
 slug: slideview-item-template
 ---
 
 # .NET MAUI SlideView Item Template
 
-`SlideView` can be populated with various types of objects (string, int, any business objects, etc.). You can customize the visualization of the views in the ItemsSource of the control using its ItemTemplate property. The template could contain any view that you can use to display the data.
+You can populate the SlideView component with various types of objects, for example, `string`, `int`, business objects, and so on. To customize the visualization of the views in the `ItemsSource` of the control, use its `ItemTemplate` property. The template can contain any of the views that you use to display the data.
 
-### Еxample
+### Example
 
-The following example shows how to populate the ItemsSource with business items and customize their appearance.
+The following example shows how to populate the `ItemsSource` with business items and customize their appearance.
 
-Create a sample MyItem class: 
-
-<snippet id='' />
-
-Add a ViewModel containing a collection of MyItem objects:
+**1.** Create a sample `MyItem` class. 
 
 <snippet id='' />
 
-Add the SlideView definition with a sample ItemTemplate applied:
+**2.** Add a View Model containing a collection of `MyItem` objects.
 
 <snippet id='' />
 
-All that is left is to set the BindingContext to the ViewModel:
+**3.** Add the SlideView definition with a sample `ItemTemplate` applied.
+
+<snippet id='' />
+
+**4.** Set the `BindingContext` to the View Model:
 
 <snippet id='' />
 
 Here is the result:
-	
-#### Figure 1: RadSlideView with ItemTemplate applied
-![RadSlideView example](images)
+
+![RadSlideView with ItemTemplate applied](images)
 
 ## See Also
