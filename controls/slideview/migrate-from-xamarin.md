@@ -4,7 +4,7 @@ page_title: Migrating the SlideView from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin SlideView to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-slideview-to-maui
-position: 3
+position: 20
 ---
 
 # Migrating the SlideView from Xamarin to .NET MAUI  
@@ -30,5 +30,5 @@ The Telerik UI for .NET MAUI SlideView and the Xamarin SlideView have some diffe
 | `IsAnimated` | NA |
 | [Controlling the alignment of the content](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-content-alignment) | NA |
 | `IsInfiniteScrollingEnabled` | `HasLooping` |
-| [Customization properties for the slide buttons](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-slide-buttons) | [Styling properties for the Navigation Buttons]({%slug slideview-styling%}) |
+| [Customization properties for the slide buttons](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-slide-buttons) | [Styling properties for the Navigation Buttons]({%slug slideview-navigation-buttons-styling%}) |
 | `ItemTemplateSelector` | NA |

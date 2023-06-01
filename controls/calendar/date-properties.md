@@ -2,7 +2,7 @@
 title: Date Porperties
 page_title: .NET MAUI Calendar Documentation - Date Porperties
 description: Review all properties for setting the min and max date, selected date and display date of the Telerik Calendar for .NET MAUI control.
-position: 9
+position: 3
 slug: calendar-date-properties
 ---
 

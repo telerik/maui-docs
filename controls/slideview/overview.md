@@ -8,7 +8,7 @@ slug: slideview-overview
 
 # .NET MAUI SlideView Overview
 
-Telerik UI for .NET MAUI SlideView is a flexible navigation control that allows you to slide between different views, thus providing an interactive navigation. With SlideView, you can build a gallery display to show your images and content efficiently.
+**Telerik UI for .NET MAUI SlideView** is a flexible navigation control that allows you to slide between different views, thus providing an interactive navigation. With SlideView, you can build a gallery display to show your images and content efficiently.
 
 ![SlideView Overview](images//slideview_overview.png)
 
@@ -22,7 +22,7 @@ Telerik UI for .NET MAUI SlideView is a flexible navigation control that allows 
 
 * [Commands support]({%slug slideview-commands%})&mdash;The Telerik UI for .NET MAUI SlideView exposes a number of commands that will be executed when the slide actions occurs.
 
-* [UI Virtualization]&mdash;SlideView supports UI Virtualization which processes only the visual elements that are loaded in the currently selected, the previous, and the next view. This speeds up the loading time, thus enhancing the UI performance.
+* UI Virtualization&mdash;SlideView supports UI Virtualization which processes only the visual elements that are loaded in the currently selected, the previous, and the next view. This speeds up the loading time, thus enhancing the UI performance.
 
 ## Next Steps
 
@@ -30,6 +30,7 @@ Telerik UI for .NET MAUI SlideView is a flexible navigation control that allows 
 
 ## See Also
 
+- [.NET MAUI SlideView Product Page](https://www.telerik.com/maui-ui/slideview)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 - [Migrate from Xamarin]({%slug migrate-xamarin-slideview-to-maui%})

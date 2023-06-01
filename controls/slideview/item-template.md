@@ -2,7 +2,7 @@
 title: Item Template
 page_title: .NET MAUI SlideView Documentation - Item Template
 description: Learn how to customize the visualization of the views in the ItemsSource of the control by using the ItemTemplate property.
-position: 6
+position: 8
 slug: slideview-item-template
 ---
 
@@ -35,3 +35,7 @@ Here is the result:
 ![RadSlideView with ItemTemplate applied](images)
 
 ## See Also
+
+- [Binding SlideView to Data]({%slug slideview-data-binding%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})

@@ -3,7 +3,7 @@ title: Toolbar Styling
 page_title: .NET MAUI PdfViewer Documentation - Toolbar Styling
 description: Learn how to style the Telerik PdfViewer Toolbar items.
 position: 7
-slug: pdfviewer-styling
+slug: pdfviewer-toolbar-styling
 ---
 
 # .NET MAUI PdfViewer Toolbar Styling

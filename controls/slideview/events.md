@@ -2,7 +2,7 @@
 title: Events 
 page_title: .NET MAUI SlideView Documentation - Events
 description: Review the different events that are triggered on when the current item is changed.
-position: 6
+position: 11
 slug: slideview-events
 ---
 
@@ -22,11 +22,11 @@ To handle the `CurrentItemChanged` event of RadSlideView:
 
 <snippet id='slideview-events-current-item-changed-event' />
 
-### See Also
+## See Also
 
-- [Getting Started]({% slug slideview-getting-started %})
-- [Commands ]({% slug slideview-commands%})
-
-
-
-
+- [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
+- [Styling the SlideView Component]({%slug slideview-navigation-buttons-styling%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})

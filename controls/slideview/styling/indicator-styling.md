@@ -10,7 +10,7 @@ slug: indicators-styling
 
 The SlideView exposes the `IndicatorStyle` property that allows you to adapt the style of the SlideView Indicator.
 
-The `IndicatorStyle`(`Style`) property defines the custom style that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator. To style the indicators, set the property `IndicatorStyle` to the SlideView control. You can style the indicators through the `Style` section in XAML.
+The `IndicatorStyle`(Style with target type `telerik:SlideViewIndicator`) property defines the custom style that is regarded when creating the `Microsoft.Maui.Controls.Style` that will be applied to the SlideViewIndicator. To style the indicators, set the property `IndicatorStyle` to the SlideView control. You can style the indicators through the `Style` section in XAML.
 
 The following table represents the available style properties.
 
@@ -29,3 +29,12 @@ The following table represents the available style properties.
 | `MinimumHeightRequest`|Defines a value which overrides the minimum height the element will request during layout.|
 | `MaximumWidthRequest`|Defines a value which overrides the maximum width the element will request during layout.|
 | `MinimumWidthRequest`|Defines a value which overrides the mimimum width the element will request during layout.|
+
+## See Also
+
+- [Binding SlideView to Data]({%slug slideview-data-binding%})
+- [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Handling the SlideView Events]({%slug slideview-events%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})

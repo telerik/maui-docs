@@ -2,7 +2,7 @@
 title: Control Template
 page_title: .NET MAUI SlideView Documentation - Control Template
 description: Learn how to control the visual appearence of the .NET MAUI SlideView component throught the Control Template.
-position: 7
+position: 17
 slug: slideview-control-template
 ---
 
@@ -176,3 +176,14 @@ The following code snippet represents the default Control Template of the SlideV
 </ControlTemplate>
 </ResourceDictionary>
 ```
+
+## See Also
+
+- [Binding SlideView to Data]({%slug slideview-data-binding%})
+- [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Handling the SlideView Events]({%slug slideview-events%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
+- [Styling the SlideView Component]({%slug slideview-navigation-buttons-styling%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})

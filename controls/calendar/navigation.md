@@ -2,7 +2,7 @@
 title: Navigation
 page_title: .NET MAUI Calendar Documentation - Navigation
 description: "Review the navigation options that Telerik Calendar for .NET MAUI control provides."
-position: 9
+position: 7
 slug: calendar-navigation
 ---
 
