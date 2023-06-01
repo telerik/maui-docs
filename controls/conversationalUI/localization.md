@@ -25,6 +25,4 @@ The localization key refers to the watermark message that is shown in the input 
 	
 ## See Also
 
-- [Chat Items]({% slug  %}) 
-- [ChatPicker]({%slug %})
-- [MVVM Support]({% slug %})
+[Localizatiion and Globalization](slug %globalization-localization%)

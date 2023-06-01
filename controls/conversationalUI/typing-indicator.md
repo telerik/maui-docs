@@ -39,3 +39,8 @@ You can use directly `Authors` collection which is of type `ObservableCollection
 
 And the result is:
 
+## See Also
+
+- [Commands]({% slug chat-commands %})
+- [Chat Items]({%slug chat-items-overview %})
+- [MVVM Support]({%slug chat-mvvm-support %})

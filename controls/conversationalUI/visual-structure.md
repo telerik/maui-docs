@@ -6,12 +6,17 @@ position: 1
 slug: chat-visual-structure
 ---
 
-# .NET MAUI RadChart Visual Structure
+# .NET MAUI RadChat Visual Structure
 
-The RadChart uses a set of visual elements.
+The RadChat uses a set of visual elements.
 
 ## Displayed Elements
 
 
 
-## RadChart Structure
+## RadChat Structure
+
+
+## See Also
+
+- [Commands]({% slug chat-commands %})

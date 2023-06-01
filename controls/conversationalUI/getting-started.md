@@ -65,3 +65,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [MVVM Support]({% slug chat-mvvm-support%})

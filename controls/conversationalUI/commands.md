@@ -21,7 +21,6 @@ And the command Execute method:
 Definition of RadChat components:
 
 
-
 ## See Also
 
 - [MVVM Support]({% slug chat-mvvm-support%})
