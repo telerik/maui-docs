@@ -127,8 +127,8 @@ navigation:
             ## End Chart Series Sub-Folders
         ## End Chart Sub-Folders
     ## End Chart
-        ## Chat
-    controls/chart:
+    ## Chat
+    controls/chat:
         title: "Conversational UI(Chat)"
         ## Chart Sub-Folders
     controls/chat/items:
@@ -137,9 +137,8 @@ navigation:
     controls/chat/pickers:
         title: "Chat Pickers"
         position: 4
-            ## End Chat Series Sub-Folders
         ## End Chat Sub-Folders
-    ## End Chart
+    ## End Chat
     ##CheckBox
     controls/checkbox:
         title: "CheckBox"
