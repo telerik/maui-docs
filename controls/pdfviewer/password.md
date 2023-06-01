@@ -2,7 +2,7 @@
 title: Password Protected Documents
 page_title: .NET MAUI PdfViewer Documentation - Password protected documents
 description: Review how to configure the Pdfviewer for .NET MAUI.
-position: 2
+position: 5
 slug: pdfviewer-password
 ---
 

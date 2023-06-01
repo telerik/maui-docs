@@ -2,7 +2,7 @@
 title: Navigation Buttons
 page_title: .NET MAUI SlideView Documentation - Navigation Buttons
 description: Learn how to interact with the navigation buttons of the SlideView control.
-position: 10
+position: 5
 slug: slideview-interaction
 ---
 
@@ -23,3 +23,11 @@ When you slide through the different views with the Navigation Buttons, the Slid
 * `NavigateToPreviousItemCommand` (`ICommand`)&mdash;Handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to `true` and the current item is the first item, then the navigation to the last item will happen seemingly as if it was the previous item.
 
 * `NavigateToNextItemCommand` (`ICommand`)&mdash;Handles the navigation to the next item. If the RadSlideView `HasLooping` property is set to `true` and the current item is the last item, then the navigation to the first item will happen seemingly as if it was the next item.
+
+## See Also
+
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Handling the SlideView Events]({%slug slideview-events%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Styling the SlideView Component]({%slug slideview-navigation-buttons-styling%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})

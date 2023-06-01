@@ -2,7 +2,7 @@
 title: Display Modes
 page_title: .NET MAUI Calendar Documentation - Display Modes
 description: "Calendar for .NET MAUI provides different display modes such as month, year, century, decade."
-position: 9
+position: 2
 slug: calendar-display-modes
 ---
 

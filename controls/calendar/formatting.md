@@ -2,7 +2,7 @@
 title: Date Formatting
 page_title: .NET MAUI Calendar Documentation - Date Formatting
 description: Check our &quot;Date Formatting&quot; documentation article for Telerik Calendar for .NET MAUI control.
-position: 7
+position: 9
 slug: calendar-date-formatting
 ---
 

@@ -2,7 +2,7 @@
 title: Link Annotations
 page_title: .NET MAUI PdfViewer Documentation - Link Annotations
 description: Review the link annotations features introduced in Telerik .NET MAUI PdfViewer control.
-position: 4
+position: 6
 slug: pdfviewer-annotations
 ---
 

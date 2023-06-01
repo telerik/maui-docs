@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI Calendar Documentation - Events
 description: Check our &quot;Evenys&quot; documentation article for Telerik Calendar for .NET MAUI control.
-position: 7
+position: 11
 slug: calendar-events
 ---
 

@@ -2,7 +2,7 @@
 title: Indicators
 page_title: .NET MAUI SlideView Documentation - Indicators
 description: Learn more about the .NET MAUI SlideView indicators and their features.
-position: 8
+position: 6
 slug: slideview-indicators
 ---
 
@@ -23,3 +23,7 @@ The following table represents the properties of the SlideViewIndicator.
 | `CurrentIndex`|Defines the index of the current item.|
 | `MaxVisibleItems`|Defines a value indicating the maximum number of items to be displayed.|
 | `ItemsSource`|Defines the `ItemsSource` of the SlideViewIndicator.|
+
+## See Also
+
+- [Styling the SlideView Indicators]({%slug indicators-styling%})

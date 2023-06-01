@@ -22,7 +22,7 @@ slug: pdfviewer-overview
 * [Single page and Continuous Scrolling Support]()&mdash;You can choose between two layout modes which allow the document to be scrolled in the viewer.
 * [Commands Support]({%slug pdfviewer-commands%})&mdash;PdfViewer allows you to extend the default commands, such as ZoomIn, ZoomOut, NavigateTo (NextPage, PreviousPage, Page), FitToWidth and ToggleLayoutMode. 
 * [Toolbar]({%slug pdfviewer-toolbar%}) with predefined items&mdash;Take advantage of a pre-defined UI automatically wired with all of the commands provided by the control through built-in functionality.
-* [Style the toolbar]({%slug pdfviewer-styling%}) per your requirements.
+* [Style the toolbar]({%slug pdfviewer-toolbar-styling%}) per your requirements.
 
 ## Next Steps
 

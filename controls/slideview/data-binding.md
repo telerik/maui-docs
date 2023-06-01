@@ -2,7 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI SlideView Documentation - Data Binding
 description: Review the data binding options for the NET MAUI SlideView control.
-position: 4
+position: 3
 slug: slideview-data-binding
 ---
 

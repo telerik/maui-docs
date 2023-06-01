@@ -2,13 +2,23 @@
 title: Orientation
 page_title: .NET MAUI SlideView Documentation - Orientation
 description: Learn more about how to set the orientation od the Telerik UI for .NET MAUI SlideView control.
-position: 5
+position: 4
 slug: slideview-orientation
 ---
 
 # Orientation 
 
-The SlideView control exposes a `Orientation` property which can change the orientation of the slide animation. The property has two options:
+The SlideView control exposes a `Orientation` property(enum of type `Telerik.Maui.Orientation`) which can change the orientation of the slides and the indicators. The property has two options:
 
-   * `Horizontal`
-   * `Vertical`
+* `Horizontal`
+* `Vertical`
+
+## See Also
+
+- [Binding SlideView to Data]({%slug slideview-data-binding%})
+- [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
+- [Executing Commands on Slide Action]({%slug slideview-commands%})
+- [Handling the SlideView Events]({%slug slideview-events%})
+- [Using an Item Template in SlideView]({%slug slideview-item-template%})
+- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
+- [Styling the SlideView Indicators]({%slug indicators-styling%})
