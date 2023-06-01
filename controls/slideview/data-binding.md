@@ -16,23 +16,24 @@ To define the collection of the items that will populate the control with data, 
 
 **1.** Add the SlideView definition in XAML:
 
-<snippet id='slideview-getting-started-complex-object-xaml'/>
+<snippet id='slideview-item-template-xaml'/>
 
 **2.** Add the following namespace:
 
-    ```XAML
-    xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-    ```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
-**3.** Add the sample Business Model or the View Model:
+**3.** Add the sample Data Model and the View Model:
 
 - Business Model
 
-<snippet id='slideview-businessmodel'/>
+<snippet id='slideview-datamodel'/>
 
 - View Model
 
-<snippet id='slideview-viewmodel'/>
+<snippet id='slideview-events-viewmodel'/>
+
 
 ## See Also
 

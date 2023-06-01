@@ -18,6 +18,12 @@ The SlideView control exposes styling properties that allow you to customize the
 
 The following example demonstrates how to style the Navigation Buttons of the control.
 
+<snippet id='slideview-navigation-styling-xaml' />
+
+Add Style resources:
+
+<snippet id='slideview-navigation-styling-resources' />
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})

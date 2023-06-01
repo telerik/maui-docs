@@ -30,6 +30,16 @@ The following table represents the available style properties.
 | `MaximumWidthRequest`|Defines a value which overrides the maximum width the element will request during layout.|
 | `MinimumWidthRequest`|Defines a value which overrides the mimimum width the element will request during layout.|
 
+## Example
+
+Add SlideView definition in XAML:
+
+<snippet id='slideview-indicator-styling' />
+
+Add Style resources:
+
+<snippet id='slideview-indicator-styling-resource' />
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})

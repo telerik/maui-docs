@@ -13,6 +13,15 @@ The SlideView control exposes a `Orientation` property(enum of type `Telerik.Mau
 * `Horizontal`
 * `Vertical`
 
+## Example
+
+<snippet id='slideview-orientation-xaml' />
+
+Add the ViewModel:
+
+<snippet id='slideview-events-viewmodel' />
+
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})

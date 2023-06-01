@@ -15,7 +15,7 @@ The `OverScrollMode` property defines the possible behavior of the SlideView con
 The `OverScrollMode` property has two modes:
 
 * `None`&mdash;No overscroll will happen.
-* `Spring`&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.  
+* `Spring`&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.
 
 ## See Also
 

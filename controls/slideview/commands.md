@@ -24,14 +24,6 @@ The following example shows how to add a command.
 
 <snippet id='slideview-commands' />
 
-**2.** Add the commands. In this example, the commands are bound to buttons:
-
-<snippet id='slideview-commands-button' />
-
-**3.** Add the event handler.
-
-<snippet id='slideview-commands-button-clicked' />
-
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
