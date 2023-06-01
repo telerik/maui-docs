@@ -7,7 +7,7 @@ previous_url: /controls/templatedpicker/templatedpicker-getting-started
 slug: templatedpicker-getting-started
 ---
 
-# Getting Started with .NET MAUI TemplatedPicker
+# Getting Started with the .NET MAUI TemplatedPicker
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TemplatedPicker by adding the control to your project.
 
@@ -70,10 +70,10 @@ public static class MauiProgram
  
 ## Additional Resources
 
-- [.NET MAUI TemplatedPicker product page](https://www.telerik.com/maui-ui/templatedpicker)
-- [.NET MAUI TemplatedPicker forum page](https://www.telerik.com/forums/maui?tagId=1854)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI TemplatedPicker Product Page](https://www.telerik.com/maui-ui/templatedpicker)
+- [.NET MAUI TemplatedPicker Forum Page](https://www.telerik.com/forums/maui?tagId=1854)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

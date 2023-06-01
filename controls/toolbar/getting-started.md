@@ -6,7 +6,7 @@ position: 2
 slug: toolbar-getting-started
 ---
 
-# Getting Started with .NET MAUI Toolbar control
+# Getting Started with the .NET MAUI Toolbar control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Toolbar by adding the control to your project.
 
@@ -16,7 +16,7 @@ At the end, you will be able to achieve the following result.
 
 ## Prerequisites
 
-Before adding the ImageEditor, you need to:
+Before adding the Toolbar, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
@@ -68,9 +68,9 @@ public static class MauiProgram
 ## Additional Resources
 
 - [.NET Toolbar page](https://www.telerik.com/maui-ui/toolbar)
-- [.NET MAUI Toolbar forum page](https://www.telerik.com/forums/maui?tagId=1781)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Toolbar Forum Page](https://www.telerik.com/forums/maui?tagId=1781)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

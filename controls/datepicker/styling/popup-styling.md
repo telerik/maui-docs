@@ -1,14 +1,16 @@
 ---
 title: Popup Styling
 page_title: .NET MAUI DatePicker Documentation - Popup Styling
-description: "Apply the styling options of the Telerik UI for .NET MAUI DatePicker Popup."
+description: "Apply the styling options supported by the Telerik UI for .NET MAUI DatePicker component to its popup element."
 position: 1
 slug: datepicker-popup-styling
 ---
 
-# .NET MAUI DatePicker Popup Styling
+# Styling the .NET MAUI DatePicker Popup
 
-By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the DatePicker, you can modify the appearance of the dialog (popup). 
+To modify the appearance of the DatePicker dialog (popup) element, use the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the component.
+
+## Supported Properties
 
 The `PickerPopupSettings` class exposes the following `Style` properties:
 
@@ -21,7 +23,6 @@ The `PickerPopupSettings` class exposes the following `Style` properties:
 
 
 The `PickerPopupSettings` also provides the following properties for popup customization:
-
 
 * `PopupOutsideBackgroundColor`&mdash;Defines the color outside of the popup.
 * `IsPopupModal`(`bool`)&mdash;Defines a Boolean value indicating if the popup will be closed when tapped outside of the popup. By default, the value of the `IsPopupModal` is `false`.
@@ -36,52 +37,51 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 * `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
 * `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
 
-> __PopupSettings__ provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DatePicker. For more detailed information on them go to [DatePicker Styling]({%slug datepicker-styling%}) topic.
+> `PopupSettings` provides styling options for the popup, its header, footer, outside background color, and other. To customize the look and feel of the spinner controls which show the available date values, [use the `SpinnerStyle`, `SpinnerHeaderStyle`, and `SelectionHighlightStyle` properties of the DatePicker]({%slug datepicker-styling%}).
 
-## Example
+## Setting the Properties
 
-The following examples demonstrate how to define and use the styling properties of the DatePicker.
-
-**Define the `RadDatePicker`**
-
-<snippet id='datepicker-popup-style' />
-
-**Define the PopupViewStyle**
-
-<snippet id='datepicker-style-popupview-style' />
-
-**Define the HeaderStyle**
-
-<snippet id='datepicker-style-header-style' />
-
-**Define the HeaderLabelStyle**
-
-<snippet id='datepicker-style-header-label-style' />
-
-**Define the FooterStyle**
-
-<snippet id='datepicker-style-footer-style' />
-
-**Define the AcceptButtonStyle**
-
-<snippet id='datepicker-style-accept-button-style' />
-
-**Define the CancelButtonStyle**
-
-<snippet id='datepicker-style-cancel-button-style' />
-
-In addition, add the following namespace:
+The following examples demonstrate how to define and use the styling properties of the DatePicker popup. Note that in addition to each snippet, you must add the `telerik` namespaces:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-The following image shows what the DatePicker control looks like when the styles described above are applied:
+>caption Define the style of the DatePicker
 
-![DatePicker Popup Styling](../images/datepicker_popup_styling.png)
+<snippet id='datepicker-popup-style' />
+
+>caption Define the style of the popup view
+
+<snippet id='datepicker-style-popupview-style' />
+
+>caption Define the header style
+
+<snippet id='datepicker-style-header-style' />
+
+>caption Define the style of the header label
+
+<snippet id='datepicker-style-header-label-style' />
+
+>caption Define the style of the footer
+
+<snippet id='datepicker-style-footer-style' />
+
+>caption Define the style of the Accept button
+
+<snippet id='datepicker-style-accept-button-style' />
+
+>caption Define the style of the Cancel button
+
+<snippet id='datepicker-style-cancel-button-style' />
+
+The following image shows a DatePicker control on different platforms after the styles have been applied to its popup:
+
+![Telerik UI for .NET MAUI DatePicker with applied styling properties to its popup](../images/datepicker_popup_styling.png)
 
 ## See Also
 
-- [DatePicker Styling]({%slug datepicker-styling%})
-- [Formatting]({%slug datepicker-formatting%})
-- [Visual Structure]({%slug datepicker-visual-structure%})
+- [Setting Date Ranges in the .NET MAUI DatePicker]({%slug datepicker-date-range%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)

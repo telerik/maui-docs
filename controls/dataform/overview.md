@@ -16,6 +16,8 @@ slug: dataform-overview
 
 * [Built-in editors]({%slug dataform-editors%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as numeric, string, boolean, enumerations, DateTime, TimeSpan. The control detects the types of the data object’s properties and automatically displays the appropriate editor.  
 
+* [Custom editors]({%slug dataform-custom-editor%})&mdash;DataForm provides an option for definig custom editors.  
+
 * [Validation support]({%slug dataform-validation%})&mdash;Use the built-in validation support which gives you full control over the data collected through the control.
 
 * [Commit modes]({%slug dataform-commit-data%})&mdash;DataForm provides editing support with three types of commit modes to determine when the edited value should be synchronized with the business object.
@@ -36,8 +38,8 @@ slug: dataform-overview
 
 ## See Also
 
-- [.NET MAUI DataForm product page](https://www.telerik.com/maui-ui/dataform)
-- [.NET MAUI DataForm forum page](https://www.telerik.com/forums/maui?tagId=1979)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI DataForm Product Page](https://www.telerik.com/maui-ui/dataform)
+- [.NET MAUI DataForm Forum Page](https://www.telerik.com/forums/maui?tagId=1979)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 

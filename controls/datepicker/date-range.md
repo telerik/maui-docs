@@ -1,8 +1,8 @@
 ---
 title: Date Ranges
 page_title: .NET MAUI Date Picker Documentation - Date Ranges
-description: "Set and control date ranges in the Telerik DatePicker for .NET MAUI."
-position: 3
+description: "Set and control date ranges in the Telerik UI for .NET MAUI DatePicker."
+position: 4
 previous_url: /controls/datepicker/datepicker-date-range
 slug: datepicker-date-range
 ---
@@ -19,24 +19,24 @@ To implement date ranges, use the following DatePicker properties:
 
 The following example demonstrates how to set date ranges in the DatePicker.
 
-Define the control and the date ranges.
+1. Define the control and the date ranges.
 
-
-```XAML
+ ```XAML
 <telerik:RadDatePicker MinimumDate="2020,1,1"
                             MaximumDate="2020,12,31"
                             DisplayStringFormat="yyy-ddd-MMM"/>
-```
+ ```
 
-Add the following namespace:
+1. Add the following namespace:
 
-```XAML
+ ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```
 
 ## See Also
 
-- [Templates]({%slug datepicker-templates%})
-- [Styling]({%slug datepicker-styling%})
-- [Commands]({%slug datepicker-commands%})
-- [Selection]({%slug datepicker-selection%})
+- [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
+- [.NET MAUI DatePicker Templates]({%slug datepicker-templates%})
+- [.NET MAUI DatePicker Selection]({%slug datepicker-selection%})
+- [.NET MAUI DatePicker Styling]({%slug datepicker-styling%})
+- [.NET MAUI DatePicker Product Page](https://www.telerik.com/maui-ui/datepicker)

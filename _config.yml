@@ -9,6 +9,15 @@ exclude_navigation: [knowledge-base/*]
 navigation:
 ## List your directory names and order here, like this:
 ## Root Level
+    get-started:
+        title: "Getting Started"
+        position: 1
+    get-started/windows:
+        title: "Windows"
+        position: 1
+    get-started/mac:
+        title: "Mac"
+        position: 2
     installation:
         title: "Download & Installation"
         position: 2
@@ -18,9 +27,6 @@ navigation:
     controls:
         title: "Controls"
         position: 4
-    troubleshooting:
-        title: "Troubleshooting"
-        position: 12
     "knowledge-base":
         title: "Knowledge Base"
         position: 14
@@ -74,12 +80,19 @@ navigation:
     ## Button
     controls/button:
         title: "Button"
-        ## Button Sub-Folders
-    controls/button/howto:
-        title: "How To"
-        position: 6
-        ## End Button Sub-Folders
     ## End Button
+    ## Calendar
+    controls/calendar:
+        title: "Calendar"
+        ## Calendar Sub-Folders
+    controls/calendar/templates:
+        title: "Templates"
+        position: 10
+    controls/calendar/styling:
+        title: "Styling"
+        position: 15
+        ## End Calendar Sub-Folders
+    ## End Calendar
     ## Chart
     controls/chart:
         title: "Chart"
@@ -112,9 +125,6 @@ navigation:
         title: "Financial Series"
         position: 4
             ## End Chart Series Sub-Folders
-    controls/chart/how-to:
-        title: "How To"
-        position: 11
         ## End Chart Sub-Folders
     ## End Chart
     ##CheckBox
@@ -147,9 +157,6 @@ navigation:
     controls/datagrid/columns:
         title: "Columns"
         position: 2
-    controls/datagrid/aggregates:
-        title: "Aggregates"
-        position: 3
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
@@ -159,12 +166,15 @@ navigation:
     controls/datagrid/grouping:
         title: "Grouping"
         position: 4
+    controls/datagrid/aggregates:
+        title: "Aggregates"
+        position: 8
     controls/datagrid/commands:
         title: "Commands"
-        position: 10
+        position: 15
     controls/datagrid/theming-and-styles:
         title: "Styling"
-        position: 11
+        position: 20
     ## End DataGrid
     ## DatePicker
     controls/datepicker:
@@ -275,6 +285,13 @@ navigation:
     controls/pdfprocessing:
         title: "PdfProcessing"
     ## End PdfProcessing
+    ## PdfViewer
+    controls/pdfviewer:
+        title: "PdfViewer"
+    controls/pdfviewer/toolbar:
+        title: "Toolbar"
+        position: 8
+    ## End PdfViewer
     ## Popup
     controls/popup:
         title: "Popup"
@@ -299,6 +316,15 @@ navigation:
     controls/signaturepad:
         title: "SignaturePad"
     ## End SignaturePad
+    ## SlideView
+    controls/slideview:
+        title: "SlideView"
+    ##SlideView Sub-Folders
+    controls/slideview/styling:
+        title: "Styling"
+        position: 15
+    ## End SlideView Sub-Folders
+    ##End SlideView
     ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
@@ -339,6 +365,13 @@ navigation:
         title: "Items"
         position: 4
     ## End Toolbar
+    ## TreeView
+    controls/treeview:
+        title: "TreeView"
+    controls/treeview/styling:
+        title: "Styling"
+        position: 15
+    ## End TreeView
     ## WordsProcessing
     controls/wordsprocessing:
         title: "WordsProcessing"
@@ -473,8 +506,14 @@ intro_columns:
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "SideDrawer": "sidedrawer-overview"
+        "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
+        "TreeView": "treeview-overview"
         "WrapLayout": "wraplayout-overview"
+  -
+    title: "Calendar"
+    items:
+        "Calendar": "calendar-overview"
   -
     title: "Buttons"
     items:
@@ -492,6 +531,10 @@ intro_columns:
         "Path": "path-overview"
         "Popup": "popup-overview"
         "Toolbar": "toolbar-overview"
+  -
+    title: "PDF Viewer"
+    items:
+        "PdfViewer": "pdfviewer-overview"
   -
     title: "Document Processing Libraries"
     items:

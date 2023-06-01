@@ -8,7 +8,7 @@ slug: imageeditor-overview
 
 # .NET MAUI ImageEditor Overview
 
-**Telerik .NET MAUI ImageEditor** is a control that enables you to easily visualize and edit images in different file formats in your mobile and desktop application. As an addition to the ImageEditor control you can use the predefined UI wil all built-in commands - RadImageEditorToolbar. This UI includes all editing capabilities of the control and it could be easily customized.
+**Telerik .NET MAUI ImageEditor** is a control that enables you to easily visualize and edit images in different file formats in your mobile and desktop application. As an addition to the ImageEditor control you can use the predefined UI with all built-in commands - RadImageEditorToolbar. This UI includes all editing capabilities of the control and it could be easily customized.
 
 ![.NET MAUI ImageEditor Overview](images/imageeditor-overview.png "ImageEditor Overview")
 
@@ -44,6 +44,6 @@ slug: imageeditor-overview
 ## See Also
 
 - [.NET ImageEditor page](https://www.telerik.com/maui-ui/imageeditor)
-- [.NET MAUI ImageEditor forum page](https://www.telerik.com/forums/maui?tagId=1781)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI ImageEditor Forum Page](https://www.telerik.com/forums/maui?tagId=1781)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

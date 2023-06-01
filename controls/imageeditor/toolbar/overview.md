@@ -12,7 +12,7 @@ The **ImageEditorToolbar for .NET MAUI** includes items for editing the image in
 
 ## Configuration of the ImageEditorToolbar
 
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar.
+`RadImageEditorToolbar` inherits from the [RadToolbar]({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar apply to the RadImageEditorToolbar.
 
 The configuration properties are described below
 
@@ -22,7 +22,7 @@ The configuration properties are described below
 
 * By default the items in the `ImageEditorToolbar` are auto-populated. You could change this by setting the `RadImageEditorToolbar.AutoGenerateItems`(of type `bool`) to `False`. The default value is `True`.
 
-* By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify rhe orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
+* By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify the orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
 * `OptionsPanel`(`Telerik.Maui.Controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar.
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the items in the toolbar. The default value is `8`.
 * `LineSpacing`(`double`)&mdash;Specifies the spacing in pixels between the lines of items in the toolbar. This property has effect when the toolbar is in a multi-line wrap overflow mode. The default value is `8`.
@@ -59,10 +59,10 @@ The configuration properties are described below
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the forward scroll button in the toolbar.
-* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Definess the style applied to the forward scroll button in the toolbar.
-* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
-* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Definess the style applied to the backward scroll button in the toolbar.
+* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the forward scroll button in the toolbar.
+* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Defines the style applied to the forward scroll button in the toolbar.
+* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the backward dscroll button in the toolbar.
+* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Defines the style applied to the backward scroll button in the toolbar.
 
 
 ## See Also

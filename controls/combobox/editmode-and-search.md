@@ -14,18 +14,18 @@ This topic describes in details the configuration options related to the editabl
 
 ## Edit Mode
 
-* `IsEditable`(`bool`): Defines whether typing into the input area can be performed. The default value is `false`.
-* `SearchTextPath`(`string`): Defines the name of the property against which the searching will be performed. The property is usable when the control is in edit mode (`IsEditable` is `true`). 
-* `OpenOnFocus`(`bool`): Specifies whether the dropdown will be shown as soon as the control is focused. The property is usable when the control is in edit mode (`IsEditable` is `true`).  The default value is `true`. If the property is set to false when the control is focused the drop-down will no longer open.
-* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when it is non-editable and the selection mode is single.
+* `IsEditable`(`bool`)&mdash;Defines whether typing into the input area can be performed. The default value is `false`.
+* `SearchTextPath`(`string`)&mdash;Defines the name of the property against which the searching will be performed. The property is usable when the control is in edit mode (`IsEditable` is `true`). 
+* `OpenOnFocus`(`bool`)&mdash;Specifies whether the dropdown will be shown as soon as the control is focused. The property is usable when the control is in edit mode (`IsEditable` is `true`).  The default value is `true`. If the property is set to false when the control is focused the drop-down will no longer open.
+* `Text`(`string`)&mdash;Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when it is non-editable and the selection mode is single.
 
 ## Search
 
 ComboBox provides both case-sensitive and case-insensitive searching modes. The following properties are exposed:
 
-- `SearchMode` (enumeration of type *Telerik.Maui.Controls.SearchMode*): Defines the value that sets search sets some search criteria for the control. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. The default SearchMode is `StartsWith`.
-- `SearchTexhPath`(`string`): Specifies the name of the property against which the searching will be performed.
-* `HighlightTextColor` (*Microsoft.Maui.Graphics.Color*): Defines the color of the text that will be highlighted when searching is performed.
+- `SearchMode`(enumeration of type *Telerik.Maui.Controls.SearchMode*)&mdash;Defines the value that sets search sets some search criteria for the control. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. The default SearchMode is `StartsWith`.
+- `SearchTexhPath`(`string`)&mdash;Specifies the name of the property against which the searching will be performed.
+* `HighlightTextColor`(*Microsoft.Maui.Graphics.Color*)&mdash;Defines the color of the text that will be highlighted when searching is performed.
 
 > Searching can be performed when `IsEditable` is set to `true`.
 

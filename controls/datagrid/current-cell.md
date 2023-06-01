@@ -1,63 +1,71 @@
 ---
-title: Current Cell
+title: Cells
 page_title: .NET MAUI DataGrid Documentation - Current Cell
-description: Check the Telerik DataGrid for .NET MAUI Current Cell article.
-position: 9
+description: "Learn how to set the behavior and style the appearance of the current cell of the Telerik UI for .NET MAUI DataGrid component."
+position: 11
 slug: datagrid-current-cell
 ---
 
 # .NET MAUI DataGrid Current Cell
 
-DataGrid control gives you the option to define the current cell using the `CurrentCell`(of type `DataGridCellInfo`) property. You can modify the current cell programmatically, during a keyboard navigation, using a mouse, etc. 
+The Telerik UI for .NET MAUI DataGrid provides options for configuring the behavior and style of its current cell.
 
-## Event
+## Setting the Behavior
 
-* `CurrentCellChanged` event is invoked when the current cell changes during a keyboard navigation. The `CurrentCellChanged` event handler receives two parameters:
-	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
-	* A `CurrentCellChangedEventArgs` object, which provides the following properties:
-		- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
-		- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
+The DataGrid allows you to use the `CurrentCell` property of type `DataGridCellInfo` to programmatically modify the current cell during keyboard navigation, when using the mouse, and so on.
 
+The DataGrid also supports the `CurrentCellChanged` event which is invoked when the current cell changes as a result of user interaction with the keyboard.
 
-## Styling
+The `CurrentCellChanged` event handler receives the following parameters:
 
-Easily apply a style to the current cell using the `CurrentCellStyle`(of type `DataGridBorderStyle`). Apply `BackgroundColor`, `BorderColor` and `BorderThickness`.
+* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `CurrentCellChangedEventArgs` object, which provides the following properties:
+	- `OldCurrentCell`&mdash;Gets the previous `CurrentCell`.
+	- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
+
+## Styling the Cell
+
+You can also style the current DataGrid cell by using the `CurrentCellStyle` of type `DataGridBorderStyle` and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
 ## Example
 
-Here is an example with the `CurrentCell`, `CurrentCellChanged` and `CurrentCellStyle`.
+The following example shows the full implementation of the configurations for the current DataGrid cell.
 
-**1** The used ViewModel and Business object:
-
-ViewModel:
+**1.** Set the `ViewModel`.
 
 <snippet id='datagrid-grouping-propertygroupdescriptor-viewmodel' />
 
-Business object:
+**2.** Set the `Business` object.
 
 <snippet id='datagrid-grouping-propertygroupdescriptor-object' />
 
-**2** DataGrid definition in XAML
+**3.** Provide the DataGrid definition in XAML.
 
 <snippet id='datagrid-keyboard-navigation-xaml' />
 
-**3** The style used for the `CurrentCellStyle` and defined in the page's resources: 
+**4.** Set the style for the `CurrentCellStyle` that is defined in the page resources.
 
 <snippet id='datagrid-keyboard-navigation-style' />
 
-**4** The `CurrentCellChanged` event:
+**5.** Set the `CurrentCellChanged` event.
 
 <snippet id='datagrid-currentcell-changed' />
 
-This is the final result:
+The following image shows the end result.
 
 ![DataGrid Current Cell](images/datagrid-keyboard-navigation.png)
 
+## Additional Resources
+
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
-- [Getting Started]({%slug datagrid-getting-started%})
-- [Selection]({%slug datagrid-selection-overview%})
-- [Sorting]({%slug datagrid-sorting-overview%})
-- [Filtering]({%slug datagrid-filtering-overview%})
-- [Grouping]({%slug datagrid-grouping-overview%})
-- [Editing]({%slug datagrid-editing%})
+- [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
+- [Using the DataGrid Commands]({%slug datagrid-aggregates%})
+- [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
+- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})

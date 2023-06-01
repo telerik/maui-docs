@@ -1,32 +1,32 @@
 ---
 title: Editing
 page_title: .NET MAUI DataGrid Documentation - Editing
-description: Check our &quot;Editing&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 4
+description: "Learn how to use the built-in column and custom editors for modifying the data records in the Telerik UI for .NET MAUI DataGrid component."
+position: 6
 previous_url: /controls/datagrid/datagrid-editing
 slug: datagrid-editing
 ---
 
 # .NET MAUI DataGrid Editing
 
-The DataGrid provides a built-in editing functionality, which allows the app users to easily edit the data presented in the Grid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. As soon as the user double-clicks on a certain cell, the cell is switched to an edit mode.
+The Telerik UI for .NET MAUI DataGrid provides built-in editing capabilities, which allow users to easily modify the data presented in the Grid.
 
-## Important Properties
+Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-column %}), the DataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
 
-You need to define the `UserEditMode` property of the DataGrid control to enable the editing feature.
+## Editing Properties
 
-The `UserEditMode` property is of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserEditMode` and accepts the following values:
+To enable editing in the DataGrid, define the `UserEditMode` property of the component. `UserEditMode` is of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserEditMode` and accepts the following values:
 
 * (Default) `None`&mdash;Editing is disabled.
 * `Cell`&mdash;Enables the editing option.
 
-In addition, you can independently disable editing for specific columns through the `CanUserEdit` property of the `DataGridColumn` class. For more details, refer to the [Columns Overview]({%slug datagrid-columns-overview%}) topic.
+You can also independently disable editing for specific columns through the `CanUserEdit` property of the `DataGridColumn` class. For more details, refer to the topic about [columns in the .NET MAUI DataGrid]({%slug datagrid-columns-overview%}).
 
 ## Column Editors
 
 Each DataGrid column type provides different editor, so that the content can be edited in a convenient manner according to its value type.
 
-The following table lists the related .NET MAUI control for editing the values inside the DataGrid columns:
+The following table lists the integrated .NET MAUI control for editing the values inside the DataGrid columns:
 
 | Column Type 		| Editor 			|
 |-------------------|-------------------|
@@ -38,30 +38,38 @@ The following table lists the related .NET MAUI control for editing the values i
 | `PickerColumn`	| RadComboBox	    |
 | `TemplateColumn`	| A custom editor by defining `CellEditTemplate`. |
 
-## CellEditTemplate
+## Custom Editors
 
-If the default editors do not suit the scenario you have, create a custom editor for each column by utilizing the `CellEditTemplate` property of the `DataGridColumn`. For detailed information on how the `CellEditTemplate` can be applied, refer to the [Columns Cell Templates]({%slug datagrid-cell-templates%}) article.
+If the default editors do not suit the scenario you have, create a custom editor for each column by utilizing the `CellEditTemplate` property of the `DataGridColumn`. For detailed information on how the `CellEditTemplate` can be applied, refer to the article about the [.NET MAUI DataGrid column cell templates]({%slug datagrid-cell-templates%}).
 
 ## Editing Commands
 
-The DataGrid provides a few useful commands related to the editing functionality, such as:
+The DataGrid provides the following commands related to the editing functionality:
 
 * `BeginEdit`&mdash;Provides an entry point just before the editing begins.
 * `CancelEdit`&mdash;Provides an entry point just before the editing is canceled.
 * `CommitEdit`&mdash;Provides an entry point just before the editing is committed.
 
-For detailed information on how to utilize any of the listed commands, go to the [Editing Commands]({%slug datagrid-commands-editing%}) topic.
+For detailed information on how to utilize any of the listed commands, go to the topic about the [.NET MAUI DataGrid editing commands]({%slug datagrid-commands-editing%}).
 
 ## Styling
 
-You can change the visual appearance of each editor through the `CellEditorStyle` property of the `DataGridColumn`. To the `CellEditorStyle` you will need to apply a `Xamarin.Forms.Style` with a `TargetType` set to the corresponding to each column editor control.
+You can change the visual appearance of each editor through the `CellEditorStyle` property of the `DataGridColumn`. To the `CellEditorStyle`, apply a `Xamarin.Forms.Style` with a `TargetType` set to the corresponding to each column editor control.
 
-The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColumn`:
+The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColumn`.
 
 <snippet id='datagrid-columnstyle-celleditor'/>
 
+## Additional Resources
+
+- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
+- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
 ## See Also
 
-- [Editing Commands]({%slug datagrid-commands-editing%})
-- [Columns Cell Templates]({%slug datagrid-cell-templates%})
-- [Columns Styling]({%slug datagrid-columns-styling%})
+- [Editing Commands in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-commands-editing%})
+- [Column Cell Templates in the .NET MAUI DataGrid]({%slug datagrid-cell-templates%})
+- [Styling the Columns of the .NET MAUI DataGrid]({%slug datagrid-columns-styling%})
+

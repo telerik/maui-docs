@@ -6,13 +6,13 @@ position: 1
 slug: imageeditor-getting-started
 ---
 
-# Getting Started with .NET MAUI ImageEditor control
+# Getting Started with the .NET MAUI ImageEditor control
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ImageEditor by adding the control to your project.
 
 At the end, you will be able to achieve the following result.
 
-![ImageEditor Getting Started](images/imageEditor-gettingstarted.png)
+![ImageEditor Getting Started](images/imageeditor-gettingstarted.png)
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Before adding the ImageEditor, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add an ImageEditor control and th built-in Toolbar to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add an ImageEditor control and the built-in Toolbar to your page.
 
 <snippet id='imageeditor-getting-started-xaml'/>
 <snippet id='imageeditor-getting-started-csharp'/>
@@ -39,7 +39,7 @@ Before adding the ImageEditor, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** For the demo the image is loaded in the ImageEditor for a `stream`:
+**3.** For the demo the image is loaded in the ImageEditor from a `stream`:
 
 <snippet id='load-image-from-stream'/>
 
@@ -71,9 +71,9 @@ public static class MauiProgram
 ## Additional Resources
 
 - [.NET ImageEditor page](https://www.telerik.com/maui-ui/imageeditor)
-- [.NET MAUI ImageEditor forum page](https://www.telerik.com/forums/maui?tagId=1781)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI ImageEditor Forum Page](https://www.telerik.com/forums/maui?tagId=1781)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

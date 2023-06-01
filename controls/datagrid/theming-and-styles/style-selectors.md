@@ -30,37 +30,37 @@ The following example will demonstrate how to apply the style selectors in the D
 
 Let’s add the DataGrid and set the `CellContentStyleSelector` as a static resource of type `MyCellContentStyleSelector`, `CellDecorationStyleSelector` as a static resource of type `MyCellDecorationStyleSelector`, and `GroupStyleSelector` as a static resource of type `MyGroupStyleSelector`.
 
-1. `DataGrid` definition in XAML:
+**1.** `DataGrid` definition in XAML:
 
- <snippet id='datagrid-styleselector-example'/>
+<snippet id='datagrid-styleselector-example'/>
 
-1. Create a simple data for the DataGrid:
+**2.** Create a simple data for the DataGrid:
 
- <snippet id='datagrid-styleselector-data'/>
+<snippet id='datagrid-styleselector-data'/>
 
-1. Set the `ItemsSource` of the `DataGrid` class:
+**3.** Set the `ItemsSource` of the `DataGrid` class:
 
-  <snippet id='datagrid-styleselector-items'/>
+<snippet id='datagrid-styleselector-items'/>
 
 
-1. Add `MyCellContentStyleSelector`, `MyCellDecorationStyleSelector`, and `MyGroupStyleSelector` as resources in the **Resource** page of the application:
+**4.** Add `MyCellContentStyleSelector`, `MyCellDecorationStyleSelector`, and `MyGroupStyleSelector` as resources in the **Resource** page of the application:
 
- <snippet id='datagrid-styleselectors'/>
+<snippet id='datagrid-styleselectors'/>
 
-1. Create a custom class for each selector. This class derives from `DataGridStyleSelector` and overrides its `SelectStyle` method.
+**5.** Create a custom class for each selector. This class derives from `DataGridStyleSelector` and overrides its `SelectStyle` method.
 
 The `MyCellContentStyleSelector` class implementation is as follows:
 
- <snippet id='datagrid-styleselector-cellcontent'/>
+<snippet id='datagrid-styleselector-cellcontent'/>
 
 The implementation of the `MyCellDecorationStyleSelector` class is shown below:
 
- <snippet id='datagrid-styleselector-celldecoration'/>
+<snippet id='datagrid-styleselector-celldecoration'/>
 
 
 You can implement `MyGroupStyleSelector` as follows:
 
- <snippet id='datagrid-styleselector-group'/>
+<snippet id='datagrid-styleselector-group'/>
 
 
 This is how the DataGrid control will look when `CellContentStyleSelector` is applied.

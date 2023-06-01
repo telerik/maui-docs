@@ -8,7 +8,7 @@ previous_url: /controls/chart/chart-getting-started
 slug: chart-getting-started
 ---
 
-# Getting Started with .NET MAUI Chart
+# Getting Started with the .NET MAUI Chart
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Chart by adding the control to your project.
 
@@ -94,10 +94,10 @@ using Telerik.Maui.Controls.Compatibility.Chart;
 
 ## Additional Resources
 
-- [.NET MAUI Chart product page](https://www.telerik.com/maui-ui/chart)
-- [.NET MAUI Chart forum page](https://www.telerik.com/forums/maui?tagId=1765)
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [.NET MAUI Chart Product Page](https://www.telerik.com/maui-ui/chart)
+- [.NET MAUI Chart Forum Page](https://www.telerik.com/forums/maui?tagId=1765)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 

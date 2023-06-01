@@ -80,7 +80,7 @@ Commands which cancel/apply the changes made in interactive commands:
 
 >important When using the **Interactive Commands** you can apply the changes using `ApplyInteractiveCommand` and cancel the changes using `CancelInteractiveCommand`.
 
-* `ZoomToFitCommand`(`ICommand`)Gets the command which zooms the image to fit the available screen space.
+* `ZoomToFitCommand`(`ICommand`)&mdash;Gets the command which zooms the image to fit the available screen space.
 
 * `RotateLeftCommand`(`ICommand`)&mdash;for image rotation 90 degree to the left.
 
@@ -102,7 +102,8 @@ Commands which cancel/apply the changes made in interactive commands:
 * `ScrollBackwardCommand`(`ICommand`)&mdash;Gets a command for scrolling the contents of the toolbar in backward direction. This command is applicable when the `RadToolbar.OverflowMode` is set to Scroll.
 
 
-### Example
+## Example
+
 
 
 ## See Also
