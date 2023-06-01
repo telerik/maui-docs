@@ -35,4 +35,4 @@ Add the RadChat control to your page with previously defined ItemsSource and Ite
 ## See Also
 
 - [Commands]({% slug chat-commands %})
-- [ItemTemplateSelector] ({% slug chat-itemtemplateselector %})
+- [ItemTemplateSelector] ({% slug chat-itemtemplate-selector %})
