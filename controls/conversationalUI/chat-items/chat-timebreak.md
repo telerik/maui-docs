@@ -3,7 +3,7 @@ title: Time Break
 page_title: .NET MAUI Conversational UI Documentation - Chat Time Break
 description: Learn more about TimeBreak item of the RadChart control
 position: 2
-slug: chat-items-time-break
+slug: chat-items-timebreak
 ---
 
 # Chat Time Break 
@@ -24,4 +24,4 @@ And here is the result:
 
 ## See Also
 
-- [Messages]({% slug chat-messages %})
+- [Messages]({% slug chat-items-messages %})
