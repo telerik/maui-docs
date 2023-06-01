@@ -21,11 +21,11 @@ It exposes the following properties:
 
 ## Example:
 
-Add DataGrid definition in XAML:
+**1.** Add DataGrid definition in XAML:
 
 <snippet id ='datagrid-empty-template-xaml'/>
 
-Add DataTemplate Resources:
+**2.** Add DataTemplate Resources:
 
 <snippet id ='datagrid-empty-template-resources'/>
 
