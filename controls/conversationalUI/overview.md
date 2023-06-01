@@ -14,9 +14,9 @@ slug: chat-overview
 
 ## Key features
 
-* [A variety of chat items for great user experience](slug %chat-items-overview%)&mdash;You could choose between simple text messages, various pickers such as list view, calendar, date and time pickers, and cards. For more details go to [Chat Items Overview]({%slug chat-items-overview %}) topic.
+* [A variety of chat items for great user experience](slug %chat-items-overview%)&mdash;You could choose between simple text messages, various pickers such as list view, calendar, date and time pickers, and cards.
 
-* [MVVM Support](slug %chat-mvvm-support%)&mdash;With RadChat control you could easily utilize the Model-View-ViewModel pattern. This could be achieved through the ItemsSource property that can be bound/set to a collection of any data items that should be then converted into chat items. For detailed information on this check [MVVM Support]({%slug %}) topic.
+* [MVVM Support](slug %chat-mvvm-support%)&mdash;With RadChat control you could easily utilize the Model-View-ViewModel pattern. This could be achieved through the ItemsSource property that can be bound/set to a collection of any data items that should be then converted into chat items.
 
 ## Next Steps
 
