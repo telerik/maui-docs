@@ -6,9 +6,9 @@ position: 2
 slug: chat-getting-started
 ---
 
-# Getting Started with .NET MAUI RadChart
+# Getting Started with .NET MAUI Chat
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI RadChart by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Chat by adding the control to your project.
 
 ## Prerequisites
 

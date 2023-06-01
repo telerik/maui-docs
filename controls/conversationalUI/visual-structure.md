@@ -6,7 +6,7 @@ position: 1
 slug: chat-visual-structure
 ---
 
-# .NET MAUI RadChat Visual Structure
+# .NET MAUI Chat Visual Structure
 
 The RadChat uses a set of visual elements.
 
@@ -14,7 +14,7 @@ The RadChat uses a set of visual elements.
 
 
 
-## RadChat Structure
+## Chat Structure
 
 
 ## See Also

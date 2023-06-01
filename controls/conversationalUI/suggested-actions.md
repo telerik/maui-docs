@@ -8,7 +8,7 @@ slug: chat-suggested-actions
 
 # .NET MAUI Chat Suggested Actions
 
-`Conversational UI` supports adding suggestions to the user. This can be done by adding `SuggestedAction` items to the `SuggestedActions` collection of `RadChat`.
+`RadChat` supports adding suggestions to the user. This can be done by adding `SuggestedAction` items to the `SuggestedActions` collection of `RadChat`.
 
 ### Adding the Suggested Actions 
 

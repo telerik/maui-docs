@@ -6,7 +6,7 @@ position: 9
 slug: chat-itemtemplate-selector
 ---
 
-# .NET MAUI Conversational UI ItemTemplateSelector
+# .NET MAUI Chat ItemTemplateSelector
 
 `RadChat` control exposes an `ItemTemplateSelector` property which you can use to apply different templates to each chat item depending on a specific condition.
 

@@ -6,9 +6,9 @@ position: 8
 slug: chat-typing-indicator
 ---
 
-# .NET MAUI Conversational UI Typing Indicator
+# .NET MAUI Chat Typing Indicator
 
-The `TypingIndicator` functionality of Conversational UI can be used to indicate that a participant (or participants) is currently typing.
+The `TypingIndicator` functionality of RadChat can be used to indicate that a participant (or participants) is currently typing.
 
 By default, the `TypingIndicator` is not visible. As soon as its Authors (or ItemsSource) collection is updated, it is displayed with a text message indicating the authors’ names. 
 

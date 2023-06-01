@@ -32,6 +32,7 @@ Localization refers to the translation of application resources into localized v
 * DataGrid
 * ImageEditor
 * MaskedEntry
+* Conversational UI(Chat)
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 

@@ -22,15 +22,8 @@ The Telerik UI for .NET MAUI Chat preserves the same API as its Xamarin counterp
 
 | Xamarin RadChat | .NET MAUI RadChat |
 | ------------- | --------------- |
-| `` | `` |
-| `` | `` |
-| - | `` |
-| - | `` |
-| - | `` |
-| - | `` |
-| - | `` |
-| - | `` |
-| - | `` |
+| `NA` | `SuggestedActions` |
+| `DisplayDate` | `SelectedDate` |
 
 ## See Also
 

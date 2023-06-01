@@ -6,9 +6,9 @@ position: 8
 slug: chat-localization
 ---
 
-# .NET MAUI Conversational UI Localization
+# .NET MAUI Chat Localization
 
-Conversational UI provides a language localization. In short, you can translate the used across the Chat control phrases to other languages, so that your app can be adapted to different regions.
+`RadChat` provides a language localization. In short, you can translate the used across the Chat control phrases to other languages, so that your app can be adapted to different regions.
 
 >important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 

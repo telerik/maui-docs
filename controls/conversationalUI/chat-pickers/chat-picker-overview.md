@@ -6,7 +6,7 @@ position: 0
 slug: chat-picker-overview
 ---
 
-# Overview
+# ChatPicker Overview
 
 `RadChat` offers different pickers to present the user a selection of choices either as part of the conversation, or over the messages' view. 
 
