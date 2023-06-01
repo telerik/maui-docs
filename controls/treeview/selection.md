@@ -22,7 +22,7 @@ The TreeView provides three selection modes, which allow you to manipulate the t
 
 ## Setting the selected item
 
-The ListView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the ListView.
+The TreeView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the ListView.
 
 >important For the Treeview Selected Item example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category.
 

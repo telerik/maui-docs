@@ -8,9 +8,7 @@ slug: pdfviewer-overview
 
 # .NET MAUI PdfViewer Overview
 
-**RadPdfViewer for Xamarin** is a control that enables you to easily load and display PDF documents natively in your application. It has been made more than simple with the exposed commands that can be easily bound to and the full integration with the RadPdfViewerToolbar.
-
-#### Figure 1: RadPdfViewer Overview
+**Telerik PdfViewer for .NET MAUI** enables you to easily load and display PDF documents in your desktop and mobile applications. The control comes with a predefined toolbar PdfViewerToolbar.
 
 ![PdfViewer Overview](images/pdfviewer-overview.png "PdfViewer Overview")
 

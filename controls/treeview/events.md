@@ -12,7 +12,12 @@ The .NET MAUI TreeView exposes the following events:
 
 * `ItemTapped`&mdash;raises when an item is tapped. The `ItemTapped` event handler receives two parameters:
 	* The `sender` argument which is of type object, but can be cast to the `RadTreeView` type.
-	* A `ItemViewTappedEventArgs` object which has a reference to the tapped item through its `Item` property and to the tapped `View`.
+	* A `ItemViewTappedEventArgs` object which has a reference to the
+		* tapped item through its `Item`(`object`) property 
+		* tapped `View`(`ItemView`)
+		* and the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the tap event. When set to true, the default handling of the tap event is not executed. When set to false, the default handling of the tap event is executed.
+
+>important On Android and iOS when tapping on the TreeView item the item gets expanded. On WinUI and MacCatalyst the item gets expanded when tapping on the arrow `>`. 
 
 * `ItemsSourceChanged`&mdash;raises when ItemsSource has changed. The `ItemHold` event handler receives two parameters:
 	* The `sender` argument which is of type object, but can be cast to the **RadTreeView** type.

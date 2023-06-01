@@ -31,7 +31,7 @@ When your .NET MAUI application is set up, you are ready to add a TreeView contr
   The TreeView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
   * Do not place the TreeView inside a `StackLayout` or inside a `ScrollView`.
-  * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
+  * Do not set the TreeView to a `RowDefinition Height="Auto"` Grid definition.
 
 Set up the `RadTreeView` instance:
 
