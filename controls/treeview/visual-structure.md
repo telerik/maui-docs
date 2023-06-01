@@ -16,4 +16,4 @@ Here are described all visual elements used in the TreeView for .NET MAUI.
 
 | TreeView Item | Description |
 | ------------ | ------- |
-| `ButtonToolbarItem` | Represents a button in the Toolbar control. |
+|  |  |

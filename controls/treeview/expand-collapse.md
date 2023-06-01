@@ -10,8 +10,10 @@ slug: treeview-expand-collapse
 
 RadTreeView exposes useful methods which can be utilized in order to control the states of its items. You can use the following methods to chnage the state of all items:
 
-* `ExpandAll()`&mdash;xpands all items from the source collection
+* `ExpandAll()`&mdash;Expands all items from the source collection
 * `CollapseAll()`&mdash;Collapses all items from the source collection
+
+>important On Android and iOS when tapping on the TreeView item the item gets expanded. On WinUI and MacCatalyst the item gets expanded when tapping on the arrow `>`. 
 
 ## Example
 

@@ -14,8 +14,8 @@ This article explains all commands that Treeview for .NET MAUI provides.
 
 TreeView exposes the following commands for expanding and collapsing all items:
 
-* `ExpandAllCommand`(`ICommand`)&mdash;
-* `CollapseAllCommand`(`ICommand`)&mdash;
+* `ExpandAllCommand`(`ICommand`)&mdash;Gets a command to expand all items in the control.
+* `CollapseAllCommand`(`ICommand`)&mdash;Gets a command to collapse all items in the control.
 
 <snippet id='treeview-expand-collapse-commands'/>
 
@@ -25,8 +25,8 @@ TreeView exposes the following commands for expanding and collapsing all items:
 
 And the following commands for checking and unchecking all items:
 
-* `CheckAllCommand`(`ICommand`)&mdash;
-* `UncheckAllCommand`(`ICommand`)&mdash;
+* `CheckAllCommand`(`ICommand`)&mdash;Gets a command to check all items in the control.
+* `UncheckAllCommand`(`ICommand`)&mdash;Gets a command to uncheck all items in the control.
 
 <snippet id='treeview-check-uncheck-commands'/>
 
