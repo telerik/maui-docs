@@ -16,6 +16,10 @@ Example:
 
 <snippet id='chat-suggested-actions-code' />
 
+Add the SuggestedActions collection:
+
+<snippet id='chat-suggested-actions-collection' />
+
 
 ## See Also
 
