@@ -16,23 +16,25 @@ The following example shows how to populate the `ItemsSource` with business item
 
 **1.** Create a sample `MyItem` class. 
 
-<snippet id='' />
+<snippet id='slideview-datamodel' />
 
 **2.** Add a View Model containing a collection of `MyItem` objects.
 
-<snippet id='' />
+<snippet id='slideview-events-viewmodel' />
 
 **3.** Add the SlideView definition with a sample `ItemTemplate` applied.
 
-<snippet id='' />
+<snippet id='slideview-item-template-xaml' />
 
 **4.** Set the `BindingContext` to the View Model:
 
-<snippet id='' />
+```C#
+slideView.BindingContext = new ViewModel();
+```
 
 Here is the result:
 
-![RadSlideView with ItemTemplate applied](images)
+![RadSlideView with ItemTemplate applied](images/)
 
 ## See Also
 
