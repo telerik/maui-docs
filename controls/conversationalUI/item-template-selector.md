@@ -1,0 +1,62 @@
+---
+title: ItemTemplateSelector
+page_title: .NET MAUI Conversational UI Documentation | RadChat ItemTemplateSelector
+description: Learn more about ItemTemplateSelector property that RadChat control provides
+position: 9
+slug: chat-itemtemplate-selector
+---
+
+# .NET MAUI Chat ItemTemplateSelector
+
+`RadChat` control exposes an `ItemTemplateSelector` property which you can use to apply different templates to each chat item depending on a specific condition.
+
+## Default ItemTemplateSelector
+
+Any change on the appearance of the chat items depends on the `ChatItemTemplateSelector` and the containing templates and referenced Styles. The default selector includes separate templates for the incoming and outgoing messages (so they're aligned on the left/right accordingly), as well as for single and the first, middle and last messages (in case there area a few messages in a row) - this is needed in order to achieve the "balloon" look & feel of the messages. In addition, the `TimeBreak` template is also assigned through the `ItemTemplateSelector`.
+
+Below you can find the default `ItemTemplateSelector` which you can use as a base for any further customizations to the way the messages look. 
+
+In short, the default templates contain RadBorder (used to achieve the rounded edges), image control (used for the avatar image) only for the single and first messages, and a Label for the text message itself. 
+
+The code snippet below contains the default templates and the accompanying styles:
+
+<snippet id='chat-features-defaultitemtemplate-resources' />
+
+Any changes could be applied to the templates and then assign the template selector to the `ItemTemplateSelector` property of the Chat control:
+
+<snippet id='chat-features-defaultitemtemplate-xaml' />
+
+## Custom ItemTemplateSelector
+
+You can create a custom `ChatItemTemplateSelector` to conditionally apply different messages styles depending on any of the used chat item properties.
+
+### Example:
+
+Have the following ChatItem class with a custom MessageCategory property to distinguish important messages:
+
+<snippet id='chat-features-itemtemplate-chatitem' />
+
+Add a few sample Items to the Chat's ItemsSource:
+
+<snippet id='chat-features-itemtemplate-items' />
+
+> You would need to supply an ItemsConverter as you're using custom items as demonstrated inside MVVM Support topic.
+
+<snippet id='chat-features-itemtemplate-itemconverter' />
+
+Create a CustomChatItemTemplateSelector class that derives from the ChatItemTemplateSelector:
+
+<snippet id='chat-features-itemtemplate-templateselector' />
+	
+Create the needed XAML resources:
+
+<snippet id='chat-features-itemtemplate-resources' />
+
+Set it to the Chat's ItemTemplateSelector property:
+
+<snippet id='chat-features-itemtemplate-xaml' />
+
+## See Also
+
+- [MVVM Support]({% slug chat-mvvm-support%})
+- [Commands]({% slug chat-commands %})

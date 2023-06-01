@@ -28,6 +28,7 @@ Globalization refers to developing an application in such a way that it works wi
 
 Localization refers to the translation of application resources into localized versions for the specific languages that the application supports. Check below a list of Telerik .NET MAUI controls that support localization:
 
+* [Conversational UI(Chat)]({%slug chat-localization%})
 * [DataForm]({% slug dataform-localization%})
 * [DataGrid]({% slug datagrid-localization%})
 * [DateTimePicker]({% slug datetimepicker-localization%})
@@ -37,7 +38,6 @@ Localization refers to the translation of application resources into localized v
 * [ListPicker]({% slug listpicker-localization%})
 * [TemplatedPicker]({% slug templatedpicker-localization%})
 * [TimePicker]({% slug timepicker-localization%})
-
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 
