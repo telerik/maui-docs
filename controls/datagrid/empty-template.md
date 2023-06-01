@@ -17,3 +17,20 @@ It exposes the following properties:
 * `EmptyContentDisplayMode`&mdash;defines the modes for displaying empty content. The property have two modes:
        - `ItemsSourceNull`&mdash;displays the empty content view only when the ItemsSource is null.
        - `ItemsSourceNullOrEmpty`&mdash;displays the empty content view when ItemsSource is null or when the source is empty(has zero items).
+
+
+## Example:
+
+Add DataGrid definition in XAML:
+
+<snippet id ='datagrid-empty-template-xaml'/>
+
+Add DataTemplate Resources:
+
+<snippet id ='datagrid-empty-template-resources'/>
+
+## See Also
+
+ - [Filtering]({%slug datagrid-filtering-overview%})
+ - [Grouping]({%slug datagrid-grouping-overview%})
+ - [Selection]({%slug datagrid-selection-overview%})
