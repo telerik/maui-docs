@@ -28,4 +28,4 @@ This section covers the specific details of the different chat items RadChat pro
 - [Time Break]({%slug chat-items-timebreak %})
 - [PickerItem]({%slug chat-picker-overview %})
 - [MVVM Support]({% slug chat-mvvm-support %})
-- [ItemTemplateSelector] ({% slug chat-itemtemplateselector %})
+- [ItemTemplateSelector] ({% slug chat-itemtemplate-selector %})
