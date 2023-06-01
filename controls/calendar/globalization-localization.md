@@ -10,7 +10,7 @@ slug: calendar-globalization-localization
 
 Globalization refers to developing an application in such a way that it works with respect to the target device culture. This includes changes in the Calendar day names and first day of week.
 
-he Telerik UI for .NET MAUI NumericMaskedEntry control supports globalization through the  `Culture` property(of type `System.Globalization.CultureInfo`).
+The Telerik UI for .NET MAUI Calendar control supports globalization through the  `Culture` property(of type `System.Globalization.CultureInfo`).
 
 **Globalization Example with RadCalendar**
 

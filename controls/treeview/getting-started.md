@@ -26,28 +26,28 @@ Before adding the TreeView, you need to:
 
 ## Define the Control
 
-When your .NET MAUI application is set up, you are ready to add a TreeView control to your page. The following example shows a sample ListView definition populated with sample data.
+When your .NET MAUI application is set up, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
 
   The TreeView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
   * Do not place the TreeView inside a `StackLayout` or inside a `ScrollView`.
   * Do not set the TreeView to a `RowDefinition Height="Auto"` Grid definition.
 
-Set up the `RadTreeView` instance:
+**1.** Set up the `RadTreeView` instance:
 
 <snippet id='treeview-getting-started-xaml' />
 
-Add the `telerik` namespaces:
+**2.** Add the `telerik` namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Let's create sample `Item` class:
+**3.** reate sample `Item` class:
 
 <snippet id='treeview-getting-started-item' />
 
-and `ViewModel` class:
+**4.** Add `ViewModel` class:
 
 <snippet id='treeview-getting-started-viewmodel' />
 
@@ -74,7 +74,7 @@ public static class MauiProgram
 }           
 ```
 
->important For the Treeview Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Selection category Treeview -> Getting Started category.
+>important For the TreeView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Treeview -> Getting Started category.
 
 ## Additional Resources
 
