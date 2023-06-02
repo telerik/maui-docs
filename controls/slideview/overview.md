@@ -10,7 +10,7 @@ slug: slideview-overview
 
 **Telerik UI for .NET MAUI SlideView** is a flexible navigation control that allows you to slide between different views, thus providing an interactive navigation. With SlideView, you can build a gallery display to show your images and content efficiently.
 
-![SlideView Overview](images//slideview_overview.png)
+![SlideView Overview](images/slideview-overview.png)
 
 ## Key Features
 
@@ -23,6 +23,10 @@ slug: slideview-overview
 * [Commands support]({%slug slideview-commands%})&mdash;The Telerik UI for .NET MAUI SlideView exposes a number of commands that will be executed when the slide actions occurs.
 
 * UI Virtualization&mdash;SlideView supports UI Virtualization which processes only the visual elements that are loaded in the currently selected, the previous, and the next view. This speeds up the loading time, thus enhancing the UI performance.
+
+* [Infinite Scrolling]({%slug slideview-scrolling%})&mdash;through the `OverScrollMode` property allows to repeating the views when the user reaches the last view.
+
+* [Navigation]({%slug slideview-interaction%})&mdash;The SlideView control provides two ways for navigation through the items-with navigation buttons or through the pips.
 
 ## Next Steps
 
