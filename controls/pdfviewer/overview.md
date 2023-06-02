@@ -10,7 +10,7 @@ slug: pdfviewer-overview
 
 **Telerik PdfViewer for .NET MAUI** enables you to easily load and display PDF documents in your desktop and mobile applications. The control comes with a predefined toolbar PdfViewerToolbar.
 
-![PdfViewer Overview](images/pdfviewer-overview.png "PdfViewer Overview")
+![PdfViewer Overview](images/pdfViewer-overview.png "PdfViewer Overview")
 
 ## Key Features
 
