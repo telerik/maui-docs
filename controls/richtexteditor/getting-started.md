@@ -85,7 +85,7 @@ public static class MauiProgram
 }           
 ```
 
->important For the RichTextEditor Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Getting Started category Treeview -> Getting Started category.
+>important For the RichTextEditor Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Getting Started category.
 
 ## Additional Resources
 
@@ -96,6 +96,5 @@ public static class MauiProgram
 
 ## See Also
 
-- [Key Features]({%slug richtexteditor-key-features%})
 - [Commands]({%slug richtexteditor-commands%})
 - [RichTextEditor Toolbar]({%slug richtexteditor-toolbar%})
