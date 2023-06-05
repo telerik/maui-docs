@@ -10,16 +10,15 @@ slug: slideview-visual-structure
 
 This article describes all visual elements that are used in the SlideView for .NET MAUI.
 
+`RadChat` exposes the following properties you could use to setup the component:
 
-
-
+![.NET MAUI SlideView Visual Structure](images/slideview-visualstructure.png)
 
 
 ## Legend
 
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
+- `NavigationButtons`&mdash;Navigation buttons used for changing the current item.
+- `Indicators(Pips)`&mdash;emphasizes changes from the current item to another item in a collection of items. Also incorporates buttons to enable the end user navigate between the next or previous items.
 
 ## See Also
 

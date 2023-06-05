@@ -10,6 +10,12 @@ slug: chat-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Chat by adding the control to your project.
 
+![Chat Getting Started](images/chat-gettingstarted-desktop.png)
+
+And the result on mobile platforms:
+
+![Chat Getting Started](images/chat-gettingstarted-mobile.png)
+
 ## Prerequisites
 
 Before adding the Chat, you need to:
