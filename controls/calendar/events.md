@@ -14,7 +14,7 @@ Calendar for .NET MAUI exposes the following events:
 	* The sender argument which is of type object, but can be cast to the RadCalendar type.
 	* A `ValueChangedEventArgs&lt;DateTime&gt;` object which provides both old and new values of the `DisplayDate` property. The values are of type `DateTime`.
 
-**Example for `SelectionChanged`:**
+**Example for `DisplayDateChanged`:**
 
 Calendar definition:
 

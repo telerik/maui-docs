@@ -21,7 +21,7 @@ There are various display views that specify what is visible in the Calendar. Th
 
 ## Change the display mode through the UI
 
-Easily change the `DisplayMode` throught the UI by tapping(for mobile) or clicking(for desktop) on the header text: 
+Easily change the `DisplayMode` throught the UI by tapping (for mobile) or clicking (for desktop) on the header text: 
 
 ![.NET MAUI Calendar Month View](images/combobox-header-footer.png)
 
@@ -29,7 +29,7 @@ Easily change the `DisplayMode` throught the UI by tapping(for mobile) or clicki
 
 You can define a range for the display mode by using the 
 
-* `MinDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`.
+* `MinDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`. When `MinDisplayMode` is `Year`, you can select months from this year.
 * `MaxDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`.
 
 <snippet id='calendar-display-range'/>

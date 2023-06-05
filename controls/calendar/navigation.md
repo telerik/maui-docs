@@ -8,7 +8,7 @@ slug: calendar-navigation
 
 # .NET MAUI Calendar Navigation
 
-Easily navigate to differnet calendar views or in the current view through the UI or programatically. This articvles explains all navigation options that the Calendar for .NET MAUI provides.
+Easily navigate between the different views of the calendaror in the current view through the UI or programatically. This articvles explains all navigation options that the Calendar for .NET MAUI provides.
 
 ## Buttons for navigating the current view
 

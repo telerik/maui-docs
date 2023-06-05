@@ -1,6 +1,6 @@
 ---
-title: Date Porperties
-page_title: .NET MAUI Calendar Documentation - Date Porperties
+title: Date Properties
+page_title: .NET MAUI Calendar Documentation - Date Properties
 description: Review all properties for setting the min and max date, selected date and display date of the Telerik Calendar for .NET MAUI control.
 position: 3
 slug: calendar-date-properties
@@ -14,7 +14,7 @@ This article lists the date properties you could use to configure Calendar contr
 
 * `DisplayDate`(`DataTemplate`)&mdash;Defines the template of the header that will be visualized in the drop down list.
 
-## Constraining visible dates
+## Constraining visible dates and selection
 
 Restrict the visible/selectable dates in Calendar by utilizing `MinDate` and `MaxDate` properties.
 
