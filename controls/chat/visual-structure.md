@@ -8,7 +8,7 @@ slug: chat-visual-structure
 
 # .NET MAUI Chat Visual Structure
 
-`RadChat` exposes the following properties you could use to setup the component:
+Chat exposes the following properties you could use to setup the component:
 
 ![.NET MAUI Chat Visual Structure](images/chat-visualstructure.png)
 
