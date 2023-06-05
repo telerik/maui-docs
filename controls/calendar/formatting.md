@@ -1,7 +1,7 @@
 ---
-title: Date Formatting
-page_title: .NET MAUI Calendar Documentation - Date Formatting
-description: Check our &quot;Date Formatting&quot; documentation article for Telerik Calendar for .NET MAUI control.
+title: Header Text Formatting
+page_title: .NET MAUI Calendar Documentation - Header Text Formatting
+description: Check our &quot;Header Text Formatting&quot; documentation article for Telerik Calendar for .NET MAUI control.
 position: 9
 slug: calendar-date-formatting
 ---

@@ -15,8 +15,8 @@ Calendar for .NET MAUI provides three different types of selection: Single, Mult
 * `SelectionMode` (enumeration of type `Telerik.Maui.Controls.Calendar.CalendarSelectionMode`)&mdash;Sppecifies what is the selection applied to the calendar control. You can choose one of the following options:
 	* `None`&mdash;Selection is disabled, so you cannot select any dates in the calendar.
 	* (Default `SelectionMode`)`Single`&mdash;Select a single date. When tapping/clicking on a date cell, it becomes selected. If another date cell has already been selected it is unselected;
-	* `Multiple`&mdash;Select multople dates. Tapped/clicked on each date cell, changes its selected state. When a date cell is tapped for first time it is added to the current selection and when it is tapped again it is removed from the selection.
-	* `Range`&mdash;Allows the users to pick a range of consecutive dates, for example to book a hotel for this period. The first date cell that is tapped gets selected and is considered start of the range. When another cell is tapped, it is considered end of the range and all dates between the start and the end of the range become selected.
+	* `Multiple`&mdash;Select multiple dates. Tapped/clicked on each date cell, changes its selected state. When a date cell is tapped for first time it is added to the current selection and when it is tapped again it is removed from the selection.
+	* `Range`&mdash;Allows the users to pick a range of consecutive dates. The first date cell that is tapped gets selected and is considered start of the range. When another cell is tapped, it is considered end of the range and all dates between the start and the end of the range become selected.
 
 
 * `SelectedDate`(`DateTime?`)&mdash;Specifies the currently selected date. When `Multiple` or `Range` selection is enabled, this value is set to the first selected date.
@@ -28,7 +28,7 @@ Calendar definition:
 
 <snippet id='calendar-selection-properties'/>
 
-The Viewmodel:
+The ViewModel:
 
 <snippet id='calendar-selection-viewmodel'/>
 

@@ -12,7 +12,7 @@ Overall, Telerik .NET MAUI Calendar control is a complete new control with new A
 
 In Telerik UI for Xamarin the Calendar control has also a scheduling, while in Telerik .NET MAUI Calendar and Scheduler are separate controls. The Scheduler is with status planned. 
 
->important The Calendar control does not provide appointments. The appointments will be part of the Scheduler control. 
+>note The Telerik .NET MAUI Calendar control provides selection and does not manage apointments like the Telerik Xmaarin Calendar does. The appointments will be part of the Telerik .NET MAUI Scheduler control.  
 
 Compare API changes in Xamarin.Forms Calendar and .NET MAUI Calendar are described in the tables below:
 
