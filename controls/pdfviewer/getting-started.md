@@ -1,18 +1,23 @@
 ---
 title: Getting Started
-page_title: .NET MAUI Calendar Documentation - Getting Started
+page_title: .NET MAUI PDF Viewer Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI PdfViewer and add the control to your .NET MAUI project.
 position: 1
 slug: pdfviewer-getting-started
 ---
 
-# Getting Started with the .NET MAUI Calendar
+# Getting Started with the .NET MAUI PDF Viewer
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI PdfViewer by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will be able to achieve the following result on Desktop platforms.
 
-![.NET MAUI PdfViewer Getting Started](images/calendar-getting-started.png)
+![PDF Viewer Getting Started](images/pdf-getting-started-desktop.png)
+
+And the result on mobile platforms:
+
+![PDF Viewer Getting Started](images/pdf-gettingstarted-mobile.png)
+
 
 * [Setting up the app](#1-setting-up-the-app)
 * [Adding the required Telerik references](#2-adding-the-required-telerik-references)
@@ -21,7 +26,7 @@ At the end, you will be able to achieve the following result.
 
 ## Prerequisites
 
-Before adding the Calendar, you need to:
+Before adding the PDF Viewer, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
@@ -35,7 +40,7 @@ Before adding the Calendar, you need to:
 
 **1.** When your .NET MAUI application is setup, you are ready to add a Calendar control to your page. The following example demonstrates the definition of the `RadPdfViewer`:
 
-<snippet id='calendar-getting-started-xaml'/>
+<snippet id='pdfviewer-getting-started-xaml'/>
 
 **2.** Add the `telerik` namespaces:
 

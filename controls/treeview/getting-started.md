@@ -10,9 +10,14 @@ slug: treeview-getting-started
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI TreeView]({%slug treeview-overview%}) by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will be able to achieve the following result on Desktop platforms.
 
-![TreeView Getting Started](images/treeview-getting-started.png)
+![TreeView Getting Started](images/treeview-gettingstarted-desktop.png)
+
+And the result on mobile platforms:
+
+![TreeView Getting Started](images/treeview-getingstarted-mobile.png)
+
 
 ## Prerequisites
 
