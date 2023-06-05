@@ -32,7 +32,7 @@ Overall, Telerik .NET MAUI TreeView control is a complete new control with new A
 | - | `SelectionMode` - `None`, `Single`, `Multiple` |
 | `CheckedItemsCollection`(read-only) | `CheckedItemsCollection` |
 | `CheckBoxModes`- `None`, `Individual`, `Propagate` | `CheckBoxModes` - `None`,`Independent`,`Recursive` |
-| `ItemTemplate` | - |
+| `ItemTemplate`(applies on TreeViewDescriptor level) | `ItemTemplate`(applies on TreeView level) |
 | `LoadOnDemand` | - |
 | `ScrollItemIntoView()` | `ScrollTo()` |
 | - | `ItemsSourceChanged` event |
