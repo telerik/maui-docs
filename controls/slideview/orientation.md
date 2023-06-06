@@ -21,6 +21,9 @@ Add the ViewModel:
 
 <snippet id='slideview-events-viewmodel' />
 
+See the result in the images below:
+
+![SlideView IndicatorStyling](images/slideview-orientation.png)
 
 ## See Also
 

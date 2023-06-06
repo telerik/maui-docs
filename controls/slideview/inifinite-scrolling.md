@@ -17,6 +17,10 @@ The `OverScrollMode` property has two modes:
 * `None`&mdash;No overscroll will happen.
 * `Spring`&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.
 
+See the result below in the .gif file:
+
+![SlideView OverScroll](images/slideview-overscroll.gif)
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
