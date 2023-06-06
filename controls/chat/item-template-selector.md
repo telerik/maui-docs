@@ -56,6 +56,10 @@ Set it to the Chat's ItemTemplateSelector property:
 
 <snippet id='chat-features-itemtemplate-xaml' />
 
+Here is an example how you could customize the control:
+
+![Chat Customization](images/chat-customization.png)
+
 ## See Also
 
 - [MVVM Support]({% slug chat-mvvm-support%})

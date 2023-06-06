@@ -23,7 +23,7 @@ Here is a quick example on how to user ItemPicker:
 	
 #### Figure 1: Chat with ItemPicker
 
-![Chat Message](images/)
+![Chat Message](images/chat-item-picker.png)
 
 ## See Also
 

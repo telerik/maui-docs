@@ -23,7 +23,7 @@ Here is a quick example on how to user DatePicker:
 	
 #### Figure 1: Chat with DatePicker
 
-![Chat Message](images/)
+![Chat Message](images/chat-date-picker.png)
 
 ## See Also
 

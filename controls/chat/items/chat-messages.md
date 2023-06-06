@@ -32,10 +32,6 @@ chat.Items.Add(new TextMessage { Author = bot, Text = "Hi." });
 chat.Items.Add(new TextMessage { Author = bot, Text = "This is a message." });
 ```
 
-And here is the result:
-
-![Chat Message](images/)
-
 ## See Also
 
 - [Time Break]({%slug chat-items-timebreak %})
