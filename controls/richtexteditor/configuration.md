@@ -2,7 +2,7 @@
 title: Key Features
 page_title: Xamarin RichTextEditor Documentation | Key Features
 description: Check our &quot;Key Features&quot; documentation article for Telerik RichTextEditor for Xamarin control.
-position: 2
+position: 3
 slug: richtexteditor-configuration
 ---
 

@@ -2,7 +2,7 @@
 title: RichTextEditor Toolbar
 page_title: .NET MAUI RichTextEditor Documentation - Toolbar
 description: Check our &quot;RichTextEditor Toolbar&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
-position: 3
+position: 1
 slug: richtexteditor-toolbar
 ---
 
@@ -88,7 +88,7 @@ App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust
 
 ## Custom Toolbar
 
-You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;review the [Custom Toolbar]({%slug %}) article.
+You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;review the [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
 
 ## See Also
 

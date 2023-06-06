@@ -2,7 +2,7 @@
 title: RichTextEditor Styling
 page_title: .NET MAUI RichTextEditor Documentation - RichTextEditor Styling
 description: Check our &quot;RichTextEditor Styling&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
-position: 0
+position: 1
 slug: richtexteditor-styling
 ---
 

@@ -15,9 +15,55 @@ If the default templates of the control do not suit your needs, you can easily d
 * `YearTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the years in the decade view of the calendar.
 * `DecadeTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the decades in the century view of the calendar.
 
+**Exmaple with Day Template**
+
+<snippet id='calendar-templates-daytemplate-usage'/>
+
+And the template definition
+
+<snippet id='calendar-templates-daytemplate-definition'/>
+
+**Exmaple with Month Template**
+
+<snippet id='calendar-templates-monthtemplate-usage'/>
+
+And the template definition
+
+<snippet id='calendar-templates-monthtemplate-definition'/>
+
+**Exmaple with Year Template**
+
+<snippet id='calendar-templates-yeartemplate-usage'/>
+
+And the template definition
+
+<snippet id='calendar-templates-yeartemplate-definition'/>
+
+**Exmaple with Decade Template**
+
+<snippet id='calendar-templates-decadetemplate-usage'/>
+
+And the template definition
+
+<snippet id='calendar-templates-decadetemplate-definition'/>
+
 ## Template Selectors
 
+You can easily apply a template selector the the calendar templates as they are of type `DataTemplate`. 
 
+**Example with DayTemplate using a Template Selector**
+
+<snippet id='calendar-templates-templateselector-usage'/>
+
+And the template selectors definition
+
+<snippet id='calendar-templates-templateselector-definition'/>
+
+And the Template Selector logic:
+
+<snippet id='calendar-templates-custom-templateselector'/>
+
+>important For the Calendar Templates examples refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Templates category.
 
 ## See Also
 

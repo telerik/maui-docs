@@ -8,7 +8,7 @@ slug: calendar-header-styling
 
 # .NET MAUI Calendar Header Styling
 
-the following article explais the styling options for Calendar Header:
+The following article explais the styling options for Calendar Header:
 
 ## Styling the border of the header and label
 
