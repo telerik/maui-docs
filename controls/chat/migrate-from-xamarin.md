@@ -1,12 +1,12 @@
 ---
 title: Migrating from Xamarin
 page_title: .NET MAUI Conversational UI Documentation - Migrate from Xamarin
-description: "Learn how to migrate from the Xamarin.Forms RadChat to the .NET MAUI Chat control."
+description: Learn how to migrate from the Xamarin.Forms RadChat to the .NET MAUI Chat control.
 position: 10
 slug: chat-migrate-from-xamarin
 ---
 
-# Migrating from Xamarin.Forms Calendar to .NET MAUI Calendar
+# Migrating from Xamarin.Forms Chat to .NET MAUI Chat
 
 The Telerik UI for .NET MAUI Chat preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
@@ -22,7 +22,7 @@ The Telerik UI for .NET MAUI Chat preserves the same API as its Xamarin counterp
 
 | Xamarin RadChat | .NET MAUI RadChat |
 | ------------- | --------------- |
-| `-` | `SuggestedActionsItem` |
+| NA | `SuggestedActionsItem` |
 
 ## See Also
 
