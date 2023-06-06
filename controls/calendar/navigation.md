@@ -49,7 +49,7 @@ Use the `InteractionMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarI
 
 > For the Calendar Interaction Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
 
-![.NET MAUI Calendar interaction mode](images/combobox-header-footer.png)
+![.NET MAUI Calendar interaction mode](images/calendar-interaction-mode.gif)
 
 ## Commands
 
