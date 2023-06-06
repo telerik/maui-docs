@@ -1,6 +1,6 @@
 ---
 title: Decade Styling
-page_title: .NET MAUI ComboBox Documentation - Decade Styling
+page_title: .NET MAUI Calendar Documentation - Decade Styling
 description: Learn how to style the decades in a century view of the Telerik .NET MAUI Calendar control. 
 position: 6
 slug: calendar-decade-styling

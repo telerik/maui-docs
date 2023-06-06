@@ -1,7 +1,7 @@
 ---
 title: Content Styling
-page_title: .NET MAUI ComboBox Documentation - Content Styling
-description: ""
+page_title: .NET MAUI Calendar Documentation - Content Styling
+description: Learn what are the styling options for Claendar for .NET MAUI content.
 position: 2
 slug: calendar-content-styling
 ---

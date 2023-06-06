@@ -1,6 +1,6 @@
 ---
 title: Day Styling
-page_title: .NET MAUI ComboBox Documentation - Day Styling
+page_title: .NET MAUI Calendar Documentation - Day Styling
 description: Learn how to style the days in a month view of the Telerik .NET MAUI Calendar control.
 position: 3
 slug: calendar-day-styling

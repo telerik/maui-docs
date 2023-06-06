@@ -85,9 +85,6 @@ navigation:
     controls/calendar:
         title: "Calendar"
         ## Calendar Sub-Folders
-    controls/calendar/templates:
-        title: "Templates"
-        position: 10
     controls/calendar/styling:
         title: "Styling"
         position: 15

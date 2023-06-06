@@ -1,6 +1,6 @@
 ---
 title: Year Styling
-page_title: .NET MAUI ComboBox Documentation - Year Styling
+page_title: .NET MAUI Calendar Documentation - Year Styling
 description: Learn how to style the years in a decade view of the Telerik .NET MAUI Calendar control.
 position: 5
 slug: calendar-year-styling
