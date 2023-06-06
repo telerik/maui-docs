@@ -317,6 +317,19 @@ navigation:
     controls/rating:
         title: "Rating"
     ## End Rating
+    ## RichTextEditor
+    controls/richtexteditor:
+        title: "RichTextEditor"
+    controls/richtexteditor/working-with-images:
+        title: "Working with Images"
+        position: 6
+    controls/richtexteditor/toolbar:
+        title: "Toolbar"
+        position: 8
+    controls/richtexteditor/styling:
+        title: "Styling"
+        position: 19
+    ## End RichTextEditor
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
@@ -492,6 +505,10 @@ intro_columns:
         "Map": "map-overview"
         "ProgressBar": "progressbar-overview"
         "Ratings": "rating-overview"
+  -
+    title: "Chatbots"
+    items:
+        "Conversation UI (Chat)": "chat-overview"
 -
   categories:
   -
@@ -506,6 +523,7 @@ intro_columns:
         "ListPicker": "listpicker-overview"
         "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
+        "RichTextEditor": "richtexteditor-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
         "TimeSpanPicker": "timespanpicker-overview"

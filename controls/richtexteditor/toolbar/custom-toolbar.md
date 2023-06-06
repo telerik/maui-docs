@@ -2,7 +2,7 @@
 title: Custom Toolbar
 page_title: .NET MAUI RichTextEditor Documentation - Custom Toolbar
 description: Check our &quot;RichTextEditor Custom Toolbar&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
-position: 3
+position: 2
 slug: richtexteditor-custom-toolbar
 ---
 
