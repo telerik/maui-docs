@@ -24,6 +24,11 @@ Add Style resources:
 
 <snippet id='slideview-navigation-styling-resources' />
 
+And the result below:
+
+![SlideView IndicatorStyling](images/slideview-navigation.png)
+
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})

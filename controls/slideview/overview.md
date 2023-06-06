@@ -22,11 +22,9 @@ slug: slideview-overview
 
 * [Commands support]({%slug slideview-commands%})&mdash;The Telerik UI for .NET MAUI SlideView exposes a number of commands that will be executed when the slide actions occurs.
 
-* UI Virtualization&mdash;SlideView supports UI Virtualization which processes only the visual elements that are loaded in the currently selected, the previous, and the next view. This speeds up the loading time, thus enhancing the UI performance.
+* [Infinite Looping]({%slug slideview-scrolling%})&mdash;The SlideView control provides infinite scrollling mechanism - when user reaches the last item it allows to repeat the views.
 
-* [Infinite Scrolling]({%slug slideview-scrolling%})&mdash;The SlideView control provides infinite scrollling mechanism - when user reaches the last item it allows to repeat the views.
-
-* [Navigation]({%slug slideview-interaction%})&mdash;The SlideView control provides two ways for navigation through the items-with navigation buttons or through the indicators.
+* [Navigation]({%slug slideview-interaction%})&mdash;The SlideView control provides variety of navigation throught it`s items - navigation buttons, indicators(Desktop) and throught pan gesture.
 
 ## Next Steps
 

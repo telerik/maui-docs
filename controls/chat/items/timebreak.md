@@ -18,10 +18,6 @@ You could create a sample TimeBreak item like this:
 
 <snippet id='chat-chatitems-timebreak' />
 
-And here is the result:
-
-![Chat Message](images/)
-
 ## See Also
 
 - [Messages]({% slug chat-items-messages %})

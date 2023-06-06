@@ -45,7 +45,7 @@ Utilize the PdfProcessing's FontsRepository `RegisterFont` static method to embe
 
 **1**: Add the `.ttf` file containing the font data to your .NET MAUI project, in the example below it is placed inside `Resources` folder:
 
-![.NET MAUI PdfViewer fonts](images/pdfviewer-embed-font.png)
+![.NET MAUI PdfViewer fonts](images/pdf-fonts.png)
 
 >Make sure to update the Build Action of the .ttf file to **Embedded resource**.
 

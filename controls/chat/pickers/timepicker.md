@@ -23,7 +23,7 @@ Here is a quick example on how to user TimePicker in RadChat:
 	
 #### Figure 1: Chat with TimePicker
 
-![Chat Message](images/)
+![Chat Message](images/chat-time-picker.png)
 
 ## See Also
 

@@ -21,11 +21,11 @@ The available options are:
 
 Here is how the PdfViewer looks when `LayoutMode` is set to `ContinuousScroll`:
 
-![.NET MAUI PDF Viewer ContinuousScroll](images/pdfviewer-continuous-scroll.png "PdfViewer ContinuousScroll")
+![.NET MAUI PDF Viewer ContinuousScroll](images/pdf-continousscroll.png "PdfViewer ContinuousScroll")
 
 And when the `LayoutMode` property is set to `SinglePage`:
 
-![.NET MAUI PDF Viewer SinglePage](images/pdfviewer-single-page.png "PdfViewer SinglePage")
+![.NET MAUI PDF Viewer SinglePage](images/pdf-singlepage.png "PdfViewer SinglePage")
 
 ## See Also
 

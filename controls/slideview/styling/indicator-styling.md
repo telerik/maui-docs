@@ -40,6 +40,10 @@ Add Style resources:
 
 <snippet id='slideview-indicator-styling-resource' />
 
+See the result below:
+
+![SlideView IndicatorStyling](images/slideview-indicatorstyling.png)
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
