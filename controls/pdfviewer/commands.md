@@ -1,14 +1,14 @@
 ---
 title: Commands
-page_title: .NET MAUI PdfViewer Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik PdfViewer for Xamarin control.
+page_title: .NET MAUI PDF Viewer Documentation - Commands
+description: Check our &quot;Commands&quot; documentation article for Telerik PDF Viewer for Xamarin control.
 position: 10
 slug: pdfviewer-commands
 ---
 
 # Commands
 
-PdfViewer provides the following commands of type `ICommand`:
+PDF Viewer provides the following commands of type `ICommand`:
 
 * `ZoomInCommand`
 * `ZoomOutCommand`

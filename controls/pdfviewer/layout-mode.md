@@ -1,7 +1,7 @@
 ---
 title: Layout Modes
-page_title: .NET MAUI PdfViewer Documentation - Layout Modes
-description: Review the different layout modes of the Pdfviewer for .NET MAUI.
+page_title: .NET MAUI PDF Viewer Documentation - Layout Modes
+description: Review the different layout modes of the PDF viewer for .NET MAUI.
 position: 4
 slug: pdfviewer-layout-modes
 ---
@@ -15,17 +15,17 @@ The available options are:
 * `ContinuousScroll`&mdash;Displays pages in a continuous vertical column.
 * `SinglePage`&mdash;Displays one page at a time.
 
->note By default the PdfViewer LayoutMode property is set to `ContinuousScroll`.
+>note By default the PDF Viewer LayoutMode property is set to `ContinuousScroll`.
 
 >tip The RadPdfViewer LayoutMode could be triggered through the `ToggleLayoutModeCommand` and the `ToggleLayoutModeToolbarItem`.
 
 Here is how the PdfViewer looks when `LayoutMode` is set to `ContinuousScroll`:
 
-![PdfViewer ContinuousScroll](images/pdfviewer-continuous-scroll.png "PdfViewer ContinuousScroll")
+![.NET MAUI PDF Viewer ContinuousScroll](images/pdfviewer-continuous-scroll.png "PdfViewer ContinuousScroll")
 
 And when the `LayoutMode` property is set to `SinglePage`:
 
-![PdfViewer SinglePage](images/pdfviewer-single-page.png "PdfViewer SinglePage")
+![.NET MAUI PDF Viewer SinglePage](images/pdfviewer-single-page.png "PdfViewer SinglePage")
 
 ## See Also
 

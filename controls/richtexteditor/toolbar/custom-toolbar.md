@@ -22,7 +22,7 @@ Here is an exmaple with custom toolbar items:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Load the htim document in the RichTextEditor:
+**3.** Load the html document in the RichTextEditor:
 
 <snippet id='richtexteditor-toolbar-load-source' />
 

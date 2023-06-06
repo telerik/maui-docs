@@ -12,13 +12,16 @@ In this article we will review the built-in toolbar items for insert and edit im
 
 ## Insert Images
 
-You can add images in the RichTextEditor by using the predefined toolbar item. On Desktop by using the `RichTextEditorAddOrEditImageToolbarItem`, on Mobile&mdash;`RichTextEditorImageNavigationToolbarItem`.
+Use the following toolbar items for adding/instering an image in the editor. 
 
-## Built-in Toolbar Items for editing images
+* `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
+* `RichTextEditorAddOrEditImageToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
+* `RichTextEditorImageNavigationToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
 
-When selecting an image in the RichTextEditor, you can use the following toolbar items to edit the image:
+## Toolbar items for image operations
 
-* `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image.
+The `RichTextEditorImageNavigationToolbarItem` has the following items: 
+
 * `RichTextEditorEditImageToolbarItem`&mdash;Allows you to resize the image. In addition the toolbar allows you to pick an image (the RichTextEditor.`PickImage` event is fired) if you haven't selected one. Check [Edit Image ToolbarItem]({%slug richtexteditor-insert-images%}#edit-image-toolbaritem) for more details.
 * `RichTextEditorCutToolbarItem`&mdash;Allows you to cut the selected HTML/image to the clipboard.
 * `RichTextEditorCopyToolbarItem`&mdash;Allows you to copy the selected HTML/image to the clipboard. 

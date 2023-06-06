@@ -8,7 +8,7 @@ slug: calendar-day-styling
 
 # .NET MAUI Calendar Day Styling
 
-Calendar control for .NET MAUI provides the `DayStyleSelector`(of type `CalendarStyleSelector`)property which specifies the style selector for the days in the month views of the calendar.
+Calendar control for .NET MAUI provides the `DayStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the days in the month views of the calendar.
 
 **Example**
 
