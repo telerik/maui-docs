@@ -32,6 +32,10 @@ The ViewModel:
 
 <snippet id='calendar-selection-viewmodel'/>
 
+The image below shows the result:
+
+![.NET MAUI Calendar SelectedDates](images/calendar-selected-datespng.png)
+
 **Example with Single selection**
 
 The default `SelectinMode` of the .NET MAUI Calendar control.
@@ -40,7 +44,7 @@ The default `SelectinMode` of the .NET MAUI Calendar control.
 
 This is how single selection looks:
 
-![.NET MAUI Calendar Single Selection](images/dropdown-single-selection.png)
+![.NET MAUI Calendar Single Selection](images/single-selection.png)
 
 **Example with Multiple selection**
 
@@ -48,7 +52,7 @@ This is how single selection looks:
 
 This is how multiple selection looks: 
 
-![.NET MAUI Calendar Multiple Selection](images/combobox-multiple-selection-selecteditems.png)
+![.NET MAUI Calendar Multiple Selection](images/calendar-multiple-selection.png)
 
 **Example with Range selection**
 
@@ -58,7 +62,7 @@ Here is the Calendar definition in XAML:
 
 This is how range selection looks: 
 
-![.NET MAUI Calendar Range Selection](images/combobox-multiple-selection-selecteditems.png)
+![.NET MAUI Calendar Range Selection](images/calendar-range-selection.png)
 
 **Example with disabled selection**
 

@@ -14,7 +14,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will be able to achieve the following result.
 
-![.NET MAUI RichTextEditor Getting Started](images/richtexteditor-getting-started.png)
+![.NET MAUI RichTextEditor Getting Started](images/rte-gettingstarted.png)
 
 ## Prerequisites
 

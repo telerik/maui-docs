@@ -10,12 +10,7 @@ slug: calendar-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Calendar by adding the control to your project.
 
-![.NET MAUI Calendar Getting Started](images/CalendarGettingStartedDesktop.png)
-
-And the result on mobile platforms:
-
-![.NET MAUI Getting Started](images/CalendarGettingStartedMobile.png)
-
+![.NET MAUI Calendar Getting Started](images/calendar-gettingstarted.png)
 
 ## Prerequisites
 

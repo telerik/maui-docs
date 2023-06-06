@@ -40,7 +40,7 @@ This view represents all days in a single month.
 
 <snippet id='calendar-displaymode-month'/>
 
-![.NET MAUI Calendar Month View](images/combobox-header-footer.png)
+![.NET MAUI Calendar Month View](images/display-mode-month.png)
 
 ## Year view
 
@@ -48,7 +48,7 @@ This view represents all months in a year.
 
 <snippet id='calendar-displaymode-year'/>
 
-![.NET MAUI Calendar Year View](images/combobox-header-footer.png)
+![.NET MAUI Calendar Year View](images/display-mode-year.png)
 
 ## Decade view
 
@@ -56,7 +56,7 @@ This view represents all years in a decade.
 
 <snippet id='calendar-displaymode-decade'/>
 
-![.NET MAUI Calendar Decade View](images/combobox-header-footer.png)
+![.NET MAUI Calendar Decade View](images/display-mode-decade.png)
 
 ## Century view
 
@@ -64,7 +64,7 @@ This view represents all decades in a century.
 
 <snippet id='calendar-displaymode-century'/>
 
-![.NET MAUI Calendar Century View](images/combobox-header-footer.png)
+![.NET MAUI Calendar Century View](images/display-mode-century.png)
 
 > For all Calendar DisplayModes example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Display Modes category.
 
