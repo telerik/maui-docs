@@ -1,14 +1,14 @@
 ---
 title: Display Documents
-page_title: .NET MAUI PdfViewer Documentation - Display Documents
-description: Review the options for visualizing pdf documents in the PdfViewer for .NET MAUI.
+page_title: .NET MAUI PDF Viewer Documentation - Display Documents
+description: Review the options for visualizing PDF documents in the PDF Viewer for .NET MAUI.
 position: 2
 slug: pdfviewer-display-documents
 ---
 
-## Pdf Document Visualization
+## PDF Document Visualization
 
-.NET MAUI PdfViewer control enables you to visualize Pdf documents through the `Source` property of type *Telerik.XamarinForms.PdfViewer.DocumentSource*. 
+.NET MAUI PdfViewer control enables you to visualize PDF documents through the `Source` property of type `Telerik.Maui.Controls.PdfViewer.DocumentSource`. 
 
 ## Visualize documents from FixedDocument
 
@@ -20,7 +20,7 @@ slug: pdfviewer-display-documents
 
 <snippet id='pdfviewer-key-features-source-fixed-method' />
 
->note The example shows a pdf document visualized as an EmbeddedResource. This is one of the options for loading a pdf with the PdfViewer control. 
+>note The example shows a PDF document visualized as an EmbeddedResource. This is one of the options for loading a pdf with the PdfViewer control. 
 
 ## Visualize documents from Uri
 
@@ -36,7 +36,7 @@ where `GetUri()` method returns a valid and accessible URL.
 
 ## Visualize documents from File
 
-You can visualize the pdf document from a file located on a device (available since R1 2019 SP). You just need to pass the file path to the *Source* property of the PdfViewer control:
+You can visualize the PDF document from a file located on a device. You just need to pass the file path to the `Source` property of the PDF Viewer control:
 
 ```C#
 this.pdfViewer.Source = filePath;
@@ -54,7 +54,7 @@ System.IO.File.OpenRead(filePath);
 
 ## Visualize documents from Byte Array
 
-Here is a sample how to visualize documents from a byte array.
+Here is a sample how to visualize PDF documents from a byte array.
 
 <snippet id='pdfviewer-key-features-source-byte' />
 
@@ -89,7 +89,7 @@ PdfViewer control provides ReadOnDemand loading of the pdf document, which means
 
 ## Document Reference
 
-Through the `Document` property of RadPdfViewer you can get a reference to the **RadFixedDocument** imported by the DocumentSource. For more details check [RadFixedDocument](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from RadPdfProcessing documentation. 
+Through the `Document` property of RadPdfViewer you can get a reference to the `RadFixedDocument` imported by the DocumentSource. For more details check [RadFixedDocument](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from RadPdfProcessing documentation. 
 
 ## See Also
 

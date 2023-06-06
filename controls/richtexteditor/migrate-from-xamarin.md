@@ -15,7 +15,9 @@ Compared API changes in Xamarin.Forms RichTextEditor and .NET MAUI RichTextEdito
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin RichTextEditor | `RichTextEditor` | xmlns:telerikRichTextEditor="clr-namespace:Telerik.XamarinForms.RichTextEditor;assembly=Telerik.XamarinForms.RichTextEditor" | using Telerik.XamarinForms.RichTextEditor; |
-| .NET MAUI RichTextEditor | `RichTextEditor` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
+| .NET MAUI RichTextEditor | `RadRichTextEditor` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
+| Xamarin RichTextEditorToolbar | `RadRichTextEditorToolbar` |  xmlns:telerikRichTextEditor="clr-namespace:Telerik.XamarinForms.RichTextEditor;assembly=Telerik.XamarinForms.RichTextEditor" | using Telerik.XamarinForms.RichTextEditor; |
+| .NET MAUI RichTextEditorToolbar | `RadRichTextEditorToolbar` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | Telerik.Maui.Controls.RichTextEditor; |
 
 ## API Changes
 
@@ -25,8 +27,8 @@ Compared API changes in Xamarin.Forms RichTextEditor and .NET MAUI RichTextEdito
 | ------------- | --------------- |
 | `BoldToolbarItem` | `RichTextEditorBoldToolbarItem` |
 | `ClearFormattingToolbarItem` | `RichTextEditorClearFormattingToolbarItem` |
-| `AddImageToolbarItem` | Desktop&mdash;`RichTextEditorAddOrEditImageToolbarItem`, Mobile&mdash;`RichTextEditorImageNavigationToolbarItem` |
-| `AddHyperlinkToolbarItem ` | Desktop&mdash;`RichTextEditorAddOrEditHyperlinkToolbarItem`, Mobile&mdash;`RichTextEditorHyperlinkNavigationToolbarItem` |
+| `AddImageToolbarItem` | `RichTextEditorImageNavigationToolbarItem` |
+| `AddHyperlinkToolbarItem ` | `RichTextEditorHyperlinkNavigationToolbarItem` |
 
 
 This table lists the missing features:

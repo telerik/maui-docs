@@ -14,7 +14,7 @@ slug: richtexteditor-overview
 
 ## Key Features
 
-* Visualize HTML content*: RadRichTextEditor can display HTML content that includes paragraphs, formatted text, images, tables, ordered and unordered lists, and more. 
+* Visualize HTML content&mdash;RadRichTextEditor can display HTML content that includes paragraphs, formatted text, images, tables, ordered and unordered lists, and more. 
 
 * Rich text editing features: The control comes with various editing capabilities:
 	* Text formatting such as bold, italic, underline and strikethrough;

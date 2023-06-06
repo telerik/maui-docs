@@ -8,7 +8,7 @@ slug: calendar-decade-styling
 
 # .NET MAUI Calendar Decade Styling
 
-Calendar control for .NET MAUI provides the `DecadeStyleSelector`(of type `CalendarStyleSelector`)property which specifies the style selector for the decades in the century view of the calendar.
+Calendar control for .NET MAUI provides the `DecadeStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the decades in the century view of the calendar.
 
 **Example**
 

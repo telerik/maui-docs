@@ -8,7 +8,7 @@ slug: calendar-year-styling
 
 # .NET MAUI Calendar Year Styling
 
-Calendar control for .NET MAUI provides the `YearStyleSelector`(of type `CalendarStyleSelector`)property which specifies the style selector for the years in the decade view of the calendar.
+Calendar control for .NET MAUI provides the `YearStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the years in the decade view of the calendar.
 
 **Example**
 

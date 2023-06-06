@@ -1,18 +1,18 @@
 ---
 title: PdfViewer Toolbar
-page_title: .NET MAUI PdfViewer Documentation - PdfViewer Toolbar
-description: Review all predefined items in the .NET MAUI PdfViewer control.
+page_title: .NET MAUI PDF Viewer Documentation - PdfViewer Toolbar
+description: Review all predefined items in the .NET MAUI PDF Viewer control.
 position: 3
 slug: pdfviewer-toolbar
 ---
 
-# PdfViewer Toolbar
+# PDF Viewer Toolbar
 
-PdfToolbar includes some of commands that the PdfViewer provides. You have also the option to include additional toolbar items to the PdfViewerToolbar with a custom command.  
+PDF Toolbar includes some of commands that the PdfViewer provides. You have also the option to include additional toolbar items to the PdfViewerToolbar with a custom command.  
 
 ## Predefined Toolbar Items
 
-PdfToolbar provides the following toolbar items:
+PDF Toolbar provides the following toolbar items:
 
 * `PdfViewerZoomInToolbarItem`
 * `PdfViewerZoomOutToolbarItem`
@@ -34,21 +34,21 @@ PdfToolbar provides the following toolbar items:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Then add the following code to visualize the pdf document:
+**3.** Then add the following code to visualize the PDF document:
 
 <snippet id='pdfviewer-toolbar'/>
 
->The snippet above shows one of the approaches for loading a pdf document inside RadPdfViewer just for the purpose of the example.
+>The snippet above shows one of the approaches for loading a PDF document inside RadPdfViewer just for the purpose of the example.
 
 This is the result:
 
-![.NET MAUI PdfViewer Toolbar](images/pdfviewer-toolbar.png "PdfViewer Toolbar")
+![.NET MAUI PdfViewer Toolbar](images/pdfviewer-toolbar.png "PDF Viewer Toolbar")
 
 > For the PdfViewer Toolbar example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Toolbar category.
 
 ## Custom Toolbar Item
 
-You can easily add custom toolbar items to the PdfToolbar bound with a custom command. This is implemented by using the `ButtonToolbarItem`.
+You can easily add custom toolbar items to the PDF Toolbar bound with a custom command. This is implemented by using the `ButtonToolbarItem`.
 
 Here is an example showing how to add a custom ToolbarItem with a sample command bound to it. The command is used just to display a message with the PdfDocument file size.
 
@@ -68,7 +68,7 @@ Check below the result on different platforms:
 
 ![PdfToolbar Custom ToolbarItem](images/pdfviewer-toolbar-customitem.png)
 
-> For the PdfViewer Custom Toolbar example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Toolbar category.
+> For the PDF Viewer Custom Toolbar example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Toolbar category.
 
 ## See Also
 

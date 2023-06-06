@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI PDF Viewer Documentation - Getting Started
-description: Get started with the Telerik UI for .NET MAUI PdfViewer and add the control to your .NET MAUI project.
+description: Get started with the Telerik UI for .NET MAUI PDF Viewer and add the control to your .NET MAUI project.
 position: 1
 slug: pdfviewer-getting-started
 ---
@@ -48,7 +48,7 @@ Before adding the PDF Viewer, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Visualize the pdf document, by setting the `Source` property of the control:
+**3.** Visualize the PDF document, by setting the `Source` property of the control:
 
 <snippet id='pdfviewer-getting-started' />
 

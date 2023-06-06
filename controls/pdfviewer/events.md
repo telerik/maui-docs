@@ -1,14 +1,14 @@
 ---
 title: Events
-page_title: .NET MAUI PdfViewer Documentation - Events
-description: Review all events the Telerik PdfViewer for .NET MAUI control provides.
+page_title: .NET MAUI PDF Viewer Documentation - Events
+description: Review all events the Telerik PDF Viewer for .NET MAUI control provides.
 position: 9
 slug: pdfviewer-events
 ---
 
 # Events
 
-This article explains alll events the Telerik PdfViewer for .NET MAUI provides. 
+This article explains alll events the Telerik PDF Viewer for .NET MAUI provides. 
 
 ## Event when elements in the page are loaded
 
@@ -20,7 +20,7 @@ The `PageElementsLoaded` event handler receives two parameters:
 
 ## Handling exceptions in the source
 
-In certain cases PdfViewer will not be able to load the passed Pdf document - it can be due to invalid stream/inaccessible URL or some invalid data in the document itself. PdfViewer provides a way to catch these cases through its `SourceException` event. In addition, you could show a user-friendly message to the users through `SourceExceptionTemplate`.
+In certain cases PDF Viewer will not be able to load the passed PDF document - it can be due to invalid stream/inaccessible URL or some invalid data in the document itself. PdfViewer provides a way to catch these cases through its `SourceException` event. In addition, you could show a user-friendly message to the users through `SourceExceptionTemplate`.
 
 Check the example below which shows how to use the RadPdfViewer API for handling source exceptions.
 
@@ -42,7 +42,7 @@ Check below how the defined SourceTemplateException looks:
 
 ![.NET MAUI PdfViewer SourceException](images/pdfviewer-sourceexceptiontemplate.png)
 
-> For the PdfViewer SourceException example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
+> For the PDF Viewer SourceException example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
 
 ## See Also
 

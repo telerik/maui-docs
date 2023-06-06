@@ -1,14 +1,14 @@
 ---
 title: Configuration
-page_title: .NET MAUI PdfViewer Documentation - Configuration
-description: Learn what are the options to configure the PdfViewer for .NET MAUI.
+page_title: .NET MAUI PDF Viewer Documentation - Configuration
+description: Learn what are the options to configure the PDF Viewer for .NET MAUI.
 position: 3
 slug: pdfviewer-configuration
 ---
 
 # Configuration
 
-The purpose of this help article is to show you the configuration options that PdfViewer for .NET MAUI provides.
+The purpose of this help article is to show you the configuration options that PDF Viewer for .NET MAUI provides.
 
 ## Setting the Zoom Level
 
@@ -21,7 +21,7 @@ PdfViewer exposes properties for applying min and max zoom values.
 
 ## Configure the spacing between the pages
 
-* `PageSpacing`(`double`)&mdash;Defines the space between the pages of the Pdf Document. The default value is 20.0
+* `PageSpacing`(`double`)&mdash;Defines the space between the pages of the PDF Document. The default value is 20.0
 
 ## Configure the staring index of the page
 
@@ -29,7 +29,7 @@ PdfViewer exposes properties for applying min and max zoom values.
 
 ## Customize the default BusyIndicator
 
-When loading documents in the PdfViewer, a busy indicator visualizes. If the default look of the busy indicator does not suit your needs, you could easily define a custom template through the following property:
+When loading documents in the PDF Viewer, a busy indicator visualizes. If the default look of the busy indicator does not suit your needs, you could easily define a custom template through the following property:
 
 * `BusyIndicatorTemplate`(`DataTemplate`)&mdashSpecifies the template visualized while the Pdf Document is loading.
 
@@ -41,7 +41,7 @@ Here is how the BusyIndicator Template looks:
 
 ![PdfViewer BusyIndicator Template](images/pdfviewer-busyindicator-template.png "PdfViewer BusyIndicator Template")
 
-> For the PdfViewer BusyIndicator example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
+> For the PDF Viewer BusyIndicator example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
 
 ## See Also
 

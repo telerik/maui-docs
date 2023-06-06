@@ -1,14 +1,14 @@
 ---
 title: Password Protected Documents
-page_title: .NET MAUI PdfViewer Documentation - Password protected documents
-description: Review how to configure the Pdfviewer for .NET MAUI.
+page_title: .NET MAUI PDF Viewer Documentation - Password protected documents
+description: Review how to configure the PDF Viewer for .NET MAUI.
 position: 5
 slug: pdfviewer-password
 ---
 
-# Password-protected Pdf Document
+# Password-protected PDF Document
 
-* `SourcePasswordNeeded`&mdash;Occurs when a user password is needed to load the document in PdfViewer. The SourcePasswordNeeded event handler receives two parameters:
+* `SourcePasswordNeeded`&mdash;Occurs when a user password is needed to load the document in PDF Viewer. The SourcePasswordNeeded event handler receives two parameters:
 	* The sender argument which is of type `object`, but can be cast to the `RadPdfViewer` type.
 	* A `PasswordNeededEventArgs` object which provides `Password` property used to supply the user password.
 
@@ -31,4 +31,4 @@ private void pdfViewer_SourcePasswordNeeded(object sender, Telerik.Windows.Docum
 ## See Also
 
 - [Commands]({%slug pdfviewer-commands%})
-- [PdfViewer Toolbar]({%slug pdfviewer-toolbar%})
+- [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})
