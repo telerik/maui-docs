@@ -1,14 +1,14 @@
 ---
 title: Fonts
-page_title: .NET MAUI PdfViewer Documentation - Fonts
-description: Review how to register the fonts in the pdf document.
+page_title: .NET MAUI PDF Viewer Documentation - Fonts
+description: Review how to register the fonts in the PDF document.
 position: 7
 slug: pdfviewer-fonts
 ---
 
 # Fonts
 
-The Telerik .NET MAUI PdfViewer supports standard and embedded fonts. 
+The Telerik .NET MAUI PDF Viewer supports standard and embedded fonts. 
 
 ## Standard Fonts
 
@@ -67,7 +67,7 @@ private static byte[] ReadAllBytes(Stream input)
 }
 ```
 
-**3**: Embed the font through the `RegisterFont` method, here you need to use the above mentioned ReadAllBytes method to read the font data and return it as a byte array:
+**3**: Embed the font through the `RegisterFont` method, here you need to use the above mentioned `ReadAllBytes` method to read the font data and return it as a byte array:
 
 ```C#
 Assembly assembly = typeof(MainPage).Assembly;

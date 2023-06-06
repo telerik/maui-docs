@@ -1,14 +1,14 @@
 ---
 title: Link Annotations
-page_title: .NET MAUI PdfViewer Documentation - Link Annotations
-description: Review the link annotations features introduced in Telerik .NET MAUI PdfViewer control.
+page_title: .NET MAUI PDF Viewer Documentation - Link Annotations
+description: Review the link annotations features introduced in Telerik .NET MAUI PDF Viewer control.
 position: 6
 slug: pdfviewer-annotations
 ---
 
 # Link Annotations
 
-The Telerik .NET MAUI PdfViewer supports Link annotations. If you open a PDF file that includes hyperlinks to absolute URIs, you can tap any of them and have a browser open, navigated to the respective address. In addition, if there are links pointing to bookmarks in the same document, the view port scrolls to the destination specified in the link.
+The Telerik .NET MAUI PDF Viewer supports Link annotations. If you open a PDF file that includes hyperlinks to absolute URIs, you can tap any of them and have a browser open, navigated to the respective address. In addition, if there are links pointing to bookmarks in the same document, the view port scrolls to the destination specified in the link.
 
 ![.NET MAUI PdfViewer Link Annotation](images/pdfviewer-link-annotations.png)
 
@@ -36,7 +36,7 @@ The result on different platforms after tapping on a hyperlink:
 
 ![.NET MAUI PdfViewer Link Annotation Event](images/pdfviewer-link-annotationsevent.png)
 
-> For the PrfViewer Annotations example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
+> For the PDF Viewer Annotations example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
 
 ## See Also
 

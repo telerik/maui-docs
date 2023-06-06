@@ -8,7 +8,7 @@ slug: calendar-month-styling
 
 # .NET MAUI Calendar Month Styling
 
-Calendar control for .NET MAUI provides the `MonthStyleSelector`(of type `CalendarStyleSelector`)property which specifies the style selector for the months in the year view of the calendar.
+Calendar control for .NET MAUI provides the `MonthStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the months in the year view of the calendar.
 
 **Example**
 

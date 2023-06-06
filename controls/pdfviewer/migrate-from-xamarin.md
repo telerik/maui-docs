@@ -1,25 +1,25 @@
 ---
 title: Migrating from Xamarin
-page_title: .NET MAUI PdfViewer Documentation - Migrate from Xamarin
-description: Learn how to migrate from Xamarin.Forms PdfViewer to .NET MAUI PdfViewer control.
+page_title: .NET MAUI PDF Viewer Documentation - Migrate from Xamarin
+description: Learn how to migrate from Xamarin.Forms PDF Viewer to .NET MAUI PDF Viewer control.
 position: 20
 slug: pdfviewer-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms PdfViewer to .NET MAUI PdfViewer
+# Migrate from Xamarin.Forms PDF Viewer to .NET MAUI PDF Viewer
 
-Compared API changes in Xamarin.Forms PdfViewer and .NET MAUI PdfViewer are described in the tables below:
+Compared API changes in Xamarin.Forms PDF Viewer and .NET MAUI PDF Viewer are described in the tables below:
 
 ## Migrate the Namespaces
 
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
-| Xamarin PdfViewer | `RadPdfViewer` | xmlns:telerikPdfViewer="clr-namespace:Telerik.XamarinForms.PdfViewer;assembly=Telerik.XamarinForms.PdfViewer" | using Telerik.XamarinForms.PdfViewer; |
-| .NET MAUI PdfViewer | `RadPdfViewer` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
+| Xamarin PDF Viewer | `RadPdfViewer` | xmlns:telerikPdfViewer="clr-namespace:Telerik.XamarinForms.PdfViewer;assembly=Telerik.XamarinForms.PdfViewer" | using Telerik.XamarinForms.PdfViewer; |
+| .NET MAUI PDF Viewer | `RadPdfViewer` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 
-| Xamarin PdfViewer | .NET MAUI PdfViewer |
+| Xamarin PDF Viewer | .NET MAUI PDF Viewer |
 | ------------- | --------------- |
 | Text Selection | NA |
 | Text Search | NA |
@@ -32,8 +32,6 @@ Compared API changes in Xamarin.Forms PdfViewer and .NET MAUI PdfViewer are desc
 | `FitToWidthToolbarItem` | `PdfViewerFitToWidthToolbarItem` |
 | `ToggleLayoutModeToolbarItem` | NA |
 | `SearchToolbarItem` | NA |
-
-
 
 ## See Also
 

@@ -34,7 +34,7 @@ When your .NET MAUI application is set up, you are ready to add a RichTextEditor
 >
 > - Nesting RadRichTextEditor inside ScrollView control is not supported. RadRichTextEditor provides its own scrolling mechanism.
 >
-> - When the RadRichTextEditor is placed inside a StackLayout, you would need to set explicitly its WidthRequest and HeightRequest properties, otherwise the control will not render. This is due to the fact that StackLayout usually wants to size itself according to its children, but a WebView (since it does scrolling) wants to size itself to its parent. You can learn more about this in the [Xamarin.Forms WebView documentation](https://docs.microsoft.com/bg-bg/xamarin/xamarin-forms/user-interface/webview?tabs=windows#layout).
+> - When the RadRichTextEditor is placed inside a StackLayout, you would need to set explicitly its WidthRequest and HeightRequest properties, otherwise the control will not render. This is due to the fact that StackLayout usually wants to size itself according to its children, but a WebView (since it does scrolling) wants to size itself to its parent. You can learn more about this in the [.NET MAUI WebView documentation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/webview?pivots=devices-windows).
 
 >
 > You should either use a Grid as a parent container or define explicitly the size of the RichTextEditor control.

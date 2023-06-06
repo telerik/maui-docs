@@ -10,10 +10,10 @@ slug: calendar-content-styling
 
 Calendar control for .NET MAUI provides the following Style properties for customizing the look of its content:
 
-* `DayStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the days in the month views of the calendar.
-* `MonthStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the month views in the year views of the calendar.
-* `YearStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the year views in the decade view of the calendar.
-* `DecadeStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the decade views in the century view of the calendar.
+* `DayStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the days in the month view of the calendar.
+* `MonthStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the months in the year view of the calendar.
+* `YearStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the years in the decade view of the calendar.
+* `DecadeStyleSelector`(of type `CalendarStyleSelector`)&mdash;Specifies the style selector for the decades in the century view of the calendar.
 
 The `CalendarStyleSelector` class exposes the following properties listed in the table below: 
 
@@ -47,8 +47,8 @@ The `CalendarStyleSelector` class exposes the following properties listed in the
 The `CalendarNode` class has the information for:
 
 * The `date` each node holds and gets displayes in the calendar's view.
-* `text` that is displayed in the calendar's view.
-* `IsSelected`(`bool`)&mdash;gets a value indicating whether the node is selected
+* `Text` that is displayed in the calendar's view.
+* `IsSelected`(`bool`)&mdash;Gets a value indicating whether the node is selected
 * `IsEnabled`(`bool`)&mdash;Gets a value indicating whether the node is enabled.
 * `IsOutOfScope`(`bool`)&mdash;Gets a value indicating whether the node is out of scope.
 * `IsToday`(`bool`)&mdash;Gets a value indicating whether the date is today.
