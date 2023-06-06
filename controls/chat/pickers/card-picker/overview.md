@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: .NET MAUI Conversational UI Documentation | Chat CardPicker
+page_title: .NET MAUI Conversational UI Documentation - Chat CardPicker
 description: Learn more about CardPicker and how to use it on RadChatPicker control
 position: 0
 slug: chat-cardpicker

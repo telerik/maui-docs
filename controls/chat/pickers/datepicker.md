@@ -1,6 +1,6 @@
 ---
 title: DatePicker
-page_title: .NET MAUI Conversational UI Documentation | Chat DatePicker
+page_title: .NET MAUI Conversational UI Documentation - Chat DatePicker
 description: Learn more about ChatPicker control and its context
 position: 1
 slug: chat-datepicker

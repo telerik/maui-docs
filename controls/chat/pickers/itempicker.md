@@ -1,6 +1,6 @@
 ---
 title: ItemPicker
-page_title: .NET MAUI Conversational UI Documentation | Chat ItemPicker
+page_title: .NET MAUI Conversational UI Documentation - Chat ItemPicker
 description: Learn more about ChatPicker control and its ItemPicker context
 position: 3
 slug: chat-itempicker
