@@ -8,9 +8,7 @@ slug: slideview-commands
 
 # .NET MAUI SlideView Commands
 
-The Telerik UI for .NET MAUI SlideView provides a `Commands` collection with a number of commands that can be executed when the slide actions occurs.
-
-The control provides commands that handle the navigation through the items:
+The Telerik UI for .NET MAUI SlideView provides the following commands:
 
 * `NavigateToPreviousItemCommand` (`ICommand`)&mdash;Handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to `true` and the current item is the first item, then the navigation to the last item will happen seemingly as if it was the previous item.
 
