@@ -45,6 +45,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-toolbar'/>
 
+Here is the result on the image below:
+
+![PdfViewer ToolbarStyling](images/pdf-toolbar-styling.png)
+
 ## See Also
 
 - [RadPdfProcessing library](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview)

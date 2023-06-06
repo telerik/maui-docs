@@ -21,11 +21,11 @@ The available options are:
 
 Here is how the PdfViewer looks when `LayoutMode` is set to `ContinuousScroll`:
 
-![PdfViewer ContinuousScroll](images/pdfviewer-continuous-scroll.png "PdfViewer ContinuousScroll")
+![PdfViewer ContinuousScroll](images/pdf-continousscroll.png "PdfViewer ContinuousScroll")
 
 And when the `LayoutMode` property is set to `SinglePage`:
 
-![PdfViewer SinglePage](images/pdfviewer-single-page.png "PdfViewer SinglePage")
+![PdfViewer SinglePage](images/pdf-singlepage.png "PdfViewer SinglePage")
 
 ## See Also
 
