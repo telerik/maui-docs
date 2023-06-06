@@ -8,7 +8,7 @@ slug: chat-timepicker
 
 # .NET MAUI Chat TimePicker 
 
-`RadChatPicker` control provides `TimePickerContext` that can be used to display a clock view to choose a time.
+The `RadChatPicker` control provides a `TimePickerContext` that can be used to display a clock view to choose a time.
 
 `TimePickerContext` exposes the following properties you could use to adjust the clock items:
 

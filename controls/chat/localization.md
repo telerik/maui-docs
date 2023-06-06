@@ -16,7 +16,7 @@ In RadChat you can localize the following string:
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| ConversationalUI_EntryWatermark | Type a message... | 
+| Chat_EntryPlaceholder | Type a message... | 
 
 The localization key refers to the watermark message that is shown in the input field of the Chat as shown in the image below:
 

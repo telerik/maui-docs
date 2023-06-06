@@ -12,12 +12,12 @@ slug: chat-picker-overview
 
 Depending on the information that is presented and the choice that should be made, the pickers can be one of the types listed below. 
 
-* `DatePicker`&mdash;for displaying a Calendar to choose a date
+* `DatePicker`&mdash;for displaying a calendar to choose a date
 * `TimePicker`&mdash;for displaying a clock view to choose a time
 * `ItemPicker`&mdash;for presenting a list of suggestions the end user could choose from
 * `CardPicker`&mdash;for presenting a list of cards with structured layout
 
-Each of these pickers is part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc,
+Each of these pickers is part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc.
  
 `RadChatPicker` can be used in three different ways:
 
@@ -27,7 +27,7 @@ Each of these pickers is part of the `RadChatPicker` control and is defined thro
 
 ### Inline as part of the conversation
 
-In this case you would need to create an item of type `PickerItem` that actually derives from the `ChatItem`, set its `Context` and add it to the Items collection of the Chat. Here is a quick example:
+In this case you would need to create an item of type `PickerItem` that actually derives from the `ChatItem`, set its `Context` and add it to the `Items` collection of the Chat. Here is a quick example:
 
 <snippet id='chat-chatpicker-datepicker' />
 	
@@ -39,7 +39,7 @@ When the user makes a selection, you can add a new TextMessage with the Selected
 
 ### Inside the Chat but not part of the conversation
 
-If you choose this approach you would need to create a `RadChatPicker` instance and set it to the Picker property of the Chat:
+If you choose this approach you would need to create a `RadChatPicker` instance and set it to the `Picker` property of the Chat:
 
 <snippet id='chat-pickeroverlay-xaml' />
 
@@ -47,7 +47,7 @@ Then, when you need to display any of the available pickers, you will have to se
 
 <snippet id='chat-chatpicker-overlay-code' />
 			
-When the user chooses a date, the Context is reset to null and a new TextMessage with the SelectedDate can be added to the conversation.
+When the user chooses a date, the Context is reset to `null` and a new `TextMessage` with the `SelectedDate` can be added to the conversation. The `IsVisible` property of the picker can also be set to `false`.
 
 #### Figure 2: RadChat with DatePicker between the entry and the conversation
 

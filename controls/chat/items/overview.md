@@ -1,14 +1,14 @@
 ---
 title: Overview
-page_title: .NET MAUI Conversational UI Documentation | RadChat Items Overview
-description: Learn more about ChatItem collection in RadChat control
+page_title: .NET MAUI Conversational UI Documentation - RadChat Items Overview
+description: Learn more about the ChatItem collection in the RadChat control
 position: 0
 slug: chat-items-overview
 ---
 
 # Chat Items 
 
-`RadChat` works with a collection of `ChatItem` objects. The control provides different chat items that you could use, such as the basic TextMessage as well as various pickers (itempicker, datapicker, timepicker) and predefined cards (defined through a cardpicker).
+`RadChat` works with a collection of `ChatItem` objects. The control provides different chat items that you could use, such as the basic `TextMessage` as well as `PickerItems` used to display various pickers (item, date and time picker) and predefined cards (defined through a card picker).
 
 This section covers the specific details of the different chat items RadChat provides:
 
@@ -20,7 +20,7 @@ This section covers the specific details of the different chat items RadChat pro
     * `ItemPicker`&mdash;for presenting a list of suggestions the end user could choose from;
     * `CardPicker`&mdash;for presenting a list of cards with structured layout;
 
-> Additionally, you could create your own chat items with custom item templates and add them to the Items collection of the control. For more details go to [MVVM Support]({% slug chat-mvvm-support %}) and [ItemTemplateSelector]({% slug chat-itemtemplate-selector %}) topics.
+> Additionally, you could create your own chat items with custom item templates and add them to the `Items` collection of the control. For more details go to the [MVVM Support]({% slug chat-mvvm-support %}) and [ItemTemplateSelector]({% slug chat-itemtemplate-selector %}) topics.
 
 ## See Also
 
