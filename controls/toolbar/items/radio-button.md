@@ -19,7 +19,7 @@ The available properties for configuration are:
 ## Events
 
 * `IsSelectedChanged`&mdash:Raised when the `IsSelected` property has changed.
-* `Clicked`&mdash:Raised when the button is clicked.
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands
 

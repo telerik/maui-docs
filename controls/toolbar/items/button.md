@@ -29,7 +29,7 @@ The available properties for configuration are:
 
 The exposed events are:
 
-* `Clicked`&mdash:Raised when the button is clicked.
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands
 

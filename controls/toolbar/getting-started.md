@@ -16,7 +16,7 @@ At the end, you will be able to achieve the following result.
 
 ## Prerequisites
 
-Before adding the ImageEditor, you need to:
+Before adding the Toolbar, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 

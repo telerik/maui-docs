@@ -23,7 +23,7 @@ The exposed properties are:
 The exposed events are:
 
 * `SelectionChanged`&mdash;Raised when the current selection has changed.
-* `Clicked`&mdash:Raised when the toolbar item is clicked.
+* `Clicked`&mdash;Raised when the toolbar item is clicked.
 
 ## Commands
 

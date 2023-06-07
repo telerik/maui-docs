@@ -30,7 +30,7 @@ And the RadToolbarOptionsPanel definition:
 
 The exposed events are:
 
-* `Clicked`&mdash:Raised when the button is clicked.
+* `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands
 

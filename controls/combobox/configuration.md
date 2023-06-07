@@ -41,10 +41,12 @@ and the result:
 
 ## DropDown Behavior
 
-ComboBox provides the following properties for managing the drop down visbility:
+To manage the dropdown of the ComboBox, use the following properties:
 
-* `IsDropDownOpen`(`bool`): Defines whether the drop down part of the control is opened. Default value is `true`. 
-* `IsDropdownClosedOnSelection`(`bool`): Defines whether the drop down should be closed when item is selected/deselected. The default value is `true`.
+* `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
+* `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
+* `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
+* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
 
 Here is an example with `IsDropdownClosedOnSelection` property set:
 

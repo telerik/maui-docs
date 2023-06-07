@@ -43,9 +43,9 @@ The project template for VS on macOS is an add-in that improves the getting star
 
 Now, you can create a new project by using the Telerik Project Template.
 
-1. From the **New project** dialog, select a blank app.
+1. From the **New project** dialog, select a blank app or blank shell app if make a shell application.
 
-  ![Create new project dialog](images/vs-createnewproject.png)
+  ![Create new project dialog](images/new-project-wizard-selection-mac.png)
 
 1. Navigate to **Other** > **.NET**, choose the `telerik.ui.for.maui.mpack` template, and follow the prompts.
 

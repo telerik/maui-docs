@@ -81,6 +81,15 @@ navigation:
     controls/button:
         title: "Button"
     ## End Button
+    ## Calendar
+    controls/calendar:
+        title: "Calendar"
+        ## Calendar Sub-Folders
+    controls/calendar/styling:
+        title: "Styling"
+        position: 15
+        ## End Calendar Sub-Folders
+    ## End Calendar
     ## Chart
     controls/chart:
         title: "Chart"
@@ -115,6 +124,19 @@ navigation:
             ## End Chart Series Sub-Folders
         ## End Chart Sub-Folders
     ## End Chart
+    ## Chat
+    controls/chat:
+        title: "Conversational UI(Chat)"
+    controls/chat/items:
+        title: "Chat Items"
+        position: 3
+    controls/chat/pickers:
+        title: "Chat Pickers"
+        position: 4
+    controls/chat/pickers/card-picker:
+        title: "Card Picker"
+        position: 5
+    ## End Chat
     ##CheckBox
     controls/checkbox:
         title: "CheckBox"
@@ -273,6 +295,13 @@ navigation:
     controls/pdfprocessing:
         title: "PdfProcessing"
     ## End PdfProcessing
+    ## PdfViewer
+    controls/pdfviewer:
+        title: "PdfViewer"
+    controls/pdfviewer/toolbar:
+        title: "Toolbar"
+        position: 8
+    ## End PdfViewer
     ## Popup
     controls/popup:
         title: "Popup"
@@ -285,6 +314,19 @@ navigation:
     controls/rating:
         title: "Rating"
     ## End Rating
+    ## RichTextEditor
+    controls/richtexteditor:
+        title: "RichTextEditor"
+    controls/richtexteditor/working-with-images:
+        title: "Working with Images"
+        position: 6
+    controls/richtexteditor/toolbar:
+        title: "Toolbar"
+        position: 8
+    controls/richtexteditor/styling:
+        title: "Styling"
+        position: 19
+    ## End RichTextEditor
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
@@ -297,6 +339,15 @@ navigation:
     controls/signaturepad:
         title: "SignaturePad"
     ## End SignaturePad
+    ## SlideView
+    controls/slideview:
+        title: "SlideView"
+    ##SlideView Sub-Folders
+    controls/slideview/styling:
+        title: "Styling"
+        position: 15
+    ## End SlideView Sub-Folders
+    ##End SlideView
     ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
@@ -337,6 +388,13 @@ navigation:
         title: "Items"
         position: 4
     ## End Toolbar
+    ## TreeView
+    controls/treeview:
+        title: "TreeView"
+    controls/treeview/styling:
+        title: "Styling"
+        position: 15
+    ## End TreeView
     ## WordsProcessing
     controls/wordsprocessing:
         title: "WordsProcessing"
@@ -444,6 +502,10 @@ intro_columns:
         "Map": "map-overview"
         "ProgressBar": "progressbar-overview"
         "Ratings": "rating-overview"
+  -
+    title: "Chatbots"
+    items:
+        "Conversation UI (Chat)": "chat-overview"
 -
   categories:
   -
@@ -458,6 +520,7 @@ intro_columns:
         "ListPicker": "listpicker-overview"
         "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
+        "RichTextEditor": "richtexteditor-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
         "TimeSpanPicker": "timespanpicker-overview"
@@ -471,8 +534,14 @@ intro_columns:
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "SideDrawer": "sidedrawer-overview"
+        "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
+        "TreeView": "treeview-overview"
         "WrapLayout": "wraplayout-overview"
+  -
+    title: "Calendar"
+    items:
+        "Calendar": "calendar-overview"
   -
     title: "Buttons"
     items:
@@ -490,6 +559,10 @@ intro_columns:
         "Path": "path-overview"
         "Popup": "popup-overview"
         "Toolbar": "toolbar-overview"
+  -
+    title: "PDF Viewer"
+    items:
+        "PdfViewer": "pdfviewer-overview"
   -
     title: "Document Processing Libraries"
     items:
