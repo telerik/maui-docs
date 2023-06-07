@@ -13,7 +13,7 @@ A QR Code (Quick Response Code) is the trademark for a type of matrix barcode fi
 
 A QR code consists of black modules (square dots) arranged in a square grid on a white background, which can be read by an imaging device (such as a camera) and processed by using a Reed–Solomon error correction until the image can be appropriately interpreted. The required data is then extracted from patterns that are present in both the horizontal and vertical components of the image.
 
-A QR code uses four standardized encoding modes to efficiently store data&mdash;numeric, alphanumeric, byte/binary, and kanji.
+A QR code uses four standardized encoding modes to efficiently store data&mdash;Numeric, alphanumeric, byte/binary, and kanji.
 
 ## Visual Structure
 

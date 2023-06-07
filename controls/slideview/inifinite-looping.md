@@ -17,7 +17,7 @@ The `OverScrollMode` property has two modes:
 * `None`&mdash;No overscroll will happen.
 * `Spring`(Default)&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.
 
-`HasLooping`(Default value`False`)&mdash;this property allows to achieve infinite looping.
+`HasLooping`(Default value`False`)&mdash;This property allows to achieve infinite looping.
 
 See the result below in the .gif file:
 

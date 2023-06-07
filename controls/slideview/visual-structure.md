@@ -17,7 +17,7 @@ This article describes all visual elements that are used in the SlideView for .N
 ## Legend
 
 - `Navigation Buttons`&mdash;Navigation buttons used for changing the current item.
-- `Indicator`&mdash;emphasizes changes from the current item to another item in a collection of items. Also incorporates buttons to enable the end user navigate between the next or previous items.
+- `Indicator`&mdash;Emphasizes changes from the current item to another item in a collection of items. Also incorporates buttons to enable the end user navigate between the next or previous items.
 
 ## See Also
 

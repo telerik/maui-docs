@@ -28,8 +28,8 @@ And the event handler:
 * `SelectionChanged` event is invoked when selection is performed. The `SelectionChanged` event handler receives two parameters
 	* The `sender` which is the `RadCalendar` control.
 	* `CalendarSelectionChangedEventArgs` provides the following properties:
-		- `RemovedDates`&mdash;the dates that were deselected.
-		- `AddedDates`&mdash;the dates that were selected.
+		- `RemovedDates`&mdash;The dates that were deselected.
+		- `AddedDates`&mdash;The dates that were selected.
 
 **Example for `SelectionChanged`:**
 

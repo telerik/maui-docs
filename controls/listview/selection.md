@@ -69,7 +69,7 @@ You can customize the way selected items look by applying `SelectedItemStyle` pr
 
 The example below shows how to utilize ListView selection feature and demonstrates how to set multiple selection, apply a selected item style, and retrieve the selected items in a `ViewModel` class.
 
-First, create a `ViewModel` class with two collections&mdash;one for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the purpose of the example, the ListView is bound to a collection of strings:
+First, create a `ViewModel` class with two collections&mdash;One for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the purpose of the example, the ListView is bound to a collection of strings:
 
 <snippet id='listview-features-selection-viewmodel' />
 

@@ -21,7 +21,7 @@ The DataGrid provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) config
 The DataGrid provides the following options for styling its group footer:
 
 * `GroupFooterStyle`(`DataGridGroupFooterStyle`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
-* `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash; Defines the style of the selected GroupFooter by passing the `GroupFooterContext` in the selector.
+* `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash;Defines the style of the selected GroupFooter by passing the `GroupFooterContext` in the selector.
 * `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer.
 
 > To visualize the `GroupFooter`, set the `ShowGroupFooters` property to `True`. The property is a property inside the `RadDataGrid` instance.

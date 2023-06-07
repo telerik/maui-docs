@@ -38,7 +38,7 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 When the items cannot fit in the toolbar available space an overflow menu is displayed. The properties related to the Overflow menu are: 
 
-* `OverflowMode`(enum of type `Telerik.Maui.Controls.ToolbarOverflowMode`)&mdash; Specifies the overflow mode when the items in the toolbar cannot fit in the available space. The available options are:
+* `OverflowMode`(enum of type `Telerik.Maui.Controls.ToolbarOverflowMode`)&mdash;Specifies the overflow mode when the items in the toolbar cannot fit in the available space. The available options are:
 	* `DropDown`(the default mode)&mdash;When the toolbar items cannot fit in the available space, they are placed in the overflow drop-down menu.
 	* `Scroll`&mdash;When the toolbar items cannot fit in the available space, they are scrolled horizontally or vertically, based on the orienatation of the toolbar.
 	* `Wrap`&mdash;When the toolbar items cannot fit in the available space, they are wrapped horizontally or vertically on multiple lines, based on the orientation of the toolbar.
