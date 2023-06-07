@@ -12,9 +12,9 @@ The `RadChatPicker` control provides a `DatePickerContext` that can be used to d
 
 `DatePickerContext` exposes the following properties you could use to provide a list of possible options to the user:
 
-* `SelectedDate`&mdash;defines the currently selected date;
-* `MinDate`&mdash;defines the min date that can be displayed and selected;
-* `MaxDate`&mdash;defines the max date that can be displayed and selected;
+* `SelectedDate`&mdash;Defines the currently selected date;
+* `MinDate`&mdash;Defines the min date that can be displayed and selected;
+* `MaxDate`&mdash;Defines the max date that can be displayed and selected;
 
 Here is a quick example on how to user DatePicker:
 

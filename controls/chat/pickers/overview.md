@@ -12,10 +12,10 @@ slug: chat-picker-overview
 
 Depending on the information that is presented and the choice that should be made, the pickers can be one of the types listed below. 
 
-* `DatePicker`&mdash;for displaying a calendar to choose a date
-* `TimePicker`&mdash;for displaying a clock view to choose a time
-* `ItemPicker`&mdash;for presenting a list of suggestions the end user could choose from
-* `CardPicker`&mdash;for presenting a list of cards with structured layout
+* `DatePicker`&mdash;For displaying a calendar to choose a date
+* `TimePicker`&mdash;For displaying a clock view to choose a time
+* `ItemPicker`&mdash;For presenting a list of suggestions the end user could choose from
+* `CardPicker`&mdash;For presenting a list of cards with structured layout
 
 Each of these pickers is part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc.
  

@@ -12,12 +12,12 @@ slug: chat-cardpicker
 
 `CardPickerContext` exposes the following property:
 
-* `Cards`&mdash;it is of type IEnumerable&lt;CardContext&gt; and contains the available Cards defined by the CardContext;
+* `Cards`&mdash;It is of type IEnumerable&lt;CardContext&gt; and contains the available Cards defined by the CardContext;
 
 Depending on the information that is presented, the `CardContext` can be one of the following types:
 
-* `BasicCardContext`&mdash;for displaying a card with `Title`, `SubTitle` and `Description`;
-* `ImageCardContext`&mdash;derives from BasicCardContext with an additional Image property;
+* `BasicCardContext`&mdash;For displaying a card with `Title`, `SubTitle` and `Description`;
+* `ImageCardContext`&mdash;Derives from BasicCardContext with an additional Image property;
 
 Here is a quick example with BasicCardContext:
 
@@ -47,9 +47,9 @@ Each card allows you to add a certain action that can be handled through a comma
 
 `CardActionContext` provides the following properties:
 
-* `Text`&mdash;represents the action inside the Card layout;
-* `Command`&mdash;the command that is raised when the user selects that action;
-* `Data`&mdash;can be used to preserve additional details if needed;
+* `Text`&mdash;Represents the action inside the Card layout;
+* `Command`&mdash;The command that is raised when the user selects that action;
+* `Data`&mdash;Can be used to preserve additional details if needed;
 
 The next snippet uses the Cards defined in the previous example and adds Actions to them.
 

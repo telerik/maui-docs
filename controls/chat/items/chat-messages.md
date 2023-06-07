@@ -12,9 +12,9 @@ slug: chat-items-messages
 
 The Author property is of type `Telerik.Maui.Controls.Chat.Author` and exposes the following properties:
 
-* `Name`&mdash;author name;
-* `Avatar`&mdash;image related to the author, displayed in the Chat UI;
-* `Data`&mdash;you could use it to preserve additional information about the author;
+* `Name`&mdash;Author name;
+* `Avatar`&mdash;Image related to the author, displayed in the Chat UI;
+* `Data`&mdash;You could use it to preserve additional information about the author;
 
 By default, when the end user types in the textbox and confirms the message, it is set to the to RadChat's Message property. In addition, the SendMessage event is fired each time a new message is about to be added to the chat UI. It allows to modify the message itself.
 
