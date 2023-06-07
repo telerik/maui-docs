@@ -30,7 +30,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='richtexteditor-toolbar-styling-resource' />
 
-![RichTextEditor Toolbar Styling](../images/richtexeditor-toolbar-styling.png)
+**4.** This is the result:
+
+![RichTextEditor Toolbar Styling](../images/rte-toolbar-styling.png)
 
 >important For the RichTextEditor Toolbar Styling example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> styling category.
 

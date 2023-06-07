@@ -14,6 +14,6 @@ Here are described all visual elements used in the TreeView for .NET MAUI.
 
 ## Legend
 
-| TreeView Item | Description |
-| ------------ | ------- |
-|  |  |
+* **Expand indicator**
+* **CheckBox element**
+* **Image element**

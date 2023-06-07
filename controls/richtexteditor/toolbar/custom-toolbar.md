@@ -26,6 +26,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='richtexteditor-toolbar-load-source' />
 
+**4.** And the result:
+
+![.NET MAUI RichTextEditor Custom Toolbar](../images/rte-custom-toolbar.png)
+
 >important For the RichTextEditor Custom Toolbar example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Toolbar category.
 
 ## See Also

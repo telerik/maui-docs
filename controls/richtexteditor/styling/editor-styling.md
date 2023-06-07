@@ -12,7 +12,6 @@ The Telerik .NET MAUI RichTextEditor provides means for modifying its visual app
 
 You can take advantage of the following styling properties:
 
-* `BackgroundColor`(`Color`)&mdash;Specifies background color of the editor area.
 * `BorderColor`(`Color`)&mdash;Defines the border color around the editor.
 * `BorderThickness`(`Thickness`)&mdash;Defines the border thickness around the editor.
 * `CornerRadius`(`Thickness`)&mdash;Defines corner radius of the border.
