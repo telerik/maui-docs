@@ -8,18 +8,21 @@ slug: chat-suggested-actions
 
 # .NET MAUI Chat Suggested Actions
 
-`RadChat` supports adding suggestions to the user. This can be done by adding `SuggestedAction` items to the `SuggestedActions` collection of `RadChat`.
+`RadChat` supports adding suggestions to the user. This can be done by adding `SuggestedActionsItem` instances to the `Items` collection of `RadChat`.
 
 ### Adding the Suggested Actions 
 
-Example: 
+The following example demonstrates how to create and setup a SuggestedActionsItem:
 
 <snippet id='chat-suggested-actions-code' />
 
-Add the SuggestedActions collection:
+The `GetSuggestedActions` method then populates the `Actions` property with a collection of `SuggestedAction` items:
 
 <snippet id='chat-suggested-actions-collection' />
 
+#### Figure 1: RadChat with suggested actions
+
+![RadChat with suggested actions](images/)
 
 ## See Also
 
