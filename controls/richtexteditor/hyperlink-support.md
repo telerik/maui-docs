@@ -12,11 +12,11 @@ RichTextEditor provides built-in support for creating and managing hyperlinks. T
 
 In addition, RichTextEditorToolbar exposes predefined toolbar items wired to the hyperlink commands. 
 
-* `RichTextEditorAddHyperlinkToolbarItem`&mdash;Opens a popup to enter Url information and executes action to add a hyperlink for the current selection.
+* `RichTextEditorAddHyperlinkToolbarItem`&mdash;Opens a popup to enter Url information and executes action to add or edit a hyperlink for the current selection.
 * `RichTextEditorAddOrEditHyperlinkToolbarItem`&mdash;Opens a popup to enter Url information and executes action to add a hyperlink for the current selection.
 * `RichTextEditorHyperlinkNavigationToolbarItem`&mdash;This toolbar item adds or edits hyperlinks depending whether hyperlink is selected. If hyperlink is selected, the editor navigates to sub toolbar items for operations related to hyperlink. If hyperlink is not selected a popup with a dialog is displayed to enter Url information and add a hyperlink for the current selection.
 
-## Toolbar items for hyperlink operations
+## Additional Toolbar items for hyperlink operations
 
 * `RichTextEditorEditHyperlinkToolbarItem`&mdash;Edits the hyperlink from the current selection.
 * `RichTextEditorRemoveHyperlinkToolbarItem`&mdash;Removes the hyperlink from the current selection.
@@ -34,7 +34,7 @@ You can also take advantage of the following API related to hyperlinks:
 
 In case users try to open invalid urls (for example, the url is not absolute, the domain does not exist or is incomplete, etc) the following message is shown by default indicating there is an error with the url:
 
-![](images/richtexteditor-invalidurl-default.png)
+![.NET MAUI RichTextEditor Hyperlink Error Handling](images/richtexteditor-invalidurl-default.png)
 
 You can override the default behavior by handling the RichTextEditor's **OpenHyperlinkError** event:
 
@@ -60,5 +60,7 @@ And the event handler which shows a custom message:
 
 ## See Also
 
-- [RichTextEditor Toolbar]({%slug richtexteditor-toolbar%})
 - [Commands]({%slug richtexteditor-commands%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Working with images]({%slug richtexteditor-images-overview%})

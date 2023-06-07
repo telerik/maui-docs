@@ -51,7 +51,7 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorCopyToolbarItem` | Copies the selected HTML to the clipboard. |
 | `RichTextEditorCutToolbarItem` | Cuts the selected HTML to the clipboard. |
 
-Toolbar items availabel only on desktop: 
+Toolbar items available only on desktop: 
 
 | RichTextEditor Toolbar Item | Description |
 | ------------- | --------------- |
@@ -59,7 +59,7 @@ Toolbar items availabel only on desktop:
 | `RichTextEditorRemoveHyperlinkToolbarItem` | Remove the hyperlink for the current selection. |
 | `RichTextEditorAddOrEditImageToolbarItem` | If image is selected, a dialog opens. If image is not selected, the `PickImage` event fires. |
 
-Toolbar items availabel only on mobile: 
+Toolbar items available only on mobile: 
 
 | RichTextEditor Toolbar Item | Description |
 | ------------- | --------------- |
@@ -92,4 +92,8 @@ You can easily customize the toolbar by setting the `AutoGenerateItems` to `Fals
 
 ## See Also
 
-
+- [Commands]({%slug richtexteditor-commands%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Working with images]({%slug richtexteditor-images-overview%})
+- [Hyperlinks]({%slug richtexteditor-hyperlink-support%})

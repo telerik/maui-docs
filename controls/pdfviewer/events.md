@@ -17,6 +17,13 @@ The `PageElementsLoaded` event handler receives two parameters:
 	* `sender`&mdash;the PdfViewer control.
 	* `PageElementsLoadedEventArgs`&mdash;object which has a reference to the  `Page`(`RadFixedPage`).
 
+**Example**
+
+<snippet id='pdfviewer-page-elements-loaded' />
+
+And the event handler:
+
+<snippet id='pdfviewer-page-element-loaded-event' />
 
 ## Handling exceptions in the source
 
