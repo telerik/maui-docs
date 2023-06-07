@@ -1,7 +1,7 @@
 ---
-title: Key Features
-page_title: Xamarin RichTextEditor Documentation | Key Features
-description: Check our &quot;Key Features&quot; documentation article for Telerik RichTextEditor for Xamarin control.
+title: Configuration
+page_title: .NET MAUI RichTextEditor Documentation - Configuration
+description: Check our &quot;Configuration&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 position: 3
 slug: richtexteditor-configuration
 ---
@@ -91,3 +91,10 @@ Defining the Source of the RichTextEditor:
 >important For the RichTextEditor Read Only state example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Features category.
 
 ## See Also
+
+- [RadRichTextEditor Toolbar]({%slug richtexteditor-toolbar%})
+- [Commands]({%slug richtexteditor-commands%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Working with images]({%slug richtexteditor-images-overview%})
+- [Hyperlinks]({%slug richtexteditor-hyperlink-support%})

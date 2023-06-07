@@ -97,4 +97,7 @@ public static class MauiProgram
 ## See Also
 
 - [Commands]({%slug richtexteditor-commands%})
-- [RichTextEditor Toolbar]({%slug richtexteditor-toolbar%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Working with images]({%slug richtexteditor-images-overview%})
+- [Hyperlinks]({%slug richtexteditor-hyperlink-support%})

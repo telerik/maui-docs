@@ -15,10 +15,10 @@ In this article we will review the built-in toolbar items for insert and edit im
 Use the following toolbar items for adding/instering an image in the editor. 
 
 * `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
-* `RichTextEditorAddOrEditImageToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
-* `RichTextEditorImageNavigationToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
+* `RichTextEditorAddOrEditImageToolbarItem`&mdash;Adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
+* `RichTextEditorImageNavigationToolbarItem`&mdash;Adds images or navigates to additional toolbar items depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
 
-## Toolbar items for image operations
+## AdditionalToolbar items for image operations
 
 The `RichTextEditorImageNavigationToolbarItem` has the following items: 
 
@@ -81,3 +81,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [Commands]({%slug richtexteditor-commands%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Working with images]({%slug richtexteditor-images-overview%})
+- [Hyperlinks]({%slug richtexteditor-hyperlink-support%})

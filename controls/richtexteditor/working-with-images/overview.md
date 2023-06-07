@@ -17,8 +17,8 @@ RichTextEditor control allows you to add(insert), cut, copy, paste, resize and d
 You can add images in the RichTextEditor by using the predefined toolbar items:
 
 * `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
-* `RichTextEditorAddOrEditImageToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
-* `RichTextEditorImageNavigationToolbarItem`&mdash;This toolbar item adds or edits images depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
+* `RichTextEditorAddOrEditImageToolbarItem`&mdash;Adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
+* `RichTextEditorImageNavigationToolbarItem`&mdash;Adds images or navigates to additional toolbar items depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
 
 You can insert images from Uri, Data(byte []), Stream, File. The image source is of type `RichTextImageSource`. 
 
@@ -82,3 +82,8 @@ private void OnPickImage(object sender, Telerik.Maui.Controls.RichTextEditor.Pic
 
 ## See Also
 
+- [Commands]({%slug richtexteditor-commands%})
+- [Configure the RichTextEditor]({%slug richtexteditor-configuration%})
+- [Events]({%slug richtexteditor-events%})
+- [Hyperlinks]({%slug richtexteditor-hyperlink-support%})
+- - [RadRichTextEditor Toolbar]({%slug richtexteditor-toolbar%})
