@@ -20,7 +20,7 @@ The Calendar header has two buttons (previous and next) for navigating in the cu
 
 When tapping/clicking on the header label Calendar navigates to upper view.
 
-![.NET MAUI Calendar navigation to upperview through the UI](images/combobox-header-footer.png)
+![.NET MAUI Calendar navigation to upperview through the UI](images/calendar-navigation.gif)
 
 ## Restrict the navigation to upper or lower view
 
@@ -37,7 +37,7 @@ You can scroll the calendar display mode hotrizontally or vertically.
 
 <snippet id='calendar-vertical-navigation'/>
 
-![.NET MAUI Calendar scroll direction](images/combobox-header-footer.png)
+![.NET MAUI Calendar scroll direction](images/calendar-scrolling.gif)
 
 > For the Calendar Navigation example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
 
