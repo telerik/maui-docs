@@ -1,5 +1,5 @@
 ---
-title: RichTextEditor Toolbar Styling
+title: Toolbar Styling
 page_title: .NET MAUI RichTextEditor Documentation - RichTextEditor Toolbar Styling
 description: Check our &quot;RichTextEditor Toolbar Styling&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 position: 2

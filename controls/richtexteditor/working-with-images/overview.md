@@ -11,9 +11,6 @@ slug: richtexteditor-images-overview
 
 RichTextEditor control allows you to add(insert), cut, copy, paste, resize and delete images using built-in toolbar items. 
 
-![RichTextEditor AddImage](../images/add-image-toolbar-item.png) 
-![RichTextEditor AddImage](../images/rte-edit-image-toolbar-items.png)
-
 You can add images in the RichTextEditor by using the predefined toolbar items:
 
 * `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.

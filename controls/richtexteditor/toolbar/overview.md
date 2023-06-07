@@ -1,5 +1,5 @@
 ---
-title: RichTextEditor Toolbar
+title: Overview
 page_title: .NET MAUI RichTextEditor Documentation - Toolbar
 description: Check our &quot;RichTextEditor Toolbar&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 position: 1
