@@ -35,7 +35,7 @@ slug: maskedentry-overview
 
 * [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works with respect to the target device culture.
 
-* [Localization support]({%slug maskedentry-localization%})&mdash;translate the text displayed as a validation error message to other languages when the device culute is changed.
+* [Localization support]({%slug maskedentry-localization%})&mdash;Translate the text displayed as a validation error message to other languages when the device culute is changed.
 
 ## Next Steps
 

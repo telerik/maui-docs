@@ -22,7 +22,7 @@ slug: calendar-overview
 * [Header text formatting]({%slug calendar-date-formatting%}).
 * [Templates]({%slug calendar-templates-overview%})&mdash;For customizing how the days, months, years and decades are presented in the corresponding view.
 * [Commands support]({%slug calendar-commands%})&mdash;For navigating in the current view or between the views.
-* [Flexible styling API]({%slug calendar-header-styling%})&mdash;for styling the border, header border and text, navigation buttons and the content of the corresponding view.
+* [Flexible styling API]({%slug calendar-header-styling%})&mdash;For styling the border, header border and text, navigation buttons and the content of the corresponding view.
 * [Globalization support]({%slug calendar-globalization%})
 
 ## Next Steps

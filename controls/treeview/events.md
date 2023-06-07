@@ -10,7 +10,7 @@ slug: treeview-events
 
 The .NET MAUI TreeView exposes the following events:
 
-* `ItemTapped`&mdash;raises when an item is tapped. The `ItemTapped` event handler receives two parameters:
+* `ItemTapped`&mdash;Raises when an item is tapped. The `ItemTapped` event handler receives two parameters:
 	* The `sender` argument which is of type object, but can be cast to the `RadTreeView` type.
 	* A `ItemViewTappedEventArgs` object which has a reference to the
 		* tapped item through its `Item`(`object`) property 
@@ -19,11 +19,11 @@ The .NET MAUI TreeView exposes the following events:
 
 >important On Android and iOS when tapping on the TreeView item the item gets expanded. On WinUI and MacCatalyst the item gets expanded when tapping on the arrow `>`. 
 
-* `ItemsSourceChanged`&mdash;raises when ItemsSource has changed. The `ItemHold` event handler receives two parameters:
+* `ItemsSourceChanged`&mdash;Raises when ItemsSource has changed. The `ItemHold` event handler receives two parameters:
 	* The `sender` argument which is of type object, but can be cast to the **RadTreeView** type.
 	* A `EventHandler` object.
 	
-* `SelectionChanged`&mdash;raises when the current selection changes. The `SelectionChanged` event handler receives two parameters:
+* `SelectionChanged`&mdash;Raises when the current selection changes. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument which is of type object, but can be cast to the `RadTreeView` type.
 	* A `EventArgs` object which provides information on the collection changed event.
 

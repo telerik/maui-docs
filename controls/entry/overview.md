@@ -36,7 +36,7 @@ slug: entry-overview
 
 * [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
 
-* [Various styling options]({%slug entry-styling%})&mdash;for applying corner radius, clear button color, placeholder color and more.
+* [Various styling options]({%slug entry-styling%})&mdash;For applying corner radius, clear button color, placeholder color and more.
 
 ## Next steps
 

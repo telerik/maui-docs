@@ -12,8 +12,8 @@ This article explains all picker editors available in Telerik .NET MAUI DataForm
 
 ## Picker editors based on Telerik .NET MAUI controls:
 
-* `DataFormRadDatePickerEditor`&mdash;of type [`RadDatePicker`]({%slug datepicker-overview%})
-* `DataFormRadDateTimePickerEditor`&mdash;of type [`RadDateTimePicker`]({%slug datetimepicker-overview%})
+* `DataFormRadDatePickerEditor`&mdash;Of type [`RadDatePicker`]({%slug datepicker-overview%})
+* `DataFormRadDateTimePickerEditor`&mdash;Of type [`RadDateTimePicker`]({%slug datetimepicker-overview%})
 
 Shared properties for DataFormRadDatePickerEditor and DataFormRadDateTimePickerEditor are:
 
@@ -21,8 +21,8 @@ Shared properties for DataFormRadDatePickerEditor and DataFormRadDateTimePickerE
 * `MaximumDate`(`DateTime?`)&mdash;Specifies the maximum date for the editor.
 * `FallbackDate`(`DateTime?`)&mdash;Specifies the fallback date for the editor.
 
-* `DataFormRadTimePickerEditor`&mdash;of type [`RadTimePicker`]({%slug timepicker-overview%})
-* `DataFormRadTimeSpanPickerEditor`&mdash;of type [`RadTimeSpanPicker`]({%slug timespanpicker-overview%})
+* `DataFormRadTimePickerEditor`&mdash;Of type [`RadTimePicker`]({%slug timepicker-overview%})
+* `DataFormRadTimeSpanPickerEditor`&mdash;Of type [`RadTimeSpanPicker`]({%slug timespanpicker-overview%})
 
 Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerEditor are:
 
@@ -33,13 +33,13 @@ Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerE
 * `MinutesStep`(`int?`)&mdash;Specifies the minutes step for the editor.
 * `SecondsStep`(`int?`)&mdash;Specifies the seconds step for the editor.
 
-* `DataFormRadListPickerEditor`&mdash;of type [`RadListPicker`]({%slug listpicker-overview%}). The editos has an `ItemsSource` property. Specifies a collection of items to use with the RadListPicker. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
+* `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editos has an `ItemsSource` property. Specifies a collection of items to use with the RadListPicker. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
 
 
 ## Picker editors based on .NET MAUI controls:
 
-* `DataFormDatePickerEditor`&mdash;of type `.NET MAUI DatePicker`
-* `DataFormTimePickerEditor`&mdash;of type `.NET MAUI TimePicker`
+* `DataFormDatePickerEditor`&mdash;Of type `.NET MAUI DatePicker`
+* `DataFormTimePickerEditor`&mdash;Of type `.NET MAUI TimePicker`
 
 
 Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.

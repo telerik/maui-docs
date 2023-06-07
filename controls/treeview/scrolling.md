@@ -8,7 +8,7 @@ slug: treeview-scrolling
 
 # Scrolling
 
-You can easily scroll in the Treeview in both directions&mdash;horizontally and verticaly or coose only one direction. 
+You can easily scroll in the Treeview in both directions&mdash;Horizontally and verticaly or coose only one direction. 
 
 ## Scrollbars
 

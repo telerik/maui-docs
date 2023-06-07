@@ -88,7 +88,7 @@ App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust
 
 ## Custom Toolbar
 
-You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;review the [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
+You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;Review the [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
 
 ## See Also
 

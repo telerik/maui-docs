@@ -10,8 +10,8 @@ slug: dataform-boolean-editors
 
 You can use the following Boolean Editors the DataForm provides:
 
-* `DataFormRadCheckBoxEditor` &mdash;of type [`RadCheckBox`]({%slug checkbox-overview%}). Using the `IsThreeState` porperty of type `bool?` you can specify whether the CheckBox editor will have three states - true, false, indeterminate.
-* `DataFormSwitchEditor`&mdash;of type `.NET MAUI Switch`.
+* `DataFormRadCheckBoxEditor` &mdash;Of type [`RadCheckBox`]({%slug checkbox-overview%}). Using the `IsThreeState` porperty of type `bool?` you can specify whether the CheckBox editor will have three states - true, false, indeterminate.
+* `DataFormSwitchEditor`&mdash;Of type `.NET MAUI Switch`.
 
 Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 

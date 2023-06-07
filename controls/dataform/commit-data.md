@@ -42,12 +42,12 @@ The `CommitMode` can be applied globally to the RadDataForm
 
 **DataForm exposes a `CommitChanges` method with two overloads:**
 
-* `CommitChanges()`&mdash; Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to `Explicit`.
+* `CommitChanges()`&mdash;Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to `Explicit`.
 The method returns `true` if the validation passes, otherwise `false`.
 
 <snippet id='dataform-commit-changes'/>
 
-* `CommitChanges(string propertyName)`&mdash; Commit the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
+* `CommitChanges(string propertyName)`&mdash;Commit the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
 
 <snippet id='dataform-commit-changes-on-property'/>
 
@@ -59,7 +59,7 @@ The method returns `true` if the validation passes, otherwise `false`.
 this.dataForm.CancelChanges();
 ```
 
-* `CancelChanges(string propertyName)`&mdash; Cancels the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
+* `CancelChanges(string propertyName)`&mdash;Cancels the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
 
 <snippet id='dataform-cancelchanges-on-property'/>
 

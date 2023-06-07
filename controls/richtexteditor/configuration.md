@@ -12,7 +12,7 @@ The purpose of this help article is to show you the key features of the RichText
 
 ## HTML Source options
 
-RichTextEditor exposes `Source` property of type `RichTextSource`&mdash;used to load HTML content into the editor from a string as well as from a stream. 
+RichTextEditor exposes `Source` property of type `RichTextSource`&mdash;Used to load HTML content into the editor from a string as well as from a stream. 
 
 You can directly assign a string (containing HTML) as a <code>Source</code> of the editor - RadRichTextEditor will properly display the HTML content through the implemented in RichTextSource implicit converter. Check a simple example on this below:
 

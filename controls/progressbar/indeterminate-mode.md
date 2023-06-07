@@ -10,9 +10,9 @@ slug: progressbar-indeterminate-mode
 
 Telerik ProgressBar for MAUI supports two modes of operation:
 
-* **Determinate**&mdash;aimed at scenarios in which the progress of an operation can be precisely measured.
+* **Determinate**&mdash;Aimed at scenarios in which the progress of an operation can be precisely measured.
 
-* **Indeterminate**&mdash;aimed at scenarios in which there is no way of determining the current progress of an operation.
+* **Indeterminate**&mdash;Aimed at scenarios in which there is no way of determining the current progress of an operation.
 
 Using the `IsIndeterminate` property(of type `bool`) you can specify whether the control is in Indeterminate mode or not. The default value is `false`.
 

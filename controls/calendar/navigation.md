@@ -12,7 +12,7 @@ Easily navigate between the different views of the calendaror in the current vie
 
 ## Buttons for navigating the current view
 
-The Calendar header has two buttons (previous and next) for navigating in the current view. For example in month view the previus button&mdash;navigates to the previous mont, next button&mdash;navigates to the next month.
+The Calendar header has two buttons (previous and next) for navigating in the current view. For example in month view the previus button&mdash;Navigates to the previous mont, next button&mdash;Navigates to the next month.
 
 ![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/combobox-header-footer.png)
 

@@ -69,7 +69,7 @@ The `CellContentStyle` property defines the appearance of each cell associated w
 
 The following properties can be used to define the style of the text cell elements:
 
-* `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash; Define the font of the cell text.
+* `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font of the cell text.
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
 * `Text` alignment (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
 

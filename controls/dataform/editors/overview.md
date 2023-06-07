@@ -58,7 +58,7 @@ The table below describes the available editors which use the .NET MAUI controls
 
 ## Events
 
-* `EditorGenerated`&mdash; Raised when the data form is about to generate an editor for a given property automatically. 
+* `EditorGenerated`&mdash;Raised when the data form is about to generate an editor for a given property automatically. 
 This event can be used to customize the automatic generation of the editors when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is set to `true` and there is no editor specified explicitly for the given property in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
 It is possible to customize, replace or discard the generated editor, before it is added to the data form. The `EditorGenerated` event handler receives two parameters:
 	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type.

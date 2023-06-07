@@ -64,8 +64,8 @@ private void OnPickImage(object sender, Telerik.Maui.Controls.RichTextEditor.Pic
 * `InsertImageError`&mdash;Raised when trying to insert an image in the RadRichTextEditor. The InsertImageError event handler receives two parameters:
 	* The `sender` which is the RichTextEditor control;
 	* `InsertImageErrorEventArgs` provides the following methods:
-		* `Source`&mdash;of type `RichTextImageSource`. The property allows you to get the source of the image (read-only property).
-		* `Error`&mdash;of type `Exception`. Specifies the exception that is raised when image cannot be inserted.
+		* `Source`&mdash;Of type `RichTextImageSource`. The property allows you to get the source of the image (read-only property).
+		* `Error`&mdash;Of type `Exception`. Specifies the exception that is raised when image cannot be inserted.
 
 * `IsImageSelectedChanged`&mdash;Raised when an image inside the editor is selected. The IsImageSelectedChanged event handler receives two parameters:
 	* The `sender` which is the RichTextEditor control;
@@ -78,7 +78,7 @@ private void OnPickImage(object sender, Telerik.Maui.Controls.RichTextEditor.Pic
 ## Commands
 
 * `InsertImageCommand`(`ICommand`)&mdash;Uses for inserting images in the editor. The command takes a single parameter of type `RichTextImage`. The `RichTextImage` object contains the source, title, width, height of the image. If you do not set width and height explicitly, the image will be added with its original size. 
-* `RemoveImageCommand`(`ICommand`)&mdash;uses for removing images from the editor.
+* `RemoveImageCommand`(`ICommand`)&mdash;Uses for removing images from the editor.
 
 ## See Also
 

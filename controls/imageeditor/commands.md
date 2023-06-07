@@ -82,9 +82,9 @@ Commands which cancel/apply the changes made in interactive commands:
 
 * `ZoomToFitCommand`(`ICommand`)&mdash;Gets the command which zooms the image to fit the available screen space.
 
-* `RotateLeftCommand`(`ICommand`)&mdash;for image rotation 90 degree to the left.
+* `RotateLeftCommand`(`ICommand`)&mdash;For image rotation 90 degree to the left.
 
-* `RotateRightCommand`&mdash;for image rotation 90 degree to the right.
+* `RotateRightCommand`&mdash;For image rotation 90 degree to the right.
 
 * `UndoCommand`(`ICommand`)&mdash;Gets the command for the undo action.
 
