@@ -34,7 +34,7 @@ The ViewModel:
 
 The image below shows the result:
 
-![.NET MAUI Calendar SelectedDates](images/calendar-selected-datespng.png)
+![.NET MAUI Calendar SelectedDates](images/calendar-selected-dates-all.png)
 
 **Example with Single selection**
 
@@ -44,7 +44,7 @@ The default `SelectinMode` of the .NET MAUI Calendar control.
 
 This is how single selection looks:
 
-![.NET MAUI Calendar Single Selection](images/single-selection.png)
+![.NET MAUI Calendar Single Selection](images/calendar-single-selection-all.png)
 
 **Example with Multiple selection**
 
