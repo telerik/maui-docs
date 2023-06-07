@@ -15,6 +15,9 @@ RadTreeView exposes useful methods which can be utilized in order to control the
 
 >important On Android and iOS when tapping on the TreeView item the item gets expanded. On WinUI and MacCatalyst the item gets expanded when tapping on the arrow `>`. 
 
+
+![.NET MAUI Treeview Expand and Collapse](images/treeview-expand-collapse.gif)
+
 ## Example
 
 TreeView deifnition:

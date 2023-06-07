@@ -18,7 +18,7 @@ The TreeView provides three selection modes, which allow you to manipulate the t
 - `Single`&mdash;This is the default selection mode. It allows users to select only one item.
 - `Multiple`&mdash;This mode allows users to select more than one item.
 
-![.NET MAUI Treeview](images/treeview.png)
+![.NET MAUI Treeview](images/treeview-selection.png)
 
 ## Setting the selected item
 
