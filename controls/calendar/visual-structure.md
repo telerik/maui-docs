@@ -12,16 +12,13 @@ Here are described all visual elements used in the Calendar for .NET MAUI.
 
 ## Calendar Visual Structure
 
-![Calendar Visual Structure](images/Calendar-visual-structure.png "Visual elements of Calendar control")
+![Calendar Visual Structure](images/calendar-visual-structure.png "Visual elements of Calendar control")
 
 ## Legend
 
-- **Header**&mdash;The header of the calendar that holds the header text and navigation buttons.
 - **HeaderLabelText**&mdash;The header label. You can use it for navigation to upper view.
 - **NavigateToNextViewButton**&mdash;The button for navigation to next view
 - **NavigateToNextViewButton**&mdash;The button for navigating to previous view.
-- **HeaderBorder**&mdash;The border around the calendar header.
-- **CalendarBorder**&mdash;The border around the calendar control.
-- **Content**&mdash;The content of the calendar that holds all day cells and day names.
 - **DayNames**&mdash;The day names of the calendar.
 - **OutOfScopeDays**&mdash;The days that are out of the current month.
+- **Today date**

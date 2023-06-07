@@ -16,7 +16,13 @@ In order to attach the RichTextEditor control to the RadRichTextEditorToolbar co
 
 <snippet id='richtexteditor-getting-started-xaml' />
 
-RichTextEditorToolbar is horizontally scrollable, so that the toolbar items can be easily accessed.
+On Mobile, the RichTextEditorToolbar is horizontally scrollable, so that the toolbar items can be easily accessed:
+
+![.NET MAUI RichTextEditor Mobile Toolbar](../images/rte-toolbar-mobile.gif)
+
+On Desktop, the toolbar items are wrapped:
+
+![.NET MAUI RichTextEditor Desktop Toolbar](../images/rte-default-toolbar-desktop.png)
 
 ## Predefined Toolbar Items
 
@@ -50,21 +56,14 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorColorPickerToolbarItem` | Allows picking a specific color from a collection of colors. |
 | `RichTextEditorCopyToolbarItem` | Copies the selected HTML to the clipboard. |
 | `RichTextEditorCutToolbarItem` | Cuts the selected HTML to the clipboard. |
-
-Toolbar items available only on desktop: 
-
-| RichTextEditor Toolbar Item | Description |
-| ------------- | --------------- |
 | `RichTextEditorAddOrEditHyperlinkToolbarItem` | Opens a popup to add ot edit a hyperlink. |
+| `RichTextEditorAddHyperlinkToolbarItem` | Adds a hyperlink. |
 | `RichTextEditorRemoveHyperlinkToolbarItem` | Remove the hyperlink for the current selection. |
 | `RichTextEditorAddOrEditImageToolbarItem` | If image is selected, a dialog opens. If image is not selected, the `PickImage` event fires. |
-
-Toolbar items available only on mobile: 
-
-| RichTextEditor Toolbar Item | Description |
-| ------------- | --------------- |
 | `RichTextEditorHyperlinkNavigationToolbarItem` | If hyperlink is selected, navigates to the predefined toolbar items related to hyperlink operations like: Edit, Open, Remove. If huperlink is not selected, opens a popup with predefined UI for adding a hyperlink to the current selection. |
 | `RichTextEditorImageNavigationToolbarItem` | If image is selected, navigates to the operations related to image editing like: Cut, Copy, Remove, Paste, Edit. |
+
+Here are the all toolbar items definition:
 
 <snippet id='richtexteditor-alltoolbar-items-xaml' />
 

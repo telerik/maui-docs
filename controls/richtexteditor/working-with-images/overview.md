@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Xamarin RichTextEditor Documentation | Working with Images
-description: Check our &quot;Working with Images&quot; documentation article for Telerik RichTextEditor for Xamarin control.
+page_title: .NET MAUI RichTextEditor Documentation - Working with Images
+description: Check our &quot;Working with Images&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 tags: edit, add, delete, images, insert images
 position: 1
 slug: richtexteditor-images-overview

@@ -1,7 +1,7 @@
 ---
-title: Toolbar Items for Insert and Edit Images
-page_title: Xamarin RichTextEditor Documentation | Insert and Edit Images
-description: Check our &quot;Insert Edit Images&quot; documentation article for Telerik RichTextEditor for Xamarin control.
+title: Insert and Edit Images
+page_title: .NET MAUI RichTextEditor Documentation - Insert and Edit Images
+description: Check our &quot;Insert Edit Images&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 position: 2
 slug: richtexteditor-insert-images
 ---
@@ -30,7 +30,7 @@ The `RichTextEditorImageNavigationToolbarItem` has the following items:
 
 How the editing toolbar looks when image is selected: 
 
-![RichTextEditor AddImage](../images/rte-edit-image-toolbar-items.png)
+![RichTextEditor AddImage](../images/rte-image-operation-toolbar-items.png)
 
 ## Edit Image ToolbarItem
 
@@ -51,13 +51,13 @@ How the editing toolbar looks when image is selected:
 | `OkButtonText` | Defines the text for Ok button. Default value `Ok` |
 | `CancelButtonText` | Defines the text for Cancel button. Default value: `Cancel` |
 
-![RichTextEditor AddImage](../images/edit-image-popup.png)
+![RichTextEditor AddImage](../images/rte-edit-image-dialog.png)
 
 ## ImagePickerToolbar Item
 
 * `RichTextEditorImagePickerToolbarItem`(`Telerik.Maui.Controls.RichTextEditor.RichTextEditorListPickerButtonToolbarItem`)&mdash;Allows you to pick an image from a collection of pre-defined images.
 
-![RichTextEditor ImagePicker Toolbar](../images/imagepicker-toolbar-item.png)
+![RichTextEditor ImagePicker Toolbar](../images/rte-custom-image-picker.png)
 
 ### Example
 

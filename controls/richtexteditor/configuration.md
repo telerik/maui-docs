@@ -44,6 +44,10 @@ Through `GetHtmlAsync` method of RichTextEditor you can obtain the created and u
 
 <snippet id='richtexteditor-keyfeatures-gethtml' />
 
+And the result:
+
+![.NET MAUI RichTextEditor GetHTML](images/rte-get-html.gif)
+
 ## RichText Editing Capabilities
 
 RichTextEditor will help app users create and edit HTML content. You can apply provided by RichTextEditor editing features through the built-in UI, namely [RadRichTextEditorToolbar]({%slug richtexteditor-toolbar %}), or you can create custom UI and manually execute the RadRichTextEditor [Commands]({%slug richtexteditor-commands%}).

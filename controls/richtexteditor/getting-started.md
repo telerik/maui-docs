@@ -14,7 +14,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will be able to achieve the following result.
 
-![.NET MAUI RichTextEditor Getting Started](images/rte-gettingstarted.png)
+![.NET MAUI RichTextEditor Getting Started](images/rte-getting-started.png)
 
 ## Prerequisites
 
@@ -57,10 +57,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 With RichTextEditor users can create and edit HTML content. In some cases you may need to load formatted text in advance - this can be achieved through the *Source* property of the control:
 
 <snippet id='richtexteditor-getting-started' />
-
-This is the result:
-
-![RichTextEditor Getting Started Example](images/richtexteditor-getting-started.png "RichTextEditor Getting Started Example")
 
 Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
