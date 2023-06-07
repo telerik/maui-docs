@@ -10,6 +10,8 @@ slug: treeview-item-style
 
 This article explains how to style the elements in the TreeView control. 
 
+![.NET MAUI TreeView Item Style](images/treeview-item-styling.png)
+
 ## Styling the Treeview
 
 Style the TreeView by using the following properties:

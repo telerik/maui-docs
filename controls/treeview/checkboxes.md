@@ -15,8 +15,13 @@ Telerik TreeView for .NET MAUI supports showing CheckBox elements and checking s
 You can control the state propagation by setting the `CheckBoxMode` property(enum of type `Telerik.Maui.Controls.TreeView.TreeViewCheckBoxMode`). The `TreeViewCheckBoxMode` enum consists of the following values:
 
 * (Default value)`None`&mdash;Specifies that no check boxes are displayed in the control.
-* `Independent`&mdash;Specifies that the check boxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children..
+* `Independent`&mdash;Specifies that the check boxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children.
+
+![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.gif)
+
 * `Recursive`&mdash;Specifies that the check boxes are checked and unchecked recursively. The checked state of the parent item is propagated to its children.
+
+![.NET MAUI TreeView Recursive Mode](images/treeview-recursive-mode.gif)
 
 >importnat In order to display checkboxes in the TreeView item you have to set the `CheckBoxMode` to `Independent` or `Recursive`.
 

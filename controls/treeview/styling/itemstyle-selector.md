@@ -10,6 +10,8 @@ slug: treeview-itemstyle-selector
 
 The TreeView exposes conditional styling feature. It allows users to apply a different Style to each item depending on a specific condition.
 
+![.NET MAUI TreeView Item Style Selector](images/treeview-itemstyle-selector.png)
+
 **Example**
 
 The `ItemStyleSelector` property set to the RaDTreeView:
