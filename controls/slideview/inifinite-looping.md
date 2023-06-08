@@ -8,7 +8,7 @@ slug: slideview-scrolling
 
 # .NET MAUI SlideView Infinite Looping
 
-By default, when you reach the last view, the Next slide button won't do anything. You can change this behavior through the `Has Looping`property and allow repeating of the views when the user reaches the last view.
+By default, when you reach the last view, the **Next** button won't do anything. You can change this behavior through the `Has Looping` property and allow the repeating of the views when the user reaches the last view.
 
 `HasLooping`(Default value`False`)&mdash;This property allows to achieve infinite looping.
 
