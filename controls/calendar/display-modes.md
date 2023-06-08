@@ -1,72 +1,72 @@
 ---
 title: Display Modes
 page_title: .NET MAUI Calendar Documentation - Display Modes
-description: "Calendar for .NET MAUI provides different display modes such as month, year, century, decade."
+description: "The Calendar for .NET MAUI provides several display modes such as month, year, century, and decade. Learn how to control these display modes."
 position: 2
 slug: calendar-display-modes
 ---
 
 # .NET MAUI Calendar Display Modes
 
-The Telerik .NET MAUI Calendar is a control that displays a calendar representation from which the user can select a date. 
-There are various display views that specify what is visible in the Calendar. The available views are month, year, decade, century.
+The Telerik .NET MAUI Calendar is a control that allows the user to select a date from a standard view that can represent various time spans. The Calendar views define what is visible in the Calendar, for example, month, year, decade, or century.
 
-## Setting the display mode programmatically
+## Setting the Display Mode Programmatically
 
-`DisplayMode` property(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`) defines the current view of RadCalendar control. The available display modes are:
-* (Default)`Month`
+The `DisplayMode` property (enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`) defines the current view of the `RadCalendar` control. The available display modes are:
+
+* `Month` (Default)
 * `Year`
 * `Decade`
 * `Century`
 
-## Change the display mode through the UI
+## Changing the Display Mode through the UI
 
-Easily change the `DisplayMode` throught the UI by tapping (for mobile) or clicking (for desktop) on the header text: 
+The user can effortlessly change the `DisplayMode` through the UI by tapping (for mobile) or clicking (for desktop) the header text.
 
-![.NET MAUI Calendar Month View](images/combobox-header-footer.png)
+![.NET MAUI Calendar Month View](./images/display-mode-month.png)
 
-## Setting min and max display mode
+## Setting Min and Max Display Mode
 
-You can define a range for the display mode by using the 
+You can define a range of display modes that will be available to the user through the following properties:
 
-* `MinDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`. When `MinDisplayMode` is `Year`, you can select months from this year.
-* `MaxDisplayMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the calendar. The available options are&mdash;`Month`, `Year`, `Decade`, `Century`.
+* `MinDisplayMode` (enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the Calendar. The available options are `Month`, `Year`, `Decade`, and `Century`. When `MinDisplayMode` is `Year`, users can select months from this year.
+* `MaxDisplayMode` (enum of type `Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the Calendar. The available options are `Month`, `Year`, `Decade`, and `Century`.
 
 <snippet id='calendar-display-range'/>
 
-## Month view
+## Month View
 
-This view represents all days in a single month.
+The month view represents all days in a single month.
 
 <snippet id='calendar-displaymode-month'/>
 
 ![.NET MAUI Calendar Month View](images/display-mode-month.png)
 
-## Year view
+## Year View
 
-This view represents all months in a year.
+The year view represents all months in a year.
 
 <snippet id='calendar-displaymode-year'/>
 
 ![.NET MAUI Calendar Year View](images/display-mode-year.png)
 
-## Decade view
+## Decade View
 
-This view represents all years in a decade.
+The decade view represents all years in a decade.
 
 <snippet id='calendar-displaymode-decade'/>
 
 ![.NET MAUI Calendar Decade View](images/display-mode-decade.png)
 
-## Century view
+## Century View
 
-This view represents all decades in a century.
+The century view represents all decades in a century.
 
 <snippet id='calendar-displaymode-century'/>
 
 ![.NET MAUI Calendar Century View](images/display-mode-century.png)
 
-> For all Calendar DisplayModes example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Display Modes category.
+> For all examples with the display modes of the Calendar, check the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Display Modes** category.
 
 ## See Also
 
