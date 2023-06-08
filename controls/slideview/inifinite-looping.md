@@ -8,20 +8,13 @@ slug: slideview-scrolling
 
 # .NET MAUI SlideView Infinite Looping
 
-By default, when you reach the last view, the **Next** slide button won't do anything. You can change this behavior through the `OverScrollMode` property and allow repeating of the views when the user reaches the last view.
-
-The `OverScrollMode` property defines the possible behavior of the SlideView control in cases where the items cannot move in the direction selected by the user.
-
-The `OverScrollMode` property has two modes:
-
-* `None`&mdash;No overscroll will happen.
-* `Spring`(Default)&mdash;The end-user will be able to move an item in a direction that is otherwise not allowed, but the offset will be smaller than the pointer movement, thus creating a spring effect.
+By default, when you reach the last view, the **Next** button won't do anything. You can change this behavior through the `Has Looping` property and allow the repeating of the views when the user reaches the last view.
 
 `HasLooping`(Default value`False`)&mdash;This property allows to achieve infinite looping.
 
 See the result below in the .gif file:
 
-![SlideView OverScroll](images/slideview-overscroll.gif)
+![SlideView Looping](images/slideview-overscroll.gif)
 
 ## See Also
 

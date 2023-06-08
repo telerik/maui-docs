@@ -20,9 +20,6 @@ In RadChat you can localize the following string:
 
 The localization key refers to the watermark message that is shown in the input field of the Chat as shown in the image below:
 
-![](images/)
-
-	
 ## See Also
 
 [Localizatiion and Globalization](slug %globalization-localization%)

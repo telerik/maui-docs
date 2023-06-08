@@ -32,10 +32,6 @@ Cards = new List<CardContext>()
 (chat.Picker as RadChatPicker).Context = cardsContext;
 ```
 	
-#### Figure 1: RadChat with ImageCard
-
-![CardPicker](images/)
-	
 ## See Also
 
 - [ChatPicker]({% slug chat-picker-overview %})

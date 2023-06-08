@@ -23,12 +23,11 @@ The Telerik UI for .NET MAUI SlideView and the Xamarin SlideView have some diffe
 
 | Xamarin SlideView | .NET MAUI SlideView |
 | ------------- | --------------- |
-| `IsSwipingEnabled` | `SlideViewInteractionMode` |
+| `IsSwipingEnabled` | `InteractionMode` |
 | [Indicator customization options in Xamarin](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-indicators)   | [Indicator configuration options in .NET MAUI]({%slug indicators-styling%}) |
-| NA | `OverScrollMode` |
-| `PageSpacingProperty` | `Spacing` |
-| `IsAnimated` | NA |
+| `PageSpacing` | `Spacing` |
+| `IsAnimated` | Set `AnimationDuration=0` |
 | [Controlling the alignment of the content](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-content-alignment) | NA |
 | `IsInfiniteScrollingEnabled` | `HasLooping` |
 | [Customization properties for the slide buttons](https://docs.telerik.com/devtools/xamarin/controls/slideview/customize-the-control#customizing-the-slide-buttons) | [Styling properties for the Navigation Buttons]({%slug slideview-navigation-buttons-styling%}) |
-| `ItemTemplateSelector` | NA |
+| `ItemTemplateSelector` | `ItemTemplate` |
