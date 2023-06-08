@@ -33,9 +33,6 @@ In this case you would need to create an item of type `PickerItem` that actually
 	
 When the user makes a selection, you can add a new TextMessage with the SelectedDate and remove the PickerItem from the conversation.
 
-#### Figure 1: RadChat with an inline DatePicker
-
-![](images/)
 
 ### Inside the Chat but not part of the conversation
 
@@ -49,9 +46,6 @@ Then, when you need to display any of the available pickers, you will have to se
 			
 When the user chooses a date, the Context is reset to `null` and a new `TextMessage` with the `SelectedDate` can be added to the conversation. The `IsVisible` property of the picker can also be set to `false`.
 
-#### Figure 2: RadChat with DatePicker between the entry and the conversation
-
-![](images/)
 
 In the example above, `RadChatPicker` is used for immediate selection by setting its `IsOkButtonVisible` and `IsCancelButtonVisible` to false. You could also show Ok and Cancel buttons and use the provided events/commands in order to handle the selection.
 	

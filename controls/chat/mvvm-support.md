@@ -28,9 +28,6 @@ Add the RadChat control to your page with previously defined `ItemsSource` and `
 
 <snippet id='chat-features-mvvm-xaml' />
 	
-#### Figure 1: RadChat in MVVM setup
-
-![MVVM Support](images/)
 	
 ## See Also
 

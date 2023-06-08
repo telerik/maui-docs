@@ -37,10 +37,6 @@ private IEnumerable<CardContext> GetCards(ChatItem chatItem)
 }
 ```
 	
-#### Figure 1: RadChat with BasicCard
-
-![CardPicker](images/)
-	
 #### Card Actions
 
 Each card allows you to add a certain action that can be handled through a command. The `CardContext` exposes an `Actions` collection of type IEnumerable&lt;CardActionContext&gt; that supplies all the details needed for handling the action.
@@ -55,9 +51,6 @@ The next snippet uses the Cards defined in the previous example and adds Actions
 
 <snippet id='chat-chatpicker-cardpicker-getcards' />
 
-#### Figure 2: RadChat with BasicCard with Actions
-
-![CardPicker](images/)
 
 ## See Also
 
