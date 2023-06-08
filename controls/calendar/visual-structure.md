@@ -1,14 +1,14 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI Calendar Documentation - Calendar Visual Structure
-description: Check our &quot;Visual Structure&quot; documentation article for Telerik Calendar for .NET MAUI control.
+description: Check out the visual structure of Telerik UI for .NET MAUI Calendar control, and learn what are the visual elements of the component.
 position: 0
 slug: calendar-visual-structure
 ---
 
 # .NET MAUI Calendar Visual Structure
 
-Here are described all visual elements used in the Calendar for .NET MAUI.
+The .NET MAUI Calendar consists of several visual elements, which are represented on the image below.
 
 ## Calendar Visual Structure
 
@@ -16,9 +16,9 @@ Here are described all visual elements used in the Calendar for .NET MAUI.
 
 ## Legend
 
-- **HeaderLabelText**&mdash;The header label. You can use it for navigation to upper view.
-- **NavigateToNextViewButton**&mdash;The button for navigation to next view
-- **NavigateToNextViewButton**&mdash;The button for navigating to previous view.
-- **DayNames**&mdash;The day names of the calendar.
-- **OutOfScopeDays**&mdash;The days that are out of the current month.
-- **Today date**
+- `HeaderLabelText`&mdash;The user can click the header label to navigate to the parent view.
+- `NavigateToNextViewButton`&mdash;A button that navigates to the next view.
+- `NavigateToNextViewButton`&mdash;A button that navigates to the previous view.
+- `DayNames`&mdash;The names of the days of the week.
+- `OutOfScopeDays`&mdash;The days that don't belong to the current month.
+- `Today date`&mdash;The current date.
