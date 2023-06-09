@@ -1,46 +1,46 @@
 ---
 title: Commands
 page_title: .NET MAUI Calendar Documentation - Commands
-description: "Review all available commands for navigation to upper - lower view and next - previous month, year, century, decade that Calendar for .NET MAUI provides."
+description: Review all available commands for navigation to the upper - lower view and next - previous month, year, century, decade that Calendar for .NET MAUI provides.
 position: 12
 slug: calendar-commands
 ---
 
 # .NET MAUI Calendar Commands
 
-This article explains all command Calendar control provides.
+The .NET MAUI Calendar provides various commands that allow the user to switch between the display modes and views.
 
-## Commands for navigating the current view
+## Commands for Navigating the Current View
 
-The following commands are related to the navigation between the current view:
+The following commands enable the navigation between same level views:
 
-* `NavigateToNextViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the next view..
+* `NavigateToNextViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the next view.
 * `NavigateToPreviousViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the previous view.
 
-## Commands for navigating between views
+## Commands for Navigating between Views
 
-The following commands are related to the navigation between the views: 
+The following commands enable the navigation between the view levels: 
 
 * `NavigateToUpperViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the upper view.
 * `NavigateToLowerViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the lower view..
 
-The navigation flow for upper view is as follow&mdash;Month -> Year -> Decade -> Century.
-The navigation flow for lower view is as follow&mdash;Century -> Decade -> Year -> Month.
+When switching between view levels, the Calendar implements the following navigation sequence:
 
-## Example
+* When navigating to the upper view: Month > Year > Decade > Century.
+* When navigating to the lower view: Century > Decade > Year > Month.
 
-Calendar definition:
+## Navigation Example
+
+**1.** Define the Calendar:
 
 <snippet id='calendar-navigation-commands'/>
 
-The `NavigateToNextViewCommand` and `NavigateToPreviousViewCommand` execution on button click:
+**2.** Execute the `NavigateToNextViewCommand` and `NavigateToPreviousViewCommand` execution on button click:
 
 <snippet id='calendar-navigating-in-current-view'/>
 
-The `NavigateToUpperViewCommand` and `NavigateToLowerViewCommand` execution on button click:
+**3.** Execute the `NavigateToUpperViewCommand` and `NavigateToLowerViewCommand` execution on button click:
 
 <snippet id='calendar-navigating-detween-views'/>
 
-> For the Calendar Commands example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Commands category.
-
-## See Also
+> For a runnable example demonstrating the Calendar Commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Commands** category.

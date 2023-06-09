@@ -1,67 +1,71 @@
 ---
 title: Date Properties
 page_title: .NET MAUI Calendar Documentation - Date Properties
-description: Review all properties for setting the min and max date, selected date and display date of the Telerik Calendar for .NET MAUI control.
+description: Review all properties for setting the min and max date, selected date, and display date of the Telerik Calendar for .NET MAUI control.
 position: 3
 slug: calendar-date-properties
 ---
 
 # .NET MAUI Calendar Date Properties
 
-This article lists the date properties you could use to configure Calendar control.
+The .NET MAUI Calendar provides various date properties that allow you to configure the control by setting the display date, restricting the selectable dates, disabling the day names, and more.
 
-## Setting the display date
+## Setting the Display Date
+
+To set the currently displayed date, use the `DisplayDate` property.
 
 * `DisplayDate`(`DataTemplate`)&mdash;Defines the template of the header that will be visualized in the drop down list.
 
-## Constraining visible dates and selection
+## Constraining Visible Dates and Selection
 
-Restrict the visible/selectable dates in Calendar by utilizing `MinDate` and `MaxDate` properties.
+To limit the visible dates in the Calendar that the user can select, utilize the `MinDate` and `MaxDate` properties. This allows you to prevent the user from navigating the Calendar to a date outside of the defined date range.
 
-* `MinDate`(`DateTime`)&mdash;Specifies the earliest date that the calendar can display.
-* `MaxDate`(`DateTime`)&mdash;Specifies the latest date that the calendar can display.
+As a result, if the currently selected view contains any dates that are outside of the defined `MinDate`-`MaxDate` range, they look disabled.
 
-By applying `MinDate` and `MaxDate` you prevents navigating the Calendar to a date outside of the defined date range.
+* `MinDate`(`DateTime`)&mdash;Specifies the earliest date that the Calendar can display.
+* `MaxDate`(`DateTime`)&mdash;Specifies the latest date that the Calendar can display.
 
 <snippet id='calendar-date-properties'/>
 
-> For the Calendar Date Properties example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example with the Calendar Date Properties, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
->tip If dates are outside of the MinDate-MaxDate range are in the currently visible view, they look disabled.
+## Hiding the Names of the Days
 
-## Day names visibility
-
-By default the day names (in Month view) are visible. You can easily hide the day names by setting the `AreDayNamesVisible`(`bool`) property to `False`.
+In the Month view, the names of the days of the week are visible by default. You can hide the names by setting the `AreDayNamesVisible`(`bool`) property to `False`.
 
 <snippet id='calendar-daynames-visibility'/>
 
-> For the Calendar DayNames Visibility example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example with the visibility of the names of the days in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
-## Leading and trailing days visibility
+## Hiding the Leading and Trailing Days
 
-By defaylt the leading and trailing days in the month, year, century and decade are visible. You can hide them by setting the `IsOutOfScopeVisible`(`bool`) property to `False`.
+In the Month, Year, Century, and Decade views, the leading and trailing days are visible by default. You can hide them by setting the `IsOutOfScopeVisible`(`bool`) property to `False`.
 
 <snippet id='calendar-outofscope-visibility'/>
 
-> For the Calendar OutOfscope Visibility example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example demonstrating the `IsOutOfScopeVisible` property, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
-## Setting the first day of week
+## Setting the First Day of the Week
+
+For half of the world, Monday is the first day of the week, and for the other half, this is Sunday. Use the `FirstDayOfWeek` property to set the first day of the week in your application.
 
  * `FirstDayOfWeek`(enum of type ` System.DayOfWeek?`)&mdash;Specifies the day that is considered the beginning of the week.
 
 <snippet id='calendar-culture'/>
 
-## Selecting a date
+## Selecting a Date
 
-`SelectedDate`(`DateTime?`) property holds the currently selected date, `null` means that no date is selected. For more details on the selection functionality, refer to [Selection]({%slug calendar-selection%}) topic.
+To configure the selected date, use the `SelectedDate` property. A `null` means that a date is not selected. For more details on the selection functionality, refer to [Selection]({%slug calendar-selection%}) topic.
 
-## Blackout dates
+* `SelectedDate`(`DateTime?`)&mdash;Holds the currently selected date. 
 
-Calendar allows you to specify a collection of dates that cannot be selected by the user. This list is called `BlackoutDates`(`IEnumerable&lt;DateTime&gt;`).
+## Blackout Dates
+
+The .NET MAUI Calendar allows you to specify a collection of dates that cannot be selected by the user. This list is called `BlackoutDates`(`IEnumerable&lt;DateTime&gt;`).
 
 <snippet id='calendar-blackout-dates'/>
 
-> For the Calendar Blackout dates example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example demonstrating the Calendar Blackout dates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
 ## See Also
 

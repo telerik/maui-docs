@@ -8,23 +8,20 @@ slug: calendar-month-styling
 
 # .NET MAUI Calendar Month Styling
 
-Calendar control for .NET MAUI provides the `MonthStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the months in the year view of the calendar.
+The Calendar control for .NET MAUI provides the `MonthStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the months in the year view of the Calendar.
 
-**Example**
+The following example demonstrates how to style the months with the `MonthStyleSelector` property:
 
-Calendar definition:
+**1.** Define the Calendar:
 
 <snippet id='calendar-styleselectors-monthstyleselector-usage'/>
 
-The style selectors defined in page's resources: 
+**2.** The style selectors defined in the page's resources:
 
 <snippet id='calendar-styleselectors-monthstyleselector-definition'/>
 
-The `CustomStyleSelector` class that inherits from `CalendarStyleSelector`
+**3.** Add the `CustomStyleSelector` class that inherits from `CalendarStyleSelector`:
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 
->important For the Calendar Month Style Selector example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Style Selector category.
-
-## See Also
-
+>For a runnable example demonstrating how to style the months in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
