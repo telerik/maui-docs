@@ -1,47 +1,49 @@
 ---
 title: Configuration
 page_title: .NET MAUI PDF Viewer Documentation - Configuration
-description: Learn what are the options to configure the PDF Viewer for .NET MAUI.
+description: Learn what are the options to configure the Telerik UI PDF Viewer for .NET MAUI.
 position: 3
 slug: pdfviewer-configuration
 ---
 
 # Configuration
 
-The purpose of this help article is to show you the configuration options that PDF Viewer for .NET MAUI provides.
+By setting the configuration options of the Telerik UI for .NET MAUI PDF Viewer, you can control how the opened document looks on the screen.
 
 ## Setting the Zoom Level
 
-PdfViewer exposes properties for applying min and max zoom values.
+The PDF Viewer exposes the `MaxZoomLevel` and `MinZoomLevel` properties that allow you to define what zoom value will be available to the users:
 
-* `MaxZoomLevel`(`double`)&mdash;Defines the maximum magnification factor at which content could be maximized. The default value is 3.0
-* `MinZoomLevel`(`double`)&mdash;Defines the minimum magnification factor at which content could be minimized. The default value is 0.3
+* `MaxZoomLevel`(`double`)&mdash;Defines the maximum magnification factor at which content can be maximized. The default value is `3.0`.
+* `MinZoomLevel`(`double`)&mdash;Defines the minimum magnification factor at which content can be minimized. The default value is `0.3`.
 
->note In order to check how these properties works you should set the `ZoomIn` and `ZoomOut` commmands of the control. For more details please check the [Commands]({%slug pdfviewer-commands%}) article.
+>note The `MaxZoomLevel` and `MinZoomLevel` properties work in conjunction with the `ZoomIn` and `ZoomOut` commands, which users utilize to change the zoom level in the application. For more details, see the [Commands]({%slug pdfviewer-commands%}) article.
 
-## Configure the spacing between the pages
+## Configure the Spacing between the Pages
 
-* `PageSpacing`(`double`)&mdash;Defines the space between the pages of the PDF Document. The default value is 20.0
+The Telerik UI for .NET MAUI PDF Viewer allows you to control the space between the pages.
 
-## Configure the staring index of the page
+* `PageSpacing`(`double`)&mdash;Defines the space between the pages of the PDF Document. The default value is `20.0`.
 
-* `VisiblePagesStartIndex`(`int`)&mdash;Defines the index at which the document will be displayed. The default value is 0.
+## Configure the Staring Index of the Page
 
-## Customize the default BusyIndicator
+* `VisiblePagesStartIndex`(`int`)&mdash;Defines the index at which the document will be displayed. The default value is `0`.
 
-When loading documents in the PDF Viewer, a busy indicator visualizes. If the default look of the busy indicator does not suit your needs, you could easily define a custom template through the following property:
+## Customize the Default Busy Indicator
 
-* `BusyIndicatorTemplate`(`DataTemplate`)&mdashSpecifies the template visualized while the Pdf Document is loading.
+When loading documents in the PDF Viewer, a busy indicator visualizes. If the default look of the busy indicator does not suit your needs, you can define a custom template through the `BusyIndicatorTemplate` property:
 
-Here is an example how the custom BusyIndicatorTemplate could be defined:
+* `BusyIndicatorTemplate`(`DataTemplate`)&mdash;Specifies the template visualized while the PDF document is loading.
+
+The following example shows how to define a custom `BusyIndicatorTemplate`:
 
 <snippet id='pdfviewer-busy-indicator-template-xaml' />
 
-Here is how the BusyIndicator Template looks:
+The next image illustrates the Busy Indicator template:
 
-![PdfViewer BusyIndicator Template](images/pdfviewer-busyindicator-template.png "PdfViewer BusyIndicator Template")
+![Telerik UI for .NET MAUI PDF Viewer Busy Indicator Template](images/pdfviewer-busyindicator-template.png "PdfViewer BusyIndicator Template")
 
-> For the PDF Viewer BusyIndicator example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Features category.
+> For a runnable example with the PDF Viewer Busy Indicator, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Features**.
 
 ## See Also
 

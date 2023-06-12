@@ -6,20 +6,22 @@ position: 5
 slug: pdfviewer-password
 ---
 
-# Password-protected PDF Document
+# Password-Protected PDF Document
 
-* `SourcePasswordNeeded`&mdash;Occurs when a user password is needed to load the document in PDF Viewer. The SourcePasswordNeeded event handler receives two parameters:
-	* The sender argument which is of type `object`, but can be cast to the `RadPdfViewer` type.
-	* A `PasswordNeededEventArgs` object which provides `Password` property used to supply the user password.
+To allow the users to open password-protected documents in the PDF Viewer, you must handle the `SourcePasswordNeeded` event.
 
-An example of `SourcePasswordNeeded` event usage:
+* `SourcePasswordNeeded`&mdash;Occurs when a user password is needed to load the document in the PDF Viewer. The `SourcePasswordNeeded` event handler receives two parameters:
+	* The sender argument, which is of type `object`, but can be cast to the `RadPdfViewer` type.
+	* A `PasswordNeededEventArgs` object, which provides the `Password` property used to supply the user password.
+
+The following example demonstrates how to use the `SourcePasswordNeeded` event:
 
 ```XAML
 <telerik:RadPdfViewer x:Name="pdfViewer" 
                       SourcePasswordNeeded="pdfViewer_SourcePasswordNeeded" />
 ```
 
-Add the event handler:
+The next code snippet represents the event handler:
 
 ```C#
 private void pdfViewer_SourcePasswordNeeded(object sender, Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.Import.PasswordNeededEventArgs e)

@@ -8,11 +8,11 @@ slug: pdfviewer-toolbar
 
 # PDF Viewer Toolbar
 
-PDF Toolbar includes some of commands that the PdfViewer provides. You have also the option to include additional toolbar items to the PdfViewerToolbar with a custom command.  
+The PDF Viewer Toolbar includes some of the commands that the PDF Viewer provides. You also have the option to include additional toolbar items in the `PdfViewerToolbar` through a custom command.  
 
 ## Predefined Toolbar Items
 
-PDF Toolbar provides the following toolbar items:
+By default, the PDF Viewer Toolbar provides the following toolbar items:
 
 * `PdfViewerZoomInToolbarItem`
 * `PdfViewerZoomOutToolbarItem`
@@ -20,11 +20,11 @@ PDF Toolbar provides the following toolbar items:
 * `PdfViewerNavigateToPreviousPageToolbarItem`
 * `PdfViewerFitToWidthToolbarItem`
 
->note PdfToolbarItems inherit from `ButtonToolbarItem`. All properties applicable for `ButtonToolbarItem` are available for the PdfViewer toolbar items. 
+>note `PdfToolbarItems` inherit from `ButtonToolbarItem`. All properties applicable for `ButtonToolbarItem` are available for the PDF Viewer toolbar items. 
 
-### Example
+The following example demonstrates how to use the Toolbar and its predefined items:
 
-**1.** Use the following snippet to define the RadPdfViewer and RadPdfToolbar:
+**1.** Use the following snippet to define the `RadPdfViewer` and `RadPdfToolbar`:
 
 <snippet id='pdfviewer-toolbar-xaml'/>
 
@@ -38,37 +38,37 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-toolbar'/>
 
->The snippet above shows one of the approaches for loading a PDF document inside RadPdfViewer just for the purpose of the example.
+>The snippet above shows one of the approaches for loading a PDF document inside `RadPdfViewer` just for the purpose of the example.
 
-This is the result:
+The following image shows the results from the completed example:
 
 ![.NET MAUI PdfViewer Toolbar](images/pdfviewer-toolbar.png "PDF Viewer Toolbar")
 
-> For the PdfViewer Toolbar example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Toolbar category.
+> For a runnalbe example with the PDF Viewer toolbar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
-## Custom Toolbar Item
+## Custom Toolbar Items
 
-You can easily add custom toolbar items to the PDF Toolbar bound with a custom command. This is implemented by using the `ButtonToolbarItem`.
+You can add custom toolbar items to the PDF Toolbar and bind them to a custom command. You can achieve this by using the `ButtonToolbarItem`.
 
-Here is an example showing how to add a custom ToolbarItem with a sample command bound to it. The command is used just to display a message with the PdfDocument file size.
+Here is an example showing how to add a custom Toolbar item with a sample command bound to it. The command is used just to display a message with the PDF document's file size.
 
 **1.** Add the PdfViewer and the PdfToolbar controls to your page:
 
 <snippet id='pdfviewer-toolbar-customcommand-xaml' />
 
-**2.** Load a sample pdf document in code-behind:
+**2.** Load a sample PDF document in code-behind:
 
 <snippet id='pdfviewer-toolbar-customcommand' />
 
-**3.** ViewModel class. In the ViewModel get a reference to the `RadFixedDocument` instance through the `Document` property of the PdfViewer as well as execute the `DisplayFileSizeCommand` bound to the `Command` property of the custom ToolbarItem:
+**3.** Add the ViewModel class. In the ViewModel, get a reference to the `RadFixedDocument` instance through the `Document` property of the PDF Viewer and execute the `DisplayFileSizeCommand` bound to the `Command` property of the custom Toolbar item:
 
 <snippet id='pdfviewer-toolbar-customcommand-vm' />
 
-Check below the result on different platforms:
+The image below shows the results on the different platforms:
 
 ![PdfToolbar Custom ToolbarItem](images/pdfviewer-toolbar-customitem.png)
 
-> For the PDF Viewer Custom Toolbar example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Toolbar category.
+> For a runnable example demonstrating the PDF Viewer's custom Toolbar items, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
 ## See Also
 

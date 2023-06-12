@@ -1,18 +1,18 @@
 ---
 title: Fonts
 page_title: .NET MAUI PDF Viewer Documentation - Fonts
-description: Review how to register the fonts in the PDF document.
+description: Learn how to register the fonts in the PDF document.
 position: 7
 slug: pdfviewer-fonts
 ---
 
 # Fonts
 
-The Telerik .NET MAUI PDF Viewer supports standard and embedded fonts. 
+The Telerik UI for .NET MAUI PDF Viewer supports [standard](#standard-fonts) and [embedded fonts](#embedded-fonts). 
 
 ## Standard Fonts
 
-There are 14 standard fonts that are not embedded in the document when you use them. As our .NET MAUI PdfViewer works with the [RadPdfProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model, these fonts can be accessed through the PdfProcessing [FontsRepository class](https://docs.telerik.com/devtools/document-processing/api/telerik.windows.documents.fixed.model.fonts.fontsrepository). 
+There are 14 standard fonts that are not embedded in the document when you use them. As our .NET MAUI PDF Viewer works with the [RadPdfProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model, these fonts can be accessed through the PdfProcessing [`FontsRepository` class](https://docs.telerik.com/devtools/document-processing/api/telerik.windows.documents.fixed.model.fonts.fontsrepository). 
 
 You can find a full list of the provided standard fonts below:
 
@@ -33,21 +33,23 @@ You can find a full list of the provided standard fonts below:
 
 ## Embedded Fonts
 
-All fonts, which are not included in the 14 standard ones have to be embedded in the PDF document. Otherwise, the result when the document is rendered is unpredictable as the PdfViewer renderer fallbacks to the default fonts.
+All fonts except the [14 standard fonts](#standard-fonts) must be embedded in the PDF document. Otherwise, the rendering of the document will lead to unpredictable results as the PDF Viewer renderer falls back to the default fonts.
 
 ### Registering a Font
 
-PdfViewer for .NET MAUI works with [RadPdfProcessing library](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model
+The PDF Viewer for .NET MAUI works with the [RadPdfProcessing library](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model. To embed a font, utilize the `RegisterFont` static method provided by the PdfProcessing fonts repository. Use the `RegisterFont` method for `TrueType` fonts as well.
 
-Utilize the PdfProcessing's FontsRepository `RegisterFont` static method to embed various fonts, including `TrueType` fonts. `RegisterFont` requires four parameters - `FontFamily`, `FontStyle` and `FontWeight` objects describing the font and a byte array containing the raw font data.
+`RegisterFont` requires four parameters: the `FontFamily`, `FontStyle`, and `FontWeight` objects describing the font and a byte array containing the raw font data.
 
-**Embed a non-standard font with PdfProcessing library**
+#### Example: Embedding a Non-Standard Font
 
-**1**: Add the `.ttf` file containing the font data to your .NET MAUI project, in the example below it is placed inside `Resources` folder:
+The following example demonstrates how to embed a non-standard font when working with the PDF Viewer and the PdfProcessing library.
+
+**1**: Add the `.ttf` file containing the font data to your .NET MAUI project. In the example below, the `.ttf` it is placed inside `Resources` folder:
 
 ![.NET MAUI PdfViewer fonts](images/pdf-fonts.png)
 
->Make sure to update the Build Action of the .ttf file to **Embedded resource**.
+>Make sure to update the build action of the `.ttf` file to **Embedded resource**.
 
 **2**: Add a sample implementation for reading the font data from a stream, for example:
 
@@ -67,7 +69,7 @@ private static byte[] ReadAllBytes(Stream input)
 }
 ```
 
-**3**: Embed the font through the `RegisterFont` method, here you need to use the above mentioned `ReadAllBytes` method to read the font data and return it as a byte array:
+**3**: Embed the font through the `RegisterFont` method. Here you need to use the `ReadAllBytes` method to read the font data and return it as a byte array:
 
 ```C#
 Assembly assembly = typeof(MainPage).Assembly;
@@ -77,13 +79,13 @@ Telerik.Windows.Documents.Fixed.Model.Fonts.FontsRepository.RegisterFont(
 	new FontFamily("Verdana"), FontStyles.Normal, FontWeights.Normal, fontData);
 ```
 
-Add the missing namespace related to the PdfProcessing library:
+**4.** Add the missing namespace related to the PdfProcessing library:
 
 ```C#
 using Telerik.Documents.Core.Fonts;
 ```
 
-**Result**: RadPdfViewer use the registered font data when rendering text with the same font set.
+After completing all steps, the `RadPdfViewer` will use the registered font data when rendering text with the same font set.
 
 ## See Also
 
