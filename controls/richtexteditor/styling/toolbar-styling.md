@@ -8,15 +8,15 @@ slug: richtexteditor-toolbar-styling
 
 ## RichTextEditor Toolbar Styling
 
-RichTextEditor for .NET MAUI provudes a flexible styling API for its toolbar items. 
+RichTextEditor for .NET MAUI provides a flexible styling API for its toolbar items. 
 
-In general the RichTextEditorToolbar is based on the RadToolbar control. All toolbar items in the RichTextEditor inherit from `ButtonToolbarItem`.
+The `RichTextEditorToolbar` is based on the `RadToolbar` control. All toolbar items in the RichTextEditor inherit from `ButtonToolbarItem`.
 
-All styling properties available for the `ButtonToolbarItem` are applicable for the richtext editor toolbar items. For more details review the ButtonToolbar Styling article. 
+All styling properties available for the `ButtonToolbarItem` are applicable for the rich text editor toolbar items.
 
 Here is an example:
 
-**1.** RichTextEditor and Toolbar definitions in xaml:
+**1.** RichTextEditor and Toolbar definitions in XAML:
 
 <snippet id='richtexteditor-toolbar-styling-xaml' />
 
@@ -34,7 +34,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ![RichTextEditor Toolbar Styling](../images/rte-toolbar-styling.png)
 
->important For the RichTextEditor Toolbar Styling example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> styling category.
-
-
-## See Also
+> For the RichTextEditor Toolbar Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor -> Styling**.
