@@ -8,19 +8,19 @@ slug: chat-items-overview
 
 # Chat Items 
 
-`RadChat` works with a collection of `ChatItem` objects. The control provides different chat items that you could use, such as the basic `TextMessage` as well as `PickerItems` used to display various pickers (item, date and time picker) and predefined cards (defined through a card picker).
+The `RadChat` control works with a collection of `ChatItem` objects. The control provides different Chat Items that you can use, such as the basic `TextMessage` and the `PickerItems` used to display various pickers (item, date, and time picker) and predefined cards (defined through a card picker).
 
-This section covers the specific details of the different chat items RadChat provides:
+This section covers the specific details of the different Chat Items provided by `RadChat`:
 
-* [Message]({%slug chat-items-messages %}) - the basic message unit in RadChat; apart from the text of the message itself, each `TextMessage` instance contains information about the Author of the message as well as any additional data;
-* [Time Break]({%slug chat-items-timebreak %}) - used to encapsulate messages in a conversation by a certain condition such as read/unread, time intervals or any other you would choose. It is visualizes as a dividing line across the messages board with a text message attached to it.
-* [PickerItem]({%slug chat-picker-overview %}) - special `ChatItem` type which contains RadChatPicker control used for providing a selection to the end user. Depending on the information that is presented and the choice that should be made, the pickers can be one of the types listed below:
-	* `DatePicker`&mdash;For displaying a Calendar to choose a date;
-    * `TimePicker`&mdash;For displaying a clock view to choose a time;
-    * `ItemPicker`&mdash;For presenting a list of suggestions the end user could choose from;
-    * `CardPicker`&mdash;For presenting a list of cards with structured layout;
+* [Message]({%slug chat-items-messages %})—The basic message unit in RadChat; apart from the text of the message itself, each `TextMessage` instance contains information about the Author of the message as well as any additional data.
+* [Time Break]({%slug chat-items-timebreak %})—Used to encapsulate messages in a conversation by a certain condition such as read/unread, time intervals, or any other condition. It visualizes as a dividing line across the messages board with a text message attached to it.
+* [PickerItem]({%slug chat-picker-overview %})—A special `ChatItem` type which contains a `RadChatPicker` control used for providing a selection to the end user. Depending on the information that is presented and the choices the user can make, the pickers can be one of the following types:
+	* `DatePicker`&mdash;Displays a Calendar to choose a date.
+    * `TimePicker`&mdash;Displays a clock view to choose a time.
+    * `ItemPicker`&mdash;Displays a list of suggestions the end user could choose from.
+    * `CardPicker`&mdash;Displays a list of cards with structured layout.
 
-> Additionally, you could create your own chat items with custom item templates and add them to the `Items` collection of the control. For more details go to the [MVVM Support]({% slug chat-mvvm-support %}) and [ItemTemplateSelector]({% slug chat-itemtemplate-selector %}) topics.
+> Additionally, you can create your own Chat Items with custom item templates and add them to the `Items` collection of the control. For more details, see the [MVVM Support]({% slug chat-mvvm-support %}) and [`ItemTemplateSelector`]({% slug chat-itemtemplate-selector %}) topics.
 
 ## See Also
 
