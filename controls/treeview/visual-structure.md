@@ -8,12 +8,6 @@ slug: treeview-visual-structure
 
 # .NET MAUI TreeView Visual Structure
 
-Here are described all visual elements used in the TreeView for .NET MAUI.
+The TreeView consists of several visual elements and they are illustrated on the image below.
 
 ![TreeView Visual Structure](images/treeview-visual-structure.png "Visual elements of TreeView")
-
-## Legend
-
-* **Expand indicator**
-* **CheckBox element**
-* **Image element**

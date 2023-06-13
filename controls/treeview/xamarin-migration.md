@@ -9,7 +9,9 @@ position: 20
 
 # Migrating the TreeView from Xamarin to .NET MAUI
 
-Overall, Telerik .NET MAUI TreeView control is a complete new control with new API and improvements.
+The Telerik UI for .NET MAUI TreeView control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+
+The tables in the following sections list the differences between the APIs of the Xamarin.Forms TreeView and .NET MAUI TreeView.
 
 ## Migrating the Namespaces
 
@@ -23,38 +25,38 @@ Overall, Telerik .NET MAUI TreeView control is a complete new control with new A
 
 | Xamarin TreeView | .NET MAUI TreeView |
 | ------------- | --------------- |
-| - | `HorizontalScrollBarVisibility` |
-| - | `HorizontalScrollBarLayoutMode` |
-| - | `VerticalScrollBarVisibility` |
-| - | `VerticalScrollBarLayoutMode` |
+| NA | `HorizontalScrollBarVisibility` |
+| NA | `HorizontalScrollBarLayoutMode` |
+| NA | `VerticalScrollBarVisibility` |
+| NA | `VerticalScrollBarLayoutMode` |
 | `SelectedItems Collection`(read-only) | `SelectedItems Collection` |
-| - | `SelectedItem` |
-| - | `SelectionMode` - `None`, `Single`, `Multiple` |
+| NA | `SelectedItem` |
+| NA | `SelectionMode` - `None`, `Single`, `Multiple` |
 | `CheckedItemsCollection`(read-only) | `CheckedItemsCollection` |
 | `CheckBoxModes`- `None`, `Individual`, `Propagate` | `CheckBoxModes` - `None`,`Independent`,`Recursive` |
 | `ItemTemplate`(applies on TreeViewDescriptor level) | `ItemTemplate`(applies on TreeView level) |
-| `LoadOnDemand` | - |
+| `LoadOnDemand` | NA |
 | `ScrollItemIntoView()` | `ScrollTo()` |
-| - | `ItemsSourceChanged` event |
+| NA | `ItemsSourceChanged` event |
 | `SelectionChanged` | `SelectionChanged` |
 | `ItemTapped` event | `ItemTapped` event |
-| `ItemHold` event | - |
-| `ItemCollapsed` event | - |
-| `ItemExpanded` event | - |
-| Commands - `ItemTap`, `ItemHold`, `ItemCollapse`,`ItemExpand`,`LoadOnDemand`,`Unknown` | - |
-| - | `ExpandAll` command |
-| - | `CollapseAll` command |
-| - | `CheckAll` command |
-| - | `UnCheckAll` command |
-| - | `ScrollToCommand` command |
+| `ItemHold` event | NA |
+| `ItemCollapsed` event | NA |
+| `ItemExpanded` event | NA |
+| Commands - `ItemTap`, `ItemHold`, `ItemCollapse`,`ItemExpand`,`LoadOnDemand`,`Unknown` | NA |
+| NA | `ExpandAll` command |
+| NA | `CollapseAll` command |
+| NA | `CheckAll` command |
+| NA | `UnCheckAll` command |
+| NA | `ScrollToCommand` command |
 | `ExpandAll()` | `ExpandAll()` |
 | `ExpandAll()` | `CollapseAll()` |
-| `Expand()` | - |
-| `Collapse()` | - |
-| - | `CheckAlll()` |
-| - | `UnCheckAll()` |
-| `CheckItem()` | - |
-| `UncheckItem()` | - |
+| `Expand()` | NA |
+| `Collapse()` | NA |
+| NA | `CheckAlll()` |
+| NA | `UnCheckAll()` |
+| `CheckItem()` | NA |
+| `UncheckItem()` | NA |
 
 
 ## See Also

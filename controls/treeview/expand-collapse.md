@@ -1,46 +1,46 @@
 ---
 title: Expand-Collapse Items
 page_title: .NET MAUI TreeView Documentation - Expand and Collapse Items
-description: "Review how to expand/collapse items when in the Treeview for .NET MAUI control."
+description: Review how to expand and collapse items when working with the TreeView control for .NET MAUI.
 position: 2
 slug: treeview-expand-collapse
 ---
 
-# Expanding and collapsing TreeView items
+# Expanding and Collapsing TreeView Items
 
-RadTreeView exposes useful methods which can be utilized in order to control the states of its items. You can use the following methods to chnage the state of all items:
+The `RadTreeView` control exposes methods that allow you to control the state of its items:
 
-* `ExpandAll()`&mdash;Expands all items from the source collection
-* `CollapseAll()`&mdash;Collapses all items from the source collection
+* `ExpandAll()`&mdash;Expands all items in the source collection.
+* `CollapseAll()`&mdash;Collapses all items in the source collection.
 
->important On Android and iOS when tapping on the TreeView item the item gets expanded. On WinUI and MacCatalyst the item gets expanded when tapping on the arrow `>`. 
+> On Android and iOS, when tapping on the TreeView item, the item gets expanded. On WinUI and MacCatalyst, the item gets expanded when tapping on the arrow **>**. 
 
 
-![.NET MAUI Treeview Expand and Collapse](images/treeview-expand-collapse.gif)
+![.NET MAUI TreeView Expand and Collapse](images/treeview-expand-collapse.gif)
 
-## Example
+## Example: Expanding and Collapsing TreeView Items
 
-TreeView deifnition:
+**1.** Define the TreeView control:
 
 <snippet id='treeview-expand-collapse' />
 
-`ExpandAll` method called on a button click:
+**2.** Add the `ExpandAll` method called on a button click:
 
 <snippet id='treeview-expand-all-method' />
 
-`CollapseAll` method called on a button click:
+**3.** Add the `CollapseAll` method called on a button click:
 
 <snippet id='treeview-collapse-all-method' />
 
-Data model:
+**4.** Add the data model:
 
 <snippet id='treeview-getting-started-item' />
 
-ViewModel:
+**5.** Add the ViewModel:
 
 <snippet id='treeview-getting-started-viewmodel' />
 
->important For the Treeview Expand and Collapse example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Expand and Collapse category.
+> For a runnable example demonstrating the TreeView Expand and Collapse feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Expand and Collapse**.
 
 ## See Also
 

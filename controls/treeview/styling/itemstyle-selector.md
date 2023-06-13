@@ -1,52 +1,52 @@
 ---
 title: ItemStyle Selector
 page_title: .NET MAUI TreeView Documentation - ItemStyle Selector
-description: "Style the TreeView for .NET MAUI items by using a style selector."
+description: The TreeView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
 position: 2
 slug: treeview-itemstyle-selector
 ---
 
 # Style Selector on Items
 
-The TreeView exposes conditional styling feature. It allows users to apply a different Style to each item depending on a specific condition.
+The .NET MAUI TreeView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
 
 ![.NET MAUI TreeView Item Style Selector](images/treeview-itemstyle-selector.png)
 
-**Example**
+The following example shows how to use the `ItemStyleSelector`:
 
-The `ItemStyleSelector` property set to the RaDTreeView:
+**1.** Set the `ItemStyleSelector` property to the `RadTreeView`:
 
 <snippet id='treeview-item-styleselector'/>
 
-The Style Selector defined in XAML:
+**2.** Define the style selector in XAML:
 
 <snippet id='treeview-style-selector'/>
 
-The custom class `LocationStyleSelector` that inherits from `IStyleSelector`:
+**3.** Add the custom `LocationStyleSelector` class that inherits from `IStyleSelector`:
 
 <snippet id='treeview-styleselector'/>
 
-Set the style to the `RadTreeView`:
+**4.** Set the style to the `RadTreeView`:
 
 <snippet id='treeview-styling'/>
 
-The Location data model:
+**5.** Add the location data model:
 
 <snippet id='treeview-location-model'/>
 
-The Country data model:
+**6.** Add the country data model:
 
 <snippet id='treeview-country-model'/>
 
-The City data model:
+**7.** Add the city data model:
 
 <snippet id='treeview-city-model'/>
 
-The ViewModel:
+**8.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
 
->important For the Treeview ItemStyle Selector example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Styling category
+> For a runnable example demonstrating the TreeView ItemStyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Styling**.
 
 ## See Also
 

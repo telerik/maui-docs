@@ -1,16 +1,16 @@
 ---
 title: Commands
 page_title: .NET MAUI TreeView Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik TreeView for .NET MAUI control.
+description: The .NET MAUI TreeView provides various commands that allow you to initiate expand or collapse actions, check and uncheck actions, and to scroll to a specific item.
 position: 8
 slug: treeview-commands
 ---
 
 # Commands
 
-This article explains all commands that Treeview for .NET MAUI provides.
+The .NET MAUI TreeView provides various commands that allow you to initiate expand or collapse actions, check and uncheck actions, and to scroll to a specific item.
 
-## Commands for expanding and collapsing items
+## Expanding and Collapsing Items
 
 TreeView exposes the following commands for expanding and collapsing all items:
 
@@ -19,21 +19,21 @@ TreeView exposes the following commands for expanding and collapsing all items:
 
 <snippet id='treeview-expand-collapse-commands'/>
 
->important For the Treeview Expand Collapse Commands example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Commands category.
+> For a runnable example demonstrating the TreeView Expand and Collapse commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
+## Checking and Unchecking Items
 
-## Commands for checking and unchecking items
-
-And the following commands for checking and unchecking all items:
+TreeView exposes the following commands for checking and unchecking all items:
 
 * `CheckAllCommand`(`ICommand`)&mdash;Gets a command to check all items in the control.
 * `UncheckAllCommand`(`ICommand`)&mdash;Gets a command to uncheck all items in the control.
 
 <snippet id='treeview-check-uncheck-commands'/>
 
->important For the Treeview Check Uncheck Commands example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Commands category.
+> For a runnable example demonstrating the TreeView Check and Uncheck commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
 
+## Scrolling
 
-## Scrolling commands
+TreeView exposes the following command that allows you to control the scrolling within the component:
 
 * `ScrollToCommand`(`ICommand`)&mdash;Gets a command that scrolls to an item in the control, which is specified as a parameter.
 
