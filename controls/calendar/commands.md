@@ -35,11 +35,11 @@ When switching between view levels, the Calendar implements the following naviga
 
 <snippet id='calendar-navigation-commands'/>
 
-**2.** Execute the `NavigateToNextViewCommand` and `NavigateToPreviousViewCommand` execution on button click:
+**2.** Execute the `NavigateToNextViewCommand` and `NavigateToPreviousViewCommand` on button click:
 
 <snippet id='calendar-navigating-in-current-view'/>
 
-**3.** Execute the `NavigateToUpperViewCommand` and `NavigateToLowerViewCommand` execution on button click:
+**3.** Execute the `NavigateToUpperViewCommand` and `NavigateToLowerViewCommand` on button click:
 
 <snippet id='calendar-navigating-detween-views'/>
 
