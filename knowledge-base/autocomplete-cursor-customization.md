@@ -1,6 +1,6 @@
 ---
 title: Customize AutoComplete Cursor Color
-description: How to access the native entry element to customize the cursor
+description: How to access the native entry element inside the RadAutoComplete to customize the cursor
 type: how-to
 page_title: Customize AutoComplete Cursor
 slug: autocomplete-cursor-customization
