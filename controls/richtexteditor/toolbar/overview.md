@@ -8,15 +8,15 @@ slug: richtexteditor-toolbar
 
 # RichTextEditor Toolbar
 
-RichTextEditor control comes with various editing capabilities and with the help of the RadRichTextEditorToolbar you can provide to the users easy and quick way to edit their HTML content. The default toolbar include items for all the available text formatting options, alternatively you could customize the shown editing options according to your needs.
+The RichTextEditor control comes with various editing capabilities. With the help of the `RadRichTextEditorToolbar`, you can enable the users to effortlessly edit HTML content. The default toolbar includes items for all the available text formatting options. Alternatively, you can customize the shown editing options according to your needs.
 
-By default the RadRichTextEditorToolbar Items are auto-populated. You could change this by setting the RadRichTextEditorToolbar boolean `AutoGenerateItems` property to `False`. In this case you will need to manually define the available editing options, for more details check [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
+By default, the `RadRichTextEditorToolbar` Items are auto-populated. You can change this by setting the `RadRichTextEditorToolbar` boolean `AutoGenerateItems` property to `False`. In this case, you will need to manually define the available editing options. For more details, check [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
 
-In order to attach the RichTextEditor control to the RadRichTextEditorToolbar control you need to set the `RichTextEditor` (from type `RadRichTextEditor`) property. All toolbar items execute their actions against the specified richtext editor.
+To attach the RichTextEditor control to the `RadRichTextEditorToolbar` control, you need to set the `RichTextEditor` (from type `RadRichTextEditor`) property. All toolbar items execute their actions against the specified rich text editor.
 
 <snippet id='richtexteditor-getting-started-xaml' />
 
-On Mobile, the RichTextEditorToolbar is horizontally scrollable, so that the toolbar items can be easily accessed:
+On Mobile, the `RichTextEditorToolbar` is horizontally scrollable, so that the toolbar items can be easily accessed:
 
 ![.NET MAUI RichTextEditor Mobile Toolbar](../images/rte-toolbar-mobile.gif)
 
@@ -69,21 +69,21 @@ Here are the all toolbar items definition:
 
 ## RichTextEditor Toolbar Placement
 
-There are some specifics you'd need to take into account when placing RichTextEditorToolbar on the page:
+There are some specifics you'd need to take into account when placing `RichTextEditorToolbar` on the page:
 
-* On Android - when you place the RichTextEditor Toolbar below the RichTextEditor, you will need to set the Application WindowSoftInputModeAdjust to `Resize` - this setting causes the page to resize when the keyboard is shown and in this way if the RichTextEditorToolbar is on the bottom of the page it will be displayed over the keyboard when it appears.
+* On Android—When you place the RichTextEditor Toolbar below the RichTextEditor, you set the Application's `WindowSoftInputModeAdjust` to `Resize`. This setting causes the page to resize when the keyboard is shown, and in this way, if the `RichTextEditorToolbar` is on the bottom of the page, it will be displayed over the keyboard when it appears.
 
 You can apply it on application level like this:
 
-```C#
-App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust.Resize);
-```
+    ```C#
+    App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust.Resize);
+    ```
 
->tip For more details on the matter check the [Soft Keyboard Input Mode on Android](https://learn.microsoft.com/en-us/dotnet/maui/android/platform-specifics/soft-keyboard-input-mode) from .NET MAUI documentation.
+    >tip For more details on the matter check the [Soft Keyboard Input Mode on Android](https://learn.microsoft.com/en-us/dotnet/maui/android/platform-specifics/soft-keyboard-input-mode) from .NET MAUI documentation.
 
-* on iOS -  if the RadRichTextEditorToolbar is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard, so users can access it without a problem. Due to [Xamarin.Forms implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the RadRichTextEditorToolbar is placed in a container which bounds would still contain it after the control is translated over the keyboard. Otherwise, the Tap and Pan gestures on the RadRichTextEditorToolbar will not work until the keyboard is hidden and the control is translated back to its original place.
+* on iOS—If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard, so users can access it without a problem. Due to [Xamarin.Forms implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds would still contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
 
->important For the RichTextEditor Toolbar examples refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Toolbar category.
+> For the RichTextEditor Toolbar examples, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Toolbar**.
 
 ## Custom Toolbar
 

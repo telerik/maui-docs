@@ -9,9 +9,9 @@ published: False
 
 # Localization
 
-RichTextEditor for Xamarin provides language localization. In short, you can translate the used across the RichTextEditor Toolbar Items texts to other languages, so that your app can be adapted to different regions.
+The .NET MAUI RichTextEditor provides language localization allowing you to translate the text of the RichTextEditor Toolbar items to other languages. This allows you to adapt your app to different regions.
 
->important To learn in details about the localization process of Telerik UI for Xamarin components, please go through the common [Localization and Globalization]({%slug common-localization-and-globalization%}) topic.
+> To learn more about the localization process of the Telerik UI for .NET MAUI components, see the [Localization and Globalization]({%slug common-localization-and-globalization%}) topic.
 
 ## Common RichTextEditor Localization strings
 
