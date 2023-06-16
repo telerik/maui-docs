@@ -49,10 +49,9 @@ The following example demonstrates how to use the `SelectionChanged` event:
 
 ## See Also
 
-- [Navigation]({%slug calendar-navigation%})
-- [Display modes]({%slug calendar-display-modes%})
-- [Formatting]({%slug calendar-date-formatting%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
 - [Selection modes]({%slug calendar-selection%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})

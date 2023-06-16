@@ -70,10 +70,10 @@ The century view represents all decades in a century.
 
 ## See Also
 
-- [Navigation]({%slug calendar-navigation%})
-- [Formatting]({%slug calendar-date-formatting%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
 - [Selection modes]({%slug calendar-selection%}) 
-- [Events]({%slug calendar-events%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Use exposed Events]({%slug calendar-events%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})
