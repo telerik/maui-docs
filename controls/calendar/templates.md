@@ -77,7 +77,8 @@ And the Template Selector logic:
 
 ## See Also
 
-- [Navigation]({%slug calendar-navigation%})
-- [Events]({%slug calendar-events%})
-- [Commands]({%slug calendar-commands%})
-- [Styling]({%slug calendar-header-styling%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
+- [Selection modes]({%slug calendar-selection%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})

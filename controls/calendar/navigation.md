@@ -54,10 +54,9 @@ Use the `InteractionMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarI
 
 ## See Also
 
-- [Display modes]({%slug calendar-display-modes%})
-- [Formatting]({%slug calendar-date-formatting%})
-- [Selection modes]({%slug calendar-selection%}) 
-- [Events]({%slug calendar-events%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
+- [Selection modes]({%slug calendar-selection%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})
