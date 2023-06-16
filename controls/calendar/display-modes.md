@@ -23,7 +23,7 @@ The `DisplayMode` property (enum of type `Telerik.Maui.Controls.Calendar.Calenda
 
 The user can effortlessly change the `DisplayMode` through the UI by tapping (for mobile) or clicking (for desktop) the header text.
 
-![.NET MAUI Calendar Month View](./images/display-mode-month.png)
+![.NET MAUI Calendar Month View](images/calendar-change-display-mode.gif)
 
 ## Setting Min and Max Display Mode
 
