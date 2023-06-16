@@ -8,7 +8,7 @@ slug: calendar-visual-structure
 
 # .NET MAUI Calendar Visual Structure
 
-The .NET MAUI Calendar consists of several visual elements, which are represented on the image below.
+The .NET MAUI Calendar visual elements are represented on the image below.
 
 ## Calendar Visual Structure
 
