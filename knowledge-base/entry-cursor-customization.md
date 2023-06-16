@@ -29,7 +29,6 @@ res_type: kb
 
 This article shows you how to access the native element through the .NET MAUI handler for RadEntry via the RadMauiEntry object.
 
-
 ### Step 1.
 
 Subscribe to the HandlerChanged event of the RadEntry you want to customize.
@@ -58,9 +57,6 @@ private void Entry1_HandlerChanged(object sender, EventArgs e)
 }
 ```
 
->note It is not currently possible to change the Windows TextBox caret color in WinUI. This is a limitation in the WinAppSDK, not the Telerik control.
-
-
 ## Alternate Approach
 
 If you have many instances of the control on a single view, or throughout your app, you may want to consider creating your own custom class and subclassing the RadEntry. In the custom control's class you can override the OnHandlerChanged instead of subscribing to an event handler.
@@ -86,6 +82,15 @@ public class MyCustomTelerikEntry : Telerik.Maui.Controls.RadEntry
     }
 }
 ```
+
+### Known Limitations
+
+It is not possible to apply caret customization on the following platforms:
+
+- Windows - WinUI3, and WinApp SDK, just does not have any access the caret of the native TextBox.
+- MacCatalyst - Due to a .NET MAUI issue, manually TextField.HintColor is not respected on MacCatalyst.
+
+If either of those situations change, then these limitations may be outdated and you can attempt the customization again.
 
 ## See Also
 
