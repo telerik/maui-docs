@@ -113,7 +113,7 @@ public class MyCustomTelerikAutoComplete : Telerik.Maui.Controls.RadAutoComplete
 It is not possible to apply caret customization on the following platforms:
 
 - Windows - WinUI3, and WinApp SDK, just does not have any access the caret of the native TextBox.
-- MacCatalyst - Due to a .NET MAUI issue, manually TextField.HintColor is not respected on MacCatalyst.
+- MacCatalyst - Due to a .NET MAUI issue, changes to TextField.HintColor is not respected on MacCatalyst.
 
 If either of those situations change, then these limitations may be outdated and you can attempt the customization again.
 
