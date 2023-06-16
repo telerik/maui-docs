@@ -53,19 +53,6 @@ For half of the world, Monday is the first day of the week, and for the other ha
 
 <snippet id='calendar-culture'/>
 
-## Selecting a Date
-
-To configure the selected date, use the `SelectedDate` property. A `null` means that a date is not selected. For more details on the selection functionality, refer to [Selection]({%slug calendar-selection%}) topic.
-
-* `SelectedDate`(`DateTime?`)&mdash;Holds the currently selected date. 
-
-## Blackout Dates
-
-The .NET MAUI Calendar allows you to specify a collection of dates that cannot be selected by the user. This list is called `BlackoutDates`(`IEnumerable&lt;DateTime&gt;`).
-
-<snippet id='calendar-blackout-dates'/>
-
-> For a runnable example demonstrating the Calendar Blackout dates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
 ## See Also
 

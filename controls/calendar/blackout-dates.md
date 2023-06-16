@@ -22,6 +22,8 @@ The following snippets show how to disable certain dates in Calendar control.
 
 <snippet id='calendar-blackoutdates-viewmode'/>
 
+![.NET MAUI Calendar Blackout Dates](images/calendar-blackout-dates.png)
+
 > For the complete example with the Calendar Blackout dates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
 ## See Also

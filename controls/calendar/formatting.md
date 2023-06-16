@@ -21,6 +21,8 @@ The following example demonstrates how to define a Calendar and format the heade
 
 <snippet id='calendar-headertext-formatting'/>
 
+![.NET MAUI Calendar Header Text Formatting](images/calendar-formmating-header.gif)
+
 ## See Also
 
 - [Navigation]({%slug calendar-navigation%})

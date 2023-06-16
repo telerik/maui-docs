@@ -14,13 +14,13 @@ You can navigate between the different views of the Calendar programmatically or
 
 The Calendar header has two buttons (Previous and Next) that allow the user to navigate in the current view. For example, in the Month view, the Previous button navigates to the previous month, and the Next button navigates to the next month.
 
-![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/combobox-header-footer.png)
+![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/calendar-navigation.gif)
 
 ## Navigating to the Parent View
 
 The user can interact with the UI and navigate to the parent view by tapping or clicking the header label of the Calendar.
 
-![.NET MAUI Calendar navigation to upperview through the UI](images/calendar-navigation.gif)
+![.NET MAUI Calendar navigation to upper view through the UI](images/calendar-change-display-mode.gif)
 
 ## Restricting the Navigation Depth
 

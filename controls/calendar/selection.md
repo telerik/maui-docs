@@ -43,7 +43,7 @@ The examples below demonstrate how to set the [selected dates](#selected-dates-e
 
 The image below shows the result:
 
-![.NET MAUI Calendar SelectedDates](images/calendar-selected-dates-all.png)
+![.NET MAUI Calendar Selected Dates](images/calendar-selected-dates.png)
 
 ### Single Selection Example
 

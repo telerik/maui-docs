@@ -23,6 +23,8 @@ And the template definition
 
 <snippet id='calendar-templates-daytemplate-definition'/>
 
+![.NET MAUI Calendar Day Template](images/calendar-day-template.png)
+
 ## Month Template
 
 <snippet id='calendar-templates-monthtemplate-usage'/>
@@ -30,6 +32,8 @@ And the template definition
 And the template definition
 
 <snippet id='calendar-templates-monthtemplate-definition'/>
+
+![.NET MAUI Calendar Month Template](images/calendar-month-template.png)
 
 ## Year Template
 
@@ -39,6 +43,8 @@ And the template definition
 
 <snippet id='calendar-templates-yeartemplate-definition'/>
 
+![.NET MAUI Calendar Year Template](images/calendar-year-template.png)
+
 ## Decade Template
 
 <snippet id='calendar-templates-decadetemplate-usage'/>
@@ -47,9 +53,11 @@ And the template definition
 
 <snippet id='calendar-templates-decadetemplate-definition'/>
 
+![.NET MAUI Calendar Decade Template](images/calendar-decade-template.png)
+
 ## Template Selectors
 
-You can easily apply a template selector the the calendar templates as they are of type `DataTemplate`. 
+You can easy apply a template selector the calendar templates as they are of type `DataTemplate`. 
 
 The following example demonstrates a DayTemplate that uses a Template Selector.
 
@@ -62,6 +70,8 @@ And the template selectors definition
 And the Template Selector logic:
 
 <snippet id='calendar-templates-custom-templateselector'/>
+
+![.NET MAUI Calendar Template Selector](images/calendar-template-selector.png)
 
 >important For the Calendar Templates examples refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Templates category.
 
