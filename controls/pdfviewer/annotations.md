@@ -10,7 +10,7 @@ slug: pdfviewer-annotations
 
 The Telerik .NET MAUI PDF Viewer supports link annotations. This feature allows the user to tap any hyperlink that leads to an absolute URI, and the link will open in the browser. In addition, if the PDF contains links that point to bookmarks in the same document, the viewport scrolls to the destination specified in the link.
 
-![.NET MAUI PdfViewer Link Annotation](images/pdfviewer-link-annotations.png)
+![.NET MAUI PDF Viewer Link Annotation](images/pdfviewer-link-annotations.gif)
 
 The PDF Viewer provides the `LinkAnnotationTapped` event, which allows you to implementing custom logic related to the links in the PDF document:
 
@@ -40,7 +40,7 @@ You can implement additional logic for requesting a confirmation from the end us
 
 The following image shows the result from tapping a hyperlink on different platforms:
 
-![.NET MAUI PdfViewer Link Annotation Event](images/pdfviewer-link-annotationsevent.png)
+![.NET MAUI PDF Viewer Link Annotation Event](images/pdfviewer-link-annotationsevent.gif)
 
 > For a runnable example with the PDF Viewer Annotations, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Features**.
 

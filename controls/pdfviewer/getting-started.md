@@ -80,5 +80,5 @@ The example above shows a PDF document visualized as an embedded resource. This 
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [Review all Available Commands]({%slug pdfviewer-commands%})
 - [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})

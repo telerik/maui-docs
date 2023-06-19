@@ -27,5 +27,5 @@ The next image shows the PDF Viewer when the `LayoutMode` property is set to `Si
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [All Commands PDF Viewer provides]({%slug pdfviewer-commands%})
 - [PdfViewer Toolbar]({%slug pdfviewer-toolbar%})

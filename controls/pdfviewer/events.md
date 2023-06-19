@@ -46,10 +46,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-sourceexception-eventhandler' />
 
-The image below shows how the defined `SourceTemplateException` looks:
-
-![.NET MAUI PdfViewer SourceException](images/pdfviewer-sourceexceptiontemplate.png)
-
 > For a runnable PDF Viewer example with the Source Exception event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Features**.
 
 ## See Also

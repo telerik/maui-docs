@@ -95,5 +95,5 @@ By using the `Document` property of `RadPdfViewer`, you can get a reference to t
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [Commands for PDF Viewer]({%slug pdfviewer-commands%})
 - [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})

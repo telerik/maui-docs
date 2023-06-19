@@ -41,11 +41,11 @@ The following example shows how to define a custom `BusyIndicatorTemplate`:
 
 The next image illustrates the Busy Indicator template:
 
-![Telerik UI for .NET MAUI PDF Viewer Busy Indicator Template](images/pdfviewer-busyindicator-template.png "PdfViewer BusyIndicator Template")
+![Telerik UI for .NET MAUI PDF Viewer Busy Indicator Template](images/pdfviewer-busyindicator-template.png "PDF Viewer BusyIndicator Template")
 
 > For a runnable example with the PDF Viewer Busy Indicator, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Features**.
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [Available Commands]({%slug pdfviewer-commands%})
 - [PdfViewer Toolbar]({%slug pdfviewer-toolbar%})

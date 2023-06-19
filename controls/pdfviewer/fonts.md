@@ -47,7 +47,7 @@ The following example demonstrates how to embed a non-standard font when working
 
 **1**: Add the `.ttf` file containing the font data to your .NET MAUI project. In the example below, the `.ttf` it is placed inside `Resources` folder:
 
-![.NET MAUI PdfViewer fonts](images/pdf-fonts.png)
+![.NET MAUI PDF Viewer fonts](images/pdf-fonts.png)
 
 >Make sure to update the build action of the `.ttf` file to **Embedded resource**.
 

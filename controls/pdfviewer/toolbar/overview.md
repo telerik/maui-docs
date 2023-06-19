@@ -1,5 +1,5 @@
 ---
-title: PdfViewer Toolbar
+title: Overview
 page_title: .NET MAUI PDF Viewer Documentation - PdfViewer Toolbar
 description: Review all predefined items in the .NET MAUI PDF Viewer control.
 position: 3
@@ -72,4 +72,4 @@ The image below shows the results on the different platforms:
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [Review PDF Viewer Commands]({%slug pdfviewer-commands%})

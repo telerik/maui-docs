@@ -32,5 +32,5 @@ private void pdfViewer_SourcePasswordNeeded(object sender, Telerik.Windows.Docum
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
-- [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})
+- [All Available Commands]({%slug pdfviewer-commands%})
+- [Review PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})
