@@ -297,7 +297,7 @@ navigation:
     ## End PdfProcessing
     ## PdfViewer
     controls/pdfviewer:
-        title: "PdfViewer"
+        title: "PDF Viewer"
     controls/pdfviewer/toolbar:
         title: "Toolbar"
         position: 8
@@ -562,7 +562,7 @@ intro_columns:
   -
     title: "PDF Viewer"
     items:
-        "PdfViewer": "pdfviewer-overview"
+        "PDF Viewer": "pdfviewer-overview"
   -
     title: "Document Processing Libraries"
     items:
