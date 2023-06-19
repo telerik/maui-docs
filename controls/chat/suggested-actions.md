@@ -22,7 +22,7 @@ The `GetSuggestedActions` method then populates the `Actions` property with a co
 
 #### Figure 1: RadChat with suggested actions
 
-![RadChat with suggested actions](images/)
+![RadChat with suggested actions](images/chat-suggested-actions.png)
 
 ## See Also
 

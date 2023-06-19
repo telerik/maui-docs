@@ -26,7 +26,7 @@ This is the result:
 
 ![.NET MAUI RichTextEditor Styling](../images/richtexeditor-styling.png)
 
->important For the RichTextEditor Styling example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Styling category.
+>important For the RichTextEditor Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Styling**.
 
 ## See Also
 

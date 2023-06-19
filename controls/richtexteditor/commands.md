@@ -8,7 +8,7 @@ slug: richtexteditor-commands
 
 # Commands
 
-RichTextEditor provides the following commands of type `ICommand`.
+RichTextEditor provides the a long list of commands (of type `ICommand`) that allow you to perform various operations on the text.
 
 | Commands | Description |
 | ------------- | --------------- |
@@ -16,7 +16,7 @@ RichTextEditor provides the following commands of type `ICommand`.
 | `RedoCommand` | Gets a command to redo the last changes in the editor. |
 | `ToggleBoldCommand` | Gets a command to toggle the bold text in the editor. |
 | `ToggleItalicCommand` | Gets a command to toggle the italic text in the editor. |
-| `ToggleUnderlineCommand` | ets a command to toggle the underline text in the editor. |
+| `ToggleUnderlineCommand` | Gets a command to toggle the underline text in the editor. |
 | `ToggleStrikethroughCommand` | Gets a command to toggle the strike-through text in the editor. |
 | `ToggleSubscriptCommand` | Gets a command to toggle the subscript text in the editor. |
 | `ToggleSuperscriptCommand` | Gets a command to toggle the superscript text in the editor. |
@@ -36,25 +36,26 @@ RichTextEditor provides the following commands of type `ICommand`.
 | `RemoveImageCommand` | Gets a command to remove an image in the editor. |
 | `SelectAllCommand` | Gets a command to select all html in the editor. |
 
->note RadRichTextEditor Toolbar exposes some of the commands built-in. For more information please check the [RadRichTextEditor Toolbar]({%slug richtexteditor-toolbar%}) article.
+>note The `RadRichTextEditor` Toolbar exposes some of the built-in commands. For more information, check the [`RadRichTextEditor` Toolbar]({%slug richtexteditor-toolbar%}) article.
 
-## Example
+## Example: Executing Actions through Commands
 
-Through the provided commands you can execute the corresponding actions over RichTextEditor (for example apply bold text formatting) from a custom UI other than the RichTextEditor toolbar. 
+You can execute the actions in the RichTextEditor through the provided commands. For example, you can apply bold text formatting from a custom UI other than the RichTextEditor toolbar. 
 
-Following is an example how the RadRichTextEditor commands could be called on a button click action. 
+The following example how to call the `RadRichTextEditor` commands on a button click action. 
 
-Let's add the RichTextEditor definition together with a few sample buttons wired to the editor's commands:
+**1.** Let's add the RichTextEditor definition together with a few sample buttons wired to the editor's commands:
 
 <snippet id='richtexteditor-commands-xaml' />
 
-Add the required namespaces:
+**2.** Add the required namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
->important For the RichTextEditor Commands example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) RichTextEditor -> Features category.
+> For a runnable example with the RichTextEditor commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Features**.
+
 
 ## See Also
 

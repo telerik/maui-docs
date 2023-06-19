@@ -41,10 +41,7 @@ And the result is:
 
 #### Figure 1: RadChat with typing indicator
 
-![RadChat with typing indicator](images/)
-
-#### Using ItemsSource collection:
-
+![RadChat with typing indicator](images/chat-typing-indicator.png)
 
 
 ## See Also
