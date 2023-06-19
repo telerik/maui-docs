@@ -1,14 +1,14 @@
 ---
 title: Overview
-page_title: .NET MAUI Treeview Documentation - Overview
-description: "Review all features that Telerik TreeView for .NET MAUI control provides."
+page_title: .NET MAUI TreeView Documentation - Overview
+description: Visualize hierarchical data in a tree like structure with Telerik TreeView for .NET MAUI. 
 position: 0
 slug: treeview-overview
 ---
 
 # .NET MAUI TreeView Overview
 
-The Telerik UI for .NET MAUI TreeView represents hierarchical data in a tree like structure. It supports manipulation of its tree nodes, such as expand and collapse, provides selection, checkboxes, flexible stlying API, commands support, and more.
+The Telerik UI for .NET MAUI TreeView represents hierarchical data in a tree like structure. It supports manipulation of its tree nodes, such as expand and collapse, provides selection, checkboxes, flexible styling API, commands support, and more.
 
 To populate the TreeView, you can use any data source that is hierarchical in nature. 
 
@@ -16,7 +16,7 @@ To populate the TreeView, you can use any data source that is hierarchical in na
 
 ## Key Features
 
-* Hierarchical Navigation&mdash;TreeView significantly improves the navigation and performance of your application where navigation over hierarchical structure is required.
+* Hierarchical Navigation&mdash;TreeView improves the navigation and performance of your application where navigation over hierarchical structure is required.
 * [Expand/Collapse items]({%slug treeview-expand-collapse%})&mdash;The control introduces methods which can be used to programmatically expand/collapse all items. 
 * [Commands]({%slug treeview-commands%})&mdash;TreeView provides commands for expanding, collapsing, checking, and unchecking the items. 
 * [Checkbox Support]({%slug treeview-checkboxes%})&mdash;Telerik `RadTreeView` provides checkbox buttons displayed next to each item. The `RadTreeView` allows the user to check/uncheck the nodes and to perform various tasks with the collection of checked nodes. The three states checkbox mode of the `RadTreeView` control allows the  `RadTreeViewItems`' checkboxes to have an additional, third state&mdash;Indeterminate.

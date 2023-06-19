@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI TreeView Documentation - Events
-description: Check our &quot;Events&quot; documentation article for Telerik TreeView for .NET MAUI control.
+description: Review TreeView events that are raised when item is tapped, selected and source is changed. 
 position: 7
 slug: treeview-events
 ---
