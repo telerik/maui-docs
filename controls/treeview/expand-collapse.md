@@ -44,11 +44,9 @@ The `RadTreeView` control exposes methods that allow you to control the state of
 
 ## See Also
 
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [Scrolling]({%slug treeview-scrolling%})
-* [Selection]({%slug treeview-selection%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
 * [Events]({%slug treeview-events%})
-* [Commands]({%slug treeview-commands%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

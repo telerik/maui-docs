@@ -38,5 +38,9 @@ The TreeView exposes two methods that enable you to programmatically check or un
 
 ## See Also
 
-* [Commands]({%slug treeview-commands%})
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
+* [Events]({%slug treeview-events%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

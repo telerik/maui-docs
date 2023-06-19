@@ -43,9 +43,9 @@ The TreeView provides the `SelectionChanged` event, which is raised when the cur
 
 ## See Also
 
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [Scrolling]({%slug treeview-scrolling%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
 * [Events]({%slug treeview-events%})
-* [Commands]({%slug treeview-commands%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

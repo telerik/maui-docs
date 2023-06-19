@@ -50,10 +50,10 @@ The following example shows how to use the `ItemStyleSelector`:
 
 ## See Also
 
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [Scrolling]({%slug treeview-scrolling%})
-* [Selection]({%slug treeview-selection%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
 * [Events]({%slug treeview-events%})
-* [Commands]({%slug treeview-commands%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

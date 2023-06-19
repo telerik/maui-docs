@@ -73,7 +73,9 @@ The following example demonstrates how to use the `SelectionChanged` event:
 
 ## See Also
 
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [Scrolling]({%slug treeview-scrolling%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

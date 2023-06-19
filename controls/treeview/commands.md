@@ -39,6 +39,9 @@ TreeView exposes the following command that allows you to control the scrolling 
 
 ## See Also
 
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Theming]({%slug treeview-item-style%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
+* [Events]({%slug treeview-events%})
