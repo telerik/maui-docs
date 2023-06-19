@@ -6,13 +6,13 @@ position: 2
 slug: chat-getting-started
 ---
 
-# Getting Started with .NET MAUI Chat
+# Getting Started with the .NET MAUI Chat
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Chat by adding the control to your project.
 
-![Chat Getting Started](images/chat-gettingstarted-desktop.png)
+At the end, you will be able to achieve the result on the first image for desktop platforms and the results on the second image for mobile platforms:
 
-And the result on mobile platforms:
+![Chat Getting Started](images/chat-gettingstarted-desktop.png)
 
 ![Chat Getting Started](images/chat-gettingstarted-mobile.png)
 
@@ -28,7 +28,7 @@ Before adding the Chat, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a RadChat control to your page.
+1. When your .NET MAUI application is set up, you are ready to add a `RadChat` control to your page.
 
  ```XAML
 <telerik:RadChat x:Name="chat"/>
@@ -65,10 +65,14 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Additional Resources
 
-- [Telerik .NET MAUI blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
+- [MVVM Support]({% slug chat-mvvm-support%})
+- [Commands]({% slug chat-commands %})
+- [Chat Items]({%slug chat-items-overview %})
+- [Suggested Actions]({%slug chat-suggested-actions %})
 
 ## See Also
 
-- [MVVM Support]({% slug chat-mvvm-support%})
+- [.NET MAUI Chat Product Page](https://www.telerik.com/maui-ui/chat-(conversational-ui))
+- [.NET MAUI Chat Forum Page](https://www.telerik.com/forums/maui?tagId=2061)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

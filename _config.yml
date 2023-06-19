@@ -126,7 +126,7 @@ navigation:
     ## End Chart
     ## Chat
     controls/chat:
-        title: "Conversational UI(Chat)"
+        title: "Conversational UI (Chat)"
     controls/chat/items:
         title: "Chat Items"
         position: 3
