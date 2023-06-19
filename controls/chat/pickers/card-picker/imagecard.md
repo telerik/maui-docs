@@ -6,7 +6,7 @@ position: 1
 slug: chat-imagecard
 ---
 
-# ImageCard 
+# `ImageCard` 
 
 `ImageCardContext` enhances the functionality of the `BasicCardContext` by providing an additional `Image` property, so you can add an image to the Card definition. 
 

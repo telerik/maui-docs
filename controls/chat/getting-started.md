@@ -66,6 +66,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ## Additional Resources
 
 - [MVVM Support]({% slug chat-mvvm-support%})
+- [Commands]({% slug chat-commands %})
+- [Chat Items]({%slug chat-items-overview %})
+- [Suggested Actions]({%slug chat-suggested-actions %})
 
 ## See Also
 

@@ -8,7 +8,7 @@ slug: chat-mvvm-support
 
 # .NET MAUI Chat MVVM Support 
 
-With the `RadChat` control, you can easily utilize the Model-View-ViewModel (MVVM) pattern. You can achieve this through the `ItemsSource` property that can be bound or set to a collection of data items that will be converted into Chat items.
+With the `RadChat` control, you can use the Model-View-ViewModel (MVVM) pattern. You can achieve this through the `ItemsSource` property that can be bound or set to a collection of data items that will be converted into Chat items.
 
 The following example shows how to use `RadChat` in MVVM scenarios.
 

@@ -31,3 +31,4 @@ Here is an example on how to define a command in the ViewModel and bind the `Sen
 ## See Also
 
 - [MVVM Support]({% slug chat-mvvm-support%})
+- [Chat Items]({%slug chat-items-overview %})

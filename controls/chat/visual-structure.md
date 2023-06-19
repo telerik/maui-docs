@@ -18,7 +18,7 @@ The Telerik UI for .NET MAUI Chat exposes a set of properties that allow you to 
 - `Items`&mdash;Contains all the chat items included in the conversation, such text messages, picker items, and so on. For more details on the available Chat items, see the [Chat Items](slug %%) topic.
 - `Message`&mdash;Defines the current message typed into the input field.
 - `Send Button`&mdash;Defines the button used to send messages.
-- `Picker`&mdash;Defines the Chat Picker that is shown either as overlay over the messages’ view or inline as part of the conversation and could display different pickers in order to provide the end user with a selection of choices. See the [Chat Picker topic]({% slug chat-picker-overview %}) for more details.
+- `Picker`&mdash;Defines the Chat Picker that is shown either as overlay over the messages’ view or inline as part of the conversation and could display different pickers to provide the end user with a selection of choices. See the [Chat Picker topic]({% slug chat-picker-overview %}) for more details.
 - `Typing Indicator`&mdash;Defines the indicator which is shown when one of the chat authors is typing.
 
 ## See Also

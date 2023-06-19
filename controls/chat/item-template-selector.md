@@ -6,11 +6,11 @@ position: 9
 slug: chat-itemtemplate-selector
 ---
 
-# .NET MAUI Chat ItemTemplateSelector
+# .NET MAUI Chat `ItemTemplateSelector`
 
 The `RadChat` control exposes an `ItemTemplateSelector` property which you can use to apply different templates to each Chat item depending on a specific condition.
 
-## Default ItemTemplateSelector
+## Default `ItemTemplateSelector`
 
 Any change in the appearance of the Chat items depends on the `ChatItemTemplateSelector` and the containing templates and referenced styles. The default selector includes separate templates for the incoming and outgoing messages (so they're aligned to the left or right) and for single, first, middle, and last messages (in the case there area a few messages in a row)—this is needed to achieve the "balloon" look & feel of the messages. In addition, the `TimeBreak` template is also assigned through the `ItemTemplateSelector`.
 
@@ -29,7 +29,7 @@ You can apply any changes to the templates and then assign the template selector
 
 <snippet id='chat-features-defaultitemtemplate-xaml' />
 
-## Custom ItemTemplateSelector
+## Custom `ItemTemplateSelector`
 
 You can create a custom `ChatItemTemplateSelector` to conditionally apply different message styles depending on any of the used Chat item properties.
 

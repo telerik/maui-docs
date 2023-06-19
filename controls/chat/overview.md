@@ -8,7 +8,7 @@ slug: chat-overview
 
 # .NET MAUI Conversational UI (Chat) Overview
 
-The Telerik UI for .NET MAUI Chat is a UI component that enables the implementation of conversational UI in .NET MAUI applications. It allows for the utilization of a chatbot framework, following a predefined logical tree, or integrating peer-to-peer chat capabilities.
+The Telerik UI for .NET MAUI Chat is a UI component that enables the implementation of conversational UI in .NET MAUI applications. It allows for use of a chatbot framework, following a predefined logical tree, or integrating peer-to-peer chat capabilities.
 
 ![Chat Overview](images/chat-overview.png)
 
@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI Chat is a UI component that enables the implementat
 
 * [A variety of chat items for great user experience]({%slug chat-items-overview %})&mdash;You can choose between simple text messages, various pickers, such as list view, calendar, date and time pickers, and cards.
 
-* [MVVM Support]({%slug chat-mvvm-support %})&mdash;With the `RadChat` control, you can easily utilize the Model-View-ViewModel pattern. You can achieve this by bounding the `ItemsSource` property to a collection of any data items that will be converted into chat items.
+* [MVVM Support]({%slug chat-mvvm-support %})&mdash;With the `RadChat` control, you can use the Model-View-ViewModel pattern. You can achieve this by bounding the `ItemsSource` property to a collection of any data items that will be converted into chat items.
 
 ## Next Steps
 

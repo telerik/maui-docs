@@ -6,7 +6,7 @@ position: 0
 slug: chat-cardpicker
 ---
 
-# CardPicker Overview
+# `CardPicker` Overview
 
 The `RadChatPicker` control provides a `CardPickerContext` that can be used to display a list of cards. Each card presents more complex information in a user-friendly structured manner and allows the user to interact with it. 
 

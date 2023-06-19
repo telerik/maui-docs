@@ -6,7 +6,7 @@ position: 0
 slug: chat-picker-overview
 ---
 
-# ChatPicker Overview
+# `ChatPicker` Overview
 
 The `RadChat` component offers different pickers allowing you to present the user a selection of choices either as a part of the conversation, or over the messages' view. 
 
