@@ -1,105 +1,107 @@
 ---
 title: Scrolling
 page_title: .NET MAUI TreeView Documentation - Scrolling
-description: "Review te scrolling mechanism TreeView for .NET MAUI provides."
+description: Review the horizontal and vertical scrolling options available in TreeView for .NET MAUI.
 position: 6
 slug: treeview-scrolling
 ---
 
 # Scrolling
 
-You can easily scroll in the Treeview in both directions&mdash;Horizontally and verticaly or coose only one direction. 
+You can enable users to scroll in the TreeView in both directions&mdash;horizontally and vertically&mdash;or choose only one direction. 
 
-## Scrollbars
-
-Treeview provides vertical and horizontal scrolling through its items.
-
-### Vertical scrolling
+## Vertical Scrolling
 
 Configure the vertical scrollbar by using the following properties:
 
-* `VerticalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the vertical scroll bar.
-The available options are: 
-	* `Default`&mdash;The visibility of the scrollbar will be the default for the platform based on the content and orientation.
-	* `Always`&mdash;The scollbar is visible, regardless of the content or orientation.
+* `VerticalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the vertical scrollbar. The available options are: 
+	* `Default`&mdash;Applies the default visibility for the platform based on the content and orientation.
+	* `Always`&mdash;The scrollbar is visible, regardless of the content or orientation.
 	* `Never`&mdash;The scrollbar is not visible.
 
 
-* `VerticalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scroll bar.
-The available options are: 
-	* `Overlay`&mdash;The scroll bars overlay the scrollable content when visible.
-	* `Resize`&mdash;The scroll bars resize the scrollable content when visible.
+* `VerticalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scrollbar. The available options are: 
+	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
+	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
-### Horizontal scrolling
+## Horizontal scrolling
 
 Configure the horizontal scrollbar by using the following properties:
 
-* `HorizontalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the horizontal scroll bar.
+* `HorizontalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the horizontal scrollbar.
 The available options are: 
-	* `Default`&mdash;The visibility of the scrollbar will be the default for the platform based on the content and orientation.
-	* `Always`&mdash;The scollbar is visible, regardless of the content or orientation.
+	* `Default`&mdash;Applies the default visibility for the platform based on the content and orientation.
+	* `Always`&mdash;The scrollbar is visible, regardless of the content or orientation.
 	* `Never`&mdash;The scrollbar is not visible.
 
-* `HorizontalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scroll bar. 
+* `HorizontalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scrollbar. 
 The available options are: 
-	* `Overlay`&mdash;The scroll bars overlay the scrollable content when visible.
-	* `Resize`&mdash;The scroll bars resize the scrollable content when visible.
+	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
+	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
-### Example
+## Example: Configuring Horizontal and Vertical Scrolling
 
-RadTreeView definiton:
+The following example demonstrates how to configure horizontal and vertical scrolling when working with the .NET MAUI TreeView control.
+
+**1.** Define the `RadTreeView` control:
 
 <snippet id='treeview-scrolling'/>
 
-The Location data model:
+**2.** Add the location data model:
 
 <snippet id='treeview-location-model'/>
 
-The Country data model:
+**3.** Add the country data model:
 
 <snippet id='treeview-country-model'/>
 
-The City data model:
+**4.** Add the city data model:
 
 <snippet id='treeview-city-model'/>
 
-The ViewModel:
+**5.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
 
 ## Methods 
 
+The TreeView provides the `ScrollTo` method that allows you to configure the control to display a specific item:
+
 * `ScrollTo`(`object dataItem`)&mdash;Scrolls the visible area of the control so that the specified item is visible. The parameter is `dataItem`&mdash;Specifies the item to scroll to.
 
-RadTreeview definition: 
+The example below demonstrates how to use the `ScrollTo` method.
+
+**1.** Define the `RadTreeview` control: 
 
 <snippet id='treeview-programmatic-scrolling-xaml'/>
 
-ScrollTo executon on button click:
+**2.** Configure the `ScrollTo` executon on button click:
 
 <snippet id='treeview-programmatic-scrolling'/>
 
-The Location data model:
+**3.** Add the location data model:
 
 <snippet id='treeview-location-model'/>
 
-The Country data model:
+**4.** Add the country data model:
 
 <snippet id='treeview-country-model'/>
 
-The City data model:
+**5.** Add the city data model:
 
 <snippet id='treeview-city-model'/>
 
-The ViewModel:
+**6.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
 
 ## Commands
 
+In addition to the `ScrollTo` method, the TreeView exposes the `ScrollToCommand`that allows you to configure the control to display a specific item:
+
 * `ScrollToCommand`(`ICommand`)&mdash;Gets a command that scrolls to an item in the control, which is specified as a parameter.
 
->important For the Treeview Scrolling examples refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) TreeView -> Scrolling category.
+> For a runnable example demonstrating the TreeView scrolling feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Scrolling**.
 
 ## See Also
 
