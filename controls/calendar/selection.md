@@ -25,7 +25,7 @@ The selection modes of the Calendar allow you to determine if the user can selec
 To change the selected date in the .NET MAUI Calendar, use the `SelectedDate` and `SelectedDates` properties:
 
 * `SelectedDate`(`DateTime?`)&mdash;Specifies the currently selected date. When using `Multiple` or `Range` selection, the value of the `SelectedDate` property is set to the first selected date.
-* `SelectedDates`(`readonly ObservableCollection &lt;DateTime &gt;`)&mdash;Gets the collection with the currently selected dates. When the `SelectionMode` is `Single`, only one date is added in the collection.
+* `SelectedDates`(`readonly ObservableCollection<DateTime>`)&mdash;Gets the collection with the currently selected dates. When the `SelectionMode` is `Single`, only one date is added in the collection.
 
 ## Examples
 

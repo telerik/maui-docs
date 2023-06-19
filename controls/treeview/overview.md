@@ -34,6 +34,6 @@ To populate the TreeView, you can use any data source that is hierarchical in na
 ## See Also
 
 - [.NET MAUI TreeView Product Page](https://www.telerik.com/maui-ui/treeview)
-- [.NET MAUI TreeView Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
+- [.NET MAUI TreeView Forum Page](https://www.telerik.com/forums/maui?tagId=2056)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

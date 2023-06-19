@@ -12,12 +12,12 @@ The Telerik UI for .NET MAUI Calendar component exposes a set of events that use
 
 The Calendar for .NET MAUI exposes the [`DisplayDateChanged`](#displaydatechanged) and the [`SelectionChanged`](#selectionchanged) events.
 
-## `DisplayDateChanged`
+## DisplayDateChanged
 
 The `DisplayDateChanged` event is invoked when the current display date is changed. The `DisplayDateChanged` event handler receives two parameters:
 
 * The sender argument, which is of type `object`, but can be cast to the `RadCalendar` type.
-* A `ValueChangedEventArgs&lt;DateTime&gt;` object, which provides both the old and new values of the `DisplayDate` property. The values are of type `DateTime`.
+* A `ValueChangedEventArgs<DateTime>` object, which provides both the old and new values of the `DisplayDate` property. The values are of type `DateTime`.
 
 The following example demonstrates how to use the `DisplayDateChanged` event:
 
@@ -29,7 +29,7 @@ The following example demonstrates how to use the `DisplayDateChanged` event:
 
 <snippet id='calendar-displaydate-changed'/>
 
-## `SelectionChanged`
+## SelectionChanged
 
 The `SelectionChanged` event is invoked when the selection changes. The `SelectionChanged` event handler receives two parameters:
 * The `sender`, which is the `RadCalendar` control.

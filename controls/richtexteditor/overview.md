@@ -40,6 +40,6 @@ The Telerik UI for .NET MAUI RichTextEditor enables users to create rich textual
 ## See Also
 
 - [.NET MAUI RichTextEditor Product Page](https://www.telerik.com/maui-ui/richtexteditor)
-- [.NET MAUI RichTextEditor Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
+- [.NET MAUI RichTextEditor Forum Page](https://www.telerik.com/forums/maui?tagId=2060)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

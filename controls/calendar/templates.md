@@ -2,7 +2,7 @@
 title: Templates
 page_title: .NET MAUI Calendar Documentation - Templates
 description: Learn how to use the Templates ot the Telerik Calendar control for .NET MAUI.
-position: 1
+position: 10
 slug: calendar-templates-overview
 ---
 

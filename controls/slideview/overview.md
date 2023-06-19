@@ -33,6 +33,6 @@ slug: slideview-overview
 ## See Also
 
 - [.NET MAUI SlideView Product Page](https://www.telerik.com/maui-ui/slideview)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/forums/maui?tagId=2058)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 - [Migrate from Xamarin]({%slug migrate-xamarin-slideview-to-maui%})
