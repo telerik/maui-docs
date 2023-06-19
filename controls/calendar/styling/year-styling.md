@@ -10,21 +10,25 @@ slug: calendar-year-styling
 
 Calendar control for .NET MAUI provides the `YearStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the years in the decade view of the calendar.
 
-**Example**
+The following example demonstrates how to style the years with the `YearStyleSelector` property:
 
-Calendar definition:
+**1.** Define the Calendar:
 
 <snippet id='calendar-styleselectors-yearstyleselector-usage'/>
 
-The style selectors defined in page's resources: 
+**2.** The style selectors defined in the page's resources:
 
 <snippet id='calendar-styleselectors-yearstyleselector-definition'/>
 
-The `CustomStyleSelector` class that inherits from `CalendarStyleSelector`
+**3.** Add the `CustomStyleSelector` class that inherits from `CalendarStyleSelector`:
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 
->important For the Calendar Year Style Selector example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Style Selector category.
+>For a runnable example demonstrating how to style the years in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
 
 ## See Also
 
+- [Day Styling]({%slug calendar-day-styling%})
+- [Decade Styling]({%slug calendar-decade-styling%})
+- [Header Styling]({%slug calendar-header-styling%}) 
+- [Month Styling]({%slug calendar-month-styling%})

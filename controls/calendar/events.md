@@ -1,52 +1,57 @@
 ---
 title: Events
 page_title: .NET MAUI Calendar Documentation - Events
-description: Check our &quot;Evenys&quot; documentation article for Telerik Calendar for .NET MAUI control.
+description: Learn about the events that the Telerik UI for .NET MAUI Calendar control exposes and find out how to use them to configure the UI component.
 position: 11
 slug: calendar-events
 ---
 
 # .NET MAUI Calendar Events
 
-Calendar for .NET MAUI exposes the following events:
+The Telerik UI for .NET MAUI Calendar component exposes a set of events that users trigger through interaction. You can handle these events and customize the configuration of the UI component.
 
-* `DisplayDateChanged`event is invoked when the current display date is changed. The `DisplayDateChanged` event handler receives two parameters:
-	* The sender argument which is of type object, but can be cast to the RadCalendar type.
-	* A `ValueChangedEventArgs&lt;DateTime&gt;` object which provides both old and new values of the `DisplayDate` property. The values are of type `DateTime`.
+The Calendar for .NET MAUI exposes the [`DisplayDateChanged`](#displaydatechanged) and the [`SelectionChanged`](#selectionchanged) events.
 
-**Example for `DisplayDateChanged`:**
+## `DisplayDateChanged`
 
-Calendar definition:
+The `DisplayDateChanged` event is invoked when the current display date is changed. The `DisplayDateChanged` event handler receives two parameters:
+
+* The sender argument, which is of type `object`, but can be cast to the `RadCalendar` type.
+* A `ValueChangedEventArgs&lt;DateTime&gt;` object, which provides both the old and new values of the `DisplayDate` property. The values are of type `DateTime`.
+
+The following example demonstrates how to use the `DisplayDateChanged` event:
+
+**1.** Define the Calendar:
 
 <snippet id='calendar-displaydate-event'/>
 
-And the event handler:
+**2.** And the event handler:
 
 <snippet id='calendar-displaydate-changed'/>
 
+## `SelectionChanged`
 
-* `SelectionChanged` event is invoked when selection is performed. The `SelectionChanged` event handler receives two parameters
-	* The `sender` which is the `RadCalendar` control.
-	* `CalendarSelectionChangedEventArgs` provides the following properties:
-		- `RemovedDates`&mdash;The dates that were deselected.
-		- `AddedDates`&mdash;The dates that were selected.
+The `SelectionChanged` event is invoked when the selection changes. The `SelectionChanged` event handler receives two parameters:
+* The `sender`, which is the `RadCalendar` control.
+* The `CalendarSelectionChangedEventArgs` object, which provides the following properties:
+	* `RemovedDates`&mdash;The deselected dates.
+	* `AddedDates`&mdash;The selected dates.
 
-**Example for `SelectionChanged`:**
+The following example demonstrates how to use the `SelectionChanged` event:
 
-Calendar definition:
+**1.** Define the Calendar:
 
 <snippet id='calendar-selection-event'/>
 
-And the event handler:
+**2.** And the event handler:
 
 <snippet id='calendar-selection-changed-event'/>
 
 ## See Also
 
-- [Navigation]({%slug calendar-navigation%})
-- [Display modes]({%slug calendar-display-modes%})
-- [Formatting]({%slug calendar-date-formatting%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
 - [Selection modes]({%slug calendar-selection%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})
