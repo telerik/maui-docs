@@ -1,66 +1,62 @@
 ---
 title: Navigation
 page_title: .NET MAUI Calendar Documentation - Navigation
-description: "Review the navigation options that Telerik Calendar for .NET MAUI control provides."
+description: Learn how to use the navigation options that Telerik UI Calendar for .NET MAUI control provides.
 position: 7
 slug: calendar-navigation
 ---
 
 # .NET MAUI Calendar Navigation
 
-Easily navigate between the different views of the calendaror in the current view through the UI or programatically. This articvles explains all navigation options that the Calendar for .NET MAUI provides.
+You can navigate between the different views of the Calendar programmatically or let the user change the views from the UI.
 
-## Buttons for navigating the current view
+## Navigating through Buttons
 
-The Calendar header has two buttons (previous and next) for navigating in the current view. For example in month view the previus button&mdash;navigates to the previous mont, next button&mdash;navigates to the next month.
+The Calendar header has two buttons (Previous and Next) that allow the user to navigate in the current view. For example, in the Month view, the Previous button navigates to the previous month, and the Next button navigates to the next month.
 
-![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/combobox-header-footer.png)
+![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/calendar-navigation.gif)
 
-## Navigating to upper view - through the UI
+## Navigating to the Parent View
 
-When tapping/clicking on the header label Calendar navigates to upper view.
+The user can interact with the UI and navigate to the parent view by tapping or clicking the header label of the Calendar.
 
-![.NET MAUI Calendar navigation to upperview through the UI](images/calendar-navigation.gif)
+![.NET MAUI Calendar navigation to upper view through the UI](images/calendar-change-display-mode.gif)
 
-## Restrict the navigation to upper or lower view
+## Restricting the Navigation Depth
 
-To restrict the navigation to upper or lower view use the following properties: 
+To restrict the navigation depth to specific parent or child views, use the following properties:
 
-* `MinDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the calendar.
-* `MaxDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the calendar.
+* `MinDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the Calendar.
+* `MaxDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the Calendar.
 
-## Scroll Direction
+## Setting the Scroll Direction
 
-You can scroll the calendar display mode hotrizontally or vertically. 
+The user can scroll between the [display modes]({%slug calendar-display-modes%}) of the Calendar horizontally or vertically. To specify the scroll direction, use the `NavigationDirection` property.
 
-* `NavigationDirection`(enum of type `Telerik.Maui.Orientation`)&mdash;Specifies the scroll direction in the vieew mode of the calendar. The options are `Horizontal` and `Vertical`. Default is `Horizontal`.  
+* `NavigationDirection`(enum of type `Telerik.Maui.Orientation`)&mdash;Specifies the scroll direction in the view mode of the Calendar. The available options are `Horizontal` (default) and `Vertical`. 
 
 <snippet id='calendar-vertical-navigation'/>
 
 ![.NET MAUI Calendar scroll direction](images/calendar-scrolling.gif)
 
-> For the Calendar Navigation example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example with the navigation of the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
-## Interaction Modes
+## Changing the Interaction Mode
 
-Use the `InteractionMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarInteractionMode`) property of the Calendar to decide whether a navigation in the current view can be achieved through gesture. The available options are `None` and `Pan`. Default value is `Pan`.
+Use the `InteractionMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarInteractionMode`) property of the Calendar to determine whether the user can navigate in the current view through gestures. The available options are `None` and `Pan` (default):
 
->important The interaction is in the content part of the calendar. If you set the `InteractionMode` to `None`the users can navigate to next/previous in the current view by using the navigation buttons. 
+* When the `InteractionMode` is `None`, the users can navigate to next or previous view in the current display mode by using the navigation buttons.
+* When the `InteractionMode` is `Pan`, the users can navigate through gestures that target the content area of the Calendar component.
 
-> For the Calendar Interaction Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Features category.
+> For a runnable example with the Calendar interaction mode, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
 ![.NET MAUI Calendar interaction mode](images/calendar-interaction-mode.gif)
 
-## Commands
-
-All commands for navigating to upper and lower view and in the current view are described in the [Calendar Commands]({%slug calendar-commands%}) article. 
-
 ## See Also
 
-- [Display modes]({%slug calendar-display-modes%})
-- [Formatting]({%slug calendar-date-formatting%})
-- [Selection modes]({%slug calendar-selection%}) 
-- [Events]({%slug calendar-events%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
+- [Selection modes]({%slug calendar-selection%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})

@@ -1,12 +1,12 @@
 ---
-title: Indicators
-page_title: .NET MAUI SlideView Documentation - Indicators
+title: Indicator
+page_title: .NET MAUI SlideView Documentation - Indicator
 description: Learn more about the .NET MAUI SlideView indicators and their features.
 position: 6
 slug: slideview-indicators
 ---
 
-# .NET MAUI SlideView Indicators
+# .NET MAUI SlideView Indicator
 
 The SlideViewIndicator is a control that emphasizes changes from the current item to another item in a collection of items. This control also incorporates buttons to enable the end user navigate between the next or previous items.
 

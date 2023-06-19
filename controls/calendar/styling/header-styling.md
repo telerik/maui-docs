@@ -1,62 +1,65 @@
 ---
 title: Header Styling
 page_title: .NET MAUI Calendar Documentation - Header Styling
-description: "Review what are the styling options the Telerik Calendar for .NET MAUI control provides for its header."
+description: Review the styling options that the Telerik UI for .NET MAUI Calendar control provides for its header.
 position: 1
 slug: calendar-header-styling
 ---
 
 # .NET MAUI Calendar Header Styling
 
-The following article explains the styling options for Calendar Header:
+The .NET MAUI Calendar component comes with built-in styling options that allow you to customize the appearance of its header.
 
-## Styling the border of the header and label
+## Styling the Header Border and Label
 
-Style the border around the Calendar Header by using the `HeaderBorderStyle`(of type `Style` with target type `telerik:RadBorder`).
+* To style the border around the Calendar header, use the `HeaderBorderStyle`(of type `Style` with target type `telerik:RadBorder`).
 
-Style the label in the header by using the `HeaderLabelStyle`(of type `Style` with target type `Label`).
+* To style the label in the header, use the `HeaderLabelStyle`(of type `Style` with target type `Label`).
 
-**Example**
+The following example demonstrates how to apply custom styles to the header label and the border around the header:
 
-Calendar definition:
+**1.** Define the Calendar:
 
 <snippet id='calendar-headerlabel-styling'/>
 
-And the style for `HeaderBorderStyle`:
+**2.** Add the `HeaderBorderStyle` style:
 
 <snippet id='calendar-headerborder-style'/>
 
-and for `HeaderLabelStyle`:
+**3.** Add the `HeaderLabelStyle` style:
 
 <snippet id='calendar-headerlabel-style'/>
 
-![.NET MAUI Calendar Header Style](images/combobox-drop-down-style.png)
+![.NET MAUI Calendar Header Style](images/calendar-header-style.png)
 
-> For the Calendar Header Buttons Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Styling category.
+> For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 
-## Styling the navigation buttons
+## Styling the Navigation Buttons
 
-Style the navigation buttons by using the following properties:
+To style the navigation buttons in the header of the Calendar, use the following properties:
 
-* `NavigateToPreviousViewButtonStyle`(of type `Style` with target type `Button`)&mdash;Specifies the style for button in the header that navigates to the previous view.
-* `NavigateToNextViewButtonStyle`(of type `Style` with target type `Button`)&mdash;Specifies the style for button in the header that navigates to the next view.
+* `NavigateToPreviousViewButtonStyle`(of type `Style` with target type `Button`)&mdash;Specifies the style for the button in the header that navigates to the previous view.
+* `NavigateToNextViewButtonStyle`(of type `Style` with target type `Button`)&mdash;Specifies the style for the button in the header that navigates to the next view.
 
-**Example**
+The following example demonstrates how to apply custom styles to the navigation buttons:
 
-Calendar definition:
+**1.** Define the Calendar:
 
 <snippet id='calendar-headerbuttons-styling'/>
 
-And the style for `NavigateToPreviousViewButtonStyle`:
+**2.** Add the `NavigateToPreviousViewButtonStyle` style:
 
 <snippet id='calendar-navigatetopreviousbutton-style'/>
 
-and for `NavigateToNextViewButtonStyle`:
+**3.** Add the `NavigateToNextViewButtonStyle` style:
 
-<snippet id='calendar-navigatetonextbutton-style'/>
+![.NET MAUI Calendar Navigation buttons Style](images/calendar-buttons-style.png)
 
-![.NET MAUI Calendar Navigation buttons Style](images/combobox-drop-down-style.png)
-
-> For the Calendar Header Buttons Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to Calendar -> Styling category.
+> For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 
 ## See Also
+
+- [Day Styling]({%slug calendar-day-styling%})
+- [Decade Styling]({%slug calendar-decade-styling%})
+- [Month Styling]({%slug calendar-month-styling%})
+- [Year Styling]({%slug calendar-year-styling%})

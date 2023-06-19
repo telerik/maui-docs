@@ -22,6 +22,8 @@ The selected mode is applied through `CommitMode`(of type`Telerik.Maui.Controls.
 * `LostFocus`&mdash;The changes are committed after the editor loses focus.
 * `PropertyChanged`&mdash;The changes in the editor are committed immediately on each property change (when the property value changes).
 
+>important When `CommitMode` is set to `LostFocus`, you have to set `ValidatonMode` to `LostFocus` or `Explicit`.
+
 The `CommitMode` can be applied globally to the RadDataForm 
 
 ```XAML
@@ -29,14 +31,6 @@ The `CommitMode` can be applied globally to the RadDataForm
                      CommitMode="LostFocus"/>
 ```
 
-or to each editor. 
-
-```XAML
-<telerik:RadDataForm x:Name="dataForm" AutoGenerateItems="False">
-    <telerik:DataFormTextEntry PropertyName="FirstName" HeaderText="Name" CommitMode="LostFocus"/>
-    <telerik:DataFormNumericEditor PropertyName="People" HeaderText="People" Minimum="1" CommitMode="PropertyChanged"/>
-</telerik:RadDataForm>
-```
 
 ## Properties
 
@@ -48,12 +42,12 @@ or to each editor.
 
 **DataForm exposes a `CommitChanges` method with two overloads:**
 
-* `CommitChanges()`&mdash; Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to `Explicit`.
+* `CommitChanges()`&mdash;Commits all pending changes in the RadDataForm to the underlying business object. This method is mostly useful when the `CommitMode` is set to `Explicit`.
 The method returns `true` if the validation passes, otherwise `false`.
 
 <snippet id='dataform-commit-changes'/>
 
-* `CommitChanges(string propertyName)`&mdash; Commit the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
+* `CommitChanges(string propertyName)`&mdash;Commit the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`. `True` if the validation passes, `false` otherwise.
 
 <snippet id='dataform-commit-changes-on-property'/>
 
@@ -65,7 +59,7 @@ The method returns `true` if the validation passes, otherwise `false`.
 this.dataForm.CancelChanges();
 ```
 
-* `CancelChanges(string propertyName)`&mdash; Cancels the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
+* `CancelChanges(string propertyName)`&mdash;Cancels the pending changes in the editor for the specified property. This method is mostly useful when the DataForm `CommitMode` property is set to `Explicit`.
 
 <snippet id='dataform-cancelchanges-on-property'/>
 

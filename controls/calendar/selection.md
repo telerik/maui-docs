@@ -1,101 +1,112 @@
 ---
 title: Selection
 page_title: .NET MAUI Calendar Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik Calendar for .NET MAUI control.
+description: Discover the selection types provided by the Telerik UI for .NET MAUI Calendar control, and learn how to configure them.
 position: 6
 slug: calendar-selection
 ---
 
 # .NET MAUI Calendar Selection
 
-Calendar for .NET MAUI provides three different types of selection: Single, Multiple and Range. The selected dates can be changed programmatically or when the user taps on a calendar cell.
+Calendar for .NET MAUI provides three different types of selection: Single, Multiple, and Range. The selected dates can be changed programmatically or by tapping a calendar cell.
 
-## Main Properties
+## Changing the Selection Mode
 
-* `SelectionMode` (enumeration of type `Telerik.Maui.Controls.Calendar.CalendarSelectionMode`)&mdash;Sppecifies what is the selection applied to the calendar control. You can choose one of the following options:
-	* `None`&mdash;Selection is disabled, so you cannot select any dates in the calendar.
-	* (Default `SelectionMode`)`Single`&mdash;Select a single date. When tapping/clicking on a date cell, it becomes selected. If another date cell has already been selected it is unselected;
-	* `Multiple`&mdash;Select multiple dates. Tapped/clicked on each date cell, changes its selected state. When a date cell is tapped for first time it is added to the current selection and when it is tapped again it is removed from the selection.
-	* `Range`&mdash;Allows the users to pick a range of consecutive dates. The first date cell that is tapped gets selected and is considered start of the range. When another cell is tapped, it is considered end of the range and all dates between the start and the end of the range become selected.
+The selection modes of the Calendar allow you to determine if the user can select a single date, date span, multiple dates, or to disable date selection. To change the selection mode, use the `SelectionMode` class:
 
+* `SelectionMode` (enumeration of type `Telerik.Maui.Controls.Calendar.CalendarSelectionMode`)&mdash;Specifies the selection applied to the Calendar control. You can choose one of the following options:
+	* `None`&mdash;Selection is disabled and the user cannot select any dates in the Calendar.
+	* `Single` (Default)&mdash;Allows the selection of a single date. When tapping or clicking on a date cell, it becomes selected. Any previously selected cell is deselected.
+	* `Multiple`&mdash;Allows the selection of multiple dates. Tapping or clicking each date cell changes its selection state. The first tap or click adds the target date cell to the current selection, and a subsequent tap or click removes the target cell from the selection.
+	* `Range`&mdash;Allows the users to pick a range of consecutive dates. The first date cell that is tapped gets selected and becomes the start of the range. The next cell that is tapped becomes the end of the range. All dates between the range start the end become selected.
 
-* `SelectedDate`(`DateTime?`)&mdash;Specifies the currently selected date. When `Multiple` or `Range` selection is enabled, this value is set to the first selected date.
-* `SelectedDates`(`readonly ObservableCollection &lt;DateTime &gt;`)&mdash;Gets the collection with the currently selected dates. When the `SelectionMode` is `Single`, only one date is added in the collection.
+## Changing the Selected Date
 
-**Example for SelectedDates**
+To change the selected date in the .NET MAUI Calendar, use the `SelectedDate` and `SelectedDates` properties:
 
-Calendar definition:
+* `SelectedDate`(`DateTime?`)&mdash;Specifies the currently selected date. When using `Multiple` or `Range` selection, the value of the `SelectedDate` property is set to the first selected date.
+* `SelectedDates`(`readonly ObservableCollection<DateTime>`)&mdash;Gets the collection with the currently selected dates. When the `SelectionMode` is `Single`, only one date is added in the collection.
+
+## Examples
+
+The examples below demonstrate how to set the [selected dates](#selected-dates-example), apply Single, Multiple, and Range selection.
+
+### Selected Dates Example
+
+**1.** Define the .NET MAUI Calendar:
 
 <snippet id='calendar-selection-properties'/>
 
-The ViewModel:
+**2.** Declare the ViewModel:
 
 <snippet id='calendar-selection-viewmodel'/>
 
 The image below shows the result:
 
-![.NET MAUI Calendar SelectedDates](images/calendar-selected-dates-all.png)
+![.NET MAUI Calendar Selected Dates](images/calendar-selected-dates.png)
 
-**Example with Single selection**
+### Single Selection Example
 
-The default `SelectinMode` of the .NET MAUI Calendar control.
+Define a .NET MAUI Calendar with `SelectionMode="Single"`:
 
 <snippet id='calendar-single-selection'/>
 
-This is how single selection looks:
+The image below shows how single selection looks:
 
 ![.NET MAUI Calendar Single Selection](images/calendar-single-selection-all.png)
 
-**Example with Multiple selection**
+### Multiple Selection Example
+
+Define a .NET MAUI Calendar with `SelectionMode="Multiple"`:
 
 <snippet id='calendar-multiple-selection'/>
 
-This is how multiple selection looks: 
+The image below shows how multiple selection looks:
 
 ![.NET MAUI Calendar Multiple Selection](images/calendar-multiple-selection.png)
 
-**Example with Range selection**
+### Range Selection Example
 
-Here is the Calendar definition in XAML:
+Define a .NET MAUI Calendar with `SelectionMode="Range"`:
 
 <snippet id='calendar-range-selection'/>
 
-This is how range selection looks: 
+The image below shows how range selection looks: 
 
 ![.NET MAUI Calendar Range Selection](images/calendar-range-selection.png)
 
-**Example with disabled selection**
+### Disabled Selection Example
 
-Here is the Calendar definition in XAML:
+Define a .NET MAUI Calendar with `SelectionMode="None"`:
 
 <snippet id='calendar-disabled-selection'/>
 
->importantin For the Calendar Selection example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Selection category.
+> For a runnable example demonstrating the selection in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Selection** category.
 
-## Events
+## Selection Change Events
 
-Calendar exposes a `SelectionChanged` event which is invoked when selection is performed. The `SelectionChanged` event handler receives two parameters
-	* The `sender` which is the `RadCalendar` control.
-	* `CalendarSelectionChangedEventArgs` provides the following properties:
-	- `RemovedDates`&mdash;the dates that were deselected.
-	- `AddedDates`&mdash;the dates that were selected.
+The Calendar exposes a `SelectionChanged` event which is invoked when performing selection. The `SelectionChanged` event handler receives two parameters:
 
-**Example for `SelectionChanged`**
+* The `sender` parameter, which is the `RadCalendar` control.
+* The `CalendarSelectionChangedEventArgs` parameter, which provides the following properties:
+	* `RemovedDates`&mdash;The deselected dates.
+	* `AddedDates`&mdash;The selected dates.
 
-Calendar definition:
+The following example demonstrates how to use the `SelectionChanged` event:
+
+**1.** Define a .NET MAUI Calendar:
 
 <snippet id='calendar-selection-event'/>
 
-And the event handler:
+**2.** Add the event handler:
 
 <snippet id='calendar-selection-changed-event'/>
 
 ## See Also
 
-- [Navigation]({%slug calendar-navigation%})
-- [Display modes]({%slug calendar-display-modes%})
-- [Formatting]({%slug calendar-date-formatting%})
-- [Events]({%slug calendar-events%})
-- [Commands]({%slug calendar-commands%})
-- [Templates]({%slug calendar-templates-overview%})
-- [Styling]({%slug calendar-header-styling%})
+- [Navigation Between the Different Views]({%slug calendar-navigation%})
+- [Specify the Formatting]({%slug calendar-date-formatting%})
+- [Selection modes]({%slug calendar-selection%})
+- [Use the exposed Commands]({%slug calendar-commands%})
+- [Define Templates]({%slug calendar-templates-overview%})
+- [Calendar Header Styling]({%slug calendar-header-styling%})

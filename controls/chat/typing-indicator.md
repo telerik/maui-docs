@@ -8,44 +8,36 @@ slug: chat-typing-indicator
 
 # .NET MAUI Chat Typing Indicator
 
-The `TypingIndicator` functionality of RadChat can be used to indicate that a participant (or participants) is currently typing.
+The `TypingIndicator` functionality of the `RadChat` component allows you to indicate that other Chat participants are currently typing.
 
-By default, the `TypingIndicator` is not visible. As soon as its `Authors` (or ItemsSource) collection is updated, it is displayed with a text message indicating the authors' names. It can also be displayed explicitly by setting the `IsTyping` and/or `IsVisible` properties to `true`.
+By default, the `TypingIndicator` is not visible. As soon as its `Authors` (or `ItemsSource`) collection is updated, it is displayed with a text message indicating the authors' names. It can also be displayed explicitly by setting the `IsTyping` and/or `IsVisible` properties to `true`.
 
 The text message is built according to the count of authors like this:
 
-* If the collection of Authors contains 1 item: "[Author name] is typing";
-* If there are two authors: "[Author1 name] and [Author2 name] are typing";
-* In case of three authors: "[Author1 name], [Author2 name] and [Author3 name] are typing";
-* In case of more authors: "[Author1 name], [Author2 name] and 2 others are typing";
+* If the collection of `Authors` contains 1 item: "[Author name] is typing";
+* If the authors are two: "[Author 1 name] and [Author 2 name] are typing";
+* If the authors are three: "[Author 1 name], [Author 2 name] and [Author 3 name] are typing";
+* If the authors are four or more: "[Author 1 name], [Author 2 name] and 2 others are typing";
 
-When the Authors (or `ItemsSource`) collection is cleared, the `TypingIndicator` is hidden.
+When the `Authors` (or `ItemsSource`) collection is cleared, the `TypingIndicator` is hidden.
 
-In addition, by setting the `Text` property of the indicator, the text message could be replaced with any other of your choice.
+In addition, by setting the `Text` property of the indicator, the text message can be replaced with any other of your choice.
 
-#### Adding a TypingIndicator
+## Adding a Typing Indicator
 
-To add a typing indicator, just set the `TypingIndicator` property of the RadChat control:
+To add a typing indicator, set the `TypingIndicator` property of the `RadChat` control:
 
 <snippet id='chat-typingindicator-xaml' />
 	
-There are then two ways to display the typing indicator:
-
-#### Using the Authors collection:
-
-You can use directly `Authors` collection which is of type `ObservableCollection<Author>` to show the participants who are currently typing. Here is a quick example:
+To display the typing indicator, use the `Authors` collection. You can use the `Authors` collection, which is of type `ObservableCollection<Author>` to show the participants who are currently typing. Here is a quick example:
 
 <snippet id='chat-typingindicator-authors-code' />
 
-And the result is:
+The following images shows the results from the example above:
 
-#### Figure 1: RadChat with typing indicator
+>caption `RadChat` with a typing indicator
 
-![RadChat with typing indicator](images/)
-
-#### Using ItemsSource collection:
-
-
+![RadChat with typing indicator](images/chat-typing-indicator.png)
 
 ## See Also
 

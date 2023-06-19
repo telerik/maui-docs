@@ -8,9 +8,9 @@ slug: pdfviewer-migrate-from-xamarin
 
 # Migrate from Xamarin.Forms PDF Viewer to .NET MAUI PDF Viewer
 
-Compared API changes in Xamarin.Forms PDF Viewer and .NET MAUI PDF Viewer are described in the tables below:
+The tables below compare the API changes between the Xamarin.Forms PDF Viewer and .NET MAUI PDF Viewer.
 
-## Migrate the Namespaces
+## Namespace Changes
 
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |

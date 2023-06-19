@@ -17,7 +17,7 @@ SideDrawer exposes the following events
 
 where the event handlers listed above recieves two parameters
 
-* `sender`&mdash;which is of type object, but can be cast to the RadSideDrawer type.
+* `sender`&mdash;Which is of type object, but can be cast to the RadSideDrawer type.
 * `EventArgs`
 
 ## See Also

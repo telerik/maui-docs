@@ -1,37 +1,46 @@
 ---
 title: CheckBox Elements
 page_title: .NET MAUI TreeView Documentation - CheckBox Elements
-description: "Review the checkbox elements in the Treeview for .NET MAUI."
+description: Discover the CheckBox elements in the TreeView for .NET MAUI control and learn how to use and configure them.
 position: 3
 slug: treeview-checkboxes
 ---
 
-# CheckBox elements
+# Checkbox Elements
 
-Telerik TreeView for .NET MAUI supports showing CheckBox elements and checking specific items from its ItemsSource. The checked items are added to the CheckedItems property of the control. You can also control the Visibility of the CheckBox elements as well as their state propagation.
+The TreeView for .NET MAUI allows you to show checkbox elements and check specific items from its `ItemsSource`. The checked items are added to the `CheckedItems` property of the control. You can also control the visibility of the checkbox elements as well as their state propagation.
 
-## CheckBox State Propagation
+## Checkbox State Propagation
 
-You can control the state propagation by setting the `CheckBoxMode` property(enum of type `Telerik.Maui.Controls.TreeView.TreeViewCheckBoxMode`). The `TreeViewCheckBoxMode` enum consists of the following values:
+You can control the state propagation by setting the `CheckBoxMode` property (enum of type `Telerik.Maui.Controls.TreeView.TreeViewCheckBoxMode`). The `TreeViewCheckBoxMode` enum consists of the following values:
 
-* (Default value)`None`&mdash;Specifies that no check boxes are displayed in the control.
-* `Independent`&mdash;Specifies that the check boxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children..
-* `Recursive`&mdash;Specifies that the check boxes are checked and unchecked recursively. The checked state of the parent item is propagated to its children.
+* `None`(default)&mdash;Specifies that no checkboxes are displayed in the control.
+* `Independent`&mdash;Specifies that the checkboxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children.
 
->importnat In order to display checkboxes in the TreeView item you have to set the `CheckBoxMode` to `Independent` or `Recursive`.
+   ![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.gif)
 
-## CheckedItems collection
+* `Recursive`&mdash;Specifies that the checkboxes are checked and unchecked recursively. The checked state of the parent item is propagated to its children.
 
-The control exposes a collection&mdash;`CheckedItems` collection(`IList`). The collection holds the items that are currently checked.
+   ![.NET MAUI TreeView Recursive Mode](images/treeview-recursive-mode.gif)
 
-## Programmatically check uncheck all items
+> To display checkboxes in the TreeView item, set the `CheckBoxMode` to `Independent` or `Recursive`.
 
-The TreeView exposes two methods to programmatically check or uncheck all items:
+## Checked Items Collection
+
+The control exposes a `CheckedItems` collection (`IList`). The collection holds the items that are currently checked.
+
+## Programmatically Check or Uncheck All Items
+
+The TreeView exposes two methods that enable you to programmatically check or uncheck all items:
 
 * `CheckAll()`&mdash;Checks all items in the control.
 * `UnCheckAll()`&mdash;Unchecks all items in the control.
 
 ## See Also
 
-* [Commands]({%slug treeview-commands%})
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Scrolling options]({%slug treeview-scrolling%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
+* [Events]({%slug treeview-events%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

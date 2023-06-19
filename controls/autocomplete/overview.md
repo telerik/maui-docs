@@ -25,7 +25,7 @@ slug: autocomplete-overview
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to hide the view with the suggestions.
 * [Highlight customization]({%slug autocomplete-styling%}#hightlight-customization)&mdash;You can customize the highlight color of the suggestion items.
 * [Nested properties support]()&mdash;This allows binding of a complex object to the TextSearchPath property. 
-* [Styling options]({%slug autocomplete-styling%})&mdash;for changing the control's border brush and thickness, font options, suggestion item highlight text color and more
+* [Styling options]({%slug autocomplete-styling%})&mdash;For changing the control's border brush and thickness, font options, suggestion item highlight text color and more
 
 
 # Next Steps

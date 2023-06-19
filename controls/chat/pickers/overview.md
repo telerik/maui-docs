@@ -6,54 +6,48 @@ position: 0
 slug: chat-picker-overview
 ---
 
-# ChatPicker Overview
+# `ChatPicker` Overview
 
-`RadChat` offers different pickers to present the user a selection of choices either as part of the conversation, or over the messages' view. 
+The `RadChat` component offers different pickers allowing you to present the user a selection of choices either as a part of the conversation, or over the messages' view. 
 
 Depending on the information that is presented and the choice that should be made, the pickers can be one of the types listed below. 
 
-* `DatePicker`&mdash;For displaying a calendar to choose a date
-* `TimePicker`&mdash;For displaying a clock view to choose a time
-* `ItemPicker`&mdash;For presenting a list of suggestions the end user could choose from
-* `CardPicker`&mdash;For presenting a list of cards with structured layout
+* `DatePicker`&mdash;Displays a Calendar to choose a date.
+* `TimePicker`&mdash;Displays a clock view to choose a time.
+* `ItemPicker`&mdash;Displays a list of suggestions the end user could choose from.
+* `CardPicker`&mdash;Displays a list of cards with structured layout.
 
-Each of these pickers is part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc.
+Each of these pickers is a part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc.
  
-`RadChatPicker` can be used in three different ways:
+You can use `RadChatPicker` in three different ways:
 
-* [Inline as part of the conversation](#inline-as-part-of-the-conversation) – through a PickerItem added to the Chat’s Items collection.
-* [Inside the Chat but not part of the conversation](#inside-the-chat-but-not-part-of-the-conversation) - the picker is placed between the entry and the conversation; implemented through the RadChat’s Picker property.
-* As a separate ChatPicker control - shown outside the RadChat control.
+* [Inline as a part of the conversation](#inline-as-part-of-the-conversation)–Through a `PickerItem` added to the Chat’s Items collection.
+* [Inside the Chat but not as a part of the conversation](#inside-the-chat---not-part-of-the-conversation)–The picker is placed between the entry and the conversation–implemented through the Chat’s Picker property.
+* As a separate Chat Picker control–Shown outside the `RadChat` control.
 
-### Inline as part of the conversation
+### Inline as Part of the Conversation
 
-In this case you would need to create an item of type `PickerItem` that actually derives from the `ChatItem`, set its `Context` and add it to the `Items` collection of the Chat. Here is a quick example:
+In this case, you need to create an item of type `PickerItem` that derives from the `ChatItem`. Set its `Context`, and add it to the `Items` collection of the Chat.
+
+The following example demonstrates how to use the `RadChatPicker` inline as a part of the conversation:
 
 <snippet id='chat-chatpicker-datepicker' />
 	
-When the user makes a selection, you can add a new TextMessage with the SelectedDate and remove the PickerItem from the conversation.
+When the user makes a selection, you can add a new `TextMessage` with the `SelectedDate` and remove the `PickerItem` from the conversation.
 
-#### Figure 1: RadChat with an inline DatePicker
+### Inside the Chat - Not Part of the Conversation
 
-![](images/)
-
-### Inside the Chat but not part of the conversation
-
-If you choose this approach you would need to create a `RadChatPicker` instance and set it to the `Picker` property of the Chat:
+If you choose this approach, you need to create a `RadChatPicker` instance and set it to the `Picker` property of the Chat:
 
 <snippet id='chat-pickeroverlay-xaml' />
 
-Then, when you need to display any of the available pickers, you will have to set the Context property of the ChatPicker. Check the example below with DatePickerContext:
+Then, when you need to display any of the available pickers, you set the `Context` property of the `ChatPicker`. The next example shows how to achieve this with `DatePickerContext`:
 
 <snippet id='chat-chatpicker-overlay-code' />
 			
-When the user chooses a date, the Context is reset to `null` and a new `TextMessage` with the `SelectedDate` can be added to the conversation. The `IsVisible` property of the picker can also be set to `false`.
+When the user selects a date, the `Context` is reset to `null` and a new `TextMessage` with the `SelectedDate` can be added to the conversation. The `IsVisible` property of the picker can also be set to `false`.
 
-#### Figure 2: RadChat with DatePicker between the entry and the conversation
-
-![](images/)
-
-In the example above, `RadChatPicker` is used for immediate selection by setting its `IsOkButtonVisible` and `IsCancelButtonVisible` to false. You could also show Ok and Cancel buttons and use the provided events/commands in order to handle the selection.
+In the example above, `RadChatPicker` is used for immediate selection by setting its `IsOkButtonVisible` and `IsCancelButtonVisible` to false. You can also show **OK** and **Cancel** buttons and use the provided events/commands to handle the selection.
 	
 ## See Also
 

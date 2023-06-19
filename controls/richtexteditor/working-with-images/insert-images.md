@@ -1,24 +1,24 @@
 ---
-title: Toolbar Items for Insert and Edit Images
-page_title: Xamarin RichTextEditor Documentation | Insert and Edit Images
-description: Check our &quot;Insert Edit Images&quot; documentation article for Telerik RichTextEditor for Xamarin control.
+title: Insert and Edit Images
+page_title: .NET MAUI RichTextEditor Documentation - Insert and Edit Images
+description: Check our &quot;Insert Edit Images&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
 position: 2
 slug: richtexteditor-insert-images
 ---
 
 # Toolbar Items for Working With Images
 
-In this article we will review the built-in toolbar items for insert and edit images.
+This article describes the built-in toolbar items for insert and edit images.
 
 ## Insert Images
 
 Use the following toolbar items for adding/instering an image in the editor. 
 
-* `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image - the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
+* `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image; the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
 * `RichTextEditorAddOrEditImageToolbarItem`&mdash;Adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
 * `RichTextEditorImageNavigationToolbarItem`&mdash;Adds images or navigates to additional toolbar items depending whether image is selected. If image is selected, the editor navigates to image operation toolbar items. If image is not selected the `PickImage` event fires.
 
-## AdditionalToolbar items for image operations
+## Additional Toolbar Items for Image Operations
 
 The `RichTextEditorImageNavigationToolbarItem` has the following items: 
 
@@ -30,7 +30,7 @@ The `RichTextEditorImageNavigationToolbarItem` has the following items:
 
 How the editing toolbar looks when image is selected: 
 
-![RichTextEditor AddImage](../images/rte-edit-image-toolbar-items.png)
+![RichTextEditor AddImage](../images/rte-image-operation-toolbar-items.png)
 
 ## Edit Image ToolbarItem
 
@@ -51,13 +51,13 @@ How the editing toolbar looks when image is selected:
 | `OkButtonText` | Defines the text for Ok button. Default value `Ok` |
 | `CancelButtonText` | Defines the text for Cancel button. Default value: `Cancel` |
 
-![RichTextEditor AddImage](../images/edit-image-popup.png)
+![RichTextEditor AddImage](../images/rte-edit-image-dialog.png)
 
 ## ImagePickerToolbar Item
 
 * `RichTextEditorImagePickerToolbarItem`(`Telerik.Maui.Controls.RichTextEditor.RichTextEditorListPickerButtonToolbarItem`)&mdash;Allows you to pick an image from a collection of pre-defined images.
 
-![RichTextEditor ImagePicker Toolbar](../images/imagepicker-toolbar-item.png)
+![RichTextEditor ImagePicker Toolbar](../images/rte-custom-image-picker.png)
 
 ### Example
 

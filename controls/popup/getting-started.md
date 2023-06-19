@@ -29,7 +29,7 @@ Before adding the Popup, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a Popup control to your page.
 
-	For demonstration purposes, the current scenario demonstrates how to add a sample Popup attached to a Button control. The purpose of the Popup here is to receive user input&mdash;it contains the Entry control for allowing the user to enter a comment and a button for closing the popup.
+	For demonstration purposes, the current scenario demonstrates how to add a sample Popup attached to a Button control. The purpose of the Popup here is to receive user input&mdash;It contains the Entry control for allowing the user to enter a comment and a button for closing the popup.
 
  <snippet id='popup-getting-started-xaml' />
 

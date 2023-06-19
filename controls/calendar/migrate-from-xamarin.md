@@ -1,22 +1,22 @@
 ---
 title: Migrating from Xamarin
 page_title: .NET MAUI Calendar Documentation - Migrate from Xamarin
-description: "Learn how to migrate from Xamarin.Forms Calendar to .NET MAUI Calendar control."
+description: Learn how to migrate you application from the Xamarin.Forms Calendar to the .NET MAUI Calendar control.
 position: 20
 slug: calendar-migrate-from-xamarin
 ---
 
 # Migrate from Xamarin.Forms Calendar to .NET MAUI Calendar
 
-Overall, Telerik .NET MAUI Calendar control is a complete new control with new API and improvements. 
+The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
 
-In Telerik UI for Xamarin the Calendar control has also a scheduling, while in Telerik .NET MAUI Calendar and Scheduler are separate controls. The Scheduler is with status planned. 
+In Telerik UI for Xamarin, the Calendar also includes scheduling, while the Telerik UI for .NET MAUI Calendar and Scheduler are different controls. As of today, the development of the Scheduler is planned. 
 
->note The Telerik .NET MAUI Calendar control provides selection and does not manage apointments like the Telerik Xmaarin Calendar does. The appointments will be part of the Telerik .NET MAUI Scheduler control.  
+>note The Telerik UI for .NET MAUI Calendar control provides selection and does not manage appointments like the Telerik Xamarin Calendar does. The appointments will be part of the Telerik .NET MAUI Scheduler control.  
 
-Compare API changes in Xamarin.Forms Calendar and .NET MAUI Calendar are described in the tables below:
+The tables in the following sections list the differences between the APIs of the Xamarin.Forms Calendar and .NET MAUI Calendar.
 
-## Migrate the Namespaces
+## Namespaces Differences
 
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |

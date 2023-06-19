@@ -8,11 +8,11 @@ slug: chat-commands
 
 # .NET MAUI Chat Commands
 
-Telerik UI for .NET MAUI RadChat allows you to attach commands that will be executed when certain actions such as SendMessage occur.
+The Telerik UI for .NET MAUI Chat allows you to attach commands that will be executed when certain actions such as `SendMessage` occur.
 
 ## Chat Commands
 
-Take advantage of the `SendMessageCommand` that is triggered when the send-message button is clicked or when the user presses the **Enter** key (on desktop). The command is raised before the Chat auto-creates a ChatItem and adds it to the Items collection.
+Take advantage of the `SendMessageCommand` that is triggered when the send-message button is clicked or when the user presses the `Enter` key on desktop platforms. The command is raised before the Chat auto-creates a `ChatItem` and adds it to the `Items` collection.
 
 Here is an example on how to define a command in the ViewModel and bind the `SendMessageCommand` to it:
 
@@ -20,7 +20,7 @@ Here is an example on how to define a command in the ViewModel and bind the `Sen
 
 <snippet id='chat-commands-executemethod' />
 
-**2.** Define the RadChat component:
+**2.** Define the `RadChat` component:
 
 <snippet id='chat-commands-xaml' />
 
@@ -31,3 +31,4 @@ Here is an example on how to define a command in the ViewModel and bind the `Sen
 ## See Also
 
 - [MVVM Support]({% slug chat-mvvm-support%})
+- [Chat Items]({%slug chat-items-overview %})

@@ -11,8 +11,8 @@ slug: autocomplete-events
 AutoComplete for .NET MAUI exposes the following events:
 
 * `TextChanged`&mdash;Occurs when the text is changed. The TextChanged event handler receives a `TextChangedEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
-	* `NewTextValue`(`string`)&mdash;which gets the new text value.
-	* `OldTextValue`(`string`)&mdash;that gets the old text value.
+	* `NewTextValue`(`string`)&mdash;Which gets the new text value.
+	* `OldTextValue`(`string`)&mdash;That gets the old text value.
 	
 >important You can find a working demo labeled **Remote Search** in the AutoComplete/Features folder of the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

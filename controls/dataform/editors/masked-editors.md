@@ -10,10 +10,10 @@ slug: dataform-masked-editors
 
 You can use the following Masked Editors the DataForm provides:
 
-* `DataFormRadTextMaskedEditor`&mdash;of type [`RadTextMaskedEntry`]({%slug maskedentry-text-mask%})
-* `DataFormRadNumericMaskedEditor` &mdash;of type [`RadNumericMaskedEntry`]({%slug maskedentry-numeric-mask%})
-* `DataFormRadEmailMaskedEditor` &mdash;of type [`RadEmailMaskedEntry`]({%slug maskedentry-email-mask%})
-* `DataFormRadRegexMaskedEditor` &mdash;of type [`RadRegexMaskedEntry`]({%slug maskedentry-regex-mask%})
+* `DataFormRadTextMaskedEditor`&mdash;Of type [`RadTextMaskedEntry`]({%slug maskedentry-text-mask%})
+* `DataFormRadNumericMaskedEditor` &mdash;Of type [`RadNumericMaskedEntry`]({%slug maskedentry-numeric-mask%})
+* `DataFormRadEmailMaskedEditor` &mdash;Of type [`RadEmailMaskedEntry`]({%slug maskedentry-email-mask%})
+* `DataFormRadRegexMaskedEditor` &mdash;Of type [`RadRegexMaskedEntry`]({%slug maskedentry-regex-mask%})
 
 Each Masked Editor has `Mask` and `Culture` `Placeholder` properties.
 

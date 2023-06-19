@@ -12,11 +12,11 @@ The `DataGrid` control provides the ability to specify a template when the Items
 
 It exposes the following properties:
 
-* `EmptyContentTemplate`(`DataTemplate`)&mdash;defines the content of the view which is shown when there are no items.
+* `EmptyContentTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when there are no items.
 
-* `EmptyContentDisplayMode`&mdash;defines the modes for displaying empty content. The property have two modes:
-       - `ItemsSourceNull`&mdash;displays the empty content view only when the ItemsSource is null.
-       - `ItemsSourceNullOrEmpty`&mdash;displays the empty content view when ItemsSource is null or when the source is empty(has zero items).
+* `EmptyContentDisplayMode`&mdash;Defines the modes for displaying empty content. The property have two modes:
+       - `ItemsSourceNull`&mdash;Displays the empty content view only when the ItemsSource is null.
+       - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when ItemsSource is null or when the source is empty(has zero items).
 
 
 ## Example:

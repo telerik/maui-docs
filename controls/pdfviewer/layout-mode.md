@@ -8,26 +8,24 @@ slug: pdfviewer-layout-modes
 
 ## Layout Modes
 
-You could easily set one of the two layout modes that the control provides through its `LayoutMode` property.
+The Telerik UI for .NET MAUI PDF Viewer supports two layout modes that you can set through its `LayoutMode` property.
 
 The available options are:
 
-* `ContinuousScroll`&mdash;Displays pages in a continuous vertical column.
+* `ContinuousScroll` (default)&mdash;Displays pages in a continuous vertical column.
 * `SinglePage`&mdash;Displays one page at a time.
 
->note By default the PDF Viewer LayoutMode property is set to `ContinuousScroll`.
+The current `LayoutMode` can be changed through the `ToggleLayoutModeCommand` and the `ToggleLayoutModeToolbarItem` [`RadPdfViewer` commands]({%slug pdfviewer-commands%}).
 
->tip The RadPdfViewer LayoutMode could be triggered through the `ToggleLayoutModeCommand` and the `ToggleLayoutModeToolbarItem`.
-
-Here is how the PdfViewer looks when `LayoutMode` is set to `ContinuousScroll`:
+Here is how the PDF Viewer looks when the `LayoutMode` is set to `ContinuousScroll`:
 
 ![.NET MAUI PDF Viewer ContinuousScroll](images/pdf-continousscroll.png "PdfViewer ContinuousScroll")
 
-And when the `LayoutMode` property is set to `SinglePage`:
+The next image shows the PDF Viewer when the `LayoutMode` property is set to `SinglePage`:
 
 ![.NET MAUI PDF Viewer SinglePage](images/pdf-singlepage.png "PdfViewer SinglePage")
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
+- [All Commands PDF Viewer provides]({%slug pdfviewer-commands%})
 - [PdfViewer Toolbar]({%slug pdfviewer-toolbar%})
