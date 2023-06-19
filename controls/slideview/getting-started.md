@@ -67,7 +67,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ## Additional Resources
 
 - [.NET MAUI SlideView Product Page](https://www.telerik.com/maui-ui/slideview)
-- [.NET MAUI SlideView Forum Page](https://www.telerik.com/forums/maui?tagId=1937)
+- [.NET MAUI SlideView Forum Page](https://www.telerik.com/forums/maui?tagId=2058)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
