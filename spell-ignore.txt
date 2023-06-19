@@ -2,8 +2,10 @@ SDKBrowser
 SlideView
 RadSlideView
 SlideViewIndicator
-
+Telerik
 DataGrid
 Customizable
 Roadmap
 Namespaces
+Calendar
+RadCalendar

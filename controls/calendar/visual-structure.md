@@ -16,9 +16,9 @@ The .NET MAUI Calendar visual elements are represented on the image below.
 
 ## Legend
 
-- `HeaderLabelText`&mdash;The user can click the header label to navigate to the parent view.
-- `NavigateToNextViewButton`&mdash;A button that navigates to the next view.
-- `NavigateToNextViewButton`&mdash;A button that navigates to the previous view.
-- `DayNames`&mdash;The names of the days of the week.
-- `OutOfScopeDays`&mdash;The days that don't belong to the current month.
+- `Header text`&mdash;The user can click the header label to navigate to the parent view.
+- `Button for navigation to next view`&mdash;A button that navigates to the next view.
+- `Button for navigation to previous view`&mdash;A button that navigates to the previous view.
+- `Day names`&mdash;The names of the days of the week.
+- `Out of scope days`&mdash;The days that don't belong to the current month(for month view).
 - `Today date`&mdash;The current date.

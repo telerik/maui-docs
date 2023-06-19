@@ -8,7 +8,7 @@ slug: calendar-templates-overview
 
 # .NET MAUI Calendar Templates
 
-If the default templates of the control do not suit your needs, you can easily define custom ones. The available templates for customizing are:
+If the default look how the days, months, years and decades are presented do not match your use case, you can define custom templates. The available templates for customizing are:
 
 * `DayTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the days in the month view of the Calendar.
 * `MonthTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the months in the year view of the Calendar.
@@ -19,7 +19,7 @@ If the default templates of the control do not suit your needs, you can easily d
 
 <snippet id='calendar-templates-daytemplate-usage'/>
 
-And the template definition
+Here is a sample day template definition for customizing the days in the `MonthView`.
 
 <snippet id='calendar-templates-daytemplate-definition'/>
 
@@ -29,7 +29,7 @@ And the template definition
 
 <snippet id='calendar-templates-monthtemplate-usage'/>
 
-And the template definition
+Here is a sample month template definition for customizing the months in the `YearView`.
 
 <snippet id='calendar-templates-monthtemplate-definition'/>
 
@@ -39,7 +39,7 @@ And the template definition
 
 <snippet id='calendar-templates-yeartemplate-usage'/>
 
-And the template definition
+Here is a sample year template definition for customizing the years in the `DecadeView`.
 
 <snippet id='calendar-templates-yeartemplate-definition'/>
 
@@ -49,7 +49,7 @@ And the template definition
 
 <snippet id='calendar-templates-decadetemplate-usage'/>
 
-And the template definition
+Here is a sample decade template definition for customizing the decades in the `CenturyView`.
 
 <snippet id='calendar-templates-decadetemplate-definition'/>
 
@@ -57,9 +57,9 @@ And the template definition
 
 ## Template Selectors
 
-You can easy apply a template selector the calendar templates as they are of type `DataTemplate`. 
+You can apply a template selector the calendar templates as they are of type `DataTemplate`. 
 
-The following example demonstrates a DayTemplate that uses a Template Selector.
+The following example demonstrates a `DayTemplate` that uses a Template Selector.
 
 <snippet id='calendar-templates-templateselector-usage'/>
 
