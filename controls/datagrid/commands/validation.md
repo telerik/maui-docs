@@ -21,7 +21,7 @@ Here is an example how the DataGrid `ValidateCell` command works:
 
  <snippet id='datagrid-commands-validation-businessobject'/>
 
-T1. Create a `ViewModel` with a collection of `Data` objects:
+1. Create a `ViewModel` with a collection of `Data` objects:
 
  <snippet id='datagrid-commands-validation-viewmodel'/>
 

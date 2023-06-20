@@ -10,7 +10,7 @@ slug: datagrid-getting-started
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI DataGrid]({% slug datagrid-overview %}) by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![DataGrid Getting Started](images/datagrid-itemssource.png)
 
@@ -65,7 +65,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The DataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the DataGrid with infinite width and height constraints and the virtualization will not work:
 
-* Positioning the DataGrid inside a StackLayout which is wrapped in a ScrollView.
+* Positioning the DataGrid inside a `StackLayout` which is wrapped in a ScrollView.
 * Positioning the DataGrid inside a ScrollView.
 
 Now that you have added the control to your view, you need to make sure that is properly loaded with the required data.

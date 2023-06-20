@@ -12,13 +12,13 @@ slug: datagrid-nested-properties
 DataGrid provides support for nested properties - this allows binding of complex objects to the grid columns.
 
 In addition, the DataGrid control provides the following property:  
-* `ListenForNestedPropertyChange` *(bool)*: Allows the DataGrid to listen for changes of the nested properties' values. By default it is *false*.
+* `ListenForNestedPropertyChange` *(bool)*: Allows the DataGrid to listen for changes of the nested properties' values. By default is *false*.
 
->tip ListenForNestedPropertyChange is false due to optimization purposes, you could enable it in case you'd need to update the nested properties' values.
+>tip `ListenForNestedPropertyChange` is false due to optimization purposes, you can enable it in case you'd need to update the nested properties' values.
 
 ## Example
 
-Here is an example how you could utilize the nested properties feature in DataGrid:
+Here is an example how you can use the nested properties feature in DataGrid:
 
 1. Create the needed business objects, for example type `Person` that will have property of type `Address`:
 
@@ -28,7 +28,7 @@ Here is an example how you could utilize the nested properties feature in DataGr
 
  <snippet id='datagrid-nested-proprty-address' />
 
-In the sample both classes inherit from NotifyPropertyChangedBase class which basically implements the INotifyPropertyChanged interface. You would need to add the following namespace to use it:
+In the sample both classes inherit from `NotifyPropertyChangedBase` class which basically implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
 
  ```C#
 using Telerik.Maui.Controls.Compatibility.Common;
@@ -38,7 +38,7 @@ using Telerik.Maui.Controls.Compatibility.Common;
 
  <snippet id='datagrid-nested-property-viewmodel' />
 
-1. Use the following snippet to declare a RadDataGrid in XAML:
+1. Use the following snippet to declare a `RadDataGrid` in XAML:
 
  <snippet id='datagrid-nested-property-xaml' />
 
@@ -48,7 +48,7 @@ using Telerik.Maui.Controls.Compatibility.Common;
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-Here is how tha DataGrid looks:
+Here is how the DataGrid looks:
 
 ![DataGrid Nested Properties](../images/datagrid-nested-properties.png)
 

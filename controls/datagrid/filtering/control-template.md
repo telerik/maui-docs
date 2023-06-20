@@ -8,7 +8,7 @@ slug: datagrid-control-template
 
 # Filter Control Template
 
-The Telerik DataGrid allows you to have a built in filtering UI. In order to customize it use the `FilterControlTemplate` property. In addition, you can apply filtering to the template column using the `FilterControlTemplate` property.
+The Telerik DataGrid allows you to have a built in filtering UI. To customize it use the `FilterControlTemplate` property. In addition, you can apply filtering to the template column using the `FilterControlTemplate` property.
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class. 
 
