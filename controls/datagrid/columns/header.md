@@ -70,6 +70,32 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 You can customize the Column Header using the existing `HeaderContentTemplate` to achieve the desired full customization of the column.
 
+## Hover Visual State on Column Header
+
+You can change the background color of the column header on Hover visual state by setting the `BackgroundColor` property.
+
+Here is an example how to achieve the desired result:
+
+```XAML
+ <VisualStateManager.VisualStateGroups>
+    <VisualStateGroup x:Name="CommonStates">
+        <VisualState x:Name="Normal" />
+        <VisualState x:Name="Focused" />
+        <VisualState x:Name="Disabled" />
+        <VisualState x:Name="PointerOver">
+             <VisualState.Setters>
+                <Setter Property="BackgroundColor" Value="Yellow" />
+             </VisualState.Setters>
+        </VisualState>
+    </VisualStateGroup>
+</VisualStateManager.VisualStateGroups>
+```
+
+And the result from the code snippet:
+
+![DataGrid Header Column Background Color](../columns/images/datagrid-hover-background-color.gif)
+
+
 ## See Also
 
 - [Text Column]({%slug datagrid-columns-text-column%})
