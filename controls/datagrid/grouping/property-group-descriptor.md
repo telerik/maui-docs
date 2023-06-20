@@ -39,7 +39,7 @@ this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Compatibility.Commo
 });
 ```
 
-Here is how the DataGrid looks when it is grouped:
+Here is how the DataGrid looks when it`s grouped:
 
 ![DataGrid Property GroupDescriptor](../images/datagrid_grouping.png)
 
