@@ -11,7 +11,7 @@ slug: checkbox-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI CheckBox by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![Checkbox Getting Started](images/checkbox-getting-started.png)
 
