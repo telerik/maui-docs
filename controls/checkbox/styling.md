@@ -76,10 +76,9 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ![CheckBox Stroke Thickness](images/checkbox-features.png)
 
-## Turn off the animation
+## Remove the Animation
 
-The CheckBox control exposes a `IsAnimated` (`bool`) property that allows to turn off the animations during state transitions. The default value is `True`.
-
+The CheckBox control exposes a `IsAnimated` (`bool`) property that allows to remove the animations during state transitions. The default value is `True`.
 
 ## See Also
 
