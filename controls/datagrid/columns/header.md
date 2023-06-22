@@ -32,7 +32,7 @@ To customize text inside the header you have to use the `HeaderText` property. T
 
 ## Sorting
 
-You can sort a particular column tapping on its header. When the data is sorted by a column, its header changes its appearance and shows the sort direction via an indicator.
+The user of the application can sort a particular column when tapping on its header. When the data is sorted by a column, the sort indicator shows in the header.
 
 ![.NET MAUI DataGrid Column Header Sorting indicator](../images/column-header-sorting.png)
 
@@ -40,7 +40,7 @@ To learn more about the sorting functionality take a look at the [Sorting]({%slu
 
 ## Filtering
 
-The header of the column hosts the built-in filtering mechanism (the filter indicator which opens the Filtering UI), which allows you to filter the data by the columns' values.
+The header of the column hosts the built-in filtering mechanism (the filter indicator which opens the Filtering UI), which allows the user to filter the data by the columns' values.
 
 ![.NET MAUI DataGrid Column Header filter indicator](../images/column-header-filtering.png)
 
@@ -66,9 +66,9 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 ![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
 
-## Achieve full customization of the column
+## Fully Customize the Column
 
-You can customize the Column Header using the existing `HeaderContentTemplate` to achieve the desired full customization of the column.
+Customize the Column Header using the `HeaderContentTemplate` to achieve the desired full customization of the column.
 
 ## See Also
 
