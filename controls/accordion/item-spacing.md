@@ -1,14 +1,14 @@
 ---
 title: Item Spacing
 page_title: .NET MAUI Accordion Documentation - Item Spacing
-description: Check our &quot;Item Spacing&quot; documentation article for Telerik .NET MAUI Accordion control.
+description: Check our Item Spacing documentation article for Telerik .NET MAUI Accordion control
 position: 3
 slug: accordion-item-spacing
 ---
 
 # .NET MAUI Accordion Item Spacing
 
-Through the `Spacing` (`double`) property you could specify the distance between the Accordion items. The default value is 0.
+Through the `Spacing` (`double`) property you can specify the distance between the Accordion items. The default value is 0.
 
 ## Example
 

@@ -1,7 +1,7 @@
 ---
 title: AccordionItem
 page_title: .NET MAUI Accordion Documentation - AccordionItem
-description: Check our &quot;AccordionItem control&quot; documentation article for Telerik .NET MAUI Accordion control.
+description: Check our AccordionItem documentation article for Telerik .NET MAUI Accordion control.
 position: 2
 slug: accordion-accordion-item
 ---
@@ -12,12 +12,12 @@ This articles explains the configuration options of the Accordion Item.
 
 ## AccordionItem Header
 
-You could either apply `HeaderText` property or use the `AccordionItemHeader` content control which provides a set of useful properties for customizing the look & feel of the Header.
+You can either apply `HeaderText` property or use the `AccordionItemHeader` content control which provides a set of useful properties for customizing the look & feel of the Header.
 
-The indicator is the little triangle that is rotated according to whether the AccordionItem control is expanded or collapsed. AccordionItemHeader provides various options for customizing the look of the indicator via the following properties:
+The indicator is the small triangle that is rotated according to whether the `AccordionItem` control is expanded or collapsed. `AccordionItemHeader` provides various options for customizing the look of the indicator via the following properties:
 
-* `IndicatorText`&mdash;The indicator is represented by a string symbol that could be changed through IndicatorText property;
-* `IndicatorFontFamily`&mdash;Specifies the indicator text FontFamily;
+* `IndicatorText`&mdash;The indicator is represented by a string symbol that can be changed through `IndicatorText` property;
+* `IndicatorFontFamily`&mdash;Specifies the indicator text `FontFamily`;
 * `IndicatorFontSize`&mdash;Defines the indicator text font size;
 * `IndicatorColor`&mdash;Specifies sets the color of the indicator;
 * `IndicatorLocation`(`ExpandCollapseIndicatorLocation`)&mdash;Positions the indicator to the left or to the right inside the Header;
@@ -27,11 +27,11 @@ The indicator is the little triangle that is rotated according to whether the Ac
 
 ## IsExpanded
 
-Change the expanded state of the AccordionItem using the `IsExpanded`(`bool`)property.
+Change the expanded state of the `AccordionItem` using the `IsExpanded`(`bool`)property.
 	
 ## Border Styles
 
-Utilize `BorderColor`, `BorderThickness` and `CornerRadius` properties of RadAccordionItem to change the way the Border around the control looks.
+Use `BorderColor`, `BorderThickness` and `CornerRadius` properties of `RadAccordionItem` to change the way the Border around the control looks.
 
 The following snippet shows how to customize the `AccordionItemHeader`:
 
