@@ -10,3 +10,9 @@ Namespaces
 Calendar
 RadCalendar
 RichTextEditor
+Accordion
+AccordionItem
+RadAccordionItem
+IsExpanded
+RadAccordion
+AccordionItems
