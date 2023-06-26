@@ -1,14 +1,14 @@
 ---
 title: Remote Search
 page_title: .NET MAUI AutoComplete Documentation - Remote Search
-description: "Implement remote searching in the AutoComplete for .NET MAUI control."
+description: Implement remote searching in the AutoComplete for .NET MAUI control
 position: 10
 slug: autocomplete-remote-search
 ---
 
 # Remote Search in .NET MAUI AutoComplete
 
-The Remote Search functionality of the AutoComplete control allows you to easily take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the control.
+The Remote Search functionality of the AutoComplete control allows you to take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the control.
 
 * `LoadingTemplate`(`DataTemplate`)&mdash;Defines the template of the loading view.
 
@@ -30,11 +30,11 @@ Here is an example how the RadAutoComplete Remote Search works:
 
 <snippet id='autocomplete-remote-search'/>
 
-**4.** Create a custom searching algorithm and assign the result to the control's ItemsSource inside the TextChanged event handler: 
+**4.** Create a custom searching algorithm and assign the result to the control's `ItemsSource` inside the `TextChanged` event handler: 
 
 <snippet id='autocomplete-remote-search-alorithm'/>
 
-This is the result when LoadingTemplate is searching for results: 
+This is the result when `LoadingTemplate` is searching for results: 
 
 ![.NET MAUI AutoComplete Remote Search Searching](images/autocomplete-remote-search-searching.png "AutoComplete Remote Search Searching")
 

@@ -10,12 +10,12 @@ slug: autocomplete-custom-templates
 
 ## Overview
 
-If the default templates of the control do not suit your needs, you can easily define a custom template. The available templates for customizing are:
+If the default templates of the control do not suit your needs, you can define a custom template. The available templates for customizing are:
 
-* `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the template visualised when there are no suggestions found.
+* `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the template visualized when there are no suggestions found.
 * `ShowMoreTemplate`(`DataTemplate`) for Tokens Support&mdash;Defines the template used to create show more view when `DisplayMore="Tokens"`.
 * `LoadingTemplate`(`DataTemplate`) for [Remote Search]({%slug autocomplete-remote-search%}) functionality&mdash;Defines the loading message in `RemoteSearch state`.
-* `TokensTemplate`(`DataTemplate`) for [Tokens Support]({%slug autocomplete-tokens-support%})&mdash;Defines the template used to vizualize the tokens.
+* `TokensTemplate`(`DataTemplate`) for [Tokens Support]({%slug autocomplete-tokens-support%})&mdash;Defines the template used to visualize the tokens.
 * `SuggestionItemTemplate`(`DataTemplate`)&mdash;Defines the template that will be used to create each of the suggestions.
 * `SuggestionViewTemplate`(`DataTemplate`)&mdash;Defines the template used to visualize the filtered items.
 
@@ -23,7 +23,7 @@ If the default templates of the control do not suit your needs, you can easily d
 
 ### NoResults Template
 
-Here is an example how the NoResults Template could be defined:
+Here is an example how the `NoResults` Template can be defined:
 
 ```XAML
 <telerik:RadAutoComplete.NoResultsTemplate>
@@ -37,7 +37,7 @@ Here is an example how the NoResults Template could be defined:
 
 ### ShowMore Template
 
-XAML definition of ShoWMore Template:
+XAML definition of `ShoWMore` Template:
 
 <snippet id='autocomplete-templates-show-more-template-xaml'/>
 

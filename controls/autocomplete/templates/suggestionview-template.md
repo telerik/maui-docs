@@ -14,7 +14,7 @@ AutoComplete provides the option to change the default template that visualize t
 
 ## Example
 
-Here is an example how to use the RadAutoComplete SuggestionViewTemplate:
+Here is an example how to use the RadAutoComplete `SuggestionViewTemplate`:
 
 **1.** Create the needed business objects, for example type City with the following properties:
 
@@ -24,7 +24,7 @@ Here is an example how to use the RadAutoComplete SuggestionViewTemplate:
 
 <snippet id='autocomplete-people-viewmodel'/>
 
-**3.** The following snippet shows the SuggestionViewTemplate with RadDataGrid inside it:
+**3.** The following snippet shows the `SuggestionViewTemplate` with `RadDataGrid` inside it:
 
 <snippet id='autocomplete-templates-suggestion-view-template-xaml'/>
 
@@ -32,7 +32,7 @@ Here is the result:
 
 ![AutoComplete SuggestionViewTemplate Example](../images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
 
->important For autoComplete SuggestionView Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
+>important For AutoComplete SuggestionView Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
