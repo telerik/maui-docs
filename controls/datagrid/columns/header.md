@@ -68,7 +68,7 @@ Define the `HeaderContentTemplate` in the DataGridColumn:
 
 ## Color on Hover
 
-You can change the background color of the column header on hover visual state by setting the `BackgroundColor` property.
+You can change the hover state background color of the column header by setting the `BackgroundColor` property.
 
 The following example demonstrates how to apply the `BackGroundColor` property to the DataGrid header for its hover visual state: 
 
