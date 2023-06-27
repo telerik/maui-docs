@@ -8,7 +8,7 @@ slug: accordion-item-spacing
 
 # .NET MAUI Accordion Item Spacing
 
-Through the `Spacing` (`double`) property you can specify the distance between the Accordion items. The default value is 0.
+Through the `Spacing` (`double`) property, you can specify the distance between the Accordion items. The default value is 0.
 
 ## Example
 
