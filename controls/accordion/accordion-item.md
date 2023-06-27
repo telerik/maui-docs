@@ -1,7 +1,7 @@
 ---
 title: AccordionItem
 page_title: .NET MAUI Accordion Documentation - AccordionItem
-description: Check our AccordionItem documentation article for Telerik .NET MAUI Accordion control.
+description: Discover the available configuration options of the Accordion Item and learn how to use them to customize the appearance and the behavior of the Telerik UI for .NET MAUI Accordion.
 position: 2
 slug: accordion-accordion-item
 ---
