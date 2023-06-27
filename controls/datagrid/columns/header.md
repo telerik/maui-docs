@@ -66,7 +66,7 @@ Define the `HeaderContentTemplate` in the DataGridColumn:
 
 ![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
 
-## Hover Visual State on Column Header
+## Color on Hover
 
 You can change the background color of the column header on hover visual state by setting the `BackgroundColor` property.
 
