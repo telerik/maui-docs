@@ -18,7 +18,7 @@ You can add columns in your `RadDataGrid` by working with the Columns collection
 The `RadDataGrid` control provides the following type of columns:
 
 * `Text Column`: Represents a column that converts the content of each associated cell to a System.String object.
-* `Numerical Column`: Represents an extended `DataGridTextColumn` that presents numerical data(int and double types).
+* `Numerical Column`: Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
 * `Boolean Column`: A special `DataGridTypedColumn` implementation that presents boolean data.
 * `Date Column:` An extended `DataGridTextColumn` that presents data of type `DateTime`.
 * `Time Column`: Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
