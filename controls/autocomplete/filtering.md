@@ -1,7 +1,7 @@
 ---
 title: Filtering
 page_title: .NET MAUI AutoComplete Documentation - Filtering
-description: Review all filtering options that AutoComplete for .NET MAUI provides
+description: Learn how to apply filtering and what are the custom filtering options in the Telerik UI for .NET MAUI AutoComplete control. 
 position: 7
 slug: autocomplete-filtering
 ---
