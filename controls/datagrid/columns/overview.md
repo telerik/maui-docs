@@ -25,7 +25,7 @@ The `RadDataGrid` control provides the following type of columns:
 * `ComboBox Column`: Represents an extended `DataGridTextColumn` that uses a Picker editor to select value from a collection.
 * `Template Column`: Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
 
->important When `RadDataGrid.AutoGenerateColumns`="True" the `RadDataGrid` generates typed columns depending on the underlying data type.
+>important When `RadDataGrid.AutoGenerateColumns`="True", the `RadDataGrid` generates typed columns depending on the underlying data type.
 
 ## Properties
 
