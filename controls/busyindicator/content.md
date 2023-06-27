@@ -1,7 +1,7 @@
 ---
 title: Content
 page_title: .NET MAUI BusyIndicator Documentation - Content
-description: Check our &quot;Custom Busy Content&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
+description: Learn more about the content options of the BusyIndicator when the control is and isn't in a busy state.
 position: 2
 previous_url: /controls/busyindicator/busyindicator-custom-busy-content
 slug: busyindicator-custom-busy-content
@@ -25,11 +25,11 @@ The `ContentUnderOpacity`(`double`)&mdash;Defines the opacity when the indicator
 </telerik:RadBusyIndicator>
 ```
 
-## Busy content
+## Busy Content
 
 Setting the `BusyContent` property of BusyIndicator allows you to display any content together with the built-in animations while the control is in its Busy state. 
 
-### Custom busy content
+### Custom Busy Content
 
 You can customize the `BusyContentTemplate` to arrange the custom content and the animated content per your choice.
 

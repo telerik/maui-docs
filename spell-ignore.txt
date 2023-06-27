@@ -31,3 +31,5 @@ RadAccordionItem
 IsExpanded
 RadAccordion
 AccordionItems
+BusyIndicator
+25x25
