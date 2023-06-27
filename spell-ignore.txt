@@ -25,3 +25,9 @@ SuggestionItemTemplate
 RadDataGrid
 SuggestionViewTemplate
 TokenTemplate
+Accordion
+AccordionItem
+RadAccordionItem
+IsExpanded
+RadAccordion
+AccordionItems
