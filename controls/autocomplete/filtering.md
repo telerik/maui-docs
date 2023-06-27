@@ -12,7 +12,7 @@ The Telerik .NET MAUI AutoComplete control allows users to define custom filteri
 
 * `Filter` (`Telerik.Maui.Controls.AutoComplete.IAutoCompleteFilter`)&mdash;Defines the function that will be used to filter items. 
 
-The `IAutoCompleteFilter` interface contains a `Filter` (`bool`) function  that is called by RadAutoComplete control to filter items. The Filter function provides the following properties:
+The `IAutoCompleteFilter` interface contains a `Filter` (`bool`) function that is called by the `RadAutoComplete` control to filter items. The Filter function provides the following properties:
 
 * `item`&mdash;The item to be checked.
 * `searchText`&mdash;The current text in the RadAutoComplete control.
