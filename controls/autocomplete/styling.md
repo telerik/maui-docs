@@ -17,7 +17,7 @@ AutoComplete control provides the following Style properties for customizing its
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
 * `FocusedBorderBrush`(`Brush`)&mdash;Defines the color of the border when the control is focused.
 
-> For AutoComplete styling example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
+> For a runnable AutoComplete styling example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
 ## Clear Button Styling
 
