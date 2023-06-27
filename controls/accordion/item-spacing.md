@@ -1,7 +1,7 @@
 ---
 title: Item Spacing
 page_title: .NET MAUI Accordion Documentation - Item Spacing
-description: Check our Item Spacing documentation article for Telerik .NET MAUI Accordion control
+description: Learn how to specify the distance between items with our Item Spacing documentation article for Telerik UI Accordion for .NET MAUI control.
 position: 3
 slug: accordion-item-spacing
 ---

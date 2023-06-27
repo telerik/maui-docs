@@ -12,7 +12,7 @@ The purpose of this help article is to show you the expanded/collapsed states of
 
 ## Collapsed/Expanded States
 
-In the Accordion control each item provides a header that expands when clicked, showing more information. The control is designed in such a way that opening one `AccordionItem` automatically closes the previously displayed content. 
+In the Accordion control, each item provides a header that expands when clicked, showing more information. The control is designed in such a way that opening one `AccordionItem` automatically closes the previously displayed content. 
 
 There can be only one expanded item at a time indicated by `IsExpanded` property of the [AccordionItem]({%slug accordion-accordion-item%}) object.
 

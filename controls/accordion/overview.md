@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI Accordion Documentation - Overview
-description: "Review the main features of the .NET MAUI Accordion control."
+description: Review the main features of the .NET MAUI Accordion control.
 position: 0
 slug: accordion-overview
 ---
 
 # .NET MAUI Accordion Overview
 
-**Telerik UI for .NET MAUI Accordion** is a vertically collapsible content panel that displays only one of its items at a time within the available space. `RadAccordion` helps you save screen space and at the same time present the content to the end user in an accessible way.
+Telerik UI for .NET MAUI Accordion is a vertically collapsible content panel that displays only one of its items at a time within the available space. `RadAccordion` helps you save screen space and at the same time present the content to the end user in an accessible way.
 
 ![.NET MAUI Accordion Overview](images/accordion-overview.png)
 
