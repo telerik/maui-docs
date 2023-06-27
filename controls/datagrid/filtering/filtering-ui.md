@@ -17,7 +17,7 @@ The DataGrid supports filtering through the UI.
 
 The Filtering UI exposes the following properties:
 
-* `UserFilterMode`&mdash;Defines whether the Filtering UI is enabled/disabled. The available options are *Auto/Enabled/Disabled*. The default value of the `UserFilterMode` is *Auto*. Set the property on DataGrid control.
+* `UserFilterMode`&mdash;Defines whether the Filtering UI is enabled/disabled. The available options are `Auto`, `Enabled`, and `Disabled`. The default value of the `UserFilterMode` is `Auto`. Set the property on DataGrid control.
 
 * `CanUserFilter`(`bool`) property is used to enable/disable the filtering of a specific column. Set the property to a specific column.
 
