@@ -62,10 +62,7 @@ public class Data
 
 ```
 
-1. Add `TapGestureRecognizer` for right-click, 
-
-
-1. Get the position of the internal ScrollView in the DataGrid on right click and use the DataGrid `HitTestService.CellInfoFromPoint()` method , to get the  cell info for the concrete position. 
+1. Add `TapGestureRecognizer` for right-click and get the position of the internal ScrollView in the DataGrid on right click and use the DataGrid `HitTestService.CellInfoFromPoint()` method , to get the  cell info for the concrete position. 
 
 ```C#
 RadScrollView sv = null;
