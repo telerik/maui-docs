@@ -50,7 +50,7 @@ Check the [.NET MAUI DataGrid Column Footer Styling]({%slug datagrid-columns-sty
 
 ## Footer Content Customization
 
-You can customize the content of the footer using the `FooterContentTemplate`(`DataTemplate`) property.
+You can customize the content of the footer by using the `FooterContentTemplate`(`DataTemplate`) property.
 
 Define the `DataTemplate` for the footer:
 
