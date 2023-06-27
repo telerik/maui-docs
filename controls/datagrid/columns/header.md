@@ -68,7 +68,7 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 ## Fully Customize the Column
 
-Customize the Column Header using the `HeaderContentTemplate` to achieve the desired full customization of the column.
+Customize the column header by using the `HeaderContentTemplate` to achieve the desired full customization of the column.
 
 ## See Also
 
