@@ -18,7 +18,7 @@ In addition, the DataGrid control provides the following property:
 
 ## Example
 
-Here is an example how you can use the nested properties feature in DataGrid:
+Here is an example of how you can use the nested properties feature in DataGrid:
 
 1. Create the needed business objects, for example type `Person` that will have property of type `Address`:
 
