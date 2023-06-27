@@ -14,7 +14,7 @@ Whenever the default template does not fit a particular scenario you can use the
 
 ## Example
 
-Here is an example how to use the RadAutoComplete SuggestionItemTemplate:
+Here is an example how to use the RadAutoComplete `SuggestionItemTemplate`:
 
 **1.** Create the needed business objects, for example type City with the following properties:
 
@@ -24,7 +24,7 @@ Here is an example how to use the RadAutoComplete SuggestionItemTemplate:
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** The following snippet shows the SuggestionItemTemplate:
+**3.** The following snippet shows the `SuggestionItemTemplate`:
 
 <snippet id='autocomplete-suggestion-item-template'/>
 
@@ -32,7 +32,7 @@ Here is the result:
 
 ![.NET MAUI AutoComplete SuggestionItemTemplate Example](../images/autocomplete-suggestionitem-template.png "AutoComplete SuggestionItemTemplate Example")
 
->important For autocomplete SuggestionItemTemplate example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
+>important For AutoComplete SuggestionItemTemplate example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
