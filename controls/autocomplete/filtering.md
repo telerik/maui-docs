@@ -1,7 +1,7 @@
 ---
 title: Filtering
 page_title: .NET MAUI AutoComplete Documentation - Filtering
-description: "Review all filtering options that AutoComplete for .NET MAUI provides."
+description: Learn how to apply filtering and what are the custom filtering options in the Telerik UI for .NET MAUI AutoComplete control. 
 position: 7
 slug: autocomplete-filtering
 ---
@@ -12,7 +12,7 @@ The Telerik .NET MAUI AutoComplete control allows users to define custom filteri
 
 * `Filter` (`Telerik.Maui.Controls.AutoComplete.IAutoCompleteFilter`)&mdash;Defines the function that will be used to filter items. 
 
-The `IAutoCompleteFilter` interface contains a `Filter` (`bool`) function  that is called by RadAutoComplete control in order to filter items. The Filter function provides the following properties:
+The `IAutoCompleteFilter` interface contains a `Filter` (`bool`) function that is called by the `RadAutoComplete` control to filter items. The Filter function provides the following properties:
 
 * `item`&mdash;The item to be checked.
 * `searchText`&mdash;The current text in the RadAutoComplete control.
@@ -34,11 +34,11 @@ Here is an example how the AutoComplete Custom Filtering works when searching in
 
 <snippet id='autocomplete-person-businessobject'/>
 
-**2.** Create a CustomFilterViewModel with a collection of Person objects:
+**2.** Create a `CustomFilterViewModel` with a collection of Person objects:
 
 <snippet id='autocomplete-filering-viewmodel'/>
 
-**3.** Create a class for example CustomAutoCompleteFilter that implements the IAutoCompleteFilter interface:
+**3.** Create a class for example `CustomAutoCompleteFilter` that implements the `IAutoCompleteFilter` interface:
 
 <snippet id='autocomplete-filtering-class'/>
 

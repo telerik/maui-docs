@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI AutoComplete Documentation - Configuration
-description: Check our &quot;Configuration&quot; documentation article for Telerik .NET MAUI AutoComplete control.
+description: Learn what are the options to configure the Telerik UI AutoComplete for .NET MAUI.
 position: 3
 slug: autocomplete-configuration
 ---
@@ -13,23 +13,23 @@ The purpose of this help article is to show you the main configuration options o
 ## Placeholder
 
 AutoComplete exposes `Placeholder` property which is used to give guidance to the end user on what should be entered in the text input.
-You could also use the `PlaceholderColor` property to define the placeholder text color of the component.
+You can also use the `PlaceholderColor` property to define the placeholder text color of the component.
 
 <snippet id='autocompleteview-features-watermark'/>
 
 ## Display Mode
 
-* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifying the way in which a picked item from the SuggestionView is visualized. 
+* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifying the way in which a picked item from the `SuggestionView` is visualized. 
 
 The default `DisplayMode` is `Plain`&mdash;The picked item is visualized as plain text. If you want to visualize multiple items set the `DisplayMode` to `Tokens`&mdash;Each item is displayed in a Token box.
 
 ## Completion Mode
 
-* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its ItemsSource when typing in its input. The available options are:
+* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its `ItemsSource` when typing in its input. The available options are:
 	* `StartsWith`&mdash;Filters the items that start with the text typed in the input area.
 	* `Contains`&mdash;Filters the items that contain the text typed in the input area.
 
-The matching items to the filter are displayed in a SuggestionView if the RadAutoComplete.AutoCompleteSuggestMode is `Append` or `SuggestAppend`.
+The matching items to the filter are displayed in a `SuggestionView` if the `RadAutoComplete.AutoCompleteSuggestMode` is `Append` or `SuggestAppend`.
 
 ## Keyboard
 
@@ -39,15 +39,15 @@ The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define t
 <telerikInput:RadAutoComplete Keyboard="Numeric" />
 ```
 
-## Clear button visibility
+## Clear Button Visibility
 
-The Clear button, which appears at the right side of the input field when the AutoComplete is on focus, gives the end-user the option to quickly clear the entered values. You could control the visibility of the button through the `IsClearButtonVisible` property. The default value is `True`.
+The Clear Button, which appears at the right side of the input field when the AutoComplete is on focus, gives the end-user the option to quickly clear the entered values. You can control the visibility of the button through the `IsClearButtonVisible` property. The default value is `True`.
 
 <snippet id='autocomplete-clearbutton-visibility'/>
 
-## No results message
+## No Results Message
 
-The NoResults message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.  You could use the following properties to customize the NoResult message:
+The `NoResults` message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.  You can use the following properties to customize the `NoResult` message:
 
 * `NoResultsMessage`(`string)`&mdash;Defines the message visualized when there are no suggestions found.
 * `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the template visualized when there are no suggestions found.
@@ -60,18 +60,18 @@ By default the search is triggered as soon as the user types into the input fiel
 
 <snippet id='autocomplete-searchthreshold'/>
 
-## SuggestionView visibility
+## SuggestionView Visibility
 
 * `ShowSuggestionView`(`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
-* `SuggestionViewHeight`(`double`)&mdash;Defines the SuggestionViewHeight of the control.
+* `SuggestionViewHeight`(`double`)&mdash;Defines the `SuggestionViewHeight` of the control.
 * `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
 * `SuggestionViewBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.
 * `SuggestionViewCornerRadius`(`Thickness`)&mdash;Defines the corner radius applied to the Suggestion View.
-* `SuggestionViewBackgroundColor`(`Color`)&mdash;Defines the BackgroundColor of the suggestion view.
+* `SuggestionViewBackgroundColor`(`Color`)&mdash;Defines the `BackgroundColor` of the suggestion view.
 
 <snippet id='autocomplete-suggestionview'/>
 
-## SuggestionView position
+## SuggestionView Position
 
 * `SuggestionViewPosition` property which enables you to explicitly define whether the suggestions popup will be shown below or above the input field. `SuggestionViewPosition` is of enum type `Telerik.Maui.Controls.AutoCompletePopupPosition` and can be set to any of the following values:
 

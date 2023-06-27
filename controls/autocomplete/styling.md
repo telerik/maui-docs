@@ -11,17 +11,17 @@ slug: autocomplete-styling
 AutoComplete control provides the following Style properties for customizing its look:
 
 * `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the RadAutoComplete.
-* `TextColor`(`Color`)&mdash;Defines the textcolor of the control.
+* `TextColor`(`Color`)&mdash;Defines the text color of the control.
 * `PlaceholderColor`(`Color`)&mdash;Defines the background color of the suggestion view.
 * `BorderBrush`(`Brush`)&mdash;Defines the brush of the border around the control.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
 * `FocusedBorderBrush`(`Brush`)&mdash;Defines the color of the border when the control is focused.
 
-> For autocomplete styling example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
+> For a runnable AutoComplete styling example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
 ## Clear Button Styling
 
-Use the `ClearButtonStyle` property (of type `Style` with target type `RadButton`) to style theclear button. 
+Use the `ClearButtonStyle` property (of type `Style` with target type `RadButton`) to style the clear button. 
 
 ## Suggestion View Styling 
 
@@ -29,10 +29,10 @@ Use the `ClearButtonStyle` property (of type `Style` with target type `RadButton
 * `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
 * `SuggestionViewBorderThickness`&mdash;Defines the thickness of the border around the suggestion view.
 * `SuggestionViewCornerRadius`&mdash;Defines the corner radius applied to the Suggestion View.
-* `SuggestionItemHighlightTextColor`&mdash;Defines the highlightcolor of the selection items.
+* `SuggestionItemHighlightTextColor`&mdash;Defines the highlight color of the selection items.
 
 
-Here is an example how to use the SuggestionItemHighlightTextColor property:
+Here is an example how to use the `SuggestionItemHighlightTextColor` property:
 
 **1.** Create the needed business objects, for example type Client with the following properties:
 
@@ -48,7 +48,7 @@ Here is an example how to use the SuggestionItemHighlightTextColor property:
 
 ## Highlight Customization
 
-In case a custom template is used, the user can achieve text highlighting inside the RadAutoComplete.SuggestionItemTemplate using `RadHighlightLabel`.
+In case a custom template is used, the user can achieve text highlighting inside the `RadAutoComplete.SuggestionItemTemplate` using `RadHighlightLabel`.
 
 The AutoComplete `RadHighlightLabel` exposes the following properties:
 
@@ -66,7 +66,7 @@ Here is an example with `RadHighlightLabel`:
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Use the following snippet to declare a RadAutoComplete in XAML with RadHighlightLabel:
+**3.** Use the following snippet to declare a RadAutoComplete in XAML with `RadHighlightLabel`:
 
 <snippet id='autocomplete-highlight-text-behavior'/>
 

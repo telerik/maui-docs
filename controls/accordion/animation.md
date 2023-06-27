@@ -1,7 +1,7 @@
 ---
 title: Animation
 page_title: .NET MAUI Accordion Documentation - Animation
-description: Check our &quot;Animation&quot; documentation article for Telerik .NET MAUI Accordion control.
+description: Try now the Telerik Accordion for .NET MAUI that delivers an animation when expanding/collapsing an accordion item
 position: 5
 slug: accordion-animation
 ---
@@ -14,7 +14,7 @@ Telerik .NET MAUI Accordion provides an option to set the animation when expandi
 
 To enable or disable the animation you need to use the `IsAnimationEnabled` property of `RadAccordion`. By default, the Animation is enabled.
 
-You could also customize the duration and easing through `AnimationDuration` and `AnimationEasing` properties.
+You can also customize the duration and easing through `AnimationDuration` and `AnimationEasing` properties.
 
 * `AnimationDuration`(`int`)&mdash;Defines the duration of the animation while expanding/collapsing the AccordionItem. The default value is 500.
 * `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies animation acceleration over time. The default value is Easing.Linear.
