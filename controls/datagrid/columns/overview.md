@@ -19,7 +19,7 @@ The `RadDataGrid` control provides the following type of columns:
 
 * `Text Column`: Represents a column that converts the content of each associated cell to a System.String object.
 * `Numerical Column`: Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
-* `Boolean Column`: A special `DataGridTypedColumn` implementation that presents boolean data.
+* `Boolean Column`: A special `DataGridTypedColumn` implementation that presents Boolean data.
 * `Date Column:` An extended `DataGridTextColumn` that presents data of type `DateTime`.
 * `Time Column`: Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
 * `ComboBox Column`: Represents an extended `DataGridTextColumn` that uses a Picker editor to select value from a collection.
