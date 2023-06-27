@@ -39,13 +39,13 @@ The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define t
 <telerikInput:RadAutoComplete Keyboard="Numeric" />
 ```
 
-## Clear button visibility
+## Clear Button Visibility
 
-The Clear button, which appears at the right side of the input field when the AutoComplete is on focus, gives the end-user the option to quickly clear the entered values. You can control the visibility of the button through the `IsClearButtonVisible` property. The default value is `True`.
+The Clear Button, which appears at the right side of the input field when the AutoComplete is on focus, gives the end-user the option to quickly clear the entered values. You can control the visibility of the button through the `IsClearButtonVisible` property. The default value is `True`.
 
 <snippet id='autocomplete-clearbutton-visibility'/>
 
-## No results message
+## No Results Message
 
 The `NoResults` message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.  You can use the following properties to customize the `NoResult` message:
 
@@ -60,7 +60,7 @@ By default the search is triggered as soon as the user types into the input fiel
 
 <snippet id='autocomplete-searchthreshold'/>
 
-## SuggestionView visibility
+## SuggestionView Visibility
 
 * `ShowSuggestionView`(`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
 * `SuggestionViewHeight`(`double`)&mdash;Defines the `SuggestionViewHeight` of the control.
@@ -71,7 +71,7 @@ By default the search is triggered as soon as the user types into the input fiel
 
 <snippet id='autocomplete-suggestionview'/>
 
-## SuggestionView position
+## SuggestionView Position
 
 * `SuggestionViewPosition` property which enables you to explicitly define whether the suggestions popup will be shown below or above the input field. `SuggestionViewPosition` is of enum type `Telerik.Maui.Controls.AutoCompletePopupPosition` and can be set to any of the following values:
 
