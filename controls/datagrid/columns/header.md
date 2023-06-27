@@ -70,7 +70,7 @@ Define the `HeaderContentTemplate` in the DataGridColumn:
 
 You can change the background color of the column header on hover visual state by setting the `BackgroundColor` property.
 
-This example demonstrates how to apply `BackGroundColor` to the DataGrid Header on Hover Visual State: 
+The following example demonstrates how to apply the `BackGroundColor` property to the DataGrid header for its hover visual state: 
 
 ```XAML
  <VisualStateManager.VisualStateGroups>
