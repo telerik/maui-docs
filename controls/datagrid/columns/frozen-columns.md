@@ -35,7 +35,7 @@ Set the column freeze programmatically
 
 ## Collection of frozen columns
 
-Once a column is frozen, is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing of the columns is done only through the `IsFrozen` property of the columns.
+Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing the columns is done only through the `IsFrozen` property of the columns.
 
 ## Styling
 
