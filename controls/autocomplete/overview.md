@@ -19,9 +19,9 @@ slug: autocomplete-overview
 * [Different Suggest Modes Support]({%slug autocomplete-suggest-mode%})&mdash;RadAutoComplete exposes three different modes (Suggest, Append, SuggestAppend) for providing suggestions.
 * [Placeholder]({%slug autocomplete-configuration%}#placeholder)&mdash;Used to give guidance to the end user on what should be entered in the text input.
 * [No results message]({%slug autocomplete-configuration%}#no-results-message)&mdash;NoResults message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.
-* [Visualized text formatting]({%slug autocomplete-display-text-formatter%})&mdash;You can control how the text is visualized when chosen an item from the suggestion view.
-* [Custom Templates]({%slug autocomplete-custom-templates%})&mdash;If any of the default templates does not fit in a particular scenario, you can easy define a custom template.
-* [Remote Search]({%slug autocomplete-remote-search%})&mdash;Allows you to easy take the user input, trigger custom searching algorithm and assign the results to the ItemSource of the AutoComplete.
+* [Visualized text formatting]({%slug autocomplete-display-text-formatter%})&mdash;You can control how the text is visualized when choosing an item from the suggestion view.
+* [Custom Templates]({%slug autocomplete-custom-templates%})&mdash;If any of the default templates do not fit in a particular scenario, you can easily define a custom template.
+* [Remote Search]({%slug autocomplete-remote-search%})&mdash;Allows you to easily take the user input, trigger a custom searching algorithm and assign the results to the ItemSource of the AutoComplete.
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to hide the view with the suggestions.
 * [Highlight customization]({%slug autocomplete-styling%}#hightlight-customization)&mdash;You can customize the highlight color of the suggestion items.
 * [Nested properties support]()&mdash;This allows binding of a complex object to the `TextSearchPath` property. 

@@ -8,7 +8,7 @@ slug: autocomplete-data-binding
 
 # .NET MAUI AutoComplete Data Binding
 
-For all cases where the business items are not simple strings data-binding is necessary to correctly visualize information. The AutoComplete for .NET MAUI component supports data binding in the form of path properties.
+For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The AutoComplete for .NET MAUI component supports data binding in the form of path properties.
 
 * `TextSearchPath`(`string`)&mdash;Defines the name of the property the search function will be executed against.
 

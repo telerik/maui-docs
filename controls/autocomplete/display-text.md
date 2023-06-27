@@ -12,7 +12,7 @@ The AutoComplete control provides the option to format the visualized text in th
 
 * `DisplayTextFormatter`(IDisplayTextFormatter): Defines the formatter of the selected item.
 
-Two options to define the formatter of the selected item:
+To define the formatter of the selected item, you can use the following options:
 
 * Set `DisplayTextFortammer` property and define the name of the property from the business object which will be displayed after formatting.
 * Create a custom class that inherits from `IDisplayTextFormatter` and implement a custom logic how the selected item can be formatted.
@@ -31,7 +31,7 @@ Here is an example how the RadAutoComplete DisplayText Formatter works on Plain 
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Create a class, for example `MyTextFormatter`, that inherits from `Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter`:
+**3.** Create a class, for example, `MyTextFormatter` that inherits from `Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter`:
 
 <snippet id='autocomplete-text-formatter-plain-class'/>
 

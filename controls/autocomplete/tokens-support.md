@@ -8,7 +8,7 @@ slug: autocomplete-tokens-support
 
 # Tokens Support in .NET MAUI AutoComplete
 
-With AutoComplete you can enable users to search for and pick some items. These items appear as tokens that can be deselected using their close button.
+With AutoComplete, you can enable users to search for and pick some items. These items appear as tokens that can be deselected using their close button.
 
 The Tokens Support feature exposes the following properties:
 
