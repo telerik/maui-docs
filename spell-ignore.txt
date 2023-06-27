@@ -10,3 +10,5 @@ Namespaces
 Calendar
 RadCalendar
 RichTextEditor
+BadgeView
+ControlTemplate

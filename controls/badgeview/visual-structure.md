@@ -14,9 +14,9 @@ This article describes all visual elements of the Telerik UI for .NET MAUI Badge
 
 ## Legend
 
-* **BadgeView**&mdash;The BadgeView control which includes the Badge marker (indicator) and the content to which the marker is related.
-* **Badge**&mdash;The marker that can be used for notifications, statuses, and so on.
-* **BadgeView Content**&mdash;The Badge indicator is positioned based on the content inside the BadgeView. Without defined content, the Badge won't be visualized.
+* `BadgeView`&mdash;The BadgeView control which includes the Badge marker (indicator) and the content to which the marker is related.
+* `Badge`&mdash;The marker that can be used for notifications, statuses, and so on.
+* `BadgeView Content`&mdash;The Badge indicator is positioned based on the content inside the BadgeView. Without defined content, the Badge won't be visualized.
 
 ## See Also
 

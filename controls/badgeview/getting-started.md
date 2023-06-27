@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI BadgeView Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI BadgeView control and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI BadgeView control and add the control to your .NET MAUI project
 position: 2
 slug: badgeview-getting-started
 ---
@@ -10,7 +10,7 @@ slug: badgeview-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI BadgeView by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![BadgeView Getting Started](images/badgeview-getting-started.png)
 
@@ -41,7 +41,7 @@ var badge = new RadBadgeView();
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ````
 
-1. Set `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if the `Content` property of the BadgeView is set.
+1. Set `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if set the `Content` property of the BadgeView.
 
  <snippet id='badgeview-getting-started-xaml'/>
  <snippet id='badgeview-getting-started-csharp'/>
