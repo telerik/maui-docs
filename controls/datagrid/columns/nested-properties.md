@@ -28,7 +28,7 @@ Here is an example of how you can use the nested properties feature in DataGrid:
 
  <snippet id='datagrid-nested-proprty-address' />
 
-In the sample both classes inherit from `NotifyPropertyChangedBase` class which basically implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
+In the sample, both classes inherit from the `NotifyPropertyChangedBase` class, which implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
 
  ```C#
 using Telerik.Maui.Controls.Compatibility.Common;
