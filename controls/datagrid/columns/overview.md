@@ -55,7 +55,7 @@ All types of columns inherit from the `DataGridColumn` class which provides the 
 * `CellContentTemplate`(`DataTemplate`)&mdash;Defines the appearance of each cell associated with concrete column.
 * `CellEditTemplate`(`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
-* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only supported in `WinUI` and `MacCatalyst`.
+* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`. This is only supported in `WinUI` and `MacCatalyst`.
 
 >tip More information about `CellDecorationStyle` and  `CellDecorationStyleSelector` can be found in [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 
