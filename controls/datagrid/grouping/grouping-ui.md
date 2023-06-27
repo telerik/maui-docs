@@ -12,7 +12,7 @@ slug: datagrid-grouping-ui
 
 **Telerik UI for .NET MAUI DataGrid** provides a built-in grouping functionality, which allows the user to easy group the data by one or more columns.
 
-The **DataGrid Grouping UI** exposes the `DataGridServicePanel` view which contains the `DataGridGroupingPanel` in itself. To group data the user has to drag the desired column header to the `DataGridGroupingPanel` located at the top of the DataGrid.
+The **DataGrid Grouping UI** exposes the `DataGridServicePanel` view which contains the `DataGridGroupingPanel` in itself. To group data, the user has to drag the desired column header to the `DataGridGroupingPanel` located at the top of the DataGrid.
 
 > The user can drag more than one column into the panel.
 
