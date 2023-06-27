@@ -22,7 +22,7 @@ Using the `CanCollapseAllItems`(`bool`) property you can collapse all Accordion 
 
 ## Expand Multiple Items
 
-Using the `CanExpandMultipleItems`(`bool`) property you can allow users to expand more than one item. Default value is `false`. If `CanExpandMultipleItems` is `true`, clicking on the header of a collapsed accordion item will expand it, regardless of how many items are expanded. If `CanExpandMultipleItems` is `false`, the expansion of one item causes the collapse of a previously expanded accordion item.
+By using the `CanExpandMultipleItems`(`bool`) property, you can allow users to expand more than one item. The default value is `false`. If `CanExpandMultipleItems` is `true`, clicking on the header of a collapsed accordion item will expand it, regardless of how many items are expanded. If `CanExpandMultipleItems` is `false`, the expansion of one item causes the collapse of a previously expanded accordion item.
 
 ## Example
 
