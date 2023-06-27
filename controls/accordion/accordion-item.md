@@ -12,7 +12,7 @@ This articles explains the configuration options of the Accordion Item.
 
 ## AccordionItem Header
 
-You can either apply `HeaderText` property or use the `AccordionItemHeader` content control which provides a set of useful properties for customizing the look & feel of the Header.
+You can either apply the `HeaderText` property or use the `AccordionItemHeader` content control which provides a set of useful properties for customizing the look & feel of the Header.
 
 The indicator is the small triangle that is rotated according to whether the `AccordionItem` control is expanded or collapsed. `AccordionItemHeader` provides various options for customizing the look of the indicator via the following properties:
 
