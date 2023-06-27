@@ -28,7 +28,7 @@ Set the column freeze in XAML
 </telerik:RadDataGrid> 
 ```
 
-Set the column freeze programmatically
+Set the column freeze programmatically.
 
 <snippet id='data-grid-frozen-columns-programmatically' />
 
