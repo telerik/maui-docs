@@ -22,7 +22,7 @@ This article describes how to set a width to the DataGrid column using the `Size
 
 ## Example
 
-To this example, we are going to use the following business object:
+In this example, we are going to use the following business object:
 
 <snippet id='datagrid-commands-editing-businessobject'/>
 
