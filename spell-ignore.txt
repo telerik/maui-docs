@@ -31,3 +31,4 @@ RadAccordionItem
 IsExpanded
 RadAccordion
 AccordionItems
+CornerRadius
