@@ -14,7 +14,7 @@ The DataGrid allows you to display additional information which applies to the c
 
 ![.NET MAUI DataGrid Column Footer](../images/column-footer.png)
 
-By default, column footers are hidden and to make them visible you have to set the `ShowColumnFooters` property to True.
+By default, column footers are hidden, and, to make them visible, you have to set the `ShowColumnFooters` property to `True`.
 
 The following example shows how to define a footer in the DataGrid:
 
