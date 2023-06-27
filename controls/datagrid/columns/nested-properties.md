@@ -14,7 +14,7 @@ DataGrid provides support for nested properties - this allows binding of complex
 In addition, the DataGrid control provides the following property:  
 * `ListenForNestedPropertyChange` (`bool`): Allows the DataGrid to listen for changes in the nested properties' values. The default value is `false`.
 
->tip `ListenForNestedPropertyChange` is false due to optimization purposes, you can enable it in case you'd need to update the nested properties' values.
+>tip `ListenForNestedPropertyChange` is `false` due to optimization purposes. You can enable it in case you'd need to update the nested properties' values.
 
 ## Example
 
