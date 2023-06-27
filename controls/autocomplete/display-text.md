@@ -31,7 +31,7 @@ Here is an example how the RadAutoComplete DisplayText Formatter works on Plain 
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Create a class, for example `MyTextFormatter`, that inherits from `Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter`:
+**3.** Create a class, for example, `MyTextFormatter` that inherits from `Telerik.Maui.Controls.AutoComplete.IDisplayTextFormatter`:
 
 <snippet id='autocomplete-text-formatter-plain-class'/>
 
