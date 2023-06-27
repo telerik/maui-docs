@@ -31,7 +31,7 @@ Change the expanded state of the `AccordionItem` using the `IsExpanded`(`bool`)p
 	
 ## Border Styles
 
-Use `BorderColor`, `BorderThickness` and `CornerRadius` properties of `RadAccordionItem` to change the way the Border around the control looks.
+Use the `BorderColor`, `BorderThickness`, and `CornerRadius` properties of `RadAccordionItem` to change the way the Border around the control looks.
 
 The following snippet shows how to customize the `AccordionItemHeader`:
 
