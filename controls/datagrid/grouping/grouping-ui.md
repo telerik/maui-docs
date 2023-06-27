@@ -38,7 +38,7 @@ The following example demonstrates how to disable the Grouping UI in the DataGri
 </telerik:RadDataGrid>
 ```
 
-The second way is to disable grouping on a `DataGridColumn` level. By using the `CanUserGroup` property and setting it to `False` the grouping for the specific column is disabled.
+The second way is to disable grouping on a `DataGridColumn` level. By using the `CanUserGroup` property and setting it to `False`, the grouping for the specific column is disabled.
 
 The following example demonstrates how to disable the grouping for a specific column:
 
