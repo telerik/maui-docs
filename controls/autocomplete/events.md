@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI AutoComplete Documentation - Events
-description: Review the different events that are triggered on text changed, when return key is pressed, items are filtered and more
+description: Explore the different events that are triggered when the text is changed, the return key is pressed, items are filtered, and more.
 position: 8
 slug: autocomplete-events
 ---
