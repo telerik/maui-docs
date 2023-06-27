@@ -39,7 +39,7 @@ You can disable the resizing by setting the `CanUserResizeColumns` property to `
 
 **2.** Disable the resizing on a column level
 
-To disable the resizing on a specific column set the `IsResizable` property. The default value is `True`.
+To disable the resizing on a specific column, set the `IsResizable` property. The default value is `True`.
 
 ```XAML
 <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity" 
