@@ -11,7 +11,7 @@ slug: autocomplete-methods
 AutoComplete for .NET MAUI exposes the ability to explicitly show/hide the popup containing all items through the following methods:
 
 * `ShowSuggesstions`&mdash;Shows all items when the control receives focus.
-* `HideSuggestions`&mdash;Hide all items when the control loose focus.
+* `HideSuggestions`&mdash;Hide all items when the control looses focus.
 
 ## Example
 
