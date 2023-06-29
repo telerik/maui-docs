@@ -32,7 +32,7 @@ Create a ViewModel with a collection of Client objects:
 
 <snippet id='autocomplete-suggestmode-suggest'/>
 
-Here is the result when `SuggestMode` is set to `Suggest`:
+Here is the result when `SuggestMode` is `Suggest`:
 
 ![AutoComplete Suggest](images/autocomplete-suggest-mode-suggest.png "AutoComplete Suggest")
 

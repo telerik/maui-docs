@@ -16,8 +16,10 @@ Telerik UI for .NET MAUI Accordion is a vertically collapsible content panel tha
 
 * [Collapsed/expanded states]({%slug accordion-expand-collapse-states%})&mdash;Accordion consists of AccordionItems that can present any content. The end users can show or hide this content by interacting with the headers of the control.
 * [Collapse All Items]({% slug accordion-expand-collapse-states%}#collapse-all-items)&mdash;You can allow the app users to collapse the Accordion through the `CanCollapseAllItems` Boolean property.
-* [Highly customizable items]({%slug accordion-accordion-item%})&mdash;You have full control over the visual appearance of the Accordion items - you can customize the border style of each item, the border style of items' headers, as well as the indicator text, font, size, location and color.
+* Option for [expanding multiple items]({%slug accordion-expand-collapse-states%}#expand-multiple-items).
+* [Customizable items]({%slug accordion-accordion-item%})&mdash;You have full control over the visual appearance of the Accordion items - you can customize the border style of each item, the border style of items' headers, as well as the indicator text, font, size, location and color.
 * [Animation while expanding/collapsing]({%slug accordion-animation%}#animation-while-expandingcollapsing)&mdash;RadAccordion provides slick customizable animation played while the expandable content is expanded/collapsed.
+* Applying [space between Accordion items]({%slug accordion-item-spacing%}).
 
 # Next Steps
 

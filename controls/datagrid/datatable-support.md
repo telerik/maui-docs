@@ -28,7 +28,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **3.** Set the `ViewModel`.
 
-<snippet id='datagrid-datatable-view-model'/>
+<snippet id='datagrid-datatable-viewmodel'/>
 
 > For a full data-binding implementation of a DataGrid to a DataTable, see the `DataGrid/DataTable` folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
