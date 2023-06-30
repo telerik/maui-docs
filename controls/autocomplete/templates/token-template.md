@@ -8,13 +8,13 @@ slug: autocomplete-token-template
 
 # Token Customization
 
-AutoComplete provides an option to customize the template that vizualize the tokens through `TokenTemplate` property.
+AutoComplete provides an option to customize the template that visualize the tokens through `TokenTemplate` property.
 
-* `TokenTemplate`(`DataTemplate`)&mdash;Defines the template used to vizualize the tokens.
+* `TokenTemplate`(`DataTemplate`)&mdash;Defines the template used to visualize the tokens.
 
 ## Example
 
-Here is an example how to use the RadAutoComplete TokenTemplate:
+Here is an example how to use the RadAutoComplete `TokenTemplate`:
 
 **1.** Create the needed business objects, for example type City with the following properties:
 
@@ -24,11 +24,11 @@ Here is an example how to use the RadAutoComplete TokenTemplate:
 
 <snippet id='autocomplete-city-viewmodel'/>
 
-**3.** The following snippet shows the TokenTemplate definition:
+**3.** The following snippet shows the `TokenTemplate` definition:
 
 <snippet id='autocomplete-templates-token-template-xaml'/>
 
-and the code for Label.GestureRecognizer property:
+and the code for `Label.GestureRecognizer` property:
 
 <snippet id='autocompleteview-templates-token-template-labelgesture'/>
 

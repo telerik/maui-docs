@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI Accordion Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI Accordion control and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI Accordion control and add the control to your .NET MAUI project
 position: 1
 slug: accordion-getting-started
 ---
