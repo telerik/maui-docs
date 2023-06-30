@@ -62,7 +62,7 @@ The following image shows the final result.
 
 ![BadgeView Badge Text](images/badgeview-badgetext.png)
 
->tip You can customize the look and feel of the BadgeView. For detailed information, refer to articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
+>tip You can customize the look and feel of the BadgeView. For detailed information, refer to the articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
 
 ## Badge Visibility
 
