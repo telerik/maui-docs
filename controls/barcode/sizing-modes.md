@@ -13,7 +13,7 @@ The Barcode provides three sizing modes that enable you to fine-tune the renderi
 
 * Manual&mdash;You can define the size of the smallest line or dot of the barcode through the `Module` property and, as a result, the other lines and dots multiply that size. The `Module` property is measured in device pixels.
 * Snap&mdash;In the snap sizing mode the code is stretched to the available size, but each line or dot is drawn with an exact number of pixels. As a result, the lines and dots appear sharp.
-* Stretch&mdash;In the stretch sizing mode the code is stretch to fit the available size. Each line or dot size is calculated so they snap to the device pixels. for the lines to stay sharp and stretch the barcode to the available size, some of them are thicker than others.
+* Stretch&mdash;In the stretch sizing mode, the code is stretched to fit the available size. Each line or dot size is calculated so they snap to the device pixels. for the lines to stay sharp and stretch the barcode to the available size, some of them are thicker than others.
 
 To apply the desired sizing mode to the Barcode:
 
