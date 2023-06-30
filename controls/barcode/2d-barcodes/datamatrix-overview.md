@@ -8,7 +8,7 @@ slug: barcode-datamatrix-overview
 
 # DataMatrix 
 
-Data Matrix barcode is a two-dimensional type of code used in industry for marking small parts and items due to its high data density and reliability. 
+The Data Matrix barcode is a two-dimensional type of code used in industry for marking small parts and items due to its high data density and reliability. 
 
 ## Visual Structure
 
