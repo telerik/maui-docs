@@ -18,7 +18,7 @@ Data Matrix code consists of dark and light square cells that form a matrix. The
 
 ![Barcode DataMatrix](images/barcode-datamatrix-structure.png)
 
-* Finder pattern&mdash;The L-shaped lines at the bottom and left of the code are called "finder pattern". It's used by the readers for orientation, customization and to correct distortion.
+* Finder pattern&mdash;The L-shaped lines at the bottom and left of the code are called "finder pattern". It's used by the readers for orientation, customization, and correcting distortion.
 
 * Module size&mdash;the smallest cell in the code graphical representation. The module size is recommended to be 2x2 printed dots for readability.
 
