@@ -10,7 +10,7 @@ slug: border-overview
 
 # .NET MAUI Border Overview
 
-Telerik UI for .NET MAUI Border enables you to control the look and feel of the border that wraps around your MAUI views.
+The Telerik UI for .NET MAUI Border enables you to control the look and feel of the border that wraps around your MAUI views.
 
 It provides various border thickness types and corner-side radiuses, which can be used for surrounding labels, images, and other elements.
 
