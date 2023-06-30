@@ -41,7 +41,7 @@ Disregarding the data, which consists the encoded data, along with the error cor
 
   ![qrcode blank space](images/barcode-2d-barcodes-qrcode-overview004.png)
 
-* Data&mdash;The data occupies all available modules that are not occupied by any of the formatting data segments. If the data is less than the capacity of the remaining modules, it's padded to ensure that all modules are used. Additionally, the data consists of the encoded data, entered by the user, and the error correction bits, calculated on that data.
+* Data&mdash;The data occupies all available modules that are not occupied by any of the formatting data segments. If the data is less than the capacity of the remaining modules, it is padded to ensure that all modules are used. Additionally, the data consists of the encoded data, entered by the user, and the error correction bits, calculated on that data.
 
 ## Example
 
