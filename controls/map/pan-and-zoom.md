@@ -1,7 +1,7 @@
 ---
 title: Pan and Zoom
-page_title: Xamarin Map Documentation - Pan and Zoom
-description: Check our &quot;Key Features&quot; documentation article for Telerik Map for Xamarin control.
+page_title: .NET MAUI Map Documentation - Pan and Zoom
+description: Learn how to pan and zoom in Telerik UI for .NET MAUI Map control.
 position: 2
 slug: map-pan-zoom
 ---
@@ -14,12 +14,12 @@ Telerik UI for .NET MAUI Map provides pan and zoom functionality that will help 
 
 You can configure which gesture manipulations the user can do with the map through the enum `InteractionMode` property. `InteractionMode` can receive the following values:
 
-* None: No interaction is allowed;
-* Pan; 
-* Zoom;
-* PanAndZoom (default value).
+* `None`: No interaction is allowed;
+* `Pan`; 
+* `Zoom`;
+* `PanAndZoom` (default value).
 
-Here is a quick snippet how `InteractionMode` isd applied:
+Here is a quick snippet how `InteractionMode` is applied:
 
 <snippet id='map-interaction-mode-xaml' />
 
@@ -27,7 +27,7 @@ where the Source of the MapShapeReader should be defined as well:
 
 <snippet id='map-interactionmode-settintsource' />
 
->note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
+>note In the example the `.shp` file is loaded as an `EmbeddedResource`, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
 ## Zoom Level Support
 
@@ -46,7 +46,7 @@ In addition, you can use the method below to set the provided zoom value as the 
 
 ## Setting the View
 
-If you would like to show a specific area from the map, you can use `SetView` method as described below:
+To show a specific area from the map, you can use `SetView` method as described below:
 
 * `SetView`(LocationRect locationRect) – Sets the provided location as the current view of the map. 
 
@@ -54,7 +54,7 @@ If you would like to show a specific area from the map, you can use `SetView` me
 
 >tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
 
-Here is an example how you could utilize `SetView` method (in the example the used latitude and longitude values are chosen to form a region around Italy):
+Here is an example how to use `SetView` method (in the example the used latitude and longitude values are chosen to form a region around Italy):
 
 <snippet id='map-setview-code' />
 

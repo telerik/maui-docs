@@ -85,7 +85,7 @@ The following example demonstrates how to hide the `BadgeVisibility` state.
 						   HeightRequest="80"
 						   BorderThickness="1"
 						   BorderColor="LightGray">
-            <Label Text="Telerik Badge View for Xamarin"
+            <Label Text="Telerik Badge View for .NET MAUI"
                 FontSize="14"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"/>
@@ -101,7 +101,7 @@ The following image shows the final result.
 
 ## Padding
 
-The BadgeView provides the `Padding`(`Xamarin.Forms.Thickness`) property, which defines its inner padding.
+The BadgeView provides the `Padding`(`Microsoft.Maui.Controls.Compatibility`) property, which defines its inner padding.
 
 ```XAML
  <telerik:RadBadgeView BadgeText="Add" Padding="30">
