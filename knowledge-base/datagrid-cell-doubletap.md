@@ -93,7 +93,7 @@ public class CellDoubleTapUserCommand : DataGridCommand
 }
 ```
 
-4. Add this command to the Commands collection of the RadDataGrid instance:
+4. Add the `CellDoubleTapUserCommand` command to the `Commands` collection of the `RadDataGrid` instance:
 
 ```C#
 grid.Commands.Add(new CellDoubleTapUserCommand());
