@@ -33,7 +33,7 @@ This how-to article describes how to execute the `CellTap` command in `CellDoubl
 
 Here is an example how to execute the `CellTap` command in `CellDoubleTap` command.
 
-1. Create the needed business objects, for example, type Country with the following properties:
+1. Create the needed business objects, for example, the `Country` type with the following properties:
 
 ```C#
 public class Country
