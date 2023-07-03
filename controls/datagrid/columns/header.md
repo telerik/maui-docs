@@ -70,21 +70,26 @@ Define the `HeaderContentTemplate` in the `DataGridColumn`:
 
 You can change the hover state background color of the column header by setting the `BackgroundColor` property.
 
-The following example demonstrates how to apply the `BackGroundColor` property to the DataGrid header for its hover visual state: 
+The following example demonstrates how to apply the `BackgroundColor` property to the DataGrid header for its hover visual state: 
 
 ```XAML
- <VisualStateManager.VisualStateGroups>
-    <VisualStateGroup x:Name="CommonStates">
-        <VisualState x:Name="Normal" />
-        <VisualState x:Name="Focused" />
-        <VisualState x:Name="Disabled" />
-        <VisualState x:Name="PointerOver">
-             <VisualState.Setters>
-                <Setter Property="BackgroundColor" Value="Yellow" />
-             </VisualState.Setters>
-        </VisualState>
-    </VisualStateGroup>
-</VisualStateManager.VisualStateGroups>
+  <DataTemplate x:Key="CustomHeaderTemplate">
+            <telerik:RadBorder BackgroundColor="#F8F8F8"
+                               BorderThickness="1">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Focused" />
+                        <VisualState x:Name="Disabled" />
+                        <VisualState x:Name="PointerOver">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#33000000" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </telerik:RadBorder>
+    </DataTemplate>
 ```
 
 This is the result:
