@@ -31,5 +31,6 @@ RadAccordionItem
 IsExpanded
 RadAccordion
 AccordionItems
+CornerRadius
 BusyIndicator
 25x25
