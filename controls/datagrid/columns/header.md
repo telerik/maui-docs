@@ -1,7 +1,7 @@
 ---
 title: Column Headers
 page_title: .NET MAUI DataGrid Documentation - Columns Header
-description: Check our &quot;Columns Header&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to style and customize the text in the Telerik UI for .NET MAUI DataGrid Header by using the properties of the component.
 position: 2
 previous_url: /controls/datagrid/columns/column-header
 slug: datagrid-column-header
@@ -66,11 +66,11 @@ Define the `HeaderContentTemplate` in the `DataGridColumn`:
 
 ![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
 
-## Hover Visual State on Column Header
+## Color on Hover
 
-You can change the background color of the column header on Hover visual state by setting the `BackgroundColor` property.
+You can change the hover state background color of the column header by setting the `BackgroundColor` property.
 
-Here is an example how to achieve the desired result:
+The following example demonstrates how to apply the `BackGroundColor` property to the DataGrid header for its hover visual state: 
 
 ```XAML
  <VisualStateManager.VisualStateGroups>
@@ -87,7 +87,7 @@ Here is an example how to achieve the desired result:
 </VisualStateManager.VisualStateGroups>
 ```
 
-And the result from the code snippet:
+This is the result:
 
 ![DataGrid Header Column Background Color](../columns/images/datagrid-hover-background-color.gif)
 
