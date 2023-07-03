@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI BusyIndicator Documentation - Getting Started
-description: Check our &quot;Getting Started&quot; documentation article for Telerik BusyIndicator for .NET MAUI control.
+description: Get started with the Telerik UI for .NET MAUI BusyIndicator control and add the control to your .NET MAUI project
 position: 1
 previous_url: /controls/busyindicator/busyindicator-getting-started
 slug: busyindicator-getting-started
@@ -11,7 +11,7 @@ slug: busyindicator-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI BusyIndicator by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![BusyIndicator Getting Started](images/busyindicator-getting-started.png)
 

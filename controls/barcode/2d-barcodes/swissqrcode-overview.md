@@ -21,7 +21,7 @@ The SwissQR Code encodes all the information necessary for a payment in a specif
 
 The SwissQR Code symbol requires an `"M"` error correction level, which means a redundancy or assurance of around 15%.
 
-In addition, the measurements of the SwissQR Code for printing must always be 46 x 46 mm without the surrounding quiet space regardless of the SwissQR Code version. Depending on the printer resolution, the produced SwissQR Code might require size adjustments.
+In addition, the measurements of the SwissQR Code for printing must always be 46 x 46 mm without the surrounding quiet space regardless of the SwissQR Code version. Depending on the printer resolution, the produced SwissQR Code require size adjustments.
 
 ## Generate a SwissQR Barcode
 
@@ -35,7 +35,7 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to facilitate them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
+1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to ease them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
   Through its constructor, you need to set the following properties:
 
