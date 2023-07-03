@@ -1,9 +1,9 @@
 ---
-title: Execute CellTap command on CellDoubleTap in DataGrid
-description: Execute the CellTap command in CellDoubleTap command in the RadDataGrid for .NET MAUI.
+title: Select Cell in Double Tap
+description: Select Cell in DataGrid by Using Double Tap or Double Click
 type: how-to
-page_title: Execute the CellTap command in CellDoubleTap command in DataGrid
-slug: datagrid-cell-doubletap
+page_title: Cell Selection on Double Tap
+slug: datagrid-cell-selection-doubletap
 position: 
 tags: 
 ticketid: 1611664
@@ -27,9 +27,12 @@ res_type: kb
 
 ## Description
 
-This how-to article describes how to execute the `CellTap` command in `CellDoubleTap` command in the RadDataGrid for .NET MAUI.
+This how-to article describes how to select a cell by using the double click, double tap gesture. 
+
 
 ## Solution
+
+For this purpose we will execute the `CellTap` command on `CellDoubleTap` command. So when the user of the application double tapped or double-click on the cell, the item will be selected. 
 
 Here is an example how to execute the `CellTap` command in `CellDoubleTap` command.
 
