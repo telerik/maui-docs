@@ -1,7 +1,7 @@
 ---
 title: Animations
 page_title: .NET MAUI BusyIndicator Documentation - Animations
-description: Check our &quot;Animations&quot; documentation article for Telerik BusyIndicator for .NET MAUI.
+description: Learn how to controll the size and color of built-in animations and how to define custom animations in Telerik UI Busy Indicator .NET MAUI control.
 position: 2
 previous_url: /controls/busyindicator/busyindicator-animations
 slug: busyindicator-animations
@@ -13,9 +13,9 @@ The BusyIndicator provides options for controlling the size and color of its bui
 
 ## Built-in Animations
 
-To change the selected animation of the BusyIndicator, use its `AnimationType` property. `AnimationType` is an enum that accepts values from `Animation1` to `Animation10`. By default, `AnimationType` is set to `Animation1`.
+To change the selected animation of the BusyIndicator, use its `AnimationType` property. `AnimationType` is an enum that accepts values from `Animation1` to `Animation10`. By default, `AnimationType` is `Animation1`.
 
->important The animation will be displayed only when the `IsBusy` property is set to `True`.
+>important The animation will be displayed only when the `IsBusy` property is `True`.
 
 ![BusyIndicator animations list](images/busyindicator-features-animations-0.png)
 
@@ -48,7 +48,7 @@ To create a custom animation, use a combination of the `AnimationType`, `BusyCon
 
 1. The custom animation is added to the `Animations` collection of the BusyIndicator.
 
-The `Animations`(Collection of type `RadAnimation`)&mdash;Used when the `AnimationType` of the BusyIndicator control is set to `Custom`.
+The `Animations`(Collection of type `RadAnimation`)&mdash;Used when the `AnimationType` of the BusyIndicator control is `Custom`.
 
 The following example demonstrates how to create a custom animation that changes the opacity of a text (blinking effect) in XAML.
 
