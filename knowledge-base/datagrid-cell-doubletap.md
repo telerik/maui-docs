@@ -1,5 +1,5 @@
 ---
-title: Select Cell in Double Tap
+title: Select Cell on Double Tap
 description: Select Cell in DataGrid by Using Double Tap or Double Click
 type: how-to
 page_title: Cell Selection on Double Tap
