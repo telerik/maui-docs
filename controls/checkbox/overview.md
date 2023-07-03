@@ -11,7 +11,7 @@ slug: checkbox-overview
 
 **Telerik RadCheckBox for .NET MAUI** is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
 
-> The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS it is visualized as a circle while Android and WinUI display it as a square.
+> The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS its visualized as a circle while `Android` and `WinUI` display it as a square.
 
 ![CheckBox Overview](images/checkbox-overview.png "CheckBox Overview")
 

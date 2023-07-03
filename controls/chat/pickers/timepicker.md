@@ -10,18 +10,18 @@ slug: chat-timepicker
 
 The `RadChatPicker` control provides a `TimePickerContext` that can be used to display a clock view to choose a time.
 
-`TimePickerContext` exposes the following properties you could use to adjust the clock items:
+`TimePickerContext` exposes the following properties that you can use to adjust the clock items:
 
-* `SelectedValue`&mdash;Defines the currently selected time
-* `StartTime`&mdash;It is of type TimeSpan and represents the starting time of the clock's items
-* `EndTime`&mdash;It is of type TimeSpan and corresponds to the time of the last clock item
-* `TimeInterval`&mdash;It is also of type TimeSpan and defines the step between the clock's items. Default value is 1 hour
+* `SelectedValue`&mdash;Defines the currently selected time.
+* `StartTime`&mdash;A property of type `TimeSpan` that represents the starting time of the clock's items.
+* `EndTime`&mdash;A property of type `TimeSpan` that corresponds to the time of the last clock item.
+* `TimeInterval`&mdash;A property of type `TimeSpan` that defines the step between the clock's items. Te default value is 1 hour.
 
-Here is a quick example on how to user TimePicker in RadChat:
+Here is a quick example on how to use the TimePicker in `RadChat`:
 
 <snippet id='chat-chatpicker-timepicker' />
 	
-#### Figure 1: Chat with TimePicker
+>caption Chat with TimePicker
 
 ![Chat Message](images/chat-time-picker.png)
 

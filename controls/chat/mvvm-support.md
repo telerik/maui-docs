@@ -6,25 +6,25 @@ position: 7
 slug: chat-mvvm-support
 ---
 
-# .NET MAUI RadChat MVVM Support 
+# .NET MAUI Chat MVVM Support 
 
-With the `RadChat` control you can easily utilize the Model-View-ViewModel (MVVM) pattern. This can be achieved through the `ItemsSource` property that can be bound/set to a collection of any data items that should be then converted into chat items.
+With the `RadChat` control, you can use the Model-View-ViewModel (MVVM) pattern. You can achieve this through the `ItemsSource` property that can be bound or set to a collection of data items that will be converted into Chat items.
 
-This help article will demonstrate how to use `RadChat` in MVVM scenarios.
+The following example shows how to use `RadChat` in MVVM scenarios.
 
-Create a sample class used to hold the needed information for the chat items:
+**1.** Create a sample class used to hold the needed information for the Chat items:
 
 <snippet id='chat-features-mvvm-chatitem'/>
 
-Create a ViewModel containing a collection of your `SimpleChatItem` items. You could also bind the Chat's `Author` property that represents the end user typing in the input field.
+**2.** Create a ViewModel containing a collection of your `SimpleChatItem` items. You can also bind the Chat's `Author` property that represents the end user typing in the input field.
 
 <snippet id='chat-features-mvvm-viewmodel'/>
 
-Create a Converter class of type `IChatItemConverter` in order to convert the data items into chat messages and vice versa:
+**3.** Create a `Converter` class of type `IChatItemConverter` to convert the data items into Chat messages and the other way around:
 
 <snippet id='chat-features-mvvm-converter'/>
 
-Add the RadChat control to your page with previously defined `ItemsSource` and `ItemConverter` properties:
+**4.** Add the `RadChat` control to your page with previously defined `ItemsSource` and `ItemConverter` properties:
 
 <snippet id='chat-features-mvvm-xaml' />
 	

@@ -1,7 +1,7 @@
 ---
 title: Badge Indicator
 page_title: .NET MAUI BadgeView Documentation - Badge Indicator
-description: Check our &quot;Badge&quot; documentation article for Telerik Badge for .NET MAUI.
+description: Review the main features of the Telerik UI for .NET MAUI BadgeView
 position: 4
 slug: badge-overview
 ---
@@ -10,7 +10,7 @@ slug: badge-overview
 
 The Badge is the indicator (or marker) which is displayed to show notifications, statuses, and so on, while the BadgeView is the control in which you can add content and position the Badge based on this content.
 
->important To provide the best experience out of the BadgeView control and the Badge indicator, it is recommended that you use the [BadgeView]({%slug badgeview-overview%}) and customize the Badge whenever needed.
+>important To provide the best experience use the [BadgeView]({%slug badgeview-overview%}) control. The control gives you the option to add elements in the BadgeView content and display a badge indicator for this view. YOu can customize the badge directly in the BadgeView.
 
 The following image shows the difference between the BadgeView control and the Badge indicator.
 

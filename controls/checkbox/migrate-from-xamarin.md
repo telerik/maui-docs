@@ -8,7 +8,7 @@ slug: checkbox-migrate-from-xamarin
 
 # Migrating the CheckBox from Xamarin to .NET MAUI
 
-Overall, Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Forms CheckBox with a few changes and improvements listed in the tables below:
+Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Forms CheckBox with a few changes and improvements listed in the tables below:
 
 ## Migrating the Namespaces
 

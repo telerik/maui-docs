@@ -8,69 +8,71 @@ slug: pdfviewer-display-documents
 
 ## PDF Document Visualization
 
-.NET MAUI PdfViewer control enables you to visualize PDF documents through the `Source` property of type `Telerik.Maui.Controls.PdfViewer.DocumentSource`. 
+The Telerik UI for .NET MAUI PDF Viewer control enables you to visualize PDF documents through the `Source` property of type `Telerik.Maui.Controls.PdfViewer.DocumentSource`. 
 
-## Visualize documents from FixedDocument
+## Visualize Documents from a Fixed Document
 
-* `RadFixedDocument`&mdash;Used to load the pdf document from a stream.
+The PDF Viewer allows you to load the PDF document from a stream by using the `RadFixedDocument` element.
 
->tip Using this approach you have more control over the loading process, for example, you could modify the document after it is imported and before it is assigned as a `Source` to the PdfViewer control. For more details check [RadFixedDocument](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from RadPdfProcessing documentation. 
+By using this approach, you have more control over the loading process, for example, you can modify the document after importing it and before assigning it as a `Source` to the PDF Viewer control. For more details, check [`RadFixedDocument`](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from `RadPdfProcessing` documentation. 
 
-**Example**
+The following example demonstrates how to visualize a document by using the `RadFixedDocument` method.
 
 <snippet id='pdfviewer-key-features-source-fixed-method' />
 
->note The example shows a PDF document visualized as an EmbeddedResource. This is one of the options for loading a pdf with the PdfViewer control. 
+>note The example shows a PDF document visualized as an embedded resource. This is one of the options for loading a PDF with the PDF Viewer control. 
 
-## Visualize documents from Uri
+## Visualize Documents from URI
+
+The following example demonstrates how to visualize a document from a URI:
 
 <snippet id='pdfviewer-key-features-source-uri' />
 
-or 
+Alternatively, you can also the `UriDocumentSource` class. In this example, the `GetUri()` method returns a valid and accessible URL:
+
 ```C#
 Uri uri = this.GetUri();
 this.pdfViewer.Source = new UriDocumentSource(uri);
 ```
 
-where `GetUri()` method returns a valid and accessible URL.
+## Visualize Documents from File
 
-## Visualize documents from File
-
-You can visualize the PDF document from a file located on a device. You just need to pass the file path to the `Source` property of the PDF Viewer control:
+You can visualize the PDF document from a file located on a device by passing the file path to the `Source` property of the PDF Viewer control:
 
 ```C#
 this.pdfViewer.Source = filePath;
 ```
 
-where the filePath variable is a string that contains the path to the file location.
+In the example above, the `filePath` variable is a string that contains the path to the file location.
 
-In order to make sure that the file exists on the device you could use the following code:
+To validate that the file exists on the device, you can use the following code:
 
 ```C#
 System.IO.File.OpenRead(filePath);
 ```
 
->important Please make sure that you have granted the app all the permissions needed before the resources are used. Otherwise, an error will be raised.
+> Your app must have all required permissions to use the file resources. Failing to grant these permissions will result in an error.
 
-## Visualize documents from Byte Array
+## Visualize Documents from Byte Array
 
-Here is a sample how to visualize PDF documents from a byte array.
+The following example demonstrates how to visualize documents from a byte array.
 
 <snippet id='pdfviewer-key-features-source-byte' />
 
-or
+Alternatively, you can use the `ByteArrayDocumentSource` class:
+
 ```C#
 byte[] bytes = this.GetBytes();
 this.pdfViewer.Source = new ByteArrayDocumentSource(bytes, true);          
 ```
 
-## Visualize documents from a Stream
+## Visualize Documents from a Stream
 
-There are two ways: 
+The following example demonstrates how to visualize documents from a stream:
 
 <snippet id='pdfviewer-key-features-stream' />
 
-or
+Alternatively, you can use the `StreamDocumentSource` class:
 
 ```C#
 Assembly assembly = typeof(KeyFeatures).Assembly;
@@ -81,17 +83,17 @@ streamDocumentSource.Import(stream);
 this.pdfViewer.Source = streamDocumentSource;
 ```
 
->note If you choose the second approach with `StreamDocumentSource`, please keep in mind the stream must stay open while the PdfViewer is in use, because the pdf import is [ReadOnDemand](#readondemand-loading). This means that you'd need to manually close the stream when no longer using the PdfViewer.
+> When using `StreamDocumentSource`, the stream must stay open while the PDF Viewer is in use because the PDF import operates through [read on demand](#read-on-demand-loading). As a result, you must manually close the stream when the PDF Viewer is no longer used.
 
-## ReadOnDemand Loading
+### Read-On-Demand Loading
 
-PdfViewer control provides ReadOnDemand loading of the pdf document, which means that each page of the document is loaded dynamically when necessary (when needed to be shown in the PdfViewer) and it is unloaded once it becomes invisible. The stream that holds the document stays opened while the document is used in PdfViewer.
+The PDF Viewer control implements read-on-demand loading, and each page of the document loads dynamically only when it is shown in the PDF Viewer. When that page isn't in the view area, it gets unloaded. The stream that holds the document stays opened while the document is used in PDF Viewer.
 
-## Document Reference
+## Get Document Reference
 
-Through the `Document` property of RadPdfViewer you can get a reference to the `RadFixedDocument` imported by the DocumentSource. For more details check [RadFixedDocument](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from RadPdfProcessing documentation. 
+By using the `Document` property of `RadPdfViewer`, you can get a reference to the `RadFixedDocument` imported by the document's source. For more details, check [`RadFixedDocument`](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic in the documentation of the RadPdfProcessing library. 
 
 ## See Also
 
-- [Commands]({%slug pdfviewer-commands%})
-- [PdfViewer Toolbar]({%slug pdfviewer-toolbar%})
+- [Commands for PDF Viewer]({%slug pdfviewer-commands%})
+- [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%})

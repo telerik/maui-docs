@@ -9,45 +9,50 @@ published: False
 
 # Viewport Settings
 
-.NET MAUI PdfViewer provides API for getting and manipulating its viewport through the `Viewport` property and `ChangeViewport` method. 
+The Telerik UI for .NET MAUI. PDF Viewer provides an API for getting and manipulating its viewport through the `Viewport` property and `ChangeViewport` method. 
 
-The viewport is the "window" in which the PdfViewer displays its content, users can change the viewport through zooming, panning and scrolling:
+The viewport is the window where the PDF Viewer displays its content and users can change the viewport through zooming, panning, and scrolling:
 
-![.NET MAUI PdfViewer Viewport](images/pdfviewer-viewport.gif)
+![.NET MAUI PDF Viewer Viewport](images/pdfviewer-viewport.gif)
 
-In order to explain how the viewport works, first we need to make clear what's the PdfViewer content as well as how to define the content size. The PdfViewer content is the pdf document itself, and more specifically the document pages. PdfViewer provides two layout mode (`SinglePage` and `ContinuousScroll`) which use different approaches for arranging the document pages. The way the content is defined varies according to the selected layout mode.
+To explain how the viewport works, we first need to clarify the content of the PDF Viewer and how to define its size. The content of the PDF Viewer refers to the PDF document itself, specifically the document pages. The PDF Viewer offers two layout modes: `SinglePage` and `ContinuousScroll`, each utilizing different approaches to arrange the document pages. The method of defining the content varies based on the selected layout mode.
 
->tip For detailed information on the available layout modes check [Viewing Modes]({%slug pdfviewer-key-features%}#viewing-modes) topic.
+>tip For detailed information on the available layout modes, check the [Viewing Modes]({%slug pdfviewer-key-features%}#viewing-modes) topic.
 
-## LayoutModes
+## Layout Modes
 
-**SinglePage**
+The PDF Viewer supports two layout modes that you can set through its `LayoutMode` property:
 
-With `SinglePage` layout mode RadPdfViewer shows one page at a time (the pages are stacked), so the content is the current page and the content size is the size of that page. In cases there are pages with different size in the pdf document, the content size is changed accordingly. 
+* [`SinglePage`](#singlepage-layout-mode)
+* [`ContinuousScroll`](#continuousscroll-layout-mode)
+
+### `SinglePage` Layout Mode
+
+With the `SinglePage` layout mode, the PDF Viewer shows one page at a time (the pages are stacked), so the content is the current page and the content size is the size of that page. If the document contains pages with different sizes, the content size is changed accordingly.
 
 The viewport position is calculated relative to the current page.
 
-![.NET MAUI PdfViewer SinglePage LayoutMode](images/pdfviewer-viewport-singlepage.png)
+![.NET MAUI PDF Viewer SinglePage LayoutMode](images/pdfviewer-viewport-singlepage.png)
 
-**ContinuousScroll**
+### `ContinuousScroll` Layout Mode
 
-With ContinuousScroll layout mode, the content refers to all pages of the document. In this mode the pages are ordered vertically one below another with space between them and are horizontally centered (if the document contains pages with different width, some pages will not be at 0 horizontal position). 
+In the `ContinuousScroll` layout mode, content is defined as all the document pages. In this mode, the pages are vertically ordered one below another with spacing between them, and they are horizontally centered. If the document contains pages with different widths, some pages may not be aligned at the `0` horizontal position.
 
-The content width is even to the widest page. The content height is calculated as a sum of the heights of all the pages plus a sum of the distances between the pages (the distance between pages is controlled by the `PageSpacing` property of the PdfViewer).
+The content width is determined by the widest page in the document. The content height is calculated by summing the heights of all the pages along with the distances between them. The spacing between pages is controlled by the `PageSpacing` property of the PDF Viewer.
 
-So, the viewport position is calculated relative to the whole content (all pages + distances):
+So, the viewport position is calculated relative to the whole content (all pages and distances):
 
 ![.NET MAUI PdfViewer ContinuousScroll LayoutMode](images/pdfviewer-viewport-continuous.png)
 
-No matter which layout mode is selected, the viewport is the "window" which moves over the defined content and renders those pdf elements currently positioned in it.
+No matter which layout mode is selected, the viewport is the "window" which moves over the defined content and renders the PDF elements currently positioned in it.
 
-The `Viewport` property of the PdfViewer is of type *Xamarin.Forms.Rectangle* and can be defined by its top left corner at (x, y) position and width and height values. Keep in mind it's possible to have negative X and Y values in case the viewport becomes bigger than the content itself.
+The `Viewport` property of the PDF Viewer is of type *Xamarin.Forms.Rectangle* and can be defined by its top left corner at the (x, y) position and width and height values. Keep in mind it's possible to have negative X and Y values in case the viewport becomes bigger than the content itself.
 
-## Example
+## Example: Navigating to a Page 
 
-The example below demonstrates how you can utilize the `ChangeViewport` method to navigate to the last page of the document in `ContinuousScroll` and `SinglePage` layout modes as well as how to access the current viewport.
+The example below demonstrates how to utilize the `ChangeViewport` method and navigate to the last page of the document in the `ContinuousScroll` and `SinglePage` layout modes as well as how to access the current viewport.
 
-Use the following snippet to define the RadPdfViewer and RadPdfToolbar:
+**1.** Define the `RadPdfViewer` and `RadPdfToolbar`:
 
 ```XAML
 <Grid>
@@ -68,17 +73,17 @@ Use the following snippet to define the RadPdfViewer and RadPdfToolbar:
 </Grid>
 ```
 
-In addition to this, you need to add the following namespace:
+**2.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-In order to get the current viewport  position and size, use the snippet below:
+**3.** Get the current viewport position and size:
 
 <snippet id='pdfviewer-viewport-getviewport' />
 
-The next snippets demonstrates how you can manipulate the viewport of the PdfViewer:
+**4.** Manipulate the viewport of the PDF Viewer:
 
 <snippet id='pdfviewer-viewport-setviewport' />
 

@@ -1,7 +1,7 @@
 ---
 title: Auto-Checksum
 page_title: .NET MAUI Barcode Documentation - Auto-Checksum
-description: "Learn how to disable the automatic display of the checksum at the end of the Telerik UI for .NET MAUI Barcode."
+description: Learn how to disable the automatic display of the checksum at the end of the Telerik UI for .NET MAUI Barcode.
 position: 4
 previous_url: /controls/barcode/barcode-autochecksum
 slug: barcode-autochecksum

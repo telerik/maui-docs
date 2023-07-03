@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: NET MAUI BadgeView Documentation - Overview
-description: "Try now the Telerik BadgeView for .NET MAUI allowing you to display badges in your application."
+description: Try now the Telerik UI for .NET MAUI BadgeView allowing you to display badges in your application
 position: 0
 tags: badge, .net maui, badgeview, notifications, indicator, marker, badge for .net maui
 slug: badgeview-overview
@@ -20,10 +20,10 @@ Badges can be used as an additional marker for any element: to decorate avatars,
 
 * [Badge indicator]({% slug badge-overview %})&mdash;The BadgeView provides a number of features for customizing its Badge indicator.
 * [Position]({%slug badgeview-position-alignment%}#badge-position)&mdash;The BadgeView allows you to specify the `Position` of the Badge indicator based on its content.
-* [Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can easily align the Badge indicator according to its content.
+* [Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can align the Badge indicator according to its content.
 * [Animation]({%slug badgeview-animation%})&mdash;You can choose whether to have an `Animation` while displaying the Badge indicator. In addition, you can specify the animation duration and animation easing.
 * [Badge types]({%slug badgeview-predefined-badges%})&mdash;You can select the type of a Badge from a set of various predefined options. Also, you can customize and style each Badge type.
-* [Flexible styling API]({%slug badgeview-styling%}) and [customization options]({%slug badgeview-customization%})–Allows you to change the `BackgroundColor`, `BorderThickness`, and `Color` properties of the BadgeView. Also, the BadgeView exposes an API which you can use to fully customize and style the Badge indicator.
+* Flexible [styling API]({%slug badgeview-styling%}) and [customization options]({%slug badgeview-customization%})–Allows you to change the `BackgroundColor`, `BorderThickness`, and `Color` properties of the BadgeView. Also, the BadgeView exposes an API, which you can use to customize and style the Badge indicator.
 
 ## Next Steps
 

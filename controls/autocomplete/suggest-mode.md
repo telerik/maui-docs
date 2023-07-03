@@ -14,7 +14,7 @@ AutoComplete exposes three different modes for providing suggestions:
 * `Append`&mdash;Provides an inline display of the first suggestion;
 * `SuggestAppend`&mdash;Combines the functionality of the two options above, shows a drop-down with suggestions and at the same time selects the first one from the list. 
 
-In order to choose any of those modes use the `SuggestMode` property of the control. The default `SuggestMode` is `Suggest`. 
+To choose any of those modes, use the `SuggestMode` property of the control. The default `SuggestMode` is `Suggest`. 
 
 ## Example
 
@@ -32,11 +32,11 @@ Create a ViewModel with a collection of Client objects:
 
 <snippet id='autocomplete-suggestmode-suggest'/>
 
-Here is the result when `SuggestMode` is set to `Suggest`:
+Here is the result when `SuggestMode` is `Suggest`:
 
 ![AutoComplete Suggest](images/autocomplete-suggest-mode-suggest.png "AutoComplete Suggest")
 
-**Exmaple when `SuggestMode="Append"`**:
+**Example when `SuggestMode="Append"`**:
 
 <snippet id='autocomplete-suggestmode-append'/>
 

@@ -8,13 +8,13 @@ slug: chat-items-timebreak
 
 # Chat Time Break 
 
-`TimeBreak` item of `RadChat` is intended to encapsulate a group of messages according to a certain condition, such as given time intervals or read/unread messages. It is visualized as a dividing line across the messages board with a text message attached to it. 
+The `TimeBreak` item of the `RadChat` control encapsulates a group of messages according to a certain condition, such as given time intervals or read/unread messages. It is visualized as a dividing line across the messages board with a text message attached to it. 
 
-TimeBreak derives from ChatItem and provides an additional `Text` property which holds the string message.
+`TimeBreak` derives from `ChatItem` and provides an additional `Text` property which holds the string message.
 
-#### Adding a TimeBreak
+### Adding a Time Break
 
-You could create a sample TimeBreak item like this:
+The following example shows how to create a sample `TimeBreak` item:
 
 <snippet id='chat-chatitems-timebreak' />
 

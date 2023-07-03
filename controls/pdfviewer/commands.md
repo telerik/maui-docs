@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI PDF Viewer Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik PDF Viewer for Xamarin control.
+description: Check out the commands provided by the Telerik UI for .NET MAUI PDF Viewer control.
 position: 10
 slug: pdfviewer-commands
 ---
@@ -10,41 +10,39 @@ slug: pdfviewer-commands
 
 PDF Viewer provides the following commands of type `ICommand`:
 
-* `ZoomInCommand`
-* `ZoomOutCommand`
-* `NavigateToNextPageCommand`Navigates to next page.
+* `ZoomInCommand`&mdash;Zooms in.
+* `ZoomOutCommand`&mdash;Zooms out.
+* `NavigateToNextPageCommand`&mdash;Navigates to next page.
 * `NavigateToPreviousPageCommand`&mdash;Navigates to previous page.
 * `NavigateToPageCommand`&mdash;Navigates to a concrete page.
-* `ToggleLayoutModeCommand`&mdash;Triggers the RadPdfViewer LayoutModes (`ContinuousScroll` and `SinglePage`)
-* `FitToWidthCommand`&mdash;There are two options when executing FitToWidth command:
-	* `FitDocumentToWidthCommand`(the default one)&mdash;Refers to the whole document; it would lookup the widest of all pages and set a zoom level, so that this page is fit to width. 
+* `ToggleLayoutModeCommand`&mdash;Triggers the `RadPdfViewer` `LayoutModes` (`ContinuousScroll` and `SinglePage`).
+* `FitToWidthCommand`&mdash;There are two options when executing `FitToWidth` command:
+	* `FitDocumentToWidthCommand`(default)&mdash;Refers to the entire document; this option will look up the widest of all pages and set a zoom level allowing this page's width to fit. 
 	
-		>tip If the document has pages with different width, as a side effect, when you are currently viewing a page that is not the widest, this page will not occupy the whole horizontal space.
+		>tip If the document has pages with different widths, when you view a page that is not the widest, this page will not occupy all available horizontal space.
 		
-	* `FitPageToWidthCommand`&mdash;It would execute fit to width on the current page disregarding the width of other pages from the document.
+	* `FitPageToWidthCommand`&mdash;Executes the `FitToWidth` command for the current page and disregards the width of the other pages in the document.
 
-* `DoubleTappedCommand`&mdash;This command is different from the above listed as it is triggered from within the PdfViewer on double-tap action. On the first double-tap the document is zoomed 2.5 times at the tapped location, another double-tap triggers FitToWidth command.
+* `DoubleTappedCommand`&mdash;This command is triggerd by the user when double-tapping the content area of the PDF Viewer. On the first double-tap, the document is zoomed 2.5 times at the tapped location, another double-tap triggers the `FitToWidth` command.
 
->note PdfViewerToolbar contains some of the commands as built-in options, so you can use them though the predefined items in the Toolbar. For more information please check the [PdfViewer Toolbar]({%slug pdfviewer-toolbar%}) article.
+>note PDF Viewer's toolbar contains some of the commands as built-in options so you can use them though the predefined items in the toolbar. For more information, check the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}) article.
 
-## Example
+## Example: Using the PDF Viewer Commands
 
-Following is an example how the RadPdfViewer commands could be called on a button click action. 
+The following example shows how to call `RadPdfViewer` commands on a button click action. The snippet below shows only one of the available approaches for loading a PDF document.
 
->The snippet below shows one of the approaches for loading a pdf document inside PdfViewer just for the purpose of the example.
-
-**1.** Add a pdf document to the project and set its build action to be `EmbeddedResource`.
+**1.** Add a PDF document to the project and set its build action to `EmbeddedResource`.
 
 **2.** Add the following code to visualize the document:
 
 <snippet id='pdfviewer-commands'/>
 
-**3.** Use the following snippet to declare a RadPdfViewer in XAML and add a few buttons that will execute the pdf viewer commands:
+**3.** Use the following snippet to declare a `RadPdfViewer` in XAML and add a few buttons that will execute the PDF Viewer commands:
 
 <snippet id='pdfviewer-commands-xaml'/>
 
 
-By default `FitToWidth` command of the PdfViewer is assigned to "Fit Document to Width" option. You can easily switch to "Fit Page to Width" option by setting `FitToWidthCommand` property of RadPdfViewer to `FitPageToWidthCommand`, check the snippet below:
+By default , the `FitToWidth` command of the PDF Viewer is assigned to the "Fit Document to Width" option. To switch to the "Fit Page to Width" option, set the `FitToWidthCommand` property of `RadPdfViewer` to `FitPageToWidthCommand`:
 	
 ```C#	
 this.pdfViewer.FitToWidthCommand = new FitPageToWidthCommand();
@@ -52,7 +50,7 @@ this.pdfViewer.FitToWidthCommand = new FitPageToWidthCommand();
 
 Calling the `FitToWidthCommand` on a button click action, as in the example above, executes "Fit Page to Width" on the current page.
  
-> For the PdfViewer Commands example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to PdfViewer -> Commands category.
+> For a runnable example demonstrating the PDF Viewer commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Commands**.
 
 ## See Also
 

@@ -6,11 +6,11 @@ position: 1
 slug: chat-imagecard
 ---
 
-# ImageCard 
+# `ImageCard` 
 
-`ImageCardContext` enhances the functionality of the `BasicCardContext` by providing an additional `Image` property, so you could add an image to the Card definition. 
+`ImageCardContext` enhances the functionality of the `BasicCardContext` by providing an additional `Image` property, so you can add an image to the Card definition. 
 
-Here is a quick example on how to create a sequence of ImageCards and show it through the RadChat Picker's control.
+Here is a quick example on how to create a sequence of Image Cards and show it through the `RadChatPicker` control.
 
 ```C#
 var cardsContext = new CardPickerContext {

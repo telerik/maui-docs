@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI Entry Documentation - Commands
-description: "Learn how to use the commands availabe in the Telerik UI for .NET MAUI Entry control."
+description: Learn how to use the commands availabe in the Telerik UI for .NET MAUI Entry control.
 position: 5
 slug: entry-commands
 ---
@@ -15,7 +15,7 @@ When using Telerik UI for .NET MAUI entry control, you can use the following com
 
 The `ReturnCommand` has a command parameter&mdash;`ReturnCommandParameter` which can be used to pass a parameter to the command execute method.
 
-When using MVVM design pattern its better to use the Entry's Commands insetad of the event handler.
+When using MVVM design pattern use the Entry's Commands instead of the event handler.
 
 ```XAML
 <telerik:RadEntry x:Name="entry"

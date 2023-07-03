@@ -59,7 +59,7 @@ The image below shows the result at runtime displaying the defined Indeterminate
 ## Events
 
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
-    * The `Sender` which is of type Telerik.Maui.Controls.RadCheckBox.
+    * The `Sender` which is of type `Telerik.Maui.Controls.RadCheckBox`.
     * and `IsCheckedChangedEventArgs`. The `IsCheckedChangedEventArgs` provides the following properties:
         * `NewValue`(`bool?`)&mdash;Gets the new value from the CheckBox state.
         * `OldValue`(`bool?`)&mdash;Gets the old value of the CheckBox state.

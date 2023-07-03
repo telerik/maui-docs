@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI Border Documentation | Styling
-description: "Learn more about how to set the color and thickness of the Telerik UI for .NET MAUI Barcode."
+description: Learn more about how to set the color and thickness of the Telerik UI for .NET MAUI Barcode.
 tags: .net maui, telerik .net maui, ui for .net maui, border, microsoft .net maui
 position: 40
 previous_url: /controls/border/border-styling
@@ -14,7 +14,7 @@ The Border control provides options for styling its appearance and enables you t
 
 ## Border Color
 
-To specify the color of the Border, use the `BorderColor` property. If the thickness of the Border is set to `0`, the `BorderColor` property is disabled.
+To specify the color of the Border, use the `BorderColor` property. If the thickness of the Border is `0`, the `BorderColor` property is disabled.
 
 ## Border Thickness
 

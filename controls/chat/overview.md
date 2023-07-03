@@ -8,15 +8,15 @@ slug: chat-overview
 
 # .NET MAUI Conversational UI (Chat) Overview
 
-**Telerik Chat for .NET MAUI** is a UI component that enables easy implementation of conversational UI in .NET MAUI applications, whether by utilizing certain chatbot framework, by following a predefined logical tree, or just for integrating peer-to-peer chat capabilities.
+The Telerik UI for .NET MAUI Chat is a UI component that enables the implementation of conversational UI in .NET MAUI applications. It allows for use of a chatbot framework, following a predefined logical tree, or integrating peer-to-peer chat capabilities.
 
 ![Chat Overview](images/chat-overview.png)
 
 ## Key Features
 
-* [A variety of chat items for great user experience]({%slug chat-items-overview %})&mdash;You could choose between simple text messages, various pickers such as list view, calendar, date and time pickers, and cards.
+* [A variety of chat items for great user experience]({%slug chat-items-overview %})&mdash;You can choose between simple text messages, various pickers, such as list view, calendar, date and time pickers, and cards.
 
-* [MVVM Support]({%slug chat-mvvm-support %})&mdash;With RadChat control you could easily utilize the Model-View-ViewModel pattern. This could be achieved through the ItemsSource property that can be bound/set to a collection of any data items that should be then converted into chat items.
+* [MVVM Support]({%slug chat-mvvm-support %})&mdash;With the `RadChat` control, you can use the Model-View-ViewModel pattern. You can achieve this by bounding the `ItemsSource` property to a collection of any data items that will be converted into chat items.
 
 ## Next Steps
 
@@ -24,5 +24,7 @@ slug: chat-overview
 
 ## See Also
 
-- [Chat Items]({%slug chat-items-overview %})
-- [MVVM Support]({%slug chat-mvvm-support %})
+- [.NET MAUI Chat Product Page](https://www.telerik.com/maui-ui/chat-(conversational-ui))
+- [.NET MAUI Chat Forum Page](https://www.telerik.com/forums/maui?tagId=2061)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI BadgeView Documentation - Configuration
-description:  "Learn how to define the Content, BadgeText, BadgeVisibility, and Padding properties of the Telerik UI for .NET MAUI BadgeView."
+description:  Learn how to define the Content, BadgeText, BadgeVisibility, and Padding properties of the Telerik UI for .NET MAUI BadgeView
 position: 3
 slug: badgeview-configuration
 ---
@@ -26,7 +26,7 @@ The BadgeView exposes the `Content`(of type `Microsoft.Maui.Controls.View`) prop
 
 ### Example
 
-The example demonstrates how to set the content of the BadgeView and features a Button inside the `Content`. The BadgeText will be updated on a `ButtonClick`.  
+The example demonstrates how to set the content of the BadgeView and features a Button inside the `Content`. The `BadgeText` will be updated on a `ButtonClick`.  
 
 <snippet id='badgeview-content'/>
 
@@ -62,7 +62,7 @@ The following image shows the final result.
 
 ![BadgeView Badge Text](images/badgeview-badgetext.png)
 
->tip You can fully customize the look and feel of the BadgeView. For detailed information, refer to articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
+>tip You can customize the look and feel of the BadgeView. For detailed information, refer to the articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
 
 ## Badge Visibility
 
