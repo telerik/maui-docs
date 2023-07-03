@@ -66,7 +66,9 @@ source.Add(new Country("Netherlands", 17020000));
 this.BindingContext = source;
 ```
 
-3. Handle the `CellDoubleTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its Id property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+3. Handle the `CellDoubleTap` action as a command:
+   3.1. First, create a class that inherits from the `DataGridCommand` and set its `Id` property.
+   3.2. Override the `CanExecute` and `Execute` methods as demonstrated in the example below.
 
 ```C#
 public class CellDoubleTapUserCommand : DataGridCommand
