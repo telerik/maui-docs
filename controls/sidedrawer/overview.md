@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI SideDrawer Documentation - Overview
-description: Lear how to show drawable content in your desktop and mobile applications by using the Telerik UI for .NET MAUI SideDrawer control.
+description: Learn how to show drawable content in your desktop and mobile applications by using the Telerik UI for .NET MAUI SideDrawer control.
 position: 0
 slug: sidedrawer-overview
 ---

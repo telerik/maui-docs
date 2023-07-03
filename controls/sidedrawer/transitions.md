@@ -1,7 +1,7 @@
 ---
 title: Transitions
 page_title: .NET MAUI SideDrawer Documentation - Transitions
-description: Lear what are the different animation effects you can apply to the .NET MAUI SideDrawer when opening, closing.
+description: Learn what are the different animation effects you can apply to the .NET MAUI SideDrawer when opening, closing.
 position: 3
 slug: sidedrawer-features-transitions
 ---

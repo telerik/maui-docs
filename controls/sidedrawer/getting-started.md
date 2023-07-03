@@ -40,7 +40,7 @@ The SideDrawer control contains two views - `MainContent` and `DrawerContent` Th
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**3.** Add the `DefaultButtonStyle` to the VerticalStackLayout's Resources.
+**3.** Add the `DefaultButtonStyle` to the `VerticalStackLayout` Resources.
 
 ```XAML
  <ResourceDictionary>

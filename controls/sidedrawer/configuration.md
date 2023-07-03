@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI SideDrawer Documentation - Configuration
-description: Lear what are the options to configure the .NET MAUI SideDrawer and how to change the drawer position and interactivity.
+description: Learn what are the options to configure the .NET MAUI SideDrawer and how to change the drawer position and interactivity.
 position: 2
 slug: sidedrawer-features-configuration
 ---
