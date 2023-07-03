@@ -16,7 +16,7 @@ The `PickerPopupSettings` class exposes the following `Style` properties:
 
 * `PopupViewStyle`(of type `Style` with target type `telerik:PickerPopupContentView`)&mdash;Defines the popup view style.
 * `HeaderStyle`(of type `Style` with target type `telerik:PickerPopupHeaderView`)&mdash;Defines the popup header style.
-* `HeaderLabelStyle`(of type `Style` with target type `Xamarin.Forms.Label`)&mdash;Defines the popup header label style.
+* `HeaderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the popup header label style.
 * `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the popup footer style.
 * `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 * `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
