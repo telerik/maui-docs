@@ -39,7 +39,7 @@ this.grid.ItemsSource = new List<Data>
 };
 ```
 
-### First scenario when SizeMode="Fixed":
+### First Scenario when SizeMode="Fixed":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -62,7 +62,7 @@ The first and second columns have set widths of 100 and 200, respectively:
 
 ![DataGrid Fixes Column Size](../images/datagrid-columns-width-fixed.png)
 
-### Second scenario when SizeMode="Stretch":
+### Second Scenario when SizeMode="Stretch":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -83,7 +83,7 @@ The columns take all the available space proportionally. The Width property is i
 
 ![DataGrid Stretch Column Size](../images/datagrid-columns-width-stretch.png)
 
-### Third scenario when SizeMode="Auto":
+### Third Scenario when SizeMode="Auto":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -104,7 +104,7 @@ The columns take only as much space as they need. The Width property is ignored.
 
 ![DataGrid Auto Column Size](../images/datagrid-columns-width-auto.png)
 
-###  Fourth scenario with different SizeMode values
+###  Fourth Scenario with different SizeMode values
 
 Lastly, lets use three columns to fully clarify the `SizeMode` behavior:
 

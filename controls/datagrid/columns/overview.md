@@ -11,9 +11,9 @@ slug: datagrid-columns-overview
 
 You can add columns in your `RadDataGrid` by working with the Columns collection of the control. It has three approaches that you can take to define different columns:
 
-* `Manually`: by adding columns to the *RadDataGrid.Columns* collection
-* `Automatically`: by setting *RadDataGrid.AutoGenerateColumns="True"*
-* `Mixed`: by adding columns to the *RadDataGrid.Columns* collection and also set *RadDataGrid.AutoGenerateColumns="True"*
+* `Manually`: by adding columns to the `RadDataGrid.Columns` collection
+* `Automatically`: by setting `RadDataGrid.AutoGenerateColumns="True"`
+* `Mixed`: by adding columns to the `RadDataGrid.Columns` collection and also set `RadDataGrid.AutoGenerateColumns="True"`
 
 The `RadDataGrid` control provides the following type of columns:
 

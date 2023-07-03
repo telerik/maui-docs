@@ -33,7 +33,7 @@ Set the column freeze programmatically.
 <snippet id='data-grid-frozen-columns-programmatically' />
 
 
-## Collection of frozen columns
+## Collection of Frozen Columns
 
 Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing the columns is done only through the `IsFrozen` property of the columns.
 

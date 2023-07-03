@@ -24,7 +24,7 @@ Here is an example how the `RadDataGrid` `CellTap` command works:
 
 
 
-1. Handle the `CellTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+1. Handle the `CellTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
  <snippet id='datagrid-commands-celltap'/>
 

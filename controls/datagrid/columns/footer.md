@@ -23,7 +23,7 @@ The following example shows how to define a footer in the DataGrid:
                      ShowColumnFooters="True"/>
 ```
 
-## Setting text in the footer
+## Setting Text in the Footer
 
 To define a text inside the footer you have to use the `FooterText` property. The property is per column:
 
