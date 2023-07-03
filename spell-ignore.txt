@@ -10,6 +10,8 @@ Namespaces
 Calendar
 RadCalendar
 RichTextEditor
+BadgeView
+ControlTemplate
 Barcode
 barcode
 SkiaSharp
