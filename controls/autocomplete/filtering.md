@@ -18,6 +18,8 @@ The `IAutoCompleteFilter` interface contains a `Filter` (`bool`) function that i
 * `searchText`&mdash;The current text in the RadAutoComplete control.
 * `completionMode`&mdash;The current `CompletionMode` of RadAutoComplete.
 
+* `CompletionMode` of RadAutoComplete.
+
 The function returns true when the item is added into RadAutoComplete `FilteredItems` collection, otherwise it returns false and the item won't be added into RadAutoComplete `FilteredItems` collection.
 
 >The RadAutoComplete `TextSearchPath` property is required in custom filtering scenarios.

@@ -1,14 +1,14 @@
 ---
 title: Transitions
 page_title: .NET MAUI SideDrawer Documentation - Transitions
-description: Check our &quot;Transitions&quot; documentation article for Telerik UI for .NET MAUI SideDrawer control.
+description: Learn what are the different animation effects you can apply to the .NET MAUI SideDrawer when opening, closing.
 position: 3
 slug: sidedrawer-features-transitions
 ---
 
 # .NET MAUI SideDrawer Transitions
 
-Transitions are the animation effects applied to the side drawer while it is being opened and closed. The following properties are related to the sideDrawer transition:
+Transitions are the animation effects applied to the side drawer while being opened and closed. The following properties are related to the SideDrawer transition:
 
 * `DrawerTransitionDuration`(`double`)&mdash;Defines the duration of the chosen transition.
 * `DrawerTransitionType`(enum of type `Telerik.Maui.Controls.SideDrawerTransitionType`)&mdash;Defines the transition of the component. This property can be set to one of the following values: 
@@ -18,9 +18,9 @@ Transitions are the animation effects applied to the side drawer while it is bei
 
 ## Built-in Transitions
 
-The SideDrawer exposes several predefined transitions. Set the transition type by using the `DrawerTransitionType` property of the SideDrawer. 
+The SideDrawer exposes predefined transitions. Set the transition type by using the `DrawerTransitionType` property of the SideDrawer. 
 
-DrawerTransitionType is enumeration and exposes the following members:
+`DrawerTransitionType` is enumeration and exposes the following members:
 
 * `Push` (the default one)
 * `Fade`
@@ -31,11 +31,11 @@ DrawerTransitionType is enumeration and exposes the following members:
 * `SlideInOnTop`
 * `Custom`
 
-Here is a sample snippet on how you can set `DrawerTransitionType` property of RadSideDrawer:
+Here is a sample snippet on how you can set `DrawerTransitionType` property of `RadSideDrawer`:
 
  <snippet id='sidedrawer-transition-xaml' />
 
-Add the following namespace:
+Use the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
@@ -45,7 +45,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ### Examples
 
-Check below some of the predefined transitions of RadSideDrawer.
+Check below some of the predefined transitions of `RadSideDrawer`.
 
 * Default Push transition:
 
@@ -59,11 +59,10 @@ Check below some of the predefined transitions of RadSideDrawer.
 
 	![SideDrawer ReverseSlideOut](images/sidedrawer_reverseslideout.gif)
 
->important A sample Transitions examples can be found in the SideDrawer/Features folder of the [SDK Browser MAUI application]({%slug maui-demo-app%}).
+> For a runnable example with the SideDrawer Transitions scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SideDrawer > Features**.
 
 ## See Also
 
-- [Getting-Started]({%slug sidedrawer-getting-started%})
 - [Events]({%slug sidedrawer-features-events%})
 - [Configuration]({%slug sidedrawer-features-configuration%})
 - [Commands]({%slug sidedrawer-features-commands%})
