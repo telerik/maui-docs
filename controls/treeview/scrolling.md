@@ -105,9 +105,9 @@ In addition to the `ScrollTo` method, the TreeView exposes the `ScrollToCommand`
 
 ## See Also
 
-* [Expand/Collapse]({%slug treeview-expand-collapse%})
-* [CheckBoxes]({%slug treeview-checkboxes%})
-* [Styling]({%slug treeview-item-style%})
-* [Selection]({%slug treeview-selection%})
+* [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})
+* [CheckBoxes in TreeView]({%slug treeview-checkboxes%})
+* [Styling the TreeView Item]({%slug treeview-item-style%})
+* [Multiple and Single Selection]({%slug treeview-selection%})
 * [Events]({%slug treeview-events%})
-* [Commands]({%slug treeview-commands%})
+* [Available Commands in .NET MAUI TreeView]({%slug treeview-commands%})

@@ -41,7 +41,7 @@ var badge = new RadBadgeView();
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ````
 
-1. Set `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if set the `Content` property of the BadgeView.
+1. Set the `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if you set the `Content` property of the BadgeView.
 
  <snippet id='badgeview-getting-started-xaml'/>
  <snippet id='badgeview-getting-started-csharp'/>

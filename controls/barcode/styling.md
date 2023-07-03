@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI Barcode Documentation - Styling
-description: "Learn how to customize the colors of the Telerik UI for .NET MAUI Barcode."
+description: Learn how to customize the colors of the Telerik UI for .NET MAUI Barcode.
 position: 8
 previous_url: /controls/barcode/barcode-styling
 slug: barcode-styling
