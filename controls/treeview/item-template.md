@@ -8,7 +8,7 @@ slug: treeview-item-template
 
 # .NET MAUI TreeView Item Template
 
-Customize the text displayed in the Treeview item by using the `ItemTemplate` property. The `ItemTemplate` applies on TreeView level. The `ItemTemplate` does not include the checkbox, image and expand/collapse indicator. These elements are part of the `ControlTemplate`. For more details about how to customize the Treeview Control Template review the Control Template article. 
+Customize the text displayed in the TreeView item by using the `ItemTemplate` property. The `ItemTemplate` applies on TreeView level. The `ItemTemplate` does not include the checkbox, image and expand/collapse indicator. These elements are part of the `ControlTemplate`. For more details about how to customize the TreeView Control Template review the [Control Template]({%slug treeview-control-template%}) article. 
 
 Here is an example how to define custom `ItemTemplate`: 
 
