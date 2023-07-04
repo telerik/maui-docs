@@ -20,16 +20,15 @@ To show the Row Details you can use exposed options:
 
 The DataGrid exposes the current properties:
 
-* `AreNowDetailsFrozen`(type `bool`)&mdash;The property indicates whether the row details keep position during horizontal scroll.
+* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep position during horizontal scroll.
 
-* `ExpandedRowDetails`(type `IList`)&mdash;defines the collection of items that have expanded row details.
+* `ExpandedRowDetails` (type `IList`)&mdash;Defines the collection of items that have expanded row details.
 
-* `CanUserExpandMultipleRowDetails`(type `bool`)&mdash;the property indicates whether multiple row details can be expanded.
+* `CanUserExpandMultipleRowDetails` (type `bool`)&mdash;The property indicates whether multiple row details can be expanded.
 
 ## Next Steps
 
 - [Row Details Template]({% slug datagrid-rowdetails-template%})
-- [External Row Details ]({% slug %})
 
 ## See Also
 
