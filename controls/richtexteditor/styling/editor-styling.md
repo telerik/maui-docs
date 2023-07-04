@@ -17,7 +17,7 @@ You can take advantage of the following styling properties:
 * `CornerRadius`(`Thickness`)&mdash;Defines corner radius of the border.
 * `BackgroundColor`(`Color`)&mdash;Defines the background color of the editor.
 
->important On WinUI the `BackgroundColor` works when the color is initially applied and with Colors that have Alpha = 1. So you do not have to add transparency to the `BackgroundColor` on WinUI.
+>important On WinUI the `BackgroundColor` works when the color is initially applied and with Colors that have Alpha = `1`. So you do not have to add transparency to the `BackgroundColor` on WinUI.
 
 ## Example
 
