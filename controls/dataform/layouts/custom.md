@@ -1,7 +1,7 @@
 ---
 title: CustomLayout
 page_title: .NET MAUI DataForm Documentation - CustomLayout
-description: "Review the .NET MAUI DataForm &quot;CustomLayout&quot; option."
+description: Learn how to apply custom layout in the .NET MAUI DataForm.
 position: 4
 slug: dataform-layouts-custom
 ---
@@ -10,17 +10,34 @@ slug: dataform-layouts-custom
 
 The `DataFormCustomLayout` definition allows you to arrange the items using a custom layout.
 
-In order to build the custom layout you have to use the `LayoutTemplate`(`DataTemplate`) proeprty.
+To build the custom layout you have to use the `LayoutTemplate` (`DataTemplate`) property.
 
-**RadDataForm XAML definition with CustomLayout applied using a HorizontalStackLayout**
+XAML definition of `RadDataForm` with `CustomLayout` applied using a `RadWrapLayout`
 
-<snippet id='dataform-layouts-custom'/>
+```XAML
+<Grid>
+    <telerik:RadDataForm x:Name="dataForm">
+        <telerik:RadDataForm.LayoutDefinition>
+            <telerik:DataFormCustomLayout>
+                <telerik:DataFormCustomLayout.LayoutTemplate>
+                    <DataTemplate>
+                        <telerik:RadWrapLayout/>
+                    </DataTemplate>
+                </telerik:DataFormCustomLayout.LayoutTemplate>
+            </telerik:DataFormCustomLayout>
+        </telerik:RadDataForm.LayoutDefinition>
+        <telerik:RadDataForm.BindingContext>
+            <local:EditorsViewModel/>
+        </telerik:RadDataForm.BindingContext>
+    </telerik:RadDataForm>
+</Grid>
+```
 
-**The Model used for the DataForm editors**
+The Model used for the DataForm editors
 
 <snippet id='dataform-editors-model'/>
 
 ## See Also
 
-- [VerticalStack Layout]({%slug dataform-layouts-verticalstack%})
-- [Grid Layout]({%slug dataform-layouts-grid%})
+- [DataForm with VerticalStack Layout]({%slug dataform-layouts-verticalstack%})
+- [DataForm with Grid Layout]({%slug dataform-layouts-grid%})

@@ -17,13 +17,13 @@ You can set the color of the check mark as well as the control itself in each of
 
 To set the background and border colors of the CheckBox, use the following properties:
 
-* `CheckedColor`&mdash;Defines the Color applied to the control when it is checked. This is both the border and background color.
-* `UncheckedColor`&mdash;Defines the Color applied to the control when it is unchecked. This is the border color only, the background is transparent when unchecked.
-* `IndeterminateColor`&mdash;Defines the Color applied to the control when it is in Indeterminate state. This is both the border and background color.
+* `CheckedColor`&mdash;Defines the Color applied to the control when its checked. This is both the border and background color.
+* `UncheckedColor`&mdash;Defines the Color applied to the control when its unchecked. This is the border color only, the background is transparent when unchecked.
+* `IndeterminateColor`&mdash;Defines the Color applied to the control when its in Indeterminate state. This is both the border and background color.
 
 To set the symbol colors of the CheckBox, use the following properties:
 
-* `CheckedSymbolColor`&mdash;Defines the Color applied to the check symbol of the control when it is in Checked state.
+* `CheckedSymbolColor`&mdash;Defines the Color applied to the check symbol of the control when its in Checked state.
 * `IndeterminateSymbolColor`&mdash;Defines the Color applied to the Indeterminate symbol of the control.
 
 The following example demonstrates how to set the `CheckedColor` property.
@@ -56,7 +56,7 @@ The image below shows the end result.
 
 ## Corner Radius
 
-Easily apply corner radius to the Checkbox control using the `CornerRadius`(`double?`) property.
+Apply corner radius to the Checkbox control using the `CornerRadius`(`double?`) property.
 
 ```XAML
 <telerik:RadCheckBox x:Name="checkbox" CornerRadius="3"/>
@@ -76,6 +76,9 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ![CheckBox Stroke Thickness](images/checkbox-features.png)
 
+## Remove the Animation
+
+The CheckBox control exposes a `IsAnimated` (`bool`) property that allows to remove the animations during state transitions. The default value is `True`.
 
 ## See Also
 

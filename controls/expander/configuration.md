@@ -28,7 +28,7 @@ You could either apply `HeaderText` property or use the `ExpanderHeader` content
 
 To enable or disable the animation you need to use the `IsAnimationEnabled` property of RadExpander. By default, the Animation is enabled.
 
-You could also customize the duration and easing (acceleration over time) through `AnimationDuration`(in ms) and `AnimationEasing` (of type *Xamarin.Forms.Easing*) properties.
+You could also customize the duration and easing (acceleration over time) through `AnimationDuration`(in ms) and `AnimationEasing` (of type *Microsoft.Maui.Easing*) properties.
 
 ## Border styling
 

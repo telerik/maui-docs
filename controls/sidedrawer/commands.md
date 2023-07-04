@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI SideDrawer Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik SideDrawer for .NET MAUI control.
+description: Review the commands for opening and closing the Telerik SideDrawer for .NET MAUI control.
 position: 5
 slug: sidedrawer-features-commands
 ---
@@ -9,9 +9,9 @@ slug: sidedrawer-features-commands
 # .NET MAUI SideDrawer Commands
 
 The SideDrawer control exposes a `Commands` collection that allows you to
-register custom commands with each control’s instance. The commands allow the user to easily change and extend the control default behavior.
+register custom commands with each control’s instance. The commands allow the user to change and extend the control default behavior.
 
-Each element in the `Commands` collection inherits from the `SideDrawerCommandBase` class, and can override the `CanExecute()` and `Execute()` methods. Each command is associated with a certain event, which is represented by the command `Id` property. The property needs to be set to one of the values listed below, otherwise the command service of the control will not execute the command.
+Each element in the `Commands` collection inherits from the `SideDrawerCommandBase` class, and can override the `CanExecute()` and `Execute()` methods. Each command is associated with an event, which is represented by the command `Id` property. The property needs to be set to one of the values listed below, otherwise the command service of the control will not execute the command.
 
 * `Opening`&mdash;Executed when the side drawer is being visualized on the device screen.
 * `Opened`&mdash;Executed when the side drawer is already visualized on the device screen.
@@ -26,7 +26,7 @@ The following examples demonstrates how to use the SideDrawer commands in differ
 
 ### Inheriting from the SideDrawerCommandBase class
 
-1. Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation is shown below:
+1. Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation:
 
  ```C#
 public class CustomDrawerCommand : SideDrawerCommandBase
@@ -48,7 +48,7 @@ public class CustomDrawerCommand : SideDrawerCommandBase
 }
  ```
 
-1. When you create the command, define the SideDrawer and the command in XAML:
+1. When you create the command, define the `RadSideDrawer` and the command in XAML:
 
  ```XAML
 <telerik:RadSideDrawer>
