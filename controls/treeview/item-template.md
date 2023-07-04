@@ -1,7 +1,7 @@
 ---
 title: Item Template
 page_title: .NET MAUI TreeView Documentation - Item Template
-description: Review how to customize the defualt text displayed in the Telerik .NET MAUI TreeView control by using the item template. 
+description: Review how to customize the default text displayed in the Telerik .NET MAUI TreeView control by using the item template. 
 position: 7
 slug: treeview-item-template
 ---
