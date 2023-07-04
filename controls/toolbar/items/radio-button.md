@@ -15,7 +15,7 @@ The available properties for configuration are:
 * `IsSelected`(`bool`)&mdash;Specifies whether the button is selected.
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
-* `GroupName`(`string`)&mdash;Specifies the unique name of the radio group. The radio group allows single selection all all radio toolbar items with the same radio group name. 
+* `GroupName`(`string`)&mdash;Specifies the unique name of the radio group. The radio group allows single selection for all radio toolbar items with the same radio group name. 
 
 ## Events
 
@@ -31,7 +31,7 @@ The available commands are:
 
 ## Styling
 
-Use the `Styele` property with target type `Telerik.Maui.Controls.RadioButtonToolbarItemView`. The properties that can be applied through style are: `IsSelected` and all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling).
+Use the `Style` property with target type `Telerik.Maui.Controls.RadioButtonToolbarItemView`. The properties that can be applied through style are: `IsSelected` and all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling).
 
 ## See Also
 
