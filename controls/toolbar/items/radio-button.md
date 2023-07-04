@@ -15,6 +15,7 @@ The available properties for configuration are:
 * `IsSelected`(`bool`)&mdash;Specifies whether the button is selected.
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
+* `GroupName`(`string`)&mdash;Specifies the unique name of the radio group. The radio group allows single selection all all radio toolbar items with the same radio group name. 
 
 ## Events
 
