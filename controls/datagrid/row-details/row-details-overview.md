@@ -1,9 +1,9 @@
 ---
-title: Row Details Overview
+title: Overview
 page_title: .NET MAUI DataGrid Documentation - Row Details Overview
 description: Learn how to present additional information about DataGrid row by using row details functionality.
 position: 0
-slug: datagrid-rowdetails-overview
+slug: datagrid-row-details-overview
 ---
 
 # .NET MAUI DataGrid Row Details Overview
