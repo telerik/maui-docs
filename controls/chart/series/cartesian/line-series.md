@@ -1,7 +1,7 @@
 ---
 title: Line Series
 page_title: .NET MAUI Chart Documentation - Line Series
-description: Check our &quot;Line Series&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about Line series that Telerik UI for .NET MAUI Chart control visualize.
 position: 0
 slug: chart-series-line-series
 ---

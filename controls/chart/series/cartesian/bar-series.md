@@ -1,14 +1,14 @@
 ---
 title: Bar Series
 page_title: .NET MAUI Chart Documentation - Bar Series
-description: Check our &quot;Bar Series&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about Bar series that Telerik UI for .NET MAUI Chart control visualize.
 position: 0
 slug: chart-series-bar-series
 ---
 
 # .NET MAUI Chart Bar Series
 
-The Cartesian Chart visualizes each data point from the Bar Series as a rectangle (or a bar). These rectangles can be displayed either horizontally, or vertically, depending on whether the Categorical Axis is the vertical axis or the horizontal one. When the horizontal axis is categorical, the rectangles are displayed vertically. This means that they display an equal width while their height represents the numerical value of each of the data points. On the other hand, when the vertical axis is categorical, the rectangles have equal height, while their width represents the value of the data point.
+The Cartesian Chart visualizes each data point from the Bar Series as a rectangle (or a bar). These rectangles can be displayed either horizontally, or vertically, depending on whether the Categorical Axis is the vertical axis or the horizontal one. When the horizontal axis is categorical, the rectangles are displayed vertically. This means that they display an equal width while their height represents the numerical value of each of the data points. So, when the vertical axis is categorical, the rectangles have equal height, while their width represents the value of the data point.
 
 The Bar Series inherits from the Categorical Series and requires one Categorical Axis and one Numerical Axis.
 
@@ -41,4 +41,4 @@ The following image shows how the Bar Series looks:
 
 - [Categorical Series Overview]({%slug chart-series-overview %})
 - [Categorical Series Orientation]({%slug chart-series-orientation %})
-- [Cartegorical Series Combine Mode]({%slug chart-series-combine-mode %})
+- [Categorical Series Combine Mode]({%slug chart-series-combine-mode %})

@@ -9,7 +9,7 @@ slug: chart-features-legend
 
 # .NET MAUI Chart Legend
 
-The Legend feature of the `RadChart` makes it easy for you to provide description regarding the series which are visualized within the control.
+The Legend feature of the `RadChart` provide description about the series which are visualized within the control.
 
 To add the legend feature in your application, you need to initialize a new object of type `RadLegend`.
 
@@ -44,7 +44,7 @@ The following image shows the `RadLegend` control in combination with a Cartesia
 
 ## Legend Title Binding
 
-The `LegendTitleBinding` is a property which can be set specifically for the Pie Series. It points to the property of the data item which will be used as a title in the legend. For all other series, the `DisplayName` property will be used instead.
+The `LegendTitleBinding` is a property which can be set for the Pie Series. It points to the property of the data item which will be used as a title in the legend. For all other series, the `DisplayName` property will be used instead.
 
 <snippet id='chart-features-piechart-legendtitlebinding-xaml'/>
 

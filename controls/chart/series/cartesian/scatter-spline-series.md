@@ -1,7 +1,7 @@
 ---
 title: ScatterSpline Series
 page_title: .NET MAUI Chart Documentation - ScatterSpline Series
-description: Check our &quot;ScatterSpline Series&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about ScatterSpline series that Telerik UI for .NET MAUI Chart control visualize.
 slug: chart-series-scatter-spline-series
 position: 0
 ---
@@ -34,7 +34,6 @@ The following example shows how to create a `RadCartesianChart` with a ScatterSp
 1. Use the following snippet to declare a `RadCartesianChart` with a ScatterSpline Series in XAML:
 
  <snippet id='chart-series-scatterspline-xaml' />
-
 
 
 The following image shows the end result:

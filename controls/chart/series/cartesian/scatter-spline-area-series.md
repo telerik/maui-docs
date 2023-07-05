@@ -1,7 +1,7 @@
 ---
 title: ScatterSplineArea Series
 page_title: .NET MAUI Chart Documentation - ScatterSplineArea Series
-description: Check our &quot;ScatterSplineArea Series&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about ScatterSplineArea series that Telerik UI for .NET MAUI Chart control visualize.
 slug: chart-series-scatter-spline-area-series
 position: 0
 ---
@@ -29,12 +29,12 @@ The following example shows how to create a `RadCartesianChart` with a ScatterSp
  <snippet id='numerical-data-model' />
 
 
-1. Ceate a `ViewModel`:
+1. Create a `ViewModel`:
 
  <snippet id='chart-series-numerical-view-model' />
 
 
-1. Usee the following snippet to declare a `RadCartesianChart` with a ScatterSplineArea Series in XAML:
+1. Use the following snippet to declare a `RadCartesianChart` with a ScatterSplineArea Series in XAML:
 
  <snippet id='chart-series-scattersplinearea-xaml' />
 

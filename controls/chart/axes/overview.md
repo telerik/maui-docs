@@ -9,7 +9,7 @@ slug: axes-overview
 
 # .NET MAUI Chart Axes
 
-The Cartesian Chart plots data points in a coordinate system defined by its two axes. Instead of having one axis type that does hundreds of things, axes provides a hierarchy where each concrete axis type exposes a specific functionality.
+The Cartesian Chart plots data points in a coordinate system defined by its two axes. Instead of having one axis type that does hundreds of information, axes provides a hierarchy where each concrete axis type exposes a specific functionality.
 
 ![Axes Class Diagram](images/axes-class-diagram.png)
 
@@ -21,7 +21,7 @@ The predefined axis types are:
 
 ## Common Axis Features
 
-The common axis functionality is encapsulated by the abstract `Axis` class and is responsible for displaying ticks that simply mark values on the axis at fixed positions. The axis also displays labels that are used to provide a visualization of the values at some or all of the ticks. The default visualization of the labels is text, and the default visuals created internally are text blocks.
+The common axis functionality is encapsulated by the abstract `Axis` class and handles displaying ticks that mark values on the axis at fixed positions. The axis also displays labels that are used to provide a visualization of the values at some or all the ticks. The default visualization of the labels is text, and the default visuals created internally are text blocks.
 
 The following sections list all the properties exposed by the base axis type.
 

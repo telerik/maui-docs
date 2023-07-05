@@ -9,9 +9,9 @@ slug: axes-date-time-continuous-axis
 
 # .NET MAUI Chart DateTime Continuous Axis
 
-The DateTime Continuous Axis is a special axis that extends the base `CartesianAxis` class and may be considered as a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
+The DateTime Continuous Axis is a special axis that extends the base `CartesianAxis` class and is a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
 
-The DateTime Continuous Axis also expects valid `DateTime` values so that the data can be plotted correctly. Think of the `DateTimeContinuousAxis` as a timeline where each data point has a certain position, depending on its `DateTime` value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two `DateTime` values. It is possible to have empty time slots if no data falling into them is found, because the axis behaves like a numerical one.
+The DateTime Continuous Axis also expects valid `DateTime` values so that the data can be plotted correctly. The `DateTimeContinuousAxis` as a timeline where each data point has a position, depending on its `DateTime` value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two `DateTime` values. It's possible to have empty time slots if no data falling into them is found, because the axis behaves like a numerical one.
 
 The `CategoricalAxis` inherits from the base `Axis` class. For more information, refer to the article on [inherited properties]({% slug axes-overview %}).
 

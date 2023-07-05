@@ -1,7 +1,7 @@
 ---
 title: ScatterPoint Series
 page_title: .NET MAUI Chart Documentation - ScatterPoint Series
-description: Check our &quot;ScatterPoint Series&quot; documentation article for Telerik Chart for .NET MAUI control.
+description: Learn more about ScatterPoint series that Telerik UI for .NET MAUI Chart control visualize.
 slug: chart-series-scatter-point-series
 position: 0
 ---

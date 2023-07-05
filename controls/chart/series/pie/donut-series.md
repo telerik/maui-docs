@@ -2,7 +2,7 @@
 title: Donut Series
 page_title: .NET MAUI Chart Documentation - Donut Series
 slug: chart-series-donut-series
-description: Check our &quot;DonutSeries&quot; documentation article for Telerik Chart for .NET MAUI control.
+description: Learn more about the Donut series in Telerik UI for .NET MAUI Chart control.
 position: 1
 ---
 
@@ -15,7 +15,7 @@ The Pie Chart visualizes the Donut Series in the shape of a donut. The inner emp
 The Donut Series supports the following properties:
 
 - `ValueBinding`&mdash;Defines the binding to a property of the data model that will be used to fill the pie slices.
-- `RadiusFactor`&mdash;Specifies the radius factor used to calculate the radius of the visual series. This value is usually within the [0,1] range but it is possible to oversize the series by setting a value greater than `1`.
+- `RadiusFactor`&mdash;Specifies the radius factor used to calculate the radius of the visual series. This value is usually within the [0,1] range but its possible to oversize the series by setting a value greater than `1`.
 - `InnerRadiusFactor`&mdash;Specifies the radius factor used to calculate the radius of the inner empty space within the Donut visual element.
 - `SelectedPointOffset`&mdash;Sets the offset applied to the currently selected point.
 
