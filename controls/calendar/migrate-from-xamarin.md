@@ -8,7 +8,7 @@ slug: calendar-migrate-from-xamarin
 
 # Migrate from Xamarin.Forms Calendar to .NET MAUI Calendar
 
-The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
 In Telerik UI for Xamarin, the Calendar also includes scheduling, while the Telerik UI for .NET MAUI Calendar and Scheduler are different controls. As of today, the development of the Scheduler is planned. 
 

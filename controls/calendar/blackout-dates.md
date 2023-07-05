@@ -12,13 +12,13 @@ The Calendar component for .NET MAUI provides a simple way to disable specific d
 
 ## Disabled (Blackout) Dates Example
 
-The following snippets show how to disable certain dates in Calendar control.
+The following snippets show how to disable dates in Calendar control.
 
 **1.** Define the `RadCalendar` control in XAML.
 
 <snippet id='calendar-blackout-dates'/>
 
-**2.** Add a VieWModel with defined blackout dates. 
+**2.** Add a ViewModel with defined blackout dates. 
 
 <snippet id='calendar-blackoutdates-viewmode'/>
 
