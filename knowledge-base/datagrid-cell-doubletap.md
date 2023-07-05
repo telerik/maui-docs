@@ -80,11 +80,6 @@ Here is an example how to execute the `CellTap` command in `CellDoubleTap` comma
             Id = DataGridCommandId.CellDoubleTap;
         }
 
-        public override bool CanExecute(object parameter)
-        {
-            return true;
-        }
-
         public override void Execute(object parameter)
         {
             this.Owner.CommandService.ExecuteDefaultCommand(DataGridCommandId.CellTap, parameter);
