@@ -20,7 +20,7 @@ To show the Row Details, you can use the following exposed options:
 
 The DataGrid exposes the current properties:
 
-* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep position during horizontal scroll.
+* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep their position during horizontal scroll.
 
 * `ExpandedRowDetails` (type `IList`)&mdash;Defines the collection of items that have expanded row details.
 
