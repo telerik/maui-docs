@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI DataGrid control is capable of presenting additiona
 
 To show the Row Details, you can use the following exposed options:
 
-- Using the default column `DataGridToggleRowDetailsColumn`&mdash;allows showing and hiding the row details for an item. For additional information you can refer to our DataGrid [Toggle Row Details Column]({% slug datagrid-columns-toggle-column% })
+- The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({% slug datagrid-columns-toggle-column% })
 
 - Using `SelectionChanged` event.
 
