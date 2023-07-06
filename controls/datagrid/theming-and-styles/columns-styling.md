@@ -116,7 +116,7 @@ And this is how the column style looks when the properties for customizing the c
 
 * `ButtonFontFamily`&mdash;Defines the font family for the toggle symbol.
 * `ExpandButtonText`&mdash;Defines the text for the expanded state.
-* `CollapseButtonText`&mdash;Defines the text for the collapse state.
+* `CollapseButtonText`&mdash;Defines the text for the collapsed state.
 * `ButtonTextColor`&mdash;Defines the color for the toggle symbol.
 * `SelectedButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is selected.
 * `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is hovered.
