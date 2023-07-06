@@ -119,7 +119,7 @@ And this is how the column style looks when the properties for customizing the c
 * `CollapseButtonText`&mdash;Defines the text for the collapsed state.
 * `ButtonTextColor`&mdash;Defines the color for the toggle symbol.
 * `SelectedButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is selected.
-* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is hovered.
+* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is being hovered over.
 * `ButtonFontSize`&mdash;Defines font size for the toggle symbol.
 * `ButtonFontAttributes`&mdash;Defines `Microsoft.Maui.Controls.FontAttributes` for the toggle symbol.
 * `ButtonMargin`(type `Thickness`)&mdash;Defines the margin for the toggle symbol.
