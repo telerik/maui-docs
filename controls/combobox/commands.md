@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI ComboBox Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+description: Learn more about the commands that Telerik UI for .NET MAUI ComboBox control exposes.
 position: 8
 slug: combobox-commands
 ---

@@ -1,7 +1,7 @@
 ---
 title: Data Binding
 page_title: .NET MAUI ComboBox Documentation - Data Binding
-description: Check our &quot;Data Binding&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+description: Learn more about the ways for data binding in Telerik UI for .NET MAUI ComboBox control.
 position: 3
 slug: combobox-databinding
 ---
@@ -13,7 +13,7 @@ slug: combobox-databinding
 
 > If DisplayMemberPath is not set the “ToString” implementation of the business object will be visualized. The DisplayMemberPath is a property that helps the developers to visualize an exact property from the business object they are bound to.
 
-## Binding to a complex object
+## Binding to a Complex Object
 
 Here is the ComboBox definition in XAML:
 

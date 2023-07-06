@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI ComboBox Documentation - ComboBox Visual Structure
-description: Check our &quot;Visual Structure&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+description: Learn more about the visual elements used in Telerik UI for .NET MAUI ComboBox control.
 position: 0
 slug: combobox-visual-structure
 ---
@@ -34,9 +34,9 @@ Here are described all visual elements used in the ComboBox for .NET MAUI.
 
 ## Legend
 
-- `Placeholder`&mdash;The text which is used to give guidance to the end user on what should be entered/searched in the input.
+- `Placeholder`&mdash;The text which is used to give guidance to the end user on what can be entered/searched in the input.
 - `ClearButton`&mdash;Clears the selection of the control both multiple and single.
-- `Tokens`&mdash;When multiple items are selected from the dropdown list, these items appear as tokens. They can easily be deselected using their close button.
+- `Tokens`&mdash;When multiple items are selected from the dropdown list, these items appear as tokens. They can be deselected using their close button.
 - `SelectedItem`&mdash;The currently selected item.
 - `SelectedItems`&mdash;The selected items, when multiple selection is used.
-- `DropDownButton`&mdash;A button used for opening and closing the DropDown part of the control – the arrow icon of the button indicates whether it is currently opened or closed.
+- `DropDownButton`&mdash;A button used for opening and closing the DropDown part of the control – the arrow icon of the button indicates whether it's currently opened or closed.
