@@ -115,12 +115,12 @@ And this is how the column style looks when the properties for customizing the c
 `CellContentStyle` defines the appearance of the `DataGridToggleRowDetailsColumn`. The `DataGridToggleRowDetailsCellStyle` exposes the following properties for styling:
 
 * `ButtonFontFamily`&mdash;Defines the font family for the toggle symbol.
-* `ExpandButtonText`&mdash;Defines the text for the expand state.
-* `CollapseButtonText`&mdash;Defines the text for the collapse state.
+* `ExpandButtonText`&mdash;Defines the text for the expanded state.
+* `CollapseButtonText`&mdash;Defines the text for the collapsed state.
 * `ButtonTextColor`&mdash;Defines the color for the toggle symbol.
 * `SelectedButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is selected.
-* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is hovered.
-* `ButtonFontSize`&mdash;Defines font size for the toggle symbol.
+* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is being hovered over.
+* `ButtonFontSize`&mdash;Defines the font size for the toggle symbol.
 * `ButtonFontAttributes`&mdash;Defines `Microsoft.Maui.Controls.FontAttributes` for the toggle symbol.
 * `ButtonMargin`(type `Thickness`)&mdash;Defines the margin for the toggle symbol.
 

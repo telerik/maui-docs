@@ -1,26 +1,26 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Row Details Overview
-description: Learn how to present additional information about DataGrid row by using row details functionality.
+description: Learn how to present additional information about DataGrid rows by using the row details functionality.
 position: 0
 slug: datagrid-row-details-overview
 ---
 
 # .NET MAUI DataGrid Row Details Overview
 
-The Telerik UI for .NET MAUI DataGrid control is capable of presenting additional information with a Row Details functionality. The Row Details is a Data Template defined on the grid- or row-level and is used for displaying data without affecting the dimensions of the row and the cells within it.
+The Telerik UI for .NET MAUI DataGrid control is capable of presenting additional information through the Row Details functionality. The Row Details is a Data Template defined on the grid- or row-level and is used for displaying data without affecting the dimensions of the row and the cells within it.
 
 ![DataGrid Row Details Overview](images/datagrid-row-details.png)
 
-To show the Row Details you can use exposed options:
+To show the Row Details, you can use the following exposed options:
 
-- Using the default column `DataGridToggleRowDetailsColumn`&mdash;allows showing and hiding the row details for an item. For additional information you can refer to our DataGrid [Toggle Row Details Column]({% slug datagrid-columns-toggle-column% })
+- The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({% slug datagrid-columns-toggle-column% })
 
-- Using `SelectionChanged` event.
+- The `SelectionChanged` event.
 
 The DataGrid exposes the current properties for row details functionality:
 
-* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep position during horizontal scroll.
+* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep their position during horizontal scroll.
 
 * `ExpandedRowDetails` (type `IList`)&mdash;Defines the collection of items that have expanded row details.
 
