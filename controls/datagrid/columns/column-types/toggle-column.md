@@ -10,7 +10,7 @@ slug: datagrid-columns-toggle-column
 
 The `DataGridToggleRowDetailsColumn` represents `DataGridColumn` that allows the user to show and hide the row details for an item.
 
-![DataGrid Toggle Row Details Column](images/datagrid-toggle-column.gif)
+![DataGrid Toggle Row Details Column](images/datagrid-row-details.gif)
 
 ## See Also
 

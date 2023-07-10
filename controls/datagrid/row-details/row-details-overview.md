@@ -18,7 +18,7 @@ To show the Row Details you can use exposed options:
 
 - Using `SelectionChanged` event.
 
-The DataGrid exposes the current properties:
+The DataGrid exposes the current properties for row details functionality:
 
 * `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep position during horizontal scroll.
 
