@@ -29,7 +29,7 @@ The tables in the following sections list the differences between the APIs of th
 | ------------- | --------------- |
 | `ViewMode`(enum of type `CalendarViewMode`) | `DisplayMode`(enum of type `CalendarDisplayMode`) |
 | Styling the cells, view modes, using custom renderers for styling | New Styling API or the different parts of the calendar and different view modes |
-| API for Appointments/Scheduling UI | No Scheduler in Telerik .NET MAUI Calendar - Scheduler will be a separate control |
+| Provides an API for appointments (Scheduling UI) | Does not provide an API for appointments. The scheduling functionality in .NET MAUI will be given by the .NET MAUI Scheduler control, which is planned for R3 2023. |
 
 ## See Also
 
