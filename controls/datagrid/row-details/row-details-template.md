@@ -30,7 +30,7 @@ The following example shows how to define the `RowDetailsTemplate` property in t
 
 <snippet id ='datagrid-items-source'/>
 
-5. In addition you can define the row details to be expanded:
+5. In addition, you can define the row details to be expanded:
 
 <snippet id ='datagrid-expand-rowdetails'/>
 
