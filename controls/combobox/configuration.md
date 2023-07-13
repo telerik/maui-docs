@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ComboBox Documentation - Configuration
-description: Check our &quot;Configuration&quot; documentation article for Telerik UI for .NET MAUI ComboBox.
+description: Learn more about how to show the basic configuration options of the Telerik UI for .NET MAUI ComboBox control.
 position: 2
 slug: combobox-configuration
 ---
@@ -25,7 +25,7 @@ and the result:
 
 ## Text
 
-* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when its non-editable and the selection mode is single.
+* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when is non-editable and the selection mode is single.
 
 ## ClearButton Visibility
 
@@ -52,7 +52,7 @@ Here is an example with `IsDropdownClosedOnSelection` property set:
 
 <snippet id='combobox-configuration-dropdownvisibility-isdropdownclosed'/>
 
-* `OpenOnFocus`(`bool`):Defines whether the drop down can be opened when the control is focused. The default value is `true`. It's only applicable for Editable ComboBox.
+* `OpenOnFocus`(`bool`):Defines whether the drop down can be opened when the control is focused. The default value is `true`. The property is applicable for Editable ComboBox.
 
 Here is an example with `OpenOnFocus` property set:
 

@@ -61,7 +61,7 @@ and the ViewModel used:
 
 > when the default TokenTemplate is overridden, you will need to implement custom logic for removing the tokens from the ComboBox:
 
-here is a sample logic removing the token when adding `TapGestureRecognizer` to the Label:
+Here is a sample logic removing the token when adding `TapGestureRecognizer` to the Label:
 
 <snippet id='remove-the-selecteditem'/>
 
