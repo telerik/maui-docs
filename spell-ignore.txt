@@ -60,6 +60,7 @@ AccordionItems
 CornerRadius
 BusyIndicator
 25x25
+ HEAD
 SelectAll
 SelectionMode
 ClearButton
@@ -84,4 +85,6 @@ SelectedItemsCollection
 ResourceDictionary
 SelectedItemTemplate
 ShowMoreTemplate
+=======
+master
 RadButton

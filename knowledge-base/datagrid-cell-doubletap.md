@@ -4,8 +4,7 @@ description: Select Cell in DataGrid by Using Double Tap or Double Click
 type: how-to
 page_title: Cell Selection on Double Tap
 slug: datagrid-cell-selection-doubletap
-position: 
-tags: 
+position: 5
 ticketid: 1611664
 res_type: kb
 ---
@@ -73,42 +72,51 @@ Here is an example how to execute the `CellTap` command in `CellDoubleTap` comma
    3.1. First, create a class that inherits from the `DataGridCommand` and set its `Id` property.
    3.2. Override the `CanExecute` and `Execute` methods as demonstrated in the example below.
 
-    ```C#
+```C#
     public class CellDoubleTapUserCommand : DataGridCommand
     {
         public CellDoubleTapUserCommand()
         {
-            Id = DataGridCommandId.CellTap;
-        }
-
-        public override bool CanExecute(object parameter)
-        {
-            return true;
+            Id = DataGridCommandId.CellDoubleTap;
         }
 
         public override void Execute(object parameter)
         {
-            var context = parameter as DataGridCellInfo;
-            var cellTap =  $"You tapped on {context.Value} inside {context.Column.HeaderText} column \n";
-            Application.Current.MainPage.DisplayAlert("CellTap Command: ", cellTap, "OK");
             this.Owner.CommandService.ExecuteDefaultCommand(DataGridCommandId.CellTap, parameter);
         }
     }
-    ```
+```
 
-4. Add the `CellDoubleTapUserCommand` command to the `Commands` collection of the `RadDataGrid` instance:
+4. Handle the `CellTap` action as a command, so when you double click on the cell, to not be in edit mode.
+
+```C#
+    public class CellTapUserCommand : DataGridCommand
+    {
+        public CellTapUserCommand()
+        {
+            Id = DataGridCommandId.CellTap;
+        }
+
+        public override void Execute(object parameter)
+        {
+            
+        }
+    }
+```
+
+5. Add the `CellDoubleTapUserCommand` command to the `Commands` collection of the `RadDataGrid` instance:
 
     ```C#
     grid.Commands.Add(new CellDoubleTapUserCommand());
     ```
 
-5. Define the DataGrid in XAML:
+6. Define the DataGrid in XAML:
 
     ```XAML
     <telerik:RadDataGrid x:Name="grid" ItemsSource="{Binding}"/>
     ```
 
-6. Add the `telerik` namespace:
+7. Add the `telerik` namespace:
 
     ```XAML
     xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
