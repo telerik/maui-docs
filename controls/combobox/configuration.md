@@ -25,7 +25,9 @@ and the result:
 
 ## Text
 
-* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when is non-editable and the selection mode is single.
+* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when:
+   * The control is editable.
+   * The control is non-editable and the selection mode is single.
 
 ## ClearButton Visibility
 
