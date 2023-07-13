@@ -1,18 +1,18 @@
 ---
 title: Control Template
 page_title: .NET MAUI TreeView Documentation - Control Template
-description: Review what is the default control template of the Telerik .NET MAUI TreeView control and all elements we have in the template. 
+description: Review what is the control template for Telerik UI for .NET MAUI TreeView control and how to modify the elements in the template.
 position: 7
 slug: treeview-control-template
 ---
 
 # .NET MAUI TreeView Control Template
 
-The Telerik UI for .NET MAUI TreeView control has a set of elements inside the `ControlTemplate`. These elements are `CheckBox`, `Image`, `Expand/Collapse` indicator and the `Label`. 
+The Telerik UI for .NET MAUI TreeView provides a `ControlTemplate` property, which define the  visual appearance of the control. To customize the look, use the default template and modify it. The control has a set of elements inside the `ControlTemplate`. These elements are `CheckBox`, `Image`, `Expand/Collapse` indicator and the `Label`. 
 
-If you want to fully customize the appearance of these elements you have to use the `ControlTemplate`. 
+If you want to customize the appearance of these elements you have to use the `ControlTemplate`. 
 
-Here is an example how to use the `ControlTemplate`. 
+The following example shows how to use the `ControlTemplate` and modify the look of the control. 
 
 **1.** Define the `RadTreeView` control and the `ControlTemplate`: 
 
