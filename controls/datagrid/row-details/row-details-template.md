@@ -11,7 +11,6 @@ slug: datagrid-row-details-template
 The Telerik UI for .NET MAUI DataGrid control defines a `RowDetailsTemplate` property (type `DataTemplate`). The property is used for displaying row details. 
 
 
-## Example 
 
 This example provides steps how to define the `RowDetailsTemplate` property in the DataGrid control.
 
