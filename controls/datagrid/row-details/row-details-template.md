@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI DataGrid control defines a `RowDetailsTemplate` pro
 
 
 
-This example provides steps how to define the `RowDetailsTemplate` property in the DataGrid control.
+The following example shows how to define the `RowDetailsTemplate` property in the DataGrid control.
 
 1. Define the DataGrid in XAML:
 
