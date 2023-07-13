@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: .NET MAUI DataForm Documentation - Localization
-description: "Check our &quot;Localization&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the localization support that Telerik UI for .NET MAUI provides.
 position: 10
 slug: dataform-localization
 ---

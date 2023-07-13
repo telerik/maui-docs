@@ -8,7 +8,7 @@ slug: dataform-validation-styling
 
 # .NET MAUI DataForm Validation Styling
 
-You can easily customize the validation look using the following styling properties:
+You can customize the validation look using the following styling properties:
 
 * `ValidationSummaryStyle`(of type `Style` with target type `DataFormValidationSummaryView`)&mdash;Defines the style of the validation summary view.
 * `ValidationSummaryLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the validation summary label style.
@@ -18,15 +18,15 @@ You can easily customize the validation look using the following styling propert
 
 The following examples demonstrate how to style the DataForm validation summary.
 
-**Define the `RadDataForm`**
+Define the `RadDataForm`
 
 <snippet id='dataform-validation-style' />
 
-**Define the `ValidationSummaryStyle`**
+Define the `ValidationSummaryStyle`
 
 <snippet id='dataform-validation-summary-style' />
 
-**Define the `ValidationLabelStyle`**
+Define the `ValidationLabelStyle`
 
 <snippet id='dataform-validation-label-style' />
 

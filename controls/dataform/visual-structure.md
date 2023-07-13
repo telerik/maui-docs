@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI DataForm Documentation - Visual Structure
-description: "Learn what visual elements the Telerik DataForm for .NET MAUI displays and see the visual structure of the control."
+description: Learn what are the visual elements the Telerik DataForm for .NET MAUI displays and see the visual structure of the control.
 position: 1
 slug: dataform-visual-structure
 ---

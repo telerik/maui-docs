@@ -1,14 +1,14 @@
 ---
 title: Header Styling
 page_title: .NET MAUI DataForm Documentation - Header Styling
-description: "Review the available Styling options which DataForm for .NET MAUI control provides for its editors'."
+description: Review the available Styling options which DataForm for .NET MAUI control provides for its editors.
 position: 5
 slug: dataform-header-styling
 ---
 
 # .NET MAUI DataForm Header Styling
 
-The DatePicker control for .NET MAUI provides styling options for customizing the apperance of the header label or image above each editor.
+The DatePicker control for .NET MAUI provides styling options for customizing the appearance of the header label or image above each editor.
 
 The style of the Header message can be set individually for each editor or directly to the DataForm control using the following styling properties:
 
@@ -18,23 +18,23 @@ The style of the Header message can be set individually for each editor or direc
 
 ## Common Header Styling
 
-**Define a common HeaderLabelStyle**
+Define a common `HeaderLabelStyle`
 
 <snippet id='dataform-header-styling-common-style' />
 
-**Apply the common HeaderLabelStyle to all editors in the DataForm**
+Apply the common `HeaderLabelStyle` to all editors in the DataForm
 
 <snippet id='dataform-header-styling-common' />
 
 ## Individual Header Styling
 
-**Define two different HeaderLabelStyle**
+Define two different `HeaderLabelStyle`
 
 <snippet id='dataform-header-styling-header-style' />
 
 <snippet id='dataform-header-styling-header-style-alt' />
 
-**Apply a style to each editor in the DataForm individually**
+Apply a style to each editor in the DataForm individually
 
 <snippet id='dataform-header-styling-individual' />
 

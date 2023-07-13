@@ -1,21 +1,21 @@
 ---
 title: Group Styling
 page_title: .NET MAUI DataForm Documentation - Group Styling
-description: "Review the available Styling options which DataForm for .NET MAUI control provides when groups are applied."
+description: Review the available Styling options which DataForm for .NET MAUI control provides when groups are applied.
 position: 2
 slug: dataform-group-styling
 ---
 
 # .NET MAUI DataForm Group Styling
 
-The DataForm control for .NET MAUI provides styling options for customizing the apperance of its group headers. You can apply a style to the whole header, or only to the header label.
+The DataForm control for .NET MAUI provides styling options for customizing the appearance of its group headers. You can apply a style to the whole header, or only to the header label.
 
 The `DataFormGroup` class exposes the following `Style` properties:
 
 * `HeaderStyle`(of type `Style` with target type `DataFormGroupHeaderView`)&mdash;Defines the header view style.
 * `HeaderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the header label style.
 
-##HeaderStyle
+## HeaderStyle
 
 To style the `DataFormGroupHeaderView` use the following properties:
 
@@ -24,23 +24,23 @@ To style the `DataFormGroupHeaderView` use the following properties:
 * `BorderThickness`&mdash;Specifies the border thickness of the header.
 * `HeaderLabelStyle` (of type `Style` with target type `Label`)&mdash;Defines the header label style.
 
-##Example
+## Example
 
 The following examples demonstrate how to use the styling properties of the DataFormGroup.
 
-**Define the `RadDataForm` and the groups**
+Define the `RadDataForm` and the groups
 
 <snippet id='dataform-group-styling' />
 
-**Define the `HeaderStyle`**
+Define the `HeaderStyle`
 
 <snippet id='dataform-group-styling-header-view-style' />
 
-**Define the `HeaderLabelStyle` of the first DataForm group**
+Define the `HeaderLabelStyle` of the first DataForm group
 
 <snippet id='dataform-group-styling-header-label-style' />
 
-**Define the `HeaderLabelStyle` of the second DataForm group**
+Define the `HeaderLabelStyle` of the second DataForm group
 
 <snippet id='dataform-group-styling-header-label-style-alt' />
 
