@@ -84,3 +84,4 @@ SelectedItemsCollection
 ResourceDictionary
 SelectedItemTemplate
 ShowMoreTemplate
+RadButton
