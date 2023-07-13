@@ -60,3 +60,5 @@ AccordionItems
 CornerRadius
 BusyIndicator
 25x25
+ItemsSource
+RowDetailsTemplate
