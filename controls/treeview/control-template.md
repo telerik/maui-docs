@@ -12,7 +12,6 @@ The Telerik UI for .NET MAUI TreeView provides a `ControlTemplate` property, whi
 
 The control has a set of elements inside the `ControlTemplate`. These elements are `CheckBox`, `Image`, `Expand/Collapse` indicator, and `Label`. To customize the appearance of these elements, use the `ControlTemplate`.
 
-If you want to customize the appearance of these elements you have to use the `ControlTemplate`. 
 
 The following example shows how to use the `ControlTemplate` and modify the look of the control. 
 
