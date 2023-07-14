@@ -17,7 +17,7 @@ The following commands enable the navigation between same level views:
 * `NavigateToNextViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the next view.
 * `NavigateToPreviousViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the previous view.
 
-## Commands for Navigating Between Views
+## Commands for Navigating between Views
 
 The following commands enable the navigation between the view levels: 
 

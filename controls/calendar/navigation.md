@@ -10,7 +10,7 @@ slug: calendar-navigation
 
 You can navigate between the different views of the Calendar programmatically or let the user change the views from the UI.
 
-## Navigating Through Buttons
+## Navigating through Buttons
 
 The Calendar header has two buttons (Previous and Next) that allow the user to navigate in the current view. For example, in the Month view, the Previous button navigates to the previous month, and the Next button navigates to the next month.
 
