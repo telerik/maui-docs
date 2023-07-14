@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI DatePicker Documentation - Commands
-description: "Use the exposed commands of the Telerik UI for .NET MAUI DatePicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection."
+description: Use the exposed commands of the Telerik UI for .NET MAUI DatePicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection.
 position: 8
 previous_url: /controls/datepicker/datepicker-commands
 slug: datepicker-commands
@@ -38,9 +38,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## PopupSelector Commands
 
-Through the popup users can pick a date. The date value has to be confirmed or rejected with the **OK** or **Cancel** buttons that are located on the popup.
+Through the popup users can pick a date. The date value has to be confirmed or rejected with the `OK` or `Cancel` buttons that are located on the popup.
 
-The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
+The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the `OK` or `Cancel` buttons are clicked.
 
 * `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup.
 * `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup.

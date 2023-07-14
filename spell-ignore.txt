@@ -87,3 +87,15 @@ ResourceDictionary
 SelectedItemTemplate
 ShowMoreTemplate
 RadButton
+PopupSelector
+pre-scroll
+SpinnerFormat
+DisplayString
+MMMM
+ddd
+yyyy
+MMM
+Localizations
+PlaceholderTemplate
+DisplayTemplate
+FooterTemplate

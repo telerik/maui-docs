@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DatePicker Documentation - Overview
-description: "Try now the Telerik DatePicker for .NET MAUI delivering a set of options for selecting dates."
+description: Try now the Telerik DatePicker for .NET MAUI delivering a set of options for selecting dates.
 position: 0
 previous_url: /controls/datepicker/datepicker-overview
 slug: datepicker-overview
@@ -9,7 +9,7 @@ slug: datepicker-overview
 
 # .NET MAUI DatePicker Overview
 
-**Telerik DatePicker for .NET MAUI** allows you to select a date and visualizes its items inside a popup or a drop-down UI element. The DatePicker also enables you to set date ranges, date formats, and to fully customize its dialog appearance by configuring its header, footer, and more.  
+Telerik DatePicker for .NET MAUI allows you to select a date and visualizes its items inside a popup or a drop-down UI element. The DatePicker also enables you to set date ranges, date formats, and to customize its dialog appearance by configuring its header, footer, and more.  
 
 ![Telerik UI for .NET MAUI DatePicker overview](images/date_picker_overview.png)
 
@@ -20,7 +20,7 @@ slug: datepicker-overview
 * [Templates]({%slug datepicker-templates%})&mdash;The DatePicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
 * [Text upon selection]({%slug datepicker-formatting%}#setting-the-closed-dialog-string-format)&mdash;You can set the text that will be displayed when a date is selected by using the `DisplayStringFormat` property of the DatePicker.
 * [Date ranges]({%slug datepicker-date-range%})&mdash;You can also define date ranges by setting minimum and maximum date values, and choose a date within that range.
-* [Flexible styling API]({%slug datepicker-styling%})&mdash;The DatePicker provides a number of styling capabilities, which enable you to easily style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
+* [Flexible styling API]({%slug datepicker-styling%})&mdash;The DatePicker provides a number of styling capabilities, which enable you to style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
 * [Commands support]({%slug datepicker-commands%})&mdash;The DatePicker exposes commands that allow you to clear the selected date and to open and close the popup.
 
 ## Next Steps
