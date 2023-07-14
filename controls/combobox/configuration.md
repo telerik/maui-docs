@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ComboBox Documentation - Configuration
-description: "Check our &quot;Configuration&quot; documentation article for Telerik UI for .NET MAUI ComboBox."
+description: Learn more about how to show the basic configuration options of the Telerik UI for .NET MAUI ComboBox control.
 position: 2
 slug: combobox-configuration
 ---
@@ -12,7 +12,7 @@ The purpose of this help article is to show the basic configuration options of t
 
 ## Placeholder
 
-* `Placeholder`(`string`): Sets thehe text which is used to give guidance to the end user on what should be entered/searched in the input. The watermark text is displayed when the input field is empty, or the selected item/s is/are cleared. 
+* `Placeholder`(`string`): Sets the text which is used to give guidance to the end user on what can be entered/searched in the input. The watermark text is displayed when the input field is empty, or the selected item/s is/are cleared. 
 * `PlaceholderColor`(`Color`): Defines the color for the watermark text. 
 
 Here is an example of setting the `Placeholder` property:
@@ -25,7 +25,9 @@ and the result:
 
 ## Text
 
-* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when it is non-editable and the selection mode is single.
+* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when:
+   * The control is editable.
+   * The control is non-editable and the selection mode is single.
 
 ## ClearButton Visibility
 
@@ -52,7 +54,7 @@ Here is an example with `IsDropdownClosedOnSelection` property set:
 
 <snippet id='combobox-configuration-dropdownvisibility-isdropdownclosed'/>
 
-* `OpenOnFocus`(`bool`):Defines whether the drop down should be opened when the control is focused. The default value is `true`. It is only applicable for Editable ComboBox.
+* `OpenOnFocus`(`bool`):Defines whether the drop down can be opened when the control is focused. The default value is `true`. The property is applicable for Editable ComboBox.
 
 Here is an example with `OpenOnFocus` property set:
 

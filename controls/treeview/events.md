@@ -33,7 +33,7 @@ The .NET MAUI TreeView exposes the following events:
 
 The following example demonstrates how to use the `ItemTapped` event:
 
-**1.** Define the `RadTreeview` control: 
+**1.** Define the `RadTreeView` control: 
 
 <snippet id='treeview-itemtapped'/>
 
