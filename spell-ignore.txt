@@ -61,7 +61,8 @@ AccordionItems
 CornerRadius
 BusyIndicator
 25x25
-25x25
+DisplayDateChanged
+SelectionChanged
 SelectAll
 SelectionMode
 ClearButton
