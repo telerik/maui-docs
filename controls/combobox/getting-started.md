@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI ComboBox Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI ComboBox and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI ComboBox and add the control to your .NET MAUI project.
 position: 1
 slug: combobox-getting-started
 ---
@@ -10,7 +10,7 @@ slug: combobox-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI ComboBox by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![ComboBox Getting Started](images/combobox-getting-started.png)
 
@@ -30,7 +30,7 @@ Before adding the ComboBox, you need to:
 
 When your .NET MAUI application is setup, you are ready to add a ComboBox control to your page. The following example demonstrates the definition of the `RadComboBox` with `ItemsSource` set to a static collection as well as bound to property from a ViewModel class.
 
-### Using static data
+### Using Static Data
 
 <snippet id='combobox-getting-started-static-items-xaml'/>
 
@@ -38,13 +38,13 @@ Here is the result:
 
 ![ComboBox Getting Started](images/combobox-getting-started.png)
 
-### Binding to a complex object
+### Binding to a Complex Object
 
 Here is the ComboBox definition in XAML:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 
-> When binding to a complex objects, ComboBox **DisplayMemberPath** property should be set.
+> When binding to a complex objects, ComboBox **DisplayMemberPath** property needs to be set.
 
 the sample business model
 
