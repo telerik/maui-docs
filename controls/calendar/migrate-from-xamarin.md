@@ -28,7 +28,7 @@ The tables in the following sections list the differences between the APIs of th
 | Xamarin Calendar | .NET MAUI Calendar |
 | ------------- | --------------- |
 | `ViewMode`(enum of type `CalendarViewMode`) | `DisplayMode`(enum of type `CalendarDisplayMode`) |
-| Styling the cells and the different view modes(DayView, MultiDay, AgendaView) are using custom renderers for styling | New Styling API or the different parts of the calendar and different view modes |
+| Styling the cells and the different view modes (DayView, MultiDay, AgendaView) requires custom renderers. | Styling the distinct parts of the calendar and its view modes is handled by the new Styling API. |
 | Provides an API for appointments (Scheduling UI) | Does not provide an API for appointments. The scheduling functionality in .NET MAUI will be given by the .NET MAUI Scheduler control, which is planned for R3 2023. |
 
 ## See Also
