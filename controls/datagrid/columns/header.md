@@ -66,9 +66,9 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 ![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
 
-## Fully Customize the Column
+## Customize the Column
 
-Customize the column header by using the `HeaderContentTemplate` to achieve the desired full customization of the column.
+Customize the column header by using the `HeaderContentTemplate`(of type `DataTemplate`) to achieve the desired full customization of the column. The property demonstrates the ability of the DataGrid to specify and show custom appearance for the column headers.
 
 ## See Also
 
