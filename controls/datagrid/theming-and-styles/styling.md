@@ -38,7 +38,7 @@ The next image shows the end result.
 * `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
 * `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
 * `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
-* `MouseHoverStyle`&mdash;Specifies the style applied to the cells and rows when the mouse is over them. The style is applicable for Desktop (MacCatalyst and WinUI).
+* `MouseHoverStyle`&mdash;Specifies the style applied to the cells and rows when the mouse is over them. The style is applicable for Desktop (`MacCatalyst` and `WinUI`).
 
 The `RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle`, `CurrentCellStyle`, and `MouseHoverStyle` styling options are of type `DataGridBorderStyle`. `DataGridBorderStyle` defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
 

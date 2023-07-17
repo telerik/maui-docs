@@ -10,6 +10,7 @@ Namespaces
 Calendar
 RadCalendar
 RichTextEditor
+CellTap
 BadgeView
 ControlTemplate
 Barcode
