@@ -13,7 +13,7 @@ Barcode
 barcode
 SkiaSharp
 SwissQR
-DataMatrix 
+PDF417
 2D
 1D
 Ynjiun
