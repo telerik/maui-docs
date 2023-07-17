@@ -16,6 +16,10 @@ SwissQR
 PDF417
 2D
 1D
+Encodation
+Encodations
+encodation
+encodations
 Ynjiun
 IBAN
 CHF
