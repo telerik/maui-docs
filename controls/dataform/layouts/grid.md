@@ -20,7 +20,7 @@ Use the following properties which the DataFormGridLayout provides:
 
 ![DataForm Grid Layout Definition](../images/dataform-grid-layout-desktop.png)
 
-RadDataForm XAML definition with GridLayout applied:
+`RadDataForm` XAML definition with GridLayout applied:
 
 <snippet id='dataform-layouts-grid'/>
 
