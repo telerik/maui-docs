@@ -12,7 +12,7 @@ The financial, or also called stock, indicators are used for keeping track of st
 
 When using the indicators in the `RadCartesianChart`, you need to add them in the same way you add any other Cartesian series. Every indicator has a related formula by which it calculates the expected result. All you need to do is provide the needed data.
 
-With setting their properties and getting them ready for displaying your stock data, the financial indicators are two types:
+When setting their properties and getting them ready for displaying your stock data, consider the following financial indicators types:
 
 * Indicators that have a category and a value binding (usually the **close** one) as well as one or more periods:  
 
