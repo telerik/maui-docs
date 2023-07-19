@@ -42,5 +42,5 @@ The image below illustrates the result from the code snippets:
 
 ## See Also
 
- - [Row Details Overview]({%slug datagrid-rowdetails-overview%})
+ - [Row Details Overview]({%slug datagrid-row-details-overview%})
  - [DataGrid Overview]({%slug datagrid-overview%})
