@@ -50,7 +50,7 @@ DataForm XAML definition with grouping applied:
 
 ## Events
 
-Telerik .NET MAUI DataForm exposes event for group generation:
+Telerik .NET MAUI DataForm exposes an event for group generation:
 
 * `GroupGenerated`&mdash;Raised when the data form is about to generate a group of items automatically.
 This event can be used to customize the automatic generation of groups in the data form, when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is `true` and there isn't no group specified explicitly for the given category in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
