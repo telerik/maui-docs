@@ -42,7 +42,7 @@ The `CommitMode` can be applied globally to the RadDataForm
 
 DataForm exposes a `CommitChanges` method with two overloads:
 
-* `CommitChanges()`&mdash;Commits all pending changes in the RadDataForm to the underlying business object. This method is useful when the `CommitMode` is `Explicit`.
+* `CommitChanges()`&mdash;Commits all pending changes in the `RadDataForm` to the underlying business object. This method is useful when the `CommitMode` is `Explicit`.
 The method returns `true` if the validation passes, otherwise `false`.
 
 <snippet id='dataform-commit-changes'/>
