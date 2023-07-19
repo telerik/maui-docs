@@ -1,5 +1,5 @@
 ---
-title: DataGrid Empty Template
+title: Empty Template
 page_title: .NET MAUI DataGrid Documentation - Empty Template
 description: "Learn more about the Empty Template property of the DataGrid control."
 position: 9
@@ -27,7 +27,7 @@ It exposes the following properties:
 
 **2.** Add `DataTemplate` Resources:
 
-<snippet id ='datagrid-empty-template-resources'/>
+<snippet id='datagrid-empty-template-resources'/>
 
 ## See Also
 
