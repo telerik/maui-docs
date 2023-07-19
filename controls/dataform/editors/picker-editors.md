@@ -47,7 +47,7 @@ Other properties that are common for all editors are listed in the [Editors Over
 
 ## Common properties
 
-* `Placeholder` property(`string`) that prompts users what information they are expected to enter. 
+* By using the `Placeholder` property (`string`) you can provide hints or examples that show the users what information to enter.
 
 You can style the editors using the properties `BackgroundColor`, `BorderColor` and `BorderThickness`. You can additionally style each editor by applying a style with the same target type as the underlying control.
 
