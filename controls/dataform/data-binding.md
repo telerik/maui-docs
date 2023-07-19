@@ -30,7 +30,7 @@ DataForm definition with BindingContext set:
 
 <snippet id='dataform-editors-model'/>
 
-RadDataForm definition with `BindingContext` set and `AutoGenerateItems="False"`:
+`RadDataForm` definition with `BindingContext` set and `AutoGenerateItems="False"`:
 
 <snippet id='dataform-editors'/>
 
