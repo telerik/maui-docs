@@ -1,7 +1,7 @@
 ---
 title: Column Headers
 page_title: .NET MAUI DataGrid Documentation - Columns Header
-description: Check our &quot;Columns Header&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to style and customize the text in the Telerik UI for .NET MAUI DataGrid Header by using the properties of the component.
 position: 2
 previous_url: /controls/datagrid/columns/column-header
 slug: datagrid-column-header
@@ -14,7 +14,7 @@ This article will guide you through the usage of the column headers, their custo
 
 ![DataGrid Column Header](../images/column-header.png)
 
-## Changing the text in the header
+## Changing the Text in the Header
 
 To customize text inside the header you have to use the `HeaderText` property. The property is per column. If `HeaderText` is not set, the text inside the `PropertyName` is displayed.
 
@@ -65,6 +65,36 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 <snippet id='datagrid-headerfootercontenttemplate' />
 
 ![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
+
+## Color on Hover
+
+You can change the hover state background color of the column header by setting the `BackgroundColor` property.
+
+The following example demonstrates how to apply the `BackgroundColor` property to the DataGrid `HeaderContentTemplate` for its hover visual state: 
+
+```XAML
+  <DataTemplate x:Key="CustomHeaderTemplate">
+            <telerik:RadBorder BackgroundColor="#F8F8F8"
+                               BorderThickness="1">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Focused" />
+                        <VisualState x:Name="Disabled" />
+                        <VisualState x:Name="PointerOver">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#33000000" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </telerik:RadBorder>
+    </DataTemplate>
+```
+
+This is the result:
+
+![DataGrid Header Column Background Color](../columns/images/datagrid-hover-background-color.gif)
 
 ## Customize the Column
 
