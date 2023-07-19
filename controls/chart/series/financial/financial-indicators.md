@@ -10,7 +10,7 @@ position: 2
 
 The financial, or also called stock, indicators are used for keeping track of stock prices and patterns of price changes over time. For more information about what indicators are and what their purpose is, refer to the [Short information about financial indicators](https://www.investopedia.com/terms/t/technicalindicator.asp) article.
 
-With using the indicators in the `RadCartesianChart`, you need to add them in the same way you add any other Cartesian series. Every indicator has a related formula by which it calculates the expected result. All you need to do is provide the needed data.
+When using the indicators in the `RadCartesianChart`, you need to add them in the same way you add any other Cartesian series. Every indicator has a related formula by which it calculates the expected result. All you need to do is provide the needed data.
 
 With setting their properties and getting them ready for displaying your stock data, the financial indicators are two types:
 
