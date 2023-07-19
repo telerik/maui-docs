@@ -23,7 +23,7 @@ It exposes the following properties:
 
 **1.** Add DataGrid definition in XAML:
 
-<snippet id ='datagrid-empty-template-xaml'/>
+<snippet id='datagrid-empty-template-xaml'/>
 
 **2.** Add `DataTemplate` Resources:
 
