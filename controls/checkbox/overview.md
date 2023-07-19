@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI CheckBox Documentation - Overview
-description: "Try now the Telerik CheckBox for .NET MAUI enabling users to make a choice between two mutually exclusive options."
+description: Try now the Telerik CheckBox for .NET MAUI enabling users to make a choice between two mutually exclusive options.
 position: 0
 previous_url: /controls/checkbox/checkbox-overview
 slug: checkbox-overview
@@ -9,7 +9,7 @@ slug: checkbox-overview
 
 # .NET MAUI CheckBox Overview
 
-**Telerik RadCheckBox for .NET MAUI** is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
+Telerik RadCheckBox for .NET MAUI is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
 
 > The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS its visualized as a circle while `Android` and `WinUI` display it as a square.
 
