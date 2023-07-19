@@ -42,7 +42,7 @@ The table below describes the available editors which use the .NET MAUI controls
 
 ## Common Properties for Built-In Editors
 
-* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when there isn't input in the editor.
+* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when the user hasn't provided a value yet.
 * `PropertyName`(`string`)&mdash;Specifies the name of the property from the business object this editor is bound to.
 * `PropertyValue`(`object`)&mdash;Defines the value of the property from the business object this editor is bound to.
 * `EditorValue`(`object`)&mdash;Specifies the current edited value, before applying it to the business object.
