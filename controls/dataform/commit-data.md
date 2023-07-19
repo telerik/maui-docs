@@ -66,7 +66,7 @@ this.dataForm.CancelChanges();
 ## Commands
 
 * `CommitCommand`(`ICommand`)&mdash;Gets a command to a command to commit all pending changes in the RadDataForm. This command is useful when the DataForm `CommitMode` property is `Explicit`.
-* `CancelCommand`(`ICommand`)&mdash;Gets a command to cancel all pending changes in the RadDataForm. This command is useful when the DataForm `CommitMode` property is `Explicit`.
+* `CancelCommand`(`ICommand`)&mdash;Gets a command to cancel all pending changes in the `RadDataForm`. This command is useful when the DataForm `CommitMode` property is `Explicit`.
 
 >important All commit methods call validation first. If the property value passes validation, then the corresponding validation finished event is raised and the value is committed successfully.
 
