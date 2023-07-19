@@ -44,4 +44,3 @@ The image below illustrates the result from the code snippets:
 
  - [Row Details Overview]({%slug datagrid-rowdetails-overview%})
  - [DataGrid Overview]({%slug datagrid-overview%})
- - [External Row Details]({%slug datagrid-%})
