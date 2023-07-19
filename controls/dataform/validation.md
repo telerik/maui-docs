@@ -16,7 +16,7 @@ The next sections list all DataForm members related to validation.
 
 ## Validation Modes
 
-The selected mode is applied through `ValidationMode`(of type`Telerik.Maui.Controls.DataFormValidationMode`) property of the DataForm control. You can choose between three validation modes:
+The selected mode is applied through `ValidationMode` (of type`Telerik.Maui.Controls.DataFormValidationMode`) property of the DataForm control. You can choose between three validation modes:
 
 * `Explicit`&mdash;The changes are validated explicitly by invoking the `ValidateCommand` or calling the `ValidateChanges` method of the DataForm.
 * `LostFocus`&mdash;The changes are validated after the editor loses focus.
