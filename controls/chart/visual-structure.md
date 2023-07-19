@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI Chart Documentation - Visual Structure
-description: Learn more about the visual elements and terms that are used in a Telerik UI for .NET MAUI Chart control.
+description: Learn more about the visual elements and terms that are used in the Telerik UI for .NET MAUI Chart control article.
 position: 1
 tags: chart for .net maui, ui for .net maui, microsoft .net maui
 previous_url: /controls/chart/chart-visual-structure

@@ -1,7 +1,7 @@
 ---
 title: TrackBall Behavior
 page_title: .NET MAUI Chart Documentation - TrackBall Behavior
-description: Learn more about Trackball behavior in Telerik UI for .NET MAUI Chart control.
+description: Learn more about the Trackball behavior in the Telerik UI for .NET MAUI Chart control.
 position: 2
 previous_url: /controls/chart/behaviors/chart-behaviors-trackball-behavior
 slug: chart-behaviors-trackball
@@ -9,7 +9,7 @@ slug: chart-behaviors-trackball
 
 # .NET MAUI Chart TrackBall Behavior
 
-The TrackBall behavior handles the rendering concise information about data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
+The TrackBall behavior handles of the rendering concise information about data points in a small popup which displays over its relevant data points. A vertical line is also drawn through the data points for maximum clarity.
 
 ## Features
 

@@ -1,7 +1,7 @@
 ---
 title: ScatterSpline Series
 page_title: .NET MAUI Chart Documentation - ScatterSpline Series
-description: Learn more about ScatterSpline series that Telerik UI for .NET MAUI Chart control visualize.
+description: Learn more about the ScatterSpline series in the Cartesian chart.
 slug: chart-series-scatter-spline-series
 position: 0
 ---

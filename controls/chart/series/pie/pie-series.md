@@ -2,7 +2,7 @@
 title: Pie Series
 page_title: .NET MAUI Chart Documentation - Pie Series
 slug: chart-series-pie-series
-description: Learn more about the Pie series in Telerik UI for .NET MAUI Chart control.
+description: Learn more about the Pie series in the Telerik UI for .NET MAUI Chart control.
 ---
 
 # .NET MAUI Chart Pie Series

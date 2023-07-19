@@ -44,7 +44,7 @@ Each Telerik UI for .NET MAUI Chart delivers a range of handy and developer-frie
 
 ### Behaviors
 
-Each Telerik UI for .NET MAUI Chart can be enabled with interactivity through its `Behaviors` property. A behavior an abstraction that handles user input in a `RadChart` instance and, optionally, provides visual feedback upon some action.
+Each Telerik UI for .NET MAUI Chart can be enabled with interactivity through its `Behaviors` property. The behavior functionality is an abstraction that handles user input in a `RadChart` instance and, optionally, provides visual feedback upon some action.
 
 The Telerik UI for .NET MAUI Charts support the following behaviors:
 

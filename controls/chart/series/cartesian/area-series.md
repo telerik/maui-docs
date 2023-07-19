@@ -1,7 +1,7 @@
 ---
 title: Area Series
 page_title: .NET MAUI Chart Documentation - Area Series
-description: Learn more about Area series that Telerik UI for .NET MAUI Chart control visualize.
+description: Learn more about the Area series in the Cartesian chart.
 slug: chart-series-area-series
 position: 0
 ---

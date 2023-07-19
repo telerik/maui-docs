@@ -1,7 +1,7 @@
 ---
 title: ScatterArea Series
 page_title: .NET MAUI Chart Documentation - ScatterArea Series
-description: Learn more about ScatterArea series that Telerik UI for .NET MAUI Chart control visualize.
+description: Learn more about the ScatterArea series in the Cartesian chart.
 slug: chart-series-scatter-area-series
 position: 0
 ---
