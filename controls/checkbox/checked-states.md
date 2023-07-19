@@ -18,7 +18,7 @@ The state is controlled through the `IsChecked`(`bool?`) property. You can set a
 
 * `Indeterminate` state&mdash;When `IsChecked` is `null`.
 
-* `IsThreeState` (`bool`)&mdash;Defines whether you can apply the Indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the Indeterminate state along with the Checked and Unchecked states. By default, `IsThreeState` is `false`.
+* `IsThreeState` (`bool`)&mdash;Defines whether you can apply the indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the indeterminate state along with the `Checked` and `Unchecked` states. By default, `IsThreeState` is `false`.
 
 The following example demonstrates how to set the `IsChecked` property.
 

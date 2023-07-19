@@ -1,16 +1,16 @@
 ---
 title: Selection
 page_title: .NET MAUI ComboBox Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+description: Learn more about the selection functionality in Telerik UI for .NET MAUI ComboBox control.
 position: 6
 slug: combobox-selection
 ---
 
 # .NET MAUI ComboBox Selection
 
-ComboBox for .NET MAUI enables the app users to quickly and easily select item/items from the dropdown list. This topic will go through the provided by the ComboBox API related to item/items selection.
+ComboBox for .NET MAUI enables the app users to quickly select item/items from the dropdown list. This topic will go through the provided by the ComboBox API related to item/items selection.
 
-ComboBox control has a support for single and multiple selection. You can easily specify the required selection using the `SelectionMode` property.
+ComboBox control has a support for single and multiple selection. You can specify the required selection using the `SelectionMode` property.
 
 ## Main Properties
 
@@ -259,9 +259,9 @@ ComboBox exposes a `SelectionChanged` event which is raised when item is selecte
 The `SelectionChanged` event handler receives two parameters:
 
 - The `sender` which is the RadComboBox control.
-- ComboBoxSelectionChangedEventArgs provides the following properties:
+- `ComboBoxSelectionChangedEventArgs` provides the following properties:
 	- `AddedItems`: the items added to the SelectedItemsCollection
-	- `RemovedItems`: the items removed from the SelectedItmesCollection
+	- `RemovedItems`: the items removed from the SelectedItemsCollection
 
 ## Commands
 

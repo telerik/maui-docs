@@ -12,11 +12,11 @@ ComboBox for .NET MAUI exposes the following events:
 
 - `SelectionChanged` event is raised when item is selected. The SelectionChanged event handler receives two parameters:
 	- The `sender` which is the RadComboBox control.
-	- ComboBoxSelectionChangedEventArgs provides the following properties:
-		- `AddedItems`: the items added to the SelectedItemsCollection
-		- `RemovedItems`: the items removed from the SelectedItemsCollection
+	- `ComboBoxSelectionChangedEventArgs` provides the following properties:
+		- `AddedItems`: the items added to the `SelectedItemsCollection`
+		- `RemovedItems`: the items removed from the `SelectedItemsCollection`
 
-- `Completed`: Invoked when the completed button of the keyboard gets pressed. In WinUI and MacCatalyst it is invoked when entered gets pressed. 
+- `Completed`: Invoked when the completed button of the keyboard gets pressed. In WinUI and MacCatalyst its invoked when entered gets pressed. 
 
 ## See Also
 
