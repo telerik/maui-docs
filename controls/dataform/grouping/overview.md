@@ -38,7 +38,7 @@ And the DataForm definition in XAML:
 
 ### Define the groups in XAML and GroupName in the model
 
-You can apply the groups in the XAML and set the `GroupName` property. Then inside the model add the GroupName attribute to the concrete property. 
+You can apply the groups in the XAML and set the `GroupName` property. Then inside the model add the `GroupName` attribute to the concrete property. 
 
 DataForm XAML definition with grouping applied:
 
