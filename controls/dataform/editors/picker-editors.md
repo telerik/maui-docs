@@ -33,7 +33,7 @@ Shared properties for `DataFormRadTimePickerEditor` and `DataFormRadTimeSpanPick
 * `MinutesStep`(`int?`)&mdash;Specifies the minutes step for the editor.
 * `SecondsStep`(`int?`)&mdash;Specifies the seconds step for the editor.
 
-* `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editors has an `ItemsSource` property. Specifies a collection of items to use with the `RadListPicker`. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
+* `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editor has an `ItemsSource` property that specifies a collection of items to use with the `RadListPicker`. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
 
 
 ## Picker editors based on .NET MAUI controls:
