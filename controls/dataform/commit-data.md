@@ -34,7 +34,7 @@ The `CommitMode` can be applied globally to the RadDataForm
 
 ## Properties
 
-* `HasPendingChanges`(`bool`)&mdash;Gets a value indicating whether it has pending changes.
+* `HasPendingChanges`(`bool`)&mdash;Gets a value indicating whether any changes are pending.
 
 <snippet id='dataform-commit-mode'/>
 
