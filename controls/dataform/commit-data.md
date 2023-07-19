@@ -53,7 +53,7 @@ The method returns `true` if the validation passes, otherwise `false`.
 
 **DataForm exposes a `CancleChanges` method with two overloads:**
 
-* `CancelChanges`&mdash;Cancels all pending changes in the RadDataForm and reverts to the original values from the underlying business object. This method is useful when the `CommitMode` property is `Explicit`.
+* `CancelChanges`&mdash;Cancels all pending changes in the `RadDataForm` and reverts to the original values from the underlying business object. This method is useful when the `CommitMode` property is `Explicit`.
 
 ```C#
 this.dataForm.CancelChanges();
