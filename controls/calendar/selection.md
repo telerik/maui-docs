@@ -17,7 +17,7 @@ The selection modes of the Calendar allow you to determine if the user can selec
 * `SelectionMode` (enumeration of type `Telerik.Maui.Controls.Calendar.CalendarSelectionMode`)&mdash;Specifies the selection applied to the Calendar control. You can choose one of the following options:
 	* `None`&mdash;Selection is disabled and the user cannot select any dates in the Calendar.
 	* `Single` (Default)&mdash;Allows the selection of a single date. When tapping or clicking on a date cell, it becomes selected. Any previously selected cell is deselected.
-	* `Multiple`&mdash;Allows the selection of multiple dates. Tapping or clicking each date cell changes its selection state. The first tap or click adds the target date cell to the current selection, and a subsequent tap or click removes the target cell from the selection.
+	* `Multiple`&mdash;Allows the selection of multiple dates. Tapping or clicking each date cell changes its selection state. The first tap or click adds the target date cell to the current selection, and a next tap or click removes the target cell from the selection.
 	* `Range`&mdash;Allows the users to pick a range of consecutive dates. The first date cell that is tapped gets selected and becomes the start of the range. The next cell that is tapped becomes the end of the range. All dates between the range start the end become selected.
 
 ## Changing the Selected Date

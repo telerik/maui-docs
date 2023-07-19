@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI ComboBox Documentation - Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+description: Learn more about styling options in Telerik UI for .NET MAUI ComboBox control.
 position: 10
 slug: combobox-styling
 ---
@@ -11,12 +11,12 @@ slug: combobox-styling
 ComboBox control for .NET MAUI provides the following Style properties for customizing its look:
 
 * `PlaceholderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color for the placeholder text.
-* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the text when the control is editable and color of the selected item when it is not editable and selection mode is single.
+* `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the text when the control is editable and the color of the selected item when the control is not editable and the selection mode is single.
 * `BackgroundColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the background color of the control.
 * `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the border.
 * `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the thickness of the border.
 * `ClearButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadButton`)&mdash;Defines the style for the clear button.
-* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the RadComboBox. It is applied to the Placeholder, Selected Text(for single selection) and when the control is in Editable Mode.
+* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the RadComboBox. It's applied to the Placeholder, Selected Text(for single selection) and when the control is in Editable Mode.
 
 ### Example for ComboBox Styling
 
@@ -38,13 +38,13 @@ and the ViewModel used:
 
 <snippet id='comobobox-editing-viewmodel'/> 
 
-Here is how the Combobox looks when styling is applied:
+Here is how the ComboBox looks when styling is applied:
 
 ![ComboBox Styling](images/combobox-styling.png)
 
 Here is how the styling is applied when the control is focused and item is selected:
 
-![ComboBox Styling on Seleced Item](images/combobox-styling-focused.png)
+![ComboBox Styling on Selected Item](images/combobox-styling-focused.png)
 
 > For the ComboBox Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Styling category.
 
