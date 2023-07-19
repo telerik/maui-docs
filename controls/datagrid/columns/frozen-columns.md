@@ -28,14 +28,14 @@ Set the column freeze in XAML
 </telerik:RadDataGrid> 
 ```
 
-Set the column freeze programatically
+Set the column freeze programmatically.
 
 <snippet id='data-grid-frozen-columns-programmatically' />
 
 
-## Collection of frozen columns
+## Collection of Frozen Columns
 
-Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing of the columns is done only through the `IsFrozen` property of the columns.
+Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing the columns is done only through the `IsFrozen` property of the columns.
 
 ## Styling
 
@@ -45,7 +45,7 @@ You can style the frozen splitter UI using the `FrozenColumnsSplitterStyle`(`Tel
 
 Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThickness`. 
 
-**Example for FrozenColumnsSplitterStyle**
+**Example for `FrozenColumnsSplitterStyle`**
 
 ```XAML
 <telerik:RadDataGrid.FrozenColumnsSplitterStyle>

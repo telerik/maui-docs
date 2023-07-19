@@ -9,24 +9,24 @@ slug: datagrid-columns-width
 
 # .NET MAUI DataGrid Columns Width
 
-This article describes how to set a width to the DataGrid column using the SizeMode and Width properties.
+This article describes how to set a width to the DataGrid column using the `SizeMode` and `Width` properties.
 
-* `SizeMode`(`DataGridColumnSizeMode`)&mdash;Defines the DataGridColumnSizeMode value that controls how the column and its associated cells are sized horizontally.
+* `SizeMode`(`DataGridColumnSizeMode`)&mdash;Defines the `DataGridColumnSizeMode` value that controls how the column and its associated cells are sized horizontally.
   * `Fixed`&mdash;The column has a fixed width as defined by its Width property.
   * `Stretch`&mdash;The column is stretched to the available width proportionally to its desired width.
   * `Auto`&mdash;The columns is sized to its desired width. That is the maximum desired width of all associated cells.
-* `Width`(`double`)&mdash;Specifies the fixed width for the column. Applicable when the SizeMode property is set to DataGridColumnSizeMode.Fixed.
+* `Width`(`double`)&mdash;Specifies the fixed width for the column. Applicable when the `SizeMode` property is set to `DataGridColumnSizeMode`.Fixed.
 * `MinimumWidth`(`double`)&mdash;Specifies the minimum width of a column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `MinimumWidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
 
 * `ActualWidth` (double): Gets the actual width of the column.
 
 ## Example
 
-For the purpose of this example, we are going to use the following business object:
+In this example, we are going to use the following business object:
 
 <snippet id='datagrid-commands-editing-businessobject'/>
 
-After you have created your collection of custom objects, you should assign it to the ItemsSource property of the control:
+After you have created your collection of custom objects, you should assign it to the `ItemsSource` property of the control:
 
 ```C#
 this.grid.ItemsSource = new List<Data>
@@ -39,7 +39,7 @@ this.grid.ItemsSource = new List<Data>
 };
 ```
 
-### First scenario when SizeMode="Fixed":
+### First Scenario when SizeMode="Fixed":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -62,7 +62,7 @@ The first and second columns have set widths of 100 and 200, respectively:
 
 ![DataGrid Fixes Column Size](../images/datagrid-columns-width-fixed.png)
 
-### Second scenario when SizeMode="Stretch":
+### Second Scenario when SizeMode="Stretch":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -83,7 +83,7 @@ The columns take all the available space proportionally. The Width property is i
 
 ![DataGrid Stretch Column Size](../images/datagrid-columns-width-stretch.png)
 
-### Third scenario when SizeMode="Auto":
+### Third Scenario when SizeMode="Auto":
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">
@@ -104,9 +104,9 @@ The columns take only as much space as they need. The Width property is ignored.
 
 ![DataGrid Auto Column Size](../images/datagrid-columns-width-auto.png)
 
-###  Fourth scenario with different SizeMode values
+###  Fourth Scenario with different SizeMode values
 
-Lastly, lets use three columns to fully clarify the SizeMode behavior:
+Lastly, lets use three columns to fully clarify the `SizeMode` behavior:
 
 ```XAML
 <telerik:RadDataGrid x:Name="grid" AutoGenerateColumns="False">

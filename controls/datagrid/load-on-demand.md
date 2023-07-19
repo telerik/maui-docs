@@ -60,7 +60,7 @@ Eventually, you need to add this custom command to the `Commands` collection of 
 
 <snippet id='datagrid-customloadmoredatacommand-addtocollection-csharp'/>
 
->important Invoking the `ShowLoadOnDemandLoadingIndicator` and `HideLoadOnDemandLoadingIndicators` is a notable part as without calling these methods, the BusyIndicator used for the functionality will not be visualized.
+>important Invoking the `ShowLoadOnDemandLoadingIndicator` and `HideLoadOnDemandLoadingIndicators` is a notable part as without calling these methods, the `BusyIndicator` used for the functionality will not be visualized.
 
 ## Styling
 
@@ -78,7 +78,7 @@ You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 <snippet id='datagrid-setting-loadondemandrowstyle-xaml'/>
 
->caption Row appearance after setting the LoadOnDemandRowStyle property
+>caption Row appearance after setting the `LoadOnDemandRowStyle` property
 
 ![DataGrid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
 
@@ -94,7 +94,7 @@ The following example shows how to set the property:
 
 <snippet id='datagrid-setting-loadondemandrowtemplate-xaml'/>
 
->caption Row appearance after setting the LoadOnDemandRowTemplate
+>caption Row appearance after setting the `LoadOnDemandRowTemplate`
 
 ![DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
 
