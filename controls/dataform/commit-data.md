@@ -22,7 +22,7 @@ The selected mode is applied through `CommitMode`(of type`Telerik.Maui.Controls.
 * `LostFocus`&mdash;The changes are committed after the editor loses focus.
 * `PropertyChanged`&mdash;The changes in the editor are committed immediately on each property change (when the property value changes).
 
->important When `CommitMode` is on `LostFocus`, you have to set `ValidatonMode` to `LostFocus` or `Explicit`.
+>important When the selected `CommitMode` is `LostFocus`, you have to set `ValidatonMode` to `LostFocus` or `Explicit`.
 
 The `CommitMode` can be applied globally to the RadDataForm 
 
