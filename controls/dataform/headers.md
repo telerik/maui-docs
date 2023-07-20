@@ -1,7 +1,7 @@
 ---
 title: Headers
 page_title: .NET MAUI DataForm Documentation - Headers
-description: Learn more about the headers for the editors and for the groups in Telerik UI for .NET MAUI DataForm control.
+description: Learn more about the headers for the editors and for the groups in the Telerik UI for .NET MAUI DataForm control.
 position: 8
 slug: dataform-headers
 ---

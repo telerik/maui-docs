@@ -1,7 +1,7 @@
 ---
 title: Validation Styling
 page_title: .NET MAUI DataForm Documentation - Validation Styling
-description: "Review the available styling options which DataForm for .NET MAUI control provides when validating its data."
+description: Review the available styling options which DataForm for .NET MAUI control provides when validating its data.
 position: 4
 slug: dataform-validation-styling
 ---
@@ -18,19 +18,19 @@ You can customize the validation look using the following styling properties:
 
 The following examples demonstrate how to style the DataForm validation summary.
 
-Define the `RadDataForm`
+1. Define the `RadDataForm`
 
 <snippet id='dataform-validation-style' />
 
-Define the `ValidationSummaryStyle`
+2. Define the `ValidationSummaryStyle`
 
 <snippet id='dataform-validation-summary-style' />
 
-Define the `ValidationLabelStyle`
+3. Define the `ValidationLabelStyle`
 
 <snippet id='dataform-validation-label-style' />
 
-Add the following namespace:
+4. Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

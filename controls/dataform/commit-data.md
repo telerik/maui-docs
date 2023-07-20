@@ -16,7 +16,7 @@ The next sections list all DataForm members related to commit data feature.
 
 ## Commit modes
 
-The selected mode is applied through `CommitMode`(of type`Telerik.Maui.Controls.DataFormCommitMode`) property of the DataForm control. You can choose between three commit modes:
+The selected mode is applied through the `CommitMode`(of type`Telerik.Maui.Controls.DataFormCommitMode`) property of the DataForm control. You can choose between the three commit modes:
 
 * `Explicit`&mdash;The changes are committed explicitly by invoking the `CommitCommand` or calling the `CommitChanges` method of the DataForm.
 * `LostFocus`&mdash;The changes are committed after the editor loses focus.

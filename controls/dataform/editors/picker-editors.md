@@ -36,7 +36,7 @@ Shared properties for `DataFormRadTimePickerEditor` and `DataFormRadTimeSpanPick
 * `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editor has an `ItemsSource` property that specifies a collection of items to use with the `RadListPicker`. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
 
 
-## Picker editors based on .NET MAUI controls:
+## Picker Editors Based on .NET MAUI Controls:
 
 * `DataFormDatePickerEditor`&mdash;Of type `.NET MAUI DatePicker`
 * `DataFormTimePickerEditor`&mdash;Of type `.NET MAUI TimePicker`
@@ -45,7 +45,7 @@ Shared properties for `DataFormRadTimePickerEditor` and `DataFormRadTimeSpanPick
 Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 
 
-## Common properties
+## Common Properties
 
 * By using the `Placeholder` property (`string`) you can provide hints or examples that show the users what information to enter.
 

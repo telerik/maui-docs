@@ -18,27 +18,27 @@ The style of the Header message can be set individually for each editor or direc
 
 ## Common Header Styling
 
-Define a common `HeaderLabelStyle`
+1. Define a common `HeaderLabelStyle`
 
 <snippet id='dataform-header-styling-common-style' />
 
-Apply the common `HeaderLabelStyle` to all editors in the DataForm
+2. Apply the common `HeaderLabelStyle` to all editors in the DataForm
 
 <snippet id='dataform-header-styling-common' />
 
 ## Individual Header Styling
 
-Define two different `HeaderLabelStyle`
+3. Define two different `HeaderLabelStyle`
 
 <snippet id='dataform-header-styling-header-style' />
 
 <snippet id='dataform-header-styling-header-style-alt' />
 
-Apply a style to each editor in the DataForm individually
+4. Apply a style to each editor in the DataForm individually
 
 <snippet id='dataform-header-styling-individual' />
 
-Add the following namespace:
+5. Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

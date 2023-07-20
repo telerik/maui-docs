@@ -28,23 +28,23 @@ To style the `DataFormGroupHeaderView` use the following properties:
 
 The following examples demonstrate how to use the styling properties of the DataFormGroup.
 
-Define the `RadDataForm` and the groups
+1. Define the `RadDataForm` and the groups
 
 <snippet id='dataform-group-styling' />
 
-Define the `HeaderStyle`
+2. Define the `HeaderStyle`
 
 <snippet id='dataform-group-styling-header-view-style' />
 
-Define the `HeaderLabelStyle` of the first DataForm group
+3. Define the `HeaderLabelStyle` of the first DataForm group
 
 <snippet id='dataform-group-styling-header-label-style' />
 
-Define the `HeaderLabelStyle` of the second DataForm group
+4. Define the `HeaderLabelStyle` of the second DataForm group
 
 <snippet id='dataform-group-styling-header-label-style-alt' />
 
-Add the following namespace:
+5. Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
