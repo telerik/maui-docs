@@ -1,7 +1,8 @@
 ---
 title: Selection
 page_title: .NET MAUI ListPicker Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik ListPicker for .NET MAUI.
+description: Learn more about the selection functionality that the Telerik UI for .NET MAUI ListPicker control provides.
+
 position: 5
 slug: listpicker-selection
 previous_url: /controls/listpicker/listpicker-selection
@@ -9,9 +10,9 @@ previous_url: /controls/listpicker/listpicker-selection
 
 # .NET MAUI ListPicker Selection
 
-The ListPicker for .NET MAUI enables the application users to quickly and easily select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
+The ListPicker for .NET MAUI enables the application users to select an item from a list of items. This topic will go through the provided by the ListPicker API related to item selection.
 
-## SelectedItem Properties
+## Selected Item Properties
 
 The `SelectedItem`(`object`) property specifies the selected item of the ListPicker.
 

@@ -30,3 +30,5 @@ BusyIndicator
 WinUI
 ComboBox
 noneditable
+ListPicker
+PopupSelector
