@@ -14,8 +14,8 @@ By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopu
 * `HeaderStyle`(of type `Style` with target type `telerik:PickerPopupHeaderView`)&mdash;Defines the popup header style.
 * `HeaderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the popup header label style.
 * `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the popup footer style.
-* `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the `Accept` button style.
-* `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the `Cancel` button style.
+* `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
+* `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
 
 The `PickerPopupSettings` also provides the following properties for popup customization:
@@ -28,11 +28,11 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 
 	When `IsPopupModal="False"`, the popup can be closed when clicking outside the popup. 	
 
-* `HeaderLabelText`(`string`)&mdash;Specifies the text visualized in the popup header.
-* `IsHeaderVisible`(`bool`)&mdash;Specifies whether the Popup header is currently visible. By default, the value is `True`
-* `IsFooterVisible`(`bool`)&mdash;Specifies whether the Popup footer is currently visible. By default, the value is `True`.
-* `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the `Accept` button. By default, the text is `OK`.
-* `CancelButtonText`(`string`)&mdash;Defines the text visualized for the `Cancel` button. By default, the text is `Cancel`.
+* `HeaderLabelText` (`string`)&mdash;Specifies the text visualized in the popup header.
+* `IsHeaderVisible` (`bool`)&mdash;Specifies whether the Popup header is currently visible. By default, the value is `True`
+* `IsFooterVisible` (`bool`)&mdash;Specifies whether the Popup footer is currently visible. By default, the value is `True`.
+* `AcceptButtonText` (`string`)&mdash;Defines the text visualized for the `Accept` button. By default, the text is **OK**.
+* `CancelButtonText` (`string`)&mdash;Defines the text visualized for the `Cancel` button. By default, the text is **Cancel**.
 
 > __PopupSettings__ provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DateTimePicker. For more detailed information on them go to [DateTimePicker Styling]({%slug datetimepicker-styling%}) topic.
 

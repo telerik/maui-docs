@@ -35,9 +35,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## PopupSelector Commands
 
-Through the popup users can pick a date. The date value has to be confirmed or rejected with the `OK` or `Cancel` buttons that are located on the popup.
+Through the popup users can pick a date. The date value has to be confirmed or rejected with the **OK** or **Cancel** buttons that are located on the popup.
 
-The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the `OK` or `Cancel` buttons are clicked.
+The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
 * `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup.
 * `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup.
