@@ -19,7 +19,7 @@ The DatePicker uses a set of visual elements when rendered.
 - `SpinnerHeader`&mdash;The text that is visualized for the spinner header depending on the values that are picked. For example, if the `SpinnerFormatString` is `d`, the visualized text for the spinner header will be `Month` `Day` `Year`.
 - `Spinner`&mdash;Displays items in a list.
 - `SelectionHighlight`&mdash;Highlights the current selected date when the popup is open.
-- `Footer`&mdash;The footer of the popup. By default, it contains the `OK` and `Cancel` buttons. You can customize it through the [`FooterTemplate`]({%slug datepicker-templates%}#footertemplate) property.
+- `Footer`&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug datepicker-templates%}#footertemplate) property.
 
 ## DatePicker Structure
 
