@@ -1,7 +1,7 @@
 ---
 title: Picker Modes
 page_title: .NET MAUI DatePicker Documentation - Picker Modes
-description: "Define the suitable popup or drop-down picker mode supported by the Telerik UI for .NET MAUI DatePicker for your application, or implement the picker mode from the Arrow button."
+description: Define the suitable popup or drop-down picker mode supported by the Telerik UI for .NET MAUI DatePicker for your application, or implement the picker mode from the Arrow button.
 position: 6
 slug: datepicker-picker-mode
 ---
@@ -46,7 +46,7 @@ The image below shows the result on mobile and desktop devices:
 
 In addition, DatePicker exposes the `IsToggleButtonVisible` property which, when set to `True`, renders an `Arrow` button for opening the UI and allows users to pick a date.
 
-By default, together with the `DropDown` picker mode, `IsToggleButtonVisible` is enabled for desktop devices, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases by using the following implementation:
+By default, together with the `DropDown` picker mode, `IsToggleButtonVisible` is enabled for desktop devices, and is disabled for mobile platforms. You can explicitly apply it in both cases by using the following implementation:
 
 ```XAML
 <telerik:RadDatePicker Date="2020,05,15"

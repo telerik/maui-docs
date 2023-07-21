@@ -18,7 +18,7 @@ To set the currently displayed date, use the `DisplayDate` property.
 
 ## Constraining Visible Dates and Selection
 
-To limit the visible dates in the Calendar that the user can select, utilize the `MinDate` and `MaxDate` properties. This allows you to prevent the user from navigating the Calendar to a date outside of the defined date range.
+To limit the visible dates in the Calendar that the user can select, use the `MinDate` and `MaxDate` properties. This allows you to prevent the user from navigating the Calendar to a date outside of the defined date range.
 
 As a result, if the currently selected view contains any dates that are outside of the defined `MinDate`-`MaxDate` range, they look disabled.
 

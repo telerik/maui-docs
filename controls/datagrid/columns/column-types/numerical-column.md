@@ -8,7 +8,7 @@ slug: datagrid-columns-numerical-column
 
 # .NET MAUI DataGrid NumericalColumn
 
-The `DataGridNumericalColumn` is used to represent only numerical values. It uses the Telerik UI for .NET MAUI [NumericInput control]({%slug numericinput-overview%}) to edit the value in EditMode. The difference between this column and the text one is that it will directly invoke the numeric keyboard on the mobile devices.
+The `DataGridNumericalColumn` is used to represent only numerical values. It uses the Telerik UI for .NET MAUI [NumericInput control]({%slug numericinput-overview%}) to edit the value in `EditMode`. The difference between this column and the text one is that it will directly invoke the numeric keyboard on the mobile devices.
 
 ## Important Properties
 
@@ -22,7 +22,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 * `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
 * `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
 * `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
-* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only suppoted in WinUI and MacCatalyst.
+* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only supported in `WinUI` and `MacCatalyst`.
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 
 >tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.

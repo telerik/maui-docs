@@ -8,7 +8,7 @@ slug: combobox-templates
 
 # .NET MAUI ComboBox Templates
 
-If the default templates of the control do not suit your needs, you can easily define custom ones. The available templates for customizing are:
+If the default templates of the control do not suit your needs, you can define custom ones. The available templates for customizing are:
 
 * `ItemTemplate`(`DataTemplate`)&mdash;Defines the template of the items that are visualized in the dropdown list.
 
@@ -16,8 +16,8 @@ If the default templates of the control do not suit your needs, you can easily d
 
 * `SelectedItemTemplate`(`DataTemplate`)&mdash;Defines the template of the selected items that are visualized in the dropdown list.
 * `TokenTemplate`(`DataTemplate`)&mdash;Defines the template of the tokens that are visualized when multiple selection is performed.
-* `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the Template of the show more UI that gets visualized when the control is not focused and there is not enough space for all Tokens to be visualized when the selection mode is multiple.
-* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable(IsEditable set to "false").
+* `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the Template of the Show More UI that gets visualized when the control is not focused and the space is not enough to show all tokens when using the Multiple selection mode.
+* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable(`IsEditable` set to "false").
 
 ### Example with ItemTemplate and SelectedItemTemplate
 
@@ -61,7 +61,7 @@ and the ViewModel used:
 
 > when the default TokenTemplate is overridden, you will need to implement custom logic for removing the tokens from the ComboBox:
 
-here is a sample logic removing the token when adding TapGestureRecognizer to the Label:
+Here is a sample logic removing the token when adding `TapGestureRecognizer` to the Label:
 
 <snippet id='remove-the-selecteditem'/>
 

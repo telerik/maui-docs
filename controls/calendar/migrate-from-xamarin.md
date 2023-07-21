@@ -6,13 +6,13 @@ position: 20
 slug: calendar-migrate-from-xamarin
 ---
 
-# Migrate from Xamarin.Forms Calendar to .NET MAUI Calendar
+# Migrating from Xamarin.Forms Calendar to .NET MAUI Calendar
 
-The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
-In Telerik UI for Xamarin, the Calendar also includes scheduling, while the Telerik UI for .NET MAUI Calendar and Scheduler are different controls. As of today, the development of the Scheduler is planned. 
-
->note The Telerik UI for .NET MAUI Calendar control provides selection and does not manage appointments like the Telerik Xamarin Calendar does. The appointments will be part of the Telerik .NET MAUI Scheduler control.  
+When you plan to migrate from Xamarin to .NET MAUI, consider the following differences in the feature set of the Calendar control:
+* Unlike the Xamarin Calendar, the .NET MAUI Calendar allows three selection modes—single, multiple, and range.
+* Unlike the Xamarin Calendar, the .NET MAUI Calendar does not manage appointments. In Telerik UI for .NET MAUI, appointments will be handled by the .NET MAUI Scheduler control, which is planned for the R3 2023 release.
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms Calendar and .NET MAUI Calendar.
 
@@ -28,6 +28,8 @@ The tables in the following sections list the differences between the APIs of th
 | Xamarin Calendar | .NET MAUI Calendar |
 | ------------- | --------------- |
 | `ViewMode`(enum of type `CalendarViewMode`) | `DisplayMode`(enum of type `CalendarDisplayMode`) |
+| Styling the cells and the different view modes (DayView, MultiDay, AgendaView) requires custom renderers. | Styling the distinct parts of the calendar and its view modes is handled by the new Styling API. |
+| Provides an API for appointments (Scheduling UI). | Does not provide an API for appointments. The scheduling functionality in .NET MAUI will be given by the .NET MAUI Scheduler control, which is planned for R3 2023. |
 
 ## See Also
 

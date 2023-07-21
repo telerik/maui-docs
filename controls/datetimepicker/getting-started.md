@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI DateTimePicker Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI DateTimePicker and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI DateTimePicker and add the control to your .NET MAUI project.
 position: 1
 slug: datetimepicker-getting-started
 ---
@@ -10,7 +10,7 @@ slug: datetimepicker-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DateTimePicker by adding the control to your project.
 
-At the end, you will be able to achieve the following result:
+At the end, you will achieve the following result:
 
 ![DateTimePicker Getting Started](images/datetimepicker_getting_started.png)
 
