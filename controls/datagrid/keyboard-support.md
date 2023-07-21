@@ -8,7 +8,7 @@ slug: datagrid-keyboard-support
 
 # .NET MAUI DataGrid Keyboard Support
 
-The Telerik UI for .NET MAUI DataGrid provides keyboard navigation support which is currently available on WinUI.
+The Telerik UI for .NET MAUI DataGrid provides keyboard navigation support which is currently available on `WinUI`.
 
 While applying part of the keyboard keys, you can also change the current cell behavior of the DataGrid component. For more details, see the article on [setting the .NET MAUI DataGrid cells]({%slug datagrid-current-cell%}).
 

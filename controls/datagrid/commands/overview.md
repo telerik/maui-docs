@@ -17,7 +17,7 @@ The DataGrid exposes a `Commands` collection that allows you to register custom 
 
 ## Command Types
 
-* `DataGridCommand`&mdash;All the default commands within RadDataGrid derive from the base DataGridCommand. Think of this command as a UI-related command as it operates over the RadDataGrid instance that owns the command.
+* `DataGridCommand`&mdash;All the default commands within `RadDataGrid` derive from the base `DataGridCommand`. Think of this command as a UI-related command as it operates over the `RadDataGrid` instance that owns the command.
 
  * `Id`&mdash;The key that relates a command instance to a particular action/routine. This value is used to associate a command with a known event within a `RadDataGrid` instance.
  * `Command`&mdash;Gets or sets the generic `ICommand` implementation that may come from the `ViewModel`.

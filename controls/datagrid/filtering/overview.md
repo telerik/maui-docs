@@ -19,7 +19,7 @@ slug: datagrid-filtering-overview
 
 ## FilterControl Template
 
-The Telerik DataGrid allows you to apply filtering to the datagrid column using the FilterControlTemplate property.
+The Telerik DataGrid allows you to apply filtering to the DataGrid column using the `FilterControlTemplate` property.
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class.
 

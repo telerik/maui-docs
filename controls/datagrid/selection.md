@@ -151,7 +151,7 @@ var firstMarketingItem = ((ObservableCollection<Person>)this.dataGrid.ItemsSourc
 this.dataGrid.SelectItem(firstMarketingItem);
  ```
 
-* For a cell selection, use the `SelectCell` method. It takes as a parameter a `DataGridCellInfo` object. The `DataGridCellInfo` object can be easily created by using the needed data item (of type `Person` in this case) and setting the column corresponding to the cell you need to select.
+* For a cell selection, use the `SelectCell` method. It takes as a parameter a `DataGridCellInfo` object. The `DataGridCellInfo` object can be easy created by using the needed data item (of type `Person` in this case) and setting the column corresponding to the cell you need to select.
 
  ```C#
 var firstMarketingCell = ((ObservableCollection<Person>)this.dataGrid.ItemsSource).First(p => p.Department == "Marketing");

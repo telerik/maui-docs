@@ -170,15 +170,18 @@ navigation:
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1
+    controls/datagrid/row-details:
+        title: "Row Details"
+        position: 4
     controls/datagrid/filtering:
         title: "Filtering"
-        position: 3
+        position: 6
     controls/datagrid/grouping:
         title: "Grouping"
-        position: 4
+        position: 7
     controls/datagrid/aggregates:
         title: "Aggregates"
-        position: 8
+        position: 10
     controls/datagrid/commands:
         title: "Commands"
         position: 15
