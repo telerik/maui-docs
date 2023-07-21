@@ -46,7 +46,7 @@ The following `RadListView` events are related to the cell swiping feature:
   - `Offset`(`double`)&mdash;The current swipe offset.
 - `ItemSwipeCompleted`&mdash;Occurs when the user finishes the swipe gesture. The event arguments are of the `ItemSwipeCompletedEventArgs` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that has been swiped.
-  - `Offset`(`double`)&mdash;sThe swipe offset at which the item has been dropped.
+  - `Offset`(`double`)&mdash;The swipe offset at which the item has been dropped.
 
 ## Commands
 
