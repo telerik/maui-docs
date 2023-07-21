@@ -1,7 +1,7 @@
 ---
 title: Picker Mode
 page_title: .NET MAUI TimeSpanPicker Documentation - Picker Mode
-description: "Define PickerMode of Telerik TimeSpanPicker for .NET MAUI to either DropDown or Popup."
+description: Define PickerMode of Telerik TimeSpanPicker for .NET MAUI to either DropDown or Popup.
 position: 5
 slug: timespanpicker-picker-mode
 ---  
@@ -37,7 +37,7 @@ Check the result of `DropDown` mode on mobile and desktop:
 
 ## Toggle Button
 
-In addition, TimeSpanPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. Still, you can explicitly apply it in both cases:
+In addition, TimeSpanPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop together with the `DropDown` picker mode, and is disabled for mobile platforms. You can explicitly apply it in both cases:
 
 ```XAML
 <telerik:RadTimeSpanPicker Time="5:10:30:00"
