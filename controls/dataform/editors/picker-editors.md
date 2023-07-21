@@ -1,7 +1,7 @@
 ---
 title: Picker Editors
 page_title: .NET MAUI DataForm Documentation - Picker Editors
-description: "Check our &quot;Picker Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the pickers editors that Telerik UI for .NET MAUI provides.
 position: 2
 slug: dataform-picker-editors
 ---
@@ -10,12 +10,12 @@ slug: dataform-picker-editors
 
 This article explains all picker editors available in Telerik .NET MAUI DataForm control.
 
-## Picker editors based on Telerik .NET MAUI controls:
+## Picker Editors Based on Telerik .NET MAUI Controls:
 
 * `DataFormRadDatePickerEditor`&mdash;Of type [`RadDatePicker`]({%slug datepicker-overview%})
 * `DataFormRadDateTimePickerEditor`&mdash;Of type [`RadDateTimePicker`]({%slug datetimepicker-overview%})
 
-Shared properties for DataFormRadDatePickerEditor and DataFormRadDateTimePickerEditor are:
+Shared properties for `DataFormRadDatePickerEditor` and `DataFormRadDateTimePickerEditor` are:
 
 * `MinimumDate`(`DateTime?`)&mdash;Specifies the minimum date for the editor.
 * `MaximumDate`(`DateTime?`)&mdash;Specifies the maximum date for the editor.
@@ -24,7 +24,7 @@ Shared properties for DataFormRadDatePickerEditor and DataFormRadDateTimePickerE
 * `DataFormRadTimePickerEditor`&mdash;Of type [`RadTimePicker`]({%slug timepicker-overview%})
 * `DataFormRadTimeSpanPickerEditor`&mdash;Of type [`RadTimeSpanPicker`]({%slug timespanpicker-overview%})
 
-Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerEditor are:
+Shared properties for `DataFormRadTimePickerEditor` and `DataFormRadTimeSpanPickerEditor` are:
 
 * `MinimumDate`(`DateTime?`)&mdash;Specifies the minimum time for the editor.
 * `MaximumDate`(`DateTime?`)&mdash;Specifies the maximum time for the editor.
@@ -33,10 +33,10 @@ Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerE
 * `MinutesStep`(`int?`)&mdash;Specifies the minutes step for the editor.
 * `SecondsStep`(`int?`)&mdash;Specifies the seconds step for the editor.
 
-* `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editos has an `ItemsSource` property. Specifies a collection of items to use with the RadListPicker. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
+* `DataFormRadListPickerEditor`&mdash;Of type [`RadListPicker`]({%slug listpicker-overview%}). The editor has an `ItemsSource` property that specifies a collection of items to use with the `RadListPicker`. When no items are specified and the picker is bound to a property of type enum, the items are populated automatically from the available enum values. 
 
 
-## Picker editors based on .NET MAUI controls:
+## Picker Editors Based on .NET MAUI Controls:
 
 * `DataFormDatePickerEditor`&mdash;Of type `.NET MAUI DatePicker`
 * `DataFormTimePickerEditor`&mdash;Of type `.NET MAUI TimePicker`
@@ -45,17 +45,17 @@ Shared properties for DataFormRadTimePickerEditor and DataFormRadTimeSpanPickerE
 Other properties that are common for all editors are listed in the [Editors Overview]({%slug dataform-editors%}#common-properties) article.
 
 
-## Common properties
+## Common Properties
 
-* `Placeholder` property(`string`) that prompts users what kind of information they are expected to enter. 
+* By using the `Placeholder` property (`string`) you can provide hints or examples that show the users what information to enter.
 
-You can easily style the editors using the properties `BackgroundColor`, `BorderColor` and `BorderThickness`. You can additionally style each editor by applying a style with the same target type as the underlying control.
+You can style the editors using the properties `BackgroundColor`, `BorderColor` and `BorderThickness`. You can additionally style each editor by applying a style with the same target type as the underlying control.
 
 A table with all editors and their control types is available in the [Editors Overview article]({%slug dataform-editors%}).
 
 >note More information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
 
-**Example with DataFormRadTextMaskedEditor**
+Example with `DataFormRadTextMaskedEditor`
 
 ```XAML
 <Style x:Key="RadDatePickerStyle" TargetType="telerik:RadDatePicker">

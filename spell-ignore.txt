@@ -27,6 +27,7 @@ AutoComplete
 bindable
 Accordion
 BusyIndicator
+DataForm
 WinUI
 ComboBox
 noneditable
