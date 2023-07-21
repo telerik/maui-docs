@@ -37,7 +37,7 @@ The result on mobile:
 
 The following example shows how to define the `ColumnReorderIndicatorTemplate` in XAML:
 
-Define the DataTemplate for the Indicator in the Resources of the page:
+Define the `DataTemplate` for the Indicator in the Resources of the page:
 ```XAML
 <DataTemplate x:Key="reorderingIndicator">
     <telerik:RadBorder BackgroundColor="LightSalmon"

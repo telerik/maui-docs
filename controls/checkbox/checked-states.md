@@ -1,7 +1,7 @@
 ---
 title: Check States
 page_title: .NET MAUI CheckBox Documentation - Check States
-description: "Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI."
+description: Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI.
 position: 2
 slug: checkbox-checked-states
 ---
@@ -12,13 +12,13 @@ The CheckBox enables you to define its state as `Checked`, `Unchecked`, or `Inde
 
 The state is controlled through the `IsChecked`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. `IsChecked` property binding mode is `TwoWay`.
 
-* `Checked` state&mdash;When `IsChecked` is set to `true`.
+* `Checked` state&mdash;When `IsChecked` is `true`.
 
-* (Default) `Unchecked` state&mdash;When `IsChecked` is set to `false`.
+* (Default) `Unchecked` state&mdash;When `IsChecked` is `false`.
 
 * `Indeterminate` state&mdash;When `IsChecked` is `null`.
 
-* `IsThreeState` (`bool`)&mdash;Defines whether you can apply the Indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the Indeterminate state along with the Checked and Unchecked states. By default, `IsThreeState` is set to `false`.
+* `IsThreeState` (`bool`)&mdash;Defines whether you can apply the indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the indeterminate state along with the `Checked` and `Unchecked` states. By default, `IsThreeState` is `false`.
 
 The following example demonstrates how to set the `IsChecked` property.
 

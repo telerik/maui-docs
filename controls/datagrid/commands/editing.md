@@ -38,11 +38,11 @@ Here is an example how the DataGrid `Editing` commands work.
 this.BindingContext = new ViewModel();
  ```
 
-1. Handle the `BeginEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+1. Handle the `BeginEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
  <snippet id='datagrid-commands-editing-beginedit'/>
 
-1. Handle the `CommitEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+1. Handle the `CommitEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
  <snippet id='datagrid-commands-editing-commitedit'/>
 

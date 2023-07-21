@@ -14,7 +14,7 @@ The DataGrid exposes an Aggregates API through its `DataGridColumn.AggregateDesc
 {% include cta-panel-overview.html %}
 {% endif %}
 
-The [`PropertyAggregateDescriptor`]({%slug datagrid-property-aggregate-descriptor %}) enables you to utilize a set of available functions while the [`DelegateAggregateDescriptor`]({%slug datagrid-delegate-aggregate-descriptor %}) allows you to implement a custom function through the `IAggregateFunction` interface.
+The [`PropertyAggregateDescriptor`]({%slug datagrid-property-aggregate-descriptor %}) enables you to use a set of available functions while the [`DelegateAggregateDescriptor`]({%slug datagrid-delegate-aggregate-descriptor %}) allows you to implement a custom function through the `IAggregateFunction` interface.
 
 The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFooter` as well as the `GroupHeader` and  `GroupFooter`.
 

@@ -21,11 +21,11 @@ Here is an example how the DataGrid `ValidateCell` command works:
 
  <snippet id='datagrid-commands-validation-businessobject'/>
 
-T1. Create a `ViewModel` with a collection of `Data` objects:
+1. Create a `ViewModel` with a collection of `Data` objects:
 
  <snippet id='datagrid-commands-validation-viewmodel'/>
 
-1. Handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property accordingly. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+1. Handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
  <snippet id='datagrid-commands-validation-validatecell'/>
 

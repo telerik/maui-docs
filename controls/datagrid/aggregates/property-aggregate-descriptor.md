@@ -13,7 +13,7 @@ The `PropertyAggregateDescriptor` allows you to define a property and a function
 
 To set up the `PropertyAggregateDescriptor`, use the following properties:
 * `PropertyName`&mdash;Defines the name of the property that is used to compute the aggregate value.
-* `Function`&mdash;Defines a KnownFunction value that will be applied to the aggregate.
+* `Function`&mdash;Defines a `KnownFunction` value that will be applied to the aggregate.
 * `Caption`&mdash;Defines the caption of the aggregate. You can use `Caption` to display text in the UI.
 * `Format`&mdash;Defines the string format that will be applied over the aggregated value.
 

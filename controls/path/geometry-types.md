@@ -29,7 +29,6 @@ The following example shows a Path with an Arc definition:
 
 ```XAML
 <telerik:RadPath x:Name="customPath"
-                       Grid.Row="0"
                        StrokeThickness="4"
                        Stroke="#2EC262">
     <telerik:RadPath.Geometry>

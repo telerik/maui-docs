@@ -1,7 +1,7 @@
 ---
 title: Size
 page_title: .NET MAUI CheckBox Documentation - Size
-description: "Set the width and height of the Telerik CheckBox for .NET MAUI by adjusting only a single property."
+description: Set the width and height of the Telerik CheckBox for .NET MAUI by adjusting only a single property.
 position: 3
 slug: checkbox-size
 ---

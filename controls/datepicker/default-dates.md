@@ -1,7 +1,7 @@
 ---
 title: Default Dates
 page_title: .NET MAUI DatePicker Documentation - Default Dates
-description: "Define preselected dates in the Telerik UI for .NET MAUI DatePicker and in its spinner."
+description: Define preselected dates in the Telerik UI for .NET MAUI DatePicker and in its spinner.
 position: 5
 previous_url: /controls/datepicker/datepicker-default-dates
 slug: datepicker-default-dates
@@ -32,7 +32,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 To set the highlighted date:
 
-1. Set the `DefaultHighlightedDate` property of type `DateTime` to define the `System.DateTime`, which will be used to pre-scroll each spinner when the `Date` property is set to `null`.
+1. Set the `DefaultHighlightedDate` property of type `DateTime` to define the `System.DateTime`, which will be used to pre-scroll each spinner when the `Date` property is `null`.
 
  ```XAML
 <telerik:RadDateTimePicker Date="{x:Null}"
