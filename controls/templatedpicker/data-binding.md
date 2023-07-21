@@ -1,7 +1,7 @@
 ---
 title: Data Binding
 page_title: .NET MAUI TemplatedPicker Documentation - Data Binding
-description: Check our &quot;Data Binding&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
+description: Learn more how to customize the Telerik UI for .NET MAUI TemplatedPicker control.
 position: 2
 previous_url: /controls/templatedpicker/templatedpicker-data-binding
 slug: templatedpicker-data-binding
@@ -25,42 +25,43 @@ You can enable a Clear button which can be used to quickly remove the selected v
 
 ```XAML
 <telerik:RadTemplatedPicker IsClearButtonVisible="True" />
+```
 
 ## Example
 
 The example below uses two `RadSpinner` controls inside the `SelectorTemplate` of the TemplatedPicker which present cascading lists of items (the items shown in the second spinner depend on the selected value from the first spinner). Through the `SelectedValue` and `DisplayMemberPath` properties you can define how the selection from the spinners is visualized in the picker when the popup is closed.
 
-1. Define the control.
+**1.** Define the control: 
 
- <snippet id='templatedpicker-keyfeatures' />
+<snippet id='templatedpicker-keyfeatures' />
 
-1. Define the `SelectorTemplate`:
+**2.** Define the `SelectorTemplate`:
 
- <snippet id='templatedpicker-keyfeatures-selectortemplate' />
+<snippet id='templatedpicker-keyfeatures-selectortemplate' />
 
-1. Define the `HeaderTemplate`:
+**3.** Define the `HeaderTemplate`:
 
- <snippet id='templatedpicker-keyfeatures-headertemplate' />
+<snippet id='templatedpicker-keyfeatures-headertemplate' />
 
-1. Add the following data item for the first spinner:
+**4.** Add the following data item for the first spinner:
 
- <snippet id='templatedpicker-country-businessmodel' />
+<snippet id='templatedpicker-country-businessmodel' />
 
-1. Add the following data item for the second spinner:
+**5.** Add the following data item for the second spinner:
 
- <snippet id='templatedpicker-city-businessmodel' />
+<snippet id='templatedpicker-city-businessmodel' />
 
-1. Define the `ViewModel`:
+**6.** Define the `ViewModel`:
 
  <snippet id='templatedpicker-viewmodel' />
 
-1. Set the defined `LocationViewModel` as a `BindingContext` of the page:
+**7.** Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
- ```C#
+```C#
 this.BindingContext = new LocationViewModel();
- ```
+```
 
-1. In addition to this, you need to add the following namespace:
+**8.** In addition to this, you need to add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

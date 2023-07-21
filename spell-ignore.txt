@@ -30,3 +30,4 @@ BusyIndicator
 WinUI
 ComboBox
 noneditable
+TemplatedPicker
