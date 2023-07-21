@@ -1,7 +1,7 @@
 ---
 title: PathGeometry
 page_title: .NET MAUI Path Documentation - PathGeometry
-description: Check our &quot;PathGeometry&quot; documentation article for Telerik Path for .NET MAUI.
+description: Review the path geometries options provided in Telerik Path for .NET MAUI.
 position: 2
 slug: path-structure
 ---
@@ -12,9 +12,9 @@ To create a specific Path, you need to set a `RadPathGeometry` object to its `Ge
 
 ## RadPathFigure
 
-Each of the `RadPathFigure` objects is composed of one or several segments. These can be a `RadArcSegment` or a `RadLineSegment`. Adding several segments in combination with setting up the `StartPoint` of the `RadPathFigure` is enough for you to create the desired figure which have to be added to the figures collection of the geometry.
+Each of the `RadPathFigure` objects is composed of one or several segments. These can be a `RadArcSegment` or a `RadLineSegment`. Adding segments in combination with setting up the `StartPoint` of the `RadPathFigure` is enough for you to create the desired figure which have to be added to the figures collection of the geometry.
 
-Each line or arc segment you add to the path figure is drawn consequently - its starting point is the last point of the previous segment of the Segments collection of the `PathFigure` object. The first segment uses the `StartPoint` of the path figure as a starting point.
+Each line or arc segment you add to the path figure is drawn so - its starting point is the last point of the previous segment of the Segments collection of the `PathFigure` object. The first segment uses the `StartPoint` of the path figure as a starting point.
 
 ### RadArcSegment
 
@@ -63,21 +63,21 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following example shows how to create a more complex `RadPathGeometry` object and add a line with curved edges to its Figures collection.
 
-1. First, define the `RadPath` figure:
+**1.** First, define the `RadPath` figure:
 
-  <snippet id='path-geometry-customline-xaml' />
+<snippet id='path-geometry-customline-xaml' />
 
-1. Add the namespace:
+**2.** Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Then, set its `Geometry` to have the following structure:
+**3.** Then, set its `Geometry` to have the following structure:
 
- <snippet id='path-geometry-customline-segment' />
+<snippet id='path-geometry-customline-segment' />
 
-1. Add the namespace:
+**4.** Add the namespace:
 
  ```C#
 using Microsoft.Maui.Graphics;

@@ -94,7 +94,7 @@ Commands which cancel/apply the changes made in interactive commands:
 
 * `RotateBackwardCommand`(`ICommand`)&mdash;Rotates the image backwards.
 
-## Commands iherited from the Toolbar control
+## Commands Inherited from the Toolbar control
 
 * `NavigateCommand`(`ICommand`)&mdash;Gets a command for navigating to the next level of the toolbar hierarchy. The command accepts a collection of `Telerik.Maui.Controls.ToolbarItems` as a parameter.
 * `NavigateBackCommand`(`ICommand`)&mdash;Gets a command for navigating back to the previous level of the toolbar hierarchy. The previous `Telerik.Maui.Controls.ToolbarItems` stored in the navigation stack from the last invocation of the `Telerik.Maui.Controls.RadToolbar.NavigateCommand` are restored in the toolbar.
@@ -102,9 +102,31 @@ Commands which cancel/apply the changes made in interactive commands:
 * `ScrollBackwardCommand`(`ICommand`)&mdash;Gets a command for scrolling the contents of the toolbar in backward direction. This command is applicable when the `RadToolbar.OverflowMode` is set to Scroll.
 
 
-## Example
+## Example with Interactive Commands and Rotate Left and Right
 
+**1.** The ImageEditor definition in XAML:
 
+<snippet id='imageeditor-commands-xaml'/>
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Rotate Commands set on a Button
+
+<snippet id='imageeditor-commands-xaml'/>
+
+**4.** Hue Command Executed on a Button click and a Slider for changing the Hue Value:
+
+<snippet id='imageeditor-hue-command-xaml'/>
+
+**5.** Crop Commands set on a Button
+
+<snippet id='imageeditor-interactive-crop-xaml'/>
+
+> For the runnable ImageEditor Commands example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ImageEditor > Features**.
 
 ## See Also
 

@@ -55,11 +55,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
-
- public static class MauiProgram
- {
+```C#
+using Telerik.Maui.Controls.Compatibility;
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -73,8 +72,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```           
+}           
+```           
  
 ## Additional Resources
 
