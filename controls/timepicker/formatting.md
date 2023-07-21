@@ -1,7 +1,7 @@
 ---
 title: Formatting
 page_title: .NET MAUI TimePicker Documentation - Time Format Strings
-description: Check our &quot;Time Format Strings&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn more about the time formatting that the Telerik UI for .NET MAUI TimePicker provides.
 position: 2
 previous_url: /controls/timepicker/timepicker-formatting
 slug: timepicker-formatting
@@ -13,7 +13,7 @@ The TimePicker for .NET MAUI allows you to use standard or custom time format st
 
 To set formatting to the spinners that are displayed when the picker is opened, use the `SpinnerFormat` property. To set formatting to the spinners that are displayed when time is selected, use the `DisplayStringFormat` property.
 
-## DisplayString Format
+## Display String Format
 
 To define the format of the string that will be visualized when the picker dialog is closed, use the `DisplayStringFormat`(`string`) property.
 

@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI TimePicker Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Use the exposed commands of the Telerik UI for .NET MAUI TimePicker to programmatically manipulate the display of its popup.
 position: 7
 previous_url: /controls/timepicker/timepicker-commands
 slug: timepicker-commands
@@ -45,7 +45,7 @@ The TimePicker allows you to add custom logic for the `Accept` and `Cancel` comm
 * `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
 * `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
 
-You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TemplatedPicker.
+You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of Templated Picker.
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 

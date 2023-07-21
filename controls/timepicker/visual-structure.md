@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI TimePicker Documentation - Visual Structure
-description: Check our &quot;Visual Structure&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn what visual elements the Telerik TimePicker for .NET MAUI displays and see the visual structure of the control.
 position: 0
 previous_url: /controls/timepicker/timepicker-visual-structure
 slug: timepicker-visual-structure
@@ -21,13 +21,13 @@ This article describes all visual elements that are used in the TimePicker for .
 
 ## Legend
 
-- **Placeholder**&mdash;The text visualized before picking a time value. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug timepicker-templates%}#placeholdertemplate) property.
-- **DisplayStringFormat**&mdash;The text visualized after a time value is picked.
-- **Header**&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timepicker-styling%}#popup-styling) property or fully customize the popup header by using the [`HeaderTemplate`]({%slug timepicker-templates%}#headertemplate) property.
-- **SpinnerHeader**&mdash;The text visualized for the spinner header depending on the values that are picked. For example, if the `SpinnerFormatString` is `g` and `AreSpinnerHeadersVisible="True"`, the text visualized for the spinner header will be **Hour** **Minutes** **AM/PM**.
-- **Spinner**&mdash;Displays items in a list.
-- **SelectionHighlight**&mdash;Highlights the currently selected time when the popup is open.
-- **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. It can be customized through the [`FooterTemplate`]({%slug timepicker-templates%}#footertemplate) property.
+- `Placeholder`&mdash;The text visualized before picking a time value. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug timepicker-templates%}#placeholdertemplate) property.
+- `DisplayStringFormat`&mdash;The text visualized after a time value is picked.
+- `Header`&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timepicker-styling%}#popup-styling) property or customize the popup header by using the [`HeaderTemplate`]({%slug timepicker-templates%}#headertemplate) property.
+- `SpinnerHeader`&mdash;The text visualized for the spinner header depending on the values that are picked. For example, if the `SpinnerFormatString` is `g` and `AreSpinnerHeadersVisible="True"`, the text visualized for the spinner header will be **Hour** **Minutes** **AM/PM**.
+- `Spinner`&mdash;Displays items in a list.
+- `SelectionHighlight`&mdash;Highlights the currently selected time when the popup is open.
+- `Footer`&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. It can be customized through the [`FooterTemplate`]({%slug timepicker-templates%}#footertemplate) property.
 
 ## See Also
 

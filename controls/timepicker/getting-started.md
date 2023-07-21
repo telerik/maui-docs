@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI TimePicker Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI TimePicker control and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI TimePicker control and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/timepicker/timepicker-getting-started
 slug: timepicker-getting-started
@@ -11,7 +11,7 @@ slug: timepicker-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TimePicker by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![TimePicker Getting Started](images/timepicker_getting_started.png)
 
@@ -27,7 +27,7 @@ Before adding the TimePicker, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a TimePicker control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a TimePicker control to your page.
 
  ```XAML
 <telerik:RadTimePicker />
@@ -35,13 +35,13 @@ Before adding the TimePicker, you need to:
  <snippet id='timepicker-getting-started-csharp' />
 
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;
