@@ -34,3 +34,9 @@ Button
 PopupSelector
 pre-scroll
 Localizations
+DatePicker
+DateTimePicker
+TimePicker
+TimeSpanPicker
+ListPicker
+TemplatedPicker

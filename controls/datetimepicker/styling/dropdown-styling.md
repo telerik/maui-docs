@@ -1,7 +1,7 @@
 ---
 title: DropDown Styling
 page_title: .NET MAUI DateTimePicker Documentation - DropDown Styling
-description: "Apply the styling options of the Telerik UI for .NET MAUI DateTimePicker DropDown"
+description: Apply the styling options of the Telerik UI for .NET MAUI DateTimePicker DropDown
 position: 2
 slug: datetimepicker-dropdown-styling
 ---
@@ -20,8 +20,8 @@ The `DropDownSettings` also provides the following properties for dropdown custo
 * `Placement`(of type `PlacementMode`)&mdash;Specifies the position of the dropdown, can be set to Bottom, Right, Left, Top, Center or Relative.
 * `HorizontalOffset` \ `VerticalOffset`&mdash;Specifies the horizontal\vertical distance between the dropdown and the DateTimePicker.
 * `IsFooterVisible`(`bool`)&mdash;Specifies whether the DropDown footer is currently visible. By default, the value is `True`.
-* `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the **Accept** button. By default, the text is `OK`.
-* `CancelButtonText`(`string`)&mdash;Defines the text visualized for the **Cancel** button. By default, the text is `Cancel`.
+* `AcceptButtonText`(`string`)&mdash;Defines the text visualized for the `Accept` button. By default, the text is `OK`.
+* `CancelButtonText`(`string`)&mdash;Defines the text visualized for the `Cancel` button. By default, the text is `Cancel`.
 
 > __DropDownSettings__ provides styling options for the dropdown, its footer and position, and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DateTimePicker. For more detailed information on them go to [DateTimePicker Styling]({%slug datetimepicker-styling%}) topic.
 
