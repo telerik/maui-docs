@@ -30,3 +30,7 @@ BusyIndicator
 WinUI
 ComboBox
 noneditable
+Button
+PopupSelector
+pre-scroll
+Localizations
