@@ -1,7 +1,7 @@
 ---
 title: Docking Functionality
 page_title: .NET MAUI DockLayout Documentation - Docking Functionality
-description: "Learn how to use the docking functionality and position child elements with the Telerik UI for .NET MAUI DockLayout control."
+description: Learn how to use the docking functionality and position child elements with the Telerik UI for .NET MAUI DockLayout control.
 position: 2
 previous_url: /controls/docklayout/docklayout-docking
 slug: docklayout-docking
@@ -13,7 +13,7 @@ The DockLayout provides options for setting the position of child elements to di
 
 ## Setting the Position of Child Elements
 
-To define the docking side of a child element inside the dock layout component, use **RadDockLayout.Dock** attached property which receives any of the following values:
+To define the docking side of a child element inside the dock layout component, use `RadDockLayout.Dock` attached property which receives any of the following values:
 
 * `Left`
 * `Top`
@@ -22,7 +22,7 @@ To define the docking side of a child element inside the dock layout component, 
 
 The way the child elements are docked and arranged depends on their order inside the DockLayout’s Children collection (the order they’re defined in XAML).
 
-The following example demonstrates how to utilize the docking functionality:
+The following example demonstrates how to use the docking functionality:
 
 ```XAML
 <telerik:RadDockLayout x:Name="dockLayout">
