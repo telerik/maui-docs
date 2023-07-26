@@ -2,7 +2,7 @@
 title: Categorical Axis
 page_title: .NET MAUI Chart Documentation - Categorical Axis
 slug: axes-categorical-axis
-description: Learn more about the Categorical axis 
+description: Learn more about the Categorical axis in the Telerik UI for .NET MAUI Chart control.
 position: 2
 previous_url: /controls/chart/axes/axes-categorical-axis
 ---

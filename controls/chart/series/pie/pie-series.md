@@ -14,7 +14,7 @@ The Pie Chart visualizes the Pie Series in the shape of a pie. Each data item is
 The Pie Series supports the following properties:
 
 - `ValueBinding`&mdash;Defines the binding to a property of the data model that will be used to fill the pie slices.
-- `RadiusFactor`&mdash;Defines the radius factor used to calculate the radius of the visual series. This value is usually within the [0,1] range but you can oversize the series by setting a value greater than 1.
+- `RadiusFactor`&mdash;Defines the radius factor used to calculate the radius of the visual series. This value is usually within the [`0,1`] range but you can oversize the series by setting a value greater than `1`.
 - `SelectedPointOffset`&mdash;Defines the offset applied to the currently selected point.
 
 ## Example

@@ -2,7 +2,7 @@
 title: Numerical Axis
 page_title: .NET MAUI Chart Documentation - Numerical Axis
 slug: axes-numerical-axis
-description: Learn more about Numerical Axis in Telerik UI for .NET MAUI Chart control.
+description: Learn more about the Numerical Axis in the Telerik UI for .NET MAUI Chart control.
 position: 3
 previous_url: /controls/chart/axes/axes-numerical-axis
 ---
