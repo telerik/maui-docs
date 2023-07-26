@@ -28,6 +28,12 @@ slug: combobox-overview
 
 * [Header and Footer]({%slug combobox-header-footer%}) – ComboBox for .NET MAUI gives you the ability to add header and footer inside the dropdown list. For this purpose, you will need to define the `HeaderTemplate` property and the `FooterTemplate` property. 
 
+* [Clear button visibility]({%slug combobox-configuration%}#clearbutton-visibility)&mdash;Specify whether the button which users can use to clear the selection will be visible or not. 
+
+* [Customizable DropDown]({%slug combobox-configuration%}#dropdown-behavior)&mdash;Apply height and width for the dropdown. Also specify whether the dropdown will be closed on selection or initially opened. 
+
+* Specify the [keyboard type]({%slug combobox-configuration%}#keyboard) by using the `Keyboard` property.
+
 * UI Virtualization Support - ComboBox supports UI Virtualization which enables you to display large list of items. When the list (positioned inside the drop down part) is scrolled, the ComboBox reuses the existing items to display the relevant data instead of creating new ones.
 
 * [Templates]({%slug combobox-templates%}) – You can change the default `ItemTemplate` and `SelectedItemTemplate`. In addition, if the ComboBox is in multiple selection mode, the selected item is displayed inside a token. You can customize the token using the `TokenTemplate` property. Also, you can customize the `ShowMoreTemplate` which is visualized inside the ComboBox when the control is not focused and when there isn't space for all tokens to be displayed. 

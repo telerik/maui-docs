@@ -35,7 +35,7 @@ You can customize the `BusyContentTemplate` to arrange the custom content and th
 
 The following example demonstrates how to customize the busy content.
 
-Apply the `BusyContent` and `BusyContentTemplate` properties.
+**1.** Apply the `BusyContent` and `BusyContentTemplate` properties.
 
 ```XAML
 <telerik:RadBusyIndicator x:Name="BusyIndicator"
@@ -64,7 +64,7 @@ Apply the `BusyContent` and `BusyContentTemplate` properties.
 </telerik:RadBusyIndicator>
 ```
 
-Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

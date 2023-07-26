@@ -29,23 +29,23 @@ Before adding the Barcode, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a Barcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
+**1.** When your .NET MAUI application is set up, you are ready to add a Barcode control to your page. The following example uses the QR Code symbology. For more details on the available Barcode symbologies, refer to the articles on the [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
- <snippet id='barcode-gettingstarted' />
+<snippet id='barcode-gettingstarted' />
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
- using Telerik.Maui.Controls.Compatibility;
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -59,9 +59,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
+}           
 ```
-
 
 ## Additional Resources
 

@@ -23,6 +23,8 @@ Badges can be used as an additional marker for any element: to decorate avatars,
 * [Alignment]({%slug badgeview-position-alignment%}#badge-alignment)&mdash;You can align the Badge indicator according to its content.
 * [Animation]({%slug badgeview-animation%})&mdash;You can choose whether to have an `Animation` while displaying the Badge indicator. In addition, you can specify the animation duration and animation easing.
 * [Badge types]({%slug badgeview-predefined-badges%})&mdash;You can select the type of a Badge from a set of various predefined options. Also, you can customize and style each Badge type.
+* Change the [visibility of the badge indicator]({%slug badgeview-configuration%}#badge-visibility) to collapsed, hidden and visible. 
+* [Define text]({%slug badgeview-configuration%}#badge-text) to the badge indicator. 
 * Flexible [styling API]({%slug badgeview-styling%}) and [customization options]({%slug badgeview-customization%})–Allows you to change the `BackgroundColor`, `BorderThickness`, and `Color` properties of the BadgeView. Also, the BadgeView exposes an API, which you can use to customize and style the Badge indicator.
 
 ## Next Steps

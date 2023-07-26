@@ -14,7 +14,7 @@ Telerik UI for .NET MAUI DataForm is a customizable component allowing you to cr
 
 ## Key Features
 
-* [Built-in editors]({%slug dataform-editors%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as numeric, string, boolean, enumerations, DateTime, TimeSpan. The control detects the types of the data object’s properties and automatically displays the proper editor.  
+* [Built-in editors]({%slug dataform-editors%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as `numeric`, `string`, `boolean`, `enumerations`, `DateTime`, `TimeSpan`. The control detects the types of the data object’s properties and automatically displays the proper editor.  
 
 * [Custom editors]({%slug dataform-custom-editor%})&mdash;DataForm provides an option for defining custom editors.  
 
@@ -24,13 +24,17 @@ Telerik UI for .NET MAUI DataForm is a customizable component allowing you to cr
 
 * [Grouping]({%slug dataform-grouping%}) support that allows you to group the editors.
 
-* [Data annotations support]({%slug dataform-data-annotations%})&mdash;To customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. Use annotations like Required, DataType, Display, RegularExpression and more.
+* [Data annotations support]({%slug dataform-data-annotations%})&mdash;To customize the way data is interpreted in DataForm you can use helpers in the form of Data Annotations. Use annotations like `Required`, `DataType`, `Display`, `RegularExpression` and more.
 
 * [Different layouts]({%slug dataform-layouts%})&mdash;Arrange the editors and the groups using different layouts like stack, grid and more.
+
+* [Grouping support]({%slug dataform-grouping%})&mdash;Organize editors in groups for better user experience. Groups can be applied directly in the XAMl, in the ViewModel or in both. 
 
 * [Commands support]({%slug dataform-commands%}) for validation and commit data and canceling the commit operation.
 
 * [Flexible Styling API]({%slug dataform-styling%}) for customizing the look of the DataForm, its Editors, Groups and Headers. In addition you can customize the error and validation messages.
+
+* [Localization support]({%slug dataform-localization%})&mdash;Translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions. In addition by using the `DataAnnotations` you can apply localization to the editors `HeaderText` and `Placeholder`.
 
 ## Next Steps
 

@@ -29,25 +29,25 @@ Before adding the BusyIndicator, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a BusyIndicator control to your page. The BusyIndicator is a layout control that can display two views depending on its current busy or not-busy state.  
+**1.** When your .NET MAUI application is set up, you are ready to add a BusyIndicator control to your page. The BusyIndicator is a layout control that can display two views depending on its current busy or not-busy state.  
 
-  To define the state of the control, use its `IsBusy` property. By default, `IsBusy` is set to `False` and the control displays its normal content. If you change it to `True`, the control displays its busy content, which by default, is a spinning-balls animation. Check the article on [animations]({% slug busyindicator-animations %}) to see the built-in animations, how to change them, and how to use a custom animation.
+To define the state of the control, use its `IsBusy` property. By default, `IsBusy` is set to `False` and the control displays its normal content. If you change it to `True`, the control displays its busy content, which by default, is a spinning-balls animation. Check the article on [animations]({% slug busyindicator-animations %}) to see the built-in animations, how to change them, and how to use a custom animation.
 
- <snippet id='busyindicator-getting-started-xaml' />
+<snippet id='busyindicator-getting-started-xaml' />
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
- xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -58,11 +58,10 @@ Before adding the BusyIndicator, you need to:
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 			});
-
 		return builder.Build();
 	}
- }           
- ```
+}
+```
 
 ## Additional Resources
 

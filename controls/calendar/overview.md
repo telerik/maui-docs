@@ -19,6 +19,7 @@ The Telerik UI for .NET MAUI Calendar allows you to select single or multiple da
 * [Selection modes]({%slug calendar-selection%})&mdash;the Calendar provides different types of selection: Single, Multiple, Range, or None. The selected dates can be changed programmatically or when the user taps on a calendar date cell.
 * [Flexible date navigation]({%slug calendar-navigation%})&mdash;Navigate in the current view by using the buttons in the header of the Calendar.
 * [Visibility of the names of the days]({%slug calendar-date-properties%}#day-names-visibiliy%})&mdash;The Calendar control allows you to hide the names of the  days when using the month view.
+* [Disable specific dates]({%slug calendar-blackout-dates%}) by adding them to the `BlackoutDates` collection.
 * [Header text formatting]({%slug calendar-date-formatting%})&mdash;You can set the header text format for each display mode. 
 * [Templates]({%slug calendar-templates-overview%})&mdash;The templates allow you to customize how the days, months, years, and decades are presented in the corresponding view.
 * [Commands support]({%slug calendar-commands%})&mdash;The Calendar provides commands that allow the user to navigate in the current view or between the views.

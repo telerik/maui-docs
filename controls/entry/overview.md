@@ -38,6 +38,8 @@ slug: entry-overview
 
 * [Various styling options]({%slug entry-styling%})&mdash;For applying corner radius, clear button color, placeholder color and more.
 
+* Different Keyboard types like chat, numeric, email, and more. 
+
 ## Next steps
 
 - [Getting Started with Telerik UI for .NET MAUI Entry]({% slug entry-getting-started%})

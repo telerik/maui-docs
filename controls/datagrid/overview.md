@@ -13,9 +13,9 @@ The Telerik UI for .NET MAUI DataGrid is a powerful control that allows you to e
 
 Most of the data on the Internet is stored in tables within a database. The Telerik UI for .NET MAUI DataGrid provides the same abstraction over the data&mdash;It has columns and rows, and the intersection of a row and a column is called a cell.
 
-When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The DataGrid also supports alternating row colors so that your users can easily distinguish one row from another.
+When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The DataGrid also supports alternating row colors so that your users can distinguish one row from another.
 
-The highly optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
+The optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
 ![DataGrid Overview](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
 
@@ -24,8 +24,6 @@ The highly optimized data layer of the DataGrid enables fast grouping, sorting, 
 * [Different column types]({%slug datagrid-columns-overview %})&mdash;The DataGrid provides a set of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 
 * [Load on demand]({%slug datagrid-features-loadondemand %})&mdash;In some cases, you may need to load data in the .NET MAUI DataGrid when the control is already displayed as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
-
-* [Commands]({%slug datagrid-commands-overview %})&mdash;The DataGrid allows you to attach commands, such as `ColumnHeaderTap`, `CellTap`, `BeginEdit`, and more, which will be executed when certain actions occur.
 
 * [Editing]({%slug datagrid-editing %})&mdash;You can enable users to edit the data presented in the .NET MAUI DataGrid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For example, if one of the columns is a date, a date-picker will be used to offer a change in the date field.
 
@@ -37,7 +35,20 @@ The highly optimized data layer of the DataGrid enables fast grouping, sorting, 
 
 * [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.
 
+* [Row details]({%slug datagrid-row-details-overview%})for presenting additional information for the data in the row.
+
+* [Aggregates support]({%slug datagrid-aggregates%})&mdash;API for applying aggregates functions.
+
+* [Keyboard navigation]({%slug datagrid-keyboard-support%}) for WinUI.
+
+* [Empty template]({%slug datagrid-empty-template%})&mdash;When there is no data (`ItemsSource` is null or the collection is empty), an empty template is displayed in the DataGrid.
+
+* [Commands]({%slug datagrid-commands-overview %})&mdash;The DataGrid allows you to attach commands, such as `ColumnHeaderTap`, `CellTap`, `BeginEdit`, and more, which will be executed when certain actions occur.
+
 * [Flexible styling API]({%slug datagrid-styling%})&mdash;The .NET MAUI DataGrid is highly customizable if you prefer to use your own styling.
+
+* [Localization support]({%slug datagrid-localization%})&mdash;Translate the text displayed in the Filtering UI, Grouping panel, etc. to other languages, so that your application can be adapted to different cultures.
+
 
 ## Next Steps
 
