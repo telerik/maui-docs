@@ -30,7 +30,7 @@ The Telerik UI for .NET MAUI technical online training has an approximate durati
 * **Chapter 1: Welcome** (Introduction, About Telerik UI for .NET MAUI, Course Prerequisites, Course Resources)
 * **Chapter 2: Getting Started** (Overview, Installation, Project Code, First Control, Running the Demos)
 * **Chapter 3: Basic UI Components** (Overview of the Basic UI Controls, Inputs, ListPicker, TabView)
-* **Chapter 4: Grid** (Grid Overview, Setup, Columns, Column Templates, Sorting, Filtering, Selection)
+* **Chapter 4: DataGrid** (DataGrid Overview, Setup, Columns, Column Templates, Sorting, Filtering, Selection)
 * **Chapter 5: Chart** (Chart Overview, Anatomy, Chart Setup, Categories and Series, Labels)
 * **Chapter 6: DataForm** (DataForm Overview, Setup, Editors, Commit Modes)
 * **Chapter 7: Styling** (Styling Overview, Examples, Palette Styling, Resources)
