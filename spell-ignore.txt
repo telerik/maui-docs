@@ -31,6 +31,7 @@ DataForm
 WinUI
 ComboBox
 noneditable
+ListPicker
 Button
 pre-scroll
 Localizations
@@ -38,5 +39,4 @@ DatePicker
 DateTimePicker
 TimePicker
 TimeSpanPicker
-ListPicker
 TemplatedPicker
