@@ -34,7 +34,6 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 <snippet id='templatedpicker-getting-started-xaml' />
 <snippet id='templatedpicker-getting-started-csharp' />
 
-
 **2.**Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
 
 <snippet id='templatedpicker-color-viewmodel' />
