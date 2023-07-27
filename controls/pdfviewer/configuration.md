@@ -25,10 +25,6 @@ The Telerik UI for .NET MAUI PDF Viewer allows you to control the space between 
 
 * `PageSpacing`(`double`)&mdash;Defines the space between the pages of the PDF Document. The default value is `20.0`.
 
-## Configure the Staring Index of the Page
-
-* `VisiblePagesStartIndex`(`int`)&mdash;Defines the index at which the document will be displayed. The default value is `0`.
-
 ## Customize the Default Busy Indicator
 
 When loading documents in the PDF Viewer, a busy indicator visualizes. If the default look of the busy indicator does not suit your needs, you can define a custom template through the `BusyIndicatorTemplate` property:

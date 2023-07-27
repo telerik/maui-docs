@@ -27,7 +27,16 @@ AutoComplete
 bindable
 Accordion
 BusyIndicator
+DataForm
 WinUI
 ComboBox
 noneditable
+Button
+pre-scroll
+Localizations
+DatePicker
+DateTimePicker
+TimePicker
+TimeSpanPicker
+ListPicker
 TemplatedPicker

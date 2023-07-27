@@ -1,7 +1,7 @@
 ---
 title: Pull to Refresh
 page_title: .NET MAUI ListView Documentation - Pull to Refresh
-description: Check our &quot;Pull to Refresh&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Review how to use the pull to refresh feature of the Telerik ListView for .NET MAUI.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-pull-to-refresh
 slug: listview-features-pull-to-refresh
@@ -22,23 +22,23 @@ This feature consists of:
 
 This example demonstrates how to enable the pull to refresh functionality.
 
-1. Add the ListView definition:
+**1.** Add the ListView definition:
 
- <snippet id='listview-gestures-pulltorefresh-listview'/>
+<snippet id='listview-gestures-pulltorefresh-listview'/>
 
-1. Define the `telerik` namespace:
+**2.** Define the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
- ```
+```
 
-1. Set sample ItemsSource to the ListView:
+**3.** Set sample ItemsSource to the ListView:
 
- <snippet id='listview-gestures-pulltorefresh-source'/>
+<snippet id='listview-gestures-pulltorefresh-source'/>
 
-1. Add the `RefreshRequested` method that updates the source of the ListView when refresh is triggered:
+**4.** Add the `RefreshRequested` method that updates the source of the ListView when refresh is triggered:
 
- <snippet id='listview-gestures-pulltorefresh-event'/>
+<snippet id='listview-gestures-pulltorefresh-event'/>
 
 This is how the refresh indicator looks like:
 
@@ -48,7 +48,7 @@ This is how the refresh indicator looks like:
 
 ListView should not be used in a View that restricts the Height to the minimum amount of vertical space. An example is `StackLayout` or a Grid with `<RowDefinition Height="Auto" />`. This will restrict the ListView from expanding when items are populated and  prevents Pull To Refresh from working correctly.
 
-The recommended use is to place the RadListView control in a container that expands to fill available space. For example, the RadListView in the example below is in the star-sized Grid RowDefinition.
+The recommended use is to place the `RadListView` control in a container that expands to fill available space. For example, the `RadListView` in the example below is in the star-sized Grid `RowDefinition`.
 
 ```
 <Grid>
