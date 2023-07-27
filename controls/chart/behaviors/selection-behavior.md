@@ -1,7 +1,7 @@
 ---
 title: Selection Behavior
 page_title: .NET MAUI Chart Documentation - Selection Behavior
-description: Check our &quot;Selection Behavior&quot; documentation article for Telerik Chart for .NET MAUI control.
+description: Learn more about the selection behavior in the Telerik UI for .NET MAUI Chart control.
 position: 1
 previous_url: /controls/chart/behaviors/chart-behaviors-selection-behavior
 slug: chart-behaviors-selection
@@ -9,7 +9,7 @@ slug: chart-behaviors-selection
 
 # .NET MAUI Chart Selection Behavior
 
-The Selection behavior of the Chart is responsible for selecting, deselecting, and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
+The Selection behavior of the Chart handles selecting, deselecting, and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
 
 ## Features
 
