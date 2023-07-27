@@ -12,8 +12,8 @@ The ListPicker control for .NET MAUI provides styling options for customizing it
 
 The control supports the following styling properties:
 
-* `ItemStyle`(of type `Style` with target type `telerikDataControls:SpinnerItemView`)&mdash;Defines the style applied to the list of items.
-* `SelectedItemStyle`(of type `Style` with target type `telerikDataControls:SpinnerItemView`)&mdash;Defines the style applied to the selected item.
+* `ItemStyle`(of type `Style` with target type `telerik:SpinnerItemView`)&mdash;Defines the style applied to the list of items.
+* `SelectedItemStyle`(of type `Style` with target type `telerik:SpinnerItemView`)&mdash;Defines the style applied to the selected item.
 * `SelectionHighlightStyle`(of type `Style` with target type `telerik:RadBorder`)&mdash;Specifies the style applied to the border where the current selection is.  
 * `PlaceholderLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the style applied to the placeholder label.
 * `DisplayLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the style applied to the label which is visualized when item of the list is selected.

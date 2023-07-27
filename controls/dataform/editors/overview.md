@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI DataForm Documentation - Editors
-description: "Check our &quot;Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the editors that Telerik UI for .NET MAUI DataForm control provides.
 position: 0
 slug: dataform-editors
 ---
 
 # .NET MAUI DataForm Editors
 
-The Telerik DataFrom control supports built-in editors.
+The Telerik DataForm control supports built-in editors.
 
 The table below describes the available editors which use the Telerik .NET MAUI controls:
 
@@ -40,15 +40,15 @@ The table below describes the available editors which use the .NET MAUI controls
 | `DataFormTimePickerEditor`		| `TimeSpan?` | ` .NET MAUI TimePicker` |
 | `DataFormSwitchEditor`		 | `bool` | `.NET MAUI Switch` |
 
-## Common Properties for built-in editors
+## Common Properties for Built-In Editors
 
-* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when there is no input in the editor.
+* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when the user hasn't provided a value yet.
 * `PropertyName`(`string`)&mdash;Specifies the name of the property from the business object this editor is bound to.
 * `PropertyValue`(`object`)&mdash;Defines the value of the property from the business object this editor is bound to.
 * `EditorValue`(`object`)&mdash;Specifies the current edited value, before applying it to the business object.
 * `IsReadOnly`(`bool?`)&mdash;Specifies whether the current editor is in a read-only mode.
-* `ValidationMode`(`Telerik.Maui.Controls.DataFormValidationMode`)&mdash;Inherits the ValidationMode from the DataForm.
-* `CommitMode`(`Telerik.Maui.Controls.DataFormCommitMode`)&mdash;Inherits the CommitMode from the DataForm.
+* `ValidationMode`(`Telerik.Maui.Controls.DataFormValidationMode`)&mdash;Inherits the `ValidationMode` from the DataForm.
+* `CommitMode`(`Telerik.Maui.Controls.DataFormCommitMode`)&mdash;Inherits the `CommitMode` from the DataForm.
 * `ColumnSpacing`(`double`)&mdash;Specifies the horizontal spacing between the rows in the editor.
 * `RowSpacing`(`double`)&mdash;Specifies the vertical spacing between the rows in the editor.
 * `ErrorDisplayOptions`(`Telerik.Maui.Controls.DataFormErrorDisplayOptions?`)&mdash;Specifies the display options of the header.
@@ -59,8 +59,8 @@ The table below describes the available editors which use the .NET MAUI controls
 ## Events
 
 * `EditorGenerated`&mdash;Raised when the data form is about to generate an editor for a given property automatically. 
-This event can be used to customize the automatic generation of the editors when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is set to `true` and there is no editor specified explicitly for the given property in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
-It is possible to customize, replace or discard the generated editor, before it is added to the data form. The `EditorGenerated` event handler receives two parameters:
+This event can be used to customize the automatic generation of the editors when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is `true` and there isn't editor specified explicitly for the given property in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
+You can customize, replace, or discard the generated editor before adding it to the data form. The `EditorGenerated` event handler receives two parameters:
 	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type.
 	* `DataFormEditorGeneratedEventArgs` which has a reference to the `PropertyName`(Gets the name of property from the data model, for which to generate an editor), `PropertyType`(Gets the type of property from the data model, for which to generate an editor) and `Editor`(Specifies the editor which is generated for the specified property. To skip the generation of the editor, set the property to `null`)
 
@@ -74,7 +74,7 @@ And the handler:
 
 * `EditorValueChanged`&mdash;Raised when the value of an editor has changed. The `EditorValueChanged` event handler receives two parameters:
 	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type.
-	* `DataFormEditorValueChangedEventArgs` which has a reference to the PropertyName, EditorValue and PropertyValue of the concrete editor.
+	* `DataFormEditorValueChangedEventArgs` which has a reference to the `PropertyName`, `EditorValue` and `PropertyValue` of the concrete editor.
 
 ## Custom Editors
 

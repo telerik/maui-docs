@@ -1,13 +1,13 @@
 ---
 title: TimeSpan Ranges
 page_title: .NET MAUI TimeSpanPicker Documentation - TimeSpan Ranges
-description: Check our &quot;TimeSpan Range&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Learn more about the time span range functionality in the Telerik UI for .NET MAUI TimePicker control.
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-timespan-range
 slug: timespanpicker-timespan-range
 ---
 
-# TimeSpan Ranges in .NET MAUI TimeSpanPicker
+# Time Span Ranges in .NET MAUI TimeSpanPicker
 
 The TimeSpanPicker allows you to define a time-span range and choose a time interval within that range through the following properties:
 

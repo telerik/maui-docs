@@ -1,7 +1,7 @@
 ---
 title: Templates
 page_title: .NET MAUI TemplatedPicker Documentation - Templates
-description: Check our &quot;Templates&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
+description: Learn more about the templates in the Telerik UI for .NET MAUI TemplatedPicker control.
 position: 3
 previous_url: /controls/templatedpicker/templatedpicker-templates
 slug: templatedpicker-templates
@@ -31,11 +31,11 @@ The following example demonstrates how to define the templates.
 
  <snippet id='templatedpicker-keyfeatures' />
 
-**Define the SelectorTemplate**
+**Define the Selector Template**
 
  <snippet id='templatedpicker-keyfeatures-selectortemplate' />
 
-**Define the HeaderTemplate**
+**Define the Header Template**
 
  <snippet id='templatedpicker-keyfeatures-headertemplate' />
 

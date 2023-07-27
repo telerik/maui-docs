@@ -1,7 +1,7 @@
 ---
 title: Custom Editors
 page_title: .NET MAUI DataForm Documentation - Custom Editors
-description: "Check our &quot;Custom Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the custom editors that the Telerik UI for .NET MAUI DataForm control provides.
 position: 5
 slug: dataform-custom-editor
 ---
@@ -14,12 +14,12 @@ DataForm has a support for custom editors with 5.1.0 version of Telerik UI for .
 
 ## Properties
 
-* `EditorTemplate`(`ControlTemplate`)&mdash;Desines the content of the custom editor. The target type of this template is `Telerik.Maui.Controls.DataFormCustomEditorContentPresenter`. The `DataFormCustomEditorContentPresenter` exposes the following properties:
+* `EditorTemplate`(`ControlTemplate`)&mdash;Defines the content of the custom editor. The target type of this template is `Telerik.Maui.Controls.DataFormCustomEditorContentPresenter`. The `DataFormCustomEditorContentPresenter` exposes the following properties:
 
 	* `Value`(`object`)&mdash;Specifies the value of the editor.
 	* `Editor`(`Telerik.Maui.Conrols.DataFormCustomEditor`)&mdash;Gets the editor this control is associated with.
 
-* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when there is no input in the editor.
+* `Placeholder`(`string`)&mdash;Specifies the placeholder value to display, when there hasn't been input in the editor.
 * `PropertyName`(`string`)&mdash;Specifies the name of the property from the business object this editor is bound to.
 * `PropertyValue`(`object`)&mdash;Defines the value of the property from the business object this editor is bound to.
 * `EditorValue`(`object`)&mdash;Specifies the current edited value, before applying it to the business object.
@@ -43,7 +43,7 @@ And the ViewModel used for the RadDataForm:
 
 ## Styling 
 
-You can easily style the custom editor area by setting the BackgroundColor, BorderColor and BorderThickness properties.
+You can style the custom editor area by setting the `BackgroundColor`, `BorderColor` and `BorderThickness` properties.
 
 ## Inherited Editor
 
