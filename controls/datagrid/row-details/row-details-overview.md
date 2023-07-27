@@ -16,11 +16,29 @@ To show the Row Details, you can use the following exposed options:
 
 - The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({%slug datagrid-columns-toggle-column %})
 
-- The `SelectionChanged` event.
+- For example, on a selection without using the default column. For this case you need a custom implementation. 
+
+Here is a sample implementation inside the DataGrid `SelectionChanged` event:
+
+```C#
+void dataGrid_SelectionChanged(System.Object sender, DataGridSelectionChangedEventArgs e)
+{
+    RadDataGrid dataGrid = sender as RadDataGrid;
+
+    foreach (var item in e.AddedItems)
+    {
+        dataGrid.ExpandedRowDetails.Add(item);
+    }
+    foreach (var item in e.RemovedItems)
+    {
+        dataGrid.ExpandedRowDetails.Remove(item);
+    }
+}
+```
 
 The DataGrid exposes the following properties that control the row details functionality:
 
-* `AreNowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep their position during horizontal scroll.
+* `AreRowDetailsFrozen` (type `bool`)&mdash;The property indicates whether the row details keep their position during horizontal scroll.
 
 * `ExpandedRowDetails` (type `IList`)&mdash;Defines the collection of items that have expanded row details.
 
