@@ -18,7 +18,7 @@ The following example shows how to define the `RowDetailsTemplate` property in t
 
 <snippet id='datagrid-rowdetails'/>
 
-**2.** Define `RowDetailsTemplate` in XAML
+**2.** Define `RowDetailsTemplate` in XAML:
 
 <snippet id='datagrid-rowdetails-template'/>
 
