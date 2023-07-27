@@ -18,7 +18,7 @@ List Picker for .NET MAUI exposes the following commands you can use to programm
 
 ## PopupSelector Commands
 
-Through the popup users can pick an item. The date value can be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
+Through the popup, users can pick an item. The date value can be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
 
 The ListPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** and **Cancel** buttons, respectively, are pressed.
 
