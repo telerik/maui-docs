@@ -1,7 +1,7 @@
 ---
 title: Popup Styling
 page_title: .NET MAUI TimeSpanPicker Documentation - Popup Styling
-description: Check our &quot;Popup Styling&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Learn how to style the popup in the Telerik UI for .NET MAUI TimeSpanPicker control.
 position: 1
 slug: timespanpicker-popup-styling
 ---
@@ -56,7 +56,7 @@ Let's have the following `TimeSpan Picker` definition:
 
 And here are how the styles are defined in the page resources.
 
-## PopupView Style
+## Popup View Style
 
 ```XAML
 <Style TargetType="telerik:PickerPopupContentView" x:Key="popupViewStyle">
@@ -78,7 +78,7 @@ And here are how the styles are defined in the page resources.
 </Style>
 ```
 
-## HeaderLabel Style
+## Header Label Style
 
 ```XAML
 <Style TargetType="Label" x:Key="headerLabelStyle">
@@ -97,7 +97,7 @@ And here are how the styles are defined in the page resources.
 </Style>
 ```
 
-## AcceptButton Style
+## Accept Button Style
 
 ```XAML
 <Style TargetType="Button" x:Key="acceptButtonStyle">
@@ -107,7 +107,7 @@ And here are how the styles are defined in the page resources.
 </Style>
 ```
 
-## CancelButton Style
+## Cancel Button Style
 
 ```XAML
 <Style TargetType="Button" x:Key="cancelButtonStyle">

@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI TimeSpanPicker Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Use the exposed commands of the Telerik UI for .NET MAUI TimeSpanPicker to programmatically manipulate the display of its popup.
 position: 7
 previous_url: /controls/timespanpicker/timespanpicker-commands
 slug: timespanpicker-commands
@@ -50,9 +50,9 @@ You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings`
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
-1. Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <StackLayout>
     <telerik:RadTimeSpanPicker>
         <telerik:RadTimeSpanPicker.PopupSettings>
@@ -64,11 +64,11 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
             </telerik:RadTimeSpanPicker.BindingContext>
     </telerik:RadTimeSpanPicker>
 </StackLayout>
- ```
+```
 
-1. Set the `ViewModel`.
+**2.** Set the `ViewModel`.
 
- ```C#
+```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -90,13 +90,13 @@ public class ViewModel
         // implement your custom logic here
     }
 }
- ```
+```
 
-1. Add the following namespace.
+**3**. Add the following namespace.
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 
 ## See Also

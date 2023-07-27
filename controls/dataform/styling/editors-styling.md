@@ -1,7 +1,7 @@
 ---
 title: Editors Styling
 page_title: .NET MAUI DataForm Documentation - Editors Styling
-description: "Review the available Styling options which DataForm for .NET MAUI control provides for its editors."
+description: Review the available Styling options which DataForm for .NET MAUI control provides for its editors.
 position: 1
 slug: dataform-editors-styling
 ---
@@ -15,17 +15,17 @@ Each editor provides the following properties:
 * `BackgroundColor`&mdash;Defines the background color of the editor.
 * `BorderColor`&mdash;Defines the border color of the editor.
 * `BorderThickness`&mdash;Specifies the border thickness of the editor.
-* `EditorStyle` (`Style` with `TargetType` depending on the input control which the editor uses). For example, the target type of the RadCheckBoxEditor is RadCheckBox.
+* `EditorStyle` (`Style` with `TargetType` depending on the input control which the editor uses). For example, the target type of the `RadCheckBoxEditor` is `RadCheckBox`.
 
 ## Example
 
 The example shows how to style the DataForm 
 
-**Define the `RadDataForm` and the editors**.
+Define the `RadDataForm` and the editors
 
 <snippet id='dataform-editors-styling' />
 
-**Define the `CheckBoxStyle` for the RadCheckBox editor**
+Define the `CheckBoxStyle` for the RadCheckBox editor
 
 <snippet id='dataform-editors-stlying-checkbox-style' />
 

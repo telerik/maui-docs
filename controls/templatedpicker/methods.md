@@ -1,7 +1,7 @@
 ---
 title: Methods
 page_title: .NET MAUI TemplatedPicker Documentation - Methods
-description: Check our &quot;Methods&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
+description: Learn more about the ClearSelection method that the Telerik UI for .NET MAUI Templated picker control exposes.
 position: 6
 previous_url: /controls/templatedpicker/templatedpicker-methods
 slug: templatedpicker-methods
@@ -11,9 +11,9 @@ slug: templatedpicker-methods
 
 The TemplatedPicker for .NET MAUI allows you to clear the selected value through its `ClearSelection` method.
 
-1. Define the TemplatedPicker:
+**1.** Define the TemplatedPicker:
 
- ```XAML
+```XAML
 <VerticalStackLayout>
     <Button Clicked="OnClearSelectionClicked" Text="clear selection"/>
     <telerik:RadTemplatedPicker x:Name="picker">
@@ -24,24 +24,22 @@ The TemplatedPicker for .NET MAUI allows you to clear the selected value through
         </telerik:RadTemplatedPicker.SelectorTemplate>
     </telerik:RadTemplatedPicker>
 </VerticalStackLayout>
- ```
+```
 
-1. Clear the selection inside the button `click` event:
+**2.** Clear the selection inside the button `click` event:
 
- ```C#
+```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.picker.ClearSelection();
 }
- ```
+```
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
-
+```
 
 ## See Also
 

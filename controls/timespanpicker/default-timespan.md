@@ -1,13 +1,13 @@
 ---
 title: Default TimeSpan
 page_title: .NET MAUI TimeSpanPicker Documentation - Default TimeSpan
-description: Check our &quot;Default TimeSpan&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Learn more about the time span functionality that the Telerik UI for .NET MAUI TimeSpanPicker provides.
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-default-timespan
 slug: timespanpicker-default-timespan
 ---
 
-# .NET MAUI TimeSpanPicker Default TimeSpan
+# .NET MAUI TimeSpanPicker Default Time Span
 
 The TimeSpanPicker provides options for setting its default time interval.
 
@@ -28,8 +28,6 @@ Add the namespace.
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
-
 
 ## DefaultHighlightedTime Interval
 

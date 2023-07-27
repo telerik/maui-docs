@@ -1,7 +1,7 @@
 ---
 title: Masked Editors
 page_title: .NET MAUI DataForm Documentation - Masked Editors
-description: "Check our &quot;Masked Editors&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the masked editors that the Telerik UI for .NET MAUI DataForm control provides.
 position: 1
 slug: dataform-masked-editors
 ---
@@ -21,11 +21,11 @@ Other properties that are common for all editors are listed in the [Editors Over
 
 ## Styling 
 
-You can easily style the editors using the properties BackgroundColor, BorderColor and BorderThickness. You can additionally style each editor by applying a style with the same target type as the underlying control.
+You can style the editors using the properties `BackgroundColor`, `BorderColor` and `BorderThickness`. You can additionally style each editor by applying a style with the same target type as the underlying control.
 
 A table with all editors and their control types is available in the [Editors Overview article]({%slug dataform-editors%}).
 
-**Example with DataFormRadTextMaskedEditor**
+Example with `DataFormRadTextMaskedEditor`
 
 ```XAML
 <Style x:Key="RadTextMaskedEditorStyle" TargetType="telerik:RadTextMaskedEntry">
@@ -50,3 +50,7 @@ And the editor definition
 ```
 
 For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
+
+## See Also
+
+- [Editors]({%slug dataform-editors%})

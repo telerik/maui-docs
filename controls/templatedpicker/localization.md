@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: Telerik .NET MAUI TemplatedPicker Documentation - Localization
-description: "Review the Localization keys that Telerik .NET MAUI TemplatedPicker control provides."
+description: Review the Localization keys that Telerik .NET MAUI TemplatedPicker control provides.
 position: 9
 slug: templatedpicker-localization
 ---
@@ -17,7 +17,7 @@ The Telerik .NET MAUI TemplatedPicker exposes localization keys explained in the
 | `TemplatedPicker_PlaceholderLabelText`  | `Select value` |
 | `TemplatedPicker_Popup_HeaderLabelText` | `Select value` |
 
-**Common Picker localizations keys**
+**Common Picker localization keys**
 
 | Localization Key | Default Value |
 | -----------------| ------------- |

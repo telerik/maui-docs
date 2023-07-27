@@ -1,7 +1,7 @@
 ---
 title: GridLayout
 page_title: .NET MAUI DataForm Documentation - GridLayout
-description: "Review the .NET MAUI DataForm &quot;GridLayout&quot; option."
+description: Learn more about the GridLayout definition that Telerik UI for .NET MAUI provides.
 position: 2
 slug: dataform-layouts-grid
 ---
@@ -20,11 +20,11 @@ Use the following properties which the DataFormGridLayout provides:
 
 ![DataForm Grid Layout Definition](../images/dataform-grid-layout-desktop.png)
 
-**RadDataForm XAML definition with GridLayout applied:**
+`RadDataForm` XAML definition with GridLayout applied:
 
 <snippet id='dataform-layouts-grid'/>
 
-**The Model used for the DataForm editors**
+The Model used for the DataForm editors
 
 <snippet id='dataform-editors-model'/>
 
