@@ -56,8 +56,6 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
 1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Update**.
 
-  Note that the [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) server will be deprecated and you are recommended to switch to the v3 API, which is faster, more lightweight, and also reduces the number of requests from NuGet clients.
-
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/nuget-vs-telerik-server.png)
 
 The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
