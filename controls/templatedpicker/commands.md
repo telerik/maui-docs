@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI TemplatedPicker Documentation - Commands
-description:  Use the exposed commands of the Telerik UI for .NET MAUI TemplatedPicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection.
+description:  Use the exposed commands of the Telerik UI for .NET MAUI TemplatedPicker to programmatically manipulate the display of its popup and clear selected dates or handle date selection acceptance or cancellation.
 position: 7
 previous_url: /controls/templatedpicker/templatedpicker-commands
 slug: templatedpicker-commands
