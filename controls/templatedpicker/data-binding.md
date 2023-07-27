@@ -53,7 +53,7 @@ The example below uses two `RadSpinner` controls inside the `SelectorTemplate` o
 
 **6.** Define the `ViewModel`:
 
- <snippet id='templatedpicker-viewmodel' />
+<snippet id='templatedpicker-viewmodel' />
 
 **7.** Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
@@ -63,11 +63,9 @@ this.BindingContext = new LocationViewModel();
 
 **8.** In addition to this, you need to add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
-
+```
 
 The following image shows the end result.
 
