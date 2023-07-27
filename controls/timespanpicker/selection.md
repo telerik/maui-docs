@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI TimeSpanPicker Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Learn more about the selection functionality that the Telerik UI for .NET MAUI TimeSpanPicker control provides.
 position: 6
 previous_url: /controls/timespanpicker/timespanpicker-selection
 slug: timespanpicker-selection
@@ -9,7 +9,7 @@ slug: timespanpicker-selection
 
 # .NET MAUI TimeSpanPicker Selection
 
-The TimeSpanPicker control enables users to quickly and easily select a time interval. This topic explains the TimeSpanPicker API related to the time-interval selection.
+The TimeSpanPicker control enables users to select a time interval. This topic explains the TimeSpanPicker API related to the time-interval selection.
 
 ## Time Property
 

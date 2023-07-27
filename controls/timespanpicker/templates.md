@@ -1,7 +1,7 @@
 ---
 title: Templates
 page_title: .NET MAUI TimeSpanPicker Documentation - Templates
-description: Check our &quot;Templates&quot; documentation article for Telerik TimeSpanPicker for .NET MAUI.
+description: Learn more about the templates in the Telerik UI for .NET MAUI TimeSpanPicker control.
 position: 4
 previous_url: /controls/timespanpicker/timespanpicker-templates
 slug: timespanpicker-templates
@@ -9,7 +9,7 @@ slug: timespanpicker-templates
 
 # .NET MAUI TimeSpanPicker Templates
 
-If the default templates of the control do not suit your needs, you can easily define custom ones.
+If the default templates of the control do not suit your needs, you can define custom ones.
 
 The available templates for customizing are:
 
@@ -18,26 +18,26 @@ The available templates for customizing are:
 * `HeaderTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) header.
 * `FooterTemplate`(`ControlTemplate`)&mdash;Defines what will be displayed inside the dialog (popup) footer.
 
-## PlaceholderTemplate
+## Placeholder Template
 
 <snippet id='timespanpicker-placeholder-template' />
 
 
-## DisplayTemplate
+## Display Template
 
 <snippet id='timespanpicker-display-template' />
 
 
-## HeaderTemplate
+## Header Template
 
 <snippet id='timespanpicker-header-template' />
 
 
-## FooterTemplate
+## Footer Template
 
 <snippet id='timespanpicker-footer-template' />
 
-and the TimeSpan Picker definition:
+and the Time Span Picker definition:
 
 <snippet id='timespanpicker-custom-templates' />
 
