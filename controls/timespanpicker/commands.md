@@ -52,7 +52,7 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
 **1.** Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <StackLayout>
     <telerik:RadTimeSpanPicker>
         <telerik:RadTimeSpanPicker.PopupSettings>
@@ -64,11 +64,11 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
             </telerik:RadTimeSpanPicker.BindingContext>
     </telerik:RadTimeSpanPicker>
 </StackLayout>
- ```
+```
 
 **2.** Set the `ViewModel`.
 
- ```C#
+```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -90,13 +90,13 @@ public class ViewModel
         // implement your custom logic here
     }
 }
- ```
+```
 
 **3**. Add the following namespace.
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 
 ## See Also
