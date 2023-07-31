@@ -17,7 +17,7 @@ The TimePicker for .NET MAUI provides language localization. The localization ke
 | `TimePicker_Popup_HeaderLabelText`  | `Select Time` |
 | `TimePicker_PlaceholderLabelText`  | `Select Time` |
 
-#**Common Picker localization keys**
+>caption Common Picker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
