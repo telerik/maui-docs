@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI TimePicker Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn more about the selection functionality that the Telerik UI for .NET MAUI TimePicker control provides.
 position: 5
 previous_url: /controls/timepicker/timepicker-selection
 slug: timepicker-selection
@@ -9,7 +9,7 @@ slug: timepicker-selection
 
 # .NET MAUI TimePicker Selection
 
-The TimePicker control enables users to quickly and easily select a time value. This topic explains the TimePicker API related to time selection.
+The TimePicker control enables users to select a time value. This topic explains the TimePicker API related to time selection.
 
 ## Time Property
 

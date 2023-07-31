@@ -1,7 +1,7 @@
 ---
 title: Default Time
 page_title: .NET MAUI TimePicker Documentation - Default Time
-description: Check our &quot;Default Time&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn more about the options for setting the default time of the Telerik UI for .NET MAUI TimePicker control.
 position: 2
 previous_url: /controls/timepicker/timepicker-default-time
 slug: timepicker-default-time
@@ -29,7 +29,7 @@ Add the namespace.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-## DefaultHighlightedTime
+## Default Highlighted Time
 
 The TimePicker enables you to set its default highlighted time by using the  `DefaultHighlightedTime`(`TimeSpan`) property, which defines the `System.TimeSpan` that will be used to pre-scroll each spinner when the `RadTimePicker.Time` property is set to `null`.
 
