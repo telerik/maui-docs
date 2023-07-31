@@ -10,7 +10,7 @@ slug: timepicker-localization
 
 The TimePicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
 
-**TimePicker localization keys**
+>caption TimePicker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
