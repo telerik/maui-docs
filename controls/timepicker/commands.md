@@ -45,7 +45,7 @@ The TimePicker allows you to add custom logic for the `Accept` and `Cancel` comm
 * `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
 * `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
 
-You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of Templated Picker.
+You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TemplatedPicker.
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
