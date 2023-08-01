@@ -1,14 +1,14 @@
 ---
 title: Selection
 page_title: .NET MAUI DateTimePicker Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik DateTimePicker for .NET MAUI.
+description:  Learn more about the selection functionality that the Telerik UI for .NET MAUI DateTimePicker control provides.
 position: 5
 slug: datetimepicker-selection
 ---
 
 # .NET MAUI DateTimePicker Selection
 
-The DateTimePicker control enables the application users to quickly and easily select a date value by providing an API related to date selection.
+The DateTimePicker control enables the application users to quickly and select a date value by providing an API related to date selection.
 
 ## Date Property
 

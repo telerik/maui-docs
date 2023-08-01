@@ -1,7 +1,7 @@
 ---
 title: Popup Styling
 page_title: .NET MAUI TimePicker Documentation - Popup Styling
-description: Check our &quot;Popup Styling&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn how to style the popup in the Telerik UI for .NET MAUI TimePicker control.
 position: 1
 slug: timepicker-popup-styling
 ---
@@ -42,27 +42,27 @@ The following example shows how the styling properties are applied.
 
 <snippet id='timepicker-popup-style' />
 
-**Define the PopupViewStyle**
+**Define the `PopupViewStyle`**
 
 <snippet id='timepicker-style-popupview-style' />
 
-**Define the HeaderStyle**
+**Define the `HeaderStyle`**
 
 <snippet id='timepicker-style-header-style' />
 
-**Define the HeaderLabelStyle**
+**Define the `HeaderLabelStyle`**
 
 <snippet id='timepicker-style-header-label-style' />
 
-**Define the FooterStyle**
+**Define the `FooterStyle`**
 
 <snippet id='timepicker-style-footer-style' />
 
-**Define the AcceptButtonStyle**
+**Define the `AcceptButtonStyle`**
 
 <snippet id='timepicker-style-accept-button-style' />
 
-**Define the CancelButtonStyle**
+**Define the `CancelButtonStyle`**
 
 <snippet id='timepicker-style-cancel-button-style' />
 

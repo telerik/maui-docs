@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI DataForm Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI DataForm and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI DataForm and add the control to your .NET MAUI project.
 position: 2
 slug: dataform-getting-started
 ---
@@ -10,7 +10,7 @@ slug: dataform-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI DataForm by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![DataForm Getting Started](images/dataform-getting-started.png)
 

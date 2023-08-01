@@ -14,33 +14,31 @@ The DataGrid `CellTap` command handles the tap (click) gesture over a grid cell,
 
 Here is an example how the `RadDataGrid` `CellTap` command works:
 
-1. Create the needed business objects, for example, type `Country` with the following properties:
+**1.** Create the needed business objects, for example, type `Country` with the following properties:
 
- <snippet id='datagrid-commands-celltap-businessobject'/>
+<snippet id='datagrid-commands-celltap-businessobject'/>
 
-1. Add data to the `DataGrid` `ItemsSource` and set the `BindingContext`:
+**2.** Add data to the `DataGrid` `ItemsSource` and set the `BindingContext`:
 
-  <snippet id='datagrid-commands-celltap-data'/>
+<snippet id='datagrid-commands-celltap-data'/>
 
+**3.** Handle the `CellTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
+<snippet id='datagrid-commands-celltap'/>
 
-1. Handle the `CellTap` action as a command. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+**4.** Add this command to the `Commands` collection of the `RadDataGrid` instance:
 
- <snippet id='datagrid-commands-celltap'/>
+<snippet id='datagrid-commands-cetttap-add'/>
 
-1. Add this command to the `Commands` collection of the `RadDataGrid` instance:
+**5.** Define the DataGrid in XAML:
 
- <snippet id='datagrid-commands-cetttap-add'/>
+<snippet id='datagrid-commands-celltap-xaml'/>
 
-1. Define the DataGrid in XAML:
+**6.** Add the `telerik` namespace:
 
- <snippet id='datagrid-commands-celltap-xaml'/>
-
-1. Add the `telerik` namespace:
-
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

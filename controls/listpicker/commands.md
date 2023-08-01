@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI ListPicker Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik ListPicker for .NET MAUI.
+description: Use the exposed commands of the Telerik UI for .NET MAUI ListPicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection.
 position: 7
 previous_url: /controls/listpicker/listpicker-commands
 slug: listpicker-commands
@@ -18,7 +18,7 @@ List Picker for .NET MAUI exposes the following commands you can use to programm
 
 ## PopupSelector Commands
 
-Through the popup users can pick an item. The date value should be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
+Through the popup, users can pick an item. The date value can be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
 
 The ListPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** and **Cancel** buttons, respectively, are pressed.
 

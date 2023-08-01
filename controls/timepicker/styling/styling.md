@@ -1,7 +1,7 @@
 ---
 title: TimePicker Styling
 page_title: .NET MAUI TimePicker Documentation - Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn how to style the Telerik UI for .NET MAUI TimePicker control with the exposed options in the article.
 position: 0
 slug: timepicker-styling
 ---
@@ -46,27 +46,27 @@ The following example shows how the styling properties can be applied.
 
 <snippet id='timepicker-popup-style' />
 
-**Define the SpinnerStyle**
+**Define the `SpinnerStyle`**
 
 <snippet id='timepicker-style-spinner-style' />
 
-**Define the SelectionHighlightStyle**
+**Define the `SelectionHighlightStyle`**
 
 <snippet id='timepicker-style-selection-highlight-style' />
 
-**Define the PlaceholderLabelStyle**
+**Define the `PlaceholderLabelStyle`**
 
 <snippet id='timepicker-style-placeholder-label-style' />
 
-**Define the DisplayLabelStyle**
+**Define the `DisplayLabelStyle`**
 
 <snippet id='timepicker-style-display-label-style' />
 
-**Define the ClearButtonStyle**
+**Define the `ClearButtonStyle`**
 
 <snippet id='timepicker-style-clear-button-style' />
 
-**Define the ToggleButtonStyle**
+**Define the `ToggleButtonStyle`**
 
 <snippet id='timepicker-style-toggle-button-style' />
 

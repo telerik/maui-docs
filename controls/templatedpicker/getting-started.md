@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI TemplatedPicker Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI TemplatedPicker and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI TemplatedPicker and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/templatedpicker/templatedpicker-getting-started
 slug: templatedpicker-getting-started
@@ -11,7 +11,7 @@ slug: templatedpicker-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI TemplatedPicker by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![TemplatedPicker Getting Started](images/templatedpicker_getting_started.png)
 
@@ -33,7 +33,6 @@ The TemplatedPicker exposes a `SelectorTemplate`, which enables you to place any
 
 <snippet id='templatedpicker-getting-started-xaml' />
 <snippet id='templatedpicker-getting-started-csharp' />
-
 
 **2.**Add the referenced `ColorViewModel`, which holds the collection with the predefined colors:
 

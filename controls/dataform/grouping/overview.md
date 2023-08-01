@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataForm Documentation - Grouping
-description: "Check our &quot;Grouping&quot; documentation article for Telerik DataForm for .NET MAUI control."
+description: Learn more about the grouping functionallity that Telerik UI for .NET MAUI DataForm control provides.
 position: 0
 slug: dataform-grouping
 ---
@@ -12,9 +12,9 @@ Telerik UI for .NET MAUI DataForm supports grouping. You can define the groups d
 
 >important The `GroupName`(`string`) property is the identifier for each group.
 
-### Define groups in XAML and add editors to the group
+### Define Groups in XAML and Add Editors to the Group
 
-You can easily organize the Editors in groups using the `DataFormGroup`(`Telerik.Maui.controls.DataFormItem`). 
+You can organize the Editors in groups using the `DataFormGroup`(`Telerik.Maui.controls.DataFormItem`). 
 
 DataForm definition with Grouping applied:
 
@@ -36,9 +36,9 @@ And the DataForm definition in XAML:
 
 <snippet id='dataform-grouping-from-model'/>
 
-### Define the groups in XAML and GroupName in the model
+### Define the Groups in XAML and GroupName in the Model
 
-You acan apply the groups in the XAML and set the `GroupName` property. Then inside the model add the GroupName attribute to the concrete proeprty. 
+You can apply the groups in the XAML and set the `GroupName` property. Then inside the model add the `GroupName` attribute to the concrete property. 
 
 DataForm XAML definition with grouping applied:
 
@@ -50,11 +50,11 @@ DataForm XAML definition with grouping applied:
 
 ## Events
 
-Telerik .NET MAUI DataForm exposes evenmt for group generation:
+Telerik .NET MAUI DataForm exposes an event for group generation:
 
 * `GroupGenerated`&mdash;Raised when the data form is about to generate a group of items automatically.
-This event can be used to customize the automatic generation of groups in the data form, when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is set to `true` and there is no group specified explicitly for the given category in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
-It is possible to customize, replace or discard the generated group, before it is added to the dataform. The `GroupGenerated` event handler receives two parameters:
+This event can be used to customize the automatic generation of groups in the data form, when the `Telerik.Maui.Controls.RadDataForm.AutoGenerateItems` property is `true` and group is not specified explicitly for the given category in the `Telerik.Maui.Controls.RadDataForm.Items` collection. 
+It's possible to customize, replace or discard the generated group, before is added to the dataform. The `GroupGenerated` event handler receives two parameters:
 	* `sender` argument which is of type object, but can be cast to the `RadDataForm` type.
 	* `DataFormGroupGeneratedEventArgs` which has a reference to the `GroupName`(`string`)&mdash;Gets the unique name of the group to generate, `Group`(`DataFormGroup`)&mdash;Specifies the group, which is generated for the specified unique name. To skip the generation of the group, set this property to null.
 
@@ -69,4 +69,4 @@ And the handler:
 
 ## See Also
 
-- [Configure the Groupis]({%slug dataform-grouping-configuration%})
+- [Configure the Groups]({%slug dataform-grouping-configuration%})

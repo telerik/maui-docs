@@ -1,7 +1,7 @@
 ---
 title: Cartesian Chart Grid
 page_title: .NET MAUI Charts Documentation - Cartesian Chart Grid
-description: Check our &quot;CartesianChart Grid&quot; documentation article for Telerik UI for .NET MAUI Chart control.
+description: Learn more about the Cartesian Chart Grid that represents a decoration over the plot area of the Cartesian Chart.
 slug: cartesian-chart-grid
 position: 8
 ---

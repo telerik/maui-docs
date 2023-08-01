@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI Entry Documentation - Styling
-description: "Learn how to use the border styles and the font styling options of the Telerik UI for .NET MAUI Entry control."
+description: Learn how to use the border styles and the font styling options of the Telerik UI for .NET MAUI Entry control.
 position: 6
 previous_url: /controls/entry/entry-styling
 slug: entry-styling
@@ -18,13 +18,13 @@ Style the entry using the following properties:
 * `CornerRadius`(`Microsoft.Maui.CornerRadius`)
 * `BackgroundColor`(`Microsoft.Maui.Graphics`)
 
-## ClearButton Style
+## Clear Button Style
 
 Style the Clear button which is displayed by default when entering text in the control using the following properties:
 
 * `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button.
-* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is hovered. The color appears only on desktop(Windows and macOS).
-* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when it is clicked.
+* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when the button is hovered. The color appears only on desktop(Windows and macOS).
+* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when the button is clicked.
 
 ## Font Options
 

@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI DateTimePicker Documentation - Overview
-description: "Try now the Telerik DateTimePicker for .NET MAUI delivering a set of options for selecting dates."
+description: Try now the Telerik DateTimePicker for .NET MAUI delivering a set of options for selecting dates.
 position: 0
 slug: datetimepicker-overview
 ---
 
 # .NET MAUI DateTimePicker Overview
 
-**Telerik DateTimePicker for .NET MAUI** provides an easy way to pick a date, time or date and time depending on the used format string Its items are visualized inside a popup or a dropdown. The DateTimePicker control has a number of features which enable you to set a date range, date and time format and fully customize the dialog appearance by setting, for example, its header and footer.  
+Telerik DateTimePicker for .NET MAUI provides a way to pick a date, time or date and time depending on the used format string Its items are visualized inside a popup or a dropdown. The DateTimePicker control has a number of features which enable you to set a date range, date and time format and customize the dialog appearance by setting, for example, its header and footer.  
 
 ![DateTime Picker Overview](images/datetime_picker_overview.png)
 
@@ -24,7 +24,7 @@ slug: datetimepicker-overview
 
 * [Date ranges]({%slug datetimepicker-date-range%})&mdash;You can also define date ranges by setting minimum and maximum date values, and choose a date within that range.
 
-* [Flexible styling API]({%slug datetimepicker-styling%})&mdash;The DateTimePicker provides a number of styling capabilities, which enable you to easily style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
+* [Flexible styling API]({%slug datetimepicker-styling%})&mdash;The DateTimePicker provides a number of styling capabilities, which enable you to style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
 
 * [Commands support]({%slug datetimepicker-commands%})&mdash;The DateTimePicker exposes commands that allow you to clear the selected date and to open and close the popup.
 

@@ -14,26 +14,25 @@ The Telerik UI for .NET MAUI DataGrid control defines a `RowDetailsTemplate` pro
 
 The following example shows how to define the `RowDetailsTemplate` property in the DataGrid control.
 
-1. Define the DataGrid in XAML:
+**1.** Define the DataGrid in XAML:
 
-<snippet id ='datagrid-rowdetails'/>
+<snippet id='datagrid-rowdetails'/>
 
-2. Define `RowDetailsTemplate` in XAML
+**2.** Define `RowDetailsTemplate` in XAML:
 
-<snippet id ='datagrid-rowdetails-template'/>
+<snippet id='datagrid-rowdetails-template'/>
 
-3. Define the Business Model:
+**3.** Define the Business Model:
 
-<snippet id ='datagrid-business-model'/>
+<snippet id='datagrid-business-model'/>
 
-4. Define the ItemsSource:
+**4.** Define the ItemsSource:
 
-<snippet id ='datagrid-items-source'/>
+<snippet id='datagrid-items-source'/>
 
-5. In addition, you can define the row details to be expanded:
+**5.** In addition, you can define the row details to be expanded:
 
-<snippet id ='datagrid-expand-rowdetails'/>
-
+<snippet id='datagrid-expand-rowdetails'/>
 
 The image below illustrates the result from the code snippets:
 
@@ -42,6 +41,5 @@ The image below illustrates the result from the code snippets:
 
 ## See Also
 
- - [Row Details Overview]({%slug datagrid-rowdetails-overview%})
+ - [Row Details Overview]({%slug datagrid-row-details-overview%})
  - [DataGrid Overview]({%slug datagrid-overview%})
- - [External Row Details]({%slug datagrid-%})
