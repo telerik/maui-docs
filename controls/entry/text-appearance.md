@@ -1,7 +1,7 @@
 ---
 title: Text Appearance
 page_title: .NET MAUI Entry Documentation - Text Appearance
-description: "Use the text input configuration options of the Telerik UI for .NET MAUI Entry control and show a placeholder, set the read-only state, define the max length of the input, and more."
+description: Learn how to use the text input configuration options of the Telerik UI for .NET MAUI Entry control and show a placeholder, set the read-only state, define the max length of the input, and more.
 position: 2
 previous_url: /controls/entry/entry-text-appearance
 slug: entry-text-appearance
@@ -23,7 +23,7 @@ The following properties are related to the Entry Text appearance and alignment:
 
 ## Adding Placeholder
 
-The Entry exposes the `Placeholder`(`string`) property that prompts users what kind of information they  are expected to enter in the text input. The placeholder text is displayed when the control is empty.  Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
+The Entry exposes the `Placeholder`(`string`) property that prompts users what information they  are expected to enter in the text input. The placeholder text is displayed when the control is empty.  Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
 
 ```XAML
 <telerikInput:RadEntry Placeholder="First Name"
@@ -98,7 +98,7 @@ The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define t
 
 ## Setting the Return Type
 
-Easily change the keyboard **return key type** using the `ReturnType`(`Microsoft.Maui.ReturnType`) property. The available options are `Default`,`Done`,`Go`,`Next`,`Search` and `Send`. The default return type is `Default`.
+You can change the keyboard **return key type** using the `ReturnType`(`Microsoft.Maui.ReturnType`) property. The available options are `Default`,`Done`,`Go`,`Next`,`Search` and `Send`. The default return type is `Default`.
 
 ```XAML
 <telerik:RadEntry Placeholder="Enter your idea" 
@@ -108,7 +108,7 @@ Easily change the keyboard **return key type** using the `ReturnType`(`Microsoft
 
 ## Defining the Clear Button visibility
 
-The `ClearButtonVisibility`(`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear-button (the button that clears the text when pressed) should be displayed. The default value is `WhileEditing`. 
+The `ClearButtonVisibility`(`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear-button (the button that clears the text when pressed) can be displayed. The default value is `WhileEditing`. 
 If you want to hide the clear button while entering text inside the control, then set the `ClearButtonVisibility` to `Never`.
 
 ## See Also
