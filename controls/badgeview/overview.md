@@ -9,7 +9,7 @@ slug: badgeview-overview
 
 # .NET MAUI BadgeView - Overview
 
-**Telerik UI for .NET MAUI BadgeView** allows you to display badges in your application.
+The Telerik UI for .NET MAUI BadgeView allows you to display badges in your application.
 
 Badges can be used as an additional marker for any element: to decorate avatars, navigation menus, or other components in the application when the visual notification is needed. In addition, you can change the look of the Badge indicator by setting different predefined Badge types, and by using templates and various styling options.    
 

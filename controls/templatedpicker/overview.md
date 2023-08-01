@@ -9,7 +9,7 @@ slug: templatedpicker-overview
 
 # .NET MAUI TemplatedPicker Overview
 
-**Telerik TemplatedPicker for .NET MAUI** is a fully customizable picker control which allows you to create a custom picker based on the scenario you want to achieve. You can pick an item from a selector with a custom template. The items are visualized inside a popup or a dropdown.
+The Telerik UI for .NET MAUI TemplatedPicker is a fully customizable picker control which allows you to create a custom picker based on the scenario you want to achieve. You can pick an item from a selector with a custom template. The items are visualized inside a popup or a dropdown.
 
 ![TemplatedPicker Overview](images/templated_picker_overview.png)
 
@@ -24,6 +24,7 @@ slug: templatedpicker-overview
 * [Flexible styling API]({%slug templatedpicker-styling%})&mdash;Take advantage of the styling capabilities of TemplatedPicker. You can easily style its spinners, the popup, and its header and footer.
 
 * [Commands support]({%slug templatedpicker-commands%})&mdash;The TemplatedPicker exposes the `ClearCommand` command that allows you to clear the selected item and the `ToggleCommand` that allows you to open and close the dialog.
+* [Localization support]({%slug templatedpicker-localization%})&mdash;Translate the used across the TimePicker texts to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 
