@@ -69,3 +69,5 @@ DateTimePicker
 TimePicker
 TimeSpanPicker
 TemplatedPicker
+Expander
+ExpanderHeader
