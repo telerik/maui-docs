@@ -8,7 +8,7 @@ slug: expander-overview
 
 # .NET MAUI Expander Overview
 
-`Telerik Expander for .NET MAUI` helps you save screen space by presenting content in an expandable container that can be expanded/collapsed by tapping on the header of the control.
+The Telerik UI for .NET MAUI Expander helps you save screen space by presenting content in an expandable container that can be expanded/collapsed by tapping on the header of the control.
 
 ![.NET MAUI Expander Overview](images/expander-overview.png "Expander Overview")
 
