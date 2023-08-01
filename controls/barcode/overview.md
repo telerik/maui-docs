@@ -19,7 +19,7 @@ The Telerik UI for .NET MAUI Barcode enables you to create and show barcodes. Yo
 * [Sizing modes]({% slug barcode-sizingmodes %})&mdash;The Barcode provides three sizing modes that enable you to fine-tune the rendering of the barcodes.
 * [Support for one-dimensional (1D) Barcodes]({% slug 1dbarcode-overview %})&mdash;The Telerik UI for .NET MAUI Barcode supports linear barcode types such as EAN13, EAN8, UPC-A, UPC-E, and Code39.
 * [Support for two-dimensional (2D) Barcodes]({% slug 2dbarcode-overview %})&mdash;The Barcode also supports matrix barcode types such as QR Code, SwissQR Code, PDF417 and DataMatrix.
-* Option for disabling the [auto-checksum]({%slug barcode-autochecksum%}) functionality.
+* [Auto-checksum]({%slug barcode-autochecksum%})&mdash;The Barcode control automatically adds a checksum at the end. You can disable this option by setting the `AutoCheckSum` to `false`. 
 * [Styling]({% slug barcode-styling %})&mdash;You can use the `ForegroundColor` and `BackgroundColor` properties of the Barcode for customizing its visual appearance.
 
 ## Next Steps

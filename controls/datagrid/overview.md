@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI DataGrid is a powerful control that allows you to e
 
 Most of the data on the Internet is stored in tables within a database. The Telerik UI for .NET MAUI DataGrid provides the same abstraction over the data&mdash;It has columns and rows, and the intersection of a row and a column is called a cell.
 
-When the data from a database is sent to the client, it is usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The DataGrid also supports alternating row colors so that your users can distinguish one row from another.
+When the data from a database is sent to the client, usually converted to a Business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The DataGrid also supports alternating row colors so that your users can distinguish one row from another.
 
 The optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
@@ -35,11 +35,11 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.
 
-* [Row details]({%slug datagrid-row-details-overview%})for presenting additional information for the data in the row.
+* [Row details]({%slug datagrid-row-details-overview%})&mdash;Represent additional information for the data in the row.
 
-* [Aggregates support]({%slug datagrid-aggregates%})&mdash;API for applying aggregates functions.
+* [Aggregates support]({%slug datagrid-aggregates%})&mdash;You can use the exposed API for applying aggregates functions.
 
-* [Keyboard navigation]({%slug datagrid-keyboard-support%}) for WinUI.
+* [Keyboard navigation]({%slug datagrid-keyboard-support%})support&mdash;Use keyboard keys for navigation in the DataGrid control. Currently, this option is available on WinUI.
 
 * [Empty template]({%slug datagrid-empty-template%})&mdash;When there is no data (`ItemsSource` is null or the collection is empty), an empty template is displayed in the DataGrid.
 
