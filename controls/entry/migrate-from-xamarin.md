@@ -8,7 +8,7 @@ slug: entry-migrate-from-xamarin
 
 # Migrating the Entry from Xamarin to .NET MAUI
 
-Telerik .NET MAUI Entry control preserves the same API as Xamarin.Forms Entry with a few changes and improvements listed below.
+Telerik .NET MAUI Entry control preserves the same API as the Xamarin.Forms Entry with a few changes and improvements listed below.
 
 ## Migrating the Namespaces
 
