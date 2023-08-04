@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ListPicker Documentation - Overview
-description: "Try now the Telerik ListPicker for .NET MAUI delivering a set of options for creating and showing barcodes."
+description: Try now the Telerik ListPicker for .NET MAUI delivering a set of options for creating and showing barcodes.
 position: 0
 slug: listpicker-overview
 previous_url: /controls/listpicker/listpicker-overview
@@ -18,8 +18,8 @@ The Telerik UI for .NET MAUI ListPicker allows the user to select an item from a
 * [Looping]({%slug listpicker-looping%})&mdash;The ListPicker enables you to loop through its items infinitely while scrolling.
 * [Picker mode]({%slug listpicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the items inside the list picker. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 * [Templates]({%slug listpicker-templates%})&mdash;The ListPicker provides templates for its header and footer as well as exposes templates for its placeholder and display text.
-* [DisplayString format]({%slug listpicker-visual-structure%})&mdash;You can choose what text that will be displayed when an item is selected by using the `DisplayStringFormat` property of the ListPicker.
-* [Flexible styling API]({%slug listpicker-styling%})&mdash;The ListPicker provides a number of styling capabilities, which enable you to easily style its spinners, the popup and popup header and footer, the displayed text after an item is selected, and more.
+* [Display String format]({%slug listpicker-visual-structure%})&mdash;You can choose what text that will be displayed when an item is selected by using the `DisplayStringFormat` property of the ListPicker.
+* [Flexible styling API]({%slug listpicker-styling%})&mdash;The ListPicker provides a number of styling capabilities, which enable you to style its spinners, the popup and popup header and footer, the displayed text after an item is selected, and more.
 * [Commands support]({%slug listpicker-commands%})&mdash;The ListPicker exposes commands that allow you to clear the selected item and to open and close the popup.
 * [Localization support]({%slug listpicker-localization%})&mdash;Translate the used across the ListPicker text for `Placeholder`, Accept and Cancel buttons to other languages, so that your app can be adapted to different regions.
 

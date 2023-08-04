@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI TimePicker Documentation - Overview
-description: "Try now the Telerik TimePicker for .NET MAUI enabling users to select a time and visualizing its items inside a popup or a dropdown."
+description: Try now the Telerik TimePicker for .NET MAUI enabling users to select a time and visualizing its items inside a popup or a dropdown.
 position: 0
 previous_url: /controls/timepicker/timepicker-overview
 slug: timepicker-overview
@@ -11,7 +11,7 @@ slug: timepicker-overview
 
 The Telerik UI for .NET MAUI TimePicker provides a convenient way for users to select a time and visualizes its items inside a popup or a dropdown.
 
-The TimePicker provides a number of features which allow you to set a time range, time format, and to fully customize the dialog/dropdown appearance, for example, its header and footer.  
+The TimePicker provides a number of features which allow you to set a time range, time format, and to customize the dialog/dropdown appearance, for example, its header and footer.  
 
 ![TimePicker Overview](images/time_picker_overview.png)
 
@@ -23,7 +23,7 @@ The TimePicker provides a number of features which allow you to set a time range
 
 * [Picker mode]({%slug timepicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available time values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
-* [DisplayString format]({%slug timepicker-formatting%}#displaystring-format)&mdash;You can choose what text to be displayed when a time value is selected by using the `DisplayStringFormat` TimePicker property.
+* [Display String format]({%slug timepicker-formatting%}#displaystring-format)&mdash;You can choose what text to be displayed when a time value is selected by using the `DisplayStringFormat` TimePicker property.
 
 * [Time selection]({%slug timepicker-selection%})&mdash;You can set a current selected time or a default highlighted time to the TimePicker.
 
@@ -31,7 +31,7 @@ The TimePicker provides a number of features which allow you to set a time range
 
 * [Templates]({%slug timepicker-templates%})&mdash;The TimePicker provides templates for its header and footer. Also, it exposes templates for its placeholder and display text.
 
-* [Flexible styling API]({%slug timepicker-styling%})&mdash;Take advantage of the styling capabilities of the TimePicker control. You can easily style its spinners, the popup and its header and footer, the text displayed after a time is selected, and so on.
+* [Flexible styling API]({%slug timepicker-styling%})&mdash;Take advantage of the styling capabilities of the TimePicker control. You can style its spinners, the popup and its header and footer, the text displayed after a time is selected, and so on.
 
 * [Commands support]({%slug timepicker-commands%})&mdash;The TimePicker exposes the `Clear Command` command that allows you to clear the selected time and the `Toggle Command` that allows you to open and close the dialog.
 * [Localization support]({%slug timepicker-localization%})&mdash;Translate the used across the TimePicker texts to other languages, so that your app can be adapted to different regions.

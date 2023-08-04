@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI TemplatedPicker Documentation - Visual Structure
-description: Check our &quot;Visual Structure&quot; documentation article for Telerik TemplatedPicker for .NET MAUI control.
+description: Learn what visual elements the Telerik TemplatedPicker for .NET MAUI displays and explore the visual structure of the control.
 position: 0
 previous_url: /controls/templatedpicker/templatedpicker-visual-structure
 slug: templatedpicker-visual-structure
@@ -21,17 +21,17 @@ This article describes all visual elements that are used in the TemplatedPicker 
 
 ## Legend
 
-- **Placeholder**&mdash;The visualized text before the user picks a value from the popup. You can customize the placeholder through the `PlaceholderTemplate` property. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- `Placeholder`&mdash;The visualized text before the user picks a value from the popup. You can customize the placeholder through the `PlaceholderTemplate` property. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
 
-- **DisplayStringFormat**&mdash;The text visualized after an item from the selector is picked.
+- `DisplayStringFormat`&mdash;The text visualized after an item from the selector is picked.
 
-- **SelectedItem**&mdash;The item which is highlighted when the popup of the picker is open.
+- `SelectedItem`&mdash;The item which is highlighted when the popup of the picker is open.
 
-- **Header**&mdash;The header of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- `Header`&mdash;The header of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
 
-- **SelectorTemplate**&mdash;Defines the template used for displaying the selector of the picker. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- `SelectorTemplate`&mdash;Defines the template used for displaying the selector of the picker. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
 
-- **Footer**&mdash;The footer of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- `Footer`&mdash;The footer of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
 
 ## See Also
 

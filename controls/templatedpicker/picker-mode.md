@@ -1,7 +1,7 @@
 ---
 title: Picker Mode
 page_title: .NET MAUI TemplatedPicker Documentation - Picker Mode
-description: "Define PickerMode of Telerik TemplatedPicker for .NET MAUI to either DropDown or Popup."
+description: Learn how to set the PickerMode of the Telerik UI for .NET MAUI TemplatedPicker to either DropDown or Popup.
 position: 5
 slug: templatedpicker-picker-mode
 ---  
@@ -21,7 +21,7 @@ Here is a sample of `PickerMode` set to `Popup`:
 
 Check below the result on mobile and desktop:
 
-![CustomPicker Picker Mode](images/templatedpicker-pickermode-popup.png)
+![Custom Picker Picker Mode](images/templatedpicker-pickermode-popup.png)
 
 Quick example of `PickerMode` set to `DropDown`:
 
@@ -37,7 +37,7 @@ Check the result of `DropDown` mode on mobile and desktop:
 
 ## Toggle Button
 
-In addition, TemplatedPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop and disabled for mobile platforms. Still, you can explicitly apply it in both cases:
+In addition, TemplatedPicker exposes `IsToggleButtonVisible` property which when set to `True` renders an "arrow" button for opening the UI for picking a time. By default, `IsToggleButtonVisible` is enabled for Desktop and disabled for mobile platforms. You can explicitly apply it in both cases:
 
 ```XAML
 <telerik:RadTemplatedPicker PickerMode="DropDown"

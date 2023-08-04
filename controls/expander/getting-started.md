@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI Expander Documentation - Getting Started
-description: "Check our Getting Started documentation article for Telerik Expander for .NET MAUI control."
+description: Get started with the Telerik UI for .NET MAUI Expander control and add the control to your .NET MAUI project.
 position: 1
 slug: expander-getting-started
 ---
@@ -10,7 +10,7 @@ slug: expander-getting-started
 
 This article will guide you through the steps needed to add a basic `RadExpander` control in your application.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![Expander Getting Started](images/expander-getting-started.png)
 
@@ -30,7 +30,7 @@ The snippet below shows a simple `RadExpander` definition in XAML:
 
 <snippet id='expander-getting-started-xaml' />
 
-In order to use the control in XAML, you need to add the following namespace:
+To use the control in XAML, you need to add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -39,7 +39,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 The snippet below shows a simple `RadExpander` definition in C#:
 <snippet id='expander-gettingstarted-csharp' />
 
-In order to use the control in C#, you need to add the following namespace:
+To use the control in C#, you need to add the following namespace:
 
 ```C#
 using Telerik.Maui.Controls;

@@ -1,7 +1,7 @@
 ---
 title: ScatterLine Series
 page_title: .NET MAUI Chart Documentation - ScatterLine Series
-description: Check our &quot;ScatterLine Series&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about the ScatterLine series in the Cartesian chart.
 slug: chart-series-scatter-line-series
 position: 0
 ---

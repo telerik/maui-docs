@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI TimeSpanPicker Documentation - Overview
-description: "Try now the Telerik TimeSpanPicker for .NET MAUI representing a time interval and allowing you to set a time range between two time intervals."
+description: Try now the Telerik TimeSpanPicker for .NET MAUI representing a time interval and allowing you to set a time range between two time intervals.
 position: 0
 previous_url: /controls/timespanpicker/timespanpicker-overview
 slug: timespanpicker-overview
@@ -15,9 +15,9 @@ The Telerik UI for .NET MAUI TimeSpanPicker provides an easy way to select a tim
 
 ## Key Features
 
-* [Spinner Format]({%slug timespanpicker-formatting%})&mdash;The TimeSpanPicker for .NET MAUI allows you to use standard or custom timespan format string through its `TimeSpanPicker.SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
+* [Spinner Format]({%slug timespanpicker-formatting%})&mdash;The TimeSpanPicker for .NET MAUI allows you to use standard or custom time span format string through its `TimeSpanPicker.SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 
-* [DisplayString format]({%slug timespanpicker-formatting%})&mdash;You can choose what text to be displayed when a time interval is selected using the TimeSpanPicker `DisplayStringFormat` property.
+* [Display String format]({%slug timespanpicker-formatting%})&mdash;You can choose what text to be displayed when a time interval is selected using the TimeSpanPicker `DisplayStringFormat` property.
 
 * [Picker mode]({%slug timespanpicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the spinner controls with the available time values. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
 
@@ -29,7 +29,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker provides an easy way to select a tim
 
 * [Incremental time steps]({%slug timespanpicker-timespan-steps%})&mdash;You can also change the default time interval steps to days, hours, minutes, or seconds.
 
-* [Flexible styling API]({%slug timespanpicker-styling%})&mdash;Take advantage of the styling capabilities of the TimeSpanPicker control. You can easily style its spinners, the popup and its header and footer, the text displayed after a time interval is selected, and many more.
+* [Flexible styling API]({%slug timespanpicker-styling%})&mdash;Take advantage of the styling capabilities of the TimeSpanPicker control. You can style its spinners, the popup and its header and footer, the text displayed after a time interval is selected, and many more.
 
 * [Commands support]({%slug timespanpicker-commands%})&mdash;The TimeSpanPicker exposes the `ClearCommand` that allows you to clear the selected time interval and the `ToggleCommand` that allows you to open and close the dialog.
 * Localization support&mdash;Translate the used across the TimeSpanPicker texts to other languages, so that your app can be adapted to different regions.

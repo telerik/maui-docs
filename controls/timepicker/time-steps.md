@@ -1,7 +1,7 @@
 ---
 title: Time Steps
 page_title: .NET MAUI TimePicker Documentation - Time Steps
-description: Check our &quot;Time Steps&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn more about the time steps functionality that the Telerik UI for .NET MAUI TimePicker control provides.
 position: 2
 previous_url: /controls/timepicker/timepicker-time-steps
 slug: timepicker-time-steps

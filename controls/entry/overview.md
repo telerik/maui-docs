@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Entry Documentation - Overview
-description: "Try now the Telerik for .NET MAUI Entry accepting string input and providing various customization options such as adding watermarks and more."
+description: Try now the Telerik for .NET MAUI Entry accepting string input and providing various customization options such as adding watermarks and more.
 tags: entry for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 previous_url: /controls/entry/entry-overview
@@ -22,7 +22,7 @@ The Telerik UI for .NET MAUI Entry is a text input control that accepts string i
 
 * [Keyboard support]({%slug entry-text-appearance%}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
 
-* [Non-editable (Read-only) state]({%slug entry-text-appearance%}#setting-the-read-only-state)&mdash;You can define whether users will be able to edit the Entry or not by setting a single property.
+* [Non-editable (Read-only) state]({%slug entry-text-appearance%}#setting-the-read-only-state)&mdash;You can define whether users can edit the Entry or not by setting a single property.
 
 * [Maximum number of symbols]({%slug entry-text-appearance%}#defining-the-max-length)&mdash;The Entry enables you to set a maximum length for its input.
 
@@ -30,11 +30,11 @@ The Telerik UI for .NET MAUI Entry is a text input control that accepts string i
 
 * [Text prediction]({%slug entry-text-appearance%}#setting-text-prediction)&mdash;Define whether to have a predictive text while typing in the Entry.
 
-* [Validation]({%slug entry-validation%})&mdash;If the user is entering a value not matching the requirements, the Entry will display an error message, which you can easily customize.
+* [Validation]({%slug entry-validation%})&mdash;If the user is entering a value not matching the requirements, the Entry will display an error message, which you can customize.
 
 * [Clear button]({%slug entry-text-appearance%}#defining-the-clear-button-visibility)&mdash;Gives you the option to clear all the text entered in the Entry using a single button.
 
-* [Commands support]({%slug entry-commands%})&mdash;Use the ReturnCommand to implement additional logic when pressing the keyboard return key. 
+* [Commands support]({%slug entry-commands%})&mdash;Use the `ReturnCommand` to implement additional logic when pressing the keyboard return key. 
 
 * [Various styling options]({%slug entry-styling%})&mdash;For applying corner radius, clear button color, placeholder color and more.
 

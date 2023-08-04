@@ -1,7 +1,7 @@
 ---
 title: ToolTip Behavior
 page_title: .NET MAUI Chart Documentation - ToolTip Behavior
-description: Check our &quot;Tool Tip Behavior&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn more about the tooltip behavior of the Chart that renders concise information about a data point in a small popup.
 position: 3
 previous_url: /controls/chart/behaviors/chart-behaviors-tooltip-behavior
 slug: chart-behaviors-tooltip
@@ -9,7 +9,7 @@ slug: chart-behaviors-tooltip
 
 # .NET MAUI Chart ToolTip Behavior
 
-The Tooltip behavior of the Chart is responsible for rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
+The Tooltip behavior of the Chart handles rendering concise information about a data point in a small popup which is displayed close to its relevant data point.
 
 ## Features
 

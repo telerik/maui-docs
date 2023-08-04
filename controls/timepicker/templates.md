@@ -1,7 +1,7 @@
 ---
 title: Templates
 page_title: .NET MAUI TimePicker Documentation - Templates
-description: Check our &quot;Templates&quot; documentation article for Telerik TimePicker for .NET MAUI.
+description: Learn more about the templates in the Telerik UI for .NET MAUI TimePicker control.
 position: 3
 previous_url: /controls/timepicker/timepicker-templates
 slug: timepicker-templates
@@ -9,7 +9,7 @@ slug: timepicker-templates
 
 # .NET MAUI TimePicker Templates
 
-In case the default templates of the TimePicker control do not suit your needs, you can easily define a custom template.
+In case the default templates of the TimePicker control do not suit your needs, you can define a custom template.
 
 The available templates for customization are:
 
@@ -32,31 +32,31 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 For the example, the template definitions are added to the page resources as follows.
 
-## PlaceholderTemplate
+## Placeholder Template
 
 <snippet id='timepicker-placeholder-template' />
 
 
-![TimePicker PlaceholderTemplate](images/timepicker_placeholder_template.png)
+![TimePicker Placeholder Template](images/timepicker_placeholder_template.png)
 
-## DisplayTemplate
+## Display Template
 
 <snippet id='timepicker-display-template' />
 
-![TimePicker DisplayTemplate](images/timepicker_display_template.png)
+![TimePicker Display Template](images/timepicker_display_template.png)
 
-## HeaderTemplate
+## Header Template
 
 <snippet id='timepicker-header-template' />
 
-## FooterTemplate
+## Footer Template
 
 <snippet id='timepicker-footer-template' />
 
-![TimePicker FooterTemplate](images/timepicker_header_footer_template.png)
+![TimePicker Footer Template](images/timepicker_header_footer_template.png)
 
 
 ## See Also
 
-- [Suppoted Standard Time Format Strings]({%slug timepicker-formatting%})
+- [Supported Standard Time Format Strings]({%slug timepicker-formatting%})
 - [Styling]({%slug timepicker-styling%})

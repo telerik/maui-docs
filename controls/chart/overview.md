@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Chart Documentation - Overview
-description: "Try now the Telerik Chart for .NET MAUI exposing its objects and properties in C#, allowing for no-compromise customization and flexibility."
+description: Try now the Telerik Chart for .NET MAUI exposing its objects and properties in C#, allowing for no-compromise customization and flexibility.
 tags: chart, .net maui, ui for .net maui,
 position: 0
 previous_url: /controls/chart/chart-overview
@@ -10,9 +10,9 @@ slug: chart-overview
 
 # .NET MAUI Chart Overview
 
-**Telerik UI for .NET MAUI Charts** are feature-rich, intuitive, and easy to use data-visualization controls. While the Chart for .NET MAUI capitalizes all the innate benefits of the native UI, it exposes its objects and properties in C#, allowing for no-compromise customization and flexibility. Using Telerik Chart along with the .NET MAUI allows developers to easily implement various chart scenarios in their applications from a single shared C# code base.
+Telerik UI for .NET MAUI Charts are feature-rich, intuitive, and easy-to-use data-visualization controls. While the Chart for .NET MAUI capitalizes on all the innate benefits of the native UI, it exposes its objects and properties in C#, allowing for no-compromise customization and flexibility. Using the Telerik Chart along with .NET MAUI allows developers to implement various chart scenarios in their applications from a single shared C# code base.
 
-The intuitive object model and public API allow complex charts to be easily set up either in XAML or in code-behind. The Chart is completely data-aware as the binding mechanism of the control is used to create the appropriate data points from the raw data. Chart types and series are organized in hierarchies, depending on the coordinate system, used to plot data points.
+The intuitive object model and public API allow complex charts to be set up either in XAML or in code-behind. The Chart is data-aware as the binding mechanism of the control is used to create the data points from the raw data. Chart types and series are organized in hierarchies, depending on the coordinate system, used to plot data points.
 
 ![Chart Overview](images/chart-overview.png)
 
@@ -44,18 +44,18 @@ Each Telerik UI for .NET MAUI Chart delivers a range of handy and developer-frie
 
 ### Behaviors
 
-Each Telerik UI for .NET MAUI Chart can be enabled with interactivity through its `Behaviors` property. A behavior is generally an abstraction that handles user input in a `RadChart` instance and, optionally, provides visual feedback upon some action.
+Each Telerik UI for .NET MAUI Chart can be enabled with interactivity through its `Behaviors` property. The behavior functionality is an abstraction that handles user input in a `RadChart` instance and, optionally, provides visual feedback upon some action.
 
 The Telerik UI for .NET MAUI Charts support the following behaviors:
 
 - [Pan-and-Zoom behavior]({% slug chart-behaviors-pan-and-zoom %})&mdash;This behavior handles `Manipulation` events and/or `MouseMove` and `MouseWheel` to enable the panning and zooming of the associated chart plot area.
-- [Tooltip behavior]({% slug chart-behaviors-tooltip %})&mdash;This behavior handles `Hold` and/or `MouseMove` events to enable context-sensitive information about a data point. It differs from the `TrackballBehavior` in terms of visual information and trigger action.
+- [Tooltip behavior]({% slug chart-behaviors-tooltip %})&mdash;This behavior handles the `Hold` and/or `MouseMove` events to enable context-sensitive information about a data point. The Tooltip behavior differs from the `TrackballBehavior` in its visual information and trigger action.
 - [Selection behavior]({% slug chart-behaviors-selection %})&mdash;This behavior handles the `Tap` event to enable the selection and deselection of data points and/or chart series. When a data point becomes `"Selected"`, you can use the `SelectionPalette` property of the Chart to visualize the selected point.
 - [TrackBall behavior]({% slug chart-behaviors-trackball %})&mdash;This behavior handles `Hold` events to enable context-sensitive information about a data point.
 
 ### Annotations
 
-You can also show [annotations]({% slug chart-annotations %}) in the Chart. Annotations are visual elements that can be used to highlight certain areas on the plot area and to denote statistical significance.
+You can also show [annotations]({% slug chart-annotations %}) in the Chart. Annotations are visual elements that can be used to highlight some areas on the plot area and to denote statistical significance.
 
 The provided types of annotations include:
 

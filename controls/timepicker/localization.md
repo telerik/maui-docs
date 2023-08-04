@@ -1,23 +1,23 @@
 ---
 title: Localization
 page_title: Telerik .NET MAUI Time Picker Documentation - Localization
-description: "Review the Localization keys article for Telerik .NET MAUI TimePicker control."
+description: Review the Localization keys article for Telerik .NET MAUI TimePicker control.
 position: 8
 slug: timepicker-localization
 ---
 
 # Тime Picker Localization
 
-The TimePicker for .NET MAUI provides language localization. The localization keys are described in the tabels below:
+The TimePicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
 
-**TimePicker localization keys**
+>caption TimePicker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
 | `TimePicker_Popup_HeaderLabelText`  | `Select Time` |
 | `TimePicker_PlaceholderLabelText`  | `Select Time` |
 
-#**Common Picker localizations keys**
+>caption Common Picker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |

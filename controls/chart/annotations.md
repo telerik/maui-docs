@@ -10,7 +10,7 @@ slug: chart-annotations
 
 # .NET MAUI Chart Annotations
 
-Annotations are visual elements that are used to highlight certain areas on the plot. They can be displayed as comments or as markers for specific values on the plot. You can practically utilize any visual element as a template for the annotation.
+Annotations are visual elements that are used to highlight areas on the plot. They can be displayed as comments or as markers for specific values on the plot. You can use any visual element as a template for the annotation.
 
 The Chart supports the following types of annotations:
 
