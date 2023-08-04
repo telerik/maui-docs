@@ -50,7 +50,7 @@ The following examples demonstrate how to define use the styling properties of t
 
 **Define the `RadDateTimePicker`**
 
-<snippet id='datetimepicker-style' />
+<snippet id='datetimepicker-popup-style' />
 
 **Define the Spinner Style**
 
