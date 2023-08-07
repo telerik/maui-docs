@@ -9,7 +9,7 @@ slug: checkbox-overview
 
 # .NET MAUI CheckBox Overview
 
-Telerik RadCheckBox for .NET MAUI is a checkbox control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
+Telerik UI for .NET MAUI CheckBox is a control, which enables users to make a choice between two mutually exclusive options. The user selection is indicated by a check mark, and when a user clicks the checkbox, its appearance and state change.  
 
 > The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS its visualized as a circle while `Android` and `WinUI` display it as a square.
 
@@ -18,9 +18,7 @@ Telerik RadCheckBox for .NET MAUI is a checkbox control, which enables users to 
 ## Key Features
 
 * [Checked states]({% slug checkbox-checked-states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
-
 * [Size]({% slug checkbox-size %})&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
-
 * [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
 ## Next Steps

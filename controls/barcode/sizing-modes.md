@@ -17,16 +17,15 @@ The Barcode provides three sizing modes that enable you to fine-tune the renderi
 
 To apply the desired sizing mode to the Barcode:
 
-Add the sizing mode you need to the barcode, for example, the manual one.
+**1.** Add the sizing mode you need to the barcode, for example, the manual one.
 
 <snippet id='barcode-features-sizingmode' />
 
-Add the following namespace.
+**2.** Add the following namespace.
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
 
 The following image shows a barcode with its applied manual sizing mode.
 

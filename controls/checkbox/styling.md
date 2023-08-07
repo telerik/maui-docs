@@ -28,9 +28,9 @@ To set the symbol colors of the CheckBox, use the following properties:
 
 The following example demonstrates how to set the `CheckedColor` property.
 
- ```XAML
+```XAML
 <telerik:RadCheckBox CheckedColor="Aqua" />
- ```
+```
 
 The following example demonstrates how to set the `UncheckedColor` property.
 
@@ -40,9 +40,9 @@ The following example demonstrates how to set the `UncheckedColor` property.
 
 The following example demonstrates how to set the `CheckedSymbolColor` property.
 
- ```XAML
+```XAML
 <telerik:RadCheckBox CheckedSymbolColor="Black" />
- ```
+```
 
 The following example demonstrates how to set the `IndeterminateColor` and `IndeterminateSymbolColor` properties.
 

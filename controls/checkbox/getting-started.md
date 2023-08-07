@@ -27,25 +27,25 @@ Before adding the CheckBox, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a CheckBox control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a CheckBox control to your page.
 
- ```XAML
+```XAML
 <telerik:RadCheckBox x:Name="checkbox" />
- ```
+```
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -59,9 +59,8 @@ Before adding the CheckBox, you need to:
 
 		return builder.Build();
 	}
- }           
- ```
-
+}           
+```
 
 ## Additional Resources
 

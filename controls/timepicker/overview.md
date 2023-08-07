@@ -9,7 +9,7 @@ slug: timepicker-overview
 
 # .NET MAUI TimePicker Overview
 
-Telerik UI for .NET MAUI TimePicker provides a convenient way for users to select a time and visualizes its items inside a popup or a dropdown.
+The Telerik UI for .NET MAUI TimePicker provides a convenient way for users to select a time and visualizes its items inside a popup or a dropdown.
 
 The TimePicker provides a number of features which allow you to set a time range, time format, and to customize the dialog/dropdown appearance, for example, its header and footer.  
 
@@ -34,6 +34,7 @@ The TimePicker provides a number of features which allow you to set a time range
 * [Flexible styling API]({%slug timepicker-styling%})&mdash;Take advantage of the styling capabilities of the TimePicker control. You can style its spinners, the popup and its header and footer, the text displayed after a time is selected, and so on.
 
 * [Commands support]({%slug timepicker-commands%})&mdash;The TimePicker exposes the `Clear Command` command that allows you to clear the selected time and the `Toggle Command` that allows you to open and close the dialog.
+* [Localization support]({%slug timepicker-localization%})&mdash;Translate the used across the TimePicker texts to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 

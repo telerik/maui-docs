@@ -15,23 +15,23 @@ To set the symbology that will be used to convert the `Value` of the control int
 
 The most common symbologies that are supported by Barcode are:
 
-* EAN13  
-* EAN8  
-* UPC-A  
-* UPC-E  
-* Code39  
-* QRCode  
-* PDF417   
+* `EAN13` 
+* `EAN8`
+* `UPC-A`
+* `UPC-E`
+* `Code39`
+* `QRCode`  
+* `PDF417`   
 
 For more details on the available Telerik UI for .NET MAUI Barcode symbologies, refer to the articles on [supported 1D]({% slug 1dbarcode-overview %}) and [2D Barcode types]({% slug 2dbarcode-overview %}).
 
 To apply the desired symbology to the Barcode:
 
-Add the symbology you need to the Barcode, for example, the Code39 one.
+**.1** Add the symbology you need to the Barcode, for example, the Code39 one.
 
 <snippet id='barcode-features-symbology'/>
 
-Add the `telerik` namespace.
+**2.** Add the `telerik` namespace.
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
