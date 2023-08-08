@@ -1,7 +1,7 @@
 ---
 title: Slider
 page_title: .NET MAUI Toolbar Documentation - Slider
-description: "Review the Toolbar Slider item for .NET MAUI"
+description: .Review the Toolbar slider item for .NET MAUI.
 position: 8
 slug: toolbar-items-slider
 ---
@@ -24,7 +24,7 @@ The available properties for configuration are:
 
 ## Styling
 
-SliderToolbarItem has the following styling properties:
+`SliderToolbarItem` has the following styling properties:
 
 * `SliderStyle`(`Style` with target type `Microsoft.Maui.controls.Slider`)&mdash;Specifies the style of the slider.
 * `Style`(`Style` with target type `Telerik.Maui.Controls.SliderToolbarItemView`). The available properies are:

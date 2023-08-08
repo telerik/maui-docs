@@ -8,7 +8,7 @@ slug: treeview-getting-started
 
 # Getting Started with the .NET MAUI TreeView
 
-This guide provides the information you need to start using the [Telerik UI for .NET MAUI TreeView]({%slug treeview-overview%}) by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI TreeView by adding the control to your project.
 
 At the end, you will be able to achieve the result on the first image on desktop platforms and the results on the second image on mobile platforms:
 
@@ -29,7 +29,7 @@ Before adding the TreeView, you need to:
 
 ## Define the Control
 
-When your .NET MAUI application is set up, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
+When your .NET MAUI application is setup, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
 
 The TreeView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 

@@ -8,7 +8,7 @@ slug: treeview-item-style
 
 # Styling the TreeView
 
-The TreeView for .NET MAUI allows you to easily style its checkboxes, expand indicator, and items by using the provided properties.
+The TreeView for .NET MAUI allows you to style its checkboxes, expand indicator, and items by using the provided properties.
 
 ![.NET MAUI TreeView Item Style](images/treeview-item-styling.png)
 
@@ -24,7 +24,7 @@ To style the TreeView, use the following properties:
 ## Styling and Configuring the TreeView Item
 
 The TreeView provides a styling mechanism for customizing the look of its items.
-To utilize it, set the `ItemStyle` property of the control with target type `TreeViewItemView`.
+To use it, set the `ItemStyle` property of the control with target type `TreeViewItemView`. The property can be applied on TreeView level and `TreeViewDescriptor` level. 
 
 The available properties are:
 
@@ -37,36 +37,47 @@ The available properties are:
 * `BorderBrush`(`Brush`)&mdash;Defines the spacing in pixels between the elements of the tree item.
 * `BorderThickness`(`Thickness`)&mdash;Defines the spacing in pixels between the elements of the tree item.
 * `TextColor`(`Color`)&mdash;Defines the spacing in pixels between the elements of the tree item.
+* `CheckBoxStyle`(`Style` with target type `telerik:RadCheckBox`)&mdash;Specifies the style for the Checkbox element.
+* `ExpandButtonStyle`(`Style` with target type `telerik:RadButton`)&mdash;Specifies the style for the Expand element.
+* `ImageStyle`(`Style` with target type `Image`)&mdash;Specifies the style for the Image element.
 
 The following example demonstrates how to style the TreeView item:
 
-**1.** Define the style in the resources of the page: 
+**1.** Define the `ItemStyle` to the TreeView: 
 
 <snippet id='treeview-item-styling'/>
 
-**2.** Set the style to the `RadTreeView`:
+**2.** Define the `ItemStyle` to the `TreeViewDescriptor`: 
+
+<snippet id='treeview-descriptor-styling'/>
+
+And the style used for the checkbox element:
+
+<snippet id='treeview-descriptor-checkbox-styling/>
+
+**3.** Set the style to the `RadTreeView` and `TreeViewDescriptor`:
 
 <snippet id='treeview-styling'/>
 
-**3.** Add the location data model:
+**4.** Add the location DataModel:
 
 <snippet id='treeview-location-model'/>
 
-**4.** Add the country data model:
+**5.** Add the Country DataModel:
 
 <snippet id='treeview-country-model'/>
 
-**5.** Add the city data model:
+**6.** Add the City DataModel:
 
 <snippet id='treeview-city-model'/>
 
-**6.** Add the the ViewModel:
+**7.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
 
 ## Styling the Expand Button
 
-To style the expand button, which is used for expanding or collapsing the TreeView item, use the `TreeViewItemExpandButton`. It inherits from the `TreeViewItemButton`. The control used for the button is the .NET MAUI `RadButton` control. All stying properties available for [`RadButton`]({%slug button-overview%}) can be applied to `TreeViewItemExpandButton`.
+To style the expand button, which is used for expanding or collapsing the TreeView item, use the `TreeViewItemExpandButton`. It inherits from the `TreeViewItemButton`. The control used for the button is the .NET MAUI `RadButton` control. All styling properties available for [`RadButton`]({%slug button-overview%}) can be applied to `TreeViewItemExpandButton`.
 
 <snippet id='treeview-expand-styling'/>
 

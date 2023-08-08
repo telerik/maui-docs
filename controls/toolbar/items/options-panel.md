@@ -1,7 +1,7 @@
 ---
 title: OptionsButton
 page_title: .NET MAUI Toolbar Documentation - OptionsButton ToolbarItem
-description: "Review the Toolbar control for .NET MAUI"
+description: Review the Toolbar options button for .NET MAUI.
 position: 9
 slug: toolbar-items-overflow
 ---
@@ -12,7 +12,7 @@ Use the `OptionsButtonToolbarItem` for displaying an options panel in the Toolba
 
 <snippet id='toolbar-optionspanel-item'/>
 
-And the RadToolbarOptionsPanel definition:
+And the `RadToolbarOptionsPanel` definition:
 
 ```XAML
 <telerik:RadToolbarOptionsPanel x:Name="topPanel" />
@@ -24,7 +24,7 @@ And the RadToolbarOptionsPanel definition:
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
->note Use the properties available in the [DropDownButtonToolbarItem]({%slug toolbar-items-dropdown-button%}) as the OptionsButtonToolbarItem inherits from it. 
+>note Use the properties available in the [DropDownButtonToolbarItem]({%slug toolbar-items-dropdown-button%}) as the `OptionsButtonToolbarItem` inherits from it. 
 
 ## Events
 
@@ -36,12 +36,12 @@ The exposed events are:
 
 The available commands are:
 
-* `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
-* `CommandParameter`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
+* `Command`(`ICommand`)&mdash;Specifies the command to execute when the button is clicked.
+* `CommandParameter`(`object`)&mdash;Specifies the parameter of the command, which is executed when the button is clicked.
 
 ## Styling
 
-Use the `Style` property with target type `OptionsButtonToolbarItemView`. The available proeprties that can be applied through Style are: 
+Use the `Style` property with target type `OptionsButtonToolbarItemView`. The available properties that can be applied through Style are: 
 
 * `OptionsPanel`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar item.
 * `OptionsContentStyle`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the style of the options content. The target type of this style is `Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.

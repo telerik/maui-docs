@@ -1,7 +1,7 @@
 ---
 title: Button
 page_title: .NET MAUI Toolbar Documentation - Button ToolbarItem
-description: "Review the Toolbar button item for .NET MAUI"
+description: Review the Toolbar button item for .NET MAUI.
 position: 2
 slug: toolbar-items-button
 ---

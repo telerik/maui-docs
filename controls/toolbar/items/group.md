@@ -1,7 +1,7 @@
 ---
 title: Group
 page_title: .NET MAUI Toolbar Documentation - Group ToolbarItem
-description: "Review the Toolbar group item for .NET MAUI"
+description: Review the Toolbar group item for .NET MAUI.
 position: 10
 slug: toolbar-items-group
 ---
@@ -18,7 +18,7 @@ The exposed property is:
 
 ## Styling 
 
-GroupToolbarItem has a `Style` property with target type `GroupToolbarItemView`. The properties exposed in the `GroupToolbarItem` are:
+`GroupToolbarItem` has a `Style` property with target type `GroupToolbarItemView`. The properties exposed in the `GroupToolbarItem` are:
 
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the toolbar items in the group.
 * `ItemsSource`(`IList`)&mdash;Specifies a collection of toolbar items to be placed in the group.
