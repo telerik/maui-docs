@@ -12,11 +12,10 @@ You can enable users to scroll in the TreeView in both directions&mdash;horizont
 
 ## Scroll Orientation
 
-Configure whether the user of the application can scroll through the TreeView items vertically or in the both directions - in vertically and horizontally. 
+To configure the scroll direction for the TreeView items, use the `ScrollOrientation` (enum of type `Telerik.Maui.Controls.TreeView.TreeViewScrollOrientation`) property. It accepts the following values:
 
-* `ScrollOrientation` (enum of type `Telerik.Maui.Controls.TreeView.TreeViewScrollOrientation`)&mdash;Specifies the scroll orientation of the TreeView control.
-	* (Default value) `Vertical` &mdash;The TreeView can be scrolled only in vertical direction. 
-	* `Both`&mdash;The TreeView can be scrolled both in vertical and horizontal direction. 
+* (Default value) `Vertical`&mdash;Allows the user to scroll the TreeView only in a vertical direction.
+* `Both`&mdash;Allows the user to scroll the TreeView both in a vertical and horizontal direction.
 
 ## Vertical Scrolling
 
