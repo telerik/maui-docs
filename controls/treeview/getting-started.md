@@ -29,7 +29,7 @@ Before adding the TreeView, you need to:
 
 ## Define the Control
 
-When your .NET MAUI application is setup, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
+When your .NET MAUI application is set up, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
 
 The TreeView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
