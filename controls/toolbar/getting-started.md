@@ -26,7 +26,7 @@ Before adding the Toolbar, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is setup, you are ready to add an Toolbar control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a Toolbar control to your page.
 
 ```XAML
  <telerik:RadToolbar x:Name="toolbar"/>
