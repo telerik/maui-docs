@@ -19,7 +19,7 @@ The TreeView for .NET MAUI allows you to style its look by using the following p
 
 ## Style the Empty Template
 
-When no data is displayed in the control, an empty template is visualized. Style the template by using the `` 
+When no data is displayed in the control, an empty template is visualized. Style the template by using the `EmptyStyle` property: 
 
 * `EmptyStyle`(`Style` with target type `telerik:ItemsEmptyView`)&mdash;Specifies the style applied to the empty view.
 
