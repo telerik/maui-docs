@@ -29,7 +29,7 @@ You can use the following properties:
     * `HorizontalContentOptions` (of type `LayoutOptions`)&mdash;Specifies the horizontal layout options of the displayed content.
     * `ContentTemplate` (`DataTemplate`)&mdash;Specifies the content template of the empty view.
 
-If you want to customize the empty view use the `EmptyTemplate` (`DataTemplate`)property. 
+To customize the empty view, use the `EmptyTemplate` (`DataTemplate`) property. 
 
 ## See Also
 
