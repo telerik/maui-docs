@@ -24,7 +24,7 @@ To style the TreeView, use the following properties:
 ## Styling and Configuring the TreeView Item
 
 The TreeView provides a styling mechanism for customizing the look of its items.
-To use it, set the `ItemStyle` property of the control with target type `TreeViewItemView`. The property can be applied on TreeView level and `TreeViewDescriptor` level. 
+To use it, set the `ItemStyle` property of the control with a target type `TreeViewItemView`. The property can be applied on a TreeView and `TreeViewDescriptor` level.
 
 The available properties are:
 
