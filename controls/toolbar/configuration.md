@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI Toolbar Documentation - Configuration
-description: Review how to configure the toolbar orientation, spacing between item, overflow menu and more options which Telerik .NET MAUI Toolbar provides.
+description: Learn how to configure the toolbar orientation, spacing between items, overflow menu, and other options which Telerik .NET MAUI Toolbar provides.
 position: 3
 slug: toolbar-configuration
 ---
