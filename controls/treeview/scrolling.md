@@ -47,7 +47,7 @@ The available options are:
 	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
 	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
-## Example: Configuring Horizontal and Vertical Scrolling and Scroll Orientation
+## Example: Configuring the Scrollbar and Scroll Orientation
 
 The following example demonstrates how to configure horizontal and vertical scrolling when working with the .NET MAUI TreeView control.
 
