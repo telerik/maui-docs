@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI Toolbar Documentation - Configuration
-description: "Reviwe all Configuration options Telerik .NET MAUI Toolbar provides."
+description: Learn how to configure the toolbar orientation, spacing between items, overflow menu, and other options which Telerik .NET MAUI Toolbar provides.
 position: 3
 slug: toolbar-configuration
 ---
@@ -12,7 +12,7 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 ## Orientation
 
-* By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify rhe orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
+* By setting the `Orientation`(enum of type`Telerik.Maui.Controls.ToolbarOrientation`) property you can specify the orientation of the toolbar. The available options are `Horizontal` and `Vertical`. The default value is `Horizontal.`
 
 ![.NET MAUI Toolbar Orientation](images/toolbar-orientation.png)
 
@@ -30,7 +30,7 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 * `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `ToolbarItems`.
 
->important All built-in toolbar items are desctibed in the [Toolbar Items]({%slug toolbar-items%}) section.
+>important All built-in toolbar items are described in the [Toolbar Items]({%slug toolbar-items%}) section.
 
 ## Overflow menu
 
@@ -40,7 +40,7 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 
 * `OverflowMode`(enum of type `Telerik.Maui.Controls.ToolbarOverflowMode`)&mdash;Specifies the overflow mode when the items in the toolbar cannot fit in the available space. The available options are:
 	* `DropDown`(the default mode)&mdash;When the toolbar items cannot fit in the available space, they are placed in the overflow drop-down menu.
-	* `Scroll`&mdash;When the toolbar items cannot fit in the available space, they are scrolled horizontally or vertically, based on the orienatation of the toolbar.
+	* `Scroll`&mdash;When the toolbar items cannot fit in the available space, they are scrolled horizontally or vertically, based on the orientation of the toolbar.
 	* `Wrap`&mdash;When the toolbar items cannot fit in the available space, they are wrapped horizontally or vertically on multiple lines, based on the orientation of the toolbar.
 
 * `OverflowMenuButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the overflow menu button in the toolbar. The available options are:
@@ -48,7 +48,7 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-* `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the overflow menu button in the toolbar.
+* `OverflowMenuButtonTemplate`(`ControlTemplate`)&mdash;Defines the `ControlTemplate` applied to the overflow menu button in the toolbar.
 * `OverflowItems`(`IReadOnlyList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems` that are in the overflow area of the toolbar.
 * `OverflowMenuButtonStyle`(`Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the style applied to the Overflow menu button. The properties that can be applied through style are the properties applicable for [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
@@ -56,7 +56,7 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 
 ![.NET MAUI Toolbar Orientation](images/toolbar-separator.png)
 
-You can easily separate the toolbar items using the `[SeparatorToolbarItem]({%slug toolbar-items-separator%})`.
+You can separate the toolbar items using the `[SeparatorToolbarItem]({%slug toolbar-items-separator%})`.
 
 ## Back navigation button
 
@@ -67,7 +67,7 @@ You can easily separate the toolbar items using the `[SeparatorToolbarItem]({%sl
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-* `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the ControlTemplate applied to the back navigation button in the toolbar.
+* `BackNavigationButtonTemplate`(`ControlTemplate`)&mdash;Defines the `ControlTemplate` applied to the back navigation button in the toolbar.
 * `BackNavigationButtonStyle`(`Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the style applied to the back navigation button.
 
 ## Scroll buttons
@@ -79,9 +79,9 @@ Properties related to the scroll buttons configuration are:
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the forward scroll button in the toolbar.
+* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the `ControlTemplate` applied to the forward scroll button in the toolbar.
 * `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Definess the style applied to the forward scroll button in the toolbar.
-* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the ControlTemplate applied to the backward dscroll button in the toolbar.
+* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the `ControlTemplate` applied to the backward dscroll button in the toolbar.
 * `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Definess the style applied to the backward scroll button in the toolbar.
 
 ## See Also

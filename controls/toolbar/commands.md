@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI Toolbar Documentation - Commands
-description: "Reviwe all Configuration options Telerik .NET MAUI Toolbar provides."
+description: Review all available commands for navigation and scrolling through the Telerik .NET MAUI Toolbar.
 position: 10
 slug: toolbar-commands
 ---

@@ -8,13 +8,13 @@ slug: treeview-item-template
 
 # .NET MAUI TreeView Item Template
 
-The TreeView `ItemTemplate` property enables you to customize the text displayed in the TreeView items. Using this property allows you to apply text styles to all TreeView items.
+The TreeView `ItemTemplate` property enables you to customize the text displayed in the TreeView items. Using this property allows you to apply text styles to all TreeView items. The property can be set on TreeView level and/or `TreeViewDescriptor` level.
 
 In addition to the item's text, TreeView allows you to customize the checkbox, image, and expand/collapse indicator. For this purpose, use the [Control Template]({%slug treeview-control-template%}).
 
 The following example shows how to define custom `ItemTemplate` by using the `ItemTemplate` property: 
 
-**1.** Define the `RadTreeView` control and the `ItemTemplate`: 
+**1.** Define the `ItemTemplate` on the `RadTreeView` level: 
 
 ```XAML
 <telerik:RadTreeView x:Name="treeView" 
@@ -50,6 +50,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='treeview-getting-started-viewmodel' />
 
+**Example how to define the `ItemTemplate` on `TreeViewDescriptor` level**
+
+<snippet id='treeview-itemtemplate' />
 
 ## See Also
 
