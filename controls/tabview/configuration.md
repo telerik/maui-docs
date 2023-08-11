@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI TabView Documentation - Configuration
-description: Review the configuration options of the Telerik TabView for .NET MAUI control.
+description: Learn how to configure the .NET MAUI TabView header position, placements and more.
 slug: tabview-configuration
 tags: tabview, overview
 position: 5
@@ -13,7 +13,7 @@ In this article we will review all configuration options that the TabView contro
 
 ## Setting the Header's Position
 
-Use the `HeaderPosition`(enum of type`Telerik.Maui.Controls.TabViewHeaderPosition`)property of the RadTabView to control the position of the header. 
+Use the `HeaderPosition`(enum of type`Telerik.Maui.Controls.TabViewHeaderPosition`)property of the `RadTabView` to control the position of the header. 
 
 The available options are: `Top`, `Bottom`, `Left` and `Right`.
 
@@ -54,7 +54,7 @@ The available options are: `Top`, `Bottom`, `Left` and `Right`.
 </telerik:RadTabView>
 ```
 
-## Scrolling in the TabView header
+## Scrolling in the TabView Header
 
 TabView control allows you to scroll through the tabs inside the TabView Header. 
 
@@ -62,17 +62,17 @@ To enable the scrolling use the `IsHeaderScrollable`(`bool`)property. The defaul
 
 ![TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
 
-## Overlaid header area
+## Overlaid Header Area
 
-* `IsHeaderOverlaid`(`bool`)&mdashIndicates whether the header area is overlaid on top of the content area. 
+* `IsHeaderOverlaid`(`bool`)&mdash;Indicates whether the header area is overlaid on top of the content area. 
 
-When the `IsHeaderOverlaid` is set to `True`, the header area is centered and partially overlaps with one of the borders of the content area, based on the value of the `HeaderPosition` property. The padding of the content area is adjusted accordingly, to avoid overlapping with the header area.
+When the `IsHeaderOverlaid` is set to `True`, the header area is centered and  overlaps with one of the borders of the content area, based on the value of the `HeaderPosition` property. The padding of the content area is adjusted so, to avoid overlapping with the header area.
 
-When the `IsHeaderOverlaid` is set to `False`, the header area is placed adjacent to the content area without any overlapping, based on the value of the `HeaderPosition` property.
+When the `IsHeaderOverlaid` is set to `False`, the header area is placed next to the content area without any overlapping, based on the value of the `HeaderPosition` property.
 
-## Swiping inside the TabView content
+## Swiping inside the TabView Content
 
-Easily change the selected item using swipe gesture. This allows you to change the selected item of the TabView.
+ Change the selected item using swipe gesture. This allows you to change the selected item of the TabView.
 
 ![TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
 

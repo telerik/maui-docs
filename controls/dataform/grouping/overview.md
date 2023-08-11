@@ -18,7 +18,7 @@ You can organize the Editors in groups using the `DataFormGroup`(`Telerik.Maui.c
 
 DataForm definition with Grouping applied:
 
-<snippet id='dataform-grouping-from-XAML'/>
+<snippet id='dataform-grouping-from-xaml'/>
 
 And the business model used:
 
