@@ -14,7 +14,9 @@ ComboBox has the following commands:
 
 > SelectAll command can be used only when `SelectionMode` is `Multiple`. An exception will be thrown, if the command is invoked in `Single` `SelectionMode`.
 
-- `ClearSelectionCommand` (*ICommand*)&mdash;Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
+- `ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
+
+![ComboBox ClearSelectionCommand](images/combobox-commands.gif)
 
 ## See Also
 

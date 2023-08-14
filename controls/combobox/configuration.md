@@ -29,7 +29,7 @@ and the result:
    * The control is editable.
    * The control is non-editable and the selection mode is single.
 
-## ClearButton Visibility
+## Clear Button Visibility
 
 The visibility state of the Clear **X** button can be changed using the `IsClearButtonVisible`(`bool`) property. By default its value is true.
 
@@ -47,6 +47,7 @@ To manage the dropdown of the ComboBox, use the following properties:
 
 * `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
 * `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
+* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop down part of the control. This property allows an option to modify the control with no space between the ComboBox and the dropdown.
 * `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
 * `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
 

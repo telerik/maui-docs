@@ -22,6 +22,8 @@ The following example shows how to add a command.
 
 <snippet id='slideview-commands' />
 
+![.NET MAUI SlideView Commands](images/slideview-commands.gif)
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
