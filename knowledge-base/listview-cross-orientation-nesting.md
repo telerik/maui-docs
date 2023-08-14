@@ -42,7 +42,7 @@ The key takeaway in this approach is that the inner/nested ListView inside the p
     ```
 
 
-2. Create the needed business objects. For this example, we'll be using a hierarchical object structure, where a parent `KanbanItem` type holds a collection of `KanbanSubItem` children:
+2. Create the needed business objects. For this example, you'll be using a hierarchical object structure, where a parent `KanbanItem` type holds a collection of `KanbanSubItem` children:
 
     ```C#
     using System.Collections.ObjectModel;
