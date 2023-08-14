@@ -39,7 +39,7 @@ The `RadMaskedEntry` is built on top of the `RadEntry`. This allows you to manag
   - `FocusedBorderThickness`
 - Properties controlling the unfocused state:
   - `BorderBrush`
-  - **BorderThickness**
+  - `BorderThickness`
 
 However, you cannot directy access those properties from the `RadMaskedEntry` control. To achieve this you need to define the MaskedEntry's `ControlTemplate`. This template is of type `RadEntry`, and is where you can set the new border values.
 
