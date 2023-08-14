@@ -35,7 +35,7 @@ This how-to article describes how you can change the appearance of the border ar
 The `RadMaskedEntry` is built on top of the `RadEntry`. This allows you to manage the appearance of both the border and focused border through the following properties of the internal `RadEntry` object:
 
 - Properties controlling the focused state:
-  - **FocusedBorderBrush**
+  - `FocusedBorderBrush`
   - **FocusedBorderThickness**
 - Properties controlling the unfocused state:
   - **BorderBrush**
