@@ -29,7 +29,7 @@ res_type: kb
 
 This how-to article describes how you can use two `RadListView` controls together without running into problems with nesting multiple `ScrollView` elements together.
 
-This example code in this article is going to present a Kanban-like display where the top-level `RadListView` is scrolling *horizontally*, while the inner `RadListView` scrolls *vertically*. As a bonus feature, the example also demonstrates how you can programmatically access that nested ListView and programmatically scroll its items from the top-level page.
+The example code in this article is going to present a Kanban-like display where the top-level `RadListView` scrolls horizontally, while the inner `RadListView` scrolls vertically. As a bonus feature, the example also demonstrates how you can programmatically access that nested ListView and programmatically scroll its items from the top-level page.
 
 ## Solution
 
