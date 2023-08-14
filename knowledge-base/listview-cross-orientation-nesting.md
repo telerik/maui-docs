@@ -1,6 +1,6 @@
 ---
 title: Nesting Vertical and Horizontal RadListViews
-description: Use a vertical RadListView inside a horizontal ListView with programmaticl scrolling control.
+description: Learn how to use a vertical RadListView inside a horizontal ListView with programmatic scrolling control.
 type: how-to
 page_title: Nested Vertical and Horizontal RadListViews
 slug: listview-cross-orientation-nesting
