@@ -177,7 +177,7 @@ The key takeaway in this approach is that the inner/nested ListView inside the p
     </ContentPage>
     ```
 
-    >note Notice that we're subscribing to the inner ListView's **BindingContextChanged** event. This is used to set the `KanbanItem`'s **ListViewHost** property, which is what enables programmatical scrolling of the inner list. In a real-world project, you will want to set the with a WeakReference to avoid memory leaks, or a better approach is to wrap the DataTemplate contents into a custom control where you have more control over the lifecycle.
+> Notice that you're subscribing to the inner ListView's `BindingContextChanged` event. This is used to set the `KanbanItem`'s `ListViewHost` property, which is what enables programmatical scrolling of the inner list. In a real-world project, you will want to set the with a `WeakReference` to avoid memory leaks, or a better approach is to wrap the `DataTemplate` contents into a custom control where you have more control over the lifecycle.
 
 5. Finally, in the view's code behind, we'll: 
    1. Set the view's `BindingContext` to a new instance of `MainViewModel`.
