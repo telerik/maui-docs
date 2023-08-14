@@ -72,7 +72,7 @@ However, you cannot directly access those properties from the `RadMaskedEntry` c
     </ControlTemplate>
     ```
 
-3. Update the ControlTemplate using any desired combination of the aforementioned properties to adjust the appearance of the border. the following example uses all four (see last 4 properties):
+3. Update the `ControlTemplate` using any desired combination of the aforementioned properties to adjust the appearance of the border. The following example uses all four (see the last four properties):
 
     ```XAML
     <ControlTemplate x:Key="MyMaskedEntry_ControlTemplate">
