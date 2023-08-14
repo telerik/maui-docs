@@ -181,7 +181,7 @@ The key takeaway in this approach is that the inner/nested ListView inside the p
 
 5. Finally, in the view's code behind, you'll: 
    1. Set the view's `BindingContext` to a new instance of `MainViewModel`.
-   2. Define the **OnListViewBindingContextChanged** event handler to get a reference to the inner `RadListView`.
+   2. Define the `OnListViewBindingContextChanged` event handler to get a reference to the inner `RadListView`.
    3. Define the **Button_OnClicked** event handler to demonstrate programmatic scrolling of a subitem into view.
 
     ```C#
