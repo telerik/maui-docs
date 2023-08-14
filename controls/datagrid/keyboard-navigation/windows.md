@@ -1,12 +1,13 @@
 ---
-title: Keyboard Navigation
-page_title: .NET MAUI DataGrid Documentation - Keyboard Support
-description: "Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DataGrid accessibility standards."
-position: 16
+title: WinUI
+page_title: .NET MAUI DataGrid Documentation - Keyboard Support for WinUI
+description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DataGrid accessibility standards.
+position: 0
+previous_url: /controls/datagrid/keyboard-support
 slug: datagrid-keyboard-support
 ---
 
-# .NET MAUI DataGrid Keyboard Support
+# .NET MAUI DataGrid Keyboard Support on WinUI
 
 The Telerik UI for .NET MAUI DataGrid provides keyboard navigation support which is currently available on `WinUI`.
 
