@@ -71,3 +71,8 @@ TimeSpanPicker
 TemplatedPicker
 Expander
 ExpanderHeader
+BusyTemplate
+BMP
+ImageFormat
+ImageEditorToolbar
+ItemsControl
