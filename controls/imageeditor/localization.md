@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: .NET MAUI ImageEditor Documentation - Localization
-description: "Check our &quot;Localization&quot; documentation article for Telerik ImageEditor for .NET MAUI control."
+description: Use the localization options of the Telerik UI for .NET MAUI ImageEditor control.
 position: 10
 slug: imageeditor-localization
 ---

@@ -1,7 +1,7 @@
 ---
 title: Axis
 page_title: .NET MAUI Gauge Documentation - Axis
-description: "Use the exposed axis options of the Telerik Gauge for .NET MAUI control to set the axis range, line stroke, ticks, font style and font family, and more."
+description: Learn how to use the exposed axis options of the Telerik Gauge for .NET MAUI control to set the axis range, line stroke, ticks, font style and font family, and more.
 position: 4
 previous_url: /controls/gauge/gauge-axis
 slug: gauge-axis
@@ -13,7 +13,7 @@ The axis provides options for you to control all its displayed elements includin
 
 ## Axis Range
 
-Presently, the axis does not have an auto-range mechanism so it is mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
+Presently, the axis does not have an auto-range mechanism so it's mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
 
 ```XAML
 <telerik:GaugeLinearAxis Maximum="4"
@@ -72,7 +72,7 @@ The `FontFamily` property is of type `string` and you need to pass the name of t
 
 The following image shows the end result.
 
-![Gauge Font Familly](images/gauge-axis-fontfamily.png)
+![Gauge Font Family](images/gauge-axis-fontfamily.png)
 
 ## Label Format
 
@@ -143,7 +143,7 @@ The following image shows the end result.
 
 Change the thickness of the axis ticks using the `TickThickness` property. 
 
-If you want to completely remove the ticks set `TickThickness="0"`.
+If you want to remove the ticks set `TickThickness="0"`.
 
 ```XAML
 <telerik:GaugeLinearAxis Maximum="250"
@@ -156,7 +156,7 @@ The following image shows the end result.
 
 ![Gauge Tick Visibility](images/gauge-axis-tick-hidden.png)
 
-In scenario when Labels are hidden and the tick thickness is set to 0:
+In scenario when Labels are hidden and the `TickThickness` is 0:
 
 ```XAML
 <telerik:GaugeLinearAxis Maximum="250"

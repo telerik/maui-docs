@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ItemsControl Documentation - Overview
-description: "Try now the Telerik ItemsControl for .NET MAUI delivering a set of options for creating and showing barcodes."
+description: Try now the Telerik ItemsControl for .NET MAUI delivering a set of options for creating and showing barcodes.
 position: 0
 tags: .net maui, itemscontrol, ui for .net maui, .net maui conrols, microsoft .net maui
 slug: itemscontrol-overview
@@ -10,7 +10,7 @@ previous_url: /controls/itemscontrol/itemscontrol-overview
 
 # .NET MAUI ItemsControl Overview
 
-**Telerik UI for .NET MAUI ItemsControl** enables you to visualize a list of items and provides full control over the way each item is rendered through the supported item template. The template can contain any view that you can use to display your data according to your design requirements.
+Telerik UI for .NET MAUI ItemsControl enables you to visualize a list of items and provides full control over the way each item is rendered through the supported item template. The template can contain any view that you can use to display your data according to your design requirements.
 
 ![ItemsControl Overview](images/itemscontrol-overview.png "ItemsControl Overview")
 
