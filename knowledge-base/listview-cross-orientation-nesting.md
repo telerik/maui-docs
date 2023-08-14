@@ -112,7 +112,7 @@ The key takeaway in this approach is that the inner/nested ListView inside the p
 
 4. On the XAML page, we'll define two `RadListView` controls with the desired design. The important considerations are:
    1. The parent `RadListView` uses a `ListViewLinearLayout` with `Orientation="Horizontal"`.
-   2. The `RadListView` in the **ItemTemplate** uses a `ListViewLinearLayout` with `Orientation="Vertical"`.
+   2. The `RadListView` in the `ItemTemplate` uses a `ListViewLinearLayout` with `Orientation="Vertical"`.
    3. A `Button` to demonstrate programmatic scrolling.
 
     ```XML
