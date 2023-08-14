@@ -41,7 +41,7 @@ The `RadMaskedEntry` is built on top of the `RadEntry`. This allows you to manag
   - `BorderBrush`
   - `BorderThickness`
 
-However, you cannot directy access those properties from the `RadMaskedEntry` control. To achieve this you need to define the MaskedEntry's `ControlTemplate`. This template is of type `RadEntry`, and is where you can set the new border values.
+However, you cannot directly access those properties from the `RadMaskedEntry` control. To achieve this, you need to define the MaskedEntry's `ControlTemplate`. This template is of type `RadEntry`, and is where you can set the new border values.
 
 1. Confirm your view is already defining the `telerik` namespace:
 
