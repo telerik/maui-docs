@@ -33,7 +33,7 @@ The example code in this article is going to present a Kanban-like display where
 
 ## Solution
 
-The key takeaway in this approach is the inner/nested ListView inside the parent's ItemTemplate has a different scrolling direction. This avoids two ScrollViews using the same scrolling direction, which leads to problems by breaking UI virtualization and significant performance and responsiveness issues.
+The key takeaway in this approach is that the inner/nested ListView inside the parent's `ItemTemplate` has a different scrolling direction. This avoids two ScrollViews using the same scrolling direction, which leads to problems by breaking UI virtualization and significant performance and responsiveness issues.
 
 1. Ensure you have the `telerik` namespace in your XAML file:
 
