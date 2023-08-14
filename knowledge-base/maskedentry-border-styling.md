@@ -36,7 +36,7 @@ The `RadMaskedEntry` is built on top of the `RadEntry`. This allows you to manag
 
 - Properties controlling the focused state:
   - `FocusedBorderBrush`
-  - **FocusedBorderThickness**
+  - `FocusedBorderThickness`
 - Properties controlling the unfocused state:
   - **BorderBrush**
   - **BorderThickness**
