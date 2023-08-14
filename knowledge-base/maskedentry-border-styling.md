@@ -27,7 +27,7 @@ res_type: kb
 
 ## Description
 
-This how-to article describes how you can change the appearance of border around the component for both normal and focused states. this bordewr is responsible for the underline beneath the input area.
+This how-to article describes how you can change the appearance of the border around the component for both normal and focused states. This border is responsible for the underline beneath the input area.
 
 
 ## Solution
