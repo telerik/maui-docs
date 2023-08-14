@@ -75,7 +75,7 @@ The key takeaway in this approach is that the inner/nested ListView inside the p
     }
     ```
 
-3. Create a view model class. For this example, we'll create a `MainViewModel` type, and generate sample data items in the constructor.
+3. Create a view model class. For this example, you'll create a `MainViewModel` type, and generate sample data items in the constructor.
 
     ```C#
     using System.Collections.ObjectModel;
