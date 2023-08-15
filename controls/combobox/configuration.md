@@ -27,7 +27,7 @@ Here is an example of setting the `PlaceholderColor` property:
 
 <snippet id='combobox-configuration-placeholder-color'/>
 
-and the result:
+In the image below is illustrated the result from the code snippet:
 
 ![ComboBox Placeholder Color](images/combobox-placeholder-color.png)
 
