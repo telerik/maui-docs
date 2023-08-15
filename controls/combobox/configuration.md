@@ -29,7 +29,7 @@ Here is an example of setting the `PlaceholderColor` property:
 
 and the result:
 
-![ComboBox Placeholder Color](images/combobox-placeholder-color.png)
+![.NET MAUI ComboBox Placeholder Color](images/combobox-placeholder-color.png)
 
 ## Text
 
