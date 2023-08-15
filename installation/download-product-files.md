@@ -3,12 +3,13 @@ title: Available Product Files
 page_title: Available Product Files for Download
 description: Learn which Telerik UI for .NET MAUI product files are available and how to download the assemblies, examples, and more.
 slug: download-product-files
+tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui
 position: 1
 ---
 
 # Available .NET MAUI Product Files for Download
 
-Telerik UI for .NET MAUI provides a set of product files which trial and commercial users can download from the **Download** section of Your Account.
+[Telerik .NET MAUI](https://www.telerik.com/maui-ui) provides a set of product files which trial and commercial users can download from the **Download** section of Your Account.
 
 The available product files include the following items:
 
