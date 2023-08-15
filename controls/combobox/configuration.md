@@ -23,6 +23,14 @@ and the result:
 
 ![ComboBox Placeholder](images/combobox-visual-structure.png)
 
+Here is an example of setting the `PlaceholderColor` property:
+
+<snippet id='combobox-configuration-placeholder-color'/>
+
+and the result:
+
+![ComboBox Placeholder Color](images/combobox-placeholder-color.png)
+
 ## Text
 
 * `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when:
@@ -50,6 +58,18 @@ To manage the dropdown of the ComboBox, use the following properties:
 * `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop down part of the control. This property allows an option to modify the control with no space between the ComboBox and the dropdown.
 * `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
 * `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
+
+Here is an example with `DropDownWidth` property set:
+
+<snippet id='combobox-configuration-dropdownwidth'/>
+
+Here is an example with `DropDownHeight` property set:
+
+<snippet id='combobox-configuration-dropdownheight'/>
+
+Here is an example with `DropDownVerticalOffset` property set:
+
+<snippet id='combobox-configuration-dropdownverticaloffset'/>
 
 Here is an example with `IsDropdownClosedOnSelection` property set:
 

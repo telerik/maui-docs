@@ -16,6 +16,12 @@ ComboBox has the following commands:
 
 - `ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
 
+Here is an example with `ClearSelectionCommand`:
+
+<snippet id='combobox-commands'/>
+
+<snippet id='combobox-commands-csharp'/>
+
 ![ComboBox ClearSelectionCommand](images/combobox-commands.gif)
 
 ## See Also
