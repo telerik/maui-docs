@@ -1,7 +1,7 @@
 ---
 title: Cell Swipe
 page_title: .NET MAUI ListView Documentation - Cell Swipe
-description: Lear what are the swiping options for Telerik ListView for .NET MAUI and how to define custom swipe template.
+description: Learn what are the swiping options for Telerik ListView for .NET MAUI and how to define custom swipe template.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-cell-swipe
 slug: listview-features-cell-swipe
@@ -23,7 +23,7 @@ You can use the following `RadListView` properties to configure the Cell Swipe f
 
 - `IsItemSwipeEnabled`(`bool`)&mdash;Enables or disables the Cell Swipe feature. The default value is False.
 - `SwipeThreshold`(`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature. Shorter swipe gestures are not respected. The default value is 0.
-- `SwipeOffset`(`Thickness`)&mdash;Specifies how much to move the swiped cell to the side and stick it there. The default value is 100.
+- `SwipeOffset`(`Thickness`)&mdash;Specifies how to move the swiped cell to the side and stick it there. The default value is 100.
 - `ItemSwipeContentTemplate` (`DataTemplate`)&mdash;Defines the content that will be visualized when users swipe a cell.
 
 >tip The `SwipeThreshold` value must be lower than the `SwipeOffset` value. This is required because the `SwipeThreshold` defines the minimum swipe gesture length that triggers the Cell Swipe feature and reveals a custom view.
@@ -118,8 +118,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Layouts]({% slug listview-features-layouts %})
 - [Commands]({% slug listview-features-commands %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})

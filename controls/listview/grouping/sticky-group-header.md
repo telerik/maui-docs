@@ -12,7 +12,7 @@ tags: group, radlistview, groupdescriptor, sticky, group, headers
 
 The ListView provides the option to set its group headers as sticky. This means the `GroupHeader` will "freeze" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
 
-To enable the sticky group headers behavior, just set `IsGroupHeaderSticky` property of the ListView to `True`. By default `IsGroupHeaderSticky` value is `False`.
+To enable the sticky group headers behavior, set `IsGroupHeaderSticky` property of the ListView to `True`. By default `IsGroupHeaderSticky` value is `False`.
 
 ```XAML
 <telerik:RadListView x:Name="listView"

@@ -8,7 +8,7 @@ previous_url: /controls/listview/grouping/listview-property-group-descriptor
 tags: group, radlistview, groupdescriptor
 ---
 
-# .NET MAUI ListView Porperty Group Descriptor
+# .NET MAUI ListView Property Group Descriptor
 
 You can group the data by a property value from the class that defines your items. This descriptor exposes the following properties:
 

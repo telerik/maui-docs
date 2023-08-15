@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI ListView Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Learn more about the selection functionality about the Telerik UI for .NET MAUI ListView control.
 position: 4
 previous_url: /controls/listview/listview-features-selection
 slug: listview-features-selection
@@ -35,7 +35,7 @@ listView.SelectionMode = Telerik.Maui.Controls.Compatibility.DataControls.ListVi
 You can also configure how the selection to be triggered by the end users through the `SelectionGesture` (`Telerik.Maui.Controls.Compatibility.DataControls.ListView.SelectionGesture`) property:
 
 - `Tap`&mdash;Tap on an item to select it. This is the default `SelectionGesture` value.
-- `Hold`&mdash;Ttap and hold an item to select it.
+- `Hold`&mdash;Tap and hold an item to select it.
 
 ```XAML
 <telerikDataControls:RadListView x:Name="listView"
@@ -67,9 +67,9 @@ You can customize the way selected items look by applying `SelectedItemStyle` pr
 
 ## Example
 
-The example below shows how to utilize ListView selection feature and demonstrates how to set multiple selection, apply a selected item style, and retrieve the selected items in a `ViewModel` class.
+The example below shows how to use ListView selection feature and demonstrates how to set multiple selection, apply a selected item style, and retrieve the selected items in a `ViewModel` class.
 
-First, create a `ViewModel` class with two collections&mdash;One for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the purpose of the example, the ListView is bound to a collection of strings:
+First, create a `ViewModel` class with two collections&mdash;One for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the example, the ListView is bound to a collection of strings:
 
 <snippet id='listview-features-selection-viewmodel' />
 

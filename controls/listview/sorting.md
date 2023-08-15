@@ -1,7 +1,7 @@
 ---
 title: Sorting
 page_title: .NET MAUI ListView Documentation - Sorting
-description: Check the Telerik .NET MAUI ListView sorting options using different types of sort descriptors.
+description: Learn more about the sorting functionality about the Telerik UI for .NET MAUI ListView control.
 position: 6
 slug: listview-features-sorting
 previous_url: /controls/listview/listview-features-sorting
@@ -46,7 +46,7 @@ The following image shows the result once the data is sorted.
 
 ![ListView Sorting](images/listview-features-sorting.png "Sorting")
 
-## Bindable SortDescriptors
+## Bindable Sort Descriptors
 
 The `SortDescriptors` collection of the ListView supports binding, which means you can modify the sort descriptors directly from the `ViewModel`.
 

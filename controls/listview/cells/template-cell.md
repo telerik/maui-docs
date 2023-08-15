@@ -1,13 +1,13 @@
 ---
 title: TemplateCell
 page_title: .NET MAUI ListView Documentation - Cell Types
-description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
+description: Learn more about the template cells in the Telerik UI for .NET MAUI ListView control. 
 position: 2
 previous_url: /controls/listview/cells/listview-templatecell
 slug: listview-templatecell
 ---
 
-# .NET MAUI ListView TemplateCell
+# .NET MAUI ListView Template Cell
 
 Cells in the ListView are the presentation of each data item from the control's `ItemsSource`. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.
 
@@ -23,7 +23,7 @@ Create a view model that will be the source of the ListView:
 
 Define the ListView control either in XAML.
 
-**Define the ListVew in XAML**
+**Define the ListView in XAML**
 
 <snippet id='listview-celltypes-templatecell-listview-xaml' />
 
@@ -93,7 +93,7 @@ public View GetCellContent()
 }
 ```
 
-Define the ListVew:
+Define the ListView:
 
 ```C#
 var listView = new RadListView
@@ -112,6 +112,6 @@ var listView = new RadListView
 
 ## See Also
 
-- [ListView Item TemplateSelector]({%slug listview-item-template-selector%})
+- [ListView Item Template Selector]({%slug listview-item-template-selector%})
 - [ListView Layouts]({% slug listview-features-layouts %})
 - [Items Styling]({% slug listview-features-styling %})

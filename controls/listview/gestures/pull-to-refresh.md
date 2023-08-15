@@ -14,7 +14,7 @@ If the list contains items which may change after the initial load, it may be go
 This feature consists of:
 
 - `IsPullToRefreshEnabled`&mdash;A boolean property which enables/disables the pull-to-refresh feature. The default value of the property is `false`.
-- `RefreshRequested`&mdash;A public event which is raised when the pull-to-refresh gesture is triggered. The custom data refreshing logic should be implemented in its handler.
+- `RefreshRequested`&mdash;A public event which is raised when the pull-to-refresh gesture is triggered. The custom data refreshing logic have to be implemented in its handler.
 - `EndRefresh()`&mdash;A public method which must be called when the custom data refreshing logic finishes executing.
 
 
@@ -32,7 +32,7 @@ This example demonstrates how to enable the pull to refresh functionality.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
 ```
 
-**3.** Set sample ItemsSource to the ListView:
+**3.** Set sample Items Source to the ListView:
 
 <snippet id='listview-gestures-pulltorefresh-source'/>
 
@@ -66,8 +66,8 @@ The recommended use is to place the `RadListView` control in a container that ex
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Layouts]({% slug listview-features-layouts %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Reorder Items]({% slug listview-features-reorder-items %})

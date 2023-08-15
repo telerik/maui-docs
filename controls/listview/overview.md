@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ListView Documentation - Overview
-description: "Try out the high-performance .NET MAUI ListView component featuring data binding, load on demand, filtering, sorting, grouping, item swipe and much more."
+description: Try out the high-performance .NET MAUI ListView component featuring data binding, load on demand, filtering, sorting, grouping, item swipe and much more.
 position: 0
 previous_url: /controls/listview/listview-overview
 slug: listview-overview
@@ -9,7 +9,7 @@ slug: listview-overview
 
 # .NET MAUI ListView Overview
 
-**The Telerik .NET MAUI ListView** is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in a single control for saving developers' time and providing better experience.
+The Telerik .NET MAUI ListView is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in a single control for saving developers' time and providing better experience.
 
 ![ListView Overview](images/listview.png "Telerik .NET MAUI ListView")
 
@@ -19,7 +19,7 @@ slug: listview-overview
 
 * [Different layouts and orientation]({% slug listview-features-layouts %})&mdash;You can choose between the linear and grid layout as well as define the scroll direction of the MAUI ListView layout.
 
-* [Items template selector]({% slug listview-item-template-selector %})&mdash;The .NET MAUI ListView control exposes an properties for applying different templates to each item based on a specific condition. 
+* [Items template selector]({% slug listview-item-template-selector %})&mdash;The .NET MAUI ListView control expose properties for applying different templates to each item based on a specific condition. 
  
 * [Reorder Items]({% slug listview-features-reorder-items %})&mdash;The ListView allows end users to reorder MAUI ListView items through dragging and dropping.
 
@@ -27,7 +27,7 @@ slug: listview-overview
 
 * [Item Swipe]({% slug listview-features-cell-swipe %})&mdash;The item swipe feature enables end users to swipe an item to reveal its actionable content.
 
-* [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them in accordance with your criteria.
+* [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them per with your criteria.
 
 * [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its appearance.
 

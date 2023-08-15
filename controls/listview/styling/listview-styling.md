@@ -1,7 +1,7 @@
 ---
 title: Item Styles
 page_title: .NET MAUI ListView Documentation - Item Styles
-description: Check the Telerik for .NET MAUI ListView styling options for the ListViewItemStyle object
+description: Check the Telerik for .NET MAUI ListView styling options for the ListViewItemStyle object.
 position: 0
 slug: listview-features-styling
 previous_url: /controls/listview/styling/listview-features-styling
@@ -46,7 +46,7 @@ This enumeration contains the following members:
 
 The following image shows a ListView with its `ItemStyle` and `SelectedItemStyle` applied.
 
-![ListView Item and SelectedIten Styling](../images/listview_features_itemstyle.png)
+![ListView Item and Selected Item Styling](../images/listview_features_itemstyle.png)
 
 The following image shows a ListView with its `ReorderItemStyle` applied.
 

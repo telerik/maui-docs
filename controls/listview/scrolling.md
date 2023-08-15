@@ -14,7 +14,7 @@ The ListView supports a number of options which define its scrolling behavior.
 
 ## Vertical ScrollBar
 
-You can set the visibility of ListView vertical scrollbar according to your preferences with the `VerticalScrollBarVisibility` property. `VerticalScrollBarVisibility` (`Microsoft.Maui.ScrollBarVisibility`) specifies whether the vertical scrollbar will be visualized. By default it is set to `ScrollBarVisibility.Default` which means the scrollbar behavior depends on the target platform.
+You can set the visibility of ListView vertical scrollbar according to your preferences with the `VerticalScrollBarVisibility` property. `VerticalScrollBarVisibility` (`Microsoft.Maui.ScrollBarVisibility`) specifies whether the vertical scrollbar will be visualized. By default, the property is `ScrollBarVisibility.Default` which means the scrollbar behavior depends on the target platform.
 
 Here is a quick snippet on how you can set it to `ScrollBarVisibility.Always`:
 

@@ -8,7 +8,7 @@ previous_url: /controls/listview/styling/listview-styling-group-header
 tags: style, group, header
 ---
 
-# .NET MAUI ListView GroupHeader Style
+# .NET MAUI ListView Group Header Style
 
 In addition to the [Item Styles]({%slug listview-features-styling%}), the ListView enables you to modify the visual appearance of its group headers when grouping is enabled. The feature is implemented through the `GroupHeaderStyle` property of type `ListViewGroupStyle`.
 
@@ -38,12 +38,12 @@ The `ListViewGroupStyle` provides means for customizing the border as well as ba
 
 The following image shows the end result:
 
-![ListView Styling GroupHeader](../images/listview_styling_groupheader.png)
+![ListView Styling Group Header](../images/listview_styling_groupheader.png)
 
-> For a GroupHeader Style example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
+> For a Group Header Style example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 
 ## See Also
 
 - [Grouping]({%slug listview-features-grouping%})
 - [Item Styles]({%slug listview-features-styling%})
-- [Items StyleSelector]({%slug listview-features-style-selector%})
+- [Items Style Selector]({%slug listview-features-style-selector%})

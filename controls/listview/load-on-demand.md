@@ -1,7 +1,7 @@
 ---
 title: Load on Demand
 page_title: .NET MAUI ListView Documentation - Load on Demand
-description: Check our &quot;Load on Demand&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Learn more about the load on demand functionallity that the Telerik UI for .NET MAUI ListView control provides.
 position: 9
 previous_url: /controls/listview/listview-features-load-on-demand
 slug: listview-features-load-on-demand
@@ -23,18 +23,18 @@ The following properties control the `LoadOnDemand` feature:
 
 ## Methods to Load Data on Demand
 
-There are three ways to load the data on demand, regardless of whether you use the `Automatic` or `Manual` loading mode:
+Three options to load the data on demand, regardless of whether you use the `Automatic` or `Manual` loading mode:
 
-* [Create a ListViewLoadOnDemandCollection instance as a source and pass it to the ListView ItemsSource property](#using-loadondemandcollection).
+* [Create a ListViewLoadOnDemandCollection instance as a source and pass it to the ListView Items Source property](#using-loadondemandcollection).
 * [Subscribe to the LoadOnDemand event and add the loaded data to the source](#using-loadondemand-event).
-* [Use the LoadOnDemand UserCommand and add the loaded data to the source](#using-loadondemand-command).
+* [Use the LoadOnDemand User Command and add the loaded data to the source](#using-loadondemand-command).
 
 >note All three approaches for loading items on demand in the ListView work with both the automatic and manual `LoadOnDemandMode`.
 
 
 ### Using LoadOnDemandCollection
 
-To load items on demand, you can utilize the `ListViewLoadOnDemandCollection` and set it as an `ItemsSource` for the ListView. The `ListViewLoadOnDemandCollection` accepts an action in the constructor and this action is later executed by the ListView in a non-UI thread when new items are requested.
+To load items on demand, you can use the `ListViewLoadOnDemandCollection` and set it as an `ItemsSource` for the ListView. The `ListViewLoadOnDemandCollection` accepts an action in the constructor and this action is later executed by the ListView in a non-UI thread when new items are requested.
 
 The example below demonstrates how to use the `LoadOnDemandCollection`:
 
@@ -82,7 +82,7 @@ This approach is similar to [using the LoadOnDemand event](#using-loadondemand-e
 
 The example below demonstrates how to use the `LoadOnDemand` command:
 
-Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` bool property:
+Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` property:
 
 <snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
 
@@ -100,9 +100,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 You can also use the ListView options for performing advanced control over its load-on-demand feature.  
 
-### Control the Number of Preloaded Items
+### Control the Number of Pre-loaded Items
 
-This feature works in conjunction with the [LoadOnDemandMode.Automatic mode of the ListView]({%slug listview-features-load-on-demand%}#automatic-mode). You can control the minimum number of items loaded ahead through ListView `LoadOnDemandBufferItemsCount` property. By default, it is set to 10 items. When ListView requests an item in the buffer, it will trigger a new loading batch.
+This feature works in conjunction with the [LoadOnDemandMode.Automatic mode of the ListView]({%slug listview-features-load-on-demand%}#automatic-mode). You can control the minimum number of items loaded ahead through ListView `LoadOnDemandBufferItemsCount` property. By default, the property is for 10 items. When ListView requests an item in the buffer, it will trigger a new loading batch.
 
 ### Change the Appearance of the Manual Load Button
 
