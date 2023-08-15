@@ -29,7 +29,7 @@ Here is an example of setting the `PlaceholderColor` property:
 
 In the image below is illustrated the result from the code snippet:
 
-![ComboBox Placeholder Color](images/combobox-placeholder-color.png)
+![.NET MAUI ComboBox Placeholder Color](images/combobox-placeholder-color.png)
 
 ## Text
 
@@ -59,15 +59,15 @@ To manage the dropdown of the ComboBox, use the following properties:
 * `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
 * `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
 
-Here is an example with `DropDownWidth` property set:
+Here is an example that uses the `DropDownWidth` property:
 
 <snippet id='combobox-configuration-dropdownwidth'/>
 
-Here is an example with `DropDownHeight` property set:
+Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
 
-Here is an example with `DropDownVerticalOffset` property set:
+Here is an example that uses the `DropDownVerticalOffset` property:
 
 <snippet id='combobox-configuration-dropdownverticaloffset'/>
 
