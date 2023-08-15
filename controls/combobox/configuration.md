@@ -63,7 +63,7 @@ Here is an example that uses the `DropDownWidth` property:
 
 <snippet id='combobox-configuration-dropdownwidth'/>
 
-Here is an example with `DropDownHeight` property set:
+Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
 
