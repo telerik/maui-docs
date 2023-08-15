@@ -2,7 +2,7 @@
 title: Project Templates for VS
 page_title: Telerik Project Templates and Extensions for Visual Studio on Windows
 description: "Learn more about the Telerik extensions and project templates for Visual Studio on Windows supported by Telerik UI for .NET MAUI."
-tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
+tags: .net maui shell tabs, .net maui shell flyout, .net maui, shell navigation maui, .net maui shell, .net maui shell example
 position: 2
 slug: visualstudio-extensions
 previous_url: /installation/windows/visualstudio-extensions
