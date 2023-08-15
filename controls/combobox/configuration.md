@@ -67,7 +67,7 @@ Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
 
-Here is an example with `DropDownVerticalOffset` property set:
+Here is an example that uses the `DropDownVerticalOffset` property:
 
 <snippet id='combobox-configuration-dropdownverticaloffset'/>
 
