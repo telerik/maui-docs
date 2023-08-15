@@ -59,7 +59,7 @@ To manage the dropdown of the ComboBox, use the following properties:
 * `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
 * `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
 
-Here is an example with `DropDownWidth` property set:
+Here is an example that uses the `DropDownWidth` property:
 
 <snippet id='combobox-configuration-dropdownwidth'/>
 
