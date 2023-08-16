@@ -43,7 +43,7 @@ To start building your Telerik UI for .NET MAUI project with the project templat
 
 1. Depending on your preferences, you can select either of the available options for configuring your Telerik UI for .NET MAUI project.
 
-	* If you select the **Telerik .NET MAUI App** configurable wizard, the **Configure your new project** screen loads. In it, set your project name and location.
+	* The **Telerik .NET MAUI App** configurable wizard, the **Configure your new project** screen loads. In it, set your project name and location.
 
 	![Telerik .NET MAUI App configurable wizard initial screen within the Create your new project dialog](images/vsextensions_configureapp.png)
 
