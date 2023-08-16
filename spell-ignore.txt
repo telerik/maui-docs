@@ -69,3 +69,4 @@ DateTimePicker
 TimePicker
 TimeSpanPicker
 TemplatedPicker
+ClearSelectionCommand
