@@ -19,7 +19,7 @@ Here is an example of setting the `Placeholder` property:
 
 <snippet id='combobox-configuration-placeholder'/>
 
-and the result:
+The next image shows the result:
 
 ![ComboBox Placeholder](images/combobox-visual-structure.png)
 
@@ -27,7 +27,7 @@ Here is an example of setting the `PlaceholderColor` property:
 
 <snippet id='combobox-configuration-placeholder-color'/>
 
-In the image below is illustrated the result from the code snippet:
+The next image shows the result:
 
 ![.NET MAUI ComboBox Placeholder Color](images/combobox-placeholder-color.png)
 
