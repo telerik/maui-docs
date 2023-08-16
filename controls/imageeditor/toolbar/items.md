@@ -76,7 +76,7 @@ The properties described below apply to `blur`, `hue`, `saturation`, `brightness
 * `CommandParameter`(`object`)&mdash;Defines the parameter of the command, which is executed when the button is clicked.
 * `Clicked` event&mdash;Raised when the button is clicked.
 
-**Properties for Filter Toolbar Items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
+**Properties for Filter Toolbar Items—`blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
 
 * `Value`(`double`)&mdash;Defines the current value, when using an auto-generated slider content. Default value is`0`.
 * `MinimumProperty`(`double`)&mdash;Defines the minimum value, when using an auto-generated slider content. Default value is `-100`.
