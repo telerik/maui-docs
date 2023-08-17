@@ -27,7 +27,7 @@ The Telerik UI for .NET MAUI PDF Viewer allows you to control the space between 
 
 ## Customize the Default Busy Indicator
 
-When loading documents in the PDF Viewer, a busy indicator visualizes. 
+When loading documents in the PDF Viewer, a busy indicator appears on the screen. 
 
 ![Telerik UI for .NET MAUI PDF Viewer Busy Indicator](images/pdfviewer-busyindicator.png "PDF Viewer BusyIndicator")
 
