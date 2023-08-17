@@ -1,7 +1,7 @@
 ---
 title: NavigationButton
 page_title: .NET MAUI Toolbar Documentation - NavigationButton ToolbarItem
-description: "Review the Toolbar navigation button item for .NET MAUI"
+description: Review the Toolbar navigation button item for .NET MAUI.
 position: 3
 slug: toolbar-items-navigation-button
 ---
@@ -27,12 +27,12 @@ The exposed events are:
 
 The available commands are:
 
-* `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
-* `CommandParameter`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
+* `Command`(`ICommand`)&mdash;Specifies the command to execute when the button is clicked.
+* `CommandParameter`(`object`)&mdash;Specifies the parameter of the command, which is executed when the button is clicked.
 
 ## Styling
 
-Use the `Style` property with target type `Telerik.Maui.Controls.NavigationButtonToolbarItemView`. Use all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling) in the NavigationButtonToolbarItemView.
+Use the `Style` property with target type `Telerik.Maui.Controls.NavigationButtonToolbarItemView`. Use all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling) in the `NavigationButtonToolbarItemView`.
 
 ## See Also
 

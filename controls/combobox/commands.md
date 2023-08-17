@@ -12,9 +12,17 @@ ComboBox has the following commands:
 
 - `SelectAllCommand` (`ICommand`)&mdash;Selects all items from the source.
 
-> SelectAll command can be used only when `SelectionMode` is `Multiple`. An exception will be thrown, if the command is invoked in `Single` `SelectionMode`.
+> The `SelectAll` command can be used only when `SelectionMode` is `Multiple`. An exception will be thrown if the command is invoked in `Single` `SelectionMode`.
 
-- `ClearSelectionCommand` (*ICommand*)&mdash;Sets the selection to null. If Multiple SelectionMode is used, this command will clear all selected items.
+- `ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If Multiple `SelectionMode` is used, this command will clear all selected items. YOu can override the default behavior and create custom command.
+
+The example below shows both cases, the default `ClearSelectionCommand` execution and custom `ClearSelectionCommand` implementation:
+
+<snippet id='combobox-commands'/>
+
+<snippet id='combobox-commands-csharp'/>
+
+![ComboBox ClearSelectionCommand](images/combobox-commands.gif)
 
 ## See Also
 

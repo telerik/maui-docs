@@ -24,6 +24,8 @@ The following example demonstrates how to style the years with the `YearStyleSel
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 
+![.NET MAUI Calendar Year Style Selector](images/calendar-yearstyle-selector.png)
+
 >For a runnable example demonstrating how to style the years in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
 
 ## See Also

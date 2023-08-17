@@ -7,9 +7,9 @@ slug: migrate-xamarin-treeview-to-maui
 position: 20
 ---
 
-# Migrating the TreeView from Xamarin to .NET MAUI
+# Migrating from Xamarin.Forms TreeView to .NET MAUI TreeView
 
-The Telerik UI for .NET MAUI TreeView control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+The Telerik UI for .NET MAUI TreeView control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms TreeView and .NET MAUI TreeView.
 
@@ -34,7 +34,7 @@ The tables in the following sections list the differences between the APIs of th
 | NA | `SelectionMode` - `None`, `Single`, `Multiple` |
 | `CheckedItemsCollection`(read-only) | `CheckedItemsCollection` |
 | `CheckBoxModes`- `None`, `Individual`, `Propagate` | `CheckBoxModes` - `None`,`Independent`,`Recursive` |
-| `ItemTemplate`(applies on TreeViewDescriptor level) | `ItemTemplate`(applies on TreeView level) |
+| `ItemTemplate` (applies on TreeViewDescriptor level) | `ItemTemplate` (applies on TreeView level), `ItemTemplate` (applies on TreeViewDescriptor level) |
 | `LoadOnDemand` | NA |
 | `ScrollItemIntoView()` | `ScrollTo()` |
 | NA | `ItemsSourceChanged` event |
@@ -57,6 +57,8 @@ The tables in the following sections list the differences between the APIs of th
 | NA | `UnCheckAll()` |
 | `CheckItem()` | NA |
 | `UncheckItem()` | NA |
+| `ItemStyle` (applies on TreeView level) | `ItemStyle` (applies on TreeView level), `ItemStyle` (applies on TreeViewDescriptor level) |
+| `ItemStyleSelector` (applies on TreeView level) | `ItemStyleSelector` (applies on TreeView level), `ItemStyleSelector` (applies on TreeViewDescriptor level) |
 
 
 ## See Also

@@ -1,20 +1,20 @@
 ---
 title: Separator
 page_title: .NET MAUI Toolbar Documentation - Separator ToolbarItem
-description: "Review the Toolbar separator item for .NET MAUI"
+description: Review the Toolbar separator item for .NET MAUI.
 position: 7
 slug: toolbar-items-separator
 ---
 
 # .NET MAUI Separator ToolbarItem
 
-Add a separator (UI element) that separates the toolbar items in the Toolbar dy using the `SeparatorToolbarItem`.
+Add a separator (UI element) that separates the toolbar items in the Toolbar by using the `SeparatorToolbarItem`.
 
 All properties ToolbarItem provides are applicable for the `SeparatorToolbarItem`. For more details review the [ToolbarItem]({%slug toolbar-items%}#common-properties-for-configuration) article: 
 
 ## Styling
 
-Use the `Style` proeprty with target type `SeparatorToolbarItemView`. All properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling).
+Use the `Style` property with target type `SeparatorToolbarItemView`. All properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling).
 
 ## See Also
 

@@ -2,7 +2,7 @@
 title: Hyperlink Support
 page_title: .NET MAUI RichTextEditor Documentation - Hyperlink Support
 description: Review the hyperlink support documentation article for Telerik RichTextEditor for .NET MAUI control.
-position: 2
+position: 3
 slug: richtexteditor-hyperlink-support
 ---
 

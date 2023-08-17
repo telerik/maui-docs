@@ -19,7 +19,11 @@ TreeView exposes the following commands for expanding and collapsing all items:
 
 <snippet id='treeview-expand-collapse-commands'/>
 
+![.NET MAUI TreeView Expand and Collapse](images/treeview-expand-collapse.gif)
+
 > For a runnable example demonstrating the TreeView Expand and Collapse commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
+
+
 ## Checking and Unchecking Items
 
 TreeView exposes the following commands for checking and unchecking all items:
@@ -28,6 +32,8 @@ TreeView exposes the following commands for checking and unchecking all items:
 * `UncheckAllCommand`(`ICommand`)&mdash;Gets a command to uncheck all items in the control.
 
 <snippet id='treeview-check-uncheck-commands'/>
+
+![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-items.gif)
 
 > For a runnable example demonstrating the TreeView Check and Uncheck commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
 

@@ -61,7 +61,7 @@ The following example demonstrates how to create a custom `ChatItemTemplateSelec
 
 The image below shows how the customized Chat control could look:
 
-![Chat Customization](images/chat-customization.png)
+![A customized .NET MAUI Chat](images/chat-item-template-selector.png)
 
 ## See Also
 
