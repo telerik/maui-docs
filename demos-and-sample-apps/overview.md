@@ -9,7 +9,7 @@ position: 0
 
 # Overview
 
-Telerik UI for .NET MAUI provides a few fully-features demo applications demonstrating our .NET MAUI controls. You can review the source code of each app and get familiar with the way various Telerik .NET MAUI controls are utilized.
+The Telerik .NET MAUI library has a few fully-featured [demo applications](https://www.telerik.com/maui-ui/demo-apps/controls) demonstrating our [.NET MAUI](https://www.telerik.com/maui-ui)) controls. You can review the source code of each app and get familiar with the way various Telerik .NET MAUI controls are utilized.
 
 * [Controls Samples App](#controls-samples-app)
 * [SDKBrowser App](#sdkbrowser-app)
