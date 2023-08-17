@@ -16,25 +16,23 @@ The following table lists the actions and keyboard combinations that are availab
 
 | Hotkey Combinations  | Action |
 |----------------------|-------------------|
-| `Left Arrow` | Focuses the next cell on the left. The selection is changed as well when in single mode. |
-| `Right Arrow` | Focuses the next cell on the right. The selection is changed as well when in single mode. |
-| `Up Arrow` | Focuses the next cell above. The selection is changed as well when in single mode. |
-| `Down Arrow` | Focuses the next cell below. The selection is changed as well when in single mode. |
+| `Left Arrow` | Focuses the next cell on the left. When using single selection mode, the selection also changes. |
+| `Right Arrow` | Focuses the next cell on the right. When using single selection mode, the selection also changes. |
+| `Up Arrow` | Focuses the next cell above. When using single selection mode, the selection also changes. |
+| `Down Arrow` | Focuses the next cell below. When using single selection mode, the selection also changes. |
 | `Fn` + `F2` | Puts the current cell in edit mode. |
-| `Enter` | Selects the next or previous row. When in edit mode, the changes are committed and the next row is selected. |
+| `Enter` | Selects the next or previous row. When cell is in edit mode, the changes are committed and the next row is selected. |
 | `Esc` | Cancels the editing of the current cell. |
-| `Command` + `PageUp` | Moves the current cell to the first cell of the current view. |
-| `Command` + `PageDown` | Moves the current cell to the last cell of the current view. |
-| `Tab` | Focuses the next cell. When in edit mode, the next cell editor is focused. |
+| `Tab` | Focuses the next cell. When cell is in edit mode, the next cell editor is focused. |
 | `Shift` + `Tab` | Focuses the previous cell. When in edit mode, the previous editor is focused. |
-| `Command` + `Left Arrow` | Navigates to the first cell of the current row. |
-| `Command` + `Right Arrow` | Navigates to the last cell of the current row. |
-| `Command` + `Up Arrow` | Navigates to the first cell of the column. |
-| `Command` + `Down Arrow` | Navigates to the last cell of the column. |
-| `Fn` + `Left Arrow` | Navigates to the first cell of the column. |
-| `Fn` + `Right Arrow` | Navigates to the last cell of the column. |
-| `Fn` + `Up Arrow` | Navigates to the first cell of the column . |
-| `Fn` + `Down Arrow` | Navigates to the last cell of the column. |
+| `Command` + `Left Arrow` | Focuses the first cell of the current row. |
+| `Command` + `Right Arrow` | Focuses the last cell of the current row. |
+| `Command` + `Up Arrow` | Focuses the first cell of the column where the current cell is presented. |
+| `Command` + `Down Arrow` | Focuses the last cell of the column where the current cell is presented. |
+| `Fn` + `Left Arrow` | Focuses the first cell of the current row. |
+| `Fn` + `Right Arrow` | Focuses the last cell of the current row. |
+| `Fn` + `Up Arrow` | Focuses the first cell of the column where the current cell is presented. |
+| `Fn` + `Down Arrow` | Focuses the last cell of the column where the current cell is presented. |
 
 ## Additional Resources
 
