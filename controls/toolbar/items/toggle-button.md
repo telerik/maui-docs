@@ -1,7 +1,7 @@
 ---
 title: ToggleButton
 page_title: .NET MAUI Toolbar Documentation - ToggleButton ToolbarItem
-description: "Review the Toolbar toggle button item for .NET MAUI"
+description: Review the Toolbar toggle button item for .NET MAUI.
 position: 4
 slug: toolbar-items-toggle-button
 ---
@@ -25,12 +25,12 @@ The exposed events are:
 
 The available commands are:
 
-* `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
-* `CommandParameter`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
+* `Command`(`ICommand`)&mdash;Specifies the command to execute when the button is clicked.
+* `CommandParameter`(`object`)&mdash;Specifies the parameter of the command, which is executed when the button is clicked.
 
 ## Styling
 
-ToggleButtonToolbarItem has a `Style` property with target type `ToggleButtonToolbarItemView`. The property exposed in the `ToggleButtonToolbarItemView` is the `IsSelected` property.
+`ToggleButtonToolbarItem` has a `Style` property with target type `ToggleButtonToolbarItemView`. The property exposed in the `ToggleButtonToolbarItemView` is the `IsSelected` property.
 
 All other properties that can be applied through style are the properties applicable for [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
 

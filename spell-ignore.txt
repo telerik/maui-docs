@@ -69,4 +69,6 @@ DateTimePicker
 TimePicker
 TimeSpanPicker
 TemplatedPicker
-ClearSelectionCommand
+Uncheck
+unchecking
+sdkbrowser
