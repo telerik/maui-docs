@@ -69,6 +69,7 @@ DateTimePicker
 TimePicker
 TimeSpanPicker
 TemplatedPicker
+Expander
 Uncheck
 unchecking
 sdkbrowser

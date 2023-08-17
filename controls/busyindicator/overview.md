@@ -9,7 +9,7 @@ slug: busyindicator-overview
 
 # .NET MAUI BusyIndicator Overview
 
-Telerik BusyIndicator for .NET MAUI allows you to display a notification whenever a long-running process is being handled by the application. This makes the UI more informative and the user experience smoother.
+The Telerik BusyIndicator for .NET MAUI allows you to display a notification whenever a long-running process is being handled by the application. This makes the UI more informative and the user experience smoother.
 
 ![BusyIndicator Overview](images/busyindicator-overview.png)
 

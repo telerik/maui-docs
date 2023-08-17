@@ -28,7 +28,7 @@ To change the size and color of the animated element (animation content), use th
 
 >important `AnimationContentWidthRequest`, `AnimationContentHeightRequest`, and `AnimationColor` won't be applied if you use custom animations.
 
-By default, the size of the animation content is 25x25 pixels.
+By default, the size of the animation content is `25x25` pixels.
 
 The snippet below shows how to configure the predefined BusyIndicator animations.
 

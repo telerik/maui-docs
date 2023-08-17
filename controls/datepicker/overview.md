@@ -9,7 +9,7 @@ slug: datepicker-overview
 
 # .NET MAUI DatePicker Overview
 
-Telerik DatePicker for .NET MAUI allows you to select a date and visualizes its items inside a popup or a drop-down UI element. The DatePicker also enables you to set date ranges, date formats, and to customize its dialog appearance by configuring its header, footer, and more.  
+The Telerik UI for .NET MAUI DatePicker allows you to select a date and visualizes its items inside a popup or a drop-down UI element. The DatePicker also enables you to set date ranges, date formats, and to customize its dialog appearance by configuring its header, footer, and more.  
 
 ![Telerik UI for .NET MAUI DatePicker overview](images/date_picker_overview.png)
 
@@ -22,6 +22,7 @@ Telerik DatePicker for .NET MAUI allows you to select a date and visualizes its 
 * [Date ranges]({%slug datepicker-date-range%})&mdash;You can also define date ranges by setting minimum and maximum date values, and choose a date within that range.
 * [Flexible styling API]({%slug datepicker-styling%})&mdash;The DatePicker provides a number of styling capabilities, which enable you to style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
 * [Commands support]({%slug datepicker-commands%})&mdash;The DatePicker exposes commands that allow you to clear the selected date and to open and close the popup.
+* [Localization support]({%slug datepicker-localization%})&mdash;Translate the used across the DatePicker text to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 

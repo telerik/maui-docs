@@ -26,21 +26,21 @@ Before adding the Button, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a Button control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a Button control to your page.
 
- <snippet id='button-getting-started-xaml' />
+<snippet id='button-getting-started-xaml' />
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Then define the Click event handler:
+**3.** Then define the Click event handler:
 
- <snippet id='button-getting-started-click-event' />
+<snippet id='button-getting-started-click-event' />
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;

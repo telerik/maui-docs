@@ -13,21 +13,21 @@ The Telerik BusyIndicator for .NET MAUI is useful when you want to display a not
 
 The example below demonstrates a sample integration of the BusyIndicator with the ListView control. The ListView loads its data asynchronously (this is simulated for the purpose of the example) and while the load operation is taking place, the `IsBusy` state of the BusyIndicator is enabled.
 
-1. Create a sample `Book` class used for the `ItemsSource` of the ListView:
+**1.** Create a sample `Book` class used for the `ItemsSource` of the ListView:
 
- <snippet id='busyindicator-withlistview-model' />
+<snippet id='busyindicator-withlistview-model' />
 
-1. Add a `ViewModel` class, which provides the following:
+**2.** Add a `ViewModel` class, which provides the following:
 
   * A collection of `Book` objects that is used for binding the ListView.
   * A Boolean `IsLoading` property to control the Busy state of the BusyIndicator.
   * A `LoadData` command that starts the loading of the items.
 
- <snippet id='busyindicator-withlistview-csharp' />
+<snippet id='busyindicator-withlistview-csharp' />
 
-1. Add the ListView and BusyIndicator controls to the view:
+**3.** Add the ListView and BusyIndicator controls to the view:
 
- ```XAML
+```XAML
 <Grid>
     <Grid.RowDefinitions>
             <RowDefinition Height="40" />
@@ -53,12 +53,11 @@ The example below demonstrates a sample integration of the BusyIndicator with th
                                 IsBusy="{Binding IsLoading}" />
     </Grid>
 </Grid>
- ```
+```
 
-1. Set the `ViewModel` class as `BindingContext` of the page:
+**4.** Set the `ViewModel` class as `BindingContext` of the page:
 
- <snippet id='busyindicator-withlistview-setvm' />
-
+<snippet id='busyindicator-withlistview-setvm' />
 
 The image below shows the result.
 

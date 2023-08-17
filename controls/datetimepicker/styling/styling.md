@@ -21,13 +21,14 @@ The control supports the following styling properties:
 * `ToggleButtonStyle`(of type `Style` with target type `RadButton`)&mdash;Specifies the style of the [Toggle button]({%slug datetimepicker-picker-mode%}##toggle-button).
 * `PlaceholderLabelStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to the label defined in the [default PlaceholderTemplate]({%slug datetimepicker-templates%}#default-placeholdertemplate).
 * `DisplayLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the style applied to the label, which is visualized when a date is selected.
+* `TabStripItemStyle`(of type `Style` with target type `telerik:TabViewHeaderItem`)&mdash;Specifies the style applied to the separate tab items.
 
 The following Style properties are related to the spinner controls inside the popup/dropdown:
 
 
-* `SpinnerStyle`(of type `Style` with target type `telerikDataControls:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
+* `SpinnerStyle`(of type `Style` with target type `telerik:RadSpinner`)&mdash;Defines the style applied to the spinner item and the selected item.
 * `SpinnerHeaderStyle`(of type `Style` with target type `Label`)&mdash;Specifies the style applied to each spinner header label.
-* `SelectionHighlightStyle`(of type `Style` with target type `telerikPrimitives:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
+* `SelectionHighlightStyle`(of type `Style` with target type `telerik:RadBorder`)&mdash;Specifies the style applied to the border that highlights the selection.
 
 ## Namespaces
 
