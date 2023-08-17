@@ -72,7 +72,7 @@ When the `IsHeaderOverlaid` is set to `False`, the header area is placed next to
 
 ## Swiping inside the TabView Content
 
- Change the selected item using swipe gesture. This allows you to change the selected item of the TabView.
+Change the selected item using the swipe gesture. This allows you to change the selected item of the TabView.
 
 ![TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
 
