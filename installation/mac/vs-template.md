@@ -46,9 +46,9 @@ Now, you can create a new project by using the Telerik Project Template.
 
 1. From the **New project** dialog, select:
 
-	* The **Telerik .NET MAUI Blank App** option, you can start configuring the created blank application.
+	* The **Telerik .NET MAUI Blank App** option, creates blank application.
 
-	* The **Telerik .NET MAUI Blank Shell App** option, you can start configuring the created blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use the features like shell navigation, .NET MAUI Shell flyout and .NET MAUI Shell tabs. For more details on .NET MAUI Shell review the official [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
+	* The **Telerik .NET MAUI Blank Shell App** option, creates a blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use the features like Shell Navigation, .NET MAUI Shell flyout and .NET MAUI Shell tabs. For more details on .NET MAUI Shell review the official [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
 
   ![Create new project dialog](images/new-project-wizard-selection-mac.png)
 
