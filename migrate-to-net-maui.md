@@ -84,7 +84,7 @@ public static class MauiProgram
 
 Now, you can replace the Telerik UI for Xamarin components with their Telerik UI for .NET MAUI counterparts.
 
-Some of the Telerik .NET MAUI controls have a migrating articles. There are tables that describe API changes, so you can review the differences Xamarin vs .NET MAUI.
+Some of the Telerik .NET MAUI controls have dedicated migration articles. These articles provide tables describing the relevant API changes so you can review the differences between Xamarin and .NET MAUI.
 
 ### Notes on Component Migration
 
