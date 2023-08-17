@@ -66,7 +66,7 @@ To enable the scrolling use the `IsHeaderScrollable`(`bool`)property. The defaul
 
 * `IsHeaderOverlaid`(`bool`)&mdash;Indicates whether the header area is overlaid on top of the content area. 
 
-When the `IsHeaderOverlaid` is set to `True`, the header area is centered and  overlaps with one of the borders of the content area, based on the value of the `HeaderPosition` property. The padding of the content area is adjusted so, to avoid overlapping with the header area.
+When the `IsHeaderOverlaid` is set to `True`, the header area is centered and overlaps with one of the borders of the content area, based on the value of the `HeaderPosition` property. The padding of the content area is adjusted to avoid overlapping with the header area.
 
 When the `IsHeaderOverlaid` is set to `False`, the header area is placed next to the content area without any overlapping, based on the value of the `HeaderPosition` property.
 
