@@ -18,11 +18,11 @@ You can control the state propagation by setting the `CheckBoxMode` property (en
 * `Independent`&mdash;Specifies that the checkboxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children.
 * `Recursive`&mdash;Specifies that the checkboxes are checked and unchecked recursively. The checked state of the parent item is propagated to its children.
 
-**The Independent `CheckBoxMode`**
+Here is how the Independent `CheckBoxMode` looks:
 
 ![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.gif)
 
-**The Recursive `CheckBoxMode`**
+Here is how the Recursive `CheckBoxMode` looks:
 
 ![.NET MAUI TreeView Recursive Mode](images/treeview-recursive-mode.gif)
 
