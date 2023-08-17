@@ -66,7 +66,7 @@ Here is an example showing how to add a custom Toolbar item with a sample comman
 
 The image below shows the results on the different platforms:
 
-![PdfToolbar Custom ToolbarItem](images/pdf-custom-toolbar.png)
+![.NET MAUI PdfToolbar Custom ToolbarItem](images/pdf-custom-toolbar.png)
 
 > For a runnable example demonstrating the PDF Viewer's custom Toolbar items, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
