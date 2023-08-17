@@ -27,7 +27,7 @@ Here is a quick example how you can apply the listed properties:
 
 This is the result:
 
-![.NET MAUI RichTextEditor Styling](../images/richtexeditor-styling.png)
+![.NET MAUI RichTextEditor Styling](../images/richtexteditor-styling.png)
 
 >important For the RichTextEditor Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Styling**.
 

@@ -17,6 +17,8 @@ To configure the scroll direction for the TreeView items, use the `ScrollOrienta
 * (Default value) `Vertical`&mdash;Allows the user to scroll the TreeView only in a vertical direction.
 * `Both`&mdash;Allows the user to scroll the TreeView both in a vertical and horizontal direction.
 
+![.NET MAUI TreeView Horizontal Scrolling](images/treeview-horizontalscrolling.gif)
+
 ## Vertical Scrolling
 
 Configure the vertical scrollbar by using the following properties:
@@ -70,6 +72,8 @@ The following example demonstrates how to configure horizontal and vertical scro
 
 <snippet id='treeview-location-viewmodel'/>
 
+![.NET MAUI TreeView Scrollbars](images/treeview-scrollbars.gif)
+
 ## Methods 
 
 The TreeView provides the `ScrollTo` method that allows you to configure the control to display a specific item:
@@ -101,6 +105,8 @@ The example below demonstrates how to use the `ScrollTo` method.
 **6.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
+
+![.NET MAUI TreeView Scroll to Item](images/treeview-scrollto-item.gif)
 
 ## Commands
 
