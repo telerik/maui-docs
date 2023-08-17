@@ -32,6 +32,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** This is the result:
 
-![RichTextEditor Toolbar Styling](../images/richtexteditor-toolbar-styling.png)
+![.NET MAUI RichTextEditor Toolbar Styling](../images/richtexteditor-toolbar-styling.png)
 
 > For the RichTextEditor Toolbar Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor -> Styling**.
