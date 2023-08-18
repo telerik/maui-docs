@@ -182,7 +182,7 @@ navigation:
     controls/datagrid/aggregates:
         title: "Aggregates"
         position: 10
-        controls/datagrid/keyboard-navigation:
+    controls/datagrid/keyboard-navigation:
         title: "Keyboard Navigation"
         position: 15
     controls/datagrid/commands:
