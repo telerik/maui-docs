@@ -16,7 +16,7 @@ To define the collection of the items that will populate the control with data, 
 
 **1.** Add the SlideView definition in XAML:
 
-<snippet id='slideview-item-template-xaml'/>
+<snippet id='slideview-orientation-xaml'/>
 
 **2.** Add the following namespace:
 
@@ -33,7 +33,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - View Model
 
 <snippet id='slideview-events-viewmodel'/>
-
 
 ## See Also
 
