@@ -45,7 +45,7 @@ The following example shows how to call `RadPdfViewer` commands on a button clic
 By default , the `FitToWidth` command of the PDF Viewer is assigned to the "Fit Document to Width" option. To switch to the "Fit Page to Width" option, set the `FitToWidthCommand` property of `RadPdfViewer` to `FitPageToWidthCommand`:
 	
 ```C#	
-this.pdfViewer.FitToWidthCommand = new FitPageToWidthCommand();
+this.pdfViewer.FitToWidthCommand = new PdfViewerFitPageToWidthCommand();
 ```
 
 Calling the `FitToWidthCommand` on a button click action, as in the example above, executes "Fit Page to Width" on the current page.

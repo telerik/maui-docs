@@ -24,6 +24,8 @@ The following example demonstrates how to style the days with the `DecadeStyleSe
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 
+![.NET MAUI Calendar Decade Style Selector](images/calendar-decadestyle-selector.png)
+
 >For a runnable example demonstrating how to style the decades in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
 
 ## See Also

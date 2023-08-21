@@ -3,6 +3,7 @@ title: Project Template for VS
 page_title: Telerik Project Template for Visual Studio on macOS
 description: "Learn more about the Telerik extensions and project template for Visual Studio on macOS supported by Telerik UI for .NET MAUI."
 slug: mac-project-template
+tags: .net maui shell tabs, .net maui shell flyout, .net maui, shell navigation maui, .net maui shell, .net maui shell example
 position: 2
 previous_url: /installation/mac/project-template
 ---
@@ -43,7 +44,11 @@ The project template for VS on macOS is an add-in that improves the getting star
 
 Now, you can create a new project by using the Telerik Project Template.
 
-1. From the **New project** dialog, select a blank app or blank shell app if make a shell application.
+1. From the **New project** dialog, select:
+
+	* The **Telerik .NET MAUI Blank App** option, creates blank application.
+
+	* The **Telerik .NET MAUI Blank Shell App** option, creates a blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use the features like Shell Navigation, .NET MAUI Shell flyout and .NET MAUI Shell tabs. For more details on .NET MAUI Shell review the official [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
 
   ![Create new project dialog](images/new-project-wizard-selection-mac.png)
 
@@ -57,9 +62,9 @@ Now, you can create a new project by using the Telerik Project Template.
 
   As a result, the project will contain all required Telerik packages and you can start writing your app right away.
 
-The following image shows the end result after running the application.
+  The following image shows the end result after running the application.
 
-![Welcome to Telerik UI for .NET MAUI app initial screen on macOS](images/vs-projecttemplate-app.png)
+  ![Welcome to Telerik UI for .NET MAUI app initial screen on macOS](images/vs-projecttemplate-app.png)
 
 ## See Also
 

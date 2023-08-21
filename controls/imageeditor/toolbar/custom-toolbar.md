@@ -42,7 +42,7 @@ The toolbar items for applying **filters** to the image are:
 
 >tip To group the filters you can use the `ImageEditorFiltersToolbarItem` on mobile and `ImageEditorFilterOptionsToolbarItem` on desktop.
 
-## Reversing and Re-applying Actions
+## Reversing and Re-Applying Actions
 
 The toolbar items for reversing and re-applying actions are:
 

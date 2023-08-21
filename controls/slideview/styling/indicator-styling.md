@@ -42,7 +42,7 @@ Add Style resources:
 
 See the result below:
 
-![SlideView IndicatorStyling](images/slideview-indicatorstyling.png)
+![.NET MAUI SlideView Indicator Styling](images/slideview-indicator-styling.gif)
 
 ## See Also
 

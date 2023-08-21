@@ -10,17 +10,26 @@ slug: treeview-scrolling
 
 You can enable users to scroll in the TreeView in both directions&mdash;horizontally and vertically&mdash;or choose only one direction. 
 
+## Scroll Orientation
+
+To configure the scroll direction for the TreeView items, use the `ScrollOrientation` (enum of type `Telerik.Maui.Controls.TreeView.TreeViewScrollOrientation`) property. It accepts the following values:
+
+* (Default value) `Vertical`&mdash;Allows the user to scroll the TreeView only in a vertical direction.
+* `Both`&mdash;Allows the user to scroll the TreeView both in a vertical and horizontal direction.
+
+![.NET MAUI TreeView Horizontal Scrolling](images/treeview-horizontalscrolling.gif)
+
 ## Vertical Scrolling
 
 Configure the vertical scrollbar by using the following properties:
 
-* `VerticalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the vertical scrollbar. The available options are: 
+* `VerticalScrollBarVisibility` (enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the vertical scrollbar. The available options are: 
 	* `Default`&mdash;Applies the default visibility for the platform based on the content and orientation.
 	* `Always`&mdash;The scrollbar is visible, regardless of the content or orientation.
 	* `Never`&mdash;The scrollbar is not visible.
 
 
-* `VerticalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scrollbar. The available options are: 
+* `VerticalScrollBarLayoutMode` (enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scrollbar. The available options are: 
 	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
 	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
@@ -28,18 +37,18 @@ Configure the vertical scrollbar by using the following properties:
 
 Configure the horizontal scrollbar by using the following properties:
 
-* `HorizontalScrollBarVisibility`(enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the horizontal scrollbar.
+* `HorizontalScrollBarVisibility` (enum of type `Microsoft.Maui.ScrollBarVisibility`)&mdash;Specifies the visibility of the horizontal scrollbar.
 The available options are: 
 	* `Default`&mdash;Applies the default visibility for the platform based on the content and orientation.
 	* `Always`&mdash;The scrollbar is visible, regardless of the content or orientation.
 	* `Never`&mdash;The scrollbar is not visible.
 
-* `HorizontalScrollBarLayoutMode`(enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scrollbar. 
+* `HorizontalScrollBarLayoutMode` (enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scrollbar. 
 The available options are: 
 	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
 	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
-## Example: Configuring Horizontal and Vertical Scrolling
+## Example: Configuring the Scrollbar and Scroll Orientation
 
 The following example demonstrates how to configure horizontal and vertical scrolling when working with the .NET MAUI TreeView control.
 
@@ -62,6 +71,8 @@ The following example demonstrates how to configure horizontal and vertical scro
 **5.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
+
+![.NET MAUI TreeView Scrollbars](images/treeview-scrollbars.gif)
 
 ## Methods 
 
@@ -94,6 +105,8 @@ The example below demonstrates how to use the `ScrollTo` method.
 **6.** Add the ViewModel:
 
 <snippet id='treeview-location-viewmodel'/>
+
+![.NET MAUI TreeView Scroll to Item](images/treeview-scrollto-item.gif)
 
 ## Commands
 

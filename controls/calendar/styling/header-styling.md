@@ -30,7 +30,7 @@ The following example demonstrates how to apply custom styles to the header labe
 
 <snippet id='calendar-headerlabel-style'/>
 
-![.NET MAUI Calendar Header Style](images/calendar-header-style.png)
+![.NET MAUI Calendar Header Style](images/calendar-header-styling.png)
 
 > For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 
@@ -53,7 +53,7 @@ The following example demonstrates how to apply custom styles to the navigation 
 
 **3.** Add the `NavigateToNextViewButtonStyle` style:
 
-![.NET MAUI Calendar Navigation buttons Style](images/calendar-buttons-style.png)
+![.NET MAUI Calendar Navigation Buttons Style](images/calendar-headerbuttons-styling.png)
 
 > For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 

@@ -2,7 +2,7 @@
 title: First Steps with NuGet
 page_title: Windows Getting Started Guide for Installing with Telerik NuGet Server and VS
 description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls by using the Telerik NuGet Server with Visual Studio for Windows."
-tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, windows, install
+tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, install, telerik .net maui, 
 slug: telerik-nuget-server
 position: 2
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget
