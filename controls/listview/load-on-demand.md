@@ -27,7 +27,7 @@ Three options to load the data on demand, regardless of whether you use the `Aut
 
 * [Create a `ListViewLoadOnDemandCollection` instance as a source and pass it to the ListView Items Source property](#using-loadondemandcollection).
 * [Subscribe to the `LoadOnDemand` event and add the loaded data to the source](#using-loadondemand-event).
-* [Use the LoadOnDemand User Command and add the loaded data to the source](#using-loadondemand-command).
+* [Use the `LoadOnDemand` User Command and add the loaded data to the source](#using-loadondemand-command).
 
 >note All three approaches for loading items on demand in the ListView work with both the automatic and manual `LoadOnDemandMode`.
 
