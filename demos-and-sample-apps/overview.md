@@ -9,14 +9,14 @@ position: 0
 
 # Overview
 
-Telerik UI for .NET MAUI provides a few fully-features demo applications demonstrating our .NET MAUI controls. You can review the source code of each app and get familiar with the way various Telerik .NET MAUI controls are utilized.
+The Telerik .NET MAUI library has a few fully-featured [demo applications](https://www.telerik.com/maui-ui/demo-apps/controls) demonstrating our [.NET MAUI](https://www.telerik.com/maui-ui)) controls. You can review the source code of each app and get familiar with the way various Telerik .NET MAUI controls are utilized.
 
 * [Controls Samples App](#controls-samples-app)
 * [SDKBrowser App](#sdkbrowser-app)
 * [Crypto Tracker App](#crypto-tracker-app)
 
 > With **Telerik .NET MAUI 3.2.0** version we have added a support for .NET 7.0. You can easily switch the .NET version to .NET 6.0 or .NET 7.0 to build the apps. 
-> Inside the Examples folder of the installation/.zip file there are two `.bat` files - `SwitchToNet6.bat` and `SwitchToNet7.bat` and two `.sh` files - `SwitchToNet6.sh` and `SwitchToNet7.sh`. You can use them to switch the .NET version.
+> Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet6.ps1`, `SwitchToNet7.ps1` and `SwitchToNet8.ps1`. You can use them to switch the .NET version.
 
 ## Controls Samples App
 

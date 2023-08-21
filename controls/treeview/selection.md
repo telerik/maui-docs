@@ -41,6 +41,10 @@ The TreeView provides the `SelectionChanged` event, which is raised when the cur
 
 > For a runnable example demonstrating the TreeView events, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Events**.
 
+This is the result on Android:
+
+![.NET MAUI TreeView SelectionChanged Event](images/treeview-selection.gif)
+
 ## See Also
 
 * [Expand and Collapse TreeView Items]({%slug treeview-expand-collapse%})

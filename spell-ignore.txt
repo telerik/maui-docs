@@ -76,3 +76,6 @@ BMP
 ImageFormat
 ImageEditorToolbar
 ItemsControl
+Uncheck
+unchecking
+sdkbrowser
