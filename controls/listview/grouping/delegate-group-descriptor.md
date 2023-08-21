@@ -10,7 +10,7 @@ tags: group, radlistview, groupdescriptor
 
 # .NET MAUI ListView Delegate Group Descriptor
 
-DelegateGroup descriptor enables you to group by a custom key (for example some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
+DelegateGroup descriptor enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
 
 - `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
 - `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
