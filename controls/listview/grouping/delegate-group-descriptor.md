@@ -41,7 +41,7 @@ Add a `ViewModel` with a collection of Cities:
 
 The following image shows a ListView grouped through the `DelegateGroupDescriptor`.
 
-![ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
+![.NET MAUI ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
 
 > For the ListView DelegateGroupDescriptor example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Grouping category.
 

@@ -24,7 +24,7 @@ Use the `OneWayToSource` binding mode to bind that property to the `GroupDescrip
  
 Here is how the `GroupDescriptor` collection looks like through MVVM:
 
-![ ListView Group Descriptors MVVM](../images/listview-features-bindable-group.png)
+![.NET MAUI ListView Group Descriptors MVVM](../images/listview-features-bindable-group.png)
 
 > For the ListView Bindable GroupDescriptor example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Grouping category.
 

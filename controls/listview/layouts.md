@@ -41,7 +41,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result:
 
-![ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
+![.NET MAUI ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
 
 ## Grid Layout
 
@@ -61,7 +61,7 @@ The following example demonstrates how to use the `RadListViewGridLayout`.
 
 The following image shows the result:
 
-![ListView Layouts Grid](images/listview-layouts-grid.png)
+![.NET MAUI ListView Layouts Grid](images/listview-layouts-grid.png)
 
 ## See Also
 

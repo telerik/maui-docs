@@ -44,7 +44,7 @@ Where the `Person` class is defined like this:
 
 The following image shows the result once the data is sorted.
 
-![ListView Sorting](images/listview-features-sorting.png "Sorting")
+![.NET MAUI ListView Sorting](images/listview-features-sorting.png "Sorting")
 
 ## Bindable Sort Descriptors
 
@@ -110,7 +110,7 @@ private void UpdateExistingSortDescriptor()
 
 The following image shows the result:
 
-![ListView Sort Descriptor MVVM](images/listview-features-bindable-sort.png)
+![.NET MAUI ListView Sort Descriptor MVVM](images/listview-features-bindable-sort.png)
 
 ## See Also
 

@@ -47,7 +47,7 @@ And the business model:
 
 The following image shows the result:
 
-![ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
+![.NET MAUI ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
 
 ## See Also
 

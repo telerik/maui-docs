@@ -13,7 +13,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will achieve the following result.
 
-![ListView Getting Started](images/listview-gettingstarted.png)
+![.NET MAUI ListView Getting Started](images/listview-gettingstarted.png)
 
 ## Prerequisites
 

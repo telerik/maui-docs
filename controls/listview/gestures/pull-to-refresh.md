@@ -42,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is how the refresh indicator looks like:
 
-![ListView PullToRefresh](images/listview-gestures-pull-to-refresh.png)
+![.NET MAUI ListView PullToRefresh](images/listview-gestures-pull-to-refresh.png)
 
 ## Troubleshooting
 

@@ -47,7 +47,7 @@ private bool AgeFilter(object arg)
 
 The following image shows the result after the data is filtered:
 
-![ListView Filtering](images/listview-features-filtering.png "Filtering")
+![.NET MAUI ListView Filtering](images/listview-features-filtering.png "Filtering")
 
 ## Bindable Filter Descriptors
 
@@ -112,7 +112,7 @@ private void UpdateExistingFilterDescriptor()
 
 The following image shows how this looks like:
 
-![ListView Filter Descriptors MVVM](images/listview-features-bindable-filter.png)
+![.NET MAUI ListView Filter Descriptors MVVM](images/listview-features-bindable-filter.png)
 
 ## See Also
 

@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result:
 
-![ListView Reorder Items](images/listview-gestures-reorder.png)
+![.NET MAUI ListView Reorder Items](images/listview-gestures-reorder.png)
 
 >You can also take advantage of the [Reorder Events]({% slug listview-features-events %}#groupreorder-events) for additional control over the reorder functionality of the ListView.
 

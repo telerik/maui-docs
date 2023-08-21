@@ -47,7 +47,7 @@ The following example demonstrates how to use `ScrollItemIntoView` inside a butt
 
 The following image shows the end result:
 
-![ListView Programmatic Scrolling](images/listview-features-scrolling.png)
+![.NET MAUI ListView Programmatic Scrolling](images/listview-features-scrolling.png)
 
 ## See Also
 

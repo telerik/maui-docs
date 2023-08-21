@@ -38,7 +38,7 @@ The `ListViewGroupStyle` provides means for customizing the border as well as ba
 
 The following image shows the end result:
 
-![ListView Styling Group Header](../images/listview_styling_groupheader.png)
+![.NET MAUI ListView Styling Group Header](../images/listview_styling_groupheader.png)
 
 > For a Group Header Style example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
 

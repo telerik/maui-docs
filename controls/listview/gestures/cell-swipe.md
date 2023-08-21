@@ -13,7 +13,7 @@ Cell swipe allows end-users to use swipe gestures on cells. When users swipe, th
 
 The image below shows how swiping right can reveal a Delete button on the left:
 
-![ListView Cell Swipe Gesture](images/listview-cellswipe.png)
+![.NET MAUI ListView Cell Swipe Gesture](images/listview-cellswipe.png)
 
 You can reveal another custom view if the user swipes left. In this case, Cell Swipe displays the custom view on the right. As soon as the user taps the swiped item or anywhere on the ListView, the item returns to its original position.
 
@@ -68,7 +68,7 @@ Alternatively, you can add interactive elements to the swipe content and use the
 
 The following example demonstrates how to use the `ItemSwipeCompleted` event. Depending on the swipe gesture length, we will modify the data item or remove it from the source.
 
-![ListView Cell Swipe](images/listview-gestures-swipe-swipe-event.png)
+![.NET MAUI ListView Cell Swipe](images/listview-gestures-swipe-swipe-event.png)
 
 **1.** Add the ViewModel for the ListView:
 
@@ -94,7 +94,7 @@ We call the `EndItemSwipe()` method to force the item to go to its default posit
 
 The following example demonstrates how to add a delete button to the swipe content. We use the button's `Clicked` event handler to delete an item from the ListView source.
 
-![ListView Cell Swipe Interactive Content](images/listview-gestures-swipe-interactive-content.png)
+![.NET MAUI ListView Cell Swipe Interactive Content](images/listview-gestures-swipe-interactive-content.png)
 
 **1.** Add the view model for the ListView:
 

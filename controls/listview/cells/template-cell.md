@@ -17,13 +17,14 @@ The example below demonstrates how to create a ListView with templated cells, li
 
 ![ListView Template Cell](../images/listview-celltypes-templatecell.png)
 
-Create a view model that will be the source of the ListView:
+1. Create a view model that will be the source of the ListView:
 
 <snippet id='listview-celltypes-templatecell-viewmodel' />
 
-Define the ListView control either in XAML.
 
-**Define the ListView in XAML**
+2. Options to define the ListView control - in XAML or code-behind:
+
+2.1 Define the ListView in XAML**
 
 <snippet id='listview-celltypes-templatecell-listview-xaml' />
 
@@ -33,7 +34,7 @@ Add the `telerik` namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```						
 
-**Define the ListView in code-behind**
+2.2 Define the ListView in code-behind**
 
 For clarity, let's build the template of the list view cell in a separate method:
 

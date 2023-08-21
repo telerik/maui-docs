@@ -89,7 +89,7 @@ Set the `ViewModel` class as a `BindingContext` and call the `InitializePickers(
 
 The following image shows how the ListView looks like on different platforms when multiple items are selected:
 
-![ListView Multiple Selection](images/listview-features-selection-multiple.png "Multiple Selection")
+![.NET MAUI ListView Multiple Selection](images/listview-features-selection-multiple.png "Multiple Selection")
 
 > For the ListView Selection example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Selection category.
 

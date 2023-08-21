@@ -25,7 +25,7 @@ listView.IsGroupHeaderSticky = true;
 
 The following image shows the sticky group headers in action:
 
-![ListView Sticky Group Headers](../images/listview_stickyheaders.gif)
+![.NET MAUI ListView Sticky Group Headers](../images/listview_stickyheaders.gif)
 
 ## See Also
 
