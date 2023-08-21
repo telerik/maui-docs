@@ -15,7 +15,7 @@ DelegateGroup descriptor enables you to group by a custom key (for example, some
 - `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
 - `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
 
-Let's use the same example from the previous section, add DelegateGroupDescriptor through code instead.
+Let's use the same example from the previous section, and add `DelegateGroupDescriptor` through code instead.
 
 Define the `RadListView`:
 
