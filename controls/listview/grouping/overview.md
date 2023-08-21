@@ -21,7 +21,7 @@ You can group the data by a property value from the class that defines your item
 
 ## DelegateGroupDescriptor
 
-This descriptor enables you to group by a custom key(for example some complex expression combining two or more properties) instead of being limited by the value of a single property. For more details go to [Delegate Group Descriptor]({%slug listview-delegate-group-descriptor%}) article.
+This descriptor enables you to group by a custom key(for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. For more details go to [Delegate Group Descriptor]({%slug listview-delegate-group-descriptor%}) article.
 
 ## Custom Group Header Template
 
