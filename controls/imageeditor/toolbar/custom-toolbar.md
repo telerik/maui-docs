@@ -98,7 +98,7 @@ You can create a custom crop toolbar. Here is the XAML definition of the toolbar
 
 <snippet id='imageeditor-custom-crop-toolbar'/>
 
-and the style applied to the `ButtonToolbarItem`:
+Here is the style applied to the `ButtonToolbarItem`:
 
 <snippet id='imageeditor-buttontoolbar-style'/>
 

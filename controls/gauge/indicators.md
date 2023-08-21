@@ -27,7 +27,7 @@ When the shape geometry is set, the gauge expects the following conditions to be
 - The rotation pivot point is (0.5, 0.5).
 - The needle orientation is from (0.5, 0.5) to (1, 0.5).
 
-When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. After that is rotated so that the needle points at the value.
+When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. Then, it is rotated so that the needle points at the value.
 
 In the following example, the angle of rotation is 45 degrees and, in this case, coincides with the needle value.
 
@@ -82,7 +82,7 @@ When the shape geometry is set, the gauge expects that these conditions are met:
 - The rotation pivot point is (0.5, 0.5).
 - The shape orientation is from (1, 0.5) to (0.5, 0.5).
 
-When the gauge draws the shape, the geometry is scaled to the size in which it will be displayed. Then is moved to the point defined by the `Position` and `Offset` properties. Then is rotated so that the shape points at the axis line. In the example below, the indicator value is 3.5 and the angle of rotation is 35 degrees.
+When the gauge draws the shape, the geometry is scaled to the size in which it will be displayed. Then is moved to the point defined by the `Position` and `Offset` properties. Then  it is rotated so that the shape points at the axis line. In the example below, the indicator value is 3.5 and the angle of rotation is 35 degrees.
 
 ![Gauge shape indicator customization](images/gauge-shape-indicator-gif.gif)
 

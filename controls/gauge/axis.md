@@ -13,7 +13,7 @@ The axis provides options for you to control all its displayed elements includin
 
 ## Axis Range
 
-Presently, the axis does not have an auto-range mechanism so it's mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
+Presently, the axis does not have an auto-range mechanism so it is mandatory that you set the `Minimum`, `Maximum`, and `Step` properties.
 
 ```XAML
 <telerik:GaugeLinearAxis Maximum="4"
