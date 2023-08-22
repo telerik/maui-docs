@@ -87,3 +87,11 @@ DelegateGroup
 DelegateGroupDescriptor
 PropertyGroupDescriptor
 ItemTemplateSelector
+BusyTemplate
+BMP
+ImageFormat
+ImageEditorToolbar
+ItemsControl
+Uncheck
+unchecking
+sdkbrowser

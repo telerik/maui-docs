@@ -1,7 +1,7 @@
 ---
 title: Animations
 page_title: .NET MAUI Gauge Documentation - Animations
-description: "Control the animations behavior of the Telerik Gauge for .NET MAUI by using the supported animation options."
+description: Learn how to control the animations behavior of the Telerik Gauge for .NET MAUI by using the supported animation options.
 position: 3
 previous_url: /controls/gauge/gauge-animations
 slug: gauge-animations
@@ -15,9 +15,9 @@ To control the Gauge animations, use the `AnimationSettings` property by applyin
 
 The `AnimationSettings` class contains the following properties:
 
-* Duration (`int`)&mdash;Defines the duration of the animation in milliseconds.
-* Easing&mdash;Defines the easing of the animation.
-* Enabled (`bool`)&mdash;Specifies whether the animation will be enabled or not. By default, the `Enabled` property is `true`.
+* `Duration` (`int`)&mdash;Defines the duration of the animation in milliseconds.
+* `Easing`&mdash;Defines the easing of the animation.
+* `Enabled` (`bool`)&mdash;Specifies whether the animation will be enabled or not. By default, the `Enabled` property is `true`.
 
 The following example demonstrates how to set the `AnimationSettings` property:
 

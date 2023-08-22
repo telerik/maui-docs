@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI Toolbar Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI Toolbar and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI Toolbar and add the control to your .NET MAUI project.
 position: 2
 slug: toolbar-getting-started
 ---
@@ -26,7 +26,7 @@ Before adding the Toolbar, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add an Toolbar control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a Toolbar control to your page.
 
 ```XAML
  <telerik:RadToolbar x:Name="toolbar"/>
@@ -38,7 +38,7 @@ Before adding the Toolbar, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-**3.** Add Toolbar items to the RadToolbar control:
+**3.** Add Toolbar items to the `RadToolbar` control:
 
 <snippet id='toolbar-getting-started'/>
 

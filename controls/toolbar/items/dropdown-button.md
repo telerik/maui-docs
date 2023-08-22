@@ -1,20 +1,20 @@
 ---
 title: DropDownButton
 page_title: .NET MAUI Toolbar Documentation - DropDownButon ToolbarItem
-description: "Review the Toolbar drop-down button item for .NET MAUI"
+description: Review the Toolbar drop-down button item for .NET MAUI.
 position: 3
 slug: toolbar-items-dropdown-button
 ---
 
 # .NET MAUI DropDownButton ToolbarItem
 
-Add a a button displaying a drop-down panel in the Toolbar control using the `DropDownButtonToolbarItem`.
+Add a button displaying a drop-down panel in the Toolbar control using the `DropDownButtonToolbarItem`.
 
 The exposed properties are:
 
 * `IsOpen`(`bool`)&mdash;Indicating whether the drop-down is currently open.
-* `DropDownContentTemplate`(`ControlTemplate`)&mdash;Specifies the ControlTemplate of the drop-down content. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewContent.`
-* `DropDownIndicatorTemplate`(`ControlTemplate`)&mdash;Specifies the ControlTemplate of the drop-down indicator. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewIndicator.`
+* `DropDownContentTemplate`(`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the drop-down content. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewContent.`
+* `DropDownIndicatorTemplate`(`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the drop-down indicator. The target type of this template is `Telerik.Maui.Controls.DropDownButtonToolbarItemViewIndicator.`
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 

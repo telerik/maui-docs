@@ -49,6 +49,10 @@ The following example demonstrates how to use the `ItemTapped` event:
 
 <snippet id='treeview-events-viewmodel'/>
 
+This is the result on Android:
+
+![.NET MAUI TreeView ItemTapped Event](images/treeview-itemtapped.gif)
+
 ## Using the SelectionChanged Event
 
 The following example demonstrates how to use the `SelectionChanged` event:
@@ -68,6 +72,10 @@ The following example demonstrates how to use the `SelectionChanged` event:
 **4.** Add the ViewModel: 
 
 <snippet id='treeview-events-viewmodel'/>
+
+This is the result on Android:
+
+![.NET MAUI TreeView SelectionChanged Event](images/treeview-selection.gif)
 
 > For a runnable example demonstrating the TreeView events, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Events**.
 

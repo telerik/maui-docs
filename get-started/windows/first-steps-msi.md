@@ -3,24 +3,24 @@ title: First Steps with MSI
 page_title: Getting Started Guide for Installing with MSI on Windows
 description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls from an MSI file, and then build and run a sample application."
 slug: maui-getting-started
-tags: .net maui, ui for .net maui, .net maui controls
+tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui
 position: 1
 previous_url: /maui-getting-started, /get-started/first-steps, /installation/windows/install-msi, /first-steps
 ---
 
 # First Steps by Installing with the MSI File
 
-The Telerik UI for .NET MAUI library provides an option for installing its controls by downloading and executing the MSI file, which contains the suite.
+The [Telerik .NET MAUI](https://www.telerik.com/maui-ui) library provides an option for installing its controls by downloading and executing the MSI file, which contains the suite.
 
 This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the automatic MSI installation approach on Windows. Here is the step by step guide you have to follow:
 
 ## Step 1: Set Up Your .NET MAUI Project
 
-Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
+Before you start with the installation of [Telerik .NET MAUI](https://www.telerik.com/maui-ui), make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 ## Step 2: Download Telerik UI for .NET MAUI
 
-Telerik UI for .NET MAUI enables you to download the suite either from the Telerik UI for .NET MAUI product page or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
+Telerik UI for .NET MAUI enables you to download the suite either from the [Telerik .NET MAUI product page](https://www.telerik.com/maui-ui) or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
 
 1. Log into your [Telerik Account](https://www.telerik.com/account/).
 
@@ -56,7 +56,7 @@ Now, you are all set to start with the installation:
 
 ## Step 4: Register the Required Handlers
 
-To visualize the Telerik UI for .NET MAUI controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
 
 1. Add the needed `using` settings inside the `MauiProgram.cs` file.
 
@@ -88,11 +88,11 @@ public static class MauiProgram
 ## Next Steps
 
 * [Available Product Files and Assemblies]({% slug download-product-files %})
-* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+* [Telerik .NET MAUI Installation Approaches]({% slug installation-approaches %})
 
 ## See Also
 
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
 * [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
-* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Telerik .NET MAUI Product Page](https://www.telerik.com/maui-ui)

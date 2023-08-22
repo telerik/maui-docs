@@ -3,23 +3,24 @@ title: First Steps with PKG
 page-title: Getting Started Guide for Installing with PKG on macOS
 description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls from a PKG file, and then build and run a sample application."
 position: 1
+tags: .net maui, .net maui controls, dot net maui, telerik .net maui, macos, maccatalyst
 slug: install-pkg
 previous_url: /installation/mac/install-pkg
 ---
 
 # First Steps by Installing with the PKG File
 
-The Telerik UI for .NET MAUI library provides an option for installing its controls by downloading and executing the PKG file, which contains the suite.
+The [Telerik .NET MAUI](https://www.telerik.com/maui-ui) library provides an option for installing its controls by downloading and executing the PKG file, which contains the suite.
 
 This tutorial describes how to get up and running with Telerik UI for .NET MAUI by using the PKG installation approach on macOS. Here is the step by step guide you have to follow:
 
 ## Step 1: Set Up Your .NET MAUI Project
 
-Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
+Before you start with the installation of [Telerik .NET MAUI](https://www.telerik.com/maui-ui), make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 ## Step 2: Download Telerik UI for .NET MAUI
 
-Telerik UI for .NET MAUI enables you to download the suite either from the Telerik UI for .NET MAUI product page or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
+Telerik UI for .NET MAUI enables you to download the suite either from the [Telerik .NET MAUI product page](https://www.telerik.com/maui-ui) or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
 
 1. Log into your [Telerik Account](https://www.telerik.com/account/).
 
@@ -47,15 +48,45 @@ Now, you are all set to start with the installation on your machine from the App
 
 	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../../images/installation-macos.png)
 
+## Step 4: Register the Required Handlers
+
+To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+
+1. Add the needed `using` settings inside the `MauiProgram.cs` file.
+
+ ```C#
+using Telerik.Maui.Controls.Compatibility;
+ ```
+
+1. Call the `UseTelerik()` method inside the `MauiProgram.cs` file.
+
+ ```C#
+public static class MauiProgram
+{
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+}
+ ```
 
 ## Next Steps
 
 * [Available Product Files and Assemblies]({% slug download-product-files %})
-* [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
+* [Telerik .NET MAUI Installation Approaches]({% slug installation-approaches %})
 
 ## See Also
 
 * [System Requirements for macOS]({% slug system-requirements-mac %})
 * [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
 * [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
-* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Telerik .NET MAUI Product Page](https://www.telerik.com/maui-ui)

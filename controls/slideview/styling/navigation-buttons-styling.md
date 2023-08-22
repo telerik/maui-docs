@@ -26,7 +26,7 @@ Add Style resources:
 
 And the result below:
 
-![SlideView IndicatorStyling](images/slideview-navigation.png)
+![.NET MAUI SlideView Navigation Buttons Styling](images/slideview-navigation-buutons-styling.gif)
 
 
 ## See Also

@@ -25,47 +25,51 @@ To register a custom command within a `RadListView` instance you can:
 
 In both cases, you need to set the `Id` property of the new command so that it can be properly associated with the desired action/event.
 
-Following are the members of the `CommandId` enumerations:
+Each command has a `context` object of type `[CommandId]CommandContext`. The available commands and their context are described in the table below:
 
-* `ItemTap`
-* `ItemSwiping`
-* `ItemSwipeCompleted`
-* `ItemSwipeStarting`
-* `PullToRefreshRequested`
-* `SelectionChanged`
-* `LoadOnDemand`
-* `ItemHold`
-* `GroupHeaderTap`
-* `ReorderStarting`
-* `ReorderEnded`
+| Commands | Object type |
+| -------- | ---------- |
+| `ItemTap` | `ItemTapCommandContext` |
+| `ItemHold` | `ItemHoldCommandContext` |
+| `ItemSwiping` | `ItemSwipingCommandContext` |
+| `ItemSwipeStarting` | `ItemSwipeStartingCommandContext` |
+| `ItemSwipeCompleted` | `ItemSwipeCompletedCommandContext` |
+| `PullToRefreshRequested` | `PullToRefreshRequestedCommandContext` |
+| `SelectionChanged` | `SelectionChangedCommandContext` |
+| `LoadOnDemand` | `LoadOnDemandCommandContext` |
+| `GroupHeaderTap` | `GroupHeaderContext` |
+| `ReorderStarting` | `ReorderStartingCommandContext` |
+| `ReorderEnded` | `ReorderEndedCommandContext` |
 
->tip These actions correspond to the events exposed by the ListView. For more details, see the [Events]({%slug listview-features-events%}) topic.
+>tip Commands action correspond to the events exposed by the ListView. For more details, see the [Events]({%slug listview-features-events%}) topic.
 
-For each of the available commands, there is a `context` object of type `[CommandId]CommandContext`, for example, `ItemTapCommandContext`, `ItemHoldCommandContext`, and so on. The `context` object is passed as a parameter in its `Execute` method and provides information identical to the corresponding event arguments.
+ The `context` object is passed as a parameter in its `Execute` method and provides information identical to the corresponding event arguments.
+
+ >important When overriding the `ReorderEnded` and `GroupHeaderTap` commands you have to implement the action each command does. For example, manually reorder items and manually update the group `IsExpanded` state. 
 
 ## Inheriting from ListViewCommand
 
 To demonstrate inheriting from the `ListViewCommand`, the following example handles the `ItemTap` action as a Command:
 
-1. Create a class that inherits from the `ListViewCommand` and set its `Id` property. Then override the `CanExecute` and `Execute` methods:
+**1.** Create a class that inherits from the `ListViewCommand` and set its `Id` property. Then override the `CanExecute` and `Execute` methods:
 
- <snippet id='listview-features-commands-listviewcommand'/>
+<snippet id='listview-features-commands-listviewcommand'/>
 
-1. Add the custom command to the Commands collection of the `RadListView` instance:
+**2.**. Add the custom command to the Commands collection of the `RadListView` instance:
 
- <snippet id='listview-features-commands-add'/>
+<snippet id='listview-features-commands-add'/>
 
 ## Binding ListViewUserCommand
 
 With the `ListViewUserCommand` binding approach, you can directly handle the custom commands in the `ViewModel`.
 
-1. Add the custom command to the `ViewModel`:
+**1.**. Add the custom command to the `ViewModel`:
 
- <snippet id='listview-features-commands-viewmodel'/>
+<snippet id='listview-features-commands-viewmodel'/>
 
-1. Bind the `ItemTapCommand` through the predefined `ListViewUserCommand` command. Its `Id` property is used to map the command to the corresponding action with the control:
+**2.** Bind the `ItemTapCommand` through the predefined `ListViewUserCommand` command. Its `Id` property is used to map the command to the corresponding action with the control:
 
- <snippet id='listview-commands-listviewusercommand-xaml'/>
+<snippet id='listview-commands-listviewusercommand-xaml'/>
 
 ## See Also
 

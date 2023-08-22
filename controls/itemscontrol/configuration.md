@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ItemsControl Documentation - Configuration
-description: "Set the items of the Telerik UI for .NET MAUI ItemsControl and populate them with data."
+description: Learn how to set the items of the Telerik UI for .NET MAUI ItemsControl and populate them with data.
 position: 2
 tags: .net maui, telerik .net maui, ui for .net maui, microsoft .net maui
 slug: itemscontrol-configuration
@@ -70,7 +70,7 @@ public class ViewModel
 
 The following image shows the end result.
 
-![ItemsControl ItemsSource](images/itemscontrol-itemssource.png)
+![ItemsControl Items Source](images/itemscontrol-itemssource.png)
 
 ## Customizing the Appearance
 

@@ -2,7 +2,7 @@
 title: Project Templates for VS
 page_title: Telerik Project Templates and Extensions for Visual Studio on Windows
 description: "Learn more about the Telerik extensions and project templates for Visual Studio on Windows supported by Telerik UI for .NET MAUI."
-tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui
+tags: .net maui shell tabs, .net maui shell flyout, .net maui, shell navigation maui, .net maui shell, .net maui shell example
 position: 2
 slug: visualstudio-extensions
 previous_url: /installation/windows/visualstudio-extensions
@@ -21,7 +21,7 @@ The extensions handle the following major points in the development with Telerik
 
 ## Using the Project Templates
 
-Telerik UI for .NET MAUI supports two project template apps. Both of them are installed as part of the [Telerik UI for .NET MSI installation]({%slug maui-getting-started %}). When you finish with the automatic installation, you're ready to utilize them.
+Telerik UI for .NET MAUI supports two project template apps. Both of them are installed as part of the [Telerik .NET MAUI MSI installation]({%slug maui-getting-started %}). When you finish with the automatic installation, you're ready to utilize them.
 
 To start building your Telerik UI for .NET MAUI project with the project templates for VS on Windows:
 
@@ -43,7 +43,7 @@ To start building your Telerik UI for .NET MAUI project with the project templat
 
 1. Depending on your preferences, you can select either of the available options for configuring your Telerik UI for .NET MAUI project.
 
-	* If you select the **Telerik .NET MAUI App** configurable wizard, the **Configure your new project** screen loads. In it, set your project name and location.
+	* The **Telerik .NET MAUI App** configurable wizard, the **Configure your new project** screen loads. In it, set your project name and location.
 
 	![Telerik .NET MAUI App configurable wizard initial screen within the Create your new project dialog](images/vsextensions_configureapp.png)
 
@@ -51,9 +51,9 @@ To start building your Telerik UI for .NET MAUI project with the project templat
 
 	![Create new project dialog in the wizard with a blank Telerik UI for .NET MAUI app](images/new-project-wizard-selection.png)
 
-	* If you select the **Telerik .NET MAUI Blank App** option, you can start configuring the created blank application.
+	* The **Telerik .NET MAUI Blank App** option, creates blank application.
 
-	* If you select the **Telerik .NET MAUI Blank Shell App** option, you can start configuring the created blank shell application.
+	* The **Telerik .NET MAUI Blank Shell App** option, creates a blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use the features like Shell Navigation, .NET MAUI Shell flyout and .NET MAUI Shell tabs. For more details on .NET MAUI Shell review the official [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
 
 1. Visual Studio opens the solution directly configured to use the Telerik UI for .NET MAUI controls and the `Telerik.UI.for.Maui` NuGet package is installed.
 

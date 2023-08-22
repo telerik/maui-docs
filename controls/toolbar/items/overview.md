@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Toolbar Documentation - Overview
-description: "Review the Toolbar item for .NET MAUI"
+description: Review the Toolbar items available in the Telerik UI for .NET MAUI ToolbarItem control.
 position: 0
 slug: toolbar-items
 ---
@@ -10,11 +10,11 @@ slug: toolbar-items
 
 ![Toolbar Visual Structure](../images/toolbar-visual-structure.png "Visual elements of Toolbar")
 
-Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available items are described in the table below: 
+The Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available items are described in the table below: 
 
 | Toolbar Item | Description |
 | ------------ | ------- |
-| `ToolbarItem` | Represents a toolbar item in the Toolbar control. All toobar items listed below inherits from `ToolbarItem` |
+| `ToolbarItem` | Represents a toolbar item in the Toolbar control. All toolbar items listed below inherits from `ToolbarItem` |
 | `ButtonToolbarItem` | Represents a button in the Toolbar control. |
 | `DropDownButtonToolbarItem` | Represents a button displaying a drop-down panel in the Toolbar control. |
 | `DropDownMenuButtonToolbarItem` | Represents a button displaying a drop-down menu in the Toolbar control. |
@@ -41,7 +41,7 @@ All toolbar items inherits from `ToolbarItem`. The available properties ToolbarI
 
 For example the target type for `ButtonToolbarItem` `Style` is `ButtonToolbarItemView`.
 
-* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template applied to the toolbar item. Each toolbar item has a corresponding ToolbarItemView. And this is the target type of the ControlTemplate.
+* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template applied to the toolbar item. Each toolbar item has a corresponding ToolbarItemView. And this is the target type of the `ControlTemplate`.
 
 * `PlacementOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemPlacementOptions`)&mdash;Defines the allowed placement options of the toolbar item in the toolbar. This type supports a bitwise combination of its members to enable more than one option. The available options are:
 	* `ToolStrip`&mdash;The toolbar item appears in the main tool strip area of the toolbar.

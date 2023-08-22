@@ -34,7 +34,7 @@ The table below shows all commands in the DataGrid control and for each of the a
 | Unknown | `DataGridColumn` |
 | `ColumnHeaderTap`  | `DataGridTextColumn` |
 | `GroupHeaderTap`      | `GroupHeaderContext` |
-| `OptionsTap`      | `OptionsTapContext` |
+| `GroupHeaderButtonTap`      | `GroupHeaderContext` |
 | `CellTap` | `DataGridCellInfo` |
 | `CellDoubleTap` | `DataGridCellInfo` |
 | `GenerateColumn` | `GenerateColumnContext` |
@@ -44,6 +44,12 @@ The table below shows all commands in the DataGrid control and for each of the a
 | `CommitEdit` | `EditContext` |
 | `ValidateCell` | `ValidateCellContext` |
 | `LoadMoreData` | `LoadOnDemandContext` |
+| `FilterTap` | `FilterTapContext` |
+| `ApplyFilter` | `FilterTapContext` |
+| `CloseFilter` | `FilterTapContext` |
+| `ResetFilter` | `FilterTapContext` |
+| `KeyDown` | `KeyboardInfo` |
+| `ToggleRowDetailsButtonTap` | the `type` is the data model |
 
 ## See Also
 
