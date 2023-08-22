@@ -1,7 +1,7 @@
 ---
 title: Indicators
 page_title: .NET MAUI Gauge Documentation - Indicators
-description: "Render a Needle, Shape, Bar, Range Bar, or Text indicators in the Telerik Gauge for .NET MAUI control and customize their behavior by using the exposed properties."
+description: Learn how to render a Needle, Shape, Bar, Range Bar, or Text indicators in the Telerik Gauge for .NET MAUI control and customize their behavior by using the exposed properties.
 position: 5
 previous_url: /controls/gauge/gauge-indicators
 slug: gauge-indicators
@@ -13,7 +13,7 @@ The Gauge indicators are elements that display data-related values in a differen
 
 ## Needle Indicator
 
-The `GaugeNeedleIndicator` is part of the Radial Gauge. It presents a single value set by the `Value` property. The needle is intended to be visually similar to an actual gauge needle. The center of rotation of the needle coincides with the center of the gauge and is directed towards where the value on the gauge axis is. How far the tip of the needle gets is determined by its `Position` and `Offset` properties.
+The `GaugeNeedleIndicator` is part of the Radial Gauge. It presents a single value set by the `Value` property. The needle is intended to be visually similar to a valid gauge needle. The center of rotation of the needle coincides with the center of the gauge and is directed towards where the value on the gauge axis is. How the tip of the needle changes position is determined by its `Position` and `Offset` properties.
 
 ![Gauge Indicators](images/gauge-needle-indicator.png)
 
@@ -27,7 +27,7 @@ When the shape geometry is set, the gauge expects the following conditions to be
 - The rotation pivot point is (0.5, 0.5).
 - The needle orientation is from (0.5, 0.5) to (1, 0.5).
 
-When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. It is then rotated so that the needle points at the value.
+When the gauge draws the needle, the geometry is scaled to the size in which it will be displayed. This size is a result of the diameter of the axis arc, and the needle position and offset. Then, it is rotated so that the needle points at the value.
 
 In the following example, the angle of rotation is 45 degrees and, in this case, coincides with the needle value.
 
@@ -68,7 +68,7 @@ The `GaugeShapeIndicator` supports the following properties:
 * `Value`&mdash;Defines a single value of the shape indicator.
 * `Size`&mdash;Defines the size of the shape indicator.
 
-The shape indicator is essentially a square box and is drawn so that its center coincides with the point defined by the `Position` and `Offset` properties. The shape is rotated around its center so that the default arrow shape always points towards the axis line.
+The shape indicator is a square box and is drawn so that its center coincides with the point defined by the `Position` and `Offset` properties. The shape is rotated around its center so that the default arrow shape always points towards the axis line.
 
 ![Gauge shape indicator](images/gauge-shape-indicator.png)
 
@@ -82,7 +82,7 @@ When the shape geometry is set, the gauge expects that these conditions are met:
 - The rotation pivot point is (0.5, 0.5).
 - The shape orientation is from (1, 0.5) to (0.5, 0.5).
 
-When the gauge draws the shape, the geometry is scaled to the size in which it will be displayed. Then it is moved to the point defined by the `Position` and `Offset` properties. It is then rotated so that the shape points at the axis line. In the example below, the indicator value is 3.5 and the angle of rotation is 35 degrees.
+When the gauge draws the shape, the geometry is scaled to the size in which it will be displayed. Then is moved to the point defined by the `Position` and `Offset` properties. Then  it is rotated so that the shape points at the axis line. In the example below, the indicator value is 3.5 and the angle of rotation is 35 degrees.
 
 ![Gauge shape indicator customization](images/gauge-shape-indicator-gif.gif)
 

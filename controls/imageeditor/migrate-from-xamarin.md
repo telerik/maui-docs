@@ -1,14 +1,14 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the ImageEditor from Xamarin.Forms to .NET MAUI
-description: "Learn how to migrate the Telerik UI for Xamarin ImageEditor to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+description: Learn how to migrate the Telerik UI for Xamarin ImageEditor to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
 position: 20
 slug: imageeditor-migrate-from-xamarin
 ---
 
 # Migrating the ImageEditor from Xamarin to .NET MAUI
 
-Overall, Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin.Forms ImageEditor with a few changes and improvements listed in the tables below:
+Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin.Forms ImageEditor with a few changes and improvements listed in the tables below:
 
 ## Migrating the Namespaces
 

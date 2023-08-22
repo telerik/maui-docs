@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI ImageEditor Documentation - Toolbar Styling
-description: "Review all styling oprions that can be applied to the ImageEditor toolbar for .NET MAUI."
+description: Review all styling oprions that can be applied to the ImageEditor toolbar for .NET MAUI.
 position: 3
 slug: imageeditor-toolbar-styling
 ---
@@ -10,7 +10,7 @@ slug: imageeditor-toolbar-styling
 
 You can style the Toolbar using the Flexible Styling API.
 
-## Style the toolbar
+## Style the Toolbar
 
 Style the Toolbar using the following properties:
 
@@ -18,9 +18,9 @@ Style the Toolbar using the following properties:
 * `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Specifies the color of the border around the toolbar.
 * `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Specifies the thickness of the border around the toolbar.
 * `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Specifies the corner radius of the border around the toolbar.
-* `Style`(of type `Microsoft.Maui.Controls.Style`, with targe type `Telerik.Maui.Controls.ToolbarContentView`)&mdash;Specifies the style of the toolbar. 
+* `Style`(of type `Microsoft.Maui.Controls.Style`, with target type `Telerik.Maui.Controls.ToolbarContentView`)&mdash;Specifies the style of the toolbar. 
 
-## Style the toolbar elements
+## Style the Toolbar Elements
 
 * `OverflowMenuButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the Style applied to the overflow menu button in the toolbar. 
 * `BackNavigationButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the Style applied to the back navigation button in the toolbar. 
@@ -29,7 +29,7 @@ Style the Toolbar using the following properties:
 
 ## Style the Toolbar Items
 
-Each toolbar item has a `Style` property and the target type of the oproperty is the corresponding `ToolbarItemView`:
+Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
 
 | Toolbar Item | Style Target type |
 | ------------ | ------- |

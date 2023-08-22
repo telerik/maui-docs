@@ -1,26 +1,26 @@
 ---
 title: Zooming
 page_title: .NET MAUI ImageEditor Documentation - Zooming
-description: "Review how to set the zoom level of the images in .NET MAUI ImageEditor control."
+description: Learn how to set the zoom level of the images in .NET MAUI ImageEditor control.
 position: 6
 slug: imageeditor-zooming-image
 ---
 
 # .NET MAUI ImageEditor Zooming
 
-This article explains what are the zooming options you can apply to the image in the ImagfeEditor. The properties related to the zooming are:
+This article explains what are the zooming options you can apply to the image in the ImageEditor. The properties related to the zooming are:
 
 * `ZoomLevel`(`double`)&mdash;Specifies the current zoom level of the viewed image. The default value is 1. A zoom level of 1 means the image is displayed with its original size. 
 
 In addition, you can restrict the zooming by applying min and max zoom: 
 
-* `MinZoomLevel`(`double`)&mdash;Specifies the minimum allowed zoom level of the image. The default value is 0.01. Setting the ZoomLevel property is coerced between MinZoomLevel and MaxZoomLevel.
-* `MaxZoomLevel`(`double`)&mdash;Specifies the maximum allowed zoom level of the image. The default value is 10.0. Setting the ZoomLevel property is coerced between MinZoomLevel and MaxZoomLevel.
+* `MinZoomLevel`(`double`)&mdash;Specifies the minimum allowed zoom level of the image. The default value is 0.01. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
+* `MaxZoomLevel`(`double`)&mdash;Specifies the maximum allowed zoom level of the image. The default value is 10.0. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
 
 
 **Example with Min and Max Zoom levels**
 
-RadImageEditor definition:
+`RadImageEditor` definition:
 
 <snippet id='imageeditor-zoom-level'/>
 
