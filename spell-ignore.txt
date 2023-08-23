@@ -79,3 +79,14 @@ ItemsControl
 Uncheck
 unchecking
 sdkbrowser
+MaskedEntry
+NumericMaskedEntry
+TextMaskedEntry
+RegexMaskedEntry
+MaskedInput
+IPMaskedEntry
+EmailMaskedEntry
+IncludePromptAndLiterals
+IncludeLiterals
+IncludePrompt
+ExcludePromptAndLiterals
