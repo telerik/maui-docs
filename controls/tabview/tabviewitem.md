@@ -11,12 +11,12 @@ position: 6
 
 `TabViewItem` is the control used to populate the TabView. It displays the header of the tab item and the corresponding content. `TabViewItem` exposes the following properties:
 
-* `HeaderText`(`string`)&mdash;Defines a simple text for the TabView item.
-* `ImageSource`(`ImageSource`)&mdash;Specifies the source of the image icon in the header item.
-* `IsSelected`&mdash;Indicated whether the item is selected.
-* `IsEnabled`&mdash;Defines whether the TabView Item is enabled/disabled. By default `IsEnabled` is `True`.
-* `IsVisible`&mdash;Specifies whether the TabView Item is visible/hidden. 
-* `Content`(`Microsoft.Maui.Controls.View`)&mdash;Defines the content of the TabView Item.
+* `HeaderText` (`string`)&mdash;Defines a simple text for the TabView item.
+* `ImageSource` (`ImageSource`)&mdash;Specifies the source of the image icon in the header item.
+* `IsSelected` (`bool`)&mdash;Indicated whether the item is selected.
+* `IsEnabled` (`bool`)&mdash;Defines whether the TabView Item is enabled/disabled. By default `IsEnabled` is `True`.
+* `IsVisible` (`bool`)&mdash;Specifies whether the TabView Item is visible/hidden. 
+* `Content` (`Microsoft.Maui.Controls.View`)&mdash;Defines the content of the TabView Item.
 
 ## Displaying TabViewItem
 
