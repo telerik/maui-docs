@@ -1,8 +1,8 @@
 ---
-title: Override the behavior of the Clear button in editable ComboBox.
-description: Override the behavior of the Clear button in editable ComboBox by using the ClearSelection command.
+title: Bind custom Clear Selection command to editable ComboBox.
+description: Override the behavior of the Clear Selection Command in editable ComboBox by using the custom command.
 type: how-to
-page_title: Override the behavior of the Clear button.
+page_title: Bind custom Clear Selection command to editable ComboBox
 slug: combobox-clear-selection-command
 position: 
 tags: command, combobox, clear, button, editable 
@@ -27,11 +27,11 @@ res_type: kb
 
 ## Description
 
-This article shows how to override the behavior of the Clear button in the editable ComboBox control. When the user starts to type into an editable ComboBox, and they click the Clear button before they've selected another item, the command allows to revert their text to what was in there before they started typing and keep the previously selected item selected, instead of clearing the text and selected item.
+This article shows how to override the behavior of the clear button in the editable ComboBox control. When the user starts to type into an editable ComboBox, and they click the clear button before they've selected another item, the command allows to revert their text to what was in there before they started typing and keep the previously selected item selected, instead of clearing the text and selected item.
 
 ## Solution
 
-Here is an example how to execute custom `ClearSelectionCommand` command in the Clear button of the ComboBox control.
+Here is an example how to execute custom `ClearSelectionCommand` command in the clear button of the ComboBox control.
 
 1. Define ComboBox control in XAML:
 
@@ -62,7 +62,7 @@ public class City
 }
 ```
 
-4. Define the ViewModel:
+4. Define the ViewModel and create the custom command:
 
 ```C#
 public class ViewModel : NotifyPropertyChangedBase
