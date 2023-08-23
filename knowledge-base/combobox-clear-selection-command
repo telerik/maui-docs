@@ -1,0 +1,149 @@
+---
+title: Override the behavior of the Clear button in editable ComboBox.
+description: Override the behavior of the Clear button in editable ComboBox by using the ClearSelection command.
+type: how-to
+page_title: Override the behavior of the Clear button.
+slug: combobox-clear-selection-command
+position: 
+tags: command, combobox, clear, button, editable 
+ticketid: 1616145
+res_type: kb
+---
+
+## Environment
+<table>
+    <tbody>
+        <tr>
+            <td>Product Version</td>
+            <td>6.1.0</td>
+        </tr>
+        <tr>
+            <td>Product</td>
+            <td>ComboBox for MAUI</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Description
+
+This article shows how to override the behavior of the Clear button in the editable ComboBox control. When the user starts to type into an editable ComboBox, and they click the Clear button before they've selected another item, the command allows to revert their text to what was in there before they started typing and keep the previously selected item selected, instead of clearing the text and selected item.
+
+## Solution
+
+Here is an example how to execute custom `ClearSelectionCommand` command in the Clear button of the ComboBox control.
+
+1. Define ComboBox control in XAML:
+
+```XAML
+ <telerik:RadComboBox x:Name="comboBox"
+                             IsEditable="True"
+                             Text="{Binding MyText , Mode=TwoWay}"
+                             ItemsSource="{Binding Items}"
+                             DisplayMemberPath="Name"
+                             ClearSelectionCommand="{Binding MyCustomCommand}"
+                             SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                             SelectionMode="Single">
+        </telerik:RadComboBox>
+```
+
+2. Add the following namespace:
+
+```XAML 
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+3. Define the business model:
+
+```C#
+public class City
+{
+    public string Name { get; set; }
+}
+```
+
+4. Define the ViewModel:
+
+```C#
+public class ViewModel : NotifyPropertyChangedBase
+{
+    private City selectedItem;
+    public ViewModel()
+    {
+        this.Items = new ObservableCollection<City>
+        {
+            new City { Name = "Tokyo"},
+            new City { Name = "New York"},
+            new City { Name = "London"},
+            new City { Name = "Madrid"},
+            new City { Name = "Los Angeles"},
+            new City { Name = "Paris"},
+            new City { Name = "Beijing"},
+            new City { Name = "Singapore"},
+            new City { Name = "New Delhi"},
+            new City { Name = "Bangkok"},
+            new City { Name = "Berlin"},
+        };
+         
+        this.MyCustomCommand = new Command(()=> this.MyText = this.SelectedItem.Name);
+    }
+
+    public ObservableCollection<City> Items { get; set; }
+
+    public City SelectedItem
+    {
+        get
+        {
+            return this.selectedItem;
+        }
+        set
+        {
+            if (this.selectedItem != value)
+            {
+                this.selectedItem = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    private ICommand myCustomCommand;
+
+    public ICommand MyCustomCommand
+    {
+        get
+        {
+            return this.myCustomCommand;
+        }
+        set
+        {
+            if (this.myCustomCommand != value)
+            {
+                this.myCustomCommand = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    private string myText;
+
+    public string MyText
+    {
+        get
+        {
+            return this.myText;
+        }
+        set
+        {
+            if (this.myText != value)
+            {
+                this.myText = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+}
+```
+
+The following `.gif` file represents the result from the code snippet:
+
+![.NET MAUI ComboBox Clear Button with command](images/combobox-clear-selection.gif)
