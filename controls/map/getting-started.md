@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: NET MAUI Map Documentation - Getting Started
-description: Check our &quot;Getting Started&quot; documentation article for Telerik Map for .NET MAUI control.
+description: Get started with the Telerik UI for .NET MAUI Map and add the control to your .NET MAUI project.
 position: 1
 slug: map-getting-started
 ---
@@ -10,7 +10,7 @@ slug: map-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Map by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![Map Getting Started](images/map_getting_started.png)
 
@@ -39,13 +39,13 @@ Before adding the Map, you need to:
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. RadMap uses *.shp files that contain the coordinates of the shapes that will be drawn by the map and an optional *.dbf file for each *.shp file with additional attributes of the shapes.
+1. `RadMap` uses `.shp` files that contain the coordinates of the shapes that will be drawn by the map and an optional `.dbf` file for each `.shp` file with additional attributes of the shapes.
 
- You would need to assign the .shp file containing the data through the **Source** property of the MapShapeReader like this:
+ You need to assign the `.shp` file containing the data through the `Source` property of the `MapShapeReader` like this:
 
  <snippet id='map-gettingstarted-setting-source' />
 
->note In the example the .shp file is loaded as an EmbeddedResource, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
+>note In the example the `.shp` file is loaded as an `EmbeddedResource`, other options can be used as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
 ## Additional Resources
 
