@@ -37,14 +37,14 @@ Here is an example how to execute custom `ClearSelectionCommand` command in the 
 
 ```XAML
  <telerik:RadComboBox x:Name="comboBox"
-                             IsEditable="True"
-                             Text="{Binding MyText , Mode=TwoWay}"
-                             ItemsSource="{Binding Items}"
-                             DisplayMemberPath="Name"
-                             ClearSelectionCommand="{Binding MyCustomCommand}"
-                             SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
-                             SelectionMode="Single">
-        </telerik:RadComboBox>
+                      IsEditable="True"
+                      Text="{Binding MyText , Mode=TwoWay}"
+                      ItemsSource="{Binding Items}"
+                      DisplayMemberPath="Name"
+                      ClearSelectionCommand="{Binding MyCustomCommand}"
+                      SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                      SelectionMode="Single">
+</telerik:RadComboBox>
 ```
 
 2. Add the following namespace:
