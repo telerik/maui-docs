@@ -10,7 +10,7 @@ tags: group, radlistview, groupdescriptor
 
 # .NET MAUI ListView Grouping
 
-The ListView provides you with the functionality to programmatically group its data at runtime. This can be achieved through adding groupdescriptors to the `RadListView.GroupDescriptors` collection.
+The ListView provides you with the functionality to programmatically group its data at runtime. This can be achieved through adding group descriptors to the `RadListView.GroupDescriptors` collection.
 
 * `PropertyGroupDescriptor`
 * `DelegateGroupDescriptor`
@@ -21,15 +21,15 @@ You can group the data by a property value from the class that defines your item
 
 ## DelegateGroupDescriptor
 
-This descriptor enables you to group by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. For more details go to [Delegate Group Descriptor]({%slug listview-delegate-group-descriptor%}) article.
+This descriptor enables you to group by a custom key(for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. For more details go to [Delegate Group Descriptor]({%slug listview-delegate-group-descriptor%}) article.
 
 ## Custom Group Header Template
 
-Create custom `GroupHeaderTemplate` in order to achieve the desired look when grouping the ListView. For more details, refer to the [Group Header Template]({%slug listview-customize-group-header%}) article.
+Create custom `GroupHeaderTemplate` to achieve the desired look when grouping the ListView. For more details, refer to the [Group Header Template]({%slug listview-customize-group-header%}) article.
 
 ## Sticky Group Headers
 
-The ListView provides the option to set its group headers as sticky. This means the GroupHeader will "freeze" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
+The ListView provides the option to set its group headers as sticky. This means the `GroupHeader` will "freeze" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
 
 For more information on how to enable the Sticky Group Header feature, refer to the [Sticky Group Headers]({%slug listview-sticky-group-header%}) article.
 

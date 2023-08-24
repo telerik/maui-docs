@@ -10,7 +10,7 @@ tags: group, radlistview, groupdescriptor, multilevel
 
 # .NET MAUI ListView Multi-Level Grouping
 
-This article provides an overview on how you could enable multi-level grouping in the ListView.
+This article provides an overview on how you can enable multi-level grouping in the ListView.
 
 >note Before proceeding, go through the [Grouping Overview]({%slug listview-features-grouping%}) topic.
 
@@ -42,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![ListView Multi-Level Grouping](../images/listview_grouping_multilevel.png)
+![.NET MAUI ListView Multi-Level Grouping](../images/listview_grouping_multilevel.png)
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Layouts
 page_title: .NET MAUI ListView Documentation - Layouts
-description: Check our &quot;Layouts&quot; documentation article for Telerik ListView for .NET MAUI control.
+description: Learn more about the suppoerted layouts in the Telerik UI for .NET MAUI ListView control.
 position: 11
 previous_url: /controls/listview/listview-features-layouts
 slug: listview-features-layouts
@@ -41,7 +41,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result:
 
-![ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
+![.NET MAUI ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
 
 ## Grid Layout
 
@@ -61,12 +61,12 @@ The following example demonstrates how to use the `RadListViewGridLayout`.
 
 The following image shows the result:
 
-![ListView Layouts Grid](images/listview-layouts-grid.png)
+![.NET MAUI ListView Layouts Grid](images/listview-layouts-grid.png)
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})
 - [Reorder Items]({% slug listview-features-reorder-items %})

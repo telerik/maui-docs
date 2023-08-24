@@ -1,7 +1,7 @@
 ---
 title: Regex Mask
 page_title: .NET MAUI MaskedEntry Documentation - Regex Mask
-description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as regex."
+description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as regex.
 position: 4
 slug: maskedentry-regex-mask
 ---
@@ -28,7 +28,7 @@ The following example demonstrates how to set the `RadRegexMaskedEntry`:
 
 The image below shows the end result.
 
-![RadRegexMaskedEntry](../images/maskedentry_regex.png)
+![.NET MAUI RegexMaskedEntry](../images/maskedentry_regex.png)
 
 > For the MaskedEntry Regex Mask examples, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Mask Types category.
 

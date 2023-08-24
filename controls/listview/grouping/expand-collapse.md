@@ -18,7 +18,7 @@ This help topic will provide an overview of the methods and commands used to con
 
 ## Get the Grouped ListView Items
 
-To manipulate the collapsible ListView groups, first you will need to call its `GetDataView` method. In short, GetDataView method provides a view of the ItemsSource after all the Sort, Group and Filter operations are applied. The return type is `IDataViewCollection` which exposes the expand and collapse methods described in the following sections.
+To manipulate the collapsible ListView groups, first you will need to call its `GetDataView` method. In short, `GetDataView` method provides a view of the Items Source after all the Sort, Group and Filter operations are applied. The return type is `IDataViewCollection` which exposes the expand and collapse methods described in the following sections.
 
 ```C#
 var dataView = this.listView.GetDataView();
@@ -69,7 +69,7 @@ The `GroupHeaderTap` command is raised when a group header of a grouped ListView
 
 By handling the `GroupHeaderTap` command, you can control the collapse/expand behavior of a certain group. The next example shows how to prevent the first-level groups from hiding their items.
 
->tip For more information on using the ListVew commands, refer to the [Commands]({%slug listview-features-commands%}) topic.
+>tip For more information on using the ListView commands, refer to the [Commands]({%slug listview-features-commands%}) topic.
 
 First, let’s define the `GroupHeaderTapCommand` class that derives from `ListViewCommand`:
 

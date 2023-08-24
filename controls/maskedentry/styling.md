@@ -17,8 +17,8 @@ The `MaskedEntryBase` class exposes the following properties, which are valid fo
 * `EntryBackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the MaskedEntry.
 * `BackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the masked control.
 * `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button.
-* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when it is hovered. The color appears only on desktop.
-* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when it is clicked.
+* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when is hovered. The color appears only on desktop.
+* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the **Clear** button when is clicked.
 
 The following example demonstrates how to style the `EmailMaskedEntry`. Define the control in XAML:
 
@@ -31,17 +31,17 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 ```
 
 
-**ClearButtonColor**
+* `ClearButtonColor`
 
-![MaskedEntry ClearButton Color](images/maskedentry-clear-button-color.png)
+![.NET MAUI MaskedEntry Clear Button Color](images/maskedentry-clear-button-color.png)
 
-**PressedClearButtonColor**
+* `PressedClearButtonColor`
 
-![MaskedEntry Pressed ClearButton Color](images/maskedentry-pressed-clear-button-color.png)
+![.NET MAUI MaskedEntry Pressed Clear Button Color](images/maskedentry-pressed-clear-button-color.png)
 
-**HoveredClearButtonColor**
+* `HoveredClearButtonColor`
 
-![MaskedEntry Hovered ClearButton Color](images/maskedentry-hovered-clear-button-color.png)
+![.NET MAUI MaskedEntry Hovered Clear Button Color](images/maskedentry-hovered-clear-button-color.png)
 
 > For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
 

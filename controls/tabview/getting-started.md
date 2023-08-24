@@ -26,21 +26,21 @@ Before adding the TabView, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a TabView control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a TabView control to your page.
 
- To display something in the tab you can define `TabViewItem` elements in its `Items` collection.
+* To display something in the tab you can define `TabViewItem` elements in its `Items` collection.
 
- To define the header of a `TabViewItem` you can use its `HeaderText` property as in the example.
+* To define the header of a `TabViewItem` use its `HeaderText` property as in the example.
 
- <snippet id='tabview-getting-started-xaml'/>
- 
-1. Add the following namespaces:
+<snippet id='tabview-getting-started-xaml'/>
 
- ```XAML
+**2.** Add the following namespaces:
+
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;

@@ -1,7 +1,7 @@
 ---
 title: Header and Footer
 page_title: .NET MAUI ListView Documentation - Header and Footer
-description: Check our &quot;Header and Footer&quot; documentation article for Telerik ListView for .NET MAUI
+description: Learn more about header and footer templates for the Telerik UI for .NET MAUI ListView control.
 position: 8
 previous_url: /controls/listview/listview-features-header-footer
 slug: listview-features-header-footer
@@ -22,11 +22,11 @@ The following example shows how to add a Header and a Footer to the ListView con
 
 1. Add the following sample `DataTemplates` to the resources of the page that will be used as:
 
-  **Define the HeaderTemplate**
+* Example how to define the Header Template
 
  <snippet id='listview-features-header-template-xaml'/>
 
- **Define the FooterTemplate**
+ * Example how to define the Footer Template
 
  <snippet id='listview-features-footer-template-xaml'/>
 
@@ -36,11 +36,11 @@ The following example shows how to add a Header and a Footer to the ListView con
 
 The following image shows how the ListView Header looks.
 
-![ListView Header Template](images/listview-features-header-template.png "[RadListView Footer Template")
+![.NET MAUI ListView Header Template](images/listview-features-header-template.png "[RadListView Footer Template")
 
 The following image shows how the ListView Footer looks.
 
-![ListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
+![.NET MAUI ListView Footer Template](images/listview-features-footer-template.png "[RadListView Footer Template")
 
 >important For a sample Header and Footer example, refer to the **SDKBrowser MAUI application**.
 
