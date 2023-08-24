@@ -27,7 +27,9 @@ res_type: kb
 
 ## Description
 
-This article shows how to override the behavior of the clear button in the editable ComboBox control. When the user starts to type into an editable ComboBox, and they click the clear button before they've selected another item, the command allows to revert their text to what was in there before they started typing and keep the previously selected item selected, instead of clearing the text and selected item.
+How can I override the behavior of the clear button in the editable ComboBox control?
+
+I want to achieve the following: When the user starts typing into an editable ComboBox and clicks the clear button before they've selected another item, the clear button must revert their text to what was in there before they started typing and keep the previously selected item selected, instead of clearing the text and selected item.
 
 ## Solution
 
