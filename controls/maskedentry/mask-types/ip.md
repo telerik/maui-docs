@@ -1,7 +1,7 @@
 ---
 title: IP Mask
 page_title: .NET MAUI MaskedEntry Documentation - IP Mask
-description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as ip.
+description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as IP.
 position: 5
 slug: maskedentry-ip-mask
 ---
