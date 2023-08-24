@@ -39,7 +39,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Running the sample will lead to the following appearance of the control:
 
-![ListView ItemTemplateSelector](../images/listview-itemtemplateselector.png)
+![.NET MAUI ListView ItemTemplateSelector](../images/listview-itemtemplateselector.png)
 
 ## See Also
 
