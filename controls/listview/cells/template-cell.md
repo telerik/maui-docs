@@ -15,7 +15,7 @@ The `ListViewTemplateCell` derives from `Microsoft.Maui.Controls.ViewCell` and u
 
 The example below demonstrates how to create a ListView with templated cells, like this:
 
-![ListView Template Cell](../images/listview-celltypes-templatecell.png)
+![.NET MAUI ListView Template Cell](../images/listview-celltypes-templatecell.png)
 
 1. Create a view model that will be the source of the ListView:
 
