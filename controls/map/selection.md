@@ -40,7 +40,7 @@ Check below how `RadMap` with a few selected shapes will look like:
 
 ![.NET MAUI Map Multiple Selection](images/map_multiple_selection.png)
 
-## Example with programmatically shape selection
+## Example with Programmatical Shape Selection
 
 The snippet below demonstrates how you can select a shape programmatically. In the example the used ESRI file contains the world map, so the shape that is selected is a country. The example uses the `Shapes` property of the Map to traverse through all the available shapes.
 
