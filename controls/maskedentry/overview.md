@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI MaskedEntry Documentation - Overview
-description: "Try now the Telerik MaskedEntry for .NET MAUI formatting and restricting text to predefined patterns, and providing input validation and masks."
+description: Try now the Telerik UI for .NET MAUI MaskedEntry formatting and learn how to restrict the accepted text based on predefined patterns with the help of input validation and masks.
 position: 0
 previous_url: /controls/maskedentry/maskedentry-overview
 slug: maskedentry-overview
@@ -9,9 +9,9 @@ slug: maskedentry-overview
 
 # .NET MAUI MaskedEntry Overview
 
-**Telerik UI for .NET MAUI MaskedEntry** formats and restricts text inputs to predefined or defined patterns, and provides input validation and masks, such as text, Regex, IP, email, and numeric.
+Telerik UI for .NET MAUI MaskedEntry formats and restricts text inputs to predefined or defined patterns, and provides input validation and masks, such as text, Regex, IP, email, and numeric.
 
-![MaskedEntry Overview](images/maskedentry-overview.png)
+![.NET MAUI MaskedEntry Overview](images/maskedentry-overview.png)
 
 ## Key Features
 
@@ -21,7 +21,7 @@ slug: maskedentry-overview
 
 * [Null Values support]({%slug maskedentry-value%}#null-value-support)&mdash;The MaskedEntry provides support for null values.
 
-* [Validation UI]({%slug maskedentry-validation%})&mdash;If the user is entering a value not matching the mask requirements, the MaskedEntry will display an error message, which you can easily customize.
+* [Validation UI]({%slug maskedentry-validation%})&mdash;If the user is entering a value not matching the mask requirements, the MaskedEntry will display an error message, which you can customize.
 
 * [Prompt Character]({%slug maskedentry-prompt-character%})&mdash;The MaskedEntry enables you to display a prompt character for any mask position which is not yet filled in by the user.
 
@@ -31,11 +31,11 @@ slug: maskedentry-overview
 
 * Option to define different [keyboard type]({%slug maskedentry-keyboard%}) on specific MaskedEntry.
 
-* [flexible Stying API]({%slug maskedentry-styling%})for changing the clear button color, background color of the input and background color of the control.
+* [flexible Styling API]({%slug maskedentry-styling%})for changing the clear button color, background color of the input and background color of the control.
 
-* [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works with respect to the target device culture.
+* [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works about the target device culture.
 
-* [Localization support]({%slug maskedentry-localization%})&mdash;Translate the text displayed as a validation error message to other languages when the device culute is changed.
+* [Localization support]({%slug maskedentry-localization%})&mdash;Translate the text displayed as a validation error message to other languages when the device culture is changed.
 
 ## Next Steps
 

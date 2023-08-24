@@ -1,7 +1,7 @@
 ---
 title: Prompt Character
 page_title: .NET MAUI MaskedEntry Documentation - Prompt Character
-description: "Implement prompt characters for the mask positions which have not yet been filled in by the user in the Telerik UI for .NET MAUI MaskedEntry."
+description: Implement prompt characters for the mask positions which have not yet been filled in by the user in the Telerik UI for .NET MAUI MaskedEntry.
 position: 6
 slug: maskedentry-prompt-character
 ---
@@ -10,11 +10,11 @@ slug: maskedentry-prompt-character
 
 The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symbol (char) for any mask position that the user has not filled in yet. The default `PromptChar` value is `_` (underscore).
 
-**Setting the IPMaskedEntry**
+* Setting the IPMaskedEntry
 
 <snippet id='ipmaskedentry-xaml' />
 
-**Setting the TextMaskedEntry**
+* Setting the TextMaskedEntry
 
 <snippet id='textmaskedentry-mask-xaml' />
 
@@ -22,11 +22,11 @@ The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symb
 
 To change the default prompt character, set the `PromptChar`(`char`) property.
 
-**IPMaskedEntry with PromptChar="#"**
+* IPMaskedEntry with `PromptChar="#"`
 
 <snippet id='ipmaskedentry-promptchar-xaml' />
 
-**TextMaskedEntry with PromptChar=" "**
+* TextMaskedEntry with `PromptChar=" "`
 
 <snippet id='textmaskedentry-numbers-xaml' />
 
