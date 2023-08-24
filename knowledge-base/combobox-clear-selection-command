@@ -31,7 +31,7 @@ This article shows how to override the behavior of the clear button in the edita
 
 ## Solution
 
-Here is an example how to execute custom `ClearSelectionCommand` command in the clear button of the ComboBox control.
+To override the default behavior of the clear button, use a custom `ClearSelectionCommand` command:
 
 1. Define the ComboBox control in XAML:
 
