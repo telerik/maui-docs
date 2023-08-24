@@ -36,19 +36,19 @@ Using the `ShapeStyleSelector` property of the `ShapefileLayer` you can implemen
 
 The example below shows how to apply different styles to shapes according to certain property value of each shape.
 
-1. First, create the selector class which inherit from `MapShapeStyleSelector`:
+**1.** First, create the selector class which inherit from `MapShapeStyleSelector`:
 
- <snippet id='map-shapesstyleselector-code' />
+<snippet id='map-shapesstyleselector-code' />
 
-1. Define the selector with the Styles as a resource inside a `ResourceDictionary`:
+**2.** Define the selector with the Styles as a resource inside a `ResourceDictionary`:
 
- <snippet id='map-styling-shapeslstyleselector-styles' />
+<snippet id='map-styling-shapeslstyleselector-styles' />
 
-1. Add the definition of the `RadMap` control with the `PopulationShapeStyleSelector` applied;
+**3.** Add the definition of the `RadMap` control with the `PopulationShapeStyleSelector` applied;
 
- <snippet id='map-styling-shapeslstyleselector-xaml' />
+<snippet id='map-styling-shapeslstyleselector-xaml' />
 
-1. Add the namespace:
+**4.** Add the namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
