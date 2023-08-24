@@ -14,7 +14,7 @@ Telerik Map for .NET MAUI is a data visualization control whose primary purpose 
 
 ## Key Features
 
-* [Shapefile visualization]({% slug map-layers-overview %})&mdash;The Map can display rich spatial data from ESRI shapefiles. Each shapefile have to be loaded and configured through a `ShapefileLayer` instance added to the Layers collection of the control.
+* [Shapefile visualization]({% slug map-layers-overview %})&mdash;The Map can display rich spatial data from ESRI shapefiles. Each shapefile has to be loaded and configured through a `ShapefileLayer` instance added to the Layers collection of the control.
 
 * [Support for multiple layers]({% slug map-layers-overview %})&mdash;The layered architecture of the control provides the option to load multiple shapefiles, so you can visualize different types of elements on the same map.
 
