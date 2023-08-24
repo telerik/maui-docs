@@ -23,7 +23,7 @@ Here is a quick snippet how `InteractionMode` is applied:
 
 <snippet id='map-interaction-mode-xaml' />
 
-where the Source of the `MapShapeReader` have to be defined as well:
+Define the Source of the `MapShapeReader` as well:
 
 <snippet id='map-interactionmode-settintsource' />
 

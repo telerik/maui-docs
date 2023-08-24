@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Map Getting Started](images/map_getting_started.png)
+![.NET MAUI Map Getting Started](images/map_getting_started.png)
 
 ## Prerequisites
 

@@ -24,9 +24,9 @@ The snippet below shows how `ShapeStyle` property can be applied:
 
 Here is the result:
 
-![Map Shapes Styling](../images/map_styling_shapestyle.png)
+![.NET MAUI Map Shapes Styling](../images/map_styling_shapestyle.png)
 
-where the `Source` and the `DataSource` of the `MapShapeReader` have to be set to a `.shp` and `.dbf` files, respectively:
+Define the `Source` and the `DataSource` of the `MapShapeReader` to a `.shp` and `.dbf` files, respectively:
 
 <snippet id='map-interactionmode-settintsource' />
 
@@ -56,7 +56,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Check the result in the screenshot below:
 
-![.NEt MAUI Map Shape Style Selector](../images/map_styling_shapestyleselector.png)
+![.NET MAUI Map Shape Style Selector](../images/map_styling_shapestyleselector.png)
 
 ## See Also
 
