@@ -95,6 +95,9 @@ ItemsControl
 Uncheck
 unchecking
 sdkbrowser
+shapefiles
+polylines
+shapefile
 MaskedEntry
 NumericMaskedEntry
 TextMaskedEntry
