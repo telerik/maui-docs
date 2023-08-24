@@ -21,7 +21,7 @@ The following table lists the actions and keyboard combinations that are availab
 | `Up Arrow` | Focuses the next cell above. When using single selection mode, the selection also changes. |
 | `Down Arrow` | Focuses the next cell below. When using single selection mode, the selection also changes. |
 | `Fn` + `F2` | Puts the current cell in edit mode. |
-| `Enter` | Selects the next or previous row. When cell is in edit mode, the changes are committed. |
+| `Enter` | Selects the next or previous row. When the cell is in edit mode, the changes are committed and the next row is selected. |
 | `Esc` | Cancels the editing of the current cell. |
 | `Tab` | Focuses the next cell. When cell is in edit mode, the next cell editor is focused. |
 | `Shift` + `Tab` | Focuses the previous cell. When in edit mode, the previous editor is focused. |
