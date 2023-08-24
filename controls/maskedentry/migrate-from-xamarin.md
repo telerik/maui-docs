@@ -8,7 +8,7 @@ slug: maskedentry-migrate-from-xamarin
 
 # Migrating the MaskedInput from Xamarin to .NET MAUI
 
-The Telerik .NET MAUI MaskedEntry control is a complete new control with new API, improvements and flexible styling mechanism implemented.
+The Telerik .NET MAUI MaskedEntry control is a completely new control, with a new API, various improvements, and a flexible styling mechanism.
 
 ## Migrating the Namespaces
 
