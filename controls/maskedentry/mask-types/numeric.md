@@ -1,7 +1,7 @@
 ---
 title: Numeric Mask
 page_title: .NET MAUI MaskedEntry Documentation - Numeric Mask
-description: "Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as numbers."
+description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as numbers.
 position: 3
 slug: maskedentry-numeric-mask
 ---
@@ -37,7 +37,7 @@ The following example demonstrates how to set the `RadNumericMaskedEntry` with t
 
 The image below shows the end result.
 
-![RadNumericMaskedEntry](../images/maskedentry_numeric.png)
+![.NET MAUI NumericMaskedEntry](../images/maskedentry_numeric.png)
 
 > For the MaskedEntry Numeric Mask examples, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Mask Types category.
 

@@ -10,18 +10,18 @@ tags: commands
 
 # .NET MAUI ListView Commands
 
-The Command design-pattern is widely used in the XAML and MVVM world. The ListView strictly follows the Command design-pattern best practices and provides an intuitive and easy-to-use set of APIs that allow you to control various aspects of ListView behavior.
+The Command design-pattern is used in the XAML and MVVM world. The ListView strictly follows the Command design-pattern best practices and provides an intuitive and easy-to-use set of APIs that allow you to control various aspects of ListView behavior.
 
 The ListView exposes a `Commands` collection that allows you to register custom commands with each control’s instance through the `RadListView.Commands` property. `Commands` gets the collection with all the custom commands registered with the `CommandService`. Custom commands have higher priority than the built-in (default) ones.
 
-## CommandId Enumeration
+## Command ID Enumeration
 
-All predefined commands within a `RadListView` instance are identified by a member of the `CommandId` enumeration. This member is actually the key that relates a command instance to a particular action/routine within the owning ListView.
+All predefined commands within a `RadListView` instance are identified by a member of the `CommandId` enumeration. This member is the key that relates a command instance to a particular action/routine within the owning ListView.
 
 To register a custom command within a `RadListView` instance you can:
 
-* [Inherit from the ListViewCommand class](#inheriting-from-listviewcommand) and override its `CanExecute` and `Execute` methods.
-* [Use the ListViewUserCommand class and bind its Command property](#binding-listviewusercommand) to a `Command` in your `ViewModel`.
+* [Inherit from the ListView Command class](#inheriting-from-listviewcommand) and override its `CanExecute` and `Execute` methods.
+* [Use the ListView User Command class and bind its Command property](#binding-listviewusercommand) to a `Command` in your `ViewModel`.
 
 In both cases, you need to set the `Id` property of the new command so that it can be properly associated with the desired action/event.
 

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI ListView Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI ListView and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI ListView and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/listview/listview-getting-started
 slug: listview-getting-started
@@ -11,9 +11,9 @@ slug: listview-getting-started
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
-![ListView Getting Started](images/listview-gettingstarted.png)
+![.NET MAUI ListView Getting Started](images/listview-gettingstarted.png)
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ When your .NET MAUI application is set up, you are ready to add a ListView contr
   The ListView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
 
   * Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
-  * Do not set the ListVew to a `RowDefinition Height="Auto"` Grid definition.
+  * Do not set the ListView to a `RowDefinition Height="Auto"` Grid definition.
 
 Set up the `RadListView` instance:
 
@@ -97,7 +97,7 @@ public static class MauiProgram
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Selection]({% slug listview-features-selection%})
 - [Grouping]({% slug listview-features-grouping%})
