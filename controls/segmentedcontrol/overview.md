@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI SegmentedControl Documentation - Overview
-description: "Try now the Telerik SegmentedControl for .NET MAUI displaying a list of horizontally aligned, mutually exclusive button options, which can be selected by the user."
+description: Try now the Telerik SegmentedControl for .NET MAUI displaying a list of horizontally aligned, mutually exclusive button options, which can be selected by the user.
 tags: segmentedcontrol for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 previous_url: /controls/segmentedcontrol/segmentedcontrol-overview
@@ -10,9 +10,9 @@ slug: segmentedcontrol-overview
 
 # .NET MAUI SegmentedControl Overview
 
-**Telerik UI for .NET MAUI SegmentedControl** allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display text or an image.
+The Telerik UI for .NET MAUI SegmentedControl allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display text or an image.
 
-![SegmentedControl Overview](images/segmentcontrol-overview-0.png)
+![.NET MAUI SegmentedControl Overview](images/segmentcontrol-overview-0.png)
 
 ## Key Features
 

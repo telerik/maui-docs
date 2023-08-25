@@ -34,7 +34,9 @@ slideView.BindingContext = new ViewModel();
 
 Here is the result:
 
-![RadSlideView with ItemTemplate applied](images/)
+![.NET MAUI SlideView with ItemTemplate applied](images/slideview-itemtemplate.png)
+
+> For a runnable example with the SlideView ItemTemplate scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Templates**.
 
 ## See Also
 

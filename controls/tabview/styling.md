@@ -9,7 +9,7 @@ position: 15
 
 # .NET MAUI TabView Styling
 
-TabView provides means for modifying its visual appearance, so that it matches the style of the app.  You can style different parts of the TabView - its header, items and content area. 
+The .NET MAUI TabView provides means for modifying its visual appearance, so that it matches the style of the app.  You can style different parts of the TabView - its header, items and content area. 
 
 > Check the [TabView Visual Structure]({%slug tabview-visual-structure%}) topic for a visual representation of the TabView elements.
 
@@ -51,7 +51,9 @@ Check below a quick example:
 
 And the result is the following:
 
-![TabView Header Style](images/styling-headerstyle.png)
+![.NET MAUI TabView Header Style](images/styling-headerstyle.png)
+
+> For a runnable example with the TabView HeaderStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## HeaderItem Styling
 
@@ -82,7 +84,9 @@ Through `HeaderItemStyle` property of the TabView the following styling properti
 
 Here is the TabView after applying the `HeaderItemStyle`:
 
-![TabView HeaderItem Style](images/styling-headeritemstyle.png)
+![.NET MAUI TabView HeaderItem Style](images/styling-headeritemstyle.png)
+
+> For a runnable example with the TabView HeaderItemStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## Content Styling
 
@@ -98,7 +102,9 @@ TabView's `ContentStyle` property allows you to style the content area. `TabView
 
 The image below shows TabView after applying `ContentStyle`:
 
-![TabView Content Style](images/styling-contentstyle.png)
+![.NET MAUI TabView Content Style](images/styling-contentstyle.png)
+
+> For a runnable example with the TabView ContentStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## See Also
 

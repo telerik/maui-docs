@@ -1,22 +1,22 @@
 ---
 title: Overview
 page_title: .NET MAUI ImageEditor Documentation - Overview
-description: Review the Telerik UI for .NET MAUI ImageEditor control.
+description: Try now the Telerik ImageEditor for .NET MAUI for editing and saving images in your mobile and desktop applications.
 position: 0
 slug: imageeditor-overview
 ---
 
 # .NET MAUI ImageEditor Overview
 
-Telerik .NET MAUI ImageEditor is a control that enables you to visualize and edit images in different file formats in your mobile and desktop application. As an addition to the ImageEditor control you can use the predefined UI with all built-in commands - RadImageEditorToolbar. This UI includes all editing capabilities of the control and it can be customized.
+The Telerik UI for .NET MAUI ImageEditor is a control that enables you to visualize and edit images in different file formats in your mobile and desktop application. As an addition to the ImageEditor control you can use the predefined UI with all built-in commands - RadImageEditorToolbar. This UI includes all editing capabilities of the control and it can be customized.
 
 ![.NET MAUI ImageEditor Overview](images/imageeditor-overview.png "ImageEditor Overview")
 
 ## Key features
 
-* Importing and Exporting images&mdash;ImageEditor allows you to import different image formats such as **JPEG, PNG, GIF, BMP** and export images in **JPEG, PNG, GIF, BMP** formats.
+* Importing and Exporting images&mdash;ImageEditor allows you to import different image formats such as `JPEG`, `PNG`, `GIF`, `BMP` and export images in `JPEG`, `PNG`, `GIF`, `BMP` formats.
 * [Various image source options]({%slug imageeditor-loading-image%})&mdash;Load images from a Stream, File (as embedded resource, or image located on the device) and URI.
-* **Rich image editing features set**: The control comes with a various editing capabilities: 
+* Rich image editing features set: The control comes with a various editing capabilities: 
 	* **Image Transformations**
 		* **Crop**
 		* **Resize**
@@ -30,9 +30,9 @@ Telerik .NET MAUI ImageEditor is a control that enables you to visualize and edi
 		* **Contrast**
 		* **Blur**
 		* **Sharpen**
-* [Save the image]({%slug imageeditor-saving-image%}) in a different format, size, quality and more.
-* **Support for undo/redo and reset**&mdash;ImageEditor has a history stack with the changes applied to the image. This means that you can reverse and re-apply actions.
-* **Support for Interactive Pan and Zoom**&mdash;ImageEditor provides pan and zoom functionality that will help you interact with the image and display it in a convenient way.
+* [Save]({%slug imageeditor-saving-image%})&mdash;Options for saving the images in a different format, size, quality and more.
+* Support for undo/redo and reset&mdash;ImageEditor has a history stack with the changes applied to the image. This means that you can reverse and re-apply actions.
+* Support for Interactive Pan and Zoom&mdash;ImageEditor provides pan and zoom functionality that will help you interact with the image and display it in a convenient way.
 * [Built-in Toolbar]({%slug imageeditor-toolbar%})&mdash;You can take advantage of a pre-defined UI automatically wired with all toolbar items provided by the control through built-in functionality.
 * [Custom Toolbar]({%slug imageeditor-custom-toolbar%})&mdash;The ImageEditor Toolbar can be customized. You can populate the toolbar with the `ToolbarItems` needed for editing the image.
 * [Commands support]({%slug imageeditor-commands%})&mdash;The control provides built in commands and interactive commands - Toolbar commands.

@@ -14,7 +14,7 @@ By default, when you reach the last view, the **Next** button won't do anything.
 
 See the result below in the .gif file:
 
-![SlideView Looping](images/slideview-overscroll.gif)
+![.NET MAUI SlideView Looping](images/slideview-overscroll.gif)
 
 ## See Also
 

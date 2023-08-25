@@ -1,7 +1,7 @@
 ---
 title: Wrap Functionality
 page_title: .NET MAUI WrapLayout Documentation - Wrap Functionality
-description: Check our &quot;Key Features&quot; documentation article for Telerik WrapLayout for .NET MAUI control.
+description: Lear how to set orientation, item sizing and position to the items in the Telerik .NET MAUI WrapLayout control. 
 position: 2
 previous_url: /controls/wraplayout/wraplayout-wrap-feature
 slug: wraplayout-wrap-feature
@@ -25,14 +25,13 @@ And the resources for RadBorder and Label
 
 In the example, `telerik` is defined like this:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
-
+```
 
 The following image shows the end result on different platforms:
 
-![WrapLayout Orientation](images/wraplayout_orientation.png)
+![.NET MAUI WrapLayout Orientation](images/wraplayout_orientation.png)
 
 ## Item Size
 

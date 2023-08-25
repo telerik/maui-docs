@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Popup Documentation - Overview
-description: "Try now the Telerik Popup for .NET MAUI delivering a set of options for adding modal popups to your application and for drawing attention to important information or receiving user input."
+description: Try now the Telerik Popup for .NET MAUI delivering a set of options for adding modal popups to your application and for drawing attention to important information or receiving user input.
 position: 0
 previous_url: /controls/popup/popup-overview
 slug: popup-overview
@@ -9,11 +9,11 @@ slug: popup-overview
 
 # .NET MAUI Popup Overview
 
-**Telerik UI for .NET MAUI Popup** enables you to easily add modal popups to your application and draw attention to important information or receive user input.
+The Telerik UI for .NET MAUI Popup enables you to add modal popups to your application and draw attention to important information or receive user input.
 
 The Popup lets you display content of your choice on top of an existing view. The component provides a flexible API for controlling its behavior and makes it possible to implement complex logic for a wide range of scenarios.
 
-![Popup Overview](images/popup_overview.png)
+![.NET MAUI Popup Overview](images/popup_overview.png)
 
 ## Key Features
 
@@ -22,6 +22,8 @@ The Popup lets you display content of your choice on top of an existing view. Th
 * [Placement configuration]({% slug popup-placement %})&mdash;You can place the Popup control in various positions by using the supported settings such as the placement mode, target, and horizontal and vertical offsets.
 
 * [Animation settings]({% slug popup-animations %})&mdash;The Popup provides sleek customizable animations played while the control is displayed or hidden.
+
+* [Styling API]({%slug popup-styling%})&mdash;Customize the color outside of the Popup control.
 
 ## Next Steps
 

@@ -12,11 +12,11 @@ This guide provides the information you need to start using Telerik UI for .NET 
 
 At the end, you will be able to achieve the following result on Desktop platforms.
 
-![TreeView Getting Started](images/slideview-gettingstarted-desktop.png)
+![.NET MAUI SlideView Getting Started](images/slideview-gettingstarted-desktop.png)
 
 And the result on mobile platforms:
 
-![TreeView Getting Started](images/slideview-gettingstarted-mobile.png)
+![.NET MAUI SlideView Getting Started](images/slideview-gettingstarted-mobile.png)
 
 
 ## Prerequisites
@@ -62,6 +62,7 @@ public static class MauiProgram
 	}
 }           
 ```
+> For a runnable example with the SlideView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Getting Started**.
 
 ## Additional Resources
 
