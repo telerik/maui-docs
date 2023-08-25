@@ -8,15 +8,15 @@ slug: combobox-overview
 
 # .NET MAUI ComboBox Overview
 
-**Telerik UI for .NET MAUI ComboBox** allows users to select item/items from a drop down list of items. The control has a number of features such as searching, single and multiple selection, flexible styling API, dropdown customizations and more.  
+The Telerik UI for .NET MAUI ComboBox allows users to select item/items from a drop down list of items. The control has a number of features such as searching, single and multiple selection, flexible styling API, dropdown customizations and more.  
 
-![ComboBox Overview](images/combobox-overview.png "ComboBox Overview")
+![.NET MAUI ComboBox Overview](images/combobox-overview.png "ComboBox Overview")
 
 ## Key Features
 
 * [Editable and NonEditable mode]({%slug combobox-editmode-and-search%}) – ComboBox supports both editable and noneditable state. When the control is in edit mode searching can be performed. 
-* [Searching Support]({%slug combobox-editmode-and-search%}) – ComboBox provides both case-sensitive and case-insensitive searching modes. The available options are: Contains, StartsWith, ContainsCaseSensitive and StartsWithCaseSensitive. 
-* [Single and Multiple Selection Support]({%slug combobox-selection%}) – ComboBox control has a support for single and multiple selection. You can specify the required selection using the SelectionMode property.
+* [Searching Support]({%slug combobox-editmode-and-search%}) – ComboBox provides both case-sensitive and case-insensitive searching modes. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. 
+* [Single and Multiple Selection Support]({%slug combobox-selection%}) – ComboBox control has a support for single and multiple selection. You can specify the required selection using the `SelectionMode` property.
 * [Complex Object Support]({%slug combobox-databinding%}) – ComboBox control provides you a way to specify which property of your complex business object to be displayed in the control by setting `DisplayMemberPath`.
 * [Search Highlighting Text]({%slug combobox-editmode-and-search%}) – ComboBox control highlights the matching text inside the dropdown list based on the given input after searching is performed.
 * [Placeholder]({%slug combobox-configuration%}#placeholder) – The text which is used to give guidance to the end user on what can be entered/searched in the input. The watermark text is displayed when the input field is empty, or the selected item/s is/are cleared.

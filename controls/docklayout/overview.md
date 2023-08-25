@@ -11,7 +11,7 @@ slug: docklayout-overview
 
 The Telerik UI for .NET MAUI DockLayout is a layout control that provides a mechanism for child elements to be docked to the left, right, top, or bottom edge, or to occupy the central area of the layout.
 
-![DockLayout Overview](images/docklayout_overview.png)
+![.NET MAUI DockLayout Overview](images/docklayout_overview.png)
 
 ## Key Features
 

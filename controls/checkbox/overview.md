@@ -13,12 +13,13 @@ Telerik UI for .NET MAUI CheckBox is a control, which enables users to make a ch
 
 > The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS its visualized as a circle while `Android` and `WinUI` display it as a square.
 
-![CheckBox Overview](images/checkbox-overview.png "CheckBox Overview")
+![.NET MAUI CheckBox Overview](images/checkbox-overview.png "CheckBox Overview")
 
 ## Key Features
 
 * [Checked states]({% slug checkbox-checked-states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
 * [Size]({% slug checkbox-size %})&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
+* [Disable the animation]({%slug checkbox-styling%}#remove-the-animation)&mdash;Checkbox provides an option for turning off the animation when Checkbox state changes. 
 * [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
 ## Next Steps
