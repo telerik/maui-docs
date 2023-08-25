@@ -1,7 +1,7 @@
 ---
 title: Cell Swipe
 page_title: .NET MAUI ListView Documentation - Cell Swipe
-description: Lear what are the swiping options for Telerik ListView for .NET MAUI and how to define custom swipe template.
+description: Learn what are the swiping options for Telerik ListView for .NET MAUI and how to define custom swipe template.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-cell-swipe
 slug: listview-features-cell-swipe
@@ -13,7 +13,7 @@ Cell swipe allows end-users to use swipe gestures on cells. When users swipe, th
 
 The image below shows how swiping right can reveal a Delete button on the left:
 
-![ListView Cell Swipe Gesture](images/listview-cellswipe.png)
+![.NET MAUI ListView Cell Swipe Gesture](images/listview-cellswipe.png)
 
 You can reveal another custom view if the user swipes left. In this case, Cell Swipe displays the custom view on the right. As soon as the user taps the swiped item or anywhere on the ListView, the item returns to its original position.
 
@@ -23,7 +23,7 @@ You can use the following `RadListView` properties to configure the Cell Swipe f
 
 - `IsItemSwipeEnabled`(`bool`)&mdash;Enables or disables the Cell Swipe feature. The default value is False.
 - `SwipeThreshold`(`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature. Shorter swipe gestures are not respected. The default value is 0.
-- `SwipeOffset`(`Thickness`)&mdash;Specifies how much to move the swiped cell to the side and stick it there. The default value is 100.
+- `SwipeOffset`(`Thickness`)&mdash;Specifies how to move the swiped cell to the side and stick it there. The default value is 100.
 - `ItemSwipeContentTemplate` (`DataTemplate`)&mdash;Defines the content that will be visualized when users swipe a cell.
 
 >tip The `SwipeThreshold` value must be lower than the `SwipeOffset` value. This is required because the `SwipeThreshold` defines the minimum swipe gesture length that triggers the Cell Swipe feature and reveals a custom view.
@@ -68,7 +68,7 @@ Alternatively, you can add interactive elements to the swipe content and use the
 
 The following example demonstrates how to use the `ItemSwipeCompleted` event. Depending on the swipe gesture length, we will modify the data item or remove it from the source.
 
-![ListView Cell Swipe](images/listview-gestures-swipe-swipe-event.png)
+![.NET MAUI ListView Cell Swipe](images/listview-gestures-swipe-swipe-event.png)
 
 **1.** Add the ViewModel for the ListView:
 
@@ -94,7 +94,7 @@ We call the `EndItemSwipe()` method to force the item to go to its default posit
 
 The following example demonstrates how to add a delete button to the swipe content. We use the button's `Clicked` event handler to delete an item from the ListView source.
 
-![ListView Cell Swipe Interactive Content](images/listview-gestures-swipe-interactive-content.png)
+![.NET MAUI ListView Cell Swipe Interactive Content](images/listview-gestures-swipe-interactive-content.png)
 
 **1.** Add the view model for the ListView:
 
@@ -118,8 +118,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Layouts]({% slug listview-features-layouts %})
 - [Commands]({% slug listview-features-commands %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})

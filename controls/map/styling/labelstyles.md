@@ -1,7 +1,7 @@
 ---
 title: Labels Styling
 page_title: .NET MAUI Map Documentation - Labels Styling
-description: Check our &quot;Labels Styling&quot; documentation article for Telerik Map for .NET MAUI control.
+description: Learn how to style the labels in the Telerik UI for .NET MAUI Map control.
 position: 0
 slug: map-styling-labelstyles
 ---
@@ -10,18 +10,18 @@ slug: map-styling-labelstyles
 
 The Map `ShapefileLayer` has a `ShapeLabelStyle` property that is of `MapShapeLabelStyle` type and defines the style of the labels.
 
-MapShapeLabelStyle provides the following properties you could use to customize the way labels on the map will look:
+`MapShapeLabelStyle` provides the following properties you can use to customize the way labels on the map will look:
 
 * `TextColor`
 * `FontSize`
 * `FontFamily`
 * `FontAttributes`
 
-The example shows the ShapeLabelStyle property applied:
+The example shows the `ShapeLabelStyle` property applied:
 
 <snippet id='map-styling-shapelabelstyle' />
 
-where the `Source` and the `DataSource` of the MapShapeReader should be set to a .shp and .dbf files, respectively:
+where the `Source` and the `DataSource` of the `MapShapeReader` have to be set to a `.shp` and `.dbf` files, respectively:
 
 <snippet id='map-interactionmode-settintsource' />
 
@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result:
 
-![Map Labels Styling](../images/map_styling_labelsstyle.png)
+![.NET MAUI Map Labels Styling](../images/map_styling_labelsstyle.png)
 
 ## See Also
 

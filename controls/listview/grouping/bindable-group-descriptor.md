@@ -1,7 +1,7 @@
 ---
 title: Bindable GroupDescriptor
 page_title: .NET MAUI ListView Documentation - Bindable Group Descriptors
-description: Explore the Telerik UI for .NET MAUI ListView bindable GroupDescriptor feature that lets you control the GroupDescriptor through MVVM
+description: Explore the Telerik UI for .NET MAUI ListView bindable GroupDescriptor feature that lets you control the GroupDescriptor through MVVM.
 position: 10
 slug: listview-bindable-group-descriptor
 previous_url: /controls/listview/grouping/listview-bindable-group-descriptor
@@ -12,7 +12,7 @@ tags: group, radlistview, groupdescriptor
 
 The GroupDescriptor collection now can be controlled by users using MVVM.
 
-In order to control the GroupDescriptor collection through MVVM:
+To control the GroupDescriptor collection through MVVM:
 
 Create a property of type `ObservableCollection<GroupDescriptorBase>` in your `ViewModel` which will contain the needed group descriptors:
 
@@ -24,7 +24,7 @@ Use the `OneWayToSource` binding mode to bind that property to the `GroupDescrip
  
 Here is how the `GroupDescriptor` collection looks like through MVVM:
 
-![ ListView Group Descriptors MVVM](../images/listview-features-bindable-group.png)
+![.NET MAUI ListView Group Descriptors MVVM](../images/listview-features-bindable-group.png)
 
 > For the ListView Bindable GroupDescriptor example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Grouping category.
 

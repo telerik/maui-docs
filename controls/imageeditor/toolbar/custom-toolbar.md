@@ -1,22 +1,22 @@
 ---
 title: Custom Toolbar
 page_title: .NET MAUI ImageEditor Documentation - Custom Toolbar
-description: "Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor."
+description: Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor.
 position: 2
 slug: imageeditor-custom-toolbar
 ---
 
 # .NET MAUI ImageEditor Custom Toolbar
 
-The ImageEditor Toolbar can be fully customized. You can populate the toolbar with the ToolbarItems needed for editing the image. 
+The ImageEditor Toolbar can be customized. You can populate the toolbar with the `ToolbarItems` needed for editing the image. 
 
-Each toolbar item executes the appropriate cmmand related to it. 
+Each toolbar item executes the proper command related to it. 
 
-## Toolbar items
+## Toolbar Items
 
-When you customize the toolbar you could include the following editing capabilities:
+When you customize the toolbar you can include the following editing capabilities:
 
-### Applying image transformations
+### Applying Image Transformations
 
 The toolbar items for applying **image transformations** to the image are:
 
@@ -27,9 +27,9 @@ The toolbar items for applying **image transformations** to the image are:
 * `ImageEditorFlipHorizontalToolbarItem`
 * `ImageEditorFlipVerticalToolbarItem`
 
->tip To group the transformations you could use the `ImageEditorTransformationsToolbarItem`.
+>tip To group the transformations you can use the `ImageEditorTransformationsToolbarItem`.
 
-### Applying filters
+### Applying Filters
 
 The toolbar items for applying **filters** to the image are:
 
@@ -40,9 +40,9 @@ The toolbar items for applying **filters** to the image are:
 * `ImageEditorBlurToolbarItem`
 * `ImageEditorSharpenToolbarItem`
 
->tip To group the filters you could use the `ImageEditorFiltersToolbarItem` on mobile and `ImageEditorFilterOptionsToolbarItem` on desktop.
+>tip To group the filters you can use the `ImageEditorFiltersToolbarItem` on mobile and `ImageEditorFilterOptionsToolbarItem` on desktop.
 
-## Reversing and re-applying actions
+## Reversing and Re-Applying Actions
 
 The toolbar items for reversing and re-applying actions are:
 
@@ -50,15 +50,15 @@ The toolbar items for reversing and re-applying actions are:
 * `ImageEditorRedoToolbarItem`
 * `ImageEditorResetToolbarItem`
 
-## Navigation toolbar item
+## Navigation Toolbar Item
 
 For navigating in the toolbar use the `NavigationButtonToolbarItem`.
 
-## Zooming toolbar item
+## Zooming Toolbar Item
 
 To fit the image in the available screen space use the `ImageEditorZoomToFitToolbarItem`. 
 
-## Custom toolbar item
+## Custom Toolbar Item
 
 * `LabelToolbarItem`&mdash;Represents a label in the toolbar.
 
@@ -71,18 +71,18 @@ To fit the image in the available screen space use the `ImageEditorZoomToFitTool
 	* `CommandParameter`(`object`)&mdash;Specifies a parameter to be passed to the command upon execution.
 	* `Clicked` event&mdash;Raised when the button is clicked.
 
-## Separate the toolbar items
+## Separate the Toolbar Items
 
-You can easily separate the toolbar items using the `SeparatorToolbarItem`.
+You can separate the toolbar items using the `SeparatorToolbarItem`.
 
-## Apply and Cancle items
+## Apply and Cancel Items
 
 * `ImageEditorApplyToolbarItem`&mdash;Specifies a parameter to be passed to the command upon execution.
 * `ImageEditorCancelToolbarItem`&mdash;Raised when the button is clicked.
 
-## Example with custom toolbar
+## Example with Custom Toolbar
 
-XAML definition of the RadImageEditor and RadImageEditorToolbar:
+XAML definition of the `RadImageEditor` and `RadImageEditorToolbar`:
 
 <snippet id='imageeditor-custom-toolbar'/>
 
@@ -90,15 +90,15 @@ and the image is loaded from Stream:
 
 <snippet id='load-image-from-stream'/>
 
->important For the ImageEditor CustomToolbar example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+>important For the ImageEditor Custom Toolbar example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
-## Example with custom crop toopbar
+## Example with Custom Crop Toolbar
 
-You can create a custom crop toolbar. Here is the XMAL definition of the toolbar:
+You can create a custom crop toolbar. Here is the XAML definition of the toolbar:
 
 <snippet id='imageeditor-custom-crop-toolbar'/>
 
-and the style applied to the ButtonToolbarItem:
+Here is the style applied to the `ButtonToolbarItem`:
 
 <snippet id='imageeditor-buttontoolbar-style'/>
 

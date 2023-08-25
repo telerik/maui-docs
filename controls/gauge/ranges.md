@@ -1,7 +1,7 @@
 ---
 title: Ranges
 page_title: .NET MAUI Gauge Documentation - Ranges
-description: "Provide context to the indicated axis values of the Telerik Gauge for .NET MAUI by setting solid color or gradient ranges."
+description: Learn how to provide context to the indicated axis values of the Telerik Gauge for .NET MAUI by setting solid color or gradient ranges.
 position: 6
 previous_url: /controls/gauge/gauge-ranges
 slug: gauge-ranges
@@ -9,7 +9,7 @@ slug: gauge-ranges
 
 # .NET MAUI Gauge Ranges
 
-The Gauge ranges provide context to the indicated value or values. The ranges denote certain parts of the axis range and are usually displayed with different colors to provide additional information.
+The Gauge ranges provide context to the indicated value or values. The ranges denote some parts of the axis range and are usually displayed with different colors to provide additional information.
 
 All ranges are arranged in an area alongside and parallel to the axis line. The distance from this area to the axis line is defined by the `Offset` property of the `GaugeRangesDefinition` class. The Gauge allows the stacking and overlapping of ranges and you need to set adequate `From` and `To` values to ensure that they are not positioned on top of each other.
 

@@ -1,7 +1,7 @@
 ---
 title: Positioning and Offset
 page_title: .NET MAUI Gauge Documentation - Positioning and Offset
-description: "Set the position and offset of the indicators when working with the Telerik Gauge for .NET MAUI control and learn what the Radial Gauge specifics are."
+description: Learn how to set the position and offset of the indicators when working with the Telerik Gauge for .NET MAUI control and learn what the Radial Gauge specifics are.
 position: 5
 previous_url: /controls/gauge/gauge-positioning
 slug: gauge-positioning
@@ -82,7 +82,7 @@ The following image shows the end result.
 
 While the offset is the absolute distance from the axis line to the element, the position of the axis line itself is determined by the `AxisRadiusFactor` property, which is a relative value between 0 and 1.
 
-When the Radial Gauge is arranged, it calculates the largest square box in the middle of its arrange bounds and the gauge is laid out within this square box. The `AxisRadiusFactor` determines the size of the radius of the axis arc inside this box. Setting the radius factor to 1.0 results in the axis line occupying as much space as possible.
+When the Radial Gauge is arranged, it calculates the largest square box in the middle of its arrange bounds and the gauge is laid out within this square box. The `AxisRadiusFactor` determines the size of the radius of the axis arc inside this box. Setting the radius factor to 1.0 results in the axis line occupying the space that is possible.
 
 ## See Also
 
