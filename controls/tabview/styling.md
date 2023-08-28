@@ -9,7 +9,7 @@ position: 15
 
 # .NET MAUI TabView Styling
 
-The .NET MAUI TabView provides means for modifying its visual appearance, so that it matches the style of the app.  You can style different parts of the TabView - its header, items and content area. 
+The .NET MAUI TabView provides means for modifying its visual appearance so that it matches the style of the app.  You can style different parts of the TabView—its header, items, and content area. 
 
 > Check the [TabView Visual Structure]({%slug tabview-visual-structure%}) topic for a visual representation of the TabView elements.
 
