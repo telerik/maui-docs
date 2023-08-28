@@ -34,7 +34,7 @@ slideView.BindingContext = new ViewModel();
 
 Here is the result:
 
-![RadSlideView with ItemTemplate applied](images/)
+![.NET MAUI SlideView with Item Template applied](images/slideview-item-template.gif)
 
 ## See Also
 

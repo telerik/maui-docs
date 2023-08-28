@@ -1,7 +1,7 @@
 ---
 title: Read-Only Mode
 page_title: .NET MAUI Rating Documentation - Read-Only Mode
-description: Check our &quot;Key Features&quot; documentation article for Telerik Rating for .NET MAUI.
+description: Learn more about the read-only mode in the Telerik UI for .NET MAUI Rating control.
 position: 3
 previous_url: /controls/rating/rating-read-only-mode
 slug: rating-read-only-mode

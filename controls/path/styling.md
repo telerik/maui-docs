@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI Path Documentation - Styling
-description: Check our &quot;Styling&quot; documentation article for Telerik Path for .NET MAUI.
+description: Learn more how to style the Telerik UI for .NET MAUI Path control.
 position: 8
 previous_url: /controls/path/path-styling
 slug: path-styling
@@ -67,7 +67,7 @@ The `RadPath` element exposes the following properties you can use to customize 
 
 The following image shows the result:
 
-![Path Styling](images/path_styling.png)
+![.NET MAUI Path Styling](images/path_styling.png)
 
 
 ## See Also

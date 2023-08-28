@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI NumericInput Documentation - Events
-description: Check our &quot;Events&quot; documentation article for Telerik NumericInput for .NET MAUI
+description: Learn more about the events that the Telerik UI for .NET MAUI NumericInput control provides.
 position: 8
 previous_url: /controls/numericinput/numericinput-events
 slug: numericinput-events
@@ -13,7 +13,7 @@ The NumericInput exposes a `ValueChanged` event, which is raised after the input
 
 The `ValueChanged` event handler receives two parameters:
 
-* The `Sender` which is the RadNumericInput control;
+* The `Sender` which is the `RadNumericInput` control;
 * `ValueChangedEventArgs` provides the following properties:
 
 	* `OldValue` of type `double?` gets the old value.
@@ -21,20 +21,20 @@ The `ValueChanged` event handler receives two parameters:
 
 The following example demonstrates how to use the `ValueChanged` event.
 
-1. Define the NumericInput:
+**1.** Define the NumericInput:
 
- ```XAML
+```XAML
 <telerik:RadNumericInput x:Name="numericInput" ValueChanged="RadNumericInput_ValueChanged"/>
- ```
+```
 
-1. Set the `ValueChanged` event:
+**2.** Set the `ValueChanged` event:
 
- ```C#
+```C#
 private void RadNumericInput_ValueChanged(object sender, Telerik.Maui.Controls.NumericInput.ValueChangedEventArgs e)
 {
    // implement your logic here
 }
- ```
+```
 
 ## See Also
 

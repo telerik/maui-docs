@@ -23,7 +23,7 @@ Add the ViewModel:
 
 See the result in the images below:
 
-![SlideView IndicatorStyling](images/slideview-orientation.png)
+![.NET MAUI SlideView Indicator Styling](images/slideview-orientation.png)
 
 ## See Also
 

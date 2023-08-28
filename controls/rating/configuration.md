@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI Rating Documentation - Configuration
-description: Check our &quot;Configuration&quot; documentation article for Telerik Rating for .NET MAUI.
+description: Learn how to configure the Telerik UI for .NET MAUI Rating control.
 position: 2
 previous_url: /controls/rating/rating-configuration
 slug: rating-configuration
@@ -9,7 +9,7 @@ slug: rating-configuration
 
 # Configure the .NET MAUI Rating
 
-The Rating is presented by two components named [`RadShapeRating`]({% slug rating-shape-rating%}) and [`RadTemplatedRating`]({% slug rating-templated-rating%}) in order to provide various visualizations of the rating functionality.
+The Rating is presented by two components named [`RadShapeRating`]({% slug rating-shape-rating%}) and [`RadTemplatedRating`]({% slug rating-templated-rating%}) to provide various visualizations of the rating functionality.
 
 The features described in this article are common for both `RadShapeRating` and `RadTemplatedRating`.
 
@@ -19,7 +19,7 @@ The features described in this article are common for both `RadShapeRating` and 
 
 The Rating control exposes a `Value` property that is used to set and read the number of the selected rating items.
 
-```XAMl
+```XAML
 <telerik:RadShapeRating Value="4" />
 ```
 

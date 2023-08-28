@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ProgressBar Documentation - Configuration
-description: "Review how to define vlaue and segmentm, text formatting, value range and more for the Telerik ProgressBar for .NET MAUI control."
+description: Learn how to define vlaue and segmentm, text formatting, value range and more for the Telerik UI for .NET MAUI ProgressBar control.
 position: 2
 slug: progressbar-configuration
 ---
@@ -25,9 +25,9 @@ And the Update button click event handler:
 
 <snippet id='progressbar-configuration-valueupdated'/>
 
-Check the result in the gif below:
+Check the result in the .GIF file below:
 
-![ProgressBar Progress Update](images/progressbar-progress-android.gif)
+![.NET MAUI ProgressBar Progress Update](images/progressbar-progress-android.gif)
 
 ## Value Range
 
@@ -46,13 +46,13 @@ The `StringFormat`(`string`) specifies the string format applied to the numeric 
 
 <snippet id='progressbar-configuration-stringformat'/>
 
-## Value DisplayMode
+## Value Display Mode
 
 `ValueDisplayMode` property of enum type `Telerik.Maui.Controls.ValueDisplayMode` can be set to any of the following values:
 
 * (default) Percent&mdash;Displays the progress as percent from the range from minimum to maximum;
 * Value&mdash;Displays the Progress value.
-* Text&mdash;Shows custom text inside the progress bar label. You would need to combine it with `CustomText` property of the ProgressBar.
+* Text&mdash;Shows custom text inside the progress bar label. You will need to combine it with `CustomText` property of the ProgressBar.
 * None&mdash;No text is shown inside the progress bar.
 
 Here is a quick example with `ValueDisplayMode` set to `Value`:
@@ -85,19 +85,19 @@ Define corners to the background track by setting the `TrackCornerRadius`(`Micro
 
 <snippet id='progressbar-styling-corner-radius'/>
 
-TrackCornerRadius on WinUI:
+`TrackCornerRadius` on WinUI:
 
-![Corners](images/progressbar-styling-corners.png)
+![.NET MAUI ProgressBar Corners](images/progressbar-styling-corners.png)
 
 >important For the ProgressBar Configuration example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 Here is how the Configuration example looks on iOS and Android:
 
-![ProgressBar Configuration](images/progressbar-configuration.png)
+![.NET MAUI ProgressBar Configuration](images/progressbar-configuration.png)
 
-And how the example looks on MacCatalyst and WinUI: 
+And how the example looks on `MacCatalyst` and `WinUI`: 
 
-![ProgressBar Configuration](images/progressbar-configuration-desktop.png)
+![.NET MAUI ProgressBar Configuration](images/progressbar-configuration-desktop.png)
 
 ## See Also
 

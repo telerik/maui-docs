@@ -1,7 +1,7 @@
 ---
 title: Customization
 page_title: .NET MAUI NumericInput Documentation - Customization
-description: Check our &quot;Customization&quot; documentation article for Telerik NumericInput for .NET MAUI
+description: Learn more about the customization options that the Telerik UI for .NET MAUI NumericInput control provides.
 position: 5
 previous_url: /controls/numericinput/numericinput-customization
 slug: numericinput-customization
@@ -15,8 +15,8 @@ This article will guide you through all customizations options that NumericInput
 
 The NumericInput provides the following properties for customizing the text in its text input buttons.
 
-* `IncreaseButtonText`(of type `string`): Defines the text displayed inside the **Increase** button. The default string value is `"+"`.
-* `DecreaseButtonText`(of type `string`): Defines the text displayed inside the **Decrease** button. The default string value is `"-"`.
+* `IncreaseButtonText`(of type `string`)&mdash;Defines the text displayed inside the **Increase** button. The default string value is `"+"`.
+* `DecreaseButtonText`(of type `string`)&mdash;Defines the text displayed inside the **Decrease** button. The default string value is `"-"`.
 
 The following example demonstrates how to customize the NumericInput buttons text.
 
@@ -24,7 +24,7 @@ The following example demonstrates how to customize the NumericInput buttons tex
 
 Check the result of the NumericInput with custom button text below:
 
-![NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
+![.NET MAUI NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
 
 ## Change Background
 

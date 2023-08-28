@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI WrapLayout Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI WrapLayout and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI WrapLayout and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/wraplayout/wraplayout-getting-started
 slug: wraplayout-getting-started
@@ -11,9 +11,9 @@ slug: wraplayout-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI WrapLayout by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
-![WrapLayout Gettin Started](images/wraplayout_getting_started.png)
+![.NET MAUI WrapLayout Getting Started](images/wraplayout_getting_started.png)
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ Before adding the WrapLayout, you need to:
 
  <snippet id='wraplayout-getting-started-xaml' />
 
- 1. The resources for RadBorder applied in the Page's Resource:
+ 1. The resources for `RadBorder` applied in the Page's Resource:
  
  <snippet id='wraplayout-getting-started-xaml-resources' />
 

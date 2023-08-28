@@ -14,7 +14,7 @@ The `RadShapeRating` component is designed for the simplest scenarios where an o
 
 `RadShapeRating` exposes the `ItemShape` property of type `RadPathGeometry` which is used to define the shape of the rating items.
 
-For an easy and fast setup, the Rating includes several simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. The `Geometries` class exposes static properties that return predefined shapes.
+For a simple and fast setup, the Rating includes various simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. The `Geometries` class exposes static properties that return predefined shapes.
 
 >tip For more details on `RadPath` and `RadPathGeometry`, refer to the [Path Overview article]({%slug path-overview%}).
 
@@ -24,31 +24,31 @@ The Rating supports the following geometry types:
 
 - (Default) `Star`
 
- ![Star Shape Rating](images/rating-star.png)
+ ![.NET MAUI Star Shape Rating](images/rating-star.png)
 
  <snippet id='rating-geometries-star' />
 
 - `Circle`
 
- ![Circle Shape Rating](images/rating-circle.png)
+ ![.NET MAUI Circle Shape Rating](images/rating-circle.png)
 
  <snippet id='rating-geometries-circle' />
 
 - `Diamond`
 
- ![Diamond Shape Rating](images/rating-diamond.png)
+ ![.NET MAUI Diamond Shape Rating](images/rating-diamond.png)
 
  <snippet id='rating-geometries-diamond' />
 
 - `Heart`
 
- ![Heart Shape Rating](images/rating-heart.png)
+ ![.NET MAUI Heart Shape Rating](images/rating-heart.png)
 
  <snippet id='rating-geometries-heart' />
 
 - Custom `RadPathGeometry` shape:
 
- ![Custom Shape Rating](images/rating-triangle.png)
+ ![.NET MAUI Custom Shape Rating](images/rating-triangle.png)
 
  <snippet id='rating-geometries-customgeometry ' />
 
@@ -63,7 +63,7 @@ You can control the visual appearance of the predefined shapes through the follo
 * `SelectedItemStroke` (`Color`)&mdash;Sets the color used by the border around the selected geometry.
 * `SelectedItemStrokeThickness` (`double`)&mdash;Specifies the width of the border around the selected geometry.
 
-![Rating Styling](images/rating-styles.png)
+![.NET MAUI Rating Styling](images/rating-styles.png)
 
 The following example shows how to set the shapes styling.
 
@@ -73,7 +73,7 @@ Define the `RadShapeRating`:
 
 The following image shows the end result.
 
-![Rating Styling](images/rating-styles.png)
+![.NET MAUI Rating Styling](images/rating-styles.png)
 
 ## See Also
 

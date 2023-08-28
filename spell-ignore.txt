@@ -109,3 +109,12 @@ IncludePromptAndLiterals
 IncludeLiterals
 IncludePrompt
 ExcludePromptAndLiterals
+NumericInput
+NumericInputEntry
+UICulture
+LinearProgressBar
+SegmentedControl
+SideDrawer
+SideDrawerCommandBase
+SignaturePad
+WrapLayout

@@ -1,14 +1,14 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the SignaturePad from Xamarin.Forms to .NET MAUI
-description: "Learn how to migrate the Telerik UI for Xamarin SignaturePad to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages."
+description: Learn how to migrate the Telerik UI for Xamarin SignaturePad to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
 position: 20
 slug: signaturepad-migrate-from-xamarin
 ---
 
 # Migrate from Xamarin.Forms SignaturePad to .NET MAUI SignaturePad
 
-Overall, Telerik .NET MAUI SignaturePad control preserves the same API as Xamarin.Forms SignaturePad with a few changes and improvements listed in the table below:
+Telerik .NET MAUI SignaturePad control preserves the same API as Xamarin.Forms SignaturePad with a few changes and improvements listed in the table below:
 
 ## Migrating the Namespaces
 

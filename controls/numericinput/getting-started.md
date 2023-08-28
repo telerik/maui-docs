@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI NumericInput Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI NumericInput and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI NumericInput and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/numericinput/numericinput-getting-started
 slug: numericinput-getting-started
@@ -11,9 +11,9 @@ slug: numericinput-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI NumericInput by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
-![NumericInput Getting Started](images/numericinput-getting-started.png)
+![.NET MAUI NumericInput Getting Started](images/numericinput-getting-started.png)
 
 ## Prerequisites
 
@@ -27,17 +27,17 @@ Before adding the NumericInput, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
 
  <snippet id='numericinput-getting-started-xaml'/>
 
-1. Add the following namespase:
+**2.** Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
  
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
  ```C#
  using Telerik.Maui.Controls.Compatibility;

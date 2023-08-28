@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI SideDrawer Documentation - Configuration
-description: Learn what are the options to configure the .NET MAUI SideDrawer and how to change the drawer position and interactivity.
+description: Learn what are the options to configure the Telerik UI for .NET MAUI SideDrawer and how to change the drawer position and interactivity.
 position: 2
 slug: sidedrawer-features-configuration
 ---
@@ -12,7 +12,7 @@ This article explains all configuration options that the SideDrawer control prov
 
 ## Content
 
-Use the folloing properties to define content of the SideDrawer control:
+Use the following properties to define content of the SideDrawer control:
 
 * `DrawerContent`(`View`)&mdash;Specifies the drawer (initially hidden) content.
 * `MainContent`(`View`)&mdash;Specifies the (initially visible) content of the component.

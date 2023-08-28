@@ -10,7 +10,7 @@ slug: progressbar-indeterminate-mode
 
 Telerik ProgressBar for MAUI supports two modes of operation:
 
-* **Determinate**&mdash;Aimed at scenarios in which the progress of an operation can be precisely measured.
+* **Determinate**&mdash;Aimed at scenarios in which the progress of an operation can be measured.
 
 * **Indeterminate**&mdash;Aimed at scenarios in which there is no way of determining the current progress of an operation.
 

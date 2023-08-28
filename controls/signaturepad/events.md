@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI SignaturePad Documentation - Events
-description: "Review the Events article of the Telerik SignaturePad for .NET MAUI control."
+description: Learn about the exposed events in the Telerik UI for .NET MAUI SignaturePad control.
 position: 9
 tags: sing pad, signature, .net maui, dotnet, sign, signature pad
 slug: signaturepad-events
@@ -19,25 +19,27 @@ The SignaturePad for .NET MAUI exposes the following events:
 	* The `Sender` which is of type `Telerik.Maui.Controls.RadSignaturePad`.
 	* and `EventArgs` 
 
-* `Cleared` event is raised when the surface of Telerik.Maui.Controls.RadSignaturePad is cleared.
+* `Cleared` event is raised when the surface of `Telerik.Maui.Controls.RadSignaturePad` is cleared.
 
 ## Example
 
-The example contains a **X** Button, two Labels and a RadSignaturePad. The control's definition in XAML:
+The example contains an **X** Button, two Labels and a `RadSignaturePad`. 
+
+**1.** The control's definition in XAML:
 
 <snippet id='signaturepad-events'/>
 
-Add the following namespace:
+**2.** Add the following namespace:
 
 <snippet id='xmlns-telerikinput'/>
 
-Let's add the events:
+**3.** Add the events:
 
 The `RadSignaturePad.StrokeStarted` event. When stroke starts we will display a timestamp using a Label:
 
 <snippet id='signaturepad-strokestarted-event'/>
 
-The `RadSignaturePad.StrokeCompleted` event. When stroke completes the timespamp Label text is udated.
+The `RadSignaturePad.StrokeCompleted` event. When stroke completes the timestamp Label text is updated.
 
 <snippet id='signaturepad-strokecompleted-event'/>
 

@@ -12,7 +12,7 @@ To create a specific Path, you need to set a `RadPathGeometry` object to its `Ge
 
 ## RadPathFigure
 
-Each of the `RadPathFigure` objects is composed of one or several segments. These can be a `RadArcSegment` or a `RadLineSegment`. Adding segments in combination with setting up the `StartPoint` of the `RadPathFigure` is enough for you to create the desired figure which have to be added to the figures collection of the geometry.
+Each of the `RadPathFigure` objects is composed of one or a number of segments. These can be a `RadArcSegment` or a `RadLineSegment`. Adding segments in combination with setting up the `StartPoint` of the `RadPathFigure` is good for you to create the desired figure which have to be added to the figures collection of the geometry.
 
 Each line or arc segment you add to the path figure is drawn so - its starting point is the last point of the previous segment of the Segments collection of the `PathFigure` object. The first segment uses the `StartPoint` of the path figure as a starting point.
 
@@ -27,7 +27,7 @@ The `RadArcSegment` represents an elliptical arc between two points. It exposes 
 
 The scheme below shows how `StartAngle` and `SweepAngle` are applied to the `ArcSegment`:
 
-![Path ArcSegment Angles](images/path_arcsegment_scheme.png)
+![.NET MAUI Path Arc Segment Angles](images/path_arcsegment_scheme.png)
 
 The following example shows a sample implementation of an `RadArcSegment` object.
 
@@ -87,7 +87,7 @@ using Telerik.Maui.Controls.Compatibility.Common;
 
 The following image shows the result after creating the three Paths:
 
-![Path Geometry](images/path_geometry.png)
+![.NET MAUI Path Geometry](images/path_geometry.png)
 
 ## See Also
 

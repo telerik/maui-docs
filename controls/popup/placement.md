@@ -1,7 +1,7 @@
 ---
 title: Placement
 page_title: .NET MAUI Popup Documentation - Placement
-description: "Set the position of the Telerik UI for .NET MAUI Popup to the top, right, left, or bottom of the screen, center it or locate it in relation to another UI element."
+description: Set the position of the Telerik UI for .NET MAUI Popup to the top, right, left, or bottom of the screen, center it or locate it in relation to another UI element.
 position: 5
 slug: popup-placement
 ---
@@ -10,7 +10,7 @@ slug: popup-placement
 
 The Popup supports useful properties, which enable you to position it depending on your requirements.
 
-* `PlacementTarget`&mdash;Defines an element in relation to which the popup is positioned when it is open.
+* `PlacementTarget`&mdash;Defines an element in relation to which the popup is positioned when is open.
 
 * `Placement`&mdash;Specifies the way the popup aligns to its placement target. The `Placement` property is of type `PlacementMode` and can be set to any of the `Top`, `Right`, `Left`, `Bottom`, `Center`, or `Relative` options where:
 	* `Top`, `Right`, `Left`, and `Bottom` align the Popup control to the corresponding corner of the placement target.
@@ -31,7 +31,7 @@ Set the Button `Clicked` event handler:
 
 The following image shows the end result.
 
-![Popup Placement](images/popup_features_placement.png)
+![.NET MAUI Popup Placement](images/popup_features_placement.png)
 
 ## See Also
 
