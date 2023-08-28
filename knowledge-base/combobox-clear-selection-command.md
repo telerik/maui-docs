@@ -35,7 +35,7 @@ I want to achieve the following: When the user starts typing into an editable Co
 
 To override the default behavior of the clear button, use a custom `ClearSelectionCommand` command:
 
-1. Define the ComboBox control in XAML:
+**1.** Define the ComboBox control in XAML:
 
 ```XAML
  <telerik:RadComboBox x:Name="comboBox"
@@ -49,13 +49,13 @@ To override the default behavior of the clear button, use a custom `ClearSelecti
 </telerik:RadComboBox>
 ```
 
-2. Add the following namespace:
+**2.** Add the following namespace:
 
 ```XAML 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-3. Define the business model:
+**3.** Define the business model:
 
 ```C#
 public class City
@@ -64,7 +64,7 @@ public class City
 }
 ```
 
-4. Define the ViewModel and create the custom command:
+**4.** Define the ViewModel and create the custom command:
 
 ```C#
 public class ViewModel : NotifyPropertyChangedBase
