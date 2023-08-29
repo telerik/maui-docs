@@ -82,7 +82,7 @@ The [Legend feature]({%slug chart-features-legend%}) of the `RadChart` provides 
 
 ### Null Values support
 
-The Chart represents null data points with an empty space or gap. For more details on this feature review the [Null Values Support]({%slug chart-nullvalues%}) article.
+The Chart represents null data points with an empty space or gap. For more details on this feature, review the [Null Values Support]({%slug chart-nullvalues%}) article.
 
 ## Next Steps
 
