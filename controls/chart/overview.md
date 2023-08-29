@@ -43,7 +43,7 @@ The [Chart Grid type]({% slug cartesian-chart-grid %}) is optionally decorated w
 
 ### Pie Charts
 
-The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum. The following series are part of the `PieChart`.
+The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by using a discrete polar coordinate system. Each point is represented as an arc segment. The arc length represents the point’s value percentage of the total sum. The following series are part of the `PieChart`:
 
 * [Donut Series]({% slug chart-series-donut-series %})
 * [Pie Series]({% slug chart-series-pie-series %})
