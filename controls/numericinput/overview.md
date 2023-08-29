@@ -25,7 +25,7 @@ slug: numericinput-overview
 
 * [Read-only mode]({%slug numericinput-read-only-mode%})&mdash;You can prevent users from typing into the input field and allow them to update the value only through the **Increase** and **Decrease** buttons.
 
-[Null Value support]({%slug numericinput-configuration%}#null-valuesupport)&mdash;The control accepts null values.
+* [Null Value support]({%slug numericinput-configuration%}#null-valuesupport)&mdash;The control accepts null values.
 
 * [Commands support]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
 
