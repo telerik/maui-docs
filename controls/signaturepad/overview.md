@@ -18,7 +18,7 @@ The Telerik UI for .NET MAUI SignaturePad control gives you the option to captur
 
 * [Configure the stroke thickness and stroke color of the signature]({%slug signaturepad-configuration%}) to achieve the desired look.
  
-* [Saving options]({%slug signaturepad-saving-options%})&mdash;Save the signature as an image in different formats (`PNG` or `JPEG`). In addition the Saving API allows you to set the image's quality and scale factor. Also you have the option to change the stroke color and thickness of the signature when saving it as an image.
+* [Saving options]({%slug signaturepad-saving-options%})&mdash;Save the signature as an image in different formats (PNG or JPEG). In addition, the Saving API allows you to set the image's quality and scale factor. Also, you have the option to change the stroke color and thickness of the signature when saving it as an image.
 
 * [Exhaustive number of events]({%slug signaturepad-events%})&mdash;SignaturePad provides events that are raised when a new stroke is started, completed and an event fired when the surface is cleared.  
 
