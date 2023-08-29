@@ -10,9 +10,7 @@ slug: slideview-visual-structure
 
 This article describes all visual elements that are used in the SlideView for .NET MAUI.
 
-
 ![.NET MAUI SlideView Visual Structure](images/slideview-visualstructure.png)
-
 
 ## Legend
 

@@ -24,6 +24,8 @@ The following example shows how to add a command.
 
 ![.NET MAUI SlideView Commands](images/slideview-commands.gif)
 
+> For a runnable example with the SlideView Commands scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Commands**.
+
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})

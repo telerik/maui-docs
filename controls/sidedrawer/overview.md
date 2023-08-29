@@ -10,7 +10,7 @@ slug: sidedrawer-overview
 
 Telerik UI for .NET MAUI SideDrawer is designed to enable users to visualize a hidden view in their applications. That view can host navigation UI, common settings or any other UI of your choice. It can be visualized using a flick gesture on mobile or custom UI which has to manipulate the `IsOpen` property on Desktop. In addition, the developer of the application can set the exact position the drawer will be visualized.
 
-![SideDrawer example](images/sidedrawer-overview.png) 
+![.NET MAUI SideDrawer example](images/sidedrawer-overview.png) 
 
 ## Key Features
 

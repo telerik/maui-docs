@@ -23,13 +23,21 @@ The Telerik .NET MAUI ListView is a virtualizing list component that provides th
  
 * [Reorder Items]({% slug listview-features-reorder-items %})&mdash;The ListView allows end users to reorder MAUI ListView items through dragging and dropping.
 
-* [Load on demand]({% slug listview-features-load-on-demand %})&mdash;In addition to the built-in UI virtualization, the ListView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded before the user reaches the bottom of the ListView.
-
-* [Item Swipe]({% slug listview-features-cell-swipe %})&mdash;The item swipe feature enables end users to swipe an item to reveal its actionable content.
-
 * [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them per with your criteria.
 
-* [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its appearance.
+* [Load on demand]({% slug listview-features-load-on-demand %})&mdash;In addition to the built-in UI virtualization, the ListView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded before the user reaches the bottom of the ListView.
+
+* [Item swipe]({% slug listview-features-cell-swipe %})&mdash;The item swipe feature enables end users to swipe an item to reveal its actionable content.
+
+* [Pull to refresh]({%slug listview-features-pull-to-refresh%})&mdash;In case when data needs to be refreshed use the pull to refresh feature. Refresh the list by swiping finger down when the content is scrolled up to the top.
+
+* [Scroll bar visibility]({%slug listview-features-scrolling%})&mdash;You can define whether the vertical scrollbar will be visible while scrolling through the items. 
+
+* [Scroll to item]({%slug listview-features-scrolling%})&mdash;Allow the users of the application to scroll to a specific item from the ListView. 
+
+* [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its items and groups.
+
+* [Header and footer]({%slug listview-features-header-footer%})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the ListView items.
 
 ## Next steps
 

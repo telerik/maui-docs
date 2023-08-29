@@ -18,7 +18,6 @@ The SlideView exposes a `NavigationButtonVisibility` property that allows you to
 
 * `Collapsed`&mdash;The buttons are not visible.
 
-
 ## See Also
 
 - [Executing Commands on Slide Action]({%slug slideview-commands%})

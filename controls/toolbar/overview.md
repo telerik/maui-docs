@@ -8,7 +8,7 @@ slug: toolbar-overview
 
 # .NET MAUI Toolbar Overview
 
-**Telerik .NET MAUI Toolbar** is a flexible component for implementation of tool and button strips, needed in most desktop and mobile applications. The individual items of the control are described as a collection of Toolbar items. The rich collection of Toolbar items allows to customize every tool or button on the `RadToolbar` independently according to the specific needs of the application. 
+The Telerik .NET MAUI Toolbar is a flexible component for implementation of tool and button strips, needed in most desktop and mobile applications. The individual items of the control are described as a collection of Toolbar items. The rich collection of Toolbar items allows to customize every tool or button on the `RadToolbar` independently according to the specific needs of the application. 
 
 ![.NET MAUI Toolbar Overview](images/toolbar-overview.png "Toolbar Overview")
 

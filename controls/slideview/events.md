@@ -12,15 +12,17 @@ When the current item or its index changes, the SlideView control emits the `Cur
 
 ## Example
 
-To handle the `CurrentItemChanged` event of RadSlideView:
+To handle the `CurrentItemChanged` event of `RadSlideView`:
 
-**1.** Add the SlideView definition.
+**1.** Add the `RadSlideView` definition.
 
 <snippet id='slideview-events' />
 
 **2.** Add the event handler.
 
 <snippet id='slideview-events-current-item-changed-event' />
+
+> For a runnable example with the SlideView Events scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Events**.
 
 ## See Also
 
