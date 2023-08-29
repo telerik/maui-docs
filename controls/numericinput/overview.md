@@ -29,7 +29,7 @@ slug: numericinput-overview
 
 * [Commands support]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
 
-## Next steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI NumericInput]({%slug numericinput-getting-started%})
 
