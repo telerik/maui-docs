@@ -32,7 +32,7 @@ The available options are: `Top`, `Bottom`, `Left` and `Right`.
 </telerik:RadTabView>
 ```
 
-![TabView Header Position](images/header-position.png "Header Position of TabView control")
+![.NET MAUI TabView Header Position](images/header-position.png "Header Position of TabView control")
 
 
 ## Spacing between the header and the content
@@ -74,7 +74,7 @@ When the `IsHeaderOverlaid` is set to `False`, the header area is placed next to
 
 Change the selected item using the swipe gesture. This allows you to change the selected item of the TabView.
 
-![TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
+![.NET MAUI TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
 
 If you want to prevent this feature you will need to set the `IsContentSwipingEnabled` (`bool`) property to `False`. The default value is `True`.
 

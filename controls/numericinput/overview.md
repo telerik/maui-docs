@@ -21,13 +21,15 @@ Telerik UI for .NET MAUI NumericInput is a customizable input control for numeri
 
 * [Customizable button text]({%slug numericinput-customization%}#numeric-input-buttons-text)&mdash;You can also specify the text of the **Increase** and **Decrease** buttons, so that it’s applicable to your scenario.
 
-* [Commands support]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
-
 * [Input value formatting]({%slug numericinput-numeric-string-format%})&mdash;The NumericInput provides you with the option to define the format of its numeric value.
 
 * [Read-only mode]({%slug numericinput-read-only-mode%})&mdash;You can prevent users from typing into the input field and allow them to update the value only through the **Increase** and **Decrease** buttons.
 
-## Next steps
+* [Null Value support]({%slug numericinput-configuration%}#null-valuesupport)&mdash;The control accepts null values.
+
+* [Commands support]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
+
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI NumericInput]({%slug numericinput-getting-started%})
 

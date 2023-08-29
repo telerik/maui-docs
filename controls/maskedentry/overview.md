@@ -31,7 +31,7 @@ Telerik UI for .NET MAUI MaskedEntry formats and restricts text inputs to predef
 
 * Option to define different [keyboard type]({%slug maskedentry-keyboard%}) on specific MaskedEntry.
 
-* [flexible Styling API]({%slug maskedentry-styling%})for changing the clear button color, background color of the input and background color of the control.
+* [Flexible styling API]({%slug maskedentry-styling%})for changing the clear button color, background color of the input and background color of the control.
 
 * [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works about the target device culture.
 

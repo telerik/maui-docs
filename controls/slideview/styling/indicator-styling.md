@@ -30,19 +30,27 @@ The following table represents the available style properties.
 | `MaximumWidthRequest`|Defines a value which overrides the maximum width the element will request during layout.|
 | `MinimumWidthRequest`|Defines a value which overrides the mimimum width the element will request during layout.|
 
+Further customize the indicator by using the `SlideViewIndicatorItem`. The customization is shown in the example below.
+
 ## Example
 
-Add SlideView definition in XAML:
+**1.** Add SlideView definition in XAML:
 
 <snippet id='slideview-indicator-styling' />
 
-Add Style resources:
+**2.** Add Style resource for the `SlideViewIndicator`:
 
 <snippet id='slideview-indicator-styling-resource' />
+
+**3.** Add Style resource for the `SlideViewIndicatorItem`:
+
+<snippet id='slideview-indicator-item-custom-template' />
 
 See the result below:
 
 ![.NET MAUI SlideView Indicator Styling](images/slideview-indicator-styling.gif)
+
+> For a runnable example with the SlideView Indicator Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Styling**.
 
 ## See Also
 

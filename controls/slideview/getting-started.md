@@ -62,6 +62,7 @@ public static class MauiProgram
 	}
 }           
 ```
+> For a runnable example with the SlideView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Getting Started**.
 
 ## Additional Resources
 

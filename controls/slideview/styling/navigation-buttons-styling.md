@@ -28,6 +28,7 @@ And the result below:
 
 ![.NET MAUI SlideView Navigation Buttons Styling](images/slideview-navigation-buutons-styling.gif)
 
+> For a runnable example with the SlideView Navigation Buttons Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Styling**.
 
 ## See Also
 

@@ -28,10 +28,11 @@ The Telerik UI for .NET MAUI RichTextEditor enables users to create rich textual
 
 * [Various HTML source options]({%slug richtexteditor-configuration%})&mdash;You can load the HTML source from a string as well as from a stream.
 * [Commands support]({%slug richtexteditor-commands%})&mdash;RichTextEditor exposes commands, such as `ToggleBoldCommand`, `ToggleBulletingCommand`, `AlignRightCommand`, and others that allow you to execute rich text editing actions over the content loaded into the editor.
-* [Insert and edit images]({%slug richtexteditor-images-overview%})&mdash;You can easily insert images and use the built-in edit images operations like resize, cut, copy, paste, remove.
+* [Insert and edit images]({%slug richtexteditor-images-overview%})&mdash;You can insert images and use the built-in edit images operations like resize, cut, copy, paste, remove.
+* [Create and manage hyperlinks]({%slug richtexteditor-hyperlink-support%})&mdash;RichTextEditor provides built-in support for creating and managing hyperlinks with the predefined toolbar items or using the exposed commands.
 * [RichTextEditor Toolbar]({%slug richtexteditor-toolbar%})&mdash;Take advantage of a pre-defined UI automatically wired with all of the commands provided by the control through built-in functionality.
-* [Custom Toolbar]({%slug richtexteditor-custom-toolbar%})&mdash;The `RadRichTextEditor` Toolbar can be fully customized. You can populate the toolbar with the `ToolbarItems` needed for editing the HTML content.
-* Flexible Styling API&mdash;You can easily modify the visual appearance of [RichTextEditor]({%slug richtexteditor-styling%}) as well as the [toolbar items]({%slug richtexteditor-toolbar-styling%}) through various styling properties such as background color, border color, thickness, corner radius, and more.
+* [Custom Toolbar]({%slug richtexteditor-custom-toolbar%})&mdash;The `RadRichTextEditor` Toolbar can be customized. You can populate the toolbar with the `ToolbarItems` needed for editing the HTML content.
+* Flexible Styling API&mdash;You can modify the visual appearance of [RichTextEditor]({%slug richtexteditor-styling%}) as well as the [toolbar items]({%slug richtexteditor-toolbar-styling%}) through various styling properties such as background color, border color, thickness, corner radius, and more.
 
 ## Next Steps
 

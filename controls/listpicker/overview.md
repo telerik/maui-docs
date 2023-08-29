@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ListPicker Documentation - Overview
-description: Try now the Telerik ListPicker for .NET MAUI delivering a set of options for creating and showing barcodes.
+description: Try now the Telerik ListPicker for .NET MAUI for displaying items in a dropdown or popup and pick a single item form the list.
 position: 0
 slug: listpicker-overview
 previous_url: /controls/listpicker/listpicker-overview
@@ -11,7 +11,7 @@ previous_url: /controls/listpicker/listpicker-overview
 
 The Telerik UI for .NET MAUI ListPicker allows the user to select an item from a list of items and visualizes that items list inside a popup or a dropdown. The ListPicker control has a number of features which enable you to loop through its items infinitely while scrolling, to fully customize the dialog appearance and style the items, to define templates for the items, and more.
 
-![ListPicker Overview](images/list_picker_overview.png)
+![.NET MAUI ListPicker Overview](images/list_picker_overview.png)
 
 ## Key Features
 
