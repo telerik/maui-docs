@@ -28,7 +28,7 @@ Before adding the TabView, you need to:
 
 **1.** When your .NET MAUI application is set up, you are ready to add a TabView control to your page.
 
-* To display content in the tab you can define `TabViewItem` elements in its `Items` collection.
+* To display content in the tab, you can define `TabViewItem` elements in its `Items` collection.
 
 * To define the header of a `TabViewItem` use its `HeaderText` property as in the example.
 
