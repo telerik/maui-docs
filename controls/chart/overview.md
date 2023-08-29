@@ -26,7 +26,7 @@ The [Cartesian Chart]({% slug chart-types-cartesian-chart %}) uses the Cartesian
 
 The following series are part of the CartesianChart:
 
-* Categorical Series such as the [Area Series]({% slug chart-series-area-series %}), [Bar Series]({% slug chart-series-bar-series %}) and [Line Series]({%slug chart-series-line-series%}).
+* Categorical Series such as the [Area Series]({% slug chart-series-area-series %}), [Bar Series]({% slug chart-series-bar-series %}), and [Line Series]({%slug chart-series-line-series%}).
 * Scatter Series such as the [ScatterLine Series]({% slug chart-series-scatter-line-series %}) and [ScatterPoint Series]({% slug chart-series-scatter-point-series %}).
 * Financial Series such as the [OHLC Series]({% slug chart-series-ohlc-series %}) and [Candlestick Series]({% slug chart-series-candlestick-series %}).
 
