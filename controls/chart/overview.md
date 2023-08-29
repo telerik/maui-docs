@@ -30,7 +30,7 @@ The following series are part of the CartesianChart:
 * Scatter Series such as the [ScatterLine Series]({% slug chart-series-scatter-line-series %}) and [ScatterPoint Series]({% slug chart-series-scatter-point-series %}).
 * Financial Series such as the [OHLC Series]({% slug chart-series-ohlc-series %}) and [Candlestick Series]({% slug chart-series-candlestick-series %}).
 
-**Chart Axes**
+#### Chart Axes
 
 * Depending on the type of Cartesian Chart and the used series, the Chart provides a [Categorical axis]({% slug axes-categorical-axis %}), a [Numerical axis]({% slug axes-numerical-axis %}), and a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
 
