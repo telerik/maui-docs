@@ -22,7 +22,7 @@ The Telerik UI for .NET MAUI SignaturePad control gives you the option to captur
 
 * [Exhaustive number of events]({%slug signaturepad-events%})&mdash;SignaturePad provides events that are raised when a new stroke is started, completed and an event fired when the surface is cleared.  
 
-* [Commands Support]({%slug signaturepad-commands%})&mdash;Cclear the signature from the surface using the exposed command. 
+* [Commands Support]({%slug signaturepad-commands%})&mdash;Clear the signature from the surface using the exposed command. 
 
 ## Next Steps
 
