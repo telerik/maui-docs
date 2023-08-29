@@ -32,7 +32,10 @@ The following series are part of the CartesianChart:
 
 #### Chart Axes
 
-* Depending on the type of Cartesian Chart and the used series, the Chart provides a [Categorical axis]({% slug axes-categorical-axis %}), a [Numerical axis]({% slug axes-numerical-axis %}), and a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
+Depending on the type of Cartesian Chart and the used series, the Chart provides:
+* a [Categorical axis]({% slug axes-categorical-axis %}).
+* a [Numerical axis]({% slug axes-numerical-axis %}).
+* a [Date-Time Continuous axis]({% slug axes-date-time-continuous-axis %}).
 
 **Chart Grid**
 
