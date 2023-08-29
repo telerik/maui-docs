@@ -18,7 +18,7 @@ The Telerik UI for .NET MAUI SlideView is a flexible navigation control that all
 
 * [Buttons]({%slug slideview-interaction%})&mdash;Users can use the navigation buttons to switch through the different views.
 
-* [Indicators]({%slug slideview-indicators%})&mdash;Show changes when navigation from the current item to another item.
+* [Indicators]({%slug slideview-indicators%})&mdash;Show changes when navigating from the current item to another item.
 
 * [Customizable indicators and navigation buttons]({%slug indicators-styling%})&mdash;SlideView allows you to customize the appearance of the indicators and slide buttons.
 
