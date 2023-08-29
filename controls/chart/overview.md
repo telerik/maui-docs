@@ -60,7 +60,7 @@ The Telerik UI for .NET MAUI Charts support the following behaviors:
 
 - [Pan-and-Zoom behavior]({% slug chart-behaviors-pan-and-zoom %})&mdash;This behavior handles `Manipulation` events and/or `MouseMove` and `MouseWheel` to enable the panning and zooming of the associated chart plot area.
 - [Tooltip behavior]({% slug chart-behaviors-tooltip %})&mdash;This behavior handles the `Hold` and/or `MouseMove` events to enable context-sensitive information about a data point. The Tooltip behavior differs from the `TrackballBehavior` in its visual information and trigger action.
-- [Selection behavior]({% slug chart-behaviors-selection %})&mdash;This behavior handles the `Tap` event to enable the selection and deselection of data points and/or chart series. When a data point becomes **Selected**, you can use the `SelectionPalette` property of the Chart to visualize the selected point.
+- [Selection behavior]({% slug chart-behaviors-selection %})&mdash;This behavior handles the `Tap` event to enable the selection and deselection of data points and/or chart series. When a data point becomes selected, you can use the `SelectionPalette` property of the Chart to visualize the selected point.
 - [TrackBall behavior]({% slug chart-behaviors-trackball %})&mdash;This behavior handles `Hold` events to enable context-sensitive information about a data point.
 
 ### Annotations
