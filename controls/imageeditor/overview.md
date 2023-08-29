@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI ImageEditor is a control that enables you to visual
 
 ## Key features
 
-* Importing and Exporting images&mdash;ImageEditor allows you to import different image formats such as `JPEG`, `PNG`, `GIF`, `BMP` and export images in `JPEG`, `PNG`, `GIF`, `BMP` formats.
+* Importing and Exporting images&mdash;ImageEditor allows you to import different image formats such as `.jpeg`, `.png`, `.gif`, `.bmp` and export images in `.jpeg`, `.png`, `.gif`, `.bmp` formats.
 * [Various image source options]({%slug imageeditor-loading-image%})&mdash;Load images from a Stream, File (as embedded resource, or image located on the device) and URI.
 * Rich image editing features set: The control comes with a various editing capabilities: 
 	* **Image Transformations**
