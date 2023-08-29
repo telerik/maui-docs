@@ -39,7 +39,7 @@ Depending on the type of Cartesian Chart and the used series, the Chart provides
 
 #### Chart Grid
 
-[Chart Grid type]({% slug cartesian-chart-grid %}) is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
+The [Chart Grid type]({% slug cartesian-chart-grid %}) is optionally decorated with grid-like visuals, which support horizontal and vertical lines, and are associated with axis ticks and horizontal and vertical stripes (the area between two adjacent ticks).
 
 ### Pie Charts
 
