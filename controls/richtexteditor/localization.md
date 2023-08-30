@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: Xamarin RichTextEditor Documentation | Localization
-description: Check our &quot;Localization&quot; documentation article for Telerik RichTextEditor for Xamarin control.
+description: Learn more about the localization in the Telerik UI for .NET MAUI RichTextEditor control.
 position: 8
 slug: richtexteditor-localization
 published: False

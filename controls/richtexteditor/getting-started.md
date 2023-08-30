@@ -12,7 +12,7 @@ This article will guide you through the steps needed to add a basic RichTextEdit
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![.NET MAUI RichTextEditor Getting Started](images/rte-getting-started.png)
 
@@ -30,14 +30,14 @@ Before adding the RichTextEditor, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a RichTextEditor control to your page. The following example shows a sample RichTextEditor definition.
 
-> RadRichTextEditor relies on WebView for the rendering of HTML content. Some of the limitations for placing WebView on the page which are also valid for RichTextEditor:
+> `RadRichTextEditor` relies on WebView for the rendering of HTML content. Some of the limitations for placing WebView on the page which are also valid for RichTextEditor:
 >
 > - Nesting `RadRichTextEditor` inside a ScrollView control is not supported. `RadRichTextEditor` provides its own scrolling mechanism.
 >
 > - When the `RadRichTextEditor` is placed inside a `StackLayout`, you need to set explicitly its `WidthRequest` and `HeightRequest` properties, otherwise the control will not render. This is because `StackLayout` usually wants to size itself according to its children, but a WebView (since it does scrolling) wants to size itself to its parent. You can learn more about this in the [.NET MAUI WebView documentation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/webview?pivots=devices-windows).
 
 >
-> You should either use a Grid as a parent container or explicitly define the size of the RichTextEditor control.
+> You have to either use a Grid as a parent container or explicitly define the size of the RichTextEditor control.
 
 
 **1.** Set up the `RichTextEditor` instance:
