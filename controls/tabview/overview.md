@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI TabView Documentation - Overview
-description: Check our &quot;Overview&quot; documentation article for Telerik TabView for .NET MAUI control.
+description: Try now the Telerik UI for .NET MAUI TabView control that allows you to build tabbed interfaces.
 slug: tabview-overview
 tags: tabview, overview
 position: 0

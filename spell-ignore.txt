@@ -118,3 +118,5 @@ SideDrawer
 SideDrawerCommandBase
 SignaturePad
 WrapLayout
+TabView
+TabViewItem
