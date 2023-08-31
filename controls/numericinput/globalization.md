@@ -11,7 +11,7 @@ slug: numericinput-globalization
 
 &nbsp;
 
-Globalization is the process of designing and developing your application in such a way that it adapts to different culture configurations. The number formatting also varies between cultures, in addition for some specific symbols, such as decimal separators, currency and other.
+Globalization is the process of designing and developing your application in such a way that it adapts to different culture configurations. The number formatting also varies between cultures, especially for some specific symbols, such as decimal separators, currency and other.
 
 The NumericInput provides you the option to define the format of its numeric value through the `StringFormat` property. You can set it to the desired format which will be applied when the control loses focus.
 
