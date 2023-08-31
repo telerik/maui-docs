@@ -1,7 +1,7 @@
 ---
 title: Transitions
 page_title: .NET MAUI SideDrawer Documentation - Transitions
-description: Learn what are the different animation effects you can apply to the Telerik UI for .NET MAUI SideDrawer control when opening, closing.
+description: Learn what are the different animation effects you can apply to the Telerik UI for .NET MAUI SideDrawer control on opening or closing.
 position: 3
 slug: sidedrawer-features-transitions
 ---

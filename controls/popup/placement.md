@@ -10,7 +10,7 @@ slug: popup-placement
 
 The Popup supports useful properties, which enable you to position it depending on your requirements.
 
-* `PlacementTarget`&mdash;Defines an element in relation to which the popup is positioned when is open.
+* `PlacementTarget`&mdash;Defines an element in relation to which the popup is positioned when opened.
 
 * `Placement`&mdash;Specifies the way the popup aligns to its placement target. The `Placement` property is of type `PlacementMode` and can be set to any of the `Top`, `Right`, `Left`, `Bottom`, `Center`, or `Relative` options where:
 	* `Top`, `Right`, `Left`, and `Bottom` align the Popup control to the corresponding corner of the placement target.

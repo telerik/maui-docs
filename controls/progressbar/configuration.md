@@ -52,7 +52,7 @@ The `StringFormat`(`string`) specifies the string format applied to the numeric 
 
 * (default) Percent&mdash;Displays the progress as percent from the range from minimum to maximum;
 * Value&mdash;Displays the Progress value.
-* Text&mdash;Shows custom text inside the progress bar label. You will need to combine it with `CustomText` property of the ProgressBar.
+* Text&mdash;Shows custom text inside the progress bar label. You need to combine it with `CustomText` property of the ProgressBar.
 * None&mdash;No text is shown inside the progress bar.
 
 Here is a quick example with `ValueDisplayMode` set to `Value`:
