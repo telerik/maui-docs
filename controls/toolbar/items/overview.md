@@ -8,7 +8,7 @@ slug: toolbar-items
 
 # .NET MAUI ToolbarItem Overview
 
-![Toolbar Visual Structure](../images/toolbar-visual-structure.png "Visual elements of Toolbar")
+![.NET MAUI Toolbar Visual Structure](../images/toolbar-visual-structure.png "Visual elements of Toolbar")
 
 The Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available items are described in the table below: 
 
@@ -29,7 +29,7 @@ The Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available i
 | `SeparatorToolbarItem` | Represents a separator(which is an UI element) in the Toolbar control. |
 | `GroupToolbarItem` | Organize toolbar items in a group. |
 
-In additon you can define an option panel in the toolbar using the `RadToolbarOptionsPanel`.
+In addition, you can define an option panel in the toolbar using the `RadToolbarOptionsPanel`.
 
 ## Common properties for configuration 
 
@@ -37,11 +37,11 @@ All toolbar items inherits from `ToolbarItem`. The available properties ToolbarI
 
 * `IsVisible`(`bool`)&mdash;Specifies whether the toolbar item is visible.
 * `IsEnabled`(`bool`)&mdash;Specifies whether the toolbar item is enabled.
-* `Style`(`Style`)&mdash;Specifies the style applied to the toolbar item. Each toolbar item has a corresponding ToolbarItemView. And this is the target type of the Style.
+* `Style`(`Style`)&mdash;Specifies the style applied to the toolbar item. Each toolbar item has a corresponding `ToolbarItemView`. And this is the target type of the Style.
 
 For example the target type for `ButtonToolbarItem` `Style` is `ButtonToolbarItemView`.
 
-* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template applied to the toolbar item. Each toolbar item has a corresponding ToolbarItemView. And this is the target type of the `ControlTemplate`.
+* `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template applied to the toolbar item. Each toolbar item has a corresponding `ToolbarItemView`. And this is the target type of the `ControlTemplate`.
 
 * `PlacementOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemPlacementOptions`)&mdash;Defines the allowed placement options of the toolbar item in the toolbar. This type supports a bitwise combination of its members to enable more than one option. The available options are:
 	* `ToolStrip`&mdash;The toolbar item appears in the main tool strip area of the toolbar.
@@ -49,7 +49,7 @@ For example the target type for `ButtonToolbarItem` `Style` is `ButtonToolbarIte
 
 ## Styling
 
-Style the toolbar items using the `Style`(`Style`) property. Each toolbar item has a corresponding ToolbarItemView and this is the target type of the Style property.
+Style the toolbar items using the `Style`(`Style`) property. Each toolbar item has a corresponding `ToolbarItemView` and this is the target type of the Style property.
 
 | Toolbar Item | Style Target Type |
 | ------------ | ------- |

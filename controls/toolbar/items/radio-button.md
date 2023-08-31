@@ -19,15 +19,15 @@ The available properties for configuration are:
 
 ## Events
 
-* `IsSelectedChanged`&mdash:Raised when the `IsSelected` property has changed.
+* `IsSelectedChanged`&mdash;Raised when the `IsSelected` property has changed.
 * `Clicked`&mdash;Raised when the button is clicked.
 
 ## Commands
 
 The available commands are:
 
-* `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
-* `Command`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
+* `Command`(`ICommand`)&mdash;Specifies the command to execute when the button is clicked.
+* `Command`(`object`)&mdash;Specifies the parameter of the command, which is executed when the button is clicked.
 
 ## Styling
 
