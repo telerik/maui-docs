@@ -2,7 +2,8 @@
 title: Control Template
 page_title: .NET MAUI TreeView Documentation - Control Template
 description: Review what is the control template for Telerik UI for .NET MAUI TreeView control and how to modify the elements in the template.
-position: 7
+position: 4
+previous_url: /controls/treeview/control-template
 slug: treeview-control-template
 ---
 

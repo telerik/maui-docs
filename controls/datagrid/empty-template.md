@@ -1,14 +1,14 @@
 ---
 title: Empty Template
 page_title: .NET MAUI DataGrid Documentation - Empty Template
-description: "Learn more about the Empty Template property of the DataGrid control."
+description: Learn more about the Empty Template property of the DataGrid control.
 position: 9
 slug: datagrid-empty-template
 ---
 
 # .NET MAUI DataGrid Empty Template
 
-The `DataGrid` control provides the ability to specify a template when the `ItemsSource` is null or collection is empty.
+The DataGrid control provides the ability to specify a template when the `ItemsSource` is null or collection is empty.
 
 It exposes the following properties:
 

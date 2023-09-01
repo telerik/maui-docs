@@ -1,28 +1,35 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the Accordion from Xamarin.Forms to .NET MAUI
-description: Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
-position: 20
+description: Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI Calendar by updating the namespaces, the incompatible NuGet packages and API.
+tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
+position: 100
 slug: accordion-migrate-from-xamarin
 ---
 
-# Migrating the Accordion from Xamarin to .NET MAUI
+# Migrating the Accordion from Xamarin.Forms to .NET MAUI
 
-Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Accordion with a few changes and improvements. All changes are listed in the tables below:
+Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Accordion with a few changes and improvements.
 
-## Migrating the Namespaces
+The tables in the following sections list the differences between the APIs of the Xamarin.Forms Accordion and .NET MAUI TreeView.
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+## Namespaces Differences
+
+When migrating the Accordion from Xamarin to .NET MAUI, consider the following differences in the namespaces:
+
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin Accordion | `RadAccordion` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI Accordion | `RadAccordion` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
-## Modifying the API
+## API Differences
+
+When migrating the Accordion from Xamarin to .NET MAUI, consider the following differences in the API:
 
 | Xamarin Accordion | .NET MAUI Accordion |
 | ------------- | --------------- |
-| - | `CanExpandMultipleItems` |
-| - | `Items` |
+| NA | `CanExpandMultipleItems` |
+| NA | `Items` |
 
 ## See Also
 
