@@ -31,7 +31,7 @@ All other properties that can be applied through style are the properties expose
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})
 - [ToggleButton ToolbarItem]({%slug toolbar-items-toggle-button%})
 - [Label ToolbarItem]({%slug toolbar-items-label%})
-- [NavigationButton ToolbarItem]({%slug toolbar-items-navigation-button%})
+- [Navigation Button ToolbarItem]({%slug toolbar-items-navigation-button%})
 - [ListPicker ToolbarItem]({%slug toolbar-items-listpicker-button%})
 - [RadioButton ToolbarItem]({%slug toolbar-items-radio-button%})
 - [Slider ToolbarItem]({%slug toolbar-items-slider%})

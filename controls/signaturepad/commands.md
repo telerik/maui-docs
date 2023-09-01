@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI SignaturePad Documentation - Commands
-description: "Review all commands provided in Telerik SignaturePad for .NET MAUI control."
+description: Review all commands provided in the Telerik UI for .NET MAUI SignaturePad control.
 position: 10
 tags: sing pad, signature, maui, ,net maui, sign, signature pad
 slug: signaturepad-commands

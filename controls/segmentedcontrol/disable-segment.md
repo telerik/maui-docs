@@ -1,7 +1,7 @@
 ---
 title: Disabled Segments
 page_title: .NET MAUI SegmentedControl Documentation - Disabled Segments
-description: Check our &quot;Disable a Segment&quot; documentation article for Telerik SegmentedControl for .NET MAUI control.
+description: Learn more about how to disable segments in the Telerik UI for .NET MAUI SegmentedControl.
 position: 3
 slug: segmentedcontrol-disable-segment
 ---
@@ -36,7 +36,7 @@ You can disable any segment with `SetSegmentEnabled` method:
 
 The following image shows the end result.
 
-![SegmentedControl disable segment](images/segmentcontrol-features-disablesegment-0.png)
+![.NET MAUI SegmentedControl disable segment](images/segmentcontrol-features-disablesegment-0.png)
 
 ## See Also
 

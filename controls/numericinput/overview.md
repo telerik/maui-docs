@@ -9,7 +9,7 @@ slug: numericinput-overview
 
 # .NET MAUI NumericInput Overview
 
-**Telerik UI for .NET MAUI NumericInput** is a highly customizable input control for numeric data. It allows the user to set and edit a number by using the **Decrease** and **Increase** buttons or by directly entering it in the input field.
+Telerik UI for .NET MAUI NumericInput is a customizable input control for numeric data. It allows the user to set and edit a number by using the **Decrease** and **Increase** buttons or by directly entering it in the input field.
 
 ![.NET MAUI NumericInput Overview](images/numericinput_overview.png "NumericInput Overview")
 

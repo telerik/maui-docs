@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI SideDrawer Documentation - Getting Started
-description: Learn what are the getting started steps to add the SideDrawer to your application.
+description: Learn what are the getting started steps to add the Telerik UI for .NET MAUI SideDrawer cotrol to your application.
 position: 1
 slug: sidedrawer-getting-started
 ---
@@ -28,7 +28,7 @@ Before adding the SideDrawer, you need to:
 
 The SideDrawer control contains two views - `MainContent` and `DrawerContent` The `DrawerContent` represents the hidden view (in it you can place navigational UI, any common setting, etc), while the `MainContent` hosts the main `View`.
 
-![Visual Structure](images/sidedrawer_visualstructure.png)
+![.NET MAUI SideDrawer Visual Structure](images/sidedrawer_visualstructure.png)
 
 **1.** When your .NET MAUI application is set up, you are ready to add a SideDrawer control to your page. The following example demonstrates how to define the `MainContent` and `DrawerContent` of the control.
 

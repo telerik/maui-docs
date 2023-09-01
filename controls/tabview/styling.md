@@ -53,9 +53,9 @@ And the result is the following:
 
 ![.NET MAUI TabView Header Style](images/styling-headerstyle.png)
 
-> For a runnable example with the TabView HeaderStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
+> For a runnable example with the TabView `HeaderStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
-## HeaderItem Styling
+## Header Item Styling
 
 Through `HeaderItemStyle` property of the TabView the following styling properties can be applied to the `TabViewHeaderItem`:
 
@@ -84,9 +84,9 @@ Through `HeaderItemStyle` property of the TabView the following styling properti
 
 Here is the TabView after applying the `HeaderItemStyle`:
 
-![.NET MAUI TabView HeaderItem Style](images/styling-headeritemstyle.png)
+![.NET MAUI TabView Header Item Style](images/styling-headeritemstyle.png)
 
-> For a runnable example with the TabView HeaderItemStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
+> For a runnable example with the TabView `HeaderItemStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## Content Styling
 
@@ -104,7 +104,7 @@ The image below shows TabView after applying `ContentStyle`:
 
 ![.NET MAUI TabView Content Style](images/styling-contentstyle.png)
 
-> For a runnable example with the TabView ContentStyle scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
+> For a runnable example with the TabView `ContentStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## See Also
 

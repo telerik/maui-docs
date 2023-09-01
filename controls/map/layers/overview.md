@@ -8,11 +8,11 @@ slug: map-layers-overview
 
 # .NET MAUI Map Layers
 
-The Map control visualizes spatial data using **layered architecture**. It can display spatial data points
-(location of cities), polylines (road connections), or polygons (shape of countries or continents) in a **geographic coordinate system**. In this coordinate system, a point on the surface of the earth is defined using latitudes and longitudes.
+The Map control visualizes spatial data using layered architecture. It can display spatial data points
+(location of cities), polylines (road connections), or polygons (shape of countries or continents) in a geographic coordinate system. In this coordinate system, a point on the surface of the earth is defined using latitudes and longitudes.
 
-* **Latitude**&mdash;This is measured as the angle from the equatorial plane to the line drawn from the center of the earth to the point on the surface. Usually latitude values range from 90° (toward the North Pole and suffixed with "N") to -90° (towards the South Pole and suffixed with "S").
-* **Longitude**&mdash;This is measured on the equatorial plane and is defined as the angle between the line drawn from the center of the earth to the point and the line drawn from center of the earth to the prime meridian. Usually the longitude values range from 180° (to the east of prime meridian and suffixed with "E") to -180° (to the west of prime meridian and suffixed with "W").
+* Latitude&mdash;This is measured as the angle from the equatorial plane to the line drawn from the center of the earth to the point on the surface. Usually latitude values range from 90° (toward the North Pole and suffixed with "N") to -90° (towards the South Pole and suffixed with "S").
+* Longitude&mdash;This is measured on the equatorial plane and is defined as the angle between the line drawn from the center of the earth to the point and the line drawn from center of the earth to the prime meridian. Usually the longitude values range from 180° (to the east of prime meridian and suffixed with "E") to -180° (to the west of prime meridian and suffixed with "W").
 
 ![.NET MAUI Map-Geographic Coordinate System](../images/map-geographiccoordinatesystem.png)
 

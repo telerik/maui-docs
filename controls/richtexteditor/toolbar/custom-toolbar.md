@@ -8,9 +8,9 @@ slug: richtexteditor-custom-toolbar
 
 # RichTextEditor Custom Toolbar
 
-You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include.
+You can customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include.
 
-Here is an exmaple with custom toolbar items: 
+Here is an example with custom toolbar items: 
 
 **1.** RichTextEditor and Toolbar definitions in XAML:
 
@@ -22,7 +22,7 @@ Here is an exmaple with custom toolbar items:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Load the html document in the RichTextEditor:
+**3.** Load the HTML document in the RichTextEditor:
 
 <snippet id='richtexteditor-toolbar-load-source' />
 

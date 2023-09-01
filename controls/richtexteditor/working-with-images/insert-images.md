@@ -1,7 +1,7 @@
 ---
 title: Insert and Edit Images
 page_title: .NET MAUI RichTextEditor Documentation - Insert and Edit Images
-description: Check our &quot;Insert Edit Images&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
+description: Learn more about the toolbar items and how they work with images in the Telerik UI for .NET MAUI RichTextEditor control.
 position: 2
 slug: richtexteditor-insert-images
 ---
@@ -12,7 +12,7 @@ This article describes the built-in toolbar items for insert and edit images.
 
 ## Insert Images
 
-Use the following toolbar items for adding/instering an image in the editor. 
+Use the following toolbar items for adding/inserting an image in the editor. 
 
 * `RichTextEditorAddImageToolbarItem`&mdash;Allows you to add an image; the RichTextEditor `PickImage` event is fired, so you can handle the logic for selecting an image. The toolbar is enabled if no image is selected.
 * `RichTextEditorAddOrEditImageToolbarItem`&mdash;Adds or edits images depending whether image is selected. If image is selected, the editor opens a dialog to edit the image. If image is not selected the `PickImage` event fires.
@@ -22,7 +22,7 @@ Use the following toolbar items for adding/instering an image in the editor.
 
 The `RichTextEditorImageNavigationToolbarItem` has the following items: 
 
-* `RichTextEditorEditImageToolbarItem`&mdash;Allows you to resize the image. In addition the toolbar allows you to pick an image (the RichTextEditor.`PickImage` event is fired) if you haven't selected one. Check [Edit Image ToolbarItem]({%slug richtexteditor-insert-images%}#edit-image-toolbaritem) for more details.
+* `RichTextEditorEditImageToolbarItem`&mdash;Allows you to resize the image. In addition the toolbar allows you to pick an image (the RichTextEditor.`PickImage` event is fired) if you haven't selected one. Check [Edit Image Toolbar Item]({%slug richtexteditor-insert-images%}#edit-image-toolbaritem) for more details.
 * `RichTextEditorCutToolbarItem`&mdash;Allows you to cut the selected HTML/image to the clipboard.
 * `RichTextEditorCopyToolbarItem`&mdash;Allows you to copy the selected HTML/image to the clipboard. 
 * `RichTextEditorPasteHtmlToolbarItem`&mdash;Allows you to paste HTML/image from the clipboard.
@@ -30,9 +30,9 @@ The `RichTextEditorImageNavigationToolbarItem` has the following items:
 
 How the editing toolbar looks when image is selected: 
 
-![RichTextEditor AddImage](../images/rte-image-operation-toolbar-items.png)
+![.NET MAUI RichTextEditor Add Image](../images/rte-image-operation-toolbar-items.png)
 
-## Edit Image ToolbarItem
+## Edit Image Toolbar Item
 
 `RichTextEditorEditImageToolbarItem` allows you to resize the image and pick an image. When tapping on the `RichTextEditorImageDialogToolbarItem`, a dialog is displayed. The options for customization are described in the table below:
 
@@ -51,13 +51,13 @@ How the editing toolbar looks when image is selected:
 | `OkButtonText` | Defines the text for Ok button. Default value `Ok` |
 | `CancelButtonText` | Defines the text for Cancel button. Default value: `Cancel` |
 
-![RichTextEditor AddImage](../images/rte-edit-image-dialog.png)
+![.NET MAUI RichTextEditor Add Image](../images/rte-edit-image-dialog.png)
 
 ## ImagePickerToolbar Item
 
 * `RichTextEditorImagePickerToolbarItem`(`Telerik.Maui.Controls.RichTextEditor.RichTextEditorListPickerButtonToolbarItem`)&mdash;Allows you to pick an image from a collection of pre-defined images.
 
-![RichTextEditor ImagePicker Toolbar](../images/rte-custom-image-picker.png)
+![.NET MAUI RichTextEditor ImagePicker Toolbar](../images/rte-custom-image-picker.png)
 
 ### Example
 
@@ -73,7 +73,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** The VieWModel for the ImagePicker ItemsSource and RichTextEditor Source:
+**3.** The `VieWModel` for the `ImagePicker` Items Source and RichTextEditor Source:
 
 <snippet id='richtexteditor-customimage-viewmodel' />
 

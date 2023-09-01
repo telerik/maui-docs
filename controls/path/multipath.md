@@ -1,15 +1,14 @@
 ---
 title: MultiPath
 page_title: .NET MAUI Path Documentation - MultiPath
-description: Check our &quot;MultiPath&quot; documentation article for Telerik Path for .NET MAUI.
-position: 4
+description: Learn more how to use the multi path which combines a number of Path Geometry objects into a single element.
 previous_url: /controls/path/path-multipath
 slug: path-multipath
 ---
 
 # .NET MAUI Multi Path
 
-The MultiPath allows you to combine several PathGeometry objects into a single element. The MultiPath contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
+The Multi Path allows you to combine a number of `PathGeometry` objects into a single element. The Multi Path contains a collection of `RadPathDefinition` objects and each of them provides a `Geometry` property as well as the same styling properties as the Path.
 
 The following example demonstrates how to define a `RadMultiPath`.
 
@@ -39,7 +38,7 @@ public partial class MainPage : ContentPage
 
 The image below shows the result:
 
-![MultiPath](images/path_multipath.png)
+![.NET MAUI Multi Path](images/path_multipath.png)
 
 ## See Also
 

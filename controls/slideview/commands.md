@@ -10,9 +10,9 @@ slug: slideview-commands
 
 The Telerik UI for .NET MAUI SlideView provides the following commands:
 
-* `NavigateToPreviousItemCommand` (`ICommand`)&mdash;Handles navigation to the previous item. If the RadSlideView `HasLooping` property is set to `true` and the current item is the first item, then the navigation to the last item will happen seemingly as if it was the previous item.
+* `NavigateToPreviousItemCommand` (`ICommand`)&mdash;Handles navigation to the previous item. If the `RadSlideView` `HasLooping` property is set to `true` and the current item is the first item, then the navigation to the last item will happen seemingly as if it was the previous item.
 
-* `NavigateToNextItemCommand` (`ICommand`)&mdash;Handles the navigation to the next item. If the RadSlideView `HasLooping` property is set to true and the current item is the last item, then the navigation to the first item will happen seemingly as if it was the next item.
+* `NavigateToNextItemCommand` (`ICommand`)&mdash;Handles the navigation to the next item. If the `RadSlideView` `HasLooping` property is set to true and the current item is the last item, then the navigation to the first item will happen seemingly as if it was the next item.
 
 ## Example 
 

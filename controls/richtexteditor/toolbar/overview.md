@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI RichTextEditor Documentation - Toolbar
-description: Check our &quot;RichTextEditor Toolbar&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
+description: Learn more about the toolbar in the Telerik UI for .NET MAUI RichTextEditor control.
 position: 1
 slug: richtexteditor-toolbar
 ---
@@ -16,7 +16,7 @@ To attach the RichTextEditor control to the `RadRichTextEditorToolbar` control, 
 
 <snippet id='richtexteditor-getting-started-xaml' />
 
-On Mobile, the `RichTextEditorToolbar` is horizontally scrollable, so that the toolbar items can be easily accessed:
+On Mobile, the `RichTextEditorToolbar` is horizontally scrollable, so that the toolbar items can be accessed:
 
 ![.NET MAUI RichTextEditor Mobile Toolbar](../images/rte-toolbar-mobile.gif)
 
@@ -69,7 +69,7 @@ Here are the all toolbar items definition:
 
 ## RichTextEditor Toolbar Placement
 
-There are some specifics you'd need to take into account when placing `RichTextEditorToolbar` on the page:
+Some specifics you'd need to take into account when placing `RichTextEditorToolbar` on the page:
 
 * On Android—When you place the RichTextEditor Toolbar below the RichTextEditor, you set the Application's `WindowSoftInputModeAdjust` to `Resize`. This setting causes the page to resize when the keyboard is shown, and in this way, if the `RichTextEditorToolbar` is on the bottom of the page, it will be displayed over the keyboard when it appears.
 
@@ -81,14 +81,14 @@ App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust
 
 >tip For more details, check the [Soft Keyboard Input Mode on Android](https://learn.microsoft.com/en-us/dotnet/maui/android/platform-specifics/soft-keyboard-input-mode) from .NET MAUI documentation.
 
-* On iOS—If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard so users can access it without a problem. Due to the [.NET MAUI implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds will still contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
-* RichTextEditorToolbar must have a greater `ZIndex` than the other elements in its parent layout in order to be visible (and not behind other views, like RichTextEditor) when translated over the keyboard. Also, it must be contained in the bounds of its parent layout after translation. In this case, set the `ZIndex` property to the RichTextEditorToolbar.
+* On iOS—If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard so users can access it without a problem. Due to the [.NET MAUI implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds will contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
+* `RichTextEditorToolbar` must have a greater `ZIndex` than the other elements in its parent layout to be visible (and not behind other views, like RichTextEditor) when translated over the keyboard. Also, it must be contained in the bounds of its parent layout after translation. In this case, set the `ZIndex` property to the `RichTextEditorToolbar`.
 
 > For the RichTextEditor Toolbar examples, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Toolbar**.
 
 ## Custom Toolbar
 
-You can easily customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;Review the [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
+You can customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include. For more details on this&mdash;Review the [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
 
 ## See Also
 

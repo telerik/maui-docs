@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI Path Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI Path and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI Path and add the control to your .NET MAUI project.
 position: 1
 slug: path-getting-started
 ---
@@ -10,9 +10,9 @@ slug: path-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Path by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
-![Path Getting Started](images/path-gettingstarted.png)
+![.NET MAUI Path Getting Started](images/path-gettingstarted.png)
 
 ## Prerequisites
 

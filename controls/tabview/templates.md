@@ -9,7 +9,7 @@ position: 14
 
 # .NET MAUI TabView Templates
 
-The TabView provides set of templates for its elements. If you want to fully change the TabView appearance you can use the provided templates: 
+The TabView provides set of templates for its elements. If you want to change the TabView appearance you can use the provided templates: 
 
 * `HeaderTemplate` (`ControlTemplate`)&mdash;Defines the template of the entire header area. This includes the tabs in the Header (Header area + Header items).
 * `HeaderItemTemplate` (`ControlTemplate`)&mdash;Defines the template of the individual header items.
@@ -45,7 +45,7 @@ And the namespace used:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
->note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView HeaderItem and TabView Content using the flexible styling API. For more details review the [TabView Styling article]({%slug tabview-styling%}).
+>note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView `HeaderItem` and TabView Content using the flexible styling API. For more details review the [TabView Styling article]({%slug tabview-styling%}).
 
 ## See Also
 

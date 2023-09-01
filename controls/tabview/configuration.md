@@ -60,7 +60,7 @@ TabView control allows you to scroll through the tabs inside the TabView Header.
 
 To enable the scrolling use the `IsHeaderScrollable` (`bool`)property. The default value is `True`.
 
-![TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
+![.NET MAUI TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
 
 ## Overlaid Header Area
 

@@ -35,12 +35,12 @@ The exposed events are:
 
 The available commands are:
 
-* `Command`(`ICommand`)&mdash;Specfies the command to execute when the button is clicked.
-* `CommandParameter`(`object`)&mdash;Specfies the parameter of the command, which is executed when the button is clicked.
+* `Command`(`ICommand`)&mdash;Specifies the command to execute when the button is clicked.
+* `CommandParameter`(`object`)&mdash;Specifies the parameter of the command, which is executed when the button is clicked.
 
 ## Styling
 
-ButtonToolbarItem has a `Style` property with target type `ButtonToolbarItemView`. The properties exposed in the `ButtonToolbarItemView` are `Command`, `CommandParameter`, `Clicked` event.
+`ButtonToolbarItem` has a `Style` property with target type `ButtonToolbarItemView`. The properties exposed in the `ButtonToolbarItemView` are `Command`, `CommandParameter`, `Clicked` event.
 
 All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
@@ -51,7 +51,7 @@ All other properties that can be applied through style are the properties applic
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})
 - [ToggleButton ToolbarItem]({%slug toolbar-items-toggle-button%})
 - [Label ToolbarItem]({%slug toolbar-items-label%})
-- [NavigationButton ToolbarItem]({%slug toolbar-items-navigation-button%})
+- [Navigation Button ToolbarItem]({%slug toolbar-items-navigation-button%})
 - [ListPicker ToolbarItem]({%slug toolbar-items-listpicker-button%})
 - [Group ToolbarItem]({%slug toolbar-items-group%})
 - [RadioButton ToolbarItem]({%slug toolbar-items-radio-button%})

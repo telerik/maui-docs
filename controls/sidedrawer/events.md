@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI SideDrawer Documentation - Events
-description: SideDrawer for .NET MAUI exposes events that are triggered when drawer is opening, opend, closing, closed
+description: The Telerik UI for .NET MAUI SideDrawer control exposes events that are triggered when drawer is opening, opend, closing, closed
 position: 4
 slug: sidedrawer-features-events
 ---

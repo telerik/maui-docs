@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI ProgressBar Documentation - Styling
-description: "Style the Telerik ProgressBar for .NET MAUI control."
+description: Learn how to style the Telerik Ui for .NET MAUI ProgressBar control.
 position: 10
 slug: progressbar-styling
 ---
@@ -16,14 +16,14 @@ The ProgressBar control for .NET MAUI provides styling options for customizing i
 
 <snippet id='progressbar-styling-trackfill'/>
 
-![ProgressBar Track Fill](images/progressbar-styling-track-fill.png)
+![.NET MAUI ProgressBar Track Fill](images/progressbar-styling-track-fill.png)
 
 * `ProgressFill`(`Brush`)&mdash;Specifies the color of the progress indicator.
 * Define corners of the progress indicator by setting the `ProgressCornerRadius`(`Microsoft.Maui.CornerRadius`) property. 
 
 <snippet id='progressbar-styling-progressfill'/>
 
-![ProgressBar Progress Fill](images/progressbar-styling-progress-fill.png)
+![.NET MAUI ProgressBar Progress Fill](images/progressbar-styling-progress-fill.png)
 
 ## Styling the text
 
@@ -35,7 +35,7 @@ The following properties are related to the text displayed in the ProgressBar:
 
 <snippet id='progressbar-styling-text'/>
 
-![ProgressBar Text Styling](images/progressbar-styling-text.png)
+![.NET MAUI ProgressBar Text Styling](images/progressbar-styling-text.png)
 
 ## Styling the segments
 
@@ -46,7 +46,7 @@ Style the ProgressBar segments using the following properties:
 
 <snippet id='progressbar-styling-separator-segments'/>
 
-![ProgressBar Segments Separator Fill](images/progressbar-styling-segments-separator.png)
+![.NET MAUI ProgressBar Segments Separator Fill](images/progressbar-styling-segments-separator.png)
 
 ## Styling the indeterminate mode
 
@@ -54,7 +54,7 @@ For indeterminate mode you can style the ProgressBar using the `ProgressFill`(`B
 
 <snippet id='progressbar-styling-separator-segments'/>
 
-![ProgressBar Style the indeterminate mode fill](images/progressbar-styling-indeterminate-fill.png)
+![.NET MAUI ProgressBar Style the indeterminate mode fill](images/progressbar-styling-indeterminate-fill.png)
 
 >important For the ProgressBar Styling example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

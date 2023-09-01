@@ -1,7 +1,7 @@
 ---
 title: Geometry Types
 page_title: .NET MAUI Path Documentation - Geometry Types
-description: "Use the predefined geometry types the Telerik Path for .NET MAUI supports and create your custom shapes for the control to visualize."
+description: Use the predefined geometry types the Telerik Path for .NET MAUI supports and create your custom shapes for the control to visualize.
 position: 3
 slug: geometry-types
 ---
@@ -53,7 +53,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![Path Figures](images/custom_default_paths.png)
+![.NET MAUI Path Figures](images/custom_default_paths.png)
 
 ## See Also
 
