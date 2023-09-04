@@ -15,23 +15,25 @@ This article will show you how you can use this property to achieve divergent ap
 
 ## Template Selector Implementation
 
-You have a `RadListView` bound to a collection of multiple `DataItem` objects and the appearance of each item depends on a specific property of the business object. Below is the `DataItem` class definition:
+You have a `RadListView` bound to a collection of multiple `DataItem` objects and the appearance of each item depends on a specific property of the business object. 
+
+**1.** Add the `DataItem` class:
 
 <snippet id='listview-itemtemplateselector-dataitem' />
 
-The first step is to create a sample `ViewModel` class with a collection of `DataItem` objects. The collection will later be applied to the `ItemsSource` property of the ListView:
+**2.** Create a sample `ViewModel` class with a collection of `DataItem` objects. The collection will later be applied to the `ItemsSource` property of the ListView:
 
 <snippet id='listview-itemtemplateselector-sourcecollection' />
 
-As you need to apply different template to the item based on the value of the `IsSpecial` property, you have to create a custom class that inherits from `DataTemplateSelector`. This class will return different `DataTemplate` according to whether the value is true or false:
+**3.** You need to apply different template to the item based on the value of the `IsSpecial` property, you have to create a custom class that inherits from `DataTemplateSelector`. This class will return different `DataTemplate` according to whether the value is true or false:
 
 <snippet id='listview-itemtemplateselector-customitemtemplateselector' />
 
-As a last step, you need to set this custom class as the `ItemTemplateSelector` property of the `RadListView` and customize the templates within it:
+**4.** Set this custom class as the `ItemTemplateSelector` property of the `RadListView` and customize the templates within it:
 
 <snippet id='listview-itemtemplateselector-setting-itemtemplateselector' />
 
-Add the needed namespaces:
+**5.** Add the needed namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"        
