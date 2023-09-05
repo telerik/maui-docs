@@ -22,7 +22,7 @@ Here is a quick example on how to user DatePicker:
 	
 >caption Chat with DatePicker
 
-![Chat Message](images/chat-date-picker.png)
+![.NET MAUI Chat Message](images/chat-date-picker.png)
 
 ## See Also
 
