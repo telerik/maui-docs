@@ -1,7 +1,7 @@
 ---
 title: Control Template
 page_title: .NET MAUI NumericInput Documentation - Control Template
-description: Check our &quot;Control Template&quot; documentation article for Telerik NumericInput for .NET MAUI
+description: Learn more about how to define the visual appearance through the control template of the Telerik UI for .NET MAUI NumericInput control.
 position: 6
 previous_url: /controls/numericinput/numericinput-control-template
 slug: numericinput-control-template
@@ -9,19 +9,19 @@ slug: numericinput-control-template
 
 # .NET MAUI NumericInput Control Template
 
-The visual appearance of the NumericInput is defined through a Control Template. To customize the way the NumericInput looks, you would need to take the default `ControlTemplate` and modify it.
+The visual appearance of the NumericInput is defined through a Control Template. To customize the way the NumericInput looks, take the default `ControlTemplate` and modify it.
 
 This topic gives an overview of the `ControlTemplate` of the NumericInput control, so you can copy it to your app and make changes. The template consists of **Decrease** and **Increase** buttons, the entry control for entering values as well as the accompanying styles.  
 
 The following example shows the original `ControlTemplate` used by the NumericInput control.
 
-First, add the required namespace:
+**1.** Add the required namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Within the appropriate resources section, define the base styles and finally the ControlTemplates for each platform.
+**2.** Within the proper resources section, define the base styles and finally the `ControlTemplate` for each platform.
 
 ```XAML
 <ResourceDictionary>

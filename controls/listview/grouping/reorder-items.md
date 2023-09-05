@@ -11,7 +11,7 @@ tags: group, radlistview, reordering
 
 # .NET MAUI ListView Reorder Items in Grouped scenario
 
-This help topic will provide an overview on how you could enable reordering feature of the ListView control when its items are grouped.
+This help topic will provide an overview on how you can enable reordering feature of the ListView control when its items are grouped.
 
 >tip Before proceeding, check the [Reorder Items]({%slug listview-features-reorder-items%}) topic which describes in details the reordering functionality of the ListView.
 
@@ -23,7 +23,7 @@ The `ReorderEndedCommandContext` gives you access to the following properties:
 * `DestinationItem`&mdash;Refers to the data item that corresponds to the location where the dragged item has been released.
 * `Group`&mdash;Gets the group containing the data item that is being interacted with.
 * `DestinationGroup`&mdash;Refers to the group that corresponds to the location where the dragged item has been released.
-* `Placement` (of type `ItemReorderPlacement`)&mdash;Indicates whether the dragged item should be placed before or after the destination item.
+* `Placement` (of type `ItemReorderPlacement`)&mdash;Indicates whether the dragged item have to be placed before or after the destination item.
 
 Below you can find a sample implementation.
 
@@ -47,7 +47,7 @@ And the business model:
 
 The following image shows the result:
 
-![ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
+![.NET MAUI ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
 
 ## See Also
 

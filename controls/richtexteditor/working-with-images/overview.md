@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI RichTextEditor Documentation - Working with Images
-description: Check our &quot;Working with Images&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
+description: Learn more about how to work with images in the Telerik UI for .NET MAUI RichTextEditor control.
 tags: edit, add, delete, images, insert images
 position: 1
 slug: richtexteditor-images-overview
@@ -28,7 +28,6 @@ You can insert images from URI, Data(byte []), Stream, File. The image source is
 * `RichTextImageSource FromStream(Func<CancellationToken, Task<Stream>> stream, RichTextImageType type)`
 * `RichTextImageSource FromUrl(string uri)`
 
-
 Also you have to point out the image format type. The supported image format types(of type `RichTextImageType`) are:
 
 * `Gif`
@@ -52,11 +51,11 @@ private void OnPickImage(object sender, Telerik.Maui.Controls.RichTextEditor.Pic
 
 ## Events 
 
-* `PickImage`&mdash;Raised when the user has requested to pick an image in the `RadRichTextEditor`. The PickImage event handler receives two parameters:
+* `PickImage`&mdash;Raised when the user has requested to pick an image in the `RadRichTextEditor`. The `PickImage` event handler receives two parameters:
 	* The `sender`, which is the RichTextEditor control;
 	* `PickImageEventArgs` provides the following methods:
-		* `Accept`&mdash;Invoke this method when the user has picked an image. Recieves one paramerter `imagesource` of type `RichTextImageSource`(Specifies the `RichTextImageSource` for the picked image);
-		* `Cancel`&mdash;Invoke this method when the user has cancelled the operation;
+		* `Accept`&mdash;Invoke this method when the user has picked an image. Receives one parameter `imagesource` of type `RichTextImageSource`(Specifies the `RichTextImageSource` for the picked image);
+		* `Cancel`&mdash;Invoke this method when the user has canceled the operation;
 
 * `InsertImageError`&mdash;Raised when trying to insert an image in the `RadRichTextEditor`. The `InsertImageError` event handler receives two parameters:
 	* The `sender`, which is the RichTextEditor control;

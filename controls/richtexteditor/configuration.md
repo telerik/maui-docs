@@ -22,7 +22,7 @@ this.richTextEditor.Source = "<b>Hello World!</b>";
 
 ### Load HTML from a String
 
-You can easily load the HTML content from a string by using the static <code>FromString</code> method of the `RichTextSource` class and assign the result to the `Source` property of `RadRichTextEditor`:
+You can load the HTML content from a string by using the static <code>FromString</code> method of the `RichTextSource` class and assign the result to the `Source` property of `RadRichTextEditor`:
 
 <snippet id='richtexteditor-getting-started' />
 
@@ -38,7 +38,7 @@ Alternatively, you can create a [`RichTextHtmlStreamSource`](/devtools/xamarin/a
 
 ## Retrieving HTML Content
 
-Through `GetHtmlAsync` method of RichTextEditor, you can obtain the content created and updated inside the editor HTML:
+Through `GetHtmlAsync` method of RichTextEditor, you can get the content created and updated inside the editor HTML:
 
 <snippet id='richtexteditor-keyfeatures-gethtml' />
 
@@ -46,7 +46,7 @@ The next image shows the result from the sample code with `GetHtmlAsync`.
 
 ![.NET MAUI RichTextEditor GetHTML](images/rte-get-html.gif)
 
-## RichText Editing Capabilities
+## RichTextEditor Editing Capabilities
 
 RichTextEditor helps the app users to create and edit HTML content. You can apply the editing features provided by RichTextEditor through the UI by using the[`RadRichTextEditorToolbar`]({%slug richtexteditor-toolbar %}), or you can create your custom UI and manually execute the `RadRichTextEditor` [Commands]({%slug richtexteditor-commands%}).
 

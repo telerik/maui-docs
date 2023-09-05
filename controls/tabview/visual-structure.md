@@ -11,7 +11,7 @@ position: 1
 
 The TabView uses a set of visual elements when rendered.
 
-![TabView Visual Structure](images/visual-structure.png "Visual elements of TabView control")
+![.NET MAUI TabView Visual Structure](images/visual-structure.png "Visual elements of TabView control")
 
 ## Displayed Elements
 

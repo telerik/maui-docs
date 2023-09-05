@@ -10,7 +10,7 @@ slug: toolbar-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Toolbar by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
 ![.NET MAUI Toolbar Getting Started](images/toolbar-getting-started.png)
 

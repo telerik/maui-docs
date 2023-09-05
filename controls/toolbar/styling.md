@@ -24,7 +24,7 @@ Style the Toolbar using the following properties:
 
 * `OverflowMenuButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.OverflowMenuButtonToolbarItemView`)&mdash;Specifies the Style applied to the overflow menu button in the toolbar. 
 * `BackNavigationButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.BackNavigationButtonToolbarItemView`)&mdash;Specifies the Style applied to the back navigation button in the toolbar. 
-* `ScrollForwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the forward scroll button in the toolbar. 
+* `ScrollForwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the scroll button in the toolbar. 
 * `ScrollBackwardButtonStyle`(`Microsoft.Maui.Controls.Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Specifies the Style applied to the backward scroll button in the toolbar. 
 
 ## Styling the toolbar items

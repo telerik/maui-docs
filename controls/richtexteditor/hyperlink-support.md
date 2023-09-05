@@ -36,7 +36,7 @@ For more details, see the [RichTextEditor Toolbar]({%slug richtexteditor-toolbar
 
 You can also take advantage of the following API related to hyperlinks:
 
-* `GetHyperlinkAsync` method&mdash;Asynchronously returns a RichTextHyperlink under the caret in the editor (or `null` if no hyperlink is present). The `RichTextHyperlink` object contains the `Url` and `Title` of the link.
+* `GetHyperlinkAsync` method&mdash;Asynchronously returns a `RichTextHyperlink` under the caret in the editor (or `null` if no hyperlink is present). The `RichTextHyperlink` object contains the `Url` and `Title` of the link.
 
 ## Hyperlink Error Handling
 
@@ -48,7 +48,7 @@ You can override the default behavior by handling the RichTextEditor's `OpenHype
 
 * `OpenHyperlinkError` event&mdash;Raised when users try to open invalid URLs in the editor. The `OpenHyperlinkError` event handler receives two parameters:
 
-	* The <code>Sender</code> which is the RichTextEditor control.
+	* The `Sender` which is the RichTextEditor control.
 	* `OpenHyperlinkErrorEventArgs` provides the following properties:
 		* `Error`&mdash;of type `System.Exception`, can be used to get the exact error message.
 		* `Url`&mdash;of type `string`, defining the URL of the hyperlink.
@@ -57,7 +57,7 @@ You can override the default behavior by handling the RichTextEditor's `OpenHype
 To change the default error handling behavior:
 
 1. Subscribe to the event.
-1. Set the <code>Handled</code> property of the event args to `True` to prevent the default message.
+1. Set the `Handled` property of the event arguments to `True` to prevent the default message.
 1. Add a custom implementation. 
 
 The following example demonstrates how to use the `OpenHyperlinkError` event:

@@ -1,7 +1,7 @@
 ---
 title: Reorder Items
 page_title: .NET MAUI ListView Documentation - Reorder Items
-description: Check our &quot;Reorder Items&quot; documentation article for Telerik ListView for .NET MAUI.
+description: Learn more about the reorder feature of the Telerik UI for .NET MAUI ListView control.
 position: 
 previous_url: /controls/listview/gestures/listview-gestures-items-reorder
 slug: listview-features-reorder-items
@@ -27,20 +27,20 @@ This example will demonstrate how to enable the items reorder functionality and 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
  ```
 
-1. Add a simple ItemsSource to the ListView:
+1. Add a simple Items Source to the ListView:
 
  <snippet id='listview-gestures-reorderitems-code'/>
 
 Here is the result:
 
-![ListView Reorder Items](images/listview-gestures-reorder.png)
+![.NET MAUI ListView Reorder Items](images/listview-gestures-reorder.png)
 
 >You can also take advantage of the [Reorder Events]({% slug listview-features-events %}#groupreorder-events) for additional control over the reorder functionality of the ListView.
 
 ## See Also
 
-- [ListView TextCell]({% slug listview-textcell %})
-- [ListView TemplateCell]({% slug listview-templatecell %})
+- [ListView Text Cell]({% slug listview-textcell %})
+- [ListView Template Cell]({% slug listview-templatecell %})
 - [Layouts]({% slug listview-features-layouts %})
 - [Cell Swipe]({% slug listview-features-cell-swipe %})
 - [Pull to Refresh]({% slug listview-features-pull-to-refresh %})

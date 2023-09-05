@@ -1,7 +1,7 @@
 ---
 title: Editor Styling
 page_title: .NET MAUI RichTextEditor Documentation - RichTextEditor Styling
-description: Check our &quot;RichTextEditor Styling&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
+description: Learn more how to style the Telerik UI for .NET MAUI RichTextEditor control.
 position: 1
 slug: richtexteditor-styling
 ---

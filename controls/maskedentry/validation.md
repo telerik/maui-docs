@@ -1,7 +1,7 @@
 ---
 title: Validation Message
 page_title: .NET MAUI MaskedEntry Documentation - Validation Message
-description: "Learn more about the built-in validation error messages and how to define a custom error message in the Telerik UI for .NET MAUI MaskedEntry."
+description: Learn more about the built-in validation error messages and how to define a custom error message in the Telerik UI for .NET MAUI MaskedEntry.
 position: 7
 slug: maskedentry-validation
 ---
@@ -22,11 +22,11 @@ The MaskedEntry supports a default validation error message that is based on the
 
 To customize the default validation error message, use the `ValidationErrorMessage`(`string`) property.
 
-**Custom Validation Error Message for the EmailMaskedEntry**
+* Custom Validation Error Message for the EmailMaskedEntry
 
 <snippet id='emailmaskedentry-validationerrormessage-xaml' />
 
-**Custom Validation Error Message for the RegexMaskedEntry**
+* Custom Validation Error Message for the RegexMaskedEntry
 
 <snippet id='regexmaskedentry-validationerrormessage-xaml' />
 

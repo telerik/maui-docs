@@ -1,7 +1,7 @@
 ---
 title: Wrap Functionality
 page_title: .NET MAUI WrapLayout Documentation - Wrap Functionality
-description: Check our &quot;Key Features&quot; documentation article for Telerik WrapLayout for .NET MAUI control.
+description: Lear how to set orientation, item sizing and position to the items in the Telerik .NET MAUI WrapLayout control. 
 position: 2
 previous_url: /controls/wraplayout/wraplayout-wrap-feature
 slug: wraplayout-wrap-feature
@@ -19,20 +19,19 @@ The following example demonstrates how to set both the `"Horizontal"` and `"Vert
 
 <snippet id='wraplayout-orientation' />
 
-And the resources for RadBorder and Label
+And the resources for `RadBorder` and Label
 
 <snippet id='wraplayout-orientation-resources' />
 
 In the example, `telerik` is defined like this:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
-
+```
 
 The following image shows the end result on different platforms:
 
-![WrapLayout Orientation](images/wraplayout_orientation.png)
+![.NET MAUI WrapLayout Orientation](images/wraplayout_orientation.png)
 
 ## Item Size
 
@@ -42,10 +41,9 @@ Here is a quick sample of a WrapLayout with a specified item size:
 
 <snippet id='wraplayout-item-size' />
 
-
 The following image shows the end result.
 
-![WrapLayout ItemSize](images/wraplayout_itemsize.png)
+![.NET MAUI WrapLayout Item Size](images/wraplayout_itemsize.png)
 
 ## Positioning the Last Child Element
 
@@ -57,7 +55,7 @@ The following example shows how `StretchLastChild` will work when set to both va
 
 The following image shows the end result.
 
-![WrapLayout Positioning](images/wraplayout_positionlast.png)
+![.NET MAUI WrapLayout Positioning](images/wraplayout_positionlast.png)
 
 ## See Also
 

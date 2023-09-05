@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI TimePicker Documentation - Visual Structure
-description: "Learn what visual elements the Telerik SlideView for .NET MAUI displays and see the visual structure of the control."
+description: Learn what visual elements the Telerik SlideView for .NET MAUI displays and see the visual structure of the control.
 position: 1
 slug: slideview-visual-structure
 ---
@@ -10,9 +10,7 @@ slug: slideview-visual-structure
 
 This article describes all visual elements that are used in the SlideView for .NET MAUI.
 
-
 ![.NET MAUI SlideView Visual Structure](images/slideview-visualstructure.png)
-
 
 ## Legend
 

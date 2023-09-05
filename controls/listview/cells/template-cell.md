@@ -1,13 +1,13 @@
 ---
 title: TemplateCell
 page_title: .NET MAUI ListView Documentation - Cell Types
-description: Check our &quot;Cell Types&quot; documentation article for Telerik ListView for .NET MAUI control.
+description: Learn more about the template cells in the Telerik UI for .NET MAUI ListView control. 
 position: 2
 previous_url: /controls/listview/cells/listview-templatecell
 slug: listview-templatecell
 ---
 
-# .NET MAUI ListView TemplateCell
+# .NET MAUI ListView Template Cell
 
 Cells in the ListView are the presentation of each data item from the control's `ItemsSource`. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.
 
@@ -15,15 +15,15 @@ The `ListViewTemplateCell` derives from `Microsoft.Maui.Controls.ViewCell` and u
 
 The example below demonstrates how to create a ListView with templated cells, like this:
 
-![ListView Template Cell](../images/listview-celltypes-templatecell.png)
+![.NET MAUI ListView Template Cell](../images/listview-celltypes-templatecell.png)
 
-Create a view model that will be the source of the ListView:
+**1.** Create a view model that will be the source of the ListView:
 
 <snippet id='listview-celltypes-templatecell-viewmodel' />
 
-Define the ListView control either in XAML.
+**2.** Options to define the ListView control - in XAML or code-behind:
 
-**Define the ListVew in XAML**
+**2.1** Define the ListView in XAML
 
 <snippet id='listview-celltypes-templatecell-listview-xaml' />
 
@@ -33,7 +33,7 @@ Add the `telerik` namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```						
 
-**Define the ListView in code-behind**
+**2.2** Define the ListView in code-behind
 
 For clarity, let's build the template of the list view cell in a separate method:
 
@@ -93,7 +93,7 @@ public View GetCellContent()
 }
 ```
 
-Define the ListVew:
+Define the ListView:
 
 ```C#
 var listView = new RadListView
@@ -112,6 +112,6 @@ var listView = new RadListView
 
 ## See Also
 
-- [ListView Item TemplateSelector]({%slug listview-item-template-selector%})
+- [ListView Item Template Selector]({%slug listview-item-template-selector%})
 - [ListView Layouts]({% slug listview-features-layouts %})
 - [Items Styling]({% slug listview-features-styling %})

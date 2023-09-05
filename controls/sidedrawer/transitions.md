@@ -1,7 +1,7 @@
 ---
 title: Transitions
 page_title: .NET MAUI SideDrawer Documentation - Transitions
-description: Learn what are the different animation effects you can apply to the .NET MAUI SideDrawer when opening, closing.
+description: Learn what are the different animation effects you can apply to the Telerik UI for .NET MAUI SideDrawer control on opening or closing.
 position: 3
 slug: sidedrawer-features-transitions
 ---
@@ -33,13 +33,13 @@ The SideDrawer exposes predefined transitions. Set the transition type by using 
 
 Here is a sample snippet on how you can set `DrawerTransitionType` property of `RadSideDrawer`:
 
- <snippet id='sidedrawer-transition-xaml' />
+<snippet id='sidedrawer-transition-xaml' />
 
 Use the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
 >tip In addition to the transition type, you can also control the transition duration and opacity value through `DrawerTransitionDuration` and `DrawerTransitionFadeOpacity` properties, respectively. For more details on this go to [Configuration]({%slug sidedrawer-features-configuration%}) topic.
 
@@ -49,15 +49,15 @@ Check below some of the predefined transitions of `RadSideDrawer`.
 
 * Default Push transition:
 
-	![SideDrawer Push transition](images/sidedrawer_push.gif)
+	![.NET MAUI SideDrawer Push transition](images/sidedrawer_push.gif)
 
-* SlideInOnTop transition - the drawer goes over the main content:
+* `SlideInOnTop` transition - the drawer goes over the main content:
 
-	![SideDrawer SlideInOnTop transition](images/sidedrawer_slidein.gif)
+	![.NET MAUI SideDrawer Slide In On Top transition](images/sidedrawer_slidein.gif)
 
-* ReverseSlideOut transition:
+* `ReverseSlideOut` transition:
 
-	![SideDrawer ReverseSlideOut](images/sidedrawer_reverseslideout.gif)
+	![.NET MAUI SideDrawer Reverse Slide Out](images/sidedrawer_reverseslideout.gif)
 
 > For a runnable example with the SideDrawer Transitions scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SideDrawer > Features**.
 

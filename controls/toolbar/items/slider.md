@@ -27,7 +27,7 @@ The available properties for configuration are:
 `SliderToolbarItem` has the following styling properties:
 
 * `SliderStyle`(`Style` with target type `Microsoft.Maui.controls.Slider`)&mdash;Specifies the style of the slider.
-* `Style`(`Style` with target type `Telerik.Maui.Controls.SliderToolbarItemView`). The available properies are:
+* `Style`(`Style` with target type `Telerik.Maui.Controls.SliderToolbarItemView`). The available properties are:
 	* `Value`(`double`)&mdash;Specifies the value of the slider.
 	* `Minimum`(`double`)&mdash;Specifies the minimum value of the slider.
 	* `Maximum`(`double`)&mdash;Specifies the maximum value of the slider.

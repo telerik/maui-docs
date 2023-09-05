@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI TabView Documentation - Selection
-description: Check the Selection options for the Telerik TabView for .NET MAUI control.
+description: Review the Selection options for the Telerik TabView for .NET MAUI control.
 slug: tabview-selection
 tags: tabview, selection, selected item, .net maui
 position: 7
@@ -9,14 +9,14 @@ position: 7
 
 # Selection in .NET MAUI TabView
 
-**Telerik TabView for .NET MAUI** exposes properties that help you work with the item selection: 
+The Telerik TabView for .NET MAUI exposes properties that help you work with the item selection: 
 
-* `SelectedItem`(of type `Telerik.Maui.Controls.TabViewItem`)&mdash;Defines the selected item. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
-* `SelectedIndex`(`int`)&mdash;Specifies the index of the currently selected TabViewItem. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
+* `SelectedItem` (of type `Telerik.Maui.Controls.TabViewItem`)&mdash;Defines the selected item. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
+* `SelectedIndex` (`int`)&mdash;Specifies the index of the currently selected `TabViewItem`. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
 
 * `TabViewItem` can be selected by setting its `IsSelected`(`bool`) property to `True`.
 
-**Example with SelectedItem**
+**Example with Selected Item**
 
 <snippet id='tabview-features-selection-csharp'/>
 
@@ -26,7 +26,7 @@ And the namespace used:
 using Telerik.Maui.Controls;
 ```
 
-**Example with IsSelected**
+**Example with `IsSelected`**
 
 ```XAML
 <telerik:RadTabView x:Name="tabView">
@@ -44,9 +44,9 @@ using Telerik.Maui.Controls;
 
 And the namespace used:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
 ## Events
 

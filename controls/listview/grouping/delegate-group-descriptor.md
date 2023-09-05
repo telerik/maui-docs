@@ -1,7 +1,7 @@
 ---
 title: Delegate Group Descriptor
 page_title: .NET MAUI ListView Documentation - Grouping
-description: Review the Telerik UI for .NET MAUI ListView DelegateGroupDescriptor option which enables you to group by a custom key
+description: Review the Telerik UI for .NET MAUI ListView DelegateGroupDescriptor option which enables you to group by a custom key.
 position: 2
 slug: listview-delegate-group-descriptor
 previous_url: /controls/listview/grouping/listview-delegate-group-descriptor
@@ -10,12 +10,12 @@ tags: group, radlistview, groupdescriptor
 
 # .NET MAUI ListView Delegate Group Descriptor
 
-DelegateGroup descriptor enables you to group by a custom key (e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
+DelegateGroup descriptor enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
 
 - `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
 - `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
 
-Let's use the same example from the previous section, just add DelegateGroupDescriptor through code instead.
+Let's use the same example from the previous section, and add `DelegateGroupDescriptor` through code instead.
 
 Define the `RadListView`:
 
@@ -41,7 +41,7 @@ Add a `ViewModel` with a collection of Cities:
 
 The following image shows a ListView grouped through the `DelegateGroupDescriptor`.
 
-![ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
+![.NET MAUI ListView Grouping](../images/listview_grouping_delegatedescriptor.png)
 
 > For the ListView DelegateGroupDescriptor example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView  -> Grouping category.
 

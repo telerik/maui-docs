@@ -1,7 +1,7 @@
 ---
 title: Pan and Zoom
 page_title: .NET MAUI Map Documentation - Pan and Zoom
-description: Learn how to pan and zoom in Telerik UI for .NET MAUI Map control.
+description: Learn how to pan and zoom in the Telerik UI for .NET MAUI Map control.
 position: 2
 slug: map-pan-zoom
 ---
@@ -23,18 +23,18 @@ Here is a quick snippet how `InteractionMode` is applied:
 
 <snippet id='map-interaction-mode-xaml' />
 
-where the Source of the MapShapeReader should be defined as well:
+Define the Source of the `MapShapeReader` as well:
 
 <snippet id='map-interactionmode-settintsource' />
 
->note In the example the `.shp` file is loaded as an `EmbeddedResource`, there are other options as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
+>note In the example the `.shp` file is loaded as an `EmbeddedResource`, other options can be used as well, please check them in the [ShapefileLayer]({%slug map-layers-shapefilelayer%}) topic.
 
 ## Zoom Level Support
 
 The Map exposes properties for applying min and max zoom values.
 
-* `MaxZoomLevel`: Defines the maximum magnification factor at which content could be maximized. The default value is 20.0
-* `MinZoomLevel`: Defines the minimum magnification factor at which content could be minimized. The default value is 1.0
+* `MaxZoomLevel`: Defines the maximum magnification factor at which content can be maximized. The default value is 20.0
+* `MinZoomLevel`: Defines the minimum magnification factor at which content can be minimized. The default value is 1.0
 
 You can check the current magnification through the readonly `ZoomLevel` property.
 
@@ -42,13 +42,13 @@ You can check the current magnification through the readonly `ZoomLevel` propert
 
 In addition, you can use the method below to set the provided zoom value as the current zoom level of the map:
 
-* `ZoomToLevel`(double zoomLevel);
+* `ZoomToLevel`(`double zoomLevel`);
 
 ## Setting the View
 
 To show a specific area from the map, you can use `SetView` method as described below:
 
-* `SetView`(LocationRect locationRect) – Sets the provided location as the current view of the map. 
+* `SetView`(`LocationRect locationRect`) – Sets the provided location as the current view of the map. 
 
 `LocationRect` class is a special type from the `Telerik.Maui.Controls.Compatibility.ShapefileReader` namespace, which describes a rectangle region through the locations of the northwest and southeast points.  
 
@@ -58,7 +58,7 @@ Here is an example how to use `SetView` method (in the example the used latitude
 
 <snippet id='map-setview-code' />
 
-![Map SetView](images/map_getbestview.png)
+![.NET MAUI Map Set View](images/map_getbestview.png)
 
 ## See Also
 

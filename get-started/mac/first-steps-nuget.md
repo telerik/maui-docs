@@ -68,6 +68,37 @@ Now, you need to add the Telerik package to the .NET MAUI solution project that 
 
 ![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/telerik-maui-nuget-mac.png)
 
+## Step 5: Register the Required Handlers
+
+To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+
+1. Add the needed `using` settings inside the `MauiProgram.cs` file.
+
+ ```C#
+using Telerik.Maui.Controls.Compatibility;
+ ```
+
+1. Call the `UseTelerik()` method inside the `MauiProgram.cs` file.
+
+ ```C#
+public static class MauiProgram
+{
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+}
+ ```
+
 ## Next Steps
 
 * [Available Product Files and Assemblies]({% slug download-product-files %})

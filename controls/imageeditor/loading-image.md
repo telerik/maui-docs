@@ -1,29 +1,29 @@
 ---
 title: Display Images
 page_title: .NET MAUI ImageEditor Documentation - Display Images
-description: "Review the options to display images in the .NET MAUI ImageEditor control."
+description: Learn what are the options to display images in the Telerik UI for .NET MAUI ImageEditor control.
 position: 2
 slug: imageeditor-loading-image
 ---
 
-# Display Images in .NET MAUI ImageEdiotor
+# Display Images in .NET MAUI ImageEditor
 
 ImageEditor control enables you to visualize images using the following property:
 
 * `Source`(of type `Microsoft.Maui.Controls.ImageSource`): Specifies the source of the image. For more details about the Source property check the [Images in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/image?view=net-maui-7.0) article.
 
-The images could be loaded from:
+The images can be loaded from:
 
 * `File`
 * `Uri`
 * `Stream`
 * `Resources`
 
-**Load images for File**
+Here is an example how to load images from File:
 
 <snippet id='imageeditor-load-image-from-file'/>
 
-**Load images for Uri**
+Here is an example how to load images from Uri:
 
 ```XAML
 <telerik:RadImageEditor x:Name="imageEditor" 
@@ -31,23 +31,23 @@ The images could be loaded from:
         
 ```
 
-**Load images for Stream**
+Here is an example how to load images from Stream:
 
 <snippet id='load-image-from-stream'/>
 
-**Load images for Resources**
+Here is an example how to load images from Resources:
 
 <snippet id='imageeditor-toolbar-styling'/>
 
 ## Loading Template
 
-By default a busy indicator is shown when loading an image. You can change the indicator template using the following property:
+When loading an image, the busy indicator shows by default. You can change the indicator template using the following property:
 
-* `BusyIndicatorTemplate`(`DataTemplate`)&mdash;Defines the loading indicator when loading an image. When no template is specified, a default busy indicator is shown.
+* `BusyIndicatorTemplate`(`DataTemplate`)&mdash;Defines the loading indicator when loading an image. When no template is specified, the busy indicator shows by default.
 
 **Example with BusyTemplate**
 
-RadImageEditor definition:
+`RadImageEditor` definition:
 
 <snippet id='imageeditor-busy-template'/>
 

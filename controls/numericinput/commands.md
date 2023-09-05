@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI NumericInput Documentation - Commands
-description: Check our &quot;Commands&quot; documentation article for Telerik NumericInput for .NET MAUI control
+description: Learn how to use the exposed commands in the Telerik UI for .NET MAUI NumericInput control.
 position: 9
 previous_url: /controls/numericinput/numericinput-commands
 slug: numericinput-commands
@@ -9,15 +9,15 @@ slug: numericinput-commands
 
 # .NET MAUI NumericInput Commands
 
-The NumericInput exposes `IncreaseCommand` and `DecreaseCommand` which could be used to define custom functionality upon the respective actions. These commands allow you to easily change and extend the control's default behavior.
+The NumericInput exposes `IncreaseCommand` and `DecreaseCommand` which can be used to define custom functionality upon the respective actions. These commands allow you to change and extend the control's default behavior.
 
-In the next example, you can see how the NumericInput commands could be utilized in order to implement auto-reverse functionality – start from the Minimum value when the Maximum is reached and vice versa.
+In the next example, you can see how the NumericInput commands can be utilized to implement auto-reverse functionality – start from the Minimum value when the Maximum is reached and vice versa.
 
-1. First, create the `ViewModel` with both `IncreaseCommand` and `DecreaseCommand` implementations:
+**1.** First, create the `ViewModel` with both `IncreaseCommand` and `DecreaseCommand` implementations:
 
- <snippet id='numericinput-features-commands-viewmodel' />
+<snippet id='numericinput-features-commands-viewmodel' />
 
-1. Define the NumericInput with the respective bindings:
+**2.** Define the NumericInput with the respective bindings:
 
  <snippet id='numericinput-features-commands' />
 

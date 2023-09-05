@@ -1,7 +1,7 @@
 ---
 title: Content
 page_title: .NET MAUI Popup Documentation - Content
-description: "Set the content of the Telerik UI for .NET MAUI Popup and determine when it will open or close."
+description: Set the content of the Telerik UI for .NET MAUI Popup and determine when it will open or close.
 position: 2
 slug: popup-content
 ---
@@ -34,7 +34,7 @@ The example below demonstrates how to create a sample `DataTemplate` and set it 
 
 The following image shows the end result.
 
-![Popup Content Template](images/popup_features_contenttemplate.png)
+![.NET MAUI Popup Content Template](images/popup_features_contenttemplate.png)
 
 ## See Also
 

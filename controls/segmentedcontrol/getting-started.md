@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: NET MAUI SegmentedControl Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI SegmentedControl and add the control to your .NET MAUI project."
+description: Get started with the Telerik UI for .NET MAUI SegmentedControl and add the control to your .NET MAUI project.
 position: 1
 previous_url: /controls/segmentedcontrol/segmentedcontrol-getting-started
 slug: segmentedcontrol-getting-started
@@ -11,9 +11,9 @@ slug: segmentedcontrol-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI SegmentedControl by adding the control to your project.
 
-At the end, you will be able to achieve the following result.
+At the end, you will achieve the following result.
 
-![SegmentedControl Getting Started](images/segmentcontrol-gettingstarted.png)
+![.NET MAUI SegmentedControl Getting Started](images/segmentcontrol-gettingstarted.png)
 ## Prerequisites
 
 Before adding the SegmentedControl, you need to:

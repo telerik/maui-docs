@@ -1,7 +1,7 @@
 ---
 title: ImageEditorToolbar Items
 page_title: .NET MAUI ImageEditor Documentation - ImageEditorToolbar Items
-description: "Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor."
+description: Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor.
 position: 1
 slug: imageeditor-toolbar-items
 ---
@@ -10,11 +10,11 @@ slug: imageeditor-toolbar-items
 
 This article explains all available toolbar items in the ImageEditor for .NET MAUI.
 
-## Built-in Toolbar items for image editing
+## Built-in Toolbar Items for Image Editing
 
 The built-in toolbar items are described in the tables below:
 
-### Toolbar items available on mobile - Android and iOS
+### Toolbar Items Available on Mobile - Android and iOS
 
 The table below shows the built-in toolbar items available for mobile -  Android and iOS:
 
@@ -25,11 +25,11 @@ The table below shows the built-in toolbar items available for mobile -  Android
 | `ImageEditorUndoToolbarItem` | Undoes the last executed action on the image in the ImageEditor |
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
 
-![ImageEditor ToolbarItems for Mobile](../images/imageeditor-tooolbar-items-mobile.png "ToolbarItems for Mobile")
+![ImageEditor Toolbar Items for Mobile](../images/imageeditor-tooolbar-items-mobile.png "ToolbarItems for Mobile")
 
-### Toolbar items available on desktop - WinUI and MacCatalyst
+### Toolbar Items Available on Desktop - WinUI and MacCatalyst
 
-The table below shows the built-in toolbar items available for desktop - WinUI and MacCatalyst:
+The table below shows the built-in toolbar items available for desktop - `WinUI` and `MacCatalyst`:
 
 | Toolbar Item | Description |
 | ------------ | ------- |
@@ -44,28 +44,28 @@ The table below shows the built-in toolbar items available for desktop - WinUI a
 | `ImageEditorRedoToolbarItem` | Redoes the last executed action on the image in the ImageEditor |
 | `SeparatorToolbarItem` | Represents a separator between the toolbar items |
 
-![ImageEditor ToolbarItems for Desktop](../images/imageeditor-tooolbar-items-desktop.png "ToolbarItems for Mobile")
+![ImageEditor Toolbar Items for Desktop](../images/imageeditor-tooolbar-items-desktop.png "ToolbarItems for Mobile")
 
 ## Toolbar Configuration
 
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the RadToolbar applies to the RadImageEditorToolbar.
+`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the `RadToolbar` applies to the `RadImageEditorToolbar`.
 
 ## Toolbar Item Configuration 
 
-Review all properties availabe for toolbar items configuration.
+Review all properties available for toolbar items configuration.
 
-**Properties for all toolbar items**
+### Properties for All Toolbar Items**
 
-The properties described bellow apply to all tollbar items available in the ImageEditorToolbar:
+The properties described bellow apply to all toolbar items available in the `ImageEditorToolbar`:
 
 * `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate` with target type `Telerik.Maui.Controls.ToolbarItem`)&mdash;Specifies the control template of the toolbar item.
 * `IsEnabled`(`bool`)&mdash;Specifies whether the toolbar item is enabled.
 * `IsVisible`(`bool`)&mdash;Specifies whether the toolbar item is visible.
 * `PlacementOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemPlacementOptions`)&mdash;Defines the allowed placement options of the toolbar item in the toolbar. The available options are:
-	* ToolStrip&mdash;The toolbar item appears in the main tool strip area of the toolbar.
-	* DropDown&mdash;The toolbar item appears in the overflow drop-down menu of the toolbar.
+	* `ToolStrip`&mdash;The toolbar item appears in the main tool strip area of the toolbar.
+	* `DropDown`&mdash;The toolbar item appears in the overflow drop-down menu of the toolbar.
 
-**Properties for specific toolbar items**
+### Properties for Specific Toolbar Items**
 
 The properties described below apply to `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`, `flip`, `resize`, `undo`, `redo`, `crop`, `rotate`, `button` toolbar items:
 
@@ -76,16 +76,16 @@ The properties described below apply to `blur`, `hue`, `saturation`, `brightness
 * `CommandParameter`(`object`)&mdash;Defines the parameter of the command, which is executed when the button is clicked.
 * `Clicked` event&mdash;Raised when the button is clicked.
 
-**Properties for filter toolbar items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
+### Properties for Filter Toolbar Items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
 
 * `Value`(`double`)&mdash;Defines the current value, when using an auto-generated slider content. Default value is`0`.
 * `MinimumProperty`(`double`)&mdash;Defines the minimum value, when using an auto-generated slider content. Default value is `-100`.
 * `MaximumProperty`(`double`)&mdash;Defines the maximum value, when using an auto-generated slider content. Default value is `100`.
 
-**Properties for navigation toolbar item**
+### Properties for Navigation Toolbar Item**
 
 * `AutoGenerateItems`(`bool`)&mdash;Specifies a value indicating whether to auto-generate all child items by default. The default value is `true`.
-* `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of Telerik.Maui.Controls.ToolbarItems.
+* `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems`.
 
  >important For the ImageEditorToolbar example review the ImageEditor Getting Started example in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

@@ -23,7 +23,7 @@ The following example shows how to use the `ItemPicker`
 	
 >caption Chat with `ItemPicker`
 
-![Chat Message](images/chat-item-picker.png)
+![.NET MAUI Chat Message](images/chat-item-picker.png)
 
 ## See Also
 

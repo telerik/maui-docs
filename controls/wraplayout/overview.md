@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI WrapLayout Documentation - RadWrapLayout Overview
-description: "Try now the Telerik WrapLayout for .NET MAUI providing a mechanism for arranging child elements in rows or columns depending on their orientation and wrapping them on new rows and columns when the available space is filled."
+description: Try now the Telerik WrapLayout for .NET MAUI providing a mechanism for arranging child elements in rows or columns depending on their orientation and wrapping them on new rows and columns when the available space is filled.
 position: 0
 previous_url: /controls/wraplayout/wraplayout-overview
 slug: wraplayout-overview
@@ -9,9 +9,9 @@ slug: wraplayout-overview
 
 # .NET MAUI WrapLayout Overview
 
-**Telerik UI for .NET MAUI WrapLayout** provides a mechanism for arranging child elements in rows or columns depending on the `Orientation` property. When the available space is filled, the control wraps these elements on а new row or column.
+The Telerik UI for .NET MAUI WrapLayout provides a mechanism for arranging child elements in rows or columns depending on the `Orientation` property. When the available space is filled, the control wraps these elements on а new row or column.
 
-![WrapLayout Overview](images/wraplayout_overview.png)
+![.NET MAUI WrapLayout Overview](images/wraplayout_overview.png)
 
 ## Key Features
 
@@ -19,7 +19,7 @@ slug: wraplayout-overview
 
 * [Items size]({% slug wraplayout-wrap-feature%}#item-size)&mdash;The WrapLayout exposes the `ItemWidth` and `ItemHeight` properties, which let you specify the size of the child elements.
 
-* [Last child item stretch]({% slug wraplayout-wrap-feature%}#positioning-the-last-child-element)&mdash;You can easily control the last child element position through the `StretchLastChild` property of the WrapLayout. If set to `True`, the last element will stretch along the available space from the last row or column depending on the layout orientation.
+* [Last child item stretch]({% slug wraplayout-wrap-feature%}#positioning-the-last-child-element)&mdash;You can control the last child element position through the `StretchLastChild` property of the WrapLayout. If set to `True`, the last element will stretch along the available space from the last row or column depending on the layout orientation.
 
 ## Next Steps
 

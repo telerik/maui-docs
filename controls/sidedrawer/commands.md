@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI SideDrawer Documentation - Commands
-description: Review the commands for opening and closing the Telerik SideDrawer for .NET MAUI control.
+description: Review the commands for opening and closing the Telerik UI for .NET MAUI SideDrawer control.
 position: 5
 slug: sidedrawer-features-commands
 ---
@@ -26,7 +26,7 @@ The following examples demonstrates how to use the SideDrawer commands in differ
 
 ### Inheriting from the SideDrawerCommandBase class
 
-1. Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation:
+**1.** Create a class which inherits from `SideDrawerCommandBase` class and set the  `Id` property to the desired command trigger event. In addition, you can override its `CanExecute()` and `Execute()` methods. A sample implementation:
 
  ```C#
 public class CustomDrawerCommand : SideDrawerCommandBase
@@ -48,9 +48,9 @@ public class CustomDrawerCommand : SideDrawerCommandBase
 }
  ```
 
-1. When you create the command, define the `RadSideDrawer` and the command in XAML:
+**2.** When you create the command, define the `RadSideDrawer` and the command in XAML:
 
- ```XAML
+```XAML
 <telerik:RadSideDrawer>
   <telerik:RadSideDrawer.Commands>
     <local:CustomDrawerCommand/>
@@ -61,29 +61,29 @@ public class CustomDrawerCommand : SideDrawerCommandBase
   <telerik:RadSideDrawer.DrawerContent>
  	<Label Text="Drawer content" />
   </telerik:RadSideDrawer.DrawerContent>
-</telerik:RadSideDrawer>
- ```
+  </telerik:RadSideDrawer>
+```
 
-1. Add the following namespaces
+**3.** Add the following namespaces
 
- ```XAML
+```XAML
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 xmlns:local="the namespace where the custom command is defined"
- ```
+```
 
 Where the `local` alias points to the namespace where the `CustomUserCommand` is defined.
 
 ### Using the SideDrawerUserCommand class
 
-1. Define a class that implements the `ICommand` interface:
+**1.** Define a class that implements the `ICommand` interface:
 
- <snippet id='sidedrawer-customcommands-cs' />
+<snippet id='sidedrawer-customcommands-cs' />
 
-1. Use this class with the `SideDrawerUserCommand` in XAML like this:
+**2.** Use this class with the `SideDrawerUserCommand` in XAML like this:
 
  <snippet id='sidedrawer-commands-xaml' />
 
-1. Add the following namespaces:
+**3.** Add the following namespaces:
 
   ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
@@ -94,23 +94,23 @@ xmlns:local="the namespace where the custom command is defined"
 
 Use the `SideDrawerUserCommand` to bind its `Command` property to a view model.
 
-1. Define the ViewModel:
+**1.** Define the ViewModel:
 
- <snippet id='sidedrawer-commandsviewmodel-cs' />
+<snippet id='sidedrawer-commandsviewmodel-cs' />
 
-1. Define the CustomCommand:
+**2.** Define the Custom Command:
 
- <snippet id='sidedrawer-customcommands-cs' />
+<snippet id='sidedrawer-customcommands-cs' />
 
-1. Define the SideDrawer control:
+**3.** Define the SideDrawer control:
 
- <snippet id='sidedrawer-commandsviewmodel-xaml' />
+<snippet id='sidedrawer-commandsviewmodel-xaml' />
 
-1. Add the following namespace:
+**4.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
 and the `local` alias points to the namespace where the `CustomCommand` and `ViewModel` are defined.
 

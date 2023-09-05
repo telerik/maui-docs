@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI ProgressBar Documentation - Events
-description: Check our &quot;Events&quot; documentation article for Telerik ProgressBar for .NET MAUI control.
+description: Learn more about the exposed events in the Telerik UI for .NET MAUI ProgressBar control.
 position: 8
 slug: progressbar-events
 ---
@@ -17,7 +17,7 @@ The ProgressBar for .NET MAUI exposes the following events:
 * `ProgressCompleted` event is raised when the Value of the ProgressBar reaches the `Maximum` value.
 
 
-**Example with ProgressChanged and ProgressCompleted events**
+Example with `ProgressChanged` and `ProgressCompleted` events
 
 A simple `RadLinearProgressBar` definition:
 

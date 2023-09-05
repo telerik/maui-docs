@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI SegmentedControl Documentation - Selection
-description: Check our &quot;Selection&quot; documentation article for Telerik SegmentedControl for NET MAUI control.
+description: Learn more about the selection functionality that the Telerik UI for .NET MAUI SegmentedControl provides.
 slug: segmentedcontrol-selection
 tags: selection
 position: 2
@@ -24,38 +24,33 @@ The `SelectionChanged` event handler receives two parameters:
 * The sender argument, which is of type `object`, but can be cast to the `RadSegmentedControl` type.
 * A `ValueChangedEventArgs&lt;int&gt;` object, which provides the old and new value of the `SelectedIndex`.
 
-
 ## Style the currently selected item
 
 You can define custom colors for the text and the background of the selected segment by using the `SelectedSegmentBackgroundColor` and `SelectedSegmentTextColor` properties of the SegmentedControl.
 
-
-
 ## Example
 
-The following example demonstrates how to utilize the selection feature of SegmentedControl.
+The following example demonstrates how to use the selection feature of SegmentedControl.
 
-**Create a `ViewModel` with a SelectedItem property bound to the SelectedItem property of the SegmentedControl:**
+**1.** Create a `ViewModel` with a `SelectedItem` property bound to the `SelectedItem` property of the SegmentedControl:
 
 <snippet id='segmentcontrol-selection-viewmodel' />
 
-
-**Add the SegmentedControl definition in XAML:**
+**2.** Add the SegmentedControl definition in XAML:
 
 <snippet id='segmentcontrol-selection-xaml' />
 
-
-**Set the `BindingContext` of the control:**
+**3.** Set the `BindingContext` of the control:
 
 <snippet id='segmentcontrol-selection-bindingcontext' />
 
-**And the SegmentedControl SelectionChanged event:**
+**4.** Add the SegmentedControl `SelectionChanged` event:
 
 <snippet id='segmentcontrol-selection-event' />
 
 The image below shows the end result on different platforms:
 
-![SegmentedControl selection](images/segmentcontrol-features-selection-0.png)
+![.NET MAUI SegmentedControl selection](images/segmentcontrol-features-selection-0.png)
 
 ## See Also
 

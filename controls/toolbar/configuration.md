@@ -79,10 +79,10 @@ Properties related to the scroll buttons configuration are:
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
 	* `Hidden`(the default mode)&mdash;The button is always hidden from the toolbar, regardless of the associated command.
 
-* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the `ControlTemplate` applied to the forward scroll button in the toolbar.
-* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Definess the style applied to the forward scroll button in the toolbar.
-* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Definess the `ControlTemplate` applied to the backward dscroll button in the toolbar.
-* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Definess the style applied to the backward scroll button in the toolbar.
+* `ScrollForwardButtonTemplate`(`ControlTemplate`)&mdash;Defines the `ControlTemplate` applied to the scroll button in the toolbar.
+* `ScrollForwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollForwardButtonToolbarItemView`)&mdash;Defines the style applied to the scroll button in the toolbar.
+* `ScrollBackwardButtonTemplate`(`ControlTemplate`)&mdash;Defines the `ControlTemplate` applied to the backward scroll button in the toolbar.
+* `ScrollBackwardButtonStyle`(`Style` with target type `Telerik.Maui.Controls.ScrollBackwardButtonToolbarItemView`)&mdash;Defines the style applied to the backward scroll button in the toolbar.
 
 ## See Also
 

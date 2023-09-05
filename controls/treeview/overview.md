@@ -21,6 +21,7 @@ To populate the TreeView, you can use any data source that is hierarchical in na
 * [Commands]({%slug treeview-commands%})&mdash;TreeView provides commands for expanding, collapsing, checking, and unchecking the items. 
 * [Checkbox Support]({%slug treeview-checkboxes%})&mdash;Telerik `RadTreeView` provides checkbox buttons displayed next to each item. The `RadTreeView` allows the user to check/uncheck the nodes and to perform various tasks with the collection of checked nodes. The three states checkbox mode of the `RadTreeView` control allows the  `RadTreeViewItems`' checkboxes to have an additional, third state&mdash;Indeterminate.
 * [Data Binding]({%slug treeview-getting-started%})&mdash;Simply setting the collection of custom business objects as an `ItemsSource` in combination with a `TreeViewDescriptor` class to visualize the hierarchically-structured source.
+* Image elements&mdash;TreeView control allows you to display images in the TreeView item.
 * [Custom Item Template]({%slug treeview-item-template%})&mdash;Apply template to the TreeView items on `TreeViewDescriptor` level or on TreeView level.
 * UI Virtualization&mdash;The user interface uses virtualization to display the required elements, meaning that they are created only when needed and only for the currently visible cells.
 * [Different selection]({%slug treeview-selection%})&mdash;The .NET MAUI TreeView supports both single and multiple selection. In addition, you can disable the selection. 

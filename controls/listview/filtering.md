@@ -10,7 +10,7 @@ tags: filter, radlistview, filterdescriptor
 
 # .NET MAUI ListView Filtering
 
-The ListView provides the functionality to programmatically filter its data at runtime. This can be achieved through adding filter descriptors that implement the IFilter interface to the `RadListView.FilterDescriptors` collection. You can use our `DelegateFilterDescriptor` implementation.
+The ListView provides the functionality to programmatically filter its data at runtime. This can be achieved through adding filter descriptors that implement the `IFilter` interface to the `RadListView.FilterDescriptors` collection. You can use our `DelegateFilterDescriptor` implementation.
 
 ## DelegateFilterDescriptor
 
@@ -47,9 +47,9 @@ private bool AgeFilter(object arg)
 
 The following image shows the result after the data is filtered:
 
-![ListView Filtering](images/listview-features-filtering.png "Filtering")
+![.NET MAUI ListView Filtering](images/listview-features-filtering.png "Filtering")
 
-## Bindable FilterDescriptors
+## Bindable Filter Descriptors
 
 The `FilerDescriptors` collection of the ListView supports binding, which means that you can modify the directly descriptors directly from the `ViewModel`.
 
@@ -112,7 +112,7 @@ private void UpdateExistingFilterDescriptor()
 
 The following image shows how this looks like:
 
-![ListView Filter Descriptors MVVM](images/listview-features-bindable-filter.png)
+![.NET MAUI ListView Filter Descriptors MVVM](images/listview-features-bindable-filter.png)
 
 ## See Also
 

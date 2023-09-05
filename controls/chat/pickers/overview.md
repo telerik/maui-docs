@@ -6,15 +6,15 @@ position: 0
 slug: chat-picker-overview
 ---
 
-# `ChatPicker` Overview
+# ChatPicker Overview
 
 The `RadChat` component offers different pickers allowing you to present the user a selection of choices either as a part of the conversation, or over the messages' view. 
 
-Depending on the information that is presented and the choice that should be made, the pickers can be one of the types listed below. 
+Depending on the information that is presented and the choice that have to be made, the pickers can be one of the types listed below. 
 
 * `DatePicker`&mdash;Displays a Calendar to choose a date.
 * `TimePicker`&mdash;Displays a clock view to choose a time.
-* `ItemPicker`&mdash;Displays a list of suggestions the end user could choose from.
+* `ItemPicker`&mdash;Displays a list of suggestions the end user can choose from.
 * `CardPicker`&mdash;Displays a list of cards with structured layout.
 
 Each of these pickers is a part of the `RadChatPicker` control and is defined through the corresponding `PickerContext` property, namely `DatePickerContext`, `TimePickerContext`, `ItemPickerContext`, etc.
@@ -35,6 +35,8 @@ The following example demonstrates how to use the `RadChatPicker` inline as a pa
 	
 When the user makes a selection, you can add a new `TextMessage` with the `SelectedDate` and remove the `PickerItem` from the conversation.
 
+![.NET MAUI Chat DatePicker Select Date](images/chat-datepicker%20.gif)
+
 ### Inside the Chat - Not Part of the Conversation
 
 If you choose this approach, you need to create a `RadChatPicker` instance and set it to the `Picker` property of the Chat:
@@ -48,6 +50,8 @@ Then, when you need to display any of the available pickers, you set the `Contex
 When the user selects a date, the `Context` is reset to `null` and a new `TextMessage` with the `SelectedDate` can be added to the conversation. The `IsVisible` property of the picker can also be set to `false`.
 
 In the example above, `RadChatPicker` is used for immediate selection by setting its `IsOkButtonVisible` and `IsCancelButtonVisible` to false. You can also show **OK** and **Cancel** buttons and use the provided events/commands to handle the selection.
+
+![.NET MAUI Chat Picker Inside](images/chat-picker-inside-chat.gif)
 	
 ## See Also
 

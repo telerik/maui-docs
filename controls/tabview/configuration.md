@@ -13,7 +13,7 @@ In this article we will review all configuration options that the TabView contro
 
 ## Setting the Header's Position
 
-Use the `HeaderPosition`(enum of type`Telerik.Maui.Controls.TabViewHeaderPosition`)property of the `RadTabView` to control the position of the header. 
+Use the `HeaderPosition` (enum of type`Telerik.Maui.Controls.TabViewHeaderPosition`) property of the `RadTabView` to control the position of the header. 
 
 The available options are: `Top`, `Bottom`, `Left` and `Right`.
 
@@ -32,7 +32,7 @@ The available options are: `Top`, `Bottom`, `Left` and `Right`.
 </telerik:RadTabView>
 ```
 
-![TabView Header Position](images/header-position.png "Header Position of TabView control")
+![.NET MAUI TabView Header Position](images/header-position.png "Header Position of TabView control")
 
 
 ## Spacing between the header and the content
@@ -58,13 +58,13 @@ The available options are: `Top`, `Bottom`, `Left` and `Right`.
 
 TabView control allows you to scroll through the tabs inside the TabView Header. 
 
-To enable the scrolling use the `IsHeaderScrollable`(`bool`)property. The default value is `True`.
+To enable the scrolling use the `IsHeaderScrollable` (`bool`)property. The default value is `True`.
 
-![TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
+![.NET MAUI TabView Scrolling in the Header](images/tabview-scrolling.gif "Scrolling in the TabView Header")
 
 ## Overlaid Header Area
 
-* `IsHeaderOverlaid`(`bool`)&mdash;Indicates whether the header area is overlaid on top of the content area. 
+* `IsHeaderOverlaid` (`bool`)&mdash;Indicates whether the header area is overlaid on top of the content area. 
 
 When the `IsHeaderOverlaid` is set to `True`, the header area is centered and overlaps with one of the borders of the content area, based on the value of the `HeaderPosition` property. The padding of the content area is adjusted to avoid overlapping with the header area.
 
@@ -74,9 +74,9 @@ When the `IsHeaderOverlaid` is set to `False`, the header area is placed next to
 
 Change the selected item using the swipe gesture. This allows you to change the selected item of the TabView.
 
-![TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
+![.NET MAUI TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
 
-If you want to prevent this feature you will need to set the `IsContentSwipingEnabled`(`bool`) property to `False`. The default value is `True`.
+If you want to prevent this feature you will need to set the `IsContentSwipingEnabled` (`bool`) property to `False`. The default value is `True`.
 
 ## See Also
 

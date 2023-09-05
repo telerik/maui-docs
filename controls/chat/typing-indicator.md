@@ -37,7 +37,7 @@ The following images shows the results from the example above:
 
 >caption `RadChat` with a typing indicator
 
-![RadChat with typing indicator](images/chat-typing-indicator.png)
+![.NET MAUI Chat with typing indicator](images/chat-typing-indicator.png)
 
 ## See Also
 
