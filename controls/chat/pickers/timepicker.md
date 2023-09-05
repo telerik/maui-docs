@@ -23,7 +23,7 @@ Here is a quick example on how to use the TimePicker in `RadChat`:
 	
 >caption Chat with TimePicker
 
-![Chat Message](images/chat-time-picker.png)
+![.NET MAUI Chat Message](images/chat-time-picker.png)
 
 ## See Also
 

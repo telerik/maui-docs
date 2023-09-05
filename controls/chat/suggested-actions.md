@@ -22,7 +22,7 @@ Then, the `GetSuggestedActions` method populates the `Actions` property with a c
 
 >caption `RadChat` with suggested actions
 
-![Chat with suggested actions](images/chat-suggested-actions.png)
+![.NET MAUI Chat with suggested actions](images/chat-suggested-actions.png)
 
 ## See Also
 
