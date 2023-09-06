@@ -19,11 +19,17 @@ The images can be loaded from:
 * `Stream`
 * `Resources`
 
-Here is an example how to load images from File:
+In addition, there is a `IsImageLoaded` (read-only `bool`) property that gets a value indicating whether an image is loaded in the editor.
+
+```C#
+this.imageEditor.IsImageLoaded;
+```
+
+**Here is an example how to load images from File:**
 
 <snippet id='imageeditor-load-image-from-file'/>
 
-Here is an example how to load images from Uri:
+**Here is an example how to load images from Uri:**
 
 ```XAML
 <telerik:RadImageEditor x:Name="imageEditor" 
@@ -31,11 +37,11 @@ Here is an example how to load images from Uri:
         
 ```
 
-Here is an example how to load images from Stream:
+**Here is an example how to load images from Stream:**
 
 <snippet id='load-image-from-stream'/>
 
-Here is an example how to load images from Resources:
+**Here is an example how to load images from Resources:**
 
 <snippet id='imageeditor-toolbar-styling'/>
 
@@ -58,6 +64,27 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
  >important For the ImageEditor Busy Template example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+
+## Events
+
+The ImageEditor control provides an event that is raised when an image is loaded in the editor&mdash;`ImageLoaded`.
+    * The sender argument which is of type object, but can be cast to the `RadImageEditor` type.
+	* An `System.EventArgs` object.
+
+**Example with ImageLoaded**
+
+```XAML
+ <telerik:RadImageEditor x:Name="imageEditor" ImageLoaded="imageEditor_ImageLoaded"/>
+```
+
+And the event implementation:
+
+```C#
+private void imageEditor_ImageLoaded(object sender, EventArgs e)
+{
+   // implement your logic here: 
+}
+```
 
 ## See Also
 

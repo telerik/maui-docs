@@ -25,38 +25,46 @@ The tables in the following sections list the differences between the APIs of th
 
 | Xamarin TreeView | .NET MAUI TreeView |
 | ------------- | --------------- |
-| NA | `HorizontalScrollBarVisibility` |
-| NA | `HorizontalScrollBarLayoutMode` |
-| NA | `VerticalScrollBarVisibility` |
-| NA | `VerticalScrollBarLayoutMode` |
+| N/A | `HorizontalScrollBarVisibility` |
+| N/A | `HorizontalScrollBarLayoutMode` |
+| N/A | `VerticalScrollBarVisibility` |
+| N/A | `VerticalScrollBarLayoutMode` |
 | `SelectedItems Collection`(read-only) | `SelectedItems Collection` |
-| NA | `SelectedItem` |
-| NA | `SelectionMode` - `None`, `Single`, `Multiple` |
+| N/A | `SelectedItem` |
+| N/A | `SelectionMode` - `None`, `Single`, `Multiple` |
 | `CheckedItemsCollection`(read-only) | `CheckedItemsCollection` |
-| `CheckBoxModes`- `None`, `Individual`, `Propagate` | `CheckBoxModes` - `None`,`Independent`,`Recursive` |
+| `CheckBoxModes`- `None`, `Individual` (independent), `Propagate` (recursive) | `CheckBoxModes` - `None`,`Independent`,`Recursive` |
 | `ItemTemplate` (applies on TreeViewDescriptor level) | `ItemTemplate` (applies on TreeView level), `ItemTemplate` (applies on TreeViewDescriptor level) |
-| `LoadOnDemand` | NA |
 | `ScrollItemIntoView()` | `ScrollTo()` |
-| NA | `ItemsSourceChanged` event |
-| `SelectionChanged` | `SelectionChanged` |
+| N/A | `ItemsSourceChanged` event |
+| `SelectionChanged` | `SelectionChanged` event |
 | `ItemTapped` event | `ItemTapped` event |
-| `ItemHold` event | NA |
-| `ItemCollapsed` event | NA |
-| `ItemExpanded` event | NA |
-| Commands - `ItemTap`, `ItemHold`, `ItemCollapse`,`ItemExpand`,`LoadOnDemand`,`Unknown` | NA |
-| NA | `ExpandAll` command |
-| NA | `CollapseAll` command |
-| NA | `CheckAll` command |
-| NA | `UnCheckAll` command |
-| NA | `ScrollToCommand` command |
+| `ItemHold` event | `ItemHolding` event |
+| `ItemCollapsed` event | `ItemCollapsed` event |
+| `ItemExpanded` event | `ItemExpanded` event |
+| N/A | `ItemChecked` event |
+| N/A | `ItemUnchecked` event |
+| N/A | `LoadChildrenOnDemand` event |
+| `ItemTap` command | `ItemTappedCommand` |
+| `ItemHold` command | `ItemHoldingCommand` | 
+| `ItemCollapse` command | `ItemCollapsedCommand` |
+| `ItemExpand` command | `ItemExpandedCommand` |
+| `LoadOnDemand` command | `LoadChildrenOnDemandCommand` |
+| N/A | `ExpandAllCommand` |
+| N/A | `CollapseAllCommand` |
+| N/A | `CheckAllCommand` |
+| N/A | `UncheckAllCommand` |
+| N/A | `ScrollToCommand` |
+| N/A | `ItemCheckedCommand` |
+| N/A | `ItemUncheckedCommand` |
 | `ExpandAll()` | `ExpandAll()` |
 | `ExpandAll()` | `CollapseAll()` |
-| `Expand()` | NA |
-| `Collapse()` | NA |
-| NA | `CheckAlll()` |
-| NA | `UnCheckAll()` |
-| `CheckItem()` | NA |
-| `UncheckItem()` | NA |
+| `Expand()` | N/A |
+| `Collapse()` | N/A |
+| N/A | `CheckAlll()` |
+| N/A | `UnCheckAll()` |
+| `CheckItem()` | through `CheckedItems` collection |
+| `UncheckItem()` | through `CheckedItems` collection |
 | `ItemStyle` (applies on TreeView level) | `ItemStyle` (applies on TreeView level), `ItemStyle` (applies on TreeViewDescriptor level) |
 | `ItemStyleSelector` (applies on TreeView level) | `ItemStyleSelector` (applies on TreeView level), `ItemStyleSelector` (applies on TreeViewDescriptor level) |
 
