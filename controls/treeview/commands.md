@@ -28,7 +28,7 @@ The .NET MAUI TreeView provides various commands that allow you to initiate expa
 
 ### Example with ExpandAll and CollapseAll Commands
 
-The TreeView deifnition:
+The TreeView definition:
 
 <snippet id='treeview-expand-collapse-commands'/>
 
@@ -38,7 +38,7 @@ The TreeView deifnition:
 
 ### Example with CheckAll and UncheckAll Commands
 
-The TreeView deifnition:
+The TreeView definition:
 
 <snippet id='treeview-check-uncheck-commands'/>
 
