@@ -44,11 +44,11 @@ The TreeView exposes the following command for loading children on demand.
 
 <snippet id='treeview-load-command-datamodel' />
 
-**3.** Define the ViewModel with the `LoadChildrenOnDemand` implementation:
+**3.** Define the ViewModel with the `LoadChildrenOnDemandCommand` implementation:
 
 <snippet id='load-children-on-demand-command-viewmodel' />
 
-> For runnable examples demonstrating the TreeView Load Children on Demand event and command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Load Children on Demand**.
+> For runnable examples demonstrating the TreeView Load Children on Demand command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Load Children on Demand**.
 
 ## See Also
 
