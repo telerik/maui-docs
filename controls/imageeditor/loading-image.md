@@ -53,11 +53,11 @@ When loading an image, the busy indicator shows by default. You can change the i
 
 **Example with BusyTemplate**
 
-`RadImageEditor` definition:
+**1.** `RadImageEditor` definition:
 
 <snippet id='imageeditor-busy-template'/>
 
-Add the namespace used:
+**2.** Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -69,20 +69,45 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The ImageEditor control provides an event that is raised when an image is loaded in the editor&mdash;`ImageLoaded`.
     * The sender argument which is of type object, but can be cast to the `RadImageEditor` type.
-	* An `System.EventArgs` object.
+	* An `ImageLoadedEventArgs` that provides information about an image loaded in the `RadImageEditor` control. The `ImageLoadedEventArgs` object has a reference to:
+        * the `ImageSize` (`Size`). This allows you to get the size of the image in pixels.
+		
+### Example with ImageLoaded Event
 
-**Example with ImageLoaded**
+**1.** Add the `RadImageEditor` definition:
 
 ```XAML
- <telerik:RadImageEditor x:Name="imageEditor" ImageLoaded="imageEditor_ImageLoaded"/>
+ <telerik:RadImageEditor x:Name="imageEditor" ImageLoaded="OnImageLoaded"/>
 ```
 
-And the event implementation:
+**2** The `ImageLoaded` event handler implementation. Execute `CropInteractiveCommand` with custom crop bounds that are calculated based on the image's size:
 
 ```C#
-private void imageEditor_ImageLoaded(object sender, EventArgs e)
+private void OnImageLoaded(object sender, ImageLoadedEventArgs eventArgs)
 {
-   // implement your logic here: 
+    var imageSize = eventArgs.ImageSize;
+    var cropCommand = this.imageEditor.CropInteractiveCommand;
+    var cropCommandContext = new CropCommandContext
+    {
+        AspectRatio = AspectRatio.Square,
+        Bounds = new Rectangle
+        {
+            X = imageSize.Width * 0.25,
+            Y = imageSize.Height * 0.25,
+            Width = imageSize.Width * 0.5,
+            Height = imageSize.Height * 0.5
+        },
+        Geometry = new RadEllipseGeometry
+        {
+            Center = new Point(0.5, 0.5),
+            Radius = new Size(0.5, 0.5)
+        }
+    };
+
+    if (cropCommand.CanExecute(cropCommandContext))
+    {
+        cropCommand.Execute(cropCommandContext);
+    }
 }
 ```
 
