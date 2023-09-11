@@ -2,8 +2,9 @@
 title: Migrating from Xamarin
 page_title: Migrating the Calendar from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin Calendar to the Telerik UI for .NET MAUI Calendar by updating the namespaces, the incompatible NuGet packages and API.
-tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
+tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
+previous_url: /controls/calendar/migrate-from-xamarin
 slug: calendar-migrate-from-xamarin
 ---
 
@@ -40,3 +41,5 @@ When migrating the Calendar from Xamarin to .NET MAUI, consider the following di
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Calendar Product Page](https://www.telerik.com/maui-ui/calendar)
+* [.NET MAUI Calendar Forum Page](https://www.telerik.com/forums/maui?tagId=2057)

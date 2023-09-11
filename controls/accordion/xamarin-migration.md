@@ -1,17 +1,16 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the Accordion from Xamarin.Forms to .NET MAUI
-description: Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI Calendar by updating the namespaces, the incompatible NuGet packages and API.
-tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
+description: Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI Accordion by updating the namespaces, the incompatible NuGet packages and API.
+tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
-slug: accordion-migrate-from-xamarin
+previous_url: /controls/accordion/migrate-from-xamarin
+slug: accordion-xamarin-migration
 ---
 
 # Migrating the Accordion from Xamarin.Forms to .NET MAUI
 
-Telerik .NET MAUI Accordion control preserves the same API as Xamarin.Forms Accordion with a few changes and improvements.
-
-The tables in the following sections list the differences between the APIs of the Xamarin.Forms Accordion and .NET MAUI TreeView.
+Telerik .NET MAUI Accordion control preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
 ## Namespaces Differences
 
@@ -28,12 +27,12 @@ When migrating the Accordion from Xamarin to .NET MAUI, consider the following d
 
 | Xamarin Accordion | .NET MAUI Accordion |
 | ------------- | --------------- |
-| NA | `CanExpandMultipleItems` |
-| NA | `Items` |
+| N/A | `CanExpandMultipleItems` |
+| N/A | `Items` |
 
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
-- [.NET MAUI Accordion Product Page](https://www.telerik.com/maui-ui/accordion)
-- [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
+* [.NET MAUI Accordion Product Page](https://www.telerik.com/maui-ui/accordion)
+* [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

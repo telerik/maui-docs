@@ -2,13 +2,17 @@
 title: Migrating from Xamarin
 page_title: Migrating the CheckBox from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin CheckBox to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
-position: 20
+position: 100
+tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
+previous_url: /controls/checkbox/migrate-from-xamarin
 slug: checkbox-migrate-from-xamarin
 ---
 
 # Migrating the CheckBox from Xamarin to .NET MAUI
 
-Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Forms CheckBox with a few changes and improvements listed in the tables below:
+The Telerik UI for .NET MAUI CheckBox preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
+
+The tables in the following sections list any differences between the APIs of the Xamarin.Forms CheckBox and .NET MAUI CheckBox.
 
 ## Migrating the Namespaces
 
@@ -21,8 +25,8 @@ Telerik .NET MAUI CheckBox control preserves the same API as Xamarin.Forms Check
 
 | Xamarin CheckBox | .NET MAUI CheckBox |
 | ------------- | --------------- |
-| - | `CornerRadius` |
-| `CheckBoxUserCommand` | - |
+| N/A | `CornerRadius` |
+| `CheckBoxUserCommand` | N/A |
 
 ## See Also
 
