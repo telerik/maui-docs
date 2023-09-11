@@ -17,32 +17,31 @@ The DataGrid control provides a validation command that has an entry point for v
 
 Here is an example how the DataGrid `ValidateCell` command works:
 
-1. Create a `Data` class (the business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces. For demonstration purposes, the example will do the validation through the `INotifyDataErrorInfo` interface.
+**1.** Create a `Data` class (the business object) that inherits from the `INotifyDataErrorInfo` and `INotifyPropertyChanged` interfaces. For demonstration purposes, the example will do the validation through the `INotifyDataErrorInfo` interface.
 
- <snippet id='datagrid-commands-validation-businessobject'/>
+<snippet id='datagrid-commands-validation-businessobject'/>
 
-1. Create a `ViewModel` with a collection of `Data` objects:
+**2.** Create a `ViewModel` with a collection of `Data` objects:
 
- <snippet id='datagrid-commands-validation-viewmodel'/>
+<snippet id='datagrid-commands-validation-viewmodel'/>
 
-1. Handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+**3.** Handle the `CellTap` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
- <snippet id='datagrid-commands-validation-validatecell'/>
+<snippet id='datagrid-commands-validation-validatecell'/>
 
-1. Set the `BindingContext` to be the `ViewModel` and add this command to the `Commands` collection of the `RadDataGrid` instance:
+**4.** Set the `BindingContext` to be the `ViewModel` and add this command to the `Commands` collection of the `RadDataGrid` instance:
 
- <snippet id='datagrid-commands-validation-binding'/>
+<snippet id='datagrid-commands-validation-binding'/>
 
-1. Define the DataGrid in XAML:
+**5.** Define the DataGrid in XAML:
 
-  <snippet id='datagrid-commands-validation'/>
+<snippet id='datagrid-commands-validation'/>
 
+**6.** Use the `telerik` namespace:
 
- 1. Use the `telerik` namespace:
-
-  ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

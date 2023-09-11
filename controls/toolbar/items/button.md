@@ -15,15 +15,15 @@ The available properties for configuration are:
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
-```XAML
-<telerik:ButtonToolbarItem Text="Undo">
-    <telerik:ButtonToolbarItem.ImageSource>
-        <FontImageSource Glyph="{x:Static telerik:TelerikFont.IconUndo}"
-                            FontFamily="{x:Static telerik:TelerikFont.Name}"
-                            Size="16" />
-    </telerik:ButtonToolbarItem.ImageSource>
-</telerik:ButtonToolbarItem>
-```
+    ```XAML
+    <telerik:ButtonToolbarItem Text="Undo">
+        <telerik:ButtonToolbarItem.ImageSource>
+            <FontImageSource Glyph="{x:Static telerik:TelerikFont.IconUndo}"
+                                FontFamily="{x:Static telerik:TelerikFont.Name}"
+                                Size="16" />
+        </telerik:ButtonToolbarItem.ImageSource>
+    </telerik:ButtonToolbarItem>
+    ```
 
 ## Events
 

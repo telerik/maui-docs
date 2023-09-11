@@ -63,6 +63,8 @@ public static class MauiProgram
 }
 ```
 
+> For a runnable example with the BusyIndicator Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BusyIndicator > Getting Started**.
+
 ## Additional Resources
 
 - [.NET MAUI BusyIndicator Product Page](https://www.telerik.com/maui-ui/busyindicator)

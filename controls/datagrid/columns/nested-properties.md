@@ -20,33 +20,33 @@ In addition, the DataGrid control provides the following property:
 
 Here is an example of how you can use the nested properties feature in DataGrid:
 
-1. Create the needed business objects, for example type `Person` that will have property of type `Address`:
+**1.** Create the needed business objects, for example type `Person` that will have property of type `Address`:
 
- <snippet id='datagrid-nested-property-person' />
+<snippet id='datagrid-nested-property-person' />
 
-1. Create Address model
+**2.** Create Address model
 
- <snippet id='datagrid-nested-proprty-address' />
+<snippet id='datagrid-nested-proprty-address' />
 
-In the sample, both classes inherit from the `NotifyPropertyChangedBase` class, which implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
+**3.** In the sample, both classes inherit from the `NotifyPropertyChangedBase` class, which implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
 
- ```C#
+```C#
 using Telerik.Maui.Controls.Compatibility.Common;
- ```
+```
 
-1. Create a ViewModel with a collection of `Person` objects:
+**4.** Create a ViewModel with a collection of `Person` objects:
 
- <snippet id='datagrid-nested-property-viewmodel' />
+<snippet id='datagrid-nested-property-viewmodel' />
 
-1. Use the following snippet to declare a `RadDataGrid` in XAML:
+**5.** Use the following snippet to declare a `RadDataGrid` in XAML:
 
- <snippet id='datagrid-nested-property-xaml' />
+<snippet id='datagrid-nested-property-xaml' />
 
-1. The `telerik` namespace is the following:
+**6.** The `telerik` namespace is the following:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 Here is how the DataGrid looks:
 

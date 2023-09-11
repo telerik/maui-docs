@@ -67,29 +67,29 @@ All types of columns inherit from the `DataGridColumn` class which provides the 
 
 Here is an example containing all types of columns `RadDataGrid` control provides.
 
-1. Use the following snippet to declare a `RadDataGrid` in XAML:
+**1.** Use the following snippet to declare a `RadDataGrid` in XAML:
 
- <snippet id='datagrid-columns-example' />
+<snippet id='datagrid-columns-example' />
 
-1. Where the `telerikDataGrid` namespace is the following:
+**2.** Where the `telerikDataGrid` namespace is the following:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. The `ViewModel` class is declared as following:
+**3.** The `ViewModel` class is declared as following:
 
- <snippet id='datagrid-column-view-model' />
+<snippet id='datagrid-column-view-model' />
 
- And the namespace used for `NotifyPropertyChangedBase`:
+**4.** And the namespace used for `NotifyPropertyChangedBase`:
 
  ```C#
  using Telerik.Maui.Controls
  ```
 
-1. And the `Club` custom object:
+**5.** And the `Club` custom object:
 
- <snippet id='datagrid-club-model' />
+<snippet id='datagrid-club-model' />
 
 >tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 

@@ -11,11 +11,11 @@ slug: barcode-styling
 
 The Barcode enables you to change the visual appearance of your barcodes so they match your application theme.
 
-To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
+**1.** To change the colors of the control, set the `ForegroundColor` and `BackgroundColor` properties.
 
 <snippet id='barcode-features-colors' />
 
-Add the `telerik` namespace.
+**2.** Add the `telerik` namespace.
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

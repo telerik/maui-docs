@@ -40,20 +40,19 @@ The BadgeView supports a default `ControlTemplate` which you can customize.
 
 To use the default `ControlTemplate`:
 
-1. Set the default `ControlTemplate` in the page resources:
+**1.** Set the default `ControlTemplate` in the page resources:
 
- <snippet id='badgeview-badge-control-template'/>
+<snippet id='badgeview-badge-control-template'/>
 
-1. The following snippet shows the BadgeView definition in XAML:
+**2.** The following snippet shows the BadgeView definition in XAML:
 
- <snippet id='badgeview-controltemplate'/>
+<snippet id='badgeview-controltemplate'/>
 
-1. Add the `telerik` namespace:
+**3.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-
- ```
+```
 
 The following image shows the final result.
 
@@ -63,25 +62,25 @@ The following image shows the final result.
 
 To customize the `ControlTemplate`:
 
-1. Define the custom `ControlTemplate` in the page resources:
+**1.** Define the custom `ControlTemplate` in the page resources:
 
- <snippet id='badgeview-badge-custom-control-template'/>
+<snippet id='badgeview-badge-custom-control-template'/>
 
-1. The following snippet shows the BadgeView definition in XAML:
+**2.** The following snippet shows the BadgeView definition in XAML:
 
- <snippet id='badgeview-custom-controltemplate'/>
+<snippet id='badgeview-custom-controltemplate'/>
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows the final result.
 
 ![Badge Custom Control Template](images/badgeview-custom-controltemplate.png)
 
-> For a Badge ControlTemplate example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
+> For a runnable example with the BadgeView ControlTemplate scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Features**.
 
 ## See Also
 
