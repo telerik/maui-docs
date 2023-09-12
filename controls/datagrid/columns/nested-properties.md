@@ -24,7 +24,7 @@ Here is an example of how you can use the nested properties feature in DataGrid:
 
 <snippet id='datagrid-nested-property-person' />
 
-**2.** Create Address model
+**2.** Create the Address model:
 
 <snippet id='datagrid-nested-proprty-address' />
 
