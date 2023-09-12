@@ -19,7 +19,7 @@ The TreeView for .NET MAUI allows you to style its look by using the following p
 
 ## Styling the TreeView Item
 
-Style all elements in the TreeView Item - label, image, checkbox, expand/collapse indicator. For more details review the [Item Style]({%slug treeview-item-style%}) article.
+Style all elements in the TreeView Item—label, image, checkbox, expand/collapse indicator. For more details, review the [Item Style]({%slug treeview-item-style%}) article.
 
 ## Styling the Empty Template
 
