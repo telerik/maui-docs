@@ -50,37 +50,10 @@ To create a custom animation, use a combination of the `AnimationType`, `BusyCon
 
 The `Animations`(Collection of type `RadAnimation`)&mdash;Used when the `AnimationType` of the BusyIndicator control is `Custom`.
 
-The following example demonstrates how to create a custom animation that changes the opacity of a text (blinking effect) in XAML.
+The following example demonstrates how to create a custom animation that changes the opacity of a text (blinking effect) in XAML and in C#.
 
 <snippet id='busyindicator-animations-xaml'/>
 <snippet id='busyindicator-animations-code'/>
-
-The following example demonstrates how to create a custom animation that changes the opacity of a text (blinking effect) in code-behind.
-
-```C#
-RadBusyIndicator radBusyIndicator = new RadBusyIndicator()
-{
-    IsBusy = true,
-    AnimationType = AnimationType.Custom,
-    Content = new Label() { Text = "This is the content of the RadBusyIndicator control displayed when the indicator is not busy." },
-    BusyContent = new Label()
-    {
-        Text = "Loading...",
-        VerticalOptions = new LayoutOptions(LayoutAlignment.Center, false),
-        HorizontalOptions = new LayoutOptions(LayoutAlignment.Center, false),
-    },
-};
-
-RadDoubleAnimation annimation = new RadDoubleAnimation() { Duration = 800, From = 0.1, To = 1, PropertyPath = "Opacity", Target = radBusyIndicator.BusyContent, RepeatForever = true, AutoReverse = true };
-radBusyIndicator.Animations.Add(annimation);
-
-Device.StartTimer(TimeSpan.FromMilliseconds(5000),
-    () =>
-    {
-        radBusyIndicator.IsBusy = false;
-        return false;
-    });
-```
 
 ## See Also
 

@@ -397,6 +397,9 @@ navigation:
     ## TreeView
     controls/treeview:
         title: "TreeView"
+    controls/treeview/templates:
+        title: "Templates"
+        position: 7
     controls/treeview/styling:
         title: "Styling"
         position: 15

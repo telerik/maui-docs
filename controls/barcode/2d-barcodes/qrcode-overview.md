@@ -47,7 +47,7 @@ Disregarding the data, which consists the encoded data, along with the error cor
 
 The following example demonstrates a Barcode with an applied QR Code symbology.
 
-Define the Barcode and apply the QR Code symbology:
+**1.** Define the Barcode and apply the QR Code symbology:
 
 ```XAML
 <telerik:RadBarcode x:Name="barcode"
@@ -63,12 +63,11 @@ Define the Barcode and apply the QR Code symbology:
 </telerik:RadBarcode>
 ```
 
-Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
 
 The following image shows the result of the suggested implementation.
 

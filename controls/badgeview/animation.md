@@ -31,7 +31,7 @@ The following example demonstrates how to set the `Animation` properties to the 
 
 <snippet id='badgeview-animation'/>
 
->tip For the Badge Animation example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
+> For a runnable example with the BadgeView Animation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Features**.
 
 ## See Also
 

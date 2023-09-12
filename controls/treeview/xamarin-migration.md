@@ -1,27 +1,31 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the TreeView from Xamarin.Forms to .NET MAUI
-description: Learn how to migrate the Telerik UI for Xamarin TreeView to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
+description: Learn how to migrate the Telerik UI for Xamarin TreeView to the Telerik UI for .NET MAUI framework by updating the namespacesby updating the namespaces, the incompatible NuGet packages and API.
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms, treeview
+position: 100
 slug: migrate-xamarin-treeview-to-maui
 position: 20
 ---
 
-# Migrating from Xamarin.Forms TreeView to .NET MAUI TreeView
+# Migrating the TreeView from Xamarin.Forms to .NET MAUI
 
 The Telerik UI for .NET MAUI TreeView control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms TreeView and .NET MAUI TreeView.
 
-## Migrating the Namespaces
+## Namespaces Differences
+
+When migrating the TreeView from Xamarin to .NET MAUI, consider the following differences in the namespaces:
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin TreeView | `RadTreeView` | xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls" | using Telerik.XamarinForms.DataControls; |
 | .NET MAUI TreeView | `RadTreeView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | using Telerik.Maui.Controls; |
 
+## API Differences
 
-## Modifying the API
+When migrating the TreeView from Xamarin to .NET MAUI, consider the following differences in the API:
 
 | Xamarin TreeView | .NET MAUI TreeView |
 | ------------- | --------------- |
@@ -59,7 +63,6 @@ The tables in the following sections list the differences between the APIs of th
 | `UncheckItem()` | NA |
 | `ItemStyle` (applies on TreeView level) | `ItemStyle` (applies on TreeView level), `ItemStyle` (applies on TreeViewDescriptor level) |
 | `ItemStyleSelector` (applies on TreeView level) | `ItemStyleSelector` (applies on TreeView level), `ItemStyleSelector` (applies on TreeViewDescriptor level) |
-
 
 ## See Also
 

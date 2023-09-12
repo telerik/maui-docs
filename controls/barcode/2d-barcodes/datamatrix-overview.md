@@ -67,11 +67,11 @@ The `TextEncoding` property determines the character encoding that is used to en
 
 ## Example 
 
-Add the Barcode definition:
+**1.** Add the Barcode definition:
 
 <snippet id='datamatrix-example-xaml' />
 
-Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

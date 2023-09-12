@@ -17,6 +17,10 @@ The TreeView for .NET MAUI allows you to style its look by using the following p
 * `CornerRadius`(`Thickness`)&mdash;Specifies the corner radius of the control.
 * `ContentPadding`(`Thickness`)&mdash;Specifies the content padding of the control.
 
+## Styling the TreeView Item
+
+Style all elements in the TreeView Item—label, image, checkbox, expand/collapse indicator. For more details, review the [Item Style]({%slug treeview-item-style%}) article.
+
 ## Styling the Empty Template
 
 When no data is displayed in the control, an empty template is visualized. Style the template by using the `EmptyStyle` property: 

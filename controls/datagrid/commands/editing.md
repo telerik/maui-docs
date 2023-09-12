@@ -24,35 +24,35 @@ The execution parameter of the `Editing Commands` is of type `EditContext` that 
 
 Here is an example how the DataGrid `Editing` commands work.
 
-1. Create the needed business objects, for example type `Data` with the following properties:
+**1.** Create the needed business objects, for example type `Data` with the following properties:
 
- <snippet id='datagrid-commands-editing-businessobject'/>
+<snippet id='datagrid-commands-editing-businessobject'/>
 
-1. Chen, create a `ViewModel` with a collection of Data objects:
+**2.** Chen, create a `ViewModel` with a collection of Data objects:
 
- <snippet id='datagrid-commands-editing-viewmodel'/>
+<snippet id='datagrid-commands-editing-viewmodel'/>
 
-1. Set the `ViewModel` class as `BindingContext` of the page:
+**3.** Set the `ViewModel` class as `BindingContext` of the page:
 
- ```C#
+```C#
 this.BindingContext = new ViewModel();
- ```
+```
 
-1. Handle the `BeginEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+**4.** Handle the `BeginEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
- <snippet id='datagrid-commands-editing-beginedit'/>
+<snippet id='datagrid-commands-editing-beginedit'/>
 
-1. Handle the `CommitEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
+**5.** Handle the `CommitEdit` action as a `Command`. First, create a class that inherits from the `DataGridCommand` and set its `Id` property. You will also need to override the `CanExecute` and `Execute` methods as demonstrated in the example below:
 
- <snippet id='datagrid-commands-editing-commitedit'/>
+<snippet id='datagrid-commands-editing-commitedit'/>
 
-1. Add this `Command` to the `Commands` collection of the `RadDataGrid` instance:
+**6.** Add this `Command` to the `Commands` collection of the `RadDataGrid` instance:
 
- <snippet id='datagrid-commands-editing-binding'/>
+<snippet id='datagrid-commands-editing-binding'/>
 
-1. Define the DataGrid in XAML:
+**7.** Define the DataGrid in XAML:
 
- <snippet id='datagrid-commands-editing'/>
+<snippet id='datagrid-commands-editing'/>
 
 ## See Also
 

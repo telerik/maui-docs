@@ -1,23 +1,31 @@
 ---
 title: Migrating from Xamarin
 page_title: Migrating the AutoComplete from Xamarin.Forms to .NET MAUI
-description: Learn how to migrate the Telerik UI for Xamarin AutoComplete to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
+description: Learn how to migrate the Telerik UI for Xamarin AutoCompleteView to the Telerik UI for .NET MAUI AutoComplete by updating the namespaces and the incompatible NuGet packages.
+tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 20
+previous_url: /controls/autocomplete/migrate-from-xamarin
 slug: autocomplete-migrate-from-xamarin
 ---
 
 # Migrating the AutoComplete from Xamarin to .NET MAUI
 
-Telerik .NET MAUI AutoComplete control preserves the same API as Xamarin.Forms `AutoCompleteView` with a few changes and improvements. All changes are listed in the tables below:
+The Telerik UI for .NET MAUI AutoComplete preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
-## Migrating the Namespaces
+The tables in the following sections list any differences between the APIs of the Xamarin.Forms AutoCompleteView and .NET MAUI AutoComplete.
+
+## Namespace Differences
+
+When migrating the AutoCompleteView from Xamarin to .NET MAUI, consider the following differences in the namespaces:
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin AutoCompleteView | `RadAutoCompleteView` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI AutoComplete | `RadAutoComplete` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
-## Modifying the API
+## API Differences
+
+When migrating the AutoComplete from Xamarin to .NET MAUI, consider the following differences in the API:
 
 | Xamarin AutoCompleteView | .NET MAUI AutoComplete |
 | ------------- | --------------- |
@@ -25,7 +33,7 @@ Telerik .NET MAUI AutoComplete control preserves the same API as Xamarin.Forms `
 | `WatermarkTextColor` | `PlaceholderColor` |
 | `SuggestionItemTextColor` | `SuggestionItemHighlightTextColor` |
 | `SuggestionItemLabel` | `RadHighlightLabel` |
-| `ImagePath` | - |
+| `ImagePath` | N/A |
 | `CompletionMode` (of type `CompletionMode`) | `CompletionMode` (of type `AutoCompleteCompletionMode`) |
 | `SuggestionViewPosition` (of type `PopupPosition`) | `SuggestionViewPosition` (of type `AutoCompletePopupPosition`) |
 | `SuggestMode` of type(`SuggestMode`) | `SuggestMode` (of type `AutoCompleteSuggestMode`) |

@@ -1,12 +1,14 @@
 ---
 title: Migrating from Xamarin
-page_title: .NET MAUI Calendar Documentation - Migrate from Xamarin
-description: Learn how to migrate you application from the Xamarin.Forms Calendar to the .NET MAUI Calendar control.
-position: 20
+page_title: Migrating the Calendar from Xamarin.Forms to .NET MAUI
+description: Learn how to migrate the Telerik UI for Xamarin Calendar to the Telerik UI for .NET MAUI Calendar by updating the namespaces, the incompatible NuGet packages and API.
+tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
+position: 100
+previous_url: /controls/calendar/migrate-from-xamarin
 slug: calendar-migrate-from-xamarin
 ---
 
-# Migrating from Xamarin.Forms Calendar to .NET MAUI Calendar
+# Migrating the Calendar from Xamarin.Forms to .NET MAUI
 
 The Telerik UI for .NET MAUI Calendar control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
@@ -18,12 +20,16 @@ The tables in the following sections list the differences between the APIs of th
 
 ## Namespaces Differences
 
-| Control | Control name | C# Namespace| XAML Namespcace |
+When migrating the Calendar from Xamarin to .NET MAUI, consider the following differences in the namespaces:
+
+| Control | Control name | C# Namespace | XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin Calendar | `RadCalendar` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI Calendar | `RadCalendar` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
-## API Changes
+## API Differences
+
+When migrating the Calendar from Xamarin to .NET MAUI, consider the following differences in the API:
 
 | Xamarin Calendar | .NET MAUI Calendar |
 | ------------- | --------------- |
@@ -35,3 +41,5 @@ The tables in the following sections list the differences between the APIs of th
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Calendar Product Page](https://www.telerik.com/maui-ui/calendar)
+* [.NET MAUI Calendar Forum Page](https://www.telerik.com/forums/maui?tagId=2057)

@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI DataGrid Documentation - Selection
-description: "Learn more about how to set the single and multiple selection mode of the Telerik UI for .NET MAUI DataGrid and use the available properties, events, and methods."
+description: Learn more about how to set the single and multiple selection mode of the Telerik UI for .NET MAUI DataGrid and use the available properties, events, and methods.
 position: 7
 slug: datagrid-selection-overview
 ---
@@ -100,13 +100,13 @@ The DataGrid provides the following methods for programmatic selection of all it
 
 The following example shows how to use the methods for programmatic selection exposed by the DataGrid:
 
-1. Add a sample business object:
+**1.** Add a sample business object:
 
- <snippet id='datagrid-selection-object'/>
+<snippet id='datagrid-selection-object'/>
 
-1. Add a `ViewModel` with a list of `Person` objects:
+**2** Add a `ViewModel` with a list of `Person` objects:
 
- ```C#
+```C#
 public class ViewModel
 {
 	public ViewModel()
@@ -127,42 +127,42 @@ public class ViewModel
 
 	public ObservableCollection<Person> People { get; set; }
 }
- ```
+```
 
-1. Add the DataGrid definition:
+**3.** Add the DataGrid definition:
 
- ```XAML
+```XAML
 <telerik:RadDataGrid x:Name="dataGrid"
 					 ItemsSource="{Binding People}" />
- ```
+```
 
-1. Set the `ViewModel` class as a `BindingContext`:
+**4.** Set the `ViewModel` class as a `BindingContext`:
 
- ```C#
+```C#
 this.BindingContext = new ViewModel();
- ```
+```
 
-1. Now, use various approaches to select the first employee from the Marketing department. Each snippet shows a possible approach:
+**5.** Use various approaches to select the first employee from the Marketing department. Each snippet shows a possible approach:
 
 * In the case of row selection, use the `SelectItem` method:
 
- ```C#
+```C#
 var firstMarketingItem = ((ObservableCollection<Person>)this.dataGrid.ItemsSource).First(p => p.Department == "Marketing");
 this.dataGrid.SelectItem(firstMarketingItem);
- ```
+```
 
 * For a cell selection, use the `SelectCell` method. It takes as a parameter a `DataGridCellInfo` object. The `DataGridCellInfo` object can be easy created by using the needed data item (of type `Person` in this case) and setting the column corresponding to the cell you need to select.
 
- ```C#
+```C#
 var firstMarketingCell = ((ObservableCollection<Person>)this.dataGrid.ItemsSource).First(p => p.Department == "Marketing");
 this.dataGrid.SelectCell(new DataGridCellInfo(firstMarketingCell, this.dataGrid.Columns[2]));
- ```
+```
 
-1. Lastly, call the `SelectAll` or `DeselectAll` method:
+**6.** Call the `SelectAll` or `DeselectAll` method:
 
- ```C#
+```C#
 this.dataGrid.SelectAll();
- ```
+```
 
 ## See Also
 

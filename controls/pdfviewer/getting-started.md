@@ -32,7 +32,10 @@ Before adding the PDF Viewer, you need to:
 
 **1.** When your .NET MAUI application is setup, you are ready to add a PDF Viewer control to your page.
 
-<snippet id='pdfviewer-getting-started-xaml'/>
+<snippet id='pdfviewer-getting-started-xaml' />
+```C#
+var pdfViewer = new RadPdfViewer();
+```
 
 **2.** Add the `telerik` namespace:
 
