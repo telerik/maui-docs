@@ -27,7 +27,7 @@ To customize the different parts of the control, you can use the following built
 
 ## Customize the Chat Entry
 
-You can customize the `ChatEntry` with implicit style. The example below shows how to customize the chat entry in your Chat control.
+You can customize the `ChatEntry` with an implicit style. The example below shows how to customize the chat entry in your Chat control.
 
 ```XAML
 <Style TargetType="telerik:ChatEntry">
