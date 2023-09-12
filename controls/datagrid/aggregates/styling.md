@@ -1,7 +1,7 @@
 ---
 title: Aggregate Styling
 page_title: .NET MAUI DataGrid Documentation - Aggregate Styling
-description: "Learn how to style the group footer, header, and column footer of the Telerik UI for .NET MAUI DataGrid when its data is aggregated."
+description: Learn how to style the group footer, header, and column footer of the Telerik UI for .NET MAUI DataGrid when its data is aggregated.
 position: 3
 slug: datagrid-aggregates-styling
 ---
@@ -12,7 +12,31 @@ The .NET MAUI DataGrid provides a styling functionality for its group footer, he
 
 ## Styling the Group Header
 
-The DataGrid provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header.
+The DataGrid provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
+
+You can style the aggregates with the current properties:
+
+* `AggregatesTextColor`&mdash;Defines the color for the aggregates part of the `GroupHeader`.
+* `AggregatesTextFontAttributes`&mdash;Defines the font attributes for the aggregates part of the `GroupHeader`.
+* `AggregatesTextFontFamily`&mdash;Defines the font family of the aggregates part of the `GroupHeader`.
+* `AggregatesTextFontSize`&mdash;Defines the size of the aggregates part of the `GroupHeader`.
+* `AggregatesTextMargin`&mdash;Defines the margin for the aggregates part of the `GroupHeader`.
+
+And you can style the rest part of the group header with the current properties:
+
+* `BackgroundColor`&mdash;Defines the color that fills the area within the header.
+* `BorderColor`&mdash;Defines the color that fills the border region.
+* `BorderThickness`&mdash;Defines the thickness of the border.
+* `ButtonFontAttributes`&mdash;Defines the font attributes for the expand/collapse symbol for the group headers.
+* `ButtonFontFamily`&mdash;Defines the font family for the  expand/collapse symbol of the `GroupHeader`.
+* `ButtonFontSize`&mdash;Defines the font size for the expand/collapse symbol of the `GroupHeader`.
+* `ButtonMargin`&mdash;Defines the margin for the expand/collapse symbol of the `GroupHeader`.
+* `ButtonTextColor`&mdash;Defines the color for the expand/collapse symbol of the `GroupHeader`.
+* `TextColor`&mdash;Defines the color for the text part of the `GroupHeader`.
+* `TextFontAttributes`&mdash;Defines the font attributes for the text part of the `GroupHeader`.
+* `TextFontFamily`&mdash;Defines the font family for the text part of the `GroupHeader`.
+* `TextFontSize`&mdash;Defines the size for the text part of the `GroupHeader`.
+* `TextMargin`&mdash;Defines the margin for the text part of the `GroupHeader`.
 
 > To visualize the `GroupHeader`, set the `ShowGroupHeaderAggregates` to `True`. The property is a property inside the `RadDataGrid` instance.
 
