@@ -13,7 +13,7 @@ The TreeView control provides the ability to specify a template when the `ItemsS
 It exposes the following properties:
 
 * `EmptyTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when the view has no items.
-* `EmptyStyle`(`Style` with target type `telerik:ItemsEmptyView`)&mdash;Specifies the style applied to the empty view. For more details review the [TreeView Styling]({%slug treeview-style-overview%}#styling-the-empty-template) article.
+* `EmptyStyle`(`Style` with target type `telerik:ItemsEmptyView`)&mdash;Specifies the style applied to the empty view. For more details, review the [TreeView Styling]({%slug treeview-style-overview%}#styling-the-empty-template) article.
 
 **Example with Empty Template definition**
 
