@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='treeview-getting-started-viewmodel' />
 
-### Example with ItemTemplate on TreeViewDescriptor level: 
+## Defining an ItemTemplate on TreeViewDescriptor Level 
 
 **1.** Define the `ItemTemplate` on `TreeViewDescriptor` leve:
 
