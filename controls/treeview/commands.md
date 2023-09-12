@@ -26,9 +26,9 @@ The .NET MAUI TreeView provides various commands that allow you to initiate expa
 | `ItemHoldingCommand` (`ICommand`) | Defines a command to execute when an item is held. The command accepts a single parameter with the item being held. |
 
 
-### Example with ExpandAll and CollapseAll Commands
+## Using the ExpandAll and CollapseAll Commands
 
-The TreeView definition:
+The following TreeView definition shows how to use the expand and collapse commands.
 
 <snippet id='treeview-expand-collapse-commands'/>
 
@@ -36,9 +36,9 @@ The TreeView definition:
 
 > For a runnable example demonstrating the TreeView Expand and Collapse commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
 
-### Example with CheckAll and UncheckAll Commands
+## Using the CheckAll and UncheckAll Commands
 
-The TreeView definition:
+The following TreeView definition shows how to use the check and uncheck commands.
 
 <snippet id='treeview-check-uncheck-commands'/>
 
