@@ -40,7 +40,7 @@ You can customize the `ChatEntry` with an implicit style. The example below show
 
 ## Customize the Send Button
 
-You can customize the send button as well. The example below shows how to customize the send button in your Chat control.
+The example below shows how to customize the Send button in your Chat control.
 
 ```XAML
 <FontImageSource x:Key="SendIconSource"
