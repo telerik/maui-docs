@@ -29,21 +29,21 @@ To style the Badge, use the following options:
 
 The following example demonstrates how to style the Badge indicator.
 
-1. Define the BadgeView with some of the above properties.
+**1.** Define the BadgeView with some of the above properties.
 
- <snippet id='badgeview-styling'/>
+<snippet id='badgeview-styling'/>
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows the final result.
 
 ![Badge Styling](images/badgeview-badge-styling.png)
 
-> For the BadgeView Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to BadgeView -> Features category.
+> For a runnable example with the BadgeView Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Styling**.
 
 ## See Also
 

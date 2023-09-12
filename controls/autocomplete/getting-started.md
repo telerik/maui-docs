@@ -28,22 +28,22 @@ Before adding the AutoComplete, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a AutoComplete control to your page.
 
-Here is the AutoComplete definition in XAML and C#:
+**1.** Here is the AutoComplete definition in XAML and C#:
 
 <snippet id='autocomplete-getting-started-xaml' />
 <snippet id='autocomplete-getting-started-csharp' />
 
-And the items source for the suggestion list:
+**2.** Add the items source for the suggestion list:
 
 <snippet id='autocomplete-getting-started-items-source'/>
 
-Add the following namespace:
+**3.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
  using Telerik.Maui.Controls.Compatibility;

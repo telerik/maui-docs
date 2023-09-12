@@ -26,27 +26,50 @@ Before adding the BadgeView, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a BadgeView control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a BadgeView control to your page.
 
- ```XAML
+```XAML
 <telerik:RadBadgeView/>
- ```
- ```C#
+```
+```C#
 var badge = new RadBadgeView();
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ````
+````
 
-1. Set the `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if you set the `Content` property of the BadgeView.
+**3.** Set the `Content` and `BadgeText` properties. Note that the Badge marker (indicator), which is part of the BadgeView, will be visualized only if you set the `Content` property of the BadgeView.
 
- <snippet id='badgeview-getting-started-xaml'/>
- <snippet id='badgeview-getting-started-csharp'/>
+<snippet id='badgeview-getting-started-xaml'/>
+<snippet id='badgeview-getting-started-csharp'/>
 
-> For the BadgeView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+
+```C#
+ using Telerik.Maui.Controls.Compatibility;
+
+ public static class MauiProgram
+ {
+	public static MauiApp CreateMauiApp()
+	{
+		var builder = MauiApp.CreateBuilder();
+		builder
+			.UseTelerik()
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+			});
+
+		return builder.Build();
+	}
+ }           
+```
+
+> For a runnable example with the BadgeView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Getting Started**.
 
 ## Additional Resources
 
@@ -54,7 +77,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [.NET MAUI BadgeView Forum Page](https://www.telerik.com/forums/maui?tagId=1900)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
 
 ## See Also
 

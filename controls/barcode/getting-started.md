@@ -62,6 +62,8 @@ public static class MauiProgram
 }           
 ```
 
+> For a runnable example with the Barcode Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Barcode > Getting Started**.
+
 ## Additional Resources
 
 - [.NET MAUI Barcode Product Page](https://www.telerik.com/maui-ui/barcode)

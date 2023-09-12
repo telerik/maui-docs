@@ -42,11 +42,11 @@ Additionally, next to each side of the PDF417 barcode two or more modules, dedic
 
 The following example demonstrates a Barcode with an applied PDF417 symbology:
 
-Define the Barcode and apply the PDF417 symbology:
+**1.** Define the Barcode and apply the PDF417 symbology:
 
 <snippet id='barcodepdf-example-xaml' />
 
-Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

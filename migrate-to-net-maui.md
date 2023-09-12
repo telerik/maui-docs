@@ -104,11 +104,20 @@ If you use components that are not yet available in Telerik UI for .NET MAUI, no
 
 The following list includes the links to the available Xamarin-to-MAUI migration guides for Telerik UI controls:
 
-* [Accordion]({% slug accordion-migrate-from-xamarin %})
+* [Accordion]({% slug accordion-xamarin-migration %})
 * [AutoComplete]({% slug autocomplete-migrate-from-xamarin %})
+* [BadgeView]({% slug badgeview-migrate-from-xamarin %})
+* [Barcode]({% slug barcode-xamarin-migration %})
+* [Border]({% slug border-xamarin-migration %})
+* [BusyIndocator]({% slug busyindicator-xamarin-migration %})
+* [Button]({% slug button-xamarin-migration %})
+* [Calendar]({% slug calendar-migrate-from-xamarin %})
+* [Chart]({% slug chart-xamarin-migration %})
+* [Chat (Converational UI)]({% slug chat-migrate-from-xamarin %})
 * [CheckBox]({% slug checkbox-migrate-from-xamarin %})
 * [ComboBox]({% slug combobox-migrate-from-xamarin %})
 * [DataForm]({% slug dataform-migrate-from-xamarin %})
+* [DataGrid]({% slug datagrid-xamarin-migration %})
 * [DatePicker]({% slug migrate-xamarin-datepicker-to-maui %})
 * [DateTimePicker]({% slug migrate-xamarin-datetimepicker-to-maui %})
 * [Entry]({% slug entry-migrate-from-xamarin %})
@@ -118,9 +127,11 @@ The following list includes the links to the available Xamarin-to-MAUI migration
 * [MaskedEntry]({% slug maskedentry-migrate-from-xamarin %})
 * [ProgressBar]({% slug progressbar-migrate-from-xamarin %})
 * [SignaturePad]({% slug signaturepad-migrate-from-xamarin %})
+* [SlideView]({% slug migrate-xamarin-slideview-to-maui %})
 * [TemplatedPicker]({% slug  migrate-xamarin-templatedpicker-to-maui %})
 * [TimePicker]({% slug  migrate-xamarin-timepicker-to-maui %})
 * [TimeSpanPicker]({% slug migrate-xamarin-timespanpicker-to-maui %})
+* [TreeView]({% slug migrate-xamarin-treeview-to-maui %})
 
 ## Step 4: Port Custom Renderers to Handlers
 

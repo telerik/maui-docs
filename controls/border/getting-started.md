@@ -60,6 +60,8 @@ public static class MauiProgram
 }           
 ```
 
+> For a runnable example with the Border Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Border > Getting Started**.
+
 ## Additional Resources
 
 - [.NET MAUI Border Product Page](https://www.telerik.com/maui-ui/border)

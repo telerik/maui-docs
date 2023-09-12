@@ -3,6 +3,7 @@ title: Events
 page_title: .NET MAUI Entry Documentation - Events
 description: Learn how to use the exposed events of the Telerik UI for .NET MAUI Entry control.
 position: 5
+tags: entry, input text, event, .net maui, text changed, enter key, complated event, input control
 previous_url: /controls/entry/entry-events
 slug: entry-events
 ---
@@ -21,7 +22,7 @@ The Entry supports the following events:
 
 The following example demonstrates the Entry definition in XAML with the `TextChanged` and `Completed` event handlers.
 
-1. Define the Entry.
+**1.** Define the Entry.
 
  ```XAML
 <VerticalStackLayout>
@@ -34,23 +35,23 @@ The following example demonstrates the Entry definition in XAML with the `TextCh
 </VerticalStackLayout>
  ```
 
-1. Set the `TexhChanged` event.
+**2.** Set the `TexhChanged` event.
 
- ```C#
+```C#
 private void Entry_TextChanged(object sender, TextChangedEventArgs e)
 {
     this.textChangedLabel.Text = $"Text changed from {e.OldTextValue} to {e.NewTextValue}";
 }
- ```
+```
 
-1. Set the `Completed` event.
+**3.** Set the `Completed` event.
 
- ```C#
+```C#
 private void Entry_Completed(object sender, EventArgs e)
 {
     this.textChangedLabel.Text = "User completed entering text";
 }
- ```
+```
 
 ## See Also
 

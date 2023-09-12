@@ -25,15 +25,15 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 ## Generate a SwissQR Barcode
 
-1. To generate a SwissQR Barcode by using Telerik UI for MAUI, set the `Symbology` of the Barcode to `SwissQRCode`.
+**1.** To generate a SwissQR Barcode by using Telerik UI for MAUI, set the `Symbology` of the Barcode to `SwissQRCode`.
 
- <snippet id='swissqrbarcode-example-xaml' />
+<snippet id='swissqrbarcode-example-xaml' />
 
-1. Add the `telerik` namespace:
+**1.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to ease them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
@@ -61,21 +61,21 @@ SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
       new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
  ```
 
-1. Add the namespace.
+**3.** Add the namespace.
 
- ```C#
+```C#
 using Telerik.Barcode
- ```
+```
 
-1. Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
+**4.** Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
 
- ```C#
- string errors = qrCodeValue.Validate();
- if (string.IsNullOrEmpty(errors))
- {
+```C#
+string errors = qrCodeValue.Validate();
+if (string.IsNullOrEmpty(errors))
+{
     this.Barcode.Value = qrCodeValue.BuildValue();
- }
- ```
+}
+```
 
 Invoking the code from the above snippets will generate the following result:
 
