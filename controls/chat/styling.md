@@ -38,7 +38,7 @@ You can customize the `ChatEntry` with an implicit style. The example below show
 </Style>
 ```
 
-## Customize the send button
+## Customize the Send Button
 
 You can customize the send button as well. The example below shows how to customize the send button in your Chat control.
 
