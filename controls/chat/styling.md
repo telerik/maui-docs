@@ -13,21 +13,21 @@ Any change in the appearance of the `RadChat` components depends on the referenc
 
 To customize the different parts of the control, you can use the following built-in styles:
 
-- `MessageImageStyle`(`TargetType Image`)&mdash;Defines the style referred to the send button image.
+- `MessageImageStyle`(target type `Image`)&mdash;Defines the style referred to the send button image.
 
-- `OutgoingMessageImageStyle` (`TargetType Image`)&mdash;Defines the style of the outgoing message image.
+- `OutgoingMessageImageStyle` (target type `Image`)&mdash;Defines the style of the outgoing message image.
 
-- `IncomingBorderStyle` (`TargetType RadBorder`)&mdash;Defines the style of the incoming message border.
+- `IncomingBorderStyle` (target type `RadBorder`)&mdash;Defines the style of the incoming message border.
 
-- `OutgoingBorderStyle` (`TargetType RadBorder`)&mdash;Defines the style of the outgoing message border.
+- `OutgoingBorderStyle` (target type `RadBorder`)&mdash;Defines the style of the outgoing message border.
 
-- `DefaultLabelStyle` (`TargetType Label`)&mdash;Defines the default label style.
+- `DefaultLabelStyle` (target type `Label`)&mdash;Defines the default label style.
 
-- `OutgoingLabelStyle` (`TargetType Label`)&mdash;Defines the style of the label of the outgoing message.
+- `OutgoingLabelStyle` (target type `Label`)&mdash;Defines the style of the label of the outgoing message.
 
 ## Customize the Chat Entry
 
-You can customize the `ChatEntry` with an implicit style. The example below shows how to customize the chat entry in your Chat control.
+You can customize the `ChatEntry` with an implicit style. The example below shows how to customize the chat entry in your Chat control. The `ChatEntry` represents the entry used for writing messages in the Telerik UI for .NET MAUI Chat control.
 
 ```XAML
 <Style TargetType="telerik:ChatEntry">
@@ -56,14 +56,12 @@ The example below shows how to customize the Send button in your Chat control.
                   InputAreaBackgroundColor="{StaticResource ChatBackgroundColor}"
                   SendMessageButtonImage="{StaticResource SendIconSource}"/>
 ```
-You cane see th result from the code snippets in the image below:
+You cane see the result from the code snippets in the image below:
 
 ![.NET MAUI Chat Styling](images/chat-styling.png)
 
+## See Also
 
-
-
-
-
-
-
+- [Commands]({% slug chat-commands %})
+- [Chat Items]({%slug chat-items-overview %})
+- [MVVM Support]({%slug chat-mvvm-support %})
