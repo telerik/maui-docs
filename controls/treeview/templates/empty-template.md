@@ -10,12 +10,14 @@ slug: treeview-empty-template
 
 The TreeView control provides the ability to specify a template when the `ItemsSource` is null or the collection is empty.
 
-It exposes the following properties:
+The TreeView exposes the following properties:
 
 * `EmptyTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when the view has no items.
 * `EmptyStyle`(`Style` with target type `telerik:ItemsEmptyView`)&mdash;Specifies the style applied to the empty view. For more details, review the [TreeView Styling]({%slug treeview-style-overview%}#styling-the-empty-template) article.
 
-**Example with Empty Template definition**
+Here is an example with TreeView and `EmptyTemplate`: 
+
+**1.** The `RadTreeView` definition in XAML:
 
 ```XAML
 <telerik:RadTreeView x:Name="treeView"
