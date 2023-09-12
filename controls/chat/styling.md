@@ -9,7 +9,7 @@ slug: chat-styling
 
 # .NET MAUI Chat Styling
 
-Any change in the appearance of the `RadChat` components depends on the referenced styles. The default templates contains a `RadBorder` control (used to achieve the rounded edges), an Image control (used for the avatar image only for the single and first messages) and Label for the text message itself.
+Any change in the appearance of the `RadChat` components depends on the referenced styles. The default templates contain a `RadBorder` control (used to achieve the rounded edges), an Image control (used for the avatar of the single and first message), and a Label for the text message itself.
 
 Here are the provided styles that you can use to customize the different parts of the control:
 
