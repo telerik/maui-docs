@@ -11,7 +11,7 @@ slug: treeview-item-template
 
 The TreeView `ItemTemplate` property enables you to customize the text displayed in the TreeView items. Using this property allows you to add additional elements to the text in the TreeView item. The property can be set on TreeView level and/or `TreeViewDescriptor` level.
 
-In addition to the item's text, TreeView allows you to customize the checkbox, image, and expand/collapse indicator. If you want to replace the entire template of the TreeViw check the TreeView [Control Template]({%slug treeview-control-template%}) article. 
+In addition to the item's text, TreeView allows you to customize the checkbox, image, and expand/collapse indicator. If you want to replace the entire template of the TreeView, check the TreeView [Control Template]({%slug treeview-control-template%}) article. 
 
 The examples below shows how to define custom `ItemTemplate` by using the `ItemTemplate` property.
 
