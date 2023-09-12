@@ -8,7 +8,7 @@ slug: treeview-empty-template
 
 # Empty Template
 
-The TreeView control provides the ability to specify a template when the `ItemsSource` is null or collection is empty.
+The TreeView control provides the ability to specify a template when the `ItemsSource` is null or the collection is empty.
 
 It exposes the following properties:
 
