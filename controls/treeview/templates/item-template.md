@@ -15,7 +15,7 @@ In addition to the item's text, TreeView allows you to customize the checkbox, i
 
 The examples below shows how to define custom `ItemTemplate` by using the `ItemTemplate` property.
 
-### Example with ItemTemplate on RadTreeView level: 
+## Defining an ItemTemplate on RadTreeView Level 
 
 
 **1.** Define the `RadTreeView` and `ItemTemplate`:
