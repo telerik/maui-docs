@@ -14,9 +14,6 @@ The ImageEditor control enables you to visualize images by using the following p
 
 In addition, by using the `IsImageLoaded` (read-only `bool`) property, you can get information whether an image is loaded in the editor. There are many scenarios this property helps. For example, if you want to apply a crop operation as soon as the image is loaded.
 
-    ```C#
-    this.imageEditor.IsImageLoaded;
-    ```
 The ImageEditor can load images from the following sources:
 
 * `File`
