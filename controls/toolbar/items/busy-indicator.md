@@ -1,26 +1,26 @@
 ---
 title: BusyIndicator
-page_title: .NET MAUI Toolbar Documentation - BusyIndicator ToolbarItem
-description: Review the busy indicator Toolbar item for .NET MAUI.
+page_title: .NET MAUI Toolbar Documentation - BusyIndicator Toolbar Item
+description: Learn how to add and style the busy indicators when working with the Toolbar for .NET MAUI.
 position: 1
 slug: toolbar-items-busy0indicator
 ---
 
-# .NET MAUI BusyIndicator ToolbarItem 
+# .NET MAUI BusyIndicator Toolbar Item 
 
-Add busy indicators in the toolbar using the `BusyIndicatorToolbarItem`.
+Add busy indicators in the toolbar by using the `BusyIndicatorToolbarItem`.
 
-The available properties for configuration are:
+The available configuration property is:
 
 * `IsBusy`(`bool`)&mdash;Specifies whether the busy indicator is busy. 
 
 ## Styling
 
-You can style the `BusyIndicatorToolbarItem` using the `Style` property. The target type of the property is `BusyIndicatorToolbarItemView`. 
+You can style the `BusyIndicatorToolbarItem` by using the `Style` property. The target type of the property is `BusyIndicatorToolbarItemView`. 
 
-> All properties available for customizing and styling the [RadBusyIndicator]({%slug busyindicator-overview%}) are applicable for BusyIndicatorToolbarItem.
+In addition, all properties that are available for customizing and styling the [RadBusyIndicator]({%slug busyindicator-overview%}) are also applicable for `BusyIndicatorToolbarItem`.
 
-### Example with BusyIndicatorToolbarItem Styling
+The following example demonstrates how to style the `BusyIndicatorToolbarItem`.
 
 **1.** The style applied in the resources:
 

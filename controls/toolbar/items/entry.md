@@ -1,33 +1,33 @@
 ---
 title: Entry
 page_title: .NET MAUI Toolbar Documentation - Entry ToolbarItem
-description: Review the entry Toolbar item for .NET MAUI.
+description: Learn how to add input fields to the NET MAUI Toolbar by using the Entry Toolbar item. Configure the Entry item by using the emitted events and styling properties.
 position: 1
 slug: toolbar-items-entry
 ---
 
 # .NET MAUI Entry ToolbarItem 
 
-Add input fields in the toolbar using the `EntryToolbarItem`.
+Add input fields to the Toolbar by using the `EntryToolbarItem`.
 
-The available properties for configuration are:
+The available configuration property is:
 
-* `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
+* `Text`(`string`)&mdash;Defines the text (target type `Label`) in the toolbar item. You can display an image next to the text.
 
 ## Events
 
+The Entry Toolbar item emits the following events:
+
 * `TextChanged`&mdash;Raised when the `EntryToolbarItem.Text` property has changed.
-* `EntryCompleted`&mdash;Raised when the user finalizes the text in the `Microsoft.Maui.Controls.Entry` control with the return key.
+* `EntryCompleted`&mdash;Raised when the user finalizes the text in the `Microsoft.Maui.Controls.Entry` control by pressing the `Return` key.
 
 ## Styling
 
-You can style the `EntryToolbarItem` using the following property:
+You can style the `EntryToolbarItem` by using the following property:
 
-* `EntryStyle` property. The target type of the property is the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry) control.
+* `EntryStyle`—The target type of the property is the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry) control.
 
-> All properties available for customizing and styling the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry) are applicable for EntryToolbarItem.
-
-Some of the properties are:
+In addition to the `EntryStyle` property that is specific to the Telerik `EntryToolbarItem`, you can also use all properties that are available for customizing and styling the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry). Some of these properties are:
 
 * `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Specifies the color of the text in the toolbar item.
 * `Placeholder`(`string`)&mdash;Specifies the text that is displayed when the control is empty.
@@ -41,9 +41,9 @@ Some of the properties are:
 * `HorizontalOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the horizontal alignment options of the content displayed in the toolbar item.
 * `VerticalOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the vertical alignment options of the content displayed in the toolbar item.
 
-### Example with EntryToolbarItem Styling
+The following example demonstrates how to style the `EntryToolbarItem`.
 
-**1.** The style applied in the resources:
+**1.** Apply the style in the resources:
 
 ```XAML
 <Style TargetType="Entry" x:Key="entryStyle">
@@ -51,7 +51,7 @@ Some of the properties are:
 </Style>
 ```
 
-**2.** The EntryToolbarItem definition:
+**2.** Add the `EntryToolbarItem` definition:
 
 ```XAML
  <telerik:EntryToolbarItem EntryStyle="{StaticResource entryStyle}"/>
