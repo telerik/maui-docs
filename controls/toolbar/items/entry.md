@@ -25,9 +25,9 @@ The Entry Toolbar item emits the following events:
 
 You can style the `EntryToolbarItem` by using the following property:
 
-* `EntryStyle`—The target type of the property is the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry) control.
+* `Style`&mdash;The target type of the property is the `EntryToolbarItemView` control.
 
-In addition to the `EntryStyle` property that is specific to the Telerik `EntryToolbarItem`, you can also use all properties that are available for customizing and styling the [Entry](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/entry). Some of these properties are:
+In addition to the `Style` property that is specific to the Telerik `EntryToolbarItem`, you can also use the `EntryStyle` property (target type `RadEntry`) and use all properties that are available for customizing and styling the `RadEntry` control. Some of these properties are:
 
 * `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Specifies the color of the text in the toolbar item.
 * `Placeholder`(`string`)&mdash;Specifies the text that is displayed when the control is empty.
@@ -46,7 +46,7 @@ The following example demonstrates how to style the `EntryToolbarItem`.
 **1.** Apply the style in the resources:
 
 ```XAML
-<Style TargetType="Entry" x:Key="entryStyle">
+<Style TargetType="telerik:RadEntry" x:Key="entryStyle">
     <Setter Property="Placeholder" Value="EntryToolbar"/>
 </Style>
 ```

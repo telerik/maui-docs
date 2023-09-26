@@ -56,7 +56,7 @@ Style the toolbar items using the `Style`(`Style`) property. Each toolbar item h
 | Toolbar Item | Style Target Type |
 | ------------ | ------- |
 | `ToolbarItem` | `ToolbarItemView` |
-| `EntryToolbarItem` | `Entry` |
+| `EntryToolbarItem` | `entryToolbarItemView` |
 | `ButtonToolbarItem` | `ButtonToolbarItemView` |
 | `DropDownButtonToolbarItem` | `DropDownButtonToolbarItemView` |
 | `DropDownMenuButtonToolbarItem` | `DropDownMenuButtonToolbarItemView` |
