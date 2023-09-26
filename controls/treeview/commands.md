@@ -8,14 +8,27 @@ slug: treeview-commands
 
 # Commands
 
-The .NET MAUI TreeView provides various commands that allow you to initiate expand or collapse actions, check and uncheck actions, and to scroll to a specific item.
+The .NET MAUI TreeView provides various commands that allow you to initiate expand or collapse actions, check and uncheck actions, scroll to a specific item and more. The table below lists all available commands:
 
-## Expanding and Collapsing Items
+| Commands | Description |
+| -------- | ---------- |
+| `ExpandAllCommand` (`ICommand`) | Gets a command to expand all items in the control. |
+| `CollapseAllCommand` (`ICommand`) | Gets a command to collapse all items in the control. |
+| `CheckAllCommand` (`ICommand`) | Gets a command to check all items in the control. |
+| `UncheckAllCommand` (`ICommand`) | Gets a command to uncheck all items in the control. |
+| `ScrollToCommand` (`ICommand`) | Gets a command to uncheck all items in the control. |
+| `ItemExpandedCommand` (`ICommand`) | Defines a command to execute when an item is expanded after a user interaction. The command should accept a single parameter with the expanded item. |
+| `ItemCollapsedCommand` (`ICommand`) | Defines a command to execute when an item is collapsed after a user interaction. The command should accept a single parameter with the collapsed item. |
+| `ItemCheckedCommand` (`ICommand`) | Defines a command to execute when an item is checked after a user interaction. The command should accept a single parameter with the checked item. |
+| `ItemUncheckedCommand` (`ICommand`) | Defines a command to execute when an item is unchecked after a user interaction. The command should accept a single parameter with the unchecked item. |
+| `LoadChildrenOnDemandCommand` (`ICommand`) | Defines a command to execute when loading an item on demand. The command accepts a single parameter of type `Telerik.Maui.Controls.TreeView.TreeViewLoadChildrenOnDemandCommandContext`. |
+| `ItemTappedCommand` (`ICommand`) | Defines a command to execute when an item is tapped. The command accepts a single parameter with the item being tapped. |
+| `ItemHoldingCommand` (`ICommand`) | Defines a command to execute when an item is held. The command accepts a single parameter with the item being held. |
 
-TreeView exposes the following commands for expanding and collapsing all items:
 
-* `ExpandAllCommand`(`ICommand`)&mdash;Gets a command to expand all items in the control.
-* `CollapseAllCommand`(`ICommand`)&mdash;Gets a command to collapse all items in the control.
+## Using the ExpandAll and CollapseAll Commands
+
+The following TreeView definition shows how to use the expand and collapse commands.
 
 <snippet id='treeview-expand-collapse-commands'/>
 
@@ -23,25 +36,15 @@ TreeView exposes the following commands for expanding and collapsing all items:
 
 > For a runnable example demonstrating the TreeView Expand and Collapse commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
 
+## Using the CheckAll and UncheckAll Commands
 
-## Checking and Unchecking Items
-
-TreeView exposes the following commands for checking and unchecking all items:
-
-* `CheckAllCommand`(`ICommand`)&mdash;Gets a command to check all items in the control.
-* `UncheckAllCommand`(`ICommand`)&mdash;Gets a command to uncheck all items in the control.
+The following TreeView definition shows how to use the check and uncheck commands.
 
 <snippet id='treeview-check-uncheck-commands'/>
 
 ![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-items.gif)
 
 > For a runnable example demonstrating the TreeView Check and Uncheck commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands**.
-
-## Scrolling
-
-TreeView exposes the following command that allows you to control the scrolling within the component:
-
-* `ScrollToCommand`(`ICommand`)&mdash;Gets a command that scrolls to an item in the control, which is specified as a parameter.
 
 ## See Also
 

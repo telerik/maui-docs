@@ -1,14 +1,14 @@
 ---
-title: Migration
+title: Migrating from Xamarin.Forms to .NET MAUI
 page_title: Migrating from Telerik UI for Xamarin to .NET MAUI
-description: "Convert your Telerik UI for Xamarin application to Telerik UI for .NET MAUI by updating the namespaces and the necessary NuGet packages. "
+description: Convert your Telerik UI for Xamarin application to Telerik UI for .NET MAUI by updating the namespaces and the necessary NuGet packages.
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 slug: migrate-to-net-maui
 previous_url: /get-started/migrate-to-net-maui
 position: 5
 ---
 
-# Migrating from Telerik Xamarin Controls to .NET MAUI
+# Migrating from Xamarin.Forms to .NET MAUI
 
 This guide provides the information you need to convert your application, which was built with [Telerik UI for Xamarin controls](https://www.telerik.com/maui-ui#Controls), to a .NET MAUI one, which uses the Telerik UI for .NET MAUI components. By migrating to .NET MAUI, you will be able to receive the latest features and mobile operating system support for your project.
 

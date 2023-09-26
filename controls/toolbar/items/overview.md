@@ -15,6 +15,7 @@ The Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available i
 | Toolbar Item | Description |
 | ------------ | ------- |
 | `ToolbarItem` | Represents a toolbar item in the Toolbar control. All toolbar items listed below inherits from `ToolbarItem` |
+| `EntryToolbarItem` | Represents an entry toolbar item in the Toolbar control. |
 | `ButtonToolbarItem` | Represents a button in the Toolbar control. |
 | `DropDownButtonToolbarItem` | Represents a button displaying a drop-down panel in the Toolbar control. |
 | `DropDownMenuButtonToolbarItem` | Represents a button displaying a drop-down menu in the Toolbar control. |
@@ -26,6 +27,7 @@ The Telerik .NET MAUI Toolbar provides a built-in toolbar items. The available i
 | `SliderToolbarItem` | Represents a slider in the Toolbar control |
 | `ListPickerButtonToolbarItem` | Represents a list picker button in the Toolbar control. |
 | `LabelToolbarItem` | Represents a label in the Toolbar control. The label can display a text and optionally an image next to it. |
+| `BusyIndicatorToolbarItem` | Represents a busy indicator in the Toolbar control. |
 | `SeparatorToolbarItem` | Represents a separator(which is an UI element) in the Toolbar control. |
 | `GroupToolbarItem` | Organize toolbar items in a group. |
 
@@ -54,6 +56,7 @@ Style the toolbar items using the `Style`(`Style`) property. Each toolbar item h
 | Toolbar Item | Style Target Type |
 | ------------ | ------- |
 | `ToolbarItem` | `ToolbarItemView` |
+| `EntryToolbarItem` | `entryToolbarItemView` |
 | `ButtonToolbarItem` | `ButtonToolbarItemView` |
 | `DropDownButtonToolbarItem` | `DropDownButtonToolbarItemView` |
 | `DropDownMenuButtonToolbarItem` | `DropDownMenuButtonToolbarItemView` |
@@ -65,6 +68,7 @@ Style the toolbar items using the `Style`(`Style`) property. Each toolbar item h
 | `SliderToolbarItem` | `SliderToolbarItemView` |
 | `ListPickerButtonToolbarItem` | `ToolbarListItemView` |
 | `LabelToolbarItem` | `LabelToolbarItemView` |
+| `BusyIndicatorToolbarItem` | `BusyIndicatorToolbarItemView` |
 | `SeparatorToolbarItem` | `SeparatorToolbarItemView` |
 | `GroupToolbarItem` | `GroupToolbarItemView` |
 
