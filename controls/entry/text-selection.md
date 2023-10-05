@@ -17,33 +17,19 @@ The text selection properties provided by the Entry are:
 
 * `SelectionLength`(`int`)&mdash;Specifies the number of characters in the current Entry selection.
 
-The following snippet shows how to preselect a part of the Entry text when the control is focused by applying both properties.
+* `SelectionOnFocus`(of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus, available options are:
+    * `Unchanged`&mdash;selection will not be modified.
+    * `CursorAtStart`&mdash;the cursor will be moved at the start of the text.
+    * `CursorAtEnd`&mdash;the cursor will be moved at the end of the text.
+    * `SelectAll`&mdash;the whole text will be selected.
 
-Define the text orientation and the text of the Entry.
+The following snippet shows how to use `SelectionOnFocus` property to preselect the Entry text as soon as the control receives focus:
 
 ```XAML
-<HorizontalStackLayout>
-    <telerik:RadEntry x:Name="selectEntry"
-					  Text="select some text" />
-    <telerik:RadButton Text="Focus"
-				       Clicked="FocusButtonClicked" />
-</HorizontalStackLayout>
+<telerik:RadEntry x:Name="entry"
+				  Text="some text here"
+                  SelectionOnFocus="SelectAll" />
 ```
-
-Set the `Clicked` event handler:
-
-```C#
-private void FocusButtonClicked(object sender, System.EventArgs e)
-{
-    selectEntry.Focus();
-    selectEntry.CursorPosition = 7;
-    selectEntry.SelectionLength = 9;
-}
-```
-
-The following image shows the end result.
-
-![Entry Text Selection](images/entry_text_selection.png)
 
 ## See Also
 
