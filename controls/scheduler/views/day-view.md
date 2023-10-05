@@ -8,7 +8,7 @@ slug: scheduler-day-view
 
 # Day View 
 
-The Day View definition represents a view that shows a single day.
+The Day View represents a view that shows a single day.
 
 ![.NET MAUI Scheduler Day View](images/)
 
