@@ -28,7 +28,7 @@ The .NET MAUI TreeView exposes the following events:
 		* the tapped `View`(`ItemView`).
 		* the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the hold event. When set to `true`, the default handling of the hold event is not executed. When set to `false`, the default handling of the hold event is executed.
 
-* `ItemsSourceChanged`&mdash;Raised when `ItemsSource` has changed. The `ItemHold` event handler receives two parameters:
+* `ItemsSourceChanged`&mdash;Raised when `ItemsSource` has changed. The `ItemsSourceChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
 	* An `EventHandler` object.
 	
