@@ -27,7 +27,7 @@ The following snippet shows how to use `SelectionOnFocus` property to preselect 
 
 ```XAML
 <telerik:RadEntry x:Name="entry"
-				  Text="some text here"
+		  Text="some text here"
                   SelectionOnFocus="SelectAll" />
 ```
 
