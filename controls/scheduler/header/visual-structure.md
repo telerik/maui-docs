@@ -2,13 +2,13 @@
 title: Header Visual Structure
 page_title: .NET MAUI Scheduler Header Documentation - Header Visual Structure
 description: Learn what visual elements are displayed in the Header of the Telerik UI for .NET MAUI Scheduler , and see how these elements build the visual structure of header.
-position: 2
+position: 1
 slug: header-visual-structure
 ---
 
 # .NET MAUI Scheduler Header Visual Structure
 
-The visual structure of the .NET MAUI Scheduler Header represents the anatomy of the UI component. Being familiar with the visual elements of the Scheduler Header allows you to quickly find the information required to configure them.
+ Scheduler for .NET MAUI provides a header which can be used to quickly switch between the available views as well as navigate to a different date. In additon, the header includes an optional Today button for navigating directly to Today date.
 
 The following image shows the anatomy of the Scheduler Header.
 

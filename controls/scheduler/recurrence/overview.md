@@ -8,7 +8,7 @@ slug: recurrence-overview
 
 # Overview
 
-`RadScheduler` provides the functionality to configure repeating appointments. The user has the ability to apply recurring scheduling patterns such as daily, weekly, monthly or a set a range of recurrence from date to date. 
+Scheduler for .NET MAUI provides the functionality to configure repeating appointments. The user has the ability to apply recurring scheduling patterns such as daily, weekly, monthly or a set a range of recurrence from date to date. 
 
 If you want to dive deeper into the recurrence feature of the `RadScheduler`, check out the following topics:
 

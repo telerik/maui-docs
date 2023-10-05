@@ -29,7 +29,7 @@ Before adding the Scheduler, you need to:
 
 **1.** When your .NET MAUI application is set up, you are ready to add a Scheduler control to your page.
 
- <snippet id='' />
+ <snippet id='scheduler-getting-started-xaml' />
 
 **2.** Add the following namespace:
 

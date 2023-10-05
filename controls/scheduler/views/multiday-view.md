@@ -8,13 +8,6 @@ slug: scheduler-week-view
 
 # Multiday View 
 
-The Telerik UI for .NET MAUI Scheduler control provides the functionality of displaying the data in different views. The control defines four predefined views from which you can choose to navigate through: 
-
-* `DayViewDefinition`
-* `WeekViewDefinition`
-* `MultidayViewDefinition`
-* `MonthViewDefinition`
-
 The Multiday View definition represents a definition of a view that shows multiple days as in day view mode.
 
 ![.NET MAUI Scheduler Multiday View](images/)
