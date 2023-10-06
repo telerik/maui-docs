@@ -13,8 +13,6 @@ With R3 2023 PdfViewer for .NET MAUI comes with text search functionality which 
 You can take advantage of the built-in search toolbar items or search programmatically through the provided methods. 
 With the built-in search UI users can easily enter text and browse through the search results. In addition, there is a small toast message showing the count of the search results or a localizable message in case no results are found.
 
-
-
 ## See Also
 
 - [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)
