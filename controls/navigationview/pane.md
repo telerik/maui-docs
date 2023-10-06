@@ -38,6 +38,10 @@ Here is an example:
 
 >note If `Position` is not set, the items are added to the content of the Pane.
 
+## Customizing the Header and Footer
+
+You can define custom template for Pane header and footer by using the `PaneStyle` property. In the `PaneStyle` set the `HeaderTemplate` (`ControlTemplate`) and `FooterTemplate`(`ControlTemplate`) properties. For more details, review the [Pane Styling]({%slug navigationview-pane-styling%}) article.
+
 ## Overlay
 
 You can display an overlay when Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`. 

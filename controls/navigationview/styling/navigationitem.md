@@ -8,11 +8,43 @@ slug: navigationview-item-styling
 
 # .NET MAUI NavigationItem Styling
 
-The NavigationView for .NET MAUI allows you to style its navigation item by using the provided properties.
+Style the navigation item, by setting the `Style` property to the `NavigationViewItem` or use implicit style.
 
-To style the NavigationItem, use the following properties:
+* Explicit style:
 
-* `Style` (`Style` with target type `NavigationViewItemView`)&mdash;Specifies the style of the NavigationItem.
+```XAML
+<ContentView.Resources>
+    <ResourceDictionary>
+        <Style TargetType="telerik:NavigationViewItemView" x:Key="NavigationItemStyle">
+            <Setter Property="Spacing" Value="10"/>
+        </Style>
+    </ResourceDictionary>
+</ContentView.Resources>
+
+<telerik:NavigationViewItem Text="Item 1" Style="{StaticResource NavigationItemStyle}" />
+```
+
+* Implicit style:
+
+```XAML
+<Style TargetType="telerik:NavigationViewItemView">
+   <Setter Property="Spacing" Value="10"/>            
+</Style>
+```
+
+The available properties are descrivbed in the table below:
+
+| Property | Description |
+| -------- | ----------- |
+| `Command` (`ICommand`) | Executed when the navigation item is clicked. |
+| `CommandParameter` (`object`) | Specifies a parameter to command which is executed when the navigation item is clicked. |
+| `IsSelectable` (`bool`) | Specifies whether the navigation item is selectable. |
+| `IsSelected` (`bool`) | Specifies whether the navigation item is selected. |
+| `ImageSource` (`ImageSource`) | Specifies the source of the image that is displayed in the navigation item. |
+| `ImageAspect` (`Microsoft.Maui.Aspect`) | Specifies the aspect ratio of the image that is displayed in the navigation item. |
+| `ImageWidth` (`double`) | Specifies the width in pixels of the image that is displayed in the navigation item. |
+| `ImageHeight` (`double`) | Specifies the height in pixels of the image that is displayed in the navigation item. |
+| `Spacing` (`double`) | Specifies the spacing in pixels between the image area andthe content of the navigation item. |
 
 ## See Also
 
