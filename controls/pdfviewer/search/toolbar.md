@@ -22,14 +22,13 @@ By default the items are autopopulated. You can disable this by setting the `Aut
 
 * `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. The Toolbar items are:
 
+>note If the text in the entry is cleared, the search results will be cleared as well.
 
-## Additional Toolbar Items for Hyperlink Operations
+By default, search operation occurs when the user clicks the `Search` button of the keyboard - on mobile and the `Enter` key of the physical keyboard on desktop. You can modify this behavior through the `TextSearchTrigger` property of the `SearchSettings`. TextSearchTrigger is of enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger` and is used to define when a search operation should be performed. The available values are:
 
-The `RichTextEditorHyperlinkNavigationToolbarItem` has the following items:
-
-* `RichTextEditorEditHyperlinkToolbarItem`&mdash;Edits the hyperlink from the current selection.
-* `RichTextEditorRemoveHyperlinkToolbarItem`&mdash;Removes the hyperlink from the current selection.
-* `RichTextEditorOpenHyperlinkToolbarItem`&mdash;Navigates to the URL.
+* `None`&mdash;Programmatically calls the search operation.
+* `TextChanged`&mdash;Search is triggered every time the Text is changed.
+* `Completed` (default)&mdash;Search operation is triggered when the corresponding entry completes (by pressing Enter/Return key).
 
 ## See Also
 

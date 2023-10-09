@@ -1,14 +1,19 @@
 ---
 title: Commands
 page_title: .NET MAUI PDF Viewer Documentation - Commands
-description: Learn more about the commands used for PDF Viewer Search functionality.
+description: Learn more about the commands for opening and closing the search view in the .NET MAUI PDF Viewer.
 position: 0
 slug: pdfviewer-search-commands
 ---
 
 # .NET MAUI PDF Viewer Search Commands
 
+PDF Viewer provides the following commands related to Search feature:
 
+* `OpenSearchViewCommand` (`ICommand`)&mdash;Opens the search view UI for entering the search text.
+* `CloseSearchViewCommand` (`ICommand`)&mdash;Closes the search view UI for entering the search text.
+* `NavigateToPreviousSearchResultCommand` (`ICommand`)&mdash;Navigates to the previous search result.
+* `NavigateToNextSearchResultCommand` (`ICommand`)&mdash;Navigates to the next search result.
 
 ## See Also
 

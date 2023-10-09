@@ -1,19 +1,22 @@
 ---
-title: Overview
-page_title: .NET MAUI PDF Viewer Documentation - Overview
-description: Try the Telerik UI for .NET MAUI. PDF Viewer control for loading PDF documents and performing operations like scrolling, zooming, panning, and navigating through the document. 
+title: Programmatically
+page_title: .NET MAUI PDF Viewer Documentation - Programmatically
+description: Learn how to search programmatically in the PDF Viewer without using the buil-in rtoolbar items. 
 position: 0
 slug: pdfviewer-search-overview
 ---
 
-# .NET MAUI PDF Viewer Overview
+# .NET MAUI PDF Viewer Search Programmatically
 
-With R3 2023 PdfViewer for .NET MAUI comes with text search functionality which allows users to find and highlight text inside the pdf document.
+PDF Viewer for .NET MAUI allows you to programmatically search in the document. 
 
-You can take advantage of the built-in search toolbar items or search programmatically through the provided methods. 
-With the built-in search UI users can easily enter text and browse through the search results. In addition, there is a small toast message showing the count of the search results or a localizable message in case no results are found.
+## Manual Searching
 
+You can use the `SearchAsync` method of the `SearchSettings` to manually initiate an async search operation with the provided text and search options.
 
+Here is an example for `SearchAsync`:
+
+<snippet id='pdfviewer-onsearchclicked' />
 
 ## See Also
 
