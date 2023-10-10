@@ -8,7 +8,7 @@ slug: navigationview-pane
 
 # .NET MAUI NavigationView Pane
 
-The Telerik UI for .NET MAUI NavigationView has a Pane. The Pane contains the navigation items. The items can be positioned to the header, footer or by default in the contect of the Pane element.
+The Telerik UI for .NET MAUI NavigationView has a Pane. The Pane contains the navigation items. The items can be positioned to the header, footer or by default in the content of the Pane element.
 
 ## Setting Items
 

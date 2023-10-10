@@ -30,7 +30,7 @@ The `PdfViewerNavigateToPreviousSearchResultToolbarItemView`, `PdfViewerNavigate
 
 ## Styling the Search Toast Message on Mobile
 
-The `PdfViewerSearchNavigationToolbarItem` has a `ToastStyle` property which allows you to style the toast message with search results on mobile. The tarhet type of the `ToastStyle` is the `PdfViewerSearchToast`.
+The `PdfViewerSearchNavigationToolbarItem` has a `ToastStyle` property which allows you to style the toast message with search results on mobile. The target type of the `ToastStyle` is the `PdfViewerSearchToast`.
 
 Here is an example how to define the `ToastStyle`
 

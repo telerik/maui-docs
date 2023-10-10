@@ -8,12 +8,12 @@ slug: navigationview-navigation-header
 
 # .NET MAUI NavigationView Header
 
-The Telerik UI for .NET MAUI NavigationView control has a navigation header. The header contains a toggle navigation button (for opening and closing the navigation page) and HeaderText. You can fully customize the HeaderText and add additional elements to it by using the `HeaderTemplate`.
+The Telerik UI for .NET MAUI NavigationView control has a navigation header. The header contains a toggle navigation button (for opening and closing the navigation page) and `HeaderText`. You can customize the `HeaderText` and add additional elements to it by using the `HeaderTemplate`.
 
 ## Configure the Header
 
 * `HeaderText` (`string`)&mdash;Defines the text that is displayed in the NavigationView header.
-* `HeaderTemplate` (`DataTemplate`)&mdash;Specifies the content template for the Navigationview header.
+* `HeaderTemplate` (`DataTemplate`)&mdash;Specifies the content template for the NavigationView header.
 * `HeaderStyle` (`string`)&mdash;Specifies the style applied to the header, this includes the text and the navigation button. For more details review the [NavigationView Header Styling]({%slug navigationview-styling%}) article.
 
 ## Toggle Navigation Button

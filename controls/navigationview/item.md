@@ -27,7 +27,7 @@ You can configure the navigation items position by adding them to the Pane heade
 	* `Header`&mdash;The navigation item is placed in the header area of the `NavigationViewPane` control.
 	* `Footer`&mdash;The navigation item is placed in the footer area of the `NavigationViewPane` control.
 
-## Settign Selection
+## Setting Selection
 
 The .NET MAUI `NavigationViewItem` exposes the following properties related to the item selection:
 
@@ -40,13 +40,13 @@ Customize the `NavigationViewItem` content by using the `ControlTemplate` (`Cont
 
 ## Setting Visibility and Enabled State
 
-Change the visibility of the `NavigationViewItem` by setting the `IsVisible` (`bool`) porperty.
+Change the visibility of the `NavigationViewItem` by setting the `IsVisible` (`bool`) property.
 
-Change the enabled state if the `NavigationViewItem` by setting the `IsEnabled` (`bool`) porperty.
+Change the enabled state if the `NavigationViewItem` by setting the `IsEnabled` (`bool`) property.
 
 ## Configuring the Items
 
-You can further configure the navigation items by using the `ContentTemplate` (`DataTemplate`) property, and fully customize the NavigationViewItem by using the `ControlTemplate` (`ControlTemplate`) property.
+You can further configure the navigation items by using the `ContentTemplate` (`DataTemplate`) property, and customize the NavigationViewItem by using the `ControlTemplate` (`ControlTemplate`) property.
 
 Here is an example with `ContentTemplate` property.
 

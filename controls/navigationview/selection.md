@@ -8,15 +8,15 @@ slug: navigationview-selection
 
 # .NET MAUI NavigationView Selection
 
-NavigationView for .NET MAUI enables the app users to quickly select item from the navigation pane. This topic will go through the provided by the NavigationView API related to item selection.
+The NavigationView for .NET MAUI enables the app users to quickly select item from the navigation pane. This topic will go through the provided by the NavigationView API related to item selection.
 
 NavigationView control has a support for single selection. 
 
 ## Main Properties
 
-* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the navigation view. The property can be set to the NavigationView control.
-* `IsSelectable`(`bool`)&mdash;Specifies whether the navigation item is selectable. The property can be set to the NavigationItem.
-* `IsSelected`(`bool`)&mdash;Specifies whether the navigation item is selected. The property can be set to the NavigationItem.
+* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the navigation view. Setting the property to the NavigationView.
+* `IsSelectable`(`bool`)&mdash;Specifies whether the navigation item is selectable. Setting the property to the NavigationItem.
+* `IsSelected`(`bool`)&mdash;Specifies whether the navigation item is selected. Setting the property to the NavigationItem.
 
 ## Events
 

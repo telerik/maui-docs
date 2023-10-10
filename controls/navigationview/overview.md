@@ -15,13 +15,13 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control, used to buil
 ## Key features
 
 * [Display modes]({%slug navigationview-display-mode%})&mdash;Use different modes to display the navigation pane&mdash;Compact, Expanded and Minimal modes. 
-* [Auto-changing the Display mode]({%slug navigationview-display-mode%})&mdash;Option for auto-channging the display mode depending on the threshold width.
+* [Auto-changing the Display mode]({%slug navigationview-display-mode%})&mdash;Option for auto-changing the display mode depending on the threshold width.
 * [Navigation Header]({%slug navigationview-navigation-header%})&mdash;NavigationView has a navigation header that contains label and toggle navigation button that opens/closes the pane.
 * [Navigation Pane]({%slug navigationview-displaymode%})&mdash;The pane that holds the navigation items, pane header and footer.
-* [Pane Header and Footer]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add navigation iems in the header and in the footer. 
-* [Content]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add content. Still you need to manually chnage the content based on the selection made. 
+* [Pane Header and Footer]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add navigation items in the header and in the footer. 
+* [Content]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add content. You need to manually change the content based on the selection made. 
 * [Single Selection]({%slug navigationview-selection%})&mdash;You can set selection through the `SelectedItem` property.
-* [Customizable items]()&mdash;You can fully customize the visual appearance of the Navigation items.
+* [Customizable items]()&mdash;You can customize the visual appearance of the Navigation items.
 * [Styling options]({%slug navigationview-styling%})&mdash;NavigationView allows you to style header, footer, navigation header and navigation items.
 * [Commands support]({%slug navigationview-commands%})&mdash;NavigationView allows you to attach commands that will be executed when opening, closing the pane.
 

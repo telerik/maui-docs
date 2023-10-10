@@ -14,13 +14,13 @@ In addition, `RadPdfViewerToolbar` exposes predefined toolbar items wired to the
 
 * `PdfViewerNavigateToNextSearchResultToolbarItem`&mdash;Represents a button item which navigates to the next search result in the PDF Viewer control.
 * `PdfViewerNavigateToPreviousSearchResultToolbarItem`&mdash;Represents a button item which navigates to the previous search result in the PDF Viewer control.
-* `PdfViewerSearchBusyIndicatorToolbarItem`&mdash;Represents a busy indicator whic is displayed while calculating the search results.
-* `PdfViewerSearchEntryToolbarItem`&mdash;Represents an entry item to input search terms in the SearchToolbar.
-* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is mainly developed for desktop. Still you can use it on mobile.
+* `PdfViewerSearchBusyIndicatorToolbarItem`&mdash;Represents a busy indicator which is displayed while calculating the search results.
+* `PdfViewerSearchEntryToolbarItem`&mdash;Represents an entry item to input search terms in the search toolbar.
+* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for desktop usage, but you can also use it on mobile.
 
-By default the items are autopopulated. You can disable this by setting the `AutoGenerateItems` to `false`.
+By default the items are auto-populated. You can disable this by setting the `AutoGenerateItems` to `false`.
 
-* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is mainly developed for desktop. Still you can use it on mobile.
+* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for mobile usage, but you can also use it on desktop.
 
 >note If the text in the entry is cleared, the search results will be cleared as well.
 
