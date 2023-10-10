@@ -14,9 +14,22 @@ PDF Viewer for .NET MAUI allows you to programmatically search in the document.
 
 You can use the `SearchAsync` method of the `SearchSettings` to manually initiate an async search operation with the provided text and search options.
 
-Here is an example for `SearchAsync`:
+Here is an example for `SearchAsync` method and custom buttons for programmatically navigate to next and previous search results:
 
-<snippet id='pdfviewer-onsearchclicked' />
+**1.** Define the PDF Viewer control in XAML: 
+
+<snippet id='pdfviewer-search-programmatic'/>
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** The `TextChanged` implementation where the `SearchAsync` method is used:
+
+<snippet id='pdfviewer-entry-textchanged'/>
+
 
 ## See Also
 

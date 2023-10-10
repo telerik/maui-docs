@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI NavigationView allows you to set different display 
 
 ## Auto-changing the Display Mode
 
-You can enable the NavigationView to auto-change the display mode depending on the widths of the `ExpandedModeThresholdWidth` and `CompactModeThresholdWidth` by using the `AutoChangeDisplayMode` (`bool`) property.
+You can enable the NavigationView to auto-change the display mode depending on the widths of the `ExpandedModeThresholdWidth` and `CompactModeThresholdWidth` by using the `AutoChangeDisplayMode` (`bool`) property. The default value on mobile is `false`, and on desktop is `true`. 
 
 * `ExpandedModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Expanded display mode.
 * `CompactModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Compact display mode.

@@ -16,15 +16,15 @@ In addition, `RadPdfViewerToolbar` exposes predefined toolbar items wired to the
 * `PdfViewerNavigateToPreviousSearchResultToolbarItem`&mdash;Represents a button item which navigates to the previous search result in the PDF Viewer control.
 * `PdfViewerSearchBusyIndicatorToolbarItem`&mdash;Represents a busy indicator whic is displayed while calculating the search results.
 * `PdfViewerSearchEntryToolbarItem`&mdash;Represents an entry item to input search terms in the SearchToolbar.
-* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. The Toolbar items are:
+* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is mainly developed for desktop. Still you can use it on mobile.
+
 By default the items are autopopulated. You can disable this by setting the `AutoGenerateItems` to `false`.
 
-
-* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. The Toolbar items are:
+* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is mainly developed for desktop. Still you can use it on mobile.
 
 >note If the text in the entry is cleared, the search results will be cleared as well.
 
-By default, search operation occurs when the user clicks the `Search` button of the keyboard - on mobile and the `Enter` key of the physical keyboard on desktop. You can modify this behavior through the `TextSearchTrigger` property of the `SearchSettings`. TextSearchTrigger is of enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger` and is used to define when a search operation should be performed. The available values are:
+By default, search operation occurs when the user clicks the `Search` button of the keyboard on mobile, and the `Enter` key of the physical keyboard on desktop. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
 
 * `None`&mdash;Programmatically calls the search operation.
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.
