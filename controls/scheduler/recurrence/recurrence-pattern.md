@@ -12,14 +12,20 @@ The `RadScheduler` includes support for recurring events on daily, weekly, month
 
 Here are the exposed properties exposed by the `RecurrencePatter` class:
 
-| `Frequency` | Defines the frequency. Its values are predefined in the `RecurrenceFrequency`      enumeration, which exposes the following values: None, Secondly, Minutely, Hourly, Daily, Weekly, Monthly, Yearly. |
-| `DaysOfMonth` | Defines the days of a month. |
-| `DayOrdinal` | Defines the day ordinal. |
-| `DaysOfWeekMask` | Defines the days of week mask. |
-| `HoursOfDay` | Defines the hours of a day.|
-| `MinutesOfHour` | Defines the minutes of an hour. |
-| `FirstDayOfWeek` | Defines the day on which the week starts.|
-| `Interval` | Defines the interval. |
-| `MaxOccurences` | Defines the limit for the number of occurrences. |
-| `MonthOfYear` | Defines the month in the year. |
-| `RecursUntil` | Defines the end date of the appointment occurrences. |
+* `Frequency`&mdash;Defines the frequency. Its values are predefined in the `RecurrenceFrequency`enumeration, which exposes the following values: None, Secondly, Minutely, Hourly, Daily, Weekly, Monthly, Yearly. 
+* `DaysOfMonth`&mdash;Defines the days of a month.
+* `DayOrdinal`&mdash;Defines the day ordinal.
+* `DaysOfWeekMask`&mdash;Defines the days of week mask.
+* `HoursOfDay` &mdash;Defines the hours of a day.
+*  `MinutesOfHour`&mdash;Defines the minutes of an hour. 
+* `FirstDayOfWeek` &mdash; Defines the day on which the week starts.
+* `Interval` &mdash;Defines the interval.
+* `MaxOccurences`&mdash;Defines the limit for the number of occurrences.
+* `MonthOfYear` &mdash;Defines the month in the year.
+* `RecursUntil`&mdash; Defines the end date of the appointment occurrences.
+
+## See Also
+
+- [Appointments]({% slug appointments-overview %})
+- [Recurrence Overview]({%slug recurrence-overview})
+- [Recurrence Rule]({%slug recurrence-rule})

@@ -35,6 +35,5 @@ The Telerik UI for .NET MAUI Scheduler allows you to easily implement various sc
 
 ## See Also
 
-- [.NET MAUI Scheduler Product Page](https://www.telerik.com/maui-ui/calendar)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/forums/maui?tagId=2058)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

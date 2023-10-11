@@ -26,6 +26,5 @@ slug: rangeslider-overview
 
 ## See Also
 
-- [.NET MAUI RangeSlider Product Page](https://www.telerik.com/maui-ui/rangeslider)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/forums/maui?tagId=2058)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

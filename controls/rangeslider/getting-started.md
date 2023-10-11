@@ -66,7 +66,5 @@ public static class MauiProgram
 
 ## See Also
 
-- [.NET MAUI RangeSlider Product Page](https://www.telerik.com/maui-ui/rangeslider)
-- [.NET MAUI CalRangeSliderendar Forum Page](https://www.telerik.com/forums/maui?tagId=2057)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
