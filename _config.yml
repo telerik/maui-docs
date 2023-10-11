@@ -352,24 +352,24 @@ navigation:
     ## End RichTextEditor
     ## Scheduler
     controls/scheduler:
-        title: "SegmentedControl"
-    controls/scheduler/views:
-        title: "Views"
-        position: 19
+        title: "Scheduler"
     controls/scheduler/header:
         title: "Header"
-        position: 19
+        position: 5
+    controls/scheduler/views:
+        title: "Views"
+        position: 6
     controls/scheduler/appointments:
         title: "Appointments"
-        position: 19
+        position: 7
     controls/scheduler/recurrence:
         title: "Recurrence"
-        position: 19
+        position: 8
     controls/scheduler/specialslots:
         title: "Special Slots"
-        position: 19
-    ## End SegmentedControl
-    ## Scheduler
+        position: 9
+    ## End Scheduler
+    ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
