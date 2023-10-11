@@ -23,7 +23,7 @@ The text selection properties provided by the Entry are:
     * `CursorAtEnd`&mdash;the cursor will be moved at the end of the text.
     * `SelectAll`&mdash;the whole text will be selected.
 
-The following snippet shows how to use `SelectionOnFocus` property to preselect the Entry text as soon as the control receives focus:
+The following snippet shows how to use the `SelectionOnFocus` property to preselect the Entry text as soon as the control receives focus:
 
 ```XAML
 <telerik:RadEntry x:Name="entry"
