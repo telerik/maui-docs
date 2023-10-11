@@ -27,5 +27,5 @@ Here are the exposed properties exposed by the `RecurrencePatter` class:
 ## See Also
 
 - [Appointments]({% slug appointments-overview %})
-- [Recurrence Overview]({%slug recurrence-overview})
-- [Recurrence Rule]({%slug recurrence-rule})
+- [Recurrence Overview]({%slug recurrence-overview%})
+- [Recurrence Rule]({%slug recurrence-rule%})
