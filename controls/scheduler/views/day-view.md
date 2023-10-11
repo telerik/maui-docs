@@ -1,5 +1,5 @@
 ---
-title: Day View Definition
+title: Day View
 page_title: .NET MAUI Day View Documentation - Day View 
 description: Learn more about the day view definition in the Telerik UI for .NET MAUI Scheduler control.
 position: 1
@@ -10,12 +10,9 @@ slug: scheduler-day-view
 
 The Day View represents a view that shows a single day.
 
-![.NET MAUI Scheduler Day View](images/)
-
 ## Set the Day View 
 
 Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
-
 
 ## Properties
 
