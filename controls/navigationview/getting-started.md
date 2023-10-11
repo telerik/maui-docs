@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![NavigationView Getting Started](images/navigationview-getting-started.gif)
+![.NET MAUI NavigationView Getting Started](images/navigationview-getting-started.gif)
 
 ## Prerequisites
 
