@@ -343,7 +343,26 @@ navigation:
         title: "Styling"
         position: 19
     ## End RichTextEditor
-    ## SegmentedControl
+    ## Scheduler
+    controls/scheduler:
+        title: "SegmentedControl"
+    controls/scheduler/views:
+        title: "Views"
+        position: 19
+    controls/scheduler/header:
+        title: "Header"
+        position: 19
+    controls/scheduler/appointments:
+        title: "Appointments"
+        position: 19
+    controls/scheduler/recurrence:
+        title: "Recurrence"
+        position: 19
+    controls/scheduler/specialslots:
+        title: "Special Slots"
+        position: 19
+    ## End SegmentedControl
+    ## Scheduler
     controls/segmentedcontrol:
         title: "SegmentedControl"
     ## End SegmentedControl
@@ -562,9 +581,10 @@ intro_columns:
         "TreeView": "treeview-overview"
         "WrapLayout": "wraplayout-overview"
   -
-    title: "Calendar"
+    title: "Calendar & Scheduling"
     items:
         "Calendar": "calendar-overview"
+        "Scheduler": "scheduler-overview"
   -
     title: "Buttons"
     items:
