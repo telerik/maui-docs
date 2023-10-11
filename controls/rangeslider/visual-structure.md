@@ -4,7 +4,6 @@ page_title: .NET MAUI RangeSlider Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI RangeSlider, and see how these elements build the visual structure of the control.
 position: 0
 slug: rangeslider-visual-structure
-published: False
 ---
 
 # .NET MAUI RangeSilder Visual Structure
@@ -26,6 +25,5 @@ The following image shows the anatomy of the RangeSlider.
 
 ## See Also
 
-- [.NET MAUI RangeSlider Product Page](https://www.telerik.com/maui-ui/rangeslider)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

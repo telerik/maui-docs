@@ -16,6 +16,6 @@ The Telerik UI for .NET MAUI Scheduler provides an option for programmatic scrol
 
  <snippet id='scheduler-scrolltotime-code' />
 
- ## See Also
+## See Also
 
  - [Views]({% slug scheduler-views-overview %})
