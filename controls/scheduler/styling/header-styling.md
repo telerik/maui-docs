@@ -21,7 +21,7 @@ You can style separately the header border, header labels, navigation buttons an
 
 The following example demonstrates how to apply custom header styles to the Scheduler:
 
-**1.** Define the Scheduler:
+**3.** Define the Scheduler:
 
 <snippet id='scheduler-header-styling-definition'/>
 
@@ -33,3 +33,4 @@ The following example demonstrates how to apply custom header styles to the Sche
 
 ## See Also
 
+-[Header Visual Structure]({%slug scheduler-header-visual-structure%})
