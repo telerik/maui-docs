@@ -37,5 +37,5 @@ Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadSchedul
 ## See Also
 
 - [Views]({%slug scheduler-overview %})
-- [Multiday View]({%slug scheduler-week-view %})
+- [Multiday View]({%slug scheduler-multiday-view %})
 - [Week View]({%slug scheduler-week-view %})

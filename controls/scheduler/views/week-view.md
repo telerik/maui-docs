@@ -36,6 +36,6 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 ## See Also
 
 - [Views]({%slug scheduler-overview %})
-- [Day View]({%slug scheduler-day-view})
-- [Multiday View]({%slug scheduler-week-view %})
+- [Day View]({%slug scheduler-day-view%})
+- [Multiday View]({%slug scheduler-multiday-view %})
 - [Month View]({%slug scheduler-month-view %})
