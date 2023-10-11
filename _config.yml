@@ -522,6 +522,7 @@ intro_columns:
         "Gauges": "gauge-overview"
         "Map": "map-overview"
         "ProgressBar": "progressbar-overview"
+        "RangeSlider": "rangeslider-overview"
         "Ratings": "rating-overview"
   -
     title: "Chatbots"
@@ -554,6 +555,7 @@ intro_columns:
         "Accordion": "accordion-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
+        "NavigationView": "navigationview-overview"
         "SideDrawer": "sidedrawer-overview"
         "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
