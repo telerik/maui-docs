@@ -25,4 +25,4 @@ Add the Scheduler definition with the `SpecialSlotTemplate` applied:
 ## See Also
 
 - [Special Slots]({%slug scheduler-special-slots%})
-- [Views](% slug scheduler-views-overview %)
+- [Views]({% slug scheduler-views-overview %})

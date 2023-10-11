@@ -2,7 +2,7 @@
 title: Globalization
 page_title: .NET MAUI Scheduler Documentation - Globalization
 description: Learn how to adapt the Telerik UI for .NET MAUI Scheduler to device cultures by utilizing its globalization support options.
-position: 
+position: 12
 slug: scheduler-globalization
 ---
 
