@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![NavigationView Getting Started](images/navigationview-getting-started.png)
+![NavigationView Getting Started](images/navigationview-getting-started.gif)
 
 ## Prerequisites
 
@@ -31,7 +31,6 @@ When your .NET MAUI application is set up, you are ready to add a NavigationView
 **1.** Here is the NavigationView definition in XAML and C#:
 
 <snippet id='navigationview-getting-started-xaml' />
-<snippet id='navigationview-getting-started-csharp' />
 
 >important RadNavigationView provides a read only collection `Items` of type `IList<NavigationViewItemBase>`.
 

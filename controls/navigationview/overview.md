@@ -10,7 +10,7 @@ slug: navigationview-overview
 
 The Telerik UI for .NET MAUI NavigationView is an adaptive control, used to build a consistent navigational experience in .NET MAUI applications. The navigation items are rendered in a vertical layout. You can take advantage of the different options for displaying the navigation pane; adding header and footer to the pane and customize its look.
 
-![.NET MAUI NavigationView Overview](images/navigationview-overview.png)
+![.NET MAUI NavigationView Overview](images/navigationview-overview.gif)
 
 ## Key features
 
@@ -21,7 +21,7 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control, used to buil
 * [Pane Header and Footer]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add navigation items in the header and in the footer. 
 * [Content]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add content. You need to manually change the content based on the selection made. 
 * [Single Selection]({%slug navigationview-selection%})&mdash;You can set selection through the `SelectedItem` property.
-* [Customizable items]()&mdash;You can customize the visual appearance of the Navigation items.
+* [Customizable items]({%slug navigationview-items%})&mdash;You can customize the visual appearance of the Navigation items.
 * [Styling options]({%slug navigationview-styling%})&mdash;NavigationView allows you to style header, footer, navigation header and navigation items.
 * [Commands support]({%slug navigationview-commands%})&mdash;NavigationView allows you to attach commands that will be executed when opening, closing the pane.
 

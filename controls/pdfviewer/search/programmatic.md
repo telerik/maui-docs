@@ -30,6 +30,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-entry-textchanged'/>
 
+The following video shows the results from the completed example on Android:
+
+![.NET MAUI PdfViewer Search Programmatically](images/pdf-search-programmatically.gif "PDF Viewer Search Programmatically")
 
 ## See Also
 

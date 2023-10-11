@@ -4,6 +4,7 @@ page_title: .NET MAUI NavigationView Documentation - Visual Structure
 description: Review the main features of the .NET MAUI NavigationView control.
 position: 2
 slug: navigationview-overview
+published: False
 ---
 
 # .NET MAUI NavigationView Visual Structure

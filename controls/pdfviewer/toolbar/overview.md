@@ -49,9 +49,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 >The snippet above shows one of the approaches for loading a PDF document inside `RadPdfViewer` just for the purpose of the example.
 
-The following image shows the results from the completed example:
+The following image shows the results from the completed example on WinUI:
 
-![.NET MAUI PdfViewer Toolbar](images/pdf-toolbar.png "PDF Viewer Toolbar")
+![.NET MAUI PdfViewer Toolbar](../images/pdf-toolbar.png "PDF Viewer Toolbar")
+
+And this is the look on Android:
+
+![.NET MAUI PdfViewer Toolbar](../images/pdf-toolbar-mobile "PDF Viewer Toolbar")
 
 > For a runnalbe example with the PDF Viewer toolbar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
@@ -75,7 +79,7 @@ Here is an example showing how to add a custom Toolbar item with a sample comman
 
 The image below shows the results on the different platforms:
 
-![.NET MAUI PdfToolbar Custom ToolbarItem](images/pdf-custom-toolbar.png)
+![.NET MAUI PdfToolbar Custom ToolbarItem](../images/pdf-custom-toolbar.png)
 
 > For a runnable example demonstrating the PDF Viewer's custom Toolbar items, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
