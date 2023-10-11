@@ -34,5 +34,5 @@ Last step is to set the BindingContext to the ViewModel class:
 
 # See Also
 
-- [SpecialSlots Template]({%slug sscheduler-special-slot-template%})
+- [SpecialSlots Template]({%slug scheduler-special-slot-template%})
 - [Views]({% slug scheduler-views-overview %})

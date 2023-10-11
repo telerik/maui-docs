@@ -28,5 +28,4 @@ Define the RangeSlider:
 
 ## See Also
 
-- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Range Thumb]({% slug rangeslider-range-thumb%})
