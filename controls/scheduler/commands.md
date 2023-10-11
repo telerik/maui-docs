@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI Scheduler Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI Sheduler to programmatically navigate throught the dates.
-position: 8
+position: 16
 slug: scheduler-commands
 ---
 

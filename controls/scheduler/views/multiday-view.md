@@ -1,5 +1,5 @@
 ---
-title: Multiday View Definition
+title: Multiday View
 page_title: .NET MAUI Day View Documentation - Multiday View 
 description: Learn more about the multiday view definition in the Telerik UI for .NET MAUI Scheduler control.
 position: 3

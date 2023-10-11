@@ -1,5 +1,5 @@
 ---
-title: Week View Definition
+title: Week View
 page_title: .NET MAUI Day View Documentation - Week View 
 description: Learn more about the week view definition in the Telerik UI for .NET MAUI Scheduler control.
 position: 2
