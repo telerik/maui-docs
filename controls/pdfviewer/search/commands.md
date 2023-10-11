@@ -15,6 +15,26 @@ The PDF Viewer for .NET MAUI provides the following commands related to Search f
 * `NavigateToPreviousSearchResultCommand` (`ICommand`)&mdash;Navigates to the previous search result.
 * `NavigateToNextSearchResultCommand` (`ICommand`)&mdash;Navigates to the next search result.
 
+## Example
+
+The following example demonstrates how to use the commands. The `OpenSearchView` and `CloseSearchViewCommand` commands are applicable on desktop, as they open the built-in search toolbar item for desktop.
+
+**1.** Define the PDF Viewer control in XAML: 
+
+<snippet id='pdfviewer-search-commands'/>
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+The following video shows the commands execution on desktop:
+
+![.NET MAUI PdfViewer Search Commands](../images/open-close-searchview-commands.gif "PDF Viewer Search Commands")
+
+> For the runnable PDF Viewer Search Commands example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Search > Commands**.
+
 ## See Also
 
 - [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)

@@ -68,6 +68,8 @@ The Telerik UI for .NET MAUI PDF Viewer provides methods related to searching fe
 * `SearchAsync`&mdash;Starts an async search operation with the provided text and options.
 * `GetToastInfoForToolbarItem`&mdash;Override this method to customize the text in the notification toast based on the search state. 
 
+> For the runnable PDF Viewer Search Settings example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Search category**.
+
 ## See Also
 
 - [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)

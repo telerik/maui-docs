@@ -326,6 +326,13 @@ navigation:
     controls/progressbar:
         title: "ProgressBar"
     ## End ProgressBar
+    ## RangeSlider
+    controls/rangeslider:
+        title: "RangeSlider"
+    controls/rangeslider/styling:
+        title: "Styling"
+        position: 10
+    ## End RangeSlider
     ## Rating
     controls/rating:
         title: "Rating"
