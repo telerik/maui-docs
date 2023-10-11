@@ -3,7 +3,7 @@ title: Programmatically
 page_title: .NET MAUI PDF Viewer Documentation - Programmatically
 description: Learn how to search programmatically in the PDF Viewer without using the buil-in rtoolbar items. 
 position: 0
-slug: pdfviewer-search-overview
+slug: pdfviewer-search-programmatic
 ---
 
 # .NET MAUI PDF Viewer Search Programmatically
@@ -30,6 +30,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='pdfviewer-entry-textchanged'/>
 
+The following video shows the results from the completed example on Android:
+
+![.NET MAUI PdfViewer Search Programmatically](images/pdf-search-programmatically.gif "PDF Viewer Search Programmatically")
 
 ## See Also
 

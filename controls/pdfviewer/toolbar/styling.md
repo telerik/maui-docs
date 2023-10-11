@@ -45,7 +45,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result on the image below:
 
-![PdfViewer ToolbarStyling](images/pdf-toolbar-styling.png)
+![PdfViewer ToolbarStyling](../images/pdf-toolbar-styling.png)
 
 ## See Also
 

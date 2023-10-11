@@ -289,6 +289,13 @@ navigation:
         position: 3
         ## End MaskedEntry Sub-Folders
     ## End MaskedEntry
+    ## NavigationView
+    controls/navigationview:
+        title: "NavigationView"
+    controls/navigationview/styling:
+        title: "Styling"
+        position: 10
+    ## End NavigationView
     ## NumericInput
     controls/numericinput:
         title: "NumericInput"
@@ -307,6 +314,9 @@ navigation:
     controls/pdfviewer/toolbar:
         title: "Toolbar"
         position: 8
+    controls/pdfviewer/search:
+        title: "Search"
+        position: 10
     ## End PdfViewer
     ## Popup
     controls/popup:
