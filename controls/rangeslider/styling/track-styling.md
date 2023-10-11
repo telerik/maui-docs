@@ -26,6 +26,5 @@ Check below a quick example on how to apply `BacktrackStyle` property to the Ran
 
 ## See Also
 
-- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Track Configuration]({% slug rangeslider-track-configuration%})
 - [Range Thumb]({% slug rangeslider-range-thumb%})

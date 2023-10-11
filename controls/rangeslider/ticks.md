@@ -51,7 +51,6 @@ Then apply it to the RangeSlider's `TickTemplate`:
 
 ## See Also
 
-- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Track Configuration]({% slug rangeslider-track-configuration%})
 - [Labels]({% slug rangeslider-labels%})
 - [Ticks Styling]({% slug rangeslider-ticks-styling%})

@@ -30,5 +30,4 @@ Define the RangeSlider with the above style properties as well as Fill propertie
 
 ## See Also
 
-- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Range Thumb]({% slug rangeslider-range-thumb%})

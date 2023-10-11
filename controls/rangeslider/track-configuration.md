@@ -21,6 +21,5 @@ You need to configure a `Minimum` value and a `Maximum` value for the RangeSlide
 
 ## See Also
 
-* [Visual Structure]({% slug rangeslider-visual-structure%})
 * [Range Thumb]({% slug rangeslider-range-thumb%})
 * [Track Styling]({% slug rangeslider-track-styling%})

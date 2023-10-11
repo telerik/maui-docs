@@ -55,6 +55,5 @@ Then apply it to the RangeSlider's `LabelTemplate`:
 
 ## See Also
 
-- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Ticks]({% slug rangeslider-ticks%})
 - [Labels Styling]({% slug rangeslider-labels-styling%})
