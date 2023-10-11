@@ -125,5 +125,11 @@ ListPickerButton
 NavigationButton
 OptionsButton
 ChatPicker
+NavigationItem
+NavigationView
+NavigationViewItem
+navigationview
+navigationitem
+SearchSettings
 Aggregates
 Aggregate

@@ -289,6 +289,13 @@ navigation:
         position: 3
         ## End MaskedEntry Sub-Folders
     ## End MaskedEntry
+    ## NavigationView
+    controls/navigationview:
+        title: "NavigationView"
+    controls/navigationview/styling:
+        title: "Styling"
+        position: 15
+    ## End NavigationView
     ## NumericInput
     controls/numericinput:
         title: "NumericInput"
@@ -307,6 +314,9 @@ navigation:
     controls/pdfviewer/toolbar:
         title: "Toolbar"
         position: 8
+    controls/pdfviewer/search:
+        title: "Search"
+        position: 10
     ## End PdfViewer
     ## Popup
     controls/popup:
@@ -316,6 +326,13 @@ navigation:
     controls/progressbar:
         title: "ProgressBar"
     ## End ProgressBar
+    ## RangeSlider
+    controls/rangeslider:
+        title: "RangeSlider"
+    controls/rangeslider/styling:
+        title: "Styling"
+        position: 10
+    ## End RangeSlider
     ## Rating
     controls/rating:
         title: "Rating"
@@ -333,6 +350,25 @@ navigation:
         title: "Styling"
         position: 19
     ## End RichTextEditor
+    ## Scheduler
+    controls/scheduler:
+        title: "Scheduler"
+    controls/scheduler/header:
+        title: "Header"
+        position: 5
+    controls/scheduler/views:
+        title: "Views"
+        position: 6
+    controls/scheduler/appointments:
+        title: "Appointments"
+        position: 7
+    controls/scheduler/recurrence:
+        title: "Recurrence"
+        position: 8
+    controls/scheduler/specialslots:
+        title: "Special Slots"
+        position: 9
+    ## End Scheduler
     ## SegmentedControl
     controls/segmentedcontrol:
         title: "SegmentedControl"
@@ -512,6 +548,7 @@ intro_columns:
         "Gauges": "gauge-overview"
         "Map": "map-overview"
         "ProgressBar": "progressbar-overview"
+        "RangeSlider": "rangeslider-overview"
         "Ratings": "rating-overview"
   -
     title: "Chatbots"
@@ -544,15 +581,17 @@ intro_columns:
         "Accordion": "accordion-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
+        "NavigationView": "navigationview-overview"
         "SideDrawer": "sidedrawer-overview"
         "SlideView": "slideview-overview"
         "TabView": "tabview-overview"
         "TreeView": "treeview-overview"
         "WrapLayout": "wraplayout-overview"
   -
-    title: "Calendar"
+    title: "Calendar & Scheduling"
     items:
         "Calendar": "calendar-overview"
+        "Scheduler": "scheduler-overview"
   -
     title: "Buttons"
     items:

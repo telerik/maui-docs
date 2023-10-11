@@ -1,0 +1,28 @@
+---
+title: Special Slot Template
+page_title: .NET MAUI Scheduler Documentation - Special Slot Template
+description: Learn more about the special slot template feature in the Telerik UI for .NET MAUI Scheduler control.
+position: 1
+slug: scheduler-special-slot-template
+---
+
+# SpecialSlot Template
+
+By default the special slots are marked with a different background, so that they are easily noticable across the view. In addition you can show a content of your choice inside special slots through the `SpecialSlotTemplate` property of the view definitions.
+
+* `SpecialSlotTemplate(DataTemplate)`&mdash;Defines the template of the special slots.
+
+Here is a quick example how to apply a custom slot template to the Scheduler:
+
+Add the template to the page resources:
+
+<snippet id='scheduler-customslots-resources' />
+
+Add the Scheduler definition with the `SpecialSlotTemplate` applied:
+
+<snippet id='scheduler-special-slots-template' />
+
+## See Also
+
+- [Special Slots]({%slug scheduler-special-slots%})
+- [Views]({% slug scheduler-views-overview %})

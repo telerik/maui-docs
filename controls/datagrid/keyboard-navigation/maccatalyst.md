@@ -6,7 +6,7 @@ position: 2
 slug: datagrid-keyboard-support-mac
 ---
 
-# .NET MAUI DataGrid Keyboard Support on WinUI
+# .NET MAUI DataGrid Keyboard Support on MacCatalyst
 
 The Telerik UI for .NET MAUI DataGrid provides keyboard navigation support on `MacCatalyst`.
 

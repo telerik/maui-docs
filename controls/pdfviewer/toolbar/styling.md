@@ -39,7 +39,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 </Style>
 ```
 
-**4.**: Pass the document to the `PdfViewer.Source`:
+**4.** Pass the document to the `PdfViewer.Source`:
 
 <snippet id='pdfviewer-toolbar'/>
 

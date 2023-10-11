@@ -12,15 +12,24 @@ The PDF Viewer Toolbar includes some of the commands that the PDF Viewer provide
 
 ## Predefined Toolbar Items
 
-By default, the PDF Viewer Toolbar provides the following toolbar items:
+By default, the PDF Viewer Toolbar provides the following toolbar items described in the table below:
 
-* `PdfViewerZoomInToolbarItem`
-* `PdfViewerZoomOutToolbarItem`
-* `PdfViewerNavigateToNextPageToolbarItem`
-* `PdfViewerNavigateToPreviousPageToolbarItem`
-* `PdfViewerFitToWidthToolbarItem`
+|Toolbar Item| Description |
+|--------|-------|
+| `PdfViewerZoomInToolbarItem` | Executes the `PdfViewerZoomInCommand` |
+| `PdfViewerZoomOutToolbarItem` | Executes the `PdfViewerZoomOutCommand` |
+| `PdfViewerNavigateToNextPageToolbarItem` | Executes the `PdfViewerNavigateToPreviousPageCommand` |
+| `PdfViewerNavigateToPreviousPageToolbarItem` | Executes the `PdfViewerNavigateToNextPageCommand` |
+| `PdfViewerFitToWidthToolbarItem` | Executes the `PdfViewerFitDocumentToWidthCommand` |
+| `PdfViewerNavigateToPageToolbarItem` | Executes the `PdfViewerNavigateToPreviousPageCommand` |
+| `PdfViewerToggleLayoutModeToolbarItem` | toggles the `RadPdfViewer.LayoutMode` property between `SinglePage` and `ContinuousScroll` |
+| `PdfViewerSearchToolbarItem` | Activates the search functionality in the PDF viewer control. Opens a popup. |
+| `PdfViewerSearchNavigationToolbarItem` | Activates the search functionality in the PDF viewer control. Creates a default set of toolbar items applicabe for search feature |
 
->note `PdfToolbarItems` inherit from `ButtonToolbarItem`. All properties applicable for `ButtonToolbarItem` are available for the PDF Viewer toolbar items. 
+>note `PdfToolbarItems` inherit from `ButtonToolbarItem` except `PdfViewerNavigateToPageToolbarItem`.
+
+All properties applicable for `ToolbarItem` are available for the PDF Viewer `PdfViewerNavigateToPageToolbarItem`. 
+All properties applicable for `ButtonToolbarItem` are available for all PDF Viewer toolbar items except `PdfViewerNavigateToPageToolbarItem`.
 
 The following example demonstrates how to use the Toolbar and its predefined items:
 
@@ -40,9 +49,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 >The snippet above shows one of the approaches for loading a PDF document inside `RadPdfViewer` just for the purpose of the example.
 
-The following image shows the results from the completed example:
+The following image shows the results from the completed example on WinUI:
 
 ![.NET MAUI PdfViewer Toolbar](images/pdf-toolbar.png "PDF Viewer Toolbar")
+
+And this is the look on Android:
+
+![.NET MAUI PdfViewer Toolbar](images/pdf-toolbar-mobile.png "PDF Viewer Toolbar")
 
 > For a runnalbe example with the PDF Viewer toolbar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 

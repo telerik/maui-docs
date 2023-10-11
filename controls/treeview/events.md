@@ -21,13 +21,50 @@ The .NET MAUI TreeView exposes the following events:
 
 	> On Android and iOS, when tapping the TreeView item, the item gets expanded. On WinUI and MacCatalyst, the item gets expanded when tapping on the arrow **>**. 
 
-* `ItemsSourceChanged`&mdash;Raised when `ItemsSource` has changed. The `ItemHold` event handler receives two parameters:
+* `ItemHolding`&mdash;Raised when an item is held. The `ItemHolding` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `ItemViewHoldingEventArgs` object which has a reference to:
+		* the tapped item through its `Item`(`object`) property.
+		* the tapped `View`(`ItemView`).
+		* the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the hold event. When set to `true`, the default handling of the hold event is not executed. When set to `false`, the default handling of the hold event is executed.
+
+* `ItemsSourceChanged`&mdash;Raised when `ItemsSource` has changed. The `ItemsSourceChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
 	* An `EventHandler` object.
 	
 * `SelectionChanged`&mdash;Raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type `object`, but can be cast to the `RadTreeView` type.
 	* A `EventArgs` object, which provides information on the `SelectionChanged` event.
+
+* `LoadChildrenOnDemand`&mdash;Raised when loading an item on demand. The `LoadChildrenOnDemand` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `TreeViewLoadChildrenOnDemandEventArgs` object, which has a reference to:
+		* the item through its `Item`(`object`) property.
+		
+
+* `ItemChecked`&mdash;Raised when an item is checked after a user interaction. The `ItemChecked` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `TreeViewItemViewInteractionEventArgs` object which has a reference to:
+		* the tapped item through its `Item`(`object`) property.
+		* the tapped `View`(`ItemView`).
+
+* `ItemUnchecked`&mdash;Raised when an item is unchecked after a user interaction. The `ItemUnchecked` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `TreeViewItemViewInteractionEventArgs` object which has a reference to:
+		* the tapped item through its `Item`(`object`) property.
+		* the tapped `View`(`ItemView`).
+
+* `ItemExpanded`&mdash;Raised when an item is expanded after a user interaction. The `ItemExpanded` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `TreeViewItemViewInteractionEventArgs` object which has a reference to:
+		* the tapped item through its `Item`(`object`) property.
+		* the tapped `View`(`ItemView`).
+
+* `ItemCollapsed`&mdash;Raised when an item is collapsed after a user interaction. The `ItemCollapsed` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* A `TreeViewItemViewInteractionEventArgs` object which has a reference to:
+		* the tapped item through its `Item`(`object`) property.
+		* the tapped `View`(`ItemView`).
 
 ## Using the ItemTapped Event
 
