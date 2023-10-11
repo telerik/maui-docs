@@ -2,7 +2,7 @@
 title: Navigation Item
 page_title: .NET MAUI NavigationView Documentation - Navigation Item
 description: Discover the available configuration options of the Navigation Item and learn how to use them to customize the appearance and the behavior of the Telerik UI for .NET MAUI NavigationView control.
-position: 5
+position: 6
 slug: navigationview-items
 ---
 
@@ -79,7 +79,6 @@ How to style the navigation items is described in the [NavigationItem Styling]({
 
 ## See Also
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
 - [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

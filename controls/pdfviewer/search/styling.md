@@ -2,7 +2,7 @@
 title: Styling
 page_title: .NET MAUI PDF Viewer Documentation - Styling
 description: Learn more about the styling options for the search toolbar items.
-position: 0
+position: 6
 slug: pdfviewer-search-styling
 ---
 
@@ -49,7 +49,6 @@ The search results are highlighted by using the following properties:
 
 ## See Also
 
-- [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)
 - [.NET MAUI PDF Viewer Forum Page](https://www.telerik.com/forums/maui?tagId=2059)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

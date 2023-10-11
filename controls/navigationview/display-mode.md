@@ -2,7 +2,7 @@
 title: Display Mode
 page_title: .NET MAUI NavigationView Documentation - Display Mode
 description: Learn what are the different options to display the navigation pane in your .NET MAUI applications.
-position: 5
+position: 3
 slug: navigationview-display-mode
 ---
 
@@ -23,7 +23,6 @@ You can enable the NavigationView to auto-change the display mode depending on t
 
 ## See Also
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
 - [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

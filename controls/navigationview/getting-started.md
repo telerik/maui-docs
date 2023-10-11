@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![NavigationView Getting Started](images/navigationview-getting-started.gif)
+![.NET MAUI NavigationView Getting Started](images/navigationview-getting-started.gif)
 
 ## Prerequisites
 
@@ -67,7 +67,6 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
 - [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

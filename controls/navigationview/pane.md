@@ -2,7 +2,7 @@
 title: Navigation Pane
 page_title: .NET MAUI NavigationView Pane Documentation - Navigation Pane
 description: Lear what is the structure of the .NET MAUI NavigationView Pane and how to configure its header and footer.
-position: 4
+position: 5
 slug: navigationview-pane
 ---
 
@@ -58,7 +58,6 @@ How to style the header and footer of the Pane, review the [Pane Styling]({%slug
 
 ## See Also
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
 - [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

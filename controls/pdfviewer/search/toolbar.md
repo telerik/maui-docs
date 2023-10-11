@@ -2,7 +2,7 @@
 title: Toolbar Items
 page_title: .NET MAUI PDF Viewer Documentation - Toolbar Items
 description: Learn more for the available toolbar items for search functionality in Telerik .NET MAUI PDF Viewer. 
-position: 0
+position: 1
 slug: pdfviewer-search-toolbar
 ---
 
@@ -89,7 +89,6 @@ This is the result with custom toolbar implementation:
 
 ## See Also
 
-- [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)
 - [.NET MAUI PDF Viewer Forum Page](https://www.telerik.com/forums/maui?tagId=2059)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
