@@ -4,9 +4,10 @@ page_title: .NET MAUI PDF Viewer Documentation - Custom Search
 description: Learn how to implement custom search in the .NET MAUI PDF Viewer control. 
 position: 0
 slug: pdfviewer-search-custom
+published: False
 ---
 
-# .NET MAUI PDF Viewer Search Programmatically
+# .NET MAUI PDF Viewer Custom Search
 
 You can extend the search functionality by implementing a custom `TextSearchWorker`. The `TextSearchWorker` object performs the actual search according to the search criteria.
 

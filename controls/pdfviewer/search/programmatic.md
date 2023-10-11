@@ -32,7 +32,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following video shows the results from the completed example on Android:
 
-![.NET MAUI PdfViewer Search Programmatically](images/pdf-search-programmatically.gif "PDF Viewer Search Programmatically")
+![.NET MAUI PdfViewer Search Programmatically](../images/pdf-search-programmatically.gif "PDF Viewer Search Programmatically")
+
+> For the runnable PDF Viewer Search Programmatic example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Search category**.
+
 
 ## See Also
 

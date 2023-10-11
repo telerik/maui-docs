@@ -26,11 +26,11 @@ By default the items are auto-populated. You can disable this by setting the `Au
 
 This is how the search toolbar looks on mobile:
 
-![.NET MAUI PdfViewer Search Toolbar](images/pdf-toolbar-search-mobile "PDF Viewer Search Toolbar")
+![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search-mobile.png "PDF Viewer Search Toolbar")
 
 And how the search toolbar looks on desktop:
 
-![.NET MAUI PdfViewer Search Toolbar](images/pdf-toolbar-search-desktop "PDF Viewer Search Toolbar")
+![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search-desktop.png "PDF Viewer Search Toolbar")
 
 By default, search operation occurs when the user clicks the `Search` button of the keyboard on mobile, and the `Enter` key of the physical keyboard on desktop. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
 
@@ -38,7 +38,7 @@ By default, search operation occurs when the user clicks the `Search` button of 
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.
 * `Completed` (default)&mdash;Search operation is triggered when the corresponding entry completes (by pressing Enter/Return key).
 
-## Example
+### Example
 
 The following example demonstrates how to use the Toolbar and its predefined items:
 
@@ -55,6 +55,37 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Then add the following code to visualize the PDF document:
 
 <snippet id='pdfviewer-toolbar'/>
+
+## Custom Search Toolbar
+
+You can customize the search toolbar item by setting the 
+
+### Example
+
+The following example demonstrates how to define custom search toolbar:
+
+**1.** Use the following snippet to define the `RadPdfViewer` and `RadPdfToolbar`:
+
+<snippet id='pdfviewer-custom-search-toolbar'/>
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** The Entry `TextChanged` event for searching when text changes:
+
+```C#
+private void entrySearchToolbar_TextChanged(object sender, TextChangedEventArgs e)
+{
+    this.pdfViewer.SearchSettings.SearchAsync(this.entrySearchToolbar.Text, this.pdfViewer.SearchSettings.SearchOptions);
+}
+```
+
+This is the result with custom toolbar implementation:
+
+![.NET MAUI PdfViewer Search Custom Toolbar](../images/pdf-custom-search-toolbar.gif "PDF Viewer Search Custom Toolbar")
 
 ## See Also
 
