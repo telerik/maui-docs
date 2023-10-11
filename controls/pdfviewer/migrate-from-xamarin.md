@@ -21,17 +21,17 @@ The tables below compare the API changes between the Xamarin.Forms PDF Viewer an
 
 | Xamarin PDF Viewer | .NET MAUI PDF Viewer |
 | ------------- | --------------- |
-| Text Selection | NA |
-| Text Search | NA |
-| `Localization` | NA |
+| Text Selection | N/A |
+| Text Search | Text Search |
+| `Localization` | N/A |
 | `ZoomInToolbarItem` | `PdfViewerZoomInToolbarItem` |
 | `ZoomOutToolbarItem` | `PdfViewerZoomOutToolbarItem` |
 | `NavigateToNextPageToolbarItem` | `PdfViewerNavigateToNextPageToolbarItem` |
 | `NavigateToPreviousPageToolbarItem` | `PdfViewerNavigateToPreviousPageToolbarItem` |
-| `NavigateToPageToolbarItem` | NA |
+| `NavigateToPageToolbarItem` | `PdfViewerNavigateToPageToolbarItem` |
 | `FitToWidthToolbarItem` | `PdfViewerFitToWidthToolbarItem` |
-| `ToggleLayoutModeToolbarItem` | NA |
-| `SearchToolbarItem` | NA |
+| `ToggleLayoutModeToolbarItem` | `PdfViewerToggleLayoutModeToolbarItem` |
+| `SearchToolbarItem` | `PdfViewerSearchToolbarItem`, `PdfViewerSearchNavigationToolbarItem` |
 
 ## See Also
 

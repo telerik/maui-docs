@@ -34,10 +34,10 @@ This table lists the features that aren't available in the .NET MAUI RichTextEdi
 
 | Xamarin RichTextEditor | .NET MAUI RichTextEditor |
 | ------------- | --------------- |
-| `Context Menu` | NA |
-| `CutCommand` | NA |
-| `CopyCommand` | NA |
-| `PasteCommand` | NA |
+| `Context Menu` | N/A |
+| `CutCommand` | N/A |
+| `CopyCommand` | N/A |
+| `PasteCommand` | N/A |
 
 > The .NET MAUI RichTextEditor Toolbar is a new toolbar that inherits from [Telerik .NET MAUI Toolbar]({%slug toolbar-overview%}).
 
