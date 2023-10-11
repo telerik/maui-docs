@@ -8,15 +8,17 @@ slug: navigationview-display-mode
 
 # .NET MAUI NavigationView Display Mode
 
-The Telerik UI for .NET MAUI NavigationView allows you to set different display options to display the navigation pane by setting the `DisplayMode` (enum of type `Telerik.Maui.Controls.NavigationViewDisplayMode`) property. The values for `DisplayMode` are:
+The NavigationView provides three layouts based on its `DisplayMode` (enum of type `Telerik.Maui.Controls.NavigationViewDisplayMode`) property. The available options are:
 
 * `Minimal`&mdash;This option fixes the menu button. The pane shows and hides when the menu button is clicked.
-* Default `Compact`&mdash;The pane always shows as a narrow sliver which can be opened to full width.
+* `Compact`&mdash;The pane always shows as a narrow sliver which can be opened to full width.
 * `Expanded`&mdash;The pane stays open alongside the content.
 
 ## Auto-changing the Display Mode
 
-You can enable the NavigationView to auto-change the display mode depending on the widths of the `ExpandedModeThresholdWidth` and `CompactModeThresholdWidth` by using the `AutoChangeDisplayMode` (`bool`) property. The default value on mobile is `false`, and on desktop is `true`. 
+The NavigationView dynamically adjusts its layout depending on its size. This is controlled with the `AutoChangeDisplayMode` (`bool`) property. On desktop its value is `true`, on mobile `false`.
+
+In addition use the following porperties for setting the minimum width at which the NavigationView enters the `Compact` and `Expanded` display modes: 
 
 * `ExpandedModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Expanded display mode.
 * `CompactModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Compact display mode.

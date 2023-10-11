@@ -32,7 +32,7 @@ Style the navigation item, by setting the `Style` property to the `NavigationVie
 </Style>
 ```
 
-The available properties are descrivbed in the table below:
+The available properties are described in the table below:
 
 | Property | Description |
 | -------- | ----------- |
@@ -44,7 +44,7 @@ The available properties are descrivbed in the table below:
 | `ImageAspect` (`Microsoft.Maui.Aspect`) | Specifies the aspect ratio of the image that is displayed in the navigation item. |
 | `ImageWidth` (`double`) | Specifies the width in pixels of the image that is displayed in the navigation item. |
 | `ImageHeight` (`double`) | Specifies the height in pixels of the image that is displayed in the navigation item. |
-| `Spacing` (`double`) | Specifies the spacing in pixels between the image area andthe content of the navigation item. |
+| `Spacing` (`double`) | Specifies the spacing in pixels between the image area and the content of the navigation item. |
 
 ## See Also
 

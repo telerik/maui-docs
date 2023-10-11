@@ -14,9 +14,9 @@ NavigationView control has a support for single selection.
 
 ## Main Properties
 
-* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the navigation view. Setting the property to the NavigationView.
-* `IsSelectable`(`bool`)&mdash;Specifies whether the navigation item is selectable. Setting the property to the NavigationItem.
-* `IsSelected`(`bool`)&mdash;Specifies whether the navigation item is selected. Setting the property to the NavigationItem.
+* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the NavigationView. Property of the NavigationView.
+* `IsSelectable`(`bool`)&mdash;Specifies whether the NavigationViewItem is selectable. Property of the NavigationViewItem.
+* `IsSelected`(`bool`)&mdash;Specifies whether the NavigationViewItem is selected. Property of the NavigationViewItem.
 
 ## Events
 

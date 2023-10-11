@@ -33,7 +33,7 @@ When your .NET MAUI application is set up, you are ready to add a Accordion cont
 <snippet id='accordion-getting-started-xaml' />
 <snippet id='accordion-getting-started-csharp' />
 
->important RadAccordion provides a read only collection `Items` of type `IList<AccordionItem>`.
+>important `RadAccordion` provides a read only collection `Items` of type `IList<AccordionItem>`.
 
 **2.** Add the `telerik` namespace:
 
