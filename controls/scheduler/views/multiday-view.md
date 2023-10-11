@@ -3,7 +3,7 @@ title: Multiday View
 page_title: .NET MAUI Day View Documentation - Multiday View 
 description: Learn more about the multiday view definition in the Telerik UI for .NET MAUI Scheduler control.
 position: 3
-slug: scheduler-week-view
+slug: scheduler-multiday-view
 ---
 
 # Multiday View 
@@ -38,6 +38,6 @@ Add a `MultidayViewDefinition` to the `ViewDefinitions` collection of the `RadSc
 ## See Also
 
 - [Views]({%slug scheduler-overview %})
-- [Day View]({%slug scheduler-day-view})
+- [Day View]({%slug scheduler-day-view%})
 - [Week View]({%slug scheduler-week-view %})
 - [Month View]({%slug scheduler-month-view %})
