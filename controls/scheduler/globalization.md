@@ -24,4 +24,4 @@ Set the `Culture` property to the `RadScheduler` instance:
 
 ## See Also
 
-- [Localization](% slug scheduler-localization %)
+- [Localization]({% slug scheduler-localization %})

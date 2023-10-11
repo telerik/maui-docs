@@ -25,4 +25,4 @@ The table below shows the localization keys:
 
 ## See Also
 
-- [Globalization](% slug scheduler-globalization %)
+- [Globalization]({% slug scheduler-globalization %})
