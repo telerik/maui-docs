@@ -20,11 +20,3 @@ The main methods exposed by the `RecurrenceRule` class:
 The `RecurrenceRule` class exposes an exceptions method, which allows you to get or set all exception occurrences associated with the current rule.
 
 * `CreateExceptionAppointment`&mdash;Defines a new `IAppointment` instance that will hold the properties of an exception occurrence.
-
-
-## See Also
-
-- 
-- 
-- 
-- 

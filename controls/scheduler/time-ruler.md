@@ -3,6 +3,7 @@ title: Time Ruler
 page_title: .NET MAUI Scheduler Documentation - Time Ruler
 description: Learn more about the time ruler feature in the Telerik UI for .NET MAUI Scheduler control.
 position: 
+published: False
 slug: scheduler-time-ruler
 ---
 

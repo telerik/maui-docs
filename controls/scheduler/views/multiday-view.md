@@ -10,15 +10,6 @@ slug: scheduler-week-view
 
 The Multiday View definition represents a definition of a view that shows multiple days as in day view mode.
 
-![.NET MAUI Scheduler Multiday View](images/)
-
-## Set the Multiday View 
-
-`RadScheduler` has different definitions for each view. It has four types of predefined view definitions. To include the Multiday View definition in the `RadScheduler` control, it have to be defined as follows:
-
-// code snippet here 
-<snippet id=''/>
-
 ## Properties
 
 * `DayStartTime`&mdash;Defines the time used to indicate the start of the day.
@@ -28,18 +19,3 @@ The Multiday View definition represents a definition of a view that shows multip
 * `MinorTickLenght`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
 * `VisibleDays`&mdash;Defines the number of visible days in the view.
-
-### Example 
-
-// code snippet here
-<snippet id=''/>
-
-![.NET MAUI Scheduler Multiday View Example](images/)
-
-
-## See Also
-
-- 
-- 
-- 
-- 

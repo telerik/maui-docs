@@ -22,11 +22,6 @@ Set the `Culture` property to the `RadScheduler` instance:
 
 <snippet id='scheduler-culture-set' />
 
-
 ## See Also
 
-- 
-- 
-- 
-- 
-
+- [Localization](% slug scheduler-localization %)

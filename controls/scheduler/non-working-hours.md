@@ -2,7 +2,7 @@
 title: Non-working Hours
 page_title: .NET MAUI Scheduler Documentation - Non-working Hours
 description: Learn more about the non-working hours feature in the Telerik UI for .NET MAUI Scheduler control.
-position: 
+published: False 
 slug: scheduler-non-working-hours
 ---
 

@@ -26,17 +26,3 @@ Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadSchedul
 * `MinorTickLength`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
 * `MaxTimeRulerExtent`&mdash;Defines the maximum size of the time ruler in pixels.
-
-### Example 
-
-<snippet id=''/>
-
-![.NET MAUI Scheduler Day View Example](images/)
-
-
-## See Also
-
-- 
-- 
-- 
-- 

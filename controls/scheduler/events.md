@@ -19,7 +19,5 @@ The Telerik UI for .NET MAUI Scheduler component exposes a set of events which h
 
 ## See Also
 
-- 
-- 
-- 
-- 
+- [Views](% slug scheduler-views-overview %)
+- [Appointments](% slug appointments-overview %)

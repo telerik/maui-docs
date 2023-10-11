@@ -30,11 +30,4 @@ Then, add `RadScheduler` definition with some sample views with `SpecialSource` 
 
 Last step is to set the BindingContext to the ViewModel class:
 
-<snippet id='scheduler-specialslots-setvm' />
-
-## See Also
-
-- 
-- 
-- 
-- 
+<snippet id='scheduler-specialslots-setvm' /> 

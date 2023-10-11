@@ -23,10 +23,6 @@ The table below shows the localization keys:
 | `Scheduler_Today_Header_Text` | `Today` |
 | `Scheduler_Empty_ViewDefinition_Text` | `Please declare a View definition` |
 
-
 ## See Also
 
-- 
-- 
-- 
-- 
+- [Globalization](% slug scheduler-globalization %)

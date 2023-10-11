@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI Scheduler Getting Started](images/)
+![.NET MAUI Scheduler Getting Started](images/scheduler-getting-started.png)
 
 ## Prerequisites
 
@@ -59,9 +59,6 @@ Before adding the Scheduler, you need to:
 	}
  }           
  ```
-
- ## Additional Resources
-
 
 ## See Also
 

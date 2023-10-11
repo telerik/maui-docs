@@ -23,10 +23,3 @@ Here are the exposed properties exposed by the `RecurrencePatter` class:
 | `MaxOccurences` | Defines the limit for the number of occurrences. |
 | `MonthOfYear` | Defines the month in the year. |
 | `RecursUntil` | Defines the end date of the appointment occurrences. |
-
-## See Also
-
-- 
-- 
-- 
-- 

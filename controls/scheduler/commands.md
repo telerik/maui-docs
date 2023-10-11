@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI Scheduler Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI Sheduler to programmatically navigate throught the dates.
-position: 
+position: 8
 slug: scheduler-commands
 ---
 
@@ -35,10 +35,3 @@ Check below a quick example on how to utilize navigation commands:
 * `MonthDayTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a month day is tapped.
 
 * `MonthDayDoubleTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a a month day is double tapped.
-
-## See Also
-
-- [Events]
-- 
-- 
-- 
