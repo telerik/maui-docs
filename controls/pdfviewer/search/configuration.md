@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI PDF Viewer Documentation - Configuration
 description: Learn how to configure the search options, search results in the PDF Viewer for .NET MAUI.
-position: 0
+position: 2
 slug: pdfviewer-search-configuration
 ---
 

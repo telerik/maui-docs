@@ -2,7 +2,7 @@
 title: Navigation Item
 page_title: .NET MAUI NavigationView Documentation - Navigation Item
 description: Discover the available configuration options of the Navigation Item and learn how to use them to customize the appearance and the behavior of the Telerik UI for .NET MAUI NavigationView control.
-position: 5
+position: 6
 slug: navigationview-items
 ---
 

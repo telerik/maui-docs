@@ -2,7 +2,7 @@
 title: Custom Search
 page_title: .NET MAUI PDF Viewer Documentation - Custom Search
 description: Learn how to implement custom search in the .NET MAUI PDF Viewer control. 
-position: 0
+position: 4
 slug: pdfviewer-search-custom
 published: False
 ---

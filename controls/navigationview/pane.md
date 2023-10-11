@@ -2,7 +2,7 @@
 title: Navigation Pane
 page_title: .NET MAUI NavigationView Pane Documentation - Navigation Pane
 description: Lear what is the structure of the .NET MAUI NavigationView Pane and how to configure its header and footer.
-position: 4
+position: 5
 slug: navigationview-pane
 ---
 

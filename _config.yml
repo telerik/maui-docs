@@ -294,7 +294,7 @@ navigation:
         title: "NavigationView"
     controls/navigationview/styling:
         title: "Styling"
-        position: 10
+        position: 15
     ## End NavigationView
     ## NumericInput
     controls/numericinput:

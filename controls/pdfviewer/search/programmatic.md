@@ -2,7 +2,7 @@
 title: Programmatically
 page_title: .NET MAUI PDF Viewer Documentation - Programmatically
 description: Learn how to search programmatically in the PDF Viewer without using the buil-in rtoolbar items. 
-position: 0
+position: 3
 slug: pdfviewer-search-programmatic
 ---
 

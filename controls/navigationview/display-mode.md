@@ -2,7 +2,7 @@
 title: Display Mode
 page_title: .NET MAUI NavigationView Documentation - Display Mode
 description: Learn what are the different options to display the navigation pane in your .NET MAUI applications.
-position: 5
+position: 3
 slug: navigationview-display-mode
 ---
 
