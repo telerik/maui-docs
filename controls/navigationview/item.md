@@ -79,7 +79,6 @@ How to style the navigation items is described in the [NavigationItem Styling]({
 
 ## See Also
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
 - [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

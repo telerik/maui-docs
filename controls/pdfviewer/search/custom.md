@@ -22,7 +22,6 @@ The example below implements a custom search by multiple words - any word that i
 
 ## See Also
 
-- [.NET MAUI PDF Viewer Product Page](https://www.telerik.com/maui-ui/pdfviewer)
 - [.NET MAUI PDF Viewer Forum Page](https://www.telerik.com/forums/maui?tagId=2059)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
