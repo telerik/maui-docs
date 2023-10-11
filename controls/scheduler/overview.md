@@ -10,7 +10,7 @@ slug: scheduler-overview
 
 The Telerik UI for .NET MAUI Scheduler allows you to easily implement various scheduling scenarios in your apps built with .NET MAUI. Scheduler offers highly customizable built-in views - you can adjust current time, visible hours and dates, time ruler, special time slots and more. In addition, you have full control over the way appointments are visualized in the views.
 
-![.NET MAUI Scheduler Overview](images/)
+![.NET MAUI Scheduler Overview](images/scheduler-overview.png)
 
 ## Key Features
 
