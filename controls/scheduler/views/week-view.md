@@ -8,14 +8,21 @@ slug: scheduler-week-view
 
 # Week View 
 
-The Telerik UI for .NET MAUI Scheduler control provides the functionality of displaying the data in different views. The control defines four predefined views from which you can choose to navigate through. 
+The Week View represents a view that shows all seven week days as in a day view.
 
-* `DayViewDefinition`
-* `WeekViewDefinition`
-* `MultidayViewDefinition`
-* `MonthViewDefinition`
+## Set the Week View
 
-The Week View definition represents a view that shows all seven week days as in a day view.
+Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
+
+```XAML
+<telerik:RadScheduler AutomationId="scheduler">
+    <telerik:RadScheduler.ViewDefinitions>
+        <telerik:WeekViewDefinition />
+    </telerik:RadScheduler.ViewDefinitions>
+</telerik:RadScheduler>
+```
+
+![](../images/scheduler-weekview.png)
 
 ## Properties
 
@@ -23,5 +30,12 @@ The Week View definition represents a view that shows all seven week days as in 
 * `DayEndTime`&mdash;Defines the time used to indicate the end of the day.
 * `IsCurrentTimeIndicatorVisible`&mdash;Defines the value indicating whether the current time indicator is visible.
 * `MajorTickLength`&mdash;Defines the length of the major ticks.
-* `MinorTickLenght`&mdash;Defines the length of the minor ticks.
+* `MinorTickLength`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
+
+## See Also
+
+- [Views]({%slug scheduler-overview %})
+- [Day View]({%slug scheduler-day-view})
+- [Multiday View]({%slug scheduler-week-view %})
+- [Month View]({%slug scheduler-month-view %})

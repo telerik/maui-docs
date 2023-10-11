@@ -1,23 +1,37 @@
 ---
 title: Month View
 page_title: .NET MAUI Month View Documentation - Month View 
-description: Learn more about the month view definition in the Telerik UI for .NET MAUI Scheduler control.
+description: Learn more about the month view in the Telerik UI for .NET MAUI Scheduler control.
 position: 4
 slug: scheduler-month-view
 ---
 
 # Month View 
 
-The Telerik UI for .NET MAUI Scheduler control provides the functionality of displaying the data in different views. The control defines four predefined views from which you can choose to navigate through. 
+The Month View represents a view that shows 42 days in month view mode.
 
-* `DayViewDefinition`
-* `WeekViewDefinition`
-* `MultidayViewDefinition`
-* `MonthViewDefinition`
+## Set the Week View
 
-The Month View definition represents a view that shows 42 days in month view mode.
+Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
+
+```XAML
+<telerik:RadScheduler AutomationId="scheduler">
+    <telerik:RadScheduler.ViewDefinitions>
+        <telerik:MonthViewDefinition />
+    </telerik:RadScheduler.ViewDefinitions>
+</telerik:RadScheduler>
+```
+
+![](../images/scheduler-monthview.png)
 
 ## Properties
 
 * `FirstDayOfWeek`&mdash;Defines the day that is considered the beginning of the week.
 * `HeaderTextFormat`&mdash;Defines the format string for the header text. 
+
+## See Also
+
+- [Views]({%slug scheduler-overview %})
+- [Day View]({%slug scheduler-day-view})
+- [Multiday View]({%slug scheduler-week-view %})
+- [Week View]({%slug scheduler-week-view %})
