@@ -368,6 +368,9 @@ navigation:
     controls/scheduler/specialslots:
         title: "Special Slots"
         position: 9
+    controls/scheduler/styling:
+        title: "Styling"
+        position: 20
     ## End Scheduler
     ## SegmentedControl
     controls/segmentedcontrol:
