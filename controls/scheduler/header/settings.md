@@ -27,7 +27,4 @@ Each view added to the Scheduler ViewDefinitions collection is listed inside the
 
 ## See Also
 
-- 
-- 
-- 
-- 
+- [Views]({% slug scheduler-views-overview %})

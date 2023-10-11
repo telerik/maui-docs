@@ -14,3 +14,7 @@ If you want to dive deeper into the recurrence feature of the `RadScheduler`, ch
 
 * [Recurrence Pattern](% slug recurrence-pattern %)
 * [Recurrence Rule](% slug recurrence-rule %)
+
+## See Also
+
+- [Appointments]({% slug appointments-overview %})
