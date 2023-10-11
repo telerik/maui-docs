@@ -1,0 +1,45 @@
+---
+title: Range Thumb
+page_title: .NET MAUI RangeSlider Documentation - Range Thumb
+description: Learn how to use the range thumb that Telerik UI RangeSlider for .NET MAUI control provides.
+position: 3
+slug: rangeslider-range-thumb
+---
+
+# Range Thumb
+
+Range thumb represents the currently selected range value inside the slider - it consists of the start thumb, the range track as well as the end thumb. 
+
+The slider's range thumb is drawn corresponding to its `RangeStart` and `RangeEnd` values. Users can modify the range start value by dragging the start thumb, the end range value by dragging the end thumb, and both start and end simultenously by dragging the range track.
+
+* `RangeStart(double)`&mdash;Specifies the start value of the currently selected range.
+* `RangeEnd(double)`&mdash;Specifies the end value of the currently selected range.
+
+Check a quick example on how to define `RangeStart` and `RangeEnd` properties:
+
+<snippet id='rangeslider-getting-started-xaml' />
+
+## Drag Mode
+
+RangeSlider supports different dragging options - only the start thumb, only the end thumb, only the range track or any combination of them. In addition, you can completely disable the drag. 
+
+You can control the available dragging options through the `DragMode` property of the RangeSlider:
+
+* `DragMode (type Telerik.Maui.Controls.RangeSlider.RangeSliderDragMode)`&mdash;Defines the available elemenents of the range thumb that can be dragged. You can choose from:
+    * `Disabled`&mdash;Drag is not enabled.
+    * `StartThumb`&mdash;the start thumb can be dragged.
+    * `RangeTrack`&mdash;the range track (the part between the start and end thumbs) can be dragged.
+    * `EndThumb`&mdash;the end thumb can be dragged.
+
+<snippet id='rangeslider-drag-disabled-xaml' />
+
+## See Also
+
+- [Track Configuration]({% slug rangeslider-track-configuration%})
+- [Range Thumb Styling]({% slug rangeslider-rangethumb-styling%})
+
+
+
+
+
+
