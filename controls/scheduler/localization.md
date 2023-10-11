@@ -2,7 +2,7 @@
 title: Localization
 page_title: .NET MAUI Scheduler Documentation - Localization
 description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI Scheduler control.
-position: 
+position: 13
 slug: scheduler-localization
 ---
 

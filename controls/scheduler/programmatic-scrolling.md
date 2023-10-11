@@ -2,7 +2,7 @@
 title: Programmatic Scrolling
 page_title: .NET MAUI Scheduler Documentation - Programmatic Scrolling
 description: Learn more about the programmatic scrolling feature in the Telerik UI for .NET MAUI Scheduler control.
-position: 
+position: 10
 slug: scheduler-programmating-scrolling 
 ---
 

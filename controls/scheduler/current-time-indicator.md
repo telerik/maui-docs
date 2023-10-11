@@ -2,7 +2,7 @@
 title: Current Time Indicator
 page_title: .NET MAUI Scheduler Documentation - Current Time Indicator
 description: Learn more about the current time indicator feature in the Telerik UI for .NET MAUI Scheduler control.
-position: 
+position: 9
 slug: scheduler-time-indicator
 ---
 
