@@ -33,4 +33,3 @@ The following example demonstrates how to apply custom header styles to the Sche
 
 ## See Also
 
--[Header Visual Structure]({%slug header-visual-structure%})
