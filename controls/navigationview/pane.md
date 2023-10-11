@@ -42,10 +42,6 @@ Here is an example:
 
 You can define custom template for Pane header and footer by using the `PaneStyle` property. In the `PaneStyle` set the `HeaderTemplate` (`ControlTemplate`) and `FooterTemplate`(`ControlTemplate`) properties. For more details, review the [Pane Styling]({%slug navigationview-pane-styling%}) article.
 
-## Overlay
-
-You can display an overlay when Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`. 
-
 ### Style the Overlay
 
 Set a brush for the overlay by using the `DismissOverlayBrush` (`Brush`) property.

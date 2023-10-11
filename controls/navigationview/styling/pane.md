@@ -11,7 +11,7 @@ slug: navigationview-pane-styling
 The NavigationView Pane for .NET MAUI provides a styling mechanism for customizing its look, also the look of its header and footer.
 To use it, set the `PaneStyle` property of the control with a target type `NavigationViewPane`.
 
-The available properties are descrivbed in the table below:
+The available properties are described in the table below:
 
 | Property | Description |
 | -------- | ----------- |
@@ -26,12 +26,12 @@ The available properties are descrivbed in the table below:
 | `FooterTemplate` (`ControlTemplate`) | Replaces the default header template with a custom template. |
 | `VerticalScrollBarStyle` (`Style` with a target type of `RadScrollBar`) | Specifies the style for the vertical scroll bar. |
 | `VerticalScrollBarTemplate` (`ControlTemplate`) | Specifies the template of the vertical scroll bar. |
-| `VerticalScrollBarVisibility` (`Microsoft.Maui.ScrollBarVisibility`) | Specifies the visibility of the vertical scroll bar. The availabe options are - `Default`, `Always`, and `Never`. |
+| `VerticalScrollBarVisibility` (`Microsoft.Maui.ScrollBarVisibility`) | Specifies the visibility of the vertical scroll bar. The available options are - `Default`, `Always`, and `Never`. |
 | `BackgroundColor` (`Color`) | Specifies the background color of the pane. |
 | `BorderColor` (`Color`) | Specifies the border color of the pane. |
 | `BorderBrush` (`Brush`) | Specifies the border brush of the pane. |
 | `BorderThickness` (`Thickness`) | Specifies the border thickness of the pane. |
-| `CornerRadius` (`Thickness`) | Specifies the corner radius of the border aroud the pane. |
+| `CornerRadius` (`Thickness`) | Specifies the corner radius of the border around the pane. |
 | `ContentPadding` (`Thickness`) | Specifies the content padding of the control. |
 
 ## Styling the Pane Header and Footer 
@@ -40,11 +40,13 @@ You can style the pane header and footer by setting the `HeaderStyle` and `Foote
 
 You can use the following properties for `HeaderStyle` and `FooterStyle`:
 
+| Property | Description |
+| -------- | ----------- |
 | `BackgroundColor` (`Color`) | Specifies the background color of the pane. |
 | `BorderColor` (`Color`) | Specifies the border color of the pane. |
 | `BorderBrush` (`Brush`) | Specifies the border brush of the pane. |
 | `BorderThickness` (`Thickness`) | Specifies the border thickness of the pane. |
-| `CornerRadius` (`Thickness`) | Specifies the corner radius of the border aroud the pane. |
+| `CornerRadius` (`Thickness`) | Specifies the corner radius of the border around the pane. |
 | `ContentPadding` (`Thickness`) | Specifies the content padding of the control. |
 
 ## Templates

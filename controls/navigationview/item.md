@@ -27,6 +27,8 @@ You can configure the navigation items position by adding them to the Pane heade
 	* `Header`&mdash;The navigation item is placed in the header area of the `NavigationViewPane` control.
 	* `Footer`&mdash;The navigation item is placed in the footer area of the `NavigationViewPane` control.
 
+>note The content area is scrollable, while the header and the footer are sticky.
+
 ## Setting Selection
 
 The .NET MAUI `NavigationViewItem` exposes the following properties related to the item selection:
@@ -36,7 +38,11 @@ The .NET MAUI `NavigationViewItem` exposes the following properties related to t
 
 ## Setting Custom Content
 
-Customize the `NavigationViewItem` content by using the `ControlTemplate` (`ControlTemplate`) property.
+Customize the `NavigationViewItem` content by using the `ContentTemplate` (`DataTemplate`) property.
+
+Here is an example with `ContentTemplate` property.
+
+<snippet id='navigationview-navigationitem-contenttemplate' />
 
 ## Setting Visibility and Enabled State
 
@@ -46,11 +52,7 @@ Change the enabled state if the `NavigationViewItem` by setting the `IsEnabled` 
 
 ## Configuring the Items
 
-You can further configure the navigation items by using the `ContentTemplate` (`DataTemplate`) property, and customize the NavigationViewItem by using the `ControlTemplate` (`ControlTemplate`) property.
-
-Here is an example with `ContentTemplate` property.
-
-<snippet id='navigationview-navigationitem-contenttemplate' />
+You can further configure the navigation items by using the `ControlTemplate` (`ControlTemplate`) property.
 
 Here is an example with `ControlTemplate` property.
 
@@ -64,7 +66,7 @@ The .NET MAUI `NavigationViewItem` exposes the following events:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
-* `IsSelectedChanged`&mdash; Raised when the NavigationViewItem IsSelected property has changed. The `IsSelectedChanged` event handler receives two parameters:
+* `IsSelectedChanged`&mdash; Raised when the NavigationViewItem `IsSelected` property has changed. The `IsSelectedChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
