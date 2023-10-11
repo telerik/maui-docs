@@ -6,7 +6,7 @@ position: 2
 slug: scheduler-getting-started
 ---
 
-# Getting Started with the .NET MAUI Map
+# Getting Started with the .NET MAUI Scheduler
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Scheduler by adding the control to your project.
 
@@ -39,11 +39,12 @@ Before adding the Scheduler, you need to:
 
  **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgramв
- {
+```C#
+using Telerik.Maui.Controls.Compatibility;
+
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -57,8 +58,9 @@ Before adding the Scheduler, you need to:
 
 		return builder.Build();
 	}
- }           
- ```
+}           
+```
+
 
 ## See Also
 
