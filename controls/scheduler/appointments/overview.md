@@ -8,13 +8,13 @@ slug: appointments-overview
 
 # Appointments 
 
-Telerik Ui for .NET MAUI Scheduler control provide functionality to display appointments by setting its `AppointmentsSource` property. `AppointmentsSource` accepts a collection of Appointment objects. Each Appointment defines the following properties:
+Telerik UI for .NET MAUI Scheduler control provide functionality to display appointments by setting its `AppointmentsSource` property. `AppointmentsSource` accepts a collection of Appointment objects. Each Appointment defines the following properties:
 
 * `Start`&mdash;Defines the value determining the start date and time of the Appointment.
 * `End`&mdash;Defines the value that determing the end date and time of the appointment.
 * `Subject`&mdash;Defines the value that indicate the subject of the appointment
 * `IsAllDay`&mdash;Indicates whether the appointment will take all day
-* `RecurrenceRule`&mdash;Defines basic properties of the recurrence rule of the appointment, for more details go to [Recurrence] topic.
+* `RecurrenceRule`&mdash;Defines basic properties of the recurrence rule of the appointment, for more details go to [Recurrence]({%slug recurrence-overview}) topic.
 
 
 ## Example
@@ -32,3 +32,7 @@ Add the `RadScheduler` definition to the page:
 The last step is to set the ViewModel as a BindingContext:
 
 <snippet id='scheduler-appointmentssource-setvm' />
+
+## See Also
+
+- [Appointment Template]({%slug scheduler-appointment-template%})
