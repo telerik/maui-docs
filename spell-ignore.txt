@@ -131,3 +131,5 @@ NavigationViewItem
 navigationview
 navigationitem
 SearchSettings
+Aggregates
+Aggregate

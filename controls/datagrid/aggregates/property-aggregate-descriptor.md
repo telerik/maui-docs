@@ -1,7 +1,7 @@
 ---
 title: Property Aggregate Descriptor
 page_title: .NET MAUI DataGrid Documentation&mdash;Property Aggregate Descriptor
-description: "Learn how to define a property and a function applied over the property values of the Telerik UI for .NET MAUI DataGrid by using the PropertyAggregateDescriptor, and accumulate an aggregated result based on the component data."
+description: Learn how to define a property and a function applied over the property values of the Telerik UI for .NET MAUI DataGrid by using the PropertyAggregateDescriptor, and accumulate an aggregated result based on the component data.
 position: 1
 previous_url: /controls/datagrid/aggregates/PropertyAggregateDescriptor
 slug: datagrid-property-aggregate-descriptor

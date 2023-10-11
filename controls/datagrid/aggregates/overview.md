@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Aggregate Overview
-description: "Learn more about the built-in aggregate functions of the Telerik UI for .NET MAUI DataGrid component."
+description: Learn more about the built-in aggregate functions of the Telerik UI for .NET MAUI DataGrid component.
 position: 0
 slug: datagrid-aggregates
 ---
