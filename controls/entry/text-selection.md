@@ -17,7 +17,7 @@ The text selection properties provided by the Entry are:
 
 * `SelectionLength`(`int`)&mdash;Specifies the number of characters in the current Entry selection.
 
-* `SelectionOnFocus`(of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus, available options are:
+* `SelectionOnFocus`(of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
     * `Unchanged`&mdash;selection will not be modified.
     * `CursorAtStart`&mdash;the cursor will be moved at the start of the text.
     * `CursorAtEnd`&mdash;the cursor will be moved at the end of the text.
