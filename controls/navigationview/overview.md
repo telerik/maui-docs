@@ -17,9 +17,9 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control, used to buil
 * [Display modes]({%slug navigationview-display-mode%})&mdash;Use different modes to display the navigation pane&mdash;Compact, Expanded and Minimal modes. 
 * [Auto-changing the Display mode]({%slug navigationview-display-mode%})&mdash;Option for auto-changing the display mode depending on the threshold width.
 * [Navigation Header]({%slug navigationview-navigation-header%})&mdash;NavigationView has a navigation header that contains label and toggle navigation button that opens/closes the pane.
-* [Navigation Pane]({%slug navigationview-displaymode%})&mdash;The pane that holds the navigation items, pane header and footer.
-* [Pane Header and Footer]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add navigation items in the header and in the footer. 
-* [Content]({%slug navigationview-displaymode%})&mdash;NavigationView allows you to add content. You need to manually change the content based on the selection made. 
+* [Navigation Pane]({%slug navigationview-pane%})&mdash;The pane that holds the navigation items, pane header and footer.
+* [Pane Header and Footer]({%slug navigationview-pane%})&mdash;NavigationView allows you to add navigation items in the header and in the footer. 
+* Content&mdash;NavigationView allows you to add content. You need to manually change the content based on the selection made. 
 * [Single Selection]({%slug navigationview-selection%})&mdash;You can set selection through the `SelectedItem` property.
 * [Customizable items]({%slug navigationview-items%})&mdash;You can customize the visual appearance of the Navigation items.
 * [Styling options]({%slug navigationview-styling%})&mdash;NavigationView allows you to style header, footer, navigation header and navigation items.
