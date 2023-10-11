@@ -20,10 +20,3 @@ The Telerik UI for .NET MAUI Scheduler control provides the functionality of dis
 Define the available to the user views by adding them to the `ViewDefinitions` collection of the control. In addition, `ActiveViewDefinitionIndex` and `ActiveViewDefinition` properties are used to define the currently active view.
 
 <snippet id='scheduler-getting-started-xaml'/>
-
-## See Also
-
-- [Day View]
-- [Week View]
-- [MultiDay View]
-- [Month View]
