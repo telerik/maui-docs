@@ -20,7 +20,7 @@ The Telerik UI for .NET MAUI Scheduler provides commands used to navigate throug
 
 Check below a quick example on how to utilize navigation commands:
 
-* **1.** Create a few buttons and execute the Scheduler commands on the tap action:
+* **1.** Create a few buttons and execute the Scheduler commands on tap action:
 
 <snippet id='scheduler-navigating-in-current-view' />
 
