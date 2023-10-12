@@ -11,6 +11,10 @@ slug: navigationview-styling
 The NavigationView Header for .NET MAUI provides a styling mechanism for customizing its look and the look of the toggle navigation button.
 To use it, set the `HeaderStyle` property of the control with a target type `NavigationViewHeader`.
 
+The image below shows sample navigation header styling:
+
+![Telerik UI for .NET MAUI NavigationView Styling](../images/navigationview-header-styling.png)
+
 The available properties are described in the table below:
 
 | Property | Description |
@@ -36,6 +40,12 @@ The available properties are described in the table below:
 | `IsHeaderButtonToggled` (`bool`) | Specifies whether the navigation button is toggled. |
 | `HeaderButtonStyle` (`Style` with a target type of `NavigationViewToggleButton`) | Specifies the style that will be applied to the navigation toggle button. |
 
+Here is a sample header styling definition:
+
+<snippet id='navigationview-header-styling' />
+
+> For the runnable NavigationView Header Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+
 ## Styling the Navigation Toggle Button 
 
 You can style the toggle button by setting the `HeaderButtonStyle` property to the `HeaderStyle`. Thy target type of the `HeaderButtonStyle` is `NavigationViewToggleButton`.
@@ -48,19 +58,21 @@ You can customize the visual states to the `NavigationViewToggleButton`. Here is
 
 <snippet id='navigationview-togglebutton-styling' />
 
+> For the runnable NavigationView Header Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+
 ## Styling the Overlay
 
 You can display an overlay when Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`. 
 
 You can style the overlay by using the following properties:
 
-
 * `DismissOverlayBrush` (`Brush`)&mdash;Specifies the brush for the overlay.
-Set a color for the overlay by using the `DismissOverlayColor` (`Color`)&mdash;
-
+* `DismissOverlayColor` (`Color`)&mdash;Specifies the color for the overlay.
 
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})

@@ -10,6 +10,10 @@ slug: navigationview-item-styling
 
 Style the navigation item, by setting the `Style` property to the `NavigationViewItem` or use implicit style.
 
+The image below shows sample navigation item styling:
+
+![Telerik UI for .NET MAUI NavigationView Styling](../images/navigationview-item-styling.png)
+
 * Explicit style:
 
 ```XAML
@@ -46,8 +50,30 @@ The available properties are described in the table below:
 | `ImageHeight` (`double`) | Specifies the height in pixels of the image that is displayed in the navigation item. |
 | `Spacing` (`double`) | Specifies the spacing in pixels between the image area and the content of the navigation item. |
 
+## Example
+
+Here is an example how to define visual states to the navigation item and style the elements:
+
+**1.** Define the `RadNavigationView`:
+
+<snippet id='navigationview-item-styling' />
+
+**2.** Define the `VisualStates` for the NavigationViewItem:
+
+<snippet id='navigationview-item-element-styling' />
+
+**3.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+> For the runnable NavigationView Item Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
