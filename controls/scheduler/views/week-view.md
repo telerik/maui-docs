@@ -41,4 +41,4 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 - [Views]({%slug scheduler-overview %})
 - [Day View]({%slug scheduler-day-view%})
 - [Multiday View]({%slug scheduler-multiday-view %})
-- [Current Time Indicator]({%slug scheduler-month-view scheduler-time-indicator%})
+- [Current Time Indicator]({%slug scheduler-time-indicator%})
