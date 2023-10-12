@@ -8,14 +8,16 @@ slug: scheduler-week-view
 
 # Week View 
 
-The Week View represents a view that shows all seven week days as in a day view.
+The Week View represents a view that shows all days of the week defined by the `CurrentDate`. The Week View contains the same properties as the Day View with the only difference that the displayed period is not just a single day but the days of a whole week. 
+
+In addition, you can decide whether to show the weekend, or only the work days through the `IsWeekendVisible` property of the Week View.
 
 ## Set the Week View
 
 Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
 
 ```XAML
-<telerik:RadScheduler AutomationId="scheduler">
+<telerik:RadScheduler x:Name="scheduler">
     <telerik:RadScheduler.ViewDefinitions>
         <telerik:WeekViewDefinition />
     </telerik:RadScheduler.ViewDefinitions>
@@ -28,6 +30,7 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 
 * `DayStartTime`&mdash;Defines the time used to indicate the start of the day.
 * `DayEndTime`&mdash;Defines the time used to indicate the end of the day.
+* `IsWeekendVisible`&mdash;Indicates whether the weekend days are visible, so that only the work week is displayed.
 * `IsCurrentTimeIndicatorVisible`&mdash;Defines the value indicating whether the current time indicator is visible.
 * `MajorTickLength`&mdash;Defines the length of the major ticks.
 * `MinorTickLength`&mdash;Defines the length of the minor ticks.
@@ -38,4 +41,4 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 - [Views]({%slug scheduler-overview %})
 - [Day View]({%slug scheduler-day-view%})
 - [Multiday View]({%slug scheduler-multiday-view %})
-- [Month View]({%slug scheduler-month-view %})
+- [Current Time Indicator]({%slug scheduler-month-view scheduler-time-indicator%})

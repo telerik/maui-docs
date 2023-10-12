@@ -20,7 +20,7 @@ The Telerik UI for .NET MAUI Scheduler allows you to easily implement various sc
 * Current Date&mdash;Defines the currently visible date. Depending on the active view, `CurrentDate` specifies which day(s), week or month is visualized.
 * [Current Time Indicator]({% slug scheduler-time-indicator%})&mdash;Scheduler control displays a specific indicator that highlights the current time over the view.
 * [Header]({% slug header-settings %})&mdash;The control provides a header which shows the current visible range, optional Today button as well as lists the available views.
-* [Programmatic Scrolling]({% slug scheduler-programmating-scrolling %})&mdash;Through the `ScrollIntoView` method you can adjust the current view in such a way it is directly scrolled to a concrete time or appointment.
+* [Programmatic Scrolling]({% slug scheduler-programmating-scrolling %})&mdash;Through the `ScrollIntoView` method you can adjust the current view in such a way it is directly scrolled to concrete time.
 * Time Ruler&mdash;Time Ruler is used to indicate the time intervals across the views. You can easily modify the density and the size of the time ruler ticks through various configuration properties.
 * [Special Slots]({%slug scheduler-special-slots%}) &mdash;You have the option to define a collection of customizable time slots in order to make them noticeable across the view.  
 * Non-Working Hours&mdash;Easily apply non-working time to the Scheduler views by creating read-only special slots for the corresponding time.
