@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI NavigationView Documentation - Visual Structure
-description: Review the main features of the .NET MAUI NavigationView control.
+description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI NavigationView, and see how these elements build the visual structure of the control.
 position: 2
 slug: navigationview-visual-structure
 ---
