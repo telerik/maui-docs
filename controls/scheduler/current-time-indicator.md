@@ -2,21 +2,23 @@
 title: Current Time Indicator
 page_title: .NET MAUI Scheduler Documentation - Current Time Indicator
 description: Learn more about the current time indicator feature in the Telerik UI for .NET MAUI Scheduler control.
-position: 10
+position: 11
 slug: scheduler-time-indicator
 ---
 
 # Current Time Indicator 
 
-The Telerik UI for .NET MAUI Scheduler control provides the option to visually mark the current time in the `TimeRuler` and across the Appointments area through the views' `IsCurrentTimeIndicatorVisible` property.
+The Telerik UI for .NET MAUI Scheduler control provides the option to visually mark the current time in the time ruler and across the appointments area through the views' `IsCurrentTimeIndicatorVisible` property.
 
 * `IsCurrentTimeIndicatorVisible(type bool)`&mdash;Defines a value that indicates whether the current time indicator is visible across the active view. 
 
 ## Disable the CurrentTimeIndicator
 
-Current Time Indicator is enabled by default, you can hide it by setting `IsCurrentTimeIndicatorVisible` to `False`:
-
-
-To display the current time indicator, you must set the `IsCurrentTimeIndicatorVisible` property of the corresponding view as in the example below:
+Current Time Indicator is enabled by default, you can hide it by setting `IsCurrentTimeIndicatorVisible` of the corresponding view to `False`:
 
 <snippet id='scheduler-current-time-indicator' />
+
+## See Also
+
+- [Visual Structure]({%slug scheduler-visual-structure %}) 
+- [Views]({%slug scheduler-views-overview%})

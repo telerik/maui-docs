@@ -20,7 +20,13 @@ The Telerik UI for .NET MAUI Scheduler provides commands used to navigate throug
 
 Check below a quick example on how to utilize navigation commands:
 
+* **1.** Create a few buttons and execute the Scheduler commands on tap action:
 
+<snippet id='scheduler-navigating-in-current-view' />
+
+* **2.** Add a sample Scheduler definition:
+
+<snippet id='scheduler-navigation-commands' />
 
 ## User Actions Commands
 
@@ -35,3 +41,7 @@ Check below a quick example on how to utilize navigation commands:
 * `MonthDayTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a month day is tapped.
 
 * `MonthDayDoubleTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a a month day is double tapped.
+
+## See Also
+
+-[Header Visual Structure]({%slug scheduler-header-visual-structure%})

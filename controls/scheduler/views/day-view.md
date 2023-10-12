@@ -15,7 +15,7 @@ The Day View represents a view that shows a single day.
 Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
 
 ```XAML
-<telerik:RadScheduler AutomationId="scheduler">
+<telerik:RadScheduler x:Name="scheduler">
     <telerik:RadScheduler.ViewDefinitions>
         <telerik:DayViewDefinition />
     </telerik:RadScheduler.ViewDefinitions>

@@ -8,14 +8,14 @@ slug: scheduler-multiday-view
 
 # Multiday View 
 
-The Multiday View definition represents a definition of a view that shows multiple days as in day view mode.
+The MultiDay View represent a view that shows appointments of a defined number of days starting from `CurrentDate`. The Multiday View provides the same properties as the Day View with the only difference that the displayed period is not just a single day. You can define the number of days displayed in MultiDay View through `VisibleDays` property.
 
 ## Set the Multiday View
 
 Add a `MultidayViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance with `VisibleDays` and `Title` applied.
 
 ```XAML
-<telerik:RadScheduler AutomationId="scheduler">
+<telerik:RadScheduler x:Name="scheduler">
     <telerik:RadScheduler.ViewDefinitions>
        <telerik:MultidayViewDefinition VisibleDays="3" Title="3 Days" />
     </telerik:RadScheduler.ViewDefinitions>

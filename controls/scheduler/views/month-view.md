@@ -8,14 +8,14 @@ slug: scheduler-month-view
 
 # Month View 
 
-The Month View represents a view that shows 42 days in month view mode.
+The Month View displays appointments in one month and allows users to browse through long-term periods. It is always grouped by week.
 
-## Set the Week View
+## Set the Month View
 
-Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
+Add a `MonthViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
 
 ```XAML
-<telerik:RadScheduler AutomationId="scheduler">
+<telerik:RadScheduler x:Name="scheduler">
     <telerik:RadScheduler.ViewDefinitions>
         <telerik:MonthViewDefinition />
     </telerik:RadScheduler.ViewDefinitions>
