@@ -3,6 +3,7 @@ title: ScrollBar Style
 page_title: .NET MAUI TreeView Documentation - ScrollBar Style
 description: The TreeView for .NET MAUI allows you to easily style the scrollbars by using the provided properties.
 position: 1
+published: False
 slug: treeview-scrollbar-style
 ---
 

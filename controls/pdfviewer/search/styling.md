@@ -22,9 +22,9 @@ The table below lists all toolbar items related to the search feature and their 
 | `PdfViewerSearchEntryToolbarItem` | `Style` property with target type `PdfViewerSearchEntryToolbarItemView` |
 | `PdfViewerSearchBusyIndicatorToolbarItem` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
 
-The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}) article.
+The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}).
 
-The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}) article.
+The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}).
 
 The `PdfViewerNavigateToPreviousSearchResultToolbarItemView`, `PdfViewerNavigateToNextSearchResultToolbarItemView`, and `NavigationButtonToolbarItemView` inherit from [ButtonToolbarItemView]({%slug toolbar-items-button%}). 
 

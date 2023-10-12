@@ -20,11 +20,11 @@ The .NET MAUI NavigationView exposes the following events:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `NavigationItem` (`Telerik.Maui.Controls.NavigationView.NavigationViewItem`)&mdash;Gets the NavigationViewItem for which the interaction is performed.
 
-* The `PaneOpened`&mdash;Raised when the NavigationView Pane open animation completes. The `PaneOpened` event handler receives two parameters:
+* The `PaneOpened`&mdash;Raised when the Pane open animation completes. The `PaneOpened` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
-* The `PaneClosed`&mdash;Raised when the NavigationView Pane close animation completed. The `PaneClosed` event handler receives two parameters:
+* The `PaneClosed`&mdash;Raised when the Pane close animation completed. The `PaneClosed` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
@@ -34,14 +34,22 @@ The .NET MAUI NavigationView exposes the following events:
 
 <snippet id='navigationview-events' />
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+> For the runnable NavigationView Events example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Events category**.
+
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Setting different Display Mode]({%slug navigationview-display-mode%})
+- [Selecting an item]({%slug navigationview-selection%})
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
+- [Commands]({%slug navigationview-commands%})

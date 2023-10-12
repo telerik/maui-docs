@@ -11,11 +11,15 @@ slug: navigationview-pane-styling
 The NavigationView Pane for .NET MAUI provides a styling mechanism for customizing its look, also the look of its header and footer.
 To use it, set the `PaneStyle` property of the control with a target type `NavigationViewPane`.
 
+The image below shows sample pane styling:
+
+![Telerik UI for .NET MAUI NavigationView Pane Styling](../images/navigationview-pane-styling.png)
+
 The available properties are described in the table below:
 
 | Property | Description |
 | -------- | ----------- |
-| `ItemSpacing` (`double`) | Description |
+| `ItemSpacing` (`double`) | Specifies the spacing between the items in the pane. |
 | `DisplayMode` (enum of type `Telerik.Maui.Controls.NavigationViewDisplayMode`) | Specifies how the pane displays the navigation items - `Minimal`, `Compact` or `Expanded`. |
 | `IsOpen` (`bool`) | Specifies whether the navigation pane is open. |
 | `CompactWidth` (`double`) | Specifies the width of the navigation pane in compact mode. |
@@ -34,6 +38,12 @@ The available properties are described in the table below:
 | `CornerRadius` (`Thickness`) | Specifies the corner radius of the border around the pane. |
 | `ContentPadding` (`Thickness`) | Specifies the content padding of the control. |
 
+Here is an example with `PaneStyle`:
+
+<snippet id='navigationview-pane-area-styling' />
+
+> For the runnable NavigationView Pane Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+
 ## Styling the Pane Header and Footer 
 
 You can style the pane header and footer by setting the `HeaderStyle` and `FooterStyle` properties to the `PaneStyle`.
@@ -49,12 +59,24 @@ You can use the following properties for `HeaderStyle` and `FooterStyle`:
 | `CornerRadius` (`Thickness`) | Specifies the corner radius of the border around the pane. |
 | `ContentPadding` (`Thickness`) | Specifies the content padding of the control. |
 
+Here is an example with `HeaderStyle`:
+
+<snippet id='navigationview-pane-header-styling' />
+
+Here is an example with `FooterStyle`:
+
+<snippet id='navigationview-pane-footer-styling' />
+
+> For the runnable NavigationView Pane Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+
 ## Templates
 
 You can replace the default pane header and footer template with custom one by setting the `HeaderTemplate` (`ControlTemplate`) and `FooterTemplate` (`ControlTemplate`) to the `PaneStyle`.
 
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})

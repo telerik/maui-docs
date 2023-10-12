@@ -14,9 +14,9 @@ NavigationView control has a support for single selection.
 
 ## Main Properties
 
-* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the NavigationView. Property of the NavigationView.
-* `IsSelectable`(`bool`)&mdash;Specifies whether the NavigationViewItem is selectable. Property of the NavigationViewItem.
-* `IsSelected`(`bool`)&mdash;Specifies whether the NavigationViewItem is selected. Property of the NavigationViewItem.
+* `SelectedItem`(`object`)&mdash;Specifies the currently selected item in the NavigationView. Set this property to the NavigationView.
+* `IsSelectable`(`bool`)&mdash;Specifies whether the NavigationViewItem is selectable. Set this property to the NavigationViewItem.
+* `IsSelected`(`bool`)&mdash;Specifies whether the NavigationViewItem is selected. Set this property to the NavigationViewItem.
 
 ## Events
 
@@ -32,14 +32,26 @@ The example shows NavigationView Selection feature.
 
 <snippet id='navigationview-selection' />
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is how the NavigationView selection looks:
+
+![Telerik UI for .NET MAUI NavigationView Selection](images/nnavigatioview-selection.png)
+
+> For the runnable NavigationView Selection example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features category**.
+
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Setting different Display Mode]({%slug navigationview-display-mode%})
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
+- [Events]({%slug navigationview-events%})
+- [Commands]({%slug navigationview-commands%})

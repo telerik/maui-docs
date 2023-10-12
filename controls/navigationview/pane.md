@@ -42,18 +42,18 @@ Here is an example:
 
 You can define custom template for Pane header and footer by using the `PaneStyle` property. In the `PaneStyle` set the `HeaderTemplate` (`ControlTemplate`) and `FooterTemplate`(`ControlTemplate`) properties. For more details, review the [Pane Styling]({%slug navigationview-pane-styling%}) article.
 
-### Style the Overlay
-
-Set a brush for the overlay by using the `DismissOverlayBrush` (`Brush`) property.
-
-Set a color for the overlay by using the `DismissOverlayColor` (`Color`) property.
-
 ## Styling
 
 How to style the header and footer of the Pane, review the [Pane Styling]({%slug navigationview-pane-styling%}) article.
 
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Setting different Display Mode]({%slug navigationview-display-mode%})
+- [Selecting an item]({%slug navigationview-selection%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
+- [Events]({%slug navigationview-events%})
+- [Commands]({%slug navigationview-commands%})

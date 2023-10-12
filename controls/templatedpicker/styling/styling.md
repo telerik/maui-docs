@@ -61,7 +61,7 @@ This is how the TemplatedPicker looks when the styling properties are applied:
 
 ![TemplatedPicker Styling](../images/templatedpicker_styling.png)
 
->important For a sample Styling example, refer to the `TemplatedPicker/Styling` folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample Styling example, refer to the `TemplatedPicker/Styling` folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

@@ -49,7 +49,7 @@ The Spinner is used for the [DatePicker]({%slug datepicker-overview%}), [ListPic
 
 The Spinner exposes the `SelectionChanged` event that is raised when the user confirms the selected item.
 
->important For a sample example with the Spinner control, refer to the **TemplatedPicker/DataBinding** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample example with the Spinner control, refer to the **TemplatedPicker/DataBinding** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 
