@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is how the NavigationView selection looks:
 
-![Telerik UI for .NET MAUI NavigationView Selection](images/nnavigatioview-selection.png)
+![Telerik UI for .NET MAUI NavigationView Selection](images/navigatioview-selection.png)
 
 > For the runnable NavigationView Selection example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features category**.
 
