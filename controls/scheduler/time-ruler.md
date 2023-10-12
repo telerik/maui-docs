@@ -8,7 +8,7 @@ slug: scheduler-time-ruler
 
 # .NET MAUI Scheduler Time Ruler 
 
-Time Ruler represents the time axis inside the Scheduler multiday views (day, week and multiday views). 
+Time Ruler represents the time axis inside the Scheduler day views (day, week and multiday views). 
 
 DayView, WeekView and MultiDayView expose some properties to determine the density of the time ruler items as well as the time ruler size:
 
