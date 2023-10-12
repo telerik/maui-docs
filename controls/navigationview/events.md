@@ -20,11 +20,11 @@ The .NET MAUI NavigationView exposes the following events:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `NavigationItem` (`Telerik.Maui.Controls.NavigationView.NavigationViewItem`)&mdash;Gets the NavigationViewItem for which the interaction is performed.
 
-* The `PaneOpened`&mdash;Raised when the NavigationView Pane open animation completes. The `PaneOpened` event handler receives two parameters:
+* The `PaneOpened`&mdash;Raised when the Pane open animation completes. The `PaneOpened` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
-* The `PaneClosed`&mdash;Raised when the NavigationView Pane close animation completed. The `PaneClosed` event handler receives two parameters:
+* The `PaneClosed`&mdash;Raised when the Pane close animation completed. The `PaneClosed` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 

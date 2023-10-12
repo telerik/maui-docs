@@ -60,7 +60,7 @@ Here is the result:
 
 ![.NET MAUI Map Programmatic Selection](images/map_programmatic_selection.png)
 
->note A sample Programmatic Selection example can be found in the Map/Selection folder of the [SDK .NET MAUI Demo application]({%slug maui-demo-app%}).
+>note A sample Programmatic Selection example can be found in the Map/Selection folder of the [SDK .NET MAUI Demo application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

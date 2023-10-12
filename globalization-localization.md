@@ -128,4 +128,4 @@ The image below shows the localization applied to the MaskedEntry ValidationErro
 
 ![localization for masked entry](images/maskentry-localization-validation-error-message.png)
 
->important You can check working localization examples in the **MaskedEntry/Features** folder within the [SDK .NET MAUI application]({%slug maui-demo-app%}).
+>important You can check working localization examples in the **MaskedEntry/Features** folder within the [SDK .NET MAUI application]({%slug sdkbrowser-app%}).

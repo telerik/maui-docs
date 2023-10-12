@@ -33,10 +33,10 @@ The available properties are:
 * `ImageSource`(`ImageSource`)&mdash;Defines the source of the image to display in the tree item.
 * `IsImageVisible`(`bool`)&mdash;Defines a value indicating whether the image is visible.
 * `IsExpandButtonVisible`(`bool`)&mdash;Defines a value indicating whether the expand button is visible.
-* `BackgroundColor`(`Color`)&mdash;Defines the spacing in pixels between the elements of the tree item.
-* `BorderBrush`(`Brush`)&mdash;Defines the spacing in pixels between the elements of the tree item.
-* `BorderThickness`(`Thickness`)&mdash;Defines the spacing in pixels between the elements of the tree item.
-* `TextColor`(`Color`)&mdash;Defines the spacing in pixels between the elements of the tree item.
+* `BackgroundColor`(`Color`)&mdash;Defines the background color of the tree item.
+* `BorderBrush`(`Brush`)&mdash;Defines the brush od the border around the tree item.
+* `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the tree item.
+* `TextColor`(`Color`)&mdash;Defines the color of the text in the tree item.
 * `CheckBoxStyle`(`Style` with target type `telerik:RadCheckBox`)&mdash;Specifies the style for the Checkbox element.
 * `ExpandButtonStyle`(`Style` with target type `telerik:RadButton`)&mdash;Specifies the style for the Expand element.
 * `ImageStyle`(`Style` with target type `Image`)&mdash;Specifies the style for the Image element.
