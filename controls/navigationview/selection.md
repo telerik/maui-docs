@@ -21,8 +21,8 @@ NavigationView control has a support for single selection.
 ## Events
 
 NavigationView exposes a `SelectionChanged` event which is raised when the currently selected NavigationViewItem has changed. The `SelectionChanged` event handler receives two parameters:
-	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
-	* `System.EventArgs`.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
+* `System.EventArgs`.
 
 ## Example with Selection Properties
 

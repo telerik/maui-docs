@@ -42,7 +42,27 @@ Customize the `NavigationViewItem` content by using the `ContentTemplate` (`Data
 
 Here is an example with `ContentTemplate` property.
 
+**1.** Define the `ContentTemplate` in the resources:
+
 <snippet id='navigationview-navigationitem-contenttemplate' />
+
+**2.** Set the `ContentTemplate` to the NavigationViewItem:
+
+```XAML
+<telerik:RadNavigationView x:Name="navigationView"
+                            HeaderText="NavigationView Header">
+    <telerik:RadNavigationView.Items>
+        <telerik:NavigationViewItem Text="Search"
+                                    Position="Header"
+                                    ContentTemplate="{StaticResource SearchTemplate}"
+                                    IsSelectable="False">
+        </telerik:NavigationViewItem>
+        <telerik:NavigationViewItem Text="Item 1" />
+        <telerik:NavigationViewItem Text="Item 2" />
+        <telerik:NavigationViewItem Text="Item 5" />
+    </telerik:RadNavigationView.Items>
+</telerik:RadNavigationView>
+```
 
 ## Setting Visibility and Enabled State
 
@@ -56,7 +76,24 @@ You can further configure the navigation items by using the `ControlTemplate` (`
 
 Here is an example with `ControlTemplate` property.
 
+**1.** Define the `ControlTemplate` in the resources:
+
 <snippet id='navigationview-navigationitem-controltemplate' />
+
+**2.** Set the `ContentTemplate` to the NavigationViewItem:
+
+```XAML
+<telerik:RadNavigationView x:Name="navigationView"
+                            HeaderText="NavigationView Header">
+    <telerik:RadNavigationView.Items>
+        <telerik:NavigationViewItem Text="Item 1" />
+        <telerik:NavigationViewItem Text="Item 2" />
+        <telerik:NavigationViewItem Text="Item 3" />
+        <telerik:NavigationViewItem ControlTemplate="{StaticResource ItemTemplate}"/>
+        <telerik:NavigationViewItem Text="Item 5" />
+    </telerik:RadNavigationView.Items>
+</telerik:RadNavigationView>
+```
 
 > For the runnable NavigationView Navigation Item example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features > Pane Header and Footer example**.
 

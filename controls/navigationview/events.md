@@ -40,6 +40,22 @@ The .NET MAUI NavigationView exposes the following events:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+**3.** The `SelectionChanged` implementation:
+
+<snippet id='navigationview-events-selectionchanged' />
+
+**4.** The `ItemClicked` implementation:
+
+<snippet id='navigationview-events-itemclicked' />
+
+**5.** The `PaneOpened` implementation:
+
+<snippet id='navigationview-events-paneopened' />
+
+**6.** The `PaneClosed` implementation:
+
+<snippet id='navigationview-events-paneclosed' />
+
 > For the runnable NavigationView Events example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Events category**.
 
 ## See Also
