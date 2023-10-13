@@ -19,10 +19,10 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control, used to buil
 * [Navigation Header]({%slug navigationview-navigation-header%})&mdash;NavigationView has a navigation header that contains label and toggle navigation button that opens/closes the pane.
 * [Navigation Pane]({%slug navigationview-pane%})&mdash;The pane that holds the navigation items, pane header and footer.
 * [Pane Header and Footer]({%slug navigationview-pane%})&mdash;NavigationView allows you to add navigation items in the header and in the footer. 
-* Content&mdash;NavigationView allows you to add content. You need to manually change the content based on the selection made. 
 * [Selection]({%slug navigationview-selection%})&mdash;You can set selection through the `SelectedItem` property.
 * [Customizable items]({%slug navigationview-items%})&mdash;You can customize the visual appearance of the Navigation items.
 * [Styling options]({%slug navigationview-styling%})&mdash;NavigationView allows you to style navigation header, pane header, pane footer, navigation toggle button and navigation items.
+* [Events]({%slug navigationview-events%})&mdash;NavigationView emits a set of events that allow you to configure the component's behavior in response to specific user actions like clicking on item, changing the selection, opening/closing the pane and more.
 * [Commands support]({%slug navigationview-commands%})&mdash;NavigationView provides commands that for opening, closing and toggling the pane.
 
 # Next Steps

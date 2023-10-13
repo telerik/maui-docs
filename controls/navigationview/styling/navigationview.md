@@ -8,6 +8,10 @@ slug: navigationview-styling
 
 # .NET MAUI NavigationView Styling
 
+The NavigationView for .NET MAUI provides a styling mechanism for customizing its header-including the navigation header and navigation toggle button, [navigation pane]({%slug navigationview-pane-styling%}) and [navigation items]({%slug navigationview-item-styling%}).
+
+## Styling the NavigationView Header
+
 The NavigationView Header for .NET MAUI provides a styling mechanism for customizing its look and the look of the toggle navigation button.
 To use it, set the `HeaderStyle` property of the control with a target type `NavigationViewHeader`.
 
@@ -26,8 +30,8 @@ The available properties are described in the table below:
 | `LineBreakMode` (`Microsoft.Maui.LineBreakMode`) | Specifies the line break mode of the displayed text. |
 | `HorizontalTextAlignment` (`Microsoft.Maui.TextAlignment`) | Specifies the horizontal alignment of the displayed text. |
 | `VerticalTextAlignment` (`Microsoft.Maui.TextAlignment`) | Specifies the vertical alignment of the displayed text. |
-| `HorizontalContentOptions` (`Microsoft.Maui.Controls.LayoutOptions`) | Specifies the horizontal alignment of the header text. |
-| `VerticalContentOptions` (`Microsoft.Maui.Controls.LayoutOptions`) | Specifies the vertical alignment of the header text. |
+| `HorizontalContentOptions` (`Microsoft.Maui.Controls.LayoutOptions`) | Specifies the horizontal layout options of the displayed content. |
+| `VerticalContentOptions` (`Microsoft.Maui.Controls.LayoutOptions`) | Specifies the vertical layout options of the displayed content. |
 | `BackgroundColor` (`Color`) | Specifies the background color of the header area. |
 | `BorderColor` (`Color`) | Specifies the border color around the header area. |
 | `BorderBrush` (`Brush`) | Specifies the border brush around the header area. |

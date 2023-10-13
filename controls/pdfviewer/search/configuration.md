@@ -32,20 +32,12 @@ By default, search operation occurs when the user clicks the `Search` button of 
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.
 * `Completed` (default)&mdash;Search operation is triggered when the corresponding entry completes (by pressing Enter/Return key).
 
-## Highlighting Colors
 
-`SearchSettings` exposes two `Color` properties&mdash;`MainSearchResultFill` and `SearchResultsFill`. When a search is initiated, the found search results are highlighted. Two highlight colors are needed, one of all results has the `MainSearchResultFill` and is considered to be the main-result. This is for navigation purposes, so that a user can navigate to previous and next results and keep track. The rest of the results are colored in the `SearchResultsFill`.
-
-Here is an example of how you can customize `SearchOptions` as well as highlight colors:
-
-<snippet id='pdfviewer-search-settings' />
-
-
-## Searching Results
+## Search Results
 
 You can get the search results by using the following properties: 
 
-* `SearchResultsStringFormat` (`string`)&mdash; The string format displays search results in `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchContentView`. The default value is `{0}{1}{2}` which results in strings like `'1 of 5'`, where `'1'` means the first result is currently selected - `' of '` is a localizable string - `'5'` is the total number of search results.
+* `SearchResultsStringFormat` (`string`)&mdash; The string format displays search results in `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchContentView`. The default value is `{0}{1}{2}` which results in strings like `'1 of 5'`, where `'1'` means the first result is currently selected - `' of '` is a [localizable string]({%slug pdfviewer-localization%}) - `'5'` is the total number of search results.
 
 ```XAML
 <telerik:RadPdfViewer x:Name="pdfViewer">
@@ -60,6 +52,14 @@ The `TextSearchResult` exposes the following properties:
 	* static `TextSearchResult.NotFound` property&mdash;Is Returned when the search criteria has no results;
 	* `SearchResults`&mdash;Read-only collection of type `Telerik.Windows.Documents.Fixed.Search.SearchResult` which contains all the search results.
 	* `MainSearchResult`&mdash;A reference to the search result that are the main result.
+
+## Search Results Highlight Colors
+
+`SearchSettings` exposes two `Color` properties&mdash;`MainSearchResultFill` and `SearchResultsFill`. When a search is initiated, the found search results are highlighted. Two highlight colors are needed, one of all results has the `MainSearchResultFill` and is considered to be the main-result. This is for navigation purposes, so that a user can navigate to previous and next results and keep track. The rest of the results are colored in the `SearchResultsFill`.
+
+Here is an example of how you can customize `SearchOptions` as well as highlight colors:
+
+<snippet id='pdfviewer-search-settings' />
 
 ## Methods
 

@@ -10,8 +10,8 @@ slug: pdfviewer-search-commands
 
 The PDF Viewer for .NET MAUI provides the following commands related to Search feature:
 
-* `OpenSearchViewCommand` (`ICommand`)&mdash;Opens the search view UI for entering the search text.
-* `CloseSearchViewCommand` (`ICommand`)&mdash;Closes the search view UI for entering the search text.
+* `OpenSearchViewCommand` (`ICommand`)&mdash;Opens the search view UI for entering the search text. This command is intended for desktop.
+* `CloseSearchViewCommand` (`ICommand`)&mdash;Closes the search view UI for entering the search text. This command is intended for desktop.
 * `NavigateToPreviousSearchResultCommand` (`ICommand`)&mdash;Navigates to the previous search result.
 * `NavigateToNextSearchResultCommand` (`ICommand`)&mdash;Navigates to the next search result.
 

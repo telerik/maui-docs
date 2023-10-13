@@ -55,7 +55,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is how the `Compact` `DisplayMode` looks:
 
-![Telerik UI for .NET MAUI NavigationView Compact DisplayMode](images/navigationview-compact-displaymode.png)
+![Telerik UI for .NET MAUI NavigationView Compact DisplayMode](images/navigationview-compact-displaymode.gif)
 
 > For the runnable NavigationView Compact DisplayMode example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features category**.
 
@@ -73,7 +73,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is how the `Expanded` `DisplayMode` looks:
 
-![Telerik UI for .NET MAUI NavigationView Expanded DisplayMode](images/navigationview-expanded-displaymode.png)
+![Telerik UI for .NET MAUI NavigationView Expanded DisplayMode](images/navigationview-expanded-displaymode.gif)
 
 > For the runnable NavigationView Expanded DisplayMode example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features category**.
 

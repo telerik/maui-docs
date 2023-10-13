@@ -18,6 +18,7 @@ The Telerik UI for .NET MAUI. PDF Viewer enables you to easily load and display 
 * [Support for various document sources]({%slug pdfviewer-display-documents%})&mdash;You can load a PDF document from a stream, from a file added as embedded resource, or a file located on the device, and so on.
 * [Zooming]({%slug pdfviewer-configuration%})&mdash;The PDF Viewer provides an option for zooming in and zooming out the content of the document. 
 * [Single Page and Continuous Scrolling modes]({%slug pdfviewer-layout-modes%})&mdash;You can choose between two layout modes which allow document scrolling in the PDF Viewer.
+* [Text Searching]({%slug pdfviewer-search-overview%})&mdash;Allow users to find and highlight text inside the PDF document by using the predefined PDF Toolbar items for searching or create a custom UI by the exposed commands. You can also configure the searching by using the exposed API.
 * [Commands support]({%slug pdfviewer-commands%})&mdash;The PDF Viewer allows you to extend the default commands, such as, `ZoomIn`, `ZoomOut`, `NavigateTo`, `FitToWidth`, and `ToggleLayoutMode`.
 * [Toolbar]({%slug pdfviewer-toolbar%}) with predefined items&mdash;Take advantage of a pre-defined UI automatically wired with some of the commands provided by the control through built-in functionality.
 * [Toolbar styling]({%slug pdfviewer-toolbar-styling%})&mdash;The available styling options allow you to effortlessly change the appearance of the toolbar.
