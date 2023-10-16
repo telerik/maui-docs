@@ -1,27 +1,27 @@
 ---
 title: Localization
-page_title: Telerik .NET MAUI Time Picker Documentation - Localization
-description: Review the Localization keys article for Telerik .NET MAUI TimePicker control.
+page_title: Telerik .NET MAUI TimeSpan Picker Documentation - Localization
+description: Review the Localization keys article for Telerik .NET MAUI TimeSpanPicker control.
 position: 8
-slug: timepicker-localization
+slug: timespanpicker-localization
 ---
 
-# Тime Picker Localization
+# .NET MAUI ТimeSpanPicker Localization
 
-The TimePicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
+The imeSpanPicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
 
->caption TimePicker localization keys
+>caption TimeSpanPicker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| `TimePicker_Popup_HeaderLabelText`  | `Select Time` |
-| `TimePicker_PlaceholderLabelText`  | `Select Time` |
+| `TimeSpanPicker_Popup_HeaderLabelText`  | `Select Duration` |
+| `TimeSpanPicker_PlaceholderLabelText`  | `Select Duration` |
 
 >caption Common Picker localization keys
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| `Picker_AmPmSpinnerHeaderLabelText` | `AM/PM` |
+| `Picker_DaysSpinnerHeaderLabelText` | `Days` |
 | `Picker_HourSpinnerHeaderLabelText` | `Hours` |
 | `Picker_MinuteSpinnerHeaderLabelText` | `Minutes` |
 | `Picker_SecondSpinnerHeaderLabelText` | `Seconds` |
@@ -31,10 +31,6 @@ The TimePicker for .NET MAUI provides language localization. The localization ke
 | `Picker_DropDown_CancelButtonText`  | `Cancel` |
 
 > important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
-
-Check in the image below how the localization strings are presented in Time Picker:
-
-![TimePicker for .NET MAUI Localization](images/timepicker-localization.png)
 
 ## See Also
 

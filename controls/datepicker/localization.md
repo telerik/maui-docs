@@ -34,8 +34,10 @@ The following table lists the supported common picker localization keys.
 | `Picker_DaySpinnerHeaderLabelText`  | `Day` |
 | `Picker_MonthSpinnerHeaderLabelText`  | `Month` |
 | `Picker_YearSpinnerHeaderLabelText`  | `Year` |
-| `Picker_Popup_AcceptButtonText`  | `OK` |
+| `Picker_Popup_AcceptButtonText`  | `Ok` |
 | `Picker_Popup_CancelButtonText`  | `Cancel` |
+| `Picker_DropDown_AcceptButtonText`  | `Ok` |
+| `Picker_DropDown_CancelButtonText`  | `Cancel` |
 
 ## See Also
 
