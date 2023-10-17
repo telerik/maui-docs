@@ -47,6 +47,17 @@ The search results are highlighted by using the following properties:
 * `MainSearchResultFill` (`Color`)&mdash;Specifies the fill of the main search result.
 * `SearchResultsFill` (`Color`)&mdash;Specifies the fill of all search results, except the main result.
 
+Here is an example with styling the `MainSearchResultFill` and `SearchResultsFill`:
+
+```XAML
+<telerik:RadPdfViewer x:Name="pdfViewer">
+    <telerik:RadPdfViewer.SearchSettings>
+        <telerik:PdfViewerSearchSettings MainSearchResultFill="#99FF7F7F"
+                                         SearchResultsFill="#997FC9FF"/>
+    </telerik:RadPdfViewer.SearchSettings>
+</telerik:RadPdfViewer>
+```
+
 ## See Also
 
 - [.NET MAUI PDF Viewer Forum Page](https://www.telerik.com/forums/maui?tagId=2059)
