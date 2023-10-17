@@ -18,11 +18,11 @@ Check below the customization options for the RangeSlider tooltip:
 
 Check below a quick example with setting `TooltipStringFormat` and `TooltipTemplate` properties:
 
-Add the custom DataTemplat to your page resources:
+**1.** Add the custom `DataTemplate` to your page resources:
 
-<snippet id='CustomTooltipTemplate' />
+<snippet id='rangeslider-tooltiptemplate-datatemplate' />
 
-Define the RangeSlider:
+**2.** Define the RangeSlider:
 
 <snippet id='rangeslider-tooltiptemplate-xaml' />
 

@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI RangeSlider Documentation - Overview
-description: Try now the Telerik UI for .NET MAUI RangeSlider control.
+description: Try now the Telerik UI for .NET MAUI RangeSlider control to allow users to select a start-end range in a given min-max range. RangeSlider supports fully customizable ticks, labels amd tooltips.
 position: 0
 slug: rangeslider-overview
 ---
 
 # .NET MAUI RangeSlider Overview
 
- The Telerik UI for .NET MAUI RangeSlider represents a slider control that displays a start-end range in a given min-max range. The end user can change the values of the range by dragging the start thumb, end thumb, and range track. RangeSlider supports ticks, labels and tooltips to help users quickly identify the selected range and easily modify it if needed. 
+ The Telerik UI for .NET MAUI RangeSlider represents a slider control that displays a start-end range in a given min-max range. The end user can change the values of the range by dragging the start thumb, end thumb, and range track. RangeSlider supports ticks, labels and tooltips to help users quickly identify the range start and end as well as easily modify them if needed. 
 
 ![.NET MAUI RangeSlider Overview](images/rangeslider-overview.png)
 

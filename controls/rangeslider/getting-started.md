@@ -28,7 +28,7 @@ Before adding the RangeSlider, you need to:
 
 ## Define the Control
 
-**1.** When your .NET MAUI application is setup, you are ready to add a RangeSlider control to your page. The following example demonstrates how to define the `RadRangeSlider`:
+**1.** When your .NET MAUI application is set up, you are ready to add a RangeSlider control to your page. The following example demonstrates how to define the `RadRangeSlider`:
 
 <snippet id='rangeslider-getting-started-xaml'/>
 <snippet id='rangeslider-gettingstarted-csharp'/>

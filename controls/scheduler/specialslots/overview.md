@@ -32,6 +32,10 @@ Last step is to set the BindingContext to the ViewModel class:
 
 <snippet id='scheduler-specialslots-setvm' /> 
 
+Check in the image below how the special slots look in MultiDay View:
+
+![Telerik .NET MAUI Scheduler Special Slots](../images/scheduler-special-slots.png)
+
 # See Also
 
 - [SpecialSlots Template]({%slug scheduler-special-slot-template%})

@@ -12,16 +12,16 @@ The .NET MAUI Scheduler component comes with built-in styling options that allow
 
 You can style separately the header border, header labels, navigation buttons and more. Here is a list of the available header style properties of the Scheduler:
 
-* **HeaderBorderStyle**&mdash;Applies styles such as border thickness and color to the header.
-* **HeaderLabelStyle**&mdash;Applies styles such as TextColor, FontSize, etc to the label displaying the visible range in the header.
-* **IncreaseVisibleRangeButtonStyle** and **DecreaseVisibleRangeButtonStyle**&mdash;Apply styles to the buttons used for navigating the view (only desktop).
-* **TodayButtonStyle**&mdash;Defines style for the Today button.
-* **HeaderIndicatorLabelStyle**&mdash;Sets style to the label used for showing the popup for date selection (mobile only).
-* **ViewDefinitionHeaderItemStyle** and **ActiveViewDefinitionHeaderItemStyle**&mdash;Apply styles to the available views and active view headers.
+* `HeaderBorderStyle`&mdash;Applies styles such as border thickness and color to the header.
+* `HeaderLabelStyle`&mdash;Applies styles such as TextColor, FontSize, etc to the label displaying the visible range in the header.
+* `IncreaseVisibleRangeButtonStyle` and `DecreaseVisibleRangeButtonStyle`&mdash;Apply styles to the buttons used for navigating the view (only desktop).
+* `TodayButtonStyle`&mdash;Defines style for the Today button.
+* `HeaderIndicatorLabelStyle`&mdash;Sets style to the label used for showing the popup for date selection (mobile only).
+* `ViewDefinitionHeaderItemStyle` and `ActiveViewDefinitionHeaderItemStyle`&mdash;Apply styles to the available views and active view headers.
 
 The following example demonstrates how to apply custom header styles to the Scheduler:
 
-**3.** Define the Scheduler:
+**1.** Define the Scheduler:
 
 <snippet id='scheduler-header-styling-definition'/>
 
@@ -33,4 +33,4 @@ The following example demonstrates how to apply custom header styles to the Sche
 
 ## See Also
 
--[Header Visual Structure]({%slug scheduler-header-visual-structure%})
+- [Header Visual Structure]({%slug scheduler-header-visual-structure%})

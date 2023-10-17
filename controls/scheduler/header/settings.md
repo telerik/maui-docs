@@ -25,6 +25,10 @@ Each view added to the Scheduler ViewDefinitions collection is listed inside the
 
 <snippet id='scheduler-header-properties' />
 
+Check the result below:
+
+![Telerik .NET MAUI Scheduler Header](../images/scheduler-header.png)
+
 ## See Also
 
 - [Views]({% slug scheduler-views-overview %})
