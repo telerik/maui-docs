@@ -33,6 +33,10 @@ The snippet below shows how the ticks configuration settings can be applied:
 
 <snippet id='rangeslider-ticks-settings' />
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Ticks](images/rangeslider-ticks-settings.png)
+
 ## Tick Template
 
 Through the `TickTemplate` property you can customize the appearance of the ticks.
@@ -48,6 +52,8 @@ Check below a sample `TickTemplate` example:
 **2.** Then apply it to the RangeSlider's `TickTemplate`:
 
 <snippet id='rangeslider-ticks-ticktemplate-xaml' />
+
+![Telerik RangeSlider for .NET MAUI Ticks Template](images/rangeslider-ticks-template.png)
 
 ## See Also
 

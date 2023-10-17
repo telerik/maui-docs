@@ -24,6 +24,10 @@ Check below a quick example on how to apply `BacktrackStyle` property to the Ran
 
 <snippet id='rangeslider-track-style-xaml' />
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Track Styling](images/rangeslider-track-styling.png)
+
 ## See Also
 
 - [Track Configuration]({% slug rangeslider-track-configuration%})

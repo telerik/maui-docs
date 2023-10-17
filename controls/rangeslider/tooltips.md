@@ -26,6 +26,10 @@ Check below a quick example with setting `TooltipStringFormat` and `TooltipTempl
 
 <snippet id='rangeslider-tooltiptemplate-xaml' />
 
+Check the RangeSlider modified tooltip below:
+
+![Telerik RangeSlider for .NET MAUI Tooltip](images/rangeslider-tooltips-template.png)
+
 ## See Also
 
 - [Range Thumb]({% slug rangeslider-range-thumb%})
