@@ -28,6 +28,10 @@ Here is a quick example on how styling properties can be applied to the RangeSli
 
 <snippet id='rangeslider-rangethumb-styling-xaml' />
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Range Thumb Styling](images/rangeslider-thumb-styling.png)
+
 ## See Also
 
 - [Range Thumb]({% slug rangeslider-range-thumb%})

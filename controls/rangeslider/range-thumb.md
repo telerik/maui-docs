@@ -8,12 +8,12 @@ slug: rangeslider-range-thumb
 
 # Range Thumb
 
-Range thumb represents the current range value inside the slider - it consists of the start thumb, the range track and the end thumb. 
+Range thumb represents the start-end range inside the slider - it consists of the start thumb, the range track and the end thumb. 
 
 The slider's range thumb is drawn corresponding to its `RangeStart` and `RangeEnd` values. Users can modify the range start value by dragging the start thumb, the end range value by dragging the end thumb, and both start and end simultenously by dragging the range track.
 
-* `RangeStart(double)`&mdash;Specifies the start value of the currently selected range.
-* `RangeEnd(double)`&mdash;Specifies the end value of the currently selected range.
+* `RangeStart(double)`&mdash;Specifies the start value of the range inside the slider.
+* `RangeEnd(double)`&mdash;Specifies the end value of the range inside the slider.
 
 Check a quick example on how to define `RangeStart` and `RangeEnd` properties:
 
@@ -35,5 +35,6 @@ You can control the available dragging options through the `DragMode` property o
 
 ## See Also
 
+- [Visual Structure]({% slug rangeslider-visual-structure%})
 - [Track Configuration]({% slug rangeslider-track-configuration%})
 - [Range Thumb Styling]({% slug rangeslider-rangethumb-styling%})

@@ -15,10 +15,16 @@ The RangeSlider for .NET MAUI can show labels along the track for clarity of wha
 To display labels, define the `LabelStep` and `LabelPlacement` properties of the RangeSlider.
 
 * `LabelStep(double)`&mdash;Defines at what positions/values labels will be displayed.
-* `LabelsPlacement(type Telerik.Maui.Controls.RangeSlider.SliderLabelsPlacement)`&mdash;Specifies the position of the labels in the RangeSlider with respect to its track. Available options are:
+* `LabelsPlacement(type Telerik.Maui.Controls.RangeSlider.SliderLabelsPlacement)`&mdash;Specifies the position of the labels in the RangeSlider with respect to its track. The available options are:
     * `None`&mdash;no labels are displayed.
     * `Start`&mdash;labels appear above the track.
     * `End`&mdash;labels appear below the track.
+
+Check an example on how labels can be configured:
+
+<snippet id='rangeslider-labels-settings' />
+
+![Telerik RangeSlider for .NET MAUI Labels](images/rangeslider-labels-settings.png)
 
 ## Labels Formatting
 
@@ -37,6 +43,10 @@ Here is a quick example with a custom string converter:
 
 <snippet id='rangeslider-labels-stringconverter' />
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Labels StringConverter](images/rangeslider-labels-stringconverter.png)
+
 ## Label Template
 
 You can customize what the RangeSlider labels render through the `LabelTemplate` property.
@@ -52,6 +62,10 @@ Check below a sample `LabelTemplate` example:
 **2.** Apply it to the RangeSlider's `LabelTemplate`:
 
 <snippet id='rangeslider-labels-labeltemplate-xaml' />
+
+Here is the result:
+
+![Telerik RangeSlider for .NET MAUI Label Template](images/rangeslider-labels-template.png)
 
 ## See Also
 
