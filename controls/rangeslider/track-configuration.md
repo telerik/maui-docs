@@ -10,7 +10,7 @@ slug: rangeslider-track-configuration
 
 The track refers to that part of the range slider the range thumb runs along. It represents all the range values users can choose from.
 
-## Minimum / Maximum
+## Minimum and Maximum
 
 You need to configure a `Minimum` value and a `Maximum` value for the RangeSlider, which define the limits of the range slider’s track.
 

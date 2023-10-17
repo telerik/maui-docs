@@ -33,6 +33,11 @@ The last step is to set the ViewModel as a BindingContext:
 
 <snippet id='scheduler-appointmentssource-setvm' />
 
+The image below shows the appointments in WeekView:
+
+![Telerik .NET MAUI Scheduler AppointmentsSource](../images/scheduler-appointmentssource.png)
+
 ## See Also
 
 - [Appointment Template]({%slug scheduler-appointment-template%})
+- [Appointments Styling]({%slug scheduler-appointments-styling%})

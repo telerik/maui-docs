@@ -2,7 +2,7 @@
 title: Appointments Styling
 page_title: .NET MAUI Scheduler Documentation - Appointments Styling
 description: Learn how to style the appointments in the Telerik .NET MAUI Scheduler control.
-position: 5
+position: 6
 slug: scheduler-appointments-styling
 ---
 
@@ -14,15 +14,15 @@ Scheduler exposes an `AppointmentStyleSelector` (type `Telerik.Maui.Controls.ISt
 
 In the example below the custom `AppointmentStyleSelector` applies separate style to past and future appointments.
 
-* **1.** Create a custom Style Selector class:
+**1.** Create a custom Style Selector class:
 
 <snippet id='scheduler-customappointmentstyleselector' />
 
-* **2.** Add the style selector with the corresponding styles to the page resources:
+**2.** Add the style selector with the corresponding styles to the page resources:
 
 <snippet id='scheduler-appointments-styleselector' />
 
-* **3.** Define the Scheduler with the `AppointmentStyleSelector` applied:
+**3.** Define the Scheduler with the `AppointmentStyleSelector` applied:
 
 <snippet id='scheduler-appointments-styling' />
 
@@ -34,7 +34,3 @@ Check the result on Windows below:
 
 - [Appointments]({%slug appointments-overview%})
 - [Appointment Template]({%slug scheduler-appointment-template%})
-
-
-
-

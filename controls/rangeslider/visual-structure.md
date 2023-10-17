@@ -16,12 +16,12 @@ The following image shows the anatomy of the RangeSlider.
 
 ## Displayed Elements
 
-- `Track`&mdash;The part of the range slider the range thumb sildes across.
-- `Start Thumb`&mdash;A draggable handle which represents the range start.
-- `Range Track`&mdash;The part of the range slider that represents the selected range. When dragged, RangeStart and RangeEnd are updated simulteneously.
-- `End Thumb`&mdash;A draggable handle which represents the range end.
-- `Ticks` and `Labels`&mdash;Used for clarity of what the underlying min-max range is.
-- `Tooltips`&mdash; Used for clarity of what the value corresponding to the dragged element is.
+- **Track**&mdash;The part of the range slider the range thumb sildes across.
+- **Start Thumb**&mdash;A draggable handle which represents the range start.
+- **Range Track**&mdash;The part of the range slider that represents the selected range. When dragged, RangeStart and RangeEnd are updated simulteneously.
+- **End Thumb**&mdash;A draggable handle which represents the range end.
+- **Ticks** and **Labels**&mdash;Used for clarity of what the underlying min-max range is.
+- **Tooltips**&mdash; Used for clarity of what the value corresponding to the dragged element is.
 
 ## See Also
 

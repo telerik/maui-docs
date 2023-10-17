@@ -22,6 +22,10 @@ Add the Scheduler definition with the `SpecialSlotTemplate` applied:
 
 <snippet id='scheduler-special-slots-template' />
 
+Check the image below which shows the applied `SpecialSlotTemplate`:
+
+![Telerik .NET MAUI Scheduler Special Slot Template](../images/scheduler-specialslots-template.png)
+
 ## See Also
 
 - [Special Slots]({%slug scheduler-special-slots%})
