@@ -6,7 +6,7 @@ position: 6
 slug: pdfviewer-search-styling
 ---
 
-# .NET MAUI PDF Viewer Search Commands
+# .NET MAUI PDF Viewer Search Styling
 
 The PDF Viewer for .NET MAUI provides a flexible styling API for its search toolbar items. 
 
