@@ -8,7 +8,7 @@ slug: scheduler-header-visual-structure
 
 # .NET MAUI Scheduler Header Visual Structure
 
- Scheduler for .NET MAUI provides a header which can be used to quickly switch between the available views as well as navigate to a different date. In additon, the header includes an optional Today button for navigating directly to Today date.
+ The Scheduler for .NET MAUI provides a header that can be used to quickly switch between the available views as well as navigate to a different date. In addition, the header includes an optional **Today** button for navigating directly to today's date.
 
 The following image shows the anatomy of the Scheduler Header on desktop and mobile.
 
