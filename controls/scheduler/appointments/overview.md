@@ -14,7 +14,7 @@ Telerik UI for .NET MAUI Scheduler control allows you to display appointments by
 * `End`&mdash;Defines the value that determing the end date and time of the appointment.
 * `Subject`&mdash;Defines the value that indicate the subject of the appointment
 * `IsAllDay`&mdash;Indicates whether the appointment will take all day
-* `RecurrenceRule`&mdash;Defines basic properties of the recurrence rule of the appointment, for more details go to [Recurrence]({%slug recurrence-overview %}) topic.
+* `RecurrenceRule`&mdash;Defines basic properties of the recurrence rule of the appointment, for more details go to [Recurrence]({%slug scheduler-recurrence-overview %}) topic.
 
 Here is a quick example on how you can create Appointments collection and bind it to the `AppointmentsSource` property of `RadScheduler`.
 
@@ -38,4 +38,4 @@ The image below shows the appointments in WeekView:
 
 - [Appointment Template]({%slug scheduler-appointment-template%})
 - [Appointments Styling]({%slug scheduler-appointments-styling%})
-- [Recurrence]({%slug recurrence-overview %}) 
+- [Recurrence]({%slug scheduler-recurrence-overview %}) 
