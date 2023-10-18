@@ -2,15 +2,17 @@
 title: Recurrence Pattern
 page_title: .NET MAUI Scheduler Documentation - Recurrence Pattern 
 description: Learn more about the reccurence pattern option in Telerik UI for .NET MAUI Scheduler control.
-position: 0
-slug: recurrence-pattern
+position: 1
+slug: scheduler-recurrence-pattern
 ---
 
 # Recurrence Pattern
 
-The `RadScheduler` includes support for recurring events on daily, weekly, monthly and yearly basis. To When an appointment is promoted into a recurring event its `RecurrenceRule` is set with correct `RecurrencePattern`.
+The Scheduler supports repeating appointments through the `RecurrenceRule` property of the `Appointment` class. In order to create a recurrence rule, you have to define a recurrence pattern, such as frequency, days of week, max occurrences, and other.
 
-Here are the exposed properties exposed by the `RecurrencePatter` class:
+The `RecurrenceRule` property has a mandatory `Pattern` property of type `RecurrencePattern` which describes how the appointment occurrences will be created through various recurrence settings.
+
+Check below a list of the properties exposed by the `RecurrencePattern` class:
 
 * `Frequency`&mdash;Defines the frequency. Its values are predefined in the `RecurrenceFrequency`enumeration, which exposes the following values: None, Secondly, Minutely, Hourly, Daily, Weekly, Monthly, Yearly. 
 * `DaysOfMonth`&mdash;Defines the days of a month.
@@ -27,5 +29,5 @@ Here are the exposed properties exposed by the `RecurrencePatter` class:
 ## See Also
 
 - [Appointments]({% slug appointments-overview %})
-- [Recurrence Overview]({%slug recurrence-overview%})
-- [Recurrence Rule]({%slug recurrence-rule%})
+- [Recurrence Overview]({%slug scheduler-recurrence-overview%})
+- [Recurrence Rule]({%slug scheduler-recurrence-rule%})
