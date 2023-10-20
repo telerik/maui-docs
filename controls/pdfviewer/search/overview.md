@@ -6,7 +6,7 @@ position: 0
 slug: pdfviewer-search-overview
 ---
 
-# .NET MAUI PDF Viewer Overview
+# .NET MAUI PDF Viewer Search Overview
 
 The Telerik UI for .NET MAUI PdfViewer has a support for text search functionality which allows users to find and highlight text inside the PDF document.
 

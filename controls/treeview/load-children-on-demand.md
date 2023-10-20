@@ -10,7 +10,7 @@ slug: treeview-load-children-on-demand
 
 The Load Children on Demand feature optimizes the performance of the Telerik UI for .NET MAUI TreeView control when operating with a huge amount of items. This mechanism lets the nodes load their child nodes as the user expands the parent by clicking on the expand icon for desktop and tapping on the item on mobile.
 
-![.NET MAUI TreeView Load Children on Demand](images/treeview-expand-collapse.gif)
+![.NET MAUI TreeView Load Children on Demand](images/treeview-loadondemand.gif)
 
 To enable the TreeView Load Children on Demand feature:
 
