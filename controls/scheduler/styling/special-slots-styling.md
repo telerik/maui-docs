@@ -26,7 +26,7 @@ In the example special slots are used to distinguish the non-working hours. In a
 
 <snippet id='scheduler-specialslots-viewmodel' />
 
-**4.** Define the Scheduler with the `SpecialSlotStyleSelector` applied:
+**4.** Define the Scheduler with the `SpecialSlotStyleSelector` property applied to the view definitions:
 
 <snippet id='scheduler-specialslotsstyling-definition' />
 

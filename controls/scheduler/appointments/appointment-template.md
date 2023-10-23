@@ -16,24 +16,7 @@ Here is a quick example how to apply a custom slot template to the Scheduler:
 
 **1.** Create a custom `DataTemplateSelector` class:
 
-```C#
-public class CustomAppointmentDataTemplate : DataTemplateSelector
-{
-    public DataTemplate AllDayAppointmentTemplate { get; set; }
-    public DataTemplate AppointmentTemplate { get; set; }
-
-    protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
-    {
-        var appointment = (item as AppointmentNode).Occurrence.Appointment;
-        if (appointment.IsAllDay || (appointment.End - appointment.Start).TotalDays > 1)
-        {
-            return this.AllDayAppointmentTemplate;
-        }
-
-        return this.AppointmentTemplate;
-    }
-}
-```
+<snippet id='scheduler-customappointmentdatatemplate' />
 
 **2.** Add the template to the page resources:
 

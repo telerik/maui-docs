@@ -8,7 +8,7 @@ slug: scheduler-special-slots
 
 # Special Slots
 
-The Telerik UI for .NET MAUI Scheduler control exposes an option to define the special and read-only slots and apply different styles to them. You need to prepare a collection of `Slot` objects and assign it to the `SpecialSlotsSource` property of the `RadScheduler` instance.
+The Telerik UI for .NET MAUI Scheduler control exposes an option to define the special and read-only slots and apply different styles to them. You need to prepare a collection of `Slot` objects and assign it to the `SpecialSlotsSource` property of the corresponding view definition.
 
 Every `Slot` has the following properties:
 
@@ -16,7 +16,7 @@ Every `Slot` has the following properties:
 * `End (type DateTime)`&mdash;Defines the end date of the slot.
 * `ReccurencePattern`&mdash;Defines whether the slot will be displayed for repeating days.
 * `IsReadOnly`&mdash;When set to `True` the slot is disabled.
-* `TimeZone ( type TimeZoneInfo)`&mdash;Specifies the slot time zone. 
+* `TimeZone (TimeZoneInfo)`&mdash;Specifies the slot time zone. 
 
 Below you can find a quick example how to create special slots.
 
