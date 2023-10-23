@@ -14,7 +14,7 @@ The NavigationView provides three layouts based on its `DisplayMode` (enum of ty
 * `Compact`&mdash;The pane always shows as a narrow sliver which can be opened to full width.
 * `Expanded`&mdash;The pane stays open alongside the content.
 
-## Auto-changing the Display Mode
+## Automatically Changing the Display Mode
 
 The NavigationView dynamically adjusts its layout depending on its size. This is controlled with the `AutoChangeDisplayMode` (`bool`) property. On desktop its value is `true`, on mobile `false`.
 

@@ -8,7 +8,7 @@ slug: navigationview-navigation-header
 
 # .NET MAUI NavigationView Header
 
-The Telerik UI for .NET MAUI NavigationView control has a navigation header. The header contains a toggle navigation button (for opening and closing the navigation page) and `HeaderText`.
+The Telerik UI for .NET MAUI NavigationView control has a navigation header. The header contains a toggle navigation button (for opening and closing the navigation page) and a navigation content (by default label with a text).
 
 You can customize the header by setting the `HeaderText` or `HeaderTemplate` properties.
 
@@ -16,7 +16,7 @@ You can customize the header by setting the `HeaderText` or `HeaderTemplate` pro
 
 * `HeaderText` (`string`)&mdash;Defines the text that is displayed in the NavigationView header.
 * `HeaderTemplate` (`DataTemplate`)&mdash;Specifies the content template for the NavigationView header.
-* `HeaderStyle` (`string`)&mdash;Specifies the style applied to the header, this includes the text and the navigation button. For more details review the [NavigationView Header Styling]({%slug navigationview-styling%}) article.
+* `HeaderStyle` (`string`)&mdash;Specifies the style applied to the header, this includes the text and the navigation button. For more details, review the [NavigationView Header Styling]({%slug navigationview-styling%}) article.
 
 ### Example
 
@@ -38,7 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Toggle Navigation Button
 
-The `NavigationViewToggleButton` represents a toggle button that opens / closes the `NavigationViewPane`. The button is part of the NavigationView header. 
+The `NavigationViewToggleButton` represents a toggle button that opens or closes the `NavigationViewPane`. The button is part of the NavigationView header.
 
 You can style the button through the `HeaderStyle` property of the `RadNavigationView`. For more details, review the [NavigationView Header Styling]({%slug navigationview-styling%}) article. 
 

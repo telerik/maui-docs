@@ -1,14 +1,14 @@
 ---
-title: NavigationItem Styling
+title: Navigation Item Styling
 page_title: .NET MAUI NavigationView Documentation - NavigationItem Styling
 description: Learn how to style the navigation item inside the .NET MAUI NavigationView Pane.
 position: 2
 slug: navigationview-item-styling
 ---
 
-# .NET MAUI NavigationItem Styling
+# Styling a Navigation Item
 
-Style the navigation item, by setting the `Style` property to the `NavigationViewItem` or use implicit style.
+Style the navigation items by setting the `Style` property to the `NavigationViewItem` or using an implicit style:
 
 The image below shows sample navigation item styling:
 

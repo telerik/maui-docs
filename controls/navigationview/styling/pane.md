@@ -8,7 +8,7 @@ slug: navigationview-pane-styling
 
 # .NET MAUI NavigationView Pane Styling
 
-The NavigationView Pane for .NET MAUI provides a styling mechanism for customizing its look, also the look of its header and footer.
+The NavigationView Pane for .NET MAUI provides a styling mechanism for customizing its look, as well as the look of its header and footer.
 To use it, set the `PaneStyle` property of the control with a target type `NavigationViewPane`.
 
 The image below shows sample pane styling:

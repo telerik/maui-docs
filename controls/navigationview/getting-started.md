@@ -28,7 +28,7 @@ Before adding the NavigationView, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a NavigationView control to your page.
 
-**1.** Here is the NavigationView definition in XAML and C#:
+**1.** Define the NavigationView in XAML:
 
 <snippet id='navigationview-getting-started-xaml' />
 
@@ -63,7 +63,7 @@ public static class MauiProgram
 }           
 ```
 
->important For the NavigationView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> For the NavigationView Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
 ## Additional Resources
 

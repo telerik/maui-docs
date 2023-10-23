@@ -8,13 +8,13 @@ slug: pdfviewer-search-programmatic
 
 # .NET MAUI PDF Viewer Search Programmatically
 
-PDF Viewer for .NET MAUI allows you to programmatically search in the document. 
+The PDF Viewer for .NET MAUI allows you to programmatically search in the document.
 
 ## Manual Searching
 
 You can use the `SearchAsync` method of the `SearchSettings` to manually initiate an async search operation with the provided text and search options.
 
-Here is an example for `SearchAsync` method and custom buttons for programmatically navigate to next and previous search results:
+Here is an example with the `SearchAsync` method and custom buttons for programmatically navigating to the next and previous search results:
 
 **1.** Define the PDF Viewer control in XAML: 
 
