@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI NavigationView Documentation - Events
-description: Lear more about the NavigationView events that are raised when pane is opened, closed and item is clicked and selected.
+description: Learn more about the NavigationView events that are raised when the pane is opened, closed and an item is clicked and selected.
 position: 10
 slug: navigationview-events
 ---
@@ -12,23 +12,23 @@ The .NET MAUI NavigationView emits a set of events that allow you to configure t
 
 The .NET MAUI NavigationView exposes the following events:
 
-* The `SelectionChanged`&mdash;Raised when the currently selected NavigationViewItem has changed. The `SelectionChanged` event handler receives two parameters:
+* The `SelectionChanged`&mdash;Raised when the currently selected NavigationView item has changed. The `SelectionChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
-* The `ItemClicked`&mdash;Raised when the NavigationViewItem is clicked. The `ItemClicked` event handler receives two parameters:
+* The `ItemClicked`&mdash;Raised when the NavigationView item is clicked. The `ItemClicked` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `NavigationItem` (`Telerik.Maui.Controls.NavigationView.NavigationViewItem`)&mdash;Gets the NavigationViewItem for which the interaction is performed.
 
-* The `PaneOpened`&mdash;Raised when the Pane open animation completes. The `PaneOpened` event handler receives two parameters:
+* The `PaneOpened`&mdash;Raised when the Pane opening animation completes. The `PaneOpened` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
-* The `PaneClosed`&mdash;Raised when the Pane close animation completed. The `PaneClosed` event handler receives two parameters:
+* The `PaneClosed`&mdash;Raised when the Pane closing animation completed. The `PaneClosed` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 	* `System.EventArgs`.
 
-## Example with All Events Described in the Article:
+## Events Example:
 
 **1.** Define the NavigationView control:
 

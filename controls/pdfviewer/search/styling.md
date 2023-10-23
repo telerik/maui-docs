@@ -34,7 +34,7 @@ The `PdfViewerSearchNavigationToolbarItem` has a `ToastStyle` property which all
 
 Here is an example how to define the `ToastStyle`
 
-<snippet id='prfviewer-search-toast' />
+<snippet id='pdfviewer-search-toast' />
 
 And the `PdfViewerSearchNavigationToolbarItem`:
 

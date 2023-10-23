@@ -52,9 +52,9 @@ Here is a sample header styling definition:
 
 ## Styling the Navigation Toggle Button 
 
-You can style the toggle button by setting the `HeaderButtonStyle` property to the `HeaderStyle`. Thy target type of the `HeaderButtonStyle` is `NavigationViewToggleButton`.
+You can style the toggle button by setting the `HeaderButtonStyle` property to the `HeaderStyle`. The target type of the `HeaderButtonStyle` is `NavigationViewToggleButton`.
 
-`NavigationViewToggleButton` inherits from [Telerik .NET MAUI Button]({%slug button-overview%}) control. Use all properties applicable for `RadButton` to style the toggle button.
+`NavigationViewToggleButton` inherits from [Telerik .NET MAUI Button]({%slug button-overview%}) control. Use all properties applicable for the `RadButton` to style the Toggle Button.
 
 ### Visual States
 
@@ -66,7 +66,7 @@ You can customize the visual states to the `NavigationViewToggleButton`. Here is
 
 ## Styling the Overlay
 
-You can display an overlay when Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`. 
+You can display an overlay when the Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`.
 
 You can style the overlay by using the following properties:
 

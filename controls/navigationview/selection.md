@@ -1,16 +1,14 @@
 ---
 title: Selection
 page_title: .NET MAUI NavigationView Documentation - Selection
-description: Learn how to define selection in the .NET MAUI NavigationView control.
+description: Learn how to define the selection in the .NET MAUI NavigationView control.
 position: 7
 slug: navigationview-selection
 ---
 
 # .NET MAUI NavigationView Selection
 
-The NavigationView for .NET MAUI enables the app users to quickly select item from the navigation pane. This topic will go through the provided by the NavigationView API related to item selection.
-
-NavigationView control has a support for single selection. 
+The NavigationView for .NET MAUI enables the app users to quickly select item from the navigation pane. This topic goes through the item selection API provided by the NavigationView component.
 
 ## Main Properties
 
@@ -20,13 +18,13 @@ NavigationView control has a support for single selection.
 
 ## Events
 
-NavigationView exposes a `SelectionChanged` event which is raised when the currently selected NavigationViewItem has changed. The `SelectionChanged` event handler receives two parameters:
+NavigationView exposes a `SelectionChanged` event which is raised when the currently selected NavigationView item has changed. The `SelectionChanged` event handler receives two parameters:
 * The `sender` argument, which is of type `object`, but can be cast to the `RadNavigationView` control.
 * `System.EventArgs`.
 
 ## Example with Selection Properties
 
-The example shows NavigationView Selection feature. 
+The following example shows the NavigationView Selection feature.
 
 **1.** Define the NavigationView control:
 

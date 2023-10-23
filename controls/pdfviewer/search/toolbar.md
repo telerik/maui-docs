@@ -8,7 +8,7 @@ slug: pdfviewer-search-toolbar
 
 # .NET MAUI PDF Viewer Search Toolbar Items
 
-The .NET MAUI PDF Viewer provides built-in support for text searching. Through the exposed commands related to search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
+The .NET MAUI PDF Viewer provides built-in support for text searching. Through the exposed commands related to the search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
 
 In addition, `RadPdfViewerToolbar` exposes predefined toolbar items wired to the search. 
 
@@ -28,7 +28,7 @@ This is how the search toolbar looks:
 
 ![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search.png "PDF Viewer Search Toolbar")
 
-By default, search operation occurs when the user clicks the `Search` button of the keyboard on mobile, and the `Enter` key of the physical keyboard on desktop. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
+By default, the search operation occurs when the user clicks the Search button on the keyboard on mobile and the `Enter` key on the physical keyboard on desktop devices. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
 
 * `None`&mdash;Only programmatic calls are allowed
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.

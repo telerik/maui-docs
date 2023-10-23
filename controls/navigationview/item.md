@@ -16,13 +16,13 @@ Display text in the `NavigationViewItem` by setting the `Text` (`string`) proper
 
 ## Setting Image
 
-Display image in the `NavigationViewItem` by setting the `ImageSource` (`Microsoft.Maui.Controls.ImageSource`) property.
+Display images in the `NavigationViewItem` by setting the `ImageSource` (`Microsoft.Maui.Controls.ImageSource`) property.
 
 ## Setting Position
 
-You can configure the navigation items position by adding them to the Pane header, footer or to the content.
+You can configure the navigation items' position by adding them to the Pane header, footer, or to the content.
 
-* `Position` (enum of type `Telerik.Maui.Controls.NavigationView.NavigationViewItemPosition`)&mdash;Specifies the position of the navigation item. the available options are: 
+* `Position` (enum of type `Telerik.Maui.Controls.NavigationView.NavigationViewItemPosition`)&mdash;Specifies the position of the navigation item. The available options are: 
 	* Default `Content`&mdash;The navigation item is placed in the content area of the `NavigationViewPane` control.
 	* `Header`&mdash;The navigation item is placed in the header area of the `NavigationViewPane` control.
 	* `Footer`&mdash;The navigation item is placed in the footer area of the `NavigationViewPane` control.
@@ -68,11 +68,11 @@ Here is an example with `ContentTemplate` property.
 
 Change the visibility of the `NavigationViewItem` by setting the `IsVisible` (`bool`) property.
 
-Change the enabled state if the `NavigationViewItem` by setting the `IsEnabled` (`bool`) property.
+Change the enabled state of the `NavigationViewItem` by setting the `IsEnabled` (`bool`) property.
 
 ## Configuring the Items
 
-You can further configure the navigation items by using the `ControlTemplate` (`ControlTemplate`) property.
+You can further configure the NavigationView items by using the `ControlTemplate` (`ControlTemplate`) property.
 
 Here is an example with `ControlTemplate` property.
 
@@ -101,11 +101,11 @@ Here is an example with `ControlTemplate` property.
 
 The .NET MAUI `NavigationViewItem` exposes the following events:
 
-* `Clicked`&mdash;Raised when the navigation item is clicked.The `Clicked` event handler receives two parameters:
+* `Clicked`&mdash;Raised when the navigation item is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
-* `IsSelectedChanged`&mdash; Raised when the NavigationViewItem `IsSelected` property has changed. The `IsSelectedChanged` event handler receives two parameters:
+* `IsSelectedChanged`&mdash;Raised when the NavigationView item `IsSelected` property has changed. The `IsSelectedChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
@@ -114,9 +114,9 @@ The .NET MAUI `NavigationViewItem` exposes the following events:
 * `Command` (`ICommand`)&mdash;Executed when the navigation item is clicked.
 * `CommandParameter`&mdash;Specifies the parameter to the command which is executed when the navigation item is clicked.
 
-## Styling
+## Next Steps
 
-How to style the navigation items is described in the [NavigationItem Styling]({%slug navigationview-item-styling%}) article.
+How to style the NavigationView items is described in the [NavigationItem Styling]({%slug navigationview-item-styling%}) article.
 
 ## See Also
 

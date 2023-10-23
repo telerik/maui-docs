@@ -10,9 +10,9 @@ slug: pdfviewer-search-custom
 
 You can extend the search functionality by implementing a custom `TextSearchWorker`. The `TextSearchWorker` object performs the actual search according to the search criteria.
 
-The example below implements a custom search by multiple words - any word that is entered into the input is considered as a separate search text.
+The example below implements a custom search by multiple words-any word that is entered into the input is considered as a separate search text.
 
-**1.** Create a custom class that inherits from `Telerik.Maui.Controls.PdfViewer.PdfViewerTextSearchWorker` - you'd need to override the Search method that returns `TextSearchResult` object:
+**1.** Create a custom class that derives from `Telerik.Maui.Controls.PdfViewer.PdfViewerTextSearchWorker`-you need to override the `Search` method that returns `TextSearchResult` object:
 
 ```C#
 public class MultipleWordsSearchWorker : Telerik.Maui.Controls.PdfViewer.PdfViewerTextSearchWorker

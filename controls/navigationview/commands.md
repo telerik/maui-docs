@@ -16,8 +16,6 @@ The available commands are:
 * `ClosePaneCommand` (`ICommand`)&mdash;Gets the command which closes the pane.
 * `TogglePaneCommand` (`ICommand`)&mdash;Gets the command which opens and closes the pane.
 
-## Example with Commands
-
 Here is an example how to use the commands:
 
 **1.**  Bind the NavigationView commands to buttons command:
