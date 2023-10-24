@@ -33,6 +33,7 @@ Add a `MultidayViewDefinition` to the `ViewDefinitions` collection of the `RadSc
 * `MajorTickLength`&mdash;Defines the length of the major ticks.
 * `MinorTickLength`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
+* `MaxTimeRulerExtent`&mdash;Defines the maximum size of the time ruler in pixels.
 * `VisibleDays`&mdash;Defines the number of visible days in the view.
 
 ## See Also

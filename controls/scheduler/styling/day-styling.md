@@ -18,9 +18,9 @@ The following example demonstrates how to style the days with a custom `DayStyle
 
 **2.** Add the style selector to the page's resources:
 
-<snippet id='scheduler-customdaystyleselector'/>
+<snippet id='scheduler-customdaystyleselector-xaml'/>
 
-**1.** Define the Scheduler:
+**3.** Define the Scheduler:
 
 <snippet id='scheduler-day-styling'/>
 

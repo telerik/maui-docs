@@ -35,6 +35,8 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 * `MajorTickLength`&mdash;Defines the length of the major ticks.
 * `MinorTickLength`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
+* `MaxTimeRulerExtent`&mdash;Defines the maximum size of the time ruler in pixels.
+* `FirstDayOfWeek(DayOfWeek?)`&mdash;Specifies the day that is considered the beginning of the week.
 
 ## See Also
 
