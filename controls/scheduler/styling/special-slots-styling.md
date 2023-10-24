@@ -10,7 +10,7 @@ slug: scheduler-special-slots-styling
 
 The Scheduler for .NET MAUI control makes it easy to customize the look & feel of the special slots.
 
-Scheduler exposes an `SpecialSlotStyleSelector` (type `Telerik.Maui.Controls.IStyleSelector`) property which conditionally applies different styles to special slots depending on some logic.
+The Scheduler's ViewDefinitions (Day, Week, MultiDay and Month) provide a `SpecialSlotStyleSelector` (`Telerik.Maui.Controls.IStyleSelector`) property which conditionally applies different styles to special slots depending on some logic.
 
 In the example special slots are used to distinguish the non-working hours. In addition, the custom `SpecialSlotStyleSelector` applies separate style non-working hours during the week day and the weekend.
 
