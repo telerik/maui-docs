@@ -2,7 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI NavigationView Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI NavigationView, and see how these elements build the visual structure of the control.
-position: 2
+position: 1
 slug: navigationview-visual-structure
 ---
 
@@ -14,8 +14,10 @@ The visual structure of the .NET MAUI NavigationView represents the anatomy of t
 
 ## Displayed Elements
 
-* **NavigationView Header Text**&mdash;Represents a text displayed in the [navigation header]({%slug navigationview-navigation-header%}).
-* **NavigationView Toggle Button**&mdash;Used for opening/closing the pane. For more details review the [navigation header]({%slug navigationview-navigation-header%}) article.
+* **Navigation View Header**&mdash;The area that holds the navigation header content and toggle button.
+* **Navigation View Header Content**&mdash;Represents the content in the [navigation header]({%slug navigationview-navigation-header%}).
+* **Navigation View Toggle Button**&mdash;Used for opening/closing the pane. For more details review the [navigation header]({%slug navigationview-navigation-header%}) article.
+* **Navigation View Pane**&mdash;The area that holds the pane header, pane footer, and pane content.
 * **Pane Header**&mdash;Sticky area on the top of the [pane]({%slug navigationview-pane%}).
 * **Pane Content**&mdash;Scrollable area between [the pane header and the pane footer]({%slug navigationview-pane%}). By default all items in the pane are added to the content, if `Position` is not explicitly defined. 
 * **Pane Footer**&mdash;Sticky area to the bottom of the [pane]({%slug navigationview-pane%}).

@@ -61,6 +61,13 @@ Here is an example of how you can customize `SearchOptions` as well as highlight
 
 <snippet id='pdfviewer-search-settings' />
 
+Add the folowing namespaces:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+xmlns:telerikTextSearch="clr-namespace:Telerik.Windows.Documents.Fixed.Search;assembly=Telerik.Documents.Fixed"
+```
+
 ## Methods
 
 The Telerik UI for .NET MAUI PDF Viewer provides methods related to searching feature.

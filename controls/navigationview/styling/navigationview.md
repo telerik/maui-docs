@@ -62,7 +62,7 @@ You can customize the visual states to the `NavigationViewToggleButton`. Here is
 
 <snippet id='navigationview-togglebutton-styling' />
 
-> For the runnable NavigationView Header Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**.
+> For the runnable NavigationView Header Styling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Styling category**. 
 
 ## Styling the Overlay
 
