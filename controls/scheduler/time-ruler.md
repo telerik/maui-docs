@@ -12,10 +12,10 @@ Time Ruler represents the time axis inside the Scheduler day views (day, week an
 
 DayView, WeekView and MultiDayView expose some properties to determine the density of the time ruler items as well as the time ruler size:
 
-* `MinorTickLength(TimeSpan)`&mdash;Defines the length of the minor ticks.
-* `MajorTickLength(TimeSpan)`&mdash;Defines the length of the major ticks.
-* `MinTimeRulerExtent(double)`&mdash;Defines the minimum size of the time ruler in pixels.
-* `MaxTimeRulerExtent(double)`&mdash;Defines the maximum size of the time ruler in pixels.
+* `MinorTickLength`(`TimeSpan`)&mdash;Defines the length of the minor ticks.
+* `MajorTickLength`(`TimeSpan`)&mdash;Defines the length of the major ticks.
+* `MinTimeRulerExtent`(`double`)&mdash;Defines the minimum size of the time ruler in pixels.
+* `MaxTimeRulerExtent`(`double`)&mdash;Defines the maximum size of the time ruler in pixels.
 
 Check a quick example on how `MinorTickLength`, `MajorTickLength` and `MinTimeRulerExtent` can be applied to DayView:
 
