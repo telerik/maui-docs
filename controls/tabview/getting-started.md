@@ -34,16 +34,15 @@ Before adding the TabView, you need to:
 
 <snippet id='tabview-getting-started-xaml'/>
 
-**2.** Add the following namespaces:
+**2.** Add the following namespace:
 
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
-```
+ ```XAML
+ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
 **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
-
- ```C#
+```C#
 using Telerik.Maui.Controls.Compatibility;
 
 public static class MauiProgram
@@ -64,7 +63,6 @@ public static class MauiProgram
 }           
 ```
 
- 
  > For a runnable example with the TabView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Getting Started**.
 
 ## Additional Resources
