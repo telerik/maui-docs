@@ -1,6 +1,6 @@
 ---
 title: Error when Using Hot Restart
-description: error message when deploying on iPhone device using Visual Studio for Windows
+description: error message when deploying on an iPhone device using Visual Studio for Windows
 type: troubleshooting
 page_title: Error when using Hot Restart
 slug: telerik-maui-hot-restart
@@ -28,11 +28,11 @@ res_type: kb
 ## Description
 
 This article describes the behavior that occurs when using Hot Restart feature - deploying on iPhone device thorugh Visual Studio for Windows. Some of the Telerik .NET MAUI controls use static libraries, and when using hot restart an exception is thrown. The behavior occurs as Hot Restart has a limitation - does not support static libraries. 
-The error messgae is described below: 
+The error message is described below: 
 
 ## Error Message
 
-The following error message is received when tring to deploy on iPhone device using Hot Restart feature from Visual Studio for Windows. 
+The following error message is received when trying to deploy on iPhone device using Hot Restart feature from Visual Studio for Windows. 
 
  ```
 NSForwarding: warning: does not implement methodSignatureForSelector:
@@ -61,7 +61,7 @@ The table below shows a list of controls and their compatibility with Hot Restar
 | DockLayout | Pass | - | - | - |
 | Entry | Fail | Yes | - | Telerik_Maui_InputElement_RadTextField does not implement methodSignatureForSelector |
 | Expander | Pass | - | - | - |
-| Gauge | Fail | Yes | - | ailed at Telerik.Maui.Controls.SkiaSharp.SkiaUtilities.TryCreateTextPaint |
+| Gauge | Fail | Yes | - | Failed at Telerik.Maui.Controls.SkiaSharp.SkiaUtilities.TryCreateTextPaint |
 | ImageEditor | Fail | Yes | - | No exception details in VS output |
 | ItemsControl | Pass | - | - | - |
 | ListPicker | Pass | - | - | - |
