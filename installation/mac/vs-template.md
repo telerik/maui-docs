@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI project template for Visual Studio (VS) on macOS ai
 
 The project template for VS on macOS is an add-in that improves the getting started experience for Telerik developers and is pre-configured with all requirements to run the Telerik UI for .NET MAUI components.
 
->important Telerik Visual Studio Project Template for Mac will be phased out in 2024, following the [discontinuation of Visual Studio for Mac](https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/). As a recommended replacement, consider using the [.NET MAUI Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) for Visual Studio Code. For detailed guidance on getting started with the .NET MAUI Extension for Visual Studio Code, refer to our blog post - [Getting Started with .NET MAUI Extension for Visual Studio Code](https://www.telerik.com/blogs/beyond-basics-getting-started-net-maui-extension-visual-studio-code).
+>important Telerik Visual Studio Project Template for Mac will be phased out in 2024, following the [discontinuation of Visual Studio for Mac](https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/). As a recommended replacement, consider using the [.NET MAUI Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) for Visual Studio Code. For detailed guidance on getting started with the .NET MAUI Extension for Visual Studio Code, refer to our [blog post](https://www.telerik.com/blogs/beyond-basics-getting-started-net-maui-extension-visual-studio-code).
 
 ## Accessing the Project Template
 
