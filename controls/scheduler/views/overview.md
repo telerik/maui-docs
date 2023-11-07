@@ -10,10 +10,10 @@ slug: scheduler-views-overview
 
 The Telerik UI for .NET MAUI Scheduler control provides the functionality of displaying the data in different views. The control defines four predefined views from which you can choose to navigate through. 
 
-- [Day View]({%slug scheduler-day-view})
-- [Week View]({%slug scheduler-week-view %})
-- [Multiday View]({%slug scheduler-week-view %})
-- [Month View]({%slug scheduler-month-view %})
+- [Day View]({%slug scheduler-day-view%})&mdash;Displays the appointments of a single day.
+- [Week View]({%slug scheduler-week-view %})&mdash;Displays the appointment of a week.
+- [Multiday View]({%slug scheduler-week-view %})&mdash;Displays the appointments of a specified number of days starting from `CurrentDate`.
+- [Month View]({%slug scheduler-month-view %})&mdash;Displays the appointments of a month.
 
 ## Define the Views 
 
@@ -23,7 +23,7 @@ Define the available to the user views by adding them to the `ViewDefinitions` c
 
 ## See Also
 
-- [Day View]({%slug scheduler-day-view})
+- [Day View]({%slug scheduler-day-view%})
 - [Week View]({%slug scheduler-week-view %})
 - [Multiday View]({%slug scheduler-week-view %})
 - [Month View]({%slug scheduler-month-view %})

@@ -8,7 +8,7 @@ slug: rangeslider-track-styling
 
 # Track Styling
 
-The RangeSlider for .NET MAUI control exposes thickness and color styling properties for its track, so you can easily achieve the desired look&feel:
+The RangeSlider for .NET MAUI control exposes thickness and color styling properties for its track, so you can easily achieve the desired look & feel:
 
 * `BackTrackThickness(double)`&mdash;Specifies the thickness of the range slider's track.
 * `BackTrackColor(Color)`&mdash;Defines the color of the range slider's track.
@@ -23,6 +23,10 @@ Check below a quick example on how to apply `BacktrackStyle` property to the Ran
 **2.** Define the RangeSlider with the style applied:
 
 <snippet id='rangeslider-track-style-xaml' />
+
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Track Styling](images/rangeslider-track-styling.png)
 
 ## See Also
 

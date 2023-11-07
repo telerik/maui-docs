@@ -17,10 +17,12 @@ This topic provides an overview on how you could utilize localization and global
 
 Globalization refers to developing an application in such a way that it works with respect to the target device culture. This includes numbers formatting which can vary between cultures, especially for some specific symbols, such as decimal separators, currency and other, as well as date and time formatting. Following is a list of Telerik .NET MAUI controls that support globalization:
 
+* Calendar
 * DatePicker
 * DateTimePicker
 * MaskedEntry
 * NumericInput
+* Scheduler
 * TimePicker
 * TimeSpanPicker
 
@@ -31,13 +33,16 @@ Localization refers to the translation of application resources into localized v
 * [Conversational UI(Chat)]({%slug chat-localization%})
 * [DataForm]({% slug dataform-localization%})
 * [DataGrid]({% slug datagrid-localization%})
-* [DateTimePicker]({% slug datetimepicker-localization%})
 * [ImageEditor]({% slug imageeditor-localization%})
 * [MaskedEntry]({% slug maskedentry-localization%})
 * [DatePicker]({% slug datepicker-localization%})
+* [DateTimePicker]({% slug datetimepicker-localization%})
 * [ListPicker]({% slug listpicker-localization%})
+* [Scheduler]({% slug scheduler-localization%})
 * [TemplatedPicker]({% slug templatedpicker-localization%})
 * [TimePicker]({% slug timepicker-localization%})
+* [TimeSpanPicker]({% slug timespanpicker-localization%})
+* [PDF Viewer]({% slug pdfviewer-localization%})
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 
@@ -128,4 +133,4 @@ The image below shows the localization applied to the MaskedEntry ValidationErro
 
 ![localization for masked entry](images/maskentry-localization-validation-error-message.png)
 
->important You can check working localization examples in the **MaskedEntry/Features** folder within the [SDK .NET MAUI application]({%slug maui-demo-app%}).
+>important You can check working localization examples in the **MaskedEntry/Features** folder within the [SDK .NET MAUI application]({%slug sdkbrowser-app%}).

@@ -6,7 +6,7 @@ position: 6
 slug: pdfviewer-search-styling
 ---
 
-# .NET MAUI PDF Viewer Search Commands
+# .NET MAUI PDF Viewer Search Styling
 
 The PDF Viewer for .NET MAUI provides a flexible styling API for its search toolbar items. 
 
@@ -22,9 +22,9 @@ The table below lists all toolbar items related to the search feature and their 
 | `PdfViewerSearchEntryToolbarItem` | `Style` property with target type `PdfViewerSearchEntryToolbarItemView` |
 | `PdfViewerSearchBusyIndicatorToolbarItem` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
 
-The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}) article.
+The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}).
 
-The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}) article.
+The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}).
 
 The `PdfViewerNavigateToPreviousSearchResultToolbarItemView`, `PdfViewerNavigateToNextSearchResultToolbarItemView`, and `NavigationButtonToolbarItemView` inherit from [ButtonToolbarItemView]({%slug toolbar-items-button%}). 
 
@@ -34,7 +34,7 @@ The `PdfViewerSearchNavigationToolbarItem` has a `ToastStyle` property which all
 
 Here is an example how to define the `ToastStyle`
 
-<snippet id='prfviewer-search-toast' />
+<snippet id='pdfviewer-search-toast' />
 
 And the `PdfViewerSearchNavigationToolbarItem`:
 
@@ -46,6 +46,17 @@ The search results are highlighted by using the following properties:
 
 * `MainSearchResultFill` (`Color`)&mdash;Specifies the fill of the main search result.
 * `SearchResultsFill` (`Color`)&mdash;Specifies the fill of all search results, except the main result.
+
+Here is an example with styling the `MainSearchResultFill` and `SearchResultsFill`:
+
+```XAML
+<telerik:RadPdfViewer x:Name="pdfViewer">
+    <telerik:RadPdfViewer.SearchSettings>
+        <telerik:PdfViewerSearchSettings MainSearchResultFill="#99FF7F7F"
+                                         SearchResultsFill="#997FC9FF"/>
+    </telerik:RadPdfViewer.SearchSettings>
+</telerik:RadPdfViewer>
+```
 
 ## See Also
 

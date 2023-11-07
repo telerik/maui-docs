@@ -93,7 +93,7 @@ The following image shows the end result:
 
 ![ListPicker Templates](images/listpicker_templates.png)
 
->important For a sample templates example, refer to the **ListPicker/Templates** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample templates example, refer to the **ListPicker/Templates** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

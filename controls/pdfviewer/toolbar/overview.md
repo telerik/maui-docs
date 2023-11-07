@@ -8,7 +8,7 @@ slug: pdfviewer-toolbar
 
 # PDF Viewer Toolbar
 
-The PDF Viewer Toolbar includes some of the commands that the PDF Viewer provides. You also have the option to include additional toolbar items in the `PdfViewerToolbar` through a custom command.  
+The PDF Viewer Toolbar includes the commands that the PDF Viewer provides. You also have the option to include additional toolbar items in the `PdfViewerToolbar` through a custom command.  
 
 ## Predefined Toolbar Items
 

@@ -1,19 +1,37 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI NavigationView Documentation - Visual Structure
-description: Review the main features of the .NET MAUI NavigationView control.
-position: 2
+description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI NavigationView, and see how these elements build the visual structure of the control.
+position: 1
 slug: navigationview-visual-structure
-published: False
 ---
 
 # .NET MAUI NavigationView Visual Structure
 
+The visual structure of the .NET MAUI NavigationView represents the anatomy of the UI component. Being familiar with the visual elements of the NavigationView allows you to quickly find the information required to configure them.
 
+![Telerik UI for .NET MAUI NavigationView Visual Structure](images/navigationview-visual-structure.png)
+
+## Displayed Elements
+
+* **Navigation View Header**&mdash;The area that holds the navigation header content and toggle button.
+* **Navigation View Header Content**&mdash;Represents the content in the [navigation header]({%slug navigationview-navigation-header%}).
+* **Navigation View Toggle Button**&mdash;Used for opening/closing the pane. For more details review the [navigation header]({%slug navigationview-navigation-header%}) article.
+* **Navigation View Pane**&mdash;The area that holds the pane header, pane footer, and pane content.
+* **Pane Header**&mdash;Sticky area on the top of the [pane]({%slug navigationview-pane%}).
+* **Pane Content**&mdash;Scrollable area between [the pane header and the pane footer]({%slug navigationview-pane%}). By default all items in the pane are added to the content, if `Position` is not explicitly defined. 
+* **Pane Footer**&mdash;Sticky area to the bottom of the [pane]({%slug navigationview-pane%}).
+* **NavigationView Content**&mdash;Represents a content in the NavigationView.
 
 ## See Also
 
-- [.NET MAUI NavigationView Product Page](https://www.telerik.com/maui-ui/navigationview)
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Setting different Display Mode]({%slug navigationview-display-mode%})
+- [Selecting an item]({%slug navigationview-selection%})
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Item]({%slug navigationview-items%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
+- [Events]({%slug navigationview-events%})
+- [Commands]({%slug navigationview-commands%})

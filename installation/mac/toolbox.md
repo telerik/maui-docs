@@ -9,7 +9,9 @@ previous_url: /installation/mac/toolbox-extension-mac
 
 # Telerik Toolbox for .NET MAUI on macOS
 
-Telerik products support the Toolbox extension for Visual Studio (VS) on macOS. The Toolbox facilitates the process of adding Telerik controls to your .NET MAUI application.
+The Telerik .NET MAUI product has a support for Toolbox extension in Visual Studio (VS) on macOS. The Toolbox facilitates the process of adding Telerik controls to your .NET MAUI application.
+
+>important Telerik Visual Studio Toolbox extension for Mac will be phased out in 2024, following the [discontinuation of Visual Studio for Mac](https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/). As a recommended replacement, consider using the [.NET MAUI Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) for Visual Studio Code. For detailed guidance on getting started with the .NET MAUI Extension for Visual Studio Code, refer to our [blog post](https://www.telerik.com/blogs/beyond-basics-getting-started-net-maui-extension-visual-studio-code).
 
 ## Adding Controls with the Toolbox
 

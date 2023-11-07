@@ -12,11 +12,11 @@ Customize the Scheduler header through the following configuration properties:
 
 ## Today Button
 
-Scheduler header includes an optional Today button which navigates the currently active view to the Today date. You can define whether the Today button should be available to the end users through the `IsTodayButtonVisible` boolean property. By default Today button is enabled.
+The Scheduler header includes an optional **Today** button, which navigates the currently active view to today's date. You can define whether the **Today** button will be available to the end users through the `IsTodayButtonVisible` boolean property. By default the **Today** button is enabled.
 
 ## Views Title and Format
 
-Each view added to the Scheduler ViewDefinitions collection is listed inside the header. You can modify the representation of the views in the header through `Title` and `HeaderTextFormat` properties of the view.
+Each view added to the Scheduler `ViewDefinitions` collection is listed inside the header. You can modify the representation of the views in the header through the `Title` and `HeaderTextFormat` properties of the view.
 
 * `Title`&mdash;Specifies the title of the view definition.
 * `HeaderTextFormat`&mdash;Defines the format string for the header text.
@@ -25,6 +25,11 @@ Each view added to the Scheduler ViewDefinitions collection is listed inside the
 
 <snippet id='scheduler-header-properties' />
 
+Check the result below:
+
+![Telerik .NET MAUI Scheduler Header](../images/scheduler-header.png)
+
 ## See Also
 
+- [Header Visual Structure]({% slug scheduler-header-visual-structure %})
 - [Views]({% slug scheduler-views-overview %})

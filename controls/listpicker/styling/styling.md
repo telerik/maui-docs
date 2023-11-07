@@ -74,7 +74,7 @@ The following image shows how the ListPicker looks when the styling properties a
 
 ![ListPicker Styling](../images/listpicker_styling.png)
 
->important For a sample styling example, refer to the **ListPicker/Styling** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug maui-demo-app%}).
+>important For a sample styling example, refer to the **ListPicker/Styling** folder of the [Telerik UI for .NET MAUI SDKBrowser Application]({%slug sdkbrowser-app%}).
 
 ## See Also
 

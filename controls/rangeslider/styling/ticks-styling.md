@@ -34,6 +34,10 @@ Here is a quick example on how the `TicksStyleSelector` can be applied to set se
 
 <snippet id='rangeslider-ticksttyling-style'/>
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Ticks Styling](images/rangeslider-ticks-styling.png)
+
 ## See Also
 
 - [Ticks]({% slug rangeslider-ticks%})

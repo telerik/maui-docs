@@ -12,10 +12,10 @@ The RangeSlider for .NET MAUI can show ticks along the track in order to enable 
 
 ## Ticks Step and Placement
 
-In order to display ticks you need to define `TickStep` and `TickPlacement` properties of the RangeSlider.
+To display ticks along the track, define `TickStep` and `TickPlacement` properties of the RangeSlider.
 
 * `TickStep(double)`&mdash;Defines at what positions/values ticks will be displayed.
-* `TicksPlacement(type Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement)`&mdash;Specifies the position of the ticks in the RangeSlider with respect to its track. Available options are:
+* `TicksPlacement(type Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement)`&mdash;Specifies the position of the ticks in the RangeSlider with respect to its track. The available options are:
     * `None`&mdash;no ticks are displayed.
     * `Start`&mdash;ticks appear above the track.
     * `Center`&mdash;ticks appear in the track area of the slider, overlaying the track.
@@ -33,21 +33,27 @@ The snippet below shows how the ticks configuration settings can be applied:
 
 <snippet id='rangeslider-ticks-settings' />
 
-## TickTemplate
+Check the result below:
 
-Through `TickTemplate` property you can customize the appearance of the ticks.
+![Telerik RangeSlider for .NET MAUI Ticks](images/rangeslider-ticks-settings.png)
+
+## Tick Template
+
+Through the `TickTemplate` property you can customize the appearance of the ticks.
 
 * `TickTemplate (DataTemplate)`&mdash;Defines the template of the RangeSlider ticks.
 
 Check below a sample `TickTemplate` example:
 
-First define the custom DataTemplate:
+**1.** First define the custom DataTemplate:
 
 <snippet id='rangeslider-ticks-ticktemplate-datatemplate' />
 
-Then apply it to the RangeSlider's `TickTemplate`:
+**2.** Then apply it to the RangeSlider's `TickTemplate`:
 
 <snippet id='rangeslider-ticks-ticktemplate-xaml' />
+
+![Telerik RangeSlider for .NET MAUI Ticks Template](images/rangeslider-ticks-template.png)
 
 ## See Also
 

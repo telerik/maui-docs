@@ -16,16 +16,18 @@ Display text in the `NavigationViewItem` by setting the `Text` (`string`) proper
 
 ## Setting Image
 
-Display image in the `NavigationViewItem` by setting the `ImageSource` (`Microsoft.Maui.Controls.ImageSource`) property.
+Display images in the `NavigationViewItem` by setting the `ImageSource` (`Microsoft.Maui.Controls.ImageSource`) property.
 
 ## Setting Position
 
-You can configure the navigation items position by adding them to the Pane header, footer or to the content.
+You can configure the navigation items' position by adding them to the Pane header, footer, or to the content.
 
-* `Position` (enum of type `Telerik.Maui.Controls.NavigationView.NavigationViewItemPosition`)&mdash;Specifies the position of the navigation item. the available options are: 
+* `Position` (enum of type `Telerik.Maui.Controls.NavigationView.NavigationViewItemPosition`)&mdash;Specifies the position of the navigation item. The available options are: 
 	* Default `Content`&mdash;The navigation item is placed in the content area of the `NavigationViewPane` control.
 	* `Header`&mdash;The navigation item is placed in the header area of the `NavigationViewPane` control.
 	* `Footer`&mdash;The navigation item is placed in the footer area of the `NavigationViewPane` control.
+
+>note The content area is scrollable, while the header and the footer are sticky.
 
 ## Setting Selection
 
@@ -36,35 +38,74 @@ The .NET MAUI `NavigationViewItem` exposes the following properties related to t
 
 ## Setting Custom Content
 
-Customize the `NavigationViewItem` content by using the `ControlTemplate` (`ControlTemplate`) property.
+Customize the `NavigationViewItem` content by using the `ContentTemplate` (`DataTemplate`) property.
+
+Here is an example with `ContentTemplate` property.
+
+**1.** Define the `ContentTemplate` in the resources:
+
+<snippet id='navigationview-navigationitem-contenttemplate' />
+
+**2.** Set the `ContentTemplate` to the NavigationViewItem:
+
+```XAML
+<telerik:RadNavigationView x:Name="navigationView"
+                            HeaderText="NavigationView Header">
+    <telerik:RadNavigationView.Items>
+        <telerik:NavigationViewItem Text="Search"
+                                    Position="Header"
+                                    ContentTemplate="{StaticResource SearchTemplate}"
+                                    IsSelectable="False">
+        </telerik:NavigationViewItem>
+        <telerik:NavigationViewItem Text="Item 1" />
+        <telerik:NavigationViewItem Text="Item 2" />
+        <telerik:NavigationViewItem Text="Item 5" />
+    </telerik:RadNavigationView.Items>
+</telerik:RadNavigationView>
+```
 
 ## Setting Visibility and Enabled State
 
 Change the visibility of the `NavigationViewItem` by setting the `IsVisible` (`bool`) property.
 
-Change the enabled state if the `NavigationViewItem` by setting the `IsEnabled` (`bool`) property.
+Change the enabled state of the `NavigationViewItem` by setting the `IsEnabled` (`bool`) property.
 
 ## Configuring the Items
 
-You can further configure the navigation items by using the `ContentTemplate` (`DataTemplate`) property, and customize the NavigationViewItem by using the `ControlTemplate` (`ControlTemplate`) property.
-
-Here is an example with `ContentTemplate` property.
-
-<snippet id='navigationview-navigationitem-contenttemplate' />
+You can further configure the NavigationView items by using the `ControlTemplate` (`ControlTemplate`) property.
 
 Here is an example with `ControlTemplate` property.
 
+**1.** Define the `ControlTemplate` in the resources:
+
 <snippet id='navigationview-navigationitem-controltemplate' />
+
+**2.** Set the `ContentTemplate` to the NavigationViewItem:
+
+```XAML
+<telerik:RadNavigationView x:Name="navigationView"
+                            HeaderText="NavigationView Header">
+    <telerik:RadNavigationView.Items>
+        <telerik:NavigationViewItem Text="Item 1" />
+        <telerik:NavigationViewItem Text="Item 2" />
+        <telerik:NavigationViewItem Text="Item 3" />
+        <telerik:NavigationViewItem ControlTemplate="{StaticResource ItemTemplate}"/>
+        <telerik:NavigationViewItem Text="Item 5" />
+    </telerik:RadNavigationView.Items>
+</telerik:RadNavigationView>
+```
+
+> For the runnable NavigationView Navigation Item example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Features > Pane Header and Footer example**.
 
 ## Events
 
 The .NET MAUI `NavigationViewItem` exposes the following events:
 
-* `Clicked`&mdash;Raised when the navigation item is clicked.The `Clicked` event handler receives two parameters:
+* `Clicked`&mdash;Raised when the navigation item is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
-* `IsSelectedChanged`&mdash; Raised when the NavigationViewItem IsSelected property has changed. The `IsSelectedChanged` event handler receives two parameters:
+* `IsSelectedChanged`&mdash;Raised when the NavigationView item `IsSelected` property has changed. The `IsSelectedChanged` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `NavigationViewItem`.
 	* `System.EventArgs`.
 
@@ -73,12 +114,18 @@ The .NET MAUI `NavigationViewItem` exposes the following events:
 * `Command` (`ICommand`)&mdash;Executed when the navigation item is clicked.
 * `CommandParameter`&mdash;Specifies the parameter to the command which is executed when the navigation item is clicked.
 
-## Styling
+## Next Steps
 
-How to style the navigation items is described in the [NavigationItem Styling]({%slug navigationview-item-styling%}) article.
+How to style the NavigationView items is described in the [NavigationItem Styling]({%slug navigationview-item-styling%}) article.
 
 ## See Also
 
-- [.NET MAUI NavigationView Forum Page](https://www.telerik.com/forums/maui?tagId=1978)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Setting different Display Mode]({%slug navigationview-display-mode%})
+- [Selecting an item]({%slug navigationview-selection%})
+- [Configure the Navigation Pane]({%slug navigationview-pane%})
+- [Configure the Navigation Header]({%slug navigationview-navigation-header%})
+- [Navigation Item Styling]({%slug navigationview-item-styling%})
+- [Navigation Pane Styling]({%slug navigationview-pane-styling%})
+- [Navigation Header Styling]({%slug navigationview-styling%})
+- [Events]({%slug navigationview-events%})
+- [Commands]({%slug navigationview-commands%})

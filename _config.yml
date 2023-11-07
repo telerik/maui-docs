@@ -368,6 +368,9 @@ navigation:
     controls/scheduler/specialslots:
         title: "Special Slots"
         position: 9
+    controls/scheduler/styling:
+        title: "Styling"
+        position: 20
     ## End Scheduler
     ## SegmentedControl
     controls/segmentedcontrol:
@@ -475,7 +478,7 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
-        product: "maui-ui"
+        product: "maui"
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"

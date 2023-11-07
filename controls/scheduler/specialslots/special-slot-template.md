@@ -14,13 +14,17 @@ By default the special slots are marked with a different background, so that the
 
 Here is a quick example how to apply a custom slot template to the Scheduler:
 
-Add the template to the page resources:
+**1.** Add the template to the page resources:
 
 <snippet id='scheduler-customslots-resources' />
 
-Add the Scheduler definition with the `SpecialSlotTemplate` applied:
+**2.** Add the Scheduler definition with the `SpecialSlotTemplate` applied:
 
 <snippet id='scheduler-special-slots-template' />
+
+Check the image below which shows the applied `SpecialSlotTemplate`:
+
+![Telerik .NET MAUI Scheduler Special Slot Template](../images/scheduler-specialslots-template.png)
 
 ## See Also
 

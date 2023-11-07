@@ -6,35 +6,31 @@ position: 1
 slug: pdfviewer-search-toolbar
 ---
 
-# .NET MAUI PDF Viewer Search Toolbar items
+# .NET MAUI PDF Viewer Search Toolbar Items
 
-The .NET MAUI PDF Viewer provides built-in support for text searching. Through the exposed commands related to search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
+The .NET MAUI PDF Viewer provides built-in support for text searching. Through the exposed commands related to the search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
 
 In addition, `RadPdfViewerToolbar` exposes predefined toolbar items wired to the search. 
+
+* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for mobile usage. By default the items are auto-populated. You can disable this by setting the `AutoGenerateItems` to `false`.
+* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for desktop usage.
+
+Both toolbar items have predefined items: 
 
 * `PdfViewerNavigateToNextSearchResultToolbarItem`&mdash;Represents a button item which navigates to the next search result in the PDF Viewer control.
 * `PdfViewerNavigateToPreviousSearchResultToolbarItem`&mdash;Represents a button item which navigates to the previous search result in the PDF Viewer control.
 * `PdfViewerSearchBusyIndicatorToolbarItem`&mdash;Represents a busy indicator which is displayed while calculating the search results.
 * `PdfViewerSearchEntryToolbarItem`&mdash;Represents an entry item to input search terms in the search toolbar.
-* `PdfViewerSearchNavigationToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for desktop usage, but you can also use it on mobile.
-
-By default the items are auto-populated. You can disable this by setting the `AutoGenerateItems` to `false`.
-
-* `PdfViewerSearchToolbarItem`&mdash;Represents a button item which activates the search functionality in PDF Viewer. This toolbar create a default set of toolbar items within the currently displayed toolbar item. This toolbar item is developed for mobile usage, but you can also use it on desktop.
 
 >note If the text in the entry is cleared, the search results will be cleared as well.
 
-This is how the search toolbar looks on mobile:
+This is how the search toolbar looks:
 
-![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search-mobile.png "PDF Viewer Search Toolbar")
+![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search.png "PDF Viewer Search Toolbar")
 
-And how the search toolbar looks on desktop:
+By default, the search operation occurs when the user clicks the Search button on the keyboard on mobile and the `Enter` key on the physical keyboard on desktop devices. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
 
-![.NET MAUI PdfViewer Search Toolbar](../images/pdf-toolbar-search-desktop.png "PDF Viewer Search Toolbar")
-
-By default, search operation occurs when the user clicks the `Search` button of the keyboard on mobile, and the `Enter` key of the physical keyboard on desktop. You can modify this behavior by setting the `TextSearchTrigger` property of the `SearchSettings`. `TextSearchTrigger` is an enum of type `Telerik.Maui.Controls.PdfViewer.PdfViewerSearchTrigger`, and you can use it to define when a search operation can be performed. The available options are:
-
-* `None`&mdash;Programmatically calls the search operation.
+* `None`&mdash;Only programmatic calls are allowed
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.
 * `Completed` (default)&mdash;Search operation is triggered when the corresponding entry completes (by pressing Enter/Return key).
 
@@ -58,7 +54,26 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Custom Search Toolbar
 
-You can customize the search toolbar item by setting the 
+On mobile, customize the `PdfViewerSearchNavigationToolbarItem` by setting the `AutoGenerateItems` to `false`. Then add separate toolbar items to the `Items` collection of the `PdfViewerSearchNavigationToolbarItem`.
+
+Here is an example:
+
+```XAML
+<telerik:RadPdfViewerToolbar OverflowMode="Scroll">
+    <telerik:PdfViewerSearchToolbarItem IsVisible="{OnIdiom Phone=False, Desktop=True}"/>
+    <telerik:PdfViewerSearchNavigationToolbarItem IsVisible="{OnIdiom Phone=True, Desktop=False}" AutoGenerateItems="False">
+        <telerik:PdfViewerSearchNavigationToolbarItem.Items>
+            <telerik:PdfViewerSearchEntryToolbarItem />
+            <telerik:PdfViewerNavigateToPreviousSearchResultToolbarItem/>
+            <telerik:PdfViewerNavigateToNextSearchResultToolbarItem/>
+        </telerik:PdfViewerSearchNavigationToolbarItem.Items>
+    </telerik:PdfViewerSearchNavigationToolbarItem>
+    <telerik:PdfViewerToggleLayoutModeToolbarItem />
+    <telerik:PdfViewerNavigateToPreviousPageToolbarItem />
+    <telerik:PdfViewerNavigateToNextPageToolbarItem />
+    <telerik:PdfViewerNavigateToPageToolbarItem />
+</telerik:RadPdfViewerToolbar>
+```
 
 ### Example
 

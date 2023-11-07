@@ -33,6 +33,10 @@ Here is a quick example on how the `LabelStyleSelector` can be applied to set se
 
 <snippet id='rangeslider-styling-labelsstyleselector-xaml'/>
 
+Check the result below:
+
+![Telerik RangeSlider for .NET MAUI Labels Styling](images/rangeslider-labels-styling.png)
+
 ## See Also
 
 - [Labels]({% slug rangeslider-labels%})

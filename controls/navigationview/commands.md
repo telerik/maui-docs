@@ -16,15 +16,23 @@ The available commands are:
 * `ClosePaneCommand` (`ICommand`)&mdash;Gets the command which closes the pane.
 * `TogglePaneCommand` (`ICommand`)&mdash;Gets the command which opens and closes the pane.
 
-## Example with Commands
-
 Here is an example how to use the commands:
 
-**1.**  Define the NavigationView control:
+**1.**  Bind the NavigationView commands to buttons command:
+
+```XAML
+<HorizontalStackLayout Spacing="5">
+    <Button Text="Open Pane" Command="{Binding OpenPaneCommand, Source={x:Reference navigationView}}"/>
+    <Button Text="Close Pane" Command="{Binding ClosePaneCommand, Source={x:Reference navigationView}}"/>
+    <Button Text="Toggle Pane" Command="{Binding TogglePaneCommand, Source={x:Reference navigationView}}"/>
+</HorizontalStackLayout>
+```
+
+**2.**  Define the NavigationView control:
 
 <snippet id='navigationview-commands' />
 
-**2.** Add the `telerik` namespaces:
+**3.** Add the `telerik` namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

@@ -22,6 +22,10 @@ Set the `Culture` property to the `RadScheduler` instance:
 
 <snippet id='scheduler-culture-set' />
 
+Here is the result:
+
+![Telerik .NET MAUI Scheduler Globalization](images/scheduler-globalization.png)
+
 ## See Also
 
 - [Localization]({% slug scheduler-localization %})

@@ -25,8 +25,10 @@ The TimePicker for .NET MAUI provides language localization. The localization ke
 | `Picker_HourSpinnerHeaderLabelText` | `Hours` |
 | `Picker_MinuteSpinnerHeaderLabelText` | `Minutes` |
 | `Picker_SecondSpinnerHeaderLabelText` | `Seconds` |
-| `Picker_Popup_AcceptButtonText` | `OK` |
+| `Picker_Popup_AcceptButtonText` | `Ok` |
 | `Picker_Popup_CancelButtonText` | `Cancel` |
+| `Picker_DropDown_AcceptButtonText`  | `Ok` |
+| `Picker_DropDown_CancelButtonText`  | `Cancel` |
 
 > important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
