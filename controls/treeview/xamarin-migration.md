@@ -56,19 +56,23 @@ When migrating the TreeView from Xamarin to .NET MAUI, consider the following di
 | `LoadOnDemand` command | `LoadChildrenOnDemandCommand` |
 | N/A | `ExpandAllCommand` |
 | N/A | `CollapseAllCommand` |
+| N/A | `ExpandCommand` |
+| N/A | `CollapseCommand` |
 | N/A | `CheckAllCommand` |
 | N/A | `UncheckAllCommand` |
+| N/A | `UncheckCommand` |
+| N/A | `CheckCommand` |
 | N/A | `ScrollToCommand` |
 | N/A | `ItemCheckedCommand` |
 | N/A | `ItemUncheckedCommand` |
 | `ExpandAll()` | `ExpandAll()` |
 | `ExpandAll()` | `CollapseAll()` |
-| `Expand()` | N/A |
-| `Collapse()` | N/A |
+| `Expand()` | `Expand()` |
+| `Collapse()` | `Collapse()` |
 | N/A | `CheckAlll()` |
 | N/A | `UnCheckAll()` |
-| `CheckItem()` | through `CheckedItems` collection |
-| `UncheckItem()` | through `CheckedItems` collection |
+| `CheckItem()` | `Check()` |
+| `UncheckItem()` | `Uncheck()` |
 | `ItemStyle` (applies on TreeView level) | `ItemStyle` (applies on TreeView level), `ItemStyle` (applies on TreeViewDescriptor level) |
 | `ItemStyleSelector` (applies on TreeView level) | `ItemStyleSelector` (applies on TreeView level), `ItemStyleSelector` (applies on TreeViewDescriptor level) |
 
