@@ -54,7 +54,7 @@ The following snippet shows how to set the `SelectionStyle` property:
 
 <snippet id='datagrid-styling-selectionstyle'/>
 
-For styling the `CurrentCell` by suing the `CurrentCellStyle` property, review the [Cells]({%slug datagrid-current-cell%}#styling-the-cell) article.
+For styling the `CurrentCell` by using the `CurrentCellStyle` property, review the [Cells]({%slug datagrid-current-cell%}#styling-the-cell) article.
 
 ## Text on Hover
 

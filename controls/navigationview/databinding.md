@@ -29,7 +29,7 @@ You can present complex data in the navigation items by using the `ItemTemplate`
 
 ## Examples
 
-Let's create examples for DataBinding, Item Style and Item Template and selectors. All examples uses the same ViewModel, business model and converter for the images in the navigation items:
+Let's create examples for Data Binding, Item Style, Item Template and selectors. All examples use the same ViewModel, business model and a converter for the images in the navigation items:
 
 **1.** Add the following ViewModel:
 
@@ -63,7 +63,7 @@ __Example with Data Binding__
 
 <snippet id='navigationview-databinding-fonts-resources'/>
 
-__Example ItemStyle__
+__Example with ItemStyle__
 
 **1.** Define the NavigationView in XAML:
 
@@ -73,7 +73,7 @@ __Example ItemStyle__
 
 <snippet id='navigationview-databinding-itemstyle'/>
 
-__Example ItemStyleSelector__
+__Example with ItemStyleSelector__
 
 **1.** Define the NavigationView in XAML:
 
@@ -87,7 +87,7 @@ __Example ItemStyleSelector__
 
 <snippet id='navigationview-styleselector'/>
 
-__Example ItemTemplate__
+__Example with ItemTemplate__
 
 **1.** Define the NavigationView in XAML:
 
@@ -97,7 +97,7 @@ __Example ItemTemplate__
 
 <snippet id='navigationview-databinding-navigationitemtemplate'/>
 
-__Example ItemTemplateSelector __
+__Example with ItemTemplateSelector__
 
 **1.** Define the NavigationView in XAML:
 
