@@ -1,6 +1,6 @@
 ---
 title: Viewport Settings
-page_title: .NET MAUI PdfViewer Documentation - PdfViewer Viewport
+page_title: .NET MAUI PDF Viewer Documentation - Viewport Settings
 description: Learn how to get and change the viewport of the Telerik UI for .NET MAUI PDF Viewer control.
 position: 5
 slug: pdfviewer-viewport

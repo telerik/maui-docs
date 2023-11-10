@@ -63,6 +63,8 @@ __Example with Data Binding__
 
 <snippet id='navigationview-databinding-fonts-resources'/>
 
+> For the runnable NavigationView DataBinding example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
+
 __Example with ItemStyle__
 
 **1.** Define the NavigationView in XAML:
@@ -72,6 +74,8 @@ __Example with ItemStyle__
 **2.** Define the `ItemStyle` resources in the page's resources:
 
 <snippet id='navigationview-databinding-itemstyle'/>
+
+> For the runnable NavigationView ItemStyle example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
 __Example with ItemStyleSelector__
 
@@ -87,6 +91,8 @@ __Example with ItemStyleSelector__
 
 <snippet id='navigationview-styleselector'/>
 
+> For the runnable NavigationView ItemStyleSelector example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
+
 __Example with ItemTemplate__
 
 **1.** Define the NavigationView in XAML:
@@ -96,6 +102,8 @@ __Example with ItemTemplate__
 **2.** Define the `ItemTemplate` in the page's resources:
 
 <snippet id='navigationview-databinding-navigationitemtemplate'/>
+
+> For the runnable NavigationView ItemTemplate example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
 __Example with ItemTemplateSelector__
 
@@ -110,6 +118,8 @@ __Example with ItemTemplateSelector__
 **3.** The `NavigationItemTemplateSelector` implementation:
 
 <snippet id='navigationview-databinding-templateselector'/>
+
+> For the runnable NavigationView ItemTemplateSelector example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
 ## See Also
 
