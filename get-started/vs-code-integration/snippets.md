@@ -61,7 +61,7 @@ To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI fo
 | tm-popup                   | [Popup]({%slug popup-overview%}) |
 | tm-progressbar             | [ProgressBar]({%slug progressbar-overview%})           |
 | tm-rangeslider             | [RangeSlider]({%slug rangeslider-overview%}) |
-| tm-rating                  | [Rating]({%slug rating-overview}) |
+| tm-rating                  | [Rating]({%slug rating-overview%}) |
 | tm-templated-rating        | [Rating]({%slug rating-overview%}) |
 | tm-richtexteditor          | [RichTextEditor]({%slug richtexteditor-overview%}) |
 | tm-scheduler               | [Scheduler]({%slug scheduler-overview%})   |
