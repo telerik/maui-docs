@@ -144,6 +144,9 @@ navigation:
     ## ComboBox
     controls/combobox:
         title: "ComboBox"
+    controls/combobox/keyboard-navigation:
+        title: "Keyboard Navigation"
+        position: 6
     ## End ComboBox
     ## DataForm
     controls/dataform:
