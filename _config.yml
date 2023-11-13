@@ -38,6 +38,9 @@ navigation:
     installation/mac:
         title: "Mac"
         position: 4
+    installation/vs-code-integration:
+        title: "Visual Studio Code Integration"
+        position: 5
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
     ## Accordion
