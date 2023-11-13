@@ -24,7 +24,7 @@ Here is an example for `HeaderTemplate`:
 
 **1.** Define the `RadNavigationView`:
 
-<snippet id='navigationview-headertemplate' />
+<snippet id='navigationview-header' />
 
 **2.** Define the `HeaderTemplate`:
 

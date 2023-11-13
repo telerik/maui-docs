@@ -8,17 +8,27 @@ slug: treeview-expand-collapse
 
 # Expanding and Collapsing TreeView Items
 
-The `RadTreeView` control exposes methods that allow you to control the state of its items:
+The `RadTreeView` control exposes methods and commands that allow you to control the expand/collapse state of its item/all items.
 
+The available methods are:
+
+* `Expand(params object[] itemPath)`&mdash;Expands the item in hierarchy with the specified path. The `itemPath` parameter specifies the path to an item in the hierarchy to expand. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `Collapse(params object[] itemPath)`&mdash;Collapses the item in hierarchy with the specified path. The `itemPath` parameter specifies the path to an item in the hierarchy to collapse. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
 * `ExpandAll()`&mdash;Expands all items in the source collection.
 * `CollapseAll()`&mdash;Collapses all items in the source collection.
 
-> On Android and iOS, when tapping on the TreeView item, the item gets expanded. On WinUI and MacCatalyst, the item gets expanded when tapping on the arrow **>**. 
+The available commands are:
 
+* `ExpandCommand`&mdash;Gets a command to expand a specific item in the control. The command accepts a parameter specifying the path to the item. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `CollapseCommand`&mdash;Gets a command to collapse a specific item in the control. The command accepts a parameter specifying the path to the item. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `ExpandAllCommand`&mdash;Gets a command to expand all items in the control.
+* `CollapseAllCommand`&mdash;Gets a command to collapse all items in the control.
+
+> On Android and iOS, when tapping on the TreeView item, the item gets expanded. On WinUI and MacCatalyst, the item gets expanded when tapping on the arrow **>**. 
 
 ![.NET MAUI TreeView Expand and Collapse](images/treeview-expand-collapse.gif)
 
-## Example: Expanding and Collapsing TreeView Items
+## Example: Expanding and Collapsing All TreeView Items
 
 **1.** Define the TreeView control:
 
