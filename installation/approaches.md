@@ -56,9 +56,9 @@ Apart from the described steps in the getting started guides, you can also use a
 * During the MSI installation&mdash;After you have [automatically installed Telerik UI for .NET MAUI with the MSI file]({%slug maui-getting-started %}), the assemblies will be located in the `C:\Program Files\Progress\` (for 32bit machines) or `C:\Program Files (x86)\Progress\` (for 64bit machines) default directory.
 * Using the ZIP file - Alternatively, you can download the ZIP file with all the Telerik UI for .NET MAUI assemblies as described in the article on the [available product files]({%slug download-product-files %}). You can then unzip the file to any location on your machine and reference the assemblies from that location.
 
-No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net6` and `Binaries/Net7` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
+No matter whether you've used the `.msi` automatic installation or the `zip` file, you'll receive the `Binaries/Net7` and `Binaries/Net8` folders, which contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
 
-To manually reference the assembly references, create a `libs` folder in your solution folder. Then, copy the content from the desired .NET folder into your "libs" folder (e.g. `Binaries/NET6` copyto-> `libs`). You can now directly reference the DLLs in that `libs` folder instead of the installation folder.
+To manually reference the assembly references, create a `libs` folder in your solution folder. Then, copy the content from the desired .NET folder into your "libs" folder (e.g. `Binaries/NET7` copyto-> `libs`). You can now directly reference the DLLs in that `libs` folder instead of the installation folder.
 
 Note that *Visual Studio 2022 does not have support for differentiating DLL references for each target platform*, you must manually edit the csproj file and add conditions for each target platform.
 
