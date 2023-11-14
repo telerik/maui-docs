@@ -21,7 +21,7 @@ The properties described below are used in a combination with the `ItemsSource` 
 
 ## Styling the Navigation Items
 
-You can style the generated items by setting the `ItemStyle` (`Style` with target type `NavigationViewItemView`) property or use a conditional styling by setting the `ItemStyeSelector` (of type `IStyleSelector` with `Style` property with target type `NavigationViewItemView`). Both properties are applicable when `ItemsSource` property is used.
+You can style the generated items by setting the `ItemStyle` (`Style` with target type `NavigationViewItemView`) property or use a conditional styling by setting the `ItemStyleSelector` (of type `IStyleSelector` with `Style` property with target type `NavigationViewItemView`). Both properties are applicable when `ItemsSource` property is used.
 
 ## Customizing the Navigation Items
 
@@ -69,7 +69,7 @@ __Example with ItemStyle__
 
 **1.** Define the NavigationView in XAML:
 
-<snippet id='avigationview-databinding-itemstyle-xaml'/>
+<snippet id='navigationview-databinding-itemstyle-xaml'/>
 
 **2.** Define the `ItemStyle` resources in the page's resources:
 

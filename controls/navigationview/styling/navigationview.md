@@ -66,7 +66,7 @@ You can customize the visual states to the `NavigationViewToggleButton`. Here is
 
 ## Styling the Overlay
 
-You can display an overlay when the Pane opens by setting the `IsDismissOverlayVisible` (`bool`) property. The default value is `false`.
+An overlay is displayed initially when the `DisplayMode` of the NavigationView is set to `Minimal` or `Compact`. Otherwise the overlay is not visible.
 
 You can style the overlay by using the following properties:
 
