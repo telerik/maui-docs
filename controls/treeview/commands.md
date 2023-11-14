@@ -13,9 +13,13 @@ The .NET MAUI TreeView provides various commands that allow you to initiate expa
 | Commands | Description |
 | -------- | ---------- |
 | `ExpandAllCommand` (`ICommand`) | Gets a command to expand all items in the control. |
+| `ExpandCommand` (`ICommand`) | Gets a command to expand a specific item in the control. |
 | `CollapseAllCommand` (`ICommand`) | Gets a command to collapse all items in the control. |
+| `CollapseCommand` (`ICommand`) | Gets a command to collapse a specific item in the control. |
 | `CheckAllCommand` (`ICommand`) | Gets a command to check all items in the control. |
+| `CheckCommand` (`ICommand`) | Gets a command to check a specific item in the control. |
 | `UncheckAllCommand` (`ICommand`) | Gets a command to uncheck all items in the control. |
+| `UncheckCommand` (`ICommand`) | Gets a command to uncheck a specific item in the control. |
 | `ScrollToCommand` (`ICommand`) | Gets a command to uncheck all items in the control. |
 | `ItemExpandedCommand` (`ICommand`) | Defines a command to execute when an item is expanded after a user interaction. The command should accept a single parameter with the expanded item. |
 | `ItemCollapsedCommand` (`ICommand`) | Defines a command to execute when an item is collapsed after a user interaction. The command should accept a single parameter with the collapsed item. |
