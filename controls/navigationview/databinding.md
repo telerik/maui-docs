@@ -63,6 +63,10 @@ __Example with Data Binding__
 
 <snippet id='navigationview-databinding-fonts-resources'/>
 
+Here is how the NavigationView looks when `ItemsSource` is set:
+
+![Telerik UI for .NET MAUI NavigationView ItemsSource](images/navigationview-databinding.gif)
+
 > For the runnable NavigationView DataBinding example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
 __Example with ItemStyle__
@@ -74,6 +78,10 @@ __Example with ItemStyle__
 **2.** Define the `ItemStyle` resources in the page's resources:
 
 <snippet id='navigationview-databinding-itemstyle'/>
+
+Here is how the NavigationView looks when `ItemsSource` is set and `ItemStyle` is applied:
+
+![Telerik UI for .NET MAUI NavigationView ItemsSource and ItemStyle](images/navigationview-itemssource-style.png)
 
 > For the runnable NavigationView ItemStyle example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
@@ -91,6 +99,10 @@ __Example with ItemStyleSelector__
 
 <snippet id='navigationview-styleselector'/>
 
+Here is how the NavigationView looks when `ItemsSource` is set and `ItemStyleSelector` is applied:
+
+![Telerik UI for .NET MAUI NavigationView ItemsSource and ItemStyle](images/navigationview-itemssource-style.png)
+
 > For the runnable NavigationView ItemStyleSelector example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
 __Example with ItemTemplate__
@@ -102,6 +114,10 @@ __Example with ItemTemplate__
 **2.** Define the `ItemTemplate` in the page's resources:
 
 <snippet id='navigationview-databinding-navigationitemtemplate'/>
+
+Here is how the NavigationView looks when `ItemsSource` is set and `ItemTemplate` is applied:
+
+![Telerik UI for .NET MAUI NavigationView ItemsSource and ItemStyle](images/navigationview-itemssource-template.png)
 
 > For the runnable NavigationView ItemTemplate example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
@@ -118,6 +134,10 @@ __Example with ItemTemplateSelector__
 **3.** The `NavigationItemTemplateSelector` implementation:
 
 <snippet id='navigationview-databinding-templateselector'/>
+
+Here is how the NavigationView looks when `ItemsSource` is set and `ItemTemplateSelector` is applied:
+
+![Telerik UI for .NET MAUI NavigationView ItemsSource and ItemStyle](images/navigationview-itemssource-templateselector.png)
 
 > For the runnable NavigationView ItemTemplateSelector example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **NavigationView > Data Binding category**.
 
