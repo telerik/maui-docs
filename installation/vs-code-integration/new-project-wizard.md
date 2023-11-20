@@ -15,7 +15,7 @@ This article demonstrates how to use the Telerik Extension for Visual Studio Cod
 
 To use the **Telerik UI for .NET MAUI Template Wizard**, install the Telerik UI for .NET MAUI Visual Studio Code Extension. You can get the extension from:
 
- - The Visual Studio Marketplace.
+ - [The Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools).
 
  - The Extensions tab in Visual Studio Code - search for Telerik UI for .NET MAUI Productivity Tools, select the extension, and then click Install.
 
