@@ -14,7 +14,7 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 
 * `PropertyName`&mdash;Specifies the name of the property of the object type that represents each row within the grid.
 * `HeaderText`&mdash;Defines the content that will be displayed in the Header UI that represents the column.
-* `CellContentStyle`&mdash;Defines the `Style` object that sets the appearance of each cell associated with this column. The `TargetType` of the `Style` has to be of the `TextBlock` type.
+* `CellContentStyle`(`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with this column. 
 * `CellContentStyleSelector`&mdash;Defines the `StyleSelector` instance that allows for the dynamic appearance on a per-cell basis.
 * `CellContentFormat`&mdash;Defines the custom format for each cell value. The `String.Format` routine is used and the format passed has to be in the form required by this method.
 * `CellContentTemplate`(`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. The `CellContenTemplate` enables you to customize the default content of the cell.
