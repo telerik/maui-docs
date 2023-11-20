@@ -50,7 +50,11 @@ The available commands are:
 
 <snippet id='treeview-getting-started-viewmodel' />
 
-> For a runnable example demonstrating the TreeView Expand and Collapse feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Expand and Collapse**.
+Here is how the TreeView Expand/Collapse command execution looks:
+
+![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-item.gif)
+
+> For a runnable example demonstrating the TreeView Expand and Collapse feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Expand and Collapse or TreeView > Commands**.
 
 ## See Also
 
