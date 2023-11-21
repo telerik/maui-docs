@@ -39,7 +39,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Aggregates support]({%slug datagrid-aggregates%})&mdash;You can use the exposed API for applying aggregates functions.
 
-* [Keyboard navigation]({%slug datagrid-keyboard-support%})support&mdash;Use keyboard keys for navigation in the DataGrid control. Currently, this option is available on WinUI.
+* [Keyboard navigation]({%slug datagrid-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the DataGrid control. This feature is available on WinUI and MacCatalyst.
 
 * [Empty template]({%slug datagrid-empty-template%})&mdash;When the control does not have any data (`ItemsSource` is null or the collection is empty), an empty template is displayed in the DataGrid.
 

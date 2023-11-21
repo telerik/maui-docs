@@ -16,6 +16,8 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control used to build
 
 * [Display modes]({%slug navigationview-display-mode%})&mdash;You can use different modes to display the navigation pane&mdash;Compact, Expanded and Minimal. 
 * [Auto-changing the Display mode]({%slug navigationview-display-mode%})&mdash;NavigationView provides an option for automatically changing the display mode depending on the threshold width.
+* [Data Binding]({%slug navigationview-databinding%})&mdash;NavigationView has a support for binding to a complex object through the `ItemsSource` property.
+* [Complex Object Support]({%slug navigationview-databinding%})&mdash;NavigationView control provides you a way to specify which properties of your complex business object to be displayed as a text in the pane by setting the `DisplayMemberPath` property and as an image by setting the `ImageSourcePath` property.
 * [Navigation Header]({%slug navigationview-navigation-header%})&mdash;NavigationView has a navigation header that contains label and toggle navigation button that opens/closes the pane.
 * [Navigation Pane]({%slug navigationview-pane%})&mdash;The component has a pane that holds the navigation items, pane header, and footer.
 * [Pane Header and Footer]({%slug navigationview-pane%})&mdash;NavigationView allows you to add navigation items in the header, and in the footer. 
