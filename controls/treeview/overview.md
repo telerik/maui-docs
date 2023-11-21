@@ -17,9 +17,9 @@ To populate the TreeView, you can use any data source that is hierarchical in na
 ## Key Features
 
 * Hierarchical Navigation&mdash;TreeView improves the navigation and performance of your application where navigation over hierarchical structure is required.
-* [Expand/Collapse items]({%slug treeview-expand-collapse%})&mdash;The control introduces methods which can be used to programmatically expand/collapse all items. 
+* [Expand/Collapse items]({%slug treeview-expand-collapse%})&mdash;The control introduces methods which can be used to programmatically expand/collapse item or all items. 
 * [Commands]({%slug treeview-commands%})&mdash;TreeView provides commands for expanding, collapsing, checking, and unchecking the items. 
-* [Checkbox Support]({%slug treeview-checkboxes%})&mdash;Telerik `RadTreeView` provides checkbox buttons displayed next to each item. The `RadTreeView` allows the user to check/uncheck the nodes and to perform various tasks with the collection of checked nodes. The three states checkbox mode of the `RadTreeView` control allows the  `RadTreeViewItems`' checkboxes to have an additional, third state&mdash;Indeterminate.
+* [Checkbox Support]({%slug treeview-checkboxes%})&mdash;Telerik `RadTreeView` provides checkbox buttons displayed next to each item. The `RadTreeView` allows the user to check/uncheck the node or all nodes and to perform various tasks with the collection of checked nodes. The three states checkbox mode of the `RadTreeView` control allows the  `RadTreeViewItems`' checkboxes to have an additional, third state&mdash;Indeterminate.
 * [Data Binding]({%slug treeview-getting-started%})&mdash;Simply setting the collection of custom business objects as an `ItemsSource` in combination with a `TreeViewDescriptor` class to visualize the hierarchically-structured source.
 * Image elements&mdash;TreeView control allows you to display images in the TreeView item.
 * [Custom Item Template]({%slug treeview-item-template%})&mdash;Apply template to the TreeView items on `TreeViewDescriptor` level or on TreeView level.

@@ -26,7 +26,7 @@ You can load the HTML content from a string by using the static <code>FromString
 
 <snippet id='richtexteditor-getting-started' />
 
-Alternatively, you can create a [`RichTextHtmlStringSource`](/devtools/xamarin/api/telerik.xamarinforms.richtexteditor.richtexthtmlstringsource) object and assign it to the <code>Source</code> property of the RichTextEditor.
+Alternatively, you can create a [`RichTextHtmlStringSource`](/devtools/maui/api/telerik.maui.controls.richtexteditor.richtexthtmlstringsource) object and assign it to the <code>Source</code> property of the RichTextEditor.
 
 ### Load HTML from a Stream
 
@@ -34,7 +34,7 @@ Another option to preload HTML is by retrieving it from a stream through the sta
 
 <snippet id='richtexteditor-keyfeatures-fromstream' />
 
-Alternatively, you can create a [`RichTextHtmlStreamSource`](/devtools/xamarin/api/telerik.xamarinforms.richtexteditor.richtexthtmlstreamsource) object and set it as the <code>Source</code> of the RichTextEditor.
+Alternatively, you can create a [`RichTextHtmlStreamSource`](/devtools/maui/api/telerik.maui.controls.richtexteditor.richtexthtmlstreamsource) object and set it as the <code>Source</code> of the RichTextEditor.
 
 ## Retrieving HTML Content
 
