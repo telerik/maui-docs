@@ -12,11 +12,12 @@ slug: datagrid-columns-styling
 The DataGrid component provides styling mechanism for customizing the look of the columns and their cells.
 
 The styling mechanism is represented by the following properties:
-* `HeaderStyle` (`DataGridColumnHeaderStyle`)
-* `CellContentStyle` (`Style` with `TargetType` depending on the column type)
-* `CellDecorationStyle` (`DataGridBorderStyle`)
-* `CellEditorStyle` (`Style` with `TargetType` depending on the editor type)
-* `FooterStyle` (`DataGridColumnFooterStyle`)
+
+* `HeaderStyle` (`DataGridColumnHeaderStyle`)&mdash;Sets the style to the columns' headers.
+* `CellContentStyle` (`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with the column.
+* `CellDecorationStyle` (`DataGridBorderStyle`)&mdash;Defines the style of the border of each cell associated with the column.
+* `CellEditorStyle` (`Style` with `TargetType` depending on the editor type)&mdash;Defines the style that will be applied to the cell editor.
+* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the appearance of the column footer.
 
 ## Header Style
 
@@ -65,13 +66,12 @@ Style the `FilterIndicator` using the following properties:
 
 ## CellContentStyle
 
-The `CellContentStyle` property defines the appearance of each cell associated with the column. The target type of the `Style` object depends on the type of the column. For example, for `DataGridTextColumn` it will be of the `TextBlock` type. You can go to the [Column Types section]({%slug datagrid-columns-text-column%}), for example, to check the `TargetType` of each column type.
-
-The following properties can be used to define the style of the text cell elements:
+The `CellContentStyle` property defines the appearance of each cell associated with the column. `CellContentStyle` is of type `DataGridTextCellStyle` which provides the following properties for styling the cell text:
 
 * `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font of the cell text.
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
-* `Text` alignment (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
+* `HoverTextColor`&mdash;Sets the color of the cells text when the mouse hovers over it. Appicable only on Desktop.
+* `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
 
 Here is an example how to set the `CellContentStyle` property:
 

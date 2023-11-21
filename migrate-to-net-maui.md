@@ -14,7 +14,7 @@ This guide provides the information you need to convert your application, which 
 
 ## Step 1: Migrate the Xamarin Application to .NET MAUI
 
-While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 6.0 and, thus, update to .NET MAUI.
+While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 7.0/.NET 8.0 and, thus, update to .NET MAUI.
 
 The following list summarizes the required steps. For the detailed guide, go to the official Microsoft documentation on [how to migrate your Xamarin.Forms application to the .NET SDK style](https://docs.microsoft.com/en-us/dotnet/maui/get-started/migrate).
 

@@ -32,12 +32,33 @@ Here is how the Recursive `CheckBoxMode` looks:
 
 The control exposes a `CheckedItems` collection (`IList`). The collection holds the items that are currently checked.
 
-## Programmatically Check or Uncheck All Items
+## Programmatically Check or Uncheck Items
 
-The TreeView exposes two methods that enable you to programmatically check or uncheck all items:
+The TreeView exposes methods and commands that enable you to programmatically check or uncheck item/all items.
 
+The available methods are:
+
+* `Check(params object[] itemPath)`&mdash;Checks the item in hierarchy with the specified path. The `itemPath` parameter specifies the path to an item in the hierarchy to expand. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `UnCheck(params object[] itemPath)`&mdash;Unchecks the item in hierarchy with the specified path. The `itemPath` parameter specifies the path to an item in the hierarchy to expand. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
 * `CheckAll()`&mdash;Checks all items in the control.
 * `UnCheckAll()`&mdash;Unchecks all items in the control.
+
+The available commands are:
+
+* `CheckCommand`&mdash;Gets a command to check a specific item in the control. The command accepts a parameter specifying the path to the item. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `UncheckCommand`&mdash;Gets a command to uncheck a specific item in the control. The command accepts a parameter specifying the path to the item. The path is a collection if unique identifiers of items. The first element of the path identifies an item at the root level. The second element of the path identifies a child of the root item etc. The `Telerik.Maui.Controls.TreeView.TreeViewDescriptor.IdentityMemberPath` property has to be used to specify the unique identifier at each level of the hierarchy.
+* `CheckAllCommand`&mdash;Gets a command to expand all items in the control.
+* `UncheckAllCommand`&mdash;Gets a command to collapse all items in the control.
+
+Here is how the TreeView CheckAll/UncheckAll command execution looks:
+
+![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-items.gif)
+
+Here is how the TreeView Check/Uncheck command execution looks:
+
+![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-item.gif)
+
+> For a runnable example demonstrating the TreeView Check and Uncheck feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Commands category**.
 
 ## See Also
 
