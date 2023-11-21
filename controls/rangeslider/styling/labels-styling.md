@@ -15,7 +15,7 @@ The RangeSlider for .NET MAUI control provides styling properties for its labels
 * `FontSize`&mdash;Specifies custom font size to the labels.
 * `LabelStyle`&mdash;Defines custom style to the labels.
 
-* `LabelStyleSelector(type Telerik.Maui.Controls.IStyleSelector)`&mdash;Defines a selector that can apply different styles to different labels.
+* `LabelStyleSelector`(`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to different labels.
 
 Here is a quick example on how the `LabelStyleSelector` can be applied to set separate styles to the labels before the selected range, inside the selected range and after the selected range.
 
