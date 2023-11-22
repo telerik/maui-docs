@@ -10,7 +10,7 @@ slug: scheduler-more-indicator-styling
 
 The Scheduler Month View displays appointments for one month and allows users to browse through longer-term periods. The space for appointments on a particular day is limited, and if there are more appointments on that day, a more appointments indicator appears to notify the users that not all appointments are shown.
 
-You can customize the more appointments indicator through `DayMoreAppointmentsIndicatorStyle` property of the MonthViewDefinition.  
+You can customize the more appointments indicator through the `DayMoreAppointmentsIndicatorStyle` property of the MonthViewDefinition.  
 
 The following example demonstrates how to apply a sample style to the`DayMoreAppointmentsIndicatorStyle`:
 
