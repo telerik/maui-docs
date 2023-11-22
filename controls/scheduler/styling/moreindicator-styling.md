@@ -14,7 +14,7 @@ You can customize the more appointments indicator through `DayMoreAppointmentsIn
 
 The following example demonstrates how to apply a sample style to the`DayMoreAppointmentsIndicatorStyle`:
 
-**1.** Add a custom Style with TargetType set to `Label` to the page's resources:
+**1.** Add a custom Style with `TargetType` set to `Label` to the page's resources:
 
 <snippet id='scheduler-moreindicator-style'/>
 
