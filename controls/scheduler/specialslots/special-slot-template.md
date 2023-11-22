@@ -10,7 +10,7 @@ slug: scheduler-special-slot-template
 
 By default the special slots are marked with a different background, so that they are easily noticable across the view. In addition you can show a content of your choice inside special slots through the `SpecialSlotTemplate` property of the view definitions.
 
-* `SpecialSlotTemplate(DataTemplate)`&mdash;Defines the template of the special slots.
+* `SpecialSlotTemplate`(`DataTemplate`)&mdash;Defines the template of the special slots.
 
 Here is a quick example how to apply a custom slot template to the Scheduler:
 

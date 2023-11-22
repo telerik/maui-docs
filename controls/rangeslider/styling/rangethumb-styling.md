@@ -11,7 +11,7 @@ slug: rangeslider-rangethumb-styling
 RangeSlider for .NET MAUI provides styling options for its range thumb.  The range thumb includes start thumb, end thumb and range track. These elements can be styled separately through Fill and Style properties:
 
 * `StartThumbFill`(`Color`)&mdash;Applies fill color to the start thumb.
-* `RangeTrackFill`(`Color`)&mdash;Defines fill color to the track range.
+* `RangeTrackFill`(`Color`)&mdash;Defines fill color to the range track.
 * `EndThumbFill`(`Color`)&mdash;Sets fill color to the end thumb.
 
 * `StartThumbStyle`(`Style`)&mdash;Defines a custom style to the start thumb.
