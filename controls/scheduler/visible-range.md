@@ -16,7 +16,7 @@ The .NET MAUI Scheduler exposes `VisibleRange` property which you can use to get
 
 The visible range depends on the view—for some views, such as the Month View, the range is predefined, and for other views, such as the MultiDay View, you can define it through the `VisibleDays` property.
 
-You can use `VisibleRange` to get notified when the view is changed as well as when the user navigates through the dates of the active view. For that purpose subscribe to `PropertyChanged` of the Scheduler and look for `VisibleRange` changes:
+You can use `VisibleRange` to get notified when the view is changed as well as when the user navigates through the dates of the active view. For that purpose, subscribe to the `PropertyChanged` event of the Scheduler and look for `VisibleRange` changes:
 
 ```XAML
 <telerik:RadScheduler x:Name="scheduler"
