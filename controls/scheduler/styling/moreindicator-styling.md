@@ -18,7 +18,7 @@ The following example demonstrates how to apply a sample style to the`DayMoreApp
 
 <snippet id='scheduler-moreindicator-style'/>
 
-**.2** Define the Scheduler with a MonthViewDefinition with the `DayMoreAppointmentsIndicatorStyle` applied:
+**2.** Define the Scheduler with a `MonthViewDefinition` with the `DayMoreAppointmentsIndicatorStyle` applied:
 
 <snippet id='scheduler-moreindicatorstyling-definition'/>
 
