@@ -14,7 +14,7 @@ The .NET MAUI Scheduler exposes `VisibleRange` property which you can use to get
     * `Start`(`DateTime`)
     * `End`(`DateTime`)
 
-The visible range depends on the view - for some views such as Month View it is predefined and for other views such as MultiDay View you can define it through the `VisibleDays` property.
+The visible range depends on the view—for some views, such as the Month View, the range is predefined, and for other views, such as the MultiDay View, you can define it through the `VisibleDays` property.
 
 You can use `VisibleRange` to get notified when the view is changed as well as when the user navigates through the dates of the active view. For that purpose subscribe to `PropertyChanged` of the Scheduler and look for `VisibleRange` changes:
 
