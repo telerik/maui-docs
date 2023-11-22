@@ -1,7 +1,7 @@
 ---
 title: More Appointments Indicator Styling
 page_title: .NET MAUI Scheduler Documentation - More Appointments Indicator Styling
-description: Learn how to style the more appointments indicator in Month view of the Telerik .NET MAUI Scheduler control.
+description: Learn how to style the more appointments indicator in the Month view of the Telerik .NET MAUI Scheduler control.
 position: 9
 slug: scheduler-more-indicator-styling
 ---
