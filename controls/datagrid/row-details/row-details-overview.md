@@ -44,6 +44,9 @@ The DataGrid exposes the following properties that control the row details funct
 
 * `CanUserExpandMultipleRowDetails` (type `bool`)&mdash;The property indicates whether multiple row details can be expanded.
 
+
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+
 ## Next Steps
 
 - [Row Details Template]({%slug datagrid-row-details-template %})

@@ -51,6 +51,8 @@ The table below shows all commands in the DataGrid control and for each of the a
 | `KeyDown` | `KeyboardInfo` |
 | `ToggleRowDetailsButtonTap` | the `type` is the data model |
 
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+
 ## See Also
 
 - [CellTap Command]({%slug datagrid-commands-cell-tap%})

@@ -49,7 +49,7 @@ If you want to fully customize the group footers you can use the `GroupFooterTem
 
 > `GroupFooterTemplate` overrides the aggregates of the footer.
 
->tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 

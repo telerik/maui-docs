@@ -1,8 +1,8 @@
 ---
 title: Introduction
-page_title: Introduction
-description: "Kickstart your cross-platform app development with the comprehensive Telerik UI library of .NET MAUI controls and learn how to build native applications for Windows, macOS, Android, and iOS by reading the .NET MAUI documentation."
-tags: .net maui, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
+page_title: Introduction and Documentation
+description: "Learn how to build native applications for Windows, macOS, Android, and iOS by reading the Telerik UI for .NET MAUI documentation."
+tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
 position: 0
 ---
@@ -19,13 +19,15 @@ This brand-new UI library comes with [sample demo applications]({%slug sampleapp
 {% include cta-panel-maui-introduction.html %}
 {% endif %}
 
-![Telerik UI for .NET MAUI](front-image.png)
+![Telerik UI for .NET MAUI documentation](front-image.png)
 
 ## List of Controls
 
 Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI:
 
 {% include intro-page-table.html  %}
+
+By clicking on each control you will navigate to the detailed .NET MAUI documentation explaining the key features and how to utilize them.
 
 ## Trial Version and Commercial License
 
@@ -35,7 +37,7 @@ Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to 
 
 For any issues you might encounter while working with Telerik UI for .NET MAUI, you can use a number of available support channels:
 
-* UI for .NET MAUI license holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [UI for .NET MAUI dedicated support](https://www.telerik.com/account/support-tickets) system.
+* Telerik UI for .NET MAUI license holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [UI for .NET MAUI dedicated support](https://www.telerik.com/account/support-tickets) system.
 * [Telerik UI for .NET MAUI forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the Telerik UI for .NET MAUI team on all kinds of general issues and questions you have.
 * [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui) provides information on the features in discussion and also the planned ones for release.
 * For any features that have already been released, visit the [Telerik UI for .NET MAUI Release History](https://www.telerik.com/support/whats-new/maui-ui/release-history) and [What's New](https://www.telerik.com/support/whats-new/maui-ui) pages.
@@ -43,10 +45,10 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 
 ## Learning Resources
 
-* [Official Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui)
-* [Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)
-* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
-* [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)
+* [Official Microsoft .NET MAUI Documentation](https://docs.microsoft.com/en-us/dotnet/maui)&mdash; find the solutions, scenarios, and resources you need to get started with .NET MAUI.
+* [Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)&mdash;part of thе Telerik UI .NET MAUI documentation, provides a collection of knowledge base articles describing common use cases we came upon during our everyday work.
+* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)&mdash;the leading source of information on the Telerik UI for .NET MAUI- provides overview of each component included in the suite, What's New section, Release History, and more.
+* [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)&mdash;our in-depth Surfing in MAUI videos covering a variety of topics, from the why of transitioning to MAUI to DevOps in MAUI and more!
 
 ## Next Steps
 
