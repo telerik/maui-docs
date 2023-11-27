@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: .NET MAUI MaskedEntry Documentation - Localization
-description: Learn more about the maui localization options for applying different text for the validation error message when device culture is changed in the Telerik UI for .NET MAUI MaskedEntry control.
+description: Learn more about the MAUI localization options for applying different text for the validation error message when device culture is changed in the Telerik UI for .NET MAUI MaskedEntry control.
 position: 8
 tags: maui localization, maui, localization, dotnet maui
 slug: maskedentry-localization

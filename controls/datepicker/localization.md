@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: .NET MAUI DatePicker Documentation - Localization
-description: Learn more about the maui localization approaches and the common picker keys supported by the Telerik UI for .NET MAUI DatePicker component.
+description: Learn more about the MAUI localization approaches and the common picker keys supported by the Telerik UI for .NET MAUI DatePicker component.
 position: 9
 tags: maui localization, maui, localization, dotnet maui
 slug: datepicker-localization
