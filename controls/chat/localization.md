@@ -1,8 +1,9 @@
 ---
 title: Localization
 page_title: .NET MAUI Conversational UI Documentation - Localization
-description: Learn more about the localization that Conversational UI provides
+description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI Chat control.
 position: 8
+tags: maui localization, maui, localization, dotnet maui
 slug: chat-localization
 ---
 

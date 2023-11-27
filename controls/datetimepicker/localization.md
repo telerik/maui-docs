@@ -1,8 +1,9 @@
 ---
 title: Localization
 page_title: .NET MAUI DateTimePicker Documentation - Localization
-description: Use the localization options of the DateTimePicker for .NET MAUI.
+description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI DateTimePicker control.
 position: 4
+tags: maui localization, maui, localization, dotnet maui
 slug: datetimepicker-localization
 ---
 
@@ -37,7 +38,7 @@ Telerik UI for .NET MAUI DateTimePicker provides language localization. In short
 
 Check in the image below how the localization strings are presented in Date and Time Picker:
 
-![DateTimePicker Localization](images/datetimepicker-localization.png)
+![MAUI localization for DateTimePicker](images/datetimepicker-localization.png)
 
 ## See Also
 
