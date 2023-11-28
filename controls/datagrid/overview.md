@@ -17,7 +17,7 @@ When the data from a database is sent to the client, usually converted to a Busi
 
 The optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
-![.NET MAUI DataGrid Overview](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
+![Telerik .NET MAUI DataGrid](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
 
 ## Key Features of the Telerik .NET MAUI Grid
 

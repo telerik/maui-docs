@@ -26,3 +26,5 @@ The Telerik DataGrid allows you to apply filtering to the DataGrid column using 
 ## Programmatic Filtering
 
 Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.

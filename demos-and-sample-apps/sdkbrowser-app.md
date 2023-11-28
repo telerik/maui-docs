@@ -48,3 +48,10 @@ You can access the SDKBrowser application in the following ways:
  `dotnet build -t:Run -f net7.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
  
  where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
+
+>tip Check the [.NET MAUI Examples, Demos, and Sample Apps Overview]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
+
+## See Also
+
+- [Controls Samples App]({%slug controls-samples-app%})
+- [Crypto Tracker App]({%slug maui-crypto-app%})
