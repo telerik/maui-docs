@@ -46,7 +46,7 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 ## Learning Resources
 
 * [Official Microsoft .NET MAUI Documentation](https://docs.microsoft.com/en-us/dotnet/maui)&mdash;Find the solutions, scenarios, and resources you need to get started with .NET MAUI.
-* [Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)&mdash;part of thе Telerik UI .NET MAUI documentation, provides a collection of knowledge base articles describing common use cases we came upon during our everyday work.
+* [Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)&mdash;As part of the Telerik UI .NET MAUI documentation, the Knowledge Base provides a collection of articles describing common use cases we came upon during our everyday work.
 * [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)&mdash;The leading source of information on Telerik UI for .NET MAUI—it provides an overview of each component included in the suite, What's New section, Release History, and more.
 * [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)&mdash;Allows you in-depth surfing through the .NET MAUI videos that cover a variety of topics—from the why of transitioning to MAUI to DevOps in MAUI and more!
 
