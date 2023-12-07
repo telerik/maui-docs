@@ -25,9 +25,9 @@ To create a global popup control in Popup for MAUI that can be displayed on any 
 
 Here's an example of how to create a global popup control in MAUI:
 
-**1.** Lets start with the `Content` property. The `Content` property of the RadPopup control can be anything of type View. If you want to use the entire `ContentPage` as the placement target, you can define the `RadPopup` on the root `ContentPage` and expose a public property to interact with the popup globally. 
+**1.** Start with the `Content` property. The `Content` property of the `RadPopup` control can be anything of type View. If you want to use the entire `ContentPage` as the placement target, you can define the `RadPopup` on the root `ContentPage` and expose a public property to interact with the popup globally. 
 
-If you're using Shell, there's an `AppShell` class that is the host of all the app's ContentPages, so you can define a single `Popup` instance there:
+If you're using `Shell`, there's an `AppShell` class that is the host of all the app's ContentPages, so you can define a single `Popup` instance there:
 
 ```xaml
 <Shell ...>
@@ -84,6 +84,6 @@ private void ShowPopup()
 }
 ```
 
-Note: If you need to interact with the global popup from a view model using MVVM, you can use .NET MAUI's Dependency Injection services. Refer to the [CustomMauiExamples repository](https://github.com/xamarin/CustomMauiExamples/tree/main/PopupServiceDemo) for a sample implementation.
+>If you need to interact with the global popup from a view model using MVVM, you can use .NET MAUI's Dependency Injection services. Refer to the [CustomMauiExamples repository](https://github.com/xamarin/CustomMauiExamples/tree/main/PopupServiceDemo) for a sample implementation.
 
 That's it! You have now created a global popup control in Popup for MAUI that can be displayed on any screen.
