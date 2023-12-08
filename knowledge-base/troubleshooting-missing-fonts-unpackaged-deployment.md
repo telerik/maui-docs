@@ -34,11 +34,9 @@ Make sure to replace "font1.ttf" and "Font1" with the actual file name and font 
 
 4. Build and run the app to verify if the fonts are loading correctly in the unpackaged deployment.
 
-If the issue persists, please check the following:
+If the issue persists, check the following:
 
-- Double-check the spelling and case sensitivity of the font file names and font family names.
-- Ensure that the font files are included in your project and set to **Build Action** of **Copy Always**.
-- Verify that the font files are correctly registered in the `MauiProgram.cs` file.
+- Double-check the spelling and case sensitivity of the font file and font family names.
 - Test the app on both Windows 10 and Windows Server 2019 to rule out any platform-specific issues.
 
 If the issue still persists after following these steps, please provide a reproducible project and reach out to the Microsoft MAUI team for further investigation.
