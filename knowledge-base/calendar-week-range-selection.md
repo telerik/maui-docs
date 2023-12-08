@@ -23,7 +23,7 @@ res_type: kb
 
 ## Description
 
-This article shows how to select a week in the Calendar for .NET MAUI when tapping/clicking on a date from this week. At the end you will receive the following result:
+This article shows how to select a week in the Calendar for .NET MAUI when tapping or clicking on a date from this week. In the end, you will receive the following result:
 
 ![.NET MAUI Calendar Week Selection](images/calendar-week-range-selection.gif)
 
