@@ -43,7 +43,7 @@ You need to define a Calendar and on `SelectionChanged` event implement the get 
 </Grid>
 ```
 
-**2.** The `SelectionChanged` implementation:
+**2.** Handle the `SelectionChanged` event to get the first day of the week, and then select the range for the whole week.
 
 ```C#
 public partial class MainPage : ContentPage
