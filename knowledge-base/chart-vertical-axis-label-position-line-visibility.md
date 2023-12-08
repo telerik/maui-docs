@@ -27,7 +27,9 @@ res_type: kb
 
 ## Description
 
-The differences between the vertical axis labels position is because the native Android and iOS charts are two different controls and do not have 100 % appearance-matching across all the platforms. In order to make any further customization on the RadChart control, the native chart should be used. This article will show you how to position the VericalAxes Labels on iOS on the left to make it look as on Android.
+The differences in the position of the vertical axis labels are caused by the fact that the native Android and iOS Charts are two different controls and their appearance isn't always the same on all platforms.
+
+To further customize the `RadChart` control, use the native Chart. This article shows how to position the Vertical Axis Labels on iOS on the left and make them mimic Android.
 
 ![.NET MAUI Chart iOS Y axis customization](images/chart-vertical-axes-label-position-ios.png)
 
