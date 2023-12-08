@@ -1,5 +1,5 @@
 ---
-title: Vertical axis label position on iOS same as on Android
+title: Vertical Axis Label Position on iOS Same as on Android
 description: Learn how to position the y axis labels on left and display the axis line on iOS Chart for .NET MAUI.
 type: how-to
 page_title: iOS Chart - Y axis labels position and line visibility
