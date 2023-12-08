@@ -2,7 +2,7 @@
 title: How to Select Week Range in the .NET MAUI Calendar
 description: Learn how to configure the .NET MAUI Calendar and enable the user to select a week from the Calendar when tapping on a day.
 type: how-to
-page_title: Week selection in .NET MAUI Calendar
+page_title: Week Selection in the .NET MAUI Calendar
 slug: calendar-week-range-selection
 position: 
 tags: calendar, dotnet, maui, week selection, range selection
