@@ -29,7 +29,7 @@ This article shows how to select a week in the Calendar for .NET MAUI when tappi
 
 ## Solution
 
-You need to define a Calendar and on `SelectionChanged` event implement the get the first day of week and then select the range for the whole week.
+To achieve the desired result, define a Calendar, and then handle the `SelectionChanged` event:
 
 **1.** Define the Calendar in XAML:
 
