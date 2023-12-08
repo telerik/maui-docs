@@ -27,7 +27,7 @@ res_type: kb
 
 ## Description
 
-This article shows how to set `CursorPosition` property to the MaskedEntry control when the control receives Focus.
+This article shows how to set the `CursorPosition` property of the MaskedEntry control when the control receives Focus.
 
 ## Solution
 
