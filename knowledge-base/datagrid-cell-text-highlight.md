@@ -33,7 +33,7 @@ Generally, to achieve the desired scenario, use a Telerik UI for .NET MAUI Entry
 
 To highlight the text in the DataGrid, use a `CellTemplateColumn` and add a `RadHighlightLabel` in it. Then, set the `UnformattedText`, `HighlightText`, and `HighlightTextColor` properties of the `RadHighlight` label to get the following result:
 
-![DataGrid Highlighted Text](images/highlightedtext.png)
+![.NET MAUI DataGrid Highlighted Text](images/highlightedtext.png)
 
 By binding the `HighlightText` property to the text value of the Entry you will be able to get the characters which need to be highlighted. The `UnformattedText` property must be bound to the `ItemsSource` propertys.
 
