@@ -26,7 +26,7 @@ The following example demonstrates how to set the `AnimationSettings` property:
 					    Grid.Row="1"
 					    Grid.Column="1">
     <telerik:RadRadialGauge.AnimationSettings>
-        <telerik:AnimationSettings x:Name="gauge1Animations" Easing="CubicOut" />
+        <telerik:AnimationSettings x:Name="gauge1Animations" Easing="{Static Easing.CubicOut}" />
     </telerik:RadRadialGauge.AnimationSettings>
     <telerik:RadRadialGauge.Axis>
         <telerik:GaugeLinearAxis Maximum="200"
