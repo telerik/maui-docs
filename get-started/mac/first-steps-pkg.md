@@ -32,7 +32,7 @@ Telerik UI for .NET MAUI enables you to download the suite either from the [Tele
 
   ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
 
-1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
+1. On the next page, download the `.pkg` automatic installation file.
 
   ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
