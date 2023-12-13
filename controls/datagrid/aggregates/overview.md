@@ -32,6 +32,8 @@ The aggregate results can also be visualized in the group header next to the tit
 
 ![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
 
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+
 ## See Also
 
 - [Property Aggregate Descriptor]({%slug datagrid-property-aggregate-descriptor%})

@@ -32,7 +32,7 @@ Telerik UI for .NET MAUI enables you to download the suite either from the [Tele
 
   ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
 
-1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
+1. On the next page, download the `.msi` automatic installation file.
 
   ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
@@ -50,7 +50,7 @@ Now, you are all set to start with the installation:
     * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
     * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
     * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
-	  * `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
+	* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
 
     ![Telerik .NET MAUI Installation folder with the displayed subdirectories](../../images/telerik-ui-for-maui-installation-folder.png)
 

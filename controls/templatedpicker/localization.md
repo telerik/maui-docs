@@ -1,7 +1,7 @@
 ---
 title: Localization
 page_title: Telerik .NET MAUI TemplatedPicker Documentation - Localization
-description: Review the Localization keys that Telerik .NET MAUI TemplatedPicker control provides.
+description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI TemplatedPicker control.
 position: 9
 slug: templatedpicker-localization
 ---

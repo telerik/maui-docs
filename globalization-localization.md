@@ -1,9 +1,9 @@
 ---
 title: Globalization and Localization
-page_title: .NET MAUI - Localization and Globalization
-description: Learn how you can utilize the localization and globalization features of the Telerik UI for .NET MAUI controls.
+page_title: NET MAUI - Localization and Globalization - Telerik UI
+description: Discover how to leverage the Telerik UI for .NET MAUI controls for MAUI localization and globalization features.
 slug: globalization-localization
-tags: localization, globalization, datepicker, maskedentry, timepicker, timespanpicker, culture, device culture, numeric input.
+tags: maui localization, maui, localization, globalization, datepicker, maskedentry, timepicker, timespanpicker, culture, device culture, numeric input
 position: 6
 ---
 
@@ -11,7 +11,7 @@ position: 6
 
 Localization and Globalization is the process of designing and developing your application in such a way that it adapts to different languages and culture configurations.
 
-This topic provides an overview on how you could utilize localization and globalization feature of Telerik UI for .NET MAUI controls.
+This topic provides an overview on how you could utilize the Telerik .NET MAUI localization and globalization feature of the Telerik .NET MAUI controls.
 
 ## Globalization
 
@@ -131,6 +131,6 @@ InitializeComponent();
 
 The image below shows the localization applied to the MaskedEntry ValidationErrorMessage
 
-![localization for masked entry](images/maskentry-localization-validation-error-message.png)
+![MAUI localization for masked entry](images/maskentry-localization-validation-error-message.png)
 
 >important You can check working localization examples in the **MaskedEntry/Features** folder within the [SDK .NET MAUI application]({%slug sdkbrowser-app%}).

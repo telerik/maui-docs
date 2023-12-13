@@ -12,8 +12,8 @@ Range thumb represents the start-end range inside the slider - it consists of th
 
 The slider's range thumb is drawn corresponding to its `RangeStart` and `RangeEnd` values. Users can modify the range start value by dragging the start thumb, the end range value by dragging the end thumb, and both start and end simultenously by dragging the range track.
 
-* `RangeStart(double)`&mdash;Specifies the start value of the range inside the slider.
-* `RangeEnd(double)`&mdash;Specifies the end value of the range inside the slider.
+* `RangeStart`(`double`)&mdash;Specifies the start value of the range inside the slider.
+* `RangeEnd`(`double`)&mdash;Specifies the end value of the range inside the slider.
 
 Check a quick example on how to define `RangeStart` and `RangeEnd` properties:
 
@@ -25,11 +25,23 @@ RangeSlider supports different dragging options&mdash;only the start thumb, only
 
 You can control the available dragging options through the `DragMode` property of the RangeSlider:
 
-* `DragMode (type Telerik.Maui.Controls.RangeSlider.RangeSliderDragMode)`&mdash;Defines the available elemenents of the range thumb that can be dragged. You can choose from:
+* `DragMode`(`Telerik.Maui.Controls.RangeSlider.RangeSliderDragMode`)&mdash;Defines the available elemenents of the range thumb that can be dragged. You can choose from:
     * `Disabled`&mdash;drag is not enabled.
     * `StartThumb`&mdash;the start thumb can be dragged.
     * `RangeTrack`&mdash;the range track (the part between the start and end thumbs) can be dragged.
     * `EndThumb`&mdash;the end thumb can be dragged.
+
+Check below some quick examples:
+
+#### Only Range Thumbs:
+
+<snippet id='rangeslider-drag-both-thumbs-xaml' />
+
+#### Only Range Track:
+
+<snippet id='rangeslider-drag-rangetrack-xaml' />
+
+#### Disabled:
 
 <snippet id='rangeslider-drag-disabled-xaml' />
 

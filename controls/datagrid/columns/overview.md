@@ -91,7 +91,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-club-model' />
 
->tip For an outline of all grid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+>tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 

@@ -1,9 +1,10 @@
 ---
 title: Localization
 page_title: .NET MAUI List Picker Documentation - Localization
-description: Review the localization keys exposed in the Telerik .NET MAUI ListPicker control.
-position: 8
+description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI ListPicker control.
+tags: maui localization, maui, localization, dotnet maui
 slug: listpicker-localization
+position: 8
 ---
 
 # .NET MAUI ListPicker Localization
