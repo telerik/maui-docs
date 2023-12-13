@@ -54,7 +54,7 @@ For detailed information on how to utilize any of the listed commands, go to the
 
 ## Styling
 
-You can change the visual appearance of each editor through the `CellEditorStyle` property of the `DataGridColumn`. To the `CellEditorStyle`, apply a `Xamarin.Forms.Style` with a `TargetType` set to the corresponding to each column editor control.
+You can change the visual appearance of each editor through the `CellEditorStyle` property of the `DataGridColumn`. To the `CellEditorStyle`, apply a `Microsoft.Maui.Controls.Style` with a `TargetType` set to the corresponding to each column editor control.
 
 The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColumn`.
 
