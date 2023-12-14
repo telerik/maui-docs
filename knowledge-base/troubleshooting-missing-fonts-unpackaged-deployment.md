@@ -8,9 +8,9 @@ tags: troubleshooting, fonts, unpackaged deployment, .NET MAUI
 res_type: kb
 ---
 # Environment
-| Product | Progress® Telerik® UI for .NET MAUI |
-| ------- | --------------------------------- |
-| Version | 6.5.0                             |
+| Product | Version |
+| ------- | ------- |
+| Progress® Telerik® UI for .NET MAUI | 6.5.0 |
 
 ## Description
 I am experiencing an issue with missing fonts in an unpackaged deployment of my .NET MAUI app. When I publish the app as an exe, the fonts are not loaded. I have followed the documentation and tried different approaches, but the issue persists.
