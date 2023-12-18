@@ -1,12 +1,12 @@
 ---
-title: Column Reordering
+title: Columns Reordering
 page_title: .NET MAUI DataGrid Documentation - Column Reordering
 description: Check our &quot;Reordering&quot; documentation article for Telerik DataGrid for .NET MAUI control.
 position: 7
 slug: datagrid-columns-reordering
 ---
 
-# .NET MAUI DataGrid Column Reordering
+# .NET MAUI DataGrid Columns Reordering
 
 The DataGrid exposes a reordering feature allowing the user to drag and drop columns and change their order.
 

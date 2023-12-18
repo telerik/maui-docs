@@ -1,77 +1,49 @@
 ---
-title: Overview
-page_title: .NET MAUI DataGrid Documentation - Columns Overview
+title: Defining Columns
+page_title: .NET MAUI DataGrid Documentation - Defining Columns
 description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 0
 previous_url: /controls/datagrid/columns/datagrid-columns-overview
 slug: datagrid-columns-overview
 ---
 
-# .NET MAUI DataGrid Columns
+# .NET MAUI DataGrid Defining Columns
 
-You can add columns in your `RadDataGrid` by working with the Columns collection of the control. It has three approaches that you can take to define different columns:
+The DataGrid for .NET MAUI provides three approaches that you can take to define different columns:
 
-* `Manually`: by adding columns to the `RadDataGrid.Columns` collection
-* `Automatically`: by setting `RadDataGrid.AutoGenerateColumns="True"`
-* `Mixed`: by adding columns to the `RadDataGrid.Columns` collection and also set `RadDataGrid.AutoGenerateColumns="True"`
+* `Manually`: by adding columns to the DataGrid's `Columns` collection and set `AutoGenerateColumns` property to `False`.
+* `Automatically`: by setting `AutoGenerateColumns` property to `True` (default value).
+* `Mixed`: by adding columns to the `Columns` collection and also set `AutoGenerateColumns`to `True` (default value).
 
-The `RadDataGrid` control provides the following type of columns:
+## Automatic Columns Generation
 
-* `Text Column`: Represents a column that converts the content of each associated cell to a System.String object.
-* `Numerical Column`: Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
-* `Boolean Column`: A special `DataGridTypedColumn` implementation that presents Boolean data.
-* `Date Column:` An extended `DataGridTextColumn` that presents data of type `DateTime`.
-* `Time Column`: Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
-* `ComboBox Column`: Represents an extended `DataGridTextColumn` that uses a Picker editor to select value from a collection.
-* `Template Column`: Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
+By default, the DataGrid will generate typed columns automatically based on the underlying data type. When, for example, you set the `ItemsSource` of the `RadDataGrid` to a collection of clubs (see code in Example 1 and the result in Figure 1), the control will create a separate column for each public property of the `Club` object.
 
->important When `RadDataGrid.AutoGenerateColumns`="True", the `RadDataGrid` generates typed columns depending on the underlying data type.
+## Manual Columns Definition
 
-## Properties
+Using the built-in auto generation of columns does not fit all scenarios. In such cases you can manually define the needed columns. When defining a column you can choose between several column types:
 
-All types of columns inherit from the `DataGridColumn` class which provides the following properties:
+* [Text Column]({%slug datagrid-columns-text-column%})&mdash;Represents a column that converts the content of each associated cell to a System.String object.
+* [Numerical Column]({%slug datagrid-columns-numerical-column%})&mdash;Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
+* [Boolean Column]({%slug datagrid-columns-boolean-column%})&mdash;An extended `DataGridTextColumn` implementation that presents Boolean data.
+* [Date Column]({%slug datagrid-columns-date-column%})&mdash;An extended `DataGridTextColumn` that presents data of type `DateTime`.
+* [Time Column]({%slug datagrid-columns-time-column%})&mdash;Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
+* [ComboBox Column]({%slug datagrid-columns-picker-column})&mdash;Represents an extended `DataGridTextColumn`  which cell value editor is a Telerik.Maui.Controls.RadComboBox control.
+* [Template Column]({%slug datagrid-columns-template-column%})&mdash;Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
+ * [ToggleRowDetails Column]({%slug datagrid-columns-toggle-column%})&mdash;Represents a column that allows the user to show and hide the row details for an item.
 
-* `HeaderText`(`string`)&mdash;Specifies the content to be displayed in the Header UI that represents the column.
-* `HeaderStyle`(`DataGridColumnHeaderStyle`)&mdash;Specifies the Style instance that defines the appearance of the `DataGridColumnHeader` control.
-* `HeaderContentTemplate`(`DataTemplate`)&mdash;Specifies the `DataTemplate` instance that defines the appearance of the header.
-* `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
-* `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the `Style` object that sets the appearance of each footer cell associated with this column.
-* `FooterContentTemplate`(`DataTemplate`)&mdash;Defines the appearance of the footer.
-* `SizeMode`(`DataGridColumnSizeMode`)&mdash;Gets or sets the `DataGridColumnSizeMode` value that controls how the column and its associated cells are sized horizontally.
-  * Fixed&mdash;The column has a fixed width as defined by its Width property.
-  * Stretch&mdash;The column is stretched to the available width proportionally to its desired width.
-  * Auto&mdash;The columns is sized to its desired width. That is the maximum desired width of all associated cells.
-* `Width`(`double`)&mdash;Specifies the fixed width for the column. Applicable when the `SizeMode` property is set to `DataGridColumnSizeMode.Fixed`.
-* `MinimumWidth`(`double`)&mdash;Specifies the minimum width of a column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `Minimumwidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
-* `ActualWidth`(`double`)&mdash;Gets the actual width of the column.
-* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`. This is only supported in `WinUI` and `MacCatalyst`.
-* `IsAutoGenerated`(bool)&mdash;Gets a value indication whether the column is auto-generated internally.
-* `CanUserEdit`(`bool`)&mdash;Specifies whether the user can edit the values in this column.
-* `CanUserFilter`(`bool`)&mdash;Specifies whether the user can filter this column by using the built-in Filtering UI.
-* `CanUserSort`(`bool`)&mdash;Specifies whether the user can sort the data by the values in this column.
-* `IsVisible`(`bool`)&mdash;Gets a value indicating if a specific column should be visualized.
-* `CellDecorationStyle`(`DataGridBorderStyle`)&mdash;Defines the Style object that defines the background of each cell associated with this column.
-* `CellDecorationStyleSelector`(DataGridStyleSelector): Defines the `StyleSelector` instance that allows for dynamic decoration on a per cell basis.
-* `CellContentTemplate`(`DataTemplate`)&mdash;Defines the appearance of each cell associated with concrete column.
-* `CellEditTemplate`(`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
-* `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
-* `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`. This is only supported in `WinUI` and `MacCatalyst`.
+For the typed columns (Text, Numerical, Boolean, Date, Time and ComboBox) you can define which property of the underlying data object the column represents in the following ways:
 
->tip More information about `CellDecorationStyle` and  `CellDecorationStyleSelector` can be found in [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+* `PropertyName`&mdash;Specifies the name of the property of the data object being displayed in the column's cells.
+* `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell. With `DataMemberBinding` you have control over the way data is formatted and displayed in the DataGrid cells, for example you can add a string formatter or a value converter.
 
->tip More information about `CellContentTemplate` and  `CellEditTemplate` can be found in [Columns Styling]({%slug datagrid-cell-templates%}) topic.
-
->note To enable the user edit mode of the `RadDataGrid` cell, set the *RadDataGrid.UserEditMode="Cell"*.
-
-## Example with DataGrid Columns
-
-Here is an example containing all types of columns `RadDataGrid` control provides.
+The example below demonstrates `RadDataGrid` with various types of columns. In addition both `PropertyName` and `DataMemberBinding` are used for the different columns to set the property each column represents. 
 
 **1.** Use the following snippet to declare a `RadDataGrid` in XAML:
 
 <snippet id='datagrid-columns-example' />
 
-**2.** Where the `telerikDataGrid` namespace is the following:
+**2.** Where the `telerik` namespace is the following:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -91,10 +63,50 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-club-model' />
 
+**6.** Add the `BoolToValueConverter` to the page's resources:
+
+<snippet id='datagrid-columns-converter' />
+
+# Columns Features
+
+Find below a quick overview of the DataGrid's Columns features.
+
+## Column Headers
+
+The top cell of a column is called Header. Its purpose is to set a caption for the column, which describes the data displayed in it. The .NET MAUI DataGrid provides fully customizable column headers, check [Column Headers]({%slug datagrid-column-header%}) for detailed information on them.
+
+## Columns Cell Templates
+
+The DataGrid provides a set of predefined column types such Text Column, Numerical Column, etc. In case you need to extend the functionality of a column, for example customize the default appearance or add more UI elements, use the exposed templates - `CellContentTemplate` and `CellEditTemplate`. For detailed information on them, go to [Columns Cells Templates]({%slug datagrid-cell-templates%}) topic.
+
+## Column Footers
+
+The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column. Take a look at the [Column Footers]({%slug datagrid-column-footer%}) for detailed information.
+
+## Column Resizing
+
+Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feature is available only on Desktop - WinUI and MacCatalyst. For more details on it go to [Column Resizing]({%slug datagrid-column-resizing%}) topic.
+
+## Columns Width
+
+The DataGrid provides flexible mechanism for setting columns' width through columns' `SizeMode` and `Width` properties. For more details on this go to [Columns Width]({%slug datagrid-columns-width%}) topic.
+
+## Frozen Columns
+
+You can pin a column on the left side of the DataGrid by setting the `IsFrozen` property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. For detailed information on this, go to [Frozen Columns]({%slug datagrid-frozen-columns%}) topic.
+
+## Columns Reordering
+
+The DataGrid exposes a reordering feature allowing the user to drag and drop columns and change their order. Take a look at [Columns Reordering]({%slug datagrid-columns-reordering%}) topic for more details on it.
+
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 
-- [ComboBox Column]({%slug datagrid-columns-picker-column %})
-- [Template Column]({%slug datagrid-columns-template-column %})
-- [Text Column]({%slug datagrid-columns-text-column %})
+- [Column Headers]({%slug datagrid-column-header%})
+- [Columns Cells Templates]({%slug datagrid-cell-templates%})
+- [Column Footers]({%slug datagrid-column-footer%})
+- [Column Resizing]({%slug datagrid-column-resizing%})
+- [Columns Width]({%slug datagrid-columns-width%})
+- [Frozen Columns]({%slug datagrid-frozen-columns%})
+- [Columns Reordering]({%slug datagrid-columns-reordering%})
