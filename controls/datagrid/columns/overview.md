@@ -47,7 +47,7 @@ Using the built-in auto generation of columns does not fit all scenarios. In suc
 * [Time Column]({%slug datagrid-columns-time-column%})&mdash;Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
 * [ComboBox Column]({%slug datagrid-columns-picker-column%})&mdash;Represents an extended `DataGridTextColumn`  which cell value editor is a Telerik.Maui.Controls.RadComboBox control.
 * [Template Column]({%slug datagrid-columns-template-column%})&mdash;Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
- * [ToggleRowDetails Column]({%slug datagrid-columns-toggle-column%})&mdash;Represents a column that allows the user to show and hide the row details for an item.
+* [ToggleRowDetails Column]({%slug datagrid-columns-toggle-column%})&mdash;Represents a column that allows the user to show and hide the row details for an item.
 
 For the typed columns (Text, Numerical, Boolean, Date, Time and ComboBox) you can define which property of the underlying data object the column represents in the following ways:
 
@@ -84,35 +84,35 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-columns-converter' />
 
-# Columns Features
+## Columns Features
 
 Find below a quick overview of the DataGrid's Columns features.
 
-## Column Headers
+### Column Headers
 
 The top cell of a column is called Header. Its purpose is to set a caption for the column, which describes the data displayed in it. The .NET MAUI DataGrid provides fully customizable column headers, check [Column Headers]({%slug datagrid-column-header%}) for detailed information on them.
 
-## Columns Cell Templates
+### Columns Cell Templates
 
 The DataGrid provides a set of predefined column types such Text Column, Numerical Column, etc. In case you need to extend the functionality of a column, for example customize the default appearance or add more UI elements, use the exposed templates - `CellContentTemplate` and `CellEditTemplate`. For detailed information on them, go to [Columns Cells Templates]({%slug datagrid-cell-templates%}) topic.
 
-## Column Footers
+### Column Footers
 
 The DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column. Take a look at the [Column Footers]({%slug datagrid-column-footer%}) for detailed information.
 
-## Column Resizing
+### Column Resizing
 
 Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feature is available only on Desktop - WinUI and MacCatalyst. For more details on it go to [Column Resizing]({%slug datagrid-column-resizing%}) topic.
 
-## Columns Width
+### Columns Width
 
 The DataGrid provides flexible mechanism for setting columns' width through columns' `SizeMode` and `Width` properties. For more details on this go to [Columns Width]({%slug datagrid-columns-width%}) topic.
 
-## Frozen Columns
+### Frozen Columns
 
 You can pin a column on the left side of the DataGrid by setting the `IsFrozen` property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. For detailed information on this, go to [Frozen Columns]({%slug datagrid-frozen-columns%}) topic.
 
-## Columns Reordering
+### Columns Reordering
 
 The DataGrid exposes a reordering feature allowing the user to drag and drop columns and change their order. Take a look at [Columns Reordering]({%slug datagrid-columns-reordering%}) topic for more details on it.
 
