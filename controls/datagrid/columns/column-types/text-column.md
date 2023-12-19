@@ -17,6 +17,7 @@ A `DataGridTextColumn` converts the content of each associated cell to a `System
 Here are the specific properties for the Text Columns:
 
 * `PropertyName`&mdash;Specifies the name of the property of the object type that represents each row within the grid.
+* `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell.
 * `HeaderText`&mdash;Defines the content that will be displayed in the Header UI that represents the column.
 * `CellContentFormat`&mdash;Defines the custom format for each cell value. The `String.Format` routine is used and the format passed has to be in the form required by this method.
 * `CellContentStyle`(`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with this column. 
