@@ -17,7 +17,24 @@ The DataGrid for .NET MAUI provides three approaches that you can take to define
 
 ## Automatic Columns Generation
 
-By default, the DataGrid will generate typed columns automatically based on the underlying data type. When, for example, you set the `ItemsSource` of the `RadDataGrid` to a collection of clubs (see code in Example 1 and the result in Figure 1), the control will create a separate column for each public property of the `Club` object.
+By default, the DataGrid will generate typed columns automatically based on the underlying data type. When, for example, you set the `ItemsSource` of the `RadDataGrid` to a collection of clubs (see the sample code below), the control will create a separate column for each public property of the `Club` object.
+
+For example, let's have a sample `Club` object:
+
+```XAML
+public class Club
+{ 
+    public string Name { get; set; }
+    public DateTime Established { get; set; }
+    public bool IsChampion { get; set; }
+}
+```
+
+With the automatic columns generation DataGrid will create the following columns:
+
+* `DataGridTextColumn` for the `Name` property.
+* `DataGridDateColumn` for the `Established` property.
+* `DataGridBooleanColumn` for the `IsChampion` property.
 
 ## Manual Columns Definition
 
