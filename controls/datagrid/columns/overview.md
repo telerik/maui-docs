@@ -11,9 +11,9 @@ slug: datagrid-columns-overview
 
 The DataGrid for .NET MAUI provides three approaches that you can take to define different columns:
 
-* `Manually`: by adding columns to the DataGrid's `Columns` collection and set `AutoGenerateColumns` property to `False`.
-* `Automatically`: by setting `AutoGenerateColumns` property to `True` (default value).
-* `Mixed`: by adding columns to the `Columns` collection and also set `AutoGenerateColumns`to `True` (default value).
+* **Automatically**&mdash;by setting `AutoGenerateColumns` property to `True` (default value).
+* **Manually**&mdash;by adding columns to the DataGrid's `Columns` collection and setting the `AutoGenerateColumns` property to `False`.
+* **Mixed**&mdash;by adding columns to the `Columns` collection and also setting the `AutoGenerateColumns`to `True` (default value).
 
 ## Automatic Columns Generation
 
@@ -52,7 +52,7 @@ Using the built-in auto generation of columns does not fit all scenarios. In suc
 For the typed columns (Text, Numerical, Boolean, Date, Time and ComboBox) you can define which property of the underlying data object the column represents in the following ways:
 
 * `PropertyName`&mdash;Specifies the name of the property of the data object being displayed in the column's cells.
-* `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell. With `DataMemberBinding` you have control over the way data is formatted and displayed in the DataGrid cells, for example you can add a string formatter or a value converter.
+* `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell. With `DataMemberBinding`, you have control over the way data is formatted and displayed in the DataGrid cells, for example you can add a string formatter or a value converter.
 
 The example below demonstrates `RadDataGrid` with various types of columns. In addition both `PropertyName` and `DataMemberBinding` are used for the different columns to set the property each column represents. 
 
@@ -90,11 +90,11 @@ Find below a quick overview of the DataGrid's Columns features.
 
 ### Column Headers
 
-The top cell of a column is called Header. Its purpose is to set a caption for the column, which describes the data displayed in it. The .NET MAUI DataGrid provides fully customizable column headers, check [Column Headers]({%slug datagrid-column-header%}) for detailed information on them.
+The top cell of a column is called Header. Its purpose is to set a caption for the column, which describes the data displayed in it. The .NET MAUI DataGrid provides fully customizable column headers, check [Column Headers]({%slug datagrid-column-header%}) for detailed information.
 
 ### Columns Cell Templates
 
-The DataGrid provides a set of predefined column types such Text Column, Numerical Column, etc. In case you need to extend the functionality of a column, for example customize the default appearance or add more UI elements, use the exposed templates - `CellContentTemplate` and `CellEditTemplate`. For detailed information on them, go to [Columns Cells Templates]({%slug datagrid-cell-templates%}) topic.
+The DataGrid provides a set of predefined column types such as Text Column, Numerical Column, etc. In case you need to extend the functionality of a column, for example customize the default appearance or add more UI elements, use the exposed templates - `CellContentTemplate` and `CellEditTemplate`. For detailed information, see the [Columns Cells Templates]({%slug datagrid-cell-templates%}) topic.
 
 ### Column Footers
 
@@ -102,19 +102,19 @@ The DataGrid allows you to display additional information which applies to the c
 
 ### Column Resizing
 
-Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feature is available only on Desktop - WinUI and MacCatalyst. For more details on it go to [Column Resizing]({%slug datagrid-column-resizing%}) topic.
+Columns inside the Telerik .NET MAUI DataGrid are resizable by default. The feature is available only on Desktop - WinUI and MacCatalyst. For more details see the [Column Resizing]({%slug datagrid-column-resizing%}) topic.
 
 ### Columns Width
 
-The DataGrid provides flexible mechanism for setting columns' width through columns' `SizeMode` and `Width` properties. For more details on this go to [Columns Width]({%slug datagrid-columns-width%}) topic.
+The DataGrid provides a flexible mechanism for setting columns' width through columns' `SizeMode` and `Width` properties. For more details see the [Columns Width]({%slug datagrid-columns-width%}) topic.
 
 ### Frozen Columns
 
-You can pin a column on the left side of the DataGrid by setting the `IsFrozen` property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. For detailed information on this, go to [Frozen Columns]({%slug datagrid-frozen-columns%}) topic.
+You can pin a column on the left side of the DataGrid by setting the `IsFrozen` property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. For detailed information, see the [Frozen Columns]({%slug datagrid-frozen-columns%}) topic.
 
 ### Columns Reordering
 
-The DataGrid exposes a reordering feature allowing the user to drag and drop columns and change their order. Take a look at [Columns Reordering]({%slug datagrid-columns-reordering%}) topic for more details on it.
+The DataGrid exposes a reordering feature allowing the user to drag and drop columns and change their order. For more details, see the [Columns Reordering]({%slug datagrid-columns-reordering%}) topic.
 
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
