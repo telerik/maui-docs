@@ -11,7 +11,7 @@ tags: programmatic, scrolling, scrollbar
 
 You can enable users to scroll in the CollectionView in both directions&mdash;horizontally and vertically and also scroll to an item from the collection. 
 
-## Scrolling to an item
+## Scroll to Item
 
 The CollectionView provides the `ScrollTo` method that allows you to configure the control to display a specific item:
 
