@@ -14,7 +14,7 @@ slug: slider-overview
 
 ## Key Features
 
-* [Value and Original Value]&mdash;
+* [Value Thumb]({% slider-value-thumb%})&mdash;The slider's value thumb is drawn corresponding to its `Value` property. Users can modify the `Value` by dragging the thumb along the backtrack.
 * [Ticks]({% slug slider-ticks%})&mdash;Add ticks to the slider's track in order to enable users to easily identify the min-max range.
 * [Labels]({% slug slider-labels%})&mdash;Display labels along the track for clarity of what the underlying min-max range is.
 * [Tooltip]({%slug slider-tooltips%})&mdash;Slider can show customizable tooltip to help the users choose the desired value.
@@ -23,7 +23,7 @@ slug: slider-overview
 
 ## Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI RangeSlider]({%slug slider-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI Slider]({%slug slider-getting-started%})
 
 ## See Also
 
