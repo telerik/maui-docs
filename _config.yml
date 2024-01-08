@@ -387,6 +387,13 @@ navigation:
     controls/signaturepad:
         title: "SignaturePad"
     ## End SignaturePad
+    ## Slider
+    controls/slider:
+        title: "Slider"
+    controls/slider/styling:
+        title: "Styling"
+        position: 10
+    ## End RangeSlider
     ## SlideView
     controls/slideview:
         title: "SlideView"
