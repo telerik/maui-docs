@@ -12,9 +12,9 @@ Slider for .NET MAUI can display a tooltip to indicate the currently selected va
 
 Check below the customization options for the Slider tooltip:
 
-* `TooltipStringFormat(string)`&mdash;Defines a custom string format that is used for displaying the content of the tooltip.
-* `TooltipTemplate(DataTemplate)`&mdash;Sets a template or template selector that defines the content of the tooltip.
-* `TooltipControlTemplate(ControlTemplate)`&mdash;Sets the control template of the tooltip that defines its overall appearance.
+* `TooltipStringFormat`(`string`)&mdash;Defines a custom string format that is used for displaying the content of the tooltip.
+* `TooltipTemplate`(`DataTemplate`)&mdash;Sets a template or template selector that defines the content of the tooltip.
+* `TooltipControlTemplate`(`ControlTemplate`)&mdash;Sets the control template of the tooltip that defines its overall appearance.
 
 ## TooltipTemplate Example
 

@@ -41,7 +41,7 @@ Check the result below:
 
 Through the `TickTemplate` property you can customize the appearance of the ticks.
 
-* `TickTemplate (DataTemplate)`&mdash;Defines the template of the Slider ticks.
+* `TickTemplate`(`DataTemplate`)&mdash;Defines the template of the Slider ticks.
 
 Check below a sample `TickTemplate` example:
 

@@ -560,8 +560,7 @@ intro_columns:
         "Charts": "chart-overview"
         "Gauges": "gauge-overview"
         "Map": "map-overview"
-        "ProgressBar": "progressbar-overview"
-        "RangeSlider": "rangeslider-overview"
+        "ProgressBar": "progressbar-overview"       
         "Ratings": "rating-overview"
   -
     title: "Chatbots"
@@ -581,11 +580,13 @@ intro_columns:
         "ListPicker": "listpicker-overview"
         "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
+        "RangeSlider": "rangeslider-overview"
         "RichTextEditor": "richtexteditor-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
         "TimeSpanPicker": "timespanpicker-overview"
         "SignaturePad": "signaturepad-overview"
+        "Slider": "slider-overview"
 -
   categories:
   -

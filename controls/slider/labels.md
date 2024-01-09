@@ -30,8 +30,8 @@ Check an example on how labels can be configured:
 
 Through the formatting properties you can easily modify only the labels text by applying a custom format. 
 
-* `StringFormat(string)`&mdash;Defines a custom string format for the labels and the tooltips of the Slider.
-* `StringConverter(Telerik.Maui.IStringConverter)`&mdash;Specifies a custom string converter that can be used to define the content of a label or a tooltip for a given range slider value.
+* `StringFormat`(`string`)&mdash;Defines a custom string format for the labels and the tooltips of the Slider.
+* `StringConverter`(`Telerik.Maui.IStringConverter`)&mdash;Specifies a custom string converter that can be used to define the content of a label or a tooltip for a given slider value.
 
 Here is a quick example with a custom string converter:
 
