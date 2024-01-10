@@ -8,13 +8,13 @@ slug: slider-track-styling
 
 # Track Styling
 
-The Slider for .NET MAUI control exposes thickness and color styling properties for its range track (between `Minimum` and `Value`) as well as its backtrack (the track the thumb slides along), so you can easily achieve the desired look & feel:
+The Slider for .NET MAUI control exposes thickness and color styling properties for its range track (between `OriginValue` and `Value`) as well as its backtrack (the track the thumb slides along), so you can easily achieve the desired look & feel:
 
 * `BackTrackThickness`(`double`)&mdash;Specifies the thickness of the slider's backtrack.
 * `BackTrackColor`(`Color`)&mdash;Defines the color of the slider's backtrack.
 * `BackTrackStyle`(`Style`)&mdash;Sets a custom style to the slider's backtrack.
 
-Check the following stype properties related to the range track (part of the backtrack between the `Minimum` and `Value`):
+Check the following stype properties related to the range track (part of the backtrack between the `OriginValue` and `Value`):
  
 * `RangeTrackFill`(`Color`)&mdash;Defines fill color to the range track.
 * `RangeTrackStyle`(`Style`)&mdash;Applies a custom style to the range track.
@@ -40,4 +40,5 @@ Check the result below:
 ## See Also
 
 - [Backtrack Configuration]({% slug slider-backtrack-configuration%})
+- [Range Track]({%slug slider-range-track%})
 - [Value Thumb]({% slug slider-value-thumb%})

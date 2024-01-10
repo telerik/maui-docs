@@ -17,8 +17,8 @@ To display labels, define the `LabelStep` and `LabelPlacement` properties of the
 * `LabelStep`(`double`)&mdash;Defines at what positions/values labels will be displayed.
 * `LabelsPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderLabelsPlacement`)&mdash;Specifies the position of the labels in the Slider with respect to its backtrack. The available options are:
     * `None`&mdash;no labels are displayed.
-    * `Start`&mdash;labels appear above the track.
-    * `End`&mdash;labels appear below the track.
+    * `Start`&mdash;labels appear above the backtrack.
+    * `End`&mdash;labels appear below the backtrack.
 
 Check an example on how labels can be configured:
 

@@ -17,9 +17,9 @@ The Slider for .NET MAUI control provides styling properties for its labels as w
 
 * `LabelStyleSelector`(`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to different labels.
 
-Here is a quick example on how the `LabelStyleSelector` can be applied to set separate styles to the labels according to the `Value` property.
+Here is a quick example on how the `LabelStyleSelector` can be applied to set separate styles to the labels according to the `Value` and `OriginValue` properties:
 
-**1.** Create a custom style selector class which inherits from `Telerik.Maui.Controls.IStyleSelector`:
+**1.** Create a custom style selector class which inherits from `Telerik.Maui.Controls.IStyleSelector` - the style selector sets `InsideRangeStyle` to the labels that correspond to the slider's range track (between `OriginValue` and `Value`) and `OutsideRangeStyle` to all the other labels.
 
 <snippet id='slider-labels-styleselector-class' />
 
@@ -40,5 +40,6 @@ Check the result below:
 ## See Also
 
 - [Labels]({% slug slider-labels%})
+- [Range Track]({%slug slider-range-track%})
 - [Track Styling]({% slug slider-track-styling%})
 - [Ticks Styling]({% slug slider-ticks-styling%})

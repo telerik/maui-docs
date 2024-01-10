@@ -13,7 +13,7 @@ Slider for .NET MAUI provides styling options for its thumb. The thumb can be st
 * `ThumbFill`(`Color`)&mdash;Applies fill color to the slider's thumb.
 * `ThumbStyle`(`Style`)&mdash;Defines a custom style to the slider's thumb.
 
-In addition, you can modify the look &amp; feel of the range track, so it matches the style of the thumb. Range track refers to that part of the backtrack from its start along to the value thumb. 
+In addition, you can modify the look &amp; feel of the range track, so it matches the style of the thumb. Range track refers to that part of the backtrack from slider's `OriginValue` along to the value thumb. 
 
 * `RangeTrackFill`(`Color`)&mdash;Defines fill color to the range track.
 * `RangeTrackStyle`(`Style`)&mdash;Applies a custom style to the range track.
@@ -36,3 +36,4 @@ Check the result below:
 
 - [Visual Structure]({% slug slider-visual-structure%})
 - [Value Thumb]({% slug slider-value-thumb%})
+- [Range Track]({%slug slider-range-track%})

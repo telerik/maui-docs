@@ -10,11 +10,11 @@ slug: slider-ticks-styling
 
 The Slider for .NET MAUI control provides styling properties for its ticks as well as a style selector, which you can use to apply different styles to the ticks according to custom logic.
 
- * `InRangeTickColor`(`Color`)&mdash;Defines the color of the ticks that are within the start-value range.
- * `OutOfRangeTickColor`(`Color`)&mdash;Specifies the color of the ticks that are outside of the start-value range.
+ * `InRangeTickColor`(`Color`)&mdash;Defines the color of the ticks that correspond to the range track (between `OriginValue` and `Value`).
+ * `OutOfRangeTickColor`(`Color`)&mdash;Specifies the color of the ticks that are outside of the range defined by the slider's range track.
  * `TickThickness`(`double`)&mdash;Defines the width of the ticks.
- * `InRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are within the start-value range.
- * `OutOfRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are outside of the start-value range.
+ * `InRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that correspond to the range track (between `OriginValue` and `Value`).
+ * `OutOfRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are outside of the range defined by the slider's range track.
  * `TickLength`(`double`)&mdash;Specified custom length to the ticks.
  * `TicksStyleSelector`(`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to ticks according to custom logic.
 
@@ -57,5 +57,6 @@ Check the result below:
 ## See Also
 
 - [Ticks]({% slug slider-ticks%})
+- [Range Track]({%slug slider-range-track%})
 - [Track Styling]({% slug slider-track-styling%})
 - [Labels Styling]({% slug slider-labels-styling%})

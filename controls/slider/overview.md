@@ -15,6 +15,7 @@ slug: slider-overview
 ## Key Features
 
 * [Value Thumb]({%slug slider-value-thumb%})&mdash;The slider's value thumb is drawn corresponding to its `Value` property. Users can modify the `Value` by dragging the thumb along the backtrack.
+* [Range Track]({%slug slider-range-track%})&mdash;The slider provides customizable range track for better representation of the selected value. You can modify the range track initial position through the `OriginValue` property.
 * [Ticks]({%slug slider-ticks%})&mdash;Add ticks to the slider's track in order to enable users to easily identify the min-max range.
 * [Labels]({%slug slider-labels%})&mdash;Display labels along the track for clarity of what the underlying min-max range is.
 * [Tooltip]({%slug slider-tooltips%})&mdash;Slider can show customizable tooltip to help the users choose the desired value.
