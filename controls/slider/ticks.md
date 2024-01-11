@@ -18,7 +18,7 @@ To display ticks along the track, define `TickStep` and `TickPlacement` properti
 * `TicksPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Specifies the position of the ticks in the Slider with respect to its backtrack. The available options are:
     * `None`&mdash;no ticks are displayed.
     * `Start`&mdash;ticks appear above the backtrack.
-    * `Center`&mdash;ticks appear in the backtrack area of the slider, overlaying the track.
+    * `Center`&mdash;ticks appear in the backtrack area of the slider, overlaying the backtrack.
     * `End`&mdash;ticks appear below the backtrack.
 
 ## Slider SnapMode

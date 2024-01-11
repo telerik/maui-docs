@@ -16,10 +16,6 @@ Check a quick example on how to define `Value` property:
 
 <snippet id='slider-getting-started-xaml' />
 
-## Range Track
-
-In addition to the thumb presenting the slider's `Value`, you can utilize the ran
-
 ## Drag Mode
 
 The Slider supports different dragging options&mdash;only the thumb or free. In addition, you can completely disable the drag. 

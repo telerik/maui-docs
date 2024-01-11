@@ -31,6 +31,8 @@ By default the backtrack is drawn between the `Minimum` and `Maximum` values. Th
                     Value="35"
                     TickStep="10"
                     TicksPlacement="End"
+                    LabelStep="100"
+                    LabelsPlacement="End"
                     BackTrackExtent="50"/>
 ```
 
