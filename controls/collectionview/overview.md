@@ -14,19 +14,23 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 ## Key Features
 
-* [Selection]({% slug listview-features-selection %})&mdash;The .NET MAUI ListView supports both single and multiple selections and you can also select items on tap and hold gestures.
+* [Selection]({%slug listview-features-selection %})&mdash;The .NET MAUI CollectionView supports both single and multiple selections and you can also select items on tap and hold gestures.
 
-* [Different layouts and orientation]({% slug listview-features-layouts %})&mdash;You can choose between the linear and grid layout as well as define the scroll direction of the MAUI ListView layout.
-
-* [Items template selector]({% slug listview-item-template-selector %})&mdash;The .NET MAUI ListView control expose properties for applying different templates to each item based on a specific condition. 
+* [Items template selector]({%slug listview-item-template-selector %})&mdash;The .NET MAUI CollectionView control expose properties for applying different templates to each item based on a specific condition. 
  
-* [Grouping]({% slug listview-features-grouping %}), [sorting]({% slug listview-features-sorting %}), and [filtering]({% slug listview-features-filtering %})&mdash;You can visualize your items in groups, and also sort and filter them per with your criteria.
+* [Grouping]({% slug listview-features-grouping %})&mdash;Visualize the items in groups by using the exposed properties. In addition, you can apply multi-level(nested) grouping.
+
+* [Group headers and footers]({%slug %})&mdash;Visualize group header and footer while grouping the items in the CollectionView and cuztomize the appeariance of the header and footer.
+
+* [Sorting]({% slug collectionview-sorting %})&mdash;CollectionView allows you to sort the data per your criteria.
+
+* [Filtering]({% slug listview-features-filtering %})&mdash;Filter the items in the CollectionView by using the DelegateFilterDescriptor.
 
 * [Scroll bar visibility]({%slug listview-features-scrolling%})&mdash;You can define whether the vertical scrollbar will be visible while scrolling through the items. 
 
-* [Customizable Items]({% slug listview-features-styling %})&mdash;The ListView provides styling options for customizing its items and groups.
-
 * [Header and footer]({%slug listview-features-header-footer%})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the ListView items.
+
+* [Style properties]({%slug treeview-item-style%})&mdash;The available styling properties allow you to customize the CollectionView items, groups, header and footer. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug treeview-itemstyle-selector%}).
 
 ## Next steps
 

@@ -20,7 +20,7 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 		* the tapped `View`(`ItemView`).
 		* the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the tap event. When set to `true`, the default handling of the tap event is not executed. When set to `false`, the default handling of the tap event is executed.
 
-	> On Android and iOS, when tapping the TreeView item, the item gets expanded. On WinUI and MacCatalyst, the item gets expanded when tapping on the arrow **>**. 
+> `ItemTapped` event is raised when tapping on the following elements: CollectionView item, Group header and footer and CollectionView header and footer. 
 
 * `ItemHolding`&mdash;Raised when an item is held. The `ItemHolding` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
@@ -33,6 +33,33 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
 	* An `EventHandler` object.
 
+
+### Example: Adding ItemTapped Event
+
+Here is a sample example with the `ItemTapped` event:
+
+**1.** Define the `RadCollectionView` in XAML:
+
+<snippet id='collectionview-item-tapped'/>
+
+**2.** Add the `telerik` namespaces:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** `ItemTapped` event handler:
+
+<snippet id='collectionview-item-tapped-event' />
+
+**4.** Create sample `DataModel`
+
+<snippet id='collectionview-datamodel' />
+
+**5.** Define the `ViewModel` class:
+
+<snippet id='collectionview-viewmodel' />
+
 ## Selection Events
 
 * `SelectionChanged`&mdash;Raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:
@@ -41,3 +68,7 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 
 ## See Also
 
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Selection]({%slug collectionview-selection%})
+- [Commands]({%slug collectionview-commands%})

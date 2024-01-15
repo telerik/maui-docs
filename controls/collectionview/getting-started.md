@@ -37,6 +37,8 @@ Before adding the CollectionView, you need to:
 
 **2.** Define the `RadCollectionView` in XAML:
 
+<snippet id='collectionview-gettingstarted-xaml'/>
+<snippet id='collectionview-getting-started-csharp'/>
 
 **3.** Add the `telerik` namespaces:
 
@@ -44,9 +46,13 @@ Before adding the CollectionView, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Let's create sample `Data` and `ViewModel` classes:
+**4.** Create sample `DataModel`
 
-<snippet id='listview-gettingstarted-source' />
+<snippet id='collectionview-datamodel' />
+
+**5.** Define the `ViewModel` class:
+
+<snippet id='collectionview-viewmodel' />
 
 **5.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
@@ -70,6 +76,7 @@ public static class MauiProgram
 	}
 }           
 ```
+
 > For a runnable demo with the CollectionView Getting Started example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Getting Started** category.
 
 ## Additional Resources
@@ -81,5 +88,10 @@ public static class MauiProgram
 
 ## See Also
 
-- [Selection]({% slug collectionview-selection%})
-- [Grouping]({% slug collectionview-grouping%})
+- [Item Appearance]({%slug collectionview-item-appearance%})
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Sorting]({%slug collectionview-sorting%})
+- [Selection]({%slug collectionview-selection%})
+- [Commands]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-commands%})

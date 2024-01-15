@@ -20,3 +20,7 @@ The .NET MAUI CollectionView provides various commands
 
 ## See Also
 
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Selection]({%slug collectionview-selection%})
+- [Events]({%slug collectionview-events%})

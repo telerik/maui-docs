@@ -20,10 +20,7 @@ The CollectionView provides three selection modes, which allow you to manipulate
 
 Check below how you can set `SelectionMode` in XAML and code-behind:
 
-```XAML
-<telerik:RadCollectionView x:Name="collectionView"
-					       SelectionMode="Multiple" />
-```
+
 ```C#
 var collectionView = new RadCollectionView();
 collectionView.SelectionMode = Microsoft.Maui.Controls.SelectionMode.Multiple;
@@ -48,8 +45,10 @@ The CollectionView provides the `SelectionChanged` event, which is raised when t
 * The sender argument, which is of type `object`, but can be cast to the `RadCollectionVieww` type.
 * A `EventArgs` object, which provides information on the `SelectionChanged` event.
 
-> For a runnable example demonstrating the TreeView events, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events**.
+> For a runnable demo with the CollectionView SelectionEvents example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
 
 ## See Also
 
-
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Commands]({%slug collectionview-commands%})
