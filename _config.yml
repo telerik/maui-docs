@@ -393,7 +393,7 @@ navigation:
     controls/slider/styling:
         title: "Styling"
         position: 10
-    ## End RangeSlider
+    ## End Slider
     ## SlideView
     controls/slideview:
         title: "SlideView"
