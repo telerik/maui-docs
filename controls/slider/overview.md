@@ -8,7 +8,9 @@ slug: slider-overview
 
 # .NET MAUI Slider Overview
 
- The Telerik UI for .NET MAUI Slider represents a slider control that displays a value in a given min-max range. The end user can change the values by dragging the thumb. Slider supports ticks, labels and tooltips to help users quickly identify the min-max range and what the value is as well as easily modify them if needed. 
+The Telerik UI for .NET MAUI Slider represents a slider component that displays a value in a predefined min-max range. End users can change the selected value by dragging the thumb.
+
+The Slider supports ticks, labels, and tooltips. With them, your end users can quickly identify the min-max range and the currently selected value, and modify them, if needed. 
 
 ![.NET MAUI Slider Overview](images/slider-overview.png)
 
