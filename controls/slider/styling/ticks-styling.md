@@ -1,7 +1,7 @@
 ---
 title: Ticks Styling
 page_title: .NET MAUI Slider Documentation - Ticks Styling
-description: Review the styling options that the Telerik UI for .NET MAUI Slider control provides for its ticks.
+description: Learn how to style the ticks of the Telerik UI for .NET MAUI Slider. Set the size and style ticks within and outside of the range track differently.
 position: 2
 slug: slider-ticks-styling
 ---
