@@ -30,8 +30,19 @@ Users can control the `GroupDescriptor` collection by using MVVM. For more detai
 
 The CollectionView has a support for group footer. You can visualize the footers by setting the `IsGroupFooterVisible` to `True`. For more details, refer to the [Group Footer]({%slug listview-bindable-group-descriptor%}) article.
 
+## Styling the Group Header and Footer
+
+Style the group header and the footer by setting the following properties:
+
+* `GroupHeaderStyle`(`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
+* `FooterStyle`(`Style` with target type `CollectionViewFooterItemView`)&mdash;Specifies the style applied to the footer when `Footer` property is set and `IsFooterVisible` is set to `true`.
+
+
 ## See Also
 
-- [Filtering]({%slug listview-features-filtering%})
-- [Sorting]({%slug listview-features-sorting%})
-- [Selection]({%slug listview-features-selection%})
+- [PropertyGroup Descriptor]({%slug collectionview-property-group-descriptor%})
+- [Delegate Group Descriptor]({%slug collectionview-delegate-group-descriptor%})
+- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
+- [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
+- [Group Header]({%slug collectionview-group-header%})
+- [Group Footer]({%slug collectionview-group-footer%})

@@ -2,7 +2,8 @@
 title: Bindable GroupDescriptor
 page_title: .NET MAUI CollectionView Documentation - Bindable Group Descriptors
 description: Explore the Telerik UI for .NET MAUI CollectionView Bindable GroupDescriptor feature that lets you control the GroupDescriptor through MVVM.
-position: 10
+position: 7
+Publish: False
 slug: collectionview-bindable-group-descriptor
 tags: group, collectionview, groupdescriptor
 ---

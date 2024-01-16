@@ -44,6 +44,37 @@ The available properties are described in the table below:
 | `VerticalContentOptions`(`LayoutOptions`) | Defines the vertical layout options of the displayed content. |
 | `ContentTemplate`(`DataTemplate`) | Specifies the `DataTemplate` of the visual representation of the current item. When set to `null`, the control displays the text representation of the current item. |
 
+The following example shows how to use the `ItemStyle`:
+
+**1.** Define the following business object:
+
+<snippet id='collectionview-datamodel' />
+
+**2.** Create a `ViewModel` class as shown below:
+
+<snippet id='collectionview-viewmodel' />
+
+**3.** Add the `RadCollectionView` definition with the `ItemStyleSelector` set:
+
+<snippet id='collectionview-item-styling' />
+
+**4.** Include the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+```
+
+**5.** Add the following styles to the page's resource:
+
+<snippet id='collectionview-item-style' />
 
 ## See Also
+
+- [Item Appearance]({%slug collectionview-item-appearance%})
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Sorting]({%slug collectionview-sorting%})
+- [Selection]({%slug collectionview-selection%})
+- [Commands]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-commands%})
 

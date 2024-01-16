@@ -2,7 +2,7 @@
 title: Group Header
 page_title: .NET MAUI CollectionView Documentation - Group Templates
 description: Check the Telerik UI for .NET MAUI CollectionView GroupHeader's BindingContext properties and how to define a custom GroupHeaderTemplate.
-position: 4
+position: 3
 slug: collectionview-group-header
 tags: group, collectionview, groupdescriptor, custom group header
 ---
@@ -25,18 +25,35 @@ The CollectionView control for .NET MAUI provides the following styling properti
 * `GroupHeaderStyle`(`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header.
 * `GroupHeaderStyleSelector`(`Style` with target type `CollectionViewGroupFHeaderItemView`)&mdash;Specifies the style selector for the group header.
 
-The `CollectionViewGroupFHeaderItemView` exposes the following properties listed in the table below: 
-
-
-
 ## Customizing the Group Header
 
 If the default look how the group header is presented do not match your use case, you can define custom templates by setting the `GroupHeaderTemplate` property.
 
-**1.** Define the `GroupHeaderTemplate`:
+## Example with GroupHeaderTemplate
+ 
+**1.** Define the following business object:
 
-**1.** Set the template to the `RadCollectionView`:
+<snippet id='collectionview-datamodel' />
+
+**2.** Create a `ViewModel` class as shown below:
+
+<snippet id='collectionview-viewmodel' />
+
+**3.** Add the `RadCollectionView` definition with `GroupHeaderTemplate`:
+
+<snippet id='collectionview-group-header-footer' />
+
+**4.** Include the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+```
+
+> For a runnable demo with the CollectionView GroupHeaderTemplate example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
 
 ## See Also
 
-
+- [Property Group Descriptor]({%slug collectionview-property-group-descriptor%})
+- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
+- [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
+- [Group Footer]({%slug collectionview-group-footer%})

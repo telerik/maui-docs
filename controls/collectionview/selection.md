@@ -18,23 +18,57 @@ The CollectionView provides three selection modes, which allow you to manipulate
 - `Single` (default)&mdash;The users can select only one item.
 - `Multiple`&mdash;The users can select more than one item.
 
-Check below how you can set `SelectionMode` in XAML and code-behind:
-
-
-```C#
-var collectionView = new RadCollectionView();
-collectionView.SelectionMode = Microsoft.Maui.Controls.SelectionMode.Multiple;
-```
+> For a runnable example demonstrating the CollectionView Multiple Selection and Disabled Selection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
 
 ## Setting the Selected Item
 
 The CollectionView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the CollectionView.
 
-> For a runnable example demonstrating the TreeView `SelectedItem`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection**.
+### Example with Single Selection and SelectedItem
+
+**1.** Define the `RadCollectionView` in XAML:
+
+<snippet id='collectionview-selecteditem'/>
+
+**2.** Add the `telerik` namespaces:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Create sample `DataModel`
+
+<snippet id='combobox-city-businessmodel' />
+
+**4.** Define the `ViewModel` class:
+
+<snippet id='collectionview-selection-viewmodel' />
+
+> For a runnable example demonstrating the CollectionView `SelectedItem`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection** category.
 
 ## Selected Items Collection
 
 The CollectionView provides the `SelectedItems` collection of type `IList`. The collection contains the items that are currently selected in the control.
+
+### Example with Multiple Selection and SelectedItems Collection
+
+**1.** Define the `RadCollectionView` in XAML:
+
+<snippet id='collectionview-multiple-selection'/>
+
+**2.** Add the `telerik` namespaces:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Create sample `CityModel`
+
+<snippet id='combobox-city-businessmodel' />
+
+**4.** Define the `ViewModel` class:
+
+<snippet id='collectionview-selection-viewmodel' />
 
 > For a runnable example demonstrating the CollectionView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection**.
 
@@ -44,8 +78,6 @@ The CollectionView provides the `SelectionChanged` event, which is raised when t
 
 * The sender argument, which is of type `object`, but can be cast to the `RadCollectionVieww` type.
 * A `EventArgs` object, which provides information on the `SelectionChanged` event.
-
-> For a runnable demo with the CollectionView SelectionEvents example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
 
 ## See Also
 

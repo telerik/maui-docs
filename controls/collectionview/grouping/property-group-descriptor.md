@@ -14,23 +14,21 @@ You can group the data by a property value from the class that defines your item
 - `PropertyName`&mdash;Defines the string name of the property you want to group by.
 - `SortOrder`(enum of type `Telerik.Maui.Controls.CollectionView.CollectionViewSortOrder`)&mdash;Specifies the sort order of the grouped items. The available options are: `Ascending` or `Descending`.
 
-Add the following business object:
+## Example with CollectionViewPropertyGroupDescriptor
+ 
+**1.** Define the following business object:
 
-<snippet id='listview-grouping-groupdescriptors-businessobject' />
+<snippet id='collectionview-datamodel' />
 
-Add a `ViewModel` with a collection of Cities:
+**2.** Create a `ViewModel` class as shown below:
 
-<snippet id='listview-grouping-groupdescriptors-viewmodel' />
+<snippet id='collectionview-viewmodel' />
 
-Group the Cities by the `Country` property through the `PropertyGroupDescriptor`:
+**3.** Add the `RadCollectionView` definition with `CollectionViewPropertyGroupDescriptor`:
 
-<snippet id='listview-grouping-propertygroupdescriptor'/>
+<snippet id='collectionview-property-group-descriptor' />
 
-Add the `Templates` definition in the page resources:
-
-<snippet id='listview-grouping-templates' />
-
-Include the `telerik` namespace:
+**4.** Include the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
@@ -40,3 +38,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [Delegate Group Descriptor]({%slug collectionview-delegate-group-descriptor%})
+- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
+- [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
+- [Group Header]({%slug collectionview-group-header%})
+- [Group Footer]({%slug collectionview-group-footer%})

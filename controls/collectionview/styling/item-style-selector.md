@@ -10,10 +10,44 @@ slug: collectionview-itemstyle-selector
 
 The .NET MAUI CollectionView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
 
-![.NET MAUI CollectionView Item Style Selector](images/treeview-itemstyle-selector.png)
+![.NET MAUI CollectionView Item Style Selector](images/collectionview-itemstyle-selector.png)
 
 The following example shows how to use the `ItemStyleSelector`:
+
+**1.** Define the following business object:
+
+<snippet id='collectionview-datamodel' />
+
+**2.** Create a `ViewModel` class as shown below:
+
+<snippet id='collectionview-viewmodel' />
+
+**3.** Add the `RadCollectionView` definition with the `ItemStyleSelector` set:
+
+<snippet id='collectionview-item-style-selector' />
+
+**4.** Include the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
+```
+
+**5.** Add the following styles to the page's resource:
+
+<snippet id='collectionview-style-selector' />
+
+**6.**  The conditional styling implementation
+
+<snippet id='collectionview-styleselector' />
 
 > For a runnable example demonstrating the TreeView ItemStyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling**.
 
 ## See Also
+
+- [Item Appearance]({%slug collectionview-item-appearance%})
+- [Grouping]({%slug collectionview-grouping%})
+- [Filtering]({%slug collectionview-filtering%})
+- [Sorting]({%slug collectionview-sorting%})
+- [Selection]({%slug collectionview-selection%})
+- [Commands]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-commands%})
