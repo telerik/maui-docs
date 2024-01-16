@@ -49,7 +49,7 @@ If the default look how the group header is presented do not match your use case
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-> For a runnable demo with the CollectionView GroupHeaderTemplate example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
+> For a runnable demo with the CollectionView GroupHeaderTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
 
 ## See Also
 

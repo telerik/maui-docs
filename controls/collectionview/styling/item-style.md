@@ -68,6 +68,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-item-style' />
 
+> For a runnable example demonstrating the CollectionView ItemStyling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
+
 ## See Also
 
 - [Item Appearance]({%slug collectionview-item-appearance%})

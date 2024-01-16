@@ -39,6 +39,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
+> For a runnable example demonstrating the CollectionView EmptyTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > EmptyTemplate** category.
+
 ## See Also
 
 - [Grouping]({%slug collectionview-grouping%})

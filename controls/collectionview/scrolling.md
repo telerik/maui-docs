@@ -81,11 +81,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
-> For a runnable demo with the CollectionView ScrollBars example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
+> For a runnable demo with the CollectionView ScrollBars, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
 
 ## Styling the Vertical ScrollBar
 
-Apply styling to the vertical scrollbar by setting the `VerticalScrollBarStyle` property. The porperty is of type `Style` with a target type of `RadScrollBar.`
+Apply styling to the vertical scrollbar by setting the `VerticalScrollBarStyle` property. The property is of type `Style` with a target type of `RadScrollBar.`
 
 ## See Also
 

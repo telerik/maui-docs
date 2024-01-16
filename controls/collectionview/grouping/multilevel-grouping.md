@@ -33,7 +33,7 @@ The following image shows the final result.
 
 ![.NET MAUI CollectionView Multi-Level Grouping]()
 
-> For a runnable demo with the CollectionView Multi-Level Grouping example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
+> For a runnable demo with the CollectionView Multi-Level Grouping, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
 
 ## See Also
 

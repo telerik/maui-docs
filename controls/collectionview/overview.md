@@ -8,7 +8,7 @@ slug: collectionview-overview
 
 # .NET MAUI CollectionView Overview
 
-The Telerik .NET MAUI CollectionView is a virtualizing view component that provides the most popular features associated with scenarios where a list of items is used. All these features are embedded in a single control for saving developers' time and providing better experience. The control aims to be the performant alternative of the RadListView control. 
+The Telerik .NET MAUI CollectionView is a virtualizing view component that provides the most popular features associated with scenarios where a list of items is used. The control gives you the option to filter, sort and group the items. Also you can take advantage of the flexible styling API and the exposed templates for customization. 
 
 ![.NET MAUI CollectionView Overview](images/collectionview-overview.png "Telerik .NET MAUI CollectionView")
 
@@ -32,7 +32,9 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items, groups, header and footer. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
 
-* [Empty Temlate]({%slug collectionview-empty-template%})&mdash;Specify a template when the `ItemsSource` is null or collection is empty.
+* [Empty Template]({%slug collectionview-empty-template%})&mdash;Specify a template when the `ItemsSource` is null or collection is empty.
+
+* Templates for customizing the group header and group footer, CollectionView header and footer.
 
 ## Next steps
 

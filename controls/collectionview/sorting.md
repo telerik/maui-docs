@@ -51,7 +51,7 @@ The `CollectionViewDelegateSortDescriptor` enables you to sort by a custom key (
 
 ## Bindable Sort Descriptors
 
-The SortDescriptors collection of the CollectionView supports binding, which means you can modify the sort descriptors directly from the ViewModel.
+The `SortDescriptors` collection of the CollectionView supports binding, which means you can modify the sort descriptors directly from the ViewModel.
 
 ## See Also
 

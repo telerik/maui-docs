@@ -34,7 +34,7 @@ The `CollectionViewDelegateGroupDescriptor` enables you to group by a custom key
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-> For a runnable demo with the CollectionView DelegateGroupDescriptor example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
+> For a runnable demo with the CollectionView DelegateGroupDescriptor, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
 
 ## See Also
 

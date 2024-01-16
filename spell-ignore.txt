@@ -128,3 +128,6 @@ ChatPicker
 NavigationView
 Aggregates
 Aggregate
+CollectionView
+Bindable
+collectionview

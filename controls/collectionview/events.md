@@ -60,6 +60,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
+> For a runnable example demonstrating the CollectionView ItemTapped event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+
 ## Selection Events
 
 * `SelectionChanged`&mdash;Raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:

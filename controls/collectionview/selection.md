@@ -70,7 +70,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-selection-viewmodel' />
 
-> For a runnable example demonstrating the CollectionView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection**.
+> For a runnable example demonstrating the CollectionView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection** category.
 
 ## Selection Events
 

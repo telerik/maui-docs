@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-styleselector' />
 
-> For a runnable example demonstrating the TreeView ItemStyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling**.
+> For a runnable example demonstrating the CollectionView ItemStyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also
 
