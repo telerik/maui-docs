@@ -28,7 +28,7 @@ You can define the appearance of each item in the CollectionView by setting the 
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```				
+```	
 
 ## See Also
 
