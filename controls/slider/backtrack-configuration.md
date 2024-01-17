@@ -12,7 +12,7 @@ The backtrack refers to that part of the slider the thumb runs along. It represe
 
 ## Minimum and Maximum
 
-You need to configure a `Minimum` value and a `Maximum` value for the Slider, which define the limits of the slider’s backtrack.
+You need to configure a `Minimum` value and a `Maximum` value for the Slider. These values define the limits of the backtrack.
 
 * `Minimum`(`double`)&mdash;Defines the minimum value of the slider.
 * `Maximum`(`double`)&mdash;Specifies the maximum value of the slider.
