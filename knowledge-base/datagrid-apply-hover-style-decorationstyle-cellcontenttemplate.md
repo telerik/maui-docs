@@ -12,11 +12,11 @@ category: knowledge-base
 # Environment
 | Product | Version |
 |---------|---------|
-| DataGrid for MAUI | 6.6.0 |
+| Progress® Telerik® UI for .NET MAUI DataGrid | 6.6.0 |
 
 # Description
 
-When assigning a style to `CellDecorationStyle` or a `DataTemplate` to `CellContentTemplate` in a DataGridColumn of a DataGrid for MAUI, the hover functionality may be lost. The background color does not change on hover, and if the cell has a DataTemplate, the text color does not change either.
+When assigning a style to `CellDecorationStyle` or a `DataTemplate` to `CellContentTemplate` in a `DataGridColumn` of a `RadDataGrid`, the hover functionality may be lost. The background color does not change on hover, and if the cell has a DataTemplate, the text color does not change either.
 
 This article provides a solution for using these styles while maintaining the common hover style and suggests other possible solutions.
 
@@ -27,7 +27,9 @@ To apply hover styles to cells in a DataGrid for MAUI when using `DecorationStyl
 1. Add a visual state manager to the element inside the template.
 2. Use the `VisualStateManager.VisualStateGroups` property to define visual states for the hover effect via the `PointerOver` state.
 
-Here is an example of how to use the `VisualStateManager` to define a `PointerOver` state in a custom `CellContentTemplate`:
+Here is an example, in both XAML and C# variants, of how to use the `VisualStateManager` to define a `PointerOver` state in a custom `CellContentTemplate`:
+
+## XAML Option
 
 ```
 <telerik:RadDataGrid.Columns>
@@ -51,7 +53,7 @@ Here is an example of how to use the `VisualStateManager` to define a `PointerOv
                                         <Setter Property="BackgroundColor" Value="Pink" />
                                     </VisualState.Setters>
                                 </VisualState>
-								<!-- This is the hover state-->
+				<!-- TAKEAWAY: This is the PointerOver state that is invoked during hover -->
                                 <VisualState x:Name="PointerOver">
                                     <VisualState.Setters>
                                         <Setter Property="BackgroundColor" Value="LightBlue" />
@@ -68,7 +70,7 @@ Here is an example of how to use the `VisualStateManager` to define a `PointerOv
 </telerik:RadDataGrid.Columns>
 ```
 
-Alternbatively, if you are using C# to generate your UI, then you'll want to use the `VisualStateManager` static class 
+### C# Option
 
 ```csharp
 var myLabel = REFERENCE_TO_YOUR_LABEL;
@@ -94,7 +96,7 @@ VisualStateManager.GetVisualStateGroups(myLabel).Add(new VisualStateGroup
 				new Setter { Property = Label.BackgroundColorProperty, Value = Colors.Pink }
 			}
 		},
-		// Here is the PointerOver state that is invoked during hover
+		// TAKEAWAY: This is the PointerOver state that is invoked during hover
 		new VisualState
 		{
 			Name = "PointerOver",
@@ -111,6 +113,6 @@ VisualStateManager.GetVisualStateGroups(myLabel).Add(new VisualStateGroup
 # Notes
 
 - When using a custom `CellContentTemplate`, the `CellContentStyle` may not be respected as the template overrides the default behavior.
-- If you prefer to use styles, you can define visual states for the hover effect in a style and apply it to the label or the specific UI control.
-- For more information on defining visual states in a style, refer to the [Visual states - .NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/visual-state-manager#visual-states) documentation.
+- For more information on defining visual states in a style, refer to the [.NET MAUI - Visual States | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/visual-states?view=net-maui-8.0) documentation.
+- If you prefer to use styles, you can define visual states for the hover effect in a style and apply it to the label or the specific UI control. Refer to Microsoft documentation [.NET MAUI - Visual States in a Style | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/visual-states?view=net-maui-8.0#define-visual-states-in-a-style)
 
