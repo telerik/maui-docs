@@ -24,29 +24,28 @@ Before adding the CollectionView, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
-1. [Register the Required Handlers]({%slug maui-getting-started %}#step-4-register-required-handlers).
+1. [Register the required handlers]({%slug maui-getting-started %}#step-4-register-required-handlers).
 
 ## Define the Control
 
-**1.** When your .NET MAUI application is set up, you are ready to add a CollectionView control to your page. The following example shows a sample CollectionView definition populated with sample data.
-
-  The CollectionView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
-
-  * Do not place the CollectionView inside a `ScrollView`.
-  * Do not set the CollectionView to a `RowDefinition Height="Auto"` Grid definition.
+**1.** When your .NET MAUI application is set up, you are ready to add a CollectionView control to your page. The following example shows a sample CollectionView definition populated with sample data:
 
 **2.** Define the `RadCollectionView` in XAML:
 
 <snippet id='collectionview-gettingstarted-xaml'/>
 <snippet id='collectionview-getting-started-csharp'/>
 
-**3.** Add the `telerik` namespaces:
+> The CollectionView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To prevent breaking the UI virtualization or gesture mechanisms:
+>* Do not place the CollectionView inside a `ScrollView`.
+>* Do not set the CollectionView to a `RowDefinition Height="Auto"` Grid definition.
+
+**3.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Create sample `DataModel`
+**4.** Create sample `DataModel`:
 
 <snippet id='collectionview-datamodel' />
 
@@ -81,13 +80,6 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [.NET MAUI CollectionView Product Page](https://www.telerik.com/maui-ui/listview)
-- [.NET MAUI CollectionView Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
-## See Also
-
 - [Item Appearance]({%slug collectionview-item-appearance%})
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})
@@ -95,3 +87,10 @@ public static class MauiProgram
 - [Selection]({%slug collectionview-selection%})
 - [Commands]({%slug collectionview-commands%})
 - [Events]({%slug collectionview-commands%})
+
+## See Also
+
+- [.NET MAUI CollectionView Product Page](https://www.telerik.com/maui-ui/listview)
+- [.NET MAUI CollectionView Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

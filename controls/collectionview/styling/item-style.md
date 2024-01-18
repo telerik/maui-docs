@@ -20,8 +20,7 @@ To style the CollectionView, use the following properties:
 
 ## Styling and Configuring the Item
 
-The CollectionView control provides styling mechanism for customizing the look of its items.
-To use it, set the `ItemStyle` property of the control with a target type `ItemView`.
+The CollectionView control provides a styling mechanism for customizing the look of its items. To use it, set the `ItemStyle` property of the control with a target type `ItemView`.
 
 The available properties are described in the table below:
 
@@ -33,7 +32,7 @@ The available properties are described in the table below:
 | `BorderThickness`(`Thickness`) | Defines the thickness of the border around the item. |
 | `CornerRadius`(`Thickness`) | Defines the corner radius of the border around the item. |
 | `ContentPadding`(`Thickness`) | Defines the padding of the content in the item. |
-| `TextColor`(`Color`)&mdash;Defines the color of the text in the item. |
+| `TextColor`(`Color`) | Defines the color of the text in the item. |
 | `FontSize`(`double`) | Defines the size of the text in the item. |
 | `FontFamily`(`string`) | Defines the font family of the displayed text. |
 | `FontAttributes`(`FontAttributes`) | Defines the font attributes of the displayed text. |

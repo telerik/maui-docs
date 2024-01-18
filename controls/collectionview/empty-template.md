@@ -8,9 +8,9 @@ slug: collectionview-empty-template
 
 # .NET MAUI CollectionView Empty Template
 
-The CollectionView control provides the ability to specify a template when the `ItemsSource` is null or collection is empty.
+The CollectionView allows you to specify a template that the control will use when the `ItemsSource` is null or the collection is empty. In this way, you notify the user that no data is available to display.
 
-It exposes the following properties:
+CollectionView exposes the following properties:
 
 * `EmptyStyle`(`Style` with target type `ItemsEmptyView`)&mdash;Specifies the style applied to the empty content when the control contains no data.
 * `EmptyTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when in the CollectionView has no items.
@@ -25,13 +25,13 @@ It exposes the following properties:
 
 <snippet id='collectionview-empty-style'/>
 
-**3.** Add the `telerik` namespaces:
+**3.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Create sample `DataModel`
+**4.** Create a sample `DataModel`:
 
 <snippet id='collectionview-datamodel' />
 

@@ -9,12 +9,12 @@ tags: style, group, collectionview, maui, dotnet maui
 
 # .NET MAUI CollectionView Group Styling
 
-Style the group header and the footer by setting the following properties:
+To style the group header and the footer, set the following properties:
 
-* `GroupHeaderStyle`(`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
-* `GroupFooterStyle`(`Style` with target type `CollectionViewGroupFooterItemView`)&mdash;Specifies the style applied to the group footer when `Footer` property is set and `IsGroupFooterVisible` is set to `true`.
+* `GroupHeaderStyle` (`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
+* `GroupFooterStyle` (`Style` with target type `CollectionViewGroupFooterItemView`)&mdash;Specifies the style applied to the group footer when the `Footer` property is set and `IsGroupFooterVisible` is set to `true`.
 
-The `GroupHeaderStyle` has a property `ExpandButtonStyle` that allows you to style the expand button.
+The `GroupHeaderStyle` has a `ExpandButtonStyle` property that allows you to style the expand button.
 
 The following example shows how to use the `GroupHeaderStyle`:
 

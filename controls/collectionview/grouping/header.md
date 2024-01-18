@@ -27,10 +27,10 @@ The CollectionView control for .NET MAUI provides the following styling properti
 
 ## Customizing the Group Header
 
-If the default look how the group header is presented do not match your use case, you can define custom templates by setting the `GroupHeaderTemplate` property.
+You can change the default look of the group header so that it matches your use case and style. To achieve this, define custom templates by setting the `GroupHeaderTemplate` property.
 
-## Example with GroupHeaderTemplate
- 
+The following example demonstrates how to customize the group header by using the `GroupHeaderTemplate`.
+
 **1.** Define the following business object:
 
 <snippet id='collectionview-datamodel' />

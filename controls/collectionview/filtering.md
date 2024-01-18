@@ -13,21 +13,19 @@ The CollectionView provides the functionality to programmatically filter its dat
 
 You can achieve this by adding filter descriptors that implement the `IFilter` interface to the `RadCollectionView.FilterDescriptors` collection. 
 
-## Example: Filtering the Data with Delegate Filter Descriptor
-
-Here is a sample example with `CollectionViewDelegateFilterDescriptor`. The example uses a [RadEntry]({%slug entry-overview%}) control for entering the text to filter the CollectionView data.
+The following example implements a `CollectionViewDelegateFilterDescriptor` and uses a [`RadEntry`]({%slug entry-overview%}) control that allows the user to enter a string of text to filter the CollectionView data.
 
 **1.** Define the `RadCollectionView` and `RadEntry` in XAML:
 
 <snippet id='collectionview-delegate-filter-descriptor'/>
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Create sample `DataModel`
+**3.** Create a sample `DataModel`:
 
 <snippet id='collectionview-datamodel' />
 
@@ -39,7 +37,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Bindable Filter Descriptors
 
-The `FilerDescriptors` collection of the CollectionView supports binding, which means that you can modify the directly descriptors directly from the `ViewModel`.
+The `FilerDescriptors` collection of the CollectionView supports binding, which means that you can modify the descriptors directly from the `ViewModel`.
 
 ## See Also
 

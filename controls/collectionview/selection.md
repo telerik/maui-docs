@@ -8,7 +8,7 @@ slug: collectionview-selection
 
 # .NET MAUI CollectionView Selection
 
-The CollectionView for .NET MAUI exposes the Selection feature, which allows the user to select single or multiple items in the CollectionView. This feature provides both visual and programmatic feedback for the user's actions. If needed, you can disable the Selection.
+The CollectionView for .NET MAUI exposes the Selection feature, which allows the user to select a single item or multiple items in the CollectionView. This feature provides both visual and programmatic feedback for the user's actions. If needed, you can disable the Selection.
 
 ## Selection Mode
 
@@ -20,23 +20,23 @@ The CollectionView provides three selection modes, which allow you to manipulate
 
 > For a runnable example demonstrating the CollectionView Multiple Selection and Disabled Selection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
 
-## Setting the Selected Item
+## Selected Item
 
 The CollectionView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the CollectionView.
 
-### Example with Single Selection and SelectedItem
+The following example demonstrates how to configure the CollectionView control for Single Selection by using the `SelectedItem` property.
 
 **1.** Define the `RadCollectionView` in XAML:
 
 <snippet id='collectionview-selecteditem'/>
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Create sample `DataModel`
+**3.** Create a sample `DataModel`:
 
 <snippet id='combobox-city-businessmodel' />
 
@@ -50,7 +50,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The CollectionView provides the `SelectedItems` collection of type `IList`. The collection contains the items that are currently selected in the control.
 
-### Example with Multiple Selection and SelectedItems Collection
+The following example demonstrates how to configure the CollectionView control for Multiple Selection by using the `SelectedItems` collection.
 
 **1.** Define the `RadCollectionView` in XAML:
 
@@ -62,7 +62,7 @@ The CollectionView provides the `SelectedItems` collection of type `IList`. The 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Create sample `CityModel`
+**3.** Create a sample `CityModel`:
 
 <snippet id='combobox-city-businessmodel' />
 

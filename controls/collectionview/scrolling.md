@@ -9,9 +9,9 @@ tags: programmatic, scrolling, scrollbar
 
 # .NET MAUI CollectionView Scrolling
 
-You can enable users to scroll in the CollectionView in both directions&mdash;horizontally and vertically and also scroll to an item from the collection. 
+The users can vertically scroll through the item in the CollectionView and also scroll to an item from the collection. 
 
-## Scroll to Item
+## Scrolling to an Item
 
 The CollectionView provides the `ScrollTo` method that allows you to programmatically scroll to an item in the CollectionView:
 
@@ -21,9 +21,9 @@ In addition to the `ScrollTo` method, the CollectionView exposes the `ScrollToCo
 
 * `ScrollToCommand`(`ICommand`)&mdash;Gets a command that scrolls to an item in the control, which is specified as a parameter.
 
-### Example: Scrolling to an Item
+The following example demonstrates how to scroll to an item in the CollectionView control by using the `ScrollTo()` method.
 
-**1.** Create sample `DataModel`
+**1.** Create a sample `DataModel`:
 
 <snippet id='collectionview-datamodel' />
 
@@ -35,7 +35,7 @@ In addition to the `ScrollTo` method, the CollectionView exposes the `ScrollToCo
 
 <snippet id='collectionview-programmatic-scrolling-xaml'/>
 
-**4.** Add the `telerik` namespaces:
+**4.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -63,17 +63,19 @@ Configure the vertical scrollbar by using the following properties:
 
 ### Example: Setting Vertical Scrollbar Visibility
 
+The following example demonstrates how to manage the visibility of the vertical scrollbar.
+
 **1.** Define the `RadCollectionView` in XAML:
 
 <snippet id='collectionview-scrollbars'/>
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Create sample `DataModel`
+**3.** Create a sample `DataModel`:
 
 <snippet id='collectionview-datamodel' />
 

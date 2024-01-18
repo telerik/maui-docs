@@ -9,12 +9,12 @@ tags: group, collectionview, groupdescriptor, dotnet maui, maui, grouping items
 
 # .NET MAUI CollectionView Delegate Group Descriptor
 
-The `CollectionViewDelegateGroupDescriptor` enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:
+enables you to group the CollectionView items by a custom key (for example, some complex expression combining two or more properties) instead of by the value of a single property. This descriptor exposes the following properties:
 
 - `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
 - `SortOrder`(enum of type `Telerik.Maui.Controls.CollectionView.CollectionViewSortOrder`)&mdash;Specifies the sort order of the grouped items. The available options are: `Ascending` or `Descending`.
 
-## Example with CollectionViewPropertyGroupDescriptor
+The following example demonstrates how to group the items in the CollectionView by using the `CollectionViewDelegateGroupDescriptor`.
  
 **1.** Define the following business object:
 

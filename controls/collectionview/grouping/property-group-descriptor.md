@@ -1,7 +1,7 @@
 ---
 title: Property Group Descriptor
 page_title: .NET MAUI CollectionView Documentation - Porperty Group Descriptors
-description: Try now the Telerik UI for .NET MAUI CollectionView option PropertyGroupDescriptor for grouping items by a property value from the class that defines them.
+description: Try now the Telerik UI for .NET MAUI CollectionView and its PropertyGroupDescriptor option for grouping items by a property value from the class that defines them.
 position: 1
 slug: collectionview-property-group-descriptor
 tags: group, collectionview, groupdescriptor
@@ -9,12 +9,12 @@ tags: group, collectionview, groupdescriptor
 
 # .NET MAUI CollectionView Property Group Descriptor
 
-You can group the data by a property value from the class that defines your items. The `CollectionViewPropertyGroupDescriptor` exposes the following properties:
+You can group the data by a property value from the class that defines your items. To enable this grouping, the `CollectionViewPropertyGroupDescriptor` exposes the following properties:
 
 - `PropertyName`&mdash;Defines the string name of the property you want to group by.
 - `SortOrder`(enum of type `Telerik.Maui.Controls.CollectionView.CollectionViewSortOrder`)&mdash;Specifies the sort order of the grouped items. The available options are: `Ascending` or `Descending`.
 
-## Example with CollectionViewPropertyGroupDescriptor
+The following example demonstrates how to group the items in the CollectionView by using the `CollectionViewPropertyGroupDescriptor`.
  
 **1.** Define the following business object:
 

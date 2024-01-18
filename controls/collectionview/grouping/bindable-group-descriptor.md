@@ -10,7 +10,7 @@ tags: group, collectionview, groupdescriptor
 
 # .NET MAUI CollectionView Bindable GroupDescriptor
 
-The `GroupDescriptors` collection of the CollectionView supports binding, which means that you can modify the directly descriptors directly from the `ViewModel`.
+The `GroupDescriptors` collection of the CollectionView supports binding, which means that you can modify the descriptors directly from the `ViewModel`.
 
 ## See Also
 

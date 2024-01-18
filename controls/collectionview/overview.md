@@ -14,31 +14,32 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 ## Key Features
 
-* [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections and you can also select items on tap and hold gestures.
+[Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
 
-* [Item appearance]({%slug listview-item-template-selector %})&mdash;Define the appearance for the items in the CollectionView. Also you can apply different appearance to each item based on a specific condition. 
- 
-* [Grouping]({%slug collectionview-grouping%})&mdash;Visualize the items in groups by using the exposed properties. In addition, you can apply multi-level(nested) grouping.
+* [Item appearance]({%slug collectionview-item-appearance%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
 
-* Group headers and footers&mdash;Visualize [group header]({%slug collectionview-group-header%}) and [group footer]({%slug collectionview-group-footer%}) while grouping the items in the CollectionView and cuztomize the appeariance of the group header and group footer.
+* [Grouping]({%slug collectionview-grouping%})&mdash;You can group the items by using the exposed properties. In addition, you can apply multi-level (nested) grouping.
 
-* [Sorting]({%slug collectionview-sorting%})&mdash;CollectionView allows you to sort the data per your criteria.
+* [Group headers]({%slug collectionview-group-header%}) and [group footers]({%slug collectionview-group-footer%})&mdash;While grouping the items in the CollectionView, you can visualize group headers and footers and customize their appearance.
 
-* [Filtering]({%slug collectionview-filtering%})&mdash;Filter the items in the CollectionView by using the DelegateFilterDescriptor.
+* [Sorting]({%slug collectionview-sorting%})&mdash;CollectionView allows you to sort the data based on your criteria.
+
+* [Filtering]({%slug collectionview-filtering%})&mdash;You can filter the items in the CollectionView by using the DelegateFilterDescriptor.
 
 * [Scroll bar visibility]({%slug collectionview-scrolling%}#vertical-scrolling)&mdash;You can define whether the vertical scrollbar will be visible while scrolling through the items. 
 
-* [Header and footer]({%slug collectionview-header-footer%})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the ListView items.
+* [Header and footer]({%slug collectionview-header-footer%})&mdash;You can add content above and below the list with the items. Both header and footer content are scrolled along with the CollectionView items.
 
-* [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items, groups, header and footer. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
+* [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items, groups, header, and footer. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
 
-* [Empty Template]({%slug collectionview-empty-template%})&mdash;Specify a template when the `ItemsSource` is null or collection is empty.
+* [Empty Template]({%slug collectionview-empty-template%})&mdash;When the `ItemsSource` is null or the collection is empty, you can specify a template that provides user feedback.
 
-* Templates for customizing the group header and group footer, CollectionView header and footer.
+* Customization templates&mdash;CollectionView provides various templates that allow you to customize the header and footer and the group header and footer.
 
-## Next steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI CollectionView]({%slug collectionview-getting-started%})
+- [Item appearance in the CollectionView]({%slug collectionview-item-appearance%})
 
 ## See Also
 

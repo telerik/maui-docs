@@ -36,7 +36,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-style-selector' />
 
-**6.**  The conditional styling implementation
+**6.** Implement the conditional styling:
 
 <snippet id='collectionview-styleselector' />
 

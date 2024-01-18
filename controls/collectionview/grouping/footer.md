@@ -27,9 +27,9 @@ The CollectionView control for .NET MAUI provides the following styling properti
 
 ## Customizing the Group Footer
 
-If the default look how the group footer is presented do not match your use case, you can define custom templates by setting the `GroupFooterTemplate` property.
+You can change the default look of the group footer so that it matches your use case and style. To achieve this, define custom templates by setting the `GroupFooterTemplate` property.
 
-## Example with GroupFooterTemplate
+The following example demonstrates how to customize the group footer by using the `GroupFooterTemplate`.
  
 **1.** Define the following business object:
 

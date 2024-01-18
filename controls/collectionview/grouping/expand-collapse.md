@@ -10,9 +10,7 @@ tags: group, collectionview, expand, collapse, collapsible, dotnet maui, maui
 
 # .NET MAUI CollectionView Expand and Collapse Groups
 
-The CollectionView supports groups expand and collapse operations through the UI by tapping on the group headers. By default, all the groups are expanded.
-
-
+The CollectionView supports expand and collapse operations for the groups. To trigger these operations, the user can tap on the group headers. By default, all the groups are expanded.
 
 ## See Also
 

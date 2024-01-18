@@ -9,7 +9,7 @@ tags: commands, collectionview, mvvm, maui, dotnet maui
 
 # .NET MAUI CollectionView Commands
 
-The .NET MAUI CollectionView provides various commands
+The .NET MAUI CollectionView provides various commands that are listed in the following table.
 
 | Commands | Definition |
 | -------- | ---------- |
