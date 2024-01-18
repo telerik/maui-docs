@@ -55,7 +55,7 @@ You can customize what the Slider labels render through the `LabelTemplate` prop
 
 Check below a sample `LabelTemplate` example:
 
-**1.** First define the custom DataTemplate:
+**1.** Add the custom `DataTemplate` to your page resources:
 
 <snippet id='slider-labels-labeltemplate' />
 
