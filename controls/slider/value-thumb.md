@@ -8,7 +8,7 @@ slug: slider-value-thumb
 
 # Value Thumb
 
-The slider's value thumb is drawn corresponding to its `Value` property. Users can modify the `Value` by dragging the thumb along the backtrack or touching anywhere on the slider (the thumb, or the range track, or the backtrack) depending on the selected drag mode.
+The Slider's value thumb is drawn based on its `Value` property. End users can modify the `Value` by dragging the thumb along the backtrack or touching anywhere on the slider (the thumb, the range track, or the backtrack) depending on the drag mode (configured with the `DragMode` property).
 
 * `Value`(`double`)&mdash;Specifies the selected value of the slider, corresponds to the thumb position across the backtrack.
 
