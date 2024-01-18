@@ -70,4 +70,5 @@ Here is the result:
 ## See Also
 
 - [Ticks]({% slug slider-ticks%})
+- [Tooltips]({% slug slider-tooltips %})
 - [Labels Styling]({% slug slider-labels-styling%})
