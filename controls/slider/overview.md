@@ -22,7 +22,7 @@ The Slider supports ticks, labels, and tooltips. With them, your end users can q
 * [Labels]({%slug slider-labels%})&mdash;Labels displayed along the track provide additional clarity about the underlying min-max range.
 * [Tooltip]({%slug slider-tooltips%})&mdash;Slider can show customizable tooltip to help the users choose the desired value.
 * Templates&mdash;Further customize the look of the Slider's labels, ticks and tooltip by using the exposed templates.
-* Flexible Styling API&mdash;You have full control over the appearance of the Slider's [thumb]({%slug slider-thumb-styling %}), [track]({%slug slider-track-styling %}), [ticks]({%slug slider-ticks-styling %}) and [labels]({%slug slider-labels-styling %}).
+* Flexible Styling API&mdash;The Slider provides full control over the appearance of the [thumb]({%slug slider-thumb-styling %}), [track]({%slug slider-track-styling %}), [ticks]({%slug slider-ticks-styling %}), and [labels]({%slug slider-labels-styling %}).
 
 ## Next Steps
 
