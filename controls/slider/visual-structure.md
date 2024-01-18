@@ -19,7 +19,7 @@ The following image shows the anatomy of the Slider.
 - **Backtrack**&mdash;The part of the slider across which the value thumb slides.
 - **Thumb**&mdash;A draggable handle which represents the slider value.
 - **Range Track**&mdash;The part of the backtrack from its start along to the value thumb.
-- **Ticks** and **Labels**&mdash;Used for clarity of what the underlying min-max range is.
+- **Ticks** and **Labels**&mdash;Visual indicators of the underlying min-max range.
 - **Tooltips**&mdash; Visual indicators of the current value selected with the thumb.
 
 ## See Also
