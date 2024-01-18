@@ -29,7 +29,7 @@ You can control the available dragging options through the `DragMode` property o
  
 Check below some quick examples:
 
-#### Only Thumb:
+#### Only Thumb
 
 <snippet id='slider-drag-thumb-xaml' />
 
