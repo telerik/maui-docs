@@ -33,7 +33,7 @@ Before adding the Slider, you need to:
 <snippet id='slider-getting-started-xaml'/>
 <snippet id='slider-gettingstarted-csharp'/>
 
-**2.** Add the `telerik` namespaces:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
