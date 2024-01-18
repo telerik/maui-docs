@@ -19,7 +19,7 @@ The Slider supports ticks, labels, and tooltips. With them, your end users can q
 * [Value thumb]({%slug slider-value-thumb%})&mdash;The slider's value thumb is drawn corresponding to its `Value` property. Users can modify the `Value` by dragging the thumb along the backtrack.
 * [Range track]({%slug slider-range-track%})&mdash;The Slider provides a customizable range track for better representation of the selected value. You can modify the range track's initial position with the `OriginValue` property.
 * [Ticks]({%slug slider-ticks%})&mdash;Ticks let users easily identify the min-max range.
-* [Labels]({%slug slider-labels%})&mdash;Display labels along the track for clarity of what the underlying min-max range is.
+* [Labels]({%slug slider-labels%})&mdash;Labels displayed along the track provide additional clarity about the underlying min-max range.
 * [Tooltip]({%slug slider-tooltips%})&mdash;Slider can show customizable tooltip to help the users choose the desired value.
 * Templates&mdash;Further customize the look of the Slider's labels, ticks and tooltip by using the exposed templates.
 * Flexible Styling API&mdash;You have full control over the appearance of the Slider's [thumb]({%slug slider-thumb-styling %}), [track]({%slug slider-track-styling %}), [ticks]({%slug slider-ticks-styling %}) and [labels]({%slug slider-labels-styling %}).
