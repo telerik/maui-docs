@@ -1,7 +1,7 @@
 ---
 title: Value Thumb
 page_title: .NET MAUI Slider Documentation - Value Thumb
-description: Learn how to use the value thumb that Telerik UI Slider for .NET MAUI control provides.
+description: Learn how to use the value thumb of the Telerik UI Slider for .NET MAUI. End users drag the value thumb across the backtrack to select a desired value.
 position: 3
 slug: slider-value-thumb
 ---
