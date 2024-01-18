@@ -24,7 +24,7 @@ Before adding the Slider, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
-1. [Register the Required Handlers]({%slug maui-getting-started %}#step-4-register-required-handlers).
+1. [Register the required handlers]({%slug maui-getting-started %}#step-4-register-required-handlers).
 
 ## Define the Control
 
