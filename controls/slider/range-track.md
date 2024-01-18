@@ -25,3 +25,4 @@ Check a quick example on how to define `OriginValue` property, so that the range
 - [Visual Structure]({% slug slider-visual-structure%})
 - [Backtrack Configuration]({% slug slider-backtrack-configuration%})
 - [Thumb Styling]({% slug slider-thumb-styling%})
+- [Track Styling]({% slug slider-track-styling %})
