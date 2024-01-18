@@ -39,7 +39,7 @@ Here is a quick example with a custom string converter:
 
 <snippet id='slider-labels-stringconverter-dictionary' />
 
-**2.** Define the Slider with the converter applied:
+**2.** Apply the converter to the Slider:
 
 <snippet id='slider-labels-stringconverter' />
 
