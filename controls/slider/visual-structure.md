@@ -26,3 +26,4 @@ The following image shows the anatomy of the Slider.
 
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Telerik .NET MAUI Demo Apps](https://www.telerik.com/maui-ui/demo-apps)
