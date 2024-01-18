@@ -34,3 +34,4 @@ The Slider supports ticks, labels, and tooltips. With them, your end users can q
 
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/forums/maui?tagId=2058)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Telerik .NET MAUI Demo Apps](https://www.telerik.com/maui-ui/demo-apps)
