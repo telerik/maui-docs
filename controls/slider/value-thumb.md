@@ -12,7 +12,7 @@ The Slider's value thumb is drawn based on its `Value` property. End users can m
 
 * `Value`(`double`)&mdash;Specifies the selected value of the slider, corresponds to the thumb position across the backtrack.
 
-Check a quick example on how to define `Value` property:
+Check a quick example on how to define the `Value` property:
 
 <snippet id='slider-getting-started-xaml' />
 
