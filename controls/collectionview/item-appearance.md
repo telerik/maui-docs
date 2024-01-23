@@ -2,7 +2,7 @@
 title: Item Appearance
 page_title: .NET MAUI CollectionView Documentation - Item Appearance
 description: Learn how to control the appearance of the items in the Telerik UI for .NET MAUI CollectionView by using an item template.
-position: 2
+position: 3
 slug: collectionview-item-appearance
 ---
 

@@ -2,7 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI CollectionView Documentation - Empty Template
 description: Learn more about the Empty Template property of the .NET MAUI CollectionView control.
-position: 9
+position: 17
 slug: collectionview-empty-template
 ---
 

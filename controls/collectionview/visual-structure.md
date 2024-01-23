@@ -2,7 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI CollectionView Documentation - CollectionView Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI CollectionView control.
-position: 0
+position: 1
 slug: collectionview-visual-structure
 ---
 

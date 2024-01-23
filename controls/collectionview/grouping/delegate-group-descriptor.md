@@ -2,7 +2,7 @@
 title: Delegate Group Descriptor
 page_title: .NET MAUI CollectionView Documentation - Delegate Group Descriptor
 description: Review the Telerik UI for .NET MAUI CollectionView DelegateGroupDescriptor option which enables you to group by a custom key.
-position: 2
+position: 5
 slug: collectionview-delegate-group-descriptor
 tags: group, collectionview, groupdescriptor, dotnet maui, maui, grouping items
 ---

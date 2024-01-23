@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI CollectionView Documentation - Commands
 description: Review the Telerik UI for .NET MAUI CollectionView Commands for operations like item tap and item holding.
-position: 14
+position: 20
 slug: collectionview-commands
 tags: commands, collectionview, mvvm, maui, dotnet maui
 ---

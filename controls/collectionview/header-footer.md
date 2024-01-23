@@ -2,7 +2,7 @@
 title: Header and Footer
 page_title: .NET MAUI CollectionView Documentation - Header and Footer
 description: Learn how to define headers and footers in the Telerik UI for .NET MAUI CollectionView control and use them to adjust the position of the content.
-position: 8
+position: 15
 slug: collectionview-header-footer
 ---
 

@@ -2,7 +2,7 @@
 title: Multi-Level Grouping
 page_title: .NET MAUI CollectionView Documentation - Grouping
 description: Review the Telerik UI for .NET MAUI CollectionView Multi-Level Grouping feature and how to enable it. 
-position: 5
+position: 7
 slug: collectionview-grouping-multilevel
 tags: group, collectionview, groupdescriptor, multilevel, nested grouping, maui, dotnet maui
 ---

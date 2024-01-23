@@ -2,7 +2,7 @@
 title: Property Group Descriptor
 page_title: .NET MAUI CollectionView Documentation - Porperty Group Descriptors
 description: Try now the Telerik UI for .NET MAUI CollectionView and its PropertyGroupDescriptor option for grouping items by a property value from the class that defines them.
-position: 1
+position: 4
 slug: collectionview-property-group-descriptor
 tags: group, collectionview, groupdescriptor
 ---

@@ -2,7 +2,7 @@
 title: Group Footer
 page_title: .NET MAUI CollectionView Documentation - Group Footer
 description: Check the Telerik UI for .NET MAUI CollectionView GroupFooter's BindingContext properties and how to style and define a custom GroupFooterTemplate.
-position: 5
+position: 2
 slug: collectionview-group-footer
 tags: group, collectionview, groupdescriptor, custom group footer
 ---
