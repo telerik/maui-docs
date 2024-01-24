@@ -33,7 +33,7 @@ Check below some quick examples:
 
 <snippet id='slider-drag-thumb-xaml' />
 
-#### Free:
+#### Free
 
 <snippet id='slider-drag-free-xaml' />
 
