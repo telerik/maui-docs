@@ -37,7 +37,7 @@ Check below some quick examples:
 
 <snippet id='slider-drag-free-xaml' />
 
-#### Disabled:
+#### Disabled
 
 <snippet id='slider-drag-disabled-xaml' />
 
