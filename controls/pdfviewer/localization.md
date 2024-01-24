@@ -2,7 +2,7 @@
 title: Localization
 page_title: .NET MAUI PDF Viewer Documentation - Localization
 description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI Scheduler control.
-position: 10
+position: 15
 slug: pdfviewer-localization
 ---
 
@@ -21,6 +21,7 @@ The table below shows the localization keys:
 | `PdfViewer_SearchedTextNotFound`  | `Not found` |
 | `PdfViewer_SearchResult_Of` | `of` |
 | `PdfViewer_SourceExceptionMessage` | `An error occurred while loading the document.` |
+| `PdfViewer_CopySelection` | `Copy` |
 
 ## See Also
 

@@ -29,10 +29,6 @@ When seleting a text, a default context menu opens with a `Copy` action. If you 
 
 * `SelectionMenuControlTemplate` (`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the selection (context) menu that is used to display the items.
 
-The defualt control templates for desktop and mobile:
-
-<snippet id='pdfviewer-selectionmenu-controltemplate' />
-
 ## Selection Menu Item
 
 Add items inside the `MenuItems` collection by using the `PdfViewerSelectionMenuItem`. The `PdfViewerSelectionMenuItem` has the following properties:
