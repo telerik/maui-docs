@@ -18,7 +18,7 @@ Check a quick example on how to define the `Value` property:
 
 ## Drag Mode
 
-The Slider supports different dragging options&mdash;only the thumb or free. In addition, you can completely disable the drag. 
+The Slider's `DragMode` property lets you configure one of three dragging options&mdash;only the thumb, free, or disabled.
 
 You can control the available dragging options through the `DragMode` property of the Slider:
 
