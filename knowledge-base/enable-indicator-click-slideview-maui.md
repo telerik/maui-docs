@@ -1,6 +1,6 @@
 ---
-title: Enabling Indicator Click to Navigate on Items in SlideView for .NET MAUI
-description: Learn how to enable the functionality to click on the indicator to navigate to items in SlideView for .NET MAUI.
+title: Enabling Navigation between SlideView Items by Using the Indicator
+description: Learn how to enable the SlideView for .NET MAUI to navigate between the items when users click on the indicator on their mobile devices.
 type: how-to
 page_title: Enable Indicator Click to Navigate to Items in SlideView for .NET MAUI
 slug: enable-indicator-click-slideview-maui
@@ -17,11 +17,11 @@ res_type: kb
 
 ## Description
 
-I want to enable the functionality to click on the indicator to navigate to items in SlideView for .NET MAUI. Currently, I am unable to click on the indicator to change the item on mobile, but it works fine on desktop.
+I want to enable users to navigate to the different SlideView items by using the indicator. Currently, changing the item with the indicator works fine on desktop, but isn't possible on mobile devices.
 
 ## Solution
 
-To enable the functionality to click on the indicator to navigate to items in SlideView for .NET MAUI, you can follow these steps:
+To enable navigation through the indicator in SlideView for .NET MAUI, follow these steps:
 
 1. In your XAML file, add the following namespace declarations:
 
@@ -49,11 +49,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 </telerik:RadSlideView>
 ```
 
-By following these steps, you will enable the functionality to click on the indicator in order to navigate to items in SlideView for .NET MAUI on mobile.
+By following these steps, you enable mobile device users to switch between SlideView items by tapping the indicator.
 
 ## Notes
 
-- All indicator properties for SlideView in .NET MAUI are described in the [documentation](https://docs.telerik.com/devtools/maui/controls/slideview/indicators).
+For all available SlideView indicator properties, see the [.NET MAUI SlideView Indicator](https://docs.telerik.com/devtools/maui/controls/slideview/indicators) article.
 
 ## See Also
 
