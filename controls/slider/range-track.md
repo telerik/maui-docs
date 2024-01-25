@@ -14,7 +14,7 @@ By default, the range track starts at the backtrack minimum and runs along to th
 
 * `OriginValue`(`double`)&mdash;Specifies the value across the backtrack where the range track starts.
 
-Check a quick example on how to define `OriginValue` property, so that the range track starts at the center of the backtrack:
+Check a quick example on how to define the `OriginValue` property, so that the range track starts at the center of the backtrack:
 
 <snippet id='slider-range-track-xaml' />
 
