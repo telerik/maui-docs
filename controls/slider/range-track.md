@@ -8,7 +8,7 @@ slug: slider-range-track
 
 # Range Track
 
-The range track refers to that part of the backtrack between Slider's `OriginValue` and `Value`.
+The range track refers to that part of the backtrack between the Slider's `OriginValue` and the currently set `Value`.
 
 In the common case the range track starts at the backtrack minimum and runs along to the value thumb. You can define a different initial position of the range track through the Slider's `OriginValue` property:
 
