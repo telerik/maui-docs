@@ -19,13 +19,13 @@ You can also use the `PlaceholderColor` property to define the placeholder text 
 
 ## Display Mode
 
-* `DisplayMode`(`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifying the way in which a picked item from the `SuggestionView` is visualized. 
+* `DisplayMode` (`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifying the way in which a picked item from the `SuggestionView` is visualized. 
 
 The default `DisplayMode` is `Plain`&mdash;The picked item is visualized as plain text. If you want to visualize multiple items set the `DisplayMode` to `Tokens`&mdash;Each item is displayed in a Token box.
 
 ## Completion Mode
 
-* `CompletionMode`(`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its `ItemsSource` when typing in its input. The available options are:
+* `CompletionMode` (`Telerik.Maui.Controls.AutoCompleteCompletionMode`)&mdash;Specifying the way the control filters its `ItemsSource` when typing in its input. The available options are:
 	* `StartsWith`&mdash;Filters the items that start with the text typed in the input area.
 	* `Contains`&mdash;Filters the items that contain the text typed in the input area.
 
@@ -49,8 +49,8 @@ The Clear Button, which appears at the right side of the input field when the Au
 
 The `NoResults` message appears in the popup used for the list of suggestions whenever the control cannot find any matching items.  You can use the following properties to customize the `NoResult` message:
 
-* `NoResultsMessage`(`string)`&mdash;Defines the message visualized when there are no suggestions found.
-* `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the template visualized when there are no suggestions found.
+* `NoResultsMessage` (`string)`&mdash;Defines the message visualized when there are no suggestions found.
+* `NoResultsTemplate` (`DataTemplate`)&mdash;Defines the template visualized when there are no suggestions found.
 
 <snippet id='autocomplete-noresultsmessage'/>
 
@@ -62,12 +62,12 @@ By default the search is triggered as soon as the user types into the input fiel
 
 ## SuggestionView Visibility
 
-* `ShowSuggestionView`(`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
-* `SuggestionViewHeight`(`double`)&mdash;Defines the `SuggestionViewHeight` of the control.
-* `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
-* `SuggestionViewBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.
-* `SuggestionViewCornerRadius`(`Thickness`)&mdash;Defines the corner radius applied to the Suggestion View.
-* `SuggestionViewBackgroundColor`(`Color`)&mdash;Defines the `BackgroundColor` of the suggestion view.
+* `ShowSuggestionView` (`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
+* `SuggestionViewHeight` (`double`)&mdash;Defines the `SuggestionViewHeight` of the control.
+* `SuggestionViewBorderColor` (`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
+* `SuggestionViewBorderThickness` (`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.
+* `SuggestionViewCornerRadius` (`Thickness`)&mdash;Defines the corner radius applied to the Suggestion View.
+* `SuggestionViewBackgroundColor` (`Color`)&mdash;Defines the `BackgroundColor` of the suggestion view.
 
 <snippet id='autocomplete-suggestionview'/>
 
