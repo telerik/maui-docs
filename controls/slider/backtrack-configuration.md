@@ -8,7 +8,7 @@ slug: slider-backtrack-configuration
 
 # Backtrack Configuration
 
-The backtrack refers to that part of the slider the thumb runs along. It represents all the values users can choose from.
+The thumb runs along the backtrack of the slider. The backtrack represents all the values your end users can choose from.
 
 ## Minimum and Maximum
 
