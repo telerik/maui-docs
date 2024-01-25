@@ -1,7 +1,7 @@
 ---
 title: Ticks
 page_title: .NET MAUI Slider Documentation - Ticks
-description: Learn how to use the ticks that Telerik UI Slider for .NET MAUI control provides.
+description: Learn how to configure the ticks of the Telerik UI Slider for .NET MAUI. Choose where to place the ticks and choose if your slider will snap to them.
 position: 5
 slug: slider-ticks
 ---
