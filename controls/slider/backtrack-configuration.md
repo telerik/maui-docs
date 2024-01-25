@@ -1,7 +1,7 @@
 ---
 title: Backtrack Configuration
 page_title: .NET MAUI Slider Documentation - Backtrack Configuration
-description: Learn how to use the backtrack configuration options that Telerik UI Slider for .NET MAUI control provides.
+description: Learn how to configure the backtrack of the Telerik UI Slider for .NET MAUI provides - set the min and max values and choose if the backtrack should extend beyond them.
 position: 4
 slug: slider-backtrack-configuration
 ---
