@@ -1,8 +1,8 @@
 ---
-title: Displaying Image and Text on ToolbarItem
-description: Learn how to display both image and text on a ButtonToolbarItem in Toolbar for .NET MAUI.
+title: Displaying Image and Text in a Toolbar Item
+description: Learn how to display both images and text in the button items of the Toolbar for .NET MAUI.
 type: how-to
-page_title: How to Display Image and Text on ButtonToolbarItem in Toolbar for .NET MAUI
+page_title: How to Display Image and Text in the ButtonToolbarItem of the Toolbar for .NET MAUI
 slug: display-image-text-buttontoolbaritem-net-maui
 tags: toolbar, buttontoolbaritem, image, text, display options, style, maui
 res_type: kb
@@ -16,9 +16,11 @@ res_type: kb
 
 ## Description
 
-To display both an image and text on a ButtonToolbarItem in Toolbar for .NET MAUI, you can use a style with the `DisplayOptions` property set to a bitwise combination of `Text` and `Image` enum members. This allows you to enable both options simultaneously.
+How can I add both an image and some textual content to the buttons of the Toolbar for .NET MAUI?
 
 ## Solution
+
+To display both an image and text in the Toolbar's `ButtonToolbarItem`, use a style with the `DisplayOptions` property set to a bitwise combination of `Text` and `Image` enum members. This allows you to enable both options simultaneously.
 
 1. Define a style for the `ButtonToolbarItemView` target type.
 2. Set the `DisplayOptions` property of the style to `"Text, Image"`.
@@ -33,7 +35,7 @@ Here is an example of how to define the style in XAML:
 </Style>
 ```
 
-For more examples, you can refer to the [ToolbarControl configuration examples](https://github.com/telerik/maui-samples/blob/main/Samples/SdkBrowser/Examples/ToolbarControl/ConfigurationCategory/ConfigurationExample/Configuration.xaml).
+For more examples, you refer to the [.NET MAUI Toolbar configuration examples](https://github.com/telerik/maui-samples/blob/main/Samples/SdkBrowser/Examples/ToolbarControl/ConfigurationCategory/ConfigurationExample/Configuration.xaml).
 
 ## Notes
 - The `DisplayOptions` property supports a bitwise combination of enum members to enable multiple options.
