@@ -23,7 +23,7 @@ You need to configure a `Minimum` value and a `Maximum` value for the Slider. Th
 
 By default, the backtrack is drawn between the `Minimum` and `Maximum` values. Through the `BacktrackExtent` property you can extend the backtrack at the edges beyond the minimum and the maximum values.
 
-* `BacktrackExtent`(`double`)&mdash;Defines the pixel length that the backtrack extends beyond the min and the max values.
+* `BacktrackExtent`(`double`)&mdash;Defines how many pixels beyond the minimum and the maximum values the backtrack will extend. 
 
 ```XAML
  <telerik:RadSlider Minimum="0"
