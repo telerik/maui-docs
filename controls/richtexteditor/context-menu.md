@@ -12,6 +12,8 @@ The .NET MAUI RichTextEditor comes with a built-in context menu, which provides 
 
 On WinUI and MacCatalyst, the context menu opens on a right-button click over the editor's content. On Android and iOS, it appears as soon as the user performs selection.
 
+> on iOS, the context menu is available from iOS 16.0 version.
+
 The default context menu shows the following options:
 
 * **Cut**&mdash;Cuts the selected content and saves it in the system clipboard.
