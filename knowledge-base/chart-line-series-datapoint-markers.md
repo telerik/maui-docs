@@ -1,6 +1,6 @@
 ---
-title: Create Data Point Markers on Chart LineSeries
-description: How you can show point markers in LineSeries on data points in RadChart
+title: Create Data Point Markers on Chart's Line Series
+description: Learn how to show data point markers in the Line Series of the RadChart when using the native Chart for Android and iOS.
 type: how-to
 page_title: Show Data Points on CartesianChart LineSeries
 slug: chart-line-series-datapoint-markers
@@ -19,12 +19,11 @@ res_type: kb
 
 ## Description
 
-Is there a way to turn on Data Point Markers for RadCartesianChart LineSeries? This can be really helpful in case there is only one result the chart doesn't show the value of the result.
-
+Is there a way to turn on Data Point Markers for the `RadCartesianChart` Line Series? I want to use this when there is only one result and the Chart doesn't show the value of this result.
 
 ## Solution
 
-You would need to use the native chart for Android and iOS in order to display data point markers on LineSeries of the CartesianChart. 
+To display data point markers on the Line Series of the Cartesian Chart, use the native Chart for Android and iOS.
 
 **1.** Define the Chart in XAML:
 
@@ -95,7 +94,7 @@ public class ViewModel
 }
 ```
 
-**4.** Subscribe to the `HandlerChanged` event and use the native chart for adding point markers on Android and iOS:
+**4.** Subscribe to the `HandlerChanged` event and use the native Chart to add point markers on Android and iOS:
 
 ```C#
 public partial class MainPage : ContentPage
@@ -164,6 +163,6 @@ public class PointRenderer : Java.Lang.Object, global::Com.Telerik.Widget.Chart.
 }
 ```
 
-**6.** And this is the result:
+And this is the result:
 
 [.NET MAUI Chart Point Markers](images/chart-pointmarkers-result.png)

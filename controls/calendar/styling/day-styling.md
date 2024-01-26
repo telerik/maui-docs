@@ -10,7 +10,7 @@ slug: calendar-day-styling
 
 The Calendar control for .NET MAUI allows you to style the day names in the month view by setting the `DayNameLabelStyle` (`Style` with target type of `Label`) property.
 
-The follwoing example demonstrates how to style the dat names: 
+The follwoing example demonstrates how to style the day names: 
 
 **1.** Define the Calendar:
 
