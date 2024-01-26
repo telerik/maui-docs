@@ -62,16 +62,16 @@ The Scheduler exposes the following events related to the built-in dialogs for m
 
 * `DialogOpening`&mdash;occurs when a dialog is about to be opened. The `DialogOpening` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
-    * A `SchedulerDialogOpeningEventArgs` object which you can use to get the dialog type through `DialogType` property as well as cancel the opening by setting its `Cancel` property to `true`.
+    * A `SchedulerDialogOpeningEventArgs` object which you can use to get the dialog type through `DialogType` property as well as cancel the opening by setting its `Cancel` property to `True`.
 * `DialogClosing`&mdash;occurs when a dialog is about to be closed. The `DialogClosing` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
-    * A `SchedulerDialogClosingEventArgs` object which you can use to get the dialog type through `DialogType` property as well as cancel the opening by setting its `Cancel` property to `true`. In addition, the `SchedulerDialogClosingEventArgs` provides a `DialogResult`(`bool?`) property which is null is when the dialog is closed by the close Button of the SchedulerDialog. False when Cancel option is pressed, otherwise the value is True.
+    * A `SchedulerDialogClosingEventArgs` object which you can use to get the dialog type through `DialogType` property as well as cancel the opening by setting its `Cancel` property to `True`. In addition, the `SchedulerDialogClosingEventArgs` provides a `DialogResult`(`bool?`) property which gives information on how the dialog is closed: `DialogResult` is null when the dialog is closed by the Close button of the dialog, `False` when Cancel option is pressed, otherwise the value is `True`.
 
 Check a quick example on how the `DialogOpening` and `DialogClosing` events can be used:
 
 **1.** Add the `RadScheduler` definition:
 
-<snippet id='cheduler-dialogs-events-xaml` />
+<snippet id='cheduler-dialogs-events-xaml' />
 
 **2.** Add the event handlers:
 
