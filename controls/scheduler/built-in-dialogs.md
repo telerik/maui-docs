@@ -71,7 +71,7 @@ Check a quick example on how the `DialogOpening` and `DialogClosing` events can 
 
 **1.** Add the `RadScheduler` definition:
 
-<snippet id='cheduler-dialogs-events-xaml' />
+<snippet id='scheduler-dialogs-events-xaml' />
 
 **2.** Add the event handlers:
 
