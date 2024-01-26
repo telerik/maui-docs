@@ -1,14 +1,14 @@
 ---
 title: TreeView Descriptor
 page_title: .NET MAUI TreeView Documentation - TreeView Descriptor
-description: Get started with the Telerik UI for .NET MAUI TreeView Descriptor.
+description: Learn how to define the appearance of the items in the Telerik UI for .NET MAUI TreeView control.
 position: 2
 slug: treeview-descriptor
 ---
 
 # .NET MAUI TreeView Descriptor
 
-Thre Telerik .NET MAUI `TreeViewDescriptor` is part of TreeView items visualization. The `TreeViewDescriptor` defines the data items' hierarchy and how each item is visualized.
+The Telerik .NET MAUI `TreeViewDescriptor` is part of TreeView items visualization. The `TreeViewDescriptor` defines the data items' hierarchy and how each item is visualized.
 
 The `TreeViewDescriptor` class exposes the following properties described in the table below: 
 
@@ -21,7 +21,7 @@ The `TreeViewDescriptor` class exposes the following properties described in the
 | `ItemTemplate` (`DataTemplate`) | Specifies the template applied to the respective type of items. |
 | `ItemStyle` (`Style` with a target type of `TreeViewItemView`) | Specifies the style of the TreeView items. |
 
-> You can define multipe descriptors in the TreeView.
+> You can define multiple descriptors in the TreeView.
 
 Here is an example with TreeView descriptor:
 
