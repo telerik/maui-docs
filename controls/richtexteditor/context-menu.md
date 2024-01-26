@@ -12,7 +12,7 @@ The .NET MAUI RichTextEditor comes with a built-in context menu, which provides 
 
 On WinUI and MacCatalyst, the context menu opens on a right-button click over the editor's content. On Android and iOS, it appears as soon as the user performs selection.
 
-> on iOS, the context menu is available from iOS 16.0 version.
+> On iOS and MacCatalyst, the context menu is available from versions >= 16.0.
 
 The default context menu shows the following options:
 
@@ -23,6 +23,10 @@ The default context menu shows the following options:
 *  **Select All**&mdash;Selects all of the content in the editor.
 
 What options are available in the context menu depends on the current content selection or caret position in the editor.
+
+This is how the default context menu looks:
+
+![.NET MAUI RichTextEditor Context Menu](images/richtexteditor-custom-context-menu.png)
 
 ## Custom Context Menu
 
@@ -57,6 +61,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the following view model for the custom command for the `RichTextEditorCustomContextMenuItem`:
 
 <snippet id='richtexteditor-contextmenu-vm' />
+
+This is how the custom context menu looks:
+
+![.NET MAUI RichTextEditor Context Menu Custom](images/richtexteditor-custom-context-menu.png)
 
 > For a runnable example with the RichTextEditor Custom Context menu scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Features** category.
 

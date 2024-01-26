@@ -25,7 +25,7 @@ To control the fill color and the color of the drag handles, use the following p
 
 When the user selects some text, this opens a default selection menu (context menu) with a **Copy** action. You can customize this menu by using the following properties:
 
-*  `MenuItems` (`PdfViewerSelectionMenuItemCollection`)&mdash;Specifies a collection of menu items that are displayed in the selection menu.
+* `MenuItems` (`PdfViewerSelectionMenuItemCollection`)&mdash;Specifies a collection of menu items that are displayed in the selection menu.
 * `SelectionMenuControlTemplate` (`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the selection menu. The template is used to display the items in the selection menu.
 * `PdfViewerSelectionMenuItem`&mdash;Specifies the items that will be added to the `MenuItems` collection. `PdfViewerSelectionMenuItem` has the following properties:
    * `Text` (`string`)&mdash;Specifies the text of the `PdfViewerSelectionMenuItem`.
