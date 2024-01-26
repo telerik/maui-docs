@@ -8,9 +8,13 @@ slug: pdfviewer-selection-overview
 
 # .NET MAUI PDF Viewer Selection Overview
 
-The Telerik UI for .NET MAUI PdfViewer supports text selection functionality - the end user can initiate a selection action. On mobile through the hold gesture over the text. On desktop and on desktop through mouse click and drag actions - continuous drag extends the current selection. SelectionMenu displays on right-click over the selected text.
+By providing text selection functionality, the Telerik UI for .NET MAUI PDF Viewer enables users to mark and highlight a portion of the text. 
 
-The selected text is marked with a different background color and two drag handles are available to the user to make it easier to modify the current selection. In addition, as soon as the selection is made, PDF Viewer displays a customizable SelectionMenu with a default Copy command to allow the user to retrieve the selected text.
+To initiate the text selection on mobile devices, the user must press and hold the target text. Two drag handles let the user modify the current selection.
+
+On desktop devices, the user initiates the selection through a mouse click, while dragging extends the current selection. A right-click over the selected text displays the selection menu.
+
+The PDF Viewer marks the selected text with a distinct background color and displays a customizable selection menu with a default **Copy** command to allow the user to retrieve the selected text.
 
 ## Selection on Mobile
 
@@ -23,6 +27,10 @@ Here is how the default selection looks on mobile:
 Here is how the default selection looks on desktop:
 
 ![Telerik UI for .NET MAUI PDF Viewer Selection on Desktop](../images/pdf-selection-desktop.gif)
+
+## Next Steps
+
+* [Configuring the Selection in the PDF Viewer]({%slug pdfviewer-selection-configuration%})
 
 ## See Also
 

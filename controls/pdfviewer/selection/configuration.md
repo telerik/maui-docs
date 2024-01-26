@@ -8,35 +8,34 @@ slug: pdfviewer-selection-configuration
 
 # .NET MAUI PDF Viewer Selection Configuration
 
-The Telerik UI for .NET MAUI PDF Viewer exposes `SelectionSettings ` property which you can use to configure the colors applied to the selected text and completely customize the displayed selection menu.
+The Telerik UI for .NET MAUI PDF Viewer exposes the `SelectionSettings ` property which you can use to configure the colors applied to the selected text and completely customize the displayed selection menu.
 
 This article lists the `SelectionSettings` properties that allow you to customize the selection.
 
-By default the selection is enabled. If you want to disable the selection, set the `IsSelectionEnabled` to `False`.
+By default, the selection is enabled. If you want to disable the selection, set the `IsSelectionEnabled` to `False`.
 
-## Selection Fill and Indicator Color
+## Changing the Fill and Indicator Colors
+
+To control the fill color and the color of the drag handles, use the following properties:
 
 * `SelectionFill`&mdash;Specifies the background color applied to the selected text.
-* `SelectionIndicatorColor`&mdash;Specifies the color of both handles around the selected text used to modify the selection. This is applicable on mobile.
+* `SelectionIndicatorColor`&mdash;Specifies the color of both handles around the selected text, which are used to modify the selection. This is applicable on mobile.
 
-## Context Menu
+## Customizing the Selection Menu
 
-When seleting a text, a default context menu opens with a `Copy` action. If you want to customize the selection (context) menu use the follwing properties:
+When the user selects some text, this opens a default selection menu (context menu) with a **Copy** action. You can customize this menu by using the following properties:
 
-* `MenuItems` (`PdfViewerSelectionMenuItemCollection`)&mdash;Specifies a collection of menu items that are displayed in the SelectionMenu.
+*  `MenuItems` (`PdfViewerSelectionMenuItemCollection`)&mdash;Specifies a collection of menu items that are displayed in the selection menu.
+* `SelectionMenuControlTemplate` (`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the selection menu. The template is used to display the items in the selection menu.
+* `PdfViewerSelectionMenuItem`&mdash;Specifies the items that will be added to the `MenuItems` collection. `PdfViewerSelectionMenuItem` has the following properties:
+   * `Text` (`string`)&mdash;Specifies the text of the `PdfViewerSelectionMenuItem`.
+   * `Command` (`ICommand`)&mdash;Specifies the command associated with the `PdfViewerSelectionMenuItem`.
 
-## Customize the Selection Menu
+> The `SelectionMenuControlTemplate` property applies on iOS, MacCatalyst and Android. On WinUI the native context menu is displayed to list the selection menu items.
 
-* `SelectionMenuControlTemplate` (`ControlTemplate`)&mdash;Specifies the `ControlTemplate` of the selection (context) menu that is used to display the items.
+## Example: PDF Viewer Custom Selection Menu
 
-## Selection Menu Item
-
-Add items inside the `MenuItems` collection by using the `PdfViewerSelectionMenuItem`. The `PdfViewerSelectionMenuItem` has the following properties:
-
-* `Text` (`string`)&mdash;Specifies the text of the `PdfViewerSelectionMenuItem`.
-* `Command` (`ICommand`)&mdash;Specifies the command associated with the `PdfViewerSelectionMenuItem`.
-
-## Example: PDF viewer Custom Selection Menu
+The following steps demonstrate how to use the PDF Viewer properties to customize the selection menu:
 
 **1.** Add the PDF Viewer definition with the event:
 
@@ -50,7 +49,7 @@ Add items inside the `MenuItems` collection by using the `PdfViewerSelectionMenu
 
 <snippet id='pdfviewer-textselection-viewmodel' />
 
-**4.** Set PDF document to the PDF viewer `Source`:
+**4.** Set PDF document to the PDF Viewer's `Source`:
 
 <snippet id='pdfviewer-getting-started' />
 

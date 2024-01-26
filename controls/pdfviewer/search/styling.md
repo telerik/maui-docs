@@ -12,9 +12,9 @@ The PDF Viewer for .NET MAUI provides a flexible styling API for its search tool
 
 As the `PDFViewerToolbar` is based on the `RadToolbar` control, all toolbar items in the PDF Viewer inherit from `ButtonToolbarItem`. All styling properties available for the `ButtonToolbarItem` are also applicable for the PDF toolbar items. 
 
-## Style the PdfViewerSearchNavigationToolbarItem
+## Styling the Toolbar's Search Item on Mobile
 
-The default search toolbar item displayed on mobile is the `PdfViewerSearchNavigationToolbarItem` (`Style` property with target type `NavigationButtonToolbarItemView`). The 
+The default search toolbar item displayed on mobile devices is the `PdfViewerSearchNavigationToolbarItem` (`Style` property with target type `NavigationButtonToolbarItemView`). The 
 
 The table below lists all toolbar items related to the `PdfViewerSearchNavigationToolbarItem` and their target types:
 
@@ -26,9 +26,9 @@ The table below lists all toolbar items related to the `PdfViewerSearchNavigatio
 | `PdfViewerSearchBusyIndicatorToolbarItem` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
 | `BackNavigationButtonToolbarItemView` | `Style` property with target type `ButtonToolbarItemView` |
 
-## Style the PdfViewerSearchToolbarItem
+## Styling the Toolbar's Search Item on Desktop
 
-The default search toolbar item displayed on desktop is the `PdfViewerSearchToolbarItem`. The toolbar item exposes the following properties:
+The default search toolbar item displayed on desktop devices is the `PdfViewerSearchToolbarItem`. The toolbar item exposes the following properties:
 
 * `Style` (target type `ButtonToolbarItemView`)&mdash;Specfies the style applied to the toolbar button that opens the search popup on desktop.
 * `SearchContentViewStyle` (`Style` with a target type of `PdfViewerSearchContentView`)&mdash;Specifies the style applied to the search popup.
@@ -44,11 +44,15 @@ The table below lists all styling properties available in the `SearchContentView
 | `BusyIndicatorToolbarItemStyle` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
 | `SearchResultsLabelToolbarItemStyle` | `Style` property with target type `LabelToolbarItemView` |
 
-The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}).
+The next table lists the inheritance of the target types:
 
-The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}).
-
-The `PdfViewerNavigateToPreviousSearchResultToolbarItemView`, `PdfViewerNavigateToNextSearchResultToolbarItemView`, and `NavigationButtonToolbarItemView` inherit from [ButtonToolbarItemView]({%slug toolbar-items-button%}). 
+| Target Type | Inherits from |
+| ------ | ------ |
+| `PdfViewerSearchBusyIndicatorToolbarItemView` | [`BusyIndicatorToolbarItemView`]({%slug toolbar-items-busyindicator%}) |
+| `PdfViewerSearchEntryToolbarItemView` | [`EntryToolbarItemView`]({%slug toolbar-items-entry%}) |
+| `PdfViewerNavigateToPreviousSearchResultToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
+| `PdfViewerNavigateToNextSearchResultToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
+| `NavigationButtonToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
 
 ## Styling the Search Toast Message on Mobile
 
