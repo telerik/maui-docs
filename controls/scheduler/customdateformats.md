@@ -8,7 +8,7 @@ slug: scheduler-custom-date-formats
 
 # .NET MAUI Scheduler Custom Date Formats
 
-The Telerik UI for .NET MAUI Scheduler control provides built-in date formatting support. Each Scheduler view can be easily customized to display dates and times on the time ruler and in the headers in custom formats.
+The Telerik UI for .NET MAUI Scheduler control provides built-in date formatting support. You can customize each Scheduler view to use custom formats for displaying dates and times on the time ruler and in the headers.
 
 You can use the following date format properties for the different views:
 
