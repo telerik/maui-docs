@@ -22,7 +22,7 @@ Check below the available dialogs for managing appointments.
 
 ![Telerik .NET MAUI Scheduler EditAppointmentDialog](images/scheduler-dialogs-editappointment.png)
 
-* **EditRecurrenceDialog**&mdash;Used for creating and editing the recurrence rule of a recurrent appointment.
+* **EditRecurrenceDialog**&mdash;Lets the end user configure the recurrence settings of an appointment.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceDialog](images/scheduler-dialogs-editrecurrence.png)
 
