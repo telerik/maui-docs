@@ -15,7 +15,7 @@ The thumb runs along the backtrack of the Slider. The backtrack represents all t
 You need to configure a `Minimum` value and a `Maximum` value for the Slider. These values define the limits of the backtrack.
 
 * `Minimum`(`double`)&mdash;Defines the minimum value of the slider.
-* `Maximum`(`double`)&mdash;Defines the maximum value of the slider.
+* `Maximum`(`double`)&mdash;Defines the maximum value of the Slider.
 
 <snippet id='slider-getting-started-xaml' />
 
