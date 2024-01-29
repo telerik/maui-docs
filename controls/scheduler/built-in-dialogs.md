@@ -17,7 +17,7 @@ Check below the available dialogs for managing appointments.
 ![Telerik .NET MAUI Scheduler PreviewAppointmentDialog](images/scheduler-dialogs-preview.png)
 
 * **EditAppointmentDialog**&mdash;Used for creating a new appointment or editing an existing appointment. 
-    * On desktop the EditAppointment dialog appears when the end user double-clicks on an empty slot or an appointment. 
+    * On desktop, the Edit Appointment dialog appears when the end user double-clicks an empty slot or an appointment. 
     * On mobile the EditAppointment dialog  appears when the end user taps on an empty slot to create a new appointment. For existing appointments EditAppointment dialog is navigated to from the PreviewAppointment dialog when tapping on the Edit button.
 
 ![Telerik .NET MAUI Scheduler EditAppointmentDialog](images/scheduler-dialogs-editappointment.png)
