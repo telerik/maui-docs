@@ -18,7 +18,7 @@ The Slider tooltip provides the following customization options:
 
 ## TooltipContentTemplate Example
 
-Check below a quick example with setting `TooltipStringFormat` and `TooltipContentTemplate` properties:
+Check below a quick example with setting the `TooltipStringFormat` and `TooltipContentTemplate` properties:
 
 **1.** Add the custom `DataTemplate` to your page resources:
 
