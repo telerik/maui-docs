@@ -6,7 +6,7 @@ position: 5
 slug: slider-backtrack-configuration
 ---
 
-# Backtrack Configuration
+# .NET MAUI Slider Backtrack Configuration
 
 The thumb runs along the backtrack of the slider. The backtrack represents all the values your end users can choose from.
 

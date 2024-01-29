@@ -2,13 +2,13 @@
 title: Events
 page_title: .NET MAUI Slider Documentation - Events
 description: Learn about the ValueChanging event that the Telerik UI for .NET MAUI Slider control exposes and find out how to use it.
-position: 9
+position: 10
 slug: slider-events
 ---
 
 # .NET MAUI Slider Events
 
-The Telerik UI for .NET MAUI Slider component exposes a `ValueChanging` event which is raised when the end user drags the thumb or the range track. You can use this event to plug custom logic by changing the `Value` property.
+The Telerik UI for .NET MAUI Slider component exposes a `ValueChanging` event which is raised when the end user drags the thumb or touches the range track. You can use this event to plug custom logic by changing the `Value` property.
 
 The `ValueChanging` event handler receives two parameters:
 

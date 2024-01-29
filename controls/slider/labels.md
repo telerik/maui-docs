@@ -6,21 +6,21 @@ position: 7
 slug: slider-labels
 ---
 
-# Labels
+# .NET MAUI Slider Labels
 
-The Slider for .NET MAUI can show labels along the backtrack for clarity of what the underlying min-max range is.
+The Slider for .NET MAUI can show labels along the backtrack. This helps users to better understand the underlying range of values.
 
 ## Labels Step and Placement
 
 To display labels, define the `LabelStep` and `LabelPlacement` properties of the Slider.
 
-* `LabelStep`(`double`)&mdash;Defines at what positions/values labels will be displayed.
-* `LabelsPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderLabelsPlacement`)&mdash;Specifies the position of the labels in the Slider with respect to its backtrack. The available options are:
-    * `None`&mdash;no labels are displayed.
-    * `Start`&mdash;labels appear above the backtrack.
-    * `End`&mdash;labels appear below the backtrack.
+* `LabelStep`(`double`)&mdash;Defines the values on the backtrack that will be indicated by labels. Each label will be placed at the specified value interval. For example, if `LabelStep="5"`, your labels will show the 0, 5, 10, 15, and 20 values on a 0-20 backtrack.
+* `LabelsPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderLabelsPlacement`)&mdash;Defines where the labels are displayed relative to the position of the backtrack. The available options are:
+    * `None`&mdash;No labels are displayed.
+    * `Start`&mdash;The labels appear above the backtrack.
+    * `End`&mdash;The labels appear below the backtrack.
 
-Check an example on how labels can be configured:
+Check an example on how you can configure labels:
 
 <snippet id='slider-labels-settings' />
 
@@ -31,11 +31,11 @@ Check an example on how labels can be configured:
 Through the formatting properties you can easily modify only the labels text by applying a custom format. 
 
 * `StringFormat`(`string`)&mdash;Defines a custom string format for the labels and the tooltips of the Slider.
-* `StringConverter`(`Telerik.Maui.IStringConverter`)&mdash;Specifies a custom string converter that can be used to define the content of a label or a tooltip for a given slider value.
+* `StringConverter`(`Telerik.Maui.IStringConverter`)&mdash;Defines a custom string converter. You can use the string converter to replace the range values with more user-friendly names in your Slider labels.  
 
 Here is a quick example with a custom string converter:
 
-**1.** Add the following sample Dictionary String Converter to your resources&mdash;in short, it replaces the values of the range with meaningful names in order to make the range more readable:
+**1.** Add the following sample Dictionary String Converter to your resources. It replaces the values of the range with meaningful names to make the range more readable:
 
 <snippet id='slider-labels-stringconverter-dictionary' />
 
@@ -63,7 +63,7 @@ Check below a sample `LabelTemplate` example:
 
 <snippet id='slider-labels-labeltemplate-xaml' />
 
-Here is the result:
+Check the result below:
 
 ![Telerik Slider for .NET MAUI Label Template](images/slider-labels-template.png)
 
