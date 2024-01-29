@@ -6,7 +6,7 @@ position: 9
 slug: scheduler-built-in dialogs
 ---
 
-# .NET MAUI Scheduler Built-in Dialogs
+# .NET MAUI Scheduler Built-In Dialogs
 
 Telerik .NET MAUI Scheduler control exposes built-in dialogs for creation and modification of appointments, so you can provide users with the ability to directly schedule their meetings.
 
