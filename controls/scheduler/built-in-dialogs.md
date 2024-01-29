@@ -91,7 +91,7 @@ You can style the visual appearance of each dialog by creating the corresponding
 * `EditRecurrenceChoiceDialogStyle`&mdash;Defines the Style that will be applied on the edit recurrence choice dialog control.
 * `DeleteAppointmentChoiceDialogStyle`&mdash;Defines the Style that will be applied on the delete appointment choice dialog control.
 * `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the Style that will be applied on the delete recurrence choice dialog control.
-* `PreviewAppointmentDialogStyle`&mdash;Defines the Style that will be applied on the preview appointment dialog control. This dialog is only used in Android and iOS. 
+* `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the PreviewAppointment Dialog. 
 
 ## See Also
 
