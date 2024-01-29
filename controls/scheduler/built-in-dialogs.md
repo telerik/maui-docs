@@ -34,7 +34,7 @@ Check below the available dialogs for managing appointments.
 
 ![Telerik .NET MAUI Scheduler DeleteRecurrenceChoiceDialog](images/scheduler-dialogs-deleterecurrencechoice.png)
 
-* **DeleteAppointmentChoiceDialog**&mdash;Available only on desktop. Provides a confirmation for deleting an appointment.
+* **DeleteAppointmentChoiceDialog**&mdash;(Desktop-only) When the end user attempts to delete an appointment, asks for confirmation.
 
 ![Telerik .NET MAUI Scheduler DeleteAppointmentChoiceDialog](images/scheduler-dialogs-deleteappointmentchoice.png)
 
