@@ -33,6 +33,8 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Column settings]({% slug datagrid-columns-overview %})&mdash;The DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}), allow users to [lock columns]({% slug datagrid-frozen-columns %}) and keep the important information always on top, and [add a column footer]({%slug datagrid-column-footer%}) to the component.
 
+* [Search as you type]({%slug datagrid-search-as-you-type%})&mdash;The DataGrid provides the ability to search for specific data within its ItemsSource by using its built-in search funcionality.
+
 * [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.
 
 * [Row details]({%slug datagrid-row-details-overview%})&mdash;Represent additional information for the data in the row.
