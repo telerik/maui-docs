@@ -41,5 +41,5 @@ By default, the backtrack is drawn between the `Minimum` and `Maximum` values. T
 ## See Also
 
 * [Value Thumb]({% slug slider-value-thumb%})
-* [Range Track)({%slug slider-range-track%})
+* [Range Track]({%slug slider-range-track%})
 * [Track Styling]({% slug slider-track-styling%})
