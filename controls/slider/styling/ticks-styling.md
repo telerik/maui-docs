@@ -34,7 +34,7 @@ The following example demonstrates how to use the described styling properties t
 
 ## TickStyleSelector Example
 
-The following example demonstrates how to use the `TicksStyleSelector` set two different styles for the major and minor ticks:
+The following example demonstrates how to use the `TicksStyleSelector` to set two different styles for the major and minor ticks:
 
 **1.** Create a custom style selector class that inherits from `Telerik.Maui.Controls.IStyleSelector`:
 
