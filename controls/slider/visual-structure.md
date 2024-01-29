@@ -6,7 +6,7 @@ position: 2
 slug: slider-visual-structure
 ---
 
-# .NET MAUI Silder Visual Structure
+# .NET MAUI Slider Visual Structure
 
 The visual structure of the .NET MAUI Slider represents the anatomy of the UI component. Being familiar with the visual elements of the Slider allows you to quickly find the information required to configure them.
 
