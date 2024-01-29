@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI Scheduler control provides built-in date formatting
 
 You can use the following date format properties for the different views:
 
-### MultiDay View
+### Multiday View
 
 * `HeaderTextFormat`&mdash;Defines the string format of the header text.
 * `DayStringFormat`&mdash;Defines the string format of the header days.
