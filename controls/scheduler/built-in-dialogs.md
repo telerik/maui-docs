@@ -84,7 +84,7 @@ Check a quick example on how to use the `DialogOpening` and `DialogClosing` even
 
 ### Customization
 
-You can customize the visual appearance of each dialog by creating the corresponding style with TargetType set to `SchedulerDialog`. Here is a list of the available Style properties:
+You can style the visual appearance of each dialog by creating the corresponding `Style` with `TargetType` set to `SchedulerDialog`. Here is a list of the available `Style` properties:
 
 * `EditAppointmentDialogStyle`&mdash;Defines the Style that will be applied on the edit appointment dialog control.
 * `EditRecurrenceDialogStyle`&mdash;Defines the Style that will be applied on the edit recurrence dialog control.
