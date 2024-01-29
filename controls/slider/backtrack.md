@@ -8,7 +8,7 @@ slug: slider-backtrack
 
 # .NET MAUI Slider Backtrack
 
-The thumb runs along the backtrack of the slider. The backtrack represents all the values your end users can choose from.
+The thumb runs along the backtrack of the Slider. The backtrack represents all the values your end users can choose from.
 
 ## Minimum and Maximum
 
