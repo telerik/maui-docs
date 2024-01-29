@@ -23,9 +23,9 @@ The Slider's `DragMode` property lets you configure one of three dragging option
 You can control the available dragging options through the `DragMode` property of the Slider:
 
 * `DragMode`(`Telerik.Maui.Controls.Slider.SliderDragMode`)&mdash;Defines the possible ways to interact with the Slider and change its `Value`. You can choose from:
-    * `Disabled`&mdash;drag is not enabled.
+    * `Disabled`&mdashThe thumb's position is fixed on the backtrack and dragging is disabled.
     * `Thumb`&mdash;The thumb moves along the backtrack only by dragging.
-    * `Free`&mdash;touching anywhere (the thumb, or the range track, or the backtrack) will lead to the `Value` being changed.
+    * `Free`&mdash;The thumb's position (and the `Value` property) changes via dragging or touching anywhere on the range track or backtrack.
  
 Check below some quick examples:
 

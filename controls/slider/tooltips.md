@@ -24,7 +24,7 @@ Check below a quick example with setting `TooltipStringFormat` and `TooltipTempl
 
 <snippet id='slider-tooltiptemplate-datatemplate' />
 
-**2.** Define the Slider control:
+**2.** Apply it to the Slider's `TooltipContentTemplate`:
 
 <snippet id='slider-tooltiptemplate-xaml' />
 
