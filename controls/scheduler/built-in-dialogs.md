@@ -83,7 +83,7 @@ The Scheduler exposes the following events for its built-in dialogs:
     * A `SchedulerDialogClosingEventArgs` object with the following properties:
        * `DialogType`&mdash;Provides the dialog type.
        * `Cancel`&mdash;If `True`, cancels the dialog closing.
-       * `DialogResult (bool?)`&mdash;Indicates how the dialog was closed. `null` when closed with the **Close** button. `False` when closed with the **Cancel** button. `True` when <BE SPECIFIC>.
+       * `DialogResult (bool?)`&mdash;Indicates how the dialog was closed. `null` when closed with the **Close** button. `False` when closed with the **Cancel** button. `True` in all other cases.
 
 Check a quick example on how to use the `DialogOpening` and `DialogClosing` events:
 
