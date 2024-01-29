@@ -40,7 +40,7 @@ Check below the available dialogs for managing appointments.
 
 ### Methods
 
-The Scheduler exposes a way to explicitly show the built-in dialogs through the following methods:
+Use the following methods to show the built-in dialogs of the Scheduler:
 
 * `CreateAppointmentWithDialog(DataRange range)`&mdash;Opens a dialog for creating an appointment.
 * `EditAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for editing an exsisting appointment.
