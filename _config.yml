@@ -320,6 +320,9 @@ navigation:
     controls/pdfviewer/search:
         title: "Search"
         position: 10
+    controls/pdfviewer/selection:
+        title: "Selection"
+        position: 12
     ## End PdfViewer
     ## Popup
     controls/popup:
