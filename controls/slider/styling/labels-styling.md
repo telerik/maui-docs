@@ -14,7 +14,6 @@ The Slider for .NET MAUI provides the following styling options and a style sele
 * `FontFamily`&mdash;Defines a custom font family for the labels.
 * `FontSize`&mdash;Defines a custom font size for the labels.
 * `LabelStyle`&mdash;Defines a custom style for the labels.
-
 * `LabelStyleSelector`(`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to different labels according to custom logic.
 
 The following example demonstrates how to use the `LabelStyleSelector` to apply different styles to the labels based on the `Value` and `OriginValue` properties:

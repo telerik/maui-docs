@@ -1,12 +1,12 @@
 ---
-title: Backtrack Configuration
-page_title: .NET MAUI Slider Documentation - Backtrack Configuration
+title: Backtrack
+page_title: .NET MAUI Slider Documentation - Backtrack
 description: Learn how to configure the backtrack of the Telerik UI Slider for .NET MAUI provides - set the min and max values and choose if the backtrack should extend beyond them.
 position: 5
-slug: slider-backtrack-configuration
+slug: slider-backtrack
 ---
 
-# .NET MAUI Slider Backtrack Configuration
+# .NET MAUI Slider Backtrack
 
 The thumb runs along the backtrack of the slider. The backtrack represents all the values your end users can choose from.
 
@@ -41,4 +41,5 @@ By default, the backtrack is drawn between the `Minimum` and `Maximum` values. T
 ## See Also
 
 * [Value Thumb]({% slug slider-value-thumb%})
+* [Range Track)({%slug slider-range-track%})
 * [Track Styling]({% slug slider-track-styling%})

@@ -23,6 +23,6 @@ Check a quick example on how to define the `OriginValue` property, so that the r
 ## See Also
 
 - [Visual Structure]({% slug slider-visual-structure%})
-- [Backtrack Configuration]({% slug slider-backtrack-configuration%})
+- [Backtrack]({% slug slider-backtrack%})
 - [Thumb Styling]({% slug slider-thumb-styling%})
 - [Track Styling]({% slug slider-track-styling %})

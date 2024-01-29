@@ -39,6 +39,6 @@ Check the result below:
 
 ## See Also
 
-- [Backtrack Configuration]({% slug slider-backtrack-configuration%})
+- [Backtrack]({% slug slider-backtrack%})
 - [Range Track]({%slug slider-range-track%})
 - [Value Thumb]({% slug slider-value-thumb%})

@@ -57,6 +57,6 @@ Check below a sample `TickTemplate` example:
 
 ## See Also
 
-- [Backtrack Configuration]({% slug slider-backtrack-configuration%})
+- [Backtrack]({% slug slider-backtrack%})
 - [Labels]({% slug slider-labels%})
 - [Ticks Styling]({% slug slider-ticks-styling%})

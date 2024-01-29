@@ -20,12 +20,10 @@ Check a quick example on how to define the `Value` property:
 
 The Slider's `DragMode` property lets you configure one of three dragging options&mdash;only the thumb, free, or disabled.
 
-You can control the available dragging options through the `DragMode` property of the Slider:
-
 * `DragMode`(`Telerik.Maui.Controls.Slider.SliderDragMode`)&mdash;Defines the possible ways to interact with the Slider and change its `Value`. You can choose from:
-    * `Disabled`&mdashThe thumb's position is fixed on the backtrack and dragging is disabled.
     * `Thumb`&mdash;The thumb moves along the backtrack only by dragging.
     * `Free`&mdash;The thumb's position (and the `Value` property) changes via dragging or touching anywhere on the range track or backtrack.
+    * `Disabled`&mdashThe thumb's position is fixed on the backtrack and dragging is disabled.
  
 Check below some quick examples:
 
@@ -44,5 +42,5 @@ Check below some quick examples:
 ## See Also
 
 - [Visual Structure]({% slug slider-visual-structure%})
-- [Backtrack Configuration]({% slug slider-backtrack-configuration%})
+- [Backtrack]({% slug slider-backtrack%})
 - [Thumb Styling]({% slug slider-thumb-styling%})

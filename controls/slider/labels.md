@@ -28,7 +28,7 @@ Check an example on how you can configure labels:
 
 ## Labels Formatting
 
-Through the formatting properties you can easily modify only the labels text by applying a custom format. 
+You can use the formatting properties to modify the text of the labels. 
 
 * `StringFormat`(`string`)&mdash;Defines a custom string format for the labels of the Slider.
 * `StringConverter`(`Telerik.Maui.IStringConverter`)&mdash;Defines a custom string converter. You can use the string converter to replace the range values with more user-friendly names in your Slider labels.  
@@ -49,7 +49,7 @@ Check the result below:
 
 ## Label Template
 
-You can customize what the Slider labels render through the `LabelTemplate` property.
+You can use the `LabelTemplate` property to customize how the Slider labels render.
 
 * `LabelTemplate`(`DataTemplate`)&mdash;Defines the template of the Slider labels.
 
