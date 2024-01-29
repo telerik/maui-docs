@@ -2,7 +2,7 @@
 title: Range Track
 page_title: .NET MAUI Slider Documentation - Range Track
 description: Learn how to configure the range track of the Telerik UI Slider for .NET MAUI.
-position: 4
+position: 6
 slug: slider-range-track
 ---
 
