@@ -1,5 +1,5 @@
 ---
-title: Built-in Dialogs
+title: Built-In Dialogs
 page_title: .NET MAUI Scheduler Documentation - Built-In Dialogs
 description: Learn more about the Telerik .NET MAUI Scheduler built-in dialogs for creating, editing, and deleting appointments.
 position: 9
