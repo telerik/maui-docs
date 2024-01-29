@@ -42,4 +42,4 @@ private void Slider_ValueChanging(object sender, Telerik.Maui.ValueChangingEvent
 ## See Also
 
 - [Value Thumb]({%slug slider-value-thumb%})
-- [Range Track)({%slug slider-range-track%})
+- [Range Track]({%slug slider-range-track%})
