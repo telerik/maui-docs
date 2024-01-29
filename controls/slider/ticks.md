@@ -14,7 +14,7 @@ The Slider for .NET MAUI can show ticks along the backtrack. Ticks help end user
 
 To display ticks along the track, define the `TickStep` and `TickPlacement` properties of the Slider.
 
-* `TickStep`(`double`)&mdash;Defines at what positions/values ticks will be displayed.
+* `TickStep`(`double`)&mdash;Defines the values on the backtrack that will be indicated by ticks. Each tick will be placed at the specified value interval. For example, if `TickStep="5"`, your ticks will be placed on the 0, 5, 10, 15, and 20 positions on a 0-20 backtrack.
 * `TicksPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Specifies the position of the ticks in the Slider with respect to its backtrack. The available options are:
     * `None`&mdash;no ticks are displayed.
     * `Start`&mdash;ticks appear above the backtrack.
