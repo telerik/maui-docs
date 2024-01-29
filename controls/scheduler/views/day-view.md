@@ -33,9 +33,11 @@ Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadSchedul
 * `MinorTickLength`&mdash;Defines the length of the minor ticks.
 * `MinTimeRulerExtent`&mdash;Defines the minimum size of the time ruler in pixels.
 * `MaxTimeRulerExtent`&mdash;Defines the maximum size of the time ruler in pixels.
+* `TimeRulerWidth`&mdash;Defines the width of the time ruler in pixels.
 
 ## See Also
 
-- [Views]({%slug scheduler-overview %})
+- [Views]({%slug scheduler-views-overview %})
 - [Multiday View]({%slug scheduler-multiday-view %})
 - [Week View]({%slug scheduler-week-view %})
+- [Custom Date Formats]({%slug scheduler-custom-date-formats%})
