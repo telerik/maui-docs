@@ -30,7 +30,7 @@ You can use the following date format properties for the different views:
 
 ### Example
 
-Check a quick example on how the data format properties can be applied to the Scheduler views:
+Check a quick example on how to apply custom date formats to the Scheduler views:
 
 <snippet id='scheduler-custom-date-formats' />
 
