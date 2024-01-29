@@ -12,7 +12,7 @@ The Telerik .NET MAUI Scheduler exposes built-in dialogs for the creation and mo
 
 Check below the available dialogs for managing appointments.
 
-* **PreviewAppointment Dialog**&mdash;Used only on Android and iOS. When the end user taps on an existing appointment, the following dialog appears, giving the option to edit or delete the appointment:
+* **PreviewAppointment Dialog**&mdash;(Android- and iOS-only) When the end user taps an existing appointment, the dialog lets them preview the appointment details, or edit or delete the appointment. 
 
 ![Telerik .NET MAUI Scheduler PreviewAppointmentDialog](images/scheduler-dialogs-preview.png)
 
