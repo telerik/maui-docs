@@ -3,7 +3,7 @@ title: Built-In Dialogs
 page_title: .NET MAUI Scheduler Documentation - Built-In Dialogs
 description: Learn more about the Telerik .NET MAUI Scheduler built-in dialogs for creating, editing, and deleting appointments.
 position: 9
-slug: scheduler-built-in dialogs
+slug: scheduler-built-in-dialogs
 ---
 
 # .NET MAUI Scheduler Built-In Dialogs
@@ -12,33 +12,46 @@ The Telerik .NET MAUI Scheduler exposes built-in dialogs for the creation and mo
 
 Check below the available dialogs for managing appointments.
 
-* **PreviewAppointment Dialog**&mdash;(Android- and iOS-only) When the end user taps an existing appointment, the dialog lets them preview the appointment details, or edit or delete the appointment. 
+#### Preview Appointment Dialog
+
+(Android- and iOS-only) When the end user taps an existing appointment, the Preview Appointment Dialog lets them preview the appointment details, or edit or delete the appointment. 
 
 ![Telerik .NET MAUI Scheduler PreviewAppointmentDialog](images/scheduler-dialogs-preview.png)
 
-* **EditAppointmentDialog**&mdash;Lets the end user create a new appointment or edit an existing one. 
-    * On desktop, the Edit Appointment dialog appears when the end user double-clicks an empty slot or an appointment. 
-    * On mobile, the behavior of the Edit Appointment dialog depends on the selected calendar slot. If the end user taps an empty slot, the Edit Appointment dialog appears to let them create a new appointment. If the end user taps an existing appointment and then taps Edit in the Preview Appointment dialog, the Edit Appointment dialog appears to let them modify the appointment.
+#### Edit Appointment Dialog
+
+Lets the end user create a new appointment or edit an existing one. 
+
+* On desktop, the Edit Appointment dialog appears when the end user double-clicks an empty slot or an appointment. 
+* On mobile, the behavior of the Edit Appointment dialog depends on the selected calendar slot. If the end user taps an empty slot, the Edit Appointment dialog appears to let them create a new appointment. If the end user taps an existing appointment and then taps Edit in the Preview Appointment dialog, the Edit Appointment dialog appears to let them modify the appointment.
 
 ![Telerik .NET MAUI Scheduler EditAppointmentDialog](images/scheduler-dialogs-editappointment.png)
 
-* **EditRecurrenceDialog**&mdash;Lets the end user configure the recurrence settings of an appointment.
+#### Edit Recurrence Dialog
+
+Lets the end user configure the recurrence settings of an appointment.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceDialog](images/scheduler-dialogs-editrecurrence.png)
 
-* **EditRecurrenceChoiceDialog**&mdash;When the end user interacts with a recurring appointment, lets them choose if they want to edit a single occurrence or the entire series.
+#### Edit Recurrence Choice Dialog
+
+When the end user interacts with a recurring appointment, lets them choose if they want to edit a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceChoiceDialog](images/scheduler-dialogs-recurrencechoice.png)
 
-* **DeleteRecurrenceChoiceDialog**&mdash;When the end user interacts with a recurring appointment, lets them choose if they want to delete a single occurrence or the entire series.
+#### Delete Recurrence Choice Dialog
+
+When the end user interacts with a recurring appointment, lets them choose if they want to delete a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler DeleteRecurrenceChoiceDialog](images/scheduler-dialogs-deleterecurrencechoice.png)
 
-* **DeleteAppointmentChoiceDialog**&mdash;(Desktop-only) When the end user attempts to delete an appointment, asks for confirmation.
+#### Delete Appointment Choice Dialog
+
+(Desktop-only) When the end user attempts to delete an appointment, asks for confirmation.
 
 ![Telerik .NET MAUI Scheduler DeleteAppointmentChoiceDialog](images/scheduler-dialogs-deleteappointmentchoice.png)
 
-### Methods
+## Methods
 
 Use the following methods to show the built-in dialogs of the Scheduler:
 
@@ -56,7 +69,7 @@ The following example demonstrates how to use the methods for managing the built
 
 <snippet id='scheduler-dialogs-methods-eventhandlers' />
 
-### Events
+## Events
 
 The Scheduler exposes the following events for its built-in dialogs:
 
@@ -82,16 +95,16 @@ Check a quick example on how to use the `DialogOpening` and `DialogClosing` even
 
 <snippet id='scheduler-dialogs-events' />
 
-### Customization
+## Customization
 
 You can style the visual appearance of each dialog by creating the corresponding `Style` with `TargetType` set to `SchedulerDialog`. Here is a list of the available `Style` properties:
 
-* `EditAppointmentDialogStyle`&mdash;Defines the Style that will be applied on the edit appointment dialog control.
-* `EditRecurrenceDialogStyle`&mdash;Defines the Style that will be applied on the edit recurrence dialog control.
-* `EditRecurrenceChoiceDialogStyle`&mdash;Defines the Style that will be applied on the edit recurrence choice dialog control.
-* `DeleteAppointmentChoiceDialogStyle`&mdash;Defines the Style that will be applied on the delete appointment choice dialog control.
-* `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the Style that will be applied on the delete recurrence choice dialog control.
-* `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the PreviewAppointment Dialog. 
+* `EditAppointmentDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Appointment dialog.
+* `EditRecurrenceDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Recurrence dialog.
+* `EditRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Recurrence Choice dialog.
+* `DeleteAppointmentChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Appointment Choice dialog.
+* `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Recurrence Choice dialog.
+* `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the Preview Appointment dialog. 
 
 ## See Also
 

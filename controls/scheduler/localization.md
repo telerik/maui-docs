@@ -71,7 +71,7 @@ The table below shows the localization keys:
 | `Scheduler_EditRecurrenceDialog_Summary_Monthly_Multiple_Week` | `Occurs the {0} {1} of every {2} months starting {3}.` |
 | `Scheduler_EditRecurrenceDialog_Summary_Yearly_Day` | `Occurs every {0} {1} starting {2}.` |
 | `Scheduler_EditRecurrenceDialog_Summary_Yearly_Week` | `Occurs the {0} {1} of {2} starting {3}.` |
-| `Scheduler_EditRecurrenceChoiceDialog_Edit_Occurrence` | `>Edit this occurrence.` |
+| `Scheduler_EditRecurrenceChoiceDialog_Edit_Occurrence` | `Edit this occurrence.` |
 | `Scheduler_EditRecurrenceChoiceDialog_Edit_Series` | `Edit the series.` |
 | `Scheduler_EditRecurrenceChoiceDialog_Edit` | `Edit` |
 | `Scheduler_EditRecurrenceChoiceDialog_Cancel` | `Cancel` |
