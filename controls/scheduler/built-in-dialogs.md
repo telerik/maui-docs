@@ -46,7 +46,7 @@ Use the following methods to show the built-in dialogs of the Scheduler:
 * `EditAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for editing an exsisting appointment.
 * `DeleteAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for deleting an existing appointment.
 
-Here is a quick example on how the methods for managing dialogs can be used:
+The following example demonstrates how to use the methods for managing the built-in dialogs:
 
 **1.** Create a sample view with a `RadScheduler` instance and a few buttons:
 
