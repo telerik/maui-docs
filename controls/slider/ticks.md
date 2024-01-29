@@ -6,7 +6,7 @@ position: 5
 slug: slider-ticks
 ---
 
-# Ticks
+# .NET MAUI Slider Ticks
 
 The Slider for .NET MAUI can show ticks along the backtrack. Ticks help end users to more easily identify the selected value.
 
@@ -15,21 +15,21 @@ The Slider for .NET MAUI can show ticks along the backtrack. Ticks help end user
 To display ticks along the track, define the `TickStep` and `TickPlacement` properties of the Slider.
 
 * `TickStep`(`double`)&mdash;Defines the values on the backtrack that will be indicated by ticks. Each tick will be placed at the specified value interval. For example, if `TickStep="5"`, your ticks will be placed on the 0, 5, 10, 15, and 20 positions on a 0-20 backtrack.
-* `TicksPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Specifies the position of the ticks in the Slider with respect to its backtrack. The available options are:
-    * `None`&mdash;no ticks are displayed.
+* `TicksPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Defines where the ticks are displayed relative to the position of the backtrack. The available options are:
+    * `None`&mdash;No ticks are displayed.
     * `Start`&mdash;ticks appear above the backtrack.
-    * `Center`&mdash;ticks appear in the backtrack area of the slider, overlaying the backtrack.
-    * `End`&mdash;ticks appear below the backtrack.
+    * `Center`&mdash;The ticks overlay the backtrack.
+    * `End`&mdash;The ticks appear below the backtrack.
 
 ## Slider SnapMode
 
-Slider for .NET MAUI provides snapping to ticks thus limiting its `Value` to a predefined set of values depending on `TickStep` value. You can control whether the snapping is enabled through `SnapMode` property:
+The Slider for .NET MAUI provides snapping to ticks (the thumb snaps from tick to tick, ignoring the values in-between). This limits the selected `Value` to a predefined set of values related to the `TickStep` value. You can enable or disable snapping with the `SnapMode` property:
 
-* `SnapMode`(`Telerik.Maui.Controls.RangeSlider.SliderSnapMode`)&mdash;Defines whether a value should be snapped to a tick while the end-user is dragging the thumb. Available options are:
+* `SnapMode`(`Telerik.Maui.Controls.RangeSlider.SliderSnapMode`)&mdash;Defines whether the thumb should snap to a tick, ignoring the values between ticks. The available options are:
     * `None`&mdash;The end user can move the dragged thumb freely.
-    * `SnapToTicks`&mdash;The thumb is snapped to the position of the ticks when an end-user is dragging it.
+    * `SnapToTicks`&mdash;The thumb is snapped to the position of the ticks when an end user is dragging it.
 
-The snippet below shows how the ticks configuration settings can be applied:
+The snippet below shows how to apply the ticks configuration settings:
 
 <snippet id='slider-ticks-settings' />
 
@@ -45,7 +45,7 @@ Through the `TickTemplate` property you can customize the appearance of the tick
 
 Check below a sample `TickTemplate` example:
 
-**1.** First define the custom DataTemplate:
+**1.** First define the custom `DataTemplate`:
 
 <snippet id='slider-ticks-ticktemplate-datatemplate' />
 

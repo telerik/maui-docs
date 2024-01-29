@@ -6,7 +6,7 @@ position: 4
 slug: slider-value-thumb
 ---
 
-# Value Thumb
+# .NET MAUI Slider Value Thumb
 
 The Slider's value thumb is drawn based on its `Value` property. End users can modify the `Value` by dragging the thumb along the backtrack or touching anywhere on the slider (the thumb, the range track, or the backtrack) depending on the drag mode (configured with the `DragMode` property).
 

@@ -1,25 +1,25 @@
 ---
 title: Track Styling
 page_title: .NET MAUI Slider Documentation - Track Styling
-description: Review the styling options that the Telerik UI for .NET MAUI Slider control provides for its backtrack and range track.
+description: Learn how to style the backtrack and the range track of the Telerik UI for .NET MAUI Slider. Play with colors and thickness, or define custom styles.
 position: 1
 slug: slider-track-styling
 ---
 
-# Track Styling
+# .NET MAUI Track Styling
 
-The Slider for .NET MAUI control exposes thickness and color styling properties for its range track (between `OriginValue` and `Value`) as well as its backtrack (the track the thumb slides along), so you can easily achieve the desired look & feel:
+The Slider for .NET MAUI provides the following styling options for the backtrack (the track the thumb slides along):
 
-* `BackTrackThickness`(`double`)&mdash;Specifies the thickness of the slider's backtrack.
-* `BackTrackColor`(`Color`)&mdash;Defines the color of the slider's backtrack.
-* `BackTrackStyle`(`Style`)&mdash;Sets a custom style to the slider's backtrack.
+* `BackTrackThickness`(`double`)&mdash;Specifies the thickness of the Slider's backtrack.
+* `BackTrackColor`(`Color`)&mdash;Defines the color of the Slider's backtrack.
+* `BackTrackStyle`(`Style`)&mdash;Defines a custom style for the Slider's backtrack.
 
-Check the following stype properties related to the range track (part of the backtrack between the `OriginValue` and `Value`):
+The Slider for .NET MAUI provides the following styling options for the range track (the track between `OriginValue` and `Value`):
  
-* `RangeTrackFill`(`Color`)&mdash;Defines fill color to the range track.
-* `RangeTrackStyle`(`Style`)&mdash;Applies a custom style to the range track.
+* `RangeTrackFill`(`Color`)&mdash;Defines the fill color for the Slider's range track.
+* `RangeTrackStyle`(`Style`)&mdash;Defines a custom style for the Slider's range track.
 
-Here is a  a quick example on how to apply the range/backtrack properties to the Slider:
+The following example demonstrates how to use the described styling properties to style the Slider's backtrack and range track:
 
 **1.** Add a custom style with `TargetType` set to `RadBorder` to the page's resources:
 
@@ -29,7 +29,7 @@ Here is a  a quick example on how to apply the range/backtrack properties to the
 
 <snippet id='slider-rangetrack-style' />
 
-**3.** Define the Slider with the styles applied:
+**3.** Apply the custom styles to the Slider:
 
 <snippet id='slider-track-style-xaml' />
 

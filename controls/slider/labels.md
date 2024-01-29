@@ -1,8 +1,8 @@
 ---
 title: Labels
 page_title: .NET MAUI Slider Documentation - Labels
-description: Learn how to use the labels that Telerik UI Slider for .NET MAUI control provides.
-position: 7
+description: Learn how to configure the labels of the Telerik UI Slider for .NET MAUI. Set how labels display on the backtrack, or show custom text instead of range values.
+position: 8
 slug: slider-labels
 ---
 
@@ -30,7 +30,7 @@ Check an example on how you can configure labels:
 
 Through the formatting properties you can easily modify only the labels text by applying a custom format. 
 
-* `StringFormat`(`string`)&mdash;Defines a custom string format for the labels and the tooltips of the Slider.
+* `StringFormat`(`string`)&mdash;Defines a custom string format for the labels of the Slider.
 * `StringConverter`(`Telerik.Maui.IStringConverter`)&mdash;Defines a custom string converter. You can use the string converter to replace the range values with more user-friendly names in your Slider labels.  
 
 Here is a quick example with a custom string converter:

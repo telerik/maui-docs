@@ -6,7 +6,7 @@ position: 6
 slug: slider-range-track
 ---
 
-# Range Track
+# .NET MAUI Slider Range Track
 
 The range track refers to that part of the backtrack between the Slider's `OriginValue` and the currently set `Value`.
 

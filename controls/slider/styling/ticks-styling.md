@@ -6,47 +6,47 @@ position: 2
 slug: slider-ticks-styling
 ---
 
-# Ticks Styling
+# .NET MAUI Slider Ticks Styling
 
-The Slider for .NET MAUI control provides styling properties for its ticks as well as a style selector, which you can use to apply different styles to the ticks according to custom logic.
+The Slider for .NET MAUI provides the following styling options and a style selector for the ticks (to let you apply additional styles):
 
- * `InRangeTickColor`(`Color`)&mdash;Defines the color of the ticks that correspond to the range track (between `OriginValue` and `Value`).
- * `OutOfRangeTickColor`(`Color`)&mdash;Specifies the color of the ticks that are outside of the range defined by the slider's range track.
+ * `InRangeTickColor`(`Color`)&mdash;Defines the color of the ticks shown along the range track (between `OriginValue` and `Value`).
+ * `OutOfRangeTickColor`(`Color`)&mdash;Defines the color of the ticks shown outside of the range track.
  * `TickThickness`(`double`)&mdash;Defines the width of the ticks.
- * `InRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that correspond to the range track (between `OriginValue` and `Value`).
- * `OutOfRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are outside of the range defined by the slider's range track.
- * `TickLength`(`double`)&mdash;Specified custom length to the ticks.
+ * `InRangeTickStyle`(`Style`)&mdash;Defines a custom style for the ticks shown along the range track.
+ * `OutOfRangeTickStyle`(`Style`)&mdash;Defines a custom style for the ticks shown outside of the range track.
+ * `TickLength`(`double`)&mdash;Defines the custom length of the ticks.
  * `TicksStyleSelector`(`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to ticks according to custom logic.
 
 ## Tick Styles Example
 
-Check below an example on how you can utilize the tick style properties.
+The following example demonstrates how to use the described styling properties to style the Slider's ticks:
 
-**1.** Add Styles with TargetType set to `RadBorder` to the page's resources:
+**1.** Add a custom style with `TargetType` set to `RadBorder` to the page's resources:
 
 <snippet id='slider-ticksttyling-styles' />
 
-**2.** Add the Slider definition with the Style properties applied:
+**2.** Apply the custom styles to the Slider:
 
 <snippet id='slider-ticksttyling-xaml' />
 
 ![Telerik Slider for .NET MAUI Ticks Styling](images/slider-ticks-styling.png)
 
-## Tick Style Selector Example
+## TickStyleSelector Example
 
-Here is a quick example on how the `TicksStyleSelector` can be applied to set separate styles to the major/minor ticks.
+The following example demonstrates how to use the `TicksStyleSelector` set two different styles for the major and minor ticks:
 
-**1.** Create a custom style selector class which inherits from `Telerik.Maui.Controls.IStyleSelector`:
+**1.** Create a custom style selector class that inherits from `Telerik.Maui.Controls.IStyleSelector`:
 
 <snippet id='slider-ticks-styleselector-class' />
 
->`Telerik.Maui.Controls.IStyleSelector` provides a mechanism to select a `Microsoft.Maui.Controls.Style` based on a custom logic.
+>`Telerik.Maui.Controls.IStyleSelector` provides a mechanism to select a `Microsoft.Maui.Controls.Style` based on custom logic.
 
-**2.** Add The style selector to the page's resources:
+**2.** Add the style selector to the page's resources:
 
 <snippet id='slider-tickstyleselector-selector'/>
 
-**3.** Define the Slider with the style selector applied:
+**3.** Apply the style selector to the Slider:
 
 <snippet id='slider-tickstyleselector-xaml'/>
 
