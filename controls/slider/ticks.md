@@ -17,7 +17,7 @@ To display ticks along the track, define the `TickStep` and `TickPlacement` prop
 * `TickStep`(`double`)&mdash;Defines the values on the backtrack that will be indicated by ticks. Each tick will be placed at the specified value interval. For example, if `TickStep="5"`, your ticks will be placed on the 0, 5, 10, 15, and 20 positions on a 0-20 backtrack.
 * `TicksPlacement`(`Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Defines where the ticks are displayed relative to the position of the backtrack. The available options are:
     * `None`&mdash;No ticks are displayed.
-    * `Start`&mdash;ticks appear above the backtrack.
+    * `Start`&mdash;The ticks appear above the backtrack.
     * `Center`&mdash;The ticks overlay the backtrack.
     * `End`&mdash;The ticks appear below the backtrack.
 
