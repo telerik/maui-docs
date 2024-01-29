@@ -26,7 +26,7 @@ Check below the available dialogs for managing appointments.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceDialog](images/scheduler-dialogs-editrecurrence.png)
 
-* **EditRecurrenceChoiceDialog**&mdash;Provides the end user the option to edit single occurrence of an appointment or the whole series.
+* **EditRecurrenceChoiceDialog**&mdash;When the end user interacts with a recurring appointment, lets them choose if they want to edit a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceChoiceDialog](images/scheduler-dialogs-recurrencechoice.png)
 
