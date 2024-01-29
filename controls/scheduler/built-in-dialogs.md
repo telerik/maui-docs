@@ -67,7 +67,10 @@ The Scheduler exposes the following events for its built-in dialogs:
        * `Cancel`&mdash;If `True`, cancels the dialog opening.
 * `DialogClosing`&mdash;Raised when a dialog is about to be closed. The `DialogClosing` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
-    * A `SchedulerDialogClosingEventArgs` object which you can use to get the dialog type through `DialogType` property as well as cancel the opening by setting its `Cancel` property to `True`. In addition, the `SchedulerDialogClosingEventArgs` provides a `DialogResult`(`bool?`) property which gives information on how the dialog is closed: `DialogResult` is null when the dialog is closed by the Close button of the dialog, `False` when Cancel option is pressed, otherwise the value is `True`.
+    * A `SchedulerDialogClosingEventArgs` object with the following properties:
+       * `DialogType`&mdash;Provides the dialog type.
+       * `Cancel`&mdash;If `True`, cancels the dialog closing.
+       * `DialogResult (bool?)`&mdash;Indicates how the dialog was closed. `null` when closed with the **Close** button. `False` when closed with the **Cancel** button. `True` when <BE SPECIFIC>.
 
 Check a quick example on how the `DialogOpening` and `DialogClosing` events can be used:
 
