@@ -60,7 +60,7 @@ The following example demonstrates how to use the methods for managing the built
 
 The Scheduler exposes the following events for its built-in dialogs:
 
-* `DialogOpening`&mdash;occurs when a dialog is about to be opened. The `DialogOpening` event handler receives two parameters:
+* `DialogOpening`&mdash;Raised when a dialog is about to be opened. The `DialogOpening` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
     * A `SchedulerDialogOpeningEventArgs` object with the following properties:
        * `DialogType`&mdash;Provides the dialog type.
