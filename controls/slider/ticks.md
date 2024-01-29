@@ -8,7 +8,7 @@ slug: slider-ticks
 
 # Ticks
 
-The Slider for .NET MAUI can show ticks along the track in order to enable users to easily identify the Slider value.
+The Slider for .NET MAUI can show ticks along the backtrack. Ticks help end users to more easily identify the selected value.
 
 ## Ticks Step and Placement
 
