@@ -30,7 +30,7 @@ Check below the available dialogs for managing appointments.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceChoiceDialog](images/scheduler-dialogs-recurrencechoice.png)
 
-* **DeleteRecurrenceChoiceDialog**&mdash;Provides the end user the option to delete single occurrence of an appointment or the whole series.
+* **DeleteRecurrenceChoiceDialog**&mdash;When the end user interacts with a recurring appointment, lets them choose if they want to delete a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler DeleteRecurrenceChoiceDialog](images/scheduler-dialogs-deleterecurrencechoice.png)
 
