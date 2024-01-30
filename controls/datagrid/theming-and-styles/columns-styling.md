@@ -82,7 +82,7 @@ Here is an example how to set the `CellContentStyle` property:
 
 To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `DataGridBorderStyle` which provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
 
-In addition, `DataGridBorderStyle` provides `SearchMatchBackgroundColor` used to apply separate background color to the border when the cell contains a search-match. 
+In addition, `DataGridBorderStyle` provides the `SearchMatchBackgroundColor` property used to apply a separate background color to the border when the cell contains a search-match. 
 
 Here is an example how to set those properties on a column:
 

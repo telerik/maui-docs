@@ -94,7 +94,7 @@ To further customize the Search as You Type functionality, use the `SearchStarti
      * `SearchTermsLogicalOperator`(`LogicalOperator`)&mdash;The logical operator that is used when more than one search term is searched for.
      * `Cancel`(`bool`)&mdash;Indicates whether to cancel the search.
 
-Here is an example on how you can utilize `SearchStarting` to modify the way the search is performed - for example, divide the search text in separate search terms and search for all of them using "Or" operator:
+Here is an example of how you can utilize `SearchStarting` to modify the way the search is performed—for example, divide the search text into separate search terms and search for all of them using the OR operator:
 
 **1.** Add the DataGrid definition to the page with the `SearchSettings` applied:
 
