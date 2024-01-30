@@ -60,6 +60,8 @@ To further customize the Search as You Type functionality, use the `SearchStarti
 
 ## Commands
 
+The `DataGrid.SearchSettings` allows you to attach commands that will be executed when certain actions such as closing the search panel occur.
+
 * `CloseSearchPanelCommand`&mdash;Called when pressing the Close button in the search panel.
 * `SearchEntryCompletedCommand`&mdash;Called when the `Completed` event of the search entry in the search panel is raised.
 
