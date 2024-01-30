@@ -24,9 +24,11 @@ The default context menu shows the following options:
 
 What options are available in the context menu depends on the current content selection or caret position in the editor.
 
+> The commands listed in the default context menu work when the RichTextEditor conten is editable (the `IsReadOnly` is `False`).
+
 This is how the default context menu looks:
 
-![.NET MAUI RichTextEditor Context Menu](images/richtexteditor-custom-context-menu.png)
+![.NET MAUI RichTextEditor Context Menu](images/richtexteditor-context-menu.png)
 
 ## Custom Context Menu
 
