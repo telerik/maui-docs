@@ -33,7 +33,7 @@ By default, the backtrack is drawn between the `Minimum` and `Maximum` values. T
                     TicksPlacement="End"
                     LabelStep="100"
                     LabelsPlacement="End"
-                    BackTrackExtent="50"/>
+                    BackTrackExtent="50" />
 ```
 
 ![Telerik Slider for .NET MAUI Backtrack Extent](images/slider-backtrack-extent.png)
