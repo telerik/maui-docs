@@ -12,7 +12,7 @@ By providing text selection functionality, the Telerik UI for .NET MAUI PDF View
 
 To initiate the text selection on mobile devices, the user must press and hold the target text. Two drag handles let the user modify the current selection.
 
-On desktop devices, the user initiates the selection through a mouse click, while dragging extends the current selection. On WinUI a right-click and on MacCatalyst&mdash;left-click over the selected text displays the selection menu. 
+On desktop devices, the user initiates the selection through a mouse click, while dragging extends the current selection. On WinUI a right-click, on MacCatalyst&mdash;left-click over the selected text displays the selection menu. 
 
 The PDF Viewer marks the selected text with a distinct background color and displays a customizable selection menu with a default **Copy** command to allow the user to retrieve the selected text.
 
