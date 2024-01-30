@@ -72,6 +72,7 @@ The `CellContentStyle` property defines the appearance of each cell associated w
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
 * `HoverTextColor`&mdash;Sets the color of the cells text when the mouse hovers over it. Appicable only on Desktop.
 * `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
+* `SearchMatchTextColor`&mdash;Defines the color that is used for the parts of the text that are search matches.
 
 Here is an example how to set the `CellContentStyle` property:
 
@@ -80,6 +81,8 @@ Here is an example how to set the `CellContentStyle` property:
 ## CellDecorationStyle
 
 To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `DataGridBorderStyle` which provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
+
+In addition, `DataGridBorderStyle` provides the `SearchMatchBackgroundColor` property used to apply a separate background color to the border when the cell contains a search-match. 
 
 Here is an example how to set those properties on a column:
 
@@ -129,3 +132,4 @@ And this is how the column style looks when the properties for customizing the c
 
 - [DataGrid Styling]({%slug datagrid-styling%})
 - [Style Selectors]({%slug datagrid-style-selectors%})
+- [Search as You Type]({%slug datagrid-search-as-you-type%})
