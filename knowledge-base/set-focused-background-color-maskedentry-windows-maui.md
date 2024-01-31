@@ -17,14 +17,14 @@ res_type: kb
 
 ## Description
 
-I want to set the focused background color of a MaskedEntry control on Windows in my .NET MAUI application. By default, when I tab into the control, the focused background color reverts to white even after setting the background color to black. Changing the background using the 'Focused' visual state does not work either.
+I want to set the background color for the focused state of a MaskedEntry control on Windows in my .NET MAUI application. By default, when I tab into the control, the focused background color reverts to white even after setting the background color to black. Changing the background using the 'Focused' visual state does not work either.
 
 ## Solution
 
-To set the focused background color of a MaskedEntry control on Windows in a .NET MAUI application, follow these steps:
+To set the background color for the focused state of the MaskedEntry control on Windows in a .NET MAUI application, follow these steps:
 
-1. Create a custom ResourceDictionary that contains the desired adjustments for the visual states.
-2. Merge this ResourceDictionary in the `Platforms/Windows/App.xaml` file.
+1. Create a custom `ResourceDictionary` that contains the desired adjustments for the visual states.
+2. Merge this `ResourceDictionary` in the `Platforms/Windows/App.xaml` file.
 
 Here is an example:
 
@@ -70,7 +70,7 @@ Now, when you tab into the MaskedEntry control on Windows, the focused backgroun
 
 ## Notes
 
-- By creating a custom ResourceDictionary and merging it in the `Platforms/Windows/App.xaml` file, you can override the default visual states of the MaskedEntry control and customize its appearance on Windows.
+- By creating a custom `ResourceDictionary` and merging it in the `Platforms/Windows/App.xaml` file, you can override the default visual states of the MaskedEntry control and customize its appearance on Windows.
 - Make sure to adjust the background color values in the `CustomStyles.xaml` file according to your desired color scheme.
 
 ## See Also
