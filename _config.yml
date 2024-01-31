@@ -320,6 +320,9 @@ navigation:
     controls/pdfviewer/search:
         title: "Search"
         position: 10
+    controls/pdfviewer/selection:
+        title: "Selection"
+        position: 12
     ## End PdfViewer
     ## Popup
     controls/popup:
@@ -387,6 +390,13 @@ navigation:
     controls/signaturepad:
         title: "SignaturePad"
     ## End SignaturePad
+    ## Slider
+    controls/slider:
+        title: "Slider"
+    controls/slider/styling:
+        title: "Styling"
+        position: 10
+    ## End Slider
     ## SlideView
     controls/slideview:
         title: "SlideView"
@@ -553,8 +563,7 @@ intro_columns:
         "Charts": "chart-overview"
         "Gauges": "gauge-overview"
         "Map": "map-overview"
-        "ProgressBar": "progressbar-overview"
-        "RangeSlider": "rangeslider-overview"
+        "ProgressBar": "progressbar-overview"       
         "Ratings": "rating-overview"
   -
     title: "Chatbots"
@@ -574,11 +583,13 @@ intro_columns:
         "ListPicker": "listpicker-overview"
         "MaskedEntries": "maskedentry-overview"
         "NumericInput": "numericinput-overview"
+        "RangeSlider": "rangeslider-overview"
         "RichTextEditor": "richtexteditor-overview"
         "TemplatedPicker": "templatedpicker-overview"
         "TimePicker": "timepicker-overview"
         "TimeSpanPicker": "timespanpicker-overview"
         "SignaturePad": "signaturepad-overview"
+        "Slider": "slider-overview"
 -
   categories:
   -

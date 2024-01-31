@@ -72,7 +72,7 @@ RichTextEditor has a text selection functionality—the end user can initiate a 
 	
 ## Read-Only State
 
-The `IsReadOnly`(`bool`) property of the RichTextEditor indicates whether the control is in a read-only mode. Setting `IsReadOnly="True"` means that the Toolbar Items will be disabled, the content of the document cannot be changed, and no selection can be performed. The default the value is `False`. 
+The `IsReadOnly`(`bool`) property of the RichTextEditor indicates whether the control is in a read-only mode. Setting `IsReadOnly="True"` means that the Toolbar Items will be disabled and the content of the document cannot be changed. By default, the editor is editable and the `IsReadOnly` value is `False`. 
 
 ### Read-Only Example
 

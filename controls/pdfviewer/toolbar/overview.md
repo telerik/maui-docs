@@ -2,7 +2,7 @@
 title: Overview
 page_title: .NET MAUI PDF Viewer Documentation - PdfViewer Toolbar
 description: Review all predefined items in the .NET MAUI PDF Viewer control.
-position: 3
+position: 0
 slug: pdfviewer-toolbar
 ---
 

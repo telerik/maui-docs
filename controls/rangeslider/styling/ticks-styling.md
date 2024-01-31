@@ -6,7 +6,7 @@ position: 2
 slug: rangeslider-ticks-styling
 ---
 
-# Track Styling
+# Ticks Styling
 
 The RangeSlider for .NET MAUI control provides styling properties for its ticks as well as a style selector, which you can use to apply different styles to the ticks according to custom logic.
 
