@@ -25,6 +25,8 @@ The `ContentUnderOpacity`(`double`)&mdash;Defines the opacity when the indicator
 </telerik:RadBusyIndicator>
 ```
 
+>note Avoid placing content inside the `RadBusyIndicator.Content`. Use the [Integration article]({%slug busyindicator-integrate-with-listview%}) to review how to integrate the BusyIndicator with other controls.
+
 ## Busy Content
 
 Setting the `BusyContent` property of BusyIndicator allows you to display any content together with the built-in animations while the control is in its Busy state. 

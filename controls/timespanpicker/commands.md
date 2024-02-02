@@ -20,7 +20,7 @@ The TimeSpanPicker for .NET MAUI exposes the following commands, which enable yo
 
 The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 
-Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker.
 
 ```XAML
 <StackLayout>
@@ -30,23 +30,22 @@ Define the TimeSpanPicker.
 </StackLayout>
 ```
 
-Add the namespace.
+**2.** Add the namespace.
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+## Settings Commands
 
-## PopupSelector Commands
+Through the popup or the drop-down, users can pick a time. The time value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
 
-Through the popup, users can pick a time interval. The time interval value has to be confirmed or rejected through the **OK** and **Cancel** buttons that are displayed in the popup.
+The TimeSpanPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-The TimeSpanPicker allows you to add custom logic for the `Accept` and `Cancel` commands, which are executed when the **OK** and **Cancel** buttons, respectively, are clicked.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
-
-You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TimeSpanPicker.
+You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of TimeSpanPicker.
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 

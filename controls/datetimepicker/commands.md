@@ -19,6 +19,8 @@ The DateTimePicker supports the following commands, which enable you to control 
 
 The following example demonstrates how to set `ToggleCommand` and `ClearCommand`.
 
+**1.** Define the `RadDateTimePicker` and add two buttons for command binding:
+
 ```XAML
 <VerticalStackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference dateTimePicker}, Path=ToggleCommand}"/>
@@ -27,24 +29,24 @@ The following example demonstrates how to set `ToggleCommand` and `ClearCommand`
 </VerticalStackLayout>
 ```
 
-Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-## PopupSelector Commands
+## Settings Commands
 
-Through the popup users can pick a date. The date value has to be confirmed or rejected with the **OK** or **Cancel** buttons that are located on the popup.
+Through the popup or the drop-down, users can pick a date and time. The date and time value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
 
 The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
 
-You can apply the `Accept` and `Cancel` commands can by using the `SelectorSettings` property of DateTimePicker.
+You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of DateTimePicker.
 
-1. Define the control and add the commands.
+**1.** Define the control and add the commands to the `PopupSettings`.
 
  ```XAML
 <StackLayout>
@@ -60,9 +62,9 @@ You can apply the `Accept` and `Cancel` commands can by using the `SelectorSetti
 </StackLayout>
  ```
 
-1. Set the `ViewModel`.
+**2.** Set the `ViewModel`.
 
- ```C#
+```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -84,13 +86,13 @@ public class ViewModel
         // implement your custom logic here
     }
 }
- ```
+```
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

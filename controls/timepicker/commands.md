@@ -36,39 +36,39 @@ The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-## PopupSelector Commands
+## Settings Commands
 
-Through the popup, users can pick a time. The value has to be confirmed or rejected through the **OK** and **Cancel** buttons that are displayed in the popup.
+Through the popup or the drop-down, users can pick a time. The time value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
 
-The TimePicker allows you to add custom logic for the `Accept` and `Cancel` commands, which are executed when the **OK** and **Cancel** buttons, respectively, are clicked.
+The TimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
 
-You can apply the `Accept` and `Cancel` commands by using the `SelectorSettings` property of TemplatedPicker.
+You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of TimePicker.
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
-1. Define the TimePicker.
+**1.** Define the TimePicker with `PopupSettings`.
 
- ```XAML
+```XAML
 <telerik:RadTimePicker x:Name="timePicker">
 	<telerik:RadTimePicker.PopupSettings>
 		<telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"  
 									 CancelCommand="{Binding Cancel}"/>
 	</telerik:RadTimePicker.PopupSettings>
 </telerik:RadTimePicker>
- ```
+```
 
-1. Add the namespace:
+**2.** Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Add a sample `ViewModel` class.
+**3.** Add a sample `ViewModel` class.
 
- ```C#
+```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -90,7 +90,7 @@ public class ViewModel
         // implement your custom logic here
     }
 }
- ```
+```
 
 ## See Also
 

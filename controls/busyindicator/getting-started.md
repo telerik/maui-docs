@@ -63,6 +63,8 @@ public static class MauiProgram
 }
 ```
 
+>note Avoid placing content inside the `RadBusyIndicator.Content`. Use the [Integration article]({%slug busyindicator-integrate-with-listview%}) to review how to integrate the BusyIndicator with other controls.
+
 > For a runnable example with the BusyIndicator Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BusyIndicator > Getting Started**.
 
 ## Additional Resources

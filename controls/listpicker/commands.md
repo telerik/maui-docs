@@ -9,6 +9,8 @@ slug: listpicker-commands
 
 # .NET MAUI ListPicker Commands
 
+This article described the commands available in the Telerik UI for .NET MAUI ListPicker control. 
+
 ## ListPicker Commands
 
 List Picker for .NET MAUI exposes the following commands you can use to programmatically manipulate displaying the popup as well as clearing the selected item:
@@ -16,22 +18,22 @@ List Picker for .NET MAUI exposes the following commands you can use to programm
 * `ToggleCommand`(`ICommand`)&mdash;Allows you to show/hide the popup used for selecting an item from a list of items.
 * `ClearCommand`(`ICommand`)&mdash;Allows you to clear the displayed item.
 
-## PopupSelector Commands
+## Settings Commands
 
-Through the popup, users can pick an item. The date value can be confirmed or rejected through the **OK** and **Cancel** buttons placed on the popup.
+Through the popup or the drop-down, users can pick an item. This must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
 
-The ListPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** and **Cancel** buttons, respectively, are pressed.
+The ListPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
 
-The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` property of ListPicker.
+You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of ListPicker.
 
 ## Example
 
-1. Define the ListPicker.
+**1.** Define the ListPicker.
 
- ```XAML
+```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference listPicker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference listPicker}, Path=ClearCommand}"/>
@@ -48,11 +50,11 @@ The `Accept` and `Cancel` commands can be applied using the `SelectorSettings` p
         </telerik:RadListPicker.BindingContext>
     </telerik:RadListPicker>
 </StackLayout>
- ```
+```
 
-1. Set the sample `ViewModel`:
+**2.** Set the sample `ViewModel`:
 
- ```C#
+```C#
 public class ViewModel
 {
     public ViewModel()
@@ -87,35 +89,13 @@ public class ViewModel
     public ICommand Accept { get; set; }
     public ICommand Cancel { get; set; }
 }
- ```
+```
 
-1. Add the Business model:
+**3.** Add the Business model:
 
- <snippet id='listpicker-getting-started-business-model' />
- ```C#
-public class Person
-{
-    public Person(string name, string lastName)
-    {
-        this.Name = name;
-        this.LastName = lastName;
-    }
+<snippet id='listpicker-getting-started-business-model' />
 
-    public string Name { get; set; }
-
-    public string LastName { get; set; }
-
-    public string FullName
-    {
-        get
-        {
-            return $"{this.Name} {this.LastName}";
-        }
-    }
-}
- ```
-
-1. Add the following namespace:
+**4.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
