@@ -8,10 +8,9 @@ tags: maui, datagrid, filtering, styling, distinct values
 res_type: kb
 ---
 # Environment
-| Property | Value |
-| --- | --- |
-| Product | DataGrid for MAUI |
-| Version | 6.6.0 |
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 6.6.0 | DataGrid for MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 # Description
 
