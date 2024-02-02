@@ -59,4 +59,4 @@ To set the visual states of the ComboBox control, define the visual states, whic
 </telerik:RadComboBox>
 ```
 
->note If you want to apply visual states to the elements inside the drop-doww, set visual states inside the ComboBox `ItemTemplate` and `SelectedItemTemplate`.
+>note If you want to apply visual states to the elements inside the drop-down, set visual states inside the ComboBox `ItemTemplate` and `SelectedItemTemplate`.
