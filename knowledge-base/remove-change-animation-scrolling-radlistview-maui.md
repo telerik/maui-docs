@@ -1,5 +1,5 @@
 ---
-title: How to Remove or Change the Animation When Scrolling through a RadListView in ListView for MAUI
+title: How to Remove or Change the Animation When Scrolling through a RadListView for MAUI
 description: This article explains how to disable or customize the animation that occurs when scrolling through a RadListView in ListView for MAUI.
 type: how-to
 page_title: Remove or Change Animation When Scrolling through RadListView | ListView for MAUI
@@ -9,10 +9,9 @@ res_type: kb
 ---
 
 ## Environment
-| Property | Value |
-| --- | --- |
-| Product | ListView for MAUI |
-| Version | 6.6.0 |
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 6.6.0 | Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 When scrolling through a RadListView for MAUI, an animation occurs for each list view cell. This animation can be distracting and inconsistent, as it only happens for the top items in the list view. This article explains how to disable or customize this animation to achieve a more subtle scrolling experience.

@@ -9,10 +9,9 @@ res_type: kb
 ---
 
 ## Environment
-| Property | Value |
-| --- | --- |
-| Product | Toolbar for .NET MAUI |
-| Version | 6.2.0 |
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 6.2.0 | Telerik UI for .NET MAUI Toolbar | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
