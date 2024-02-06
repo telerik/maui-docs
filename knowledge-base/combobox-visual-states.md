@@ -1,5 +1,5 @@
 ---
-title: Set the Visual States of the ComboBox
+title: Setting the Visual States of the ComboBox
 page_title: Configure the Visual States of the ComboBox Component - .NET MAUI Knowledge Base
 description: Learn how to define the visual states of the Telerik UI for .NET MAUI ComboBox control.
 type: how-to
@@ -21,7 +21,7 @@ How can I set the visual states of the Telerik UI for .NET MAUI ComboBox control
 
 ## Solution
 
-To set the visual states of the ComboBox control, define the visual states, which is introduced by the `VisualStateManager` configuration. `VisualStateManager` defines a visual state group named `CommonStates` and supports the `Normal`, `Disabled`, `Focused`, and `MouseOver` values. It is recommended that you add configurations for all visual states that are available.
+To set the visual states of the ComboBox control, configure the `VisualStateManager`. The `VisualStateManager` defines a visual state group named `CommonStates` and supports the `Normal`, `Disabled`, `Focused`, and `MouseOver` values. As a general recommendation, always configure all available visual states.
 
 ```XAML
 <telerik:RadComboBox x:Name="combo" Placeholder="telerik">

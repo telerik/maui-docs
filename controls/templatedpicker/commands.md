@@ -18,17 +18,16 @@ The TemplatedPicker for .NET MAUI exposes the following commands, which enable y
 * `ToggleCommand`&mdash;Allows you to show/hide the popup. Used for selecting an item from the custom picker.
 * `ClearCommand`&mdash;Allows you to clear the displayed item.
 
-## Settings Commands
+## OK and Cancel Buttons
 
-Through the popup or the drop-down, users can pick an item. This must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
+Through the popup or the drop-down, users can pick an item. This must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup or drop-down.
 
 The TemplatedPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
 
-You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of TemplatedPicker.
-
+You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the TemplatedPicker. For the drop-down mode, use the `DropDownSettings` property.
 
 ## Example
 

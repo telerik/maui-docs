@@ -18,7 +18,7 @@ The DatePicker supports the following commands, which enable you to control the 
 * `ToggleCommand`(`ICommand`)&mdash;Allows you to show or hide the popup that is used for selecting a date value.
 * `ClearCommand`(`ICommand`)&mdash;Allows you to clear the displayed date.
 
-To use the DatePicker commands:  
+The following example demonstrates how to set the `ToggleCommand` and `ClearCommand`.
 
 **1.** Set `ToggleCommand` and `ClearCommand`.
 
@@ -36,16 +36,16 @@ To use the DatePicker commands:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-## Settings Commands
+## OK and Cancel Buttons
 
-Through the popup or the drop-down, users can pick a date. The date value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup/drop-down.
+Through the popup or the drop-down, users can pick a date. The date value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup or drop-down.
 
 The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup/drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup/drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
 
-You can apply the `Accept` and `Cancel` commands for popup mode by setting the `PopupSettings` and for drop-down mode by setting `DropDownSettings` property of DatePicker.
+You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DatePicker. For the drop-down mode, use the `DropDownSettings` property.
 
 **1.** Define the control and add the commands.
 
