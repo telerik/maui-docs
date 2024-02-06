@@ -11,7 +11,7 @@ res_type: kb
 ## Environment
 | Product | Version |
 |---------|---------|
-| ComboBox for .NET MAUI | 6.5.0 |
+| ComboBox for .NET MAUI | 6.6.0 |
 
 ## Description
 To close the DropDown of the ComboBox when the user clicks outside of the component's bounds, you can use a workaround that involves attaching a gesture recognizer to the parent layout or main layout in the page and setting the `IsDropDownOpen` property of the ComboBox to `false`.
