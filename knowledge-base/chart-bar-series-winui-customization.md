@@ -96,10 +96,10 @@ private void barChart_HandlerChanged(object sender, EventArgs e)
 #if WINDOWS
     var platformChart = (Telerik.UI.Xaml.Controls.Chart.RadCartesianChart)platformView;
     var series = (Telerik.UI.Xaml.Controls.Chart.BarSeries)platformChart.Series[0];
-    // style the vertical axis. The resource is inside the Platforms/Windows/App.xaml file
+    // Style the vertical axis. The resource is inside the Platforms/Windows/App.xaml file.
     platformChart.VerticalAxis.LineStyle = MauiWinUIApplication.Current.Resources["VerticalAxisStyle"] as Microsoft.UI.Xaml.Style;
     
-    // customize the labels for the bar series, for example change their position
+    // Customize the labels for the bar series, for example change their position.
     var labelDefinition = series.LabelDefinitions.FirstOrDefault();
     if (labelDefinition != null)
     {
@@ -110,7 +110,7 @@ private void barChart_HandlerChanged(object sender, EventArgs e)
 }
 ```
 
-**4.** The style resource is inside the **Platforms/Windows/App.xaml** file:
+**4.** The style resource is inside the `Platforms/Windows/App.xaml` file:
 
 ```C#
 <Style TargetType="Line" x:Key="VerticalAxisStyle">

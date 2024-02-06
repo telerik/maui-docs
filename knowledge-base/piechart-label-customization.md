@@ -1,6 +1,6 @@
 ---
-title: Customizing labels in the Pie Chart
-page_title: Customizing Pie Charts labels - .NET MAUI Knowledge Base
+title: Customizing Labels in the Pie Chart
+page_title: Customizing Pie Charts Labels - .NET MAUI Knowledge Base
 description: Learn how to customize the Telerik UI for .NET MAUI Pie Chart labels.
 type: how-to
 slug: piechart-label-customization
@@ -17,11 +17,11 @@ res_type: kb
 
 ## Description
 
-How can I customize the labels in the Pie Chart,? For example, setting text color, font size, etc.
+How can I customize the labels in the Pie Chart, for example, set the text color, font size, an so on?
 
 ## Solution
 
-To customize the labels in the Pie Chart, use the native Pie Chart for Android, iOS and WinUI.
+To customize the labels in the Pie Chart, use the native Pie Chart for Android, iOS, or WinUI.
 
 **1.** Add sample model and view model:
 
@@ -75,7 +75,7 @@ public class ViewModel
 </Grid>
 ```
 
-**3.** Subscribe to the HandlerChanged event:
+**3.** Subscribe to the `HandlerChanged` event:
 
 ```C#
 private void chart_HandlerChanged(object sender, EventArgs e)
@@ -84,7 +84,7 @@ private void chart_HandlerChanged(object sender, EventArgs e)
 }
 ```
 
-**4.** And inside the UpdateChart() method implement the custom logic for accessing the native chart and customize the labels of the `PieSeries`:
+**4.** And inside the `UpdateChart()` method, implement the custom logic for accessing the native Android, iOS, or WinUI Chart and customize the labels of the `PieSeries`:
 
 ```C#
 private void UpdateChart()
@@ -93,9 +93,9 @@ private void UpdateChart()
 #if WINDOWS
     var platformChart = (Telerik.UI.Xaml.Controls.Chart.RadPieChart)platformView;
     var series = platformChart.Series[0];
-    // remove the default labels
+    // Remove the default labels.
     series.LabelDefinitions.Clear();
-    // add custom label with a custom template
+    // Add a custom label with a custom template.
     series.LabelDefinitions.Add(new Telerik.UI.Xaml.Controls.Chart.ChartSeriesLabelDefinition
     {
         // The label template definition is added inside the Platforms/Windows/App.xaml file: 
@@ -108,23 +108,23 @@ private void UpdateChart()
     var series = platformChart.Series.ToArray()?.FirstOrDefault() as Com.Telerik.Widget.Chart.Visualization.PieChart.PieSeries;
     if(series != null) 
     {
-    // to remove the percantage set the following format
+        // To remove the percentage, set the following format:
         series.LabelFormat = "%.2f";
             
-        // then draw new label and further customize it inside the CustomPieSeriesLabelRenderer class (Platforms/Android folder)
+        // Then, draw a new label and further customize it inside the CustomPieSeriesLabelRenderer class (Platforms/Android folder).
         series.LabelRenderer = new Platforms.Android.CustomPieSeriesLabelRenderer(series);
     }
 
 
 #elif IOS || MACCATALYST
     var platformChart = (Telerik.Maui.Controls.Compatibility.ChartRenderer.iOS.TKExtendedChart)platformView;
-    // render new label using the Delegate
+    // Render a new label using the Delegate.
     platformChart.Delegate = new Platforms.iOS.MyChartDelegate(this.chart);
 #endif
 }
 ```
 
-**5.** For WinUI, add the label template definition inside the Platforms/Windows/App.xaml file:
+**5.** For WinUI, add the label template definition inside the `Platforms/Windows/App.xaml` file:
 
 ```XAML
 <maui:MauiWinUIApplication.Resources>
@@ -137,7 +137,7 @@ private void UpdateChart()
 </maui:MauiWinUIApplication.Resources>
 ```
 
-**6.** For Android, create a class `CustomPieSeriesLabelRenderer` inside the **Platforms/Android** folder. This class is used for native label rendering:
+**6.** For Android, create a class `CustomPieSeriesLabelRenderer` inside the `Platforms/Android` folder. This class is used for native label rendering:
 
 ```C#
 using Android.Graphics;
@@ -193,7 +193,7 @@ namespace MauiApp1.Platforms.Android
 
 ```
 
-**7.** For iOS and MacCatalyst, render a new label using a delegate. Create a class `MyChartDelegate` inside the **Platforms/iOS** and **Platforms/MacCatalyst** folders:
+**7.** For iOS and MacCatalyst, render a new label using a delegate. Create a class `MyChartDelegate` inside the `Platforms/iOS` and `Platforms/MacCatalyst` folders:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility.Chart;
