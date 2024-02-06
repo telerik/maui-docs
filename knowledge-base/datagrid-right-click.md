@@ -11,18 +11,9 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-    <tbody>
-        <tr>
-            <td>Product Version</td>
-            <td>5.1.0</td>
-        </tr>
-        <tr>
-            <td>Product</td>
-            <td>DataGrid for MAUI</td>
-        </tr>
-    </tbody>
-</table>
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 5.1.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 
 ## Description
