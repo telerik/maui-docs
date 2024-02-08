@@ -16,7 +16,7 @@ res_type: kb
 
 # Description
 
-I would like to know how to use font icons in Telerik UI for .NET MAUI. Additionally, I am interested in finding the complete list of available font icons.
+How can I use font icons in Telerik UI for .NET MAUI, and where can I find the complete list of available font icons?
 
 # Solution
 
