@@ -42,4 +42,4 @@ To remove the border or underline in the RadNumericMaskedEntry control, you can 
 <telerik:RadNumericMaskedEntry />
 ```
 
-Please note that in both approaches, the `FocusedBorderBrush` property is set to "Transparent" to remove the border or underline. You can customize the color as needed.
+>note In both approaches, the `FocusedBorderBrush` property is set to `Transparent` to remove the border or underline. You can customize the color as needed.
