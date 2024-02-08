@@ -1,5 +1,5 @@
 ---
-title: How to Remove Border/Underline in RadNumericMaskedEntry Control
+title: How to Remove Border/Underline in the RadNumericMaskedEntry Control
 description: This article provides instructions on how to remove the border or underline in the MaskedEntry control in a .NET MAUI project.
 type: how-to
 page_title: Removing Border/Underline in MaskedEntry Control for .NET MAUI
