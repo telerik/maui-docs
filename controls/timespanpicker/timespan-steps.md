@@ -20,7 +20,7 @@ You can change the default setup using the following properties:
 
 The following example shows how to set the time steps.
 
-Define the TimeSpanPicker.
+Define the TimeSpanPicker:
 
 ```XAML
 <telerik:RadTimeSpanPicker DayStep="2"
@@ -29,12 +29,11 @@ Define the TimeSpanPicker.
                                 SecondStep="30"/>
 ```
 
-Add the namespace.
+Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
 
 ## See Also
 

@@ -19,7 +19,7 @@ To implement date ranges, use the following DatePicker properties:
 
 The following example demonstrates how to set date ranges in the DatePicker.
 
-1. Define the control and the date ranges.
+**1.** Define the control and the date ranges.
 
  ```XAML
 <telerik:RadDatePicker MinimumDate="2020,1,1"
@@ -27,7 +27,7 @@ The following example demonstrates how to set date ranges in the DatePicker.
                             DisplayStringFormat="yyy-ddd-MMM"/>
  ```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

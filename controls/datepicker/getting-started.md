@@ -27,40 +27,40 @@ Before adding the DatePicker, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a DatePicker control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a DatePicker control to your page.
 
- ```XAML
+```XAML
 <telerik:RadDatePicker x:Name="datePicker" />
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseTelerik()
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+public static class MauiProgram
+{
+public static MauiApp CreateMauiApp()
+{
+	var builder = MauiApp.CreateBuilder();
+	builder
+		.UseTelerik()
+		.UseMauiApp<App>()
+		.ConfigureFonts(fonts =>
+		{
+			fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+		});
 
-		return builder.Build();
-	}
- }           
- ```
+	return builder.Build();
+}
+}           
+```
 
 
 ## Additional Resources

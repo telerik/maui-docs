@@ -30,9 +30,9 @@ The ListPicker for .NET MAUI allows you to clear the selected date/time through 
 
 The following example demonstrates how to use the `ClearSelection` method of the ListPicker.
 
-1. Define the ListPicker:
+**1.** Define the ListPicker:
 
- ```XAML
+```XAML
 <VerticalStackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerik:RadListPicker x:Name="listPicker"
@@ -51,30 +51,30 @@ The following example demonstrates how to use the `ClearSelection` method of the
         </telerik:RadListPicker.ItemTemplate>
     </telerik:RadListPicker>
 </VerticalStackLayout>
- ```
+```
 
-1. Clear the selection inside the button `click` event:
+**2.** Clear the selection inside the button `click` event:
 
- ```C#
+```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.listPicker.ClearSelection();
 }
- ```
+```
 
-1. Set a sample `ViewModel`:
+**3.** Set a sample `ViewModel`:
 
- <snippet id='listpicker-getting-started-viewmodel' />
+<snippet id='listpicker-getting-started-viewmodel' />
 
-1. Define the Business model:
+**4.** Define the Business model:
 
- <snippet id='listpicker-getting-started-business-model' />
+<snippet id='listpicker-getting-started-business-model' />
 
-1. Add the following namespace:
+**5.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## Events
 
@@ -83,9 +83,9 @@ The ListPicker for .NET MAUI exposes a `SelectionChanged` event which is raised 
 The following example demonstrates how to use the `SelectionChanged` event of the ListPicker.
 
 
-1. Define the ListPicker:
+**1.** Define the ListPicker:
 
- ```XAML
+```XAML
 <telerik:RadListPicker Placeholder="Pick a name!"
 	                        ItemsSource="{Binding Items}"
 	                        SelectionChanged="RadListPicker_SelectionChanged"
@@ -101,26 +101,26 @@ The following example demonstrates how to use the `SelectionChanged` event of th
         </DataTemplate>
     </telerik:RadListPicker.ItemTemplate>
 </telerik:RadListPicker>
- ```
+```
 
-1. Set the `SelectionChanged` event, where `sender` corresponds to the ListPicker control:
+**2.** Set the `SelectionChanged` event, where `sender` corresponds to the ListPicker control:
 
- ```C#
+```C#
 private void RadListPicker_SelectionChanged(object sender, System.EventArgs e)
 {
 	// implement your logic here
 }
- ```
+```
 
-1. Define a sample `ViewModel`:
+**3.** Define a sample `ViewModel`:
 
- <snippet id='listpicker-getting-started-viewmodel' />
+<snippet id='listpicker-getting-started-viewmodel' />
 
-1. Set the Business model. In the example, the `sender` is the ListPicker control.
+**4.** Set the Business model. In the example, the `sender` is the ListPicker control.
 
- <snippet id='listpicker-getting-started-business-model' />
+<snippet id='listpicker-getting-started-business-model' />
 
-1. Add the following namespace:
+**5.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
