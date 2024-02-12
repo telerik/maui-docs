@@ -19,19 +19,19 @@ You can change the default setup using the following properties:
 
 The following example shows how to set the time steps.
 
-1. Define the TimePicker.
+**1.** Define the TimePicker:
 
- ```XAML
+```XAML
 <telerik:RadTimePicker HourStep="2"
                          MinuteStep="10"
                          SecondStep="30"/>
- ```
+```
 
-1. Add the namespace.
+**2.** Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 
