@@ -17,25 +17,25 @@ DelegateGroup descriptor enables you to group by a custom key (for example, some
 
 Let's use the same example from the previous section, and add `DelegateGroupDescriptor` through code instead.
 
-Define the `RadListView`:
+**1.** Define the `RadListView`:
 
 <snippet id='listview-grouping-delegategroupdescriptor' />
 
-Include the `telerik` namespace:
+**2.** Include the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-Create and apply a delegate for grouping the items (for example by their first letter) as following:
+**3.** Create and apply a delegate for grouping the items (for example by their first letter) as following:
 
 <snippet id='listview-grouping-delegategroupdescriptor-settingdelegate' />
 
-Add a business model:
+**4.** Add a business model:
 
 <snippet id='listview-grouping-groupdescriptors-businessobject' />
 
-Add a `ViewModel` with a collection of Cities:
+**5.** Add a `ViewModel` with a collection of Cities:
 
 <snippet id='listview-grouping-groupdescriptors-viewmodel' />
 

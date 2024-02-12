@@ -14,18 +14,17 @@ The Cartesian Chart visualizes each data point from the OHLC Series as a line wi
 
 The following example shows how to create a basic `RadCartesianChart` with an OHLC Series in XAML and C#.
 
-1. Define the Cartesian Chart.
+**1.** Define the Cartesian Chart.
 
- <snippet id='chart-series-ohlc-xaml' />
+<snippet id='chart-series-ohlc-xaml' />
 
+**2.** Define the business model:
 
-1. Define the business model:
+<snippet id='chart-ohlc-datapoint-csharp' />
 
- <snippet id='chart-ohlc-datapoint-csharp' />
+**3.** Define the ViewModel:
 
- 1. The ViewModel:
-
-  <snippet id='chart-series-ohlc-viewmodel' />
+<snippet id='chart-series-ohlc-viewmodel' />
 
 The following image shows the end result:
 

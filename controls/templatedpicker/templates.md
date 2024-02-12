@@ -27,42 +27,41 @@ When you use the `SelectorSettings` property (of type `Telerik.Maui.Controls.Pic
 
 The following example demonstrates how to define the templates.
 
-1. Define a sample TemplatedPicker:
+**1.** Define a sample TemplatedPicker:
 
- <snippet id='templatedpicker-keyfeatures' />
+<snippet id='templatedpicker-keyfeatures' />
 
 **Define the Selector Template**
 
- <snippet id='templatedpicker-keyfeatures-selectortemplate' />
+<snippet id='templatedpicker-keyfeatures-selectortemplate' />
 
 **Define the Header Template**
 
- <snippet id='templatedpicker-keyfeatures-headertemplate' />
+<snippet id='templatedpicker-keyfeatures-headertemplate' />
 
-1. Add the following data item for the first spinner:
+**2.** Add the following data item for the first spinner:
 
- <snippet id='templatedpicker-country-businessmodel' />
+<snippet id='templatedpicker-country-businessmodel' />
 
-1. Add the following data item for the second spinner:
+**3.** Add the following data item for the second spinner:
 
- <snippet id='templatedpicker-city-businessmodel' />
+<snippet id='templatedpicker-city-businessmodel' />
 
-1. Define a sample `ViewModel`:
+**4.** Define a sample `ViewModel`:
 
- <snippet id='templatedpicker-viewmodel' />
+<snippet id='templatedpicker-viewmodel' />
 
-1. Set the defined `LocationViewModel` as a `BindingContext` of the page:
+**5.** Set the defined `LocationViewModel` as a `BindingContext` of the page:
 
- ```C#
+```C#
 this.BindingContext = new LocationViewModel();
- ```
+```
 
-1. In addition to this, you need to add the following namespace:
+**6.** In addition to this, you need to add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
+```
 
 
 The following image shows the TemplatedPicker visual structure:

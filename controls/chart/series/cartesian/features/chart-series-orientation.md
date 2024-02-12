@@ -16,21 +16,17 @@ The orientation of the series depends on which chart axis is horizontal and whic
 
 The following example shows how to create a Cartesian Chart with a vertical `CategoricalAxis` and a Horizontal Bar Series:
 
-1. First, create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Then, create a `ViewModel`:
+<snippet id='chart-series-categorical-data-view-model' />
 
- <snippet id='chart-series-categorical-data-view-model' />
+**3.** Use the following snippet to declare a `RadCartesianChart` with a Bar Series in XAML:
 
-
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Bar Series in XAML:
-
- <snippet id='chart-series-barhorizontal-xaml' />
-
-
+<snippet id='chart-series-barhorizontal-xaml' />
 
 The following image shows the end result.
 
@@ -40,18 +36,17 @@ The following image shows the end result.
 
 The following example shows how to create a Cartesian Chart with a vertical `CategoricalAxis` and a Stack Horizontal Bar Series:
 
-1. First, create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
-1. Then create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- <snippet id='chart-series-series-categorical-view-model' />
+<snippet id='chart-series-series-categorical-view-model' />
 
-1. Finally, use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
+**3.** Use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
 
- <snippet id='chart-series-stackbarhorizontal-xaml' />
-
+<snippet id='chart-series-stackbarhorizontal-xaml' />
 
 The following image shows the end result:
 

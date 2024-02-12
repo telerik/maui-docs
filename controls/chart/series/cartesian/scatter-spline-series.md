@@ -21,20 +21,17 @@ The ScatterSpline Series provides the following properties:
 
 The following example shows how to create a `RadCartesianChart` with a ScatterSpline Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='numerical-data-model' />
+<snippet id='numerical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-series-numerical-view-model' />
 
- <snippet id='chart-series-series-numerical-view-model' />
+**3.** Use the following snippet to declare a `RadCartesianChart` with a ScatterSpline Series in XAML:
 
-
-1. Use the following snippet to declare a `RadCartesianChart` with a ScatterSpline Series in XAML:
-
- <snippet id='chart-series-scatterspline-xaml' />
-
+<snippet id='chart-series-scatterspline-xaml' />
 
 The following image shows the end result:
 
@@ -45,11 +42,11 @@ The following image shows the end result:
 You can further customize the ScatterSpline Series:
 
 ```C#
-	var series = new ScatterSplineSeries
-	{
-		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5
-	};
+var series = new ScatterSplineSeries
+{
+	Stroke = new Color(0.6, 0.6, 0.9),
+	StrokeThickness = 5
+};
 ```
 
 ## See Also

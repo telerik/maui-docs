@@ -23,20 +23,17 @@ The Donut Series supports the following properties:
 
 The following example shows how to create a basic `RadPieChart` with a Donut Series in XAML.
 
-1. Define the `RadPieChart`:
+**1.** Define the `RadPieChart`:
 
- <snippet id='chart-series-donut-xaml' />
+<snippet id='chart-series-donut-xaml' />
 
+**2.** Define the business object exposing the following properties:
 
-1. Define the business object exposing the following properties:
+<snippet id='categorical-data-model' />
 
- <snippet id='categorical-data-model' />
+**3.** Add a `ViewModel` class and some data:
 
-
-1. Add a `ViewModel` class and some data:
-
- <snippet id='chart-piechart-view-model' />
-
+<snippet id='chart-piechart-view-model' />
 
 The following image shows the end result.
 

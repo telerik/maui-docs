@@ -30,13 +30,13 @@ The DateTime Continuous Axis exposes the following properties:
 
 The following example shows how to format the axis labels on the DateTime Continuous Axis:
 
-1. Create the needed business objects:
+**1.** Create the needed business objects:
 
- <snippet id='temporal-data-model' />
+<snippet id='temporal-data-model' />
 
-1. Create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -63,11 +63,11 @@ public class ViewModel
         return items;
     }
 }
- ```
+```
 
-1. Create a class, for example, `DateLabelFormatter` that inherits from `LabelFormatterBase<DateTime>` for the DateTime Continuous Axis.
+**3.** Create a class, for example, `DateLabelFormatter` that inherits from `LabelFormatterBase<DateTime>` for the DateTime Continuous Axis.
 
- ```C#
+```C#
 public class DateLabelFormatter : LabelFormatterBase<DateTime>
 {
     public override string FormatTypedValue(DateTime value)
@@ -90,9 +90,9 @@ public class DateLabelFormatter : LabelFormatterBase<DateTime>
         }
     }
 }
- ```
+```
 
-1. Finally, use the following snippet to declare the `RadChart` in XAML :
+**4.** Use the following snippet to declare the `RadChart` in XAML :
 
  ```XAML
 <telerik:RadCartesianChart>

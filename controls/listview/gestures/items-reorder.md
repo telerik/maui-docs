@@ -17,19 +17,19 @@ Reorder functionality can be enabled by setting the `IsItemsReorderEnabled` prop
 
 This example will demonstrate how to enable the items reorder functionality and style the list view items.
 
-1. Add the ListView definition:
+**1.** Add the ListView definition:
 
- <snippet id='listview-gestures-reorderitems-listview'/>
+<snippet id='listview-gestures-reorderitems-listview'/>
 
-1. Define the `telerik` namespace:
+**2.** Define the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
- ```
+```
 
-1. Add a simple Items Source to the ListView:
+**3.** Add a simple Items Source to the ListView:
 
- <snippet id='listview-gestures-reorderitems-code'/>
+<snippet id='listview-gestures-reorderitems-code'/>
 
 Here is the result:
 

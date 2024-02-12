@@ -16,7 +16,7 @@ This topic describes in details the configuration options related to the editabl
 
 * `IsEditable`(`bool`)&mdash;Defines whether typing into the input area can be performed. The default value is `false`.
 * `SearchTextPath`(`string`)&mdash;Defines the name of the property against which the searching will be performed. The property is usable when the control is in edit mode (`IsEditable` is `true`). 
-* `OpenOnFocus`(`bool`)&mdash;Specifies whether the dropdown will show as soon as the control is focused. The property is usable when the control is in edit mode (`IsEditable` is `true`).  The default value is `true`. If the property is `false` when the control is focused the drop-down will no longer open.
+* `OpenOnFocus`(`bool`)&mdash;Specifies whether the drop-down will show as soon as the control is focused. The property is usable when the control is in edit mode (`IsEditable` is `true`).  The default value is `true`. If the property is `false` when the control is focused the drop-down will no longer open.
 * `Text`(`string`)&mdash;Specifies the Text of the control. This is the Text that gets visualized when the control is editable or when its non-editable and the selection mode is single.
 
 ## Search

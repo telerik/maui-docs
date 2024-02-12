@@ -33,17 +33,17 @@ The ListView exposes the `ScrollItemIntoView(object item)` method for programmat
 
 The following example demonstrates how to use `ScrollItemIntoView` inside a button click event handler.
 
-1. Define a sample view with a ListView control and a button:
+**1.** Define a sample view with a ListView control and a button:
 
- <snippet id='listview-features-programmatic-scrolling-xaml'/>
+<snippet id='listview-features-programmatic-scrolling-xaml'/>
 
-1. Use the following `ViewModel` to create a simple data for the ListView component:
+**2.** Use the following `ViewModel` to create a simple data for the ListView component:
 
- <snippet id='listview-features-programmatic-scrolling'/>
+<snippet id='listview-features-programmatic-scrolling'/>
 
-1. Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a specific item:
+**3.** Create the button click event handler and inside this method use `ScrollItemIntoView` to navigate to a specific item:
 
- <snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
+<snippet id='listview-features-programmatic-scrolling-scroll-to-item-method'/>
 
 The following image shows the end result:
 

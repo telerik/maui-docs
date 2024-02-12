@@ -28,13 +28,13 @@ The `CartesianGridLineAnnotation` represents a vertical or horizontal line that 
 
 The following example shows how the `CartesianGridLineAnnotation` works:
 
-1. First, create the needed business objects:
+**1.** Create the needed business objects:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
-1. Then, create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -59,11 +59,11 @@ public class ViewModel
         return data;
     }
 }
- ```
+```
 
-1. Finally, declare the `RadChart` in XAML:
+**3.** Declare the `RadChart` in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
     <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -93,7 +93,7 @@ public class ViewModel
         </telerik:CartesianGridLineAnnotation>
     </telerik:RadCartesianChart.Annotations>
 </telerik:RadCartesianChart>
- ```
+```
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
 
@@ -110,14 +110,13 @@ The `CartesianPlotBandAnnotation` represents a vertical or horizontal area that 
 
 The following example shows how the `CartesianPlotBandAnnotation` works:
 
-1. First, create the needed business objects:
+**1.** Create the needed business objects:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Define the `ViewModel`:
 
-1. Define the `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -145,11 +144,11 @@ public class ViewModel
         return data;
     }
 }
- ```
+```
 
-1. Finally, declare the `RadChart` control in XAML:
+**3.** Declare the `RadChart` control in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
     <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -175,7 +174,7 @@ public class ViewModel
                                                   To="{Binding EndThreshold}" />
     </telerik:RadCartesianChart.Annotations>
 </telerik:RadCartesianChart>
- ```
+```
 
 The following image shows how the `CartesianPlotBandAnnotation` looks:
 

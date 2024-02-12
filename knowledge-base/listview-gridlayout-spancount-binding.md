@@ -46,7 +46,7 @@ This article explains how to use the `SpanCount` property of the RadListView Gri
 
 The example below shows how the `SpanCount` can be updated according to another value changed from a NumericInput control.
 
-1. Here is the deifnition of the controls in XAML:
+**1.** Here is the deifnition of the controls in XAML:
 
 ```XAML
 <Grid>
@@ -77,7 +77,7 @@ The example below shows how the `SpanCount` can be updated according to another 
 </Grid>
 ```
 
-1. The ViewModel - implements property changed and the DataModel used:
+**2.** The ViewModel - implements property changed and the DataModel used:
 
 ```C#
 public class ViewModel : NotifyPropertyChangedBase
@@ -112,7 +112,7 @@ public class Item
 }
 ```
 
-1. Set the Bindingcontext
+**3.** Set the Bindingcontext
 
 ```C#
 public partial class MainPage : ContentPage

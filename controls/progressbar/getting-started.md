@@ -26,24 +26,24 @@ Before adding the Barcode, you need to:
 
 ## Define the Control in XAML or C#.
 
-1. The snippet below shows a simple `RadLinearProgressBar` definition.
+**1.** The snippet below shows a simple `RadLinearProgressBar` definition.
 
- <snippet id='progressbar-getting-started-xaml'/>
- <snippet id='progressbar-getting-started-csharp'/>
+<snippet id='progressbar-getting-started-xaml'/>
+<snippet id='progressbar-getting-started-csharp'/>
 
-1. Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
- using Telerik.Maui.Controls.Compatibility;
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
+}           
 ```
 
 >important For the ProgressBar Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).

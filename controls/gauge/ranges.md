@@ -15,11 +15,11 @@ All ranges are arranged in an area alongside and parallel to the axis line. The 
 
 To include ranges in your gauge
 
-1. Set the `Ranges` property.
+**1.** Set the `Ranges` property.
 
-1. Pass an object of type `GaugeRangesDefinition`, which has a `Ranges` collection.
+**2.** Pass an object of type `GaugeRangesDefinition`, which has a `Ranges` collection.
 
-1. In this collection, add `GaugeRange` items when you need a solid color, or add `GaugeGradientRange` items when you need gradient colors.
+**3.** In this collection, add `GaugeRange` items when you need a solid color, or add `GaugeGradientRange` items when you need gradient colors.
 
 ```XAML
 <telerik:GaugeRangesDefinition>

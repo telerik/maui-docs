@@ -40,20 +40,17 @@ When setting their properties and getting them ready for displaying your stock d
 
 The following example shows how to create a basic `RadCartesianChart` with an OHLC Series and how to set some `ExponentialMovingAverageIndicator` instances with different periods.
 
-1. Define the `RadCartesianChart`.
+**1.** Define the `RadCartesianChart`.
 
- <snippet id='chart-series-indicators-xaml' />
+<snippet id='chart-series-indicators-xaml' />
 
-1. Define the business model:
+**2.** Define the business model:
 
- <snippet id='chart-ohlc-datapoint-csharp' />
+<snippet id='chart-ohlc-datapoint-csharp' />
 
+**3.** And the ViewModel:
 
-
- 1. And the ViewModel:
-
-  <snippet id='chart-financial-indicator-viewmodel' />
-
+<snippet id='chart-financial-indicator-viewmodel' />
 
 The following image shows the end result:
 

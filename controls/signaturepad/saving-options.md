@@ -23,17 +23,21 @@ SignaturePad provides `SaveImageAsync` method you can use to get the image drawn
 
 Check below a quick example on how you can get the image through `SaveImageAsync` method and use it as a Source of a Microsoft.Maui.Image control.
 
-Add a sample SignaturePad instance:
+**1.** Add a sample SignaturePad instance:
 
 <snippet id='signaturepad-saving-image-xaml' />
 
-Add a sample Image control to the page:
+**2.** Add a sample Image control to the page:
 
 <snippet id='signaturepad-image-control' />
 
-Use the following snippet for saving the image as a JPEG in a memory stream and use the stream as a source of the defined Image control:
+**3.** Use the following snippet for saving the image as a JPEG in a memory stream and use the stream as a source of the defined Image control:
 
-<snippet id='signaturepad-saving-image-method' />
+<snippet id='signaturepad-saving-jpeg' />
+
+**4.** Use the following snippet for saving the image as a PNG in a memory stream and use the stream as a source of the defined Image control:
+
+<snippet id='signaturepad-saving-png' />
 
 Here is how a sample signature looks with used saving settings as in the snippet above:
 

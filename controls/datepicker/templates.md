@@ -19,19 +19,19 @@ The `PlaceholderTemplate`(`ControlTemplate`) defines the template visualized for
 
 You can also customize the placeholder template.
 
-1. Define the DatePicker:
+**1.** Define the DatePicker:
 
- <snippet id='datepicker-custom-templates' />
+<snippet id='datepicker-custom-templates' />
 
-1. Define the template.
+**2.** Define the template.
 
-	<snippet id='datepicker-placeholder-template' />
+<snippet id='datepicker-placeholder-template' />
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows the end result.
 
@@ -45,19 +45,19 @@ The `DisplayTemplate`(`ControlTemplate`) defines the template visualized when th
 
 You can also customize the display template.
 
-1. Define the DatePicker:
+**1.** Define the DatePicker:
 
- <snippet id='datepicker-display-template' />
+<snippet id='datepicker-display-template' />
 
-1. Define the template.
+**2.** Define the template.
 
-	<snippet id='datepicker-placeholder-template' />
+<snippet id='datepicker-placeholder-template' />
 
-1. Add the following namespace:
+**1.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows the end result.
 
@@ -71,19 +71,19 @@ The `HeaderTemplate`(`ControlTemplate`) defines what will be displayed inside th
 
 You can also customize the header template.
 
-1. Define the DatePicker:
+**1.** Define the DatePicker:
 
- <snippet id='datepicker-display-template' />
+<snippet id='datepicker-display-template' />
 
-1. Define the template.
+**2.** Define the template.
 
- <snippet id='datepicker-header-template' />
+<snippet id='datepicker-header-template' />
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## Footer Template
 
@@ -93,19 +93,19 @@ The `FooterTemplate`(`ControlTemplate`) defines what will be displayed inside th
 
 You can also customize the footer template.
 
-1. Define the DatePicker:
+**1.** Define the DatePicker:
 
- <snippet id='datepicker-display-template' />
+<snippet id='datepicker-display-template' />
 
-1. Define the template.
+**2.** Define the template.
 
- <snippet id='datepicker-footer-template' />
+<snippet id='datepicker-footer-template' />
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows the end result.
 

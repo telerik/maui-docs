@@ -23,7 +23,6 @@ This article shows how to add a transparency in the TabView to display the backg
 
 You have to add styles for the TabView Header, HeaderItem and Content. 
 
-
 ```XAML
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"

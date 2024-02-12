@@ -49,7 +49,7 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
-**1.** Define the TimePicker with `PopupSettings`.
+**1.** Define the TimePicker with `PopupSettings`:
 
 ```XAML
 <telerik:RadTimePicker x:Name="timePicker">
@@ -66,7 +66,7 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Add a sample `ViewModel` class.
+**3.** Add a sample `ViewModel` class:
 
 ```C#
 public class ViewModel
