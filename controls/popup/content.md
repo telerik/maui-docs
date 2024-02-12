@@ -20,17 +20,17 @@ To host content inside the Popup, either add it directly as a child element or u
 
 The example below demonstrates how to create a sample `DataTemplate` and set it as the `ContentTemplate` of the Popup.
 
-1. Add the needed `DataTemplate` to the page Resources:
+**1.** Add the needed `DataTemplate` to the page Resources:
 
- <snippet id='popup-features-contenttemplate-resource' />
+<snippet id='popup-features-contenttemplate-resource' />
 
-1. When you define the Popup either in XAML or as code-behind, apply the `ContentTemplate` property:
+**2.** When you define the Popup either in XAML or as code-behind, apply the `ContentTemplate` property:
 
- <snippet id='popup-features-contenttemplate-xaml' />
+<snippet id='popup-features-contenttemplate-xaml' />
 
-1. Add the events as shown below:
+**3.** Add the events as shown below:
 
- <snippet id='popup-features-contenttemplate-events' />
+<snippet id='popup-features-contenttemplate-events' />
 
 The following image shows the end result.
 

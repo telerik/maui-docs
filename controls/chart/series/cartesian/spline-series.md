@@ -21,19 +21,17 @@ The Spline Series extend the Line Series so they provide the same properties to 
 
 The following example shows how to create a `RadCartesianChart` with a Spline Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
-1. Create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- <snippet id='chart-series-categorical-data-view-model' />
+<snippet id='chart-series-categorical-data-view-model' />
 
+**3.** Use the following snippet to declare a `RadCartesianChart` with a Spline Series in XAML:
 
-1. Use the following snippet to declare a `RadCartesianChart` with a Spline Series in XAML:
-
- <snippet id='chart-series-spline-xaml' />
-
+<snippet id='chart-series-spline-xaml' />
 
 The following image shows the end result:
 
@@ -44,11 +42,11 @@ The following image shows the end result:
 You can further customize the Spline Series:
 
 ```C#
-	var series = new SplineSeries
-	{
-		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5
-	};
+var series = new SplineSeries
+{
+	Stroke = new Color(0.6, 0.6, 0.9),
+	StrokeThickness = 5
+};
 ```
 
 ![Customized SplineSeries](images/cartesian-spline-series-customization-example.png)

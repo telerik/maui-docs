@@ -29,14 +29,13 @@ The Cartesian Chart Grid provides the following features:
 
 The following example shows how the Cartesian Chart Grid works:
 
-1. First, create the needed business objects:
+**1.** Create the needed business objects:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Then, create a `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data { get; set; }
@@ -59,11 +58,11 @@ public class ViewModel
         return data;
     }
 }
- ```
+```
 
-1. Finally, declare the `RadChart` in XAML:
+**3.** Declare the `RadChart` in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
     <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -86,13 +85,13 @@ public class ViewModel
                                          MajorLineThickness="3" />
     </telerik:RadCartesianChart.Grid>
 </telerik:RadCartesianChart>
- ```
+```
 
-1. Add the following namespace:
+**4.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
 

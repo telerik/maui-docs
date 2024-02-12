@@ -21,21 +21,17 @@ The ScatterPoint Series provides the following properties:
 
 The following example shows how to create a `RadCartesianChart` with a ScatterPoint Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='numerical-data-model' />
+<snippet id='numerical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-series-numerical-view-model' />
 
- <snippet id='chart-series-series-numerical-view-model' />
+**3.** Use the following snippet to declare a `RadCartesianChart` with a ScatterPoint Series in XAML and in C#:
 
-
-1. Use the following snippet to declare a `RadCartesianChart` with a ScatterPoint Series in XAML and in C#:
-
- <snippet id='chart-series-scatterpoint-xaml' />
-
-
+<snippet id='chart-series-scatterpoint-xaml' />
 
 The following image shows the end result:
 

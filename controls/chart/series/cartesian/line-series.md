@@ -21,21 +21,17 @@ The Line Series supports the following properties:
 
 The following example shows how to create a `RadCartesianChart` with a Line Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-series-categorical-view-model' />
 
- <snippet id='chart-series-series-categorical-view-model' />
+**3.** Finally, use the following snippet to declare a `RadCartesianChart` with a Line Series in XAML:
 
-
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a Line Series in XAML:
-
- <snippet id='chart-series-line-xaml' />
-
-
+<snippet id='chart-series-line-xaml' />
 
 The following image shows the end result:
 
@@ -46,11 +42,11 @@ The following image shows the end result:
 You can further customize the Line Series:
 
 ```C#
-	var series = new LineSeries
-	{
-		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5
-	};
+var series = new LineSeries
+{
+	Stroke = new Color(0.6, 0.6, 0.9),
+	StrokeThickness = 5
+};
 ```
 
 ![Customized LineSeries](images/cartesian-line-series-customization-example.png)

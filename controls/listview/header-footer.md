@@ -16,23 +16,23 @@ The ListView provides the option to add - `Header` and `Footer`, which will allo
 
 The following example shows how to add a Header and a Footer to the ListView control.
 
-1. Create a `ViewModel`:
+**1.** Create a `ViewModel`:
 
- <snippet id='listview-features-header-and-footer-viewmodel'/>
+<snippet id='listview-features-header-and-footer-viewmodel'/>
 
-1. Add the following sample `DataTemplates` to the resources of the page that will be used as:
+**2.** Add the following sample `DataTemplates` to the resources of the page that will be used as:
 
-* Example how to define the Header Template
+**2.1** Example how to define the Header Template
 
- <snippet id='listview-features-header-template-xaml'/>
+<snippet id='listview-features-header-template-xaml'/>
 
- * Example how to define the Footer Template
+**2.2** Example how to define the Footer Template
 
- <snippet id='listview-features-footer-template-xaml'/>
+<snippet id='listview-features-footer-template-xaml'/>
 
-1. Use the following snippet to declare the ListView in XAML:
+**3.** Use the following snippet to declare the ListView in XAML:
 
- <snippet id='listview-features-header-and-footer-xaml'/>
+<snippet id='listview-features-header-and-footer-xaml'/>
 
 The following image shows how the ListView Header looks.
 

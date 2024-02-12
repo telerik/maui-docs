@@ -30,15 +30,15 @@ This descriptor enables you to sort by a custom key (for example, some complex e
 
 Here is an example that will guide you how to use `SortDescriptor` in the ListView.
 
-First, define the ListView in XAML and add `PropertySortDescriptor` to its `SortDescriptors` collection :
+**1.** Define the ListView in XAML and add `PropertySortDescriptor` to its `SortDescriptors` collection :
 
 <snippet id='listview-features-sorting-xaml'/>
 
-Use the following snippet for the `ViewModel` class:
+**2.** Use the following snippet for the `ViewModel` class:
 
 <snippet id='listview-features-sorting-viewmodel'/>
 
-Where the `Person` class is defined like this:
+**3.** Define a `Person` class:
 
 <snippet id='listview-features-sorting-data-class'/>
 
@@ -52,45 +52,37 @@ The `SortDescriptors` collection of the ListView supports binding, which means y
 
 To control the descriptors collections through MVVM:
 
-1. Create a property of type `ObservableCollection<SortDescriptorBase>` in your `ViewModel` which will contain the needed sort descriptors:
+**1.** Create a property of type `ObservableCollection<SortDescriptorBase>` in your `ViewModel` which will contain the needed sort descriptors:
 
  <snippet id='listview-features-bindable-sortdescriptor-viewmodel' />
- ```C#
-public ObservableCollection<SortDescriptorBase> SortDescriptors
-{
-	get { return this.sortDescriptors; }
-	set { this.UpdateValue(ref this.sortDescriptors, value); }
-}
- ```
 
-1. Use the `OneWayToSource` binding mode to bind that property to the `SortDescriptors` property of ListView. For demonstration purposes, this ListView uses the same `ViewModel` as in the previous example.
+**2.** Use the `OneWayToSource` binding mode to bind that property to the `SortDescriptors` property of ListView. For demonstration purposes, this ListView uses the same `ViewModel` as in the previous example.
 
- <snippet id='listview-features-bindable-sortdescriptor-xaml' />
- ```XAML
-<telerikDataControls:RadListView x:Name="listView"
+```XAML
+<telerik:RadListView x:Name="listView"
 								 Grid.Row="2"
 								 SortDescriptors="{Binding SortDescriptors, Mode=OneWayToSource}"
 								 ItemsSource="{Binding Items}">              
-	<telerikDataControls:RadListView.ItemTemplate>
+	<telerik:RadListView.ItemTemplate>
 		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
+			<telerik:ListViewTemplateCell>
+				<telerik:ListViewTemplateCell.View>
 					<HorizontalStackLayout>
 						<Label Text="Name:"/>
 						<Label Text="{Binding Name}"/>
 						<Label Text=", Age:"/>
 						<Label Text="{Binding Age}"/>
 					</HorizontalStackLayout>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
+				</telerik:ListViewTemplateCell.View>
+			</telerik:ListViewTemplateCell>
 		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-</telerikDataControls:RadListView>
- ```
+	</telerik:RadListView.ItemTemplate>
+</telerik:RadListView>
+```
 
-1. According to your preferences, add sort descriptors to the `SortDescriptors` collection in the `ViewModel`, for example:
+**3.** According to your preferences, add sort descriptors to the `SortDescriptors` collection in the `ViewModel`, for example:
 
- ```C#
+```C#
 private void UpdateExistingSortDescriptor()
 {
 	if (this.SortDescriptors == null)
@@ -105,7 +97,7 @@ private void UpdateExistingSortDescriptor()
 		});
 	}
 }
- ```
+```
 
 
 The following image shows the result:

@@ -15,23 +15,23 @@ You can group the data by a property value from the class that defines your item
 - `PropertyName`&mdash;Defines the string name of the property you want to group by.
 - `SortOrder`&mdash;Defines the sort order in each group to Ascending or Descending.
 
-Add the following business object:
+**1.** Add the following business object:
 
 <snippet id='listview-grouping-groupdescriptors-businessobject' />
 
-Add a `ViewModel` with a collection of Cities:
+**2.** Add a `ViewModel` with a collection of Cities:
 
 <snippet id='listview-grouping-groupdescriptors-viewmodel' />
 
-Group the Cities by the `Country` property through the `PropertyGroupDescriptor`:
+**3.** Group the Cities by the `Country` property through the `PropertyGroupDescriptor`:
 
 <snippet id='listview-grouping-propertygroupdescriptor'/>
 
-Add the `Templates` definition in the page resources:
+**4.** Add the `Templates` definition in the page resources:
 
 <snippet id='listview-grouping-templates' />
 
-Include the `telerik` namespace:
+**5.** Include the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 

@@ -69,21 +69,21 @@ You can customize the way selected items look by applying `SelectedItemStyle` pr
 
 The example below shows how to use ListView selection feature and demonstrates how to set multiple selection, apply a selected item style, and retrieve the selected items in a `ViewModel` class.
 
-First, create a `ViewModel` class with two collections&mdash;One for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the example, the ListView is bound to a collection of strings:
+**1.** Create a `ViewModel` class with two collections&mdash;One for the `ItemsSource` of the ListView and one that will hold the `SelectedItems`. For the example, the ListView is bound to a collection of strings:
 
 <snippet id='listview-features-selection-viewmodel' />
 
-Next, add a `RadListView` instance to your page with selection properties applied:
+**2.** Add a `RadListView` instance to your page with selection properties applied:
 
 <snippet id='listview-features-selection-xaml' />
 
-Add the `telerik` namespace:
+**3.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                           
 ```
 
-Set the `ViewModel` class as a `BindingContext` and call the `InitializePickers()` method:
+**4.** Set the `ViewModel` class as a `BindingContext` and call the `InitializePickers()` method:
 
 <snippet id='listview-features-selection-setvm' />
 

@@ -27,21 +27,21 @@ The `ReorderEndedCommandContext` gives you access to the following properties:
 
 Below you can find a sample implementation.
 
-The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
+**1.** The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
 
 <snippet id='listview-grouping-reorderitems-xaml' />
 
-Include the `telerik` namespace:
+**2.** Include the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
+**3.** Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
 
 <snippet id='listview-grouping-reorderitems-viewmodel' />
 
-And the business model:
+**4.** And the business model:
 
 <snippet id='listview-grouping-reorderitems-businessobject'/>
 

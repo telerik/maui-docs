@@ -22,20 +22,17 @@ The SplineArea Series provides the following properties:
 
 The following example shows how to create a `RadCartesianChart` with a SplineArea Series:
 
-1. First, create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** reate a `ViewModel`:
 
-1. Then, create a `ViewModel`:
+<snippet id='chart-series-categorical-view-model' />
 
- <snippet id='chart-series-categorical-view-model' />
+**3.** Use the following snippet to declare a `RadCartesianChart` with a SplineArea Series in `XAML` and in `C#`:
 
-
-1. Finally, use the following snippet to declare a `RadCartesianChart` with a SplineArea Series in XAML and in C#:
-
- <snippet id='chart-series-splinearea-xaml' />
-
+<snippet id='chart-series-splinearea-xaml' />
 
 The following image shows the end result:
 
@@ -46,12 +43,12 @@ The following image shows the end result:
 You can further customize the SplineArea Series:
 
 ```C#
-	var series = new SplineAreaSeries
-	{
-		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5,
-		Fill = new Color(0.8, 0.8, 1)
-	};
+var series = new SplineAreaSeries
+{
+	Stroke = new Color(0.6, 0.6, 0.9),
+	StrokeThickness = 5,
+	Fill = new Color(0.8, 0.8, 1)
+};
 ```
 
 ![Customized SplineAreaSeries](images/cartesian-spline-area-series-customization-example.png)

@@ -20,14 +20,13 @@ The TrackBall behavior handles of the rendering concise information about data p
 
 The following example shows how the TrackBall behavior of the Chart works:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<CategoricalData> Data1 { get; set; }
@@ -63,11 +62,11 @@ public class ViewModel
         return data;
     }
 }
- ```
+```
 
-1. Declare a `RadCartesianChart` in XAML:
+**3.** Declare a `RadCartesianChart` in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
     <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -94,7 +93,7 @@ public class ViewModel
                                              ShowTrackInfo="True" />
     </telerik:RadCartesianChart.ChartBehaviors>
 </telerik:RadCartesianChart>
- ```
+```
 
 The following image shows how the TrackBall looks:
 

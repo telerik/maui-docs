@@ -16,20 +16,20 @@ In case of Cartesian Series that require X and Y axes (Line, Area, Bar, and so o
 
 The following example demonstrates a data-bound scenario where a nullable `double` type is used.
 
-1. First, create a `ViewModel` with a collection of `CategoryItems` objects, where a few of the items have null values:
+**1.** Create a `ViewModel` with a collection of `CategoryItems` objects, where a few of the items have null values:
 
- <snippet id='chart-nullvalues-viewmodel'/>
+<snippet id='chart-nullvalues-viewmodel'/>
 
 
-1. Then, add a `RadCartesianChart` with a Spline Area Series, for example:
+**2.** Add a `RadCartesianChart` with a Spline Area Series, for example:
 
- <snippet id='chart-nullvalues-xaml'/>
+<snippet id='chart-nullvalues-xaml'/>
 
- 1. Add the `telerik` namespace:
+**3.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
 The image below shows how the null data points are visualized as gaps.
 

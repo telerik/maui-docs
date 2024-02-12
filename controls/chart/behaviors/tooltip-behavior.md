@@ -21,14 +21,13 @@ The ToolTip behavior of the Chart supports the `TriggerMode` property that deter
 
 The following example shows how the ToolTip behavior of the Chart works:
 
-1. Create the business object:
+**1.** Create the business object:
 
- <snippet id='temporal-data-model' />
+<snippet id='temporal-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -66,11 +65,11 @@ public class ViewModel
         return items;
     }
 }
- ```
+```
 
-1. Declare a `RadCartesianChart` in XAML:
+**3.** Declare a `RadCartesianChart` in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart PaletteName="Light"
                                 Zoom="2, 1">
     <telerik:RadCartesianChart.BindingContext>
@@ -97,7 +96,7 @@ public class ViewModel
         <telerik:ChartTooltipBehavior TriggerMode="Tap" />
      </telerik:RadCartesianChart.ChartBehaviors>
 </telerik:RadCartesianChart>
- ```
+```
 
 The following image shows how the ToolTip looks:
 

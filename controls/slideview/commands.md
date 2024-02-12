@@ -18,7 +18,7 @@ The Telerik UI for .NET MAUI SlideView provides the following commands:
 
 The following example shows how to add a command.
 
-**1.** Add the SlideView definition.
+Add the SlideView definition.
 
 <snippet id='slideview-commands' />
 
