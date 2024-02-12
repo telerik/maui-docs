@@ -41,26 +41,28 @@ Through the popup or the drop-down, users can pick a date and time. The date and
 
 The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use the `AcceptCommandParameter` to pass a parameter to the command execute method. 
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use the `CancelCommandParameter` to pass a parameter to the command execute method.
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DateTimePicker. For the drop-down mode, use the `DropDownSettings` property.
 
 **1.** Define the control and add the commands to the `PopupSettings`.
 
- ```XAML
-<StackLayout>
-    <telerik:RadDateTimePicker>
+```XAML
+<VerticalStackLayout>
+    <telerik:RadDateTimePicker x:Name="dateTimePicker"> 
         <telerik:RadDateTimePicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
-                                         CancelCommand="{Binding Cancel}"/>
+                                         AcceptCommandParameter="{Binding Date, Source={x:Reference dateTimePicker}}"
+										 CancelCommand="{Binding Cancel}"
+										 CancelCommandParameter="{Binding Date, Source={x:Reference dateTimePicker}}"/>
         </telerik:RadDateTimePicker.PopupSettings>
             <telerik:RadDateTimePicker.BindingContext>
                 <local:ViewModel/>
-            </telerikInput:RadDateTimePicker.BindingContext>
+            </telerik:RadDateTimePicker.BindingContext>
     </telerik:RadDateTimePicker>
-</StackLayout>
- ```
+</VerticalStackLayout>
+```
 
 **2.** Set the `ViewModel`.
 
@@ -76,13 +78,16 @@ public class ViewModel
         this.Cancel = new Command(this.OnCancel);
     }
 
-    private void OnAccept(object obj)
+    private void OnAccept(object param)
     {
+        Application.Current.MainPage.DisplayAlert("Date selected", String.Format("New Date: {0:d}", (DateTime)param), "OK");
         // implement your custom logic here
     }
 
-    private void OnCancel(object obj)
+    private void OnCancel(object param)
     {
+        var message = param != null ? String.Format("Current date: {0:d}", (DateTime)param) : "Currently no date is selected";
+        Application.Current.MainPage.DisplayAlert("Date Selection Canceled", message, "OK");
         // implement your custom logic here
     }
 }

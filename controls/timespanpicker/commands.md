@@ -42,8 +42,8 @@ Through the popup or the drop-down, users can pick a time. The time value must b
 
 The TimeSpanPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use the `AcceptCommandParameter` to pass a parameter to the command execute method. 
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use the `CancelCommandParameter` to pass a parameter to the command execute method.
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the TimeSpanPicker. For the drop-down mode, use the `DropDownSettings` property.
 
@@ -56,7 +56,7 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
     <telerik:RadTimeSpanPicker>
         <telerik:RadTimeSpanPicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
-                                                      CancelCommand="{Binding Cancel}"/>
+                                         CancelCommand="{Binding Cancel}"/>
         </telerik:RadTimeSpanPicker.PopupSettings>
             <telerik:RadTimeSpanPicker.BindingContext>
                 <local:ViewModel/>
