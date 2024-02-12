@@ -9,7 +9,7 @@ slug: combobox-databinding
 # Data Binding in .NET MAUI ComboBox
 
 - `ItemsSource`(`IEnumerable`)&mdash;Defines the collection of the items that will populate the control with data.
-- `DisplayMemberPath`(`string`)&mdash;Defines the name of the property which will be visualized inside the dropdown list.
+- `DisplayMemberPath`(`string`)&mdash;Defines the name of the property which will be visualized inside the drop-down list.
 
 > If DisplayMemberPath is not set the “ToString” implementation of the business object will be visualized. The DisplayMemberPath is a property that helps the developers to visualize an exact property from the business object they are bound to.
 

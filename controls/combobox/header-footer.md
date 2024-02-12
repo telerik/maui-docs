@@ -1,14 +1,14 @@
 ---
 title: Header and Footer
 page_title: .NET MAUI ComboBox Documentation - Templates
-description: Learn more about the header and footer templates to the dropdown list of Telerik UI For .NET MAUI ComboBox control.
+description: Learn more about the header and footer templates to the drop-down list of Telerik UI For .NET MAUI ComboBox control.
 position: 10
 slug: combobox-header-footer
 ---
 
 # Header and Footer in .NET MAUI ComboBox
 
-You can add Header and Footer to the DropDown list of the ComboBox control through the following properties:
+You can add Header and Footer to the drop-down list of the ComboBox control through the following properties:
 
 * `HeaderTemplate`(`DataTemplate`)&mdash;Defines the template of the header that will be visualized in the drop down list.
 * `FooterTemplate`(`DataTemplate`)&mdash;Defines the template of the footer that will be visualized in the drop down list.

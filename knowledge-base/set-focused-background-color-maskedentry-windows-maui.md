@@ -28,9 +28,9 @@ To set the background color for the focused state of the MaskedEntry control on 
 
 Here is an example:
 
-1. Create a new file named `CustomStyles.xaml` in the `Platforms/Windows` folder of your .NET MAUI application.
+**1.** Create a new file named `CustomStyles.xaml` in the `Platforms/Windows` folder of your .NET MAUI application.
 
-2. Add the following XAML code to the `CustomStyles.xaml` file:
+**2.** Add the following XAML code to the `CustomStyles.xaml` file:
 
 ```xml
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
@@ -48,7 +48,7 @@ Here is an example:
 </ResourceDictionary>
 ```
 
-3. Open the `Platforms/Windows/App.xaml` file and add the following line inside the `ResourceDictionary` section:
+**3.** Open the `Platforms/Windows/App.xaml` file and add the following line inside the `ResourceDictionary` section:
 
 ```xml
     <maui:MauiWinUIApplication.Resources>
@@ -64,7 +64,7 @@ Here is an example:
     </maui:MauiWinUIApplication.Resources>
 ```
 
-4. Save the changes and rebuild your .NET MAUI application.
+**4.** Save the changes and rebuild your .NET MAUI application.
 
 Now, when you tab into the MaskedEntry control on Windows, the focused background color will be set to black.
 
