@@ -4,6 +4,7 @@ page_title: .NET MAUI DateTimePicker Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI DateTimePicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection.
 position: 7
 slug: datetimepicker-commands
+control_name: DateTimePicker
 ---
 
 # .NET MAUI DateTimePicker Commands
@@ -37,14 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## OK and Cancel Buttons
 
-Through the popup or the drop-down, users can pick a date and time. The date and time value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup or drop-down.
-
-The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
-
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use the `AcceptCommandParameter` to pass a parameter to the command execute method. 
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use the `CancelCommandParameter` to pass a parameter to the command execute method.
-
-You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DateTimePicker. For the drop-down mode, use the `DropDownSettings` property.
+{% include ok-cancel-buttons.md %}
 
 **1.** Define the control and add the commands to the `PopupSettings`.
 
