@@ -30,6 +30,43 @@ Next in the menu, look for and select **Telerik UI for .NET MAUI Template Wizard
 
 ![Telerik UI for .NET MAUI VS Code snippets](./images/MauiTemplateWizard.png)
 
+## Set up the Telerik NuGet Server
+
+You can use one of the following options to configure the needed credentials for your telerik license (trial or commersial):
+
+### Using the .NET CLI
+
+When adding NuGet sources from the .NET CLI, the credentials are stored inside the `Nuget.Config` file. To add the Telerik NuGet package source with the .NET CLI, use the `dotnet nuget add source` command. This command creates or updates the `NuGet.Config` file for you, so you don't have to edit it manually. For more details on this case, review the [Restoring NuGet Packages in your CL Workflow]({%slug nuget-keys%}) article.
+
+### Editing the NuGet.Config file
+
+Nuget package sources and other settings are stored in a `NuGet.Config` file. You can read more about the file structure in the Microsoft article: [Nuget.Config References](https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file). To edit the file and add the Telerik feed, you need to: 
+
+1. Ensure you editing the correct and desired `.config` file. You can also create a new one with the `dotnet new nugetconfig` command. 
+1. Add the Telerik package source to the `.config` file. 
+
+Example of sample `NuGet.Config` file:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <packageSources>
+    <!--To inherit the global NuGet package sources remove the <clear/> line below -->
+    <clear />
+    <add key="nuget" value="https://api.nuget.org/v3/index.json" />
+    <add key="TelerikOnlineFeed" value="https://nuget.telerik.com/v3/index.json" />
+    </packageSources>
+    <packageSourceCredentials>
+    <TelerikOnlineFeed>
+        <add key="Username" value="<TELERIK EMAIL or api-key>" />
+        <add key="ClearTextPassword" value="<TELERIK PASSWORD or NUGET API KEY>" />
+    </TelerikOnlineFeed>
+    </packageSourceCredentials>
+</configuration>
+```
+
+> Use plain text credentials, because the .NET Core NuGet tooling does not fully support encrypted credentials. 
+
 ## Configure the Project
 
 The Create New Project wizard provides two options to start you project:

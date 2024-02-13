@@ -41,11 +41,11 @@ You can access the SDKBrowser application in the following ways:
 
 1. Run on macOS using the following command:
 
- `dotnet build -t:Run -f net7.0-maccatalyst`
+ `dotnet build -t:Run -f net8.0-maccatalyst`
  
-1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
+1. Run on iOS using the following command:
 
- `dotnet build -t:Run -f net7.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ `dotnet build -t:Run -f net8.0-ios` - this command starts a default simulator. If you want to run the application on specific device then you need to specify the device id by running the following command: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device id is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
  
  where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
 
