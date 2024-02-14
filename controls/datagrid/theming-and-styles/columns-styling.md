@@ -34,7 +34,7 @@ To style the `RadDataGridColumnHeader` use the following properties:
 
 <snippet id='datagrid-columnstyle-headerstyle'/>
 
->tip For more details how to hide the column headers from the DataGrid visualization, review the following articke: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
+>tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
 ### SortIndicator Styling
 

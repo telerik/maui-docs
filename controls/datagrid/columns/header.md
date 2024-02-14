@@ -52,7 +52,7 @@ Use the `HeaderStyle` property to style the `DataGridColumn` header.
 
 Check the [.NET MAUI DataGrid Column Header Styling]({%slug datagrid-columns-styling%}#headerstyle) topic for more information about the styling options you can use. 
 
->tip For more details how to hide the column headers from the DataGrid visualization, review the following articke: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
+>tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
 ## Header Content Customization
 
