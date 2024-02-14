@@ -81,6 +81,8 @@ Here is an example with `OpenOnFocus` property set:
 
 <snippet id='combobox-configuration-dropdownvisibility-openonfocus'/>
 
+>tip Review the [Adding Select All Option in ComboBox Drop-Down]({%slug adding-select-all-option-combobox-dropdown-net-maui%}) article for more details how to select all items from the drop-down list.
+
 ## Keyboard
 
 The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define the type of the keyboard that will be visualized by the device. The default value is Text.

@@ -23,7 +23,7 @@ To achieve the desired scenario of hiding the tokens and only displaying the Sho
 
 **1.** Create a custom control. 
 **2.** Add a label to display the selected items count. 
-**3.** Update the label's text inside the SelectionChanged event.
+**3.** Update the label's text inside the `SelectionChanged` event.
 
 ```C#
 public class MyComboBox : RadComboBox
@@ -70,7 +70,7 @@ public class MyComboBox : RadComboBox
 }
 ```
 
-**4.** Override the default TokenTemplate to hide the tokens.
+**4.** Override the default `TokenTemplate` to hide the tokens.
 
 ```xaml
  <local:MyComboBox 

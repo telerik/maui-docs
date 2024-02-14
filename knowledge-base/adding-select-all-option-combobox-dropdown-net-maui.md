@@ -1,8 +1,8 @@
 ---
-title: Adding Select All Option in ComboBox Dropdown - ComboBox for .NET MAUI
-description: Learn how to add a select all option in the dropdown list of a ComboBox in ComboBox for .NET MAUI.
+title: Adding Select All Option in ComboBox Drop-Down
+description: Learn how to add a "Select All" option in the drop-down list of a ComboBox for .NET MAUI.
 type: how-to
-page_title: How to Add Select All Option in ComboBox Dropdown - ComboBox for .NET MAUI
+page_title: How to Add Select All Option in ComboBox Drop-Down - ComboBox for .NET MAUI
 slug: adding-select-all-option-combobox-dropdown-net-maui
 tags: combobox, dropdown, select all, .NET MAUI
 res_type: kb
@@ -15,11 +15,11 @@ res_type: kb
 
 ## Description
 
-To add a select all option in the dropdown list of a ComboBox in ComboBox for .NET MAUI, follow the steps below.
+To add a **Select All** option in the dropdown list of a Telerik UI for .NET MAUI ComboBox, follow the steps below.
 
 ## Solution
 
-**1.** Define the HeaderTemplate for the ComboBox control. The HeaderTemplate should contain a CheckBox that represents the select all option.
+**1.** Define the `HeaderTemplate` for the ComboBox control. The `HeaderTemplate` should contain a `CheckBox` that represents the **Select All** option.
 
 ```XAML
 <telerik:RadComboBox 
@@ -42,7 +42,7 @@ To add a select all option in the dropdown list of a ComboBox in ComboBox for .N
 </telerik:RadComboBox >
 ```
 
-**2.** Handle the IsCheckedChanged event of the CheckBox in the HeaderTemplate. In the event handler, execute the ComboBox's SelectAllCommand when the CheckBox is checked, and execute the ComboBox's ClearSelectionCommand when the CheckBox is unchecked.
+**2.** Handle the `IsCheckedChange` event of the `CheckBox` in the `HeaderTemplate`. In the event handler, execute the ComboBox's `SelectAllCommand` when the checkbox is checked, and execute the ComboBox's `ClearSelectionCommand` when the checkbox is unchecked.
 
 ```C#
 private void RadCheckBox_IsCheckedChanged(object sender, IsCheckedChangedEventArgs e)
@@ -77,11 +77,9 @@ private static MyComboBox GetMyComboBox(Element element)
 }
 ```
 
-That's it! You have successfully added a select all option in the dropdown list to the ComboBox for .NET MAUI.
+That's it! You have successfully added a **Select All** option in the drop-down list of the ComboBox for .NET MAUI.
 
-## Notes
-
-- Customize the appearance of the select all option to match your application's design.
+>tip Next, customize the appearance of the **Select All** option to match your application's design.
 
 ## See Also
 

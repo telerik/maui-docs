@@ -1,8 +1,8 @@
 ---
-title: Setting the Culture Info on App Level
-description: How to set the culture info on app level different than the device culture.
+title: Setting the Culture Info on the App Level
+description: How to override the device culture settings and apply your preferred localization settings within your Telerik UI for .NET MAUI app.
 type: how-to
-page_title: Setting the Culture Info on App Level
+page_title: Setting the Culture Info on the App Level - .NET MAUI Globalization and Localization
 slug: set-cultureinfo-on-app-level-maui
 position: 
 tags: maui, culture info, application culture, device culture, dotnet, maui
@@ -16,15 +16,15 @@ res_type: kb
 
 ## Description
 
-This article shows you how to apply current culture (localization) on application level (app localization). For example if the device culture is set to Spanish, or German, or French, and you want to have different app culture (localization) than the device culture, you can explicitly set culture info on app level.
+You can override the device culture settings by explicitly setting the culture info on the app level. For example, even though the device regional and language preferences might be set to Spanish, you can choose to always apply German localization to your app instead.
 
 ## Solution
 
-The solution applies for each platform inside the Application/Platforms folder:
+The solution applies for each platform inside the `Application/Platforms` folder:
 
 ### Android
 
-On Android&mdash;Inside the MainActivity class, implement `SetLocale()` method to change the culture info:
+On Android&mdash;Inside the `MainActivity` class, implement a `SetLocale()` method to change the culture info:
 
 ```C#
 public class MainActivity : MauiAppCompatActivity
