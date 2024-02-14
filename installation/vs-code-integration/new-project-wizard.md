@@ -32,20 +32,24 @@ Next in the menu, look for and select **Telerik UI for .NET MAUI Template Wizard
 
 ## Set up the Telerik NuGet Server
 
-You can use one of the following options to configure the needed credentials for your telerik license (trial or commersial):
+You can use one of the following options to configure the required credentials for your Telerik license (trial or commercial):
 
 ### Using the .NET CLI
 
-When adding NuGet sources from the .NET CLI, the credentials are stored inside the `Nuget.Config` file. To add the Telerik NuGet package source with the .NET CLI, use the `dotnet nuget add source` command. This command creates or updates the `NuGet.Config` file for you, so you don't have to edit it manually. For more details on this case, review the [Restoring NuGet Packages in your CL Workflow]({%slug nuget-keys%}) article.
+Run `dotnet nuget add source`.
 
-### Editing the NuGet.Config file
+When you are adding NuGet sources from the .NET CLI, the credentials are stored inside the `Nuget.Config` file. This command creates or updates the `NuGet.Config` file with your Telerik license credentials for you, so you don't have to edit it manually.
 
-Nuget package sources and other settings are stored in a `NuGet.Config` file. You can read more about the file structure in the Microsoft article: [Nuget.Config References](https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file). To edit the file and add the Telerik feed, you need to: 
+See also: [Restoring NuGet Packages in Your CI Workflow]({%slug nuget-keys%}).
 
-1. Ensure you editing the correct and desired `.config` file. You can also create a new one with the `dotnet new nugetconfig` command. 
+### Editing the NuGet.Config File
+
+NuGet package sources and other settings are stored in a `NuGet.Config` file. You can read more about the file structure in the Microsoft article: [NuGet.Config References](https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file). To edit the file and add the Telerik feed, you need to: 
+
+1. Ensure you are editing the correct and desired `.config` file. You can also create a new one with the `dotnet new nugetconfig` command. 
 1. Add the Telerik package source to the `.config` file. 
 
-Example of sample `NuGet.Config` file:
+Here is a sample `NuGet.Config` file:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -58,12 +62,14 @@ Example of sample `NuGet.Config` file:
     </packageSources>
     <packageSourceCredentials>
     <TelerikOnlineFeed>
-        <add key="Username" value="<TELERIK EMAIL or api-key>" />
-        <add key="ClearTextPassword" value="<TELERIK PASSWORD or NUGET API KEY>" />
+        <add key="Username" value="telerik-email or api-key>" />
+        <add key="ClearTextPassword" value="PASTE_YOUR_TELERIK_PASSWORD_OR_TELERIK_NUGET_KEY_HERE" />
     </TelerikOnlineFeed>
     </packageSourceCredentials>
 </configuration>
 ```
+
+See also: [How to Generate NuGet Key]({%slug nuget-keys%}#generating-nuget-keys).
 
 > Use plain text credentials, because the .NET Core NuGet tooling does not fully support encrypted credentials. 
 

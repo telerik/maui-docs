@@ -55,7 +55,13 @@ You can access the Controls Samples application in the following ways:
 
 1. Run on iOS using the following command:
 
- `dotnet build -t:Run -f net8.0-ios` - this command starts a default simulator. If you want to run the application on specific device then you need to specify the device id by running the following command: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device id is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
+ `dotnet build -t:Run -f net8.0-ios`&mdash;This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`. 
+ 
+ To find the ID: 
+  1. Open Xcode, 
+  2. Click Devices from the Window menu. 
+  3. Select Connected device. 
+  4. Under Device Information, you will get an identifier, or UDID, of the device. 
 
 	* ControlsSamples application on iOS.
 
