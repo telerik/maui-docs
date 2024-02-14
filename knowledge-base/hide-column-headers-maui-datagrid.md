@@ -1,6 +1,6 @@
 ---
 title: How to Hide Column Headers in a DataGrid for MAUI
-description: Learn how to hide the column headers in a DataGrid for .NET MAUI.
+description: Learn how to hide the column headers in a Telerik UI for .NET MAUI DataGrid.
 type: how-to
 page_title: Hide Column Headers in DataGrid for MAUI
 slug: hide-column-headers-maui-datagrid
@@ -20,16 +20,18 @@ I want to hide the column headers in a DataGrid for MAUI. Is there a way to achi
 
 ## Solution
 
-To hide the column headers in a DataGrid for MAUI, you can use the `ColumnHeaderStyle` property and customize the style of the column headers. Follow these steps:
+To hide the column headers in a DataGrid for .NET MAUI, you can use the `ColumnHeaderStyle` property and customize the style of the column headers by setting the `FontSize` to `0` and the `Color` to `Transparent`. 
 
-1. If you use C#, create a new instance of the `DataGridColumnHeaderStyle` class and set the following properties:
+Here is an example:
+
+1. If you are using C#, create a new instance of the `DataGridColumnHeaderStyle` class and set the following properties:
    - `TextFontSize` to 0
    - `FilterIndicatorFontSize` to 0
    - `BackgroundColor` to `Colors.Transparent`
    - `BorderColor` to `Colors.Transparent`
    - `BorderThickness` to a new `Thickness` with a value of 0.
 
-   Here's an example:
+   The `HeaderStyle` customization in C#:
 
    ```csharp
    var dataGrid = new RadDataGrid();
@@ -55,14 +57,14 @@ To hide the column headers in a DataGrid for MAUI, you can use the `ColumnHeader
    dataGrid.Columns.Add(column1);
    ```
 
-2. If you use XAML code, add the `HeaderStyle` property to the `DataGridTextColumn` and set its value to a new instance of `DataGridColumnHeaderStyle` with the following properties:
+2. If you are using XAML code, add the `HeaderStyle` property to the `DataGridTextColumn` and set its value to a new instance of `DataGridColumnHeaderStyle` with the following properties:
    - `BackgroundColor` to `"Transparent"`
    - `BorderColor` to `"Transparent"`
    - `FilterIndicatorFontSize` to `0`
    - `TextFontSize` to `0`
    - `BorderThickness` to a new `Thickness` with a value of 0.
 
-   Here's an example:
+   The `HeaderStyle` customization in XAML:
 
    ```xaml
    <telerik:RadDataGrid>
@@ -78,5 +80,3 @@ To hide the column headers in a DataGrid for MAUI, you can use the `ColumnHeader
        </telerik:RadDataGrid.Columns>
    </telerik:RadDataGrid>
    ```
-
-By customizing the column header style and setting the font size to 0 and the color to transparent, you can effectively hide the column headers in the DataGrid for .NET MAUI.
