@@ -1,9 +1,9 @@
 ---
-title: Specifying the Binding for a CellContentTemplate DataTemplate in Telerik .NET MAUI DataGrid
-description: This article explains how to specify the binding for a CellContentTemplate DataTemplate in XAML when using the .NET MAI DataGrid DataTable.
+title: Specifying the Binding for a CellContentTemplate in Telerik .NET MAUI DataGrid with DataTable
+description: This article explains how to specify the binding for a CellContentTemplate when using the .NET MAI DataGrid DataTable.
 type: how-to
 page_title: Specifying the Binding for a CellContentTemplate DataTemplate
-slug: specifying-binding-cellcontenttemplate-datatable-xaml
+slug: specifying-binding-cellcontenttemplate-datatable
 tags: DataGrid, DataTable, binding, template, dotnet, maui
 res_type: kb
 ---
@@ -11,21 +11,21 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 6.7.0 | Telerik UI for .NET MAUI ComboBox | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 6.7.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 # Description
 
-When using a CellContentTemplate DataTemplate with the `RadDataGrid` DataTable, you need to specify the binding for the template. This article provides an example of how to do this.
+When using a `CellContentTemplate` with the `RadDataGrid` that uses a `DataTable` as a source, you need to specify the binding for the template. This article provides an example of how to do this.
 
 # Solution
 
-To specify the binding for a CellContentTemplate DataTemplate in XAML, follow these steps:
+To specify the binding for a `CellContentTemplate` follow these steps:
 
 1. Define the RadDataGrid and set its `ItemsSource` property to the data source.
 2. Create the necessary columns and specify the `PropertyName` for each column.
-3. Inside the `CellContentTemplate` of the desired column, define the desired control and bind it to the appropriate property using the indexer syntax.
+3. Inside the `CellContentTemplate` of the desired column, define the desired control and bind it to the appropriate property using the indexer syntax&mdash;`[PropertyName]`.
 
-Here is an example of a RadDataGrid with two columns and binding in the template in XAML and C#:
+Here is an example of a `RadDataGrid` with two columns and binding in the template in XAML and C#:
 
 ```xaml
 <telerik:RadDataGrid ItemsSource="{Binding Data}" AutoGenerateColumns="False">
@@ -87,7 +87,7 @@ public partial class MainPage : ContentPage
 
 Make sure to add the `PropertyName` to each column to specify the binding. In this example, the `City` column is a `DataGridTextColumn`, and the `IsVisited` column is a `DataGridBooleanColumn`.
 
-Create a ViewModel class to provide the data source for the RadDataGrid. Here is an example of the ViewModel:
+Create a `ViewModel` class to provide the data source for the `RadDataGrid`. Here is an example of the `ViewModel`:
 
 ```csharp
 public class DataTableViewModel : NotifyPropertyChangedBase
@@ -134,4 +134,4 @@ public class DataTableViewModel : NotifyPropertyChangedBase
 
 # See Also
 
-- [RadDataGrid DataTable Support](https://docs.telerik.com/devtools/maui/controls/datagrid/datatable-support)
+- [DataGrid DataTable Support](https://docs.telerik.com/devtools/maui/controls/datagrid/datatable-support)

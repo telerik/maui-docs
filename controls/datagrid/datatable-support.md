@@ -64,6 +64,10 @@ All commands supported by the DataGrid are fully applicable when the component i
 
 > For a sample implementation of the DataGrid commands in a DataTable, see the `DataGrid/DataTable` folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 
+## Binding when Using a CellContentTemplate
+
+If you have a scenario with a custom template inside the built-in columns&mdash;`CellContentTemplate` and want to bind the property from the business model to an UI elemetn inside the template, you have to use indexer syntax. Review the [Specifying the Binding for a CellContentTemplate in Telerik .NET MAUI DataGrid with DataTable]({%slug specifying-binding-cellcontenttemplate-datatable%}) artivcle for more details how to achieve this sceanrio.
+
 ## Additional Resources
 
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
