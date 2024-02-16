@@ -1,6 +1,6 @@
 ---
 title: Specifying the Binding for a CellContentTemplate in Telerik .NET MAUI DataGrid with DataTable
-description: This article explains how to specify the binding for a CellContentTemplate when using the .NET MAI DataGrid DataTable.
+description: This article explains how to specify the binding for a CellContentTemplate when using the .NET MAUI DataGrid DataTable.
 type: how-to
 page_title: Specifying the Binding for a CellContentTemplate DataTemplate
 slug: specifying-binding-cellcontenttemplate-datatable
