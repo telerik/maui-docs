@@ -1,6 +1,6 @@
 ---
-title: Specifying the Binding for a CellContentTemplate in Telerik .NET MAUI DataGrid with DataTable
-description: This article explains how to specify the binding for a CellContentTemplate when using the .NET MAUI DataGrid DataTable.
+title: Specifying the CellContentTemplate Binding in a MAUI DataGrid with a DataTable
+description: Learn how to specify the binding for a CellContentTemplate when using the .NET MAUI DataGrid DataTable.
 type: how-to
 page_title: Specifying the Binding for a CellContentTemplate DataTemplate
 slug: specifying-binding-cellcontenttemplate-datatable
@@ -15,13 +15,13 @@ res_type: kb
 
 # Description
 
-When using a `CellContentTemplate` with the `RadDataGrid` that uses a `DataTable` as a source, you need to specify the binding for the template. This article provides an example of how to do this.
+When using a `CellContentTemplate` with a `RadDataGrid` that uses a `DataTable` as a source, you need to specify the binding for the template. This article provides an example of how to do this.
 
 # Solution
 
 To specify the binding for a `CellContentTemplate` follow these steps:
 
-1. Define the RadDataGrid and set its `ItemsSource` property to the data source.
+1. Define the `RadDataGrid` and set its `ItemsSource` property to the data source.
 2. Create the necessary columns and specify the `PropertyName` for each column.
 3. Inside the `CellContentTemplate` of the desired column, define the desired control and bind it to the appropriate property using the indexer syntax&mdash;`[PropertyName]`.
 
@@ -129,7 +129,7 @@ public class DataTableViewModel : NotifyPropertyChangedBase
 
 # Notes
 
-- The indexer syntax `[PropertyName]` is used to bind to a specific property in the DataRowView.
+- The indexer syntax `[PropertyName]` is used to bind to a specific property in the `DataRowView`.
 - Make sure to set the `PropertyName` for each column to specify the binding.
 
 # See Also
