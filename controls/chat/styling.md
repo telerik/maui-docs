@@ -25,6 +25,11 @@ To customize the different parts of the control, you can use the following built
 
 - `OutgoingLabelStyle` (target type `Label`)&mdash;Defines the style of the label of the outgoing message.
 
+In addition, the following properties set the background of the Chat:
+
+* `BackgroundColor`(`Color`)&mdash;Defines the background color of the Chat control.
+* `InputAreaBackgroundColor`(`Color`)&mdash;Defines the bacgkround color of the area that the input elements (entry and button) reside.
+
 ## Customize the Chat Entry
 
 You can customize the `ChatEntry` with an implicit style. The example below shows how to customize the chat entry in your Chat control. The `ChatEntry` represents the entry used for writing messages in the Telerik UI for .NET MAUI Chat control.
