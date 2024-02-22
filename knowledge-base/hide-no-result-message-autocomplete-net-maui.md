@@ -26,7 +26,7 @@ To hide the No result message window in the AutoComplete control for .NET MAUI w
 ```xml
 <telerik:RadAutoComplete x:Name="autoComplete" NoResultsMessage=" " ... />
 ```
-The message won't be displayed but the suggestion view will be visible. If you want to hide the SuggestionView
+The message won't be displayed but the Suggestion View will be visible. If you want to hide the Suggestion View:
 
 **2.** Set the `SuggestionViewBackgroundColor` property to a transparent color.
 
