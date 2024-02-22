@@ -15,7 +15,7 @@ res_type: kb
 
 ## Description
 
-I want to hide the No result message window in the AutoComplete control for .NET MAUI when the entered email has not been saved in the system.
+I want to hide the **No result** message window in the AutoComplete control for .NET MAUI when the entered email has not been saved in the system.
 
 ## Solution
 
