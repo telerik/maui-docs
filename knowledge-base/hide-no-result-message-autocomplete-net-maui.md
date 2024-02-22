@@ -19,7 +19,7 @@ I want to hide the **No result** message window in the AutoComplete control for 
 
 ## Solution
 
-To hide the No result message window in the AutoComplete control for .NET MAUI when the entered email has not been saved in the system, follow these steps:
+To hide the **No results** message when there is nothing to show:
 
 **1.** Set the `NoResultsMessage` property to an empty string.
 
