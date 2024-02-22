@@ -24,8 +24,8 @@ Through the popup or the drop-down, users can pick an item. This must be confirm
 
 The TemplatedPicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use `AcceptCommandParameter` to pass a parameter to the command execute method. 
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use `CancelCommandParameter` to pass a parameter to the command execute method.
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the TemplatedPicker. For the drop-down mode, use the `DropDownSettings` property.
 
