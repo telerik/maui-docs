@@ -8,9 +8,9 @@ slug: checkbox-size
 
 # .NET MAUI CheckBox Size
 
-The CheckBox provides options for setting its height and width.
+The Telerik .NET MAUI CheckBox provides options to define its width and height.
 
-To define the dimensions of the control, use the `Length`(`double`) property, which maintains a 1:1 aspect ratio. The default value is `18`.
+To define the dimensions of the control, use the `Length` (`double`) property, which maintains a `1:1` aspect ratio. The default value is `18`.
 
 The following example demonstrates how to set the `Length` value.
 
@@ -18,9 +18,9 @@ The following example demonstrates how to set the `Length` value.
 <telerik:RadCheckBox x:Name="checkboxLength" Length="40" StrokeWidth="5"/>
 ```
 
-The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
+The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `Length` property.
 
-![CheckBox Stroke Size](images/checkbox-features.png)
+![.NET MAUI CheckBox Stroke Size](images/checkbox-features.png)
 
 ## See Also
 

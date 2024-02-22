@@ -56,6 +56,12 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ![CheckBox States Configuration](images/checkbox-features.png)
 
+## Toggle Check State from Attached Property
+
+Toggle the check state of the Checkbox control by using the `ToggleOnTap` attached property. You can allow users of the application to toggle the states by tapping on any UI element this property is attached to. 
+
+Here is a sample definition of the `RadCheckbox` control and the `ToggleOnTap` attached to a `Label`:
+
 ## Events
 
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
