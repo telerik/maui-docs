@@ -22,13 +22,13 @@ I want to enable users to navigate to the different SlideView items by using the
 
 To enable navigation through the indicator in SlideView for .NET MAUI, follow these steps:
 
-1. In your XAML file, add the following namespace declarations:
+**1.** In your XAML file, add the following namespace declarations:
 
 ```xml
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-2. Inside the `ContentPage` element, create a `ResourceDictionary` and define a style for the `SlideViewIndicator`:
+**2.** Inside the `ContentPage` element, create a `ResourceDictionary` and define a style for the `SlideViewIndicator`:
 
 ```xml
 <ContentPage.Resources>
@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 </ContentPage.Resources>
 ```
 
-3. Add the `IndicatorStyle` to your `RadSlideView` control and set the `NavigateOnItemTap` property to `True`:
+**3.** Add the `IndicatorStyle` to your `RadSlideView` control and set the `NavigateOnItemTap` property to `True`:
 
 ```xml
 <telerik:RadSlideView x:Name="slideview" AutomationId="slideView" IndicatorStyle="{StaticResource IndicatorStyle}">

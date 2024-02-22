@@ -1,7 +1,7 @@
 ---
 title: DataTable Support
 page_title: .NET MAUI DataGrid Documentation - DataTable Support
-description: "Learn how to bind the Telerik UI for .NET MAUI DataGrid to a DataTable and how to provide support for all available features such as filtering, sorting, grouping, CRUD operations, and commands."
+description: Learn how to bind the Telerik UI for .NET MAUI DataGrid to a DataTable and enable all available features such as filtering, sorting, grouping, CRUD operations, and commands.
 position: 14
 slug: datagrid-datatable-support
 ---
@@ -63,6 +63,10 @@ All CRUD operations, such as adding, removing, and updating the data inside the 
 All commands supported by the DataGrid are fully applicable when the component is bound to a DataTable. For the full list, see the article with the [available commands in the DataGrid]({%slug datagrid-commands-overview%}).
 
 > For a sample implementation of the DataGrid commands in a DataTable, see the `DataGrid/DataTable` folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+
+## Binding When Using a Cell Content Template
+
+When you use a `CellContentTemplate` in the built-in columns and you need to bind a property from the business model to a UI element inside the template, you must use indexer syntax. Review the [Specifying the Binding for a `CellContentTemplate` in Telerik .NET MAUI DataGrid with DataTable]({%slug specifying-binding-cellcontenttemplate-datatable%}) article for more details on how to achieve this.
 
 ## Additional Resources
 

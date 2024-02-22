@@ -19,21 +19,21 @@ The `DisplayStringFormat` property defines the format of the string that will be
 
 The following example demonstrates how to set the `DisplayStringFormat` definition.
 
-1. Define the control and the `DisplayStringFormat`.
+**1.** Define the control and the `DisplayStringFormat`.
 
- ```XAML
+```XAML
 <telerik:RadDatePicker DefaultHighlightedDate="2020,05,15"
                        DisplayStringFormat="yyyy/MMM/dd"
                        Placeholder="Pick a date!"
                        SpinnerFormat="dd/MMM/yyyy"
                        AreSpinnerHeadersVisible="False"/>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## Spinner Format
 

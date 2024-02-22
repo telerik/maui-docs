@@ -15,19 +15,19 @@ The ItemsControl enables you to define the collection of the rendered items and 
 
 To set the items of the ItemsControl and populate them with data, use its `ItemsSource` property:
 
-1. Use the following data item:
+**1.** Use the following data item:
 
- ```C#
+```C#
 public class Experience
 {
 	public string Title { get; set; }
 	public string Company { get; set; }
 }
- ```
+```
 
-1. Create a `ViewModel` class and define a collection of `Experience` objects:
+**2.** Create a `ViewModel` class and define a collection of `Experience` objects:
 
- ```C#
+```C#
 public class ViewModel
 {
     public ViewModel()
@@ -42,11 +42,11 @@ public class ViewModel
 
     public ObservableCollection<Experience> Experiences { get; set; }
 }
- ```
+```
 
-1. Add the ItemsControl definition with the `ItemsSource` and a sample `ItemTemplate` applied:
+**3.** Add the ItemsControl definition with the `ItemsSource` and a sample `ItemTemplate` applied:
 
- ```XAML
+```XAML
 <telerik:RadItemsControl x:Name="itemsControl"
 							      ItemsSource="{Binding Experiences, Mode=TwoWay}">
 	<telerik:RadItemsControl.BindingContext>
@@ -66,7 +66,7 @@ public class ViewModel
 		</DataTemplate>
 	</telerik:RadItemsControl.ItemTemplate>
 </telerik:RadItemsControl>
- ```
+```
 
 The following image shows the end result.
 

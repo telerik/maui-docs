@@ -21,9 +21,9 @@ Through the `Date` property of the `DateTime?` type you can define the current d
 
 Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## Setting the Highlighted Date
 

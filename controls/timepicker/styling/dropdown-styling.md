@@ -1,7 +1,7 @@
 ---
-title: DropDown Styling
+title: Drop-Down Styling
 page_title: .NET MAUI TimePicker Documentation - DropDown Styling
-description: Learn how to style the drop-down in the Telerik UI for .NET MAUI TimePicker control.
+description: Learn how to style the elements in the drop-down part of the Telerik UI for .NET MAUI TimePicker control.
 position: 2
 slug: timepicker-dropdown-styling
 ---

@@ -29,13 +29,13 @@ In addition, the measurements of the SwissQR Code for printing must always be 46
 
 <snippet id='swissqrbarcode-example-xaml' />
 
-**1.** Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-1. The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to ease them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
+**3.** The SwissQR Code standard mandates that the input provided for the generation of the barcode is strictly formatted. Both validating and generating this input are complex processes and to ease them you can use the `SwissQRCodeValueStringBuilder` helper class. Its purpose is to hold the information needed for a SwissQR Code in a type-safe manner, to validate this information, and to generate the input.
 
   Through its constructor, you need to set the following properties:
 
@@ -48,7 +48,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
   * `Amount`&mdash;The amount of the payment.
   * `AlternativeProcedure`&mdash;The alternative procedures for the payment.
 
- ```C#
+```C#
 SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
       new Iban("CH4431999123000889012", IbanType.QRIBAN),
       SwissQRCodeCurrency.EUR,
@@ -59,15 +59,15 @@ SwissQRCodeValueStringBuilder qrCodeValue = new SwissQRCodeValueStringBuilder(
       new Contact("Simon Muster", new StructuredAddress("CH", "8000", "Seldwyla", "Musterstrasse", "1")),
       (decimal)1949.75,
       new AlternativeProcedure("Name AV1: UV;UltraPay005;12345", "Name AV2: XY;XYService;54321"));
- ```
+```
 
-**3.** Add the namespace.
+**4.** Add the namespace.
 
 ```C#
 using Telerik.Barcode
 ```
 
-**4.** Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
+**5.** Once you've set up the `SwissQRCodeValueStringBuilder`, call its `Validate` method which validates all its fields and the relations between them. The method returns a string which contains the accumulated errors. If no errors occur, `null` is returned. In this case, call the `BuildValue` method of the string builder which will build the string value that will be provided to the Barcode.
 
 ```C#
 string errors = qrCodeValue.Validate();

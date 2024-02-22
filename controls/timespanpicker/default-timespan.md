@@ -35,7 +35,7 @@ The TimeSpanPicker enables you to set its default highlighted time interval by u
 
 The following example shows how to set the default highlighted time interval.
 
-Define the TimeSpanPicker.
+Define the TimeSpanPicker:
 
 ```XAML
 <telerik:RadTimeSpanPicker DefaultHighlightedTime="5:10:30:00"
@@ -43,7 +43,7 @@ Define the TimeSpanPicker.
                                             AreSpinnerHeadersVisible="False"/>
 ```
 
-Add the namespace.
+Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

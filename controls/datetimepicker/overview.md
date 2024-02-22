@@ -8,7 +8,7 @@ slug: datetimepicker-overview
 
 # .NET MAUI DateTimePicker Overview
 
-The Telerik UI for .NET MAUI DateTimePicker provides a way to pick a date, time or date and time depending on the used format string Its items are visualized inside a popup or a dropdown. The DateTimePicker control has a number of features which enable you to set a date range, date and time format and customize the dialog appearance by setting, for example, its header and footer.  
+The Telerik UI for .NET MAUI DateTimePicker provides a way to pick a date, time or date and time depending on the used format string Its items are visualized inside a popup or a drop-down. The DateTimePicker control has a number of features which enable you to set a date range, date and time format and customize the dialog appearance by setting, for example, its header and footer.  
 
 ![.NET MAUI DateTime Picker Overview](images/datetime_picker_overview.png)
 

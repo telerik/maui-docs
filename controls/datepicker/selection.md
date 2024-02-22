@@ -15,14 +15,14 @@ The Telerik UI for .NET MAUI DatePicker control enables the application users to
 
 To define the current date selection, use the `Date`(`DateTime?`) property. By default, `Date` is `null`.
 
-1. Define the DatePicker and set the `Date` property.
+**1.** Define the DatePicker and set the `Date` property.
 
  ```XAML
 <telerik:RadDatePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>
  ```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -41,54 +41,54 @@ You can enable the removal of the selected value by rendering a **Clear** button
 
 The DatePicker for .NET MAUI allows you to clear the selected date through its `ClearSelection` method.
 
-1. Define the DatePicker and set the method:
+**1.** Define the DatePicker and set the method:
 
- ```XAML
+```XAML
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerik:RadDatePicker x:Name="datePicker"/>
 </StackLayout>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
+**3.** Call `ClearSelection` inside the button `click` event. As a result, the `Date` property will be updated to `null`.
 
- ```C#
+```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.datePicker.ClearSelection();
 }
- ```
+```
 
 ## Modifying the Selection
 
 The DatePicker exposes a `SelectionChanged` event, which is raised when the user picks a date value.
 
-1. Set the `SelectionChanged` event.
+**1.** Set the `SelectionChanged` event.
 
- ```XAML
+```XAML
 <telerik:RadDatePicker SelectionChanged="RadDatePicker_SelectionChanged"/>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Add the `SelectionChanged` event, where the `sender` is the `RadDatePicker` instance.
+**3.** Add the `SelectionChanged` event, where the `sender` is the `RadDatePicker` instance.
 
- ```C#
+```C#
 private void RadDatePicker_SelectionChanged(object sender, EventArgs e)
 {
 	// Implement your logic here.
 }
- ```
+```
 
 ## See Also
 

@@ -44,30 +44,29 @@ To cancel the selected time, use the `ClearSelection` method.
 
 The following example shows how to set the `ClearSelection` method.
 
-1. Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker.
 
- ```XAML
+```XAML
 <StackLayout>
     <Button Text="Clear Selection" Clicked="OnClearSelectionClicked"/>
     <telerik:RadTimeSpanPicker x:Name="timeSpanPicker"/>
 </StackLayout>
- ```
+```
 
-1. Add the namespace.
+**2.** Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Call `ClearSelection` inside the button `click` event. As a result, the `Time` property will be updated to `null`.
+**3.** Call `ClearSelection` inside the button `click` event. As a result, the `Time` property will be updated to `null`.
 
- ```C#
+```C#
 private void OnClearSelectionClicked(object sender, EventArgs e)
 {
     this.timeSpanPicker.ClearSelection();
 }
- ```
-
+```
 
 ## Events
 
@@ -75,26 +74,26 @@ The TimeSpanPicker exposes the `SelectionChanged` event, which is raised when th
 
 The following example shows how to set the `SelectionChanged` event.
 
-1. Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker:
 
- ```XAML
+```XAML
 <telerik:RadTimeSpanPicker SelectionChanged="RadTimeSpanPicker_SelectionChanged"/>
- ```
+```
 
-1. Add the namespace.
+**2.** Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Define the `SelectionChanged` event where the `sender` is the `RadTimeSpanPicker` control.
+**3.** Define the `SelectionChanged` event where the `sender` is the `RadTimeSpanPicker` control:
 
- ```C#
+```C#
 private void RadTimeSpanPicker_SelectionChanged(object sender, EventArgs e)
 {
 	// implement your logic here
 }
- ```
+```
 
 ## See Also
 

@@ -20,7 +20,7 @@ The TimeSpanPicker for .NET MAUI exposes the following commands, which enable yo
 
 The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 
-**1.** Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker:
 
 ```XAML
 <StackLayout>
@@ -30,7 +30,7 @@ The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 </StackLayout>
 ```
 
-**2.** Add the namespace.
+**2.** Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -49,7 +49,7 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 
 The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 
-**1.** Define the TimeSpanPicker.
+**1.** Define the TimeSpanPicker:
 
 ```XAML
 <StackLayout>
@@ -65,7 +65,7 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
 </StackLayout>
 ```
 
-**2.** Set the `ViewModel`.
+**2.** Set the `ViewModel`:
 
 ```C#
 public class ViewModel
@@ -91,7 +91,7 @@ public class ViewModel
 }
 ```
 
-**3**. Add the following namespace.
+**3**. Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

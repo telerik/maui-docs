@@ -1,8 +1,8 @@
 ---
 title: Popup Styling
 page_title: .NET MAUI TemplatedPicker Documentation - Popup Styling
-description: Check our &quot;Popup Styling&quot; documentation article for Telerik TemplatedPicker for .NET MAUI.
-position: 1
+description: Learn how to style the elements in the popup part of the Telerik UI for .NET MAUI TemplatedPicker.
+position: 2
 slug: templatedpicker-popup-styling
 ---
 

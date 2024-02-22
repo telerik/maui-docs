@@ -20,15 +20,15 @@ The available templates for customization are:
 
 The example below shows a sample TimePicker definition with the listed above template properties applied:
 
-1. Define the TimePicker.
+**1.** Define the TimePicker:
 
- <snippet id='timepicker-custom-templates' />
+<snippet id='timepicker-custom-templates' />
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 For the example, the template definitions are added to the page resources as follows.
 

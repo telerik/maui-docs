@@ -49,15 +49,15 @@ and the result:
 
 ![ComboBox Clear Button Visibility](images/combobox-clearbuttonvisibility.png)
 
-## DropDown Behavior
+## Drop-Down Behavior
 
-To manage the dropdown of the ComboBox, use the following properties:
+To manage the drop-down of the ComboBox, use the following properties:
 
-* `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
-* `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
-* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop down part of the control. This property allows an option to modify the control with no space between the ComboBox and the dropdown.
-* `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
-* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
+* `DropDownWidth`(`double`)&mdash;Defines the width of the drop-down of the control.
+* `DropDownHeight`(`double`)&mdash;Defines the height of the drop-down of the control.
+* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
+* `IsDropDownOpen`(`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 Here is an example that uses the `DropDownWidth` property:
 
@@ -80,6 +80,8 @@ Here is an example with `IsDropdownClosedOnSelection` property set:
 Here is an example with `OpenOnFocus` property set:
 
 <snippet id='combobox-configuration-dropdownvisibility-openonfocus'/>
+
+>tip Review the [Adding Select All Option in ComboBox Drop-Down]({%slug adding-select-all-option-combobox-dropdown-net-maui%}) article for more details how to select all items from the drop-down list.
 
 ## Keyboard
 

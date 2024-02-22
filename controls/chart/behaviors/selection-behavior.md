@@ -46,14 +46,13 @@ The Selection behavior supports the `Commands` selection.
 
 The following example shows how the Selection behavior of the Chart works with a `Command`:
 
-1. Create the business objects:
+**1.** Create the business objects:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel : NotifyPropertyChangedBase
 {
     private int counter = 0;
@@ -126,11 +125,11 @@ public class ViewModel : NotifyPropertyChangedBase
         this.Counter++;
     }
 }
- ```
+```
 
-1. Declare a `RadCartesianChart` in XAML:
+**3.** Declare a `RadCartesianChart` in XAML:
 
- ```XAML
+```XAML
 <ContentView.BindingContext>
     <local:ViewModel/>
 </ContentView.BindingContext>
@@ -171,7 +170,7 @@ public class ViewModel : NotifyPropertyChangedBase
 
     <Label Grid.Row="2" Text="{Binding DisplayCount}"/>
 </Grid>
- ```
+```
 
 The following image shows how the selection looks:
 

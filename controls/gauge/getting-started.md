@@ -29,23 +29,23 @@ Before adding the Gauge, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a Gauge control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a Gauge control to your page.
 
- <snippet id='gauge-getting-started-xaml'/>
+<snippet id='gauge-getting-started-xaml'/>
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
- using Telerik.Maui.Controls.Compatibility;
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -59,7 +59,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
+}           
 ```
 
 ## Additional Resources

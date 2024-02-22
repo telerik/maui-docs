@@ -21,9 +21,9 @@ The `BindingContext` of the `GroupHeader` is a complex object and it includes th
 
 In addition, you can create a custom `GroupHeaderTemplate` to achieve the desired look when grouping the ListView.
 
-1. Define the `GroupHeaderTemplate`:
+**1.** Define the `GroupHeaderTemplate`:
 
- ```XAML
+```XAML
 <DataTemplate x:Key="ListViewGroupHeaderTemplate">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -40,11 +40,11 @@ In addition, you can create a custom `GroupHeaderTemplate` to achieve the desire
         <Label Margin="0, 12, 0, 6" Text="{Binding Key}" Grid.Column="1" TextColor="DarkGray" FontSize="Medium" HorizontalOptions="Start" />
     </Grid>
 </DataTemplate>
- ```
+```
 
-1. Set the template to the `RadListView`:
+**2.** Set the template to the `RadListView`:
 
- ```XAML
+```XAML
 <telerik:RadListView x:Name="listView" 
 					 ItemsSource="{Binding Cities}"
                      GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}">
@@ -55,7 +55,7 @@ In addition, you can create a custom `GroupHeaderTemplate` to achieve the desire
         <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
     </telerik:RadListView.GroupDescriptors>
 </telerik:RadListView>
- ```
+```
 
 ## See Also
 

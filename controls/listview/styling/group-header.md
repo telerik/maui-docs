@@ -24,17 +24,17 @@ The `ListViewGroupStyle` provides means for customizing the border as well as ba
 
 ### Example
 
-1. Create a `City` class:
+**1.** Create a `City` class:
 
- <snippet id='listview-groupstyle-source'/>
+<snippet id='listview-groupstyle-source'/>
 
-1. Add a `ViewModel` class:
+**2.** Add a `ViewModel` class:
 
  <snippet id='listview-groupstyle-viewmodel'/>
 
-1. Add the `RadListView` definition with a `GroupHeaderStyle` applied:
+**3.** Add the `RadListView` definition with a `GroupHeaderStyle` applied:
 
- <snippet id='listview-groupstyle-listview-xaml' />
+<snippet id='listview-groupstyle-listview-xaml' />
 
 The following image shows the end result:
 

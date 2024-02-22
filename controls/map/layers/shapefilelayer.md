@@ -60,9 +60,9 @@ where the `Source` and the `DataSource` of the `MapShapeReader` have to be defin
 
 `SelectionMode` can receive the following values:
 
-	* None;
-	* Single;
-	* Multiple.
+* None;
+* Single;
+* Multiple.
 
 Read the [Selection]({% slug map-selection%}) topic for more details about this feature.
 

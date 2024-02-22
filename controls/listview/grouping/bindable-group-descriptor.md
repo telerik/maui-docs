@@ -16,12 +16,12 @@ To control the GroupDescriptor collection through MVVM:
 
 Create a property of type `ObservableCollection<GroupDescriptorBase>` in your `ViewModel` which will contain the needed group descriptors:
 
-<snippet id='listview-features-bindable-groupdescriptor-viewmodel'/>
+<snippet id='listview-features-bindable-groupdescriptor-viewmodel' />
 
 Use the `OneWayToSource` binding mode to bind that property to the `GroupDescriptors` property of `RadListView`:
 
 <snippet id='listview-features-bindable-groupdescriptor-xaml' />
- 
+
 Here is how the `GroupDescriptor` collection looks like through MVVM:
 
 ![.NET MAUI ListView Group Descriptors MVVM](../images/listview-features-bindable-group.png)

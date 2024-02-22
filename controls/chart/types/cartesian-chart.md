@@ -81,27 +81,27 @@ The Financial Cartesian Chart supports the following series:
 
 ## Example
 
-1. Define the `RadCartesianChart`:
+**1.** Define the `RadCartesianChart`:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
 </telerik:RadCartesianChart>
- ```
+```
 
-1. The `RadCartesianChart` requires you to set a horizontal and a vertical axis to plot its data.
+**2.** The `RadCartesianChart` requires you to set a horizontal and a vertical axis to plot its data.
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart.HorizontalAxis>
 	<telerik:CategoricalAxis/>
 </telerik:RadCartesianChart.HorizontalAxis>
 <telerik:RadCartesianChart.VerticalAxis>
 	<telerik:NumericalAxis/>
 </telerik:RadCartesianChart.VerticalAxis>
- ```
+```
 
-1. Now, add the series to the `RadCartesianChart.Series` collection:
+**3.** Now, add the series to the `RadCartesianChart.Series` collection:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
 	<telerik:RadCartesianChart.Series>
 		<telerik:BarSeries ItemsSource="{Binding CategoricalData}">
@@ -114,9 +114,9 @@ The Financial Cartesian Chart supports the following series:
 		</telerik:BarSeries>
 	</telerik:RadCartesianChart.Series>
 </telerik:RadCartesianChart>
- ```
+```
 
-1. Set the `BindingContext` of the chart if none of its parents has a context:
+**4.** Set the `BindingContext` of the chart if none of its parents has a context:
 
  ```XAML
 <telerik:RadCartesianChart.BindingContext>
@@ -124,29 +124,29 @@ The Financial Cartesian Chart supports the following series:
 </telerik:RadCartesianChart.BindingContext>
  ```
 
- In the example, `local` is defined as follows:
+**5.** In the example, `local` is defined as follows:
 
- ```XAML
+```XAML
 xmlns:local="clr-namespace:[The namespace where the ViewModel class is defined];assembly=[The assembly name]"
- ```
+```
 
 
 ## Cartesian Chart Example
 
 The following example shows the full definition of the chart.
 
-1. First, create the needed business object, for example:
+**1.** Create the needed business object, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
 
-1. Then, create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- <snippet id='chart-series-categorical-data-view-model' />
+<snippet id='chart-series-categorical-data-view-model' />
 
-1. Declare the chart in XAML:
+**3.** Declare the chart in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart>
     <telerik:RadCartesianChart.BindingContext>
         <local:CategoricalDataViewModel />
@@ -163,7 +163,7 @@ The following example shows the full definition of the chart.
                                 ItemsSource="{Binding Data}" />
     </telerik:RadCartesianChart.Series>
 </telerik:RadCartesianChart>
- ```
+```
 
 
 The following image shows the final result:
