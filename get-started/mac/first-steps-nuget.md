@@ -51,7 +51,7 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-add-package-source.png)
 
-1. In the **Location** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. If you use local NuGet package (NuGet downloaded from your account, add the path to the local package to fill the **Lication** field). And Click **Add Source**.
+1. In the **Location** field, add the Telerik server URL: `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from [your account](https://www.telerik.com/account/), add the path to the local package instead of the URL. Finally, click **Add Source**.
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/getting-started-add-telerk-server.png)
 

@@ -60,7 +60,7 @@ No matter whether you've used the `.msi` automatic installation or the `zip` fil
 
 To manually reference the assembly references, create a `libs` folder in your solution folder. Then, copy the content from the desired .NET folder into your "libs" folder (e.g. `Binaries/NET7` copyto-> `libs`). You can now directly reference the DLLs in that `libs` folder instead of the installation folder.
 
-Note that *Visual Studio 2022 does not have support for differentiating DLL references for each target platform*, you must manually edit the csproj file and add conditions for each target platform. The `Telerik.Maui.Controls.dll`, `Telerik.Maui.Controls.Compatibility.dll` and `Telerik.Maui.Core.dll` must be referenced from the platfrom specific folders.
+> Visual Studio 2022 does not support differentiating DLL references for each target platform. You must manually edit the `.csproj` file and add conditions for each platform. The `Telerik.Maui.Controls.dll`, `Telerik.Maui.Controls.Compatibility.dll`, and `Telerik.Maui.Core.dll` must be referenced from the platform-specific folders.
 
 ```
 <ItemGroup>
