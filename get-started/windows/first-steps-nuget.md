@@ -38,7 +38,7 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
   ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
 
-1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
+1. On the next page, download the `.nupkg` or `.zip` files. The `.zip` file contains the Telerik .NET MAUI NuGet Package.
 
   ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
@@ -54,7 +54,7 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/nuget-vs-add-source.png)
 
-1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Update**.
+1. In the **Source** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. If you use local NuGet package (NuGet downloaded from your account, add the path to the local package to fill the **Source** field). And Click **Update**.
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/nuget-vs-telerik-server.png)
 
