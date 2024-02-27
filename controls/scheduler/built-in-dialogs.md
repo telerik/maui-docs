@@ -108,7 +108,7 @@ You can style the visual appearance of each dialog by creating the corresponding
 
 ## See Also
 
-- [Appointments]({% slug appointments-overview %})
-- [Recurrence Pattern](% slug scheduler-recurrence-pattern %})
-- [Recurrence Rule](% slug scheduler-recurrence-rule %})
+- [Appointments]({%slug appointments-overview %})
+- [Recurrence Pattern]({%slug scheduler-recurrence-pattern %})
+- [Recurrence Rule]({%slug scheduler-recurrence-rule %})
 - [Views]({%slug scheduler-views-overview %})
