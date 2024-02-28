@@ -116,7 +116,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **3.** Rotate Commands set on a Button
 
-<snippet id='imageeditor-commands-xaml'/>
+<snippet id='imageeditor-rotate-commands-xaml'/>
 
 **4.** Hue Command Executed on a Button click and a Slider for changing the Hue Value:
 
