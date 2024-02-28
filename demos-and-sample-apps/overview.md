@@ -22,13 +22,15 @@ The Telerik .NET MAUI library has a few fully-featured [demo applications](https
 
 The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component. The app provides various .NET MAUI examples for many of the 60+ .NET MAUI controls included in the library.
 
-![.NET MAUI examples and controls samples](images/controlssamples_all.png)
+![Telerik UI for .NET MAUI ControlsSamples App WinUI](images/controlssamples-winui.png)
 
 For more information on it, refer to [Controls Samples App]({%slug controls-samples-app%}).
 
 ## SDKBrowser App
 
 The SDKBrowser is a set of .NET MAUI examples that explain how to use the features of a control. Contrary to the Controls Samples application, the SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
+
+![.NET MAUI examples and controls samples](images/sdk-mobile.png)
 
 For more information on it, refer to [SDKBrowser App]({%slug sdkbrowser-app%}).
 
