@@ -15,24 +15,66 @@ Telerik .NET MAUI ImageEditor control preserves the same API as Xamarin.Forms Im
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin ImageEditor | `RadImageEditor` | xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor" | using Telerik.XamarinForms.ImageEditor; |
+| Xamarin ImageEditorToolbar | `RadImageEditorToolbar` | xmlns:telerikImageEditor="clr-namespace:Telerik.XamarinForms.ImageEditor;assembly=Telerik.XamarinForms.ImageEditor" | using Telerik.XamarinForms.ImageEditor; |
 | .NET MAUI ImageEditor | `RadImageEditor` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
+| .NET MAUI ImageEditorToolbar | `RadImageEditorToolbar` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
 ## Modifying the API
 
+When migrating the ImageEditor from Xamarin to .NET MAUI, consider the following differences in the API:
+
 | Xamarin ImageEditor | .NET MAUI ImageEditor |
 | ------------- | --------------- |
-| - | support for exporting images as `Gif` |
-| - | support for exporting images as `Bmp` |
-| - | `UndoCommand` |
-| - | `RedoCommand` |
-| - | `RotateBackwardCommand` |
-| - | `SaturationInteractiveCommand` |
-| - | `BrightnessInteractiveCommand` |
-| - | `BlurInteractiveCommand` |
-| - | `ContrastInteractiveCommand` |
-| - | `HueInteractiveCommand` |
-| - | `SharpenInteractiveCommand` |
+| N/A | support for exporting images as `Gif` |
+| N/A | support for exporting images as `Bmp` |
+| N/A | `UndoCommand` |
+| N/A | `RedoCommand` |
+| N/A | `RotateBackwardCommand` |
+| N/A | `SaturationInteractiveCommand` |
+| N/A | `BrightnessInteractiveCommand` |
+| N/A | `BlurInteractiveCommand` |
+| N/A | `ContrastInteractiveCommand` |
+| N/A | `HueInteractiveCommand` |
+| N/A | `SharpenInteractiveCommand` |
+
+When migrating the ImageEditorToolbar from Xamarin to .NET MAUI, consider the following differences in the API:
+
+| Xamarin ImageEditorToolbar | .NET MAUI ImageEditorToolbar |
+| ------------- | --------------- |
+| `IsMultiLine` with `true` and `false` values | `OverflowMode` with `DropDown`, `Scroll` and `Wrap`(multiline) values  |
+| N/A | `OverflowMenuButtonVisibility` |
+| `OverflowButtonTemplate` | `OverflowMenuButtonTemplate` |
+| `OverflowButtonText`, `OverflowButtonTextColor` and `OverflowButtonFontFamily` | `OverflowMenuButtonStyle` - Style the overflow button |
+| `TransformsToolbarItem` | `ImageEditorTransformationsToolbarItem` |
+| `CropToolbarItem` for mobile and desktop | `ImageEditorCropToolbarItem` |
+| N/A | `ImageEditorCropOptionsToolbarItem` |
+| `ResizeToolbarItem` | `ImageEditorResizeOptionsToolbarItem` |
+| `RotateLeftToolbarItem` | `ImageEditorRotateLeftToolbarItem` |
+| `RotateRightToolbarItem` | `ImageEditorRotateRightToolbarItem` |
+| `FlipHorizontalToolbarItem` | `ImageEditorFlipHorizontalToolbarItem` |
+| `FlipVerticalToolbarItem` | `ImageEditorFlipVerticalToolbarItem` |
+| `EffectsToolbarItem` for mobile and desktop | `ImageEditorFiltersToolbarItem` for mobile |
+| N/A | `ImageEditorFilterOptionsToolbarItem` for desktop |
+| `TransformsToolbarItem` | `ImageEditorTransformationsToolbarItem` |
+| `HueToolbarItem` | `ImageEditorHueToolbarItem` |
+| `SaturationToolbarItem` | `ImageEditorSaturationToolbarItem` |
+| `BrightnessToolbarItem` | `ImageEditorBrightnessToolbarItem` |
+| `ContrastToolbarItem` | `ImageEditorContrastToolbarItem` |
+| `BlurToolbarItem` | `ImageEditorBlurToolbarItem` |
+| `SharpenToolbarItem` | `ImageEditorSharpenToolbarItem` |
+| `UndoToolbarItem` | `ImageEditorUndoToolbarItem` |
+| `RedoToolbarItem` | `ImageEditorRedoToolbarItem` |
+| `ResetToolbarItem` | `ImageEditorResetToolbarItem` |
+| `ApplyToolbarItem` | `ImageEditorApplyToolbarItem` |
+| `CancelToolbarItem` | `ImageEditorCancelToolbarItem` |
+| `TemplateToolbarItem` | Review the [toolbar items]({%slug toolbar-items%}) `RadToolbar` control provides |
+| `CommandToolbarItem` | Review the [toolbar items]({%slug toolbar-items%}) `RadToolbar` control provides |
+| `ZoomToFitToolbarItem` | `ImageEditorZoomToFitToolbarItem` |
+| N/A | `ImageEditorZoomInToolbarItem` |
+| N/A | `ImageEditorZoomOutToolbarItem` |
+| N/A | `ImageEditorZoomToolbarItem` |
+| N/A | `ImageEditorZoomToOriginalToolbarItem` |
 
 ## See Also
 
