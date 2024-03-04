@@ -10,9 +10,13 @@ slug: button-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Button by adding the control to your project.
 
+This is the default look of the `RadButton` control:
+
+![.NET MAUI Button Default Look](images/button-default-look.png)
+
 At the end, you will achieve the following result.
 
-![Button Getting Started](images/button-getting-started.png)
+![.NET MAUI Button Getting Started](images/button-getting-started.png)
 
 ## Prerequisites
 
