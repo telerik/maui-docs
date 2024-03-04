@@ -15,7 +15,7 @@ This article lists the types of sources Telerik's .NET MAUI DataGrid can handle 
 
 .NET MAUI DataGrid `ItemsSource` property is declared of type `System.Object` for compatibility reasons but it is recommended to use collections which implement the `IEnumerable` interface.
 
-When bound to a collection which implements the `INotifyCollectionChanged` interface, `RadDataGrid` reflects any changes to this collection (due to add or remove operations, for example) in its UI. In .NET MAUI there is a built-in implementation of this interface – the `ObservableCollection<T>` class.
+When bound to a collection which implements the `INotifyCollectionChanged` interface, `RadDataGrid` reflects any changes to this collection (due to add or remove operations, for example) in its UI. In .NET MAUI there is a built-in implementation of this interface - the `ObservableCollection<T>` class.
 
 Implementations of the `System.ComponentModel.ICollection` interface are fully supported as well. Moreover, when such a source is provided, `RadDataGrid` automatically pick up any group/sort/filter descriptions defined on the collection and use those to display the data. With this said, it is recommended to pass in such a collection whenever possible. 
 
