@@ -12,7 +12,7 @@ slug: button-overview
 
 The Telerik UI for .NET MAUI Button control enhances the functionality of the standard .NET MAUI Button by providing options for customizing its look and feel. Additionally, it enables you to add borders, set its transparency, align its content, define backgrounds, and render images.
 
-![Button Overview](images/button-overview.png "Button for .NET MAUI")
+![.NET MAUI Button Overview](images/button-overview.png "Button for .NET MAUI")
 
 ## Key Features
 
