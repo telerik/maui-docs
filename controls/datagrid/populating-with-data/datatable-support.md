@@ -1,8 +1,10 @@
 ---
-title: DataTable Support
+title: Binding to DataTable
 page_title: .NET MAUI DataGrid Documentation - DataTable Support
 description: Learn how to bind the Telerik UI for .NET MAUI DataGrid to a DataTable and enable all available features such as filtering, sorting, grouping, CRUD operations, and commands.
-position: 14
+position: 3
+previous_url: /controls/datagrid/datatable-support
+tags: binding, datatable, data, dotnet maui, maui, datagrid
 slug: datagrid-datatable-support
 ---
 
