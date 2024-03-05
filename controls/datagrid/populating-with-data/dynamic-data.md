@@ -22,19 +22,50 @@ The solution to prevent the exception is to use the `MtouchInterpretor` as expla
 </PropertyGroup>
 ```
 
+> When the bound object is recognized as `IDynamicMetaObjectProvider` type, the DataGrid control uses separate logic that operates with dynamic types. 
 
 ## Binding to Dynamic Object
 
-> When the bound object is recognized as `IDynamicMetaObjectProvider` type, the DataGrid control uses separate logic that operates with dynamic types. Thus, standard `CLR` properties registered in the dynamic type need to be exposed through the `DLR API`.
-
-The following example shows how to implement `DynamicObject` with dynamic (`DLR`) and static (`CLR`) fields, and data bind it to `RadDataGrid`:
+The following example shows how to implement `DynamicObject` with dynamic (`DLR`) and static (`CLR`) fields, and data bind it to `RadDataGrid`. The standard `CLR` properties registered in the dynamic type need to be exposed through the `DLR API`.
 
 **1.** The following model shows a class that derives from `DynamicObject` and containing one `CLR` property called `Id`. When the DataGrid auto-generates its columns, the `TryGetMember` method of the `DynamicObject` class will be used to fetch the values for each column. 
 This said, you will need to implement some logic in the method in order to allow `RadDataGrid` to work with the data - both `CLR` (`Common Language Runtime`) and `DLR` (`Dynamic Language Runtime`).
 
+<snippet id='datagrid-dynamicobject-model' />
+
+**2.** Define the `ViewModel`:
+
+<snippet id='datagrid-dynamicobject-viewmodel' />
+
+**3.** Define the `RadDataGrid`:
+
+<snippet id='datagrid-dynamicobject' />
+
+**4.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
 ## Binding to Expando Object
 
+**1.** Defie the `RadDataGrid` control in XAML:
 
+<snippet id='datagrid-expandoobject' />
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datagrid-expandoobject-viewmodel' />
+
+## Filtering, Sorting, and Grouping
+
+When using a Dynamic Data you can filter, group, and sort the data inside the DataGrid through the UI or programmatically.
 
 ## Additional Resources
 
