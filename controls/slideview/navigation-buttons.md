@@ -12,7 +12,7 @@ To switch through the different views of the SlideView, you van use Navigation B
 
 The SlideView exposes a `NavigationButtonVisibility` property that allows you to control the visibility options of the Navigation Buttons:
 
-* `Visisble`&mdash;The buttons are visible.
+* `Visible`&mdash;The buttons are visible.
 
 * `HiddenWhenDisabled`&mdash;The buttons are visible when enabled and hidden when disabled.
 
