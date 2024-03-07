@@ -20,7 +20,7 @@ I want to make the SideDrawer opacity consistent across different platforms in .
 
 ## Solution
 
-To achieve consistent behavior for the SideDrawer content across different platforms, you can adjust the fade opacity when the drawer opens. This can be done using the `DrawerTransitionFadeOpacity` property. The fade opacity value ranges from 0 to 1, where 0 represents no opacity and 1 represents full opacity.
+To achieve consistent behavior for the SideDrawer content across different platforms, you can adjust the fade opacity when the drawer opens using the `DrawerTransitionFadeOpacity` property. The fade opacity value ranges from 0 to 1, where 0 represents no opacity and 1 represents full opacity. You can specify decimal values to better fit your specific scenario (0.1, 0.2, etc.).
 
 Here's an example of how to set the `DrawerTransitionFadeOpacity` property to achieve consistency:
 
