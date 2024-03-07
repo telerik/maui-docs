@@ -2,7 +2,7 @@
 title: Making SideDrawer Opacity Consistent across Platforms
 description: Learn how to make the opacity of the .NET MAUI SideDrawer consistent across different platforms when the drawer opens.
 type: how-to
-page_title: How to Make SideDrawer Opacity Consistent across Platforms in .NET MAUI
+page_title: How to Implement Consistent SideDrawer Opacity across Platforms in .NET MAUI
 slug: make-sidedrawer-opacity-consistent-across-platforms-net-maui
 tags: xamarin, .net-maui, sidedrawer, platform-consistency
 res_type: kb
