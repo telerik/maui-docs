@@ -36,7 +36,7 @@ To achieve a similar behavior in MAUI, you can use the `IsCheckedChanged` event 
 </telerik:RadCheckBox>
 ```
 
-By using the `IsCheckedChanged` event and the `EventToCommandBehavior`, you can achieve a similar behavior to the `CheckBoxUserCommand` in the Xamarin Checkbox control.
+By using the `IsCheckedChanged` event and the `EventToCommandBehavior`, you can achieve a similar behavior to the `CheckBoxUserCommand` in the Xamarin CheckBox control.
 
 ## Notes
 
