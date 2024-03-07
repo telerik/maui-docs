@@ -8,7 +8,7 @@ tags: binding, datatable, data, dotnet maui, maui, datagrid
 slug: datagrid-datatable-support
 ---
 
-# .NET MAUI DataGrid Support for DataTable
+# .NET MAUI DataGrid Data Binding: Binding to DataTable
 
 As of the Telerik UI for .NET MAUI 5.1.0 version, the DataGrid provides full and seamless support for all its features in the DataTable.
 
