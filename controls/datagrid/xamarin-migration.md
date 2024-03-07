@@ -31,6 +31,9 @@ The tables in the following sections list any differences between the APIs of th
 | N/A | Column Footer |
 | N/A | Column Reordering |
 | N/A | Keyboard Navigation |
+| N/A | DynamicObject |
+| N/A | ExpandoObject  |
+| N/A | Built-in Search Functionality  |
 
 ## See Also
 
