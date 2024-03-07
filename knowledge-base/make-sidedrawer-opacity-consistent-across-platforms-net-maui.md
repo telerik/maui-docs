@@ -40,4 +40,4 @@ Here's an example of how to set the `DrawerTransitionFadeOpacity` property. The 
 ## See Also
 
 - [SideDrawer Transitions]({%slug sidedrawer-features-transitions%})
-- [SideDrawer Configurations]({%slug sidedrawer-features-configuration%})
+- [SideDrawer Configuration]({%slug sidedrawer-features-configuration%})
