@@ -22,7 +22,7 @@ I want to make the SideDrawer opacity consistent across different platforms in .
 
 To achieve consistent behavior for the SideDrawer content across different platforms, you can adjust the fade opacity when the drawer opens using the `DrawerTransitionFadeOpacity` property. The fade opacity value ranges from 0 to 1, where 0 represents no opacity and 1 represents full opacity. You can specify decimal values to better fit your specific scenario (0.1, 0.2, etc.).
 
-Here's an example of how to set the `DrawerTransitionFadeOpacity` property to achieve consistency:
+Here's an example of how to set the `DrawerTransitionFadeOpacity` property. The `DrawerTransitionFadeOpacity` property is set to `0` for iOS and `1` for WinUI. This ensures that the darkening mask is not applied on iOS and the `MainContent` appears consistent across platforms.
 
 ```xaml
 <controls:RadSideDrawer x:Name="drawer" 
@@ -30,10 +30,6 @@ Here's an example of how to set the `DrawerTransitionFadeOpacity` property to ac
                          DrawerTransitionFadeOpacity="{OnPlatform WinUI=1, iOS=0}"
                          DrawerLength="200">
 ```
-
-In the above code snippet, the `DrawerTransitionFadeOpacity` property is set to 0 for iOS and 1 for WinUI. This ensures that the darkening mask is not applied on iOS and the `MainContent` appears consistent across platforms.
-
-You can also adjust the value based on your specific scenario. The value can range from 0 to 1, including decimal values such as 0.1, 0.2, etc.
 
 ## Notes
 
@@ -43,4 +39,5 @@ You can also adjust the value based on your specific scenario. The value can ran
 
 ## See Also
 
-- [SideDrawer Documentation](https://docs.telerik.com/devtools/xamarin/controls/sidedrawer/sidedrawer-overview)
+- [SideDrawer Transitions]({%slug sidedrawer-features-transitions%})
+- [SideDrawer Configurations]({%slug sidedrawer-features-configuration%})
