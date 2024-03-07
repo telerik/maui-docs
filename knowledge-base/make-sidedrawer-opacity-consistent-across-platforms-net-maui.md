@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want to make the SideDrawer opacity consistent across different platforms in .NET MAUI. Currently, on iOS, a darkening mask is added over the SideDrawer `MainContent` when the drawer is extended(opened), while on Windows, the `MainContent` appears to brighten. I would like to achieve consistency in this behavior.
+I want to make the SideDrawer opacity consistent across different platforms in .NET MAUI. Currently, on iOS, a darkening mask is added over the SideDrawer `MainContent` when the drawer is extended (opened). However, on Windows, the `MainContent` appears to brighten. I would like to achieve consistency in this behavior.
 
 ## Solution
 
