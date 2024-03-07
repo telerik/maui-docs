@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-When migrating your Xamarin app to MAUI, you may notice that the CheckBoxUserCommand behavior is missing in the Telerik MAUI Checkbox control. This article will guide you on how to implement a similar scenario in MAUI.
+When migrating your Xamarin app to MAUI, you may notice that the CheckBoxUserCommand behavior is missing in the Telerik MAUI CheckBox control. This article will show you how to implement a similar scenario in MAUI.
 
 ## Solution
 
