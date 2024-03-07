@@ -7,14 +7,16 @@ slug: datagrid-dynamic-data
 tags: binding, dynamic, data, expando, dynamic object, dotnet maui, maui, datagrid
 ---
 
-# .NET MAUI DataGrid Binding to Dynamic Data
+# .NET MAUI DataGrid Data Binding: Binding to Dynamic Data
 
-As of the Telerik UI for .NET MAUI 6.8.0 version, the DataGrid supports binding to any type that implements the standard `DLR` interface `IDynamicMetaObjectProvider`, such as `DynamicObject` and `ExpandoObject`
+As of Telerik UI for .NET MAUI 6.8.0, the DataGrid supports binding to any type that implements the standard `IDynamicMetaObjectProvider` DLR interface, such as `DynamicObject` and `ExpandoObject`.
 
-> There are limitations set by Apple which disallows the execution of dynamically generated code. This is explained in the [Mono interpreter on iOS and Mac Catalyst](https://learn.microsoft.com/en-us/dotnet/maui/macios/interpreter?view=net-maui-8.0&source=recommendations) article.
-> Because of that app that uses `DynamicObject` or `ExpandoObject` will crash when built in Release for `iOS` and `MacCatalyst`.
+Using Dynamic Data enables you to filter, group, and sort the data inside the DataGrid both through the UI and programmatically.
 
-The solution to prevent the exception is to use the `MtouchInterpretor` as explained in the [article](https://learn.microsoft.com/en-us/dotnet/maui/macios/interpreter?view=net-maui-8.0&source=recommendations#enable-the-interpreter).
+## Executing Dynamic Data on iOS and MacCatalyst
+
+When you develop applications for Apple devices and plan to bind the DataGrid to dynamic data, you must consider the <a href = "https://learn.microsoft.com/en-us/dotnet/maui/macios/interpreter?view=net-maui-8.0&source=recommendations" target="_blank">security restrictions set by Apple</a>. These restrictions disallow the execution of dynamically generated code on a device. As a result, apps that use `DynamicObject` or `ExpandoObject` will crash in a release build for iOS and Mac Catalyst with a `System.ExecutionEngineException`.
+To prevent the exception, use the `MtouchInterpreter` <a href = "https://learn.microsoft.com/en-us/dotnet/maui/macios/interpreter?view=net-maui-8.0&source=recommendations#enable-the-interpreter" target="_blank"> as recommended by Microsoft</a>.
 
 ```xml
 <PropertyGroup Condition="'$(Configuration)|$(RuntimeIdentifier)'=='Release|maccatalyst-arm64'">
@@ -22,14 +24,15 @@ The solution to prevent the exception is to use the `MtouchInterpretor` as expla
 </PropertyGroup>
 ```
 
-> When the bound object is recognized as `IDynamicMetaObjectProvider` type, the DataGrid control uses separate logic that operates with dynamic types. 
+For more information about these limitations and the suggested solution, see Microsoft's <a href = "https://learn.microsoft.com/en-us/dotnet/maui/macios/interpreter?view=net-maui-8.0&source=recommendations" target="_blank">Mono interpreter on iOS and Mac Catalyst</a> article.
 
-## Binding to Dynamic Object
+## Binding to DynamicObject
 
-The following example shows how to implement `DynamicObject` with dynamic (`DLR`) and static (`CLR`) fields, and data bind it to `RadDataGrid`. The standard `CLR` properties registered in the dynamic type need to be exposed through the `DLR API`.
+The following example shows how to implement a `DynamicObject` class with Dynamic Language Runtime (DLR) and Common Language Runtime (CLR) fields and bind it to the DataGrid. The standard CLR properties registered in the dynamic type must be exposed through the DLR API.
 
-**1.** The following model shows a class that derives from `DynamicObject` and containing one `CLR` property called `Id`. When the DataGrid auto-generates its columns, the `TryGetMember` method of the `DynamicObject` class will be used to fetch the values for each column. 
-This said, you will need to implement some logic in the method in order to allow `RadDataGrid` to work with the data - both `CLR` (`Common Language Runtime`) and `DLR` (`Dynamic Language Runtime`).
+The model shows a class that derives from `DynamicObject` and contains a CLR property called `Id`. When the DataGrid auto-generates its columns, the `TryGetMember` method of the `DynamicObject` class will be used to fetch the values for each column. You must also implement a specific logic in the method to allow `RadDataGrid` to work with both CLR and DLR data.
+
+**1.** Add the model for the DataGrid:
 
 <snippet id='datagrid-dynamicobject-model' />
 
@@ -47,9 +50,9 @@ This said, you will need to implement some logic in the method in order to allow
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-## Binding to Expando Object
+## Binding to ExpandoObject
 
-**1.** Defie the `RadDataGrid` control in XAML:
+**1.** Define the `RadDataGrid` control in XAML:
 
 <snippet id='datagrid-expandoobject' />
 
@@ -62,10 +65,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Define the `ViewModel`:
 
 <snippet id='datagrid-expandoobject-viewmodel' />
-
-## Filtering, Sorting, and Grouping
-
-When using a Dynamic Data you can filter, group, and sort the data inside the DataGrid through the UI or programmatically.
 
 ## Additional Resources
 
