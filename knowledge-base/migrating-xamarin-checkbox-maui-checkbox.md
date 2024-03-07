@@ -2,7 +2,7 @@
 title: CheckBoxUserCommand in MAUI CheckBox When Migrating from Xamarin Checkbox
 description: Learn how to implement the CheckBoxUserCommand behavior in MAUI when migrating from Xamarin.
 type: how-to
-page_title: Migrating from Xamarin Checkbox to MAUI Checkbox
+page_title: Migrating the Xamarin Checkbox CheckBoxUserCommand to MAUI
 slug: migrating-xamarin-checkbox-maui-checkbox
 tags: xamarin, maui, checkbox, migration
 res_type: kb
