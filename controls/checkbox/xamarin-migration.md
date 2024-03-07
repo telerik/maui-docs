@@ -28,6 +28,8 @@ The tables in the following sections list any differences between the APIs of th
 | N/A | `CornerRadius` |
 | `CheckBoxUserCommand` | N/A |
 
+Review the [Implementing the CheckBoxUserCommand Behavior When Migrating from Xamarin CheckBox to MAUI CheckBox]({%slug migrating-xamarin-checkbox-maui-checkbox%}) how-to article for more details how to define a command when the Telerik .NET MAUI CheckBox state changes. 
+
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
