@@ -81,6 +81,8 @@ That's it! You have successfully added a **Select All** option in the drop-down 
 
 >tip Next, customize the appearance of the **Select All** option to match your application's design.
 
+If you want to use a command when the CheckBox state changes, review the [Implementing the CheckBoxUserCommand Behavior When Migrating from Xamarin CheckBox to MAUI CheckBox]({%slug migrating-xamarin-checkbox-maui-checkbox%}) how-to article. 
+
 ## See Also
 
 - [ComboBox Documentation]({%slug combobox-overview%})
