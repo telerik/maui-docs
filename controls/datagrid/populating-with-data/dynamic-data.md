@@ -50,6 +50,10 @@ The model shows a class that derives from `DynamicObject` and contains a CLR pro
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result:
+
+![Telerik UI for .NET MAUI DataGrid DynamicObject](../images/datagrid-dynamicobject.png)
+
 ## Binding to ExpandoObject
 
 **1.** Define the `RadDataGrid` control in XAML:
@@ -65,6 +69,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Define the `ViewModel`:
 
 <snippet id='datagrid-expandoobject-viewmodel' />
+
+This is the result:
+
+![Telerik UI for .NET MAUI DataGrid ExpandoObject](../images/datagrid-expandoobject.png)
 
 ## Additional Resources
 
