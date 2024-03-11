@@ -12,7 +12,7 @@ Telerik .NET MAUI DataGrid provides a `GroupHeaderStyle` property which defines 
 
 >To learn more about the grouping functionality of the DataGrid, go to [Grouping Overview]({%slug datagrid-grouping-overview%}) topic.
 
-*`GroupHeaderStyle` is of type `DataGridGroupHeaderStyle` and provides the following styling properties:
+`GroupHeaderStyle` is of type `DataGridGroupHeaderStyle` and provides the following styling properties:
 
 * `TextColor`(`Color`)&mdash;Defines the color for the text part of the group header.
 * `SearchMatchTextColor`(`Color`)&mdash;Defines the color that is used for the parts of the group header's text that are search matches. For more details on this, go to [Search as You Type]({%slug datagrid-search-as-you-type%}) topic.
