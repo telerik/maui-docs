@@ -8,15 +8,15 @@ slug: datagrid-group-header-styling
 
 # Group Header Styling for .NET MAUI DataGrid
 
-Telerik .NET MAUI DataGrid provides a `GroupHeaderStyle` property which defines the appearance of the group  headers when the data is grouped.
+Telerik .NET MAUI DataGrid provides a `GroupHeaderStyle` property which defines the appearance of the group headers when the data is grouped.
 
 >To learn more about the grouping functionality of the DataGrid, go to [Grouping Overview]({%slug datagrid-grouping-overview%}) topic.
 
-* `GroupHeaderStyle`(`DataGridGroupHeaderStyle`)&mdash;
+*`GroupHeaderStyle` is of type `DataGridGroupHeaderStyle` and provides the following styling properties:
 
 * `TextColor`(`Color`)&mdash;Defines the color for the text part of the group header.
 * `SearchMatchTextColor`(`Color`)&mdash;Defines the color that is used for the parts of the group header's text that are search matches. For more details on this, go to [Search as You Type]({%slug datagrid-search-as-you-type%}) topic.
-* `AggregatesTextColor`(`Color`)&mdash;Defines the color for the aggregates part of the group header.
+* `AggregatesTextColor`(`Color`)&mdash;Defines the color for the aggregates part of the group header. For more details on this, go to [Aggregates]({%slug datagrid-aggregates%}) topic.
 * `BackgroundColor`(`Color`)&mdash;Defines the color that fills the area within the header of the DataGrid group header.
 * `SearchMatchBackgroundColor`(`Color`)&mdash;Defines the color that fills the area within the border when the cell contains a search-match. For more details on this, go to [Search as You Type]({%slug datagrid-search-as-you-type%}) topic.
 * `GroupLevelIndentation`(`double`)&mdash;Defines the indentation that accumulates for each group level.
@@ -31,9 +31,9 @@ Telerik .NET MAUI DataGrid provides a `GroupHeaderStyle` property which defines 
 * `CollapseButtonText`(`string`)&mdash;Defines the text for the collapse state of the group header.
 * `ExpandButtonText`(`string`)&mdash;Defines the text for the expand state of the group header.
 * `TextMargin`(`Thickness`), `VerticalTextAlignment`(`TextAlignment`), and `HorizontalTextAlignment`(`TextAlignment`) text alignment options&mdash;Define the positioning of the text that is part of the group header.
-* `AggregatesTextMargin`(`Thickness`)&mdash;Defnes the margin for the aggregates part of the group header.
+* `AggregatesTextMargin`(`Thickness`)&mdash;Defnes the margin for the aggregates part of the group header. For more details on this, go to [Aggregates]({%slug datagrid-aggregates%}) topic.
 * `TextFontattributes`(`FontAttributes`), `TextFontFamily`(`string`), and `TextFontSize`(`double`) text font options&mdash;Define the font options of the group header's text part.
-* `AggregatesTextFontAttributes`(`FontAttributes`), `AggregatesTextFontFamily`(`string`), and `AggregatesTextFontSize`(`double`)&mdash;Define the font options for the aggregates part of the group header.
+* `AggregatesTextFontAttributes`(`FontAttributes`), `AggregatesTextFontFamily`(`string`), and `AggregatesTextFontSize`(`double`)&mdash;Define the font options for the aggregates part of the group header. For more details on this, go to [Aggregates]({%slug datagrid-aggregates%}) topic.
 
 The following example demonstrates how to apply a sample `GroupHeaderStyle` to the DataGrid:
 
@@ -59,11 +59,10 @@ The following example demonstrates how to apply a sample `GroupHeaderStyle` to t
 
 Check the result at the image below:
 
-
-
-![Styling the group header of the Telerik UI for .NET MAUI DataGrid](../images/datagrid-styling.png)
+![Telerik .NET MAUI DataGrid Group Header Template](../images/datagrid-grouping-groupheaderstyle.png)
 
 ## See Also
 
 * [Grouping Overview]({%slug datagrid-grouping-overview%})
 * [Search as You Type]({%slug datagrid-search-as-you-type%})
+* [Aggregates]({%slug datagrid-aggregates%})

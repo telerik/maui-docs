@@ -39,6 +39,8 @@ The following example demonstrates how to apply a sample GroupHeaderTemplate to 
 
 Check the result at the image below:
 
+![Telerik .NET MAUI DataGrid Group Header Template](../images/datagrid-grouping-groupheadertemplate.png)
+
 ## See Also
 
 - [Grouping UI]({%slug datagrid-grouping-ui%})
