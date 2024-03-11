@@ -2,7 +2,7 @@
 title: Style Selectors
 page_title: .NET MAUI DataGrid Documentation - Style Selectors
 description: Check our &quot;Style Selectors&quot; documentation article for Telerik DataGrid for .NET MAUI control.
-position: 2
+position: 3
 previous_url: /controls/datagrid/theming-and-styles/datagrid-style-selectors
 slug: datagrid-style-selectors
 ---

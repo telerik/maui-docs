@@ -12,7 +12,7 @@ slug: datagrid-grouping-overview
 
 ## Grouping UI
 
-![Grouping UI](../images/grouping-ui-windows.gif)
+![Grouping UI](../images/datagrid-grouping-ui.gif)
 
 The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile, it allows the user to group the DataGrid by dragging and dropping the column headers to the `DataGridGroupingPanel`. 
 
