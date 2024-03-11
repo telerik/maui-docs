@@ -102,13 +102,13 @@ You can style the visual appearance of each dialog by creating the corresponding
 * `EditAppointmentDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Appointment dialog.
 * `EditRecurrenceDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Recurrence dialog.
 * `EditRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Edit Recurrence Choice dialog.
-* `DeleteAppointmentChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Appointment Choice dialog.
+* `DeleteAppointmentChoiceDialogStyle`&mdash;(Desktop-only)Defines the `Style` that will be applied on the Delete Appointment Choice dialog.
 * `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Recurrence Choice dialog.
 * `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the Preview Appointment dialog. 
 
 ## See Also
 
-- [Appointments]({% slug appointments-overview %})
-- [Recurrence Pattern](% slug recurrence-pattern %})
-- [Recurrence Rule](% slug recurrence-rule %})
+- [Appointments]({%slug appointments-overview %})
+- [Recurrence Pattern]({%slug scheduler-recurrence-pattern %})
+- [Recurrence Rule]({%slug scheduler-recurrence-rule %})
 - [Views]({%slug scheduler-views-overview %})

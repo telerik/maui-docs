@@ -49,9 +49,9 @@ You can access the Controls Samples application in the following ways:
 
  `dotnet build -t:Run -f net8.0-maccatalyst`
  
-	* ControlsSamples application on MacOS.
+ * ControlsSamples application on MacOS.
 	
-	![Telerik UI for .NET MAUI ControlsSamples App MacCatalyst](images/controlssamples-macos.png)
+  ![Telerik UI for .NET MAUI ControlsSamples App MacCatalyst](images/controlssamples-mac.png)
 
 1. Run on iOS using the following command:
 
@@ -63,9 +63,9 @@ You can access the Controls Samples application in the following ways:
   3. Select Connected device. 
   4. Under Device Information, you will get an identifier, or UDID, of the device. 
 
-	* ControlsSamples application on iOS.
+ * ControlsSamples application on iOS.
 
-	![Telerik UI for .NET MAUI ControlsSamples App iOS](images/controlssamples-iphone.png)
+  ![Telerik UI for .NET MAUI ControlsSamples App iOS](images/controlssamples-iphone.png)
 
   >tip Check the [.NET MAUI Examples, Demos, and Sample Apps Overview]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 

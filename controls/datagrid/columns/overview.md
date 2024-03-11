@@ -84,6 +84,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-columns-converter' />
 
+Check the result in the image below:
+
+![Telerik .NET MAUI DataGrid Defining Columns](images/datagrid-columns.png)
+
 ## Columns Features
 
 Find below a quick overview of the DataGrid's Columns features.
