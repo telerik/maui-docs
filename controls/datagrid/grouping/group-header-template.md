@@ -13,11 +13,11 @@ The .NET MAUI DataGrid features fully customizable group headers that allow you 
 The BindingContext of the `GroupHeaderTemplate` is a `GroupHeaderContext` object and it includes the following properties:
 
 * `Descriptor`: Specifies the descriptor used for the grouping.
-* Group: Gets details on the group such as:
-    * Items: Gets the child items of the group.
+* `Group`: Gets details on the group such as:
+    * `Items`: Gets the child items of the group.
     * `Key`: Gets the key specific for the group.
-* IsExpanded: Defines a value indicating whether the group is currently expanded (has its child items visible).
-* Level: Gets the zero-based level (or the depth) of the group.
+* `IsExpanded`: Defines a value indicating whether the group is currently expanded (has its child items visible).
+* `Level`: Gets the zero-based level (or the depth) of the group.
 
 The following example demonstrates how to apply a sample `GroupHeaderTemplate` to the DataGrid:
 
