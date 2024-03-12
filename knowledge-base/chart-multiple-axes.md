@@ -153,7 +153,7 @@ private void AddSecondaryVerticalAxis(Java.Lang.Object lineSeries)
 
 ### Using a Transparent Background on the Top Chart
 
-Create two separate Charts together and add a transparent background to the top chart.
+The second approach that you can use to apply multiple axes on a chart is to create two separate Charts and add a transparent background to the top chart.
 
 >important By using the Axis `Location` property, you can specify the axis position. The supported options are Right` and `Left` for vertical axes, and `Top` and `Bottom` for horizontal axes.
 
