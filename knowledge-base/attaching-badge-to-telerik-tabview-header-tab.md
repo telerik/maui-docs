@@ -1,5 +1,5 @@
 ---
-title: Attaching Badge to Telerik TabView Header/Tab
+title: Attaching a Badge to the TabView Header (Tab)
 description: Learn how to attach a badge to each tab in the Telerik TabView control to display additional info.
 type: how-to
 page_title: How to Attach Badge to Telerik TabView Header/Tab
@@ -15,12 +15,12 @@ res_type: kb
 | Version | 6.7.0 |
 
 ## Description
-I want to attach a badge to each tab in the Telerik TabView control to display the number of new items in each tab.
+I want to attach a badge to each tab in the Telerik TabView control. Each badge must display the number of new items in the corresponding tab.
 
 ## Solution
 Follow these steps to attach a badge to each tab in the Telerik TabView control:
 
-1. Customize the TabItem ControlTemplate by using the `HeaderItemTemplate` property of the TabView control. In the custom ControlTemplate, add a BadgeView control, attached to a Label or any other suitable control within the TabItem.
+1. Customize the `TabItem` control template by using the `HeaderItemTemplate` property of the TabView control. In the custom control template, add a BadgeView control, attached to a Label or any other suitable control within the TabItem.
 
 ```XAML
 <ControlTemplate x:Key="myHeaderItemTemplate">
@@ -41,7 +41,7 @@ Follow these steps to attach a badge to each tab in the Telerik TabView control:
 </ControlTemplate>
 ```
 
-2. Set the created ControlTemplate to the `HeaderItemTemplate` property of the TabView control:
+2. Set the created control template to the `HeaderItemTemplate` property of the TabView control:
 
 ```XAML
 <telerik:RadTabView x:Name="tabView"
@@ -57,10 +57,11 @@ Follow these steps to attach a badge to each tab in the Telerik TabView control:
     </telerik:TabViewItem>
 </telerik:RadTabView>
 ```
-This will display a badge on each tab, showing additional information on the tab content.
+
+This will display a badge on each tab, showing additional information about the tab content.
 
 ## Notes
-- You can customize the appearance of the BadgeView control by modifying its properties such as colors, size, and position.
+You can customize the appearance of the BadgeView control by modifying its properties such as colors, size, and position.
 
 ## See Also
 - [Telerik TabView Documentation](https://docs.telerik.com/devtools/maui/controls/tabview/overview)
