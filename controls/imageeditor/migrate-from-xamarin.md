@@ -76,7 +76,7 @@ When migrating the ImageEditorToolbar from Xamarin to .NET MAUI, consider the fo
 | N/A | `ImageEditorZoomToolbarItem` |
 | N/A | `ImageEditorZoomToOriginalToolbarItem` |
 
-Here is a sample code snippets how the ImageEditor and ImageEditorToolbar (with all predefined toolbar items) definitions look in Xamarin and in  .NET MAUI
+The code snippets below represent the Xamarin and .NET MAUI definitions of the ImageEditor and ImageEditorToolbar with all predefined toolbar items.
 
 ```Xamarin
 <Grid>
