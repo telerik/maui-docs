@@ -23,7 +23,7 @@ How can I create a chart with multiple axes when I want to add a second horizont
 
 You can use one of the following options for applying multiple axis on a chart.
 
-**Approach 1**
+### Using a Chart with Two Series
 
 Use chart with two series. 
 
