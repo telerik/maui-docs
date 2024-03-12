@@ -100,7 +100,7 @@ public class SeriesCategoricalViewModel
 
 ```
 
-Subscribe to the `Chart.HandlerChanged` event. Inside the event, access the native chart per platform and add additional vertical axis to the native control.
+Subscribe to the `Chart.HandlerChanged` event. Inside the event, access the native chart per platform and add additional vertical axes to the native control.
 
 ```C#
 private void chart_HandlerChanged(object sender, EventArgs e)
