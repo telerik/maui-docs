@@ -22,7 +22,7 @@ Telerik .NET MAUI BusyIndicator allows you to indicate that a long-running opera
 
 To allow the interaction with the content behind the busy indicator when its `IsBusy` property is `False`, set `InputTransparent` to `True` and `CascadeInputTransparent` to `False` to both the `RadBusyIndicator` instance and the main layout control holding the content.
 
-The example below shows how to wrap some sample content inside the  `Content` property of the BusyIndicator. The `InputTransparent` and `CascadeInputTransparent` properties are defined for the parent [VerticalStackLayout]({%slug dataform-layouts%}) to allow interaction with the Entry and Button components inside:
+The example below shows how to wrap some sample content inside the  `Content` property of the BusyIndicator. The `InputTransparent` and `CascadeInputTransparent` properties are defined for the parent VerticalStackLayout to allow interaction with the Entry and Button components inside:
 
 ```XAML
 <telerik:RadBusyIndicator x:Name="busyIndicator"
