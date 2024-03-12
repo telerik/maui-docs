@@ -25,7 +25,6 @@ You can use one of the following options for applying multiple axis on a chart.
 
 ### Using a Chart with Two Series
 
-Use chart with two series. 
 
 **1.** Define a sample chart in XAML:
 
