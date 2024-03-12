@@ -8,7 +8,7 @@ slug: slideview-scrolling
 
 # .NET MAUI SlideView Interaction
 
-The users of the application can change the views by using the navigation buttons and pan gesture (on both mobile and desktop) and indicators (on desktop).
+The application users can change the views by using the navigation buttons or pan gesture (both on mobile and desktop) and indicators (on desktop).
 
 By default the pan gesture is disabled on desktop and enabled on mobile. You can change this behavior by using the `InteractionMode` (enum of type `Telerik.Maui.Controls.SlideView.SlideViewInteractionMode`) property. The available options are `None` (the default value on desktop) and `Pan` (the default value on mobile).
 
