@@ -18,7 +18,7 @@ By default, the pan gesture is disabled on desktop and enabled on mobile. You ca
 
 By default, when you reach the last view, the **Next** button won't do anything. You can change this behavior through the `HasLooping` property and allow the repeating of the views when the user reaches the last view:
 
-`HasLooping`(Default value`False`)&mdash;This property allows to achieve infinite looping.
+`HasLooping`(Default value `False`)&mdash;Controls the infinite looping feature.
 
 See the result below in the `.gif` file:
 
