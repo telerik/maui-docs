@@ -1,8 +1,8 @@
 ---
-title: Make it possible to interact through the BusyIndicator Content when IsBusy is False
-description: Learn how to display .NET MAUI BusyIndicator above any content to mark long-running operation and allow interacting with the content behind when not busy
+title: Enabling Interaction with the Content of the BusyIndicator
+description: Learn how to display .NET MAUI BusyIndicator above any content to mark long-running operations and allow interacting with the content behind when not busy.
 type: how-to
-page_title: How to wrap any content with RadBusyIndicator to notify users for long-running process and enable user interaction with that content when not busy - BusyIndicator for .NET MAUI
+page_title: Enabling Interaction with the Content of the BusyIndicator
 slug: allow-interaction-with-busyindicator-content
 tags: busy indicator, interaction, InputTransparent, .NET MAUI
 res_type: kb
@@ -14,13 +14,15 @@ res_type: kb
 
 ## Description
 
-Telerik .NET MAUI BusyIndicator allows you to display a notification indicator while a long-running operation is taking place. When you wrap any content within the BusyIndicator, the control may prevent the user interaction with that content even when `IsBusy` is `False`.
+I want to allow the user to interact with the content behind the BusyIndicator when the control's `IsBusy` property is set to `False`. How to achieve this?
 
 ## Solution
 
-To allow the interaction with the content behind the busy indicator when `IsBusy` is `False`, set `InputTransparent` to `True` and `CascadeInputTransparent` to `False` to both the `RadBusyIndicator` instance and the main layout control holding the content.
+Telerik .NET MAUI BusyIndicator allows you to indicate that a long-running operation is taking place. When you wrap any content within the BusyIndicator, the control may prevent the user interaction with that content even when `IsBusy` is `False`.
 
-Check below a quick example showing how to wrap some sample content inside `RadBusyIndicator`'s `Content` property - `InputTransparent` and `CascadeInputTransparent` are defined for the parent VerticalStackLayout to allow interacting with the Entry and Button inside:
+To allow the interaction with the content behind the busy indicator when its `IsBusy` property is `False`, set `InputTransparent` to `True` and `CascadeInputTransparent` to `False` to both the `RadBusyIndicator` instance and the main layout control holding the content.
+
+The example below shows how to wrap some sample content inside the  `Content` property of the BusyIndicator. The `InputTransparent` and `CascadeInputTransparent` properties are defined for the parent [VerticalStackLayout]({%slug dataform-layouts%}) to allow interaction with the Entry and Button components inside:
 
 ```XAML
 <telerik:RadBusyIndicator x:Name="busyIndicator"
