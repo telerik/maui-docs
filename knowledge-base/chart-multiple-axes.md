@@ -151,7 +151,7 @@ private void AddSecondaryVerticalAxis(Java.Lang.Object lineSeries)
 }
 ```
 
-**Approach 2**
+### Using a Transparent Background on the Top Chart
 
 Create two separate Charts together and add a transparent background to the top chart.
 
