@@ -41,8 +41,9 @@ this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Compatibility.Commo
 
 Here is how the DataGrid looks when it's grouped:
 
-![DataGrid Property GroupDescriptor](../images/datagrid_grouping.png)
+![DataGrid Property GroupDescriptor](../images/datagrid-delegate-group-descriptor.png)
 
 ## See Also
 
 - [Grouping UI]({%slug datagrid-grouping-ui%})
+- [Group Header Template]({%slug datagrid-group-header-template%})

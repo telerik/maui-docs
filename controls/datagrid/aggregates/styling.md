@@ -24,6 +24,8 @@ Style the aggregates by using the following properties:
 
 Style the group header by using the following properties:
 
+| Style  | Action 		   |
+|----------------------|-------------------|
 | `BackgroundColor` | Defines the color that fills the area within the header |
 | `BorderColor`| Defines the color that fills the border region. |
 | `BorderThickness` | Defines the thickness of the border. |
