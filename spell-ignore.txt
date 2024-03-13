@@ -68,3 +68,6 @@ Aggregates
 Aggregate
 MVVM
 BindingContext
+ImageEditorToolbar
+SlideViewIndicator
+ItemTemplate

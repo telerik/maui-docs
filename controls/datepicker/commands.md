@@ -42,8 +42,8 @@ Through the popup or the drop-down, users can pick a date. The date value must b
 
 The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use `AcceptCommandParameter` to pass a parameter to the command execute method. 
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use `CancelCommandParameter` to pass a parameter to the command execute method.
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DatePicker. For the drop-down mode, use the `DropDownSettings` property.
 
@@ -51,10 +51,12 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 
 ```XAML
 <VerticalStackLayout>
-    <telerik:RadDatePicker>
+    <telerik:RadDatePicker x:Name="datePicker"> 
         <telerik:RadDatePicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
-                                         CancelCommand="{Binding Cancel}"/>
+                                         AcceptCommandParameter="{Binding Date, Source={x:Reference datePicker}}"
+										 CancelCommand="{Binding Cancel}"
+										 CancelCommandParameter="{Binding Date, Source={x:Reference datePicker}}"/>
         </telerik:RadDatePicker.PopupSettings>
             <telerik:RadDatePicker.BindingContext>
                 <local:ViewModel/>
@@ -77,14 +79,17 @@ public class ViewModel
         this.Cancel = new Command(this.OnCancel);
     }
 
-    private void OnAccept(object obj)
+    private void OnAccept(object param)
     {
-        // Implement your custom logic here.
+        Application.Current.MainPage.DisplayAlert("Date selected", String.Format("New Date: {0:d}", (DateTime)param), "OK");
+        // implement your custom logic here
     }
 
-    private void OnCancel(object obj)
+    private void OnCancel(object param)
     {
-        // Implement your custom logic here.
+        var message = param != null ? String.Format("Current date: {0:d}", (DateTime)param) : "Currently no date is selected";
+        Application.Current.MainPage.DisplayAlert("Date Selection Canceled", message, "OK");
+        // implement your custom logic here
     }
 }
 ```

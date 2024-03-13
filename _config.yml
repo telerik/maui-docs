@@ -167,9 +167,12 @@ navigation:
     ## DataGrid
     controls/datagrid:
         title: "DataGrid"
+    controls/datagrid/populating-with-data:
+        title: "Populating with Data"
+        position: 2
     controls/datagrid/columns:
         title: "Columns"
-        position: 2
+        position: 3
     controls/datagrid/columns/column-types:
         title: "Column Types"
         position: 1

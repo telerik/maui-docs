@@ -1,18 +1,26 @@
 ---
-title: Infinite Looping
+title: Interaction
 page_title: .NET MAUI SlideView Documentation - Infinite Looping
 description: Learn about the infinite looping mechanism that SlideView control provides.
 position: 7
 slug: slideview-scrolling
 ---
 
-# .NET MAUI SlideView Infinite Looping
+# .NET MAUI SlideView Interaction
 
-By default, when you reach the last view, the **Next** button won't do anything. You can change this behavior through the `Has Looping` property and allow the repeating of the views when the user reaches the last view.
+The application users can change the views by using the navigation buttons or pan gesture (both on mobile and desktop) and indicators (on desktop).
 
-`HasLooping`(Default value`False`)&mdash;This property allows to achieve infinite looping.
+By default, the pan gesture is disabled on desktop and enabled on mobile. You can change this behavior by using the `InteractionMode` (enum of type `Telerik.Maui.Controls.SlideView.SlideViewInteractionMode`) property. The available options are:
+* `None`—the default value on desktop.
+* `Pan`—the default value on mobile.
 
-See the result below in the .gif file:
+## Infinite Looping
+
+By default, when you reach the last view, the **Next** button won't do anything. You can change this behavior through the `HasLooping` property and allow the repeating of the views when the user reaches the last view:
+
+`HasLooping`(Default value `False`)&mdash;Controls the infinite looping feature.
+
+See the result below in the `.gif` file:
 
 ![.NET MAUI SlideView Looping](images/slideview-overscroll.gif)
 

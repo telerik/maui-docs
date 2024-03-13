@@ -76,6 +76,48 @@ When migrating the ImageEditorToolbar from Xamarin to .NET MAUI, consider the fo
 | N/A | `ImageEditorZoomToolbarItem` |
 | N/A | `ImageEditorZoomToOriginalToolbarItem` |
 
+The code snippets below represent the Xamarin and .NET MAUI definitions of the ImageEditor and ImageEditorToolbar with all predefined toolbar items.
+
+```Xamarin
+<Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <telerikImageEditor:RadImageEditor x:Name="imageEditor">
+        <telerikImageEditor:RadImageEditor.Source>
+            <OnPlatform x:TypeArguments="ImageSource" Default="cat4.jpeg">
+                <On Platform="UWP">Assets\cat4.jpeg</On>
+            </OnPlatform>
+        </telerikImageEditor:RadImageEditor.Source>
+    </telerikImageEditor:RadImageEditor>
+    <telerikImageEditor:RadImageEditorToolbar Grid.Row="1" ImageEditor="{x:Reference imageEditor}" AutoGenerateItems="False">
+        <telerikImageEditor:EffectsToolbarItem AutoGenerateItems="False">
+            <telerikImageEditor:BackToolbarItem/>
+            <telerikImageEditor:ContrastToolbarItem AutoGenerateItems="False">
+                <telerikImageEditor:CancelToolbarItem HorizontalOptions="Start" />
+                <telerikImageEditor:TemplateToolbarItem>
+                    <telerikImageEditor:TemplateToolbarItem.Template>
+                        <DataTemplate>
+                            <Slider Maximum="2" Minimum="0" Value="{Binding Value}" />
+                        </DataTemplate>
+                    </telerikImageEditor:TemplateToolbarItem.Template>
+                </telerikImageEditor:TemplateToolbarItem>
+                <telerikImageEditor:ApplyToolbarItem HorizontalOptions="End" />
+            </telerikImageEditor:ContrastToolbarItem>
+        </telerikImageEditor:EffectsToolbarItem>
+        <telerikImageEditor:CropToolbarItem/>
+        <telerikImageEditor:RotateLeftToolbarItem/>
+        <telerikImageEditor:RotateRightToolbarItem/>
+        <telerikImageEditor:UndoToolbarItem/>
+        <telerikImageEditor:RedoToolbarItem/>
+    </telerikImageEditor:RadImageEditorToolbar>
+</Grid>
+```
+```MAUI
+<snippet id='imageeditor-commands-xaml'/>
+```
+
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
