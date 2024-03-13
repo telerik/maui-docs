@@ -28,31 +28,39 @@ To style the `DataFormGroupHeaderView` use the following properties:
 
 The following examples demonstrate how to use the styling properties of the DataFormGroup.
 
-1. Define the `RadDataForm` and the groups
+**1.** Define the `RadDataForm` and the groups:
 
 <snippet id='dataform-group-styling' />
 
-2. Define the `HeaderStyle`
+**2.** Define the `HeaderStyle`:
 
 <snippet id='dataform-group-styling-header-view-style' />
 
-3. Define the `HeaderLabelStyle` of the first DataForm group
+**3.** Define the `HeaderLabelStyle` of the first DataForm group:
 
 <snippet id='dataform-group-styling-header-label-style' />
 
-4. Define the `HeaderLabelStyle` of the second DataForm group
+**4.** Define the `HeaderLabelStyle` of the second DataForm group:
 
 <snippet id='dataform-group-styling-header-label-style-alt' />
 
-5. Add the following namespace:
+**5.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
+
+**6.** The `ViewModel` used for the DataForm editors
+
+<snippet id='dataform-datatype-editors-model'/>
+
+where the `local` points to the namespace where the `DataTypeEditorsModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
 ![.NET MAUI DataForm Group Styling](../images/dataform-group-styling.png)
+
+> For a runnable example with the DataForm Group Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

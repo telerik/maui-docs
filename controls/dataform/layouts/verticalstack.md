@@ -12,15 +12,19 @@ The `DataFormVerticalStackLayout` definition allows you to arrange the items in 
 
 Use the `Spacing`(`double`) property to specify the spacing in pixels between the items in the layout. Default value is `24`.
 
-![DataForm Stack Layout Definition](../images/dataform-verticalstack-layout-desktop.png)
+![.NET MAUI DataForm Stack Layout Definition](../images/dataform-verticalstack-layout-desktop.png)
 
-RadDataForm XAML definition with VerticalStackLayout applied:
+`RadDataForm` XAML definition with `DataFormVerticalStackLayout` applied:
 
 <snippet id='dataform-layouts-stack'/>
 
-The Model used for the DataForm editors
+The `ViewModel` used for the DataForm editors:
 
 <snippet id='dataform-editors-model'/>
+
+where the `local` points to the namespace where the `EditorsViewModel` is defined.
+
+> For a runnable example with the DataForm VerticalStackLayout scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Layouts** category.
 
 ## See Also
 
