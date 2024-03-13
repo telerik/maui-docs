@@ -42,7 +42,8 @@ When the items cannot fit in the toolbar available space an overflow menu is dis
 	* `DropDown`(the default mode)&mdash;When the toolbar items cannot fit in the available space, they are placed in the overflow drop-down menu.
 	* `Scroll`&mdash;When the toolbar items cannot fit in the available space, they are scrolled horizontally or vertically, based on the orientation of the toolbar.
 	* `Wrap`&mdash;When the toolbar items cannot fit in the available space, they are wrapped horizontally or vertically on multiple lines, based on the orientation of the toolbar.
-
+	* `Clip`&mdash;When the toolbar items cannot fit in the available space, they are clipped.
+	
 * `OverflowMenuButtonVisibility`(enum of type `Telerik.Maui.Controls.ToolbarButtonVisibilityMode`)&mdash;Specifies the visibility mode of the overflow menu button in the toolbar. The available options are:
 	* `Auto`(the default mode)&mdash;The button visibility is determined automatically, based on the associated command.
 	* `Visible`(the default mode)&mdash;The button is always visible in the toolbar, regardless of the associated command.
