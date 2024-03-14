@@ -19,11 +19,13 @@ Each editor provides the following properties:
 
 ## Example
 
-The example shows how to style the DataForm 
+The following example shows how to style the DataForm:
 
 **1.** Define the `RadDataForm` and the editors:
 
 <snippet id='dataform-editors-styling' />
+
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
 
 **2.** Define the `CheckBoxStyle` for the `DataFormRadCheckBoxEditor`:
 
@@ -35,11 +37,9 @@ The example shows how to style the DataForm
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** The `ViewModel` used for the DataForm editors:
+**4.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
 
 <snippet id='dataform-editors-model'/>
-
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 

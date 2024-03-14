@@ -20,7 +20,7 @@ DataForm definition with Grouping applied:
 
 <snippet id='dataform-grouping-from-xaml'/>
 
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
 
 And the business model used:
 
@@ -36,11 +36,11 @@ Example with `GroupName` display attribute applied in the business model.
 
 <snippet id='dataform-grouping-model'/>
 
-where the `model` points to the namespace where the `GroupingModel` is defined.
-
-**2.** And the DataForm definition in XAML:
+**2.** Define the `RadDataForm` in XAML:
 
 <snippet id='dataform-grouping-from-model'/>
+
+Note that `model` in the snippet above points to the namespace where the `GroupingModel` is defined.
 
 ### Define the Groups in XAML and GroupName in the Model
 
@@ -50,9 +50,9 @@ You can apply the groups in the XAML and set the `GroupName` property. Then insi
 
 <snippet id='dataform-grouping-mix'/>
 
-where the `model` points to the namespace where the `GroupingModel` is defined.
+Note that `model` in the snippet above points to the namespace where the `GroupingModel` is defined.
 
-**2.** `GroupName` defined to the properties in the business model:
+**2.** Add the `GroupName` display attribute to the properties in the `ViewModel`:
 
 <snippet id='dataform-group-model'/>
 

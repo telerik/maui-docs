@@ -25,9 +25,13 @@ The style of the error message can be set individually for each editor or direct
 
 <snippet id='dataform-error-label-style-common' />
 
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
+
 **3.** Apply `ErrorLabelStyle` per editor:
 
 <snippet id='dataform-error-label-style-individual' />
+
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
 
 **4.** Add the following namespace:
 
@@ -38,8 +42,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **5.** The `ViewModel` used for the DataForm editors
 
 <snippet id='dataform-datatype-editors-model'/>
-
-where the `local` points to the namespace where the `DataTypeEditorsModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 

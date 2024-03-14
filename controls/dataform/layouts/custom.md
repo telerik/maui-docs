@@ -12,7 +12,7 @@ The `DataFormCustomLayout` definition allows you to arrange the items using a cu
 
 To build the custom layout you have to use the `LayoutTemplate` (`DataTemplate`) property.
 
-XAML definition of `RadDataForm` with `CustomLayout` applied using a `RadWrapLayout`:
+Here is the DataForm XAML definition with `CustomLayout` applied using a `RadWrapLayout`:
 
 ```XAML
 <Grid>
@@ -33,11 +33,11 @@ XAML definition of `RadDataForm` with `CustomLayout` applied using a `RadWrapLay
 </Grid>
 ```
 
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
+
 Define the  `ViewModel` for the DataForm `BindingContext`:
 
 <snippet id='dataform-editors-model'/>
-
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
 
 ## See Also
 

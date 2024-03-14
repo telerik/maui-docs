@@ -41,7 +41,7 @@ And the `ViewModel` used for the `RadDataForm`:
 
 <snippet id='dataform-custom-editor-viewmodel'/>
 
-where the `local` points to the namespace where the `CustomEditorViewModel` is defined.
+Note that `local` in the snippet above points to the namespace where the `CustomEditorViewModel` is defined.
 
 ## Styling 
 

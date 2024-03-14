@@ -22,6 +22,8 @@ The following examples demonstrate how to style the DataForm validation summary.
 
 <snippet id='dataform-validation-style' />
 
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
+
 **2.** Define the `ValidationSummaryStyle`:
 
 <snippet id='dataform-validation-summary-style' />
@@ -36,11 +38,9 @@ The following examples demonstrate how to style the DataForm validation summary.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**5.** The `ViewModel` used for the DataForm editors
+**5.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
 
 <snippet id='dataform-editors-model'/>
-
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 

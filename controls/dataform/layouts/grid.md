@@ -24,11 +24,11 @@ Use the following properties which the `DataFormGridLayout` provides:
 
 <snippet id='dataform-layouts-grid'/>
 
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
+
 The `ViewModel` used for the DataForm editors:
 
 <snippet id='dataform-editors-model'/>
-
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
 
 > For a runnable example with the DataForm GridLayout scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Layouts** category.
 

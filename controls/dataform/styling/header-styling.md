@@ -38,17 +38,17 @@ The style of the Header message can be set individually for each editor or direc
 
 <snippet id='dataform-header-styling-individual' />
 
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
+
 **3.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** The `ViewModel` used for the DataForm editors
+**4.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
 
 <snippet id='dataform-datatype-editors-model'/>
-
-where the `local` points to the namespace where the `DataTypeEditorsModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 

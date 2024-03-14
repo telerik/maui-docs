@@ -32,6 +32,8 @@ The following examples demonstrate how to use the styling properties of the Data
 
 <snippet id='dataform-group-styling' />
 
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
+
 **2.** Define the `HeaderStyle`:
 
 <snippet id='dataform-group-styling-header-view-style' />
@@ -50,11 +52,11 @@ The following examples demonstrate how to use the styling properties of the Data
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**6.** The `ViewModel` used for the DataForm editors
+**6.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
 
 <snippet id='dataform-datatype-editors-model'/>
 
-where the `local` points to the namespace where the `DataTypeEditorsModel` is defined.
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 

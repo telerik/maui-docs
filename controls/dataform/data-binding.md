@@ -65,11 +65,11 @@ Here is an example with automatically generated editors:
 
 <snippet id='dataform-editors-model'/>
 
-**2.** `RadDataForm` definition with `BindingContext` set and `AutoGenerateItems="False"`:
+**2.** Define the `RadDataForm`, set the `BindingContext`, and then set `AutoGenerateItems="False"`:
 
 <snippet id='dataform-editors'/>
 
-where the `local` points to the namespace where the `EditorsViewModel` is defined.
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
 
 ![.NET MAUI DataForm Manually Added Editors](images/dataform-editors-desktop.png)
 
