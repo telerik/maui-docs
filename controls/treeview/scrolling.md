@@ -29,11 +29,11 @@ Configure the vertical scrollbar by using the following properties:
 	* `Never`&mdash;The scrollbar is not visible.
 
 
-* `VerticalScrollBarLayoutMode` (enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scrollbar. The available options are: 
+* `VerticalScrollBarLayoutMode` (enum of type `Telerik.Maui.Controls.ItemsView.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the vertical scrollbar. The available options are: 
 	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
 	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
 
-## Horizontal scrolling
+## Horizontal Scrolling
 
 Configure the horizontal scrollbar by using the following properties:
 
@@ -43,7 +43,7 @@ The available options are:
 	* `Always`&mdash;The scrollbar is visible, regardless of the content or orientation.
 	* `Never`&mdash;The scrollbar is not visible.
 
-* `HorizontalScrollBarLayoutMode` (enum of type `Telerik.Maui.controls.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scrollbar. 
+* `HorizontalScrollBarLayoutMode` (enum of type `Telerik.Maui.Controls.ItemsView.ScrollBarLayoutMode`)&mdash;Specifies the layout mode of the horizontal scrollbar. 
 The available options are: 
 	* `Overlay`&mdash;The scrollbars overlay the scrollable content when visible.
 	* `Resize`&mdash;The scrollbars resize the scrollable content when visible.
