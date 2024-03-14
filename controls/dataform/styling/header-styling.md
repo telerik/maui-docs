@@ -18,35 +18,43 @@ The style of the Header message can be set individually for each editor or direc
 
 ## Common Header Styling
 
-1. Define a common `HeaderLabelStyle`
+**1.** Define a common `HeaderLabelStyle`:
 
 <snippet id='dataform-header-styling-common-style' />
 
-2. Apply the common `HeaderLabelStyle` to all editors in the DataForm
+**2.** Apply the common `HeaderLabelStyle` to all editors in the DataForm:
 
 <snippet id='dataform-header-styling-common' />
 
 ## Individual Header Styling
 
-3. Define two different `HeaderLabelStyle`
+**1.** Define two different `HeaderLabelStyle`:
 
 <snippet id='dataform-header-styling-header-style' />
 
 <snippet id='dataform-header-styling-header-style-alt' />
 
-4. Apply a style to each editor in the DataForm individually
+**2.** Apply a style to each editor in the DataForm individually:
 
 <snippet id='dataform-header-styling-individual' />
 
-5. Add the following namespace:
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
 
- ```XAML
+**3.** Add the following namespace:
+
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
+
+**4.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
+
+<snippet id='dataform-datatype-editors-model'/>
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
 ![.NET MAUI DataForm Header Message Styling](../images/dataform-header-message-styling.png)
+
+> For a runnable example with the DataForm Header Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

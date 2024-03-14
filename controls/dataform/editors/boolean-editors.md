@@ -21,17 +21,14 @@ You can style the editors using the properties `BackgroundColor`, `BorderColor` 
 
 Example with `DataFormRadCheckBoxEditor`
 
-```XAML
-<telerik:DataFormRadCheckBoxEditor PropertyName="Visited"
-                                   HeaderText="Visited before"
-                                   EditorStyle="{StaticResource CheckBoxStyle}" />
-```
+<snippet id='dataform-editors-styling' />
 
 Define the `CheckBoxStyle` for the `RadCheckBox` editor
 
 <snippet id='dataform-editors-stlying-checkbox-style' />
 
-For more information about how to style the editors, review the [Editors Styling article]({%slug dataform-editors-styling%}).
+
+> For a runnable example with the DataForm Editors Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

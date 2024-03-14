@@ -66,6 +66,8 @@ TabView
 ChatPicker
 Aggregates
 Aggregate
+MVVM
+BindingContext
 ImageEditorToolbar
 SlideViewIndicator
 ItemTemplate

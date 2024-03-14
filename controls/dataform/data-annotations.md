@@ -35,7 +35,7 @@ The example uses the Required, DataType, Display and RegularExpression attribute
 
 <snippet id='dataform-datatype-editors-model'/>
 
-![RadDataForm Data Type Editors](images/dataform-editors-datatypes-desktop.png)
+![.NET MAUI DataForm Data Type Editors](images/dataform-editors-datatypes-desktop.png)
 
 ## See Also
 

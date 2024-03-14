@@ -20,7 +20,15 @@ The following example demonstrate how to use the styling properties of the DataF
 
 <snippet id='dataform-styling' />
 
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
+
+Define the `ViewModel` used as a `BindingContext` for the DataForm:
+
+<snippet id='dataform-datatype-editors-model'/>
+
 ![.NET MAUI DataForm Styling](../images/dataform-style.png)
+
+> For a runnable example with the DataForm Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

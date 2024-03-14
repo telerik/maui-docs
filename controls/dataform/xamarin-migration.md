@@ -10,7 +10,7 @@ slug: dataform-migrate-from-xamarin
 
 # Migrate from Xamarin.Forms DataForm to .NET MAUI DataForm
 
-The Telerik UI for .NET MAUI DataForm control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+The Telerik UI for .NET MAUI DataForm control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms DataForm and .NET MAUI DataForm.
 
@@ -61,20 +61,19 @@ Compared editors are displayed in the table below:
 | Xamarin DataForm | .NET MAUI DataForm |
 | ------------- | --------------- |
 | `TextEditor` | `DataFormRadEntryEditor` |
-| `SliderEditor` | N/A |
-| N/A | `DataFormRadComboBoxEditor` |
+| `SliderEditor` | You can define a custom editor with a Slider control in it |
+| `PickerEditor` | `DataFormRadComboBoxEditor` or `DataFormRadListPickerEditor` |
 | N/A | `DataFormRadEntryPasswordEditor` |
 | N/A | `DataFormRadTextMaskedEditor` |
 | N/A | `DataFormRadNumericMaskedEditor` |
 | N/A | `DataFormRadEmailMaskedEditor` |
 | N/A | `DataFormRadRegexMaskedEditor` |
-| `IntegerEditor` | N/A |
+| `IntegerEditor` | `DataFormRadNumericEditor` |
 | `DecimalEditor` | `DataFormRadNumericEditor` |
-| `NumberPickerEditor` | N/A |
+| `NumberPickerEditor` | You can define a `DataFormRadComboBoxEditor`, `DataFormRadListPickerEditor`, or a custom editor |
 | `CheckBoxEditor` | `DataFormRadCheckBoxEditor` |
 | `ToggleButtonEditor` | `DataFormSwitchEditor` |
 | `SegmentedEditor` | `DataFormRadSegmentedEditor` |
-| `DataFormGroupStackLayoutDefinition` | `DataFormVerticalStackLayout` |
 | `DateEditor`  | `DataFormRadDatePickerEditor`, `DataFormDatePickerEditor` |
 | `TimeEditor`  | `DataFormRadTimePickerEditor`, `DataFormTimePickerEditor`  |
 | N/A | `RadDateTimePickerEditor` |

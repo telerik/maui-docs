@@ -30,18 +30,16 @@ Before adding the DataForm, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a DataForm control to your page. The following example demonstrates the definition of the `RadDataForm` with `ViewModel` defined.
 
-### Binding to a complex object
-
-Here is the DataForm definition:
+**1.** Define the DataForm:
 
 <snippet id='dataform-gettingstarted-xaml'/>
 <snippet id='dataform-gettingstarted-csharp'/>
 
-and the Model used:
+**2.** Define the `ViewModel`:
 
 <snippet id='dataform-gettingstarted-model'/>
 
->important For the DataForm Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+> For the DataForm Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Getting Started** category.
 
 ## Additional Resources
 
