@@ -45,7 +45,7 @@ Here is an example with automatically generated editors:
 
 <snippet id='dataform-gettingstarted-model'/>
 
-**2.** DataForm definition:
+**2.** Define the DataForm:
 
 <snippet id='dataform-gettingstarted-xaml'/>
 
