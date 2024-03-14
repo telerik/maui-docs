@@ -49,7 +49,7 @@ Here is an example with automatically generated editors:
 
 <snippet id='dataform-gettingstarted-xaml'/>
 
-**3.** The `BindingContext` set in page's code behind:
+**3.** Set the following `BindingContext` in code behind of the page:
 
 ```C#
 this.dataForm.BindingContext = new GettingStartedModel();
