@@ -10,7 +10,7 @@ slug: dataform-data-binding
 
 The way to set the DataForm source is to use a class. This class must be set as a `BindingContext` to the DataForm control. Then you can decorate the properties defined in the class with data annotations. The [data annotations]({%slug dataform-data-annotations%}) are used to build metadata for each property used by the data form to customize its UI.
 
->important DataForm gets the data from the BindingContext set.
+>important DataForm gets the data from the `BindingContext` that you set.
 
 The diagram below shows a typical setup in a MVVM application.
 
