@@ -1,6 +1,6 @@
 ---
-title: Changing Edit Mode Behavior in RadDataGrid for MAUI
-description: Learn how to modify the edit mode behavior in RadDataGrid for MAUI to enter edit mode with a single click instead of double-clicking.
+title: Changing Edit Mode Behavior in DataGrid for MAUI
+description: Learn how to modify the edit mode behavior in RadDataGrid for MAUI to enter edit mode with a single click instead of a double-click.
 type: how-to
 page_title: Changing Edit Mode Behavior in RadDataGrid for MAUI
 slug: changing-edit-mode-behavior-maui-raddatagrid
@@ -17,7 +17,7 @@ res_type: kb
 I want to modify the behavior of the RadDataGrid in my .NET Maui application so that it enters edit mode with a single click instead of requiring a double-click.
 
 ## Solution
-To achieve this, you can use a custom CellTap command called `CellTapUserCommand`. Here's an example of how to implement it:
+To achieve this, you can use a custom `CellTap` command called `CellTapUserCommand`. Here's an example of how to implement it:
 
 ```csharp
 public class CellTapUserCommand : DataGridCommand
