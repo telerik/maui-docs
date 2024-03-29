@@ -129,7 +129,7 @@ It exposes the following properties:
 
 ### Nested Property Text Filter Descriptor
 
-The `NestedProprtyTextFilterDescriptor` is a descriptor which filters the nested properties.
+The `NestedPropertyTextFilterDescriptor` is a descriptor which filters the nested properties.
 
 It exposes the following properties:
 
@@ -140,10 +140,10 @@ It exposes the following properties:
 
 <!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
-<telerik:NestedProprtyTextFilterDescriptor PropertyName="Address"
-                                           Operator="Contains"
-                                           IsCaseSensitive="Falses"
-                                           Value="Barcelona"/>
+<telerik:NestedPropertyTextFilterDescriptor PropertyName="Address"
+                                            Operator="Contains"
+                                            IsCaseSensitive="Falses"
+                                            Value="Barcelona"/>
 ```
 
 ### Distinct Values Filter Descriptor
