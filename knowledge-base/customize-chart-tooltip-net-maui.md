@@ -20,7 +20,7 @@ I want to customize the ChartTooltipBehavior in Chart for .NET MAUI.
 
 ## Solution
 
-To customize the tooltip in Chart for .NET MAUI, you can use a native implementation on different platforms. Here are the steps:
+To customize the tooltip in the NET MAUI Chart, you can use the native Chart implementation of the different platforms (Android and iOS):
 
 1. Subscribe to the `HandlerChanged` event of the chart.
 2. Use the native chart objects to customize the tooltip on Android and iOS platforms.
@@ -52,7 +52,9 @@ private void chart_HandlerChanged(object sender, EventArgs e)
 }
 ```
 
-For Android, you need to define a `MyTooltipContentAdapter` class inside the `Platforms/Android` folder:
+### Android Specifics
+
+For Android, you must define a `MyTooltipContentAdapter` class inside the `Platforms/Android` folder:
 
 ```csharp
 public class MyTooltipContentAdapter : Java.Lang.Object, Com.Telerik.Android.Primitives.Widget.Tooltip.Contracts.ITooltipContentAdapter
@@ -79,6 +81,8 @@ public class MyTooltipContentAdapter : Java.Lang.Object, Com.Telerik.Android.Pri
     }
 }
 ```
+
+### iOS Specifics
 
 For iOS, define the `MyChartDelegate` class inside the `Platforms/iOS` folder:
 
@@ -113,7 +117,7 @@ public class MyChartDelegate : Telerik.Maui.Controls.Compatibility.ChartRenderer
 
 ## Notes
 
-- With the native approach, you won't be able to bind properties from the page ViewModel. You will have access to the data points and their data.
+- With the native approach, you won't be able to bind properties from the page's View Model. You will have access to the data points and their data.
 - Make sure to replace the placeholder class names and namespaces with your actual class names and namespaces.
 
 ## See Also
