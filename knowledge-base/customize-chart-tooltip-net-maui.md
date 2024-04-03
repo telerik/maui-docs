@@ -1,8 +1,8 @@
 ---
-title: Customize ChartTooltipBehavior in Chart for .NET MAUI
+title: Customize the tooltip's appearance in Chart for .NET MAUI
 description: Learn how to format the tooltip in Chart for .NET MAUI.
 type: how-to
-page_title: Customizing ChartTooltipBehavior in Chart for .NET MAUI
+page_title: Customizing the tooltip in Chart for .NET MAUI
 slug: customize-chart-tooltip-net-maui
 tags: [.net maui, chart, tooltip, customization, template]
 res_type: kb
@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want to customize the ChartTooltipBehavior in Chart for .NET MAUI.
+I want to customize the tooltips in Chart for .NET MAUI.
 
 ## Solution
 
