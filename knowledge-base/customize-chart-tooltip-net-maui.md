@@ -1,6 +1,6 @@
 ---
 title: Customize the tooltip's appearance in Chart for .NET MAUI
-description: Learn how to format the tooltip in Chart for .NET MAUI.
+description: Learn how to customize the tooltip in the Chart for .NET MAUI by using the native chart implementation of the Android and iOS platforms.
 type: how-to
 page_title: Customizing the tooltip in Chart for .NET MAUI
 slug: customize-chart-tooltip-net-maui
