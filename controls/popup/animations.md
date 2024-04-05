@@ -8,7 +8,7 @@ slug: popup-animations
 
 # .NET MAUI Popup Animations
 
-The Popup provides two built-in animations that are played when the Popup is shown or hidden.
+The [.NET MAUI Popup]({%slug popup-overview%}) provides two built-in animations that are played when the Popup is shown or hidden.
 
 You can apply the desired animation through the `AnimationType` property which exposes the following options:
 

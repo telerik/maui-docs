@@ -9,7 +9,7 @@ slug: datagrid-programmatic-filtering
 # Programmatic Filtering
 
 Programmatic Filtering can be used for external filtering. For example, disable the built-in filtering UI and to filter the data in the grid programmatically. 
-Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control. 
+Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) control. 
 
 The following descriptor types are supported:
 

@@ -21,7 +21,7 @@ If the default templates of the control do not suit your needs, you can define c
 
 ### Example with ItemTemplate and SelectedItemTemplate
 
-Here is the ComboBox definition in XAML:
+Here is the [.NET MAUI ComboBox]({%slug combobox-overview%}) definition in XAML:
 
 <snippet id='combobox-item-selecteditem-templates'/>
 

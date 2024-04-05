@@ -9,7 +9,7 @@ tags: binding, collection, data, dotnet maui, maui, datagrid, enumerable
 
 # .NET MAUI DataGrid Data Binding: Binding to a Collection
 
-This article lists the source types supported by Telerik's .NET MAUI DataGrid. It guides you through the process of binding the DataGrid control to a collection of items and configuring the data binding for its columns.
+This article lists the source types supported by [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}). It guides you through the process of binding the DataGrid control to a collection of items and configuring the data binding for its columns.
 
 ## Supported Collection Sources
 

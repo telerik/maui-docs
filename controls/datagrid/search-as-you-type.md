@@ -8,7 +8,7 @@ slug: datagrid-search-as-you-type
 
 # .NET MAUI DataGrid Search as You Type
 
-Telerik .NET MAUI DataGrid provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality. The default behavior is to Search as You Type, but it can also be performed when the end user finishes typing and presses `Enter`.
+ [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality. The default behavior is to Search as You Type, but it can also be performed when the end user finishes typing and presses `Enter`.
 
 Through the DataGrid's `SearchSettings` property, you can control when to show the search panel as well as configure the way the search is performed so that it best suits the end users' needs.
 

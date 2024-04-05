@@ -9,7 +9,7 @@ slug: datagrid-style-selectors
 
 # .NET MAUI DataGrid Style Selectors
 
-The DataGrid component exposes a conditional styling feature. It allows users to apply different styles on a cell or per group header depending on a specific condition.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a conditional styling feature. It allows users to apply different styles on a cell or per group header depending on a specific condition.
 
 You can set a different style on a specific cell from a specific column based on custom selection logic with the following properties:
 

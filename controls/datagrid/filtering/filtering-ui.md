@@ -8,7 +8,7 @@ slug: datagrid-filtering-ui
 
 # Filtering UI
 
-The DataGrid supports filtering through the UI.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) supports filtering through the UI.
 
 ![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
 

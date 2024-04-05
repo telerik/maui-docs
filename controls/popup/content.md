@@ -8,7 +8,7 @@ slug: popup-content
 
 # .NET MAUI Popup Content
 
-The Popup provides options for setting its content and for defining when it will open and close.
+The [Telerik UI for .NET MAUI Popup]({%slug popup-overview%}) provides options for setting its content and for defining when it will open and close.
 
 ## Opening and Closing
 

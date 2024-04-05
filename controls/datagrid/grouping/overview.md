@@ -8,7 +8,7 @@ slug: datagrid-grouping-overview
 
 # .NET MAUI DataGrid Grouping
 
-**Telerik UI for .NET MAUI DataGrid** supports grouping operations either through the UI - using the Grouping UI or programmatically through Property and Delegate group descriptors.
+[Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports grouping operations either through the UI - using the Grouping UI or programmatically through Property and Delegate group descriptors.
 
 ## Grouping UI
 

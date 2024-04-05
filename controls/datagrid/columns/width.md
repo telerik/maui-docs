@@ -9,7 +9,7 @@ slug: datagrid-columns-width
 
 # .NET MAUI DataGrid Columns Width
 
-This article describes how to set a width to the DataGrid column using the `SizeMode` and `Width` properties.
+This article describes how to set a width to the [.NET MAUI DataGrid]({%slug datagrid-overview%}) column using the `SizeMode` and `Width` properties.
 
 * `SizeMode`(`DataGridColumnSizeMode`)&mdash;Defines the `DataGridColumnSizeMode` value that controls how the column and its associated cells are sized horizontally.
   * `Fixed`&mdash;The column has a fixed width as defined by its Width property.

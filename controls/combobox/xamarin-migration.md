@@ -10,7 +10,7 @@ slug: combobox-migrate-from-xamarin
 
 # Migrate from Xamarin.Forms ComboBox to .NET MAUI ComboBox
 
-The Telerik UI for .NET MAUI ComboBox preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
+The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
 The tables in the following sections list any differences between the APIs of the Xamarin.Forms ComboBox and .NET MAUI ComboBox.
 

@@ -8,7 +8,7 @@ slug: datagrid-group-header-template
 
 # Group Header Template for .NET MAUI DataGrid
 
-The .NET MAUI DataGrid features fully customizable group headers that allow you to tweak the appearance and behavior of the headers used to group data within the grid. You can achieve this customization by using the `GroupHeaderTemplate` property of the DataGrid, which allows you to set a custom `DataTemplate` to the group headers.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) features fully customizable group headers that allow you to tweak the appearance and behavior of the headers used to group data within the grid. You can achieve this customization by using the `GroupHeaderTemplate` property of the DataGrid, which allows you to set a custom `DataTemplate` to the group headers.
 
 The BindingContext of the `GroupHeaderTemplate` is a `GroupHeaderContext` object and it includes the following properties:
 

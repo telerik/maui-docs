@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: .NET MAUI DataGrid Documentation - Overview
-description: Try out the best-in-class .NET MAUI DataGrid control with out-of-the-box support for operations like sorting, filtering and grouping, editing, and more.
+page_title: .NET MAUI DataGrid Overview
+description: ".NET MAUI DataGrid is a control that allows you to visualize and edit tabular data in your .NET MAUI apps."
 position: 0
 previous_url: /controls/datagrid/datagrid-overview
 slug: datagrid-overview
@@ -21,7 +21,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 ## Key Features of the Telerik .NET MAUI Grid
 
-* [Different column types]({%slug datagrid-columns-overview %})&mdash;The DataGrid provides a set of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
+* [Different column types]({%slug datagrid-columns-overview %})&mdash;The MAUI DataGrid provides a set of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 
 * [Load on demand]({%slug datagrid-features-loadondemand %})&mdash;In some cases, you may need to load data in the .NET MAUI DataGrid when the control is already displayed as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
 
@@ -31,7 +31,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
-* [Column settings]({% slug datagrid-columns-overview %})&mdash;The DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}), allow users to [lock columns]({% slug datagrid-frozen-columns %}) and keep the important information always on top, and [add a column footer]({%slug datagrid-column-footer%}) to the component.
+* [Column settings]({% slug datagrid-columns-overview %})&mdash;The .NET MAUI DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}), allow users to [lock columns]({% slug datagrid-frozen-columns %}) and keep the important information always on top, and [add a column footer]({%slug datagrid-column-footer%}) to the component.
 
 * [Search as you type]({%slug datagrid-search-as-you-type%})&mdash;The DataGrid provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality.
 
@@ -41,7 +41,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Aggregates support]({%slug datagrid-aggregates%})&mdash;You can use the exposed API for applying aggregates functions.
 
-* [Keyboard navigation]({%slug datagrid-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the DataGrid control. This feature is available on WinUI and MacCatalyst.
+* [Keyboard navigation]({%slug datagrid-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on WinUI and MacCatalyst.
 
 * [Empty template]({%slug datagrid-empty-template%})&mdash;When the control does not have any data (`ItemsSource` is null or the collection is empty), an empty template is displayed in the DataGrid.
 

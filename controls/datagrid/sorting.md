@@ -8,7 +8,7 @@ slug: datagrid-sorting-overview
 
 # .NET MAUI DataGrid Sorting
 
-The Telerik UI for .NET MAUI DataGrid provides a built-in sorting functionality which allows the user to order the view of the presented data and which is available to implement both through the UI and programmatically.
+ [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a built-in sorting functionality which allows the user to order the view of the presented data and which is available to implement both through the UI and programmatically.
 
 ## Sorting through the UI
 

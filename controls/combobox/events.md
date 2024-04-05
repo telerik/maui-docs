@@ -8,7 +8,7 @@ slug: combobox-events
 
 # .NET MAUI ComboBox Events
 
-ComboBox for .NET MAUI exposes the following events:
+The [.NET MAUI ComboBox]({%slug combobox-overview%}) exposes the following events:
 
 - `SelectionChanged` event is raised when item is selected. The SelectionChanged event handler receives two parameters:
 	- The `sender` which is the RadComboBox control.

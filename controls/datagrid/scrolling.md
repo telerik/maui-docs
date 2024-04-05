@@ -9,7 +9,7 @@ tags: programmatic, scrolling
 
 # .NET MAUI DataGrid Scrolling
 
-The Telerik UI for .NET MAUI DataGrid has an internal scrolling mechanism achieved by the supported vertical and horizontal scrollbars for scrolling through its data.
+[Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) has an internal scrolling mechanism achieved by the supported vertical and horizontal scrollbars for scrolling through its data.
 
 >important Avoid nesting the DataGrid in a ScrollView and other controls that provide scrolling.
 

@@ -8,7 +8,7 @@ slug: datagrid-selection-overview
 
 # Selection in the .NET MAUI DataGrid
 
-The Telerik UI for .NET MAUI DataGrid exposes a single and multiple selection feature which enables users to select a cell or a row by clicking (tapping) on it.
+ [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a single and multiple selection feature which enables users to select a cell or a row by clicking (tapping) on it.
 
 Users can cancel the selection by clicking the cell or the row again.
 
