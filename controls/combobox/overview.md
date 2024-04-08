@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ComboBox Overview
-description: “The .NET MAUI ComboBox control allows users to select item or items from a drop down list of items. Learn more!”
+description: The .NET MAUI ComboBox control allows users to select item or items from a drop down list of items. Learn more!
 position: 0
 slug: combobox-overview
 ---
