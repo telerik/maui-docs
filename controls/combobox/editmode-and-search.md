@@ -8,7 +8,7 @@ slug: combobox-editmode-and-search
 
 # .NET MAUI ComboBox Edit Mode & Search
 
-[Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) supports both `editable` and `non editable` state. When the control is in edit mode, users can type into the input field and searching through the control's ItemsSource can be performed. 
+The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) supports both `editable` and `non editable` state. When the control is in edit mode, users can type into the input field and searching through the control's ItemsSource can be performed. 
 
 This topic describes in details the configuration options related to the editable state of the ComboBox as well as its searching capabilities.
 
