@@ -8,7 +8,7 @@ slug: combobox-styling
 
 # .NET MAUI ComboBox Styling
 
-[Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the following Style properties for customizing its look:
+The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the following Style properties for customizing its look:
 
 * `PlaceholderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color for the placeholder text.
 * `TextColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the color of the text when the control is editable and the color of the selected item when the control is not editable and the selection mode is single.
