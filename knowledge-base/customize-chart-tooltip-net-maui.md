@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want to customize the tooltips in Chart for .NET MAUI.
+I want to customize the tooltips in the Chart for .NET MAUI.
 
 ## Solution
 
