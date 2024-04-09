@@ -9,7 +9,7 @@ tags: events
 
 # .NET MAUI DataGrid Events
 
-The Telerik UI for .NET MAUI DataGrid component exposes a set of events which help users achieve seamless and effective experience when interacting with the component.  
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a set of events which help users achieve seamless and effective experience when interacting with the component.  
 
 ## Loading Content on Demand
 

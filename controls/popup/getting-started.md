@@ -9,7 +9,7 @@ slug: popup-getting-started
 
 # Getting Started with the .NET MAUI Popup
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Popup by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI Popup]({%slug popup-overview%}) by adding the control to your project.
 
 At the end, you will achieve the following result.
 

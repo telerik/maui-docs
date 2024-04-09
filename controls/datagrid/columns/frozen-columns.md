@@ -8,7 +8,7 @@ slug: datagrid-frozen-columns
 
 # .NET MAUI DataGrid Frozen Columns
 
-This article describes the frozen columns feature that DataGrid provides. 
+This article describes the frozen columns feature that the [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides. 
 
 You can pin a column on the left side of the grid by setting the `IsFrozen`(`bool`) property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. 
 

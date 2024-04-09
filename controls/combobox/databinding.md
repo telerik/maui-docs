@@ -15,7 +15,7 @@ slug: combobox-databinding
 
 ## Binding to a Complex Object
 
-Here is the ComboBox definition in XAML:
+Here is the [.NET MAUI ComboBox]({%slug combobox-overview%}) definition in XAML:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 

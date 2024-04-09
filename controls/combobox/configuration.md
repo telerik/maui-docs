@@ -8,7 +8,7 @@ slug: combobox-configuration
 
 # Configure the .NET MAUI ComboBox
 
-The purpose of this help article is to show the basic configuration options of the ComboBox control.
+The purpose of this help article is to show the basic configuration options of the [.NET MAUI ComboBox]({%slug combobox-overview%}) control.
 
 ## Placeholder
 

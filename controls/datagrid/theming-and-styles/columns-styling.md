@@ -9,7 +9,7 @@ slug: datagrid-columns-styling
 
 # .NET MAUI DataGrid Columns Styling
 
-The DataGrid component provides styling mechanism for customizing the look of the columns and their cells.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component provides styling mechanism for customizing the look of the columns and their cells.
 
 The styling mechanism is represented by the following properties:
 

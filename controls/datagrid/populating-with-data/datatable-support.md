@@ -10,7 +10,7 @@ slug: datagrid-datatable-support
 
 # .NET MAUI DataGrid Data Binding: Binding to DataTable
 
-As of the Telerik UI for .NET MAUI 5.1.0 version, the DataGrid provides full and seamless support for all its features in the DataTable.
+As of the Telerik UI for .NET MAUI 5.1.0 version, the [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides full and seamless support for all its features in the DataTable.
 
 The component enables you to bind it to the DataTable and you can also add, remove, select, and edit DataGrid items, and update the DataGrid `ItemsSource`. All available DataGrid commands and operations, like filtering, sorting, grouping, and selection, are fully functioning when the DataGrid is bound to a DataTable.
 

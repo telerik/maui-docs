@@ -9,7 +9,7 @@ slug: datagrid-cell-templates
 
 # .NET MAUI DataGrid Columns Cell Templates
 
-This article describes how to extend the functionality of a DataGrid column and define custom content and edit templates using the `CellContentTemplate` and `CellEditTemplate` properties.
+This article describes how to extend the functionality of a [.NET MAUI DataGrid]({%slug datagrid-overview%}) column and define custom content and edit templates using the `CellContentTemplate` and `CellEditTemplate` properties.
 
 * `CellContentTemplate` (DataTemplate): Defines the appearance of each cell associated with the concrete column. `CellContentTemplate` gives you the opportunity to wrap the text inside each DataGrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's `LineBreakMode` property.
 * `CellEditTemplate` (DataTemplate): Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.

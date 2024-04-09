@@ -8,7 +8,7 @@ slug: datagrid-current-cell
 
 # .NET MAUI DataGrid Current Cell
 
-The Telerik UI for .NET MAUI DataGrid provides options for configuring the behavior and style of its current cell.
+ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides options for configuring the behavior and style of its current cell.
 
 ## Setting the Behavior
 
