@@ -129,21 +129,27 @@ It exposes the following properties:
 
 ### Nested Property Text Filter Descriptor
 
-The `NestedProprtyTextFilterDescriptor` is a descriptor which filters the nested properties.
+The `NestedPropertyTextFilterDescriptor` is a descriptor which allows you to filter the nested properties.
 
 It exposes the following properties:
 
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
+* `ItemPropertyGetter`&mdash;Sets a custom function that implements the access to the nested property. The function gets the value accessed by the `PropertyName` as an input argument and returns the nested property as an output result. If `ItemPropertyGetter` is not set, the filter descriptor behaves the same as [TextFilterDescriptor](#text-filter-descriptor).
 * `Operator`&mdash;Gets or sets the `TextOperator` value that defines how the `Value` member is compared with each value from the items source.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `IsCaseSensitive`&mdash;Gets or sets a value that determines whether the text comparisons will be case-sensitive. The default value is `True`.
 
-<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
-```XAML
-<telerik:NestedProprtyTextFilterDescriptor PropertyName="Address"
-                                           Operator="Contains"
-                                           IsCaseSensitive="Falses"
-                                           Value="Barcelona"/>
+```C#
+var filterDescriptor = new NestedPropertyTextFilterDescriptor();
+filterDescriptor.PropertyName = "MyProperty";
+filterDescriptor.Operator = Telerik.Maui.Controls.Compatibility.Common.Data.TextOperator.EqualsTo;
+filterDescriptor.Value = "Expected value";
+filterDescriptor.ItemPropertyGetter = (originalPropertyValue) =>
+{
+    // The 'originalPropertyValue' is the object fetched by the 'PropertyName' of the descriptor. In this case, this is the value of 'MyProperty'.
+    return ((MyChildObjectClass)originalPropertyValue).MyNestedProperty;
+};
+this.radDataGrid.FilterDescriptors.Add(filterDescriptor);
 ```
 
 ### Distinct Values Filter Descriptor
@@ -217,4 +223,4 @@ Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
 
->important You could check our Programmatic Filtering example referring to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+>important For a runnable example with the DataGrid Programmatic Filtering scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to DataGrid > Filtering > Programmatic Filtering.
