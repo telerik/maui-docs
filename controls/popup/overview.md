@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI Popup Overview
-description: “.NET MAUI Popup allows you to add modal popups to your app and draw attention to important information or get user input.”
+description: .NET MAUI Popup allows you to add modal popups to your app and draw attention to important information or get user input.
 position: 0
 previous_url: /controls/popup/popup-overview
 slug: popup-overview

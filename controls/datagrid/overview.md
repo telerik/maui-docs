@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Overview
-description: ".NET MAUI DataGrid is a control that allows you to visualize and edit tabular data in your .NET MAUI apps."
+description: .NET MAUI DataGrid is a control that allows you to visualize and edit tabular data in your .NET MAUI apps.
 position: 0
 previous_url: /controls/datagrid/datagrid-overview
 slug: datagrid-overview
