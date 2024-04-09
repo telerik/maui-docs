@@ -9,7 +9,7 @@ slug: datagrid-nested-properties
 
 # .NET MAUI DataGrid Nested Properties Support
 
-[Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides support for nested properties - this allows binding of complex objects to the grid columns.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides support for nested properties - this allows binding of complex objects to the grid columns.
 
 In addition, the DataGrid control provides the following property:  
 * `ListenForNestedPropertyChange` (`bool`): Allows the DataGrid to listen for changes in the nested properties' values. The default value is `false`.
