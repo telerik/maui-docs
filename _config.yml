@@ -502,8 +502,8 @@ defaults:
 # Define any custom fields that you use in the site here
 framework_name: MAUI
 
-# Feedback Form Google Sheet ID
-ff-sheet-id: 6ed4da75-840a-44ce-8832-ddf46f650e79
+# Feedback Form Product Code
+productCode: MAUI
 
 # The google services configuration
 google_tag_manager: GTM-6X92
