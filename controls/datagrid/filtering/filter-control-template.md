@@ -8,7 +8,7 @@ slug: datagrid-filter-control-template
 
 # Filter Control Template
 
-[Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a built-in filtering UI which enables users to quickly filter the displayed data. To customize the built-in filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a built-in filtering UI which enables users to quickly filter the displayed data. To customize the built-in filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
 
 In addition, as the [template column]({%slug datagrid-columns-template-column%}) does not provide a default filtering UI, with the `FilterControlTemplate` property you can allow users to filter data in template columns as well.
 
