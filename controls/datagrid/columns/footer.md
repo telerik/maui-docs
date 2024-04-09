@@ -10,7 +10,7 @@ slug: datagrid-column-footer
 
 # .NET MAUI DataGrid Column Footers
 
-[Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
 ![.NET MAUI DataGrid Column Footer](../images/column-footer.png)
 
