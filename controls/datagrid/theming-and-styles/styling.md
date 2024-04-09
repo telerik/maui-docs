@@ -9,7 +9,7 @@ slug: datagrid-styling
 
 # .NET MAUI DataGrid Styling
 
-The DataGrid enables you to customize its look and feel through the available `Style` configuration options. Also, you can modify the appearance of its splitter element, which divides the frozen columns from the rest of the data.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) control enables you to customize its look and feel through the available `Style` configuration options. Also, you can modify the appearance of its splitter element, which divides the frozen columns from the rest of the data.
 
 ## Border Brush and Thickness
 

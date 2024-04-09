@@ -9,7 +9,7 @@ tags: binding, dynamic, data, expando, dynamic object, dotnet maui, maui, datagr
 
 # .NET MAUI DataGrid Data Binding: Binding to Dynamic Data
 
-As of Telerik UI for .NET MAUI 6.8.0, the DataGrid supports binding to any type that implements the standard `IDynamicMetaObjectProvider` DLR interface, such as `DynamicObject` and `ExpandoObject`.
+As of Telerik UI for .NET MAUI 6.8.0, the [.NET MAUI DataGrid]({%slug datagrid-overview%}) supports binding to any type that implements the standard `IDynamicMetaObjectProvider` DLR interface, such as `DynamicObject` and `ExpandoObject`.
 
 Using Dynamic Data enables you to filter, group, and sort the data inside the DataGrid both through the UI and programmatically.
 

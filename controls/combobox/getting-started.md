@@ -8,7 +8,7 @@ slug: combobox-getting-started
 
 # Getting Started with the .NET MAUI ComboBox
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI ComboBox by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) by adding the control to your project.
 
 At the end, you will achieve the following result.
 

@@ -16,28 +16,38 @@ The style of the error message can be set individually for each editor or direct
 * `ErrorImageStyle`(of type `Style` with target type `Image`)&mdash;Defines the error image style.
 * `ErrorLabelStyle`(of type `Style` with target type `Label`)&mdash;Defines the error label style.
 
-Defining two different `ErrorLabelStyle`:
+**1.** Defining two different `ErrorLabelStyle`:
 
 <snippet id='dataform-error-label-style' />
 <snippet id='dataform-error-label-style-alt' />
 
-Apply common `ErrorLabelStyle` for all editors
+**2.** Apply common `ErrorLabelStyle` for all editors:
 
 <snippet id='dataform-error-label-style-common' />
 
-Apply `ErrorLabelStyle` per editor
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
+
+**3.** Apply `ErrorLabelStyle` per editor:
 
 <snippet id='dataform-error-label-style-individual' />
 
-Add the following namespace:
+Note that `local` in the snippet above points to the namespace where the `DataTypeEditorsModel` is defined.
 
- ```XAML
+**4.** Add the following namespace:
+
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
+
+**5.** The `ViewModel` used for the DataForm editors
+
+<snippet id='dataform-datatype-editors-model'/>
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
 ![.NET MAUI DataForm Error Message Styling](../images/dataform-error-message-styling.png)
+
+> For a runnable example with the DataForm Error Message Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

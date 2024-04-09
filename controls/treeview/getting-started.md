@@ -77,7 +77,7 @@ public static class MauiProgram
 }           
 ```
 
-> For a runnable example with the TreeView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Getting Started**.
+> For a runnable example with the TreeView Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Getting Started** category.
 
 ## Additional Resources
 

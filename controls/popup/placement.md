@@ -8,7 +8,7 @@ slug: popup-placement
 
 # .NET MAUI Popup Placement
 
-The Popup supports useful properties, which enable you to position it depending on your requirements.
+The [.NET MAUI Popup]({%slug popup-overview%}) supports useful properties, which enable you to position it depending on your requirements.
 
 * `PlacementTarget`&mdash;Defines an element in relation to which the popup is positioned when opened.
 

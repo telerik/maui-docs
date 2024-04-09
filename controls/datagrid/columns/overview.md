@@ -9,7 +9,7 @@ slug: datagrid-columns-overview
 
 # .NET MAUI DataGrid Defining Columns
 
-The DataGrid for .NET MAUI provides three approaches that you can take to define different columns:
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides three approaches that you can take to define different columns:
 
 * **Automatically**&mdash;by setting `AutoGenerateColumns` property to `True` (default value).
 * **Manually**&mdash;by adding columns to the DataGrid's `Columns` collection and setting the `AutoGenerateColumns` property to `False`.

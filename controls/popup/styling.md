@@ -8,7 +8,7 @@ slug: popup-styling
 
 # .NET MAUI Popup Styling
 
-The `OutsideBackgroundColor` property of the Popup lets you customize the color outside the element.
+The `OutsideBackgroundColor` property of the [.NET MAUI Popup]({%slug popup-overview%}) lets you customize the color outside the element.
 
 In most cases, this feature is used for modal popups to indicate that the user cannot interact with the UI behind. The default value is `Color.Transparent`.
 

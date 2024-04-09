@@ -10,7 +10,7 @@ slug: dataform-layouts-grid
 
 The `DataFormGridLayout` definition allows you to arrange the items in a grid layout. The grid has a pre-defined number of columns(`2`). Starting from the top left corner, the items are arranged horizontally by columns, until the maximum number of columns is reached, then the process continues from the next row. Each item occupies only a single cell of the grid by default.
 
-Use the following properties which the DataFormGridLayout provides: 
+Use the following properties which the `DataFormGridLayout` provides: 
 
 * `ColumnCount`(`int`)&mdash;Specifies the count of the columns in the grid layout. Default value is `2`.
 * `ColumnSpacing`(`double`)&mdash;Specifies the spacing between the columns. Default value is `24`.
@@ -18,15 +18,19 @@ Use the following properties which the DataFormGridLayout provides:
 
 > For more details about the GridLayout review the official [GridLayout Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/layouts/grid).
 
-![DataForm Grid Layout Definition](../images/dataform-grid-layout-desktop.png)
+![.NET MAUI DataForm Grid Layout Definition](../images/dataform-grid-layout-desktop.png)
 
-`RadDataForm` XAML definition with GridLayout applied:
+`RadDataForm` XAML definition with `DataFormGridLayout` applied:
 
 <snippet id='dataform-layouts-grid'/>
 
-The Model used for the DataForm editors
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
+
+The `ViewModel` used for the DataForm editors:
 
 <snippet id='dataform-editors-model'/>
+
+> For a runnable example with the DataForm GridLayout scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Layouts** category.
 
 ## See Also
 

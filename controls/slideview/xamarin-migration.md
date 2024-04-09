@@ -10,7 +10,7 @@ position: 20
 
 # Migrating the SlideView from Xamarin to .NET MAUI  
 
-The Telerik UI for .NET MAUI SlideView control has been designed and built from the ground up as a completely new control with a new API and significant improvements over its Xamarin counterpart.
+The Telerik UI for .NET MAUI SlideView control has been designed and built from the ground up as a new control with a new API and significant improvements over its Xamarin counterpart.
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms SlideView and .NET MAUI SlideView.
 
@@ -18,8 +18,8 @@ The tables in the following sections list the differences between the APIs of th
 
 | Control | Control name | XAML Namespcace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin SlideView | `RadSlideView` | `xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"` | `using Telerik.XamarinForms.Input;` | 
-| .NET MAUI SlideView | `RadSlideView` | `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | `using Telerik.Maui.Controls;` |
+| Xamarin SlideView | `RadSlideView` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; | 
+| .NET MAUI SlideView | `RadSlideView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 
 ## API Differences

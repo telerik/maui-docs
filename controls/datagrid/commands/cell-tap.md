@@ -12,7 +12,7 @@ The DataGrid `CellTap` command handles the tap (click) gesture over a grid cell,
 
 ## Example
 
-Here is an example how the `RadDataGrid` `CellTap` command works:
+Here is an example how the [.NET MAUI DataGrid]({%slug datagrid-overview%}) `CellTap` command works:
 
 **1.** Create the needed business objects, for example, type `Country` with the following properties:
 

@@ -20,7 +20,7 @@ The `DelegateFilterDescriptor` property supports a `Filter`, which defines the f
 
 <snippet id='listview-features-filtering-xaml'/>
 
-**2. **Add a `DelegateFilterDescriptor` to the `FilerDescriptors` collection of the ListView instance:
+**2.** Add a `DelegateFilterDescriptor` to the `FilerDescriptors` collection of the ListView instance:
 
  ```C#
 this.listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataControls.ListView.ListViewDelegateFilterDescriptor { Filter = this.AgeFilter });

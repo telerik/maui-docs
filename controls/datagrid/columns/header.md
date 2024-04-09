@@ -36,7 +36,7 @@ The user of the application can sort a particular column when tapping on its hea
 
 ![.NET MAUI DataGrid Column Header Sorting indicator](../images/column-header-sorting.png)
 
-To learn more about the sorting functionality take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
+To learn more about the sorting functionality of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
 
 ## Filtering
 

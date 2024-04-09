@@ -8,7 +8,7 @@ slug: datagrid-group-header-styling
 
 # Group Header Styling for .NET MAUI DataGrid
 
-Telerik .NET MAUI DataGrid provides a `GroupHeaderStyle` property which defines the appearance of the group headers when the data is grouped.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a `GroupHeaderStyle` property which defines the appearance of the group headers when the data is grouped.
 
 >To learn more about the grouping functionality of the DataGrid, see the [Grouping Overview]({%slug datagrid-grouping-overview%}) topic.
 

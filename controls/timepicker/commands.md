@@ -20,21 +20,21 @@ The TimePicker for .NET MAUI exposes the following commands, which enable you to
 
 The following example shows how to set the `ToggleCommand` and `ClearCommand`.
 
-1. Define the TimePicker.
+**1.** Define the TimePicker.
 
- ```XAML
+```XAML
 <StackLayout>
 	 <Button Text="Toggle Popup" Command="{Binding Source={x:Reference timePicker}, Path=ToggleCommand}"/>
      <Button Text="Clear Selected Time" Command="{Binding Source={x:Reference timePicker}, Path=ClearCommand}"/>
 	<telerik:RadTimePicker x:Name="timePicker" />
 </StackLayout>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## OK and Cancel Buttons
 

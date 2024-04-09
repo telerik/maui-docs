@@ -9,7 +9,7 @@ slug: datagrid-delegate-aggregate-descriptor
 
 # .NET MAUI DataGrid Delegate Aggregate Descriptor
 
-The `DelegateAggregateDescriptor` allows you to define property lookup logic and a custom function that are applied over the property values of the DataGrid, which accumulates an aggregated result based on the component data.
+The `DelegateAggregateDescriptor` allows you to define property lookup logic and a custom function that are applied over the property values of the [.NET MAUI DataGrid]({%slug datagrid-overview%}), which accumulates an aggregated result based on the component data.
 
 To set up the `DelegateAggregateDescriptor`, use the following properties:
 
