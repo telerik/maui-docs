@@ -223,4 +223,4 @@ Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
 
->important You could check our Programmatic Filtering example referring to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+>important For a runnable example with the DataGrid Programmatic Filtering scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to DataGrid > Filtering > Programmatic Filtering.
