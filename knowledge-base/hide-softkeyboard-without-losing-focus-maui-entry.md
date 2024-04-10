@@ -15,16 +15,16 @@ res_type: kb
 
 ## Description
 
-This article describes how to hide the soft keyboard without loosing the focus on the Entry control.
+This article describes how to hide the soft keyboard without losing the focus on the Entry control.
 
 ## Solution
 
-Use the following options to hide the SoftKeyboard without losing focus on the Entry control:
+Use either of the following options to hide the SoftKeyboard without losing focus on the Entry control:
 
-* [Tapping Outside of the Entry control](#option-1:-hide-the-keyboard-when-tapping-outside-of-the-entry-control)
-* [Using Navive Views](#option-2:-manually-hide-the-keyboard-using-the-native-views)
+* [Hide when tapping outside of the Entry control](#option-1:-hide-the-keyboard-when-tapping-outside-of-the-entry-control)
+* [Hide manually by using the Navive Views](#option-2:-manually-hide-the-keyboard-using-the-native-views)
 
-### Option 1: Hide the Keyboard When Tapping Outside of the Entry control
+### Option 1: Hide the Keyboard When Tapping Outside of the Entry Control
 
 To achieve this, set the `HideSoftInputOnTapped` property to the page where the Entry control is used. Here's an example:
 
