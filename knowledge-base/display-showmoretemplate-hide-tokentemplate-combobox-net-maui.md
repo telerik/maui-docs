@@ -21,8 +21,10 @@ I want to customize the ComboBox control in .NET MAUI to display only the ShowMo
 
 To achieve the desired scenario of hiding the tokens and only displaying the ShowMoreTemplate in the ComboBox control, you can follow these steps:
 
-**1.** Create a custom control. 
-**2.** Add a label to display the selected items count. 
+**1.** Create a custom control.
+
+**2.** Add a label to display the selected items count.
+
 **3.** Update the label's text inside the `SelectionChanged` event.
 
 ```C#
