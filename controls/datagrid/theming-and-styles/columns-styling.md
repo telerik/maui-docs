@@ -33,17 +33,18 @@ To style the `RadDataGridColumnHeader` use the following properties:
 * `Font Options` (`TextFontAttributes`, `TextFontFamily`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnHeader`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnHeader`.
 * `TextHorizontalOptions`(`LayoutOptions`)&mdash;Defines the horizontal options of the text part of the header. 
-
-    When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator as both elements are ordered in а certain way and modifying the position of any of them affects the other one.
-
-    For example, to position the column header text to "Center", you have to set the `SortDescriptor` position to `Center` as well:
-
-    ```XAML
-    <telerik:DataGridColumnHeaderStyle TextHorizontalOptions="Center"
-                                       SortIndicatorHorizontalOptions="Center" />
-    ```
-
 * `TextVerticalOptions`(`LayoutOptions`)&mdash;Defines the vertical options of the text part of the header.
+
+When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator as both elements are ordered in а defined way and modifying the position of any of them affects the other one.
+
+For example, to position the column header text to `Center`, you have to set the `SortDescriptor` position to `Center` as well:
+
+ ```XAML
+<telerik:DataGridColumnHeaderStyle TextHorizontalOptions="Center"
+                                   SortIndicatorHorizontalOptions="Center" />
+```
+
+Check below a quick example of a DataGrid with a `HeaderStyle`:
 
 <snippet id='datagrid-columnstyle-headerstyle'/>
 
