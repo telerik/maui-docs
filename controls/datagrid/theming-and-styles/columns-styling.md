@@ -55,8 +55,7 @@ In addition to the column header text, the column header can contain the followi
 
     ![Telerik DataGrid Filtering and Sorting indicators](../images/datagrid-styling-indicators-individual.png)
 
-
-    * `Universal`&mdash;A single indicator will be used when any data operation (filtering and/or sorting) is applied. In case sorting is applied, the sort indicator won't be displayed, only the universal indicator. In case filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+    * `Universal`&mdash;A single indicator will be used when any data operation (filtering, sorting or grouping) is applied. In case sorting is applied, the sort indicator won't be displayed, only the universal indicator. In case filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
 
     Check below how the indicators are displayed in `DataOperationIndicationMode`.`Universal`:
 
