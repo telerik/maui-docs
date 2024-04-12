@@ -35,7 +35,7 @@ To style the `RadDataGridColumnHeader` use the following properties:
 * `TextHorizontalOptions`(`LayoutOptions`)&mdash;Defines the horizontal options of the text part of the header. 
 * `TextVerticalOptions`(`LayoutOptions`)&mdash;Defines the vertical options of the text part of the header.
 
-When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator as both elements are ordered in а defined way and modifying the position of any of them affects the other one.
+When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator as both elements are ordered in a defined way and modifying the position of any of them affects the other one.
 
 For example, to position the column header text to `Center`, you have to set the `SortDescriptor` position to `Center` as well:
 
@@ -56,7 +56,7 @@ In addition to the column header text, the column header can contain the followi
     ![Telerik DataGrid Filtering and Sorting indicators](../images/datagrid-styling-indicators-individual.png)
 
 
-    * `Universal`&mdash;A single indicator will be used when any data operation (filtering and/or sorting) is applied. In case filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+    * `Universal`&mdash;A single indicator will be used when any data operation (filtering and/or sorting) is applied. In case sorting is applied, the sort indicator won't be displayed, only the universal indicator. In case filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
 
     Check below how the indicators are displayed in `DataOperationIndicationMode`.`Universal`:
 
