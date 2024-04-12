@@ -44,10 +44,6 @@ For example, to position the column header text to `Center`, you have to set the
                                    SortIndicatorHorizontalOptions="Center" />
 ```
 
-Check below a quick example of a DataGrid with a `HeaderStyle`:
-
-<snippet id='datagrid-columnstyle-headerstyle'/>
-
 >tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
 In addition to the column header text, the column header can contain the following indicators for sorting and filtering operations upon the DataGrid data: filter indicator, sort indicator and universal indicator. Use `RadDataGrid`'s `DataOperationIndicationMode` property to define what indicators to appear in the columns' headers:
@@ -96,6 +92,10 @@ Style the universal indicator using the following properties:
 * `IndicatorText`&mdash;Defines the text for the universal indicator part of the `ColumnHeader`.  
 * `IndicatorMargin`&mdash;Defines the margin of the universal indicator part of the `ColumnHeader`.
 * `Font Options`(`IndicatorFontAttributes`, `IndicatorFontFamily`, `IndicatorFontSize`)&mdash;Define the font options to the universal indicator text. 
+
+Check below a quick example of a DataGrid with a `HeaderStyle`:
+
+<snippet id='datagrid-columnstyle-headerstyle'/>
 
 ## CellContentStyle
 
