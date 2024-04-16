@@ -28,14 +28,14 @@ The styling mechanism is represented by the following properties:
 To style the `RadDataGridColumnHeader` use the following properties:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
-* `HoverBackgroundColor`&mdash;(Desktop only)Defines the background color when the mouse is over the column header. 
+* `HoverBackgroundColor`&mdash;(Desktop-only) Defines the background color when the mouse is over the column header. 
 * `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column header.
 * `Font Options` (`TextFontAttributes`, `TextFontFamily`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnHeader`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnHeader`.
 * `TextHorizontalOptions`(`LayoutOptions`)&mdash;Defines the horizontal options of the text part of the header. 
 * `TextVerticalOptions`(`LayoutOptions`)&mdash;Defines the vertical options of the text part of the header.
 
-When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator as both elements are ordered in a defined way and modifying the position of any of them affects the other one.
+When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator. Both elements are ordered in a defined way and modifying the position of any of them affects the other one.
 
 For example, to position the column header text to `Center`, you have to set the `SortDescriptor` position to `Center` as well:
 
@@ -46,16 +46,16 @@ For example, to position the column header text to `Center`, you have to set the
 
 >tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
-In addition to the column header text, the column header can contain the following indicators for sorting and filtering operations upon the DataGrid data: filter indicator, sort indicator and universal indicator. Use `RadDataGrid`'s `DataOperationIndicationMode` property to define what indicators to appear in the columns' headers:
+In addition to the column header text, the column header can contain the following indicators for sorting and filtering operations upon the DataGrid data: filter indicator, sort indicator and universal indicator. Use the `RadDataGrid`'s `DataOperationIndicationMode` property to define what indicators to appear in the columns' headers:
 
-* `DataOperationIndicationMode`(`Telerik.Maui.Controls.DataGrid.DataOperationIndicationMode`)&mdash;Defines what indicators will be used in columns' headers when sorting and filtering are applied. Possible options are:
-	* `Individual`&mdash;(default)An individual indicator with a unique appearance will be used when a data operation is applied. In case sorting is applied, sort indicator will appear, in case filtering is applied, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+* `DataOperationIndicationMode`(`Telerik.Maui.Controls.DataGrid.DataOperationIndicationMode`)&mdash;Defines what indicators will be used in the columns' headers when sorting and filtering are applied. The valid options are:
+	* `Individual`&mdash;(default) An individual indicator with a unique appearance will be used when a data operation is applied. If sorting is applied, a sort indicator will appear. If filtering is applied, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
 
     You can check how the individual indicators look on Windows below:
 
     ![Telerik DataGrid Filtering and Sorting indicators](../images/datagrid-styling-indicators-individual.png)
 
-    * `Universal`&mdash;A single indicator will be used when any data operation (filtering, sorting or grouping) is applied. In case sorting is applied, the sort indicator won't be displayed, only the universal indicator. In case filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+    * `Universal`&mdash;A single indicator will be used when any data operation (filtering, sorting or grouping) is applied. If sorting is applied, the sort indicator won't be displayed, only the universal indicator. If filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
 
     Check below how the indicators are displayed in `DataOperationIndicationMode`.`Universal`:
 
@@ -73,7 +73,7 @@ The `FilterIndicator` enables users to show the Filtering UI and filter the data
 
 >note By default, the filter indicator is represented by a string symbol that can be changed by using the `FilterIndicatorText` and `FilterIndicatorFontFamily` properties. 
 
-### Sort Indicators Styling
+### Sort Indicator Styling
 
 The `SortIndicator` appears once the `RadDataGridColumnHeader` is sorted (tapped/clicked on the `ColumnHeader` cell) and can be styled with the following properties:
 
