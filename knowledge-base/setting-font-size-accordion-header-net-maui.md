@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want to set the font size for the text inside the AccordionItemHeader in the Accordion for .NET MAUI.
+How can I set the font size for the text inside the `AccordionItemHeader` in the Accordion for .NET MAUI?
 
 ## Solution
 
