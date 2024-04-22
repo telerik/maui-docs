@@ -1,7 +1,7 @@
 ---
 title: Data Binding
 page_title: .NET MAUI AutoComplete Documentation - Data Binding
-description: Learn what are the options for data binding in Telerik UI Accordion for .NET MAUI control.
+description: Learn what are the options for data binding in Telerik UI AutoComplete for .NET MAUI control.
 position: 2
 slug: autocomplete-data-binding
 ---
@@ -18,7 +18,7 @@ The AutoComplete component provides a default template for suggestion items that
 
 ## Example
 
-Here is an example how the RadAutoComplete Data Binding works:
+Here is an example how the `RadAutoComplete` Data Binding works:
 
 **1.** Create the needed business objects, for example type Client with the following properties:
 
@@ -28,7 +28,7 @@ Here is an example how the RadAutoComplete Data Binding works:
 
 <snippet id='autocomplete-clients-viewmodel'/>
 
-**3.** Use the following snippet to declare a RadAutoComplete in XAML:
+**3.** Use the following snippet to declare a `RadAutoComplete` in XAML:
 
 <snippet id='autocomplete-data-binding'/>
 

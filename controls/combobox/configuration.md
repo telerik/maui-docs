@@ -53,11 +53,12 @@ and the result:
 
 To manage the drop-down of the ComboBox, use the following properties:
 
-* `DropDownWidth`(`double`)&mdash;Defines the width of the drop-down of the control.
-* `DropDownHeight`(`double`)&mdash;Defines the height of the drop-down of the control.
-* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
-* `IsDropDownOpen`(`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
-* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
+* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
+* `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
+* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. It is recommended to use `DropDownMaxHeight`. If you want to use both, the `DropDownHeight` value must be set to lower value than the `DropDownMaxHeight`.
+* `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
+* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 Here is an example that uses the `DropDownWidth` property:
 
@@ -66,6 +67,10 @@ Here is an example that uses the `DropDownWidth` property:
 Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
+
+Here is an example that uses the `DropDownMaxHeight` property:
+
+<snippet id='combobox-configuration-dropdownmaxheight'/>
 
 Here is an example that uses the `DropDownVerticalOffset` property:
 

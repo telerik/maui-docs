@@ -26,7 +26,8 @@ You can use any of the following TabView properties to change its look&amp;feel:
 In addition, TabView provides the listed below styling properties for modifying its elements - header, TabView items and content area.
 
 * `HeaderStyle`&mdash;Specifies the style of the entire header area (border, background color etc.);
-* `HeaderItemStyle`&mdash;Specifies the style of the individual header items (font, text color etc.)
+* `HeaderItemStyle` (`Style` with target type `TabViewHeaderItem`)&mdash;Specifies the style selector that chooses the style for the header items (font, text color etc.)
+* `HeaderItemStyleSelector`&mdash;Specifies the style of the individual header items (font, text color etc.). This property has a higher precedence than the `HeaderItemStyle` property.
 * `ContentStyle`&mdash;Specifies the style of the entire content area (borders, background color etc.);
 
 ## Header Styling
@@ -87,6 +88,28 @@ Here is the TabView after applying the `HeaderItemStyle`:
 ![.NET MAUI TabView Header Item Style](images/styling-headeritemstyle.png)
 
 > For a runnable example with the TabView `HeaderItemStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
+
+## Header Item Style Selector
+
+Through the `HeaderItemStyleSelector` property you can apply different style to each TabView header item. The target type of the Style must be `TabViewHeaderItem`.
+
+**1.** Define the TabView control:
+
+<snippet id='tabview-styling-headeritemstyleselector' />
+
+**2.** Define the `StylSelector` resources:
+
+<snippet id='tabview-styling-styleselector-resources' />
+
+**3.** Define the `StylSelector` class:
+
+<snippet id='tabview-header-styleselector-class' />
+
+Here is the TabView after applying the `HeaderItemStyleSelector`:
+
+![.NET MAUI TabView Header Item Style Selector](images/styling-headeritemstyleselector.png)
+
+> For a runnable example with the TabView `HeaderItemStyleSelector` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
 ## Content Styling
 

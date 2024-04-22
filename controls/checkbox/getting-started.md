@@ -62,6 +62,8 @@ public static class MauiProgram
 }           
 ```
 
+> For a runnable example with the CheckBox Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Getting Started** category.
+
 ## Additional Resources
 
 - [.NET MAUI CheckBox Product Page](https://www.telerik.com/maui-ui/checkbox)
@@ -71,6 +73,5 @@ public static class MauiProgram
 
 ## See Also
 
-- [Setting the Checkbox Size]({% slug checkbox-size %})
 - [Defining the Checked State]({% slug checkbox-checked-states %})
 - [Styling Options of the Checkbox]({% slug checkbox-styling%})

@@ -64,7 +64,20 @@ The image below shows the result at runtime displaying the defined Indeterminate
         * `NewValue`(`bool?`)&mdash;Gets the new value from the CheckBox state.
         * `OldValue`(`bool?`)&mdash;Gets the old value of the CheckBox state.
 
+## Commands
+
+* `Command` (`ICommand`)&mdash;Defines the command, which executes when the `IsChecked` property of the checkbox changes. Use `CommandParameter` to pass a parameter to the command execute method.
+
+Here is an example with the `CheckBox.Command`
+
+**1.** Define the CheckBox in XAML:
+
+<snippet id='checkbox-command-xaml' />
+
+**2.** Define the ViewModel:
+
+<snippet id='checkbox-command-viewmodel' />
+
 ## See Also
 
-- [Setting the Checkbox Size]({%slug checkbox-size %})
 - [Styling Options of the Checkbox]({%slug checkbox-styling%})

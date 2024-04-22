@@ -16,13 +16,16 @@ position: 6
 * `IsSelected` (`bool`)&mdash;Indicated whether the item is selected.
 * `IsEnabled` (`bool`)&mdash;Defines whether the TabView Item is enabled/disabled. By default `IsEnabled` is `True`.
 * `IsVisible` (`bool`)&mdash;Specifies whether the TabView Item is visible/hidden. 
-* `Content` (`Microsoft.Maui.Controls.View`)&mdash;Defines the content of the TabView Item.
+* `Content` (`Microsoft.Maui.Controls.View`)&mdash;Defines the content of the TabView Item. You can use any UI element that implements the View class.
+* `ContentTemplate` (`DataTemplate`)&mdash;Defines the content template that is displayed when the current tab is selected.
 
 ## Displaying TabViewItem
 
-To display a TabViewItem you can add it in the `Items` collection of `TabView`.
+To display a `TabViewItem` you can add it in the `Items` collection of `TabView` or using the [TabView ItemsSource]({%slug tabview-data-binding%}).
 
 #### Example
+
+The following example shows how to add TabView items directly to the Items collection:
 
 ```XAML
 <telerik:RadTabView x:Name="tabView">
@@ -34,9 +37,9 @@ To display a TabViewItem you can add it in the `Items` collection of `TabView`.
 
 ## Defining Content
 
-You can define the content of a TabViewItem via its `Content` property. It is of type `Microsoft.Maui.Controls.View`, so you can use any UI element that implements the View class.
+You can define the content of a `TabViewItem` via its `Content` property or `ContentTemplate` property. 
 
-#### Example
+#### Example with Content property
 
 <snippet id='tabview-getting-started-xaml' />
 
