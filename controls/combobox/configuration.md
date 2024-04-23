@@ -55,7 +55,7 @@ To manage the drop-down of the ComboBox, use the following properties:
 
 * `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
 * `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
-* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. It is recommended to use `DropDownMaxHeight`. If you want to use both, the `DropDownHeight` value must be set to lower value than the `DropDownMaxHeight`.
+* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined heigh for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be heigher.
 * `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
 * `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
 * `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
