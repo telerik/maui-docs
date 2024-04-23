@@ -8,7 +8,7 @@ slug: tabview-data-binding
 
 # .NET MAUI TabView Data Binding
 
-For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The TabView for .NET MAUI component supports data binding from Telerik .NET MAUI 7.0.0 version..
+For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The TabView for .NET MAUI component supports data binding starting with the Telerik .NET MAUI 7.0.0 version.
 
 * `ItemsSource`(`IEnumerable`)&mdash;Defines the items source from which TabView items are generated.
 
@@ -16,7 +16,7 @@ In a combination with the `ItemsSource`, the developer has to define the `ItemTe
 
 ## Data Binding Example
 
-Here is an example with TabView and Data Binding:
+Here is an example showing how to bind the TabView to a data source:
 
 **1.** Define the TabView control:
 

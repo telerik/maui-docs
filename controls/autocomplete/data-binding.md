@@ -1,7 +1,7 @@
 ---
 title: Data Binding
 page_title: .NET MAUI AutoComplete Documentation - Data Binding
-description: Learn what are the options for data binding in Telerik UI AutoComplete for .NET MAUI control.
+description: Learn what are the options for data binding in the Telerik UI AutoComplete for .NET MAUI control.
 position: 2
 slug: autocomplete-data-binding
 ---

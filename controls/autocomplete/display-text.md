@@ -1,7 +1,7 @@
 ---
 title: DisplayText Formatting
 page_title: .NET MAUI Autocomplete Documentation - DisplayText Formatter
-description: Check our &quot;DisplayText Formatter&quot; documentation article for Telerik .NET MAUI AutoComplete control.
+description: Check our &quot;DisplayText Formatter&quot; documentation article for the Telerik .NET MAUI AutoComplete control.
 position: 3
 slug: autocomplete-display-text-formatter
 ---

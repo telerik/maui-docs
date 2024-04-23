@@ -45,7 +45,7 @@ When migrating the TabView from Xamarin to .NET MAUI, consider the following dif
 | N/A | `HeaderItemStyleSelector` |
 | N/A | `ContentStyle` |
 
-In Xamarin the `TabViewHeaderItem` is part of the `TabViewItem` while in .NET MAUI the `TabViewHeader` is part of the `RadTabView`. Here is the API for the `TabViewItem`:
+In Xamarin, the `TabViewHeaderItem` is part of the `TabViewItem`, while in .NET MAUI, the `TabViewHeader` is part of the `RadTabView`. Here is the API for the `TabViewItem`:
 
 | Xamarin TabView | .NET MAUI TabView |
 | ------------- | --------------- |

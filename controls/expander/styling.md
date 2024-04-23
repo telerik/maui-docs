@@ -12,9 +12,9 @@ The purpose of this help article is to show you how to style the Telerik .NET MA
 
 ## Border Styling
 
-You can apply `BorderColor` and `BorderThickness` properties of `RadExpander` to make it compatible with the design of your app.
+You can apply the `BorderColor` and `BorderThickness` properties of the `RadExpander` to make it match your app's design.
 
->note ExpanderHeader also provides means for customizing its border, you can learn more about this in the [ExpanderHeader: Border Styling]({%slug expander-header%}#border-styling) article.
+>note `ExpanderHeader` also provides means for customizing its border, you can learn more about this in the [`ExpanderHeader`: Border Styling]({%slug expander-header%}#border-styling) article.
 
 Check the example below on how the border settings can be defined:
 
@@ -24,13 +24,13 @@ Check the example below on how the border settings can be defined:
 
 ## Header Styling
 
-To style the header of the Expander control use the `HeaderStyle` property (of type `Style` with target type `Telerik.Maui.Controls.ExpanderHeader`).
+To style the header of the Expander control, use the `HeaderStyle` property (of type `Style` with target type `Telerik.Maui.Controls.ExpanderHeader`).
 
 The following code shows how to declare the `HeaderStyle` property in the Expander:
 
 <snippet id='expander-features-header-style'/>
 
-And the result:
+This is the result:
 
 ![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
 
@@ -38,13 +38,13 @@ And the result:
 
 ## Header Text Styling
 
-To customize the text inside the header you have to use the `HeaderTextStyle` property (`Style` with target type `Label`). If `HeaderTextStyle` is not set, the text inside is bold by default.
+To customize the text inside the header, use the `HeaderTextStyle` property (`Style` with target type `Label`). If `HeaderTextStyle` is not set, the text inside is bold by default.
 
 The following code shows how to declare the `HeaderTextStyle` property in the Expander:
 
 <snippet id='expander-features-headertext-styling'/>
 
-And the result:
+This is the result:
 
 ![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
 

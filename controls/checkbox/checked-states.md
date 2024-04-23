@@ -66,7 +66,9 @@ The image below shows the result at runtime displaying the defined Indeterminate
 
 ## Commands
 
-* `Command` (`ICommand`)&mdash;Defines the command, which executes when the `IsChecked` property of the checkbox changes. Use `CommandParameter` to pass a parameter to the command execute method.
+The Telerik .NET MAUI CheckBox allows you to attach a command that executes when the `IsChecked` property changes. 
+
+* `Command` (`ICommand`)&mdash;Defines the command, which executes when the `IsChecked` property of the checkbox changes. Use `CommandParameter` to pass a parameter to the command execute method. The `Command` is available in .NET 8.
 
 Here is an example with the `CheckBox.Command`
 

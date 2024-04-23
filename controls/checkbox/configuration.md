@@ -57,7 +57,7 @@ The Checkbox control provides an attached property `ToggleOnTap`. when attaching
 
 <snippet id='checkbox-toggle-on-tap' />
 
-> For a runnable example with the CheckBox ToggleOnTap scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Features** category.
+> For a runnable example with the CheckBox `ToggleOnTap` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Features** category.
 
 ## See Also
 

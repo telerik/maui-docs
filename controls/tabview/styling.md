@@ -91,7 +91,7 @@ Here is the TabView after applying the `HeaderItemStyle`:
 
 ## Header Item Style Selector
 
-Through the `HeaderItemStyleSelector` property you can apply different style to each TabView header item. The target type of the Style must be `TabViewHeaderItem`.
+Through the `HeaderItemStyleSelector` property you can apply different styles to each TabView header item. The target type of the Style must be `TabViewHeaderItem`.
 
 **1.** Define the TabView control:
 
