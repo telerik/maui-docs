@@ -35,10 +35,6 @@ Before adding the CollectionView, you need to:
 <snippet id='collectionview-gettingstarted-xaml'/>
 <snippet id='collectionview-getting-started-csharp'/>
 
-> The CollectionView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To prevent breaking the UI virtualization or gesture mechanisms:
->* Do not place the CollectionView inside a `ScrollView`.
->* Do not set the CollectionView to a `RowDefinition Height="Auto"` Grid definition.
-
 **3.** Add the `telerik` namespace:
 
 ```XAML
@@ -73,7 +69,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+}
 ```
 
 > For a runnable demo with the CollectionView Getting Started example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Getting Started** category.

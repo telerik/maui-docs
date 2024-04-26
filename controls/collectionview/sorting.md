@@ -13,12 +13,12 @@ The CollectionView control allows you to sort the visualized data. To configure 
 
 ## Property Sort Descriptor
 
-You can sort the data by a property value from the class that defines your business items. The `CollectionViewPropertySortDescriptor` exposes the following properties:
+You can sort the data by a property value from the class that defines your business items. The `PropertySortDescriptor` exposes the following properties:
 
 - `PropertyName`&mdash;Defines the string name of the property that is used to retrieve the key to sort by.
 - `SortOrder`&mdash;Specifies sort order to ascending or descending.
 
-The following example demonstrates how to define the CollectionViewPropertySortDescriptor.
+The following example demonstrates how to define the `PropertySortDescriptor`.
 
 **1.** Define the `RadCollectionView` in XAML:
 
@@ -42,14 +42,15 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Delegate Sort Descriptor
 
-The `CollectionViewDelegateSortDescriptor` enables you to sort by a custom key (for example, a complex expression combining two or more properties) and avoid being limited by the value of a single property. This descriptor exposes the following properties:
+The difference between the `DelegateSortDescriptor` and the `PropertySortDescriptor` is that the `DelegateSortDescriptor` sorts the data by a custom key, while the `PropertySortDescriptor` sorts the data by a defined key, which is a property from the model.
 
-- `SortOrder`&mdash;Sets the sort order to ascending or descending.
-- `Comparer`&mdash;Defines the `Compare` method used by the internal [`IComparer`](https://docs.microsoft.com/en-us/dotnet/api/system.collections.icomparer).
+The `DelegateSortDescriptor` exposes the following properties:
 
-## Bindable Sort Descriptors
+* `KeyLookup`&mdash;Gets or sets the `IKeyLookup` instance that is used to retrieve the sort key for each data item.
+* `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
 
-The `SortDescriptors` collection of the CollectionView supports binding, which means you can modify the sort descriptors directly from the view model.
+To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookUp` property.
+
 
 ## See Also
 

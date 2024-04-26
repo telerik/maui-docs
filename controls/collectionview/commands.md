@@ -13,8 +13,8 @@ The .NET MAUI CollectionView provides various commands that are listed in the fo
 
 | Commands | Definition |
 | -------- | ---------- |
-| `ItemTappedCommand`(`ICommand`) | Specifies a command to execute when an item is tapped. The command accepts a single parameter with the item being held. |
-| `ItemHoldingCommand`(`ICommand`) | Specifies a command to execute when an item is held. The command accepts a single parameter with the item being held. |
+| `ItemTappedCommand`(`ICommand`) | Specifies a command to execute when an item is tapped. The command accepts a single parameter with the item being tapped. |
+| `GroupItemTappedCommand`(`ICommand`) | Specifies a command to execute when a group item is tapped. The command accepts a single parameter with the group item being tapped. |
 
 >tip Commands action correspond to the events exposed by the CollectionView. For more details, see the [Events]({%slug collectionview-events%}) topic.
 

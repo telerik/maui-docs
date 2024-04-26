@@ -9,7 +9,7 @@ tags: group, collectionview, groupdescriptor, multilevel, nested grouping, maui,
 
 # .NET MAUI CollectionView Multi-Level Grouping
 
-This article demonstrates how to enable multi-level grouping in the CollectionView control. The sample implementation below uses multiple `CollectionViewPropertyGroupDescriptor` definitions:
+This article demonstrates how to enable multi-level grouping in the CollectionView control. The sample implementation below uses multiple `PropertyGroupDescriptor` definitions:
 
 **1.** Define the following business object:
 

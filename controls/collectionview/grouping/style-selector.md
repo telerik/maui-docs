@@ -12,10 +12,9 @@ The .NET MAUI CollectionView component exposes a conditional styling feature tha
 
 Apply conditional styling to the group header and group footer by setting the following properties:
 
-* `GroupHeaderStyleSelector` (`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
-* `GroupFooterStyleSelector` (`Style` with target type `CollectionViewGroupFooterItemView`)&mdash;Specifies the style applied to the group footer when the `Footer` property is set and `IsGroupFooterVisible` is set to `true`.
+* `GroupContainerStyleSelector` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group container when grouping is applied.
 
-The following example shows how to use the `ItemStyleSelector`:
+The following example shows how to use the `GroupContainerStyleSelector`:
 
 **1.** Define the following business object:
 
@@ -25,9 +24,9 @@ The following example shows how to use the `ItemStyleSelector`:
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with the `GroupHeaderStyleSelector` and `GroupFooterStyleSelector` set:
+**3.** Add the `RadCollectionView` definition with the `GroupContainerStyleSelector` set:
 
-<snippet id='collectionview-group-style-selector' />
+<snippet id='collectionview-group-container-styleselector' />
 
 **4.** Include the `telerik` namespace:
 
@@ -35,15 +34,11 @@ The following example shows how to use the `ItemStyleSelector`:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**5.** Add the following styles to the page's resource for `GroupHeaderStyleSelector`:
+**5.** Add the following styles to the page's resource for `GroupContainerStyleSelector`:
 
-<snippet id='collectionview-group-header-styleselector' />
+<snippet id='collectionview-group-styleselector-resources' />
 
-**6.**  Add the following styles to the page's resource for `GroupFooterStyleSelector`:
-
-<snippet id='collectionview-group-footer-styleselector' />
-
-> For a runnable example demonstrating the CollectionView GroupHeader and GroupFooter StyleSelectors, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
+> For a runnable example demonstrating the CollectionView GroupContainer StyleSelectors, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also
 

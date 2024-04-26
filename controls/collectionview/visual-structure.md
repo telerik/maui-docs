@@ -12,7 +12,7 @@ Here are described all visual elements used in the CollectionView for .NET MAUI.
 
 ## CollectionView Visual Structure
 
-![.NET MAUI CollectionView Visual Structure](images/collectionview-visual-stucture.png "Visual elements of CollectionView control")
+![.NET MAUI CollectionView Visual Structure](images/collectionview-visual-structure.png "Visual elements of CollectionView control")
 
 ## Legend
 

@@ -14,27 +14,29 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 ## Key Features
 
-[Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
+* [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
 
 * [Item appearance]({%slug collectionview-item-appearance%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
 
+* [Different orientation]({%slug %})&mdash;CollectionView supports vertical and horizontal orientation. This allows you to scroll the items vertically or horizontally.
+
 * [Grouping]({%slug collectionview-grouping%})&mdash;You can group the items by using the exposed properties. In addition, you can apply multi-level (nested) grouping.
 
-* [Group headers]({%slug collectionview-group-header%}) and [group footers]({%slug collectionview-group-footer%})&mdash;While grouping the items in the CollectionView, you can visualize group headers and footers and customize their appearance.
+* [Group headers]({%slug collectionview-group-header%})&mdash;While grouping the items in the CollectionView, group header is visualized, In addition you can customize its appearance by using a template.
 
 * [Sorting]({%slug collectionview-sorting%})&mdash;CollectionView allows you to sort the data based on your criteria.
 
 * [Filtering]({%slug collectionview-filtering%})&mdash;You can filter the items in the CollectionView by using the DelegateFilterDescriptor.
 
-* [Scroll bar visibility]({%slug collectionview-scrolling%}#vertical-scrolling)&mdash;You can define whether the vertical scrollbar will be visible while scrolling through the items. 
+* [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group header item.
 
-* [Header and footer]({%slug collectionview-header-footer%})&mdash;You can add content above and below the list with the items. Both header and footer content are scrolled along with the CollectionView items.
+* [Programmatic scrolling]({%slug %})&mdash;CollectionView provides an API that allows you to scroll to a specific item.
 
-* [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items, groups, header, and footer. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
+* [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items and groups. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
 
-* [Empty Template]({%slug collectionview-empty-template%})&mdash;When the `ItemsSource` is null or the collection is empty, you can specify a template that provides user feedback.
+* [Empty template]({%slug collectionview-empty-template%})&mdash;When the `ItemsSource` is null or the collection is empty, you can specify a template that provides user feedback.
 
-* Customization templates&mdash;CollectionView provides various templates that allow you to customize the header and footer and the group header and footer.
+* [Commands support]({%slug datepicker-commands%})&mdash;The CollectionView exposes commands that executes when tapping on an item or on a group header.
 
 ## Next Steps
 

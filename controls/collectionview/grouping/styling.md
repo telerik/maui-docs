@@ -11,12 +11,11 @@ tags: style, group, collectionview, maui, dotnet maui
 
 To style the group header and the footer, set the following properties:
 
-* `GroupHeaderStyle` (`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
-* `GroupFooterStyle` (`Style` with target type `CollectionViewGroupFooterItemView`)&mdash;Specifies the style applied to the group footer when the `Footer` property is set and `IsGroupFooterVisible` is set to `true`.
+* `GroupContainerStyle` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group header when grouping is applied.
 
-The `GroupHeaderStyle` has a `ExpandButtonStyle` property that allows you to style the expand button.
+The `GroupContainerStyle` has a `ExpandCollapseIndicatorStyle` property that allows you to style the expand button. The `ExpandCollapseIndicatorStyle` (`Style` with target type `Label`).
 
-The following example shows how to use the `GroupHeaderStyle`:
+The following example shows how to use the `GroupContainerStyle`:
 
 **1.** Define the following business object:
 
@@ -26,9 +25,9 @@ The following example shows how to use the `GroupHeaderStyle`:
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with the `GroupHeaderStyle` set:
+**3.** Add the `RadCollectionView` definition with the `GroupContainerStyle` set:
 
-<snippet id='collectionview-group-styling' />
+<snippet id='collectionview-group-container-style' />
 
 **4.** Include the `telerik` namespace:
 
@@ -36,11 +35,11 @@ The following example shows how to use the `GroupHeaderStyle`:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**5.** Add the following style for the `GroupHeaderStyle` to the page's resource:
+**5.** Add the following style for the `GroupContainerStyle` to the page's resource:
 
-<snippet id='contentview-group-styling-resources' />
+<snippet id='contentview-group-container-style-resources' />
 
-**6.** Add the following style for the `ExpandButtonStyle` to the page's resource:
+**6.** Add the following style for the `ExpandCollapseIndicatorStyle` to the page's resource:
 
 <snippet id='collectionview-group-expand-collapse-button-resources' />
 

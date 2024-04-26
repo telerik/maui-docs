@@ -9,12 +9,14 @@ tags: group, collectionview, groupdescriptor, dotnet maui, maui, grouping items
 
 # .NET MAUI CollectionView Delegate Group Descriptor
 
-enables you to group the CollectionView items by a custom key (for example, some complex expression combining two or more properties) instead of by the value of a single property. This descriptor exposes the following properties:
+The difference between the `DelegateGroupDescriptor` and the [PropertyGroupDescriptor]({%slug collectionview-property-group-descriptor%}) is that the `DelegateGroupDescriptor` groups data by a custom key, while the `PropertyGroupDescriptor` groups by a defined key which is a property from the model.
 
-- `KeyExtractor`&mdash;Defines the `(Func<object, object)` delegate which returns the property to retrieve the group key for each data item.
-- `SortOrder`(enum of type `Telerik.Maui.Controls.CollectionView.CollectionViewSortOrder`)&mdash;Specifies the sort order of the grouped items. The available options are: `Ascending` or `Descending`.
+This descriptor exposes the following properties:
 
-The following example demonstrates how to group the items in the CollectionView by using the `CollectionViewDelegateGroupDescriptor`.
+- `KeyLookup`&mdash;Defines the `IKeyLookup` instance that is used to retrieve the group key for each data item.
+- `SortOrder`(enum of type `Telerik.Maui.Controls.Data.SortOrder`)&mdash;Specifies the sort order of the grouped items. The available options are: `Ascending` or `Descending`.
+
+The following example demonstrates how to group the items in the CollectionView by using the `DelegateGroupDescriptor`.
  
 **1.** Define the following business object:
 
@@ -24,7 +26,7 @@ The following example demonstrates how to group the items in the CollectionView 
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with `CollectionViewDelegateGroupDescriptor`:
+**3.** Add the `RadCollectionView` definition with `DelegateGroupDescriptor`:
 
 <snippet id='collectionview-property-group-descriptor' />
 
@@ -33,6 +35,14 @@ The following example demonstrates how to group the items in the CollectionView 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
+
+**5.** Define the Custom IKeyLookup:
+
+<snippet id='collectionview-delegate-grouping-keyextractor-function' />
+
+**5.** Add the `DelegateGroupDescriptor` to the `RadCollectionView`:
+
+<snippet id='collectionview-delegate-grouping' />
 
 > For a runnable demo with the CollectionView DelegateGroupDescriptor, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
 

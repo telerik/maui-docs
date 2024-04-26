@@ -13,26 +13,31 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 
 ## Item Events
 
-* `ItemTapped`&mdash;Raised when an item is tapped. The `ItemTapped` event handler receives two parameters:
+* `ItemTapped`&mdash;Raised when the user taps on the item. The `ItemTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `ItemViewTappedEventArgs` object, which has a reference to:
-		* the tapped item through its `Item`(`object`) property.
-		* the tapped `View`(`ItemView`).
-		* the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the tap event. When set to `true`, the default handling of the tap event is not executed. When set to `false`, the default handling of the tap event is executed.
+	* A `TappedEventArgs` object, which has a reference to:
+		* the tapped item through its `Data`(`T`) property.
 
-> The `ItemTapped` event is raised when tapping on the following elements: CollectionView item, Group header and footer and CollectionView header and footer. 
-
-* `ItemHolding`&mdash;Raised when an item is held. The `ItemHolding` event handler receives two parameters:
+* `GroupItemTapped`&mdash;Raised when the user taps on the group item. The `GroupItemTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `ItemViewHoldingEventArgs` object which has a reference to:
-		* the tapped item through its `Item`(`object`) property.
-		* the tapped `View`(`ItemView`).
-		* the `Handled`(`bool`) property&mdash;Indicates whether the event handler has already handled the hold event. When set to `true`, the default handling of the hold event is not executed. When set to `false`, the default handling of the hold event is executed.
+	* A `TappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupItemContext>` object, which has a reference to:
+		* the tapped group item through its `Data`(`T`) property.
+		* the `GroupItemContext` reprsents the object that is passed to the `TappedEventArgs ` for the `GroupItemTapped` and the item you have for the `GroupContainerStyleSelector` and `GroupHeaderTemplate`. The `GroupItemContext` includes the following properties:
+				* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
+				* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
+				* `Key` (`object`): Gets the specific for the group key.
+				* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
-* `ItemsSourceChanged`&mdash;Raised when `ItemsSource` has changed. The `ItemsSourceChanged` event handler receives two parameters:
-	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* An `EventHandler` object.
+## Scrolling Events
 
+* The CollectionView exposes a `Scrolled` event that is invoked when scrolling is performed. 
+
+The CollectionView provides the `Scrolled` event, which is raised when scrolling is performed. The `Scrolled` event handler receives two parameters:
+
+* The sender argument, which is the `RadCollectionView` control.
+* A `ScrolledEventArgs` object, which provides the following properties:
+	* `ScrollX` (`double`)&mdash;The X position of the finished scroll.
+	* `ScrollY` (`double`)&mdash;The Y position of the finished scroll.
 
 ## Example: Adding ItemTapped Event
 

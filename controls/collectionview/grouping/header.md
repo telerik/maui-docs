@@ -11,7 +11,7 @@ tags: group, collectionview, groupdescriptor, custom group header
 
 The CollectionView has a default group header that is displayed when grouping is applied.
 
-The `BindingContext` of the `GroupHeader` is a complex object and it includes the following properties:
+The `BindingContext` of the `GroupHeader` is a complex object `GroupItemContext` and includes the following properties:
 
 - `IsExpanded`&mdash;Defines a value indicating whether the group is currently expanded (has its child items visible).
 - `Items`&mdash;Gets the child items of the group.
@@ -22,12 +22,12 @@ The `BindingContext` of the `GroupHeader` is a complex object and it includes th
 
 The CollectionView control for .NET MAUI provides the following styling properties for customizing the appearance of its header:
 
-* `GroupHeaderStyle`(`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header.
-* `GroupHeaderStyleSelector`(`Style` with target type `CollectionViewGroupFHeaderItemView`)&mdash;Specifies the style selector for the group header.
+* `GroupContainerStyle`(`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group header.
+* `GroupContainerStyleSelector`(`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style selector for the group header.
 
 ## Customizing the Group Header
 
-You can change the default look of the group header so that it matches your use case and style. To achieve this, define custom templates by setting the `GroupHeaderTemplate` property.
+You can change the default look of the group header so that it matches your use case and style. To achieve this, define custom templates by setting the `GroupHeaderTemplate` (`DataTemplate`) property.
 
 The following example demonstrates how to customize the group header by using the `GroupHeaderTemplate`.
 
@@ -41,7 +41,7 @@ The following example demonstrates how to customize the group header by using th
 
 **3.** Add the `RadCollectionView` definition with `GroupHeaderTemplate`:
 
-<snippet id='collectionview-group-header-footer' />
+<snippet id='collectionview-group-header-template' />
 
 **4.** Include the `telerik` namespace:
 

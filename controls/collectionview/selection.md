@@ -12,7 +12,7 @@ The CollectionView for .NET MAUI exposes the Selection feature, which allows the
 
 ## Selection Mode
 
-The CollectionView provides three selection modes, which allow you to manipulate the selection type. This is controlled by the `SelectionMode` (`Microsoft.Maui.Controls.SelectionMode`) property which has the following entries:
+The CollectionView provides three selection modes, which allow you to manipulate the selection type. This is controlled by the `SelectionMode` (`Telerik.Maui.Controls.CollectionView.CollectionViewSelectionMode`) property which has the following entries:
 
 - `None`&mdash;The users cannot select an item.
 - `Single` (default)&mdash;The users can select only one item.
@@ -48,7 +48,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Selected Items Collection
 
-The CollectionView provides the `SelectedItems` collection of type `IList`. The collection contains the items that are currently selected in the control.
+The CollectionView provides a read-only collection&mdash;`SelectedItems` of type `ObservableCollection<object>`. The collection contains the items that are currently selected in the control.
 
 The following example demonstrates how to configure the CollectionView control for Multiple Selection by using the `SelectedItems` collection.
 
@@ -76,8 +76,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The CollectionView provides the `SelectionChanged` event, which is raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:
 
-* The sender argument, which is of type `object`, but can be cast to the `RadCollectionVieww` type.
-* A `EventArgs` object, which provides information on the `SelectionChanged` event.
+* The sender argument, which is the `RadCollectionView` control.
+* A `RadSelectionChangedEventArgs` object, which provides the following properties:
+	* `RemovedItems` (`IEnumerable<object>`)&mdash;The deselected items.
+	* `AddedItems` (`IEnumerable<object>`)&mdash;The selected items.
 
 ## See Also
 

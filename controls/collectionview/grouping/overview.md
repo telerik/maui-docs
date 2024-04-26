@@ -11,8 +11,8 @@ tags: group, collectionview, grouping
 
 The .NET MAUI CollectionView provides you with the functionality to programmatically group its data at runtime. You can programmatically group the data by adding group descriptors to the  `RadCollectionView.GroupDescriptors` collection. To achieve this, use the following descriptors:
 
-* [`CollectionViewPropertyGroupDescriptor`]({%slug collectionview-property-group-descriptor%})&mdash;Uses a property from the model as a group key.
-* [`CollectionViewDelegateGroupDescriptor`]({%slug collectionview-delegate-group-descriptor%})&mdash;Enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. 
+* [`PropertyGroupDescriptor`]({%slug collectionview-property-group-descriptor%})&mdash;Uses a property from the model as a group key.
+* [`DelegateGroupDescriptor`]({%slug collectionview-delegate-group-descriptor%})&mdash;Enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. 
 
 ## Group Header
 
@@ -26,17 +26,11 @@ The control supports groups expand and collapse operations through the UI by tap
 
 Users can control the `GroupDescriptors` collection by using MVVM.
 
-## Group Footer
+## Styling the Group Header 
 
-The CollectionView has support for a group footer. You can visualize the footers by setting the `IsGroupFooterVisible` to `True`. For more details, refer to the [Group Footer]({%slug collectionview-group-footer%}) article.
+Style the group header by setting the following properties:
 
-## Styling the Group Header and Footer
-
-Style the group header and the footer by setting the following properties:
-
-* `GroupHeaderStyle` (`Style` with target type `CollectionViewGroupHeaderItemView`)&mdash;Specifies the style applied to the group header when grouping is applied.
-* `GroupFooterStyle` (`Style` with target type `CollectionViewFooterItemView`)&mdash;Specifies the style applied to the footer when the `Footer` property is set and `IsFooterVisible` is set to `true`.
-
+* `GroupContainerStyle` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group header when grouping is applied.
 
 ## See Also
 
