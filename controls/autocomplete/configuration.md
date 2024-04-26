@@ -64,8 +64,8 @@ By default the search is triggered as soon as the user types into the input fiel
 ## SuggestionView Visibility
 
 * `ShowSuggestionView` (`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
-* `SuggestionViewHeight` (`double`)&mdash;Defines the height of the SuggestionView.
-* `SuggestionViewMaxHeight` (`double`)&mdash;Defines the max height of the SuggestionView.
+* `SuggestionViewHeight` (`double`)&mdash;Defines the height of the `SuggestionView`.
+* `SuggestionViewMaxHeight` (`double`)&mdash;Defines the max height of the `SuggestionView`. Always set the `SuggestionViewMaxHeight`, so that you can have a predefined heigh for the suggestion view. If using both the `SuggestionViewMaxHeight` and `SuggestionViewHeight` properties, the max height value must be heigher.
 * `SuggestionViewBorderColor` (`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
 * `SuggestionViewBorderThickness` (`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.
 * `SuggestionViewCornerRadius` (`Thickness`)&mdash;Defines the corner radius applied to the suggestion view.

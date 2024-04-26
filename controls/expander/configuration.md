@@ -22,35 +22,17 @@ You can either apply `HeaderText` property or use the `ExpanderHeader` content c
 
 <snippet id='expander-features-headerlocation'/>
 
+This is the result:
+
 ![.NET MAUI Expander Header location](images/expander-header-location.png "Expander header location")
+
+> For a runnable example with the Expander Header Location scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Expander > Features** category.
 
 ## Animation While Expanding or Collapsing
 
 To enable or disable the animation you need to use the `IsAnimationEnabled` property of `RadExpander`. By default, the Animation is enabled.
 
 You can also customize the duration and easing (acceleration over time) through `AnimationDuration`(in ms) and `AnimationEasing` (of type *Microsoft.Maui.Easing*) properties.
-
-## Border Styling
-
-You can apply `BorderColor` and `BorderThickness` properties of `RadExpander` to make it compatible with the design of your app.
-
->note ExpanderHeader also provides means for customizing its border, you can learn more about this in the [ExpanderHeader: Border Styling]({%slug expander-header%}#border-styling) article.
-
-Check the example below on how the border settings can be defined:
-
-<snippet id='expander-features-borderstyling'/>
-
-## Header Text Styling
-
-To customize the text inside the header you have to use the `HeaderTextStyle` property. If `HeaderTextStyle` is not set, the text inside is bold by default.
-
-The following code shows how to declare the `HeaderTextStyle` property in the Expander:
-
-<snippet id='expander-features-headertext-styling'/>
-
-And the result:
-
-![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
 
 ## See Also
 

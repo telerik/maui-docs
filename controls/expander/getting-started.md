@@ -69,6 +69,8 @@ Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.U
  }           
 ```
 
+> For a runnable example with the Expander Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Expander > Getting Started** category.
+
 ## Additional Resources
 
 - [.NET MAUI Expander Product Page](https://www.telerik.com/maui-ui/expander)
