@@ -32,7 +32,7 @@ The following code shows how to declare the `HeaderStyle` property in the Expand
 
 This is the result:
 
-![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
+![.NET MAUI Expander Header Styling](images/expander-header-styling.png "Expander Header Text Styling")
 
 > For a runnable example with the Expander Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Expander > Features** category.
 
@@ -46,7 +46,7 @@ The following code shows how to declare the `HeaderTextStyle` property in the Ex
 
 This is the result:
 
-![.NET MAUI Expander Header Text styling](images/expander-styling.png "Expander Header Text Styling")
+![.NET MAUI Expander Header Text Styling](images/expander-styling.png "Expander Header Text Styling")
 
 > For a runnable example with the Expander Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Expander > Features** category.
 

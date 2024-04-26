@@ -30,9 +30,9 @@ Here is an example showing how to bind the TabView to a data source:
 
 <snippet id='tabview-databinding-viewmodel' />
 
-Here is the TabView after applying the `HeaderItemStyleSelector`:
+Here is the TabView after `DataBinding` scenario:
 
-![.NET MAUI TabView Header Item Style Selector](images/styling-headeritemstyleselector.png)
+![.NET MAUI TabView DataBinding](images/tabview-databinding.gif)
 
 > For a runnable example with the TabView Data Binding scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Features**.
 

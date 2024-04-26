@@ -52,10 +52,6 @@ public class ViewModel : NotifyPropertyChangedBase
 }
 ```
 
-The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
-
-![CheckBox States Configuration](images/checkbox-features.png)
-
 ## Events
 
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
@@ -79,6 +75,10 @@ Here is an example with the `CheckBox.Command`
 **2.** Define the ViewModel:
 
 <snippet id='checkbox-command-viewmodel' />
+
+Here is the result:
+
+![CheckBox Command](images/checkbox-command.gif)
 
 ## See Also
 

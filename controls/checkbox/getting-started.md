@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Checkbox Getting Started](images/checkbox-getting-started.png)
+![.NET MAUI Checkbox Getting Started](images/checkbox-getting-started.png)
 
 ## Prerequisites
 

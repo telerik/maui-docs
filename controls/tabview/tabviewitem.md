@@ -39,7 +39,7 @@ The following example shows how to add TabView items directly to the Items colle
 
 You can define the content of a `TabViewItem` via its `Content` property or `ContentTemplate` property. 
 
-#### Example with Content Property
+### Example with Content Property
 
 <snippet id='tabview-getting-started-xaml' />
 
