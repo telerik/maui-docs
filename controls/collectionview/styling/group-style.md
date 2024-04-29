@@ -27,7 +27,7 @@ The following example shows how to use the `GroupViewStyle`:
 
 **3.** Add the `RadCollectionView` definition with the `GroupViewStyle` set:
 
-<snippet id='collectionview-group-container-style' />
+<snippet id='collectionview-groupview-style' />
 
 **4.** Include the `telerik` namespace:
 
@@ -37,11 +37,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the following style for the `GroupViewStyle` to the page's resource:
 
-<snippet id='contentview-group-container-style-resources' />
+<snippet id='contentview-groupview-style-resources' />
 
 **6.** Add the following style for the `ExpandCollapseIndicatorStyle` to the page's resource:
 
-<snippet id='collectionview-group-expand-collapse-button-resources' />
+<snippet id='collectionview-group-expand-collapse-indicator-resources' />
 
 > For a runnable example demonstrating the CollectionView GroupView Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling**.
 

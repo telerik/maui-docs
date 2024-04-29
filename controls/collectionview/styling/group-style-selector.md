@@ -26,7 +26,7 @@ The following example shows how to use the `GroupViewStyleSelector`:
 
 **3.** Add the `RadCollectionView` definition with the `GroupViewStyleSelector` set:
 
-<snippet id='collectionview-group-container-styleselector' />
+<snippet id='collectionview-groupview-styleselector' />
 
 **4.** Include the `telerik` namespace:
 

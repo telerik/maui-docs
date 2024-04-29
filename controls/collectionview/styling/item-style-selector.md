@@ -24,7 +24,7 @@ The following example shows how to use the `ItemViewStyleSelector`:
 
 **3.** Add the `RadCollectionView` definition with the `ItemViewStyleSelector` set:
 
-<snippet id='collectionview-item-container-styleselector' />
+<snippet id='collectionview-itemview-styleselector' />
 
 **4.** Include the `telerik` namespace:
 
@@ -34,7 +34,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the following styles to the page's resource:
 
-<snippet id='collectionview-item-styleselector-resources' />
+<snippet id='collectionview-itemview-styleselector-resources' />
 
 **6.** Implement the conditional styling:
 

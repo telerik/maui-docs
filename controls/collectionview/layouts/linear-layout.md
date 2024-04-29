@@ -11,17 +11,17 @@ tags: .net maui, collectionview, layout, vertical, horizontal
 
 The CollectionView control supports linear layout though its `ItemsLayout` property. The `ItemsLayout` accepts values of type `ItemsLayoutBase` which is a base class.
 
-Linear layout is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `LinearItemsLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
+Linear layout is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `CollectionViewLinearLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
 
 ```XAML
 <telerik:RadCollectionView>
     <telerik:RadCollectionView.ItemsLayout>
-        <telerik:LinearItemsLayout />
+        <telerik:CollectionViewLinearLayout />
     </telerik:RadCollectionView.ItemsLayout>
 </telerik:RadCollectionView>
 ```
 
-The properties available in the `LinearItemsLayout` are: 
+The properties available in the `CollectionViewLinearLayout` are: 
 
 * `ItemSpacing` (`double`)&mdash;Specifies the spacing between the items. The default value is `0`.
 * `ItemLength` (`double`)&mdash;Specifies the width or height (depending on the layout orientation) of the items. The default value is `-1`, which means that the items will be sized according to the targeted platform default behavior.
@@ -29,7 +29,7 @@ The properties available in the `LinearItemsLayout` are:
 
 ## Example with Horizontal Layout Orientation
 
-The following example demonstrates how to apply horizontal `LinearItemsLayout` to the `RadCollectionView`.
+The following example demonstrates how to apply horizontal orientation to the `RadCollectionView`.
  
 **1.** Define the following business object:
 
@@ -49,6 +49,6 @@ The following example demonstrates how to apply horizontal `LinearItemsLayout` t
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-> For a runnable demo with the CollectionView LinearItemsLayout, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Layouts** category.
+> For a runnable demo with the CollectionView `CollectionViewLinearLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Layouts** category.
 
 ## See Also

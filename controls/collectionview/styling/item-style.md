@@ -29,7 +29,6 @@ The available properties are described in the table below:
 | `BorderColor` (`Color`) | Defines the color of the border around the item. |
 | `BorderThickness` (`Thickness`) | Defines the thickness of the border around the item. |
 | `CornerRadius` (`Thickness`) | Defines the corner radius of the border around the item. |
-| `ControlTemplate`(`DataTemplate`) | Specifies the `DataTemplate` of the visual representation of the current item. When set to `null`, the control displays the text representation of the current item. |
 
 The following example shows how to use the `ItemViewStyle`:
 
@@ -43,7 +42,7 @@ The following example shows how to use the `ItemViewStyle`:
 
 **3.** Add the `RadCollectionView` definition with the `ItemViewStyle` set:
 
-<snippet id='collectionview-item-container-styling' />
+<snippet id='collectionview-itemview-styling' />
 
 **4.** Include the `telerik` namespace:
 
@@ -53,7 +52,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the following styles to the page's resource:
 
-<snippet id='collectionview-item-container-style-resources' />
+<snippet id='collectionview-itemview-style-resources' />
 
 > For a runnable example demonstrating the CollectionView ItemView Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
