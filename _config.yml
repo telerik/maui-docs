@@ -144,6 +144,19 @@ navigation:
     controls/checkbox:
         title: "CheckBox"
     ## End CheckBox
+    ##CollectionView
+    controls/collectionview:
+        title: "CollectionView"
+    controls/collectionview/grouping:
+        title: "Grouping"
+        position: 8
+    controls/collectionview/layouts:
+        title: "Layouts"
+        position: 12
+    controls/collectionview/styling:
+        title: "Styling"
+        position: 20
+    ## End CollectionView
     ## ComboBox
     controls/combobox:
         title: "ComboBox"
@@ -542,6 +555,7 @@ intro_columns:
   -
     title: "Data Controls"
     items:
+      "CollectionView": "collectionview-overview"
       "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
       "ListView": "listview-overview"
