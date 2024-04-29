@@ -1,34 +1,30 @@
 ---
 title: Apple Privacy Manifest 
-description: Learn what changes need to be apply to your project to support the latest apple privacy policy.
+description: Learn what changes you need to apply to your project to support the latest Apple privacy policy.
 type: troubleshooting
-page_title: Apple’s privacy manifest policy requirements
+page_title: Apple's Privacy Manifest Policy Requirements
 slug: adding-apple-privacy-manifest-file-dotnet-maui-application
 tags: apple, privacy, manifest, apple store, requirements, .NET MAUI
 res_type: kb
 ---
 
-# Apple Privacy Manifest
+Apple is introducing a new privacy policy for including privacy manifest files in your apps that target the iOS, iPadOS, tvOS, visionOS, and watchOS platforms on the App Store. 
+For more details on this policy, please review the <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files" target="_blank">Privacy Manifest Files</a> in the Apple documentation.
 
-Apple is introducing new privacy policy for including privacy manifest files in your apps that target iOS, iPadOS, tvOS, visionOS, and watchOS platforms on the app Store. 
-For more details on this policy, please review the [Privacy Manifest Files](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files) article in the Apple documentation.
+> As of May 1, 2024, the Apple privacy policy manifest file must be included in your apps.
 
-> As of May 1st 2024, the Apple privacy policy manifest file must be included in your apps.
-
-## What must be included in the PrivacyInfo.xcprivacy file
+## What Must Be Included in the PrivacyInfo.xcprivacy File
 
 The `PrivacyInfo.xcprivacy` file lists:
 
-* The [types of data](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests) collected by your .NET MAUI application or any third-party SDKs.
-* The reasons for using certaing [Required Reason API](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api). 
+* The <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests" target="_blank">types of data</a> collected by your .NET MAUI application or any third-party SDKs.
+* The reasons for using certain <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api" target="_blank">Required Reason APIs</a>. 
 
-## Add PrivacyInfo.xcprivacy file to your application
+## Add PrivacyInfo.xcprivacy to Your Application
 
-Let's review what is needed for your .NET MAUI applicatios when using Telerik .NET MAUI controls:
+Create a `PrivacyInfo.xcprivacy` file inside the `Platforms/iOS` folder.
 
-1. Create a `PrivacyInfo.xcprivacy` file inside the `Platforms/iOS` folder. 
-
-2. For Telerik .NET MAUI ControlsSamples applicaton and Telerik .NET MAUI CryproTracker application we have added the following `PrivacyInfo.xcprivacy` file:
+For reference, you can use the `PrivacyInfo.xcprivacy` file already added to the [Telerik UI for .NET MAUI Controls Samples]({% slug controls-samples-app %}) and [Telerik UI for .NET MAUI Crypto Tracker]({% slug maui-crypto-app %}) applications:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,8 +72,8 @@ Let's review what is needed for your .NET MAUI applicatios when using Telerik .N
 
 ## See Also
 
-* [Microsoft Blogs - Adding Apple Privacy Manifest Support to .NET iOS & .NET MAUI apps](https://devblogs.microsoft.com/dotnet/apple-privacy-manifest-support/)
-* [Apple Documentation - Privacy Manifest Files](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files)
-* [Apple Documentation - Adding a Privacy Manifest File](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/adding_a_privacy_manifest_to_your_app_or_third-party_sdk)
-* [Apple Documentation - Describing Data Use in Privacy Manifest File](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests)
-* [Apple Documentation - Describing Use of Required Reason API](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api)
+* <a href="https://devblogs.microsoft.com/dotnet/apple-privacy-manifest-support/" target="_blank">Microsoft Blogs - Adding Apple Privacy Manifest Support to .NET iOS & .NET MAUI Apps</a>
+* <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files" target="_blank">Apple Documentation - Privacy Manifest Files</a>
+* <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/adding_a_privacy_manifest_to_your_app_or_third-party_sdk" target="_blank">Apple Documentation - Adding a Privacy Manifest File</a>
+* <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests" target="_blank">Apple Documentation - Describing Data Use in Privacy Manifests</a>
+* <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api" target="_blank">Apple Documentation - Describing Use of Required Reason API</a>
