@@ -28,7 +28,7 @@ The following example demonstrates how to group the items in the CollectionView 
 
 **3.** Add the `RadCollectionView` definition with `DelegateGroupDescriptor`:
 
-<snippet id='collectionview-property-group-descriptor' />
+<snippet id='collectionview-delegate-group-descriptor' />
 
 **4.** Include the `telerik` namespace:
 

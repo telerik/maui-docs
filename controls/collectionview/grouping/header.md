@@ -11,7 +11,7 @@ tags: group, collectionview, groupdescriptor, custom group header
 
 The CollectionView has a default group header that is displayed when grouping is applied.
 
-The `BindingContext` of the `GroupHeader` is a complex object `GroupItemContext` and includes the following properties:
+The `BindingContext` of the `GroupHeader` is a complex object&mdash;`GroupItemContext` and includes the following properties:
 
 - `IsExpanded`&mdash;Defines a value indicating whether the group is currently expanded (has its child items visible).
 - `Items`&mdash;Gets the child items of the group.

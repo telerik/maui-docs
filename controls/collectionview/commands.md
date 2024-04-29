@@ -14,9 +14,32 @@ The .NET MAUI CollectionView provides various commands that are listed in the fo
 | Commands | Definition |
 | -------- | ---------- |
 | `ItemTappedCommand`(`ICommand`) | Specifies a command to execute when an item is tapped. The command accepts a single parameter with the item being tapped. |
-| `GroupItemTappedCommand`(`ICommand`) | Specifies a command to execute when a group item is tapped. The command accepts a single parameter with the group item being tapped. |
+| `GroupTappedCommand`(`ICommand`) | Specifies a command to execute when a group item is tapped. The command accepts a single parameter with the group item being tapped. |
 
 >tip Commands action correspond to the events exposed by the CollectionView. For more details, see the [Events]({%slug collectionview-events%}) topic.
+
+
+### Example with GroupItemTapped Command
+
+**1.** Create a sample model:
+
+<snippet id='collectionview-grouptapcommand-model' />
+
+**2.** Create a `ViewModel` with a command that will be bind to the `RadCollectionView.GroupItemTappedCommand`:
+
+<snippet id='collectionview-grouptapcommand-viewmodel' />
+
+**3.** Define the CollectionView control with a sample `ItemTemplate`:
+
+<snippet id='commectionview-grouptapcommand' />
+
+**4.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```	
+
+> For a runnable example demonstrating the CollectionView Commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Commands** category.
 
 ## See Also
 

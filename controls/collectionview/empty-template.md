@@ -22,23 +22,11 @@ The CollectionView allows you to specify a template that the control will use wh
 
 <snippet id='collectionview-empty-template'/>
 
-**2.** Define the `Style` for the `EmptyTemplate`:
-
-<snippet id='collectionview-empty-style'/>
-
-**3.** Add the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
-**4.** Create a sample `DataModel`:
-
-<snippet id='collectionview-datamodel' />
-
-**5.** Define the `ViewModel` class:
-
-<snippet id='collectionview-viewmodel' />
 
 > For a runnable example demonstrating the CollectionView EmptyTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > EmptyTemplate** category.
 

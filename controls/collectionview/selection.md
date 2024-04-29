@@ -46,6 +46,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 > For a runnable example demonstrating the CollectionView `SelectedItem`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection** category.
 
+## Selected Index
+
+The CollectionView provides the `SelectedIndex`(`int`) property. The `SelectedIndex` specifies the index of the first item in the current selection or -1 if the selection is empty.
+
 ## Selected Items Collection
 
 The CollectionView provides a read-only collection&mdash;`SelectedItems` of type `ObservableCollection<object>`. The collection contains the items that are currently selected in the control.

@@ -12,7 +12,7 @@ The .NET MAUI CollectionView exposes a conditional styling feature that allows y
 
 ![.NET MAUI CollectionView Item Style Selector](images/collectionview-itemstyle-selector.png)
 
-The following example shows how to use the `ItemStyleSelector`:
+The following example shows how to use the `ItemViewStyleSelector`:
 
 **1.** Define the following business object:
 
@@ -22,9 +22,9 @@ The following example shows how to use the `ItemStyleSelector`:
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with the `ItemStyleSelector` set:
+**3.** Add the `RadCollectionView` definition with the `ItemViewStyleSelector` set:
 
-<snippet id='collectionview-item-style-selector' />
+<snippet id='collectionview-item-container-styleselector' />
 
 **4.** Include the `telerik` namespace:
 
@@ -34,13 +34,13 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the following styles to the page's resource:
 
-<snippet id='collectionview-style-selector' />
+<snippet id='collectionview-item-styleselector-resources' />
 
 **6.** Implement the conditional styling:
 
 <snippet id='collectionview-styleselector' />
 
-> For a runnable example demonstrating the CollectionView ItemStyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
+> For a runnable example demonstrating the CollectionView ItemView StyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also
 

@@ -12,9 +12,9 @@ The .NET MAUI CollectionView component exposes a conditional styling feature tha
 
 Apply conditional styling to the group header and group footer by setting the following properties:
 
-* `GroupContainerStyleSelector` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group container when grouping is applied.
+* `GroupViewStyleSelector` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group container when grouping is applied.
 
-The following example shows how to use the `GroupContainerStyleSelector`:
+The following example shows how to use the `GroupViewStyleSelector`:
 
 **1.** Define the following business object:
 
@@ -24,7 +24,7 @@ The following example shows how to use the `GroupContainerStyleSelector`:
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with the `GroupContainerStyleSelector` set:
+**3.** Add the `RadCollectionView` definition with the `GroupViewStyleSelector` set:
 
 <snippet id='collectionview-group-container-styleselector' />
 
@@ -34,11 +34,15 @@ The following example shows how to use the `GroupContainerStyleSelector`:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**5.** Add the following styles to the page's resource for `GroupContainerStyleSelector`:
+**5.** Add the following styles to the page's resource for `GroupViewStyleSelector`:
 
 <snippet id='collectionview-group-styleselector-resources' />
 
-> For a runnable example demonstrating the CollectionView GroupContainer StyleSelectors, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
+**6.** Implement the conditional styling:
+
+<snippet id='collectionview-grouping-styleselector' />
+
+> For a runnable example demonstrating the CollectionView GroupView StyleSelectors, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also
 

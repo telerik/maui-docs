@@ -23,17 +23,17 @@ The CollectionView provides a default appearance of the items. If you want to cu
 
 Here is an exmaple with `ItemTemplate`:
 
-**1.** Create a `DataModel`:
+**1.** Create a sample model:
 
-<snippet id='combobox-city-businessmodel' />
+<snippet id='collectionview-grouptapcommand-model' />
 
 **2.** Create a `ViewModel`:
 
-<snippet id='collectionview-selection-viewmodel' />
+<snippet id='collectionview-grouptapcommand-viewmodel' />
 
 **3.** Define the CollectionView control with a sample `ItemTemplate`:
 
-<snippet id='collectionview-disabled-selection' />
+<snippet id='commectionview-grouptapcommand' />
 
 **4.** Add the `telerik` namespace:
 
@@ -43,6 +43,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Item Appearance at Runtime
 
-When the CollectionView is bound to a collection of multiple `DataItem` objects and the appearance of each item depends on a specific property of the business object then you can define an item appearance at runtime by setting the `RadCollectionView.ItemTemplate` property to a `DataTemplateSelector` object.
+When the CollectionView is bound to a collection of multiple data item objects and the appearance of each item depends on a specific property of the business object then you can define an item appearance at runtime by setting the `RadCollectionView.ItemTemplate` property to a `DataTemplateSelector` object.
 
 # See Also

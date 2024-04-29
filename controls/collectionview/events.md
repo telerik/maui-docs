@@ -18,28 +18,17 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 	* A `TappedEventArgs` object, which has a reference to:
 		* the tapped item through its `Data`(`T`) property.
 
-* `GroupItemTapped`&mdash;Raised when the user taps on the group item. The `GroupItemTapped` event handler receives two parameters:
+* `GroupTapped`&mdash;Raised when the user taps on the group item. The `GroupItemTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `TappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupItemContext>` object, which has a reference to:
+	* A `TappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupContext>` object, which has a reference to:
 		* the tapped group item through its `Data`(`T`) property.
-		* the `GroupItemContext` reprsents the object that is passed to the `TappedEventArgs ` for the `GroupItemTapped` and the item you have for the `GroupContainerStyleSelector` and `GroupHeaderTemplate`. The `GroupItemContext` includes the following properties:
+		* the `GroupContext` reprsents the object that is passed to the `TappedEventArgs ` for the `GroupItemTapped` and the item you have for the `GroupContainerStyleSelector` and `GroupHeaderTemplate`. The `GroupContext` includes the following properties:
 				* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
 				* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
 				* `Key` (`object`): Gets the specific for the group key.
 				* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
-## Scrolling Events
-
-* The CollectionView exposes a `Scrolled` event that is invoked when scrolling is performed. 
-
-The CollectionView provides the `Scrolled` event, which is raised when scrolling is performed. The `Scrolled` event handler receives two parameters:
-
-* The sender argument, which is the `RadCollectionView` control.
-* A `ScrolledEventArgs` object, which provides the following properties:
-	* `ScrollX` (`double`)&mdash;The X position of the finished scroll.
-	* `ScrollY` (`double`)&mdash;The Y position of the finished scroll.
-
-## Example: Adding ItemTapped Event
+### Example: Adding ItemTapped Event
 
 Here is an example that demonstrates the `ItemTapped` event:
 
@@ -65,7 +54,21 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
-> For a runnable example demonstrating the CollectionView ItemTapped event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+> For a runnable example demonstrating the CollectionView ItemTapped event or GroupItemTapped event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+
+## Scrolling Events
+
+* The CollectionView exposes a `Scrolled` event that is invoked when scrolling is performed. 
+
+The CollectionView provides the `Scrolled` event, which is raised when scrolling is performed. The `Scrolled` event handler receives two parameters:
+
+* The sender argument, which is the `RadCollectionView` control.
+* A `ScrolledEventArgs` object, which provides the following properties:
+	* `ScrollX` (`double`)&mdash;The X position of the finished scroll.
+	* `ScrollY` (`double`)&mdash;The Y position of the finished scroll.
+
+> For a runnable example demonstrating the CollectionView Scrolled event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+
 
 ## Selection Events
 
