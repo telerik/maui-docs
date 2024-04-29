@@ -55,4 +55,3 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 - [Property Group Descriptor]({%slug collectionview-property-group-descriptor%})
 - [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
-- [Group Footer]({%slug collectionview-group-footer%})

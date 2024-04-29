@@ -18,7 +18,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Data Binding]({%slug collectionview-data-binding%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
 
-* [Different orientation]({%slug %})&mdash;CollectionView supports vertical and horizontal orientation. This allows you to scroll the items vertically or horizontally.
+* [Different orientation]({%slug collectionview-linear-layout%})&mdash;CollectionView supports vertical and horizontal orientation. This allows you to scroll the items vertically or horizontally.
 
 * [Grouping]({%slug collectionview-grouping%})&mdash;You can group the items by using the exposed properties. In addition, you can apply multi-level (nested) grouping.
 
