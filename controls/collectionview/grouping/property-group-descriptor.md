@@ -39,7 +39,5 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ## See Also
 
 - [Delegate Group Descriptor]({%slug collectionview-delegate-group-descriptor%})
-- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
 - [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
 - [Group Header]({%slug collectionview-group-header%})
-- [Group Footer]({%slug collectionview-group-footer%})

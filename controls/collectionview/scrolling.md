@@ -58,7 +58,6 @@ The CollectionView provides the `Scrolled` event, which is raised when scrolling
 
 ## See Also
 
-- [Item Appearance]({%slug collectionview-item-appearance%})
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})
 - [Sorting]({%slug collectionview-sorting%})

@@ -36,7 +36,5 @@ Style the group header by setting the following properties:
 
 - [Property Group Descriptor]({%slug collectionview-property-group-descriptor%})
 - [Delegate Group Descriptor]({%slug collectionview-delegate-group-descriptor%})
-- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
 - [Multi-level Grouping Descriptor]({%slug collectionview-grouping-multilevel%})
 - [Group Header]({%slug collectionview-group-header%})
-- [Group Footer]({%slug collectionview-group-footer%})

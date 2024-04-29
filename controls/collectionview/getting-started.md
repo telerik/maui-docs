@@ -76,13 +76,13 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [Item Appearance]({%slug collectionview-item-appearance%})
+- [Data Binding]({%slug collectionview-data-binding%})
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})
 - [Sorting]({%slug collectionview-sorting%})
 - [Selection]({%slug collectionview-selection%})
 - [Commands]({%slug collectionview-commands%})
-- [Events]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-events%})
 
 ## See Also
 

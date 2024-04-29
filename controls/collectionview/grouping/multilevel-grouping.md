@@ -39,7 +39,5 @@ The following image shows the final result.
 
 - [PropertyGroup Descriptor]({%slug collectionview-property-group-descriptor%})
 - [Delegate Group Descriptor]({%slug collectionview-delegate-group-descriptor%})
-- [Bindable Group Descriptors]({%slug collectionview-bindable-group-descriptor%})
 - [Group Header]({%slug collectionview-group-header%})
-- [Group Footer]({%slug collectionview-group-footer%})
 

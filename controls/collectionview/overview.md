@@ -16,7 +16,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
 
-* [Item appearance]({%slug collectionview-item-appearance%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
+* [Data Binding]({%slug collectionview-data-binding%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
 
 * [Different orientation]({%slug %})&mdash;CollectionView supports vertical and horizontal orientation. This allows you to scroll the items vertically or horizontally.
 
@@ -30,18 +30,18 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group header item.
 
-* [Programmatic scrolling]({%slug %})&mdash;CollectionView provides an API that allows you to scroll to a specific item.
+* [Programmatic scrolling]({%slug collectionview-scrolling%})&mdash;CollectionView provides an API that allows you to scroll to a specific item.
 
 * [Style properties]({%slug collectionview-item-styling%})&mdash;The available styling properties allow you to customize the CollectionView items and groups. To take advantage of the conditional styling feature provided by the CollectionView, you can use the [style selector]({%slug collectionview-itemstyle-selector%}).
 
 * [Empty template]({%slug collectionview-empty-template%})&mdash;When the `ItemsSource` is null or the collection is empty, you can specify a template that provides user feedback.
 
-* [Commands support]({%slug datepicker-commands%})&mdash;The CollectionView exposes commands that executes when tapping on an item or on a group header.
+* [Commands support]({%slug collectionview-commands%})&mdash;The CollectionView exposes commands that executes when tapping on an item or on a group header.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI CollectionView]({%slug collectionview-getting-started%})
-- [Item appearance in the CollectionView]({%slug collectionview-item-appearance%})
+- [Data Binding and Item appearance in the CollectionView]({%slug collectionview-data-binding%})
 
 ## See Also
 

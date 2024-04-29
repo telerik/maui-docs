@@ -58,7 +58,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Item Appearance]({%slug collectionview-item-appearance%})
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})
 - [Sorting]({%slug collectionview-sorting%})
