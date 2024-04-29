@@ -77,7 +77,7 @@ See also: [How to Generate NuGet Key]({%slug nuget-keys%}#generating-nuget-keys)
 
 The Create New Project wizard provides two options to start you project:
 
- -  Blank App - allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
+ -  Blank App&mdash;Allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
  -  Blank Shell App - allows you to create a blank shell project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
 
 ## Configure the Project
