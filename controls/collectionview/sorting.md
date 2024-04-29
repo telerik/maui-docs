@@ -2,7 +2,7 @@
 title: Sorting
 page_title: .NET MAUI CollectionView Documentation - Sorting
 description: Learn more about the sorting functionality in the Telerik UI for .NET MAUI CollectionView control.
-position: 9
+position: 7
 slug: collectionview-sorting
 tags: sort, collectionview, sorting, sortdescriptor
 ---
@@ -49,7 +49,7 @@ The `DelegateSortDescriptor` exposes the following properties:
 * `KeyLookup`&mdash;Gets or sets the `IKeyLookup` instance that is used to retrieve the sort key for each data item.
 * `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
 
-To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookUp` property.
+To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadCollectionView.SortDescriptors` collection and set its `KeyLookUp` property.
 
 
 ## See Also

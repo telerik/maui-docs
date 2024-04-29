@@ -86,7 +86,7 @@ public static class MauiProgram
 
 ## See Also
 
-- [.NET MAUI CollectionView Product Page](https://www.telerik.com/maui-ui/listview)
+- [.NET MAUI CollectionView Product Page](https://www.telerik.com/maui-ui/collectionview)
 - [.NET MAUI CollectionView Forum Page](https://www.telerik.com/forums/maui?tagId=1829)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

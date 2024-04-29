@@ -2,7 +2,7 @@
 title: Expand and Collapse Groups
 page_title: .NET MAUI CollectionView Documentation - Expand and Collapse Groups
 description: Try the Telerik UI for .NET MAUI CollectionView Expand and Collapse group operations.
-position: 5
+position: 4
 slug: collectionview-expand-collapse-groups
 published: False
 tags: group, collectionview, expand, collapse, collapsible, dotnet maui, maui

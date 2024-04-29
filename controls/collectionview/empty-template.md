@@ -2,7 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI CollectionView Documentation - Empty Template
 description: Learn more about the Empty Template property of the .NET MAUI CollectionView control.
-position: 17
+position: 10
 slug: collectionview-empty-template
 ---
 
@@ -12,9 +12,9 @@ The CollectionView allows you to specify a template that the control will use wh
 
 * `EmptyContentTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when in the view has no items.
 
-* `EmptyContentDisplayMode`&mdash;Defines the modes for displaying empty content. The property have two modes:
+* `EmptyContentDisplayMode`&mdash;Defines the modes for displaying empty content. The property has two modes:
        - `ItemsSourceNull`&mdash;Displays the empty content view only when the `ItemsSource` is null.
-       - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty(has zero items).
+       - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty (has zero items).
 
 ## Example: Defining the EmptyTemplate in the CollectionView
 
@@ -28,7 +28,7 @@ The CollectionView allows you to specify a template that the control will use wh
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-> For a runnable example demonstrating the CollectionView EmptyTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > EmptyTemplate** category.
+> For a runnable example demonstrating the CollectionView `EmptyTemplate`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > EmptyTemplate** category.
 
 ## See Also
 

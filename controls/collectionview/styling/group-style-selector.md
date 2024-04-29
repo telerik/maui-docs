@@ -2,7 +2,7 @@
 title: GroupStyle Selector
 page_title: .NET MAUI CollectionView Documentation - GroupStyle Selector
 description: The CollectionView exposes a conditional styling feature that allows you to apply different styles to each group depending on a specific condition.
-position: 11
+position: 3
 slug: collectionview-group-style-selector
 ---
 

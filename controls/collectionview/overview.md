@@ -16,19 +16,21 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
 
-* [Data Binding]({%slug collectionview-data-binding%})&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
+* [Data Binding]({%slug collectionview-data-binding%})&mdash; The CollectionView for .NET MAUI component supports data binding in the form of path property.
+
+* [Item Appearance]({%slug collectionview-data-binding%}#define-item-appearance)&mdash;CollectionView allows you to adjust the appearance of its items. You can also apply different appearances to each item based on a specific condition.
 
 * [Different orientation]({%slug collectionview-linear-layout%})&mdash;CollectionView supports vertical and horizontal orientation. This allows you to scroll the items vertically or horizontally.
 
 * [Grouping]({%slug collectionview-grouping%})&mdash;You can group the items by using the exposed properties. In addition, you can apply multi-level (nested) grouping.
 
-* [Group headers]({%slug collectionview-group-header%})&mdash;While grouping the items in the CollectionView, group header is visualized, In addition you can customize its appearance by using a template.
+* [Group headers]({%slug collectionview-group-header%})&mdash;While grouping the items in the CollectionView, group header is visualized. In addition, you can customize its appearance by using a template.
 
 * [Sorting]({%slug collectionview-sorting%})&mdash;CollectionView allows you to sort the data based on your criteria.
 
 * [Filtering]({%slug collectionview-filtering%})&mdash;You can filter the items in the CollectionView by using the DelegateFilterDescriptor.
 
-* [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group header item.
+* [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group item.
 
 * [Programmatic scrolling]({%slug collectionview-scrolling%})&mdash;CollectionView provides an API that allows you to scroll to a specific item.
 
@@ -36,7 +38,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Empty template]({%slug collectionview-empty-template%})&mdash;When the `ItemsSource` is null or the collection is empty, you can specify a template that provides user feedback.
 
-* [Commands support]({%slug collectionview-commands%})&mdash;The CollectionView exposes commands that executes when tapping on an item or on a group header.
+* [Commands support]({%slug collectionview-commands%})&mdash;The CollectionView exposes commands that execute when tapping on an item or on a group header.
 
 ## Next Steps
 

@@ -2,7 +2,7 @@
 title: Filtering
 page_title: .NET MAUI CollectionView Documentation - Filtering
 description: Check the Telerik .NET MAUI CollectionView filtering options like programmatically filtering by using filter descriptors.
-position: 12
+position: 8
 slug: collectionview-filtering
 tags: filter, radlistview, filterdescriptor
 ---

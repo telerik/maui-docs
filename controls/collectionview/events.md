@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI CollectionView Documentation - Events
 description: Explore the Telerik UI for .NET MAUI CollectionView Events like Item Events and Selection Events.
-position: 19
+position: 13
 slug: collectionview-events
 tags: events
 ---
@@ -18,11 +18,12 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 	* A `TappedEventArgs` object, which has a reference to:
 		* the tapped item through its `Data`(`T`) property.
 
-* `GroupTapped`&mdash;Raised when the user taps on the group item. The `GroupItemTapped` event handler receives two parameters:
+* `GroupTapped`&mdash;Raised when the user taps on the group item. The `GroupTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
 	* A `TappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupContext>` object, which has a reference to:
 		* the tapped group item through its `Data`(`T`) property.
-		* the `GroupContext` reprsents the object that is passed to the `TappedEventArgs ` for the `GroupItemTapped` and the item you have for the `GroupContainerStyleSelector` and `GroupHeaderTemplate`. The `GroupContext` includes the following properties:
+		* the `GroupContext` represents the object that is passed to the `TappedEventArgs ` for the `GroupTapped` and the item you have for the `GroupViewStyleSelector` and `GroupHeaderTemplate`. The `GroupContext` includes the following properties:
+
 				* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
 				* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
 				* `Key` (`object`): Gets the specific for the group key.
@@ -54,11 +55,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
-> For a runnable example demonstrating the CollectionView ItemTapped event or GroupItemTapped event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+> For a runnable example demonstrating the CollectionView `ItemTapped` event or `GroupItemTapped` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
 
 ## Scrolling Events
-
-* The CollectionView exposes a `Scrolled` event that is invoked when scrolling is performed. 
 
 The CollectionView provides the `Scrolled` event, which is raised when scrolling is performed. The `Scrolled` event handler receives two parameters:
 
@@ -73,7 +72,7 @@ The CollectionView provides the `Scrolled` event, which is raised when scrolling
 ## Selection Events
 
 * `SelectionChanged`&mdash;Raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:
-	* The sender argument, which is of type `object`, but can be cast to the `RadTreeView` type.
+	* The sender argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
 	* A `EventArgs` object, which provides information on the `SelectionChanged` event.
 
 ## See Also

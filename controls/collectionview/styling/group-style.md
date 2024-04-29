@@ -2,7 +2,7 @@
 title: Group Styling
 page_title: .NET MAUI CollectionView Documentation - Group Styles
 description: Check the Telerik for .NET MAUI CollectionView styling options for the Group.
-position: 10
+position: 2
 slug: collectionview-group-styling
 tags: style, group, collectionview, maui, dotnet maui
 ---
