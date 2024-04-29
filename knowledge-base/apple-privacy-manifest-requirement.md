@@ -3,7 +3,7 @@ title: Apple Privacy Manifest
 description: Learn what changes need to be apply to your project to support the latest apple privacy policy.
 type: troubleshooting
 page_title: Apple’s privacy manifest policy requirements
-slug: adding-select-all-option-combobox-dropdown-net-maui
+slug: adding-apple-privacy-manifest-file-dotnet-maui-application
 tags: apple, privacy, manifest, apple store, requirements, .NET MAUI
 res_type: kb
 ---
