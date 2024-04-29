@@ -31,13 +31,15 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 
 ## Example
 
+The example shows how to define the commands in the `PopupSettings`. The same is valid for the `DropDownSettings`.
+
 **1.** Define the TemplatedPicker:
 
 ```XAML
-<StackLayout>
+<VerticalStackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference picker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference picker}, Path=ClearCommand}"/>
-    <telerik:RadTemplatedPicker x:Name="picker">
+    <telerik:RadTemplatedPicker x:Name="picker" PickerMode="Popup">
         <telerik:RadTemplatedPicker.SelectorTemplate>
             <ControlTemplate>
                 <telerik:RadCalendar SelectedDate="{TemplateBinding SelectedValue, Mode=TwoWay}"/>
@@ -51,7 +53,7 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
                 <local:ViewModel/>
             </telerik:RadTemplatedPicker.BindingContext>
     </telerik:RadTemplatedPicker>
-</StackLayout>
+</VerticalStackLayout>
 ```
 
 **2.** Set a sample `ViewModel`:
