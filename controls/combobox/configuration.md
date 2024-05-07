@@ -37,6 +37,14 @@ The next image shows the result:
    * The control is editable.
    * The control is non-editable and the selection mode is single.
 
+## Spell Checking
+
+* `IsSpellCheckEnabled`(`bool`)&mdash;Specifies whether the spell checking of the ComboBox is enabled. By default, the `IsSpellCheckEnabled` value is `False`. When spell checking is enabled, misspellings are indicated in the ComboBox input.
+
+The example below shows how to apply the `IsSpellCheckEnabled` property:
+
+<snippet id='combobox-configuration-spellcheckenabled' />
+
 ## Clear Button Visibility
 
 The visibility state of the Clear **X** button can be changed using the `IsClearButtonVisible`(`bool`) property. By default its value is true.
@@ -53,12 +61,11 @@ and the result:
 
 To manage the drop-down of the ComboBox, use the following properties:
 
-* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
-* `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
-* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined heigh for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be heigher.
-* `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
-* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
-* `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
+* `DropDownWidth`(`double`)&mdash;Defines the width of the drop-down of the control.
+* `DropDownHeight`(`double`)&mdash;Defines the height of the drop-down of the control.
+* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
+* `IsDropDownOpen`(`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 Here is an example that uses the `DropDownWidth` property:
 
@@ -67,10 +74,6 @@ Here is an example that uses the `DropDownWidth` property:
 Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
-
-Here is an example that uses the `DropDownMaxHeight` property:
-
-<snippet id='combobox-configuration-dropdownmaxheight'/>
 
 Here is an example that uses the `DropDownVerticalOffset` property:
 
@@ -92,7 +95,7 @@ Here is an example with `OpenOnFocus` property set:
 
 The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define the type of the keyboard that will be visualized by the device. The default value is Text.
 
->important The Configuration example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the application in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+>important For the runnable Configuration example, see the [SDK Browser Application]({%slug sdkbrowser-app%}) and go to **ComboBox > Features category**. You can find the application in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
 
 ## See Also
 
