@@ -30,5 +30,59 @@ The .NET MAUI TemplatedButton exposes the following events:
 
 > For a runnable example demonstrating the TemplatedButton Released event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
 
+## Using the Clicked Event
+
+The following example demonstrates how to use the `Clicked` event:
+
+**1.** Define the button in XAML:
+
+<snippet id='templatedbutton-event-clicked' />
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Add the `Clicked` event:
+
+<snippet id='templatedbutton-clicked-event' />
+
+## Using the Pressed Event
+
+The following example demonstrates how to use the `Pressed` event:
+
+**1.** Define the button in XAML:
+
+<snippet id='templatedbutton-event-pressed' />
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Add the `Pressed` event:
+
+<snippet id='templatedbutton-pressed-event' />
+
+## Using the Released Event
+
+The following example demonstrates how to use the `Released` event:
+
+**1.** Define the button in XAML:
+
+<snippet id='templatedbutton-event-released' />
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Add the `Released` event:
+
+<snippet id='templatedbutton-released-event' />
+
 ## See Also
 
