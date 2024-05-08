@@ -21,13 +21,13 @@ To define the format of the string that will be visualized when the picker dialo
 
 The following example shows how to set the `DisplayStringFormat`.
 
-Define the TimePicker.
+Define the TimePicker:
 
 ```XAML
 <telerik:RadTimePicker DisplayStringFormat="H:mm"/>
 ```
 
-Add the namespace.
+Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

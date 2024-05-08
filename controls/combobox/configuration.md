@@ -8,7 +8,7 @@ slug: combobox-configuration
 
 # Configure the .NET MAUI ComboBox
 
-The purpose of this help article is to show the basic configuration options of the ComboBox control.
+The purpose of this help article is to show the basic configuration options of the [.NET MAUI ComboBox]({%slug combobox-overview%}) control.
 
 ## Placeholder
 
@@ -37,6 +37,14 @@ The next image shows the result:
    * The control is editable.
    * The control is non-editable and the selection mode is single.
 
+## Spell Checking
+
+* `IsSpellCheckEnabled`(`bool`)&mdash;Specifies whether the spell checking of the ComboBox is enabled. By default, the `IsSpellCheckEnabled` value is `False`. When spell checking is enabled, misspellings are indicated in the ComboBox input.
+
+The example below shows how to apply the `IsSpellCheckEnabled` property:
+
+<snippet id='combobox-configuration-spellcheckenabled' />
+
 ## Clear Button Visibility
 
 The visibility state of the Clear **X** button can be changed using the `IsClearButtonVisible`(`bool`) property. By default its value is true.
@@ -49,15 +57,16 @@ and the result:
 
 ![ComboBox Clear Button Visibility](images/combobox-clearbuttonvisibility.png)
 
-## DropDown Behavior
+## Drop-Down Behavior
 
-To manage the dropdown of the ComboBox, use the following properties:
+To manage the drop-down of the ComboBox, use the following properties:
 
-* `DropDownWidth`(`double`)&mdash;Defines the width of the dropdown of the control.
-* `DropDownHeight`(`double`)&mdash;Defines the height of the dropdown of the control.
-* `DropDownVerticalOffset`(`double`)&mdash;Defines the vertical offset of the drop down part of the control. This property allows an option to modify the control with no space between the ComboBox and the dropdown.
-* `IsDropDownOpen`(`bool`)&mdash;Defines whether the dropdown part of the control is opened. The default value is `true`. 
-* `IsDropdownClosedOnSelection`(`bool`)&mdash;Defines whether the dropdown will be closed when the item is selected or deselected. The default value is `true`.
+* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
+* `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
+* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined height for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be higher.
+* `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
+* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 Here is an example that uses the `DropDownWidth` property:
 
@@ -66,6 +75,10 @@ Here is an example that uses the `DropDownWidth` property:
 Here is an example that uses the `DropDownHeight` property:
 
 <snippet id='combobox-configuration-dropdownheight'/>
+
+Here is an example that uses the `DropDownMaxHeight` property:
+
+<snippet id='combobox-configuration-dropdownmaxheight'/>
 
 Here is an example that uses the `DropDownVerticalOffset` property:
 
@@ -80,6 +93,8 @@ Here is an example with `IsDropdownClosedOnSelection` property set:
 Here is an example with `OpenOnFocus` property set:
 
 <snippet id='combobox-configuration-dropdownvisibility-openonfocus'/>
+
+>tip Review the [Adding Select All Option in ComboBox Drop-Down]({%slug adding-select-all-option-combobox-dropdown-net-maui%}) article for more details how to select all items from the drop-down list.
 
 ## Keyboard
 

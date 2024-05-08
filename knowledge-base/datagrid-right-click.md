@@ -11,18 +11,9 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-    <tbody>
-        <tr>
-            <td>Product Version</td>
-            <td>5.1.0</td>
-        </tr>
-        <tr>
-            <td>Product</td>
-            <td>DataGrid for MAUI</td>
-        </tr>
-    </tbody>
-</table>
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 5.1.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 
 ## Description
@@ -31,7 +22,7 @@ This how-to article describes how to get the cell info on a right click in the T
 
 ## Solution
 
-1. Add DataGrid to the Page:
+**1.** Add DataGrid to the Page:
 
 ```XAML
 <Grid>
@@ -39,7 +30,7 @@ This how-to article describes how to get the cell info on a right click in the T
 </Grid>
 ```
 
-1. Add Sample data to the `RadDataGrid.ItemsSource`:
+**2.** Add Sample data to the `RadDataGrid.ItemsSource`:
 
 ```C#
 this.dataGrid.ItemsSource = new List<Data>
@@ -51,7 +42,7 @@ this.dataGrid.ItemsSource = new List<Data>
 };
 ```
 
-And the Data class:
+**3.** Add the Data class:
 
 ```C#
 public class Data
@@ -62,7 +53,7 @@ public class Data
 
 ```
 
-1. Add `TapGestureRecognizer` for right-click and get the position of the internal ScrollView in the DataGrid on right click and use the DataGrid `HitTestService.CellInfoFromPoint()` method , to get the  cell info for the concrete position. 
+**4.** Add `TapGestureRecognizer` for right-click and get the position of the internal ScrollView in the DataGrid on right click and use the DataGrid `HitTestService.CellInfoFromPoint()` method , to get the  cell info for the concrete position. 
 
 ```C#
 RadScrollView sv = null;
@@ -94,7 +85,7 @@ tap.Tapped += (s, e) =>
 
 ```
 
-1. Finally, add this gesture to the DataGrid `GestureRecognizers`.
+**5.** Finally, add this gesture to the DataGrid `GestureRecognizers`.
 
 ```C#
 this.dataGrid.GestureRecognizers.Add(tap);

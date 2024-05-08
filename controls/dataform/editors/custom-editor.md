@@ -10,7 +10,7 @@ slug: dataform-custom-editor
 
 DataForm has a support for custom editors with 5.1.0 version of Telerik UI for .NET MAUI.
 
-* `DataFormCustomEditor`&mdash;Represents a custom editor in a RadDataForm.
+* `DataFormCustomEditor`&mdash;Represents a custom editor in the `RadDataForm`.
 
 ## Properties
 
@@ -37,9 +37,11 @@ DataForm has a support for custom editors with 5.1.0 version of Telerik UI for .
 
 <snippet id='dataform-custom-editor'/>
 
-And the ViewModel used for the RadDataForm:
+And the `ViewModel` used for the `RadDataForm`:
 
 <snippet id='dataform-custom-editor-viewmodel'/>
+
+Note that `local` in the snippet above points to the namespace where the `CustomEditorViewModel` is defined.
 
 ## Styling 
 

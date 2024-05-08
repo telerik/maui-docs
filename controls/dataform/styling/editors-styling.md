@@ -19,25 +19,33 @@ Each editor provides the following properties:
 
 ## Example
 
-The example shows how to style the DataForm 
+The following example shows how to style the DataForm:
 
-Define the `RadDataForm` and the editors
+**1.** Define the `RadDataForm` and the editors:
 
 <snippet id='dataform-editors-styling' />
 
-Define the `CheckBoxStyle` for the RadCheckBox editor
+Note that `local` in the snippet above points to the namespace where the `EditorsViewModel` is defined.
+
+**2.** Define the `CheckBoxStyle` for the `DataFormRadCheckBoxEditor`:
 
 <snippet id='dataform-editors-stlying-checkbox-style' />
 
-Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
+
+**4.** Define the `ViewModel` used as a `BindingContext` for the `RadDataForm`:
+
+<snippet id='dataform-editors-model'/>
 
 The following image shows what the DataForm control looks like when the styles described above are applied:
 
 ![.NET MAUI DataForm Editor Styling](../images/dataform-editor-styling.png)
+
+> For a runnable example with the DataForm Editors Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Styling** category.
 
 ## See Also
 

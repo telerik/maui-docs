@@ -21,22 +21,27 @@ The Pie Series supports the following properties:
 
 The following example shows how to create a basic `RadPieChart` with a Pie Series in XAML.
 
-1. Create the needed business object:
+**1.** Create the business object:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
-1. Create a `ViewModel`:
+**2.** Define a sample `ViewModel`:
 
- <snippet id='chart-piechart-view-model' />
+<snippet id='chart-piechart-view-model' />
 
-1. Declare a `RadPieChart` with Pie Series in XAML:
+**3.** Declare a `RadPieChart` with Pie Series in XAML:
 
- <snippet id='chart-piechart-xaml' />
-
+<snippet id='chart-piechart-xaml' />
 
 The following image shows the end result:
 
 ![Chart PieSeries](images/pie-series-basic-example.png)
+
+## Label Customization
+
+If you want to customize the labels in the pie series (setting color, formatting the value, changing the font family and so on) you have to use the native Android, iOS and WinUI chart control. 
+
+For more details what are the steps for customizing the labels, review the [Customizing Labels in the Pie Chart]({%slug piechart-label-customization%}) artcile.
 
 ## See Also
 

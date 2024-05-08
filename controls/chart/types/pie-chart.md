@@ -28,16 +28,16 @@ The Pie Chart supports the Pie Series, which visualize a single series of data i
 
 ## Example
 
-1. Define the `RadPieChart`:  
+**1.** Define the `RadPieChart`:  
 
- ```XAML
+```XAML
 <telerik:RadPieChart>
 </telerik:RadPieChart>
- ```
+```
 
-1. Add the series to the `RadPieChart.Series` collection:
+**2.** Add the series to the `RadPieChart.Series` collection:
 
- ```XAML
+```XAML
 <telerik:RadPieChart.Series>
 	<telerik:PieSeries ItemsSource="{Binding Data}">
 		<telerik:PieSeries.ValueBinding>
@@ -45,35 +45,31 @@ The Pie Chart supports the Pie Series, which visualize a single series of data i
 		</telerik:PieSeries.ValueBinding>
 	</telerik:PieSeries>
 </telerik:RadPieChart.Series>
- ```
+```
 
-1. Set the `BindingContext` of the chart if none of its parents has a context:
+**3.** Set the `BindingContext` of the chart if none of its parents has a context:
 
- ```XAML
+```XAML
 <telerik:RadPieChart.BindingContext>
 	<local:ViewModel/>
 </telerik:RadPieChart.BindingContext>
 ```
 
-
 ## Pie Chart Example
 
 The following example shows the full definition of the chart.
 
-1. First, create the needed business object, for example:
+**1.** Create the needed business object, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Then, create a `ViewModel`:
+<snippet id='chart-piechart-view-model' />
 
- <snippet id='chart-piechart-view-model' />
+**3.** Declare a `RadPieChart` with a Pie Series in XAML:
 
-
-1. Finally, declare a `RadPieChart` with a Pie Series in XAML:
-
- <snippet id='chart-piechart-xaml' />
-
+<snippet id='chart-piechart-xaml' />
 
 The following image shows the end result:
 

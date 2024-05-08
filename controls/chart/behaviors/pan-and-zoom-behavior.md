@@ -30,14 +30,13 @@ The Pan and Zoom behavior of the Chart handles the drag, pinch open, and pinch c
 
 The following example shows how the Pan and Zoom behavior of the Cart works:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='temporal-data-model' />
+<snippet id='temporal-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
-
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -75,11 +74,11 @@ public class ViewModel
         return items;
     }
 }
- ```
+```
 
-1. Declare a `RadCartesianChart` in XAML:
+**3.** Declare a `RadCartesianChart` in XAML:
 
- ```XAML
+```XAML
 <telerik:RadCartesianChart PaletteName="Light"
                                 Zoom="2, 1">
     <telerik:RadCartesianChart.BindingContext>
@@ -108,7 +107,7 @@ public class ViewModel
                                               HandleDoubleTap="True"/>
     </telerik:RadCartesianChart.ChartBehaviors>
 </telerik:RadCartesianChart>
- ```
+```
 
 
 The following image shows the end result.

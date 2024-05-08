@@ -25,7 +25,7 @@ RangeSlider supports different dragging options&mdash;only the start thumb, only
 
 You can control the available dragging options through the `DragMode` property of the RangeSlider:
 
-* `DragMode`(`Telerik.Maui.Controls.RangeSlider.RangeSliderDragMode`)&mdash;Defines the available elemenents of the range thumb that can be dragged. You can choose from:
+* `DragMode`(`Telerik.Maui.Controls.RangeSlider.RangeSliderDragMode`)&mdash;Defines the available elements of the range thumb that can be dragged. You can choose from:
     * `Disabled`&mdash;drag is not enabled.
     * `StartThumb`&mdash;the start thumb can be dragged.
     * `RangeTrack`&mdash;the range track (the part between the start and end thumbs) can be dragged.

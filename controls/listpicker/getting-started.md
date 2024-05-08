@@ -27,9 +27,9 @@ Before adding the ListPicker, you need to:
 
 ## Define the Control
 
-1. When the your .NET MAUI application is set up, you are ready to add a ListPicker control to your page.
+**1.** When the your .NET MAUI application is set up, you are ready to add a ListPicker control to your page.
 
- ```XAML
+```XAML
 <telerik:RadListPicker Placeholder="Pick a name!"
 							ItemsSource="{Binding Items}"
 							DisplayMemberPath="FullName">
@@ -44,11 +44,11 @@ Before adding the ListPicker, you need to:
 		</DataTemplate>
 	</telerik:RadListPicker.ItemTemplate>
 </telerik:RadListPicker>
- ```
+```
 
-1. Add a sample `ViewModel` class:
+**2.** Add a sample `ViewModel` class:
 
- ```C#
+```C#
 public class PeopleViewModel
 {
 	public PeopleViewModel()
@@ -68,11 +68,11 @@ public class PeopleViewModel
 
 	public ObservableCollection<Person> Items { get; set; }
 }
- ```
+```
 
-1. Create the Business model:
+**3.** Create the Business model:
 
- ```C#
+```C#
 public class Person
 {
 	public Person(string name, string lastName)
@@ -93,21 +93,21 @@ public class Person
 		}
 	}
 }
- ```
+```
 
-1. Add the following namespace:
+**5.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**6.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
- using Telerik.Maui.Controls.Compatibility;
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -121,7 +121,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
+}           
 ```
 
 ## Additional Resources

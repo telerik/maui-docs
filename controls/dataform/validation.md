@@ -10,7 +10,7 @@ slug: dataform-validation
 
 .NET MAUI DataForm provides built-in validation, which gives you full control over the data collected through the control. 
 
-![RadDataForm Overview](images/dataform-validate-data-desktop.png)
+![.NET MAUI DataForm Validation](images/dataform-validate-data-desktop.png)
 
 The next sections list all DataForm members related to validation.
 
@@ -24,7 +24,7 @@ The selected mode is applied through `ValidationMode` (of type`Telerik.Maui.Cont
 
 >important When `ValidationMode` is `LostFocus`, you have to set `CommitMode` to `LostFocus` or `Explicit`.
 
-The `ValidationMode` can be applied globally to the RadDataForm 
+The `ValidationMode` must be applied globally to the `RadDataForm`:
 
 ```XAML
 <telerik:RadDataForm x:Name="dataForm"
@@ -60,9 +60,11 @@ DataForm exposes a `ValidateChanges` method with two overloads:
 
 <snippet id='dataform-validatechanges-on-property'/>
 
+> For a runnable example with the DataForm Validation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Validation** category.
+
 ## Commands
 
-* `ValidateCommand`(`ICommand`)&mdash;Gets a command to execute the validation logic of the RadDataForm. This command is useful when the DataForm `ValidationMode` property is `Explicit`.
+* `ValidateCommand`(`ICommand`)&mdash;Gets a command to execute the validation logic of the `RadDataForm`. This command is useful when the DataForm `ValidationMode` property is `Explicit`.
 
 ## Validation Summary - Styling and Customization
 

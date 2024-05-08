@@ -28,25 +28,25 @@ Before adding the Path, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a Path control to your page. The Path exposes the `Geometry` property, which you have to assign to a `RadPathGeometry` object. The [`RadPathGeometry`]({% slug path-structure %}) object consists of different Path figures such as lines and arcs.
+**1.** When your .NET MAUI application is set up, you are ready to add a Path control to your page. The Path exposes the `Geometry` property, which you have to assign to a `RadPathGeometry` object. The [`RadPathGeometry`]({% slug path-structure %}) object consists of different Path figures such as lines and arcs.
 
-  For demonstration purposes, let's choose one of the built-in geometries the Path supports, for example, the star pattern, and set it directly to the `Geometry` property:
+ For demonstration purposes, let's choose one of the built-in geometries the Path supports, for example, the star pattern, and set it directly to the `Geometry` property:
 
- <snippet id='path-gettingstarted-starpath-xaml'/>
+<snippet id='path-gettingstarted-starpath-xaml'/>
 
-1. Add the following namespaces:
+**2.** Add the following namespaces:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
- using Telerik.Maui.Controls.Compatibility;
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -60,7 +60,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
+}           
 ```
 
 ## Additional Resources

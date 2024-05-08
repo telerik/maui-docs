@@ -15,36 +15,36 @@ You can define preselected dates both in the DatePicker (the selected date) and 
 
 To define the current date selection:
 
-1. Set the `Date` property of the `DateTime?` type. The default value is `null`.
+**1.** Set the `Date` property of the `DateTime?` type. The default value is `null`.
 
- ```XAML
+```XAML
 <telerik:RadDatePicker Date="2020,05,15"
                             SpinnerFormat="yyy-MMM"/>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## Setting the Highlighted Date
 
 To set the highlighted date:
 
-1. Set the `DefaultHighlightedDate` property of type `DateTime` to define the `System.DateTime`, which will be used to pre-scroll each spinner when the `Date` property is `null`.
+**1.** Set the `DefaultHighlightedDate` property of type `DateTime` to define the `System.DateTime`, which will be used to pre-scroll each spinner when the `Date` property is `null`.
 
- ```XAML
+```XAML
 <telerik:RadDateTimePicker Date="{x:Null}"
                                 DefaultHighlightedDate="2020,05,15"
                                 SpinnerFormat="dd/MMM/yyyy"/>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

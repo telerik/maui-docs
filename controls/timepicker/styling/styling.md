@@ -1,5 +1,5 @@
 ---
-title: TimePicker Styling
+title: Picker Styling
 page_title: .NET MAUI TimePicker Documentation - Styling
 description: Learn how to style the Telerik UI for .NET MAUI TimePicker control with the exposed options in the article.
 position: 0

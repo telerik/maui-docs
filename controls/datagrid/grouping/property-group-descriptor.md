@@ -8,7 +8,7 @@ slug: datagrid-property-group-descriptor
 
 # Property Group Descriptor for .NET MAUI DataGrid
 
-The `PropertyGroupDescriptor` is used to group the data in a DataGrid by property from the class that defines your objects.
+The `PropertyGroupDescriptor` is used to group the data in a [.NET MAUI DataGrid]({%slug datagrid-overview%}) by property from the class that defines your objects.
 
 To use the `PropertyGroupDescriptor`, you have to set its `PropertyName` (`string`) property, which gets or sets the name of the property that is used to retrieve the key by which to group.
 
@@ -41,8 +41,9 @@ this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Compatibility.Commo
 
 Here is how the DataGrid looks when it's grouped:
 
-![DataGrid Property GroupDescriptor](../images/datagrid_grouping.png)
+![DataGrid Property GroupDescriptor](../images/datagrid-delegate-group-descriptor.png)
 
 ## See Also
 
 - [Grouping UI]({%slug datagrid-grouping-ui%})
+- [Group Header Template]({%slug datagrid-group-header-template%})

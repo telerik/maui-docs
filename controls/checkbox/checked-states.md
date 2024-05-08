@@ -52,10 +52,6 @@ public class ViewModel : NotifyPropertyChangedBase
 }
 ```
 
-The image below shows the result at runtime displaying the defined Indeterminate state together with the configured `StrokeWidth` and `Length` properties.
-
-![CheckBox States Configuration](images/checkbox-features.png)
-
 ## Events
 
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
@@ -64,7 +60,26 @@ The image below shows the result at runtime displaying the defined Indeterminate
         * `NewValue`(`bool?`)&mdash;Gets the new value from the CheckBox state.
         * `OldValue`(`bool?`)&mdash;Gets the old value of the CheckBox state.
 
+## Commands
+
+The Telerik .NET MAUI CheckBox allows you to attach a command that executes when the `IsChecked` property changes. 
+
+* `Command` (`ICommand`)&mdash;Defines the command, which executes when the `IsChecked` property of the checkbox changes. Use `CommandParameter` to pass a parameter to the command execute method. The `Command` is available in .NET 8.
+
+Here is an example with the `CheckBox.Command`
+
+**1.** Define the CheckBox in XAML:
+
+<snippet id='checkbox-command-xaml' />
+
+**2.** Define the ViewModel:
+
+<snippet id='checkbox-command-viewmodel' />
+
+Here is the result:
+
+![CheckBox Command](images/checkbox-command.gif)
+
 ## See Also
 
-- [Setting the Checkbox Size]({%slug checkbox-size %})
 - [Styling Options of the Checkbox]({%slug checkbox-styling%})

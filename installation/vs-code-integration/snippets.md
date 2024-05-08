@@ -68,6 +68,7 @@ To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI fo
 | tm-segmented-control       | [SegmentedControl]({%slug segmentedcontrol-overview%}) |
 | tm-sidedrawer              | [SideDrawer]({%slug sidedrawer-overview%})       |
 | tm-signaturepad            | [SignaturePad]({%slug signaturepad-overview%}) |
+| tm-slider                  | [Slider]({%slug slider-overview%}) |
 | tm-slideview               | [SlideView]({%slug slideview-overview%}) |
 | tm-tabview                 | [TabView]({%slug tabview-overview%}) |
 | tm-templatedpicker         | [TemplatedPicker]({%slug templatedpicker-overview%}) |

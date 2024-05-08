@@ -8,7 +8,7 @@ slug: datagrid-commands-editing
 
 # .NET MAUI DataGrid Editing Commands
 
-The DataGrid control provides the following commands for editing the data inside the column:
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) control provides the following commands for editing the data inside the column:
 
 * `BeginEdit`&mdash;Provides an entry point just before the editing begins.
 * `CancelEdit`&mdash;Provides an entry point just before the editing is canceled.

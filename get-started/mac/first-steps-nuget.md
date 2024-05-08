@@ -17,7 +17,7 @@ While installing Telerik UI for .NET MAUI with NuGet works both for Windows and 
 
 Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
-## Step 2: Download Telerik UI for .NET MAUI
+## Step 2: Download Telerik UI for .NET MAUI NuGet Package
 
 Telerik UI for .NET MAUI enables you to download the suite either from the Telerik UI for .NET MAUI product page or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
 
@@ -31,7 +31,7 @@ Telerik UI for .NET MAUI enables you to download the suite either from the Teler
 
   ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
 
-1. On the next page, download the `.msi` and `.pkg` automatic installation files, and the Telerik .NET MAUI NuGet Package.
+1. On the next page, download the `.nupkg` or `.zip` files. The `.zip` file contains the Telerik .NET MAUI NuGet Package.
 
   ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
 
@@ -51,7 +51,7 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
   ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-add-package-source.png)
 
-1. In the **Location** field, add the Telerik server by filling in its [`https://nuget.telerik.com/v3/index.json`](https://nuget.telerik.com/v3/index.json) URL. Click **Add Source**.
+1. In the **Location** field, add the Telerik server URL: `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from [your account](https://www.telerik.com/account/), add the path to the local package instead of the URL. Finally, click **Add Source**.
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/getting-started-add-telerk-server.png)
 

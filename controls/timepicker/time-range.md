@@ -17,18 +17,18 @@ The TimePicker allows you to define a time range and choose a time within that r
 
 The following example shows how to set the time ranges.
 
-1. Define the TimePicker:
+**1.** Define the TimePicker:
 
- ```XAML
+```XAML
 <telerik:RadTimePicker MinimumTime="8:00:00"
                          MaximumTime="19:00:00"/>
- ```
+```
 
-1. Add the namespace:
+**1.** Add the namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

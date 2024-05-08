@@ -12,21 +12,47 @@ The PDF Viewer for .NET MAUI provides a flexible styling API for its search tool
 
 As the `PDFViewerToolbar` is based on the `RadToolbar` control, all toolbar items in the PDF Viewer inherit from `ButtonToolbarItem`. All styling properties available for the `ButtonToolbarItem` are also applicable for the PDF toolbar items. 
 
-The table below lists all toolbar items related to the search feature and their target type:
+## Styling the Toolbar's Search Item on Mobile
+
+The default search toolbar item displayed on mobile devices is the `PdfViewerSearchNavigationToolbarItem` (`Style` property with target type `NavigationButtonToolbarItemView`). The 
+
+The table below lists all toolbar items related to the `PdfViewerSearchNavigationToolbarItem` and their target types:
 
 | Toolbar Item | Target Type |
 | ------ | ------ |
-| `PdfViewerSearchNavigationToolbarItem` | `Style` property with target type `NavigationButtonToolbarItemView`  |
 | `PdfViewerNavigateToPreviousSearchResultToolbarItem` | `Style` property with target type `PdfViewerNavigateToPreviousSearchResultToolbarItemView` |
 | `PdfViewerNavigateToNextSearchResultToolbarItem` | `Style` property with target type `PdfViewerNavigateToNextSearchResultToolbarItemView` |
 | `PdfViewerSearchEntryToolbarItem` | `Style` property with target type `PdfViewerSearchEntryToolbarItemView` |
 | `PdfViewerSearchBusyIndicatorToolbarItem` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
+| `BackNavigationButtonToolbarItemView` | `Style` property with target type `ButtonToolbarItemView` |
 
-The `PdfViewerSearchBusyIndicatorToolbarItemView` inherits from the [BusyIndicatorToolbarItemView]({%slug toolbar-items-busyindicator%}).
+## Styling the Toolbar's Search Item on Desktop
 
-The `PdfViewerSearchEntryToolbarItemView` inherits from the [EntryToolbarItemView]({%slug toolbar-items-entry%}).
+The default search toolbar item displayed on desktop devices is the `PdfViewerSearchToolbarItem`. The toolbar item exposes the following properties:
 
-The `PdfViewerNavigateToPreviousSearchResultToolbarItemView`, `PdfViewerNavigateToNextSearchResultToolbarItemView`, and `NavigationButtonToolbarItemView` inherit from [ButtonToolbarItemView]({%slug toolbar-items-button%}). 
+* `Style` (target type `ButtonToolbarItemView`)&mdash;Specfies the style applied to the toolbar button that opens the search popup on desktop.
+* `SearchContentViewStyle` (`Style` with a target type of `PdfViewerSearchContentView`)&mdash;Specifies the style applied to the search popup.
+
+The table below lists all styling properties available in the `SearchContentViewStyle`:
+
+| Toolbar Item | Target Type |
+| ------ | ------ |
+| `CloseButtonToolbarItemStyle` | `Style` property with target type `ButtonToolbarItemView`  |
+| `PreviousSearchResultToolbarItemStyle` | `Style` property with target type `PdfViewerNavigateToPreviousSearchResultToolbarItemView` |
+| `NextSearchResultToolbarItemStyle` | `Style` property with target type `PdfViewerNavigateToNextSearchResultToolbarItemView` |
+| `SearchEntryToolbarItemStyle` | `Style` property with target type `PdfViewerSearchEntryToolbarItemView` |
+| `BusyIndicatorToolbarItemStyle` | `Style` property with target type `PdfViewerSearchBusyIndicatorToolbarItemView` |
+| `SearchResultsLabelToolbarItemStyle` | `Style` property with target type `LabelToolbarItemView` |
+
+The next table lists the inheritance of the target types:
+
+| Target Type | Inherits from |
+| ------ | ------ |
+| `PdfViewerSearchBusyIndicatorToolbarItemView` | [`BusyIndicatorToolbarItemView`]({%slug toolbar-items-busyindicator%}) |
+| `PdfViewerSearchEntryToolbarItemView` | [`EntryToolbarItemView`]({%slug toolbar-items-entry%}) |
+| `PdfViewerNavigateToPreviousSearchResultToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
+| `PdfViewerNavigateToNextSearchResultToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
+| `NavigationButtonToolbarItemView` | [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) |
 
 ## Styling the Search Toast Message on Mobile
 

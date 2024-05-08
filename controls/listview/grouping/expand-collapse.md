@@ -71,7 +71,7 @@ By handling the `GroupHeaderTap` command, you can control the collapse/expand be
 
 >tip For more information on using the ListView commands, refer to the [Commands]({%slug listview-features-commands%}) topic.
 
-First, let’s define the `GroupHeaderTapCommand` class that derives from `ListViewCommand`:
+**1.** Define the `GroupHeaderTapCommand` class that derives from `ListViewCommand`:
 
 ```C#
 	public class GroupHeaderTapCommand : ListViewCommand
@@ -93,7 +93,7 @@ First, let’s define the `GroupHeaderTapCommand` class that derives from `ListV
 	}
 ```
 
-Add the `GroupHeaderTapCommand` to the `Commands` collection of the ListView instance:
+**2.** Add the `GroupHeaderTapCommand` to the `Commands` collection of the ListView instance:
 
 ```C#
 listView.Commands.Add(new GroupHeaderTapCommand());

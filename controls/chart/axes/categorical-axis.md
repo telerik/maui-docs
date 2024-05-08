@@ -27,38 +27,36 @@ The Categorical Axis exposes the following properties:
 
 The following example shows how to format the axis labels on the Categorical Axis.
 
-1. First, create the needed business objects:
+**1.** Create the needed business objects:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Then, create a `ViewModel`:
+<snippet id='chart-series-categorical-data-view-model' />
 
- <snippet id='chart-series-categorical-data-view-model' />
+**3.** se the following snippet to declare the `RadChart` in XAML or in C#:
 
-
-1. Finally, use the following snippet to declare the `RadChart` in XAML or in C#:
-
- ```XAML
-    <telerik:RadCartesianChart>
-	  <telerik:RadCartesianChart.BindingContext>
-	    <local:CategoricalDataViewModel/>
-	  </telerik:RadCartesianChart.BindingContext>
-	  <telerik:RadCartesianChart.HorizontalAxis>
-	    <telerik:CategoricalAxis PlotMode="OnTicks"
-								      MajorTickInterval="2"
-									  GapLength="0.5"/>
-	  </telerik:RadCartesianChart.HorizontalAxis>
-	  <telerik:RadCartesianChart.VerticalAxis>
-	    <telerik:NumericalAxis LabelFitMode="MultiLine"/>
-	  </telerik:RadCartesianChart.VerticalAxis>
-	  <telerik:RadCartesianChart.Series>
-	    <telerik:BarSeries ItemsSource="{Binding Data}"
-		                        ValueBinding="Value"
-                                CategoryBinding="Category"/>
-	  </telerik:RadCartesianChart.Series>
-    </telerik:RadCartesianChart>
- ```
+```XAML
+<telerik:RadCartesianChart>
+	<telerik:RadCartesianChart.BindingContext>
+		<local:CategoricalDataViewModel/>
+	</telerik:RadCartesianChart.BindingContext>
+	<telerik:RadCartesianChart.HorizontalAxis>
+		<telerik:CategoricalAxis PlotMode="OnTicks"
+										MajorTickInterval="2"
+										GapLength="0.5"/>
+	</telerik:RadCartesianChart.HorizontalAxis>
+	<telerik:RadCartesianChart.VerticalAxis>
+		<telerik:NumericalAxis LabelFitMode="MultiLine"/>
+	</telerik:RadCartesianChart.VerticalAxis>
+	<telerik:RadCartesianChart.Series>
+		<telerik:BarSeries ItemsSource="{Binding Data}"
+								ValueBinding="Value"
+								CategoryBinding="Category"/>
+	</telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
+```
 
 
 The following image shows the end result.

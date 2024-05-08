@@ -104,7 +104,7 @@ Commands which cancel/apply the changes made in interactive commands:
 
 ## Example with Interactive Commands and Rotate Left and Right
 
-**1.** The ImageEditor definition in XAML:
+**1.** The ImageEditor definition in XAML with **Brightness**, **Hue**, **Crop**, **Flip**, **Rotate**, **Cancel** and **Accept** commands:
 
 <snippet id='imageeditor-commands-xaml'/>
 
@@ -113,18 +113,6 @@ Commands which cancel/apply the changes made in interactive commands:
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
-**3.** Rotate Commands set on a Button
-
-<snippet id='imageeditor-commands-xaml'/>
-
-**4.** Hue Command Executed on a Button click and a Slider for changing the Hue Value:
-
-<snippet id='imageeditor-hue-command-xaml'/>
-
-**5.** Crop Commands set on a Button
-
-<snippet id='imageeditor-interactive-crop-xaml'/>
 
 > For the runnable ImageEditor Commands example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ImageEditor > Features**.
 

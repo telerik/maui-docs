@@ -8,9 +8,22 @@ slug: slideview-indicators
 
 # .NET MAUI SlideView Indicator
 
-The SlideViewIndicator is a control that emphasizes changes from the current item to another item in a collection of items. This control also incorporates buttons to enable the end user navigate between the next or previous items.
+The `SlideViewIndicator` is a control that emphasizes changes from the current item to another item in a collection of items. This control also incorporates buttons to enable the end user to navigate between the next or previous items. On `WinUI` and `MacCatalyst`, the users can change the views by clicking the indicators.
 
-The following table represents the properties of the SlideViewIndicator.
+The `SlideViewIndicator` is hosted in the `RadSlideView` and its properties can be assigned via the via the `IndicatorStyle` property of `RadSlideView`. 
+
+```XAML
+ <telerik:RadSlideView>
+     <telerik:RadSlideView.IndicatorStyle>
+         <Style TargetType="telerik:SlideViewIndicator">
+             <Setter Property="MaxVisibleItems" Value="3" />
+         </Style>
+     </telerik:RadSlideView.IndicatorStyle>
+</telerik:RadSlideView>
+```
+Find more examples with the `IndicatorStyle` in the [Styling the SlideView Indicators]({%slug indicators-styling%}) article.
+
+The following table represents the properties of the `SlideViewIndicator`.
 
 |Property| Description|
 |--------|------------|

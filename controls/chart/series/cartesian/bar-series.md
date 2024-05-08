@@ -18,20 +18,17 @@ The Bar Series inherits from the Categorical Series and requires one Categorical
 
 The following example shows how to create a Cartesian Chart with Bar Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-categorical-data-view-model' />
 
- <snippet id='chart-series-categorical-data-view-model' />
+**3.** Use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
 
-
-1. Use the following snippet to declare a Cartesian Chart with a Bar Series in XAML:
-
- <snippet id='chart-series-barvertical-xaml' />
-
+<snippet id='chart-series-barvertical-xaml' />
 
 The following image shows how the Bar Series looks:
 

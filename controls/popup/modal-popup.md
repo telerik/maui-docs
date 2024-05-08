@@ -8,7 +8,7 @@ slug: popup-modal
 
 # .NET MAUI Modal Popup
 
-You can define whether the Popup will be modal or not through the `IsModal` Boolean property. In both cases, the UI behind the popup gets inactive and cannot be used until the popup is closed. For non-modal popups, however, you can focus the content behind by clicking outside the popup, thus hiding it.
+You can define whether the [.NET MAUI Popup]({%slug popup-overview%}) will be modal or not through the `IsModal` Boolean property. In both cases, the UI behind the popup gets inactive and cannot be used until the popup is closed. For non-modal popups, however, you can focus the content behind by clicking outside the popup, thus hiding it.
 
 ## See Also
 

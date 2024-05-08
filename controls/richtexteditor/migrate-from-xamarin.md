@@ -29,16 +29,6 @@ The tables in the following sections list the differences between the APIs of th
 | `AddImageToolbarItem` | `RichTextEditorImageNavigationToolbarItem` |
 | `AddHyperlinkToolbarItem ` | `RichTextEditorHyperlinkNavigationToolbarItem` |
 
-
-This table lists the features that aren't available in the .NET MAUI RichTextEditor:
-
-| Xamarin RichTextEditor | .NET MAUI RichTextEditor |
-| ------------- | --------------- |
-| `Context Menu` | N/A |
-| `CutCommand` | N/A |
-| `CopyCommand` | N/A |
-| `PasteCommand` | N/A |
-
 > The .NET MAUI RichTextEditor Toolbar is a new toolbar that inherits from [Telerik .NET MAUI Toolbar]({%slug toolbar-overview%}).
 
 ## See Also

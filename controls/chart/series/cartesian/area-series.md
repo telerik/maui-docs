@@ -22,21 +22,17 @@ The Area Series supports the following properties:
 
 The following example shows how to create a Cartesian Chart with an Area Series:
 
-1. Create the a sample business object:
+**1.** Create the a sample business object:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-categorical-view-model' />
 
- <snippet id='chart-series-categorical-view-model' />
+**3.** Use the following snippet to declare a Cartesian Chart with an Area Series in XAML and in C#:
 
-
-1. Use the following snippet to declare a Cartesian Chart with an Area Series in XAML and in C#:
-
- <snippet id='chart-series-area-xaml' />
-
-
+<snippet id='chart-series-area-xaml' />
 
 The following image shows the end result:
 
@@ -47,12 +43,12 @@ The following image shows the end result:
 You can further customize the Area Series:
 
 ```C#
-	var series = new AreaSeries
-	{
-		Fill = new Color(0.8, 0.8, 1),
-		Stroke = new Color(0.6, 0.6, 0.9),
-		StrokeThickness = 5
-	};
+var series = new AreaSeries
+{
+	Fill = new Color(0.8, 0.8, 1),
+	Stroke = new Color(0.6, 0.6, 0.9),
+	StrokeThickness = 5
+};
 ```
 
 

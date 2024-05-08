@@ -60,32 +60,91 @@ No matter whether you've used the `.msi` automatic installation or the `zip` fil
 
 To manually reference the assembly references, create a `libs` folder in your solution folder. Then, copy the content from the desired .NET folder into your "libs" folder (e.g. `Binaries/NET7` copyto-> `libs`). You can now directly reference the DLLs in that `libs` folder instead of the installation folder.
 
-Note that *Visual Studio 2022 does not have support for differentiating DLL references for each target platform*, you must manually edit the csproj file and add conditions for each target platform.
+> Visual Studio 2022 does not support differentiating DLL references for each target platform. You must manually edit the `.csproj` file and add conditions for each platform. The `Telerik.Maui.Controls.dll`, `Telerik.Maui.Controls.Compatibility.dll`, and `Telerik.Maui.Core.dll` must be referenced from the platform-specific folders.
 
 ```
 <ItemGroup>
-    <!-- You can keep the SHARED assembly references in here -->
+    <!-- You can keep the SHARED assembly references in here, the document processing assemblies -->
     <Reference Include="..." />
 </ItemGroup>
 
 <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
     <!-- Put Windows-only assembly references in here -->
-    <Reference Include="..." />
+    <Reference Include="Telerik.WinUI.Controls">
+      <HintPath>"The dlls location"\WinUI\Telerik.WinUI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls.Compatibility">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Core">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+    </Reference>
 </ItemGroup>
 
 <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'iOS'">
     <!-- Put iOS-only assembly references in here -->
-    <Reference Include="..." />
+   <Reference Include="Telerik.iOS">
+      <HintPath>"The dlls location"\iOS\Telerik.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls.Compatibility">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Core">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+    </Reference>
 </ItemGroup>
 
 <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">
     <!-- Put MacCatalyst-only assembly references in here -->
-    <Reference Include="..." />
+   <Reference Include="Telerik.MacCatalyst">
+      <HintPath>"The dlls location"\MacCatalyst\Telerik.MacCatalyst.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls.Compatibility">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Core">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+    </Reference>
 </ItemGroup>
 
 <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
     <!-- Put Android-only assembly references in here -->
-    <Reference Include="..." />
+    <Reference Include="Telerik.Android.Chart">
+      <HintPath>"The dlls location"\Android\Telerik.Android.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Android.Common">
+      <HintPath>"The dlls location"\Android\Telerik.Android.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Android.Data">
+      <HintPath>"The dlls location"\Android\Telerik.Android.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Android.Input">
+      <HintPath>"The dlls location"\Android\Telerik.Android.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Android.List">
+      <HintPath>"The dlls location"\Android\Telerik.Android.List.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Android.Primitives">
+      <HintPath>"The dlls location"\Android\Telerik.Android.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Controls.Compatibility">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Maui.Core">
+      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+    </Reference>
 </ItemGroup>
 ```
 

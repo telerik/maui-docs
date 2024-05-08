@@ -14,13 +14,13 @@ You can populate the SlideView component with various types of objects, for exam
 
 The following example shows how to populate the `ItemsSource` with business items and customize their appearance.
 
-**1.** Create a sample `MyItem` class. 
+**1.** Create a sample `CustomItem` class. 
 
-<snippet id='slideview-datamodel' />
+<snippet id='slideview-itemtemplate-datamodel' />
 
 **2.** Add a View Model containing a collection of `MyItem` objects.
 
-<snippet id='slideview-events-viewmodel' />
+<snippet id='slideview-itemtemplate-viewmodel' />
 
 **3.** Add the SlideView definition with a sample `ItemTemplate` applied.
 

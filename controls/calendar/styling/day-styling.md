@@ -8,6 +8,22 @@ slug: calendar-day-styling
 
 # .NET MAUI Calendar Day Styling
 
+The Calendar control for .NET MAUI allows you to style the day names in the month view by setting the `DayNameLabelStyle` (`Style` with target type of `Label`) property.
+
+The follwoing example demonstrates how to style the day names: 
+
+**1.** Define the Calendar:
+
+<snippet id='calendar-daynames-styling'/>
+
+**2.** Define the style for the day names:
+
+<snippet id='calendar-daynamelabel-style'/>
+
+>For a runnable example demonstrating how to style the days in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling** category.
+
+## Applying Style Selector
+
 The Calendar control for .NET MAUI provides the `DayStyleSelector`(of type `CalendarStyleSelector`) property which specifies the style selector for the days in the month views of the Calendar.
 
 The following example demonstrates how to style the days with the `DayStyleSelector` property:
@@ -26,7 +42,7 @@ The following example demonstrates how to style the days with the `DayStyleSelec
 
 ![.NET MAUI Calendar Day Style Selector](images/calendar-daystyle-selector.png)
 
->For a runnable example demonstrating how to style the days in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
+>For a runnable example demonstrating how to style the days in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector** category.
 
 ## See Also
 

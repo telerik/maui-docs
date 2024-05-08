@@ -25,19 +25,17 @@ The default combine mode is `None`. You can define the current combine mode with
 
 The following example shows how to create a Stack Cartesian Chart with Bar Series :
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='categorical-data-model' />
+<snippet id='categorical-data-model' />
 
+**2.** Create a `ViewModel`:
 
-1. Create a `ViewModel`:
+<snippet id='chart-series-series-categorical-view-model' />
 
- <snippet id='chart-series-series-categorical-view-model' />
+**3.** Declare a `CombineMode` property to the Bar Series in XAML:
 
-
-1. Declare a `CombineMode` property to the Bar Series in XAML:
-
- <snippet id='chart-series-stackbarvertical-xaml' />
+<snippet id='chart-series-stackbarvertical-xaml' />
 
 The following image shows how a Stack Bar Series looks:
 
@@ -54,7 +52,6 @@ The following image shows how a Stack Area Series looks:
 ![Stack CombineMode](images/chart-series-features-combine-mode-stack-area-series.png)
 
 ## Stack Spline Area Series Example
-
 
 `CombineMode="Stack"` for `SplineAreaSeries`
 

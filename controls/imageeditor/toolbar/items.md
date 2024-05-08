@@ -54,7 +54,7 @@ The table below shows the built-in toolbar items available for desktop - `WinUI`
 
 Review all properties available for toolbar items configuration.
 
-### Properties for All Toolbar Items**
+### Properties for All Toolbar Items
 
 The properties described bellow apply to all toolbar items available in the `ImageEditorToolbar`:
 
@@ -65,7 +65,7 @@ The properties described bellow apply to all toolbar items available in the `Ima
 	* `ToolStrip`&mdash;The toolbar item appears in the main tool strip area of the toolbar.
 	* `DropDown`&mdash;The toolbar item appears in the overflow drop-down menu of the toolbar.
 
-### Properties for Specific Toolbar Items**
+### Properties for Specific Toolbar Items
 
 The properties described below apply to `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`, `flip`, `resize`, `undo`, `redo`, `crop`, `rotate`, `button` toolbar items:
 
@@ -76,13 +76,13 @@ The properties described below apply to `blur`, `hue`, `saturation`, `brightness
 * `CommandParameter`(`object`)&mdash;Defines the parameter of the command, which is executed when the button is clicked.
 * `Clicked` event&mdash;Raised when the button is clicked.
 
-### Properties for Filter Toolbar Items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`**
+### Properties for Filter Toolbar Items - `blur`, `hue`, `saturation`, `brightness`, `sharpen`, `contrast`
 
 * `Value`(`double`)&mdash;Defines the current value, when using an auto-generated slider content. Default value is`0`.
 * `MinimumProperty`(`double`)&mdash;Defines the minimum value, when using an auto-generated slider content. Default value is `-100`.
 * `MaximumProperty`(`double`)&mdash;Defines the maximum value, when using an auto-generated slider content. Default value is `100`.
 
-### Properties for Navigation Toolbar Item**
+### Properties for Navigation Toolbar Item
 
 * `AutoGenerateItems`(`bool`)&mdash;Specifies a value indicating whether to auto-generate all child items by default. The default value is `true`.
 * `Items`(`IList<ToolbarItem>`)&mdash;Read-only collection of `Telerik.Maui.Controls.ToolbarItems`.

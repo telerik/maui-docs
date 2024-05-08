@@ -2,7 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI PDF Viewer Toolbar Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI PDF Viewer Toolbar, and see how these elements build the visual structure of the control.
-position: 2
+position: 1
 slug: pdfviewer-toolbar-visual-structure
 ---
 

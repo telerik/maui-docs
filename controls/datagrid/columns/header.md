@@ -10,7 +10,7 @@ slug: datagrid-column-header
 
 # .NET MAUI DataGrid Column Headers
 
-This article will guide you through the usage of the column headers, their customization as well through performing different data operations. Column headers are always visible and cannot be hidden.
+This article will guide you through the usage of the column headers, their customization as well through performing different data operations. Column headers are always visible by default. You can further customize the headers by using the `HeaderStyle` property.
 
 ![DataGrid Column Header](../images/column-header.png)
 
@@ -36,7 +36,7 @@ The user of the application can sort a particular column when tapping on its hea
 
 ![.NET MAUI DataGrid Column Header Sorting indicator](../images/column-header-sorting.png)
 
-To learn more about the sorting functionality take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
+To learn more about the sorting functionality of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
 
 ## Filtering
 
@@ -51,6 +51,8 @@ To learn more about the filtering functionality take a look at the [Filtering]({
 Use the `HeaderStyle` property to style the `DataGridColumn` header.
 
 Check the [.NET MAUI DataGrid Column Header Styling]({%slug datagrid-columns-styling%}#headerstyle) topic for more information about the styling options you can use. 
+
+>tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
 ## Header Content Customization
 

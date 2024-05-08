@@ -38,15 +38,15 @@ To load items on demand, you can use the `ListViewLoadOnDemandCollection` and se
 
 The example below demonstrates how to use the `LoadOnDemandCollection`:
 
-Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
+**1.** Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
 
 <snippet id='listview-loadondemand-loadondemandcollection-viewmodel'/>
 
-Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
+**2.** Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
 
 <snippet id='listview-loadondemand-loadondemandcollection-declaration'/>
 
-Add the `telerik` namespace:
+**3.** Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -61,15 +61,15 @@ Another way to handle loading more items is to use the `LoadOnDemand` event. Thi
 
 The example below demonstrates how to use the LoadOnDemand event:
 
-Define the ListView:
+**1.** Define the ListView:
 
 <snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
 
-Set the ListView `ItemsSource` , for example in the page constructor:
+**2.** Set the ListView `ItemsSource` , for example in the page constructor:
 
 <snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
 
-Add the following event handler:
+**3.** Add the following event handler:
 
 <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
 
@@ -82,15 +82,15 @@ This approach is similar to [using the LoadOnDemand event](#using-loadondemand-e
 
 The example below demonstrates how to use the `LoadOnDemand` command:
 
-Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` property:
+**1.** Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` property:
 
 <snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
 
-Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
+**2.** Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
 
 <snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
 
-Add the `telerik` namespaces:
+**3.** Add the `telerik` namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

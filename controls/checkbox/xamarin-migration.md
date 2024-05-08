@@ -26,7 +26,7 @@ The tables in the following sections list any differences between the APIs of th
 | Xamarin CheckBox | .NET MAUI CheckBox |
 | ------------- | --------------- |
 | N/A | `CornerRadius` |
-| `CheckBoxUserCommand` | N/A |
+| `CheckBoxUserCommand` | `Command` and `CommandParameter` |
 
 ## See Also
 

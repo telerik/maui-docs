@@ -12,7 +12,7 @@ The .NET MAUI DataGrid provides a styling functionality for its group footer, he
 
 ## Styling the Group Header
 
-The DataGrid provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
 
 Style the aggregates by using the following properties:
 
@@ -24,6 +24,8 @@ Style the aggregates by using the following properties:
 
 Style the group header by using the following properties:
 
+| Style  | Action 		   |
+|----------------------|-------------------|
 | `BackgroundColor` | Defines the color that fills the area within the header |
 | `BorderColor`| Defines the color that fills the border region. |
 | `BorderThickness` | Defines the thickness of the border. |
