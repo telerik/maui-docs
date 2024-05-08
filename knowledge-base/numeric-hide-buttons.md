@@ -10,18 +10,9 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>5.1.0</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>Numeric for MAUI</td>
-		</tr>
-	</tbody>
-</table>
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 5.1.0 | Telerik UI for .NET MAUI NumericInput | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 
 ## Description
@@ -33,7 +24,7 @@ This article explains how to hide the numeric input buttons. The buttons are use
 
 You have two options for hiding the buttons.
 
-1. Using the `DecreaseButtonStyle` and `IncreaseButtonStyle` and set `IsVisible` property to `False`.
+**1.** Use the `DecreaseButtonStyle` and `IncreaseButtonStyle` and set `IsVisible` property to `False`.
 
 ```XAML
 <telerik:RadNumericInput DecreaseButtonStyle="{StaticResource button}" IncreaseButtonStyle="{StaticResource button}"/>
@@ -49,5 +40,5 @@ And the Style defined in the resources:
 </ResourceDictionary>
 ```
 
-2. Use the [ControlTemplate]({%slug numericinput-control-template%}) of the `RadNumericInput` and remove the buttons from the control template.  
+**2.** Use the [ControlTemplate]({%slug numericinput-control-template%}) of the `RadNumericInput` and remove the buttons from the control template.  
 

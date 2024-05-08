@@ -11,19 +11,9 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-    <tbody>
-        <tr>
-            <td>Product Version</td>
-            <td>5.1.0</td>
-        </tr>
-        <tr>
-            <td>Product</td>
-            <td>TabView for .NET MAUI</td>
-        </tr>
-    </tbody>
-</table>
-
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 5.1.0 | Telerik UI for .NET MAUI TabView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
@@ -32,7 +22,6 @@ This article shows how to add a transparency in the TabView to display the backg
 ## Solution
 
 You have to add styles for the TabView Header, HeaderItem and Content. 
-
 
 ```XAML
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"

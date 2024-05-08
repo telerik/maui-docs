@@ -9,7 +9,7 @@ slug: datagrid-styling
 
 # .NET MAUI DataGrid Styling
 
-The DataGrid enables you to customize its look and feel through the available `Style` configuration options. Also, you can modify the appearance of its splitter element, which divides the frozen columns from the rest of the data.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) control enables you to customize its look and feel through the available `Style` configuration options. Also, you can modify the appearance of its splitter element, which divides the frozen columns from the rest of the data.
 
 ## Border Brush and Thickness
 
@@ -94,34 +94,6 @@ You can set the `GridLinesVisibility` property in the following way:
 ## Frozen Columns
 
 `Style` supports the `FrozenColumnsSplitterStyle` (`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property which allows you to style the UI of the splitter dividing the frozen (locked) from the unfrozen (unlocked) columns.
-
-## Group Header
-
-`Style` supports the `GroupHeaderStyle` property which defines the appearance of the group DataGrid header. `GoupHeaderStyle` is applied once the user groups the component.
-
-To further modify the appearance of the grouped DataGrid header, use the following properties:
-
-* `BackgroundColor`&mdash;Defines the color that fills the area within the header of the DataGrid `GroupHeader`.
-* `BorderColor`&mdash;Defines the color that fills the border region of the `GroupHeader`.
-* `BorderThickness`&mdash;Defines the thickness of the border.
-* `ButtonFontAttributes`, `ButtonFontFamily`, and `ButtonFontSize` options&mdash;Define the font options of the expand and collapse `GroupedHeader` symbol.
-
-  By default, the Button of the `GroupHeader` uses an internal symbol font family. To render text when the button is expanded or collapsed, instead of a symbol, set a font family to the `ButtonFontFamily` property and add the text to the `ExpandButtonText` and `CollapseButtonText` properties. For more details, refer to the [group feature of the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-grouping-overview%}).
-
-* `ButtonMargin`&mdash;Defines the margin of the expand and collapse symbol of the `GroupHeader`.
-* `ButtonTextColor`&mdash;Defines the text color of the expand and collapse symbol of the `GroupHeader`.
-* `CollapseButtonText`&mdash;Defines the text for the collapse state of the `GroupHeader`.
-* `ExpandButtonText`&mdash;Defines the text for the expand state of the `GroupHeader`.
-* `TextMargin`, `VerticalTextAlignment`, and `HorizontalTextAlignment` text alignment options&mdash;Define the positioning of the text that is part of the `GroupHeader`.
-* `TextFontattributes`, `TextFontFamily`, and `TextFontSize` text font options&mdash;Define the font options of the `GroupHeaders` text part.
-
-The following example shows how to apply the `GoupHeaderStyle` property to the DataGrid:
-
-<snippet id='datagrid-styling-groupheaderstyle'/>
-
-The next image shows the end result.
-
-![Styling the group header of the Telerik UI for .NET MAUI DataGrid](../images/datagrid-styling.png)
 
 ## Splitter UI
 

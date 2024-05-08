@@ -8,7 +8,7 @@ slug: datagrid-features-loadondemand
 
 # .NET MAUI DataGrid Load On Demand
 
-The Telerik UI for .NET MAUI DataGrid enables you to improve its performance and save computing resources, by loading data in the `RadDataGrid` when the control is already displayed.
+The  [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) enables you to improve its performance and save computing resources, by loading data in the `RadDataGrid` when the control is already displayed.
 
 To load a large data set on mobile devices, you can use incremental data loading at the time when the user required the items to be visualized.
 

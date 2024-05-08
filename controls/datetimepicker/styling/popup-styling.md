@@ -1,7 +1,7 @@
 ---
 title: Popup Styling
 page_title: .NET MAUI DateTimePicker Documentation - Popup Styling
-description: Apply the styling options of the Telerik UI for .NET MAUI DateTimePicker Popup.
+description: Learn how to style the elements in the popup part of the Telerik UI for .NET MAUI DateTimePicker.
 position: 1
 slug: datetimepicker-popup-styling
 ---
@@ -34,7 +34,7 @@ The `PickerPopupSettings` also provides the following properties for popup custo
 * `AcceptButtonText` (`string`)&mdash;Defines the text visualized for the `Accept` button. By default, the text is **OK**.
 * `CancelButtonText` (`string`)&mdash;Defines the text visualized for the `Cancel` button. By default, the text is **Cancel**.
 
-> __PopupSettings__ provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DateTimePicker. For more detailed information on them go to [DateTimePicker Styling]({%slug datetimepicker-styling%}) topic.
+> `PopupSettings` provides styling options for the popup, its header and footer, outside background color and other. If you need to customize the look&feel of the spinner controls that show the available date values, please refer to `SpinnerStyle`, `SpinnerHeaderStyle` and `SelectionHighlightStyle` properties of the DateTimePicker. For more detailed information on them go to [DateTimePicker Styling]({%slug datetimepicker-styling%}) topic.
 
 ## Namespaces
 

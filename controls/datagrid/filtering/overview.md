@@ -9,7 +9,7 @@ slug: datagrid-filtering-overview
 
 # .NET MAUI DataGrid Filtering
 
-**Telerik UI for .NET MAUI DataGrid** supports filtering operations either through the UI - using the Filtering UI or programmatically.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports filtering operations either through the UI - using the Filtering UI or programmatically.
 
 ![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
 

@@ -9,7 +9,7 @@ slug: datagrid-xamarin-migration
 
 # Migrate from Xamarin.Forms DataGrid to .NET MAUI DataGrid
 
-The Telerik UI for .NET MAUI DataGrid preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
 
 The tables in the following sections list any differences between the APIs of the Xamarin.Forms DataGrid and .NET MAUI DataGrid.
 
@@ -31,6 +31,9 @@ The tables in the following sections list any differences between the APIs of th
 | N/A | Column Footer |
 | N/A | Column Reordering |
 | N/A | Keyboard Navigation |
+| N/A | DynamicObject |
+| N/A | ExpandoObject  |
+| N/A | Built-in Search Functionality  |
 
 ## See Also
 

@@ -21,19 +21,17 @@ The ScatterLine Series provides the following properties to change its style:
 
 The following example shows how to create a `RadCartesianChart` with a ScatterLine Series:
 
-1. Create the needed business objects, for example:
+**1.** Create the needed business objects, for example:
 
- <snippet id='numerical-data-model' />
+<snippet id='numerical-data-model' />
 
-1. Create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- <snippet id='chart-series-series-numerical-view-model' />
+<snippet id='chart-series-series-numerical-view-model' />
 
+**3.** Use the following snippet to declare a `RadCartesianChart` with a ScatterLine Series in XAML:
 
-1. Use the following snippet to declare a `RadCartesianChart` with a ScatterLine Series in XAML:
-
- <snippet id='chart-series-scatterline-xaml' />
-
+<snippet id='chart-series-scatterline-xaml' />
 
 The following image shows the end result:
 
@@ -68,7 +66,6 @@ The following example adds customizations to the ScatterLine Series by applying 
     </telerik:RadCartesianChart.Series>
 </telerik:RadCartesianChart>
 ```
-
 
 The following image shows the final result:
 

@@ -26,9 +26,9 @@ Before adding the SegmentedControl, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a SegmentedControl control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a SegmentedControl control to your page.
 
- ```XAML
+```XAML
 <telerik:RadSegmentedControl x:Name="segmentControlText"
 								  HeightRequest="60"
                                   VerticalOptions="Start">
@@ -41,21 +41,21 @@ Before adding the SegmentedControl, you need to:
         </x:Array>
     </telerik:RadSegmentedControl.ItemsSource>
 </telerik:RadSegmentedControl>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -69,8 +69,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```
+}           
+```
  
 ## Additional Resources
 

@@ -29,9 +29,9 @@ When no data is displayed in the control, an empty template is visualized. Style
 
 You can use the following properties: 
 
-    * `VerticalContentOptions` (of type `LayoutOptions`)&mdash;Specifies the vertical layout options of the displayed content.
-    * `HorizontalContentOptions` (of type `LayoutOptions`)&mdash;Specifies the horizontal layout options of the displayed content.
-    * `ContentTemplate` (`DataTemplate`)&mdash;Specifies the content template of the empty view.
+ * `VerticalContentOptions` (of type `LayoutOptions`)&mdash;Specifies the vertical layout options of the displayed content.
+ * `HorizontalContentOptions` (of type `LayoutOptions`)&mdash;Specifies the horizontal layout options of the displayed content.
+ * `ContentTemplate` (`DataTemplate`)&mdash;Specifies the content template of the empty view.
 
 To customize the empty view, use the `EmptyTemplate` (`DataTemplate`) property. 
 

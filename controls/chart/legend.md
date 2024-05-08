@@ -15,7 +15,6 @@ To add the legend feature in your application, you need to initialize a new obje
 
 <snippet id='chart-features-piechart-legend-definition-xaml'/>
 
-
 The following image shows the `RadLegend` in combination with the Pie Chart.
 
 ![Pie Chart legend](images/piechart-legend.png)

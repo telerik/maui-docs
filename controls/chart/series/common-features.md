@@ -34,20 +34,20 @@ To customize the series labels text, use the following properties:
 
 The following example shows how to apply `LabelFormat` to a Line Series:
 
-1. Create the business object:
+**1.** Create the business object:
 
- ```C#
+```C#
 public class TemporalData
 {
     public DateTime Date { get; set; }
 
     public double Value { get; set; }
 }
- ```
+```
 
-1. Create a `ViewModel`:
+**2.** Create a `ViewModel`:
 
- ```C#
+```C#
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -74,11 +74,11 @@ public class ViewModel
         return items;
     }
 }
- ```
+```
 
-1. Declare a `RadCartesianChart` with a Line Series in XAML:
+**3.** Declare a `RadCartesianChart` with a Line Series in XAML:
 
- ```XAML
+```XAML
 <telerikChart:RadCartesianChart x:Name="chart">
     <telerikChart:RadCartesianChart.BindingContext>
         <local:ViewModel />
@@ -98,7 +98,7 @@ public class ViewModel
                                  ShowLabels="True"
                                  LabelFormat="{}{0:N2}"/>
 </telerikChart:RadCartesianChart.Series>
- ```
+```
 
 
 The following image shows the end result:

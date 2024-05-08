@@ -10,9 +10,13 @@ slug: button-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Button by adding the control to your project.
 
+This is the default look of the `RadButton` control:
+
+![.NET MAUI Button Default Look](images/button-default-look.png)
+
 At the end, you will achieve the following result.
 
-![Button Getting Started](images/button-getting-started.png)
+![.NET MAUI Button Getting Started](images/button-getting-started.png)
 
 ## Prerequisites
 
@@ -42,11 +46,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
-
- public static class MauiProgram
- {
+```C#
+using Telerik.Maui.Controls.Compatibility;
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -57,11 +60,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 			});
-
 		return builder.Build();
 	}
- }           
- ```
+}           
+```
 
 > For a runnable example with the Button Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Getting Started**.
 

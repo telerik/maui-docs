@@ -10,7 +10,7 @@ slug: dataform-commit-data
 
 The values entered in the DataForm can be submitted to the underlying data object on three different occasions, using the `CommitMode` property of the DataForm.
 
-![RadDataForm Overview](images/dataform-commit-data-desktop.png)
+![.NET MAUI DataForm Commit Data](images/dataform-commit-data-desktop.png)
 
 The next sections list all DataForm members related to commit data feature.
 
@@ -24,13 +24,14 @@ The selected mode is applied through the `CommitMode`(of type`Telerik.Maui.Contr
 
 >important When the selected `CommitMode` is `LostFocus`, you have to set `ValidatonMode` to `LostFocus` or `Explicit`.
 
-The `CommitMode` can be applied globally to the RadDataForm 
+The `CommitMode` must be applied globally to the `RadDataForm`:
 
 ```XAML
 <telerik:RadDataForm x:Name="dataForm"
                      CommitMode="LostFocus"/>
 ```
 
+> For a runnable example with the DataForm CommitMode scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Commit** category.
 
 ## Properties
 
@@ -65,7 +66,7 @@ this.dataForm.CancelChanges();
 
 ## Commands
 
-* `CommitCommand`(`ICommand`)&mdash;Gets a command to a command to commit all pending changes in the RadDataForm. This command is useful when the DataForm `CommitMode` property is `Explicit`.
+* `CommitCommand`(`ICommand`)&mdash;Gets a command to a command to commit all pending changes in the `RadDataForm`. This command is useful when the DataForm `CommitMode` property is `Explicit`.
 * `CancelCommand`(`ICommand`)&mdash;Gets a command to cancel all pending changes in the `RadDataForm`. This command is useful when the DataForm `CommitMode` property is `Explicit`.
 
 >important All commit methods call validation first. If the property value passes validation, then the corresponding validation finished event is raised and the value is committed successfully.

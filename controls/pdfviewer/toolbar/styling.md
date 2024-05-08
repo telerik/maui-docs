@@ -26,18 +26,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **3.**: Define the style in the page's resources:
 
-```XAML
-<Style TargetType="telerik:ButtonToolbarItemView" x:Key="commonStyle">
-    <Setter Property="MinimumWidthRequest" Value="40"/>
-    <Setter Property="BackgroundColor" Value="#608660C5"/>
-</Style>
-
-<Style TargetType="telerik:ButtonToolbarItemView" x:Key="zoomToolbarStyle" BasedOn="{StaticResource commonStyle}">
-    <Setter Property="BorderBrush" Value="LightGray"/>
-    <Setter Property="CornerRadius" Value="5"/>
-    <Setter Property="BorderThickness" Value="2"/>
-</Style>
-```
+<snippet id='pdfviewer-toolbar-styling-resources'/>
 
 **4.** Pass the document to the `PdfViewer.Source`:
 
@@ -45,7 +34,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result on the image below:
 
-![PdfViewer ToolbarStyling](images/pdf-toolbar-styling.png)
+![.NET MAUI PdfViewer ToolbarStyling](images/pdf-toolbar-styling.png)
 
 ## See Also
 

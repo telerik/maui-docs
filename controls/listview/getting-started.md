@@ -34,7 +34,7 @@ When your .NET MAUI application is set up, you are ready to add a ListView contr
   * Do not place the ListView inside a `StackLayout` or inside a `ScrollView`.
   * Do not set the ListView to a `RowDefinition Height="Auto"` Grid definition.
 
-Set up the `RadListView` instance:
+**1.** Set up the `RadListView` instance:
 
 ```XAML
 <telerik:RadListView x:Name="listView" ItemsSource="{Binding Source}">
@@ -55,17 +55,17 @@ Set up the `RadListView` instance:
 </telerik:RadListView>
 ```
 
-Add the `telerik` namespaces:
+**2.** Add the `telerik` namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-Let's create sample `Data` and `ViewModel` classes:
+**3.** Create sample `Data` and `ViewModel` classes:
 
 <snippet id='listview-gettingstarted-source' />
 
-Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;

@@ -8,7 +8,7 @@ slug: combobox-getting-started
 
 # Getting Started with the .NET MAUI ComboBox
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI ComboBox by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) by adding the control to your project.
 
 At the end, you will achieve the following result.
 
@@ -40,17 +40,17 @@ Here is the result:
 
 ### Binding to a Complex Object
 
-Here is the ComboBox definition in XAML:
+**1.** Define the ComboBox in XAML:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 
 > When binding to a complex objects, ComboBox **DisplayMemberPath** property needs to be set.
 
-the sample business model
+**2.** Define a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**3.** Add the ViewModel:
 
 <snippet id='combobox-cities-viewmodel'/>
 

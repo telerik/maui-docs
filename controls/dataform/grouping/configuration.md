@@ -31,12 +31,11 @@ You can combine the `Text` and the `Image` in the `HeaderDisplayOption`:
 HeaderDisplayOptions="Image, Text"
 ```
 
-
-** Example for Header options**
+Here is an example for defining Dataform header options:
 
 <snippet id='dataform-grouping-configuration-header'/>
 
-![DataForm Groups Configuration](../images/dataform-groups-configuration-desktop.png)
+![.NET MAUI DataForm Groups Configuration](../images/dataform-groups-configuration-desktop.png)
 
 ## Layouts
 
@@ -51,9 +50,11 @@ This is an example when the `DataFormGroup.LayoutDefinition` is set to `DataForm
 * `HeaderTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the header view.
 * `ContentTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the content view. The view where the editors are defined.
 
-Example for `HeaderTemplate`
+Here is an example for defining Dataform `HeaderTemplate`:
 
 <snippet id='dataform-grouping-configuration-header-template'/>
+
+> For a runnable example with the DataForm Grouping Configuration scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataForm > Grouping** category.
 
 ## Styling
 

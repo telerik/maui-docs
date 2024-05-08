@@ -9,7 +9,7 @@ slug: popup-getting-started
 
 # Getting Started with the .NET MAUI Popup
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Popup by adding the control to your project.
+This guide provides the information you need to start using the [Telerik UI for .NET MAUI Popup]({%slug popup-overview%}) by adding the control to your project.
 
 At the end, you will achieve the following result.
 
@@ -27,15 +27,15 @@ Before adding the Popup, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a Popup control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a Popup control to your page.
 
-	For demonstration purposes, the current scenario demonstrates how to add a sample Popup attached to a Button control. The purpose of the Popup here is to receive user input&mdash;It contains the Entry control for allowing the user to enter a comment and a button for closing the popup.
+For demonstration purposes, the current scenario shows how to add a sample Popup attached to a Button control. The purpose of the Popup here is to receive user input&mdash;It contains the Entry control for allowing the user to enter a comment and a button for closing the popup.
 
- <snippet id='popup-getting-started-xaml' />
+<snippet id='popup-getting-started-xaml' />
 
-1. Reference the event handlers.
+**2.** Reference the event handlers.
 
- ```C#
+```C#
 private void ClosePopup(object sender, EventArgs e)
 {
     popup.IsOpen = false;
@@ -44,21 +44,21 @@ private void ShowPopup(object sender, EventArgs e)
 {
     popup.IsOpen = true;
 }
- ```
+```
 
-1. Add the namespace.
+**3.** Add the namespace.
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
- {
+public static class MauiProgram
+{
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
@@ -72,8 +72,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```
+}           
+```
  
 ## Additional Resources
 

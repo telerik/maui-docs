@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI Calendar control has been designed and built from t
 
 When you plan to migrate from Xamarin to .NET MAUI, consider the following differences in the feature set of the Calendar control:
 * Unlike the Xamarin Calendar, the .NET MAUI Calendar allows three selection modes—single, multiple, and range.
-* Unlike the Xamarin Calendar, the .NET MAUI Calendar does not manage appointments. In Telerik UI for .NET MAUI, appointments will be handled by the .NET MAUI Scheduler control, which is planned for the R3 2023 release.
+* Unlike the Xamarin Calendar, the .NET MAUI Calendar does not manage appointments. In Telerik UI for .NET MAUI, appointments are handled by the [.NET MAUI Scheduler control]({%slug scheduler-overview%}).
 
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms Calendar and .NET MAUI Calendar.
 
@@ -35,7 +35,7 @@ When migrating the Calendar from Xamarin to .NET MAUI, consider the following di
 | ------------- | --------------- |
 | `ViewMode`(enum of type `CalendarViewMode`) | `DisplayMode`(enum of type `CalendarDisplayMode`) |
 | Styling the cells and the different view modes (DayView, MultiDay, AgendaView) requires custom renderers. | Styling the distinct parts of the calendar and its view modes is handled by the new Styling API. |
-| Provides an API for appointments (Scheduling UI). | Does not provide an API for appointments. The scheduling functionality in .NET MAUI will be given by the .NET MAUI Scheduler control, which is planned for R3 2023. |
+| Provides an API for appointments (Scheduling UI). | Does not provide an API for appointments. For scheduling appointments, use the Telerik UI for [.NET MAUI Scheduler]({%slug scheduler-overview%}) control.  |
 
 ## See Also
 

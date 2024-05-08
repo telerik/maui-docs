@@ -6,13 +6,13 @@ position: 3
 slug: expander-header
 ---
 
-# .NET MAUI Expander Header control
+# .NET MAUI Expander Header Control
 
-`ExpanderHeader` represents the Header of the Expander control which is used to show or hide the expandable container. ExpanderHeader provides a customizable Indicator to mark the current state of the Expander as well as `BorderColor` and `BorderThickness` properties to style the Header per your needs.
+The `ExpanderHeader` class represents the Header of the Expander control and is used to show or hide the expandable container. The `ExpanderHeader` provides a customizable Indicator to mark the current state of the Expander as well as `BorderColor` and `BorderThickness` properties to style the Header.
 
 ## Indicator Options
 
-The indicator is the triangle that is rotated according to whether the Expander control is expanded or collapsed. ExpanderHeader provides various options for customizing the look of the indicator via the following properties:
+The indicator is the triangle that is rotated according to whether the Expander control is expanded or collapsed. The `ExpanderHeader` provides various options for customizing the look of the indicator through the following properties:
 
 * `IndicatorText`&mdash;The indicator is represented by a string symbol that can be changed through `IndicatorText` property;
 * `IndicatorFontFamily`&mdash;Specifies the indicator text `FontFamily`;
@@ -22,6 +22,10 @@ The indicator is the triangle that is rotated according to whether the Expander 
 * `IndicatorAnimationDuration`&mdash;Specifies the duration of the rotation animation of the indicator;
 * `IndicatorAnimationEasing`&mdash;Specifies the easing of the rotation animation of the indicator;
 * `IndicatorMargin`&mdash;This property is of type `Thickness` and sets the margin applied to the indicator;
+
+Here is an example how to style the Indicator:
+
+<snippet id='expander-features-indicator-style'/>
 
 ## Border styling
 
@@ -36,6 +40,8 @@ Check the example below on how the Indicator options and border properties can b
 And the final result:
 
 ![.NET MAUI Expander Header customization](images/expander-custom-header.png "Expander Header customization")
+
+> For a runnable example with the Expander Header scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Expander > Features** category.
 
 ## See Also
 

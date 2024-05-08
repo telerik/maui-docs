@@ -18,6 +18,7 @@ Here are the specific properties defined for `DataGridPickerColumn`:
 * `ItemsSourcePath` (`string`)&mdash;Specifies a property of your data class that will be used as a source for the Picker control.
 * `ItemDisplayBindingPath` (`string`)&mdash;Sets the display path of the items in the Picker selector. It points to a field in the items from the `ItemsSource` collection of the Picker.
 * `PropertyName`&mdash;Defines the name of the property of the object type that represents each row within the grid.
+* `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell.
 * `HeaderText`&mdash;Defines the content that will be displayed in the Header UI that represents the column.
 * `CellContentStyle`(`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with this column. 
 * `CellContentStyleSelector`&mdash;Defines the `StyleSelector` instance that allows for the dynamic appearance on a per-cell basis.

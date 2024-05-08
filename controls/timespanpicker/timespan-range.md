@@ -19,14 +19,14 @@ The TimeSpanPicker allows you to define a time-span range and choose a time inte
 
 The following example shows how to set the time ranges.
 
-Define the TimeSpanPicker.
+Define the TimeSpanPicker:
 
 ```XAML
 <telerik:RadTimeSpanPicker MinimumTime="0:0:00:00"
                                 MaximumTime="8:00:00:0"/>
 ```
 
-Add the namespace.
+Add the namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

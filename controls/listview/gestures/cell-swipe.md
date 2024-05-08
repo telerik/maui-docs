@@ -74,17 +74,17 @@ The following example demonstrates how to use the `ItemSwipeCompleted` event. De
 
 <snippet id='listview-gestures-cellswipe-swipeevents-viewmodel'/>
 
-**2.** **Set up ListView. Swiping left or right will reveal content with a hint for what will happen if the user completes the swipe action.
+**2.** Set up ListView. Swiping left or right will reveal content with a hint for what will happen if the user completes the swipe action.
 
 <snippet id='listview-gestures-cellswipe-swipeevents-listview'/>
 
-**3.** **Define the `telerik` namespace:
+**3.** Define the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
 ```
 
-**4.** **Configure what happens when the user completes the swipe gesture:
+**4.** Configure what happens when the user completes the swipe gesture:
 
 <snippet id='listview-gestures-cellswipe-swipeevents-swipecompleted'/>
 

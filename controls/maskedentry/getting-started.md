@@ -27,15 +27,15 @@ Before adding the MaskedEntry, you need to:
 
 ## Define the Control
 
-1. When your .NET MAUI application is set up, you are ready to add a MaskedEntry control to your page. The following example demonstrates the definition of the `RadRegexMaskedEntry` with the `Mask` and `PlaceholderText` properties applied.
+**1.** When your .NET MAUI application is set up, you are ready to add a MaskedEntry control to your page. The following example demonstrates the definition of the `RadRegexMaskedEntry` with the `Mask` and `PlaceholderText` properties applied.
 
- <snippet id='regexmaskedentry-getting-started-xaml' />
+<snippet id='regexmaskedentry-getting-started-xaml' />
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 > For the MaskedEntry Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

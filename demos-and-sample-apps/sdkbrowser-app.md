@@ -12,8 +12,6 @@ position: 2
 
 **Telerik UI for .NET MAUI SDKBrowser** is a set of examples that explain how to use the features of a control. The SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
 
-![Telerik UI for .NET MAUI SDKBrowserMaui App](images/sdkbrowser_all.png)
-
 You can access the SDKBrowser application in the following ways:
 
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/SdkBrowser** folder and open the `SdkBrowserMaui.sln` file;
@@ -32,6 +30,10 @@ You can access the SDKBrowser application in the following ways:
   ![Telerik UI .NET MAUI SdkBrowserMaui App](images/sampleapps-visual-studio.png)
 
 1. Select the emulator or device on which you want to run the application.
+
+ * SDKBrowser application on WinUI.
+
+  ![Telerik UI for .NET MAUI SDKBrowser App WinUI](images/sdkbrowser-winui.png)
 		
 ## Install and Run SDKBrowser on macOS
 
@@ -41,13 +43,25 @@ You can access the SDKBrowser application in the following ways:
 
 1. Run on macOS using the following command:
 
- `dotnet build -t:Run -f net7.0-maccatalyst`
+ `dotnet build -t:Run -f net8.0-maccatalyst`
  
-1. Run on iOS using the following command: Append the value to the parameter `-p:_DeviceName=:v2:uuid=:`
+1. Run on iOS using the following command:
 
- `dotnet build -t:Run -f net7.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22`
+ `dotnet build -t:Run -f net8.0-ios`&mdash;This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`. 
+
+ To find the ID: 
+  1. Open Xcode, 
+  2. Click Devices from the Window menu. 
+  3. Select Connected device. 
+  4. Under Device Information, you will get an identifier, or UDID, of the device. 
  
- where the `-p:_DeviceName=:v2:uuid==02C556DA-64B8-440B-8F06-F8C56BB7CC22` is the desired device id.
+ * SDKBrowser application on MacCatalyst.
+
+  ![Telerik UI for .NET MAUI SDKBrowser App MacCatalyst](images/demo-macos.png)
+
+ * SDKBrowser application on Android and iOS.
+
+  ![Telerik UI for .NET MAUI SDKBrowser App Android iOS](images/sdk-mobile.png)
 
 >tip Check the [.NET MAUI Examples, Demos, and Sample Apps Overview]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 

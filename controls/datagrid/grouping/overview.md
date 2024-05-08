@@ -8,11 +8,11 @@ slug: datagrid-grouping-overview
 
 # .NET MAUI DataGrid Grouping
 
-**Telerik UI for .NET MAUI DataGrid** supports grouping operations either through the UI - using the Grouping UI or programmatically through Property and Delegate group descriptors.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports grouping operations either through the UI - using the Grouping UI or programmatically through Property and Delegate group descriptors.
 
 ## Grouping UI
 
-![Grouping UI](../images/grouping-ui-windows.gif)
+![Grouping UI](../images/datagrid-grouping-ui.gif)
 
 The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile, it allows the user to group the DataGrid by dragging and dropping the column headers to the `DataGridGroupingPanel`. 
 
@@ -31,23 +31,9 @@ Programmatic grouping can be done by adding descriptors to the `GroupDescriptors
 
 The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
 
-## Group Footer
+## Group Headers Customization
 
-The DataGrid has a support for group footers. You can visualize the footers by setting the `ShowGroupFooters` to `True`. 
-
-If you want to fully customize the group footers you can use the `GroupFooterTemplate`(`DataTemplate`) property.
-
-**Defining the `GroupFooterTemplate`**
-
-```XAML
-<telerik:RadDataGrid.GroupFooterTemplate>
-    <DataTemplate>
-        <Label Text="RandomText" TextColor="Crimson"/>
-    </DataTemplate>
-</telerik:RadDataGrid.GroupFooterTemplate>
-```
-
-> `GroupFooterTemplate` overrides the aggregates of the footer.
+The DataGrid provides the ability to fully customize its group headers in order to achieve the desired look when the data is grouped. Go to [Group Header Template]({%slug datagrid-group-header-template%}) topic for detailed information on this.
 
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
@@ -56,3 +42,5 @@ If you want to fully customize the group footers you can use the `GroupFooterTem
 - [Grouping UI]({%slug datagrid-grouping-ui%})
 - [Property Group Descriptor]({%slug datagrid-property-group-descriptor%})
 - [Delegate Group Descriptor]({%slug datagrid-delegate-group-descriptor%})
+- [Group Header Template]({%slug datagrid-group-header-template%})
+- [Group Header Styling]({%slug datagrid-group-header-styling%})

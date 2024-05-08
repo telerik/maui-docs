@@ -14,7 +14,7 @@ Transitions are the animation effects applied to the side drawer while being ope
 * `DrawerTransitionType`(enum of type `Telerik.Maui.Controls.SideDrawerTransitionType`)&mdash;Defines the transition of the component. This property can be set to one of the following values: 
 	* `Fade`, `Push`, `Reveal`, `ReverseSlideOut`, `ScaleUp`, `SlideAling`, `SlideInOnTop`, `Custom`
 	
-* `DrawerTransitionFadeOpacity`(`double`)&mdash;Defines the opacity of the fade layer of the component. This controls the fade layer opacity on Android or the dim opacity on iOS.
+* `DrawerTransitionFadeOpacity`(`double`)&mdash;Defines the opacity of the fade layer of the component. This controls the fade layer opacity on Android and WinUI or the dim opacity on iOS and MacCatalyst. The opacity value is different on different platforms. Review the [Making SideDrawer Opacity Consistent across Platforms]({%slug make-sidedrawer-opacity-consistent-across-platforms-net-maui%}) how-to article for more details.
 
 ## Built-in Transitions
 

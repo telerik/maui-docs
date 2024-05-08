@@ -18,54 +18,56 @@ The DatePicker supports the following commands, which enable you to control the 
 * `ToggleCommand`(`ICommand`)&mdash;Allows you to show or hide the popup that is used for selecting a date value.
 * `ClearCommand`(`ICommand`)&mdash;Allows you to clear the displayed date.
 
-To use the DatePicker commands:  
+The following example demonstrates how to set the `ToggleCommand` and `ClearCommand`.
 
-1. Set `ToggleCommand` and `ClearCommand`.
+**1.** Set `ToggleCommand` and `ClearCommand`.
 
- ```XAML
+```XAML
 <StackLayout>
 	<Button Text="Toggle Command" Command="{Binding Source={x:Reference datePicker}, Path=ToggleCommand}"/>
 	<Button Text="Clear Command" Command="{Binding Source={x:Reference datePicker}, Path=ClearCommand}"/>
 	<telerik:RadDatePicker x:Name="datePicker" />
 </StackLayout>
- ```
+```
 
-1. Add the following namespace:
+**2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
-## PopupSelector Commands
+## OK and Cancel Buttons
 
-Through the popup, users can pick a date. The date value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup.
+Through the popup or the drop-down, users can pick a date. The date value must be confirmed or rejected with the **OK** or **Cancel** buttons located in the popup or drop-down.
 
 The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` commands which are executed when the **OK** or **Cancel** buttons are clicked.
 
-* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup.
-* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup.
+* `AcceptCommand`(`ICommand`)&mdash;Defines the command, which confirms the current selection of the picker and closes the popup or drop-down. Use `AcceptCommandParameter` to pass a parameter to the command execute method. 
+* `CancelCommand`(`ICommand`)&mdash;Defines the command, which rejects the current selection of the picker and closes the popup or drop-down. Use `CancelCommandParameter` to pass a parameter to the command execute method.
 
-You can apply the `Accept` and `Cancel` commands can by using the `SelectorSettings` property of DatePicker.
+You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DatePicker. For the drop-down mode, use the `DropDownSettings` property.
 
-1. Define the control and add the commands.
+**1.** Define the control and add the commands.
 
- ```XAML
-<StackLayout>
-    <telerik:RadDatePicker>
+```XAML
+<VerticalStackLayout>
+    <telerik:RadDatePicker x:Name="datePicker"> 
         <telerik:RadDatePicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
-                                                      CancelCommand="{Binding Cancel}"/>
+                                         AcceptCommandParameter="{Binding Date, Source={x:Reference datePicker}}"
+										 CancelCommand="{Binding Cancel}"
+										 CancelCommandParameter="{Binding Date, Source={x:Reference datePicker}}"/>
         </telerik:RadDatePicker.PopupSettings>
             <telerik:RadDatePicker.BindingContext>
                 <local:ViewModel/>
             </telerik:RadDatePicker.BindingContext>
     </telerik:RadDatePicker>
-</StackLayout>
- ```
+</VerticalStackLayout>
+```
 
-1. Set the `ViewModel`.
+**2.** Set the `ViewModel`.
 
- ```C#
+```C#
 public class ViewModel
 {
     public ICommand Accept { get; set; }
@@ -77,23 +79,26 @@ public class ViewModel
         this.Cancel = new Command(this.OnCancel);
     }
 
-    private void OnAccept(object obj)
+    private void OnAccept(object param)
     {
-        // Implement your custom logic here.
+        Application.Current.MainPage.DisplayAlert("Date selected", String.Format("New Date: {0:d}", (DateTime)param), "OK");
+        // implement your custom logic here
     }
 
-    private void OnCancel(object obj)
+    private void OnCancel(object param)
     {
-        // Implement your custom logic here.
+        var message = param != null ? String.Format("Current date: {0:d}", (DateTime)param) : "Currently no date is selected";
+        Application.Current.MainPage.DisplayAlert("Date Selection Canceled", message, "OK");
+        // implement your custom logic here
     }
 }
- ```
+```
 
-1. Add the following namespace:
+**3.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 ## See Also
 

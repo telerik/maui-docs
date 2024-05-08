@@ -25,19 +25,19 @@ Linear layout is the default layout of the control. It can be explicitly set by 
 
 The following example demonstrates how to use the `RadListViewLinearLayout`.
 
-1. Define the list view in XAML:
+**1.** Define the list view in XAML:
 
- <snippet id='listview-layouts-linearlayout-listview'/>
+<snippet id='listview-layouts-linearlayout-listview'/>
 
-	In the example:
+**2.** Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-1. Add the `ViewModel` class with the `ItemsSource` collection:
+**3.** Add the `ViewModel` class with the `ItemsSource` collection:
 
- <snippet id='listview-layouts-linearlayout-source'/>
+<snippet id='listview-layouts-linearlayout-source'/>
 
 The following image shows the result:
 
@@ -51,13 +51,13 @@ The grid layout can be utilized by setting the `RadListView.LayoutDefinition` pr
 
 The following example demonstrates how to use the `RadListViewGridLayout`.
 
-1. Define the list view in XAML:
+**1.** Define the list view in XAML:
 
- <snippet id='listview-layouts-gridlayout-listview'/>
+<snippet id='listview-layouts-gridlayout-listview'/>
 
-1. Add the `ViewModel` class with the `ItemsSource` collection:
+**2.** Add the `ViewModel` class with the `ItemsSource` collection:
 
- <snippet id='listview-layouts-linearlayout-source'/>
+<snippet id='listview-layouts-linearlayout-source'/>
 
 The following image shows the result:
 

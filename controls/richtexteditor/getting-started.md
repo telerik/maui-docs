@@ -81,7 +81,7 @@ public static class MauiProgram
 }           
 ```
 
-> For a runnable example with the RichTextEditor Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Getting Started**.
+> For a runnable example with the RichTextEditor Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Getting Started** category.
 
 ## Additional Resources
 
