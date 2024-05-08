@@ -35,7 +35,7 @@ The following example demonstrates how these methods are used:
 
 <snippet id='collectionview-collapseall' />
 
-## Expand and Collapse Specific Groups
+## Expand and Collapse Specific Group
 
 You can retrieve the first-level groups through the `GetGroups()` method of the `IDataViewCollection` object and use `ExpandGroup()`/`CollapseGroup()` to make a certain group to expand or collapse respectively. You can check whether a group is expanded trough the `GetIsExpanded()` method.
 
@@ -49,17 +49,17 @@ The following example demonstrates how these methods are used:
 
 <snippet id='collectionview-collapsegroup' />
 
-## Expand and Collapse Specific Item from a Groups
+## Expand and Collapse Specific Item from a Group
 
 You can expand or collapse a specific item from a group by using the `ExpandItem()`/`CollapseItem()` methods.
 
 The following example demonstrates how these methods are used:
 
-**Expanding a specific item ffrom a group:**
+**Expanding a specific item from a group:**
 
 <snippet id='collectionview-expanditem' />
 
-**Collapsing a specific item ffrom a group:**
+**Collapsing a specific item from a group:**
 
 <snippet id='collectionview-collapseitem' />
 
