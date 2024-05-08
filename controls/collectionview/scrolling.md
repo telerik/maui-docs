@@ -15,7 +15,9 @@ The users can vertically and horizontally scroll through the item in the Collect
 
 The CollectionView provides the `ScrollItemIntoView` method that allows you to programmatically scroll to an item in the CollectionView:
 
-* `ScrollItemIntoView`(`object item`)&mdash;Scrolls the visible area of the control so that the specified item is visible. The parameter is `item`&mdash;Specifies the item to scroll to.
+* `ScrollItemIntoView`(`object item, bool animate = true`)&mdash;Scrolls the visible area of the control so that the specified item is visible. The first parameter is `item`&mdash;Specifies the item to scroll to. 
+
+The second parameter is the scrolling animation. The animation is displayed when scrolling an item into view. Disable the animation by setting the animate argument of the `ScrollItemIntoView` method to `false`. The default value is `true`.
 
 The following example demonstrates how to scroll to an item in the CollectionView control by using the `ScrollItemIntoView()` method.
 

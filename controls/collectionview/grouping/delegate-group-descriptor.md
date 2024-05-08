@@ -44,7 +44,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-delegate-grouping' />
 
-> For a runnable demo with the CollectionView DelegateGroupDescriptor, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Grouping** category.
+> For a runnable demo with the CollectionView DelegateGroupDescriptor, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
 
 ## See Also
 

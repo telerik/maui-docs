@@ -14,7 +14,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 ## Key Features
 
-* [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap and hold gestures.
+* [Selection]({%slug collectionview-selection%})&mdash;The .NET MAUI CollectionView supports both single and multiple selections. It also allows you to select items by using the tap gesture.
 
 * [Data Binding]({%slug collectionview-data-binding%})&mdash; The CollectionView for .NET MAUI component supports data binding in the form of path property.
 

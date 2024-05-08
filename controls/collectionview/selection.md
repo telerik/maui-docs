@@ -22,7 +22,7 @@ The CollectionView provides three selection modes, which allow you to manipulate
 
 ## Selected Item
 
-The CollectionView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the CollectionView.
+The CollectionView provides the `SelectedItem` (`object`) property, which specifies the first selected item of the CollectionView.
 
 The following example demonstrates how to configure the CollectionView control for Single Selection by using the `SelectedItem` property.
 
