@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI TemplatedButton Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI TemplatedButton control and add the control to your .NET MAUI project.
-position: 1
+position: 2
 slug: templatedbutton-getting-started
 ---
 

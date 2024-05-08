@@ -2,7 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI ToggleButton Documentation - ToggleButton Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI ToggleButton, and see how these elements build the visual structure of the control.
-position: 0
+position: 1
 slug: togglebutton-visual-structure
 ---
 

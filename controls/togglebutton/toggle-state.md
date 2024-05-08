@@ -2,7 +2,7 @@
 title: Toggle States
 page_title: .NET MAUI ToggleButton Documentation - Toggle States
 description: Define the toggled, untoggled, or indeterminate state of the Telerik ToggleButton for .NET MAUI.
-position: 2
+position: 4
 tags: .net maui, telerik toggle button for .net maui, ui for .net maui, toggle button, microsoft .net maui
 slug: togglebutton-toggle-states
 ---

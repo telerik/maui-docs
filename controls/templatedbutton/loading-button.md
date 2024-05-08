@@ -2,7 +2,7 @@
 title: How-to Loading Button
 page_title: .NET MAUI TemplatedButton Documentation - Loading Button
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI TemplatedButton, and see how these elements build the visual structure of the control.
-position: 0
+position: 5
 slug: templatedbutton-loading-button
 ---
 
