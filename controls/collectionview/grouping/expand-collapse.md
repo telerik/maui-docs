@@ -13,7 +13,7 @@ The CollectionView supports group expand and collapse operations either through 
 
 This section provides an overview of the methods used to control the expand/collapse state of the CollectionView groups.
 
-## Get the Grouped DataGrid Items
+## Get the Grouped CollectionView Items
 
 To manipulate the collapsible CollectionView groups, first you will need to call its `GetDataView()` method. In short, the `GetDataView()` method provides a view of the `ItemsSource` after all the sorting, grouping, and filtering operations are applied. The return type is `IDataViewCollection` which exposes the `Expand` and `Collapse` methods.
 
