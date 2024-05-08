@@ -16,7 +16,16 @@ The following image shows the anatomy of the ToggleButton.
 
 ## Displayed Elements
 
+## Additional Resources
 
+- [Getting Started with Telerik UI for .NET MAUI ToggleButton]({%slug togglebutton-getting-started%})
+- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Toggle State]({%slug togglebutton-toggle-states%})
+- [Apply Ripple Effect]({%slug togglebutton-ripple%})
+- [Set Visual States]({%slug togglebutton-visual-states%})
+- [Events]({%slug togglebutton-events%})
+- [Execute Command]({%slug togglebutton-command%})
+- [Style the ToggleButon]({%slug togglebutton-styling%})
 
 ## See Also
 

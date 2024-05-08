@@ -47,3 +47,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Apply Ripple Effect]({%slug togglebutton-ripple%})
+- [Set Visual States]({%slug togglebutton-visual-states%})
+- [Events]({%slug togglebutton-events%})
+- [Execute Command]({%slug togglebutton-command%})
+- [Style the ToggleButon]({%slug togglebutton-styling%})

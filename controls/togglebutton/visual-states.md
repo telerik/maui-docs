@@ -4,7 +4,7 @@ page_title: .NET MAUI ToggleButton Documentation - Visual States
 description: Learn how to set the border color, border thickness and other in different Visual States of the Telerik ToggleButton for .NET MAUI.
 position: 9
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
-slug: togglebutton-styling
+slug: togglebutton-visual-states
 ---
 
 # .NET MAUI ToggleButton Visual States
@@ -55,4 +55,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-
+- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Toggle State]({%slug togglebutton-toggle-states%})
+- [Apply Ripple Effect]({%slug togglebutton-ripple%})
+- [Events]({%slug togglebutton-events%})
+- [Execute Command]({%slug togglebutton-command%})
+- [Style the ToggleButon]({%slug togglebutton-styling%})

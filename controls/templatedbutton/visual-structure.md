@@ -16,7 +16,16 @@ The following image shows the anatomy of the TemplatedButton.
 
 ## Displayed Elements
 
+## Additional Resources
 
+- [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbuton-getting-started%})
+- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Loading Button]({%slug templatedbutton-loading-button%})
+- [Apply Ripple Effect]({%slug templatedbutton-ripple%})
+- [Set Visual States]({%slug templatedbutton-visual-states%})
+- [Events]({%slug templatedbutton-events%})
+- [Execute Command]({%slug templatedbutton-command%})
+- [Style the ToggleButon]({%slug templatedbutton-styling%})
 
 ## See Also
 

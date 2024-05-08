@@ -44,3 +44,10 @@ The following porperties specifies the font options that apply to the content wh
 * `FontAttributes` (`Microsoft.Maui.Controls.FontAttributes`)&mdash;Specifies the font attributes of the `Label.Text`.
 
 ## See Also
+
+- [Loading Button]({%slug templatedbutton-loading-button%})
+- [Apply Ripple Effect]({%slug templatedbutton-ripple%})
+- [Set Visual States]({%slug templatedbutton-visual-states%})
+- [Events]({%slug templatedbutton-events%})
+- [Execute Command]({%slug templatedbutton-command%})
+- [Style the ToggleButon]({%slug templatedbutton-styling%})

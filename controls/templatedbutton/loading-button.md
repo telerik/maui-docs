@@ -32,9 +32,18 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='loadingbutton-viewmodel' />
 
-## See Also
+## Additional Resources
 
 - [.NET MAUI TemplatedButton Product Page](https://www.telerik.com/maui-ui/templatedbutton)
 - [.NET MAUI TemplatedButton Forum Page](https://www.telerik.com/forums/maui?tagId=2057)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+## See Also
+
+- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Apply Ripple Effect]({%slug templatedbutton-ripple%})
+- [Set Visual States]({%slug templatedbutton-visual-states%})
+- [Events]({%slug templatedbutton-events%})
+- [Execute Command]({%slug templatedbutton-command%})
+- [Style the ToggleButon]({%slug templatedbutton-styling%})
