@@ -35,7 +35,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **3.** Here is the result:
 
-![.NET MAUI ToggleButton ThreeState](images/checkbox-command.gif)
+![.NET MAUI ToggleButton Three State](images/checkbox-command.gif)
 
 ## Events
 
@@ -52,4 +52,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})
-- [Style the ToggleButon]({%slug togglebutton-styling%})
+- [Style the ToggleButton]({%slug togglebutton-styling%})

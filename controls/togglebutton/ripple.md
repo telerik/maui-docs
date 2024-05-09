@@ -9,7 +9,7 @@ slug: togglebutton-ripple
 
 # .NET MAUI ToggleButton Ripple Effect
 
-By using attached properties you can apply a ripple effect to the TemplatedButon.
+By using attached properties you can apply a ripple effect to the ToggleButton.
 
 The `Ripple` class exposes the following properties:
 
@@ -24,7 +24,7 @@ The following example demonstrates how to apply ripple effect to the ToggleButto
 
 <snippet id='togglebutton-ripple-effect' />
 
-**2.** Define the resorces in the page's resources:
+**2.** Define the resources in the page's resources:
 
 <snippet id='togglebutton-ripple-visual-states-resources' />
 
@@ -43,5 +43,5 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})
-- [Style the ToggleButon]({%slug togglebutton-styling%})
+- [Style the ToggleButton]({%slug togglebutton-styling%})
 

@@ -17,7 +17,7 @@ The Telerik .NET MAUI ToggleButton allows you to attach a command that executes 
 
 The following example demonstrates how to use the `Command`:
 
-**1.** Define the TemplatedButton in XAML:
+**1.** Define the ToggleButton in XAML:
 
 <snippet id='togglebutton-command-xaml' />
 
@@ -40,4 +40,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Apply Ripple Effect]({%slug togglebutton-ripple%})
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})
-- [Style the ToggleButon]({%slug togglebutton-styling%})
+- [Style the ToggleButton]({%slug togglebutton-styling%})

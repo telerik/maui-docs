@@ -17,12 +17,12 @@ Define a content inside the TemplatedButton by setting the `Content` property (`
 
 Here are the scenarios in which the `Content` or `ConetentTemplate` will be visualized inside the `RadTemplatedButton`:
 
-If `Content` and `ContentTemplate` are set, the `View` returned from the `ContentTemplate.CreateView()` will be displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. 
-If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` with `Text` will be displayed inside the `Content`.
-If `Content` is set to a `View` and `ContentTemplate` isn't set, the `View` will be displayed inside the `RadTemplatedButton.ControlTemplate`.
-If `Content` is set to a data object and `ContentTemplate` isn't set, the `ToString()` of the data object will be used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`.
-If `ContentTemplate` is set, the `View` returned from the `ContentTemplate.CreateView()` will be displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. 
-If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` will be selected and then a `View` will be created from the chosen template using `Content` as its `BindingContext`.
+* If `Content` and `ContentTemplate` are set, the `View` returned from the `ContentTemplate.CreateView()` will be displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. 
+* If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` with `Text` will be displayed inside the `Content`.
+* If `Content` is set to a `View` and `ContentTemplate` isn't set, the `View` will be displayed inside the `RadTemplatedButton.ControlTemplate`.
+* If `Content` is set to a data object and `ContentTemplate` isn't set, the `ToString()` of the data object will be used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`.
+* If `ContentTemplate` is set, the `View` returned from the `ContentTemplate.CreateView()` will be displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. 
+* If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` will be selected and then a `View` will be created from the chosen template using `Content` as its `BindingContext`.
 
 ## Text Alignment
 
@@ -37,7 +37,7 @@ Use the `TextDecorations` (`Microsoft.Maui.TextDecorations`) property to specify
 
 ## Font Options
 
-The following porperties specifies the font options that apply to the content when `Content` is `string` and `ContentTemplate` is not set.
+The following properties specifies the font options that apply to the content when `Content` is `string` and `ContentTemplate` is not set.
 
 * `FontFamily` (`string`)&mdash;Specifies the font family of the `Label.Text`.
 * `FontSize` (`double`)&mdash;Specifies the font size in pixels of the `Label.Text`.
@@ -50,4 +50,4 @@ The following porperties specifies the font options that apply to the content wh
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
-- [Style the ToggleButon]({%slug templatedbutton-styling%})
+- [Style the TemplatedButton]({%slug templatedbutton-styling%})

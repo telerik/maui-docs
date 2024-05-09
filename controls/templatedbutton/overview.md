@@ -9,7 +9,7 @@ slug: templatedbuton-overview
 
 # .NET MAUI TemplatedButton Overview
 
-The Telerik UI for .NET MAUI TemplatedButton control represents a button control with a content that can be fully customize. 
+The Telerik UI for .NET MAUI TemplatedButton control represents a button control with a content that can be customized. 
 Additionally, it enables you to align its content, define custom content by using a template, applying visual states and more. For example, you can implement a loading button using the TemplatedButton. 
 
 ![.NET MAUI TemplatedButton Overview](images/button-overview.png "TemplatedButton for .NET MAUI")
@@ -19,9 +19,9 @@ Additionally, it enables you to align its content, define custom content by usin
 * [Content and ContentTemplate]({slug templatedbutton-contenfiguration}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`.
 * [Text alignment]({%slug templatedbutton-contenfiguration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.
 * [Ripple]({%slug templatedbutton-ripple%})&mdash;You can apply a ripple effect to the TemplatedButton by using attached properties.
-* [Visual States]({%slug templatedbutton-visual-states%})&mdash;You can chnage the TemplatedButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
+* [Visual States]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interaction such as click, press, and release.
-* [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton prvoides a command, that executes when the putton is pressed/clicked.
+* [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is pressed/clicked.
 * [Styling]({%slug templatedbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness and more.
 
 ## Next Steps

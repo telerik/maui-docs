@@ -11,19 +11,19 @@ slug: togglebutton-overview
 
 The Telerik UI for .NET MAUI ToggleButton control represents a button that can be toggled between two states - toggled and untoggled. The main purpose of the control is to allow users to select or toggle an option or a state in an application's user interface.
 
-It is commonly used in scenarios where there is a need to capture and represent a binary choice, such as enabling or disabling a feature, activating, or deactivating a setting, or toggling between two different modes or views.
+The ToggleButton is commonly used in scenarios to capture and represent a binary choice, such as enabling or disabling a feature, activating, or deactivating a setting, or toggling between two different modes or views.
 
 ![.NET MAUI ToggleButton Overview](images/togglebutton-overview.png "ToggleButton for .NET MAUI")
 
 ## Key Features
 
-* [Toggled states]({%slug togglebutton-toggle-states%})&mdash;The ToggleButton delivers options for setting its state to toggled and untoggled, and provides an additional indeterminate state which indicates the control is neither toggled nor untoggled.
+* [Toggled States]({%slug togglebutton-toggle-states%})&mdash;The ToggleButton delivers options for setting its state to toggled and untoggled, and provides an additional indeterminate state which indicates the control is neither toggled nor untoggled.
 * [Content and ContentTemplate]({slug togglebutton-contenfiguration}#setting-content)&mdash;The ToggleButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`.
-* [Text alignment]({%slug togglebutton-contenfiguration%})&mdash;The ToggleButton enables you to control the horizontal and vertical positioning of the text inside the content.
+* [Text Alignment]({%slug togglebutton-contenfiguration%})&mdash;The ToggleButton enables you to control the horizontal and vertical positioning of the text inside the content.
 * [Ripple]({%slug togglebutton-ripple%})&mdash;You can apply a ripple effect to the ToggleButton by using attached properties.
-* [Visual States]({%slug togglebutton-visual-states%})&mdash;You can chnage the ToggleButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
+* [Visual States]({%slug togglebutton-visual-states%})&mdash;You can change the ToggleButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
 * [Exhaustive number of events]({%slug togglebutton-events%})&mdash;You can use the events exposed by the ToggleButton to execute various operations on user interaction such as click, press, release and changing toggle state.
-* [Command]({%slug togglebutton-command%})&mdash;The ToggleButton prvoides a command, that executes when the putton is pressed/clicked.
+* [Command]({%slug togglebutton-command%})&mdash;The ToggleButton provides a command, that executes when the button is pressed/clicked.
 * [Styling]({%slug togglebutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness and more.
 
 ## Next Steps

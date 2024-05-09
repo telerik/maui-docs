@@ -1,5 +1,5 @@
 ---
-title: How-to Loading Button
+title: Loading Button
 page_title: .NET MAUI TemplatedButton Documentation - Loading Button
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI TemplatedButton, and see how these elements build the visual structure of the control.
 position: 5
@@ -10,13 +10,13 @@ slug: templatedbutton-loading-button
 
 This article explains how to define a loading button using the Telerik .NET MAUI TemplatedButton. The loading indicator displays inside the button content when clicking on the button. 
 
-The following gif shows the loading button:
+The following `.gif` shows the loading button:
 
 ![.NET MAUI TemplatedButton Loading Button](images/templatedbutton-visual-structure.png "Loading Button")
 
 ## Solution
 
-In order to create a loading button, use a `RadTemplatedButton` with a `ContentTemplate`. Then inside the `ContentTemplate` define a `RadBusyIndicator`.
+To create a loading button, use a `RadTemplatedButton` with a `ContentTemplate`. Then inside the `ContentTemplate` define a `RadBusyIndicator`.
 
 **1.** Define the button in XAML:
 
@@ -41,9 +41,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
 - [Apply Ripple Effect]({%slug templatedbutton-ripple%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
-- [Style the ToggleButon]({%slug templatedbutton-styling%})
+- [Style the TemplatedButton]({%slug templatedbutton-styling%})

@@ -421,6 +421,10 @@ navigation:
     controls/tabview:
         title: "TabView"
     ## End TabView
+    ## TemplatedButton
+    controls/templatedbutton:
+        title: "TemplatedButton"
+    ## End TemplatedButton
     ## TemplatedPicker
     controls/templatedpicker:
         title: "TemplatedPicker"
@@ -442,6 +446,10 @@ navigation:
         title: "Styling"
         position: 20
     ## End TimeSpanPicker
+    ## ToggleButton
+    controls/togglebutton:
+        title: "ToggleButton"
+    ## End ToggleButton
     ## Toolbar
     controls/toolbar:
         title: "Toolbar"
@@ -618,6 +626,8 @@ intro_columns:
         "Segmented Control": "segmentedcontrol-overview"
         "Button": "button-overview"
         "CheckBox": "checkbox-overview"
+        "TemplatedButton": "templatedbutton-overview"
+        "ToggleButton": "togglebutton-overview"
 -
   categories:
   -

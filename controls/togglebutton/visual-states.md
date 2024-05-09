@@ -60,4 +60,4 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 - [Apply Ripple Effect]({%slug togglebutton-ripple%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})
-- [Style the ToggleButon]({%slug togglebutton-styling%})
+- [Style the ToggleButton]({%slug togglebutton-styling%})

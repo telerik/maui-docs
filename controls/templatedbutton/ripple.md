@@ -9,7 +9,7 @@ slug: templatedbutton-ripple
 
 # .NET MAUI TemplatedButton Ripple Effect
 
-By using attached properties you can apply a ripple effect to the TemplatedButon.
+By using attached properties you can apply a ripple effect to the TemplatedButton.
 
 The `Ripple` class exposes the following properties:
 
@@ -34,7 +34,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})

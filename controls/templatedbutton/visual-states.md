@@ -40,9 +40,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Apply Ripple Effect]({%slug templatedbutton-ripple%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
-- [Style the ToggleButon]({%slug templatedbutton-styling%})
+- [Style the TemplatedButton]({%slug templatedbutton-styling%})

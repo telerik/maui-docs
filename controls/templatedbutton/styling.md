@@ -11,7 +11,7 @@ slug: templatedbutton-styling
 
 The TemplatedButton provides a set of styling options by exposing properties for customizing its visual appearance.
 
-## Stling the TemplatedButton
+## Styling the TemplatedButton
 
 To style the TemplatedButton, use the following properties:
 
@@ -50,7 +50,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Apply Ripple Effect]({%slug templatedbutton-ripple%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})

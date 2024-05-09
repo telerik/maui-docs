@@ -25,7 +25,7 @@ The following image shows the anatomy of the ToggleButton.
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})
-- [Style the ToggleButon]({%slug togglebutton-styling%})
+- [Style the ToggleButton]({%slug togglebutton-styling%})
 
 ## See Also
 
