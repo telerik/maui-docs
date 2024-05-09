@@ -14,6 +14,46 @@ In addition, as the [template column]({%slug datagrid-columns-template-column%})
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class. 
 
+The DataGrid provides a few predefined filter controls which are applied depending on the column type:
+
+* `DataGridTextFilterControl`
+* `DataGridNumericFilterControl`
+* `DataGridBooleanFilterControl`
+* `DataGridDateTimeFilterControl`
+* `DataGridTimeFilterControl`
+* `DataGridComboBoxFilterControl`
+
+The `FilterControlTemplate` property of the columns allows you to customize its corresponding filter control. If the default filter control does not meet the requirements, you can create a custom filter control from scratch. 
+
+## Example with modified TextFilterControl
+
+The example below shows how to apply the `DataGridTextFilterControl` as a `FilterControlTemplate` of the text column and set the filter match case options to `False`. This means the toggle buttons inside the filter template for switching to case-sensitive filter will be untoggled when the filtering UI appears.
+
+```XAML
+<telerik:RadDataGrid x:Name="dataGrid"
+                     ItemsSource="{Binding GridSource}"
+                     AutoGenerateColumns="False"
+                     UserEditMode="Cell">
+    <telerik:RadDataGrid.Columns>
+        <telerik:DataGridNumericalColumn PropertyName="Population"
+                                         CanUserFilter="False"/>
+        <telerik:DataGridTextColumn PropertyName="Name">
+            <telerik:DataGridTextColumn.FilterControlTemplate>
+                <DataTemplate>
+                    <telerik:DataGridTextFilterControl IsFirstDescriptorCaseSensitive="False"
+                                                       IsSecondDescriptorCaseSensitive="False" />
+                </DataTemplate>
+            </telerik:DataGridTextColumn.FilterControlTemplate>
+        </telerik:DataGridTextColumn>
+    </telerik:RadDataGrid.Columns>
+</telerik:RadDataGrid>
+```
+Here is the `DataGridTextFilterControl` with the match case properties applied:
+
+![Telerik .NET MAUI DataGrid TextFilterControl](images/datagrid-textfiltercontrol.png)
+
+## Example with a custom filter control
+
 Check a quick example on how to create a custom `FilterControlTemplate` below.
 
 **1.** Add the following snippet to declare a sample CityFilterControl - it should inherit from `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase`:
