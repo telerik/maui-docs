@@ -18,7 +18,7 @@ The following image shows the anatomy of the TemplatedButton.
 
 ## Additional Resources
 
-- [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbuton-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbutton-getting-started%})
 - [Configure the ToggleButton]({%slug templatedbutton-contenfiguration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Apply Ripple Effect]({%slug templatedbutton-ripple%})

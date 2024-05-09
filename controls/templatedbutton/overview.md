@@ -21,12 +21,12 @@ Additionally, it enables you to align its content, define custom content by usin
 * [Ripple]({%slug templatedbutton-ripple%})&mdash;You can apply a ripple effect to the TemplatedButton by using attached properties.
 * [Visual States]({%slug templatedbutton-visual-states%})&mdash;You can chnage the TemplatedButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interaction such as click, press, and release.
-* [Command]({%slug %})&mdash;The TemplatedButton prvoides a command, that executes when the putton is pressed/clicked.
+* [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton prvoides a command, that executes when the putton is pressed/clicked.
 * [Styling]({%slug templatedbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness and more.
 
 ## Next Steps
 
-- [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbuton-getting-started%})
+- [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbutton-getting-started%})
 
 ## See Also
 
