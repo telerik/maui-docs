@@ -21,13 +21,13 @@ The `DataGridCellRenderer` provides the following methods you can override to de
 
 ## Example
 
-Check below an example on how to add a BulletGraph control as a content of the DataGrid TextColumn.
+Check below an example on how to add a `BulletGraph` control as the content of a DataGrid `TextColumn`.
 
-**1.** Add a sample DataGrid definition which presents information about `Club` objects. The corresponding for the `Revenue` property TextColumn uses a custom `CellRenderer` which renders a SkiaSharp bullet graph.
+**1.** Add a sample DataGrid definition which presents information about `Club` objects. The `TextColumn` corresponding to the `Revenue` property uses a custom `CellRenderer` which renders a SkiaSharp bullet graph.
 
 <snippet id='datagrid-columns-skiacellrenderer' />
 
-**2.** Add the custom CellRenderer to the page's resources:
+**2.** Add the custom `CellRenderer` to the page's resources:
 
 <snippet id='datagrid-columns-skiacellrenderer-resource' />
 
@@ -35,7 +35,7 @@ Check below an example on how to add a BulletGraph control as a content of the D
 
 <snippet id='datagrid-column-datagridcellrenderer' />
 
-**4.** Add the ViewModel class:
+**4.** Add the `ViewModel` class:
 
 <snippet id='datagrid-column-view-model' />
 

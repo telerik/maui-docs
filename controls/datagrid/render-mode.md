@@ -20,7 +20,7 @@ Check below how you can enable the SkiaSharp render mode of the DataGrid:
 
 <snippet id='datagrid-skia-rendering-xaml' />
 
->When using `SkiaSharp` render mmode, you can completely customize how each column is rendered through the `DataGridTextColumn`'`CellRenderer` property. See [SkiaSharp Cell Renderer]({%slug datagrid-skiasharp-cell-renderer%}) topic for more details.
+>When using the `SkiaSharp` render mode, you can completely customize how each column is rendered through the `DataGridTextColumn`'s `CellRenderer` property. See [SkiaSharp Cell Renderer]({%slug datagrid-skiasharp-cell-renderer%}) for more details.
 
 ## See Also
 - [SkiaSharp Cell Renderer]({%slug datagrid-skiasharp-cell-renderer%})
