@@ -33,9 +33,9 @@ The state is controlled through the `IsToggled`(`bool?`) property. You can set a
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Here is the result:
+**3.** This is the result on WinUI:
 
-![.NET MAUI ToggleButton Three State](images/checkbox-command.gif)
+![.NET MAUI ToggleButton Three State](images/togglebutton-threestate.gif)
 
 ## Events
 

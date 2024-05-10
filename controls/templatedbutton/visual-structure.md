@@ -16,6 +16,8 @@ The following image shows the anatomy of the TemplatedButton.
 
 ## Displayed Elements
 
+* **Content**&mdash;The content of the TemplatedButton.
+
 ## Additional Resources
 
 - [Getting Started with Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbutton-getting-started%})

@@ -28,9 +28,13 @@ __Setting Content to String__
 
 <snippet id='togglebutton-gettingstarted-xaml' />
 
+![.NET MAUI ToggleButton Content](images/togglebutton-content.png "ToggleButton for .NET MAUI")
+
 __Setting ContentTemplate__
 
 <snippet id='togglebutton-content-template' />
+
+![.NET MAUI ToggleButton ContentTemplate](images/togglebutton-content-template.gif "ToggleButton for .NET MAUI")
 
 > For a runnable example demonstrating the ToggleButton ContentTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 

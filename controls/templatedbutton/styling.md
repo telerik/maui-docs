@@ -46,6 +46,10 @@ The following example demonstrates how to apply implicit and explicit styles to 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Styling](images/templatedbutton-styling.gif "TemplatedButton for .NET MAUI")
+
 > For a runnable example demonstrating the TemplatedButton Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Styling** category.
 
 ## See Also

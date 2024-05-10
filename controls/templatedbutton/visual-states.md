@@ -36,6 +36,10 @@ The following example demonstrates how to use the TemplatedButton Visual States.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Visual States](images/templatedbutton-visualstates.gif "TemplatedButton for .NET MAUI")
+
 > For a runnable example demonstrating the TemplatedButton Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Features** category.
 
 ## See Also

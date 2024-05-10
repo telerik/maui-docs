@@ -31,6 +31,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='templatedbutton-command-viewmodel' />
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Command](images/templatedbutton-command.gif "TemplatedButton for .NET MAUI")
+
 > For a runnable example demonstrating the TemplatedButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Features** category.
 
 ## See Also

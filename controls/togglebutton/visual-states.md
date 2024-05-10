@@ -17,14 +17,14 @@ The ToggleButton provides the following `CommonStates` visual states described i
 | `Pressed` | Applies when the button is pressed |
 | `MouseOver` | Applies when the mouse pointer hovers over the control - applicable for Desktop |
 | `Disabled` | Applies when the button is disabled |
-| `Toggled` | Applies when the button is disabled |
-| `ToggledMouseOver` | Applies when the button is disabled |
-| `ToggledPressed` | Applies when the button is disabled |
-| `ToggledDisabled` | Applies when the button is disabled |
-| `Indeterminate` | Applies when the button is disabled |
-| `IndeterminateMouseOver` | Applies when the button is disabled |
-| `IndeterminatePressed` | Applies when the button is disabled |
-| `IndeterminateDisabled` | Applies when the button is disabled |
+| `Toggled` | Applies when the button is toggled |
+| `ToggledMouseOver` | Applies when the button is toggled and the mouse is over the button |
+| `ToggledPressed` | Applies when the button is toggled and pressed |
+| `ToggledDisabled` | Applies when the button is toggled and disabled |
+| `Indeterminate` | Applies when the button is in indeterminate state |
+| `IndeterminateMouseOver` | Applies when the button is in indeterminate state and the mouseis over the button |
+| `IndeterminatePressed` | Applies when the button is in indeterminate state and pressed |
+| `IndeterminateDisabled` | Applies when the button is in indeterminate state and disabled |
 
 The ToggleButton provides the following `FocusStates` visual states described in the table below:
 
@@ -51,7 +51,11 @@ The following example demonstrates how to use the ToggleButton Visual States.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-> For a runnable example demonstrating the ToggleButton Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+This is the result on WinUI: 
+
+![.NET MAUI ToggleButton Visual States](images/togglebutton-visualstates.gif)
+
+>tip For a runnable example demonstrating the ToggleButton visual state, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Features** category.
 
 ## See Also
 

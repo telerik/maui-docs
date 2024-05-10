@@ -32,6 +32,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='loadingbutton-viewmodel' />
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Loading Button](images/templatedbutton-loading-button.gif "TemplatedButton for .NET MAUI")
+
 ## Additional Resources
 
 - [.NET MAUI TemplatedButton Product Page](https://www.telerik.com/maui-ui/templatedbutton)

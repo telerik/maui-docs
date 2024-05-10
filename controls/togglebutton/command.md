@@ -31,6 +31,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='togglebutton-command-viewmodel' />
 
+This is the result on Android:
+
+![.NET MAUI ToggleButton Command](images/togglebutton-command.gif "ToggleButton for .NET MAUI")
+
 > For a runnable example demonstrating the ToggleButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
 ## See Also

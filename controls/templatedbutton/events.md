@@ -16,19 +16,13 @@ The .NET MAUI TemplatedButton exposes the following events:
 	* The `sender` argument, which is of type `RadTemplatedButton`.
 	* A `EventArgs` object, which provides information on the `Clicked` event.
 
-> For a runnable example demonstrating the TemplatedButton Clicked event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
-
 * `Pressed`&mdash;Raised when `RadTemplatedButton` is pressed. The `Pressed` event handler receives two parameters:
 	* The `sender` argument, which is of type `RadTemplatedButton`.
 	* An `EventHandler` object, which provides information on the `Pressed` event.
 
-> For a runnable example demonstrating the TemplatedButton Pressed event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
-	
 * `Released`&mdash;Raised when the `RadTemplatedButton` is released. The `Released` event handler receives two parameters:
 	* The `sender` argument, which is of type `RadTemplatedButton`.
 	* An `EventHandler` object, which provides information on the `Pressed` event.
-
-> For a runnable example demonstrating the TemplatedButton Released event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
 
 ## Using the Clicked Event
 
@@ -48,6 +42,12 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='templatedbutton-clicked-event' />
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Clicked Event](images/templatedbutton-clicked-event.gif "TemplatedButton for .NET MAUI")
+
+> For a runnable example demonstrating the TemplatedButton Clicked event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
+
 ## Using the Pressed Event
 
 The following example demonstrates how to use the `Pressed` event:
@@ -66,6 +66,12 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='templatedbutton-pressed-event' />
 
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Pressed Event](images/templatedbutton-pressed-event.gif "TemplatedButton for .NET MAUI")
+
+> For a runnable example demonstrating the TemplatedButton Pressed event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
+
 ## Using the Released Event
 
 The following example demonstrates how to use the `Released` event:
@@ -83,6 +89,12 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the `Released` event:
 
 <snippet id='templatedbutton-released-event' />
+
+This is the result on WinUI:
+
+![.NET MAUI TemplatedButton Released Event](images/templatedbutton-released-event.gif "TemplatedButton for .NET MAUI")
+
+> For a runnable example demonstrating the TemplatedButton Released event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Events** category.
 
 ## See Also
 

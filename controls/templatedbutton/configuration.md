@@ -28,9 +28,13 @@ __Setting Content to String__
 
 <snippet id='templatedbutton-gettingstarted-xaml' />
 
+![.NET MAUI TemplatedButton Getting Started](images/templatedbutton-getting-started.png)
+
 __Setting ContentTemplate__
 
 <snippet id='templatedbutton-content-template' />
+
+![.NET MAUI TemplatedButton ContentTemplate](images/templatedbutton-contenttemplate.gif "TemplatedButton for .NET MAUI")
 
 ## Text Alignment
 

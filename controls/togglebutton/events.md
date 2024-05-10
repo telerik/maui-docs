@@ -48,6 +48,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='togglebutton-events-togglechanged-handler' />
 
+This is the result on Android:
+
+![.NET MAUI ToggleButton IsToggledChanged Event](images/togglebutton-istoggled.gif "ToggleButton for .NET MAUI")
+
 > For a runnable example demonstrating the ToggleButton `IsToggledChanged` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
 ## Using the Clicked Event
@@ -67,6 +71,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the `Clicked` event:
 
 <snippet id='togglebutton-clicked-event' />
+
+This is the result on Android:
+
+![.NET MAUI ToggleButton Clicked Event](images/togglebutton-clicked.gif "ToggleButton for .NET MAUI")
 
 > For a runnable example demonstrating the ToggleButton `Clicked` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
@@ -88,6 +96,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='togglebutton-pressed-event' />
 
+This is the result on Android:
+
+![.NET MAUI ToggleButton Pressed Event](images/togglebutton-pressed.gif "ToggleButton for .NET MAUI")
+
 > For a runnable example demonstrating the ToggleButton `Pressed` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
 ## Using the Released Event
@@ -107,6 +119,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the `Released` event:
 
 <snippet id='togglebutton-released-event' />
+
+This is the result on Android:
+
+![.NET MAUI ToggleButton Released Event](images/togglebutton-released.gif "ToggleButton for .NET MAUI")
 
 > For a runnable example demonstrating the ToggleButton `Released` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
