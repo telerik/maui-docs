@@ -3,6 +3,7 @@ title: Ripple
 page_title: .NET MAUI ToggleButton Documentation - Ripple Effect
 description: Learn how to set a ripple effect to the Telerik ToggleButton for .NET MAUI.
 position: 10
+published: False
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-ripple
 ---

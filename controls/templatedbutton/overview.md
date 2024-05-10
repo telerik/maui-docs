@@ -18,7 +18,6 @@ Additionally, it enables you to align its content, define custom content by usin
 
 * [Content and ContentTemplate]({slug templatedbutton-contenfiguration}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`.
 * [Text alignment]({%slug templatedbutton-contenfiguration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.
-* [Ripple]({%slug templatedbutton-ripple%})&mdash;You can apply a ripple effect to the TemplatedButton by using attached properties.
 * [Visual States]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interaction such as click, press, and release.
 * [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is pressed/clicked.

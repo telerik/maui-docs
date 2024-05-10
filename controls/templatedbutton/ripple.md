@@ -3,6 +3,7 @@ title: Ripple
 page_title: .NET MAUI TemplatedButton Documentation - Ripple Effect
 description: Learn how to apply ripple effect to the Telerik TemplatedButton for .NET MAUI.
 position: 10
+published: False
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui, ripple
 slug: templatedbutton-ripple
 ---

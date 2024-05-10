@@ -54,7 +54,6 @@ The following properties specifies the font options that apply to the content wh
 ## See Also
 
 - [Loading Button]({%slug templatedbutton-loading-button%})
-- [Apply Ripple Effect]({%slug templatedbutton-ripple%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})

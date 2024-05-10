@@ -42,7 +42,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 - [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
-- [Apply Ripple Effect]({%slug templatedbutton-ripple%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
 - [Style the TemplatedButton]({%slug templatedbutton-styling%})

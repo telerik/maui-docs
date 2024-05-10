@@ -20,7 +20,6 @@ The ToggleButton is commonly used in scenarios to capture and represent a binary
 * [Toggled States]({%slug togglebutton-toggle-states%})&mdash;The ToggleButton delivers options for setting its state to toggled and untoggled, and provides an additional indeterminate state which indicates the control is neither toggled nor untoggled.
 * [Content and ContentTemplate]({slug togglebutton-contenfiguration}#setting-content)&mdash;The ToggleButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`.
 * [Text Alignment]({%slug togglebutton-contenfiguration%})&mdash;The ToggleButton enables you to control the horizontal and vertical positioning of the text inside the content.
-* [Ripple]({%slug togglebutton-ripple%})&mdash;You can apply a ripple effect to the ToggleButton by using attached properties.
 * [Visual States]({%slug togglebutton-visual-states%})&mdash;You can change the ToggleButton appearance on different visual states like, `Normal`, `Pressed`, `PointerOver` (visual state applies on desktop), and `Disabled`.
 * [Exhaustive number of events]({%slug togglebutton-events%})&mdash;You can use the events exposed by the ToggleButton to execute various operations on user interaction such as click, press, release and changing toggle state.
 * [Command]({%slug togglebutton-command%})&mdash;The ToggleButton provides a command, that executes when the button is pressed/clicked.
