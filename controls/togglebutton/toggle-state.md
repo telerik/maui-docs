@@ -9,7 +9,7 @@ slug: togglebutton-toggle-states
 
 # Toggle States for .NET MAUI ToggleButton
 
-The ToggleButton enables you to define its state as `Checked`, `Unchecked`, or `Indeterminate`.
+The ToggleButton enables you to define its state as `Toggled`, `Untoggled`, or `Indeterminate`.
 
 The state is controlled through the `IsToggled`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. `IsToggled` property binding mode is `TwoWay`.
 

@@ -24,6 +24,16 @@ Here are the scenarios in which the `Content` or `ConetentTemplate` will be visu
 * If `ContentTemplate` is set, the `View` returned from the `ContentTemplate.CreateView()` will be displayed inside the `RadToggleButton.ControlTemplate`, having `Content` as its `BindingContext`. 
 * If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` will be selected and then a `View` will be created from the chosen template using `Content` as its `BindingContext`.
 
+__Setting Content to String__
+
+<snippet id='togglebutton-gettingstarted-xaml' />
+
+__Setting ContentTemplate__
+
+<snippet id='togglebutton-content-template' />
+
+> For a runnable example demonstrating the ToggleButton ContentTemplate, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+
 ## Text Alignment
 
 Use the following properties to align the text in the button when `Content` is `string` and `ContentTemplate` is not set.

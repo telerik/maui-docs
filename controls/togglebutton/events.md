@@ -18,25 +18,17 @@ The .NET MAUI ToggleButton exposes the following events:
         * `NewValue`(`TValue`)&mdash;Gets the new value from the `IsToggled` property.
         * `PreviousValue`(`TValue`)&mdash;Gets the previous value of the `IsToggled` property.
 
-> For a runnable example demonstrating the ToggleButton `IsToggledChanged` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
-
 * `Clicked`&mdash;Raised when the `RadToggleButton` is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument, which is of type `RadToggleButton`.
 	* A `EventArgs` object, which provides information on the `Clicked` event.
 
-> For a runnable example demonstrating the ToggleButton `Clicked` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
-
 * `Pressed`&mdash;Raised when `RadToggleButton` is pressed. The `Pressed` event handler receives two parameters:
 	* The `sender` argument, which is of type `RadToggleButton`.
 	* An `EventHandler` object, which provides information on the `Pressed` event.
-
-> For a runnable example demonstrating the ToggleButton `Pressed` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 	
 * `Released`&mdash;Raised when the `RadToggleButton` is released. The `Released` event handler receives two parameters:
 	* The `sender` argument, which is of type `RadToggleButton`.
 	* An `EventHandler` object, which provides information on the `Pressed` event.
-
-> For a runnable example demonstrating the ToggleButton `Released` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
 ## Using the IsToggledChanged Event
 
@@ -56,6 +48,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='togglebutton-events-togglechanged-handler' />
 
+> For a runnable example demonstrating the ToggleButton `IsToggledChanged` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
+
 ## Using the Clicked Event
 
 The following example demonstrates how to use the `Clicked` event:
@@ -73,6 +67,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the `Clicked` event:
 
 <snippet id='togglebutton-clicked-event' />
+
+> For a runnable example demonstrating the ToggleButton `Clicked` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
 ## Using the Pressed Event
 
@@ -92,6 +88,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='togglebutton-pressed-event' />
 
+> For a runnable example demonstrating the ToggleButton `Pressed` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
+
 ## Using the Released Event
 
 The following example demonstrates how to use the `Released` event:
@@ -109,6 +107,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Add the `Released` event:
 
 <snippet id='togglebutton-released-event' />
+
+> For a runnable example demonstrating the ToggleButton `Released` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Events** category.
 
 ## See Also
 

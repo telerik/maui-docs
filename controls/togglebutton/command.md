@@ -13,7 +13,7 @@ The Telerik .NET MAUI ToggleButton allows you to attach a command that executes 
 * `Command` (`ICommand`)&mdash;Defines the command, which executes when the button is clicked.
 * `CommandParameter` (`object`)&mdash;Specifies the parameter of the command, which executes when the button is clicked.
 
-## Using the Command
+## Using the Command and CommanParameter
 
 The following example demonstrates how to use the `Command`:
 
