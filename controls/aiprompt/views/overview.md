@@ -14,7 +14,7 @@ The available built-in views are:
 
 - [Input View]({%slug aiprompt-input-view%})&mdash;Displays the input area of the AIPrompt.
 - [Output View]({%slug aiprompt-output-view %})&mdash;Displays the output area of the AIPrompt.
-- [Commands View]({%slug scheduler-week-view %})&mdash;Displays a list of custom AIPrompt commands.
+- [Commands View]({%slug aiprompt-commands-view %})&mdash;Displays a list of custom AIPrompt commands.
 
 ## Define the Views 
 
@@ -48,4 +48,4 @@ Each view that is supported by the AIPrompt extends the `AIPromptView` class. Th
 
 - [Input View]({%slug aiprompt-input-view%})
 - [Output View]({%slug aiprompt-output-view %})
-- [Commands View]({%slug scheduler-week-view %})
+- [Commands View]({%slug aiprompt-commands-view %})

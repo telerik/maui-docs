@@ -54,6 +54,9 @@ navigation:
     controls/aiprompt/views:
         title: "Views"
         position: 3
+    controls/aipromt/styling:
+        title: "Styling"
+        position: 10
         ## End AIPrompt Sub-Folders
     ## End AIPrompt
     ## AutoComplete

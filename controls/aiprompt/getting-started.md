@@ -37,8 +37,15 @@ Before adding the AIPrompt, you need to:
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
- **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+ **3.** Add the `ViewModel` class:
 
+ <snippet id='aiprompt-getting-started-viewmodel' />
+
+ **4.** Set the `ViewModel` as a `BindingContext` of the page:
+
+ <snippet id='aiprompt-getting-started-setvm' />
+
+ **5.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
@@ -60,7 +67,6 @@ public static class MauiProgram
 	}
 }           
 ```
-
 
 ## See Also
 

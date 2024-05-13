@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI AIPrompt Documentation - Commands
 description: Learn more about the commands in the Telerik UI for .NET MAUI AIPrompt control.
-position: 6
+position: 7
 slug: aiprompt-commands
 ---
 
