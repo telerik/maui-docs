@@ -12,7 +12,7 @@ The .NET MAUI TemplatedButton emits a set of events that allow you to configure 
 
 The .NET MAUI TemplatedButton exposes the following events:
 
-* `Clicked`&mdash;Raised when the `RadTemplatedButton` is clicked or tapped. The `Clicked` event handler receives two parameters:
+* `Clicked`&mdash;Raised when the `RadTemplatedButton` is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument which is of type `RadTemplatedButton`.
 	* An `EventArgs` object which provides information about the `Clicked` event.
 

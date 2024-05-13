@@ -18,7 +18,7 @@ The .NET MAUI ToggleButton exposes the following events:
         * `NewValue`(`TValue`)&mdash;Gets the new value from the `IsToggled` property.
         * `PreviousValue`(`TValue`)&mdash;Gets the previous value of the `IsToggled` property.
 
-* `Clicked`&mdash;Raised when the `RadToggleButton` is clicked or tapped. The `Clicked` event handler receives two parameters:
+* `Clicked`&mdash;Raised when the `RadToggleButton` is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument which is of type `RadToggleButton`.
 	* An `EventArgs` object which provides information about the `Clicked` event.
 

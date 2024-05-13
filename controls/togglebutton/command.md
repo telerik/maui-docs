@@ -8,10 +8,10 @@ slug: togglebutton-command
 
 # .NET MAUI ToggleButton Command
 
-The Telerik .NET MAUI ToggleButton allows you to attach a command that executes when the button is clicked or tapped.
+The Telerik .NET MAUI ToggleButton allows you to attach a command that executes when the button is clicked.
 
-* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked or tapped.
-* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked or tapped.
+* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked.
+* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked.
 
 ## Using the Command and CommandParameter
 

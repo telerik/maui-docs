@@ -11,7 +11,7 @@ slug: togglebutton-toggle-states
 
 The ToggleButton enables you to define its state as `Toggled`, `Untoggled`, or `Indeterminate`.
 
-The state is controlled through the `IsToggled`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. The `IsToggled` property binding mode is `TwoWay`.
+The state is controlled through the `IsToggled`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. The `IsToggled` property default binding mode is `TwoWay`.
 
 * (Default) `Untoggled` state&mdash;When `IsToggled` is `false`.
 
@@ -19,9 +19,11 @@ The state is controlled through the `IsToggled`(`bool?`) property. You can set a
 
 * `Indeterminate` state&mdash;When `IsToggled` is `null`.
 
-* `IsThreeState` (`bool`)&mdash;Defines whether you can apply the indeterminate state through the UI. When `IsThreeState` is `true`, it allows the end user to go to the indeterminate state along with the `Toggled` and `Untoggled` states. By default, `IsThreeState` is `false`.
+## Setting Three States
 
-* The following example demonstrates how to set the `IsThreeState` property.
+The ToggleButton enables you to apply the indeterminate state through the UI by setting the `IsThreeState` (`bool`) property. When `IsThreeState` is `true`, it allows the end user to go to the indeterminate state along with the `Toggled` and `Untoggled` states. By default, `IsThreeState` is `false`.
+
+The following example demonstrates how to set the `IsThreeState` property.
 
 **1.** Set the `IsThreeState` property of the `RadToggleButton`:`
 

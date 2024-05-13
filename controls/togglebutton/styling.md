@@ -17,8 +17,8 @@ To style the ToggleButton, use the following properties:
 
 * `Background` (`Brush`)&mdash;Specifies the background brush of the control.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
-* `BorderColor` (`Color`)&mdash;Specifies the border color of the control.
 * `BorderBrush` (`Brush`)&mdash;Specifies the border brush of the control.
+* `BorderColor` (`Color`)&mdash;Specifies the border color of the control.
 * `BorderThickness` (`Thickness`)&mdash;Specifies the border thickness of the control.
 * `CornerRadius` (`CornerRadius`)&mdash;Specifies the corner radius of the control.
 * `Padding` (`Thickness`)&mdash;Specifies the padding of the control.

@@ -19,15 +19,14 @@ The `Content` is responsible for the actual content displayed in the button. It 
 
 The table below lists the scenarios for the visualization of `Content` or `ContentTemplate` inside the TemplatedButton:
 
-| `Content` | `ContentTemplate` | Rsults |
-| --------- | ----------------- | ------ |
-| set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. |
-| set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
-| set to `View` | not set | The `View` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
-| set to `complex object` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`. |
-| set to `complex object` | not set | The `View` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
+| `Content` | `ContentTemplate` | Results |
+| --------- | ----------------- | ------- |
 | not set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
 | not set | `DataTemplateSelector` | First the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`. |
+| set to `View` | not set | The `View` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
+| set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
+| set to `complex object` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`. |
+| set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. |
 
 __Setting Content to String__
 

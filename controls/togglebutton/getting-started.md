@@ -40,11 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 using Telerik.Maui.Controls;
 ```
 
-**3.** Then define the `Clicked` event handler:
-
-<snippet id='button-getting-started-click-event' />
-
-**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;

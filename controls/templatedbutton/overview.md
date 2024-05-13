@@ -10,7 +10,7 @@ slug: templatedbutton-overview
 # .NET MAUI TemplatedButton Overview
 
 The Telerik UI for .NET MAUI TemplatedButton represents a button with customizable content.
-Additionally, it enables you to align its content and define custom content by using a template, applying visual states and more. For example, you can implement a loading button using the TemplatedButton. 
+Additionally, it enables you to align its content and define custom content by using a template, applying visual states and more. 
 
 ![.NET MAUI TemplatedButton Overview](images/templatedbutton-overview.png "TemplatedButton for .NET MAUI")
 
@@ -20,7 +20,7 @@ Additionally, it enables you to align its content and define custom content by u
 * [Text alignment]({%slug templatedbutton-configuration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.
 * [Visual states]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance for different visual states like, `Normal`, `Pressed`, `PointerOver` (desktop-only), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interactions such as click, press, and release.
-* [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is tapped or clicked.
+* [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is clicked.
 * [Styling]({%slug templatedbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and more.
 
 ## Next Steps
