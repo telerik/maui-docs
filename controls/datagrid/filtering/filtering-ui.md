@@ -12,17 +12,17 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides you with a built-i
 
 ![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
 
-> The filtering UI appears when clicking the filtering icon in each column's header.
+> The Filtering UI appears when clicking the filtering icon in each column's header.
 
-You can control whether the filtering UI is available to the end users for the whole DataGrid with the `UserFilterMode` property:
+You can control whether the Filtering UI is available to the end users for the whole DataGrid with the `UserFilterMode` property:
 
-* `UserFilterMode`(`DataGridUserFilterMode`)&mdash;Defines whether the Filter Glyph is present in the header of the currently available filterable columns. The available options are `Auto`, `Enabled`, and `Disabled`. The default value of the `UserFilterMode` is `Auto`.
+* `UserFilterMode`(`DataGridUserFilterMode`)&mdash;Defines whether the filtering icon is present in the header of the currently available filterable columns. The available options are `Auto`, `Enabled`, and `Disabled`. The default value of the `UserFilterMode` is `Auto`.
 
-The DataGrid columns expose the following properties related to the filtering UI: 
+The DataGrid columns expose the following properties related to the Filtering UI: 
 
-* `CanUserFilter`(`bool`)&mdash;Indicates whether the user can filter this column by using the built-in filtering UI. By default, the value is `True`.
+* `CanUserFilter`(`bool`)&mdash;Indicates whether the user can filter this column by using the built-in Filtering UI. By default, the value is `True`.
 
-* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the filtering UI. By default, the value is `True`.
+* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the Filtering UI. By default, the value is `True`.
 
 * `FilterContentTemplate`(`DataTemplate`)&mdash;Defines the content template of the DataGrid Columns Filter and overriding the default template.
 
