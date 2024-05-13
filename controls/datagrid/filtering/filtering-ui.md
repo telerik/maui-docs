@@ -12,7 +12,7 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides you with a built-i
 
 ![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
 
-> Filtering UI appears when clicking on the filtering icon on each column's header.
+> The filtering UI appears when clicking the filtering icon in each column's header.
 
 You can control whether the filtering UI is available to the end users for the whole DataGrid with the `UserFilterMode` property:
 

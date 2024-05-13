@@ -23,7 +23,7 @@ The Telerik DataGrid allows you to apply custom filter control to the DataGrid c
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class.
 
->Go to [Filter Control Template]({%slug datagrid-filter-control-template%}) topic for detailed information on how to create a custom filter control.
+>tip Go to the [Filter Control Template]({%slug datagrid-filter-control-template%}) topic for detailed information about how to create a custom filter control.
 
 ## Programmatic Filtering
 
