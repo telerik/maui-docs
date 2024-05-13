@@ -8,9 +8,9 @@ slug: datagrid-filter-control-template
 
 # Filter Control Template
 
-The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a built-in filtering UI which enables users to quickly filter the displayed data. To customize the built-in filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a built-in Filtering UI which enables users to quickly filter the displayed data. To customize the built-in Filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
 
-In addition, as the [template column]({%slug datagrid-columns-template-column%}) does not provide a default filtering UI, with the `FilterControlTemplate` property you can allow users to filter data in template columns as well.
+In addition, as the [template column]({%slug datagrid-columns-template-column%}) does not provide a default Filtering UI, with the `FilterControlTemplate` property you can allow users to filter data in template columns as well.
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class. 
 
@@ -27,7 +27,7 @@ The `FilterControlTemplate` property of the columns allows you to customize its 
 
 ## Example with Modified TextFilterControl
 
-The example below shows how to apply the `DataGridTextFilterControl` as a `FilterControlTemplate` of the text column and set the filter match case options to `False`. This means that the toggle buttons inside the filter template for switching to case-sensitive filter will be untoggled when the filtering UI appears.
+The example below shows how to apply the `DataGridTextFilterControl` as a `FilterControlTemplate` of the text column and set the filter match case options to `False`. This means that the toggle buttons inside the filter template for switching to case-sensitive filter will be untoggled when the Filtering UI appears.
 
 ```XAML
 <telerik:RadDataGrid x:Name="dataGrid"
