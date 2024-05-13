@@ -15,10 +15,10 @@ The purpose of this help article is to show you the main configuration options o
 
 Define a content inside the TemplatedButton by setting the `Content` property (`object`) or `ContentTemplate` (`DataTemplate`) property. 
 
-Here are the scenarios for the visualization of `Content` or `ContentTemplate` inside the TemplatedButton:
+The table below lists the scenarios for the visualization of `Content` or `ContentTemplate` inside the TemplatedButton:
 
 | `Content` | `ContentTemplate` | Rsults |
-| ------------- | --------------- |
+| --------- | ----------------- | ------ |
 | set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. |
 | set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
 | set to `View` | not set | The `View` is displayed inside the `RadTemplatedButton.ControlTemplate`. |

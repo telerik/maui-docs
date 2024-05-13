@@ -26,7 +26,7 @@ Before adding the ToggleButton, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a ToggleButton control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a ToggleButton control to your page.
 
 <snippet id='togglebutton-gettingstarted-xaml' />
 <snippet id='togglebutton-gettingstarted-csharp' />
@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 using Telerik.Maui.Controls;
 ```
 
-**3.** Then define the Click event handler:
+**3.** Then define the `Clicked` event handler:
 
 <snippet id='button-getting-started-click-event' />
 
@@ -65,7 +65,7 @@ public static class MauiProgram
 }           
 ```
 
-> For a runnable example with the ToggleButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Getting Started** category.
+>tip For a runnable example with the ToggleButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Getting Started** category.
 
 ## Additional Resources
 
@@ -76,7 +76,7 @@ public static class MauiProgram
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Configure the ToggleButton]({%slug togglebutton-configuration%})
 - [Toggle State]({%slug togglebutton-toggle-states%})
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})

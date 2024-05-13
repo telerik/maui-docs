@@ -1,7 +1,7 @@
 ---
 title: Visual States
 page_title: .NET MAUI ToggleButton Documentation - Visual States
-description: Learn how to set the border color, border thickness and other in different Visual States of the Telerik ToggleButton for .NET MAUI.
+description: Learn how to set the border color, border thickness and other in the different visual states of the Telerik ToggleButton for .NET MAUI.
 position: 9
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-visual-states
@@ -9,29 +9,29 @@ slug: togglebutton-visual-states
 
 # .NET MAUI ToggleButton Visual States
 
-The ToggleButton provides the following `CommonStates` visual states described in the table below:
+The ToggleButton provides the following `CommonStates` visual states:
+
+| Visual State | Description |
+| ------------- | --------------- |
+| `Normal` | Applies when the button is in normal state. |
+| `Pressed` | Applies when the button is pressed. |
+| `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
+| `Disabled` | Applies when the button is disabled. |
+| `Toggled` | Applies when the button is toggled. |
+| `ToggledMouseOver` | (Desktop-only) Applies when the button is toggled and the mouse is over the button. |
+| `ToggledPressed` | Applies when the button is toggled and pressed. |
+| `ToggledDisabled` | Applies when the button is toggled and disabled. |
+| `Indeterminate` | Applies when the button is in indeterminate state. |
+| `IndeterminateMouseOver` | (Desktop-only) Applies when the button is in indeterminate state and the mouseis over the button. |
+| `IndeterminatePressed` | Applies when the button is in indeterminate state and pressed. |
+| `IndeterminateDisabled` | Applies when the button is in indeterminate state and disabled. |
+
+The ToggleButton provides the following `FocusStates` visual states:
 
 | Visual States | Description |
 | ------------- | --------------- |
-| `Normal` | Applies when the button is in normal state |
-| `Pressed` | Applies when the button is pressed |
-| `MouseOver` | Applies when the mouse pointer hovers over the control - applicable for Desktop |
-| `Disabled` | Applies when the button is disabled |
-| `Toggled` | Applies when the button is toggled |
-| `ToggledMouseOver` | Applies when the button is toggled and the mouse is over the button |
-| `ToggledPressed` | Applies when the button is toggled and pressed |
-| `ToggledDisabled` | Applies when the button is toggled and disabled |
-| `Indeterminate` | Applies when the button is in indeterminate state |
-| `IndeterminateMouseOver` | Applies when the button is in indeterminate state and the mouseis over the button |
-| `IndeterminatePressed` | Applies when the button is in indeterminate state and pressed |
-| `IndeterminateDisabled` | Applies when the button is in indeterminate state and disabled |
-
-The ToggleButton provides the following `FocusStates` visual states described in the table below:
-
-| Visual States | Description |
-| ------------- | --------------- |
-| `Unfocused` | Applies when the button is in normal state |
-| `Focused` | Applies when the button is pressed |
+| `Unfocused` | Applies when the button is in normal state. |
+| `Focused` | Applies when the button is pressed. |
 
 ### Using the Visual States
 
@@ -41,7 +41,7 @@ The following example demonstrates how to use the ToggleButton Visual States.
 
 <snippet id='togglebutton-visual-states' />
 
-**2.** Define the Visual States in the page's resources:
+**2.** Define the visual states in the page's resources:
 
 <snippet id='togglebutton-visual-states-resources' />
 
@@ -59,7 +59,7 @@ This is the result on WinUI:
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Configure the ToggleButton]({%slug togglebutton-configuration%})
 - [Toggle State]({%slug togglebutton-toggle-states%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})

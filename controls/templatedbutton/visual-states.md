@@ -9,7 +9,7 @@ slug: templatedbutton-visual-states
 
 # .NET MAUI TemplatedButton Visual States
 
-The TemplatedButton provides the following visual states described in the table below:
+The TemplatedButton provides the following `CommonStates` visual states:
 
 | Visual States | Description |
 | ------------- | --------------- |

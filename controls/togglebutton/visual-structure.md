@@ -18,19 +18,13 @@ The following image shows the anatomy of the ToggleButton.
 
 * **Content**&mdash;The content of the ToggleButton.
 
-## Additional Resources
+## See Also
 
 - [Getting Started with Telerik UI for .NET MAUI ToggleButton]({%slug togglebutton-getting-started%})
-- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Configure the ToggleButton]({%slug togglebutton-configuration%})
 - [Toggle State]({%slug togglebutton-toggle-states%})
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})
 - [Execute Command]({%slug togglebutton-command%})
 - [Style the ToggleButton]({%slug togglebutton-styling%})
 
-## See Also
-
-- [.NET MAUI ToggleButton Product Page](https://www.telerik.com/maui-ui/togglebutton)
-- [.NET MAUI ToggleButton Forum Page](https://www.telerik.com/forums/maui?tagId=2057)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

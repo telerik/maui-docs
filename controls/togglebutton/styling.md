@@ -50,11 +50,11 @@ This is the result on WinUI:
 
 ![.NET MAUI ToggleButton Styling](images/togglebutton-styling.gif)
 
-> For a runnable example demonstrating the ToggleButton Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Styling** category.
+>tip For a runnable example demonstrating the ToggleButton styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Styling** category.
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Configure the ToggleButton]({%slug togglebutton-configuration%})
 - [Toggle State]({%slug togglebutton-toggle-states%})
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})

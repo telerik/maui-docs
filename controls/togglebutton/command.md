@@ -1,21 +1,21 @@
 ---
 title: Command
 page_title: .NET MAUI ToggleButton Documentation - Command
-description: Review ToggleButton Command that is executed when button is clicked. 
+description: Learn how to use the ToggleButton Command that is executed when the button is clicked or tapped. 
 position: 8
 slug: togglebutton-command
 ---
 
-# .NET MAUI ToggleButton Commands
+# .NET MAUI ToggleButton Command
 
-The Telerik .NET MAUI ToggleButton allows you to attach a command that executes when the button is clicked.
+The Telerik .NET MAUI ToggleButton allows you to attach a command that executes when the button is clicked or tapped.
 
-* `Command` (`ICommand`)&mdash;Defines the command, which executes when the button is clicked.
-* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command, which executes when the button is clicked.
+* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked or tapped.
+* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked or tapped.
 
-## Using the Command and CommanParameter
+## Using the Command and CommandParameter
 
-The following example demonstrates how to use the `Command`:
+The following example demonstrates how to use the `Command`.
 
 **1.** Define the ToggleButton in XAML:
 
@@ -35,11 +35,11 @@ This is the result on Android:
 
 ![.NET MAUI ToggleButton Command](images/togglebutton-command.gif "ToggleButton for .NET MAUI")
 
-> For a runnable example demonstrating the ToggleButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+> For a runnable example demonstrating the ToggleButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Features** category.
 
 ## See Also
 
-- [Configure the ToggleButton]({%slug togglebutton-contenfiguration%})
+- [Configure the ToggleButton]({%slug togglebutton-configuration%})
 - [Toggle State]({%slug togglebutton-toggle-states%})
 - [Set Visual States]({%slug togglebutton-visual-states%})
 - [Events]({%slug togglebutton-events%})

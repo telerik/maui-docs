@@ -10,8 +10,8 @@ slug: templatedbutton-command
 
 The Telerik .NET MAUI TemplatedButton allows you to attach a command that executes when the button is clicked or tapped.
 
-* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked.
-* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked.
+* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked or tapped.
+* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked or tapped.
 
 ## Using the Command
 
