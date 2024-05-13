@@ -27,4 +27,5 @@ The table below shows the localization keys:
 
 ## See Also
 
+- [Visual Structure]({%slug aiprompt-visual-structure%})
 - [Views]({%slug aiprompt-views-overview%})
