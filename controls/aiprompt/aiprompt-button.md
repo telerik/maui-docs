@@ -3,7 +3,7 @@ title: AIPrompt Button
 page_title: .NET MAUI AIPrompt Documentation - AIPrompt Button
 description: Learn more about the AIPrompt button in the Telerik UI for .NET MAUI AIPrompt control.
 position: 5
-slug: aiprompt-aipromtbutton
+slug: aiprompt-aipromptbutton
 ---
 
 # AIPrompt Button
@@ -23,5 +23,4 @@ Here is an example on how you can define an AIPrompt Button:
 
 ## See Also
 
-- [Templated Button]({%slug %})
 - [AIPrompt Button Styling]({%slug aiprompt-aipromptbutton-styling%})

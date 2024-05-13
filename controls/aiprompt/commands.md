@@ -34,4 +34,4 @@ To add a logic that will be executed when the user interacts with the commands v
 ## See Also
 
 - [Views]({%slug aiprompt-views-overview%})
-- [Commands View]({%slug aiprompt-views-commands%})
+- [Commands View]({%slug aiprompt-commands-view%})
