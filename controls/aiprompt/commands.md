@@ -24,8 +24,8 @@ The AIPrompt exposes the `Commands` collection. It allows you to provide a colle
 
 The `AIPromptCommandBase` class provides the following properties:
 
-* `ImageSource`(`ImageSource`)—Allows you to display an icon for the command in the commands view.
-* `Text`(`string`)—Allows you to specify a string that will display information about the command.
+* `ImageSource`(`ImageSource`)&mdash;Allows you to display an icon for the command in the commands view.
+* `Text`(`string`)&mdash;Allows you to specify a string that will display information about the command.
 	
 To add a logic that will be executed when the user interacts with the commands view's items, the RadAIPrompt provides the `CommandTappedCommand` command.
 
