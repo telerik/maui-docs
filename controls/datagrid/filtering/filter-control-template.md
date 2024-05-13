@@ -52,6 +52,14 @@ Here is the `DataGridTextFilterControl` with the match case properties applied:
 
 ![Telerik .NET MAUI DataGrid TextFilterControl](images/datagrid-textfiltercontrol.png)
 
+In addition, you can hide the toggle buttons for matching the case with the following implicit style:
+
+```XAML
+<Style TargetType="telerik:RadToggleButton">
+	<Setter Property="IsVisible" Value="False" />
+</Style>
+```
+
 ## Example with a custom filter control
 
 Check a quick example on how to create a custom `FilterControlTemplate` below.
