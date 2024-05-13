@@ -13,7 +13,9 @@ The purpose of this help article is to show you the main configuration options o
 
 ## Setting Content
 
-Define the content inside the ToggleButton by setting the `Content` property (`object`) or `ContentTemplate` (`DataTemplate`) property. 
+Define the content inside the ToggleButton by setting the `Content` property (`object`) or `ContentTemplate` (`DataTemplate`) property.
+
+The `Content` is responsible for the actual content displayed in the button. It can be set to `string`, `View`, complex object, etc.
 
 The table below lists the scenarios for the visualization of `Content` or `ContentTemplate` inside the `RadToggleButton`:
 
@@ -22,8 +24,8 @@ The table below lists the scenarios for the visualization of `Content` or `Conte
 | set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadToggleButton.ControlTemplate`, having `Content` as its `BindingContext`. |
 | set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
 | set to `View` | not set | The `View` is displayed inside the `RadToggleButton.ControlTemplate`. |
-| set to `dataobject` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadToggleButton.ControlTemplate`. |
-| set to `dataobject` | not set | The `View` is displayed inside the `RadToggleButton.ControlTemplate`. |
+| set to `complex object` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadToggleButton.ControlTemplate`. |
+| set to `complex object` | not set | The `View` is displayed inside the `RadToggleButton.ControlTemplate`. |
 | not set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadToggleButton.ControlTemplate`. |
 | not set | `DataTemplateSelector` | First the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`. |
 
