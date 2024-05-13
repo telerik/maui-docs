@@ -13,7 +13,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports fil
 
 ## Filtering UI
 
-> The filtering UI appears when clicking the filtering icon in each column's header.
+> The Filtering UI appears when clicking the filtering icon in each column's header.
 
 ![Telerik .NET MAUI DataGrid Filtering UI](../filtering/images/datagrid-filteringui-platforms.png)
 
