@@ -8,7 +8,7 @@ slug: datagrid-skiasharp-cell-renderer
 
 # .NET MAUI DataGrid SkiaSharp Cell Renderer
 
-This article describes how to extend the functionality of a [.NET MAUI DataGrid]({%slug datagrid-overview%}) column and render custom cell content when the DataGrid is rendered with the SkiaSharp library. 
+When your [.NET MAUI DataGrid]({%slug datagrid-overview%}) is rendered with the SkiaSharp library, you can extend the functionality of a DataGrid column and render custom cell content. 
 
 * `CellRenderer`(`DataGridCellRenderer`)&mdash;Defines a renderer that allows custom rendering of cells when the DataGrid is rendered with SkiaSharp. To use this in iOS and MacCatalyst, the `RadDataGrid`.`RenderMode` needs to be set to `SkiaSharp`.
 
