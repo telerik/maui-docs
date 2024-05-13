@@ -14,7 +14,7 @@ In addition, as the [template column]({%slug datagrid-columns-template-column%})
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class. 
 
-The DataGrid provides a few predefined filter controls which are applied depending on the column type:
+The DataGrid provides the following predefined filter controls which are applied depending on the column type:
 
 * `DataGridTextFilterControl`
 * `DataGridNumericFilterControl`
@@ -25,9 +25,9 @@ The DataGrid provides a few predefined filter controls which are applied dependi
 
 The `FilterControlTemplate` property of the columns allows you to customize its corresponding filter control. If the default filter control does not meet the requirements, you can create a custom filter control from scratch. 
 
-## Example with modified TextFilterControl
+## Example with Modified TextFilterControl
 
-The example below shows how to apply the `DataGridTextFilterControl` as a `FilterControlTemplate` of the text column and set the filter match case options to `False`. This means the toggle buttons inside the filter template for switching to case-sensitive filter will be untoggled when the filtering UI appears.
+The example below shows how to apply the `DataGridTextFilterControl` as a `FilterControlTemplate` of the text column and set the filter match case options to `False`. This means that the toggle buttons inside the filter template for switching to case-sensitive filter will be untoggled when the filtering UI appears.
 
 ```XAML
 <telerik:RadDataGrid x:Name="dataGrid"

@@ -13,7 +13,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports fil
 
 ## Filtering UI
 
-> Filtering UI appears when clicking on the filtering icon on each column's header'.
+> The filtering UI appears when clicking the filtering icon in each column's header.
 
 ![Telerik .NET MAUI DataGrid Filtering UI](../filtering/images/datagrid-filteringui-platforms.png)
 
@@ -29,7 +29,7 @@ The Telerik DataGrid allows you to apply custom filter control to the DataGrid c
 
 Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
 
->Go to [Programmatic Filtering]({%slug datagrid-programmatic-filtering%}) for detailed information on the provided filter descriptors.
+>tip Go to the [Programmatic Filtering]({%slug datagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
 
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 

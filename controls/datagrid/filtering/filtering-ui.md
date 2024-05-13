@@ -22,7 +22,7 @@ The DataGrid columns expose the following properties related to the filtering UI
 
 * `CanUserFilter`(`bool`)&mdash;Indicates whether the user can filter this column by using the built-in filtering UI. By default, the value is `True`.
 
-* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the Filtering UI. By default, the value is `True`.
+* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the filtering UI. By default, the value is `True`.
 
 * `FilterContentTemplate`(`DataTemplate`)&mdash;Defines the content template of the DataGrid Columns Filter and overriding the default template.
 
