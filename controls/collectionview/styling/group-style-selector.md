@@ -42,6 +42,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-grouping-styleselector' />
 
+This is the result on WinUI:
+
+![.NET MAUI CollectionView Group Style Selector](../images/collectionview-groupview-syleselector.png "Telerik .NET MAUI CollectionView")
+
 > For a runnable example demonstrating the CollectionView GroupView StyleSelectors, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also

@@ -40,6 +40,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-styleselector' />
 
+This is the result on WinUI:
+
+![.NET MAUI CollectionView Item Style Selector](../images/collectionview-item-style-selector.png "Telerik .NET MAUI CollectionView")
+
 > For a runnable example demonstrating the CollectionView ItemView StyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also

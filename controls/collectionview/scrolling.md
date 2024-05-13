@@ -43,6 +43,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-programmatic-scrolling'/>
 
+This is the result on WinUI:
+
+![.NET MAUI CollectionView Scrolling](images/collectionview-scrolling.gif "Telerik .NET MAUI CollectionView")
+
 > For a runnable demo with the CollectionView Programmatic Scrolling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
 
 ## Events

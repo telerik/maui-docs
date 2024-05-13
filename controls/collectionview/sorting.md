@@ -38,6 +38,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-viewmodel' />
 
+This is the result:
+
+![.NET MAUI CollectionView Sorting](images/collectionview-sorting.gif "Telerik .NET MAUI CollectionView")
+
 > For a runnable demo with the CollectionView Sorting example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Sorting** category.
 
 ## Delegate Sort Descriptor

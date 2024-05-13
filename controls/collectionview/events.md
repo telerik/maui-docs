@@ -29,6 +29,8 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 				* `Key` (`object`): Gets the specific for the group key.
 				* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
+![.NET MAUI CollectionView Group Tapped](images/collectionview-group-tapped.gif "Telerik .NET MAUI CollectionView")
+
 ### Example: Adding ItemTapped Event
 
 Here is an example that demonstrates the `ItemTapped` event:
@@ -54,6 +56,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **5.** Define the `ViewModel` class:
 
 <snippet id='collectionview-viewmodel' />
+
+This is the result for `ItemTapped`:
+
+![.NET MAUI CollectionView ItemTapped](images/collectionview-item-tapped.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView `ItemTapped` event or `GroupItemTapped` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
 

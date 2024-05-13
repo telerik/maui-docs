@@ -64,6 +64,12 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-filter-function'/>
 
+This is the result;
+
+![.NET MAUI CollectionView Filtering](images/collectionview-filtering.gif "Telerik .NET MAUI CollectionView")
+
+> For a runnable demo with the CollectionView Filtering example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Filtering** category.
+
 ## Numerical Filter Descriptor
 
 The `NumericalFilterDescriptor` represents a descriptor which filters by properties of the `numerical` data type.
@@ -128,8 +134,6 @@ The descriptor the following properties:
 The `DelegateFilterDescriptor` exposes the `Filter` property, which gets or sets the `IFilter` implementation used to check whether a data item passes the filter or not.
 
 To use a `DelegateFilterDescriptor`, you need to create a class that implements the `IFilter` interface which will return the `Key` by which you want to filter. Then, you need to add a `DelegateFilterDescriptor` to the `RadDataGrid.FilterDescriptors` collection and set its `Filter` property.
-
-> For a runnable demo with the CollectionView Filtering example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Filtering** category.
 
 ## See Also
 

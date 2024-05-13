@@ -49,6 +49,10 @@ The following example demonstrates how to apply horizontal orientation to the `R
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
+This is the result:
+
+![.NET MAUI CollectionView Horizontal Orientation](../images/collectionview-horizontal-orientation.gif "Telerik .NET MAUI CollectionView")
+
 > For a runnable demo with the CollectionView `CollectionViewLinearLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Layouts** category.
 
 ## See Also

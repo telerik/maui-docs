@@ -29,6 +29,14 @@ This article demonstrates how to enable multi-level grouping in the CollectionVi
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
+This is the result on desktop:
+
+![.NET MAUI CollectionView Multi-Level Grouping](../images/collectionview-multilevel-grouping-desktop.png "Telerik .NET MAUI CollectionView")
+
+This is the result on mobile:
+
+![.NET MAUI CollectionView Multi-Level Grouping](../images/collectionview-multilevel-grouping-mobile.png "Telerik .NET MAUI CollectionView")
+
 > For a runnable demo with the CollectionView Multi-Level Grouping, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
 
 ## See Also
