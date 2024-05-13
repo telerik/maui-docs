@@ -50,11 +50,11 @@ This is the result on WinUI:
 
 ![.NET MAUI TemplatedButton Styling](images/templatedbutton-styling.gif "TemplatedButton for .NET MAUI")
 
-> For a runnable example demonstrating the TemplatedButton Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Styling** category.
+> For a runnable example demonstrating the TemplatedButton styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Styling** category.
 
 ## See Also
 
-- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-configuration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})

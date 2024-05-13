@@ -1,21 +1,21 @@
 ---
 title: Command
 page_title: .NET MAUI TemplatedButton Documentation - Command
-description: Review TemplatedButton Command that is executed when button is clicked. 
+description: Learn about the .NET MAUI TemplatedButton Command that is executed when the button is clicked.
 position: 8
 slug: templatedbutton-command
 ---
 
-# .NET MAUI TemplatedButton Commands
+# .NET MAUI TemplatedButton Command
 
-The Telerik .NET MAUI TemplatedButton allows you to attach a command that executes when the button is clicked.
+The Telerik .NET MAUI TemplatedButton allows you to attach a command that executes when the button is clicked or tapped.
 
-* `Command` (`ICommand`)&mdash;Defines the command, which executes when the button is clicked.
-* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command, which executes when the button is clicked.
+* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked.
+* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked.
 
 ## Using the Command
 
-The following example demonstrates how to use the `Clicked` event:
+The following example demonstrates how to use the `Command` to change the text displayed within the ToggledButton on click.
 
 **1.** Define the TemplatedButton in XAML:
 
@@ -35,11 +35,11 @@ This is the result on WinUI:
 
 ![.NET MAUI TemplatedButton Command](images/templatedbutton-command.gif "TemplatedButton for .NET MAUI")
 
-> For a runnable example demonstrating the TemplatedButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TemplatedButton > Features** category.
+> For a runnable example demonstrating the TemplatedButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Features** category.
 
 ## See Also
 
-- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-configuration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})

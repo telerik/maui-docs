@@ -26,7 +26,7 @@ Before adding the TemplatedButton, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a TemplatedButton control to your page:
+**1.** When your .NET MAUI application is set up, you are ready to add a TemplatedButton control to your page:
 
 <snippet id='templatedbutton-gettingstarted-xaml' />
 <snippet id='templatedbutton-gettingstarted-csharp' />
@@ -65,20 +65,20 @@ public static class MauiProgram
 }           
 ```
 
-> For a runnable example with the TemplatedButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Getting Started** category.
+> For a runnable example with the TemplatedButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Getting Started** category.
 
 ## Additional Resources
 
-- [.NET MAUI TemplatedButton Product Page](https://www.telerik.com/maui-ui/templatedbutton)
-- [.NET MAUI TemplatedButton Forum Page](https://www.telerik.com/forums/maui?tagId=1764)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
-
-## See Also
-
-- [Configure the TemplatedButton]({%slug templatedbutton-contenfiguration%})
+- [Configure the TemplatedButton]({%slug templatedbutton-configuration%})
 - [Loading Button]({%slug templatedbutton-loading-button%})
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
 - [Style the TemplatedButton]({%slug templatedbutton-styling%})
+
+## See Also
+
+- [.NET MAUI TemplatedButton Product Page](https://www.telerik.com/maui-ui/templatedbutton)
+- [.NET MAUI TemplatedButton Forum Page](https://www.telerik.com/forums/maui?tagId=1764)
+- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
+- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
