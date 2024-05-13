@@ -29,7 +29,7 @@ The `AIPromptCommandBase` class provides the following properties:
 	
 To add a logic that will be executed when the user interacts with the commands view's items, the RadAIPrompt provides the `CommandTappedCommand` command.
 
->For more information on how to define and execute custom commands, go to [Commands View]({%slug aiprompt-views-commands%}) topic.
+>For more information on how to define and execute custom commands, go to [Commands View]({%slug aiprompt-commands-view%}) topic.
 
 ## See Also
 
