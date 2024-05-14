@@ -16,10 +16,6 @@ On WinUI:
 
 ![.NET MAUI ToggleButton Getting Started](images/togglebutton-getting-started.gif)
 
-On iOS:
-
-![.NET MAUI ToggleButton Getting Started](images/togglebutton-getting-started-ios.gif)
-
 ## Prerequisites
 
 Before adding the ToggleButton, you need to:
