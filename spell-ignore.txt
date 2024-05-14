@@ -71,3 +71,5 @@ BindingContext
 ImageEditorToolbar
 SlideViewIndicator
 ItemTemplate
+TemplatedButton
+ToggleButton
