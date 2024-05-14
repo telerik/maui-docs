@@ -16,6 +16,9 @@ The Telerik TabView for .NET MAUI exposes properties that help you work with the
 
 * `TabViewItem` can be selected by setting its `IsSelected`(`bool`) property to `True`.
 
+* `AnimationEasing` (`Microsoft.Maui.Easing`)&mdash;Specifies the easing of the animation that is run when the selected index changes.
+* `AnimationDuration` (`int`)&mdash;Specifies the duration in milliseconds of the animation that is run when the selected index changes.
+
 **Example with Selected Item**
 
 <snippet id='tabview-features-selection-csharp'/>

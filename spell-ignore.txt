@@ -72,3 +72,5 @@ MVVM
 BindingContext
 ImageEditorToolbar
 SlideViewIndicator
+TemplatedButton
+ToggleButton
