@@ -24,7 +24,8 @@ Here are the scenarios for the visualization of `Content` or `ContentTemplate` i
 * If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`.
 
 * If `Content` is set to a `View` and `ContentTemplate` isn't set, the `View` is displayed inside the `RadTemplatedButton.ControlTemplate`.
-If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` is displayed inside the `RadTemplatedButton.ControlTemplate`.
+
+* If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` is displayed inside the `RadTemplatedButton.ControlTemplate`.
 
 * If `Content` is set to an `object` and `ContentTemplate` isn't set, the `ToString()` of the `object` is used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`.
 

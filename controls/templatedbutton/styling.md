@@ -13,7 +13,7 @@ The TemplatedButton provides a set of styling options by exposing properties for
 
 ## Styling the TemplatedButton
 
-To style the TemplatedButton, use can use the following properties:
+To style the TemplatedButton, you can use the following properties:
 
 * `Background` (`Brush`)&mdash;Specifies the background brush of the control.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.

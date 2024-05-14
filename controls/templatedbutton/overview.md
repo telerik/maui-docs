@@ -9,14 +9,14 @@ slug: templatedbutton-overview
 
 # .NET MAUI TemplatedButton Overview
 
-The Telerik UI for .NET MAUI TemplatedButton represents a button with customizable content. You can set the content to a `string`, `View`, use the `ContentTemplate` or retemplate the control.
+The Telerik UI for .NET MAUI TemplatedButton represents a button with customizable content. You can set the content to a `string`, `View`, use the `ContentTemplate` or re-template the control.
 Additionally, it enables you to align its content and define custom content by using a template, applying visual states and more. 
 
 ![.NET MAUI TemplatedButton Overview](images/templatedbutton-overview.png "TemplatedButton for .NET MAUI")
 
 ## Key Features of the .NET MAUI TemplatedButton
 
-* [Content and ContentTemplate]({%slug templatedbutton-configuration%}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`. For example you can implement a [Loading Button]({%slug templatedbutton-loading-button%}) using the `ContentTemplate`.
+* [Content and ContentTemplate]({%slug templatedbutton-configuration%}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`. For example, you can implement a [Loading Button]({%slug templatedbutton-loading-button%}) using the `ContentTemplate`.
 * [Text alignment]({%slug templatedbutton-configuration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.
 * [Visual states]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance for different visual states like, `Normal`, `Pressed`, `PointerOver` (desktop-only), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interactions such as click, press, and release.

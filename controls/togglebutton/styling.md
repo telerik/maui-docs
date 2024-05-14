@@ -13,7 +13,7 @@ The ToggleButton provides a set of styling options by exposing properties for cu
 
 ## Styling the ToggleButton
 
-To style the ToggleButton, use the following properties:
+To style the ToggleButton, you can use the following properties:
 
 * `Background` (`Brush`)&mdash;Specifies the background brush of the control.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
