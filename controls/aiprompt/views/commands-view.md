@@ -15,7 +15,7 @@ The Commands View is represented by the `AIPromptCommandView` class and provides
 * `Commands`(`IList<AIPromptCommandBase>`)&mdash;Defines a list of AIPrompt commands.
 * `CommandTappedCommand`(`ICommand`)&mdash;Defines a command that is executed an AIPrompt command is pressed.
 
->For more details on how you can define a `AIPromptCommand`, go to the [Commands]({%slug aiprompt-commands%}) topic.
+>For more details on how you can define a `AIPromptCommand`, go to the [Commands]({%slug aiprompt-aicommands%}) topic.
 
 Here is an example of a simple `AIPromptCommandView`:
 
@@ -28,5 +28,5 @@ and the referenced `ViewModel` class:
 ## See Also
 
 - [Views]({%slug aiprompt-views-overview%})
-- [Commands]({%slug aiprompt-commands%})
+- [Commands]({%slug aiprompt-aicommands%})
 - [Output View]({%slug aiprompt-output-view%})
