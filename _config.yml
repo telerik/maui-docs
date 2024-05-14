@@ -47,6 +47,18 @@ navigation:
     controls/accordion:
         title: "Accordion"
     ## End Accordion
+    ## AIPrompt
+    controls/aiprompt:
+        title: "AIPrompt"
+    ## AIPrompt Sub-Folders
+    controls/aiprompt/views:
+        title: "Views"
+        position: 3
+    controls/aiprompt/styling:
+        title: "Styling"
+        position: 10
+        ## End AIPrompt Sub-Folders
+    ## End AIPrompt
     ## AutoComplete
     controls/autocomplete:
         title: "AutoComplete"
