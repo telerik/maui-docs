@@ -18,10 +18,48 @@ The `AIPromptCommandBase` class provides the following properties:
 In addition, you can use the `AIPromptCommand` class which inherits from `AIPromtCommandBase` and provides additional `Command` property:
 
 * `Command`(`ICommand`)&mdash;Defines the command that is executed when the AIPrompt command is tapped.
-	
-To add a logic that will be executed when the user interacts with the Commands View's items, the RadAIPrompt provides the `CommandTappedCommand` command.
 
->For more information on how to define and execute custom commands, go to [Commands View]({%slug aiprompt-commands-view%}) topic.
+You can use three different approaches to add a logic that will be executed when the user interacts with the Commands View's items. All are listed below according to their precedence.
+
+### Using `AIPromptCommand`'s `Command` property
+
+Let's, for example, add the following `AIPromptCommand` to `Commands` collection:
+
+```C#
+ this.Commands.Add(new AIPromptCommand
+  {     mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste}, 
+        Text = "Simplify", 
+        Command = this.CheckSyntaxCommand });
+this.CheckSyntaxCommand = new Command(this.ExecuteCheckSyntaxCommand);
+```
+
+where `ExecuteCheckSyntaxCommand` is defined like this:
+
+```C#
+private void ExecuteCheckSyntaxCommand(object arg)
+{
+    Application.Current.MainPage.DisplayAlert("executing", "check for syntax errors command", "close");
+}
+```
+
+In case the `AIPromptCommand` has `Command` applied, that `Command` will be executed when the corresponding command item in the Commands View is tapped.
+
+### Using the `RadAIPrompt`'s `CommandTappedCommand`
+
+In case the `AIPromptCommand`'`Command` is null, the AIPrompt's `CommandTappedCommand` will be executed:
+
+```C#
+ this.Commands.Add(new AIPromptCommand
+  {     mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste}, 
+        Text = "Simplify"});
+this.CommandTappedCommand = new Command(this.ExecuteCommandTappedCommand);
+```
+
+### Using the `RadAIPrompt`'`PromptRequestCommand`
+
+In case neither the `AIPromptCommand`'`Command` is null nor the `CommandTappedCommand` is provided, and the Command View's items are tapped, the `InputText` is updated to the `AIPromptCommand`'`Text` and the `RadAIPrompt`'`PromptRequestCommand` is executed.
+
+>For more information on how to define and execute ai commands, go to [Commands View]({%slug aiprompt-commands-view%}) topic.
 
 ## See Also
 
