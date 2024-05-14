@@ -9,7 +9,7 @@ tags: group, collectionview, groupdescriptor, dotnet maui, maui, grouping items
 
 # .NET MAUI CollectionView Delegate Group Descriptor
 
-The difference between the `DelegateGroupDescriptor` and the [PropertyGroupDescriptor]({%slug collectionview-property-group-descriptor%}) is that the `DelegateGroupDescriptor` groups data by a custom key, while the `PropertyGroupDescriptor` groups by a defined key which is a property from the model.
+The difference between the `DelegateGroupDescriptor` and the [`PropertyGroupDescriptor`]({%slug collectionview-property-group-descriptor%}) is that the `DelegateGroupDescriptor` groups data by a custom key, while the `PropertyGroupDescriptor` groups by a defined key which is a property from the model.
 
 This descriptor exposes the following properties:
 
@@ -36,7 +36,7 @@ The following example demonstrates how to group the items in the CollectionView 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**5.** Define the Custom IKeyLookup:
+**5.** Define the custom IKeyLookup:
 
 <snippet id='collectionview-delegate-grouping-keyextractor-function' />
 
@@ -44,7 +44,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-delegate-grouping' />
 
-> For a runnable demo with the CollectionView DelegateGroupDescriptor, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
+> For a runnable demo with the CollectionView `DelegateGroupDescriptor`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Grouping** category.
 
 ## See Also
 

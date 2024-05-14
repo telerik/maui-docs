@@ -9,9 +9,9 @@ tags: .net maui, collectionview, layout, vertical, horizontal
 
 # .NET MAUI CollectionView Linear Layout
 
-The CollectionView control supports linear layout though its `ItemsLayout` property. The `ItemsLayout` accepts values of type `CollectionViewLayoutBase` which is a base class.
+The CollectionView control supports linear layouts through its `ItemsLayout` property. The `ItemsLayout` accepts values of type `CollectionViewLayoutBase` which is a base class.
 
-Linear layout is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `CollectionViewLinearLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
+The linear layout is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `CollectionViewLinearLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
 
 ```XAML
 <telerik:RadCollectionView>

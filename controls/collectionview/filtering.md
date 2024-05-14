@@ -64,7 +64,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='collectionview-filter-function'/>
 
-This is the result;
+This is the result:
 
 ![.NET MAUI CollectionView Filtering](images/collectionview-filtering.gif "Telerik .NET MAUI CollectionView")
 
@@ -84,7 +84,7 @@ The descriptor exposes the following properties:
 
 The `DateTimeFilterDescriptor` is a descriptor which filters by properties of the `System.DateTime` data type.
 
-The descriptor the following properties:
+The descriptor exposes the following properties:
 
 * `PropertyName`&mdash;Defines the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Defines the value used in the comparisons. This is the right operand of the comparison.
@@ -94,7 +94,7 @@ The descriptor the following properties:
 
 The `TimeSpanFilterDescriptor` is a descriptor which filters by properties of the `System.TimeSpan` data type.
 
-The descriptor the following properties:
+The descriptor exposes the following properties:
 
 * `PropertyName`&mdash;Defines the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Defines the value used in the comparisons. This is the right operand of the comparison.
@@ -104,7 +104,7 @@ The descriptor the following properties:
 
 The `BooleanFilterDescriptor` is a descriptor which filters by properties of the `System.Boolean` data type.
 
-It exposes the following properties:
+The descriptor exposes the following properties:
 
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
@@ -113,7 +113,7 @@ It exposes the following properties:
 
 The `NestedProprtyTextFilterDescriptor` is a descriptor which filters the nested properties.
 
-The descriptor the following properties:
+The descriptor exposes the following properties:
 
 * `PropertyName`&mdash;Defines the name of the property that is used to retrieve the filter value.
 * `Operator`&mdash;Defines the `TextOperator` value that defines how the `Value` member is compared with each value from the items source.
@@ -124,7 +124,7 @@ The descriptor the following properties:
 
 The `DistinctValuesFilterDescriptor` is a descriptor which filters by distinct values.
 
-The descriptor the following properties:
+The descriptor exposes the following properties:
 
 * `PropertyName`&mdash;Defines the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Defines the value used in the comparisons. This is the right operand of the comparison.

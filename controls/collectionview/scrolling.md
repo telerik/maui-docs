@@ -9,7 +9,7 @@ tags: programmatic, scrolling, scrollbar
 
 # .NET MAUI CollectionView Scrolling
 
-The users can vertically and horizontally scroll through the item in the CollectionView and also scroll to an item from the collection. 
+The users can scroll vertically and horizontally through the items in the CollectionView and also scroll to a specific item from the collection.
 
 ## Scrolling to an Item
 

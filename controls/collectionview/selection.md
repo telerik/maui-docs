@@ -48,7 +48,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Selected Index
 
-The CollectionView provides the `SelectedIndex`(`int`) property. The `SelectedIndex` specifies the index of the first item in the current selection or -1 if the selection is empty.
+The CollectionView provides the `SelectedIndex`(`int`) property. The `SelectedIndex` specifies the index of the first item in the current selection or `-1` if the selection is empty.
 
 ## Selected Items Collection
 

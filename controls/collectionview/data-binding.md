@@ -8,7 +8,7 @@ slug: collectionview-data-binding
 
 # .NET MAUI CollectionView Data Binding
 
-For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The CollectionView for .NET MAUI component supports data binding in the form of path property.
+For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The CollectionView for .NET MAUI component supports data binding in the form of a path property.
 
 ## Populate with Data
 

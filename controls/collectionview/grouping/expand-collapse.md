@@ -23,17 +23,17 @@ var dataView = this.collectionView.GetDataView();
 
 ## Expand and Collapse All Groups
 
-To expand all groups, use the `ExpandAll()` method and, to collapse all groups -`CollapseAll()` method.
+To expand all groups, use the `ExpandAll()` method and, to collapse all groups&mdash;`CollapseAll()` method.
 
 ![.NET MAUI CollectionView Expand Collapse All Groups](../images/collectionview-groups-expand-collapse-all.gif "Telerik .NET MAUI CollectionView")
 
 The following example demonstrates how these methods are used:
 
-**Expanding all groups:**
+* Expanding all groups:
 
 <snippet id='collectionview-expandall' />
 
-**Collapsing all groups:**
+* Collapsing all groups:
 
 <snippet id='collectionview-collapseall' />
 
@@ -45,11 +45,11 @@ You can retrieve the first-level groups through the `GetGroups()` method of the 
 
 The following example demonstrates how these methods are used:
 
-**Expanding a specific group:**
+* Expanding a specific group:
 
 <snippet id='collectionview-expandgroup' />
 
-**Collapsing a specific group:**
+* Collapsing a specific group:
 
 <snippet id='collectionview-collapsegroup' />
 
@@ -59,11 +59,11 @@ You can expand or collapse a specific item from a group by using the `ExpandItem
 
 The following example demonstrates how these methods are used:
 
-**Expanding a specific item from a group:**
+* Expanding a specific item from a group:
 
 <snippet id='collectionview-expanditem' />
 
-**Collapsing a specific item from a group:**
+* Collapsing a specific item from a group:
 
 <snippet id='collectionview-collapseitem' />
 

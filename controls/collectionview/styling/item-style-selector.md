@@ -44,7 +44,7 @@ This is the result on WinUI:
 
 ![.NET MAUI CollectionView Item Style Selector](../images/collectionview-item-style-selector.png "Telerik .NET MAUI CollectionView")
 
-> For a runnable example demonstrating the CollectionView ItemView StyleSelector, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
+> For a runnable example demonstrating the CollectionView `ItemViewStyleSelector`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling** category.
 
 ## See Also
 

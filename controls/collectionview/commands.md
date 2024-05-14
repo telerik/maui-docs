@@ -24,7 +24,7 @@ The .NET MAUI CollectionView provides various commands that are listed in the fo
 
 <snippet id='collectionview-grouptapcommand-model' />
 
-**2.** Create a `ViewModel` with a command that will be bind to the `RadCollectionView.ItemTapCommand`:
+**2.** Create a `ViewModel` with a command that will be bound to the `RadCollectionView.ItemTapCommand`:
 
 <snippet id='collectionview-itemtap-command-viewmodel' />
 
@@ -48,7 +48,7 @@ This is the result:
 
 <snippet id='collectionview-grouptapcommand-model' />
 
-**2.** Create a `ViewModel` with a command that will be bind to the `RadCollectionView.GroupItemTapCommand`:
+**2.** Create a `ViewModel` with a command that will be bound to the `RadCollectionView.GroupItemTapCommand`:
 
 <snippet id='collectionview-grouptapcommand-viewmodel' />
 

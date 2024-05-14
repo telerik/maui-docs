@@ -15,8 +15,7 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 
 * `ItemTapped`&mdash;Raised when the user taps on the item. The `ItemTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `TappedEventArgs` object, which has a reference to:
-		* the tapped item through its `Data`(`T`) property.
+	* A `TappedEventArgs` object, which has a reference to the tapped item through its `Data`(`T`) property.
 
 * `GroupTapped`&mdash;Raised when the user taps on the group item. The `GroupTapped` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
