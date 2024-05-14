@@ -14,7 +14,7 @@ The component allows you to interact with the output from the AI and execute a s
 
 ## Key Features
 
-* [Views]({%slug aiprompt-views-overview %})&mdash;The AIPrompt provides different views that you can include in i - Input, Output and Commands view. Through interaction with the component, the user can change the currently active view.
+* [Views]({%slug aiprompt-views-overview %})&mdash;The AIPrompt provides different views that you can include in it - Input, Output and Commands view. Through interaction with the component, the user can change the currently active view.
 * [Suggestions]({%slug aiprompt-suggestions%})&mdash;This collection will allow you to populate the AIPrompt component with suggestions that will be displayed to the user prior to sending the request.
 * [AIPrompt button]({%slug aiprompt-aipromptbutton%})&mdash;The AIPrompt component provides the ability to display it as a button, which when interacted with, will display the prompt.
 * [Commands]({%slug aiprompt-commands%})&mdash;The Commands collection gives you the ability to define custom commands with custom actions displayed within the Commands View.

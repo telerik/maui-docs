@@ -8,7 +8,7 @@ slug: aiprompt-commands-view
 
 # Commands View
 
-The Commands View displays a set of predefined commands, which the user can browse and execute. The commands are passed to the component through the `Commands` property, which expects a collection of type `IList<AIPromptCommandBase>`.
+The Commands View displays a set of predefined commands, which the user can browse and execute. The commands are passed to the component through the `Commands` property, which expects a collection of `AIPromptCommandBase` objects.
 
 The Commands View is represented by the `AIPromptCommandView` class and provides the following properties:
 

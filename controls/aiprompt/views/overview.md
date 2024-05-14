@@ -8,7 +8,7 @@ slug: aiprompt-views-overview
 
 # Views Overview 
 
-The AIPrompt component provides three predefined views and also lets you create custom views. Only one of these views is displayed at a time, and the user can switch the views via the toolbar at the top.
+The AIPrompt component provides three predefined views and also lets you create custom views. Only one of these views is displayed at a time, and the user can switch the views via the TabView headers at the top.
 
 The available built-in views are:
 
@@ -41,8 +41,8 @@ Here is a sample `ViewModel` class used in the example:
 Each view that is supported by the AIPrompt extends the `AIPromptView` class. This class exposes the following properties that you can set for each view:
 
 * `ControlTemplate`(`ControlTemplate`)&mdash;Sets the template that defines the visual appearance of the view.
-* `HeaderText`(`string`)&mdash;Defines the text that resides in the toolbar for switching the views.
-* `HeaderImageSource`(`ImageSource`)&mdash;Defines the image source that resides in the toolbar for switching the views.
+* `HeaderText`(`string`)&mdash;Defines the text that resides in the TabView Header for switching the views.
+* `HeaderImageSource`(`ImageSource`)&mdash;Defines the image source that resides in the TabView Header for switching the views.
 
 ## See Also
 

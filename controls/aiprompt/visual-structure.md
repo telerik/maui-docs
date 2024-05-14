@@ -26,7 +26,7 @@ The following images shows the anatomy of the AIPrompt control.
 * **Copy Button**&mdash;This button copies the response.
 * **Retry Button**&mdash;This button requests another response from your AI model using the same input text.
 * **Rating Buttons**&mdash;These buttons rate the response returned from your AI model.
-* **AIPrompt Buttom**&mdash;This button shows a popup with an AIPrompt when interacted with.
+* **AIPrompt Button**&mdash;This button shows a popup with an AIPrompt when interacted with.
 
 ## See Also
 

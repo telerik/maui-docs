@@ -31,6 +31,7 @@ Before adding the AIPrompt, you need to:
 
  <snippet id='aiprompt-getting-started-xaml' />
 
+
 **2.** Add the following namespace:
 
  ```XAML
@@ -39,7 +40,9 @@ Before adding the AIPrompt, you need to:
 
  **3.** Add the `ViewModel` class:
 
+
  <snippet id='aiprompt-getting-started-viewmodel' />
+
 
  **4.** Set the `ViewModel` as a `BindingContext` of the page:
 
