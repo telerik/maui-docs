@@ -24,3 +24,5 @@ Check below how you can enable the SkiaSharp render mode of the DataGrid:
 
 ## See Also
 - [SkiaSharp Cell Renderer]({%slug datagrid-skiasharp-cell-renderer%})
+- [SkiaSharp GitHub](https://github.com/mono/SkiaSharp?#skiasharp)
+- [SkiaSharp SKCanvas](https://learn.microsoft.com/en-us/dotnet/api/skiasharp.skcanvas)
