@@ -18,6 +18,10 @@ The CollectionView provides three selection modes, which allow you to manipulate
 - `Single` (default)&mdash;The users can select only one item.
 - `Multiple`&mdash;The users can select more than one item.
 
+Multple selection on desktop:
+
+![.NET MAUI CollectionView Multiple Selection](images/collectionview-multiple-selection-desktop.png "Telerik .NET MAUI CollectionView")
+
 > For a runnable example demonstrating the CollectionView Multiple Selection and Disabled Selection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
 
 ## Selected Item
@@ -73,6 +77,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **4.** Define the `ViewModel` class:
 
 <snippet id='collectionview-selection-viewmodel' />
+
+This is the result on mobile:
+
+![.NET MAUI CollectionView Multiple Selection](images/collectionview-multiple-selection-mobile.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection** category.
 
