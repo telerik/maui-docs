@@ -15,18 +15,18 @@ The purpose of this help article is to show you the main configuration options o
 
 Define the content inside the TemplatedButton by setting the `Content` property (`object`) or `ContentTemplate` (`DataTemplate`) property.
 
-The `Content` is responsible for the actual content displayed in the button. It can be set to `string`, `View`, complex object, etc.
+The `Content` is responsible for the actual content displayed in the button. It can be set to `string`, `View`, object, etc.
 
-The table below lists the scenarios for the visualization of `Content` or `ContentTemplate` inside the TemplatedButton:
+Here are the scenarios for the visualization of `Content` or `ContentTemplate` inside the `RadTemplatedButton`:
 
-| `Content` | `ContentTemplate` | Results |
-| --------- | ----------------- | ------- |
-| not set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
-| not set | `DataTemplateSelector` | First the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`. |
-| set to `View` | not set | The `View` is displayed inside the `RadTemplatedButton.ControlTemplate`. |
-| set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
-| set to `complex object` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`. |
-| set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`. |
+* If `ContentTemplate` is set, the `View` returned from the `ContentTemplate`.`CreateView()` is displayed inside the `RadTemplatedButton.ControlTemplate`, having `Content` as its `BindingContext`.
+
+* If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`.
+
+* If `Content` is set to a `View` and `ContentTemplate` isn't set, the `View` is displayed inside the `RadTemplatedButton.ControlTemplate`.
+If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` is displayed inside the `RadTemplatedButton.ControlTemplate`.
+
+* If `Content` is set to an `object` and `ContentTemplate` isn't set, the `ToString()` of the `object` is used and converted to `Label` inside the `RadTemplatedButton.ControlTemplate`.
 
 __Setting Content to String__
 

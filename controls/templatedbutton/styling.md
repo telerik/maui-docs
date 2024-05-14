@@ -13,7 +13,7 @@ The TemplatedButton provides a set of styling options by exposing properties for
 
 ## Styling the TemplatedButton
 
-To style the TemplatedButton, use the following properties:
+To style the TemplatedButton, use can use the following properties:
 
 * `Background` (`Brush`)&mdash;Specifies the background brush of the control.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
@@ -23,6 +23,7 @@ To style the TemplatedButton, use the following properties:
 * `CornerRadius` (`CornerRadius`)&mdash;Specifies the corner radius of the control.
 * `Padding` (`Thickness`)&mdash;Specifies the padding of the control.
 * `TextColor` (`Color`)&mdash;Specifies the color of the `Label.Text` created when `Content` is `string` and `ContentTemplate` is not set.
+* All Properties from the [Content Configuration]({%slug templatedbutton-configuration%}) article can be applied through style.
 
 ### Using the Styling API
 

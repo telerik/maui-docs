@@ -12,7 +12,7 @@ You can create a loading button using the Telerik .NET MAUI TemplatedButton. The
 
 The following `.gif` shows the loading button:
 
-![.NET MAUI TemplatedButton Loading Button](images/templatedbutton-visual-structure.png "Loading Button")
+![.NET MAUI TemplatedButton Loading Button](images/templatedbutton-loading-button.gif "Loading Button")
 
 ## Solution
 
@@ -31,10 +31,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Define the `ViewModel`:
 
 <snippet id='loadingbutton-viewmodel' />
-
-This is the result on WinUI:
-
-![.NET MAUI TemplatedButton Loading Button](images/templatedbutton-loading-button.gif "TemplatedButton for .NET MAUI")
 
 ## Additional Resources
 

@@ -17,16 +17,16 @@ Define the content inside the ToggleButton by setting the `Content` property (`o
 
 The `Content` is responsible for the actual content displayed in the button. It can be set to `string`, `View`, complex object, etc.
 
-The table below lists the scenarios for the visualization of `Content` or `ContentTemplate` inside the `RadToggleButton`:
+Here are the scenarios for the visualization of `Content` or `ContentTemplate` inside the `RadToggleButton`:
 
-| `Content` | `ContentTemplate` | Results |
-| --------- | ----------------- | --------|
-| not set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadToggleButton.ControlTemplate`. |
-| not set | `DataTemplateSelector` | First the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`. |
-| set to `View` | not set | The `View` is displayed inside the `RadToggleButton.ControlTemplate`. |
-| set to `string` | not set | A `Label` with `Text` is displayed inside the `Content`. |
-| set to `complex object` | not set | The `ToString()` of the data object is used and converted to `Label` inside the `RadToggleButton.ControlTemplate`. |
-| set | set | The `View` returned from the `ContentTemplate.CreateView()` is displayed inside the `RadToggleButton.ControlTemplate`, having `Content` as its `BindingContext`. |
+* If `ContentTemplate` is set, the `View` returned from the `ContentTemplate`.`CreateView()` is displayed inside the `RadToggleButton.ControlTemplate`, having `Content` as its `BindingContext`.
+
+* If `ContentTemplate` is `DataTemplateSelector`, first the `DataTemplate` is selected and then a `View` is created from the chosen template using `Content` as its `BindingContext`.
+
+* If `Content` is set to a `View` and `ContentTemplate` isn't set, the `View` is displayed inside the `RadToggleButton.ControlTemplate`.
+If `Content` is set to a `string` and `ContentTemplate` isn't set, a `Label` is displayed inside the `RadToggleButton.ControlTemplate`.
+
+* If `Content` is set to an `object` and `ContentTemplate` isn't set, the `ToString()` of the `object` is used and converted to `Label` inside the `RadToggleButton.ControlTemplate`.
 
 __Setting Content to String__
 

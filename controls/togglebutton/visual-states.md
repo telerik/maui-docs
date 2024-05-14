@@ -21,10 +21,10 @@ The ToggleButton provides the following `CommonStates` visual states:
 | `ToggledMouseOver` | (Desktop-only) Applies when the button is toggled and the mouse is over the button. |
 | `ToggledPressed` | Applies when the button is toggled and pressed. |
 | `ToggledDisabled` | Applies when the button is toggled and disabled. |
-| `Indeterminate` | Applies when the button is in indeterminate state. |
-| `IndeterminateMouseOver` | (Desktop-only) Applies when the button is in indeterminate state and the mouseis over the button. |
-| `IndeterminatePressed` | Applies when the button is in indeterminate state and pressed. |
-| `IndeterminateDisabled` | Applies when the button is in indeterminate state and disabled. |
+| `Indeterminate` | Applies when the button is in an indeterminate state. |
+| `IndeterminateMouseOver` | (Desktop-only) Applies when the button is in an indeterminate state and the mouse is over the button. |
+| `IndeterminatePressed` | Applies when the button is in an indeterminate state and pressed. |
+| `IndeterminateDisabled` | Applies when the button is in an indeterminate state and disabled. |
 
 The ToggleButton provides the following `FocusStates` visual states:
 

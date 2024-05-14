@@ -23,6 +23,7 @@ To style the ToggleButton, use the following properties:
 * `CornerRadius` (`CornerRadius`)&mdash;Specifies the corner radius of the control.
 * `Padding` (`Thickness`)&mdash;Specifies the padding of the control.
 * `TextColor` (`Color`)&mdash;Specifies the color of the `Label.Text` created when `Content` is `string` and `ContentTemplate` is not set.
+* All Properties from the [Content Configuration]({%slug togglebutton-configuration%}) article can be applied through style.
 
 ### Using the Styling API
 
@@ -50,7 +51,7 @@ This is the result on WinUI:
 
 ![.NET MAUI ToggleButton Styling](images/togglebutton-styling.gif)
 
->tip For a runnable example demonstrating the ToggleButton styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Styling** category.
+> For a runnable example demonstrating the ToggleButton styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Styling** category.
 
 ## See Also
 

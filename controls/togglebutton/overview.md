@@ -18,7 +18,7 @@ The ToggleButton is commonly used in scenarios to capture and represent a binary
 ## Key Features of the .NET MAUI ToggleButton
 
 * [Toggled states]({%slug togglebutton-toggle-states%})&mdash;The ToggleButton delivers options for setting its state to toggled and untoggled, and provides an additional indeterminate state which indicates the control is neither toggled nor untoggled.
-* [Setting three state]({%slug togglebutton-toggle-states%}#setting-three-states)&mdash;You can apply indeterminate state through the UI by setting `IsThreeState` property.
+* [Setting three states]({%slug togglebutton-toggle-states%}#setting-three-states)&mdash;You can apply an indeterminate state through the UI by setting the `IsThreeState` property.
 * [Content and ContentTemplate]({%slug togglebutton-configuration%}#setting-content)&mdash;The ToggleButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`.
 * [Text alignment]({%slug togglebutton-configuration%}#text-alignment)&mdash;The ToggleButton enables you to control the horizontal and vertical positioning of the text inside the content.
 * [Visual states]({%slug togglebutton-visual-states%})&mdash;You can change the ToggleButton appearance for different visual states like, `Normal`, `Pressed`, `MouseOver` (desktop-only), `Toggled`, `Disabled`, and more.

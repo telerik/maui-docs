@@ -61,7 +61,7 @@ public static class MauiProgram
 }           
 ```
 
->tip For a runnable example with the ToggleButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Getting Started** category.
+> For a runnable example with the ToggleButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ToggleButton > Getting Started** category.
 
 ## Additional Resources
 
