@@ -68,7 +68,7 @@ The following example demonstrates a custom `IKeyLookup` implementation.
 
 <snippet id='datagrid-delegatesortdescriptor-ikeylookup'/>
 ```C#
-public class CustomIKeyLookup : Telerik.Maui.Controls.Compatibility.Common.Data.IKeyLookup
+public class CustomIKeyLookup : Telerik.Maui.Controls.Data.IKeyLookup
 {
 	public object GetKey(object instance)
 	{

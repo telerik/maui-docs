@@ -109,8 +109,8 @@ The Bar indicator supports the following properties:
 
 * `StartThickness`(`double`)&mdash;Specifies the start thickness of the Bar indicator.
 * `EndThickness`(`double`)&mdash;Specifies the end thickness of the Bar indicator.
-* `StartCap`(of type `Telerik.Maui.Controls.Compatibility.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Bar indicator.
-* `EndCap`(of type `Telerik.Maui.Controls.Compatibility.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Bar indicator.
+* `StartCap`(of type `Telerik.Maui.Controls.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Bar indicator.
+* `EndCap`(of type `Telerik.Maui.Controls.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Bar indicator.
 
   The available options from the `GaugeBarIndicatorCap` enumeration are `Flat`, `Oval`, and `ConcaveOval`. The default value for the start and end caps is `Flat`.
 
@@ -150,8 +150,8 @@ In addition, the Range Bar indicator has the following properties:
 
 * `FromThickness`(`double`)&mdash;Specifies the start thickness of the Range Bar indicator.
 * `ToThickness`(`double`)&mdash;Specifies the end thickness of the Range Bar indicator.
-* `FromCap`(of type `Telerik.Maui.Controls.Compatibility.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Range Bar indicator.
-* `ToCap`(of type `Telerik.Maui.Controls.Compatibility.DataVisualization.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Range Bar indicator.
+* `FromCap`(of type `Telerik.Maui.Controls.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the start cap of the Range Bar indicator.
+* `ToCap`(of type `Telerik.Maui.Controls.Gauges.GaugeBarIndicatorCap enumeration`)&mdash;Defines the end cap of the Range Bar indicator.
 
   The available options from the `GaugeBarIndicatorCap` enumeration are `Flat`, `Oval`, and `ConcaveOval`. The default value is *Flat*.
 

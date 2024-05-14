@@ -33,7 +33,7 @@ All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 Apply the `PropertyGroupDescriptor`:
 
 ```C#
-this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Compatibility.Common.Data.PropertyGroupDescriptor()
+this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Data.PropertyGroupDescriptor()
 {
     PropertyName="Department"
 });

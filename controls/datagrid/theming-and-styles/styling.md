@@ -76,7 +76,7 @@ For styling the `CurrentCell` by using the `CurrentCellStyle` property, review t
 
 `Style` supports the following properties for configuring the DataGrid lines:
 
-* `GridLinesVisibility`(`Telerik.Maui.Controls.Compatibility.DataGrid.GridLinesVisibility`)&mdash;Defines which DataGrid lines are currently visible (displayed). The property accepts the `Both`, `Horizontal`, `None`, and `Vertical` values.
+* `GridLinesVisibility`(`Telerik.Maui.Controls.DataGrid.GridLinesVisibility`)&mdash;Defines which DataGrid lines are currently visible (displayed). The property accepts the `Both`, `Horizontal`, `None`, and `Vertical` values.
 * `GridLinesColor`&mdash;Defines the appearance of the horizontal and vertical DataGrid lines.
 * `GridLinesThickness`&mdash;Defines the width of the vertical and the height of the horizontal DataGrid lines.
 
@@ -93,7 +93,7 @@ You can set the `GridLinesVisibility` property in the following way:
 
 ## Frozen Columns
 
-`Style` supports the `FrozenColumnsSplitterStyle` (`Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFrozenColumnsSplitterStyle`) property which allows you to style the UI of the splitter dividing the frozen (locked) from the unfrozen (unlocked) columns.
+`Style` supports the `FrozenColumnsSplitterStyle` (`Telerik.Maui.Controls.DataGrid.DataGridFrozenColumnsSplitterStyle`) property which allows you to style the UI of the splitter dividing the frozen (locked) from the unfrozen (unlocked) columns.
 
 ## Splitter UI
 

@@ -28,7 +28,7 @@ The following descriptor types are supported:
     - [Delegate Filter Descriptor](#delegate-filter-descriptor)
   - [See Also](#see-also)
 
-All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Data` namespace.
 
 When using C#, you'll need to add the using statement
 
@@ -142,7 +142,7 @@ It exposes the following properties:
 ```C#
 var filterDescriptor = new NestedPropertyTextFilterDescriptor();
 filterDescriptor.PropertyName = "MyProperty";
-filterDescriptor.Operator = Telerik.Maui.Controls.Compatibility.Common.Data.TextOperator.EqualsTo;
+filterDescriptor.Operator = Telerik.Maui.Controls.Data.TextOperator.EqualsTo;
 filterDescriptor.Value = "Expected value";
 filterDescriptor.ItemPropertyGetter = (originalPropertyValue) =>
 {

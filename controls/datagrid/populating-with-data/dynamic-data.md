@@ -20,7 +20,7 @@ To prevent the exception, use the `MtouchInterpreter` <a href = "https://learn.m
 
 ```xml
 <PropertyGroup Condition="'$(Configuration)|$(RuntimeIdentifier)'=='Release|maccatalyst-arm64'">
-	<MtouchInterpreter>-all,+Telerik.Maui.Controls.Compatibility.dll</MtouchInterpreter>
+	<MtouchInterpreter>-all,+Telerik.Maui.Controls.dll</MtouchInterpreter>
 </PropertyGroup>
 ```
 
