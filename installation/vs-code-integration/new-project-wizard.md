@@ -28,7 +28,7 @@ You can create a Telerik .NET MAUI project by accessing the project template fea
 
 Next in the menu, look for and select **Telerik UI for .NET MAUI Template Wizard: Launch** and press Enter. 
 
-![Telerik UI for .NET MAUI VS Code snippets](./images/MauiTemplateWizard.png)
+![Telerik UI for .NET MAUI VS Code snippets](./images/MauiTemplateWizard.gif)
 
 ## Set up the Telerik NuGet Server
 
@@ -73,15 +73,18 @@ See also: [How to Generate NuGet Key]({%slug nuget-keys%}#generating-nuget-keys)
 
 > Use plain text credentials, because the .NET Core NuGet tooling does not fully support encrypted credentials. 
 
-## Configure the Project
+## Select a Project
 
 The Create New Project wizard provides two options to start you project:
 
- -  Blank Project - allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
+ -  Blank App&mdash;Allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
+ -  Blank Shell App&mdash;Allows you to create a blank shell project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
 
- The wizard allows you to configure the following options:
+## Configure the Project
+
+The wizard allows you to configure the following options:
 
   - Project name
-  - Location of the created project
+  - Location of the created project (Output Path)
   - Your Telerik license (trial or commercial)
   - The .NET version you want to use

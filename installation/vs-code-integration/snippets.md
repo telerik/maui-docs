@@ -28,6 +28,7 @@ To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI fo
 | Code Snippet               | Component                                |
 |----------------------------|------------------------------------------|
 | tm-accordion               | [Accordion]({%slug accordion-overview%}) |
+| tm-aiprompt                | [AI Prompt]({%slug aiprompt-overview%}) |
 | tm-autocomplete            | [AutoComplete]({%slug autocomplete-overview%})     |
 | tm-barcode                 | [Barcode]({%slug barcode-overview%}) |
 | tm-badgeview               | [BadgeView]({%slug badgeview-overview%}) |
@@ -37,6 +38,7 @@ To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI fo
 | tm-calendar                | [Calendar]({%slug calendar-overview%})   |
 | tm-chart                   | [Chart]({%slug chart-overview%}) |
 | tm-checkbox                | [CheckBox]({%slug checkbox-overview%}) |
+| tm-collectionview          | [CollectionView]({%slug collectionview-overview%}) |
 | tm-combobox                | [ComboBox]({%slug combobox-overview%}) |
 | tm-chat                    | [Chat]({%slug chat-overview%})    |
 | tm-dataform                | [DataForm]({%slug dataform-overview%}) |
@@ -71,8 +73,10 @@ To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI fo
 | tm-slider                  | [Slider]({%slug slider-overview%}) |
 | tm-slideview               | [SlideView]({%slug slideview-overview%}) |
 | tm-tabview                 | [TabView]({%slug tabview-overview%}) |
+| tm-templatedbutton         | [TemplatedButton]({%slug templatedbutton-overview%}) |
 | tm-templatedpicker         | [TemplatedPicker]({%slug templatedpicker-overview%}) |
 | tm-timepicker              | [TimePicker]({%slug timepicker-overview%}) |
 | tm-timespanpicker          | [TimeSpanPicker]({%slug timespanpicker-overview%}) |
+| tm-togglebutton            | [ToggleButton]({%slug togglebutton-overview%}) |
 | tm-toolbar                 | [Toolbar]({%slug toolbar-overview%})         |
 | tm-treeview                | [TreeView]({%slug treeview-overview%})   |
