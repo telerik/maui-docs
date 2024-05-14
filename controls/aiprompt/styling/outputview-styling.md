@@ -42,6 +42,10 @@ The following example demonstrates how to modify the output items' appearance:
 
 <snippet id='aiprompt-outputview-styling-xaml'/>
 
+Here is how the customized Output View looks:
+
+![Telerik .NET MAUI AIPrompt Output View Styling](images/aiprompt-output-styling.png)
+
 ## See Also
 
 - [Views]({%slug aiprompt-views-overview%})

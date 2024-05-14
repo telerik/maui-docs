@@ -54,7 +54,7 @@ navigation:
     controls/aiprompt/views:
         title: "Views"
         position: 3
-    controls/aipromt/styling:
+    controls/aiprompt/styling:
         title: "Styling"
         position: 10
         ## End AIPrompt Sub-Folders

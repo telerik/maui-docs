@@ -19,9 +19,13 @@ The following example demonstrates how to modify the editor and the input button
 
 <snippet id='aiprompt-inputview-style'/>
 
-**2.** Add the `RadAIPrompt` control with `TabViewStyle` applied:
+**2.** Add the `RadAIPrompt` control with `InputEditorStyle` and `InputButtonStyle` properties applied:
 
 <snippet id='aiprompt-inputview-styling-xaml'/>
+
+Here is how the customized Input View looks:
+
+![Telerik .NET MAUI AIPrompt Input View Styling](images/aiprompt-input-styling.png)
 
 ## See Also
 

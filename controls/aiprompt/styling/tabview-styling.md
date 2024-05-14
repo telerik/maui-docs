@@ -8,7 +8,7 @@ slug: aiprompt-tabview-styling
 
 # TabView Styling
 
-The AIPrompt control dispplays the available views (Input, Output, Commands) in a TabView. You can modify the visual appearance of the TabView and each TabView header through the `TabViewStyle` property of the control.
+The AIPrompt control displays the available views (Input, Output, Commands) in a TabView. You can modify the visual appearance of the TabView and each TabView header through the `TabViewStyle` property of the control.
 
 The following example demonstrates how to modify the visual states of the TabView headers through the `TabViewStyle` property:
 
@@ -16,9 +16,13 @@ The following example demonstrates how to modify the visual states of the TabVie
 
 <snippet id='aiprompt-tabviewstyling-style'/>
 
-**2.** Add the `RadAIPRompt` control with `TabViewStyle` applied:
+**2.** Add the `RadAIPrompt` control with `TabViewStyle` applied:
 
 <snippet id='aiprompt-tabviewstyling-xaml'/>
+
+Here is the result after applying the `TabViewStyle`:
+
+![Telerik .NET MAUI AIPrompt TabView Styling](images/aiprompt-tabview-styling.png)
 
 ## See Also
 

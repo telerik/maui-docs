@@ -8,9 +8,9 @@ slug: aiprompt-aipromptbutton-styling
 
 # AIPrompt Button Styling
 
-The AIPrompt Button is used to show the AIPrompt inside a popup. You can customize it by setting its `Style` property with `TargetType` set to `RadTemplatedButton`.
+The AIPrompt Button is used to show the AIPrompt inside a popup. You can customize the AIPrompt Button by setting its `Style` property with `TargetType` set to `RadTemplatedButton`.
 
-The following example demonstrates how to modify the AIPromtButton' appearance:
+The following example demonstrates how to modify the AIPrompt Button's appearance:
 
 **1.** Add a `Style` property with `TargetType` set to `RadTemplatedButton` to the page's resources:
 
@@ -19,6 +19,10 @@ The following example demonstrates how to modify the AIPromtButton' appearance:
 **2.** Add the `RadAIPromptButton` control with its `Style` applied:
 
 <snippet id='aiprompt-airpromtbutton-style-xaml'/>
+
+Check the result below:
+
+![Telerik .NET MAUI AIPrompt Button Styling](images/aiprompt-aipromptbutton-styling.png)
 
 ## See Also
 

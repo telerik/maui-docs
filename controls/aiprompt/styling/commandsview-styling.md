@@ -23,6 +23,10 @@ The following example demonstrates how to modify the commands' appearance:
 
 <snippet id='aiprompt-commandsview-styling-xaml' />
 
+Here is the result after applying the `CommandStyle` and `CommandGroupStyle`:
+
+![Telerik .NET MAUI AIPrompt Commands View Styling](images/aiprompt-commands-styling.png)
+
 ## See Also
 
 - [Views]({%slug aiprompt-views-overview%})
