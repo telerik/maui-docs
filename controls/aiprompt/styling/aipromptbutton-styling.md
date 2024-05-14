@@ -12,7 +12,7 @@ The AIPrompt Button is used to show the AIPrompt inside a popup. You can customi
 
 The following example demonstrates how to modify the AIPrompt Button's appearance:
 
-**1.** Add a `Style` property with `TargetType` set to `RadTemplatedButton` to the page's resources:
+**1.** Add a `Style` property with the needed styling settings applied to the page's resources:
 
 <snippet id='aiprompt-airpromtbutton-style'/>
 

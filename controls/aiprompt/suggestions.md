@@ -8,7 +8,7 @@ slug: aiprompt-suggestions
 
 # Suggestions
 
-The .NET MAUI AIPrompt control allows you to define suggestions for the user prior to initiating a request. To do so, set the `Suggestions` collection of the AIPrompt.
+The .NET MAUI AIPrompt control allows you to add pre-defined suggestions, which serve as hints for the end-users to understand what type of inquiries they can make to the AI. To do so, set the `Suggestions` collection of the AIPrompt.
 
 The user can select any of the available suggestions, which in turn will populate the input editor with the selected suggestion. This interaction will not trigger a response request right away&mdash;the user can modify the suggestion first.
 

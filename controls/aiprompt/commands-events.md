@@ -1,12 +1,12 @@
 ---
-title: Commands
-page_title: .NET MAUI AIPrompt Documentation - Commands
-description: Learn more about the commands in the Telerik UI for .NET MAUI AIPrompt control.
-position: 7
-slug: aiprompt-commands
+title: Commands & Events
+page_title: .NET MAUI AIPrompt Documentation - Commands & Events
+description: Learn more about the commands and events in the Telerik UI for .NET MAUI AIPrompt control.
+position: 8
+slug: aiprompt-commands-events
 ---
 
-# Commands
+# Commands & Events
 
 The .NET MAUI AIPrompt provides several commands that you can utilize when working with the component. Furthermore, it allows you to define custom commands that will be displayed in a separate view to further personalize the control.
 

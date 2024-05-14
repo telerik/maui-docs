@@ -12,12 +12,15 @@ The Input view features the input editor, where users can type their query. It a
 
 Additionally, the Input view can display suggestions related to the input itself. To control these suggestions, use the `Suggestions` collection. The user can select any of the available suggestions, which in turn will populate the input editor with the selected suggestion. This interaction will not trigger a response request right away&mdash;the user can modify the suggestion first.
 
->For more details, go to the  [Suggestions]({%slug aiprompt-suggestions%}) topic.
+>For more details on the Suggestions feature, go to the  [Suggestions]({%slug aiprompt-suggestions%}) topic.
 
-The input view is represented by the `AIPromptInputView` class and provides the following properties:
+The Input View is represented by the `AIPromptInputView` class and provides the following properties:
 
 * `InputText`(`string`)&mdash;Defines the input used for generating a response.
 * `PromptRequestCommand`(`ICommand`)&mdash;Defines a command that is executed when the end-user makes a request by pressing the input button.
+
+> You can also apply `InputText` and `PromptRequestCommand` directly to the `RadAIPrompt` instance - for an example, check the [Views]({%slug aiprompt-views-overview%}) topic.
+
 
 Here is an example of a simple `AIPromptInputView`:
 

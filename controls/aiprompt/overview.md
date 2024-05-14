@@ -12,12 +12,14 @@ The .NET MAUI AIPrompt component helps you write input (prompt) instructing the 
 
 The component allows you to interact with the output from the AI and execute a set of predefined commands. Furthermore, the AIPrompt comes with three predefined views—Input, Output, and Commands, as well as the option to define custom views. Users can navigate the views through the AIPrompt's TabView.
 
+![.NET MAUI AIPrompt Overview](images/aiprompt-overview.png)
+
 ## Key Features
 
 * [Views]({%slug aiprompt-views-overview %})&mdash;The AIPrompt provides different views that you can include in it - Input, Output and Commands view. Through interaction with the component, the user can change the currently active view.
 * [Suggestions]({%slug aiprompt-suggestions%})&mdash;This collection will allow you to populate the AIPrompt component with suggestions that will be displayed to the user prior to sending the request.
+* [Commands]({%slug aiprompt-aicommands%})&mdash;The Commands collection gives you the ability to define custom commands with custom actions displayed within the Commands View.
 * [AIPrompt button]({%slug aiprompt-aipromptbutton%})&mdash;The AIPrompt component provides the ability to display it as a button, which when interacted with, will display the prompt.
-* [Commands]({%slug aiprompt-commands%})&mdash;The Commands collection gives you the ability to define custom commands with custom actions displayed within the Commands View.
 * Flexible Styling API&mdash;Thanks to the control’s flexible API you can directly configure how various elements of the Telerik UI for .NET MAUI AIPrompt are displayed in your application.
 
 ## Next Steps
