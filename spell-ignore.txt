@@ -72,4 +72,3 @@ MVVM
 BindingContext
 ImageEditorToolbar
 SlideViewIndicator
-ItemTemplate
