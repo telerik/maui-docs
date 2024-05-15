@@ -53,7 +53,7 @@ This is the result:
 
 ![.NET MAUI CollectionView Horizontal Orientation](../images/collectionview-horizontal-orientation.gif "Telerik .NET MAUI CollectionView")
 
-> For a runnable demo with the CollectionView `CollectionViewLinearLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Layouts** category.
+> For a runnable demo with the CollectionView `CollectionViewLinearLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Layouts** category.
 
 ## See Also
 
