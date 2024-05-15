@@ -20,9 +20,7 @@ The following list shows the commands that are exposed by the AIPrompt control:
 
 In addition, the AIPrompt exposes `PromptRequest` event which is 
 
-* `PromptRequest`&mdash;Occurs when the end-user makes a request by pressing the input button or a command.
- 
-- `PromptRequest` event is raised when the end-user makes a request by pressing the input button or a command. The `PromptRequest` event handler receives two parameters:
+* `PromptRequest`&mdash;Occurs when the end-user makes a request by pressing the input button or a command. The `PromptRequest` event handler receives two parameters:
 	- The `sender` which is the `RadAIPrompt` control.
 	- `System.EventArgs`object.
 
