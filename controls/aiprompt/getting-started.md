@@ -32,11 +32,11 @@ Before adding the AIPrompt, you need to:
  <snippet id='aiprompt-getting-started-xaml' />
 
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace:
 
- ```XAML
- xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
  **3.** Add the `ViewModel` class:
 
