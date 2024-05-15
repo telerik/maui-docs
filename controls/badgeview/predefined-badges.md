@@ -14,7 +14,7 @@ The `BadgeView` supports a set of Badge indicator types.
 
 ![Badge Types](images/badgeview-badge-types.png)
 
-To change and specify the Badge type, use the `BadgeType`(of type `Telerik.Maui.Controls.Compatibility.Primitives.BadgeType`) property, which exposes the following options:
+To change and specify the Badge type, use the `BadgeType`(of type `Telerik.Maui.Controls.BadgeView.BadgeType`) property, which exposes the following options:
 
 * (Default) `Default`
 * `Available`

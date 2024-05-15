@@ -11,20 +11,30 @@ slug: datagrid-filtering-overview
 
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports filtering operations either through the UI - using the Filtering UI or programmatically.
 
-![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
-
 ## Filtering UI
 
-> Filtering UI appears when clicking on the filtering icon on each column's header'.
+> The Filtering UI appears when clicking the filtering icon in each column's header.
 
-## FilterControl Template
+![Telerik .NET MAUI DataGrid Filtering UI](../filtering/images/datagrid-filteringui-platforms.png)
 
-The Telerik DataGrid allows you to apply filtering to the DataGrid column using the `FilterControlTemplate` property.
+## Filter Control Template
 
-* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class.
+The Telerik DataGrid allows you to apply custom filter control to the DataGrid column using the `FilterControlTemplate` property.
+
+* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.DataGrid.DataGridFilterControlBase` class.
+
+>tip Go to the [Filter Control Template]({%slug datagrid-filter-control-template%}) topic for detailed information about how to create a custom filter control.
 
 ## Programmatic Filtering
 
 Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
 
+>tip Go to the [Programmatic Filtering]({%slug datagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
+
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+
+## See Also
+
+- [Filtering UI]({%slug datagrid-filtering-ui%})
+- [Filter Control Template]({%slug datagrid-filter-control-template%})
+- [Programmatic Filtering]({%slug datagrid-programmatic-filtering%})

@@ -20,7 +20,7 @@ To modify the selection modes of the DataGrid, use some of its most common prope
 
 ### SelectionUnit
 
-The `SelectionUnit` property of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridSelectionUnit` allows you to control which `Unit` can be selected:
+The `SelectionUnit` property of type `Telerik.Maui.Controls.DataGrid.DataGridSelectionUnit` allows you to control which `Unit` can be selected:
 
 * (Default) `Row`&mdash;The unit that will be selected is a DataGrid row.
 * `Cell`&mdash;The unit that will be selected is a cell within a DataGrid row.
@@ -35,12 +35,12 @@ The example below shows how to set `SelectionUnit` in XAML and code-behind:
 ```
 ```C#
 var dataGrid = new RadDataGrid();
-dataGrid.SelectionUnit = Telerik.Maui.Controls.Compatibility.DataGrid.DataGridSelectionUnit.Cell;
+dataGrid.SelectionUnit = Telerik.Maui.Controls.DataGrid.DataGridSelectionUnit.Cell;
 ```
 
 ### SelectionMode
 
-The `SelectionMode` property of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridSelectionMode` provides the following modes:
+The `SelectionMode` property of type `Telerik.Maui.Controls.DataGrid.DataGridSelectionMode` provides the following modes:
 
 * (Default) `Single`&mdash;Allows you to select a single unit.
 * `Multiple`&mdash;Allows you to select multiple units.
@@ -54,7 +54,7 @@ The example below shows how to set `SelectionMode` in XAML and code-behind:
 ```
 ```C#
 var dataGrid = new RadDataGrid();
-dataGrid.SelectionMode = Telerik.Maui.Controls.Compatibility.DataGrid.DataGridSelectionMode.Multiple;
+dataGrid.SelectionMode = Telerik.Maui.Controls.DataGrid.DataGridSelectionMode.Multiple;
 ```
 
 ### SelectedItems

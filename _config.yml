@@ -27,6 +27,12 @@ navigation:
     controls:
         title: "Controls"
         position: 4
+    upgrade:
+        title: "Upgrade"
+        position: 10
+    upgrade/breaking-changes:
+        title: "Breaking Changes"
+        position: 2
     "knowledge-base":
         title: "Knowledge Base"
         position: 14
@@ -47,6 +53,18 @@ navigation:
     controls/accordion:
         title: "Accordion"
     ## End Accordion
+    ## AIPrompt
+    controls/aiprompt:
+        title: "AIPrompt"
+    ## AIPrompt Sub-Folders
+    controls/aiprompt/views:
+        title: "Views"
+        position: 3
+    controls/aiprompt/styling:
+        title: "Styling"
+        position: 10
+        ## End AIPrompt Sub-Folders
+    ## End AIPrompt
     ## AutoComplete
     controls/autocomplete:
         title: "AutoComplete"
@@ -144,6 +162,19 @@ navigation:
     controls/checkbox:
         title: "CheckBox"
     ## End CheckBox
+    ##CollectionView
+    controls/collectionview:
+        title: "CollectionView"
+    controls/collectionview/grouping:
+        title: "Grouping"
+        position: 8
+    controls/collectionview/layouts:
+        title: "Layouts"
+        position: 12
+    controls/collectionview/styling:
+        title: "Styling"
+        position: 20
+    ## End CollectionView
     ## ComboBox
     controls/combobox:
         title: "ComboBox"
@@ -421,6 +452,10 @@ navigation:
     controls/tabview:
         title: "TabView"
     ## End TabView
+    ## TemplatedButton
+    controls/templatedbutton:
+        title: "TemplatedButton"
+    ## End TemplatedButton
     ## TemplatedPicker
     controls/templatedpicker:
         title: "TemplatedPicker"
@@ -442,6 +477,10 @@ navigation:
         title: "Styling"
         position: 20
     ## End TimeSpanPicker
+    ## ToggleButton
+    controls/togglebutton:
+        title: "ToggleButton"
+    ## End ToggleButton
     ## Toolbar
     controls/toolbar:
         title: "Toolbar"
@@ -555,6 +594,7 @@ intro_columns:
   -
     title: "Data Controls"
     items:
+      "CollectionView": "collectionview-overview"
       "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
       "ListView": "listview-overview"
@@ -618,6 +658,8 @@ intro_columns:
         "Segmented Control": "segmentedcontrol-overview"
         "Button": "button-overview"
         "CheckBox": "checkbox-overview"
+        "TemplatedButton": "templatedbutton-overview"
+        "ToggleButton": "togglebutton-overview"
 -
   categories:
   -

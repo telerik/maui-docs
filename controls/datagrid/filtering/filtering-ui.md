@@ -8,28 +8,35 @@ slug: datagrid-filtering-ui
 
 # Filtering UI
 
-The [.NET MAUI DataGrid]({%slug datagrid-overview%}) supports filtering through the UI.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides you with a built-in filtering functionality, which allows the user to filter the data by one or more columns by clicking on the filtering icon next to the header text.
 
 ![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
 
-> Filtering UI appears when clicking on the filtering icon on each column's header'.
+> The Filtering UI appears when clicking the filtering icon in each column's header.
 
+You can control whether the Filtering UI is available to the end users for the whole DataGrid with the `UserFilterMode` property:
 
-The Filtering UI exposes the following properties:
+* `UserFilterMode`(`DataGridUserFilterMode`)&mdash;Defines whether the filtering icon is present in the header of the currently available filterable columns. The available options are `Auto`, `Enabled`, and `Disabled`. The default value of the `UserFilterMode` is `Auto`.
 
-* `UserFilterMode`&mdash;Defines whether the Filtering UI is enabled/disabled. The available options are `Auto`, `Enabled`, and `Disabled`. The default value of the `UserFilterMode` is `Auto`. Set the property on DataGrid control.
+The DataGrid columns expose the following properties related to the Filtering UI: 
 
-* `CanUserFilter`(`bool`) property is used to enable/disable the filtering of a specific column. Set the property to a specific column.
+* `CanUserFilter`(`bool`)&mdash;Indicates whether the user can filter this column by using the built-in Filtering UI. By default, the value is `True`.
 
-* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the Filtering UI. By default the value is true.
+* `ShowDistinctValuesFilter`(`bool`)&mdash;Defines whether the distinct values are included in the Filtering UI. By default, the value is `True`.
 
 * `FilterContentTemplate`(`DataTemplate`)&mdash;Defines the content template of the DataGrid Columns Filter and overriding the default template.
 
 Events related to `DistinctValuesFilter`:
 
-* `DistinctValuesLoading` event&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
+* `DistinctValuesLoading` event&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.
 	* A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
 		- `DistinctValues`&mdash;Is a property which specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
 		- `Column`&mdash;Is a readonly property of type `DataGridColumn` which gets the column for which the distinct values are being loaded.
+
+## See Also
+
+- [Columns Overview]({%slug datagrid-columns-overview%})
+- [Filter Control Template]({%slug datagrid-filter-control-template%})
+- [Programmatic Filtering]({%slug datagrid-programmatic-filtering%})
 

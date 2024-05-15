@@ -20,8 +20,8 @@ The **DataGrid Grouping UI** exposes the `DataGridServicePanel` view which conta
 
 To manipulate the state of the **Grouping UI**, you can use the following properties:
 
-* `UserGroupMode`(`enum` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserGroupMode`) - The `UserGroupMode` property of the `RadDataGrid` determines whether the Grouping UI is enabled or disabled. The default value is `Auto`.
-* `CanUserGroup`(`bool` of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridColumn`) - The `CanUserGroup` property of the `DataGridColumn` determines whether the end-user can drag & drop the column header onto the grouping panel. The default value is `True`.
+* `UserGroupMode`(`enum` of type `Telerik.Maui.Controls.DataGrid.DataGridUserGroupMode`) - The `UserGroupMode` property of the `RadDataGrid` determines whether the Grouping UI is enabled or disabled. The default value is `Auto`.
+* `CanUserGroup`(`bool` of type `Telerik.Maui.Controls.DataGrid.DataGridColumn`) - The `CanUserGroup` property of the `DataGridColumn` determines whether the end-user can drag & drop the column header onto the grouping panel. The default value is `True`.
 
 ## Disabling Grouping
 

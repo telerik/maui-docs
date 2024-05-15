@@ -15,7 +15,7 @@ Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-co
 
 ## Editing Properties
 
-To enable editing in the DataGrid, define the `UserEditMode` property of the component. `UserEditMode` is of type `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridUserEditMode` and accepts the following values:
+To enable editing in the DataGrid, define the `UserEditMode` property of the component. `UserEditMode` is of type `Telerik.Maui.Controls.DataGrid.DataGridUserEditMode` and accepts the following values:
 
 * `None`&mdash;(default on Mobile) Editing is disabled.
 * `Cell`&mdash;(default on Desktop) Enables the editing option.
