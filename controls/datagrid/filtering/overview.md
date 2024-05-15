@@ -21,7 +21,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports fil
 
 The Telerik DataGrid allows you to apply custom filter control to the DataGrid column using the `FilterControlTemplate` property.
 
-* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class.
+* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.DataGrid.DataGridFilterControlBase` class.
 
 >tip Go to the [Filter Control Template]({%slug datagrid-filter-control-template%}) topic for detailed information about how to create a custom filter control.
 

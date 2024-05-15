@@ -12,7 +12,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a b
 
 In addition, as the [template column]({%slug datagrid-columns-template-column%}) does not provide a default Filtering UI, with the `FilterControlTemplate` property you can allow users to filter data in template columns as well.
 
-* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase` class. 
+* `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.DataGrid.DataGridFilterControlBase` class. 
 
 The DataGrid provides the following predefined filter controls which are applied depending on the column type:
 
@@ -64,7 +64,7 @@ In addition, you can hide the toggle buttons for matching the case with the foll
 
 Check a quick example on how to create a custom `FilterControlTemplate` below.
 
-**1.** Add the following snippet to declare a sample CityFilterControl - it should inherit from `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridFilterControlBase`:
+**1.** Add the following snippet to declare a sample CityFilterControl - it should inherit from `Telerik.Maui.Controls.DataGrid.DataGridFilterControlBase`:
 
 <snippet id='datagrid-filter-template-filtercontrolbase' />
 
