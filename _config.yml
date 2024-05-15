@@ -665,6 +665,7 @@ intro_columns:
   -
     title: "Interactivity & UX"
     items:
+        "AIPrompt": "aiprompt-overview"
         "BadgeView": "badgeview-overview"
         "Border": "border-overview"
         "BusyIndicator": "busyindicator-overview"
