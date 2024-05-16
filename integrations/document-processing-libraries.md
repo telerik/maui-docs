@@ -1,7 +1,7 @@
 ---
 title: Telerik Document Processing Libraries 
 page_title: Document Processing Libraries - Integration with Telerik Products
-description: "Get started with Telerik UI for {{ site.framework }} and learn how to work with the PdfProcessing, SpreadStreamProcessing, WordsProcessing, and ZipLibrary libraries as part of the Telerik Document Processing Libraries."
+description: "Get started with Telerik UI for .NET MAUI and learn how to work with the PdfProcessing, SpreadStreamProcessing, WordsProcessing, and ZipLibrary libraries as part of the Telerik Document Processing Libraries."
 slug: document-processing-libraries-overview
 tags: document, processing, pdf, word, spread, stream, zip, doc, cross-platform
 position: 1
@@ -18,17 +18,16 @@ position: 1
 | <a href="https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview" target="_blank">RadPdfProcessing</a> | A processing library that allows you to create, import, and export PDF documents from your code. You can use it in any web or desktop .NET application without relying on third-party software like Adobe Acrobat. |
 | <a href="https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview" target="_blank">RadSpreadProcessing</a> | A powerful library that enables you to create applications with native support for spreadsheet documents. With `RadSpreadProcessing`, you can create spreadsheets from scratch, modify existing documents or convert between the most common spreadsheet formats. You can save the generated workbook to a local file, stream, or stream it to the client browser. |
 | <a href="https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview" target="_blank">RadSpreadStreamProcessing</a> | Spread streaming is a document processing paradigm that allows you to create or read big spreadsheet documents with great performance and minimal memory footprint. The key for the memory efficiency is that the spread streaming library writes the spreadsheet content directly to a stream without creating and preserving the spreadsheet document model in memory. |
-| <a href="https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview" target="_blank">RadWordsProcessing</a> | A processing library that allows you to create, modify and export documents to a variety of formats. Through the API, you can access each element in the document and modify, remove it or add a new one. The generated content you can save as a stream, as a file, or sent it to the client browser. |
-| <a href="https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview" target="_blank">RadZipLibrary</a> | It allows you to compress and combine files in ZIP archives, browse and extract files from existing ZIP archives and compress streams for easy file shipping and reduced storage space. |
+| <a href="https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview" target="_blank">RadWordsProcessing</a> | A processing library that allows you to create, modify and export documents to a variety of formats. Through the API, you can access each element in the document and modify, remove it or add a new one. The generated content you can save as a stream, as a file, or send it to the client browser. |
+| <a href="https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview" target="_blank">RadZipLibrary</a> | It allows you to compress and combine files in ZIP archives, browse and extract files from existing ZIP archives, and compress streams for easy file shipping and reduced storage space. |
 
 ## Available Versions
 
-Telerik Document Processing Libraries are available in **.NET Framework** and **.NET Standard (.NET Core)** compatible versions. Both versions are <a href="https://docs.telerik.com/devtools/document-processing/getting-started/installation/nuget-packages" target="_blank">available as NuGet packages</a>. Read more in the <a href="https://docs.telerik.com/devtools/document-processing/getting-started/getting-started" target="_blank">[Getting Started with Telerik Document Processing Libraries</a> article.
+The Telerik Document Processing Libraries are available in **.NET Framework** and **.NET Standard (.NET Core)** compatible versions. Both versions are <a href="https://docs.telerik.com/devtools/document-processing/getting-started/installation/nuget-packages" target="_blank">available as NuGet packages</a>. Read more in the <a href="https://docs.telerik.com/devtools/document-processing/getting-started/getting-started" target="_blank">Getting Started with Telerik Document Processing Libraries</a> article.
 
 ## Configuration Wizard
 
-Telerik Document Processing Libraries' <a href="https://docs.telerik.com/devtools/document-processing/integration/integration-with-visual-studio" target="_blank">Configuration Wizard</a> comes with the Visual Studio Extensions of several Telerik bundles. 
-
+The Telerik Document Processing Libraries' <a href="https://docs.telerik.com/devtools/document-processing/integration/integration-with-visual-studio" target="_blank">Configuration Wizard</a> comes with the Visual Studio extensions of several Telerik bundles. 
 
 ## See Also
 - <a href="https://docs.telerik.com/devtools/document-processing/getting-started/getting-started#getting-started-with-telerik-document-processing" target="_blank">Getting Started with Telerik Document Processing Libraries</a>
