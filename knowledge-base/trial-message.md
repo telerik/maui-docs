@@ -1,7 +1,7 @@
 ---
 title: See Trial Message When Having a Commercial License
 page_title: Trial Message When Having a Commercial License - .NET MAUI Knowledge Base
-description: I See the Trial Message even I have installed the commercial license.
+description: I still see the trial message even though I have purchased and installed the commercial license.
 type: troubleshooting
 slug: trial-message-commercial-license
 res_type: kb
