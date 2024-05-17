@@ -23,7 +23,7 @@ If you have a commercial license, but you still see the trial message:
 
 1. Ensure that the licensed package is referenced in the project (`Telerik.UI.for.Maui` instead of `Telerik.UI.for.Maui.Trial`).
 
-1. Uninstall any Trial installations from the machine.
+1. Uninstall any installed trial versions from the machine.
 
 1. If you have created local NuGet feeds, ensure they do not contain Trial versions of our packages.
 
