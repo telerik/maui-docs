@@ -50,4 +50,4 @@ If you have purchased a license and you need to migrate from the trial package t
 
 ## See Also
 
-- [I Still See Trial Message But Having a Commercial License]({%slug trial-message-commercial-license%})
+- [I Still See the Trial Message after Purchasing a License]({%slug trial-message-commercial-license%})
