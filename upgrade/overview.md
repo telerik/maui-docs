@@ -34,7 +34,7 @@ You can use a [manual installation approach]({%slug installation-approaches%}#ma
 
 ## Upgrade from Trial to Commercial
 
-If you have purchased a license and you need to migrate from the trial package to the licensed version:
+If you have purchased a license and you need to migrate from the trial package to the licensed commercial version of the product:
 
 1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug telerik-nuget-server%}) or [MacOS]({%slug telerik-nuget-server-mac%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug install-pkg%}) or [ZIP archive]({%slug download-product-files%}).
 
