@@ -8,9 +8,9 @@ slug: collectionview-group-style-selector
 
 # .NET MAUI CollectionView Group Style Selector
 
-The .NET MAUI CollectionView component exposes a conditional styling feature that allows you to apply different styles to each group header and footer depending on a specific condition.
+The .NET MAUI CollectionView component exposes a conditional styling feature that allows you to apply different styles to each group header depending on a specific condition.
 
-Apply conditional styling to the group header and group footer by setting the following properties:
+Apply conditional styling to the group header by setting the following properties:
 
 * `GroupViewStyleSelector` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group container when grouping is applied.
 
