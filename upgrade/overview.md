@@ -30,11 +30,27 @@ To upgrade the Telerik UI for .NET MAUI components used in your project:
 
 You can use a [manual installation approach]({%slug installation-approaches%}#manually-using-assembly-references) for referencing the required Telerik UI for .NET MAUI assemblies into your solution. In this case, to upgrade the components to a newer version, you need to replace the assemblies with the assemblies from the latest released version of Telerik .NET MAUI.
 
-> If you have installed the trial version of Telerik UI for .NET MAUI and want to install the commercial version, you have to remove the trial version first.
-
 ## Upgrade from Trial to Commercial
 
-If you have purchased a license and you need to migrate from the trial package to the licensed commercial version of the product:
+If you have purchased a license and you need to migrate from the trial package to the licensed commercial version do the following steps:
+
+***Using Assemblies**
+
+1. Make sure you have removed the trial version first.
+
+1. Install the commercial version.
+
+1. Replace the references in the project.
+
+1. Clean the solution.
+
+1. Delete the `bin` and `obj` folders where packages and assemblies may be cached.
+
+1. Re-build your project.
+
+1. Run the application.
+
+**Usign the Telerik NuGet Feed**
 
 1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug telerik-nuget-server%}) or [MacOS]({%slug telerik-nuget-server-mac%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug install-pkg%}) or [ZIP archive]({%slug download-product-files%}).
 
