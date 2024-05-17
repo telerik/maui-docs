@@ -15,7 +15,7 @@ res_type: kb
 
 ## Description
 
-While using a trial license, a trial message is rendered over the components and there is an alter with the following message:
+While using a trial license, a trial message is rendered over the components and you see a popup window:
 
 ![Telerik .NET MAUI Trial Message](images/trial-message.png)
 
