@@ -1,6 +1,6 @@
 ---
 title: Removing the Trial Message after Purchasing a License
-page_title: Trial Message When Having a Commercial License - .NET MAUI Knowledge Base
+page_title: Removing the Trial Message after Purchasing a License
 description: I still see the trial message even though I have purchased and installed the commercial license.
 type: troubleshooting
 slug: trial-message-commercial-license
