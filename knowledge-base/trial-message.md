@@ -19,7 +19,7 @@ While using a trial license, a trial message is rendered over the components and
 
 ![Telerik .NET MAUI Trial Message](images/trial-message.png)
 
-If you have a commercial license, but you still see the trial message, try the following steps:
+If you have a commercial license, but you still see the trial message:
 
 1. Ensure that the licensed package is referenced in the project (`Telerik.UI.for.Maui` instead of `Telerik.UI.for.Maui.Trial`).
 
