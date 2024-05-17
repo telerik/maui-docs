@@ -16,7 +16,6 @@ This article helps you plan an upgrade to a new version of Telerik UI for .NET M
 Before upgrading the Telerik UI for .NET MAUI version of your project, get acquainted with the release history of the UI components and the breaking changes that may have been introduced:
 
 * <a href="https://www.telerik.com/support/whats-new/maui-ui/release-history" target="_blank">UI for .NET MAUI release history</a>&mdash;Reviewing the release notes for all releases you're planning to go through reveals all changes, fixes, new features, and components that have been implemented.
-* [UI for .NET MAUI breaking changes]({%slug versions-with-breaking-changes%})&mdash;Reviewing the breaking changes helps you prepare for any additional steps that you may need to perform. The Breaking Changes article lists the releases that introduce a breaking change and helps you evaluate if your project will be affected by such a change.
 
 ## Upgrade Using the Telerik NuGet Server
 
