@@ -21,6 +21,8 @@ The control supports the following styling properties:
 * `BorderColor`&mdash;Defines the border color of the picker.
 * `BorderThickness`&mdash;Specifies the border thickness of the picker. The default value is `new Thickness(0,0,0,1)`.
 * `CornerRadius`&mdash;Specifies the corner radius of the picker.
+* `ToggleButtonStyle`(of type `Style` with target type `RadButton`)&mdash;Specifies the style of the [Toggle button]({%slug listpicker-picker-mode%}#toggle-button).
+* `ClearButtonStyle`(of type `Style` with target type `RadButton`)&mdash;Defines the style applied to the Clear button.
 
 ## Namespaces
 

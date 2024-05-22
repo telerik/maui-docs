@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'telerikcontrolsicons';
+  src:  url('/devtools/maui/fonts/telerikcontrolsicons.eot?2mqqq7');
+  src:  url('/devtools/maui/fonts/telerikcontrolsicons.eot?2mqqq7#iefix') format('embedded-opentype'),
+    url('/devtools/maui/fonts/telerikcontrolsicons.ttf?2mqqq7') format('truetype'),
+    url('/devtools/maui/fonts/telerikcontrolsicons.woff?2mqqq7') format('woff'),
+    url('/devtools/maui/font/telerikcontrolsicons.woff2?72528676') format('woff2'),
+    url('/devtools/maui/fonts/telerikcontrolsicons.svg?2mqqq7#telerikcontrolsicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'telerikcontrolsicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rad-accordion:before {
+    content: '\e800';
+}
+.icon-rad-autocomplete:before {
+    content: '\e801';
+}
+.icon-rad-badgeview:before {
+    content: '\e802';
+}
+.icon-rad-barcode:before {
+    content: '\e803';
+}
+.icon-rad-border:before {
+    content: '\e804';
+}
+.icon-rad-busyindicator:before {
+    content: '\e805';
+}
+.icon-rad-button:before {
+    content: '\e806';
+}
+.icon-rad-calendar:before {
+    content: '\e807';
+}
+.icon-rad-chartbar:before {
+    content: '\e808';
+}
+.icon-rad-chartfinancial:before {
+    content: '\e809';
+}
+.icon-rad-chartfinancialindicator:before {
+    content: '\e80a';
+}
+.icon-rad-chartline:before {
+    content: '\e80b';
+}
+.icon-rad-chartnullvalues:before {
+    content: '\e80c';
+}
+.icon-rad-chartpie:before {
+    content: '\e80d';
+}
+.icon-rad-chartscatter:before {
+    content: '\e80e';
+}
+.icon-rad-chat:before {
+    content: '\e80f';
+}
+.icon-rad-checkbox:before {
+    content: '\e810';
+}
+.icon-rad-combobox:before {
+    content: '\e811';
+}
+.icon-rad-dataform:before {
+    content: '\e812';
+}
+.icon-rad-datagrid:before {
+    content: '\e813';
+}
+.icon-rad-datepicker:before {
+    content: '\e814';
+}
+.icon-rad-datetimepicker:before {
+    content: '\e815';
+}
+.icon-rad-docklayout:before {
+    content: '\e816';
+}
+.icon-rad-entry:before {
+    content: '\e817';
+}
+.icon-rad-expander:before {
+    content: '\e818';
+}
+.icon-rad-gauge:before {
+    content: '\e819';
+}
+.icon-rad-imageeditor:before {
+    content: '\e81a';
+}
+.icon-rad-itemscontrol:before {
+    content: '\e81b';
+}
+.icon-rad-listpicker:before {
+    content: '\e81c';
+}
+.icon-rad-listview:before {
+    content: '\e81d';
+}
+.icon-rad-map:before {
+    content: '\e81e';
+}
+.icon-rad-maskedentry:before {
+    content: '\e81f';
+}
+.icon-rad-navigationview:before {
+    content: '\e820';
+}
+.icon-rad-numericinput:before {
+    content: '\e821';
+}
+.icon-rad-path:before {
+    content: '\e822';
+}
+.icon-rad-pdfprocessing:before {
+    content: '\e823';
+}
+.icon-rad-pdfviewer:before {
+    content: '\e824';
+}
+.icon-rad-popup:before {
+    content: '\e825';
+}
+.icon-rad-progressbar:before {
+    content: '\e826';
+}
+.icon-rad-rangeslider:before {
+    content: '\e827';
+}
+.icon-rad-rating:before {
+    content: '\e828';
+}
+.icon-rad-richtexteditor:before {
+    content: '\e829';
+}
+.icon-rad-scheduler:before {
+    content: '\e82a';
+}
+.icon-rad-segmentedcontrol:before {
+    content: '\e82b';
+}
+.icon-rad-sidedrawer:before {
+    content: '\e82c';
+}
+.icon-rad-signaturepad:before {
+    content: '\e82d';
+}
+.icon-rad-slideview:before {
+    content: '\e82e';
+}
+.icon-rad-spreadstreamprocessing:before {
+    content: '\e82f';
+}
+.icon-rad-tabview:before {
+    content: '\e830';
+}
+.icon-rad-templatedpicker:before {
+    content: '\e831';
+}
+.icon-rad-timepicker:before {
+    content: '\e832';
+}
+.icon-rad-timespanpicker:before {
+    content: '\e833';
+}
+.icon-rad-toolbar:before {
+    content: '\e834';
+}
+.icon-rad-treeview:before {
+    content: '\e835';
+}
+.icon-rad-wordsprocessing:before {
+    content: '\e836';
+}
+.icon-rad-wraplayout:before {
+    content: '\e837';
+}
+.icon-rad-ziplibrary:before {
+    content: '\e838';
+}
+.icon-telerikexample-hamburgermenu:before {
+    content: '\e839';
+}
+.icon-telerikexample-home:before {
+    content: '\e83a';
+}
+.icon-telerikexample-search:before {
+    content: '\e83b';
+}
+.icon-telerikexample-configuration:before {
+    content: '\e83c';
+}
+.icon-telerikexample-customization:before {
+    content: '\e83d';
+}
+.icon-rad-slider:before {
+    content: '\e83e';
+}
+.icon-rad-collectionview:before {
+    content: '\e83f';
+}
+.icon-rad-chartarea:before {
+    content: '\e840';
+}
+.icon-rad-aiprompt:before {
+    content: '\e841';
+}
