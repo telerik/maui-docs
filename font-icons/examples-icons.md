@@ -2,7 +2,7 @@
 title: List with Examples Icons
 page_title: .NET MAUI Font Icons - Overview
 description: Telerik font icons are collections of small vector graphics used across the components in the Telerik UI for .NET MAUI suite.
-slug: telerik-font-icons
+slug: telerik-examples-icons
 position: 1
 ---
 
@@ -76,18 +76,8 @@ You can choose any of the available Telerik Font icons:
 
 ## Examples
 
-```XAML
 
-```
-```C#
-
-```
-
-
-Here is the result:
-
-![.NET MAUI font Icons](images/telerik-font-icons-grid.png)
 
 ## See Also
 
-- [Controls Icons]({%slug %})
+- [Controls Icons]({%slug telerik-controls-icons%})
