@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'telerikfontexamples';
-  src:  url('/devtools/maui/fonts/telerikfontexamples.eot?2mqqq7');
-  src:  url('/devtools/maui/fonts/telerikfontexamples.eot?2mqqq7#iefix') format('embedded-opentype'),
-    url('/devtools/maui/fonts/telerikfontexamples.ttf?2mqqq7') format('truetype'),
-    url('/devtools/maui/fonts/telerikfontexamples.woff?2mqqq7') format('woff'),
-    url('/devtools/maui/font/telerikfontexamples.woff2?15538151') format('woff2'),
-    url('/devtools/maui/fonts/telerikfontexamples.svg?2mqqq7#telerikfontexamples') format('svg');
+  src:  url('/devtools/maui/font-icons/telerikfontexamples.eot?2mqqq7');
+  src:  url('/devtools/maui/font-icons/telerikfontexamples.eot?2mqqq7#iefix') format('embedded-opentype'),
+    url('/devtools/maui/font-icons/telerikfontexamples.ttf?2mqqq7') format('truetype'),
+    url('/devtools/maui/font-icons/telerikfontexamples.woff?2mqqq7') format('woff'),
+    url('/devtools/maui/font-icons/telerikfontexamples.woff2?15538151') format('woff2'),
+    url('/devtools/maui/font-icons/telerikfontexamples.svg?2mqqq7#telerikfontexamples') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

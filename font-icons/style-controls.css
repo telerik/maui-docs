@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'telerikcontrolsicons';
-  src:  url('/devtools/maui/fonts/telerikcontrolsicons.eot?2mqqq7');
-  src:  url('/devtools/maui/fonts/telerikcontrolsicons.eot?2mqqq7#iefix') format('embedded-opentype'),
-    url('/devtools/maui/fonts/telerikcontrolsicons.ttf?2mqqq7') format('truetype'),
-    url('/devtools/maui/fonts/telerikcontrolsicons.woff?2mqqq7') format('woff'),
-    url('/devtools/maui/font/telerikcontrolsicons.woff2?72528676') format('woff2'),
-    url('/devtools/maui/fonts/telerikcontrolsicons.svg?2mqqq7#telerikcontrolsicons') format('svg');
+  src:  url('/devtools/maui/font-icons/telerikcontrolsicons.eot?2mqqq7');
+  src:  url('/devtools/maui/font-icons/telerikcontrolsicons.eot?2mqqq7#iefix') format('embedded-opentype'),
+    url('/devtools/maui/font-icons/telerikcontrolsicons.ttf?2mqqq7') format('truetype'),
+    url('/devtools/maui/font-icons/telerikcontrolsicons.woff?2mqqq7') format('woff'),
+    url('/devtools/maui/font-icons/telerikcontrolsicons.woff2?72528676') format('woff2'),
+    url('/devtools/maui/font-icons/telerikcontrolsicons.svg?2mqqq7#telerikcontrolsicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

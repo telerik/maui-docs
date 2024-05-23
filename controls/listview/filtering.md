@@ -22,19 +22,11 @@ The `DelegateFilterDescriptor` property supports a `Filter`, which defines the f
 
 **2.** Add a `DelegateFilterDescriptor` to the `FilerDescriptors` collection of the ListView instance:
 
- ```C#
-this.listView.FilterDescriptors.Add(new Telerik.Maui.Controls.Compatibility.DataControls.ListView.ListViewDelegateFilterDescriptor { Filter = this.AgeFilter });
- ```
+<snippet id='listview-add-filter'/>
 
 **3.** Here is the `AgeFilter` method containing the filtering logic:
 
-```C#
-private bool AgeFilter(object arg)
-{
-    var age = ((Person)arg).Age;
-    return age >= 25 && age <= 35;
-}
-```
+<snippet id='listview-age-filter'/>
 
 **4.** Define the `ViewModel` class:
 
@@ -56,56 +48,15 @@ To control the `FilterDescriptor` collection through MVVM:
 
 **1.** Create a property of type `ObservableCollection<FilterDescriptorBase>` in your `ViewModel`, which will contain the needed filters.
 
- ```C#
-public ObservableCollection<FilterDescriptorBase> FilterDescriptors
-{
-	get { return this.filterDescriptors; }
-	set { this.UpdateValue(ref this.filterDescriptors, value); }
-}
- ```
+<snippet id='listview-features-filtering-bindable-viewmodel'/>
 
-**2.** Use the `OneWayToSource` binding mode to bind that property to the `FilterDescriptors` property of ListView. For demonstration purposes this ListView uses the same `ViewModel` as in the previous example:
+**2.** Define the data object:
 
-```XAML
-<telerikDataControls:RadListView x:Name="listView"
-								 Grid.Row="1"
-								 ItemsSource="{Binding Items}"
-								 FilterDescriptors="{Binding FilterDescriptors, Mode=OneWayToSource}" >
-	<telerikDataControls:RadListView.ItemTemplate>
-		<DataTemplate>
-			<telerikListView:ListViewTemplateCell>
-				<telerikListView:ListViewTemplateCell.View>
-					<HorizontalStackLayout>
-						<Label Text="Name:"/>
-						<Label Text="{Binding Name}"/>
-						<Label Text=", Age:"/>
-						<Label Text="{Binding Age}"/>
-					</HorizontalStackLayout>
-				</telerikListView:ListViewTemplateCell.View>
-			</telerikListView:ListViewTemplateCell>
-		</DataTemplate>
-	</telerikDataControls:RadListView.ItemTemplate>
-</telerikDataControls:RadListView>
-```
+<snippet id='listview-features-filtering-data-class'/>
 
-**3.** According to your preferences, add sort descriptors to the `FilerDescriptors` collection in the `ViewModel`:
+**3.** Define the ListView in XAML:
 
-```C#
-private void UpdateExistingFilterDescriptor()
-{
-	if (this.FilterDescriptors == null)
-		return;
-
-	if (this.FilterDescriptors.Count == 0)
-	{
-		this.FilterDescriptors.Add(new DelegateFilterDescriptor()
-		{
-			Filter = new Func<object, bool>((item) => ((Person)item).Name.Equals("A"))
-		});
-	}
-}
-```
-
+<snippet id='listview-features-filtering-bindable-xaml'/>
 
 The following image shows how this looks like:
 
