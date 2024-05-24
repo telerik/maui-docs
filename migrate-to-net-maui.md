@@ -12,7 +12,7 @@ position: 5
 
 This guide provides the information you need to convert your application, which was built with [Telerik UI for Xamarin controls](https://www.telerik.com/maui-ui#Controls), to a .NET MAUI one, which uses the Telerik UI for .NET MAUI components. By migrating to .NET MAUI, you will be able to receive the latest features and mobile operating system support for your project.
 
->important We do not provide a direct alternative of Xamarin.iOS/Xamarin.Android in .NET - we'd recommend migrating to Telerik UI for .NET MAUI  - .NET MAUI will receive all the latest updates and our .NET MAUI controls are going to support the recent releases of the framework.
+>important Telerik UI for .NET MAUI does not provide a direct alternative to Xamarin.iOS or Xamarin.Android in .NET. However, migrating to .NET MAUI and switching to the Telerik UI for .NET MAUI controls ensures that you will receive the latest framework and UI control updates, including the latest features and mobile operating system support. 
 
 ## Step 1: Xamarin.Forms to .NET MAUI Migration Steps
 
