@@ -36,6 +36,6 @@ While you are building the Telerik MAUI Demo app or the .NET MAUI application, y
 
 To achieve the desired scenario, apply either of the following approaches:
 
-* From **Preferenes**, add your Apple developer account to both **XCode** and **Visual Studio for Mac**. Build the application.
+* From **Preferences**, add your Apple developer account to both **XCode** and **Visual Studio for Mac**. Build the application.
 
 * Create an empty or blank iOS application in XCode and deploy it to a simulator.
