@@ -8,20 +8,20 @@ position: 0
 
 # Telerik UI for .NET MAUI Font Icons
 
-Telerik font icons represents collection of small vector graphics used across the components from Telerik UI for .NET MAUI suite. Examples of using font icons include the expand and collapse indicators of Accordion, Expander and TreeView controls, filter and sort indicators of DataGrid control, and other.
+Telerik font icons represent a collection of small vector graphics used across the components from the Telerik UI for .NET MAUI suite. Examples of using font icons include the expand and collapse indicators of the Accordion, Expander, and TreeView controls, filter and sort indicators of the DataGrid control, and others.
 
-This article will give an overview on how you can utilize the Telerik font icons in your .NET MAUI app. 
+This article provides an overview of how you can utilize the Telerik font icons in your .NET MAUI app. 
 
-## Include the Required Telerik Font File
+## Include the Font Icons File
 
-1. The Telerik Font Icons are located in the `telerikcontrolsicons.ttf` and `telerikfontexamples.ttf` files. There are two options you could use to get the `.ttf` file.
+1. The Telerik font icons are located in the `telerikcontrolsicons.ttf` and `telerikfontexamples.ttf` files. There are two options you could use to get the `.ttf` file.
 
 	* Download the `.ttf` files from <a href="https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Resources/Fonts" target="_blank">Telerik UI for .NET MAUI Samples App GitHub repo</a>.
-	* Get the font file from the installation folder of Telerik UI for MAUI - here is the path to the exact location: `Telerik UI for .NET MAUI [version]\Examples\ControlsSamples\Resources\Fonts`
+	* Get the font file from the installation folder of Telerik UI for MAUI. This is the path to the exact location: `Telerik UI for .NET MAUI [version]\Examples\ControlsSamples\Resources\Fonts`
 
 2. Add the font to your project by placing it in the `Resources/Fonts` folder.
 
-3. Register the Telerik Font `.ttf` file into your .NET MAUI application inside the `MauiProgram.cs` file:
+3. Register the Telerik font `.ttf` file into your .NET MAUI application inside the `MauiProgram.cs` file:
 
 ```C#
 .ConfigureFonts(fonts =>
@@ -41,5 +41,5 @@ This article will give an overview on how you can utilize the Telerik font icons
 
 ## See Also
 
-[Telerik Examples Icons]({%slug telerik-examples-icons%})
-[Telerik Controls Icons]({%slug telerik-controls-icons%})
+- [Telerik Examples Icons]({%slug telerik-examples-icons%})
+- [Telerik Controls Icons]({%slug telerik-controls-icons%})

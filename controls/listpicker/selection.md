@@ -2,7 +2,6 @@
 title: Selection
 page_title: .NET MAUI ListPicker Documentation - Selection
 description: Learn more about the selection functionality that the Telerik UI for .NET MAUI ListPicker control provides.
-
 position: 5
 slug: listpicker-selection
 previous_url: /controls/listpicker/listpicker-selection

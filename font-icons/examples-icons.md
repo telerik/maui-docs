@@ -1,16 +1,16 @@
 ---
 title: Examples Icons
-page_title: .NET MAUI Font Icons - Overview
-description: Telerik font icons are collections of small vector graphics used across the components in the Telerik UI for .NET MAUI suite.
+page_title: .NET MAUI Font Icons - Examples Icons
+description: Review the examples icons like filtering, sorting, gallery, avatar and more used in the Telerik UI for .NET MAUI components and examples.
 slug: telerik-examples-icons
 position: 1
 ---
 
 <link rel="stylesheet" href="style-examples.css" />
 
-# Telerik UI for .NET MAUI Font Icons
+# Telerik UI for .NET MAUI Examples Icons
 
-You can choose any of the available Telerik Font icons: 
+You can choose any of the available Telerik font icons: 
 
 | Icon | XAML | Code | Icon | XAML | Code | Icon | XAML | Code | 
 |--------------------|----------------|------------|---------------------|-------------------|----------------|----|---|---|
@@ -39,16 +39,16 @@ You can choose any of the available Telerik Font icons:
 | <span class="icon-font-size"></span> font-size | __\&#xe84b;__ | __\ue84b__ | <span class="icon-template"></span> template | __\&#xe84c;__ | __\ue84c__ | <span class="icon-wireframes"></span> wireframes | __\&#xe84d;__ | __\ue84d__ |
 | <span class="icon-distance-vertical"></span> distance | __\&#xe84e;__ | __\ue84e__ | <span class="icon-stopwatch"></span> stopwatch | __\&#xe84f;__ | __\ue84f__ | <span class="icon-play"></span> play | __\&#xe850;__ | __\ue850__ |
 | <span class="icon-code"></span> code | __\&#xe854;__ | __\ue854__ | <span class="icon-analysis"></span> analysis | __\&#xe855;__ | __\ue855__ | <span class="icon-network"></span> network | __\&#xe856;__ | __\ue856__ |
-| <span class="icon-network-computers"></span> network | __\&#xe857;__ __\ue857__ | <span class="icon-bar-chart"></span> bar-chart | __\&#xe858;__ | __\ue858__ | <span class="icon-sap"></span> sap | __\&#xe859;__ | __\ue859__ |
+| <span class="icon-network-computers"></span> network | __\&#xe857;__ | __\ue857__ | <span class="icon-bar-chart"></span> bar-chart | __\&#xe858;__ | __\ue858__ | <span class="icon-sap"></span> sap | __\&#xe859;__ | __\ue859__ |
 | <span class="icon-dba"></span> dba | __\&#xe85a;__ | __\ue85a__ | <span class="icon-home"></span> home | __\&#xe85b;__ | __\ue85b__ | <span class="icon-temperature"></span> temperature | __\&#xe85c;__ | __\ue85c__ |
-| <span class="icon-phone-cell"></span> phone | __\&#xe85d;__ | __\ue85d__ | <span class="icon-electricity"></span> electricity | __\&#xe85e;__ | __\ue85e__ | <span class="icon-wifi"></span> wifi | __\&#xe85f;__ __\ue85f__ |
+| <span class="icon-phone-cell"></span> phone | __\&#xe85d;__ | __\ue85d__ | <span class="icon-electricity"></span> electricity | __\&#xe85e;__ | __\ue85e__ | <span class="icon-wifi"></span> wifi | __\&#xe85f;__ | __\ue85f__ |
 | <span class="icon-distance-horizontal"></span> distance-horizontal | __\&#xe860;__ | __\ue860__ | <span class="icon-calendar_dayview"></span> calendar dayview | __\&#xe861;__ | __\ue861__ | <span class="icon-calendar_multiday"></span> calendar multiday | __\&#xe862;__ | __\ue862__ |
 | <span class="icon-calendar_week"></span> calendar week | __\&#xe863;__ | __\ue863__ | <span class="icon-calendar_month"></span> calendar month | __\&#xe864;__ | __\ue864__ | <span class="icon-calendar_year2"></span> calendar year | __\&#xe865;__ | __\ue865__ |
 | <span class="icon-calendar_selection_single"></span> calendar selection single | __\&#xe866;__ | __\ue866__ | <span class="icon-calendar_selection_multiple"></span> calendar selection multiple | __\&#xe867;__ | __\ue867__ | <span class="icon-calendar_selection_range"></span> calendar selection range | __\&#xe868;__ | __\ue868__ |
 | <span class="icon-gallery"></span> gallery | __\&#xe869;__ | __\ue869__ | <span class="icon-camera"></span> camera | __\&#xe86a;__ | __\ue86a__ | <span class="icon-crop_free"></span> crop free | __\&#xe86b;__ | __\ue86b__ |
 | <span class="icon-crop_original"></span> crop original | __\&#xe86c;__ | __\ue86c__ | <span class="icon-crop_rect"></span> crop rect | __\&#xe86d;__ | __\ue86d__ | <span class="icon-crop_circular"></span> crop circular | __\&#xe86e;__ | __\ue86e__ |
 | <span class="icon-badge"></span> badge | __\&#xe86f;__ | __\ue86f__ | <span class="icon-notes"></span> notes | __\&#xe870;__ | __\ue870__ | <span class="icon-time"></span> time | __\&#xe871;__ | __\ue871__ |
-| <span class="icon-calendar_agenda"></span> calendar agenda | __\&#xe872;__ __\ue872__ | <span class="icon-arrows"></span> arrows | __\&#xe873;__ | __\ue873__ | <span class="icon-video-camera"></span> video-camera | __\&#xe87;__ | __\ue874__ |
+| <span class="icon-calendar_agenda"></span> calendar agenda | __\&#xe872;__ | __\ue872__ | <span class="icon-arrows"></span> arrows | __\&#xe873;__ | __\ue873__ | <span class="icon-video-camera"></span> video-camera | __\&#xe87;__ | __\ue874__ |
 | <span class="icon-time-2"></span> check | __\&#xe878;__ | __\ue878__ | <span class="icon-phone"></span> cancel | __\&#xe887;__ | __\ue887__ | <span class="icon-text"></span> text | __\&#xe853;__ | __\ue853__ |
 | <span class="icon-arrow-down"></span> arrow-down | __\&#xe879;__ | __\ue879__ | <span class="icon-flag"></span> flag | __\&#xe87a;__ | __\ue87a__ | <span class="icon-save"></span> save | __\&#xe87b;__ | __\ue87b__ |
 | <span class="icon-share"></span> share | __\&#xe87c;__ | __\ue87c__ | <span class="icon-menu-custom"></span> menu-custom | __\&#xe87d;__ | __\ue87d__ | <span class="icon-heart-filled"></span> heart-filled | __\&#xe87e;__ | __\ue87e__ |
@@ -62,7 +62,7 @@ You can choose any of the available Telerik Font icons:
 | <span class="icon-drawer"></span> drawer | __\&#xe8a2;__ | __\ue8a2__ | <span class="icon-social"></span> social | __\&#xe8a3;__ | __\ue8a3__ | <span class="icon-shipping"></span> shipping | __\&#xe8a6;__ | __\ue8a6__ |
 | <span class="icon-products"></span> products | __\&#xe8a7;__ | __\ue8a7__ | <span class="icon-customer"></span> customer | __\&#xe8a8;__ | __\ue8a8__ | <span class="icon-export"></span> export | __\&#xe8a9;__ | __\ue8a9__ |
 | <span class="icon-info-outlines"></span> info-outlines | __\&#xe8ac;__ | __\ue8ac__ | <span class="icon-contract"></span> contract | __\&#xe8dd;__ | __\ue8dd__ | <span class="icon-enlarge"></span> enlarge | __\&#xe8de;__ | __\ue8de__ |
-| <span class="icon-translate"></span> translate | __\&#xe8df;__ | __\ue8df__ | <span class="icon-emoji"></span> emoji | __\&#xe900;__ | __\ue900__ | <span class="icon-brightness"></span> brightness | __\&#xe901;__ __\ue901__ |
+| <span class="icon-translate"></span> translate | __\&#xe8df;__ | __\ue8df__ | <span class="icon-emoji"></span> emoji | __\&#xe900;__ | __\ue900__ | <span class="icon-brightness"></span> brightness | __\&#xe901;__ | __\ue901__ |
 | <span class="icon-flip-vertical"></span> flip-vertical | __\&#xe902;__ | __\ue902__ | <span class="icon-flip-horizontal"></span> flip-horizontal | __\&#xe903;__ | __\ue903__ | <span class="icon-rotate-cw"></span> rotate-cw | __\&#xe904;__ | __\ue904__ |
 | <span class="icon-rotate-ccw"></span> rotate-ccw | __\&#xe905;__ | __\ue905__ | <span class="icon-crop"></span> crop | __\&#xe906;__ | __\ue906__ | <span class="icon-hue"></span> hue | __\&#xe907;__ | __\ue907__ |
 | <span class="icon-link-external"></span> link-external | __\&#xf08e;__ | __\uf08e__ | <span class="icon-plus-squared"></span> plus-squared | __\&#xf0fe;__ | __\uf0fe__ | <span class="icon-angle-left"></span> angle-left | __\&#xf104;__ | __\uf104__ |
@@ -88,8 +88,9 @@ var label = new Label
 };
 ```
 
->tip The `FontFamily` name is the name of the font registered in the `MauiProgram.cs` file
+>tip The `FontFamily` name is the name of the font registered in the `MauiProgram.cs` file.
 
 ## See Also
 
 - [Controls Icons]({%slug telerik-controls-icons%})
+- [Icons Overview]({%slug telerik-font-icons%})

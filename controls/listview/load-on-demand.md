@@ -52,7 +52,7 @@ The example below demonstrates how to use the `LoadOnDemandCollection`:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
- > For a runnable example with the ListView load on demand collection scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
+ > For a runnable example with the ListView load-on-demand collection scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 
 ### Using LoadOnDemand Event
@@ -76,7 +76,7 @@ The example below demonstrates how to use the LoadOnDemand event:
 
 <snippet id='listview-loadondemand-loadondemandeventauto-event'/>
 
- > For a runnable example with the ListView load on demand event scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
+ > For a runnable example with the ListView load-on-demand event scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 
 ### Using LoadOnDemand Command
@@ -102,7 +102,7 @@ The example below demonstrates how to use the `LoadOnDemand` command:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
- > For a runnable example with the ListView load on demand command scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
+ > For a runnable example with the ListView load-on-demand command scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 ## Advanced Options
 
@@ -118,7 +118,7 @@ This feature works in conjunction with the [LoadOnDemandMode.Manual mode of the 
 
 <snippet id='listview-loadondemand-loadondemandcustomizations-lodbutton' />
 
- > For a runnable example with the ListView load on demand manual button customization scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
+ > For a runnable example with the ListView load-on-demand manual button customization scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 ### Change the Appearance of the Manual Loading Indicator
 
@@ -128,7 +128,7 @@ You can control the content of the Loading Indicator through the `LoadingOnDeman
 
 <snippet id='listview-loadondemand-loadondemandcustomizations-loadingindicator'/>
 
- > For a runnable example with the ListView load on demand manual loading indicator, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
+ > For a runnable example with the ListView load-on-demand manual loading indicator, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 ## See Also
 
