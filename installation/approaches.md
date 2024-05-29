@@ -90,13 +90,13 @@ To manually reference the assembly references, create a `libs` folder in your so
       <HintPath>"The dlls location"\iOS\Telerik.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+      <HintPath>"The dlls location"\iOS\Telerik.Maui.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls.Compatibility">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+      <HintPath>"The dlls location"\iOS\Telerik.Maui.Controls.Compatibility.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Core">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+      <HintPath>"The dlls location"\iOS\Telerik.Maui.Core.dll</HintPath>
     </Reference>
 </ItemGroup>
 
@@ -106,13 +106,13 @@ To manually reference the assembly references, create a `libs` folder in your so
       <HintPath>"The dlls location"\MacCatalyst\Telerik.MacCatalyst.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+      <HintPath>"The dlls location"\MacCatalyst\Telerik.Maui.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls.Compatibility">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+      <HintPath>"The dlls location"\MacCatalyst\Telerik.Maui.Controls.Compatibility.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Core">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+      <HintPath>"The dlls location"\MacCatalyst\Telerik.Maui.Core.dll</HintPath>
     </Reference>
 </ItemGroup>
 
@@ -137,13 +137,13 @@ To manually reference the assembly references, create a `libs` folder in your so
       <HintPath>"The dlls location"\Android\Telerik.Android.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.dll</HintPath>
+      <HintPath>"The dlls location"\Android\Telerik.Maui.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Controls.Compatibility">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Controls.Compatibility.dll</HintPath>
+      <HintPath>"The dlls location"\Android\Telerik.Maui.Controls.Compatibility.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Maui.Core">
-      <HintPath>"The dlls location"\WinUI\Telerik.Maui.Core.dll</HintPath>
+      <HintPath>"The dlls location"\Android\Telerik.Maui.Core.dll</HintPath>
     </Reference>
 </ItemGroup>
 ```

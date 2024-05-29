@@ -27,6 +27,9 @@ navigation:
     controls:
         title: "Controls"
         position: 4
+    font-icons:
+        title: "Font Icons"
+        position: 9
     upgrade:
         title: "Upgrade"
         position: 10
