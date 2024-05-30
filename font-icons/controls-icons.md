@@ -35,7 +35,7 @@ You can choose any of the available Telerik font icons:
 | <span class="icon-rad-wraplayout"></span> WrapLayout | __\&#xe837;__ | __\ue837__ | <span class="icon-rad-ziplibrary"></span> ZipLibrary | __\&#xe838;__ | __\ue838__ | <span class="icon-telerikexample-hamburgermenu"></span> Hamburger Menu | __\&#xe839;__ | __\ue839__ |
 | <span class="icon-telerikexample-home"></span> Home | __\&#xe83a;__ | __\ue83a__ | <span class="icon-telerikexample-search"></span> Search | __\&#xe83b;__ | __\ue83b__ | <span class="icon-telerikexample-configuration"></span> Configuration | __\&#xe83c;__ | __\ue83c__ |
 | <span class="icon-telerikexample-customization"></span> Customization | __\&#xe83d;__ | __\ue83d__ | <span class="icon-rad-collectionview"></span> CollectionView | __\&#xe83f;__ | __\ue83f__ | <span class="icon-rad-chartarea"></span> Area Chart | __\&#xe840;__ | __\ue840__ |
-| <span class="icon-rad-slider"></span> link | __\&#xe83e;__ | __\ue83e__ | <span class="icon-rad-aiprompt"></span> AI Prompt | __\&#xe841;__ | __\ue841__ | <span class="icon-rad-listview"></span> ListView | __\&#xe81d;__ | __\ue81d__ |
+| <span class="icon-rad-slider"></span> Slider | __\&#xe83e;__ | __\ue83e__ | <span class="icon-rad-aiprompt"></span> AI Prompt | __\&#xe841;__ | __\ue841__ | <span class="icon-rad-listview"></span> ListView | __\&#xe81d;__ | __\ue81d__ |
 
 
 >important You need to set the Telerik controls font icon code on the concrete property to visualize the icon. 
