@@ -120,3 +120,28 @@ private void UpdateChart()
 #endif
 }
 ```
+
+**5.** Define the `PieLabelTemplate` inside the `Platforms/Windows/App.xaml` file:
+
+```XAML
+<maui:MauiWinUIApplication
+    x:Class="ShellApp.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:ShellApp.WinUI">
+    <maui:MauiWinUIApplication.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="PieLabelTemplate">
+                <Grid Background="Red">
+                    <TextBlock Text="{Binding DataItem.Value}"
+                               Foreground="White"
+                               FontWeight="Bold"
+                               FontSize="10"
+                               Margin="5" />
+                </Grid>
+            </DataTemplate>
+        </ResourceDictionary>
+    </maui:MauiWinUIApplication.Resources>
+</maui:MauiWinUIApplication>
+```
