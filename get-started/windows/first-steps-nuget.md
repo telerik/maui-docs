@@ -58,7 +58,6 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/nuget-vs-telerik-server.png)
 
-In addition to feed URL `https://nuget.telerik.com/v3/index.json`, there is also an obsolete NuGet v2 server at `https://nuget.telerik.com/nuget`, which is no longer recommended.
 
 > The NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024.
 > The new v3 protocol offers faster package searches and restores, improved security, and more reliable infrastructure.
