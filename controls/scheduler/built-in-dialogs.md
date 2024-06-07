@@ -12,42 +12,42 @@ The Telerik .NET MAUI Scheduler exposes built-in dialogs for the creation and mo
 
 Check below the available dialogs for managing appointments.
 
-#### Preview Appointment Dialog
+## Create and Edit Appointment
 
-(Android- and iOS-only) When the end user taps an existing appointment, the Preview Appointment Dialog lets them preview the appointment details, or edit or delete the appointment. 
+The dialog which allows the end user create a new appointment or edit an existing one is the `EditAppointmentDialog`.
 
-![Telerik .NET MAUI Scheduler PreviewAppointmentDialog](images/scheduler-dialogs-preview.png)
-
-#### Edit Appointment Dialog
-
-Lets the end user create a new appointment or edit an existing one. 
-
-* On desktop, the Edit Appointment dialog appears when the end user double-clicks an empty slot or an appointment. 
-* On mobile, the behavior of the Edit Appointment dialog depends on the selected calendar slot. If the end user taps an empty slot, the Edit Appointment dialog appears to let them create a new appointment. If the end user taps an existing appointment and then taps Edit in the Preview Appointment dialog, the Edit Appointment dialog appears to let them modify the appointment.
+* On desktop, the `EditAppointmentDialog` appears when the end user double-clicks an empty slot or an appointment.
+* On mobile, the behavior of the `EditAppointmentDialog` depends on the selected calendar slot. If the end user taps an empty slot, the Edit Appointment dialog appears to let them create a new appointment. If the end user taps an existing appointment and then taps Edit in the Preview Appointment dialog, the Edit Appointment dialog appears to let them modify the appointment.
 
 ![Telerik .NET MAUI Scheduler EditAppointmentDialog](images/scheduler-dialogs-editappointment.png)
 
-#### Edit Recurrence Dialog
+## Preview Appointment
 
-Lets the end user configure the recurrence settings of an appointment.
+(Android- and iOS-only) When the end user taps an existing appointment, the `PreviewAppointmentDialog` lets them preview the appointment details, or edit or delete the appointment. 
+
+![Telerik .NET MAUI Scheduler PreviewAppointmentDialog](images/scheduler-dialogs-preview.png)
+
+## Edit Recurrence
+
+The `EditRecurrenceDialog` lets the end user configure the recurrence settings of an appointment.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceDialog](images/scheduler-dialogs-editrecurrence.png)
 
-#### Edit Recurrence Choice Dialog
+## Edit Recurrence Choice
 
-When the end user interacts with a recurring appointment, lets them choose if they want to edit a single occurrence or the entire series.
+When the end user interacts with a recurring appointment, the `EditRecurrenceChoiceDialog` lets them choose if they want to edit a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler EditRecurrenceChoiceDialog](images/scheduler-dialogs-recurrencechoice.png)
 
-#### Delete Recurrence Choice Dialog
+## Delete Recurrence Choice
 
-When the end user interacts with a recurring appointment, lets them choose if they want to delete a single occurrence or the entire series.
+When the end user interacts with a recurring appointment, the `DeleteRecurrenceChoiceDialog` lets them choose if they want to delete a single occurrence or the entire series.
 
 ![Telerik .NET MAUI Scheduler DeleteRecurrenceChoiceDialog](images/scheduler-dialogs-deleterecurrencechoice.png)
 
-#### Delete Appointment Choice Dialog
+## Delete Appointment Choice
 
-(Desktop-only) When the end user attempts to delete an appointment, asks for confirmation.
+(Desktop-only) When the end user attempts to delete an appointment, the `DeleteAppointmentChoiceDialog` asks for confirmation.
 
 ![Telerik .NET MAUI Scheduler DeleteAppointmentChoiceDialog](images/scheduler-dialogs-deleteappointmentchoice.png)
 
@@ -95,7 +95,7 @@ Check a quick example on how to use the `DialogOpening` and `DialogClosing` even
 
 <snippet id='scheduler-dialogs-events' />
 
-## Customization
+## Styling
 
 You can style the visual appearance of each dialog by creating the corresponding `Style` with `TargetType` set to `SchedulerDialog`. Here is a list of the available `Style` properties:
 
@@ -105,6 +105,28 @@ You can style the visual appearance of each dialog by creating the corresponding
 * `DeleteAppointmentChoiceDialogStyle`&mdash;(Desktop-only)Defines the `Style` that will be applied on the Delete Appointment Choice dialog.
 * `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Recurrence Choice dialog.
 * `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the Preview Appointment dialog. 
+
+**Example with styling the edit appointment dialog**
+
+**1.** Define the Scheduler with the `EditAppointmentDialogStyle` in XAML:
+
+```XAML
+ <telerik:RadScheduler x:Name="scheduler"
+                       EditAppointmentDialogStyle="{StaticResource CustomSchedulerEditAppointmentDialog_Style}"/>
+```
+
+**2.** Define the style in the resources of the page:
+
+```XAML
+<Style x:Key="CustomSchedulerEditAppointmentDialog_Style" TargetType="telerik:SchedulerDialog">
+    <Setter Property="ControlTemplate" Value="{StaticResource CustomSchedulerEditAppointmentDialog_ControlTemplate}" />
+    <Setter Property="HeightRequest" Value="{OnPlatform Default=450, WinUI=530}" />
+</Style>
+```
+
+Review the `ControlTemplate` definition in the <a href="https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Examples/SchedulerControl/CustomizationExample/Resources" target="_blank">Resources folder of the Controls Samples application > Scheduler/Customization example</a>.
+
+> For a runnable example demonstrating the Scheduler built-in edit appointment dialog customization, see the [Controls Samples Application]({%slug controls-samples-app%}) and go to **Scheduler > Customization**. 
 
 ## See Also
 

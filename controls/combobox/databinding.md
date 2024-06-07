@@ -15,23 +15,29 @@ slug: combobox-databinding
 
 ## Binding to a Complex Object
 
-Here is the [.NET MAUI ComboBox]({%slug combobox-overview%}) definition in XAML:
+**1.** Define the ComboBox in XAML:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 
-In addition to this, you need to add the following namespace:
+**2.** Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-the sample business model
+**3.** Define a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**4.** Add the ViewModel:
 
 <snippet id='combobox-cities-viewmodel'/>
+
+**5.** Set the binding context after `InitializeComponent()` in page's code behind:
+
+```C#
+this.BindingContext = new ViewModel();
+```
 
 ## See Also
 

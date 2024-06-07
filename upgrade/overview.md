@@ -33,7 +33,7 @@ You can use a [manual installation approach]({%slug installation-approaches%}#ma
 
 If you have purchased a license and you need to migrate from the trial package to the licensed commercial version do the following steps:
 
-***Using Assemblies**
+**Using Assemblies**
 
 1. Make sure you have removed the trial version first.
 
