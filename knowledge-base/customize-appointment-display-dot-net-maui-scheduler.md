@@ -141,7 +141,7 @@ public class ViewModel
 }
 ```
 
-This approach allows you to customize the appearance of appointments in Telerik UI for .NET MAUI Scheduler to include a colored dot, similar to the previous Xamarin implementation.
+This approach allows you to customize the appearance of appointments in the Telerik UI for .NET MAUI Scheduler to include a colored dot, similar to the previous Xamarin implementation.
 
 ## See Also
 
