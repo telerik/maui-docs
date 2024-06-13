@@ -22,7 +22,7 @@ In migrating from Telerik UI for Xamarin to Telerik UI for .NET MAUI, I need to 
 This KB article also answers the following questions:
 - How can I use the AppointmentTemplate to customize appointments in Telerik UI for .NET MAUI Scheduler?
 - Is it possible to display a dot next to an appointment in the month view of the Scheduler?
-- How to customize the appearance of appointments in Telerik UI for .NET MAUI Scheduler?
+- How to customize the appearance of appointments in the Telerik UI for .NET MAUI Scheduler?
 
 ## Solution
 
