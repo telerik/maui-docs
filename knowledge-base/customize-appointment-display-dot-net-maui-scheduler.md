@@ -2,7 +2,7 @@
 title: Customizing Appointments in Telerik UI for .NET MAUI Scheduler
 description: Learn how to customize the appointment display in the Telerik UI for .NET MAUI Scheduler to show a dot next to the appointment text instead of a background color.
 type: how-to
-page_title: How to Customize Appointment in .NET MAUI Scheduler
+page_title: How to Customize Appointments in .NET MAUI Scheduler
 slug: customize-appointment-display-dot-net-maui-scheduler
 tags: calendar, .net maui, scheduler, appointment, template, customization
 res_type: kb
