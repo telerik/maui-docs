@@ -20,7 +20,7 @@ ticketid: 1654745
 In migrating from Telerik UI for Xamarin to Telerik UI for .NET MAUI, I need to display a small colored dot next to the appointment in the month view in the [Scheduler]({%slug scheduler-overview%}), rather than using a background color.
 
 This KB article also answers the following questions:
-- How can I use the AppointmentTemplate to customize appointments in Telerik UI for .NET MAUI Scheduler?
+- How can I use the `AppointmentTemplate` to customize appointments in Telerik UI for .NET MAUI Scheduler?
 - Is it possible to display a dot next to an appointment in the month view of the Scheduler?
 - How to customize the appearance of appointments in the Telerik UI for .NET MAUI Scheduler?
 
