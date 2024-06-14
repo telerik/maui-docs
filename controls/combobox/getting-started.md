@@ -44,7 +44,7 @@ Here is the result:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 
-> When binding to a complex objects, ComboBox `DisplayMemberPath` property needs to be set.
+> When binding to complex objects, always set the ComboBox `DisplayMemberPath` property.
 
 **2.** Add the `telerik` namespace:
 
