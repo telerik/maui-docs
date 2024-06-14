@@ -70,7 +70,7 @@ Here is the result:
 
 ![ComboBox Binding](images/combobox-getting-started-complex-data.png)
 
->important For the ComboBox Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to **ComboBox > Getting Started** category.
+>important For the ComboBox Getting Started example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Getting Started** category.
 
 ## Additional Resources
 
