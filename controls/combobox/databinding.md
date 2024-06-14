@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='combobox-cities-viewmodel'/>
 
-**5.** Set the binding context after `InitializeComponent()` in page's code behind:
+**5.** Set the binding context after `InitializeComponent()` in the page's code behind:
 
 ```C#
 this.BindingContext = new ViewModel();
