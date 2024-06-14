@@ -126,7 +126,7 @@ The following example demonstrates how to style the Edit Appointment dialog.
 </Style>
 ```
 
-Review the `ControlTemplate` definition in the <a href="https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Examples/SchedulerControl/CustomizationExample/Resources" target="_blank">Resources folder of the Controls Samples application > Scheduler/Customization example</a>.
+Review the `ControlTemplate` definition in the <a href="https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Examples/SchedulerControl/CustomizationExample/Resources" target="_blank">`Resources` folder of the Controls Samples application.
 
 > For a runnable example demonstrating the Scheduler built-in edit appointment dialog customization, see the [Controls Samples Application]({%slug controls-samples-app%}) and go to **Scheduler > Customization**. 
 
