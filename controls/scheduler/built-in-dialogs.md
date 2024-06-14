@@ -108,7 +108,7 @@ You can style the visual appearance of each dialog by creating the corresponding
 * `DeleteRecurrenceChoiceDialogStyle`&mdash;Defines the `Style` that will be applied on the Delete Recurrence Choice dialog.
 * `PreviewAppointmentDialogStyle`&mdash;(Android- and iOS-only)Defines the `Style` for the Preview Appointment dialog. 
 
-**Example with styling the edit appointment dialog**
+The following example demonstrates how to style the Edit Appointment dialog.
 
 **1.** Define the Scheduler with the `EditAppointmentDialogStyle` in XAML:
 
