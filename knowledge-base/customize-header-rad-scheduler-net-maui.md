@@ -16,7 +16,11 @@ res_type: kb
 
 ## Description
 
-I need to modify the RadScheduler header to better suit my application's UI. Specifically, I want to remove the drop-down navigation button located at the top left of the header, which opens the calendar, but retain the month text (e.g., Jun 2024). Additionally, I also want to center the month text within the header. How can I achieve these customizations, including hiding the "Available views" button located at the header's top right?
+I need to modify the RadScheduler header to better suit my application's UI. How can I achieve the following Telerik UI for .NET MAUI Scheduler customizations?
+
+* Remove the drop-down navigation button located at the top left of the header, which opens the calendar, but retain the month text (e.g., Jun 2024). 
+* Center the month text within the header.
+* Hide the "Available views" button located at the header's top right.
 
 This KB article also answers the following questions:
 - How to remove the navigation button from the RadScheduler header?
