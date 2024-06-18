@@ -1,5 +1,5 @@
 ---
-title: Integration
+title: CollectionView Integration
 page_title: .NET MAUI BusyIndicator Documentation - CollectionView Integration
 description: Learn more about the option to integrate the BusyIndicator with the CollectionView control.
 position: 2
@@ -39,4 +39,6 @@ The gif below shows the result.
 
 ## See Also
 
+- [BusyIndicator Overview]({% slug busyindicator-overview %})
 - [BusyIndicator Animations]({% slug busyindicator-animations %})
+- [CollectionView Overview]({% slug collectionview-overviewa %})
