@@ -1,15 +1,15 @@
 ---
 title: Integration
 page_title: .NET MAUI BusyIndicator Documentation - CollectionView Integration
-description: Learn more about the option to integrate BusyIndacator with CollectionView control.
+description: Learn more about the option to integrate the BusyIndicator with the CollectionView control.
 position: 2
-previous_url: /controls/busyindicator/integrate-with-listview
+previous_url: /controls/busyindicator/integrate-with-listview,/controls/busyindicator/busyindicator-integrate-with-listview
 slug: busyindicator-integration
 ---
 
 # .NET MAUI BusyIndicator Integration with CollectionView
 
-The Telerik BusyIndicator for .NET MAUI is useful when you want to display a notification to the end-users of the application while a long-running operation, such as loading data from a service, is currently in progress.
+The Telerik BusyIndicator for .NET MAUI is useful when you want to display a notification to the application's end users during a long-running operation. For example, you might need to display a busy indicator while the application is loading data from a service.
 
 The example below demonstrates a sample integration of the BusyIndicator with the CollectionView control. The CollectionView loads its data asynchronously (this is simulated for the purpose of the example) and while the load operation is taking place, the `IsBusy` state of the BusyIndicator is enabled.
 
