@@ -19,24 +19,23 @@ ticketid: 1652367
 
 ## Description
 
-In the Telerik UI for .NET MAUI, I want to update the styling of chat items, such as the text color. How can I achieve this?
-
-This KB article also answers the following questions:
+This KB article answers the following questions:
 - How can I change the text color of chat items in .NET MAUI?
 - Is there a way to apply custom styles to chat items in .NET MAUI?
 - How to use item template selectors for styling chat messages?
 
 ## Solution
 
-To customize the styling of chat items in the [Chat](https://docs.telerik.com/devtools/maui/controls/chat/overview) control for .NET MAUI, follow these approaches:
+To customize the style of the chat items in the [Chat]({%slug chat-overview%}) control for .NET MAUI, follow these approaches:
 
 ### Approach 1: Using Item Template Selector
 
-Refer to the [Item Template Selector](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector) documentation. You can change the text color by adding a style targeting the `Label` and setting its `TextColor` property. For example, use a style named `DefaultLabelStyle`. See the example code in the [Telerik MAUI samples repository](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser/Examples/ChatControl/FeaturesCategory).
+Refer to the [Item Template Selector]({%slug chat-itemtemplate-selector%}) documentation. You can change the text color by adding a style targeting the `Label` and setting its `TextColor` property. For example, use a style named `DefaultLabelStyle`. 
+See the example code in the <a href="https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser/Examples/ChatControl/FeaturesCategory" target="_blank">Telerik MAUI Controls Samples Chat Examples</a>
 
 ### Approach 2: Using Implicit Style
 
-You can achieve styling by using an implicit style targeting `TextMessageView` or its derived types like `IncomingTextMessageView`, `OutgoingTextMessageView`.
+Use an implicit style targeting `TextMessageView` or its derived types like `IncomingTextMessageView`, `OutgoingTextMessageView`.
 
 ```xml
 <Style x:Key="LabelStyle" TargetType="Label">
@@ -47,7 +46,7 @@ You can achieve styling by using an implicit style targeting `TextMessageView` o
 </Style>
 ```
 
-For further examples, refer to the [Customization example](https://github.com/telerik/maui-samples/blob/main/Samples/SdkBrowser/Examples/ChatControl/FeaturesCategory/CustomizationExample/Customization.xaml) in the Telerik MAUI samples repository.
+For further examples, refer to the <a href="https://github.com/telerik/maui-samples/blob/main/Samples/SdkBrowser/Examples/ChatControl/FeaturesCategory/CustomizationExample/Customization.xaml" target="_blank">Telerik MAUI Controls Samples Chat Customization example</a>
 
 ## Notes
 
@@ -56,6 +55,5 @@ For further examples, refer to the [Customization example](https://github.com/te
 
 ## See Also
 
-- [Chat Overview](https://docs.telerik.com/devtools/maui/controls/chat/overview)
-- [Item Template Selector Documentation](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector)
-- [Telerik UI for .NET MAUI Samples](https://github.com/telerik/maui-samples)
+- [Chat Overview]({%slug chat-overview%})
+- [Item Template Selector Documentation]({%slug chat-itemtemplate-selector%})
