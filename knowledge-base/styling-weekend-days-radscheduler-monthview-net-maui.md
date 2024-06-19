@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-When using the `RadScheduler` in a .NET MAUI application, I wanted to style the weekend days differently from the weekdays in the `MonthView`. Initially, I thought to use the `SpecialSlotStyleSelector` for the `MonthViewDefinition`. I have used this property in Telerik Xamarin Scheduler, but it turns out this property is not available in Telerik MAUI Scheduler. Is there an alternative way to accomplish this?
+When using the Telerik UI `RadScheduler` in a .NET MAUI application, I want to style the weekend days differently from the weekdays in the `MonthView`. Initially, I wanted to use the `SpecialSlotStyleSelector` for the `MonthViewDefinition` from Telerik Xamarin Scheduler, but it's not available in the Telerik UI for .NET MAUI Scheduler. How can I style my weekend days differently in the month view?
 
 This KB article also answers the following questions:
 - How can I apply custom styling to weekend days in the Scheduler `MonthView`?
