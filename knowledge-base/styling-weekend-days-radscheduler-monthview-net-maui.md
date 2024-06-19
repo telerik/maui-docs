@@ -22,6 +22,8 @@ This KB article also answers the following questions:
 - How can I apply custom styling to weekend days in the Scheduler `MonthView`?
 - Is there a way to differentiate weekend and weekday styles in .NET MAUI Scheduler?
 - What property should be used for day styling in `MonthViewDefinition` of `RadScheduler`?
+- How to preserve the special weekend day styling when migrating the `RadScheduler`` from Xamarin to MAUI?
+- How to replace the `SpecialSlotStyleSelector` property when migrating the `RadScheduler` from Xamarin to MAUI?
 
 ## Solution
 
@@ -52,3 +54,9 @@ Next, to specifically style the weekends, you can define a `WeekendLabelStyle` w
 This approach allows for a high degree of customization for day styling within the `MonthView` of `RadScheduler`.
 
 For more details and examples on how to further customize the Scheduler, refer to the [RadScheduler Day Styling]({%slug scheduler-day-styling%}) and explore the Scheduler examples in the [SDK Browser application]({%slug sdkbrowser-app%}) and [Controls Samples application]({%slug controls-samples-app%}).
+
+## See Also
+
+- [.NET MAUI Scheduler]({%slug scheduler-overview%})
+- [Migrate from Xamarin to .NET MAUI Scheduler]({%slug scheduler-migrate-from-xamarin%})
+- [.NET MAUI Scheduler Day Styling]({%slug scheduler-day-styling%})
