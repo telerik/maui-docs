@@ -25,7 +25,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To style days differently in the `MonthView` of `RadScheduler`, instead of using `SpecialSlotStyleSelector`, you should utilize the `DayStyleSelector`. This allows for custom styling of days, including differentiating weekends from weekdays.
+To style days differently in the `MonthView` of `RadScheduler` for .NET MAUI, instead of using `SpecialSlotStyleSelector`, you should utilize the `DayStyleSelector`. This allows for custom styling of days, including differentiating weekends from weekdays.
 
 First, ensure the Scheduler is set to use the `MonthView`:
 
