@@ -87,5 +87,9 @@ public partial class MainPage : ContentPage
 
 By following these steps, you can customize the RadScheduler header according to your requirements, including removing specific buttons and aligning text.
 
+## See Also
 
+- [.NET MAUI Scheduler]({%slug scheduler-overview%})
+- [.NET MAUI Scheduler Header Settings]({%slug header-settings%})
+- [.NET MAUI Scheduler Header Styling]({%slug scheduler-header-styling%})
 
