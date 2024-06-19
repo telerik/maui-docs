@@ -52,5 +52,3 @@ Next, to specifically style the weekends, you can define a `WeekendLabelStyle` w
 This approach allows for a high degree of customization for day styling within the `MonthView` of `RadScheduler`.
 
 For more details and examples on how to further customize the Scheduler, refer to the [RadScheduler Day Styling]({%slug scheduler-day-styling%}) and explore the Scheduler examples in the [SDK Browser application]({%slug sdkbrowser-app%}) and [Controls Samples application]({%slug controls-samples-app%}).
-
----
