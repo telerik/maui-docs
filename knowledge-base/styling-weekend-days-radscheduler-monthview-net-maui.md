@@ -1,5 +1,5 @@
 ---
-title: Styling Weekend Days in RadScheduler Month View for .NET MAUI
+title: Styling Weekend Days in the Scheduler Month View
 description: Learn how to style weekend days differently from weekdays in the MonthView of RadScheduler for .NET MAUI.
 type: how-to
 page_title: How to Style Weekend Days in RadScheduler Month View for .NET MAUI
