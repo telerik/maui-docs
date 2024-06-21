@@ -14,7 +14,7 @@ The visual structure of the .NET MAUI PDF Viewer represents the anatomy of the U
 
 ## Displayed Elements
 
-* **PDF VIewer Control**&mdash;The area where the PDF document is visualized.
+* **PDF Viewer Control**&mdash;The area where the PDF document is visualized.
 * **PDF Viewer Toolbar**&mdash;Represents a toolbar with [built-in toolbar items]({%slug pdfviewer-toolbar%}) which execute the commands that the PDF Viewer provides.
 
 ## See Also
