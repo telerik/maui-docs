@@ -41,4 +41,4 @@ The gif below shows the result.
 
 - [BusyIndicator Overview]({% slug busyindicator-overview %})
 - [BusyIndicator Animations]({% slug busyindicator-animations %})
-- [CollectionView Overview]({% slug collectionview-overviewa %})
+- [CollectionView Overview]({% slug collectionview-overview %})
