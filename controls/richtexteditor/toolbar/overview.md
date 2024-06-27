@@ -14,7 +14,13 @@ By default, the `RadRichTextEditorToolbar` Items are auto-populated. You can cha
 
 To attach the RichTextEditor control to the `RadRichTextEditorToolbar` control, you need to set the `RichTextEditor` (from type `RadRichTextEditor`) property. All toolbar items execute their actions against the specified rich text editor.
 
-<snippet id='richtexteditor-getting-started-xaml' />
+```XAML
+<Grid RowDefinitions="Auto, *">
+    <telerik:RadRichTextEditorToolbar RichTextEditor="{x:Reference richTextEditor}"/>
+    <telerik:RadRichTextEditor x:Name="richTextEditor"
+                               Grid.Row="1"/>
+</Grid>
+```
 
 On Mobile, the `RichTextEditorToolbar` is horizontally scrollable, so that the toolbar items can be accessed:
 
