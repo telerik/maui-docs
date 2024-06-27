@@ -2,7 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI TabView Documentation - Data Binding
 description: Learn what are the options for data binding in Telerik UI TabView for .NET MAUI control.
-position: 2
+position: 3
 slug: tabview-data-binding
 ---
 
