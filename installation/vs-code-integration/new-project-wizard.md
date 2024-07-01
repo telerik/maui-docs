@@ -73,6 +73,10 @@ See also: [How to Generate NuGet Key]({%slug nuget-keys%}#generating-nuget-keys)
 
 > Use plain text credentials, because the .NET Core NuGet tooling does not fully support encrypted credentials. 
 
+**Telerik NuGet Server Version**
+
+> The obsolete NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024. To avoid any interruptions in your development process, change the NuGet server URL to `https://nuget.telerik.com/v3/index.json`.
+
 ## Select a Project
 
 The Create New Project wizard provides two options to start you project:

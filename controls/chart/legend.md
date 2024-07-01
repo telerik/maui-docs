@@ -11,9 +11,13 @@ slug: chart-features-legend
 
 The Legend feature of the `RadChart` provide description about the series which are visualized within the control.
 
-To add the legend feature in your application, you need to initialize a new object of type `RadLegend`.
+**1.** Initialize a new object of type `RadLegend`.
 
 <snippet id='chart-features-piechart-legend-definition-xaml'/>
+
+**2.** Add the `ViewModel`:
+
+<snippet id='piechart-legend-viewmodel'/>
 
 The following image shows the `RadLegend` in combination with the Pie Chart.
 
@@ -35,7 +39,13 @@ The following list summarizes the most important properties of the `RadLegend` c
 
 The following example demonstrates how to define some of the most important Chart legend properties.
 
+**1.** Define the `RadLegend` in XAML:
+
 <snippet id='chart-features-cartesianchart-legend-definition-xaml'/>
+
+**2.** Define the `ViewModel`:
+
+<snippet id='piechart-legend-viewmodel'/>
 
 The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 

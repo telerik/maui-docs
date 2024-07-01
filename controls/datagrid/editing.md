@@ -9,7 +9,7 @@ slug: datagrid-editing
 
 # .NET MAUI DataGrid Editing
 
-The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides built-in editing capabilities, which allow users to easily modify the data presented in the Grid.
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides built-in editing capabilities, which allow users to modify the data presented in the Grid.
 
 Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-column %}), the DataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
 
@@ -17,8 +17,8 @@ Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-co
 
 To enable editing in the DataGrid, define the `UserEditMode` property of the component. `UserEditMode` is of type `Telerik.Maui.Controls.DataGrid.DataGridUserEditMode` and accepts the following values:
 
-* (Default) `None`&mdash;Editing is disabled.
-* `Cell`&mdash;Enables the editing option.
+* `None`&mdash;(default on Mobile) Editing is disabled.
+* `Cell`&mdash;(default on Desktop) Enables the editing option.
 
 You can also independently disable editing for specific columns through the `CanUserEdit` property of the `DataGridColumn` class. For more details, refer to the topic about [columns in the .NET MAUI DataGrid]({%slug datagrid-columns-overview%}).
 
@@ -50,7 +50,7 @@ The DataGrid provides the following commands related to the editing functionalit
 * `CancelEdit`&mdash;Provides an entry point just before the editing is canceled.
 * `CommitEdit`&mdash;Provides an entry point just before the editing is committed.
 
-For detailed information on how to utilize any of the listed commands, go to the topic about the [.NET MAUI DataGrid editing commands]({%slug datagrid-commands-editing%}).
+For detailed information on how to use any of the listed commands, go to the topic about the [.NET MAUI DataGrid editing commands]({%slug datagrid-commands-editing%}).
 
 ## Styling
 

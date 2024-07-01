@@ -46,7 +46,7 @@ Here is how the styling is applied when the control is focused and item is selec
 
 ![ComboBox Styling on Selected Item](images/combobox-styling-focused.png)
 
-> For the ComboBox Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Styling category.
+> For the ComboBox Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Styling** category.
 
 ## DropDown Styling
 

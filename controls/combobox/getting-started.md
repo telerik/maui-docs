@@ -44,21 +44,33 @@ Here is the result:
 
 <snippet id='combobox-getting-started-complex-object-xaml'/>
 
-> When binding to a complex objects, ComboBox **DisplayMemberPath** property needs to be set.
+> When binding to complex objects, always set the ComboBox `DisplayMemberPath` property.
 
-**2.** Define a sample business model:
+**2.** Add the `telerik` namespace:
+
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
+
+**3.** Define a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-**3.** Add the ViewModel:
+**4.** Add the ViewModel:
 
 <snippet id='combobox-cities-viewmodel'/>
+
+**5.** Set the binding context after `InitializeComponent()` in the page's code behind:
+
+```C#
+this.BindingContext = new ViewModel();
+```
 
 Here is the result:
 
 ![ComboBox Binding](images/combobox-getting-started-complex-data.png)
 
->important For the ComboBox Getting Started example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
+>important For the ComboBox Getting Started example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Getting Started** category.
 
 ## Additional Resources
 

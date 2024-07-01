@@ -55,6 +55,8 @@ Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet fe
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/getting-started-add-telerk-server.png)
 
+> The obsolete NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024. To avoid any interruptions in your development process, change the NuGet server URL to `https://nuget.telerik.com/v3/index.json`.
+
 The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
 
 ## Step 4: Install the Telerik .NET MAUI NuGet Package

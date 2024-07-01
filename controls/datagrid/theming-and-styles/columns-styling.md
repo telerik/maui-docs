@@ -21,50 +21,80 @@ The styling mechanism is represented by the following properties:
 
 ## Header Style
 
-`HeaderStyle` defines the appearance of the column header. The `DataGridColumnHeaderStyle` exposes properties for styling its header, filter indicator, indicator, **Options** button, and sorting indicator.
+`HeaderStyle` defines the appearance of the column header. The `DataGridColumnHeaderStyle` exposes properties for styling its header and data operations indicators (filter indicator and sort indicator or universal indicator).
 
 ### Header Styling
 
 To style the `RadDataGridColumnHeader` use the following properties:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
+* `HoverBackgroundColor`&mdash;(Desktop-only) Defines the background color when the mouse is over the column header. 
 * `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column header.
 * `Font Options` (`TextFontAttributes`, `TextFontFamily`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnHeader`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnHeader`.
+* `TextHorizontalOptions`(`LayoutOptions`)&mdash;Defines the horizontal options of the text part of the header. 
+* `TextVerticalOptions`(`LayoutOptions`)&mdash;Defines the vertical options of the text part of the header.
 
-<snippet id='datagrid-columnstyle-headerstyle'/>
+When you set the `TextHorizontalOptions` of the text part of the header, consider the current position of the sort indicator. Both elements are ordered in a defined way and modifying the position of any of them affects the other one.
+
+For example, to position the column header text to `Center`, you have to set the `SortDescriptor` position to `Center` as well:
+
+ ```XAML
+<telerik:DataGridColumnHeaderStyle TextHorizontalOptions="Center"
+                                   SortIndicatorHorizontalOptions="Center" />
+```
 
 >tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
 
-### SortIndicator Styling
+In addition to the column header text, the column header can contain the following indicators for sorting and filtering operations upon the DataGrid data: filter indicator, sort indicator and universal indicator. Use the `RadDataGrid`'s `DataOperationIndicationMode` property to define what indicators to appear in the columns' headers:
 
-The `SortIndicator` is shown once the `RadDataGridColumnHeader` is sorted (tapped/clicked on the `ColumnHeader` cell) and can be styled with the following properties:
+* `DataOperationIndicationMode`(`Telerik.Maui.Controls.DataGrid.DataOperationIndicationMode`)&mdash;Defines what indicators will be used in the columns' headers when sorting and filtering are applied. The valid options are:
+	* `Individual`&mdash;(default) An individual indicator with a unique appearance will be used when a data operation is applied. If sorting is applied, a sort indicator will appear. If filtering is applied, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+
+    You can check how the individual indicators look on Windows below:
+
+    ![Telerik DataGrid Filtering and Sorting indicators](../images/datagrid-styling-indicators-individual.png)
+
+    * `Universal`&mdash;A single indicator will be used when any data operation (filtering, sorting or grouping) is applied. If sorting is applied, the sort indicator won't be displayed, only the universal indicator. If filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
+
+    Check below how the indicators are displayed in `DataOperationIndicationMode`.`Universal`:
+
+    ![Telerik DataGrid Universal Indicator](../images/datagrid-styling-indicators-universal.png)
+
+### Filter Indicator Styling
+
+The `FilterIndicator` enables users to show the Filtering UI and filter the data. Style the `FilterIndicator` using the following properties:
+
+* `FilterIndicatorTextColor`&mdash;Defines the color for the filter indicator part of the `ColumnHeader`.  
+* `FilterIndicatorActiveTextColor`&mdash;Defines the color of the filter symbol when filtering is applied.
+* `FilterIndicatorText`&mdash;Defines the text for the filter indicator part of the `ColumnHeader`. For the `FilterIndicatorText` to appear, set the `FilterIndicatorFontFamily` property.
+* `FilterIndicatorMargin`&mdash;Defines the margin of the filter indicator part of the `ColumnHeader`.
+* `Font Options`(`FilterIndicatorFontAttributes`, `FilterIndicatorFontFamily`, `FilterIndicatorFontSize`)&mdash;Define the font options to the filter indicator text. 
+
+>note By default, the filter indicator is represented by a string symbol that can be changed by using the `FilterIndicatorText` and `FilterIndicatorFontFamily` properties. 
+
+### Sort Indicator Styling
+
+The `SortIndicator` appears once the `RadDataGridColumnHeader` is sorted (tapped/clicked on the `ColumnHeader` cell) and can be styled with the following properties:
 
 * `SortIndicatorColor`&mdash;Defines the color for the sort indicator part of the `ColumnHeader`.  
 * `SortIndicatorMargin`&mdash;Defines the margin of the sort indicator part of the `ColumnHeader`.
 * `SortIndicatorAscendingText`&mdash;Defines the text of the sort indicator when the sorting is ascending.
 * `SortIndicatorDescendingText`&mdash;Defines the text of the sort indicator when the sorting is descending.
+* `SortIndicatorHorizontalOptions`&mdash;Defines the horizontal options of the sort indicator.
 
->note By default, the indicator is represented by a string symbol that can be changed by using the `IndicatorText` and `IndicatorFontFamily` properties. For more details, refer to the [article on sorting the DataGrid]({%slug datagrid-sorting-overview%}).
+### Universal Indicator Styling
 
-### Indicator Styling
+Style the universal indicator using the following properties:
 
-Style the `Indicator` using the following properties:
+* `IndicatorColor`&mdash;Defines the color for the universal indicator part of the `ColumnHeader`.
+* `IndicatorText`&mdash;Defines the text for the universal indicator part of the `ColumnHeader`.  
+* `IndicatorMargin`&mdash;Defines the margin of the universal indicator part of the `ColumnHeader`.
+* `Font Options`(`IndicatorFontAttributes`, `IndicatorFontFamily`, `IndicatorFontSize`)&mdash;Define the font options to the universal indicator text. 
 
-* `IndicatorColor`&mdash;Defines the color for the indicator part of the `ColumnHeader`.
-* `IndicatorText`&mdash;Defines the text for the indicator part of the `ColumnHeader`.  
-* `IndicatorMargin`&mdash;Defines the margin of the option indicator part of the `ColumnHeader`.
-* `Font Options`(`IndicatorFontAttributes`, `IndicatorFontFamily`, `IndicatorFontSize`)&mdash;Define the font options to the option indicator text. 
+Check below a quick example of a DataGrid with a `HeaderStyle`:
 
-
-### FilterIndicator Styling
-
-Style the `FilterIndicator` using the following properties:
-
-* `FilterIndicatorTextColor`&mdash;Defines the color for the filter indicator part of the `ColumnHeader`.  
-* `FilterIndicatorText`&mdash;Defines the text for the filter indicator part of the `ColumnHeader`. For the `FilterIndicatorText` to appear the `FilterIndicatorFontFamily` should be specified.
-* `FilterIndicatorMargin`&mdash;Defines the margin of the filter indicator part of the `ColumnHeader`.
-* `Font Options`(`FilterIndicatorFontAttributes`, `FilterIndicatorFontFamily`, `FilterIndicatorFontSize`)&mdash;Define the font options to the filter indicator text. 
+<snippet id='datagrid-columnstyle-headerstyle'/>
 
 ## CellContentStyle
 
@@ -72,7 +102,7 @@ The `CellContentStyle` property defines the appearance of each cell associated w
 
 * `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font of the cell text.
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
-* `HoverTextColor`&mdash;Sets the color of the cells text when the mouse hovers over it. Appicable only on Desktop.
+* `HoverTextColor`&mdash;Sets the color of the cells text when the mouse hovers over it. Applicable only on Desktop.
 * `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
 * `SearchMatchTextColor`&mdash;Defines the color that is used for the parts of the text that are search matches.
 

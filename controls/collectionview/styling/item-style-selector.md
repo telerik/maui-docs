@@ -10,8 +10,6 @@ slug: collectionview-itemstyle-selector
 
 The .NET MAUI CollectionView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
 
-![.NET MAUI CollectionView Item Style Selector](images/collectionview-itemstyle-selector.png)
-
 The following example shows how to use the `ItemViewStyleSelector`:
 
 **1.** Define the following business object:

@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI ComboBox Documentation - Configuration
 description: Learn more about how to show the basic configuration options of the Telerik UI for .NET MAUI ComboBox control.
-position: 2
+position: 4
 slug: combobox-configuration
 ---
 

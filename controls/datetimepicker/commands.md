@@ -46,11 +46,13 @@ The DateTimePicker allows you to add a custom logic for the `Accept` and `Cancel
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DateTimePicker. For the drop-down mode, use the `DropDownSettings` property.
 
-**1.** Define the control and add the commands to the `PopupSettings`.
+The example shows how to define the commands and command parameters in the `PopupSettings`. The same is valid for the `DropDownSettings`.
+
+**1.** Define the control and add the commands to the `PopupSettings`: 
 
 ```XAML
 <VerticalStackLayout>
-    <telerik:RadDateTimePicker x:Name="dateTimePicker"> 
+    <telerik:RadDateTimePicker x:Name="dateTimePicker" PickerMode="Popup"> 
         <telerik:RadDateTimePicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
                                          AcceptCommandParameter="{Binding Date, Source={x:Reference dateTimePicker}}"
@@ -64,7 +66,7 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 </VerticalStackLayout>
 ```
 
-**2.** Set the `ViewModel`.
+**2.** Set the `ViewModel`:
 
 ```C#
 public class ViewModel

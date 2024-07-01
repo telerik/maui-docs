@@ -47,13 +47,14 @@ The TimeSpanPicker allows you to add a custom logic for the `Accept` and `Cancel
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the TimeSpanPicker. For the drop-down mode, use the `DropDownSettings` property.
 
-The following example shows how to set the `AcceptCommand` and `CancelCommand`.
+The following example shows how to set the `AcceptCommand` and `CancelCommand` in the `PopupSettings`. The same is valid for the `DropDownSettings`.
+
 
 **1.** Define the TimeSpanPicker:
 
 ```XAML
-<StackLayout>
-    <telerik:RadTimeSpanPicker>
+<VerticalStackLayout>
+    <telerik:RadTimeSpanPicker PickerMode="Popup">
         <telerik:RadTimeSpanPicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
                                          CancelCommand="{Binding Cancel}"/>
@@ -62,7 +63,7 @@ The following example shows how to set the `AcceptCommand` and `CancelCommand`.
                 <local:ViewModel/>
             </telerik:RadTimeSpanPicker.BindingContext>
     </telerik:RadTimeSpanPicker>
-</StackLayout>
+</VerticalStackLayout>
 ```
 
 **2.** Set the `ViewModel`:

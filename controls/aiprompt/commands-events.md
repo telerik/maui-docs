@@ -18,7 +18,11 @@ The following list shows the commands that are exposed by the AIPrompt control:
 * `OutputItemRatingChangedCommand`(`ICommand`)&mdash;Executed when the rating of the generated response is changed through the UI.
 * `CommandTappedCommand`(`ICommand`)&mdash;Executed when an AIPrompt command is pressed. 
 
-In addition, the AIPrompt exposes ``
+In addition, the AIPrompt exposes `PromptRequest` event:
+
+* `PromptRequest`&mdash;Occurs when the end-user makes a request by pressing the input button inside the Input View. The `PromptRequest` event handler receives two parameters:
+	- The `sender` which is the `RadAIPrompt` control.
+	- `System.EventArgs`object.
 
 ## See Also
 

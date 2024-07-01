@@ -24,11 +24,52 @@ The TreeView provides three selection modes, which allow you to manipulate the s
 
 The TreeView provides the `SelectedItem` (`object`) property, which specifies the last selected item of the TreeView.
 
+The following example demonstrates how to use the `SelectedItem` property:
+
+**1.** Define the `RadTreeView` control: 
+
+<snippet id='treeview-selected-item'/>
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Add the `City` and `Country` model: 
+
+<snippet id='treeview-country-model'/>
+<snippet id='treeview-city-model'/>
+
+**4.** Add the ViewModel: 
+
+<snippet id='treeview-location-viewmodel'/>
+
 > For a runnable example demonstrating the TreeView `SelectedItem`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Selection**.
 
 ## Selected Items Collection
 
 The TreeView provides the `SelectedItems` collection of type `IList`. The collection contains the items that are currently selected in the control.
+
+The following example demonstrates how to use the `SelectedItems` collection:
+
+**1.** Define the `RadTreeView` control: 
+
+<snippet id='treeview-multiple-selection'/>
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Add the data model: 
+
+<snippet id='treeview-events-data'/>
+
+**4.** Add the ViewModel: 
+
+<snippet id='treeview-events-viewmodel'/>
 
 > For a runnable example demonstrating the TreeView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Selection**.
 

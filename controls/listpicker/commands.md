@@ -31,16 +31,20 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 
 ## Example
 
-**1.** Define the ListPicker.
+The example shows how to define the commands in the `PopupSettings`. The same is valid for the `DropDownSettings`.
+
+
+**1.** Define the ListPicker:
 
 ```XAML
 <StackLayout>
     <Button Text="Toggle Command" Command="{Binding Source={x:Reference listPicker}, Path=ToggleCommand}"/>
     <Button Text="Clear Command" Command="{Binding Source={x:Reference listPicker}, Path=ClearCommand}"/>
     <telerik:RadListPicker Placeholder="Pick a name!"
-                                x:Name="listPicker"
-                                ItemsSource="{Binding Items}"
-                                DisplayMemberPath="FullName">
+                           x:Name="listPicker" 
+                           PickerMode="Popup"
+                           ItemsSource="{Binding Items}"
+                           DisplayMemberPath="FullName">
         <telerik:RadListPicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
                                          CancelCommand="{Binding Cancel}" />

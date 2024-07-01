@@ -61,7 +61,7 @@ The example below shows how to customize the Send button in your Chat control.
                   InputAreaBackgroundColor="{StaticResource ChatBackgroundColor}"
                   SendMessageButtonImage="{StaticResource SendIconSource}"/>
 ```
-You cane see the result from the code snippets in the image below:
+You can see the result from the code snippets in the image below:
 
 ![.NET MAUI Chat Styling](images/chat-styling.png)
 

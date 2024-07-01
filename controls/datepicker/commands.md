@@ -47,11 +47,13 @@ The DatePicker allows you to add a custom logic for the `Accept` and `Cancel` co
 
 You can apply the `Accept` and `Cancel` commands for the popup mode by setting the `PopupSettings` property of the DatePicker. For the drop-down mode, use the `DropDownSettings` property.
 
-**1.** Define the control and add the commands.
+The example shows how to define the commands and command parameters in the `PopupSettings`. The same is valid for the `DropDownSettings`.
+
+**1.** Define the control and add the commands:
 
 ```XAML
 <VerticalStackLayout>
-    <telerik:RadDatePicker x:Name="datePicker"> 
+    <telerik:RadDatePicker x:Name="datePicker" PickerMode="Popup"> 
         <telerik:RadDatePicker.PopupSettings>
             <telerik:PickerPopupSettings AcceptCommand="{Binding Accept}"
                                          AcceptCommandParameter="{Binding Date, Source={x:Reference datePicker}}"
@@ -65,7 +67,7 @@ You can apply the `Accept` and `Cancel` commands for the popup mode by setting t
 </VerticalStackLayout>
 ```
 
-**2.** Set the `ViewModel`.
+**2.** Set the `ViewModel`:
 
 ```C#
 public class ViewModel
