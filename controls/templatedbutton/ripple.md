@@ -3,21 +3,23 @@ title: Ripple
 page_title: .NET MAUI TemplatedButton Documentation - Ripple Effect
 description: Learn how to apply a ripple effect to the Telerik TemplatedButton for .NET MAUI.
 position: 10
-published: False
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui, ripple
 slug: templatedbutton-ripple
 ---
 
-# .NET MAUI TemplatedButton Ripple Effect
+# (Android-only) .NET MAUI TemplatedButton Ripple Effect
 
-By using the exposed attached properties you can apply a ripple effect to the TemplatedButton.
+Apply a ripple effect to the TemplatedButton, by using the following attached properties of the `RadEffects` class:
 
-The `Ripple` class has the following properties:
+* `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
+* `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are
+	* `None`&mdash;The element will not render ripple effects.
+	* `Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
+	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
 
-* `Color` (`Color`)&mdash;Specifies the color of the ripple effect.
-* `Mode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are `None`, `Pulse`, `Hold`.
+> The ripple effect is available on Android.
 
-### Using the Ripple
+### Using the Ripple Effect
 
 The following example demonstrates how to apply ripple effect to the TemplatedButton.
 
@@ -31,7 +33,7 @@ The following example demonstrates how to apply ripple effect to the TemplatedBu
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-> For a runnable example demonstrating the TemplatedButton Ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Features** category.
+> For a runnable example demonstrating the TemplatedButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Features** category.
 
 ## See Also
 
