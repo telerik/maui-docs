@@ -13,7 +13,7 @@ ticketid: 1656066
 
 | Product | Version |
 | --- | --- |
-| Telerik UI for .NET MAUI | Current |
+| Telerik UI for .NET MAUI NavigationView | 7.0.0 |
 
 ## Description
 
