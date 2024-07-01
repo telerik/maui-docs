@@ -26,7 +26,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To customize the selection indicator color in the NavigationViewItemView, override its ControlTemplate and modify the `BackgroundColor` of the last `RadBorder` element inside the `NavigationViewItemView_ControlTemplate_WinUI` ControlTemplate. Apply an implicit style in your application to achieve this customization.
+To customize the selection indicator color in the `NavigationViewItemView`, override its `ControlTemplate` and modify the `BackgroundColor` of the last `RadBorder` element inside the `NavigationViewItemView_ControlTemplate_WinUI`. Apply an implicit style in your application to achieve this customization.
 
 Below is an example of how to define the implicit style:
 
