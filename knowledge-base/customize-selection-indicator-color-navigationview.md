@@ -3,7 +3,7 @@ title: Customizing Selection Indicator Color in NavigationView for .NET MAUI on 
 description: Learn how to change the selection indicator color of NavigationViewItemView in .NET MAUI NavigationView on Windows.
 type: how-to
 page_title: How to Customize the Selection Indicator Color in .NET MAUI NavigationView on Windows.
-slug: customize-selection-indicator-color-navigationview-.net-maui
+slug: customize-selection-indicator-color-navigationview-net-maui
 tags: navigationview, .net maui, selection indicator, color, customization
 res_type: kb
 ticketid: 1656066
