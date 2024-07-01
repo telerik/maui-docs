@@ -104,9 +104,9 @@ The available validations DataForm provides are listed in the table:
 | `DataFormEditorRegexValidationRule` | Executes a custom regular expression to validate the current string value. |
 | `DataFormEditorRequiredValidationRule` | Validates that the current value is not null or an empty string. |
 
-> When using this approach and in addition, the validation is added to the properties defined in the `ViewModel` using Data Annotation, the validation set in the `ViewModel` is with high priority (you won't be able to remove, modify the validation in the `EditorGenerated` event).
+> When using runtime validation approach and you have defined a validation to the `ViewModel` (by setting the data annotations)&mdash;the validation defined in the `ViewModel` will be applied instead of the runtime validation. The [Data Annotation Validation]({%slug dataform-data-annotations%}) is with higher priority.
 
-Here is an example:
+Here is an example for runtime validation using the `EditorGenerated` event:
 
 ```C#
 var form = new RadDataForm();
