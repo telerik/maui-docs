@@ -93,7 +93,7 @@ You can use the following properties for error message styling and customization
 
 If you want to add the validation runtime, when editors are generated, then you have to use the `EditorsGenerated` event. Inside the event you can define the validation. 
 
-The available validations DataForm provides are listed in the table:
+The following table lists the available DataForm validations:
 
 | DataForm Validation Rule | Definition |
 | ----- | ------ |
