@@ -26,7 +26,7 @@ This KB article answers the following questions:
 
 ## Solution
 
-To customize the style of the chat items in the [Chat]({%slug chat-overview%}) control for .NET MAUI, follow these approaches:
+To customize the style of the chat items in the [Chat]({%slug chat-overview%}) control for .NET MAUI, choose one of the approaches described in this KB article.
 
 ### Approach 1: Using Item Template Selector
 
@@ -35,7 +35,7 @@ See the example code in the <a href="https://github.com/telerik/maui-samples/tre
 
 ### Approach 2: Using Implicit Style
 
-Use an implicit style targeting `TextMessageView` or its derived types like `IncomingTextMessageView`, `OutgoingTextMessageView`.
+Use an implicit style targeting `TextMessageView` or its derived types like `IncomingTextMessageView` and `OutgoingTextMessageView`.
 
 ```xml
 <Style x:Key="LabelStyle" TargetType="Label">
