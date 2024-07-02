@@ -3,21 +3,23 @@ title: Ripple
 page_title: .NET MAUI ToggleButton Documentation - Ripple Effect
 description: Learn how to set a ripple effect to the Telerik ToggleButton for .NET MAUI.
 position: 10
-published: False
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-ripple
 ---
 
-# .NET MAUI ToggleButton Ripple Effect
+# (Android-only) .NET MAUI ToggleButton Ripple Effect
 
-By using attached properties you can apply a ripple effect to the ToggleButton.
+Apply a ripple effect to the ToggleButton, by using the following attached properties of the `RadEffects` class:
 
-The `Ripple` class exposes the following properties:
+* `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
+* `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
+	* `None`&mdash;The element will not render ripple effects.
+	* `Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
+	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
 
-* `Color` (`Color`)&mdash;Specifies the color of the ripple effect.
-* `Mode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are `None`, `Pulse`, `Hold`.
+> The ripple effect is available on Android.
 
-### Using the Ripple
+### Using the Ripple Effect
 
 The following example demonstrates how to apply ripple effect to the ToggleButton.
 
@@ -35,7 +37,7 @@ The following example demonstrates how to apply ripple effect to the ToggleButto
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-> For a runnable example demonstrating the ToggleButton Ripple Effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+> For a runnable example demonstrating the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
 ## See Also
 
