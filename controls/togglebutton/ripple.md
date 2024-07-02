@@ -12,7 +12,7 @@ slug: togglebutton-ripple
 Apply a ripple effect to the ToggleButton, by using the following attached properties of the `RadEffects` class:
 
 * `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
-* `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are
+* `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
 	* `None`&mdash;The element will not render ripple effects.
 	* `Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
 	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
