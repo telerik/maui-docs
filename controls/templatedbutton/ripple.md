@@ -19,6 +19,8 @@ Apply a ripple effect to the TemplatedButton, by using the following attached pr
 
 > The ripple effect is available on Android.
 
+![.NET MAUI TemplatedButton ripple effect](images/templatedbutton-default-ripple-effect.gif)
+
 ### Using the Ripple Effect
 
 The following example demonstrates how to apply ripple effect to the TemplatedButton.
@@ -32,6 +34,10 @@ The following example demonstrates how to apply ripple effect to the TemplatedBu
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+This is the result on Android:
+
+![.NET MAUI TemplatedButton ripple effect customization](images/templatedbutton-ripple-effect.gif)
 
 > For a runnable example demonstrating the TemplatedButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TemplatedButton > Features** category.
 

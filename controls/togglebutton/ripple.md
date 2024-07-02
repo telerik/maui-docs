@@ -19,6 +19,8 @@ Apply a ripple effect to the ToggleButton, by using the following attached prope
 
 > The ripple effect is available on Android.
 
+![.NET MAUI ToggleButton Ripple effect](images/togglebutton-ripple-effect-default.gif)
+
 ### Using the Ripple Effect
 
 The following example demonstrates how to apply ripple effect to the ToggleButton.
@@ -36,6 +38,10 @@ The following example demonstrates how to apply ripple effect to the ToggleButto
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+This is the result on Android:
+
+![.NET MAUI ToggleButton ripple effect customization](images/togglebutton-ripple-effect.gif)
 
 > For a runnable example demonstrating the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
