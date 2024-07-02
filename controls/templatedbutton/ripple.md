@@ -35,7 +35,7 @@ The following example demonstrates how to apply ripple effect to the TemplatedBu
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-This is the result on Android
+This is the result on Android:
 
 ![.NET MAUI TemplatedButton ripple effect customization](images/templatedbutton-ripple-effect.gif)
 
