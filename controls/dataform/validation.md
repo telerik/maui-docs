@@ -89,6 +89,70 @@ You can use the following properties for error message styling and customization
 
 ![.NET MAUI DataForm Error styling](images/dataform-error-message-styling-desktop.png)
 
+## Runtime Validation
+
+If you want to add the validation runtime, when editors are generated, then you have to use the `EditorsGenerated` event. Inside the event you can define the validation. 
+
+The following table lists the available DataForm validations:
+
+| DataForm Validation Rule | Definition |
+| ----- | ------ |
+| (DataForm level) `DataFormObjectValidationRule` | Represents a custom validation rule of the DataForm control. |
+| `DataFormEditorCustomValidationRule` | Represents a custom validation rule for the editor. The validation rule can execute a custom validation logic on the underlying business object.|
+| `DataFormEditorLengthValidationRule` | Validates that the string length of the current value is between the specified minimum and maximum length. |
+| `DataFormEditorRangeValidationRule` | Validates that the current value is between the specified minimum and maximum value. |
+| `DataFormEditorRegexValidationRule` | Executes a custom regular expression to validate the current string value. |
+| `DataFormEditorRequiredValidationRule` | Validates that the current value is not null or an empty string. |
+
+> When using both runtime validation and `ViewModel` validation (via data annotations)&mdash;the validation defined in the `ViewModel` will be applied instead of the runtime validation. The [Data Annotation Validation]({%slug dataform-data-annotations%}) has the higher priority.
+
+Here is an example for runtime validation using the `EditorGenerated` event:
+
+```C#
+var form = new RadDataForm();
+form.EditorGenerated += this.OnEditorGenerated;
+```
+
+```C#
+private void OnEditorGenerated(object sender, DataFormEditorGeneratedEventArgs eventArgs)
+{
+	switch (eventArgs.PropertyName)
+	{
+		case "FirstName":
+			eventArgs.Editor.HeaderText = "First Name";
+			// This won't be applied on FirstName property, as there is a validation set by using the DataAnnotations
+			eventArgs.Editor.ValidationRules.Clear();
+			break;
+		case "LastName":
+			eventArgs.Editor.HeaderText = "Last Name";
+			// Add validation rule here
+			eventArgs.Editor.ValidationRules.Add(new DataFormEditorRequiredValidationRule
+			{
+
+			});
+			break;
+		case "StartDate":
+			eventArgs.Editor = new DataFormRadDatePickerEditor
+			{
+				PropertyName = "StartDate",
+				HeaderText = "Start Date"
+			};
+			break;
+		case "EndDate":
+			// we remove the editor for this property
+			eventArgs.Editor = null;
+			break;
+		case "Accommodation":
+			eventArgs.Editor = new DataFormRadComboBoxEditor
+			{
+				PropertyName = "Accommodation",
+				HeaderText = "Accommodation",
+			};
+			break;
+	}
+}
+```
+
 ## See Also
 
 - [Editors]({%slug dataform-editors%})
