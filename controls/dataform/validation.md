@@ -104,7 +104,7 @@ The following table lists the available DataForm validations:
 | `DataFormEditorRegexValidationRule` | Executes a custom regular expression to validate the current string value. |
 | `DataFormEditorRequiredValidationRule` | Validates that the current value is not null or an empty string. |
 
-> When using runtime validation approach and you have defined a validation to the `ViewModel` (by setting the data annotations)&mdash;the validation defined in the `ViewModel` will be applied instead of the runtime validation. The [Data Annotation Validation]({%slug dataform-data-annotations%}) is with higher priority.
+> When using both runtime validation and `ViewModel` validation (via data annotations)&mdash;the validation defined in the `ViewModel` will be applied instead of the runtime validation. The [Data Annotation Validation]({%slug dataform-data-annotations%}) has the higher priority.
 
 Here is an example for runtime validation using the `EditorGenerated` event:
 
