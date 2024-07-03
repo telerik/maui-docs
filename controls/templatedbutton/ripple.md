@@ -13,17 +13,17 @@ Apply a ripple effect to the TemplatedButton, by using the following attached pr
 
 * `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
 * `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
-	* `None`&mdash;The element will not render ripple effects.
-	* `Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
-	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
+	* (Default)`Pulse`&mdash;The element produces a ripple effect when pressed. The ripple fades away even when held.
+	* `Hold`&mdash;The element produces a ripple effect when pressed and floods the element while held.
+	* `None`&mdash;The element does not render ripple effects.
 
 > The ripple effect is available on Android.
 
 ![.NET MAUI TemplatedButton ripple effect](images/templatedbutton-default-ripple-effect.gif)
 
-### Using the Ripple Effect
+### Customizing the Ripple Effect
 
-The following example demonstrates how to apply ripple effect to the TemplatedButton.
+The following example demonstrates how to customize the ripple effect of the TemplatedButton by changing the `RippleMode` and `RippleColor`.
 
 **1.** Define the buttons in XAML:
 
@@ -48,4 +48,4 @@ This is the result on Android:
 - [Set Visual States]({%slug templatedbutton-visual-states%})
 - [Events]({%slug templatedbutton-events%})
 - [Execute Command]({%slug templatedbutton-command%})
-- [Style the ToggleButon]({%slug templatedbutton-styling%})
+- [Style the TemplatedButton]({%slug templatedbutton-styling%})

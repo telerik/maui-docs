@@ -13,23 +13,23 @@ Apply a ripple effect to the ToggleButton, by using the following attached prope
 
 * `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
 * `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
-	* `None`&mdash;The element will not render ripple effects.
-	* `Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
-	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
+	* (Default)`Pulse`&mdash;The element produces a ripple effect when pressed. The ripple fades away even when held.
+	* `Hold`&mdash;The element produces a ripple effect when pressed and floods the element while held.
+	* `None`&mdash;The element does not render ripple effects.
 
 > The ripple effect is available on Android.
 
 ![.NET MAUI ToggleButton Ripple effect](images/togglebutton-ripple-effect-default.gif)
 
-### Using the Ripple Effect
+### Customizing the Ripple Effect
 
-The following example demonstrates how to apply ripple effect to the ToggleButton.
+The following example demonstrates how to customize the ripple effect of the ToggleButton by changing the `RippleMode` and `RippleColor`.
 
 **1.** Define the buttons in XAML:
 
 <snippet id='togglebutton-ripple-effect' />
 
-**2.** Define the resources in the page's resources:
+**2.** Тo customize the `RippleColor` when the ToggleButton is pressed, add the following code to the page's resources.
 
 <snippet id='togglebutton-ripple-visual-states-resources' />
 
@@ -43,7 +43,7 @@ This is the result on Android:
 
 ![.NET MAUI ToggleButton ripple effect customization](images/togglebutton-ripple-effect.gif)
 
-> For a runnable example demonstrating the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+> For a runnable example demonstrating the customization of the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
 ## See Also
 
