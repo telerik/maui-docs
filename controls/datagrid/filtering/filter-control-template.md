@@ -48,6 +48,7 @@ The example below shows how to apply the `DataGridTextFilterControl` as a `Filte
     </telerik:RadDataGrid.Columns>
 </telerik:RadDataGrid>
 ```
+
 Here is the `DataGridTextFilterControl` with the match case properties applied:
 
 ![Telerik .NET MAUI DataGrid TextFilterControl](images/datagrid-textfiltercontrol.png)
