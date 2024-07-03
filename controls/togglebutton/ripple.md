@@ -29,7 +29,7 @@ The following example demonstrates how to customize the ripple effect of the Tog
 
 <snippet id='togglebutton-ripple-effect' />
 
-**2.** The following snippet defined in the page's resources shows how to customize `RippleColor` when ToggleButton is pressed. 
+**2.** Define the following snippet to the page's resources to customize the `RippleColor` when ToggleButton is pressed. 
 
 <snippet id='togglebutton-ripple-visual-states-resources' />
 
