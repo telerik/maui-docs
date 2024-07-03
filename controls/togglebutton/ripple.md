@@ -43,7 +43,7 @@ This is the result on Android:
 
 ![.NET MAUI ToggleButton ripple effect customization](images/togglebutton-ripple-effect.gif)
 
-> For a runnable example demonstrating the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+> For a runnable example demonstrating the customization of the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
 ## See Also
 
