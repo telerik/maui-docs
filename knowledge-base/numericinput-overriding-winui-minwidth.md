@@ -28,9 +28,9 @@ This KB article also answers the following questions:
 
 To address the issue of the NumericInput's value being cut off due to the `MinWidth` setting of the `InputEditor`, follow these steps:
 
-1. **Define the ControlTemplate**:  To access RadNumericInput's internal NumericInputEntry subcomponent, follow the directions in the [NumericInput - ControlTemplate](https://docs.telerik.com/devtools/maui/controls/numericinput/control-template) documentation.
+1. Define the ControlTemplate&mdash;To access RadNumericInput's internal NumericInputEntry subcomponent, follow the directions in the [NumericInput - ControlTemplate](https://docs.telerik.com/devtools/maui/controls/numericinput/control-template) documentation.
 
-2. **Subscribe to the NumericInputEntry's Loaded Event**:  
+2. Subscribe to the NumericInputEntry's Loaded Event:  
 
     ```xaml
     <telerik:NumericInputEntry x:Name="PART_Entry"
@@ -43,7 +43,7 @@ To address the issue of the NumericInput's value being cut off due to the `MinWi
         }
     ```
 
-3. **Access the native Entry element**:  To access platform-specific implementation, use conditional compilation #ifdef for WINDOWS, and define the `Handler.PlatformView` as the abstract `RadMauiEntry` type.
+3. Access the native Entry element&mdash;To access platform-specific implementation, use conditional compilation `#ifdef` for WINDOWS, and define the `Handler.PlatformView` as the abstract `RadMauiEntry` type.
 
     ```csharp
         private void OnNumericInputLoaded(object sender, EventArgs e)
@@ -56,7 +56,7 @@ To address the issue of the NumericInput's value being cut off due to the `MinWi
         }
     ```
 
-4. **Set the Inputeditor's MinWdith property**:  With access to the handler's PlatformView, you can now set the `MinWidth` property of the concrete native WinUI `InputEditor` (which is of type RadTextBox).
+4. Set the Inputeditor's MinWdith property&mdash;With access to the handler's PlatformView, you can now set the `MinWidth` property of the concrete native WinUI `InputEditor` (which is of type RadTextBox).
 
     ```csharp
         private void OnNumericInputLoaded(object sender, EventArgs e)
