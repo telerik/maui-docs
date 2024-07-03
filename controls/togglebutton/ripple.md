@@ -13,9 +13,9 @@ Apply a ripple effect to the ToggleButton, by using the following attached prope
 
 * `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
 * `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
-	* (Default)`Pulse`&mdash;The element will play a ripple effect on pressed and the ripple will fade away even on hold.
-	* `Hold`&mdash;The element will play a ripple effect on pressed and flood the element while held.
-	* `None`&mdash;The element will not render ripple effects.
+	* (Default)`Pulse`&mdash;The element produces a ripple effect when pressed. The ripple fades away even when held.
+	* `Hold`&mdash;The element produces a ripple effect when pressed and floods the element while held.
+	* `None`&mdash;The element does not render ripple effects.
 
 > The ripple effect is available on Android.
 

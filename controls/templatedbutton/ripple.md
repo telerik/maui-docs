@@ -17,7 +17,6 @@ Apply a ripple effect to the TemplatedButton, by using the following attached pr
 	* `Hold`&mdash;The element produces a ripple effect when pressed and floods the element while held.
 	* `None`&mdash;The element does not render ripple effects.
 
-
 > The ripple effect is available on Android.
 
 ![.NET MAUI TemplatedButton ripple effect](images/templatedbutton-default-ripple-effect.gif)
