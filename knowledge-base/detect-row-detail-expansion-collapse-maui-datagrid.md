@@ -27,7 +27,7 @@ This KB article also answers the following questions:
 
 To detect when a row detail is expanded or collapsed in the [DataGrid]({%slug datagrid-overview%}) for MAUI using MVVM, you can employ the following approaches:
 
-* Working with the `ExpandedRowDetails` collection
+* Using the `ExpandedRowDetails` collection
 * Using the `ToggleRowDetailsButtonTap` command
 
 ### Approach 1: Using the `ExpandedRowDetails` Collection
