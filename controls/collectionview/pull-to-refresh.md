@@ -1,19 +1,19 @@
 ---
-title: Pull to Refresh
+title: Refresh Data
 page_title: .NET MAUI CollectionView Documentation - Pull to Refresh
-description: Learn how to achieve pull to refresh functionality in the Telerik UI for .NET MAUI CollectionView.
+description: Learn how to refresh the data in the Telerik UI for .NET MAUI CollectionView using the pull-to-refresh functionality.
 position: 13
 slug: collectionview-pull-to-refresh
 tags: refreshview, .net maui, maui, collectionview, pull to refresh
 ---
 
-# .NET MAUI CollectionView Pull to Refresh
+# .NET MAUI CollectionView Refresh Data
 
 If the list contains items which may change after the initial load, you can allow users to refresh that list. 
 
 You can achieve pull to refresh functionality in Telerik .NET MAUI CollectionView by using the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/refreshview?view=net-maui-8.0" target="_blank">Microsoft .NET MAUI `RefreshView`</a>.
 
-## Example 
+## Example
 
 The following example demonstrates how to use the .NET MAUI `RefresView` with `RadCollectionView`.
 
