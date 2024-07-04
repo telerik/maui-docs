@@ -1,5 +1,5 @@
 ---
-title: Detecting Row Detail Expansion or Collapse in DataGrid for MAUI
+title: Detecting If Row Detail Is Expanded or Collapsed in DataGrid
 description: Learn how to identify when a row detail in the DataGrid for .NET MAUI is expanded or collapsed using MVVM.
 type: how-to
 page_title: How to Detect Row Detail Expansion or Collapse in .NET MAUI DataGrid
