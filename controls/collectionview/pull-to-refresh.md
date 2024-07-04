@@ -27,7 +27,7 @@ The following example demonstrates how to use the .NET MAUI `RefresView` with `R
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Define sample business model:
+**3.** Define a sample business model:
 
 <snippet id='collectionview-grouptapcommand-model'/>
 
