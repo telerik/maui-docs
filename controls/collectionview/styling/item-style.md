@@ -1,6 +1,6 @@
 ---
 title: Item Styling
-page_title: .NET MAUI ListView Documentation - Item Styling
+page_title: .NET MAUI CollectionView Documentation - Item Styling
 description: Check the Telerik for .NET MAUI CollectionView styling options for the Item Style.
 position: 0
 slug: collectionview-item-styling
