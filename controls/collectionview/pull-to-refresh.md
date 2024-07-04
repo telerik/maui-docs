@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Pull to Refresh
 page_title: .NET MAUI CollectionView Documentation - Pull to Refresh
 description: Learn how to achieve pull to refresh functionality in the Telerik UI for .NET MAUI CollectionView.
 position: 13
