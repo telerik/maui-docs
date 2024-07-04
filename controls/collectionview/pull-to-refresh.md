@@ -1,7 +1,7 @@
 ---
 title: Pull to Refresh
 page_title: .NET MAUI CollectionView Documentation - Pull-to-Refresh
-description: Learn how to achieve pull to refresh functionality in the Telerik UI for .NET MAUI CollectionView.
+description: Learn how to achieve a pull-to-refresh functionality in the Telerik UI for .NET MAUI CollectionView.
 position: 13
 slug: collectionview-pull-to-refresh
 tags: refreshview, .net maui, maui, collectionview, pull to refresh
