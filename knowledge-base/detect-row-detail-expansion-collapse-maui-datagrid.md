@@ -147,7 +147,7 @@ public class MyToggleRowDetailsButtonTapCommand : DataGridCommand
 }
 ```
 
-**3.** The `ViewModel` and data model definition:
+**2.** The `ViewModel` and data model definition:
 
 ```C#
 public partial class MainPage : ContentPage
@@ -189,7 +189,7 @@ public class Data
 }
 ```
 
-**4.** Define the DataGrid:
+**3.** Define the DataGrid:
 
 ```XAML
 <ContentPage.Resources>
