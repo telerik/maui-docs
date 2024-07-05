@@ -15,7 +15,7 @@ The .NET MAUI CollectionView provides the option to add `HeaderTemplate` and `Fo
 
 The following example shows how to add a header and a footer to the CollectionView control.
 
-**1.** Add the `CollectionView` instance with the `HeaderTemplate` and `FooterTemplate` applied:
+**1.** Add the `RadCollectionView` instance with the `HeaderTemplate` and `FooterTemplate` applied:
 
 <snippet id='collectionview-header-footer'/>
 
