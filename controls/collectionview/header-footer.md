@@ -8,18 +8,18 @@ tags: .net maui, maui, collectionview, header, footer, headertemplate, footertem
 
 # .NET MAUI CollectionView Header and Footer
 
-The .NET MAUI CollectionView provides the option to add `HeaderTemplate` and `FooterTemplate`, which will allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the CollectionView items.
+The .NET MAUI CollectionView provides the option to add `HeaderTemplate` and `FooterTemplate`, which allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the CollectionView items.
 
-* `HeaderTemplate`(`DataTemplate`)&mdash;Defines the Header of the CollectionView before all items.
-* `FooterTemplate`(`DataTemplate`)&mdash;Defines the Footer of the CollectionView after all items.
+* `HeaderTemplate`(`DataTemplate`)&mdash;Defines the header of the CollectionView, rendered before all other items.
+* `FooterTemplate`(`DataTemplate`)&mdash;Defines the footer of the CollectionView, rendered after all other items.
 
-The following example shows how to add a Header and a Footer to the CollectionView control.
+The following example shows how to add a header and a footer to the CollectionView control.
 
-**1.** Add the CollectionView instance with the `HeaderTemplate` and `FooterTemplate` applied:
+**1.** Add the `CollectionView` instance with the `HeaderTemplate` and `FooterTemplate` applied:
 
 <snippet id='collectionview-header-footer'/>
 
-**2.** Add a sample `ViewModel` class with a list of `DataModel` objects which is used as a BindingContext of the CollectionView:
+**2.** Add a sample `ViewModel` class with a list of `DataModel` objects which is used as a `BindingContext` of the `CollectionView`:
 
 <snippet id='collectionview-viewmodel'/>
 
@@ -27,11 +27,11 @@ The following example shows how to add a Header and a Footer to the CollectionVi
 
 <snippet id='collectionview-datamodel'/>
 
-The following image shows how the CollectionView Header looks.
+The following image shows how the CollectionView header looks.
 
 ![.NET MAUI CollectionView Header Template](images/collectionview-header-template.png)
 
-The following image shows how the CollectionView Footer looks.
+The following image shows how the CollectionView footer looks.
 
 ![.NET MAUI CollectionView Footer Template](images/collectionview-footer-template.png)
 
