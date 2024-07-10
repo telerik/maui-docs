@@ -35,6 +35,8 @@ Telerik .NET MAUI Entry control preserves the same API as the Xamarin.Forms Entr
 | - | `FocusedBorderBrush` |
 | - | `FocusedBorderThickness` |
 
+For a complete guide on app migration to .NET MAUI, go to [Migrating Xamarin to MAUI]({% slug migrate-to-net-maui %}) topic.
+
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
