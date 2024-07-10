@@ -148,7 +148,7 @@ For the detailed guide, go to the official Microsoft documentation on GitHub abo
 
 The following video demonstrates how you can upgrade your Xamarin.Forms App to .NET MAUI
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-AeFIjW0Jgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-AeFIjW0Jgc?si=4cRLFUPl-9uBDjeu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## See Also
 
