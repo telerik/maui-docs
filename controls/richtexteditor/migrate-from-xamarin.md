@@ -11,7 +11,7 @@ slug: richtexteditor-migrate-from-xamarin
 The tables in the following sections list the differences between the APIs of the Xamarin.Forms RichTextEditor and .NET MAUI RichTextEditor.
 ## Migrate the Namespaces
 
-| Control | Control name | C# Namespace| XAML Namespcace |
+| Control | Control name | XAML Namespcace| C# Namespace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin RichTextEditor | `RichTextEditor` | xmlns:telerikRichTextEditor="clr-namespace:Telerik.XamarinForms.RichTextEditor;assembly=Telerik.XamarinForms.RichTextEditor" | using Telerik.XamarinForms.RichTextEditor; |
 | .NET MAUI RichTextEditor | `RadRichTextEditor` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
