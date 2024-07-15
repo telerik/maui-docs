@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** Add the `ViewModel`:
 
-<snippet id='collectionview-pull-to-refresh'/>
+<snippet id='collectionview-pull-to-refresh-viewmodel'/>
 
 This is the result on Android:
 
