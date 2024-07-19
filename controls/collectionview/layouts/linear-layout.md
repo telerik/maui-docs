@@ -39,7 +39,7 @@ The following example demonstrates how to apply horizontal orientation to the `R
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with `LinearItemsLayout`:
+**3.** Add the `RadCollectionView` definition with linear layout:
 
 <snippet id='collectionview-linear-layout' />
 
