@@ -16,24 +16,26 @@ To customize the behavior, you can create a new class that derives from `Collect
  - `CanStartDrag`(`CollectionViewDragDropState` state)&mdash;Returns a bool value specifying whether the drag operation can be started.
  - `CanDrop`(`CollectionViewDragDropState` state)&mdash;Returns a value specifying whether the current drop operation can be completed.
  - `Drop`(`CollectionViewDragDropState` state)&mdash; Completes the drop operation. This method is called only in the context of the drop target control.
- 
+
  The following example demonstrates how you can implement a custom logic on Drop event to allow moving items between groups:
 
- **1.** Add a sample `CollectionViewDragDropBehavior` class and override its `Drop` method:
+**1.** Add a sample `CollectionViewDragDropBehavior` class and override its `Drop` method:
 
- <snippet id='collectionview-customdragdropbehavior' />
+<snippet id='collectionview-customdragdropbehavior' />
 
- **2.** Add a CollectionView control to the page:
+**2.** Add a CollectionView control to the page:
 
- <snippet id='collectionview-reorder-grouping' />
+<snippet id='collectionview-reorder-grouping' />
 
- **3.** Define the following business object:
+**3.** Define the following business object:
 
 <snippet id='collectionview-datamodel' />
 
 **4.** Create a `ViewModel` class as shown below:
 
 <snippet id='collectionview-viewmodel' />
+
+## See Also
 
 - [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%})
 - [DragVisual and ReorderIndicator Templates]({%slug collectionview-draganddrop-templates%})
