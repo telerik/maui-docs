@@ -11,7 +11,10 @@ tags: .net maui, collectionview, layout, grid layout
 
 The CollectionView control supports grid layout through its `ItemsLayout` property. The `ItemsLayout` accepts values of type `CollectionViewLayoutBase` which is a base class.
 
+
 The grid layout allows distributing cells in a fixed number of columns/rows. The grid layout can be set by creating an instance of the `CollectionViewGridLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
+
+Sample `RadCollectionView` definition with `CollectionViewGridLayout`:
 
 ```XAML
 <telerik:RadCollectionView>
@@ -21,12 +24,16 @@ The grid layout allows distributing cells in a fixed number of columns/rows. The
 </telerik:RadCollectionView>
 ```
 
+This is how the items are arranged when grid layout is defined:
+
+![.NET MAUI CollectionView Grid Layout](../images/collectionview-grid-layout.png "Telerik .NET MAUI CollectionView")
+
 The properties available in the `CollectionViewGridLayout` are: 
 
-* `SpanCount` (`int`)&mdash;Specifies the count of the columns or rows (depending on the orientation) of the layout.The value must be `>= 1`. The defualt value is `2`.
+* `SpanCount` (`int`)&mdash;Specifies the count of the columns or rows (depending on the orientation) of the layout.The value must be `>= 1`. The default value is `2`.
 * `HorizontalItemSpacing` (`double`)&mdash;Specifies the horizontal empty space around each item. The default value is `0.0`.
 * `VerticalItemSpacing` (`double`)&mdash;Specifies the vertical empty space around each item.The default value is `0.0`.
-* `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and `Vertical` (default).
+* `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and (default) `Vertical`.
 
 ## Example with Grid Layout
 
@@ -52,7 +59,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-
+![.NET MAUI CollectionView Grid Layout](../images/collectionview-grid-layout-configuration.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable demo with the CollectionView `CollectionViewGridLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Layouts** category.
 
