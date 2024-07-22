@@ -26,6 +26,7 @@ The properties available in the `CollectionViewGridLayout` are:
 * `SpanCount` (`int`)&mdash;Specifies the count of the columns or rows (depending on the orientation) of the layout.The value must be `>= 1`. The defualt value is `2`.
 * `HorizontalItemSpacing` (`double`)&mdash;Specifies the horizontal empty space around each item. The default value is `0.0`.
 * `VerticalItemSpacing` (`double`)&mdash;Specifies the vertical empty space around each item.The default value is `0.0`.
+* `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and `Vertical` (default).
 
 ## Example with Grid Layout
 
