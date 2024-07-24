@@ -1,7 +1,7 @@
 ---
 title: Grid Layout
 page_title: .NET MAUI CollectionView Documentation - Grid Layout
-description: Learn how to configure the CollectionView to display the items vertically or horizontally.
+description: Learn how to configure the CollectionView to display its items in a grid-like layout and arrange them vertically or horizontally.
 position: 1
 slug: collectionview-grid-layout
 tags: .net maui, collectionview, layout, grid layout
@@ -9,12 +9,11 @@ tags: .net maui, collectionview, layout, grid layout
 
 # .NET MAUI CollectionView Grid Layout
 
-The CollectionView control supports grid layout through its `ItemsLayout` property. The `ItemsLayout` accepts values of type `CollectionViewLayoutBase` which is a base class.
+The CollectionView control provides a grid-like layout that you can specify by using the `ItemsLayout` property. The `ItemsLayout` property accepts values of type `CollectionViewLayoutBase`, which is a base class.
 
+The grid layout allows distributing cells in a fixed number of columns and rows. To set the grid layout, create an instance of the `CollectionViewGridLayout` class and assign it to the `RadCollectionView.ItemsLayout` property.
 
-The grid layout allows distributing cells in a fixed number of columns/rows. The grid layout can be set by creating an instance of the `CollectionViewGridLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
-
-Sample `RadCollectionView` definition with `CollectionViewGridLayout`:
+The following code snippet represents a sample `RadCollectionView` definition with `CollectionViewGridLayout`:
 
 ```XAML
 <telerik:RadCollectionView>
@@ -24,20 +23,20 @@ Sample `RadCollectionView` definition with `CollectionViewGridLayout`:
 </telerik:RadCollectionView>
 ```
 
-This is how the items are arranged when grid layout is defined:
+This is how the items are arranged when you define a grid layout:
 
 ![.NET MAUI CollectionView Grid Layout](../images/collectionview-grid-layout.png "Telerik .NET MAUI CollectionView")
 
-The properties available in the `CollectionViewGridLayout` are: 
+The `CollectionViewGridLayout` provides the following properties:
 
-* `SpanCount` (`int`)&mdash;Specifies the count of the columns or rows (depending on the orientation) of the layout.The value must be `>= 1`. The default value is `2`.
+* `SpanCount` (`int`)&mdash;Specifies the count of the columns or rows (depending on the orientation) of the layout. The value must be `>= 1`. The default value is `2`.
 * `HorizontalItemSpacing` (`double`)&mdash;Specifies the horizontal empty space around each item. The default value is `0.0`.
-* `VerticalItemSpacing` (`double`)&mdash;Specifies the vertical empty space around each item.The default value is `0.0`.
-* `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and (default) `Vertical`.
+* `VerticalItemSpacing` (`double`)&mdash;Specifies the vertical empty space around each item. The default value is `0.0`.
+* `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and `Vertical` (default).
 
 ## Example with Grid Layout
 
-The following example demonstrates how to apply grid layout to the `RadCollectionView`.
+The following example demonstrates how to apply the grid layout to the `RadCollectionView`.
  
 **1.** Define the following business object:
 
@@ -47,7 +46,7 @@ The following example demonstrates how to apply grid layout to the `RadCollectio
 
 <snippet id='collectionview-viewmodel' />
 
-**3.** Add the `RadCollectionView` definition with grid layout:
+**3.** Add the `RadCollectionView` definition with the grid layout:
 
 <snippet id='collectionview-grid-layout' />
 
