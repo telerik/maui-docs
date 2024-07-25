@@ -177,6 +177,12 @@ navigation:
     controls/collectionview/layouts:
         title: "Layouts"
         position: 12
+    controls/collectionview/item-swipe:
+        title: "Item Swipe"
+        position: 13
+    controls/collectionview/drag-and-drop:
+        title: "Drag & Drop"
+        position: 14
     controls/collectionview/styling:
         title: "Styling"
         position: 20
