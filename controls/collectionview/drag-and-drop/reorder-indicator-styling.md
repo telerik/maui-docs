@@ -9,7 +9,7 @@ tags: reorder, collectionview, drag-drop, indicator, styling
 
 # .NET MAUI CollectionView Reorder Indicator Styling
 
-The Reorder indicator appears while reordering an item inside the CollectionView to notify the end-user where the item can be dropped. To style the Reorder Indicator, create an implicit style and set its `TargetType` to `CollectionViewReorderIndicator`.
+The reorder indicator appears while reordering an item inside the CollectionView to notify the end user where the item can be dropped. To style the reorder indicator, create an implicit style and set its `TargetType` to `CollectionViewReorderIndicator`.
 
 Check a quick example with a modified `CollectionViewReorderIndicator`:
 

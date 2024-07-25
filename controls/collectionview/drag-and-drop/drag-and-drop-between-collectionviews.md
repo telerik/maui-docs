@@ -9,9 +9,9 @@ tags: collectionview, drag-drop
 
 # Drag and Drop between CollectionViews
 
-The app user can directly move items from one CollectionView to another CollectionView through drag and drop if the source collection of both instances contains items of the same type.
+The app user can directly move items from one CollectionView to another CollectionView through drag-and-drop if the source collection of both instances contains items of the same type.
 
-Check an example on drag and drag between two CollectionViews:
+Check an example on drag and drop between two CollectionViews:
 
 **1.** Add two `RadCollectionView` instances to the page:
 

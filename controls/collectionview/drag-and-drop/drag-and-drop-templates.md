@@ -9,9 +9,9 @@ tags: reorder, collectionview, drag-drop, templates
 
 # .NET MAUI CollectionView DragVisual &amp; ReorderIndicator Templates
 
-The CollectionView provides the following templates for customizing the drag cue during a drag and drop operation as well as the indicator where the dragged item will be dropped:
+The CollectionView provides the following templates for customizing the drag cue during a drag-and-drop operation as well as the indicator where the dragged item will be dropped:
 
-* `DragVisualTemplate`(`DataTemplate`)&mdash;Represents the drag visual of the dragged item during a drag and drop operation.
+* `DragVisualTemplate`(`DataTemplate`)&mdash;Represents the drag visual of the dragged item during a drag-and-drop operation.
 * `ReorderIndicatorTemplate`(`DataTemplate`)&mdash;Represents the indicator shown between the CollectionView items during reorder.
 
 Check an example of the CollectionView with sample `DragVisualTemplate` and `ReorderIndicatorTemplate`:
@@ -28,7 +28,7 @@ Check an example of the CollectionView with sample `DragVisualTemplate` and `Reo
 
 <snippet id='collectionview-reorder-templates' />
 
-For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%}) topic.
+For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%}) page.
 
 Check the result below:
 
