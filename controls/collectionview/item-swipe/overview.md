@@ -9,7 +9,7 @@ tags: item-swipe, collectionview, swiping
 
 # .NET MAUI CollectionView Item Swipe
 
-.NET MAUI CollectionView provides item swipe feature - when users swipe, they reveal a designated custom view with buttons, images etc.
+.NET MAUI CollectionView provides item swipe feature&mdash;when users swipe, they reveal a designated custom view with buttons, images, etc.
 
 The image below shows how swiping can reveal buttons on the left and right:
 
@@ -17,13 +17,13 @@ The image below shows how swiping can reveal buttons on the left and right:
 
 ## Properties
 
-You can use the following `RadCollectionView` properties to configure the Item Swipe feature:
+You can use the following `RadCollectionView` properties to configure the item swipe feature:
 
 - `IsItemSwipeEnabled`(`bool`)&mdash;Indicates whether the items of the CollectionView can be swiped. The default value is `False`.
 - `SwipeThreshold`(`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature.
 - `SwipeOffset`(`Thickness`)&mdash;Defines the distance that a swiped item will be moved to and stay there until the swipe gets closed.
-- `StartSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized when swipe is performed to left in vertical orientation or up in horizontal orientation.
-- `EndSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized when swipe is performed to right in vertical orientation or down in horizontal orientation.
+- `StartSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized for a swipe-left (in vertical orientations) or a swipe-up (in horizontal orientations).
+- `EndSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized for a swipe-right (in vertical orientations) or a swipe-down (in horizontal orientations).
 
 ## Methods
 

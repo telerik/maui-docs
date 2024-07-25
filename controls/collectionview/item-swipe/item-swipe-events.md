@@ -11,14 +11,14 @@ tags: item-swipe, collectionview, swiping, events
 
 The following `RadCollectionView` events are related to the item swiping feature:
 
-- `SwipeStarting`&mdash;Occurs when item is about to be swiped. The event arguments are of the `CollectionViewSwipeStartingEventArgs` type that provides the following properties:
+- `SwipeStarting`&mdash;Occurs when an item is about to be swiped. The event arguments are of the `CollectionViewSwipeStartingEventArgs` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that will be swiped.
   - `Cancel`(`bool`)&mdash;If you set this value to `false`, the swiping will be canceled.
 - `Swiping`&mdash;Occurs while the user is swiping the item. The event arguments are of the `CollectionViewSwipingEventArgs` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that is being swiped.
   - `Offset`(`double`)&mdash;The offset of the swiped item from its initial position.
-- `SwipeCompleted`&mdash;Occurs when swiping of an item is completed. The event arguments are of the `CollectionViewSwipeCompletedEventArgs` type that provides the following properties:
-  - `Item`(`object`)&mdash;The item that has been swiped.
+- `SwipeCompleted`&mdash;Occurs when the swiping of an item is completed. The event arguments are of the `CollectionViewSwipeCompletedEventArgs` type that provides the following properties:
+  - `Item`(`object`)&mdash;The item that was swiped.
   - `Offset`(`double`)&mdash;The final offset of the swiped item.
 
 Check a simple example where the swiping events are used:
