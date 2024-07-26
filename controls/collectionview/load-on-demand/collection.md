@@ -37,6 +37,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
+![.NET MAUI CollectionView LoadOnDemand Collection](../images/load-on-demand.gif "Telerik .NET MAUI CollectionView")
+
+> For a runnable example demonstrating the CollectionView LoadOnDemand Collection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
 
 ## See Also
 

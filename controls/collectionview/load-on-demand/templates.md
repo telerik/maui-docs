@@ -9,7 +9,7 @@ tags: loading data, .net maui, maui, collectionview, load data on demand, loadin
 
 # .NET MAUI CollectionView LoadOnDemand Automatic and Manual Templates
 
-You can customize the appearance on the automatic and manual elements by using the following templates:
+You can customize the appearance of the automatic and manual elements by using the following templates:
 
 * `AutomaticLoadOnDemandTemplate` (`DataTemplate`)&mdash;Specifies the template of the view visualized for `Automatic` loading.
 * `ManualLoadOnDemandTemplate` (`DataTemplate`)&mdash;Specifies the template of the view visualized for `Manual` loading.
@@ -42,6 +42,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
+![.NET MAUI CollectionView LoadOnDemand custom template for automatic loading mode](../images/load-on-demand-automatic-template.png "Telerik .NET MAUI CollectionView")
+
+> For a runnable example demonstrating the CollectionView LoadOnDemand Automatic Template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
+
 ## Example with Manual Template
 
 Here is an example how to customize the manual button:
@@ -69,6 +73,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 <snippet id='collectionview-loadondemand-collection-viewmodel' />
 
 This is the result:
+
+![.NET MAUI CollectionView LoadOnDemand custom template for manual loading mode](../images/load-on-demand-manual-templatre.gif "Telerik .NET MAUI CollectionView")
+
+> For a runnable example demonstrating the CollectionView LoadOnDemand Manual Template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
 
 ## See Also
 

@@ -9,7 +9,7 @@ tags: loading data, .net maui, maui, collectionview, load data on demand
 
 # .NET MAUI CollectionView Load Data on Demand
 
-The Load Data on Demand feature optimizes the performance of the Telerik UI for .NET MAUI CollectionView control when operating with a large amount of items. The load on demand functionality allows you to load incremental data&mdash;either by a Button (manual) or by scrolling towards end (automatic).
+The Load Data on Demand feature optimizes the performance of the Telerik UI for .NET MAUI CollectionView control when operating with a large amount of items. The load-on-demand functionality allows you to load incremental data&mdash;either by a Button (manual) or by scrolling towards end (automatic).
 
 ## Configuration
 
@@ -17,7 +17,7 @@ Use the following configuration options to:
 
 1. Control the `LoadOnDemand` feature by using the following properties:
 
-* `IsLoadOnDemandEnabled` (`bool`)&mdash;Specifies whether the load on demand functionality is enabled. The default value is `false`.
+* `IsLoadOnDemandEnabled` (`bool`)&mdash;Specifies whether the load-on-demand functionality is enabled. The default value is `false`.
 * `IsLoadOnDemandActive` (`bool`)&mdash;Controls the loading indicator that is rendered when the data is retrieved asynchronously. Set it to `true` when an async operation is running and items are loading. Set it to `false` when the items are loaded. The default value is `false`.
 * `LoadOnDemandMode` (enum of type `Telerik.Maui.LoadOnDemandMode`)&mdash;Specifies how the operation for loading more items is triggered. The available options are:
 	* (Default) `Automatic`&mdash;The data is requested automatically when the user scrolls by the end of the CollectionView.
@@ -31,20 +31,20 @@ You can control the minimum number of items loaded ahead by using the `LoadOnDem
 
 3. Customize the appearance of the automatic and manual UI element.
 
-You can customize the appearance on the automatic and manual elements by using the following templates:
+You can customize the appearance of the automatic and manual elements by using the following templates:
 
 * `AutomaticLoadOnDemandTemplate` (`DataTemplate`)&mdash;Specifies the template of the view visualized for `Automatic` loading.
 * `ManualLoadOnDemandTemplate` (`DataTemplate`)&mdash;Specifies the template of the view visualized for `Manual` loading.
 
-For sample examples and templates explanation review the [LoadOnDemand Templates]({%slug collectionview-load-on-demand-templates%}) article.
+For more information about the templates, including examples, review the [LoadOnDemand Templates]({%slug collectionview-load-on-demand-templates%}) article.
 
 ## Methods to Load Data on Demand
 
 Use the following options to load data on demand:
 
-* Using the [`LoadOnDemandCollection`]({%slug collectionview-load-on-demand-collection%}).
-* Using the [`LoadOnDemandCommand`]({%slug collectionview-load-on-demand-command%}).
-* Using the [`LoadOnDemand` event]({%slug collectionview-load-on-demand-event%}).
+* [`LoadOnDemandCollection`]({%slug collectionview-load-on-demand-collection%}).
+* [`LoadOnDemandCommand`]({%slug collectionview-load-on-demand-command%}).
+* [`LoadOnDemand` event]({%slug collectionview-load-on-demand-event%}).
 
 The three approaches work with `Automatic` and `Manual` `LoadOnDemandMode`.
 
