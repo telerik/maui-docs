@@ -1,7 +1,7 @@
 ---
 title: Telerik UI for .NET MAUI Code Scaffoldings
 page_title: Telerik UI for .NET MAUI Code Scaffoldings - Visual Studio Code Scaffoldings
-description: Learn how to add predefined screens in your application using via Telerik .NET MAUI Visual Studio Code Scaffoldings.
+description: Learn how to add predefined screens in your application using the Telerik .NET MAUI Visual Studio Code Scaffoldings.
 slug: maui-vs-code-scaffoldings
 position: 1
 tags: maui, dotnet maui, item templates, scaffoldings, predefined pages, screens, visual studio code
@@ -25,20 +25,17 @@ Here are the steps you need to follow to add the desired screen to your applicat
 
 1. Open the project in Visual Studio Code.
 1. Right-click on the name of the `.csproj` file.
-1. From the popup menu select the `New Telerik UI for .NET MAUI Project Item`.
-  ![.NET MAUI Scaffolding dialog](images/scaffolding-vs-dialog.png)
+
+1. From the popup menu select the `New Telerik UI for .NET MAUI Project Item Generator`.
+![.NET MAUI Scaffolding dialog](images/scaffolding-vscode-dialog.png)
 
 1. From the UI form, select the desired page and set the available parameters.
+![.NET MAUI Scaffolding dialog](images/scaffolding-vscode-options.png)
 
-  ![.NET MAUI Scaffolding dialog](images/scaffolding-vs-dialog.png)
+1. The page will be added to the `Pages` folder of the application. if one does not exist, it will be created. Every page has a `ViewModel`, so the `ViewModel` is added to the `ViewModels` folder. if one does not exist, it will be created. The image shows the `Products` screen after adding to the project.
+![.NET MAUI Scaffolding result](images/scaffolding-vscode-result.png)
 
-1. The scaffolded page will be added to the Pages folder of the application. if one does not exist, it will be created. Every page has a `ViewModel`, so the `ViewModel` is added to the ViewModels folder. if one does not exist, it will be created.
-
-1. The image shows the `Products` screen after adding to the project:
-
-  ![.NET MAUI Scaffolding result](images/scaffolding-vs-result.png)
-
-1. To display the screen in your application you need to set the correct screen namespace.
+1. To display the screen in your application you need to specify the page namespace.
 
 In the example below, I set the screen directly to the `ShellContent` in  the `AppShell.xaml`:
 
@@ -60,14 +57,10 @@ In the example below, I set the screen directly to the `ShellContent` in  the `A
 </Shell>
 ```
 
-This is the result on Android and WinUI:
-
-![.NET MAUI Scaffolding screen look](images/scaffolding-vs-screen-look.png)
-
 ## Available Scaffoldings
 
-* Products page&mdash;Uses the Telerik Ui for .NET MAUI [CollectionView]({%slug %}) control.
-* DataGrid page&mdash;Uses the Telerik UI for .NET MAUI [DataGrid]({%slug %}) control.
-* Login page&mdash;Uses the Telerik UI for .NET MAUI DataGrid control.
-* Register page&mdash;Uses the Telerik UI for .NET MAUI DataGrid control.
-* Reset password page&mdash;Uses the Telerik UI for .NET MAUI DataGrid control.
+* Products page&mdash;Uses the Telerik UI for .NET MAUI [CollectionView]({%slug collectionview-overview%}) control.
+* DataGrid page&mdash;Uses the Telerik UI for .NET MAUI [DataGrid]({%slug datagrid-overview%}) control.
+* Login page&mdash;Uses the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
+* Register page&mdash;Uses the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
+* Reset password page&mdash;Uses the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.

@@ -74,3 +74,6 @@ ImageEditorToolbar
 SlideViewIndicator
 TemplatedButton
 ToggleButton
+Scaffoldings
+scaffolding
+scaffoldings
