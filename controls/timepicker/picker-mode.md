@@ -41,7 +41,7 @@ Check the result of `DropDown` mode on mobile and desktop:
 
 ## Picker Toggle State
 
-You can control whether the picker popup or drop-down is opened or closed by using the `IsOpen`(`bool`) property.
+You can control whether the picker popup or drop-down is opened or closed by using the `IsOpen` (`bool`) property.
 
 ## Toggle Button
 
