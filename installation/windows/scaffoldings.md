@@ -38,7 +38,7 @@ Here are the steps you need to follow to add the desired screen to your applicat
 
 1. To display the screen in your application you need to specify the page namespace.
 
-In the example below, I set the screen directly to the `ShellContent` in  the `AppShell.xaml`:
+In the example below, the screen is set directly to the `ShellContent` in the `AppShell.xaml`:
 
 ```XAML
 <Shell
