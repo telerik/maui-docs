@@ -18,7 +18,7 @@ The following video demonstrates how to register the feed on your system and add
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c3m_BLMXNDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
->important The `Telerik.UI.for.Maui` NuGet works with .NET 7.0 and .NET 8.0 projects and automatically restores the required packages depending on the .NET version you are using in your project.
+>important The `Telerik.UI.for.Maui` NuGet works with .NET 7.0, .NET 8.0 and .NET 9 at least Preview 6 projects and automatically restores the required packages depending on the .NET version you are using in your project.
 
 ## Step 1: Set Up Your .NET MAUI Project
 
