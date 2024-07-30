@@ -171,12 +171,13 @@ navigation:
     ##CollectionView
     controls/collectionview:
         title: "CollectionView"
-    controls/collectionview/grouping:
-        title: "Grouping"
-        position: 12
+
     controls/collectionview/layouts:
         title: "Layouts"
         position: 5
+    controls/collectionview/grouping:
+        title: "Grouping"
+        position: 12
     controls/collectionview/item-swipe:
         title: "Item Swipe"
         position: 15
