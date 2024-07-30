@@ -129,11 +129,15 @@ The descriptor exposes the following properties:
 * `PropertyName`&mdash;Defines the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Defines the value used in the comparisons. This is the right operand of the comparison.
 
+## Composite Filter Descriptor
+
+The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that stores an arbitrary number of other descriptors instances. The logical `AND` or `OR` operator is applied upon all composed filters to determine the result of the `PassesFilter` routine.
+
 ## Delegate Filter Descriptor
 
 The `DelegateFilterDescriptor` exposes the `Filter` property, which gets or sets the `IFilter` implementation used to check whether a data item passes the filter or not.
 
-To use a `DelegateFilterDescriptor`, you need to create a class that implements the `IFilter` interface which will return the `Key` by which you want to filter. Then, you need to add a `DelegateFilterDescriptor` to the `RadDataGrid.FilterDescriptors` collection and set its `Filter` property.
+To use a `DelegateFilterDescriptor`, you need to create a class that implements the `IFilter` interface which will return the `Key` by which you want to filter. Then, you need to add a `DelegateFilterDescriptor` to the `RadCollectionView.FilterDescriptors` collection and set its `Filter` property.
 
 ## See Also
 
