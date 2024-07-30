@@ -2,7 +2,7 @@
 title: Sorting
 page_title: .NET MAUI CollectionView Documentation - Sorting
 description: Learn more about the sorting functionality in the Telerik UI for .NET MAUI CollectionView control.
-position: 7
+position: 10
 slug: collectionview-sorting
 tags: sort, collectionview, sorting, sortdescriptor
 ---
