@@ -46,7 +46,7 @@ Now, you are all set to start with the installation:
 
 1. Use the subdirectory of the installation folder you need:
 
-    * `Binaries`&mdash;Contains the `Net7` and `Net8` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
+    * `Binaries`&mdash;Contains the `Net7`, `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
     * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
     * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
     * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
