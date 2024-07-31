@@ -27,7 +27,7 @@ To add the desired screen to your MAUI application:
 
 1. Open the project in Visual Studio.
 1. Right-click the name of the project.
-1. From the popup menu select `Telerik UI for .NET MAUI` -> `Add new Scaffolded Item`.
+1. From the popup menu select **Telerik UI for .NET MAUI** -> **Add new Scaffolded Item**.
 ![.NET MAUI Scaffolding dialog](images/scaffolding-vs-dialog.png)
 
 1. From the UI form, select the desired page and set the available parameters.
