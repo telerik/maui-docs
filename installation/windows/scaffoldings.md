@@ -33,10 +33,16 @@ To add the desired screen to your MAUI application:
 1. From the UI form, select the desired page and set the available parameters.
 ![.NET MAUI Scaffolding options](images/scaffolding-vs-options.png)
 
-1. The page will be added to the `Pages` folder of the application. if one does not exist, it will be created. Every page has a `ViewModel`, so the `ViewModel` is added to the `ViewModels` folder. if one does not exist, it will be created. The image shows the `Products` screen after adding to the project.
+As a result, the VS code extension does the following:
+* Adds the page to the `Pages` folder of the application. If the folder does not exist, it will be created. 
+* Adds a `ViewModel` for the created page to the `ViewModels` folder. If the folder does not exist, it will be created.
+
+The next image shows the file structure created for the `Products` screen:
 ![.NET MAUI Scaffolding result](images/scaffolding-vs-result.png)
 
-1. To display the screen in your application you need to specify the page namespace.
+## Displaying a Scaffolded Screen in Your App
+
+To show a newly scaffolded page in your MAUI app, specify the page's namespace.
 
 In the example below, the screen is set directly to the `ShellContent` in the `AppShell.xaml`:
 
