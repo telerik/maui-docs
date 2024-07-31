@@ -17,7 +17,7 @@ To use the Telerik UI for .NET MAUI Scaffoldings, install the `Telerik UI for .N
 
 * <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Marketplace.</a>
 
-* The **Extensions** tab in Visual Studio Code - search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click `Install`.
+* The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
 
 ## Add The Scaffolding Page to Your App
 
