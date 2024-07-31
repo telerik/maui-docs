@@ -33,6 +33,7 @@ The `CollectionViewGridLayout` provides the following properties:
 * `HorizontalItemSpacing` (`double`)&mdash;Specifies the horizontal empty space around each item. The default value is `0.0`.
 * `VerticalItemSpacing` (`double`)&mdash;Specifies the vertical empty space around each item. The default value is `0.0`.
 * `Orientation` (enum or type `Telerik.Maui.Orientation`)&mdash;Specifies the orientation of the layout. The available options are: `Horizontal` and `Vertical` (default).
+* `ItemLength` (`double`)&mdash;Specifies the width or height (depending on the layout orientation) of the items. The default value is `-1`, which means that the items will be sized according to the targeted platform default behavior.
 
 ## Example with Grid Layout
 

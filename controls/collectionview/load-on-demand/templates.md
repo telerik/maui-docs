@@ -28,7 +28,7 @@ Here is an example how to customize the automatic indicator:
 
 **3.** Define the `AutomaticLoadOnDemandTemplate` in the page's resources:
 
-<snipper id='collectionview-loadondemand-automatic-template-resource' />
+<snippet id='collectionview-loadondemand-automatic-template-resource' />
 
 **4.** Add the `telerik` namespace:
 
@@ -60,7 +60,7 @@ Here is an example how to customize the manual button:
 
 **3.** Define the `ManualLoadOnDemandTemplate` in the page's resources:
 
-<snipper id='collectionview-loadondemand-manual-template-resource' />
+<snippet id='collectionview-loadondemand-manual-template-resource' />
 
 **4.** Add the `telerik` namespace:
 
