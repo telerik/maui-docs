@@ -39,7 +39,9 @@ As a result, the VS code extension does the following:
 The next image shows the file structure created for the `Products` screen:
 ![.NET MAUI Scaffolding result](images/scaffolding-vscode-result.png)
 
-1. To display the screen in your application you need to specify the page namespace.
+## Displaying a Scaffolded Screen in Your App
+
+To show a newly scaffolded page in your MAUI app, specify the page's namespace.
 
 In the example below, the screen is set directly to the `ShellContent` in the `AppShell.xaml`:
 
