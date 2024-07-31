@@ -23,7 +23,7 @@ To use the Telerik UI for .NET MAUI Scaffoldings, install the `Progress Telerik 
 
 ## Add The Scaffolding Page to Your App
 
-Here are the steps you need to follow to add the desired screen to your application:
+To add the desired screen to your MAUI application:
 
 1. Open the project in Visual Studio.
 1. Right-click on the name of the project.
