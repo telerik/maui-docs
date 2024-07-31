@@ -14,7 +14,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component ex
 ## Loading Content on Demand
 
 The load-on-demand feature gets implemented through the `LoadOnDemand` event. The `LoadOnDemand` event handler receives the following parameters:
-* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `LoadOnDemandEventArgs` object, which provides the `IsDataLoaded` (`bool`) property, indicating whether the data is loaded.
 
 For more information, see the topic about [loading data on demand in the .NET MAUI DataGrid]({%slug datagrid-features-loadondemand%}).
@@ -33,7 +33,7 @@ The following example demonstrates how to use the `LoadOnDemand` event.
 
 The DataGrid enables you to load the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView` through the `DistinctValuesLoading` event. The `DistinctValuesLoading` event handler receives the following parameters:
 
-* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
 	- `DistinctValues`&mdash;Specifies a list of values of type `IEnumerable` which are to be displayed in the `DataGridDistinctValuesFilterView`.
 	- (Read-only) `Column` of type `DataGridColumn`&mdash;Gets the column for which the distinct values are being loaded.
@@ -44,13 +44,13 @@ For more information, see the topic about the [available filtering options in th
 
 The DataGrid also provides the `DataBindingComplete` event which occurs when the associated DataGrid `ItemsSource` has been successfully bound to the control, or when any data operation like grouping, sorting, or filtering is applied. The `DataBindingComplete` event handler receives the following parameters:
 
-* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `DataBindingCompleteEventArgs` object, which provides the `DataView` (`IDataViewCollection`) property and allows for traversing and/or manipulating the already computed data view.
 
-## Modifying Group Selections
+## Modifying the Selection
 
 The DataGrid delivers the `SelectionChanged` event which is triggered whenever the `SelectedItems` collection is changed. The `SelectionChanged` event handler receives the following parameters:
-* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `DataGridSelectionChangedEventArgs` object, which provides the following properties:
 	- `RemovedItems`&mdash;Gets a list of the removed items from the `SelectedItems` collection.
 	- `AddedItems`&mdash;Gets a list of the added items to the `SelectedItems` collection.
@@ -61,12 +61,25 @@ For more information, see the article about the [`SelectionChanged` event of the
 
 The DataGrid also supports the `CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives the following parameters:
 
-* The sender argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `CurrentCellChangedEventArgs` object, which provides the following properties:
 	- `OldCurrentCell`&mdash;Gets the previously `CurrentCell`.
 	- `NewCurrentCell`&mdash;Gets the new `CurrentCell`.
 
 For more information, see the article about the [`CurrentCellChanged` event in the .NET MAUI DataGrid]({%slug datagrid-current-cell%}).
+
+## Reordering the Column
+
+The DataGrid exposes the `ColumnReorderStarting`, `ColumnReordering`, `ColumnReorderCompleting` and `ColumnReordered` events related to the column reordering operation. For more details review the DataGrid [Columns Reordering]({%slug datagrid-columns-reordering%}#events) article. 
+
+## Rezising the Column
+
+The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which is invoked when a column is resized by user interaction. The `ColumnUserResizeCompleted` event handler receives the following parameters:
+
+* * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
+	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
+	- `Width` (`double`)&mdash;Gets the width of the column that is resized.
 
 ## Additional Resources
 
@@ -76,6 +89,7 @@ For more information, see the article about the [`CurrentCellChanged` event in t
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
+
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
