@@ -9,7 +9,7 @@ tags: events
 
 # .NET MAUI DataGrid Events
 
-The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a set of events which help users achieve seamless and effective experience when interacting with the component.  
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a set of events which help users achieve seamless and effective experience when interacting with the component.
 
 ## Loading Content on Demand
 
@@ -72,11 +72,10 @@ For more information, see the article about the [`CurrentCellChanged` event in t
 
 The DataGrid exposes the `ColumnReorderStarting`, `ColumnReordering`, `ColumnReorderCompleting` and `ColumnReordered` events related to the column reordering operation. For more details review the DataGrid [Columns Reordering]({%slug datagrid-columns-reordering%}#events) article. 
 
-## Rezising the Column
+## Resizing the Column
 
 The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which is invoked when a column is resized by user interaction. The `ColumnUserResizeCompleted` event handler receives the following parameters:
-
-* * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
 	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
 	- `Width` (`double`)&mdash;Gets the width of the column that is resized.

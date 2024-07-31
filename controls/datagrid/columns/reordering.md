@@ -12,24 +12,24 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering featur
 
 ![DataGrid Reordering Desktop](../images/datagrid-reordering-mac.gif)
 
-`CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `True`.
-`ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator which is shown between two columns during reordering.
+`CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `true`.
+`ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator that is displayed between two columns during reordering.
 
 ## Events
 
-The DataGrid exposes the follwoing events related to reordering operation:
+The DataGrid exposes the following events related to reordering operation:
 
 * `ColumnReorderStarting`&mdash;Raised when the user starts to drag a column to reorder it. The `ColumnReorderStarting` event handler receives the following parameters:
     - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
     - `ColumnReorderStartingEventArgs` which has a reference to the following properties:
-        - `Column` (`DataGridColumn`)&mdash;Gets the colum that will be reordered.
+        - `Column` (`DataGridColumn`)&mdash;Gets the column that will be reordered.
         - `Index` (`int`) &mdash;Gets the index of the column that will be reordered.
         - `Cancel` (`bool`)&mdash;Defines a value indicating whether the reordering operation is canceled.
 
 * `ColumnReordering`&mdash;Raised continuously while the column is being dragged. The `ColumnReordering` event handler receives the following parameters:
     - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
     - `ColumnReorderingEventArgs` which has a reference to the following properties:
-        - `Column` (`DataGridColumn`)&mdash;Gets the colum that will be reordered.
+        - `Column` (`DataGridColumn`)&mdash;Gets the column that will be reordered.
         - `OldIndex` (`int`) &mdash;Gets the initial index of the column that is being reordered.
         - `NewIndex` (`int`) &mdash;Gets the new potential index of the column that is being reordered.
         - `NewIsFrozen` (`bool`)&mdash;Gets the new potential `Telerik.Maui.Controls.DataGrid.DataGridColumn.IsFrozen` value of the column that is being reordered.
@@ -48,7 +48,7 @@ The DataGrid exposes the follwoing events related to reordering operation:
 * `ColumnReordered`&mdash;Raised when a column has been successfully reordered. The `ColumnReordered` event handler receives the following parameters:
     - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
     - `ColumnReorderCompletingEventArgs` which has a reference to the following properties:
-        - `Column` (`DataGridColumn`)&mdash;Gets the colum that has been reordered.
+        - `Column` (`DataGridColumn`)&mdash;Gets the column that has been reordered.
         - `OldIndex` (`int`) &mdash;Gets the initial index of the column that has been reordered.
         - `OldIsFrozen` (`bool`)&mdash;Gets the initial `Telerik.Maui.Controls.DataGrid.DataGridColumn.IsFrozen` value of the column that has been reordered.
         - `NewIndex` (`int`) &mdash;Gets the new index of the column that has been reordered.
