@@ -21,7 +21,8 @@ You can use the following `RadCollectionView` properties to configure the item s
 
 - `IsItemSwipeEnabled`(`bool`)&mdash;Indicates whether the items of the CollectionView can be swiped. The default value is `False`.
 - `SwipeThreshold`(`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature.
-- `SwipeOffset`(`Thickness`)&mdash;Defines the distance that a swiped item will be moved to and stay there until the swipe gets closed.
+- `StartSwipeLength`(`double`)&mdash;Defines the distance that the start swiped item will be moved to and stay there until the swipe gets closed.
+- `EndSwipeLength`(`double`)&mdash;Defines the distance that the end swiped item will be moved to and stay there until the swipe gets closed.
 - `StartSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized for a swipe-left (in vertical orientations) or a swipe-up (in horizontal orientations).
 - `EndSwipeTemplate`(`DataTemplate`)&mdash;Defines the content that is visualized for a swipe-right (in vertical orientations) or a swipe-down (in horizontal orientations).
 
