@@ -23,6 +23,8 @@ Use the following configuration options to:
 	* (Default) `Automatic`&mdash;The data is requested automatically when the user scrolls by the end of the CollectionView.
 	* `Manual`&mdash;A button is rendered at the end of the CollectionView. The data is requested explicitly by pressing the button.
 
+>tip When the `LoadOnDemandMode` is `Automatic` and grouping applies to the control, the `LoadOnDemandMode` transforms to `Manual`.
+
 **2.** Control the number of pre-loaded items
 
 You can control the minimum number of items loaded ahead by using the `LoadOnDemandBufferItemsCount` (`int`) property. The defined value indicates at which point the additional items will start loading. The default value is 10. 

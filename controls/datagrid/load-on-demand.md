@@ -22,6 +22,8 @@ The DataGrid provides the following data-loading modes, which are present in the
 
 * `Manual`&mdash;A **Load More** button is present at the bottom of the DataGrid. Clicking it will load additional items based on the approach you have chosen for loading the items (through the event, the command, or the collection).
 
+>tip When the `LoadOnDemandMode` is `Automatic` and grouping applies to the control, the `LoadOnDemandMode` transforms to `Manual`.
+
 ## Approaches
 
 The DataGrid supports the following options for using its load-on-demand feature, depending on your application requirements:
