@@ -26,7 +26,7 @@ To add the desired screen to your MAUI application:
 1. Open the project in Visual Studio Code.
 1. Right-click the name of the `.csproj` file.
 
-1. From the popup menu select the `New Telerik UI for .NET MAUI Project Item Generator`.
+1. From the popup menu, select **New Telerik UI for .NET MAUI Project Item Generator**.
 ![.NET MAUI Scaffolding dialog](images/scaffolding-vscode-dialog.png)
 
 1. From the UI form, select the desired page and set the available parameters.
