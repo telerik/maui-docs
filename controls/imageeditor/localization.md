@@ -47,8 +47,11 @@ The table below shows the localization keys available for the ImageEditor contro
 | `ImageEditor_Type` | `Type` |
 | `ImageEditor_Undo` | `Undo` |
 | `ImageEditor_Width` | `Width` |
+| `ImageEditor_Zoom` | `Zoom` |
+| `ImageEditor_ZoomIn` | `Zoom In` |
+| `ImageEditor_ZoomOut` | `Zoom Out` |
 | `ImageEditor_ZoomToFit` | `Zoom to Fit` |
-
+| `ImageEditor_ZoomToOriginal` | `Actual Size` |
 
 ## See Also
 

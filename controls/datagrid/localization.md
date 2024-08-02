@@ -28,6 +28,7 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_LoadOnDemandButtonText` | `LOAD MORE` |
 | `DataGrid_LogicalOperator_And` | `And` |
 | `DataGrid_LogicalOperator_Or` | `Or` |
+| `DataGrid_NumericalOperator_EqualsTo` | `Is equal to` |
 | `DataGrid_NumericalOperator_DoesNotEqualTo` | `Is not equal to` |
 | `DataGrid_NumericalOperator_IsGreaterThan` | `Is greater than` |
 | `DataGrid_NumericalOperator_IsGreaterThanOrEqualTo` | `Is greater than or equal to` |
@@ -45,7 +46,9 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_Search_ApplyFilter` | `Filter Results` |
 | `DataGrid_Search_CaseSensitive` | `Match Case` |
 | `DataGrid_Search_Contains` | `Contains` |
-| `DataGrid_Search_StartsWith` | `Starts With` |
+| `DataGrid_Search_MatchesNotfound` | `Not found` |
+| `DataGrid_Search_MatchesStringFormat` | `Matches: {0}` |
+| `DataGrid_Search_SearchEntryPlaceholder` | `Type to Search` |
 | `DataGrid_Search_WholeWord` | `Whole Word` |
 
 ## Additional Resources
