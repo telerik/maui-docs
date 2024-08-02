@@ -70,7 +70,7 @@ For more information, see the article about the [`CurrentCellChanged` event in t
 
 ## Reordering the Column
 
-The DataGrid exposes the `ColumnReorderStarting`, `ColumnReordering`, `ColumnReorderCompleting` and `ColumnReordered` events related to the column reordering operation. For more details review the DataGrid [Columns Reordering]({%slug datagrid-columns-reordering%}#events) article. 
+The DataGrid exposes the `ColumnReorderStarting`, `ColumnReordering`, `ColumnReorderCompleting`, and `ColumnReordered` events related to the column reordering operation. For more details, review the DataGrid [Columns Reordering]({%slug datagrid-columns-reordering%}#events) article. 
 
 ## Resizing the Column
 

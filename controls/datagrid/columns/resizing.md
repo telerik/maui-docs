@@ -52,7 +52,7 @@ To disable the resizing on a specific column, set the `IsResizable` property. Th
 ## Events
 
 The DataGrid control exposes a `ColumnUserResizeCompleted` event that is invoked when the user resizes a column. The `ColumnUserResizeCompleted` event handler receives the following parameters:
-* * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
 	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
 	- `Width` (`double`)&mdash;Gets the width of the column that is resized.

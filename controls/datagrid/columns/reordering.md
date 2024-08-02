@@ -17,18 +17,18 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering featur
 
 ## Events
 
-The DataGrid exposes the following events related to reordering operation:
+The DataGrid exposes the following events related to the reordering operation:
 
 * `ColumnReorderStarting`&mdash;Raised when the user starts to drag a column to reorder it. The `ColumnReorderStarting` event handler receives the following parameters:
-    - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
-    - `ColumnReorderStartingEventArgs` which has a reference to the following properties:
+    - A `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+    - A `ColumnReorderStartingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that will be reordered.
         - `Index` (`int`) &mdash;Gets the index of the column that will be reordered.
         - `Cancel` (`bool`)&mdash;Defines a value indicating whether the reordering operation is canceled.
 
 * `ColumnReordering`&mdash;Raised continuously while the column is being dragged. The `ColumnReordering` event handler receives the following parameters:
-    - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
-    - `ColumnReorderingEventArgs` which has a reference to the following properties:
+    - A `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+    - A `ColumnReorderingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that will be reordered.
         - `OldIndex` (`int`) &mdash;Gets the initial index of the column that is being reordered.
         - `NewIndex` (`int`) &mdash;Gets the new potential index of the column that is being reordered.
@@ -36,8 +36,8 @@ The DataGrid exposes the following events related to reordering operation:
         - `CanDrop` (`bool`)&mdash;Defines a value indicating whether dropping the column at this specific location is allowed. The default value is `true`.
 
 * `ColumnReorderCompleting`&mdash;Raised when the user drops the column. This doesn't mean the column is reordered. The `ColumnReorderCompleting` event handler receives the following parameters:
-    - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
-    - `ColumnReorderCompletingEventArgs` which has a reference to the following properties:
+    - A `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+    - A `ColumnReorderCompletingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that is being reordered.
         - `OldIndex` (`int`) &mdash;Gets the initial index of the column that is being reordered.
         - `NewIndex` (`int`) &mdash;Gets the new potential index of the column that is being reordered.
@@ -46,8 +46,8 @@ The DataGrid exposes the following events related to reordering operation:
         - `Cancel` (`bool`)&mdash;Defines a value indicating whether the reordering operation is canceled.
 
 * `ColumnReordered`&mdash;Raised when a column has been successfully reordered. The `ColumnReordered` event handler receives the following parameters:
-    - `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
-    - `ColumnReorderCompletingEventArgs` which has a reference to the following properties:
+    - A `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
+    - A `ColumnReorderCompletingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that has been reordered.
         - `OldIndex` (`int`) &mdash;Gets the initial index of the column that has been reordered.
         - `OldIsFrozen` (`bool`)&mdash;Gets the initial `Telerik.Maui.Controls.DataGrid.DataGridColumn.IsFrozen` value of the column that has been reordered.
