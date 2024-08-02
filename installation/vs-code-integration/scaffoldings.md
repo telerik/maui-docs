@@ -1,5 +1,5 @@
 ---
-title: Telerik UI for .NET MAUI Code Scaffoldings
+title: Scaffolding Pages and Screens
 page_title: Telerik UI for .NET MAUI Code Scaffoldings - Visual Studio Code Scaffoldings
 description: Learn how to add predefined screens in your application using the Telerik .NET MAUI Visual Studio Code Scaffoldings.
 slug: maui-vs-code-scaffoldings
@@ -7,9 +7,9 @@ position: 1
 tags: maui, dotnet maui, item templates, scaffoldings, predefined pages, screens, visual studio code
 ---
 
-# .NET MAUI Scaffoldings for Visual Studio Code
+# Scaffolding Pages and Screens for Visual Studio Code
 
-The Telerik UI for .NET MAUI Visual Studio Code extension provides scaffoldings for increased developer productivity. The scaffoldings allow you to quickly add predefined pages with controls to your application and define the parameters of the controls through an UI.
+The Telerik UI for .NET MAUI Visual Studio Code extension lets you scaffold an app page (screen) and increase your productivity. The scaffoldings allow you to quickly add predefined pages with controls to your application and define the parameters of the controls through an UI.
 
 ## Get the Extension
 
@@ -62,6 +62,10 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 
 </Shell>
 ```
+
+This is the result on iOS and MacCatalyst:
+
+![.NET MAUI Scaffolding screen look](images/scaffolding-vs-screen-look.png)
 
 ## Available Scaffoldings
 

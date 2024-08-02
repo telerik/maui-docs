@@ -1,5 +1,5 @@
 ---
-title: Telerik UI for .NET MAUI Code Snippets
+title: Code Snippets
 page_title: Telerik UI for .NET MAUI Code Snippets - Visual Studio Code Integration
 description: Learn how to add a new component in Visual Studio Code via code snippet templates.
 slug: getting-started-vs-code-integration-snippets
