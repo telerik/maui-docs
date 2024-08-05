@@ -3,7 +3,7 @@ title: Drag and Drop between CollectionViews
 page_title: .NET MAUI CollectionView Documentation - Drag and Drop between CollectionViews
 description: Review the Telerik UI for .NET MAUI CollectionView Drag and Drop between CollectionViews
 position: 2
-slug: collectionview-drag-and-drop-between-collectionviews
+slug: collectionview-dragdrop-between-collectionviews
 tags: collectionview, drag-drop
 ---
 
@@ -31,7 +31,7 @@ Here is the result:
 
 ## See Also
 
-- [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%})
-- [Reorder Grouped Items]({%slug collectionview-reorder-grouped-items%})
-- [DragVisual and ReorderIndicator Templates]({%slug collectionview-draganddrop-templates%})
-- [Reorder Indicator Styling]({%slug collectionview-reorder-indicator-styling%})
+- [Drag and Drop Overview]({%slug collectionview-dragdrop-overview%})
+- [Drag and Drop Grouped Items]({%slug collectionview-dragdrop-grouped-items%})
+- [DragVisual and DropIndicator Templates]({%slug collectionview-dragdrop-templates%})
+- [Drop Indicator Styling]({%slug collectionview-drop-indicator-styling%})

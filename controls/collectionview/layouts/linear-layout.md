@@ -2,7 +2,7 @@
 title: Linear Layout
 page_title: .NET MAUI CollectionView Documentation - Linear Layout
 description: Learn how to configure the CollectionView to display the items vertically or horizontally.
-position: 1
+position: 0
 slug: collectionview-linear-layout
 tags: .net maui, collectionview, layout, vertical, horizontal
 ---

@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI CollectionView Documentation - Events
 description: Explore the Telerik UI for .NET MAUI CollectionView Events like Item Events and Selection Events.
-position: 18
+position: 25
 slug: collectionview-events
 tags: events
 ---

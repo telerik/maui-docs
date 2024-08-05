@@ -171,21 +171,25 @@ navigation:
     ##CollectionView
     controls/collectionview:
         title: "CollectionView"
-    controls/collectionview/grouping:
-        title: "Grouping"
-        position: 8
+
     controls/collectionview/layouts:
         title: "Layouts"
+        position: 5
+    controls/collectionview/grouping:
+        title: "Grouping"
         position: 12
     controls/collectionview/item-swipe:
         title: "Item Swipe"
-        position: 13
+        position: 15
     controls/collectionview/drag-and-drop:
         title: "Drag & Drop"
-        position: 14
+        position: 16
+    controls/collectionview/load-on-demand:
+        title: "Load On Demand"
+        position: 17
     controls/collectionview/styling:
         title: "Styling"
-        position: 20
+        position: 30
     ## End CollectionView
     ## ComboBox
     controls/combobox:

@@ -10,6 +10,7 @@ previous_url: /installation/system-requirements
 # System Requirements for Windows
 
 >note Telerik .NET MAUI 3.2.0 version supports .NET 7.0.
+>note Telerik .NET MAUI 7.1.0 version supports .NET 9.0 Preview 6. For creating a project targeting a .NET 9 Preview, you need to use a Visual Studio 2022 Preview. 
 
 To develop applications with Telerik UI for .NET MAUI on Windows, you need to install specific development tools.
 

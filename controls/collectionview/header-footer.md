@@ -2,6 +2,7 @@
 title: Header and Footer
 page_title: .NET MAUI CollectionView Documentation - Header and Footer
 description: Learn how to add header and footer to the Telerik UI for .NET MAUI CollectionView.
+position: 19
 slug: collectionview-header-footer
 tags: .net maui, maui, collectionview, header, footer, headertemplate, footertemplate
 ---

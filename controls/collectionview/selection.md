@@ -2,7 +2,7 @@
 title: Selection
 page_title: .NET MAUI CollectionView Documentation - Selection
 description: The CollectionView for .NET MAUI exposes a selection feature that allows the user to select single or multiple items in the CollectionView control.
-position: 4
+position: 6
 slug: collectionview-selection
 ---
 

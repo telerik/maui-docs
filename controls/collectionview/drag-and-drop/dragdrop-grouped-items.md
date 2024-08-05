@@ -3,7 +3,7 @@ title: Reorder Grouped Items
 page_title: .NET MAUI CollectionView Documentation - Reorder Grouped Items
 description: Review the Telerik UI for .NET MAUI CollectionView Reorder Grouped Items.
 position: 1
-slug: collectionview-reorder-grouped-items
+slug: collectionview-dragdrop-grouped-items
 tags: reorder, collectionview, drag-drop, grouping
 ---
 
@@ -25,7 +25,7 @@ The following example demonstrates how you can implement a custom logic on the d
 
 **2.** Add a CollectionView control to the page:
 
-<snippet id='collectionview-reorder-grouping' />
+<snippet id='collectionview-dragdrop-grouping' />
 
 **3.** Define the following business object:
 
@@ -38,5 +38,5 @@ The following example demonstrates how you can implement a custom logic on the d
 ## See Also
 
 - [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%})
-- [DragVisual and ReorderIndicator Templates]({%slug collectionview-draganddrop-templates%})
-- [Drag and Drop between CollectionViews]({%slug collectionview-drag-and-drop-between-collectionviews%})
+- [DragVisual and DropIndicator Templates]({%slug collectionview-draganddrop-templates%})
+- [Drag and Drop between CollectionViews]({%slug collectionview-dragdrop-between-collectionviews%})

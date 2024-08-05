@@ -9,7 +9,7 @@ tags: loading data, .net maui, maui, collectionview, load data on demand, loadin
 
 # .NET MAUI CollectionView LoadOnDemand Collection
 
-To load items on demand, you can use the `CollectionView.LoadOnDemandCollection` and set it as an `ItemsSource` for the `CollectionView`.
+To load items on demand, you can use the `RadCollectionView.LoadOnDemandCollection` and set it as an `ItemsSource` for the `CollectionView`.
 
 The `LoadOnDemandCollection` is a generic type, so you need to point the type of objects it will contain. The type extends the `ObservableCollection<T>` class and expects a `Func<CancellationToken, IEnumerable>` in the constructor.
 
