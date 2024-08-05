@@ -63,10 +63,6 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 </Shell>
 ```
 
-This is the result on iOS and MacCatalyst:
-
-![.NET MAUI Scaffolding screen look](images/scaffolding-vs-screen-look.png)
-
 ## Available Scaffoldings
 
 * [Products page](#products-page)
@@ -77,7 +73,7 @@ This is the result on iOS and MacCatalyst:
 
 ### Products Page
 
-The Produts page repesents a list of products. The main control used on this page is the Telerik UI for .NET MAUI [CollectionView]({%slug collectionview-overview%}) control. Thie scaffolding page allows you to configure the selection mode of the ColelctionView and whether to add the predefined icons used in the template.
+The Products page represents a list of products. The main control used on this page is the Telerik UI for .NET MAUI [CollectionView]({%slug collectionview-overview%}) control. The scaffolding page allows you to configure the selection mode of the CollectionView and whether to add the predefined icons used in the template.
 
 The image shows the default appearance of the page:
 
@@ -89,7 +85,7 @@ The DataGrid page represents a data displayed in a table. The main control used 
 
 The image shows the default appearance of the page:
 
-![.NET MAUI Products Page](../images/datagrid_page.png)
+![.NET MAUI DataGrid Page](../images/datagrid_page.png)
 
 ### Login Screen
 
@@ -97,7 +93,7 @@ The Login screen represents a login panel. The main controls used on this screen
 
 The image shows the default appearance of the page:
 
-![.NET MAUI Products Page](../images/login_screen.png)
+![.NET MAUI Login Screen](../images/login_screen.png)
 
 ### Register Screen
 
@@ -105,7 +101,7 @@ This screen allows you to add a register page to your .NET MAUI application. The
 
 The image shows the default appearance of the page:
 
-![.NET MAUI Products Page](../images/register_screen.png)
+![.NET MAUI Register Screen](../images/register_screen.png)
 
 ### Reset Password Screen
 
@@ -113,5 +109,7 @@ This screen allows you to add a reset password page to your application. The mai
 
 The image shows the default appearance of the page:
 
-![.NET MAUI Products Page](../images/reset_screen.png)
+![.NET MAUI Reset Password Screen](../images/reset_screen.png)
+
+
 
