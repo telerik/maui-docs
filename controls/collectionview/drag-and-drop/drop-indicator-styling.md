@@ -21,7 +21,7 @@ Check a quick example with a modified `CollectionViewDropIndicator`:
 
 <snippet id='collectionview-drop-indicator-styling' />
 
-For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%}) topic.
+For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-dragdrop-overview%}) topic.
 
 Check the result below:
 

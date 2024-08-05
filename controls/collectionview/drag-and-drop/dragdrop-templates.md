@@ -28,7 +28,7 @@ Check an example of the CollectionView with sample `DragVisualTemplate` and `Dro
 
 <snippet id='collectionview-dragdrop-templates' />
 
-For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%}) page.
+For the purpose of the example, use the `ViewModel` and `DataModel` classes from the [Drag and Drop Overview]({%slug collectionview-dragdrop-overview%}) page.
 
 Check the result below:
 
