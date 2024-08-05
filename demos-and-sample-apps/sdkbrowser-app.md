@@ -63,7 +63,7 @@ You can access the SDKBrowser application in the following ways:
 
   ![Telerik UI for .NET MAUI SDKBrowser App Android iOS](images/sdk-mobile.png)
 
->tip Check the [.NET MAUI Examples, Demos, and Sample Apps Overview]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
+>tip Check the [.NET MAUI Examples Apps]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 
 ## See Also
 

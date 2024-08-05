@@ -16,7 +16,7 @@ This guide provides the information you need to convert your application, which 
 
 ## Step 1: Xamarin.Forms to .NET MAUI Migration Steps
 
-While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 7.0/.NET 8.0 and, thus, update to .NET MAUI.
+While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 7.0/.NET 8.0 and, thus, upgrade Xamarin to .NET MAUI.
 
 The following list summarizes the required steps of the Xamarin to MAUI migration. For the detailed guide, go to the official Microsoft documentation on [how to migrate your Xamarin.Forms application to the .NET SDK style](https://docs.microsoft.com/en-us/dotnet/maui/get-started/migrate).
 
@@ -140,9 +140,15 @@ The following list includes the links to the available Xamarin to MAUI migration
 
 ## Step 5: Port Custom Renderers to Handlers
 
-To customize the appearance and behavior of the native controls on each platform, Xamarin.Forms widely uses custom renderers and platform effects. In .NET MAUI, these renderers are replaced with handlers and, when migrating to .NET MAUI, you will need port the custom renderers to handlers.
+To customize the appearance and behavior of the native controls on each platform, Xamarin.Forms widely uses custom renderers and platform effects. In .NET MAUI, these renderers are replaced with handlers and, when migrating Xamarin to MAUI, you will need port the custom renderers to handlers.
 
 For the detailed guide, go to the official Microsoft documentation on GitHub about [how to migrate custom renderers to handlers](https://github.com/dotnet/maui/wiki/Porting-Custom-Renderers-to-Handlers).
+
+## Video Tutorial
+
+The following video demonstrates how you can upgrade your Xamarin.Forms App to .NET MAUI
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-AeFIjW0Jgc?si=4cRLFUPl-9uBDjeu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## See Also
 

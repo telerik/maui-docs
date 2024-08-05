@@ -28,7 +28,7 @@ For more information on it, refer to [Controls Samples App]({%slug controls-samp
 
 ## SDKBrowser App
 
-The SDKBrowser is a set of .NET MAUI examples that explain how to use the features of a control. Contrary to the Controls Samples application, the SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
+The SDKBrowser is a set of .NET MAUI examples in C# and XAML that explain how to use the features of a control. Contrary to the Controls Samples application, the SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
 
 ![.NET MAUI examples and controls samples](images/sdk-mobile.png)
 
@@ -36,7 +36,7 @@ For more information on it, refer to [SDKBrowser App]({%slug sdkbrowser-app%}).
 
 ## Crypto Tracker App 
 
-Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI examples built with the Telerik UI for .NET MAUI controls. In this demo, you can see in action many of the .NET MAUI controls in the library, including the ListView, Charts and TabView.
+Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls. In this demo, you can see in action many of the .NET MAUI controls in the library, including the ListView, Charts and TabView.
 
 ![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
