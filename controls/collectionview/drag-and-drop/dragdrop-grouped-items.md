@@ -37,6 +37,6 @@ The following example demonstrates how you can implement a custom logic on the d
 
 ## See Also
 
-- [Drag and Drop Overview]({%slug collectionview-draganddrop-overview%})
-- [DragVisual and DropIndicator Templates]({%slug collectionview-draganddrop-templates%})
+- [Drag and Drop Overview]({%slug collectionview-dragdrop-overview%})
+- [DragVisual and DropIndicator Templates]({%slug collectionview-dragdrop-templates%})
 - [Drag and Drop between CollectionViews]({%slug collectionview-dragdrop-between-collectionviews%})
