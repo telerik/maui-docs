@@ -10,14 +10,14 @@ slug: combobox-filtering
 
 The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides filtering, which allows the users to refine their search results as they type into the input field. The default filtering is performed according to the `SearchMode` and `SearchTexhPath` properties of the ComboBox. 
 
-For more details on the search functionality of the ComboBox, go to [Edit Mode & Search]({%slug combobox-editmode-and-search%}) topic.
+For more details on the search functionality of the ComboBox, go to the [Edit Mode & Search]({%slug combobox-editmode-and-search%}) topic.
 
-This topic describes in details the configuration options related to the filtering feature the ComboBox:
+This topic describes in detail the configuration options related to the filtering feature of the ComboBox:
 
 * `IsFilteringEnabled`(`bool`)&mdash;Indicates whether the filtering is enabled. Its default value is `False`.
 * `FilteredItems`(`IReadOnlyCollection<object>`)&mdash;Gets the filtered items collection.
-* `NoResultsMessage`(`string`)&mdash;Defines the message visualized when there are no matched items found during filtering.
-* `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the `DataTemplate` visualized when there are no matched items found during filtering.
+* `NoResultsMessage`(`string`)&mdash;Defines the message visualized when no items match the applied filter.
+* `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the `DataTemplate` visualized when no items match the applied filter.
 
 Here is a quick example of `RadComboBox` with enabled filtering:
 
@@ -43,7 +43,7 @@ You can override the default logic for filtering items by applying a custom filt
 
 * `FilteringBehavior`(`ComboBoxFilteringBehavior`)&mdash;Defines the filtering behavior used to filter items.
 
-Here is a quick example which demonstrates a custom filtering behavior - the items are filtered not only by the entered search text, but also according to the `Population` property. 
+Here is a quick example which demonstrates the custom filtering behavior—the items are filtered not only by the entered search text, but also according to the `Population` property. 
 
 **1.** Create a custom filtering behavior class:
 
