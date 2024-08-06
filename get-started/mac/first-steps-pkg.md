@@ -40,13 +40,17 @@ Telerik UI for .NET MAUI enables you to download the suite either from the [Tele
 
 Now, you are all set to start with the installation on your machine from the Apple Installer `.pkg` file:
 
-1. Go to the Telerik UI for .NET MAUI download page following the instructions in the topic on [downloading the Telerik UI for .NET MAUI product files]({%slug download-product-files%}).
-
 1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. As a result, the file will automatically install Telerik UI for .NET MAUI on your Mac.
 
-	For more information about the file included in the `Installation` folder, go to the [list of options and product files]({% slug download-product-files %}#list-of-options-and-product-files).
+1. Use the sub-directory of the installation folder you need:
 
-	![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../../images/installation-macos.png)
+    * `Binaries`&mdash;Contains the `Net7`, `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
+    * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
+    * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
+    * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
+    * `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
+    
+    ![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../../installation/mac/images/mac-folders.png)
 
 ## Step 4: Register the Required Handlers
 

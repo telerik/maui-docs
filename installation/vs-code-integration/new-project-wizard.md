@@ -6,7 +6,6 @@ slug: getting-started-vs-code-integration-new-project
 position: 0
 ---
 
-
 # Create New Projects
 
 This article demonstrates how to use the Telerik Extension for Visual Studio Code to create a new project that is pre-configured for the Progress&reg; Telerik&reg; UI for .NET MAUI components.

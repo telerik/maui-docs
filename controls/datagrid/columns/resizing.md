@@ -49,6 +49,42 @@ To disable the resizing on a specific column, set the `IsResizable` property. Th
 
 ![.NET MAUI DataGrid disable column resizing](../images/column-resizing-disable-column-level.gif)
 
+## Events
+
+The DataGrid control exposes a `ColumnUserResizeCompleted` event that is invoked when the user resizes a column. The `ColumnUserResizeCompleted` event handler receives the following parameters:
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
+	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
+	- `Width` (`double`)&mdash;Gets the width the Column was resized to.
+
+Here is an example with the `ColumnUserResizeCompleted` event:
+
+**1.** Create a sample model:
+
+<snippet id='datagrid-persondetails' />
+
+**2.** Create a `ViewModel`:
+
+<snippet id='datagrid-reordering-viewmodel' />
+
+**3.** Define the DataGrid in XAML:
+
+<snippet id='datagrid-resizing-example' />
+
+**4.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**5.** The `OnDataGridColumnUserResizeCompleted` implementation:
+
+<snippet id='datagrid-column-resizing-event' />
+
+This is the result:
+
+![.NET MAUI DataGrid Resizing event](../images/datagrid-resizing-event.gif)
+
 ## See Also
 
 - [Column Reordering]({%slug datagrid-columns-reordering%})

@@ -25,6 +25,7 @@ The ToggleButton is commonly used in scenarios to capture and represent a binary
 * [Exhaustive number of events]({%slug togglebutton-events%})&mdash;You can use the events exposed by the ToggleButton to execute various operations on user interaction such as click, press, release, and changing toggle state.
 * [Command]({%slug togglebutton-command%})&mdash;The ToggleButton provides a command, that executes when the button is clicked.
 * [Styling]({%slug togglebutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness and more.
+* [Ripple effect]({%slug togglebutton-ripple%})&mdash;You can apply a ripple effect on Android when pressing the ToggleButton.
 
 ## Next Steps
 

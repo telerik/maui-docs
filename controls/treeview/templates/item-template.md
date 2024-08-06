@@ -66,9 +66,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Create a sample `Country` class:
+**3.** Create a sample data classes:
 
 <snippet id='treeview-country-model' />
+<snippet id='treeview-city-model' />
+<snippet id='treeview-location-model' />
 
 **4.** Add the `ViewModel` class:
 

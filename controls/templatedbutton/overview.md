@@ -22,6 +22,7 @@ Additionally, it enables you to align its content and define custom content by u
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interactions such as click, press, and release.
 * [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is clicked.
 * [Styling]({%slug templatedbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and more.
+* [Ripple effect]({%slug templatedbutton-ripple%})&mdash;You can apply a ripple effect on Android when pressing the TemplatedButton.
 
 ## Next Steps
 

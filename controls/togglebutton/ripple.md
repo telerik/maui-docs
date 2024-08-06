@@ -3,29 +3,33 @@ title: Ripple
 page_title: .NET MAUI ToggleButton Documentation - Ripple Effect
 description: Learn how to set a ripple effect to the Telerik ToggleButton for .NET MAUI.
 position: 10
-published: False
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-ripple
 ---
 
-# .NET MAUI ToggleButton Ripple Effect
+# (Android-only) .NET MAUI ToggleButton Ripple Effect
 
-By using attached properties you can apply a ripple effect to the ToggleButton.
+Apply a ripple effect to the ToggleButton, by using the following attached properties of the `RadEffects` class:
 
-The `Ripple` class exposes the following properties:
+* `RippleColor` (`Color`)&mdash;Specifies the color of the ripple effect.
+* `RippleMode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are:
+	* (Default)`Pulse`&mdash;The element produces a ripple effect when pressed. The ripple fades away even when held.
+	* `Hold`&mdash;The element produces a ripple effect when pressed and floods the element while held.
+	* `None`&mdash;The element does not render ripple effects.
 
-* `Color` (`Color`)&mdash;Specifies the color of the ripple effect.
-* `Mode` (enum of type `Telerik.Maui.Theming.RippleMode`)&mdash;Specifies the mode in which the ripple effect can be visualized. The options are `None`, `Pulse`, `Hold`.
+> The ripple effect is available on Android.
 
-### Using the Ripple
+![.NET MAUI ToggleButton Ripple effect](images/togglebutton-ripple-effect-default.gif)
 
-The following example demonstrates how to apply ripple effect to the ToggleButton.
+### Customizing the Ripple Effect
+
+The following example demonstrates how to customize the ripple effect of the ToggleButton by changing the `RippleMode` and `RippleColor`.
 
 **1.** Define the buttons in XAML:
 
 <snippet id='togglebutton-ripple-effect' />
 
-**2.** Define the resources in the page's resources:
+**2.** To customize the `RippleColor` when the ToggleButton is toggled and pressed, add the following code to the page's resources.
 
 <snippet id='togglebutton-ripple-visual-states-resources' />
 
@@ -35,7 +39,11 @@ The following example demonstrates how to apply ripple effect to the ToggleButto
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-> For a runnable example demonstrating the ToggleButton Ripple Effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
+This is the result on Android:
+
+![.NET MAUI ToggleButton ripple effect customization](images/togglebutton-ripple-effect.gif)
+
+> For a runnable example demonstrating the customization of the ToggleButton ripple effect, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **ToggleButton > Features** category.
 
 ## See Also
 
