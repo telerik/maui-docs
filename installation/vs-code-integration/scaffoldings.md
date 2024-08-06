@@ -63,6 +63,10 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 </Shell>
 ```
 
+This is the result on iOS and MacCatalyst:
+
+![.NET MAUI Scaffolding screen look](images/scaffolding-vscode-screen-look.png)
+
 ## Available Scaffoldings
 
 * [Products page](#products-page)
