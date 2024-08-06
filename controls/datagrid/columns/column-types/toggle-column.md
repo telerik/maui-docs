@@ -12,6 +12,10 @@ The `DataGridToggleRowDetailsColumn` represents `DataGridColumn` that allows the
 
 ![DataGrid Toggle Row Details Column](images/datagrid-row-details.gif)
 
+## Important Properties
+
+* `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
+
 ## See Also
 
 - [Columns Styling]({%slug datagrid-columns-styling%})

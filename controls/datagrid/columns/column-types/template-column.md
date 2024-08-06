@@ -22,6 +22,7 @@ If you want to completely customize the content of the cells in a grid column, y
 * `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 * `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only supported in `WinUI` and `MacCatalyst`.
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
+* `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
 >important For more information about sorting and grouping, refer to the [DataGrid Sorting]({%slug datagrid-sorting-overview%}) and [DataGrid Grouping]({%slug datagrid-grouping-overview%}) articles.
 
