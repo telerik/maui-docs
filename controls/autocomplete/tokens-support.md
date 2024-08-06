@@ -18,7 +18,7 @@ The Tokens Support feature exposes the following properties:
 
 ## Tokens Collection
 
-The AutoComplete control provides a readonly collection for the tokens - `Tokens` collection of type `*ObservableCollection&lt;object&gt;*`. When items are selected from the SuggestionView and DisplayMode is Tokens, these items are added to the Tokens collection. To track changes in the Tokens collection when items are added or removed you have to subscribe for the `Tokens.CollectionChanged`. 
+The AutoComplete control provides a readonly collection for the tokens - `Tokens` collection of type `ObservableCollection<object>`. When items are selected from the SuggestionView and DisplayMode is Tokens, these items are added to the Tokens collection. To track changes in the Tokens collection when items are added or removed you have to subscribe for the `Tokens.CollectionChanged`. 
 For example:
 
 ```C#

@@ -61,7 +61,7 @@ dataGrid.SelectionMode = Telerik.Maui.Controls.DataGrid.DataGridSelectionMode.Mu
 
 The DataGrid exposes the `SelectedItem` and `SelectedItems` properties which you can use depending on whether you have defined a single or multiple selection mode.
 
-Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type `ObservableCollection` object. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row. You can also directly listen to the `CollectionChanged` event of the `SelectedItems`.
+Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type `ObservableCollection<object>`. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row. You can also directly listen to the `CollectionChanged` event of the `SelectedItems`.
 
 The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of the `SelectedItem` depends on the value of the `SelectedUnit`.
 
