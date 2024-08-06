@@ -55,7 +55,7 @@ The DataGrid control exposes a `ColumnUserResizeCompleted` event that is invoked
 * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
 	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
-	- `Width` (`double`)&mdash;Gets the width of the column that is resized.
+	- `Width` (`double`)&mdash;Gets the width the Column was resized to.
 
 Here is an example with the `ColumnUserResizeCompleted` event:
 
@@ -76,6 +76,10 @@ Here is an example with the `ColumnUserResizeCompleted` event:
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+**5.** The `OnDataGridColumnUserResizeCompleted` implementation:
+
+<snippet id='datagrid-column-resizing-event' />
 
 This is the result:
 
