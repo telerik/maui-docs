@@ -23,7 +23,7 @@ The DataGrid exposes the following events related to the reordering operation:
     - A `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
     - A `ColumnReorderStartingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that will be reordered.
-        - `Index` (`int`) &mdash;Gets the index of the column that will be reordered. The `Index` is the index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection.
+        - `Index` (`int`) &mdash;Gets the index of the column that will be reordered. The `Index` is the index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection, depending on the value of `Column.IsFrozen`.
         - `Cancel` (`bool`)&mdash;Defines a value indicating whether the reordering operation is canceled.
 
 * `ColumnReordering`&mdash;Raised continuously while the column is being dragged. The `ColumnReordering` event handler receives the following parameters:
@@ -49,9 +49,9 @@ The DataGrid exposes the following events related to the reordering operation:
     - A `sender` argument which is of type `object`, but can be cast to the `RadDataGrid` type.
     - A `ColumnReorderCompletingEventArgs` object, which has a reference to the following properties:
         - `Column` (`DataGridColumn`)&mdash;Gets the column that has been reordered.
-        - `OldIndex` (`int`) &mdash;Gets the initial index of the column that has been reordered. The `OldIndex` is the old index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection, depending on the value of `Column.IsFrozen`.
+        - `OldIndex` (`int`) &mdash;Gets the initial index of the column that has been reordered. The `OldIndex` is the old index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection, depending on the value of `OldIsFrozen`.
         - `OldIsFrozen` (`bool`)&mdash;Gets the initial `Telerik.Maui.Controls.DataGrid.DataGridColumn.IsFrozen` value of the column that has been reordered.
-        - `NewIndex` (`int`) &mdash;Gets the new index of the column that has been reordered. The `NewIndex` is the new index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection.
+        - `NewIndex` (`int`) &mdash;Gets the new index of the column that has been reordered. The `NewIndex` is the new index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection, depending on the value of `Column.IsFrozen`. 
 
 ## Example with Reorder Columns and Events
 
