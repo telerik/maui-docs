@@ -17,7 +17,7 @@ ComboBox control has a support for single and multiple selection. You can specif
 * `SelectionMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`)&mdash;Defines whether the selection is single or multiple.
 * `SelectedIndex`(`int`)&mdash;Specifies the index of the first item in the current selection or -1 if the selection is empty.
 * `SelectedItem`(`object`)&mdash;Defines the first item in the current selection, or null if the selection is empty.
-* `SelectedItems`(`readonly ObservableCollection &lt;object &gt;`)&mdash;Gets the collection of currently Selected Items. 
+* `SelectedItems`(`ObservableCollection<object>`)&mdash;Gets the collection of currently Selected Items. 
 
 > `SelectedItems` collection can be changed only when `SelectionMode` is `Multiple`. For `Single` `SelectionMode` use `SelectedItem`.
 

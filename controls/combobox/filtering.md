@@ -15,7 +15,7 @@ For more details on the search functionality of the ComboBox, go to [Edit Mode &
 This topic describes in details the configuration options related to the filtering feature the ComboBox:
 
 * `IsFilteringEnabled`(`bool`)&mdash;Indicates whether the filtering is enabled. Its default value is `False`.
-* `FilteredItems`(`IReadOnlyCollection&lt;object&gt;`)&mdash;Gets the filtered items collection.
+* `FilteredItems`(`IReadOnlyCollection<object>`)&mdash;Gets the filtered items collection.
 * `NoResultsMessage`(`string`)&mdash;Defines the message visualized when there are no matched items found during filtering.
 * `NoResultsTemplate`(`DataTemplate`)&mdash;Defines the `DataTemplate` visualized when there are no matched items found during filtering.
 
