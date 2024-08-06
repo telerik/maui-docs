@@ -1,9 +1,9 @@
 ---
-title: Migrating from Telerik .NET MAUI ListView to Telerik CollectionView
+title: Migrating from Telerik .NET MAUI ListView
 page_title: Migrating from Telerik .NET MAUI ListView to Telerik CollectionView
 description: Learn how to migrate the Telerik UI for .NET MAUI ListView to the Telerik CollectionView for .NET MAUI.
 slug: listview-migration
-position: 22
+position: 40
 ---
 
 # Migrating the Telerik .NET MAUI ListView to CollectionView
@@ -22,7 +22,7 @@ When migrating the Telerik .NET MAUI ListView, consider the following difference
 | Sorting through `PropertySortDescriptor` or `DelegateSortDescriptor` | [Sorting]({%slug collectionview-sorting%}) through `PropertySortDescriptor` or `DelegateSortDescriptor` |
 | Filtering through `DelegateFilterDescriptor` | [Filtering]({%slug collectionview-filtering%}) through various filter descriptors, such as `TextFilterDescriptor`, `NumericalFilterDescriptor`, etc |
 | Header and Footer templates | [Header and Footer templates]({%slug collectionview-header-footer%}) |
-| Load On Demand&mdash;Automatic and Manual, items can be loaded on demand through a `ListViewLoadOnDemandCollection`, a `LoadOnDemand` event or LoadOnDemand `ListViewUserCommand`  | Load On Demand&mdash;Automatic and Manual, items can be loaded on demand through a `LoadOnDemandCollection`, a `LoadOnDemand` event or `LoadOnDemandCommand` |
+| Load On Demand&mdash;Automatic and Manual, items can be loaded on demand through a `ListViewLoadOnDemandCollection`, a `LoadOnDemand` event or LoadOnDemand `ListViewUserCommand`  | [Load On Demand]({%slug collectionview-load-on-demand%})&mdash;Automatic and Manual, items can be loaded on demand through a `LoadOnDemandCollection`, a `LoadOnDemand` event or `LoadOnDemandCommand` |
 | Scrolling&mdash;`VerticalScrollBarVisibility` property, `ScrollItemIntoView` method | [Scrolling]({%slug collectionview-scrolling%})&mdash;`ScrollItemIntoView` method, `Scrolled` event |
 | Linear and Grid Layouts | [Linear]({%slug collectionview-linear-layout%}) and [Grid]({%slug collectionview-grid-layout%}) Layouts |
 | Cell Swipe with `ItemSwipeContentTemplate` and `SwipeOffset` | [Item Swipe]({%slug collectionview-item-swipe-overview%}) with `StartSwipeTemplate`, `EndSwipeTemplate`, `StartSwipeLength` and `EndSwipeLength` properties |
