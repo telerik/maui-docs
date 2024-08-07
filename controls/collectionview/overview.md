@@ -36,9 +36,9 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Load on Demand]({%slug collectionview-load-on-demand%})&mdash;In addition to the built-in UI virtualization, the CollectionView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded either by a Button (manual) or by scrolling towards the end of the CollectionView (automatic).
 
-* [Refresh Data]({%slug collectionview-pull-to-refresh})&mdash;Allows the user to manually trigger an update of the list through an integration with the .NET MAUI RefreshView control.
+* [Refresh Data]({%slug collectionview-pull-to-refresh%})&mdash;Allows the user to manually trigger an update of the list through an integration with the .NET MAUI RefreshView control.
 
-* [Header and Footer]({%slug collectionview-header-footer})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the CollectionView items.
+* [Header and Footer]({%slug collectionview-header-footer%})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the CollectionView items.
 
 * [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group item.
 
