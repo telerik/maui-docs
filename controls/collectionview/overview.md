@@ -34,7 +34,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Drag &amp; Drop]({%slug collectionview-dragdrop-overview%})&mdash;The .NET MAUI CollectionView provides drag-and-drop functionality which allows the end user to reorder its items as well as drag and drop items between two CollectionViews.
 
-* [Load on Demand]({%slug collectionview-load-on-demand%})&mdash;In addition to the built-in UI virtualization, the CollectionView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded either by a Button (manual) or by scrolling towards end (automatic) of the CollectionView.
+* [Load on Demand]({%slug collectionview-load-on-demand%})&mdash;In addition to the built-in UI virtualization, the CollectionView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded either by a Button (manual) or by scrolling towards the end of the CollectionView (automatic).
 
 * [Refresh Data]({%slug collectionview-pull-to-refresh})&mdash;Allows the user to manually trigger an update of the list through an integration with the .NET MAUI RefreshView control.
 
