@@ -14,9 +14,9 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering featur
 
 The following properties are relted to the reordering feature:
 
-`CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `true`.
-`ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator that is displayed between two columns during reordering.
-`ColumnHeaderDragVisualTemplate` (`DataTemplate`)&mdash;Specifies the template that presents the drag visual of the dragged column header.
+* `CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `true`.
+* `ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator that is displayed between two columns during reordering.
+* `ColumnHeaderDragVisualTemplate` (`DataTemplate`)&mdash;Specifies the template that presents the drag visual of the dragged column header.
 
 ## Events
 

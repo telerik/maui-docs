@@ -226,6 +226,9 @@ navigation:
     controls/datagrid/row-details:
         title: "Row Details"
         position: 4
+    controls/datagrid/cells:
+        title: "Cells"
+        position: 5
     controls/datagrid/filtering:
         title: "Filtering"
         position: 6
