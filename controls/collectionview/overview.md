@@ -32,7 +32,7 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 
 * [Item Swipe]({%slug collectionview-item-swipe-overview%})&mdash;When users swipe, the CollectionView can reveal a designated custom view with actionable content.
 
-* [Drag &amp; Drop]({%slug collectionview-dragdrop-overview%})&mdash;The .NET MAUI CollectionView provides drag and drop functionality which allows the end user to reorder its items as well as drag and drop items between two CollectionViews.
+* [Drag &amp; Drop]({%slug collectionview-dragdrop-overview%})&mdash;The .NET MAUI CollectionView provides drag-and-drop functionality which allows the end user to reorder its items as well as drag and drop items between two CollectionViews.
 
 * [Load on Demand]({%slug collectionview-load-on-demand%})&mdash;In addition to the built-in UI virtualization, the CollectionView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded either by a Button (manual) or by scrolling towards end (automatic) of the CollectionView.
 
