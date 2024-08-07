@@ -12,7 +12,7 @@ slug: datagrid-mouse-hover-cell
 
 ## Getting the Hovered Cell
 
-The DataGrid provides a `VisualStateService` property (of type `DataGridVisualStateService`). This porperty gets the service that handles visual-state related logic, such as keeping track of the element that the mouse is currently over.
+The DataGrid provides a `VisualStateService` property (of type `DataGridVisualStateService`). This property gets the service that handles visual-state related logic, such as keeping track of the element that the mouse is currently over.
 
 The `DataGridVisualStateService` class encapsulates visual state related logic such as mouse-hovered elements within a `Telerik.Maui.Controls.RadDataGrid` instance. This class exposes the `MouseHoverCell` property (`DataGridCellInfo`) which allows you to get the cell that the mouse is currently over.
 
@@ -22,7 +22,7 @@ Here is an example how to get the hovered cell.
 var hoveredCell = dataGrid.VisualStateService.MouseHoverCell;
 ```
 
-## Styling the Hovered Cell
+## Styling the Cell
 
 You can specify the style for the cells and rows when the mouse is over by using the `MouseHoverStyle` property (of type `DataGridBorderStyle`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
