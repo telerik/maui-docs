@@ -28,7 +28,7 @@ You can specify the style for the cells and rows when the mouse is over by using
 
 ## Example
 
-Here is an example how to get the mouse hovered cell and how to apply style to the hovered row.
+Here is an example of how to get the mouse-hovered cell and how to apply styles to the hovered row.
 
 **1.** Define sample data:
 
