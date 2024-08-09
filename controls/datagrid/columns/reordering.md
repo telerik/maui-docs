@@ -124,6 +124,8 @@ The result on mobile:
 
 ![DataGrid Reordering Indicator Phone](../images/datagrid-reordering-indicator.gif)
 
+> For the runnable DataGrid Drag Templates example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Columns**.
+
 ## See Also
 
 - [Picker Column]({%slug datagrid-columns-picker-column %})

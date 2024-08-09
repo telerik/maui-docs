@@ -64,6 +64,8 @@ This is the result:
 
 ![.NET MAUI DataGrid Mouse Hover Cell](../images/datagrid-mousehover-cell.gif)
 
+> For the runnable DataGrid Mouse Hover Cell example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Cells**.
+
 ## See Also
 
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
