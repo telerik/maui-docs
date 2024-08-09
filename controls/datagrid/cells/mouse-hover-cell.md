@@ -42,7 +42,7 @@ Here is an example of how to get the mouse-hovered cell and how to apply styles 
 
 <snippet id='datagrid-mousehovercell' />
 
-**4.** Define the `MouseHoverStyle` in page;s resources:
+**4.** Define the `MouseHoverStyle` in page's resources:
 
 <snippet id='datagrid-cells-hover-style' />
 
