@@ -34,7 +34,7 @@ Here is an example of how to get the mouse-hovered cell and how to apply styles 
 
 <snippet id='datagrid-persondetails' />
 
-**2.** Define sample `ViewModel`:
+**2.** Define a sample `ViewModel`:
 
 <snippet id='datagrid-reordering-viewmodel' />
 
