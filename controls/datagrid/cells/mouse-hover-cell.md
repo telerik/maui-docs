@@ -26,6 +26,44 @@ var hoveredCell = dataGrid.VisualStateService.MouseHoverCell;
 
 You can specify the style for the cells and rows when the mouse is over by using the `MouseHoverStyle` property (of type `DataGridBorderStyle`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
+## Example
+
+Here is an example how to get the mouse hovered cell and how to apply style to the hovered row.
+
+**1.** Define sample data:
+
+<snippet id='datagrid-persondetails' />
+
+**2.** Define sample `ViewModel`:
+
+<snippet id='datagrid-reordering-viewmodel' />
+
+**3.** Define the DataGrid in XAML:
+
+<snippet id='datagrid-mousehovercell' />
+
+**4.** Define the `MouseHoverStyle` in page;s resources:
+
+<snippet id='datagrid-cells-hover-style' />
+
+**5.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**6.** Subscribe to the `RadDataGrid.VisualStates.PropertyChanged`:
+
+<snippet id='datagrid-visualstateservice-propertychanged' />
+
+**7.** The `VisualStates.PropertyChanged` implementation with code how to get the `MouseHoverCell`:
+
+<snippet id='visualstate-service' />
+
+This is the result:
+
+![.NET MAUI DataGrid Mouse Hover Cell](../images/datagrid-mousehover-cell.gif)
+
 ## See Also
 
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})

@@ -92,25 +92,33 @@ The following example shows how to define the `ColumnReorderIndicatorTemplate` i
 
 **1.** Define the `DataTemplate` for the Indicator in the Resources of the page:
 
+<snippet id='datagrid-reorder-indicator-template'/>
+
+**2.** Define the `DataTemplate` for the header drag template in the Resources of the page:
+
+<snippet id='datagrid-header-drag-template'/>
+
+**3.** Define the `DataTemplate` for the group item template in the Resources of the page:
+
+<snippet id='datagrid-grouping-panel-item-template'/>
+
+**4.** Define the properties in the DataGrid:
+
+<snippet id='datagrid-drag-templates'/>
+
+**5.** Add the `telerik` namespace:
+
 ```XAML
-<DataTemplate x:Key="reorderingIndicator">
-    <telerik:RadBorder BackgroundColor="LightSalmon"
-                       WidthRequest="4"
-                       HeightRequest="55"
-                       HorizontalOptions="Start"
-                       VerticalOptions="Start"
-                       InputTransparent="True" />
-</DataTemplate>
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**2.** Define the property in the DataGrid:
+**6.** Define sample data:
 
-```XAML
-<telerik:RadDataGrid x:Name="dataGrid"
-                     Grid.Row="1"
-                     ColumnReorderIndicatorTemplate="{StaticResource reorderingIndicator}"
-                     ItemsSource="{Binding Data}"/>    
-```
+<snippet id='datagrid-persondetails' />
+
+**7.** Define sample `ViewModel`:
+
+<snippet id='datagrid-reordering-viewmodel' />
 
 The result on mobile:
 
