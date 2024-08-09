@@ -116,7 +116,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-persondetails' />
 
-**7.** Define sample `ViewModel`:
+**7.** Define a sample `ViewModel`:
 
 <snippet id='datagrid-reordering-viewmodel' />
 
