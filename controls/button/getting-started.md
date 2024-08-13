@@ -14,10 +14,6 @@ This is the default look of the `RadButton` control:
 
 ![.NET MAUI Button Default Look](images/button-default-look.png)
 
-At the end, you will achieve the following result.
-
-![.NET MAUI Button Getting Started](images/button-getting-started.png)
-
 ## Prerequisites
 
 Before adding the Button, you need to:
@@ -40,11 +36,7 @@ Before adding the Button, you need to:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Then define the Click event handler:
-
-<snippet id='button-getting-started-click-event' />
-
-**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
@@ -76,6 +68,6 @@ public static class MauiProgram
 
 ## See Also
 
-- [Positioning the Content of the Button]({% slug button-content-alignment %})
+- [Positioning the Content of the Button]({% slug button-configuration %})
 - [Setting the Border Thickness & Color of Button]({% slug button-styling %})
 - [Creating a Circular Button]({%slug button-create-circle-button%})

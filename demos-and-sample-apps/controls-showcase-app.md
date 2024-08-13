@@ -13,8 +13,9 @@ The **Telerik UI for .NET MAUI Controls Samples** application provides many scen
 
 You can access the Controls Samples application in the following ways:
 
+* Install the applicaton from the <a href="https://play.google.com/store/apps/details?id=com.telerik.ControlsSamples&hl=en"Google Play Store</a> for Android devices, <a href="https://apps.apple.com/us/app/telerik-net-maui-controls/id1626276647?platform=iphone"Apple App Store</a> for iOS devices, <a href="https://apps.microsoft.com/detail/9n8j3v83pczb?hl=en-us&gl=EN"Microsoft Store for Windows</a> and <a href="https://apps.apple.com/us/app/telerik-net-maui-controls/id1626276647"Apple Store for Mac</a>.
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/ControlsSamples** folder and open the `ControlsSamples.sln` file;
-* You can explore the code directly in the [.NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples);
+* Explore the code directly in the <a href="https://github.com/telerik/maui-samples/tree/main/Samples".NET MAUI Samples repository on GitHub</a>;
 
 >important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-2-download-telerik-ui-for-net-maui%}) and [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-install-telerik-ui-for-net-maui) help topics where all steps are described. 
 
@@ -42,7 +43,7 @@ You can access the Controls Samples application in the following ways:
 
 ## Run ControlsSamples on macOS
 
->important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
+>important Review the <a href="https://github.com/dotnet/maui/wiki/macOS-Install"macOS Install .NET MAUI GitHub Wiki page</a> for more information how to get started on macOS. 
 
 1. Open Terminal inside the ControlsSamples folder.
 1. Run on macOS using the following command:
