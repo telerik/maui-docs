@@ -26,7 +26,7 @@ Before adding the Button, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a Button control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a Button control to your page:
 
 <snippet id='button-getting-started-xaml' />
 
