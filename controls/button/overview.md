@@ -18,6 +18,7 @@ The Telerik UI for .NET MAUI Button control enhances the functionality of the st
 
 * [Content alignment]({% slug button-configuration%})&mdash;The Button enables you to control the horizontal and vertical positioning of its content.
 * [Background image]({%slug button-configuration%}#background-image)&mdash;Apply image as a background of the button.
+* [Command]({%slug button-command%})&mdash;The Button provides a command, that executes when the button is clicked.
 * [Styling]({% slug button-styling%})&mdash;You can also apply various types of borders around your buttons by using the `BorderThickness` and the `BorderColor` properties.
 
 ## Next Steps
