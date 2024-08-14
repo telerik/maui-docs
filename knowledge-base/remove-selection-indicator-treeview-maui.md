@@ -29,7 +29,7 @@ To remove the selection indicator from `RadTreeView` on Windows, follow these st
 
 1. Define a new `ControlTemplate` that omits the selection indicator and other undesired visual elements.
 2. Create a `Style` for `TreeViewItemView` that applies this `ControlTemplate`.
-3. Apply the `Style` either implicitly within the `ResourceDictionary` or explicitly through the `TreeViewDescriptor.ItemStyle` property.
+3. Apply the `Style` either [implicitly](#using-implicit-style) within the `ResourceDictionary` or [explicitly](#using-explicit-style) through the `TreeViewDescriptor.ItemStyle` property.
 
 ### Using Implicit Style
 
