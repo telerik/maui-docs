@@ -81,4 +81,4 @@ Add the following XAML to your .NET MAUI page to apply the style implicitly:
 
 ### Using Explicit Style
 
-To use an explicit style, set the above-defined style to the `TreeViewDescriptor.ItemStyle` property. Refer to the [official documentation]({%slug treeview-item-style%}) for more details on using explicit styles.
+To use an explicit style, set the above-defined style to the `TreeViewDescriptor.ItemStyle` property. Refer to the [TreeView item style]({%slug treeview-item-style%}) documentation for more details on using explicit styles.
