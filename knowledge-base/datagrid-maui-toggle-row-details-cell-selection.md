@@ -23,7 +23,12 @@ In a DataGrid for MAUI, I want to show or hide row details based on cell selecti
 
 ## Solution
 
-To display row details based on cell selection, you must first define a `RowDetailsTemplate`. For more information on how to set up a `RowDetailsTemplate`, refer to the [official documentation]({%slug datagrid-row-details-template%}).
+To display row details based on cell selection:
+
+1. Define a `RowDetailsTemplate`. For more information on how to set up a `RowDetailsTemplate`, refer to the [Row Details Template documentation]({%slug datagrid-row-details-template%}).
+1. Handle the selection:
+   * To display the row details when a cell is selected, [handle the cell selection](#handling-cell-selection).
+   * To display the row details when a row is selected, [handle the row selection](#handling-row-selection).
 
 ### Handling Cell Selection
 
