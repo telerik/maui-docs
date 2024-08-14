@@ -31,7 +31,7 @@ To remove the selection indicator from `RadTreeView` on Windows, follow these st
 2. Create a `Style` for `TreeViewItemView` that applies this `ControlTemplate`.
 3. Apply the `Style` either implicitly within the `ResourceDictionary` or explicitly through the `TreeViewDescriptor.ItemStyle` property.
 
-### Example of Implicit Style
+### Using Implicit Style
 
 Add the following XAML to your .NET MAUI page to apply the style implicitly:
 
