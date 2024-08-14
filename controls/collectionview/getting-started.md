@@ -76,6 +76,7 @@ public static class MauiProgram
 
 ## Additional Resources
 
+- [.NET MAUI CollectionView Overview]({%slug collectionview-overview%})
 - [Data Binding]({%slug collectionview-data-binding%})
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})
