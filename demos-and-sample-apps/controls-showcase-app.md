@@ -43,7 +43,7 @@ You can access the Controls Samples application in the following ways:
 
 ## Run ControlsSamples on macOS
 
->important Review the <a href="https://github.com/dotnet/maui/wiki/macOS-Install"macOS Install .NET MAUI GitHub Wiki page</a> for more information how to get started on macOS. 
+>important Review the <a href="https://github.com/dotnet/maui/wiki/macOS-Install"macOS Install .NET MAUI GitHub Wiki page</a> for more information on how to get started on macOS.
 
 1. Open Terminal inside the ControlsSamples folder.
 1. Run on macOS using the following command:
