@@ -14,19 +14,25 @@ Telerik UI for .NET MAUI Border enables you to set a different corner radius to 
 
 The `CornerRadius` property represents the degree to which the corners of the Border are rounded. `CornerRadius` is of the `Microsoft.Maui.Thickness` type.
 
-<snippet id='border-features-cornerradius' />
+<snippet id='border-corner-radius' />
 
 The following image shows the result from that implementation.
 
 ![Border CornerRadius](images/border_corner_radius.png)
 
-Additionally, the wrapped content will be clipped according to the specified corner radius of each side. The following example demonstrates how to render a circle image by wrapping an Image control in a Border.
+Additionally, the wrapped content will be clipped according to the specified corner radius of each side. 
 
-<snippet id='border-features-circularimage' />
+The example below demonstrates how to render a circle image by wrapping an Image control in a Border.
 
-The following image shows the end result.
+Let's use the following Image:
 
-![Border Circular Image](images/border_circular-image.png)
+![Border Clip Sample image](images/person_01.png)
+
+<snippet id='border-corner-radius-clipped' />
+
+Here is the result:
+
+![Border Circular Image](images/border_corner_radius_clipped.png)
 
 ## See Also
 

@@ -24,7 +24,7 @@ To specify the width of the Border control, use its `BorderThickness` property.
 
 The following example demonstrates how to use the `BorderColor` and `BorderThickness` properties.
 
-<snippet id='border-features-thickness' />
+<snippet id='border-styling' />
 
 The following image shows the end result.
 
