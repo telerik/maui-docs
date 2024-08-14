@@ -39,7 +39,7 @@ public class KeyDownCommand : DataGridCommand
     public override bool CanExecute(object parameter)
     {
         // return false; if you want to stop executing the command at all.
-        // return true; and then inside the Execute method, white custom logic
+        // When using 'return true;' write your custom logic inside the 'Execute' method.
         return false;
     }
     public override void Execute(object parameter)
