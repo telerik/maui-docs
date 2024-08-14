@@ -19,7 +19,7 @@ res_type: kb
 In a DataGrid for MAUI, I want to show or hide row details based on cell selection without using the default `DataGridToggleRowDetailsColumn`. The goal is to use the `SelectionChanged` event to achieve this functionality. This KB article also answers the following questions:
 - How can I show row details on cell selection in a DataGrid?
 - What is the method to toggle row details visibility based on cell selection?
-- How to use SelectionChanged event for showing row details in DataGrid for MAUI?
+- How to use the `SelectionChanged` event to show row details in the DataGrid for MAUI?
 
 ## Solution
 
