@@ -44,7 +44,7 @@ public class KeyDownCommand : DataGridCommand
     }
     public override void Execute(object parameter)
     {
-        // uncomment the line below in order to execute the default command and enable the keyboard navigation support or you can write custom logic implementation.
+        // Uncomment the line below in order to execute the default command and enable the keyboard navigation support. Alternatively, write your custom logic implementation.
         //this.Owner.CommandService.ExecuteDefaultCommand(DataGridCommandId.KeyDown, parameter);
     }
 }
