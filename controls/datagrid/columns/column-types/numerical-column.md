@@ -25,6 +25,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 * `FooterContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of the footer.
 * `IsResizable`(`bool`)&mdash;Specifies whether the user can resize the DataGrid Column. The default value is `True`.This is only supported in `WinUI` and `MacCatalyst`.
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
+* `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
 >tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
 

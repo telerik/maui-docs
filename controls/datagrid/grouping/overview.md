@@ -20,6 +20,8 @@ The UI is represented by the `DataGridGroupingPanel`. The panel is part of the D
 
 > For more information about Grouping UI review the [Grouping UI]({%slug datagrid-grouping-ui%}) article of the DataGrid.
 
+Customize the appearance of the items inside the grouping panel by using the `GroupingPanelItemTemplate` (`DataTemplate`) property.
+
 ## Programmatic Grouping
 
 Programmatic grouping can be done by adding descriptors to the `GroupDescriptors` collection. There are two types of descriptors:

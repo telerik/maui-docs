@@ -9,11 +9,11 @@ tags: reorder, collectionview, drag-drop
 
 # .NET MAUI CollectionView Drag and Drop
 
-The .NET MAUI CollectionView provides drag and drop functionality which allows the end user to reorder its items. If the feature is enabled, when the user clicks and holds an item, the drag-and-drop mode is triggered and the user can move and release the item at the desired position. This also performs a reorder operation on the data. 
+The .NET MAUI CollectionView provides drag and drop functionality which allows the end user to reorder its items.
 
 ![.NET MAUI CollectionView Reorder Items](../images/collectionview-itemsreorder.gif)
 
-To enable the reorder functionality, set the `IsDragDropEnabled` property to `True`.
+To enable the reorder functionality, set the `IsDragDropEnabled` property to `True`. To start reordering the items, the end user must tap and hold an item on mobile (Android and iOS), while on dekstop (WinUi and MacCatalyst), after clicking the item, the item can be dragged. In this way, the drag is triggered and the user can move and release (drop) the item at the desired position. This also performs a reorder operation on the data.
 
 Here is a quick example of a CollectionView with enabled drag-and-drop:
 

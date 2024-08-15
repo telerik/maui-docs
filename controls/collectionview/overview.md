@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: .NET MAUI CollectionView Documentation - Overview
-description: Try out the high-performance .NET MAUI CollectionView component featuring data binding, filtering, sorting, grouping, and much more.
+page_title: .NET MAUI CollectionView - Overview
+description: .NET MAUI CollectionView control creates a virtualized list view that enables the user to filter, sort, and group items.
 position: 0
 slug: collectionview-overview
 ---
@@ -29,6 +29,16 @@ The Telerik .NET MAUI CollectionView is a virtualizing view component that provi
 * [Sorting]({%slug collectionview-sorting%})&mdash;CollectionView allows you to sort the data based on your criteria.
 
 * [Filtering]({%slug collectionview-filtering%})&mdash;You can filter the items in the CollectionView by using the exposed filter descriptors.
+
+* [Item Swipe]({%slug collectionview-item-swipe-overview%})&mdash;When users swipe, the CollectionView can reveal a designated custom view with actionable content.
+
+* [Drag &amp; Drop]({%slug collectionview-dragdrop-overview%})&mdash;The .NET MAUI CollectionView provides drag-and-drop functionality which allows the end user to reorder its items as well as drag and drop items between two CollectionViews.
+
+* [Load on Demand]({%slug collectionview-load-on-demand%})&mdash;In addition to the built-in UI virtualization, the CollectionView supports a load-on-demand functionality, which optimizes the initial loading of the application. As a result, the new items are loaded either by a Button (manual) or by scrolling towards the end of the CollectionView (automatic).
+
+* [Refresh Data]({%slug collectionview-pull-to-refresh%})&mdash;Allows the user to manually trigger an update of the list through an integration with the .NET MAUI RefreshView control.
+
+* [Header and Footer]({%slug collectionview-header-footer%})&mdash;Add content above and below the list with the items. Both header and footer content are scrolled along with the CollectionView items.
 
 * [Events]({%slug collectionview-events%})&mdash;The CollectionView exposes events that are invoked when scrolling, tapping on item or group item.
 

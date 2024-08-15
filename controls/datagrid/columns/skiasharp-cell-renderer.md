@@ -18,6 +18,9 @@ The `DataGridCellRenderer` provides the following methods you can override to de
 
 * `MeasureContainer`&mdash;Returns the desired size for the current item in device independent pixels.
 * `RenderContainer`&mdash;Renders any custom content for the current item. Invoke the base implementation of this method if you want to render the default render content.
+* `RequestRender`&mdash;Makes a request for a render pass to be scheduled.
+* `OnRenderStarted`&mdash;Marks the beginning of the rendering of the cells related to this renderer.
+* `OnRenderCompleted`&mdash;Marks the end of the rendering of the cells related to this renderer.
 
 ## Example
 

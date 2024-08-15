@@ -14,6 +14,8 @@ The CollectionView provides the following templates for customizing the drag cue
 * `DragVisualTemplate`(`DataTemplate`)&mdash;Represents the drag visual of the dragged item during a drag-and-drop operation.
 * `DropIndicatorTemplate`(`DataTemplate`)&mdash;Represents the indicator shown between the CollectionView items during a drag-and-drop operation which shows where the dragged item will be dropped.
 
+![Telerik .NET MAUI CollectionView DragVisual and DropIndicator Visual Structure](../images/collectionview-dragdrop-visualstructure.png)
+
 Check an example of the CollectionView with sample `DragVisualTemplate` and `DropIndicatorTemplate`:
 
 **1.** Add a sample DataTemplate for the drop indicator to the page's resources:
