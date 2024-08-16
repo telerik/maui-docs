@@ -8,8 +8,10 @@ position: 1
 
 # System Requirements for macOS
 
->note Telerik .NET MAUI 3.2.0 supports .NET 7.0.
+>note Telerik .NET MAUI 3.2.0 supports .NET 7.0. 
 >note Telerik .NET MAUI 7.1.0 version supports .NET 9.0 Preview 6. For creating a project targeting a .NET 9 Preview, you need to use a Visual Studio 2022 Preview. 
+
+>important As of 2024 Q4 (November), Telerik .NET MAUI ends the support for .NET 7. Migrate your apps to .NET 8.
 
 To develop applications with Telerik UI for .NET MAUI on macOS, you need to install specific development tools.
 
