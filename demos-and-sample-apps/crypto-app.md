@@ -23,32 +23,32 @@ You can access the SDKBrowser application in the following ways:
 
 ## Run CryptoTracker on Windows
 
-1. Open the `CryptoTracker.sln` on Windows with Visual Studio 2022.
+**1.** Open the `CryptoTracker.sln` on Windows with Visual Studio 2022.
 
-  ![Telerik UI .NET MAUI CryptoTracker App VS](images/sampleapps-visual-studio.png)
+![Telerik UI .NET MAUI CryptoTracker App](../images/cryptotracker-structure.png)
 
-1. Wait for the project to restore.
+**2.** Wait for the project to restore.
 
-1. Select the target framework of the project.
+**3.** Select the target framework of the project.
 
-  ![Telerik UI .NET MAUI CryptoTracker App](../images/crypto-tracker-visual-studio.png)
+![Telerik UI .NET MAUI CryptoTracker App VS](images/sampleapps-visual-studio.png)
 
-1. Select the emulator or device on which you want to run the application.
-	
- * CryptoTracker application on Android.
+**4.** Select the emulator or device on which you want to run the application.
 
-  ![Telerik UI for .NET MAUI CryptoTracker App Android](../images/cryptotracker-android.png)
-	
- * CryptoTracker application on WinUI.
+* CryptoTracker application on Android.
 
-  ![Telerik UI for .NET MAUI CryptoTracker App WinUI](../images/cryptotracker-winui.png)
+![Telerik UI for .NET MAUI CryptoTracker App Android](../images/cryptotracker-android.png)
+
+* CryptoTracker application on WinUI.
+
+![Telerik UI for .NET MAUI CryptoTracker App WinUI](../images/cryptotracker-winui.png)
 
 ## Run CryptoTracker on macOS
 
 >important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
-1. Open Terminal inside the CryptoTracler folder.
-1. Run on macOS using the following command:
+**1.** Open Terminal inside the CryptoTracler folder.
+**2.** Run on macOS using the following command:
 
  `dotnet build -t:Run -f net8.0-maccatalyst`
  
@@ -56,7 +56,7 @@ You can access the SDKBrowser application in the following ways:
 	
 	![Telerik UI for .NET MAUI CryptoTracker App MacCatalyst](../images/cryptotracker-macos.png)
 
-1. Run on iOS using the following command:
+**3.** Run on iOS using the following command:
 
  `dotnet build -t:Run -f net8.0-ios`&mdash;This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
  

@@ -34,19 +34,19 @@ The following example shows the full implementation of the configurations for th
 
 **1.** Set the `ViewModel`.
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-viewmodel' />
+<snippet id='datagrid-grouping-viewmodel' />
 
 **2.** Set the `Business` object.
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-object' />
+<snippet id='datagrid-grouping-objec' />
 
 **3.** Provide the DataGrid definition in XAML.
 
-<snippet id='datagrid-keyboard-navigation-xaml' />
+<snippet id='datagrid-currentcell-xaml' />
 
 **4.** Set the style for the `CurrentCellStyle` that is defined in the page resources.
 
-<snippet id='datagrid-keyboard-navigation-style' />
+<snippet id='datagrid-current-cell-style' />
 
 **5.** Set the `CurrentCellChanged` event.
 
@@ -54,7 +54,7 @@ The following example shows the full implementation of the configurations for th
 
 The following image shows the end result.
 
-![DataGrid Current Cell](images/datagrid-keyboard-navigation.png)
+![DataGrid Current Cell](../images/datagrid-keyboard-navigation.png)
 
 ## Additional Resources
 
