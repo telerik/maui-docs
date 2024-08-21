@@ -48,13 +48,14 @@ You can access the SDKBrowser application in the following ways:
 >important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
 
 **1.** Open Terminal inside the CryptoTracler folder.
+
 **2.** Run on macOS using the following command:
 
- `dotnet build -t:Run -f net8.0-maccatalyst`
- 
-	* CryptoTracker application on MacOS.
-	
-	![Telerik UI for .NET MAUI CryptoTracker App MacCatalyst](../images/cryptotracker-macos.png)
+`dotnet build -t:Run -f net8.0-maccatalyst`
+
+* CryptoTracker application on MacOS.
+
+![Telerik UI for .NET MAUI CryptoTracker App MacCatalyst](../images/cryptotracker-macos.png)
 
 **3.** Run on iOS using the following command:
 
