@@ -24,7 +24,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-The properties inside the `GaugeRangesDefinition` and `RadGradientStop` classes are not bindable. If you want to apply binding you will need an attached property.
+The properties inside the `GaugeRangesDefinition` and `RadGradientStop` classes are not bindable. To apply binding, use an attached property.
 
 The example shows how to apply binding for the `StartThickness` property inside the `GaugeRangesDefinition`. The approach is applicable for the other properties.
 
