@@ -21,41 +21,41 @@ If the default templates of the control do not suit your needs, you can define c
 
 ### Example with ItemTemplate and SelectedItemTemplate
 
-Here is the [.NET MAUI ComboBox]({%slug combobox-overview%}) definition in XAML:
+**1.** Define the [.NET MAUI ComboBox]({%slug combobox-overview%}) in XAML:
 
 <snippet id='combobox-item-selecteditem-templates'/>
 
-you need to add the `telerik` namespace:
+**2.** Ddd the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-the sample business model
+**3.** Add a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**4.** Add the `ViewModel`:
 
 <snippet id='combobox-cities-viewmodel'/>
 
-The final result: 
+The final result on WinUI: 
 
-![ComboBox Item and SelectedItem Templates](images/combobox-item-selecteditem-templates.png)
+![.NET MAUI ComboBox Item and SelectedItem Templates](images/combobox-item-selecteditem-templates.png)
 
 > For the ComboBox Item and SelectedItem Templates example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 
 ### Example with TokenTemplate and ShowMoreTemplate
 
-Here is the ComboBox definition in XAML:
+**1.** Define the ComboBox in XAML:
 
 <snippet id='combobox-tokentemplate'/>
 
-Add the sample business model
+**2.** Add a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**3.** Add the `ViewModel`:
 
 <snippet id='combobox-cities-viewmodel'/>
 
@@ -65,9 +65,9 @@ Here is a sample logic removing the token when adding `TapGestureRecognizer` to 
 
 <snippet id='remove-the-selecteditem'/>
 
-Here is the how the Token and ShowMore Templates look:
+Here is the how the Token and ShowMore Templates look on WinUI:
 
-![ComboBox Token and Show More Templates](images/combobox-token-showmore-templates.png)
+![.NET MAUI ComboBox Token and Show More Templates](images/combobox-token-showmore-templates.png)
 
 > For the ComboBox TokenTemplate and ShowMoreTemplate example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 

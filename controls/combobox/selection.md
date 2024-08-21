@@ -27,46 +27,51 @@ The default `SelectinMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSe
 
 ### Example with Single Selection and SelectedIndex set
 
-Here is the `RadComboBox` definition in XAML:
+**1.** Define the `RadComboBox` in XAML:
 
 <snippet id='combobox-single-selection'/>
 
-you need to add the following namespace:
+**2.** Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
-the sample business model
+**3.** Add a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**4.** Add the `ViewModel`:
 
 <snippet id='combobox-singleselection-viewmodel'/>
 
-This is how single selection looks:
+This is how single selection looks on Android:
 
-![ComboBox Single Selection](images/dropdown-single-selection.png)
+![. NET MAUI ComboBox Single Selection](images/dropdown-single-selection.png)
 
 ### Example with Multiple Selection and SelectedItems set
 
-Here is the ComboBox definition in XAML:
+**1.** Define the ComboBox in XAML:
 
 <snippet id='combobox-multiple-selection'/>
 
+**2.** Add the `telerik` namespace:
 
-the sample business model
+ ```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
+
+**3.** Add a sample business model
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**4.** Add the `ViewModel`:
 
 <snippet id='combobox-multipleselection-viewmodel'/>
 
-This is how multiple selection looks: 
+This is how multiple selection looks on WinUI: 
 
-![ComboBox Multiple Selection](images/combobox-multiple-selection-selecteditems.png)
+![.NET MAUI ComboBox Multiple Selection](images/combobox-multiple-selection-selecteditems.png)
 
 >important The Selection example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the applications in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
 
