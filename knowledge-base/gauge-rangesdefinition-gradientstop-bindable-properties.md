@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-When using a horizontal or vertical Gauge in a .NET MAUI application, you may want to bind the values for the offset, color properties inside the `RadGradientStop` or bind the values for the `StartThickness` and `EndThickness` for the `GaugeRangesDefinition`. This article demonstrates how to set bindings for the properties inside the `GaugeRangesDefinition` and `RadGradientStop` classes.
+When using a horizontal or vertical Gauge in a .NET MAUI application, you may want to bind the values for the offset, the color properties inside the `RadGradientStop`, or the values for the `StartThickness` and `EndThickness` for the `GaugeRangesDefinition`. This article demonstrates how to set bindings for the properties inside the `GaugeRangesDefinition` and `RadGradientStop` classes.
 
 This KB article also answers the following questions:
 - How can I set bindings for the `Offset` and `Color` properties inside the `RadGradientStop`?
