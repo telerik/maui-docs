@@ -14,21 +14,32 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 ## Item Events
 
 * `ItemTapped`&mdash;Raised when the user taps on the item. The `ItemTapped` event handler receives two parameters:
-	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `TappedEventArgs` object, which has a reference to the tapped item through its `Data`(`T`) property.
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
+	* A `RadTappedEventArgs` object, which has a reference to the tapped item through its `Data`(`T`) property.
 
 * `GroupTapped`&mdash;Raised when the user taps on the group item. The `GroupTapped` event handler receives two parameters:
-	* The `sender` argument, which is of type `object`, but can be cast to the `CollectionView` type.
-	* A `TappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupContext>` object, which has a reference to:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
+	* A `RadTappedEventArgs<Telerik.Maui.Controls.CollectionView.GroupContext>` object, which has a reference to:
 		* the tapped group item through its `Data`(`T`) property.
 		* the `GroupContext` represents the object that is passed to the `TappedEventArgs ` for the `GroupTapped` and the item you have for the `GroupViewStyleSelector` and `GroupHeaderTemplate`. The `GroupContext` includes the following properties:
 
-				* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
-				* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
-				* `Key` (`object`): Gets the specific for the group key.
-				* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
+			* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
+			* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
+			* `Key` (`object`): Gets the specific for the group key.
+			* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
 ![.NET MAUI CollectionView Group Tapped](images/collectionview-group-tapped.gif "Telerik .NET MAUI CollectionView")
+
+* `GroupTapping`&mdash;Raised when tap is currently performing on the `CollectionViewGroupView`. The `GroupTapping` event handler receives two parameters:
+	* The `sender` argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
+	* A `RadTappingEventArgs<Telerik.Maui.Controls.CollectionView.GroupContext>` object, which has a reference to:
+		* the `Cancel` (`bool`) property which can be used to cancel the tapping.
+		* the `GroupContext` represents the object that is passed to the `TappedEventArgs ` for the `GroupTapped` and the item you have for the `GroupViewStyleSelector` and `GroupHeaderTemplate`. The `GroupContext` includes the following properties:
+
+			* `IsExpanded` (`bool`): Defines a value indicating whether the group is currently expanded (has its child items visible).
+			* `Items` (`IReadOnlyList<object> `): Gets the child items of the group.
+			* `Key` (`object`): Gets the specific for the group key.
+			* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
 ### Example: Adding ItemTapped Event
 
