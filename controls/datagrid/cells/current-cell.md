@@ -38,7 +38,7 @@ The following example shows the full implementation of the configurations for th
 
 **2.** Set the `Business` object.
 
-<snippet id='datagrid-grouping-objec' />
+<snippet id='datagrid-grouping-object' />
 
 **3.** Provide the DataGrid definition in XAML.
 
