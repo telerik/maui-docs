@@ -30,7 +30,7 @@ ComboBox provides both case-sensitive and case-insensitive searching modes. The 
 > Searching can be performed when `IsEditable` is `true`.
 > The ComboBox `DisplayMemberPath` property must be set when binding to complex objects. Also, when `IsEditable` is `true`, the `SearchTextPath` property must be set.
 
-If you want the text to be highlighted when using custom ItemTemplate, you have to add a `RadHighlightLabel` inside the ItemTemplate.
+If you want the text to be highlighted when using a custom `ItemTemplate`, you have to add a `RadHighlightLabel` inside the `ItemTemplate`.
 
 Here is the XAML definition of the ComboBox with `RadHighlightLabel` inside the `ItemTemplate`:
 
