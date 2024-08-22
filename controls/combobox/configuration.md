@@ -21,7 +21,7 @@ Here is an example of setting the `Placeholder` property:
 
 The next image shows the result:
 
-![ComboBox Placeholder](images/combobox-visual-structure.png)
+![ComboBox Placeholder](images/combobox-placeholder.png)
 
 Here is an example of setting the `PlaceholderColor` property:
 
@@ -56,6 +56,8 @@ Here is an example with `IsClearButtonVisible` property set:
 and the result: 
 
 ![ComboBox Clear Button Visibility](images/combobox-clearbuttonvisibility.png)
+
+> For the ComboBox Configuration example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Features** category.
 
 ## Drop-Down Behavior
 
@@ -100,7 +102,7 @@ Here is an example with `OpenOnFocus` property set:
 
 The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define the type of the keyboard that will be visualized by the device. The default value is Text.
 
->important The Configuration example can be found in our [SDK Browser Application]({%slug sdkbrowser-app%}). You can find the application in the **Examples** folder of your local **Telerik UI for .NET MAUI** installation or in the following [GitHub repo](https://github.com/telerik/maui-samples/tree/main/Samples/SdkBrowser).
+> For the ComboBox Drop-Down Configuration example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Features** category.
 
 ## See Also
 

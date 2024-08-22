@@ -17,23 +17,23 @@ You can add Header and Footer to the drop-down list of the [.NET MAUI ComboBox](
 
 ## Example 
 
-Here is the ComboBox definition in XAML:
+**1.** Define the ComboBox in XAML:
 
 <snippet id='combobox-header-footer-template'/>
 
-the sample business model
+**2.** Add a sample business model:
 
 <snippet id='combobox-city-businessmodel'/>
 
-and the ViewModel used:
+**3.** Add the `ViewModel` used:
 
 <snippet id='combobox-cities-viewmodel'/>
 
-This is how the Header and Footer Templates look: 
+This is how the Header and Footer Templates look on WinUI: 
 
-![ComboBox Header Footer Templates](images/combobox-header-footer.png)
+![.NET MAUI ComboBox Header Footer Templates](images/combobox-header-footer.png)
 
-> For the ComboBox Header and Footer example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
+> For the ComboBox Header and Footer example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to **ComboBox > Templates** category.
 
 ## See Also
 

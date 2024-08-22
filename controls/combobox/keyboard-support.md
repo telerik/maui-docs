@@ -14,8 +14,8 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides key
 
 The following table lists the actions and keyboard combinations that are available in the ComboBox:
 
-| Hotkey Combinations  | Action 		   |
-|----------------------|-------------------|
+| Hotkey Combinations  | Action |
+| -------------------- | ------ |
 | `F4` | Shows the drop-down if it is closed. If the drop-down is opened pressing the F4 key will submit the selection and close the drop-down. |
 | `Up Arrow` / `Down Arrow` | If the drop-down is opened, pressing Up/Down Arrows will change the highlighted item in the drop-down list. If it is closed pressing Up/Down Arrows will change the SelectedItem.|
 | `Left Arrow` / `Right Arrow` | If the drop-down is opened, pressing Left/Right Arrows will change the highlighted item in the drop-down list. If it is closed pressing Left/Right Arrows will change the SelectedItem. They work only when `IsEditable` is `False`. |
