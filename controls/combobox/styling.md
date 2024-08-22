@@ -17,7 +17,7 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 * `BorderThickness` (`Microsoft.Maui.Thickness`)&mdash;Defines the thickness of the border.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadButton`)&mdash;Defines the style for the clear button.
 * `Font Options` (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the RadComboBox. It's applied to the Placeholder, Selected Text (for single selection), and when the control is in Editable Mode.
-* `HighlightTextColor` (`Color`)&mdash;Specifies the color of the text that will be highlighted when searching isperformed (`IsEditable` has to be `True`).
+* `HighlightTextColor` (`Color`)&mdash;Specifies the color of the text that will be highlighted when searching (`IsEditable` must be `True`).
 
 ### Example for ComboBox Styling
 
