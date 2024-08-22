@@ -28,7 +28,7 @@ ComboBox provides both case-sensitive and case-insensitive searching modes. The 
 * `HighlightTextColor`(*Microsoft.Maui.Graphics.Color*)&mdash;Defines the color of the text that will be highlighted when searching is performed.
 
 > Searching can be performed when `IsEditable` is `true`.
-> When binding to a complex objects, ComboBox `DisplayMemberPath` property needs to be set. Also when `IsEditable` is `true` `SearchTextPath` property needs be set.
+> The ComboBox `DisplayMemberPath` property must be set when binding to complex objects. Also, when `IsEditable` is `true`, the `SearchTextPath` property must be set.
 
 If you want the text to be highlighted when using custom ItemTemplate, you have to add a `RadHighlightLabel` inside the ItemTemplate.
 
