@@ -25,7 +25,7 @@ If the default templates of the control do not suit your needs, you can define c
 
 <snippet id='combobox-item-selecteditem-templates'/>
 
-**2.** Ddd the `telerik` namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
