@@ -25,7 +25,7 @@ ComboBox control has a support for single and multiple selection. You can specif
 
 The default `SelectinMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`) of the ComboBox control is `Single`.
 
-### Example with Single Selection and SelectedIndex set
+### Example with Single Selection and SelectedIndex Set
 
 **1.** Define the `RadComboBox` in XAML:
 
