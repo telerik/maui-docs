@@ -14,8 +14,6 @@ The .NET MAUI TabView provides means for modifying its visual appearance so that
 
 > Check the [TabView Visual Structure]({%slug tabview-visual-structure%}) topic for a visual representation of the TabView elements.
 
-## TabView Styling
-
 You can use any of the following TabView properties to change its look&amp;feel:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
