@@ -1,40 +1,39 @@
 ---
-title: .NET MAUI Editor inside ScrollView
-description: Learn how to scroll the .NET MAUI Editor when in a ScrollView and scrolling the Editor's text when Editor is wrapped in a Border.
+title: .NET MAUI Editor Inside ScrollView
+description: Learn how to scroll the .NET MAUI Editor when the component is nested in a ScrollView and the user scrolls the Editor's text, which is wrapped in a border.
 type: how-to
 page_title: How to Scroll the Editor in a ScrollView - Editor for .NET MAUI
 slug: dotnet-maui-editor-scroll-inside-scrollview
-tags: editor, scrollview, scrolling, .NET MAUI, multiline entry
+tags: editor, scrollview, scrolling, .NET MAUI, scrollable editor, dotnet maui, maui
 res_type: kb
 ---
 
 ## Environment
 
-| Product |
-| --- |
-| Editor for .NET MAUI |
+| Product | Author |
+| --- | --- |
+| Editor for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)|
 
 ## Description
 
-I want the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/editor?view=net-maui-8.0" target="_blank">`Editor` for .NET MAUI</a> to scroll on Android when added inside a `ScrollView`.
+I want the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/editor?view=net-maui-8.0" target="_blank">Editor for .NET MAUI</a> to scroll on Android when added inside a `ScrollView`.
 
 This KB article also answers the following questions:
-- How to use the .NET MAUI `Editor`, so the editor to scroll when having more input elements on the page?
-- How to use the .NET MAUI `Editor`, so the editor to resize to accommodate new input?
-- How to make the scenarios described above to work correctly when wrapping the .NET MAUI `Editor` inside a Border?
+- How to use the .NET MAUI Editor, so the Editor scrolls when having more input elements on the page?
+- How to use the .NET MAUI Editor, so the Editor resizes to accommodate new input?
+- How to make the scenarios described above work correctly when wrapping the .NET MAUI Editor inside a border?
 
 ## Solution
 
-To scroll the .NET MAUI `Editor` on Android when the editor is inside `ScrollView` you need to use the editor handler to access the native Android control. Then call the  `RequestDisallowInterceptTouchEvent` with parameter `false` to the parent view the editor is placed to. 
+To scroll the .NET MAUI Editor on Android when the Editor is inside a ScrollView:
+1. Use the Editor handler to access the native Android control.
+1. Call the `RequestDisallowInterceptTouchEvent` with parameter `false` to the parent view where the Editor is placed.
 
-Use the Telerik .NET MAUI [RadBorder]({%slug border-overview%}) to achieve the following:
-
-* `Editor` inside `RadBorder` that resizes when content changes.
-* `Editor` inside `RadBorder` that scrolls when content grows.
-
-### Example
-
-Here is an example that solves the questions described above:
+To scroll the .NET MAUI Editor on iOS and on Android when the Editor is inside a ScrollView and wrapped in a border:
+1. Use the Telerik .NET MAUI [`RadBorder`]({%slug border-overview%}) with a nested Editor to enable the Editor to resize when the content changes.
+1. Use the Telerik .NET MAUI [`RadBorder`]({%slug border-overview%}) with a nested Editor to enable the Editor to scroll when the content grows.
+ 
+Here is an example that implements the suggested solution:
 
 **1.** Define the custom editor in C#:
 
@@ -77,7 +76,7 @@ public class CustomEditorHandler : EditorHandler
 
 ```
 
-**3.** To resize the editor to accommodate new inputs set its `AutoSize` property to `TextChanges`. 
+**3.** To resize the Editor to accommodate new input, set its `AutoSize` property to `TextChanges`. 
 
 ```XAML
 <local:CustomEditor AutoSize="TextChanges" />
