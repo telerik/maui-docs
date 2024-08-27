@@ -14,7 +14,7 @@ The .NET MAUI TabView provides means for modifying its visual appearance so that
 
 > Check the [TabView Visual Structure]({%slug tabview-visual-structure%}) topic for a visual representation of the TabView elements.
 
-You can use any of the following TabView properties to change its look&amp;feel:
+You can use any of the following TabView properties to change its look &amp; feel:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
 * `BorderColor` (`Color`)&mdash;Specifies the border color of the control.
@@ -22,12 +22,12 @@ You can use any of the following TabView properties to change its look&amp;feel:
 * `CornerRadius` (`Thickness`)&mdash;Specifies the corner radius of the control.
 * `ContentPadding` (`Thickness`)&mdash;Specifies the padding of the inner content of the control.
 
-In addition, TabView provides the listed below styling properties for modifying its elements - header, TabView items and content area.
+In addition, TabView provides the styling properties listed below for modifying its elements&mdash;header, TabView items, and content area.
 
-* [`HeaderStyle`]({%slug tabview-header-styling%})&mdash;Specifies the style of the entire header area (border, background color etc.);
-* [`HeaderItemStyle`]({%slug tabview-header-item-styling%}) (`Style` with target type `TabViewHeaderItem`)&mdash;Specifies the style selector that chooses the style for the header items (font, text color etc.)
-* [`HeaderItemStyleSelector`]({%slug tabview-header-itemstyle-selector%})&mdash;Specifies the style of the individual header items (font, text color etc.). This property has a higher precedence than the `HeaderItemStyle` property.
-* [`ContentStyle`]({%slug tabview-content-styling%})&mdash;Specifies the style of the entire content area (borders, background color etc.);
+* [`HeaderStyle`]({%slug tabview-header-styling%})&mdash;Specifies the style of the entire header area (border, background color, and so on);
+* [`HeaderItemStyle`]({%slug tabview-header-item-styling%}) (`Style` with target type `TabViewHeaderItem`)&mdash;Specifies the style selector that chooses the style for the header items (font, text color, and so on)
+* [`HeaderItemStyleSelector`]({%slug tabview-header-itemstyle-selector%})&mdash;Specifies the style of the individual header items (font, text color, and so on.). This property has a higher precedence than the `HeaderItemStyle` property.
+* [`ContentStyle`]({%slug tabview-content-styling%})&mdash;Specifies the style of the entire content area (borders, background color, and so on);
 
 ## See Also
 

@@ -9,7 +9,9 @@ position: 4
 
 # .NET MAUI TabView Content Styling
 
-TabView's `ContentStyle` property allows you to style the content area. `TabViewContent` provides the following properties:
+The TabView control provides the built-in `ContentStyle` property, which allows you to apply styling properties to the `TabViewContent`.
+
+You can use the following properties to style the content of the TabView:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the content.
 * `BorderColor` (`Color`)&mdash;Specifies the border color of the content.
@@ -17,9 +19,11 @@ TabView's `ContentStyle` property allows you to style the content area. `TabView
 * `CornerRadius` (`Thickness`)&mdash;Specifies the corner radius of the content.
 * `ContentPadding` (`Thickness`)&mdash;Specifies the padding of the inner content of the content.
 
+The example below shows how to style the content of the TabView.
+
 <snippet id='tabview-styling-contentstyle' />
 
-The image below shows TabView after applying `ContentStyle`:
+The example produces the following result:
 
 ![.NET MAUI TabView Content Style](images/styling-contentstyle.png)
 
