@@ -27,7 +27,7 @@ This KB article also answers the following questions:
 
 To apply rounded corners to `BarSeries` in a `RadCartesianChart` for .NET MAUI, follow these steps:
 
-**1.** Define the chart in XAML and subscribe to the `HandlerChanged` event:
+**1.** Define the Chart in XAML and subscribe to the `HandlerChanged` event:
 
 ```xml
 <telerik:RadCartesianChart x:Name="chart"
