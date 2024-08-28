@@ -14,11 +14,11 @@ Here is an example of a modal popup attached to the `ContentPage`:
 
 <snippet id='popup-features-modal' />
 
-And the event handlers for opening/closing the popup:
+And the next example shows the event handlers for opening/closing the popup:
 
 <snippet id='popup-features-modal-events' />
 
-Here is the result - the Popup applies default outside background color for the content behind:
+Here is the result&mdash;the Popup applies the default outside background color for the content behind:
 
 ![.NET MAUI Popup Modal](images/popup-modal.png)
 
