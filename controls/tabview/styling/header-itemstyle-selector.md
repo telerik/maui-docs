@@ -9,7 +9,7 @@ position: 3
 
 # .NET MAUI TabView Header ItemStyle Selector
 
-The TabView control provides the built-in `HeaderItemStyleSelector` property,  which allows you to apply different styles to each TabView header item. The target type of the Style must be `TabViewHeaderItem`.
+The TabView control provides the built-in `HeaderItemStyleSelector` property,  which allows you to apply different styles to each TabView header item. The target type of the style must be `TabViewHeaderItem`.
 
 The following example shows how to apply styles to the TabView heare using a style selector.
 
