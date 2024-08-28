@@ -19,7 +19,7 @@ res_type: kb
 When implementing a `RadCartesianChart` with `BarSeries` in a .NET MAUI application, you might want to customize the appearance of the bar series to have rounded corners. This customization is not available directly through the Chart's API and requires accessing the native Chart elements on Android and iOS to apply the desired styling.
 
 This KB article also answers the following questions:
-- How can I customize the appearance of BarSeries in .NET MAUI Chart?
+- How can I customize the appearance of the BarSeries in the .NET MAUI Chart?
 - Is it possible to apply rounded corners to bars in a .NET MAUI Chart?
 - Can I access native Chart properties for customization in .NET MAUI?
 
