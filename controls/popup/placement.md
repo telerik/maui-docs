@@ -19,19 +19,19 @@ The [.NET MAUI Popup]({%slug popup-overview%}) supports useful properties, which
 
 * `HorizontalOffset` and `VerticalOffset` specify the horizontal or vertical distance between the placement target and the alignment point.  
 
-In the following XAML example, the Popup is defined inline through the attached `RadPopup.Popup` property that is applied to the Button control, so that the Button is considered a `PlacementTarget` for the Popup. If you create the Popup with code, you have to explicitly set the `PlacementTarget` property.
+In the following XAML example, the Popup is defined inline through the attached `RadPopup.Popup` property that is applied to the `RadTemplatedButton` control, so that the `PlacementTarget` for the Popup is the `RadTemplatedButton`. If you create the Popup with code, you have to explicitly set the `PlacementTarget` property.
 
 When the Popup is declared in XAML and you want to center it, attach it to the `Page` element and set its `Placement` property to `"Center"`.
 
 <snippet id='popup-features-placement' />
 
-Set the Button `Clicked` event handler:
+Set the `RadTemplatedButton`'`Clicked` event handler:
 
 <snippet id=' popup-features-placement-event' />
 
 The following image shows the end result.
 
-![.NET MAUI Popup Placement](images/popup_features_placement.png)
+![.NET MAUI Popup Placement](images/popup-placement.png)
 
 ## See Also
 
