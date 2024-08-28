@@ -33,18 +33,9 @@ For demonstration purposes, the current scenario shows how to add a sample Popup
 
 <snippet id='popup-getting-started-xaml' />
 
-**2.** Reference the event handlers.
+**2.** Reference the event handlers for showing/hiding the Popup.
 
-```C#
-private void ClosePopup(object sender, EventArgs e)
-{
-    popup.IsOpen = false;
-}
-private void ShowPopup(object sender, EventArgs e)
-{
-    popup.IsOpen = true;
-}
-```
+<snippet id='popup-gettingstarted-events' />
 
 **3.** Add the namespace.
 
