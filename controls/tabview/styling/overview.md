@@ -24,10 +24,10 @@ You can use any of the following TabView properties to change its look &amp; fee
 
 In addition, TabView provides the styling properties listed below for modifying its elements&mdash;header, TabView items, and content area.
 
-* [`HeaderStyle`]({%slug tabview-header-styling%})&mdash;Specifies the style of the entire header area (border, background color, and so on);
-* [`HeaderItemStyle`]({%slug tabview-header-item-styling%}) (`Style` with target type `TabViewHeaderItem`)&mdash;Specifies the style selector that chooses the style for the header items (font, text color, and so on)
+* [`HeaderStyle`]({%slug tabview-header-styling%})&mdash;Specifies the style of the entire header area (border, background color, and so on).
+* [`HeaderItemStyle`]({%slug tabview-header-item-styling%}) (`Style` with target type `TabViewHeaderItem`)&mdash;Specifies the style selector that chooses the style for the header items (font, text color, and so on).
 * [`HeaderItemStyleSelector`]({%slug tabview-header-itemstyle-selector%})&mdash;Specifies the style of the individual header items (font, text color, and so on.). This property has a higher precedence than the `HeaderItemStyle` property.
-* [`ContentStyle`]({%slug tabview-content-styling%})&mdash;Specifies the style of the entire content area (borders, background color, and so on);
+* [`ContentStyle`]({%slug tabview-content-styling%})&mdash;Specifies the style of the entire content area (borders, background color, and so on).
 
 ## See Also
 
