@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/editor?view=net-maui-8.0" target="_blank">Editor for .NET MAUI</a> to scroll on Android when added inside a `ScrollView`.
+I want the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/editor?view=net-maui-8.0" target="_blank">Editor for .NET MAUI</a> to scroll on Android when added inside a ScrollView.
 
 This KB article also answers the following questions:
 - How to use the .NET MAUI Editor, so the Editor scrolls when having more input elements on the page?
@@ -35,7 +35,7 @@ To scroll the .NET MAUI Editor on iOS and on Android when the Editor is inside a
  
 Here is an example that implements the suggested solution:
 
-**1.** Define the custom editor in C#:
+**1.** Define the custom Editor in C#:
 
 ```C#
 public class CustomEditor : Editor
@@ -44,7 +44,7 @@ public class CustomEditor : Editor
 }
 ```
 
-**2.** Define the editor handler:
+**2.** Define the Editor handler:
 
 ```C#
 public class CustomEditorHandler : EditorHandler
@@ -82,7 +82,7 @@ public class CustomEditorHandler : EditorHandler
 <local:CustomEditor AutoSize="TextChanges" />
 ```
 
-**4.** Wrap the .NET MAUI `Editor` in [RadBorder]({%slug border-overview%}) control and place the border inside `ScrollView`:
+**4.** Wrap the .NET MAUI Editor in a [`RadBorder`]({%slug border-overview%}) control and place the border inside ScrollView:
 
 ```XAML
 <ScrollView>
