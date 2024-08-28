@@ -38,5 +38,5 @@ The following image shows the end result.
 
 ## See Also
 
-- [Placement]({%slug popup-placement})
+- [Placement]({%slug popup-placement %})
 - [Modal Popup]({% slug popup-modal %})
