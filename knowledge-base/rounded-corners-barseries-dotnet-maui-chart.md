@@ -21,7 +21,7 @@ When implementing a `RadCartesianChart` with `BarSeries` in a .NET MAUI applicat
 This KB article also answers the following questions:
 - How can I customize the appearance of BarSeries in .NET MAUI Chart?
 - Is it possible to apply rounded corners to bars in a .NET MAUI Chart?
-- Can I access native chart properties for customization in .NET MAUI?
+- Can I access native Chart properties for customization in .NET MAUI?
 
 ## Solution
 
