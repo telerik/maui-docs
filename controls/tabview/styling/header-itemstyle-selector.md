@@ -27,7 +27,7 @@ The following example shows how to apply styles to the TabView heare using a sty
 
 The example produces the following result:
 
-![.NET MAUI TabView Header Item Style Selector](images/styling-headeritemstyleselector.png)
+![.NET MAUI TabView Header Item Style Selector](../images/styling-headeritemstyleselector.png)
 
 > For a runnable example with the TabView `HeaderItemStyleSelector` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
