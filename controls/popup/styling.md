@@ -24,7 +24,7 @@ Set the needed event handlers that are used to show or hide the popup:
 
 The following image shows a Popup with an applied overlay color:
 
-![.NET MAUI Popup Modal](images/popup_features_modal.png)
+![.NET MAUI Popup Modal](images/popup-styling.png)
 
 ## See Also
 
