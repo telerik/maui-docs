@@ -3,7 +3,6 @@ title: Styling
 page_title: .NET MAUI TabView Documentation - Styling
 description: Review the styling options for the Telerik for .NET MAUI TabView.
 slug: tabview-styling
-previous_url: /controls/tabview/styling
 tags: tabview, styling, maui, dotnet
 position: 0
 ---
