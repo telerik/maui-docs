@@ -25,7 +25,7 @@ The example below shows how to style the content of the TabView.
 
 The example produces the following result:
 
-![.NET MAUI TabView Content Style](images/styling-contentstyle.png)
+![.NET MAUI TabView Content Style](../images/styling-contentstyle.png)
 
 > For a runnable example with the TabView `ContentStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 

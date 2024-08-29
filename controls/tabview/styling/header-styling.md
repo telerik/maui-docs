@@ -31,7 +31,7 @@ The example below shows how to style the header of the TabView:
 
 The example produces the following result:
 
-![.NET MAUI TabView Header Style](images/styling-headerstyle.png)
+![.NET MAUI TabView Header Style](../images/styling-headerstyle.png)
 
 > For a runnable example with the TabView `HeaderStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 

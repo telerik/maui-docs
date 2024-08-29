@@ -40,7 +40,7 @@ The example below shows how to style the header item of the TabView:
 
 The example produces the following result:
 
-![.NET MAUI TabView Header Item Style](images/styling-headeritemstyle.png)
+![.NET MAUI TabView Header Item Style](../images/styling-headeritemstyle.png)
 
 > For a runnable example with the TabView `HeaderItemStyle` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TabView > Styling**.
 
