@@ -470,6 +470,9 @@ navigation:
     ## TabView
     controls/tabview:
         title: "TabView"
+    controls/tabview/styling:
+        title: "Styling"
+        position: 10
     ## End TabView
     ## TemplatedButton
     controls/templatedbutton:

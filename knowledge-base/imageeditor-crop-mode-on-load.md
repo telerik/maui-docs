@@ -26,7 +26,7 @@ This KB article also answers the following questions:
 
 To make the `RadImageEditor` start in `Crop` mode when the page loads, subscribe to the `ImageLoaded` event. In the event handler, execute the `CropCommand` programmatically.
 
-Here is how to accomplish this:
+Here is how to do this:
 
 **1.** Define the `RadImageEditor` in XAML and subscribe to the `ImageLoaded` event:
 

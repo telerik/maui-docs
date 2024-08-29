@@ -16,7 +16,7 @@ To show the Popup control, set `IsOpen` property to `True`. By default, the Popu
 
 ## Setting the Content
 
-To host content inside the Popup, either add it directly as a child element or use the `ContentTemplate` Popup property.
+To host content inside the Popup, either add it directly as a child element or use the `RadPopup`'s `ContentTemplate` property.
 
 The example below demonstrates how to create a sample `DataTemplate` and set it as the `ContentTemplate` of the Popup.
 
@@ -28,14 +28,15 @@ The example below demonstrates how to create a sample `DataTemplate` and set it 
 
 <snippet id='popup-features-contenttemplate-xaml' />
 
-**3.** Add the events as shown below:
+**3.** Add the `CheckBoxIsCheckedChanged` event handler as shown below:
 
 <snippet id='popup-features-contenttemplate-events' />
 
 The following image shows the end result.
 
-![.NET MAUI Popup Content Template](images/popup_features_contenttemplate.png)
+![.NET MAUI Popup Content Template](images/popup-contenttemplate.png)
 
 ## See Also
 
+- [Placement]({%slug popup-placement %})
 - [Modal Popup]({% slug popup-modal %})

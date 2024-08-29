@@ -28,29 +28,29 @@ ComboBox provides both case-sensitive and case-insensitive searching modes. The 
 * `HighlightTextColor`(*Microsoft.Maui.Graphics.Color*)&mdash;Defines the color of the text that will be highlighted when searching is performed.
 
 > Searching can be performed when `IsEditable` is `true`.
+> The ComboBox `DisplayMemberPath` property must be set when binding to complex objects. Also, when `IsEditable` is `true`, the `SearchTextPath` property must be set.
 
-If you want the text to be highlighted when using custom ItemTemplate, you have to add a `RadHighlightLabel` inside the ItemTemplate.
+If you want the text to be highlighted when using a custom `ItemTemplate`, you have to add a `RadHighlightLabel` inside the `ItemTemplate`.
 
-Here is an example:
+Here is the XAML definition of the ComboBox with `RadHighlightLabel` inside the `ItemTemplate`:
 
 ```XAML
 <telerik:RadComboBox x:Name="comboBox"
-        ItemsSource="{Binding Items}" 
-        DisplayMemberPath="Name"
-        Placeholder="Select City"
-        AutomationId="comboBox"
-        HighlightTextColor="Red"
-        IsEditable="True">
+                     ItemsSource="{Binding Items}" 
+                     DisplayMemberPath="Name"
+                     Placeholder="Select City"
+                     AutomationId="comboBox"
+                     HighlightTextColor="Red"
+                     IsEditable="True">
     <telerik:RadComboBox.ItemTemplate>
         <DataTemplate>
             <telerik:RadBorder BackgroundColor="LightYellow"
                 MinimumWidthRequest="300">
 
                 <telerik:RadHighlightLabel TextColor="Black" Padding="10"
-            HighlightTextColor="BlueViolet"
-            UnformattedText="{Binding Name}"
-            HighlightText="{Binding Source={x:Reference comboBox}, Path=Text}" />
-
+                                           HighlightTextColor="BlueViolet"
+                                           UnformattedText="{Binding Name}"
+                                           HighlightText="{Binding Source={x:Reference comboBox}, Path=Text}" />
             </telerik:RadBorder>
         </DataTemplate>
     </telerik:RadComboBox.ItemTemplate>
@@ -60,43 +60,21 @@ Here is an example:
                 MinimumWidthRequest="300">
                 <VerticalStackLayout>
                     <Label Text="{Binding Name}"
-            Padding="8, 7, 0, 7"
-            TextColor="Black"/>
+                           Padding="8, 7, 0, 7"
+                           TextColor="Black"/>
                     <Label Text="{Binding Population}" 
-            FontSize="12"
-            Padding="8, 7, 0, 7"/>
+                           FontSize="12"
+                           Padding="8, 7, 0, 7"/>
                 </VerticalStackLayout>
             </telerik:RadBorder>
         </DataTemplate>
     </telerik:RadComboBox.SelectedItemTemplate>
 </telerik:RadComboBox>
- ```
+```
 
-## Example
+> For a runnable demo with the ComboBox Search eamples with different scenarios, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ComboBox > Features** category.
 
-Here is the ComboBox definition in XAML:
-
-<snippet id='combobox-editing'/>
-
->note When binding to a complex objects, ComboBox `DisplayMemberPath` property needs to be set. Also when `IsEditable` is `true` `SearchTextPath` property needs be set.
-
-In addition to this, you need to add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
-the sample business model
-
-<snippet id='combobox-city-businessmodel'/>
-
-and the ViewModel used:
-
-<snippet id='combobox-cities-viewmodel'/>
-
-Here is how the control looks in edit mode:
-
-![ComboBox Edit Mode](images/combobox-edit.png)
+![.NET MAUI ComboBox Edit Mode](images/combobox-edit.gif)
 
 ## See Also
 

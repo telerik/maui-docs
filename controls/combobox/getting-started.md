@@ -10,10 +10,6 @@ slug: combobox-getting-started
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) by adding the control to your project.
 
-At the end, you will achieve the following result.
-
-![ComboBox Getting Started](images/combobox-getting-started.png)
-
 ## Prerequisites
 
 Before adding the ComboBox, you need to:
@@ -36,7 +32,7 @@ When your .NET MAUI application is setup, you are ready to add a ComboBox contro
 
 Here is the result:
 
-![ComboBox Getting Started](images/combobox-getting-started.png)
+![.NET MAUI ComboBox Getting Started](images/combobox-getting-started.png)
 
 ### Binding to a Complex Object
 
@@ -70,7 +66,7 @@ Here is the result:
 
 ![ComboBox Binding](images/combobox-getting-started-complex-data.png)
 
->important For the ComboBox Getting Started example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Getting Started** category.
+> For the ComboBox Getting Started example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Getting Started** category.
 
 ## Additional Resources
 
