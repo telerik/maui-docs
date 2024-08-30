@@ -1,22 +1,60 @@
 ---
-title: First Steps with NuGet
-page_title: macOS Getting Started Guide for Installing with Telerik NuGet Server and VS
-description: "Get started with Telerik UI for .NET MAUI and learn how to install the controls by using the Telerik NuGet Server with Visual Studio for macOS."
+title: First Steps with .NET MAUI in VS Code
+page_title: Get Started with Telerik UI for .NET MAUI in VS Code
+description: "Get started with Telerik UI for .NET MAUI and learn how to install and use the controls by utilizing the Telerik NuGet Server and Visual Studio Code."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, macos, install
-slug: telerik-nuget-server-mac
+slug: get-started-vs-code
 position: 2
-published: false
+previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget, /get-started/mac/first-steps-pkg
 ---
 
-# First Steps by Installing with the NuGet Package on macOS
+# First Steps with Telerik UI for .NET MAUI in Visual Studio Code
 
-NuGet is a popular .NET package manager. Progress maintains the Telerik NuGet Feed for registered users and you can include the Telerik UI for .NET MAUI suite in your project as well as update to the latest available version from there.
+In this tutorial, you will enhance an existing .NET MAUI application by adding a Telerik UI for .NET MAUI control. You will achieve this by using Visual Studio Code (on Windows or Mac)and utilizing the Telerik NuGet source that will let you download and install Telerik controls.
 
-While installing Telerik UI for .NET MAUI with NuGet works both for Windows and MacOS machines, this tutorial describes how to get up and running with the library by downloading and installing the controls on macOS. Here is the step by step guide you have to follow:
+## Prerequisites
 
->important The `Telerik.UI.for.Maui` NuGet package supports .NET 7.0, .NET 8.0, and .NET 9 Preview 6 or later projects, and automatically restores the required packages depending on the .NET version you are using in your project.
+* To download the Telerik UI for .NET MAUI packages, you need a [Telerik account](https://www.telerik.com/account/). If you don't have one, you can [create one](https://www.telerik.com/account/) for free.
+* To create the app, you need <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Visual Studio Code</a> with the .NET MAUI extension and the <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-8.0&tabs=visual-studio-code#install-net-and-net-maui-workloads" target="_blank">.NET and .NET MAUI workloads</a>.
+
+## Step 0: Start Your Free Trial
+
+* If you already have an [active license](https://www.telerik.com/account/your-licenses) for Telerik UI for .NET MAUI, skip this step and continue with [Step 1](#step-1-set-up-your-net-maui-project).
+* If you don't have an active license, follow the steps below to activate your free trial:
+
+	1. [Download](https://www.telerik.com/try/ui-for-maui) the Progress Trial Installer and open the EXE file.
+
+	1. Make sure that **Telerik UI for .NET MAUI** is selected and continue with the setup.
+
+	1. Log in with your Telerik account and complete the installation.
+
+	After the successful installation of .NET MAUI, the Progress Trial Installer activates you 30 day free trial.
+
+<!--How does this work on Mac?-->
 
 ## Step 1: Set Up Your .NET MAUI Project
+
+In this step, you will create a basic .NET MAUI project as a starting point for your application development:
+
+<!--The content after this line must be updated.-->
+
+1. Open Visual Studio and select **Create a new project** in the start window.
+
+1. Select the **.NET MAUI App** template, and click the **Next** button.
+
+	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-create-maui-app.png)
+	
+1. Name your project and select a location.
+
+1. Choose the .NET framework for your project.
+
+1. Wait until Visual Studio restores all dependencies (when done, all exclamation marks in the **Dependencies** tree view item disappear).
+
+1. Click the **Windows Machine** button to build and run the app.
+
+	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-build-run.png)
+
+If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>. 
 
 Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 

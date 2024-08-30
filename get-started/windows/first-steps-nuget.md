@@ -6,6 +6,7 @@ tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui 
 slug: telerik-nuget-server
 position: 2
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget
+published: false
 ---
 
 # First Steps by Installing with the NuGet Package on Windows

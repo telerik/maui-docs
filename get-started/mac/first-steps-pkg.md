@@ -6,6 +6,7 @@ position: 1
 tags: .net maui, .net maui controls, dot net maui, telerik .net maui, macos, maccatalyst
 slug: install-pkg
 previous_url: /installation/mac/install-pkg
+published: false
 ---
 
 # First Steps by Installing with the PKG File
