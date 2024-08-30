@@ -6,6 +6,7 @@ slug: maui-getting-started
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui
 position: 1
 previous_url: /maui-getting-started, /get-started/first-steps, /installation/windows/install-msi, /first-steps
+published: false
 ---
 
 # First Steps by Installing with the MSI File
