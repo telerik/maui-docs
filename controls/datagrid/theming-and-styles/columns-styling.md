@@ -110,6 +110,8 @@ Here is an example how to set the `CellContentStyle` property:
 
 <snippet id='datagrid-columnstyle-cellcontent'/>
 
+>note The `CellContentStyle` does not apply for `TemplateColumn`. Also, the property is not applied to the built-in columns when they have a custom `CellContentTemplate`.
+
 ## CellDecorationStyle
 
 To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `DataGridBorderStyle` which provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
@@ -131,6 +133,8 @@ Here is an example how to set this property:
 And this is how the column style looks when the properties for customizing the column are applied:
 
 ![DataGrid Columns Styling](../images/datagrid-columns-styling.png)
+
+>note The `CellEditorStyle` is not applied to the built-in columns when they have a custom `CellEditTemplate`.
 
 ## FooterStyle
 
