@@ -16,15 +16,15 @@ To use the `PropertyGroupDescriptor`, you have to set its `PropertyName` (`strin
 
 Let's, for example, have the following business object:
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-object' />
+<snippet id='datagrid-grouping-object' />
 
 Add a sample `ViewModel` class with a collection of `Person` objects:
 
-<snippet id='datagrid-grouping-propertygroupdescriptor-viewmodel' />
+<snippet id='datagrid-grouping-viewmodel' />
 
 Define the `DataGrid`:
 
-<snippet id='datagrid-grouping-groupheadertemplate' />
+<snippet id='datagrid-grouping-propertygroupdescriptor-xaml' />
 
 All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 
@@ -32,16 +32,11 @@ All that is left is to set is the `ViewModel` as `BindingContext` of the page:
 
 Apply the `PropertyGroupDescriptor`:
 
-```C#
-this.dataGrid.GroupDescriptors.Add(new Telerik.Maui.Controls.Data.PropertyGroupDescriptor()
-{
-    PropertyName="Department"
-});
-```
+<snippet id='datagrid-grouping-propertygroupdescriptor' />
 
 Here is how the DataGrid looks when it's grouped:
 
-![DataGrid Property GroupDescriptor](../images/datagrid-delegate-group-descriptor.png)
+![DataGrid Property GroupDescriptor](../images/datagrid-property-group-descriptor.png)
 
 ## See Also
 
