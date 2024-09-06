@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I need to access the result string in each cell for the DataGrid columns where MemberDataBinding is used, and format strings and converters are applied. I want to loop through the items and output exactly what the DataGrid is displaying.
+I need to access the result string in each cell for the DataGrid columns where `MemberDataBinding` is used, and format strings and converters are applied. I want to loop through the items and output exactly what the DataGrid is displaying.
 
 This KB article also answers the following questions:
 - How can I get the displayed value of a DataGrid cell in MAUI?
