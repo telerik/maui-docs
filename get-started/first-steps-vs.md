@@ -67,9 +67,10 @@ To add the Telerik NuGet source to Visual Studio:
 
 1. Add the `https://nuget.telerik.com/v3/index.json` URL as a **Source**. Click **OK**.
 
+1. Whenever Visual Studio displays a dialog to enter credentials for `nuget.telerik.com`, use your Telerik account email and password.
+
 	![Add the Telerik NuGet Feed in Visual Studio](./images/telerik-nuget-feed.png)
 
-1. Whenever Visual Studio displays a dialog to enter credentials for `nuget.telerik.com`, use your Telerik account email and password.
 
 ## Step 3: Install the Telerik UI for .NET MAUI Controls
 

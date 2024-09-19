@@ -10,7 +10,7 @@ previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget,
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio Code
 
-In this tutorial, you will enhance an existing .NET MAUI application by adding a Telerik UI for .NET MAUI control. You will achieve this by using Visual Studio Code (on Windows or Mac)and utilizing the Telerik NuGet source that will let you download and install Telerik controls.
+In this tutorial, you will enhance an existing .NET MAUI application by adding a Telerik UI for .NET MAUI control. You will achieve this by using Visual Studio Code (on Windows or Mac) and utilizing the Telerik NuGet source that will let you download and install Telerik controls.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ In this tutorial, you will enhance an existing .NET MAUI application by adding a
 * If you already have an [active license](https://www.telerik.com/account/your-licenses) for Telerik UI for .NET MAUI, skip this step and continue with [Step 1](#step-1-set-up-your-net-maui-project).
 * If you don't have an active license, follow the steps below to activate your free trial:
 
-	1. [Download](https://www.telerik.com/try/ui-for-maui) the Progress Trial Installer and open the EXE file.
+	1. [Download](https://www.telerik.com/try/ui-for-maui) the Progress Trial Installer and start the installation.
 
 	1. Make sure that **Telerik UI for .NET MAUI** is selected and continue with the setup.
 
@@ -30,87 +30,70 @@ In this tutorial, you will enhance an existing .NET MAUI application by adding a
 
 	After the successful installation of .NET MAUI, the Progress Trial Installer activates you 30 day free trial.
 
-<!--How does this work on Mac?-->
-
 ## Step 1: Set Up Your .NET MAUI Project
 
-In this step, you will create a basic .NET MAUI project as a starting point for your application development:
+In this step, you will create a basic .NET MAUI project as a starting point for your application development, and then run it:
 
-<!--The content after this line must be updated.-->
+1. Open Visual Studio Code and select `Cmd/Ctrl+Shift+P`. Enter **.NET: New Project...** in the input field.
 
-1. Open Visual Studio and select **Create a new project** in the start window.
+1. Select the **.NET MAUI App** option.
 
-1. Select the **.NET MAUI App** template, and click the **Next** button.
+1. Enter a name for your app.
 
-	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-create-maui-app.png)
-	
-1. Name your project and select a location.
+1. Select an empty folder for your project. If the folder is not empty, the file explorer opens again.
 
-1. Choose the .NET framework for your project.
+1. Wait for Visual Studio Code to create the project and complete its configuration.
 
-1. Wait until Visual Studio restores all dependencies (when done, all exclamation marks in the **Dependencies** tree view item disappear).
+1. Choose the **Debug Target**:
 
-1. Click the **Windows Machine** button to build and run the app.
+	6.1. Open a C# or XAML file, for example, `App.xaml`.
 
-	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-build-run.png)
+	6.2. Click the curly brackets symbol **{ }** in the bottom right corner of Visual Studio Code.
 
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>. 
+	* If you are working on a Mac machine, select **My Mac**.
+	* If you are working on a Windows machine, select **Local Machine**.
 
-Before you start with the installation of Telerik UI for .NET MAUI, make sure you have a running .NET MAUI application. For more information on the required steps and system requirements, refer to the [Microsoft .NET MAUI official documentation](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
+		![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-code-select-debug-target.png)
 
-## Step 2: Download Telerik UI for .NET MAUI NuGet Package
+1. Press `F5` to start a debug session. If Visual Studio Code prompts you to select a debugger, select C#.
 
-Telerik UI for .NET MAUI enables you to download the suite either from the Telerik UI for .NET MAUI product page or through your Telerik account. For the purposes of this tutorial, let's download the batch from your Telerik account:
+If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Microsoft's .NET MAUI documentation</a>.
 
-1. Log into your [Telerik Account](https://www.telerik.com/account/).
+## Step 2: Add the Telerik NuGet Server
 
-1. Click the __Downloads__ tab.
+Telerik maintains a NuGet feed with official UI for .NET MAUI releases and service packs. These packages are available for registered users with an active trial or commercial license. Adding the Telerik NuGet server as a source lets you download and install Telerik packages containing controls and utilities. As Visual Studio Code does not offer a built-in NuGet packet manager, use .NET CLI to add a new package source.
 
-  ![Telerik UI for .NET MAUI Download tab in your account](../../images/download-tab.png)
+To add the Telerik NuGet source using .NET CLI, use the command below. Replace the placeholders with your Telerik account user name and password.
 
-1. Search for MAUI and select the __Telerik UI for .NET MAUI__ product title.
+```
+dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username <TELERIK EMAIL> --password <TELERIK PASSWORD> --store-password-in-clear-text
+```
 
-  ![Telerik UI for .NET MAUI Search field in your account](../../images/search-for-maui.png)
+>caution Storing passwords in plain text is strongly discouraged. This guide uses the `--store-password-in-clear-text` only for simplicity. For real-world scenarios, use secure methods, such as encrypted passwords or API keys. See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials. 
 
-1. On the next page, download the `.nupkg` or `.zip` files. The `.zip` file contains the Telerik .NET MAUI NuGet Package.
+## Step 3: Install the Telerik UI for .NET MAUI Controls
 
-  ![Telerik UI for .NET MAUI available product files in your account](../../images/product-files.png)
+After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 
-## Step 3: Add the Telerik NuGet Package Source to Visual Studio for Mac
+1. Navigate to your project's root directory.
 
-Now, let's add the Telerik UI for .NET MAUI package through the Telerik NuGet feed. To use the available packages, you need to have an active Telerik account and to authenticate.
+1. Use .NET CLI to install the NuGet package:
 
-1. Click on the solution folder in Visual Studio for Mac to display the context menu and choose **Manage NuGet Packages**.
+	* If you have a trial license, use the following command:
 
-  ![Telerik NuGet Package Manager context menu with the Package Manager Settings option](../../installation/images/open-manage-nuget-packages-mac.png)
+		```
+		dotnet add package Telerik.UI.for.Maui.Trial
+		```
 
-1. Choose the **Configure Source** option from the drop-down in the lower left corner.
+	* If you have purchased a commercial license, use the following command:
 
-  ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-configure-sources.png)
+		```
+		dotnet add package Telerik.UI.for.Maui
+		```
 
-1. On the next dialog you can see all the available sources. Choose **Add** to add the new server.
+## Step 4: Add a Telerik UI Component
 
-  ![Package Sources dialog with the Available package sources field](../../installation/images/getting-started-add-package-source.png)
-
-1. In the **Location** field, add the Telerik server URL: `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from [your account](https://www.telerik.com/account/), add the path to the local package instead of the URL. Finally, click **Add Source**.
-
-  ![Package Sources field with the checked Telerik NuGet option](../../installation/images/getting-started-add-telerk-server.png)
-
-> The obsolete NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024. To avoid any interruptions in your development process, change the NuGet server URL to `https://nuget.telerik.com/v3/index.json`.
-
-The Telerik server is now ready to use. You can go to your solution and open the **Solution Package Manager**.
-
-## Step 4: Install the Telerik .NET MAUI NuGet Package
-
-Now, you need to add the Telerik package to the .NET MAUI solution project that you created:
-
-1. Select the Telerik NuGet server as a package source and enter your credentials when prompted.
-1. Search for the `Telerik.UI.for.Maui` package and select it.
-1. Choose the projects which require the package.
-1. Select the desired version and click **Add Package**.
-
-![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/telerik-maui-nuget-mac.png)
-
+<!--
 ## Step 5: Register the Required Handlers
 
 To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
@@ -141,13 +124,14 @@ public static class MauiProgram
 	}
 }
  ```
-
+-->
 ## Next Steps
 
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [Restoring NuGet Packages in Your CI Workflow]({% slug nuget-keys %})
 * [Telerik UI for .NET MAUI Installation Approaches]({% slug installation-approaches %})
 
+<!--
 ## Troubleshooting
 
 This section lists some of the common problems that are observed during NuGet installation.
@@ -167,7 +151,7 @@ The following error may occur if the nuget.telerik.com server is down.
 `Unable to load the service index for source https://nuget.telerik.com/v3/index.json`
 
 If you hit that error, make sure that the Telerik NuGet Feed is live at https://status.telerik.com/.
-
+-->
 ## See Also
 
 * [System Requirements for macOS]({% slug system-requirements-mac %})
