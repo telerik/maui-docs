@@ -91,40 +91,52 @@ After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 		dotnet add package Telerik.UI.for.Maui
 		```
 
-## Step 4: Add a Telerik UI Component
+## Step 4: Add the Telerik Namespace and Register the Controls
 
-<!--
-## Step 5: Register the Required Handlers
+To use the controls in the Telerik UI for .NET MAUI library, add the Telerik namespace:
 
-To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+1. In the `MainPage.xaml` file, locate the root element at the top. with the already available namespaces.
+1. Paste the Telerik namespace below the last already available namespace:
 
-1. Add the needed `using` settings inside the `MauiProgram.cs` file.
+	```
+	xmlns:telerikCombo="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+	```
 
- ```C#
-using Telerik.Maui.Controls.Compatibility;
- ```
+To visualize the Telerik controls, register them in the `MauiProgram.cs` file of your project:
 
-1. Call the `UseTelerik()` method inside the `MauiProgram.cs` file.
+1. In the `MauiProgram.cs` file, add the following using statement:
 
- ```C#
-public static class MauiProgram
-{
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseTelerik()
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+	```
+	using Telerik.Maui.Controls.Compatibility;
+	```
 
-		return builder.Build();
-	}
-}
- ```
--->
+1. In the `CreateMauiApp` method, call the `UseTelerik` extension method:
+
+	```
+	<!-- Code omitted for brevity -->
+	.UseMauiApp<App>()
+	.UseTelerik()
+	<!-- Code omitted for brevity -->
+	```
+
+## Step 5: Add a Telerik UI Component
+
+In this step, you will replace the Button control in Microsoft's template with a Telerik control. The Telerik UI for .NET MAUI TemplatedButton that you will use gives you full control over the Button's content.
+
+To add the TemplatedButton control to the application:
+
+1. Delete the existing Button and its event handler:
+
+	1. In the `MainPage.xaml` file, locate the Button with `x:Name="CounterBtn"` and delete it.
+	1. In the `MainPage.xaml.cs` code-behind, locate the `OnCounterClicked` event handler and delete it.
+
+1. In the `MainPage.xaml` file, add the Telerik UI for .NET MAUI TemplatedButton:
+
+	```
+	<telerik:RadTemplatedButton x:Name="templatedButton"
+		Content="My TemplatedButton Content" />
+	```
+
 ## Next Steps
 
 * [Available Product Files and Assemblies]({% slug download-product-files %})
