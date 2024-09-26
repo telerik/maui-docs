@@ -25,7 +25,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To disable the gesture for closing the SideDrawer and make it close only via a button click on WinUI, you will need to use the native control customization options available for the SideDrawer. Specifically, you should set the `DrawerManipulationMode` property to `Button`. This ensures that the drawer does not respond to swipe gestures and only opens when a button is clicked.
+To disable the gesture for closing the SideDrawer and make it close only with a button click on WinUI, use the native control customization options available for the SideDrawer. Specifically, you set the `DrawerManipulationMode` property to `Button`. This ensures that the drawer does not respond to swipe gestures and only opens when a button is clicked.
 
 Here is the code snippet to achieve this:
 
