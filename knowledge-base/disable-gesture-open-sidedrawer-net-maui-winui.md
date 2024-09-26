@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-In a .NET MAUI application, you might want to restrict opening of the [SideDrawer]({%slug sidedrawer-overview%}) to occur only through a button click, especially on the WinUI platform, instead of using the swipe/drag gesture. This can be essential for cases where gesture control needs to be disabled for specific UI requirements.
+In a .NET MAUI application, you might want to restrict the [SideDrawer]({%slug sidedrawer-overview%}) to open only through a button click, especially on the WinUI platform, instead of using the swipe/drag gesture. This can be essential for cases where gesture control needs to be disabled for specific UI requirements.
 
 This KB article also answers the following questions:
 - How can I disable swipe gesture for opening the SideDrawer on WinUI?
