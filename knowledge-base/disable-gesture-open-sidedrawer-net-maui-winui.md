@@ -20,7 +20,7 @@ In a .NET MAUI application, you might want to restrict the [SideDrawer]({%slug s
 
 This KB article also answers the following questions:
 - How can I disable swipe gesture for opening the SideDrawer on WinUI?
-- Is it possible to control the SideDrawer's open and close behavior through a button only in .NET MAUI?
+- Is it possible to control the SideDrawer's open and close behavior only through a button in .NET MAUI?
 - Can I restrict the closing mechanism of the SideDrawer to non-gesture methods in WinUI?
 
 ## Solution
