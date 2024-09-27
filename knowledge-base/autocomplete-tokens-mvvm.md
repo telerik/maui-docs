@@ -16,17 +16,15 @@ res_type: kb
 
 ## Description
 
-This article explains how to manage the tokens collection of the Autocomplete in MVVM scenario.
+This article explains how to manage the tokens collection of the AutoComplete in MVVM scenario.
 
 ## Solution
 
-The `Tokens` property of the `AutoComplete` is:
+The `Tokens` collection of the `AutoComplete` is a read-only collection:
 
 ```C#
 public ObservableCollection<object> Tokens { get; }
 ```
-
-The collection is a read-only collection. 
 
 To add or remove tokens using MVVM setup you have to create a custom behavior.
 
