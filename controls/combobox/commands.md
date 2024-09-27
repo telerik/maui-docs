@@ -8,11 +8,15 @@ slug: combobox-commands
 
 # .NET MAUI ComboBox Commands
 
-The [.NET MAUI ComboBox]({%slug combobox-overview%}) provides the following commands:
+The [.NET MAUI ComboBox]({%slug combobox-overview%}) provides a few commands that will help you manipulate its selection.
+
+## SelectAll Command
 
 - `SelectAllCommand` (`ICommand`)&mdash;Selects all items from the source.
 
-> The `SelectAll` command can be used only when `SelectionMode` is `Multiple`. An exception will be thrown if the command is invoked in `Single` `SelectionMode`.
+> The `SelectAll` command can be used only when `SelectionMode` is `Multiple`. In case the command is invoked in `Single` `SelectionMode`, the ComboBox throws an exception.
+
+## Clear Selection Command
 
 - `ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If Multiple `SelectionMode` is used, this command will clear all selected items. YOu can override the default behavior and create custom command.
 
@@ -23,6 +27,32 @@ The example below shows both cases, the default `ClearSelectionCommand` executio
 <snippet id='combobox-commands-csharp'/>
 
 ![ComboBox ClearSelectionCommand](images/combobox-commands.gif)
+
+## Remove Token Command
+
+- `RemoveTokenCommand`(`ICommand`)&mdash;Removes a token from the ComboBox selection in `Multiple` selection mode. This command is called from the token's `DataTemplate` when the user taps the label for clearing the token.
+
+### Example with the default RemoveTokenCommand
+
+The example below shows how you can call the default `RemoveTokenCommand` from a custom `TokenTemplate` implementation:
+
+<snippet id='combobox-default-removetoken' />
+
+![Telerik .NET MAUI ComboBox default RemoveTokenCommand](images/combobox-removetokencommand-template.png)
+
+### Example with a custom RemoveTokenCommand
+
+The example demonstrates a custom `RemoveTokenCommand` implementation.
+
+**1.** Create a custom command class that inherits from `ComboBoxRemoveTokenCommand` and override, for example, its `Execute` method:
+
+<snippet id='combobox-custom-removetokencommand' />
+
+**2.** Apply the newly created command class to the `RadComboBox`'s `RemoveTokenCommand`:
+
+<snippet id='combobox-custom-removetoken' />
+
+![Telerik .NET MAUI ComboBox custom RemoveTokenCommand](images/combobox-removetoken.gif)
 
 ## See Also
 
