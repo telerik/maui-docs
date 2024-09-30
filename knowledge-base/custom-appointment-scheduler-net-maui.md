@@ -31,11 +31,11 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To include extra properties in the appointment model, implement a custom class that inherits from `Telerik.Maui.Controls.Scheduler.Appointment`. Ensure to override the `Copy` and `CopyFrom` methods for proper data handling. Additionally, utilize a custom `AppointmentTemplate` to display the new properties in the Scheduler.
+To include extra properties in the appointment model, implement a custom class that inherits from `Telerik.Maui.Controls.Scheduler.Appointment`. Override the `Copy` and `CopyFrom` methods for proper data handling. Additionally, utilize a custom `AppointmentTemplate` to display the new properties in the Scheduler.
 
 ### Step 1: Create a Custom Appointment Class
 
-Define a custom class that extends `Appointment` and add your custom properties. Override `Copy` and `CopyFrom` methods to ensure the custom properties are correctly handled during internal operations.
+Define a custom class that extends `Appointment` and add your custom properties. Override the `Copy` and `CopyFrom` methods to ensure the custom properties are correctly handled during internal operations.
 
 ```csharp
 public class MyCustomAppointment : Appointment
@@ -68,7 +68,7 @@ public class MyCustomAppointment : Appointment
 }
 ```
 
-### Step 2: Customize the AppointmentTemplate
+### Step 2: Customize the Appointment Template
 
 To display the custom properties in the Scheduler, define a `DataTemplate` incorporating the new properties and assign it to the `AppointmentTemplate` property of the Scheduler.
 
@@ -102,9 +102,9 @@ To display the custom properties in the Scheduler, define a `DataTemplate` incor
 </telerik:RadScheduler>
 ```
 
-### Step 3: Customize the EditAppointmentDialog (Optional)
+### Step 3: Customize the Appointment Dialog (Optional)
 
-To enable users to edit the custom property through the `EditAppointmentDialog`, modify its `ControlTemplate`. Refer to the Controls Samples app for an example of dialog customization.
+To enable users to edit the custom property through the `EditAppointmentDialog`, modify its `ControlTemplate`. Refer to the [Controls Samples](https://docs.telerik.com/devtools/maui/demos-and-sample-apps/controls-showcase-app) app for an example of dialog customization.
 
 ## See Also
 
