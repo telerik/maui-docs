@@ -2,13 +2,13 @@
 title: Commands
 page_title: .NET MAUI AutoComplete Documentation - Commands
 description: Learn more about the commands that the Telerik UI for .NET MAUI AutoComplete control exposes.
-position: 11
+position: 14
 slug: autocomplete-commands
 ---
 
 # .NET MAUI AutoComplete Commands
 
-The .NET MAUI AutoComplete provides a `Reniv
+The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that will help you manipulate its tokens selection.
 
 ## Remove Token Command
 
@@ -26,7 +26,7 @@ The example below shows how you can call the default `RemoveTokenCommand` from a
 
 ### Example with a custom RemoveTokenCommand
 
-The example demonstrates a custom `RemoveTokenCommand` implementation.
+The example demonstrates a custom `RemoveTokenCommand` implementation - there is a confirmation dialog before the default command to be executed.
 
 **1.** Create a custom command class that inherits from `AutoCompleteRemoveTokenCommand` and override, for example, its `Execute` method:
 

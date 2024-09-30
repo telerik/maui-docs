@@ -42,7 +42,7 @@ The example below shows how you can call the default `RemoveTokenCommand` from a
 
 ### Example with a custom RemoveTokenCommand
 
-The example demonstrates a custom `RemoveTokenCommand` implementation.
+The example demonstrates a custom `RemoveTokenCommand` implementation - there is a confirmation dialog before the default command to be executed.
 
 **1.** Create a custom command class that inherits from `ComboBoxRemoveTokenCommand` and override, for example, its `Execute` method:
 
