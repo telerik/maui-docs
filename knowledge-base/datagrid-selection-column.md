@@ -16,14 +16,18 @@ res_type: kb
 
 ## Description
 
-In a .NET MAUI application, you want to select the row in the DataGrid through a column and select all rows from the header of this column.
+In a .NET MAUI application, you may want to select a DataGrid row through a column or all grid rows from the header of this column.
 
 ## Solution
 
-To implement such column and to avoid the usage of the templates, you have to use the [CellRenderer]({%slug datagrid-render-mode%}) approach. This approach uses SkiaSharp to draw the elements inside the DataGrid cell. For the scenario we are going to use a `DataGridBooleanColumn` with a Skia `CellRenderer`. The cell renderer will draw a checkbox element in the cell. Here is the approach:
+To implement such a column and to avoid the usage of the templates, use the [Cell Renderer]({%slug datagrid-render-mode%}) approach. This approach uses SkiaSharp to draw the elements inside the DataGrid cell. In such scenarios, use a `DataGridBooleanColumn` with a Skia `CellRenderer`. The cell renderer will draw a checkbox element in the cell.
+
+Here is the implementation:
 
 **1.** Draw a `CheckBox` using the `CellRenderer` approach. 
-    **1.1** Create a custom class `CheckboxColumnRenderer` that inherits from `DataGridCellRenderer`. 
+
+    **1.1** Create a custom `CheckboxColumnRenderer` class that inherits from `DataGridCellRenderer`. 
+    
     **1.2** Override the `RenderContainer` method and draw the custom control.
 
 ```C#
@@ -91,7 +95,7 @@ public class CheckboxColumnRenderer : DataGridCellRenderer
 ```
 
 
-**2.** In the XAML set the custom class `CheckboxColumnCellRenderer` to the `DataGridBooleanColumn.CellRenderer` property:
+**2.** In the XAML, set the custom `CheckboxColumnCellRenderer` class to the `DataGridBooleanColumn.CellRenderer` property:
 
 ```XAML
 <ContentPage.Resources>
@@ -134,7 +138,7 @@ public class CheckboxColumnRenderer : DataGridCellRenderer
 </Grid>
 ```
 
-**3.** Add sample data model:
+**3.** Add a sample data model:
 
 ```C#
 public class EmployeeDto : Employee

@@ -1,6 +1,6 @@
 ---
-title: Manage Tokens Collection in .NET MAUI Autocomplete
-description: Learn how to add, delete items from the AutoComplete tokens collection.
+title: Manage the Tokens Collection in .NET MAUI AutoComplete
+description: Learn how to add and delete items from the AutoComplete's tokens collection.
 type: how-to
 page_title: How to Manage the Tokens collection of the RadAutoComplete for .NET MAUI in MVVM approach
 slug: autocomplete-tokens-collection-mvvm
@@ -26,7 +26,7 @@ The `Tokens` collection of the `AutoComplete` is a read-only collection:
 public ObservableCollection<object> Tokens { get; }
 ```
 
-To add or remove tokens using MVVM setup you have to create a custom behavior.
+To add or remove tokens using an MVVM setup, create a custom behavior.
 
 **1.** Create a `TokensBehavior` class that inherits from `Behavior<RadAutoComplete>`:
 
@@ -155,7 +155,7 @@ public class TokensBehavior : Behavior<RadAutoComplete>
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Add sample model:
+**4.** Add a sample model:
 
 ```C#
 public class Customer
