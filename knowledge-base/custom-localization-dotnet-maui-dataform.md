@@ -26,14 +26,16 @@ ticketid: 1663273
 
 ## Description
 
-When working with the [DataForm](https://docs.telerik.com/devtools/maui/controls/dataform/overview) for .NET MAUI, you might need to customize the error messages displayed for validation errors. Specifically, you want to change the default range validation error message to a custom one. This KB article also answers the following questions:
+When working with the [DataForm](https://docs.telerik.com/devtools/maui/controls/dataform/overview) for .NET MAUI, you might need to customize the error messages displayed for validation errors. Specifically, you want to change the default range validation error message to a custom one. 
+
+This KB article also answers the following questions:
 - How to customize error messages in .NET MAUI DataForm?
 - How to use custom localization with DataForm in .NET MAUI?
-- How to change validation error messages in DataForm?
+- How to change the validation error messages in DataForm?
 
 ## Solution
 
-To customize the error messages in the DataForm component, you can create a custom localization manager by extending the `TelerikLocalizationManager` class. Override the `GetString` method to return custom messages for specific keys. 
+To customize the error messages in the DataForm component, create a custom localization manager by extending the `TelerikLocalizationManager` class. Override the `GetString` method to return custom messages for specific keys. 
 
 Here is how to implement a custom localization manager:
 
