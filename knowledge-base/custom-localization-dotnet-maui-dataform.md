@@ -1,5 +1,5 @@
 ---
-title: Implementing Custom Localization in .NET MAUI DataForm
+title: Implementing Custom Localization in .NET MAUI DataForm through Validation Attributes
 description: Learn how to create and apply custom localization values for the .NET MAUI DataForm component to customize validation error messages.
 type: how-to
 page_title: Customizing Localization for Validation Messages in .NET MAUI DataForm
@@ -29,9 +29,8 @@ ticketid: 1663273
 When working with the [DataForm](https://docs.telerik.com/devtools/maui/controls/dataform/overview) for .NET MAUI, you might need to customize the error messages displayed for validation errors. Specifically, you want to change the default range validation error message to a custom one. 
 
 This KB article also answers the following questions:
-- How to customize error messages in .NET MAUI DataForm?
-- How to use custom localization with DataForm in .NET MAUI?
-- How to change the validation error messages in DataForm?
+- How to customize error messages in .NET MAUI DataForm when validation is implemented through attributes in your ViewModel?
+- How to change the validation error messages in DataForm through validation attributes?
 
 ## Solution
 
@@ -61,21 +60,7 @@ TelerikLocalizationManager.Manager = new CustomTelerikLocalizationManager();
 InitializeComponent();
 ```
 
-### Defining Validation Rules
-
-There are two ways to define validation rules for properties in the DataForm:
-
-1. **Using Built-in Validation Classes**
-
-Specify validation rules directly in XAML:
-
-```xml
-<telerik:DataFormCustomEditor.ValidationRules>
-    <telerik:DataFormEditorRangeValidationRule Minimum="0" Maximum="1000000" />
-</telerik:DataFormCustomEditor.ValidationRules>
-```
-
-2. **Using Validation Attributes in Your ViewModel**
+**Using Validation Attributes in Your ViewModel**
 
 Specify validation rules using data annotations:
 
