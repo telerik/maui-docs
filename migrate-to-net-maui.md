@@ -50,7 +50,7 @@ When the `.nupkg` file is available on your machine, you are ready to set up the
 
 When using the Telerik NuGet server, you can install the `Telerik.UI.for.MAUI` NuGet package in the .NET MAUI Application.
 
-For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI with NuGet]({%slug telerik-nuget-server%}).
+For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI with NuGet]({%slug maui-getting-started%}).
 
 ## Step 3: Register the .NET MAUI Controls
 
