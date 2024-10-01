@@ -73,4 +73,4 @@ Now, you can create a new project by using the Telerik Project Template.
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [System Requirements for macOS]({% slug system-requirements-mac %})
 * [Telerik Toolbox for .NET MAUI on macOS]({% slug toolbox-support-mac %})
-* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug sampleapps-overview %})

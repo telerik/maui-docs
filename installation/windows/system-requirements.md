@@ -37,4 +37,4 @@ You can use Telerik UI for .NET MAUI for application development for the followi
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
 * [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
-* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug sampleapps-overview %})

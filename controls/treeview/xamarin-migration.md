@@ -79,6 +79,6 @@ When migrating the TreeView from Xamarin to .NET MAUI, consider the following di
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI TreeView Product Page](https://www.telerik.com/maui-ui/treeview)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)
