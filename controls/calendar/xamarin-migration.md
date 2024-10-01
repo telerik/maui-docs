@@ -40,6 +40,6 @@ When migrating the Calendar from Xamarin to .NET MAUI, consider the following di
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI Calendar Product Page](https://www.telerik.com/maui-ui/calendar)
 * [.NET MAUI Calendar Forum Page](https://www.telerik.com/forums/maui?tagId=2057)

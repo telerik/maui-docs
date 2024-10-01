@@ -27,6 +27,6 @@ Telerik .NET MAUI SignaturePad control preserves the same API as Xamarin.Forms S
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI SignaturePad Product Page](https://www.telerik.com/maui-ui/signaturepad)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

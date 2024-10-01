@@ -28,4 +28,4 @@ Here is the result:
 
 ## See Also
 
-- [Localization]({% slug scheduler-localization %})
+- [Localization in .NET MAUI Scheduler]({% slug scheduler-localization %})

@@ -120,6 +120,6 @@ private void ListView_HandlerChanged(object sender, EventArgs e)
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI ListView Product Page](https://www.telerik.com/maui-ui/listview)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

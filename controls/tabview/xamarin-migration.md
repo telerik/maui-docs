@@ -61,6 +61,6 @@ In Xamarin, the `TabViewHeaderItem` is part of the `TabViewItem`, while in .NET 
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI TabView Product Page](https://www.telerik.com/maui-ui/tabview)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1871)

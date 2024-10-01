@@ -25,7 +25,7 @@ The Telerik UI for .NET MAUI TemplatedPicker is a fully customizable picker cont
 
 * [Commands support]({%slug templatedpicker-commands%})&mdash;The TemplatedPicker exposes the `ClearCommand` command that allows you to clear the selected item and the `ToggleCommand` that allows you to open and close the dialog.
 
-* [Localization support]({%slug templatedpicker-localization%})&mdash;Translate the used across the TimePicker texts to other languages, so that your app can be adapted to different regions.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the used across the TemplatedPicker texts to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 

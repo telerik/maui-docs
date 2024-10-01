@@ -71,4 +71,4 @@ The following image shows the end result after running the application.
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
-* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug sampleapps-overview %})

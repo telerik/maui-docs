@@ -152,4 +152,4 @@ The following video demonstrates how you can upgrade your Xamarin.Forms App to .
 
 ## See Also
 
-* [Telerik UI for .NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})

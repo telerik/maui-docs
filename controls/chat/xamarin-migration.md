@@ -31,6 +31,6 @@ The tables in the following sections list any differences between the APIs of th
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI Chat Product Page](https://www.telerik.com/maui-ui/chat-(conversational-ui))
 * [.NET MAUI Chat Forum Page](https://www.telerik.com/forums/maui?tagId=2061)

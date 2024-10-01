@@ -38,4 +38,4 @@ The Telerik .NET MAUI product has a support for Toolbox extension in Visual Stud
 * [Available Product Files and Assemblies]({% slug download-product-files %})
 * [System Requirements for macOS]({% slug system-requirements-mac %})
 * [Telerik Project Template for VS on macOS]({% slug mac-project-template %})
-* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})
+* [Telerik UI for .NET MAUI Sample Apps]({% slug sampleapps-overview %})

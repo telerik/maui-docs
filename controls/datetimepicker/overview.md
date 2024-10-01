@@ -28,7 +28,7 @@ The Telerik UI for .NET MAUI DateTimePicker provides a way to pick a date, time 
 
 * [Commands support]({%slug datetimepicker-commands%})&mdash;The DateTimePicker exposes commands that allow you to clear the selected date and to open and close the popup.
 
-* [Localization support]({%slug datetimepicker-localization%})&mdash;Translate the used across the Date and Time Picker texts to other languages, so that your app can be adapted to different regions.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the used across the Date and Time Picker texts to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 
