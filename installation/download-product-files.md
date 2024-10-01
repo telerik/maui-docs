@@ -54,6 +54,6 @@ Note that in the following table, you have to modify the following entries:
 
 * [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})
 * [MSI Quickstart]({%slug maui-getting-started%})
-* [PKG Quickstart]({%slug install-pkg%})
-* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
-* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})
+* [PKG Quickstart]({%slug maui-getting-started-vs-code%})
+* [Quickstart with NuGet on Windows]({%slug maui-getting-started%})
+* [Quickstart with NuGet on macOS]({%slug maui-getting-started-vs-code%})
