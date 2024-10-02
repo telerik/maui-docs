@@ -24,7 +24,7 @@ The example below shows how to call the default `RemoveTokenCommand` from a cust
 
 ![Telerik .NET MAUI AutoComplete default RemoveTokenCommand](images/autocomplete-removetokencommand-template.png)
 
-### Example with a custom RemoveTokenCommand
+## Example with a Custom RemoveTokenCommand
 
 The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash;a confirmation dialog appears before the default command is executed.
 

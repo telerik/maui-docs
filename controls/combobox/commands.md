@@ -8,17 +8,17 @@ slug: combobox-commands
 
 # .NET MAUI ComboBox Commands
 
-The [.NET MAUI ComboBox]({%slug combobox-overview%}) provides a few commands that will help you manipulate its selection.
+The [.NET MAUI ComboBox]({%slug combobox-overview%}) provides commands that let you manipulate its selection.
 
 ## SelectAll Command
 
-- `SelectAllCommand` (`ICommand`)&mdash;Selects all items from the source.
+`SelectAllCommand` (`ICommand`)&mdash;Selects all items from the source.
 
-> The `SelectAll` command can be used only when `SelectionMode` is `Multiple`. In case the command is invoked in `Single` `SelectionMode`, the ComboBox throws an exception.
+To use the `SelectAll` command, set the selection mode to `Multiple`. If you invoke the command in `Single` selection mode, the ComboBox throws an exception.
 
 ## Clear Selection Command
 
-- `ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If Multiple `SelectionMode` is used, this command will clear all selected items. YOu can override the default behavior and create custom command.
+`ClearSelectionCommand` (`ICommand`)&mdash;Sets the selection to null. If you use the `Multiple` selection mode, this command will clear all selected items. You can override the default behavior and create a custom command.
 
 The example below shows both cases, the default `ClearSelectionCommand` execution and custom `ClearSelectionCommand` implementation:
 
