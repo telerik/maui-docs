@@ -34,5 +34,3 @@ After the successful installation of .NET MAUI, you've activated your 30 day fre
 
 # See Also
 
-* [Quickstart with NuGet on Windows]({%slug maui-getting-started%})
-* [Quickstart with NuGet on macOS]({%slug maui-getting-started-vs-code%})
