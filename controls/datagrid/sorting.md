@@ -77,7 +77,7 @@ public class CustomIKeyLookup : Telerik.Maui.Controls.Data.IKeyLookup
 }
 ```
 
-Add it to the `GroupDescriptors` collection of the DataGrid:
+Add it to the `SortDescriptors` collection of the DataGrid:
 
 <snippet id='datagrid-delegatesortdescriptor-csharp'/>
 ```C#
