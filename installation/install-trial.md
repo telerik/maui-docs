@@ -28,7 +28,7 @@ To start a free trial, follow the steps below:
 
         Make sure the **Telerik UI for .NET MAUI** is selected and continue with the setup.
 
-    - On MacOS, you'll download the Telerik UI for .NET MAUI PKG file which is the [automated installer for Mac machines]({%slug automated-installer}#pkg-file-installation). 
+    - On MacOS, you'll download the Telerik UI for .NET MAUI PKG file which is the [automated installer for Mac machines]({%slug automated-installer%}#pkg-file-installation). 
  
 After the successful installation of .NET MAUI, you've activated your 30 day free trial.
 
