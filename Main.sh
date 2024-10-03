@@ -1,4 +1,5 @@
 
+
 cd ${WORKSPACE}/markdown-snippet-injector
 npm install
 
