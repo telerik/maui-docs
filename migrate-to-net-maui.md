@@ -26,7 +26,7 @@ The following list summarizes the required steps of the Xamarin to MAUI migratio
 1. Address any breaking API changes.
 1. Run the converted application and verify that it functions correctly.
 
-## Step 2: Replace the Telerik References
+## Step 2:  Replace the Telerik References
 
 Once your Xamarin.Forms app has been migrated to .NET MAUI, you’re ready to replace the Telerik UI for Xamarin references with the Telerik UI for .NET MAUI ones and, then, register the controls.
 
