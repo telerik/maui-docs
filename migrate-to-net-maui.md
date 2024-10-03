@@ -14,7 +14,7 @@ This guide provides the information you need to convert your application, which 
 
 >important Telerik UI for .NET MAUI does not provide a direct alternative to Xamarin.iOS or Xamarin.Android in .NET. However, migrating to .NET MAUI and switching to the Telerik UI for .NET MAUI controls ensures that you will receive the latest framework and UI controls updates.
 
-##  Step 1: Xamarin.Forms to .NET MAUI Migration Steps
+## Step 1: Xamarin.Forms to .NET MAUI Migration Steps
 
 While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 7.0/.NET 8.0 and, thus, upgrade Xamarin to .NET MAUI.
 
