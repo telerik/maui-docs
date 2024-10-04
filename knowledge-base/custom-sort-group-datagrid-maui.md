@@ -10,22 +10,13 @@ res_type: kb
 
 ## Environment
 
-<table>
-<tbody>
-<tr>
-<td>Product</td>
-<td>DataGrid for MAUI</td>
-</tr>
-<tr>
-<td>Version</td>
-<td>7.1.0</td>
-</tr>
-</tbody>
-</table>
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 7.1.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
-When working with the Telerik [DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/overview) for MAUI, you might need to customize the sorting and grouping logic while still allowing users to utilize the built-in UI options for these operations. This involves overriding the default sort and group descriptors with custom logic.
+When working with the Telerik [DataGrid]({%slug datagrid-overview%}) for MAUI, you might need to customize the sorting and grouping logic while still allowing users to utilize the built-in UI options for these operations. This involves overriding the default sort and group descriptors with custom logic.
 
 This KB article also answers the following questions:
 - How can I implement custom sorting in a DataGrid while using the built-in UI in MAUI?
@@ -38,7 +29,7 @@ To customize the sorting and grouping logic in a DataGrid while keeping the buil
 
 1. Create a custom column class that inherits from `DataGridComboBoxColumn`.
 2. Override the `CreateSortDescriptor()` and `CreateGroupDescriptor()` methods.
-3. Implement your custom logic using `DelegateSortDescriptor` and `DelegateGroupDescriptor`.
+3. Implement your custom logic using [`DelegateSortDescriptor`]({%slug datagrid-sorting-overview%}#delegate-sort-descriptor) and [`DelegateGroupDescriptor`]({%slug datagrid-delegate-group-descriptor%}).
 4. Apply the custom column to the DataGrid control.
 
 Below is a sample implementation:
@@ -86,6 +77,6 @@ This approach allows you to maintain the user-friendly features of the DataGrid,
 
 ## See Also
 
-- [DataGrid Overview](https://docs.telerik.com/devtools/maui/controls/datagrid/overview)
-- [Grouping in DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/grouping/delegate-group-descriptor)
-- [Sorting in DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/sorting#delegate-sort-descriptor)
+- [DataGrid Overview]({%slug datagrid-overview%})
+- [Grouping in DataGrid]({%slug datagrid-delegate-group-descriptor%})
+- [Sorting in DataGrid]({%slug datagrid-sorting-overview%}#delegate-sort-descriptor)
