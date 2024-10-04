@@ -24,7 +24,7 @@ The following example demonstrates how to set `DateOnly` in the DatePicker using
 
 <snippet id='datepicker-dateonly-to-datetimeconverter' />
 
-**3.** Add the following namespace:
+**3.** Add the `telerik` namespace:
 
  ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
