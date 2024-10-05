@@ -12,7 +12,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 4.0.0 | Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 4.0.0 | Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 

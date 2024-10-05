@@ -9,9 +9,11 @@ tags: maui, culture info, application culture, device culture, dotnet, maui
 res_type: kb
 ---
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 6.7.0 | Telerik UI for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+## Environment
+
+| Version | Product | Author |
+| --- | --- | ---- |
+| 6.7.0 | Telerik UI for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 
 ## Description

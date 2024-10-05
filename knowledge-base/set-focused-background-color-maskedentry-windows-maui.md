@@ -10,10 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Property | Value |
-|----------|-------|
-| Product | MaskedEntry for .NET MAUI |
-| Version | 6.6.0 |
+| Version | Product | Author |
+| --- | --- | ---- |
+| 6.6.0 | Telerik UI for .NET MAUI MaskedEntry | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 

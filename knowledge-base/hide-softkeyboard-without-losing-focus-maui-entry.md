@@ -11,7 +11,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 6.8.0 | Telerik UI for .NET MAUI Entry| [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 6.8.0 | Telerik UI for .NET MAUI Entry| [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 

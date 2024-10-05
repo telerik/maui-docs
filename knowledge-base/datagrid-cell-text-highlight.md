@@ -10,18 +10,9 @@ res_type: kb
 
 ## Environment
 
-<table>
-	<tbody>
-    <tr>
-      <td>Product</td>
-      <td>Progress® Telerik® UI for .NET MAUI DataGrid</td>
-    </tr>
-  	<tr>
-  		<td>Product Version</td>
-  		<td>3.2.1</td>
-  	</tr>
-	</tbody>
-</table>
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 3.2.1 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
