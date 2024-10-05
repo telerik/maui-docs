@@ -11,9 +11,9 @@ ticketid: 1656066
 
 ## Environment
 
-| Product | Version | Author |
+| Product | Version |
 | --- | --- | --- |
-| Telerik UI for .NET MAUI NavigationView | 7.0.0 |[Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| Telerik UI for .NET MAUI NavigationView | 7.0.0 |
 
 ## Description
 
