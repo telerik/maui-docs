@@ -1,7 +1,7 @@
 ---
 title: Control Panel
 page_title: Control Panel for Installing Telerik Products
-description: Learn more detils for the options installing the Telerik UI for .NET MAUI controls using the Progress Control Panel.
+description: Learn more about installing the Telerik UI for .NET MAUI controls by using the Progress Control Panel.
 slug: control-panel
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui
 position: 2
