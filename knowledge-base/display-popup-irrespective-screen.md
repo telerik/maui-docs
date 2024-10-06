@@ -7,12 +7,12 @@ slug: display-popup-irrespective-screen
 tags: popup, maui, global, display, page, dotnet, global popup
 res_type: kb
 ---
+
 ## Environment
 
-| Property | Value |
-| --- | --- |
-| Product | Popup for MAUI |
-| Version | 6.5.0 |
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 6.5.0 | Telerik UI for .NET MAUI Popup | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
