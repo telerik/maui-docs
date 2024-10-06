@@ -11,19 +11,10 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td>5.1.0</td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>Progress® Telerik® UI for .NET MAUI</td>
-		</tr>
-	</tbody>
-</table>
 
+| Product | Author |
+| --- | ---- |
+| Telerik UI for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 

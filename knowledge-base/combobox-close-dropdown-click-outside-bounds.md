@@ -10,9 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Product | Version | Author |
-|---------|---------| ---- |
-| ComboBox for .NET MAUI | 6.6.0 | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| Product | Version |
+|---------|---------|
+| ComboBox for .NET MAUI | 6.6.0 |
 
 ## Description
 

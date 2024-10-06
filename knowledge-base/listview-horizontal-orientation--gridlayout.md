@@ -12,9 +12,9 @@ res_type: kb
 
 ## Environment
 
-| Product | Author | 
-| --- | ---- | 
-| Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| Product | Author |
+| --- | ---- |
+| Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 
 ## Description

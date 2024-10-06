@@ -10,9 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 3.2.1 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| Version | Product |
+| --- | --- |
+| 3.2.1 | Telerik UI for .NET MAUI DataGrid | 
 
 ## Description
 
