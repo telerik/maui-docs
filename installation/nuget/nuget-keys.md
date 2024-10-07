@@ -6,14 +6,14 @@ slug: nuget-keys
 position: 2
 ---
 
-# Settin Up the Telerik NuGet Package in .NET CLI
+# Installing with .NET CI
 
-This article provides an overview of the most popular approaches for using token-based authentication to restore Telerik NuGet packages in your CI (Continuous Integration) workflow. You can use this approach 
+One of the common ways to set up the NuGet source in your CI (Continuous Integration) workflow is to use the .NET CLI.
 
 The Telerik NuGet server allows you to authenticate by using two methods:
 
 * Basic authentication by providing your Telerik user name and password.
-* Token-based authentication by providing a NuGet Key.
+* Token-based authentication by providing a NuGet key.
 
 When you need to restore Telerik NuGet packages as part of your CI, using NuGet keys is the more secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow.
 
@@ -85,7 +85,7 @@ For more information on how to use NuGet keys in a build, check the [Announcing 
 
 The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
-### Using Only CLI Commands
+### Using .NET CLI Commands
 
 You can use the CLI `add source` (or `update source`) command to set the credentials of a package source. This CLI approach is applicable if your CI system doesn't support default environment variable secrets or if you do not use a custom `nuget.config`.
 

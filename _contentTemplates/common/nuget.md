@@ -1,5 +1,5 @@
 #nuget-security-links
-You may find useful the following Microsoft articles on securing your NuGet feed setup and supply chain as general best practices:
+The following Microsoft articles describe the best practices for securing your NuGet feed setup and supply chain:
 
 * <a href="https://devblogs.microsoft.com/nuget/lock-down-your-dependencies-using-configurable-trust-policies/" target="_blank">Lock down your dependencies using configurable trust policies - Blog Post</a>
 
