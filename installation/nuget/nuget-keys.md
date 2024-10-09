@@ -37,7 +37,7 @@ Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used
 
 ## Storing a NuGet Key
 
-> Never check in a NuGet Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `nuget.config` file. A NuGet Key is valuable as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse could lead to a review of the affected account.
+> Never check in a NuGet Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `nuget.config` file. A NuGet Key is valuable as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse can lead to a review of the affected account.
 
 To protect the NuGet Key, store it as a secret environment variable. The exact steps depend on your workflow:
 
@@ -103,11 +103,11 @@ dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/i
 
 ## Troubleshooting
 
-See the [NuGet Troubleshooting]({%slug troubleshooting-nuget-feed%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
+See the [Troubleshooting]({%slug nuget-troubleshooting%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
 
 ## Additional Resources
 
-If you just start using the Telerik NuGet server in your CI or inter-department workflows, check the two blog posts below. You will learn about the various use cases and find practical implementation details.
+If you start using the Telerik NuGet server in your CI or inter-department workflows, check the two blog posts below. You will learn about the various use cases and find practical implementation details.
 
 * [Azure DevOps and Telerik NuGet Packages](https://www.telerik.com/blogs/azure-devops-and-telerik-nuget-packages)
 
@@ -115,7 +115,3 @@ If you just start using the Telerik NuGet server in your CI or inter-department 
 
 ## See Also
 
-* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
-* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})
-* [Available Product Files and Assemblies]({%slug download-product-files%})
-* [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})

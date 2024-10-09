@@ -82,4 +82,4 @@ public static class MauiProgram
 
 ## Troubleshooting
 
-See the [NuGet Troubleshooting]({%slug troubleshooting-nuget-feed%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
+See the [Troubleshooting]({%slug nuget-troubleshooting%}) article for tips about common pitfalls when working with the Telerik NuGet feed.

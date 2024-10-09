@@ -10,7 +10,7 @@ previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/i
 
 # NuGet Source
 
-NuGet is a popular .NET package manager. Install the Telerik .NET MAUI controls in your application by adding the Telerik UI for .NET MAUI Nuget feed localy or using the Telerik Private NuGet.
+NuGet is a popular .NET package manager. Install the Telerik .NET MAUI controls in your application by adding the Telerik UI for .NET MAUI Nuget feed locally or using the Telerik Private NuGet.
 
 * Set up the remote (online) Telerik NuGet feed in the following ways:
 
@@ -43,7 +43,7 @@ The firewall must allow some of the requests to be redirected from `nuget.teleri
 
 ## Obsolete Telerik NuGet URL
 
-In addition to feed URL `https://nuget.telerik.com/v3/index.json`, there is also an obsolete NuGet v2 server at `https://nuget.telerik.com/nuget`, which is no longer recommended.
+In addition to the v3 feed URL `https://nuget.telerik.com/v3/index.json`, there is an obsolete NuGet v2 server at `https://nuget.telerik.com/nuget`, which is no longer recommended.
 
 > The NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024.
 >
@@ -53,7 +53,7 @@ In addition to feed URL `https://nuget.telerik.com/v3/index.json`, there is also
 
 ## Troubleshooting
 
-See the [NuGet Troubleshooting]({%slug troubleshooting-nuget-feed%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
+See the [Troubleshooting]({%slug nuget-troubleshooting%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
 
 ## See Also
 
