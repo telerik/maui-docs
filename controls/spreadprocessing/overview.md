@@ -98,7 +98,7 @@ SpreadProcessing comes with support for:
 
 You have two options to add the required Telerik references to your .NET MAUI app in order to use SpreadProcessing:
 
-* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug telerik-nuget-server%}).
+* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug maui-getting-started%}).
 
 * Add the references to Telerik assemblies manually, check the list below with the required assemblies for SpreadProcessing:
 

@@ -39,14 +39,14 @@ Apart from the described in detail approach for [installing the suite from your 
 
 PKG files are intended to provide an easy and automatic installation experience of a product on Mac machines. The Telerik UI for .NET MAUI PKG file installs the controls on your computer in a `Program Files/Progress` folder and automatically creates the necessary virtual folders and projects.
 
-For the step-by-step guide, refer to the article on [installing Telerik UI for .NET MAUI on macOS with the PKG installation file]({% slug install-pkg %}).
+For the step-by-step guide, refer to the article on [installing Telerik UI for .NET MAUI on macOS with the PKG installation file]({% slug maui-getting-started-vs-code %}).
 
 ## NuGet Installation
 
 The NuGet packages are single ZIP files with the `.nupkg` extension that contain the compiled code (DLLs), other related files, and a descriptive manifest that includes information such as the version package number.
 
-* For more information about how to install Telerik UI for .NET MAUI with NuGet on Windows-running machines, refer to the article on [first steps with NuGet on Windows]({% slug telerik-nuget-server %}).
-* For more information about how to install Telerik UI for .NET MAUI with NuGet on macOS-running machines, refer to the article on [first steps with NuGet on macOS]({% slug telerik-nuget-server-mac %}).
+* For more information about how to install Telerik UI for .NET MAUI with NuGet on Windows-running machines, refer to the article on [first steps with NuGet on Windows]({% slug maui-getting-started %}).
+* For more information about how to install Telerik UI for .NET MAUI with NuGet on macOS-running machines, refer to the article on [first steps with NuGet on macOS]({% slug maui-getting-started-vs-code %}).
 * For more information about restoring Telerik UI for .NET MAUI NuGet packages in your CI workflow, refer to the article on [using token-based NuGet authentication]({% slug nuget-keys %}).
 
 ## Manually Using Assembly References
@@ -175,6 +175,6 @@ For example:
 ## See Also
 
 * [MSI Quickstart]({%slug maui-getting-started%})
-* [PKG Quickstart]({%slug install-pkg%})
-* [Quickstart with NuGet on Windows]({%slug telerik-nuget-server%})
-* [Quickstart with NuGet on macOS]({%slug telerik-nuget-server-mac%})
+* [PKG Quickstart]({%slug maui-getting-started-vs-code%})
+* [Quickstart with NuGet on Windows]({%slug maui-getting-started%})
+* [Quickstart with NuGet on macOS]({%slug maui-getting-started-vs-code%})

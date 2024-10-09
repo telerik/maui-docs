@@ -21,7 +21,7 @@ Before upgrading the Telerik UI for .NET MAUI version of your project, get acqua
 
 To upgrade the Telerik UI for .NET MAUI components used in your project:
 
-1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug telerik-nuget-server%}) or [MacOS]({%slug telerik-nuget-server-mac%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug install-pkg%}) or [ZIP archive]({%slug download-product-files%}).
+1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug maui-getting-started%}) or [MacOS]({%slug maui-getting-started-vs-code%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug maui-getting-started-vs-code%}) or [ZIP archive]({%slug download-product-files%}).
 
 1. Update the version of the `Telerik.UI.for.Maui` package your project references. If you are using a trial version, the package name is `Telerik.UI.for.Maui.Trial`.
 
@@ -51,7 +51,7 @@ If you have purchased a license and you need to migrate from the trial package t
 
 * When using the Telerik NuGet Feed:
 
-1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug telerik-nuget-server%}) or [MacOS]({%slug telerik-nuget-server-mac%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug install-pkg%}) or [ZIP archive]({%slug download-product-files%}).
+1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug maui-getting-started%}) or [MacOS]({%slug maui-getting-started-vs-code%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug maui-getting-started-vs-code%}) or [ZIP archive]({%slug download-product-files%}).
 
 1. Replace the reference to the `Telerik.UI.for.Maui.Trial` package in your project with a reference to the `Telerik.UI.for.Maui` package. If you are referencing other Telerik trial packages that you now have a license for, remove the `.Trial` from the packages names.
 
