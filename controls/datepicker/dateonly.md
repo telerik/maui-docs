@@ -1,14 +1,16 @@
 ---
-title: Date Only Support
+title: Using DateOnly
 page_title: .NET MAUI Date Picker Documentation - Date Only Support
-description: Set date only type in the Telerik UI for .NET MAUI DatePicker.
+description: Take advantage of the DateOnly type and make your dates even better when working with the Telerik UI for .NET MAUI DatePicker.
 position: 4
 slug: datepicker-dateonly
 ---
 
-# Date Only Support in .NET MAUI DatePicker
+# Using DateOnly in the .NET MAUI DatePicker
 
-The DatePicker has a support for `DateOnly`. You can set a `DateOnly` value to the `MinimumDate`, `MaximumDate`, `Date` and `DefaultHighlightedDate` properties by using the Telerik `DateOnlyToDateTimeConverter `converter. The converter converts `System.DateOnly` to `System.DateTime` and converts back `System.DateTime` to `System.DateOnly`.
+If your application needs to store or manipulate only the dates without times, you can take advantage of the `DateOnly` struct when working with the DatePicker control.
+
+You can set a `DateOnly` value to the `MinimumDate`, `MaximumDate`, `Date`, and `DefaultHighlightedDate` properties by using the Telerik `DateOnlyToDateTimeConverter `converter. The converter converts `System.DateOnly` to `System.DateTime` and `System.DateTime` to `System.DateOnly`.
 
 Here is the converter definition in XAML:
 

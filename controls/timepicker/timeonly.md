@@ -1,14 +1,17 @@
 ---
-title: TimeOnly Support
+title: Using TimeOnly
 page_title: .NET MAUI TimePicker Documentation - TimeOnly Support
-description: Set date only type in the Telerik UI for .NET MAUI TimePicker.
+description: Take advantage of the TimeOnly type and make your dates even better when working with the Telerik UI for .NET MAUI TimePicker.
 position: 4
 slug: timepicker-timeonly
 ---
 
-# TimeOnly Support in .NET MAUI TimePicker
+# Using TimeOnly in the .NET MAUI TimePicker
 
-The TimePicker has a support for `TimeOnly`. You can set a `TimeOnly` value to the `MinimumTime`, `MaximumTime`, `Time` and `DefaultHighlightedTime` properties by using the Telerik `TimeOnlyToTimeSpanConverter `converter. The converter converts `System.TimeOnly` to `System.TimeSpan` and converts back `System.TimeSpan` to `System.TimeOnly`.
+If your application needs to store or manipulate the time, you can take advantage of the `TimeOnly` struct when working with the TimePicker control.
+
+You can set a `TimeOnly` value to the `MinimumTime`, `MaximumTime`, `Time`, and `DefaultHighlightedTime` properties by using the Telerik `TimeOnlyToTimeSpanConverter `converter. The converter converts `System.TimeOnly` to `System.TimeSpan` and `System.TimeSpan` to `System.TimeOnly`.
+
 
 Here is the converter definition in XAML:
 

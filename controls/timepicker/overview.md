@@ -19,7 +19,7 @@ The TimePicker provides a number of features which allow you to set a time range
 
 * [Time ranges]({%slug timepicker-time-range%})&mdash;The TimePicker allows you to define a time range by setting minimum and maximum time values and enables users to choose a time within that range.
 
-* [TimeOnly Support]({%slug timepicker-timeonly%})&mdash;The TimePicker provides a support for TimeOnly type using a converter.
+* [`TimeOnly` Support]({%slug timepicker-timeonly%})&mdash;The TimePicker provides a support for the TimeOnly type by using a converter.
 
 * [Spinner format]({%slug timepicker-formatting%}#spinner-format)&mdash;The TimePicker for .NET MAUI allows you to use a standard or a custom time format string through the `TimePicker.SpinnerFormat` property. Depending on the types of the format that is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 

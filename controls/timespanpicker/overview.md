@@ -25,7 +25,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker provides an easy way to select a tim
 
 * [Time range]({%slug timespanpicker-timespan-range%})&mdash;The TimeSpanPicker allows you to define a time range by setting minimum and maximum time values and enables users to choose a time within that range.
 
-* [TimeOnly Support]({%slug timespanpicker-timeonly%})&mdash;The TimeSpanPicker provides a support for TimeOnly type using a converter.
+* [`TimeOnly` Support]({%slug timespanpicker-timeonly%})&mdash;The TimeSpanPicker provides a support for the TimeOnly type by using a converter.
 
 * [Time interval selection]({%slug timespanpicker-selection%})&mdash;You can set a currently selected time interval to the TimeSpanPicker or define a default highlighted time interval.
 
