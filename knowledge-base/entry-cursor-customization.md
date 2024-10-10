@@ -94,4 +94,4 @@ If either of those situations change, then these limitations may be outdated and
 
 ## See Also
 
--[Entry Styling]({%slug entry-styling%}})
+-[Entry Styling]({%slug entry-styling%})

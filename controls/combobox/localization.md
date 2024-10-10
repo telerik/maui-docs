@@ -21,4 +21,4 @@ In `RadComboBox`, you can localize the following string:
 
 ## See Also
 
-[Localization and Globalization]({slug % globalization-localization %})
+[Localization and Globalization]({%slug globalization-localization %})

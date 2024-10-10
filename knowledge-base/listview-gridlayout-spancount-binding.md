@@ -1,6 +1,6 @@
 ---
 title: Change ListView GridLayout SpanCount
-description: 
+description: This article explains how to use the SpanCount property of the RadListView GridLayoutDefinition with Binding.
 type: how-to
 page_title: Binding in the ListView GridLayour SpanCount
 slug: listview-gridlayout-spancount-binding

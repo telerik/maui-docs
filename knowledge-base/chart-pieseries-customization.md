@@ -1,6 +1,6 @@
 ---
 title: Customize PieChart Series Text, Color and FontSize
-description: 
+description: This article described how to customize the text, color, font size of the chart PieSeries. Learn more!
 type: how-to
 page_title: Label Customization for Chart Pie Series
 slug: chart-pieseries-customization

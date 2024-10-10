@@ -225,5 +225,5 @@ Both approaches allow for handling row detail expansion and collapse states in a
 
 ## See Also
 
-- [DataGrid Commands Overview]({%slug datagrid-commands-overview%}})
-- [DataGrid Row Details Documentation]({%slug datagrid-row-details-overview%}})
+- [DataGrid Commands Overview]({%slug datagrid-commands-overview%})
+- [DataGrid Row Details Documentation]({%slug datagrid-row-details-overview%})

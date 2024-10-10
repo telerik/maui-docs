@@ -23,4 +23,4 @@ The localization key refers to the watermark message that appears in the input f
 
 ## See Also
 
-[Localization and Globalization]({slug % globalization-localization %})
+[Localization and Globalization]({%slug globalization-localization %})
