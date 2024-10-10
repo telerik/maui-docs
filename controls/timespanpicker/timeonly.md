@@ -8,7 +8,7 @@ slug: timespanpicker-timeonly
 
 # Using TimeOnly in the .NET MAUI TimeSpanPicker
 
-If your application needs to store or manipulate the time, you can take advantage of the `TimeOnly` struct when working with the TimeSpanPicker control.
+If your application needs to store or manipulate only the time without the date portion, you can take advantage of the `TimeOnly` struct when working with the TimeSpanPicker control.
 
 You can set a `TimeOnly` value to the `MinimumTime`, `MaximumTime`, `Time`, and `DefaultHighlightedTime` properties by using the Telerik `TimeOnlyToTimeSpanConverter `converter. The converter converts `System.TimeOnly` to `System.TimeSpan` and `System.TimeSpan` to `System.TimeOnly`.
 
