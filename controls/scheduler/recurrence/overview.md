@@ -34,11 +34,11 @@ appointment.RecurrenceRule = new RecurrenceRule(pattern);
 
 If you want to dive deeper into the recurrence feature of the .NET MAUI Scheduler, check out the following topics:
 
-* [Recurrence Pattern](% slug recurrence-pattern %})
-* [Recurrence Rule](% slug recurrence-rule %})
+* [Recurrence Pattern]({%slug recurrence-pattern %})
+* [Recurrence Rule]({%slug recurrence-rule %})
 
 ## See Also
 
 - [Appointments]({% slug appointments-overview %})
-- [Recurrence Pattern](% slug recurrence-pattern %})
-- [Recurrence Rule](% slug recurrence-rule %})
+- [Recurrence Pattern]({%slug recurrence-pattern %})
+- [Recurrence Rule]({%slug recurrence-rule %})
