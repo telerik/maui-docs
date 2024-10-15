@@ -10,7 +10,7 @@ slug: scheduler-recurrence-rule
 
 The Scheduler supports repeating appointments through the `RecurrenceRule` property of the `Appointment` class. In order to create a recurrence rule, you have to define a recurrence pattern, such as frequency, days of week, max occurrences, and other.
 
-The `RecurrenceRule` property has a mandatory `Pattern` property of type `RecurrencePattern` which describes how the appointment occurrences will be created through various recurrence settings. For detailed information on how to create the recurrence pattern go to [Recurrence Pattern](% slug recurrence-pattern %}) topic.
+The `RecurrenceRule` property has a mandatory `Pattern` property of type `RecurrencePattern` which describes how the appointment occurrences will be created through various recurrence settings. For detailed information on how to create the recurrence pattern go to [Recurrence Pattern]({%slug scheduler-recurrence-pattern%}) topic.
 
 
 The main methods exposed by the `RecurrenceRule` class:
@@ -28,4 +28,4 @@ The `RecurrenceRule` class exposes an exceptions method, which allows you to get
 
 - [Appointments]({% slug appointments-overview %})
 - [Recurrence Overview]({%slug scheduler-recurrence-overview%})
-- [Recurrence Pattern](% slug recurrence-pattern %})
+- [Recurrence Pattern]({%slug scheduler-recurrence-pattern %})

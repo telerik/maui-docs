@@ -55,4 +55,4 @@ Note: Make sure to adjust the property values according to your specific impleme
 
 ## See Also
 
-- [AutoComplete for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui/controls/autocomplete/autocomplete-overview)
+- [AutoComplete for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui/controls/autocomplete/overview)

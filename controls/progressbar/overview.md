@@ -20,7 +20,7 @@ The Telerik .NET MAUI ProgressBar is designed to display progress information to
 * [Segments support]({%slug progressbar-configuration%}#segments)&mdash;The ProgressBar can be divided in segments.
 * [Custom text]({%slug progressbar-configuration%})&mdash;ProgressBar gives you the option to display a custom text when `ValueDisplayMode` is set to `Text`.
 * [Indeterminate mode support]({%slug progressbar-indeterminate-mode%})&mdash;A mode that displays an animation indicating an unspecified amount of waiting time.
-* [Different animations]([%slug progressbar-animations%])&mdash;Apply different animation easing and animation duration while changing the value of the ProgressBar.
+* [Different animations]({%slug progressbar-animations%})&mdash;Apply different animation easing and animation duration while changing the value of the ProgressBar.
 * [Text alignment]({%slug progressbar-configuration%}#label-alignment)&mdash;Horizontally align the text that displays the progress. 
 * [Corner radius for progress indicator]({%slug progressbar-configuration%}#corners)&mdash;Apply corners of the progress indicator by setting the `ProgressCornerRadius` property.
 * [Events]({%slug progressbar-events%})&mdash;For tracking changes in the progress.  
