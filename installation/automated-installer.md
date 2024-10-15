@@ -18,49 +18,44 @@ You can use Telerik UI for .NET MAUI on Windows and macOS. Depending on the oper
 
 MSI files are intended to provide an automatic installation experience of a product on Windows machines. The Telerik UI for .NET MAUI MSI file installs the controls on your computer in a `Program Files/Progress` folder and automatically creates the necessary virtual folders and projects.
 
-You can download the MSI automated installer from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
+1. Download the MSI automated installer from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
 
-Alternatively, you can [install a Free Trial version]({%slug install-trial%}) of Telerik UI for .NET MAUI on your machine.
+    Alternatively, you can [install a Free Trial version]({%slug install-trial%}) of Telerik UI for .NET MAUI on your machine.
 
-Now, you are all set to start with the installation:
-
-1. Run the `Telerik_UI_for_dot_NET_Maui_[version]_[license].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
+1. Start the installation&mdash;run the `Telerik_UI_for_dot_NET_Maui_[version]_[license].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
     ![Telerik UI for .NET MAUI MSI Installer](images/msi-installer.png)
 
-    On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
+    >On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
 
-1. Use the subdirectory of the installation folder you need:
-
-    * `Binaries`&mdash;Contains the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
-    * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
-    * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
-    * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
-	* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
-
-    ![Telerik .NET MAUI Installation folder with the displayed subdirectories](../images/telerik-ui-for-maui-installation-folder.png)
 
 ## PKG File Installation
 
 PKG files are intended to provide an automatic installation experience of a product on Mac machines. The Telerik UI for .NET MAUI PKG file installs the controls on your computer in a `Documents/Progress` folder.
 
-Now, you are all set to start with the installation on your machine from the Apple Installer `.pkg` file:
+1. Download the PKG automated installer from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
+
+    Alternatively, you can [install a Free Trial version]({%slug install-trial%}) of Telerik UI for .NET MAUI on your machine.
 
 1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. As a result, the file will automatically install Telerik UI for .NET MAUI on your Mac.
 
     ![Telerik UI for .NET MAUI PKG Installer](images/pkg-installer.png)
 
-1. Use the sub-directory of the installation folder you need:
+## Use the installed files
 
-    * `Binaries`&mdash;Contains the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI.
-    * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
-    * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
-    * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` file as well as the Document Processing NuGet packages.
-    * `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022.
-    
-    ![Telerik UI for .NET MAUI Installation dialog on macOS with the welcome message](../installation/mac/images/mac-folders.png)
+After the installation is complete, you can use the following files inside the installation folder:
 
-# See Also
+* `Binaries`&mdash;Contains the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to manually reference the Telerik UI for .NET MAUI dlls into your app.
+
+* `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
+
+* `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
+
+* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` Nuget package. Use it in case you need to set up a local Nuget server and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
+
+* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
+
+## See Also
 
 - [Available Product Files]({%slug download-product-files%})
 - [install a Free Trial version]({%slug install-trial%}) 
