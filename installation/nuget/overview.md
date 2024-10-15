@@ -1,62 +1,56 @@
 ---
 title: Overview
-page_title: Telerik NuGet Feed - Telerik UI for .NET MAUI
-description: Explore the different ways to add the Telerik NuGet feed to your system, and start using NuGet packages to install the Telerik UI for .NET MAUI components.
+page_title: Installing Telerik UI for .NET MAUI with NuGet (Overview)
+description: Explore the different ways to add the Telerik NuGet feed to your system and start using NuGet packages to install the Telerik UI for .NET MAUI components.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls
 slug: telerik-nuget-server
 position: 0
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget, /get-started/windows/first-steps-nuget
 ---
 
-# NuGet Source
+# Installing .NET MAUI with NuGet
 
-NuGet is a popular .NET package manager. Install the Telerik .NET MAUI controls in your application by adding the Telerik UI for .NET MAUI Nuget feed locally or using the Telerik Private NuGet.
+NuGet is a popular .NET package manager that enables the installation of the Telerik .NET MAUI controls in your application. The NuGet packages are the primary distribution method for the Telerik UI for .NET MAUI controls.
 
-* Set up the remote (online) Telerik NuGet feed in the following ways:
+Depending on your development environment, you can choose between two ways to access and download the Telerik UI for .NET MAUI NuGet packages:
 
-    * [Use Visual Studio]({%slug nuget-server-vs%})
-    * [Use the .NET CLI]({%slug nuget-keys%})
-    * [Use the Progress Control Panel]({%slug %})
-    * [Edit the `Nuget.Config` file]({%slug nuget-config%})
-
-* Set up the local Telerik NuGet feed in the following ways:
-
-    * [Use Visual Studio]({%slug local-nuget-packages%}#setting-up-a-local-telerik-nuget-server-in-visual-studio)
-    * [Use `Nuget.Config` file]({%slug local-nuget-packages%}#setting-up-the-nuGet-server-in-nuget.config)
-
-Progress maintains the remote (online) Telerik NuGet Feed for registered users and you can include the Telerik UI for .NET MAUI suite in your project. The benefit of using an online NuGet source is that you will receive notifications for newer component versions and you can update to the latest available version from there.
+* By using the online Telerik NuGet feed.
+* By setting up your local repository with you downloaded NuGet packages. 
 
 @[template](/_contentTemplates/common/net-version.md#net-version)
 
->tip When working with the .NET CLI or editing the `NuGet.Config` manually, you can use your Telerik account credentials or a [NuGet API Key]({%slug nuget-keys%}). If you are logging in to telerik.com through single sign-on (SSO), use a [NuGet API Key]({%slug nuget-keys%}).
+## Using the Online Telerik NuGet Feed
 
->warning Never hard-code Telerik account credentials or NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
+Progress maintains an online Telerik NuGet Feed for registered users with an active trial or commercial license. Using the Telerik NuGet server (online NuGet feed) gives you quick access to the latest versions of the Telerik UI for .NET MAUI controls. Furthermore, it helps you keep your application up to date by notifying you about new versions of the controls. 
 
-## Access NuGet Packages behind Firewall
+You can configure your system to use the Telerik NuGet server in the following ways:
 
-To access the Telerik NuGet feed behind a firewall that restricts outgoing requests, you may need to allow the following domains:
+  * [By using Visual Studio]({%slug nuget-server-vs%})
+  * [By editing the `Nuget.Config` file]({%slug nuget-config%})
+  * [By using the Progress Control Panel]({%slug %})
+  * [As part of your CI workflow]({%slug nuget-keys%})
 
-* `nuget.telerik.com`, which provides authentication and license verification
-* `downloads.cdn.telerik.com`, which hosts the NuGet packages
+### Accessing NuGet Packages behind a Firewall
 
-The firewall must allow some of the requests to be redirected from `nuget.telerik.com` to `downloads.cdn.telerik.com`.
+Regardless of the method that you use to configure your system for the Telerik NuGet server, you may have to also adjust your firewall rules. To access the Telerik NuGet feed behind a firewall that restricts outgoing requests, allow the following domains:
 
-## Obsolete Telerik NuGet URL
+* `nuget.telerik.com`&mdash;provides authentication and license verification.
+* `downloads.cdn.telerik.com`&mdash;hosts the NuGet packages.
 
-In addition to the v3 feed URL `https://nuget.telerik.com/v3/index.json`, there is an obsolete NuGet v2 server at `https://nuget.telerik.com/nuget`, which is no longer recommended.
+The firewall must allow the redirection of requests from `nuget.telerik.com` to `downloads.cdn.telerik.com`.
 
-> The NuGet v2 server at `https://nuget.telerik.com/nuget` will be sunset in November 2024.
->
-> The new v3 protocol offers faster package searches and restores, improved security, and more reliable infrastructure.
->
-> To redirect your feed to the NuGet v3 protocol, all you have to do is to change your NuGet package source URL to `https://nuget.telerik.com/v3/index.json`.
+## Using Locally Available NuGet Packages
 
-## Troubleshooting
+Using locally available NuGet packages lets you control the installable versions in your development environment and also enables you to install the Telerik UI for .NET MAUI NuGet packages without internet access.
 
-See the [Troubleshooting]({%slug nuget-troubleshooting%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
+You can configure your system to use your downloaded NuGet packages in the following ways:
+
+* [By using Visual Studio]({%slug local-nuget-packages%}#setting-up-a-local-telerik-nuget-server-in-visual-studio)
+* [By editing the `Nuget.Config` file]({%slug local-nuget-packages%}#setting-up-the-nuGet-server-in-nuget.config)
 
 ## See Also
 
+* [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
 * [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})

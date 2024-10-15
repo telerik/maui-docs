@@ -1,19 +1,19 @@
 ---
-title: Setting Up in .NET CLI
-page_title: Restoring NuGet Packages in Continuous Integration
+title: Using NuGet in CI Workflows
+page_title: Using NuGet Packages in CI Workflows
 description: Learn how to use NuGet Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment.
 slug: nuget-keys
-position: 2
+position: 4
 ---
 
-# Installing with .NET CI
+# Using NuGet Packages in a CI Workflow
 
 One of the common ways to set up the NuGet source in your CI (Continuous Integration) workflow is to use the .NET CLI.
 
 The Telerik NuGet server allows you to authenticate by using two methods:
 
 * Basic authentication by providing your Telerik user name and password.
-* Token-based authentication by providing a NuGet key.
+* Token-based authentication by providing a NuGet key (recommended).
 
 When you need to restore Telerik NuGet packages as part of your CI, using NuGet keys is the more secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow.
 
@@ -61,27 +61,27 @@ There are two popular ways to use the Telerik NuGet server in a build:
 
 For more information on how to use NuGet keys in a build, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
-### Using a nuget.config File with Your Projects
+### Using a NuGet.Config File with Your Projects
 
-**1.** In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
+1. In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
 
-```xml
-  <configuration>
-    <packageSources>
-        <clear/>
-        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
-        <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
-    </packageSources>
-    <packageSourceCredentials>
-        <MyTelerikFeed>
-        <add key="Username" value="api-key" />
-        <add key="ClearTextPassword" value="%MY_API_KEY%" />
-        </MyTelerikFeed>
-    </packageSourceCredentials>
-</configuration>
-```
+    ```xml
+    <configuration>
+        <packageSources>
+            <clear/>
+            <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+            <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
+        </packageSources>
+        <packageSourceCredentials>
+            <MyTelerikFeed>
+            <add key="Username" value="api-key" />
+            <add key="ClearTextPassword" value="%MY_API_KEY%" />
+            </MyTelerikFeed>
+        </packageSourceCredentials>
+    </configuration>
+    ```
 
-**2.** Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
+1. Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
 
 The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
@@ -101,10 +101,6 @@ dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/i
 dotnet nuget add source 'MyTelerikFeed' --source 'https://nuget.telerik.com/v3/index.json' --username 'api-key' --password '${{ secrets.TELERIK_NUGET_KEY }}' --configfile './nuget.config' --store-password-in-clear-text
 ```
 
-## Troubleshooting
-
-See the [Troubleshooting]({%slug nuget-troubleshooting%}) article for tips about common pitfalls when working with the Telerik NuGet feed.
-
 ## Additional Resources
 
 If you start using the Telerik NuGet server in your CI or inter-department workflows, check the two blog posts below. You will learn about the various use cases and find practical implementation details.
@@ -115,3 +111,4 @@ If you start using the Telerik NuGet server in your CI or inter-department workf
 
 ## See Also
 
+* [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
