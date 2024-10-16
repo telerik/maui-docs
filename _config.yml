@@ -53,6 +53,9 @@ navigation:
     installation/vs-code-integration:
         title: "Visual Studio Code Integration"
         position: 5
+    installation/nuget:
+        title: "Installing with NuGet"
+        position: 3
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
     ## Accordion
