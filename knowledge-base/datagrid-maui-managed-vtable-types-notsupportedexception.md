@@ -3,7 +3,7 @@ title: Resolving Managed Vtable Types NotSupportedException with Telerik .NET MA
 description: Learn how to fix the System.NotSupportedException for managed vtable types in DataGrid for MAUI and other Skia controls by updating the .NET Windows SDK version.
 type: troubleshooting
 page_title: Fix NotSupportedException for Managed Vtable Types in MAUI DataGrid, BusyIndicator, Gauge and the other Telerik MAUI SkiaSharp controls
-slug: datagrid-maui-managed-vtable-types-notsupportedexception
+slug: maui-managed-vtable-types-notsupportedexception
 tags: datagrid, maui, notsupportedexception, managed vtable types, skiaSharp
 res_type: kb
 ticketid: 1667154
@@ -15,8 +15,7 @@ ticketid: 1667154
 <tbody>
 <tr>
 <td>Product</td>
-<td>DataGrid for MAUI, <br />
-Version 7.1.0</td>
+<td>DataGrid, BusyIndicator, Gauge and other Telerik controls rendered through SkiaSharp</td>
 </tr>
 </tbody>
 </table>
