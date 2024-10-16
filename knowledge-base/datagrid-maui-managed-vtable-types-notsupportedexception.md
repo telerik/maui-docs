@@ -50,7 +50,7 @@ To resolve this issue, update the .NET Windows SDK version in your project. Modi
 <WindowsSdkPackageVersion>10.0.19041.54</WindowsSdkPackageVersion>
 ```
 
-By adding this line to your project file, you ensure that your application uses a version of the Windows SDK that includes the necessary fix for the NotSupportedException related to managed vtable types.
+By adding this line to your project file, you ensure that your application uses a version of the Windows SDK that includes the necessary fix for the `NotSupportedException` related to managed vtable types.
 
 ## See Also
 
