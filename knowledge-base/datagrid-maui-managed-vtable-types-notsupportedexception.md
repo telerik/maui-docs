@@ -32,7 +32,7 @@ System.NotSupportedException: Managed vtable types (ie. containing any reference
  which occurs when using any of the Telerik .NET MAUI SkiaSharp controls, such as [DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/overview), [BusyIndicator](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview), [Gauge](https://docs.telerik.com/devtools/maui/controls/gauge/overview) and other and: 
 
 *  you've updated Visual Studio 2022 to Version 17.11.5. 
-*  you're using the CommunityToolkit and have explicitly set the WindowsSDK version in the csproj file due to its requirement, such as:
+*  you're using the CommunityToolkit and have explicitly set the Windows SDK version in the .csproj file due to its requirement, such as:
 
 ```XML
 <WindowsSdkPackageVersion>10.0.19041.41</WindowsSdkPackageVersion>
