@@ -11,9 +11,16 @@ previous_url: /installation/windows/toolbox-support
 
 Telerik products support the Toolbox extension for Visual Studio (VS) on Windows. The Toolbox is part of the Visual Studio extensions for Telerik UI for .NET MAUI and facilitates the process of adding Telerik controls to your .NET MAUI application.
 
-The Telerik UI for .NET MAUI VS extensions are distributed with the Telerik UI for .NET MAUI [MSI installation]({%slug maui-getting-started%}). You can also download and install them as a separate product from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) for Visual Studio 2022.
+## Get the Extension
 
-> For more information, go to the topic about [getting started with the Telerik VS extensions]({%slug visualstudio-extensions%}) topic.
+To use the **Telerik UI for .NET MAUI Create New Project** wizard, install the Telerik UI for .NET MAUI Visual Studio Extension. You can get the extension from:
+
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
+
+* The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
+
+* [The Telerik UI for .NET MAUI automated installer]()
+
 
 ## Adding Controls with the Toolbox
 
