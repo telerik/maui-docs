@@ -1,6 +1,6 @@
 ---
 title: Error 503 Service Unavailable
-description: Learn what are the tips for solving unable to load the server index for Telerik Nuget Server and service unavailable.
+description: Learn how to solve the "unable to load the server index" and "503 service unavailable" errors for the Telerik Nuget Server. 
 type: troubleshooting
 page_title: How to solve unable to load the server index and service unavailable
 slug: error-service-unavailable
@@ -14,11 +14,14 @@ res_type: kb
 
 ## Description
 
-Error `Unable to load the service index for source`  and error `503 (Service unavailable)` occurs when the Telerik NuGet server is down. 
+I see the following errors when trying to connect to the Telerik NuGet server (`https://nuget.telerik.com/v3/index.json`).
+
+## Cause 
+
+The errors `Unable to load the service index for source`  and `503 (Service unavailable)` occur when the Telerik NuGet server is temporary unavailable. 
 
 ## Solution
 
-Check the Telerik NuGet server health at the <a href="https://status.telerik.com/" target="_blank">Telerik live services status page</a>.
+Check the state of the Telerik NuGet server at the <a href="https://status.telerik.com/" target="_blank">Telerik live services status page</a> to confirm if the server is affected by any temporary issues.
 
-In urgent cases, download the NuGet packages from your <a href="https://www.telerik.com/account/downloads/" target="_blank">Telerik Account **Downloads** page</a>.
-and, [set up a local NuGet feed]({%slug local-nuget-packages%}).
+In urgent cases, download the NuGet packages from the **Downloads** page in your <a href="https://www.telerik.com/account/downloads/" target="_blank">Telerik Account</a> and, as a workaround, [set up a local NuGet repository]({%slug local-nuget-packages%}).

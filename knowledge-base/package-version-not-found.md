@@ -1,6 +1,6 @@
 ---
 title: Package Version Not Found
-description: Learn what are the tips for solving erros when the Telerik NuGet package version is not found.
+description: Learn how to resolve errors like "error NU1102 Unable to find package Telerik.UI.for.Maui with version (>= x.x.x)"
 type: troubleshooting
 page_title: How to solve erros when the Telerik NuGet package version is not found
 slug: package-version-not-found
@@ -14,18 +14,19 @@ res_type: kb
 
 ## Description
 
-If you receive an error similar to:
+You receive an error similar to:
 
-`ProjectName depends on Telerik.UI.for.Maui (>= 7.1.0) but Telerik.UI.for.Maui 7.1.0 was not found. An approximate best match of Telerik.UI.for.Maui 6.0.0 was resolved.`
+* `ProjectName depends on Telerik.UI.for.Maui (>= 7.1.0) but Telerik.UI.for.Maui 7.1.0 was not found. An approximate best match of Telerik.UI.for.Maui 6.0.0 was resolved.`
 
-or
+* `error NU1102: Unable to find package Telerik.UI.for.Maui with version (>= 7.1.0)`
 
-`error NU1102: Unable to find package Telerik.UI.for.Maui with version (>= 7.1.0)`
+## Cause
 
-This means that version `7.1.0` is outside the subscription period of your license.
+This error indicates that version `7.1.0` is outside of the subscription period of your license.
 
 ## Solution
 
-To solve the issue use the following approaches:
-* Use a different version of the controls.
+To solve the issue:
+
+* Use a version of the controls that is covered by your license. The versions covered are those released within the active period of your license.
 * Ask the license holder at your company to assign you another license that includes the desired product version.

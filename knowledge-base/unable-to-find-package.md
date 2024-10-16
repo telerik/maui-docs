@@ -1,6 +1,6 @@
 ---
 title: Unable to Find Package
-description: Learn what are the tips for solving unable to find package when using the Telerik Nuget Server.
+description: Learn how to sovle the error "`Unable to find package Telerik.UI.for.Maui. No packages exist with this id in source(s) nuget.org`".
 type: troubleshooting
 page_title: How to solve unable to find package
 slug: error-login-failed
@@ -15,14 +15,19 @@ res_type: kb
 
 ## Description
 
-Error `Unable to find package Telerik.UI.for.Maui. No packages exist with this id in source(s): nuget.org` may occur When installing the Telerik NuGet package to the project.
+When I install the Telerik UI for .NET MAUI NuGet package, I get the following error:
 
-`Unable to find package in source` implies that the Telerik NuGet source is searched in wrong nuget source.
+`Unable to find package Telerik.UI.for.Maui. No packages exist with this id in source(s): nuget.org` 
 
-The possible causes for such error message are:
+## Cause
+
+The error `Unable to find package in source` indicates that the NuGet package manager searches for the Telerik NuGet package in the wrong package source.
+
+The possible causes are:
 * The Telerik NuGet source configuration is missing in the `NuGet.Config` file.
-* The correct `NuGet.Config` file is not used, because the file is missed or misplaced.
+* The NuGet package manager uses an incorrect `NuGet.Config` file. The file may be misplaced or contain incorrect information.
 
 ## Solution
 
-To specify the correct nuget source, add the Telerik NuGet server to the [NuGet.Config]({%slug nuget-config%}) file.
+1. Inspect the `NuGet.Config` file used by the NuGet package manager.
+1. Update the file by following the guidelines for [configuring a NuGet source by using the `NuGet.Config` file]({%slug nuget-config%}).
