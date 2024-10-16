@@ -30,7 +30,6 @@ System.NotSupportedException: Managed vtable types (ie. containing any reference
 ```
 
 This exception occurs when:
-
  * You are using any of the Telerik .NET MAUI SkiaSharp controls, such as [DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/overview), [BusyIndicator](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview), [Gauge](https://docs.telerik.com/devtools/maui/controls/gauge/overview); and
 
 *  you've updated Visual Studio 2022 to Version 17.11.5; or
