@@ -96,7 +96,7 @@ class DataEntry
 }
 ```
 
-### File Picker Usage
+### Use File Picker
 
 For selecting an Excel file, utilize the .NET MAUI File Picker API as described in the <a href="https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-picker?view=net-maui-8.0&tabs=windows" target="_blank">official Microsoft documentation</a>.
 
