@@ -2,7 +2,7 @@
 title: Implementing Custom Localization in .NET MAUI DataForm through Validation Attributes
 description: Learn how to create and apply custom localization values for the .NET MAUI DataForm component to customize validation error messages.
 type: how-to
-page_title: Customizing Localization for Validation Messages in .NET MAUI DataForm
+page_title: Customizing Localization for Validation Messages in .NET MAUI DataForm when using data annotations
 slug: custom-localization-dotnet-maui-dataform
 tags: dataform, .net maui, localization, validation, custom error message
 res_type: kb
@@ -26,7 +26,7 @@ ticketid: 1663273
 
 ## Description
 
-When working with the [DataForm](https://docs.telerik.com/devtools/maui/controls/dataform/overview) for .NET MAUI, you might need to customize the error messages displayed for validation errors. Specifically, you want to change the default range validation error message to a custom one. 
+When working with the [DataForm](https://docs.telerik.com/devtools/maui/controls/dataform/overview) for .NET MAUI, you might need to customize the error messages displayed for validation errors. For example, you want to change the default range validation error message or required error message to a custom one. 
 
 This KB article also answers the following questions:
 - How to customize error messages in .NET MAUI DataForm when validation is implemented through attributes in your ViewModel?
@@ -34,43 +34,36 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To customize the error messages in the DataForm component, create a custom localization manager by extending the `TelerikLocalizationManager` class. Override the `GetString` method to return custom messages for specific keys. 
+When you use data annotations in your ViewModel for validation, such as "Required", for example:
 
-Here is how to implement a custom localization manager:
-
-```csharp
-public class CustomTelerikLocalizationManager : TelerikLocalizationManager
+```C#
+public class MyViewModel
 {
-    public override string GetString(string key)
-    {
-        if (key == "DataForm_RangeValidationError")
-        {
-            return "My error message";
-        }
-
-        return base.GetString(key);
-    }
+    [Required]
+    public string MyProperty { get; set; }
 }
 ```
 
-After implementing the custom localization manager, assign it to the `TelerikLocalizationManager.Manager` property before initializing the components:
+In that case, the validation error message is provided by the attribute itself. If you have not specified your own error message explicitly, a default one is provided by the .NET framework.
 
-```csharp
-TelerikLocalizationManager.Manager = new CustomTelerikLocalizationManager();
-InitializeComponent();
+You can provide your own custom error message instead:
+
+```C#
+public class MyViewModel
+{
+    [Required(ErrorMessage = "My custom error message.")]
+    public string MyProperty { get; set; }
+}
 ```
 
-**Using Validation Attributes in Your ViewModel**
+Likewise, if you have your own localization resources, you can localize the error message:
 
-Specify validation rules using data annotations:
-
-```csharp
-[Required]
-[Range(0, 1000000, ErrorMessage = "My error message")]
-public int? Population
+```C#
+public class MyViewModel
 {
-    get => population;
-    set => UpdateValue(ref population, value);
+    [Required(ErrorMessageResourceType = typeof(MyLocalizationResources),
+              ErrorMessageResourceName = nameof(MyLocalizationResources.MyCustomErrorMessage))]
+    public string MyProperty { get; set; }
 }
 ```
 
