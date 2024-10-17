@@ -25,12 +25,12 @@ res_type: kb
 
 ## Description
 
-Currently the CollectionView's scrollbars are not be visible by default on Android devices. There is a requirement to make the scrollbar always visible to enhance user experience.
+Currently, the CollectionView's scrollbars are not visible by default on Android devices. I want to make the scrollbar always visible to enhance user experience.
 
 This KB article also answers the following questions:
-- How to enable the vertical scrollbar in CollectionView on Android?
+- How to enable the vertical scrollbar in the CollectionView on Android?
 - How to customize the scrollbar appearance in a MAUI CollectionView on Android?
-- How to use a custom drawable for the scrollbar thumb in Android MAUI applications?
+- How to use a custom drawable for the scrollbar thumb in an Android MAUI applications?
 
 ## Solution
 
@@ -49,11 +49,11 @@ First, create a thumb drawable for the scrollbar in the Android project's Resour
 </shape>
 ```
 
-Ensure that the build action of this file is set to "MauiXaml".
+Ensure that the build action of this file is set to `MauiXaml`.
 
-### 2. Configure the ScrollView handler
+### 2. Configure the ScrollView Handler
 
-Access the native ScrollView through a mapper to the ScrollViewHandler and apply the necessary configurations to make the scrollbar visible:
+Access the native ScrollView through a mapper to the `ScrollViewHandler` and apply the necessary configurations to make the scrollbar visible:
 
 ```csharp
 Microsoft.Maui.Handlers.ScrollViewHandler.Mapper.AppendToMapping("MyCustom", (handler, view) => {
@@ -68,7 +68,7 @@ Microsoft.Maui.Handlers.ScrollViewHandler.Mapper.AppendToMapping("MyCustom", (ha
 });
 ```
 
-By setting `VerticalScrollBarEnabled` to true and specifying a custom drawable for the `VerticalScrollbarThumbDrawable`, the vertical scrollbar will always be visible on Android devices.
+By setting `VerticalScrollBarEnabled` to `true` and specifying a custom drawable for the `VerticalScrollbarThumbDrawable`, the vertical scrollbar will always be visible on Android devices.
 
 ## See Also
 
