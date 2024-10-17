@@ -107,7 +107,7 @@ For selecting an Excel file, utilize the .NET MAUI File Picker API as described 
 
 ### Display Data in CollectionView
 
-Bind the parsed data collection (`List<DataEntry>`) to the ItemsSource of the CollectionView in your .NET MAUI app to display the data.
+Bind the parsed data collection (`List<DataEntry>`) to the `ItemsSource` of the CollectionView in your .NET MAUI app to display the data.
 
 **1.** Add the following XAML definition for the `RadCollectionView` and the button that opens the file picker:
 
