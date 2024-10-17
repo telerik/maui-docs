@@ -24,6 +24,9 @@ When implementing a feature to import data from Excel into a .NET MAUI app, it's
 ## Solution
 
 To achieve the import of Excel data into a CollectionView in a .NET MAUI app, follow these steps:
+1. [Parse the Excel file data](#parse-excel-file-data).
+1. [Use the .NET MAUI File Picker](#use-file-picker).
+1. [Display the data in the CollectionView](#display-data-in-collectionview).
 
 ### Parse Excel File Data
 
