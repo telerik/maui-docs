@@ -16,7 +16,9 @@ res_type: kb
 
 ## Description
 
-When implementing a feature to import data from Excel into a .NET MAUI app, it's essential to parse the Excel file and display its contents in a [CollectionView]({%slug collectionview-overview%}). This process involves selecting an Excel file, reading its data, and populating a CollectionView with the parsed information. This KB article also answers the following questions:
+When you implement a feature that imports data from Excel into a .NET MAUI app, it's essential to parse the Excel file and display its contents in a [CollectionView]({%slug collectionview-overview%}). This process involves selecting an Excel file, reading its data, and populating a CollectionView with the parsed information.
+
+This KB article also answers the following questions:
 - How to select an Excel file in a .NET MAUI app?
 - How to parse Excel file data in .NET MAUI?
 - How to display Excel data in a CollectionView in .NET MAUI?
