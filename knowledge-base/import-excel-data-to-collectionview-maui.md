@@ -146,7 +146,7 @@ Bind the parsed data collection (`List<DataEntry>`) to the `ItemsSource` of the 
 </Grid>
 ```
 
-**2.** The code that executes when the button is clicked. 
+**2.** Implement the code that executes when clicking the button.
 
 **2.1** The code opens a file picker, so the user can pick a `.csv` or `xlsx` files. 
 **2.2** Improt the selected document
