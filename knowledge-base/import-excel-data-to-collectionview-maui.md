@@ -149,7 +149,7 @@ Bind the parsed data collection (`List<DataEntry>`) to the `ItemsSource` of the 
 **2.** Implement the code that executes when clicking the button.
 
 **2.1** The code opens a file picker, so the user can pick a `.csv` or `xlsx` files. 
-**2.2** Improt the selected document
+**2.2** Import the selected document.
 **2.3** Add the data from the imported document to the collection. The collection is bound to the `RadCollectionView.ItemsSource`.
 
 ```C#
