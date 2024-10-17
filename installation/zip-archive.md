@@ -1,13 +1,13 @@
 ---
-title: ZIP Archive
-page_title: ZIP Archive
-description: This article explains what the Zip Archive for Telerik UI for .NET MAUI components includes, and how to get it.
+title: Using the ZIP Archive
+page_title: Using the ZIP Archive
+description: This article explains what the ZIP Archive for Telerik UI for .NET MAUI components includes, and how to get it.
 slug: zip-archive
 tags: manual installation,zip,archive
 position: 5
 ---
 
-# ZIP Archive
+# Using the ZIP Archive
 
 This article explains what the `ZIP` archive for Telerik UI for .NET MAUI components includes, and how to get it.
 

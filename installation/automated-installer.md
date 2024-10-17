@@ -1,59 +1,61 @@
 ---
-title: Automated Installer
-page_title: Ways to Install Telerik UI for .NET MAUI
-description: Learn more about the available approaches to install the Telerik UI for .NET MAUI product files, assemblies, and controls on Windows and macOS by using the MSI or PKG files, or the Telerik NuGet server.
+title: Automated Installers
+page_title: Installing Telerik UI for .NET MAUI
+description: Learn how to install Telerik UI for .NET MAUI on both Windows and macOS by using the automated MSI or PKG installer.
 slug: automated-installer
 tags: .net maui, ui for .net maui, automatic installation, installer
 position: 4
 ---
 
-# Automated Installer for Telerik UI for .NET MAUI
+# Using the Automated Installers for Telerik UI for .NET MAUI
 
-You can use Telerik UI for .NET MAUI on Windows and macOS. Depending on the operation system you are using and on the preferred way to work with the product, the suite can be installed in the following ways:
+You can install Telerik UI for .NET MAUI using automated installers on both Windows and macOS.
 
-* [(Windows) MSI file installation](#msi-file-installation)
-* [(macOS) PKG file installation](#pkg-file-installation)
+The installers deliver not only the UI controls but also a set of complete examples that you can browse and explore. In addition, the installer for Windows includes the Visual Studio extensions that help you improve your productivity.
 
-## MSI File Installation
+* [Installing on Windows](#installing-on-windows)
+* [Installing on macOS](#installing-on-macos)
 
-MSI files are intended to provide an automatic installation experience of a product on Windows machines. The Telerik UI for .NET MAUI MSI file installs the controls on your computer in a `Program Files/Progress` folder and automatically creates the necessary virtual folders and projects.
+>The steps in this article require an active trial or commercial license. If you are just starting with Telerik UI for .NET MAUI and want to activate your free trial, see [Installing a Free Trial Version]({%slug install-trial%}) instead.
 
-1. Download the MSI automated installer from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
+## Installing on Windows
 
-    Alternatively, you can [install a Free Trial version]({%slug install-trial%}) of Telerik UI for .NET MAUI on your machine.
+The Telerik UI for .NET MAUI installer for Windows is packaged as an MSI file. The MSI installs the controls in the `C:\Program Files\Progress\` folder and automatically creates the necessary virtual folders and projects.
 
-1. Start the installation&mdash;run the `Telerik_UI_for_dot_NET_Maui_[version]_[license].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
+To install Telerik UI for .NET MAUI using the MSI:
+
+1. Download the MSI from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account.
+
+1. Open the `Telerik_UI_for_dot_NET_Maui_[version]_[license_type].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
     ![Telerik UI for .NET MAUI MSI Installer](images/msi-installer.png)
 
-    >On a 32-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files\Progress\`. On a 64-bit machine, the wizard will suggest to install the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`.
+    >On a 32-bit machine, the wizard suggests installing the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`. On a 64-bit machine, the suggested folder is `C:\Program Files\Progress\`.
 
 
-## PKG File Installation
+## Installing on macOS
 
-PKG files are intended to provide an automatic installation experience of a product on Mac machines. The Telerik UI for .NET MAUI PKG file installs the controls on your computer in a `Documents/Progress` folder.
+The Telerik UI for .NET MAUI installer for macOS is a PKG file. The PKG installs the controls in the `Documents/Progress` folder.
 
-1. Download the PKG automated installer from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
+1. Download the PKG from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account.
 
-    Alternatively, you can [install a Free Trial version]({%slug install-trial%}) of Telerik UI for .NET MAUI on your machine.
-
-1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. As a result, the file will automatically install Telerik UI for .NET MAUI on your Mac.
+1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your Mac.
 
     ![Telerik UI for .NET MAUI PKG Installer](images/pkg-installer.png)
 
-## Use the installed files
+## Using the Installed Extras
 
-After the installation is complete, you can use the following files inside the installation folder:
+After the installation is complete, explore the installation folder of the MAUI controls where you can find the following folders:
 
-* `Binaries`&mdash;Contains the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to manually reference the Telerik UI for .NET MAUI dlls into your app.
+* `Binaries`&mdash;Includes the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to manually reference the Telerik UI for .NET MAUI DLLs in your app.
 
 * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
 
 * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
 
-* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` Nuget package. Use it in case you need to set up a local Nuget server and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
+* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet server and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
 
-* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
+* `VSExtensions`&mdash;Contains the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
 
 ## See Also
 
