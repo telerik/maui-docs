@@ -1,7 +1,7 @@
 ---
 title: Using the ZIP Archive
 page_title: Using the ZIP Archive
-description: This article explains what the ZIP Archive for Telerik UI for .NET MAUI components includes, and how to get it.
+description: This article explains what the ZIP archive with the Telerik UI for .NET MAUI components includes, and how to get it.
 slug: zip-archive
 tags: manual installation,zip,archive
 position: 5
@@ -9,23 +9,32 @@ position: 5
 
 # Using the ZIP Archive
 
-This article explains what the `ZIP` archive for Telerik UI for .NET MAUI components includes, and how to get it.
+The ZIP archive with the Telerik UI for .NET MAUI is another distribution method that helps developers create their own repository with controls. You can store them locally on your system, create a common repo for the developers working on your project, or even build your own private NuGet server with the control versions you need.
 
-The most common way to install the Telerik UI for .NET MAUI components is to use the [Telerik NuGet feed](). However, you can also use an [automated installer]({%slug automated-installer%}), or a ZIP archive.
+Having a downloaded ZIP archive with the controls lets you install them even when you work offline. The archive contains also the Telerik UI for .NET MAUI [sample applications]({%slug sampleapps-overview%}) that you can use for inspiration or learning purposes.
 
-You can download the ZIP from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account. Go to [Available Product Files]({%slug download-product-files%}) topic for detailed steps on how to navigate to the product download page.
+> The most common way to install the Telerik UI for .NET MAUI components is to use the [Telerik NuGet feed] or the [automated installer]({%slug automated-installer%}).
 
-The `ZIP` archive provides the following:
+## Downloading
 
-* `Binaries`&mdash;Contains the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to manually reference the Telerik UI for .NET MAUI dlls into your app.
+To download the ZIP archive with the Telerik UI for .NET MAUI controls:
+
+1. Go to the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account.
+1. In the **Installation** section, locate the `Telerik_UI_for_dot_NET_Maui_[version]_[license_type].zip` file and download it.
+
+## Using the ZIP
+
+The `ZIP` archive contains the following folders:
+
+* `Binaries`&mdash;Includes the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to manually reference the Telerik UI for .NET MAUI DLLs in your app.
 
 * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
 
 * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
 
-* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` Nuget package. Use it in case you need to set up a local Nuget server and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
+* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet source and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
 
-* `VSExtensions`&mdash;Contains the Visual Studio Extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
+* `VSExtensions`&mdash;Contains the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
 
 ## See Also
 

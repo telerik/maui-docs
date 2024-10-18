@@ -53,7 +53,7 @@ After the installation is complete, explore the installation folder of the MAUI 
 
 * `LicenseAgreements`&mdash;Provides the product End-User License Agreement (EULA).
 
-* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet server and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
+* `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet source and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
 
 * `VSExtensions`&mdash;Contains the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
 
