@@ -27,7 +27,7 @@ This KB article also answers the following questions:
 
 To achieve the desired behavior of disabling dates outside the current month in `RadScheduler`, follow these steps:
 
-1. Subscribe to the `MonthDayTapped` and `DialogOpening` events in your RadScheduler XAML code:
+1. Subscribe to the `MonthDayTapped` and `DialogOpening` events in your `RadScheduler` XAML code:
 
 ```xml
 <telerik:RadScheduler x:Name="scheduler"
