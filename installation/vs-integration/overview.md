@@ -16,7 +16,8 @@ The extensions handle the following major points in the development with Telerik
 * [Toolbox support]({%slug toolbox-support %})&mdash;The Telerik UI for .NET MAUI Toolbox extension facilitates the adding of Telerik controls to your .NET MAUI application.
 * [Scaffolding Pages and Screens]({%slug maui-vs-scaffoldings%})&mdash;The scaffoldings allow you to quickly add predefined pages with controls to your application and define the parameters of the controls through an UI.
 
-The Telerik UI for .NET MAUI VS extensions support Visual Studio 2022. 
+The Telerik UI for .NET MAUI VS extensions support Visual Studio 2022.
+
 You can get the extension from:
 
 * <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
