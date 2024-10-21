@@ -20,7 +20,7 @@ This article demonstrates how to prevent the creation of appointments for dates 
 
 This KB article also answers the following questions:
 - How can I disable past and future dates in Scheduler for .NET MAUI?
-- Is it possible to limit appointment creation to the current month in RadScheduler?
+- Is it possible to limit appointment creation to the current month in the Scheduler control?
 - How do I prevent users from adding appointments to dates not in the current month in RadScheduler?
 
 ## Solution
