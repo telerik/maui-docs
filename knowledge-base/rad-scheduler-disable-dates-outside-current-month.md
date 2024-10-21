@@ -70,5 +70,5 @@ By setting the `allowAppointmentCreation` flag based on whether the tapped date 
 
 ## See Also
 
-- [RadScheduler Overview](https://docs.telerik.com/devtools/maui/controls/scheduler/overview)
+- [Scheduler Overview](https://docs.telerik.com/devtools/maui/controls/scheduler/overview)
 - [MonthViewDefinition Documentation](https://docs.telerik.com/devtools/maui/controls/scheduler/viewdefinitions/monthviewdefinition)
