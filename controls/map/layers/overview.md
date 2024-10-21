@@ -18,10 +18,10 @@ The Map control visualizes spatial data using layered architecture. It can displ
 
 The position of the spatial data is described by the `Location` structure, that has the following properties:
 
-* `Latitude` (double): Gets the latitude value of the location. The value have to be between -90° and 90°.
-* `Longitude` (double): Gets the longitude value of the location. The value have to be between -180° and 180°.
+* `Latitude` (`double`)&mdash;Gets the latitude value of the location. The value have to be between -90° and 90°.
+* `Longitude` (`double`)&mdash;Gets the longitude value of the location. The value have to be between -180° and 180°.
 
-The Map control works with layers of type `ShapefileLayer` that use ESRI shapefiles as a data source. For detailed information on how shapefiles can be utilized go to [ShapefileLayer]({% slug map-layers-shapefilelayer%}) topic.
+The Map control works with layers of type `MapShapefileLayer` that use ESRI shapefiles as a data source. For detailed information on how shapefiles can be utilized go to [`MapShapefileLayer`]({% slug map-layers-shapefilelayer%}) topic.
 
 ## See Also
 

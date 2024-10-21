@@ -8,17 +8,17 @@ slug: map-selection
 
 # .NET MAUI Map Selection
 
-The Map allows users to select one or many shapes out of the source applied by each `ShapefileLayer`. This feature provides both visual and programmatic feedback for the actions of the user. 
+The Map allows users to select one or many shapes out of the source applied by each `MapShapefileLayer`. This feature provides both visual and programmatic feedback for the actions of the user. 
 
 The following members of the [ShapefileLayer]({% slug map-layers-shapefilelayer%}) class are related to the selection: 
 
-* `SelectionMode`: Enum property which indicates what will be the selection. It can receive the following values:
+* `SelectionMode` (`enum` of type `MapSelectionMode`)&mdash;Indicates what will be the selection. The options are:
 	* `None`
 	* `Single`
 	* `Multiple`
 
-* `SelectedShape` (of type `IShape`): Defines the currently selected shape instance. When multiple selection is enabled, this value is set to the first selected shape. 
-* `SelectedShapes` (of type `ObservableCollection&lt;IShape&gt;`): Reads the collection with the currently selected shapes. When the selection is single only one shape can be selected – thus the collection will have count = 1. 
+* `SelectedShape` (of type `IShape`)&mdash;Defines the currently selected shape instance. When multiple selection is enabled, this value is set to the first selected shape. 
+* `SelectedShapes` (read-only collection of type `ObservableCollection&lt;IShape&gt;`)&mdash;Reads the collection with the currently selected shapes. When the selection is single only one shape can be selected – thus the collection will have count = 1. 
 
 * `SelectedShapeStyle` (of type `MapShapeStyle`): Defines the way selected shape look through the provided `StrokeWidth`, `StrokeColor` and `FillColor` properties. For more details on the `MapShapeStyle` usage go to [Shapes Styling]({%slug map-styling-shapesstyles%}) topic.
 

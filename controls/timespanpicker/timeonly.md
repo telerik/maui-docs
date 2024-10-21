@@ -28,13 +28,15 @@ The following example demonstrates how to set `TimeOnly` in the TimeSpanPicker u
 
 **3.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
- **4.** Add the `ViewModel`:
+**4.** Add the `ViewModel`:
 
- <snippet id='timepicker-timeonly-viewmodell' />
+<snippet id='timepicker-timeonly-viewmodell' />
+
+> For the TimeSpanPicker TimeOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to TimeSpanPicker > TimeOnly category.
 
 ## See Also
 

@@ -28,13 +28,15 @@ The following example demonstrates how to set `DateOnly` in the DatePicker using
 
 **3.** Add the `telerik` namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
- **4.** Add the `ViewModel`:
+**4.** Add the `ViewModel`:
 
- <snippet id='datepicker-dateonly-viewmodel' />
+<snippet id='datepicker-dateonly-viewmodel' />
+
+> For the DatePicker DateOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to DatePicker > DateOnly category.
 
 ## See Also
 
