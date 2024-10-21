@@ -12,12 +12,12 @@ The Telerik UI for .NET MAUI Extension for Visual Studio Code enhances the exper
 
 The extension for Visual Studio Code provides the following advantages:
 * Facilitates the [creation of project]({%slug getting-started-vs-code-integration-new-project%}) by using project templates.
-* Contains a collection of [code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and and configuration.
-* Allows you to [add the predefined pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
+* Contains a collection of [code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and configuration.
+* Allows you to [add predefined pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
 
 ## Get the Extension
 
-To use the **Telerik UI for .NET MAUI Template Wizard**, you have to install the `Telerik UI for .NET MAUI Productivity Tools` extension. Get the extension from:
+You can get the Telerik UI for .NET MAUI Extension extension from:
 
 * <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Marketplace.</a>
 
@@ -28,4 +28,4 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, you have to install the
 To access the VS Code extension and to open the VS Code extension launcher, press:
 
 * `Ctrl`+`Shift`+`P` on Windows/Linux
-* `Cmd`+`Shift`+`P` on Mac .
+* `Cmd`+`Shift`+`P` on Mac.
