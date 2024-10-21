@@ -25,7 +25,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To achieve the desired behavior of disabling dates outside the current month in RadScheduler, follow these steps:
+To achieve the desired behavior of disabling dates outside the current month in `RadScheduler`, follow these steps:
 
 1. Subscribe to the `MonthDayTapped` and `DialogOpening` events in your RadScheduler XAML code:
 
