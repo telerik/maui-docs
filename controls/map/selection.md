@@ -18,7 +18,7 @@ The following members of the [ShapefileLayer]({% slug map-layers-shapefilelayer%
 	* `Multiple`
 
 * `SelectedShape` (of type `IShape`)&mdash;Defines the currently selected shape instance. When multiple selection is enabled, this value is set to the first selected shape. 
-* `SelectedShapes` (read-only collection of type `ObservableCollection&lt;IShape&gt;`)&mdash;Reads the collection with the currently selected shapes. When the selection is single only one shape can be selected – thus the collection will have count = 1. 
+* `SelectedShapes` (read-only collection of type `ObservableCollection&lt;IShape&gt;`)&mdash;Reads the collection with the currently selected shapes. When the selection is `Single`, only one shape can be selected–thus the collection will have count = 1. 
 
 * `SelectedShapeStyle` (of type `MapShapeStyle`): Defines the way selected shape look through the provided `StrokeWidth`, `StrokeColor` and `FillColor` properties. For more details on the `MapShapeStyle` usage go to [Shapes Styling]({%slug map-styling-shapesstyles%}) topic.
 
