@@ -37,7 +37,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='timepicker-timeonly-viewmodell' />
 
-> For the TimePicker TimeOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to TimePicker > TimeOnly category.
+> For the TimePicker TimeOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **TimePicker > TimeOnly** category.
 
 ## See Also
 
