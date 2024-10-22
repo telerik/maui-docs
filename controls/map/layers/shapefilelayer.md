@@ -8,7 +8,7 @@ slug: map-layers-shapefilelayer
 
 # .NET MAUI Map Shapefile Layer
 
-`MapShapefileLayer` class provides a way to load an ESRI shapefile into the Map and visualize the shapes defined in it. You will need to create a `MapShapefileLayer` for each shapefile and add it to the `Layers` collection of `RadMap`.
+The `MapShapefileLayer` class provides a way to load an ESRI shapefile into the Map and visualize the shapes defined in it. You will need to create a `MapShapefileLayer` for each shapefile and add it to the `Layers` collection of `RadMap`.
 
 ## Reading a Shapefile
 
