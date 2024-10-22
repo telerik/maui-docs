@@ -16,7 +16,9 @@ res_type: kb
 
 ## Description
 
-In a .NET MAUI application, each `TreeViewItem` on Android and iOS has a bottom border separator line as part of the `TreeViewItemView`. The need arises to remove this line for styling purposes. This KB article also answers the following questions:
+In a .NET MAUI application, each `TreeViewItem` on Android and iOS has a bottom border separator line as part of the `TreeViewItemView`. I need to remove this line for styling purposes. 
+
+This KB article also answers the following questions:
 - How to style the TreeView items in .NET MAUI for mobile platforms?
 - How to remove the border from TreeView items on Android and iOS?
 - How to customize the appearance of TreeView items in .NET MAUI?
