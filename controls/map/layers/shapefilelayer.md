@@ -30,7 +30,7 @@ In addition, `MapShapeReader` provides a read-only `Shapes` property that can be
 
 `MapShapefileLayer` provides a way to visualize the shapes in such a way that the best view of the layer is achieved. The approach is implemented through the `GetBestView` method:
 
-* `GetBestView()` (`struct` of type `Telerik.Maui.Controls.ShapefileReader.LocationRect`)&mdash;Gets location rectangle which represents best view for the layer.
+* `GetBestView()` (`struct` of type `Telerik.Maui.Controls.ShapefileReader.LocationRect`)&mdash;Gets a location rectangle, which represents the best view for the layer.
 
 First, `LocationRect` class is a special type from the `Telerik.Maui.Controls.ShapefileReader` namespace which describes a rectangle region through the locations of the northwest to the southeast points.  
 
