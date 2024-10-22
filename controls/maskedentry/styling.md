@@ -38,7 +38,7 @@ This is the result on WinUI:
 
 ![.NET MAUI MaskedEntry Clear Button Color](images/maskedentry-clear-button-color.gif)
 
-> For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
+> For the MaskedEntry Styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **MaskedEntry > Features** category.
 
 ## See Also
 
