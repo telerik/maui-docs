@@ -32,7 +32,7 @@ In addition, `MapShapeReader` provides a read-only `Shapes` property that can be
 
 * `GetBestView()` (`struct` of type `Telerik.Maui.Controls.ShapefileReader.LocationRect`)&mdash;Gets a location rectangle, which represents the best view for the layer.
 
-First, `LocationRect` class is a special type from the `Telerik.Maui.Controls.ShapefileReader` namespace which describes a rectangle region through the locations of the northwest to the southeast points.  
+First, the `LocationRect` class is a special type from the `Telerik.Maui.Controls.ShapefileReader` namespace which describes a rectangular region through the locations of the northwest to the southeast points.  
 
 >tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
 
