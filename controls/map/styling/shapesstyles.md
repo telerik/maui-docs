@@ -12,7 +12,7 @@ The Map `ShapefileLayer` exposes `ShapeStyle` property which helps you to style 
 
 ## Shapes Styles
 
-`ShapeStyle` and `SelectedShapeStyle` properties of type( `MapShapeStyle`) provides the following styling options for the shapes:
+`ShapeStyle` and `SelectedShapeStyle` properties of type `MapShapeStyle` provide the following styling options for the shapes:
 
 * `StrokeWidth`
 * `StrokeColor`
@@ -32,7 +32,7 @@ Define the `Source` and the `DataSource` of the `MapShapeReader` to a `.shp` and
 
 ## Style Selector for Shapes
 
-Using the `ShapeStyleSelector` property of the `ShapefileLayer` you can implement conditional styling. 
+Using the `ShapeStyleSelector` property of the `MapShapefileLayer` you can implement conditional styling. 
 
 The example below shows how to apply different styles to shapes according to certain property value of each shape.
 
