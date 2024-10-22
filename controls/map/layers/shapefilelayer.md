@@ -34,7 +34,7 @@ In addition, `MapShapeReader` provides a read-only `Shapes` property that can be
 
 First, the `LocationRect` class is a special type from the `Telerik.Maui.Controls.ShapefileReader` namespace which describes a rectangular region through the locations of the northwest to the southeast points.  
 
->tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
+>tip For more details on how points are positioned in the geographic coordinate system, check the [Layers Overview]({%slug map-layers-overview%}) topic. 
 
 So, through `GetBestView` method the map will calculate that region that encompasses all the shapes as well as apply proper zoom level, so that the best view is achieved. After that, you can pass the result directly to the `SetView` method of the Map instance like this:
 
