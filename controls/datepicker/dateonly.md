@@ -36,7 +36,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datepicker-dateonly-viewmodel' />
 
-> For the DatePicker DateOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to DatePicker > DateOnly category.
+> For the DatePicker DateOnly example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DatePicker > DateOnly** category.
 
 ## See Also
 
