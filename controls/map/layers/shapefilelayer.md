@@ -15,7 +15,7 @@ The `MapShapefileLayer` class provides a way to load an ESRI shapefile into the 
 `MapShapefileLayer` provides a `Reader` property used to read the data from the defined shapefile. The `Reader` is of type `Telerik.Maui.Controls.Map.MapShapeReader` and has two important properties you need to apply to properly load and visualize your shapes:
 
 * `Source` (of type `Telerik.Maui.Controls.Map.MapSource`)&mdash;Gets or sets the `MapSource` that points to the `.shp` file to read data from. 
-* `DataSource` (of type `Telerik.Maui.Controls.Map.MapSource`)&mdash;Gets or sets the `MapSource` that points to the `.dbf` file, containing the data(or attributes) for each shape within the shape file. 
+* `DataSource` (of type `Telerik.Maui.Controls.Map.MapSource`)&mdash;Gets or sets the `MapSource` that points to the `.dbf` file, containing the data (or attributes) for each shape within the shape file. 
 
 The above used `MapSource` class provides a few useful static methods that will help load the shapefile:
 
