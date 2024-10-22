@@ -12,7 +12,7 @@ Telerik UI for .NET MAUI Map provides pan and zoom functionality that will help 
 
 ## Interaction Modes
 
-You can configure which gesture manipulations the user can do with the map through the `InteractionMode` property (`enum` of type `MapInteractionMode`). The options are:
+You can configure which gesture interactions are allowed for the users through the `InteractionMode` property (`enum` of type `MapInteractionMode`). The options are:
 
 * `None`: No interaction is allowed;
 * `Pan`; 
