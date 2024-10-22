@@ -12,7 +12,7 @@ The Map allows users to select one or many shapes out of the source applied by e
 
 The following members of the [ShapefileLayer]({% slug map-layers-shapefilelayer%}) class are related to the selection: 
 
-* `SelectionMode` (`enum` of type `MapSelectionMode`)&mdash;Indicates what will be the selection. The options are:
+* `SelectionMode` (`enum` of type `MapSelectionMode`)&mdash;Indicates the selection mode. The options are:
 	* `None`
 	* `Single`
 	* `Multiple`
