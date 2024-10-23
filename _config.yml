@@ -50,9 +50,12 @@ navigation:
     installation/mac:
         title: "Mac"
         position: 4
+    installation/vs-integration:
+        title: "Visual Studio Integration"
+        position: 5  
     installation/vs-code-integration:
         title: "Visual Studio Code Integration"
-        position: 5
+        position: 6
     installation/nuget:
         title: "Installing with NuGet"
         position: 3
