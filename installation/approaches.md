@@ -9,7 +9,7 @@ position: 2
 
 # Installation Approaches for Telerik .NET MAUI
 
-You can use Telerik UI for .NET MAUI on Windows and macOS. Depending on the operation system you are using and on the preferred way to work with the product, the suite can be installed in the following ways:
+You can use Telerik UI for .NET MAUI on Windows and macOS. Depending on your operating system and on the preferred way to work with the product, you can install the UI components suite in several ways:
 
 * [(Windows) MSI file installation](#msi-file-installation)
 * [(macOS) PKG file installation](#pkg-file-installation)

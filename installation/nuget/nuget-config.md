@@ -11,26 +11,19 @@ position: 3
 
 An alternative way to configure your system to use the Telerik NuGet server is to directly edit the `nuget.config` file. This approach is useful if you don't have Visual Studio installed.
 
-To configure the Telerik NuGet server as a package source directly in the `nuget.config` file:
+To configure the Telerik NuGet server as a package source directly in the `nuget.config` file, perform the following steps:
 
-1. Generate a NuGet API key that you will use for the authentication by the Telerik NuGet server. This approach is more secure than using your Telerik credentials in <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#credentials-in-nugetconfig-files
+1. [Generate a NuGet API key](#generate-a-nuget-key).
+1. [Edit the NuGet.Config file](#edit-the-nugetconfig-file).
+
+## Generate a NuGet Key
+
+Generate a NuGet API key that you will use for the authentication by the Telerik NuGet server. This approach is more secure than using your Telerik credentials in <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#credentials-in-nugetconfig-files
 " target="_blank">plain text</a>.
 
-    1.1. Go to the [**Manage NuGet Keys**](https://www.telerik.com/account/downloads/nuget-keys) page in your Telerik account.
+@[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
-    1.2. Select the **DOWNLOADS** tab and then **Manage NuGet Keys**.
-
-      ![Manage NuGet Keys](../images/manage-nuget-keys.png)
-
-    1.3. To create a new key, select the **Generate New Key** button.
-
-    1.4. Enter a name for the NuGet Key, and then select **Generate Key**.
-
-    1.5. To copy the key, select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
-
-      ![Copy Generated NuGet Key](../images/copy-nuget-key.png)
-
-    1.6. Store the generated NuGet API key as you will need it in the last step.
+## Edit the NuGet.Config File
 
 1. Go to the `NuGet.Config` file:
 
@@ -41,7 +34,7 @@ To configure the Telerik NuGet server as a package source directly in the `nuget
 
 1. In the `nuget.config` file, add the Telerik feed by inserting the line `<add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>`in the `packageSources` section.
 
-1. In the `packageSourceCredentials` section, add the API key generated in the first step. Use `api-key` as a value for the user name.
+1. In the `packageSourceCredentials` section, add the [generated NuGet API key](#generate-a-nuget-key). Use `api-key` as a value for the user name.
 
     ```xml
     <configuration>
@@ -76,5 +69,3 @@ For more details about the `NuGet.Config` file, see the following resources:
 ## See Also
 
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
-
-

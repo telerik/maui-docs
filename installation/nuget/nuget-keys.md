@@ -21,19 +21,7 @@ Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used
 
 ## Generating NuGet Keys
 
-1. Go to the [**Manage NuGet Keys**](https://www.telerik.com/account/downloads/nuget-keys) page in your Telerik account.
-
-1. Select the **DOWNLOADS** tab and then **Manage NuGet Keys**.
-
-    ![Manage NuGet Keys](../images/manage-nuget-keys.png)
-
-1. To create a new key, select the **Generate New Key** button.
-
-1. Enter a name for the NuGet Key, and then select **Generate Key**.
-
-1. To copy the key, select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
-
-    ![Copy Generated NuGet Key](../images/copy-nuget-key.png)
+@[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
 ## Storing a NuGet Key
 
@@ -63,25 +51,25 @@ For more information on how to use NuGet keys in a build, check the [Announcing 
 
 ### Using a NuGet.Config File with Your Projects
 
-1. In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
+**1.** In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
 
-    ```xml
-    <configuration>
-        <packageSources>
-            <clear/>
-            <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
-            <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
-        </packageSources>
-        <packageSourceCredentials>
-            <MyTelerikFeed>
-            <add key="Username" value="api-key" />
-            <add key="ClearTextPassword" value="%MY_API_KEY%" />
-            </MyTelerikFeed>
-        </packageSourceCredentials>
-    </configuration>
-    ```
+```xml
+<configuration>
+    <packageSources>
+        <clear/>
+        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+        <add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>
+    </packageSources>
+    <packageSourceCredentials>
+        <MyTelerikFeed>
+        <add key="Username" value="api-key" />
+        <add key="ClearTextPassword" value="%MY_API_KEY%" />
+        </MyTelerikFeed>
+    </packageSourceCredentials>
+</configuration>
+```
 
-1. Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
+**2.** Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
 
 The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 

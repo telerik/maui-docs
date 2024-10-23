@@ -3,7 +3,7 @@ title: Overview
 page_title: Installing Telerik UI for .NET MAUI with NuGet (Overview)
 description: Explore the different ways to add the Telerik NuGet feed to your system and start using NuGet packages to install the Telerik UI for .NET MAUI components.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls
-slug: telerik-nuget-server
+slug: telerik-nuget-overview
 position: 0
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget, /get-started/windows/first-steps-nuget
 ---
@@ -27,7 +27,7 @@ You can configure your system to use the Telerik NuGet server in the following w
 
   * [By using Visual Studio]({%slug nuget-server-vs%})
   * [By editing the `Nuget.Config` file]({%slug nuget-config%})
-  * [By using the Progress Control Panel]({%slug %})
+  * [By using the Progress Control Panel]({%slug control-panel%})
   * [As part of your CI workflow]({%slug nuget-keys%})
 
 ### Accessing NuGet Packages behind a Firewall
