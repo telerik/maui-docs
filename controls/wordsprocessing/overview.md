@@ -92,7 +92,7 @@ You can import and export documents of these formats as well as convert the form
 
 You have two options to add the required Telerik references to your .NET MAUI app in order to use WordsProcessing:
 
-* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug telerik-nuget-server%}) topic.
+* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug maui-getting-started%}) topic.
 
 * Add the references to Telerik assemblies manually, check the list below with the required assemblies for WordsProcessing:
 

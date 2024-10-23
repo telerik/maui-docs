@@ -58,7 +58,7 @@ Now, you can create a new project by using the Telerik Project Template.
 
   ![Configure application dialog](images/vs-configureproject.png)
 
-  If you do not have the [Telerik NuGet Server]({%slug telerik-nuget-server-mac %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
+  If you do not have the [Telerik NuGet Server]({%slug maui-getting-started-vs-code %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
 
   ![Credentials dialog for the Telerik NuGet Server](images/vs_projecttemplate_nuget.png)
 

@@ -57,7 +57,7 @@ To start building your Telerik UI for .NET MAUI project with the project templat
 
 1. Visual Studio opens the solution directly configured to use the Telerik UI for .NET MAUI controls and the `Telerik.UI.for.Maui` NuGet package is installed.
 
-	If you do not have the [Telerik NuGet Server]({%slug telerik-nuget-server %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
+	If you do not have the [Telerik NuGet Server]({%slug maui-getting-started %}) set up in Visual Studio, a message will pop up, so you can enter your Telerik credentials. The Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
 
 	![Connect to nuget.telerik.com dialog for logging your username and password](images/vsextensions_nugetpopup.png)
 
