@@ -98,7 +98,7 @@ To use the controls in the Telerik UI for .NET MAUI library, add the Telerik nam
 1. Paste the Telerik namespace below the last already available namespace:
 
 	```
-	xmlns:telerikCombo="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+	xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 	```
 
 To visualize the Telerik controls, register them in the `MauiProgram.cs` file of your project:
