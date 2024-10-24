@@ -22,14 +22,15 @@ You can develop applications with Telerik UI for .NET MAUI for the following pla
 | macOS | 11 or higher, using Mac Catalyst |
 | Windows* | 11 and Windows 10, version 1809 or higher, using Windows UI Library (WinUI) 3 |
 
->\*The macOS operating system does not support the development of WinUI apps.
+*The macOS operating system does not support the development of WinUI apps for the Windows platform.
 
 ## Supported .NET Versions  
 
 * Telerik UI for .NET MAUI 3.2.0 supports .NET 7.0. 
-* The Telerik .NET MAUI 7.1.0 version supports .NET 9.0 Preview 6. To create projects targeting .NET 9 Preview, use Visual Studio 2022 Preview. 
 
-> Microsoft discontinued .NET 7 support in May 2024. Telerik UI for .NET MAUI ends the support for .NET 7 in November 2024. Upgrade your apps to .NET 8.
+    > Microsoft discontinued .NET 7 support in May 2024. Telerik UI for .NET MAUI ends the support for .NET 7 in November 2024. Upgrade your apps to .NET 8 to leverage the latest features, security, and performance enhancements.
+
+* The Telerik .NET MAUI 7.1.0 version supports .NET 9.0 Preview 6. To create projects targeting .NET 9 Preview, use Visual Studio 2022 Preview. 
 
 For more information about the supported .NET versions in .NET MAUI, review Microsoft's <a href="https://dotnet.microsoft.com/en-us/platform/support/policy/maui" target="_blank">.NET MAUI Support Policy.</a>
 
