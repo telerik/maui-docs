@@ -4,7 +4,7 @@ page_title: Using NuGet.Config
 description: Install the Telerik UI for .NET MAUI Controls by using the Nuget.Config file to set up the NuGet source.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, mac, install, telerik .net maui, visual studio
 slug: nuget-config
-position: 3
+position: 5
 ---
 
 # Setting Up the Telerik NuGet Source in NuGet.Config

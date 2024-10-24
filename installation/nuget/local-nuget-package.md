@@ -4,7 +4,7 @@ page_title: Installing from a Local NuGet Source
 description: Install the Telerik UI for .NET MAUI Controls by using a locally available NuGet file with the controls.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, mac, install, telerik .net maui, visual studio
 slug: local-nuget-packages
-position: 5
+position: 3
 ---
 
 # Installing from a Local NuGet Source
