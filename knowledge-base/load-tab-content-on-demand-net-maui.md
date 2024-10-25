@@ -22,7 +22,9 @@ ticketid: 1668168
 
 ## Description
 
-When using a [TabView](https://docs.telerik.com/devtools/maui/controls/tabview/overview) bound to an `ItemSource` with an `ItemTemplate`, loading UI-heavy content for each tab at page load can impact performance. To enhance application responsiveness, it's beneficial to load the content of each tab item on demand as the user selects it. This KB article also answers the following questions:
+When using a [TabView](https://docs.telerik.com/devtools/maui/controls/tabview/overview) bound to an `ItemSource` with an `ItemTemplate`, loading UI-heavy content for each tab during page load can negatively impact performance. To enhance application responsiveness, it's beneficial to load the content of each tab item on demand, only when the user selects it.
+
+This KB article also answers the following questions:
 - How to improve performance by loading tab content on demand in .NET MAUI TabView?
 - How to delay the loading of UI-heavy content in TabView tabs until selection?
 - How to use attached properties for on-demand content loading in TabView?
