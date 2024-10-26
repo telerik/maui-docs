@@ -1,12 +1,11 @@
 ---
-title: Customizing Image Style in ImageCardView for .NET MAUI
+title: Style the Image in the ImageCardView for .NET MAUI
 description: Learn how to maintain the aspect ratio and adjust the size of images within ImageCardView in .NET MAUI applications.
 type: how-to
 page_title: How to Adjust Image Aspect Ratio and Size in .NET MAUI ImageCardView
-slug: customize-image-style-imagecardview-dotnet-maui
-tags: chat, conversational ui, .net maui, imagecardview, aspect ratio, image size
+slug: style-image-imagecardview-dotnet-maui
+tags: chat, conversational ui, .net maui, imagecardview, aspect ratio, image size, chat image, chat
 res_type: kb
-ticketid: 1668551
 ---
 
 ## Environment
@@ -24,7 +23,9 @@ In .NET MAUI applications, it is often necessary to customize the appearance of 
 
 ## Solution
 
-To customize the style of the image inside the `ImageCardView`, including maintaining its aspect ratio and adjusting its size, apply an implicit style or use a `ControlTemplate`. The following examples demonstrate both approaches.
+To customize the style of the image inside the `ImageCardView`, including maintaining its aspect ratio and adjusting its size you can use one of the following options:
+* Apply an implicit style for the `Image` control.
+* Use a `ControlTemplate`.
 
 ### Using Implicit Style
 
@@ -44,7 +45,7 @@ Define an implicit style targeting the `Image` type in your page resources. This
 
 ### Using ControlTemplate
 
-Alternatively, customize the image directly within the `ControlTemplate` of the `ImageCardView`. This approach offers more flexibility for individual card customizations.
+Customize the image directly within the `ControlTemplate` of the `ImageCardView`. This approach offers more flexibility for individual card customizations.
 
 ```xml
 <VerticalStackLayout>
