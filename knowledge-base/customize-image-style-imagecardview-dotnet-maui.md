@@ -1,5 +1,5 @@
 ---
-title: Style the Image in the ImageCardView for .NET MAUI
+title: Style Images in the ImageCardView for .NET MAUI
 description: Learn how to maintain the aspect ratio and adjust the size of images within ImageCardView in .NET MAUI applications.
 type: how-to
 page_title: How to Adjust Image Aspect Ratio and Size in .NET MAUI ImageCardView
