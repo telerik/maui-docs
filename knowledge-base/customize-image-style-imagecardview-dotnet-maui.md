@@ -20,7 +20,7 @@ In .NET MAUI applications, you often need to customize the appearance of images 
 
  This KB article also answers the following questions:
 - How to scale images without distortion in `ImageCardView`?
-- How to maintain image aspect ratio in .NET MAUI applications?
+- How to maintain the image's aspect ratio in .NET MAUI applications?
 - How to customize the size of images in `ImageCardView`?
 
 ## Solution
