@@ -26,7 +26,8 @@ In .NET MAUI applications, you often need to customize the appearance of images 
 ## Solution
 
 To customize the style of the image inside the `ImageCardView`, including maintaining its aspect ratio and adjusting its size you can use one of the following options:
-* Apply an implicit style for the `Image` control.
+
+* [Apply an implicit style for the `Image` control](#using-implicit-style).
 * Use a `ControlTemplate`.
 
 ### Using Implicit Style
