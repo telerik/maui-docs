@@ -99,4 +99,7 @@ If you start using the Telerik NuGet server in your CI or inter-department workf
 
 ## See Also
 
-* [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
+* [Quickstart with NuGet on Windows]({%slug maui-getting-started%})
+* [Quickstart with NuGet on macOS]({%slug maui-getting-started-vs-code%})
+* [Available Product Files and Assemblies]({%slug download-product-files%})
+* [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})
