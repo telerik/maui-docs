@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-The need is to load and display a PDF document in a popup within a .NET MAUI application, with a preference for continuous scroll. This KB article demonstrates how to achieve this by using the [PDFViewer]({%slug pdfviewer-overview%}) and [RadPopup]({%slug popup-overview%}) components.
+I need to load and display a PDF document in a popup within a .NET MAUI application. The end user must be able to use continuous scrolling. To achieve this, I want to use the [PDFViewer]({%slug pdfviewer-overview%}) and [RadPopup]({%slug popup-overview%}) components.
 
 This KB article also answers the following questions:
 - How can I display a PDF in a popup in .NET MAUI?
