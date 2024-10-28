@@ -38,7 +38,7 @@ As a result, the VS code extension does the following:
 * Adds the page to the `Pages` folder of the application. If the folder does not exist, it will be created. 
 * Adds a `ViewModel` for the created page to the `ViewModels` folder. If the folder does not exist, it will be created.
 
-The next image shows the file structure created for the `Products` screen:
+The next image shows the file structure created for the `DataGrid` page:
 ![.NET MAUI Scaffolding result](images/scaffolding-vs-result.png)
 
 ## Displaying a Scaffolded Screen in Your App
@@ -59,7 +59,7 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate pages:TelerikProductsListPage}"
+        ContentTemplate="{DataTemplate pages:TelerikDataGridPage}"
         Route="MainPage" />
 
 </Shell>
@@ -67,7 +67,7 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 
 This is the result on Android and WinUI:
 
-![.NET MAUI Scaffolding screen look](images/scaffolding-vs-screen-look.png)
+![.NET MAUI Scaffolding screen look](../images/datagrid_page.png)
 
 ## Available Scaffoldings
 
