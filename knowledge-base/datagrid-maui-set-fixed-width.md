@@ -20,7 +20,7 @@ I need to set a specific width for the DataGrid and its columns in a MAUI applic
 
 This KB article also answers the following questions:
 
-- How to set fixed width for DataGrid columns in MAUI?
+- How to set a fixed width for DataGrid columns in MAUI?
 - How to adjust the DataGrid size in MAUI?
 - Can I specify exact column widths for a DataGrid in MAUI?
 
