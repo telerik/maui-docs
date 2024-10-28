@@ -16,7 +16,9 @@ res_type: kb
 
 ## Description
 
-In .NET MAUI applications, it is often necessary to customize the appearance of images within an [`ImageCardView`]({%slug chat-imagecard%}) to fit specific design requirements. This includes maintaining the aspect ratio of displayed images and adjusting their size to fit within a particular layout without distortion. This KB article also answers the following questions:
+In .NET MAUI applications, you often need to customize the appearance of images within an [`ImageCardView`]({%slug chat-imagecard%}) and apply specific design requirements. This includes maintaining the aspect ratio of displayed images and adjusting their size to fit within a particular layout without distortion.
+
+ This KB article also answers the following questions:
 - How to scale images without distortion in `ImageCardView`?
 - How to maintain image aspect ratio in .NET MAUI applications?
 - How to customize the size of images in `ImageCardView`?
