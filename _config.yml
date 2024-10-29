@@ -52,13 +52,13 @@ navigation:
         position: 4
     installation/vs-integration:
         title: "Visual Studio Integration"
-        position: 5  
+        position: 15  
     installation/vs-code-integration:
         title: "Visual Studio Code Integration"
-        position: 6
+        position: 16
     installation/nuget:
         title: "Installing with NuGet"
-        position: 3
+        position: 5
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders
     ## Accordion

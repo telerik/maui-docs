@@ -4,7 +4,7 @@ page_title: Using the ZIP Archive
 description: This article explains what the ZIP archive with the Telerik UI for .NET MAUI components includes, and how to get it.
 slug: zip-archive
 tags: manual installation,zip,archive
-position: 5
+position: 12
 ---
 
 # Using the ZIP Archive
@@ -34,7 +34,7 @@ The `ZIP` archive contains the following folders:
 
 * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet source and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
 
-* `VSExtensions`&mdash;Contains the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
+* `VSExtensions`&mdash;Contains the installation file for the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
 
 ## See Also
 
