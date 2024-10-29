@@ -15,15 +15,15 @@ The Entry provides a number of settings for configuring the appearance of the te
 
 The following properties are related to the Entry Text appearance and alignment:
 
-* `Text`(`string`)&mdash;Defines the text.
-* `TextColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the visible Entry text.
-* `TextTransform`(`Microsoft.Maui.TextTransform`)&mdash;Defines the transformation of the text.
+* `Text` (`string`)&mdash;Defines the text.
+* `TextColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the color of the visible Entry text.
+* `TextTransform` (`Microsoft.Maui.TextTransform`)&mdash;Defines the transformation of the text.
 * `VerticalTextAlignment` (`Microsoft.Maui.TextAlignment`)&mdash;Specifies the vertical alignment of the text.
 * `HorizontalTextAlignment` (`Microsoft.Maui.TextAlignment`)&mdash;Specifies the horizontal alignment of the text.
 
 ## Adding Placeholder
 
-The Entry exposes the `Placeholder`(`string`) property that prompts users what information they  are expected to enter in the text input. The placeholder text is displayed when the control is empty.  Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
+The Entry exposes the `Placeholder` (`string`) property that prompts users what information they  are expected to enter in the text input. The placeholder text is displayed when the control is empty.  Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
 
 ```XAML
 <telerikInput:RadEntry Placeholder="First Name"
@@ -42,7 +42,7 @@ The following image shows the end result.
 
 ## Password functionality
 
-The Telerik .NET MAUI Entry provides `IsPassword`(`bool`) property, which when set to `True`, replaces the input with password hint character. The default value is `False`.
+The Telerik .NET MAUI Entry provides `IsPassword` (`bool`) property, which when set to `True`, replaces the input with password hint character. The default value is `False`.
 
 ```XAML
 <telerik:RadEntry Placeholder="Enter password"
@@ -52,7 +52,7 @@ The Telerik .NET MAUI Entry provides `IsPassword`(`bool`) property, which when s
 
 ## Setting the Read-Only State
 
-You can choose whether the Entry control is editable for end users or not by setting its read-only state through the `IsReadOnly` `bool` property. By default, `IsReadOnly` is set to `False`. To restrict the control from editing, set the `IsReadOnly` to `True`.
+You can choose whether the Entry control is editable for end users or not by setting its read-only state through the `IsReadOnly` (`bool`) property. By default, `IsReadOnly` is set to `False`. To restrict the control from editing, set the `IsReadOnly` to `True`.
 
 ```XAML
 <telerik:RadEntry x:Name="telerikEntry"
@@ -74,11 +74,11 @@ The following example demonstrates how to set the maximum length of the input to
 
 ## Setting spacing between the characters
 
-The `CharacterSpacing`(`double`)property allows you to define the space between the characters inside the control.
+The `CharacterSpacing` (`double`)property allows you to define the space between the characters inside the control.
 
 ## Setting Text Prediction
 
-* `IsTextPredictionEnabled`(`bool`)property allows you to define whether text prediction and automatic text correction is on or off. The default value is false. 
+* `IsTextPredictionEnabled` (`bool`)property allows you to define whether text prediction and automatic text correction is on or off. The default value is false. 
 
 ```XAML
 <telerik:RadEntry x:Name="entry"
@@ -93,7 +93,7 @@ The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define t
 ```XAML
 <telerik:RadEntry x:Name="entry"
 				  Keyboard="Numeric"
-				  Placeholder="Enter Text" />
+				  Placeholder="Enter Number" />
 ```
 
 ## Setting the Return Type
@@ -108,7 +108,7 @@ You can change the keyboard **return key type** using the `ReturnType`(`Microsof
 
 ## Defining the Clear Button visibility
 
-The `ClearButtonVisibility`(`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear-button (the button that clears the text when pressed) can be displayed. The default value is `WhileEditing`. 
+The `ClearButtonVisibility` (`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear-button (the button that clears the text when pressed) can be displayed. The default value is `WhileEditing`. 
 If you want to hide the clear button while entering text inside the control, then set the `ClearButtonVisibility` to `Never`.
 
 ## See Also

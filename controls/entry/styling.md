@@ -15,16 +15,17 @@ The Entry provides styling options for setting the appearance of its border and 
 
 Style the entry using the following properties:
 
-* `CornerRadius`(`Microsoft.Maui.CornerRadius`)
-* `BackgroundColor`(`Microsoft.Maui.Graphics`)
+* `CornerRadius` (`Microsoft.Maui.CornerRadius`)
+* `BackgroundColor` (`Microsoft.Maui.Graphics`)
+
+You can apply visual States to the Entry control using the 
 
 ## Clear Button Style
 
 Style the Clear button which is displayed by default when entering text in the control using the following properties:
 
-* `ClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button.
-* `HoveredClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when the button is hovered. The color appears only on desktop(Windows and macOS).
-* `PressedClearButtonColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the Clear button when the button is clicked.
+* `ClearButtonVisibility` (`enum` of type `Microsoft.Maui.ClearButtonVisibility`)&mdash;Defines a value indicating whether the clear-button (the button that clears the text when pressed) will be visible. The options are: `Never` and `WhileEditing` (default).
+* `ClearButtonStyle` (`Style` with target type `RadTemplatedButton`)&mdash;Specifies the style of the clear button. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article for more details on the available visual states.
 
 ## Font Options
 
