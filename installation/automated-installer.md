@@ -1,10 +1,10 @@
 ---
-title: Automated Installers
-page_title: Installing Telerik UI for .NET MAUI
+title: Using Automated Installers
+page_title: Automated Installers
 description: Learn how to install Telerik UI for .NET MAUI on both Windows and macOS by using the automated MSI or PKG installer.
 slug: automated-installer
 tags: .net maui, ui for .net maui, automatic installation, installer
-position: 4
+position: 10
 ---
 
 # Using the Automated Installers for Telerik UI for .NET MAUI
@@ -55,7 +55,7 @@ After the installation is complete, explore the installation folder of the MAUI 
 
 * `Packages`&mdash;Contains the `Telerik.UI.for.Maui.[version].nupkg` NuGet package. Use it in case you need to set up a local NuGet source and reference the `Telerik.UI.for.Maui.[version].nupkg` from there.
 
-* `VSExtensions`&mdash;Contains the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
+* `VSExtensions`&mdash;Contains the installation file for the Visual Studio extension for Visual Studio 2022. For more details, go to [Visual Studio Integration] section.
 
 ## See Also
 
