@@ -3,7 +3,7 @@ title: Unable to Find Package
 description: Learn how to sovle the error "`Unable to find package Telerik.UI.for.Maui. No packages exist with this id in source(s) nuget.org`".
 type: troubleshooting
 page_title: How to solve unable to find package
-slug: error-login-failed
+slug: unable-to-find-package
 tags: server, error missing package, nuget, telerik nuget server
 res_type: kb
 ---

@@ -18,7 +18,7 @@ The issues listed below are common when upgrading to a new version of Telerik .N
 * If you suspect that your saved credentials are wrong&mdash;Review the [removing stored credentials]({%slug remove-stored-credentials%}) topic for more details on the steps you need to follow to solve this error.
 * [`401 Unauthorized`]({%slug error-unauthorized%})
 * [`401 Logon failed error`]({%slug error-login-failed%})
-* Error like `Unable to find the Telerik.UI.for.Maui package in nuget.org` occurs when the Telerik NuGet source is searched in wrong NuGet&mdash;Review the [Unable to Find Package]({%slug error-login-failed%}) article for more details on this case.
+* Error like `Unable to find the Telerik.UI.for.Maui package in nuget.org` occurs when the Telerik NuGet source is searched in wrong NuGet&mdash;Review the [Unable to Find Package]({%slug unable-to-find-package %}) article for more details on this case.
 * [Error `503 Service Unavailable`]({%slug error-service-unavailable%})
 * Errors like `Unable to find package Telerik.UI.for.Maui with version` and `ProjectName depends on Telerik.UI.for.Maui (>= 7.1.0) but Telerik.UI.for.Maui 7.1.0 was not found` can be related to the subscription period&mdash;Review the [Package Version Not Found]({%slug package-version-not-found%}) article for more details on how to solve this behavior.
 * Error `Failed to retrieve information about ... from remote source` occurs when using the v2 server&mdash;The solution is to use the [v3 NuGet feed]({%slug failed-retrieve-info-remote-source%}).
