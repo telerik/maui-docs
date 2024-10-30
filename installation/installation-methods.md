@@ -4,7 +4,7 @@ page_title: Installation Methods
 description: Discover the available installation approaches for the Telerik UI for .NET MAUI controls and learn how to start using the UI components library in your solution.
 slug: installation-approaches
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui, mac, windows
-previous_url: installation/download-product-files
+previous_url: /installation/download-product-files, /installation/approaches
 position: 2
 ---
 

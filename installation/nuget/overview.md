@@ -5,7 +5,7 @@ description: Explore the different ways to add the Telerik NuGet feed to your sy
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls
 slug: telerik-nuget-overview
 position: 0
-previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget, /get-started/windows/first-steps-nuget
+previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget
 ---
 
 # Installing .NET MAUI with NuGet

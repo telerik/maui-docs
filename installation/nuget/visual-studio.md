@@ -5,7 +5,7 @@ description: Learn how to install the UI for .NET MAUI by using the Telerik NuGe
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, install, telerik .net maui, 
 slug: nuget-server-vs
 position: 1
-previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget, /get-started/windows/first-steps-nuget
+previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget
 ---
 
 # Installing with NuGet in Visual Studio
