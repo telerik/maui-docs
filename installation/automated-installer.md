@@ -59,6 +59,6 @@ After the installation is complete, explore the installation folder of the MAUI 
 
 ## See Also
 
-- [Available Product Files]({%slug download-product-files%})
-- [install a Free Trial version]({%slug install-trial%}) 
+- [UI for MAUI Installation Methods]({%slug installation-approaches %})
+- [Installing a Free Trial version]({%slug install-trial%}) 
 - [Sample Applications]({%slug sampleapps-overview%})

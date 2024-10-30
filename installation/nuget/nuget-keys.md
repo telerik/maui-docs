@@ -99,7 +99,6 @@ If you start using the Telerik NuGet server in your CI or inter-department workf
 
 ## See Also
 
-* [Quickstart with NuGet on Windows]({%slug maui-getting-started%})
-* [Quickstart with NuGet on macOS]({%slug maui-getting-started-vs-code%})
-* [Available Product Files and Assemblies]({%slug download-product-files%})
-* [Telerik UI for .NET MAUI Installation Approaches]({%slug installation-approaches%})
+* [Get Started with UI for MAUI in Visual Studio]({%slug maui-getting-started%})
+* [Get Started with UI for MAUI in Visual Studio Code]({%slug maui-getting-started-vs-code%})
+* [UI for MAUI Installation Methods]({%slug installation-approaches%})

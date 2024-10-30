@@ -53,5 +53,5 @@ You can configure your system to use your downloaded NuGet packages in the follo
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
 * [System Requirements for Windows]({% slug system-requirements %})
 * [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})
-* [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
+* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
 * <a href="https://www.telerik.com/maui-ui" target="_blank">Telerik UI for .NET MAUI Product Page</a>

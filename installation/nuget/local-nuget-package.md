@@ -35,7 +35,7 @@ To configure a local NuGet source in Visual Studio:
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/local-packages.png)
 
-## Setting Up the NuGet Source in Nuget.Config
+## Setting Up the NuGet Source in NuGet.Config
 
 An alternative way to configure your system to use locally available NuGet files is to directly edit the `nuget.config` file:
 

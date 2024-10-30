@@ -40,9 +40,9 @@ or
 
 Replace the Telerik Xamarin assemblies with the Telerik UI for .NET MAUI package, using the local NuGet feeds. To get the Telerik UI for .NET MAUI `.nupkg` file, download any of the following:
 
-* An `automatic installation` for Windows or Mac.
+* The `.msi` or `.pkg` automated installer.
 * The `.zip` file that contains the `.nupkg` file.
-* The `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account. For the detailed guide, go to the article on [downloading the Telerik UI for .NET MAUI product files]({%slug download-product-files%}).
+* The `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account.
 
 When the `.nupkg` file is available on your machine, you are ready to set up the local NuGet feed. For the detailed guide on setting up the local NuGet package, go to the [Local feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) official Microsoft topic.
 

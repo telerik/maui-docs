@@ -43,4 +43,4 @@ If your programming environment is already configured for the development of .NE
 
 ## See Also
 
-* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [UI for MAUI Installation Methods]({% slug installation-approaches %})

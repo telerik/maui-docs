@@ -33,4 +33,4 @@ To access the VS extensions, go to the **Extensions** > **Telerik** > **Telerik 
 ## See Also
 
 * [Creating New Projects with Visual Studio]({%slug vs-integration-new-project %})
-* [Toolbox support]({%slug vs-integration-convert-project %})
+* [Toolbox Extension]({%slug toolbox-support %})

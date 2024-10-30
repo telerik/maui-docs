@@ -14,13 +14,15 @@ The Telerik UI for .NET MAUI Visual Studio extension lets you scaffold an app pa
 
 ## Get the Extension
 
-To use the Telerik UI for .NET MAUI Scaffoldings, install the `Progress Telerik UI for .NET MAUI Extension` extension for Visual Studio. You can get the extension from:
+To use the Telerik UI for .NET MAUI Scaffoldings, install the `Progress Telerik UI for .NET MAUI Extension` for Visual Studio. You can get the extension from:
 
 * <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
 
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
-* The Telerik UI for .NET MAUI [MSI installer]({%slug maui-getting-started%}). For more information, go to the [Getting Started with the Telerik VS extensions]({%slug visualstudio-extensions%}) topic.
+* The Telerik UI for .NET MAUI [MSI installer]({%slug maui-getting-started%}). 
+
+For more information, go to the [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %}) topic.
 
 ## Add The Scaffolding Page to Your App
 
@@ -119,7 +121,7 @@ The image shows the default appearance of the page:
 
 ## See Also
 
-* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [UI for MAUI Installation Methods]({%slug installation-approaches%})
 * [System Requirements for Windows]({% slug system-requirements %})
-* [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
+* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
 * [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})

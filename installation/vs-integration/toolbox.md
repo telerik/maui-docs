@@ -44,7 +44,7 @@ To add the desired Telerik UI for .NET MAUI controls with the Toolbox:
 
 ## See Also
 
-* [Available Product Files and Assemblies]({% slug download-product-files %})
+* [UI for MAUI Installation Methods]({%slug installation-approaches%})
 * [System Requirements for Windows]({% slug system-requirements %})
-* [Telerik Extensions and Project Templates for VS on Windows]({% slug visualstudio-extensions %})
+* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
 * [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})

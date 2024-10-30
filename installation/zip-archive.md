@@ -38,6 +38,6 @@ The `ZIP` archive contains the following folders:
 
 ## See Also
 
-- [Available Product Files]({%slug download-product-files%})
+- [UI for MAUI Installation Methods]({%slug installation-approaches%})
 - [Automated Installer]({%slug automated-installer%})
 - [Sample Applications]({%slug sampleapps-overview%})
