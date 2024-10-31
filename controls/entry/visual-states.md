@@ -14,7 +14,7 @@ The Entry provides the following `CommonStates` visual states:
 | Visual State | Description |
 | ------------- | --------------- |
 | `Normal` | Applies when the entry is in normal state. |
-| `Focused` | Applies when the enry is focused. |
+| `Focused` | Applies when the entry is focused. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer is over the entry. |
 | `Invalid` | Applies when there is a validation and the text entered inside the entry is not valid (the `IsValueValid` property is set to `false`). |
 | `InvalidFocused` | Applies when the entry is focused and there is a validation and the text entered inside the entry is not valid (the `IsValueValid` property is set to `false`). |
@@ -23,9 +23,9 @@ The Entry provides the following `CommonStates` visual states:
 | `ReadOnlyFocused` | Applies when the entry is focused and not editable (the `IsReadOnly` property is set to `false`). |
 | `ReadOnlyMouseOver` | (Desktop-only) Applies when the mouse pointer is over the entry, and the entry is not editable (the `IsReadOnly` property is set to `false`) |
 | `ReadOnlyInvalid` | Applies when the entry is not editable (the `IsReadOnly` property is set to `false`) and not valid (the `IsValueValid` property is set to `false`). |
-| `ReadOnlyInvalidFocused` | Applies when the enry is focused, not editable (the `IsReadOnly` property is set to `false`) and not valid (the `IsValueValid` property is set to `false`). |
+| `ReadOnlyInvalidFocused` | Applies when the entry is focused, not editable (the `IsReadOnly` property is set to `false`) and not valid (the `IsValueValid` property is set to `false`). |
 | `ReadOnlyInvalidMouseOver` | (Desktop-only) Applies when the mouse pointer is over the entry, and the entry is not editable (the `IsReadOnly` property is set to `false`) and not valid (the `IsValueValid` property is set to `false`). |
-| `Disabled` | Applies when the enry is disabled. |
+| `Disabled` | Applies when the entry is disabled. |
 
 ### Using the Visual States
 
@@ -33,9 +33,23 @@ The following example demonstrates how to use the Entry Visual States.
 
 **1.** Define the Entry in XAML:
 
+<snippet id='entry-style' />
 
-**2.** Define the visual states in the page's resources:
+**2.** Define the entry style in the page's resources:
 
+<snippet id='entry-styling' />
+
+**2.** Define the clear button style in the page's resources:
+
+<snippet id='entry-styling-clear-button' />
+
+**2.** Define the validation error label style in the page's resources:
+
+<snippet id='entry-styling-validation-error-label' />
+
+**2.** Define the validation error image style in the page's resources:
+
+<snippet id='entry-styling-validation-error-image' />
 
 **3.** Add the `telerik` namespace:
 
@@ -51,3 +65,4 @@ This is the result on WinUI:
 
 ## See Also
 
+- [Entry Styling]({%slug entry-styling%})
