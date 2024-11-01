@@ -18,7 +18,7 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
 * `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`)&mdash;Defines the style of the inner `RadTextInput` control used when the ComboBox is editable (`IsEditable` must be `True`).
-* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font options to the text of the ComboBox. It's applied to the Placeholder, Selected Text (for single selection), and when the control is in Editable Mode.
+* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the ComboBox. It's applied to the Placeholder and Selected Text (for single selection) and when the control is in Editable Mode.
 
 In addition, you can change the visual appearance of the ComboBox by defining the following visual states through the .NET MAUI Visual State Manager:
 
@@ -29,9 +29,9 @@ In addition, you can change the visual appearance of the ComboBox by defining th
 
 ### Example for ComboBox Styling
 
-The example below demonstrates some of the styling capabilities of the ComboBox, such as custom `ClearButtonStyle`, `TextInputStyle`, `TextColor`, `PlaceholderColor`, and other, as well how you can switch its appearance through the .NET MAUI Visual State Manager.
+The example below demonstrates some of the styling capabilities of the ComboBox, such as custom `ClearButtonStyle`, `TextInputStyle`, `TextColor`, `PlaceholderColor`, and others. It also shows how to switch its appearance through the .NET MAUI Visual State Manager.
 
-The example uses the same `ViewModel` and `City` classes as from the [Getting Started]({%slug combobox-getting-started%}) topic.
+The example uses the same `ViewModel` and `City` classes as the [Getting Started]({%slug combobox-getting-started%}) topic.
 
 **1.** Add a Style that targets the `RadComboBox` to your page's resources and apply all the needed styling properties and the visual states:
 
@@ -56,7 +56,7 @@ Here is how the styling is applied when the control is focused and item is selec
 The following properties style the ComboBox DropDown:
 
 * `DropDownBorderColor`(`Color`): Defines the color of the border around the drop down part of the control.
-* `DropDownBorderThickness`(`Thickness`): Defines the thickness of the border that is around of the drop down part of the control.
+* `DropDownBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border that surrounds the DropDown part of the control.
 * `DropDownBorderCornerRadius`(`Thickness`): Defines the corner radius of the border that is around the drop down part of the control
 * `DropDownBackgroundColor`(`Color`): Defines the background color of the drop down part of the control.
 * `DropDownButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`): Defines the style for the drop down button.
