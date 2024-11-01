@@ -11,7 +11,9 @@ slug: combobox-styling
 The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the following Style properties for customizing its look:
 
 * `PlaceholderColor`(`Color`)&mdash;Defines the color for the placeholder text.
-* `TextColor`(`Color`)&mdash;Defines the color of the text when the control is editable and the color of the selected item when the control is not editable and the selection mode is single.
+* `TextColor`(`Color`)&mdash;Defines the following colors:
+	* The color of the text when the control is editable.
+	* The color of the selected item when the control is not editable and the selection mode is single.
 * `HighlightTextColor`(`Color`)&mdash;Specifies the color of the text that will be highlighted when searching (`IsEditable` must be `True`).
 * `BackgroundColor`(`Color`)&mdash;Defines the background color of the control.
 * `BorderColor`(`Color`)&mdash;Defines the color of the border.
@@ -22,10 +24,10 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 
 In addition, you can change the visual appearance of the ComboBox by defining the following visual states through the .NET MAUI Visual State Manager:
 
-* **Normal**&mdash;Applied when the ComboBox is in its normal state.
-* **Focused**&mdash;Applied when the ComboBox receives focus (when it's editable).
-* (Windows Only) **MouseOver**&mdash;Applied when the mouse cursor is hovering over the ComboBox.
-* **Disabled**&mdash;Applied when the ComboBox's `IsEnabled` is `False`.
+* `Normal`&mdash;Applied when the ComboBox is in its normal state.
+* `Focused`&mdash;Applied when the ComboBox receives focus (when it's editable).
+* (Windows Only) `MouseOver`&mdash;Applied when the mouse cursor is hovering over the ComboBox.
+* `Disabled`**&mdash;Applied when the ComboBox's `IsEnabled` is `False`.
 
 ### Example for ComboBox Styling
 
@@ -55,11 +57,11 @@ Here is how the styling is applied when the control is focused and item is selec
 
 The following properties style the ComboBox DropDown:
 
-* `DropDownBorderColor`(`Color`): Defines the color of the border around the drop down part of the control.
+* `DropDownBorderColor`(`Color`)&mdash;Defines the color of the border that surrounds the DropDown part of the control.
 * `DropDownBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border that surrounds the DropDown part of the control.
-* `DropDownBorderCornerRadius`(`Thickness`): Defines the corner radius of the border that is around the drop down part of the control
-* `DropDownBackgroundColor`(`Color`): Defines the background color of the drop down part of the control.
-* `DropDownButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`): Defines the style for the drop down button.
+* `DropDownBorderCornerRadius`(`Thickness`)&mdash;Defines the corner radius of the border that surrounds the DropDownn part of the control.
+* `DropDownBackgroundColor`(`Color`)&mdash;Defines the background color of the DropDown part of the control.
+* `DropDownButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the DropDown button.
 
 ### Example for DropDown Styling
 
