@@ -8,7 +8,7 @@ slug: autocomplete-styling
 
 # .NET MAUI AutoComplete Styling
 
-The Telerik .NET MAUI AutoComplete control provides the following Style properties for customizing its look:
+The Telerik UI for .NET MAUI AutoComplete control provides the following Style properties for customizing its look:
 
 * `TextColor`(`Color`)&mdash;Defines the text color of the control.
 * `PlaceholderColor`(`Color`)&mdash;Defines the color for the placeholder text.
