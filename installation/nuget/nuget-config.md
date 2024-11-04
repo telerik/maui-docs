@@ -62,10 +62,11 @@ This article does not cover the scenario of using your Telerik account credentia
 >* Never hard-code Telerik account credentials or NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
 >* If you use single sign-on (SSO) to login into your Telerik account, always use a [NuGet API key]({%slug nuget-keys%}) instead of plain text credentials in the `NuGet.Config` file.
 
-For more details about the `NuGet.Config` file, see the following resources:
+For more details about the `NuGet.Config` file, see the following Microsoft resources:
 * <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesources" target="_blank">Configuring the NuGet package sources</a>
 * <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior#creating-a-new-config-file" target="_blank">Creating a new NuGet config file</a>
 
 ## See Also
 
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
+* [Using the Telerik NuGet Sever as Part of Your CI Workflow]({%slug nuget-keys%})

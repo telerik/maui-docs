@@ -13,7 +13,7 @@ The ZIP archive with the Telerik UI for .NET MAUI is another distribution method
 
 Having a downloaded ZIP archive with the controls lets you install them even when you work offline. The archive contains also the Telerik UI for .NET MAUI [sample applications]({%slug sampleapps-overview%}) that you can use for inspiration or learning purposes.
 
-> The most common way to install the Telerik UI for .NET MAUI components is to use the [Telerik NuGet feed] or the [automated installer]({%slug automated-installer%}).
+> The most common way to install the Telerik UI for .NET MAUI components is to use the [Telerik NuGet feed]({% slug telerik-nuget-overview %}) or the [automated installer]({%slug automated-installer%}).
 
 ## Downloading
 

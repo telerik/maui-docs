@@ -8,7 +8,7 @@ position: 8
 
 # Using NuGet Packages in a CI Workflow
 
-One of the common ways to set up the NuGet source in your CI (Continuous Integration) workflow is to use the .NET CLI.
+This article describes how to use token-based authentication for the Telerik NuGet feed. You will learn how to create and use NuGet API keys to restore Telerik NuGet packages in your Continuous Integration (CI) workflow.
 
 The Telerik NuGet server allows you to authenticate by using two methods:
 
@@ -99,6 +99,5 @@ If you start using the Telerik NuGet server in your CI or inter-department workf
 
 ## See Also
 
-* [Get Started with UI for MAUI in Visual Studio]({%slug maui-getting-started%})
-* [Get Started with UI for MAUI in Visual Studio Code]({%slug maui-getting-started-vs-code%})
 * [UI for MAUI Installation Methods]({%slug installation-approaches%})
+* [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})

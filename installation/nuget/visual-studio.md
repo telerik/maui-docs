@@ -21,7 +21,7 @@ Before adding the Telerik NuGet server to Visual Studio, make sure you have:
 To configure the Telerik NuGet feed in Visual Studio:
 
 1. Open Visual Studio.
-1. Go to **Tools > NuGet Package Manager > Package Manager Settings**
+1. Go to **Tools > NuGet Package Manager > Package Manager Settings**.
 1. Select **Package Sources**, and then click the + button.
 1. In the **Source** field, enter `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from <a href="https://www.telerik.com/account/" target="_blank">your account</a>, add the path to the local package instead of the URL.
 1. Click **Update** and then **OK**.
@@ -37,9 +37,9 @@ The next steps describe how to authenticate your local NuGet instance and displa
 
 1. Create a new .NET MAUI project or open an existing project.
 1. Right-click the solution in the **Solution Explorer** window.
-1. Select **Manage NuGet Packages for Solution...**
+1. Select **Manage NuGet Packages for Solution...**.
 1. Select the Telerik NuGet **Package source** from the drop-down list.
-1. Click on the **Browse** tab to see the available packages.
+1. Click the **Browse** tab to see the available packages.
 1. Enter your Telerik credentials in the Windows Authentication dialog.
 1. In the Visual Studio Package Manager, you will see all packages that are licensed to your user account.
 1. Search for the `Telerik.UI.for.Maui` or `Telerik.UI.for.Maui.Trial` package and select it.
@@ -82,3 +82,5 @@ public static class MauiProgram
 ## See Also
 
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
+* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
+* [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})

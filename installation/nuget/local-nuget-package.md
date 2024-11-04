@@ -60,8 +60,14 @@ An alternative way to configure your system to use locally available NuGet files
 </configuration>
 ```
 
-The local NuGet package does not require you to configure the authentication in the `NuGet.Config` files as it has already been downloaded from your Telerik account.
+The local NuGet package does not require you to configure the authentication in the `NuGet.Config` file as it has already been downloaded from your Telerik account.
 
-For more details about the `NuGet.Config` file, see the following resources:
+For more details about the `NuGet.Config` file, see the following Microsoft resources:
 * <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesources" target="_blank">Configuring the NuGet package sources</a>
 * <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior#creating-a-new-config-file" target="_blank">Creating a new NuGet config file</a>
+
+## See Also
+
+* [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
+* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
+* [Telerik Toolbox for .NET MAUI on Windows]({% slug toolbox-support %})

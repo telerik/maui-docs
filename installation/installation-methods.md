@@ -23,7 +23,7 @@ Using [NuGet packages]({% slug telerik-nuget-overview %}) is the most common Tel
 You can choose between two ways to access and download the Telerik UI for .NET MAUI NuGet packages:
 
 * [By using the online Telerik NuGet feed]({% slug telerik-nuget-overview %}#using-the-online-telerik-nuget-feed).
-* [By setting up your local repository with you downloaded NuGet packages]({% slug telerik-nuget-overview %}#using-locally-available-nuget-packages).
+* [By setting up your local repository with downloaded NuGet packages]({% slug telerik-nuget-overview %}#using-locally-available-nuget-packages).
 
 ## Automated Installers
 
@@ -31,7 +31,7 @@ The **Downloads** section of your Telerik account provides MSI and PKG installer
 
 ## Control Panel
 
-The [Progress Control Panel]({% slug control-panel %}) is a standalone application for Windows. Similarly to the [automated installers]({% slug automated-installer %}) it streamlines the setup process but also allows you to install and upgrade multiple Telerik products through a single tool. This makes the Control Panel suitable for developers who use more than one Telerik UI library.
+The [Progress Control Panel]({% slug control-panel %}) is a standalone application for Windows. Similarly to the [automated installers]({% slug automated-installer %}), it streamlines the setup process but also allows you to install and upgrade multiple Telerik products through a single tool. This makes the Control Panel suitable for developers who use more than one Telerik UI library.
 
 ## ZIP Archive
 

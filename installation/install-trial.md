@@ -37,3 +37,4 @@ After completing all installation steps, you activate your 30 day free trial.
 ## See Also
 
 * [Using the Automated Installer]({%slug automated-installer%})
+* [Installing with NuGet]({% slug telerik-nuget-overview %})

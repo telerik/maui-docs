@@ -15,7 +15,7 @@ NuGet is a popular .NET package manager that enables the installation of the Tel
 Depending on your development environment, you can choose between two ways to access and download the Telerik UI for .NET MAUI NuGet packages:
 
 * By using the online Telerik NuGet feed.
-* By setting up your local repository with you downloaded NuGet packages. 
+* By setting up your local repository with downloaded NuGet packages. 
 
 @[template](/_contentTemplates/common/net-version.md#net-version)
 

@@ -114,3 +114,9 @@ Visual Studio 2022 does not support differentiating DLL references for each targ
     </Reference>
 </ItemGroup>
 ```
+
+## See Also
+
+- [UI for MAUI Installation Methods]({%slug installation-approaches%})
+- [Automated Installer]({%slug automated-installer%})
+- [Sample Applications]({%slug sampleapps-overview%})
