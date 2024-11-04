@@ -36,6 +36,6 @@ The Telerik UI for .NET MAUI TemplatedPicker preserves the same API as its Xamar
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI TemplatedPicker Product Page](https://www.telerik.com/maui-ui/templatedpicker)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

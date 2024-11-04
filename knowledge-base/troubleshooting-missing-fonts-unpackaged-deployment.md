@@ -8,6 +8,7 @@ tags: troubleshooting, fonts, unpackaged deployment, .NET MAUI
 res_type: kb
 ---
 # Environment
+
 | Product | Version |
 | ------- | ------- |
 | Progress® Telerik® UI for .NET MAUI | 6.5.0 |

@@ -49,7 +49,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 * [Flexible styling API]({%slug datagrid-styling%})&mdash;The .NET MAUI DataGrid is customizable if you prefer to use your own styling.
 
-* [Localization support]({%slug datagrid-localization%})&mdash;Translate the text displayed in the Filtering UI, Grouping panel, etc. to other languages, so that your application can be adapted to different cultures.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the text displayed in the Filtering UI, Grouping panel, etc. to other languages, so that your application can be adapted to different cultures.
 
 
 ## Next Steps

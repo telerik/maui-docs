@@ -21,7 +21,7 @@ The Telerik UI for .NET MAUI ListPicker allows the user to select an item from a
 * [Display String format]({%slug listpicker-visual-structure%})&mdash;You can choose what text that will be displayed when an item is selected by using the `DisplayStringFormat` property of the ListPicker.
 * [Flexible styling API]({%slug listpicker-styling%})&mdash;The ListPicker provides a number of styling capabilities, which enable you to style its spinners, the popup and popup header and footer, the displayed text after an item is selected, and more.
 * [Commands support]({%slug listpicker-commands%})&mdash;The ListPicker exposes commands that allow you to clear the selected item and to open and close the popup.
-* [Localization support]({%slug listpicker-localization%})&mdash;Translate the used across the ListPicker text for `Placeholder`, Accept and Cancel buttons to other languages, so that your app can be adapted to different regions.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the used across the ListPicker text for `Placeholder`, Accept and Cancel buttons to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 

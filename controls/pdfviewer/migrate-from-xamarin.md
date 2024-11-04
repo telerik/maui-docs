@@ -34,4 +34,4 @@ The tables below compare the API changes between the Xamarin.Forms PDF Viewer an
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})

@@ -38,7 +38,7 @@ The tables in the following sections list the differences between the APIs of th
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI SlideView Product Page](https://www.telerik.com/maui-ui/slideview)
 * [Telerik .NET MAUI Blogs](https://www.telerik.com/forums/maui?tagId=2058)
 

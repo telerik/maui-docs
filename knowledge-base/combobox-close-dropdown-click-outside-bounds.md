@@ -51,4 +51,4 @@ private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 
 ## See Also
 
-- [ComboBox for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui/controls/combo-box/overview)
+- [ComboBox for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui/controls/combobox/overview)

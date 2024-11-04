@@ -1,6 +1,6 @@
 ---
 title: Change ListView GridLayout SpanCount
-description: 
+description: This article explains how to use the SpanCount property of the RadListView GridLayoutDefinition with Binding.
 type: how-to
 page_title: Binding in the ListView GridLayour SpanCount
 slug: listview-gridlayout-spancount-binding
@@ -11,18 +11,10 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-	<tbody>
-		<tr>
-			<td>Product Version</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Product</td>
-			<td>ListView for MAUI</td>
-		</tr>
-	</tbody>
-</table>
+
+| Product | Author | 
+| --- | ---- | 
+| Telerik UI for .NET MAUI ListView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 
 ## Description
