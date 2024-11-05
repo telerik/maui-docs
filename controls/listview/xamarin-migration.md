@@ -7,6 +7,8 @@ slug: migrate-xamarin-listview-to-maui
 position: 20
 ---
 
+>caution ListView control is now obsolete and will be removed in future. [CollectionView]({%slug collectionview-overview%}) is a complete rewrite of the ListView from the ground up. The CollectionView offers improved performance, enhanced features, and a modernized approach to managing lists of data. The CollectionView incorporates all key features of the ListView. You can read about the differences between both components and how to migrate to the new CollectionView in the following article: [Migrating the Telerik .NET MAUI ListView to CollectionView]({%slug listview-migration%}).
+
 # Migrating the ListView from Xamarin to .NET MAUI
 
 The Telerik UI for .NET MAUI ListView preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
