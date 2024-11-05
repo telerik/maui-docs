@@ -2,14 +2,14 @@
 title: Page Configuration
 page_title: .NET MAUI DataPager Documentation - Page Page Configuration
 description: Learn how to define the page buttons count, current page and the size of the page inside the Telerik .NET MAUI DataPager.
-position: 14
+position: 4
 slug: datapager-page-configuration
 tags: page size, datapager, maui, dotnet maui
 ---
 
 # .NET MAUI DataPager Page Configuration
 
-This article explains the configuration oprions you can apply to the pages inside the DataPager control.
+This article explains the configuration options you can apply to the pages inside the DataPager control.
 
 ## Page Size
 
@@ -27,7 +27,7 @@ Here is an example with the `PageIndex` set:
 
 ## Page Number Range
 
-The DataPager allows you to define a range for the nummeric buttons that display the page numbers and choose a page within that range.
+The DataPager allows you to define a range for the numeric buttons that display the page numbers and choose a page within that range.
 
 To implement page number range, use the following DataPager properties:
 

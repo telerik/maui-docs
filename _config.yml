@@ -248,6 +248,16 @@ navigation:
         title: "Styling"
         position: 20
     ## End DataGrid
+     ## DataPager
+    controls/datapager:
+        title: "DataPager"
+    controls/datapager/integration:
+        title: "Integration"
+        position: 7
+    controls/datapager/styling:
+        title: "Styling"
+        position: 20
+    ## End DataPager
     ## DatePicker
     controls/datepicker:
         title: "DatePicker"

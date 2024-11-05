@@ -18,6 +18,7 @@ The DataPager for .NET MAUI provides a styling mechanism for customizing its loo
 * `ContentPadding` (`Thickness`)&mdash;Specifies the content padding of the control.
 
 ## See Also
+
 - [Paged Source]({%slug datapager-data-binding%})
 - [Display Modes]({%slug datapager-display-mode%})
 - [Page Configuration]({%slug datapager-page-configuration%})

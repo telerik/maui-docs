@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI DataPager Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI DataPager to navigate throught the pages.
-position: 14
+position: 8
 slug: datapager-commands
 tags: commands
 ---
@@ -16,7 +16,7 @@ The available commands are:
 * `NavigateToPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing on a numeric button.
 * `NavigateToFirstPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the first page button.
 * `NavigateToLastPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the last page button.
-* `NavigateToPreviousPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the previpus page button.
+* `NavigateToPreviousPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the previous page button.
 * `NavigateToNextPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the next page button.
 
 ## Additional Resources

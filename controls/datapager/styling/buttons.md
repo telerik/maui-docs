@@ -2,7 +2,7 @@
 title: Buttons Styling
 page_title: .NET MAUI DataPager Documentation - Buttons Styling
 description: Learn how to style the navigation buttons and page buttons in the Telerik UI for .NET MAUI DataPager control.
-position: 0
+position: 1
 slug: datapager-styling-buttons
 ---
 
@@ -16,23 +16,23 @@ The DataPager provides a styling mechanism for customizing the look of the navig
 
 * `NavigateToFirstPageButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the first page navigation button.
 * `NavigateToPreviousPageButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the previous page navigation button.
-* `NavigateToNextPageButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the next page navigaton button.
+* `NavigateToNextPageButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the next page navigation button.
 * `NavigateToLastPageButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the last page navigation button.
 
-The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling proepries.
+The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling properties.
 
-The `DataPagerButton` exposes additional visual states&mdash;`Selected` adn `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
+The `DataPagerButton` exposes additional visual states&mdash;`Selected` and `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
 
-## Styling the Nummeric Buttons
+## Styling the Numeric Buttons
 
-The DataPager provides a styling mechanism for customizing the look of the numeric buttons by using the follwoing properties:
+The DataPager provides a styling mechanism for customizing the look of the numeric buttons by using the following properties:
 
 * `NumericButtonStyle` (`Style` with target type of `telerik:DataPagerButton`)&mdash;Specifies the style which applies to the numeric buttons.
 * `NumericButtonsViewStyle` (`Style` with target type of `telerik:DataPagerNumericButtonsView`)&mdash;Specifies the style which applies to the view presenting the numeric buttons. 
 
-The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling proepries.
+The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling properties.
 
-The `DataPagerButton` exposes additional visual states&mdash;`Selected` adn `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
+The `DataPagerButton` exposes additional visual states&mdash;`Selected` and `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
 
 ## Example
 

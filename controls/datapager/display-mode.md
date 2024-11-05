@@ -2,14 +2,14 @@
 title: Display Mode
 page_title: .NET MAUI DataPager Documentation - Display Mode
 description: Learn what are the different options to display buttons in the .NET MAUI DataPager control.
-position: 14
+position: 5
 slug: datapager-display-mode
 tags: display mode
 ---
 
 # .NET MAUI DataPager Display Mode
 
-The DataPager allows you to decide which of its visual elements to be visibleby setting the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property.
+The DataPager allows you to decide which of its visual elements to be visible by setting the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property.
 
 The available options for `DisplayMode` are:
 
@@ -47,7 +47,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 DataPager gives you the option to customize the default way how the elements in the pager are arranged by using the `AdaptiveDisplayModes` property.
 
-* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of desired combinations of elements that should be displayed. The actual elements that are displayed are the result of this property.
+* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of desired combinations of elements which should be displayed. The elements that are displayed are the result of this property.
 
 **Example with `AdaptiveDisplayModes`**
 

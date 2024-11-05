@@ -2,7 +2,7 @@
 title: Ellipsis Mode
 page_title: .NET MAUI DataPager Documentation - Ellipsis Mode
 description: 
-position: 14
+position: 6
 slug: datapager-ellipsis-mode
 tags: ellipsis modes, data pager, maui, dotnet maui, paging
 ---
@@ -14,10 +14,10 @@ The `EllipsisMode` controls whether the first/last page numeric buttons are repl
 
 The available options for `EllipsisMode` are:
 
-* `None`&mdash;No ellipsis are shown.
-* `Before`&mdash;Ellipsis is shown instead of the first numeric button.
-* (Default) `After`&mdash; Ellipsis is shown instead of the last numeric button.
-* `Both`&mdash;Ellipsis are shown on both sides.
+* `None`&mdash;No ellipsis.
+* `Before`&mdash;Display ellipsis instead of the first numeric button.
+* (Default) `After`&mdash; Display ellipsis instead of the last numeric button.
+* `Both`&mdash;Display ellipsis on both sides.
 
 ## Example
 

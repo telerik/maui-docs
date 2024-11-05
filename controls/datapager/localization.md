@@ -2,7 +2,7 @@
 title: Localization
 page_title: .NET MAUI DataPager Documentation - Localization
 description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI DataPager control.
-position: 14
+position:10
 slug: datapager-localization
 tags: localization, language, translate, maui, dotnet maui
 ---
