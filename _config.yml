@@ -629,6 +629,7 @@ intro_columns:
       "CollectionView": "collectionview-overview"
       "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
+      "DataPager": "datapager-overview"
       "ListView": "listview-overview"
       "ItemsControl": "itemscontrol-overview"
   -
