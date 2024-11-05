@@ -31,9 +31,7 @@ Before adding the DataPager, you need to:
 ```XAML
 <telerik:RadDataPager x:Name="dataPager"/>
 ```
-```C#
-var pager = new RadDataPager();
-```
+<snippet id='datapager-gettingstarted-csharp' />
 
 **2.** Add the following namespace:
 
@@ -69,12 +67,35 @@ public static class MauiProgram
 
 ## Add Source
 
+To visualize the pages you need to bind a collection to the `Source` property of the DataPager control.
 
+**1.** Define the DataPager in XAML or C#:
 
+<snippet id='datapager-getting-started-xaml' />
+<snippet id='datapager-gettingstarted-csharp' />
+
+**2.** Define the `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+**3.** Set the `ViewModel` as a `BindingContext`:
+
+```C#
+this.BindingContext = new ViewModel();
+```
+
+> For the DataPager Getting Started example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Getting Started** category.
 
 ## Additional Resources
 
-- []({%slug %})
+- [Paged Source]({%slug datapager-data-binding%})
+- [Display Modes]({%slug datapager-display-mode%})
+- [Ellipsis Modes]({%slug datapager-ellipsis-mode%})
+- [Page Configuration]({%slug datapager-page-configuration%})
+- [Localization]({%slug datapager-localization%})
+- [Commands in DataPager]({%slug datapager-commands%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})
 
 ## See Also
 

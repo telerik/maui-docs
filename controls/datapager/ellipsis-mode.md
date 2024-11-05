@@ -19,6 +19,26 @@ The available options for `EllipsisMode` are:
 * (Default) `After`&mdash; Ellipsis is shown instead of the last numeric button.
 * `Both`&mdash;Ellipsis are shown on both sides.
 
+## Example
+
+Here is a quick example on how you can define the `EllipsisMode` to the DataPager.
+
+**1.** Define the DataPager in XAML:
+
+<snippet id='datapager-ellipsis-mode' />
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+> For the DataPager Ellipsis Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
+
 ## Additional Resources
 
 - [.NET MAUI DataPager Product Page](https://www.telerik.com/maui-ui/datagrid)
@@ -28,3 +48,10 @@ The available options for `EllipsisMode` are:
 
 ## See Also
 
+- [Paged Source]({%slug datapager-data-binding%})
+- [Display Modes]({%slug datapager-display-mode%})
+- [Page Configuration]({%slug datapager-page-configuration%})
+- [Localization]({%slug datapager-localization%})
+- [Commands in DataPager]({%slug datapager-commands%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})

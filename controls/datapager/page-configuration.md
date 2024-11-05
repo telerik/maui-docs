@@ -18,9 +18,6 @@ The DataPager splits the data into separate pages with a certain size. To specif
 By using the `PageSizes` (`IList<int>`) you can specify the pages that the end user can choose from.
 
 
-Here is an example with the `PageSizes` and `PageSize` properties set:
-
-
 ## Current Page
 
 The DataPager manages the current page depending on the user actions. In addition you can specify the current index of the DataPager by using the `PageIndex` (`int`) property.
@@ -41,5 +38,32 @@ To implement page number range, use the following DataPager properties:
 
 You can specify the space between the items in the DataPager by setting the `ItemSpacing` (`double`) property. The default value is `0`.
 
+## Example
+
+Here is a sample example with `PageSize`, `PageIndex`, `PageSizes`, and `ItemSpacing` properties set.
+
+**1.** Define the DataPager in XAML:
+
+<snippet id='datapager-page-configuration' />
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+> For the DataPager Page configuration example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
+
 ## See Also
 
+- [Paged Source]({%slug datapager-data-binding%})
+- [Display Modes]({%slug datapager-display-mode%})
+- [Ellipsis Modes]({%slug datapager-ellipsis-mode%})
+- [Localization]({%slug datapager-localization%})
+- [Commands in DataPager]({%slug datapager-commands%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})

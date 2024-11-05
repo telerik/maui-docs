@@ -19,14 +19,6 @@ The available commands are:
 * `NavigateToPreviousPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the previpus page button.
 * `NavigateToNextPageCommand` (`ICommand`)&mdash;Specifies the command which executes when pressing the next page button.
 
-Here is an example how to use the commands:
-
-**3.** Add the `telerik` namespaces:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Additional Resources
 
 - [.NET MAUI DataPager Product Page](https://www.telerik.com/maui-ui/datagrid)
@@ -36,3 +28,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
+- [Paged Source]({%slug datapager-data-binding%})
+- [Display Modes]({%slug datapager-display-mode%})
+- [Ellipsis Modes]({%slug datapager-ellipsis-mode%})
+- [Page Configuration]({%slug datapager-page-configuration%})
+- [Localization]({%slug datapager-localization%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})

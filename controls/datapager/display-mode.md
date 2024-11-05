@@ -23,13 +23,51 @@ The available options for `DisplayMode` are:
 * `PageSizesView`&mdash;
 * `NavigationView`&mdash;
 
+**Example with `DisplayMode`**
+
+Here is a quick example on how you can define the `DisplayMode` to the DataPager.
+
+**1.** Define the DataPager in XAML:
+
+<snippet id='datapager-display-mode' />
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+> For the DataPager Display Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
+
 ## Adaptive Display Modes
 
 DataPager gives you the option to customize the default way how the elements in the pager are arranged by using the `AdaptiveDisplayModes` property.
 
 * `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of desired combinations of elements that should be displayed. The actual elements that are displayed are the result of this property.
 
-### Example
+**Example with `AdaptiveDisplayModes`**
+
+Here is a quick example on how you can define the `DisplayMode` to the DataPager.
+
+**1.** Define the DataPager in XAML:
+
+<snippet id='datapager-adaptivedisplay-mode' />
+
+**2.** Add the following namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+> For the DataPager Display Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 
 ## Additional Resources
 
@@ -40,5 +78,10 @@ DataPager gives you the option to customize the default way how the elements in 
 
 ## See Also
 
-
-
+- [Paged Source]({%slug datapager-data-binding%})
+- [Ellipsis Modes]({%slug datapager-ellipsis-mode%})
+- [Page Configuration]({%slug datapager-page-configuration%})
+- [Localization]({%slug datapager-localization%})
+- [Commands in DataPager]({%slug datapager-commands%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})

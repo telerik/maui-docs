@@ -1,5 +1,5 @@
 ---
-title: Data Binding
+title: Source
 page_title: .NET MAUI DataPager Documentation - Data Binding
 description: Learn more about the ways for data binding in the Telerik UI for .NET MAUI DataPager control.
 position: 1
@@ -13,6 +13,19 @@ After the collection is passed to the `Source` property, the collection splits i
 
 **Example with `Source` property**
 
+**1.** Define the DataPager in XAML:
+
+<snippet id='datapager-getting-started-xaml' />
+
+**2.** Add a sample `ViewModel`:
+
+<snippet id='datapager-features-viewmodel' />
+
+**3.** Set the `ViewModel` as a `BindingContext`:
+
+```C#
+this.BindingContext = new ViewModel();
+```
 
 ## Binding to the PagedSource property of the RadDataPager
 
@@ -25,12 +38,20 @@ The image above explains the steps how to bind to the `PagedSource` property of 
 1. Assign an `IEnumerable` to the `Source` of a `RadDataPager`, 
 1. The `RadDataPager` wraps the `Source` in a `PageableCollection`. 
 1. The `Source` is exposed through the `RadDataPager.PagedSource` property. 
-1. Attach any number of ItemsControls to the `PagedSource` and they will be automatically paged. 
+1. Attach any number of ItemsControls to the `PagedSource` and they will be automatically paged.
 
+
+
+
+
+Review the [Integration with DataGrid]({%slug datapager-datagrid%}) article, for more details how to use the `PagedSource` property
 
 ## See Also
 
-- [.NET MAUI DataPager Product Page](https://www.telerik.com/maui-ui/datapager)
-- [.NET MAUI DataPager Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
-- [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
-- [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+- [Display Modes]({%slug datapager-display-mode%})
+- [Ellipsis Modes]({%slug datapager-ellipsis-mode%})
+- [Page Configuration]({%slug datapager-page-configuration%})
+- [Localization]({%slug datapager-localization%})
+- [Commands in DataPager]({%slug datapager-commands%})
+- [Styling]({%slug datapager-styling%})
+- [Integration with DataGrid]({%slug datapager-datagrid%})
