@@ -20,7 +20,7 @@ To use the Telerik UI for .NET MAUI Scaffoldings, install the `Progress Telerik 
 
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
-* The Telerik UI for .NET MAUI [MSI installer]({%slug maui-getting-started%}). 
+* The Telerik UI for .NET MAUI [MSI installer]({%slug automated-installer %}). 
 
 For more information, go to the [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %}) topic.
 

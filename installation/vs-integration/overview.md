@@ -24,7 +24,7 @@ You can get the extension from:
 
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
-* [The Telerik UI for .NET MAUI automated installer]()
+* [The Telerik UI for .NET MAUI automated installer]({% slug automated-installer %})
 
 To access the VS extensions, go to the **Extensions** > **Telerik** > **Telerik UI for .NET MAUI** menu.
 

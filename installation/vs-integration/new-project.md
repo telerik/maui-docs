@@ -55,9 +55,9 @@ To start the wizard, use either the [Extensions](#extensions-menu) or the [Proje
 
     ![Create new project dialog in the wizard with a blank Telerik UI for .NET MAUI app](images/vsextensions_newproject-selection.png)
 
-    * The **Telerik .NET MAUI Blank App** option, creates blank application.
+    * The **Telerik .NET MAUI Blank App** option creates blank application.
 
-    * The **Telerik .NET MAUI Blank Shell App** option, creates a blank .NET MAUI Shell application.
+    * The **Telerik .NET MAUI Blank Shell App** option creates a blank .NET MAUI Shell application.
 
 Finally, Visual Studio opens the solution, which is pre-configured to use the Telerik UI for .NET MAUI controls and has the `Telerik.UI.for.Maui` NuGet package installed.
 
@@ -71,3 +71,6 @@ The following image shows the end result after running the application.
 
 
 ## See Also
+
+* [Toolbox Extension for Visual Studio]({%slug toolbox-support %})
+* [Scaffolding Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})

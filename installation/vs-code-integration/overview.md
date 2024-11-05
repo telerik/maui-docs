@@ -25,7 +25,7 @@ You can get the Telerik UI for .NET MAUI Extension extension from:
 
 ## Access the Extension
 
-To access the VS Code extension and to open the VS Code extension launcher, press:
+To access the VS Code extension and to open the VS Code extension launcher, use:
 
 * `Ctrl`+`Shift`+`P` on Windows/Linux
 * `Cmd`+`Shift`+`P` on Mac.

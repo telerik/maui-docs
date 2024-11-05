@@ -3,7 +3,7 @@ title: Create New Project
 page_title: Create New Project - Visual Studio Code Integration
 description: Learn how to create a new Telerik UI for .NET MAUI project with our Visual Studio Code Templates.
 slug: getting-started-vs-code-integration-new-project
-position: 0
+position: 1
 ---
 
 # Create New Projects
@@ -14,7 +14,7 @@ This article demonstrates how to use the Telerik Extension for Visual Studio Cod
 
 To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI for .NET MAUI Productivity Tools` extension. You can get the extension from:
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Marketplace.</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Code Marketplace.</a>
 
 * The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
 
@@ -22,16 +22,16 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 
 You can create a Telerik .NET MAUI project by accessing the project template feature from the Visual Studio Code Extensions menu. To open the menu, use:
 
- - `Ctrl+Shift+P` in Windows/Linux 
+ - `Ctrl+Shift+P` on Windows/Linux 
  - `Cmd+Shift+P` on Mac. 
 
-Next in the menu, look for and select **Telerik UI for .NET MAUI Template Wizard: Launch** and press Enter. 
+Next, select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
 
 ![Telerik UI for .NET MAUI VS Code snippets](images/MauiTemplateWizard.gif)
 
-## Set up the Telerik NuGet Server
+## Set Up the Telerik NuGet Server
 
-You can use one of the following options to configure the required credentials for your Telerik license (trial or commercial):
+By using the Telerik NuGet server, you can install the packages with the Telerik UI for .NET MAUI controls. As the server requires authentication, you can use one of the following options to configure the required credentials for your Telerik license (trial or commercial):
 
 * [Using the .NET CI]({%slug nuget-keys%})
 * [Editing the `NuGet.Config` File]({%slug nuget-config%})
