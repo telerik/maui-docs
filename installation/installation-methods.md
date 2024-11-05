@@ -35,7 +35,7 @@ The [Progress Control Panel]({% slug control-panel %}) is a standalone applicati
 
 ## ZIP Archive
 
-The ZIP archive is convenient if you want to create your own repository with Telerik UI for .NET MAUI versions. It contains everything that is available in the [automated installers]({% slug automated-installer %}) but in the form of a ZIP archive. However, unlike using the automated installer, installing the Visual Studio extensions from the archive requires you to manually do this by navigating to the `VSExtensions` folder.
+The ZIP archive is convenient if you want to create your own repository with Telerik UI for .NET MAUI versions. It contains everything that is available in the [automated installers]({% slug automated-installer %}) but in the form of a ZIP archive.
 
 ## Referencing Assemblies Manually
 
