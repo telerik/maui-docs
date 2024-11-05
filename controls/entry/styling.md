@@ -11,9 +11,7 @@ slug: entry-styling
 
 The Entry provides styling options for setting the appearance of its border and font.
 
-## Entry Style
-
-Style the entry using the following properties:
+Style the Entry using the following properties:
 
 * `CornerRadius` (`Microsoft.Maui.CornerRadius`)
 * `BackgroundColor` (`Microsoft.Maui.Graphics.Color`)
@@ -22,7 +20,7 @@ Style the entry using the following properties:
 * `BorderBrush` (`Microsoft.Maui.Controls.Brush`)
 * `BorderThickness` (`Microsoft.Maui.Thickness`)
 
-You can apply visual States to the Entry control. For more details review [Entry Visual States]({%slug entry-visual-states%}) article.
+In addition to the available styling properties, you can apply specific [Visual States]({%slug entry-visual-states%}) to the Entry control.
 
 >tip For a runnable example demonstrating the Entry Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
 
@@ -30,7 +28,7 @@ You can apply visual States to the Entry control. For more details review [Entry
 
 Style the Clear button which is displayed by default when entering text in the control using the following properties:
 
-* `ClearButtonVisibility` (`enum` of type `Microsoft.Maui.ClearButtonVisibility`)&mdash;Defines a value indicating whether the clear-button (the button that clears the text when pressed) will be visible. The options are: `Never` and `WhileEditing` (default).
+* `ClearButtonVisibility` (`enum` of type `Microsoft.Maui.ClearButtonVisibility`)&mdash;Defines a value indicating whether the clear button (the button that clears the text when pressed) will be visible. The options are: `Never` and `WhileEditing` (default).
 * `ClearButtonStyle` (`Style` with target type `RadTemplatedButton`)&mdash;Specifies the style of the clear button. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article for more details on the available visual states.
 
 >tip For a runnable example demonstrating the Entry Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.

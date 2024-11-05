@@ -3,7 +3,7 @@ title: Set the Visual States of the Entry
 page_title: Configure the Visual States of the Entry Component - .NET MAUI Knowledge Base
 description: Learn how to define the visual states of the Telerik UI for .NET MAUI Entry control.
 type: how-to
-slug: entry-visual-states
+slug: entry-visual-states-example
 tags: maui, entry, visual states, .net maui entry, focused, normal, disabled, hover
 res_type: kb
 ---

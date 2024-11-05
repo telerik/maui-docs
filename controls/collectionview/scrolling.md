@@ -49,15 +49,15 @@ This is the result on WinUI:
 
 > For a runnable demo with the CollectionView Programmatic Scrolling example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Scrolling** category.
 
-## ScrollBars
+## Scrollbars
 
-The CollectionView exposes an option to set the visibility of the vertical and the horizontal scrollbars by using the `VerticalScrollBarVisibility` (`enum` of type `Microsoft.Maui.ScrollBarVisibility`) and `HorizontalScrollBarVisibility` (`enum` of type `Microsoft.Maui.ScrollBarVisibility`) properties.
+The CollectionView exposes an option that sets the visibility of the vertical and the horizontal scrollbars by using the `VerticalScrollBarVisibility` (`enum` of type `Microsoft.Maui.ScrollBarVisibility`) and `HorizontalScrollBarVisibility` (`enum` of type `Microsoft.Maui.ScrollBarVisibility`) properties.
 The available options for the `ScrollBarVisibility` enumeration are:
 * `Default`&mdash;The visibility of the scrollbar will be the default for the platform based on the content and orientation.
 * `Always`&mdash;The scollbar will be visible, regardless of the content or orientation.
 * `Never`&mdash;The scrollbar will not be visible, regardless of the content or orientation.
 
-Review the the [Ensuring CollectionView Scrollbar is Always Visible on Android in a .NET MAUI application]({%slug collectionview-scrollbar-visible-android%}) article for more details how to display the vertical scrollbar on Android.
+Review the the [Ensuring CollectionView Scrollbar is Always Visible on Android in a .NET MAUI application]({%slug collectionview-scrollbar-visible-android%}) article for more details on how to display the vertical scrollbar on Android.
 
 ## Events
 

@@ -9,6 +9,9 @@ slug: togglebutton-visual-states
 
 # .NET MAUI ToggleButton Visual States
 
+This article describes the visual states the ToggleButton provides. 
+You can use the visual states to change the visual appearance of the control depending on the state the control is set&mdash;whether it's disabled, or pressed, or has the mouse pointer over and more.
+
 The ToggleButton provides the following `CommonStates` visual states:
 
 | Visual State | Description |
