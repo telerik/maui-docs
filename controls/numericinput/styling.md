@@ -29,17 +29,17 @@ In addition, you can change the visual appearance of the NumericInput by definin
 * (Desktop Only) `ReadOnlyMouseOver`&mdash;Applied when the NumericInput is in read-only mode and the mouse cursor is hovering over it.
 * `Disabled`**&mdash;Applied when the NumericInput's `IsEnabled` is `False`.
 
-Keep in mind the Background and Border properties are used differently in the control template per platform:
+Note that the use of the Background and Border properties in the control template varies by platform:
 
-* On Android, iOS and MacCatalyst&mdash;The `BackgroundColor`, `BorderBrush`, `BorderThickness` and `CornerRadius` are applied to the `RadBorder` containing the input control and not to the whole control template. This means if you set the `BackgroundColor` and `CornerRadius`, for example, they will be applied only to the text input and not in the space(gap) between the input area and the numeric buttons.
-* On WinUI&mdash;The `BackgroundColor` and `CornerRadius` are applied on the whole control (the top-most Grid in the control template); the `CornerRadius`, `BorderBrush` and `BorderThickness` properties are applied to a `RadBorder` that will also be visualized over the whole control. So visually on WinUI when `BackgroundColor`, `BorderThickness` and `CornerRadius` are applied, they will be visualized wrapping the whole control - the background will be visible under the input area, as well as the numeric buttons, the corner radius and border will be visualized wrapping the input and buttons areas.
+* On Android, iOS and MacCatalyst&mdash;The `BackgroundColor`, `BorderBrush`, `BorderThickness` and `CornerRadius` are applied to the `RadBorder` containing the input control and not to the whole control template. This means if you set the `BackgroundColor` and `CornerRadius`, for example, they will be applied only to the text input and not in the space (gap) between the input area and the numeric buttons.
+* On WinUI&mdash;The `BackgroundColor` and `CornerRadius` are applied on the whole control (the top-most Grid in the control template); the `CornerRadius`, `BorderBrush` and `BorderThickness` properties are applied to a `RadBorder` that will also be visualized over the whole control. So visually, on WinUI, when `BackgroundColor`, `BorderThickness` and `CornerRadius` are applied, they will be visualized wrapping the whole control&mdash;the background will be visible under the input area, as well as the numeric buttons, the corner radius, and border will be visualized wrapping the input and buttons areas.
 
 
 ### Example for NumericInput Styling
 
 The example below demonstrates some of the styling capabilities of the NumericInput, such as custom `IncreaseButtonStyle` and `DecreaseButtonStyle`, `TextInputStyle`, `BorderColor`, and others. It also shows how to switch its appearance through the .NET MAUI Visual State Manager.
 
-**1.** Add a Style that targets the `RadNumericInput` to your page's resources and apply all the needed styling properties and the visual states:
+**1.** Add a style that targets the `RadNumericInput` to your page's resources and apply all needed styling properties and visual states:
 
 <snippet id='numericinput-custom-styles' />
 
@@ -51,7 +51,7 @@ Here is how the NumericInput looks when styling is applied on Android and Window
 
 ![.NET MAUI NumericInput Styling](images/numericinput-styling.png)
 
-And when the NumericInput is focused:
+Here is how the NumericInput looks when focused:
 
 ![.NET MAUI NumericInput Focused Styling](images/numericinput-focused-styling.png)
 
