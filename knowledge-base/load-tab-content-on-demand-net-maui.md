@@ -31,7 +31,12 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To load tab item content on demand, create a `TabViewUtils` class with two attached properties: `LoadOnDemand` and `LoadOnDemandTemplate`. 
+To load tab item content on demand, create a `TabViewUtils` class with two attached properties: `LoadOnDemand` and `LoadOnDemandTemplate`. The process consists of the following steps:
+
+1. [Implemment the Attached Properties](#implementing-the-attached-properties)
+2. [Set the TabItems DataTemplate](#setting-the-tabitems-datatemplate)
+3. [Set Up the TabView in XAML](#setting-up-the-tabview-in-xaml)
+4. [Add Sample ViewModel and Data Model](#adding-sample-viewmodel-and-data-model)
 
 ### Implementing the Attached Properties
 
@@ -136,7 +141,7 @@ Define your `TabView` in XAML and apply the attached properties to enable on-dem
 </telerik:RadTabView>
 ```
 
-### Sample ViewModel and Data Model
+### Adding Sample ViewModel and Data Model
 
 Ensure your ViewModel and data model are set up to provide data to the `TabView`. Here's an example:
 
