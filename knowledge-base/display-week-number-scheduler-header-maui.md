@@ -26,7 +26,7 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To display the week number in the `HeaderTextFormat` of the RadScheduler, you can utilize data binding for customization. The `HeaderTextFormat` property is bindable, allowing you to format the date in the header as required.
+To display the week number in the `HeaderTextFormat` of the `RadScheduler`, you can utilize data binding for customization. The `HeaderTextFormat` property is bindable, allowing you to format the date in the header as required.
 
 Below is an example demonstrating how to bind a property to the `HeaderTextFormat` property of the Scheduler control:
 
