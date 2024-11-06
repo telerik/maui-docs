@@ -20,7 +20,7 @@ res_type: kb
 I need to display the week number in the `HeaderTextFormat` of the [Scheduler]({%slug header-settings%}) for .NET MAUI. How can I achieve this? Is it possible to use a bindable property for customization?
 
 This KB article also answers the following questions:
-- How to bind a property to the Scheduler's HeaderTextFormat in .NET MAUI?
+- How to bind a property to the Scheduler's `HeaderTextFormat` in .NET MAUI?
 - What is the method to customize the Scheduler's header format to include week numbers?
 - Can I use data binding to modify the HeaderTextFormat of the Scheduler control?
 
