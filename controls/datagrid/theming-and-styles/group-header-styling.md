@@ -14,7 +14,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides a `
 
 ## Group Header Properties
 
-The `GroupHeaderStyle` property is of type `DataGridGroupHeaderStyle` and provides the following styling properties:
+The `GroupHeaderStyle` property is of type `Style` and targets the `DataGridGroupHeaderAppearance` class. The `DataGridGroupHeaderAppearance` provides the following styling properties:
 
 * `TextColor`(`Color`)&mdash;Defines the color for the text part of the group header.
 * `SearchMatchTextColor`(`Color`)&mdash;Defines the color that is used for the parts of the group header's text that are search matches. For more details on this, see the [Search as You Type]({%slug datagrid-search-as-you-type%}) topic.
@@ -49,7 +49,7 @@ By default, the Button of the group header uses an internal symbol font family. 
 
 The following example demonstrates how to apply a sample `GroupHeaderStyle` to the DataGrid:
 
-**1.** Add a sample `DataGridGroupHeaderStyle` to the page's resources:
+**1.** Add a sample `Style` with `TargetType` set to `DataGridGroupHeaderAppearance` to the page's resources:
 
 <snippet id='datagrid-groupheader-styling-style' />
 
@@ -71,7 +71,7 @@ The following example demonstrates how to apply a sample `GroupHeaderStyle` to t
 
 Check the result at the image below:
 
-![Telerik .NET MAUI DataGrid Group Header Template](../images/datagrid-grouping-groupheaderstyle.png)
+![Telerik .NET MAUI DataGrid Group Header Style](../images/datagrid-grouping-groupheaderstyle.png)
 
 ## See Also
 
