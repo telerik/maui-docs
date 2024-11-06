@@ -9,6 +9,9 @@ slug: templatedbutton-visual-states
 
 # .NET MAUI TemplatedButton Visual States
 
+This article describes the visual states the TemplatedButton provides. 
+You can use the visual states to change the visual appearance of the control depending on the state the control is set&mdash;whether it's disabled, or pressed, or has the mouse pointer over.
+
 The TemplatedButton provides the following `CommonStates` visual states:
 
 | Visual States | Description |
