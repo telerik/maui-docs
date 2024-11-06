@@ -47,9 +47,13 @@ The example below demonstrates some of the styling capabilities of the NumericIn
 
 <snippet id='numericinput-styling-xaml' />
 
-Here is how the NumericInput looks when styling is applied:
+Here is how the NumericInput looks when styling is applied on Android and Windows:
 
 ![.NET MAUI NumericInput Styling](images/numericinput-styling.png)
+
+And when the NumericInput is focused:
+
+![.NET MAUI NumericInput Focused Styling](images/numericinput-focused-styling.png)
 
 ## See Also
 
