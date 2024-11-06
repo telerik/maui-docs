@@ -31,7 +31,7 @@ The table below shows the localization keys:
 | `Scheduler_EditAppointmentDialog_Save` | `Save` |
 | `Scheduler_EditAppointmentDialog_Cancel` | `Cancel` |
 | `Scheduler_EditAppointmentDialog_Edit` | `Edit` |
-| `Scheduler_EditAppointmentDialog_Edit` | `Does not repeat` |
+| `Scheduler_EditAppointmentDialog_Repeat_DoesNotRepeat` | `Does not repeat` |
 | `Scheduler_EditAppointmentDialog_Repeat_Daily` | `Repeat daily` |
 | `Scheduler_EditAppointmentDialog_Repeat_Weekly` | `Repeat weekly` |
 | `Scheduler_EditAppointmentDialog_Repeat_Monthly` | `Repeat monthly` |
@@ -79,6 +79,10 @@ The table below shows the localization keys:
 | `Scheduler_ConfirmDeleteDialog_Question_Series` | `Are you sure you want to delete the series?` |
 | `Scheduler_ConfirmDeleteDialog_Delete` | `Delete` |
 | `Scheduler_ConfirmDeleteDialog_Cancel` | `Cancel` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Header` | `Delete Appointment"` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Question_Appointment` | `Are you sure you want to delete this appointment?` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Delete` | `Delete` |
+| `"Scheduler_DeleteAppointmentChoiceDialog_Cancel` | `Cancel` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete_Occurrence` | `Delete this occurrence.` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete_Series` | `Delete the series.` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete` | `Delete` |
