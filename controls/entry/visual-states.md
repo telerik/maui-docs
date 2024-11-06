@@ -9,8 +9,7 @@ slug: entry-visual-states
 
 # .NET MAUI Entry Visual States
 
-This article describes the visual states the Entry provides. 
-You can use the visual states to change the visual appearance of the control depending on the state the control is set&mdash;whether it's disabled, or focused, or has the mouse pointer over and more.
+This article describes the visual states provided by the Entry control. You can use these visual states to change the appearance of the control based on its state—such as when it’s disabled, focused, hovered, and more.
 
 The Entry provides the following `CommonStates` visual states:
 
