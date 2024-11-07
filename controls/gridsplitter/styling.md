@@ -30,6 +30,9 @@ The GridSplitter provides the following CommonStates visual states:
 * `MouseOver`&mdash;Applies when the mouse pointer is over the GridSplitter.
 * `Disabled`&mdash;Applies when the GridSplitter is disabled.
 
+This is the result of visual states applied:
+
+![.NET MAUI GrdiSplitter Styling](images/gridsplitter-styling.gif)
 
 ## Example
 
@@ -44,6 +47,10 @@ Here is an example how to style the GridSplitter control and use the visual stat
 ```XAML
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+This is the result:
+
+![.NET MAUI GrdiSplitter Styling](images/gridsplitter-styling.png)
 
 > For a runnable example with the GridSplitter Styling and visual states scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **GridSplitter > Features** category.
 

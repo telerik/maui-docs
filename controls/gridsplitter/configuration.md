@@ -47,6 +47,10 @@ Here is an example with `ResizeDirection` property set.
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result on WinUI:
+
+![.NET MAUI GridSplitter Resize behavior](images/gridsplitter-resize-behavior.gif)
+
 > For a runnable example with the GridSplitter `ResizeDirection` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **GridSplitter > Features** category.
 
 ## See Also
