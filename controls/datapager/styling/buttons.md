@@ -31,8 +31,20 @@ The DataPager provides a styling mechanism for customizing the look of the numer
 * `NumericButtonsViewStyle` (`Style` with target type of `telerik:DataPagerNumericButtonsView`)&mdash;Specifies the style which applies to the view presenting the numeric buttons. 
 
 The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling properties.
-
+s
 The `DataPagerButton` exposes additional visual states&mdash;`Selected` and `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
+
+## Tooltips
+
+The DataPager has tooltips support for the navigation buttons on WInUI.You can customize the text in the tooltip by using the styling properties described above.
+
+Here is an example how to set `Tooltip.Text` property:
+
+```XAML
+<Style x:Key="DataPagerButtonStyle" TargetType="telerik:DataPagerButton">
+    <Setter Property="ToolTipProperties.Text" Value="your custom text" />
+</Style>
+```
 
 ## Example
 
@@ -56,8 +68,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-datapager-data' />
 
-> For the DataPager Buttons styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Styling** category.
+This is the result on desktop:
 
+![.NET MAUI DataPager Buttons styling](../images/datapager-buttons-styling.png)
+
+> For the DataPager Buttons styling example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Styling** category.
 
 ## See Also
 

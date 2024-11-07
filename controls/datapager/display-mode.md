@@ -39,6 +39,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datapager-features-viewmodel' />
 
+This is the result on desktop:
+
+![.NET MAUI DataPager Display mode](images/datapager-displaymode.gif)
+
 > For the DataPager Display Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 
 ## Adaptive Display Modes
@@ -62,6 +66,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Define the `ViewModel`:
 
 <snippet id='datapager-features-viewmodel' />
+
+This is the result on desktop:
+
+![.NET MAUI DataPager Adaptive Display mode](images/datapager-adaptive-displaymode.png)
 
 > For the DataPager Display Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 

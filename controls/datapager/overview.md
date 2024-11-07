@@ -10,6 +10,8 @@ slug: datapager-overview
 
 The Telerik UI for .NET MAUI DataPager provides users with a navigation interface for paging through any data collection. It supplies a paged data source to data-bound controls and is particularly useful when working with large datasets.
 
+
+
 ## Key Features
 
 * [Data Binding]({%slug datapager-data-binding%})&mdash;You can bind the DataPager to any collection that implements the `IEnumerable` interface, making it suitable for paging any collection.

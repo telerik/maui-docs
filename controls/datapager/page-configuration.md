@@ -53,6 +53,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datapager-features-viewmodel' />
 
+This is the result on WinUI:
+
+![.NET MAUI DataPager Page Configuration](images/datapager-page-configuration.png)
+
 > For the DataPager Page configuration example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 
 ## See Also

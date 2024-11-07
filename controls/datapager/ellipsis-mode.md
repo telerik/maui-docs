@@ -38,6 +38,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datapager-features-viewmodel' />
 
+This is the result on desktop:
+
+![.NET MAUI DataPager Ellipsis mode](images/datapager-ellispsismode.gif)
+
 > For the DataPager Ellipsis Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 
 ## Additional Resources

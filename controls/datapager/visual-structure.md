@@ -16,14 +16,19 @@ The following image shows the anatomy of the DataPager.
 
 ## Displayed Elements
 
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
-- ``&mdash;
+- `First Page Button`&mdash;Represents the first page button. This button brings the pager on the first page of data.
+- `Previous Page Button`&mdash;Represents the previous page button. This button decrements the DataPager's current page index and brings it on the previous page of data.
+- `Numeric Page Buttons`&mdash;Represents a set of buttons that lists the available pages and allows the user to go directly to the desired one.
+- `Ellipsis`&mdash;Represents ellipsis. The ellipsis appears when the pages are more than the rendered numeric buttons.
+- `Next Page Button`&mdash;Represents the next page button. This button increments the DataPager's current page index and brings it on the next page of data.
+- `Last Page Button`&mdash;Represents the last page button. This button brings the DataPager on the last page of data.
+- `Page Sizes`&mdash;This area represents thepages the end user can choose from.
+- `Current Page`&mdash;Indicates the current page.
+- `Navigation View`&mdash;This area allows the user to see the current page and the total count of pages. It also allows the user to select the desired page and navigate directly to it.
 
+The elements are displayed based on the available space. On mobile the default elements displayed in the DataPager are the `First Page Button`, `Previous Page Button`, `Navigation View with the RadComboBox` , `Next Page Button` and `Last Page Button`.
+
+![.NET MAUI DataPager Mobile Visual Structure](images/datapager-mobile-representation.png "Visual elements of DataPager control on mobile")
 
 ## See Also
 
