@@ -1,6 +1,6 @@
 ---
-title: PageSizes Styling
-page_title: .NET MAUI DataPager Documentation - PageSizes Styling
+title: Page Sizes Styling
+page_title: .NET MAUI DataPager Documentation - Page Sizes Styling
 description: Learn what are the styling options for the Telerik UI for .NET MAUI DataPager PageSizes view.
 position: 3
 slug: datapager-styling-pagesize
@@ -17,15 +17,15 @@ The `telerik:PageSizesViewStyle` uses as a target type the `telerik:DataPagerPag
 * `ComboBoxStyle` (`Style` with target type `RadComboBox`)&mdash;Specifies the associated `Telerik.Maui.Controls.RadDataPager`.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the page sizes view.
 
-Here is an example.
+Here is an example demonstrating how to use `PageSizesViewStyle`.
 
-Define the DataPager in XAML:
+**1.** Define the DataPager in XAML:
 
 ```XAML
     <telerik:RadDataPager PageSizesViewStyle="{StaticResource PageSizesViewStyle}"
 ```
 
-Set the styles to the page's resources:
+**2.** Set the styles to the page's resources:
 
 ```XAML
 <Style x:Key="ComboStyle" TargetType="telerik:RadComboBox">

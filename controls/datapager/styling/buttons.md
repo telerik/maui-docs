@@ -42,13 +42,13 @@ Here is an example how to style the buttons in the DataPager control.
 
 <snippet id='datapager-styling-buttons' />
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Define the buttons resources in the page's resource:
+**3.** Define the button resources in the page's resource:
 
 <snippet id='datapager-styling-buttons-resources' />
 

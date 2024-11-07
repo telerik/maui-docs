@@ -13,23 +13,20 @@ This article explains the configuration options you can apply to the pages insid
 
 ## Page Size
 
-The DataPager splits the data into separate pages with a certain size. To specify the size of the page you have to use the `PageSize` (`int`) property. The default value is `10`.
+The DataPager splits the data into separate pages with a certain size. To specify the size of the page, use the `PageSize` (`int`) property. The default value is `10`.
 
 By using the `PageSizes` (`IList<int>`) you can specify the pages that the end user can choose from.
 
-
 ## Current Page
 
-The DataPager manages the current page depending on the user actions. In addition you can specify the current index of the DataPager by using the `PageIndex` (`int`) property.
+The DataPager manages the current page depending on the user's actions. In addition, you can specify the current index of the DataPager by using the `PageIndex` (`int`) property.
 The property contains the index of the currently selected page. The default value is `-1`.
-
-Here is an example with the `PageIndex` set:
 
 ## Page Number Range
 
-The DataPager allows you to define a range for the numeric buttons that display the page numbers and choose a page within that range.
+By setting a range, you can define how many numeric buttons the DataPager will render.
 
-To implement page number range, use the following DataPager properties:
+To implement a page number range, use the following DataPager properties:
 
 * `MinNumericButtonsCount` (`int`)&mdash;Specifies the minimum number of numeric buttons.
 * `MaxNumericButtonsCount` (`int`)&mdash;Specifies the maximum number of numeric buttons.
@@ -40,13 +37,13 @@ You can specify the space between the items in the DataPager by setting the `Ite
 
 ## Example
 
-Here is a sample example with `PageSize`, `PageIndex`, `PageSizes`, and `ItemSpacing` properties set.
+Here is an example with the `PageSize`, `PageIndex`, `PageSizes`, and `ItemSpacing` properties.
 
 **1.** Define the DataPager in XAML:
 
 <snippet id='datapager-page-configuration' />
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

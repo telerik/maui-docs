@@ -1,7 +1,7 @@
 ---
 title: Ellipsis Mode
 page_title: .NET MAUI DataPager Documentation - Ellipsis Mode
-description: 
+description: Learn what are the different options to display ellipsis in the .NET MAUI DataPager control.
 position: 6
 slug: datapager-ellipsis-mode
 tags: ellipsis modes, data pager, maui, dotnet maui, paging
@@ -9,25 +9,26 @@ tags: ellipsis modes, data pager, maui, dotnet maui, paging
 
 # .NET MAUI DataPager Ellipsis Mode
 
-The ellipsis appears when the count of the page numbers is greater than the count of the numeric buttons. You can specify where the ellipsis is allowed to appear by setting the `EllipsisMode` (`enum` of type `Telerik.Maui.Controls.DataPagerDataPagerEllipsisMode`) property. 
-The `EllipsisMode` controls whether the first/last page numeric buttons are replaced with three dots when there are more pages to the left/right.
+The ellipsis appears when the pages are more than the rendered numeric buttons. It provides a hint for the end user and indicates that there are undisplayed pages.
+
+You can specify where the ellipsis is allowed to appear by setting the `EllipsisMode` (`enum` of type `Telerik.Maui.Controls.DataPagerDataPagerEllipsisMode`) property. The `EllipsisMode` controls whether the numeric buttons for the first/last page are replaced with an ellipsis (...) when there are more pages to the left/right.
 
 The available options for `EllipsisMode` are:
 
-* `None`&mdash;No ellipsis.
-* `Before`&mdash;Display ellipsis instead of the first numeric button.
-* (Default) `After`&mdash; Display ellipsis instead of the last numeric button.
-* `Both`&mdash;Display ellipsis on both sides.
+* `None`&mdash;The ellipsis is disabled.
+* `Before`&mdash;Display an ellipsis instead of the first numeric button.
+* (Default) `After`&mdash; Display an ellipsis instead of the last numeric button.
+* `Both`&mdash;Display an ellipsis on both sides.
 
 ## Example
 
-Here is a quick example on how you can define the `EllipsisMode` to the DataPager.
+Here is a quick example on how you can define the `EllipsisMode` in the DataPager.
 
 **1.** Define the DataPager in XAML:
 
 <snippet id='datapager-ellipsis-mode' />
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

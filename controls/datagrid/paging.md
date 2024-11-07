@@ -12,21 +12,21 @@ You can page the data of the Telerik UI for .NET MAUI DataGrid by using the [Dat
 
 ![.NET MAUI DataGrid Paging support](images/datagrid-datapager.png)
 
-> Currently, the DataPager does not have a support for the DataGrid `LoadOnDemand` collection.
+>Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.
 
 ## DataPager Features
 
 Here is a list of the most important features of the DataPager control:
 
-* [Binding to `IEnumerable`]({%slug datapager-data-binding%})&mdash;Page any collection that implements the `IEnumerable` interface.
-* Setting different [Ellipses modes]({%slug datapager-ellipsis-mode%})&mdash;The ellipsis appears when the count of the page numbers is greater than the count of the numeric buttons.
-* Setting different [Display modes]({%slug datapager-display-mode%})&mdash;YOu can decide which of the visual elements in the DataPager will be visible.
-* [Configure the pages]({%slug datapager-page-configuration%}) by setting
-    * The current page&mdash;`PageIndex`;
-    * The `PageSize` and `PageSizes`;
-    * The spacing between the items in the pager&mdash;`ItemsSpacing` property;
+* [Binding to `IEnumerable`]({%slug datapager-data-binding%})&mdash;You can bind the Pager to any collection that implements the `IEnumerable` interface.
+* Setting different [Ellipsis modes]({%slug datapager-ellipsis-mode%})&mdash;The ellipsis appears when the count of the page numbers is greater than the count of the numeric buttons.
+* Setting different [Display modes]({%slug datapager-display-mode%})&mdash;You can decide which of the visual elements in the DataPager will be visible.
+* [Configuring the pages]({%slug datapager-page-configuration%}) by using the following properties:
+    * `PageIndex`&mdash;Sets the current page.
+    * The `PageSize` and `PageSizes`.
+    * `ItemsSpacing`&mdash;Sets the spacing between the items in the pager.
 
-* Customize the look of the:
+* Customizing the appearance of the DataPager by styling its elements:
     * [DataPager]({%slug datapager-styling%})
     * [NavigationView]({%slug datapager-styling-navigationview%})
     * [Navigation and Numeric Buttons]({%slug datapager-styling-buttons%})
@@ -34,7 +34,7 @@ Here is a list of the most important features of the DataPager control:
 
 ## Example 
 
-Here is an example how to use DataPager with DataGrid control.
+Here is an example of how to use the DataPager with the DataGrid control.
 
 **1.** Define the DataPager and the DataPager in XAML:
 

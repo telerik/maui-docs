@@ -33,7 +33,7 @@ Before adding the DataPager, you need to:
 ```
 <snippet id='datapager-gettingstarted-csharp' />
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -67,7 +67,7 @@ public static class MauiProgram
 
 ## Add Source
 
-To visualize the pages you need to bind a collection to the `Source` property of the DataPager control.
+To visualize the pages, bind a collection to the `Source` property of the DataPager control.
 
 **1.** Define the DataPager in XAML or C#:
 

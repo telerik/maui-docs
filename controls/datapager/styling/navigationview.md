@@ -8,24 +8,25 @@ slug: datapager-styling-navigationview
 
 # Styling the .NET MAUI DataPager Navigation View
 
-The DataPager for .NET MAUI provides a styling mechanism for customizing the look of the navigation view that presents the number of pages and the combo that allows you to select different page, by setting the `NavigationViewStyle` (`Style` with target type of `telerik:DataPagerNavigationView`) property.
+The DataPager for .NET MAUI provides a styling mechanism for customizing the look of the navigation view, which presents the number of pages and the combo box for selecting different pages.
 
-The `NavigationViewStyle` uses as a target type the `telerik:DataPagerNavigationView`. The `DataPagerNavigationView` exposes the following properties:
+To style the Navigation View, utilize the `NavigationViewStyle` property with a target type of `telerik:DataPagerNavigationView`). 
 
+The `DataPagerNavigationView` exposes the following properties:
 * `DataPager` (`RadDataPager`)&mdash;Specifies the associated `Telerik.Maui.Controls.RadDataPager`.
 * `LabelStyle` (`Style` with target type `Label`)&mdash;Specifies the style which applies to the label.
 * `ComboBoxStyle` (`Style` with target type `RadComboBox`)&mdash;Specifies the associated `Telerik.Maui.Controls.RadDataPager`.
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the page sizes view.
 
-Here is an example.
+Here is an example demonstrating how to use the `NavigationViewStyle` property.
 
-Define the DataPager in XAML:
+**1.** Define the DataPager in XAML:
 
 ```XAML
 <telerik:RadDataPager NavigationViewStyle="{StaticResource NavigationViewStyle}">
 ```
 
-Set the styles to the page's resources:
+**2.** Set the styles to the page's resources:
 
 ```XAML
 <Style x:Key="ComboStyle" TargetType="telerik:RadComboBox">
@@ -42,15 +43,19 @@ Set the styles to the page's resources:
 
 ## Styling the Navigation ComboBox View
 
-The DataPager for .NET MAUI provides a styling mechanism for customizing the look of the view that allows you to navigate to the pages by using the `NavigationComboBoxStyle` (`Style` with target type of `telerik:RadComboBox`) property.
+To customize the appearance of the ComboBox view that allows the navigation to a specific page, use the `NavigationComboBoxStyle` (`Style` with target type of `telerik:RadComboBox`) property.
 
-The `NavigationComboBoxStyle` uses as a target type the `RadComboBox` control. Use the styling properties described in the [ComboBox Styling]({%slug combobox-styling%}) article to style the combobox part of the DataPager control. 
+The target type of the `NavigationComboBoxStyle` is the `RadComboBox` control. Use the styling properties described in the [ComboBox Styling]({%slug combobox-styling%}) article to style the ComboBox part of the DataPager control. 
 
-Here is an example:
+Here is an example demonstrating how to use the `NavigationComboBoxStyle` property.
+
+**1.** Define the DataPager in XAML:
 
 ```XAML
 <telerik:RadDataPager NavigationComboBoxStyle="{StaticResource NavigationComboStyle}">
 ```
+
+**2.** Set the style for the `NavigationComboStyle` to the page's resources:
 
 ```XAML
 <Style x:Key="NavigationComboStyle" TargetType="telerik:RadComboBox">

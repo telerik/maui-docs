@@ -13,7 +13,7 @@ The `RadDataPager` component provides language localization. This allows you to 
 
 > To learn in details about the localization process of the Telerik UI for .NET MAUI components, see the [Localization and Globalization]({%slug globalization-localization%}) topic.
 
-In `RadDataPager`, you can localize the following string:
+In `RadDataPager`, you can localize the following strings:
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
