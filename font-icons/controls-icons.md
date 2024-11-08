@@ -3,6 +3,7 @@ title: Controls Icons
 page_title: .NET MAUI Controls Icons - Overview
 description: Review the icons that represent the Telerik UI for .NET MAUI components.
 slug: telerik-controls-icons
+published: False
 position: 2
 ---
 
