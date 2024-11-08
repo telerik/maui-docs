@@ -13,19 +13,19 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) component pr
 
 The styling mechanism is represented by the following properties:
 
-* `HeaderStyle` (`DataGridColumnHeaderStyle`)&mdash;Sets the style to the columns' headers.
-* `CellContentStyle` (`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with the column.
-* `CellDecorationStyle` (`DataGridBorderStyle`)&mdash;Defines the style of the border of each cell associated with the column.
-* `CellEditorStyle` (`Style` with `TargetType` depending on the editor type)&mdash;Defines the style that will be applied to the cell editor.
-* `FooterStyle` (`DataGridColumnFooterStyle`)&mdash;Defines the appearance of the column footer.
+* `HeaderStyle`(of type `Style` with target type `DataGridColumnHeaderAppearance`)&mdash;Sets the style to the columns' headers.
+* `FooterStyle`(of type `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the appearance of the column footer.
+* `CellDecorationStyle`(of type `Style` with target type `DataGridCellDecorationAppearance`)&mdash;Defines the style of the border of each cell associated with the column.
+* `CellContentStyle` (`Style` with target type depending on the column type)&mdash;Defines the appearance of each cell associated with the column.
+* `CellEditorStyle` (`Style` with target type depending on the editor type)&mdash;Defines the style that will be applied to the cell editor.
 
 ## Header Style
 
-`HeaderStyle` defines the appearance of the column header. The `DataGridColumnHeaderStyle` exposes properties for styling its header and data operations indicators (filter indicator and sort indicator or universal indicator).
+`HeaderStyle` defines the appearance of the column header. The `HeaderStyle` is of type `Style` and targets the `DataGridColumnHeaderAppearance` class. The `DataGridColumnHeaderAppearance` exposes properties for styling its header and data operations indicators (filter indicator and sort indicator or universal indicator).
 
 ### Header Styling
 
-To style the `RadDataGridColumnHeader` use the following properties:
+To style the `DataGridColumnHeaderAppearance` use the following properties:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
 * `HoverBackgroundColor`&mdash;(Desktop-only) Defines the background color when the mouse is over the column header. 
@@ -40,8 +40,12 @@ When you set the `TextHorizontalOptions` of the text part of the header, conside
 For example, to position the column header text to `Center`, you have to set the `SortDescriptor` position to `Center` as well:
 
  ```XAML
-<telerik:DataGridColumnHeaderStyle TextHorizontalOptions="Center"
-                                   SortIndicatorHorizontalOptions="Center" />
+<telerik:DataGridTextColumn.HeaderStyle>
+	<Style TargetType="telerik:DataGridColumnHeaderAppearance">
+		<Setter Property="TextHorizontalOptions" Value="Center" />
+		<Setter Property="SortIndicatorHorizontalOptions" Value="Center" />
+	</Style>
+</telerik:DataGridTextColumn.HeaderStyle>
 ```
 
 >tip For more details how to hide the column headers from the DataGrid visualization, review the following article: [How to Hide Column Headers in a DataGrid for MAUI]({%slug hide-column-headers-maui-datagrid%}).
@@ -98,7 +102,12 @@ Check below a quick example of a DataGrid with a `HeaderStyle`:
 
 ## CellContentStyle
 
-The `CellContentStyle` property defines the appearance of each cell associated with the column. `CellContentStyle` is of type `DataGridTextCellStyle` which provides the following properties for styling the cell text:
+The `CellContentStyle` property defines the appearance of each cell associated with the column. `CellContentStyle` is of type `Style` which can target:
+
+* The `DataGridTextCellAppearance` class for typed DataGridColumns (Text, Numerical, Boolean, Date, Time and ComboBox).
+* The `DataGridToggleRowDetailsCellAppearance` class for the `DataGridToggleRowDetailsColumn`.
+
+The `DataGridTextCellAppearance` class provides the following properties for styling the cell text:
 
 * `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font of the cell text.
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
@@ -106,17 +115,29 @@ The `CellContentStyle` property defines the appearance of each cell associated w
 * `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
 * `SearchMatchTextColor`&mdash;Defines the color that is used for the parts of the text that are search matches.
 
-Here is an example how to set the `CellContentStyle` property:
+>note The `CellContentStyle` does not apply for `TemplateColumn`. Also, the property is not applied to the built-in columns when they have a custom `CellContentTemplate`.
+
+Here is an example how to set the `CellContentStyle` property to a `DataGridTextColumn`:
 
 <snippet id='datagrid-columnstyle-cellcontent'/>
 
->note The `CellContentStyle` does not apply for `TemplateColumn`. Also, the property is not applied to the built-in columns when they have a custom `CellContentTemplate`.
+The `DataGridToggleRowDetailsCellAppearance` exposes the following properties for styling:
+
+* `ButtonFontFamily`&mdash;Defines the font family for the toggle symbol.
+* `ExpandButtonText`&mdash;Defines the text for the expanded state.
+* `CollapseButtonText`&mdash;Defines the text for the collapsed state.
+* `ButtonTextColor`&mdash;Defines the color for the toggle symbol.
+* `SelectedButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is selected.
+* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is being hovered over.
+* `ButtonFontSize`&mdash;Defines the font size for the toggle symbol.
+* `ButtonFontAttributes`&mdash;Defines `Microsoft.Maui.Controls.FontAttributes` for the toggle symbol.
+* `ButtonMargin`(type `Thickness`)&mdash;Defines the margin for the toggle symbol.
 
 ## CellDecorationStyle
 
-To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `DataGridBorderStyle` which provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
+To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `Style` and targets the `DataGridCellDecorationAppearance` class. The `DataGridCellDecorationAppearance` provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
 
-In addition, `DataGridBorderStyle` provides the `SearchMatchBackgroundColor` property used to apply a separate background color to the border when the cell contains a search-match. 
+In addition, the `DataGridCellDecorationAppearance` provides the `SearchMatchBackgroundColor` property used to apply a separate background color to the border when the cell contains a search-match. 
 
 Here is an example how to set those properties on a column:
 
@@ -138,7 +159,7 @@ And this is how the column style looks when the properties for customizing the c
 
 ## FooterStyle
 
-`FooterStyle` defines the appearance of the column footer. The `DataGridColumnFooterStyle` exposes the following properties for styling:
+`FooterStyle` defines the appearance of the column footer. The `FooterStyle` is of type `Style` and targets the `DataGridColumnFooterAppearance` class. The `DataGridColumnFooterAppearance` class provides the following styling properties:
 
 * `TextColor` and `BackgroundColor`&mdash;Define the colors of the text part/background respectively.
 * `BorderColor` and `BorderThickness`&mdash;Define the style of the border around the column footer.
@@ -148,21 +169,6 @@ And this is how the column style looks when the properties for customizing the c
 <snippet id='datagrid-columnstyle-footerstyle' />
 
 ![DataGrid Column Footer](../images/column-footer-style.png)
-
-## DataGrid Toggle Row Details Column Styling
-
-`CellContentStyle` defines the appearance of the `DataGridToggleRowDetailsColumn`. The `DataGridToggleRowDetailsCellStyle` exposes the following properties for styling:
-
-* `ButtonFontFamily`&mdash;Defines the font family for the toggle symbol.
-* `ExpandButtonText`&mdash;Defines the text for the expanded state.
-* `CollapseButtonText`&mdash;Defines the text for the collapsed state.
-* `ButtonTextColor`&mdash;Defines the color for the toggle symbol.
-* `SelectedButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is selected.
-* `HoverButtonTextColor`&mdash;Defines the color for the toggle symbol when the item is being hovered over.
-* `ButtonFontSize`&mdash;Defines the font size for the toggle symbol.
-* `ButtonFontAttributes`&mdash;Defines `Microsoft.Maui.Controls.FontAttributes` for the toggle symbol.
-* `ButtonMargin`(type `Thickness`)&mdash;Defines the margin for the toggle symbol.
-
 
 ## See Also
 
