@@ -13,11 +13,11 @@ The Entry supports a number of settings for managing the selection of its input 
 
 The text selection properties provided by the Entry are:
 
-* `CursorPosition` (`int`)&mdash;Specifies the starting position of the selected text in the entry.
+* `CursorPosition` (`int`)&mdash;Specifies the starting position of the selected text in the Entry.
 
 * `SelectionLength` (`int`)&mdash;Specifies the number of characters in the current Entry selection.
 
-* `SelectionOnFocus` (`Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
+* `SelectionOnFocus` (`enum` of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
     * (Default) `Unchanged`&mdash;the selection will not be modified.
     * `CursorAtStart`&mdash;the cursor will be moved at the start of the text.
     * `CursorAtEnd`&mdash;the cursor will be moved at the end of the text.

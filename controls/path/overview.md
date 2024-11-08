@@ -17,7 +17,7 @@ The Telerik UI for .NET MAUI Path is a control which can be used to draw complex
 
 * [Built-in geometries]({%slug geometry-types%})&mdash;The Path supports predefined geometries like: `Star`, `Circle`, `Heart` and `Diamond`.
 
-* [Geometry support]({%slug path-structure %})&mdash;You can implement any shape through the `RadPathGeometry` object which contains Figures(collection of `RadPathFigure`) such as `Line` and `Arc` segments.
+* [Geometry support]({%slug path-structure %})&mdash;You can implement any shape through the `RadPathGeometry` object which contains Figures (collection of `RadPathFigure`) such as `Line` and `Arc` segments.
 
 * [MultiPath object]({%slug path-multipath %})&mdash;Through the `RadMultiPath` setting, you can combine multiple `PathGeometry` objects into a single element.
 
