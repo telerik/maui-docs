@@ -46,7 +46,7 @@ Style the group header by using the following properties:
 
 The DataGrid provides the following options for styling its group footer:
 
-* `GroupFooterStyle`(of `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
+* `GroupFooterStyle`(of type `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
 * `GroupFooterStyleSelector`(`IStyleSelector`)&mdash;Defines the style of the selected `GroupFooter` by passing the `GroupFooterContext` in the selector.
 * `FooterStyle`(of type `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer.
 
