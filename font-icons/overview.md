@@ -37,9 +37,6 @@ This article provides an overview of how you can utilize the Telerik font icons 
 
 * [List with Telerik Examples Icons]({%slug telerik-examples-icons%})
 
-* [List with Telerik Controls Icons]({%slug telerik-controls-icons%})
-
 ## See Also
 
 - [Telerik Examples Icons]({%slug telerik-examples-icons%})
-- [Telerik Controls Icons]({%slug telerik-controls-icons%})
