@@ -11,7 +11,7 @@ slug: entry-commands
 When using Telerik UI for .NET MAUI Entry control, you can use the following commands: 
 
 
-* `ReturnCommand`(`ICommand`)&mdash;Execute when the return key of the keyboard is pressed. 
+* `ReturnCommand` (`ICommand`)&mdash;Execute when the return key of the keyboard is pressed. 
 
 The `ReturnCommand` has a command parameter&mdash;`ReturnCommandParameter` which can be used to pass a parameter to the command execute method.
 

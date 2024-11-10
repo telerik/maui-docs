@@ -13,7 +13,7 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) control enables you to cust
 
 ## Border Brush and Thickness
 
-`Style` supports the following properties for styling the border brush and thickness of the DataGrid:
+The DataGrid supports the following properties for styling its border brush and thickness:
 
 * `BorderBrush`&mdash;Defines the brush of the border placed around the DataGrid control.
 * `BorderThickness`&mdash;Defines the thickness of the border around the DataGrid control.
@@ -32,15 +32,15 @@ The next image shows the end result.
 
 ## Cells and Rows
 
-`Style` supports the following properties for styling the cells and rows of the DataGrid:
+You can style the rows and cells of the DataGrid with the following properties:
 
-* `RowBackgroundStyle`&mdash;Defines the style of each row.
-* `AlternateRowBackgroundStyle`&mdash;Defines the appearance style of an alternated row.
-* `SelectionStyle`&mdash;Defines the appearance settings applied to the selected DataGrid row.
-* `CurrentCellStyle`&mdash;Defines the style applied to the current cell.
-* `MouseHoverStyle`&mdash;Specifies the style applied to the cells and rows when the mouse is over them. The style is applicable for Desktop (`MacCatalyst` and `WinUI`).
+* `RowBackgroundStyle`(of type `Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of each row.
+* `AlternateRowBackgroundStyle`(of type `Style` with target type `DataGridAlternateRowBackgroundAppearance`)&mdash;Defines the appearance style of an alternated row.
+* `SelectionStyle`(of type `Style` with target type `DataGridSelectionAppearance`)&mdash;Defines the appearance settings applied to the selected DataGrid row.
+* `CurrentCellStyle`(of type `Style` with target type `DataGridCurrentCellAppearance`)&mdash;Defines the style applied to the current cell.
+* (Desktop-only)`MouseHoverStyle`(of type `Style` with target type `DataGridMouseHoverAppearance`)&mdash;Specifies the style applied to the cells and rows when the mouse is over them.
 
-The `RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle`, `CurrentCellStyle`, and `MouseHoverStyle` styling options are of type `DataGridBorderStyle`. `DataGridBorderStyle` defines the appearance settings applied to a `BorderPaintable` instance and exposes the `BackgroundColor`, `BorderColor`, and `BorderTickness` properties.
+The target types of the `RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle`, `CurrentCellStyle`, and `MouseHoverStyle` styling properties derive from the `DataGridBorderAppearance` class. The `DataGridBorderAppearance` exposes `BackgroundColor`, `SearchMatchBackgroundColor`, `BorderColor`, and `BorderTickness` properties.
 
 The following example shows how to set the `RowBackgroundStyle` property:
 
@@ -56,25 +56,9 @@ The following snippet shows how to set the `SelectionStyle` property:
 
 For styling the `CurrentCell` by using the `CurrentCellStyle` property, review the [Cells]({%slug datagrid-current-cell%}#styling-the-cell) article.
 
-## Text on Hover
-
-`Style` supports the `HoverTextColor` property which defines the text color of the hovered cell, as demonstrated in the following example.
-
-```XAML
-<telerik:DataGridTextColumn PropertyName="Name"
-                            HeaderText="Name">
-    <telerik:DataGridTextColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle TextColor="Green"
-                                        HoverTextColor="Red"
-                                        FontSize="15"
-                                        SelectedTextColor="Orange"  />   
-    </telerik:DataGridTextColumn.CellContentStyle>
-</telerik:DataGridTextColumn>
-```
-
 ## Lines
 
-`Style` supports the following properties for configuring the DataGrid lines:
+Use the following properties for configuring the DataGrid grid lines:
 
 * `GridLinesVisibility`(`Telerik.Maui.Controls.DataGrid.GridLinesVisibility`)&mdash;Defines which DataGrid lines are currently visible (displayed). The property accepts the `Both`, `Horizontal`, `None`, and `Vertical` values.
 * `GridLinesColor`&mdash;Defines the appearance of the horizontal and vertical DataGrid lines.
@@ -83,17 +67,15 @@ For styling the `CurrentCell` by using the `CurrentCellStyle` property, review t
 You can set the `GridLinesVisibility` property in the following way:
 
 ```XAML
- <telerik:RadDataGrid GridLinesVisibility="Both"
-                             Grid.Row="2"
-                             Grid.ColumnSpan="3"
-                             ItemsSource="{Binding GridSource}"
-                             GridLinesColor="Red"
-                             GridLinesThickness="5" />
+<telerik:RadDataGrid x:Name="dataGrid"
+					 ItemsSource="{Binding GridSource}"
+					 GridLinesVisibility="Both"
+					 GridLinesThickness="5" />
 ```
 
 ## Frozen Columns
 
-`Style` supports the `FrozenColumnsSplitterStyle` (`Telerik.Maui.Controls.DataGrid.DataGridFrozenColumnsSplitterStyle`) property which allows you to style the UI of the splitter dividing the frozen (locked) from the unfrozen (unlocked) columns.
+The DataGrid provides the `FrozenColumnsSplitterStyle` (of type `Style` with target type `DataGridFrozenColumnsSplitterAppearance`) property which allows you to style the UI of the splitter dividing the frozen (locked) from the unfrozen (unlocked) columns.
 
 ## Splitter UI
 
@@ -101,10 +83,12 @@ To style the appearance of the splitter, which appears when the user freezes (lo
 
 ```XAML
 <telerik:RadDataGrid.FrozenColumnsSplitterStyle>
-    <telerik:DataGridFrozenColumnsSplitterStyle Width="20"
-                                                BorderColor="Gray"
-                                                BorderThickness="2"
-                                                BackgroundColor="LightBlue"/>
+	<Style TargetType="telerik:DataGridFrozenColumnsSplitterAppearance">
+		<Setter Property="Width" Value="20" />
+		<Setter Property="BorderColor" Value="Gray" />
+		<Setter Property="BorderThickness" Value="2" />
+		<Setter Property="BackgroundColor" Value="LightBlue" />
+	</Style>
 </telerik:RadDataGrid.FrozenColumnsSplitterStyle>
 ```
 

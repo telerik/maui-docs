@@ -72,7 +72,7 @@ Besides the different approaches for loading the data, the DataGrid exposes seve
 
 The `LoadOnDemandRowStyle` property can be used to style the appearance of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
-The custom style is of type `DataGridLoadOnDemandRowStyle`:
+The custom style is of type `Style` with target type `DataGridLoadOnDemandRowAppearance`:
 
 <snippet id='datagrid-loadondemandrowstyle-xaml'/>
 

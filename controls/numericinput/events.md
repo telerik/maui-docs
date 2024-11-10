@@ -13,10 +13,10 @@ The NumericInput exposes a `ValueChanged` event, which is raised after the input
 
 The `ValueChanged` event handler receives two parameters:
 
-* The `Sender` which is the `RadNumericInput` control;
-* `ValueChangedEventArgs` provides the following properties:
+* The `sender`, which is the `RadNumericInput` control;
+* `Telerik.Maui.Controls.ValueChangedEventArgs` provides the following properties:
 
-	* `OldValue` of type `double?` gets the old value.
+	* `PreviousValue` of type `double?` gets the old value.
 	* `NewValue` of type `double?` gets the new value.
 
 The following example demonstrates how to use the `ValueChanged` event.
@@ -30,7 +30,7 @@ The following example demonstrates how to use the `ValueChanged` event.
 **2.** Set the `ValueChanged` event:
 
 ```C#
-private void RadNumericInput_ValueChanged(object sender, Telerik.Maui.Controls.NumericInput.ValueChangedEventArgs e)
+private void RadNumericInput_ValueChanged(object sender, Telerik.Maui.Controls.ValueChangedEventArgs<double?> e)
 {
    // implement your logic here
 }
