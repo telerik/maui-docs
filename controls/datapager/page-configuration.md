@@ -13,9 +13,11 @@ This article explains the configuration options you can apply to the pages insid
 
 ## Page Size
 
-The DataPager splits the data into separate pages with a certain size. To specify the size of the page, use the `PageSize` (`int`) property. The default value is `10`.
+The DataPager splits the data into separate pages with a certain size. To configure the size of the pages in the DataPager, use the following properties:
 
-By using the `PageSizes` (`IList<int>`) you can specify the pages that the end user can choose from.
+* `PageSize` (`int`)&mdash;Specifies the number of the items per page. The default value is `10`.
+
+* `PageSizes` (`IList<int>`)&mdash;Specifies a list with page sizes the end user can choose from. The default values in the list are `5, 10, 20, 50`.
 
 ## Current Page
 
