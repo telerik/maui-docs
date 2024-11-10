@@ -18,11 +18,11 @@ The GridSplitter allows you to customize its look using the following properties
 * `CornerRadius` (`Thickness`)&mdash;Specifies the border corner radius of the control.
 * `ContentPadding` (`Thickness`)&mdash;Specifies the padding of the content in the control.
 
-In addition you can style the gripper by using the `GripperColor` (`Color`) property.
+In addition, you can style the gripper by using the `GripperColor` (`Color`) property.
 
 ## Visual States
 
-You can use visual states to change the appearance of the control based on its state-such as when it's disabled and hovered.
+You can use visual states to change the appearance of the control based on its state, for example, when it's disabled and hovered.
 
 The GridSplitter provides the following CommonStates visual states:
 
@@ -30,13 +30,13 @@ The GridSplitter provides the following CommonStates visual states:
 * `MouseOver`&mdash;Applies when the mouse pointer is over the GridSplitter.
 * `Disabled`&mdash;Applies when the GridSplitter is disabled.
 
-This is the result of visual states applied:
+This is the result of applying the visual states:
 
 ![.NET MAUI GrdiSplitter Styling](images/gridsplitter-styling.gif)
 
 ## Example
 
-Here is an example how to style the GridSplitter control and use the visual states.
+Here is an example of how to style the GridSplitter control and use the visual states.
 
 **1** Define the GridSplitter in XAML.
 

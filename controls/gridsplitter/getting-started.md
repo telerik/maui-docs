@@ -26,7 +26,7 @@ Before adding the GridSplitter, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a GridSplitter control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a GridSplitter control to your page.
 
 <snippet id='gridsplitter-getting-started' />
 

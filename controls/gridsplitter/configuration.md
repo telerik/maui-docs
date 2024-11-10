@@ -8,11 +8,11 @@ slug: gridsplitter-configuration
 
 # .NET MAUI GridSplitter Styling
 
-The GridSplitter provides a set of properties for customizing its default behavior.
+The GridSplitter control offers a range of styling options, allowing you to customize its appearance and adjust its visual states for different user interactions.
 
 ## Parent Element
 
-You can use the `ParentLevel` (`int`) property to specify the level of the parent grid to resize
+You can use the `ParentLevel` (`int`) property to specify the level of the parent grid to resize.
 
 ## Resize Direction
 
@@ -26,7 +26,7 @@ The following options are supported:
 
 ## Resize Behavior
 
-You can control whether the GridSplitter control resizes rows or columns by using the `ResizeBehavior` (`enum` of type `Telerik.Maui.Controls.RadGridSplitter.GridResizeBehavior`) property. 
+You can control which columns or rows are resized relative to the column or row for which the GridSplitter control is defined by using the `ResizeBehavior` (`enum` of type `Telerik.Maui.Controls.RadGridSplitter.GridResizeBehavior`) property. 
 
 The following options are supported:
 
@@ -35,7 +35,7 @@ The following options are supported:
 * `PreviousAndCurrent`&mdash;Resize the previous and current `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the row that is specified for the GridSplitter and the next row that is above it. For a vertical GridSplitter, space is redistributed between the column that is specified for the GridSplitter and the next column that is to the left.
 * `PreviousAndNext`&mdash;Resize the previous and next `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the rows that are above and below the row that is specified for the GridSplitter. For a vertical GridSplitter, space is redistributed between the columns that are to the left and right of the column that is specified for the GridSplitter.
 
-Here is an example with `ResizeDirection` property set.
+Here is an example of how to set the `ResizeBehavior` correctly.
 
 **1.** Define the GridSplitter in XAML:
 
