@@ -10,7 +10,7 @@ slug: datapager-styling-navigationview
 
 The DataPager for .NET MAUI provides a styling mechanism for customizing the look of the navigation view, which presents the number of pages and the combo box for selecting different pages.
 
-To style the Navigation View, utilize the `NavigationViewStyle` property with a target type of `telerik:DataPagerNavigationView`). 
+To style the Navigation View, utilize the `NavigationViewStyle` property (of type `Style` with a target type of `telerik:DataPagerNavigationView`). 
 
 The `DataPagerNavigationView` exposes the following properties:
 * `DataPager` (`RadDataPager`)&mdash;Specifies the associated `Telerik.Maui.Controls.RadDataPager`.

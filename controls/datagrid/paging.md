@@ -23,7 +23,7 @@ Here is a list of the most important features of the DataPager control:
 * Setting different [Display modes]({%slug datapager-display-mode%})&mdash;You can decide which of the visual elements in the DataPager will be visible.
 * [Configuring the pages]({%slug datapager-page-configuration%}) by using the following properties:
     * `PageIndex`&mdash;Sets the current page.
-    * The `PageSize` and `PageSizes`.
+    * `PageSize` and `PageSizes`.
     * `ItemsSpacing`&mdash;Sets the spacing between the items in the pager.
 
 * Customizing the appearance of the DataPager by styling its elements:
