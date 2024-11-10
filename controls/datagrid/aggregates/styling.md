@@ -12,7 +12,7 @@ The .NET MAUI DataGrid provides a styling functionality for its group footer, he
 
 ## Styling the Group Header
 
-The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the `GroupHeaderStyle` (`DataGridGroupHeaderStyle`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
+The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the `GroupHeaderStyle` (of type `Style` with target type `DataGridGroupHeaderAppearance`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
 
 Style the aggregates by using the following properties:
 
@@ -46,9 +46,9 @@ Style the group header by using the following properties:
 
 The DataGrid provides the following options for styling its group footer:
 
-* `GroupFooterStyle`(`DataGridGroupFooterStyle`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
-* `GroupFooterStyleSelector`(`DataGridStyleSelector`)&mdash;Defines the style of the selected `GroupFooter` by passing the `GroupFooterContext` in the selector.
-* `FooterStyle`(`DataGridColumnFooterStyle`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer.
+* `GroupFooterStyle`(of type `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the style of the `GroupFooter` and the aggregates inside the footer.
+* `GroupFooterStyleSelector`(`IStyleSelector`)&mdash;Defines the style of the selected `GroupFooter` by passing the `GroupFooterContext` in the selector.
+* `FooterStyle`(of type `Style` with target type `DataGridColumnFooterAppearance`)&mdash;Defines the style of the Column Footer and the aggregates inside the Column Footer.
 
 > To visualize the `GroupFooter`, set the `ShowGroupFooters` property to `True`. The property is a property inside the `RadDataGrid` instance.
 
