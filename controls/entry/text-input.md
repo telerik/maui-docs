@@ -16,9 +16,9 @@ The TextInput control exposes the following properties:
 
 * `SelectionOnFocus` (`enum` of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
     * (Default) `Unchanged`&mdash;The selection will not be modified.
-    * `CursorAtStart`&mdash;the cursor will be moved at the start of the text.
-    * `CursorAtEnd`&mdash;the cursor will be moved at the end of the text.
-    * `SelectAll`&mdash;the whole text will be selected.
+    * `CursorAtStart`&mdash;The cursor will be moved at the start of the text.
+    * `CursorAtEnd`&mdash;The cursor will be moved at the end of the text.
+    * `SelectAll`&mdash;The whole text will be selected.
 
 * `Text` (`string`)&mdash;Defines the text.
 * `Padding` (`Thickness`)&mdash;Defines the padding.
