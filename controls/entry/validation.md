@@ -34,6 +34,14 @@ The image below shows the error icon that is displayed inside the reserved space
 
 ![Entry validation](images/entry_ReserveSpaceForErrorView_property.png)
 
+## Styling the Error View
+
+Use the following properties to style the error view when validation applies:
+
+* `ValidationErrorColor` (`Color`)&mdash;Defines the custom color for the error views.
+* `ValidationErrorImageStyle` (`Style` with target type `Image`)&mdash;Defines the style that applies to the error icon.
+* `ValidationErrorLabelStyle` (`Style` with target type `Label`)&mdash;Defines the style that applies to the error label.
+
 ## See Also
 
 - [Text Appearance]({% slug entry-text-appearance%})

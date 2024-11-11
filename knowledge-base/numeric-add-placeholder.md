@@ -37,5 +37,3 @@ And the entry style defined in the resources:
     <Setter Property="Placeholder" Value="hello"/>
  </Style>
 ```
-
-In addition you can customize the inner entry by using the [ControlTemplate]({%slug numericinput-control-template%}) of the `RadNumericInput`.

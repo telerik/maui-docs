@@ -11,7 +11,7 @@ slug: togglebutton-toggle-states
 
 The ToggleButton enables you to define its state as `Toggled`, `Untoggled`, or `Indeterminate`.
 
-The state is controlled through the `IsToggled`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. The `IsToggled` property default binding mode is `TwoWay`.
+The state is controlled through the `IsToggled`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state buttons. The `IsToggled` property default binding mode is `TwoWay`.
 
 * (Default) `Untoggled` state&mdash;When `IsToggled` is `false`.
 
@@ -41,7 +41,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Events
 
-* `IsToggledChanged`&mdash;Occurs when the `RadCheckBox.IsToggled` property is changed. The `IsToggledChanged` event handler receives two parameters:
+* `IsToggledChanged`&mdash;Occurs when the `RadToggleButton.IsToggled` property is changed. The `IsToggledChanged` event handler receives two parameters:
     * The `sender` which is of type `Telerik.Maui.Controls.RadToggleButton`.
     * `ValueChangedEventArgs` which provides the following properties:
         * `NewValue`(`TValue`)&mdash;Gets the new value from the `IsToggled` property.

@@ -26,7 +26,7 @@ The `CurrentCellChanged` event handler receives the following parameters:
 
 ## Styling the Cell
 
-You can style the current DataGrid cell by using the `CurrentCellStyle` property (of type `DataGridBorderStyle`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
+You can style the current DataGrid cell by using the `CurrentCellStyle` property (of type `Style` with target type `DataGridCurrentCellAppearance`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
 ## Example
 
@@ -34,17 +34,17 @@ The following example shows the full implementation of the configurations for th
 
 **1.** Set the `ViewModel`.
 
-<snippet id='datagrid-grouping-viewmodel' />
+<snippet id='datagrid-currentcell-viewmodel' />
 
-**2.** Set the `Business` object.
+**2.** Set the `Person` object.
 
-<snippet id='datagrid-grouping-object' />
+<snippet id='datagrid-currentcell-dataitem' />
 
 **3.** Provide the DataGrid definition in XAML.
 
 <snippet id='datagrid-currentcell-xaml' />
 
-**4.** Set the style for the `CurrentCellStyle` that is defined in the page resources.
+**4.** Set the style for the `CurrentCellStyle` that is defined in the page'a resources.
 
 <snippet id='datagrid-current-cell-style' />
 

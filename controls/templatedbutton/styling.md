@@ -25,9 +25,16 @@ To style the TemplatedButton, you can use the following properties:
 * `TextColor` (`Color`)&mdash;Specifies the color of the `Label.Text` created when `Content` is `string` and `ContentTemplate` is not set.
 * All Properties from the [Content Configuration]({%slug templatedbutton-configuration%}) article can be applied through style.
 
+The TemplatedButton uses the .NET MAUI Visual State Manager and defines a visual state group named `CommonStates` with the following visual states:
+
+* `Normal`
+* `PointerOver`
+* `Pressed`
+* `Disabled`
+
 ### Using the Styling API
 
-The following example demonstrates how to apply implicit and explicit styles to the TemplatedButton.
+The following example demonstrates how to apply implicit and explicit styles to the TemplatedButton using the visual states.
 
 **1.** Define the buttons in XAML:
 

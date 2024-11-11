@@ -12,7 +12,7 @@ The Path provides a set of preconfigured geometry types and enables you to set c
 
 ## Built-In Geometries
 
-The available built-in geometry types are included in the `Telerik.Maui.Controls.Compatibility.Input.Geometries` static class.
+The available built-in geometry types are included in the `Telerik.Maui.Controls.Paths.RadGeometry` class.
 
 The supported preconfigured geometries are:
 

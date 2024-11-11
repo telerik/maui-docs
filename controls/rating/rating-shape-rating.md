@@ -14,7 +14,7 @@ The `RadShapeRating` component is designed for the simplest scenarios where an o
 
 `RadShapeRating` exposes the `ItemShape` property of type `RadPathGeometry` which is used to define the shape of the rating items.
 
-For a simple and fast setup, the Rating includes various simple shapes that can be used for rating items out of the box. This is accomplished through the static `Geometries`. The `Geometries` class exposes static properties that return predefined shapes.
+For a simple and fast setup, the Rating includes various simple shapes that can be used for rating items out of the box. This is accomplished through the `RadGeometry` class. The `RadGeometry` class exposes static properties that return predefined shapes.
 
 >tip For more details on `RadPath` and `RadPathGeometry`, refer to the [Path Overview article]({%slug path-overview%}).
 

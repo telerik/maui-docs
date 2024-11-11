@@ -12,7 +12,7 @@ Telerik UI for .NET MAUI Map provides pan and zoom functionality that will help 
 
 ## Interaction Modes
 
-You can configure which gesture manipulations the user can do with the map through the enum `InteractionMode` property. `InteractionMode` can receive the following values:
+You can configure which gesture interactions are allowed for the users through the `InteractionMode` property (`enum` of type `MapInteractionMode`). The options are:
 
 * `None`: No interaction is allowed;
 * `Pan`; 
@@ -33,8 +33,8 @@ Define the Source of the `MapShapeReader` as well:
 
 The Map exposes properties for applying min and max zoom values.
 
-* `MaxZoomLevel`: Defines the maximum magnification factor at which content can be maximized. The default value is 20.0
-* `MinZoomLevel`: Defines the minimum magnification factor at which content can be minimized. The default value is 1.0
+* `MaxZoomLevel` (`double`)&mdash;Defines the maximum magnification factor at which content can be maximized. The default value is 20.0
+* `MinZoomLevel` (`double`)&mdash;Defines the minimum magnification factor at which content can be minimized. The default value is 1.0
 
 You can check the current magnification through the readonly `ZoomLevel` property.
 
@@ -48,9 +48,9 @@ In addition, you can use the method below to set the provided zoom value as the 
 
 To show a specific area from the map, you can use `SetView` method as described below:
 
-* `SetView`(`LocationRect locationRect`) – Sets the provided location as the current view of the map. 
+* `SetView` (`LocationRect locationRect`)&mdash;Sets the provided location as the current view of the map. 
 
-`LocationRect` class is a special type from the `Telerik.Maui.Controls.Compatibility.ShapefileReader` namespace, which describes a rectangle region through the locations of the northwest and southeast points.  
+`LocationRect` class is a special type from the `Telerik.Maui.Controls.ShapefileReader` namespace, which describes a rectangle region through the locations of the northwest and southeast points.  
 
 >tip For more details on how points are positioned in the geographic coordinate system, check [Layers Overview]({%slug map-layers-overview%}) topic. 
 

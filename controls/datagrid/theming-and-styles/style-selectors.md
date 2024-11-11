@@ -13,8 +13,8 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a conditi
 
 You can set a different style on a specific cell from a specific column based on custom selection logic with the following properties:
 
-* `CellContentStyleSelector`&mdash;Styles the content of the cell by using the text alignment options (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`), the font options (`FontAttributes`, `FontFamily`, `FontSize`) and the `TextColor` property.
-* `CellDecorationStyleSelector`&mdash;Styles the decoration of a cell.
+* `CellContentStyleSelector`(`IStyleSelector`)&mdash;Styles the content of the cell by using the text alignment options (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`), the font options (`FontAttributes`, `FontFamily`, `FontSize`) and the `TextColor` property.
+* `CellDecorationStyleSelector`(`IStyleSelector`)&mdash;Styles the decoration of a cell.
 
 Different styles can be applied on a per-group header once the DataGrid control is grouped through `GroupHeaderStyleSelector` property.
 
