@@ -8,6 +8,8 @@ slug: gridsplitter-styling
 
 # .NET MAUI GridSplitter Styling
 
+The GridSplitter control offers a range of styling options, allowing you to customize its appearance and adjust its visual states for different user interactions.
+
 The GridSplitter allows you to customize its look using the following properties:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
