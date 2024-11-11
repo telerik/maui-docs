@@ -7,6 +7,8 @@ previous_url: /controls/listview/cells/listview-templatecell
 slug: listview-templatecell
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Template Cell
 
 Cells in the ListView are the presentation of each data item from the control's `ItemsSource`. You can choose between the `ListViewTextCell` and `ListViewTemplateCell` cell types.

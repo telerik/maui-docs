@@ -328,7 +328,7 @@ navigation:
     ## End ListPicker
     ## ListView
     controls/listview:
-        title: "ListView"
+        title: "ListView (Obsolete)"
         ## ListView Sub-Folders
     controls/listview/grouping:
         title: "Grouping"
@@ -643,7 +643,6 @@ intro_columns:
       "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
       "DataPager": "datapager-overview"
-      "ListView": "listview-overview"
       "ItemsControl": "itemscontrol-overview"
   -
     title: "Data Visualization"

@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-delegate-group-descriptor
 tags: group, radlistview, groupdescriptor
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Delegate Group Descriptor
 
 DelegateGroup descriptor enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. This descriptor exposes the following properties:

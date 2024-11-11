@@ -9,6 +9,8 @@ description: Describing how to handle reordering in grouped ListView
 tags: group, radlistview, reordering
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Reorder Items in Grouped scenario
 
 This help topic will provide an overview on how you can enable reordering feature of the ListView control when its items are grouped.

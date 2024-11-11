@@ -8,6 +8,8 @@ previous_url: /controls/listview/listview-features-filtering
 tags: filter, radlistview, filterdescriptor
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Filtering
 
 The ListView provides the functionality to programmatically filter its data at runtime. This can be achieved through adding filter descriptors that implement the `IFilter` interface to the `RadListView.FilterDescriptors` collection. You can use our `DelegateFilterDescriptor` implementation.

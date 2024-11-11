@@ -7,6 +7,8 @@ previous_url: /controls/listview/listview-features-load-on-demand
 slug: listview-features-load-on-demand
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Load on Demand
 
 Loading a large data set on a mobile device has its challenges. One of the most popular approaches is using incremental data loading when the items need to be visualized. The ListView does this by using its load-on-demand functionality.

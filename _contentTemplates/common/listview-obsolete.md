@@ -1,0 +1,3 @@
+#listview-obsolete
+>caution The ListView control is now obsolete and will be removed in the future. Use the [CollectionView]({%slug collectionview-overview%}) control instead. The CollectionView is a complete, ground-up rewrite of the ListView. The CollectionView offers improved performance, enhanced features, and a modernized approach to managing lists of data. The CollectionView incorporates all of the ListView's key features. More about the differences between both components and how to migrate to the new CollectionView is available in the [Migrating the Telerik .NET MAUI ListView to CollectionView]({%slug listview-migration%}) article.
+#end
