@@ -6,9 +6,9 @@ position: 3
 slug: gridsplitter-configuration
 ---
 
-# .NET MAUI GridSplitter Styling
+# .NET MAUI GridSplitter Configuration
 
-The GridSplitter control offers a range of styling options, allowing you to customize its appearance and adjust its visual states for different user interactions.
+The GridSplitter control provides set of properties to configure its parent element, resize direction and resize behavior. 
 
 ## Parent Element
 
@@ -20,7 +20,7 @@ You can control whether the GridSplitter control resizes rows or columns by usin
 
 The following options are supported:
 
-* (Default) `Auto`&mdash;Determines whether to resize rows or columns based on its alignment (based on the value of the `HorizontalAlignment` and `VerticalAlignment` properties) and width compared to height
+* (Default) `Auto`&mdash;Determines whether to resize rows or columns based on its alignment (based on the value of the `HorizontalOptions` and `VerticalOptions` properties) and width compared to height.
 * `Columns`&mdash;Resizes columns when dragging the splitter.
 * `Rows`&mdash;Resize rows when dragging the splitter.
 
@@ -32,7 +32,7 @@ The following options are supported:
 
 * (Default) `BasedOnAlignment`&mdash;Determines which `Grid` columns or rows to resize based on its alignment (based on the value of the `HorizontalAlignment` and `VerticalAlignment` properties).
 * `CurrentAndNext`&mdash;Resizes the current and next `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the row that is specified for the GridSplitter and the next row that is below it. For a vertical GridSplitter, space is redistributed between the column that is specified for the GridSplitter and the next column that is to the right.
-* `PreviousAndCurrent`&mdash;Resize the previous and current `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the row that is specified for the GridSplitter and the next row that is above it. For a vertical GridSplitter, space is redistributed between the column that is specified for the GridSplitter and the next column that is to the left.
+* `PreviousAndCurrent`&mdash;Resize the previous and current `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the row that is specified for the GridSplitter and the row that is above it. For a vertical GridSplitter, space is redistributed between the column that is specified for the GridSplitter and the column that is to the left.
 * `PreviousAndNext`&mdash;Resize the previous and next `Grid` columns or rows. For a horizontal GridSplitter, space is redistributed between the rows that are above and below the row that is specified for the GridSplitter. For a vertical GridSplitter, space is redistributed between the columns that are to the left and right of the column that is specified for the GridSplitter.
 
 Here is an example of how to set the `ResizeBehavior` correctly.

@@ -12,6 +12,10 @@ The Telerik UI for .NET MAUI GridSplitter is a control, which allows the redistr
 
 The GridSplitter control automatically detects the target columns or rows to resize. As you drag the control, it begins resizing and redistributing space between them. You can specify whether the GridSplitter resizes rows or columns, as well as which columns or rows are adjusted relative to the GridSplitter's defined position.
 
+You can define the GridSplitter to be located within its own row (for horizontal GridSPlitter) or column (for a vertical GridSplitter). You can also place the GridsPlitter control to the following positions:
+* In a cell with another control.
+* As a last element in the Grid, in order to position the GridSplitter on top of the control that the GridSplitter shares a cell with.
+
 ![.NET MAUI GridSplitter Overview](images/gridsplitter-overview.png "GridSplitter Overview")
 
 ## Key Features
@@ -19,7 +23,7 @@ The GridSplitter control automatically detects the target columns or rows to res
 * [Resize behavior]({%slug gridsplitter-configuration%}#resize-behavior)&mdash;The GridSplitter allows you to control which columns or rows are resized relative to the position of the splitter.
 * [Resize direction]({%slug gridsplitter-configuration%}#resize-direction)&mdash;You can control whether the GridSplitter control resizes rows or columns. 
 * [Visual states]({%slug gridsplitter-styling%}#visual-states)&mdash;You can use visual states to change the appearance of the control based on its state&mdash;for example, when it's disabled or hovered.
-* [Styling API]({%slug gridsplitter-styling%})The GridSplitter exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and gripper color.
+* [Styling API]({%slug gridsplitter-styling%})&mdash;The GridSplitter exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and gripper color.
 
 ## Next Steps
 
