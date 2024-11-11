@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-features-expand-collapse
 tags: group, radlistview, expand, collapse, collapsible
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Expand and Collapse Groups
 
 The ListView supports groups expand and collapse operations either through the UI by tapping on the group headers or programmatically. By default, all the groups are expanded.

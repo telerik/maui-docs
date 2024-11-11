@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-grouping
 tags: group, radlistview, groupdescriptor
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Grouping
 
 The ListView provides you with the functionality to programmatically group its data at runtime. This can be achieved through adding group descriptors to the `RadListView.GroupDescriptors` collection.

@@ -8,6 +8,8 @@ previous_url: /controls/listview/listview-features-events
 tags: events
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Events
 
 The ListView component exposes a set of events.

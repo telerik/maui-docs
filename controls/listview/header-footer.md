@@ -7,6 +7,8 @@ previous_url: /controls/listview/listview-features-header-footer
 slug: listview-features-header-footer
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Header and Footer
 
 The ListView provides the option to add - `Header` and `Footer`, which will allow you to position content of your choice above and below the list with the items. Both header and footer templates are scrolled along with the ListView items.

@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-sticky-group-header
 tags: group, radlistview, groupdescriptor, sticky, group, headers
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Sticky Group Headers
 
 The ListView provides the option to set its group headers as sticky. This means the `GroupHeader` will "freeze" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.

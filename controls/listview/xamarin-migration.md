@@ -7,6 +7,8 @@ slug: migrate-xamarin-listview-to-maui
 position: 20
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # Migrating the ListView from Xamarin to .NET MAUI
 
 The Telerik UI for .NET MAUI ListView preserves the same API as its Xamarin counterpart except for the configuration options listed in this article.
