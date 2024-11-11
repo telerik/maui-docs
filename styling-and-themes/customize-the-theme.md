@@ -2,7 +2,7 @@
 title: Customize the Telerik Theme
 page_title: Customize the Telerik Theme
 description: Learn how to customize the Telerik Theme for your .NET MAUI application and alter the default appearance of the UI for .NET MAUI components.
-slug: themes-customization
+slug: theming-customization
 tags: telerik,.net maui,theme,custom
 position: 1
 ---

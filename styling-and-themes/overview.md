@@ -2,7 +2,7 @@
 title: Theming Overview
 page_title: Theming Overview
 description: The Telerik UI for .NET MAUI suite comes with a built-in theme with a set of predefined color variations.
-slug: themes-overview
+slug: theming-overview
 tags: telerik,.net maui,theme,built-in
 position: 0
 ---
