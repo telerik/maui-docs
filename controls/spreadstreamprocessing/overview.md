@@ -74,7 +74,7 @@ You can use the __SpreadStreamProcessing__ library to create or read __large amo
 
 You have two options to add the required Telerik references to your .NET MAUI app in order to use SpreadStreamProcessing:
 
-* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug telerik-nuget-server%}) topic.
+* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug maui-getting-started%}) topic.
 
 * Add the references to Telerik assemblies manually, check the list below with the required assemblies for SpreadStreamProcessing:
 

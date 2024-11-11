@@ -16,7 +16,7 @@ This guide provides the information you need to convert your application, which 
 
 ## Step 1: Xamarin.Forms to .NET MAUI Migration Steps
 
-While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 7.0/.NET 8.0 and, thus, upgrade Xamarin to .NET MAUI.
+While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 8.0 and, thus, upgrade Xamarin to .NET MAUI.
 
 The following list summarizes the required steps of the Xamarin to MAUI migration. For the detailed guide, go to the official Microsoft documentation on [how to migrate your Xamarin.Forms application to the .NET SDK style](https://docs.microsoft.com/en-us/dotnet/maui/get-started/migrate).
 
@@ -40,9 +40,9 @@ or
 
 Replace the Telerik Xamarin assemblies with the Telerik UI for .NET MAUI package, using the local NuGet feeds. To get the Telerik UI for .NET MAUI `.nupkg` file, download any of the following:
 
-* An `automatic installation` for Windows or Mac.
+* The `.msi` or `.pkg` automated installer.
 * The `.zip` file that contains the `.nupkg` file.
-* The `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account. For the detailed guide, go to the article on [downloading the Telerik UI for .NET MAUI product files]({%slug download-product-files%}).
+* The `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account.
 
 When the `.nupkg` file is available on your machine, you are ready to set up the local NuGet feed. For the detailed guide on setting up the local NuGet package, go to the [Local feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) official Microsoft topic.
 
@@ -50,7 +50,7 @@ When the `.nupkg` file is available on your machine, you are ready to set up the
 
 When using the Telerik NuGet server, you can install the `Telerik.UI.for.MAUI` NuGet package in the .NET MAUI Application.
 
-For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI with NuGet]({%slug telerik-nuget-server%}).
+For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI with NuGet]({%slug maui-getting-started%}).
 
 ## Step 3: Register the .NET MAUI Controls
 

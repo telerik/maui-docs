@@ -83,16 +83,16 @@ public class ViewModel
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-             xmlns:local="clr-namespace:TESTNet7"
-             x:Class="TESTNet7.MainPage">
+             xmlns:local="clr-namespace:TESTNet8"
+             x:Class="TESTNet8.MainPage">
     <ContentPage.BindingContext>
         <local:ViewModel x:Name="PageViewModel" />
     </ContentPage.BindingContext>
 
     <Grid>
         <telerik:RadListView x:Name="listView"
-                                         ItemsSource="{Binding People}"
-                                         SelectionMode="None">
+                                     ItemsSource="{Binding People}"
+                                     SelectionMode="None">
             <telerik:RadListView.ItemTemplate>
                 <DataTemplate>
                     <telerik:ListViewTemplateCell>

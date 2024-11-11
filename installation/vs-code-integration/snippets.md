@@ -3,22 +3,26 @@ title: Code Snippets
 page_title: Telerik UI for .NET MAUI Code Snippets - Visual Studio Code Integration
 description: Learn how to add a new component in Visual Studio Code via code snippet templates.
 slug: getting-started-vs-code-integration-snippets
-position: 1
+position: 3
 ---
 
 
 # Code Snippets
 
-The Telerik Visual Studio Code extension provides a handy feature for increased developer productivity – code snippets for fast UI component reference and configuration. 
+The Telerik Visual Studio Code extension provides a handy feature for increased developer productivity&mdash;code snippets for quick UI component reference and configuration. 
 
 ## Get the Extension
 
-To use the **Telerik UI for .NET MAUI Code Snippets**, install the Telerik UI for .NET MAUI Visual Studio Code Extension. 
+To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI for .NET MAUI Productivity Tools` extension. You can get the extension from:
 
-## Add a Code Snippet to the page
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Code Marketplace.</a>
+
+* The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
+
+## Add a Code Snippet to the Page
 
 1. Use the `tm` shortcut that stands for Telerik MAUI and select a snippet from the dropdown menu.
-    1. Alternatively, type the component name, and the available snippets will appear in a dropdown menu. 
+   Alternatively, type the component name and the available snippets will appear in a dropdown menu. 
 1. Use a `Tab` sequence to populate the available attributes of the component.
 
   ![Telerik UI for .NET MAUI VS Code snippets](./images/MauiSnippets.png)

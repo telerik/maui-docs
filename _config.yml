@@ -53,8 +53,14 @@ navigation:
     installation/mac:
         title: "Mac"
         position: 4
+    installation/vs-integration:
+        title: "Visual Studio Integration"
+        position: 15  
     installation/vs-code-integration:
         title: "Visual Studio Code Integration"
+        position: 16
+    installation/nuget:
+        title: "Installing with NuGet"
         position: 5
 ## End Intallation Sub-Folders
 ## Controls Sub-Folders

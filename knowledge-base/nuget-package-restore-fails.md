@@ -32,7 +32,7 @@ The Telerik NuGet Server has not been properly configured.
 
 To handle this issue:
 
-1. [Manually add the Telerik NuGet Server as a NuGet package source in Visual Studio]({%slug telerik-nuget-server %}#prerequisites).
+1. [Manually add the Telerik NuGet Server as a NuGet package source in Visual Studio]({%slug maui-getting-started %}#prerequisites).
 1. Go to the solution in Visual Studio.
 1. From the context menu, choose **Restore NuGet Packages**.
 1. Clean and rebuild the solution.
