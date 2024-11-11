@@ -293,6 +293,10 @@ navigation:
         position: 2
         ## End Gauge Sub-Folders
     ## End Gauge
+    ## GridSplitter
+    controls/gridsplitter:
+        title: "GridSplitter"
+    ## End GridSplitter
     ## ImageEditor
     controls/imageeditor:
         title: "ImageEditor"
@@ -702,6 +706,7 @@ intro_columns:
         "BadgeView": "badgeview-overview"
         "Border": "border-overview"
         "BusyIndicator": "busyindicator-overview"
+        "GridSplitter": "gridsplitter-overview"
         "Path": "path-overview"
         "Popup": "popup-overview"
         "Toolbar": "toolbar-overview"
