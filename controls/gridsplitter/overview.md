@@ -16,8 +16,8 @@ The GridSplitter control automatically detects the target columns or rows to res
 
 ## Key Features
 
-* [Resize behavior]({%slug %})&mdash;The GridSplitter allows you to control which columns or rows are resized relative to the position of the splitter.
-* [Resize direction]({%slug %})&mdash;You can control whether the GridSplitter control resizes rows or columns. 
+* [Resize behavior]({%slug gridsplitter-configuration%}#resize-behavior)&mdash;The GridSplitter allows you to control which columns or rows are resized relative to the position of the splitter.
+* [Resize direction]({%slug gridsplitter-configuration%}#resize-direction)&mdash;You can control whether the GridSplitter control resizes rows or columns. 
 * [Visual states]({%slug gridsplitter-styling%}#visual-states)&mdash;You can use visual states to change the appearance of the control based on its state&mdash;for example, when it's disabled or hovered.
 * [Styling API]({%slug gridsplitter-styling%})The GridSplitter exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and gripper color.
 
