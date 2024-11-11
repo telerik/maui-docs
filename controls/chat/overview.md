@@ -20,7 +20,7 @@ The Telerik UI for .NET MAUI Chat is a UI component that enables the implementat
 * [Predefined List of Suggestions]({%slug chat-suggested-actions%})&mdash;This feature allows you to have a predefind list of suggestions. So the users of the Chat can choose between predefined items before sending a message. 
 * [MVVM support]({%slug chat-mvvm-support %})&mdash;With the `RadChat` control, you can use the Model-View-ViewModel pattern. You can achieve this by bounding the `ItemsSource` property to a collection of any data items that will be converted into chat items.
 * [Commands support]({%slug chat-commands%})&mdash;Part of the MVVM support. You can execute a command when sending messages. 
-* [Localization support]({%slug chat-localization%})&mdash;Translate the phrases used across the Chat control to other languages so that you can adapt your app to different regions.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the phrases used across the Chat control to other languages so that you can adapt your app to different regions.
 
 ## Next Steps
 

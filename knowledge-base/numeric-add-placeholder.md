@@ -10,9 +10,10 @@ res_type: kb
 ---
 
 ## Environment
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 5.1.0 | Telerik UI for .NET MAUI NumericInput | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+
+| Version | Product | Author |
+| --- | --- | ---- |
+| 5.1.0 | Telerik UI for .NET MAUI NumericInput | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 
 ## Description

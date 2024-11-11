@@ -44,4 +44,4 @@ When migrating the Xamarin Calendar & Scheduling, consider the following differe
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})

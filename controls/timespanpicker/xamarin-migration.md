@@ -36,6 +36,6 @@ The Telerik UI for .NET MAUI TimeSpanPicker preserves the same API as its Xamari
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI TimeSpanPicker Product Page](https://www.telerik.com/maui-ui/timespanpicker)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

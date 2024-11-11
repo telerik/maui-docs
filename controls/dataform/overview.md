@@ -34,7 +34,7 @@ The Telerik UI for .NET MAUI DataForm is a customizable component allowing you t
 
 * [Flexible Styling API]({%slug dataform-styling%}) for customizing the look of the DataForm, its Editors, Groups and Headers. In addition you can customize the error and validation messages.
 
-* [Localization support]({%slug dataform-localization%})&mdash;Translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions. In addition by using the `DataAnnotations` you can apply localization to the editors `HeaderText` and `Placeholder`.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the text displayed as a validation error message to other languages, so that your application can be adapted to different regions. In addition by using the `DataAnnotations` you can apply localization to the editors `HeaderText` and `Placeholder`.
 
 ## Next Steps
 

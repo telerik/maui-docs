@@ -26,4 +26,4 @@ Add it to the `GroupDescriptors` collection of the `RadDataGrid` instance:
 
 Here is how the [.NET MAUI DataGrid]({%slug datagrid-overview%}) looks when is grouped through a `DelegateGroupDescriptor`:
 
-![DataGrid Delegate GroupDescriptor](../images/datagrid_grouping_delegategroup.png)
+![DataGrid Delegate GroupDescriptor](../images/datagrid-delegate-group-descriptor.png)

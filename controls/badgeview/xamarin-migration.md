@@ -25,6 +25,6 @@ When migrating the BadgeView from Xamarin to .NET MAUI, consider the following d
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI BadgeView Product Page](https://www.telerik.com/maui-ui/badgeview)
 * [.NET MAUI BadgeView Forum Page](https://www.telerik.com/forums/maui?tagId=1900)

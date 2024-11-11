@@ -37,6 +37,6 @@ The Telerik UI for .NET MAUI ListPicker preserves the same API as its Xamarin co
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 - [.NET MAUI ListPicker Product Page](https://www.telerik.com/maui-ui/listpicker)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

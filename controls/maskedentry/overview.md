@@ -35,7 +35,7 @@ Telerik UI for .NET MAUI MaskedEntry formats and restricts text inputs to predef
 
 * [Globalization support]({%slug maskedentry-globalization%})&mdash;The MaskedEntry allows you to develop your application in such a way that it works about the target device culture.
 
-* [Localization support]({%slug maskedentry-localization%})&mdash;Translate the text displayed as a validation error message to other languages when the device culture is changed.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the text displayed as a validation error message to other languages when the device culture is changed.
 
 ## Next Steps
 

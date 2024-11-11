@@ -3,7 +3,7 @@ title: Scaffolding Pages and Screens
 page_title: Telerik UI for .NET MAUI Code Scaffoldings - Visual Studio Code Scaffoldings
 description: Learn how to add predefined screens in your application using the Telerik .NET MAUI Visual Studio Code Scaffoldings.
 slug: maui-vs-code-scaffoldings
-position: 1
+position: 5
 tags: maui, dotnet maui, item templates, scaffoldings, predefined pages, screens, visual studio code
 ---
 
@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI Visual Studio Code extension lets you scaffold an a
 
 To use the Telerik UI for .NET MAUI Scaffoldings, install the `Telerik UI for .NET MAUI Productivity Tools` extension for Visual Studio Code. You can get the extension from:
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Marketplace.</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Code Marketplace.</a>
 
 * The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
 
@@ -36,7 +36,7 @@ As a result, the VS code extension does the following:
 * Adds the page to the `Pages` folder of the application. If the folder does not exist, it will be created. 
 * Adds a `ViewModel` for the created page to the `ViewModels` folder. If the folder does not exist, it will be created.
 
-The next image shows the file structure created for the `Products` screen:
+The next image shows the file structure created for the `DataGrid` page:
 ![.NET MAUI Scaffolding result](images/scaffolding-vscode-result.png)
 
 ## Displaying a Scaffolded Screen in Your App
@@ -57,7 +57,7 @@ In the example below, the screen is set directly to the `ShellContent` in the `A
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate pages:TelerikProductsListPage}"
+        ContentTemplate="{DataTemplate pages:TelerikCollectionViewPage}"
         Route="MainPage" />
 
 </Shell>

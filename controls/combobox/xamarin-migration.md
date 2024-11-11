@@ -31,6 +31,6 @@ The tables in the following sections list any differences between the APIs of th
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI ComboBox Product Page](https://www.telerik.com/maui-ui/checkbox)
 * [.NET MAUI ComboBox Forum Page](https://www.telerik.com/forums/maui?tagId=1937)

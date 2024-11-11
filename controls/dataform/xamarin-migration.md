@@ -82,6 +82,6 @@ Compared editors are displayed in the table below:
 ## See Also
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({% slug controls-samples-app %})
+* [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
 * [.NET MAUI DataForm Product Page](https://www.telerik.com/maui-ui/dataform)
 * [.NET MAUI DataForm Forum Page](https://www.telerik.com/forums/maui?tagId=1979)

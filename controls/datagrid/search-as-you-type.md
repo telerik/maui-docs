@@ -115,6 +115,6 @@ The `DataGrid.SearchSettings` allows you to attach commands that will be execute
 
 ## See Also
 
-- [Localization]({%slug datagrid-localization%})
+- [Localization in .NET MAUI DataGrid]({%slug datagrid-localization%})
 - [Defining Columns]({%slug datagrid-columns-overview%})
 - [Columns Styling]({%slug datagrid-columns-styling%})

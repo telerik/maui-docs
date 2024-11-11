@@ -53,7 +53,7 @@ The following example demonstrates how to style the TreeView item:
 
 And the style used for the checkbox element:
 
-<snippet id='treeview-descriptor-checkbox-styling/>
+<snippet id='treeview-descriptor-checkbox-styling'/>
 
 **3.** Set the style to the `RadTreeView` and `TreeViewDescriptor`:
 

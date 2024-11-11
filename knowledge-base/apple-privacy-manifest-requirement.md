@@ -8,6 +8,10 @@ tags: apple, privacy, manifest, apple store, requirements, .NET MAUI
 res_type: kb
 ---
 
+| Author |
+| ---- |
+| [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)|
+
 Apple is introducing a new privacy policy for including privacy manifest files in your apps that target the iOS, iPadOS, tvOS, visionOS, and watchOS platforms on the App Store. 
 For more details on this policy, please review the <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files" target="_blank">Privacy Manifest Files</a> in the Apple documentation.
 

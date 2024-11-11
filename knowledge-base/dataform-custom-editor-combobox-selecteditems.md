@@ -11,6 +11,7 @@ res_type: kb
 ---
 
 ## Environment
+
 | Version | Product | Author | 
 | --- | --- | ---- | 
 | 6.6.0 | Telerik UI for .NET MAUI DataForm | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 

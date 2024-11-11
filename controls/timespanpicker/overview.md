@@ -35,7 +35,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker provides an easy way to select a tim
 
 * [Commands support]({%slug timespanpicker-commands%})&mdash;The TimeSpanPicker exposes the `ClearCommand` that allows you to clear the selected time interval and the `ToggleCommand` that allows you to open and close the dialog.
 
-* Localization support&mdash;Translate the used across the TimeSpanPicker texts to other languages, so that your app can be adapted to different regions.
+* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the used across the TimeSpanPicker texts to other languages, so that your app can be adapted to different regions.
 
 ## Next Steps
 
