@@ -26,8 +26,6 @@ Check the result of the NumericInput with custom button text below:
 
 ![.NET MAUI NumericInput Button Text Customization](images/numericinput-buttons-customization.png "NumericInput Button Text Customization")
 
-> Hide the numeric butons by using the [ControlTemplate]({%slug numericinput-control-template%}).
-
 ## Change Background
 
 The `BackgroundColor` property allows you to modify the background color of the input area of the NumericInput:
@@ -37,4 +35,3 @@ The `BackgroundColor` property allows you to modify the background color of the 
 ## See Also
 
 - [Numeric String Format]({%slug numericinput-numeric-string-format%})
-- [Control Template]({%slug numericinput-control-template%})

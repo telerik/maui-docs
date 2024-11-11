@@ -4,7 +4,8 @@ description: Learn how to hide the numeric buttons for increasing and decreasing
 type: how-to
 page_title: Hide the numeric buttons for increasing, decreasing the value
 slug: numeric-hide-buttons
-position: 
+position:
+published: False
 tags: numeric, buttons, hide buttons, .net maui, maui
 res_type: kb
 ---

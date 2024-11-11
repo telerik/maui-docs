@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI DataPager provides users with a navigation interfac
 ## Key Features
 
 * [Data Binding]({%slug datapager-data-binding%})&mdash;You can bind the DataPager to any collection that implements the `IEnumerable` interface, making it suitable for paging any collection.
-* [Display modes]({%slug datapager-dispaly-mode%})&mdash;You can use different modes to define which of the visual elements in the DataPager will be visible, for example, the first/last/next page buttons and more.
+* [Display modes]({%slug datapager-display-mode%})&mdash;You can use different modes to define which of the visual elements in the DataPager will be visible, for example, the first/last/next page buttons and more.
 * [Ellipsis modes]({%slug datapager-ellipsis-mode%})&mdash;You can specify where the three dots appear in the DataPager.
 * [Page size]({%slug datapager-page-configuration%}#page-size)&mdash;You can use different properties to configure the page, like setting the page size, current page index, and more.
 * [Define the number of the page buttons]({%slug datapager-page-configuration%}#page-number-range)&mdash;You can specify the minimum and maximum number of the numeric (page number) buttons in the DataPager control.
