@@ -1,17 +1,19 @@
 ---
 title: Localization
 page_title: .NET MAUI DataPager Documentation - Localization
-description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI DataPager control.
-position:10
+description: Learn more about the MAUI localization keys and default values provided by the Telerik UI for .NET MAUI DataPager.
+position: 18
+tags: maui localization, maui, localization, dotnet maui
 slug: datapager-localization
-tags: localization, language, translate, maui, dotnet maui
 ---
 
-# .NET MAUI DataPager Localization 
+# .NET MAUI DataPager Localization
 
 The `RadDataPager` component provides language localization. This allows you to translate the phrases used across the DataPager control to other languages so that you can adapt your app to different regions.
 
 > To learn in details about the localization process of the Telerik UI for .NET MAUI components, see the [Localization and Globalization]({%slug globalization-localization%}) topic.
+
+The table below shows the localization keys available for the DataGrid control and their default values:
 
 In `RadDataPager`, you can localize the following strings:
 
@@ -23,4 +25,4 @@ In `RadDataPager`, you can localize the following strings:
 
 ## See Also
 
-[Localization and Globalization]({slug % globalization-localization %})
+[Localization and Globalization]({%slug globalization-localization%})
