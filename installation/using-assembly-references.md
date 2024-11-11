@@ -17,12 +17,12 @@ You can get the Telerik UI for .NET MAUI assemblies in two ways:
 * After installing the controls by [using the MSI installer]({%slug automated-installer%})&mdash;By default, once you complete the installation, the assemblies will be located in the `C:\Program Files\Progress\Binaries` (for 32-bit machines) or `C:\Program Files (x86)\Progress\Binaries` (for 64-bit machines) folder.
 * By downloading the [ZIP archive]({%slug zip-archive%}) with the controls&mdash;Look for the `Binaries` folder in the archive.
 
-The `Binaries/Net7` and `Binaries/Net8` folders contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
+The `Binaries/Net8` and `Binaries/Net9` folders contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
 
 To manually reference the assemblies:
 
 1. Create a `libs` folder in your solution folder.
-1. Copy the content of the `Binaries/Net7` or `Binaries/Net8` folder into your `libs` folder.
+1. Copy the content of the `Binaries/Net8` or `Binaries/Net9` folder into your `libs` folder.
 1. In your solution, reference the DLLs in the `libs` folder.
 
 >important As some of the controls included in Telerik UI for .NET MAUI suite rely on the SkiaSharp rendering library, you must also install the `SkiaSharp.Views.Maui.Controls.Compatibility` NuGet package.

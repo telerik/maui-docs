@@ -15,8 +15,8 @@ The Telerik .NET MAUI library has a few fully-featured [demo applications](https
 * [SDKBrowser App](#sdkbrowser-app)
 * [Crypto Tracker App](#crypto-tracker-app)
 
-> With **Telerik .NET MAUI 6.5.0** version we have added a support for .NET 8.0. You can easily switch the .NET version to .NET 7.0 or .NET 8.0 to build the apps. 
-> Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet7.ps1` and `SwitchToNet8.ps1`. You can use them to switch the .NET version.
+> With **Telerik .NET MAUI 7.1.0** version we have added support for .NET 9.0 Preview 6. You can easily switch the .NET version to .NET 8.0 or .NET 9.0 to build the apps. 
+> Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet8.ps1` and `SwitchToNet9.ps1`. You can use them to switch the .NET version.
 
 ## Controls Samples App
 
