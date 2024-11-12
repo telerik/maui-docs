@@ -16,7 +16,6 @@ Telerik UI for .NET MAUI comes with a built-in theme that controls the visual ap
 * [Definitions for *theme* and *swatch*](#basics)
 * How to [use the Telerik theme in your app](#using-the-telerik-theming)
 
-## Basics
 
 ### Theme
 
