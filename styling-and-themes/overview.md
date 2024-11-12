@@ -13,82 +13,80 @@ Telerik UI for .NET MAUI comes with a built-in theme that controls the visual ap
 
 ## Theme
 
-A *theme* is a collection of styles and templates in XAML files, which determine the appearance of the Telerik .NET MAUI components, including fonts, colors, sizes and layouts.
+A *theme* is a collection of styles and templates in XAML files, which determine the appearance of the Telerik .NET MAUI components, including fonts, colors, sizes, and layouts.
 
 ## Swatch
 
 A *theme swatch* is a color variation of a theme. All swatches of a given theme use the same fonts, sizes, and layouts. On the other hand, the text colors, background colors and border colors are different. For example, *Purple* and *Purple Dark* are two built-in swatch names.
 
-The Telerik .NET MAUI theme comes with a set of 8 predefined swatches for both dark and light modes: `Main`, `Main Dark`, `Ocean Blue`, `Ocean Blue Dark`, `Purple`, `Purple Dark`, `Turquoise` and `Turquoise Dark`.
+The Telerik .NET MAUI theme comes with a set of eight predefined swatches for both dark and light modes: `Main`, `Main Dark`, `Ocean Blue`, `Ocean Blue Dark`, `Purple`, `Purple Dark`, `Turquoise` and `Turquoise Dark`.
 
 Here is an example of the AutoComplete control with `Purple` and `Purple Dark` applied:
 
 ![Telerik .NET MAUI Theming](images/theming-default.png)
 
-### Comparing Swatches
+>You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** dropdown to switch between the theme swatches.
 
-You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the "Change Theme" dropdown to switch between the theme swatches.
-
-## Using the Telerik Theming
+## Using the MAUI Themes
 
 To enable the Telerik Theming in your app, follow the steps below (assuming you already have a .NET MAUI app set up to work with Telerik .NET MAUI controls):
 
-**1.** Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
+1. Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
 
-```XAML
-<PropertyGroup>
-	<UseTelerikTheming>true</UseTelerikTheming>
-</PropertyGroup>
-```
+    ```XAML
+    <PropertyGroup>
+        <UseTelerikTheming>true</UseTelerikTheming>
+    </PropertyGroup>
+    ```
 
-**2.** Rebuild the solution - this will generate a new **TelerikTheming** folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
+1. Rebuild the solution - this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
 
-![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
+    ![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
 
-* **Colors** folder contains the resources needed for each theme swatch in separate `ResourceDictionaries`:
+    * The `Colors` folder contains the resources needed for each theme swatch in separate resource dictionaries:
 
-    ![](images/teleriktheming-colors-folder.png)
+        ![](images/teleriktheming-colors-folder.png)
 
-* **Styles** folder contains the styles and templates of the Telerik .NET MAUI controls (colors are references through `DynamicResources`, so they can be updated at runtime).
+    * The `Styles` folder contains the styles and templates of the Telerik .NET MAUI controls (colors are referenced through dynamic resources, so you can update them at runtime).
 
-**3.** Go to `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
+1. Go to the `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
 
-```XAML
-<Application.Resources>
-    <ResourceDictionary>
-        <ResourceDictionary.MergedDictionaries>
-            <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-            <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            <local:TelerikTheming />
-        </ResourceDictionary.MergedDictionaries>
-    </ResourceDictionary>
-</Application.Resources>
-```
+    ```XAML
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                <local:TelerikTheming />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    ```
 
->important The files inside the **TelerikTheming** folder are auto-generated. Use them only as a reference, do not modify the resources directly here.
+    >important The files inside the **TelerikTheming** folder are auto-generated. Use them only as a reference, do not modify the resources directly here.
 
-**4.** Set the `Telerik` theme and one of its color variations inside `App.xaml.cs` file:
+4. Set the `Telerik` theme and one of its color variations inside the `App.xaml.cs` file:
 
-```C#
-var telerikTheming = Application.Current
-                    .Resources
-                    .MergedDictionaries
-                    .OfType<TelerikTheming>()
-                    .Single();
-telerikTheming.Theme = TelerikTheming.Themes
-                    .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
-```
+    ```C#
+    var telerikTheming = Application.Current
+                        .Resources
+                        .MergedDictionaries
+                        .OfType<TelerikTheming>()
+                        .Single();
+    telerikTheming.Theme = TelerikTheming.Themes
+                        .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
+    ```
 
-This applies the `Telerik` theme with `Purple` color variation to all the supported Telerik .NET MAUI components used across the app.
+All the steps above apply the `Telerik` theme with `Purple` color variation to the Telerik .NET MAUI components used across the app.
 
-For example, for `RadToggleButton` defined like this:
+For example, if you have the following `RadToggleButton` control:
 
 ```XAML
 <telerik:RadToggleButton x:Name="toggleButton"
                          Content="Wi-Fi" />
 ```
 
-The result is:
+After applying the `Telerik Purple` theme, the ToggleButton looks like this:
 
 ![Telerik .NET MAUI ToggleButton with Telerik theme](images/togglebutton-themed.gif)
 
@@ -116,13 +114,11 @@ are presented in each Telerik theme swatch with the following x:Keys:
 <Color x:Key="RadBorderAltColor">#29000000</Color>
 ```
 
-### Using the Telerik Theming colors across the user app
+### Applying Theme Colors throughout the App
 
-Each color variation provides a set of colors you can use in other parts of your app to achieve consistent look & feel.
+Each color variation (theme swatch) provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look & feel.
 
-For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for backround/text color respectively and `RadPrimaryColor` for the accent color to match the Telerik controls' appearance:
-
-Here is a quick example:
+For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for backround/text color respectively, and `RadPrimaryColor` for the accent color to match the appearance of the Telerik controls:
 
 ```XAML
 <VerticalStackLayout Spacing="10" 
@@ -141,7 +137,7 @@ Here is a quick example:
 </VerticalStackLayout>
 ```
 
-Check the result with `Purple` and `Purple Dark` swatches applied:
+Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
 
