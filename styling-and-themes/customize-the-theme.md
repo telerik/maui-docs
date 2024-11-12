@@ -15,7 +15,9 @@ Depending on the changes that you want to apply, you can customize the appearanc
 * You can modify only the colors in a certain color variation (swatch)&mdash;this will affect all UI controls.
 * You can change the styles and templates for a specific UI control.
 
-Either approach requires copying the needed resources in a separate resource dictionary, modifying it and merging it after the Telerik theme resources.
+Both customization approaches require the following steps:
+1. Copying the needed resources in a separate resource dictionary and modifying them.
+2. Merging the modified resource dictionary after the Telerik theme resources.
 
 
 ## Copying and Modifying the Theme Resources
