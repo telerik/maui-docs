@@ -2,7 +2,7 @@
 title: Customizing a Theme
 page_title: Customize a Theme
 description: Learn how to customize the Telerik Theme for your .NET MAUI application and alter the default appearance of the UI for .NET MAUI components.
-slug: theming-customization
+slug: themes-customization
 tags: telerik,.net maui,theme,custom
 position: 1
 ---
@@ -20,6 +20,7 @@ Both customization approaches require the following steps:
 1. Copying the needed resources in a separate resource dictionary and modifying them.
 2. Merging the modified resource dictionary after the Telerik theme resources.
 
+Before proceeding with the next steps, make sure the [Telerik Theming is enabled]({%slug themes-overview%}#using-the-telerik-theming).
 
 ## Copying and Modifying the Theme Resources
 
@@ -107,3 +108,7 @@ public partial class ComboBox : ResourceDictionary
 ```
 
 In this case, to modify the ComboBox, you'd need to copy and merge the content of both `Core.xaml` and `ComboBox.xaml` files.
+
+## See Also
+
+- [Themes Overview]({%slug themes-overview%})
