@@ -1,29 +1,36 @@
 ---
-title: Customize the Telerik Theme
-page_title: Customize the Telerik Theme
+title: Customizing a Theme
+page_title: Customize a Theme
 description: Learn how to customize the Telerik Theme for your .NET MAUI application and alter the default appearance of the UI for .NET MAUI components.
 slug: theming-customization
 tags: telerik,.net maui,theme,custom
 position: 1
 ---
 
-## Customize the Telerik Theme
+# Customizing a Theme
 
-There are several ways to customize the visual appearance of the Telerik .NET MAUI controls depending on the needed changes. You can modify only the colors in a certain color variation and that will affect all the controls or you can make more specific cbange in the styles and templates of a certain Telerik UI for .NET MAUI component.
+The Telerik UI for .NET MAUI themes are flexible and allow you to customize and adjust them to meet the specific application requirements.
+
+Depending on the changes that you want to apply, you can customize the appearance of the Telerik UI for .NET MAUI controls in a couple of ways:
+* You can modify only the colors in a certain color variation (swatch)&mdash;this will affect all UI controls.
+* You can change the styles and templates for a specific UI control.
 
 Either approach requires copying the needed resources in a separate resource dictionary, modifying it and merging it after the Telerik theme resources.
 
-Check the detailed steps below:
 
-### Copy and modify the theme resources
+## Copying and Modifying the Theme Resources
 
-Inside the **Telerik Theming** folder you have all the theme color variations (inside the **Swatches** folder) as well as the styles and templates of the Telerik .NET MAUI controls (inside the **Styles** folder).
+All available theme styles are in the `TelerikTheming` folder:
+* The color variations are in the `Swatches` folder.
+* The styles and templates for the Telerik UI for .NET MAUI controls are in the `Styles` folder.
 
-**1.** Go to the Resources/Styles folder and create a `ResourceDictionary` file without a code-behind file in a similar way as the default **Styles.xaml** and **Colors.xaml**:
+To modify the theme resources:
+
+1. Go to the `Resources/Styles` folder and create a `ResourceDictionary` file without a code-behind file, similar to the default `Styles.xaml` and `Colors.xaml`:
 
 ![Telerik .NET MAUI Theming Custom Colors](images/theming-custom-swatch.png)
 
-**2.** Copy the needed Colors or Styles from the swatch you'd need to modify into the newly created `ResourceDictionary` file and modify them according to the design requirements you have. For example let's modify the swatch primary colors:
+2. Copy the needed colors or styles from the swatch that you need to modify and paste them into the newly created `ResourceDictionary` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
 
 ```XAML
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -52,9 +59,9 @@ Inside the **Telerik Theming** folder you have all the theme color variations (i
 </ResourceDictionary>
 ```
 
-### Merge the new ResourceDictionary in App.xaml
+### Merging the New Resource Dictionary in App.xaml
 
-The next step is to add the resource dictionary with the customized colors to "App.xaml" - make sure the `CustomTelerikSwatch.xaml` is merged after the `TelerikTheming` file:
+Once you customize the colors and styles, add the new resource dictionary to the `App.xaml` and make sure you merge `CustomTelerikSwatch.xaml` аfter the `TelerikTheming` file:
 
 ```XAML
 <Application.Resources>
