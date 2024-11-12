@@ -9,7 +9,7 @@ position: 0
 
 # Theming Overview
 
-Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components. The theme determines the components' colors, borders, backgrounds, size, layout, position, font size and provides a few color variations to choose from.
+Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
 
 >caption In This Article
 
