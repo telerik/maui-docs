@@ -20,6 +20,10 @@ The available options for `EllipsisMode` are:
 * (Default) `After`&mdash; Display an ellipsis instead of the last numeric button.
 * `Both`&mdash;Display an ellipsis on both sides.
 
+The image below shows the ellipsis modes:
+
+![.NET MAUI DataPager Ellipsis mode](images/datapager-ellispsismode.png)
+
 ## Example
 
 Here is a quick example on how you can define the `EllipsisMode` in the DataPager.
@@ -38,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datapager-features-viewmodel' />
 
-This is the result on desktop:
+This is the result:
 
 ![.NET MAUI DataPager Ellipsis mode](images/datapager-ellispsismode.gif)
 
