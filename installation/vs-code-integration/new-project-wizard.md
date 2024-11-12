@@ -20,13 +20,13 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 
 ## Start the Wizard
 
-Start the Telerik UI for .NET MAUI Template Wizard by using the following ways:
+You can start the Telerik UI for .NET MAUI Template Wizard in either of the following ways:
 
 * Click the **Telerik Extensions Information** icon in the Visual Studio Code activity bar.
 
     1. Click on the **Telerik Extensions Information** icon
     1. Select **MAUI** tab
-    1. Press **Create New Project**.
+    1. Click **Create New Project**.
     1. The **Telerik UI for .NET MAUI Template Wizard** opens
     1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
 

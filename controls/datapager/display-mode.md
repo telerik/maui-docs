@@ -11,7 +11,7 @@ tags: display mode
 
 The DataPager lets you control the visibility of its visual elements. In addition, you can use Adaptive Display modes to arrange the pager's elements.
 
-To define which elements can be displayed in the DataPager, use the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property. The available options arre:
+To define which elements can be displayed in the DataPager, use the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property. The available options are:
 
 * `None`&mdash;Displays no elements in the DataPager.
 * `FirstPageButton`&mdash;Displays the first page button.
@@ -51,9 +51,9 @@ This is the result on desktop:
 
 The DataPager lets you customize the default arrangement of the elements in the pager by providing the `AdaptiveDisplayModes` property:
 
-* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of the desired combinations of elements that should be displayed. The actual elements that will be displayed are the result of the DataPager.`DisplayMode` property, and the size of the control.
+* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of the desired combinations of elements that should be displayed. The actual elements that will be displayed are the result of the DataPager's `DisplayMode` property, and the size of the control.
 
-For example, if you set `AdaptiveDisplayModes` and `DisplayMode` to the following values:
+For example, if you set `AdaptiveDisplayModes` and `DisplayMode` to the values in the snippet below, the DataPager will arrange the elements based on the values set in the `AdaptiveDisplayModes` collection and will skip the elements that are not defined in the `DisplayMode` property&mdash;the `NextPageButton` element.
 
 ```XAML
 <telerik:RadDataPager Source="{Binding Data}"
@@ -65,8 +65,6 @@ For example, if you set `AdaptiveDisplayModes` and `DisplayMode` to the followin
     </telerik:RadDataPager.AdaptiveDisplayModes>
 </telerik:RadDataPager>
 ```
-
-The DataPager will arrange the elements based on the values set in the `AdaptiveDisplayModes` collection and will skip the elements that are not defined in the `DisplayMode` property&mdash;the `NextPageButton` element.
 
 This is the result on WinUI:
 
