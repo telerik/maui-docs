@@ -11,17 +11,11 @@ position: 0
 
 Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
 
->caption In This Article
-
-* [Definitions for *theme* and *swatch*](#basics)
-* How to [use the Telerik theme in your app](#using-the-telerik-theming)
-
-
-### Theme
+## Theme
 
 A *theme* is a collection of styles and templates in XAML files, which determine the appearance of the Telerik .NET MAUI components, including fonts, colors, sizes and layouts.
 
-### Swatch
+## Swatch
 
 A *theme swatch* is a color variation of a theme. All swatches of a given theme use the same fonts, sizes, and layouts. On the other hand, the text colors, background colors and border colors are different. For example, *Purple* and *Purple Dark* are two built-in swatch names.
 

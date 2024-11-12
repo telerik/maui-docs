@@ -82,6 +82,8 @@ Here is the result:
 
 ![Telerik .NET MAUI Theming Custom Colors](images/telerik-theming-customized.png)
 
+## Customizing a Specific Control
+
 If you need to modify the Style or ControlTemplate of a certain control, for example `RadComboBox`, you need to copy the `ComboBox.xaml` file in the same way in the app Resources and merge it inside `App.xaml`, then make the needed changes.
 
 Some of the controls' XAML files have dependencies on other XAML files, you can check this inside the constructor of that file, for example, the `ComboBox.xaml` has a dependency on `Core.xaml`:
