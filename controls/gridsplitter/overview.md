@@ -16,7 +16,7 @@ You can define the GridSplitter to be located within its own row (for horizontal
 * In a cell with another control.
 * As a last element in the Grid, in order to position the GridSplitter on top of the control that the GridSplitter shares a cell with.
 
-![.NET MAUI GridSplitter Overview](images/gridsplitter-overview.png "GridSplitter Overview")
+![.NET MAUI GridSplitter Overview](images/gridsplitter-overview.gif "GridSplitter Overview")
 
 ## Key Features
 
