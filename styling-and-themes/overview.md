@@ -147,6 +147,6 @@ Check the result with `Purple` and `Purple Dark` swatches applied:
 
 ## Next Steps
 
-- [Customize the Telerik Theme]({%slug themes-customization %})
+- [Customize the Telerik Theme]({%slug theming-customization %})
 
 
