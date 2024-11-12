@@ -26,7 +26,7 @@ You can develop applications with Telerik UI for .NET MAUI for the following pla
 
 ## Supported .NET Versions  
 
-* Telerik UI for .NET MAUI supports .NET 8.0. The Telerik UI for .NET MAUI 7.1.0 version supports .NET 9.0 Preview 6. To create projects targeting .NET 9 Preview, use Visual Studio 2022 Preview. 
+* Telerik UI for .NET MAUI supports .NET 8.0. The Telerik UI for .NET MAUI 7.1.0 version supports .NET 9.0. 
 
 For more information about the supported .NET versions in .NET MAUI, review Microsoft's <a href="https://dotnet.microsoft.com/en-us/platform/support/policy/maui" target="_blank">.NET MAUI Support Policy.</a>
 

@@ -26,7 +26,7 @@ The following properties are related to the appearance and alignment of the text
 The Entry exposes the `Placeholder` (`string`) property that prompts users what information they are expected to enter in the text input. The placeholder text is displayed when the control is empty. Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
 
 ```XAML
-<telerikInput:RadEntry Placeholder="First Name"
+<telerikInput:RadEntry Placeholder="Enter text here"
 					   PlaceholderColor="#6EA3FF" />
 ```
 
@@ -38,7 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![Entry with Watermark](images/entry_watermark.png)
+![Entry with Watermark](images/entry_getting_started.png)
 
 ## Password Functionality
 
