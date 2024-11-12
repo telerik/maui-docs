@@ -22,27 +22,27 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 
 Start the Telerik UI for .NET MAUI Template Wizard by using the following ways:
 
-* Press the **Telerik Extensions Information** icon in the Visual Studio Code activity bar.
+* Click the **Telerik Extensions Information** icon in the Visual Studio Code activity bar.
 
-1. Click on the **Telerik Extensions Information** icon
-1. Select **MAUI** tab
-1. Press **Create New Project**.
-1. The **Telerik UI for .NET MAUI Template Wizard** opens
-1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
+    1. Click on the **Telerik Extensions Information** icon
+    1. Select **MAUI** tab
+    1. Press **Create New Project**.
+    1. The **Telerik UI for .NET MAUI Template Wizard** opens
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
 
-![Telerik UI for .NET MAUI VS Code Extension](images/telerik-vs-code-extension.png)
+    ![Telerik UI for .NET MAUI VS Code Extension](images/telerik-vs-code-extension.png)
 
 * From the Visual Studio Code Extensions menu
 
-1. To open the menu, use:
- - `Ctrl+Shift+P` on Windows/Linux
- - `Cmd+Shift+P` on Mac.
+    1. To open the menu, use:
+        - `Ctrl+Shift+P` on Windows/Linux
+        - `Cmd+Shift+P` on Mac.
 
-1. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
-1. The **Telerik UI for .NET MAUI Template Wizard** opens
-1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
+    1. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
+    1. The **Telerik UI for .NET MAUI Template Wizard** opens
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
 
-![Telerik UI for .NET MAUI VS Code snippets](images/MauiTemplateWizard.gif)
+    ![Telerik UI for .NET MAUI VS Code snippets](images/MauiTemplateWizard.gif)
 
 ## Set Up the Telerik NuGet Server
 

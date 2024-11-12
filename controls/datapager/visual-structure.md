@@ -19,7 +19,7 @@ The following image shows the anatomy of the DataPager.
 - `First Page Button`&mdash;Represents the first page button. This button brings the pager on the first page of data.
 - `Previous Page Button`&mdash;Represents the previous page button. This button decrements the DataPager's current page index and brings it on the previous page of data.
 - `Numeric Page Buttons`&mdash;Represents a set of buttons that lists the available pages and allows the user to go directly to the desired one.
-- `Ellipsis`&mdash;The first and the last numeric buttons can display ellipsis instead of numbers when the pages are more than the rendered numeric buttons.
+- `Ellipsis`&mdash;The first and the last numeric buttons can display an ellipsis instead of numbers when the pages are more than the rendered numeric buttons.
 - `Next Page Button`&mdash;Represents the next page button. This button increments the DataPager's current page index and brings it on the next page of data.
 - `Last Page Button`&mdash;Represents the last page button. This button brings the DataPager on the last page of data.
 - `Page Sizes`&mdash;This area represents the available page sizes (items per page) that the end-user can choose from.
@@ -28,8 +28,8 @@ The following image shows the anatomy of the DataPager.
 
 The elements are visualized based on the available space. For example, if the user starts resizing the screen to reduce/exceed the DataPager's width, the elements inside the DataPager will be removed/added. 
 
-The image below is from android device and it shows the elements displayed in the DataPager based on the availabe space. 
-The displayed elements are the `First Page Button`, `Previous Page Button`, `NavigationComboBox` , `Next Page Button` and `Last Page Button`.
+The image below is from an Android device and shows the elements displayed in the DataPager based on the available space. 
+The displayed elements are the `First Page Button`, `Previous Page Button`, `NavigationComboBox` , `Next Page Button`, and `Last Page Button`.
 
 ![.NET MAUI DataPager Mobile](images/datapager-mobile-representation.png)
 
