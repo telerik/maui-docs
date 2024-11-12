@@ -1,15 +1,17 @@
 ---
-title: Theming Overview
-page_title: Theming Overview
+title: Themes Overview
+page_title: Themes Overview
 description: The Telerik UI for .NET MAUI suite comes with a built-in theme with a set of predefined color variations.
-slug: theming-overview
+slug: themes-overview
 tags: telerik,.net maui,theme,built-in
 position: 0
 ---
 
-# Theming Overview
+# Themes Overview
 
 Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
+
+>The built-in Telerik UI for .NET MAUI theme and its swatches are currently in preview and were introduced in version 8.0.0 (2024 Q4).
 
 ## Theme
 
@@ -29,7 +31,7 @@ Here is an example of the AutoComplete control with `Purple` and `Purple Dark` a
 
 ## Using the MAUI Themes
 
-To enable the Telerik Theming in your app, follow the steps below (assuming you already have a .NET MAUI app set up to work with Telerik .NET MAUI controls):
+Before you can add Telerik Themes to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug: maui-getting-started %}) or [Visual Studio Code]({%slug: maui-getting-started-vs-code%}) articles.
 
 1. Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
 
@@ -39,7 +41,7 @@ To enable the Telerik Theming in your app, follow the steps below (assuming you 
     </PropertyGroup>
     ```
 
-1. Rebuild the solution - this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
+1. Rebuild the solution&mdash;this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
 
     ![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
 
@@ -92,28 +94,6 @@ After applying the `Telerik Purple` theme, the ToggleButton looks like this:
 
 >Keep in mind some of the Telerik UI for .NET MAUI controls do not fully support the Telerik Theming - AIPrompt, Chart, DataPager, ImageEditor, SlideView and Toolbar.
 
-### Using the Theming Color System
-
-Telerik .NET MAUI Theming is influenced by the [Progress Design System Kit](https://www.telerik.com/design-system/docs/) and provides the [Color System](https://www.telerik.com/design-system/docs/foundation/color/) part of the kit foundation. 
-
-Each swatch includes Color resources which can be mapped to the color variable groups described in the [Color Swatch of the Design System Kit](https://www.telerik.com/design-system/docs/foundation/color/swatch/). 
-
-For example, the variables from the **Main Variable Group** (the Main variable group is a collection of colors that form the backbone of the application's visual design.), described in the Design System Kit like this:
-
-![Telerik Theming Variable Group](images/theming-color-variable-group.png)
-
-are presented in each Telerik theme swatch with the following x:Keys:
-
-```XAML
-<Color x:Key="RadAppSurfaceColor">#FFFFFF</Color>
-<Color x:Key="RadOnAppSurfaceColor">#3D3D3D</Color>
-<Color x:Key="RadSubtleColor">#666666</Color>
-<Color x:Key="RadSurfaceColor">#FAFAFA</Color>
-<Color x:Key="RadSurfaceAltColor">#FFFFFF</Color>
-<Color x:Key="RadBorderColor">#14000000</Color>
-<Color x:Key="RadBorderAltColor">#29000000</Color>
-```
-
 ### Applying Theme Colors throughout the App
 
 Each color variation (theme swatch) provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look & feel.
@@ -143,6 +123,6 @@ Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ## Next Steps
 
-- [Customize the Telerik Theme]({%slug theming-customization %})
+- [Customize the Telerik Theme]({%slug themes-customization %})
 
 

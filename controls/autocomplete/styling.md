@@ -42,7 +42,7 @@ The example below demonstrates some of the styling capabilities of the AutoCompl
 
 **1.** Add a Style that targets the `RadAutoComplete` to your page's resources and apply all the needed styling properties and the visual states:
 
-<snippet id=' autocomplete-custom-styles' />
+<snippet id='autocomplete-custom-styles' />
 
 **2.** Define the AutoComplete in XAML:
 

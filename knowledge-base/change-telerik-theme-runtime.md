@@ -31,7 +31,7 @@ How can I change the Telerik theme at runtime based on the device theme (Dark/Li
 
 Go to the steps below to ensure the Telerik .NET MAUI controls respond to app theme changes and are properly styled whenever light/dark mode is switched.
 
-**1.** Enable the Telerik Theming&mdash;As a first step, make sure the Telerik Theming is enabled in your app following the instructions here: [Using the Telerik Theming]({%slug theming-overview%}#using-the-telerik-theming).
+**1.** Enable the Telerik Theming&mdash;As a first step, make sure the Telerik Theming is enabled in your app following the instructions here: [Using the Telerik Themes]({%slug themes-overview%}#using-the-telerik-theming).
 
 **2.** Detect the current system theme&mdash;Use the `Application.RequestedTheme` property to get the current `AppTheme` and load light or dark colors of the Telerik Theming accordingly, for example:
 
@@ -58,7 +58,7 @@ Detect the current system theme | MS Learn](https://learn.microsoft.com/en-us/do
 ```C#
 public App()
 {
-	InitializeComponent();
+    InitializeComponent();
 
     Application.Current.UserAppTheme = AppTheme.Unspecified;
     Application.Current.RequestedThemeChanged += (s, e) => ApplyTelerikTheme();
@@ -73,5 +73,5 @@ React to theme changes | MS Learn](https://learn.microsoft.com/en-us/dotnet/maui
 
 ## See Also
 
-- [Telerik Theming Overview]({%slug theming-overview%})
+- [Telerik Themes Overview]({%slug themes-overview%})
 - [Respond to system theme changes | MS Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes)
