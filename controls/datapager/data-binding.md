@@ -32,12 +32,12 @@ this.BindingContext = new ViewModel();
 
 Often, your collection will be a simple `List`, an `ObservableCollection`, or a collection that inherits from `IEnumerable`. Unless you had paging in mind when you designed your project, it is almost certain that your data source will not be pageable out of the box. In these scenarios, bind to the `PagedSource` (`IEnumerable`) property of the `RadDataPager`.
 
-![DataPager PagedSource](images/)
+![DataPager PagedSource](images/datapager-databinding.png)
 
 The image above illustrates the process for binding to the `PagedSource` property of the DataPager:
 
-1. You assign an `IEnumerable` to the `Source` of a `RadDataPager`.
-1. The `RadDataPager` wraps the `Source` in a `PageableCollection`.
+1. You assign an `object` to the `Source` of a `RadDataPager`.
+1. The `RadDataPager` wraps the `Source` in a custom collection.
 1. The `Source` is exposed through the `RadDataPager.PagedSource` property.
 1. You attach any number of item controls to the `PagedSource` and they are paged automatically.
 

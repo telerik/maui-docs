@@ -34,18 +34,6 @@ The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties des
 s
 The `DataPagerButton` exposes additional visual states&mdash;`Selected` and `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
 
-## Tooltips
-
-The DataPager has tooltips support for the navigation buttons on WInUI.You can customize the text in the tooltip by using the styling properties described above.
-
-Here is an example how to set `Tooltip.Text` property:
-
-```XAML
-<Style x:Key="DataPagerButtonStyle" TargetType="telerik:DataPagerButton">
-    <Setter Property="ToolTipProperties.Text" Value="your custom text" />
-</Style>
-```
-
 ## Example
 
 Here is an example how to style the buttons in the DataPager control.

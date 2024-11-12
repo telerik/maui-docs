@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI TextInput is a control that inherits from the Micro
 
 The Telerik UI for .NET MAUI Entry control uses the TextInput control in its control template for the text input. The Telerik UI for .NET MAUI Entry is a templated control, with a `ControlTemplate`, and in that `ControlTemplate` there are borders, a close button, and a TextInput.
 
-The TextInput control exposes the following properties:
+Along with the properties the Telerik .NET MAUI TextInput control inherits from the Microsoft .NET MAUI Entry control, the Textinput exposes the following properties:
 
 * `SelectionOnFocus` (`enum` of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
     * (Default) `Unchanged`&mdash;The selection will not be modified.
@@ -20,15 +20,7 @@ The TextInput control exposes the following properties:
     * `CursorAtEnd`&mdash;The cursor will be moved at the end of the text.
     * `SelectAll`&mdash;The whole text will be selected.
 
-* `Text` (`string`)&mdash;Defines the text.
 * `Padding` (`Thickness`)&mdash;Defines the padding.
-
-## Events
-
-The TextInput exposes the `TextChanging` event that is raised when the text in the Entry starts to change, but before the `Text` property is updated. The `TextChanging` event handler receives a `TextChangingEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
-* `NewText` (`string`)&mdash;Gets the new text that is about to be entered into the entry.
-* `OldText` (`string`)&mdash;Gets the old text that is entered into the entry.
-* `Cancel` (`bool`)&mdash;Gets or sets a value that indicates whether to cancel the text changes.
 
 ## See Also
 

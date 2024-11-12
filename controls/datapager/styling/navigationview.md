@@ -41,7 +41,7 @@ Here is an example demonstrating how to use the `NavigationViewStyle` property.
 </Style>
 ```
 
-## Styling the Navigation ComboBox View
+## Styling the Navigation ComboBox
 
 To customize the appearance of the ComboBox view that allows the navigation to a specific page, use the `NavigationComboBoxStyle` (`Style` with target type of `telerik:RadComboBox`) property.
 
