@@ -27,6 +27,9 @@ navigation:
     controls:
         title: "Controls"
         position: 4
+    styling-and-themes:
+        title: "Styling and Themes"
+        position: 5
     security:
         title: "Security"
         position: 7

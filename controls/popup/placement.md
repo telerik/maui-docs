@@ -27,7 +27,7 @@ When the Popup is declared in XAML and you want to center it, attach it to the `
 
 Set the `RadTemplatedButton`'`Clicked` event handler:
 
-<snippet id=' popup-features-placement-event' />
+<snippet id='popup-features-placement-event' />
 
 The following image shows the end result.
 
