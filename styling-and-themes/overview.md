@@ -31,7 +31,7 @@ Here is an example of the AutoComplete control with `Purple` and `Purple Dark` a
 
 ## Using the MAUI Themes
 
-Before you can add Telerik Themes to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug: maui-getting-started %}) or [Visual Studio Code]({%slug: maui-getting-started-vs-code%}) articles.
+Before you can add Telerik Themes to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug maui-getting-started%}) or [Visual Studio Code]({%slug maui-getting-started-vs-code%}) articles.
 
 1. Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
 
