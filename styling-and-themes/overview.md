@@ -121,7 +121,7 @@ Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
 
->Check the [Changing the Telerik Theme at runtime based on the device theme]({%slug change-telerik-theme-runtime%}) kb article which demonstrates how you can reload the Telerik theme according to the device theme.
+>Check the [Changing the Telerik Theme at runtime based on the device theme]({%slug change-telerik-theme-runtime%}) kb article which demonstrates how you can reload the Telerik theme according to the device Dark/Light mode.
 
 ## Next Steps
 
