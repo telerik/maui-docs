@@ -1,17 +1,19 @@
 ---
-title: Themes Overview
-page_title: Themes Overview
+title: Theming Support
+page_title: Theming Support
 description: The Telerik UI for .NET MAUI suite comes with a built-in theme with a set of predefined color variations.
 slug: themes-overview
 tags: telerik,.net maui,theme,built-in
 position: 0
 ---
 
-# Themes Overview
+# Theming Support
 
 Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
 
 >The built-in Telerik UI for .NET MAUI theme and its swatches are currently in preview and were introduced in version 8.0.0 (2024 Q4).
+
+![Telerik .NET MAUI Theming Support](images/theming-support.png)
 
 ## Theme
 
@@ -25,13 +27,13 @@ The Telerik .NET MAUI theme comes with a set of eight predefined swatches for bo
 
 Here is an example of the AutoComplete control with `Purple` and `Purple Dark` applied:
 
-![Telerik .NET MAUI Theming](images/theming-default.png)
+![Telerik .NET MAUI AutoComplete with applied theme](images/theming-default.png)
 
 >You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** button to switch between the theme swatches.
 
-## Using the MAUI Themes
+## Using the MAUI Theming 
 
-Before you can add Telerik Themes to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug maui-getting-started%}) or [Visual Studio Code]({%slug maui-getting-started-vs-code%}) articles.
+Before you can add Telerik Theming to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug maui-getting-started%}) or [Visual Studio Code]({%slug maui-getting-started-vs-code%}) articles.
 
 **1.** Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
 
@@ -121,7 +123,7 @@ Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
 
->Check the [Changing the Telerik Theme at runtime based on the device theme]({%slug change-telerik-theme-runtime%}) kb article which demonstrates how you can reload the Telerik theme according to the device Dark/Light mode.
+>Check the [Changing the Telerik Theme at Runtime Based on the Device Theme]({%slug change-telerik-theme-runtime%}) kb article which demonstrates how you can reload the Telerik theme according to the device Dark/Light mode.
 
 ## Next Steps
 
