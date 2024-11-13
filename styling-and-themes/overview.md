@@ -27,7 +27,7 @@ Here is an example of the AutoComplete control with `Purple` and `Purple Dark` a
 
 ![Telerik .NET MAUI Theming](images/theming-default.png)
 
->You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** dropdown to switch between the theme swatches.
+>You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** button to switch between the theme swatches.
 
 ## Using the MAUI Themes
 
@@ -45,39 +45,39 @@ Before you can add Telerik Themes to your app, make sure that it is configured t
 
 ![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
 
-    * The `Colors` folder contains the resources needed for each theme swatch in separate resource dictionaries:
+* The `Colors` folder contains the resources needed for each theme swatch in separate resource dictionaries:
 
-        ![](images/teleriktheming-colors-folder.png)
+    ![](images/teleriktheming-colors-folder.png)
 
-    * The `Styles` folder contains the styles and templates of the Telerik .NET MAUI controls (colors are referenced through dynamic resources, so you can update them at runtime).
+* The `Styles` folder contains the styles and templates of the Telerik .NET MAUI controls (colors are referenced through dynamic resources, so you can update them at runtime).
 
 **3.** Go to the `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
 
-    ```XAML
-    <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-                <local:TelerikTheming />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Application.Resources>
-    ```
+```XAML
+<Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+            <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            <local:TelerikTheming />
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+</Application.Resources>
+```
 
-    >important The files inside the **TelerikTheming** folder are auto-generated. Use them only as a reference, do not modify the resources directly here.
+>important The files inside the **TelerikTheming** folder are auto-generated. Use them only as a reference, do not modify the resources directly here.
 
 **4.** Set the `Telerik` theme and one of its color variations inside the `App.xaml.cs` file:
 
-    ```C#
-    var telerikTheming = Application.Current
-                        .Resources
-                        .MergedDictionaries
-                        .OfType<TelerikTheming>()
-                        .Single();
-    telerikTheming.Theme = TelerikTheming.Themes
-                        .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
-    ```
+```C#
+var telerikTheming = Application.Current
+                    .Resources
+                    .MergedDictionaries
+                    .OfType<TelerikTheming>()
+                    .Single();
+telerikTheming.Theme = TelerikTheming.Themes
+                    .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
+```
 
 All the steps above apply the `Telerik` theme with `Purple` color variation to the Telerik .NET MAUI components used across the app.
 
