@@ -8,7 +8,7 @@ slug: autocomplete-commands
 
 # .NET MAUI AutoComplete Commands
 
-The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that lets you manipulate its [tokens selection]({%slug autocomplete-tokens-support%}) and a `ClearTextCommand` that lets you clear the entered text/selected tokens.
+The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that lets you manipulate its [token selection]({%slug autocomplete-tokens-support%}) and a `ClearTextCommand` that lets you clear the entered text/selected tokens.
 
 ## Remove Token Command
 
@@ -60,7 +60,7 @@ public class CustomAutoCompleClearTextCommand : AutoCompleteClearTextCommand
 }
 ```
 
-**2.** Apply the newly created command class to the AutoComplete's `ClearTextCommand`:
+**2.** Apply the newly created command class to the `ClearTextCommand` of the AutoComplete:
 
 ```XAML
 <telerik:RadAutoComplete ItemsSource="{Binding Source}"
