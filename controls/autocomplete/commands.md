@@ -8,7 +8,7 @@ slug: autocomplete-commands
 
 # .NET MAUI AutoComplete Commands
 
-The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that lets you manipulate its [tokens selection]({%slug autocomplete-tokens-support%}).
+The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that lets you manipulate its [tokens selection]({%slug autocomplete-tokens-support%}) and a `ClearTextCommand` that lets you clear the entered text/selected tokens.
 
 ## Remove Token Command
 
@@ -16,7 +16,7 @@ The .NET MAUI AutoComplete provides a `RemoveTokenCommand` that lets you manipul
 
 >Go to [Tokens Support in .NET MAUI AutoComplete]({%slug autocomplete-tokens-support%}) for detailed information on the `Tokens` display mode.
 
-## Example with the Default RemoveTokenCommand
+### Example with the Default RemoveTokenCommand
 
 The example below shows how to call the default `RemoveTokenCommand` from a custom `TokenTemplate` implementation:
 
@@ -24,7 +24,7 @@ The example below shows how to call the default `RemoveTokenCommand` from a cust
 
 ![Telerik .NET MAUI AutoComplete default RemoveTokenCommand](images/autocomplete-removetokencommand-template.png)
 
-## Example with a Custom RemoveTokenCommand
+### Example with a Custom RemoveTokenCommand
 
 The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash;a confirmation dialog appears before the default command is executed.
 
@@ -37,6 +37,42 @@ The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash
 <snippet id='autocomplete-custom-removetoken' />
 
 ![Telerik .NET MAUI AutoComplete custom RemoveTokenCommand](images/autocomplete-removetoken.gif)
+
+## Clear Text Command
+
+`ClearTextCommand`(`ICommand`)&mdash;Sets the AutoComplete text to `null`.This command is called when the user taps the clear button and clears the entered text as well as any tokens.
+
+The example below demonstrates a custom `ClearTextCommand` implementation&mdash;a confirmation dialog appears before the default command is executed.
+
+**1.** Create a custom command class that inherits from `AutoCompleteClearTextCommand`. Override, for example, its `Execute` method:
+
+```C#
+public class CustomAutoCompleClearTextCommand : AutoCompleteClearTextCommand
+{
+    public override async void Execute(object parameter)
+    {
+        bool executeDefault = await App.Current.MainPage.DisplayAlert("Confirm", "Clear text?", "Yes", "No");
+        if (executeDefault)
+        {
+            base.Execute(parameter);
+        }
+    }
+}
+```
+
+**2.** Apply the newly created command class to the AutoComplete's `ClearTextCommand`:
+
+```XAML
+<telerik:RadAutoComplete ItemsSource="{Binding Source}"
+                         TextSearchPath="Name"
+                         DisplayMode="Tokens">
+    <telerik:RadAutoComplete.ClearTextCommand>
+        <local:CustomAutoCompleClearTextCommand />
+    </telerik:RadAutoComplete.ClearTextCommand>
+</telerik:RadAutoComplete>
+```
+
+![Telerik .NET MAUI AutoComplete custom ClearTextCommand](images/autocomplete-cleartext.gif)
 
 ## See Also
 
