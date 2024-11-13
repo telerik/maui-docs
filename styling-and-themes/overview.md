@@ -33,17 +33,17 @@ Here is an example of the AutoComplete control with `Purple` and `Purple Dark` a
 
 Before you can add Telerik Themes to your app, make sure that it is configured to use the Telerik UI for .NET MAUI components. For more details, see the [Getting Started with Telerik UI for .NET MAUI in Visual Studio]({%slug maui-getting-started%}) or [Visual Studio Code]({%slug maui-getting-started-vs-code%}) articles.
 
-1. Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
+**1.** Go to the `.csproj` file of your MAUI project and set `UseTelerikTheming` property to `true` in a separate `PropertyGroup`:
 
-    ```XAML
-    <PropertyGroup>
-        <UseTelerikTheming>true</UseTelerikTheming>
-    </PropertyGroup>
-    ```
+```XAML
+<PropertyGroup>
+    <UseTelerikTheming>true</UseTelerikTheming>
+</PropertyGroup>
+```
 
-1. Rebuild the solution&mdash;this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
+**2.** Rebuild the solution&mdash;this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
 
-    ![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
+![Telerik .NET MAUI TelerikTheming folder](images/theming-folder.png)
 
     * The `Colors` folder contains the resources needed for each theme swatch in separate resource dictionaries:
 
@@ -51,7 +51,7 @@ Before you can add Telerik Themes to your app, make sure that it is configured t
 
     * The `Styles` folder contains the styles and templates of the Telerik .NET MAUI controls (colors are referenced through dynamic resources, so you can update them at runtime).
 
-1. Go to the `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
+**3.** Go to the `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
 
     ```XAML
     <Application.Resources>
@@ -67,7 +67,7 @@ Before you can add Telerik Themes to your app, make sure that it is configured t
 
     >important The files inside the **TelerikTheming** folder are auto-generated. Use them only as a reference, do not modify the resources directly here.
 
-4. Set the `Telerik` theme and one of its color variations inside the `App.xaml.cs` file:
+**4.** Set the `Telerik` theme and one of its color variations inside the `App.xaml.cs` file:
 
     ```C#
     var telerikTheming = Application.Current
@@ -121,8 +121,8 @@ Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
 
+>Check the [Changing the Telerik Theme at runtime based on the device theme]({%slug change-telerik-theme-runtime%}) kb article which demonstrates how you can reload the Telerik theme according to the device Dark/Light mode.
+
 ## Next Steps
 
 - [Customize the Telerik Theme]({%slug themes-customization %})
-
-
