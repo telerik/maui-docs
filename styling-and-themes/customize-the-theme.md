@@ -30,11 +30,11 @@ All available theme styles are in the `TelerikTheming` folder:
 
 To modify the theme resources:
 
-1. Go to the `Resources/Styles` folder and create a `ResourceDictionary` file without a code-behind file, similar to the default `Styles.xaml` and `Colors.xaml`:
+**1.** Go to the `Resources/Styles` folder and create a `ResourceDictionary` file without a code-behind file, similar to the default `Styles.xaml` and `Colors.xaml`:
 
 ![Telerik .NET MAUI Theming Custom Colors](images/theming-custom-swatch.png)
 
-2. Copy the needed colors or styles from the swatch that you need to modify and paste them into the newly created `ResourceDictionary` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
+**2.** Copy the needed colors or styles from the swatch that you need to modify and paste them into the newly created `ResourceDictionary` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
 
 ```XAML
 <?xml version="1.0" encoding="UTF-8" ?>
