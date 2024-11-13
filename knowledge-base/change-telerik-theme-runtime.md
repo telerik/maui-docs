@@ -1,7 +1,7 @@
 ---
-title: Changing the Telerik Theme at runtime based on the device theme
-page_title: Updating the Telerik Theme to a dark/light color variation when the app theme changes - .NET MAUI Knowledge Base
-description: Learn how to dynamically switch the Light/Dark mode of the Telerik theme based on the target device theme
+title: Changing the Telerik Theme at Runtime Based on the Device Theme
+page_title: Changing the Telerik Theme at Runtime Based on the Device Theme - .NET MAUI Knowledge Base
+description: Learn how to dynamically switch the light/dark mode of the Telerik theme based on the theme of the target device.
 type: how-to
 slug: change-telerik-theme-runtime
 tags: maui, theming, dark mode, dotnet maui, runtime
@@ -25,15 +25,15 @@ res_type: kb
 
 ## Description
 
-How can I change the Telerik theme at runtime based on the device theme (Dark/Light mode)?
+How can I change the Telerik theme at runtime based on the device's theme and dynamically switch between dark and light modes?
 
 ## Solution
 
-Go to the steps below to ensure the Telerik .NET MAUI controls respond to app theme changes and are properly styled whenever light/dark mode is switched.
+To ensure that the Telerik .NET MAUI controls respond to app theme changes correctly:
 
-**1.** Enable the Telerik Theming&mdash;As a first step, make sure the Telerik Theming is enabled in your app following the instructions here: [Using the Telerik Themes]({%slug themes-overview%}#using-the-telerik-theming).
+**1.** [Enable the Telerik Theming in your app]({%slug themes-overview%}#using-the-telerik-theming).
 
-**2.** Detect the current system theme&mdash;Use the `Application.RequestedTheme` property to get the current `AppTheme` and load light or dark colors of the Telerik Theming accordingly, for example:
+**2.** Detect the current system theme&mdash;use the `Application.RequestedTheme` property to get the current `AppTheme` and load the light or dark mode of the Telerik Theme, for example:
 
 ```C#
 private void ApplyTelerikTheme()
@@ -50,10 +50,9 @@ private void ApplyTelerikTheme()
 }
 ```
 
-For more details on the `Application.RequestedTheme` property, check [
-Detect the current system theme | MS Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#detect-the-current-system-theme) topic.
+For more details on the `Application.RequestedTheme` property, see the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#detect-the-current-system-theme" target="_blank">Detect the current system theme | MS Learn</a> topic.
 
-**3.** Switch the Telerik theme for Dark/Light mode changes&mdash;Use the `Application.RequestedThemeChanged` event to detect whenever the Dark/Light system theme has been changed and update the Telerik resources:
+**3.** Switch the Telerik theme to dark or light mode&mdash;use the `Application.RequestedThemeChanged` event to detect whenever the system theme has been changed and update the Telerik resources:
 
 ```C#
 public App()
@@ -68,10 +67,9 @@ public App()
 }
 ```
 
-For more details on the `Application.RequestedThemeChanged` event, check [
-React to theme changes | MS Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#react-to-theme-changes) topic.
+For more details on the `Application.RequestedThemeChanged` event, see the <a href="[https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#detect-the-current-system-theme](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#react-to-theme-changes)" target="_blank">React to theme changes | MS Learn</a> topic.
 
 ## See Also
 
 - [Telerik Themes Overview]({%slug themes-overview%})
-- [Respond to system theme changes | MS Learn](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes)
+- <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#detect-the-current-system-theme" target="_blank">Detect the current system theme | MS Learn</a>
