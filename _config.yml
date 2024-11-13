@@ -728,11 +728,11 @@ intro_columns:
   -
     title: "Document Processing Libraries"
     items:
-        "PdfProcessing": "pdfprocessing-overview"
-        "WordsProcessing": "wordsprocessing-overview"
-        "SpreadProcessing": "spreadprocessing-overview"
-        "SpreadStreamProcessing": "spreadstreamprocessing-overview"
-        "ZipLibrary": "ziplibrary-overview"
+        "PdfProcessing": "document-processing-libraries-overview"
+        "WordsProcessing": "document-processing-libraries-overview"
+        "SpreadProcessing": "document-processing-libraries-overview"
+        "SpreadStreamProcessing": "document-processing-libraries-overview"
+        "ZipLibrary": "document-processing-libraries-overview"
 
 # Assets pipeline configuration
 assets:

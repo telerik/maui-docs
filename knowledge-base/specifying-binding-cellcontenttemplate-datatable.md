@@ -134,4 +134,4 @@ public class DataTableViewModel : NotifyPropertyChangedBase
 
 # See Also
 
-- [DataGrid DataTable Support](https://docs.telerik.com/devtools/maui/controls/datagrid/datatable-support)
+- [DataGrid DataTable Support](https://docs.telerik.com/devtools/maui/controls/datagrid/populating-with-data/datatable-support)
