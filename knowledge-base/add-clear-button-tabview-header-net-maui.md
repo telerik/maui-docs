@@ -26,7 +26,9 @@ ticketid: 1670259
 
 ## Description
 
-I want to add a clear button in the header of a tab. After clicking this button, the corresponding tab should be removed from the TabView. This KB article also answers the following questions:
+I want to add a clear button in the header of a tab. After clicking this button, the corresponding tab must be removed from the TabView.
+
+This KB article also answers the following questions:
 - How can I remove a tab from TabView in .NET MAUI using a button?
 - Is it possible to modify the TabView header to include additional controls like a clear button?
 - Can I dynamically remove tabs from the TabView component in a .NET MAUI app?
