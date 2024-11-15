@@ -12,7 +12,7 @@ res_type: kb
 
 | Telerik Version | .NET Version | Product
 | --- | --- | --- |
-| 8.0.0 | NET 9 | Telerik NuGet package |
+| Telerik UI for MAUI 8.0.0 | NET 9 | Telerik NuGet package |
 
 ## Description
 
@@ -22,11 +22,11 @@ This article describes how to resolve the following error:
 System.IO.FileNotFoundException: 'Could not load file or assembly 'Microsoft.Maui.Controls.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
 ```
 
-This exception occurs when you are creating a **.NET 9 Blank MAUI** project and adding the Telerik MAUI package.
+This exception occurs when you are creating a Blank MAUI project that targets .NET 9, and has a reference to the Telerik MAUI package.
 
 ## Cause
 
-With .NET 9 official, the compatibility layout classes in the [`Microsoft.Maui.Controls.Compatibility`](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-9?view=net-maui-9.0#compatibility-layouts) namespace are obsoleted and removed from the default MAUI Blank app templates.
+With .NET 9 official, the compatibility layout classes in the [`Microsoft.Maui.Controls.Compatibility`](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-9?view=net-maui-9.0#compatibility-layouts) namespace are obsoleted. The `Microsoft.Maui.Controls.Compatibility` package is removed from the default MAUI Blank app templates.
 
 The exception is related to the fact that the Telerik NuGet package has a reference to the `Microsoft.Maui.Controls.Compatibility` package which package does not exists in the project.
 
@@ -63,12 +63,14 @@ The `Binaries/Net9` folder contain the Android, iOS, MacCatalyst, and WinUI plat
 #### Manually reference the assemblies:
 
 **1.** Create a `libs` folder in your solution folder.
+
 **2.** Copy the content of the `Binaries/Net9` folder into your `libs` folder.
+
 **3.** In your solution, reference the DLLs in the `libs` folder.
 
 >Visual Studio 2022 does not support differentiating DLL references for each target platform. You must manually edit the `.csproj` file and add conditions for each platform. The `Telerik.Maui.Controls.dll`, and `Telerik.Maui.Core.dll` must be referenced from the platform-specific folders.
 
-**4.**
+**4.** Reference the Telerik MAUI packages to the .csproj file
 
 ```xml
 <ItemGroup>
@@ -137,7 +139,7 @@ The `Binaries/Net9` folder contain the Android, iOS, MacCatalyst, and WinUI plat
 </ItemGroup>
 ```
 
-**5.** If you are using Telerik MAUI controls which depend on `SkiaSharp` add the `SkiaSharp.Views.Maui.Controls" Version="2.88.9` package to the project:
+**5.** If you are using Telerik MAUI controls which depend on `SkiaSharp` add the `SkiaSharp.Views.Maui.Controls` package to the project:
 
 ```
 <ItemGroup>
@@ -153,17 +155,17 @@ To visualize the Telerik controls, register them in the `MauiProgram.cs` file of
 
 **1.** In the `MauiProgram.cs` file, add the following using statement:
 
-```
+```xml
 using SkiaSharp.Views.Maui.Controls.Hosting;
 using Telerik.Maui.Controls;
 ```
 
 **2.** In the `CreateMauiApp` method, call the `.UseTelerikControls()` and `.UseSkiaSharp()` extension methods:
 
-```
-<!-- Code omitted for brevity -->
+```C#
+// Code omitted for brevity
 .UseMauiApp<App>()
 .UseTelerikControls()
 .UseSkiaSharp()
-<!-- Code omitted for brevity -->
+// Code omitted for brevity
 ```
