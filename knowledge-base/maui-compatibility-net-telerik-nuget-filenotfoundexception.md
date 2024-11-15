@@ -1,5 +1,5 @@
 ---
-title: Resolving System.IO.FileNotFoundException Cannot Load Microsoft.Maui.Controls.Compatibility When Using .NET 9 And Telerik MAUI Server
+title: Resolving System.IO.FileNotFoundException Cannot Load Microsoft.Maui.Controls.Compatibility When Using .NET 9 And Telerik MAUI Package
 description: Learn how to fix the System.IO.FileNotFoundException when using .NET 9 Blank MAUI Project and adding Telerik MAUI Package.
 type: troubleshooting
 page_title: Fix FileNotFoundException when using .NET 9 Blank MAUI Project and adding Telerik MAUI Package
