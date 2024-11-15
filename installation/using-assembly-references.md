@@ -12,10 +12,7 @@ position: 20
 
 Apart from using NuGet packages to install the controls, you can also reference the Telerik UI for .NET MAUI assemblies manually in your solution.
 
-You can get the Telerik UI for .NET MAUI assemblies in two ways:
-
-* After installing the controls by [using the MSI installer]({%slug automated-installer%})&mdash;By default, once you complete the installation, the assemblies will be located in the `C:\Program Files\Progress\Binaries` (for 32-bit machines) or `C:\Program Files (x86)\Progress\Binaries` (for 64-bit machines) folder.
-* By downloading the [ZIP archive]({%slug zip-archive%}) with the controls&mdash;Look for the `Binaries` folder in the archive.
+@[template](/_contentTemplates/common/manual-packages.md#manual-packages-location)
 
 The `Binaries/Net8` and `Binaries/Net9` folders contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
 
