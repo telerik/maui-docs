@@ -86,7 +86,7 @@ Below is an example demonstrating how to add a clear button to the tab header an
 </Style>
 ```
 
-2. Implement the `OnRemoveTabClicked` event handler in the code-behind. This method will remove the tab associated with the clicked clear button:
+3. Implement the `OnRemoveTabClicked` event handler in the code-behind. This method will remove the tab associated with the clicked clear button:
 
 ```C#
 private void OnRemoveTabClicked(object sender, EventArgs e)
