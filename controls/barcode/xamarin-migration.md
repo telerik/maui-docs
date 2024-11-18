@@ -20,7 +20,7 @@ When migrating the Barcode from Xamarin to .NET MAUI, consider the following dif
 | Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin Barcode | `RadBarcode` | xmlns:telerikBarcode="clr-namespace:Telerik.XamarinForms.Barcode;assembly=Telerik.XamarinForms.Barcode" | using Telerik.XamarinForms.Barcode; |
-| .NET MAUI Barcode | `RadBarcode` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls.Compatibility.Barcode; |
+| .NET MAUI Barcode | `RadBarcode` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## See Also
 

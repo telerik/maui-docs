@@ -33,7 +33,7 @@ All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Data` namespac
 When using C#, you'll need to add the using statement
 
 ```C#
-using Telerik.Maui.Controls.Compatibility.Common.Data;
+using Telerik.Maui.Controls.Data;
 ```
 
 Alternatively, if using XAML, they're be resolved through the same `telerik` xmlns:
@@ -196,7 +196,7 @@ The following example demonstrates the `CustomFilter` implementation:
 
 <!-- <snippet id='datagrid-delegatefilterdescriptor-csharp'/> -->
 ```C#
-class CustomFilter : Telerik.Maui.Controls.Compatibility.Common.Data.IFilter
+class CustomFilter : Telerik.Maui.Controls.Data.IFilter
 {
     public bool PassesFilter(object item)
     {
@@ -214,7 +214,7 @@ class CustomFilter : Telerik.Maui.Controls.Compatibility.Common.Data.IFilter
 }
 ```
 
-> `IFilter` is in `Telerik.Maui.Controls.Compatibility.Common.Data` namespace.
+> `IFilter` is in `Telerik.Maui.Controls.Data` namespace.
 
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
@@ -223,4 +223,4 @@ Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```
 
->important For a runnable example with the DataGrid Programmatic Filtering scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to DataGrid > Filtering > Programmatic Filtering.
+>important For a runnable example with the DataGrid Programmatic Filtering scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Filtering > Programmatic Filtering**.

@@ -31,7 +31,7 @@ Here is an example of how you can use the nested properties feature in DataGrid:
 **3.** In the sample, both classes inherit from the `NotifyPropertyChangedBase` class, which implements the `INotifyPropertyChanged` interface. You would need to add the following namespace to use it:
 
 ```C#
-using Telerik.Maui.Controls.Compatibility.Common;
+using Telerik.Maui.Controls;
 ```
 
 **4.** Create a ViewModel with a collection of `Person` objects:

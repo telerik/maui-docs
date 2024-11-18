@@ -29,7 +29,7 @@ The Badge indicator provides the following properties:
 * `BorderColor`(`Microsoft.Maui.Graphics.Color`)&mdash;Defines the Badge border color.
 * `CornerRadius`(`Microsoft.Maui.Thickness`)&mdash;Defines the corner radius of the Badge border.
 * `BorderThickness`(`Microsoft.Maui.Thickness`)&mdash;Defines the Badge border thickness.
-* `AnimationType`(`Telerik.Maui.Controls.Compatibility.Primitives.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
+* `AnimationType`(`Telerik.Maui.Controls.BadgeView.BadgeAnimationType`)&mdash;You can choose between `Scale` and `None`. The default value is `Scale`.
 * `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Defines the animation easing. For more details about different easing options, refer to the article on [`Microsoft.Maui.Easing`](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/animation/easing). The default value is `SinInOut`.
 * `AnimationDuration` in milliseconds(`int`)&mdash;Defines the animation duration in milliseconds. The default value is 300.
 * `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the Badge control template.

@@ -31,7 +31,7 @@ The following example demonstrates how to use the `LoadOnDemand` event.
 
 ## Loading Distinct Values
 
-The DataGrid enables you to load the distinct values that will be displayed in the `Telerik.Maui.Controls.Compatibility.DataGrid.DataGridDistinctValuesFilterView` through the `DistinctValuesLoading` event. The `DistinctValuesLoading` event handler receives the following parameters:
+The DataGrid enables you to load the distinct values that will be displayed in the `Telerik.Maui.Controls.DataGrid.DataGridDistinctValuesFilterView` through the `DistinctValuesLoading` event. The `DistinctValuesLoading` event handler receives the following parameters:
 
 * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `DistinctValuesLoadingEventArgs` object, which provides the following properties:
