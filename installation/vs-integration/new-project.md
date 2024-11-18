@@ -19,7 +19,7 @@ To use the **Telerik UI for .NET MAUI Create New Project** wizard, install the T
 
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
-* [The Telerik UI for .NET MAUI automated installer]()
+* [The Telerik UI for .NET MAUI automated installer]({%slug automated-installer%})
 
 ## Start the Wizard
 
