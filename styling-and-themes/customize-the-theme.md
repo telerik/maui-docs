@@ -20,7 +20,7 @@ Both customization approaches require the following steps:
 1. Copying the needed resources in a separate resource dictionary and modifying them.
 2. Merging the modified resource dictionary after the Telerik theme resources.
 
-Before proceeding with the next steps, make sure the [Telerik Theming is enabled]({%slug themes-overview%}#using-the-telerik-theming).
+Before proceeding with the next steps, make sure the [Telerik Theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
 
 ## Copying and Modifying the Theme Resources
 
