@@ -67,7 +67,7 @@ public App()
 }
 ```
 
-For more details on the `Application.RequestedThemeChanged` event, see the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#react-to-theme-changes)" target="_blank">React to theme changes | MS Learn</a> topic.
+For more details on the `Application.RequestedThemeChanged` event, see the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/system-theme-changes?view=net-maui-8.0#react-to-theme-changes" target="_blank">React to theme changes | MS Learn</a> topic.
 
 ## See Also
 
