@@ -20,7 +20,7 @@ When migrating the BadgeView from Xamarin to .NET MAUI, consider the following d
 | Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin BadgeView | `RadBadgeView` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
-| .NET MAUI BadgeView | `RadBadgeView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls.Compatibility.Primitives; |
+| .NET MAUI BadgeView | `RadBadgeView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## See Also
 

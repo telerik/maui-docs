@@ -80,9 +80,11 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **4.** Add the namespace:
 
  ```C#
+using Microsoft.Maui.Controls.Xaml;
 using Microsoft.Maui.Graphics;
-using Telerik.Maui.Control;
-using Telerik.Maui.Controls.Compatibility.Common;
+using System;
+using Telerik.Maui.Controls;
+using Telerik.Maui.Controls.Paths;
  ```
 
 The following image shows the result after creating the three Paths:

@@ -19,8 +19,8 @@ When migrating the Chart from Xamarin to .NET MAUI, consider the following diffe
 
 | Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
-| Xamarin Chart | `RadChart` | xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart" | using Telerik.XamarinForms.Chart; |
-| .NET MAUI Chart | `RadChart` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls.Compatibility.Chart; |
+| Xamarin Chart | `RadCartesianChart`/`RadPieChart` | xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart" | using Telerik.XamarinForms.Chart; |
+| .NET MAUI Chart | `RadCartesianChart`/`RadPieChart` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls.Compatibility.Chart; |
 
 ## See Also
 

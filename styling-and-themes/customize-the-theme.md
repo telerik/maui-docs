@@ -65,7 +65,7 @@ To modify the theme resources:
 
 ## Merging the New Resource Dictionary in App.xaml
 
-Once you customize the colors and styles, add the new resource dictionary to the `App.xaml` and make sure you merge `CustomTelerikSwatch.xaml` аfter the `TelerikTheming` file:
+Once you customize the colors and styles, add the new resource dictionary to the `App.xaml` and make sure you merge `CustomTelerikSwatch.xaml` after the `TelerikTheming` file:
 
 ```XAML
 <Application.Resources>

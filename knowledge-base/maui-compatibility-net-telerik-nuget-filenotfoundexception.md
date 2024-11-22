@@ -10,9 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Telerik Version | .NET Version | Product
-| --- | --- | --- |
-| Telerik UI for MAUI 8.0.0 | NET 9 | Telerik NuGet package |
+| Telerik Version | .NET Version | Product | Author |
+| --- | --- | --- | --- |
+| Telerik UI for MAUI 8.0.0 | NET 9 | Telerik NuGet package | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
@@ -141,7 +141,7 @@ The `Binaries/Net9` folder contain the Android, iOS, MacCatalyst, and WinUI plat
 
 **5.** If you are using Telerik MAUI controls which depend on `SkiaSharp` add the `SkiaSharp.Views.Maui.Controls` package to the project:
 
-```
+```xml
 <ItemGroup>
 	<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 	<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
@@ -155,7 +155,7 @@ To visualize the Telerik controls, register them in the `MauiProgram.cs` file of
 
 **1.** In the `MauiProgram.cs` file, add the following using statement:
 
-```xml
+```C#
 using SkiaSharp.Views.Maui.Controls.Hosting;
 using Telerik.Maui.Controls;
 ```

@@ -21,29 +21,30 @@ In this tutorial, you will enhance an existing .NET MAUI application by adding a
 
 @[template](/_contentTemplates/get-started.md#start-free-trial)
 
-## Step 1: Set Up Your .NET MAUI Project
+## Step 1: Download the Extension for Visual Studio
 
-In this step, you will create a basic .NET MAUI project as a starting point for your application development:
+To use the **Telerik UI for .NET MAUI Create New Project** wizard, install the Telerik UI for .NET MAUI Visual Studio Extension. You can get the extension from <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">the Visual Studio Code Marketplace.</a>
 
-1. Open Visual Studio and select **Create a new project** in the start window.
+## Step 2: Create a New Project
 
-1. Select the **.NET MAUI App** template, and click the **Next** button.
+To start the wizard, use the [Project](#project-menu) menu.
 
-	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-create-maui-app.png)
-	
-1. Name your project and select a location.
+1. Open Visual Studio and choose the **Create a new project** option.
+1. Search for **telerik maui**:
 
-1. Choose the .NET framework for your project.
+    ![Create a new project dialog with maui in the search field and results](../installation/vs-integration/images/vsextensions_createapp.png)
 
-1. Wait until Visual Studio restores all dependencies (when done, all exclamation marks in the **Dependencies** tree view item disappear).
+1. Select the **Telerik .NET MAUI Blank App** which represents a blank project for creating a .NET MAUI application that includes the Telerik .NET MAUI suite setup.
 
-1. Click the **Windows Machine** button to build and run the app.
+## Step 3: Configure the Project
 
-	![Telerik UI for .NET MAUI - create new MAUI project in Visual Studio](./images/gs-vs-build-run.png)
+Configure your **Telerik UI for .NET MAUI** project by setting your project name and its location.
 
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>. 
+    ![Telerik .NET MAUI App configurable wizard initial screen within the Create your new project dialog](../installation/vs-integration/images/vsextensions_configureapp.png)
 
-## Step 2: Add the Telerik NuGet Server
+Finally, Visual Studio opens the solution, which is pre-configured to use the Telerik UI for .NET MAUI controls and has the `Telerik.UI.for.Maui` NuGet package installed.
+
+## Step 4: Add the Telerik NuGet Server
 
 Telerik maintains a NuGet feed with official UI for .NET MAUI releases and service packs. These packages are available for registered users with an active trial or commercial license. Adding the Telerik NuGet server as a source in Visual Studio lets you download and install Telerik packages containing controls and utilities.
 
@@ -61,8 +62,7 @@ To add the Telerik NuGet source to Visual Studio:
 
 	![Add the Telerik NuGet Feed in Visual Studio](./images/telerik-nuget-feed.png)
 
-
-## Step 3: Install the Telerik UI for .NET MAUI Controls
+## Step 5: Install the Telerik UI for .NET MAUI Controls
 
 1. In Visual Studio and go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
 
@@ -80,15 +80,15 @@ To add the Telerik NuGet source to Visual Studio:
 
 	 ![Add Telerik UI for .NET MAUI package to the project](./images/gs-select-nuget-package.png)
 
-## Step 4: Add the Telerik Namespace and Register the Controls
+## Step 6: Add the Telerik Namespace and Register the Controls
 
 @[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
 
-## Step 5: Add a Telerik UI Component
+## Step 7: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
 
-## Step 6: Add Custom Content to the TemplatedButton
+## Step 8: Add Custom Content to the TemplatedButton
 
 @[template](/_contentTemplates/get-started.md#add-custom-content)
 
