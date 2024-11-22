@@ -34,15 +34,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='slideview-events-viewmodel'/>
 
-## Virtualization Mode
-
-The Telerik UI for .NET MAUI provides virtualization for the views. 
-
-You can specify what type of virtualization to use when displaying items in the SlideView by using the `VirtualizationMode` (`enum` of type `Telerik.Maui.Controls.SlideView.VirtualizationMode`) property. The available options are:
-
-* `None`&mdash;No virtualization is performed for the views of the SlideView.
-* (Default) `LoadOnDemand`&mdash;Creation and preparation of views is delayed until an item gets near the viewport.
-
 ## See Also
 
 - [Item Template]({%slug slideview-item-template%}) 
