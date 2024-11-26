@@ -1,6 +1,6 @@
 ---
 title: Adding Select All Option in ComboBox Drop-Down
-description: Learn how to add a "Select All" option in the drop-down list of a ComboBox for .NET MAUI.
+description: Learn how to add a Select All option in the drop-down list of a ComboBox for .NET MAUI.
 type: how-to
 page_title: How to Add Select All Option in ComboBox Drop-Down - ComboBox for .NET MAUI
 slug: adding-select-all-option-combobox-dropdown-net-maui
