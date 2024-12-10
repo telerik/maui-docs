@@ -4,8 +4,7 @@ page_title: Telerik UI for .NET MAUI Quick Start
 description: "Discover the minimum requirements for integrating Telerik UI for .NET MAUI controls into your project."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, macos, install, quick
 slug: maui-quick-start
-position: 2
-previous_url: /maui-getting-started, /get-started/first-steps, /installation/windows/install-msi, /first-steps, /get-started/windows/first-steps-msi, /get-started/windows/first-steps-nuget
+position: 5
 ---
 
 # Quick Start with Telerik UI for .NET MAUI
