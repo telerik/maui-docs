@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-When using the DataForm component for .NET MAUI with multiple input controls inside a ScrollView, the first editor automatically gains focus after tapping outside any input control. This behavior is observed specifically on the WinUI platform. For instance, in the default RadDataForm, its `ControlTemplate` wraps the `ContentPresenter` in a ScrollView, causing the first DataForm Editor (if it's a RadEntryEditor, etc.) to auto-focus erroneously upon an external tap.
+When using the DataForm component for .NET MAUI with multiple input controls inside a ScrollView, the first editor automatically gains focus after tapping outside any input control. This behavior is observed specifically on the WinUI platform. For instance, in the default `RadDataForm`, its `ControlTemplate` wraps the `ContentPresenter` in a ScrollView, causing the first DataForm Editor (if it's a RadEntryEditor, etc.) to auto-focus erroneously upon an external tap.
 
 ## Cause
 
