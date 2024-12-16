@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-When using RadCollectionView inside a ScrollView in a .NET MAUI application, the RadCollectionView does not scroll during item drag or swipe actions. 
+When using `RadCollectionView` inside a ScrollView in a .NET MAUI application, the `RadCollectionView` does not scroll during item drag or swipe actions. 
 
 ## Cause
 
