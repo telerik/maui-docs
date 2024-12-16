@@ -28,7 +28,7 @@ To resolve the scrolling issue with RadCollectionView when it's placed inside a 
 
 ### Approach 1: Remove the ScrollView
 
-Eliminate the ScrollView from your layout. This allows RadCollectionView to manage its own scrolling behavior effectively without interference.
+Eliminate the ScrollView from your layout. This allows `RadCollectionView` to manage its own scrolling behavior effectively without interference.
 
 ### Approach 2: Set a Definitive Height
 
