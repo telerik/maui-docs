@@ -32,7 +32,7 @@ Eliminate the ScrollView from your layout. This allows RadCollectionView to mana
 
 ### Approach 2: Set a Definitive Height
 
-Assign a definitive height to RadCollectionView or any control that has internal scrolling. This adjustment helps in defining the control's scrollable area explicitly, thereby preventing conflicts with the ScrollView.
+Assign a definitive height to `RadCollectionView` or any control that has internal scrolling. This adjustment helps in defining the control's scrollable area explicitly, thereby preventing conflicts with the ScrollView.
 
 By applying one of these solutions, `RadCollectionView` will scroll as expected when it is used within a ScrollView in a .NET MAUI application.
 
