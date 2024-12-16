@@ -41,4 +41,3 @@ By applying one of these solutions, RadCollectionView should be able to scroll a
 - [ScrollView documentation by Microsoft](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/scrollview?view=net-maui-9.0)
 - [CollectionView Overview](https://docs.telerik.com/devtools/maui/controls/collectionview/overview)
 
----
