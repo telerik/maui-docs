@@ -24,7 +24,9 @@ Nesting scrollable controls, such as `RadCollectionView`, within a ScrollView is
 
 ## Solution
 
-To resolve the scrolling issue with RadCollectionView when it's placed inside a ScrollView, consider the following approaches:
+To resolve the scrolling issue with `RadCollectionView` when it's placed inside a ScrollView, consider the following approaches:
+* [Remove the ScrollView](#approach-1-remove-the-scrollview)
+* [Set a Definitive Height](#approach-2-set-a-definitive-height)
 
 ### Approach 1: Remove the ScrollView
 
