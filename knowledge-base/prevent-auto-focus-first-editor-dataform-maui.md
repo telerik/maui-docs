@@ -20,7 +20,7 @@ When using the DataForm component for .NET MAUI with multiple input controls ins
 
 ## Cause
 
-This issue arises due to a known WinUI behavior where the first `Entry` in a `ScrollView` gains focus automatically when users interact with the application outside of the input controls. This can disrupt the expected user experience in applications where multiple inputs are present, and not all interactions are meant to refocus the first editor.
+This issue arises due to a known WinUI behavior where the first Entry in a ScrollView gains focus automatically when users interact with the application outside of the input controls. This can disrupt the expected user experience in applications where multiple inputs are present, and not all interactions are meant to refocus the first editor.
 
 ## Solution
 
