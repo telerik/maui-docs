@@ -20,7 +20,7 @@ When using RadCollectionView inside a ScrollView in a .NET MAUI application, the
 
 ## Cause
 
-Nesting scrollable controls, such as RadCollectionView, within a ScrollView is discouraged as it breaks UI virtualization and leads to various issues. This is documented in the [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/scrollview?view=net-maui-9.0), which advises against nesting ScrollView objects with other controls that provide their own scrolling functionality.
+Nesting scrollable controls, such as `RadCollectionView`, within a ScrollView is discouraged as it breaks UI virtualization and leads to various issues. This is documented in the [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/scrollview?view=net-maui-9.0), which advises against nesting ScrollView objects with other controls that provide their own scrolling functionality.
 
 ## Solution
 
