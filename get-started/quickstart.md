@@ -31,13 +31,7 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 @[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
 
-<!--Remove Step 3 when a new Telerik MAUI version that addresses the compatibility package dependency is available-->
-
-## Step 3: Install the Microsoft Compatibility Package
-
-If your project uses the .NET 9 framework, you must also install the `Microsoft.Maui.Controls.Compatibility` NuGet package. If you use .NET 8, skip this step.
-
-This step is needed because the Telerik UI for .NET MAUI NuGet package depends on the compatibility package, which is no longer included in the default **.NET MAUI App** project template. A future version of Telerik UI for .NET MAUI will remove this dependency.
+> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
 ## Next Steps
 
