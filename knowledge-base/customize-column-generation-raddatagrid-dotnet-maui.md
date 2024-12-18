@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-When using the `RadDataGrid` with `AutoGenerateColumns` set to `True`, there might be a need to customize specific columns during the auto-generation process. Specifically, changing a column to a `DataGridComboBoxColumn` type based on the property it is bound to. This article demonstrates how to achieve this customization by using the `DataGridCommandId.GenerateColumn` command.
+When using the `RadDataGrid` with `AutoGenerateColumns` set to `True`, you may need to customize specific columns during the auto-generation process. Specifically, changing a column to a `DataGridComboBoxColumn` type based on the property it is bound to. This article demonstrates how to achieve this customization by using the `DataGridCommandId.GenerateColumn` command.
 
 This knowledge base article also answers the following questions:
 - How do I customize column types in auto-generated columns in `RadDataGrid`?
