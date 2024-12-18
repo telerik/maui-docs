@@ -21,7 +21,7 @@ When using the `RadDataGrid` with `AutoGenerateColumns` set to `True`, you may n
 This knowledge base article also answers the following questions:
 - How do I customize column types in auto-generated columns in `RadDataGrid`?
 - Can I change a specific column to a ComboBox column in `RadDataGrid`?
-- How to bind a `DataGridComboBoxColumn` to a List in RadDataGrid?
+- How to bind a `DataGridComboBoxColumn` to a list in `RadDataGrid`?
 
 ## Solution
 
