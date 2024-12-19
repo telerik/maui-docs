@@ -45,7 +45,7 @@ public class CustomGenerateColumnCommand : DataGridCommand
 
         if (context.PropertyName == "Model")
         {
-            // Customize and return the column here
+            // Customize and return the column here.
             context.Result = new DataGridComboBoxColumn
             {
                 PropertyName = context.PropertyName,
@@ -57,7 +57,7 @@ public class CustomGenerateColumnCommand : DataGridCommand
         }
         else
         {
-            // Execute the default command for other properties
+            // Execute the default command for other properties.
             this.Owner.CommandService.ExecuteDefaultCommand(DataGridCommandId.GenerateColumn, parameter);
         }
     }
