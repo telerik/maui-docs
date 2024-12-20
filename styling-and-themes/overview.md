@@ -115,7 +115,7 @@ After applying the Purple swatch, the ToggleButton looks like this:
 
 You can use the colors provided by the Telerik theme and its swatches Each theme swatch provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look & feel.
 
-For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for backround/text color respectively, and `RadPrimaryColor` for the accent color to match the appearance of the Telerik controls:
+For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for background/text color respectively, and `RadPrimaryColor` for the accent color to match the appearance of the Telerik controls:
 
 ```XAML
 <VerticalStackLayout Spacing="10" 
@@ -140,7 +140,7 @@ Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ## Changing the Theme Swatch Dynamically
 
-You can take advantage of the available theme swatches and change them at runtime based on the device theme. This allows the application to respond to changes of the device theme from light to dark and the other way around. For more details on the suggested implementation, see the [Changing the Theme at Runtime]({%slug change-telerik-theme-runtime%}) KB article.
+You can take advantage of the available theme swatches and change them at runtime based on the device theme. This allows the application to respond to changes in the device theme from light to dark and the other way around. For more details on the suggested implementation, see the [Changing the Theme at Runtime]({%slug change-telerik-theme-runtime%}) KB article.
 
 ## Next Steps
 
