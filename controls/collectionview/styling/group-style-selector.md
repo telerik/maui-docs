@@ -12,7 +12,7 @@ The .NET MAUI CollectionView component exposes a conditional styling feature tha
 
 Apply conditional styling to the group header by setting the following properties:
 
-* `GroupViewStyleSelector` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group container when grouping is applied.
+* `GroupViewStyleSelector` (`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style applied to the group container when grouping is applied.
 
 The following example shows how to use the `GroupViewStyleSelector`:
 

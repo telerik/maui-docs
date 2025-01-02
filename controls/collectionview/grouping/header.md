@@ -22,8 +22,8 @@ The `BindingContext` of the `GroupHeader` is a complex object&mdash;`GroupContex
 
 The CollectionView control for .NET MAUI provides the following styling properties for customizing the appearance of the group view:
 
-* `GroupViewStyle`(`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group view.
-* `GroupViewStyleSelector`(`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style selector for the group view.
+* `GroupViewStyle`(`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style applied to the group view.
+* `GroupViewStyleSelector`(`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style selector for the group view.
 
 ## Customizing the Area With the Group Header Text
 
