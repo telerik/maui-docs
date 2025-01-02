@@ -12,7 +12,7 @@ The difference between the `DelegateGroupDescriptor` and the [PropertyGroupDescr
 
 You have to set the `KeyLookup` property of the `DelegateGroupDescriptor`, which gets or sets the `IKeyLookup` instance that is used to retrieve the group key for each data item.
 
-To specify the content that is used to represent the group descriptor visually within the grouping panel, you have to set the `DisplayContent` (`object`) property.
+To specify the content that is used to represent the group descriptor visually within the grouping panel, set the `DisplayContent` (`object`) property.
 
 >note You can sort the groups in ascending or descending order by using the `SortOrder` property.
 
