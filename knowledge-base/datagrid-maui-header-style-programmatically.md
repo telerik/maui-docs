@@ -38,7 +38,7 @@ style.Setters.Add(new Setter()
     Property = DataGridColumnHeaderAppearance.BorderThicknessProperty, 
     Value = new Microsoft.Maui.Thickness(1) 
 });
-// Add more setters as needed
+// Add more setters as needed.
 ...
 context.Result.HeaderStyle = style;
 ```
