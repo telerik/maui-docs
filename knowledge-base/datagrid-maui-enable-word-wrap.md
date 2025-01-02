@@ -57,7 +57,7 @@ DataTemplate template = new DataTemplate(() =>
     return label;
 });
 textColumn.CellContentTemplate = template;
-// Add other configurations as needed
+// Add other configurations as needed.
 radDataGrid.Columns.Add(textColumn);
 ```
 
