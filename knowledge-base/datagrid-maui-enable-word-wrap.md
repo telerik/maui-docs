@@ -21,7 +21,7 @@ In scenarios where large text data needs to be displayed inside DataGrid's cells
 This knowledge base article also answers the following questions:
 - How can I display long text in DataGrid cells without truncation?
 - Is it possible to wrap text within the DataGrid cells?
-- How to use CellContentTemplate for text wrapping in DataGrid?
+- How to use `CellContentTemplate` for text wrapping in DataGrid?
 
 ## Solution
 
