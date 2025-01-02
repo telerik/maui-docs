@@ -21,7 +21,7 @@ When grouping columns in the DataGrid for MAUI, the default behavior displays th
 This knowledge base article also answers the following questions:
 - How to change the displayed name of a grouped column in DataGrid for MAUI?
 - How to set a custom name for the grouping panel in DataGrid for MAUI?
-- How to use DisplayContent to customize grouped column names in MAUI DataGrid?
+- How to use `DisplayContent` to customize grouped column names in MAUI DataGrid?
 
 ## Solution
 
