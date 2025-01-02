@@ -32,7 +32,7 @@ Users can control the `GroupDescriptors` collection by using MVVM.
 
 Style the group header by setting the following properties:
 
-* `GroupContainerStyle` (`Style` with target type `RadCollectionViewGroupItem`)&mdash;Specifies the style applied to the group header when grouping is applied.
+* `GroupContainerStyle` (`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style applied to the group header when grouping is applied.
 
 ## See Also
 
