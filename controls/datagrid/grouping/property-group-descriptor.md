@@ -12,6 +12,8 @@ The `PropertyGroupDescriptor` is used to group the data in a [.NET MAUI DataGrid
 
 To use the `PropertyGroupDescriptor`, you have to set its `PropertyName` (`string`) property, which gets or sets the name of the property that is used to retrieve the key by which to group.
 
+To specify the content that is used to represent the group descriptor visually within the grouping panel, you have to set the `DisplayContent` (`object`) property.
+
 >note You can sort the groups in ascending or descending order by using the `SortOrder` property.
 
 Let's, for example, have the following business object:
