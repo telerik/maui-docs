@@ -12,7 +12,7 @@ res_type: kb
 
 When publishing a .NET MAUI app for the first time, you might encounter errors indicating a failure to retrieve information about various `System.ServiceModel.*` packages from a remote source with a 401 (Unauthorized) response status code. 
 
-This issue arises because Microsoft NuGet packages are being searched for in the Telerik NuGet server instead of the official NuGet repository.
+This issue arises because the NuGet package manager searches for Microsoft NuGet packages in the Telerik NuGet repository instead of the official NuGet repository.
 
 ## Environment
 
