@@ -15,7 +15,6 @@ The Telerik UI for .NET MAUI AutoComplete control provides the following Style p
 * `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the AutoComplete.
 * `BorderBrush`(`Brush`)&mdash;Defines the brush of the border around the control.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
-* `FocusedBorderBrush`(`Brush`)&mdash;Defines the color of the border when the control is focused.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
 * `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`)&mdash;Defines the style of the inner `RadTextInput` control.
 
