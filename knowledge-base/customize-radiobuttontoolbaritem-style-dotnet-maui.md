@@ -16,7 +16,9 @@ res_type: kb
 
 ## Description
 
-When using RadioButtonToolbarItems in a Toolbar, there may be a need to customize their style beyond the default settings when they are selected. This includes changing properties such as background color and text color. This knowledge base article also answers the following questions:
+When using RadioButtonToolbarItems in a Toolbar, there may be a need to customize their style beyond the default settings when they are selected. This includes changing properties such as background color and text color.
+
+ This knowledge base article also answers the following questions:
 - How to apply custom styles to RadioButtonToolbarItems in .NET MAUI?
 - How to use `VisualStateManager` to change the style of Toolbar items upon selection?
 - How to set different visual states for RadioButtonToolbarItems in a .NET MAUI Toolbar?
