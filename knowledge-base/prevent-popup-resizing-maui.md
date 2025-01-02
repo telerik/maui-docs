@@ -33,7 +33,7 @@ To set a fixed size for a `RadPopup` and prevent it from resizing when the conte
 
 Below is the XAML definition and the corresponding C# code behind demonstrating how to implement this solution:
 
-**XAML**
+>caption XAML
 
 ```xaml
 <ContentPage.Resources>
