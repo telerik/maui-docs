@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 
 To set a fixed size for a `RadPopup` and prevent it from resizing when the content changes, follow these steps:
 
-1. Measure the popup content at its first load and assign the result to the content's `WidthRequest` and `HeightRequest` properties. When the popup is open for the first time, measure the content by calling the `Measure` method and passing `double.PositiveInfinity` as width and height constraints. 
+1. Measure the popup content at its first load and assign the result to the content's `WidthRequest` and `HeightRequest` properties. When the popup opens for the first time, measure the content by calling the `Measure` method and passing `double.PositiveInfinity` as width and height constraints. 
 2. Assign the measurement results to the content's `WidthRequest` and `HeightRequest` properties to fix its size.
 3. Unsubscribe from the `Loaded` event to prevent re-measuring when the content changes.
 
