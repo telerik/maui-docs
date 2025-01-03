@@ -25,14 +25,16 @@ A *theme swatch* is a color variation of a theme. All swatches of a given theme 
 
 The Telerik .NET MAUI theme comes with a set of eight predefined swatches for both dark and light modes:
 
-* Main ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png)
-* Main Dark ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png)
-* Ocean Blue ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png)
-* Ocean Blue Dark ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png)
-* Purple ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png)
-* Purple Dark ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png)
-* Turquoise ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png)
-* Turquoise Dark ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png)
+| Swatch | Color |
+| ------ | ----- |
+| Main | ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png) |
+| Main Dark | ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png) |
+| Ocean Blue | ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png) |
+| Ocean Blue Dark | ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png) |
+| Purple | ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png) |
+| Purple Dark | ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png) |
+| Turquoise | ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png) |
+| Turquoise Dark | ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png) |
 
 The next image shows the differences and similarities between the Purple and Purple Dark swatches when applied to the AutoComplete control.
 
