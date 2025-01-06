@@ -14,7 +14,7 @@
 #add-namespace-register-controls
 To use the controls in the Telerik UI for .NET MAUI library, add the Telerik namespace:
 
-1. In the `MainPage.xaml` file, locate the root element at the top. with the already available namespaces.
+1. In the `MainPage.xaml` file, locate the root element at the top.
 1. Paste the Telerik namespace below the last already available namespace:
 
 	```
