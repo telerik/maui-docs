@@ -29,7 +29,17 @@ To localize display names in the Telerik .NET MAUI DataForm, utilize the `Displa
 
 ### Steps to Localize Display Names
 
-1. **Create the Resource File**: In your class library project (e.g., `MauiLib1`), add a .resx file. Ensure you change the access modifier of the .resx file to public so it can be accessed from your main project.
+1. Create the Resource File.
+
+   In your class library project (e.g., `MauiLib1`), add a .resx file. Ensure you change the access modifier of the .resx file to public so it can be accessed from your main project.
+
+1. Reference the Resource File.
+
+   In your main project (e.g., `MauiApp24`), you can also add a .resx file if needed. This demonstrates that the location of the resource files does not limit their use for localization.
+
+1. Use the `DisplayAttribute` for Localization.
+
+   In your model, apply the `DisplayAttribute` to properties you wish to localize. Specify the `Name` property with the name of the resource entry and the `ResourceType` property with the type of your resource class.
 
 2. **Reference the Resource File**: In your main project (e.g., `MauiApp24`), you can also add a .resx file if needed. This demonstrates that the location of the resource files does not limit their use for localization.
 
