@@ -35,7 +35,7 @@ When implementing the [BusyIndicator for .NET MAUI](https://docs.telerik.com/dev
 
 To cover the Flyout area of the Microsoft Shell along with the application's content page using BusyIndicator, you need to define a separate BusyIndicator or an overlay specifically for the Flyout. The Flyout area is not part of the application's main visual tree but is a separate page, requiring its own BusyIndicator implementation.
 
-1. **Override the FlyoutContent:** Access your Shell definition and override the `FlyoutContent` to include a BusyIndicator. This allows you to show the BusyIndicator or an overlay specifically for the Flyout menu.
+To achieve this, access your Shell definition and override the `FlyoutContent` to include a BusyIndicator. This allows you to show the BusyIndicator or an overlay specifically for the Flyout menu.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
