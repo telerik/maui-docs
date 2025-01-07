@@ -92,7 +92,7 @@ To cover the Flyout area of the Microsoft Shell along with the application's con
 
 ### Additional Information
 
-- Understanding the architecture of .NET MAUI Shell, including the Flyout menu, is crucial for implementing this solution. For more details, refer to the [.NET MAUI Shell flyout documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/flyout?view=net-maui-9.0).
+- Understanding the architecture of the .NET MAUI Shell, including the Flyout menu, is crucial for implementing this solution. For more details, refer to the [.NET MAUI Shell flyout documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/flyout?view=net-maui-9.0).
 - This solution is applicable to any BusyIndicator, including the Telerik RadBusyIndicator, and is not limited to the default ActivityIndicator provided by .NET MAUI.
 
 
