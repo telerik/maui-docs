@@ -21,7 +21,7 @@ In desktop applications, creating a two-layer hierarchy menu in the Toolbar comp
 This knowledge base article also answers the following questions:
 - How to add nested menus in Toolbar for .NET MAUI?
 - How to use a context menu to create a multi-level menu structure in Toolbar?
-- How to implement a drop-down button with nested items in .NET MAUI Toolbar?
+- How to implement a drop-down button with nested items in the .NET MAUI Toolbar?
 
 ## Solution
 
