@@ -20,7 +20,7 @@ In Telerik Scheduler for .NET MAUI, you may need to change the text and selectio
 
 This knowledge base article also answers the following questions:
 - How to style the day names in the drop-down calendar of Scheduler?
-- How to change the selection color in the calendar used by Scheduler?
+- How to change the selection color in the calendar used by the Scheduler?
 - How to modify text colors in the Scheduler's drop-down calendar?
 
 ## Solution
