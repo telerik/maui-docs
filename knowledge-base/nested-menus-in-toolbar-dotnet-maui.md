@@ -19,7 +19,7 @@ res_type: kb
 In desktop applications, creating a two-layer hierarchy menu in the Toolbar component might be necessary to organize actions or options efficiently. The goal is to have a main menu item that, when interacted with, displays a secondary level of menu items, possibly on the right side. 
 
 This knowledge base article also answers the following questions:
-- How to add nested menus in Toolbar for .NET MAUI?
+- How to add nested menus in the Toolbar for .NET MAUI?
 - How to use a context menu to create a multi-level menu structure in the Toolbar?
 - How to implement a drop-down button with nested items in the .NET MAUI Toolbar?
 
