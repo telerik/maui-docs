@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To customize the appearance of the drop-down calendar in Telerik Scheduler for .NET MAUI, apply implicit styles targeting the `RadCalendar` component. Utilize a `DayStyleSelector` to define custom styles for different states of calendar labels such as normal, selected, and out-of-scope days.
+To customize the appearance of the drop-down calendar in the Telerik Scheduler for .NET MAUI, apply implicit styles targeting the `RadCalendar` component. Utilize a `DayStyleSelector` to define custom styles for different states of calendar labels such as normal, selected, and out-of-scope days.
 
 **1.** Define a custom `DayStyleSelector` in the `ResourceDictionary` of your `ContentPage`. This selector allows specifying styles for various label states within the calendar.
 
