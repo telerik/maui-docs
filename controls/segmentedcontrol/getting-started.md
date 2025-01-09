@@ -42,7 +42,18 @@ Before adding the SegmentedControl, you need to:
     </telerik:RadSegmentedControl.ItemsSource>
 </telerik:RadSegmentedControl>
 ```
-
+## How to add translation
+```XAML
+<telerik:RadSegmentedControl.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+        <x:Static Member="strings:AppResources.Popular"/>
+    </x:Array>
+</telerik:RadSegmentedControl.ItemsSource>
+```
+Where "strings" is:
+```XAML
+xmlns:strings="clr-namespace:YOURNAMESPACE"
+```
 **2.** Add the following namespace:
 
 ```XAML
