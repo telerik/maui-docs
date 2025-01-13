@@ -18,7 +18,7 @@ The tables in the following sections list any differences between the APIs of th
 | Control | Control name | C# Namespace| XAML Namespcace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin DataGrid | `RadDataGrid` | xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid" | using Telerik.XamarinForms.DataGrid; |
-| .NET MAUI DataGrid | `RadDataGrid` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls.Compatibility.DataGrid; |
+| .NET MAUI DataGrid | `RadDataGrid` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
 
 ## API Changes
 

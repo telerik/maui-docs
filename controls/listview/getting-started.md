@@ -7,6 +7,8 @@ previous_url: /controls/listview/listview-getting-started
 slug: listview-getting-started
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # Getting Started with the .NET MAUI ListView
 
 This guide provides the information you need to start using the [Telerik UI for .NET MAUI ListView]({%slug listview-overview%}) by adding the control to your project.

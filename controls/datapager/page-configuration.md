@@ -35,7 +35,7 @@ To implement a page number range, use the following DataPager properties:
 
 ## Item Spacing
 
-You can specify the space between the items in the DataPager by setting the `ItemSpacing` (`double`) property. The default value is `0`.
+You can specify the space between the items in the DataPager by setting the `ItemSpacing` (`double`) property. The default value is `16`.
 
 ## Example
 

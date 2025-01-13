@@ -7,6 +7,8 @@ previous_url: /controls/listview/styling/listview-features-style-selector
 slug: listview-features-style-selector
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Item Style Selector
 
 The ListView component exposes conditional styling feature. It allows users to apply a different `Style` to each item depending on a specific condition.

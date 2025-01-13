@@ -7,6 +7,8 @@ previous_url: /controls/listview/cells/listview-itemtemplateselector
 slug: listview-item-template-selector
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView ItemTemplateSelector
 
 The ListView control exposes an `ItemTemplateSelector` property which you can use to apply different template to each item depending on a specific condition.  

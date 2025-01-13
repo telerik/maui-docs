@@ -8,7 +8,7 @@ slug: combobox-filtering
 
 # .NET MAUI ComboBox Filtering
 
-The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides filtering, which allows the users to refine their search results as they type into the input field. The default filtering is performed according to the `SearchMode` and `SearchTexhPath` properties of the ComboBox. 
+The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides filtering, which allows the users to refine their search results as they type into the input field. The default filtering is performed according to the `SearchMode` and `SearchTextPath` properties of the ComboBox. 
 
 For more details on the search functionality of the ComboBox, go to the [Edit Mode & Search]({%slug combobox-editmode-and-search%}) topic.
 

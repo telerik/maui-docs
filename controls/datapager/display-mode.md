@@ -11,7 +11,7 @@ tags: display mode
 
 The DataPager lets you control the visibility of its visual elements. In addition, you can use Adaptive Display modes to arrange the pager's elements.
 
-To set the visibility of the DataPager's elements, use the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property. The available options for `DisplayMode` are:
+To define which elements can be displayed in the DataPager, use the `DisplayMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerDisplayMode`) property. The available options are:
 
 * `None`&mdash;Displays no elements in the DataPager.
 * `FirstPageButton`&mdash;Displays the first page button.
@@ -22,6 +22,8 @@ To set the visibility of the DataPager's elements, use the `DisplayMode` (`enum`
 * `LastPageButton`&mdash;Displays the last page button.
 * `PageSizesView`&mdash;Displays the `PageSizes` view.
 * `NavigationView`&mdash;Displays the navigation view.
+
+>tip The `DisplayMode` property supports a bitwise combination of the values from the `DataPagerDisplayMode` enumeration to enable more than one option.
 
 The following example demonstrates how to use the  `DisplayMode` property:
 
@@ -49,7 +51,26 @@ This is the result on desktop:
 
 The DataPager lets you customize the default arrangement of the elements in the pager by providing the `AdaptiveDisplayModes` property:
 
-* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of element combinations that will be displayed.
+* `AdaptiveDisplayModes` (`IList<DataPagerDisplayMode>`)&mdash;Specifies a list of the desired combinations of elements that should be displayed. The actual elements that will be displayed are the result of the DataPager's `DisplayMode` property, and the size of the control.
+
+For example, if you set `AdaptiveDisplayModes` and `DisplayMode` to the values in the snippet below, the DataPager will arrange the elements based on the values set in the `AdaptiveDisplayModes` collection and will skip the elements that are not defined in the `DisplayMode` property&mdash;the `NextPageButton` element.
+
+```XAML
+<telerik:RadDataPager Source="{Binding Data}"
+                      DisplayMode="FirstPageButton,LastPageButton,NavigationComboBox">
+    <telerik:RadDataPager.AdaptiveDisplayModes>
+        <x:Array Type="{x:Type telerik:DataPagerDisplayMode}">
+            <telerik:DataPagerDisplayMode>FirstPageButton, NavigationComboBox, NextPageButton, LastPageButton</telerik:DataPagerDisplayMode>
+        </x:Array>
+    </telerik:RadDataPager.AdaptiveDisplayModes>
+</telerik:RadDataPager>
+```
+
+This is the result on WinUI:
+
+![.NET MAUI DataPager Display mode and AdaptiveDisplay mode](images/datapager-displaymode-adaptivemode.png)
+
+## Example
 
 The following example demonstrates how to use the  `AdaptiveDisplayModes` property:
 

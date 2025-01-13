@@ -14,11 +14,11 @@
 #add-namespace-register-controls
 To use the controls in the Telerik UI for .NET MAUI library, add the Telerik namespace:
 
-1. In the `MainPage.xaml` file, locate the root element at the top. with the already available namespaces.
+1. In the `MainPage.xaml` file, locate the root element at the top.
 1. Paste the Telerik namespace below the last already available namespace:
 
 	```
-	xmlns:telerikCombo="telerik="http://schemas.telerik.com/2022/xaml/maui"
+	xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 	```
 
 To visualize the Telerik controls, register them in the `MauiProgram.cs` file of your project:
@@ -40,7 +40,7 @@ To visualize the Telerik controls, register them in the `MauiProgram.cs` file of
 #end
 
 #add-telerik-component
-In this step, you will replace the Button control in Microsoft's template with a Telerik control. The Telerik UI for .NET MAUI [TemplatedButton](https://docs.telerik.com/devtools/maui/controls/templatedbutton/overview) that you will use gives you full control over the Button's content.
+In this step, you will replace the Button control in Microsoft's project template with a Telerik control. The Telerik UI for .NET MAUI [TemplatedButton](https://docs.telerik.com/devtools/maui/controls/templatedbutton/overview) that you will use gives you full control over the Button's content.
 
 To add the TemplatedButton control to the application:
 
@@ -129,5 +129,5 @@ In this step, you will edit the code-behind file by adding logic that makes the 
 	</telerik:RadTemplatedButton>
 	```
 
-To run the application, press `F5`. Congratulations, you added created your first app with Telerik UI for .NET MAUI controls!
+To run the application, press `F5`. Congratulations, you created your first app with Telerik UI for .NET MAUI controls!
 #end

@@ -24,7 +24,7 @@ This topic describes in details the configuration options related to the editabl
 ComboBox provides both case-sensitive and case-insensitive searching modes. The following properties are exposed:
 
 - `SearchMode`(enumeration of type `Telerik.Maui.Controls.SearchMode`)&mdash;Defines the value that sets search sets some search criteria for the control. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. The default SearchMode is `StartsWith`.
-- `SearchTexhPath`(`string`)&mdash;Specifies the name of the property against which the searching will be performed.
+- `SearchTextPath`(`string`)&mdash;Specifies the name of the property against which the searching will be performed.
 * `HighlightTextColor`(*Microsoft.Maui.Graphics.Color*)&mdash;Defines the color of the text that will be highlighted when searching is performed.
 
 > Searching can be performed when `IsEditable` is `true`.

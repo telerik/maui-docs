@@ -61,7 +61,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on WinUI: 
 
-![.NET MAUI Entry Visual States](images/)
+![.NET MAUI Entry Visual States](images/entry-styling.gif)
 
 >tip For a runnable example demonstrating the Entry's Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
 

@@ -8,6 +8,8 @@ previous_url: /controls/listview/listview-features-commands
 tags: commands
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Commands
 
 The Command design-pattern is used in the XAML and MVVM world. The ListView strictly follows the Command design-pattern best practices and provides an intuitive and easy-to-use set of APIs that allow you to control various aspects of ListView behavior.

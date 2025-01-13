@@ -1,6 +1,6 @@
 ---
 title: How to Hide the No Result Message in the AutoComplete for .NET MAUI
-description: Learn how to hide the "No result" message popup in the AutoComplete control for .NET MAUI
+description: Learn how to hide the No Result message popup in the AutoComplete control for .NET MAUI
 type: how-to
 page_title: How to Hide the No Result Message in the AutoComplete for .NET MAUI
 slug: hide-no-result-message-autocomplete-net-maui

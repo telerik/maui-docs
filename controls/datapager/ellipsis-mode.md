@@ -11,7 +11,7 @@ tags: ellipsis modes, data pager, maui, dotnet maui, paging
 
 The ellipsis appears when the pages are more than the rendered numeric buttons. It provides a hint for the end user and indicates that there are undisplayed pages.
 
-You can specify where the ellipsis is allowed to appear by setting the `EllipsisMode` (`enum` of type `Telerik.Maui.Controls.DataPagerDataPagerEllipsisMode`) property. The `EllipsisMode` controls whether the numeric buttons for the first/last page are replaced with an ellipsis (...) when there are more pages to the left/right.
+You can specify where the ellipsis is allowed to appear by setting the `EllipsisMode` (`enum` of type `Telerik.Maui.Controls.DataPager.DataPagerEllipsisMode`) property. The `EllipsisMode` controls whether the numeric buttons for the first/last page are replaced with an ellipsis (...) when there are more pages to the left/right.
 
 The available options for `EllipsisMode` are:
 
@@ -19,6 +19,10 @@ The available options for `EllipsisMode` are:
 * `Before`&mdash;Display an ellipsis instead of the first numeric button.
 * (Default) `After`&mdash; Display an ellipsis instead of the last numeric button.
 * `Both`&mdash;Display an ellipsis on both sides.
+
+The image below shows the ellipsis modes:
+
+![.NET MAUI DataPager Ellipsis mode](images/datapager-ellispsismode.png)
 
 ## Example
 
@@ -37,10 +41,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Define the `ViewModel`:
 
 <snippet id='datapager-features-viewmodel' />
-
-This is the result on desktop:
-
-![.NET MAUI DataPager Ellipsis mode](images/datapager-ellispsismode.gif)
 
 > For the DataPager Ellipsis Mode example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Features** category.
 

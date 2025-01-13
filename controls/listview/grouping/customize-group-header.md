@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-customize-group-header
 tags: group, radlistview, groupdescriptor, custom group header
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Group Header Template
 
 The ListView has a default group header that is displayed when grouping is applied.

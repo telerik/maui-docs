@@ -8,6 +8,8 @@ previous_url: /controls/listview/grouping/listview-grouping-multilevel
 tags: group, radlistview, groupdescriptor, multilevel
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Multi-Level Grouping
 
 This article provides an overview on how you can enable multi-level grouping in the ListView.

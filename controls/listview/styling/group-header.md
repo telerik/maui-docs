@@ -8,6 +8,8 @@ previous_url: /controls/listview/styling/listview-styling-group-header
 tags: style, group, header
 ---
 
+@[template](/_contentTemplates/common/listview-obsolete.md#listview-obsolete)
+
 # .NET MAUI ListView Group Header Style
 
 In addition to the [Item Styles]({%slug listview-features-styling%}), the ListView enables you to modify the visual appearance of its group headers when grouping is enabled. The feature is implemented through the `GroupHeaderStyle` property of type `ListViewGroupStyle`.

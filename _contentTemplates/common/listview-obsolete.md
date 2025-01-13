@@ -1,0 +1,3 @@
+#listview-obsolete
+>caution The `RadListView` control is now obsolete and will be removed in the future. Use the [RadCollectionView]({%slug collectionview-overview%}) control instead. The `RadCollectionView` is a complete, ground-up rewrite of the ListView. The `RadCollectionView` offers improved performance, enhanced features, and a modernized approach to managing lists of data. The `RadCollectionView` incorporates all of the ListView's key features. More about the differences between both components and how to migrate to the new `RadCollectionView` is available in the [Migrating the Telerik .NET MAUI RadListView to RadCollectionView]({%slug listview-migration%}) article.
+#end

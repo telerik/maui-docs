@@ -10,7 +10,7 @@ previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget,
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio Code
 
-In this tutorial, you will enhance an existing .NET MAUI application by adding a Telerik UI for .NET MAUI control. You will achieve this by using Visual Studio Code (on Windows or Mac) and utilizing the Telerik NuGet source that will let you download and install Telerik controls.
+In this tutorial, you will create a simple .NET MAUI application and enhance it by adding a Telerik UI for .NET MAUI control. You will achieve this by using Visual Studio Code (on Windows or Mac) and utilizing the Telerik NuGet source that lets you download and install Telerik controls.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ In this tutorial, you will enhance an existing .NET MAUI application by adding a
 
 @[template](/_contentTemplates/get-started.md#start-free-trial)
 
-## Step 1: Set Up Your .NET MAUI Project
+## Step 1: Create a New MAUI Project
 
 In this step, you will create a basic .NET MAUI project as a starting point for your application development, and then run it:
 
@@ -81,6 +81,8 @@ After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 		```
 		dotnet add package Telerik.UI.for.Maui
 		```
+
+> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
 ## Step 4: Add the Telerik Namespace and Register the Controls
 

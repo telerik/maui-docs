@@ -30,7 +30,7 @@ The GridSplitter provides the following CommonStates visual states:
 
 * `Normal`&mdash;Applies when the GridSplitter is in normal state.
 * `MouseOver`&mdash;Applies when the mouse pointer is over the GridSplitter.
-* `Disabled`&mdash;Applies when the GridSplitter is disabled.
+* `Disabled`&mdash;Applies when the GridSplitter visual state is set to disabled.
 
 This is the result of applying the visual states:
 
