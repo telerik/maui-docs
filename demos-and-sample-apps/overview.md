@@ -40,4 +40,4 @@ Crypto Tracker demo is a real-case crypto application that shows changes in cryp
 
 ![Telerik UI for .NET MAUI CryptoTracker App](../images/crypto-app.png)
 
-For more information on it, refer to [Crypro Tracker App]({%slug maui-crypto-app%}).
+For more information on it, refer to [Crypto Tracker App]({%slug maui-crypto-app%}).
