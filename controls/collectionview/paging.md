@@ -1,18 +1,18 @@
 ---
 title: Paging
 page_title: .NET MAUI DataPager Documentation - Paging Support
-description: Learn more about how to add paging functionality to the DataGrid for .NET MAUI.
+description: Learn more about how to add paging functionality to the CollectionView for .NET MAUI.
 position: 7
-slug: datagrid-paging
+slug: collectionview-paging
 ---
 
-# .NET MAUI DataPager Integration with DataGrid
+# .NET MAUI DataPager Integration with CollectionView
 
-You can page the data of the Telerik UI for .NET MAUI DataGrid by using the [DataPager]({%slug datapager-overview%}) control.
+You can page the data of the Telerik UI for .NET MAUI CollectionView by using the [DataPager]({%slug datapager-overview%}) control.
 
-![.NET MAUI DataGrid Paging support](images/datapager-datagrid-paging.png)
+![.NET MAUI CollectionView Paging support](images/datapager-collectionview-paging.png)
 
->Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.
+>Currently, the DataPager does not support the CollectionView `LoadOnDemand` collection.
 
 ## DataPager Features
 
@@ -34,11 +34,11 @@ Here is a list of the most important features of the DataPager control:
 
 ## Example 
 
-Here is an example of how to use the DataPager with the DataGrid control.
+Here is an example of how to use the DataPager with the CollectionView control.
 
 **1.** Define the DataPager and the DataPager in XAML:
 
-<snippet id='datagrid-datapager' />
+<snippet id='radcollectionview-datapager' />
 
 **2.** Add the following namespace:
 
@@ -54,7 +54,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datapager-data' />
 
-> For the DataPager Integration with DataGrid example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Integration** category.
+> For the DataPager Integration with CollectionView example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Integration** category.
+> For the DataPager Integration with Microsoft MAUI CollectionView example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Integration** category.
 
 ## See Also
 
