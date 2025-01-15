@@ -69,7 +69,7 @@ public class PersonDataTemplateSelector : DataTemplateSelector
 }
 ```
 
-### Step 3: Define sample model and ViewModel:
+### Step 3: Define Sample Model and ViewModel:
 
 ```csharp
 public class ViewModel
