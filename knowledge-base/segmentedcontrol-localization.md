@@ -30,9 +30,9 @@ To localize the text inside the segments of the SegmentedControl, do the followi
 
 **1.** [Create a `.resx` file](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/localization?view=net-maui-9.0#create-resource-files-to-store-strings) to store the strings. In the example below, the `.resx` file is named `MyResource`.
 
-![.NET MAUI Reosurce file for localization](images/myresource-file.png)
+![.NET MAUI Resource file for localization](images/myresource-file.png)
 
-The resource file contain the following information for each item:
+The resource file contains the following information for each item:
 
 * Name&mdash;Specifies the key used to access the text in code.
 * NeturalValue&mdash;Specifies the translated text.
