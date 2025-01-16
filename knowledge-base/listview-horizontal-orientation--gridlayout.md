@@ -53,4 +53,4 @@ The default value of Orientation property is `Vertical`. If you want to apply ho
 
 ## See Also
 
--[ListView Layouts]({%slug listview-features-layouts%}})
+-[ListView Layouts]({%slug listview-features-layouts%})
