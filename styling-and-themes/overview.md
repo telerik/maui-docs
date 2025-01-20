@@ -1,13 +1,13 @@
 ---
-title: Theming Support
-page_title: Theming Support
+title: Theming Overview
+page_title: Theming Overview
 description: The Telerik UI for .NET MAUI suite comes with a built-in theme with a set of predefined color variations.
 slug: themes-overview
 tags: telerik,.net maui,theme,built-in
 position: 0
 ---
 
-# Theming Support
+# Theming Overview
 
 Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
 
@@ -146,4 +146,5 @@ You can take advantage of the available theme swatches and change them at runtim
 
 ## Next Steps
 
-* [Customizing the Telerik Theme]({%slug themes-customization %})
+* [Customizing the Telerik Theme Colors]({%slug themes-customization %})
+* [Customizing the Control-Specific Theme Resources]({%slug theme-component-styles-customization %})
