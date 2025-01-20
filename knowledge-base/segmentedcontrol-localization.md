@@ -34,7 +34,7 @@ To localize the text inside the segments of the SegmentedControl:
 
 The resource file contains the following information for each item:
 
-* Name&mdash;Specifies the key used to access the text in code.
+* `Name`&mdash;Specifies the key used to access the text in code.
 * NeturalValue&mdash;Specifies the translated text.
 
 **2.** In XAML, access the generic static properties in the `SegmentedControl.ItemsSource` by using the `x:Static` markup extension:
