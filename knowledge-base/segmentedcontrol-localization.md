@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To localize the text inside the segments of the SegmentedControl, do the following steps: 
+To localize the text inside the segments of the SegmentedControl: 
 
 **1.** [Create a `.resx` file](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/localization?view=net-maui-9.0#create-resource-files-to-store-strings) to store the strings. In the example below, the `.resx` file is named `MyResource`.
 
