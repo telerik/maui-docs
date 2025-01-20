@@ -39,9 +39,9 @@ The image above illustrates the process for binding to the `PagedSource` propert
 1. You assign an `object` to the `Source` of a `RadDataPager`.
 1. The `RadDataPager` wraps the `Source` in a custom collection.
 1. The `Source` is exposed through the `RadDataPager.PagedSource` property.
-1. You attach any number of item controls to the `PagedSource` and they are paged automatically.
+1. Attach an item control to the `PagedSource` property and the control will be paged automatically.
 
-Review the [Integration with DataGrid]({%slug datapager-datagrid%}) article, for more details how to use the `PagedSource` property.
+Review the [Integration with DataGrid]({%slug datapager-datagrid%}) and [Integration with CollectionView]({%slug datapager-collectionview%}) articles, for more details how to use the `PagedSource` property.
 
 ## See Also
 
