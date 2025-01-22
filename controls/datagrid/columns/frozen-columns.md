@@ -40,10 +40,9 @@ Once a column is frozen, it is added to the `FrozenColumns` collection (read-onl
 
 In a scenario when there is/are frozen column(s) and grouping, you can specify whether the group header will be clipped to the bounds of the frozen area by setting the `AreGroupHeadersClippedWhenFrozen` (`bool`) property. The default value is `False`.
 
-Here is a result when the `AreGroupHeadersClippedWhenFrozen` property is set:
+Here is the result when the `AreGroupHeadersClippedWhenFrozen` property is set:
 
 ![.NET MAUI DataGrid Frozen Columns and Group Headers](images/frozen-columns-group-headers.gif)
-
 
 ## Styling
 
