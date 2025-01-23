@@ -26,7 +26,7 @@ Before proceeding with the next steps, make sure the [Telerik theming is enabled
 
 To customize the colors of the Telerik theme, use the available color swatch resource dictionaries in the `\TelerikTheming\Colors\Telerik\Swatches\` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
 
-1. Go to the `Resources\Styles` folder and create a resource dictionary file called `CustomTelerikSwatch.xaml`. The new file must have no code-behind file, similar to the `Styles.xaml` and `Colors.xaml` files in a project that uses the default MAUI application template by Microsoft.
+1. Go to the `Resources\Styles` folder and create a resource dictionary file called `CustomTelerikSwatch.xaml`.
 
 1. Choose the [color swatch]({%slug themes-overview%}#swatch) of the Telerik theme that you will use as a starting point for your color customizations, for example, the Main swatch represented by the `\TelerikTheming\Colors\Telerik\Swatches\Main.xaml` resource dictionary.
 
