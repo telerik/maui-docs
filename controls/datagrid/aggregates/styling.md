@@ -47,6 +47,10 @@ When the value for the `GroupAggregatesAlignment` is `None`, set the properties 
 * `AggregatesTextFontFamily`&mdash;Defines the font family of the aggregates part of the `GroupHeader`.
 * `AggregatesTextFontSize`&mdash;Defines the size of the aggregates part of the `GroupHeader`.
 * `AggregatesTextMargin`&mdash;Defines the margin for the aggregates part of the `GroupHeader`.
+* 
+The following example shows how to define the `GroupHeaderStyle` in the page's resources:
+
+<snippet id='datagrid-group-header-aggregate-styling-example'/>
 
 Use the following properties to style and customzie the aggregate results when the `GroupAggregatesAlignment` is set to `NextToHeader`:
 
@@ -54,11 +58,16 @@ Use the following properties to style and customzie the aggregate results when t
 * `GroupAggregateCellStyleSelector` (`IStyleSelector`)&mdash;
 * `GroupAggregateCellTemplate` (`DataTemplate`)&mdash;Defines the appearance of each aggregate within the group header of the grid.
 
-The following example shows how to define the `GroupHeaderStyle` in the page's resources:
+The avilable properties when setting the `GroupAggregateCellStyle` are:
 
-<snippet id='ddatagrid-group-header-aggregate-styling-example'/>
+| `TextColor` | Defines the color of the cell text. |
+| `FontAttributes` | Defines the font attributes for the text in the cell. |
+| `FontFamily` | Defines the font family for the text in the cell. |
+| `FontSize` | Defines the size for the text in the cell. |
+| `Margin` | Defines the margin that is applied to the text of the cell. |
 
->important For DataGrid `GroupHeader` Aggregates example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+
+>important For DataGrid `GroupHeaderAggregates` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 
 ## Styling the Group Footer
 
