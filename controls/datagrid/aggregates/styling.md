@@ -10,7 +10,7 @@ slug: datagrid-aggregates-styling
 
 The .NET MAUI DataGrid provides a styling functionality for its group footer, header, and column footer aggregates.
 
-## Styling the Group Header
+## Style the Group Header
 
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the `GroupHeaderStyle` (of type `Style` with target type `DataGridGroupHeaderAppearance`) configuration which defines the style of the `GroupHeader` and the aggregates inside the header. 
 
@@ -18,9 +18,9 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides the
 
 ### Style the Group Header:
 
-Use the following properties to style the GroupHeader:
+Use the following properties to style the `GroupHeader`:
 
-| Style  | Action |
+| Property  | Description |
 | ------ | ------ |
 | `BackgroundColor` | Defines the color that fills the area within the header |
 | `BorderColor`| Defines the color that fills the border region. |
@@ -36,40 +36,89 @@ Use the following properties to style the GroupHeader:
 | `TextFontSize` | Defines the size for the text part of the `GroupHeader`. |
 | `TextMargin` | Defines the margin for the text part of the `GroupHeader`. |
 
-### Style the Aggregate Results
+### Style the Aggregates in the Group Header
 
 You can style the aggregates results depending on the value set for the `GroupAggregatesAlignment` (`enum` of type `Telerik.Maui.Controls.DataGrid.DataGridGroupAggregatesAlignment`) property.
 
-When the value for the `GroupAggregatesAlignment` is `None`, set the properties described in the table below to the `GroupHeaderStyle` (of type `Style` with target type `DataGridGroupHeaderAppearance`).
+To style the aggregates in the group header when the value for the `GroupAggregatesAlignment` is `None`, use the `GroupHeaderStyle` (of type `Style` with target type `DataGridGroupHeaderAppearance`) property. 
 
-* `AggregatesTextColor`&mdash;Defines the color for the aggregates part of the `GroupHeader`.
-* `AggregatesTextFontAttributes`&mdash;Defines the font attributes for the aggregates part of the `GroupHeader`.
-* `AggregatesTextFontFamily`&mdash;Defines the font family of the aggregates part of the `GroupHeader`.
-* `AggregatesTextFontSize`&mdash;Defines the size of the aggregates part of the `GroupHeader`.
-* `AggregatesTextMargin`&mdash;Defines the margin for the aggregates part of the `GroupHeader`.
-* 
-The following example shows how to define the `GroupHeaderStyle` in the page's resources:
+The available properties in the `GroupHeaderStyle` are:
+
+| Property  | Description |
+| ------ | ------ |
+| `AggregatesTextColor` | Defines the color for the aggregates part of the `GroupHeader` |
+| `AggregatesTextFontAttributes` | Defines the font attributes for the aggregates part of the `GroupHeader` |
+| `AggregatesTextFontFamily` | Defines the font family of the aggregates part of the `GroupHeader` |
+| `AggregatesTextFontSize` | Defines the size of the aggregates part of the `GroupHeader` |
+| `AggregatesTextMargin` | Defines the margin for the aggregates part of the `GroupHeader` |
+
+The following example shows how to style the aggregate results in the group header when setting the `GroupHeaderStyle` in the page's resources:
 
 <snippet id='datagrid-group-header-aggregate-styling-example'/>
 
-Use the following properties to style and customzie the aggregate results when the `GroupAggregatesAlignment` is set to `NextToHeader`:
+To style and customize the aggregate results when setting the `GroupAggregatesAlignment` to `NextToHeader`, use the following properties:
 
-* `GroupAggregateCellStyle` (of type `Style` with target type `DataGridGroupAggregateCellAppearance`)&mdash;
-* `GroupAggregateCellStyleSelector` (`IStyleSelector`)&mdash;
-* `GroupAggregateCellTemplate` (`DataTemplate`)&mdash;Defines the appearance of each aggregate within the group header of the grid.
+* `GroupAggregateCellStyle` (of type `Style` with target type `DataGridGroupAggregateCellAppearance`)&mdash;Defines the style of the aggregates cell within the group header of the DataGrid. 
+* `GroupAggregateCellStyleSelector` (`IStyleSelector`)&mdash;Allows you to set a different styles of each aggregate within the group header of the DataGrid by passing the `GroupAggregateCellContext` in the selector.
+* `GroupAggregateCellTemplate` (`DataTemplate`)&mdash;Defines the appearance of each aggregate within the group header of the DataGrid.
 
-The avilable properties when setting the `GroupAggregateCellStyle` are:
+> The properties are a properties inside the `RadDataGrid` instance.
 
+The table below describes the available properties for the `GroupAggregateCellStyle`:
+
+| Property  | Description |
+| ------ | ------ |
 | `TextColor` | Defines the color of the cell text. |
 | `FontAttributes` | Defines the font attributes for the text in the cell. |
 | `FontFamily` | Defines the font family for the text in the cell. |
 | `FontSize` | Defines the size for the text in the cell. |
 | `Margin` | Defines the margin that is applied to the text of the cell. |
 
+#### Example with the `GroupAggregateCellStyle`
 
->important For DataGrid `GroupHeaderAggregates` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+**1.** Define the DataGrid in XAML:
 
-## Styling the Group Footer
+<snippet id='datagrid-group-header-aggregates'/>
+
+**2.** Define the `GroupAggregateCellStyle` in the page's resources:
+
+<snippet id='datagrid-group-header-aggregate-nexttoheader-style-xaml'/>
+
+**3.** Define the`DataModel`:
+
+<snippet id='datagrid-aggregates-model'/>
+
+**4.** Define the `ViewModel`:
+
+<snippet id='datagrid-aggregates-viewmodel'/>
+
+>important For DataGrid `GroupHeaderAggregates Style` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+
+#### Example with the `GroupAggregateCellStyleSelector`
+
+**1.** Define the DataGrid in XAML:
+
+<snippet id='datagrid-group-header-aggregates'/>
+
+**2.** Define the `StyleSelector` class:
+
+<snippet id='datagrid-group-header-aggregate-nexttoheader-style-xaml'/>
+
+**3.** Define the `GroupAggregateCellStyleSelector` in the page's resources:
+
+<snippet id='datagrid-group-header-aggregate-nexttoheader-style-xaml'/>
+
+**4.** Define the `DataModel`:
+
+<snippet id='datagrid-aggregates-model'/>
+
+**5.** Define the `ViewModel`:
+
+<snippet id='datagrid-aggregates-viewmodel'/>
+
+>important For DataGrid `GroupHeaderAggregates StyleSelector` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+
+## Style the Group Footer
 
 The DataGrid provides the following options for styling its group footer:
 
@@ -95,7 +144,7 @@ The following example shows how to use the `GroupFooterStyleSelector` property:
 
 >important For DataGrid `GroupFooter` Aggregates styling example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 
-## Customizing the Group Footer Appearance
+### Customizing the Group Footer Appearance
 
 Customizing the footer in the DataGrid also changes the appearance of the aggregates inside the component.
 
