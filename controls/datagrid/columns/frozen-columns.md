@@ -36,9 +36,9 @@ Set the column freeze programmatically.
 
 Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing the columns is done only through the `IsFrozen` property of the columns.
 
-## Group Header and Frozen Column(s)
+## Group Header and Frozen Columns
 
-In a scenario when there is/are frozen column(s) and grouping, you can specify whether the group header will be clipped to the bounds of the frozen area by setting the `AreGroupHeadersClippedWhenFrozen` (`bool`) property. The default value is `False`.
+In a scenario with frozen columns and grouping, you can specify whether the group header will be clipped to the bounds of the frozen area by setting the `AreGroupHeadersClippedWhenFrozen` (`bool`) property. The default value is `False`.
 
 Here is the result when the `AreGroupHeadersClippedWhenFrozen` property is set:
 

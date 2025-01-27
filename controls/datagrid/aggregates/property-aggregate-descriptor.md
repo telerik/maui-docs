@@ -30,9 +30,9 @@ The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggrega
 * `Var`&mdash;The `Variance` is a measure of dispersion, based on a sample function.
 * `VarP`&mdash;The `Variance` is a measure of dispersion, based on the entire population function.
 
-The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's Columns. 
+The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's columns.
 
-It will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min` and `Max` prices as well as `Average` price for delivery and the `Count` of the listed items.
+The DataGrid will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min`, `Max`, and `Average` delivery prices, as well as the `Count` of the listed items.
 
 **1.** Define the DataGrid in XAML:
 
@@ -56,7 +56,7 @@ The following image shows the end result.
 
 ![Property Aggregate Descriptor](../images/datagrid-property-aggregate-windows.png)
 
->important For DataGrid `PropertyAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+>important For the DataGrid `PropertyAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 
 ## See Also
 

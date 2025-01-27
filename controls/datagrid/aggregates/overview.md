@@ -20,11 +20,11 @@ The [`PropertyAggregateDescriptor`]({%slug datagrid-property-aggregate-descripto
 
 ## Aggregates Visualization
 
-Visualize the aggregates inside the:
+You can visualize the aggregates inside the:
 
-* DataGrid Column Footer
-* DataGrid Group Header
-* DataGrid Group Footer
+* [DataGrid Column Footer](#aggregates-in-column-footer)
+* [DataGrid Group Header](#aggregates-in-group-header)
+* [DataGrid Group Footer](#aggregates-in-group-footer)
 
 ### Aggregates in Column Footer
 
@@ -55,7 +55,7 @@ To visualize the group footer, set the `ShowGroupFooters` property to `True`. Th
 
 ![DataGrid Group Footer Aggregate](../images/datagrid-group-footer-aggregate.png)
 
->tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+>tip For an outline of all DataGrid features, review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 

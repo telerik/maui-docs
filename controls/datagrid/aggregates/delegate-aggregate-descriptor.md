@@ -43,7 +43,7 @@ The following image shows the end result.
 
 ![Delegate Aggregate Descriptor](../images/datagrid-delegate-aggregate-windows.png)
 
->important For DataGrid `DelegateAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
+>important For the DataGrid `DelegateAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 
 ## See Also
 
