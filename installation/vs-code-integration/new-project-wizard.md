@@ -64,5 +64,6 @@ The wizard allows you to configure the following options:
 
   - Project name
   - Location of the created project (Output Path)
+  - License key file&mdash;the Telerik Visual Studio Code extension notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
   - Your Telerik license (trial or commercial)
   - The .NET version you want to use
