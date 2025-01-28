@@ -8,7 +8,7 @@ slug: datapager-collectionview
 
 # .NET MAUI DataPager Integration with CollectionView
 
-You can page the data of the [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) and [Microsoft .NET MAUI CollectionView](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/collectionview/?view=net-maui-9.0) by using the DataPager control. However, the DataPager is independent of the CollectionView, and you can use it with any other `ItemsControl`.
+You can page the data of the [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) and [Microsoft .NET MAUI CollectionView](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/collectionview/?view=net-maui-9.0) by using the DataPager control.
 
 ![.NET MAUI DataPager with CollectionView](../images/datapager-collectionview-paging.png)
 
@@ -18,7 +18,7 @@ You can page the data of the [Telerik UI for .NET MAUI CollectionView]({%slug co
 
 Here is an example of how to use the DataPager with the CollectionView control.
 
-**1.** Define the DataPager and the DataPager in XAML:
+**1.** Define the DataPager and the CollectionView in XAML:
 
 <snippet id='radcollectionview-datapager' />
 

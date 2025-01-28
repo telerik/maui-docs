@@ -22,9 +22,10 @@ Here is a list of the most important features of the DataPager control:
 * Setting different [Ellipsis modes]({%slug datapager-ellipsis-mode%})&mdash;The ellipsis appears when the count of the page numbers is greater than the count of the numeric buttons.
 * Setting different [Display modes]({%slug datapager-display-mode%})&mdash;You can decide which of the visual elements in the DataPager will be visible.
 * [Configuring the pages]({%slug datapager-page-configuration%}) by using the following properties:
-    * `PageIndex`&mdash;Sets the current page.
-    * `PageSize` and `PageSizes`.
-    * `ItemsSpacing`&mdash;Sets the spacing between the items in the pager.
+    * `PageIndex` (`int`)&mdash;Sets the current page.
+    * `PageSize` (`int`)&mdash;Specifies the number of the items per page. The default value is `10`.
+    * `PageSizes` (`IList<int>`)&mdash;Specifies a list with page sizes the end user can choose from. The default values in the list are `5, 10, 20, 50`.
+    * `ItemsSpacing` (`double`)&mdash;Sets the spacing between the items in the pager.
 
 * Customizing the appearance of the DataPager by styling its elements:
     * [DataPager]({%slug datapager-styling%})
@@ -36,7 +37,7 @@ Here is a list of the most important features of the DataPager control:
 
 Here is an example of how to use the DataPager with the DataGrid control.
 
-**1.** Define the DataPager and the DataPager in XAML:
+**1.** Define the DataPager and the DataGrid in XAML:
 
 <snippet id='datagrid-datapager' />
 
