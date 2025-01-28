@@ -7,13 +7,13 @@ tags: maui,components,license,activate,download,ci,cd,environment
 position: 2
 ---
 
-# Adding Your License Key to CI Services
+# Adding Your License Key to CI/CD Services
 
-This article describes how to set up and activate your Telerik UI for .NET MAUI [license key]({%slug set-up-your-license%})  across a few popular CI services by using environment variables.
+This article describes how to set up and activate your Telerik UI for .NET MAUI [license key]({%slug set-up-your-license%}) across a few popular CI/CD services by using environment variables.
 
 When working with CI/CD platforms, always add the `Telerik.Licensing` NuGet package as a project dependency. This package activates the Telerik UI for .NET MAUI components at build time by using the provided license key.
 
-> If you cannot use NuGet packages in your project, see the workaround in the [Adding Your License Key to CI Platforms as a Code Snippet](LINK TO ARTICLE) KB article.
+> If you cannot use NuGet packages in your project, see the workaround in the [Adding Your License Key to CI Platforms as a Code Snippet]({%slug add-license-as-snippet-ci-cd%}) KB article.
 
 The license activation process in a CI/CD environment involves the following steps:
 
@@ -25,7 +25,7 @@ The license activation process in a CI/CD environment involves the following ste
     <PackageReference Include="Telerik.Licensing" Version="1.*" />
     ```
 
-1. [Create an environment variable](#creating-an-environment-variable) and add your Telerik UI for .NET MAUI license key as a value.
+1. [Create an environment variable](#creating-an-environment-variable) named `TELERIK_LICENSE` and add your Telerik UI for .NET MAUI license key as a value.
 
 ## Creating an Environment Variable
 

@@ -11,67 +11,76 @@ position: 3
 
 This article lists the answers to the most frequently asked questions (FAQs) about working with the Telerik UI for .NET MAUI license key.
 
-## I updated the version of the Telerik UI for .NET MAUI packages in my project and the invalid license errors have appeared. What is the cause of this behavior?
+## Does the license key expire?
 
-If this happens, the possible reason is that the end date of the license activated in your application is before the release date of the newly installed Telerik UI for .NET MAUI. To fix this issue:
+Yes, the license key expires at the end of your subscription:
 
-1. [Download a new license key]({%slug set-up-your-license%}#downloading-the-license-key).
+* For trial users, this is at the end of your 30-day trial period.
+* For commercial license holders, this is when your subscription term expires.
 
-1. [Install  the new license key]({%slug set-up-your-license%}#installing-or-updating-your-license-key) in your project.
+You need to download and install a new license key after:
+
+* Starting a new trial.
+* Buying a new license.
+* Renewing an existing license.
+* Upgrading an existing license.
+
+An expired [perpetual license](https://www.telerik.com/purchase/faq/licensing-purchasing#licensing) key is valid for all Telerik UI for .NET MAUI versions published before the license's expiration date.
+
+## Will Telerik UI for .NET MAUI function with an expired license key?
+
+This depends on the [Telerik UI for .NET MAUI license type (perpetual, subscription, or trial)](https://www.telerik.com/purchase/faq/licensing-purchasing#licensing):
+
+* *Perpetual licenses* function normally with an expired license key, as long as the application is using a Telerik UI for .NET MAUI version that was released before the expiration date of the license.
+* *Subscription licenses* function normally in already deployed applications, but you cannot rebuild and republish the app.
+* *Trial licenses* function normally only within the 30-day trial period.
+
+If none of the above conditions are met, the following behaviors occur:
+
+* A modal dialog appears on application startup.
+* A watermark appears on Telerik UI .NET MAUI components.
+* A warning message appears in the application's build log.
+
+## I updated the Telerik UI for .NET MAUI version in my project and license errors appeared. Why?
+
+The most likely cause is that the new Telerik UI for .NET MAUI version was released after the expiration date of your current license or license key. To fix this issue:
+
+1. Renew your Telerik UI for .NET MAUI license if necessary.
+1. Download a new [license key file]({%slug set-up-your-license%}) and use it to activate the components.
 
 ## Can I use the same license key in multiple builds?
 
-You can use your personal license key in multiple pipelines, builds, and environments.
-
-However, each individual developer must use a unique personal license key.
-
-## Does the license key expire?
-
-Yes, the license key expires at the end of your support subscription:
-
-* For trial users, this is at the end of your 30-day trial.
-
-* For commercial license holders, this is when your subscription term expires.
-
-You will need to obtain and install a new license key after starting a trial, renewing a license, or upgrading a license.
-
-> An expired perpetual license key is valid for all Telerik UI for .NET MAUI versions published before its expiration date.
+You can use your personal license key in multiple pipelines, builds, and environments. However, each individual developer must use a unique personal license key.
 
 ## Do I need an Internet connection to activate the license?
 
 No, the license activation and validation are performed entirely offline.
 
-The license is not validated with our services at any point in the project lifecycle.
-
 ## Do I have to add the license key to source control?
 
 No, you do not have to add the `telerik-license.txt` license key file or its contents to source control.
 
-Build servers must use the `TELERIK_LICENSE` environment variable described in [Adding the License Key to CI Services]({%slug add-license-to-ci-cd%}).
-
-Do not store the license key in plain text, for example, in a GitHub Actions Workflow definition.
+Do not store the license key in plain text, for example, in a GitHub Actions Workflow definition. Build servers must use the `TELERIK_LICENSE` environment variable described in [Adding the License Key to CI Services]({%slug add-license-to-ci-cd%}).
 
 ## What happens if both the environment variable and the license key file are present?
 
 If both the `TELERIK_LICENSE` environment variable and the `telerik-license.txt` file are present, then the environment variable will be used.
 
-To enforce the use of the license key file, unset the environment variable.
+To use the license key file, unset the environment variable.
 
-## My team has more than one license holder. Which key do we have to use?
+## What happens if several license key files exist?
 
-To activate Telerik UI for .NET MAUI, you can use any of the keys associated with your subscriptions.
+If both a global and a project-specific `telerik-license.txt` files exist, then the project-specific license key will be used.
+
+## My team has more than one license holders. Which key do we have to use?
+
+* [Every developer must be assigned their own license or seat](https://www.telerik.com/purchase/faq/licensing-purchasing).
+* Every developer must use a license key that is associated with their personal Telerik account.
+* In a CI/CD environment, use any of the license keys in your team.
 
 ## Are earlier versions of Telerik UI for .NET MAUI affected?
 
 No, versions released prior to January 2025 do not require a license key.
-
-## What happens if I make a change to non-Telerik parts of the code after the subscription expires?
-
-This depends on your license:
-
-* If you have a perpetual license, you can build the application with the Telerik components.
-
-* If you have an expired subscription license, the build will fail.
 
 ## See Also
 
