@@ -8,7 +8,7 @@ slug: datapager-datagrid
 
 # .NET MAUI DataPager Integration with DataGrid
 
-You can page the data of the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) by using the DataPager control. However, the DataPager is independent of the DataGrid, and you can use it with any other `ItemsControl`.
+You can page the data of the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) by using the DataPager control.
 
 ![.NET MAUI DataPager with DataGrid](../images/datapager-datagrid-paging.png)
 
@@ -18,7 +18,7 @@ You can page the data of the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid
 
 Here is an example of how to use the DataPager with the DataGrid control.
 
-**1.** Define the DataPager and the DataPager in XAML:
+**1.** Define the DataPager and the DataGrid in XAML:
 
 <snippet id='datagrid-datapager' />
 
