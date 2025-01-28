@@ -20,7 +20,7 @@ To customize the Telerik UI for .NET MAUI theme colors:
 1. Copy the desired theme resources to a new resource dictionary and apply your changes.
 1. Merge the new resource dictionary after the built-in Telerik theme resources.
 
-Before proceeding with the next steps, make sure the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
+> Before proceeding with the next steps, make sure the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
 
 ## Copy and Modify the Theme Resources
 

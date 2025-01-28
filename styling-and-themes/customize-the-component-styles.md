@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI theme lets you customize individual controls like t
 * By using the provided styles and data templates and applying them directly in the XAML file where you define the control.
 * By creating a dedicated resource dictionary where you paste and modify the desired styles and data templates.
 
-Before proceeding with the next steps, make sure that the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
+> Before proceeding with the next steps, make sure that the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
 
 ## Customizing the Control in Its Declaration
 
@@ -70,7 +70,7 @@ The next steps illustrate how to customize the theme styles of the DataGrid cont
 
 **1.** Go to the `Resources\Styles` folder and create a resource dictionary file, for example, `CustomGridStyles.xaml`.
 
-**2.** Add the Telerik namespace:
+**2.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
