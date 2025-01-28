@@ -1,5 +1,5 @@
 #start-free-trial
-* If you already have an [active license](https://www.telerik.com/account/your-licenses) for Telerik UI for .NET MAUI, skip this step and continue with [Step 1](#step-download-your-license-key-file).
+* If you already have an [active license](https://www.telerik.com/account/your-licenses) for Telerik UI for .NET MAUI, skip this step and continue with [Step 1](#step-1-download-your-license-key-file).
 * If you don't have an active license, follow the steps below to activate your free trial:
 
     1. [Download](https://www.telerik.com/try/ui-for-maui) the Progress Trial Installer and start the installation.
@@ -138,7 +138,7 @@ To download and install your Telerik [license key file]({%slug set-up-your-licen
 
 1. Go to the <a href="https://www.telerik.com/account/your-licenses/license-keys" target="_blank">License Keys page</a> in your Telerik account.
 1. Click the **Download License Key** button.
-1. Save the `telerik-license.txt` file to `%AppData%\Telerik\telerik-license.txt`, for example, `C:\Users\...\AppData\Roaming\Telerik\telerik-license.txt`.
+1. Save the `telerik-license.txt` file to `%AppData%\Telerik\telerik-license.txt`.
 
 This will make the license key available to all Telerik .NET apps that you develop on your local machine.
 
