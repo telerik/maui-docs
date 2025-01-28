@@ -102,3 +102,4 @@ To add the Telerik NuGet source to Visual Studio:
 
 * [System Requirements]({% slug system-requirements %})
 * [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Using a Telerik Theme]({%slug themes-overview%})

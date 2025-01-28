@@ -42,3 +42,4 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 * [First Steps with UI for .NET MAUI in Visual Studio (Tutorial)]({%slug maui-getting-started%})
 * [First Steps with UI for .NET MAUI in Visual Studio Code (Tutorial)]({%slug maui-getting-started-vs-code%})
+* [Using a Telerik Theme]({%slug themes-overview%})

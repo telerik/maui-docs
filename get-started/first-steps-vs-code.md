@@ -105,3 +105,4 @@ After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 
 * [System Requirements]({% slug system-requirements %})
 * [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Using a Telerik Theme]({%slug themes-overview%})
