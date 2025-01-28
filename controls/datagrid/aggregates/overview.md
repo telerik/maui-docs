@@ -8,31 +8,49 @@ slug: datagrid-aggregates
 
 # .NET MAUI DataGrid Aggregates
 
-The DataGrid exposes an Aggregates API through its `DataGridColumn.AggregateDescriptors` property where you can add `PropertyAggregateDescriptors` or `DelegateAggregateDescriptors`.
+The DataGrid exposes an Aggregates API through its `DataGridColumn.AggregateDescriptors` collection, where you can add `PropertyAggregateDescriptor` and `DelegateAggregateDescriptor`.
 
 {% if site.has_cta_panels == true %}
-{% include cta-panel-overview.html %}
+{% include cta-panel-maui-overview.html %}
 {% endif %}
+
+## Aggregate Descriptors
 
 The [`PropertyAggregateDescriptor`]({%slug datagrid-property-aggregate-descriptor %}) enables you to use a set of available functions while the [`DelegateAggregateDescriptor`]({%slug datagrid-delegate-aggregate-descriptor %}) allows you to implement a custom function through the `IAggregateFunction` interface.
 
-The Telerik UI for .NET MAUI DataGrid Aggregates can be placed in the `ColumnFooter` as well as the `GroupHeader` and  `GroupFooter`.
+## Aggregates Visualization
 
-The `ShowColumnFooters` property is used to visualize the [`ColumnFooters`]({%slug datagrid-column-footer %}) of the DataGrid and is also used to display the Aggregates for the columns.
+You can visualize the aggregates inside the:
 
-> The Aggregates are displayed only if there is no `FooterText` set.
+* [DataGrid Column Footer](#aggregates-in-column-footer)
+* [DataGrid Group Header](#aggregates-in-group-header)
+* [DataGrid Group Footer](#aggregates-in-group-footer)
+
+### Aggregates in Column Footer
+
+Use the `ShowColumnFooters` property to visualize the [`ColumnFooters`]({%slug datagrid-column-footer %}) of the DataGrid. When applying aggregate descriptor(s) to the column, the aggregate results are displayed inside the column footer.
+
+> The aggregate results are displayed inside the column footer only if there is no `FooterText` set.
 
 ![DataGrid Column Footer Aggregate](../images/datagrid-property-aggregate-windows.png)
 
-When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, you can display the aggregate results for the groups data in the group footer. To visualize the footer, set the `ShowGroupFooters` property to `True`. The group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
+### Aggregates in Group Header
 
-![DataGrid Group Footer Aggregate](../images/datagrid-group-footer-aggregate.png)
+When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, you can display the aggregate results for the groups data in the group header, next to the title of the group.
 
-The aggregate results can also be visualized in the group header next to the title of the group. To show the Aggregates in the group header, set the `ShowGroupHeaderAggregates` to `True`.
+To show the Aggregates in the group header, set the `ShowGroupHeaderAggregates` to `True`.
 
 ![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
 
->tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
+### Aggregates in Group Footer
+
+When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, you can display the aggregate results for the groups data in the group footer.
+
+To visualize the group footer, set the `ShowGroupFooters` property to `True`. The group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
+
+![DataGrid Group Footer Aggregate](../images/datagrid-group-footer-aggregate.png)
+
+>tip For an outline of all DataGrid features, review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 
 ## See Also
 

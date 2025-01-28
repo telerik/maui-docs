@@ -32,10 +32,17 @@ Set the column freeze programmatically.
 
 <snippet id='data-grid-frozen-columns-programmatically' />
 
-
 ## Collection of Frozen Columns
 
 Once a column is frozen, it is added to the `FrozenColumns` collection (read-only collection). The collection can be used only for read-only purposes and cannot be modified. Freezing/Unfreezing the columns is done only through the `IsFrozen` property of the columns.
+
+## Group Header and Frozen Columns
+
+In a scenario with frozen columns and grouping, you can specify whether the group header will be clipped to the bounds of the frozen area by setting the `AreGroupHeadersClippedWhenFrozen` (`bool`) property. The default value is `False`.
+
+Here is the result when the `AreGroupHeadersClippedWhenFrozen` property is set:
+
+![.NET MAUI DataGrid Frozen Columns and Group Headers](images/frozen-columns-group-headers.gif)
 
 ## Styling
 
@@ -57,6 +64,7 @@ Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThi
 ```
 
 ![.NET MAUI DataGrid Frozen Column](../images/frozen-column-style.png)
+
 
 ## See Also
 
