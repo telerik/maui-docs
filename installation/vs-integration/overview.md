@@ -15,6 +15,7 @@ The extensions handle the following major points in the development with Telerik
 * [Project creation]({%slug vs-integration-new-project%})&mdash;Through the **Telerik .NET MAUI Blank App** and **Telerik .NET MAUI Blank Shell App** project templates, you can quickly create an application that is pre-configured to use Telerik UI for .NET MAUI.
 * [Toolbox support]({%slug toolbox-support %})&mdash;The Telerik UI for .NET MAUI Toolbox extension facilitates the adding of Telerik controls to your .NET MAUI application.
 * [Scaffolding Pages and Screens]({%slug maui-vs-scaffoldings%})&mdash;The scaffoldings allow you to quickly add predefined pages with controls to your application and define the parameters of the controls through an UI.
+* Notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
 
 The Telerik UI for .NET MAUI VS extensions support Visual Studio 2022.
 

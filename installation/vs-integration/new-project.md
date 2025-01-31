@@ -59,6 +59,8 @@ To start the wizard, use either the [Extensions](#extensions-menu) or the [Proje
 
     * The **Telerik .NET MAUI Blank Shell App** option creates a blank .NET MAUI Shell application.
 
+1. The wizard validates your Telerik UI for .NET MAUI license and lets you download a new [license key file]({%slug set-up-your-license%}).
+
 Finally, Visual Studio opens the solution, which is pre-configured to use the Telerik UI for .NET MAUI controls and has the `Telerik.UI.for.Maui` NuGet package installed.
 
 If this is the first time Visual Studio connects to the [Telerik NuGet Server]({%slug telerik-nuget-overview %}), you will see a request to enter your Telerik credentials. Then, the Telerik NuGet Server will be automatically configured as a NuGet source in Visual Studio:
@@ -68,7 +70,6 @@ If this is the first time Visual Studio connects to the [Telerik NuGet Server]({
 The following image shows the end result after running the application.
 
 ![Welcome to Telerik UI for .NET MAUI app initial screen on Windows](images/vsextensions_projecttemplate.png)
-
 
 ## See Also
 
