@@ -11,13 +11,12 @@ slug: combobox-templates
 If the default templates of the control do not suit your needs, you can define custom ones. The available templates for customizing are:
 
 * `ItemTemplate`(`DataTemplate`)&mdash;Defines the template of the items that are visualized in the dropdown list.
-
-> When the selection mode is single and the control is not editable if there is ItemTemplate set the same template will be visualized in the box part of the control when item is selected.
-
 * `SelectedItemTemplate`(`DataTemplate`)&mdash;Defines the template of the selected items that are visualized in the dropdown list.
 * `TokenTemplate`(`DataTemplate`)&mdash;Defines the template of the tokens that are visualized when multiple selection is performed.
 * `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the Template of the Show More UI that gets visualized when the control is not focused and the space is not enough to show all tokens when using the Multiple selection mode.
-* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the RadComboBox is non-editable(`IsEditable` set to "false").
+* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the `RadComboBox` is non-editable(`IsEditable` set to `false`).
+
+> Use the `SelectionBoxTemplate` to customzie the content inside the input area when an item is selected, and the `DisplayMemberPath` property is not set. The `SelectionBoxTemplate` applies when the `SelectionMode` is `Single` and the control's `IsEditable` porperty is set to `false`.
 
 ### Example with ItemTemplate and SelectedItemTemplate
 
