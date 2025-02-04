@@ -11,7 +11,7 @@ position: 1
 
 The Telerik UI for .NET MAUI themes are flexible and allow you to customize and adjust them to meet the specific application requirements.
 
-When it comes to implementing your brand colors, modifying the swatches (the color variations) of the Telerik allows you to apply the desired tones to all Telerik UI for .NET MAUI controls.
+When it comes to implementing your brand colors, modifying the swatches (the color variations) of the themes allows you to apply the desired tones to all Telerik UI for .NET MAUI controls.
 
 > If you need to customize the styles only of a specific control or collection of controls, you can also [modify the control-specific theme resources]({%slug theme-component-styles-customization %}).
 
@@ -24,11 +24,11 @@ To customize the Telerik UI for .NET MAUI theme colors:
 
 ## Copy and Modify the Theme Resources
 
-To customize the colors of the Telerik theme, use the available color swatch resource dictionaries in the `\TelerikTheming\Colors\Telerik\Swatches\` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
+To customize the colors of the Telerik or the Platform theme, use the available color swatch resource dictionaries in the `\TelerikTheming\Colors\Telerik\Swatches\` or `\TelerikTheming\Colors\Platform\Swatches\` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
 
 1. Go to the `Resources\Styles` folder and create a resource dictionary file called `CustomTelerikSwatch.xaml`.
 
-1. Choose the [color swatch]({%slug themes-overview%}#swatch) of the Telerik theme that you will use as a starting point for your color customizations, for example, the Main swatch represented by the `\TelerikTheming\Colors\Telerik\Swatches\Main.xaml` resource dictionary.
+1. Choose the [color swatch]({%slug themes-overview%}#swatch) of the theme that you will use as a starting point for your color customizations, for example, the Telerik Main swatch represented by the `\TelerikTheming\Colors\Telerik\Swatches\Main.xaml` resource dictionary.
 
 1. Copy the colors that you want to modify from the color swatch and paste them into the newly created `Resources\Styles\CustomTelerikSwatch.xaml` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
 
