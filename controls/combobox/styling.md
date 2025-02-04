@@ -19,15 +19,9 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 * `BorderColor`(`Color`)&mdash;Defines the color of the border.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
-* `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`)&mdash;Defines the style of the inner `RadTextInput` control used when the ComboBox is editable (`IsEditable` must be `True`).
 * `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the ComboBox. It's applied to the Placeholder and Selected Text (for single selection) and when the control is in Editable Mode.
 
-In addition, you can change the visual appearance of the ComboBox by defining the following visual states through the .NET MAUI Visual State Manager:
-
-* `Normal`&mdash;Applied when the ComboBox is in its normal state.
-* `Focused`&mdash;Applied when the ComboBox receives focus (when it's editable).
-* (Windows Only) `MouseOver`&mdash;Applied when the mouse cursor is hovering over the ComboBox.
-* `Disabled`**&mdash;Applied when the ComboBox's `IsEnabled` is `False`.
+The ComboBox control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally when the ComboBox `IsEditable` is set to `True`. To style the input control(`RadTextInput`) you have to use the `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
 
 ### Example for ComboBox Styling
 

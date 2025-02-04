@@ -16,14 +16,8 @@ The Telerik UI for .NET MAUI AutoComplete control provides the following Style p
 * `BorderBrush`(`Brush`)&mdash;Defines the brush of the border around the control.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
-* `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`)&mdash;Defines the style of the inner `RadTextInput` control.
 
-In addition, you can change the visual appearance of the AutoComplete by defining the following visual states through the .NET MAUI Visual State Manager:
-
-* `Normal`&mdash;Applied when the AutoComplete is in its normal state.
-* `Focused`&mdash;Applied when the AutoComplete receives focus.
-* (Windows Only)`MouseOver`&mdash;Applied when the mouse cursor is hovering over the AutoComplete.
-* `Disabled`&mdash;Applied when the AutoComplete's `IsEnabled` is `False`.
+The AutoComplete control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally. To style the input control(`RadTextInput`) you have to use the `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
 
 ## Suggestion View Styling 
 
@@ -63,6 +57,8 @@ And when an item is selected:
 
 ![.NET MAUI AutoComplete Styling Selected Item](images/autocomplete-selected-styling.png)
 
+>tip For a runnable example demonstrating the AutoComplete's Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Styling** category.
+
 ## Highlight Customization
 
 In case a custom template is used, the user can achieve text highlighting inside the `RadAutoComplete.SuggestionItemTemplate` using `RadHighlightLabel`.
@@ -91,7 +87,7 @@ Here is the result:
 
 ![AutoComplete Highlight Customization](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
 
->important For AutoComplete HighlightText example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
+>important For AutoComplete HighlightText example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Featrues** category.
 
 ## See Also
 
