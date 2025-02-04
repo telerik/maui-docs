@@ -23,6 +23,8 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 
 The ComboBox control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally when the ComboBox `IsEditable` is set to `True`. To style the input control(`RadTextInput`) you have to use the `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
 
+In addition to the available styling properties, you can apply specific [Visual States]({%slug combobox-visual-states%}) to the ComboBox control.
+
 ### Example for ComboBox Styling
 
 The example below demonstrates some of the styling capabilities of the ComboBox, such as custom `ClearButtonStyle`, `TextInputStyle`, `TextColor`, `PlaceholderColor`, and others. It also shows how to switch its appearance through the .NET MAUI Visual State Manager.

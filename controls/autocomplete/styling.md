@@ -19,6 +19,8 @@ The Telerik UI for .NET MAUI AutoComplete control provides the following Style p
 
 The AutoComplete control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally. To style the input control(`RadTextInput`) you have to use the `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
 
+In addition to the available styling properties, you can apply specific [Visual States]({%slug autocomplete-visual-states%}) to the AutoComplete control.
+
 ## Suggestion View Styling 
 
 The following properties style the AutoComplete SuggestionView (the dropdown with the suggestions):

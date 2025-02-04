@@ -47,4 +47,4 @@ Here is how the styling is applied when the control is focused and item is selec
 
 ## See Also
 
-- [AutoComplete Styling]({%slug autocomplete-styling%})
+- [ComboBox Styling]({%slug combobox-styling%})
