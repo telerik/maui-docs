@@ -9,9 +9,9 @@ position: 5
 
 # Customizing the Controls' Styles
 
-The Telerik UI for .NET MAUI themes let you apply custom styles not only by [changing the colors in the theme swatches]({%slug themes-customization %}), but also by selectively customizing individual controls. You can achieve this by using the control-specific resource dictionaries with styles and templates provided by the Telerik and Platform themes.
+The Telerik UI for .NET MAUI themes let you apply custom styles not only by [changing the colors in the theme swatches]({%slug themes-customization %}), but also by selectively customizing individual controls. You can achieve this by using the control-specific resource dictionaries with styles and templates provided by the Telerik theme.
 
-The Telerik theming mechanism lets you customize individual controls like the DataGrid in two ways:
+The Telerik UI for .NET MAUI theme lets you customize individual controls like the DataGrid in two ways:
 
 * By using the provided styles and data templates and applying them directly in the XAML file where you define the control.
 * By creating a dedicated resource dictionary where you paste and modify the desired styles and data templates.

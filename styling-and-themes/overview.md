@@ -11,8 +11,6 @@ position: 0
 
 Telerik UI for .NET MAUI comes with a built-in theme that controls the visual appearance of the components, including colors, borders, backgrounds, size, layout, position, and font size. The theme also offers multiple color variations to choose from.
 
-In addition to the Telerik theme, Telerik UI for .NET MAUI also provides a Platform theme with light and dark variants. The platform theme closely resembles the light and dark modes of the device that runs your MAUI application.
-
 >The built-in Telerik UI for .NET MAUI theme and its swatches were introduced in version 8.0.0 (2024 Q4) and are currently in preview.
 
 ![Telerik .NET MAUI Theming Support](images/theming-support.png)
@@ -25,20 +23,18 @@ A *theme* is a collection of styles and templates in XAML files, which determine
 
 A *theme swatch* is a color variation of a theme. All swatches of a given theme use the same fonts, sizes, and layouts. On the other hand, the text colors, background colors, and border colors are different.
 
-The Telerik .NET MAUI theme comes with a set of eight predefined swatches for both dark and light modes while the Platform theme offers a light and dark swatch.
+The Telerik .NET MAUI theme comes with a set of eight predefined swatches for both dark and light modes:
 
-| Theme | Swatch | Color |
-| ----- | ------ | ----- |
-| Platform | Light | ![Telerik UI for .NET MAUI Platform Light Theme](images/platform-light.png) |
-| Platform | Dark | ![Telerik UI for .NET MAUI Platform Dark Theme](images/platform-dark.png) |
-| Telerik | Main | ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png) |
-| Telerik | Main Dark | ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png) |
-| Telerik | Ocean Blue | ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png) |
-| Telerik | Ocean Blue Dark | ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png) |
-| Telerik | Purple | ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png) |
-| Telerik | Purple Dark | ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png) |
-| Telerik | Turquoise | ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png) |
-| Telerik | Turquoise Dark | ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png) |
+| Swatch | Color |
+| ------ | ----- |
+| Main | ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png) |
+| Main Dark | ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png) |
+| Ocean Blue | ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png) |
+| Ocean Blue Dark | ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png) |
+| Purple | ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png) |
+| Purple Dark | ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png) |
+| Turquoise | ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png) |
+| Turquoise Dark | ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png) |
 
 The next image shows the differences and similarities between the Purple and Purple Dark swatches when applied to the AutoComplete control.
 
@@ -58,22 +54,21 @@ Before you can add Telerik Theming to your app, make sure that it is configured 
 </PropertyGroup>
 ```
 
-**2.** Rebuild the solution&mdash;this will generate a new `TelerikTheming` folder containing all styles and resources needed for the Telerik .NET MAUI controls.
+**2.** Rebuild the solution&mdash;this will generate a new `TelerikTheming` folder inside the project containing all the styles and resources needed for the Telerik .NET MAUI controls:
 
-  ![Telerik UI for .NET MAUI TelerikTheming folder](images/theming-folder-v10.png)
+  ![Telerik UI for .NET MAUI TelerikTheming folder](images/theming-folder.png)
 
-* The `Colors` folder contains the `Platform` and `Telerik` subfolders, each holding the resource dictionaries required for the theme swatches. Note that the colors are referenced through dynamic resources, so you can update them at runtime.
+* The `Colors` folder contains the resources needed for each theme swatch in separate resource dictionaries. Note that the colors are referenced through dynamic resources, so you can update them at runtime.
 
   ![Telerik UI for .NET MAUI Colors folder](images/teleriktheming-colors-folder.png)
 
-* The `Styles` folder contains the `Platform` and `Telerik` subfolders, each holding the styles and templates of the Telerik UI for .NET MAUI controls for the corresponding theme.
+* The `Styles` folder contains the styles and templates of the Telerik UI for .NET MAUI controls.
 
   * The styles are implemented through control-specific XAML files (see the next image).
   * The styles for all base controls that are used to build complex controls like the DataGrid are in the `Core.xaml` file.
-  * The control templates in the XAML files are specific to the Telerik theme and the Platform theme. They differ from the default control templates of the Telerik UI for .NET MAUI controls.
-  * The number of files in the `Platform` and `Telerik` subfolders is different because both themes support a different number of controls. 
+  * The control templates in the XAML files are specific to the Telerik theme and differ from the default control templates of the Telerik UI for .NET MAUI controls.  
 
-  ![Telerik UI for .NET MAUI Styles folder](images/telerik-theming-styles-folder-v10.png)
+  ![Telerik UI for .NET MAUI Styles folder](images/telerik-theming-styles-folder.png)
 
 >important The files in the `TelerikTheming` folder are auto-generated. Use them only as a reference and do not modify them. See [Customizing the Telerik Theme]({%slug themes-customization %}) for information on how to use these files to apply your own styles.
 
@@ -120,7 +115,7 @@ After applying the Purple swatch, the ToggleButton looks like this:
 
 ## Applying Theme Colors throughout the App
 
-You can use the colors provided by the Telerik theming mechanism and apply them everywhere in your application. Each theme swatch provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look and feel.
+You can use the colors provided by the Telerik theme and its swatches Each theme swatch provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look & feel.
 
 For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for background/text color respectively, and `RadPrimaryColor` for the accent color to match the appearance of the Telerik controls:
 
