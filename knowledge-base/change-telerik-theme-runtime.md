@@ -33,7 +33,9 @@ To ensure that the Telerik .NET MAUI controls respond to app theme changes corre
 
 **1.** [Enable the Telerik Theming in your app]({%slug themes-overview%}#using-the-maui-theming).
 
-**2.** Detect the current system theme&mdash;use the `Application.RequestedTheme` property to get the current `AppTheme` and load the light or dark mode of the Telerik Theme, for example:
+**2.** Detect the current system theme&mdash;use the `Application.RequestedTheme` property to get the current `AppTheme`.
+
+**2.1** Example with loading the light or dark `Purple` swatch of the `Telerik` theme:
 
 ```C#
 private void ApplyTelerikTheme()
@@ -47,6 +49,23 @@ private void ApplyTelerikTheme()
     var swatchName = Application.Current.RequestedTheme == AppTheme.Dark ? "Purple Dark" : "Purple";
     telerikTheming.Theme = TelerikTheming.Themes
         .Single(t => t.Theme == "Telerik" && t.Swatch == swatchName);
+}
+```
+
+**2.2** Example with loading the light or dark swatch of the `Platform` theme:
+
+```C#
+private void ApplyTelerikTheme()
+{
+    var telerikTheming = Application.Current
+        .Resources
+        .MergedDictionaries
+        .OfType<TelerikTheming>()
+        .Single();
+
+    var swatchName = Application.Current.RequestedTheme == AppTheme.Dark ? "Dark" : "Light";
+    telerikTheming.Theme = TelerikTheming.Themes
+        .Single(t => t.Theme == "Platform" && t.Swatch == swatchName);
 }
 ```
 
