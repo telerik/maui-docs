@@ -30,13 +30,33 @@ The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggrega
 * `Var`&mdash;The `Variance` is a measure of dispersion, based on a sample function.
 * `VarP`&mdash;The `Variance` is a measure of dispersion, based on the entire population function.
 
-The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's Columns. It will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min` and `Max` prices as well as `Average` price for delivery and the `Count` of the listed items.
+The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's columns.
+
+The DataGrid will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min`, `Max`, and `Average` delivery prices, as well as the `Count` of the listed items.
+
+**1.** Define the DataGrid in XAML:
 
 <snippet id='datagrid-property-aggregate-descriptor-example'/>
+
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Define a sample data:
+
+<snippet id='datagrid-aggregates-model'/>
+
+**4.** Define the `ViewModel`:
+
+<snippet id='datagrid-aggregates-viewmodel'/>
 
 The following image shows the end result.
 
 ![Property Aggregate Descriptor](../images/datagrid-property-aggregate-windows.png)
+
+>important For the DataGrid `PropertyAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 
 ## See Also
 

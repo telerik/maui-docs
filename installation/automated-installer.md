@@ -11,10 +11,11 @@ position: 10
 
 You can install Telerik UI for .NET MAUI using automated installers on both Windows and macOS.
 
-The installers deliver not only the UI controls but also a set of complete examples that you can browse and explore. In addition, the installer for Windows includes the Visual Studio extensions that help you improve your productivity.
+Using the automated installers has several advantages:
 
-* [Installing on Windows](#installing-on-windows)
-* [Installing on macOS](#installing-on-macos)
+* The installers deliver not only the UI controls but also a set of complete examples that you can browse and explore.
+* As a part of the installation process, both installers automatically [download and set up your license key file]({%slug set-up-your-license%}).
+* The installer for Windows includes the Visual Studio extensions that help you improve your productivity.
 
 >The steps in this article require an active trial or commercial license. If you are just starting with Telerik UI for .NET MAUI and want to activate your free trial, see [Installing a Free Trial Version]({%slug install-trial%}) instead.
 

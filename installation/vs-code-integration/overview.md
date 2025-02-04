@@ -14,6 +14,7 @@ The extension for Visual Studio Code provides the following advantages:
 * Facilitates the [creation of project]({%slug getting-started-vs-code-integration-new-project%}) by using project templates.
 * Contains a collection of [code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and configuration.
 * Allows you to [add predefined pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
+* Notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
 
 ## Get the Extension
 

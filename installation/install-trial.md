@@ -11,7 +11,7 @@ position: 3
 
 The Telerik UI for .NET MAUI trial version gives you full access to all Telerik .NET MAUI components and their functionality. In addition, you get free technical support for 30 days.
 
->The trial version installer activates your free trial period once you reach the last installation step.
+>The trial version installer activates your free trial period once you reach the last installation step. It also automatically downloads the [license key file]({%slug set-up-your-license%}) used to activate the MAUI controls.
 
 To start your Telerik UI for .NET MAUI trial:
 

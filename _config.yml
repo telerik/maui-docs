@@ -50,6 +50,9 @@ navigation:
         position: 14
 ## End Root Level
 ## Intallation Sub-Folders
+    installation/licensing:
+        title: "Activating Your License"
+        position: 1
     installation/windows:
         title: "Windows"
         position: 3
