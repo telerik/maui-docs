@@ -14,7 +14,7 @@ If the default templates of the control do not suit your needs, you can define c
 * `SelectedItemTemplate`(`DataTemplate`)&mdash;Defines the template of the selected items that are visualized in the dropdown list.
 * `TokenTemplate`(`DataTemplate`)&mdash;Defines the template of the tokens that are visualized when multiple selection is performed.
 * `ShowMoreTemplate`(`DataTemplate`)&mdash;Defines the Template of the Show More UI that gets visualized when the control is not focused and the space is not enough to show all tokens when using the Multiple selection mode.
-* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the `RadComboBox` is non-editable(`IsEditable` set to `false`).
+* `SelectionBoxTemplate`(`DataTemplate`)&mdash;Defines the template of the selected item in the box section of the control. This property is only available when the `RadComboBox` is non-editable (`IsEditable` set to `false`).
 
 > Use the `SelectionBoxTemplate` to customzie the content inside the input area when an item is selected, and the `DisplayMemberPath` property is not set. The `SelectionBoxTemplate` applies when the `SelectionMode` is `Single` and the control's `IsEditable` porperty is set to `false`.
 
