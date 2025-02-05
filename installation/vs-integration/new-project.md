@@ -59,7 +59,7 @@ To start the wizard, use either the [Extensions](#extensions-menu) or the [Proje
 
     * The **Telerik .NET MAUI Blank Shell App** option creates a blank .NET MAUI Shell application.
 
-1. Select a theme.
+1. Choose whether to add a [theme swatch]({%slug themes-overview%}) to the project. When selecting a theme swatch, the theme configuration is automatically added to the project.
 
     ![Telerik .NET MAUI App configurable wizard select a theme](images/maui-select-theme.png)
 

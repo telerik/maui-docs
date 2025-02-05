@@ -28,7 +28,7 @@ You can start the Telerik UI for .NET MAUI Template Wizard in either of the foll
     1. Select **MAUI** tab
     1. Click **Create New Project**.
     1. The **Telerik UI for .NET MAUI Template Wizard** opens
-    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**. You can create a project with a predefined theme using the **USE TELERIK THEMING** option.
 
     ![Telerik UI for .NET MAUI VS Code Extension](images/telerik-vs-code-extension.png)
 
@@ -40,7 +40,7 @@ You can start the Telerik UI for .NET MAUI Template Wizard in either of the foll
 
     1. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
     1. The **Telerik UI for .NET MAUI Template Wizard** opens
-    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**. You can create a project with a predefined [theme]({%slug themes-overview%}) using the **USE TELERIK THEMING** option.
 
     ![Telerik UI for .NET MAUI VS Code snippets](images/MauiTemplateWizard.gif)
 
