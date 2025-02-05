@@ -13,7 +13,7 @@ ticketid: 1677846
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 9.0.0 | Telerik UI for .NET MAUI ColelctionView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 9.0.0 | Telerik UI for .NET MAUI CollectionView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
@@ -28,7 +28,7 @@ This knowledge base article also answers the following questions:
 
 To bind the `SortDescriptors` collection in a `CollectionView` to a property in the ViewModel, follow these steps:
 
-1. Define the `CollectionView` in XAML and bind the `SortDescriptors` and `ItemsSource` to the ViewModel properties.
+1. Define the CollectionView in XAML and bind the `SortDescriptors` and `ItemsSource` to the `ViewModel` properties.
 
 ```xml
 <Grid RowDefinitions="auto,*">
@@ -52,7 +52,7 @@ To bind the `SortDescriptors` collection in a `CollectionView` to a property in 
 </Grid>
 ```
 
-2. In the ViewModel, create properties for sorting and managing data. Implement logic to update sort descriptors based on user input.
+2. In the `ViewModel`, create properties for sorting and managing data. Implement logic to update the sort descriptors based on the user input.
 
 ```csharp
 public class ViewModel : NotifyPropertyChangedBase
