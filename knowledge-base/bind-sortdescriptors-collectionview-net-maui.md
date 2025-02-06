@@ -207,7 +207,7 @@ public class Person
 
 3. Ensure that property change notifications are properly propagated, and the `SortDescriptors` collection is updated accordingly when switches are toggled.
 
-This approach allows for dynamic sorting of items in the `CollectionView` based on user input, by binding `SortDescriptors` to a collection managed in the ViewModel.
+This approach allows for dynamic sorting of items in the CollectionView based on user input, by binding `SortDescriptors` to a collection managed in the view model.
 
 ## See Also
 
