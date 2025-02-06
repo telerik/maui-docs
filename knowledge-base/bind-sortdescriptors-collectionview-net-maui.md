@@ -17,7 +17,7 @@ ticketid: 1677846
 
 ## Description
 
-In my application, I want to use data binding to bind to an ObservableCollection of sort descriptors.
+In my application, I want to use data binding to bind to an `ObservableCollection` of sort descriptors.
 
 This knowledge base article also answers the following questions:
 - How to dynamically sort items in a CollectionView using SortDescriptors in .NET MAUI?
