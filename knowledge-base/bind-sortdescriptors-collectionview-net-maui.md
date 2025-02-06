@@ -21,7 +21,7 @@ In my application, I want to use data binding to bind to an `ObservableCollectio
 
 This knowledge base article also answers the following questions:
 - How to dynamically sort items in a CollectionView using `SortDescriptors` in .NET MAUI?
-- How to bind SortDescriptors to a ViewModel property in .NET MAUI?
+- How to bind `SortDescriptors` to a view model property in .NET MAUI?
 - How to update CollectionView sorting based on user input in .NET MAUI?
 
 ## Solution
