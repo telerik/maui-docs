@@ -28,7 +28,7 @@ You can start the Telerik UI for .NET MAUI Template Wizard in either of the foll
     1. Select **MAUI** tab
     1. Click **Create New Project**.
     1. The **Telerik UI for .NET MAUI Template Wizard** opens
-    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**. You can create a project with a predefined theme using the **USE TELERIK THEMING** option.
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
 
     ![Telerik UI for .NET MAUI VS Code Extension](images/telerik-vs-code-extension.png)
 
@@ -40,16 +40,9 @@ You can start the Telerik UI for .NET MAUI Template Wizard in either of the foll
 
     1. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
     1. The **Telerik UI for .NET MAUI Template Wizard** opens
-    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**. You can create a project with a predefined [theme]({%slug themes-overview%}) using the **USE TELERIK THEMING** option.
+    1. Using the Template Wizard you can create a new **Blank App** or **Blank Shell App**.
 
     ![Telerik UI for .NET MAUI VS Code snippets](images/MauiTemplateWizard.gif)
-
-## Set Up the Telerik NuGet Server
-
-By using the Telerik NuGet server, you can install the packages with the Telerik UI for .NET MAUI controls. As the server requires authentication, you can use one of the following options to configure the required credentials for your Telerik license (trial or commercial):
-
-* [Using the .NET CI]({%slug nuget-keys%})
-* [Editing the `NuGet.Config` File]({%slug nuget-config%})
 
 ## Select a Project
 
@@ -57,6 +50,13 @@ The Create New Project wizard provides two options to start you project:
 
  -  Blank App&mdash;Allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
  -  Blank Shell App&mdash;Allows you to create a blank shell project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
+
+
+## Add a Theme to the Project
+
+You can add a [theme]({%slug themes-overview%}) to the project by enabling the **USE TELERIK THEMING** option from the Wizard. 
+
+Choose between two themes&mdash;the `Platform` and the `Telerik`, and the available swatches for each.
 
 ## Configure the Project
 
