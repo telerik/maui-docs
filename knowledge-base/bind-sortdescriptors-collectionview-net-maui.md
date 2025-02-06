@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To bind the `SortDescriptors` collection in a `CollectionView` to a property in the ViewModel, follow these steps:
+To bind the `SortDescriptors` collection in a CollectionView to a property in the view model, follow these steps:
 
 1. Define the CollectionView in XAML and bind the `SortDescriptors` and `ItemsSource` to the `ViewModel` properties.
 
