@@ -8,6 +8,12 @@ tags: navigationview, .net maui, navigation, ui for .net maui
 res_type: kb
 ---
 
+## Environment
+
+| Versions | Product | Author | 
+| --- | --- | ---- | 
+| 9.0.0 | Telerik UI for .NET MAUI NavigationView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+
 ## Description
 
 Understanding how Telerik UI for .NET MAUI [NavigationView](https://docs.telerik.com/devtools/maui/controls/navigationview/overview) integrates with the .NET MAUI Navigation system is crucial for developing seamless navigation within your application.
@@ -17,12 +23,6 @@ This knowledge base article also answers the following questions:
 - How do I navigate between pages using NavigationView in a .NET MAUI application?
 - Can NavigationView work with MAUI NavigationPage for navigating through pages?
 - How to handle selection changes in NavigationView for page navigation?
-
-## Environment
-
-| Versions | Product | Author | 
-| --- | --- | ---- | 
-| 9.0.0 | Telerik UI for .NET MAUI NavigationView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Solution
 
