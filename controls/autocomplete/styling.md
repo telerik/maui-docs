@@ -17,7 +17,7 @@ The Telerik UI for .NET MAUI AutoComplete control provides the following Style p
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
 
-The AutoComplete control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally. To style the input control(`RadTextInput`) you have to use the `TextInputStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
+The AutoComplete control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally. To style the input control (`RadTextInput`), use the `TextInputStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
 
 In addition to the available styling properties, you can apply specific [Visual States]({%slug autocomplete-visual-states%}) to the AutoComplete control.
 
@@ -89,7 +89,7 @@ Here is the result:
 
 ![AutoComplete Highlight Customization](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
 
->important For AutoComplete HighlightText example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Featrues** category.
+>important For AutoComplete HighlightText example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Featrues** category.
 
 ## See Also
 
