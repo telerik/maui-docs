@@ -10,7 +10,9 @@ res_type: kb
 
 ## Description
 
-Understanding how Telerik UI for .NET MAUI [NavigationView](https://docs.telerik.com/devtools/maui/controls/navigationview/overview) integrates with the .NET MAUI Navigation system is crucial for developing seamless navigation within your application. This knowledge base article also answers the following questions:
+Understanding how Telerik UI for .NET MAUI [NavigationView](https://docs.telerik.com/devtools/maui/controls/navigationview/overview) integrates with the .NET MAUI Navigation system is crucial for developing seamless navigation within your application.
+
+This knowledge base article also answers the following questions:
 
 - How do I navigate between pages using NavigationView in a .NET MAUI application?
 - Can NavigationView work with MAUI NavigationPage for navigating through pages?
@@ -24,15 +26,15 @@ Understanding how Telerik UI for .NET MAUI [NavigationView](https://docs.telerik
 
 ## Solution
 
-To integrate Telerik UI for .NET MAUI NavigationView with MAUI navigation, follow these steps:
+To integrate Telerik UI for .NET MAUI NavigationView with MAUI navigation, first consider the difference between the two: Telerik MAUI `RadNavigationView` is a control for displaying navigation items (views, control, etc.) and does not inherently manage page navigation. In contrast, MAUI `NavigationPage` manages a stack of pages, facilitating navigation and user experience.
 
-1. **Understand the Difference**: Telerik MAUI `RadNavigationView` is a control for displaying navigation items (views, control, etc.) and does not inherently manage page navigation. In contrast, MAUI `NavigationPage` manages a stack of pages, facilitating navigation and user experience.
-
-2. **Implement Navigation Logic**: Use the `SelectionChanged` event of the `NavigationView` to implement custom navigation logic. When a navigation item is selected, navigate to the corresponding page using the `Navigation.PushAsync` method.
+Then, once you know the difference between them, you can implement the [navigation logic](#navigationview-implementation).
 
 ### NavigationView Implementation
 
-Define the `RadNavigationView` in XAML with your navigation items:
+Use the `SelectionChanged` event of the `NavigationView` to implement custom navigation logic. When a navigation item is selected, navigate to the corresponding page using the `Navigation.PushAsync` method.
+
+**1.** Define the `RadNavigationView` in XAML with the navigation items:
 
 ```xaml
 <telerik:RadNavigationView x:Name="navigationView" SelectionChanged="navigationView_SelectionChanged"
@@ -67,7 +69,7 @@ Define the `RadNavigationView` in XAML with your navigation items:
 </telerik:RadNavigationView>
 ```
 
-Handle the `SelectionChanged` event to navigate to different pages based on the selected item:
+**2.** Handle the `SelectionChanged` event to navigate to different pages based on the selected item:
 
 ```csharp
 private void navigationView_SelectionChanged(object sender, EventArgs e)
@@ -87,11 +89,11 @@ private void navigationView_SelectionChanged(object sender, EventArgs e)
 }
 ```
 
-### Using MAUI NavigationPage
+### Using .NET MAUI NavigationPage
 
 For managing a stack of pages and enhancing user experience, utilize the MAUI `NavigationPage`. Review the official [NavigationPage documentation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/pages/navigationpage?view=net-maui-9.0) for detailed information.
 
-### .NET MAUI Shell Navigation
+### Using .NET MAUI Shell Navigation
 
 If your application requires shell-like navigation with hosting pages, consider using the .NET MAUI Shell navigation structure. For more details, refer to the official documentation on [Shell navigation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/navigation?view=net-maui-8.0) and [Shell pages](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/pages?view=net-maui-8.0).
 
