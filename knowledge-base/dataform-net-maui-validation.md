@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 
 To enable validation in the DataForm for .NET MAUI, utilize the data annotations provided by the `System.ComponentModel.DataAnnotations` namespace. These annotations can trigger validation on various events such as lost focus, property changed, or manually. 
 
-Here are examples on how to apply different validation rules:
+The examples in this article show how to apply different validation rules.
 
 ### Validating a Phone Number
 
