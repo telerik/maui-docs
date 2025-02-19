@@ -31,9 +31,9 @@ To activate the Telerik UI for .NET MAUI controls:
 
 * Copy the [downloaded](#downloading-the-license-key) `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
 
-    * For Windows: `%AppData%\Telerik\telerik-icense.txt`
-    * For Mac/Linux: `~/.telerik/telerik-license.txt`
-
+    * For Windows: `%AppData%\Roaming\Telerik\telerik-license.txt`. An example of a full path to the `telerik-license.txt` file location: `C:\Users\your-username\AppData\Roaming\Telerik\telerik-license.txt`
+    * For Mac/Linux: `~/.telerik/telerik-license.txt`. If `.telerik` folder does not exist, create such, and paste the `telerik-license.txt` file in it.
+    
 * Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
 
 When you build the project, the `Telerik.Licensing` NuGet package automatically locates the license file and uses it to activate the MAUI controls.
