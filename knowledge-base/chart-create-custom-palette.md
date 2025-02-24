@@ -12,12 +12,16 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 6.6.0 | Chart for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 10.0.0 | Chart for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 
 ## Description
 
-How can I use custom colors in the Telerik UI for .NET MAUI Chart?
+I want to change the default colors of the CartesianChart for bar series.
+
+This knowledge base article also answers the following questions:
+- How can I use custom colors in the Telerik UI for .NET MAUI CartesianChart?
+- How can I change the color on the CartesianChart `BarSeries`?
 
 ## Solution
 
@@ -34,11 +38,11 @@ The Chart supports the following default set of colors for displaying its data p
 
 To modify the default built-in colors, implement a custom palette, as demonstrated in the following scenario:
 
-**1.** Create the needed business model:
+**1.** Create a sample `DataModel`:
 
 <snippet id='categorical-data-model'/>
 
-**2.** Use the sample data for the binding context:
+**2.** Define the `ViewModel` class:
 
 ```C#
 public class ViewModel
@@ -94,7 +98,7 @@ public class ViewModel
 }
 ```
 
-**3.** Declare the `RadCartesianChart` in XAML:
+**3.** Define the `RadCartesianChart` in XAML:
 
 ```XAML
 <telerik:RadCartesianChart>
@@ -146,7 +150,7 @@ public class ViewModel
 </telerik:RadCartesianChart>
 ```
 
-And the namespace used: 
+**4.** Add the `telerik` namespace: 
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -154,5 +158,5 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result of the suggested implementation.
 
-![Chart Custom Palette](images/chart-how-to-create-custom-palette.png)
+![Telerik UI for .NET MAUI Chart Custom Palette](images/chart-how-to-create-custom-palette.png)
 

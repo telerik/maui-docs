@@ -79,3 +79,5 @@ scaffolding
 scaffoldings
 GridSplitter
 DataPager
+CartesianChart
+PieChart
