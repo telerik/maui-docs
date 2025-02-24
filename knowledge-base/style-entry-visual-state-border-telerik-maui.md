@@ -4,7 +4,7 @@ description: Learn how to apply styles to RadEntry, including border color and t
 type: how-to
 page_title: How to Style RadEntry with Focused State in Telerik MAUI Version 8.0.0+
 slug: style-entry-visual-state-border-telerik-maui
-tags: radentry, styling, visual states, telerik, maui, upgrade, focused state
+tags: entry, styling, visual states, telerik, maui, upgrade, focused state
 res_type: kb
 ---
 
@@ -12,7 +12,7 @@ res_type: kb
 
 | Versions | Product | Author | 
 | --- | --- | ---- | 
-| 7.1.0 vs. latest | Telerik UI for .NET MAUI RadEntry | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 7.1.0 vs. latest | Telerik UI for .NET MAUI Entry | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
@@ -47,7 +47,6 @@ The table below summarizes the key changes relevant to styling:
 | NA | [`VisualStates`]({%slug entry-visual-states%}). |
 | `FocusedBorderBrush` | Use the `Focused` `VisualState` and set `BorderBrush`. |
 | `FocusedBorderThickness` | Use the `Focused` `VisualState` and set `BorderThickness`. |
-| NA | `VisualStates` |
 | Automation Id&mdash;`RadEntryEditor`. | Automation Id&mdash;`RadEntryTextInput`. |
 | NA | `ValidationErrorColor` |
 | NA | `ValidationErrorImageStyle` |
