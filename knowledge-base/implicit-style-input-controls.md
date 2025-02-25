@@ -17,7 +17,7 @@ res_type: kb
 ## Description
 
 This knowledge base article answers the following questions:
-- How can I apply implicit style to the `RadComboBox`, `RadAutoComplete` and `RadEntry` in Telerik MAUI after an update to 8.0.0 or a later version?
+- How can I apply an implicit style to the `RadComboBox`, `RadAutoComplete`, and `RadEntry` in Telerik MAUI after an update to 8.0.0 or a later version?
 - How do I style the inner input control (`RadTextInput`) used in the `RadComboBox`, `RadAutoComplete` and `RadEntry` in Telerik MAUI version 8.0.0 or later?
 
 ## Solution
