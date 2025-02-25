@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To control the editability of specific cells or rows, create a custom `BeginEditCommand` and use a property in your data model to determine whether a cell should be editable. Follow these steps:
+To control the editability of specific cells or rows, create a custom `BeginEditCommand` and use a property in your data model to determine whether a cell should be editable:
 
 **1.** Define your `RadDataGrid` in XAML and set up the columns accordingly. Use the `UserEditMode` property to enable cell editing and define a custom command for initiating edits.
 
