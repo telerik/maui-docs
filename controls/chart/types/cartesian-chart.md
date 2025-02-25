@@ -79,6 +79,10 @@ The Financial Cartesian Chart supports the following series:
 - [Candlestick Series]({%slug chart-series-candlestick-series%})&mdash;Data points are plotted as visuals that resemble candlesticks.
 - [Financial Indicators Series]({%slug chart-series-financial-indicators%})&mdash;The financial, or also called stock indicators, are mainly used for keeping track of stock prices and patterns of price changes over time.
 
+## Customize the Chart Colors
+
+You can take advantage of the available customization options the Chart control provides. You can change the default Chart and series colors by setting a `Palette`. For more details on the suggested implementation, see the [Creating Custom Chart Palettes KB article]({%slug chart-how-to-create-custom-palette%}).
+
 ## Example
 
 **1.** Define the `RadCartesianChart`:
@@ -130,7 +134,6 @@ The Financial Cartesian Chart supports the following series:
 xmlns:local="clr-namespace:[The namespace where the ViewModel class is defined];assembly=[The assembly name]"
 ```
 
-
 ## Cartesian Chart Example
 
 The following example shows the full definition of the chart.
@@ -169,6 +172,8 @@ The following example shows the full definition of the chart.
 The following image shows the final result:
 
 ![Cartesian Chart](images/cartesian-bar-series-basic-example.png)
+
+For a sample example 
 
 ## See Also
 
