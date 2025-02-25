@@ -22,7 +22,7 @@ This knowledge base article answers the following questions:
 
 ## Solution
 
-This example shows how to apply implicit style to the AutoComplete, ComboBox and Entry, and apply explicit style to the inner input control&mdash;TextInput.
+This example shows how to apply an implicit style to the AutoComplete, ComboBox, and Entry, and apply an explicit style to the inner input control&mdash;TextInput.
 
 **1.** Define the `RadComboBox`, `RadAutoComplete` and `RadEntry` in XAML:
 
