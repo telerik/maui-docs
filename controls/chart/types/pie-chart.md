@@ -2,7 +2,7 @@
 title: Pie Chart
 page_title: .NET MAUI Chart Documentation - Pie Chart
 position: 2
-description: Check our &quot;Pie Chart&quot; documentation article for Telerik Chart for .NET MAUI
+description: Learn how to configure the Telerik UI for .NET MAUI PieChart control.
 previous_url: /controls/chart/types/chart-types-pie-chart
 slug: chart-types-pie-chart
 ---
@@ -24,38 +24,13 @@ The Pie Chart supports the following properties:
 
 ## Series
 
-The Pie Chart supports the Pie Series, which visualize a single series of data in a pie chart. The sweep of a pie slice is directly proportional to the magnitude of the data point values.
+The PieChart supports the Pie Series, which visualize a single series of data in a pie chart. The sweep of a pie slice is directly proportional to the magnitude of the data point values.
 
-## Example
+## Customize the Chart Colors
 
-**1.** Define the `RadPieChart`:  
+You can take advantage of the available customization options the Chart control provides. You can change the default Chart and series colors by setting a `Palette`. For more details on the suggested implementation, see the [Creating Custom PieChart Palettes KB article]({%slug pie-chart-custom-colors%}).
 
-```XAML
-<telerik:RadPieChart>
-</telerik:RadPieChart>
-```
-
-**2.** Add the series to the `RadPieChart.Series` collection:
-
-```XAML
-<telerik:RadPieChart.Series>
-	<telerik:PieSeries ItemsSource="{Binding Data}">
-		<telerik:PieSeries.ValueBinding>
-			<telerik:PropertyNameDataPointBinding PropertyName="Value"/>
-		</telerik:PieSeries.ValueBinding>
-	</telerik:PieSeries>
-</telerik:RadPieChart.Series>
-```
-
-**3.** Set the `BindingContext` of the chart if none of its parents has a context:
-
-```XAML
-<telerik:RadPieChart.BindingContext>
-	<local:ViewModel/>
-</telerik:RadPieChart.BindingContext>
-```
-
-## Pie Chart Example
+## PieChart Example
 
 The following example shows the full definition of the chart.
 

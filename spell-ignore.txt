@@ -80,3 +80,7 @@ scaffoldings
 GridSplitter
 DataPager
 TextInput
+CartesianChart
+PieChart
+TextInput
+telerik
