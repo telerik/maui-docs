@@ -81,3 +81,5 @@ GridSplitter
 DataPager
 CartesianChart
 PieChart
+TextInput
+telerik
