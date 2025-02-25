@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-I want to change the default colors of the CartesianChart for bar series.
+I want to change the default colors of the bar series in the CartesianChart. How can I achieve this?
 
 This knowledge base article also answers the following questions:
 - How can I use custom colors in the Telerik UI for .NET MAUI CartesianChart?
