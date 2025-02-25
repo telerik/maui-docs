@@ -79,5 +79,7 @@ scaffolding
 scaffoldings
 GridSplitter
 DataPager
+CartesianChart
+PieChart
 TextInput
 telerik
