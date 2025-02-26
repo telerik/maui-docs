@@ -14,7 +14,7 @@ Additionally, it enables you to align its content and define custom content by u
 
 ![.NET MAUI TemplatedButton Overview](images/templatedbutton-overview.png "TemplatedButton for .NET MAUI")
 
-## Key Features of the .NET MAUI TemplatedButton
+## .NET MAUI TemplatedButton Key Features
 
 * [Content and ContentTemplate]({%slug templatedbutton-configuration%}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`. For example, you can implement a [Loading Button]({%slug templatedbutton-loading-button%}) using the `ContentTemplate`.
 * [Text alignment]({%slug templatedbutton-configuration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.

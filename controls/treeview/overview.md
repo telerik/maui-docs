@@ -14,7 +14,7 @@ To populate the TreeView, you can use any data source that is hierarchical in na
 
 ![.NET MAUI TreeView Overview](images/treeview-overview.png)
 
-## Key Features
+## .NET MAUI TreeView Key Features
 
 * Hierarchical Navigation&mdash;TreeView improves the navigation and performance of your application where navigation over hierarchical structure is required.
 * [Expand/Collapse items]({%slug treeview-expand-collapse%})&mdash;The control introduces methods which can be used to programmatically expand/collapse item or all items. 

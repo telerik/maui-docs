@@ -13,7 +13,7 @@ The Telerik TabView for .NET MAUI is a flexible navigation control that allows y
 
 ![.NET MAUI TabView Overview](images/tabview-overview.png) 
 
-## Key Features
+## .NET MAUI TabView Key Features
 
 * [Item Selection]({%slug tabview-selection%})&mdash;TabView exposes selection API which allows you as a developer to extend the navigation per application needs.
 * [Header Customization]({%slug tabview-configuration%})&mdash;TabView provides means for customizing the header area containing the tabs—through the `HeaderStyle` property you can change its position, orientation, and spacing between the tabs; through the `HeaderTemplate` property you can modify its look and feel.

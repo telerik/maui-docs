@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI. PDF Viewer enables you to easily load and display 
 
 ![.NET MAUI PDF Viewer Overview](images/pdfViewer-overview.png "PdfViewer Overview")
 
-## Key Features
+## .NET MAUI PDF Viewer Key Features
 
 * Visualization PDF documents&mdash;The component displays PDF documents that include images, geometric shapes, different colors (solid, linear, and radial gradients), ordered and unordered lists, and many more. 
 * [Support for various document sources]({%slug pdfviewer-display-documents%})&mdash;You can load a PDF document from a stream, from a file added as embedded resource, or a file located on the device, and so on.

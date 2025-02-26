@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI ItemsControl enables you to visualize a list of ite
 
 ![.NET MAUI ItemsControl Overview](images/itemscontrol-overview.png "ItemsControl Overview")
 
-## Key Features
+## .NET MAUI ItemsControl Key Features
 
 * [Setting the ItemsSource]({% slug itemscontrol-configuration %}#setting-the-items-source)&mdash;The ItemsControl provides the `ItemsSource` property, which enables you to define a collection of items and populate them with data.
 * [Using Template]({% slug itemscontrol-configuration %}#customizing-the-appearance)&mdash;You can also customize the visualization of the ItemsControl items by using the `ItemTemplate` property.

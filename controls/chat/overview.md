@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI Chat is a UI component that enables the implementat
 
 ![.NET MAUI Chat Overview](images/chat-overview.png)
 
-## Key Features
+## .NET MAUI Chat Key Features
 
 * [A variety of chat items for great user experience]({%slug chat-items-overview %})&mdash;You can choose between simple text messages, various pickers, such as list view, calendar, date and time pickers, and cards.
 * [Typing indicator]({%slug chat-typing-indicator%})&mdash;Use the typing indicator to let the users that other Chat participants are currently typing.

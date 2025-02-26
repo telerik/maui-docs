@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI SignaturePad control gives you the option to captur
 
 ![.NET MAUI SignaturePad Overview](images/signaturepad-overview.png)
 
-## Key Features
+## .NET MAUI SignaturePad Key Features
 
 * Display signature in your mobile and desktop application.
 

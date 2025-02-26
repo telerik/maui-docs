@@ -12,7 +12,7 @@ Telerik UI for .NET MAUI SideDrawer is designed to enable users to visualize a h
 
 ![.NET MAUI SideDrawer example](images/sidedrawer-overview.png) 
 
-## Key Features
+## .NET MAUI SideDrawer Key Features
 
 * [Drawer positions]({%slug sidedrawer-features-configuration%})&mdash;Display the drawer from any of the four edges of the screen. You can define its position through the `DrawerLocation` property.
 

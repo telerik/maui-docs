@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI SlideView is a flexible navigation control that all
 
 ![.NET MAUI SlideView Overview](images/slideview-overview.png)
 
-## Key Features
+## .NET MAUI SlideView Key Features
 
 * [Navigation]({%slug slideview-interaction%})&mdash;The SlideView control provides a variety of ways for navigation through its items—navigation buttons, indicators (Desktop), and pan gestures.
 

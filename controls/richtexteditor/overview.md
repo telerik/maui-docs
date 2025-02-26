@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI RichTextEditor enables users to create rich textual
 
 ![.NET MAUI Rich Text Editor Overview](images/richtexteditor-overview.png)
 
-## Key Features
+## .NET MAUI RichTextEditor Key Features
 
 * Visualize HTML content&mdash;`RadRichTextEditor` can display HTML content that includes paragraphs, formatted text, images, tables, ordered and unordered lists, and more. 
 

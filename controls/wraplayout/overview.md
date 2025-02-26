@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI WrapLayout provides a mechanism for arranging child
 
 ![.NET MAUI WrapLayout Overview](images/wraplayout_overview.png)
 
-## Key Features
+## .NET MAUI WrapLayout Key Features
 
 * [Wrap orientation]({% slug wraplayout-wrap-feature %})&mdash;Through the `Orientation` property you can control whether the child items of the WrapLayout will be wrapped in rows (horizontal orientation) or in columns (vertical orientation).
 

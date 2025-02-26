@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI AutoComplete can automatically complete user input 
 
 ![.NET MAUI AutoComplete Overview](images/autocomplete-getting-started.png "AutoComplete Overview")
 
-## Key features
+## .NET MAUI AutoComplete Key Features
 
 * [Tokens Support]({%slug autocomplete-tokens-support%})&mdash;With AutoComplete you can enable users to search for and pick items in one control.
 * [Filtering Options]({%slug autocomplete-filtering%})&mdash;You can define the filtering behavior to display all the matches that either `StartsWith` or `Contains` the typed symbols.

@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI DateTimePicker provides a way to pick a date, time 
 
 ![.NET MAUI DateTime Picker Overview](images/datetime_picker_overview.png)
 
-## Key Features
+## .NET MAUI DateTimePicker Key Features
 
 * [Spinner format]({%slug datetimepicker-formatting%}#setting-the-spinner-format)&mdash;The DateTimePicker for .NET MAUI allows you to use a standard or custom date format string through its `SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with the prepopulated values ready to be picked.
 

@@ -19,7 +19,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 ![Telerik .NET MAUI DataGrid](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
 
-## Key Features of the Telerik .NET MAUI Grid
+## .NET MAUI DaaGrid Key Features
 
 * [Different column types]({%slug datagrid-columns-overview %})&mdash;The MAUI DataGrid provides a set of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 

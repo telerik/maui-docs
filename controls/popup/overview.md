@@ -15,7 +15,7 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 ![.NET MAUI Popup Overview](images/popup-overview.png)
 
-## Key Features
+## .NET MAUI Popup Key Features
 
 * [Modal popups]({% slug popup-modal %})&mdash;You can define whether the popup will be modal or not. In both cases, the UI behind the MAUI popup gets inactive and cannot be used until the popup is closed. When you have a modal popup, it will not be automatically closed when the user clicks outside its viewport.
 

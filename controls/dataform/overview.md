@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI DataForm is a customizable component allowing you t
 
 ![.NET MAUI DataForm Overview](images/dataform-overview.png)
 
-## Key Features
+## .NET MAUI DataForm Key Features
 
 * [Built-in editors]({%slug dataform-editors%})&mdash;DataForm provides a set of built-in editors for the available primitive types such as `numeric`, `string`, `boolean`, `enumerations`, `DateTime`, `TimeSpan`. The control detects the types of the data object’s properties and automatically displays the proper editor.  
 

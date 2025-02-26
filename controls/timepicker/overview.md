@@ -15,7 +15,7 @@ The TimePicker provides a number of features which allow you to set a time range
 
 ![TimePicker Overview](images/time_picker_overview.png)
 
-## Key Features
+## .NET MAUI TimePicker Key Features
 
 * [Time ranges]({%slug timepicker-time-range%})&mdash;The TimePicker allows you to define a time range by setting minimum and maximum time values and enables users to choose a time within that range.
 

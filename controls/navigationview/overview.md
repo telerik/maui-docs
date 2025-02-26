@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control used to build
 
 ![.NET MAUI NavigationView Overview](images/navigationview-overview.gif)
 
-## Key Features
+## .NET MAUI NavigationView Key Features
 
 * [Display modes]({%slug navigationview-display-mode%})&mdash;You can use different modes to display the navigation pane&mdash;Compact, Expanded and Minimal. 
 * [Auto-changing the Display mode]({%slug navigationview-display-mode%})&mdash;NavigationView provides an option for automatically changing the display mode depending on the threshold width.

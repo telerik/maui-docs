@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI ListPicker allows the user to select an item from a
 
 ![.NET MAUI ListPicker Overview](images/list_picker_overview.png)
 
-## Key Features
+## .NET MAUI ListPicker Key Features
 
 * [Looping]({%slug listpicker-looping%})&mdash;The ListPicker enables you to loop through its items infinitely while scrolling.
 * [Picker mode]({%slug listpicker-picker-mode%})&mdash;You can choose between `Popup` and `DropDown` UI for showing the items inside the list picker. For Desktop the default picker mode is `DropDown` while for mobile it's `Popup`.
