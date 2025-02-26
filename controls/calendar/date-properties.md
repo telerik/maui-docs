@@ -8,7 +8,7 @@ slug: calendar-date-properties
 
 # .NET MAUI Calendar Date Properties
 
-The .NET MAUI Calendar provides various date properties that allow you to configure the control by setting the display date, restricting the selectable dates, disabling the day names, and more.
+The <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> provides various date properties that allow you to configure the control by setting the display date, restricting the selectable dates, disabling the day names, and more.
 
 ## Setting the Display Date
 

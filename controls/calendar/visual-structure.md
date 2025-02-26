@@ -8,7 +8,7 @@ slug: calendar-visual-structure
 
 # .NET MAUI Calendar Visual Structure
 
-The visual structure of the .NET MAUI Calendar represents the anatomy of the UI component. Being familiar with the visual elements of the Calendar allows you to quickly find the information required to configure them.
+The visual structure of the <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> represents the anatomy of the UI component. Being familiar with the visual elements of the Calendar allows you to quickly find the information required to configure them.
 
 The following image shows the anatomy of the Calendar.
 

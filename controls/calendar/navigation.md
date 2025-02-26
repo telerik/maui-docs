@@ -8,7 +8,7 @@ slug: calendar-navigation
 
 # .NET MAUI Calendar Navigation
 
-You can navigate between the different views of the Calendar programmatically or let the user change the views from the UI.
+You can navigate between the different views of the <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> programmatically or let the user change the views from the UI.
 
 ## Navigating through Buttons
 

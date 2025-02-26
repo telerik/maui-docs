@@ -8,7 +8,7 @@ slug: calendar-templates-overview
 
 # .NET MAUI Calendar Templates
 
-If the default look how the days, months, years and decades are presented do not match your use case, you can define custom templates. The available templates for customizing are:
+If the default look how the days, months, years and decades are presented in the <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> do not match your use case, you can define custom templates. The available templates for customizing are:
 
 * `DayTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the days in the month view of the Calendar.
 * `MonthTemplate `(`DataTemplate`)&mdash;Specifies the content templates for the months in the year view of the Calendar.

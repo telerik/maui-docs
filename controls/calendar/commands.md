@@ -8,7 +8,7 @@ slug: calendar-commands
 
 # .NET MAUI Calendar Commands
 
-The .NET MAUI Calendar provides various commands that allow the user to switch between the display modes and views.
+The <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> provides various commands that allow the user to switch between the display modes and views.
 
 ## Commands for Navigating the Current View
 
