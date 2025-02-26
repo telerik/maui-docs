@@ -8,7 +8,7 @@ slug: pdfviewer-commands
 
 # Commands
 
-PDF Viewer provides the following commands of type `ICommand`:
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides the following commands of type `ICommand`:
 
 * `ZoomInCommand`&mdash;Zooms in.
 * `ZoomOutCommand`&mdash;Zooms out.

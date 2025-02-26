@@ -8,7 +8,7 @@ slug: pdfviewer-toolbar
 
 # PDF Viewer Toolbar
 
-The PDF Viewer Toolbar includes the commands that the PDF Viewer provides. You also have the option to include additional toolbar items in the `PdfViewerToolbar` through a custom command.  
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> Toolbar includes the commands that the PDF Viewer provides. You also have the option to include additional toolbar items in the `PdfViewerToolbar` through a custom command.  
 
 ## Predefined Toolbar Items
 

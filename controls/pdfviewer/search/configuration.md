@@ -8,7 +8,7 @@ slug: pdfviewer-search-configuration
 
 # .NET MAUI PDF Viewer Search Configuration
 
-The Telerik UI for .NET MAUI PDF Viewer exposes `SearchSettings` property which you can use to configure the search functionality options, such as search criteria, commands, highlight colors, and so on.
+The Telerik UI for <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> exposes `SearchSettings` property which you can use to configure the search functionality options, such as search criteria, commands, highlight colors, and so on.
 
 This article lists the `SearchSettings` properties that allow you to customize the search.
 

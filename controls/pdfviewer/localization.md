@@ -8,7 +8,7 @@ slug: pdfviewer-localization
 
 # .NET MAUI PDF Viewer Localization
 
-The Telerik UI for .NET MAUI PDF Viewer provides localization support. Localization refers to the translation of application resources into localized versions for the specific languages that the application supports.
+The Telerik UI for <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides localization support. Localization refers to the translation of application resources into localized versions for the specific languages that the application supports.
 
 >important For more details about the localization process of Telerik UI for .NET MAUI components, refer to the topic about [common globalization and localization support by Telerik UI for .NET MAUI]({%slug globalization-localization%}).
 

@@ -8,7 +8,7 @@ slug: pdfviewer-search-commands
 
 # .NET MAUI PDF Viewer Search Commands
 
-The PDF Viewer for .NET MAUI provides the following commands related to Search feature:
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides the following commands related to Search feature:
 
 * `OpenSearchViewCommand` (`ICommand`)&mdash;Opens the search view UI for entering the search text. This command is intended for desktop.
 * `CloseSearchViewCommand` (`ICommand`)&mdash;Closes the search view UI for entering the search text. This command is intended for desktop.
