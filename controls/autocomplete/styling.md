@@ -93,6 +93,8 @@ Here is the result:
 
 ## See Also
 
+- [Apply Implicit Style]({%slug style-combobox-autocomplete-entry-implicit-explicit%})
+- [Styling the AutoComplete Using Visual States]({%slug style-autocomplete-visual-state-border-telerik-maui%})
 - [Data Binding]({%slug autocomplete-data-binding%})
 - [Configuration]({%slug autocomplete-configuration%})
 - [Suggest Mode]({%slug autocomplete-suggest-mode%})

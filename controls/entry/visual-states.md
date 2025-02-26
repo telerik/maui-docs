@@ -68,3 +68,5 @@ This is the result on WinUI:
 ## See Also
 
 - [Entry Styling]({%slug entry-styling%})
+- [Apply Implicit Style]({%slug style-combobox-autocomplete-entry-implicit-explicit%})
+- [Styling Entry Using Visual States]({%slug style-entry-visual-state-border-telerik-maui%})
