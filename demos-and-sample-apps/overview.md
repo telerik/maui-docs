@@ -11,6 +11,10 @@ position: 0
 
 The Telerik .NET MAUI library has a few fully featured examples and [demo applications](https://www.telerik.com/maui-ui/demo-apps/controls) demonstrating our [.NET MAUI](https://www.telerik.com/maui-ui)) controls. You can review the source code of each app and get familiar with the way various controls are utilized.
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-maui-overview.html %}
+{% endif %}
+
 The Telerik has the following .NET MAUI samples:
 
 * [Controls Samples App](#controls-samples-app)
