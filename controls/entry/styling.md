@@ -58,6 +58,7 @@ The following example demonstrates how to apply the font options to the Entry.
 
 ## See Also
 
+- [Apply Implicit Style]({%slug style-combobox-autocomplete-entry-implicit-explicit%})
 - [Text Appearance]({% slug entry-text-appearance%})
 - [Text Selection]({%slug entry-text-selection %})
 - [Events]({% slug entry-events%})
