@@ -8,7 +8,7 @@ slug: richtexteditor-custom-toolbar
 
 # RichTextEditor Custom Toolbar
 
-You can customize the toolbar by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include.
+You can customize the toolbar of the [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) by setting the `AutoGenerateItems` to `False`. Then decide which toolbar items to include.
 
 Here is an example with custom toolbar items: 
 

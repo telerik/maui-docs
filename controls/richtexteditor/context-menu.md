@@ -8,7 +8,7 @@ slug: richtexteditor-context-menu
 
 # Context Menu
 
-The .NET MAUI RichTextEditor comes with a built-in context menu, which provides access to common operations, such as **Copy** and **Paste**, and enables the user to move content between apps or within an app. 
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) comes with a built-in context menu, which provides access to common operations, such as **Copy** and **Paste**, and enables the user to move content between apps or within an app. 
 
 On WinUI and MacCatalyst, the context menu opens on a right-button click over the editor's content. On Android and iOS, it appears as soon as the user performs selection.
 

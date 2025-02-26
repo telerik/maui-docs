@@ -8,7 +8,7 @@ slug: richtexteditor-toolbar
 
 # RichTextEditor Toolbar
 
-The RichTextEditor control comes with various editing capabilities. With the help of the `RadRichTextEditorToolbar`, you can enable the users to effortlessly edit HTML content. The default toolbar includes items for all the available text formatting options. Alternatively, you can customize the shown editing options according to your needs.
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) control comes with various editing capabilities. With the help of the `RadRichTextEditorToolbar`, you can enable the users to effortlessly edit HTML content. The default toolbar includes items for all the available text formatting options. Alternatively, you can customize the shown editing options according to your needs.
 
 By default, the `RadRichTextEditorToolbar` Items are auto-populated. You can change this by setting the `RadRichTextEditorToolbar` boolean `AutoGenerateItems` property to `False`. In this case, you will need to manually define the available editing options. For more details, check [Custom Toolbar]({%slug richtexteditor-custom-toolbar%}) article.
 

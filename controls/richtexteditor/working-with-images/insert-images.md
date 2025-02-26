@@ -8,7 +8,7 @@ slug: richtexteditor-insert-images
 
 # Toolbar Items for Working With Images
 
-This article describes the built-in toolbar items for insert and edit images.
+This article describes the built-in toolbar items for insert and edit images in the [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) control.
 
 ## Insert Images
 

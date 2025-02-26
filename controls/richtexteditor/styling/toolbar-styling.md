@@ -8,7 +8,7 @@ slug: richtexteditor-toolbar-styling
 
 ## RichTextEditor Toolbar Styling
 
-RichTextEditor for .NET MAUI provides a flexible styling API for its toolbar items. 
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides a flexible styling API for its toolbar items. 
 
 The `RichTextEditorToolbar` is based on the `RadToolbar` control. All toolbar items in the RichTextEditor inherit from `ButtonToolbarItem`.
 

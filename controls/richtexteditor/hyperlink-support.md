@@ -8,7 +8,7 @@ slug: richtexteditor-hyperlink-support
 
 # Hyperlink Support
 
-RichTextEditor provides built-in support for creating and managing hyperlinks. Through the exposed commands related to hyperlinks, namely `ApplyHyperlinkCommand`, `RemoveHyperlinkCommand`, and `OpenHyperlinkCommand`, users can manipulate the hyperlinks inside the RichTextEditor content.
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides built-in support for creating and managing hyperlinks. Through the exposed commands related to hyperlinks, namely `ApplyHyperlinkCommand`, `RemoveHyperlinkCommand`, and `OpenHyperlinkCommand`, users can manipulate the hyperlinks inside the RichTextEditor content.
 
 In addition, `RichTextEditorToolbar` exposes predefined toolbar items wired to the hyperlink commands. 
 
