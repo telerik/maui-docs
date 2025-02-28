@@ -46,7 +46,7 @@ To achieve dynamic updates of a QRCode in a .NET MAUI application, follow these 
 </telerik:RadBarcode>
 ```
 
-2. In your ViewModel, implement the property to which the RadBarcode's `Value` is bound. Ensure this property notifies the UI of changes, typically by implementing the `INotifyPropertyChanged` interface.
+2. In your view model, implement the property to which the Barcode's `Value` is bound. Ensure this property notifies the UI of changes, typically by implementing the `INotifyPropertyChanged` interface.
 
 ```csharp
 public class MainPageViewModel : Telerik.Maui.Controls.NotifyPropertyChangedBase
