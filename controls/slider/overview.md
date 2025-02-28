@@ -14,7 +14,7 @@ The Slider supports ticks, labels, and tooltips. With them, your end users can q
 
 ![.NET MAUI Slider Overview](images/slider-overview.png)
 
-## .NET MAUI Slider Key Features
+## Key Features of the .NET MAUI Slider
 
 * [Value thumb]({%slug slider-value-thumb%})&mdash;The slider's value thumb is drawn corresponding to its `Value` property. Users can modify the `Value` by dragging the thumb along the backtrack.
 * [Range track]({%slug slider-range-track%})&mdash;The Slider provides a customizable range track for better representation of the selected value. You can modify the range track's initial position with the `OriginValue` property.

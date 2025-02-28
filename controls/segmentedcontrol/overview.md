@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI SegmentedControl allows you to display a list of ho
 
 ![.NET MAUI SegmentedControl Overview](images/segmentcontrol-overview-0.png)
 
-## .NET MAUI SegmentedControl Key Features
+## Key Features of the .NET MAUI SegmentedControl
 
 * [Selection]({% slug segmentedcontrol-selection %})&mdash;The SegmentedControl exposes properties for working with its items selection.
 

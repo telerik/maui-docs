@@ -12,7 +12,7 @@ The Telerik .NET MAUI ProgressBar is designed to display progress information to
 
 ![.NET MAUI ProgressBar Overview](images/progressbar-overview.png)
 
-## .NET MAUI ProgressBar Key Features
+## Key Features of the .NET MAUI ProgressBar
 
 * [Value and Progress]({%slug progressbar-configuration%}#value-and-progress)&mdash;Features are used to set and report the progress of a task inside the ProgressBar control.
 * [Value range]({%slug progressbar-configuration%}#value-range)&mdash;Define value ranges by setting the minimum and maximum values.

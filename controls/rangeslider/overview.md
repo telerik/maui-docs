@@ -12,7 +12,7 @@ slug: rangeslider-overview
 
 ![.NET MAUI RangeSlider Overview](images/rangeslider-overview.png)
 
-## .NET MAUI RangeSlider Key Features
+## Key Features of the .NET MAUI RangeSlider
 
 * [Range Thumb]({% slug rangeslider-range-thumb%})&mdash;Through the draggable range thumb users can quickly update the range start and end values.
 * [Ticks]({% slug rangeslider-ticks%})&mdash;Add ticks to the range slider's track in order to enable users to easily identify the range start and end.

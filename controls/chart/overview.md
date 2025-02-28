@@ -48,7 +48,7 @@ The [Pie Chart]({% slug chart-types-pie-chart %}) visualizes its data points by 
 * [Donut Series]({% slug chart-series-donut-series %})
 * [Pie Series]({% slug chart-series-pie-series %})
 
-## Key Features
+## Key Features of the .NET MAUI Chart
 
 Each Telerik UI for .NET MAUI Chart delivers a range of handy and developer-friendly features whose number and further development are not limited by the list in this section. The team constantly invests efforts to improve the performance and add more value to the existing Charts library as well as develop new features and controls to it.
 

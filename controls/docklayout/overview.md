@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI DockLayout is a layout control that provides a mech
 
 ![.NET MAUI DockLayout Overview](images/docklayout_overview.png)
 
-## .NET MAUI DockLayout Key Features
+## Key Features of the .NET MAUI DockLayout
 
 * [Docking functionality]({% slug docklayout-docking %})&mdash;You can set the position of each child element inside the layout as well as render multiple child elements to one side.
 * [Adaptable docking]({% slug docklayout-docking %}#setting-the-position-of-the-last-child-element)&mdash;The DockLayout enables you to overwrite the default behavior of the last docked element, which stretches over the remaining space that is unoccupied by the other child elements.

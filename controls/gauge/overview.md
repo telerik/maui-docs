@@ -15,7 +15,7 @@ To provide the indicated value or values with context, the Gauges use axes and r
 
 ![.NET MAUI Gauge Overview](images/gauge-overview.png)
 
-## .NET MAUI Gauge Key Features
+## Key Features of the .NET MAUI Gauge
 
 * Gauge types&mdash;The Gauge control comes in three individual types, which enable you to display the gauge scale through different layouts. Depending on the requirements of your project, you can choose between the [Horizontal Gauge]({% slug gauge-types-horizontal %}), [Vertical Gauge]({% slug gauge-types-vertical %}), or [Radial Gauge]({% slug gauge-types-radial %}).
 * [Axis options]({% slug gauge-axis %})&mdash;The supported axis options provide full control over the display of the Gauge axis including its ticks, labels, appearance, and axis range.

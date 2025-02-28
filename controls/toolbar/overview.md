@@ -12,7 +12,7 @@ The Telerik .NET MAUI Toolbar is a flexible component for implementation of tool
 
 ![.NET MAUI Toolbar Overview](images/toolbar-overview.png "Toolbar Overview")
 
-## .NET MAUI Toolbar Key Features
+## Key Features of the .NET MAUI Toolbar
 
 * [Rich collection of toolbar items]({%slug toolbar-items%})&mdash;Like navigation button, split button, slider, listpicker, radio buttons and more 
 * Adding text and image to the toolbar item.

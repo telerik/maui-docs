@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI Path is a control which can be used to draw complex
 
 ![.NET MAUI Path Overview](images/paths.png)
 
-## .NET MAUI Path Key Features
+## Key Features of the .NET MAUI Path
 
 * [Built-in geometries]({%slug geometry-types%})&mdash;The Path supports predefined geometries like: `Star`, `Circle`, `Heart` and `Diamond`.
 

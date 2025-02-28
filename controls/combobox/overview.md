@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI ComboBox enables users to select one or more items 
 
 ![.NET MAUI ComboBox Overview](images/combobox-overview.png "ComboBox Overview")
 
-## .NET MAUI ComboBox Key Features
+## Key Features of the .NET MAUI ComboBox
 
 * [Editable and NonEditable mode]({%slug combobox-editmode-and-search%})&mdash;The .NET MAUI ComboBox supports both editable and noneditable state. When the control is in edit mode searching can be performed. 
 * [Searching Support]({%slug combobox-editmode-and-search%})&mdash;The ComboBox provides both case-sensitive and case-insensitive searching modes. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. 

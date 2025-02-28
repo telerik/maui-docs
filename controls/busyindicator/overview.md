@@ -13,7 +13,7 @@ The Telerik BusyIndicator for .NET MAUI allows you to display a notification whe
 
 ![BusyIndicator Overview](images/busyindicator-overview.png)
 
-## .NET MAUI BusyIndicator Key Features
+## Key Features of the .NET MAUI BusyIndicator
 
 * [Built-in animations]({%slug busyindicator-animations%}#built-in-animations)&mdash;The BusyIndicator control provides a set of built-in animations, which you can use.
 * [Custom animation]({%slug busyindicator-animations%}#custom-animation)&mdash;The control allows you to define custom content and animate it by using the `RadAnimation` class.

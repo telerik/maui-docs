@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI Calendar allows you to select single or multiple da
 
 ![.NET MAUI Calendar Overview](images/calendar-getting-started.png "Calendar Overview")
 
-## .NET MAUI Calendar Key Features
+## Key Features of the .NET MAUI Calendar
 
 * [Different display modes]({%slug calendar-display-modes%})&mdash;The Calendar features year, month, decade, and century display modes.
 * [Date ranges]({%slug calendar-date-properties%})&mdash;Restrict the visible/selectable dates in the Calendar by utilizing the `MinDate` and `MaxDate` properties. 

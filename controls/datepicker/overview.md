@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI DatePicker allows you to select a date and visualiz
 
 ![Telerik UI for .NET MAUI DatePicker overview](images/date_picker_overview.png)
 
-## .NET MAUI DatePicker Key Features
+## Key Features of the .NET MAUI DatePicker
 
 * [Spinner format]({%slug datepicker-formatting%}#setting-the-spinner-format)&mdash;The DatePicker for .NET MAUI allows you to use a standard or custom date format string through its `SpinnerFormat` property. Depending on the type of format, the picker visualizes spinner controls with the pre-populated values.
 * [Picker mode]({%slug datepicker-picker-mode%})&mdash;You can choose between the popup and drop-down UI for showing the spinner controls with the available date values. For desktop apps, the default picker mode is `DropDown` while for mobile it's `Popup`.
