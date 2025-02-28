@@ -26,7 +26,7 @@ ticketid: 1680174
 
 ## Description
 
-As with any other Bindable Property, you can bind the `Value` property of the [RadBarcode](https://docs.telerik.com/devtools/maui/controls/barcode/2d-barcodes/qrcode-overview) to a property in the ViewModel, allowing dynamic updates of the QR code in the UI.
+As with any other bindable property, you can bind the `Value` property of the [`RadBarcode`](https://docs.telerik.com/devtools/maui/controls/barcode/2d-barcodes/qrcode-overview) to a property in the view model, allowing dynamic updates of the QR code in the UI.
 
 ## Solution
 
