@@ -32,7 +32,7 @@ As with any other bindable property, you can bind the `Value` property of the [`
 
 To achieve dynamic updates of a QRCode in a .NET MAUI application, follow these steps:
 
-1. Ensure the RadBarcode is properly configured in your XAML with the correct binding to the ViewModel property. Use the `Value` attribute to bind to the ViewModel property.
+1. Ensure the `RadBarcode` is properly configured in your XAML with the correct binding to the view model property. Use the `Value` attribute to bind to the view model property.
 
 ```xml
 <telerik:RadBarcode WidthRequest="160" HeightRequest="160"
