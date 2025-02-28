@@ -98,7 +98,7 @@ public partial class MainPage : ContentPage
 
 ## See Also
 
-- [RadBarcode Overview](https://docs.telerik.com/devtools/maui/controls/barcode/overview)
+- [Barcode Overview](https://docs.telerik.com/devtools/maui/controls/barcode/overview)
 - [QRCode Symbology](https://docs.telerik.com/devtools/maui/controls/barcode/2d-barcodes/qrcode-overview)
 - [Binding in .NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/fundamentals/data-binding)
 
