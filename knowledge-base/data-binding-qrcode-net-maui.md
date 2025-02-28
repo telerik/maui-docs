@@ -74,7 +74,7 @@ public class MainPageViewModel : Telerik.Maui.Controls.NotifyPropertyChangedBase
 }
 ```
 
-3. Bind the ViewModel to the View's `BindingContext` to establish the data binding.
+3. Bind the view model to the View's `BindingContext` to establish the data binding.
 
 ```csharp
 public partial class MainPage : ContentPage
