@@ -24,8 +24,6 @@ In addition to the available styling properties, you can apply specific [Visual 
 
 >tip For a runnable example demonstrating the Entry Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
 
-
-
 ## Clear Button Style
 
 Style the Clear button which is displayed by default when entering text in the control using the following properties:
@@ -63,3 +61,4 @@ The following example demonstrates how to apply the font options to the Entry.
 - [Text Selection]({%slug entry-text-selection %})
 - [Events]({% slug entry-events%})
 - [Styling Entry in Telerik MAUI After Upgrading to Version 8.0.0 or Later]({%slug style-entry-visual-state-border-telerik-maui%})
+- [Comparison Between Entry and TextInput]({%slug entry-vs-textinput%})

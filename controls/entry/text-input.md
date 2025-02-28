@@ -26,3 +26,4 @@ Along with the properties the Telerik .NET MAUI TextInput control inherits from 
 
 - [Entry Overview]({%slug entry-overview%})
 - [Entry Styling]({%slug entry-styling%})
+- [Comparison Between Entry and TextInput]({%slug entry-vs-textinput%})
