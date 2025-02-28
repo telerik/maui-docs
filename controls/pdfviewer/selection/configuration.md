@@ -35,7 +35,7 @@ When the user selects some text, this opens a default selection menu (context me
 
 ## Example: PDF Viewer Custom Selection Menu
 
-The following steps demonstrate how to use the PDF Viewer properties to customize the selection menu:
+The following steps demonstrate how to use the <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> properties to customize the selection menu:
 
 **1.** Add the PDF Viewer definition with the event:
 

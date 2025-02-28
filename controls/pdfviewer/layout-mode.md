@@ -17,7 +17,7 @@ The available options are:
 
 The current `LayoutMode` can be changed through the `ToggleLayoutModeCommand` and the `ToggleLayoutModeToolbarItem` [`RadPdfViewer` commands]({%slug pdfviewer-commands%}).
 
-Here is how the PDF Viewer looks when the `LayoutMode` is set to `ContinuousScroll`:
+Here is how the <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> looks when the `LayoutMode` is set to `ContinuousScroll`:
 
 ![.NET MAUI PDF Viewer ContinuousScroll](images/pdf-continousscroll.png "PdfViewer ContinuousScroll")
 

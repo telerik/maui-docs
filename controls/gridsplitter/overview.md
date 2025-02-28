@@ -18,7 +18,7 @@ You can define the GridSplitter to be located within its own row (for horizontal
 
 ![.NET MAUI GridSplitter Overview](images/gridsplitter-overview.gif "GridSplitter Overview")
 
-## Key Features
+## Key Features of the .NET MAUI GridSplitter
 
 * [Resize behavior]({%slug gridsplitter-configuration%}#resize-behavior)&mdash;The GridSplitter allows you to control which columns or rows are resized relative to the position of the splitter.
 * [Resize direction]({%slug gridsplitter-configuration%}#resize-direction)&mdash;You can control whether the GridSplitter control resizes rows or columns. 

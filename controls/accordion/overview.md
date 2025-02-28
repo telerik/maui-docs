@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI Accordion is a vertically collapsible content panel
 
 ![.NET MAUI Accordion Overview](images/accordion-overview.png)
 
-## Key features
+## Key Features of the .NET MAUI Accordion
 
 * [Collapsed/expanded states]({%slug accordion-expand-collapse-states%})&mdash;Accordion consists of AccordionItems that can present any content. The end users can show or hide this content by interacting with the headers of the control.
 * [Collapse All Items]({% slug accordion-expand-collapse-states%}#collapse-all-items)&mdash;You can allow the app users to collapse the Accordion through the `CanCollapseAllItems` Boolean property.

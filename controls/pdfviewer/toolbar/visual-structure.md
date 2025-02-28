@@ -8,7 +8,7 @@ slug: pdfviewer-toolbar-visual-structure
 
 # .NET MAUI PDF Viewer Toolbar Visual Structure
 
-The visual structure of the .NET MAUI PDF Viewer represents the anatomy of the UI component. Being familiar with the visual elements of the PDF Viewer allows you to quickly find the information required to configure them.
+The visual structure of the <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> represents the anatomy of the UI component. Being familiar with the visual elements of the PDF Viewer allows you to quickly find the information required to configure them.
 
 The images in this article show the anatomy of the <ComponentName> and its building blocks.
 

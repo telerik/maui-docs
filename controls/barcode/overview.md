@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI Barcode enables you to create and show barcodes. Yo
 
 ![Barcode Overview](images/barcode_overview.png)
 
-## Key Features
+## Key Features of the .NET MAUI Barcode
 
 * [Value and symbology]({% slug barcode-valuesymbology %})&mdash;The Barcode enables you set the symbology that will be used to convert the value of the control into a visual barcode representation.
 * [Sizing modes]({% slug barcode-sizingmodes %})&mdash;The Barcode provides three sizing modes that enable you to fine-tune the rendering of the barcodes.

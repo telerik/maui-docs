@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI TimeSpanPicker provides an easy way to select a tim
 
 ![TimeSpanPicker Overview](images/timespan_picker_overview.png)
 
-## Key Features
+## Key Features of the .NET MAUI TimeSpanPicker
 
 * [Spinner Format]({%slug timespanpicker-formatting%})&mdash;The TimeSpanPicker for .NET MAUI allows you to use standard or custom time span format string through its `TimeSpanPicker.SpinnerFormat` property. Depending on what format is set, the picker visualizes spinner controls with pre-populated values that can be picked.
 

@@ -16,7 +16,7 @@ It provides various border thickness types and corner-side radiuses, which can b
 
 ![Border Overview](images/border-overview.png "RadBorder Overview")
 
-## Key Features
+## Key Features of the .NET MAUI Border
 
 * [Thickness]({% slug border-styling%}#border-thickness)&mdash;Telerik UI for .NET MAUI Border provides options for setting its thickness and enables you to visually enhance your label, image, and other views.
 

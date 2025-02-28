@@ -8,7 +8,7 @@ slug: calendar-display-modes
 
 # .NET MAUI Calendar Display Modes
 
-The Telerik .NET MAUI Calendar is a control that allows the user to select a date from a standard view that can represent various time spans. The Calendar views define what is visible in the Calendar, for example, month, year, decade, or century.
+The Telerik <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> is a control that allows the user to select a date from a standard view that can represent various time spans. The Calendar views define what is visible in the Calendar, for example, month, year, decade, or century.
 
 ## Setting the Display Mode Programmatically
 

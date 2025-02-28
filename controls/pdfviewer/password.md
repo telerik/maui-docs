@@ -8,7 +8,7 @@ slug: pdfviewer-password
 
 # Password-Protected PDF Document
 
-To allow the users to open password-protected documents in the PDF Viewer, you must handle the `SourcePasswordNeeded` event.
+To allow the users to open password-protected documents in the <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a>, you must handle the `SourcePasswordNeeded` event.
 
 * `SourcePasswordNeeded`&mdash;Occurs when a user password is needed to load the document in the PDF Viewer. The `SourcePasswordNeeded` event handler receives two parameters:
 	* The sender argument, which is of type `object`, but can be cast to the `RadPdfViewer` type.

@@ -8,7 +8,7 @@ slug: richtexteditor-styling
 
 # RichTextEditor Styling
 
-The Telerik .NET MAUI RichTextEditor provides means for modifying its visual appearance, so that it matches the style of the app. 
+The Telerik [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides means for modifying its visual appearance, so that it matches the style of the app. 
 
 You can take advantage of the following styling properties:
 

@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI Scheduler allows you to easily implement various sc
 
 ![.NET MAUI Scheduler Overview](images/scheduler-overview.png)
 
-## Key Features
+## Key Features of the .NET MAUI Scheduler
 
 * [Built-in Views]({% slug scheduler-views-overview %})&mdash;The Scheduler control comes with a few customizable predefined views: month, week, multiday and day views.
 * [Appointments]({% slug appointments-overview %})&mdash;Through the `AppointmentsSource` property you can populate the Scheduler with appointments. In addition, you can define a custom template as well as apply various styling options to the appointments to achieve the desired look & feel.

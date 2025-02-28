@@ -9,7 +9,7 @@ slug: richtexteditor-images-overview
 
 # Overview
 
-RichTextEditor control allows you to add (insert), cut, copy, paste, resize, and delete images by using built-in toolbar items. 
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) control allows you to add (insert), cut, copy, paste, resize, and delete images by using built-in toolbar items. 
 
 You can add images in the RichTextEditor by using the predefined toolbar items:
 

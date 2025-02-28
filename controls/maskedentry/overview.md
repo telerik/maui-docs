@@ -13,7 +13,7 @@ Telerik UI for .NET MAUI MaskedEntry formats and restricts text inputs to predef
 
 ![.NET MAUI MaskedEntry Overview](images/maskedentry-overview.png)
 
-## Key Features
+## Key Features of the .NET MAUI MaskedEntry
 
 * [Mask types]({%slug maskedentry-masked-types%})&mdash;The MaskedEntry allows you to define a string of characters that constrain user input. The `Mask` property may contain literals and special mask characters based on the used MaskedEntry such as Regex, Numeric, and more.
 

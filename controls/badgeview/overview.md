@@ -7,7 +7,7 @@ tags: badge, .net maui, badgeview, notifications, indicator, marker, badge for .
 slug: badgeview-overview
 ---
 
-# .NET MAUI BadgeView - Overview
+# .NET MAUI BadgeView Overview
 
 The Telerik UI for .NET MAUI BadgeView allows you to display badges in your application.
 
@@ -16,7 +16,7 @@ Badges can be used as an additional marker for any element: to decorate avatars,
 ![BadgeView Overview](images/badgeview-overview.png)
 
 
-## Key Features
+## Key Features of the .NET MAUI BadgeView
 
 * [Badge indicator]({% slug badge-overview %})&mdash;The BadgeView provides a number of features for customizing its Badge indicator.
 * [Position]({%slug badgeview-position-alignment%}#badge-position)&mdash;The BadgeView allows you to specify the `Position` of the Badge indicator based on its content.

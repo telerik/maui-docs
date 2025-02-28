@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI PDF Viewer control enables you to visualize PDF doc
 
 ## Visualize Documents from a Fixed Document
 
-The PDF Viewer allows you to load the PDF document from a stream by using the `RadFixedDocument` element.
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> allows you to load the PDF document from a stream by using the `RadFixedDocument` element.
 
 By using this approach, you have more control over the loading process, for example, you can modify the document after importing it and before assigning it as a `Source` to the PDF Viewer control. For more details, check [`RadFixedDocument`](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/model/radfixeddocument) topic from `RadPdfProcessing` documentation. 
 

@@ -8,7 +8,7 @@ slug: richtexteditor-events
 
 # Events
 
-The .NET MAUI RichTextEditor emits a set of events that allow you to configure the component's behavior in response to specific user actions.
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) emits a set of events that allow you to configure the component's behavior in response to specific user actions.
 
 The RichTextEditor component exposes the following events:
 

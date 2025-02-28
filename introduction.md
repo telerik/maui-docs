@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction and Documentation
+page_title: .NET MAUI Documentation - Telerik UI for .NET MAUI
 description: "Learn how to build native applications for Windows, macOS, Android, and iOS by reading the Telerik UI for .NET MAUI documentation."
 tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
@@ -23,7 +23,7 @@ This brand-new UI library comes with [sample demo applications]({%slug sampleapp
 
 >tip This online MAUI documentation covers the latest version of Telerik UI for MAUI. If needed, download the [offline PDF MAUI documentation](#learning-resources) for the required product version.
 
-## List of Controls
+## List of .NET MAUI UI Controls
 
 Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI:
 
@@ -35,7 +35,7 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 
 Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial. To use it commercially, you need to [purchase a license](https://www.telerik.com/purchase/maui-ui). Feel free to review the Telerik UI for .NET MAUI [License Agreement](https://www.telerik.com/purchase/license-agreement/maui-ui) to get acquainted with the full terms of use.
 
-## Support Options
+## .NET MAUI Support Options
 
 For any issues you might encounter while working with Telerik UI for .NET MAUI, you can use a number of available support channels:
 
@@ -53,7 +53,7 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 * [Telerik UI for .NET MAUI YouTube Channel](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N)&mdash;Allows you in-depth surfing through the .NET MAUI videos that cover a variety of topics—from the why of transitioning to MAUI to DevOps in MAUI and more!
 * [Offline PDF documentation](https://www.telerik.com/account/downloads/product-download?product=MAUI)&mdash;Download the offline PDF documentations for the **Telerik UI for MAUI** and **Telerik Document Processing** under the **Documentation** section of your Telerik account.
 
-## Next Steps
+## Next Steps with .NET MAUI UI
 
 * [Getting Started with Telerik UI for .NET MAUI (Online Guide)]({%slug maui-getting-started%})
 

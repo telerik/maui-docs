@@ -8,7 +8,7 @@ slug: pdfviewer-selection-overview
 
 # .NET MAUI PDF Viewer Selection Overview
 
-By providing text selection functionality, the Telerik UI for .NET MAUI PDF Viewer enables users to mark and highlight a portion of the text. 
+By providing text selection functionality, the Telerik UI for <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> enables users to mark and highlight a portion of the text. 
 
 To initiate the text selection on mobile devices, the user must press and hold the target text. Two drag handles let the user modify the current selection.
 
