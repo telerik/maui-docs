@@ -10,7 +10,7 @@ slug: pdfviewer-viewport
 
 The Telerik UI for .NET MAUI PDF Viewer provides an API for getting and manipulating its viewport through the `Viewport` property and `ChangeViewport()` method. 
 
-The viewport is the window where the PDF Viewer displays its content and users can change the viewport through zooming, panning, and scrolling:
+The viewport is the window where the <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> displays its content and users can change the viewport through zooming, panning, and scrolling:
 
 ![.NET MAUI PDF Viewer Viewport](images/pdfviewer-viewport.gif)
 

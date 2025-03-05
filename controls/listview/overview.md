@@ -15,7 +15,7 @@ The Telerik .NET MAUI ListView is a virtualizing list component that provides th
 
 ![.NET MAUI ListView Overview](images/listview.png "Telerik .NET MAUI ListView")
 
-## Key Features of the Telerik .NET MAUI ListView
+## Key Features of the .NET MAUI ListView
 
 * [Selection]({% slug listview-features-selection %})&mdash;The .NET MAUI ListView supports both single and multiple selections and you can also select items on tap and hold gestures.
 

@@ -8,7 +8,7 @@ slug: pdfviewer-toolbar-styling
 
 # .NET MAUI PDF Viewer Toolbar Styling
 
-The PDF Viewer for .NET MAUI provides a flexible styling API for its toolbar items. 
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides a flexible styling API for its toolbar items. 
 
 As the `PDFViewerToolbar` is based on the `RadToolbar` control, all toolbar items in the PDF Viewer inherit from `ButtonToolbarItem`. All styling properties available for the `ButtonToolbarItem` are also applicable for the PDF toolbar items. 
 

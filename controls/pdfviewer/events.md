@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI PDF Viewer provides various events that allow you t
 
 ## Page Elements Loaded
 
-The PDF Viewer raises the `PageElementsLoaded` event when all elements on the page are loaded. Use this event to alter the page content before it is rendered. This event is raised on a background thread.
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> raises the `PageElementsLoaded` event when all elements on the page are loaded. Use this event to alter the page content before it is rendered. This event is raised on a background thread.
 
 The `PageElementsLoaded` event handler receives two parameters:
 * `sender`&mdash;The PDF Viewer control.

@@ -13,7 +13,7 @@ Telerik UI for .NET MAUI NumericInput is a customizable input control for numeri
 
 ![.NET MAUI NumericInput Overview](images/numericinput_overview.png "NumericInput Overview")
 
-## Key Features
+## Key Features of the .NET MAUI NumericInput
 
 * [Minimum and maximum values]({% slug numericinput-configuration%}#input-range %})&mdash;The NumericInput allows you to restrict the input value through setting its `Minimum` and `Maximum` properties.
 

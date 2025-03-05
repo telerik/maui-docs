@@ -1,40 +1,36 @@
 ---
-title: Customizing a Theme
-page_title: Customize a Theme
-description: Learn how to customize the Telerik Theme for your .NET MAUI application and alter the default appearance of the UI for .NET MAUI components.
+title: Customizing the Theme Colors
+page_title: Customizing the Theme Colors
+description: Learn how to customize the colors of the Telerik theme for your .NET MAUI application and alter the default appearance of the UI for .NET MAUI components.
 slug: themes-customization
 tags: telerik,.net maui,theme,custom
 position: 1
 ---
 
-# Customizing a Theme
+# Customizing the Theme Colors (Swatches)
 
 The Telerik UI for .NET MAUI themes are flexible and allow you to customize and adjust them to meet the specific application requirements.
 
-Depending on the changes that you want to apply, you can customize the appearance of the Telerik UI for .NET MAUI controls in a couple of ways:
-* You can modify only the colors in a certain color variation (swatch)&mdash;this will affect all the Telerik UI controls.
-* You can change the styles and templates for a specific Telerik UI control.
+When it comes to implementing your brand colors, modifying the swatches (the color variations) of the themes allows you to apply the desired tones to all Telerik UI for .NET MAUI controls.
 
-Both customization approaches require the following steps:
+> If you need to customize the styles only of a specific control or collection of controls, you can also [modify the control-specific theme resources]({%slug theme-component-styles-customization %}).
 
-1. Copying the needed resources in a separate resource dictionary and modifying them.
-2. Merging the modified resource dictionary after the Telerik theme resources.
+To customize the Telerik UI for .NET MAUI theme colors:
 
-Before proceeding with the next steps, make sure the [Telerik Theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
+1. Copy the desired theme resources to a new resource dictionary and apply your changes.
+1. Merge the new resource dictionary after the built-in Telerik theme resources.
 
-## Copying and Modifying the Theme Resources
+> Before proceeding with the next steps, make sure the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
 
-All available theme styles are in the `TelerikTheming` folder:
-* The color variations are in the `Swatches` folder.
-* The styles and templates for the Telerik UI for .NET MAUI controls are in the `Styles` folder.
+## Copy and Modify the Theme Resources
 
-To modify the theme resources:
+To customize the colors of the Telerik or the Platform theme, use the available color swatch resource dictionaries in the `\TelerikTheming\Colors\Telerik\Swatches\` or `\TelerikTheming\Colors\Platform\Swatches\` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
 
-**1.** Go to the `Resources/Styles` folder and create a `ResourceDictionary` file without a code-behind file, similar to the default `Styles.xaml` and `Colors.xaml`:
+1. Go to the `Resources\Styles` folder and create a resource dictionary file called `CustomTelerikSwatch.xaml`.
 
-![Telerik .NET MAUI Theming Custom Colors](images/theming-custom-swatch.png)
+1. Choose the [color swatch]({%slug themes-overview%}#swatch) of the theme that you will use as a starting point for your color customizations, for example, the Telerik Main swatch represented by the `\TelerikTheming\Colors\Telerik\Swatches\Main.xaml` resource dictionary.
 
-**2.** Copy the needed colors or styles from the swatch that you need to modify and paste them into the newly created `ResourceDictionary` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
+1. Copy the colors that you want to modify from the color swatch and paste them into the newly created `Resources\Styles\CustomTelerikSwatch.xaml` file. Apply the required changes based on your design requirements. For example, you can modify the primary colors of a swatch:
 
 ```XAML
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -63,9 +59,9 @@ To modify the theme resources:
 </ResourceDictionary>
 ```
 
-## Merging the New Resource Dictionary in App.xaml
+## Merge the New Resource Dictionary
 
-Once you customize the colors and styles, add the new resource dictionary to the `App.xaml` and make sure you merge `CustomTelerikSwatch.xaml` after the `TelerikTheming` file:
+Once you customize the colors in the newly created `Resources\Styles\CustomTelerikSwatch.xaml` resource dictionary, configure the application to use them: add the new resource dictionary to the `App.xaml` and make sure you merge your customized `CustomTelerikSwatch.xaml` resource dictionary after the `TelerikTheming`:
 
 ```XAML
 <Application.Resources>
@@ -75,40 +71,18 @@ Once you customize the colors and styles, add the new resource dictionary to the
             <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             <local:TelerikTheming />
 
-            <!-- Customize a swatch -->
+            <!-- Add your customized colors after the TelerikTheming resources.-->
             <ResourceDictionary Source="Resources/Styles/CustomTelerikSwatch.xaml" />
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Application.Resources>
 ```
 
-Here is the result:
+The next image illustrates the effects of customizing the primary color of the theme swatch:
 
 ![Telerik .NET MAUI Theming Custom Colors](images/telerik-theming-customized.png)
 
-## Customizing a Specific Control
-
-To modify the Style or ControlTemplate of a certain control, for example `RadComboBox`:
-
-1. Copy the styles and templates from the `ComboBox.xaml` file and paste them into a newly created `ResourceDictionary` file inside `Resources/Styles` folder as in [Copying and Modifying the Theme Resources](#copying-and-modifying-the-theme-resources). Make the needed changes of the ComboBox in that resource dictionary.
-
-1. Merge the new `ResourceDictionary` inside `App.xaml` after the `TelerikTheming` file - the changes will affect all the `RadComboBox` instances across the app.
-
-Some of the controls' XAML files have dependencies on other XAML files, you can check this inside the constructor of that file, for example, the `ComboBox.xaml` has a dependency on `Core.xaml`:
-
-```C#
-public partial class ComboBox : ResourceDictionary
-{
-	public ComboBox(ResourceDictionary core)
-	{
-		this.MergedDictionaries.Add(core);
-		InitializeComponent();
-	}
-}
-```
-
-In this case, to modify the ComboBox, you'd need to copy and merge the content of both `Core.xaml` and `ComboBox.xaml` files.
-
 ## See Also
 
+- [Customizing the Control-Specific Theme Resources]({%slug theme-component-styles-customization %})
 - [Themes Overview]({%slug themes-overview%})

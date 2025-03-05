@@ -5,73 +5,96 @@ intro_columns:
 -
   categories:
   -
-    title: "Data Controls"  
+    title: "Data Controls"
     items:
+      "CollectionView": "collectionview-overview"
+      "DataForm": "dataform-overview"
       "DataGrid": "datagrid-overview"
-      "ListView": "listview-overview"
-      "DataForm": "dataform-overview"   
+      "DataPager": "datapager-overview"
+      "ItemsControl": "itemscontrol-overview"
   -
-    title: "Pdf Viewer"
+    title: "Data Visualization"
     items:
-      "PdfViewer": "pdfviewer-overview"
+        "Barcodes": "barcode-overview"
+        "Charts": "chart-overview"
+        "Gauges": "gauge-overview"
+        "Map": "map-overview"
+        "ProgressBar": "progressbar-overview"       
+        "Ratings": "rating-overview"
+  -
+    title: "Chatbots"
+    items:
+        "Conversation UI (Chat)": "chat-overview"
+-
+  categories:
+  -
+    title: "Editors"
+    items:
+        "AutoComplete": "autocomplete-overview"
+        "ComboBox": "combobox-overview"
+        "DatePicker": "datepicker-overview"
+        "DateTimePicker": "datetimepicker-overview"
+        "Entry": "entry-overview"
+        "ImageEditor": "imageeditor-overview"
+        "ListPicker": "listpicker-overview"
+        "MaskedEntries": "maskedentry-overview"
+        "NumericInput": "numericinput-overview"
+        "RangeSlider": "rangeslider-overview"
+        "RichTextEditor": "richtexteditor-overview"
+        "TemplatedPicker": "templatedpicker-overview"
+        "TimePicker": "timepicker-overview"
+        "TimeSpanPicker": "timespanpicker-overview"
+        "SignaturePad": "signaturepad-overview"
+        "Slider": "slider-overview"
+-
+  categories:
+  -
+    title: "Navigation & Layouts"
+    items:
+        "Accordion": "accordion-overview"
+        "DockLayout": "docklayout-overview"
+        "Expander": "expander-overview"
+        "NavigationView": "navigationview-overview"
+        "SideDrawer": "sidedrawer-overview"
+        "SlideView": "slideview-overview"
+        "TabView": "tabview-overview"
+        "TreeView": "treeview-overview"
+        "WrapLayout": "wraplayout-overview"
   -
     title: "Calendar & Scheduling"
     items:
         "Calendar": "calendar-overview"
-  -
-    title: "Navigation & Layout"
-    items:
-        "TreeView": "treeview-overview"
-        "SideDrawer": "sidedrawer-overview"
-        "TabView": "tabview-overview"
-        "Accordion": "accordion-overview"
-        "Expander": "expander-overview"
-        "DockLayout": "docklayout-overview"
+        "Scheduler": "scheduler-overview"
   -
     title: "Buttons"
     items:
         "Segmented Control": "segmentedcontrol-overview"
         "Button": "button-overview"
         "CheckBox": "checkbox-overview"
-  -   
-    title: "Editors"
-    items: 
-        "Entry": "entry-overview"
-        "AutoCompleteView": "autocompleteview-overview"
-        "NumericInput": "numericinput-overview"
-        "MaskedInput": "maskedinput-overview"
-        "Image Editor": "imageeditor-overview"
-        "DateTime Picker": "datetime-picker-overview"
-        "List Picker": "list-picker-overview"
-        "Templated Picker": "templated-picker-overview"
+        "TemplatedButton": "templatedbutton-overview"
+        "ToggleButton": "togglebutton-overview"
 -
   categories:
   -
-    title: "Data Visualization"
-    items:
-        "Charts": "chart-overview"
-        "Map": "map-overview"
-        "Gauge": "gauge-overview"
-        "Rating": "rating-overview"
-        "Barcode": "barcode-overview"    
-  - 
     title: "Interactivity & UX"
     items:
-        "BusyIndicator": "busyindicator-overview"
-        "Popup": "popup-overview"
-        "SlideView": "slideview-overview"
+        "AIPrompt": "aiprompt-overview"
+        "BadgeView": "badgeview-overview"
         "Border": "border-overview"
+        "BusyIndicator": "busyindicator-overview"
+        "GridSplitter": "gridsplitter-overview"
         "Path": "path-overview"
+        "Popup": "popup-overview"
+        "Toolbar": "toolbar-overview"
+  -
+    title: "PDF Viewer"
+    items:
+        "PDF Viewer": "pdfviewer-overview"
   -
     title: "Document Processing Libraries"
     items:
-        "PdfProcessing": "radpdfprocessing-overview"
-        "WordsProcessing": "radwordsprocessing-overview"
-        "SpreadProcessing": "radspreadprocessing-overview"
-        "SpreadStreamProcessing": "radspreadstreamprocessing-overview"
-        "ZipLibrary": "radziplibrary-overview"
-  -
-    title: "Chatbots"
-    items:
-        "Conversational UI": "chat-overview"
-     
+        "PdfProcessing": "document-processing-libraries-overview"
+        "WordsProcessing": "document-processing-libraries-overview"
+        "SpreadProcessing": "document-processing-libraries-overview"
+        "SpreadStreamProcessing": "document-processing-libraries-overview"
+        "ZipLibrary": "document-processing-libraries-overview"

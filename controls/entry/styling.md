@@ -56,6 +56,9 @@ The following example demonstrates how to apply the font options to the Entry.
 
 ## See Also
 
+- [Apply Implicit Style]({%slug style-combobox-autocomplete-entry-implicit-explicit%})
 - [Text Appearance]({% slug entry-text-appearance%})
 - [Text Selection]({%slug entry-text-selection %})
 - [Events]({% slug entry-events%})
+- [Styling Entry in Telerik MAUI After Upgrading to Version 8.0.0 or Later]({%slug style-entry-visual-state-border-telerik-maui%})
+- [Comparison Between Entry and TextInput]({%slug entry-vs-textinput%})

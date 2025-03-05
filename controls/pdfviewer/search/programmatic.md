@@ -8,7 +8,7 @@ slug: pdfviewer-search-programmatic
 
 # .NET MAUI PDF Viewer Search Programmatically
 
-The PDF Viewer for .NET MAUI allows you to programmatically search in the document.
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> allows you to programmatically search in the document.
 
 ## Manual Searching
 

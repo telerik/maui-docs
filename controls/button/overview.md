@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI Button control enhances the functionality of the st
 
 ![.NET MAUI Button Overview](images/button-overview.png "Button for .NET MAUI")
 
-## Key Features
+## Key Features of the .NET MAUI Button
 
 * [Content alignment]({% slug button-configuration%})&mdash;The Button enables you to control the horizontal and vertical positioning of its content.
 * [Background image]({%slug button-configuration%}#background-image)&mdash;Apply an image as a background of the button.

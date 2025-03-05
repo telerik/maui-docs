@@ -17,7 +17,7 @@ An invalid license results in [errors and warnings]({%slug license-errors-warnin
 
 To download a license key for Telerik UI for .NET MAUI, you must have either a developer license or a trial license. If you are new to Telerik UI for .NET MAUI, sign up for a [free trial](https://www.telerik.com/try/ui-for-maui) first, and then follow the steps below.
 
-1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys/new) page in your Telerik account.
+1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
 
 1. Click the **Download License Key** button.
 
@@ -31,9 +31,9 @@ To activate the Telerik UI for .NET MAUI controls:
 
 * Copy the [downloaded](#downloading-the-license-key) `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
 
-    * For Windows: `%AppData%\Telerik\telerik-icense.txt`
-    * For Mac/Linux: `~/.telerik/telerik-license.txt`
-
+    * For Windows: `%AppData%\Roaming\Telerik\telerik-license.txt`. An example of a full path to the `telerik-license.txt` file location: `C:\Users\your-username\AppData\Roaming\Telerik\telerik-license.txt`
+    * For Mac/Linux: `~/.telerik/telerik-license.txt`. If `.telerik` folder does not exist, create such, and paste the `telerik-license.txt` file in it.
+    
 * Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
 
 When you build the project, the `Telerik.Licensing` NuGet package automatically locates the license file and uses it to activate the MAUI controls.
@@ -46,7 +46,7 @@ Telerik strongly recommends the use of NuGet packages whenever possible. Only in
 
 If you cannot use NuGet packages in your project, add the license as a code snippet:
 
-1. Go to the [License Keys page](https://www.telerik.com/account/your-licenses/license-keys/new) in your Telerik account.
+1. Go to the [License Keys page](https://www.telerik.com/account/your-licenses/license-keys) in your Telerik account.
 
 1. On the Telerik UI for .NET MAUI row, click the **View key** link in the **SCRIPT KEY** column.
 

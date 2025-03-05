@@ -8,7 +8,7 @@ slug: pdfviewer-search-toolbar
 
 # .NET MAUI PDF Viewer Search Toolbar Items
 
-The .NET MAUI PDF Viewer provides built-in support for text searching. Through the exposed commands related to the search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
+The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides built-in support for text searching. Through the exposed commands related to the search operation, namely `OpenSearchViewCommand`, `CloseSearchViewCommand`, `NavigateToNextSearchResultCommand`, and `NavigateToPreviousSearchResultCommand` users can manipulate the search toolbar behavior.
 
 In addition, `RadPdfViewerToolbar` exposes predefined toolbar items wired to the search. 
 

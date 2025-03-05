@@ -8,7 +8,7 @@ slug: calendar-selection
 
 # .NET MAUI Calendar Selection
 
-Calendar for .NET MAUI provides three different types of selection: Single, Multiple, and Range. The selected dates can be changed programmatically or by tapping a calendar cell.
+The <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> provides three different types of selection: Single, Multiple, and Range. The selected dates can be changed programmatically or by tapping a calendar cell.
 
 ## Changing the Selection Mode
 

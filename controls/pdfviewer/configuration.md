@@ -8,7 +8,7 @@ slug: pdfviewer-configuration
 
 # Configuration
 
-By setting the configuration options of the Telerik UI for .NET MAUI PDF Viewer, you can control how the opened document looks on the screen.
+By setting the configuration options of the Telerik UI for <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a>, you can control how the opened document looks on the screen.
 
 ## Setting the Zoom Level
 

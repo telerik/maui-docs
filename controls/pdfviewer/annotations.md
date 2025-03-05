@@ -8,7 +8,7 @@ slug: pdfviewer-annotations
 
 # Link Annotations
 
-The Telerik .NET MAUI PDF Viewer supports link annotations. This feature allows the user to tap any hyperlink that leads to an absolute URI, and the link will open in the browser. In addition, if the PDF contains links that point to bookmarks in the same document, the viewport scrolls to the destination specified in the link.
+The Telerik <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> supports link annotations. This feature allows the user to tap any hyperlink that leads to an absolute URI, and the link will open in the browser. In addition, if the PDF contains links that point to bookmarks in the same document, the viewport scrolls to the destination specified in the link.
 
 ![.NET MAUI PDF Viewer Link Annotation](images/pdfviewer-link-annotations.gif)
 

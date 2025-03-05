@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI PDF Viewer supports [standard](#standard-fonts) and
 
 ## Standard Fonts
 
-There are 14 standard fonts that are not embedded in the document when you use them. As our .NET MAUI PDF Viewer works with the [RadPdfProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model, these fonts can be accessed through the PdfProcessing [`FontsRepository` class](https://docs.telerik.com/devtools/document-processing/api/telerik.windows.documents.fixed.model.fonts.fontsrepository). 
+There are 14 standard fonts that are not embedded in the document when you use them. As our <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> works with the [RadPdfProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) model, these fonts can be accessed through the PdfProcessing [`FontsRepository` class](https://docs.telerik.com/devtools/document-processing/api/telerik.windows.documents.fixed.model.fonts.fontsrepository). 
 
 You can find a full list of the provided standard fonts below:
 

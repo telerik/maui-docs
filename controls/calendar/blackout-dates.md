@@ -8,7 +8,7 @@ slug: calendar-blackout-dates
 
 # .NET MAUI Calendar Blackout Dates
 
-The Calendar component for .NET MAUI provides a simple way to disable specific dates. To take advantage of this feature, specify the `BlackoutDates`(`IEnumerable<DateTime>`) collection and the user cannot select the defined dates.
+The <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> component provides a simple way to disable specific dates. To take advantage of this feature, specify the `BlackoutDates`(`IEnumerable<DateTime>`) collection and the user cannot select the defined dates.
 
 ## Disabled (Blackout) Dates Example
 

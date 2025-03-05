@@ -8,7 +8,7 @@ slug: calendar-events
 
 # .NET MAUI Calendar Events
 
-The Telerik UI for .NET MAUI Calendar component exposes a set of events that users trigger through interaction. You can handle these events and customize the configuration of the UI component.
+The Telerik UI for <a href="https://www.telerik.com/maui-ui/calendar" target="_blank">.NET MAUI Calendar</a> component exposes a set of events that users trigger through interaction. You can handle these events and customize the configuration of the UI component.
 
 The Calendar for .NET MAUI exposes the [`DisplayDateChanged`](#displaydatechanged) and the [`SelectionChanged`](#selectionchanged) events.
 

@@ -8,7 +8,7 @@ slug: richtexteditor-configuration
 
 # Configuration
 
-By using the exposed configuration options of the .NET MAUI RichTextEditor, you can configure the component features, such as the HTML source, text formatting options, text selections, and the read-only mode.
+By using the exposed configuration options of the [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}), you can configure the component features, such as the HTML source, text formatting options, text selections, and the read-only mode.
 
 ## HTML Source Options
 
