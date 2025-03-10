@@ -30,7 +30,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To disable the right swipe (left -to-right swipe direction) in a `RadCollectionView` while allowing the left swipe (right-to-left direction), subscribe to the `Swiping` event. In the event handler, determine the swipe direction by examining the `Offset` property. If the `Offset` is less than 0, indicating a right-to-left swipe direction, then call the `EndItemSwipe()` method to cancel the swipe action.
+To disable the right swipe (left-to-right swipe direction) in a `RadCollectionView` while allowing the left swipe (right-to-left direction), subscribe to the `Swiping` event. In the event handler, determine the swipe direction by examining the `Offset` property. If the `Offset` is less than 0, indicating a right-to-left swipe direction, then call the `EndItemSwipe()` method to cancel the swipe action.
 
 If you want to disable the left swipe (right-to-left swipe direction) the Offset must be greater than 0.
 
