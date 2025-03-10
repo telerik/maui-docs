@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-You're using the CollectionView in a .NET MAUI application and have enabled item swiping with `IsItemSwipeEnabled` set to `true`. However, you want to disable the right or left swipe action while keeping the left or right swipe action enabled. 
+You're using the CollectionView in a .NET MAUI application and have enabled item swiping by setting `IsItemSwipeEnabled` to `true`. However, you want to disable either the left or right swipe action while keeping the order direction functional. 
 
 This knowledge base article also answers the following questions:
 
