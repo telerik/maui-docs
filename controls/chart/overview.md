@@ -16,6 +16,14 @@ The intuitive object model and public API allow complex charts to be set up eith
 
 ![.NET MAUI Chart Overview](images/chart-overview.png)
 
+## .NET MAUI Chart Video Tutorial
+
+If you prefer video instructions, watch this short MAUI Chart video tutorial. It covers to following topics:
+* MAUI Chart anatomy - different Chart types, series, axis, labels and more.
+* Add .NET MAUI Chart to the project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fWsZRAb0s-8?si=3l0glUh8zOjmfr2r" title="Building Interactive Charts with Telerik UI for .NET MAUI: Setup, Categories, and Labels" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Chart Types
 
 The Telerik UI for .NET MAUI Chart provides the Cartesian and the Pie Charts as well as a number of series, which enable you to visualize different types of data in various ways and depending on your preferences and requirements.
