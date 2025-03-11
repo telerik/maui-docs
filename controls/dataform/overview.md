@@ -20,7 +20,7 @@ If you prefer video instructions, watch this short MAUI DataForm video tutorial.
 * Built-in Editors.
 * Options to commit data.
 
-* <iframe width="560" height="315" src="https://www.youtube.com/embed/FACbowe4Klg?si=pZmy1yAGIe04j43D" title="Working with DataForm in Telerik UI for .NET MAUI: Setup, Editors, and Commit Modes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FACbowe4Klg?si=pZmy1yAGIe04j43D" title="Working with DataForm in Telerik UI for .NET MAUI: Setup, Editors, and Commit Modes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Key Features of the .NET MAUI DataForm
 
