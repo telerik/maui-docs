@@ -13,6 +13,14 @@ The Telerik UI for .NET MAUI ListPicker allows the user to select an item from a
 
 ![.NET MAUI ListPicker Overview](images/list_picker_overview.png)
 
+## .NET MAUI ListPicker Video Tutorial
+
+If you prefer video instructions, watch this short MAUI ListPicker video tutorial. It covers to following topics:
+* Overview of the .NET MAUI ListPicker control.
+* Replace MAUI Picker with Telerik MAUI ListPicker.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hqe33HLkVfA?si=zf5EwIELGGie9HEd&amp;start=277" title="Exploring Basic UI Controls in Telerik UI for .NET MAUI: ListPicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Key Features of the .NET MAUI ListPicker
 
 * [Looping]({%slug listpicker-looping%})&mdash;The ListPicker enables you to loop through its items infinitely while scrolling.
