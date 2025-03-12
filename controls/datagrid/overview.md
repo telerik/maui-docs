@@ -19,40 +19,84 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 ![Telerik .NET MAUI DataGrid](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
 
-## Key Features of the .NET MAUI DataGrid
+## MAUI DataGrid Video Tutorial
 
-* [Different column types]({%slug datagrid-columns-overview %})&mdash;The MAUI DataGrid provides a set of built-in columns such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
+If you prefer video instructions, watch the Getting Started with the MAUI DataGrid video tutorial. It covers the following topics:
+* Introduction to Telerik MAUI DataGrid and its features.
+* Setup the DataGrid in a .NET MAUI app.
+* Configure the columns and use custom templates.
+* Use sorting, filtering and selection features.
 
-* [Load on demand]({%slug datagrid-features-loadondemand %})&mdash;In some cases, you may need to load data in the .NET MAUI DataGrid when the control is already displayed as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XxUvA4fKHzU?si=EuqJC2OIPrIDMaGd" title="Mastering the DataGrid in Telerik UI for .NET MAUI: Setup, Columns, Sorting, and More" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-* [Editing]({%slug datagrid-editing %})&mdash;You can enable users to edit the data presented in the .NET MAUI DataGrid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For example, if one of the columns is a date, a date-picker will be used to offer a change in the date field.
+## Built-in Columns
 
-* [Sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %})&mdash;Perform SORT, FILTER, and GROUP operations on your data by using the convenient API of the control.
+The MAUI DataGrid provides a set of [built-in columns]({%slug datagrid-columns-overview%}) such as Text, Boolean, Numeric, ComboBox, Date, Time, and Template. These predefined templates allow you to handle different data types and user scenarios, each with its specific editor.
 
-* [Selection modes]({%slug datagrid-selection-overview %})&mdash;The DataGrid features a single or a multiple-item selection and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
+## Reorder and Resize Columns
 
-* [Column settings]({% slug datagrid-columns-overview %})&mdash;The .NET MAUI DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}), allow users to [lock columns]({% slug datagrid-frozen-columns %}) and keep the important information always on top, and [add a column footer]({%slug datagrid-column-footer%}) to the component.
+The .NET MAUI DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}). If you want to prevent a column from resizing, you can [lock the column]({% slug datagrid-frozen-columns %}) and keep the important information always on top.
 
-* [Search as you type]({%slug datagrid-search-as-you-type%})&mdash;The DataGrid provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality.
+## Sort, Filter, and Group Data
 
-* [Row height]({%slug datagrid-row-height%})&mdash;Manually set the grid row height apply row height to control over the way the content is accommodated inside the grid cells.
+Perform SORT, FILTER, and GROUP operations on your data by using the convenient API of the control. Apply the [sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %}) operations per column.
 
-* [Row details]({%slug datagrid-row-details-overview%})&mdash;Represent additional information for the data in the row.
+## Editing
 
-* [Aggregates support]({%slug datagrid-aggregates%})&mdash;You can use the exposed API for applying aggregates functions.
+You can enable users to [edit]({%slug datagrid-editing%}) the data presented in the .NET MAUI DataGrid. Depending on the column data type, a relevant editor allows end users to edit content in a friendly environment. For example, if one of the columns is a date, a date-picker will be used to offer a change in the date field.
 
-* [Paging support]({%slug datagrid-paging%})&mdash;You can page the data of the DataGrid using the Telerik UI for .NET MAUI DataPager control.
+## Single and Multiple Selection
 
-* [Keyboard navigation]({%slug datagrid-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on WinUI and MacCatalyst.
+The DataGrid features a [single or a multiple-item selection]({%slug datagrid-selection-overview%}) and provides options for controlling the cell or row selection unit, thus enabling any selection scenario you want your MAUI application users to have.
 
-* [Empty template]({%slug datagrid-empty-template%})&mdash;When the control does not have any data (`ItemsSource` is null or the collection is empty), an empty template is displayed in the DataGrid.
+## Load Data On Demand
 
-* [Commands]({%slug datagrid-commands-overview %})&mdash;The DataGrid allows you to attach commands, such as `ColumnHeaderTap`, `CellTap`, `BeginEdit`, and more, which will be executed when certain actions occur.
+In some cases, you may need to [load data in the .NET MAUI DataGrid when the control is already displayed]({%slug datagrid-features-loadondemand%}) as this can improve the performance of your application. The DataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
 
-* [Flexible styling API]({%slug datagrid-styling%})&mdash;The .NET MAUI DataGrid is customizable if you prefer to use your own styling.
+## Row Details
 
-* [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the text displayed in the Filtering UI, Grouping panel, etc. to other languages, so that your application can be adapted to different cultures.
+The MAUI DataGrid allows you to represent additional information for the data in the row by using the [row details]({%slug datagrid-row-details-overview%}) feature.
 
+## Aggregates Support
+
+You can use the exposed API for applying [aggregates functions]({%slug datagrid-aggregates%}). You can use the predefined aggregates functions like `Sum`, `Count`, `Min`, `Max`, `Average`, etc, or implement a custom function. 
+
+## Search As You Type
+
+The DataGrid provides the ability to search for specific data within its `ItemsSource` by using its [built-in search functionality]({%slug datagrid-search-as-you-type%}).
+
+## Paging Support
+
+You can [page the data]({%slug datagrid-paging%}) of the DataGrid using the Telerik UI for .NET MAUI [DataPager]({%slug datapager-overview%}) control.
+
+## Keyboard Navigation Support
+
+Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on WinUI and MacCatalyst.
+
+## Row Height
+
+By default, the row height is calculated according to the cell content. You can override this behavior by setting a [height for the rows]({%slug datagrid-row-height%}). 
+
+## Column Footer
+
+The Telerik UI for .NET MAUI DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual [footer cells]({%slug datagrid-column-footer%}) for each column.
+
+## Empty Template
+
+When the .NET MAUI DataGrid does not have any data (`ItemsSource` is null or the collection is empty), an [empty template]({%slug datagrid-empty-template%}) is displayed in the DataGrid.
+
+## Commands
+
+The MAUI DataGrid allows you to add [commands]({%slug datagrid-commands-overview %}) to the commands collection, in case you want to execute an additional logic when certain actions occur. You can execute the commands when cell is tapped, double tapped, begins the editing operation, when tapping on the column header, filter the data and more. 
+
+## Theming and Style
+
+You can apply a [theme]({%slug themes-overview%}) to the MAUI DataGrid. If you prefer to use your own styling, then you can use the [flexible styling API]({%slug datagrid-styling%}) of the .NET MAUI DataGrid. The styling API allows you to style the DataGrid rows and columns, the cell content inside the columns, the group header, the aggregates inside the group header and the group footer, etc. 
+In addition, you can apply a style selector.
+
+## Localization
+
+The Telerik UI for .NET MAUI DataGrid provides [localization support]({%slug globalization-localization%}#localization). You can translate the text displayed in the Filtering UI, Grouping panel, etc. to other languages, so that your application can be adapted to different cultures.
 
 ## Next Steps
 
