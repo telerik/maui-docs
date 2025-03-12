@@ -35,7 +35,7 @@ The MAUI DataGrid provides a set of [built-in columns]({%slug datagrid-columns-o
 
 ## Reorder and Resize Columns
 
-The .NET MAUI DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}). If you want to prevent a column to resize, you can [lock the column]({% slug datagrid-frozen-columns %}) and keep the important information always on top.
+The .NET MAUI DataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug datagrid-columns-reordering %}) and [resizing]({% slug datagrid-column-resizing %}). If you want to prevent a column from resizing, you can [lock the column]({% slug datagrid-frozen-columns %}) and keep the important information always on top.
 
 ## Sort, Filter, and Group Data
 
