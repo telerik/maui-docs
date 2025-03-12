@@ -21,7 +21,7 @@ The optimized data layer of the DataGrid enables fast grouping, sorting, and fil
 
 ## MAUI DataGrid Video Tutorial
 
-If you prefer video instructions, watch this short MAUI DataGrid video tutorial. It covers to following topics:
+If you prefer video instructions, watch the Getting Started with the MAUI DataGrid video tutorial. It covers the following topics:
 * Introduction to Telerik MAUI DataGrid and its features.
 * Setup the DataGrid in a .NET MAUI app.
 * Configure the columns and use custom templates.
