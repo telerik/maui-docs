@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI Button control enhances the functionality of the st
 
 ## .NET MAUI Button Video Tutorial
 
-If you prefer video instructions, watch this short MAUI Button video tutorial. It covers to following topics:
+If you prefer video instructions, watch the Getting Started with the MAUI Button video tutorial. It covers the following topics:
 * Installing the Telerik UI for .NET MAUI.
 * Setup a sample demo project.
 * Add a Button control to the project.
