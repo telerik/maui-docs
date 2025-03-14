@@ -26,6 +26,71 @@ The following table lists the actions and keyboard combinations that are availab
 
 >On MacOS when `IsEditable` property of the ComboBox is `True`, `Command` key should be pressed to enable the previously described hotkeys.
 
+To enable the keyboard support when the drop-down is opened and when setting the custom item and selected item templates in ComboBox for .NET MAUI, wrap the content of the templates in a `RadComboBoxItem`. Define the necessary visual states of the `RadComboBoxItem`, specifically `MouseOver` and `Highlighted`.
+
+Here is a sampl;e comboBox definition in XAML:
+
+```XAML
+<telerik:RadComboBox ItemsSource="{Binding Items}" 
+                     DisplayMemberPath="Name" 
+                     x:Name="combo"
+                     Placeholder="Select City">
+    <telerik:RadComboBox.ItemTemplate>
+        <DataTemplate>
+            <telerik:RadComboBoxItem>
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal"/>
+                        <VisualState x:Name="MouseOver">
+                            <VisualState.Setters>
+                                <Setter Property="telerik:RadComboBoxItem.BackgroundColor" Value="LightGray"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState Name="Highlighted">
+                            <VisualState.Setters>
+                                <Setter Property="telerik:RadComboBoxItem.BackgroundColor" Value="LightGray" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+                <Label Text="{Binding Name}"
+                       Padding="8, 7, 0, 7"
+                       TextColor="Black"/>
+            </telerik:RadComboBoxItem>
+        </DataTemplate>
+    </telerik:RadComboBox.ItemTemplate>
+    <telerik:RadComboBox.SelectedItemTemplate>
+        <DataTemplate>
+            <telerik:RadComboBoxItem>
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal"/>
+                        <VisualState x:Name="MouseOver">
+                            <VisualState.Setters>
+                                <Setter Property="telerik:RadComboBoxItem.BackgroundColor" Value="LightGray"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState Name="Highlighted">
+                            <VisualState.Setters>
+                                <Setter Property="telerik:RadComboBoxItem.BackgroundColor" Value="LightCoral" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+                <VerticalStackLayout>
+                    <Label Text="{Binding Name}"
+                           Padding="8, 7, 0, 7"
+                           TextColor="Black"/>
+                    <Label Text="{Binding Population}"
+                           FontSize="12"
+                           Padding="8, 7, 0, 7"/>
+                </VerticalStackLayout>
+            </telerik:RadComboBoxItem>
+        </DataTemplate>
+    </telerik:RadComboBox.SelectedItemTemplate>
+</telerik:RadComboBox>
+```
+
 ## See Also
 
 - [Edit Mode & Search]({%slug combobox-editmode-and-search%}) 
