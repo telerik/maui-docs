@@ -55,4 +55,4 @@ Ensure this code snippet is placed in the code-behind of the page where your Dat
 
 ## See Also
 
-- [DataGrid Overview]({%datagrid-overview%})
+- [DataGrid Overview]({%slug datagrid-overview%})
