@@ -18,6 +18,8 @@ If the default templates of the control do not suit your needs, you can define c
 
 To customize the content inside the input area when an item is selected and the `DisplayMemberPath` property is not set, use the [`SelectionBoxTemplate`](%slug combobox-templates%). The `SelectionBoxTemplate` applies when the `SelectionMode` is `Single` and the control's `IsEditable` property is set to `false`.
 
+To enable the [keyboard navigation support]({%slug combobox-keyboard-support%}) when the drop-down is opened and when setting the custom item and selected item templates in ComboBox for .NET MAUI, wrap the content of the templates in a `RadComboBoxItem`. Define the necessary visual states of the `RadComboBoxItem`, specifically `MouseOver` and `Highlighted`.
+
 ### Example with ItemTemplate and SelectedItemTemplate
 
 **1.** Define the [.NET MAUI ComboBox]({%slug combobox-overview%}) in XAML:
