@@ -28,7 +28,7 @@ The following table lists the actions and keyboard combinations that are availab
 
 To enable the keyboard support when the drop-down is opened and when setting the custom item and selected item templates in ComboBox for .NET MAUI, wrap the content of the templates in a `RadComboBoxItem`. Define the necessary visual states of the `RadComboBoxItem`, specifically `MouseOver` and `Highlighted`.
 
-Here is a sampl;e comboBox definition in XAML:
+Here is a sample comboBox definition in XAML:
 
 ```XAML
 <telerik:RadComboBox ItemsSource="{Binding Items}" 
