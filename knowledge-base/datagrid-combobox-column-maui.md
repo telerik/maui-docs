@@ -71,7 +71,7 @@ public class Employee : NotifyPropertyChangedBase
 }
 ```
 
-**3.**Create the `Category` class
+**3.**Create the `Category` class.
  Define a class for the items to be displayed in the ComboBox. Include properties such as `Id` and `Name` for display and identification.
 
 ```csharp
