@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 
 To use the ComboBox column in the Telerik MAUI DataGrid to display a collection of items, follow these steps:
 
-**1.** Define  the collection
+**1.** Define  the collection.
 
 Create an `ObservableCollection` of the type that will be displayed in the ComboBox. For example, if displaying categories, create an `ObservableCollection<Category>`.
 
