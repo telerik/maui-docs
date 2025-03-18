@@ -44,7 +44,7 @@ this.AllCategories = new ObservableCollection<Category>
 };
 ```
 
-**2.** Define the `DataModel`
+**2.** Define the `DataModel`.
 Ensure the model used in the DataGrid has a property that corresponds to the ComboBox. For example, an `Employee` class with a `Person` property.
 
 ```csharp
