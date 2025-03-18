@@ -82,7 +82,7 @@ public class Category
 }
 ```
 
-**4.** Configure the DataGridComboBoxColumn
+**4.** Configure the DataGridComboBoxColumn.
 In your XAML, define the `DataGridComboBoxColumn` with the `HeaderText`, `PropertyName`, `ItemDisplayBindingPath`, and `ItemsSource`. The `PropertyName` should be the property of the data model. The `ItemDisplayBindingPath` specifies which property of the ComboBox items will be displayed.
 
 ```xml
