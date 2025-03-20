@@ -71,6 +71,10 @@ This is the result on Android and WinUI:
 
 ![.NET MAUI Scaffolding screen look](../images/datagrid_page.png)
 
+## Theme Aware
+
+
+
 ## Available Scaffoldings
 
 * [Products page](#products-page)
