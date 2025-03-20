@@ -21,7 +21,7 @@ Visit <a href="https://status.telerik.com" target="_blank">status.telerik.com</a
 
 1. Select the **DOWNLOADS** tab and then **Manage NuGet Keys**.
 
-    ![Manage NuGet Keys](../images/manage-nuget-keys.png)
+    ![Manage NuGet Keys](../../installation/images/manage-nuget-keys.png)
 
 1. To create a new key, select the **Generate New Key** button.
 
@@ -29,7 +29,7 @@ Visit <a href="https://status.telerik.com" target="_blank">status.telerik.com</a
 
 1. To copy the key, select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
 
-    ![Copy Generated NuGet Key](../images/copy-nuget-key.png)
+    ![Copy Generated NuGet Key](../../installation/images/copy-nuget-key.png)
 
 1. Store the generated NuGet API key as you will need it in the next step.
 #end
