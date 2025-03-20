@@ -26,7 +26,6 @@ This knowledge base article also answers the following questions:
 ## Solution
 
 To customize each tab item in the header of the [TabView for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/tabview/overview), utilize the `HeaderTemplate` and `HeaderItemTemplate` properties as described in the [Using the HeaderTemplate](#using-the-headertemplate) and [Using the HeaderItemTemplate](#using-the-headeritemtemplate) sections below.
-Below are two approaches to achieve this:
 
 ### Using the HeaderTemplate
 
