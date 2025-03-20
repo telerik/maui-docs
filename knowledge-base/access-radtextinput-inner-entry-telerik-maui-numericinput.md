@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To access the inner entry of a `RadNumericInput` when using Telerik MAUI version 8.0.0 or above, you should use the `RadTextInput` control that replaces the `RadMauiEntry`. Follow these steps to access and manipulate the inner entry:
+To access the inner entry of a `RadNumericInput` when using Telerik MAUI version 8.0.0 or above, use the `RadTextInput` control that replaces the `RadMauiEntry`. Follow these steps to access and manipulate the inner entry:
 
 
 **1.** Define the `RadNumericInput` in your XAML with the `Loaded` event:
