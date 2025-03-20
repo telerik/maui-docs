@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-In migrating an app from .NET8 to .NET9 and updating the Telerik Version from 7.1.0 to 8.0.0 (or the latest 10.0.0), the `RadMauiEntry` is no longer available, and accessing the entry handler has changed. 
+When migrating an app from .NET8 to .NET9 and updating the Telerik Version from 7.1.0 to 8.0.0 (or the latest 10.0.0), the `RadMauiEntry` is no longer available, and the way to access the entry handler has changed. 
 
 This knowledge base article also answers the following questions:
 - How can I access the inner entry of a `NumericInput` in Telerik MAUI?
