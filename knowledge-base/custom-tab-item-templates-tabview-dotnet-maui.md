@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I want to have a custom template for each tab item in the header of TabView. 
+I want to have a custom template for each tab item in the header of TabView. How can I achieve this?
 
 This knowledge base article also answers the following questions:
 - How to customize tab item headers in .NET MAUI TabView?
