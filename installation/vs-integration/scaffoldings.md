@@ -71,7 +71,7 @@ This is the result on Android and WinUI:
 
 ![.NET MAUI Scaffolding screen look](../images/datagrid_page.png)
 
-## Theme Aware
+## Using Themes on a Scaffolded Page
 
 The Scaffolding page templates use the [Telerik .NET MAUI controls](https://www.telerik.com/maui-ui).
 To control the visual appearance of the controls in the pages when changing the theme on device or app level, apply [Telerik theming]({%slug themes-overview%}) to the project. 
