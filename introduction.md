@@ -31,6 +31,10 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
 
 By clicking on each control you will navigate to the detailed .NET MAUI documentation explaining the key features and how to utilize them.
 
+## Supported Platforms
+
+@[template](/_contentTemplates/common/supported-platforms.md#supported-platforms)
+
 ## Trial Version and Commercial License
 
 Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial. To use it commercially, you need to [purchase a license](https://www.telerik.com/purchase/maui-ui). Feel free to review the Telerik UI for .NET MAUI [License Agreement](https://www.telerik.com/purchase/license-agreement/maui-ui) to get acquainted with the full terms of use.

@@ -32,11 +32,14 @@ When migrating the AutoComplete from Xamarin to .NET MAUI, consider the followin
 | `WatermarkText` | `Placeholder` |
 | `WatermarkTextColor` | `PlaceholderColor` |
 | `SuggestionItemTextColor` | `SuggestionItemHighlightTextColor` |
+| `SuggestionItemTemplate` (`DataTemplate`) with `ViewCell` inside the Template | `SuggestionItemTemplate` (`DataTemplate`) |
 | `SuggestionItemLabel` | `RadHighlightLabel` |
 | `ImagePath` | N/A |
 | `CompletionMode` (of type `CompletionMode`) | `CompletionMode` (of type `AutoCompleteCompletionMode`) |
 | `SuggestionViewPosition` (of type `PopupPosition`) | `SuggestionViewPosition` (of type `AutoCompletePopupPosition`) |
 | `SuggestMode` of type(`SuggestMode`) | `SuggestMode` (of type `AutoCompleteSuggestMode`) |
+| `FilteredItemsChangedEventArgs` in namespace `Telerik.XamarinForms.Input.AutoComplete` | `FilteredItemsChangedEventArgs` in namespace `Telerik.Maui.Controls.AutoComplete` |
+| `SuggestionItemSelectedEventArgs` in namespace `Telerik.XamarinForms.Input.AutoComplete` | `SuggestionItemSelectedEventArgs` in namespace `Telerik.Maui.Controls.AutoComplete` |
 
 ## See Also
 
