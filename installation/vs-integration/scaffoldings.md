@@ -77,7 +77,7 @@ The Scaffolding page templates use the [Telerik .NET MAUI controls](https://www.
 To control the visual appearance of the controls in the pages when changing the theme on device or app level, apply [Telerik theming]({%slug themes-overview%}) to the project. 
 You can set various [theme swatches]({%slug themes-overview%}#swatch) in the application and change them at runtime based on the applied device theme.
 
-or more details on the suggested implementation, see the [Changing the Theme at Runtime KB article]({%slug change-telerik-theme-runtime%}).
+For more details on the suggested implementation, see the [Changing the Theme at Runtime KB article]({%slug change-telerik-theme-runtime%}).
 
 ## Available Scaffoldings
 
