@@ -13,18 +13,11 @@ You can develop applications with Telerik UI for .NET MAUI on both Windows and m
 
 ## Supported Target Platforms
 
-You can develop applications with Telerik UI for .NET MAUI for the following platforms:
-
-| Target Platform | Supported Version |
-| ------------- | --------------- |
-| Android | 5.0 (API 21) or higher |
-| iOS | 11 or higher |
-| macOS | 11 or higher, using Mac Catalyst |
-| Windows* | 11 and Windows 10, version 1809 or higher, using Windows UI Library (WinUI) 3 |
+@[template](/_contentTemplates/common/supported-platforms.md#supported-platforms)
 
 *The macOS operating system does not support the development of WinUI apps for the Windows platform.
 
-## Supported .NET Versions  
+## Supported .NET Versions
 
 * Telerik UI for .NET MAUI supports .NET 8.0. The Telerik UI for .NET MAUI 7.1.0 version supports .NET 9.0. 
 
