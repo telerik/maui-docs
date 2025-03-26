@@ -23,7 +23,7 @@ This article explains how to hide the numeric input buttons. The buttons are use
 
 ## Solution
 
-**1.** Define the .NET MAUI NumericInput control by setting the `DecreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) and the `IncreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) properties:
+**1.** Define the .NET MAUI NumericInput control in XAML with the `DecreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) and the `IncreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) properties set:
 
 ```XAML
 <VerticalStackLayout>
@@ -34,7 +34,7 @@ This article explains how to hide the numeric input buttons. The buttons are use
 ```
 
 
-**2.** To hide the increase and decrease buttons set the `IsVisible` property of the `RadTemplatedButton` to `false`:
+**2.** Hide the increase and decrease buttons by setting the `IsVisible` property of the `RadTemplatedButton` to `false`:
 
 ```XAML
 <ContentPage.Resources>
