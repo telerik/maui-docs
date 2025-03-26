@@ -39,6 +39,20 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 
 Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial. To use it commercially, you need to [purchase a license](https://www.telerik.com/purchase/maui-ui). Feel free to review the Telerik UI for .NET MAUI [License Agreement](https://www.telerik.com/purchase/license-agreement/maui-ui) to get acquainted with the full terms of use.
 
+## Migration Paths
+
+Migrate your exisitng Xamarin app to .NET MAUI.
+
+
+You can choose to migrate an existing Xamarin app to .NET MAUI or start a new .NET MAUI app and copy the code from the Xamarin app. 
+
+### migrate an existing Xamarin app to .NET MAUI
+
+* Migrate your Telerik Xamarin controls to .NET MAUI controls.
+Migrate Xamatin XAMl to MAUI XAML
+Migrate Custom Renderes to MAUI Handlers
+Migrate Xamarin.Android and Xamarin.iOS apps to .NET MAUI app.
+
 ## .NET MAUI Support Options
 
 For any issues you might encounter while working with Telerik UI for .NET MAUI, you can use a number of available support channels:
