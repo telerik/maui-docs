@@ -5,7 +5,6 @@ type: how-to
 page_title: Hide the numeric buttons for increasing, decreasing the value
 slug: numeric-hide-buttons
 position:
-published: False
 tags: numeric, buttons, hide buttons, .net maui, maui
 res_type: kb
 ---
@@ -14,7 +13,7 @@ res_type: kb
 
 | Version | Product | Author |
 | --- | --- | ---- |
-| 5.1.0 | Telerik UI for .NET MAUI NumericInput | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
+| 10.0.0 | Telerik UI for .NET MAUI NumericInput | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 
 ## Description
@@ -24,23 +23,29 @@ This article explains how to hide the numeric input buttons. The buttons are use
 
 ## Solution
 
-You have two options for hiding the buttons.
-
-**1.** Use the `DecreaseButtonStyle` and `IncreaseButtonStyle` and set `IsVisible` property to `False`.
+**1.** Define the .NET MAUI NumericInput control by setting the `DecreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) and the `IncreaseButtonStyle` (`Style` with target type `RadTemplatedButton`) properties:
 
 ```XAML
-<telerik:RadNumericInput DecreaseButtonStyle="{StaticResource button}" IncreaseButtonStyle="{StaticResource button}"/>
+<VerticalStackLayout>
+	<telerik:RadNumericInput DecreaseButtonStyle="{StaticResource DecreaseButtonStyle}"
+						     IncreaseButtonStyle="{StaticResource IncreaseButtonStyle}" />
+
+</VerticalStackLayout>
 ```
 
-And the Style defined in the resources:
+
+**2.** To hide the increase and decrease buttons set the `IsVisible` property of the `RadTemplatedButton` to `false`:
 
 ```XAML
-<ResourceDictionary>
-    <Style TargetType="telerik:RadButton" x:Key="button">
-        <Setter Property="IsVisible" Value="False"/>
-    </Style>
-</ResourceDictionary>
+<ContentPage.Resources>
+	<ResourceDictionary>
+		<Style x:Key="DecreaseButtonStyle" TargetType="telerik:RadTemplatedButton">
+			<Setter Property="IsVisible" Value="False" />
+		</Style>
+
+		<Style x:Key="IncreaseButtonStyle" TargetType="telerik:RadTemplatedButton">
+			<Setter Property="IsVisible" Value="False" />
+		</Style>
+	</ResourceDictionary>
+</ContentPage.Resources>
 ```
-
-**2.** Use the [ControlTemplate]({%slug numericinput-control-template%}) of the `RadNumericInput` and remove the buttons from the control template.  
-

@@ -11,7 +11,7 @@ res_type: kb
 ## Environment
 
 | Product | Version | Author |
-| --- | --- |
+| --- | --- | --- |
 | DataGrid for .NET MAUI | 7.0.0 | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description

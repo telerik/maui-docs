@@ -10,7 +10,7 @@ res_type: kb
 
 ## Environment
 
-| Control | Author | 
+| Product | Author | 
 | ---- | ---- | 
 | DataGrid for MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
