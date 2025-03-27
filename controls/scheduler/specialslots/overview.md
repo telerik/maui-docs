@@ -40,3 +40,4 @@ Check in the image below how the special slots look in MultiDay View:
 
 - [Special Slots Template]({%slug scheduler-special-slot-template%})
 - [Views]({% slug scheduler-views-overview %})
+- [Non-working hours]({%slug scheduler-net-maui-non-working-hours%})
