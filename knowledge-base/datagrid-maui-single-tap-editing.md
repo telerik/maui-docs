@@ -10,9 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Product | DataGrid for MAUI |
+| Product | Version |
 | --- | --- |
-| Version | 7.0.0 |
+| DataGrid for MAUI | 7.0.0 |
 
 ## Description
 
