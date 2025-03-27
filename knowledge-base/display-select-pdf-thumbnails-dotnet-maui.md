@@ -52,7 +52,7 @@ To achieve this, follow the steps in the [Generating and Displaying PDF Thumbnai
 </telerik:RadCollectionView>
 ```
 
-Implement the `ItemTapped` event to handle thumbnail selection and navigate to a new page where the PDF Viewer is defined. Pass the selected PDF document to the `PdfViewer.Source` property.
+   3.2. Implement the `ItemTapped` event to handle thumbnail selection and navigate to a new page where the PDF Viewer is defined. Pass the selected PDF document to the `PdfViewer.Source` property.
 
 ### Loading PDF Documents in a PDF Viewer
 
