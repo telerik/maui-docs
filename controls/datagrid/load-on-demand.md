@@ -1,7 +1,7 @@
 ---
 title: Load On Demand
 page_title: .NET MAUI DataGrid Documentation - Load on Demand
-description: "Learn more about the available modes and approaches to load huge sets of data in the Telerik UI for .NET MAUI Grid to improve the performance of the component and save computing resources."
+description: "Learn more about the available modes and approaches to load huge sets of data in the Telerik UI for .NET MAUI DataGrid to improve the performance of the component and save computing resources."
 position: 13
 slug: datagrid-features-loadondemand
 ---
@@ -82,7 +82,7 @@ You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 >caption Row appearance after setting the `LoadOnDemandRowStyle` property
 
-![.NET MAUI Grid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
+![.NET MAUI DataGrid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
 
 ### Load-More-Button Row Template
 
@@ -98,7 +98,7 @@ The following example shows how to set the property:
 
 >caption Row appearance after setting the `LoadOnDemandRowTemplate`
 
-![.NET MAUI Grid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
+![.NET MAUI DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
 
 ## Additional Resources
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)

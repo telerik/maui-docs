@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI DataGrid Documentation - Getting Started
-description: "Get started with the Telerik UI for .NET MAUI Grid and add the control to your .NET MAUI project."
+description: "Get started with the Telerik UI for .NET MAUI DataGrid and add the control to your .NET MAUI project."
 position: 1
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: datagrid-getting-started
@@ -13,7 +13,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will achieve the following result.
 
-![.NET MAUI Grid Getting Started](images/datagrid-getting-started.png)
+![.NET MAUI DataGrid Getting Started](images/datagrid-getting-started.png)
 
 ## Prerequisites
 

@@ -86,7 +86,7 @@ this.dataGrid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new
 
 The following image shows how the DataGrid looks after sorting is applied:
 
-![.NET MAUI Grid Sorting](images/datagrid_sorting.png)
+![.NET MAUI DataGrid Sorting](images/datagrid_sorting.png)
 
 ## See Also
 
