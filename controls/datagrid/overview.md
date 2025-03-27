@@ -28,21 +28,7 @@ If you prefer video instructions, watch the Getting Started with the MAUI DataGr
 * Configure the columns and use custom templates.
 * Use sorting, filtering and selection features.
 
-<script type="application/ld+json"> 
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mastering the DataGrid in Telerik UI for .NET MAUI: Setup, Columns, Sorting, and More | Chapter 4",
-  "description": "Take your .NET MAUI skills to the next level with Chapter 4 of the Telerik UI for .NET MAUI course!
-This video provides a comprehensive guide to .NET MAUI Grid control. Learn about its features, setup process, column configuration, and creating custom column templates. Discover how to enable sorting, filtering, and selection for a dynamic and powerful data presentation in your apps. Watch now and become a DataGrid expert!",
-  "thumbnailUrl": "https://img.youtube.com/vi/XxUvA4fKHzU/maxresdefault.jpg",
-  "uploadDate": "2024-12-05",
-  "duration": "PT20M27S",
-  "contentUrl": "https://youtu.be/XxUvA4fKHzU",
-  "embedUrl": "https://www.youtube.com/embed/XxUvA4fKHzU"
-}
-</script> 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XxUvA4fKHzU" title="Take your .NET MAUI skills to the next level with Chapter 4 of the Telerik UI for .NET MAUI course! This video provides a comprehensive guide to .NET MAUI Grid control. Learn about its features, setup process, column configuration, and creating custom column templates. Discover how to enable sorting, filtering, and selection for a dynamic and powerful data presentation in your apps. Watch now and become a DataGrid expert!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Built-in Columns
 
