@@ -1,8 +1,9 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Overview
-description: .NET MAUI DataGrid is a control that allows you to visualize and edit tabular data in your .NET MAUI apps.
+description: .NET MAUI Grid is a control that allows you to visualize and edit tabular data in your .NET MAUI apps.
 position: 0
+tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 previous_url: /controls/datagrid/datagrid-overview
 slug: datagrid-overview
 ---
@@ -17,7 +18,7 @@ When the data from a database is sent to the client, usually converted to a Busi
 
 The optimized data layer of the DataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
-![Telerik .NET MAUI DataGrid](images/datagrid-overview.png "Telerik .NET MAUI DataGrid")
+![Telerik .NET MAUI Grid on all platforms](images/datagrid-overview.png "Telerik .NET MAUI Grid")
 
 ## MAUI DataGrid Video Tutorial
 
@@ -27,7 +28,21 @@ If you prefer video instructions, watch the Getting Started with the MAUI DataGr
 * Configure the columns and use custom templates.
 * Use sorting, filtering and selection features.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XxUvA4fKHzU?si=EuqJC2OIPrIDMaGd" title="Mastering the DataGrid in Telerik UI for .NET MAUI: Setup, Columns, Sorting, and More" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mastering the DataGrid in Telerik UI for .NET MAUI: Setup, Columns, Sorting, and More | Chapter 4",
+  "description": "Take your .NET MAUI skills to the next level with Chapter 4 of the Telerik UI for .NET MAUI course!
+This video provides a comprehensive guide to .NET MAUI Grid control. Learn about its features, setup process, column configuration, and creating custom column templates. Discover how to enable sorting, filtering, and selection for a dynamic and powerful data presentation in your apps. Watch now and become a DataGrid expert!",
+  "thumbnailUrl": "https://img.youtube.com/vi/XxUvA4fKHzU/maxresdefault.jpg",
+  "uploadDate": "2024-12-05",
+  "duration": "PT20M27S",
+  "contentUrl": "https://youtu.be/XxUvA4fKHzU",
+  "embedUrl": "https://www.youtube.com/embed/XxUvA4fKHzU"
+}
+</script> 
+
 
 ## Built-in Columns
 

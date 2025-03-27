@@ -27,7 +27,7 @@ private void Button_Clicked(object sender, System.EventArgs e)
 
 The following image shows the end result.
 
-![DataGrid Programmatic Scrolling](images/datagrid-scrollintoview.gif)
+![.NET MAUI Grid Programmatic Scrolling](images/datagrid-scrollintoview.gif)
 
 ## Additional Resources
 

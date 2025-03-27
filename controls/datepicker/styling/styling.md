@@ -10,6 +10,10 @@ slug: datepicker-styling
 
 The DatePicker control for .NET MAUI provides styling options for customizing its appearance. You can style the DatePicker itself, as well as its popup or drop-down depending on the configuration of the [picker mode]({%slug datepicker-picker-mode%}).
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-maui-overview.html %}
+{% endif %}
+
 ## Supported Properties
 
 The DatePicker control supports the following styling properties:
