@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To achieve this, follow these steps:
+To achieve this, follow the steps in the [Generating and Displaying PDF Thumbnails](#generating-and-displaying-pdf-thumbnails) and [Loading PDF Documents in a PDF Viewer](#loading-pdf-documents-in-a-pdf-viewer) sections.
 
 ### Generating and Displaying PDF Thumbnails
 
