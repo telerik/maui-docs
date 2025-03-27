@@ -38,19 +38,19 @@ To achieve this, follow the steps in the [Generating and Displaying PDF Thumbnai
 
    3.1. Define the `RadCollectionView` in XAML:
 
-```xml
-<telerik:RadCollectionView ItemsSource="{Binding ListOfDocuments}" 
-                           ItemTapped="RadCollectionView_ItemTapped">
-    <telerik:RadCollectionView.ItemTemplate>
-        <DataTemplate>
-            <VerticalStackLayout>
-                <Image Source="{Binding YourImage}" />
-                <Label Text="{Binding YourPdfDocumentName}" />
-            </VerticalStackLayout>
-        </DataTemplate>
-    </telerik:RadCollectionView.ItemTemplate>
-</telerik:RadCollectionView>
-```
+   ```xaml
+   <telerik:RadCollectionView ItemsSource="{Binding ListOfDocuments}" 
+                              ItemTapped="RadCollectionView_ItemTapped">
+       <telerik:RadCollectionView.ItemTemplate>
+           <DataTemplate>
+               <VerticalStackLayout>
+                   <Image Source="{Binding YourImage}" />
+                   <Label Text="{Binding YourPdfDocumentName}" />
+               </VerticalStackLayout>
+           </DataTemplate>
+       </telerik:RadCollectionView.ItemTemplate>
+   </telerik:RadCollectionView>
+   ```
 
    3.2. Implement the `ItemTapped` event to handle thumbnail selection and navigate to a new page where the PDF Viewer is defined. Pass the selected PDF document to the `PdfViewer.Source` property.
 
