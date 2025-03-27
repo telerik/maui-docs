@@ -36,7 +36,7 @@ To achieve this, follow the steps in the [Generating and Displaying PDF Thumbnai
 
 3. Create a collection that contains the image paths and the PDF file names. Bind this collection to a list control in your .NET MAUI application. Use an `<Image/>` element to display each thumbnail and a `<Label>` to show the document name.
 
-Define the `RadCollectionView` in XAML:
+   3.1. Define the `RadCollectionView` in XAML:
 
 ```xml
 <telerik:RadCollectionView ItemsSource="{Binding ListOfDocuments}" 
