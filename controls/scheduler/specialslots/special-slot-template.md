@@ -30,4 +30,4 @@ Check the image below which shows the applied `SpecialSlotTemplate`:
 
 - [Special Slots]({%slug scheduler-special-slots%})
 - [Views]({% slug scheduler-views-overview %})
-- [Non-working hours]({%slug scheduler-net-maui-non-working-hours%})
+- [Non-Working Hours]({%slug scheduler-net-maui-non-working-hours%})

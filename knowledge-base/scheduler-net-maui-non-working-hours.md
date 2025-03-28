@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-In transitioning from Xamarin Calendar and Scheduler to Telerik Scheduler for .NET MAUI, it's essential to know how to define and display non-working hours in DayView, WeekView, and MultiDayView modes. 
+When transitioning from the Xamarin Calendar and Scheduler to the Telerik Scheduler for .NET MAUI, it's essential to know how to define and display non-working hours in DayView, WeekView, and MultiDayView modes.
 
 This knowledge base article also answers the following questions:
 - How can I mark non-working hours in the Telerik Scheduler for .NET MAUI?
