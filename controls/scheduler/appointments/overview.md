@@ -38,4 +38,5 @@ The image below shows the appointments in WeekView:
 
 - [Appointment Template]({%slug scheduler-appointment-template%})
 - [Appointments Styling]({%slug scheduler-appointments-styling%})
-- [Recurrence]({%slug scheduler-recurrence-overview %}) 
+- [Recurrence]({%slug scheduler-recurrence-overview %})
+- [Non-Working Hours]({%slug scheduler-net-maui-non-working-hours%})
