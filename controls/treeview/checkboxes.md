@@ -18,6 +18,13 @@ You can control the state propagation by setting the `CheckBoxMode` property (en
 * `Independent`&mdash;Specifies that the checkboxes are checked and unchecked independently. The checked state of the parent item is not propagated to its children.
 * `Recursive`&mdash;Specifies that the checkboxes are checked and unchecked recursively. The checked state of the parent item is propagated to its children.
 
+## Recursive CheckBox Mode and Load Children on Demand
+
+Consider the following scenarios when using the TreeView `Recursive` `CheckBoxMode` in a combination with the `LoadChildrenOnDemand` feature:
+
+1. When checking the checkbox element of the parent item without loading the children, this parent item is added to the `CheckedItems` collection (the children are not).
+2. When loading the children of the parent node by pressing the expand icon, and the checkbox of the parent node is checked, all child data items must be manually added to the `CheckedItems` collection.
+
 Here is how the Independent `CheckBoxMode` looks:
 
 ![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.gif)
