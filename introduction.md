@@ -1,7 +1,7 @@
 ---
 title: Introduction
 page_title: .NET MAUI Documentation
-description: "Learn how to build native applications for Windows, macOS, Android, and iOS by reading the Telerik UI for .NET MAUI documentation."
+description: “Explore the Telerik UI for .NET MAUI documentation and begin creating native apps for Windows, macOS, Android, and iOS.”
 tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
 position: 0

@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: .NET MAUI Button Documentation - Getting Started
+page_title: Getting Started with .NET MAUI Button
 description: Get started with the Telerik UI for .NET MAUI Button control and add the control to your .NET MAUI project.
 position: 1
 slug: button-getting-started
@@ -9,6 +9,10 @@ slug: button-getting-started
 # Getting Started with the .NET MAUI Button
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI Button by adding the control to your project.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-maui-overview.html %}
+{% endif %}
 
 This is the default look of the `RadButton` control:
 

@@ -1,7 +1,7 @@
 ---
 title: Migrating from Xamarin.Forms to .NET MAUI
 page_title: Xamarin to .NET MAUI Migration
-description: Documentation on Xamarin to .NET MAUI migration steps to convert your Telerik UI for Xamarin app to Telerik UI .NET MAUI.
+description: Xamarin to .NET MAUI is an upgrade that modernizes apps with cross-platform support, improved performance, and more.
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 slug: migrate-to-net-maui
 previous_url: /get-started/migrate-to-net-maui
@@ -11,6 +11,10 @@ position: 5
 # Xamarin to .NET MAUI Migration
 
 This guide provides the information you need to convert your application, which was built with [Telerik UI for Xamarin.Forms controls](https://www.telerik.com/maui-ui#Controls), to a .NET MAUI one, which uses the Telerik UI for .NET MAUI components. By migrating to .NET MAUI, you will be able to receive the latest features and mobile operating system support for your project.
+
+{% if site.has_cta_panels == true %}
+{% include cta-panel-maui-overview.html %}
+{% endif %}
 
 >important Telerik UI for .NET MAUI does not provide a direct alternative to Xamarin.iOS or Xamarin.Android in .NET. However, migrating to .NET MAUI and switching to the Telerik UI for .NET MAUI controls ensures that you will receive the latest framework and UI controls updates.
 
@@ -148,7 +152,7 @@ For the detailed guide, go to the official Microsoft documentation on GitHub abo
 
 The following video demonstrates how you can upgrade your Xamarin.Forms App to .NET MAUI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-AeFIjW0Jgc?si=4cRLFUPl-9uBDjeu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-AeFIjW0Jgc" title="One of the questions the .NET MAUI team has heard the most is What do I have to do to my Xamarin app to upgrade?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## See Also
 
