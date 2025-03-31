@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To achieve the desired behavior, the developer has to manually add the child items of the checked parent node, when loading children on demand.
+To achieve the desired behavior, the developer has to manually add the child items of the checked parent node when loading children on demand.
 
 **1.** Define the TreeView in XAML, enabling `LoadChildrenOnDemand` and setting the `CheckBoxMode` to `Recursive`:
 
