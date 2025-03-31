@@ -27,23 +27,19 @@ I need to determine the number of rows and columns in a DataGrid.
 
 To retrieve the number of rows and columns in a DataGrid for MAUI, follow the steps below:
 
-**1.** Obtain the number of rows
-
-The DataGrid generates rows based on the count of items in the collection bound to the `ItemsSource` property. Use the following code to get the number of rows:
+**1.** Obtain the number of rows. The DataGrid generates rows based on the count of items in the collection bound to the `ItemsSource` property. Use the following code to get the number of rows:
 
 ```csharp
 var rowNumber = (this.dataGrid.ItemsSource as ObservableCollection<FilesData>).Count.ToString();
 ```
 
-**2.** Obtain the number of columns
-
-The DataGrid exposes a `Columns` collection. Access this collection to get the amount of columns:
+**2.** Obtain the number of columns. The DataGrid exposes a `Columns` collection. Access this collection to get the amount of columns:
 
 ```csharp
 var columnNumber = this.dataGrid.Columns.Count.ToString();
 ```
 
-These snippets gives the total number of rows and columns in the DataGrid.
+These snippets give the total number of rows and columns in the DataGrid.
 
 ## See Also
 
