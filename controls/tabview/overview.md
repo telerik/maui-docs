@@ -11,7 +11,15 @@ position: 0
 
 The Telerik TabView for .NET MAUI is a flexible navigation control that allows you to build tabbed interfaces. Each TabView item has an associated content displayed on selection. The control is customizable. Using the API you can customize the TabView header area that contains the tabs and the TabView content.
 
-![.NET MAUI TabView Overview](images/tabview-overview.png) 
+![.NET MAUI TabView Overview](images/tabview-overview.png)
+
+## .NET MAUI TabView Video Tutorial
+
+If you prefer video instructions, watch this short MAUI TabView video tutorial. It covers to following topics:
+* Overview of the .NET MAUI TabView control.
+* Replace custom tab implementation with Telerik MAUI TabView.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hqe33HLkVfA?si=bzs-mUESBBcLTR1u&amp;start=705" title="Exploring Basic UI Controls in Telerik UI for .NET MAUI: TabView" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Key Features of the .NET MAUI TabView
 

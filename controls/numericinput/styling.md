@@ -3,7 +3,7 @@ title: Styling
 page_title: .NET MAUI NumericInput Documentation - Styling
 description: Learn more about styling options in Telerik UI for .NET MAUI NumericInput control.
 position: 15
-previous_url: /controls/numericinput/numericinput-control-template, /knowledge-base/numeric-hide-buttons
+previous_url: /controls/numericinput/numericinput-control-template
 slug: numericinput-styling
 ---
 
@@ -27,7 +27,7 @@ In addition, you can change the visual appearance of the NumericInput by definin
 * `ReadOnly`&mdash;Applied when the NumericInput is in read-only mode.
 * `ReadonlyFocused`&mdash;Applied when the NumericInput is in read-only mode and receives the focus.
 * (Desktop Only) `ReadOnlyMouseOver`&mdash;Applied when the NumericInput is in read-only mode and the mouse cursor is hovering over it.
-* `Disabled`**&mdash;Applied when the NumericInput's `IsEnabled` is `False`.
+* `Disabled`&mdash;Applied when the NumericInput's `IsEnabled` is `False`.
 
 Note that the use of the Background and Border properties in the control template varies by platform:
 

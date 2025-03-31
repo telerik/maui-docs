@@ -12,7 +12,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will achieve the following result.
 
-![DataGrid Getting Started](images/datagrid-getting-started.png)
+![.NET MAUI DataGrid Getting Started](images/datagrid-getting-started.png)
 
 ## Prerequisites
 
