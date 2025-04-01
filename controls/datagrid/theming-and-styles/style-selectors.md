@@ -9,12 +9,26 @@ slug: datagrid-style-selectors
 
 # .NET MAUI DataGrid Style Selectors
 
-The [.NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a conditional styling feature. It allows users to apply different styles on a cell or per group header depending on a specific condition.
+The [.NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a conditional styling feature. It allows users to apply different styles on a row, cell or per group header depending on a specific condition.
 
-You can set a different style on a specific cell from a specific column based on custom selection logic with the following properties:
+## Style Selector on a Cell
+
+You can define a different style on a specific cell from a specific column based on custom selection logic with the following properties:
 
 * `CellContentStyleSelector`(`IStyleSelector`)&mdash;Styles the content of the cell by using the text alignment options (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`), the font options (`FontAttributes`, `FontFamily`, `FontSize`) and the `TextColor` property.
 * `CellDecorationStyleSelector`(`IStyleSelector`)&mdash;Styles the decoration of a cell.
+
+## Style Selector on a Row
+
+You can specify a different style on a row by using the `RowBackgroundStyleSelector` (`IStyleSelector`) property.
+
+## Style Selector on a Group
+
+You can apply style selector on DataGrid Group header and footer by setting the follwoing properties:
+
+* `GroupHeaderStyleSelector` (`IStyleSelector`)&mdash;
+* `GroupFooterStyleSelector` (`IStyleSelector`)&mdash;
+
 
 Different styles can be applied on a per-group header once the DataGrid control is grouped through `GroupHeaderStyleSelector` property.
 
@@ -41,7 +55,6 @@ Let’s add the DataGrid and set the `CellContentStyleSelector` as a static reso
 **3.** Set the `ItemsSource` of the `DataGrid` class:
 
 <snippet id='datagrid-styleselector-items'/>
-
 
 **4.** Add `MyCellContentStyleSelector`, `MyCellDecorationStyleSelector`, and `MyGroupStyleSelector` as resources in the **Resource** page of the application:
 

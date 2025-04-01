@@ -35,7 +35,7 @@ The next image shows the end result.
 You can style the rows and cells of the DataGrid with the following properties:
 
 * `RowBackgroundStyle`(of type `Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of each row.
-* `AlternateRowBackgroundStyle`(of type `Style` with target type `DataGridAlternateRowBackgroundAppearance`)&mdash;Defines the appearance style of an alternated row.
+* `AlternateRowBackgroundStyle`(of type `Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the appearance style of an alternated row.
 * `SelectionStyle`(of type `Style` with target type `DataGridSelectionAppearance`)&mdash;Defines the appearance settings applied to the selected DataGrid row.
 * `CurrentCellStyle`(of type `Style` with target type `DataGridCurrentCellAppearance`)&mdash;Defines the style applied to the current cell.
 * (Desktop-only)`MouseHoverStyle`(of type `Style` with target type `DataGridMouseHoverAppearance`)&mdash;Specifies the style applied to the cells and rows when the mouse is over them.
