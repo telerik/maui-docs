@@ -23,4 +23,20 @@ The issues listed below are common when upgrading to a new version of Telerik .N
 * Errors like `Unable to find package Telerik.UI.for.Maui with version` and `ProjectName depends on Telerik.UI.for.Maui (>= 7.1.0) but Telerik.UI.for.Maui 7.1.0 was not found` can be related to the subscription period&mdash;Review the [Package Version Not Found]({%slug package-version-not-found%}) article for more details on how to solve this behavior.
 * Error `Failed to retrieve information about ... from remote source` occurs when using the v2 server&mdash;The solution is to use the [v3 NuGet feed]({%slug failed-retrieve-info-remote-source%}).
 
+### Quick Access Test (Credentials or Network Access)
+
+You can quickly test your credentials or a specific package search results, the NuGet server is a REST service that can be accessed with a standard web browser. Try the following steps:
+
+1. Open a new **in-private/incognito** browser session/tab.
+1. Confirm Credentials
+    1. Enter [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) in the address bar and hit Enter.
+    1. The web browser will prompt you to login, enter the credentials you want to test. You can test either:
+        1. Telerik Account credentials (email address and password)
+        1. Telerik NuGet Key (username "api-key", password is the full key value)
+    1. You should now see a json result containing the general index listing. This confirms a successful login!
+1. Confirm Package Listing
+    1. Enter [https://nuget.telerik.com/v3/search?q=telerik.ui.for.maui](https://nuget.telerik.com/v3/search?q=telerik.ui.for.maui) in the address bar and hit Enter.
+    1. You should now see a json result containing a list of available packages that match the query.
+1. If you want to try again with different credentials (i.e. a different nuget key), close the incognito browser session and open a new one.
+
 @[template](/_contentTemplates/common/nuget.md#status-telerik-com)
