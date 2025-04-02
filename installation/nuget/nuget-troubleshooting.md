@@ -31,7 +31,7 @@ You can quickly test your credentials or a specific package search results, the 
 1. Confirm Credentials:
     1. Enter [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) in the address bar and hit `Enter`.
     1. The web browser will prompt you to login, enter the credentials you want to test. You can test either:
-        1. Telerik Account credentials (email address and password)
+        * Telerik Account credentials (email address and password)
         1. Telerik NuGet Key (username "api-key", password is the full key value)
     1. You should now see a json result containing the general index listing. This confirms a successful login!
 1. Confirm Package Listing
