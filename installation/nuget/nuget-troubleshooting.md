@@ -28,7 +28,7 @@ The issues listed below are common when upgrading to a new version of Telerik .N
 You can quickly test your credentials or a specific package search results, the NuGet server is a REST service that can be accessed with a standard web browser. Try the following steps:
 
 1. Open a new **in-private/incognito** browser session/tab.
-1. Confirm Credentials
+1. Confirm Credentials:
     1. Enter [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) in the address bar and hit Enter.
     1. The web browser will prompt you to login, enter the credentials you want to test. You can test either:
         1. Telerik Account credentials (email address and password)
