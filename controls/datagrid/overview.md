@@ -10,7 +10,7 @@ slug: datagrid-overview
 
 # .NET MAUI DataGrid Overview
 
-The Telerik UI for .NET MAUI DataGrid is a powerful control that allows you to visualize and edit tabular represented data in your .NET MAUI applications.
+The Telerik UI for [.NET MAUI DataGrid](https://www.telerik.com/maui-ui/datagrid) is a powerful control that allows you to visualize and edit tabular represented data in your .NET MAUI applications.
 
 Most of the data on the Internet is stored in tables within a database. The Telerik UI for .NET MAUI DataGrid provides the same abstraction over the data&mdash;It has columns and rows, and the intersection of a row and a column is called a cell.
 

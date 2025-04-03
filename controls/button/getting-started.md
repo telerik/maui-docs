@@ -8,7 +8,7 @@ slug: button-getting-started
 
 # Getting Started with the .NET MAUI Button
 
-This guide provides the information you need to start using the Telerik UI for .NET MAUI Button by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for [.NET MAUI Button]({%slug button-overview%}) by adding the control to your project.
 
 {% if site.has_cta_panels == true %}
 {% include cta-panel-maui-overview.html %}
