@@ -6,7 +6,7 @@ position: 3
 slug: pdfviewer-display-documents
 ---
 
-## PDF Document Visualization
+# PDF Document Visualization
 
 The Telerik UI for .NET MAUI PDF Viewer control enables you to visualize PDF documents through the `Source` property of type `Telerik.Maui.Controls.PdfViewer.DocumentSource`. 
 
