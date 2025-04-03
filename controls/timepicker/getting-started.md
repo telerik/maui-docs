@@ -29,24 +29,24 @@ Before adding the TimePicker, you need to:
 
 **1.** When your .NET MAUI application is set up, you are ready to add a TimePicker control to your page.
 
- ```XAML
+```XAML
 <telerik:RadTimePicker />
- ```
- <snippet id='timepicker-getting-started-csharp' />
+```
+<snippet id='timepicker-getting-started-csharp' />
 
 
 **2.** Add the following namespace:
 
- ```XAML
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
+```
 
 **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
- ```C#
- using Telerik.Maui.Controls.Compatibility;
+```C#
+using Telerik.Maui.Controls.Compatibility;
 
- public static class MauiProgram
+public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
 	{
@@ -61,8 +61,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 		return builder.Build();
 	}
- }           
- ```
+}
+```
 
 ## Additional Resources
 

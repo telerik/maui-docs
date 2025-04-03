@@ -6,7 +6,7 @@ position: 2
 slug: richtexteditor-toolbar-styling
 ---
 
-## RichTextEditor Toolbar Styling
+# RichTextEditor Toolbar Styling
 
 The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides a flexible styling API for its toolbar items. 
 

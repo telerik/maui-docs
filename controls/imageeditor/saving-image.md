@@ -6,7 +6,7 @@ position: 5
 slug: imageeditor-saving-image
 ---
 
-## Saving Images with .NET MAUI ImageEditor
+# Saving Images with .NET MAUI ImageEditor
 
 `RadImageEditor` control gives you the option to save the currently edited image using the `SaveAsync` method. The `SaveAsync` method has the following overloads:
 
