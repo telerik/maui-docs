@@ -47,81 +47,115 @@ To achieve the desired behavior, the developer has to manually add the child ite
 </telerik:RadTreeView>
 ```
 
-**2.** Implement a `TreeNode` model with an `IsChecked` property that binds to the TreeView CheckBox `IsChecked` property:
+**2.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Implement a `TreeNode` model with an `IsChecked` property that binds to the TreeView CheckBox `IsChecked` property:
 
 ```c#
-public class TreeNode : NotifyPropertyChangedBase
+public class TreeNode : Telerik.Maui.Controls.NotifyPropertyChangedBase
 {
-    private ObservableCollection<TreeNode> children = new ObservableCollection<TreeNode>();
-    private TreeNode parent;
-    private string name;
-    private bool? isChecked;
+	private ObservableCollection<TreeNode> children = new ObservableCollection<TreeNode>();
+	private TreeNode parent;
+	private string name;
+	private bool? isChecked;
 
-    public IList<TreeNode> Children => this.children;
+	public IList<TreeNode> Children => this.children;
 
-    public TreeNode Parent
-    {
-        get => this.parent;
-        set => this.UpdateValue(ref this.parent, value);
-    }
+	public TreeNode Parent
+	{
+		get => this.parent;
+		set => this.UpdateValue(ref this.parent, value);
+	}
 
-    public string Name
-    {
-        get => this.name;
-        set => this.UpdateValue(ref this.name, value);
-    }
+	public string Name
+	{
+		get => this.name;
+		set => this.UpdateValue(ref this.name, value);
+	}
 
-    public bool? IsChecked
-    {
-        get => this.isChecked;
-        set => this.UpdateValue(ref this.isChecked, value);
-    }
+	public bool? IsChecked
+	{
+		get => this.isChecked;
+		set => this.UpdateValue(ref this.isChecked, value);
+	}
 }
 ```
 
-**3.** In the `ViewModel`, implement logic to add child items to the `CheckedItems` collection if the parent is checked when the children are loaded on demand:
+**4.** In the `ViewModel`, implement logic to add child items to the `CheckedItems` collection if the parent is checked when the children are loaded on demand:
 
 ```c#
-public class LoadChildrenOnDemandViewModel : NotifyPropertyChangedBase
+public class LoadChildrenOnDemandViewModel : Telerik.Maui.Controls.NotifyPropertyChangedBase
 {
-    private ObservableCollection<TreeNode> treeNodes = new ObservableCollection<TreeNode>();
-    private ObservableCollection<TreeNode> checkedTreeNodes = new ObservableCollection<TreeNode>();
-    private Command loadChildrenOnDemandCommand;
+	private const int nodesCount = 10;
+	private const int loadDelay = 2000;
+	private ObservableCollection<TreeNode> treeNodes = new ObservableCollection<TreeNode>();
+	private ObservableCollection<TreeNode> checkedTreeNodes = new ObservableCollection<TreeNode>();
+	private Command loadChildrenOnDemandCommand;
+	private int nodeIndex;
 
-    public LoadChildrenOnDemandViewModel()
-    {
-        this.loadChildrenOnDemandCommand = new Command<TreeViewLoadChildrenOnDemandCommandContext>(LoadOnDemand);
-        InitializeRootNodes();
-    }
+	public LoadChildrenOnDemandViewModel()
+	{
+		this.treeNodes = new ObservableCollection<TreeNode>();
+		this.checkedTreeNodes = new ObservableCollection<TreeNode>();
+		this.loadChildrenOnDemandCommand = new Command<Telerik.Maui.Controls.TreeView.TreeViewLoadChildrenOnDemandCommandContext>(LoadOnDemand);
+		InitializeRootNodes();
+	}
 
-    public ObservableCollection<TreeNode> TreeNodes => this.treeNodes;
-    public ObservableCollection<TreeNode> CheckedTreeNodes => this.checkedTreeNodes;
-    public ICommand LoadChildrenOnDemandCommand => this.loadChildrenOnDemandCommand;
+	public ObservableCollection<TreeNode> TreeNodes => this.treeNodes;
+	public ObservableCollection<TreeNode> CheckedTreeNodes => this.checkedTreeNodes;
+	public ICommand LoadChildrenOnDemandCommand => this.loadChildrenOnDemandCommand;
 
-    private void InitializeRootNodes()
-    {
-        // Initialize root nodes here
-    }
+	private void InitializeRootNodes()
+	{
+		for (int itemIndex = 0; itemIndex < nodesCount; itemIndex++)
+		{
+			var node = this.CreateTreeNode();
+			this.treeNodes.Add(node);
+		}
+	}
 
-    private async void LoadOnDemand(TreeViewLoadChildrenOnDemandCommandContext commandContext)
-    {
-        if (commandContext.Item is TreeNode parentNode)
-        {
-            await Task.Delay(2000); // Simulate loading delay
-            LoadChildNodes(parentNode);
-        }
-        commandContext.Finish();
-    }
+	private async void LoadOnDemand(Telerik.Maui.Controls.TreeView.TreeViewLoadChildrenOnDemandCommandContext commandContext)
+	{
+		if (commandContext.Item is TreeNode parentNode)
+		{
+			await Task.Delay(2000); // Simulate loading delay
+			LoadChildNodes(parentNode);
+		}
+		commandContext.Finish();
+	}
 
-    private void LoadChildNodes(TreeNode parentNode)
-    {
-        // Logic to load and add child nodes to parent
-        // If parent is checked, add child nodes to CheckedTreeNodes
-    }
+	private void LoadChildNodes(TreeNode parentNode)
+	{
+		for (int itemIndex = 0; itemIndex < nodesCount; itemIndex++)
+		{
+			var childNode = this.CreateTreeNode();
+			childNode.Parent = parentNode;
+			parentNode.Children.Add(childNode);
+
+			if (parentNode.IsChecked == true)
+			{
+				this.checkedTreeNodes.Add(childNode);
+			}
+		}
+	}
+
+	private TreeNode CreateTreeNode()
+	{
+		this.nodeIndex++;
+
+		return new TreeNode
+		{
+			Name = $"Node {this.nodeIndex}"
+		};
+	}
 }
 ```
 
-**4.** Set the `ViewModel` as the `BindingContext` of your page:
+**5.** Set the `ViewModel` as the `BindingContext` of your page:
 
 ```csharp
 this.BindingContext = new LoadChildrenOnDemandViewModel();
