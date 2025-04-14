@@ -109,3 +109,18 @@ The Telerik UI for .NET MAUI DataGrid provides [localization support]({%slug glo
 - [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
+
+
+<script type="application/ld+json"> 
+{ 
+  "@context": "https://schema.org", 
+  "@type": "VideoObject", 
+  "name": "Mastering the DataGrid in Telerik UI for .NET MAUI: Setup, Columns, Sorting, and More | Chapter 4", 
+  "description": "Take your .NET MAUI skills to the next level with Chapter 4 of the Telerik UI for .NET MAUI course! This video provides a comprehensive guide to .NET MAUI Grid control. Learn about its features, setup process, column configuration, and creating custom column templates. Discover how to enable sorting, filtering, and selection for a dynamic and powerful data presentation in your apps. Watch now and become a DataGrid expert!", 
+  "thumbnailUrl": "https://img.youtube.com/vi/XxUvA4fKHzU/maxresdefault.jpg", 
+  "uploadDate": "2024-12-05", 
+  "duration": "PT20M27S", 
+  "contentUrl": "https://youtu.be/XxUvA4fKHzU", 
+  "embedUrl": "https://www.youtube.com/embed/XxUvA4fKHzU" 
+} 
+</script> 
