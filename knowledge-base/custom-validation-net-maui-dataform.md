@@ -44,7 +44,7 @@ To apply custom validation to editors in the .NET MAUI DataForm, follow these st
 </telerik:RadDataForm>
 ```
 
-2. Implement the `ViewModel` with properties and custom validation methods `ValidateStartDate` and `ValidateText`.
+2. Implement the `ViewModel` with the corresponding properties and the `ValidateStartDate` and `ValidateText` custom validation methods.
 
 ```csharp
 public class GettingStartedModel : NotifyPropertyChangedBase
