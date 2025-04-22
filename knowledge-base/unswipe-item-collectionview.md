@@ -22,7 +22,7 @@ This knowledge base article also answers the following questions:
 
 - How can I programmatically close a swiped item in `RadCollectionView`?
 - What method is used to unswipe an item in `RadCollectionView`?
-- Is there a way to programmatically reset the swipe state of an item in RadCollectionView?
+- Is there a way to programmatically reset the swipe state of an item in `RadCollectionView`?
 
 ## Solution
 
