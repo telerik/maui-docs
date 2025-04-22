@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To ensure that all groups are collapsed initially when the CollectionView control loads, utilize the `CollapseAll` method. This method should be called after the data is fully loaded into the control. One effective approach is to use the `CollectionView.Loaded` event. However, ensure to introduce a short delay before calling `CollapseAll` to guarantee that data loading is complete. 
+To ensure that all groups are collapsed initially when the CollectionView control loads, utilize the `CollapseAll` method. Call this method once the data is fully loaded into the control. One effective approach is to use the `CollectionView.Loaded` event. However, introduce a short delay before calling `CollapseAll` to guarantee that data loading is complete. 
 
 Here's how you can implement this solution:
 
