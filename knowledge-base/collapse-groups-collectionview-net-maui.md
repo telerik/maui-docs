@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-In a .NET MAUI application using the CollectionView component, I want all the Groups to be collapsed initially when the data is loaded. How can I achieve this behavior?
+In a .NET MAUI application using the CollectionView component, I want all groups to be collapsed initially when the data is loaded. How can I achieve this behavior?
 
 This knowledge base article also answers the following questions:
 - How to start with all groups collapsed in CollectionView for .NET MAUI?
