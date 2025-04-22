@@ -28,7 +28,7 @@ This knowledge base article also answers the following questions:
 This kb article provides two approaches for applying a custom validation for DataForm editors
 
 * [Custom Validation on Property Level](#custom-validation-on-property-level)
-* Custom Validation on `ViewModel` Level
+* [Custom Validation on `ViewModel` Level](#custom-validation-on-viewmodel-level)
 
 ### Custom Validation on Property Level
 
