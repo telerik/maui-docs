@@ -41,7 +41,7 @@ Here's how you can implement this solution:
 private async void myCollectionView_Loaded(object sender, EventArgs e)
 {
     var data = this.myCollectionView.GetDataView();
-    await Task.Delay(500); // Adjust the delay as necessary
+    await Task.Delay(500); // Adjust the delay as necessary.
     data.CollapseAll();
 }
 ```
