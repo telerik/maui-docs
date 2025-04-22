@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-In scenarios where an item in the RadCollectionView is swiped, there might be a need to programmatically return it to its original position. 
+In scenarios where an item in the CollectionView is swiped, there might be a need to programmatically return it to its original position. 
 
 This knowledge base article also answers the following questions:
 
