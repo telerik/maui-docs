@@ -1,9 +1,9 @@
 ---
-title: Implementing Custom Validation in .NET MAUI DataForm
+title: Implementing Custom Editor Validation in .NET MAUI DataForm
 description: Learn how to apply custom validation rules to custom editors in the .NET MAUI DataForm component using the EditorGenerated event.
 type: how-to
 page_title: Custom Validation for .NET MAUI DataForm Editors
-slug: custom-validation-net-maui-dataform
+slug: custom-editor-validation-net-maui-dataform
 tags: dataform, .net maui, validation, custom editor, editorgenerated
 res_type: kb
 ---
@@ -12,11 +12,11 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 10.1.0 | Telerik UI for .NET MAUI DataForm  | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 10.1.0 | Telerik UI for .NET MAUI DataForm | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
-I have a DataForm and I want to apply custom validation on custom editors using the EditorGenerated event. 
+I have a DataForm and I want to apply custom validation on custom editors using the `EditorGenerated` event. 
 
 This knowledge base article also answers the following questions:
 - How to implement custom validation for DataForm editors in .NET MAUI?
