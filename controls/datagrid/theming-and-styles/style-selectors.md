@@ -11,61 +11,107 @@ slug: datagrid-style-selectors
 
 The [.NET MAUI DataGrid]({%slug datagrid-overview%}) component exposes a conditional styling feature. It allows users to apply different styles on a cell or per group header depending on a specific condition.
 
-You can set a different style on a specific cell from a specific column based on custom selection logic with the following properties:
+## Cell Style Selector
+
+You can set a different style on a specific cell from a specific column based on custom style-selection logic with the following properties:
 
 * `CellContentStyleSelector`(`IStyleSelector`)&mdash;Styles the content of the cell by using the text alignment options (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`), the font options (`FontAttributes`, `FontFamily`, `FontSize`) and the `TextColor` property.
 * `CellDecorationStyleSelector`(`IStyleSelector`)&mdash;Styles the decoration of a cell.
 
-Different styles can be applied on a per-group header once the DataGrid control is grouped through `GroupHeaderStyleSelector` property.
+> For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
-Different styles can be applied on a per-group footer once the DataGrid control is grouped through `GroupFooterStyleSelector` property.
+## Row Background Style Selector
+
+You can set a different style on a row, alternate row and on row details based on custom style-selection logic by using the `RowBackgroundStyleSelector` (`IStyleSelector`) property.
+
+> For the DataGrid Row Background Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
+
+## Group Style Selector
+
+You can set a different style on a group header and footer based on custom style-selection logic with the following properties:
+
+* `GroupHeaderStyleSelector`(`IStyleSelector`)&mdash;Different styles can be applied on a per-group header once the DataGrid control is grouped
+* `GroupFooterStyleSelector`(`IStyleSelector`)&mdash;Different styles can be applied on a per-group footer once the DataGrid control is grouped
 
 > To display the group footer, set the `ShowGroupFooters` property to `True`.
 
-The `CellContentStyleSelector`, `CellDecorationStyleSelector`, and `GroupStyleSelector` use the `SelectStyle` method to change the style.
+> For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
-## Example
+The `CellContentStyleSelector`, `CellDecorationStyleSelector`, `RowBackgroundStyleSelector`, `GroupHeaderStyleSelectorand`, and `GroupFooterStyleSelector` use the `SelectStyle` method to change the style.
 
-The following example will demonstrate how to apply the style selectors in the DataGrid control:
+## Example with Cell and Group Style Selectors
 
-Let’s add the DataGrid and set the `CellContentStyleSelector` as a static resource of type `MyCellContentStyleSelector`, `CellDecorationStyleSelector` as a static resource of type `MyCellDecorationStyleSelector`, and `GroupStyleSelector` as a static resource of type `MyGroupStyleSelector`.
+The following example will demonstrate how to apply the style selectors on the DataGrid cell and group header:
 
-**1.** `DataGrid` definition in XAML:
+Let’s add the DataGrid and set the `CellContentStyleSelector` property as a static resource of type `MyCellContentStyleSelector`, `CellDecorationStyleSelector` as a static resource of type `MyCellDecorationStyleSelector`, and `GroupStyleSelector` as a static resource of type `MyGroupStyleSelector`.
+
+**1.** Define the `RadDataGrid` in XAML:
 
 <snippet id='datagrid-styleselector-example'/>
 
-**2.** Create a simple data for the DataGrid:
+**2.** Create a sample data model:
 
 <snippet id='datagrid-styleselector-data'/>
 
-**3.** Set the `ItemsSource` of the `DataGrid` class:
+**3.** Set the `ItemsSource` of the `RadDataGrid`:
 
 <snippet id='datagrid-styleselector-items'/>
 
+**4.** Create a custom class for each selector. Each class derives from `IStyleSelector` and overrides its `SelectStyle` method.
 
-**4.** Add `MyCellContentStyleSelector`, `MyCellDecorationStyleSelector`, and `MyGroupStyleSelector` as resources in the **Resource** page of the application:
-
-<snippet id='datagrid-styleselectors'/>
-
-**5.** Create a custom class for each selector. This class derives from `DataGridStyleSelector` and overrides its `SelectStyle` method.
-
-The `MyCellContentStyleSelector` class implementation is as follows:
+* The implementation of `MyCellContentSelector` class:
 
 <snippet id='datagrid-styleselector-cellcontent'/>
 
-The implementation of the `MyCellDecorationStyleSelector` class is shown below:
+* The implementation of `MyCellDecorationSelector` class:
 
 <snippet id='datagrid-styleselector-celldecoration'/>
 
-
-You can implement `MyGroupStyleSelector` as follows:
+* The implementation of `MyGroupSelector` class:
 
 <snippet id='datagrid-styleselector-group'/>
 
+**5.** Add `MyCellContentSelector`, `MyCellDecorationSelector`, and `MyGroupSelector` as resources in the **Resource** page of the application:
+
+<snippet id='datagrid-styleselectors'/>
 
 This is how the DataGrid control will look when `CellContentStyleSelector` is applied.
 
-![DataGrid StyleSelectors](../images/datagrid-style-selector.png)
+![.NET MAUI DataGrid Cell and Group Header Style Selectors](../images/datagrid-style-selector.png)
+
+> For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
+
+## Example with Row Background Style Selectors
+
+The following example will demonstrate how to apply the style selectors on the DataGrid rows, row details and alternate rows:
+
+Let’s add the DataGrid and set the `RowBackgroundStyleSelector` property as a static resource of type `MyRowBackgroundStyleSelector`.
+
+**1.** Define the `RadDataGrid` in XAML:
+
+<snippet id='datagrid-rowbackground-styleselector-example'/>
+
+**2.** Create a sample data model:
+
+<snippet id='datagrid-rowbackground-styleselector-model'/>
+
+**3.** Define the `ViewModel`:
+
+<snippet id='datagrid-rowbackground-styleselector-viewmodel'/>
+
+**4.** Create a custom class `MyRowBackgroundStyleSelector` that derives from `IStyleSelector` and override the `SelectStyle` method.
+
+<snippet id='datagrid-rowbackground-styleselector-class'/>
+
+**5.** Add `MyRowBackgroundStyleSelector` as resource in the **Resource** page of the application:
+
+<snippet id='datagrid-rowbackground-styleselector'/>
+
+This is how the DataGrid control looks when applying the `RowBackgroundStyleSelector`.
+
+![.NET MAUI DataGrid Row Background Style Selector](../images/datagrid-rowbackground-style-selector.png)
+
+> For the DataGrid Row Background Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
 ## See Also
 
