@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To hide group headers in CollectionView for .NET MAUI when the group key is either an empty string or null and ensure they do not occupy space, use a combination of `IsVisible` and `MinimumHeightRequest` properties within a `DataTrigger`. Apply these properties in the `Style` targeted at `RadCollectionViewGroupView`. Setting `MinimumHeightRequest` to `0` alongside making the group header invisible allows for the removal of the unwanted space that would otherwise be occupied by the header.
+To hide group headers in CollectionView for .NET MAUI when the group key is either an empty string or null and ensure they do not occupy space, use a combination of the `IsVisible` and `MinimumHeightRequest` properties within a `DataTrigger`. Apply these properties in the `Style` targeted at `RadCollectionViewGroupView`. Setting `MinimumHeightRequest` to `0` alongside making the group header invisible allows for the removal of the unwanted space that would otherwise be occupied by the header.
 
 Here is how you can define the `Style` in your `ContentPage.Resources`:
 
