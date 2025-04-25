@@ -22,7 +22,7 @@ You can set a different style on a specific cell from a specific column based on
 
 ## Row Background Style Selector
 
-You can set a different style on a row, alternate row and on row details based on custom style-selection logic by using the `RowBackgroundStyleSelector` (`IStyleSelector`) property.
+You can set a different style on a row, alternate row, and on row details based on custom style-selection logic by using the `RowBackgroundStyleSelector` (`IStyleSelector`) property.
 
 > For the DataGrid Row Background Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
@@ -30,8 +30,8 @@ You can set a different style on a row, alternate row and on row details based o
 
 You can set a different style on a group header and footer based on custom style-selection logic with the following properties:
 
-* `GroupHeaderStyleSelector`(`IStyleSelector`)&mdash;Different styles can be applied on a per-group header once the DataGrid control is grouped
-* `GroupFooterStyleSelector`(`IStyleSelector`)&mdash;Different styles can be applied on a per-group footer once the DataGrid control is grouped
+* `GroupHeaderStyleSelector`(`IStyleSelector`)&mdash;Specifies different style per-group header once the DataGrid control is grouped.
+* `GroupFooterStyleSelector`(`IStyleSelector`)&mdash;Specifies different style per-group footer once the DataGrid control is grouped.
 
 > To display the group footer, set the `ShowGroupFooters` property to `True`.
 
