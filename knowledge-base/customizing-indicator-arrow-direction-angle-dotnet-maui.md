@@ -22,7 +22,7 @@ I want to customize the expand-collapse indicator arrow in the [Expander for .NE
 This knowledge base article also answers the following questions:
 
 - How to change the rotation angle of the expand-collapse arrow in the Expander for .NET MAUI?
-- How to customize the direction of the indicator in .NET MAUI Expander?
+- How to customize the direction of the indicator in the .NET MAUI Expander?
 - How to override the default indicator behavior in the Expander for .NET MAUI?
 
 ## Solution
