@@ -23,7 +23,7 @@ You can set a distinct style to a specific cell in a given column based on custo
 ## Row Background Style Selector
 
 You can set a different style on a row, an alternate row, and on row details based on custom style-selection logic by using the `RowBackgroundStyleSelector` (`IStyleSelector`) property.
-To apply a `RowBackgroundStyleSelector` follow these steps:
+To apply a `RowBackgroundStyleSelector` you have to:
 1. Create a custom class that inherits from `IStyleSelector`. 
 1. Implement the `SelectStyle` method.
 1. The object item of the `SelectStyle` method is of type `DataGridRowInfo`. The `DataGridRowInfo` represents a class that provides information for each row in DataGrid and exposes the follwoing properties:
