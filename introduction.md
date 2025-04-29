@@ -86,3 +86,18 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 ## See Also
 
 - [.NET MAUI Examples Apps]({%slug sampleapps-overview%})
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Introduction to Telerik UI for .NET MAUI",
+  "description": "The video introduces the Telerik UI for .NET MAUI suite and outlines the prerequisites needed to follow along.",
+  "thumbnailUrl": "https://img.youtube.com/vi/x0fY4qwkBTk/maxresdefault.jpg",
+  "uploadDate": "2024-12-02",
+  "duration": "PT4M56S",
+  "contentUrl": "https://youtu.be/x0fY4qwkBTk",
+  "embedUrl": "https://www.youtube.com/embed/x0fY4qwkBTk"
+}
+</script>
