@@ -37,7 +37,7 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 
 ## Why Choose Telerik UI for .NET MAUI?
 
-You get all this and even more:
+With Telerik UI for .NET MAUI, you get all of this and even more:
 
 * Customizable UI Components&mdash;Offers 60+ high-performance, customizable UI controls designed for .NET MAUI apps.
 * Cross-Platform Support&mdash;Build native apps for Android, iOS, macOS, and Windows with a single codebase.
