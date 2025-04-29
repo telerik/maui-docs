@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-I want to notify the view model when drag-and-drop actions are performed in the [CollectionView for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/collectionview/overview). Unlike `RadListView.ReorderEnded` event, CollectionView uses `DragDropBehavior`, but it isn't clear how to inform the view model of the drop action. 
+I want to notify the view model when drag-and-drop actions are performed in the [CollectionView for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/collectionview/overview). Unlike the `RadListView.ReorderEnded` event, CollectionView uses `DragDropBehavior`, but it isn't clear how to inform the view model of the drop action. 
 
 This knowledge base article also answers the following questions:
 - How to handle drag-and-drop in CollectionView for .NET MAUI?
