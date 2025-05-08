@@ -18,6 +18,15 @@ To enable the TreeView Load Children on Demand feature:
 
 **2.** Use the `LoadChildrenOnDemand` event or `LoadChildrenOnDemandCommand` command to load the items.
 
+## Load Children on Demand and Recursive CheckBox Mode
+
+Consider the following scenarios when using the TreeView `LoadChildrenOnDemand` feature in a combination with the `Recursive` `CheckBoxMode`:
+
+* When checking the checkbox element of the parent item without loading the children, this parent item is added to the `CheckedItems` collection (the children are not).
+* When loading the children of the parent node by pressing the expand icon, and the checkbox of the parent node is checked, all child data items must be manually added to the `CheckedItems` collection.
+
+> For a runnable example demonstrating the TreeView `Recursive` `CheckBoxMode` and Load Children on Demand scenario, see the [Handling TreeView Load Children on Demand with Recursive CheckBox Mode]({%slug treeview-net-maui-load-children-checkbox-recursive%}) article.
+
 ## Event
 
 The TreeView exposes the following event for loading children on demand. 

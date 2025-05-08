@@ -7,7 +7,7 @@ slug: collectionview-item-swipe-events
 tags: item-swipe, collectionview, swiping, events
 ---
 
-## .NET MAUI CollectionView Swiping Events
+# .NET MAUI CollectionView Swiping Events
 
 The following `RadCollectionView` events are related to the item swiping feature:
 

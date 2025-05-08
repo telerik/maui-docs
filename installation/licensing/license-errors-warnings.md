@@ -28,14 +28,16 @@ When using Telerik UI for .NET MAUI in a project with an expired or missing lice
 
 | Error or Condition                              | Message Code | Solution                                                              |
 |-------------------------------------------------|--------------|-----------------------------------------------------------------------|
-| `No license key is detected` | TKL002 | [Set up a license key]({%slug set-up-your-license%}) to activate the UI controls and remove the error message. |
-| `Invalid license key` | TKL003 | [Download a new license key]({%slug set-up-your-license%}#downloading-the-license-key) and use it to activate the UI controls and remove the error message. |
-| `Your subscription license has expired.` | TKL103; TKL104 | Renew your subscription and [download a new license key]({%slug set-up-your-license%}#downloading-the-license-key). |
-| `Your perpetual license is invalid.` | TKL102 | You are using a product version released outside the validity period of your perpetual license. To remove the error message, do either of the following: |
+| `No Telerik and Kendo UI License file found` | TKL002 | [Set up a license key]({%slug set-up-your-license%}) to activate the UI controls and remove the error message. |
+| `Corrupted Telerik and Kendo UI License Key content` | TKL003 | [Download a new license key]({%slug set-up-your-license%}#downloading-the-license-key) and use it to activate the UI controls and remove the error message. |
+| `Unable to locate licenses for all products` | TKL004 | Your license is not valid for all Telerik and Kendo products added to your project. If you have already purchased the required license, then [update your license key]({%slug set-up-your-license%}#updating-your-license-key). |
+| `Your subscription has expired.` | TKL103; TKL104 | Renew your subscription and [download a new license key]({%slug set-up-your-license%}#downloading-the-license-key). |
+| `Your current license has expired.` | TKL102 | You are using a product version released outside the validity period of your perpetual license. To remove the error message, do either of the following: |
 |                                        | | - Renew your license, then download a new license key and use it to activate the controls. |
 |                                        | | - Downgrade to a product version included in your perpetual license as indicated in the message. |
-| `Your trial license has expired.`        | TKL105 | Purchase a commercial license to continue using the product. |
-| `Your license is not valid for the detected product(s).` | TKL101 | Review the purchase options for the listed products. Alternatively, remove the references to the listed packages from `package.json`. |
+| `Your trial expired.`        | TKL105 | Purchase a commercial license to continue using the product. |
+| `Telerik UI for .NET MAUI is not listed in your current license file.` | TKL101 | Review the purchase options for the listed products. Alternatively, remove the references to the listed packages from `package.json`. |
+| `No Telerik or Kendo UI product references detected in project.` | TKL001 | If you use Telerik products and see this message, update the `Telerik.Licensing` package to version `1.4.9` or later. If you do not use Telerik products, remove the `Telerik.Licensing` NuGet reference from your project. |
 
 ## See Also
 

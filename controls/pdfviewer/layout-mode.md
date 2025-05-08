@@ -6,7 +6,7 @@ position: 4
 slug: pdfviewer-layout-modes
 ---
 
-## Layout Modes
+# Layout Modes
 
 The Telerik UI for .NET MAUI PDF Viewer supports two layout modes that you can set through its `LayoutMode` property.
 

@@ -7,7 +7,7 @@ slug: collectionview-item-swipe-commands
 tags: item-swipe, collectionview, swiping, commands
 ---
 
-## .NET MAUI CollectionView Swiping Commands
+# .NET MAUI CollectionView Swiping Commands
 
 The .NET MAUI CollectionView provides the following commands related to swipe actions:
 

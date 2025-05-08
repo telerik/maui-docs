@@ -47,7 +47,17 @@ The next image shows the file structure created for the `DataGrid` page:
 
 To show a newly scaffolded page in your MAUI app, specify the page's namespace.
 
-In the example below, the screen is set directly to the `ShellContent` in the `AppShell.xaml`:
+### Using a Blank App Template
+
+Set the screen directly to the `MainPage` of the application inside the `App.xaml.cs` file when using a Blank app template.
+
+```C#
+MainPage = new MyApp.Pages.TelerikDataGridPage();
+```
+
+### Using a Blank Shell App Template
+
+Set the screen directly to the `ShellContent` inside the `AppShell.xaml` file when using a Blank Shell app.
 
 ```XAML
 <Shell

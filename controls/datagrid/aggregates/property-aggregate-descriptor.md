@@ -32,7 +32,7 @@ The `PropertyAggregateDescriptor` supports the following `KnownFunction` aggrega
 
 The following example shows how to add a `PropertyAggregateDescriptor` to the DataGrid's columns.
 
-The DataGrid will take the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min`, `Max`, and `Average` delivery prices, as well as the `Count` of the listed items.
+The DataGrid takes the values from the `Name`, `Price`, `DeliveryPrice` and `Quantity` properties of the row model and the result will be the `Min`, `Max`, and `Average` delivery prices, as well as the `Count` of the listed items.
 
 **1.** Define the DataGrid in XAML:
 
