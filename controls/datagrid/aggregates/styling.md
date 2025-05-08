@@ -28,7 +28,7 @@ Use the following properties to style the `GroupHeader`:
 | `ButtonFontSize` | Defines the font size for the expand/collapse symbol of the `GroupHeader`. |
 | `ButtonMargin` | Defines the margin for the expand/collapse symbol of the `GroupHeader`. |
 | `ButtonTextColor` | Defines the color for the expand/collapse symbol of the `GroupHeader`. |
-| `TextColor` | Defines the color for the text part of the `GroupHeader` |
+| `TextColor` | Defines the color for the text part of the `GroupHeader`. |
 | `TextFontAttributes` | Defines the font attributes for the text part of the `GroupHeader`. |
 | `TextFontFamily` | Defines the font family for the text part of the `GroupHeader`. |
 | `TextFontSize` | Defines the size for the text part of the `GroupHeader`. |
@@ -44,11 +44,11 @@ The available properties in the `GroupHeaderStyle` are:
 
 | Property  | Description |
 | ------ | ------ |
-| `AggregatesTextColor` | Defines the color for the aggregates part of the `GroupHeader` |
-| `AggregatesTextFontAttributes` | Defines the font attributes for the aggregates part of the `GroupHeader` |
-| `AggregatesTextFontFamily` | Defines the font family of the aggregates part of the `GroupHeader` |
-| `AggregatesTextFontSize` | Defines the size of the aggregates part of the `GroupHeader` |
-| `AggregatesTextMargin` | Defines the margin for the aggregates part of the `GroupHeader` |
+| `AggregatesTextColor` | Defines the color for the aggregates part of the `GroupHeader`. |
+| `AggregatesTextFontAttributes` | Defines the font attributes for the aggregates part of the `GroupHeader`. |
+| `AggregatesTextFontFamily` | Defines the font family of the aggregates part of the `GroupHeader`. |
+| `AggregatesTextFontSize` | Defines the size of the aggregates part of the `GroupHeader`. |
+| `AggregatesTextMargin` | Defines the margin for the aggregates part of the `GroupHeader`. |
 
 The following example shows how to style the aggregate results in the group header when setting the `GroupHeaderStyle` in the page's resources:
 

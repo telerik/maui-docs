@@ -19,7 +19,7 @@ To set up the `DelegateAggregateDescriptor`, use the following properties:
 
 The following example uses the `DelegateAggregateDescriptor` and a custom implementation for a `SumIf` function which sums the values in a range that meet a certain criteria:
 
-**1.** Create a class that inherits from the `IKeyLookup` interface. It will return the values of a `Price` property declared in our business model that is of type `double`.
+**1.** Create a class that inherits from the `IKeyLookup` interface. It returns the values of a `Price` property declared in the business model that is of type `double`.
 
 <snippet id='datagrid-delegate-aggregate-key'/>
 
@@ -35,7 +35,7 @@ The following example uses the `DelegateAggregateDescriptor` and a custom implem
 
 <snippet id='datagrid-aggregates-model'/>
 
-**5.** Set a source to the `RadDataGrid.ItemsSource` proeprty:
+**5.** Set a source to the `RadDataGrid.ItemsSource` property:
 
 <snippet id='datagrid-gelegate-aggregate-source'/>
 

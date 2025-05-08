@@ -24,7 +24,6 @@ The examples below shows how to define custom `ItemTemplate` by using the `ItemT
 <telerik:RadTreeView x:Name="treeView" 
                         ItemsSource="{Binding Items}">
     <telerik:TreeViewDescriptor ItemsSourcePath="Children"
-                                DisplayMemberPath="Name"
                                 TargetType="{x:Type local:Item}" />
     <!-- modify the label and add additional elements in the label area.
 ItemTemplate does not include expand indicator, image, checkbox, only the text, you can add additional elements to it.
