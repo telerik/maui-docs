@@ -49,7 +49,7 @@ To show a newly scaffolded page in your MAUI app, specify the page's namespace.
 
 ### Using a Blank App Template
 
-Set the screen directly to the `MainPage` of the application isndie the `App.xaml.cs` file when using a Blank app template 
+Set the screen directly to the `MainPage` of the application inside the `App.xaml.cs` file when using a Blank app template.
 
 ```C#
 MainPage = new MyApp.Pages.TelerikDataGridPage();

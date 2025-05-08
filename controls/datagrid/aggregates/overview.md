@@ -42,7 +42,7 @@ To show the Aggregates in the group header, set the `ShowGroupHeaderAggregates` 
 
 ![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
 
-To align the aggregates in the group according to its header set the `GroupAggregatesAlignment` (`enum` of type `Telerik.Maui.Controls.DataGrid.DataGridGroupAggregatesAlignment`) property. The available options are:
+To align the aggregates in the group according to its header, set the `GroupAggregatesAlignment` (`enum` of type `Telerik.Maui.Controls.DataGrid.DataGridGroupAggregatesAlignment`) property. The available options are:
 
 * (default)`None`&mdash;Aggregates are not aligned to the DataGrid columns. The aggregates results are displayed after the text displayed for the group key.
 * `NextToHeader`&mdash;Aggregate results are aligned to the DataGrid columns and placed next to the header of the group.
