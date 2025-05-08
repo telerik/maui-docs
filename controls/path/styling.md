@@ -22,7 +22,7 @@ The `RadPath` element exposes the following properties you can use to customize 
 <telerik:RadPath x:Name="gradientPath"
                             StrokeThickness="1"
                             Stroke="White"
-                            Geometry="{x:Static telerikInput:Geometries.Diamond}">
+                            Geometry="{x:Static telerik:RadGeometry.Diamond}">
     <telerik:RadPath.Fill>
         <telerik:RadSweepGradientBrush>
             <x:Arguments>
