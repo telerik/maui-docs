@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To style the ListPicker with rounded corners and toggle button indicators, follow the steps below:
+The solution suggested below demonstrates how to style the ListPicker with rounded corners and toggle button indicators.
 
 ### Adding Rounded Corners
 
