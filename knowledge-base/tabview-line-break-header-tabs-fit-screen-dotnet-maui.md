@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To achieve line breaks in the header text and ensure all tabs fit within the screen, follow these steps:
+The solution suggested below shows how to enable line breaks in the header text and ensure all tabs fit within the screen.
 
 ### Step 1: Define a Custom Header Template
 
