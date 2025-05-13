@@ -13,26 +13,6 @@ The [.NET MAUI TreeDataGrid]({%slug datagrid-overview%}) provides full and seaml
 
 The component enables you to bind it to the DataTable and you can also add, remove, select, and edit DataGrid items, and update the TreeDataGrid `ItemsSource`. All available TreeDataGrid commands and operations, like filtering, sorting, and selection, are fully functioning when the DataGrid is bound to a DataTable.
 
-## Binding
-
-The following example shows a sample TreeDataGrid `ItemsSource` binding to a DataTable:
-
-**1.** Define the TreeDataGrid.
-
-<snippet id='datagrid-datatable-binding'/>
-
-**2.** Add the namespace.
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
-**3.** Set the `ViewModel`.
-
-<snippet id='datagrid-datatable-viewmodel'/>
-
-> For a full data-binding implementation of a DataGrid to a DataTable, see the `DataGrid/DataTable` folder of the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
-
 ## Filtering and Sorting
 
 When using a DataTable, you can filter and sort the data inside the TreeDataGrid through the UI or programmatically.
