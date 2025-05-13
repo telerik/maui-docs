@@ -12,6 +12,8 @@ res_type: kb
 | --- | ---- | 
  Telerik UI for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
+@[template](/_contentTemplates/common/trial-package-deprecation.md#kb-note-troubleshooting)
+
 ## Description
 
 I see the error `Unable to load the service index for source https://nuget.telerik.com/v3/index.json` when trying to connect to the Telerik NuGet server.

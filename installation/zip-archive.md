@@ -20,7 +20,7 @@ Having a downloaded ZIP archive with the controls lets you install them even whe
 To download the ZIP archive with the Telerik UI for .NET MAUI controls:
 
 1. Go to the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account.
-1. In the **Installation** section, locate the `Telerik_UI_for_dot_NET_Maui_[version]_[license_type].zip` file and download it.
+1. In the **Installation** section, locate the `Telerik_UI_for_dot_NET_Maui_[version].zip` file and download it.
 
 ## Using the ZIP
 

@@ -57,7 +57,7 @@ If you are looking for ways to migrate an existing Xamarin, or Xamarin.Forms app
 * Visit the [Xamarin Custom Renderers to .NET MAUI Handlers](https://learn.microsoft.com/en-us/dotnet/maui/migration/renderer-to-handler?view=net-maui-8.0) article to learn how to migrate the existing Xamarin renderers to MAUI handlers.
 * Learn how to replace the Xamarin components with their .NET MAUI counterparts by visiting the [Migrate the Xamarin Controls to .NET MAUI Controls](https://docs.telerik.com/devtools/maui/migrate-to-net-maui) article.
 
-## Trial Version and Commercial License
+## Trial and Commercial License
 
 Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial. To use it commercially, you need to [purchase a license](https://www.telerik.com/purchase/maui-ui). Feel free to review the Telerik UI for .NET MAUI [License Agreement](https://www.telerik.com/purchase/license-agreement/maui-ui) to get acquainted with the full terms of use.
 

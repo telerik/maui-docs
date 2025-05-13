@@ -30,7 +30,6 @@ To configure the Telerik NuGet feed in Visual Studio:
 
 You have successfully added the Telerik NuGet feed as a Package source.
 
-
 ## Step 2: Install the Telerik UI for .NET MAUI NuGet Package
 
 The next steps describe how to authenticate your local NuGet instance and display the available packages:
@@ -42,7 +41,7 @@ The next steps describe how to authenticate your local NuGet instance and displa
 1. Click the **Browse** tab to see the available packages.
 1. Enter your Telerik credentials in the Windows Authentication dialog.
 1. In the Visual Studio Package Manager, you will see all packages that are licensed to your user account.
-1. Search for the `Telerik.UI.for.Maui` or `Telerik.UI.for.Maui.Trial` package and select it.
+1. Search for the `Telerik.UI.for.Maui` package and select it.
 1. Choose the projects which require the package.
 1. Select the desired version and click **Install**.
 

@@ -17,7 +17,7 @@ Using the automated installers has several advantages:
 * As a part of the installation process, both installers automatically [download and set up your license key file]({%slug set-up-your-license%}).
 * The installer for Windows includes the Visual Studio extensions that help you improve your productivity.
 
->The steps in this article require an active trial or commercial license. If you are just starting with Telerik UI for .NET MAUI and want to activate your free trial, see [Installing a Free Trial Version]({%slug install-trial%}) instead.
+>The steps in this article require an active trial or commercial license. If you are just starting with Telerik UI for .NET MAUI and want to activate your free trial, see [Starting a Free Trial]({%slug install-trial%}) instead.
 
 ## Installing on Windows
 
@@ -27,7 +27,7 @@ To install Telerik UI for .NET MAUI using the MSI:
 
 1. Download the MSI from the [Downloads](https://www.telerik.com/account/downloads/product-download?product=MAUI) section of your Telerik account.
 
-1. Open the `Telerik_UI_for_dot_NET_Maui_[version]_[license_type].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
+1. Open the `Telerik_UI_for_dot_NET_Maui_[version].msi` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your PC.
 
     ![Telerik UI for .NET MAUI MSI Installer](images/msi-installer.png)
 
@@ -61,5 +61,5 @@ After the installation is complete, explore the installation folder of the MAUI 
 ## See Also
 
 - [UI for MAUI Installation Methods]({%slug installation-approaches %})
-- [Installing a Free Trial version]({%slug install-trial%}) 
+- [Starting a Free Trial]({%slug install-trial%})
 - [Sample Applications]({%slug sampleapps-overview%})
