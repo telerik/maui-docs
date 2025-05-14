@@ -9,7 +9,7 @@ position: 4
 
 # License Activation Errors and Warnings
 
-Starting with the 2025 Q1 release, using Telerik UI for .NET MAUI without a license or with an invalid license causes specific license warnings and errors. This article defines what an invalid license is, explains what is causing it, and describes the related license warnings and errors.
+Starting with the 2025 Q1 release, using Telerik UI for .NET MAUI without a license or with an invalid license causes specific license warnings, errors, and watermarks. This article defines what an invalid license is, explains what is causing it, and describes the related license warnings and errors.
 
 ## Invalid License
 
