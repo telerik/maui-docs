@@ -13,7 +13,7 @@ The CollectionView for .NET MAUI provides the option to set its group headers as
 
 In a multi-level grouping scenario, the last inner group from the parent group will be sticky.
 
-To enable the sticky group headers behavior, set `EnableStickyGroupHeaders` (`bool`) property of the CollectionView to `True`. By default `EnableStickyGroupHeaders` value is `False`.
+To enable the sticky group headers behavior, set `EnableStickyGroupHeaders` (`bool`) property of the CollectionView to `True`. By default, the `EnableStickyGroupHeaders` value is `False`.
 
 ```XAML
 <telerik:RadCollectionView EnableStickyGroupHeaders="True"  />
