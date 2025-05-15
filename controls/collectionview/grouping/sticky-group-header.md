@@ -9,7 +9,7 @@ tags: group, collectionview, groupdescriptor, sticky, group, headers
 
 # .NET MAUI CollectionView Sticky Group Headers (Android and iOS)
 
-The CollectionView for .NET MAUI provides the option to set its group headers as sticky. This means the `GroupHeader` UI element "freezes" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
+The CollectionView for .NET MAUI provides the option to set its group headers as sticky (only on Android and iOS). This means the `GroupHeader` UI element "freezes" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
 
 In a multi-level grouping scenario, the last inner group from the parent group will be sticky.
 
