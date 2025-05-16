@@ -12,7 +12,7 @@ The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) control 
 
 To show the Row Details, you can use the following exposed options:
 
-- The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({%slug treedatagrid-columns-toggle-column %})
+- The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({%slug datagrid-columns-toggle-column %})
 - Using an additional element inside the TreeDataGrid Column `CellContentTemplate` and on its click, tap event, to show or hide the row details.
 
 The DataGrid exposes the following properties that control the row details functionality:
