@@ -43,7 +43,7 @@ With the automatic columns generation TreeDataGrid will create the following col
 
 ## Manual Columns Definition
 
-Using the built-in auto generation of columns does not fit all scenarios. In such cases you can manually define the needed columns. When defining a column you can choose between several column types:
+Using the built-in auto generation of columns does not fit all scenarios. In such cases, you can manually define the needed columns. When defining a column, you can choose between several column types:
 
 * [Text Column]({%slug datagrid-columns-text-column%})&mdash;Represents a column that converts the content of each associated cell to a `System.String` object.
 * [Numerical Column]({%slug datagrid-columns-numerical-column%})&mdash;Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
