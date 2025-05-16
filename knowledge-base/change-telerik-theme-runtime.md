@@ -18,7 +18,7 @@ res_type: kb
     </tr>
   	<tr>
   		<td>Product Version</td>
-  		<td>8.0.0</td>
+  		<td>11.0.0</td>
   	</tr>
 	</tbody>
 </table>
@@ -40,15 +40,12 @@ To ensure that the Telerik .NET MAUI controls respond to app theme changes corre
 ```C#
 private void ApplyTelerikTheme()
 {
-    var telerikTheming = Application.Current
-        .Resources
-        .MergedDictionaries
-        .OfType<TelerikTheming>()
-        .Single();
 
-    var swatchName = Application.Current.RequestedTheme == AppTheme.Dark ? "Purple Dark" : "Purple";
-    telerikTheming.Theme = TelerikTheming.Themes
-        .Single(t => t.Theme == "Telerik" && t.Swatch == swatchName);
+	if (Application.Current.RequestedTheme == AppTheme.Dark)
+	{
+		TelerikThemeResources.AppTheme = TelerikTheme.TelerikPurpleDark;
+	}
+	else TelerikThemeResources.AppTheme = TelerikTheme.TelerikPurple;
 }
 ```
 
@@ -57,15 +54,12 @@ private void ApplyTelerikTheme()
 ```C#
 private void ApplyTelerikTheme()
 {
-    var telerikTheming = Application.Current
-        .Resources
-        .MergedDictionaries
-        .OfType<TelerikTheming>()
-        .Single();
 
-    var swatchName = Application.Current.RequestedTheme == AppTheme.Dark ? "Dark" : "Light";
-    telerikTheming.Theme = TelerikTheming.Themes
-        .Single(t => t.Theme == "Platform" && t.Swatch == swatchName);
+	if (Application.Current.RequestedTheme == AppTheme.Dark)
+	{
+		TelerikThemeResources.AppTheme = TelerikTheme.PlatformDark;
+	}
+	else TelerikThemeResources.AppTheme = TelerikTheme.PlatformLight;
 }
 ```
 
@@ -81,8 +75,11 @@ public App()
     Application.Current.UserAppTheme = AppTheme.Unspecified;
     Application.Current.RequestedThemeChanged += (s, e) => ApplyTelerikTheme();
     this.ApplyTelerikTheme();
+}
 
-    this.MainPage = new AppShell();
+protected override Window CreateWindow(IActivationState? activationState)
+{
+    return new Window(new AppShell());
 }
 ```
 

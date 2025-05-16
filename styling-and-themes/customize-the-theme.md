@@ -69,7 +69,8 @@ Once you customize the colors in the newly created `Resources\Styles\CustomTeler
         <ResourceDictionary.MergedDictionaries>
             <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
             <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            <local:TelerikTheming />
+
+            <local:TelerikThemeResources />
 
             <!-- Add your customized colors after the TelerikTheming resources.-->
             <ResourceDictionary Source="Resources/Styles/CustomTelerikSwatch.xaml" />
