@@ -8,7 +8,8 @@ slug: treedatagrid-programmatic-filtering
 
 # Programmatic Filtering
 
-Programmatic Filtering can be used for external filtering. For example, disable the built-in filtering UI and to filter the data in the grid programmatically. 
+Programmatic filtering allows you to implement external filtering—for example, by disabling the built-in filtering UI and applying filters directly in code.
+
 Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) control. 
 
 The following descriptor types are supported:
@@ -26,17 +27,16 @@ The following descriptor types are supported:
     - [Distinct Values Filter Descriptor](#distinct-values-filter-descriptor)
     - [Composite Filter Descriptor](#composite-filter-descriptor)
     - [Delegate Filter Descriptor](#delegate-filter-descriptor)
-  - [See Also](#see-also)
 
 All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Data` namespace.
 
-When using C#, you'll need to add the using statement
+When using C#, you need to add the using statement:
 
 ```C#
 using Telerik.Maui.Controls.Data;
 ```
 
-Alternatively, if using XAML, they're be resolved through the same `telerik` xmlns:
+Alternatively, if using XAML, the filter descriptors are resolved through the same `telerik` xmlns:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -206,7 +206,7 @@ class CustomFilter : Telerik.Maui.Controls.Data.IFilter
 }
 ```
 
-> `IFilter` is in `Telerik.Maui.Controls.Data` namespace.
+> The `IFilter` interface is located in the `Telerik.Maui.Controls.Data` namespace.
 
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 

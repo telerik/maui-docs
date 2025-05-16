@@ -6,13 +6,15 @@ position: 0
 slug: treedatagrid-filtering-overview
 ---
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-small.html %}
+{% endif %}
+
 # .NET MAUI TreeDataGrid Filtering
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) supports filtering operations either through the UI - using the Filtering UI or programmatically.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) supports filtering operations either through the UI&mdash;by using the Filtering UI&mdash;or programmatically.
 
-## Filtering UI
-
-> The Filtering UI appears when clicking the filtering icon in each column's header.
+To use the built-in Filtering UI, the user must click the filtering icon present in each column's header.
 
 ## Filter Control Template
 
@@ -24,11 +26,10 @@ The Telerik TreeDataGrid allows you to apply custom filter control to the DataGr
 
 ## Programmatic Filtering
 
-Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control. To learn more about programmatic filtering:
 
->tip Go to the [Programmatic Filtering]({%slug treedatagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
-
->tip For an outline of all TreeDataGrid features review the [.NET MAUI TreeDataGrid Overview]({%slug treedatagrid-overview%}) article.
+* Go to the [Programmatic Filtering]({%slug treedatagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
+* For an outline of all TreeDataGrid features, review the [.NET MAUI TreeDataGrid Overview]({%slug treedatagrid-overview%}) article.
 
 ## See Also
 

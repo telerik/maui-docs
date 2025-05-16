@@ -13,7 +13,7 @@ This article will guide you through the usage of the column headers, their custo
 
 ## Changing the Text in the Header
 
-To customize text inside the header you have to use the `HeaderText` property. The property is per column. If `HeaderText` is not set, the text inside the `PropertyName` is displayed.
+To customize text inside the header, you use the `HeaderText` property. The property is per column. If `HeaderText` is not set, the text inside the `PropertyName` is displayed.
 
 ```XAML
 <telerik:RadTreeDataGrid x:Name="dataGrid" 
@@ -29,15 +29,15 @@ To customize text inside the header you have to use the `HeaderText` property. T
 
 ## Sorting
 
-The user of the application can sort a particular column when tapping on its header. When the data is sorted by a column, the sort indicator shows in the header.
+The user of the application can sort a particular column by tapping on its header. When the data is sorted by a column, the sort indicator shows in the header.
 
-To learn more about the sorting functionality of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) take a look at the [Sorting]({%slug treedatagrid-sorting-overview%}) article.
+To learn more about the sorting functionality of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}), take a look at the [Sorting]({%slug treedatagrid-sorting-overview%}) article.
 
 ## Filtering
 
 The header of the column hosts the built-in filtering mechanism (the filter indicator which opens the Filtering UI), which allows the user to filter the data by the columns' values.
 
-To learn more about the filtering functionality take a look at the [Filtering]({%slug treedatagrid-filtering-overview%}) article.
+To learn more about the filtering functionality, take a look at the [Filtering]({%slug treedatagrid-filtering-overview%}) article.
 
 ## Styling 
 
@@ -47,7 +47,7 @@ Use the `HeaderStyle` property to style the `DataGridColumn` header.
 
 You can customize the content of the Header using the `HeaderContentTemplate`(`DataTemplate`) property.
 
-Define the `DataTemplate` for the header:
+To define the `DataTemplate` for the header:
 
 <snippet id='datagrid-headercontenttemplate-datatemplate' />
 
@@ -77,7 +77,7 @@ The following example demonstrates how to apply the `BackgroundColor` property t
 </DataTemplate>
 ```
 
-## Customize the Column
+## Customizing the Column
 
 Customize the column header by using the `HeaderContentTemplate`(of type `DataTemplate`) to achieve the desired full customization of the column. The property demonstrates the ability of the DataGrid to specify and show custom appearance for the column headers.
 

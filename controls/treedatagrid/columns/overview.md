@@ -6,13 +6,17 @@ position: 0
 slug: treedatagrid-columns-overview
 ---
 
-# .NET MAUI TreeDataGrid Defining Columns
+{% if site.has_cta_panels == true %}
+{% include cta-panel-small.html %}
+{% endif %}
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) inherits three approaches from the [DataGrid]({%slug datagrid-overview%}) that you can take to define different columns:
+# .NET MAUI TreeDataGrid: Defining Columns
 
-* **Automatically**&mdash;by setting `AutoGenerateColumns` property to `True` (default value).
-* **Manually**&mdash;by adding columns to the DataGrid's `Columns` collection and setting the `AutoGenerateColumns` property to `False`.
-* **Mixed**&mdash;by adding columns to the `Columns` collection and also setting the `AutoGenerateColumns`to `True` (default value).
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) supports three methods for defining columns, inherited from the [DataGrid]({%slug datagrid-overview%}):
+
+* Automatically&mdash;by setting `AutoGenerateColumns` property to `True` (default value).
+* Manually&mdash;by adding columns to the DataGrid's `Columns` collection and setting the `AutoGenerateColumns` property to `False`.
+* Mixed&mdash;by adding columns to the `Columns` collection and also setting the `AutoGenerateColumns`to `True` (default value).
 
 ## Automatic Columns Generation
 
@@ -41,12 +45,12 @@ With the automatic columns generation TreeDataGrid will create the following col
 
 Using the built-in auto generation of columns does not fit all scenarios. In such cases you can manually define the needed columns. When defining a column you can choose between several column types:
 
-* [Text Column]({%slug datagrid-columns-text-column%})&mdash;Represents a column that converts the content of each associated cell to a System.String object.
+* [Text Column]({%slug datagrid-columns-text-column%})&mdash;Represents a column that converts the content of each associated cell to a `System.String` object.
 * [Numerical Column]({%slug datagrid-columns-numerical-column%})&mdash;Represents an extended `DataGridTextColumn` that presents numerical data (`int` and `double` types).
 * [Boolean Column]({%slug datagrid-columns-boolean-column%})&mdash;An extended `DataGridTextColumn` implementation that presents Boolean data.
 * [Date Column]({%slug datagrid-columns-date-column%})&mdash;An extended `DataGridTextColumn` that presents data of type `DateTime`.
 * [Time Column]({%slug datagrid-columns-time-column%})&mdash;Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
-* [ComboBox Column]({%slug datagrid-columns-picker-column%})&mdash;Represents an extended `DataGridTextColumn`  which cell value editor is a Telerik.Maui.Controls.RadComboBox control.
+* [ComboBox Column]({%slug datagrid-columns-picker-column%})&mdash;Represents an extended `DataGridTextColumn`, whose cell value editor is a `Telerik.Maui.Controls.RadComboBox` control.
 * [Template Column]({%slug datagrid-columns-template-column%})&mdash;Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
 * [ToggleRowDetails Column]({%slug datagrid-columns-toggle-column%})&mdash;Represents a column that allows the user to show and hide the row details for an item.
 
@@ -57,7 +61,7 @@ For the typed columns (Text, Numerical, Boolean, Date, Time and ComboBox) you ca
 
 > For a runnable example with the TreeDataGrid columns, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **TreeDataGrid > Getting Started** category.
 
-## Columns Features
+## Column Features
 
 Find below a quick overview of the TreeDataGrid's Columns features.
 

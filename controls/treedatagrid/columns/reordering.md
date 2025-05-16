@@ -10,7 +10,7 @@ slug: treedatagrid-columns-reordering
 
 The [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) exposes a reordering feature allowing the user to drag and drop columns and change their order.
 
-The following properties are relted to the reordering feature:
+The following properties control the reordering feature:
 
 * `CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `true`.
 * `ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator that is displayed between two columns during reordering.

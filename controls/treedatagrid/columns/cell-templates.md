@@ -1,14 +1,14 @@
 ---
 title: Columns Cell Templates
-page_title: .NET MAUI TelerikDataGrid Documentation - Columns Cell Templates
-description: Learn how to define cell templates in TelerikDataGrid for .NET MAUI columns.
+page_title: .NET MAUI TreeDataGrid  Documentation - Columns Cell Templates
+description: Learn how to define cell templates in TreeDataGrid  for .NET MAUI columns.
 position: 2
-slug: datagrid-cell-templates
+slug: treedatagrid-cell-templates
 ---
 
-# .NET MAUI TelerikDataGrid Columns Cell Templates
+# .NET MAUI TreeDataGrid Columns Cell Templates
 
-This article describes how to extend the functionality of the columns in the [.NET MAUI TelerikDataGrid]({%slug datagrid-overview%}) and define custom content and edit templates using the `CellContentTemplate` and `CellEditTemplate` properties.
+This article describes how to extend the functionality of the columns in the [.NET MAUI TelerikDataGrid]({%slug treedatagrid-overview%}) and define custom content and edit templates using the `CellContentTemplate` and `CellEditTemplate` properties.
 
 * `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContentTemplate` gives you the opportunity to wrap the text inside each DataGrid column. You can add a Label as a content of the Text, Template Column and wrap its text using the Label's `LineBreakMode` property.
 * `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.

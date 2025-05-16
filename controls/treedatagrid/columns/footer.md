@@ -11,9 +11,9 @@ slug: treedatagrid-column-footer
 
 The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual footer cells for each column.
 
-By default, column footers are hidden, and, to make them visible, you have to set the `ShowColumnFooters` property to `True`.
+By default, column footers are hidden. To make them visible, set the `ShowColumnFooters` property to `True`.
 
-The following example shows how to define a footer in the DataGrid:
+The following example shows how to define a footer in the TreeDataGrid:
 
 ```XAML
 <telerik:RadTreeDataGrid x:Name="dataGrid" 
@@ -22,7 +22,7 @@ The following example shows how to define a footer in the DataGrid:
 
 ## Setting Text in the Footer
 
-To define a text inside the footer you have to use the `FooterText` property. The property is per column:
+To define a text inside the footer, use the `FooterText` property. The property is per column:
 
 ```XAML
 <telerik:RadTreeDataGrid x:Name="dataGrid" 
@@ -37,11 +37,11 @@ To define a text inside the footer you have to use the `FooterText` property. Th
 </telerik:RadTreeDataGrid>
 ```
 
-> Note that the footer has to be defined per column otherwise the cell will appear empty.
+> Define the footer per column; otherwise, the cell will appear empty.
 
 ## Styling 
 
-Use the `FooterStyle` property to style the `DataGridColumn` footer.
+Use the `FooterStyle` property to style the footer of the columns in the TreeDataGrid.
 
 ## Footer Content Customization
 

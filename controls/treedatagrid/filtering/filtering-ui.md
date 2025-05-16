@@ -10,7 +10,7 @@ slug: treedatagrid-filtering-ui
 
 The [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides you with a built-in filtering functionality, which allows the user to filter the data by one or more columns by clicking on the filtering icon next to the header text.
 
-> The Filtering UI appears when clicking the filtering icon in each column's header.
+> The Filtering UI appears when the user clicks the filtering icon in a column's header.
 
 You can control whether the Filtering UI is available to the end users for the whole DataGrid with the `UserFilterMode` property:
 
@@ -24,7 +24,7 @@ The DataGrid columns expose the following properties related to the Filtering UI
 
 * `FilterContentTemplate`(`DataTemplate`)&mdash;Defines the content template of the DataGrid Columns Filter and overriding the default template.
 
-Events related to `DistinctValuesFilter`:
+The following events are related to `DistinctValuesFilter`:
 
 * `DistinctValuesLoading` event&mdash;Occurs when loading the distinct values that will be displayed in the `Telerik.Maui.Controls.DataGrid.DataGridDistinctValuesFilterView`. The `DistinctValuesLoading` event handler receives two parameters:
 	* The sender argument, which is of type object, but can be cast to the `RadDataGrid` type.

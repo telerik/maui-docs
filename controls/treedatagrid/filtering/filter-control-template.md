@@ -12,7 +12,7 @@ The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) inherits
 
 To customize the built-in Filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
 
-In addition, as the [template column]({%slug treedatagrid-columns-template-column%}) does not provide a default Filtering UI, with the `FilterControlTemplate` property you can allow users to filter data in template columns as well.
+As the [template column]({%slug treedatagrid-columns-template-column%}) does not provide a default Filtering UI, to allow users to filter data in template columns, use the `FilterControlTemplate` property.
 
 * `FilterControlTemplate`(`DataTemplate`)&mdash;Specifies the user defined template used for Filtering UI. The template must contain an instance of the `Telerik.Maui.Controls.DataGrid.DataGridFilterControlBase` class. 
 

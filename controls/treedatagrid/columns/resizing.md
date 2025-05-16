@@ -8,38 +8,35 @@ slug: treedatagrid-column-resizing
 
 # .NET MAUI TreeDataGrid Column Resizing
 
-Columns inside the [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) are resizable by default. The feature is available only on Desktop - `WinUI` and `MacCatalyst`.
+Columns inside the [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) are resizable by default. The feature is available only on Desktop&mdash;WinUI and MacCatalyst.
 
-On `WinUI` and `MacOS`, you can change the column width by positioning the mouse over the column's vertical grid line (in the column header) and dragging it until the desired size is achieved.
+On WinUI and MacOS, you can change the column width by positioning the mouse over the column's vertical grid line (in the column header) and dragging it until the desired size is achieved.
 
-To resize a column programmatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug treedatagrid-columns-width%}) article.
+To resize a column programmatically, use the column's `Width` property. For more details, review the [Columns Width]({%slug treedatagrid-columns-width%}) article.
 
 In addition, you can set a `MinimumWidth`(`double`) to the column. This property is applicable when setting `SizeMode` column property to `Fixed`. When `MinimumWidth` is set, you can not reduce the width of the column to a value lower than the `MinimumWidth`. 
 
 ## Disabling Resizing
 
-Two ways to disable the resizing.
+You can disable resizing in two ways.
 
-**1.** Disable the resizing on a TreeDataGrid level. 
+* Disable the resizing on a TreeDataGrid level&mdash;You can disable the resizing by setting the `CanUserResizeColumns` property to `False`. The default value is `True`.
 
-You can disable the resizing by setting the `CanUserResizeColumns` property to `False`. The default value is `True`.
+ ```XAML
+ <telerik:RadTreeDataGrid x:Name="grid" 
+                          CanUserResizeColumns="False"/>
+ ```
 
-```XAML
-<telerik:RadTreeDataGrid x:Name="grid" 
-                         CanUserResizeColumns="False"/>
-```
+  >note When disabling the resizing on a DataGrid level, none of the grid columns will be resizable.
 
->note When disabling the resizing on a DataGrid level, all the columns won't be resizable.
 
-**2.** Disable the resizing on a column level.
+* Disable the resizing on a column level&mdash;To disable the resizing on a specific column, set the `IsResizable` property. The default value is `True`.
 
-To disable the resizing on a specific column, set the `IsResizable` property. The default value is `True`.
-
-```XAML
-<telerik:DataGridNumericalColumn PropertyName="StadiumCapacity" 
-                                 HeaderText="Stadium Capacity"
-                                 IsResizable="False"/>
-```
+ ```XAML
+ <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity" 
+                                  HeaderText="Stadium Capacity"
+                                  IsResizable="False"/>
+ ```
 
 ## Events
 

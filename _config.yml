@@ -541,7 +541,7 @@ navigation:
     ## End Toolbar
     ## TreeDataGrid
     controls/treedatagrid:
-        title: "DataGrid"
+        title: "TreeDataGrid"
     controls/treedatagrid/populating-with-data:
         title: "Populating with Data"
         position: 2
