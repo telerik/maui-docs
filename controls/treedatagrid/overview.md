@@ -47,7 +47,7 @@ In some cases, you may need to [load data in the .NET MAUI TreeDataGrid when the
 
 ## Row Details
 
-The MAUI TreeDataGrid allows you to represent additional information for the data in the row by using the [row details]({%slug treedatagrid-row-details-overview%}) feature.
+The MAUI TreeDataGrid allows you to represent additional information for the data in the row by using the [row details]({%slug treedatagrid-row-details%}) feature.
 
 ## Search As You Type
 
