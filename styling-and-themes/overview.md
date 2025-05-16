@@ -85,38 +85,42 @@ Before you can add Telerik Theming to your app, make sure that it is configured 
         <ResourceDictionary.MergedDictionaries>
             <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
             <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            <local:TelerikTheming />
+            <local:TelerikThemeResources />
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Application.Resources>
 ```
 
-**4.** Set the `Telerik` theme and the desired swatch in the `App.xaml.cs` file. This example uses the `Purple` swatch:
+**4.** Choose a theme by setting the `Theme` (`enum` of type `TelerikTheme`) property to the desired theme in the `App.xaml`:
+
+```XAML
+<local:TelerikThemeResources Theme="TelerikPurple" />
+```
+
+or `AppTheme` (`enum` of type `TelerikTheme`) property to the `App.xaml.cs` file.
 
 ```C#
-var telerikTheming = Application.Current
-                    .Resources
-                    .MergedDictionaries
-                    .OfType<TelerikTheming>()
-                    .Single();
-telerikTheming.Theme = TelerikTheming.Themes
-                    .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
+TelerikThemeResources.AppTheme = TelerikTheme.TelerikPurple;
 ```
 
 The steps above apply the `Telerik` theme with its `Purple` swatch to the Telerik .NET MAUI components used across the app.
 
-For example, if you have the following `RadToggleButton` control:
+The `TelerikTheme` `enum` has the following values: `Default`, `PlatformLight`, `PlatformDark`, `TelerikMain`, `TelerikMainDark`, `TelerikOceanBlue`, `TelerikOceanBlueDark`, `TelerikPurple`, `TelerikPurpleDark`, `TelerikTurquoise`, and `TelerikTurquoiseDark`.
+
+## Example for ToggleButton and Telerik Theme with Purple Swatch
+
+If you have the following `RadToggleButton` control:
 
 ```XAML
 <telerik:RadToggleButton x:Name="toggleButton"
                          Content="Wi-Fi" />
 ```
 
-After applying the Purple swatch, the ToggleButton looks like this:
+After applying the `Purple` swatch, the ToggleButton looks like this:
 
 ![Telerik .NET MAUI ToggleButton with Telerik theme](images/togglebutton-themed.gif)
 
->Some of the Telerik UI for .NET MAUI controls do not fully support the Telerik theming yet. These are AIPrompt, Chart, DataPager, ImageEditor, SlideView, and Toolbar.
+>Some of the Telerik UI for .NET MAUI controls do not fully support the Telerik theming yet. These are Barcode, Chart, Gauge, Map.
 
 ## Applying Theme Colors throughout the App
 
@@ -144,6 +148,22 @@ For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` col
 Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
+
+## Changing the Initially Loaded Themes and Control's XAML Files
+
+You can decide which themes and control's XAML files to be generated in the `TelerikTheming` folder by modifying the `config.json` file.
+
+Once the app is build when `UseTelerikTheming` is set to `True`
+
+```XAML
+<PropertyGroup>
+    <UseTelerikTheming>true</UseTelerikTheming>
+</PropertyGroup>
+```
+
+The task generates a `config.json` file inside the `TelerikTheming` folder.
+
+You can remove themes and controls from the `config.json` file that won't be used in the application. In this way the TelerikTheming task will generate the swatch and control's xaml files listed in the `config.json` file.
 
 ## Changing the Theme Swatch Dynamically
 

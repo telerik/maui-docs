@@ -48,8 +48,6 @@ A quick way to change the appearance of a control is to directly copy styles and
     </telerik:RadDataGrid>
 ```
 
->Some control-specific styles and templates depend on the content of the `\TelerikTheming\Styles\Core.xaml` file. In such cases, also copy the content of the `Core.xaml` file.
-
 ## Customizing the Control in a Dedicated Dictionary
 
 The Telerik theme lets you customize and at the same time unify the styles of your applications. You can do this at scale by using the styles that come with the Telerik theme and placing them in a dedicated resource dictionary.
@@ -128,30 +126,17 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
     {
         InitializeComponent();
 
-        var telerikTheming = Application.Current
-                .Resources
-                .MergedDictionaries
-                .OfType<TelerikTheming>()
-                .Single();
-        telerikTheming.Theme = TelerikTheming.Themes
-                            .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
+        TelerikThemeResources.AppTheme = TelerikTheme.TelerikPurple;
+
         //Merge the custom Grid styles resource dictionary.                    
         this.Resources.MergedDictionaries.Add(new CustomGridStyles());
-        this.MainPage = new MainPage();
+    }
+
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        return new Window(new MainPage());
     }
 ```
-
-### Handle Any Dependencies
-
-Some of the styles and control templates that you can copy from `\TelerikTheming\Styles` have dependencies on other XAML files. To identify these dependencies, look for the comments in the XAML files under `\TelerikTheming\Styles`.
-
-For example, the styles and control templates in the `\TelerikTheming\Styles\DataGrid.xaml` file depend on `\TelerikTheming\Styles\Core.xaml` as indicated by the following comment:
-
-```XAML
-<!-- Dependencies: Core.xaml -->
-```
-
-The comment above shows that using any of the resources in the `\TelerikTheming\Styles\DataGrid.xaml` reference file also requires you to copy the content of the `\TelerikTheming\Styles\Core.xaml` into your custom resource dictionary that you created in the `Resources\Styles` folder.
 
 ## See Also
 
