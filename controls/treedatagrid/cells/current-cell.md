@@ -12,9 +12,9 @@ slug: treedatagrid-current-cell
 
 ## Setting the Behavior
 
-In the TreeDataGrid you can use the `RadDataGrid.CurrentCell` (`DataGridCellInfo` ) property to programmatically modify the current cell during keyboard navigation, when using the mouse, and so on.
+In the TreeDataGrid, you can use the `RadDataGrid.CurrentCell` (`DataGridCellInfo`) property to programmatically modify the current cell during keyboard navigation, when using the mouse, and so on.
 
-By subscribing to the `CurrentCellChanged` event you can listen for the changes in the current cell as a result of user interaction with the keyboard.
+By subscribing to the `CurrentCellChanged` event, you can listen for the changes in the current cell resulting from user interaction with the keyboard.
 
 The `CurrentCellChanged` event handler receives the following parameters:
 
@@ -27,9 +27,7 @@ The `CurrentCellChanged` event handler receives the following parameters:
 
 You can style the current cell by using the `CurrentCellStyle` property (of type `Style` with target type `DataGridCurrentCellAppearance`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
-## Example
-
-As the TreeDataGrid inherits from the DataGrid, for a runnable example with the CurrentCell scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Keyboard Navigation** category. 
+> As the TreeDataGrid inherits from the DataGrid, for a runnable example with the CurrentCell scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Keyboard Navigation** category. 
 
 ## Additional Resources
 

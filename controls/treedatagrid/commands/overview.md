@@ -14,6 +14,10 @@ The DataGrid exposes a `Commands` collection that allows you to register custom 
 
 * `Commands`&mdash;Gets the collection with all the custom commands registered with the `CommandService`. Custom commands have higher priority than the built-in (default) ones.
 
+{% if false == true %}
+{% include cta-panel-small.html %}
+{% endif %}
+
 ## Command Types
 
 * `DataGridCommand`&mdash;All the default commands within `RadDataGrid` derive from the base `DataGridCommand`. Think of this command as a UI-related command as it operates over the `RadDataGrid` instance that owns the command.

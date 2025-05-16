@@ -19,7 +19,7 @@ To populate the DataGrid with data, use the `ItemsSource` property of the contro
 
 When you bind the `RadTreeDataGrid` to a collection that implements the `INotifyCollectionChanged` interface, the TreeDataGrid reflects and displays all changes to that collection, for example, any adding or removing of data items. The .NET MAUI framework implements the `INotifyCollectionChanged` interface in the `ObservableCollection<T>` class.
 
-Implementations of the `System.ComponentModel.ICollection` interface are also fully supported. When using such collection sources, the `RadTreeDataGrid` automatically picks up any sort, or filter descriptions defined in the collection and uses them to display the data. This makes the `System.ComponentModel.ICollection` interface implementations the recommended collection source for the TreeDataGrid. To display the hierarchy of the items define the [`TreeDataGridItemDescriptor`]({%slug treedatagrid-descriptor%}).
+Implementations of the `System.ComponentModel.ICollection` interface are also fully supported. When using such collection sources, the `RadTreeDataGrid` automatically picks up any sort, or filter descriptions defined in the collection and uses them to display the data. This makes the `System.ComponentModel.ICollection` interface implementations the recommended collection source for the TreeDataGrid. To display the hierarchy of the items, define the [`TreeDataGridItemDescriptor`]({%slug treedatagrid-descriptor%}).
 
 The next example demonstrates how to bind the TreeDataGrid to an `ObservableCollection`. 
 
@@ -77,7 +77,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='treedatagrid-viewmodel' />
 
-> To learn more about defining columns and the different types of columns, you can take a look at the [Columns Section]({%slug treedatagrid-columns-overview%}).
+> To learn more about defining columns and the different types of columns, see the [Columns Section]({%slug treedatagrid-columns-overview%}).
 
 ## Additional Resources
 

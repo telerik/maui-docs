@@ -8,7 +8,7 @@ slug: treedatagrid-mouse-hover-cell
 
 # .NET MAUI TreeDataGrid Hover Cell
 
- The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides option to get the data of the cell that the mouse is currently over. In addition, you can change the default hover style. The feature is available only on Desktop - `WinUI` and `MacCatalyst`.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides an option to get the data of the cell that the mouse is currently over. In addition, you can change the default hover style. The feature is available only on Desktop&mdash;`WinUI` and `MacCatalyst`.
 
 ## Getting the Hovered Cell
 
@@ -26,9 +26,7 @@ var hoveredCell = treeDataGrid.VisualStateService.MouseHoverCell;
 
 You can specify the style for the cells and rows when the mouse is over by using the `MouseHoverStyle` property (of type `DataGridBorderStyle`) and applying the `BackgroundColor`, `BorderColor`, and `BorderThickness` properties.
 
-## Example
-
-As the TreeDataGrid inherits from the DataGrid, for a runnable example with the Mouse Hover Cell scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Cells** category.
+> As the TreeDataGrid inherits from the DataGrid, for a runnable example with the Mouse Hover Cell scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Cells** category.
 
 ## See Also
 
