@@ -8,17 +8,16 @@ slug: treedatagrid-descriptor
 
 # .NET MAUI TreeDataGrid Item Hierarchy
 
-The TreeDataGrid for MAUI exposes `ItemDescriptors` collection (`IList<TreeDataGridItemDescriptor>`). The collection defines the entities that describe an item.
+The TreeDataGrid for MAUI exposes an `ItemDescriptor` proeprty (of type `TreeDataGridItemDescriptor`), which defines the entities that describe an item.
+
 To specify the data items' hierarchy and how each item is visualized, use the `TreeDataGridItemDescriptor` class.
 
 The `TreeDataGridItemDescriptor` class exposes the following properties: 
 
 | Property | Description |
 | -------- | ----------- |
-| `ChildrenBinding` (`BindingBase`) | Specifies the binding that provides the children of an item in the TreeDataGrid. |
-| `ShouldDisplayTreeArrowBinding` (`BindingBase`) | Specifies the binding that checks whether a tree arrow should be displayed for an item that has children. |
-
-> You can define multiple descriptors in the TreeDataGrid.
+| `ItemsSourceBinding` (`BindingBase`) | Specifies the binding that provides the children of an item in the TreeDataGrid. |
+| `IsExpandableBinding` (`BindingBase`) | Specifies the binding that determines whether a tree arrow is displayed for items with children. |
 
 Here is an example demonstrating how to define the data items' hierarchy by using the TreeDataGrid descriptor:
 
@@ -62,6 +61,10 @@ public static class MauiProgram
 	}
 }
 ```
+
+This is the result on winUi and on Android:
+
+![.NET MAUI TreeDataGrid Descriptor](images/treedatagrid-getting-started.png)
 
 > For a runnable example with the TreeDataGrid Descriptor scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeDataGrid > Getting Started** category. 
 

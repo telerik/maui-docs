@@ -6,7 +6,7 @@ position: 13
 slug: treedatagrid-loadondemand
 ---
 
-# .NET MAUI DataGrid Load On Demand
+# .NET MAUI TreeDataGrid Load On Demand
 
 The  [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) enables you to improve its performance and save computing resources, by loading data in the `RadTreeDataGrid` when the control is already displayed.
 
@@ -60,9 +60,7 @@ The custom style is of type `Style` with target type `DataGridLoadOnDemandRowApp
 
 The `LoadOnDemandRowTemplate` property can be used to set the template of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
-## Examples
-
-For runnable examples with the TreeDataGrid Load On Demand options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Load On Demand** category. Replace the examples with `TreeDataGrid` and set a `ViewModel` and Data models with hierarchical data structrue. 
+> For runnable examples with the TreeDataGrid Load On Demand options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Load On Demand** category. Replace the examples with `TreeDataGrid` and set a `ViewModel` and Data models with a hierarchical data structure. 
 
 ## Additional Resources
 

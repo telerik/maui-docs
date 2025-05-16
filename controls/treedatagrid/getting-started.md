@@ -78,11 +78,10 @@ public static class MauiProgram
 
 ## Additional Resources
 
-- [Setting the .NET MAUI TreeDataGrid Columns]({%slug datagrid-columns-overview%})
-- [Using the TreeDataGrid Commands]({%slug datagrid-aggregates%})
-- [Sorting .NET MAUI TreeDataGrid Records]({%slug datagrid-sorting%})
-- [Filtering .NET MAUI TreeDataGrid Records]({%slug datagrid-filtering-overview%})
-- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
+- [Setting the .NET MAUI TreeDataGrid Columns]({%slug treedatagrid-columns-overview%})
+- [Using the TreeDataGrid Commands]({%slug treedatagrid-aggregates%})
+- [Sorting .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
+- [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})
 
 ## See Also
 

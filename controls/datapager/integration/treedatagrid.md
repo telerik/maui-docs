@@ -8,7 +8,7 @@ slug: datapager-treedatagrid
 
 # .NET MAUI DataPager Integration with TreeDataGrid
 
-You can page the data of the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) by using the DataPager control.
+You can page the data of the [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) by using the DataPager control.
 
 ![.NET MAUI DataPager with TreeDataGrid](../images/datapager-treedatagrid-paging.png)
 

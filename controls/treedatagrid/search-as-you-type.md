@@ -9,7 +9,7 @@ slug: treedatagrid-search-as-you-type
 
 # .NET MAUI TreeDataGrid Search as You Type
 
- [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality. The default behavior is to Search as You Type, but it can also be performed when the end user finishes typing and presses `Enter`.
+ [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides the ability to search for specific data within its `ItemsSource` by using its built-in search functionality. The default behavior is to Search as You Type, but it can also be performed when the end user finishes typing and presses `Enter`.
 
 Through the DataGrid's `SearchSettings` property, you can control when to show the search panel as well as configure the way the search is performed so that it best suits the end users' needs.
 
@@ -31,7 +31,7 @@ The default searching behavior works in the following way: as soon as the user t
 
 Below you can find a list of the available configuration options applied through the `RadDataGrid.SearchSettings`:
 
-* `IntermediateSearchText`(`string`)&mdash;Specifies the text of the search entry. A change of this value will not necessarily trigger a search, for example,it will not necessarily change the `SearchText` property. The `SearchText` property is updated in accordance with the `SearchTrigger` property.
+* `IntermediateSearchText`(`string`)&mdash;Specifies the text of the search entry. A change of this value will not necessarily trigger a search, for example, it will not necessarily change the `SearchText` property. The `SearchText` property is updated in accordance with the `SearchTrigger` property.
 * `SearchText`(`string`)&mdash;Specifies the search text. Before a search is started, the `SearchStarting` event is raised. The `SearchStarting` event allows for a change in the effective search text that will be used for searching.
 * `SearchTrigger`(`DataGridSearchTrigger`)&mdash;Indicates when a search operation will be performed while the end user is typing in the search entry of the search panel. The available options are:
     * `TextChanged`&mdash;The search operation is triggered every time the text of the entry changes.
@@ -68,12 +68,10 @@ The `DataGrid.SearchSettings` allows you to attach commands that will be execute
 * `CloseSearchPanelCommand`&mdash;Called when pressing the Close button in the search panel.
 * `SearchEntryCompletedCommand`&mdash;Called when the `Completed` event of the search entry in the search panel is raised.
 
-## Examples
 
-For runnable examples with the TreeDataGrid Search options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Search** category. Replace the examples with `RadTreeDataGrid` definition and set a `ViewModel` and Data models with hierarchical data structrue. 
+> For runnable examples with the TreeDataGrid Search options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Search** category. Replace the examples with `RadTreeDataGrid` definition and set a `ViewModel` and Data models with hierarchical data structure.
 
 ## See Also
 
 - [Localization in .NET MAUI TreeDataGrid]({%slug treedatagrid-localization%})
 - [Defining Columns]({%slug treedatagrid-columns-overview%})
-- [Columns Styling]({%slug treedatagrid-columns-styling%})

@@ -14,9 +14,9 @@ It exposes the following properties:
 
 * `EmptyContentTemplate`(`DataTemplate`)&mdash;Defines the content of the view which is shown when in the view has no items.
 
-* `EmptyContentDisplayMode`&mdash;Defines the modes for displaying empty content. The property have two modes:
+* `EmptyContentDisplayMode`&mdash;Defines the modes for displaying empty content. The property has two modes:
        - `ItemsSourceNull`&mdash;Displays the empty content view only when the `ItemsSource` is null.
-       - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty(has zero items).
+       - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty (has zero items).
 
 > As the TreeDataGrid inhertis from the DataGrid, for a runnable example with empty template scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Empty Template** category. 
 

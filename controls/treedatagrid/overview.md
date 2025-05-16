@@ -9,17 +9,17 @@ slug: treedatagrid-overview
 
 # .NET MAUI TreeDataGrid Overview
 
-The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines the powerful data-driven features from the [DataGrid]({%slug datagrid-overview%}) control and showing the data in a tree like structure.
+The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines its powerful data-driven features with a tree-like structure for displaying data. 
 
-When the data from a database is sent to the client, usually converted to a business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The TreeDataGrid also supports alternating row colors so that your users can distinguish one row from another.
+When data from a database is sent to the client, it is usually converted to a business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The TreeDataGrid also supports alternating row colors so that your users can distinguish one row from another.
 
 The optimized data layer of the TreeDataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
-![Telerik .NET MAUI Tree Data Grid on all platforms](images/treedatagrid-overview.png "Telerik .NET MAUI Tree Data Grid")
+![Telerik .NET MAUI Tree Data Grid on all platforms](images/treedatagrid-overview.png)
 
 ## Data Binding
 
-The TreeDataGrid control allows you to set the collection of custom business object as an `ItemsSource` in combination with a `TreeDataGridItemDescriptor` class to visualize the hierarchically-structured source.
+The TreeDataGrid control allows you to set the collection of custom business object as an `ItemsSource` in combination with a `TreeDataGridItemDescriptor` class to visualize the hierarchical structure.
 
 ## Built-in Columns
 
@@ -29,7 +29,7 @@ The MAUI TreeDataGrid provides a set of [built-in columns]({%slug treedatagrid-c
 
 The .NET MAUI TreeDataGrid provides a number of features and configuration options related to its columns to provide a flexible and usable user experience. For example, you can enable [column reordering]({% slug treedatagrid-columns-reordering %}) and [resizing]({% slug treedatagrid-column-resizing %}). If you want to prevent a column from resizing, you can [lock the column]({% slug treedatagrid-frozen-columns %}) and keep the important information always on top.
 
-## Sort, Filter Data
+## Sort and Filter Data
 
 Perform SORT and FILTER operations on your data by using the convenient API of the control. Apply the [sorting]({%slug treedatagrid-sorting%}) and [filtering]({%slug datagrid-filtering-overview%}) operations per column.
 

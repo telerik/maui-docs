@@ -13,7 +13,7 @@ The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) has 
 
 >important Avoid nesting the TreeDataGrid in a `ScrollView` and other controls that provide scrolling.
 
-For implementing programmatic scrolling to a specific item, use the `ScrollItemIntoView(object item)` method, which brings the specified data item into view. Note that `ScrollItemIntoView` works in scenarios where the TreeDataGrid Rows are with the same height.
+For the implementation of programmatic scrolling to a specific item, use the `ScrollItemIntoView(object item)` method, which brings the specified data item into view. Note that `ScrollItemIntoView` works in scenarios where the TreeDataGrid Rows are with the same height.
 
 For more details, review the article on [setting the .NET MAUI TreeDataGrid rows]({%slug treedatagrid-row-height%}).
 
