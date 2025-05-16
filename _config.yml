@@ -539,6 +539,31 @@ navigation:
         title: "Items"
         position: 4
     ## End Toolbar
+    ## TreeDataGrid
+    controls/treedatagrid:
+        title: "TreeDataGrid"
+    controls/treedatagrid/populating-with-data:
+        title: "Populating with Data"
+        position: 2
+    controls/treedatagrid/columns:
+        title: "Columns"
+        position: 3
+    controls/treedatagrid/rows:
+        title: "Row Details"
+        position: 4
+    controls/treedatagrid/cells:
+        title: "Cells"
+        position: 5
+    controls/treedatagrid/filtering:
+        title: "Filtering"
+        position: 6
+    controls/treedatagrid/commands:
+        title: "Commands"
+        position: 16
+    controls/treedatagrid/keyboard-navigation:
+        title: "Keyboard Navigation"
+        position: 19
+    ## End TreeDataGrid
     ## TreeView
     controls/treeview:
         title: "TreeView"
@@ -650,6 +675,7 @@ intro_columns:
       "DataGrid": "datagrid-overview"
       "DataPager": "datapager-overview"
       "ItemsControl": "itemscontrol-overview"
+      "TreeDataGrid": "treedatagrid-overview"
   -
     title: "Data Visualization"
     items:
