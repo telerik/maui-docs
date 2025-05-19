@@ -202,10 +202,10 @@ navigation:
     controls/collectionview/load-on-demand:
         title: "Load On Demand"
         position: 17
-     controls/collectionview/accessibility:
+    controls/collectionview/accessibility:
         title: "Accessibility"
         position: 20
-     controls/collectionview/accessibility/keyboard-navigation:
+    controls/collectionview/accessibility/keyboard-navigation:
         title: "Keyboard Navigation"
         position: 1
     controls/collectionview/styling:
