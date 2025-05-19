@@ -30,6 +30,10 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 
 @[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-notes)
 
+Here is how the keyboard navigation support looks on WinUI:
+
+![.NET MAUI CollectionView Keyboard Navigation Support](../../images/collectionview-keyboard-navigation-support.gif)
+
 ## Additional Resources
 
 - [.NET MAUI CollectionView Product Page](https://www.telerik.com/maui-ui/collectionview)
