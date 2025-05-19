@@ -2,14 +2,14 @@
 title: Current Item
 page_title: .NET MAUI CollectionView Documentation - Current Item
 description: Learn how to set the behavior and style the appearance of the current cell of the Telerik UI for .NET MAUI CollectionView component.
-position: 25
+position: 15
 slug: collectionview-current-item
 tags: current item, keyboard navigation, maui, collectionview, dotnet maui
 ---
 
 # .NET MAUI CollectionView Current Item
 
-The [Telerik UI for .NET MAUI CollectionView]({%slug colelctionview-overview%}) provides options for configuring the behavior and style of its current item.
+The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides options for configuring the behavior and style of its current item.
 
 ## Setting the Behavior
 

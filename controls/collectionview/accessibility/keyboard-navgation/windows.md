@@ -13,8 +13,8 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 @[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-common-text)
 
 
-| Hotkey Combinations  | Action |
-| -------------------- | ------ |
+| Hotkey | Action |
+| ------ | ------ |
 | `Tab` | Enters or exits the CollectionView. |
 | `Shift` + `Tab` | Enters or exits the CollectionView. |
 | `Up Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
@@ -22,8 +22,8 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 | `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Right Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Space` | Selects the currently focused item in `Single` `SelectionMode`. When `SelectionMode` is multiple, the `Space` key selects/deselects the current item. |
-| `Page Up` | When all items are in the viewport, the first item becomes current. When not all items are in the viewport, the first rendered item becomes current. When pressing `Page Up` again, a new portion of items appear and the first of them becomes current. |
-| `Page down` | When all items are in the viewport, the last item becomes current. When not all items are in the viewport, the last rendered item becomes current. When pressing `Page Down` again, a new portion of items appear and the last of them becomes current. |
+| `Page Up` | When all items are in the viewport, the first item becomes current. When not all items are in the viewport, the first rendered item becomes current. Pressing `Page Up` again brings a new portion of items, and the first of them becomes current. |
+| `Page down` | When all items are in the viewport, the last item becomes current. When not all items are in the viewport, the last rendered item becomes current. Pressing `Page Down` again brings a new portion of items, and the last of them becomes current. |
 | `Home` | The first item in the CollectionView becomes current. |
 | `End` | The last item in the CollectionView becomes current. |
 
