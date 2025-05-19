@@ -18,10 +18,12 @@ The following table lists the actions and keyboard combinations that are availab
 | -------------------- | ------ |
 | `Tab` | Enters or exits the CollectionView. |
 | `Up Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
-| `Down Arrow` | Navigates to the nect item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
+| `Down Arrow` | Navigates to the next item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
 | `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Right Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Space` | Selects the currently focused item in `Single` `SelectionMode`. When `SelectionMode` is multiple, the `Space` key selects/deselects the current item. |
+
+@[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-notes)
 
 ## Additional Resources
 
