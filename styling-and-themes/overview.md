@@ -13,7 +13,7 @@ Telerik UI for .NET MAUI comes with a built-in theme that controls the visual ap
 
 In addition to the Telerik theme, Telerik UI for .NET MAUI also provides a Platform theme with light and dark variants. The platform theme closely resembles the light and dark modes of the device that runs your MAUI application.
 
->The built-in Telerik UI for .NET MAUI theme and its swatches were introduced in version 8.0.0 (2024 Q4) and are currently in preview.
+>The built-in Telerik UI for .NET MAUI theme and its swatches were introduced in version 8.0.0 (2024 Q4) as a preview. With Telerik UI for MAUI 11.0.0 (2025 Q2) the Telerik theme and its swatches are official.
 
 ![Telerik .NET MAUI Theming Support](images/theming-support.png)
 
