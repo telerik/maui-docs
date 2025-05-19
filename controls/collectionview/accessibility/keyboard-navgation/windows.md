@@ -10,14 +10,13 @@ slug: collectionview-keyboard-support-winui
 
 The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides keyboard navigation support on `WinUI`.
 
-While applying part of the keyboard keys, you can also change the current item behavior of the CollectionView component.
+@[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-common-text)
 
-The following table lists the actions and keyboard combinations that are available in the CollectionView:
 
 | Hotkey Combinations  | Action |
 | -------------------- | ------ |
 | `Tab` | Enters or exits the CollectionView. |
-| `Shift + Tab` | Enters or exits the CollectionView. |
+| `Shift` + `Tab` | Enters or exits the CollectionView. |
 | `Up Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
 | `Down Arrow` | Navigates to the next item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
 | `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |

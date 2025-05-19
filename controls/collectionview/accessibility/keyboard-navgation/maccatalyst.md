@@ -10,9 +10,8 @@ slug: collectionview-keyboard-support-mac
 
 The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides keyboard navigation support on `MacCatalyst`.
 
-While applying part of the keyboard keys, you can also change the current item behavior of the CollectionView component.
+@[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-common-text)
 
-The following table lists the actions and keyboard combinations that are available in the CollectionView:
 
 | Hotkey Combinations  | Action |
 | -------------------- | ------ |
@@ -22,6 +21,11 @@ The following table lists the actions and keyboard combinations that are availab
 | `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Right Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Space` | Selects the currently focused item in `Single` `SelectionMode`. When `SelectionMode` is multiple, the `Space` key selects/deselects the current item. |
+| `Fn` + `Up Arrow` | When all items are in the viewport, the first item becomes current. When not all items are in the viewport, the first rendered item becomes current. When pressing `Page Up` again, a new portion of items appear and the first of them becomes current. |
+| `Fn` + `Down Arrow` | When all items are in the viewport, the last item becomes current. When not all items are in the viewport, the last rendered item becomes current. When pressing `Page Down` again, a new portion of items appear and the last of them becomes current. |
+| `Fn` + `Left Arrow` | The first item in the CollectionView becomes current. |
+| `Fn` + `Right Arrow` | The last item in the CollectionView becomes current. |
+
 
 @[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-notes)
 
