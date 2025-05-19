@@ -20,10 +20,10 @@ The CollectionView provides the following `CommonStates` visual states:
 | `Normal` | Applies when the item is in its normal state. |
 | `Selected` | Applies when the item is selected&mdash;for `Single` or `Multiple` `SelectionMode`. |
 | `MouseOver` | Applies when the mouse cursor is hovering over the item. |
-| `Focused` | Applies when the is focused with the keyboard. |
+| `Focused` | Applies when the item is focused with the keyboard. |
 | `FocusedMouseOver` | Applies when the item is focused with the keyboard and the mouse cursor is hovering it. |
 | `FocusedSelected` | Applies when the item is selected and focused with the keyboard. |
-| `Disabled` | Applies when the ColelctionView item `IsEnabled` is `False`. |
+| `Disabled` | Applies when the CollectionView item `IsEnabled` is `False`. |
 
 ## See Also
 
