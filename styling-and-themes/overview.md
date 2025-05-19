@@ -27,18 +27,20 @@ A *theme swatch* is a color variation of a theme. All swatches of a given theme 
 
 The Telerik .NET MAUI theme comes with a set of eight predefined swatches for both dark and light modes while the Platform theme offers a light and dark swatch.
 
-| Theme | Swatch | Color |
-| ----- | ------ | ----- |
-| Platform | Light | ![Telerik UI for .NET MAUI Platform Light Theme](images/platform-light.png) |
-| Platform | Dark | ![Telerik UI for .NET MAUI Platform Dark Theme](images/platform-dark.png) |
-| Telerik | Main | ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png) |
-| Telerik | Main Dark | ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png) |
-| Telerik | Ocean Blue | ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png) |
-| Telerik | Ocean Blue Dark | ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png) |
-| Telerik | Purple | ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png) |
-| Telerik | Purple Dark | ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png) |
-| Telerik | Turquoise | ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png) |
-| Telerik | Turquoise Dark | ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png) |
+| Theme | Swatch | Color | `TelerikTheme` `enum` |
+| ----- | ------ | ----- | --------------------- |
+| Platform | Light | ![Telerik UI for .NET MAUI Platform Light Theme](images/platform-light.png) | `PlatformLight` |
+| Platform | Dark | ![Telerik UI for .NET MAUI Platform Dark Theme](images/platform-dark.png) | `PlatformDark` |
+| Telerik | Main | ![Telerik UI for .NET MAUI Main Theme](images/telerik-main.png) | `TelerikMain` |
+| Telerik | Main Dark | ![Telerik UI for .NET MAUI Main Dark Theme](images/telerik-main-dark.png) | `TelerikMainDark` |
+| Telerik | Ocean Blue | ![Telerik UI for .NET MAUI Ocean Blue Theme](images/telerik-ocean-blue.png) | `TelerikOceanBlue` |
+| Telerik | Ocean Blue Dark | ![Telerik UI for .NET MAUI Ocean Blue Dark Theme](images/telerik-ocean-blue-dark.png) | `TelerikOceanBlueDark` |
+| Telerik | Purple | ![Telerik UI for .NET MAUI Purple Theme](images/telerik-purple.png) | `TelerikPurple` |
+| Telerik | Purple Dark | ![Telerik UI for .NET MAUI Purple Dark Theme](images/telerik-purple-dark.png) | `TelerikPurpleDark` |
+| Telerik | Turquoise | ![Telerik UI for .NET MAUI Turquoise](images/telerik-turquoise.png) | `TelerikTurquoise` |
+| Telerik | Turquoise Dark | ![Telerik UI for .NET MAUI Turquoise Dark Theme](images/telerik-turquoise-dark.png) | `TelerikTurquoiseDark` |
+
+The `TelerikTheme` enum has a `Default` value which indicates the default look of the controls (without theming). 
 
 The next image shows the differences and similarities between the Purple and Purple Dark swatches when applied to the AutoComplete control.
 
@@ -85,38 +87,40 @@ Before you can add Telerik Theming to your app, make sure that it is configured 
         <ResourceDictionary.MergedDictionaries>
             <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
             <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            <local:TelerikTheming />
+            <local:TelerikThemeResources />
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Application.Resources>
 ```
 
-**4.** Set the `Telerik` theme and the desired swatch in the `App.xaml.cs` file. This example uses the `Purple` swatch:
+**4.** Choose a theme by setting the `Theme` (`enum` of type `TelerikTheme`) property to the desired theme in the `App.xaml`:
+
+```XAML
+<local:TelerikThemeResources Theme="TelerikPurple" />
+```
+
+or `AppTheme` (`enum` of type `TelerikTheme`) property to the `App.xaml.cs` file.
 
 ```C#
-var telerikTheming = Application.Current
-                    .Resources
-                    .MergedDictionaries
-                    .OfType<TelerikTheming>()
-                    .Single();
-telerikTheming.Theme = TelerikTheming.Themes
-                    .Single(t => t.Theme == "Telerik" && t.Swatch == "Purple");
+TelerikThemeResources.AppTheme = TelerikTheme.TelerikPurple;
 ```
 
 The steps above apply the `Telerik` theme with its `Purple` swatch to the Telerik .NET MAUI components used across the app.
 
-For example, if you have the following `RadToggleButton` control:
+## Example for ToggleButton and Telerik Theme with Purple Swatch
+
+If you have the following `RadToggleButton` control:
 
 ```XAML
 <telerik:RadToggleButton x:Name="toggleButton"
                          Content="Wi-Fi" />
 ```
 
-After applying the Purple swatch, the ToggleButton looks like this:
+After applying the `Purple` swatch, the ToggleButton looks like this:
 
 ![Telerik .NET MAUI ToggleButton with Telerik theme](images/togglebutton-themed.gif)
 
->Some of the Telerik UI for .NET MAUI controls do not fully support the Telerik theming yet. These are AIPrompt, Chart, DataPager, ImageEditor, SlideView, and Toolbar.
+>Some of the Telerik UI for .NET MAUI controls do not fully support the Telerik theming yet. These are Barcode, Chart, Gauge, Map.
 
 ## Applying Theme Colors throughout the App
 
@@ -144,6 +148,16 @@ For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` col
 Here is the result with the `Purple` and `Purple Dark` swatches applied:
 
 ![Telerik .NET MAUI Theming App Usage](images/telerik-theming-app.png)
+
+## Changing the Initially Loaded Themes and Control's XAML Files
+
+Once you [enable the theming](#using-the-maui-theming) mechanism by setting `UseTelerikTheming` to `True` and then rebuild the app, the task generates a `config.json` file inside the `TelerikTheming` folder.
+
+By editing the generated `config.json` file, you can:
+* Control which theme-specific files are generated in the `TelerikTheming` folder.
+* Control which controls-specific XAML files are generated in the `TelerikTheming` folder.
+
+You can remove themes and controls from the `config.json` file that won't be used in the application. In this way, the Telerik Theming task generates only the swatch and control XAML files listed in the `config.json` file.
 
 ## Changing the Theme Swatch Dynamically
 
