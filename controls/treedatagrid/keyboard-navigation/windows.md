@@ -1,19 +1,18 @@
 ---
 title: WinUI
-page_title: .NET MAUI DataGrid Documentation - Keyboard Support for WinUI
-description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DataGrid accessibility standards.
+page_title: .NET MAUI TreeDataGrid Documentation - Keyboard Support for WinUI
+description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI TreeDataGrid accessibility standards.
 position: 1
-previous_url: /controls/datagrid/keyboard-support
-slug: datagrid-keyboard-support
+slug: treedatagrid-keyboard-support
 ---
 
-# .NET MAUI DataGrid Keyboard Support on WinUI
+# .NET MAUI TreeDataGrid Keyboard Support on WinUI
 
-The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides keyboard navigation support on `WinUI`.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides keyboard navigation support on `WinUI`.
 
-While applying part of the keyboard keys, you can also change the current cell behavior of the DataGrid component. For more details, see the article on [setting the .NET MAUI DataGrid cells]({%slug datagrid-current-cell%}).
+While applying part of the keyboard keys, you can also change the current cell behavior of the TreeDataGrid component. For more details, see the article on [setting the .NET MAUI TreeDataGrid cells]({%slug treedatagrid-current-cell%}).
 
-The following table lists the actions and keyboard combinations that are available in the DataGrid:
+The following table lists the actions and keyboard combinations that are available in the TreeDataGrid:
 
 | Hotkey Combinations  | Action 		   |
 |----------------------|-------------------|
@@ -30,8 +29,8 @@ The following table lists the actions and keyboard combinations that are availab
 | `End`	| Focuses the last cell of the selected row. |
 | `Ctrl` + `Home`| Focuses the first cell of the DataGrid. |
 | `Ctrl` + `End`| Focuses the last cell of the DataGrid. |
-| `Ctrl` + `Left Arrow` | Focuses the cell at the beginning. |
-| `Ctrl` + `Right Arrow` | Focuses the next cell on the right. |
+| `Ctrl` + `Left Arrow` | Collapses the TreeDataGrid item. If pressign the key combination again, focuses the cell at the beginning. |
+| `Ctrl` + `Right Arrow` | Expands the TreeDataGrid item. If the item is expanded, focuses the next cell on the right. |
 | `Ctrl` + `Up Arrow` | Focuses the cell at the beginning. When using single selection mode, the selection also changes. |
 | `Ctrl` + `Down Arrow` | Focuses the last cell. When using single selection mode, the selection also changes. |
 | `Tab` | Focuses the next cell. When in edit mode, the next cell editor is focused. |
@@ -39,13 +38,12 @@ The following table lists the actions and keyboard combinations that are availab
 
 ## Additional Resources
 
-- [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
-- [.NET MAUI DataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
+- [.NET MAUI TreeDataGrid Product Page](https://www.telerik.com/maui-ui/treedatagrid)
+- [.NET MAUI TreeDataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
 
 ## See Also
 
-- [Sorting Telerik UI for .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
-- [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
-- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
+- [Sorting Telerik UI for .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
+- [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})
