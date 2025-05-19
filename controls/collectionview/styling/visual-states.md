@@ -9,7 +9,9 @@ tags: style, visual states, item, collectionview, maui, dotnet maui
 
 # .NET MAUI CollectionView Visual States
 
-This article describes the visual states provided by the CollectionView control. You can use these visual states to change the appearance of the control based on its state—such as when it’s disabled, focused, hovered, and more.
+This article describes the visual states provided by the CollectionView control.
+
+You can use these visual states to change the appearance of the control based on its state&mdash;such as when it's disabled, focused, hovered, and more.
 
 The CollectionView provides the following `CommonStates` visual states:
 
