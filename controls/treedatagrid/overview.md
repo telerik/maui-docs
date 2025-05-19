@@ -9,7 +9,7 @@ slug: treedatagrid-overview
 
 # .NET MAUI TreeDataGrid Overview
 
-The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines its powerful data-driven features. In addition, the TreeDataGrid control displays the data in a tree-like structure. 
+The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines its powerful data-driven features with a tree-like structure.
 
 When data from a database is sent to the client, it is usually converted to a business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The TreeDataGrid also supports alternating row colors so that your users can distinguish one row from another.
 
