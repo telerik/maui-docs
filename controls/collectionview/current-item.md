@@ -9,11 +9,14 @@ tags: current item, keyboard navigation, maui, collectionview, dotnet maui
 
 # .NET MAUI CollectionView Current Item
 
-The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides options for configuring the behavior and style of its current item.
+The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides options for configuring the behavior and style of its current item. 
+
 
 ## Setting the Behavior
 
 The CollectionView allows you to use the `CurrentItem` property of type `object` to programmatically modify the current item during keyboard navigation, when using the mouse, and so on.
+
+The CollectionView exposes a read-only property `IsCurrent` (`bool`) property which gets the value that indicates whether the view is visualized as current when navigating with the keyboard. The property returns `true` when the border to the current item gets visualized.
 
 ## Styling the Item
 
