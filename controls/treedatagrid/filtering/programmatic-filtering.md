@@ -8,7 +8,7 @@ slug: treedatagrid-programmatic-filtering
 
 # Programmatic Filtering
 
-Programmatic filtering allows you to implement external filtering—for example, by disabling the built-in filtering UI and applying filters directly in code.
+Programmatic filtering allows you to implement external filtering&mdash;for example, by disabling the built-in filtering UI and applying filters directly in code.
 
 Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) control. 
 
