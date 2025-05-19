@@ -16,9 +16,12 @@ The following table lists the actions and keyboard combinations that are availab
 
 | Hotkey Combinations  | Action |
 | -------------------- | ------ |
-| `Up Arrow` | Focuses the item above of the current item. When using single selection mode, the selection also changes. |
-| `Down Arrow` | Focuses the item below of the current item. When using single selection mode, the selection also changes. |
-
+| `Tab` | Enters or exits the CollectionView. |
+| `Up Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
+| `Down Arrow` | Navigates to the nect item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
+| `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
+| `Right Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
+| `Space` | Selects the currently focused item in `Single` `SelectionMode`. When `SelectionMode` is multiple, the `Space` key selects/deselects the current item. |
 
 ## Additional Resources
 
