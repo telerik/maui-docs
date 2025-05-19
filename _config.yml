@@ -186,7 +186,6 @@ navigation:
     ##CollectionView
     controls/collectionview:
         title: "CollectionView"
-
     controls/collectionview/layouts:
         title: "Layouts"
         position: 5
