@@ -31,6 +31,5 @@ You can specify the style for the cells and rows when the mouse is over by using
 ## See Also
 
 - [Setting the .NET MAUI TreeDataGrid Columns]({%slug treedatagrid-columns-overview%})
-- [Using the TreeDataGrid Commands]({%slug treedatagrid-aggregates%})
 - [Sorting .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
 - [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})

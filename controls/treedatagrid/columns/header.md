@@ -31,7 +31,7 @@ To customize text inside the header, you use the `HeaderText` property. The prop
 
 The user of the application can sort a particular column by tapping on its header. When the data is sorted by a column, the sort indicator shows in the header.
 
-To learn more about the sorting functionality of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}), take a look at the [Sorting]({%slug treedatagrid-sorting-overview%}) article.
+To learn more about the sorting functionality of the [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}), take a look at the [Sorting]({%slug treedatagrid-sorting%}) article.
 
 ## Filtering
 

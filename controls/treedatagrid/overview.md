@@ -43,7 +43,7 @@ The TreeDataGrid features a [single or a multiple-item selection]({%slug treedat
 
 ## Load Data On Demand
 
-In some cases, you may need to [load data in the .NET MAUI TreeDataGrid when the control is already displayed]({%slug treedatagrid-features-loadondemand%}) as this can improve the performance of your application. The TreeDataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
+In some cases, you may need to [load data in the .NET MAUI TreeDataGrid when the control is already displayed]({%slug treedatagrid-loadondemand%}) as this can improve the performance of your application. The TreeDataGrid offers automatic data loading once the user scrolls to the last available record, or by displaying a customizable button which will initiate the loading of more data items.
 
 ## Row Details
 

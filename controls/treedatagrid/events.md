@@ -80,6 +80,3 @@ The TreeDataGrid resizing feature exposes a `ColumnUserResizeCompleted` event wh
 ## See Also
 
 - [Setting the .NET MAUI TreeDataGrid Columns]({%slug treedatagrid-columns-overview%})
-- [Using the TreeDataGrid Commands]({%slug treedatagrid-aggregates%})
-- [Styling the Appearance of the TreeDataGrid]({%slug treedatagrid-styling%})
-
