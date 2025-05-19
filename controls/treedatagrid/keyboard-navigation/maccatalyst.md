@@ -45,4 +45,3 @@ The following table lists the actions and keyboard combinations that are availab
 
 - [Sorting Telerik UI for .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
 - [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})
-- [Styling the Appearance of the TreeDataGrid]({%slug treedatagrid-styling%})

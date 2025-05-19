@@ -40,4 +40,3 @@ When you use a `CellContentTemplate` in the built-in columns and you need to bin
 
 - [Filtering UI in the Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-filtering-ui%})
 - [Programmatic Filtering in the TreeDataGrid]({%slug treedatagrid-programmatic-filtering%})
-- [Styling the Appearance of the TreeDataGrid]({%slug treedatagrid-styling%})

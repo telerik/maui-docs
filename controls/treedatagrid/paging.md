@@ -61,4 +61,3 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ## See Also
 
 - [Sorting .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
-- [Styling the Appearance of the TreeDataGrid]({%slug treedatagrid-styling%})

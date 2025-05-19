@@ -26,5 +26,6 @@ As the TreeDataGrid inherits from the DataGrid, for a runnable example with the 
 
 ## See Also
 
-- [DataGrid Styling]({%slug treedatagrid-styling%})
-- [Columns Styling]({%slug treedatagrid-columns-styling%})
+- [Setting the .NET MAUI TreeDataGrid Columns]({%slug treedatagrid-columns-overview%})
+- [Sorting .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
+- [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})

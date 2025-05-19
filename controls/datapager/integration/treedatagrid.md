@@ -12,7 +12,7 @@ You can page the data of the [Telerik UI for .NET MAUI TreeDataGrid]({%slug tree
 
 ![.NET MAUI DataPager with TreeDataGrid](../images/datapager-treedatagrid-paging.png)
 
->Currently, the DataPager does not support the Telerik UI for .NET MAUI TreeDataGrid [`LoadOnDemandCollection`]({%slug treedatagrid-features-loadondemand%}#loadOnDemand-collection).
+>Currently, the DataPager does not support the Telerik UI for .NET MAUI TreeDataGrid [`LoadOnDemandCollection`]({%slug treedatagrid-loadondemand%}#loadOnDemand-collection).
 
 ## Example
 

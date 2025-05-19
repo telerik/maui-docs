@@ -12,8 +12,6 @@ The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) prov
 
 By default, the row height is calculated according to the cell content.
 
-For more information on customizing the row style, positioning the text inside the cells, setting the text margins, and defining the text alignment, see the topic about [customizing the content style of the .NET MAUI TreeDataGrid cell]({%slug treedatagrid-columns-styling%}#cellcontentstyle).
-
 To set the row height, apply the `RowHeight` property of type `double` to the TreeDataGrid instance.
 
 ```XAML

@@ -8,7 +8,7 @@ slug: treedatagrid-row-details
 
 # .NET MAUI TreeDataGrid Row Details
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) control is capable of presenting additional information through the Row Details functionality. The Row Details is a Data Template defined on the grid or row level and is used for displaying data without affecting the dimensions of the row and the cells within it.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) control is capable of presenting additional information through the Row Details functionality. The Row Details is a Data Template defined on the grid or row level and is used for displaying data without affecting the dimensions of the row and the cells within it.
 
 To show the Row Details, you can use the following exposed options:
 

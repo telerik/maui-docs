@@ -59,6 +59,3 @@ The table below shows the localization keys available for the TreeDataGrid contr
 ## See Also
 
 - [Sorting .NET MAUI DataGrid Records]({%slug treedatagrid-sorting%})
-- [Styling the Appearance of the DataGrid]({%slug treedatagrid-styling%})
-
-

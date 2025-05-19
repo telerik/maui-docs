@@ -39,6 +39,5 @@ You can style the current cell by using the `CurrentCellStyle` property (of type
 ## See Also
 
 - [Setting the .NET MAUI TreeDataGrid Columns]({%slug treedatagrid-columns-overview%})
-- [Using the TreeDataGrid Commands]({%slug treedatagrid-aggregates%})
 - [Sorting .NET MAUI TreeDataGrid Records]({%slug treedatagrid-sorting%})
 - [Filtering .NET MAUI TreeDataGrid Records]({%slug treedatagrid-filtering-overview%})

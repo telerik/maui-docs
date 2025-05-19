@@ -83,4 +83,3 @@ This is the result:
 
 - [Filtering UI in the Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-filtering-ui%})
 - [Programmatic Filtering in the TreeDataGrid]({%slug treedatagrid-programmatic-filtering%})
-- [Styling the Appearance of the TreeDataGrid]({%slug treedatagrid-styling%})

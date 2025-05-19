@@ -3,14 +3,14 @@ title: Editing
 page_title: .NET MAUI TreeTreeDataGrid Documentation - Editing
 description: Learn how to use the built-in column and custom editors for modifying the data records in the Telerik UI for .NET MAUI TreeTreeDataGrid component.
 position: 9
-slug: treeTreeDataGrid-editing
+slug: treedatagrid-editing
 ---
 
-# .NET MAUI TreeTreeDataGrid Editing
+# .NET MAUI TreeDataGrid Editing
 
-The [Telerik UI for .NET MAUI TreeTreeDataGrid]({%slug TreeDataGrid-overview%}) provides built-in editing capabilities, which allow users to modify the data presented in the Grid.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides built-in editing capabilities, which allow users to modify the data presented in the Grid.
 
-Depending on the [TreeDataGrid column data type]({% slug TreeDataGrid-columns-boolean-column %}), the TreeDataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
+Depending on the [TreeDataGrid column data type]({% slug treedatagrid-columns-overview%}), the TreeDataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
 
 ## Editing Properties
 
@@ -19,7 +19,7 @@ To enable editing in the TreeDataGrid, define the `UserEditMode` property of the
 * `None`&mdash;(default on Mobile) Editing is disabled.
 * `Cell`&mdash;(default on Desktop) Enables the editing option.
 
-You can also independently disable editing for specific columns through the `CanUserEdit` property of the `TreeDataGridColumn` class. For more details, refer to the topic about [columns in the .NET MAUI TreeDataGrid]({%slug TreeDataGrid-columns-overview%}).
+You can also independently disable editing for specific columns through the `CanUserEdit` property of the `TreeDataGridColumn` class. For more details, refer to the topic about [columns in the .NET MAUI TreeDataGrid]({%slug treedatagrid-columns-overview%}).
 
 ## Column Editors
 
@@ -39,7 +39,7 @@ The following table lists the integrated .NET MAUI control for editing the value
 
 ## Custom Editors
 
-If the default editors do not suit the scenario you have, create a custom editor for each column by utilizing the `CellEditTemplate` property of the `TreeDataGridColumn`. For detailed information on how the `CellEditTemplate` can be applied, refer to the article about the [.NET MAUI TreeDataGrid column cell templates]({%slug TreeDataGrid-cell-templates%}).
+If the default editors do not suit the scenario you have, create a custom editor for each column by utilizing the `CellEditTemplate` property of the `TreeDataGridColumn`. For detailed information on how the `CellEditTemplate` can be applied, refer to the article about the [.NET MAUI TreeDataGrid column cell templates]({%slug treedatagrid-cell-templates%}).
 
 ## Editing Commands
 
@@ -49,7 +49,7 @@ The TreeDataGrid provides the following commands related to the editing function
 * `CancelEdit`&mdash;Provides an entry point just before the editing is canceled.
 * `CommitEdit`&mdash;Provides an entry point just before the editing is committed.
 
-For detailed information on how to use any of the listed commands, go to the topic about the [.NET MAUI TreeDataGrid editing commands]({%slug TreeDataGrid-commands-editing%}).
+For detailed information on how to use any of the listed commands, go to the topic about the [.NET MAUI TreeDataGrid editing commands]({%slug treedatagrid-commands-editing%}).
 
 ## Styling
 
@@ -68,7 +68,5 @@ The following snippet shows a `CellEditorStyle` applied to the `TreeDataGridText
 
 ## See Also
 
-- [Editing Commands in the Telerik UI for .NET MAUI TreeDataGrid]({%slug treeDataGrid-commands-editing%})
-- [Column Cell Templates in the .NET MAUI TreeDataGrid]({%slug treeDataGrid-cell-templates%})
-- [Styling the Columns of the .NET MAUI TreeDataGrid]({%slug treeDataGrid-columns-styling%})
-
+- [Editing Commands in the Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-commands-editing%})
+- [Column Cell Templates in the .NET MAUI TreeDataGrid]({%slug treedatagrid-cell-templates%})
