@@ -2,7 +2,7 @@
 title: Search as You Type
 page_title: .NET MAUI TreeDataGrid Documentation - Search as You Type
 description: "Learn more about the Search as You Type feature of the Telerik .NET MAUI TreeDataGrid - how to show or hide the search panel, various configuration settings of the search functionality, methods, and events related to searching."
-position: 3
+position: 10
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: treedatagrid-search-as-you-type
 ---

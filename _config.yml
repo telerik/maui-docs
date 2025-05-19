@@ -202,6 +202,12 @@ navigation:
     controls/collectionview/load-on-demand:
         title: "Load On Demand"
         position: 17
+     controls/collectionview/accessibility:
+        title: "Accessibility"
+        position: 20
+     controls/collectionview/accessibility/keyboard-navigation:
+        title: "Keyboard Navigation"
+        position: 1
     controls/collectionview/styling:
         title: "Styling"
         position: 30
@@ -549,7 +555,7 @@ navigation:
         title: "Columns"
         position: 3
     controls/treedatagrid/rows:
-        title: "Row Details"
+        title: "Rows"
         position: 4
     controls/treedatagrid/cells:
         title: "Cells"

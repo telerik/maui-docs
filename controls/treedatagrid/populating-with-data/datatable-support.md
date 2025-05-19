@@ -27,7 +27,7 @@ All commands supported by the DataGrid are fully applicable when the component i
 
 ## Binding When Using a Cell Content Template
 
-When you use a `CellContentTemplate` in the built-in columns and you need to bind a property from the business model to a UI element inside the template, you must use indexer syntax. Review the [Specifying the Binding for a `CellContentTemplate` in Telerik .NET MAUI DataGrid with DataTable]({%slug specifying-binding-cellcontenttemplate-datatable%}) article for more details on how to achieve this.
+When you use a `CellContentTemplate` in the built-in columns and you need to bind a property from the business model to a UI element inside the template, you must use indexer syntax. 
 
 ## Additional Resources
 

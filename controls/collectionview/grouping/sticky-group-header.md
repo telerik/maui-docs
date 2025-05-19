@@ -23,6 +23,14 @@ var collectionView = new RadCollectionView();
 collectionView.EnableStickyGroupHeaders = true;
 ```
 
+Here is how the stickey group headers look in single-level groung scenario:
+
+![.NET MAUI CollectionView Sticky Group Headers](../images/collectionview-sticky-group-header.gif)
+
+Here is how the sticky group headers look in multi-level grouping scenario:
+
+![.NET MAUI CollectionView Sticky Group Headers Multi-Level Grouping](../images/collectionview-sticky-group-multi-level.gif)
+
 ## See Also
 
 - [Property Group Descriptor]({%slug collectionview-property-group-descriptor%})
