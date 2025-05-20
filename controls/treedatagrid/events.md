@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI TreeDataGrid Documentation - Events
 description: Learn about the Telerik UI for .NET MAUI TreeDataGrid events and how to achieve various scenarios upon user interaction such as loading content on demand, binding to data, and more.
-position: 14
+position: 20
 tags: events
 slug: treedatagrid-events
 ---
