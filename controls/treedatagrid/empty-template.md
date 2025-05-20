@@ -2,7 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI TreeDataGrid Documentation - Empty Template
 description: Learn more about the Empty Template property of the TreeDataGrid control.
-position: 9
+position: 18
 slug: treedatagrid-empty-template
 ---
 

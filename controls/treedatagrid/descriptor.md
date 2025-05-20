@@ -2,7 +2,7 @@
 title: Item Hierarchy
 page_title: .NET MAUI TreeDataGrid Documentation - Item Hierarchy
 description: Learn how to define the appearance of the items in the Telerik UI for .NET MAUI TreeDataGrid control.
-position: 2
+position: 3
 slug: treedatagrid-descriptor
 ---
 

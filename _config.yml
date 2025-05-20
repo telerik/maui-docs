@@ -549,25 +549,25 @@ navigation:
         title: "TreeDataGrid"
     controls/treedatagrid/populating-with-data:
         title: "Populating with Data"
-        position: 2
+        position: 4
     controls/treedatagrid/columns:
         title: "Columns"
-        position: 3
+        position: 5
     controls/treedatagrid/rows:
         title: "Rows"
-        position: 4
+        position: 6
     controls/treedatagrid/cells:
         title: "Cells"
-        position: 5
+        position: 7
     controls/treedatagrid/filtering:
         title: "Filtering"
-        position: 6
+        position: 9
     controls/treedatagrid/commands:
         title: "Commands"
-        position: 16
+        position: 25
     controls/treedatagrid/keyboard-navigation:
         title: "Keyboard Navigation"
-        position: 19
+        position: 26
     ## End TreeDataGrid
     ## TreeView
     controls/treeview:
