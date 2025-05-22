@@ -19,7 +19,10 @@ This brand-new UI library comes with [sample demo applications]({%slug sampleapp
 {% include cta-panel-maui-introduction.html %}
 {% endif %}
 
-![Telerik UI for .NET MAUI documentation](front-image.png)
+![Telerik UI for .NET MAUI documentation](images/Android_770px.png)
+
+
+![Telerik UI for .NET MAUI documentation](images/iOS_770px.png)
 
 >tip This online MAUI documentation covers the latest version of Telerik UI for MAUI. If needed, download the [offline PDF MAUI documentation](#learning-resources) for the required product version.
 
