@@ -77,3 +77,4 @@ The following image shows the result.
 ## See Also
 
 - [BusyIndicator Animations]({% slug busyindicator-animations %})
+- [Adding an Image Inside the BusyIndicator for .NET MAUI]({%slug add-image-inside-busyindicator-dotnet-maui%})

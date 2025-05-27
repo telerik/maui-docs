@@ -58,3 +58,4 @@ The following example demonstrates how to create a custom animation that changes
 ## See Also
 
 - [Custom Busy Content]({% slug busyindicator-custom-busy-content%})
+- [Adding an Image Inside the BusyIndicator for .NET MAUI]({%slug add-image-inside-busyindicator-dotnet-maui%})
