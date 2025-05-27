@@ -47,3 +47,4 @@ The example below shows how to utilize the approach with the BusyIndicator. An E
 ## See Also
 
 - [BusyIndicator Documentation]({%slug busyindicator-overview%})
+- [Adding an Image Inside the BusyIndicator for .NET MAUI]({%slug add-image-inside-busyindicator-dotnet-maui%})
