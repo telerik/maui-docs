@@ -1,6 +1,6 @@
 ---
 title: Changing Sort Styling in DataGrid for MAUI
-description: Learn how to customize the header styling and sort indicator appearance in DataGrid for MAUI to meet specific requirements.
+description: Learn how to customize the header styling and sort indicator appearance in the DataGrid for MAUI to meet specific requirements.
 type: how-to
 page_title: Customizing Sort Styling and Indicator in DataGrid for MAUI
 slug: changing-sort-styling-datagrid-maui
@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-I need to change the header styling in DataGrid for MAUI when sorting is enabled. Specifically, I want the entire header to trigger sorting when clicked and customize the appearance of the sort arrows to match our design requirements.
+I need to change the header styling in the DataGrid for MAUI when sorting is enabled. Specifically, I want the entire header to trigger sorting when clicked and customize the appearance of the sort arrows to match the design requirements.
 
 This knowledge base article also answers the following questions:
 - How to style the header of DataGrid for MAUI with custom sort indicators?
@@ -25,13 +25,11 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To change the header styling and customize the appearance of the sort indicator in the [DataGrid for MAUI](https://docs.telerik.com/devtools/maui/controls/datagrid/overview), follow these steps:
+To customize the appearance of the sort indicator in the [DataGrid for MAUI](https://docs.telerik.com/devtools/maui/controls/datagrid/overview), use the `SortIndicatorColor` property to set the color of the sort indicator, and the `SortIndicatorAscendingText` and `SortIndicatorDescendingText` properties to define custom text or icons when sorting the data in ascending or descending order.
+These properties can be set directly within the `HeaderStyle` of the column.
 
-### Styling the Header and Sort Indicator
+The following sample code shows how to customize sort indicators in a Telerik .NET MAUI DataGrid by changing their color and using different icons when sorting up or down.
 
-Use the `SortIndicatorColor` property to set the color of the sort indicator in the column header. Additionally, use `SortIndicatorAscendingText` and `SortIndicatorDescendingText` to define custom text or icons for the sort indicators.
-
-Example:
 ```xaml
 <telerik:RadDataGrid x:Name="dataGrid" AutoGenerateColumns="False">
     <telerik:RadDataGrid.Columns>
@@ -49,11 +47,9 @@ Example:
 </telerik:RadDataGrid>
 ```
 
-### Additional Notes
-
-These properties can be set directly within the `HeaderStyle` of the column to customize its appearance.
-
 ## See Also
 
 - [DataGrid for MAUI Theming and Styles](https://docs.telerik.com/devtools/maui/controls/datagrid/theming-and-styles/columns-styling)
 - [DataGrid for MAUI Overview](https://docs.telerik.com/devtools/maui/controls/datagrid/overview)
+- [DataGrid Header](https://docs.telerik.com/devtools/maui/controls/datagrid/columns/header)
+- [Sorting the data in DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/sorting)
