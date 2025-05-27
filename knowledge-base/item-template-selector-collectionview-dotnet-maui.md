@@ -27,10 +27,7 @@ This knowledge base article also answers the following questions:
 
 To achieve dynamic item template selection in the CollectionView, you can use the `DataTemplateSelector` provided by .NET MAUI. The `DataTemplateSelector` enables you to define logic for choosing different templates based on item properties.
 
-### Steps to Implement ItemTemplateSelector:
-
-**1.** Create a Custom Template Selector Class:
-   Define a class that inherits from `DataTemplateSelector`. Override the `OnSelectTemplate` method to provide logic for selecting the appropriate template.
+**1.** Create a custom template selector class that inherits from `DataTemplateSelector`. Override the `OnSelectTemplate` method to provide logic for selecting the appropriate template.
 
 ```csharp
    using Microsoft.Maui.Controls;
@@ -52,8 +49,7 @@ To achieve dynamic item template selection in the CollectionView, you can use th
    }
 ```
 
-**2.** Define DataTemplates in XAML:
-   Declare the templates and the custom selector in your XAML file.
+**2.** Declare the templates and the custom selector in your XAML file.
 
 ```xml
    <ResourceDictionary>
@@ -70,18 +66,12 @@ To achieve dynamic item template selection in the CollectionView, you can use th
    </ResourceDictionary>
 ```
 
-**3.** Apply the Template Selector to the CollectionView:
-   Set the `ItemTemplate` property of the CollectionView to the custom template selector.
+**3.** Set the `ItemTemplate` property of the CollectionView to the custom template selector.
 
 ```xml
 <telerik:RadCollectionView ItemsSource="{Binding Items}" 
                                                  ItemTemplate="{StaticResource CustomSelector}" />
 ```
-
-### Additional Notes
-
-- Ensure your `ItemsSource` and item type are properly bound to the CollectionView.
-- Customize the logic in the `OnSelectTemplate` method based on your specific requirements.
 
 ## See Also
 
