@@ -33,11 +33,9 @@ To correctly set the `x:DataType` for the Scheduler's `AppointmentTemplate`, use
 </DataTemplate>
 ```
 
-### Important Notes
-
-- If using a custom appointment class that inherits from `Appointment`, warnings may appear for custom properties. These warnings do not affect the application's build or runtime behavior.
+If using a custom appointment class that inherits from `Appointment`, warnings may appear for custom properties. These warnings do not affect the application's build or runtime behavior.
 
 ## See Also
 
 - [Scheduler for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui/controls/scheduler/overview)
-- [Scheduler Appointment Templates Documentation](https://docs.telerik.com/devtools/maui/controls/scheduler/appointments/appointment-template) 
+- [Scheduler Appointment Templates Documentation](https://docs.telerik.com/devtools/maui/controls/scheduler/appointments/appointment-template)
