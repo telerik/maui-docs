@@ -9,12 +9,12 @@ slug: treedatagrid-methods
 
 # .NET MAUI TreeDataGrid Methods
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) exposed the following methods for expand and collapse children of an item:
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) exposes the following methods to expand and collapse the children of an item:
 
 * `Expand`(`object item`)&mdash;Expands the children of the item.
 * `Collapse`(`object item`)&mdash;Collapses the children of the item.
 
-Use the `IsExpanded` (`bool`) to get a value whether the item is currently expanded (has its children visible).
+Use the `IsExpanded` (`bool`) property to get a value whether the item is currently expanded (has its children visible).
 
 ## Additional Resources
 

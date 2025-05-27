@@ -84,6 +84,6 @@ private void ShowPopup()
 }
 ```
 
->If you need to interact with the global popup from a view model using MVVM, you can use .NET MAUI's Dependency Injection services. Refer to the [CustomMauiExamples repository](https://github.com/xamarin/CustomMauiExamples/tree/main/PopupServiceDemo) for a sample implementation.
+>If you need to interact with the global popup from a view model using MVVM, you can use .NET MAUI's Dependency Injection services. Refer to the [CustomMauiExamples repository](https://github.com/LanceMcCarthy/CustomMauiExamples/tree/main/src/PopupServiceDemo) for a sample implementation.
 
 That's it! You have now created a global popup control in Popup for MAUI that can be displayed on any screen.

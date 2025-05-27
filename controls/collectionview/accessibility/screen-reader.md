@@ -13,6 +13,8 @@ The Telerik UI for .NET MAUI CollectionView provides extensive accessibility sup
 
 The CollectionView allows the users to use the Android (TalkBack) and iOS (VoiceOver) screen readers for voice descriptions of the elements inside the CollectionView.
 
+![.NET MAUI ColelctionView Screen Reader Support](../images/collectionview-screen-reader.png)
+
 ## See Also
 
 - [Keyboard navigation support on MacCatalyst]({%slug collectionview-keyboard-support-mac%})
