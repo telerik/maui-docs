@@ -8,11 +8,13 @@ slug: badgeview-visual-structure
 
 # .NET MAUI BadgeView Visual Structure
 
-This article describes all visual elements of the Telerik UI for .NET MAUI BadgeView.
+The visual structure of the .NET MAUI BadgeView represents the anatomy of the UI component. Being familiar with the visual elements of the BadgeView allows you to quickly find the information required to configure them.
+
+The following image shows the anatomy of the BadgeView.
 
 ![Badge Visual Structure](images/badgeview-visual-structure.png)
 
-## Legend
+## Displayed Elements
 
 * `BadgeView`&mdash;The BadgeView control which includes the Badge marker (indicator) and the content to which the marker is related.
 * `Badge`&mdash;The marker that can be used for notifications, statuses, and so on.

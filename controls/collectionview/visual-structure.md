@@ -8,13 +8,13 @@ slug: collectionview-visual-structure
 
 # .NET MAUI CollectionView Visual Structure
 
-Here are described all visual elements used in the CollectionView for .NET MAUI.
+The visual structure of the .NET MAUI CollectionView represents the anatomy of the UI control. Being familiar with the visual elements of the CollectionView allows you to quickly find the information required to configure them.
 
-## CollectionView Visual Structure
+The following image shows the anatomy of the CollectionView.
 
 ![.NET MAUI CollectionView Visual Structure](images/collectionview-visual-structure.png "Visual elements of CollectionView control")
 
-## Legend
+## Displayed Elements
 
 - **Item**&mdash;Represents the item in the CollectionView.
 - **Selection**&mdash;Represents the selection indication in the CollectionView.
