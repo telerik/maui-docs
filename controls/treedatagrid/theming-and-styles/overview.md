@@ -89,7 +89,9 @@ You can set the `GridLinesVisibility` property in the following way:
 
 ```XAML
 <telerik:RadTreeDataGrid ItemsSource="{Binding Items}"
-						 GridLinesVisibility="Both"
+						 GridLinesVisibility="Both" 
+						 GridLinesColor="#8660C5"
+						 GridLinesThickness="2"
 						 AutoGenerateColumns="False">
 	<telerik:RsadTreeDataGrid.ItemDescriptor>
 		<telerik:TreeDataGridItemDescriptor ItemsSourceBinding="{Binding Children}" />
