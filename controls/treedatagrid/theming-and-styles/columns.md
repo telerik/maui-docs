@@ -99,11 +99,11 @@ Check below a quick example of a TreeDataGrid with a `HeaderStyle`:
 
 <snippet id='datagrid-columnstyle-headerstyle'/>
 
-## CellContentStyle
+## Cell Content Styling
 
 The `CellContentStyle` property defines the appearance of each cell associated with the column. `CellContentStyle` is of type `Style` which can target:
 
-* The `DataGridTextCellAppearance` class for typed DataGridColumns (Text, Numerical, Boolean, Date, Time and ComboBox).
+* The `DataGridTextCellAppearance` class for typed `DataGridColumns` (Text, Numerical, Boolean, Date, Time and ComboBox).
 * The `DataGridToggleRowDetailsCellAppearance` class for the `DataGridToggleRowDetailsColumn`.
 
 The `DataGridTextCellAppearance` class provides the following properties for styling the cell text:
@@ -111,7 +111,7 @@ The `DataGridTextCellAppearance` class provides the following properties for sty
 * `Font` options (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Define the font of the cell text.
 * `TextColor`/`SelectedTextColor`&mdash;Define the color of the cells text. You can set a different value for the selected cell.
 * `HoverTextColor`&mdash;Sets the color of the cells text when the mouse hovers over it. Applicable only on Desktop.
-* `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`)&mdash;Define the positioning of the text inside the cell.
+* `TextMargin`/ `HorizontalTextAlignment`/ `VerticalTextAlignment`&mdash;Define the positioning of the text inside the cell.
 * `SearchMatchTextColor`&mdash;Defines the color that is used for the parts of the text that are search matches.
 
 >note The `CellContentStyle` does not apply for `TemplateColumn`. Also, the property is not applied to the built-in columns when they have a custom `CellContentTemplate`.
@@ -132,7 +132,7 @@ The `DataGridToggleRowDetailsCellAppearance` exposes the following properties fo
 * `ButtonFontAttributes`&mdash;Defines `Microsoft.Maui.Controls.FontAttributes` for the toggle symbol.
 * `ButtonMargin`(type `Thickness`)&mdash;Defines the margin for the toggle symbol.
 
-## CellDecorationStyle
+## Cell Content Area Styling
 
 To style the border of each cell associated with the column the `CellDecorationStyle` property is used. `CellDecorationStyle` is of type `Style` and targets the `DataGridCellDecorationAppearance` class. The `DataGridCellDecorationAppearance` provides the following properties&mdash;`BackgroundColor`, `BorderColor`, `BorderTickness`.
 
@@ -142,7 +142,7 @@ Here is an example how to set those properties on a column:
 
 <snippet id='datagrid-columnstyle-celldecoration'/>
 
-## CellEditorStyle
+## Cell Editor Styling 
 
 `CellEditorStyle` defines the style that will be applied to the cell editor.
 
@@ -152,7 +152,7 @@ Here is an example how to set this property:
 
 >note The `CellEditorStyle` is not applied to the built-in columns when they have a custom `CellEditTemplate`.
 
-## FooterStyle
+## Footer Styling
 
 `FooterStyle` defines the appearance of the column footer. The `FooterStyle` is of type `Style` and targets the `DataGridColumnFooterAppearance` class. The `DataGridColumnFooterAppearance` class provides the following styling properties:
 

@@ -12,7 +12,7 @@ The [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) control inherits al
 
 ## Style the Border Around the TreeDataGrid
 
-You can configure the border around the TreeDataGrid control by using the follwoing properties:
+You can configure the border around the TreeDataGrid control by using the following properties:
 
 * `BorderBrush`&mdash;Defines the brush of the border placed around the TreeDataGrid control.
 * `BorderThickness`&mdash;Defines the thickness of the border around the TreeDataGrid control.
@@ -42,9 +42,9 @@ You can style the rows and cells of the TreeDataGrid with the following properti
 
 The target types of the `RowBackgroundStyle`, `AlternateRowBackgroundStyle`, `SelectionStyle`, `CurrentCellStyle`, and `MouseHoverStyle` styling properties derive from the `DataGridBorderAppearance` class. The `DataGridBorderAppearance` exposes the following properties:
 * `SearchMatchBackgroundColor` (`Color`)&mdash;Specifies the color that fills the area within the border when the cell contains a search-match.
-* `BackgroundColor` (`Color`)&mdash;Specifiesthe color that fills the area within the border.
-* `BorderColor` (`Color`)&mdash;.Specifies the border color.
-* `BorderTickness` (`Thickness`)&mdash;Specifies the thickness of the border.
+* `BackgroundColor` (`Color`)&mdash;Specifies the color that fills the area within the border.
+* `BorderColor` (`Color`)&mdash;Specifies the border color.
+* `BorderThickness` (`Thickness`)&mdash;Specifies the thickness of the border.
 
 For styling the `CurrentCell` by using the `CurrentCellStyle` property, review the [Cells]({%slug treedatagrid-current-cell%}#styling-the-cell) article.
 
@@ -55,11 +55,11 @@ You can style the expand/collapse indicator by using the `ExpandCollapseIndicato
 * `ExpandText`&mdash;Specifies the text for the expand indicator of the item.
 * `CollapseText`&mdash;Specifies the text for the collapse indicator of the item.
 * `TextColor`&mdash;Specifies the color of the expand/collapse symbol.
-* `Font Options`&mdash;Specify the `FonrSize`, `Fontattributes`, and `FontFamily`.
+* `Font Options`&mdash;Specify the `FontSize`, `FontAttributes`, and `FontFamily`.
 * `Margin`&mdash;Specifies the margin for the expand/collapse symbol of the item.
-* `BackgroundColor` (`Color`)&mdash;Specifiesthe color that fills the area within the border.
+* `BackgroundColor` (`Color`)&mdash;Specifies the color that fills the area within the border.
 * `BorderColor` (`Color`)&mdash;.Specifies the border color.
-* `BorderTickness` (`Thickness`)&mdash;Specifies the thickness of the border.
+* `BorderThickness` (`Thickness`)&mdash;Specifies the thickness of the border.
 
 You can set the `GridLinesVisibility` property in the following way:
 
