@@ -79,7 +79,7 @@ The MAUI TreeDataGrid allows you to add [commands]({%slug treedatagrid-commands-
 
 ## Theming and Style
 
-You can apply a [theme]({%slug themes-overview%}) to the MAUI TreeDataGrid. If you prefer to use your own styling, then you can use the flexible styling API of the .NET MAUI TreeDataGrid. The styling API allows you to style the TreeDataGrid rows and columns, the cell content inside the columns, the tree arrow appearance, etc.
+You can apply a [theme]({%slug themes-overview%}) to the MAUI TreeDataGrid. If you prefer to use your own styling, then you can use the [flexible styling API]({%slug treedatagrid-styling%}) of the .NET MAUI TreeDataGrid. The styling API allows you to style the TreeDataGrid rows and columns, the cell content inside the columns, the tree arrow appearance, etc.
 In addition, you can apply a style selector.
 
 ## Localization
