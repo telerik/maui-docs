@@ -25,9 +25,17 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To enable image uploading you need to define a custom control template for the `.NET MAUI Chat` to include an image upload button.
+The steps below describe two states for using images in the Chat control:
+1. Add additional UI element for uploading images in the conversation.
+2. Display the uploaded images in the conversation. 
 
-Here is an example of the control template:
+### Add Image or Camera Button 
+
+To add additional UI element to the Chat entry area, you need to define a custom control template and include an image button.
+
+Here is an example of the control template with image button.
+
+**1.** Define the `ControlTemplate` to the page's resources:
 
 ```xml
  <ControlTemplate x:Key="RadChatControlTemplate">
@@ -88,25 +96,28 @@ Here is an example of the control template:
                                  AutomationId="RadChatSendMessageButton" />
 
 <!--
-add additional elements here
+add additional elements here <ImageButton /> or <telerik:RadTemplatedButton />
  --> 
-
+<ImageButton />
                 </Grid>
             </Grid>
         </Grid>
     </ControlTemplate>
 ```
 
-Set this template to the `RadChat` control using the following syntax:
+**2.** Set this template to the `RadChat` control using the following syntax:
 
 ```xml
 <telerik:RadChat ControlTemplate="{StaticResource RadChatControlTemplate}" />
 ```
 
+### Display Image in Conversation
 
-To display images in the chat, follow these steps:
+Use the following steps to display images in the chat:
 
 1. Implement the logic for uploading images in the button's command.
+>note To handle image uploads in .NET MAUI, you need to ensure your application has the necessary permissions to access the device's storage and camera.
+
 2. Create a custom `ItemTemplate` to display image messages.
 3. Use the `ItemTemplateSelector` to dynamically choose templates based on message content.
 
@@ -120,9 +131,9 @@ Example of an `ItemTemplate` for rendering messages with images:
 </DataTemplate>
 ```
 
-You can use the `ItemTemplateSelector` to assign this template conditionally based on the message type.
+Use the `ItemTemplateSelector` to assign this template conditionally based on the message type.
 
 ## See Also
 
-- [RadChat Control Documentation](https://docs.telerik.com/devtools/maui/controls/chat/overview)
-- [RadChat ItemTemplateSelector Documentation](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector)
+- [Chat Control Documentation](https://docs.telerik.com/devtools/maui/controls/chat/overview)
+- [Chat ItemTemplateSelector Documentation](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector)
