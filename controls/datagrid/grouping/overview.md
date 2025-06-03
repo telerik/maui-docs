@@ -31,7 +31,10 @@ Programmatic grouping can be done by adding descriptors to the `GroupDescriptors
 
 ## Expand and Collapse Groups
 
-The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. By default, all the groups are expanded.
+The DataGrid supports group expand and collapse operations either through the UI by tapping on the group headers, or programmatically. 
+
+
+The DataGrid allows you to collapse all groups and newly added groups by setting the `AutoExpandGroups` (`bool`) property. The default value of the `AutoExpandGroups` property is `false`, which means, all groups are expanded by default.
 
 ## Group Headers Customization
 
