@@ -206,7 +206,7 @@ public class CustomCalendarStyleSelector : CalendarStyleSelector
 </Style>
 ```
 
-**3.** Apply the `RadScheduler` to your `ContentPage` and set its `CurrentDate` and `ViewDefinitions` as needed. The custom styles defined in the `DayStyleSelector` will automatically apply to the drop-down calendar.
+**5.** Apply the `RadScheduler` to your `ContentPage` and set its `CurrentDate` and `ViewDefinitions` as needed. The custom styles defined in the `DayStyleSelector` will automatically apply to the drop-down calendar.
 
 ```xml
 <telerik:RadScheduler AutomationId="scheduler" CurrentDate="10/18/2023">
