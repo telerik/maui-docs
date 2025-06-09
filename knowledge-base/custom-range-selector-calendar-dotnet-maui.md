@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To achieve the desired styling for the Calendar component, define custom styles and use a `CalendarStyleSelector`. Follow the steps below:
+To achieve the desired styling for the Calendar component, define custom styles and use a `CalendarStyleSelector` as shown in the steps below:
 
 **1.** Define custom styles in the XAML file for the first, middle, and last selected dates using the `CalendarBorderLabel` properties.
 
