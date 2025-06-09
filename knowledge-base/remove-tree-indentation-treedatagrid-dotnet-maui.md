@@ -20,7 +20,7 @@ ticketid: 1689581
 I want to remove the tree indentation in the Telerik [TreeDataGrid](https://docs.telerik.com/devtools/maui/controls/treedatagrid/overview) for .NET MAUI control. This involves customizing the appearance of the `ExpandCollapseIndicator` to eliminate the space allocated for tree levels.
 
 This knowledge base article also answers the following questions:
-- How to set `evelIndentation` to zero in TreeDataGrid for .NET MAUI?
+- How to set `LevelIndentation` to zero in TreeDataGrid for .NET MAUI?
 - How to customize the `ExpandCollapseIndicatorStyle` in TreeDataGrid?
 - How to control indent spacing in Telerik TreeDataGrid for .NET MAUI?
 
