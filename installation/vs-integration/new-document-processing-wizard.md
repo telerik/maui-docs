@@ -21,9 +21,16 @@ This article demonstrates how to add the Telerik Document Processing Libraries t
 
 ### Project Menu
 
+1. Right-click on the project.
+1. Select **Telerik UI for .NET MAUI** option.
+
+    ![Telerik UI for .NET MAUI VS Extensions Menu](images/vs-telerik-dpl-references.png)
 
 ## Configure the Project
 
+The wizard allows you to choose which library to add to the project. If the library has any dependencies, they are added automatically.
+
+![Telerik UI for .NET MAUI VS Extensions Menu](images/vs-telerik-dpl-wizard.png)
 
 ## See Also
 
