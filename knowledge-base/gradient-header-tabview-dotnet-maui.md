@@ -16,37 +16,59 @@ res_type: kb
 
 ## Description
 
-I want to apply a gradient background to the headers of the TabView component in .NET MAUI. The headers' background needs to be styled using a `LinearGradientBrush` while maintaining custom styling for other properties like `FontAttributes` and `TextColor`. 
+I want to apply a gradient effect to the entire header of the [TabView]({%slug tabview-overview%}) component in .NET MAUI, not just individual header items. Additionally, I need transparency for the background and border properties of the header items.
 
 This knowledge base article also answers the following questions:
-- How to set a gradient background for TabView headers in .NET MAUI?
-- How to customize TabView `HeaderItemStyle` in .NET MAUI?
-- How to use `LinearGradientBrush` in TabView `HeaderItemStyle`?
+- How to style TabView header with gradient in .NET MAUI?
+- How to use `HeaderTemplate` for TabView in .NET MAUI?
+- How to apply transparency to TabView header items in .NET MAUI?
 
 ## Solution
 
-To apply a gradient background to the headers in the TabView component, define a custom `HeaderItemStyle` targeting the `TabViewHeaderItem`. Use the `LinearGradientBrush` to specify the gradient background. Below is an example implementation:
+To achieve a gradient effect for the entire TabView header and apply transparency to the header items, follow these steps:
 
-```xml
-<telerik:RadTabView x:Name="tabView">
+1. Define a `LinearGradientBrush` resource for the gradient effect.
+2. Create a `ControlTemplate` for the header and use the gradient brush in its background property.
+3. Set transparency for header item background and border properties using the `HeaderItemStyle`.
+
+```xaml
+<ContentPage.Resources>
+    <ResourceDictionary>
+        <!-- Gradient Brush for Header Background -->
+        <LinearGradientBrush x:Key="brush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Blue" Offset="0.0"/>
+            <GradientStop Color="Blue" Offset="0.4"/>
+            <GradientStop Color="Red" Offset="0.6"/>
+            <GradientStop Color="Red" Offset="1.0"/>
+        </LinearGradientBrush>
+    
+        <!-- Header Control Template -->
+        <ControlTemplate x:Key="TabViewHeaderControlTemplate">
+            <telerikMauiControls:RadBorder Background="{StaticResource brush}"
+                                           BorderColor="{TemplateBinding BorderColor}"
+                                           BorderThickness="{TemplateBinding BorderThickness}"
+                                           CornerRadius="{TemplateBinding CornerRadius}"
+                                           Padding="{TemplateBinding ContentPadding}"
+                                           AutomationId="RadTabViewHeader">
+                <ContentPresenter />
+            </telerikMauiControls:RadBorder>
+        </ControlTemplate>
+    </ResourceDictionary>
+</ContentPage.Resources>
+
+<telerik:RadTabView x:Name="tabView" HeaderTemplate="{StaticResource TabViewHeaderControlTemplate}">
+    <!-- Style for Header Items -->
     <telerik:RadTabView.HeaderItemStyle>
         <Style TargetType="telerik:TabViewHeaderItem">
-            <!-- Customize font style -->
             <Setter Property="FontAttributes" Value="Italic"/>
-            <!-- Customize text color -->
             <Setter Property="TextColor" Value="#99000000" />
-            <!-- Apply gradient background -->
-            <Setter Property="Background">
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="Blue" Offset="0.0"/>
-                    <GradientStop Color="Blue" Offset="0.4"/>
-                    <GradientStop Color="Red" Offset="0.6"/>
-                    <GradientStop Color="Red" Offset="1.0"/>
-                </LinearGradientBrush>
-            </Setter>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="BorderColor" Value="Transparent"/>
         </Style>
     </telerik:RadTabView.HeaderItemStyle>
-    <!-- Define TabView items -->
+    
+    <!-- Tab Items -->
     <telerik:TabViewItem HeaderText="Home">
         <Label Margin="10" Text="This is the content of the Home tab" />
     </telerik:TabViewItem>
@@ -61,4 +83,5 @@ To apply a gradient background to the headers in the TabView component, define a
 
 ## See Also
 
-- [TabView Documentation](https://docs.telerik.com/devtools/maui/controls/tabview/overview)
+- [TabView Documentation]({%slug tabview-overview%})
+- [Applying Gradient to TabView Header Item for .NET MAUI]({%slug gradient-header-item-tabview-dotnet-maui%})
