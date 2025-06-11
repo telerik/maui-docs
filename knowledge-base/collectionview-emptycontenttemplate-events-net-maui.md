@@ -19,7 +19,7 @@ res_type: kb
 I am using the `EmptyContentTemplate` in the [CollectionView for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/collectionview/overview) to display custom content when the `ItemsSource` is empty or null. Inside the template, `GestureRecognizer` and Button `Click` events are defined, but they do not execute as expected. This behavior occurs because the control's default implementation sets the template's transparency to `true`, which makes it ignore input events.
 
 This knowledge base article also answers the following questions:
-- How to make `GestureRecognizer` events work in EmptyContentTemplate?
+- How to make `GestureRecognizer` events work in `EmptyContentTemplate`?
 - Why are Button `Click` events not firing in CollectionView `EmptyContentTemplate`?
 - How to disable transparency for `EmptyContentTemplate` in .NET MAUI CollectionView?
 
