@@ -29,7 +29,7 @@ To achieve a gradient effect for the entire TabView header and apply transparenc
 
 1. Define a `LinearGradientBrush` resource for the gradient effect.
 2. Create a `ControlTemplate` for the header and use the gradient brush in its background property.
-3. Set transparency for header item background and border properties using the `HeaderItemStyle`.
+3. Set transparency for the header item background and border properties using the `HeaderItemStyle`.
 
 ```xaml
 <ContentPage.Resources>
