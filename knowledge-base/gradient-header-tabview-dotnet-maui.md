@@ -19,7 +19,7 @@ res_type: kb
 I want to apply a gradient effect to the entire header of the [TabView]({%slug tabview-overview%}) component in .NET MAUI, not just individual header items. Additionally, I need transparency for the background and border properties of the header items.
 
 This knowledge base article also answers the following questions:
-- How to style TabView header with gradient in .NET MAUI?
+- How to style the TabView header with a gradient in .NET MAUI?
 - How to use `HeaderTemplate` for TabView in .NET MAUI?
 - How to apply transparency to TabView header items in .NET MAUI?
 
