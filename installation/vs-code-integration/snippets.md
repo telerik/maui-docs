@@ -6,7 +6,6 @@ slug: getting-started-vs-code-integration-snippets
 position: 3
 ---
 
-
 # Code Snippets
 
 The Telerik Visual Studio Code extension provides a handy feature for increased developer productivity&mdash;code snippets for quick UI component reference and configuration. 
@@ -33,13 +32,13 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 |----------------------------|------------------------------------------|
 | tm-accordion               | [Accordion]({%slug accordion-overview%}) |
 | tm-aiprompt                | [AI Prompt]({%slug aiprompt-overview%}) |
-| tm-autocomplete            | [AutoComplete]({%slug autocomplete-overview%})     |
-| tm-barcode                 | [Barcode]({%slug barcode-overview%}) |
+| tm-autocomplete            | [AutoComplete]({%slug autocomplete-overview%}) |
 | tm-badgeview               | [BadgeView]({%slug badgeview-overview%}) |
+| tm-barcode                 | [Barcode]({%slug barcode-overview%}) |
 | tm-border                  | [Border]({%slug border-overview%}) |
 | tm-busyindicator           | [BusyIndicator]({%slug busyindicator-overview%}) |
-| tm-button                  | [Button]({%slug button-overview%})   |
-| tm-calendar                | [Calendar]({%slug calendar-overview%})   |
+| tm-button                  | [Button]({%slug button-overview%}) |
+| tm-calendar                | [Calendar]({%slug calendar-overview%}) |
 | tm-chart                   | [Chart]({%slug chart-overview%}) |
 | tm-checkbox                | [CheckBox]({%slug checkbox-overview%}) |
 | tm-collectionview          | [CollectionView]({%slug collectionview-overview%}) |
@@ -47,25 +46,27 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 | tm-chat                    | [Chat]({%slug chat-overview%})    |
 | tm-dataform                | [DataForm]({%slug dataform-overview%}) |
 | tm-datagrid                | [DataGrid]({%slug datagrid-overview%}) |
+| tm-datapager               | [DataGrid]({%slug datapager-overview%}) |
 | tm-datepicker              | [DatePicker]({%slug datepicker-overview%}) |
 | tm-datetimepicker          | [DateTimePicker]({%slug datetimepicker-overview%}) |
 | tm-docklayout              | [DockLayout]({%slug docklayout-overview%}) |
 | tm-entry                   | [Entry]({%slug entry-overview%}) |
 | tm-expander                | [Expander]({%slug expander-overview%}) |
 | tm-radial-gauge            | [Gauge]({%slug gauge-overview%}) |
-| tm-horizontal-gauge        | [Gauge]({%slug gauge-types-horizontal %})       |
-| tm-imageeditor             | [ImageEditor]({%slug imageeditor-overview%})       |
+| tm-horizontal-gauge        | [Gauge]({%slug gauge-types-horizontal %}) |
+| tm-gridsplitter            | [Gauge]({%slug gridsplitter-overview %}) |
+| tm-imageeditor             | [ImageEditor]({%slug imageeditor-overview%}) |
 | tm-itemscontrol            | [ItemsControl]({%slug itemscontrol-overview%}) |
 | tm-listpicker              | [ListPicker]({%slug listpicker-overview%}) |
-| tm-listview                | [ListView]({%slug listview-overview%})       |
+| tm-listview                | [ListView]({%slug listview-overview%}) |
 | tm-map                     | [Map]({%slug map-overview%}) |
-| tm-maskedentry             | [MaskedEntry]({%slug maskedentry-overview%})       |
+| tm-maskedentry             | [MaskedEntry]({%slug maskedentry-overview%}) |
 | tm-navigationview          | [NavigationView]({%slug navigationview-overview%}) |
-| tm-numericinput            | [NumericInput]({%slug numericinput-overview%})           |
-| tm-path                    | [Path]({%slug path-overview%})         |
+| tm-numericinput            | [NumericInput]({%slug numericinput-overview%}) |
+| tm-path                    | [Path]({%slug path-overview%})  |
 | tm-pdfviewer               | [PDF Viewer]({%slug pdfviewer-overview%}) |
 | tm-popup                   | [Popup]({%slug popup-overview%}) |
-| tm-progressbar             | [ProgressBar]({%slug progressbar-overview%})           |
+| tm-progressbar             | [ProgressBar]({%slug progressbar-overview%}) |
 | tm-rangeslider             | [RangeSlider]({%slug rangeslider-overview%}) |
 | tm-rating                  | [Rating]({%slug rating-overview%}) |
 | tm-templated-rating        | [Rating]({%slug rating-overview%}) |
@@ -82,5 +83,12 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 | tm-timepicker              | [TimePicker]({%slug timepicker-overview%}) |
 | tm-timespanpicker          | [TimeSpanPicker]({%slug timespanpicker-overview%}) |
 | tm-togglebutton            | [ToggleButton]({%slug togglebutton-overview%}) |
-| tm-toolbar                 | [Toolbar]({%slug toolbar-overview%})         |
+| tm-toolbar                 | [Toolbar]({%slug toolbar-overview%}) |
+| tm-treedatagrid            | [TreeDataGrid]({%slug treedatagrid-overview%}) |
 | tm-treeview                | [TreeView]({%slug treeview-overview%})   |
+
+## See Also
+
+* [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Scaffolding Pages]({%slug maui-vs-code-scaffoldings%})
+* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})
