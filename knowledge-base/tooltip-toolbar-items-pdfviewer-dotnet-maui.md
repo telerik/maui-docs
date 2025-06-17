@@ -11,7 +11,7 @@ res_type: kb
 
 ## Environment
 
-| Version | Product | Author | More actions
+| Version | Product | Author |
 | --- | --- | ---- | 
 | 11.0.0 | Telerik UI for .NET MAUI PDF Toolbar | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
