@@ -5,7 +5,6 @@ description: Learn how to migrate the Telerik UI for Xamarin TabView to the Tele
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms, tabview
 position: 100
 slug: migrate-xamarin-tabview-to-maui
-position: 20
 ---
 
 # Migrating the TabView from Xamarin.Forms to .NET MAUI
