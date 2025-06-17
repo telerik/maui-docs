@@ -1,0 +1,464 @@
+top-navigation-product: maui-ui
+path-prefix: /maui-ui/documentation
+default-title-prefix: .NET MAUI
+
+primary-color: "#27A306"
+product-id: 2338
+product-code: MAUI
+product-name: Telerik UI for .NET MAUI
+product-url: https://www.telerik.com/maui-ui
+product-trial-url: https://www.telerik.com/try/ui-for-maui
+contribute-url: https://github.com/telerik/maui-docs/edit/master
+search-engine-id: f5ca20400f4bf4c7d
+avatar-path: ./images/avatar-ninja.svg
+no-results-image-path: ./images/ninja-no-results.svg
+enable-tabbed-code-blocks: true
+pdf-cover-png-path: ./images/pdf-cover.png
+img-max-width: 100%
+table-layout: fixed
+
+cta-overview: The @Subject is part of @ProductLink, the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial and kickstart your cross-platform app development today.
+cta-intro: "Kickstart your cross-platform application development with the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial."
+
+meta:
+  controls/ziplibrary:
+    title: ZipLibrary
+  controls/wraplayout:
+    title: WrapLayout
+  controls/wordsprocessing:
+    title: WordsProcessing
+  controls/treeview/styling:
+    title: Styling
+    position: 15
+  controls/treeview/templates:
+    title: Templates
+    position: 7
+  controls/treeview:
+    title: TreeView
+  controls/treedatagrid/theming-and-styles:
+    title: Styling
+    position: 28
+  controls/treedatagrid/keyboard-navigation:
+    title: Keyboard Navigation
+    position: 26
+  controls/treedatagrid/commands:
+    title: Commands
+    position: 25
+  controls/treedatagrid/filtering:
+    title: Filtering
+    position: 9
+  controls/treedatagrid/cells:
+    title: Cells
+    position: 7
+  controls/treedatagrid/rows:
+    title: Rows
+    position: 6
+  controls/treedatagrid/columns:
+    title: Columns
+    position: 5
+  controls/treedatagrid/populating-with-data:
+    title: Populating with Data
+    position: 4
+  controls/treedatagrid:
+    title: TreeDataGrid
+  controls/toolbar/items:
+    title: Items
+    position: 4
+  controls/toolbar:
+    title: Toolbar
+  controls/togglebutton:
+    title: ToggleButton
+  controls/timespanpicker/styling:
+    title: Styling
+    position: 20
+  controls/timespanpicker:
+    title: TimeSpanPicker
+  controls/timepicker/styling:
+    title: Styling
+    position: 20
+  controls/timepicker:
+    title: TimePicker
+  controls/templatedpicker/styling:
+    title: Styling
+    position: 20
+  controls/templatedpicker:
+    title: TemplatedPicker
+  controls/templatedbutton:
+    title: TemplatedButton
+  controls/tabview/styling:
+    title: Styling
+    position: 10
+  controls/tabview:
+    title: TabView
+  controls/spreadstreamprocessing:
+    title: SpreadStreamProcessing
+  controls/spreadprocessing:
+    title: SpreadProcessing
+  controls/slideview/styling:
+    title: Styling
+    position: 15
+  controls/slideview:
+    title: SlideView
+  controls/slider/styling:
+    title: Styling
+    position: 10
+  controls/slider:
+    title: Slider
+  controls/signaturepad:
+    title: SignaturePad
+  controls/sidedrawer:
+    title: SideDrawer
+  controls/segmentedcontrol:
+    title: SegmentedControl
+  controls/scheduler/styling:
+    title: Styling
+    position: 20
+  controls/scheduler/specialslots:
+    title: Special Slots
+    position: 9
+  controls/scheduler/recurrence:
+    title: Recurrence
+    position: 8
+  controls/scheduler/appointments:
+    title: Appointments
+    position: 7
+  controls/scheduler/views:
+    title: Views
+    position: 6
+  controls/scheduler/header:
+    title: Header
+    position: 5
+  controls/scheduler:
+    title: Scheduler
+  controls/richtexteditor/styling:
+    title: Styling
+    position: 19
+  controls/richtexteditor/toolbar:
+    title: Toolbar
+    position: 8
+  controls/richtexteditor/working-with-images:
+    title: Working with Images
+    position: 6
+  controls/richtexteditor:
+    title: RichTextEditor
+  controls/rating:
+    title: Rating
+  controls/rangeslider/styling:
+    title: Styling
+    position: 10
+  controls/rangeslider:
+    title: RangeSlider
+  controls/progressbar:
+    title: ProgressBar
+  controls/popup:
+    title: Popup
+  controls/pdfviewer/selection:
+    title: Selection
+    position: 12
+  controls/pdfviewer/search:
+    title: Search
+    position: 10
+  controls/pdfviewer/toolbar:
+    title: Toolbar
+    position: 8
+  controls/pdfviewer:
+    title: PDF Viewer
+  controls/pdfprocessing:
+    title: PdfProcessing
+  controls/path:
+    title: Path
+  controls/numericinput:
+    title: NumericInput
+  controls/navigationview/styling:
+    title: Styling
+    position: 15
+  controls/navigationview:
+    title: NavigationView
+  controls/maskedentry/mask-types:
+    title: Mask Types
+    position: 3
+  controls/maskedentry:
+    title: MaskedEntry
+  controls/map/styling:
+    title: Styling
+    position: 9
+  controls/map/layers:
+    title: Layers
+    position: 3
+  controls/map:
+    title: Map
+  controls/listview/howto:
+    title: How To
+    position: 16
+  controls/listview/styling:
+    title: Styling
+    position: 15
+  controls/listview/cells:
+    title: Cells
+    position: 3
+  controls/listview/gestures:
+    title: Gestures
+    position: 12
+  controls/listview/grouping:
+    title: Grouping
+    position: 5
+  controls/listview:
+    title: ListView (Obsolete)
+  controls/listpicker/styling:
+    title: Styling
+    position: 20
+  controls/listpicker:
+    title: ListPicker
+  controls/itemscontrol:
+    title: ItemsControl
+  controls/imageeditor/toolbar:
+    title: Toolbar
+    position: 4
+  controls/imageeditor:
+    title: ImageEditor
+  controls/gridsplitter:
+    title: GridSplitter
+  controls/gauge/gauge-types:
+    title: Gauge Types
+    position: 2
+  controls/gauge:
+    title: Gauge
+  controls/expander:
+    title: Expander
+  controls/entry:
+    title: Entry
+  controls/docklayout:
+    title: DockLayout
+  controls/datetimepicker/styling:
+    title: Styling
+    position: 20
+  controls/datetimepicker:
+    title: DateTimePicker
+  controls/datepicker/styling:
+    title: Styling
+    position: 20
+  controls/datepicker:
+    title: DatePicker
+  controls/datapager/styling:
+    title: Styling
+    position: 20
+  controls/datapager/integration:
+    title: Integration
+    position: 7
+  controls/datapager:
+    title: DataPager
+  controls/datagrid/theming-and-styles:
+    title: Styling
+    position: 20
+  controls/datagrid/keyboard-navigation:
+    title: Keyboard Navigation
+    position: 19
+  controls/datagrid/commands:
+    title: Commands
+    position: 16
+  controls/datagrid/aggregates:
+    title: Aggregates
+    position: 10
+  controls/datagrid/grouping:
+    title: Grouping
+    position: 7
+  controls/datagrid/filtering:
+    title: Filtering
+    position: 6
+  controls/datagrid/cells:
+    title: Cells
+    position: 5
+  controls/datagrid/row-details:
+    title: Row Details
+    position: 4
+  controls/datagrid/columns/column-types:
+    title: Column Types
+    position: 1
+  controls/datagrid/columns:
+    title: Columns
+    position: 3
+  controls/datagrid/populating-with-data:
+    title: Populating with Data
+    position: 2
+  controls/datagrid:
+    title: DataGrid
+  controls/dataform/styling:
+    title: Styling
+    position: 15
+  controls/dataform/layouts:
+    title: Layouts
+    position: 7
+  controls/dataform/grouping:
+    title: Grouping
+    position: 6
+  controls/dataform/editors:
+    title: Editors
+    position: 4
+  controls/dataform:
+    title: DataForm
+  controls/combobox:
+    title: ComboBox
+  controls/collectionview/styling:
+    title: Styling
+    position: 30
+  controls/collectionview/accessibility/keyboard-navigation:
+    title: Keyboard Navigation
+    position: 1
+  controls/collectionview/accessibility:
+    title: Accessibility
+    position: 20
+  controls/collectionview/load-on-demand:
+    title: Load On Demand
+    position: 17
+  controls/collectionview/drag-and-drop:
+    title: Drag & Drop
+    position: 16
+  controls/collectionview/item-swipe:
+    title: Item Swipe
+    position: 15
+  controls/collectionview/grouping:
+    title: Grouping
+    position: 12
+  controls/collectionview/layouts:
+    title: Layouts
+    position: 5
+  controls/collectionview:
+    title: CollectionView
+  controls/checkbox:
+    title: CheckBox
+  controls/chat/pickers/card-picker:
+    title: Card Picker
+    position: 5
+  controls/chat/pickers:
+    title: Chat Pickers
+    position: 4
+  controls/chat/items:
+    title: Chat Items
+    position: 3
+  controls/chat:
+    title: Conversational UI (Chat)
+  controls/chart/series/financial:
+    title: Financial Series
+    position: 4
+  controls/chart/series/pie:
+    title: Pie Series
+    position: 3
+  controls/chart/series/cartesian/features:
+    title: Features
+    position: 1
+  controls/chart/series/cartesian:
+    title: Cartesian Series
+    position: 2
+  controls/chart/series:
+    title: Series
+    position: 5
+  controls/chart/behaviors:
+    title: Behaviors
+    position: 6
+  controls/chart/axes:
+    title: Axes
+    position: 4
+  controls/chart/types:
+    title: Chart Types
+    position: 3
+  controls/chart:
+    title: Chart
+  controls/calendar/styling:
+    title: Styling
+    position: 15
+  controls/calendar:
+    title: Calendar
+  controls/button:
+    title: Button
+  controls/busyindicator:
+    title: BusyIndicator
+  controls/border:
+    title: Border
+  controls/barcode/2d-barcodes:
+    title: 2D Barcodes
+    position: 6
+  controls/barcode/1d-barcodes:
+    title: 1D Barcodes
+    position: 5
+  controls/barcode:
+    title: Barcode
+  controls/badgeview:
+    title: BadgeView
+  controls/autocomplete/templates:
+    title: Templates
+    position: 13
+  controls/autocomplete:
+    title: AutoComplete
+  controls/aiprompt/styling:
+    title: Styling
+    position: 10
+  controls/aiprompt/views:
+    title: Views
+    position: 3
+  controls/aiprompt:
+    title: AIPrompt
+  controls/accordion:
+    title: Accordion
+  installation/nuget:
+    title: Installing with NuGet
+    position: 5
+  installation/vs-code-integration:
+    title: Visual Studio Code Integration
+    position: 16
+  installation/vs-integration:
+    title: Visual Studio Integration
+    position: 15
+  installation/mac:
+    title: Mac
+    position: 4
+  installation/windows:
+    title: Windows
+    position: 3
+  installation/licensing:
+    title: Activating Your License
+    position: 1
+  knowledge-base:
+    title: Knowledge Base
+    position: 14
+  upgrade/breaking-changes:
+    title: Breaking Changes
+    position: 2
+  integrations:
+    title: Integration With Other Telerik Products
+    position: 11
+  upgrade:
+    title: Upgrade
+    position: 10
+  font-icons:
+    title: Font Icons
+    position: 9
+  security:
+    title: Security
+    position: 7
+  styling-and-themes:
+    title: Styling and Themes
+    position: 5
+  controls:
+    title: Controls
+    position: 4
+  demos-and-sample-apps:
+    title: Sample Applications
+    position: 3
+  installation:
+    title: Download & Installation
+    position: 2
+  get-started/mac:
+    title: Mac
+    position: 2
+  get-started/windows:
+    title: Windows
+    position: 1
+  get-started:
+    title: Getting Started
+    position: 1
+
+redirects: 
+-
+    from: "^/?$"
+    to: "/introduction"
+    type: Permanent
