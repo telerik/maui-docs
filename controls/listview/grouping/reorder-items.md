@@ -5,7 +5,6 @@ description: Check how to enable the Telerik UI for .NET MAUI ListView option fo
 position: 4
 slug: listview-grouping-reorderitems
 previous_url: /controls/listview/grouping/listview-grouping-reorderitems
-description: Describing how to handle reordering in grouped ListView
 tags: group, radlistview, reordering
 ---
 
