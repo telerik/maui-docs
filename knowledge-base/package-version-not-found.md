@@ -1,6 +1,6 @@
 ---
 title: Package Version Not Found
-description: Learn how to resolve errors like "error NU1102 Unable to find package Telerik.UI.for.Maui with version (>= x.x.x)"
+description: Learn how to resolve errors like error NU1102 Unable to find package Telerik.UI.for.Maui with version (>= x.x.x).
 type: troubleshooting
 page_title: How to solve erros when the Telerik NuGet package version is not found
 slug: package-version-not-found

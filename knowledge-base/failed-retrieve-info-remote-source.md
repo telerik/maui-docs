@@ -1,10 +1,10 @@
 ---
 title: Failed to retrieve information about Telerik.UI.for.Maui from remote source
-description: Learn how to solve the error "Failed to retrieve information about 'Telerik.UI.for.Maui' from remote source".
+description: Learn how to solve the error Failed to retrieve information about Telerik.UI.for.Maui from remote source.
 type: troubleshooting
 page_title: How to solve failed to retrieve information about Telerik.UI.for.Maui from remote source
 slug: failed-retrieve-info-remote-source
-tags: server,retrieve information, nuget, telerik nuget server
+tags: server, retrieve information, nuget, telerik nuget server
 res_type: kb
 ---
 
