@@ -77,7 +77,7 @@ Before you can add Telerik Theming to your app, make sure that it is configured 
 
   ![Telerik UI for .NET MAUI Styles folder](images/telerik-theming-styles-folder-v10.png)
 
->important The files in the `TelerikTheming` folder are auto-generated. Use them only as a reference and do not modify them. See [Customizing the Telerik Theme]({%slug themes-customization %}) for information on how to use these files to apply your own styles.
+>important The files in the `TelerikTheming` folder are auto-generated. Use them only as a reference and do not modify them. See [Customizing the Telerik Theme]({%slug themes-customization%}) for information on how to use these files to apply your own styles.
 
 **3.** Go to the `App.xaml` file of your app and add the `TelerikTheming` resource dictionary to the application resources:
 
@@ -165,5 +165,5 @@ You can take advantage of the available theme swatches and change them at runtim
 
 ## Next Steps
 
-* [Customizing the Telerik Theme Colors]({%slug themes-customization %})
-* [Customizing the Control-Specific Theme Resources]({%slug theme-component-styles-customization %})
+* [Customizing the Telerik Theme Colors]({%slug themes-customization%})
+* [Customizing the Control-Specific Theme Resources]({%slug theme-component-styles-customization%})

@@ -1,5 +1,5 @@
 #kb-note-for-upgrades
-> The steps described in this KB article are valid for Telerik UI for .NET MAUI versions up to 2025 Q2. Starting with 2025 Q2, the trial installer is deprecated. You can start a free trial by [using the unified installer](link to your installation article).
+> The steps described in this KB article are valid for Telerik UI for .NET MAUI versions up to 2025 Q2. Starting with 2025 Q2, the trial installer is deprecated. You can start a free trial by [using the unified installer]({%slug install-trial%}).
 #end
 
 #kb-note-troubleshooting

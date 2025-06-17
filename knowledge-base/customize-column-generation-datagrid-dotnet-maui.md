@@ -78,6 +78,6 @@ Ensure the `ItemsSource` for the `DataGridComboBoxColumn` is correctly bound to 
 
 ## See Also
 
-- [DataGrid Overview](https://docs.telerik.com/devtools/maui/controls/datagrid/overview)
-- [DataGrid Columns](https://docs.telerik.com/devtools/maui/controls/datagrid/columns)
-- [Commanding Overview](https://docs.telerik.com/devtools/maui/controls/datagrid/commanding)
+- [DataGrid Overview]({%slug datagrid-overview%})
+- [DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Commands Overview]({%slug datagrid-commands-overview%})

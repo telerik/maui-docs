@@ -13,7 +13,7 @@ slug: combobox-databinding
 
 The `DisplayMemberPath` is a property that lets the developer specify a particular property of the business object to be displayed. If `DisplayMemberPath` is not set, the ComboBox will visualize the `ToString` implementation of the business object. 
 
-To customize the content inside the input area when an item is selected and the `DisplayMemberPath` property is not set, use the [`SelectionBoxTemplate`](%slug combobox-templates%). The `SelectionBoxTemplate` applies when the `SelectionMode` is `Single` and the control's `IsEditable` property is set to `false`.
+To customize the content inside the input area when an item is selected and the `DisplayMemberPath` property is not set, use the [`SelectionBoxTemplate`]({%slug combobox-templates%}). The `SelectionBoxTemplate` applies when the `SelectionMode` is `Single` and the control's `IsEditable` property is set to `false`.
 
 ## Binding to a Complex Object
 
