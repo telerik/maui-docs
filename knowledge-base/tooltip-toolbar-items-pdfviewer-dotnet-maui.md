@@ -22,7 +22,7 @@ I want to add tooltips to the toolbar items in the PDF Viewer for .NET MAUI. How
 This knowledge base article also answers the following questions:
 - How to set tooltip text for toolbar buttons in PDF Viewer for .NET MAUI?
 - How to customize tooltips in the PDF Viewer toolbar?
-- How to apply tooltip properties to RadToolbar items?
+- How to apply tooltip properties to `RadToolbar` items?
 
 ## Solution
 
