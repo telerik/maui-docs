@@ -2,13 +2,15 @@
 title: Document Processing Libraries
 page_title: Document Processing Libraries - Visual Studio Code Integration
 description: Learn how to add the Document Processing Libraries to .NET MAUI project with our Visual Studio Extension.
-slug: vscode-add-document-processing-libraries
+slug: vs-add-document-processing-libraries
 position: 2
 ---
 
 # Document Processing Libraries
 
 This article demonstrates how to add the Telerik Document Processing Libraries to a new .NET MAUI project or to an existing one.
+
+To add the Telerik Document Processing Libraries, you will use the [Add Processing package reference wizard](#get-the-wizard), which is a feature of the Telerik extensions.
 
 @[template](/_contentTemplates/common/extension.md#vs-extension-download)
 

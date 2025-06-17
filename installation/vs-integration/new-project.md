@@ -11,6 +11,8 @@ previous_url: /installation/windows/vs-template
 
 This article demonstrates how to use the Telerik Visual Studio extensions to create a new project that is pre-configured for the Progress&reg; Telerik&reg; UI for .NET MAUI components.
 
+To create the project, you will use the [Create New Project wizard](#get-the-wizard), which is a feature of the Telerik extensions.
+
 @[template](/_contentTemplates/common/extension.md#vs-extension-download)
 
 ### Extensions Menu
