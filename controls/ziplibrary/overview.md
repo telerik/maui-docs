@@ -2,7 +2,6 @@
 title: Overview
 page_title: .NET MAUI ZipLibrary Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik ZipLibrary for .NET MAUI.
-description: Overview
 slug: ziplibrary-overview
 tags: overview
 published: True
