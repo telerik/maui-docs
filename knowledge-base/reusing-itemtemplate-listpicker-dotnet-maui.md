@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-I want to reuse a single ItemTemplate across multiple instances of the [ListPicker]({%slug listpicker-overview%}) in my .NET MAUI application. Each ListPicker uses the `DisplayMemberPath` property but displays different types of data. I want to avoid manually overriding the `ItemTemplate` for each RadListPicker and instead define an implicit `ItemTemplate` that uses a value converter to display the correct data based on the ListPicker's data source.
+I want to reuse a single ItemTemplate across multiple instances of the [ListPicker]({%slug listpicker-overview%}) in my .NET MAUI application. Each ListPicker uses the `DisplayMemberPath` property but displays different types of data. I want to avoid manually overriding the `ItemTemplate` for each `RadListPicker` and instead define an implicit `ItemTemplate` that uses a value converter to display the correct data based on the ListPicker's data source.
 
 This knowledge base article also answers the following questions:
 - How to use a common `ItemTemplate` for multiple `RadListPickers`?
