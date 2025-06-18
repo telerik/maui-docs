@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To achieve this, use a value converter to dynamically bind the displayed text based on the type of data in the `RadListPicker`. Follow these steps:
+To reuse a single `ItemTemplate` across multiple instances of the ListPicker, use a value converter to dynamically bind the displayed text based on the type of data in the `RadListPicker`. The steps below demonstrate the suggested approach:
 
 
 **1.** Define the `RadListPickers` and set their `ItemTemplate` property to a static resource.
