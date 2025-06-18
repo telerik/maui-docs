@@ -24,8 +24,6 @@ And the Accordion when all items are collapsed:
 
 ![.NET MAUI Accordion Item Spacing](images/accordion-item-spacing-2.png)
 
->important A sample Item Spacing example can be found in the Accordion/Features folder of the [SDK Samples Browser application]({%slug developer-focused-examples%}#sdk-browser-application).
-
 ## See Also
 
 - [AccordionItem]({%slug accordion-accordion-item%})
