@@ -1,6 +1,6 @@
 ---
 title: Error 503 Service Unavailable
-description: Learn how to solve the "unable to load the server index" and "503 service unavailable" errors for the Telerik Nuget Server. 
+description: Learn how to solve the unable to load the server index and 503 service unavailable errors for the Telerik Nuget Server. 
 type: troubleshooting
 page_title: How to solve unable to load the server index and service unavailable
 slug: error-service-unavailable

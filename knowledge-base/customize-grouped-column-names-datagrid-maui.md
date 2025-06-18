@@ -37,5 +37,5 @@ In this example, columns grouped by the `TimeStamp` property will display `Creat
 
 ## See Also
 
-- [Grouping in DataGrid for MAUI](https://docs.telerik.com/devtools/maui/datagrid/grouping)
-- [DataGrid Overview for MAUI](https://docs.telerik.com/devtools/maui/datagrid/overview)
+- [Grouping in DataGrid for MAUI]({%slug datagrid-grouping-overview%})
+- [DataGrid Overview for MAUI]({%slug datagrid-overview%})

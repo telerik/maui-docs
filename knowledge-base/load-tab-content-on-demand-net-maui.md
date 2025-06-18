@@ -176,5 +176,5 @@ Using the `LoadOnDemand` and `LoadOnDemandTemplate` attached properties, you can
 
 ## See Also
 
-- [TabView Overview](https://docs.telerik.com/devtools/maui/controls/tabview/overview)
-- [TabView Data Binding Example](https://docs.telerik.com/devtools/maui/controls/tabview/datatabinding)
+- [TabView Overview]({%slug tabview-overview%})
+- [TabView Data Binding]({%slug tabview-data-binding%})
