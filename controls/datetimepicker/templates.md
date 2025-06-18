@@ -91,7 +91,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-![DateTimePicker FooterTemplate](images/datepicker_header_footer_template.png)
+![DateTimePicker FooterTemplate](images/datetimepicker_header_footer_template.png)
 
 ## See Also
 

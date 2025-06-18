@@ -7,16 +7,16 @@ slug: styling-filtering-ui-distinct-values-datagrid-maui
 tags: maui, datagrid, filtering, styling, distinct values
 res_type: kb
 ---
-# Environment
+## Environment
 | Version | Product | Author | 
 | --- | --- | ---- | 
 | 6.6.0 | DataGrid for MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
-# Description
+## Description
 
 I want to style the filtering UI in the DataGrid for MAUI by changing the color of the area with the distinct values.
 
-# Solution
+## Solution
 
 To style the distinct values area in the filtering UI, you can use an implicit style and customize the colors in the template. Here are the steps to achieve this:
 
