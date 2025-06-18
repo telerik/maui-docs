@@ -23,7 +23,7 @@ The following example demonstrates how to use the `LoadOnDemand` event.
 
 **1.** Define the `LoadOnDemand` method in XAML.
 
-<snippet id ='datagrid-loadondemand-event-xaml'/>
+<snippet id='datagrid-loadondemand-event-xaml'/>
 
 **2.** Create the method that defines the functionality of the event.
 

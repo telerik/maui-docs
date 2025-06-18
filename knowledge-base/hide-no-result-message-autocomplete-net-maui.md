@@ -7,7 +7,7 @@ slug: hide-no-result-message-autocomplete-net-maui
 tags: autocomplete, .net maui, hide, no result message
 res_type: kb
 ---
-# Environment
+## Environment
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
