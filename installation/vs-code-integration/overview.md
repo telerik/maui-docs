@@ -14,6 +14,7 @@ The extension for Visual Studio Code provides the following advantages:
 * Facilitates the [creation of project]({%slug getting-started-vs-code-integration-new-project%}) by using project templates.
 * Contains a collection of [code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and configuration.
 * Allows you to [add predefined pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
+* Wizard for adding [Document Processing Libraries]({%slug document-processing-libraries-overview%}) as a package reference to the project.
 * Notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
 
 ## Get the Extension
@@ -30,3 +31,10 @@ To access the VS Code extension and to open the VS Code extension launcher, use:
 
 * `Ctrl`+`Shift`+`P` on Windows/Linux
 * `Cmd`+`Shift`+`P` on Mac.
+
+## See Also
+
+* [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Scaffolding Pages]({%slug maui-vs-code-scaffoldings%})
+* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})
