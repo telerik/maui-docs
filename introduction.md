@@ -15,9 +15,7 @@ Thank you for choosing Telerik UI for .NET MAUI!
 
 This brand-new UI library comes with [sample demo applications]({%slug sampleapps-overview%}) that showcase the growing number of controls. In addition to expanding the list of controls, the regular releases ensure that the suite is up to date with the latest versions from Microsoft.
 
-{% if site.has_cta_panels == true %}
-{% include cta-panel-maui-introduction.html %}
-{% endif %}
+<CtaPanelIntroduction></CtaPanelIntroduction>
 
 ![Telerik UI for .NET MAUI documentation](front-image.png)
 
@@ -27,7 +25,95 @@ This brand-new UI library comes with [sample demo applications]({%slug sampleapp
 
 Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI:
 
-{% include intro-page-table.html  %}
+<IntroTable>
+    <IntroTableColumn>
+        <IntroTableSection title="Data Controls">
+            <IntroTableAnchor title="CollectionView" href="slug:collectionview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DataForm" href="slug:dataform-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DataGrid" href="slug:datagrid-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DataPager" href="slug:datapager-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ItemsControl" href="slug:itemscontrol-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TreeDataGrid" href="slug:treedatagrid-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="Data Visualization">
+            <IntroTableAnchor title="Barcodes" href="slug:barcode-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Charts" href="slug:chart-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Gauges" href="slug:gauge-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Map" href="slug:map-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ProgressBar" href="slug:progressbar-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Ratings" href="slug:rating-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="Chatbots">
+            <IntroTableAnchor title="Conversation UI (Chat)" href="slug:chat-overview"></IntroTableAnchor>
+        </IntroTableSection>
+    </IntroTableColumn>
+    <IntroTableColumn>
+        <IntroTableSection title="Editors">
+            <IntroTableAnchor title="AutoComplete" href="slug:autocomplete-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ComboBox" href="slug:combobox-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DatePicker" href="slug:datepicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DateTimePicker" href="slug:datetimepicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Entry" href="slug:entry-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ImageEditor" href="slug:imageeditor-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ListPicker" href="slug:listpicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="MaskedEntries" href="slug:maskedentry-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="NumericInput" href="slug:numericinput-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="RangeSlider" href="slug:rangeslider-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="RichTextEditor" href="slug:richtexteditor-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TemplatedPicker" href="slug:templatedpicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TimePicker" href="slug:timepicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TimeSpanPicker" href="slug:timespanpicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SignaturePad" href="slug:signaturepad-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Slider" href="slug:slider-overview"></IntroTableAnchor>
+        </IntroTableSection>
+    </IntroTableColumn>
+    <IntroTableColumn>
+        <IntroTableSection title="Navigation &amp; Layouts">
+            <IntroTableAnchor title="Accordion" href="slug:accordion-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DockLayout" href="slug:docklayout-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Expander" href="slug:expander-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="NavigationView" href="slug:navigationview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SideDrawer" href="slug:sidedrawer-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SlideView" href="slug:slideview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TabView" href="slug:tabview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TreeView" href="slug:treeview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="WrapLayout" href="slug:wraplayout-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="Calendar &amp; Scheduling">
+            <IntroTableAnchor title="Calendar" href="slug:calendar-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Scheduler" href="slug:scheduler-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="Buttons">
+            <IntroTableAnchor title="Segmented Control" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Button" href="slug:button-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="CheckBox" href="slug:checkbox-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TemplatedButton" href="slug:templatedbutton-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ToggleButton" href="slug:togglebutton-overview"></IntroTableAnchor>
+        </IntroTableSection>
+    </IntroTableColumn>
+    <IntroTableColumn>
+        <IntroTableSection title="Interactivity &amp; UX">
+            <IntroTableAnchor title="AIPrompt" href="slug:aiprompt-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="BadgeView" href="slug:badgeview-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Border" href="slug:border-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="BusyIndicator" href="slug:busyindicator-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="GridSplitter" href="slug:gridsplitter-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="PDF Viewer">
+            <IntroTableAnchor title="PDF Viewer" href="slug:pdfviewer-overview"></IntroTableAnchor>
+        </IntroTableSection>
+        <IntroTableSection title="Document Processing Libraries">
+            <IntroTableAnchor title="PdfProcessing" href="slug:document-processing-libraries-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="WordsProcessing" href="slug:document-processing-libraries-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SpreadProcessing" href="slug:document-processing-libraries-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SpreadStreamProcessing" href="slug:document-processing-libraries-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="ZipLibrary" href="slug:document-processing-libraries-overview"></IntroTableAnchor>
+        </IntroTableSection>
+    </IntroTableColumn>
+</IntroTable>
 
 By clicking on each control you will navigate to the detailed .NET MAUI documentation explaining the key features and how to utilize them.
 
@@ -88,17 +174,12 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 
 - [.NET MAUI Examples Apps]({%slug sampleapps-overview%})
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Introduction to Telerik UI for .NET MAUI",
-  "description": "The video introduces the Telerik UI for .NET MAUI suite and outlines the prerequisites needed to follow along.",
-  "thumbnailUrl": "https://img.youtube.com/vi/x0fY4qwkBTk/maxresdefault.jpg",
-  "uploadDate": "2024-12-02",
-  "duration": "PT4M56S",
-  "contentUrl": "https://youtu.be/x0fY4qwkBTk",
-  "embedUrl": "https://www.youtube.com/embed/x0fY4qwkBTk"
-}
-</script>
+<VideoMetadata 
+    name="Introduction to Telerik UI for .NET MAUI"
+    description="The video introduces the Telerik UI for .NET MAUI suite and outlines the prerequisites needed to follow along."
+    thumbnail-url="https://img.youtube.com/vi/x0fY4qwkBTk/maxresdefault.jpg"
+    upload-date="2024-12-02T00:00:00Z"
+    duration="PT4M56S"
+    content-url="https://youtu.be/x0fY4qwkBTk"
+    embed-url="https://www.youtube.com/embed/x0fY4qwkBTk">
+</VideoMetadata>
