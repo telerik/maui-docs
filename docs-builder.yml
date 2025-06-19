@@ -21,6 +21,10 @@ external-snippets-path: ../maui
 cta-overview: The @Subject is part of @ProductLink, the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial and kickstart your cross-platform app development today.
 cta-intro: "Kickstart your cross-platform application development with the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial."
 
+excluded-files:
+- "**/README.md"
+- "**/copyright.md"
+
 meta:
   controls/ziplibrary:
     title: ZipLibrary
@@ -421,6 +425,9 @@ meta:
   knowledge-base:
     title: Knowledge Base
     position: 14
+    res_type: kb
+    relativeUrl: /knowledge-base
+    hideChildren: true
   upgrade/breaking-changes:
     title: Breaking Changes
     position: 2
