@@ -62,6 +62,7 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorColorPickerToolbarItem` | Allows picking a specific color from a collection of colors. |
 | `RichTextEditorCopyToolbarItem` | Copies the selected HTML to the clipboard. |
 | `RichTextEditorCutToolbarItem` | Cuts the selected HTML to the clipboard. |
+| `RichTextEditorPasteHtmlToolbarItem` | Pastes HTML from the clipboard. |
 | `RichTextEditorAddOrEditHyperlinkToolbarItem` | Opens a popup to add ot edit a hyperlink. |
 | `RichTextEditorAddHyperlinkToolbarItem` | Adds a hyperlink. |
 | `RichTextEditorRemoveHyperlinkToolbarItem` | Remove the hyperlink for the current selection. |
