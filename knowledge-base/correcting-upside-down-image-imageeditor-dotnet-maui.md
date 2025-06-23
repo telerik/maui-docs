@@ -20,7 +20,7 @@ ticketid: 1691149
 </tr>
 <tr>
 <td> Version </td>
-<td> 8.0.0 </td>
+<td> 11.0.0 </td>
 </tr>
 </tbody>
 </table>
@@ -43,77 +43,77 @@ To ensure proper image orientation, handle EXIF metadata before loading the imag
 1. **Add Helper Methods**  
    Implement the following methods to handle image loading and orientation:
 
-```csharp
-public SKBitmap LoadBitmapWithOrigin(Stream imageStream, out SKEncodedOrigin origin)
-{
-    if (imageStream.CanSeek)
-        imageStream.Seek(0, SeekOrigin.Begin);
-
-    using (var codec = SKCodec.Create(imageStream))
-    {
-        if (codec == null)
-        {
-            origin = SKEncodedOrigin.Default; 
-            return null;
-        }
-
-        origin = codec.EncodedOrigin;
-        var info = new SKImageInfo(codec.Info.Width, codec.Info.Height);
-        var bitmap = SKBitmap.Decode(codec, info);
-        return bitmap ?? throw new InvalidOperationException("Failed to decode the bitmap.");
-    }
-}
-
-public static SKBitmap? AutoOrient(SKBitmap bitmap, SKEncodedOrigin origin)
-{
-    switch (origin)
-    {
-        case SKEncodedOrigin.BottomRight:
-            var rotated180 = new SKBitmap(bitmap.Width, bitmap.Height);
-            using (var surface = new SKCanvas(rotated180))
-            {
-                surface.RotateDegrees(180, bitmap.Width / 2, bitmap.Height / 2);
-                surface.DrawBitmap(bitmap, 0, 0);
-            }
-            return rotated180;
-        case SKEncodedOrigin.RightTop:
-            var rotated90 = new SKBitmap(bitmap.Height, bitmap.Width);
-            using (var surface = new SKCanvas(rotated90))
-            {
-                surface.Translate(rotated90.Width, 0);
-                surface.RotateDegrees(90);
-                surface.DrawBitmap(bitmap, 0, 0);
-            }
-            return rotated90;
-        case SKEncodedOrigin.LeftBottom:
-            var rotated270 = new SKBitmap(bitmap.Height, bitmap.Width);
-            using (var surface = new SKCanvas(rotated270))
-            {
-                surface.Translate(0, rotated270.Height);
-                surface.RotateDegrees(270);
-                surface.DrawBitmap(bitmap, 0, 0);
-            }
-            return rotated270;
-        default:
-            return bitmap;
-    }
-}
-```
+      ```csharp
+      public SKBitmap LoadBitmapWithOrigin(Stream imageStream, out SKEncodedOrigin origin)
+      {
+          if (imageStream.CanSeek)
+              imageStream.Seek(0, SeekOrigin.Begin);
+      
+          using (var codec = SKCodec.Create(imageStream))
+          {
+              if (codec == null)
+              {
+                  origin = SKEncodedOrigin.Default; 
+                  return null;
+              }
+      
+              origin = codec.EncodedOrigin;
+              var info = new SKImageInfo(codec.Info.Width, codec.Info.Height);
+              var bitmap = SKBitmap.Decode(codec, info);
+              return bitmap ?? throw new InvalidOperationException("Failed to decode the bitmap.");
+          }
+      }
+      
+      public static SKBitmap? AutoOrient(SKBitmap bitmap, SKEncodedOrigin origin)
+      {
+          switch (origin)
+          {
+              case SKEncodedOrigin.BottomRight:
+                  var rotated180 = new SKBitmap(bitmap.Width, bitmap.Height);
+                  using (var surface = new SKCanvas(rotated180))
+                  {
+                      surface.RotateDegrees(180, bitmap.Width / 2, bitmap.Height / 2);
+                      surface.DrawBitmap(bitmap, 0, 0);
+                  }
+                  return rotated180;
+              case SKEncodedOrigin.RightTop:
+                  var rotated90 = new SKBitmap(bitmap.Height, bitmap.Width);
+                  using (var surface = new SKCanvas(rotated90))
+                  {
+                      surface.Translate(rotated90.Width, 0);
+                      surface.RotateDegrees(90);
+                      surface.DrawBitmap(bitmap, 0, 0);
+                  }
+                  return rotated90;
+              case SKEncodedOrigin.LeftBottom:
+                  var rotated270 = new SKBitmap(bitmap.Height, bitmap.Width);
+                  using (var surface = new SKCanvas(rotated270))
+                  {
+                      surface.Translate(0, rotated270.Height);
+                      surface.RotateDegrees(270);
+                      surface.DrawBitmap(bitmap, 0, 0);
+                  }
+                  return rotated270;
+              default:
+                  return bitmap;
+          }
+      }
+      ```
 
 2. **Handle Image Metadata Before Loading**  
    Use the helper methods to load and correct the image orientation.
 
-```csharp
-private void LoadImage_Clicked(object sender, EventArgs e)
-{
-    using var imageStream = File.OpenRead("MyImage.png");
-    var bitmap = LoadBitmapWithOrigin(imageStream, out var origin);
-    var rotatedBitmap = AutoOrient(bitmap, origin);
-
-    SKImage image = SKImage.FromPixels(rotatedBitmap.PeekPixels());
-    imageEditor.Source = ImageSource.FromStream(() => image.Encode().AsStream());
-}
-```
+      ```csharp
+      private void LoadImage_Clicked(object sender, EventArgs e)
+      {
+          using var imageStream = File.OpenRead("MyImage.png");
+          var bitmap = LoadBitmapWithOrigin(imageStream, out var origin);
+          var rotatedBitmap = AutoOrient(bitmap, origin);
+      
+          SKImage image = SKImage.FromPixels(rotatedBitmap.PeekPixels());
+          imageEditor.Source = ImageSource.FromStream(() => image.Encode().AsStream());
+      }
+      ```
 
 Replace `"MyImage.png"` with the appropriate file path. Use the corrected bitmap when loading the image into the ImageEditor.
 
