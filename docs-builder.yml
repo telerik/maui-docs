@@ -466,7 +466,46 @@ meta:
     position: 1
 
 redirects: 
--
-    from: "^/?$"
-    to: "/introduction"
-    type: Permanent
+- from: "^/?$"
+  to: "/introduction"
+  type: Permanent
+
+- from: ^/controls/busyindicator/custom-busy-content$
+  to: /controls/busyindicator/content
+  type: Permanent
+
+- from: ^/controls/maskedentry/maskedentry-masked-types$
+  to: /controls/maskedentry/mask-types/overview
+  type: Permanent
+
+- from: ^/copyright$
+  to: https://www.progress.com/legal/documentation-copyright
+  type: Permanent
+
+- from: ^/personal-data-collection$
+  to: https://www.progress.com/legal/privacy-policy
+  type: Permanent
+
+- from: ^/controls/listview/grouping/grouping$
+  to: /controls/listview/grouping/overview
+  type: Permanent
+
+- from: ^/controls/pdfprocessing/overview$
+  to: https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview
+  type: Permanent
+
+- from: ^/controls/spreadprocessing/overview$
+  to: https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview
+  type: Permanent
+
+- from: ^/controls/spreadstreamprocessing/overview$
+  to: https://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview
+  type: Permanent
+
+- from: ^/controls/wordsprocessing/overview$
+  to: https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview
+  type: Permanent
+
+- from: ^/controls/ziplibrary/overview$
+  to: https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview
+  type: Permanent
