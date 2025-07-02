@@ -12,7 +12,7 @@ The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MA
 
 ## Style the Toolbar Items
 
-The `PDFViewerToolbar` is based on the `RadToolbar` control, so the toolbar items in the PDF Viewer uses a `ToolbarItem`. 
+The `PDFViewerToolbar` is based on the `RadToolbar` control, so the toolbar items in the PDF Viewer use a `ToolbarItem`. 
 
 Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
 
