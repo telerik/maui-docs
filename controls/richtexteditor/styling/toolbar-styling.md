@@ -12,7 +12,7 @@ The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides a flex
 
 ## Style the Toolbar Items
 
-The `RichTextEditorToolbar` is based on the `RadToolbar` control, so the toolbar items in the RichTextEditor uses a `ToolbarItem`. 
+The `RichTextEditorToolbar` is based on the `RadToolbar` control, so the toolbar items in the RichTextEditor use a `ToolbarItem`. 
 
 Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
 
