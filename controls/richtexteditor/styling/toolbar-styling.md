@@ -16,7 +16,7 @@ The `RichTextEditorToolbar` is based on the `RadToolbar` control, so the toolbar
 
 Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
 
-| Toolbar Item | Style Target type |
+| Toolbar Item | Style Target Type |
 | ------------- | --------------- |
 | `RichTextEditorFontFamilyToolbarItem` | `RichTextEditorListPickerToolbarItemView` |
 | `RichTextEditorFontSizeToolbarItem` | `RichTextEditorListPickerToolbarItemView` |
