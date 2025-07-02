@@ -50,7 +50,7 @@ The following example demonstrates how to use the selection feature of Segmented
 
 The image below shows the end result on different platforms:
 
-![.NET MAUI SegmentedControl selection](images/segmentcontrol-features-selection-0.png)
+![.NET MAUI SegmentedControl selection](images/segmentcontrol-selection.png)
 
 ## See Also
 
