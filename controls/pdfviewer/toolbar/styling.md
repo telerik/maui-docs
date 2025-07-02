@@ -16,7 +16,7 @@ The `PDFViewerToolbar` is based on the `RadToolbar` control, so the toolbar item
 
 Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
 
-| Toolbar Item | Style Target type |
+| Toolbar Item | Style Target Type |
 | ------------ | ------- |
 | `PdfViewerFitToWidthToolbarItem ` | `ButtonToolbarItemView` |
 | `PdfViewerZoomInToolbarItem ` | `ButtonToolbarItemView` |
