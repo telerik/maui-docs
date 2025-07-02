@@ -40,7 +40,7 @@ To ensure proper image orientation, handle EXIF metadata before loading the imag
 
 ### Steps to Correct Image Orientation
 
-1. **Add Helper Methods**  
+1. Add Helper Methods&mdash;Implement the following methods to handle image loading and orientation:
    Implement the following methods to handle image loading and orientation:
 
       ```csharp
