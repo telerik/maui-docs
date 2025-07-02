@@ -100,7 +100,6 @@ To ensure proper image orientation, handle EXIF metadata before loading the imag
       ```
 
 2. Handle image metadata before loading&mdash;Use the helper methods to load and correct the image orientation.
-   Use the helper methods to load and correct the image orientation.
 
       ```csharp
       private void LoadImage_Clicked(object sender, EventArgs e)
