@@ -33,7 +33,7 @@ Each toolbar item has a `Style` property and the target type of the property is 
 
 | Toolbar Item | Style Target type |
 | ------------ | ------- |
-| `ImageEditorTransformationsToolbarItem` | `NavigationButtonToolbarItem` |
+| `ImageEditorTransformationsToolbarItem` | `NavigationButtonToolbarItemView` |
 | `ImageEditorFiltersToolbarItem` | `ImageEditorFilterOptionsToolbarItemView` |
 | `ImageEditorCropOptionsToolbarItem` | `ImageEditorCropOptionsToolbarItemView` |
 | `ImageEditorResizeOptionsToolbarItem` | `ImageEditorResizeOptionsToolbarItemView` |

@@ -10,9 +10,29 @@ slug: pdfviewer-toolbar-styling
 
 The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MAUI PDF Viewer</a> provides a flexible styling API for its toolbar items. 
 
-As the `PDFViewerToolbar` is based on the `RadToolbar` control, all toolbar items in the PDF Viewer inherit from `ButtonToolbarItem`. All styling properties available for the `ButtonToolbarItem` are also applicable for the PDF toolbar items. 
+## Style the Toolbar Items
 
-Here is an example:
+The `PDFViewerToolbar` is based on the `RadToolbar` control, so the toolbar items in the PDF Viewer use a `ToolbarItem`. 
+
+Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
+
+| Toolbar Item | Style Target Type |
+| ------------ | ------- |
+| `PdfViewerFitToWidthToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerZoomInToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerZoomOutToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerSearchToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerToggleLayoutModeToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerNavigateToPreviousPageToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerNavigateToNextPageToolbarItem ` | `ButtonToolbarItemView` |
+| `PdfViewerNavigateToPageToolbarItem ` | `ToolbarItemView` |
+| `PdfViewerSearchNavigationToolbarItem ` | `NavigationButtonToolbarItemView` |
+
+All styling properties available for the target type [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) are also applicable for the PDF toolbar items that use this target type. 
+
+All properties applicable for [`NavigationButtonToolbarItemView`({%slug toolbar-items-navigation-button%}) can be used for stlying the `PdfViewerSearchNavigationToolbarItem`.
+
+## Example for Styling the Toolbar
 
 **1.** PDF Viewer and Toolbar definitions in XAML:
 
