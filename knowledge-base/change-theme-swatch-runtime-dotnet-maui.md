@@ -29,7 +29,7 @@ To change the theme swatch dynamically, set the `TelerikThemeResources.AppTheme`
 
 Below is an example to switch from the `TelerikPurple` theme to the `TelerikTurquoise` theme and merge a custom swatch defined in a `CustomTelerikSwatch.xaml` file.
 
-Apply the custom swatch at runtime:
+1. Apply the custom swatch at runtime:
 
 ```csharp
 public partial class App : Application
