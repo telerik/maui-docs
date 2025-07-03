@@ -67,5 +67,5 @@ This is the result when applying localization for segments:
 
 ## See Also
 
-- [SegmentedControl Overview]({%slug segmentedcontrol-overview%}
+- [SegmentedControl Overview]({%slug segmentedcontrol-overview%})
 - [.NET MAUI Localization](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/localization?view=net-maui-9.0)
