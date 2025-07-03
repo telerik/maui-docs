@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To change the theme swatch dynamically set the `TelerikThemeResources.AppTheme` to the desired pre-defined theme.
+To change the theme swatch dynamically, set the `TelerikThemeResources.AppTheme` to the desired pre-defined theme.
 
 Below is an example to switch from the `TelerikPurple` theme to the `TelerikTurquoise` theme and merge a custom swatch defined in a `CustomTelerikSwatch.xaml` file.
 
