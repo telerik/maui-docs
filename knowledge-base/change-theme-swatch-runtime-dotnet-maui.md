@@ -47,7 +47,7 @@ public partial class App : Application
     }
 ```
 
-Invoke the method to change the theme and swatch during runtime.
+2. Invoke the method to change the theme and swatch during runtime.
 
 ```csharp
 TelerikThemeResources.AppTheme = TelerikTheme.TelerikTurquoise;
