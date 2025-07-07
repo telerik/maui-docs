@@ -17,17 +17,7 @@ The TabView provides set of templates for its elements. If you want to change th
 
 ![.NET MAUI TabView Visual Structure](images/visual-structure.png "Visual elements of TabView control")
 
-**Example with TabView templates**
 
-```XAML
-
-```
-
-And the namespace used:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
-```
 
 >note If you do not want to change the default templates you can customize the look of the TabView, TabView Header, TabView `HeaderItem` and TabView Content using the flexible styling API. For more details review the [TabView Styling article]({%slug tabview-styling%}).
 
