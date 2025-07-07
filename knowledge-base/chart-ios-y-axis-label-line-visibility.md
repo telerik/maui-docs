@@ -20,7 +20,7 @@ res_type: kb
 I want to achieve consistent rendering for the [Chart](https://docs.telerik.com/devtools/maui/controls/chart/types/cartesian-chart) in .NET MAUI across Android and iOS. On iOS, the Y-axis line is not visible, and the axis labels are inside the chart renderer and right-aligned instead of left-aligned as on Android.
 
 This knowledge base article also answers the following questions:
-- How to make Y-axis line visible in `RadCartesianChart` for iOS?
+- How to make the Y-axis line visible in `RadCartesianChart` for iOS?
 - How to align Y-axis labels to the left in `RadCartesianChart` for iOS?
 - How to customize `RadCartesianChart` rendering for iOS in .NET MAUI?
 
