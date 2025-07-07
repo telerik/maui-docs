@@ -67,9 +67,6 @@ The following image shows the end result.
 
 The `FontFamily` property is of type `string` and you need to pass the name of the font family. Remember that the different platforms work with different fonts so you may need to use the `OnPlatform` method.
 
-<snippet id='gauge-axis-font-family'/>
-
-
 The following image shows the end result.
 
 ![Gauge Font Family](images/gauge-axis-fontfamily.png)

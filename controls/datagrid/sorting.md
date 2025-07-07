@@ -66,7 +66,6 @@ To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLooku
 
 The following example demonstrates a custom `IKeyLookup` implementation.
 
-<snippet id='datagrid-delegatesortdescriptor-ikeylookup'/>
 ```C#
 public class CustomIKeyLookup : Telerik.Maui.Controls.Data.IKeyLookup
 {
@@ -79,7 +78,6 @@ public class CustomIKeyLookup : Telerik.Maui.Controls.Data.IKeyLookup
 
 Add it to the `SortDescriptors` collection of the DataGrid:
 
-<snippet id='datagrid-delegatesortdescriptor-csharp'/>
 ```C#
 this.dataGrid.SortDescriptors.Add(new DelegateSortDescriptor() { KeyLookup = new CustomIKeyLookup()});
 ```

@@ -29,33 +29,7 @@ Before adding the DockLayout, you need to:
 
 **1.** When the your .NET MAUI application is set up, you are ready to add a DockLayout control to your page.
 
- <snippet id='docklayout-getting-started-xaml' />
- ```XAML
-<telerik:RadDockLayout x:Name="dockLayout">
-    <Grid HeightRequest="60"
-          BackgroundColor="#009688"
-          telerik:RadDockLayout.Dock="Top">
-        <Label Margin="20" Text="Title"/>
-    </Grid>
-    <Grid BackgroundColor="#659BFC"
-          telerik:RadDockLayout.Dock="Left">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Label Margin="20" Text="Navigation" />
-    </Grid>
-    <Grid BackgroundColor="#1455C9"
-          telerik:RadDockLayout.Dock="Bottom">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Label Margin="20" Text="Bottom" />
-    </Grid>
-    <Grid  BackgroundColor="#FCCFB0">
-        <Label Margin="20" Text="Content" />
-    </Grid>
-</telerik:RadDockLayout>
- ```
+<snippet id='docklayout-getting-started-xaml' />
 
 **2.** Add the following namespace:
 
