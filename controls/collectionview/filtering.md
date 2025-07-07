@@ -44,7 +44,7 @@ The following example implements a `TextFilterDescriptor` and uses a [`RadEntry`
 
 **1.** Define the `RadCollectionView` and `RadEntry` in XAML:
 
-<snippet id='collectionview-text-filter-descriptor'/>
+<snippet id='collectionview-delegate-filter-descriptor' />
 
 **2.** Add the `telerik` namespace:
 
@@ -62,7 +62,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the `TextFilterDescriptor` to the `RadCollectionView` inside the `RadEntry` `TextChanged` event:
 
-<snippet id='collectionview-filter-function'/>
+<snippet id='collectionview-filter-function' />
 
 This is the result:
 

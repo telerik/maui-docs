@@ -20,7 +20,7 @@ The following snippets show how to disable dates in the Calendar control.
 
 **2.** Add a ViewModel with defined blackout dates. 
 
-<snippet id='calendar-blackoutdates-viewmode'/>
+<snippet id='calendar-blackoutdates-viewmodel'/>
 
 ![.NET MAUI Calendar Blackout Dates](images/calendar-blackout-dates.png)
 

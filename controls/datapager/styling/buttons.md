@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** Define sample data:
 
-<snippet id='datagrid-datapager-data' />
+<snippet id='datapager-features-viewmodel' />
 
 This is the result on desktop:
 

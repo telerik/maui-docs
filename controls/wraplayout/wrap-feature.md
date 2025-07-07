@@ -51,7 +51,7 @@ The WrapLayout exposes the `StretchLastChild` property, which enables you to con
 
 The following example shows how `StretchLastChild` will work when set to both values:
 
-<snippet id='wraplayout-position-lastelement'/>
+<snippet id='wraplayout-position-lastelement' />
 
 The following image shows the end result.
 
