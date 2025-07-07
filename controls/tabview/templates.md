@@ -20,23 +20,7 @@ The TabView provides set of templates for its elements. If you want to change th
 **Example with TabView templates**
 
 ```XAML
-<telerik:RadTabView x:Name="tabView">
-    <telerik:RadTabView.HeaderItemTemplate>
-        <ControlTemplate>
-            <!-- the custom HeaderItemTemplate implementation -->
-        </ControlTemplate>
-    </telerik:RadTabView.HeaderItemTemplate>
-    <telerik:RadTabView.HeaderTemplate>
-        <ControlTemplate>
-            <!-- the custom HeaderTemplate implementation -->
-        </ControlTemplate>
-    </telerik:RadTabView.HeaderTemplate>
-    <telerik:RadTabView.ContentTemplate>
-        <ControlTemplate>
-             <!-- the custom ContentTemplate implementation -->
-        </ControlTemplate>
-    </telerik:RadTabView.ContentTemplate>
-</telerik:RadTabView>
+
 ```
 
 And the namespace used:
