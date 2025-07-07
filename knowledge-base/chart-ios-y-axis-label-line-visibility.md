@@ -22,7 +22,7 @@ I want to achieve consistent rendering for the [Chart](https://docs.telerik.com/
 This knowledge base article also answers the following questions:
 - How to make the Y-axis line visible in `RadCartesianChart` for iOS?
 - How to align the Y-axis labels to the left in `RadCartesianChart` for iOS?
-- How to customize `RadCartesianChart` rendering for iOS in .NET MAUI?
+- How to customize the `RadCartesianChart` rendering for iOS in .NET MAUI?
 
 ## Solution
 
