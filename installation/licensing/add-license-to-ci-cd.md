@@ -7,7 +7,7 @@ tags: maui,components,license,activate,download,ci,cd,environment
 position: 2
 ---
 
-# Adding Your License Key to CI/CD Services
+# Adding License Key to CI/CD Services
 
 This article describes how to set up and activate your Telerik UI for .NET MAUI [license key]({%slug set-up-your-license%}) across a few popular CI/CD services by using environment variables.
 
