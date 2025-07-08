@@ -14,7 +14,7 @@ The AutoComplete control provides the option to format the visualized text in th
 
 To define the formatter of the selected item, you can use the following options:
 
-* Set the `DisplayTextFortammer` property and define the name of the property from the business object which will be displayed after formatting.
+* Set the `DisplayTextFormatter` property and define the name of the property from the business object which will be displayed after formatting.
 * Create a custom class that inherits from `IDisplayTextFormatter` and implement a custom logic how the selected item can be formatted.
 
 ## Example

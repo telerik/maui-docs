@@ -33,11 +33,15 @@ Before adding the TabView, you need to:
 * To define the header of a `TabViewItem` use its `HeaderText` property as in the example.
 
 <snippet id='tabview-getting-started-xaml'/>
+<snippet id='tabview-getting-started-csharp'/>
 
 **2.** Add the following namespace:
 
  ```XAML
  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
+ ```C#
+ using Telerik.Maui.Controls;
  ```
 
 **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

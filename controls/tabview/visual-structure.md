@@ -15,9 +15,11 @@ The TabView uses a set of visual elements when rendered.
 
 ## Displayed Elements
 
-- **Header area**&mdash;The area with the TabView header. The Header holds all TabView header items.
-- **Header items**&mdash;The TabView header items.
-- **Content area**&mdash;The content area corresponding to each header item.
+- **TabView Header**&mdash;The area that holds all TabView header items.
+- **Header Item**&mdash;The item that represents single header item of the `TabViewItem`.
+- **Header Text**&mdash;The text inside the header item.
+- **Selected Item**&mdash;The selected tab item. The header item background color changes and the content of the corresponding header item that is selected.
+- **TabView Content**&mdash;The content area corresponding to each header item.
 
 ## See Also
 

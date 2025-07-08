@@ -34,14 +34,21 @@ The following example shows how to add TabView items directly to the Items colle
 	<telerik:TabViewItem HeaderText="View" />
 </telerik:RadTabView>
 ```
+```C#
+var tabView = new RadTabView();
+tabView.Items.Add(new Telerik.Maui.Controls.TabViewItem { HeaderText="Home" });
+tabView.Items.Add(new Telerik.Maui.Controls.TabViewItem { HeaderText = "Folder" });
+tabView.Items.Add(new Telerik.Maui.Controls.TabViewItem { HeaderText = "View" });
+```
 
 ## Defining Content
 
 You can define the content of a `TabViewItem` via its `Content` property or `ContentTemplate` property. 
 
-### Example with Content Property
+**Example with Content Property**
 
 <snippet id='tabview-getting-started-xaml' />
+<snippet id='tabview-getting-started-csharp' />
 
 > The TabView control displays only the content of the selected item.
 
