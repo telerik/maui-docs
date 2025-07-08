@@ -23,7 +23,7 @@ The Telerik UI for .NET MAUI AutoComplete can automatically complete user input 
 * [Custom Templates]({%slug autocomplete-custom-templates%})&mdash;If any of the default templates do not fit in a particular scenario, you can define a custom template.
 * [Remote Search]({%slug autocomplete-remote-search%})&mdash;Allows you to take the user input, trigger a custom searching algorithm and assign the results to the ItemSource of the AutoComplete.
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to hide the view with the suggestions.
-* [Suggestion view position]({%slug autocomplete-configuration%}#suggestionview-position)&mdash;AutoComplete gives your the option to specify whether the `SuggestionView` will be displayed&mdash;above or under the control.
+* [Suggestion view position]({%slug autocomplete-configuration%}#suggestionview-position)&mdash;AutoComplete gives you the option to specify whether the `SuggestionView` will be displayed&mdash;above or under the control.
 * [Highlight customization]({%slug autocomplete-styling%}#hightlight-customization)&mdash;You can customize the highlight color of the suggestion items.
 * [Nested properties support]({%slug autocomplete-data-binding%})&mdash;This allows binding of a complex object to the `TextSearchPath` property. 
 * [Styling options]({%slug autocomplete-styling%})&mdash;For changing the control's border brush and thickness, font options, suggestion item highlight text color and more.
