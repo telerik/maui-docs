@@ -1,16 +1,15 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI SegmentedControl Documentation - Visual Structure
-description: The Visual structure of the Telerik SegmentedControl for .NET MAUI control.
-slug: tabview-visual-structure
-tags: tabview, header, content, items, visualization
+description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI SegmentedControl, and see how these elements build the visual structure of the control.
+slug: segment-visual-structure
+tags: segment, header, content, items, visualization
 position: 1
 ---
 
 # .NET MAUI SegmentedControl Visual Structure
 
 The visual structure of the .NET MAUI SegmentedControl represents the anatomy of the UI control. Being familiar with the visual elements of the SegmentedControl allows you to quickly find the information required to configure them.
-
 
 The following image shows the anatomy of the SegmentedControl.
 
