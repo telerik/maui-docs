@@ -27,7 +27,7 @@ If you prefer video instructions, watch this short MAUI TabView video tutorial. 
 * [Header Customization]({%slug tabview-configuration%})&mdash;TabView provides means for customizing the header area containing the tabs—through the `HeaderStyle` property you can change its position, orientation, and spacing between the tabs; through the `HeaderTemplate` property you can modify its look and feel.
 * [Image support in the header]({%slug tabview-item%})&mdash;add images inside the header. In addition you can controls the position of the image and the spacing between the image and the header text.
 * [Change the header position]({%slug tabview-configuration%}#setting-the-headers-position) to top, bottom, left or right. 
-* [Data Binding]({%slug tabview-data-binding%})&mdash;TabView has a support for binding to a complex object through the `ItemsSource` property.
+* [Data Binding]({%slug tabview-data-binding%})&mdash;TabView supports binding to a complex object through the `ItemsSource` property.
 * [Tabs Customization]({%slug tabview-item%})&mdash;You can customize the appearance of each tab. Each tab has a header and content. The `TabViewItem` class gives you the option to set Tab's header text, add an image which will be displayed in the header, add a content and decide whether the tab will be selected, visible and enabled.
 * [Flexible styling API]({%slug tabview-styling%})&mdash;The TabView provides a number of styling capabilities, which enable you to style its header, header items and content. In addition, there is a styling option for the TabView control.
 * [Templates]({%slug tabview-templates%})&mdash;The TabView provides templates for its header, header items and content. 
