@@ -17,15 +17,15 @@ res_type: kb
 
 ## Description
 
-Learn how to save pdf files in your .NET MAUI application.
+Learn how to save PDF files in your .NET MAUI application.
 
 This knowledge base article also answers the following questions:
-- How can I save `PDF` files?
-- How can I use the PDF Viewer Toolbar for Saving `PDF` documents?
+- How can I save PDF files?
+- How can I use the PDF Viewer Toolbar for Saving PDF documents?
 
 ## Solution
 
-For saving files we will use the [.NET MAUI File System Helper API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-9.0&tabs=android). The `Save` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
+For saving files, use the [.NET MAUI File System Helper API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-9.0&tabs=android). The `Save` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
 
 **1.** Define the [PDF VIewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
 
@@ -44,7 +44,7 @@ For saving files we will use the [.NET MAUI File System Helper API](https://lear
 </Grid>
 ```
 
-**2.** for the demo the document is loaded as `Embedded Resource`.
+**2.** In this example, the document is loaded as `Embedded Resource`.
 
 ```C#
 Func<CancellationToken, Task<Stream>> streamFunc = ct => Task.Run(() =>

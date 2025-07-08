@@ -16,15 +16,15 @@ res_type: kb
 
 ## Description
 
-Learn how to share pdf files in your .NET MAUI application.
+Learn how to share PDF files in your .NET MAUI application.
 
 This knowledge base article also answers the following questions:
-- How can I transfer `PDF` files in .NET MAUI application?
-- How can I use the PDF Viewer Toolbar for Sharing `PDF` documents?
+- How can I transfer PDF files in .NET MAUI application?
+- How can I use the PDF Viewer Toolbar for Sharing PDF documents?
 
 ## Solution
 
-For sharing files we will use the [.NET MAUI Share File API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/data/share?view=net-maui-9.0&tabs=android). The `Share` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
+For sharing files, use the [.NET MAUI Share File API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/data/share?view=net-maui-9.0&tabs=android). The `Share` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
 
 **1.** Define the [PDF VIewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
 
@@ -45,7 +45,7 @@ For sharing files we will use the [.NET MAUI Share File API](https://learn.micro
 </Grid>
 ```
 
-**2.** for the demo the document is loaded as `Embedded Resource`.
+**2.** In this example, load the document as `Embedded Resource`.
 
 ```C#
 Func<CancellationToken, Task<Stream>> streamFunc = ct => Task.Run(() =>
