@@ -45,7 +45,7 @@ tabView.Items.Add(new Telerik.Maui.Controls.TabViewItem { HeaderText = "View" })
 
 You can define the content of a `TabViewItem` via its `Content` property or `ContentTemplate` property. 
 
-**Example with Content Property**
+## Example with Content Property
 
 <snippet id='tabview-getting-started-xaml' />
 <snippet id='tabview-getting-started-csharp' />
