@@ -28,7 +28,7 @@ This knowledge base article also answers the following questions:
 
 To force the `CommitEdit` command when tapping outside the MAUI DataGrid or another grid, follow one of the solutions suggested below.
 
-### Example 1: Tapping on External UI
+### Solution 1: Tapping on External UI
 
 Use a `TapGestureRecognizer` on an external UI element to programmatically execute the `CommitEdit` command.
 
