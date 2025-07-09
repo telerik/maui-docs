@@ -1,5 +1,5 @@
 ---
-title: Setting Up Your License Key
+title: Installing License Key
 page_title: Setting Up Your License Key
 description: Learn how to activate the Telerik UI for .NET MAUI components by downloading and setting up your Telerik components license key.
 slug: set-up-your-license
