@@ -28,7 +28,7 @@ The control supports groups expand and collapse operations through the UI by tap
 
 Users can control the `GroupDescriptors` collection by using MVVM.
 
-## Sticky Group Headers
+## Sticky Group Headers (Mobile Only)
 
 The CollectionView provides the option to set its [group headers as sticky]({%slug collectionview-sticky-group-header%}). This means the `GroupHeader` UI element "freezes" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
 In a multi-level grouping scenario, the last inner group from the parent group will be sticky.
