@@ -58,7 +58,7 @@ private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 }
 ```
 
-### Example 2: Interaction with a Second DataGrid
+### Solution 2: Interaction with a Second DataGrid
 
 Define a custom command for the second MAUI DataGrid's `CellTap`. This command will execute the `CommitEdit` command for the first grid.
 
