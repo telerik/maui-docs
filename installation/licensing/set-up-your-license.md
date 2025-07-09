@@ -61,7 +61,7 @@ To manually download and install a license key for Telerik UI for .NET MAUI:
 
     ![Download a Telerik UI for .NET MAUI License Key](./images/download-license-key.png)
 
-### Activate the Telerik UI for .NET MAUI Components
+### Activating the Telerik UI for .NET MAUI Components
 
 To activate the Telerik UI for .NET MAUI controls:
 
