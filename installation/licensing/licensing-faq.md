@@ -7,7 +7,7 @@ tags: maui,components,license,activate,download,error,warning,questions,faq
 position: 3
 ---
 
-# Frequently Asked Questions about Your Telerik UI for .NET MAUI License
+# Frequently Asked Questions About Installing Telerik UI for .NET MAUI License Key
 
 This article lists the answers to the most frequently asked questions (FAQs) about working with the Telerik UI for .NET MAUI license key.
 
