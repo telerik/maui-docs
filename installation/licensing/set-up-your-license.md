@@ -27,7 +27,22 @@ Telerik provides tools that automatically provision your license key. These tool
 
 ### Installing a License Key with the VS Extensions
 
+To install your license key by using the [Telerik UI for .NET MAUI Visual Studio extensions]({%slug vs-integration-overview%}):
 
+1. Open Visual Studio.
+1. Go to **Extensions** > **Telerik** **Licensing** > **Download Key**.
+
+    ![.NET MAUI VS Extension License Key](./images/vsx-download-license-key-file.png)
+
+### Installing a License Key with the VS Code Extensions
+
+To install your license key by using the [Telerik UI for .NET MAUI Visual Studio Code extensions]({%slug getting-started-vs-code-integration-overview%}):
+
+1. Open Visual Studio Code
+1. Follow the instructions described in the [Start the Wizard article]({%slug getting-started-vs-code-integration-new-project%}#start-the-wizard) for opening the Telerik Extensions menu.
+1. Check the **TELERIK ACCOUNT DETAILS** field in the wizard and press the **Download License Key File** button.
+
+    ![.NET MAUI VS Extension License Key](./images/telerik-vs-code-extension.png)
 
 ### Installing a License Key with the Progress Control Panel
 
