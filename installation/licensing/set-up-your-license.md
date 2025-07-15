@@ -49,8 +49,8 @@ To install your license key by using the [Telerik UI for .NET MAUI Visual Studio
 * From the Visual Studio Code Extensions menu
 
     1. To open the menu, use:
-    * `Ctrl+Shift+P` on Windows/Linux
-    * `Cmd+Shift+P` on Mac.
+        * `Ctrl+Shift+P` on Windows/Linux
+        * `Cmd+Shift+P` on Mac.
 
     2. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
     3. The **Telerik UI for .NET MAUI Template Wizard** opens
