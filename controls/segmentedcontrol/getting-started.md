@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI SegmentedControl Getting Started](images/segmentcontrol-gettingstarted.png)
+![.NET MAUI SegmentedControl Getting Started](images/segmentcontrol-getting-started.png)
 ## Prerequisites
 
 Before adding the SegmentedControl, you need to:
