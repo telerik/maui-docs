@@ -38,9 +38,24 @@ To install your license key by using the [Telerik UI for .NET MAUI Visual Studio
 
 To install your license key by using the [Telerik UI for .NET MAUI Visual Studio Code extensions]({%slug getting-started-vs-code-integration-overview%}):
 
-1. Open Visual Studio Code
-1. Follow the instructions described in the [Start the Wizard article]({%slug getting-started-vs-code-integration-new-project%}#start-the-wizard) for opening the Telerik Extensions menu.
-1. Check the **TELERIK ACCOUNT DETAILS** field in the wizard and press the **Download License Key File** button.
+1. Open Visual Studio Code and use one of the following approaches:
+* Click the **Telerik Extensions Information** icon in the Visual Studio Code activity bar.
+
+    1. Click on the **Telerik Extensions Information** icon
+    2. Select **MAUI** tab
+    3. Click **Create New Project**.
+    4. The **Telerik UI for .NET MAUI Template Wizard** opens
+
+* From the Visual Studio Code Extensions menu
+
+    1. To open the menu, use:
+    * `Ctrl+Shift+P` on Windows/Linux
+    * `Cmd+Shift+P` on Mac.
+
+    2. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
+    3. The **Telerik UI for .NET MAUI Template Wizard** opens
+
+2. Check the **TELERIK ACCOUNT DETAILS** field in the wizard and press the **Download License Key File** button.
 
     ![.NET MAUI VS Extension License Key](./images/telerik-vs-code-extension.png)
 
