@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI Slider Documentation - Events
 description: Learn about the ValueChanging event that the Telerik UI for .NET MAUI Slider control exposes and find out how to use it.
-position: 10
+position: 11
 slug: slider-events
 ---
 

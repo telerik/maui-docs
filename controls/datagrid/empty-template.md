@@ -2,7 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI DataGrid Documentation - Empty Template
 description: Learn more about the Empty Template property of the DataGrid control.
-position: 9
+position: 14
 slug: datagrid-empty-template
 ---
 
