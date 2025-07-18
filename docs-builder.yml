@@ -120,19 +120,19 @@ meta:
     position: 20
   controls/scheduler/specialslots:
     title: Special Slots
-    position: 9
+    position: 7
   controls/scheduler/recurrence:
     title: Recurrence
-    position: 8
+    position: 6
   controls/scheduler/appointments:
     title: Appointments
-    position: 7
+    position: 5
   controls/scheduler/views:
     title: Views
-    position: 6
+    position: 4
   controls/scheduler/header:
     title: Header
-    position: 5
+    position: 3
   controls/scheduler:
     title: Scheduler
   controls/richtexteditor/styling:
@@ -254,25 +254,25 @@ meta:
     title: DataPager
   controls/datagrid/theming-and-styles:
     title: Styling
-    position: 20
+    position: 21
   controls/datagrid/keyboard-navigation:
     title: Keyboard Navigation
-    position: 19
+    position: 20
   controls/datagrid/commands:
     title: Commands
-    position: 16
+    position: 18
   controls/datagrid/aggregates:
     title: Aggregates
-    position: 10
+    position: 15
   controls/datagrid/grouping:
     title: Grouping
-    position: 7
+    position: 8
   controls/datagrid/filtering:
     title: Filtering
-    position: 6
+    position: 7
   controls/datagrid/cells:
     title: Cells
-    position: 5
+    position: 6
   controls/datagrid/row-details:
     title: Row Details
     position: 4
@@ -320,7 +320,7 @@ meta:
     position: 16
   controls/collectionview/item-swipe:
     title: Item Swipe
-    position: 15
+    position: 14
   controls/collectionview/grouping:
     title: Grouping
     position: 12
@@ -442,7 +442,7 @@ meta:
     position: 9
   security:
     title: Security
-    position: 7
+    position: 8
   styling-and-themes:
     title: Styling and Themes
     position: 5
