@@ -4,7 +4,7 @@ page_title: Migrating the TimeSpanPicker from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin TimeSpanPicker to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 slug: migrate-xamarin-timespanpicker-to-maui
-position: 20
+position: 30
 ---
 
 # Migrating the TimeSpanPicker from Xamarin to .NET MAUI
