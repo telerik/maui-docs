@@ -5,7 +5,7 @@ description: Xamarin to .NET MAUI is an upgrade that modernizes apps with cross-
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 slug: migrate-to-net-maui
 previous_url: /get-started/migrate-to-net-maui
-position: 5
+position: 6
 ---
 
 # Xamarin to .NET MAUI Migration

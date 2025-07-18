@@ -2,7 +2,7 @@
 title: Render Mode
 page_title: .NET MAUI DataGrid Documentation - Render Mode
 description: Learn how to enable SkiaSharp rendering of the Telerik .NET MAUI DataGrid on all platforms.
-position: 4
+position: 5
 slug: datagrid-render-mode
 ---
 
