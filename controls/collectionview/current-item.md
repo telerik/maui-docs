@@ -15,7 +15,9 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 
 The CollectionView allows you to use the `CurrentItem` property of type `object` to programmatically modify the current item during keyboard navigation, when using the mouse, and so on.
 
-The CollectionView exposes a read-only property `IsCurrent` (`bool`) which gets the value that indicates whether the view is visualized as current when navigating with the keyboard. The property returns `true` when the border to the current item gets visualized.
+The `RadCollectionViewItemView` exposes a read-only property `IsCurrent` (`bool`) which gets the value that indicates whether the view is visualized as current when navigating with the keyboard. The property returns `true` when the border to the current item gets visualized.
+
+Access the `RadCollectionViewItemView` through the [`ItemViewStyle`]({%slug collectionview-item-styling%}).
 
 ## Styling the Item
 
