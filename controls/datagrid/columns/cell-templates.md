@@ -59,7 +59,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **4.** Define the `Club` custom object:
 
- <snippet id='datagrid-club-model' />
+<snippet id='datagrid-club-model' />
 
 ![DataGrid Cell Edit Template](../images/datagrid-column-cell-edit-template.png)
 
