@@ -30,7 +30,7 @@ Each toolbar item has a `Style` property and the target type of the property is 
 
 All styling properties available for the target type [`ButtonToolbarItemView`]({%slug toolbar-items-button%}) are also applicable for the PDF toolbar items that use this target type. 
 
-All properties applicable for [`NavigationButtonToolbarItemView`({%slug toolbar-items-navigation-button%}) can be used for stlying the `PdfViewerSearchNavigationToolbarItem`.
+All properties applicable for [`NavigationButtonToolbarItemView`]({%slug toolbar-items-navigation-button%}) can be used for stlying the `PdfViewerSearchNavigationToolbarItem`.
 
 ## Example for Styling the Toolbar
 

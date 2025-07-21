@@ -72,11 +72,10 @@ This command starts a default simulator. To run the application on specific devi
   2. Click Devices from the Window menu.
   3. Select Connected device.
   4. Under Device Information, you will get an identifier, or UDID, of the device.
-
   
-	* CryptoTracker application on iOS.
+* CryptoTracker application on iOS.
 
-	![Telerik UI for .NET MAUI CryptoTracker App iOS](../images/cryptotracker-iphone.png)
+![Telerik UI for .NET MAUI CryptoTracker App iOS](../images/cryptotracker-iphone.png)
 
 >tip Check the [.NET MAUI Examples Apps]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 
