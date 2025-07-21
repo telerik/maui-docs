@@ -1,14 +1,14 @@
 ---
 title: Earlier Versions Support Policy
 page_title: Support Policy for Earlier UI for MAUI Versions
-description: Learn about the support policy on old versions, how bug fixes and feature requests are implemented, and how you can get them.
+description: Learn about the support policy for old versions, how bug fixes and feature requests are implemented, and how to get them.
 slug: old_versions_support_policy
 position: 2
 ---
 
 # Earlier Versions Support Policy in UI for .NET MAUI
 
-This article provides information on the provided support for earlier UI for .NET MAUI versions.
+This article provides information about the support provided for earlier Telerik UI for .NET MAUI versions.
 
 The support policy includes the way bug fixes, feature enhancements, and browser compatibility are updated and applied across the Progress&reg; Telerik&reg; UI for .NET MAUI suite.
 
@@ -24,19 +24,19 @@ Bugs in UI for .NET MAUI components are fixed depending on the priority set by t
 
 Bug fixes are then implemented in the product by the Development team and later introduced in the first [official product release](https://www.telerik.com/support/whats-new/maui-ui/release-history).
 
-To get a bug fix, you have to [upgrade]({%slug upgrade-tutorial%}) your project to the same release as the release that contains the fix, or later.
+To get a bug fix, you have to [upgrade]({%slug upgrade-tutorial%}) your project to the release that contains the fix, or later.
 
-If a workaround for an earlier version is technically feasible, you may be provided with such in the ticketing system. However, Progress Software Corporation cannot guarantee that bug fixes in earlier versions will be available and cannot give warranty for any workarounds that are provided.
+For bugs in earlier versions, you may receive a technically feasible workaround through the ticketing system. However, Progress Software Corporation cannot guarantee that bug fixes for earlier versions will become available and cannot provide any warranty on the provided workarounds.
 
 ## New Features and Components
 
-Feature enhancements and new components become publicly available in the first major release and after their implementation by the Development team.
+Feature enhancements and new components become publicly available in the first major release following their implementation by the Development team.
 
-New features and components are not available for versions which come before the first version in which they were released.
+New features and components will not be made retroactively available for versions earlier than the version in which they were introduced.
 
 ## Implementation Support
 
-For earlier versions, you can get suggestions on how to implement certain scenarios, features, and UI for .NET MAUI tools in your project in the ticketing system and depending on their technical feasibility. If such an implementation relies on the API, fixes, or enhancements that are implemented in later versions, you will need to upgrade to a release which contains the feature you need.
+For earlier versions, you can get suggestions on how to implement certain scenarios, features, and UI for .NET MAUI tools in your project in the ticketing system and depending on their technical feasibility. If such an implementation relies on the API, fixes, or enhancements that are implemented in later versions, you will need to upgrade to a release which contains the required feature.
 
 ## See Also
 
