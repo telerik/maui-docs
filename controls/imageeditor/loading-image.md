@@ -10,7 +10,7 @@ slug: imageeditor-loading-image
 
 The ImageEditor control enables you to visualize images by using the following property:
 
-* `Source`(of type `Microsoft.Maui.Controls.ImageSource`)—Specifies the source of the image. For more details about the `Source`` property, check the [Images in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/image?view=net-maui-7.0) article.
+* `Source`(of type `Microsoft.Maui.Controls.ImageSource`)—Specifies the source of the image. For more details about the `Source` property, check the [Images in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/image?view=net-maui-7.0) article.
 
 In addition, by using the `IsImageLoaded` (read-only `bool`) property, you can get information whether an image is loaded in the editor. There are many scenarios this property helps. For example, if you want to apply a crop operation as soon as the image is loaded.
 
