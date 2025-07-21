@@ -36,26 +36,16 @@ To install your license key by using the [Telerik UI for .NET MAUI Visual Studio
 
 ### Installing a License Key with the VS Code Extensions
 
-To install your license key by using the [Telerik UI for .NET MAUI Visual Studio Code extensions]({%slug getting-started-vs-code-integration-overview%}):
+To install your license key by using the [Telerik UI for .NET MAUI Visual Studio Code extensions menu]({%slug getting-started-vs-code-integration-overview%}):
 
-1. Open Visual Studio Code and use one of the following approaches:
-* Click the **Telerik Extensions Information** icon in the Visual Studio Code activity bar.
+1. Open Visual Studio Code
+1. Open the Visual Studio Code extensions menu:
+    * `Ctrl+Shift+P` on Windows/Linux
+    * `Cmd+Shift+P` on Mac.
 
-    1. Click on the **Telerik Extensions Information** icon
-    2. Select **MAUI** tab
-    3. Click **Create New Project**.
-    4. The **Telerik UI for .NET MAUI Template Wizard** opens
-
-* From the Visual Studio Code Extensions menu
-
-    1. To open the menu, use:
-        * `Ctrl+Shift+P` on Windows/Linux
-        * `Cmd+Shift+P` on Mac.
-
-    2. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
-    3. The **Telerik UI for .NET MAUI Template Wizard** opens
-
-2. Check the **TELERIK ACCOUNT DETAILS** field in the wizard and press the **Download License Key File** button.
+1. Select **Telerik UI for .NET MAUI Template Wizard: Launch** from the menu and press **Enter**. 
+1. The **Telerik UI for .NET MAUI Template Wizard** opens.
+1. Check the **TELERIK ACCOUNT DETAILS** field in the wizard and press the **Download License Key File** button.
 
     ![.NET MAUI VS Extension License Key](./images/telerik-vs-code-extension.png)
 
@@ -76,17 +66,12 @@ To manually download and install a license key for Telerik UI for .NET MAUI:
 
     ![Download a Telerik UI for .NET MAUI License Key](./images/download-license-key.png)
 
-### Activating the Telerik UI for .NET MAUI Components
+1. Copy the [downloaded](#manual-license-key-installation) `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
 
-To activate the Telerik UI for .NET MAUI controls:
-
-* Copy the [downloaded](#manual-license-key-installation) `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
-
-    * For Windows: `%AppData%\Telerik\telerik-license.txt`.
-        * For the standard Windows user, that path resolves to `C:\Users\[windows_username]\AppData\Roaming\Telerik\telerik-license.txt`, it can resolve differently for service accounts.
+    * For Windows: `%AppData%\Telerik\telerik-license.txt`. For the standard Windows user, that path resolves to `C:\Users\[windows_username]\AppData\Roaming\Telerik\telerik-license.txt`, it can resolve differently for service accounts.
     * For Mac/Linux: `~/.telerik/telerik-license.txt`. If `.telerik` folder does not exist, create such, and paste the `telerik-license.txt` file in it.
     
-* Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
+Alternatively, copy the `telerik-license.txt` license key file to the root folder of your project. This makes the license key available only to this project. Do not commit the file to source control as this is your personal license key.
 
 When you build the project, the `Telerik.Licensing` NuGet package automatically locates the license file and uses it to activate the MAUI controls.
 
