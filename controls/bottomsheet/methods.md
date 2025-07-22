@@ -20,5 +20,8 @@ The example shows how to use the `GoToBottomSheetState(string name)` method:
 
 ## See Also
 
-
+- [Configure the BottomSheet]({%slug bottomsheet-configuration%})
+- [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})
+- [Style the BottomSheet]({%slug bottomsheet-styling%})
+- [Events]({%slug bottomsheet-events%})
 

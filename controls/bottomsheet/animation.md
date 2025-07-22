@@ -27,3 +27,7 @@ The snippet below shows how the `AnimationDuration`, `AnimationEasing` propertie
 
 ## See Also
 
+- [Configure the BottomSheet]({%slug bottomsheet-configuration%})
+- [Style the BottomSheet]({%slug bottomsheet-styling%})
+- [Events]({%slug bottomsheet-events%})
+- [Methods]({%slug bottomsheet-methods%})

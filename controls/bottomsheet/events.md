@@ -15,4 +15,7 @@ The `PositionChanged` event handler receives two parameters:
 
 # See Also
 
-
+- [Configure the BottomSheet]({%slug bottomsheet-configuration%})
+- [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})
+- [Style the BottomSheet]({%slug bottomsheet-styling%})
+- [Methods]({%slug bottomsheet-methods%})

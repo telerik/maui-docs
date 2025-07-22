@@ -29,7 +29,10 @@ The available properties are described below:
 * `CornerRadius` (`Thickness`)&mdash;Specifies the corner radius of the border around the control.
 * `WidthRequest` (`double`)&mdash;Specifies the width of the handle.
 * `HeightRequest` (`double`)&mdash;Specifies the height of the handle.
-* 
+
 ## See Also
 
-- [Getting Started]({% slug expander-getting-started%})
+- [Configure the BottomSheet]({%slug bottomsheet-configuration%})
+- [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})
+- [Events]({%slug bottomsheet-events%})
+- [Methods]({%slug bottomsheet-methods%})
