@@ -31,9 +31,9 @@ You can programmatically select a `TabViewItem` by setting the following propert
 
 **Example with Selected Item**
 
-<snippet id='tabview-features-selection-csharp'/>
+<snippet id='tabview-features-selection-csharp' />
 
-And the namespace used:
+And the `telerik` namespace:
 
 ```C#
 using Telerik.Maui.Controls;

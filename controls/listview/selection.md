@@ -82,10 +82,10 @@ The example below shows how to use ListView selection feature and demonstrates h
 **3.** Add the `telerik` namespace:
 
 ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                           
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Set the `ViewModel` class as a `BindingContext` and call the `InitializePickers()` method:
+**4.** Set the `ViewModel` class as a `BindingContext` after the `InitializeComponent()` method:
 
 <snippet id='listview-features-selection-setvm' />
 

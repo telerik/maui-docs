@@ -24,11 +24,11 @@ To implement such a column and to avoid the usage of the templates, use the [Cel
 
 Here is the implementation:
 
-**1.** Draw a `CheckBox` using the `CellRenderer` approach. 
+1. Draw a `CheckBox` using the `CellRenderer` approach. 
 
-    **1.1** Create a custom `CheckboxColumnRenderer` class that inherits from `DataGridCellRenderer`. 
+    1.1 Create a custom `CheckboxColumnRenderer` class that inherits from `DataGridCellRenderer`. 
     
-    **1.2** Override the `RenderContainer` method and draw the custom control.
+    1.2 Override the `RenderContainer` method and draw the custom control.
 
 ```C#
 public class CheckboxColumnRenderer : DataGridCellRenderer
@@ -95,7 +95,7 @@ public class CheckboxColumnRenderer : DataGridCellRenderer
 ```
 
 
-**2.** In the XAML, set the custom `CheckboxColumnCellRenderer` class to the `DataGridBooleanColumn.CellRenderer` property:
+2. In the XAML, set the custom `CheckboxColumnCellRenderer` class to the `DataGridBooleanColumn.CellRenderer` property:
 
 ```XAML
 <ContentPage.Resources>
@@ -138,7 +138,7 @@ public class CheckboxColumnRenderer : DataGridCellRenderer
 </Grid>
 ```
 
-**3.** Add a sample data model:
+3. Add a sample data model:
 
 ```C#
 public class EmployeeDto : Employee
@@ -163,7 +163,7 @@ public class EmployeeDto : Employee
 }
 ```
 
-**4.** Add the `ViewModel`:
+4. Add the `ViewModel`:
 
 ```C#
 public class MainViewModel : ViewModelBase

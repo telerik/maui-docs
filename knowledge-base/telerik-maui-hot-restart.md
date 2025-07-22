@@ -25,7 +25,7 @@ The error message is described below:
 
 The following error message is received when trying to deploy on iPhone device using Hot Restart feature from Visual Studio for Windows. 
 
- ```
+ ```bash
 NSForwarding: warning: does not implement methodSignatureForSelector:
 
 NSForwarding: warning: does not implement doesNotRecognizeSelector:

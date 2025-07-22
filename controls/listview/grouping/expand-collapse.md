@@ -76,23 +76,23 @@ By handling the `GroupHeaderTap` command, you can control the collapse/expand be
 **1.** Define the `GroupHeaderTapCommand` class that derives from `ListViewCommand`:
 
 ```C#
-	public class GroupHeaderTapCommand : ListViewCommand
+public class GroupHeaderTapCommand : ListViewCommand
+{
+	public GroupHeaderTapCommand()
 	{
-		public GroupHeaderTapCommand()
-		{
-			Id = CommandId.GroupHeaderTap;
-		}
-		public override bool CanExecute(object parameter)
-		{
-			return true;
-		}
-		public override void Execute(object parameter)
-		{
-			var context = parameter as GroupHeaderContext;
-			if (context.Level > 1)
-				context.IsExpanded = !context.IsExpanded;
-		}
+		Id = CommandId.GroupHeaderTap;
 	}
+	public override bool CanExecute(object parameter)
+	{
+		return true;
+	}
+	public override void Execute(object parameter)
+	{
+		var context = parameter as GroupHeaderContext;
+		if (context.Level > 1)
+			context.IsExpanded = !context.IsExpanded;
+	}
+}
 ```
 
 **2.** Add the `GroupHeaderTapCommand` to the `Commands` collection of the ListView instance:

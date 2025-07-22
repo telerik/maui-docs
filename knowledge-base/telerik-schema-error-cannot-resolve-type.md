@@ -35,7 +35,9 @@ Start using a custom controls library and add a common `schema` namespace.
 
 ## Error Message
 
-`XamlC error XFC0000: Cannot resolve type "http://schemas.telerik.com/2022/xaml/maui:telerik:control".`
+```bash
+XamlC error XFC0000: Cannot resolve type "http://schemas.telerik.com/2022/xaml/maui:telerik:control".
+```
 
 ## Cause
 

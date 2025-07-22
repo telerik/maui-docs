@@ -19,7 +19,7 @@ The following example shows how to set the currently selected time.
 
 Define the TimePicker:
 
-```
+```XAML
 <telerik:RadTimePicker Time="10:30:00"/>
 ```
 

@@ -52,7 +52,7 @@ ListView should not be used in a View that restricts the Height to the minimum a
 
 The recommended use is to place the `RadListView` control in a container that expands to fill available space. For example, the `RadListView` in the example below is in the star-sized Grid `RowDefinition`.
 
-```
+```XAML
 <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="*" />

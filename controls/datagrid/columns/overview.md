@@ -21,7 +21,7 @@ By default, the DataGrid will generate typed columns automatically based on the 
 
 For example, let's have a sample `Club` object:
 
-```XAML
+```C#
 public class Club
 { 
     public string Name { get; set; }

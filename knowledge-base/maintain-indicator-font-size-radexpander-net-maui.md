@@ -24,14 +24,14 @@ To maintain the indicator font size in RadExpander for .NET MAUI, you can use an
 
 **1.** Add the necessary namespaces to your XAML file:
 
-```xml
+```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 xmlns:expander="clr-namespace:Telerik.Maui.Controls.Expander;assembly=Telerik.Maui.Controls"
 ```
 
 **2.** Define an implicit style for the `ExpandCollapseIndicator` control:
 
-```xml
+```XAML
 <ContentPage.Resources>
     <ResourceDictionary>
         <Style TargetType="expander:ExpandCollapseIndicator">
@@ -43,7 +43,7 @@ xmlns:expander="clr-namespace:Telerik.Maui.Controls.Expander;assembly=Telerik.Ma
 
 **3.** Use the `RadExpander` control with the desired indicator font settings:
 
-```xml
+```XAML
 <telerik:RadExpander x:Name="expander"
                      BorderColor="LightBlue"
                      BorderThickness="2">

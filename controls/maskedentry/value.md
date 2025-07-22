@@ -12,17 +12,26 @@ To set a predefined value inside the MaskedEntry, define the `Value`(`string`) p
 
 * TextMaskedEntry with `Value` property
 
-Define the control:
+Define the `RadTextMaskedEntry` in XAML:
 
 <snippet id='textmaskedentry-value-xaml' />
+
+Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+```
+
+Define the `RadTextMaskedEntry` in C#:
+
 ```C#
 this.textMaskedEntry.Value = "Test";
 ```
 
-Add the namespace:
+Add the `telerik` namespace:
 
-```XAML
-xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
+```C#
+using Telerik.Maui.Controls;
 ```
 
 ## Null Value Support
