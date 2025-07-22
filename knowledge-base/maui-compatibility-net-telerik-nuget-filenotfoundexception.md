@@ -46,9 +46,9 @@ To resolve this issue, use either of the following approaches:
 
 The dependency of the Telerik controls on the `Microsoft.Maui.Controls.Compatibility` package has been removed in Telerik UI for .NET MAUI version 9.0.0. Upgrading the controls from version 8.0.0 to 9.0.0 solves the issue.
 
-### Reference the`Microsoft.Maui.Controls.Compatibility` Package
+### Reference the `Microsoft.Maui.Controls.Compatibility` Package
 
-Add the`Microsoft.Maui.Controls.Compatibility` package as a reference to the project:
+Add the `Microsoft.Maui.Controls.Compatibility` package as a reference to the project:
 
 ```xml
 <ItemGroup>
