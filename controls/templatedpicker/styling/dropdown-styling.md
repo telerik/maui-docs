@@ -29,23 +29,23 @@ The following example shows how the styling properties are applied.
 
 **Define the `RadTemplatedPicker`**
 
-<snippet id='templatedpicker-style' />
+<snippet id='templatedpicker-dropdown-style' />
 
 **Define the DropDownViewStyle**
 
-<snippet id='dropDownViewStyle' />
+<snippet id='templatedpicker-style-dropdownview-style' />
 
-**Define the FooterStyle**
+**Define the CommonButtonStyle**
 
-<snippet id='timepicker-style-footer-style' />
+<snippet id='templatedpicker-commonbuttonstyle' />
 
 **Define the AcceptButtonStyle**
 
-<snippet id='timepicker-style-accept-button-style' />
+<snippet id='templatedpicker-acceptbuttonstyle' />
 
 **Define the CancelButtonStyle**
 
-<snippet id='timepicker-style-cancel-button-style' />
+<snippet id='templatedpicker-cancelbuttonstyle' />
 
 ## Namespaces
 

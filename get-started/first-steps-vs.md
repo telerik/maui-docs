@@ -74,10 +74,7 @@ To add the Telerik NuGet source to Visual Studio:
   1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate 
   with your [Telerik account](https://www.telerik.com/account/) user name and password.
 
-  1. Select the **Browse** tab and enter `MAUI` in the search box.
-
-		* If using a trial license, select the `Telerik.UI.for.Maui.Trial` package.
-		* If using a commercial license, select the `Telerik.UI.for.Maui` package.
+  1. Select the **Browse** tab, enter `MAUI` in the search box, and then select the `Telerik.UI.for.Maui` package.
   
   1. Select the checkbox for the target Project, and then click **Install**.
 

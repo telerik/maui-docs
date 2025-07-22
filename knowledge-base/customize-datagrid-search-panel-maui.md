@@ -110,6 +110,6 @@ Replace `"YourNamespaceHere"` with your actual namespace. This custom `ControlTe
 
 ## See Also
 
-- [DataGrid Overview](https://docs.telerik.com/devtools/maui/controls/datagrid/overview)
-- [Customizing DataGrid Appearance](https://docs.telerik.com/devtools/maui/controls/datagrid/styling)
-- [Search in DataGrid](https://docs.telerik.com/devtools/maui/controls/datagrid/features/search)
+- [DataGrid Overview in MAUI]({%slug datagrid-overview%})
+- [Customizing DataGrid Appearance]({%slug datagrid-styling%})
+- [Search in DataGrid]({%slug datagrid-search-as-you-type%})

@@ -38,7 +38,7 @@ To add a **Select All** option in the dropdown list of a Telerik UI for .NET MAU
                 <Label Text="Select All"/>
             </HorizontalStackLayout>
         </DataTemplate>
-    </telerik:RadComboBox .HeaderTemplate>
+    </telerik:RadComboBox.HeaderTemplate>
 </telerik:RadComboBox >
 ```
 

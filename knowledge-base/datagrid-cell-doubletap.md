@@ -10,18 +10,10 @@ res_type: kb
 ---
 
 ## Environment
-<table>
-    <tbody>
-        <tr>
-            <td>Product Version</td>
-            <td>5.2.0</td>
-        </tr>
-        <tr>
-            <td>Product</td>
-            <td>DataGrid for MAUI</td>
-        </tr>
-    </tbody>
-</table>
+
+| Version | Product | 
+| --- | --- |
+| 5.2.0 | Telerik UI for .NET MAUI DataGrid | 
 
 
 ## Description

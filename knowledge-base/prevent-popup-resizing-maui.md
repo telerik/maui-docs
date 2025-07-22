@@ -110,4 +110,4 @@ By following the above steps, the Popup's size will remain fixed even when conte
 
 ## See Also
 
-- [Popup Overview](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.RadPopup)
+- [Popup Overview]({% slug popup-overview %})

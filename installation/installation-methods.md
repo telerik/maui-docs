@@ -14,7 +14,7 @@ Telerik UI for .NET MAUI offers several installation methods, and the choice dep
 
 ## Trial
 
-If you are new to Telerik UI for .NET MAUI and don't have a license yet, start a free trial by using the [trial installer]({% slug install-trial %}). During your 30-day trial, you also get free technical support.
+If you are new to Telerik UI for .NET MAUI and don't have a license yet, start a free trial by using the [MAUI installer]({% slug install-trial %}). During your 30-day trial, you also get free technical support.
 
 ## NuGet
 

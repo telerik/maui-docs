@@ -53,7 +53,6 @@ The `TextFilterDescriptor` supports the following properties:
 
 To use `TextFilterDescriptor`, you need to add its instance to the `RadDataGrid.FilterDescriptors` collection and to set its `PropertyName` property to associate it with the property from your custom objects. Then, through the `Operator` and `Value` properties, you need to set the filter condition and the value to compare. You can also use the `IsCaseSensitive` property to determine if the text comparisons will be case-sensitive or not.
 
-<!-- <snippet id='datagrid-textfilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:TextFilterDescriptor PropertyName="Country"
                               Operator="StartsWith"
@@ -71,7 +70,6 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<!-- <snippet id='datagrid-numericalfilterdecsriptor-xaml'/> -->
 ```XAML
 <telerik:NumericalFilterDescriptor PropertyName="StadiumCapacity"
                                    Operator="IsLessThan"
@@ -88,7 +86,6 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:DateTimeFilterDescriptor PropertyName="Established"
                                   Operator="IsLessThan"
@@ -105,7 +102,6 @@ It exposes the following properties:
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 * `Operator`&mdash;Gets or sets the `NumericalOperator` value that defines the boolean logic behind the left and right operand comparison.
 
-<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:TimeSpanFilterDescriptor PropertyName="Time"
                                   Operator="IsLessThan"
@@ -121,7 +117,6 @@ It exposes the following properties:
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 
-<!-- <snippet id='datagrid-booleanfilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:BooleanFilterDescriptor PropertyName="IsChampion"
                                  Value="true"/>
@@ -161,7 +156,6 @@ It exposes the following properties:
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
 * `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
 
-<!-- <snippet id='datagrid-datetimefilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:DistinctValuesFilterDescriptor PropertyName="Country" Value="Austria" />
 ```
@@ -170,7 +164,6 @@ It exposes the following properties:
 
 The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that stores an arbitrary number of other descriptors instances. The logical `AND` or `OR` operator is applied upon all composed filters to determine the result of the `PassesFilter` routine.
 
-<!-- <snippet id='datagrid-compositefilterdescriptor-xaml'/> -->
 ```XAML
 <telerik:CompositeFilterDescriptor Operator="And">
 	<telerik:CompositeFilterDescriptor.Descriptors>
@@ -194,7 +187,6 @@ Then, you need to add a `DelegateFilterDescriptor` to the `RadDataGrid.FilterDes
 
 The following example demonstrates the `CustomFilter` implementation:
 
-<!-- <snippet id='datagrid-delegatefilterdescriptor-csharp'/> -->
 ```C#
 class CustomFilter : Telerik.Maui.Controls.Data.IFilter
 {
@@ -218,7 +210,6 @@ class CustomFilter : Telerik.Maui.Controls.Data.IFilter
 
 Add the `DelegateFilterDescriptor` to the `RadDataGrid` instance:
 
-<!-- <snippet id='datagrid-delegatefilterdescriptor-added'/> -->
 ```C#
 dataGrid.FilterDescriptors.Add(new DelegateFilterDescriptor() { Filter = new CustomFilter()});
 ```

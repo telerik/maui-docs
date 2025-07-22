@@ -9,11 +9,11 @@ slug: treedatagrid-overview
 
 # .NET MAUI TreeDataGrid Overview
 
-The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines its powerful data-driven features with a tree-like structure for displaying data. 
+The Telerik UI for [.NET MAUI TreeDataGrid](https://www.telerik.com/maui-ui/treedatagrid) control presents hierarchical data with rows and columns. The TreeDataGrid inherits from the [DataGrid]({%slug datagrid-overview%}) control and combines its powerful data-driven features with a tree-like structure.
 
 When data from a database is sent to the client, it is usually converted to a business object (or the so-called `ViewModel`) where each instance represents a table row and each property of the object represents a column within the original table. The TreeDataGrid also supports alternating row colors so that your users can distinguish one row from another.
 
-The optimized data layer of the TreeDataGrid enables fast grouping, sorting, and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
+The optimized data layer of the TreeDataGrid enables fast sorting and filtering operations. The user interface uses virtualization for its row and cell elements, which means that visual elements are created only when needed and only for the currently visible cells.
 
 ![Telerik .NET MAUI Tree Data Grid on all platforms](images/treedatagrid-overview.png)
 
@@ -79,7 +79,7 @@ The MAUI TreeDataGrid allows you to add [commands]({%slug treedatagrid-commands-
 
 ## Theming and Style
 
-You can apply a [theme]({%slug themes-overview%}) to the MAUI TreeDataGrid. If you prefer to use your own styling, then you can use the flexible styling API of the .NET MAUI TreeDataGrid. The styling API allows you to style the TreeDataGrid rows and columns, the cell content inside the columns, the tree arrow appearance, etc.
+You can apply a [theme]({%slug themes-overview%}) to the MAUI TreeDataGrid. If you prefer to use your own styling, then you can use the [flexible styling API]({%slug treedatagrid-styling%}) of the .NET MAUI TreeDataGrid. The styling API allows you to style the TreeDataGrid rows and columns, the cell content inside the columns, the tree arrow appearance, etc.
 In addition, you can apply a style selector.
 
 ## Localization

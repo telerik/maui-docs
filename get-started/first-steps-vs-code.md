@@ -74,19 +74,9 @@ After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 
 1. Use .NET CLI to install the NuGet package:
 
-	* If you have a trial license, use the following command:
-
-		```
-		dotnet add package Telerik.UI.for.Maui.Trial
-		```
-
-	* If you have purchased a commercial license, use the following command:
-
-		```
-		dotnet add package Telerik.UI.for.Maui
-		```
-
-> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
+	```
+	dotnet add package Telerik.UI.for.Maui
+	```
 
 ## Step 5: Add the Telerik Namespace and Register the Controls
 

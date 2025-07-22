@@ -11,19 +11,9 @@ previous_url: /installation/windows/vs-template
 
 This article demonstrates how to use the Telerik Visual Studio extensions to create a new project that is pre-configured for the Progress&reg; Telerik&reg; UI for .NET MAUI components.
 
-## Get the Wizard
+To create the project, you will use the [Create New Project wizard](#get-the-wizard), which is a feature of the Telerik extensions.
 
-To use the **Telerik UI for .NET MAUI Create New Project** wizard, install the Telerik UI for .NET MAUI Visual Studio Extension. You can get the extension from:
-
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
-
-* The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
-
-* [The Telerik UI for .NET MAUI automated installer]({%slug automated-installer%})
-
-## Start the Wizard
-
-To start the wizard, use either the [Extensions](#extensions-menu) or the [Project](#project-menu) menu.
+@[template](/_contentTemplates/common/extension.md#vs-extension-download)
 
 ### Extensions Menu
 

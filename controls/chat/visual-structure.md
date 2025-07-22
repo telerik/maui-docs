@@ -8,11 +8,13 @@ slug: chat-visual-structure
 
 # .NET MAUI Chat Visual Structure
 
-The Telerik UI for .NET MAUI Chat exposes a set of properties that allow you to configure all elements in its visual structure.
+The visual structure of the .NET MAUI Chat represents the anatomy of the UI component. Being familiar with the visual elements of the Chat allows you to quickly find the information required to configure them.
+
+The following image shows the anatomy of the Chat.
 
 ![.NET MAUI Chat Visual Structure](images/chat-visualstructure.png)
 
-## Legend
+## Displayed Elements
 
 - `Author`&mdash;Represents the current user who sends messages using the Chat UI. This instance determines the alignment of the messages—incoming messages are placed on the left, outgoing messages—on the right.
 - `Items`&mdash;Contains all the chat items included in the conversation, such text messages, picker items, and so on. For more details on the available Chat items, see the [Chat Items]({%slug chat-items-overview %}) topic.
@@ -24,3 +26,5 @@ The Telerik UI for .NET MAUI Chat exposes a set of properties that allow you to 
 ## See Also
 
 - [Commands]({% slug chat-commands %})
+- [Chat Items]({%slug chat-items-overview %})
+- [MVVM Support]({%slug chat-mvvm-support %})

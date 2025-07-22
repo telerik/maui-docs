@@ -8,8 +8,6 @@ slug: dataform-visual-structure
 
 # .NET MAUI DataForm Visual Structure
 
-The DataForm for .NET MAUI uses a set of visual elements when rendered.
-
 The visual structure of the .NET MAUI DataForm represents the anatomy of the UI component. Being familiar with the visual elements of the DataForm allows you to quickly find the information required to configure them.
 
 The following image shows the anatomy of the DataForm.

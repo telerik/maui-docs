@@ -13,6 +13,8 @@ res_type: kb
 | --- | --- | ---- | 
 | All versions | Telerik UI for .NET MAUI |[Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
+@[template](/_contentTemplates/common/trial-package-deprecation.md#kb-note-for-upgrades)
+
 ## Description
 
 While using a trial license, a trial message is rendered over the components and you see a popup window:

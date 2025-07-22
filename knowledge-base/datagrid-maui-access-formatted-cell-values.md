@@ -47,5 +47,5 @@ In this example, `grid` refers to your DataGrid instance. Ensure you adjust `Dat
 
 ## See Also
 
-- [DataGrid Columns Overview in MAUI](https://docs.telerik.com/devtools/maui/controls/datagrid/columns/datagrid-columns-overview)
-- [Data Binding in DataGrid for MAUI](https://docs.telerik.com/devtools/maui/controls/datagrid/data-binding)
+- [DataGrid Columns Overview in MAUI]({%slug datagrid-columns-overview%})
+- [Data Binding in DataGrid for MAUI]({%slug datagrid-data-binding%})

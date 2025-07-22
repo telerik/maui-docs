@@ -10,11 +10,51 @@ slug: richtexteditor-toolbar-styling
 
 The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides a flexible styling API for its toolbar items. 
 
-The `RichTextEditorToolbar` is based on the `RadToolbar` control. All toolbar items in the RichTextEditor inherit from `ButtonToolbarItem`.
+## Style the Toolbar Items
 
-All styling properties available for the `ButtonToolbarItem` are applicable for the rich text editor toolbar items.
+The `RichTextEditorToolbar` is based on the `RadToolbar` control, so the toolbar items in the RichTextEditor use a `ToolbarItem`. 
 
-Here is an example:
+Each toolbar item has a `Style` property and the target type of the property is the corresponding `ToolbarItemView`:
+
+| Toolbar Item | Style Target Type |
+| ------------- | --------------- |
+| `RichTextEditorFontFamilyToolbarItem` | `RichTextEditorListPickerToolbarItemView` |
+| `RichTextEditorFontSizeToolbarItem` | `RichTextEditorListPickerToolbarItemView` |
+| `SeparatorToolbarItem` | `ToolbarItem` |
+| `RichTextEditorBoldToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorItalicToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorUnderlineToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorAlignLeftToolbarItem` | `RadioButtonToolbarItemView` |
+| `RichTextEditorAlignCenterToolbarItem` | `RadioButtonToolbarItemView` |
+| `RichTextEditorAlignRightToolbarItem` | `RadioButtonToolbarItemView` |
+| `RichTextEditorAlignJustifyToolbarItem` | `RadioButtonToolbarItemView` |
+| `RichTextEditorTextColorToolbarItem` | `RichTextEditorColorPickerToolbarItemView` |
+| `RichTextEditorHighlightTextColorToolbarItem` | `RichTextEditorColorPickerToolbarItemView` |
+| `RichTextEditorBulletingToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorNumberingToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorOutdentToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorIndentToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorTextFormattingToolbarItem` | `RichTextEditorListPickerToolbarItemView` |
+| `RichTextEditorClearFormattingToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorStrikethroughToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorSuperscriptToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorSubscriptToolbarItem` | `ToggleButtonToolbarItemView` |
+| `RichTextEditorUndoToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorRedoToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorColorPickerToolbarItem` | `RichTextEditorColorPickerToolbarItemView` |
+| `RichTextEditorCopyToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorCutToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorPasteHtmlToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorAddOrEditHyperlinkToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorAddHyperlinkToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorRemoveHyperlinkToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorAddOrEditImageToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorHyperlinkNavigationToolbarItem` | `ButtonToolbarItemView` |
+| `RichTextEditorImageNavigationToolbarItem` | `ButtonToolbarItemView` |
+
+All styling properties available for the target type [`ButtonToolbarItemView`]({%slug toolbar-items-button%}), [`ToggleButtonToolbarItemView`]({%slug toolbar-items-toggle-button%}), [`RadioButtonToolbarItemView`]({%slug toolbar-items-radio-button%}) are also applicable for the RichTextEditor toolbar items that use this target type. 
+
+## Example for Styling the Toolbar
 
 **1.** RichTextEditor and Toolbar definitions in XAML:
 

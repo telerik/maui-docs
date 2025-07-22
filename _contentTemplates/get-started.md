@@ -2,13 +2,13 @@
 * If you already have an [active license](https://www.telerik.com/account/your-licenses) for Telerik UI for .NET MAUI, skip this step and continue with [Step 1](#step-1-download-your-license-key-file).
 * If you don't have an active license, follow the steps below to activate your free trial:
 
-    1. [Download](https://www.telerik.com/try/ui-for-maui) the Progress Trial Installer and start the installation.
+    1. [Download](https://www.telerik.com/try/ui-for-maui) the MAUI Installer and start the installation.
 
     1. Make sure that **Telerik UI for .NET MAUI** is selected and continue with the setup.
 
     1. Log in with your Telerik account and complete the installation.
 
-    After the successful installation of .NET MAUI, the Progress Trial Installer activates your 30 day free trial. The installer also downloads your license key file, so you can skip the next step and continue with [Step 2: Create a New MAUI Project](#step-2-create-a-new-maui-project).
+    After the successful installation of .NET MAUI, the MAUI Installer activates your 30 day free trial. The installer also downloads your license key file, so you can skip the next step and continue with [Step 2: Create a New MAUI Project](#step-2-create-a-new-maui-project).
 #end
 
 #add-namespace-register-controls

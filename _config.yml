@@ -186,7 +186,6 @@ navigation:
     ##CollectionView
     controls/collectionview:
         title: "CollectionView"
-
     controls/collectionview/layouts:
         title: "Layouts"
         position: 5
@@ -202,6 +201,12 @@ navigation:
     controls/collectionview/load-on-demand:
         title: "Load On Demand"
         position: 17
+    controls/collectionview/accessibility:
+        title: "Accessibility"
+        position: 20
+    controls/collectionview/accessibility/keyboard-navigation:
+        title: "Keyboard Navigation"
+        position: 1
     controls/collectionview/styling:
         title: "Styling"
         position: 30
@@ -544,25 +549,28 @@ navigation:
         title: "TreeDataGrid"
     controls/treedatagrid/populating-with-data:
         title: "Populating with Data"
-        position: 2
+        position: 4
     controls/treedatagrid/columns:
         title: "Columns"
-        position: 3
+        position: 5
     controls/treedatagrid/rows:
-        title: "Row Details"
-        position: 4
+        title: "Rows"
+        position: 6
     controls/treedatagrid/cells:
         title: "Cells"
-        position: 5
+        position: 7
     controls/treedatagrid/filtering:
         title: "Filtering"
-        position: 6
+        position: 9
     controls/treedatagrid/commands:
         title: "Commands"
-        position: 16
+        position: 25
     controls/treedatagrid/keyboard-navigation:
         title: "Keyboard Navigation"
-        position: 19
+        position: 26
+    controls/treedatagrid/theming-and-styles:
+        title: "Styling"
+        position: 28
     ## End TreeDataGrid
     ## TreeView
     controls/treeview:

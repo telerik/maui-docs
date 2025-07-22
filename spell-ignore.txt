@@ -84,3 +84,5 @@ CartesianChart
 PieChart
 TextInput
 telerik
+TreeDataGrid
+Theming

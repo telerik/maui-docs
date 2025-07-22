@@ -126,4 +126,8 @@ The image shows the default appearance of the page:
 ![.NET MAUI Reset Password Screen](../images/reset_screen.png)
 
 
+## See Also
 
+* [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})

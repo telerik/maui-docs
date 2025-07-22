@@ -28,8 +28,7 @@ This KB article also answers the following questions:
 
 To address the issue of the NumericInput's value being cut off due to the `MinWidth` setting of the `InputEditor`, follow these steps:
 
-1. Define the ControlTemplate&mdash;To access RadNumericInput's internal NumericInputEntry subcomponent, follow the directions in the [NumericInput - ControlTemplate](https://docs.telerik.com/devtools/maui/controls/numericinput/control-template) documentation.
-
+1. Define the ControlTemplate&mdash;To access RadNumericInput's internal NumericInputEntry subcomponent.
 2. Subscribe to the NumericInputEntry's Loaded Event:  
 
     ```xaml

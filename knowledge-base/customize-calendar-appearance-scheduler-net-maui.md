@@ -27,7 +27,127 @@ This knowledge base article also answers the following questions:
 
 To customize the appearance of the drop-down calendar in the Telerik Scheduler for .NET MAUI, apply implicit styles targeting the `RadCalendar` component. Utilize a `DayStyleSelector` to define custom styles for different states of calendar labels such as normal, selected, and out-of-scope days.
 
-**1.** Define a custom `DayStyleSelector` in the `ResourceDictionary` of your `ContentPage`. This selector allows specifying styles for various label states within the calendar.
+**1.** Define `CustomCalendarStyleSelector` class which inherits from `CalendarStyleSelector` and override the `SelectStyle` method:
+
+```C#
+public class CustomCalendarStyleSelector : CalendarStyleSelector
+{
+    private Style customNormalLabelStyle;
+    private Style customOutOfScopeLabelStyle;
+    private Style customSelectedLabelStyle;
+    private Style customSelectedMouseOverLabelStyle;
+    private Style sundayMouseOverLabelStyle;
+    private Style sundaySelectedLabelStyle;
+    private Style sundaySelectedMouseOverLabelStyle;
+
+    public override Style SelectStyle(object item, BindableObject container)
+    {
+        var node = (CalendarNode)item;
+        var calendar = (RadCalendar)node.Calendar;
+        bool isToday = node.IsToday;
+        bool isSunday = calendar.DisplayMode == CalendarDisplayMode.Month && node.Date.Value.DayOfWeek == DayOfWeek.Sunday;
+        bool isMouseOver = node.IsMouseOver;
+
+        if (node.IsSelected)
+        {
+            return isMouseOver
+                ? isSunday ? this.SundaySelectedMouseOverLabelStyle : this.CustomSelectedMouseOverLabelStyle
+                : isSunday ? this.SundaySelectedLabelStyle : this.CustomSelectedLabelStyle;
+        }
+
+        if (isMouseOver)
+        {
+            return isSunday ? this.SundayMouseOverLabelStyle : base.SelectStyle(item, container);
+        }
+
+        if (isToday || !node.IsEnabled)
+        {
+            return base.SelectStyle(item, container);
+        }
+
+        if (node.IsOutOfScope)
+        {
+            return this.CustomOutOfScopeLabelStyle;
+        }
+
+        return isSunday ? this.SundayLabelStyle : this.CustomNormalLabelStyle;
+    }
+
+    public Style CustomNormalLabelStyle
+    {
+        get => customNormalLabelStyle;
+        set
+        {
+            customNormalLabelStyle = value;
+            customNormalLabelStyle.BasedOn = this.NormalLabelStyle;
+        }
+    }
+
+    public Style CustomOutOfScopeLabelStyle
+    {
+        get => customOutOfScopeLabelStyle;
+        set
+        {
+            customOutOfScopeLabelStyle = value;
+            customOutOfScopeLabelStyle.BasedOn = this.OutOfScopeLabelStyle;
+        }
+    }
+
+    public Style CustomSelectedLabelStyle
+    {
+        get => customSelectedLabelStyle;
+        set
+        {
+            customSelectedLabelStyle = value;
+            customSelectedLabelStyle.BasedOn = this.SelectedBorderStyle;
+        }
+    }
+
+    public Style CustomSelectedMouseOverLabelStyle
+    {
+        get => customSelectedMouseOverLabelStyle;
+        set
+        {
+            customSelectedMouseOverLabelStyle = value;
+            customSelectedMouseOverLabelStyle.BasedOn = this.CustomSelectedLabelStyle;
+        }
+    }
+
+    public Style SundayLabelStyle { get; set; }
+
+    public Style SundayMouseOverLabelStyle
+    {
+        get => sundayMouseOverLabelStyle;
+        set
+        {
+            sundayMouseOverLabelStyle = value;
+            sundayMouseOverLabelStyle.BasedOn = this.SundayLabelStyle;
+        }
+    }
+
+    public Style SundaySelectedLabelStyle
+    {
+        get => sundaySelectedLabelStyle;
+        set
+        {
+            sundaySelectedLabelStyle = value;
+            sundaySelectedLabelStyle.BasedOn = this.SundayLabelStyle;
+        }
+    }
+
+    public Style SundaySelectedMouseOverLabelStyle
+    {
+        get => sundaySelectedMouseOverLabelStyle;
+        set
+        {
+            sundaySelectedMouseOverLabelStyle = value;
+            sundaySelectedMouseOverLabelStyle.BasedOn = this.SundayMouseOverLabelStyle;
+        }
+    }
+}
+```
+
+**2.** Define a custom `DayStyleSelector` in the `ResourceDictionary` of your `ContentPage`. This selector allows specifying styles for various label states within the calendar.
 
 ```xml
 <local:CustomCalendarStyleSelector x:Key="DayStyleSelector">
@@ -76,7 +196,9 @@ To customize the appearance of the drop-down calendar in the Telerik Scheduler f
  </local:CustomCalendarStyleSelector>
 ```
 
-**2.** Set the `RadCalendar.DayStyleSelector` property by using an implicit style:
+**3.** Where the `local` is the `clr-namespace` where the `CustomCalendarStyleSelector` class is defined. 
+
+**4.** Set the `RadCalendar.DayStyleSelector` property by using an implicit style:
 
 ```XAML
 <Style TargetType="telerik:RadCalendar" >
@@ -84,7 +206,7 @@ To customize the appearance of the drop-down calendar in the Telerik Scheduler f
 </Style>
 ```
 
-**3.** Apply the `RadScheduler` to your `ContentPage` and set its `CurrentDate` and `ViewDefinitions` as needed. The custom styles defined in the `DayStyleSelector` will automatically apply to the drop-down calendar.
+**5.** Apply the `RadScheduler` to your `ContentPage` and set its `CurrentDate` and `ViewDefinitions` as needed. The custom styles defined in the `DayStyleSelector` will automatically apply to the drop-down calendar.
 
 ```xml
 <telerik:RadScheduler AutomationId="scheduler" CurrentDate="10/18/2023">

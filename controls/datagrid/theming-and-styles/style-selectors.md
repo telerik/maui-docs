@@ -28,10 +28,10 @@ To apply a `RowBackgroundStyleSelector` you have to:
 1. Implement the `SelectStyle` method.
 
 The object item of the `SelectStyle` method is of type `DataGridRowInfo`. The `DataGridRowInfo` represents a class that provides information for each row in DataGrid and exposes the follwoing properties:
-	
-	* `Item` (`object`)&mdash;Gets the business object associated with the row.
-	* `IsRowDetails` (`bool`)`&mdash;Gets a value that specifies whether the row is RowDetail.
-	* `IsAlternate` (`bool`)&mdash;Gets a value that specifies whether the row is an alternate one.
+
+* `Item` (`object`)&mdash;Gets the business object associated with the row.
+* `IsRowDetails` (`bool`)&mdash;Gets a value that specifies whether the row is RowDetail.
+* `IsAlternate` (`bool`)&mdash;Gets a value that specifies whether the row is an alternate one.
 
 
 > For the DataGrid Row Background Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.

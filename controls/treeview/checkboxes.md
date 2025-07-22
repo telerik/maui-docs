@@ -29,11 +29,11 @@ Consider the following scenarios when using the TreeView `Recursive` `CheckBoxMo
 
 Here is how the Independent `CheckBoxMode` looks:
 
-![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.gif)
+![.NET MAUI TreeView Independent Mode](images/treeview-independent-mode.png)
 
 Here is how the Recursive `CheckBoxMode` looks:
 
-![.NET MAUI TreeView Recursive Mode](images/treeview-recursive-mode.gif)
+![.NET MAUI TreeView Recursive Mode](images/treeview-recursive-mode.png)
 
 > To display checkboxes in the TreeView item, set the `CheckBoxMode` to `Independent` or `Recursive`.
 

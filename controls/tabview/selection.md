@@ -11,13 +11,23 @@ position: 7
 
 The Telerik TabView for .NET MAUI exposes properties that help you work with the item selection: 
 
+## Selection through the UI
+
+The `TabViewItem` can be selected through the UI by tapping on the header item. When tapping on the header item, the `SelectedIndex` and `SelectedItem` properties get updated.
+
+## Programmatic Selection
+
+You can programmatically select a `TabViewItem` by setting the following properties:
+
 * `SelectedItem` (of type `Telerik.Maui.Controls.TabViewItem`)&mdash;Defines the selected item. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
 * `SelectedIndex` (`int`)&mdash;Specifies the index of the currently selected `TabViewItem`. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
 
-* `TabViewItem` can be selected by setting its `IsSelected`(`bool`) property to `True`.
+* `IsSelected` (`bool`)&mdash;Set the property directly to the `TabViewItem` to initiale a selection.
 
-* `AnimationEasing` (`Microsoft.Maui.Easing`)&mdash;Specifies the easing of the animation that is run when the selected index changes.
-* `AnimationDuration` (`int`)&mdash;Specifies the duration in milliseconds of the animation that is run when the selected index changes.
+### Animation
+
+* `AnimationEasing` (`Microsoft.Maui.Easing`)&mdash;Specifies the easing of the animation that is run when the value of the `SelectedIndex` property changes.
+* `AnimationDuration` (`int`)&mdash;Specifies the duration in milliseconds of the animation that is run when the value of the `SelectedIndex` property changes.
 
 **Example with Selected Item**
 

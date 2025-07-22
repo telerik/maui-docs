@@ -42,3 +42,4 @@ The gif below shows the result.
 - [BusyIndicator Overview]({% slug busyindicator-overview %})
 - [BusyIndicator Animations]({% slug busyindicator-animations %})
 - [CollectionView Overview]({% slug collectionview-overview %})
+- [Adding an Image Inside the BusyIndicator for .NET MAUI]({%slug add-image-inside-busyindicator-dotnet-maui%})
