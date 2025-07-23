@@ -18,7 +18,7 @@ res_type: kb
 
 This article describes how to resolve the following error: 
 
-```
+```bash
 System.IO.FileNotFoundException: 'Could not load file or assembly 'Microsoft.Maui.Controls.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
 ```
 

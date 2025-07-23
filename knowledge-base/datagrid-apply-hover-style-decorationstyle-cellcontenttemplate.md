@@ -32,7 +32,7 @@ The next two sections provide examples, in both [XAML](#xaml-example) and [C#](#
 
 ### XAML Example
 
-```
+```XAML
 <telerik:RadDataGrid.Columns>
     <telerik:DataGridTextColumn PropertyName="Name" HeaderText="Name">
         <telerik:DataGridTextColumn.CellDecorationStyle>
@@ -73,7 +73,7 @@ The next two sections provide examples, in both [XAML](#xaml-example) and [C#](#
 
 ### C# Example
 
-```csharp
+```C#
 var myLabel = REFERENCE_TO_YOUR_LABEL;
 
 VisualStateManager.GetVisualStateGroups(myLabel).Add(new VisualStateGroup
