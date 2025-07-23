@@ -36,7 +36,7 @@ You can disable any segment with `SetSegmentEnabled` method:
 
 The following image shows the end result.
 
-![.NET MAUI SegmentedControl disable segment](images/segmentcontrol-features-disablesegment-0.png)
+![.NET MAUI SegmentedControl disable segment](images/segmentcontrol-disablesegment.png)
 
 ## See Also
 
