@@ -17,10 +17,10 @@ The control presents the information or actions related to the current screen bu
 
 ## Key Features of the Telerik .NET MAUI BottomSheet
 
-* [States]&mdash;The BottomSheet control supports various states like `Full`, `Partial`, `Minimal`, and `Hidden`.
-* [Visual Handle]({%slug %})&mdash;The BottomSheet exposes a visual cue which indicates the control can be dragged.
+* [States]({%slug bottomsheet-configuration%}#setting-states)&mdash;The BottomSheet control supports various states like `Full`, `Partial`, `Minimal`, and `Hidden`.
+* [Visual Handle]({%slug bottomsheet-configuration%}#setting-width)&mdash;The BottomSheet exposes a visual cue which indicates the control can be dragged.
 * [Width]({%slug %})&mdash;The BottomSheet allows you to set its width.
-* [Setting Content]({%slug %})&mdash;The control allows you to set a content by using the `BottomSheetContent` property.
+* [Setting Content]({%slug bottomsheet-content%})&mdash;The control allows you to set a content by using the `BottomSheetContent` property.
 * [Animation while opening/closing the BottomSheet]({%slug bottomsheet-animation%})&mdash;The BottomSheet allows you to enable/disable the animation when opening/closing the bottom sheet view.
 * [Flexible Styling API]({%slug bottomsheet-styling%})&mdash;Style the handle and the BottomSheet control by using the exposed styling API.
 * [Events]({%slug bottomsheet-events%})&mdash;The BottomSheet exposes an event which occurs when the position of the bottom sheet changes. 

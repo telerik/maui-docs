@@ -8,17 +8,21 @@ slug: bottomsheet-configuration
 
 # .NET MAUI BottomSheet Configuration
 
-The purpose of this help article is to show you how to configure the Telerik .NET MAUI BottomSheet control.
+The purpose of this help article is to show you how to configure the states and width of the Telerik .NET MAUI BottomSheet control.
 
-## Setting Content
+## Setting States
 
-## Define States
+
 
 ## Setting Width
 
+
+
 ## Customize Handle
 
-## Disable Swipe
+The BottomSheet exposes a visual cue which indicates the control can be dragged. You can customize the handle by using the `HandleStyle` (`Style` with target type `BottomSheetHandle`) property.
+
+For more details review the [BottomSheet Handle Styling]({%slug bottomsheet-styling%}#handle-styling) article.
 
 ## See Also
 
