@@ -62,7 +62,7 @@ By default, the .NET `string.Contains` method will take all punctuation into con
 
 For example, if the source string is `Main Street, 101` and the user searches `Main Street 101`, string.Contains will return false and the result will not appear in the FilteredItems view. The custom filter below removes the commas before the string is used with the Contains method.
 
-```
+```C#
 public class CustomAutoCompleteFilter : IAutoCompleteFilter
 {
     public bool Filter(object item, string searchText, AutoCompleteCompletionMode completionMode)

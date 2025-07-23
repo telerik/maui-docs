@@ -25,13 +25,13 @@ To remove the border or underline in the RadNumericMaskedEntry control, you can 
 
 **1.** Set the `ControlTemplate` property of the RadNumericMaskedEntry control to a custom control template. For example:
 
-```
+```XAML
 <telerik:RadNumericMaskedEntry ControlTemplate="{StaticResource MaskedEntry_ControlTemplate}" />
 ```
 
 **2.** Define the custom control template in your resources. Here is an example:
 
-```
+```XAML
 <ControlTemplate x:Key="MaskedEntry_ControlTemplate">
     <telerikMauiControls:RadEntry FocusedBorderBrush="Transparent" />
 </ControlTemplate>
@@ -41,7 +41,7 @@ To remove the border or underline in the RadNumericMaskedEntry control, you can 
 
 **1.** Define an implicit style for the RadEntry control in your resources. For example:
  
-```
+```XAML
 <Style TargetType="telerik:RadEntry">
     <Setter Property="FocusedBorderBrush" Value="Transparent" />
 </Style>
@@ -49,7 +49,7 @@ To remove the border or underline in the RadNumericMaskedEntry control, you can 
 
 **2.** Define the RadNumericMaskedEntry control:
 
-```
+```XAML
 <telerik:RadNumericMaskedEntry />
 ```
 

@@ -26,7 +26,7 @@ You need to define a MaskedEntry and when control receives focus, implement the 
 
 **1.** MaskedEntry definition in XAML:
 
-```
+```XAML
 <telerik:RadTextMaskedEntry Focused="RadTextMaskedEntry_Focused" Mask="#####" FontSize="26" x:Name="mask"/>
 ```
 

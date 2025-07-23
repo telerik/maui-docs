@@ -14,7 +14,7 @@ Use the `add source` or `update source` command respectively to add the new sour
 
 The command below shows one way to add the Telerik NuGet source using .NET CLI. Replace the placeholders with your Telerik account username and password.
 
-```
+```bash
 dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username <TELERIK EMAIL> --password <TELERIK PASSWORD> --store-password-in-clear-text
 ```
 

@@ -78,7 +78,9 @@ When migrating the ImageEditorToolbar from Xamarin to .NET MAUI, consider the fo
 
 The code snippets below represent the Xamarin and .NET MAUI definitions of the ImageEditor and ImageEditorToolbar with all predefined toolbar items.
 
-```Xamarin
+Definition in Xamarin:
+
+```C#
 <Grid>
     <Grid.RowDefinitions>
         <RowDefinition />
@@ -114,9 +116,11 @@ The code snippets below represent the Xamarin and .NET MAUI definitions of the I
     </telerikImageEditor:RadImageEditorToolbar>
 </Grid>
 ```
-```MAUI
+
+Definition in MAUI:
+
 <snippet id='imageeditor-commands-xaml'/>
-```
+
 
 ## See Also
 

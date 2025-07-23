@@ -34,7 +34,7 @@ To detect when a row detail is expanded or collapsed in the [DataGrid]({%slug da
 
 **1.** Bind the `ExpandedRowDetails` property of the DataGrid to an observable collection in the ViewModel. This collection holds the items for which the row details are currently expanded.
 
-```
+```XAML
 <ContentPage.Resources>
     <ResourceDictionary>
         <DataTemplate x:Key="TemplateForRowDetails">

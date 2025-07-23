@@ -21,7 +21,7 @@ The license activation process in a CI/CD environment involves the following ste
 
 1. Add the `Telerik.Licensing` NuGet package as a project dependency.
 
-    ```
+    ```xml
     <PackageReference Include="Telerik.Licensing" Version="1.*" />
     ```
 

@@ -22,7 +22,7 @@ Here is an example demonstrating how to use `PageSizesViewStyle`.
 **1.** Define the DataPager in XAML:
 
 ```XAML
-    <telerik:RadDataPager PageSizesViewStyle="{StaticResource PageSizesViewStyle}"
+<telerik:RadDataPager PageSizesViewStyle="{StaticResource PageSizesViewStyle}"
 ```
 
 **2.** Set the styles to the page's resources:

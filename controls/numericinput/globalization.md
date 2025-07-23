@@ -39,9 +39,11 @@ Depending on the `UICulture` of the current thread, the result is the following:
 > A string format is applied when the NumericInput control loses focus. So, if you want to switch the thread UICulture dynamically, you need to explicitly focus the NumericInput, then switch the focus to some other control, so that the change to take effect.
 >
 > Here is a quick snippet:
+>```C#
+>this.input.Focus();
+>this.othercontrol.Focus();
+>```
 >
-> 		this.input.Focus();
-> 		this.othercontrol.Focus();
 
 ## See Also
 
