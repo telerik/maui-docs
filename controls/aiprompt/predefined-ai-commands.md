@@ -26,10 +26,11 @@ You can use three different approaches to add a logic that will be executed when
 Let's, for example, add the following `AIPromptCommand` to `Commands` collection:
 
 ```C#
- this.Commands.Add(new AIPromptCommand
-  {     mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste}, 
-        Text = "Simplify", 
-        Command = this.CheckSyntaxCommand });
+this.Commands.Add(new AIPromptCommand {
+    mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste }, 
+    Text = "Simplify", 
+    Command = this.CheckSyntaxCommand
+});
 this.CheckSyntaxCommand = new Command(this.ExecuteCheckSyntaxCommand);
 ```
 
@@ -49,9 +50,10 @@ In case the `AIPromptCommand` has `Command` applied, that `Command` will be exec
 In case the `AIPromptCommand`'`Command` is null, the AIPrompt's `CommandTappedCommand` will be executed:
 
 ```C#
- this.Commands.Add(new AIPromptCommand
-  {     mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste}, 
-        Text = "Simplify"});
+this.Commands.Add(new AIPromptCommand {
+    mageSource = new FontImageSource() { FontFamily = TelerikFont.Name, Size = 12, Glyph = TelerikFont.IconPaste }, 
+    Text = "Simplify"
+});
 this.CommandTappedCommand = new Command(this.ExecuteCommandTappedCommand);
 ```
 
