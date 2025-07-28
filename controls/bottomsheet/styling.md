@@ -16,6 +16,24 @@ The Telerik UI for .NET MAUI BottomSheet control provides the following Style pr
 * `BorderThickness` (`Thickness`)&mdash;Specifies the border thickness around the control.
 * `CornerRadius` (`Thickness`)&mdash;Specifies the corner radius of the border around the control.
 
+Here is an example of the BottomSheet styling.
+
+**1.** Define the BottomSheet in XAML:
+
+<snippet id='bottomsheet-style' />
+
+**2.** Define the `RadBottomSheet` style in page's resources:
+
+<snippet id='bottomsheet-style-resource' />
+
+**3.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+> For a runnable example with the BottomSheet Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
+
 ## Handle Styling
 
 You can style the handle by setting the `HandleStyle` property to the `RadBottomSheet`. The target type of the `HandleStyle` is `BottomSheetHandle`.
@@ -29,6 +47,23 @@ The available properties are described below:
 * `CornerRadius` (`Thickness`)&mdash;Specifies the corner radius of the border around the control.
 * `WidthRequest` (`double`)&mdash;Specifies the width of the handle.
 * `HeightRequest` (`double`)&mdash;Specifies the height of the handle.
+
+Here is an example of the BottomSheet handle styling.
+
+**1.** Define the BottomSheet in XAML:
+
+<snippet id='bottomsheet-handle-style' />
+
+**2.** Define the `BottomSheetHandle` style in page's resources:
+
+<snippet id='bottomsheet-handle-style-resource' />
+
+**3.** Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+> For a runnable example with the BottomSheet Handle Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 
 ## See Also
 

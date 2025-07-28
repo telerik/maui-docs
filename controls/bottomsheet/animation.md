@@ -19,11 +19,7 @@ You can also customize the duration and easing through `AnimationDuration` and `
 * `AnimationDuration`(`uint`)&mdash;Defines the duration of the animation while opening/closing the bottom view. The default value is `1000`.
 * `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies animation acceleration over time. The default value is `Easing.CubicOut`.
 
-## Example
-
-The snippet below shows how the `AnimationDuration`, `AnimationEasing` properties can be applied:
-
-
+> For a runnable example with the BottomSheet Animation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 
 ## See Also
 

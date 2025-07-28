@@ -12,6 +12,8 @@ The BottomSheet control for .NET MAUI allows you to use the swipe gesture for op
 
 You can disable the swipe gesture by setting the `IsSwipeEnabled` (`bool`) property. The default value is `true`.
 
+> For a runnable example with the BottomSheet Swipe scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
+
 ## See Also
 
 - [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})

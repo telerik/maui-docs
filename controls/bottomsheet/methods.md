@@ -14,9 +14,17 @@ The example shows how to use the `GoToBottomSheetState(string name)` method:
 
 **1** Define the BottomSheet in XAML:
 
-**2.** Call the `GoToBottomSheetState()` method with corresponding state name:
+<snippet id='bottomsheet-getting-started-xaml' />
 
+**2.** Add the `telerik` namespace:
 
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+**3.** Call the `GoToBottomSheetState()` method with corresponding state name:
+
+<snippet id='open-bottomsheet-view' />
 
 ## See Also
 

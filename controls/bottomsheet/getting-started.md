@@ -36,8 +36,19 @@ Before adding the BottomSheet, you need to:
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
- 
-**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+```C#
+using Telerik.Maui.Controls;
+```
+
+**3.** Add the code for opening the BottomSheet view:
+
+<snippet id='open-bottomsheet-view' />
+
+**4.** Add the code for closing the BottomSheet view:
+
+<snippet id='close-bottomsheet-view' />
+
+**5.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
