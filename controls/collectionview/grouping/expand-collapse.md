@@ -13,6 +13,8 @@ The CollectionView supports group expand and collapse operations either through 
 
 This section provides an overview of the methods used to control the expand/collapse state of the CollectionView groups.
 
+By default, all groups are auto expanded when the CollectionView initially loads. You can load the CollectionView with all groupds collapsed by setting the `AutoExpandGroups` (`bool`) property to `false`. The default value of the `AutoExpandGroups` property is `true`.
+
 ## Get the Grouped CollectionView Items
 
 To manipulate the collapsible CollectionView groups, first you will need to call its `GetDataView()` method. In short, the `GetDataView()` method provides a view of the `ItemsSource` after all the sorting, grouping, and filtering operations are applied. The return type is `IDataViewCollection` which exposes the `Expand` and `Collapse` methods.

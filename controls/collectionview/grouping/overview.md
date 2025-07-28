@@ -24,11 +24,13 @@ When a group descriptor is applied, the default group template is visualized. Re
 
 The control supports groups expand and collapse operations through the UI by tapping on the group headers.
 
+By default, all groups are auto expanded when the CollectionView initially loads. You can load the CollectionView with all groupds collapsed by setting the `AutoExpandGroups` (`bool`) property to `false`. The default value of the `AutoExpandGroups` property is `true`.
+
 ## Bindable GroupDescriptor
 
 Users can control the `GroupDescriptors` collection by using MVVM.
 
-## Sticky Group Headers (Mobile Only)
+## Sticky Group Headers
 
 The CollectionView provides the option to set its [group headers as sticky]({%slug collectionview-sticky-group-header%}). This means the `GroupHeader` UI element "freezes" while scrolling through the items until the whole group is scrolled away. As you scroll through the next group, the currently stuck group header will be pushed by the next group header.
 In a multi-level grouping scenario, the last inner group from the parent group will be sticky.

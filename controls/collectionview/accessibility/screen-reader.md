@@ -7,11 +7,11 @@ slug: collectionview-accessibility-screen-reader
 tags: accessibility, collectionview, screen reader, accessibility support, dotnet maui
 ---
 
-# .NET MAUI CollectionView Screen Reader Support (Android and iOS)
+# .NET MAUI CollectionView Screen Reader Support
 
 The Telerik UI for .NET MAUI CollectionView provides extensive accessibility support and enables users with disabilities to acquire complete control over its features.
 
-The CollectionView allows the users to use the Android (TalkBack) and iOS (VoiceOver) screen readers for voice descriptions of the elements inside the CollectionView.
+The CollectionView allows the users to use the Android (TalkBack), WinUI(Narrator), iOS and MacCatalyst (VoiceOver) screen readers for voice descriptions of the elements inside the CollectionView.
 
 ![.NET MAUI ColelctionView Screen Reader Support](../images/collectionview-screen-reader.png)
 
