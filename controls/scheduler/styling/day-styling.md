@@ -8,7 +8,9 @@ slug: scheduler-day-styling
 
 # .NET MAUI Scheduler Day Styling
 
-The Scheduler control for .NET MAUI provides the `DayStyleSelector`(of type `Telerik.Maui.Controls.IStyleSelector`) property which specifies the style selector for the days displayed in the Scheduler. Its default implementation includes separate styles for Today date and all the other dates.
+The Scheduler control for .NET MAUI provides the `DayStyleSelector` (of type `Telerik.Maui.Controls.IStyleSelector`) property which specifies the style selector for the days displayed in the Scheduler. Its default implementation includes separate styles for Today date and all the other dates.
+
+The Scheduler `MonthViewDefinition` allows you to style the appearance of the days names, by using the `DayNameStyleSelector` (of type `Telerik.Maui.Controls.IStyleSelector`) property.
 
 The following example demonstrates how to style the days with a custom `DayStyleSelector` property which will add a different style for the days of the weekend:
 
@@ -28,4 +30,4 @@ The following example demonstrates how to style the days with a custom `DayStyle
 
 ## See Also
 
--[Views]({% slug scheduler-views-overview %})
+- [Views]({% slug scheduler-views-overview %})
