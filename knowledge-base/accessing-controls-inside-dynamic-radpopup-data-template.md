@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 ## Solution
 
 To achieve this, you can use one of two approaches: 
-* Binding the controls to a `ViewModel`.
+* [Binding the controls to a `ViewModel`](#option-1-using-binding-with-viewmodel)
 * Programmatically accessing the controls inside the `DataTemplate`. 
 
 ### Option 1: Using Binding with ViewModel
