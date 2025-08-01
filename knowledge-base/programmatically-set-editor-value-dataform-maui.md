@@ -21,7 +21,7 @@ I want to programmatically set the value of a specific editor in the DataForm fo
 
 This knowledge base article also answers the following questions:
 - How can I set a value to a DataForm editor programmatically?
-- How to use the EditorGenerated event in DataForm for UI for .NET MAUI?
+- How to use the `EditorGenerated` event in DataForm for UI for .NET MAUI?
 - How to bind model properties to DataForm editors?
 
 ## Solution
