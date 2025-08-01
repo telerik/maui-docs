@@ -32,7 +32,3 @@ You can use a [manual installation approach]({%slug installation-approaches%}#ma
 ## Upgrade from Trial to Commercial License
 
 If you have purchased a license, [download a new license key]({%slug set-up-your-license%}#downloading-the-license-key). This process is referred to as a license key update. Once you have the new license key, use it to [activate the Telerik UI for .NET MAUI]({%slug set-up-your-license%}#activating-the-telerik-ui-for-net-maui-components).
-
-## See Also
-
-- [I Still See the Trial Message after Purchasing a License]({%slug trial-message-commercial-license%})
