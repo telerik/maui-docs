@@ -169,7 +169,7 @@ public class PointRenderer : Java.Lang.Object, global::Com.Telerik.Widget.Chart.
 }
 ```
 
-**6.** For WinUI, add the `PointTemplate` inside the Platforms/Windows/App.xaml file:
+**6.** For WinUI, add the `PointTemplate` inside the `Platforms/Windows/App.xaml` file:
 
 ```XAML
 <maui:MauiWinUIApplication.Resources>
