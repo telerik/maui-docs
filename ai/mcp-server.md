@@ -187,12 +187,9 @@ To increase the likelihood of the Telerik MCP server being used, add custom inst
 
 The following examples demonstrate useful prompts for the Telerik .NET MAUI MCP Server:
 
-"`/telerik` Generate a DataGrid with sorting and paging. Bind it to a Person model with sample ViewModel."
-
-"`/telerikmaui` Create a ComboBox showing a product list. Include Product class and sample data."
-
-"`/telerik` Build a CollectionView with sorting and filtering capabilities."
-
+* "`/telerik` Generate a DataGrid with sorting and paging. Bind it to a Person model with sample ViewModel."
+* "`/telerikmaui` Create a ComboBox showing a product list. Include Product class and sample data."
+* "`/telerik` Build a CollectionView with sorting and filtering capabilities."
 
 ## Number of Requests
 
