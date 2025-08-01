@@ -136,6 +136,12 @@ public partial class MainPage : ContentPage
         platformSeries.Style.PointShape = new TelerikUI.TKPredefinedShape(TelerikUI.TKShapeType.Circle, new System.Drawing.SizeF(10, 10));
         platformSeries.Style.ShapeMode = TelerikUI.TKChartSeriesStyleShapeMode.AlwaysShow;
 
+#elif WINDOWS
+
+		var platformChart = (Telerik.UI.Xaml.Controls.Chart.RadCartesianChart)platformView;
+		var platformSeries = (Telerik.UI.Xaml.Controls.Chart.LineSeries)platformChart.Series[0];
+		var nativeApp = MauiWinUIApplication.Current;
+		platformSeries.PointTemplate = nativeApp.Resources["PointTemplate"] as Microsoft.UI.Xaml.DataTemplate;
 #endif
     }
 }
@@ -163,6 +169,18 @@ public class PointRenderer : Java.Lang.Object, global::Com.Telerik.Widget.Chart.
 }
 ```
 
-And this is the result:
+**6.** For WinUI, add the `PointTemplate` inside the Platforms/Windows/App.xaml file:
 
-[.NET MAUI Chart Point Markers](images/chart-pointmarkers-result.png)
+```XAML
+<maui:MauiWinUIApplication.Resources>
+	<ResourceDictionary>
+		<DataTemplate x:Key="PointTemplate">
+			<Ellipse Width="20" Height="20" Fill="Blue" Stroke="Black" StrokeThickness="1"/>
+		</DataTemplate>
+	</ResourceDictionary>
+</maui:MauiWinUIApplication.Resources>
+```
+
+And the result on Android:
+
+![.NET MAUI Chart Point Markers](images/chart-pointmarkers-result.png)
