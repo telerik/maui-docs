@@ -17,8 +17,8 @@ This MCP server enables AI-powered IDEs and tools to generate more accurate, tai
 
 To use the Telerik MAUI MCP server, you need:
 
-* [Node.js](https://nodejs.org/en) 18 or newer
-* An [MCP-compatible client](https://modelcontextprotocol.io/clients) that supports **MCP tools** (latest version recommended)
+* [Node.js](https://nodejs.org/en) 18 or newer.
+* An [MCP-compatible client](https://modelcontextprotocol.io/clients) that supports **MCP tools** (latest version recommended).
 
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 
@@ -46,19 +46,21 @@ Use these settings when configuring the server in your MCP client:
 
 Add your [Telerik license key]({%slug set-up-your-license%}) as an environment parameter in your `mcp.json` file using one of these options:
 
-**Option 1: License File Path (Recommended)**
-```json
-"env": {
-  "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FIL"
-}
-```
+Option 1: License File Path (Recommended)
 
-**Option 2: Direct License Key**
-```json
-"env": {
-  "TELERIK_LICENSE": "YOUR_LICENSE_KEY_HERE"
-}
-```
+ ```json
+ "env": {
+     "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FIL"
+ }
+ ```
+
+Option 2: Direct License Key
+
+ ```json
+ "env": {
+     "TELERIK_LICENSE": "YOUR_LICENSE_KEY_HERE"
+ }
+ ```
 
 > Option 1 is recommended unless you're sharing settings across different systems. Remember to [update your license key]({%slug set-up-your-license%}#updating-your-license-key) when necessary.
 
@@ -68,72 +70,73 @@ For complete setup instructions, see [Use MCP servers in Visual Studio](https://
 
 > Early Visual Studio 17.14 versions require the Copilot Chat window to be open when opening a solution for the MCP server to work properly.
 
-**Workspace-Specific Setup:**
+### Workspace-Specific Setup:
 
 1. Add `.mcp.json` to your solution folder:
 
-```json
-{
-  "servers": {
-    "telerikMauiAssistant": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-maui-mcp@latest"],
-      "env": {
-        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-        // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-      }
-    }
-  }
-}
-```
+ ```json
+ {
+   "servers": {
+     "telerikMauiAssistant": {
+       "type": "stdio",
+       "command": "npx",
+       "args": ["-y", "@progress/telerik-maui-mcp@latest"],
+       "env": {
+         "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
+         // or
+         "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
+       }
+     }
+   }
+ }
+ ```
 
 2. Restart Visual Studio.
 3. Enable the `telerikMauiAssistant` tool in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
-**Global Setup:**
+### Global Setup:
+
 Add the `.mcp.json` file to your user directory (`%USERPROFILE%`, e.g., `C:\Users\YourName\.mcp.json`).
 
-### Visual Studio Code
+## Visual Studio Code
 
 For complete setup instructions, see [Use MCP servers in Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
 
 > Visual Studio Code 1.102.1 or newer is required to use the Telerik MCP Server
 
-**Setup Steps:**
+The basic setup in Visual Studio Code follows these steps:
 
 1. Enable [`chat.mcp.enabled`](vscode://settings/chat.mcp.enabled) in Visual Studio Code settings.
 2. Create `.vscode/mcp.json` in your workspace root (or user folder for global setup):
 
-```json
-{
-  "servers": {
-    "telerik-maui-assistant": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-maui-mcp@latest"],
-      "env": {
-        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-        // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-      }
-    }
-  }
-}
-```
+ ```json
+ {
+   "servers": {
+     "telerik-maui-assistant": {
+       "type": "stdio",
+       "command": "npx",
+       "args": ["-y", "@progress/telerik-maui-mcp@latest"],
+       "env": {
+         "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
+         // or
+         "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
+       }
+     }
+   }
+ }
+ ```
 
 3. For global discovery, enable [`chat.mcp.discovery.enabled`](vscode://settings/chat.mcp.discovery.enabled) in `settings.json`:
 
-```json
-{
-  "chat.mcp.discovery.enabled": true
-}
-```
+ ```json
+ {
+   "chat.mcp.discovery.enabled": true
+ }
+ ```
 
 4. Restart Visual Studio Code.
 
-### Cursor
+## Cursor
 
 For complete setup instructions, see [Model Context Protocol](https://docs.cursor.com/context/mcp).
 
@@ -182,6 +185,7 @@ To increase the likelihood of the Telerik MCP server being used, add custom inst
 
 ### Sample Prompts
 
+The following examples demonstrate useful prompts for the Telerik .NET MAUI MCP Server:
 
 "`/telerik` Generate a DataGrid with sorting and paging. Bind it to a Person model with sample ViewModel."
 
@@ -198,7 +202,7 @@ To increase the likelihood of the Telerik MCP server being used, add custom inst
 
 You can use the Telerik MAUI MCP server with local large language models (LLMs):
 
-1. Run a local model through [Ollama](https://ollama.com).
+1. Run a local model, for example, through [Ollama](https://ollama.com).
 2. Use a bridge package like [MCP-LLM Bridge](https://github.com/patruff/ollama-mcp-bridge).
 3. Connect your local model to the Telerik MCP server.
 

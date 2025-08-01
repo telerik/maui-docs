@@ -13,10 +13,10 @@ The Telerik MAUI [GitHub Copilot](https://github.com/features/copilot) extension
 
 This extension enhances GitHub Copilot with proprietary context about Telerik MAUI controls, helping you:
 
-* Generate code snippets using Telerik MAUI components
-* Get contextual suggestions for component properties and methods
-* Access best practices and implementation patterns
-* Speed up development with AI-powered code completion
+* Generate code snippets using Telerik MAUI components.
+* Get contextual suggestions for component properties and methods.
+* Access best practices and implementation patterns.
+* Speed up development with AI-powered code completion.
 
 ## Prerequisites
 
@@ -67,10 +67,10 @@ The following examples demonstrate useful prompts for the Telerik MAUI extension
 
 If you encounter issues:
 
-* Ensure the `@telerikmaui` mention is properly highlighted in your prompt
-* Verify that you have an active GitHub Copilot subscription
-* Restart your IDE after installation
-* Check that you're in Chat mode, not Edit or Agent mode
+* Ensure the `@telerikmaui` mention is properly highlighted in your prompt.
+* Verify that you have an active GitHub Copilot subscription.
+* Restart your IDE after installation.
+* Check that you're in Chat mode, not Edit or Agent mode.
 
 ## See Also 
 
