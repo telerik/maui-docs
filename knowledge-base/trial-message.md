@@ -3,6 +3,7 @@ title: Removing the Trial Message after Purchasing a License
 page_title: Removing the Trial Message after Purchasing a License
 description: I still see the trial message even though I have purchased and installed the commercial license.
 type: troubleshooting
+published: False
 slug: trial-message-commercial-license
 res_type: kb
 ---
