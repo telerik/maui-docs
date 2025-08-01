@@ -24,7 +24,7 @@ When a group descriptor is applied, the default group template is visualized. Re
 
 The control supports groups expand and collapse operations through the UI by tapping on the group headers.
 
-By default, all groups are auto expanded when the CollectionView initially loads. You can load the CollectionView with all groupds collapsed by setting the `AutoExpandGroups` (`bool`) property to `false`. The default value of the `AutoExpandGroups` property is `true`.
+By default, all groups are auto-expanded when the CollectionView initially loads. You can load the CollectionView with all groups collapsed by setting the `AutoExpandGroups` (`bool`) property to `false`. The default value of the `AutoExpandGroups` property is `true`.
 
 ## Bindable GroupDescriptor
 
