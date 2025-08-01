@@ -50,7 +50,7 @@ Option 1: License File Path (Recommended)
 
  ```json
  "env": {
-     "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FIL"
+     "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
  }
  ```
 
