@@ -8,54 +8,114 @@ slug: bottomsheet-configuration
 
 # .NET MAUI BottomSheet Configuration
 
-The purpose of this help article is to show you how to configure the states and width of the Telerik .NET MAUI BottomSheet control.
+The Telerik UI for .NET MAUI BottomSheet control offers flexible configuration options for states, dimensions, and visual elements. You can define custom states with specific heights, control the sheet's dimensions using absolute or percentage values, and customize the draggable handle to match your application's design.
 
-## States (Built-in Transitions)
+## States
 
-The Telerik UI for .NET MAUI BottomSheet control exposes predefined states (transitions). You can specify the state by using following options:
+The BottomSheet control provides a flexible state system that determines how much of the screen the component occupies. You can use predefined states or create custom ones to present content at different visibility levels.
 
-* `CurrentState`(of type `BottomSheetState`) property. The property specifies the current state of the bottom sheet. The available options for `CurrentState` are:
+### Predefined States
 
-	* `Hidden`(the default one)&mdash;Represents a hidden bottom sheet.
-	* `Minimal`&mdash;Represents a minimal bottom sheet state with height `25%`.
-	* `Partial`&mdash;Represents a partial bottom sheet state with height `50%`.
-	* `Full`&mdash;Represents a full bottom sheet state with height `90%`.
+The control includes four built-in states with predefined heights:
 
-The `BottomSheetState` class represents the state of a bottom sheet.
+* `Hidden` (default)&mdash;Represents a completely hidden bottom sheet.
+* `Minimal`&mdash;Represents a minimal bottom sheet state with height `25%`.
+* `Partial`&mdash;Represents a partial bottom sheet state with height `50%`.
+* `Full`&mdash;Represents a full bottom sheet state with height `90%`.
 
-The first instance of the class has as a parameters the name of the bottom sheet state and the height of the bottom sheet.
+### Setting States
 
-```C#
-public BottomSheetState(string name, BottomSheetSize height)
+You can specify the current state using the `State` property of type `BottomSheetState`:
+
+```xaml
+<telerik:RadBottomSheet x:Name="bottomSheet" 
+                        State="Partial">
+    <!-- Content -->
+</telerik:RadBottomSheet>
 ```
 
-The second instance of the class has as a parameters the name of the bottom sheet state and the height of the bottom sheet, and if the size parameter represents a percentage.
+### Custom States
 
-```C#
+Create custom states using the `BottomSheetState` class constructors:
+
+* Using `BottomSheetLength`
+
+```csharp
+public BottomSheetState(string name, BottomSheetLength height)
+```
+
+* Using `double value`
+
+```csharp
 public BottomSheetState(string name, double size, bool isPercentage = false)
 ```
 
-* Calling the [`GoToBottomSheetState(string name)` method]({%slug bottomsheet-methods%}). Where the `string name` is the name of the predefined sates.
-	* `Hidden`&mdash;`HiddenStateName`.
-	* `Minimal`&mdash;`StateName`.
-	* `Partial`&mdash;`PartialStateName`.
-	* `Full`&mdash;`FullStateName`.
+Example of creating custom states:
+
+```csharp
+// Custom state with 30% height
+var customState = new BottomSheetState("Custom", 30, true);
+
+// Custom state with absolute height = 200
+var fixedState = new BottomSheetState("Fixed", 200, false);
+```
+
+### Programmatic State Changes
+
+Use the [`GoToBottomSheetState(string name)` method]({%slug bottomsheet-methods%}) to programmatically change states:
 
 Here is an example setting the predefined name of the state inside the `GoToBottomSheetState(string name)` method:
 
 <snippet id='open-bottomsheet-view' />
 
-The `UseDefaultStates`(`bool`) property allows you to specify whether the control will generate the default states. The default value is `true`.
+Here is an example setting a custom state:
 
-The BottomSheet provides a read-only collection&mdash;`States` of type `ObservableCollection<BottomSheetState>`. The collection contains the available sheet states for the bottom sheet.
+```csharp
+// Navigate to custom states
+var customState = new BottomSheetState("Custom", 30, true);
+bottomSheet.GoToBottomSheetState("Custom");
+```
+
+### Auto-Generated States
+
+You can control the generation of default states using the `AutoGenerateStates` property.
+
+```xaml
+<telerik:RadBottomSheet AutoGenerateStates="False">
+
+</telerik:RadBottomSheet>
+```
+
+The default value is `true`, which means the four predefined states are populated in the `States` collection.
+
+### States Collection
+
+The BottomSheet provides a read-only `States` collection of type `ObservableCollection<BottomSheetState>` that contains all available states for the bottom sheet, including both predefined and custom states.
 
 > For a runnable example with setting the BottomSheet States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 
 ## Width
 
-You can specify the width for the bottom sheet, by using the `BottomSheetWidth` (`struct` of type `BottomSheetSize`) property. You can set a percentage or an absolute value to the `BottomSheetWidth`.
+You can specify the width for the bottom sheet content using the `BottomSheetContentWidth` property of type `BottomSheetLength`. The `BottomSheetLength` structure supports both absolute and percentage values:
 
+```xaml
+<!-- Percentage width -->
+<telerik:RadBottomSheet BottomSheetContentWidth="80%">
+    <!-- Content -->
+</telerik:RadBottomSheet>
 
+<!-- Absolute width -->
+<telerik:RadBottomSheet BottomSheetContentWidth="300">
+    <!-- Content -->
+</telerik:RadBottomSheet>
+```
+```csharp
+// Using percentage
+bottomSheet.BottomSheetContentWidth = new BottomSheetLength(80, true);
+
+// Using absolute value
+bottomSheet.BottomSheetContentWidth = new BottomSheetLength(300, false);
+```
 
 > For a runnable example with setting the BottomSheet Width, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 
@@ -63,7 +123,7 @@ You can specify the width for the bottom sheet, by using the `BottomSheetWidth` 
 
 The BottomSheet exposes a visual cue which indicates the control can be dragged. You can customize the handle by using the `HandleStyle` (`Style` with target type `BottomSheetHandle`) property.
 
-For more details review the [BottomSheet Handle Styling]({%slug bottomsheet-styling%}#handle-styling) article.
+For more details, review the [BottomSheet Handle Styling]({%slug bottomsheet-styling%}#handle-styling) article.
 
 ## See Also
 

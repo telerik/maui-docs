@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI BottomSheet Documentation - Overview
-description: Try now the Telerik UI for .NET MAUI Border, which enables you to control the look and feel of the border that wraps around your MAUI views.
+description: Try now the Telerik UI for .NET MAUI BottomSheet that you can use to display action menus, various panels, previews, and more.
 position: 0
 tags: .net maui, bottomsheet, ui for .net maui, .net maui conrols, microsoft .net maui
 slug: bottomsheet-overview
@@ -17,11 +17,11 @@ The control presents the information or actions related to the current screen bu
 
 ## Key Features of the Telerik .NET MAUI BottomSheet
 
-* [States]({%slug bottomsheet-configuration%}#states-built-in-transitions))&mdash;The BottomSheet control supports various states like `Full`, `Partial`, `Minimal`, and `Hidden`.
-* [Visual Handle]({%slug bottomsheet-configuration%}#setting-width)&mdash;The BottomSheet exposes a visual cue which indicates the control can be dragged.
-* [Width]({%slug bottomsheet-configuration%}#width%})&mdash;The BottomSheet allows you to set the size of its bottom sheet view with an absolute value or percentage.
-* [Setting Content]({%slug bottomsheet-content%})&mdash;The control allows you to set a content by using the `BottomSheetContent` property.
-* [Animation while opening/closing the BottomSheet]({%slug bottomsheet-animation%})&mdash;The BottomSheet allows you to enable/disable the animation when opening/closing the bottom sheet view.
+* [States]({%slug bottomsheet-configuration%}#states-built-in-transitions)&mdash;The BottomSheet control supports various states like `Full`, `Partial`, `Minimal`, and `Hidden`.
+* [Visual Handle]({%slug bottomsheet-configuration%}#handle)&mdash;The BottomSheet exposes a visual cue which indicates the control can be dragged.
+* [Width]({%slug bottomsheet-configuration%}#width)&mdash;The BottomSheet allows you to set the size of its bottom sheet view with an absolute value or percentage.
+* [Setting Content]({%slug bottomsheet-content%})&mdash;The control allows you to set content by using the `BottomSheetContent` property.
+* [Animation]({%slug bottomsheet-animation%})&mdash;The BottomSheet allows you to enable/disable the animation when opening/closing the bottom sheet view.
 * [Flexible Styling API]({%slug bottomsheet-styling%})&mdash;Style the handle and the BottomSheet control by using the exposed styling API.
 * [Events]({%slug bottomsheet-events%})&mdash;The BottomSheet exposes an event which occurs when the position of the bottom sheet changes. 
 

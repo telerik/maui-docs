@@ -8,7 +8,7 @@ slug: bottomsheet-methods
 
 # .NET MAUI BottomSheet Methods
 
-The Telerik UI for .NET MAUI BottomSheet component exposes the `GoToBottomSheetState(string name)` method. Use the method to transition the bottom sheet to a specified [state]({%slug %}).
+The Telerik UI for .NET MAUI BottomSheet component exposes the `GoToBottomSheetState(string name)` method. Use the method to transition the bottom sheet to a specified [state]({%slug bottomsheet-configuration%}).
 
 The example shows how to use the `GoToBottomSheetState(string name)` method:
 
@@ -25,6 +25,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 **3.** Call the `GoToBottomSheetState()` method with corresponding state name:
 
 <snippet id='open-bottomsheet-view' />
+
+This is the result on Android:
+
+![.NET MAUI BottomSheet Methods](images/botomsheet-methods.gif)
 
 ## See Also
 

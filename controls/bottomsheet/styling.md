@@ -1,14 +1,20 @@
 ---
 title: Styling
 page_title: .NET MAUI BottomSheet Documentation - Styling
-description: Learn more about how to style the handle in the Telerik UI for .NET MAUI BottomSheet.
+description: Learn how to customize the appearance of the Telerik UI for .NET MAUI BottomSheet control and its handle component using styling properties like colors, borders, and dimensions.
 position: 15
 slug: bottomsheet-styling
 ---
 
 # .NET MAUI BottomSheet Styling
 
-The Telerik UI for .NET MAUI BottomSheet control provides the following Style properties for customizing its look:
+The BottomSheet control offers styling options for both the main container, the bottom sheet content view, and its draggable handle component. You can customize colors, borders, corner radius, and dimensions to match your application's design requirements and create a polished user experience.
+
+To style the BottomSheet control, use the `Style` property (`Style` with target type of `RadBottomSheet`).
+
+To style the view of the `BottomSheetContent`, use the `BottomSheetContentStyle` property (`Style` with target type of `telerik:BottomSheetContentView`).
+
+The available properties are described below:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the control.
 * `BorderColor` (`Color`)&mdash;Specifies the border color around the control.
@@ -26,17 +32,25 @@ Here is an example of the BottomSheet styling.
 
 <snippet id='bottomsheet-style-resource' />
 
-**3.** Add the `telerik` namespace:
+**3.** Define the `BottomSheetContentView` style in page's resources:
+
+<snippet id='bottomsheet-content-style-resource' />
+
+**4.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+Here is the result of styling the BottomSheet and `BottomSheetContent`. The `BottomSheetContent` opens when tapping on an item from the CollectionView:
+
+![.NET MAUI BottomSheet Styling](images/bottomsheet-styling.png)
+
 > For a runnable example with the BottomSheet Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 
 ## Handle Styling
 
-You can style the handle by setting the `HandleStyle` property to the `RadBottomSheet`. The target type of the `HandleStyle` is `BottomSheetHandle`.
+The handle of the BottomSheet is a small visual indicator at the top of the control that users can grab to drag and resize the panel. You can style the handle by setting the `HandleStyle` property to the `RadBottomSheet`. The target type of the `HandleStyle` is `BottomSheetHandle`.
 
 The available properties are described below:
 
@@ -63,6 +77,11 @@ Here is an example of the BottomSheet handle styling.
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+Here is the result of styling the handle. The BottomSheet content opens when tapping on an item from the CollectionView:
+
+![.NET MAUI BottomSheet Styling](images/bottomsheet-handle-styling.png)
+
 > For a runnable example with the BottomSheet Handle Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 
 ## See Also

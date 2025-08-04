@@ -1,14 +1,14 @@
 ---
 title: Swipe Gesture
 page_title: .NET MAUI BottomSheet Documentation - Swipe Gesture
-description: Learn more about how to disable the swipe gesture the Telerik UI for .NET MAUI BottomSheet control.
+description: Learn how to enable or disable swipe gestures for the Telerik UI for .NET MAUI BottomSheet control to control user interaction and accessibility.
 position: 3
 slug: bottomsheet-swipe-gestrue
 ---
 
 # .NET MAUI BottomSheet Swiping
 
-The BottomSheet control for .NET MAUI allows you to use the swipe gesture for opening the sheet view.
+The BottomSheet control supports intuitive swipe gestures that allow users to close and resize the sheet by dragging up or down on the content area. This touch-friendly interaction provides a natural way for users to control the BottomSheet's visibility and state, enhancing the overall user experience on mobile devices.
 
 You can disable the swipe gesture by setting the `IsSwipeEnabled` (`bool`) property. The default value is `true`.
 
