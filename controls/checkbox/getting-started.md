@@ -59,7 +59,7 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+}
 ```
 
 > For a runnable example with the CheckBox Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Getting Started** category.

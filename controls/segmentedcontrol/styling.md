@@ -29,7 +29,7 @@ The following example shows how to set the different segment colors.
 
 The following image shows the end result.
 
-![.NET MAUI SegmentedControl colors customization](images/segmentcontrol-features-customizecolors-0.png)
+![.NET MAUI SegmentedControl colors customization](images/segmentcontrol-styling.png)
 
 ## See Also
 

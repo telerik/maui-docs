@@ -125,6 +125,6 @@ public class CustomEditorViewModel : NotifyPropertyChangedBase
 
 **4.** Then set the `CustomEditorViewModel` as a `BindingContext` to the Page:
 
-```
+```C#
 this.BindingContext = new CustomEditorViewModel();
 ```

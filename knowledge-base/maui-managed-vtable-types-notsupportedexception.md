@@ -24,7 +24,7 @@ ticketid: 1667154
 
 This article describes how to resolve the following error on Windows: 
 
-```
+```bash
 System.NotSupportedException: Managed vtable types (ie. containing any reference types) are not supported.
 ```
 

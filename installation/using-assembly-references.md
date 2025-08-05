@@ -26,7 +26,7 @@ To manually reference the assemblies:
 
 Visual Studio 2022 does not support differentiating DLL references for each target platform. You must manually edit the `.csproj` file and add conditions for each platform. The `Telerik.Maui.Controls.dll`, `Telerik.Maui.Controls.Compatibility.dll`, and `Telerik.Maui.Core.dll` must be referenced from the platform-specific folders.
 
-```
+```xml
 <ItemGroup>
     <!-- You can keep the SHARED assembly references in here, the document processing assemblies -->
     <Reference Include="..." />
