@@ -115,6 +115,10 @@ navigation:
     controls/border:
         title: "Border"
     ## End Border
+    ## BottomSheet
+    controls/bottomsheet:
+        title: "BottomSheet"
+    ## End BottomSheet
     ## BusyIndicator
     controls/busyindicator:
         title: "BusyIndicator"
@@ -724,6 +728,7 @@ intro_columns:
     title: "Navigation & Layouts"
     items:
         "Accordion": "accordion-overview"
+        "BottomSheet": "bottomsheet-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "NavigationView": "navigationview-overview"
