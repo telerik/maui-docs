@@ -25,7 +25,7 @@ Follow these steps to implement the workaround:
 **1.** In your XAML code, locate the parent layout or main layout that contains the ComboBox.
 **2.** Add a `GestureRecognizer` to the parent layout and subscribe to its `Tapped` event. For example:
 
-```
+```XAML
 <VerticalStackLayout>
     <VerticalStackLayout.GestureRecognizers>
         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
@@ -36,7 +36,7 @@ Follow these steps to implement the workaround:
 
 **3.** In the event handler method, set the `IsDropDownOpen` property of the ComboBox to `false`. This will close the DropDown when someone clicks outside its boundaries. For example:
 
-```
+```C#
 private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 {
     this.comboBox.IsDropDownOpen = false;

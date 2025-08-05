@@ -33,7 +33,7 @@ Before adding the GridSplitter, you need to:
 **2.** Add the `telerik` namespace:
 
 ```XAML
- xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 **3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:

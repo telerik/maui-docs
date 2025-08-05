@@ -34,7 +34,7 @@ Programmatic grouping can be done by adding descriptors to the `GroupDescriptors
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) lets you expand and collapse a group either through the UI&mdash;by tapping on the group headers&mdash;or programmatically. 
 
 
-The DataGrid allows you to collapse all groups and newly added groups by setting the `AutoExpandGroups` (`bool`) property. The default value of the `AutoExpandGroups` property is `false`, which means, all groups are expanded by default.
+The DataGrid allows you to collapse all groups and newly added groups by setting the `AutoExpandGroups` (`bool`) property. The default value of the `AutoExpandGroups` property is `true`, which means, all groups are expanded by default.
 
 ## Group Headers Customization
 

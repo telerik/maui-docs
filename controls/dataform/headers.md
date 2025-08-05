@@ -27,11 +27,7 @@ You can specify absolute values in pixels or weighted values followed by the ast
 	* `Text`&mdash;Visualizes the header text. For this option `HeaderText` has to be defined.
 	* `Image`&mdash;Visualizes the image in the header. For this option `HeaderImageSource` has to be defined.
 
-You can combine the `Text` and the `Image` in the `HeaderDisplayOptions`:
-
-```XAML
-HeaderDisplayOptions="Image, Text"
-```
+You can combine the `Text` and the `Image` in the `HeaderDisplayOptions`. Here is a sample definition: `HeaderDisplayOptions="Image, Text"`.
 
 * `HeaderTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the header view.
 
@@ -54,11 +50,7 @@ Each group has a header. Here are the properties you can use to configure the gr
 	* `Text`&mdash;Visualizes the header text. For this option `HeaderText` has to be defined.
 	* `Image`&mdash;Visualizes the image in the header. For this option `HeaderImageSource` has to be defined.
 
-You can combine the `Text` and the `Image` in the `HeaderDisplayOption`:
-
-```XAML
-HeaderDisplayOptions="Image, Text"
-```
+You can combine the `Text` and the `Image` in the `HeaderDisplayOptions`. Here is a sample definition: `HeaderDisplayOptions="Image, Text"`.
 
 * `HeaderTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the header view.
 

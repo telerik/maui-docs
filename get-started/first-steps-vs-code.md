@@ -60,7 +60,7 @@ Telerik maintains a NuGet feed with official UI for .NET MAUI releases and servi
 
 To add the Telerik NuGet source using .NET CLI, use the command below. Replace the placeholders with your Telerik account user name and password.
 
-```
+```bash
 dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username <TELERIK EMAIL> --password <TELERIK PASSWORD> --store-password-in-clear-text
 ```
 
@@ -74,7 +74,7 @@ After configuring the Telerik NuGet source, install Telerik UI for .NET MAUI:
 
 1. Use .NET CLI to install the NuGet package:
 
-	```
+	```bash
 	dotnet add package Telerik.UI.for.Maui
 	```
 

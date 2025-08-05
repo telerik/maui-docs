@@ -18,12 +18,11 @@ The following example demonstrates a data-bound scenario where a nullable `doubl
 
 **1.** Create a `ViewModel` with a collection of `CategoryItems` objects, where a few of the items have null values:
 
-<snippet id='chart-nullvalues-viewmodel'/>
-
+<snippet id='chart-nullvalues-viewmodel' />
 
 **2.** Add a `RadCartesianChart` with a Spline Area Series, for example:
 
-<snippet id='chart-nullvalues-xaml'/>
+<snippet id='chart-nullvalues-xaml' />
 
 **3.** Add the `telerik` namespace:
 

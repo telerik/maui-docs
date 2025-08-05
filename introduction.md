@@ -65,6 +65,7 @@ Telerik UI for .NET MAUI library is a commercial UI library. You are welcome to 
 
 For any issues you might encounter while working with Telerik UI for .NET MAUI, you can use a number of available support channels:
 
+* The [Telerik MAUI AI Coding Assistant]({%slug ai-overview%}) provides Telerik UI for .NET MAUI tips and produces code snippets that include Telerik UI for .NET MAUI components and API.
 * Telerik UI for .NET MAUI license holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use the [UI for .NET MAUI dedicated support](https://www.telerik.com/account/support-tickets) system.
 * [Telerik UI for .NET MAUI forum](https://www.telerik.com/forums/maui) is part of the free support you can get from the community and from the Telerik UI for .NET MAUI team on all kinds of general issues and questions you have.
 * [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui) provides information on the features in discussion and also the planned ones for release.
