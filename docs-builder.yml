@@ -446,6 +446,9 @@ meta:
   styling-and-themes:
     title: Styling and Themes
     position: 5
+  ai:
+    title: AI Coding Assistant
+    position: 6
   controls:
     title: Controls
     position: 4
