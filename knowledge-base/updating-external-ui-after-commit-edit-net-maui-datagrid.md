@@ -48,7 +48,7 @@ public class CommitEditCommand : DataGridCommand
         var context = (EditContext)parameter;
         this.Owner.CommandService.ExecuteDefaultCommand(DataGridCommandId.CommitEdit, context);
 
-        // Update external UI element after committing the values
+        // Update external UI element after committing the values.
         double total = _dataContext.Totale;
         _externalLabel.Text = "Importo Totale: " + total.ToString();
     }
