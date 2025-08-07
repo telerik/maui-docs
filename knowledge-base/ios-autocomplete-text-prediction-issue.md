@@ -20,7 +20,7 @@ res_type: kb
 When using [AutoComplete](https://docs.telerik.com/devtools/maui/controls/autocomplete/overview) on iOS, the auto-correction feature causes unexpected behavior during suggestion selection. Instead of inserting the selected item, iOS auto-correction inserts an auto-completed string, such as "Er". This issue occurs specifically when iOS automatically highlights its auto-correction suggestions.
 
 This knowledge base article also answers the following questions:
-- How to disable iOS auto-correction for RadAutoComplete?
+- How to disable iOS auto-correction for `RadAutoComplete`?
 - Why does incorrect text appear in RadAutoComplete selection on iOS?
 - How to resolve text prediction issues in RadAutoComplete?
 
