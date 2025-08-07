@@ -20,7 +20,7 @@ res_type: kb
 I want to display calculated values from two edited DataGrid cells in an external UI element, such as a `Label`. I use the `CommitEditCommand` in the UI for .NET MAUI DataGrid to run the calculation after editing the cells. However, the `CommitEditCommand` does not seem to have the updated cell values. 
 
 This knowledge base article also answers the following questions:
-- How to use `CommitEditCommand` to update external UI in .NET MAUI DataGrid?
+- How to use `CommitEditCommand` to update an external UI component in .NET MAUI DataGrid?
 - How to bind external UI elements to calculated cell values in .NET MAUI DataGrid?
 - How to handle updates after cell edits in .NET MAUI DataGrid?
 
