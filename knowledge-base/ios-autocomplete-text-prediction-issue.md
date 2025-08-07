@@ -28,7 +28,7 @@ This knowledge base article also answers the following questions:
 
 Disable the iOS auto-correction feature to ensure the correct item is inserted upon selection. The `RadAutoComplete` uses the `RadTextInput` control internally, which inherits from the Microsoft MAUI Entry control. You can set the `IsTextPredictionEnabled` property of the `RadTextInput` to `False` using the `TextInputStyle` property of `RadAutoComplete`.
 
-1. Define a style for RadTextInput in the `ResourceDictionary`.
+1. Define a style for `RadTextInput` in the `ResourceDictionary`.
 2. Set the `IsTextPredictionEnabled` property to `False` in the style.
 3. Apply the style to the `TextInputStyle` property of RadAutoComplete.
 
