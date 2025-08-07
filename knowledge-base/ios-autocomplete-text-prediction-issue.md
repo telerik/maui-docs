@@ -21,7 +21,7 @@ When using [AutoComplete](https://docs.telerik.com/devtools/maui/controls/autoco
 
 This knowledge base article also answers the following questions:
 - How to disable iOS auto-correction for `RadAutoComplete`?
-- Why does incorrect text appear in RadAutoComplete selection on iOS?
+- Why does incorrect text appear in `RadAutoComplete` selection on iOS?
 - How to resolve text prediction issues in RadAutoComplete?
 
 ## Solution
