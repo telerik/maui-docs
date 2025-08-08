@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI SpeechToTextButton Documentation - Configuration
 description: Learn how to define language, get the text from the speech to text recognizer when using the Telerik SpeechToTextButton for .NET MAUI.
-position: 3
+position: 5
 tags: .net maui, telerik speech to text button for .net maui, ui for .net maui, microsoft .net maui
 slug: speechtotextbutton-configuration
 ---

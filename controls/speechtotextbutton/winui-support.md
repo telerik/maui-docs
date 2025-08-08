@@ -2,7 +2,7 @@
 title: WinUI Support
 page_title: .NET MAUI SpeechToTextButton Documentation - WinUI Support
 description: Review what are the options and limitations using the .NET MAUI SpeechToTextButton on WinUI.
-position: 1
+position: 3
 slug: speechtotextbutton-winui-support
 ---
 
@@ -18,7 +18,7 @@ The Speech Recognizer uses platform-specific speech recognition services. On Win
 
 * Based on this issue, the SpeechToTextButton control is not fully supported on WinUI. When you click the control, an `InvalidOperationException` is thrown.
 
-## Solutions
+## Solution
 
 To use the SpeechToTextButton on WinUI, you can use one of the following approaches:
 
@@ -32,7 +32,7 @@ this.speechToTextButton.SpeechRecognizerCreator = () => new RadSpeechRecognizer(
 
 * Use an **Unpackaged** app deployment model.
 
-## configure Speech Recognition
+## Configure Speech Recognition
 
 Confirm that **Online speech recognition** (Settings -> Privacy -> Speech) is enabled.
 

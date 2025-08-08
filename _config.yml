@@ -493,6 +493,10 @@ navigation:
         position: 15
     ## End SlideView Sub-Folders
     ##End SlideView
+    ## SpeechToTextButton
+    controls/speechtotextbutton:
+        title: "SpeechToTextButton"
+    ## End SpeechToTextButton
     ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
@@ -743,6 +747,7 @@ intro_columns:
         "Segmented Control": "segmentedcontrol-overview"
         "Button": "button-overview"
         "CheckBox": "checkbox-overview"
+        "SpeechToTextButton": "speechtotextbutton-overview"
         "TemplatedButton": "templatedbutton-overview"
         "ToggleButton": "togglebutton-overview"
 -

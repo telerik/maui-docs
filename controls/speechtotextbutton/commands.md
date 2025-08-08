@@ -2,7 +2,7 @@
 title: Commands
 page_title: .NET MAUI SpeechToTextButton Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI SpeechToTextButton
-position: 3
+position: 9
 tags: .net maui, telerik speech to text button for .net maui, ui for .net maui, microsoft .net maui
 slug: speechtotextbutton-commands
 ---

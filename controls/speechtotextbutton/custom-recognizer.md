@@ -2,7 +2,7 @@
 title: Custom Recognizer
 page_title: .NET MAUI SpeechToTextButton Documentation - Custom Recognizer
 description: Learn how to use a custom speech recognizer with the Telerik SpeechToTextButton for .NET MAUI.
-position: 3
+position: 6
 tags: .net maui, telerik speech to text button for .net maui, ui for .net maui, custom recognizer, microsoft .net maui
 slug: speechtotextbutton-custom-recognizer
 ---
