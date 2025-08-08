@@ -48,7 +48,7 @@ Here is the result of styling the BottomSheet and `BottomSheetContent`. The `Bot
 
 > For a runnable example with the BottomSheet Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 
-## Handle Styling
+## Styling the BottomSheet Handle
 
 The handle of the BottomSheet is a small visual indicator at the top of the control that users can grab to drag and resize the panel. You can style the handle by setting the `HandleStyle` property to the `RadBottomSheet`. The target type of the `HandleStyle` is `BottomSheetHandle`.
 

@@ -8,13 +8,15 @@ slug: bottomsheet-animation
 
 # .NET MAUI BottomSheet Animation
 
-Adding an animation to the BottomSheet provides visual continuity and makes the interface feel more responsive and polished. The Telerik .NET MAUI BottomSheet provides an option to set the animation when opening/closing the bottom view.
+Adding animation to the BottomSheet provides visual continuity and makes the interface feel more responsive and polished. Smooth transitions help users understand the relationship between different states and create a more engaging user experience.
 
-## Animation while Opening/Closing
+The Telerik .NET MAUI BottomSheet provides comprehensive animation options for opening, closing, and state transitions, whether triggered programmatically or through user interactions like swipe gestures.
+
+The following properties control the animation behavior of the BottomSheet:
 
 To enable or disable the animation, use the `IsAnimationEnabled` (`bool`) property of `RadBottomSheet`. By default, the animation is enabled.
 
-You can also customize the animation's duration and easing through the `AnimationDuration` and `AnimationEasing` properties.
+You can also customize the animation's duration and easing by using the following properties.
 
 * `AnimationDuration`(`uint`)&mdash;Defines the duration of the animation while opening/closing the bottom view. The default value is `1000` milliseconds.
 * `AnimationEasing`(`Microsoft.Maui.Easing`)&mdash;Specifies animation acceleration over time. The default value is `Easing.CubicOut`.
@@ -23,6 +25,7 @@ You can also customize the animation's duration and easing through the `Animatio
 
 ## See Also
 
+- [Swipe Gesture]({%slug bottomsheet-swipe-gesture%})
 - [Configure the BottomSheet]({%slug bottomsheet-configuration%})
 - [Style the BottomSheet]({%slug bottomsheet-styling%})
 - [Events]({%slug bottomsheet-events%})

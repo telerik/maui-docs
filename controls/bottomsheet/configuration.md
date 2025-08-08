@@ -36,6 +36,12 @@ You can specify the current state using the `State` property of type `BottomShee
 
 ### Custom States
 
+You can control the generation of default states using the `AutoGenerateStates` (`bool`) property. The default value is `true`, which means the four predefined states are populated in the `States` collection.
+
+```xaml
+<telerik:RadBottomSheet AutoGenerateStates="False" />
+```
+
 Create custom states using the `BottomSheetState` class constructors:
 
 * Using `BottomSheetLength`
@@ -75,18 +81,6 @@ Here is an example setting a custom state:
 var customState = new BottomSheetState("Custom", 30, true);
 bottomSheet.GoToBottomSheetState("Custom");
 ```
-
-### Auto-Generated States
-
-You can control the generation of default states using the `AutoGenerateStates` property.
-
-```xaml
-<telerik:RadBottomSheet AutoGenerateStates="False">
-
-</telerik:RadBottomSheet>
-```
-
-The default value is `true`, which means the four predefined states are populated in the `States` collection.
 
 ### States Collection
 
