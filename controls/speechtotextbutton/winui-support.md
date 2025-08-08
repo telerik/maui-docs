@@ -32,9 +32,13 @@ this.speechToTextButton.SpeechRecognizerCreator = () => new RadSpeechRecognizer(
 
 * Use an **Unpackaged** app deployment model.
 
+## configure Speech Recognition
+
+Confirm that **Online speech recognition** (Settings -> Privacy -> Speech) is enabled.
+
 ## Language Support
 
-When setting the `LanguageTag` to a specific value, ensure that the language is supported by the `Windows.Media.SpeechRecognition.SpeechRecognizer` on WinUI. 
+When setting the `RadSpeechToTextButton.LanguageTag` property to a specific value, ensure that the language is supported by the `Windows.Media.SpeechRecognition.SpeechRecognizer` on WinUI. 
 
 For more details, review the [Microsoft documentation](https://learn.microsoft.com/en-us/windows/apps/design/input/speech-recognition#predefined-grammars).
 
