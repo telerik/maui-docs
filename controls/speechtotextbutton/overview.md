@@ -2,7 +2,7 @@
 title: Overview
 page_title: .NET MAUI SpeechToTextButton Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI SpeechToTextButton control 
-tags: speach to text for .net maui, .net maui, ui for .net maui, microsoft .net maui
+tags: speech to text for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: speechtotextbutton-overview
 ---
@@ -11,17 +11,18 @@ slug: speechtotextbutton-overview
 
 The Telerik UI for .NET MAUI SpeechToTextButton is a UI component that enables users to convert spoken words into text within .NET MAUI applications.
 
-When the user taps the button, the control uses a speech recognition service, listens for voice input, and then transcribes the recognized speech into text. The text can be displayed in a text field or used for further processing.
+When the user taps the button, the control uses a speech recognition service, listens for voice input, and then transcribes the recognized speech into text. The recognized text can be displayed in a text field or used for further processing in your application.
 
 ![.NET MAUI SpeechToTextButton Overview](images/speechtotext-overview.png)
 
 ## Key Features of the Telerik .NET MAUI SpeechToTextButton
 
-* [States]({%slug speechtotextbutton-states%})&mdash;
-* [Language]({%slug %})&mdash;SpeechToTextButton for MAUI allows you to set the language
-* [Events]({%slug speechtotextbutton-events%})&mdash;
-* [Command]({%slug speechtotextbutton-commands%})&mdash;
-* [Styling API]({%slug speechtotextbutton-styling%})&mdash;
+* [Visual States]({%slug speechtotextbutton-visual-states%})&mdash;The SpeechToTextButton supports different visual states such as Normal, Listening, Error, and more, providing visual feedback to users during speech recognition.
+* [Language Configuration]({%slug speechtotextbutton-configuration%}#language)&mdash;The SpeechToTextButton allows you to set the language for speech recognition, ensuring accurate transcription of spoken words into text.
+* [Events]({%slug speechtotextbutton-events%})&mdash;The SpeechToTextButton emits a set of events that allow you to configure the component's behavior in response to speech recognition, including `SpeechRecognized` and `ErrorOccurred` events.
+* [Commands]({%slug speechtotextbutton-commands%})&mdash;The SpeechToTextButton supports command execution, allowing you to bind commands to the button's actions in an MVVM-friendly way.
+* [Custom Speech Recognizer]({%slug speechtotextbutton-custom-recognizer%})&mdash;Implement your own speech recognition logic by creating a custom recognizer that implements the `IRadSpeechRecognizer` interface.
+* [Styling API]({%slug speechtotextbutton-styling%})&mdash;You can customize the appearance of the SpeechToTextButton using the styling API, which allows you to set properties like background color, border color, corner radius, and more.
 
 ## Next Steps
 

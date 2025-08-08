@@ -33,9 +33,7 @@ The SpeechToTextButton uses the .NET MAUI Visual State Manager and defines a vis
 
 Each visual state can have different styling applied, allowing you to provide clear visual feedback for different interaction phases.
 
-## Styling Example
-
-### Using the Styling API
+## Example
 
 The following example demonstrates how to style the SpeechToTextButton with custom colors and visual state styling.
 
