@@ -50,7 +50,7 @@ Create custom states using the `BottomSheetState` class constructors:
 public BottomSheetState(string name, BottomSheetLength height)
 ```
 
-* Using `double value`
+* Using `double` value
 
 ```csharp
 public BottomSheetState(string name, double size, bool isPercentage = false)
