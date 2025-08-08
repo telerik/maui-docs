@@ -29,7 +29,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='speechtotext-mycustomrecognizer' />
 
-**4.** Set the `SpeechRecognizer` property of the `RadSpeechToTextButton` to an instance of your custom recognizer:
+**4.** Set the `SpeechRecognizerCreator` property of the `RadSpeechToTextButton` to an instance of your custom recognizer:
 
 <snippet id='speechtotext-speech-recognizer-creator' />
 

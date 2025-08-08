@@ -24,6 +24,35 @@ Before adding the SpeechToTextButton, you need to:
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
+## Required Permissions
+
+Before adding the contol, ensure that you have the required permissions set up in your project:
+
+### Android
+
+Add the following permissions to your `AndroidManifest.xml` file:
+
+```xml
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+```
+
+### iOS and MacCatalyst
+
+Add the `NSMicrophoneUsageDescription` and `NSSpeechRecognitionUsageDescription` permissions to your `Info.plist` file:
+
+```xml
+<key>NSMicrophoneUsageDescription</key>
+<string>The SpeechToTextButton requires access to microphone.</string>
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>The SpeechToTextButton requires access to the Speech Recognition service.</string>
+```
+
+### WinUI
+
+There are limitations when using the SpeechToTextButton on WinUI. When clicking on the control, the InvalidOperationException occurs.
+
+To turn speech recognition on WinUI, review the [WinUI Support]({%slug speechtotextbutton-winui-support%}) article.
+
 ## Define the Control
 
 **1.** When your .NET MAUI application is set up, you are ready to add a SpeechToTextButton control to your page:
