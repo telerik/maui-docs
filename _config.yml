@@ -30,6 +30,9 @@ navigation:
     styling-and-themes:
         title: "Styling and Themes"
         position: 5
+    ai:
+        title: "AI Coding Assistant"
+        position: 6
     security:
         title: "Security"
         position: 7
@@ -115,6 +118,10 @@ navigation:
     controls/border:
         title: "Border"
     ## End Border
+    ## BottomSheet
+    controls/bottomsheet:
+        title: "BottomSheet"
+    ## End BottomSheet
     ## BusyIndicator
     controls/busyindicator:
         title: "BusyIndicator"
@@ -728,6 +735,7 @@ intro_columns:
     title: "Navigation & Layouts"
     items:
         "Accordion": "accordion-overview"
+        "BottomSheet": "bottomsheet-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "NavigationView": "navigationview-overview"

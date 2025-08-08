@@ -88,3 +88,5 @@ TreeDataGrid
 Theming
 SpeechToTextButton
 SpeechToText
+BottomSheet
+MCP
