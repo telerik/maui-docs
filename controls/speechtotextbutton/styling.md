@@ -51,6 +51,14 @@ The following example demonstrates how to style the SpeechToTextButton with cust
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+**4.** The `SpeechRecognized` event handler:
+
+<snippet id='bottomsheet-content-style-resource' />
+
+**5.** The `ErrorOccurred` event handler:
+
+<snippet id='bottomsheet-content-style-resource' />
+
 This is the result on Android and iOS:
 
 ![.NET MAUI SpeechToTextButton Visual States](images/speechtotextbutton-styling.gif "SpeechToTextButton for .NET MAUI")

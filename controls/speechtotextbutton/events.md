@@ -26,7 +26,7 @@ The .NET MAUI SpeechToTextButton exposes the following events:
 		* `Exception` (`System.Exception`) property that contains the exception associated with the speech recognizer error, if any.
 		* `Handled` (`bool`) property that determines whether the error has been handled. Set this to `true` to prevent the default error handling behavior.
 
-* `StateChanged`&mdash;Raaised when the state of the speech recognizer changes. The `StateChanged` event handler receives two parameters:
+* `StateChanged`&mdash;Raised when the state of the speech recognizer changes. The `StateChanged` event handler receives two parameters:
 	* The `sender` argument which is of type `object` but can be cast to `RadSpeechToTextButton`.
 	* An `System.EventArgs`.
 
