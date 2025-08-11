@@ -14,7 +14,7 @@ The Speech Recognizer uses platform-specific speech recognition services. By def
 
 On WinUI, the `RadSpeechRecognizer` is not set to the `RadSpeechToTextButton`. When you click the control, an `InvalidOperationException` is thrown. The reason behind this is a limitation in the WinUI platform speech recognition service&mdash;[`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100).
 
-The `RadSpeechRecognizer` on WinUI implements the [`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100). There are specific considerations when using the control on WinUI due to limitations in the `Windows.Media.SpeechRecognition` API.
+The `RadSpeechRecognizer` on WinUI utilizes the [`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100). There are specific considerations when using the control on WinUI due to limitations in the `Windows.Media.SpeechRecognition` API.
 
 ## Limitations in Windows.Media.SpeechRecognition
 
@@ -36,7 +36,10 @@ this.speechToTextButton.SpeechRecognizerCreator = () => new RadSpeechRecognizer(
 
 ### Configure Speech Recognition
 
-Confirm that **Online speech recognition** (Settings -> Privacy -> Speech) is enabled.
+Confirm the following are enabled in your WinUI app:
+
+* Online speech recognition&mdash;(Settings -> Privacy -> Privacy & Security) is enabled.
+* Microphone&mdash;(Settings -> Privacy & Security -> Microphone) has the necessary permissions for the app. 
 
 ### Language Support
 

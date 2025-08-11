@@ -14,7 +14,7 @@ The purpose of this help article is to show you the main configuration options o
 ## Getting Full Text from Speech Recognition
 
 The SpeechToTextButton allows you to retrieve the full text recognized by the speech recognition service. 
-This is done through the `FullText` property, which provides the complete transcription of the spoken input.
+This is done through the `FullText` property, which provides the complete transcription of the spoken input from the beginning of the current listening session.
 
 To get the full text, you can subscribe to the `SpeechRecognized` event, which is triggered when the speech recognition is successful.
 
@@ -25,9 +25,8 @@ The SpeechToTextButton supports continuous speech recognition, allowing it to li
 You can disable the continuous recognition by setting the `IsContinuousRecognition` property to `false`. The default value is `true`, meaning that the button will listen for speech input continuously, until it is explicitly stopped or the user taps the button again.
 
 ```XAML
-<telerik:RadSpeechToTextButton x:Name="speechContinuousButton" 
-							   IsContinuousRecognition="False"
-							   SpeechRecognized="OnSpeechRecognized" />
+<telerik:RadSpeechToTextButton x:Name="speechContinuousButton"
+							   IsContinuousRecognition="False" />
 ```
 
 ## Language
@@ -38,7 +37,14 @@ You can set the language using the `LanguageTag` property, which accepts a strin
 
 <snippet id='speechtotext-language-tag' />
 
-> For a runnable example with the SpeechToTextButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SpeechToTextButton > Configuration** category.
+### Language Support
+
+The SpeechToTextButton supports a variety of languages for speech recognition. The available languages depend on the underlying platform and the speech recognition service used.
+
+Check the following articles for more information on supported languages: [SpeechToTextButton Language Support in .NET MAUI]({%slug speechtotextbutton-language-support%})
+
+
+> For a runnable example with the SpeechToTextButton Configuration scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SpeechToTextButton > Features** category.
 
 ## See Also
 

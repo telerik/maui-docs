@@ -21,7 +21,10 @@ The SpeechToTextButton provides the following `CommonStates` visual states:
 | ------------ | ----------- |
 | `Normal` | Applied when the button is in its default, inactive state. |
 | `Pressed` | Applied when the button is being pressed or tapped by the user. |
+| `PointerOver`| (Desktop) Applied when the mouse cursor is hovering over the button. |
 | `Listening` | Applied when the button is actively listening for speech input. |
+| `ListeningPointerOver` | (Desktop) Applied when the mouse cursor is hovering over the button when in `Listening` state. |
+| `ListeningPressed` | Applied when the button is pressed when actively listening for speech input. |
 | `Error` | Applied when an error occurs during speech recognition (e.g., no internet connection, speech recognizer issues, permission denied). |
 | `Disabled` | Applied when the button is disabled and cannot be interacted with. |
 
@@ -57,7 +60,7 @@ This is the result on WinUI:
 
 ![.NET MAUI SpeechToTextButton Visual States](images/speechtotextbutton-styling.gif "SpeechToTextButton for .NET MAUI")
 
-> For a runnable example demonstrating the SpeechToTextButton visual states, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SpeechToTextButton > Styling** category.
+> For a runnable example demonstrating the SpeechToTextButton Visual States scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SpeechToTextButton > Styling** category.
 
 ## See Also
 

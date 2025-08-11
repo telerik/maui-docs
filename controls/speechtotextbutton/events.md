@@ -16,7 +16,7 @@ The .NET MAUI SpeechToTextButton exposes the following events:
 * `SpeechRecognized`&mdash;Raised when the speech recognition is successful and the recognized text is available. The `SpeechRecognized` event handler receives two parameters:
 	* The `sender` argument which is of type `object` but can be cast to `RadSpeechToTextButton`.
 	* A `SpeechRecognizerSpeechRecognizedEventArgs` argument which has a reference to the:
-		* `FullText` (`string`) property that contains the current full text recognized from the speech input.
+		* `FullText` (`string`) property that contains the current full text recognized from the speech input from the beginning of the current listening session.
 		* `FullTextConfidenceScore` property that indicates the confidence level of the recognition. The value is between 0 and 1, indicating how confident the speech-to-text transcription is. If the value is -1, a confidence score could not be provided.
 
 * `ErrorOccurred`&mdash;Raised when an error occurs during the speech recognition process. The `ErrorOccurred` event handler receives two parameters:
