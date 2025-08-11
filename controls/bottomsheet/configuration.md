@@ -23,6 +23,8 @@ The control includes four built-in states with predefined heights:
 * `Partial`&mdash;Represents a partial bottom sheet state with height `50%`.
 * `Full`&mdash;Represents a full bottom sheet state with height `90%`.
 
+![.NET MAUI BottomSheet States](images/bottomsheet-states.png "BottomSheet States")
+
 ### Setting States
 
 You can specify the current state using the `State` property of type `BottomSheetState`:
@@ -110,6 +112,10 @@ bottomSheet.BottomSheetContentWidth = new BottomSheetLength(80, true);
 // Using absolute value
 bottomSheet.BottomSheetContentWidth = new BottomSheetLength(300, false);
 ```
+
+Here is an example setting the width of the `BottomSheetContent` to 400 (absolute value) and 50%:
+
+![.NET MAUI BottomSheet width](images/bottomsheet-width.gif)
 
 > For a runnable example with setting the BottomSheet Width, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 

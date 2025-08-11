@@ -37,6 +37,10 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='speechtotext-events-speech-recognized' />
 
+This is the result on Android:
+
+![.NET MAUI SpeechToTextButton Custom Recognizer](images/speechtotextbutton-custom-recognizer.gif)
+
 > For a runnable example with the SpeechToTextButton Custom Recognizer scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SpeechToTextButton > Features** category.
 
 ## See Also

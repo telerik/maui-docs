@@ -14,4 +14,14 @@ The following image shows the anatomy of the BottomSheet.
 
 ![Telerik UI for .NET MAUI BottomSheet Visual Structure](images/bottomsheet-visual-structure.png "Visual elements of the .NET MAUI BottomSheet control")
 
-* ****&mdash;
+* **BottomSheet Main Content**&mdash;Represents the main content of the BottomSheet.
+* **BottomSheet Content**&mdash;Represents the content of the BottomSheet that slides up from the bottom of the screen.
+* **BottomSheet Handle**&mdash;Represents a visual cue which indicates the control can be dragged.
+
+## See Also
+
+- [Configure the BottomSheet]({%slug bottomsheet-configuration%})
+- [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})
+- [Style the BottomSheet]({%slug bottomsheet-styling%})
+- [Events]({%slug bottomsheet-events%})
+- [Methods]({%slug bottomsheet-methods%})

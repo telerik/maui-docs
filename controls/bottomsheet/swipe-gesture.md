@@ -15,6 +15,10 @@ You can disable the swipe gesture by setting the `IsSwipeEnabled` (`bool`) prope
 
 > The animation is always enabled when using the swipe gesture to change the states of the BottomSheet. You can configure the animation settings using the `AnimationDuration` and `AnimationEasing` properties.
 
+Here is a video how the swipe gesture works in the BottomSheet control:
+
+![BottomSheet Swipe Gesture](images/bottomsheet-swipe-gesture.gif "BottomSheet Swipe Gesture")
+
 > For a runnable example with the BottomSheet Swipe scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 
 ## See Also
