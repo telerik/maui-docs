@@ -40,19 +40,6 @@ This is the result on Android:
 
 > For a runnable example with the BottomSheet Content scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and review all **BottomSheet** example.
 
-## Setting Custom Control Template
-
-> If you want to review the default BottomSheet templates, add the [TelerikTheming]({%slug themes-overview%}) to the project and go to `TelerikTheming/Styles/Platform/BottomSheet.xaml` file.
-
-
-Here is an example setting custom `ControlTemplate`.
-
-<snippet id='bottomsheet-custom-control-template' />
-
-This is the result on Android:
-
-![.NET MAUI BottomSheet Control Template](images/bottomsheet-control-template.png)
-
 ## See Also
 
 - [Animation when opening and closing the bottom sheet]({%slug bottomsheet-animation%})
