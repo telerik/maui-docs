@@ -26,6 +26,6 @@ The following example demonstrates how to apply a sample style to the current ti
 
 ## See Also
 
--[Current Time Indicator]({%slug scheduler-time-indicator%})
--[Views]({% slug scheduler-views-overview %})
+- [Current Time Indicator]({%slug scheduler-time-indicator%})
+- [Views]({% slug scheduler-views-overview %})
 

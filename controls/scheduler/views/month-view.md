@@ -26,8 +26,8 @@ Add a `MonthViewDefinition` to the `ViewDefinitions` collection of the `RadSched
 
 ## Properties
 
-* `FirstDayOfWeek`&mdash;Defines the day that is considered the beginning of the week.
-* `HeaderTextFormat`&mdash;Defines the format string for the header text. 
+* `FirstDayOfWeek` (enum of type `DayOfWeek?`)&mdash;Defines the day that is considered the beginning of the week.
+* `HeaderTextFormat` (`string`)&mdash;Defines the format string for the header text. 
 
 ## See Also
 

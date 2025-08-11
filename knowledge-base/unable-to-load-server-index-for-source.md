@@ -33,7 +33,7 @@ The most common reasons for connectivity issues with the Telerik NuGet server ar
 
 * Verify that you can access the Telerik NuGet server and the expected packages: open the <a href="https://nuget.telerik.com/v3/search?q=maui&prerelease=true&skip=0&take=100&semVerLevel=2.0.0" target="_blank">https://nuget.telerik.com/v3/search?q=maui&prerelease=true&skip=0&take=100&semVerLevel=2.0.0</a> URL directly in the web browser and enter your Telerik credentials in the prompt.
 
-  * As a result, you will see a JSON output with the NuGet packages and versions that are available for you. Depending on your license, search for `Telerik.UI.for.Maui` or `Telerik.UI.for.Maui.Trial`.
+  * As a result, you will see a JSON output with the NuGet packages and versions that are available for you.
 
   * If the above URL doesn't open, you are facing either a network issue or the Telerik NuGet server is temporarily unavailable.
 
