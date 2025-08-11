@@ -18,15 +18,15 @@ At the end, you will achieve the following result.
 
 Before adding the SpeechToTextButton, you need to:
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-getting-started%}#prerequisites).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started%}#step-0-start-your-free-trial).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started%}#step-3-add-the-telerik-nuGet-server).
 
 ## Required Permissions
 
-Before adding the contol, ensure that you have the required permissions set up in your project:
+Before adding the contol, ensure that you have the required permissions set up in your project.
 
 ### Android
 
@@ -49,7 +49,7 @@ Add the `NSMicrophoneUsageDescription` and `NSSpeechRecognitionUsageDescription`
 
 ### WinUI
 
-There are limitations when using the SpeechToTextButton on WinUI. When clicking on the control, the InvalidOperationException occurs.
+There are limitations when using the SpeechToTextButton on WinUI. When clicking on the control, the `InvalidOperationException` occurs.
 
 To turn speech recognition on WinUI, review the [WinUI Support]({%slug speechtotextbutton-winui-support%}) article.
 

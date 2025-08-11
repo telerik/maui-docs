@@ -9,7 +9,7 @@ slug: speechtotextbutton-visual-states
 
 # .NET MAUI SpeechToTextButton Visual States
 
-The SpeechToTextButton control provides visual states that allow you to customize its appearance based on different interaction and operational states. Visual states enable you to create responsive UI that provides clear feedback to users about the control's current status.
+The SpeechToTextButton control provides visual states that allow you to customize its appearance based on user interactions and operational states. Visual states enable you to create responsive UI that provides clear feedback to users about the control's current status.
 
 You can use visual states to change the visual appearance of the control depending on its current state&mdash;whether it's disabled, pressed, listening for speech, or encountering an error.
 
@@ -32,11 +32,11 @@ The SpeechToTextButton provides the following `CommonStates` visual states:
 
 The SpeechToTextButton automatically transitions between visual states based on user interaction and speech recognition status:
 
-- `Normal` → `Pressed`&mdash;When user starts pressing the button
-- `Pressed` → `Listening`&mdash;When speech recognition begins
-- `Listening` → `Normal`&mdash;When speech recognition completes successfully
-- Any State → `Error`&mdash;When an error occurs during operation
-- Any State → `Disabled`&mdash;When the control is programmatically disabled
+- `Normal` → `Pressed`&mdash;When the user presses the button.
+- `Pressed` → `Listening`&mdash;When speech recognition begins.
+- `Listening` → `Normal`&mdash;When speech recognition completes successfully.
+- Any State → `Error`&mdash;When an error occurs during operation.
+- Any State → `Disabled`&mdash;When the control is programmatically disabled.
 
 ## Using Visual States
 

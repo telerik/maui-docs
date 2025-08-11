@@ -14,25 +14,24 @@ The Speech Recognizer uses platform-specific speech recognition services. By def
 
 On WinUI, the `RadSpeechRecognizer` is not set to the `RadSpeechToTextButton`. When you click the control, an `InvalidOperationException` is thrown. The reason behind this is a limitation in the WinUI platform speech recognition service&mdash;[`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100).
 
-The `RadSpeechRecognizer` on WinUI utilizes the [`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100). There are specific considerations when using the control on WinUI due to limitations in the `Windows.Media.SpeechRecognition` API.
+The `RadSpeechRecognizer` on WinUI utilizes the [`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100). There are specific considerations when using the control on WinUI due to limitations in the `Windows.Media.SpeechRecognition` API. The app crashes when trying to close the application via the "X" button and the app is **Packaged**.
 
-## Limitations in Windows.Media.SpeechRecognition
-
-* The app crashes when trying to close the application via the "X" button and the app is **Packaged**. There is an open bug report: [Application crashes after using SpeechRecognizer in a Packaged App](https://github.com/microsoft/microsoft-ui-xaml/issues/10697)
+> See the following bug report for more details: [Application crashes after using SpeechRecognizer in a Packaged App](https://github.com/microsoft/microsoft-ui-xaml/issues/10697).
 
 ## Solutions
 
-To use the SpeechToTextButton on WinUI, you can use one of the following approaches:
+To use the SpeechToTextButton on WinUI, you can use one of the following approaches described in the table below:
 
-* Set the `SpeechRecognizerCreator` property of the `RadSpeechToTextButton` to `RadSpeechRecognizer` for **Unpackaged** apps:
+| Packaged Apps | Unpackaged Apps |
+| ------------- | --------------- |
+| Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) | Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) |
+|  | Use the `RadSpeechRecognizer` |
 
-```csharp
+If you want to use the `RadSpeechRecognizer` on WinUI, set the `SpeechRecognizerCreator` property of the `RadSpeechToTextButton` to `RadSpeechRecognizer`:
+
+```C#
 this.speechToTextButton.SpeechRecognizerCreator = () => new RadSpeechRecognizer();
 ```
-
-* Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) for **Packaged** and **Unpackaged** apps.
-
-* Use an **Unpackaged** app deployment model.
 
 ### Configure Speech Recognition
 
