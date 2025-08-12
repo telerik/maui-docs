@@ -32,7 +32,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 **5.** Add the following code for the `RadCollectionView.ItemTapped` event handler:
 
-<snippet id='bottomsheet-content-tapped-event' />
+<snippet id='bottomsheet-open-sheet-view' />
 
 This is the result on Android:
 

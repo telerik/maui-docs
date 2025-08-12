@@ -9,7 +9,9 @@ slug: speechtotextbutton-states
 
 # .NET MAUI SpeechToTextButton Architecture and States
 
-The SpeechTextButton control handles user interactions and provides visual feedback about its current state, for example, when it's listening or ready. The button uses a speech recognition service that varies by platform and also provides an AI agent connection. Almost all operations are asynchronous.
+The SpeechTextButton control handles user interactions and provides visual feedback about its current state, for example, when it's listening or ready.
+
+The button uses a speech recognition service that varies by platform and also provides an AI agent connection. Almost all operations are asynchronous.
 
 The image below explains how the control works and how the states are managed: 
 
