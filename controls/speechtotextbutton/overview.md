@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI SpeechToTextButton is a UI component that enables u
 
 When the user taps the button, the control uses a speech recognition service, listens for voice input, and then transcribes the recognized speech into text. The recognized text can be displayed in a text field or used for further processing in your application.
 
-![.NET MAUI SpeechToTextButton Overview](images/speechtotext-overview.png)
+![.NET MAUI SpeechToTextButton Overview](images/speechtotextbutton-overview.png)
 
 ## Key Features of the Telerik .NET MAUI SpeechToTextButton
 
