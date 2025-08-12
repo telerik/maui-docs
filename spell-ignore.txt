@@ -90,3 +90,4 @@ SpeechToTextButton
 SpeechToText
 BottomSheet
 MCP
+MacCatalyst
