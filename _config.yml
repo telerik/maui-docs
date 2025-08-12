@@ -118,6 +118,10 @@ navigation:
     controls/border:
         title: "Border"
     ## End Border
+    ## BottomSheet
+    controls/bottomsheet:
+        title: "BottomSheet"
+    ## End BottomSheet
     ## BusyIndicator
     controls/busyindicator:
         title: "BusyIndicator"
@@ -496,6 +500,10 @@ navigation:
         position: 15
     ## End SlideView Sub-Folders
     ##End SlideView
+    ## SpeechToTextButton
+    controls/speechtotextbutton:
+        title: "SpeechToTextButton"
+    ## End SpeechToTextButton
     ## SpreadProcessing
     controls/spreadprocessing:
         title: "SpreadProcessing"
@@ -727,6 +735,7 @@ intro_columns:
     title: "Navigation & Layouts"
     items:
         "Accordion": "accordion-overview"
+        "BottomSheet": "bottomsheet-overview"
         "DockLayout": "docklayout-overview"
         "Expander": "expander-overview"
         "NavigationView": "navigationview-overview"
@@ -746,6 +755,7 @@ intro_columns:
         "Segmented Control": "segmentedcontrol-overview"
         "Button": "button-overview"
         "CheckBox": "checkbox-overview"
+        "SpeechToTextButton": "speechtotextbutton-overview"
         "TemplatedButton": "templatedbutton-overview"
         "ToggleButton": "togglebutton-overview"
 -

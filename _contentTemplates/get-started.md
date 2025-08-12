@@ -37,6 +37,7 @@ To visualize the Telerik controls, register them in the `MauiProgram.cs` file of
 	.UseTelerik()
 	<!-- Code omitted for brevity -->
 	```
+
 #end
 
 #add-telerik-component

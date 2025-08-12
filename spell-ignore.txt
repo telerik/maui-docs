@@ -86,4 +86,8 @@ TextInput
 telerik
 TreeDataGrid
 Theming
+SpeechToTextButton
+SpeechToText
+BottomSheet
 MCP
+MacCatalyst
