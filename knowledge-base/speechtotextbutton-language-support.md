@@ -10,9 +10,9 @@ res_type: kb
 
 ## Environment
 
-| Version | Control | Author | 
-| ------- | ------- | ------ | 
-| SpeechToTextButton for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| Control | Author | 
+| ------- | ------ | 
+| SpeechToTextButton for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
@@ -20,12 +20,12 @@ This article explains how to check the supported languages for the SpeechToTextB
 
 ## Solution
 
-Here is an example of how to check the supported languages for the SpeechToTextButton in .NET MAUI. For the demo we will use 
+Here is an example of how to check the supported languages for the SpeechToTextButton in .NET MAUI. For the demo, we will use:
 * An Editor for displaying the recognized text.
-* Entry for setting the language.
-* Label for displaying whether the language is supported or not.
+* An Entry for setting the language.
+* A Label for displaying whether the language is supported or not.
 
-**1.** Define the `RadSpeechToTextButton` control in XAML. 
+**1.** Define the `RadSpeechToTextButton` control in XAML:
 
 ```XAML
 <Grid RowDefinitions="Auto, *, 4*">
@@ -43,7 +43,7 @@ Here is an example of how to check the supported languages for the SpeechToTextB
 </Grid>
 ```
 
-**2.** In the code-behind, handle the `TextChanged` event of the Entry to check if the entered language is supported.
+**2.** In the code-behind, handle the `TextChanged` event of the Entry to check if the entered language is supported:
 
 ```C#
 private void EntryLanguage_TextChanged(object sender, Microsoft.Maui.Controls.TextChangedEventArgs e)
@@ -67,10 +67,11 @@ private static bool IsLanguageSupported(string languageTag)
     try
     {
 #if ANDROID
-        //// There is no programmatic way to check if a language is supported on Android but most languages are.
-        //// https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages
+        // There is no programmatic way to check if a language is supported on Android, but most languages are.
+        // For a complete list, see: https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages
+        return true;
 #elif IOS
-        var locale =  Foundation.NSLocale.FromLocaleIdentifier(languageTag);
+        var locale = Foundation.NSLocale.FromLocaleIdentifier(languageTag);
         var localSpeechRecognizer = new Speech.SFSpeechRecognizer(locale);
         localSpeechRecognizer.Dispose();
 #elif WINDOWS
@@ -87,7 +88,7 @@ private static bool IsLanguageSupported(string languageTag)
 }
 ```
 
-**3.** Handle the SpeechToTextButton's `SpeechRecognized` event to display the recognized text in the Editor.
+**3.** Handle the SpeechToTextButton's `SpeechRecognized` event to display the recognized text in the Editor:
 
 ```C#
 private void SpeechToTextButton_SpeechRecognized(object sender, SpeechRecognizerSpeechRecognizedEventArgs args)
