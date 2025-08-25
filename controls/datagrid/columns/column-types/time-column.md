@@ -18,7 +18,7 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 * `CellContentStyle`(`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with this column. 
 * `CellContentStyleSelector`&mdash;Defines the `StyleSelector` instance that allows for the dynamic appearance on a per-cell basis.
 * `CellContentFormat`&mdash;Defines the custom format for each cell value. The `String.Format` routine is used and the format passed has to be in the form required by this method.
-* `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContenTemplate` enables you to customize the default content of the cell.
+* `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContentTemplate` enables you to customize the default content of the cell.
 * `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.
 * `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 * `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
@@ -47,7 +47,7 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 
 ![DataGrid Time Column](images/timecolumn-overview.png)
 
-**Example with CellContenTemplate and CellEditTemplate**
+**Example with CellContentTemplate and CellEditTemplate**
 
 ```XAML
 <telerik:DataGridTimeColumn PropertyName="Time" 
