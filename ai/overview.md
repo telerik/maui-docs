@@ -36,6 +36,15 @@ To use the Telerik MAUI AI Coding Assistant, you need:
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 * @[template](/_contentTemplates/common/ai-coding-assistant.md#number-of-requests)
 
+## Recommendations
+
+Consider the following recommendations when working with the AI Coding Assistant:
+
+* Add NuGet packages/referenced assemblies for the Telerik UI for WPF product.
+* Set the .sln as a context.
+* When switching between tasks and files, start a new session in a new chat window to avoid polluting the context with irrelevant or outdated information.
+* At the time of publishing, Claude Sonnet 4 produces optimal results.
+
 ## Number of Requests
 
 The Telerik MAUI AI Coding Assistant allows the following maximum number of requests based on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
@@ -67,6 +76,11 @@ Data Storage:
 * Usage metrics are collected to ensure [license compliance](#number-of-requests).
 
 > Make sure also to review the terms and privacy policies of your selected AI model and AI client.
+
+## Telerik Document Processing AI Coding Assistant
+
+You can also use the AI Coding Assistant for Telerik Document Processing to generate high-quality code samples and speed up your development.
+Read the full guide in the dedicated [DPL AI Coding Assistant article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
 
 ## Next Steps
 
