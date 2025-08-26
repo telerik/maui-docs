@@ -176,7 +176,7 @@ The [Telerik .NET MAUI CollectionView]({%slug collectionview-overview%}) is a vi
 
 ### ComboBox
 
-The [Telerik UI for .NET MAUI ComboBox({%slug combobox-overview%}) enables users to select one or more items from a dropdown list. 
+The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) enables users to select one or more items from a dropdown list. 
 
 <table>
 <tr>
@@ -284,7 +284,7 @@ The [Telerik TabView for .NET MAUI]({%slug tabview-overview%}) is a flexible nav
 
 ### Scheduler
 
-The [Telerik UI for .NET MAUI Scheduler({%slug scheduler-overview%}) allows you to easily implement various scheduling scenarios in your .NET MAUI apps.
+The [Telerik UI for .NET MAUI Scheduler]({%slug scheduler-overview%}) allows you to easily implement various scheduling scenarios in your .NET MAUI apps.
 
 <table>
 <tr>
