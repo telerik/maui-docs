@@ -4,7 +4,7 @@ page_title: Telerik MAUI MCP Server
 description: Learn how to add and use the Telerik MAUI MCP Server as a .NET MAUI AI coding assistant and code generator for better developer productivity. The Telerik MAUI MCP server provides proprietary context about Telerik UI for .NET MAUI to AI-powered software.
 slug: ai-mcp-server
 tags: telerik,maui,ai,ai server,dotnetmaui,coding assistant
-position: 20
+position: 2
 ---
 
 # Telerik .NET MAUI MCP Server
@@ -40,7 +40,7 @@ Use these settings when configuring the server in your MCP client:
 | Type | `stdio` (standard input/output transport) |
 | Command | `npx` |
 | Arguments | `-y` |
-| Server Name | `telerikMauiAssistant` (customizable) |
+| Server Name | `telerik-maui-assistant` (customizable) |
 
 ### License Configuration
 
@@ -77,7 +77,7 @@ For complete setup instructions, see [Use MCP servers in Visual Studio](https://
  ```json
  {
    "servers": {
-     "telerikMauiAssistant": {
+     "telerik-maui-assistant": {
        "type": "stdio",
        "command": "npx",
        "args": ["-y", "@progress/telerik-maui-mcp@latest"],
@@ -92,7 +92,7 @@ For complete setup instructions, see [Use MCP servers in Visual Studio](https://
  ```
 
 2. Restart Visual Studio.
-3. Enable the `telerikMauiAssistant` tool in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
+3. Enable the `telerik-maui-assistant` tool in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
 ### Global Setup:
 
@@ -145,7 +145,7 @@ Create `.cursor/mcp.json` in your workspace root (or user folder for global setu
 ```json
 {
   "mcpServers": {
-    "telerikMauiAssistant": {
+    "telerik-maui-assistant": {
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "@progress/telerik-maui-mcp@latest"],
@@ -164,14 +164,14 @@ Create `.cursor/mcp.json` in your workspace root (or user folder for global setu
 To use the Telerik MCP Server:
 
 1. Start your prompt with one of these triggers:
-   - `/telerik` / `@telerik` / `#telerik`
-   - `/telerikmaui` / `@telerikmaui` / `#telerikmaui`
+   - `#telerik`
+   - `#telerikmaui`
    - `#telerik-maui-assistant`
 
 2. Verify server activation by looking for these messages:
-   - Visual Studio: `Running telerikMauiAssistant`
+   - Visual Studio: `Running telerik-maui-assistant`
    - Visual Studio Code: `Running telerik-maui-assistant`
-   - Cursor: `Calling MCP tool telerikMauiAssistant`
+   - Cursor: `Calling MCP tool telerik-maui-assistant`
 
 3. Grant permissions when prompted (per session, workspace, or always).
 
@@ -187,9 +187,9 @@ To increase the likelihood of the Telerik MCP server being used, add custom inst
 
 The following examples demonstrate useful prompts for the Telerik .NET MAUI MCP Server:
 
-* "`/telerik` Generate a DataGrid with sorting and paging. Bind it to a Person model with sample ViewModel."
-* "`/telerikmaui` Create a ComboBox showing a product list. Include Product class and sample data."
-* "`/telerik` Build a CollectionView with sorting and filtering capabilities."
+* "`#telerik-maui-assistant Create new maui project with Telerik. Add sample usage of the DataGrid component.`"
+* "`#telerik-maui-assistant Create a DataGrid with 3 columns - Name, Country, City. Add the corresponding business object in the code behind and populate it with sample data. Add 20 entries to the data.`"
+* "`#telerik-maui-assistant Add CollectionView. Enable drag and drop operation in the control.`"
 
 ## Number of Requests
 

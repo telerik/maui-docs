@@ -36,15 +36,33 @@ To use the Telerik MAUI AI Coding Assistant, you need:
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 * @[template](/_contentTemplates/common/ai-coding-assistant.md#number-of-requests)
 
-## Number of Requests
+## Recommendations
 
-The Telerik MAUI AI Coding Assistant allows the following maximum number of requests based on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
+Consider the following recommendations when working with the AI Coding Assistant:
 
-| License Type | Request Limit |
-|--------------|---------------|
-| Perpetual | 50 requests per year |
-| Subscription | Virtually unlimited with fair use threshold of 300 requests per day |
-| Trial | 300 requests per trial period (does not reset with new trial activations) |
+* Add NuGet packages/referenced assemblies for the Telerik UI for WPF product.
+* Set the .sln as a context.
+* When switching between tasks and files, start a new session in a new chat window to avoid polluting the context with irrelevant or outdated information.
+* At the time of publishing, Claude Sonnet 4 produces optimal results.
+
+## Usage Limits
+
+Access to the AI Coding Assistant depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
+
+Subscription License:
+* A Subscription is the primary license that grants full access to the AI Coding Assistant.
+* Includes a virtually unlimited number of requests, with a fair use threshold of 300 requests per day.
+* Best for ongoing and high-volume usage.
+
+Perpetual License (Limited Access):
+* Perpetual licenses include limited access of 50 requests per year.
+* Intended for exploring and trying out the AI Coding Assistant.
+* For continued or higher-volume access, upgrade to a Subscription license.
+
+Trial License:
+* Trial licenses include 300 requests per trial per year.
+* Reactivating the same trial for a new release does not grant additional requests.
+* Designed for evaluating the feature before purchasing.
 
 > All Telerik AI tools share a single request quota for your Telerik account. Usage from the [Telerik Copilot extension]({%slug ai-copilot-extension%}) and [Telerik MCP server]({%slug ai-mcp-server%}) counts toward the same limit. Complex prompts in the MCP server may consume multiple requests.
 
@@ -68,7 +86,13 @@ Data Storage:
 
 > Make sure also to review the terms and privacy policies of your selected AI model and AI client.
 
+## Telerik Document Processing AI Coding Assistant
+
+You can also use the AI Coding Assistant for Telerik Document Processing to generate high-quality code samples and speed up your development.
+Read the full guide in the dedicated [DPL AI Coding Assistant article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
+
 ## Next Steps
 
 * Install the [Telerik MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%})
 * Configure the [Telerik MAUI MCP Server]({%slug ai-mcp-server%}) with an MCP-enabled client
+* Review the [Prompt Library]({%slug ai-prompt-library%})

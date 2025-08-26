@@ -4,7 +4,7 @@ page_title: Telerik MAUI GitHub Copilot Extension
 description: Learn how to add and use the Telerik MAUI GitHub Copilot extension as a .NET MAUI AI coding assistant and code generator for better developer productivity. The Telerik MAUI GitHub Copilot extension provides proprietary context about Telerik UI for .NET MAUI to AI-powered software.
 slug: ai-copilot-extension
 tags: telerik, maui, ai, dotnetmaui, coding assistant, ai server
-position: 10
+position: 1
 ---
 
 # Telerik MAUI GitHub Copilot Extension
@@ -54,8 +54,8 @@ To use the Telerik MAUI Copilot extension:
 
 The following examples demonstrate useful prompts for the Telerik MAUI extension:
 
-* "`@telerikmaui` Generate a DataGrid with sorting and paging enabled."
-* "`@telerikmaui` Create a Telerik ComboBox for MAUI with multiple selection enabled."
+* "`@telerikmaui` Generate a DataGrid with 5 columns and 500 records. Enable sorting for the firs column and include paging."
+* "`@telerikmaui` Create a Telerik ComboBox with sample data for customers. Enable multiple selection and preselect the first two customers."
 * "`@telerikmaui` Show me how to implement a Chart with line series."
 * "`@telerikmaui` Generate a CollectionView with grouping and filtering capabilities."
 
