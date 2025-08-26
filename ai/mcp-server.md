@@ -4,7 +4,7 @@ page_title: Telerik MAUI MCP Server
 description: Learn how to add and use the Telerik MAUI MCP Server as a .NET MAUI AI coding assistant and code generator for better developer productivity. The Telerik MAUI MCP server provides proprietary context about Telerik UI for .NET MAUI to AI-powered software.
 slug: ai-mcp-server
 tags: telerik,maui,ai,ai server,dotnetmaui,coding assistant
-position: 20
+position: 2
 ---
 
 # Telerik .NET MAUI MCP Server
