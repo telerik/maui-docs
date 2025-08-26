@@ -95,3 +95,4 @@ Read the full guide in the dedicated [DPL AI Coding Assistant article](https://d
 
 * Install the [Telerik MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%})
 * Configure the [Telerik MAUI MCP Server]({%slug ai-mcp-server%}) with an MCP-enabled client
+* Review the [Prompt Library]({%slug ai-prompt-library%})
