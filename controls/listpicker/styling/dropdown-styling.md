@@ -31,6 +31,10 @@ The following examples demonstrate how to define use the styling properties of t
 
 <snippet id='listpicker-dropdown-style' />
 
+**Define the DropDownViewStyle**
+
+<snippet id='listpicker-style-dropdownview-style' />
+
 **Define the FooterStyle**
 
 <snippet id='listpicker-style-footer-style' />
