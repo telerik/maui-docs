@@ -24,7 +24,7 @@ In the example special slots are used to distinguish the non-working hours. In a
 
 **3.** Add the ViewModel class with the `SpecialSlotsSource` defined:
 
-<snippet id='scheduler-specialslots-viewmodel' />
+<snippet id='scheduler-specialslots-styling-viewmodel' />
 
 **4.** Define the Scheduler with the `SpecialSlotStyleSelector` property applied to the view definitions:
 

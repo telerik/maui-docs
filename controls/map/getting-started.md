@@ -31,7 +31,6 @@ Before adding the Map, you need to:
 1. When your .NET MAUI application is set up, you are ready to add a Map control to your page.
 
  <snippet id='map-getting-started-xaml' />
- <snippet id='map-gettingstarted-csharp' />
 
 1. Add the following namespace:
 

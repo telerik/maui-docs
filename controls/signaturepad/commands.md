@@ -13,9 +13,11 @@ SignaturePad exposes a `ClearCommand`(`ICommand`) for clearing the signature.
 
 <snippet id='signaturepad-clear-command'/>
 
-Add the namespace: 
+Add the `telerik` namespace: 
 
-<snippet id='xmlns-telerikinput'/>
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 ## See Also
 

@@ -50,7 +50,7 @@ The Rating supports the following geometry types:
 
  ![.NET MAUI Custom Shape Rating](images/rating-triangle.png)
 
- <snippet id='rating-geometries-customgeometry ' />
+ <snippet id='rating-geometries-customgeometry' />
 
 ## Shapes Styling
 

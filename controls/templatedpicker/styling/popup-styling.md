@@ -54,7 +54,7 @@ The following example shows how the styling properties are applied.
 
 **Define the FooterStyle**
 
-<snippet id='templatedpicker-commonbuttonstyle' />
+<snippet id='templatedpicker-popup-commonbuttonstyle' />
 
 **Define the AcceptButtonStyle**
 

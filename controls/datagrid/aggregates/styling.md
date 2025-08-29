@@ -95,15 +95,15 @@ The table below describes the available properties for the `GroupAggregateCellSt
 
 **1.** Define the DataGrid in XAML:
 
-<snippet id='datagrid-group-header-aggregates'/>
+<snippet id='datagrid-group-header-aggregates-styleselector'/>
 
 **2.** Define the `StyleSelector` class:
 
-<snippet id='datagrid-group-header-aggregate-nexttoheader-style-xaml'/>
+<snippet id='datagrid-aggregates-styleselector'/>
 
 **3.** Define the `GroupAggregateCellStyleSelector` in the page's resources:
 
-<snippet id='datagrid-group-header-aggregate-nexttoheader-style-xaml'/>
+<snippet id='datagrid-group-header-aggregate-styleselector-xaml'/>
 
 **4.** Define the `DataModel`:
 

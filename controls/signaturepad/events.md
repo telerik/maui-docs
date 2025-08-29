@@ -29,9 +29,11 @@ The example contains an **X** Button, two Labels and a `RadSignaturePad`.
 
 <snippet id='signaturepad-events'/>
 
-**2.** Add the following namespace:
+**2.** Add the `telerik` namespace: 
 
-<snippet id='xmlns-telerikinput'/>
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
 
 **3.** Add the events:
 
