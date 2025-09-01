@@ -52,7 +52,7 @@ Style the ProgressBar segments using the following properties:
 
 For indeterminate mode you can style the ProgressBar using the `ProgressFill`(`Brush`) property.
 
-<snippet id='progressbar-styling-separator-segments'/>
+<snippet id='progressbar-styling-indeterminate-mode'/>
 
 ![.NET MAUI ProgressBar Style the indeterminate mode fill](images/progressbar-styling-indeterminate-fill.png)
 

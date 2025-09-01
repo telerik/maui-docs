@@ -18,7 +18,7 @@ The following example demonstrates how to modify the AIPrompt Button's appearanc
 
 **2.** Add the `RadAIPromptButton` control with its `Style` applied:
 
-<snippet id='aiprompt-airpromtbutton-xaml'/>
+<snippet id='aiprompt-airpromtbutton-styling-xaml'/>
 
 Check the result below:
 
