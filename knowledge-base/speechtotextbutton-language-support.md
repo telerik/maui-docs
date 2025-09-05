@@ -20,7 +20,7 @@ This article explains how to check the supported languages for the SpeechToTextB
 
 ## Solution
 
-Here is an example of how to check the supported languages for the SpeechToTextButton in .NET MAUI. For the demo, we will use:
+Here is an example of how to check the supported languages for the SpeechToTextButton in .NET MAUI. For the demo, use:
 * An Editor for displaying the recognized text.
 * An Entry for setting the language.
 * A Label for displaying whether the language is supported or not.

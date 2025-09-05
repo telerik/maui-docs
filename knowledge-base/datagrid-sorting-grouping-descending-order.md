@@ -17,20 +17,20 @@ res_type: kb
 
 ## Description
 
-I need when the user groups the DataGrid through the U, the groups to appear in descending order. Currently, the items are sorted by `FirstContactDate` in descending order, but when grouped, the grouping defaults to ascending order. The goal is to allow users to see the latest entries grouped by `FirstContactDate` in descending order.
+When the user groups the DataGrid through the UI, I need the groups to appear in descending order. Currently, the items are sorted by `FirstContactDate` in descending order, but when grouped, the grouping defaults to ascending order. The goal is to allow users to see the latest entries grouped by `FirstContactDate` in descending order.
 
 This knowledge base article also answers the following questions:
 - How to sort and group items in descending order in DataGrid?
 - How to set group descriptors to descending order in Telerik DataGrid for .NET MAUI?
-- How to change group descriptor order dynamically during grouping?
+- How to change the group descriptor order dynamically during grouping?
 
 ## Solution
 
-To achieve sorting and grouping in descending order, follow one of the approaches below:
+To achieve sorting and grouping in descending order, follow one of the approaches below.
 
 ### Option 1: Set Sort and Group Descriptors Explicitly
 
-Define both `SortDescriptors` and `GroupDescriptors` with the desired `SortOrder` in the XAML configuration:
+Define both `SortDescriptors` and `GroupDescriptors` with the desired `SortOrder` in the XAML configuration.
 
 ```xaml
 <telerik:RadDataGrid.GroupDescriptors>
@@ -44,7 +44,7 @@ Define both `SortDescriptors` and `GroupDescriptors` with the desired `SortOrder
 
 ### Option 2: Change Group Sort Order at Runtime
 
-Use the `GroupDescriptors.CollectionChanged` event to dynamically update the `SortOrder` of the group descriptor when a column is grouped. Example:
+Use the `GroupDescriptors.CollectionChanged` event to dynamically update the `SortOrder` of the group descriptor when a column is grouped. For example:
 
 ```csharp
 public partial class MainPage : ContentPage

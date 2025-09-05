@@ -22,13 +22,13 @@ I need to change the `HeaderText` of the TabView items when they are selected. F
 This knowledge base article also answers the following questions:
 - How can I change the header text of TabView dynamically?
 - How to update TabView `HeaderText` based on selection in .NET MAUI?
-- How to use ``SelectionChanged` event in TabView to modify `HeaderText`?
+- How to use the `SelectionChanged` event in TabView to modify `HeaderText`?
 
 ## Solution
 
-Use the [SelectionChanged](https://docs.telerik.com/devtools/maui/controls/tabview/selection#events) event of the TabView to dynamically update the header text based on the selected tab item.
+Use the [`SelectionChanged`](https://docs.telerik.com/devtools/maui/controls/tabview/selection#events) event of the TabView to dynamically update the header text based on the selected tab item.
 
-1. Subscribe to the `SelectionChanged` event in the TabView.
+**1.** Subscribe to the `SelectionChanged` event in the TabView.
 
 ```xaml
 <telerik:RadTabView x:Name="tabView"
@@ -40,7 +40,7 @@ Use the [SelectionChanged](https://docs.telerik.com/devtools/maui/controls/tabvi
 </telerik:RadTabView>
 ```
 
-2. Implement a method to update the `HeaderText` dynamically based on the selected index. Handle the `SelectionChanged` event in the code-behind:
+**2.** Implement a method to update the `HeaderText` dynamically based on the selected index. Handle the `SelectionChanged` event in the code-behind.
 
 ```csharp
 private void TabView_SelectionChanged(object sender, EventArgs e)

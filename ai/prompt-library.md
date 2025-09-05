@@ -37,7 +37,7 @@ This section provides examples of general questions related to Telerik UI for MA
 
 <table>
 <tr>
-<th>Setup New Project and Add DataGrid control</th>
+<th>Set Up New Project and Add DataGrid control</th>
 <th>Component Overview</th>
 </tr>
 <tr>  
