@@ -14,7 +14,7 @@ The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) exposes 
 * `Expand`(`object item`)&mdash;Expands the children of the item.
 * `Collapse`(`object item`)&mdash;Collapses the children of the item.
 
-Use the `IsExpanded` (`bool`) property to get a value whether the item is currently expanded (has its children visible).
+Use the `IsExpanded` (`object item`) method to get a value whether the item is currently expanded (has its children visible). Returns `true` if the item is expanded, otherwise `false`.
 
 ## Additional Resources
 

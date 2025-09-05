@@ -54,7 +54,7 @@ To use the Telerik MAUI Copilot extension:
 
 The following examples demonstrate useful prompts for the Telerik MAUI extension:
 
-* "`@telerikmaui` Generate a DataGrid with 5 columns and 500 records. Enable sorting for the firs column and include paging."
+* "`@telerikmaui` Generate a DataGrid with 5 columns and 500 records. Enable sorting for the first column and include paging."
 * "`@telerikmaui` Create a Telerik ComboBox with sample data for customers. Enable multiple selection and preselect the first two customers."
 * "`@telerikmaui` Show me how to implement a Chart with line series."
 * "`@telerikmaui` Generate a CollectionView with grouping and filtering capabilities."
