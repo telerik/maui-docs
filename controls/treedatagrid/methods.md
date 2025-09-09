@@ -9,7 +9,7 @@ slug: treedatagrid-methods
 
 # Expand and Collapse Items in .NET MAUI TreeDataGrid
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) lets you expand and collapse item either through the UI—by tapping on the expand/collapse icon or programmatically.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) lets you expand and collapse item either through the UI-by tapping on the expand/collapse icon or programmatically.
 
 The TreeDataGrid allows you to collapse all items by setting the `AutoExpandGroups` (`bool`) property. The default value is `false`, which means, all items are expanded.
 
