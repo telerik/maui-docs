@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 ## Solution
 
 To achieve the scenario you can use one of the following approaches:
-* [Using `Expand` and `Collapse` Methods](#using-expand-and-collapse-methods)
+* [Using `Expand` and `Collapse` methods](#using-expand-and-collapse-methods)
 * [Using `IsExpandableBinding` property of the `TreeDataGridDescriptor`](#using-isexpandablebinding)
 
 ### Using Expand and Collapse Methods
