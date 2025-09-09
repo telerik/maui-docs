@@ -49,7 +49,7 @@ To use `SelectedItems` in your `ViewModel`, follow these steps:
 </telerik:RadTreeDataGrid>
 ```
 
-**2.** Define the `ViewModel` and Subscribe to the `CollectionChanged` event of the `SelectedItems` property. This event notifies you when the selection changes.
+**2.** Define the `ViewModel` and subscribe to the `CollectionChanged` event of the `SelectedItems` property. This event notifies you when the selection changes.
 
 ```C#
 public class MainPageViewModel : NotifyPropertyChangedBase
