@@ -51,6 +51,8 @@ If you encounter any issues creating the basic project, see the complete guide i
 
 Telerik maintains a NuGet feed with official UI for .NET MAUI releases and service packs. These packages are available for registered users with an active trial or commercial license. Adding the Telerik NuGet server as a source in Visual Studio lets you download and install Telerik packages containing controls and utilities.
 
+@[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
+
 To add the Telerik NuGet source to Visual Studio:
 
 1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
@@ -61,7 +63,7 @@ To add the Telerik NuGet source to Visual Studio:
 
 1. Add the `https://nuget.telerik.com/v3/index.json` URL as a **Source**. Click **OK**.
 
-1. Whenever Visual Studio displays a dialog to enter credentials for `nuget.telerik.com`, use your Telerik account email and password.
+1. Whenever Visual Studio displays a dialog to enter credentials for `nuget.telerik.com`, use `api-key` as the username and your NuGet API key as the password.
 
 	![Add the Telerik NuGet Feed in Visual Studio](./images/telerik-nuget-feed.png)
 
@@ -71,7 +73,7 @@ To add the Telerik NuGet source to Visual Studio:
 
 2. Install the Telerik UI for .NET MAUI package:
 
-   1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate with your [Telerik account](https://www.telerik.com/account/) user name and password.
+  1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate using `api-key` as the username and [your NuGet API key](#step-3-add-the-telerik-nuget-server) as the password.
 
    1. Select the **Browse** tab, enter `MAUI` in the search box, and then select the `Telerik.UI.for.Maui` package.
 
