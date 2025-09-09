@@ -27,7 +27,6 @@ As the Telerik NuGet server requires authentication, the first step is to obtain
 1. In the **Key Note** field, add a note that describes the API key.
 1. Click **Generate Key**.
 1. Select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
-1. Store the generated NuGet API key as you will need it in the next steps.
+1. Store the generated NuGet API key as you will need it in the next steps. Whenever you need to authenticate your system with the Telerik NuGet server, use `api-key` as the username and your generated API key as the password.
 
-Whenever you need to authenticate your system with the Telerik NuGet server, use `api-key` as the username and your generated API key as the password.
 #end

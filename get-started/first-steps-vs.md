@@ -53,7 +53,7 @@ Telerik maintains a NuGet feed with official UI for .NET MAUI releases and servi
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
-To add the Telerik NuGet source to Visual Studio:
+Next, add the Telerik NuGet source to Visual Studio:
 
 1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**.
 
