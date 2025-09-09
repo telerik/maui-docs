@@ -1,5 +1,5 @@
 ---
-title: Binding SelectedItems Coin TreeDataGrid to ViewModel
+title: Binding SelectedItems Collection TreeDataGrid to ViewModel
 description: Explains why SelectedItems in RadTreeDataGrid cannot be bound directly in XAML and shows how to use it in the ViewModel.
 type: how-to
 page_title: Using SelectedItems in RadTreeDataGrid with ViewModel Binding
