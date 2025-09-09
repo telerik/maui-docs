@@ -15,9 +15,9 @@ Use the `add source` or `update source` command respectively to add the new sour
 1. [Generate a NuGet API Key]({% slug nuget-config %}#generate-a-nuget-key).
 1. Add or update the Telerik NuGet source by using .NET CLI and the generated API key:
 
-    ```bash
-    dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username api-key --password <THE-VALUE-OF-YOUR-API-KEY> --store-password-in-clear-text
-    ```
+```bash
+dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username api-key --password <THE-VALUE-OF-YOUR-API-KEY> --store-password-in-clear-text
+```
 
 >See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials.
 
