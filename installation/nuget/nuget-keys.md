@@ -10,14 +10,7 @@ position: 8
 
 This article describes how to use token-based authentication for the Telerik NuGet feed. You will learn how to create and use NuGet API keys to restore Telerik NuGet packages in your Continuous Integration (CI) workflow.
 
-The Telerik NuGet server allows you to authenticate by using two methods:
-
-* Basic authentication by providing your Telerik user name and password.
-* Token-based authentication by providing a NuGet key (recommended).
-
-When you need to restore Telerik NuGet packages as part of your CI, using NuGet keys is the more secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow.
-
-Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used only with the Telerik NuGet server. If any of your NuGet keys is compromised, you can quickly delete it and create a new one.
+When you need to restore Telerik NuGet packages as part of your CI, using NuGet keys provides a secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow. Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used only with the Telerik NuGet server. If any of your NuGet keys is compromised, you can quickly delete it and create a new one.
 
 ## Generating NuGet Keys
 
@@ -25,7 +18,7 @@ Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used
 
 ## Storing a NuGet Key
 
-> Never check in a NuGet Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `nuget.config` file. A NuGet Key is valuable as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse can lead to a review of the affected account.
+> Never check in a NuGet Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `NuGet.Config` file. A NuGet Key is valuable, as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse can lead to a review of the affected account.
 
 To protect the NuGet Key, store it as a secret environment variable. The exact steps depend on your workflow:
 
@@ -43,7 +36,7 @@ For more details on storing and protecting your NuGet Key, check the [Announcing
 
 There are two popular ways to use the Telerik NuGet server in a build:
 
-* [Using a nuget.config file with your projects](#using-a-nugetconfig-file-with-your-projects)
+* [Using a NuGet.Config file with your projects](#using-a-nugetconfig-file-with-your-projects)
 
 * [Using only CLI commands](#using-only-cli-commands)
 
@@ -51,7 +44,7 @@ For more information on how to use NuGet keys in a build, check the [Announcing 
 
 ### Using a NuGet.Config File with Your Projects
 
-**1.** In your `nuget.config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
+**1.** In your `NuGet.Config` file, set the `Username` value to `api-key` and the `ClearTextPassword` value to an environment variable name:
 
 ```xml
 <configuration>
@@ -75,7 +68,7 @@ The exact steps to set the `MY_API_KEY` environment variable depend on your work
 
 ### Using .NET CLI Commands
 
-You can use the CLI `add source` (or `update source`) command to set the credentials of a package source. This CLI approach is applicable if your CI system doesn't support default environment variable secrets or if you do not use a custom `nuget.config`.
+You can use the CLI `add source` (or `update source`) command to set the credentials of a package source. This CLI approach is applicable if your CI system doesn't support default environment variable secrets or if you do not use a custom `NuGet.Config`.
 
 * To set the credentials in Azure DevOps:
 
