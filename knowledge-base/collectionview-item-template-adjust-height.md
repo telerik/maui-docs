@@ -31,7 +31,7 @@ To control the height of the item template in CollectionView for .NET MAUI and r
 
 ### Setting a Fixed Height with `ItemLength`
 
-Use the `ItemLength` property of the [CollectionViewLinearLayout](https://docs.telerik.com/devtools/maui/controls/collectionview/layouts/linear-layout) to explicitly define the height of the items:
+Use the `ItemLength` property of the [`CollectionViewLinearLayout`](https://docs.telerik.com/devtools/maui/controls/collectionview/layouts/linear-layout) to explicitly define the height of the items:
 
 ```XAML
 <telerik:RadCollectionView.ItemsLayout>
