@@ -7,8 +7,6 @@ position: 1
 previous_url: /font-icons/controls-icons
 ---
 
-<link rel="stylesheet" href="style-examples.css" />
-
 # Telerik UI for .NET MAUI Examples Icons
 
 You can choose any of the available Telerik font icons: 
