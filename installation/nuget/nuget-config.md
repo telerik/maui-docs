@@ -18,9 +18,6 @@ To configure the Telerik NuGet server as a package source directly in the `nuget
 
 ## Generate a NuGet Key
 
-Generate a NuGet API key that you will use for the authentication by the Telerik NuGet server. This approach is more secure than using your Telerik credentials in <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#credentials-in-nugetconfig-files
-" target="_blank">plain text</a>.
-
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
 ## Edit the NuGet.Config File
@@ -52,15 +49,9 @@ Generate a NuGet API key that you will use for the authentication by the Telerik
     </configuration>
     ```
 
-## Securing Your Credentials
+## Securing Your NuGet Key
 
-This article does not cover the scenario of using your Telerik account credentials as <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesourcecredentials
-" target="_blank">plain text</a> in the `NuGet.Config` file due to security concerns. However, you can still use the <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesourcecredentials
-" target="_blank">plain text</a> approach if you must.
-
->warning
->* Never hard-code Telerik account credentials or NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
->* If you use single sign-on (SSO) to login into your Telerik account, always use a [NuGet API key]({%slug nuget-keys%}) instead of plain text credentials in the `NuGet.Config` file.
+Never hard-code NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
 
 For more details about the `NuGet.Config` file, see the following Microsoft resources:
 * <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesources" target="_blank">Configuring the NuGet package sources</a>
