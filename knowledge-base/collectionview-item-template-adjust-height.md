@@ -29,9 +29,11 @@ This knowledge base article also answers the following questions:
 
 To control the height of the item template in CollectionView for .NET MAUI and remove extra white space, follow one of the solutions below:
 
+
+
 ### Setting a Fixed Height with `ItemLength`
 
-Use the `ItemLength` property of the [`CollectionViewLinearLayout`](https://docs.telerik.com/devtools/maui/controls/collectionview/layouts/linear-layout) to explicitly define the height of the items:
+Use the `ItemLength` property of the [`CollectionViewLinearLayout`](https://docs.telerik.com/devtools/maui/controls/collectionview/layouts/linear-layout) to explicitly define the height of the items. If the item size is static, this improves the control's virtualization performance.
 
 ```XAML
 <telerik:RadCollectionView.ItemsLayout>
@@ -50,10 +52,6 @@ To enable dynamic sizing, set the `MinimumHeightRequest` of the `RadCollectionVi
     </Style>
 </telerik:RadCollectionView.ItemViewStyle>
 ```
-
-### Recommendation
-
-If the item size is static, prefer using `ItemLength` as it improves the control's virtualization performance.
 
 ## See Also
 
