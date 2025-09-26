@@ -21,7 +21,7 @@ I want to know how to attach an image in the .NET MAUI Chat and display the imag
 This knowledge base article also answers the following questions:
 - How to upload an image in .NET MAUI Chat?
 - How to create a custom template for images in .NET MAUI Chat?
-- How to use ItemTemplateSelector to manage media content in .NET MAUI Chat?
+- How to use `ItemTemplateSelector` to manage media content in .NET MAUI Chat?
 
 ## Solution
 
@@ -115,13 +115,13 @@ add additional elements here <ImageButton /> or <telerik:RadTemplatedButton />
 
 Use the following steps to display images in the chat:
 
-1. Implement the logic for uploading images in the button's command.
+**1.** Implement the logic for uploading images in the button's command.
 >note To handle image uploads in .NET MAUI, you need to ensure your application has the necessary permissions to access the device's storage and camera.
 
-2. Create a custom `ItemTemplate` to display image messages.
-3. Use the `ItemTemplateSelector` to dynamically choose templates based on message content.
+**2.** Create a custom `ItemTemplate` to display image messages.
+**3.** Use the `ItemTemplateSelector` to dynamically choose templates based on message content.
 
-Follow the steps outlined in the [ItemTemplateSelector documentation](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector) to configure this functionality.
+Follow the steps outlined in the [`ItemTemplateSelector` documentation](https://docs.telerik.com/devtools/maui/controls/chat/item-template-selector) to configure this functionality.
 
 Example of an `ItemTemplate` for rendering messages with images:
 

@@ -124,7 +124,7 @@ After applying the `Purple` swatch, the ToggleButton looks like this:
 
 ## Applying Theme Colors throughout the App
 
-You can use the colors provided by the Telerik theming mechanism and apply them everywhere in your application. Each theme swatch provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look and feel.
+You can use the colors provided by the Telerik theme and its swatches. Each theme swatch provides a set of colors that you can use in parts of your app that aren't Telerik components. This allows you to achieve a consistent look & feel.
 
 For example, you can use the `RadAppSurfaceColor` and `RadOnAppSurfaceColor` colors for background/text color respectively, and `RadPrimaryColor` for the accent color to match the appearance of the Telerik controls:
 

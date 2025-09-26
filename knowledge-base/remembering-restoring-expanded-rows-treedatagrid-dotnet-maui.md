@@ -84,13 +84,11 @@ public partial class MainPage : ContentPage
 
 ### Using `IsExpandableBinding`
 
-As an alternative, use the [`IsExpandableBinding`](https://docs.telerik.com/devtools/maui/controls/treedatagrid/descriptor) property at the descriptor level:
+As an alternative, use the [`IsExpandableBinding`](https://docs.telerik.com/devtools/maui/controls/treedatagrid/descriptor) property at the descriptor level. This approach provides direct control over the expandability of rows via data binding.
 
 1. Add a `bool` property in the data model to indicate whether an item is expandable.
 2. Bind this property to the `IsExpandableBinding` property of the TreeDataGrid descriptor.
 3. Implement the logic in button clicks to get and restore expanded items.
-
-This approach provides direct control over the expandability of rows via data binding.
 
 ## See Also
 
