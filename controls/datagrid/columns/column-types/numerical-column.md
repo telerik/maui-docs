@@ -18,7 +18,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 * `CellContentStyle`(`DataGridTextCellStyle`)&mdash;Defines the appearance of each cell associated with this column. 
 * `CellContentStyleSelector`&mdash;Defines the `StyleSelector` instance that allows for the dynamic appearance on a per-cell basis.
 * `CellContentFormat`&mdash;Defines the custom format for each cell value. The `String.Format` routine is used and the format passed has to be in the form required by this method.
-* `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContenTemplate` enables you to customize the default look of the cell.
+* `CellContentTemplate` (`DataTemplate`)&mdash;Defines the appearance of each cell associated with the concrete column. `CellContentTemplate` enables you to customize the default look of the cell.
 * `CellContentTemplateSelector` (`DataTemplateSelector`)&mdash;Defines a `DataTemplateSelector` instance that may be used to retrieve dynamic data templates on a per-cell basis.
 * `CellEditTemplate` (`DataTemplate`)&mdash;Defines the editor associated with the concrete column. The `CellEditTemplate` is displayed when the cell is in edit mode.
 * `FooterText`&mdash;Defines the content that will be displayed in the Footer UI that represents the column.
@@ -48,15 +48,15 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 
 ![DataGrid Numerical Column](images/numericalcolumn-overview.png)
 
-**Example with CellContenTemplate and CellEditTemplate**
+**Example with CellContentTemplate and CellEditTemplate**
 
 ```XAML
 <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity">
-	<telerik:DataGridColumn.CellContenTemplate>
+	<telerik:DataGridColumn.CellContentTemplate>
         <DataTemplate>
             <Label Text="{Binding StadiumCapacity}"/>
         </DataTemplate>
-    </telerik:DataGridColumn.CellContenTemplate>
+    </telerik:DataGridColumn.CellContentTemplate>
     <telerik:DataGridColumn.CellEditTemplate>
         <DataTemplate>
             <telerik:RadDockLayout>

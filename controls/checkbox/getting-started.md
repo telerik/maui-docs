@@ -29,9 +29,7 @@ Before adding the CheckBox, you need to:
 
 **1.** When the your .NET MAUI application is set up, you are ready to add a CheckBox control to your page.
 
-```XAML
-<telerik:RadCheckBox x:Name="checkbox" />
-```
+<snippet id='checkbox-getting-started-xaml' />
 
 **2.** Add the `telerik` namespace:
 

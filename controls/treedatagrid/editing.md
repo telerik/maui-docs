@@ -55,10 +55,6 @@ For detailed information on how to use any of the listed commands, go to the top
 
 You can change the visual appearance of each editor through the `CellEditorStyle` property of the `DataGridColumn`. To the `CellEditorStyle`, apply a `Microsoft.Maui.Controls.Style` with a `TargetType` set to the corresponding to each column editor control.
 
-The following snippet shows a `CellEditorStyle` applied to the `TreeDataGridTextColumn`.
-
-<snippet id='TreeDataGrid-columnstyle-celleditor'/>
-
 ## Additional Resources
 
 - [.NET MAUI TreeDataGrid Product Page](https://www.telerik.com/maui-ui/TreeDataGrid)

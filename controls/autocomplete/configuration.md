@@ -15,7 +15,7 @@ The purpose of this help article is to show you the main configuration options o
 AutoComplete exposes `Placeholder` property which is used to give guidance to the end user on what should be entered in the text input.
 You can also use the `PlaceholderColor` property to define the placeholder text color of the component.
 
-<snippet id='autocompleteview-features-watermark'/>
+<snippet id='autocomplete-placeholder'/>
 
 ## Display Mode
 
