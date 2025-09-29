@@ -5,7 +5,7 @@ description: Xamarin to .NET MAUI is an upgrade that modernizes apps with cross-
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 slug: migrate-to-net-maui
 previous_url: /get-started/migrate-to-net-maui
-position: 5
+position: 6
 ---
 
 # Xamarin to .NET MAUI Migration
@@ -158,16 +158,12 @@ The following video demonstrates how you can upgrade your Xamarin.Forms App to .
 
 * [Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})
 
-<script type="application/ld+json"> 
-{ 
-  "@context": "https://schema.org", 
-  "@type": "VideoObject", 
-  "name": "Upgrading your Xamarin Forms App to .NET MAUI | DevReach 2023", 
-  "description": "One of the questions the .NET MAUI team has heard the most is What do I have to do to my Xamarin app to upgrade? Good news - it's a really straightforward process! Join Maddy Montaquila, .NET MAUI PM, as she demystifies the upgrade process and shows you the tools you can use to upgrade your app so you can leverage the magic of MAUI in no time!", 
-  "thumbnailUrl": "https://img.youtube.com/vi/-AeFIjW0Jgc/maxresdefault.jpg", 
-  "uploadDate": "2023-11-22", 
-  "duration": "PT52M22S", 
-  "contentUrl": "https://youtu.be/-AeFIjW0Jgc", 
-  "embedUrl": "https://www.youtube.com/embed/-AeFIjW0Jgc" 
-}
-</script> 
+<VideoMetadata 
+    name="Upgrading your Xamarin Forms App to .NET MAUI | DevReach 2023"
+    description="One of the questions the .NET MAUI team has heard the most is What do I have to do to my Xamarin app to upgrade? Good news - it's a really straightforward process! Join Maddy Montaquila, .NET MAUI PM, as she demystifies the upgrade process and shows you the tools you can use to upgrade your app so you can leverage the magic of MAUI in no time!"
+    thumbnail-url="https://img.youtube.com/vi/-AeFIjW0Jgc/maxresdefault.jpg"
+    upload-date="2023-11-22T00:00:00Z"
+    duration="PT52M22S"
+    content-url="https://youtu.be/-AeFIjW0Jgc"
+    embed-url="https://www.youtube.com/embed/-AeFIjW0Jgc">
+</VideoMetadata>

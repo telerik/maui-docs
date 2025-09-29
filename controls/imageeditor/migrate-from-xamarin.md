@@ -124,7 +124,7 @@ Definition in MAUI:
 
 ## See Also
 
-* [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
-* [.NET MAUI Sample Applications]({%slug sampleapps-overview %})
+- [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
+- [.NET MAUI Sample Applications]({%slug sampleapps-overview %})
 - [.NET MAUI ImageEditor Product Page](https://www.telerik.com/maui-ui/imageeditor)
 - [.NET MAUI Forum Page](https://www.telerik.com/forums/maui?tagId=1853)

@@ -8,17 +8,17 @@ tags: font-icons, .NET MAUI, Telerik, how-to
 res_type: kb
 ---
 
-# Environment
+## Environment
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
 | 6.7.0 | Telerik UI for .NET MAUI Font Icons | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
-# Description
+## Description
 
 How can I use font icons in Telerik UI for .NET MAUI, and where can I find the complete list of available font icons?
 
-# Solution
+## Solution
 
 To use font icons in your Telerik UI for .NET MAUI application, follow these steps:
 
@@ -46,6 +46,6 @@ To use font icons in your Telerik UI for .NET MAUI application, follow these ste
 To find the complete list of available font icons, you can use an extension such as the [iconfont-preview extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=stxr.iconfont-preview).
 
 
-# See Also
+## See Also
 
 - [Using Telerik Font Icons in Xamarin](https://docs.telerik.com/devtools/xamarin/styling-and-appearance/telerik-font-icons)

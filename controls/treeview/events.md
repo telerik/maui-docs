@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI TreeView Documentation - Events
 description: Review TreeView events that are raised when item is tapped, selected and source is changed. 
-position: 7
+position: 8
 slug: treeview-events
 ---
 
