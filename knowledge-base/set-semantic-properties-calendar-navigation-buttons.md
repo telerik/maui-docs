@@ -21,7 +21,7 @@ I need to set semantic properties, specifically the `SemanticProperties.Descript
 
 This knowledge base article also answers the following questions:
 - How do I add accessibility descriptions for calendar navigation buttons?
-- How can I set SemanticProperties for previous and next navigation buttons in a calendar?
+- How can I set `SemanticProperties` for the Previous and Next navigation buttons in a calendar?
 - What is the method to define descriptions for navigation buttons in the .NET MAUI Calendar?
 
 ## Solution
