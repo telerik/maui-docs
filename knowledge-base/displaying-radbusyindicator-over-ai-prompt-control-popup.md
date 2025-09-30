@@ -1,55 +1,44 @@
 ---
-title: Displaying RadBusyIndicator In AI Prompt Control Popup
-description: Learn how to ensure RadBusyIndicator displays correctly over the AI Prompt Control popup in a UI for .NET MAUI application.
+title: Displaying BusyIndicator In AIPrompt Control Popup
+description: Learn how to ensure BusyIndicator displays correctly over the AIPrompt Control popup in a UI for .NET MAUI application.
 type: how-to
-page_title: Adding Custom RadBusyIndicator In AI Prompt Popup
-meta_title: Adding Custom RadBusyIndicator In AI Prompt Popup
-slug: displaying-radbusyindicator-over-ai-prompt-control-popup
-tags: radbusyindicator, ai prompt, popup, threading, controltemplate, ui-for-net-maui
+page_title: Adding Custom BusyIndicator In AI Prompt Popup
+meta_title: Adding Custom BusyIndicator In AI Prompt Popup
+slug: displaying-busyindicator-over-ai-prompt-control-popup
+tags: busyindicator, ai prompt, popup, threading, controltemplate, ui-for-net-maui
 res_type: kb
 ticketid: 1697962
 ---
 
 ## Environment
 
-<table>
-<tbody>
-<tr>
-<td> Product </td>
-<td>
-UI for .NET MAUI RadBusyIndicator, <br/>
-UI for .NET MAUI AI Prompt Control
-</td>
-</tr>
-<tr>
-<td> Version </td>
-<td> 10.1.0 </td>
-</tr>
-</tbody>
-</table>
+| Version | Product |
+| --- | --- |
+| 11.1.0 | BusyIndicator for .NET MAUI |
+| 11.1.0 | AIPrompt for .NET MAUI |
 
 ## Description
 
-When using the [RadBusyIndicator](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview) in a UI for .NET MAUI application, it may fail to display over the AI Prompt Control popup. The issue occurs because the AI Prompt Control's popup has a higher Z-index, which causes the BusyIndicator to appear behind the popup. 
+When using the [`RadBusyIndicator`](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview) in a UI for .NET MAUI application, it may fail to display over the AIPrompt Control popup. The issue occurs because the AIPrompt Control's popup has a higher Z-index, which causes the BusyIndicator to appear behind the popup. 
 
 This knowledge base article also answers the following questions:
-- How to display RadBusyIndicator inside AI Prompt Control popup?
-- Why does RadBusyIndicator appear behind AI Prompt Control popup?
-- How to fix Z-index issues with RadBusyIndicator and AI Prompt popup?
+- How to display BusyIndicator inside AIPrompt Control popup?
+- Why does BusyIndicator appear behind AIPrompt Control popup?
+- How to fix Z-index issues with BusyIndicator and AIPrompt popup?
 
 ## Solution
 
-To ensure the RadBusyIndicator displays correctly over the AI Prompt Control popup, customize the `ControlTemplate` of the AI Prompt Control and embed the BusyIndicator directly within the popup's layout.
+To ensure the `RadBusyIndicator` displays correctly over the AIPrompt Control popup, customize the `ControlTemplate` of the AIPrompt Control and embed the BusyIndicator directly within the popup's layout.
 
 ### Steps to Resolve
 
-1. Copy the `ControlTemplate` of the AI Prompt Control (see below).
-2. Insert the RadBusyIndicator into the visual tree of the AI Prompt Control's popup area.
+1. Copy the `ControlTemplate` of the AIPrompt Control (see below).
+2. Insert the BusyIndicator into the visual tree of the AIPrompt Control's popup area.
 3. Update the `ControlTemplate` in your project.
 
 ### Example Code
 
-Below is an adjusted `MainPage.xaml` that ensures the BusyIndicator is part of the AI Prompt Control's popup:
+Below is an adjusted `MainPage.xaml` that ensures the BusyIndicator is part of the AIPrompt Control's popup:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -227,7 +216,7 @@ Below is an adjusted `MainPage.xaml` that ensures the BusyIndicator is part of t
 
 ## See Also
 
-- [RadBusyIndicator Documentation](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview)
-- [AI Prompt Control Overview](https://docs.telerik.com/devtools/maui/controls/ai-prompt/overview)
-- [Customizing Control Templates in .NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/templates/control-template)
+- [`RadBusyIndicator` Documentation](https://docs.telerik.com/devtools/maui/controls/busyindicator/overview)
+- [AIPrompt Control Overview](https://docs.telerik.com/devtools/maui/controls/aiprompt/overview)
+- [Customizing Control Templates in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/controltemplate)
 
