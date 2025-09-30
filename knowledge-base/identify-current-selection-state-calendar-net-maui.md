@@ -20,7 +20,7 @@ res_type: kb
 I want to determine the current selection state in the Calendar for UI for .NET MAUI, such as day, month, or year, to set a different `SemanticProperties.Description` dynamically based on the selection state.
 
 This knowledge base article also answers the following questions:
-- How to bind Calendar's DisplayMode property to update UI elements?
+- How to bind Calendar's `DisplayMode` property to update UI elements?
 - How to use converters to adjust properties dynamically in .NET MAUI?
 - How to apply styles dynamically based on Calendar selection state?
 
