@@ -28,7 +28,7 @@ Before adding the Chart, you need to:
 
 ## Define the Control
 
-**1.**When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a Chart control to your page.
 
 <snippet id='chart-getting-started-xaml' />
 
@@ -50,7 +50,7 @@ series.CategoryBinding = new PropertyNameDataPointBinding { PropertyName = "Cate
 chart.Series.Add(series);
 ```
 
-**2.**Add the following namespace:
+**2.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

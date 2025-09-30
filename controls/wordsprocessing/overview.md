@@ -2,10 +2,9 @@
 title: Overview
 page_title: .NET MAUI WordsProcessing Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik WordsProcessing for .NET MAUI.
-description: Overview
 slug: wordsprocessing-overview
 tags: overview
-published: True
+published: false
 position: 0
 CTAControlName: WordsProcessing
 ---
