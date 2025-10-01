@@ -14,8 +14,22 @@ The `DelegateAggregateDescriptor` allows you to define property lookup logic and
 To set up the `DelegateAggregateDescriptor`, use the following properties:
 
 * `ValueLookup`&mdash;Defines an `IKeyLookup` instance, which retrieves the value from the underlying `ViewModel` that is used for computing the aggregated value.
+
 * `Function`&mdash;Defines an `IAggregateFunction` instance that performs the aggregation of the values as specified by the `ValueLookup` property.
+
 * `Format`&mdash;Defines the string format that will be applied over the aggregated value.
+
+The `IAggregateFunction` interface exposes the following methods:
+
+* `GetValue()`&mdash;Gets the computed value.
+
+* `Accumulate(object value)`&mdash;Applies the function logic to the provided value. Extracted value from the `ViewModel`.
+
+* `Merge(IAggregateFunction aggregateFunction)`&mdash;Merges this function with another one. Uses when Grand Totals are calculated.
+
+* `Update(object oldValue, object newValue)`&mdash;Updates the aggregate function by removing the contribution of an old value and adding a new value. This allows for efficient recalculation when data items are modified without recomputing the entire aggregation.
+
+* `Clone()`&mdash;Clones the current instance of the `IAggregateFunction`.
 
 The following example uses the `DelegateAggregateDescriptor` and a custom implementation for a `SumIf` function which sums the values in a range that meet a certain criteria:
 
