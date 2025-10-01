@@ -1,0 +1,15 @@
+{
+  "metadata": [{
+            "src": [
+                {
+                    "files": [
+                        "src/Telerik.Maui.Controls.dll",
+                        "src/Telerik.Maui.Controls.Compatibility.dll",
+                        "src/Telerik.Maui.Core.dll"
+                    ]
+                }
+            ],
+            "dest": "metadata",
+            "filter": "filterConfig.yml"
+  }]
+}

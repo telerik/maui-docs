@@ -35,7 +35,7 @@ The following example shows how the styling properties are applied.
 
 **Define the `DropDownViewStyle`**
 
-<snippet id='dropDownViewStyle' />
+<snippet id='timepicker-style-dropdownview-style' />
 
 **Define the `FooterStyle`**
 

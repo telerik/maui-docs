@@ -7,17 +7,17 @@ slug: specifying-binding-cellcontenttemplate-datatable
 tags: DataGrid, DataTable, binding, template, dotnet, maui
 res_type: kb
 ---
-# Environment
+## Environment
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
 | 6.7.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
-# Description
+## Description
 
 When using a `CellContentTemplate` with a `RadDataGrid` that uses a `DataTable` as a source, you need to specify the binding for the template. This article provides an example of how to do this.
 
-# Solution
+## Solution
 
 To specify the binding for a `CellContentTemplate` follow these steps:
 
@@ -127,11 +127,11 @@ public class DataTableViewModel : NotifyPropertyChangedBase
 }
 ```
 
-# Notes
+## Notes
 
 - The indexer syntax `[PropertyName]` is used to bind to a specific property in the `DataRowView`.
 - Make sure to set the `PropertyName` for each column to specify the binding.
 
-# See Also
+## See Also
 
 - [DataGrid DataTable Support](https://docs.telerik.com/devtools/maui/controls/datagrid/populating-with-data/datatable-support)

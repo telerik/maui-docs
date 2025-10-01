@@ -35,7 +35,7 @@ Here is an example how the `RadAutoComplete` `DisplayTextFormatter` works on Pla
 
 <snippet id='autocomplete-text-formatter-plain-class'/>
 
-**4.**Use the following snippet to declare a `RadAutoComplete` in XAML:
+**4.** Use the following snippet to declare a `RadAutoComplete` in XAML:
 
 <snippet id='autocomplete-textformatter-plain'/>
 

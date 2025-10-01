@@ -71,14 +71,13 @@ To add the Telerik NuGet source to Visual Studio:
 
 2. Install the Telerik UI for .NET MAUI package:
 
-  1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate 
-  with your [Telerik account](https://www.telerik.com/account/) user name and password.
+   1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate with your [Telerik account](https://www.telerik.com/account/) user name and password.
 
-  1. Select the **Browse** tab, enter `MAUI` in the search box, and then select the `Telerik.UI.for.Maui` package.
-  
-  1. Select the checkbox for the target Project, and then click **Install**.
+   1. Select the **Browse** tab, enter `MAUI` in the search box, and then select the `Telerik.UI.for.Maui` package.
 
-	 ![Add Telerik UI for .NET MAUI package to the project](./images/gs-select-nuget-package.png)
+   1. Select the checkbox for the target Project, and then click **Install**.
+
+   ![Add Telerik UI for .NET MAUI package to the project](./images/gs-select-nuget-package.png)
 
 > If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 

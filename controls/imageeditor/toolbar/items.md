@@ -48,7 +48,7 @@ The table below shows the built-in toolbar items available for desktop - `WinUI`
 
 ## Toolbar Configuration
 
-`RadImageEditorToolbar` inherits from the `RadToolbar`({%slug toolbar-overview%}). All properties for configuration and styling available for the `RadToolbar` applies to the `RadImageEditorToolbar`.
+`RadImageEditorToolbar` inherits from the [`RadToolbar`]({%slug toolbar-overview%}). All properties for configuration and styling available for the `RadToolbar` applies to the `RadImageEditorToolbar`.
 
 ## Toolbar Item Configuration 
 

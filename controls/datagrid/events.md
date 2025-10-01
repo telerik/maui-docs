@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI DataGrid Documentation - Events
 description: "Learn about the Telerik UI for .NET MAUI DataGrid events and how to achieve various scenarios upon user interaction such as loading content on demand, binding to data, modifying group collections, and more."
-position: 14
+position: 17
 tags: events
 slug: datagrid-events
 ---
@@ -23,7 +23,7 @@ The following example demonstrates how to use the `LoadOnDemand` event.
 
 **1.** Define the `LoadOnDemand` method in XAML.
 
-<snippet id ='datagrid-loadondemand-event-xaml'/>
+<snippet id='datagrid-loadondemand-event-xaml'/>
 
 **2.** Create the method that defines the functionality of the event.
 
