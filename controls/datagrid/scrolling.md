@@ -58,7 +58,7 @@ The following example shows how to scroll to the last column of the DataGrid. Th
 
 <snippet id ='datagrid-scrolling'/>
 
-1. Define the button on which we will execute the scroll to item action:
+1. Define the button, which will execute the scroll-to-column action:
 
 <snippet id ='button-scrolling-to-column'/>
 
