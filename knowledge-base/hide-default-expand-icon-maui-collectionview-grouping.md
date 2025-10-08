@@ -25,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To hide the default expand/collapse icon and use a custom icon, follow one of the options below:
+To hide the default expand/collapse icon and use a custom icon, use either the [`GroupViewStyle` property](#option-1-using-groupviewstyle) or [remove the default indicator](#option-2-removing-default-indicator).
 
 ### Option 1: Using `GroupViewStyle`
 
