@@ -25,7 +25,7 @@ The `IAggregateFunction` interface exposes the following methods:
 
 * `Accumulate(object value)`&mdash;Applies the function logic to the provided value. Extracted value from the `ViewModel`.
 
-* `Merge(IAggregateFunction aggregateFunction)`&mdash;Merges this function with another one. Uses when Grand Totals are calculated.
+* `Merge(IAggregateFunction aggregateFunction)`&mdash;Merges this function with another one. Used when calculating Grand Totals.
 
 * `Update(object oldValue, object newValue)`&mdash;Updates the aggregate function by removing the contribution of an old value and adding a new value. This allows for efficient recalculation when data items are modified without recomputing the entire aggregation.
 
