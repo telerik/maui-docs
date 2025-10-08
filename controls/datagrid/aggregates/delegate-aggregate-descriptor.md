@@ -23,7 +23,7 @@ The `IAggregateFunction` interface exposes the following methods:
 
 * `GetValue()`&mdash;Gets the computed value.
 
-* `Accumulate(object value)`&mdash;Applies the function logic to the provided value. Extracted value from the `ViewModel`.
+* `Accumulate(object value)`&mdash;Applies the function logic to the provided value (the provided value is the extracted value from the `ViewModel`).
 
 * `Merge(IAggregateFunction aggregateFunction)`&mdash;Merges this function with another one. Used when calculating Grand Totals.
 
