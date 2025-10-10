@@ -102,6 +102,8 @@ meta:
   controls/slideview/styling:
     title: Styling
     position: 15
+  controls/speechtotextbutton:
+    title: "SpeechToTextButton"
   controls/slideview:
     title: SlideView
   controls/slider/styling:
@@ -377,6 +379,8 @@ meta:
     title: Button
   controls/busyindicator:
     title: BusyIndicator
+  controls/bottomsheet:
+    title: "BottomSheet"
   controls/border:
     title: Border
   controls/barcode/2d-barcodes:
