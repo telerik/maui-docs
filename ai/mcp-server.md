@@ -176,6 +176,7 @@ To use the Telerik MCP Server:
 3. Grant permissions when prompted (per session, workspace, or always).
 
 4. Start fresh sessions for unrelated prompts to avoid context pollution.
+5. Use in **Chat** and **Agent** mode.
 
 ### Improving Server Usage
 
