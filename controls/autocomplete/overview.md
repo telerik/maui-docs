@@ -25,7 +25,8 @@ The Telerik UI for .NET MAUI AutoComplete can automatically complete user input 
 * [Suggestion view visibility]({%slug autocomplete-configuration%}#suggestionview-visibility)&mdash;AutoComplete provides the ability to hide the view with the suggestions.
 * [Suggestion view position]({%slug autocomplete-configuration%}#suggestionview-position)&mdash;AutoComplete gives you the option to specify whether the `SuggestionView` will be displayed&mdash;above or under the control.
 * [Highlight customization]({%slug autocomplete-styling%}#hightlight-customization)&mdash;You can customize the highlight color of the suggestion items.
-* [Nested properties support]({%slug autocomplete-data-binding%})&mdash;This allows binding of a complex object to the `TextSearchPath` property. 
+* [Keyboard navigation]({%slug autocomplete-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the .NET MAUI AutoComplete suggestion view. This feature is available on WinUI and MacCatalyst.
+* * [Nested properties support]({%slug autocomplete-data-binding%})&mdash;This allows binding of a complex object to the `TextSearchPath` property. 
 * [Styling options]({%slug autocomplete-styling%})&mdash;For changing the control's border brush and thickness, font options, suggestion item highlight text color and more.
 
 # Next Steps
