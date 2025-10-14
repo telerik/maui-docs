@@ -516,3 +516,239 @@ redirects:
 - from: ^/controls/ziplibrary/overview$
   to: https://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview
   type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/accordion"
+  to: https://www.telerik.com/maui-ui/documentation/controls/accordion/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/aiprompt"
+  to: https://www.telerik.com/maui-ui/documentation/controls/aiprompt/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/autocomplete"
+  to: https://www.telerik.com/maui-ui/documentation/controls/autocomplete/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/badgeview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/badgeview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/barcode"
+  to: https://www.telerik.com/maui-ui/documentation/controls/barcode/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/border"
+  to: https://www.telerik.com/maui-ui/documentation/controls/border/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/bottomsheet"
+  to: https://www.telerik.com/maui-ui/documentation/controls/bottomsheet/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/busyindicator"
+  to: https://www.telerik.com/maui-ui/documentation/controls/busyindicator/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/button"
+  to: https://www.telerik.com/maui-ui/documentation/controls/button/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/calendar"
+  to: https://www.telerik.com/maui-ui/documentation/controls/calendar/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/chart"
+  to: https://www.telerik.com/maui-ui/documentation/controls/chart/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/chat"
+  to: https://www.telerik.com/maui-ui/documentation/controls/chat/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/checkbox"
+  to: https://www.telerik.com/maui-ui/documentation/controls/checkbox/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/collectionview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/collectionview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/combobox"
+  to: https://www.telerik.com/maui-ui/documentation/controls/combobox/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/dataform"
+  to: https://www.telerik.com/maui-ui/documentation/controls/dataform/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/datagrid"
+  to: https://www.telerik.com/maui-ui/documentation/controls/datagrid/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/datapager"
+  to: https://www.telerik.com/maui-ui/documentation/controls/datapager/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/datepicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/datepicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/datetimepicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/datetimepicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/docklayout"
+  to: https://www.telerik.com/maui-ui/documentation/controls/docklayout/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/entry"
+  to: https://www.telerik.com/maui-ui/documentation/controls/entry/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/expander"
+  to: https://www.telerik.com/maui-ui/documentation/controls/expander/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/gauge"
+  to: https://www.telerik.com/maui-ui/documentation/controls/gauge/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/gridsplitter"
+  to: https://www.telerik.com/maui-ui/documentation/controls/gridsplitter/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/imageeditor"
+  to: https://www.telerik.com/maui-ui/documentation/controls/imageeditor/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/itemscontrol"
+  to: https://www.telerik.com/maui-ui/documentation/controls/itemscontrol/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/listpicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/listpicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/listview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/listview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/map"
+  to: https://www.telerik.com/maui-ui/documentation/controls/map/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/maskedentry"
+  to: https://www.telerik.com/maui-ui/documentation/controls/maskedentry/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/navigationview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/navigationview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/numericinput"
+  to: https://www.telerik.com/maui-ui/documentation/controls/numericinput/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/path"
+  to: https://www.telerik.com/maui-ui/documentation/controls/path/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/pdfprocessing"
+  to: https://www.telerik.com/maui-ui/documentation/controls/pdfprocessing/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/pdfviewer"
+  to: https://www.telerik.com/maui-ui/documentation/controls/pdfviewer/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/popup"
+  to: https://www.telerik.com/maui-ui/documentation/controls/popup/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/progressbar"
+  to: https://www.telerik.com/maui-ui/documentation/controls/progressbar/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/rangeslider"
+  to: https://www.telerik.com/maui-ui/documentation/controls/rangeslider/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/rating"
+  to: https://www.telerik.com/maui-ui/documentation/controls/rating/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/richtexteditor"
+  to: https://www.telerik.com/maui-ui/documentation/controls/richtexteditor/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/scheduler"
+  to: https://www.telerik.com/maui-ui/documentation/controls/scheduler/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/segmentedcontrol"
+  to: https://www.telerik.com/maui-ui/documentation/controls/segmentedcontrol/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/sidedrawer"
+  to: https://www.telerik.com/maui-ui/documentation/controls/sidedrawer/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/signaturepad"
+  to: https://www.telerik.com/maui-ui/documentation/controls/signaturepad/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/slider"
+  to: https://www.telerik.com/maui-ui/documentation/controls/slider/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/slideview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/slideview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/speechtotextbutton"
+  to: https://www.telerik.com/maui-ui/documentation/controls/speechtotextbutton/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/tabview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/tabview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/templatedbutton"
+  to: https://www.telerik.com/maui-ui/documentation/controls/templatedbutton/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/templatedpicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/templatedpicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/timepicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/timepicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/timespanpicker"
+  to: https://www.telerik.com/maui-ui/documentation/controls/timespanpicker/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/togglebutton"
+  to: https://www.telerik.com/maui-ui/documentation/controls/togglebutton/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/toolbar"
+  to: https://www.telerik.com/maui-ui/documentation/controls/toolbar/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/treedatagrid"
+  to: https://www.telerik.com/maui-ui/documentation/controls/treedatagrid/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/treeview"
+  to: https://www.telerik.com/maui-ui/documentation/controls/treeview/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/wraplayout"
+  to: https://www.telerik.com/maui-ui/documentation/controls/wraplayout/overview
+  type: Permanent
+
+- from: https://docs.telerik.com/devtools/maui/controls/navigationview
+  to: https://www.telerik.com/maui-ui/documentation/controls/navigationview/overview
+  type: Permanent
