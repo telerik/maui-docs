@@ -13,6 +13,9 @@ The Telerik MAUI [MCP (Model Context Protocol) Server](https://modelcontextproto
 
 This MCP server enables AI-powered IDEs and tools to generate more accurate, tailored code that leverages [Telerik UI for .NET MAUI components](https://www.telerik.com/maui-ui) and APIs. You can ask complex questions about Telerik components, request specific implementations, and generate comprehensive code solutions.
 
+>tip The Telerik .NET MAUI MCP Server works in **Chat**(**Ask**) and **Agent** mode.
+
+
 ## Prerequisites
 
 To use the Telerik MAUI MCP server, you need:
@@ -176,7 +179,7 @@ To use the Telerik MCP Server:
 3. Grant permissions when prompted (per session, workspace, or always).
 
 4. Start fresh sessions for unrelated prompts to avoid context pollution.
-5. Use in **Chat** and **Agent** mode.
+5. Use in **Chat**(**Ask**) and **Agent** mode.
 
 ### Improving Server Usage
 
