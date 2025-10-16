@@ -10,8 +10,6 @@ slug: combobox-keyboard-support
 
 The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides keyboard navigation support on `WinUI` and `MacCatalyst`.
 
->important Keyboard support is available only on .NET 8.0.
-
 The following table lists the actions and keyboard combinations that are available in the ComboBox:
 
 | Hotkey Combinations  | Action |

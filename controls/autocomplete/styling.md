@@ -1,6 +1,7 @@
 ---
 title: Styling
 page_title: .NET MAUI AutoComplete Documentation - Styling
+meta_title: .NET MAUI AutoComplete Documentation - Styling
 description: Change the Telerik .NET MAUI AutoComplete look using its flexible styling API.
 position: 16
 slug: autocomplete-styling
@@ -10,11 +11,11 @@ slug: autocomplete-styling
 
 The Telerik UI for .NET MAUI AutoComplete control provides the following Style properties for customizing its look:
 
-* `TextColor`(`Color`)&mdash;Defines the text color of the control.
-* `PlaceholderColor`(`Color`)&mdash;Defines the color for the placeholder text.
-* `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the AutoComplete.
-* `BorderBrush`(`Brush`)&mdash;Defines the brush of the border around the control.
-* `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the control.
+* `TextColor` (`Color`)&mdash;Defines the text color of the control.
+* `PlaceholderColor` (`Color`)&mdash;Defines the color for the placeholder text.
+* `Font Options` (`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the AutoComplete.
+* `BorderBrush` (`Brush`)&mdash;Defines the brush of the border around the control.
+* `BorderThickness` (`Thickness`)&mdash;Defines the thickness of the border around the control.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
 
 The AutoComplete control uses the [`RadTextInput`]({%slug entry-textinput%}) control internally. To style the input control (`RadTextInput`), use the `TextInputStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTextInput`).
@@ -29,6 +30,12 @@ The following properties style the AutoComplete SuggestionView (the dropdown wit
 * `SuggestionViewBorderColor`(`Color`)&mdash;Defines the color of the SuggestionView border.
 * `SuggestionViewBorderThickness`&mdash;Defines the thickness of the border that surrounds the SuggestionView.
 * `SuggestionViewCornerRadius`&mdash;Defines the corner radius applied to the SuggestionView.
+
+## Suggestion Item Styling
+
+The following properties style the AutoComplete SuggestionItem (the item inside the dropdown with the suggestions):
+
+* `SuggestionItemStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadCollectionViewItemView`)&mdash;Defines the style of the suggestion item. When using keyboard navigation, you can apply style for the currently focused item. Review the [CollectionView Visual States]({%slug collectionview-visual-states%}) article.
 * `SuggestionItemHighlightTextColor`&mdash;Defines the highlight color of the selection items.
 
 ### Example for AutoComplete Styling
