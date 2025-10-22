@@ -42,7 +42,6 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_TextOperator_IsEmpty` | `Is empty` |
 | `DataGrid_TextOperator_IsNotEmpty` | `Is not empty` |
 | `DataGrid_TextOperator_StartsWith` | `Starts with` |
-| `DataGrid_Search_SearchEntryPlaceholder` | `Type to Search` |
 | `DataGrid_Search_ApplyFilter` | `Filter Results` |
 | `DataGrid_Search_CaseSensitive` | `Match Case` |
 | `DataGrid_Search_Contains` | `Contains` |
