@@ -34,6 +34,12 @@ To configure the Telerik NuGet feed in Visual Studio:
 
 You have successfully added the Telerik NuGet feed as a Package source.
 
+### Reset Store Credentials
+
+If you previously stored credentials for the Telerik NuGet server, you need to reset them to be able to authenticate with your new API key. Here are the steps you need to follow:
+
+@[template](/_contentTemplates/common/nuget.md#reset-store-credentials)
+
 ## Step 3: Install the Telerik UI for .NET MAUI NuGet Package
 
 The next steps describe how to authenticate your local NuGet instance and display the available packages:
