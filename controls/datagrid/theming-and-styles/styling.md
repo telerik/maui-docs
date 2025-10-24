@@ -56,6 +56,8 @@ The following snippet shows how to set the `SelectionStyle` property:
 
 For styling the `CurrentCell` by using the `CurrentCellStyle` property, review the [Cells]({%slug datagrid-current-cell%}#styling-the-cell) article.
 
+![Styling rows and selected row of the Telerik UI for .NET MAUI DataGrid](../images/datagrid-cells-rows.png)
+
 ## Lines
 
 Use the following properties for configuring the DataGrid grid lines:

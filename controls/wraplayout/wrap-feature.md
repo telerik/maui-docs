@@ -43,7 +43,7 @@ Here is a quick sample of a WrapLayout with a specified item size:
 
 The following image shows the end result.
 
-![.NET MAUI WrapLayout Item Size](images/wraplayout_itemsize.png)
+![.NET MAUI WrapLayout Item Size](images/wraplayout_itemsize.gif)
 
 ## Positioning the Last Child Element
 

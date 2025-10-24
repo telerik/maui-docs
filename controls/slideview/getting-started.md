@@ -10,14 +10,9 @@ slug: slideview-getting-started
 
 This guide provides the information you need to start using Telerik UI for .NET MAUI SlideView by adding the control to your project.
 
-At the end, you will achieve the following result on Desktop platforms.
+At the end, you will achieve the following result.
 
-![.NET MAUI SlideView Getting Started](images/slideview-gettingstarted-desktop.png)
-
-And the result on mobile platforms:
-
-![.NET MAUI SlideView Getting Started](images/slideview-gettingstarted-mobile.png)
-
+![.NET MAUI SlideView Getting Started](images/slideview-gettingstarted.png)
 
 ## Prerequisites
 
