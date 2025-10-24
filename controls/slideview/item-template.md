@@ -41,5 +41,4 @@ Here is the result:
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
-- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
 - [Styling the SlideView Indicators]({%slug indicators-styling%})

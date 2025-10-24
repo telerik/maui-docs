@@ -29,6 +29,5 @@ To handle the `CurrentItemChanged` event of `RadSlideView`:
 - [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
 - [Executing Commands on Slide Action]({%slug slideview-commands%})
 - [Using an Item Template in SlideView]({%slug slideview-item-template%})
-- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
 - [Styling the SlideView Component]({%slug slideview-navigation-buttons-styling%})
 - [Styling the SlideView Indicators]({%slug indicators-styling%})

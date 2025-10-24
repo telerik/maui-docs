@@ -52,4 +52,3 @@ Here is a sample SlideView definition with a `VirtualizationMode` set to `None`:
 ## See Also
 
 - [Item Template]({%slug slideview-item-template%}) 
-- [Control Template]({%slug slideview-control-template%})
