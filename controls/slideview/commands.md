@@ -32,6 +32,5 @@ Add the SlideView definition.
 - [Using Navigation Buttons in SlideView]({%slug slideview-interaction%})
 - [Handling the SlideView Events]({%slug slideview-events%})
 - [Using an Item Template in SlideView]({%slug slideview-item-template%})
-- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
 - [Styling the SlideView Component]({%slug slideview-navigation-buttons-styling%})
 - [Styling the SlideView Indicators]({%slug indicators-styling%})

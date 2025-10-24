@@ -34,5 +34,4 @@ See the result in the image below:
 - [Executing Commands on Slide Action]({%slug slideview-commands%})
 - [Handling the SlideView Events]({%slug slideview-events%})
 - [Using an Item Template in SlideView]({%slug slideview-item-template%})
-- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
 - [Styling the SlideView Indicators]({%slug indicators-styling%})

@@ -28,8 +28,6 @@ The Telerik UI for .NET MAUI SlideView is a flexible navigation control that all
 
 * [Commands support]({%slug slideview-commands%})&mdash;The Telerik UI for .NET MAUI SlideView exposes a number of commands that will be executed when the slide actions occurs.
 
-* [Control Template]({%slug slideview-control-template%})&mdash;You can change the appearance of the SlideView component through a Control Template. To customize how `RadSlideView` looks, modify the default Control Template.
-
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI SlideView]({%slug slideview-getting-started%})
