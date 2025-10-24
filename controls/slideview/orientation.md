@@ -21,9 +21,9 @@ Add the ViewModel:
 
 <snippet id='slideview-events-viewmodel' />
 
-See the result in the images below:
+See the result in the image below:
 
-![.NET MAUI SlideView IndicatorStyling](images/slideview-orientation.png)
+![.NET MAUI SlideView IndicatorStyling](images/slideview-orientation.gif)
 
 > For a runnable example with the SlideView Orientation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Features**.
 
