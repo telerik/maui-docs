@@ -3,6 +3,7 @@ title: Control Template
 page_title: .NET MAUI SlideView Documentation - Control Template
 description: Learn how to control the visual appearence of the .NET MAUI SlideView component throught the Control Template.
 position: 17
+published: False
 slug: slideview-control-template
 ---
 

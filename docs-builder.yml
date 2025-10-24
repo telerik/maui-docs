@@ -493,6 +493,10 @@ redirects:
   to: https://www.progress.com/legal/privacy-policy
   type: Permanent
 
+- from: ^/controls/slideview/control-template$
+  to: /controls/slideview/overview
+  type: Permanent
+
 - from: ^/controls/listview/grouping/grouping$
   to: /controls/listview/grouping/overview
   type: Permanent
