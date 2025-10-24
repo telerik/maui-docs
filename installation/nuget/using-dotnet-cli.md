@@ -12,7 +12,7 @@ If you do not use a [Visual Studio's NuGet Package manager]({% slug nuget-server
 
 Use the `add source` or `update source` command respectively to add the new source and set the credentials required for the authentication by the Telerik NuGet server.
 
-1. [Generate a NuGet API Key]({% slug nuget-config %}#generate-a-nuget-key).
+1. [Generate a NuGet API Key]({% slug nuget-config %}#generate-an-api-key).
 1. Add or update the Telerik NuGet source by using .NET CLI and the generated API key:
 
 ```bash
@@ -23,5 +23,5 @@ dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNu
 
 ## See Also
 
-* [Generating a NuGet API Key]({% slug nuget-config %}#generate-a-nuget-key)
+* [Generating a NuGet API Key]({% slug nuget-config %}#generate-an-api-key)
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})

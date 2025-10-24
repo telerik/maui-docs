@@ -1,7 +1,7 @@
 ---
 title: Using NuGet in CI Workflows
 page_title: Using NuGet Packages in CI Workflows
-description: Learn how to use NuGet Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment.
+description: Learn how to use API Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment.
 slug: nuget-keys
 position: 8
 ---
@@ -10,17 +10,17 @@ position: 8
 
 This article describes how to use token-based authentication for the Telerik NuGet feed. You will learn how to create and use NuGet API keys to restore Telerik NuGet packages in your Continuous Integration (CI) workflow.
 
-When you need to restore Telerik NuGet packages as part of your CI, using NuGet keys provides a secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow. Unlike your Telerik credentials, a NuGet Key has a limited scope and can be used only with the Telerik NuGet server. If any of your NuGet keys is compromised, you can quickly delete it and create a new one.
+When you need to restore Telerik NuGet packages as part of your CI, using API Keys provides a secure way to authenticate. This method does not require you to provide your Telerik username and password anywhere in the CI workflow. Unlike your Telerik credentials, an API Key has a limited scope and can be used only with the Telerik NuGet server. If any of your API Keys is compromised, you can quickly delete it and create a new one.
 
-## Generating NuGet Keys
+## Generating API Keys
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
-## Storing a NuGet Key
+## Storing API Keys
 
-> Never check in a NuGet Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `NuGet.Config` file. A NuGet Key is valuable, as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse can lead to a review of the affected account.
+> Never check in an API Key with your source code or leave it publicly visible in plain text, for example, as a raw key value in a `NuGet.Config` file. An API Key is valuable, as bad actors can use it to access the NuGet packages that are licensed under your account. A potential key abuse can lead to a review of the affected account.
 
-To protect the NuGet Key, store it as a secret environment variable. The exact steps depend on your workflow:
+To protect the API Key, store it as a secret environment variable. The exact steps depend on your workflow:
 
 * In GitHub Actions, save the key as a GitHub Actions Secret. Go to **Settings** > **Security** > **Secrets** > **Actions** > **Add new secret**.
 
@@ -28,11 +28,11 @@ To protect the NuGet Key, store it as a secret environment variable. The exact s
 
 * In Azure DevOps YAML pipelines, save the key as a secret variable as well. Click the YAML editor's **Variables** button and complete the **New variable** form.
 
-If you use Azure DevOps Service connection instead of secret environment variables, enter `api-key` in the username filed and the NuGet Key as the password in the **New NuGet service connection** form editor.
+If you use Azure DevOps Service connection instead of secret environment variables, enter `api-key` in the username filed and the API Key as the password in the **New NuGet service connection** form editor.
 
-For more details on storing and protecting your NuGet Key, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
+For more details on storing and protecting your API Key, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
-## Using a NuGet Key
+## Using an API Key
 
 There are two popular ways to use the Telerik NuGet server in a build:
 
@@ -40,7 +40,7 @@ There are two popular ways to use the Telerik NuGet server in a build:
 
 * [Using only CLI commands](#using-only-cli-commands)
 
-For more information on how to use NuGet keys in a build, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
+For more information on how to use API Keys in a build, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
 ### Using a NuGet.Config File with Your Projects
 

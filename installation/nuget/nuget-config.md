@@ -13,10 +13,10 @@ An alternative way to configure your system to use the Telerik NuGet server is t
 
 To configure the Telerik NuGet server as a package source directly in the `nuget.config` file, perform the following steps:
 
-1. [Generate a NuGet API key](#generate-a-nuget-key).
+1. [Generate a NuGet API key](#generate-an-api-key).
 1. [Edit the NuGet.Config file](#edit-the-nugetconfig-file).
 
-## Generate a NuGet Key
+## Generate an API Key
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
@@ -31,7 +31,7 @@ To configure the Telerik NuGet server as a package source directly in the `nuget
 
 1. In the `nuget.config` file, add the Telerik feed by inserting the line `<add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>`in the `packageSources` section.
 
-1. In the `packageSourceCredentials` section, add the [generated NuGet API key](#generate-a-nuget-key). Use `api-key` as a value for the user name.
+1. In the `packageSourceCredentials` section, add the [generated NuGet API key](#generate-an-api-key). Use `api-key` as a value for the user name.
 
     ```xml
     <configuration>
@@ -49,9 +49,9 @@ To configure the Telerik NuGet server as a package source directly in the `nuget
     </configuration>
     ```
 
-## Securing Your NuGet Key
+## Securing Your API Key
 
-Never hard-code NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
+Never hard-code NuGet API keys in a `NuGet.Config` file in a GitHub repository, Docker image, or any location that may be accessed by unauthorized parties. A NuGet API key is valuable and bad actors can use it to access the NuGet packages that are licensed under your account. A credentials abuse can lead to a review of the affected Telerik account.
 
 For more details about the `NuGet.Config` file, see the following Microsoft resources:
 * <a href="https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesources" target="_blank">Configuring the NuGet package sources</a>

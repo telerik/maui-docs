@@ -32,13 +32,13 @@ You can quickly test your credentials or a specific package search results, the 
     1. Enter [https://nuget.telerik.com/v3/index.json](https://nuget.telerik.com/v3/index.json) in the address bar and hit `Enter`.
     1. The web browser will prompt you to login, enter the credentials you want to test. You can test either:
         * Telerik Account credentials (email address and password)
-        * Telerik NuGet Key (username "api-key", password is the full key value)
+        * Telerik API Key (username "api-key", password is the full key value)
     1. You should now see a json result containing the general index listing. This confirms a successful login!
 1. Confirm Package Listing
     1. Enter [https://nuget.telerik.com/v3/search?q=telerik.ui.for.maui](https://nuget.telerik.com/v3/search?q=telerik.ui.for.maui) in the address bar and hit Enter.
     1. You should now see a json result containing a list of available packages that match the query.
-1. If you want to try again with different credentials (i.e. a different nuget key), close the incognito browser session and open a new one.
+1. If you want to try again with different credentials (i.e. a different NuGet API key), close the incognito browser session and open a new one.
 
->Tip If you get an error at any point in this process, review the list above for the specific error message and follow those dedicated instructions. For example, you may need to visit the [401 Unauthorized]({%slug error-unauthorized%}) or [401 Logon failed error]({%slug error-login-failed%}) articles. Alternatively, if you authenticate and get a json response, but the package version you're expecting isn't listed, the [Package Version Not Found]({%slug package-version-not-found%}) article is more relevant. 
+>Tip If you get an error at any point in this process, review the list above for the specific error message and follow those dedicated instructions. For example, you may need to visit the [401 Unauthorized]({%slug error-unauthorized%}) or [401 Logon failed error]({%slug error-login-failed%}) articles. Alternatively, if you authenticate and get a json response, but the package version you're expecting isn't listed, the [Package Version Not Found]({%slug package-version-not-found%}) article is more relevant.
 
 @[template](/_contentTemplates/common/nuget.md#status-telerik-com)

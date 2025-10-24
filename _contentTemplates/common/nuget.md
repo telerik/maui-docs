@@ -19,14 +19,14 @@ Visit <a href="https://status.telerik.com" target="_blank">status.telerik.com</a
 #generate-nuget-key
 As the Telerik NuGet server requires authentication, the first step is to obtain an API key that you will use instead of a password. Using an API key instead of a password is a more secure approach, especially when working with [.NET CLI]({% slug nuget-dotnet-cli %}) or the [`NuGet.Config` file]({% slug nuget-config %}).
 
-1. Go to the [NuGet Keys](https://www.telerik.com/account/downloads/nuget-keys) page in your Telerik account.
+1. Go to the [API Keys](https://www.telerik.com/account/downloads/api-keys) page in your Telerik account.
 1. Click **Generate New Key +**.
 
-   ![Manage NuGet Keys](/installation/images/account-generate-nuget-api-key.png)
+   ![Manage API Keys](/installation/images/account-generate-api-key.png)
 
 1. In the **Key Note** field, add a note that describes the API key.
 1. Click **Generate Key**.
-1. Select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
+1. Select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **API Keys** page displays only a portion of the key.
 1. Store the generated NuGet API key as you will need it in the next steps. Whenever you need to authenticate your system with the Telerik NuGet server, use `api-key` as the username and your generated API key as the password.
 
 #end
