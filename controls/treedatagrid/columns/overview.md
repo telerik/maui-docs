@@ -50,7 +50,7 @@ Using the built-in auto generation of columns does not fit all scenarios. In suc
 * [Boolean Column]({%slug datagrid-columns-boolean-column%})&mdash;An extended `DataGridTextColumn` implementation that presents Boolean data.
 * [Date Column]({%slug datagrid-columns-date-column%})&mdash;An extended `DataGridTextColumn` that presents data of type `DateTime`.
 * [Time Column]({%slug datagrid-columns-time-column%})&mdash;Represents an extended `DataGridTextColumn` that presents the `TimeOfDay` of a `DateTime` type.
-* [ComboBox Column]({%slug datagrid-columns-picker-column%})&mdash;Represents an extended `DataGridTextColumn`, whose cell value editor is a `Telerik.Maui.Controls.RadComboBox` control.
+* [ComboBox Column]({%slug datagrid-columns-combobox-column%})&mdash;Represents an extended `DataGridTextColumn`, whose cell value editor is a `Telerik.Maui.Controls.RadComboBox` control.
 * [Template Column]({%slug datagrid-columns-template-column%})&mdash;Represents a column that uses a `DataTemplate` to describe the content of each associated grid cell.
 * [ToggleRowDetails Column]({%slug datagrid-columns-toggle-column%})&mdash;Represents a column that allows the user to show and hide the row details for an item.
 

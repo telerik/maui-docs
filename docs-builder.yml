@@ -497,6 +497,10 @@ redirects:
   to: /controls/slideview/overview
   type: Permanent
 
+- from: ^/controls/datagrid/columns/column-types/picker-column$
+  to: /controls/datagrid/columns/column-types/combobox-column
+  type: Permanent
+
 - from: ^/controls/listview/grouping/grouping$
   to: /controls/listview/grouping/overview
   type: Permanent

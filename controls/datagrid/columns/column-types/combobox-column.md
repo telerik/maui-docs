@@ -3,7 +3,7 @@ title: ComboBox Column
 page_title: .NET MAUI DataGrid Documentation - ComboBox Column
 description: Check our &quot;ComboBox Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
 position: 5
-slug: datagrid-columns-picker-column
+slug: datagrid-columns-combobox-column
 ---
 
 # .NET MAUI DataGrid ComboBoxColumn  
@@ -12,11 +12,11 @@ The `DataGridComboBoxColumn` uses the Telerik UI for .NET MAUI [ComboBox control
 
 ## Important Properties
 
-Here are the specific properties defined for `DataGridPickerColumn`:
+Here are the specific properties defined for `DataGridComboBoxColumn`:
 
-* `ItemsSource` (`IEnumerable<object>`)&mdash;This property is used when the source of the Picker items is not part of the data and is the same for all items in the grid.
-* `ItemsSourcePath` (`string`)&mdash;Specifies a property of your data class that will be used as a source for the Picker control.
-* `ItemDisplayBindingPath` (`string`)&mdash;Sets the display path of the items in the Picker selector. It points to a field in the items from the `ItemsSource` collection of the Picker.
+* `ItemsSource` (`IEnumerable<object>`)&mdash;This property is used when the source of the ComboBox items is not part of the data and is the same for all items in the grid.
+* `ItemsSourcePath` (`string`)&mdash;Specifies a property of your data class that will be used as a source for the ComboBox control.
+* `ItemDisplayBindingPath` (`string`)&mdash;Sets the display path of the items in the drop-down. It points to a field in the items from the `ItemsSource` collection of the ComboBox.
 * `PropertyName`&mdash;Defines the name of the property of the object type that represents each row within the grid.
 * `DataMemberBinding`&mdash;Defines the binding which points to the data member of the underlying object being displayed in the column's cell.
 * `HeaderText`&mdash;Defines the content that will be displayed in the Header UI that represents the column.
@@ -53,7 +53,7 @@ Here are the specific properties defined for `DataGridPickerColumn`:
 </telerik:DataGridComboBoxColumn>
 ```
 
-![DataGrid Picker Column](images/pickercolumn-overview.png)
+![DataGrid ComboBox Column](images/pickercolumn-overview.png)
 
 **Example with CellContentTemplate and CellEditTemplate**
 
