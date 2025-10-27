@@ -13,10 +13,6 @@ This article summarizes the localization keys supported by the DatePicker contro
 
 For more details about the localization process of Telerik UI for .NET MAUI components, see the article on [localization and globalization approaches]({%slug globalization-localization%}).
 
-The following image presents the supported localization strings by the DatePicker:
-
-![MAUI localization for DatePicker](images/datepicker-common-localization.png)
-
 ## DatePicker Localization Keys
 
 The following table lists the supported localization keys supported by the DatePicker.

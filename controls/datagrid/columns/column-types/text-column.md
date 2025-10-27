@@ -8,7 +8,7 @@ slug: datagrid-columns-text-column
 
 # .NET MAUI DataGrid TextColumn
 
-A `DataGridTextColumn` converts the content of each associated cell to a `System.String` object.
+A `DataGridTextColumn` converts the content of each associated cell to a `System.String` object. The `DataGridTextColumn` uses the Telerik UI for .NET MAUI [Entry]({}%slug entry-overview%}) control in Edit mode.
 
 >note A `DataGridTextColumn` performs better than a `DataGridTemplateColumn`.
 

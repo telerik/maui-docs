@@ -29,10 +29,6 @@ The Telerik ListPicker for .NET MAUI provides localization support. The exposed 
 
 > important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
-Check in the image below how the common localization strings are presented in List Picker:
-
-![.NET MAUI ListPicker localization](images/list-picker-localization.png)
-
 ## See Also
 
 * [Localization and Globalization]({%slug globalization-localization%})

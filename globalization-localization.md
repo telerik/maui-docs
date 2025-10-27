@@ -30,20 +30,25 @@ Globalization refers to developing an application in such a way that it works wi
 
 Localization refers to the translation of application resources into localized versions for the specific languages that the application supports. Check below a list of Telerik .NET MAUI controls that support localization:
 
+* [AIPrompt]({%slug aiprompt-localization%})
+* [AutoComplete]({%slug autocomplete-localization%})
 * [Conversational UI(Chat)]({%slug chat-localization%})
+* [ComboBox]({%slug combobox-localization%})
+* [CollectionView]({%slug collectionview-localization%})
 * [DataForm]({% slug dataform-localization%})
 * [DataGrid]({% slug datagrid-localization%})
+* [DataPager]({% slug datapager-localization%})
+* [TreeDataGrid]({% slug treedatagrid-localization%})
 * [ImageEditor]({% slug imageeditor-localization%})
 * [MaskedEntry]({% slug maskedentry-localization%})
 * [DatePicker]({% slug datepicker-localization%})
 * [DateTimePicker]({% slug datetimepicker-localization%})
-* [ListPicker]({% slug listpicker-localization%})
-* [Scheduler]({% slug scheduler-localization%})
-* [TemplatedPicker]({% slug templatedpicker-localization%})
 * [TimePicker]({% slug timepicker-localization%})
 * [TimeSpanPicker]({% slug timespanpicker-localization%})
+* [ListPicker]({% slug listpicker-localization%})
+* [TemplatedPicker]({% slug templatedpicker-localization%})
+* [Scheduler]({% slug scheduler-localization%})
 * [PDF Viewer]({% slug pdfviewer-localization%})
-* [TreeDataGrid]({% slug treedatagrid-localization%})
 
 The localization mechanism in Telerik .NET MAUI controls is implemented through `TelerikLocalizationManager` class and more specifically the `TelerikLocalizationManager.Manager` static property. To enable localization to any of the listed above components you should choose between the approaches below:
 
