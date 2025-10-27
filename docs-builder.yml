@@ -17,6 +17,7 @@ pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
 external-snippets-path: ../maui
+gitLastCommitDateEnabled: true
 
 cta-overview: The @Subject is part of @ProductLink, the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial and kickstart your cross-platform app development today.
 cta-intro: "Kickstart your cross-platform application development with the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial."
