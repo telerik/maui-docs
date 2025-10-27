@@ -32,9 +32,6 @@ The TimePicker for .NET MAUI provides language localization. The localization ke
 
 > important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
-Check in the image below how the localization strings are presented in Time Picker:
-
-![TimePicker for .NET MAUI Localization](images/timepicker-localization.png)
 
 ## See Also
 

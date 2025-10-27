@@ -17,6 +17,7 @@ pdf-cover-png-path: ./images/pdf-cover.png
 img-max-width: 100%
 table-layout: fixed
 external-snippets-path: ../maui
+gitLastCommitDateEnabled: true
 
 cta-overview: The @Subject is part of @ProductLink, the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial and kickstart your cross-platform app development today.
 cta-intro: "Kickstart your cross-platform application development with the most comprehensive UI suite for .NET MAUI! To try it out, sign up for a free 30-day trial."
@@ -491,6 +492,14 @@ redirects:
 
 - from: ^/personal-data-collection$
   to: https://www.progress.com/legal/privacy-policy
+  type: Permanent
+
+- from: ^/controls/slideview/control-template$
+  to: /controls/slideview/overview
+  type: Permanent
+
+- from: ^/controls/datagrid/columns/column-types/picker-column$
+  to: /controls/datagrid/columns/column-types/combobox-column
   type: Permanent
 
 - from: ^/controls/listview/grouping/grouping$

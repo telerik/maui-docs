@@ -65,6 +65,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## See Also
 
-- [ComboBox Column]({%slug datagrid-columns-picker-column %})
+- [ComboBox Column]({%slug datagrid-columns-combobox-column %})
 - [Template Column]({%slug datagrid-columns-template-column %})
 - [Text Column]({%slug datagrid-columns-text-column %})

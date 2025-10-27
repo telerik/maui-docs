@@ -17,19 +17,28 @@ Visit <a href="https://status.telerik.com" target="_blank">status.telerik.com</a
 #end
 
 #generate-nuget-key
-1. Go to the [**Manage NuGet Keys**](https://www.telerik.com/account/downloads/nuget-keys) page in your Telerik account.
+As the Telerik NuGet server requires authentication, the first step is to obtain an API key that you will use instead of a password. Using an API key instead of a password is a more secure approach, especially when working with [.NET CLI]({% slug nuget-dotnet-cli %}) or the [`NuGet.Config` file]({% slug nuget-config %}).
 
-1. Select the **DOWNLOADS** tab and then **Manage NuGet Keys**.
+1. Go to the [API Keys](https://www.telerik.com/account/downloads/api-keys) page in your Telerik account.
+1. Click **Generate New Key +**.
 
-    ![Manage NuGet Keys](../../installation/images/manage-nuget-keys.png)
+   ![Manage API Keys](/installation/images/account-generate-api-key.png)
 
-1. To create a new key, select the **Generate New Key** button.
+1. In the **Key Note** field, add a note that describes the API key.
+1. Click **Generate Key**.
+1. Select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **API Keys** page displays only a portion of the key.
+1. Store the generated NuGet API key as you will need it in the next steps. Whenever you need to authenticate your system with the Telerik NuGet server, use `api-key` as the username and your generated API key as the password.
 
-1. Enter a name for the NuGet Key, and then select **Generate Key**.
+#end
 
-1. To copy the key, select **Copy and Close**. Once you close the window, you can no longer copy the generated key. For security reasons, the **NuGet Keys** page displays only a portion of the key.
-
-    ![Copy Generated NuGet Key](../../installation/images/copy-nuget-key.png)
-
-1. Store the generated NuGet API key as you will need it in the next step.
+#reset-store-credentials
+1. Remove the saved credentials in the [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). These credentials will appear as `nuget.telerik.com` or `VSCredentials_nuget.telerik.com` entries.
+2. Remove the Telerik NuGet package source from Visual Studio.
+3. If you have added the Telerik package source by using the .NET CLI, try to remove it by running the following commands:
+    * [`dotnet nuget list source`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-nuget-list-source)
+    * [`dotnet nuget remove source`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-nuget-remove-source)
+4. Check if you have any credentials stored in `%AppData%\NuGet\Nuget.Config`. If so, remove them.
+5. Try to reset the Visual Studio user data by [forcing NuGet to ask for authentication](https://stackoverflow.com/questions/43550797/how-to-force-nuget-to-ask-for-authentication-when-connecting-to-a-private-feed).
+6. Restart Visual Studio.
+7. Add the Telerik NuGet package source again through Visual Studio or .NET CLI. If you are using the Telerik NuGet feed in a .NET Core application, use a [NuGet API key in the NuGet.Config file]({%slug nuget-config %}).
 #end

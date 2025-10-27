@@ -59,6 +59,6 @@ The TreeDataGrid inherits the following events related to the DataGrid reorderin
 
 ## See Also
 
-- [Picker Column]({%slug datagrid-columns-picker-column %})
+- [Picker Column]({%slug datagrid-columns-combobox-column %})
 - [Template Column]({%slug datagrid-columns-template-column %})
 - [Text Column]({%slug datagrid-columns-text-column %})

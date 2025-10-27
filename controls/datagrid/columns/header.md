@@ -105,5 +105,5 @@ Customize the column header by using the `HeaderContentTemplate`(of type `DataTe
 ## See Also
 
 - [Text Column]({%slug datagrid-columns-text-column%})
-- [Picker Column]({%slug datagrid-columns-picker-column%})
+- [Picker Column]({%slug datagrid-columns-combobox-column%})
 - [Template Column]({%slug datagrid-columns-template-column%})

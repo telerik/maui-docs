@@ -34,12 +34,11 @@ slideView.BindingContext = new ViewModel();
 
 Here is the result:
 
-![.NET MAUI SlideView with ItemTemplate applied](images/slideview-itemtemplate.png)
+![.NET MAUI SlideView with ItemTemplate applied](images/slideview-item-template.gif)
 
 > For a runnable example with the SlideView ItemTemplate scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SlideView > Templates**.
 
 ## See Also
 
 - [Binding SlideView to Data]({%slug slideview-data-binding%})
-- [Changing the SlideView Appearance through a Control Template]({%slug slideview-control-template%})
 - [Styling the SlideView Indicators]({%slug indicators-styling%})
