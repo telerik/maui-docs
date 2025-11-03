@@ -31,10 +31,14 @@ Before adding the TreeView, you need to:
 
 When your .NET MAUI application is set up, you are ready to add a TreeView control to your page. The following example shows a sample TreeView definition populated with sample data.
 
-The TreeView provides UI virtualization, which requires the visual parent to provide vertical or horizontal space. To avoid breaking UI virtualization or gesture mechanisms:
+The TreeView uses UI virtualization and requires its parent container to provide a defined vertical or horizontal space. Virtualization will not work if the TreeView is measured with infinite width or height. 
 
-* Do not place the TreeView inside a `StackLayout` or inside a `ScrollView`.
-* Do not set the TreeView to a `RowDefinition Height="Auto"` Grid definition.
+Avoid placing the TreeView in the following layouts, as this will prevent virtualization from functioning:
+
+* Do not place the TreeView inside a `StackLayout` that is wrapped in a `ScrollView`.
+* Do not place the TreeView directly inside a `ScrollView`.
+
+Place the TreeView control inside a `Grid` layout with a row height set to `*` (star) or a specific value.
 
 **1.** Set up the `RadTreeView` instance:
 

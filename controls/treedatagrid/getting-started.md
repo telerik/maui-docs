@@ -26,10 +26,14 @@ Before adding the TreeDataGrid, you need to:
 
 ## Define the Control
 
-The TreeDataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the TreeDataGrid with infinite width and height constraints and the virtualization will not work:
+The TreeDataGrid uses UI virtualization and requires its parent container to provide a defined vertical or horizontal space. Virtualization will not work if the TreeDataGrid is measured with infinite width or height. 
 
-* Positioning the TreeDataGrid inside a `StackLayout` which is wrapped in a `ScrollView`.
-* Positioning the TreeDataGrid inside a `ScrollView` or controls with internal scrolling.
+Avoid placing the TreeDataGrid in the following layouts, as this will prevent virtualization from functioning:
+
+* Do not place the TreeDataGrid inside a `StackLayout` that is wrapped in a `ScrollView`.
+* Do not place the TreeDataGrid directly inside a `ScrollView`.
+
+Place the TreeDataGrid control inside a `Grid` layout with a row height set to `*` (star) or a specific value.
 
 By default, the TreeDataGrid auto-generates rows depending on the number of objects in the collection set as its `ItemsSource`.
 
