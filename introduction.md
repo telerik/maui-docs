@@ -70,6 +70,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
     <IntroTableColumn>
         <IntroTableSection title="Navigation &amp; Layouts">
             <IntroTableAnchor title="Accordion" href="slug:accordion-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="BottomSheet" href="slug:bottomsheet-overview"></IntroTableAnchor>
             <IntroTableAnchor title="DockLayout" href="slug:docklayout-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Expander" href="slug:expander-overview"></IntroTableAnchor>
             <IntroTableAnchor title="NavigationView" href="slug:navigationview-overview"></IntroTableAnchor>
@@ -84,9 +85,10 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="Scheduler" href="slug:scheduler-overview"></IntroTableAnchor>
         </IntroTableSection>
         <IntroTableSection title="Buttons">
-            <IntroTableAnchor title="Segmented Control" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Button" href="slug:button-overview"></IntroTableAnchor>
             <IntroTableAnchor title="CheckBox" href="slug:checkbox-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Segmented Control" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="TemplatedButton" href="slug:templatedbutton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ToggleButton" href="slug:togglebutton-overview"></IntroTableAnchor>
         </IntroTableSection>
@@ -100,6 +102,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="GridSplitter" href="slug:gridsplitter-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Skeleton" href="slug:sleketon-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
         </IntroTableSection>
         <IntroTableSection title="PDF Viewer">
