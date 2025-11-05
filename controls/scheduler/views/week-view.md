@@ -24,7 +24,7 @@ Add a `WeekViewDefinition` to the `ViewDefinitions` collection of the `RadSchedu
 </telerik:RadScheduler>
 ```
 
-![](../images/scheduler-weekview.png)
+![.NET MAUI Scheduler Week View](../images/scheduler-weekview.png)
 
 ## Properties
 

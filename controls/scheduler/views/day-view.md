@@ -22,7 +22,7 @@ Add a `DayViewDefinition` to the `ViewDefinitions` collection of the `RadSchedul
 </telerik:RadScheduler>
 ```
 
-![](../images/scheduler-dayview.png)
+![.NET MAUI Scheduler Day View](../images/scheduler-dayview.png)
 
 ## Properties
 
