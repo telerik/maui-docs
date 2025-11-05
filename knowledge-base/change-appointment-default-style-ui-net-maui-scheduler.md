@@ -1,5 +1,5 @@
 ---
-title: Changing Appointment Default Style in UI for .NET MAUI Scheduler
+title: Changing the Appointment Default Style in UI for .NET MAUI Scheduler
 description: Learn how to change the default style of appointments in the UI for .NET MAUI Scheduler, specifically focusing on modifying the background color without creating a DataTemplate.
 type: how-to
 page_title: Modify Appointment Style in UI for .NET MAUI Scheduler
