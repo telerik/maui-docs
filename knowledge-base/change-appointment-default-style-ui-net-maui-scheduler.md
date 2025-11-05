@@ -1,0 +1,50 @@
+---
+title: Changing the Appointment Default Style in UI for .NET MAUI Scheduler
+description: Learn how to change the default style of appointments in the UI for .NET MAUI Scheduler, specifically focusing on modifying the background color without creating a DataTemplate.
+type: how-to
+page_title: Modify Appointment Style in UI for .NET MAUI Scheduler
+meta_title: Modify Appointment Style in UI for .NET MAUI Scheduler
+slug: change-appointment-default-style-ui-net-maui-scheduler
+tags: scheduler, ui for .net maui, appointmentview, backgroundcolor
+res_type: kb
+---
+
+## Environment
+
+| Version | Product | Author | 
+| --- | --- | ---- | 
+| 11.1.0 | Telerik UI for .NET MAUI Scheduler | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+
+## Description
+
+I want to change the default style of appointments in the [UI for .NET MAUI Scheduler](https://www.telerik.com/maui-ui/documentation/controls/scheduler/overview). Specifically, I am looking to modify only the background color of the appointments without creating a custom DataTemplate.
+
+This knowledge base article also answers the following questions:
+- How to change `Appointment` background color in UI for .NET MAUI Scheduler?
+- How to customize `AppointmentView` style in UI for .NET MAUI Scheduler?
+- How to apply an implicit style to Scheduler appointments in UI for .NET MAUI?
+
+## Solution
+To change the background color of the appointments without creating a `DataTemplate`, use an implicit style targeting the `AppointmentView` element. Below is an example:
+
+```xaml
+<ContentPage.Resources>
+    <ResourceDictionary>
+        <Style TargetType="telerik:AppointmentView">
+            <Setter Property="BackgroundColor" Value="LightBlue" />
+        </Style>
+    </ResourceDictionary>
+</ContentPage.Resources>
+
+<telerik:RadScheduler AppointmentsSource="{Binding Appointments}">
+    <telerik:RadScheduler.ViewDefinitions>
+        <telerik:MultidayViewDefinition />
+    </telerik:RadScheduler.ViewDefinitions>
+</telerik:RadScheduler>
+```
+
+## See Also
+
+- [Scheduler Overview in UI for .NET MAUI](https://www.telerik.com/maui-ui/documentation/controls/scheduler/overview)
+- [Appointment Styling](https://www.telerik.com/maui-ui/documentation/controls/scheduler/styling/appointments-styling) 
+
