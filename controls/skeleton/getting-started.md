@@ -28,7 +28,8 @@ Before adding the Skeleton, you need to:
 
 1.When your .NET MAUI application is set up, you are ready to add a Skeleton control to your page:
 
-<snippet id='skeleton-getting-started-xaml' />
+<snippet id='skeleton-getting-staretd-xaml' />
+<snippet id='skeleton-getting-started-csharp' />
 
 2. Add the `telerik` namespace:
 
@@ -62,8 +63,10 @@ public static class MauiProgram
 ## Additional Resources
 
 - [Built-in Views]({%slug skeleton-default-view%})
+- [Configuration]({%slug skeleton-configuration%})
 - [Animation]({%slug skeleton-animation%})
-- [Custom Views]({%slug skeleton-custom-view%}) 
+- [Custom Views]({%slug skeleton-custom-view%})
+- [Styling]({%slug skeleton-styling%})
 
 ## See Also
 

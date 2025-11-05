@@ -18,8 +18,12 @@ The animation of the skeleton indicates that the content is in the process of lo
 ## Key Features of the Telerik .NET MAUI Skeleton
 
 * [Built-in views]({%slug skeleton-default-view%})&mdash; The Skeleton control comes with a set of built-in views that you can use to quickly create skeleton screens for common UI elements, such as text, images, and buttons.
+* [Width and Height]({%slug skeleton-configuration%}#width-and-height)&mdash; You can set minimum width and minimum height to define the size of the Skeleton control according to your layout needs.
+* [Repeat Count]({%slug skeleton-configuration%}#repeat-count)&mdash; You can set the `RepeatCount` property to specify how many times the skeleton view should be repeated within the control. This is useful for creating lists or grids of skeleton items.
 * [Animation]({%slug skeleton-animation%})&mdash; The Skeleton control includes built-in animation options that allow you to create a smooth and engaging loading experience for your users.
-* [Custom views]({%slug skeleton-custom-view%})&mdash; The Skeleton control allows you to create custom skeleton views using XAML or C#, giving you full control over the appearance and layout of your skeleton screens.
+* [Custom Views]({%slug skeleton-custom-view%}#custom-template)&mdash; The Skeleton control allows you to create custom skeleton views using XAML or C#, giving you full control over the appearance and layout of your skeleton screens.
+* [Custom Drawable]({%slug skeleton-custom-view%}#custom-drawable)&mdash;You can create a custom drawable object by implementing the `IDrawable` interface. This allows you to have full control over the appearance and behavior of the skeleton view.
+* [Styling API]({%slug skeleton-styling%})&mdash;You can customize the appearance of the Skeleton using the styling API, which allows you to set properties like background color, border color, corner radius, loading view color, and more.
 
 ## Next Steps
 
