@@ -30,6 +30,8 @@ Check below a quick example on how to utilize navigation commands:
 
 ## User Actions Commands
 
+* `AddAppointmentCommand` (`ICommand`)&mdash;Defines the command that is executed when the add appointment button is clicked. This command opens the appointment creation dialog.
+
 * `AppointmentTapCommand` (`ICommand`)&mdash;Defines the command that is executed when an appointment is tapped.
 
 * `AppointmentDoubleTapCommand` (`ICommand`)&mdash;Defines the command that is executed when an appointment is double tapped.
@@ -40,7 +42,21 @@ Check below a quick example on how to utilize navigation commands:
 
 * `MonthDayTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a month day is tapped.
 
-* `MonthDayDoubleTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a a month day is double tapped.
+* `MonthDayDoubleTapCommand` (`ICommand`)&mdash;Defines the command that is executed when a month day is double tapped.
+
+* `AgendaItemTapCommand`(`ICommand`)&mdash;Defines the command that is executed when an agenda item is tapped. Applicable only for the `Agenda` view. The command parameter is a `SchedulerNode` object representing the tapped agenda item. The items are: 
+
+  - `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
+  - `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
+  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view
+  - `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
+
+* `AgendaItemDoubleTapCommand`(`ICommand`)&mdash;Defines the command that is executed when an agenda item is double tapped. Applicable only for the `Agenda` view. The command parameter is a `SchedulerNode` object representing the double-tapped agenda item. The items are: 
+
+  - `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
+  - `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
+  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view
+  - `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
 
 ## See Also
 

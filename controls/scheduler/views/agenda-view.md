@@ -24,7 +24,12 @@ Add a `AgendaViewDefinition` to the `ViewDefinitions` collection of the `RadSche
 
 ![.NET MAUI Scheduler Agenda View](../images/scheduler-agendaview.png)
 
-## Properties
+## Properties on Scheduler Level
+
+* `AddAppointmentCommand` (`ICommand`)&mdash;Defines the command that is executed when the add appointment button is clicked. This command opens the appointment creation dialog.
+* `AddAppointmentButtonStyle` (`Style` with target type `RadButton`)&mdash;Defines the style that is applied to the add appointment button displayed in the Scheduler header. The button is visible for the `Agenda` view.
+
+## Properties on Agenda View Level
 
 * `Title` (`string`)&mdash;Specifies the name for the view. If not explicitly set, a default title may be generated.
 * `HeaderTextFormat` (`string`)&mdash;Defines the string format of the header text.

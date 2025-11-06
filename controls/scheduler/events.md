@@ -31,6 +31,22 @@ Here is a list of the available events:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
     * A `TappedEventArgs<DateTime>` object which provides the month day through its `Data` property.
 
+* `AgendaItemTapped`&mdash;occurs when the user taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
+    * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
+    * A `TappedEventArgs<SchedulerNode>` object which provides the agenda item occurrence through its `Data` property. The `Data` property can be one of the following types:
+        * `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
+        * `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
+        * `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view.
+        * `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
+
+* `AgendaItemDoubleTapped`&mdash;occurs when the user taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
+    * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
+    * A `TappedEventArgs<SchedulerNode>` object which provides the agenda item occurrence through its `Data` property. The `Data` property can be one of the following types:
+        * `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
+        * `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
+        * `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view.
+        * `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
+
 ## See Also
 
 - [Views]({% slug scheduler-views-overview %})
