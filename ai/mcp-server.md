@@ -29,7 +29,7 @@ To use the Telerik MAUI MCP server, you need:
 
 Depending on your environment, you can install the Telerik MAUI MCP server in any of the following ways:
 
-* By using the `dnx` script (.NET 10 or later only) or the `dotnet` CLI (.NET 8 and .NET 9)
+* By using the `dnx` script (.NET 10 or later only) or the `dotnet` CLI (.NET 8 and .NET 9):
 
   ```bash .NET 10
   dnx Telerik.MAUI.MCP
@@ -55,28 +55,32 @@ Use the settings in the following table to configure the Telerik MAUI MCP server
 | Package Name | `"Telerik.MAUI.MCP"` | `"Telerik.MAUI.MCP"` | `"@progress/telerik-maui-mcp"` |
 | Type | `"stdio"` | `"stdio"` | `"stdio"` |
 | Command | `"dnx"` | `"dotnet"` | `"npx"` |
-| Arguments | `"Telerik.MAUI.MCP", "--yes"` | `"tool", "run", "telerik-maui-mcp"` | `"-y"` |
+| Arguments | `"Telerik.MAUI.MCP", "--yes"` | `"tool", "run", "telerik-maui-assistant"` | `"-y"` |
 | Server Name | `"telerik-maui-assistant"` | `"telerik-maui-assistant"` | `"telerik-maui-assistant"` |
 
 ### Configuring Your License
 
-An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI MCP server. Add your [Telerik license key]({%slug set-up-your-license%}) as an environment variable in your `mcp.json` file using one of these options:
+An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI MCP server.
 
-* As a license file path (recommended)
+* When installing the MCP server by using the .NET tooling (`dnx` or `dotnet tool install`), the [license key file]({%slug set-up-your-license%}) will be retrieved automatically if it is present in the default directory on your system. No additional action is required.
+* When using the .NET tooling, but your [license key file]({%slug set-up-your-license%}) is not in the default directory, use one of the options below.
+* When using Node.js, add your [license key file]({%slug set-up-your-license%}) as an environment variable in your `mcp.json` file using one of the options below:
 
-  ```json
-  "env": {
-      "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
-  }
-  ```
+  * As a license file path (recommended)
 
-* As a license key value
+    ```json
+    "env": {
+        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
+    }
+    ```
 
-  ```json
-  "env": {
-      "TELERIK_LICENSE": "YOUR_LICENSE_KEY_HERE"
-  }
-  ```
+  * As a license key value
+
+    ```json
+    "env": {
+        "TELERIK_LICENSE": "YOUR_LICENSE_KEY_HERE"
+    }
+    ```
 
 > Using a license file path is recommended unless you're sharing settings across different systems. Remember to [update your license key]({%slug set-up-your-license%}#updating-your-license-key) when necessary.
 
@@ -97,11 +101,6 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
           "type": "stdio",
           "command": "dnx",
           "args": ["Telerik.MAUI.MCP", "--yes"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
         }
       }
     }
@@ -112,12 +111,7 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
         "telerik-maui-assistant": {
           "type": "stdio",
           "command": "dotnet",
-          "args": ["tool", "run", "telerik-maui-mcp"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
+          "args": ["tool", "run", "telerik-maui-assistant"],
         }
       }
     }
@@ -159,11 +153,6 @@ The basic setup in Visual Studio Code involves the following steps:
           "type": "stdio",
           "command": "dnx",
           "args": ["Telerik.MAUI.MCP", "--yes"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
         }
       }
     }
@@ -174,12 +163,7 @@ The basic setup in Visual Studio Code involves the following steps:
         "telerik-maui-assistant": {
           "type": "stdio",
           "command": "dotnet",
-          "args": ["tool", "run", "telerik-maui-mcp"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
+          "args": ["tool", "run", "telerik-maui-assistant"],
         }
       }
     }
@@ -224,11 +208,6 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
       "type": "stdio",
       "command": "dnx",
       "args": ["Telerik.MAUI.MCP", "--yes"],
-      "env": {
-        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-        // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-      }
     }
   }
 }
@@ -239,12 +218,7 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
     "telerik-maui-assistant": {
       "type": "stdio",
       "command": "dotnet",
-      "args": ["tool", "run", "telerik-maui-mcp"],
-      "env": {
-        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-        // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-      }
+      "args": ["tool", "run", "telerik-maui-assistant"],
     }
   }
 }
