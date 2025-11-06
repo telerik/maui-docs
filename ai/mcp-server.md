@@ -62,7 +62,7 @@ Use the settings in the following table to configure the Telerik MAUI MCP server
 
 An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI MCP server.
 
-* When installing the MCP server by using the .NET tooling (`dnx` or `dotnet tool install`), the [license key file]({%slug set-up-your-license%}) will be retrieved automatically if it is present in the default directory on your system. No additional action is required.
+* When installing the MCP server by using the .NET tooling (`dnx` or `dotnet tool install`), the [license key file]({%slug set-up-your-license%}) will be retrieved automatically if it is present in the default directory on your system (`%AppData%\Telerik\telerik-license.txt` on Windows and `~/.telerik/telerik-license.txt` on Linux.). No additional action is required.
 * When using the .NET tooling, but your [license key file]({%slug set-up-your-license%}) is not in the default directory, use one of the options below.
 * When using Node.js, add your [license key file]({%slug set-up-your-license%}) as an environment variable in your `mcp.json` file using one of the options below:
 
