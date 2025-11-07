@@ -12,7 +12,7 @@ The Agenda View represents a view that shows a list of appointments in a continu
 
 ## Set the Agenda View
 
-Add a `AgendaViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
+Add an `AgendaViewDefinition` to the `ViewDefinitions` collection of the `RadScheduler` instance.
 
 ```XAML
 <telerik:RadScheduler x:Name="scheduler">

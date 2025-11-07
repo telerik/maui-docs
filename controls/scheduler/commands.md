@@ -48,14 +48,14 @@ Check below a quick example on how to utilize navigation commands:
 
   - `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
   - `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
-  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view
+  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view.
   - `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
 
 * `AgendaItemDoubleTapCommand`(`ICommand`)&mdash;Defines the command that is executed when an agenda item is double tapped. Applicable only for the `Agenda` view. The command parameter is a `SchedulerNode` object representing the double-tapped agenda item. The items are: 
 
   - `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
   - `AgendaWeekNode`&mdash;Represents the model for week group headers in the agenda view.
-  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view
+  - `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view.
   - `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
 
 ## See Also

@@ -31,7 +31,7 @@ Here is a list of the available events:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
     * A `TappedEventArgs<DateTime>` object which provides the month day through its `Data` property.
 
-* `AgendaItemTapped`&mdash;occurs when the user taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
+* `AgendaItemTapped`&mdash;Occurs when the user taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
     * A `TappedEventArgs<SchedulerNode>` object which provides the agenda item occurrence through its `Data` property. The `Data` property can be one of the following types:
         * `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
@@ -39,7 +39,7 @@ Here is a list of the available events:
         * `AgendaDayNode`&mdash;Represents the model for day group headers in the agenda view.
         * `AppointmentNode`&mdash;Represents the model of the views that are used to visualize appointments.
 
-* `AgendaItemDoubleTapped`&mdash;occurs when the user taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
+* `AgendaItemDoubleTapped`&mdash;Occurs when the user double taps on an agenda item. This event only applies to `Agenda` view and is not raised in `Day`, `Week`, `Month`, or `Multiday` views. The `AgendaItemTapped` event handler receives two parameters:
     * The sender argument, which is of type `object`, but can be cast to the `RadScheduler` type.
     * A `TappedEventArgs<SchedulerNode>` object which provides the agenda item occurrence through its `Data` property. The `Data` property can be one of the following types:
         * `AgendaMonthNode`&mdash;Represents the model for month group headers in the agenda view.
