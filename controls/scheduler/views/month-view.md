@@ -22,7 +22,7 @@ Add a `MonthViewDefinition` to the `ViewDefinitions` collection of the `RadSched
 </telerik:RadScheduler>
 ```
 
-![](../images/scheduler-monthview.png)
+![.NET MAUI Scheduler Month View](../images/scheduler-monthview.png)
 
 ## Properties
 
