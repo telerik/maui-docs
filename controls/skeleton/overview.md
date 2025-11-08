@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI Skeleton control is a UI element that serves as a p
 
 The animation of the skeleton indicates that the content is in the process of loading, which can help to reduce perceived wait times and keep users engaged. In addition, you can use the built-in skeletons and to apply a custom one to match the skeleton's appearance to your application's design.
 
-![A sample Telerik UI for .NET MAUI Skeleton](images/skeleton-overview.png "Telerik .NET MAUI Skeleton")
+![A sample Telerik UI for .NET MAUI Skeleton](images/skeleton-overview.gif)
 
 ## Key Features of the Telerik .NET MAUI Skeleton
 

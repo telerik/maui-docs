@@ -18,7 +18,7 @@ You can change the animation type by setting the `AnimationType` (`enum` of type
 
 ![Telerik UI for .NET MAUI Skeleton Animation Types](images/skeleton-animation-types.gif)
 
-Check below a quick example on how to set the `AnimationType` property to `None`:
+Below is a quick example showing how to set the `AnimationType` property to `None`:
 
 <snippet id='skeleton-animation-type' />
 

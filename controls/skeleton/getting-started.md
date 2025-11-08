@@ -26,7 +26,7 @@ Before adding the Skeleton, you need to:
 
 ## Define the Control
 
-1.When your .NET MAUI application is set up, you are ready to add a Skeleton control to your page:
+1. When your .NET MAUI application is set up, you are ready to add a Skeleton control to your page:
 
 <snippet id='skeleton-getting-staretd-xaml' />
 <snippet id='skeleton-getting-started-csharp' />

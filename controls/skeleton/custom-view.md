@@ -19,7 +19,7 @@ To create a custom skeleton view, you can define your own layout using XAML or C
 
 Here is an example of how to define a custom loading template as skeleton view:
 
-1. Define the `RadSkeleton` control and 
+1. Define the `RadSkeleton` control: 
 
 <snippet id='skeleton-customview' />
 
@@ -44,6 +44,26 @@ This is the result:
 You can also create a custom drawable object by implementing the `IDrawable` interface. This allows you to have full control over the appearance and behavior of the skeleton view.
 
 To apply the custom drawable to the `RadSkeleton`, set it to the `LoadingViewDrawable` property.
+
+Here is an example of how to define a custom drawable object as skeleton view:
+
+1. Define the `RadSkeleton` control: 
+
+<snippet id='skeleton-custom-drawable' />
+
+2. Create a custom `MyCustomDrawable` class that inherits from the `IDrawable` interface:
+
+<snippet id='skeleton-custom-drawable-implementation' />
+
+3. Add the `telerik` namespace:
+
+```XAML
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+This is the result:
+
+![MAUI Skeleton Custom Template](images/skeleton-custom-drawable.gif)
 
 ## See Also
 

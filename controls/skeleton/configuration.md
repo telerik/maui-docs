@@ -1,7 +1,7 @@
 ---
 title: Configuration
 meta_title: .NET MAUI Skeleton Documentation - Configuration
-description: Learn how to cinfigure the width, height, and other properties in Telerik .NET MAUI Skeleton control.
+description: Learn how to configure the width, height, and other properties in Telerik .NET MAUI Skeleton control.
 position: 2
 tags: .net maui, telerik .net maui, ui for .net maui, shimmer, microsoft .net maui
 slug: skeleton-configuration
@@ -28,7 +28,7 @@ The `RepeatCount` (`int`) property allows you to specify how many times the load
 
 In addition, you can apply spacing between the repeated skeleton views by setting the `RepeatSpacing` (`double`) property. The default value is `10`.
 
-Check below a quick example on how to set the `RepeatCount` and `RepeatSpacing` properties:
+Below is a quick example showing how to set the `RepeatCount` and `RepeatSpacing` properties:
 
 <snippet id='skeleton-repeat' />
 

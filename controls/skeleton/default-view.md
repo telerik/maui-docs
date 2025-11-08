@@ -9,13 +9,9 @@ slug: skeleton-default-view
 
 # .NET MAUI Skeleton Built-in Types (Views)
 
-The Telerik UI for .NET MAUI Skeleton control comes with a set of built-in views that you can use to quickly create skeleton screens for common UI elements. 
+The Telerik UI for .NET MAUI Skeleton control comes with a set of built-in views that you can use to quickly create skeleton screens for common UI elements. These built-in views help you to represent the structure and layout of your content while it is being loaded.
 
-These built-in views help you to represent the structure and layout of your content while it is being loaded.
-
-You can change the type of the skeleton loading view by setting the `SkeletonType` (`enum` of type `Telerik.Maui.Controls.Skeleton.SkeletonType`) property.
-
-The available built-in types are:
+You can change the type of the skeleton loading view by setting the `SkeletonType` (`enum` of type `Telerik.Maui.Controls.Skeleton.SkeletonType`) property. The available built-in types are:
 
 * `Article`&mdash;Displays a skeleton layout suitable for article content, typically showing an image and text lines with varying widths.
 * `Text`&mdash;Displays a simple text skeleton with horizontal lines representing text content.
@@ -28,7 +24,7 @@ The available built-in types are:
 
 ![Telerik UI for .NET MAUI Skeleton Types](images/skeleton-types.png)
 
-Check below a quick example on how to set the `SkeletonType` property to `Article`:
+Below is a quick example showing how to set the `SkeletonType` property to `Article`:
 
 <snippet id='skeleton-type' />
 

@@ -102,7 +102,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="GridSplitter" href="slug:gridsplitter-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Skeleton" href="slug:sleketon-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Skeleton" href="slug:skeleton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
         </IntroTableSection>
         <IntroTableSection title="PDF Viewer">
