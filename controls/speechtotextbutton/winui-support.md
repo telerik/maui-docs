@@ -26,7 +26,7 @@ To use the SpeechToTextButton on WinUI, you can use one of the following approac
 | ------------- | --------------- |
 | Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) | Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) |
 |  | Use the `RadSpeechRecognizer` |
-| Set the <DeviceCapability Name="microphone" /> inside the `Platforms/Windows/Package.appxmanifest` file | Set the <DeviceCapability Name="microphone" /> inside the `Platforms/Windows/Package.appxmanifest` file |
+| Set `<DeviceCapability Name="microphone" />` inside the `Platforms/Windows/Package.appxmanifest` file | Set `<DeviceCapability Name="microphone" />` inside the `Platforms/Windows/Package.appxmanifest` file |
 
 If you want to use the `RadSpeechRecognizer` on WinUI, set the `SpeechRecognizerCreator` property of the `RadSpeechToTextButton` to `RadSpeechRecognizer`:
 
