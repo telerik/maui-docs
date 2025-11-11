@@ -20,7 +20,7 @@ This MCP server enables AI-powered IDEs and tools to generate more accurate, tai
 
 To use the Telerik MAUI MCP server, you need:
 
-* [.NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8/overview) 8 or later, or [Node.js](https://nodejs.org/en) 18 or later.
+* [.NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8/overview) 9 or later, or [Node.js](https://nodejs.org/en) 18 or later.
 * An [MCP-compatible client](https://modelcontextprotocol.io/clients) that supports MCP tools (latest version recommended).
 
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
@@ -29,12 +29,12 @@ To use the Telerik MAUI MCP server, you need:
 
 Depending on your environment, you can install the Telerik MAUI MCP server in any of the following ways:
 
-* By using the `dnx` script (.NET 10 or later only) or the `dotnet` CLI (.NET 8 and .NET 9):
+* By using the `dnx` script (.NET 10 or later only) or the `dotnet` CLI (.NET 9):
 
   ```bash .NET 10
   dnx Telerik.MAUI.MCP
   ```
-  ```bash .NET 8/9
+  ```bash .NET 9
   dotnet tool install Telerik.MAUI.MCP
   ```
 
@@ -50,7 +50,7 @@ Next, make sure the configuration in your `mcp.json` is [correct](#configuring-m
 
 Use the settings in the following table to configure the Telerik MAUI MCP server in the [`mcp.json` file](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) of your code editor. Select the correct value based on your development environment.
 
-| Setting Name | .NET 10 Value | .NET 8 / .NET 9 Value | Node.js Value |
+| Setting Name | .NET 10 Value | .NET 9 Value | Node.js Value |
 |---------|---------------|-----------------------|---------------|
 | Package Name | `"Telerik.MAUI.MCP"` | `"Telerik.MAUI.MCP"` | `"@progress/telerik-maui-mcp"` |
 | Type | `"stdio"` | `"stdio"` | `"stdio"` |
@@ -105,7 +105,7 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
       }
     }
     ```
-    ```json .NET 8/9
+    ```json .NET 9
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -157,7 +157,7 @@ The basic setup in Visual Studio Code involves the following steps:
       }
     }
     ```
-    ```json .NET 8/9
+    ```json .NET 9
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -212,7 +212,7 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
   }
 }
 ```
-```json .NET 8/9
+```json .NET 9
 {
   "mcpServers": {
     "telerik-maui-assistant": {
