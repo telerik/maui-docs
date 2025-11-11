@@ -14,12 +14,12 @@ Learn about the latest changes, improvements and bug fixes in the Telerik UI for
 
 ### Highlights
 
-- **AutoComplete**: Updated snippets and API information to reflect the latest functionality.
-- **Chat**: Introduced API information and snippets for new features and component revamp.
-- **DataGrid**: Expanded snippet coverage for all built-in columns, search functionality, and Filter/Group/Sort descriptors.
-- **DataForm**: Expanded snippet coverage for all built-in editors and their APIs.
-- **Skeleton**: Added API information and snippets for the newly introduced RadSkeleton component.
-- **Scheduler**: Enhanced with API information and snippets for the new AgendaViewDefinition, along with additional methods and properties.
+- **AutoComplete**&mdash;Updated snippets and API information to reflect the latest functionality.
+- **Chat**&mdash;Introduced API information and snippets for new features and component revamp.
+- **DataGrid**&mdash;Expanded snippet coverage for all built-in columns, search functionality, and Filter/Group/Sort descriptors.
+- **DataForm**&mdash;Expanded snippet coverage for all built-in editors and their APIs.
+- **Skeleton**&mdash;Added API information and snippets for the newly introduced RadSkeleton component.
+- **Scheduler**&mdash;Enhanced with API information and snippets for the new AgendaViewDefinition, along with additional methods and properties.
 
 ## See Also
 
