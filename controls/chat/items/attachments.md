@@ -8,4 +8,4 @@ slug: chat-attachments
 
 # Attachments
 
-The Telerik MAUI Chat control provides options to attach images, files, and other media to messages. You can achieve this by adding `Attachment` instances to the `Attachments` collection of a `TextMessage` item.
+The Telerik MAUI Chat control provides options to attach images, files, and other media to messages.

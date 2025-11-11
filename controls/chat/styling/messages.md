@@ -28,7 +28,7 @@ To customize the different parts of the control, you can use the following built
 In addition, the following properties set the background of the Chat:
 
 * `BackgroundColor`(`Color`)&mdash;Defines the background color of the Chat control.
-* `InputAreaBackgroundColor`(`Color`)&mdash;Defines the bacgkround color of the area that the input elements (entry and button) reside.
+* `InputAreaBackgroundColor`(`Color`)&mdash;Defines the background color of the area that the input elements (entry and button) reside.
 
 ## See Also
 

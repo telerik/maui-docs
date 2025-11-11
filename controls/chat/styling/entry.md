@@ -37,7 +37,7 @@ The example below shows how to customize the chat entry in your Chat control. Th
 
 ## Customize the Send Button
 
-You can customize the icon of the send button by setting the `SendMessageButtonImage` (`ImageSource`) property.
+The Telerik UI for .NET MAUI Chat allows you to customize the icon of the send button by setting the `SendMessageButtonImage` (`ImageSource`) property.
 
 The example below shows how to customize the Send button in your Chat control.
 

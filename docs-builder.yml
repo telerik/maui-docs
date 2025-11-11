@@ -484,6 +484,14 @@ redirects:
   to: /controls/busyindicator/content
   type: Permanent
 
+- from: ^/controls/chat/styling$
+  to: /controls/chat/styling/entry
+  type: Permanent
+
+- from: ^/controls/chat/item-template-selector$
+  to: /controls/chat/templates/item-template-selector
+  type: Permanent
+
 - from: ^/controls/maskedentry/maskedentry-masked-types$
   to: /controls/maskedentry/mask-types/overview
   type: Permanent
