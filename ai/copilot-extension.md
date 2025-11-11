@@ -4,7 +4,7 @@ page_title: Telerik MAUI GitHub Copilot Extension
 description: Learn how to add and use the Telerik MAUI GitHub Copilot extension as a .NET MAUI AI coding assistant and code generator for better developer productivity. The Telerik MAUI GitHub Copilot extension provides proprietary context about Telerik UI for .NET MAUI to AI-powered software.
 slug: ai-copilot-extension
 tags: telerik, maui, ai, dotnetmaui, coding assistant, ai server
-position: 3
+position: 4
 ---
 
 # Telerik MAUI GitHub Copilot Extension
