@@ -14,6 +14,7 @@ The Telerik UI for .NET MAUI Scheduler control provides the functionality of dis
 - [Week View]({%slug scheduler-week-view %})&mdash;Displays the appointment of a week.
 - [Multiday View]({%slug scheduler-week-view %})&mdash;Displays the appointments of a specified number of days starting from `CurrentDate`.
 - [Month View]({%slug scheduler-month-view %})&mdash;Displays the appointments of a month.
+- [Agenda View]({%slug scheduler-agenda-view%})&mdash;Displays the appointments in a continuous, scrollable agenda list.
 
 ## Define the Views 
 
@@ -27,3 +28,4 @@ Define the available to the user views by adding them to the `ViewDefinitions` c
 - [Week View]({%slug scheduler-week-view %})
 - [Multiday View]({%slug scheduler-week-view %})
 - [Month View]({%slug scheduler-month-view %})
+- [Agenda View]({%slug scheduler-agenda-view %})

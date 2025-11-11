@@ -22,7 +22,7 @@ Add a `MultidayViewDefinition` to the `ViewDefinitions` collection of the `RadSc
 </telerik:RadScheduler>
 ```
 
-![](../images/scheduler-multiday.png)
+![.NET MAUI Scheduler MultiDay View](../images/scheduler-multiday.png)
 
 
 ## Properties

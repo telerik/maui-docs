@@ -112,6 +112,8 @@ meta:
     position: 10
   controls/slider:
     title: Slider
+  controls/skeleton:
+    title: Skeleton
   controls/signaturepad:
     title: SignaturePad
   controls/sidedrawer:
