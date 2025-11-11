@@ -8,11 +8,17 @@ slug: chat-commands
 
 # .NET MAUI Chat Commands
 
-The Telerik UI for .NET MAUI Chat allows you to attach commands that will be executed when certain actions such as `SendMessage` occur.
+The Telerik UI for .NET MAUI Chat allows you to attach commands that will be executed when certain actions occur.
 
-## Chat Commands
+## Commands Related to the Chat Input Area:
 
-Take advantage of the `SendMessageCommand` that is triggered when the send-message button is clicked or when the user presses the `Enter` key on desktop platforms. The command is raised before the Chat auto-creates a `ChatItem` and adds it to the `Items` collection.
+* `SendMessageCommand` (`ICommand`)&mdash;Defines the command that is executed when the send button is clicked or the `Enter` key is pressed. 
+
+## Commands Related to Attachments
+
+* `` ()&mdash;
+
+## Example with SendMessageCommand
 
 Here is an example on how to define a command in the ViewModel and bind the `SendMessageCommand` to it:
 
