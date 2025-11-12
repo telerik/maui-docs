@@ -336,6 +336,12 @@ meta:
     title: CollectionView
   controls/checkbox:
     title: CheckBox
+  controls/chat/styling:
+    title: Styling
+    position: 16
+  controls/chat/templates:
+    title: Templates
+    position: 10
   controls/chat/pickers/card-picker:
     title: Card Picker
     position: 5
