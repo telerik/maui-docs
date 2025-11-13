@@ -60,4 +60,4 @@ To add attachments you have to apply the following settings:
 
 <snippet id='chat-data-server' />
 
-![.NET MAUI Chat Attachments Example](images/chat-attach-photos.png)
+![.NET MAUI Chat Attachments Example](../images/chat-attach-photos.png)
