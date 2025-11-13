@@ -9,26 +9,65 @@ slug: chat-message-styling
 
 # .NET MAUI Chat Message Styling
 
-Any change in the appearance of the `RadChat` components depends on the referenced styles. The default templates contain a `RadBorder` control (used to achieve the rounded edges), an Image control (used for the avatar of the single and first message), and a Label for the text message itself.
+Any change in the appearance of the `RadChat` components depends on the referenced styles. 
 
-To customize the different parts of the control, you can use the following built-in styles:
+The default templates contain a `RadBorder` control (used to achieve the rounded edges), an Image control (used for the avatar of the single and first message), and a Label for the text message itself.
 
-- `MessageImageStyle`(target type `Image`)&mdash;Defines the style referred to the send button image.
+To customize the different parts of the control, you can use the following implicit styles:
 
-- `OutgoingMessageImageStyle` (target type `Image`)&mdash;Defines the style of the outgoing message image.
+* `Image`&mdash;Represents the avatar image of the message.
 
-- `IncomingBorderStyle` (target type `RadBorder`)&mdash;Defines the style of the incoming message border.
+```XAML
+<Style TargetType="Image">
 
-- `OutgoingBorderStyle` (target type `RadBorder`)&mdash;Defines the style of the outgoing message border.
+</Style>
+```
 
-- `DefaultLabelStyle` (target type `Label`)&mdash;Defines the default label style.
+* `ChatIncomingSingleTextMessageView`&mdash;Represents a view that visualizes a single incoming text message, i.e. when the number of consecutive messages from the same author is one.
+* `ChatIncomingFirstTextMessageView`&mdash;Represents a view that visualizes an incoming text message that is the first in a series of messages from the same author.
+* `ChatIncomingMiddleTextMessageView`&mdash;Represents a view that visualizes an incoming text message that is in the middle of a series of messages from the same author.
+* `ChatIncomingLastTextMessageView`&mdash;Represents a view that visualizes an incoming text message that is the last in a series of messages from the same author.
 
-- `OutgoingLabelStyle` (target type `Label`)&mdash;Defines the style of the label of the outgoing message.
+```XAML
+<Style TargetType="telerik:ChatIncomingSingleTextMessageView">
+    <Setter Property="BorderStyle">
+        <Setter.Value>
+            <Style TargetType="telerik:RadBorder">
+            </Style>
+        </Setter.Value>
+    </Setter>
+    <Setter Property="LabelStyle">
+		<Setter.Value>
+			<Style TargetType="Label">
+			</Style>
+		</Setter.Value>
+	</Setter>
+</Style>
+```
 
-In addition, the following properties set the background of the Chat:
+* `ChatOutgoingSingleTextMessageView`&mdash;Represents a view that visualizes a single outgoing text message, i.e. when the number of consecutive messages from the same author is one.
+* `ChatOutgoingFirstTextMessageView`&mdash;Represents a view that visualizes an outgoing text message that is the first in a series of messages from the same author.
+* `ChatOutgoingMiddleTextMessageView`&mdash;Represents a view that visualizes an outgoing text message that is in the middle of a series of messages from the same author.
+* `ChatOutgoingLastTextMessageView`&mdash;Represents a view that visualizes an outgoing text message that is the last in a series of messages from the same author.
 
-* `BackgroundColor`(`Color`)&mdash;Defines the background color of the Chat control.
-* `InputAreaBackgroundColor`(`Color`)&mdash;Defines the background color of the area that the input elements (entry and button) reside.
+```XAML
+<Style TargetType="telerik:ChatOutgoingSingleTextMessageView">
+    <Setter Property="BorderStyle">
+        <Setter.Value>
+            <Style TargetType="telerik:RadBorder">
+            </Style>
+        </Setter.Value>
+    </Setter>
+    <Setter Property="LabelStyle">
+		<Setter.Value>
+			<Style TargetType="Label">
+			</Style>
+		</Setter.Value>
+	</Setter>
+</Style>
+```
+
+To define background color of the Chat set the `BackgroundColor`(`Color`) property.
 
 ## See Also
 
