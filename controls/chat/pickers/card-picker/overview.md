@@ -51,6 +51,7 @@ The next snippet uses the Cards defined in the previous example and adds Actions
 
 <snippet id='chat-chatpicker-cardpicker-getcards' />
 
+![.NET MAUI chat Card Picker](../images/chat-cardpicker.gif)
 
 ## See Also
 

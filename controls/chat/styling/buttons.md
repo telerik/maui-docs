@@ -11,6 +11,8 @@ slug: chat-buttons-styling
 
 This section describes how to style the send, more and speech to text buttons inside the `RadChat` control.
 
+![Chat Buttons Styling](../images/chat-buttons.png)
+
 ## Style the Send Button
 
 To customize the icon of the send button, use the `SendMessageButtonImage` (`ImageSource`) property.
@@ -48,7 +50,7 @@ You can configure and style the More button using the following properties:
 
 To configure the SpeechToTextButton, use the following properties:
 
-* `IsSpeechToTextButtonVisible` (`bool`) property controls the visibility of the SpeechToTextButton. By default, the button is visible on Android, iOS and MacCatalyst and not visible on Windows.
+* `IsSpeechToTextButtonVisible` (`bool`) property controls the visibility of the SpeechToTextButton. By default, the button is visible on Android, iOS and MacCatalyst and not visible on Windows. Review the [Speech to Text on Windows](%slug speechtotextbutton-winui-support%) article for more information on how to set up this feature on Windows.
 
 * `SpeechToTextButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadSpeechToTextButton`) property is used to style the SpeechToTextButton.
 
