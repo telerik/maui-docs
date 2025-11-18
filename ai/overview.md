@@ -15,24 +15,14 @@ The coding assistant is an AI code generator that provides specialized context t
 
 ## Available Tools
 
-The Telerik AI Coding Assistant is available through:
+The Telerik AI Coding Assistant is integrated in the [Telerik MAUI MCP Server]({%slug ai-mcp-server%})
 
-* [Telerik MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%})
-* [Telerik MAUI MCP Server]({%slug ai-mcp-server%})
-
->caution [Microsoft is sunsetting GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/) on November 10th, 2025, in favor of the Model Context Protocol (MCP) standard. 
-> 
-> From that date, the Telerik and Kendo UI AI Coding Assistants will be available exclusively through our [MCP server]({%slug ai-mcp-server%}), ensuring you continue to enjoy the same powerful capabilities that are delivered by a modern, open, and officially recommended standard.
-
-
-### Key Differences
-
-| Feature                | MCP Server                                                                | GitHub Copilot Extension                                   |
-|------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|
-| Prompt Handling        | Handles complex, multi-step prompts                                       | Offers shorter, focused code snippets                      |
-| Client Compatibility   | Works with MCP-enabled clients (e.g., Cursor, Copilot Agent mode)         | Integrated as a Copilot extension                          |
-| Code Suggestions       | Can directly suggest changes and rebuild applications to verify code      | Provides detailed explanations alongside code suggestions  |
-| Response Focus         | Primarily code-focused                                                    | Better for learning and understanding implementation       |
+| Feature                | MCP Server                                                                |
+|------------------------|---------------------------------------------------------------------------|
+| Prompt Handling        | Handles complex, multi-step prompts                                       |
+| Client Compatibility   | Works with MCP-enabled clients (e.g., Cursor, Copilot Agent mode)         |
+| Code Suggestions       | Can directly suggest changes and rebuild applications to verify code      |
+| Response Focus         | Primarily code-focused                                                    |
 
 ## Getting Started
 
@@ -41,14 +31,33 @@ To use the Telerik MAUI AI Coding Assistant, you need:
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 * @[template](/_contentTemplates/common/ai-coding-assistant.md#number-of-requests)
 
+To learn how to set up and use the Telerik MAUI AI Coding Assistant, see the [Getting Started with the Telerik UI for .NET MAUI AI Coding Assistant]({%slug ai-mcp-server%}) article.
+
+## Intended Use
+
+You can use the Telerik AI Coding Assistant for:
+
+* Initial code generation&mdash;Quickly add components to your app to speed up the initial development.
+* Component configuration&mdash;Enable or disable specific component features, or fine tune the configuration through prompting. More complex configurations are possible but may require additional manual work to be production-ready.
+* Dummy data generation and data binding&mdash;Quickly add data to your app for testing and prototyping purposes. Avoid exposing or providing access to your proprietary or production data to AI-enabled tools.
+* Step-by-step explanations&mdash;Understand the solutions provided by the AI Coding Assistant through the detailed explanations (depends on the tool, mode, and model). To further develop your knowledge, check the respective documentation.
+* Preliminary troubleshooting&mdash;Resolve obvious and easy-to-solve issues affecting your code. For more complex issues, search the product documentation or look for assistance from the community.
+
+>warning Always double-check the suggested code and solutions of any AI-powered tool before applying them to your app.
+
 ## Recommendations
 
 Consider the following recommendations when working with the AI Coding Assistant:
 
-* Add NuGet packages/referenced assemblies for the Telerik UI for WPF product.
+* Add NuGet packages/referenced assemblies for the Telerik UI for MAUI product.
 * Set the `.sln` as a context.
 * When switching between tasks and files, start a new session in a new chat window to avoid polluting the context with irrelevant or outdated information.
 * At the time of publishing, Claude Sonnet 4 produces optimal results.
+
+## Telerik Document Processing AI Coding Assistant
+
+You can also use the AI Coding Assistant for Telerik Document Processing to generate high-quality code samples and speed up your development.
+Read the full guide in the dedicated [DPL AI Coding Assistant article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
 
 ## Usage Limits
 
@@ -72,7 +81,7 @@ Access to the AI Coding Assistant depends on your [Telerik license type](https:/
 * Reactivating the same trial for a new release does not grant additional requests.
 * Designed for evaluating the feature before purchasing.
 
-> All Telerik AI tools share a single request quota for your Telerik account. Usage from the [Telerik Copilot extension]({%slug ai-copilot-extension%}) and [Telerik MCP server]({%slug ai-mcp-server%}) counts toward the same limit. Complex prompts in the MCP server may consume multiple requests.
+> All Telerik AI tools share a single request quota for your Telerik account. Complex prompts in the MCP server may consume multiple requests.
 
 ## Privacy
 
@@ -94,13 +103,7 @@ Data Storage:
 
 > Make sure also to review the terms and privacy policies of your selected AI model and AI client.
 
-## Telerik Document Processing AI Coding Assistant
-
-You can also use the AI Coding Assistant for Telerik Document Processing to generate high-quality code samples and speed up your development.
-Read the full guide in the dedicated [DPL AI Coding Assistant article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
-
 ## Next Steps
 
-* Install the [Telerik MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%})
 * Configure the [Telerik MAUI MCP Server]({%slug ai-mcp-server%}) with an MCP-enabled client
 * Review the [Prompt Library]({%slug ai-prompt-library%})
