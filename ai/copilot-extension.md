@@ -3,6 +3,7 @@ title: Copilot Extension
 page_title: Telerik MAUI GitHub Copilot Extension
 description: Learn how to add and use the Telerik MAUI GitHub Copilot extension as a .NET MAUI AI coding assistant and code generator for better developer productivity. The Telerik MAUI GitHub Copilot extension provides proprietary context about Telerik UI for .NET MAUI to AI-powered software.
 slug: ai-copilot-extension
+published: false
 tags: telerik, maui, ai, dotnetmaui, coding assistant, ai server
 position: 4
 ---
@@ -14,7 +15,6 @@ The Telerik MAUI [GitHub Copilot](https://github.com/features/copilot) extension
 >caution [Microsoft is sunsetting GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/) on November 10th, 2025, in favor of the Model Context Protocol (MCP) standard. 
 > 
 > From that date, the Telerik and Kendo UI AI Coding Assistants will be available exclusively through our [MCP server]({%slug ai-mcp-server%}), ensuring you continue to enjoy the same powerful capabilities that are delivered by a modern, open, and officially recommended standard.
-
 
 This extension enhances GitHub Copilot with proprietary context about Telerik MAUI controls, helping you:
 

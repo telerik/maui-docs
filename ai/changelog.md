@@ -21,6 +21,8 @@ Learn about the latest changes, improvements and bug fixes in the Telerik UI for
 - **Skeleton**&mdash;Added API information and snippets for the newly introduced RadSkeleton component.
 - **Scheduler**&mdash;Enhanced with API information and snippets for the new AgendaViewDefinition, along with additional methods and properties.
 
+- > [Microsoft sunset GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps) on November 10, 2025, in favor of the Model Context Protocol (MCP) standard.
+
 ## See Also
 
 * [Telerik UI for .NET MAUI AI Tooling Overview]({% slug ai-overview%})

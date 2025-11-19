@@ -27,10 +27,6 @@ All prompts in this library target the [MCP Server]({%slug ai-mcp-server%}) via 
 
 >warning Always double-check the code and solutions proposed by any AI-powered tool before applying them to your project.
 
->caption Use with the Copilot Extension
-
-To run the provided prompts in the [Telerik UI for MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%}) (without the MCP Server installed), modify the prompts to use the `@telerikmaui` handle instead.
-
 ## General Prompts
 
 This section provides examples of general questions related to Telerik UI for MAUI.
