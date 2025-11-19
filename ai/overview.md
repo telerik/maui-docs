@@ -63,25 +63,27 @@ Read the full guide in the dedicated [DPL AI Coding Assistant article](https://d
 
 Access to the AI Coding Assistant depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
 
-### Subscription License
+### Subscription Licenses
 
 * A Subscription is the primary license that grants full access to the AI Coding Assistant.
-* Includes a virtually unlimited number of requests, with a fair use threshold of 300 requests per day.
-* Best for ongoing and high-volume usage.
+* Includes a virtually unlimited number of requests, with fair usage applied
 
-### Perpetual License (Limited Access)
+### Perpetual Licenses
 
-* Perpetual licenses include limited access of 50 requests per year.
-* Intended for exploring and trying out the AI Coding Assistant.
-* For continued or higher-volume access, upgrade to a Subscription license.
+* Perpetual license holders have no access to the AI Coding Assistant by default.
+* You can start a [30-day trial](https://www.telerik.com/try/ui-for-maui) to access the AI Coding Assistant.
+* After the trial expires, access is no longer available unless the [Perpetual license is converted to a Subscription license](https://www.telerik.com/account/support-center/contact-us/account-support).
 
-### Trial License
+### Trial Licenses
 
-* Trial licenses include 300 requests per trial per year.
+* A [Telerik UI for .NET MAUI trial](https://www.telerik.com/try/ui-for-maui) automatically starts a 30-day trial for the AI tools.
+* Trial licenses grant access to the AI Coding Assistant.
+* The number of requests is virtually unlimited, with fair use policy applied.
 * Reactivating the same trial for a new release does not grant additional requests.
 * Designed for evaluating the feature before purchasing.
 
 > All Telerik AI tools share a single request quota for your Telerik account. Complex prompts in the MCP server may consume multiple requests.
+> When using the Telerik MCP server, one prompt may trigger several requests, depending on the prompt complexity.
 
 ## Privacy
 
