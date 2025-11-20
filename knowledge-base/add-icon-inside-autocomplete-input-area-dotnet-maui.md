@@ -20,7 +20,7 @@ res_type: kb
 I want to display an additional icon inside the input area of the [UI for .NET MAUI AutoComplete](https://www.telerik.com/maui-ui/documentation/controls/autocomplete/overview) control. 
 
 This knowledge base article also answers the following questions:
-- How to use the `ControlTemplate` to customize Telerik AutoComplete?
+- How to use the `ControlTemplate` to customize Telerik UI for .NET MAUI AutoComplete?
 - How can I add custom elements inside the AutoComplete input area?
 - How do I add an icon to the Telerik UI for .NET MAUI AutoComplete?
 
