@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-I want to display an additional icon inside the input area of the [UI for .NET MAUI AutoComplete](https://www.telerik.com/maui-ui/documentation/controls/autocomplete/overview) component. 
+I want to display an additional icon inside the input area of the [UI for .NET MAUI AutoComplete](https://www.telerik.com/maui-ui/documentation/controls/autocomplete/overview) control. 
 
 This knowledge base article also answers the following questions:
 - How to use the `ControlTemplate` to customize Telerik AutoComplete?
