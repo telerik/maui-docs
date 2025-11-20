@@ -1,5 +1,5 @@
 ---
-title: Displaying Additional Icon Inside AutoComplete Input Area
+title: Displaying Additional Icons Inside the AutoComplete Input Area
 description: Learn how to display an additional icon inside the input area of the Telerik UI for .NET MAUI AutoComplete component by customizing its ControlTemplate.
 type: how-to
 page_title: How to Add an Icon Inside the AutoComplete Input Area in .NET MAUI
