@@ -2,7 +2,6 @@
 title: Extracting Point Data from Signature in SignaturePad for UI for .NET MAUI
 description: Learn how to extract point and line data from a signature in the SignaturePad component for UI for .NET MAUI.
 type: how-to
-page_title: How to Extract Point Data from SignaturePad in UI for .NET MAUI
 meta_title: How to Extract Point Data from SignaturePad in UI for .NET MAUI
 slug: extracting-point-data-from-signature-signaturepad-dotnet-maui
 tags: signaturepad, ui-for-dotnet-maui, point-data, signature, vector-data
@@ -27,7 +26,7 @@ ticketid: 1600847
 
 ## Description
 
-I want to extract point and line data from the signature created using the [SignaturePad](https://docs.telerik.com/devtools/maui/controls/signaturepad/overview) component of UI for .NET MAUI. The goal is to format the signature data as a string that represents the x, y coordinates of the strokes in the signature. Different formats for the output data are required, such as a custom format or an SVG-like format.
+I want to extract point and line data from the signature created using the [SignaturePad](https://docs.telerik.com/devtools/maui/controls/signaturepad/overview) control of UI for .NET MAUI. The goal is to format the signature data as a string that represents the x, y coordinates of the strokes in the signature. Different formats for the output data are required, such as a custom format or an SVG-like format.
 
 This knowledge base article also answers the following questions:
 - How to save signature data as points and strokes from SignaturePad UI for .NET MAUI?
@@ -61,21 +60,19 @@ GetVectorFromSignatureImage(imageBytes);
 
 Create a method to process the image and extract vector data. This involves three stages:
 
-**Stage 1: Prepare Bitmaps**
-- Decode the image bytes into `SKBitmap`.
-- Create a grayscale bitmap for better contrast.
-- Convert the grayscale bitmap into a binary bitmap (black and white) using a threshold.
+1. Prepare the Bitmaps.
+    1. Decode the image bytes into `SKBitmap`.
+    2. Create a grayscale bitmap for better contrast.
+    3. Convert the grayscale bitmap into a binary bitmap (black and white) using a threshold.
 
-**Stage 2: Scan Bitmap and Create Point Groups**
-- Scan the binary bitmap for black pixels.
-- Group neighboring black pixels into strokes using an algorithm.
-- Store grouped strokes as `List<List<SKPoint>>`.
+2. Scan the Bitmap and create point groups.
+    1. Scan the binary bitmap for black pixels.
+    2. Group neighboring black pixels into strokes using an algorithm.
+    3. Store the grouped strokes as `List<List<SKPoint>>`.
 
-**Stage 3: Format the Data**
-- Serialize the grouped strokes into a desired format.
-- Supported formats:
-  - Custom: `"1,2;3,4;5,6/7,8;9,10;11,12"`
-  - SVG-like: `"M x y L x y L x y ..."`
+3. Serialize the grouped strokes into your preferred format: 
+    - Custom: `"1,2;3,4;5,6/7,8;9,10;11,12"`
+    - SVG-like: `"M x y L x y L x y ..."`
 
 Below is the complete implementation:
 
