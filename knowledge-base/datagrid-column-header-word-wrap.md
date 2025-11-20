@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To enable word wrapping for column headers, use a template for the `HeaderContentTemplate` property of a `DataGridTextColumn`. The template allows customization of the header's appearance, including enabling word wrapping for text.
+To enable word wrapping for column headers, use a template for the `HeaderContentTemplate` property of a `DataGridTextColumn`. The template allows customization of the header's appearance, including enabling word wrapping for text. When using a template, it overrides the properties set in the `HeaderStyle` for the text. Define properties such as font size, font attributes, and text color directly in the label inside the template.
 
 ### Example in XAML
 
@@ -79,10 +79,6 @@ var nameColumn = new DataGridTextColumn
 };
 dataGrid.Columns.Add(nameColumn);
 ```
-
-### Notes
-
-When using a template, it overrides the properties set in the `HeaderStyle` for the text. Define properties such as font size, font attributes, and text color directly in the label inside the template.
 
 ## See Also
 
