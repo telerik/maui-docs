@@ -28,17 +28,17 @@ This knowledge base article also answers the following questions:
 
 To align spinner items horizontally to the left (`Start`), define custom styles for `ItemStyle` and `SelectedItemStyle`. Apply these styles to the `ItemStyle` and `SelectedItemStyle` properties of the `RadListPicker` component.
 
-1. Define a custom `Style` for the spinner items in the `Resources` section. Set the `HorizontalOptions` property to `Start`.
+**1.** Define a custom `Style` for the spinner items in the `Resources` section. Set the `HorizontalOptions` property to `Start`.
 
-```xml
+```xaml
 <Style x:Key="MySpinnerItemStyle" TargetType="telerik:SpinnerItemView">
     <Setter Property="HorizontalOptions" Value="Start" />
 </Style>
 ```
 
-2. Apply the defined style to both `ItemStyle` and `SelectedItemStyle` properties of the `RadListPicker`.
+**2.** Apply the defined style to both `ItemStyle` and `SelectedItemStyle` properties of the `RadListPicker`.
 
-```xml
+```xaml
 <VerticalStackLayout>
     <telerik:RadListPicker
         ItemTemplate="{StaticResource itemTemplate}"
