@@ -15,7 +15,7 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product Version</td>
-			<td>from 5.2.0 to 7.0.0</td>
+			<td>from 5.2.0 to 7.1.0</td>
 		</tr>
 		<tr>
 			<td>Product</td>
