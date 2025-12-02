@@ -15,11 +15,11 @@ res_type: kb
 	<tbody>
 		<tr>
 			<td>Product Version</td>
-			<td>5.2.0</td>
+			<td>from 5.2.0 to 7.1.0</td>
 		</tr>
 		<tr>
 			<td>Product</td>
-			<td>Progress® Telerik® UI for .NET MAUI</td>
+			<td>Telerik UI for .NET MAUI Entry</td>
 		</tr>
 	</tbody>
 </table>
