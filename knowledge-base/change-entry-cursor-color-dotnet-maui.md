@@ -93,7 +93,7 @@ internal static T ChildOfType<T>(View visualElement) where T : View
 ```xaml
 <VerticalStackLayout>
     <telerik:RadEntry x:Name="entry"
-                             Loaded=entry_Loaded" />
+                             Loaded="entry_Loaded" />
 </VerticalStackLayout>
 ```
 
