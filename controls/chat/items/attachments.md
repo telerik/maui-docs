@@ -10,6 +10,8 @@ slug: chat-items-attachments
 
 The Telerik UI for .NET MAUI Chat control allows you to send and receive attachments as part of the conversation. Attachments can include images, documents, or other file types that enhance the messaging experience.
 
+>tip When working with attachments, you need to grant permissions to access the device camera and device external storage. For more details, review the [Microsoft Media Picker](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-10.0&tabs=android) article.
+
 To add attachments you have to apply the following settings:
 
 1. Set the `IsMoreButtonVisible` to `true` to show the More button in the input area of the Chat control.
@@ -61,3 +63,10 @@ To add attachments you have to apply the following settings:
 <snippet id='chat-data-server' />
 
 ![.NET MAUI Chat Attachments Example](../images/chat-attach-photos.png)
+
+## See Also
+
+- [Commands]({% slug chat-commands%})
+- [Chat Items]({%slug chat-items-overview%})
+- [Attachment Styling]({%slug chat-attachments-styling%})
+- [Attachment Templates]({%slug chat-attachments-templates%})
