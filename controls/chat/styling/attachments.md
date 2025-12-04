@@ -1,6 +1,6 @@
 ---
 title: Attachments
-page_title: .NET MAUI Chat Documentation - Attachments Styling
+meta_title: .NET MAUI Chat Documentation - Attachments Styling
 description: Learn how to style the outgoing and incoming attachments in the Telerik UI for .NET MAUI Chat control.
 position: 6
 tags: .net maui, telerik .net maui, ui for .net maui, chat, style
