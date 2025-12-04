@@ -69,4 +69,4 @@ To add attachments you have to apply the following settings:
 - [Commands]({% slug chat-commands%})
 - [Chat Items]({%slug chat-items-overview%})
 - [Attachment Styling]({%slug chat-attachments-styling%})
-- [Attachment Templates]({%slug chat-attachments-styling%})
+- [Attachment Templates]({%slug chat-attachments-templates%})
