@@ -81,7 +81,7 @@ public partial class MainPage : ContentPage
 }
 ```
 
-**4.** The Checkbox definition in XAML:
+**4.** Define the CheckBox in XAML:
 
 ```xml
 <HorizontalStackLayout Spacing="5" VerticalOptions="Start">
