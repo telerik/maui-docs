@@ -44,7 +44,7 @@ To customize the appearance of the attachments in the messages, you can use the 
 * `LabelStyle` (`Style` with target type `Label`)&mdash;Defines the style of the label in the attached messages.
 * `AttachmentsListViewStyle` (`Style` with target type `ChatMessageAttachmentsListView`)&mdash;Defines the style of the list view containing the attached files in the message. The properties for customizing the list view are:
   * `DownloadAllButtonStyle` (`Style` with target type `RadTemplatedButton`)&mdash;Defines the style for the Download All button used to download all attached files in the message.
-  * `AttachmentStyle` (`Style` with target type ChatMessageAttachmentView`)&mdash;Defines style of the image (the avatar's icon) of the attachments message
+  * `AttachmentStyle` (`Style` with target type `ChatMessageAttachmentView`)&mdash;Defines the style of the entire attachment view in the attachments message.
 	* `ImageStyle` (`Style` with target type `Image`)&mdash;Defines the style of the icon of the attached file in the message area.
 	* `SubtitleStyle` (`Style` with target type `Label`)&mdash;Defines the style of the label representing the size of the attached file in the message area.
 	* `TitleStyle` (`Style` with target type `Label`)&mdash;Defines the style of the label representing the name of the attached file in the message area.
