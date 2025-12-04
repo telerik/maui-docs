@@ -97,7 +97,7 @@ If you cannot use NuGet packages in your project, add the license as a code snip
 
 ## Updating Your License Key
 
-Whenever you purchase a new Telerik UI for .NET MAUI license or renew an existing one, always [download a new license key](#manual-license-key-installation). The new license key includes information about all previous license purchases. This process is referred to as a license key update. Once you have the new license key, use it to [activate the Telerik UI for .NET MAUI](#activate-the-telerik-ui-for-net-maui-components).
+Whenever you purchase a new Telerik UI for .NET MAUI license or renew an existing one, always [download a new license key](#manual-license-key-installation). The new license key includes information about all previous license purchases. This process is referred to as a license key update. Once you have the new license key, use it to [activate the Telerik UI for .NET MAUI](#automatic-license-key-installation).
 
 ## See Also
 
