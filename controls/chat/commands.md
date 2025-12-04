@@ -17,7 +17,7 @@ The Telerik UI for .NET MAUI Chat allows you to attach commands that will be exe
 * `PickPhotoCommand` (`ICommand`)&mdash;Defines the command that opens the Microsoft.Maui.Media.MediaPicker for attaching photos for upload.
 * `TakePhotoCommand` (`ICommand`)&mdash;Defines the command that opens the camera for attaching a photo.
 
->tip You need to grand permissions to access the device camera and device external storage. For more details, review the [Microsoft Media Picker](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-10.0&tabs=android) article.
+>tip When working with attachments, you need to grant permissions to access the device camera and device external storage. For more details, review the [Microsoft Media Picker](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-10.0&tabs=android) article.
 
 ## Commands Related to Attachments
 
