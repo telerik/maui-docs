@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: .NET MAUI AutoComplete Documentation - Filtering
+meta_title: .NET MAUI AutoComplete Documentation - Filtering
 description: Learn how to apply filtering and what are the custom filtering options in the Telerik UI for .NET MAUI AutoComplete control. 
 position: 7
 slug: autocomplete-filtering
@@ -9,6 +9,8 @@ slug: autocomplete-filtering
 # .NET MAUI AutoComplete Filtering 
 
 The Telerik .NET MAUI AutoComplete control filters the source by the entered text. By using the `CompletionMode` (enum of type `Telerik.Maui.Controls.AutoCompleteCompletionMode`) property you can specify how the `ItemsSource` will be filtered when the user types in the input area. The `StartsWith` filters the items that start with the text typed in the input area and the `Contains`&mdash;filters the items that contain the text typed in the input area.
+
+## Custom Filtering
 
 The control allows users to define custom filtering logic through the following property:
 

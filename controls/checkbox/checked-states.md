@@ -54,6 +54,13 @@ public class ViewModel : NotifyPropertyChangedBase
 
 ## Events
 
+* `IsCheckedChanging`&mdash;Raised when the `RadCheckBox.IsChecked` property is about to be changed. The `IsCheckedChanging` event handler receives two parameters:
+    * The `Sender` which is of type `Telerik.Maui.Controls.RadCheckBox`.
+    * and `IsCheckedChangingEventArgs`. The `IsCheckedChangingEventArgs` provides the following properties:
+        * `OldValue`(`bool?`)&mdash;Gets the current checked state value before the change.
+        * `NewValue`(`bool?`)&mdash;Gets the new checked state value that will be applied if the event is not canceled.
+        * `Cancel`(`bool`)&mdash;If `true`, the change of the `IsChecked` property is canceled.
+
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
     * The `Sender` which is of type `Telerik.Maui.Controls.RadCheckBox`.
     * and `IsCheckedChangedEventArgs`. The `IsCheckedChangedEventArgs` provides the following properties:
