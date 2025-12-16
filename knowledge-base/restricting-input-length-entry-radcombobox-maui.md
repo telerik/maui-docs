@@ -5,7 +5,7 @@ type: how-to
 page_title: Restricting Input Length in Entry and RadComboBox for UI for .NET MAUI
 meta_title: Restricting Input Length in Entry and RadComboBox for UI for .NET MAUI
 slug: restricting-input-length-entry-radcombobox-maui
-tags: datagrid, ui for .net maui, entry, combobox, maxlength, textchanged
+tags: radentry, radcombobox, input-validation, ui for .net maui, entry, combobox, maxlength, textchanged
 res_type: kb
 ---
 
