@@ -86,6 +86,18 @@ The `SortIndicator` appears once the `RadDataGridColumnHeader` is sorted (tapped
 * `SortIndicatorAscendingText`&mdash;Defines the text of the sort indicator when the sorting is ascending.
 * `SortIndicatorDescendingText`&mdash;Defines the text of the sort indicator when the sorting is descending.
 * `SortIndicatorHorizontalOptions`&mdash;Defines the horizontal options of the sort indicator.
+* `Font Options`(`SortIndicatorFontFamily`, `SortIndicatorFontSize`, `SortIndicatorFontAttributes`)&mdash;Define the font options to the sort indicator text. 
+
+```xaml
+<Style TargetType="telerik:DataGridColumnHeaderAppearance">
+    <Setter Property="SortIndicatorFontFamily" Value="TelerikFont" />
+    <Setter Property="SortIndicatorFontSize" Value="18" />
+    <Setter Property="SortIndicatorFontAttributes" Value="Bold" />
+    <Setter Property="SortIndicatorColor" Value="#FF6347" />
+    <Setter Property="SortIndicatorAscendingText" Value="&#xe865;" />
+    <Setter Property="SortIndicatorDescendingText" Value="&#xe864;" />
+</Style>
+```
 
 ### Universal Indicator Styling
 

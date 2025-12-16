@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: .NET MAUI AutoComplete Documentation - Filtering
+meta_title: .NET MAUI AutoComplete Documentation - Filtering
 description: Learn how to apply filtering and what are the custom filtering options in the Telerik UI for .NET MAUI AutoComplete control. 
 position: 7
 slug: autocomplete-filtering
@@ -9,6 +9,30 @@ slug: autocomplete-filtering
 # .NET MAUI AutoComplete Filtering 
 
 The Telerik .NET MAUI AutoComplete control filters the source by the entered text. By using the `CompletionMode` (enum of type `Telerik.Maui.Controls.AutoCompleteCompletionMode`) property you can specify how the `ItemsSource` will be filtered when the user types in the input area. The `StartsWith` filters the items that start with the text typed in the input area and the `Contains`&mdash;filters the items that contain the text typed in the input area.
+
+The filtered items are stored in the `FilteredItems` collection, which can be accessed through the following property:
+
+* `FilteredItems` (`IEnumerable`)&mdash;Allows you to get the collection containing the search results of the AutoComplete. The property can be used in scenarios where the search results are visualized at a different place or inside another container.
+
+When filtering is performed and there are matching items, the items are displayed in the `SuggestionView`. By default, the first item in the `SuggestionView` is highlighted. To modify this behavior, you can use the following property:
+
+* `HighlightItemFunc` (`Func<IEnumerable<object>, string, object>`)&mdash;Specifies the function used to specify the highlighted item in the drop-down after filtering is performed. The function receives the filtered collection of items and the current search text as parameters and returns the item from the filtered collection that should be highlighted.
+
+**Example: Removing the highlighted item**
+
+```C#
+var autoComplete = new RadAutoComplete();
+autoComplete.HighlightItemFunc = (filteredItems, searchText) => null;
+```
+
+**Example: Setting the highlighted item to the last item from the SuggestionView**
+
+```C#
+var autoComplete = new RadAutoComplete();
+autoComplete.HighlightItemFunc = (filteredItems, searchText) => filteredItems.LastOrDefault();
+```
+
+## Custom Filtering
 
 The control allows users to define custom filtering logic through the following property:
 
@@ -26,9 +50,6 @@ The function returns true when the item is added into RadAutoComplete `FilteredI
 
 >The RadAutoComplete `TextSearchPath` property is required in custom filtering scenarios.
 
-## FilteredItems collection
-
-* `FilteredItems` bindable property allows you to access the collection containing the search results of the AutoComplete. The property can be used in scenarios where the search results are visualized at a different place or inside another container.
 
 ## Example
 
