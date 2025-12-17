@@ -20,6 +20,7 @@ Telerik UI for .NET MAUI CheckBox is a control, which enables users to make a ch
 * [Checked states]({% slug checkbox-checked-states %})&mdash;The CheckBox delivers options for setting its state to checked and unchecked, and provides an additional indeterminate state which indicates the control is neither checked nor unchecked.
 * [Size]({% slug checkbox-configuration%}#size)&mdash;You can set the width and height of the CheckBox by adjusting only a single CheckBox property.
 * [Disable the animation]({%slug checkbox-configuration%}#remove-the-animation)&mdash;The CheckBox provides an option for turning off the animation when the CheckBox state changes. 
+* [Events]({%slug checkbox-checked-states%}#events)&mdash;The CheckBox exposes events that allow you to track when the `IsChecked` state is changing or has changed.
 * [Flexible styling API]({% slug checkbox-styling %})&mdash;The CheckBox exposes a set of styling properties for customizing its visual appearance and enables you to set its background, border, and symbol color, as well as customize its layout, including the borders and the check mark.
 
 ## Next Steps

@@ -61,6 +61,14 @@ By default the search is triggered as soon as the user types into the input fiel
 
 <snippet id='autocomplete-searchthreshold'/>
 
+## Highlight Item Behavior
+
+When filtering is performed and there are matching items, the items are displayed in the `SuggestionView`. 
+
+By default, the first item in the `SuggestionView` is highlighted. To modify this behavior use the `HighlightItemFunc` (`Func<IEnumerable<object>, string, object>`) property. The function receives the filtered collection of items and the current search text as parameters and returns the item from the filtered collection that should be highlighted.
+
+@[template](/_contentTemplates/controls/autocomplete.md#highlighted-behavior)
+
 ## SuggestionView Visibility
 
 * `ShowSuggestionView` (`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
