@@ -3,7 +3,7 @@ title: Toolbox Extension for VS
 page_title: Telerik Toolbox VS Extension for .NET MAUI on Windows
 description: Learn more about the Telerik Toolbox extension for .NET MAUI on Windows and how to use the toolbox with the Telerik UI for .NET MAUI library.
 slug: toolbox-support
-position: 3
+position: 4
 previous_url: /installation/windows/toolbox-support
 ---
 
@@ -20,7 +20,6 @@ To use the Toolbox, install the Telerik UI for .NET MAUI Visual Studio Extension
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
 * [The Telerik UI for .NET MAUI automated installer]({% slug automated-installer %})
-
 
 ## Adding Controls with the Toolbox
 

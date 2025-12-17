@@ -3,7 +3,7 @@ title: Creating New Projects
 page_title: Creating New Project - Visual Studio Integration
 description: Learn how to create a new Telerik UI for .NET MAUI project with the supported Visual Studio templates.
 slug: vs-integration-new-project
-position: 2
+position: 1
 previous_url: /installation/windows/vs-template
 ---
 
