@@ -16,12 +16,12 @@ The following image shows the anatomy of the Chat.
 
 ## Displayed Elements
 
-- `Author`&mdash;Represents the current user who sends messages using the Chat UI. This instance determines the alignment of the messages—incoming messages are placed on the left, outgoing messages—on the right.
-- `Items`&mdash;Contains all the chat items included in the conversation, such text messages, picker items, and so on. For more details on the available Chat items, see the [Chat Items]({%slug chat-items-overview %}) topic.
-- `Message`&mdash;Defines the current message typed into the input field.
-- `Send Button`&mdash;Defines the button used to send messages.
-- `Picker`&mdash;Defines the Chat Picker that is shown either as overlay over the messages’ view or inline as part of the conversation and could display different pickers to provide the end user with a selection of choices. See the [Chat Picker topic]({% slug chat-picker-overview %}) for more details.
-- `Typing Indicator`&mdash;Defines the indicator which is shown when one of the chat authors is typing.
+- `Avatar`&mdash;Represents the user or bot profile picture.
+- `Items`&mdash;Contains all the chat items included in the conversation, such as text messages, picker items, and more. (Markers near both message bubbles.)
+- `Send Button`&mdash;Button used to send messages. (Marker on the paper-plane icon.)
+- `More Button`&mdash;Button used to open additional options, such as attaching files or images. (Marker on the plus icon.)
+- `Input Field`&mdash;Area where users type their messages. (Marker outlining the input container.)
+- `SpeechToTextButton`&mdash;Button used to convert speech to text. (Marker on the microphone icon.)
 
 ## See Also
 
