@@ -11,7 +11,7 @@ res_type: kb
 
 ## Environment
 
-Version| Control | Author |
+| Version | Control | Author |
 | ---- | ---- |  ---- |
 | 12.0.0 | Telerik UI for .NET MAUI TreeView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
