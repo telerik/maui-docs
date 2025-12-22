@@ -17,7 +17,17 @@ The DataPager splits the data into separate pages with a certain size. To config
 
 * `PageSize` (`int`)&mdash;Specifies the number of the items per page. The default value is `10`.
 
-* `PageSizes` (`IList<int>`)&mdash;Specifies a list with page sizes the end user can choose from. The default values in the list are `5, 10, 20, 50`.
+* `PageSizes` (`IList<int>`)&mdash;Specifies a list with page sizes the end user can choose from. The default values in the list are `5, 10, 20, 50`. The property implements a type converter of type `Telerik.Maui.Controls.IntCollectionConverter`. The converter allows you to set the property by providing a comma-separated list of integers.
+
+Here is an example of setting the `PageSizes` property:
+
+```XAML
+<telerik:RadDataPager x:Name="dataPager"
+                      Source="{Binding Data}"
+                      PageSize="8"
+                      PageSizes="6, 7, 8"
+                      PageIndex="5"/>
+```
 
 ## Current Page
 

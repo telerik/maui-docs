@@ -33,6 +33,10 @@ The following example demonstrates how to set date ranges in the DatePicker.
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
  ```
 
+ This is the result:
+
+ ![DatePicker Date Range](images/datepicker-date-range.png)
+
 ## See Also
 
 - [Formatting the Telerik UI for .NET MAUI DatePicker]({%slug datepicker-formatting%})
