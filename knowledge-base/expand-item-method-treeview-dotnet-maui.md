@@ -161,7 +161,7 @@ To expand specific nodes in the TreeView control, follow these steps:
 
 
 
-4. Define the TreeView in XAML with the button for calling the `Expand()` method::
+4. Define the TreeView in XAML with the button for calling the `Expand()` method:
 
     ```xml
     <Grid RowDefinitions="Auto, *" RowSpacing="5">
