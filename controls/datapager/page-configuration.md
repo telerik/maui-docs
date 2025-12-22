@@ -18,7 +18,7 @@ The DataPager splits the data into separate pages with a certain size. To config
 * `PageSize` (`int`)&mdash;Specifies the number of the items per page. The default value is `10`.
 
 * `PageSizes` (`IList<int>`)&mdash;Specifies a list with page sizes the end user can choose from.
-The default values in the list are `5, 10, 20, 50`. The property implements a type converter of type `Telerik.Maui.Controls.IntCollectionConverter`. The converter allows you to set the property by providing a comma-separated list of integers.
+The default values in the list are `5, 10, 20, 50`. The `PageSizes` property uses the `Telerik.Maui.Controls.IntCollectionConverter` type converter. This converter allows you to set the property by providing a comma-separated list of integers.
 
 Here is an example of setting the `PageSizes` property:
 
