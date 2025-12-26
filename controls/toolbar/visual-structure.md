@@ -21,7 +21,7 @@ The following image shows the anatomy of the Toolbar.
 | `ButtonToolbarItem` | Represents a button in the Toolbar control. |
 | `ToggleButtonToolbarItem` | Represents a toggle button in the Toolbar control. |
 | `RadioButtonToolbarItem` | Represents a radio button in the Toolbar control. |
-| `EntryToolbarItem` | Represents an entry for an input field. |
+| `EntryToolbarItem` | Represents an input field for text entry in the Toolbar control. |
 | `OptionsButtonToolbarItem` | Represents a button displaying an options panel in the RadToolbar control. |
 | `SliderToolbarItem` | Represents a slider in the Toolbar control. |
 | `ListPickerButtonToolbarItem` | Represents a list picker button in the Toolbar control. |
