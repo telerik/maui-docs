@@ -16,8 +16,18 @@ The following image shows the anatomy of the DataForm.
 
 ## Displayed Elements
 
-* `Header`&mdash;Headers for the editors and for the groups.
-* `Editor`&mdash;The editor in the DataForm control.
-* `Groups`&mdash;The editors can be organized by groups.
-* `Error Message for editor`&mdash;Error message when the input does not match the required data.
-* `Summer error message`&mdash;The common error message displayed for all editors where the input data do not match the requirements.
+* `Group Header Text`&mdash;The text displayed above a group of editors.
+* `Editor Header Text`&mdash;The text displayed above the editor input area.
+* `Input Field`&mdash;The area where the user enters or selects a value for the editor.
+* `Editor`&mdash;The editor in the DataForm control. The editor contains editor header text, the input area, and an optional error validation message.
+* `Custom Group Header`&mdash;The header displayed above a group that is customized.
+* `Error Message`&mdash;An error message displayed when the input does not match the required data.
+* Different types of `Editors`&mdash;The DataForm supports various types of editors, such as `DatePicker`, `ComboBox`, `TimeSpanPicker`, `CheckBox`, and more.
+
+
+## See Also
+
+* [Getting Started]({%slug dataform-getting-started%})
+* [Commands]({%slug dataform-commands%})
+* [Validation]({%slug dataform-validation%})
+* [Custom Editors]({%slug dataform-custom-editors%})
