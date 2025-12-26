@@ -18,7 +18,7 @@ The following image shows the anatomy of the DataForm.
 
 * `Group Header Text`&mdash;The text displayed above a group of editors.
 * `Editor Header Text`&mdash;The text displayed above the editor input area.
-* `Input Field`&mdash;
+* `Input Field`&mdash;The area where the user enters or selects a value for the editor.
 * `Editor`&mdash;The editor in the DataForm control. The editor contains editor header text, the input area, and an optional error validation message.
 * `Custom Group Header`&mdash;The header displayed above a group that is customized.
 * `Error Message`&mdash;An error message displayed when the input does not match the required data.
