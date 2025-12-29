@@ -26,11 +26,12 @@ The images in this article show the anatomy of the TimeSpanPicker and its buildi
 
 ![TimeSpanPicker Popup Visual Structure](images/timespan_picker_structure.png "Visual elements of TimeSpan Picker Popup")
 
-- `Header` and `HeaderLabelText`&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timespanpicker-styling%}) property or customize the popup header by using the [`HeaderTemplate`]({%slug timespanpicker-templates%}#headertemplate) property.
-- `SpinnersHeader`&mdash;The text visualized for the spinner header depending on the values that will be picked. For example, if the `SpinnerFormat` is `g`, the text visualized for the spinner header will be **Days** **Hours** **Minutes** **Seconds**.
-- `Spinner`&mdash;Displays time interval values in a list.
-- `SelectionHighlight`&mdash;Highlights the currently selected time interval when the popup is open.
-- `Footer`&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug timespanpicker-templates%}#footertemplate) property.
+- **Header**&mdash;The popup header element.
+- **Header Text**&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timespanpicker-styling%}) property or customize the popup header by using the [`HeaderTemplate`]({%slug timespanpicker-templates%}#headertemplate) property.
+- **Spinners Header**&mdash;The text visualized for the spinner header depending on the values that will be picked. For example, if the `SpinnerFormat` is `g`, the text visualized for the spinner header will be **Days** **Hours** **Minutes** **Seconds**.
+- **Spinners**&mdash;Displays time interval values in a list.
+- **Selection Highlight**&mdash;Highlights the currently selected time interval when the popup is open.
+- **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug timespanpicker-templates%}#footertemplate) property.
 
 ## See Also
 

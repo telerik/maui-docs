@@ -22,13 +22,10 @@ The images in this article show the anatomy of the TemplatedPicker and its build
 
 ![TemplatedPicker Visual Structure](images/templated_picker_visual_structure.png "Visual elements of TemplatedPicker Popup")
 
-- `SelectedItem`&mdash;The item which is highlighted when the popup of the picker is open.
-
-- `Header`&mdash;The header of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
-
-- `SelectorTemplate`&mdash;Defines the template used for displaying the selector of the picker. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
-
-- `Footer`&mdash;The footer of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- **Header**&mdash;The header of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- **Header Text**&mdash;The text that is visualized in the header of the popup.
+- **Selector Template**&mdash;Defines the template used for displaying the selector of the picker. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
+- **Footer**&mdash;The footer of the popup. For more information, review the [Templates]({%slug templatedpicker-templates%}) article.
 
 ## See Also
 
