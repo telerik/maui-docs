@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI DatePicker Documentation - Visual Structure
-description: Learn what visual elements the Telerik DatePicker for .NET MAUI displays and see the visual structure of the control and its popup.
+description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI DatePicker, and see how these elements build the visual structure of the control.
 position: 2
 previous_url: /controls/datepicker/datepicker-visual-structure
 slug: datepicker-visual-structure
@@ -9,29 +9,27 @@ slug: datepicker-visual-structure
 
 # .NET MAUI DatePicker Visual Structure
 
-The DatePicker uses a set of visual elements when rendered.
+The visual structure of the .NET MAUI DatePicker represents the anatomy of the UI control. Being familiar with the visual elements of the DatePicker allows you to quickly find the information required to configure them.
 
-## Displayed Elements
-
-- `Placeholder`&mdash;The text that is visualized before picking a date. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug datepicker-templates%}#placeholdertemplate) property.
-- `DisplayStringFormat`&mdash;The text that is visualized after a date/time is picked.
-- `Header`&mdash;The text that is displayed in the popup header. You can set it to a text input through the [`HeaderLabelText`]({%slug datepicker-styling%}#styling) property, or customize it by using the [`HeaderTemplate`]({%slug datepicker-templates%}#headertemplate) property.
-- `SpinnerHeader`&mdash;The text that is visualized for the spinner header depending on the values that are picked. For example, if the `SpinnerFormatString` is `d`, the visualized text for the spinner header will be `Month` `Day` `Year`.
-- `Spinner`&mdash;Displays items in a list.
-- `SelectionHighlight`&mdash;Highlights the current selected date when the popup is open.
-- `Footer`&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug datepicker-templates%}#footertemplate) property.
+The images in this article show the anatomy of the DatePicker and its building blocks.
 
 ## DatePicker Structure
 
-The following image shows the structure of the DatePicker before and after a date/time is selected.
-
 ![DatePicker Visual Structure](images/date_picker_placeholder_display.png "Visual elements of DatePicker control")
+
+- **Placeholder**&mdash;The text that is visualized before picking a date. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug datepicker-templates%}#placeholdertemplate) property.
+- **Display String Format**&mdash;The text that is visualized after a date is picked.
 
 ## Popup Structure
 
-The following images show the visual structure of the DatePicker popup.
-
 ![DatePicker Popup Visual Structure](images/date_picker_structure.png "Visual elements of DatePicker Popup")
+
+- **Header**&mdash;The text that is displayed in the popup header. You can set it to a text input through the [`HeaderLabelText`]({%slug datepicker-styling%}#styling) property, or customize it by using the [`HeaderTemplate`]({%slug datepicker-templates%}#headertemplate) property.
+- **Header Text**&mdash;The text that is visualized in the header of the popup.
+- **Spinners Header**&mdash;The text that is visualized for each spinner header. For example, if the `SpinnerFormatString` is `d`, the visualized text for the spinner header will be `Month` `Day` `Year`.
+- **Spinners**&mdash;Displays items in a list. For `d` format, three spinners will be visualized: one for month, one for day, and one for year.
+- **SelectionHighlight**&mdash;Highlights the current selected date when the popup is open.
+- **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug datepicker-templates%}#footertemplate) property.
 
 ## See Also
 

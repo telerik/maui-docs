@@ -30,4 +30,3 @@ The following image shows the anatomy of the DataForm.
 * [Getting Started]({%slug dataform-getting-started%})
 * [Commands]({%slug dataform-commands%})
 * [Validation]({%slug dataform-validation%})
-* [Custom Editors]({%slug dataform-custom-editors%})
