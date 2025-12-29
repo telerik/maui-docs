@@ -12,7 +12,7 @@ The visual structure of the .NET MAUI DateTimePicker represents the anatomy of t
 
 The images in this article show the anatomy of the DateTimePicker and its building blocks.
 
-## DatePicker Structure
+## DateTimePicker Structure
 
 ![DateTimePicker Visual Structure](images/datetime_picker_placeholder_display.png "Visual elements of DateTimePicker control")
 
