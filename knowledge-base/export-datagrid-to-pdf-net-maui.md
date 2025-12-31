@@ -84,8 +84,24 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 	private const string ProgressColumnHeader = "PROGRESS";
 	private const int CoursesCount = 30;
 	private const string FileName = "my_courses.pdf";
-	private static readonly string[] CourseNames = new string[] { "Data Science", "Machine Learning", "Big Data", "Product Management", "Business Foundations", "Python for Everybody", "Finance", "Manufacturing Engineering",
-																	  "Architecture", "Art and Design", "Biological Sciences", "Chemical Engineering", "Chemistry", "Marketing", "Robotics"};
+	private static readonly string[] CourseNames = new string[]
+	{
+		"Data Science",
+		"Machine Learning",
+		"Big Data",
+		"Product Management",
+		"Business Foundations",
+		"Python for Everybody",
+		"Finance",
+		"Manufacturing Engineering",
+		"Architecture",
+		"Art and Design",
+		"Biological Sciences",
+		"Chemical Engineering",
+		"Chemistry",
+		"Marketing",
+		"Robotics"
+	};
 	private static readonly string[] Universities = new string[] { "John Hopkins University", "University of Washington", "University of California", "University of Pennsylvania", "University of Michigan", "Harvard University", "Stanford University" };
 
 	private ObservableCollection<CourseViewModel> courses;
