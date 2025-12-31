@@ -189,7 +189,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 
 		List<string> columns = new List<string> { TitleColumnHeader, UniversityColumnHeader, ProgressColumnHeader };
 
-		foreach (string	column in columns)
+		foreach (string column in columns)
 		{
 			TableCell headerCell = headerRow.Cells.AddTableCell();
 			headerCell.Background = headerColor;
