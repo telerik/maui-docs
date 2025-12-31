@@ -109,9 +109,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 
 	public ExportToPdfViewModel()
 	{
-		this.random = DependencyService
-			.Get<ITestingService>()
-			.Random(30);
+		this.random = new Random(30);
 		this.GeneratePdfCommand = new Command(this.GeneratePdf);
 		this.Courses = new ObservableCollection<CourseViewModel>(this.GenerateCourses());
 	}
