@@ -162,9 +162,6 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 	{
 		RadFixedDocument document = this.CreateDocument();
 
-		string localFolder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-		string filePath = Path.Combine(localFolder, FileName);
-
 		using (MemoryStream stream = new MemoryStream())
 		{
 			PdfFormatProvider pdfProvider = new PdfFormatProvider();
