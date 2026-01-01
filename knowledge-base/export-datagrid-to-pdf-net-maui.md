@@ -174,7 +174,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 	{
 		RadFixedDocument document = new RadFixedDocument();
 		RadFixedPage page = document.Pages.AddPage();
-		page.Size = new Size(ExampleDocumentSizes.PageWidth, ExampleDocumentSizes.PageHeight);
+		page.Size = new Size(688, 918);
 
 		this.pageEditor = new FixedContentEditor(page);
 		this.DrawTableContent(this.pageEditor);
@@ -239,7 +239,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 			block.InsertText(string.Format("{0:P0}", (double)course.Progress / 100));
 		}
 
-		table.Draw(editor, new Rect(40, 40, ExampleDocumentSizes.PageWidth - 80, double.PositiveInfinity));
+		table.Draw(editor, new Rect(40, 40, 608, double.PositiveInfinity));
 	}
 }
  ```
