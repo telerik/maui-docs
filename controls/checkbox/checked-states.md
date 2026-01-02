@@ -2,7 +2,7 @@
 title: Check States
 page_title: .NET MAUI CheckBox Documentation - Check States
 description: Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI.
-position: 2
+position: 3
 slug: checkbox-checked-states
 ---
 

@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI Expander Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI Expander control and add the control to your .NET MAUI project.
-position: 1
+position: 2
 slug: expander-getting-started
 ---
 

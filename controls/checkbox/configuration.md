@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI CheckBox Documentation - Configuration
 description: Learn how to configure the Telerik UI for .NET MAUI CheckBox width, stroke, and animation.
-position: 2
+position: 3
 previous_url: /controls/checkbox/checkbox-size
 slug: checkbox-configuration
 ---
