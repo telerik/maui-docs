@@ -186,7 +186,7 @@ meta:
     title: NavigationView
   controls/maskedentry/mask-types:
     title: Mask Types
-    position: 3
+    position: 4
   controls/maskedentry:
     title: MaskedEntry
   controls/map/styling:
@@ -230,7 +230,7 @@ meta:
     title: GridSplitter
   controls/gauge/gauge-types:
     title: Gauge Types
-    position: 2
+    position: 3
   controls/gauge:
     title: Gauge
   controls/expander:

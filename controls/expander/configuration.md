@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI Expander Documentation - Configuration
 description: Learn more about how to configure the Telerik UI for .NET MAUI Expander control.
-position: 2
+position: 3
 slug: expander-configuration
 ---
 

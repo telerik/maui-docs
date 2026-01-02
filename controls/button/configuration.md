@@ -2,7 +2,7 @@
 title: Content Configuration
 page_title: .NET MAUI Button Documentation - Content Configuration
 description: Learn how to align the content of the Telerik Button for .NET MAUI horizontally or vertically and apply image as a background.
-position: 2
+position: 3
 tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
 previous_url: /controls/button/content-alignment
 slug: button-configuration
