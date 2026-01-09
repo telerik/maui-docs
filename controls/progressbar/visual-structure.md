@@ -16,10 +16,12 @@ The following image shows the anatomy of the ProgressBar.
 
 ## Displayed Elements
 
-* **Main Content**&mdash;
-*
+* **Progress**&mdash;Represents the current progress of a task.
+* **Segments**&mdash;Represent the divided progress of the task into smaller parts.
+* **Value**&mdash;Represents the numeric value showing the progress. It can be formatted using the `StringFormat` property.
+
 ## See Also
 
-* [Getting Started]({%slug sidedrawer-getting-started%})
-* [SideDrawer Configuration]({%slug sidedrawer-features-configuration%})
-* [SideDrawer Commands]({%slug sidedrawer-features-commands%})
+* [Getting Started]({%slug progressbar-getting-started%})
+* [ProgressBar Styling]({%slug progressbar-styling%})
+* [Configure the ProgressBar]({%slug progressbar-configuration%})
