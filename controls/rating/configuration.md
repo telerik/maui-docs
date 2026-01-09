@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI Rating Documentation - Configuration
 description: Learn how to configure the Telerik UI for .NET MAUI Rating control.
-position: 2
+position: 3
 previous_url: /controls/rating/rating-configuration
 slug: rating-configuration
 ---

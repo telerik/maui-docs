@@ -2,7 +2,7 @@
 title: Styling
 meta_title: .NET MAUI Skeleton Documentation - Styling
 description: Learn how to style the Telerik .NET MAUI Skeleton control to match your application's design.
-position: 2
+position: 7
 tags: .net maui, telerik .net maui, ui for .net maui, shimmer, microsoft .net maui
 slug: skeleton-styling
 ---

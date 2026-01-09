@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI ProgressBar Documentation - Configuration
 description: Learn how to define vlaue and segmentm, text formatting, value range and more for the Telerik UI for .NET MAUI ProgressBar control.
-position: 2
+position: 3
 slug: progressbar-configuration
 ---
 

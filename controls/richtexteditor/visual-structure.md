@@ -21,10 +21,8 @@ The following image shows the anatomy of the RichTextEditor.
 
 ## See Also
 
-- [Mask Types]({%slug maskedentry-masked-types%})
-- [Value Format]({%slug maskedentry-value-format%})
-- [Validation]({%slug maskedentry-validation%})
-- [Null Values Support]({%slug maskedentry-value%}#null-value-support})
-- [Prompt Character]({%slug maskedentry-prompt-character%})
-- [Events]({%slug maskedentry-events%})
-- [Globalization]({%slug maskedentry-globalization%})
+* [Getting Started]({%slug richtexteditor-getting-started%})
+* [RichTextEditor Configuration]({%slug richtexteditor-configuration%})
+* [RichTextEditor Commands]({%slug richtexteditor-commands%})
+* [RichTextEditor Events]({%slug richtexteditor-events%})
+* [RichTextEditor Custom Toolbar]({%slug richtexteditor-custom-toolbar%})

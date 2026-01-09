@@ -16,9 +16,9 @@ The following image shows the anatomy of the CheckBox.
 
 ## Displayed Elements
 
-* **Checked**&mdash;The state of the CheckBox when it is selected.
-* **Unchecked**&mdash;The state of the CheckBox when it is not checked.
-* **Indeterminate**&mdash;The state of the CheckBox when it is neither checked nor unchecked.
+* **Checked mark**&mdash;The mark that indicates whether the CheckBox is checked.
+* **Unchecked border**&mdash;When the CheckBox is unchecked, this border is displayed around the Checked mark area.
+* **Indeterminate mark**&mdash;The mark that indicates whether the CheckBox is in an indeterminate state.
 
 ## See Also
 
