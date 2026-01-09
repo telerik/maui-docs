@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI SignaturePad Documentation - Configuration
-description: Learn how to configure the signature's stroke color and tickness, border color and more in the Telerik UI for .NET MAUI SighnaturePad control.
+description: Learn how to configure the signature's stroke color and thickness, border color and more in the Telerik UI for .NET MAUI SignaturePad control.
 position: 3
 tags: sign pad, signature, maui, .net maui, sign, signature pad
 slug: signaturepad-configuration
