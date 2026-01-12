@@ -19,7 +19,7 @@ The following image shows the anatomy of the Calendar.
 - **Header Text**&mdash;The user can click the header label to navigate to the parent view.
 - **Buttons for navigation to previous and next views**&mdash;Buttons that navigate to the previous and next views.
 - **Day Names**&mdash;The names of the days of the week.
-- **Out of scope days**&mdash;The days that don't belong to the current month(for month view).
+- **Out of scope days**&mdash;The days that don't belong to the current month (for month view).
 - **Today date**&mdash;The current date.
 
 ## See Also

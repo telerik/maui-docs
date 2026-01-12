@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: Getting Started with .NET MAUI Skeleton
 description: Get started with the Telerik UI for .NET MAUI Skeleton control and add the control to your .NET MAUI project.
-position: 1
+position: 2
 slug: skeleton-getting-started
 ---
 

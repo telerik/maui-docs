@@ -10,6 +10,10 @@ slug: checkbox-checked-states
 
 The CheckBox enables you to define its state as `Checked`, `Unchecked`, or `Indeterminate`.
 
+The following image shows the states of the CheckBox control:
+
+![CheckBox States](images/checkbox-states.png)
+
 The state is controlled through the `IsChecked`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. `IsChecked` property binding mode is `TwoWay`.
 
 * `Checked` state&mdash;When `IsChecked` is `true`.

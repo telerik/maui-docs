@@ -30,3 +30,12 @@ The images in this article show the anatomy of the DateTimePicker and its buildi
 - **Spinners**&mdash;Displays items in a list. For `d` format, three spinners will be visualized: one for month, one for day, and one for year.
 - **SelectionHighlight**&mdash;Highlights the current selected date and time when the popup is open.
 - **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug datetimepicker-templates%}#footertemplate) property.
+
+## See Also
+
+- [Getting Started]({%slug datetimepicker-getting-started%})
+- [Formatting]({%slug datetimepicker-formatting%})
+- [Date Range]({%slug datetimepicker-date-range%})
+- [Templates]({%slug datetimepicker-templates%})
+- [Selection]({%slug datetimepicker-selection%})
+- [Styling]({%slug datetimepicker-styling%})

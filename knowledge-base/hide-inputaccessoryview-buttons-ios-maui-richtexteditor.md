@@ -66,4 +66,3 @@ public static class MauiProgram
 
 - [UI for .NET MAUI RichTextEditor Documentation](https://www.telerik.com/maui-ui/documentation/controls/richtexteditor/overview)
 - [WebView Control in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/webview)
----

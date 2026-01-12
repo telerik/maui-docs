@@ -18,7 +18,7 @@ The following image shows the anatomy of the SlideView.
 
 - **Navigate to previous view button**&mdash;Represents a button that allows the end user to navigate to the previous item. This changes the currently displayed item.
 - **Navigate to next view button**&mdash;Represents a button that allows the end user to navigate to the next item. This changes the currently displayed item.
-- **Indicators (pips)**&mdash;Emphasizes changes from the current item to another item in a collection of items. Also incorporates buttons to enable the end user navigate between the next or previous items.
+- **Indicators (pips)**&mdash;Emphasizes changes from the current item to another item in a collection of items. Also incorporates buttons to enable the end user to navigate between the next or previous items.
 - **Content**&mdash;Represents the content of the currently displayed item.
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI NumericInput Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI NumericInput and add the control to your .NET MAUI project.
-position: 1
+position: 2
 previous_url: /controls/numericinput/numericinput-getting-started
 slug: numericinput-getting-started
 ---

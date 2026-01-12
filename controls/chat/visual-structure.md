@@ -16,12 +16,12 @@ The following image shows the anatomy of the Chat.
 
 ## Displayed Elements
 
-- `Avatar`&mdash;Represents the user or bot profile picture.
-- `Items`&mdash;Contains all the chat items included in the conversation, such as text messages, picker items, and more. (Markers near both message bubbles.)
-- `Send Button`&mdash;Button used to send messages. (Marker on the paper-plane icon.)
-- `More Button`&mdash;Button used to open additional options, such as attaching files or images. (Marker on the plus icon.)
-- `Input Field`&mdash;Area where users type their messages. (Marker outlining the input container.)
-- `SpeechToTextButton`&mdash;Button used to convert speech to text. (Marker on the microphone icon.)
+- **Avatar**&mdash;Represents the user or bot profile picture.
+- **Items**&mdash;Contains all the chat items included in the conversation, such as text messages, picker items, and more. (Markers near both message bubbles.)
+- **Send Button**&mdash;Button used to send messages. (Marker on the paper-plane icon.)
+- **More Button**&mdash;Button used to open additional options, such as attaching files or images. (Marker on the plus icon.)
+- **Input Field**&mdash;Area where users type their messages. (Marker outlining the input container.)
+- **SpeechToTextButton**&mdash;Button used to convert speech to text. (Marker on the microphone icon.)
 
 ## See Also
 
