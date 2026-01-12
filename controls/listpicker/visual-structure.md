@@ -25,6 +25,14 @@ The images in this article show the anatomy of the ListPicker and its building b
 
 - **Header**&mdash;The text displayed in the popup header. You can set a direct text through the [`HeaderLabelText`]({%slug listpicker-templates%}) property or customize the popup header by using the [`HeaderTemplate`]({%slug listpicker-templates%}#header-template) property.
 - **Header Text**&mdash;The text that is visualized in the header of the popup.
-- **Item Template**&mdash;Defines the template used for displaying the list of items. For more information review [Templates]({%slug listpicker-templates%}) article.
+- **Item Template**&mdash;Defines the template used for displaying the list of items. For more information review the [Templates]({%slug listpicker-templates%}) article.
 - **Selected ItemTemplate**&mdash;Specifies the template used for visualizing the selected item from the list. For more information review the [Templates]({%slug listpicker-templates%}) article.
 - **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the `FooterTemplate` property. For more information, review the [Templates]({%slug listpicker-templates%}) article.
+
+## See Also
+
+- [Getting Started]({%slug listpicker-getting-started%})
+- [Looping]({%slug listpicker-looping%})
+- [Templates]({%slug listpicker-templates%})
+- [Styling]({%slug listpicker-styling%})
+- [Visual Structure]({%slug listpicker-visual-structure%})

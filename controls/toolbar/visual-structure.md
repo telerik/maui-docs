@@ -16,16 +16,22 @@ The following image shows the anatomy of the Toolbar.
 
 ## Displayed Elements
 
-| Toolbar Item | Description |
-| ------------ | ------- |
-| `ButtonToolbarItem` | Represents a button in the Toolbar control. |
-| `ToggleButtonToolbarItem` | Represents a toggle button in the Toolbar control. |
-| `RadioButtonToolbarItem` | Represents a radio button in the Toolbar control. |
-| `EntryToolbarItem` | Represents an input field for text entry in the Toolbar control. |
-| `OptionsButtonToolbarItem` | Represents a button displaying an options panel in the RadToolbar control. |
-| `SliderToolbarItem` | Represents a slider in the Toolbar control. |
-| `ListPickerButtonToolbarItem` | Represents a list picker button in the Toolbar control. |
-| `SeparatorToolbarItem` | Represents a separator (which is a UI element) in the Toolbar control. |
-| `GroupToolbarItem` | Organize toolbar items in a group. |
+
+- `ButtonToolbarItem`&mdash;Represents a button in the Toolbar control.
+- `ToggleButtonToolbarItem`&mdash;Represents a toggle button in the Toolbar control.
+- `RadioButtonToolbarItem`&mdash;Represents a radio button in the Toolbar control.
+- `EntryToolbarItem`&mdash;Represents an input field for text entry in the Toolbar control.
+- `OptionsButtonToolbarItem`&mdash;Represents a button displaying an options panel in the RadToolbar control.
+- `SliderToolbarItem`&mdash;Represents a slider in the Toolbar control.
+- `ListPickerButtonToolbarItem`&mdash;Represents a list picker button in the Toolbar control.
+- `SeparatorToolbarItem`&mdash;Represents a separator (which is a UI element) in the Toolbar control.
+- `GroupToolbarItem`&mdash;Organize toolbar items in a group.
 
 >important All built-in toolbar items are described in the [Toolbar Items]({%slug toolbar-items%}) section.
+
+## See Also
+
+- [Getting Started]({%slug toolbar-getting-started%})
+- [Configuration]({%slug toolbar-configuration%})
+- [ToolbarItems]({%slug toolbar-items%})
+- [Commands]({%slug toolbar-commands%})

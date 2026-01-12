@@ -26,6 +26,8 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
+At this time, there is no built-in method to export the DataGrid to PDF. However, you can create a PDF document manually by utilizing the [RadPdfProcessing library](https://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/overview) to format and populate the data from the DataGrid.
+
 To export Telerik UI for .NET MAUI DataGrid to PDF, follow these steps:
 
 1. Define the DataGrid and a button in XAML to trigger the export command:

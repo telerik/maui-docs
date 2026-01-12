@@ -1,6 +1,6 @@
 ---
 title: SideDrawer MainContent Size Incorrect After Orientation Change
-description: Learn how to resolve the SideDrawer MainContent size issue after changing device orientation in UI for .NET MAUI.
+description: Learn how to resolve the SideDrawer MainContent size issue after changing the device orientation in UI for .NET MAUI.
 type: troubleshooting
 page_title: Resolving SideDrawer MainContent Height Issue After Device Rotation
 meta_title: Fixing SideDrawer MainContent Size Calculation on Orientation Change
@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-When using [SideDrawer](https://www.telerik.com/maui-ui/documentation/controls/sidedrawer/overview) with a bottom margin, the `MainContent` size calculation becomes incorrect after changing device orientation. This occurs when the following steps are performed:
+When using [SideDrawer](https://www.telerik.com/maui-ui/documentation/controls/sidedrawer/overview) with a bottom margin, the `MainContent` size calculation becomes incorrect after changing the device orientation. This occurs when the following steps are performed:
 
 1. Open RadSideDrawer in landscape orientation.
 2. Close RadSideDrawer.
