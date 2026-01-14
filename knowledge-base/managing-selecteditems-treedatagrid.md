@@ -13,7 +13,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | ---- | ---- | 
-| 12.1.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 12.1.0 | Telerik UI for .NET MAUI TreeDataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
