@@ -41,54 +41,55 @@ using Telerik.Maui.Controls.DataGrid;
 using Windows.UI.Core;
 #endif
 
-public class TimingDataGridKeydownCommand : DataGridCommand
+public class ShiftEnterDataGridKeydownCommand : DataGridCommand
 {
-    public TimingDataGridKeydownCommand()
-    {
-        Id = DataGridCommandId.KeyDown;
-    }
+	public ShiftEnterDataGridKeydownCommand()
+	{
+		Id = DataGridCommandId.KeyDown;
+	}
 
-    public override bool CanExecute(object parameter)
-    {
-        return true;
-    }
+	public override bool CanExecute(object parameter)
+	{
+		return true;
+	}
+	public override void Execute(object parameter)
+	{
+		if (parameter is KeyboardInfo keyboardInfo)
+		{
+			if (keyboardInfo.key == Telerik.Maui.RadKeyboardKey.Down)
+			{
+				var newKey = new KeyboardInfo(Telerik.Maui.RadKeyboardKey.Enter, () => { });
+				this.Owner.CommandService.ExecuteDefaultCommand(Id, newKey);
 
-    public override void Execute(object parameter)
-    {
-        if (parameter is KeyboardInfo keyboardInfo)
-        {
-            if (keyboardInfo.key == Telerik.Maui.RadKeyboardKey.Enter)
-            {
-                var handleKeyDownOverrideMethod = typeof(RadDataGrid).GetMethod(
-                    "HandleKeyDownOverride",
-                    BindingFlags.Instance | BindingFlags.NonPublic);
+			}
+			else if (keyboardInfo.key == Telerik.Maui.RadKeyboardKey.Enter)
+			{
+				if (IsShiftKeyDown())
+				{
+					// add your logic here
+					return;
+				}
+			}
 
-                var newKey = new KeyboardInfo(Telerik.Maui.RadKeyboardKey.Enter, () => { });
+			else
+			{
+				this.Owner.CommandService.ExecuteDefaultCommand(Id, parameter);
+			}
+		}
+	}
 
-                if (IsShiftKeyDown())
-                {
-                    handleKeyDownOverrideMethod?.Invoke(this.Owner, new object[] { newKey, false, true });
-                    return;
-                }
-
-                handleKeyDownOverrideMethod?.Invoke(this.Owner, new object[] { newKey, false, true });
-            }
-            else
-            {
-                this.Owner.CommandService.ExecuteDefaultCommand(Id, parameter);
-            }
-        }
-    }
-
-    internal static bool IsShiftKeyDown()
-    {
+	internal static bool IsShiftKeyDown(VisualElement visualElement = null)
+	{
 #if WINDOWS
-        CoreVirtualKeyStates controlStates = Microsoft.UI.Input.InputKeyboardSource.GetKeyStateForCurrentThread(global::Windows.System.VirtualKey.Shift);
-        return controlStates.HasFlag(CoreVirtualKeyStates.Down);
+		CoreVirtualKeyStates controlStates = Microsoft.UI.Input.InputKeyboardSource.GetKeyStateForCurrentThread(global::Windows.System.VirtualKey.Shift);
+		bool isShiftKeyDown = controlStates.HasFlag(CoreVirtualKeyStates.Down);
+
+		return isShiftKeyDown;
+
 #else
-        return false;
+		return false;
 #endif
-    }
+	}
 }
 ```
 
