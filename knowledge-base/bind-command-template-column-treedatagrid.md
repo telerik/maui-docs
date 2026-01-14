@@ -106,10 +106,10 @@ public class OrdersViewModel : NotifyPropertyChangedBase
             }
         });
 
-        this.OpenTreeDataGridMenuCommand = new Command(OnOpenTreeMenuMenu);
+        this.OpenTreeDataGridMenuCommand = new Command(OnOpenTreeMenu);
     }
 
-    private void OnOpenTreeMenuMenu(object obj)
+    private void OnOpenTreeMenu(object obj)
     {
         var item = obj as Data;
         if (item != null)
