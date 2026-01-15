@@ -29,7 +29,7 @@ This knowledge base article also answers the following questions:
 To achieve this functionality, follow these steps:
 
 
-**1.** Define the TreeDataGrid with custom columns and include a template column for the button. Use the following XAML code:
+**1.** Define the TreeDataGrid with custom columns and include a template column for the button. The button's `Command` property is bound to the `OpenTreeDataGridMenuCommand` in the `ViewModel`, and the `CommandParameter` property is bound to the row data, enabling the retrieval of the entire row in the command execution:
 
 ```xaml
 <telerik:RadTreeDataGrid x:Name="treeDataGrid"
@@ -55,9 +55,6 @@ To achieve this functionality, follow these steps:
     </telerik:RadTreeDataGrid.Columns>
 </telerik:RadTreeDataGrid>
 ```
-
-- The `Command` property binds to the `OpenTreeDataGridMenuCommand` in the view model.
-- The `CommandParameter` property binds to the row data, enabling the retrieval of the entire row in the command execution.
 
 **2.** Create a data model representing the items in the TreeDataGrid:
 
