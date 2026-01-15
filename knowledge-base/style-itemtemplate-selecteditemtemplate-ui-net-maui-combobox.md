@@ -181,7 +181,7 @@ public class Person
 ```
 
 
-**2.** Use an `IValueConverter` to format the displayed values for different data sources across ComboBoxes.
+**3.** Use an `IValueConverter` to format the displayed values for different data sources across ComboBoxes.
 
 ```C#
 public class ObjectToValueConverter : IValueConverter
