@@ -31,7 +31,7 @@ To achieve consistent styling for multiple ComboBox controls:
 2. Define the `ItemTemplate` and `SelectedItemTemplate` within the styles. 
 3. If the data sources differ across ComboBoxes, apply an `IValueConverter` to format the displayed values.
 
-### Steps
+## Sample Implementation
 
 **1.** Define a resource dictionary containing implicit or explicit styles for the ComboBox, including the `ItemTemplate` and `SelectedItemTemplate`:
     - Use the `DataTemplate` to define the appearance of items and selected items.
