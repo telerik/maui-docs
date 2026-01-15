@@ -186,7 +186,7 @@ meta:
     title: NavigationView
   controls/maskedentry/mask-types:
     title: Mask Types
-    position: 3
+    position: 4
   controls/maskedentry:
     title: MaskedEntry
   controls/map/styling:
@@ -230,7 +230,7 @@ meta:
     title: GridSplitter
   controls/gauge/gauge-types:
     title: Gauge Types
-    position: 2
+    position: 3
   controls/gauge:
     title: Gauge
   controls/expander:
@@ -336,6 +336,12 @@ meta:
     title: CollectionView
   controls/checkbox:
     title: CheckBox
+  controls/chat/templates:
+    title: Templates
+    position: 16
+  controls/chat/styling:
+    title: Styling
+    position: 10
   controls/chat/pickers/card-picker:
     title: Card Picker
     position: 5
@@ -514,6 +520,10 @@ redirects:
 
 - from: ^/controls/listview/grouping/grouping$
   to: /controls/listview/grouping/overview
+  type: Permanent
+
+- from: ^/ai/copilot-extension$
+  to: /ai/mcp-server
   type: Permanent
 
 - from: ^/controls/pdfprocessing/overview$

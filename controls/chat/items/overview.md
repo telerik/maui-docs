@@ -13,7 +13,7 @@ The `RadChat` control works with a collection of `ChatItem` objects. The control
 This section covers the specific details of the different Chat Items provided by `RadChat`:
 
 * [Message]({%slug chat-items-messages %})&mdash;The basic message unit in RadChat; apart from the text of the message itself, each `TextMessage` instance contains information about the Author of the message as well as any additional data.
-* [Attachments]({%slug chat-attachments%})&mdash;The options to attach images, files, and other media to messages in the .NET MAUI Chat.
+* Attachments&mdash;The options to attach images, files, and other media to messages in the .NET MAUI Chat.
 * [Time Break]({%slug chat-items-timebreak %})&mdash;Used to encapsulate messages in a conversation by a certain condition such as read/unread, time intervals, or any other condition. It visualizes as a dividing line across the messages board with a text message attached to it.
 * [PickerItem]({%slug chat-picker-overview %})&mdash;A special `ChatItem` type which contains a `RadChatPicker` control used for providing a selection to the end user. Depending on the information that is presented and the choices the user can make, the pickers can be one of the following types:
 	* `DatePicker`&mdash;Displays a Calendar to choose a date.

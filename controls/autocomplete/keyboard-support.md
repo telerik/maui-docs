@@ -20,6 +20,7 @@ The following table lists the actions and keyboard combinations that are availab
 | `Up Arrow` / `Down Arrow` | When the suggestion view is opened, pressing `Up/Down Arrows` changes the highlighted item in the suggestion view list. |
 | `PageUp` / `PageDown` | When the suggestion view is opened, pressing `PageUp/PageDown` changes the highlighted item. `PageUp` navigates to the first item in the visible area, `PageDown` navigates to the last item in the visible area. |
 | `Backspace` (WinUI) | When there are tokens in the input area, pressing the `Backspace` key deletes the token. |
+| `Command + Delete` (MacCatalyst) | When there are tokens in the input area, pressing the `Command + Delete` keys delete the token. |
 
 The first item in the suggestion view is highlighted by default (set as `CuttentItem`) when the view gets opened.
 

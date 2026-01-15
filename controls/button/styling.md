@@ -2,7 +2,7 @@
 title: Styling
 page_title: .NET MAUI Button Documentation - Styling
 description: Learn how to set the border color and border thickness of the Telerik Button for .NET MAUI.
-position: 4
+position: 5
 tags: .net maui, telerik .net maui, ui for .net maui, button, microsoft .net maui
 slug: button-styling
 ---

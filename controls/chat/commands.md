@@ -17,11 +17,11 @@ The Telerik UI for .NET MAUI Chat allows you to attach commands that will be exe
 * `PickPhotoCommand` (`ICommand`)&mdash;Defines the command that opens the Microsoft.Maui.Media.MediaPicker for attaching photos for upload.
 * `TakePhotoCommand` (`ICommand`)&mdash;Defines the command that opens the camera for attaching a photo.
 
->tip You need to grand permissions to access the device camera and device external storage.
+>tip When working with attachments, you need to grant permissions to access the device camera and device external storage. For more details, review the [Microsoft Media Picker](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-10.0&tabs=android) article.
 
 ## Commands Related to Attachments
 
-* `AttachFilesCommand` (`ICommand`)&mdash;Defines the command that is executed when the files the end-user picked need to be attached/uploaded.
+* `AttachFilesCommand` (`ICommand`)&mdash;Defines the command that is executed when the files the end-user picked need to be attached/uploaded. The command need to be implemented in order to attach files to the messages.
 * `DownloadAttachmentsCommand` (`ICommand`)&mdash;Defines the command that is executed when the end user initiates download of attachments for a `Telerik.Maui.Controls.Chat.ChatAttachmentsMessage`. The command parameter of this command is of type `Telerik.Maui.Controls.Chat.ChatDownloadAttachmentsCommandContext.`
 * `ShareAttachmentsCommand` (`ICommand`)&mdash;Defines the command that triggers the share attachments operation.
 * `RemoveAttachedFileCommand` (`ICommand`)&mdash;Defines the command that should remove an attached file from the `Telerik.Maui.Controls.RadChat.AttachedFilesSource` collection in the view model.
@@ -83,6 +83,8 @@ Here is an example on how to define a command in the ViewModel and bind the `Sen
 10. The demo uses a custom data file server for uploading, downloading and deleting attachments:
 
 <snippet id='chat-data-server' />
+
+![.NET MAUI Chat Attachments Example](images/chat-attach-photos.png)
 
 ## See Also
 

@@ -2,7 +2,7 @@
 title: ExpanderHeader control
 page_title: .NET MAUI Expander Documentation - Header control
 description: Learn more about the expander header which is used to show or hide the expandable container.
-position: 3
+position: 5
 slug: expander-header
 ---
 

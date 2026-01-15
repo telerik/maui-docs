@@ -2,7 +2,7 @@
 title: Setting the Mask
 page_title: .NET MAUI MaskedEntry Documentation - Setting the Mask
 description: Learn how to restrict user input by using the Mask property of the Telerik UI for .NET MAUI MaskedEntry.
-position: 3
+position: 4
 slug: maskedentry-mask
 ---
 

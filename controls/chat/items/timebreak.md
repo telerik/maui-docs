@@ -2,7 +2,7 @@
 title: Time Break
 page_title: .NET MAUI Conversational UI Documentation - Chat Time Break
 description: Learn more about TimeBreak item of the RadChart control
-position: 2
+position: 3
 slug: chat-items-timebreak
 ---
 
@@ -17,6 +17,8 @@ The `TimeBreak` item of the `RadChat` control encapsulates a group of messages a
 The following example shows how to create a sample `TimeBreak` item:
 
 <snippet id='chat-chatitems-timebreak' />
+
+![.NET MAUI Chat Time Break](../images/chat-time-break.png)
 
 ## See Also
 

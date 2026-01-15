@@ -9,11 +9,16 @@ slug: timespanpicker-visual-structure
 
 # .NET MAUI TimeSpanPicker Visual Structure
 
-This article describes all visual elements that are used in the TimeSpanPicker for .NET MAUI.
+The visual structure of the .NET MAUI TimeSpanPicker represents the anatomy of the UI control. Being familiar with the visual elements of the TimeSpanPicker allows you to quickly find the information required to configure them.
 
-## Before and After Time Interval Selection
+The images in this article show the anatomy of the TimeSpanPicker and its building blocks.
+
+## TimeSpanPicker Structure
 
 ![TimeSpanPicker Visual Structure](images/timespan_picker_placeholder_display.png "Visual elements of TimeSpan Picker control")
+
+- **Placeholder**&mdash;The text visualized before the user picks a date/time. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug timespanpicker-templates%}#placeholdertemplate) property.
+- **Display String Format**&mdash;The text visualized after a date/time is picked.
 
 ## Popup Visual Structure
 
@@ -21,21 +26,12 @@ This article describes all visual elements that are used in the TimeSpanPicker f
 
 ![TimeSpanPicker Popup Visual Structure](images/timespan_picker_structure.png "Visual elements of TimeSpan Picker Popup")
 
-## Legend
-
-- `Placeholder`&mdash;The text visualized before the user picks a date/time. You can customize the placeholder through the [`PlaceholderTemplate`]({%slug timespanpicker-templates%}#placeholdertemplate) property.
-
-- `DisplayStringFormat`&mdash;The text visualized after a date/time is picked.
-
-- `Header` and `HeaderLabelText`&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timespanpicker-styling%}) property or customize the popup header by using the [`HeaderTemplate`]({%slug timespanpicker-templates%}#headertemplate) property.
-
-- `SpinnersHeader`&mdash;The text visualized for the spinner header depending on the values that will be picked. For example, if the `SpinnerFormat` is `g`, the text visualized for the spinner header will be **Days** **Hours** **Minutes** **Seconds**.
-
-- `Spinner`&mdash;Displays time interval values in a list.
-
-- `SelectionHighlight`&mdash;Highlights the currently selected time interval when the popup is open.
-
-- `Footer`&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug timespanpicker-templates%}#footertemplate) property.
+- **Header**&mdash;The popup header element.
+- **Header Text**&mdash;The text displayed in the popup header. You can set it to a direct text input through the [`HeaderLabelText`]({%slug timespanpicker-styling%}) property or customize the popup header by using the [`HeaderTemplate`]({%slug timespanpicker-templates%}#headertemplate) property.
+- **Spinners Header**&mdash;The text visualized for the spinner header depending on the values that will be picked. For example, if the `SpinnerFormat` is `g`, the text visualized for the spinner header will be **Days** **Hours** **Minutes** **Seconds**.
+- **Spinners**&mdash;Displays time interval values in a list.
+- **Selection Highlight**&mdash;Highlights the currently selected time interval when the popup is open.
+- **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug timespanpicker-templates%}#footertemplate) property.
 
 ## See Also
 

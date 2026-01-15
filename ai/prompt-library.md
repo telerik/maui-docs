@@ -3,7 +3,7 @@ title: Prompt Library
 page_title: Telerik UI for .NET MAUI Prompt Library
 description: Explore the extensive collection of prompts that you can use with the Telerik UI for MAUI AI Coding Assistant.
 slug: ai-prompt-library
-position: 2
+position: 3
 ---
 
 # Telerik UI for MAUI Prompt Library
@@ -26,10 +26,6 @@ All prompts in this library target the [MCP Server]({%slug ai-mcp-server%}) via 
 4. Run the prompt against the [MCP Server]({%slug ai-mcp-server%}).
 
 >warning Always double-check the code and solutions proposed by any AI-powered tool before applying them to your project.
-
->caption Use with the Copilot Extension
-
-To run the provided prompts in the [Telerik UI for MAUI GitHub Copilot Extension]({%slug ai-copilot-extension%}) (without the MCP Server installed), modify the prompts to use the `@telerikmaui` handle instead.
 
 ## General Prompts
 

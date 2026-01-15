@@ -2,13 +2,17 @@
 title: Check States
 page_title: .NET MAUI CheckBox Documentation - Check States
 description: Define the checked, unchecked, or indeterminate state of the Telerik CheckBox for .NET MAUI.
-position: 2
+position: 3
 slug: checkbox-checked-states
 ---
 
 # Check States for .NET MAUI CheckBox
 
 The CheckBox enables you to define its state as `Checked`, `Unchecked`, or `Indeterminate`.
+
+The following image shows the states of the CheckBox control:
+
+![CheckBox States](images/checkbox-states.png)
 
 The state is controlled through the `IsChecked`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. `IsChecked` property binding mode is `TwoWay`.
 
@@ -53,6 +57,13 @@ public class ViewModel : NotifyPropertyChangedBase
 ```
 
 ## Events
+
+* `IsCheckedChanging`&mdash;Raised when the `RadCheckBox.IsChecked` property is about to be changed. The `IsCheckedChanging` event handler receives two parameters:
+    * The `Sender` which is of type `Telerik.Maui.Controls.RadCheckBox`.
+    * The `IsCheckedChangingEventArgs`, which provides the following properties:
+        * `OldValue`(`bool?`)&mdash;Gets the current checked state value before the change.
+        * `NewValue`(`bool?`)&mdash;Gets the new checked state value that will be applied if the event is not canceled.
+        * `Cancel`(`bool`)&mdash;If `true`, the change of the `IsChecked` property is canceled.
 
 * `IsCheckedChanged`&mdash;Occurs when the `RadCheckBox.IsChecked` property is changed. The `IsCheckedChanged` event handler receives two parameters:
     * The `Sender` which is of type `Telerik.Maui.Controls.RadCheckBox`.

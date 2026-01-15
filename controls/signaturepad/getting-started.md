@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI SignaturePad Documentation - Getting Started
 description: Review how to get started and add the Telerik UI for .NET MAUI SignaturePad control in your application.
-position: 1
+position: 2
 tags: sing pad, signature, maui, .net maui, sign, signature pad
 slug: signaturepad-getting-started
 ---

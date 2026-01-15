@@ -35,7 +35,7 @@ The following example demonstrates how to use the `RadChatPicker` inline as a pa
 	
 When the user makes a selection, you can add a new `TextMessage` with the `SelectedDate` and remove the `PickerItem` from the conversation.
 
-![.NET MAUI Chat DatePicker Select Date](images/chat-datepicker%20.gif)
+![.NET MAUI Chat DatePicker Select Date](images/chat-datepicker.gif)
 
 ### Inside the Chat - Not Part of the Conversation
 
@@ -51,7 +51,7 @@ When the user selects a date, the `Context` is reset to `null` and a new `TextMe
 
 In the example above, `RadChatPicker` is used for immediate selection by setting its `IsOkButtonVisible` and `IsCancelButtonVisible` to false. You can also show **OK** and **Cancel** buttons and use the provided events/commands to handle the selection.
 
-![.NET MAUI Chat Picker Inside](images/chat-picker-inside-chat.gif)
+![.NET MAUI Chat Picker Inside](images/chat-picker-inside-chat.png)
 	
 ## See Also
 

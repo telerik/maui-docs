@@ -63,10 +63,14 @@ public static class MauiProgram
 
 ## Visualize Sample Data
 
-The DataGrid provides UI virtualization, so it requires its visual parent to provide vertical or horizontal space for the control to fit into. The following scenarios will measure the DataGrid with infinite width and height constraints and the virtualization will not work:
+The DataGrid uses UI virtualization and requires its parent container to provide a defined vertical or horizontal space. Virtualization will not work if the DataGrid is measured with infinite width or height. 
 
-* Positioning the DataGrid inside a `StackLayout` which is wrapped in a ScrollView.
-* Positioning the DataGrid inside a ScrollView.
+Avoid placing the DataGrid in the following layouts, as this will prevent virtualization from functioning:
+
+* Do not place the DataGrid inside a `StackLayout` that is wrapped in a `ScrollView`.
+* Do not place the DataGrid directly inside a `ScrollView`.
+
+Place the DataGrid control inside a `Grid` layout with a row height set to `*` (star) or a specific value.
 
 Now that you have added the control to your view, you need to make sure that is properly loaded with the required data.
 

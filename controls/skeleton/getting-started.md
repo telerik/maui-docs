@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: Getting Started with .NET MAUI Skeleton
 description: Get started with the Telerik UI for .NET MAUI Skeleton control and add the control to your .NET MAUI project.
-position: 1
+position: 2
 slug: skeleton-getting-started
 ---
 
@@ -28,7 +28,7 @@ Before adding the Skeleton, you need to:
 
 1. When your .NET MAUI application is set up, you are ready to add a Skeleton control to your page:
 
-<snippet id='skeleton-getting-staretd-xaml' />
+<snippet id='skeleton-getting-started-xaml' />
 <snippet id='skeleton-getting-started-csharp' />
 
 2. Add the `telerik` namespace:

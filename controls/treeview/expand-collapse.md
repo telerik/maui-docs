@@ -28,6 +28,14 @@ The available commands are:
 
 ![.NET MAUI TreeView Expand and Collapse](images/treeview-expand-collapse.gif)
 
+## Example: Expanding an Item Using the Expand Method
+
+Review the following knowledge base article: [Using the Expand Method of TreeView in UI for .NET MAUI]({%slug expand-item-method-treeview-dotnet-maui%}). The example demonstrates how to use the `Expand` method of the TreeView control in UI for .NET MAUI to expand specific nodes programmatically.
+
+## Example: Expanding and Collapsing Item Using the Commands
+
+Review the following knowledge base article: [Using Expand and Collapse Commands in TreeView for .NET MAUI]({%slug expand-collapse-item-treeview-dotnet-maui%}). The example demonstrates how to expand and collapse specific items in the TreeView control for .NET MAUI using commands. The commands take a path as a parameter, entered in an Entry control, and convert it into an item path using a converter.
+
 ## Example: Expanding and Collapsing All TreeView Items
 
 **1.** Define the TreeView control:
@@ -50,9 +58,9 @@ The available commands are:
 
 <snippet id='treeview-getting-started-viewmodel' />
 
-Here is how the TreeView Expand/Collapse command execution looks:
+Here is how the TreeView Expand/Collapse All command execution looks:
 
-![.NET MAUI TreeView Check and Uncheck](images/treeview-check-uncheck-item.gif)
+![.NET MAUI TreeView Expand and Collapse](images/treeview-expand-collapse.gif)
 
 > For a runnable example demonstrating the TreeView Expand and Collapse feature, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **TreeView > Expand and Collapse or TreeView > Commands**.
 

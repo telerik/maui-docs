@@ -2,7 +2,7 @@
 title: Command
 page_title: .NET MAUI Button Documentation - Command
 description: Learn about the .NET MAUI Button Command that is executed when the button is clicked.
-position: 3
+position: 4
 slug: button-command
 ---
 
