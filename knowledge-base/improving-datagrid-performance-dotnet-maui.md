@@ -27,6 +27,10 @@ This knowledge base article also answers the following questions:
 ## Solution
 
 To optimize the performance of the DataGrid in .NET MAUI, follow these steps:
+* [Avoid Nesting in ScrollView or StackLayout](#avoid-nesting-in-scrollview-or-stacklayout)
+* [Minimize Use of Templates in Columns](#minimize-use-of-templates-in-columns)
+* [Implement Load-on-Demand or Paging](#implement-load-on-demand-or-paging)
+* [Optimize Image Handling](#optimize-image-handling)
 
 ### Avoid Nesting in ScrollView or StackLayout
 
