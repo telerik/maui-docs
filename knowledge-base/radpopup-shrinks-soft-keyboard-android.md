@@ -27,6 +27,9 @@ When the soft keyboard opens, the available visible space on the screen decrease
 
 To prevent the `RadPopup` from shrinking when the keyboard opens, apply one of the following solutions:
 
+* [Avoid Large Popup Sizes](#avoid-large-popup-sizes)
+* [Use Overlay Instead of RadPopup](#use-overlay-instead-of-radpopup)
+
 ### Avoid Large Popup Sizes
 
 Avoid setting the popup content size larger than the visible area. This ensures the popup fits within the screen even when the keyboard opens.
