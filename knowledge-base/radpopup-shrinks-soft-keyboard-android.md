@@ -1,5 +1,5 @@
 ---
-title: Popup Shrinks When Soft Keyboard Opens on mobile
+title: Popup Shrinks When Soft Keyboard Opens on Mobile
 description: Address the issue of Popup shrinking when the soft keyboard opens on mobile and provide solutions.
 type: troubleshooting
 page_title: RadPopup Behavior with Soft Keyboard on Android and iOS
