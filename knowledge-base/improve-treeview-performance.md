@@ -1,5 +1,5 @@
 ---
-title: Improving CollectionView Performance in .NET MAUI
+title: Improving TreeView Performance in .NET MAUI
 description: Tips and tricks for optimizing the performance of the TreeView when dealing with large datasets and ideal layout practices.
 type: how-to
 page_title: Enhancing Performance for .NET MAUI TreeView with Large Datasets
