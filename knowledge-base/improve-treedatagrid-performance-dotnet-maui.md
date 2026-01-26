@@ -42,7 +42,7 @@ Avoid wrapping Telerik MAUI TreeView, DataGrid, CollectionView, RichTextEditor, 
  
 Using [template columns](https://www.telerik.com/maui-ui/documentation/controls/datagrid/columns/column-types/template-column) or [cell content/edit templates](https://www.telerik.com/maui-ui/documentation/controls/treedatagrid/columns/cell-templates) can degrade performance. Rendering additional UI elements in templates forces the DataGrid to recreate and render elements inside these templates.
 
- Use built-in column types wherever possible. If custom rendering is required, use the [cell renderer approach](https://www.telerik.com/maui-ui/documentation/controls/treedatagrid/render-mode). This reduces the overhead caused by template re-rendering.
+Use built-in column types wherever possible. If custom rendering is required, use the [cell renderer approach](https://www.telerik.com/maui-ui/documentation/controls/treedatagrid/render-mode). This reduces the overhead caused by template re-rendering.
 
 ### Implement Load-on-Demand or Paging
 
