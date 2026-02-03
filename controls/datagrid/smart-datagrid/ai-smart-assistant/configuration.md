@@ -60,7 +60,7 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 **3.** Add sample data model:
 
-<snippet id='datagrid-prompt-model' />
+<snippet id='datagrid-prompt-configuration-model' />
 
 **4.** Define the data for the DataGrid `ItemsSource`:
 
