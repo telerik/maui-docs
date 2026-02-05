@@ -14,16 +14,9 @@ The Telerik UI for .NET MAUI Entry control exposes a number of events and comman
 
 The Entry supports the following events:
 
-* `TextChanged`&mdash;Occurs when the text is changed. The `TextChanged` event handler receives a `TextChangedEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
-	* `NewTextValue(string)`&mdash;Gets the new text value.
-	* `OldTextValue(string)`&mdash;Gets the old text value.
+@[template](/_contentTemplates/controls/inputview.md#inputview-text-selection)
 
-* `TextChanging`&mdash;Occurs when the text in the Entry starts to change, but before the `Text` property is updated. The `TextChanging` event handler receives a `TextChangingEventArgs` argument containing data related to this event. The `TextChangedEventArgs` provides the following properties:
-    * `NewText` (`string`)&mdash;Gets the new text that is about to be entered into the entry.
-    * `OldText` (`string`)&mdash;Gets the old text that is entered into the entry.
-    * `Cancel` (`bool`)&mdash;Gets or sets a value that indicates whether to cancel the text changes.
-
-* `Completed`&mdash;Occurs when the user finalizes the text in an entry with the return key.
+The `Completed` event is raised when pressing the `Return` key on the keyboard.
 
 The following example demonstrates the Entry definition in XAML with the `TextChanged` and `Completed` event handlers.
 

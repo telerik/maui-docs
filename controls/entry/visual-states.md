@@ -13,21 +13,7 @@ This article describes the visual states provided by the Entry control. You can 
 
 The Entry provides the following `CommonStates` visual states:
 
-| Visual State | Description |
-| ------------- | --------------- |
-| `Normal` | Applies when the Entry is in normal state. |
-| `Focused` | Applies when the Entry is focused. |
-| `MouseOver` | (Desktop-only) Applies when the mouse pointer is over the Entry. |
-| `Invalid` | Applies when there is a validation and the text entered inside the Entry is not valid (the `IsValueValid` property is set to `false`). |
-| `InvalidFocused` | Applies when the Entry is focused, there is validation, and the text entered inside the Entry is not valid (the `IsValueValid` property is set to `false`). |
-| `InvalidMouseOver` | (Desktop-only) Applies when the mouse is over the Entry and there is a validation and the text entered inside the Entry is not valid (the `IsValueValid` property is set to `false`). |
-| `ReadOnly` | Applies when the Entry is not editable (the `IsReadOnly` property is set to `false`). |
-| `ReadOnlyFocused` | Applies when the Entry is focused and not editable (the `IsReadOnly` property is set to `false`). |
-| `ReadOnlyMouseOver` | (Desktop-only) Applies when the mouse pointer is over the Entry, and the Entry is not editable (the `IsReadOnly` property is set to `false`). |
-| `ReadOnlyInvalid` | Applies when the Entry is not editable (the `IsReadOnly` property is set to `false`), and not valid (the `IsValueValid` property is set to `false`). |
-| `ReadOnlyInvalidFocused` | Applies when the Entry is focused, not editable (the `IsReadOnly` property is set to `false`) and not valid (the `IsValueValid` property is set to `false`). |
-| `ReadOnlyInvalidMouseOver` | (Desktop-only) Applies when the mouse pointer is over the Entry, and the Entry is not editable (the `IsReadOnly` property is set to `false`), and not valid (the `IsValueValid` property is set to `false`). |
-| `Disabled` | Applies when the Entry is disabled. |
+@[template](/_contentTemplates/controls/inputview.md#inputview-visual-states)
 
 ## Using the Visual States
 

@@ -13,12 +13,7 @@ The Entry provides styling options for setting the appearance of its border and 
 
 Style the Entry using the following properties:
 
-* `CornerRadius` (`Microsoft.Maui.CornerRadius`)
-* `BackgroundColor` (`Microsoft.Maui.Graphics.Color`)
-* `TextColor` (`Microsoft.Maui.Graphics.Color`)
-* `PlaceholderColor` (`Microsoft.Maui.Graphics.Color`)
-* `BorderBrush` (`Microsoft.Maui.Controls.Brush`)
-* `BorderThickness` (`Microsoft.Maui.Thickness`)
+@[template](/_contentTemplates/controls/inputview.md#inputview-style)
 
 In addition to the available styling properties, you can apply specific [Visual States]({%slug entry-visual-states%}) to the Entry control.
 
@@ -26,21 +21,19 @@ In addition to the available styling properties, you can apply specific [Visual 
 
 ## Clear Button Style
 
-Style the Clear button which is displayed by default when entering text in the control using the following properties:
+@[template](/_contentTemplates/controls/inputview.md#inputview-style-clearbutton)
 
-* `ClearButtonVisibility` (`enum` of type `Microsoft.Maui.ClearButtonVisibility`)&mdash;Defines a value indicating whether the clear button (the button that clears the text when pressed) will be visible. The options are: `Never` and `WhileEditing` (default).
-* `ClearButtonStyle` (`Style` with target type `RadTemplatedButton`)&mdash;Specifies the style of the clear button. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article for more details on the available visual states.
+The following example demonstrates how to style the clear button of the Entry:
 
->tip For a runnable example demonstrating the Entry Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
+<snippet id='entry-styling-clear-button' />
+
+>tip For a runnable example demonstrating the Entry Clear button styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
 
 ## Font Options
 
 The Entry control has the following properties for defining the font options:
 
-* `FontAttributes` (`enum` of type `Microsoft.Maui.Controls.FontAttributes`)
-* `FontFamily` (`string`)
-* `FontSize` (`double`)
-* `FontAutoScalingEnabled` (`bool`)
+@[template](/_contentTemplates/controls/inputview.md#inputview-styling-font)
 
 The following example demonstrates how to apply the font options to the Entry.
 
@@ -54,11 +47,21 @@ The following example demonstrates how to apply the font options to the Entry.
 </VerticalStackLayout>
 ```
 
+## Validation Error View Style
+
+The Entry control provides the following properties for styling the validation error view:
+
+@[template](/_contentTemplates/controls/inputview.md#inputview-validation-style)
+
+Here is an example of how to style the validation error label:
+
+<snippet id='entry-styling-validation-error-label' />
+
+And here is an example of how to style the validation error image:
+
+<snippet id='entry-styling-validation-error-image' />
+
+>tip For a runnable example demonstrating the Entry's Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Entry > Styling** category.
+
 ## See Also
 
-- [Apply Implicit Style]({%slug style-combobox-autocomplete-entry-implicit-explicit%})
-- [Text Appearance]({% slug entry-text-appearance%})
-- [Text Selection]({%slug entry-text-selection %})
-- [Events]({% slug entry-events%})
-- [Styling Entry in Telerik MAUI After Upgrading to Version 8.0.0 or Later]({%slug style-entry-visual-state-border-telerik-maui%})
-- [Comparison Between Entry and TextInput]({%slug entry-vs-textinput%})
