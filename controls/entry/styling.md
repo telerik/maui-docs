@@ -65,3 +65,6 @@ And here is an example of how to style the validation error image:
 
 ## See Also
 
+- [Text Appearance]({% slug entry-text-appearance%})
+- [Events]({% slug entry-events%})
+- [Visual Structure]({% slug entry-visual-structure%})
