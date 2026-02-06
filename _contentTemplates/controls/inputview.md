@@ -1,5 +1,5 @@
 #inputview-text-selection
-* `CursorPosition` (`int`)&mdash;Specifies the starting position of the cursor. The value must be greater than or equal to `0` and less than or equal to the length of text.
+* `CursorPosition` (`int`)&mdash;Specifies the starting position of the cursor. The value must be greater than or equal to `0` and less than or equal to the length of the text.
 
 * `SelectionLength` (`int`)&mdash;Specifies the length of the text selection. It starts at the `CursorPosition`.
 
