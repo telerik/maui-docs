@@ -26,6 +26,12 @@ An example of `EmptyContentTemplate`:
 
 <snippet id='datagrid-promptcontrolled-empty-template' />
 
+>important The DataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
+>You have to configure your own AI service for the AI Smart Assistant to work in your application.
+>How to do that is described in the [Getting Started with the AI Smart Assistant]({%slug datagrid-ai-prompt-overview%}#getting-started-with-the-ai-smart-assistant) article.
+
+>tip For a runnable example demonstrating a custom templates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > AI Smart Assistant** category.
+
 ## See also
 
 - [Prompt Controlled Overview]({%slug datagrid-ai-prompt-overview %})

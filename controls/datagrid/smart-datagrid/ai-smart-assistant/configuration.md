@@ -96,6 +96,12 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 ![.NET MAUI DataGrid Configuration AI Assistant](images/datagrid-configuration.png)
 
+>important The DataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
+>You have to configure your own AI service for the AI Smart Assistant to work in your application.
+>How to do that is described in the [Getting Started with the AI Smart Assistant]({%slug datagrid-ai-prompt-overview%}#getting-started-with-the-ai-smart-assistant) article.
+
+>tip For a runnable example demonstrating the configuration options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > AI Smart Assistant** category.
+
 ## See also
 
 - [Prompt Controlled Overview]({%slug datagrid-ai-prompt-overview %})
