@@ -1,6 +1,6 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI Entry Documentation - Entry Visual Structure
+page_title: .NET MAUI Editor Documentation - Editor Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI Editor control.
 position: 0
 slug: editor-visual-structure
@@ -17,21 +17,21 @@ The images in this article show the anatomy of the Editor and its building block
 ![Telerik UI for .NET MAUI Editor Visual Structure](images/editor-focused-text.png "Visual elements of Editor control")
 
 - `Placeholder`&mdash;The text that guides the end-user on what can be entered/searched in the input.
-- [`RadTextInput`]({%slug editor-textinput%})&mdash;The control used for the text input.
+- [`RadMultilineTextInput`]({%slug editor-multiline-textinput%})&mdash;The control used for the multiline text input.
 
 ## Input Structure
 
 ![Telerik UI for .NET MAUI Editor Input Visual Structure](images/editor-valid-text.png "Visual elements of Editor control")
 
-- `Text`&mdash;The text entered in the control's input filed.
-- [`RadTextInput`]({%slug editor-textinput%})&mdash;The control used for the text input.
+- `Text`&mdash;The text entered in the control's input field.
+- [`RadMultilineTextInput`]({%slug editor-multiline-textinput%})&mdash;The control used for the multiline text input.
 - `Clear Button`&mdash;Clears the selection in the control for both multiple and single selection scenarios.
 
 ## Validation Structure
 
 ![Telerik UI for .NET MAUI Editor Validation Visual Structure](images/winui-editor.png "Visual elements of Editor control")
 
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - `Clear Button`&mdash;Clears the selection in the control for both multiple and single selection scenarios.
 - `Style when IsValueValid is False`&mdash;Specifies the style applied when the value entered in the input field is invalid.
 - `Invalid Image`&mdash;An image is displayed when the input value is invalid.

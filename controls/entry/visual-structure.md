@@ -23,7 +23,7 @@ The images in this article show the anatomy of the Entry and its building blocks
 
 ![Telerik UI for .NET MAUI Entry Input Visual Structure](images/entry-valid-text.png "Visual elements of Entry control")
 
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - [`RadTextInput`]({%slug entry-textinput%})&mdash;The control used for the text input.
 - `Clear Button`&mdash;Clears the selection in the control for both multiple and single selection scenarios.
 
@@ -31,7 +31,7 @@ The images in this article show the anatomy of the Entry and its building blocks
 
 ![Telerik UI for .NET MAUI Entry Validation Visual Structure](images/winui-entry.png "Visual elements of Entry control")
 
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - `Clear Button`&mdash;Clears the selection in the control for both multiple and single selection scenarios.
-- `Style when IsValueValis is False`&mdash;Specifies the style applied when the value entered in the input field is invalid.
+- `Style when IsValueValid is False`&mdash;Specifies the style applied when the value entered in the input field is invalid.
 - `Invalid Image`&mdash;An image is displayed when the input value is invalid.

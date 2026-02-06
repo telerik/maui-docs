@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI Editor control exposes a number of events and comma
 
 The Editor supports the following events:
 
-@[template](/_contentTemplates/controls/inputview.md#inputview-text-selection)
+@[template](/_contentTemplates/controls/inputview.md#inputview-events)
 
 The `Completed` event is raised when the Editor control losses focus.
 

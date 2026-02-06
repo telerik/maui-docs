@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI Entry control exposes a number of events and comman
 
 The Entry supports the following events:
 
-@[template](/_contentTemplates/controls/inputview.md#inputview-text-selection)
+@[template](/_contentTemplates/controls/inputview.md#inputview-events)
 
 The `Completed` event is raised when pressing the `Return` key on the keyboard.
 

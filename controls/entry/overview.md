@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI Entry is a text input control that accepts string i
 
 ## Key Features of the .NET MAUI Entry
 
-* [Placeholder]({%slug entry-text-appearance%}#adding-watermarks)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
+* [Placeholder]({%slug entry-text-appearance%}#adding-placeholder)&mdash;The Entry allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
 
 * [Password functionality]({%slug entry-text-appearance%}#password-functionality%})&mdash;You can hide the characters that users type for privacy and security reasons.
 

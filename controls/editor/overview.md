@@ -17,7 +17,7 @@ It is designed to handle large amounts of text input efficiently and provides a 
 
 ## Key Features of the .NET MAUI Editor
 
-* [Placeholder]({%slug editor-text-appearance%}#adding-watermarks)&mdash;The Editor allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
+* [Placeholder]({%slug editor-text-appearance%}#adding-placeholder)&mdash;The Editor allows you to add a hint text as a placeholder to guide the users what is the expected input. In addition you can style the Placeholder.
 
 * [Keyboard support]({%slug editor-text-appearance%}#setting-the-keyboard-type)&mdash;You can add a virtual keyboard and specify its type, for example, Numeric.
 
