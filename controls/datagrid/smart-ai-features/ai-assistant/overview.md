@@ -180,10 +180,6 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Mic
 
 1. Set the DataGrid's `IsAIEnabled` property to `true`. When setting to `true`, the AI Smart Assistant panel will be enabled, allowing users to input prompts.
 
-## Visual Structure of the AI Smart Assistant
-
-![AI Smart Assistant Visual Structure](images/datagrid-ai-prompt-structure.png)
-
 ## Example Prompts
 
 Here are some example prompts that users can use to interact with the DataGrid:

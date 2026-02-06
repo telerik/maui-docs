@@ -22,9 +22,17 @@ An example of `AIViewTemplate`:
 
 <snippet id='datagrid-promptcontrolled-aiview-template' />
 
+This is how the custom `AIViewTemplate` looks like when applied:
+
+![DataGrid AI Smart Assistant Custom View Templates](images/datagrid-ai-smart-assistant-view-templates.png)
+
 An example of `EmptyContentTemplate`:
 
 <snippet id='datagrid-promptcontrolled-empty-template' />
+
+This is how the custom `EmptyContentTemplate` looks like when applied:
+
+![DataGrid AI Smart Assistant Custom Empty Templates](images/datagrid-ai-smart-assistant-empty-templates.png)
 
 >important The DataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
 >You have to configure your own AI service for the AI Smart Assistant to work in your application.

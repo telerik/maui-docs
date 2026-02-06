@@ -25,6 +25,10 @@ Below you can find a list of the available configuration options applied through
 * `SuggestedPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of suggested prompts.
 * `RecentPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of recent prompts.
 
+This is how the default AI Smart Assistant  view looks like when there are no suggestions and recent prompts available and the `IsEmptyContentVisible` property is set to `True`:
+
+![MAUI DataGrid empty Prompts View](images/datagrid-empty-view.png)
+
 ## Events
 
 The DataGrid provides the following events related to AI Smart Assistant functionality:
@@ -94,7 +98,7 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 <snippet id='datagrid-prompt-load-sample-data-call' />
 
-![.NET MAUI DataGrid Configuration AI Assistant](images/datagrid-configuration.png)
+![.NET MAUI DataGrid Configuration AI Assistant](images/datagrid-configuration.gif)
 
 >important The DataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
 >You have to configure your own AI service for the AI Smart Assistant to work in your application.
