@@ -83,7 +83,12 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
 
 > Using a license file path is recommended unless you're sharing settings across different systems. Remember to [update your license key]({%slug set-up-your-license%}#updating-your-license-key) when necessary.
 
-## Visual Studio
+## MCP Clients Configuration
+
+Below you can find installation tips and MCP server configuration for some popular MCP clients.
+
+<TabStrip>
+<TabStripTab title="Visual Studio">
 
 > * Early Visual Studio 17.14 versions require the Copilot Chat window to be open when a solution loads for the MCP server to work properly.
 > * For complete setup instructions, see [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers).
@@ -135,7 +140,8 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
 2. Restart Visual Studio.
 3. Enable the Telerik MAUI MCP server in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
-## Visual Studio Code
+</TabStripTab>
+<TabStripTab title="Visual Studio Code">
 
 > * Visual Studio Code 1.102.1 or later is required to use the Telerik MAUI MCP Server.
 > * For complete setup instructions, see [Use MCP servers in Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
@@ -194,7 +200,8 @@ The basic setup in Visual Studio Code involves the following steps:
 
 4. Restart Visual Studio Code.
 
-## Cursor
+</TabStripTab>
+<TabStripTab title="Cursor">
 
 > For complete setup instructions, see [Model Context Protocol](https://docs.cursor.com/context/mcp).
 
@@ -238,6 +245,27 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
   }
 }
 ```
+
+</TabStripTab>
+</TabStrip>
+
+## Troubleshooting
+
+>warning **Known Issue: Hanging tool calls in Visual Studio**
+>
+> When using Telerik AI tools in Visual Studio, GitHub Copilot may:
+> * **hang** during tool invocation;
+> * show UI for a successful tool response, but actually **fail silently**;
+> * continue generation without waiting for **parallel tool calls**.
+>
+> In these cases, the response may be generated but not provided to the Copilot Agent UI.
+>
+> This is a known issue in Visual Studio Copilot, not related to Telerik MCP servers or AI tools, and does not reproduce in VS Code.
+>
+> For more details, see the related Visual Studio Developer Community issue:  
+https://developercommunity.visualstudio.com/t/Copilot-stopped-working-after-latest-upd/10936456
+>
+> Microsoft has acknowledged the issue and marked it as **Fixed - Pending Release**. A future Visual Studio update is expected to resolve it.
 
 ## Usage
 
