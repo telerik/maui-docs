@@ -157,17 +157,17 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Mic
     }
     ```
 
-    • Deserializes the incoming `JSON` `(context.RequestJson)` into a `GridAIRequest`. This contains grid columns and user prompt contents.
+    * Deserializes the incoming `JSON` `(context.RequestJson)` into a `GridAIRequest`. This contains grid columns and user prompt contents.
 
-    • Creates `ChatOptions` and registers DataGrid-specific tools via `options.AddGridChatTools(request.Columns)` so the AI knows what columns/operations are available.
+    * Creates `ChatOptions` and registers DataGrid-specific tools via `options.AddGridChatTools(request.Columns)` so the AI knows what columns/operations are available.
 
-    • Maps each request content to a `ChatMessage` with `ChatRole.User`.
+    * Maps each request content to a `ChatMessage` with `ChatRole.User`.
 
-    • Calls the AI backend through `IChatClient.GetResponseAsync(messages, options)` to get a `ChatResponse`.
+    * Calls the AI backend through `IChatClient.GetResponseAsync(messages, options)` to get a `ChatResponse`.
 
-    • Extracts the grid-specific instruction payload from the AI result with `completion.ExtractGridResponse()`.
+    * Extracts the grid-specific instruction from the AI result with `completion.ExtractGridResponse()`.
 
-    • Serializes that payload to `JSON` and assign to `context.ResponseJson` for the DataGrid to consume.
+    * Serializes the response to a `JSON` and assign to `context.ResponseJson` for the DataGrid to consume.
 
 1. Get the service registered in the `MauiProgram.cs` and pass it to the instance of the `ViewModel`. Then set the binding context of the page to be this `ViewModel`.
 
