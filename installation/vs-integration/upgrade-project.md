@@ -1,7 +1,7 @@
 ---
 title: Upgrading Projects
 meta_title: Upgrading Projects - Visual Studio Integration
-description: Learn how to upgrade theTelerik UI for .NET MAUI project.
+description: Learn how to upgrade the Telerik UI for .NET MAUI project.
 slug: vs-integration-upgrade-project
 position: 6
 ---
@@ -11,7 +11,7 @@ position: 6
 This article demonstrates how to use the [Telerik Visual Studio Extension]({%slug vs-integration-overview%}) to upgrade a project that is pre-configured with the Telerik UI for .NET MAUI controls.
 
 The **Upgrade Project Wizard** upgrades the version of existing Telerik UI for .NET MAUI applications. To open the wizard:
-
+ 
 1. In Visual Studio, open the project you want to upgrade.
 
 2. Open the Telerik UI for .NET MAUI Upgrade Wizard in one of the following ways:
@@ -34,7 +34,7 @@ The **Upgrade Project Wizard** upgrades the version of existing Telerik UI for .
 
 5. The next page of the Upgrade Wizard lists all projects from the solution that use Telerik UI for .NET MAUI. Choose the projects that you want to upgrade and the version to which they will be upgraded.
 
-    >tip We recommend selecting all projects that reference UI for Blazor and upgrading them to the same product version.
+    >tip We recommend selecting all projects that reference UI for .NET MAUI and upgrading them to the same product version.
 
 6. Select the version of Telerik UI for .NET MAUI you want to upgrade to and click **Next**.
 
