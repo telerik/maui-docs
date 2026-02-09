@@ -14,14 +14,14 @@ The images in this article show the anatomy of the Editor and its building block
 
 ## Editor Visual Structure
 
-![Telerik UI for .NET MAUI Editor Visual Structure](images/editor-focused-text.png "Visual elements of Editor control")
+![Telerik UI for .NET MAUI Editor Visual Structure](images/entry-focused-text.png "Visual elements of Editor control")
 
 - `Placeholder`&mdash;The text that guides the end-user on what can be entered/searched in the input.
 - [`RadMultilineTextInput`]({%slug editor-multiline-textinput%})&mdash;The control used for the multiline text input.
 
 ## Input Structure
 
-![Telerik UI for .NET MAUI Editor Input Visual Structure](images/editor-valid-text.png "Visual elements of Editor control")
+![Telerik UI for .NET MAUI Editor Input Visual Structure](images/entry-valid-text.png "Visual elements of Editor control")
 
 - `Text`&mdash;The text entered in the control's input field.
 - [`RadMultilineTextInput`]({%slug editor-multiline-textinput%})&mdash;The control used for the multiline text input.
@@ -29,7 +29,7 @@ The images in this article show the anatomy of the Editor and its building block
 
 ## Validation Structure
 
-![Telerik UI for .NET MAUI Editor Validation Visual Structure](images/winui-editor.png "Visual elements of Editor control")
+![Telerik UI for .NET MAUI Editor Validation Visual Structure](images/winui-entry.png "Visual elements of Editor control")
 
 - `Text`&mdash;The text entered in the control's input field.
 - `Clear Button`&mdash;Clears the selection in the control for both multiple and single selection scenarios.
