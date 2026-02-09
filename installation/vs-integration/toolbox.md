@@ -3,7 +3,7 @@ title: Toolbox Extension for VS
 page_title: Telerik Toolbox VS Extension for .NET MAUI on Windows
 description: Learn more about the Telerik Toolbox extension for .NET MAUI on Windows and how to use the toolbox with the Telerik UI for .NET MAUI library.
 slug: toolbox-support
-position: 4
+position: 7
 previous_url: /installation/windows/toolbox-support
 ---
 
