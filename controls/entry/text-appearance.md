@@ -15,11 +15,7 @@ The Entry provides a number of settings for configuring the appearance of the te
 
 The following properties are related to the appearance and alignment of the text in the Entry control.
 
-* `Text` (`string`)&mdash;Defines the text.
-* `TextColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the color of the visible Entry text.
-* `TextTransform` (`Microsoft.Maui.TextTransform`)&mdash;Defines the transformation of the text.
-* `VerticalTextAlignment` (`Microsoft.Maui.TextAlignment`)&mdash;Specifies the vertical alignment of the text.
-* `HorizontalTextAlignment` (`Microsoft.Maui.TextAlignment`)&mdash;Specifies the horizontal alignment of the text.
+@[template](/_contentTemplates/controls/inputview.md#inputview-text-input)
 
 ## Adding Placeholder
 
@@ -106,10 +102,7 @@ You can change the keyboard **return key type** using the `ReturnType`(`Microsof
 </telerik:RadEntry>
 ```
 
-## Defining the Clear Button visibility
-
-The `ClearButtonVisibility` (`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear button (the button that clears the text when pressed) can be displayed. The default value is `WhileEditing`. 
-If you want to hide the clear button while entering text inside the control, then set the `ClearButtonVisibility` to `Never`.
+@[template](/_contentTemplates/controls/inputview.md#inputview-clearbutton-visibility)
 
 ## See Also
 

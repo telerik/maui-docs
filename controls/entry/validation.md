@@ -10,17 +10,17 @@ slug: entry-validation
 
 The Telerik UI for .NET MAUI entry control provides validation mechanism. If the user is entering a value not matching the requirements, the Entry will display an error message, which you can customize.
 
-* `IsValueValid`(`bool`)&mdash;Specifies whether the Text entered inside the control is valid. The default value is true.
+@[template](/_contentTemplates/controls/inputview.md#inputview-validation)
 
-* `ValidationErrorMessage`(`string`)&mdash;Specifies the error message which is displayed when the text entered inside the control is not valid.
+![Entry validation](images/entry_ReserveSpaceForErrorView_property.png)
 
+Here is an example of how to use the validation properties:
 
 ```XAML
 <telerik:RadEntry ValidationErrorMessage="Value is not valid"
 				  IsValueValid="False"
 				  Placeholder="Enter text here"
-				  PlaceholderColor="#99000000">
-</telerik:RadEntry>
+				  PlaceholderColor="#99000000" />
 ```
 
 And the namespace used:
@@ -29,18 +29,9 @@ And the namespace used:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-* The Entry control in `MacCatalyst` is preserving space on its right side for the error icon. If developers are not using the validation feature of the Entry, the control has an API that makes the control takes its entire space - the `ReserveSpaceForErrorView`(`bool`) property. The default value is `true`.
-The image below shows the error icon that is displayed inside the reserved space:
-
-![Entry validation](images/entry_ReserveSpaceForErrorView_property.png)
-
 ## Styling the Error View
 
-Use the following properties to style the error view when validation applies:
-
-* `ValidationErrorColor` (`Color`)&mdash;Defines the custom color for the error views.
-* `ValidationErrorImageStyle` (`Style` with target type `Image`)&mdash;Defines the style that applies to the error icon.
-* `ValidationErrorLabelStyle` (`Style` with target type `Label`)&mdash;Defines the style that applies to the error label.
+@[template](/_contentTemplates/controls/inputview.md#inputview-validation-style)
 
 ## See Also
 
