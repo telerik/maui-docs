@@ -16,24 +16,22 @@ The following properties are related to the appearance and alignment of the text
 
 @[template](/_contentTemplates/controls/inputview.md#inputview-text-input)
 
+This is the result when entering text in multi lines:
+
+![Editor Getting Started](images/editor-getting-started.png)
+
 ## Adding Placeholder
 
 The Editor exposes the `Placeholder` (`string`) property that prompts users what information they are expected to enter in the text input. The placeholder text is displayed when the control is empty. Additionally, you can set the `PlaceholderColor`(`Color`) to customize the look of the watermark text as demonstrated in the following example.
 
 ```XAML
 <telerikInput:RadEditor Placeholder="Enter text here"
-					   PlaceholderColor="#6EA3FF" />
-```
-
-In the provided example:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+					    PlaceholderColor="#6EA3FF" />
 ```
 
 The following image shows the end result.
 
-![Editor with Watermark](images/entry_getting_started.png)
+![Editor with Watermark](images/editor-placeholder.png)
 
 ## Setting the Read-Only State
 
@@ -78,7 +76,7 @@ The `CharacterSpacing` (`double`) property allows you to define the space betwee
 
 ## Setting Text Prediction
 
-* `IsTextPredictionEnabled` (`bool`) property allows you to define whether text prediction and automatic text correction are on or off. The default value is `False`. 
+`IsTextPredictionEnabled` (`bool`) property allows you to define whether text prediction and automatic text correction are on or off. The default value is `False`. 
 
 ```XAML
 <telerik:RadEditor x:Name="entry"

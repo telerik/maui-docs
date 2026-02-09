@@ -26,6 +26,3 @@ The Multiline TextInput exposes the following properties:
 * `MinimumHeightRequest` (`string`)&mdash;Defines the minimum height the element will request during layout.
 
 The `RadMultilineTextInput` control inherits from the `Microsoft.Maui.Editor` control.
-
-## See Also
-

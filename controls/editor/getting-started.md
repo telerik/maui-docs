@@ -12,7 +12,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Editor Getting Started](images/editor_getting_started.png)
+![Editor with Watermark](images/editor-placeholder.png)
 
 ## Prerequisites
 

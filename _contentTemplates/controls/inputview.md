@@ -93,7 +93,7 @@ Style the Clear button which is displayed by default when entering text in the c
 #end
 
 #inputview-clearbutton-visibility
-## Defining the Clear Button visibility
+## Defining the Clear Button Visibility
 
 The `ClearButtonVisibility` (`Microsoft.Maui.ClearButtonVisibility`) indicates when the clear button (the button that clears the text when pressed) can be displayed. The default value is `WhileEditing`. 
 If you want to hide the clear button while entering text inside the control, then set the `ClearButtonVisibility` to `Never`.
