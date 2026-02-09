@@ -282,6 +282,12 @@ meta:
   controls/datagrid/row-details:
     title: Row Details
     position: 4
+  controls/datagrid/smart-ai-features/ai-assistant:
+    title: Smart AI Assistant
+    position: 1
+  controls/datagrid/smart-ai-features:
+    title: Smart AI Features
+    position: 3
   controls/datagrid/columns/column-types:
     title: Column Types
     position: 1
