@@ -37,6 +37,8 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='editor-events-completed' />
 
+![Editor Events](images/editor-events.gif)
+
 ## See Also
 
 - [Text Appearance]({%slug editor-text-appearance%})

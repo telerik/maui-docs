@@ -8,11 +8,11 @@ slug: editor-validation
 
 # .NET MAUI Editor Validation
 
-The Telerik UI for .NET MAUI editor control provides validation mechanism. If the user is entering a value not matching the requirements, the Editor will display an error message, which you can customize.
+The Telerik UI for .NET MAUI editor control provides a built-in validation mechanism. If the user enters a value that doesn't satisfy the requirements, the Editor will display an error message, which you can customize.
 
 @[template](/_contentTemplates/controls/inputview.md#inputview-validation)
 
-![Editor validation](images/editor_ReserveSpaceForErrorView_property.png)
+![Editor validation](images/entry_ReserveSpaceForErrorView_property.png)
 
 Here is an example of how to use the validation properties:
 
@@ -21,12 +21,6 @@ Here is an example of how to use the validation properties:
 				   IsValueValid="False"
 				   Placeholder="Enter text here"
 				   PlaceholderColor="#99000000" />
-```
-
-And the namespace used:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## Styling the Error View

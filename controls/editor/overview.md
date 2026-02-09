@@ -37,7 +37,7 @@ It is designed to handle large amounts of text input efficiently and provides a 
 
 * [Various styling options]({%slug editor-styling%})&mdash;For applying corner radius, clear button color, placeholder color and more.
 
-## Next steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI Editor]({% slug Editor-getting-started%})
 

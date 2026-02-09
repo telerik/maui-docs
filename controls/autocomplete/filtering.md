@@ -18,8 +18,6 @@ When filtering is performed and there are matching items, the items are displaye
 
 * `HighlightItemFunc` (`Func<IEnumerable<object>, string, object>`)&mdash;Specifies the function used to specify the highlighted item in the drop-down after filtering is performed. The function receives the filtered collection of items and the current search text as parameters and returns the item from the filtered collection that should be highlighted.
 
-**Example: Removing the highlighted item**
-
 @[template](/_contentTemplates/controls/autocomplete.md#highlighted-behavior)
 
 ## Custom Filtering
