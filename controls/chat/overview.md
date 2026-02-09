@@ -10,7 +10,7 @@ slug: chat-overview
 
 The Telerik UI for .NET MAUI Chat is a UI component that enables the implementation of conversational UI in .NET MAUI applications.
 
-The control is designed for extensibility, allowing developers to create rich chat experiences that can be tailored to specific application needs, allowing integration with chatbots, LLMs, ad cusom business logic.
+The control is designed for extensibility, enabling developers to create rich chat experiences that can be tailored to specific application needs, including integration with chatbots, LLMs, and custom business logic.
 
 ![.NET MAUI Chat Overview](images/chat-overview.png)
 
