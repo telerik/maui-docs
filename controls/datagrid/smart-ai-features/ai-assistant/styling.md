@@ -12,7 +12,7 @@ The .NET MAUI DataGrid control allows you to customize the appearance of the AI 
 
 ![DataGrid AI Smart Assistant Styling](images/datagrid-ai-smart-assistant-styling.png)
 
-## Style the AI Smart Assistant  Input
+## Style the AI Smart Assistant Input
 
 You can customize the appearance of the AI Smart Assistant panel by using the `PromptInputStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridAIPromptInput`.
 
@@ -57,7 +57,7 @@ Here is an example of how to style the SuggestionsView:
 
 <snippet id='datagrid-promptcontrolled-suggestionview-style' />
 
-## Style the floating action button (Mobile)
+## Style the Floating Action Button (Mobile)
 
 You can customize the appearance of the floating action button that opens the AI Smart Assistant  panel on mobile by using the `FloatingActionButtonStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridFloatingActionButton`.
 
@@ -73,10 +73,10 @@ Here is an example of how to style the floating action button:
 
 You can customize the appearance of the BottomSheet that contains the AI Smart Assistant panel and the suggestions on mobile by using the following properties:
 
-`BottomSheetContentHeaderLabelStyle` (`Style` with target type of `Label`) property.
-`BottomSheetContentStyle` (`Style` with target type of `Telerik.Maui.Controls.BottomSheet.BottomSheetContentView`) property.
+* `BottomSheetContentHeaderLabelStyle` (`Style` with target type of `Label`)&mdash;Specifies the style of the header label in the BottomSheet.
+* `BottomSheetContentStyle` (`Style` with target type of `Telerik.Maui.Controls.BottomSheet.BottomSheetContentView`)&mdash;Specifies the style of the content of the BottomSheet.
 
-The available properties for the `BottomSheetContentStyle` are described below:
+The available properties for the `BottomSheetContentStyle` are:
 
 * `BackgroundColor` (`Color`)&mdash;Specifies the background color of the BottomSheetContent.
 * `BorderColor` (`Color`)&mdash;Specifies the border color around the BottomSheetContent.

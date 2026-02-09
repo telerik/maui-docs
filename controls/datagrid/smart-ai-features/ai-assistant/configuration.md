@@ -62,7 +62,7 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
  
 `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"`
 
-**3.** Add sample data model:
+**3.** Add a sample data model:
 
 <snippet id='datagrid-prompt-configuration-model' />
 
