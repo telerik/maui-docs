@@ -10,7 +10,7 @@ slug: datagrid-ai-prompt-overview
 
 The .NET MAUI DataGrid control offers AI-powered features that allow users to interact with the DataGrid using natural language prompts. This functionality enables users to perform various operations such as sorting, grouping, filtering, and manipulating columns without needing to write code.
 
-On mobile the AI Smart Assistant panel can be accessed via a floating action button on the bottom-right corner of the DataGrid. On desktop platforms, the AI Smart Assistant panel displays above the header area of the DataGrid.
+On mobile, the AI Smart Assistant panel can be accessed via a floating action button on the bottom-right corner of the DataGrid. On desktop platforms, the AI Smart Assistant panel displays above the header area of the DataGrid.
 
 ![.NET MAUI DataGrid AI Smart Assistant Panel](images/datagrid-ai-prompt-panel.png)
 
@@ -178,7 +178,7 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Mic
     ```
 
 
-1. Set the DataGrid's `IsAIEnabled` property to `true`. When setting to `true`, the AI Smart Assistant panel will be enabled, allowing users to input prompts.
+1. Set the DataGrid's `IsAIEnabled` property to `true`. When setting to `true`, the AI Smart Assistant panel gets enabled, allowing users to input prompts.
 
 ## Example Prompts
 

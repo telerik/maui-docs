@@ -28,7 +28,7 @@ The available properties for the `PromptInputStyle` are described below:
 * `TextInputStyle` (`Style` with target type of `Telerik.Maui.Controls.RadTextInput`)&mdash;Specifies the style of the text input field within the AI Smart Assistant input.
 * `ClearButtonStyle` (`Style` with target type of `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Specifies the style of the clear button within the AI Smart Assistant input.
 * `SendButtonStyle` (`Style` with target type of `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Specifies the style of the send button within the AI Smart Assistant input.
-* On WinUI, the Speech-to-Text button is not displayed by default. To enable it, set the `IsSpeechToTextButtonVisible` property `True` to the .
+* On WinUI, the Speech-to-Text button is not displayed by default. To enable it, set the `IsSpeechToTextButtonVisible` property to `True`.
 
 Here is an example of how to style the AI Smart Assistant input:
 

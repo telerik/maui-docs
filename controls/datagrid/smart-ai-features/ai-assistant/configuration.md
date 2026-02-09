@@ -17,11 +17,11 @@ You can configure the default settings for the AI Smart Assistant  functionality
 Below you can find a list of the available configuration options applied through the `RadDataGrid.AISettings`:
 
 * `InputText` (`string`)&mdash;Specifies the text of the input field.
-* `SubmitPromptOnSelection` (`bool`)&mdash;Specifies whether selecting a prompt should automatically submit the request. Default value is `false`.
-* `OpenOnFocus` (`bool`)&mdash;Specifies whether the prompt input should open the suggestions dropdown when the input field is focused. Default value is `true`.
-* `IsSuggestedPromptsVisible` (`bool`)&mdash;Specifies whether the suggested prompts should be visible. Default value is `true`.
-* `IsRecentPromptsVisible` (`bool`)&mdash;Specifies whether the recent prompts should be visible. Default value is `true`.
-* `IsEmptyContentVisible` (`bool`)&mdash;Specifies whether the empty content message should be visible when no suggestions are available. Default value is `true`.
+* `SubmitPromptOnSelection` (`bool`)&mdash;Specifies whether selecting a prompt should automatically submit the request. The default value is `false`.
+* `OpenOnFocus` (`bool`)&mdash;Specifies whether the prompt input should open the suggestions dropdown when the input field is focused. The default value is `true`.
+* `IsSuggestedPromptsVisible` (`bool`)&mdash;Specifies whether the suggested prompts should be visible. The default value is `true`.
+* `IsRecentPromptsVisible` (`bool`)&mdash;Specifies whether the recent prompts should be visible. The default value is `true`.
+* `IsEmptyContentVisible` (`bool`)&mdash;Specifies whether the empty content message should be visible when no suggestions are available. The default value is `true`.
 * `SuggestedPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of suggested prompts.
 * `RecentPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of recent prompts.
 
@@ -33,7 +33,7 @@ This is how the default AI Smart Assistant  view looks like when there are no su
 
 The DataGrid provides the following events related to AI Smart Assistant functionality:
 
-* `PromptRequest`&mdash;Occurs when a prompt is requested from the AI Smart Assistant panel submitted.
+* `PromptRequest`&mdash;Occurs when a prompt is submitted from the AI Smart Assistant panel.
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 	* A `DataGridPromptRequestEventArgs` object, which provides the following properties:
 		- `Prompt`&mdash;Gets the prompt text that was submitted from the user.
@@ -54,7 +54,7 @@ The DataGrid provides the following events related to AI Smart Assistant functio
 
 Here is an example of how to configure the AI Smart Assistant  settings in the .NET MAUI DataGrid:
 
-**1.** Add DataGrid definition in XAML:
+**1.** Add the DataGrid definition in XAML:
 
 <snippet id='datagrid-prompt-controlled-configuration' />
 

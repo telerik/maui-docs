@@ -49,6 +49,13 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_Search_MatchesStringFormat` | `Matches: {0}` |
 | `DataGrid_Search_SearchEntryPlaceholder` | `Type to Search` |
 | `DataGrid_Search_WholeWord` | `Whole Word` |
+| `DataGrid_AI_InputView_Placeholder` | `Sort, filter, or group with AI` |
+| `DataGrid_AI_InputView_Thinking` | `Thinking...` |
+| `DataGrid_AI_SuggestionsView_SuggestedPromptsLabel` | `Suggested Prompts` |
+| `DataGrid_AI_SuggestionsView_PreviouslyAskedLabel` | `Previously Asked` |
+| `DataGrid_AI_PromptInputView_NoSuggestionsLabel` | `No previous prompts` |
+| `DataGrid_AI_SheetContent_HeaderLabel` | `Ask AI` |
+| `DataGrid_AI_FloatingActionButton_Text ` | `AI Grid` |
 
 ## Additional Resources
 
