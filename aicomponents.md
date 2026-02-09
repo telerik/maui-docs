@@ -29,11 +29,11 @@ Explore the powerful AI-enhanced components and features in Telerik UI for .NET 
         description="The Telerik UI for .NET MAUI AIPrompt control creates intelligent, AI-driven prompts that guide users through task completion and workflow processes.">
     </article-card>
     <article-card
-        href="/controls/promptinput/overview"
-        src="./images/aicomponents/InlineAIPrompt_Light_Large.svg"
-        title="Inline AI Prompt"
-        subTitle="UI Component"
-        darkSrc="./images/aicomponents/InlineAIPrompt_Dark_Large.svg"
-        description="The Telerik UI for .NET MAUI Inline PromptInput control delivers contextual AI suggestions within the UI.">
+        href="/controls/datagrid/smart-ai-features/ai-assistant/overview"
+        src="./images/aicomponents/AI_Data_Operations_Light_Large.svg"
+        title="AI Data Operations"
+        subTitle="Smart Data Grid Feature"
+        darkSrc="./images/aicomponents/AI_Data_Operations_Dark_Large.svg"
+        description="The Telerik UI for .NET MAUI DataGrid component provides smart AI functionality for sorting, filtering, grouping, and column management.">
     </article-card>
 </article-card-container>
