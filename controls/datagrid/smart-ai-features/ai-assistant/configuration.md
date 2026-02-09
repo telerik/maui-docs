@@ -2,7 +2,7 @@
 title: Configuration
 page_title: .NET MAUI DataGrid Documentation - Configuration
 description: Learn how to configure the .NET MAUI DataGrid AI Smart Assistant.
-position: 1
+position: 2
 slug: datagrid-ai-prompt-configuration
 ---
 
@@ -90,7 +90,7 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 <snippet id='datagrid-aiprompt-config-recent-prompts-collection' />
 
-**10.** Assig the collections to the `AISettings`:
+**10.** Assign the collections to the `AISettings`:
 
 <snippet id='datagrid-aiprompt-config-assign-collections' />
 

@@ -38,7 +38,7 @@ This is how the custom `EmptyContentTemplate` looks like when applied:
 >You have to configure your own AI service for the AI Smart Assistant to work in your application.
 >How to do that is described in the [Getting Started with the AI Smart Assistant]({%slug datagrid-ai-prompt-overview%}#getting-started-with-the-ai-smart-assistant) article.
 
->tip For a runnable example demonstrating a custom templates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > AI Smart Assistant** category.
+>tip For a runnable example demonstrating custom templates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > AI Smart Assistant** category.
 
 ## See also
 

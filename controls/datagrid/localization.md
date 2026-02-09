@@ -55,7 +55,7 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_AI_SuggestionsView_PreviouslyAskedLabel` | `Previously Asked` |
 | `DataGrid_AI_PromptInputView_NoSuggestionsLabel` | `No previous prompts` |
 | `DataGrid_AI_SheetContent_HeaderLabel` | `Ask AI` |
-| `DataGrid_AI_FloatingActionButton_Text ` | `AI Grid` |
+| `DataGrid_AI_FloatingActionButton_Text` | `AI Grid` |
 
 ## Additional Resources
 

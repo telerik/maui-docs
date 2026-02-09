@@ -1,6 +1,6 @@
 ---
-title: AI Smart Assistant 
-page_title: .NET MAUI DataGrid Documentation - AI Smart Assistant 
+title: AI Smart Assistant
+page_title: .NET MAUI DataGrid Documentation - AI Smart Assistant
 description: Learn how to interact with the .NET MAUI DataGrid using the AI Smart Assistant to input prompts to perform operations like sorting, grouping, filtering, and column manipulation.
 position: 1
 slug: datagrid-ai-prompt-overview

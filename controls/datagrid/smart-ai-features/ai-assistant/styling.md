@@ -8,7 +8,7 @@ slug: datagrid-ai-prompt-styling
 
 # .NET MAUI DataGrid AI Smart Assistant Styling
 
-The .NET MAUI DataGrid control allows you to customize the appearance of the AI Smart Assistant feature to match your application's design requirements. You can modify various visual aspects of the AI Smart Assistant  panel, including colors, fonts, and layout.
+The .NET MAUI DataGrid control allows you to customize the appearance of the AI Smart Assistant feature to match your application's design requirements. You can modify various visual aspects of the AI Smart Assistant panel, including colors, fonts, and layout.
 
 ![DataGrid AI Smart Assistant Styling](images/datagrid-ai-smart-assistant-styling.png)
 
@@ -16,7 +16,7 @@ The .NET MAUI DataGrid control allows you to customize the appearance of the AI 
 
 You can customize the appearance of the AI Smart Assistant panel by using the `PromptInputStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridAIPromptInput`.
 
-By default, the AI Smart Assistant  input includes a Speech-to-Text button that allows users to input prompts using voice commands. You can customize the appearance of this button by using the `SpeechToTextButtonStyle` (`Style` with a target type of `Telerik.Maui.Controls.RadSpeechToTextButton`) property.
+By default, the AI Smart Assistant input includes a Speech-to-Text button that allows users to input prompts using voice commands. You can customize the appearance of this button by using the `SpeechToTextButtonStyle` (`Style` with a target type of `Telerik.Maui.Controls.RadSpeechToTextButton`) property.
 
 The available properties for the `PromptInputStyle` are described below:
 
@@ -59,7 +59,7 @@ Here is an example of how to style the SuggestionsView:
 
 ## Style the Floating Action Button (Mobile)
 
-You can customize the appearance of the floating action button that opens the AI Smart Assistant  panel on mobile by using the `FloatingActionButtonStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridFloatingActionButton`.
+You can customize the appearance of the floating action button that opens the AI Smart Assistant panel on mobile by using the `FloatingActionButtonStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridFloatingActionButton`.
 
 The DataGridFloatingActionButton inherits from the `RadTemplatedButton`. All styling properties and visual states available for the `RadTemplatedButton` can be applied to the floating action button.
 
