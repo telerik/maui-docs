@@ -53,6 +53,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="ComboBox" href="slug:combobox-overview"></IntroTableAnchor>
             <IntroTableAnchor title="DatePicker" href="slug:datepicker-overview"></IntroTableAnchor>
             <IntroTableAnchor title="DateTimePicker" href="slug:datetimepicker-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Editor" href="slug:editor-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Entry" href="slug:entry-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ImageEditor" href="slug:imageeditor-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ListPicker" href="slug:listpicker-overview"></IntroTableAnchor>
