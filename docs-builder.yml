@@ -238,6 +238,8 @@ meta:
     title: Expander
   controls/entry:
     title: Entry
+  controls/editor:
+    title: Editor
   controls/docklayout:
     title: DockLayout
   controls/datetimepicker/styling:

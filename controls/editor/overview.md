@@ -13,6 +13,7 @@ The Telerik UI for .NET MAUI Editor is an input control that allows users to ent
 
 It is designed to handle large amounts of text input efficiently and provides a variety of features and customization options such as adding watermarks, setting its read-only state, defining border styles, and more.
 
+![.NET MAUI Editor Overview](images/editor-overview.png)
 
 ## Key Features of the .NET MAUI Editor
 
