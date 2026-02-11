@@ -1,5 +1,5 @@
 ---
-title: AI Components & Features
+title: AI Controls & Features
 page_title: AI Components and Features in Telerik UI for .NET MAUI
 description: Discover the AI-powered components in Telerik UI for .NET MAUI designed to enhance functionality and user experience.
 slug: ai-components-maui
@@ -7,9 +7,9 @@ position: 8
 tag: new
 ---
 
-# Telerik UI for .NET MAUI AI Components & Features
+# Telerik UI for .NET MAUI AI Controls & Features
 
-Explore the powerful AI-enhanced components and features in Telerik UI for .NET MAUI designed to transform your desktop and mobile applications with intelligent functionality. These cutting-edge tools integrate seamlessly with modern AI services to provide smart data operations, conversational interfaces, and automated assistance that enhance user productivity.
+Explore the powerful AI-enhanced controls and features in Telerik UI for .NET MAUI designed to transform your desktop and mobile applications with intelligent functionality. These cutting-edge tools integrate seamlessly with modern AI services to provide smart data operations, conversational interfaces, and automated assistance that enhance user productivity.
 
 <article-card-container>
     <article-card
