@@ -54,6 +54,9 @@ meta:
   controls/treedatagrid/filtering:
     title: Filtering
     position: 9
+  controls/treedatagrid/smart-ai-features:
+    title: Smart AI Features
+    position: 8
   controls/treedatagrid/cells:
     title: Cells
     position: 7

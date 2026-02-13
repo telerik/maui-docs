@@ -16,9 +16,9 @@ The following properties are related to the appearance and alignment of the text
 
 @[template](/_contentTemplates/controls/inputview.md#inputview-text-input)
 
-This is the result when entering text in multi lines:
+This is the result when entering text in multiple lines:
 
-![Editor Getting Started](images/editor-getting-started.png)
+![Editor Text](images/editor-getting-started.png)
 
 ## Adding Placeholder
 
@@ -31,7 +31,7 @@ The Editor exposes the `Placeholder` (`string`) property that prompts users what
 
 The following image shows the end result.
 
-![Editor with Watermark](images/editor-placeholder.png)
+![Editor Placeholder](images/editor-placeholder.png)
 
 ## Setting the Read-Only State
 
@@ -76,7 +76,7 @@ The `CharacterSpacing` (`double`) property allows you to define the space betwee
 
 ## Setting Text Prediction
 
-`IsTextPredictionEnabled` (`bool`) property allows you to define whether text prediction and automatic text correction are on or off. The default value is `False`. 
+The `IsTextPredictionEnabled` (`bool`) property allows you to define whether text prediction and automatic text correction are on or off. The default value is `False` (text prediction and automatic text correction are disabled).
 
 ```XAML
 <telerik:RadEditor x:Name="entry"

@@ -14,11 +14,11 @@ Learn about the latest changes, improvements and bug fixes in the Telerik UI for
 
 ### Highlights
 
-- **AutoComplete**&mdash;Provided API reference and usage examples for the new HighlightItemFunc feature
-- **CheckBox**&mdash;Enhanced documentation with API information and snippets covering new features
-- **DataGrid**&mdash;Included API documentation and code samples for the latest AI capabilities
-- **Editor**&mdash;Introduced comprehensive API documentation and code snippets for the new Editor component
-- **TreeDataGrid**&mdash;Included API documentation and code samples for the latest AI capabilities
+- **AutoComplete**&mdash;Provided API reference and usage examples for the new `HighlightItemFunc` feature.
+- **CheckBox**&mdash;Enhanced documentation with API information and snippets covering new features.
+- **DataGrid**&mdash;Included API documentation and code samples for the latest AI capabilities.
+- **Editor**&mdash;Introduced comprehensive API documentation and code snippets for the new Editor component.
+- **TreeDataGrid**&mdash;Included API documentation and code samples for the latest AI capabilities.
 
 ## November, 2025 Changelog
 

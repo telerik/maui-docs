@@ -1,9 +1,9 @@
 ---
 title: AI Controls & Features
-page_title: AI Components and Features in Telerik UI for .NET MAUI
-description: Discover the AI-powered components in Telerik UI for .NET MAUI designed to enhance functionality and user experience.
+page_title: AI Controls and Features in Telerik UI for .NET MAUI
+description: Discover the AI-powered controls in Telerik UI for .NET MAUI designed to enhance functionality and user experience.
 slug: ai-components-maui
-position: 8
+position: 3
 tag: new
 ---
 
@@ -34,6 +34,14 @@ Explore the powerful AI-enhanced controls and features in Telerik UI for .NET MA
         title="AI Data Operations"
         subTitle="Smart Data Grid Feature"
         darkSrc="./images/aicomponents/AI_Data_Operations_Dark_Large.svg"
-        description="The Telerik UI for .NET MAUI DataGrid component provides smart AI functionality for sorting, filtering, grouping, and column management.">
+        description="The Telerik UI for .NET MAUI DataGrid control provides smart AI functionality for sorting, filtering, grouping, and column management.">
+    </article-card>
+        <article-card
+        href="/controls/treedatagrid/smart-ai-features/ai-assistant/overview"
+        src="./images/aicomponents/AI_Data_Operations_Light_Large.svg"
+        title="AI Data Operations"
+        subTitle="Smart Tree Data Grid Feature"
+        darkSrc="./images/aicomponents/AI_Data_Operations_Dark_Large.svg"
+        description="The Telerik UI for .NET MAUI TreeDataGrid control provides smart AI functionality for sorting, filtering, and column management.">
     </article-card>
 </article-card-container>

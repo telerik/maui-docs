@@ -43,5 +43,5 @@ This is how the custom `EmptyContentTemplate` looks like when applied:
 ## See also
 
 - [Prompt Controlled Overview]({%slug datagrid-ai-prompt-overview %})
-- [Style the AI Smart Assistant Templates]({%slug datagrid-ai-prompt-styling %})
+- [Style the AI Smart Assistant]({%slug datagrid-ai-prompt-styling %})
 - [Configure the AI Smart Assistant]({%slug datagrid-ai-prompt-configuration %})
