@@ -12,13 +12,15 @@ The .NET MAUI TreeDataGrid control offers AI-powered features that allow users t
 
 On mobile, the AI Smart Assistant panel can be accessed via a floating action button on the bottom-right corner of the TreeDataGrid. On desktop platforms, the AI Smart Assistant panel displays above the header area of the TreeDataGrid.
 
-Here is how the AI Smart Assistant panel looks on desktop and the floating action button on mobile:
+Here is how the AI Smart Assistant panel is arranged on desktop, with the panel above the TreeDataGrid header area, and on mobile, where it is opened from a floating action button in the bottom-right corner of the TreeDataGrid:
 
 ![.NET MAUI TreeDataGrid AI Smart Assistant Panel](images/treedatagrid-ai-prompt-overview.png)
 
-Here is how the AI Smart Assistant panel looks on desktop and mobile when no suggestions are shown:
+Here is how the AI Smart Assistant panel behaves on desktop and mobile when no suggestions are shown:
 
 ![.NET MAUI TreeDataGrid AI Smart Assistant Panel](images/treedatagrid-ai-prompt-suggestions.png)
+
+> When no suggestions are available, the AI Smart Assistant panel shows only the prompt input area and any configured helper text, without a suggestions list.
 
 ## Supported Operations
 
@@ -54,17 +56,17 @@ Here are some example prompts that users can use to interact with the TreeDataGr
  
 `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"`
 
-**3.** Define the `DataGridUserCommand`:
-
-<snippet id='datagrid-user-command' />
-
-**4.** Add sample data model:
+**3.** Add sample data model:
 
 <snippet id='treedatagrid-data-model' />
 
-**5.** Define the `ViewModel`:
+**4.** Define the `ViewModel`:
 
 <snippet id='treedatagrid-prompt-viewmodel' />
+
+**5.** Define the user command for the `ProcessAICommand` and `CancelAICommand`:
+
+<snippet id='datagrid-user-command' />
 
 >important The TreeDataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
 >

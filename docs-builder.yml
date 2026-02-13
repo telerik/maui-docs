@@ -54,9 +54,6 @@ meta:
   controls/treedatagrid/filtering:
     title: Filtering
     position: 9
-  controls/treedatagrid/smart-ai-features/ai-assistant:
-    title: Smart AI Assistant
-    position: 1
   controls/treedatagrid/smart-ai-features:
     title: Smart AI Features
     position: 8

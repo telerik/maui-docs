@@ -24,13 +24,13 @@ dotnet add package Telerik.AI.SmartComponents.Extensions
 <PackageReference Include="Telerik.AI.SmartComponents.Extensions" Version="Select Latest" />
 ```
 
-The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Microsoft.Extensions.AI` package.
+The `Telerik.AI.SmartComponents.Extensions` package has a dependency on the `Microsoft.Extensions.AI` package.
 
 2. Configure the AI services in your application. This typically involves setting up an AI provider (such as **Azure OpenAI**, **OpenAI**, etc.) and providing the necessary API keys or credentials.
 
 3. Register the AI service and AI chat client in your application.
 
-    For the example, we will use the **Azure OpenAI**. For the demo, in order to register the AI service and chat client, the following code is needed in MauiProgram.cs:
+    For the example, we will use the **Azure OpenAI**. To register the AI service and chat client, the following code is needed in MauiProgram.cs:
 
     ```C#
     builder.Services.AddSingleton(sp =>
@@ -51,7 +51,7 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Mic
     - `AddGridChatTools()`&mdash;Configures the AI model with DataGrid-specific capabilities.
     - `ExtractGridResponse()`&mdash;Extracts structured commands and messages from the AI response that the DataGrid can understand.
 
-    For the demo we will use a command in the `ViewModel`. The command is bind to the DataGrid `UserCommand`. The command executes when a prompt is submitted from the AI Smart Assistant panel. 
+    For the demo we will use a command in the `ViewModel`. The command is bound to the DataGrid `UserCommand`. The command executes when a prompt is submitted from the AI Smart Assistant panel. 
 
     Here is a sample `ViewModel` definition:
 
@@ -97,7 +97,7 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency to the `Mic
 
                 List<ChatMessage> messages = request.Contents.Select(m => new ChatMessage(ChatRole.User, m.Text)).ToList();
 
-                ChatResponse completion = await this.chatClient.GetResponseAsync(messages, options); ;
+                ChatResponse completion = await this.chatClient.GetResponseAsync(messages, options);
                 var response = JsonSerializer.Serialize(completion.ExtractGridResponse(), new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
 
                 context.ResponseJson = response;
