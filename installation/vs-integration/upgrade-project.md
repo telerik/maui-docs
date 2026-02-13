@@ -1,56 +1,59 @@
 ---
 title: Upgrading Projects
 meta_title: Upgrading Projects - Visual Studio Integration
-description: Learn how to upgrade the Telerik UI for .NET MAUI project.
+description: Learn how to upgrade a Telerik UI for .NET MAUI project with the Visual Studio Upgrade Wizard.
 slug: vs-integration-upgrade-project
 position: 6
 ---
 
 # Upgrading Projects
 
-This article demonstrates how to use the [Telerik Visual Studio Extension]({%slug vs-integration-overview%}) to upgrade a project that is pre-configured with the Telerik UI for .NET MAUI controls.
+This article shows how to use the [Telerik Visual Studio Extension]({%slug vs-integration-overview%}) to upgrade a project that is already configured with Telerik UI for .NET MAUI.
 
-The **Upgrade Project Wizard** upgrades the version of existing Telerik UI for .NET MAUI applications. To open the wizard:
+## Prerequisites
+
+- Visual Studio 2022 or later with the .NET Multi-platform App UI (.NET MAUI) workload installed.
+- The Telerik UI for .NET MAUI Visual Studio Extension installed and enabled.
+- An open solution that contains one or more projects referencing Telerik UI for .NET MAUI.
+
+## Upgrade a Project
+
+The **Upgrade Project Wizard** updates the Telerik UI for .NET MAUI version used by existing applications.
+
+1. Open the application solution in Visual Studio.
+
+2. Open the Upgrade Wizard in one of the following ways:
+   - In **Solution Explorer**, right-click the project > **Telerik UI for .NET MAUI** > **Upgrade Wizard**.
+     
+     ![Open the Upgrade Wizard from Solution Explorer](images/vs-upgrade-wizard-project.png)
+
+   - From the main menu, go to **Extensions** > **Telerik** > **Telerik UI for .NET MAUI** > **Upgrade Wizard**.
+     
+     ![Open the Upgrade Wizard from the Extensions menu](images/vs-upgrade-wizard.png)
+
+3. Review the introductory information, then select **Next**.
+
+   ![Upgrade Wizard welcome screen](images/upgrade-wizard-view.png)
+
+4. On the project selection page, select the projects to upgrade and choose the target Telerik UI for .NET MAUI version. Select **Next**.
+
+   ![Select projects and target version](images/upgrade-wizard-versions.png)
+
+   >tip We recommend selecting all projects that reference Telerik UI for .NET MAUI and upgrading them to the same product version.
+
+5. (Optional) Create a backup before upgrading:
+   - Enable **Create a backup before upgrade**.
+   - By default, a backup is created next to the project using the project name. To change the location or name, select **Browse** and choose a destination.
+   
+   ![Configure backup options](images/upgrade-wizard-back-up.png)
+
+   >tip We recommend creating a backup before you upgrade.
  
-1. In Visual Studio, open the project you want to upgrade.
+6. Select **Finish** to start the upgrade. When the process completes, review the summary page for the results and any actions taken.
 
-2. Open the Telerik UI for .NET MAUI Upgrade Wizard in one of the following ways:
-
-    * Right-click on the project in the **Solution Explorer** -> **Telerik UI for .NET MAUI** -> **Upgrade Wizard**.
-
-      ![Upgrade Project Wizard in Visual Studio](images/vs-upgrade-wizard-project.png)
-
-      or 
-
-    * Go to the **Extensions** > **Telerik** > **Telerik UI for .NET MAUI** > **Upgrade Wizard** menu.
-
-      ![Upgrade Project Wizard in Visual Studio](images/vs-upgrade-wizard.png)
-
-3. When selecting the Upgrade Wizard, the following information window appears.
-
-    ![Upgrade Project Wizard View in Visual Studio](images/upgrade-wizard-view.png)
-
-4. Press **Next** button to proceed to the next step.
-
-5. The next page of the Upgrade Wizard lists all projects from the solution that use Telerik UI for .NET MAUI. Choose the projects that you want to upgrade and the version to which they will be upgraded.
-
-    >tip We recommend selecting all projects that reference UI for .NET MAUI and upgrading them to the same product version.
-
-6. Select the version of Telerik UI for .NET MAUI you want to upgrade to and click **Next**.
-
-    ![Upgrade Project Wizard - Select Version](images/upgrade-wizard-versions.png)
-
-7. The next page allows you to create a backup before running the upgrade wizard by selecting the **Create a backup before upgrade** option. By default, the backup is created in the same location as the project with the name of the project. You can choose a different location for the backup by clicking on the **Browse** button. 
-    
-    ![Upgrade Project Wizard - Backup](images/upgrade-wizard-back-up.png)
-
-    >tip We recommend creating a backup before upgrading your project.
- 
-8. When clicking the **Finish** button, the upgrade process starts. After the process is finished, a summary page appears with the results of the upgrade.
-
-    ![Upgrade Project Wizard - Summary](images/upgrade-wizard-log.png)
+   ![Upgrade summary and log](images/upgrade-wizard-log.png)
 
 ## See Also
 
-* [Toolbox Extension for Visual Studio]({%slug toolbox-support %})
-* [Scaffolding Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
+- [Toolbox Extension for Visual Studio]({%slug toolbox-support%})
+- [Scaffold Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
