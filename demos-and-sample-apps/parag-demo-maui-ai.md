@@ -4,7 +4,7 @@ meta_title: .NET MAUI - Progress Agentic RAG Demo Application
 description: Learn how to download, configure, and run the Progress Agentic RAG + Telerik UI for .NET MAUI demo app.
 slug: maui-parag-demo-app
 tags: .net maui, ui for .net maui, .net maui controls, demo app, agentic rag
-position:1
+position: 1
 tag: new
 ---
 
@@ -70,7 +70,7 @@ dotnet nuget add source "https://nuget.telerik.com/v3/index.json" \
   --password "<your-telerik-password>"
 ```
 
-> note Replace `<your-telerik-email>` and `<your-telerik-password>` with your Telerik account credentials.
+> Replace `<your-telerik-email>` and `<your-telerik-password>` with your Telerik account credentials.
 
 ### 3. Configure Progress Agentic RAG
 
@@ -96,7 +96,7 @@ Update the `maui-progress-rag-demo/appsettings.json` file with your Progress Age
 }
 ```
 
-> security For production deployments, use environment variables or secure storage instead of storing credentials in configuration files.
+> For production deployments, use environment variables or secure storage instead of storing credentials in configuration files.
 
 ### 4. Restore Dependencies
 
