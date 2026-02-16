@@ -4,6 +4,7 @@ meta_title: Upgrading Projects - Visual Studio Integration
 description: Learn how to upgrade a Telerik UI for .NET MAUI project with the Visual Studio Upgrade Wizard.
 slug: vs-integration-upgrade-project
 position: 6
+tag: new
 ---
 
 # Upgrading Projects
