@@ -37,7 +37,7 @@ Explore the powerful AI-enhanced controls and features in Telerik UI for .NET MA
         description="The Telerik UI for .NET MAUI DataGrid control provides smart AI functionality for sorting, filtering, grouping, and column management.">
     </article-card>
         <article-card
-        href="/controls/treedatagrid/smart-ai-features/ai-assistant/overview"
+        href="/controls/treedatagrid/smart-ai-features/overview"
         src="./images/aicomponents/AI_Data_Operations_Light_Large.svg"
         title="AI Data Operations"
         subTitle="Smart Tree Data Grid Feature"

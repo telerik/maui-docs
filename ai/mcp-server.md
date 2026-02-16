@@ -5,6 +5,7 @@ description: Learn how to add and use the Telerik MAUI MCP Server as a .NET MAUI
 slug: ai-mcp-server
 tags: telerik,maui,ai,ai server,dotnetmaui,coding assistant
 position: 1
+tag: updated
 ---
 
 # Getting Started with the Telerik UI for .NET MAUI AI Coding Assistant (MCP Server)

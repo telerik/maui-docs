@@ -2,35 +2,36 @@
 title: Progress Agentic RAG + Telerik UI for .NET MAUI
 meta_title: .NET MAUI - Progress Agentic RAG Demo Application
 description: Learn how to download, configure, and run the Progress Agentic RAG + Telerik UI for .NET MAUI demo app.
-slug: maui-progress-rag-demo-app
-tags: .net maui, ui for .net maui, .net maui controls, demo app, agentic ragposition
-Position:1
+slug: maui-parag-demo-app
+tags: .net maui, ui for .net maui, .net maui controls, demo app, agentic rag
+position:1
+tag: new
 ---
 
 # Progress Agentic RAG Demo App with Telerik UI for .NET MAUI
 
-The **Telerik UI for .NET MAUI Progress Agentic RAG Demo App** integrates [Progress Agentic RAG](https://www.progress.com/agentic-rag) with Telerik UI for .NET MAUI controls to demonstrate agentic workflows, grounded chat, and retrieval-augmented generation across mobile and desktop. The app connects to multiple Nuclia Knowledge Boxes for domain-specific scenarios (general, charts/financial data, and documentation), showcases semantic search and citations, and uses Telerik UI components for rich visualizations and interactions.
+The **Telerik UI for .NET MAUI Progress Agentic RAG Demo App** is a comprehensive demo application showcasing the powerful integration between [Progress Agentic RAG AI-powered search capabilities](https://www.progress.com/agentic-rag) and Telerik UI for .NET MAUI controls. This application demonstrates how to build intelligent, data-driven cross-platform mobile and desktop interfaces that combine enterprise-grade AI retrieval with beautiful, functional user interfaces.
 
-For full overview, features, setup, and usage, see the GitHub page: <a href="https://github.com/telerik/telerik-maui-progress-rag-demo" target="_blank">Progress Agentic RAG + Telerik UI for .NET MAUI Demo</a>.
-
-This is how the app looks on desktop:
+Desktop look of the .NET MAUI Progress Agentic RAG Demo App:
 
 ![Telerik UI for .NET MAUI Progress Agentic RAG](images/parag-demo-maui-ai.png)
 
-And how the app looks on mobile:
+Mobile look of the .NET MAUI Progress Agentic RAG Demo App:
 
 ![Telerik UI for .NET MAUI Progress Agentic RAG Mobile](images/parag-demo-maui-ai-mobile.png)
+
+For full overview, features, setup, and usage, see the GitHub page: <a href="https://github.com/telerik/telerik-maui-progress-rag-demo" target="_blank">Progress Agentic RAG + Telerik UI for .NET MAUI Demo</a>.
 
 ## Prerequisites
 
 Before running this project, ensure you have:
 
-1. **.NET 9.0 SDK**—[Download here](https://dotnet.microsoft.com/download/dotnet/9.0).
+1. **.NET 9.0 SDK**&mdash;[Download here](https://dotnet.microsoft.com/download/dotnet/9.0).
 
 2. **Platform-specific requirements:**
-   - **Android:** Android SDK (API level 21 or higher).
-   - **iOS/macOS:** macOS with Xcode 15.0 or later.
-   - **Windows:** Windows 10 SDK (10.0.17763.0 or higher).
+   - **Android**&mdash;Android SDK (API level 21 or higher).
+   - **iOS/macOS**&mdash;macOS with Xcode 15.0 or later.
+   - **Windows**&mdash;Windows 10 SDK (10.0.17763.0 or higher).
 
 3. **Telerik UI for .NET MAUI license or trial**
    - Visit [Telerik UI for .NET MAUI](https://www.telerik.com/maui-ui) to obtain a license.
@@ -49,7 +50,7 @@ To run the Telerik UI for .NET MAUI Progress Agentic RAG Demo App, follow these 
 Execute the following command in your terminal to clone the demo app repository:
 
 ```bash
-git clone https://github.com/telerik/maui-progress-rag-demo.git
+git clone https://github.com/telerik/telerik-maui-progress-rag-demo
 ```
 
 Then navigate to the project directory:
@@ -58,7 +59,7 @@ Then navigate to the project directory:
 cd maui-progress-rag-demo
 ```
 
-### 2. Configure Telerik UI for .NET MAUI control Using the NuGet Package Sources
+### 2. Configure Telerik UI for .NET MAUI controls Using the NuGet Package Sources
 
 The Telerik packages require the Telerik NuGet feed. Add it to your NuGet configuration:
 
@@ -102,7 +103,7 @@ Update the `maui-progress-rag-demo/appsettings.json` file with your Progress Age
 Navigate to the project directory by running the following command:
 
 ```bash
-cd maui-progress-rag-demo
+cd telerik-maui-progress-rag-demo
 ```
 
 Then restore the NuGet packages:
@@ -146,9 +147,10 @@ For production deployments, configure the following environment variables:
 | `NucliaDbVerse__KnowledgeBoxId` | Knowledge Box ID for documentation |
 | `NucliaDbVerse__ApiKey` | API key for the verse Knowledge Box |
 
-For more details about the application structure and configuration, refer to the README file in the GitHub repo: <a href="https://github.com/telerik/maui-progress-rag-demo#readme" target="_blank">maui-progress-rag-demo</a>.
+For more details about the application structure and configuration, refer to the README file in the GitHub repo: <a href="https://github.com/telerik/telerik-maui-progress-rag-demo#readme" target="_blank">maui-progress-rag-demo</a>.
 
 ## See Also
 
+- [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
 - [Crypto Tracker App]({%slug maui-crypto-app%})

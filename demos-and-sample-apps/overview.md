@@ -5,6 +5,7 @@ description: "Explore a variety of Telerik .NET MAUI examples that demonstrate i
 slug: sampleapps-overview
 tags: .net maui, ui for .net maui, .net maui controls, sample applications, demos, .net maui samples
 position: 0
+tag: updated
 ---
 
 # .NET MAUI Examples, Demos, and Sample Apps Overview
@@ -18,7 +19,7 @@ The Telerik UI for .NET MAUI library offers an extensive set of fully featured e
 The following demo apps deliver a rich collection of .NET MAUI examples:
 
 * [Controls Samples App]({%slug controls-samples-app%})
-* [Progress Agentic RAG and Telerik UI for .NET MAUI control]({%slug parag-demo-maui-ai%})
+* [Progress Agentic RAG and Telerik UI for .NET MAUI controls]({%slug maui-parag-demo-app%})
 * [SDKBrowser App]({%slug sdkbrowser-app%})
 * [Crypto Tracker App]({%slug maui-crypto-app%})
 
@@ -43,7 +44,7 @@ The app provides a practical example of how to leverage AI in .NET MAUI applicat
 
 ![Telerik UI for .NET MAUI Progress Agentic RAG](images/parag-demo-maui-ai.png)
 
-For more information on it, refer to [.NET MAUI Progress Agentic RAG Demo App]({%slug parag-demo-maui-ai%}).
+For more information on it, refer to [.NET MAUI Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%}).
 
 ## .NET MAUI SDKBrowser App Examples
 
