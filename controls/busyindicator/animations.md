@@ -24,9 +24,9 @@ To change the selected animation of the BusyIndicator, use its `AnimationType` p
 To change the size and color of the animated element (animation content), use the following properties:
 
 * `AnimationContentWidthRequest` and `AnimationContentHeightRequest`&mdash;Define the animation size.
-* `AnimationColor`&mdash;Customizes the color of the built-in animation.
+* `AnimationContentColor`&mdash;Customizes the color of the built-in animation.
 
->important `AnimationContentWidthRequest`, `AnimationContentHeightRequest`, and `AnimationColor` won't be applied if you use custom animations.
+>important `AnimationContentWidthRequest`, `AnimationContentHeightRequest`, and `AnimationContentColor` won't be applied if you use custom animations.
 
 By default, the size of the animation content is `25x25` pixels.
 
