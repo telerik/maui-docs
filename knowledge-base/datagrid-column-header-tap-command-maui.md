@@ -5,7 +5,7 @@ type: how-to
 page_title: Implementing Custom Functionality for DataGrid Column Header Tap in UI for .NET MAUI
 meta_title: Implementing Custom Functionality for DataGrid Column Header Tap in UI for .NET MAUI
 slug: datagrid-column-header-tap-command-maui
-tags: datagrid,ui for .net maui,columnheader,command
+tags: datagrid, ui for .net maui, columnheader, command
 res_type: kb
 ---
 
@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-I need to execute a custom command, when a column header in the DataGrid is clicked. Is there a tapped command or similar functionality to bind custom logic to the header's clicked event?
+I need to execute a custom command when a column header in the DataGrid is clicked. Is there a tapped command or similar functionality to bind custom logic to the header's click event?
 
 This knowledge base article also answers the following questions:
 
@@ -38,6 +38,9 @@ To execute custom logic when a DataGrid column header is clicked, use the `Colum
         <telerik:DataGridNumericalColumn HeaderText="Age" PropertyName="Age" />
         <telerik:DataGridTextColumn HeaderText="Email" PropertyName="Email" />
     </telerik:RadDataGrid.Columns>
+    <telerik:RaddataGrid.BindingContext>
+        <local:MainViewModel />
+    </telerik:RaddataGrid.BindingContext>
 </telerik:RadDataGrid>
 ```
 
@@ -46,11 +49,11 @@ To execute custom logic when a DataGrid column header is clicked, use the `Colum
 ```csharp
 public class MainViewModel
 {
-    public ObservableCollection<Models.Person> Items { get; } = new()
+    public ObservableCollection<Person> Items { get; } = new()
     {
-        new Models.Person { Name = "Alice", Age = 30, Email = "" },
-        new Models.Person { Name = "Bob", Age = 25, Email = "" },
-        new Models.Person { Name = "Charlie", Age = 35, Email = "" }
+        new Person { Name = "Alice", Age = 30, Email = "" },
+        new Person { Name = "Bob", Age = 25, Email = "" },
+        new Person { Name = "Charlie", Age = 35, Email = "" }
     };
 }
 
