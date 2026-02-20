@@ -26,7 +26,7 @@ To download the ZIP archive with the Telerik UI for .NET MAUI controls:
 
 The `ZIP` archive contains the following folders:
 
-* `Binaries`&mdash;Includes the `Net8` and `Net9` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to [manually reference]({%slug assembly-references%}) the Telerik UI for .NET MAUI DLLs in your app.
+* `Binaries`&mdash;Includes the `Net9` and `Net10` folders. Each folder contains the needed assemblies for Android, iOS, MacCatalyst, and WinUI. You can use them to [manually reference]({%slug assembly-references%}) the Telerik UI for .NET MAUI DLLs in your app.
 
 * `Examples`&mdash;Contains the sample applications demonstrating the Telerik UI for .NET MAUI controls. For more details, go to the [Sample Applications]({%slug sampleapps-overview%}) section.
 

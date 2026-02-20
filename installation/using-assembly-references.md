@@ -14,12 +14,12 @@ Apart from using NuGet packages to install the controls, you can also reference 
 
 @[template](/_contentTemplates/common/manual-packages.md#manual-packages-location)
 
-The `Binaries/Net8` and `Binaries/Net9` folders contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
+The `Binaries/Net9` and `Binaries/Net10` folders contain the Android, iOS, MacCatalyst, and WinUI platform-specific folders with all assemblies you need.
 
 To manually reference the assemblies:
 
 1. Create a `libs` folder in your solution folder.
-1. Copy the content of the `Binaries/Net8` or `Binaries/Net9` folder into your `libs` folder.
+1. Copy the content of the `Binaries/Net9` or `Binaries/Net10` folder into your `libs` folder.
 1. In your solution, reference the DLLs in the `libs` folder.
 
 >important As some of the controls included in Telerik UI for .NET MAUI suite rely on the SkiaSharp rendering library, you must also install the `SkiaSharp.Views.Maui.Controls.Compatibility` NuGet package.

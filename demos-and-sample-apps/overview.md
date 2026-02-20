@@ -24,7 +24,7 @@ The following demo apps deliver a rich collection of .NET MAUI examples:
 * [Crypto Tracker App]({%slug maui-crypto-app%})
 
 > Telerik UI for .NET MAUI version 12.0.0 adds support for .NET 10.0. You can easily switch the .NET version to .NET 9.0 or .NET 10 to build the apps. 
-> Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet8.ps1` and `SwitchToNet9.ps1`. You can use them to switch the .NET version you use to build the .NET MAUI sample apps.
+> Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet9.ps1` and `SwitchToNet10.ps1`. You can use them to switch the .NET version you use to build the .NET MAUI sample apps.
 
 ## .NET MAUI Controls Samples App
 

@@ -52,7 +52,7 @@ You can access the SDKBrowser application in the following ways:
 **2.** Run on macOS using the following command:
 
 ```SH
-dotnet build -t:Run -f net8.0-maccatalyst
+dotnet build -t:Run -f net9.0-maccatalyst
 ```
 
 * CryptoTracker application on MacOS.
@@ -62,10 +62,10 @@ dotnet build -t:Run -f net8.0-maccatalyst
 **3.** Run on iOS using the following command:
 
 ```SH
-dotnet build -t:Run -f net8.0-ios
+dotnet build -t:Run -f net9.0-ios
 ``` 
 
-This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
+This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net9.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
  
  To find the ID: 
   1. Open Xcode.
