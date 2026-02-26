@@ -13,7 +13,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 13.0.0 | Telerik UI for .NET MAUI CollectionView| [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 13.0.0 | Telerik UI for .NET MAUI CollectionView | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
