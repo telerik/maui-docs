@@ -31,6 +31,8 @@ This knowledge base article also answers the following questions:
 ## Solution
 
 Use one of the following approaches to manage the `SortOrder` dynamically:
+* [Approach 1: Managing GroupDescriptors Collection](#approach-1-managing-groupdescriptors-collection)
+* [Approach 2: Using Attached Property](#approach-2-using-attached-property)
 
 ### Approach 1: Managing GroupDescriptors Collection
 
