@@ -19,29 +19,29 @@ For implementing programmatic scrolling to a specific item, the DataGrid exposes
 
 The following example shows how to scroll to the last item of the DataGrid. The code executes on a button click.
 
-1. Define the DataGrid in XAML:
+**1.** Define the DataGrid in XAML:
 
-<snippet id ='datagrid-scrolling'/>
+<snippet id='datagrid-scrolling'/>
 
-1. Define the button, which will execute the scroll-to-item action:
+**2.** Define the button, which will execute the scroll-to-item action:
 
-<snippet id ='button-scrolling-to-item'/>
+<snippet id='button-scrolling-to-item'/>
 
-1. Add the `telerik` namespace:
+**3.** Add the `telerik` namespace:
  
 `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"`
 
-1. 1. On button click, call the `ScrollItemIntoView` method:
+**4.** On button click, call the `ScrollItemIntoView` method:
 
-<snippet id ='datagrid-scrolltoitem'/>
+<snippet id='datagrid-scrolltoitem'/>
 
-1. Define the data model:
+**5.** Define the data model:
 
-<snippet id ='datagrid-scrolling-datamodel'/>
+<snippet id='datagrid-scrolling-datamodel'/>
 
-1. Define the `ViewModel`:
+**6.** Define the `ViewModel`:
 
-<snippet id ='datagrid-scrolling-viewmodel'/>
+<snippet id='datagrid-scrolling-viewmodel'/>
 
 The following video shows the end result.
 
@@ -54,29 +54,29 @@ If the column is frozen or not part of the grid, no scrolling will occur. The sc
 
 The following example shows how to scroll to the last column of the DataGrid. The code executes on a button click.
 
-1. Define the DataGrid in XAML:
+**1.** Define the DataGrid in XAML:
 
-<snippet id ='datagrid-scrolling'/>
+<snippet id='datagrid-scrolling'/>
 
-1. Define the button, which will execute the scroll-to-column action:
+**2.** Define the button, which will execute the scroll-to-column action:
 
-<snippet id ='button-scrolling-to-column'/>
+<snippet id='button-scrolling-to-column'/>
 
-1. Add the `telerik` namespace:
- 
+**3.** Add the `telerik` namespace:
+
 `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"`
 
-1. 1. On button click, call the `ScrollColumnIntoView` method:
+**4.** On button click, call the `ScrollColumnIntoView` method:
 
-<snippet id ='datagrid-scrolltocolumn'/>
+<snippet id='datagrid-scrolltocolumn'/>
 
-1. Define the data model:
+**5.** Define the data model:
 
-<snippet id ='datagrid-scrolling-datamodel'/>
+<snippet id='datagrid-scrolling-datamodel'/>
 
-1. Define the `ViewModel`:
+**6.** Define the `ViewModel`:
 
-<snippet id ='datagrid-scrolling-viewmodel'/>
+<snippet id='datagrid-scrolling-viewmodel'/>
 
 The following video shows the end result.
 

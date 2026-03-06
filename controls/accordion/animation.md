@@ -21,7 +21,7 @@ You can also customize the duration and easing through `AnimationDuration` and `
 
 ## Example
 
-The snippet below shows how the `AnimationDuration`, `AnimationEasing` properties can be applied:
+The snippet below shows how the `AnimationDuration` and `AnimationEasing` properties can be applied:
 
 <snippet id='accordion-key-features-xaml'/>
 
