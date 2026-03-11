@@ -19,33 +19,6 @@ This feature consists of:
 - `RefreshRequested`&mdash;A public event which is raised when the pull-to-refresh gesture is triggered. The custom data refreshing logic have to be implemented in its handler.
 - `EndRefresh()`&mdash;A public method which must be called when the custom data refreshing logic finishes executing.
 
-
-## Example
-
-This example demonstrates how to enable the pull to refresh functionality.
-
-**1.** Add the ListView definition:
-
-<snippet id='listview-gestures-pulltorefresh-listview'/>
-
-**2.** Define the `telerik` namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
-```
-
-**3.** Set sample Items Source to the ListView:
-
-<snippet id='listview-gestures-pulltorefresh-source'/>
-
-**4.** Add the `RefreshRequested` method that updates the source of the ListView when refresh is triggered:
-
-<snippet id='listview-gestures-pulltorefresh-event'/>
-
-This is how the refresh indicator looks like:
-
-![.NET MAUI ListView PullToRefresh](images/listview-gestures-pull-to-refresh.png)
-
 ## Troubleshooting
 
 ListView should not be used in a View that restricts the Height to the minimum amount of vertical space. An example is `StackLayout` or a Grid with `<RowDefinition Height="Auto" />`. This will restrict the ListView from expanding when items are populated and  prevents Pull To Refresh from working correctly.

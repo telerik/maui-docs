@@ -38,25 +38,6 @@ Three options to load the data on demand, regardless of whether you use the `Aut
 
 To load items on demand, you can use the `ListViewLoadOnDemandCollection` and set it as an `ItemsSource` for the ListView. The `ListViewLoadOnDemandCollection` accepts an action in the constructor and this action is later executed by the ListView in a non-UI thread when new items are requested.
 
-The example below demonstrates how to use the `LoadOnDemandCollection`:
-
-**1.** Define a sample `ViewModel` class with the `Source` property of type `ListViewLoadOnDemandCollection`:
-
-<snippet id='listview-loadondemand-loadondemandcollection-viewmodel'/>
-
-**2.** Define the ListView instance and bind its `ItemsSource` to the data in the `ViewModel`:
-
-<snippet id='listview-loadondemand-loadondemandcollection-declaration'/>
-
-**3.** Add the `telerik` namespace:
-
- ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
- > For a runnable example with the ListView load-on-demand collection scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
-
-
 ### Using LoadOnDemand Event
 
 Another way to handle loading more items is to use the `LoadOnDemand` event. This event is raised on a UI thread, so in the event handler you can add items right away or asynchronously:
@@ -64,47 +45,12 @@ Another way to handle loading more items is to use the `LoadOnDemand` event. Thi
 * In case the data is available right away, add the items to the ListView `ItemsSource` in the `LoadOnDemand` event handler.
 * If you require an async operation, set the `IsLoadOnDemandActive` property of the ListView to `True`. This notifies the ListView that it must display the loading indicator. Then an async call can be initiated to get the data. When the new items are ready, you must set the `IsLoadOnDemandActive` property to `False` again to notify the ListView that the load-on-demand operation is completed.
 
-The example below demonstrates how to use the LoadOnDemand event:
-
-**1.** Define the ListView:
-
-<snippet id='listview-loadondemand-loadondemandeventauto-declaration' />
-
-**2.** Set the ListView `ItemsSource` , for example in the page constructor:
-
-<snippet id='listview-loadondemand-loadondemandeventauto-bind'/>
-
-**3.** Add the following event handler:
-
-<snippet id='listview-loadondemand-loadondemandeventauto-event'/>
-
- > For a runnable example with the ListView load-on-demand event scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
-
-
 ### Using LoadOnDemand Command
 
 This approach is similar to [using the LoadOnDemand event](#using-loadondemand-event), but in this case, the load-on-demand is handled in the `ViewModel` through the `LoadOnDemandUserCommand` exposed by the ListView. In the `Execute` method of the command, you can add items right away or asynchronously:
 
 * If the data is available right away, add the items to the ListView `ItemsSource` in the `LoadOnDemand` command `Execute` method.
 * If you require an async operation, set the `IsLoadOnDemandActive` property of the ListView to `True`. This notifies the ListView that it must display the loading indicator. Then an async call can be initiated to get the data. When the new items are ready, you must set the `IsLoadOnDemandActive` property to `False` again to notify the ListView that the load-on-demand operation is completed. You can control the behavior of `IsLoadOnDemandActive` through a binding to a boolean property in the `ViewModel` class.
-
-The example below demonstrates how to use the `LoadOnDemand` command:
-
-**1.** Create a `ViewModel` class with a `LoadItemsCommand` as well as the `IsLoadingMoreItems` property:
-
-<snippet id='listview-loadondemand-loadondemandcommand-viewmodel'/>
-
-**2.** Define the `RadListView` instance in XAML with the `ListViewUserCommand` defined as well as the `IsLoadOnDemandActive` property bound to the boolean property in the `ViewModel`:
-
-<snippet id='listview-loadondemand-loadondemandcommand-declaration'/>
-
-**3.** Add the `telerik` namespaces:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
- > For a runnable example with the ListView load-on-demand command scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 ## Advanced Options
 
@@ -118,19 +64,11 @@ This feature works in conjunction with the [LoadOnDemandMode.Automatic mode of t
 
 This feature works in conjunction with the [LoadOnDemandMode.Manual mode of the ListView]({%slug listview-features-load-on-demand%}#manual-loading-mode). You can control the content of the Load More Button through the `LoadOnDemandItemTemplate` property.
 
-<snippet id='listview-loadondemand-loadondemandcustomizations-lodbutton' />
-
- > For a runnable example with the ListView load-on-demand manual button customization scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
-
 ### Change the Appearance of the Manual Loading Indicator
 
 This feature works in conjunction with the [LoadOnDemandMode.Manual mode of the ListView]({%slug listview-features-load-on-demand%}#manual-loading-mode).
 
 You can control the content of the Loading Indicator through the `LoadingOnDemandItemTemplate` property.
-
-<snippet id='listview-loadondemand-loadondemandcustomizations-loadingindicator'/>
-
- > For a runnable example with the ListView load-on-demand manual loading indicator, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ListView > LoadOnDemand** category.
 
 ## See Also
 

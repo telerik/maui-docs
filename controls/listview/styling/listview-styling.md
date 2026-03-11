@@ -42,20 +42,6 @@ This enumeration contains the following members:
 - `Right`&mdash;The border will be visualized only at the right side.
 - (Default) `All`&mdash;The border will be visualized all around the item.
 
-### Example
-
-<snippet id='listview-styling-listview-xaml'/>
-
-The following image shows a ListView with its `ItemStyle` and `SelectedItemStyle` applied.
-
-![.NET MAUI ListView Item and Selected Item Styling](../images/listview_features_itemstyle.png)
-
-The following image shows a ListView with its `ReorderItemStyle` applied.
-
-![.NET MAUI ListView reorder items styling](../images/listview_features_reorderItemstyle.png)
-
-> For a Item Styles example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
-
 ## See Also
 
 - [Selection]({%slug listview-features-selection%})

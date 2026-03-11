@@ -26,30 +26,6 @@ The `ReorderEndedCommandContext` gives you access to the following properties:
 * `DestinationGroup`&mdash;Refers to the group that corresponds to the location where the dragged item has been released.
 * `Placement` (of type `ItemReorderPlacement`)&mdash;Indicates whether the dragged item have to be placed before or after the destination item.
 
-Below you can find a sample implementation.
-
-**1.** The `RadListView` definition with the `PropertyGroupDescriptor` and `Reorder` command applied:
-
-<snippet id='listview-grouping-reorderitems-xaml' />
-
-**2.** Include the `telerik` namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
-```
-
-**3.** Create a `ViewModel` class containing a collection of `Event` objects as well as a `Reorder` command implementation considering the `Events` will be grouped according to the `Day` property. Inside the `Reorder` command you will have access to some useful details through the `ReorderEndedCommandContext` such as:
-
-<snippet id='listview-grouping-reorderitems-viewmodel' />
-
-**4.** And the business model:
-
-<snippet id='listview-grouping-reorderitems-businessobject'/>
-
-The following image shows the result:
-
-![.NET MAUI ListView Reorder in grouped scenario](../images/listview_grouping_reorderitems.png)
-
 ## See Also
 
 - [Grouping]({%slug listview-features-grouping%})
