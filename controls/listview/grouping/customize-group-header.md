@@ -23,42 +23,6 @@ The `BindingContext` of the `GroupHeader` is a complex object and it includes th
 
 In addition, you can create a custom `GroupHeaderTemplate` to achieve the desired look when grouping the ListView.
 
-**1.** Define the `GroupHeaderTemplate`:
-
-```XAML
-<DataTemplate x:Key="ListViewGroupHeaderTemplate">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <Label Text="&#x25B8;" Margin="8, 12, 0, 6" TextColor="DarkGray" FontSize="Medium">
-            <Label.Triggers>
-                <DataTrigger TargetType="Label" Binding="{Binding IsExpanded}" Value="True">
-                    <Setter Property="Text" Value="&#x25BE;" />
-                </DataTrigger>
-            </Label.Triggers>
-        </Label>
-        <Label Margin="0, 12, 0, 6" Text="{Binding Key}" Grid.Column="1" TextColor="DarkGray" FontSize="Medium" HorizontalOptions="Start" />
-    </Grid>
-</DataTemplate>
-```
-
-**2.** Set the template to the `RadListView`:
-
-```XAML
-<telerik:RadListView x:Name="listView" 
-					 ItemsSource="{Binding Cities}"
-                     GroupHeaderTemplate="{StaticResource ListViewGroupHeaderTemplate}">
-    <telerik:RadListView.BindingContext>
-        <local:GroupingViewModel/>
-    </telerik:RadListView.BindingContext>
-    <telerik:RadListView.GroupDescriptors>
-        <telerikListView:PropertyGroupDescriptor PropertyName="Country"/>
-    </telerik:RadListView.GroupDescriptors>
-</telerik:RadListView>
-```
-
 ## See Also
 
 - [Filtering]({%slug listview-features-filtering%})

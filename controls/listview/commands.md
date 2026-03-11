@@ -49,30 +49,6 @@ Each command has a `context` object of type `[CommandId]CommandContext`. The ava
 
  >important When overriding the `ReorderEnded` and `GroupHeaderTap` commands you have to implement the action each command does. For example, manually reorder items and manually update the group `IsExpanded` state. 
 
-## Inheriting from ListViewCommand
-
-To demonstrate inheriting from the `ListViewCommand`, the following example handles the `ItemTap` action as a Command:
-
-**1.** Create a class that inherits from the `ListViewCommand` and set its `Id` property. Then override the `CanExecute` and `Execute` methods:
-
-<snippet id='listview-features-commands-listviewcommand'/>
-
-**2.**. Add the custom command to the Commands collection of the `RadListView` instance:
-
-<snippet id='listview-features-commands-add'/>
-
-## Binding ListViewUserCommand
-
-With the `ListViewUserCommand` binding approach, you can directly handle the custom commands in the `ViewModel`.
-
-**1.**. Add the custom command to the `ViewModel`:
-
-<snippet id='listview-features-commands-viewmodel'/>
-
-**2.** Bind the `ItemTapCommand` through the predefined `ListViewUserCommand` command. Its `Id` property is used to map the command to the corresponding action with the control:
-
-<snippet id='listview-commands-listviewusercommand-xaml'/>
-
 ## See Also
 
 - [Events]({%slug listview-features-events%})

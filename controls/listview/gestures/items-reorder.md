@@ -15,26 +15,6 @@ The items reorder feature allows end-users reorder the list view data items. If 
 
 Reorder functionality can be enabled by setting the `IsItemsReorderEnabled` property to `true`.
 
-## Example
-
-This example will demonstrate how to enable the items reorder functionality and style the list view items.
-
-**1.** Add the ListView definition:
-
-<snippet id='listview-gestures-reorderitems-listview'/>
-
-**2.** Define the `telerik` namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                 
-```
-
-**3.** Add a simple Items Source to the ListView:
-
-<snippet id='listview-gestures-reorderitems-code'/>
-
-Here is the result:
-
 ![.NET MAUI ListView Reorder Items](images/listview-gestures-reorder.png)
 
 >You can also take advantage of the [Reorder Events]({% slug listview-features-events %}#groupreorder-events) for additional control over the reorder functionality of the ListView.

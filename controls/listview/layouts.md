@@ -25,24 +25,6 @@ Here are the properties exposed by the `ListViewLayoutBase` class:
 
 Linear layout is the default layout of the control. It can be explicitly set by creating an instance of the `ListViewLinearLayout` class and assigning it to the `RadListView.LayoutDefinition` property.
 
-The following example demonstrates how to use the `RadListViewLinearLayout`.
-
-**1.** Define the list view in XAML:
-
-<snippet id='listview-layouts-linearlayout-listview'/>
-
-**2.** Add the `telerik` namespace:
-
- ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
- ```
-
-**3.** Add the `ViewModel` class with the `ItemsSource` collection:
-
-<snippet id='listview-layouts-linearlayout-source'/>
-
-The following image shows the result:
-
 ![.NET MAUI ListView Layouts Linear Vertical](images/listview-layouts-linear.png)
 
 ## Grid Layout
@@ -50,18 +32,6 @@ The following image shows the result:
 The Grid Layout allows distributing cells in a fixed number of columns/rows. To the basic layout properties, it exposes the `SpanCount` (`int`) property, which gets or sets the count of the columns/rows (depending on the orientation) of the list.
 
 The grid layout can be utilized by setting the `RadListView.LayoutDefinition` property to a new instance of the `ListViewGridLayout` class.
-
-The following example demonstrates how to use the `RadListViewGridLayout`.
-
-**1.** Define the list view in XAML:
-
-<snippet id='listview-layouts-gridlayout-listview'/>
-
-**2.** Add the `ViewModel` class with the `ItemsSource` collection:
-
-<snippet id='listview-layouts-linearlayout-source'/>
-
-The following image shows the result:
 
 ![.NET MAUI ListView Layouts Grid](images/listview-layouts-grid.png)
 

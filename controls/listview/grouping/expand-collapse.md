@@ -30,40 +30,11 @@ var dataView = this.listView.GetDataView();
 
 To expand all groups, use the `ExpandAll` method. To collapse all groups, use the `CollapseAll` method.
 
-```C#
-//expand all
-var dataView = this.listView.GetDataView();
-dataView.ExpandAll();
-
-//collapse all
-var dataView = this.listView.GetDataView();
-dataView.CollapseAll();
-```
-
 ## Expand and Collapse a Certain Group
 
 You can retrieve the first-level groups through the `GetGroups` method of the `IDataViewCollection` object and use `ExpandGroup`/`CollapseGroup` to make a certain group to expand or collapse respectively. You can check whether a group is expanded trough the `GetIsExpanded` method.
 
-Here is quick snippet on how these methods are used:
-
-```C#
-var dataView = this.listView.GetDataView();
-var rootGroups = dataView.GetGroups();
-
-var isFirstExpanded = dataView.GetIsExpanded(rootGroups.First());
-//expand a certain group
-dataView.ExpandGroup(rootGroups.First());
-//collapse a certain group
-dataView.CollapseGroup(rootGroups.First());
-```
-
 Additionally, `IDataViewCollection` provides the `ExpandItem`/`CollapseItem` methods that take a ListView item as a parameter and expand/collapse the immediate group containing this item.
-
-```C#
-var lastItem = (listView.ItemsSource as IEnumerable<City>).Last();
-var dataView = this.listView.GetDataView();
-dataView.CollapseItem(lastItem);
-```
 
 ## Handle the GroupHeaderTap Command
 
@@ -72,34 +43,6 @@ The `GroupHeaderTap` command is raised when a group header of a grouped ListView
 By handling the `GroupHeaderTap` command, you can control the collapse/expand behavior of a certain group. The next example shows how to prevent the first-level groups from hiding their items.
 
 >tip For more information on using the ListView commands, refer to the [Commands]({%slug listview-features-commands%}) topic.
-
-**1.** Define the `GroupHeaderTapCommand` class that derives from `ListViewCommand`:
-
-```C#
-public class GroupHeaderTapCommand : ListViewCommand
-{
-	public GroupHeaderTapCommand()
-	{
-		Id = CommandId.GroupHeaderTap;
-	}
-	public override bool CanExecute(object parameter)
-	{
-		return true;
-	}
-	public override void Execute(object parameter)
-	{
-		var context = parameter as GroupHeaderContext;
-		if (context.Level > 1)
-			context.IsExpanded = !context.IsExpanded;
-	}
-}
-```
-
-**2.** Add the `GroupHeaderTapCommand` to the `Commands` collection of the ListView instance:
-
-```C#
-listView.Commands.Add(new GroupHeaderTapCommand());
-```
 
 ## See Also
 

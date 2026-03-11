@@ -24,26 +24,6 @@ The `ListViewGroupStyle` provides means for customizing the border as well as ba
 
 >important To learn more about the grouping functionality of the ListView, refer to the [Grouping Overview]({%slug listview-features-grouping%}) topic.
 
-### Example
-
-**1.** Create a `City` class:
-
-<snippet id='listview-groupstyle-source'/>
-
-**2.** Add a `ViewModel` class:
-
- <snippet id='listview-groupstyle-viewmodel'/>
-
-**3.** Add the `RadListView` definition with a `GroupHeaderStyle` applied:
-
-<snippet id='listview-groupstyle-listview-xaml' />
-
-The following image shows the end result:
-
-![.NET MAUI ListView Styling Group Header](../images/listview_styling_groupheader.png)
-
-> For a Group Header Style example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ListView -> Styling category.
-
 ## See Also
 
 - [Grouping]({%slug listview-features-grouping%})
