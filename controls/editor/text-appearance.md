@@ -57,17 +57,14 @@ The following example demonstrates how to set the maximum length of the input to
 
 ## Defining the Max Lines
 
-The `MaxLines` (`int`) property of the `RadMultilineTextInput` allows you to set a maximum number of lines for the Editor input. By default, the `MaxLines` is set to `0`, which means that there is no limit on the number of lines.
+The `MaxLines` (`int`) property allows you to set a maximum number of lines for the Editor input. By default, the `MaxLines` is set to `0`, which means that there is no limit on the number of lines.
 
-Here is an example of how to set the `MaxLines` property at the `RadMultilineTextInput` level and using implicit style:
+Here is an example of how to set the `MaxLines` property:
 
 ```XAML
-<Style TargetType="telerik:RadMultilineTextInput">
-    <Setter Property="MaxLines" Value="20" />
-</Style>
-
-
-<telerik:RadEditor />
+<telerik:RadEditor x:Name="telerikEntry"
+				   Placeholder="Enter text"
+				   MaxLines="10" />
 ```
 
 ## Setting Spacing Between the Characters
