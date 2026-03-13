@@ -57,6 +57,15 @@ The DataGrid delivers the `SelectionChanged` event which is triggered whenever t
 
 For more information, see the article about the [`SelectionChanged` event of the .NET MAUI DataGrid]({%slug datagrid-selection-overview%}).
 
+## Get the Items in the Viewport
+
+The DataGrid provides a `VisibleItemsChanged` event which is triggered when the items in the viewport are changed during operations such as scrolling, resizing, grouping, sorting, filtering, etc. The `VisibleItemsChanged` event handler receives the following parameters:
+
+* The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
+* A `DataGridVisibleItemsChangedEventArgs` object, which provides the following properties:
+	- `AddedItems`&mdash;Gets the items that have become visible in the viewport since the last change.
+	- `RemovedItems`&mdash;Gets the items that are no longer visible in the viewport since the last change.
+
 ## Changing the Current Cell
 
 The DataGrid also supports the `CurrentCellChanged` event which is invoked when the current cell changes. The `CurrentCellChanged` event handler receives the following parameters:
