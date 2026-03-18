@@ -13,7 +13,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 13.1.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 13.0.1 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
@@ -32,7 +32,7 @@ To hide the large "+" and "-" buttons, customize the `CellEditorStyle` of the `D
 2. Define a style for the `RadNumericInput` that applies the button style to its `IncreaseButtonStyle` and `DecreaseButtonStyle` properties.
 3. Apply the `CellEditorStyle` to the `DataGridNumericalColumn`.
 
-Here is the XAML code:
+The following XAML implements all three steps above:
 
 ```xml
 <ContentPage.Resources>
