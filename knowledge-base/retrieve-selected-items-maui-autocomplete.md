@@ -29,7 +29,7 @@ This knowledge base article also answers the following questions:
 
 To retrieve selected items in AutoComplete for .NET MAUI, bind the `Tokens` property using `Mode=OneWayToSource`. Use an observable collection in the ViewModel to track the selected tokens. Below is the implementation:
 
-**1.** AutoComplete definition in XAML:
+1. AutoComplete definition in XAML:
 
 ```xaml
 <VerticalStackLayout>
@@ -42,7 +42,7 @@ To retrieve selected items in AutoComplete for .NET MAUI, bind the `Tokens` prop
 </VerticalStackLayout>
 ```
 
-**2.** `ViewModel` Implementation
+2. `ViewModel` Implementation
 
 Define a `SelectedTokens` property that listens for changes in the collection and handles logic accordingly:
 
