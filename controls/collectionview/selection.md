@@ -18,11 +18,20 @@ The CollectionView provides three selection modes, which allow you to manipulate
 - `Single` (default)&mdash;The users can select only one item.
 - `Multiple`&mdash;The users can select more than one item.
 
-Multple selection on desktop:
+The following images show multiple selection on desktop:
 
 ![.NET MAUI CollectionView Multiple Selection](images/collectionview-multiple-selection-desktop.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView Multiple Selection and Disabled Selection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
+
+## Selection Gesture
+
+The CollectionView provides two selection gestures for selecting items in the control. The selection gesture defines how the users can select items in the CollectionView. The `SelectionGesture` (`enum` of type `Telerik.Maui.Controls.CollectionView.CollectionViewSelectionGesture`) property controls the selection gesture and accepts the following values:
+
+- `Tap` (default)&mdash;The users can select item(s) by tapping on them.
+- `Hold`&mdash;The users can select item(s) by holding on them.
+
+> For a runnable example demonstrating the CollectionView Hold Selection Gesture, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
 
 ## Selected Item
 
