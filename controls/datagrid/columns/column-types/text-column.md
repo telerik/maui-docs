@@ -32,7 +32,8 @@ Here are the specific properties for the Text Columns:
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [`String.Format`](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.8) article.
 
@@ -45,11 +46,13 @@ Here is an example how the Text Column properties can be used:
                             HeaderText="Name"
 							CellContentFormat="FC {0}">
 	<telerik:DataGridTextColumn.CellContentStyle>
-    	<telerik:DataGridTextCellStyle TextColor="Green"
-                                       FontSize="15"
-                                       SelectedTextColor="Orange"/>
- 	</telerik:DataGridTextColumn.CellContentStyle>
- </telerik:DataGridTextColumn>
+		<Style TargetType="telerik:DataGridTextCellAppearance">
+			<Setter Property="FontSize" Value="15" />
+			<Setter Property="TextMargin" Value="2" />
+			<Setter Property="SelectedTextColor" Value="Orange" />
+		</Style>
+	</telerik:DataGridTextColumn.CellContentStyle>
+</telerik:DataGridTextColumn>
 ```
 
 ![DataGrid Text Column](images/textcolumn-overview.png)

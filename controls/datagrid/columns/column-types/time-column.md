@@ -28,7 +28,8 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) and [Custom Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) articles.
 
@@ -36,13 +37,7 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 ```XAML
 <telerik:DataGridTimeColumn PropertyName="Time"
                             HeaderText="Time Column"
-                            CellContentFormat="{}{0: hh:mm:ss}">
-    <telerik:DataGridTimeColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle TextColor="Lime"
-                                       FontSize="18"
-                                       SelectedTextColor="Red" />
-    </telerik:DataGridTimeColumn.CellContentStyle>
-</telerik:DataGridTimeColumn>
+                            CellContentFormat="{}{0: hh:mm:ss}" />
 ```
 
 ![DataGrid Time Column](images/timecolumn-overview.png)

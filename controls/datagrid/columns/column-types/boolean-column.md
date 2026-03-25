@@ -28,19 +28,14 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [`String.Format`](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.8) article.
 
 ```XAML
 <telerik:DataGridBooleanColumn PropertyName="IsChampion"
-                               HeaderText="Champion?">
-    <telerik:DataGridBooleanColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle TextColor="Green"
-                                       FontSize="18"
-                                       SelectedTextColor="Blue" />
-    </telerik:DataGridBooleanColumn.CellContentStyle>
-</telerik:DataGridBooleanColumn>
+                               HeaderText="Champion?" />
 ```
 
 ![DataGrid Boolean Column](images/booleancolumn-overview.png)

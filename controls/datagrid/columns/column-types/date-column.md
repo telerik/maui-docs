@@ -28,20 +28,15 @@ The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Te
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) and [Custom Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) articles.
 
 ```XAML
 <telerik:DataGridDateColumn PropertyName="Established"
                             HeaderText="Date Established"
-                            CellContentFormat="{}{0: ddd-d-MMM-yyyy}">
-    <telerik:DataGridDateColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle TextColor="LightBlue"
-                                       FontSize="18"
-                                       SelectedTextColor="Blue" />
-    </telerik:DataGridDateColumn.CellContentStyle>
-</telerik:DataGridDateColumn>
+                            CellContentFormat="{}{0: ddd-d-MMM-yyyy}" />
 ```
 
 ![DataGrid Date Column](images/datecolumn-overview.png)
