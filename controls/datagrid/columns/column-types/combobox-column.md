@@ -34,7 +34,8 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [String.Format](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.8) article.
 
@@ -44,13 +45,7 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
 <telerik:DataGridComboBoxColumn PropertyName="Country"
                                 HeaderText="Country"
                                 CellContentFormat="Picked: {0}"
-                                ItemsSourcePath="Countries">
-    <telerik:DataGridComboBoxColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle SelectedTextColor="DarkGreen"
-                                       TextColor="Black"
-                                       FontSize="15" />
-    </telerik:DataGridComboBoxColumn.CellContentStyle>
-</telerik:DataGridComboBoxColumn>
+                                ItemsSourcePath="Countries" />
 ```
 
 ![DataGrid ComboBox Column](images/pickercolumn-overview.png)
@@ -70,20 +65,20 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
                         <Label Text="{Binding Country}"
                                Margin="0, 5, 0, 5"
                                HorizontalOptions="Center"
-                               VerticalTextAlignment="Center" /> 
+                               VerticalTextAlignment="Center" />
                     </Grid>
                     <Label Text="Some Custom Text"
                            TextColor="DarkGreen"
-                           FontSize="10" />  
+                           FontSize="10" />
                 </VerticalStackLayout>
             </Grid>
         </DataTemplate>
-    </telerik:DataGridColumn.CellContentTemplate>	
+    </telerik:DataGridColumn.CellContentTemplate>
 	<telerik:DataGridColumn.CellEditTemplate>
         <DataTemplate>
            <!-- add the control here for example: <Picker/> <telerik:RadComboBox/>-->
         </DataTemplate>
-    </telerik:DataGridColumn.CellEditTemplate>						 
+    </telerik:DataGridColumn.CellEditTemplate>
 </telerik:DataGridComboBoxColumn>
 ```
 

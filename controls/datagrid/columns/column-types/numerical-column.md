@@ -28,7 +28,8 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 * `IsFrozen`(`bool`)&mdash;Specifies whether the column is frozen. The default value is `False`.
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
->tip For more information about `CellDecorationStyle` and  `CellDecorationStyleSelector`, refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Numeric Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) and [Custom Numeric Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings) articles.
 
@@ -37,13 +38,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 ```XAML
 <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity"
                                      HeaderText="Stadium Capacity"
-                                     CellContentFormat=" Seats - {0:D}">
-    <telerik:DataGridNumericalColumn.CellContentStyle>
-        <telerik:DataGridTextCellStyle TextColor="Green"
-                                           FontSize="18"
-                                           SelectedTextColor="LightCoral" />
-    </telerik:DataGridNumericalColumn.CellContentStyle>
-</telerik:DataGridNumericalColumn>
+                                     CellContentFormat=" Seats - {0:D}" />
 ```
 
 ![DataGrid Numerical Column](images/numericalcolumn-overview.png)
