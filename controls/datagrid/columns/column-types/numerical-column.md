@@ -29,6 +29,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 * `DataGrid`(`RadDataGrid`)&mdash;Gets the corresponding `RadDataGrid` control.
 
 > For more information about `CellContentStyle` and `CellDecorationStyle` refer to the [Columns Styling]({%slug datagrid-columns-styling%}) topic.
+> 
 > For `CellContentStyleSelector` and `CellDecorationStyleSelector`, refer to the [Style Selectors]({%slug datagrid-style-selectors%}) topic.
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Numeric Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) and [Custom Numeric Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings) articles.
