@@ -30,7 +30,7 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency on the `Mic
 
 3. Register the AI service and AI chat client in your application.
 
-    For the example, we will use the **Azure OpenAI**. To register the AI service and chat client, the following code is needed in MauiProgram.cs:
+    For the example, we will use the `Azure.AI.OpenAI` and `Microsoft.Extensions.AI.OpenAI` packages. Add the packages to your project. To register the AI service and chat client, the following code is needed in `MauiProgram.cs`:
 
     ```C#
     builder.Services.AddSingleton(sp =>
