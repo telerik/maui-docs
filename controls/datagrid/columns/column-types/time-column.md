@@ -34,11 +34,24 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) and [Custom Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) articles.
 
+Examples with `CellContentFormat`:
 
 ```XAML
 <telerik:DataGridTimeColumn PropertyName="Time"
                             HeaderText="Time Column"
-                            CellContentFormat="{}{0: hh:mm:ss}" />
+                            CellContentFormat="{}{0:hh\:mm\:ss}" />
+```
+```XAML
+<telerik:DataGridTimeColumn PropertyName="Time" 
+                            HeaderText="Time Column"
+                            CellContentFormat="{}{0:mm}:{0:ss}" />
+```
+```C#
+this.dataGrid.Columns.Add(new DataGridTimeColumn
+{
+    PropertyName = "Time",
+    CellContentFormat = "{0:hh\\:mm\\:ss}"
+});
 ```
 
 ![DataGrid Time Column](images/timecolumn-overview.png)
