@@ -5,7 +5,7 @@ type: how-to
 page_title: Avoid Automatic Group Sorting in CollectionView
 meta_title: Avoid Automatic Group Sorting in CollectionView for .NET MAUI
 slug: prevent-automatic-sorting-groups-collectionview
-tags: radcollectionview,.net maui,group sorting,custom group order
+tags: collectionview,radcollectionview,.net maui,group sorting,custom group order
 res_type: kb
 ---
 
@@ -21,7 +21,7 @@ CollectionView in UI for .NET MAUI automatically sorts groups based on the `Sort
 
 ## Solution
 
-To maintain the original order of groups as they appear in the data source, implement a custom grouping logic by introducing an additional property that represents the group index. The steps below demonstrate how to achieve this:
+To maintain the original order of groups as they appear in the data source, add an additional property that represents the group index. The steps below demonstrate how to achieve this:
 
 1. Add a `GroupId` property to your data model to represent the custom group order along with a descriptive property for grouping (e.g., `Country`).
 
