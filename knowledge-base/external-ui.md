@@ -16,7 +16,7 @@ res_type: kb
 
 ## Description
 
-This article demonstrates how to use an external UI (such as a prompt entry and button) to control DataGrid operations—filtering, sorting, grouping, and column manipulations—using AI prompts. This approach enables users to interact with the DataGrid in a natural language-driven way, enhancing usability and flexibility.
+This article demonstrates how to use an external UI (such as a prompt entry and button) to control DataGrid operations-filtering, sorting, grouping, and column manipulations-using AI prompts. This approach enables users to interact with the DataGrid in a natural language-driven way, enhancing usability and flexibility.
 
 Common questions answered:
 - How to use AI prompts to manage DataGrid operations from an external UI?
@@ -167,6 +167,7 @@ public class FlightsViewModel : NotifyPropertyChangedBase
         get => this.cancelAICommand ?? (this.cancelAICommand = new Command(this.ExecuteCancelAI));
     }
 
+    // example prompts for the user.
     private ObservableCollection<string> CreateDefaultSuggestedPrompts()
     {
         return new ObservableCollection<string>
@@ -249,13 +250,6 @@ public class FlightInfo
     public string To { get; set; }
 }
 ```
-
-Key points:
-
-- `Prompt` holds the user's natural language command.
-- `ProcessAICommand` triggers the AI request.
-- `RequestFunc` and `ResponseAction` connect the DataGrid to the AI logic.
-- `SuggestedPrompts` provides example prompts for the user.
 
 > Replace the demo AI endpoint with your own service for production use. See [AI Smart Assistant Setup]({%slug datagrid-ai-prompt-overview%}#getting-started-with-the-ai-smart-assistant).
 
