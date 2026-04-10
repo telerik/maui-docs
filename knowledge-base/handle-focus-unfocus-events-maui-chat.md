@@ -12,13 +12,13 @@ ticketid: 1711957
 
 ## Environment
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 13.0.0 | Telerik UI for .NET MAUI Chat | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| Version | Product | Author |
+| --- | --- | ---- |
+| 13.0.0 | Telerik UI for .NET MAUI Chat | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
-I want to handle the focus and unfocus events in the [Telerik UI for .NET MAUI Chat](https://www.telerik.com/maui-ui/documentation/controls/chart/overview) control. The `RadMultilineTextInput` is used as the input element within the Chat's `PromptInput`. How can I access the required events?
+I want to handle the focus and unfocus events in the [Telerik UI for .NET MAUI Chat](https://www.telerik.com/maui-ui/documentation/controls/chat/overview) control. The Chat's `PromptInput` uses the `RadMultilineTextInput` as the input element. How can I access the required events?
 
 This knowledge base article also answers the following questions:
 
@@ -28,38 +28,38 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To handle the focus or unfocus event in Telerik UI for .NET MAUI Chat, access the `RadMultilineTextInput` inside the Chat's `PromptInput` on the `Loaded` event of the Chat control. Follow these steps:
+To handle the focus or unfocus event in Telerik UI for .NET MAUI Chat, access the `RadMultilineTextInput` inside the Chat's `PromptInput` on the `Loaded` event of the Chat control:
 
 1. Subscribe to the `Loaded` event of the Chat control.
 2. Access the visual tree descendants of the Chat to locate the `RadMultilineTextInput`.
 3. Attach the `Focused` or `Unfocused` event to the `RadMultilineTextInput`.
 
-Here is an example implementation:
+The following code snippet shows how to handle the focus and unfocus events:
 
 ```csharp
 private void Chat_Loaded(object sender, EventArgs e)
 {
-    // Get all visual tree descendants of the chat control
+    // Get all visual tree descendants of the chat control.
     List<IVisualTreeElement> items = (List<IVisualTreeElement>)this.chat.GetVisualTreeDescendants();
     
     foreach (IVisualTreeElement myControl in items)
     {
-        // Check if the control is RadMultilineTextInput
+        // Check if the control is RadMultilineTextInput.
         if (myControl is RadMultilineTextInput)
         {
             RadMultilineTextInput control = (RadMultilineTextInput)myControl;
             
-            // Attach the Focused event
+            // Attach the Focused event.
             control.Focused += Control_Focused;
             return;
         }
     }
 }
 
-// Handle the Focused event
+// Handle the Focused event.
 private void Control_Focused(object? sender, FocusEventArgs e)
 {
-    // Add your logic for handling focus here
+    // Add your logic for handling focus here.
 }
 ```
 
