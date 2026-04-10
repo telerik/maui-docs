@@ -1,9 +1,9 @@
 ---
 title: Using Data Annotations in Telerik UI for .NET MAUI DataForm
-description: Learn how to use data annotations in the Telerik UI for .NET MAUI DataForm, including setting required fields and editor placeholder texts.
+description: Learn how to use data annotations in the Telerik UI for .NET MAUI DataForm, including setting required fields and editor placeholder text.
 type: how-to
 page_title: Adding Data Annotations in Telerik UI for .NET MAUI DataForm
-meta_title: Data Annotations in Telerik UI for .NET MAUI DataForm
+meta_title: Adding Data Annotations in Telerik UI for .NET MAUI DataForm
 slug: using-data-annotations-in-telerik-maui-dataform
 tags: telerik, ui for .net maui, dataform, data annotations, required field, placeholder text
 res_type: kb
@@ -28,14 +28,14 @@ This knowledge base article also answers the following questions:
 
 To use data annotations in the Telerik UI for .NET MAUI DataForm, follow these steps:
 
-1. Add the `[Required]` attribute to mark a field as required. The user cannot submit the form without filling in this field, and a validation error will appear.
+1. Add the `[Required]` attribute to mark a field as required. If the user tries to submit the form without filling it in, a validation error appears, and the submission is blocked.
 
 2. Use the `[Display]` attribute to customize the editor. 
    - `Name`: Sets the editor header text.
    - `GroupName`: Defines the group name header.
    - `Prompt`: Specifies the placeholder text inside the editor.
 
-Here is an example:
+The next example shows how to use data annotations for a required field in the .NET MAUI DataForm:
 
 ```csharp
 [Required] // Marks the field as required.
