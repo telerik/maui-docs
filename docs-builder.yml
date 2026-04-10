@@ -104,11 +104,16 @@ meta:
     title: SpreadStreamProcessing
   controls/spreadprocessing:
     title: SpreadProcessing
+  controls/speechtotextbutton:
+    title: "SpeechToTextButton"
+  controls/smartpastebutton/integration:
+    title: Integration
+    position: 3
+  controls/smartpastebutton:
+    title: SmartPasteButton
   controls/slideview/styling:
     title: Styling
     position: 15
-  controls/speechtotextbutton:
-    title: "SpeechToTextButton"
   controls/slideview:
     title: SlideView
   controls/slider/styling:

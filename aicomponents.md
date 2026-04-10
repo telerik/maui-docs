@@ -36,7 +36,15 @@ Explore the powerful AI-enhanced controls and features in Telerik UI for .NET MA
         darkSrc="./images/aicomponents/AI_Data_Operations_Dark_Large.svg"
         description="The Telerik UI for .NET MAUI DataGrid control provides smart AI functionality for sorting, filtering, grouping, and column management.">
     </article-card>
-        <article-card
+    <article-card
+        href="/controls/smartpastebutton/overview"
+        src="./images/aicomponents/SmartPaste_Light_Large.svg"
+        title="Smart Paste"
+        subTitle="SmartPasteButton"
+        darkSrc="./images/aicomponents/SmartPaste_Dark_Large.svg"
+        description="The Telerik UI for .NET MAUI SmartPasteButton allows you to easily integrate AI-powered paste functionality into your application.">
+    </article-card>
+    <article-card
         href="/controls/treedatagrid/smart-ai-features/overview"
         src="./images/aicomponents/AI_Data_Operations_Light_Large.svg"
         title="AI Data Operations"

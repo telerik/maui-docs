@@ -16,6 +16,9 @@ The following image shows the anatomy of the SmartPasteButton.
 
 ## Displayed Elements
 
+* `Text`&mdash;The text displayed on the button.
+* `Icon`&mdash;The icon displayed on the button.
+
 ## See Also
 
 * [Getting Started]({%slug smartpastebutton-getting-started%})

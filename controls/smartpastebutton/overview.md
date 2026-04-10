@@ -11,13 +11,18 @@ slug: smartpastebutton-overview
 
 The Telerik UI for .NET MAUI SmartPasteButton is an AI-powered component that streamlines data entry by extracting structured information from clipboard content and automatically populating form fields. When users paste unstructured text copied from the clipboard, the SmartPasteButton sends the content to an AI service, which analyzes the text and returns structured values mapped to the appropriate fields based on the form structure. This improves data entry efficiency and enhances the user experience. 
 
-The control also offers seamless integration with DataForm.
+The control also offers seamless integration with DataForm control.
 
 ![.NET MAUI SmartPasteButton Overview](images/smartpastebutton-overview.png "SmartPasteButton for .NET MAUI")
 
 ## Key Features of the .NET MAUI SmartPasteButton
 
-
+* Smart Paste functionality&mdash;The SmartPasteButton allows users to paste unstructured text, which is then processed by an AI service to extract structured information and populate form fields accordingly. This feature significantly enhances data entry efficiency and user experience.
+* Integration with DataForm&mdash;The SmartPasteButton can be easily integrated with the DataForm control, allowing for seamless data entry and management within forms. This integration enables users to leverage the Smart Paste functionality directly within their forms, further streamlining the data entry process.
+* [Visual states]({%slug smartpastebutton-visual-states%})&mdash;You can change the SmartPasteButton appearance for different visual states like, `Normal`, `Pressed`, `PointerOver` (desktop-only), and `Disabled`.
+* [Exhaustive number of events]({%slug smartpastebutton-events%})&mdash;You can use the events exposed by the SmartPasteButton to execute various operations on user interactions such as click, press, and release.
+* [Command]({%slug smartpastebutton-command%})&mdash;The SmartPasteButton provides a command, that executes when the button is clicked.
+* [Styling]({%slug smartpastebutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and icon color and text and content text and text color.
 
 ## Next Steps
 
