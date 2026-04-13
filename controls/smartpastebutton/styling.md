@@ -24,7 +24,7 @@ To style the SmartPasteButton, you can use the following properties:
 * `TextColor` (`Color`)&mdash;Specifies the color of the `Text`.
 * `IconTextColor` (`Color`)&mdash;Specifies the color of the icon.
 
-* The SmartPasteButton uses the .NET MAUI Visual State Manager and defines a visual state group named `CommonStates` with the following visual states:
+The SmartPasteButton uses the .NET MAUI Visual State Manager and defines a visual state group named `CommonStates` with the following visual states:
 
 * `Normal`
 * `MouseOver`

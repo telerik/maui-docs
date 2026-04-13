@@ -1,9 +1,9 @@
 ---
 title: Events
-page_title: .NET MAUI SmartPasteButton Documentation - Events
+meta_title: .NET MAUI SmartPasteButton Documentation - Events
 description: Review SmartPasteButton events that are raised when button is pressed, clicked, and released. 
 position: 7
-slug: templatedbutton-events
+slug: smartpastebutton-events
 ---
 
 # .NET MAUI SmartPasteButton Events
@@ -12,7 +12,7 @@ The .NET MAUI SmartPasteButton emits a set of events that allow you to configure
 
 The .NET MAUI SmartPasteButton exposes the following events:
 
-* `SmartPasteRequest`&mdash;Raised when the `RadSmartPasteButton` is clicked. The `Clicked` event handler receives two parameters:
+* `SmartPasteRequest`&mdash;`SmartPasteRequest`&mdash;Raised when the `RadSmartPasteButton` initiates a smart paste operation. The `SmartPasteRequest` event handler receives two parameters:
 	* The `sender` argument which is of type `RadSmartPasteButton`.
 	* An `SmartPasteButtonRequestContext` object which contains the clipboard content, fields, a cancellation token, and methods to signal the result of the AI request.
 

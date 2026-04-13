@@ -2,7 +2,7 @@
 title: Integration with DataForm
 page_title: Integrating the .NET MAUI SmartPasteButton with DataForm
 description: Learn how to integrate the Telerik SmartPasteButton for .NET MAUI with the DataForm control to populate form fields with structured data extracted from unstructured text.
-position: 2
+position: 1
 slug: smartpastebutton-dataform-integration
 ---
 

@@ -17,9 +17,9 @@ The control also offers seamless integration with DataForm control.
 
 ## Key Features of the .NET MAUI SmartPasteButton
 
-* Smart Paste functionality&mdash;The SmartPasteButton allows users to paste unstructured text, which is then processed by an AI service to extract structured information and populate form fields accordingly. This feature significantly enhances data entry efficiency and user experience.
-* Integration with DataForm&mdash;The SmartPasteButton can be easily integrated with the DataForm control, allowing for seamless data entry and management within forms. This integration enables users to leverage the Smart Paste functionality directly within their forms, further streamlining the data entry process.
-* [Visual states]({%slug smartpastebutton-visual-states%})&mdash;You can change the SmartPasteButton appearance for different visual states like, `Normal`, `Pressed`, `PointerOver` (desktop-only), and `Disabled`.
+* [Smart Paste functionality]({%slug smartpastebutton-getting-started%}#configure-the-ai-service)&mdash;The SmartPasteButton allows users to paste unstructured text, which is then processed by an AI service to extract structured information and populate form fields accordingly. This feature significantly enhances data entry efficiency and user experience.
+* [Integration with DataForm]({%slug smartpastebutton-dataform-integration%})&mdash;The SmartPasteButton can be easily integrated with the DataForm control, allowing for seamless data entry and management within forms. This integration enables users to leverage the Smart Paste functionality directly within their forms, further streamlining the data entry process.
+* [Visual states]({%slug smartpastebutton-visual-states%})&mdash;You can change the SmartPasteButton appearance for different visual states like, `Normal`, `Pressed`, `MouseOver` (desktop-only), and `Disabled`.
 * [Exhaustive number of events]({%slug smartpastebutton-events%})&mdash;You can use the events exposed by the SmartPasteButton to execute various operations on user interactions such as click, press, and release.
 * [Command]({%slug smartpastebutton-command%})&mdash;The SmartPasteButton provides a command, that executes when the button is clicked.
 * [Styling]({%slug smartpastebutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and icon color and text and content text and text color.
