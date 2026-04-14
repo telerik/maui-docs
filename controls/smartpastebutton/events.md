@@ -1,7 +1,7 @@
 ---
 title: Events
 meta_title: .NET MAUI SmartPasteButton Documentation - Events
-description: Review SmartPasteButton events that are raised when button is pressed, clicked, and released. 
+description: Review the SmartPasteButton events that are raised when the button is clicked, pressed, or released.
 position: 7
 slug: smartpastebutton-events
 ---
@@ -12,9 +12,9 @@ The .NET MAUI SmartPasteButton emits a set of events that allow you to configure
 
 The .NET MAUI SmartPasteButton exposes the following events:
 
-* `SmartPasteRequest`&mdash;`SmartPasteRequest`&mdash;Raised when the `RadSmartPasteButton` initiates a smart paste operation. The `SmartPasteRequest` event handler receives two parameters:
+* `SmartPasteRequest`&mdash;Raised when the `RadSmartPasteButton` initiates a smart paste operation. The `SmartPasteRequest` event handler receives two parameters:
 	* The `sender` argument which is of type `RadSmartPasteButton`.
-	* An `SmartPasteButtonRequestContext` object which contains the clipboard content, fields, a cancellation token, and methods to signal the result of the AI request.
+	* A `SmartPasteButtonRequestContext` object which contains the clipboard content, fields, a cancellation token, and methods to signal the result of the AI request.
 
 * `Clicked`&mdash;Raised when the `RadSmartPasteButton` is clicked. The `Clicked` event handler receives two parameters:
 	* The `sender` argument which is of type `RadSmartPasteButton`.
@@ -36,11 +36,11 @@ The following example demonstrates how to use the `SmartPasteRequest` event.
 
 <snippet id='smartpastebutton-gettingstarted-xaml' />
 
-**2.** Add the DataForm control to your page. The SmartPasteButton is designed to work in conjunction with the DataForm control, allowing you to easily populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
+**2.** Add the DataForm control to your page. The SmartPasteButton is designed to work with the DataForm control, allowing you to populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
 
 <snippet id='smartpastebutton-gettingstarted-dataform-xaml' />
 
-**3** The text from the clipboard will be used for the smart paste operation.
+**3.** Text from the clipboard is used for the smart paste operation.
 
 <snippet id='smartpastebutton-gettingstarted-copy-xaml' />
 

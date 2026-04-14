@@ -8,11 +8,11 @@ slug: smartpastebutton-dataform-integration
 
 # .NET MAUI SmartPasteButton Integration with DataForm
 
-The SmartPasteButton control is designed to work in conjunction with the DataForm control, allowing you to easily populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
+The SmartPasteButton control has an integration to work with the DataForm control, allowing you to populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
 
 To integrate the SmartPasteButton with the DataForm, you need to set the `Provider` property of the SmartPasteButton to reference the DataForm instance. This allows the SmartPasteButton to extract structured information from the clipboard content and populate the corresponding fields in the DataForm based on the form structure.
 
-This is an example of how to set the `Provider` property of the SmartPasteButton to reference a DataForm instance in XAML:
+The following snippet shows how to set the Provider property of the SmartPasteButton to reference a DataForm instance in XAML:
 
 ```XAML
 <telerik:RadDataForm x:Name="dataForm" ... />
@@ -20,7 +20,7 @@ This is an example of how to set the `Provider` property of the SmartPasteButton
 <telerik:RadSmartPasteButton Provider="{x:Reference dataForm}" ... />
 ```
 
-This is an example with SmartPasteButton and DataForm:
+The following example demonstrates the SmartPasteButton and DataForm integration:
 
 **1.** Define the DataForm and the SmartPasteButton controls on the page:
 
@@ -30,7 +30,7 @@ This is an example with SmartPasteButton and DataForm:
 
 <snippet id='smartpastebutton-gettingstarted-dataform-xaml' />
 
-**3** For the demo, a text from the clipboard will be used for the smart paste operation.
+**3.** Text from the clipboard is used for the smart paste operation.
 
 <snippet id='smartpastebutton-gettingstarted-copy-xaml' />
 
@@ -40,7 +40,7 @@ This is an example with SmartPasteButton and DataForm:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**5.** The copy button's `Clicked` event handler:
+**5.** Define the copy button's `Clicked` event handler:
 
 <snippet id='smartpaste-gettingstarted-copy' />
 

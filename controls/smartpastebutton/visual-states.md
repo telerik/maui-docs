@@ -1,7 +1,7 @@
 ---
 title: Visual States
 page_title: .NET MAUI SmartPasteButton Documentation - Visual States
-description: Learn how to set the border color, border thickness and other styling options for the different visual states of the Telerik SmartPasteButton for .NET MAUI.
+description: Learn how to configure the visual states of the Telerik SmartPasteButton for .NET MAUI, including Normal, Pressed, MouseOver, and Disabled states.
 position: 10
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui
 slug: smartpastebutton-visual-states
@@ -10,7 +10,7 @@ slug: smartpastebutton-visual-states
 # .NET MAUI SmartPasteButton Visual States
 
 This article describes the visual states the SmartPasteButton provides. 
-You can use the visual states to change the visual appearance of the control depending on the state the control is set&mdash;whether it's disabled, or pressed, or has the mouse pointer over.
+You can use the visual states to change the appearance of the control depending on whether it is disabled, pressed, or has the mouse pointer hovering over it
 
 The SmartPasteButton provides the following `CommonStates` visual states:
 
@@ -20,10 +20,10 @@ The SmartPasteButton provides the following `CommonStates` visual states:
 | `Pressed` | Applies when the button is pressed. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
 | `Disabled` | Applies when the button is disabled. |
-| `Processing` | Applies when the button the smart paste request is in process. |
+| `Processing` | Applies when a smart paste request is being processed. |
 | `ProcessingPressed` | Applies when the button is pressed while the smart paste request is in process. |
 | `ProcessingMouseOver` | Applies when the mouse pointer hovers over the button when the smart paste request is in process. |
-| `ProcessingFocused` | Applies when the button is focused and the smart paste request in process. |
+| `ProcessingFocused` | Applies when the button is focused and the smart paste request is being processed. |
 
 ## Using the Visual States
 

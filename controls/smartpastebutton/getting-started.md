@@ -10,7 +10,7 @@ slug: smartpastebutton-getting-started
 
 This guide provides the information you need to start using the Telerik UI for [.NET MAUI SmartPasteButton]({%slug smartpastebutton-overview%}) by adding the control to your project.
 
-This is the default look of the `RadSmartPasteButton` control:
+The following image shows the default look of the `RadSmartPasteButton` control:
 
 ![.NET MAUI SmartPasteButton Getting Started](images/smartpastebutton-default-look.gif)
 
@@ -18,17 +18,47 @@ This is the default look of the `RadSmartPasteButton` control:
 
 Before adding the SmartPasteButton, you need to:
 
+1. Install`.NET9` or later.
+
 1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
 
 1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
 
 1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
 
-## Configure the AI Service
+1. Install an AI provider. For example **Azure OpenAI** or **OpenAI**, etc.
 
-@[template](/_contentTemplates/controls/ai-data-operations.md#getting-started-with-the-ai-smart-assistant)
+## Step 1: Configure the AI Service
 
-## Process the Smart Paste Request
+1. Install the [`Telerik.AI.SmartComponents.Extensions`](https://www.nuget.org/packages/Telerik.AI.SmartComponents.Extensions) package in your .NET MAUI project.
+
+```script
+dotnet add package Telerik.AI.SmartComponents.Extensions
+```
+```xml
+<PackageReference Include="Telerik.AI.SmartComponents.Extensions" Version="Select Latest" />
+```
+
+>tip The `Telerik.AI.SmartComponents.Extensions` package has a dependency on the `Microsoft.Extensions.AI` package.
+
+2. Configure the AI services in your application. This typically involves setting up an AI provider (such as **Azure OpenAI**, **OpenAI**, etc.) and providing the necessary API keys or credentials.
+
+3. Register the AI service and AI chat client in your application.
+
+    For the example, we will use the **Azure OpenAI**. To register the AI service and chat client, the following code is needed in MauiProgram.cs:
+
+    ```C#
+    builder.Services.AddSingleton(sp =>
+    {
+        return new AzureOpenAIClient(new Uri("AZURE_OPENAI_ENDPOINT"), new AzureKeyCredential("AZURE_OPENAI_API_KEY"));
+    });
+
+    builder.Services.AddChatClient(services =>
+        services.GetRequiredService<AzureOpenAIClient>().GetChatClient("gpt-4.1").AsIChatClient()
+    );
+    ```
+
+## Step 2: Process the Smart Paste Request
 
 Inside the `SmartPasteRequest` event handler or in the command that processes the smart paste request, you need to create a `SmartPasteRequest` object with the content and form fields from the event arguments, send it to your AI service, and set the response back to the event arguments.
 
@@ -69,17 +99,17 @@ private async void OnSmartPasteRequest(object sender, SmartPasteButtonRequestCon
 }
 ```
 
-## Define the Control
+## Example with SmartPasteButton and DataForm
 
-**1.** When your .NET MAUI application is set up, you are ready to add a SmartPasteButton control to your page:
+**1.** Define the SmartPasteButton control to your page:
 
 <snippet id='smartpastebutton-gettingstarted-xaml' />
 
-**2.** Add the DataForm control to your page. The SmartPasteButton is designed to work in conjunction with the DataForm control, allowing you to easily populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
+**2.** Add the DataForm control to your page. The SmartPasteButton is designed to work with the DataForm control, allowing you to populate form fields with structured data extracted from unstructured text. By integrating the SmartPasteButton with the DataForm, you can enhance the user experience and streamline data entry processes within your application.
 
 <snippet id='smartpastebutton-gettingstarted-dataform-xaml' />
 
-**3** For the demo, a text from the clipboard will be used for the smart paste operation.
+**3.** Text from the clipboard is used for the smart paste operation.
 
 <snippet id='smartpastebutton-gettingstarted-copy-xaml' />
 
@@ -89,7 +119,7 @@ private async void OnSmartPasteRequest(object sender, SmartPasteButtonRequestCon
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**5.** The copy button's `Clicked` event handler:
+**5.** Define the copy button's `Clicked` event handler:
 
 <snippet id='smartpaste-gettingstarted-copy' />
 

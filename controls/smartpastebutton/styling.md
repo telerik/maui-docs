@@ -58,7 +58,7 @@ The following example demonstrates how to apply implicit and explicit styles to 
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**5.** Define a `ViewModel` for the fields that will be used for the by the SmartPasteButton, and the `SmartPasteRequestCommand` and `CopyToClipboardCommand`: 
+**5.** Define a `ViewModel` for the fields used by the SmartPasteButton, and the `SmartPasteRequestCommand` and `CopyToClipboardCommand`: 
 
 <snippet id='smartpaste-viewmodel-external' />
 

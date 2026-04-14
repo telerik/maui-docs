@@ -22,7 +22,7 @@ This is an example of how to bind the `SmartPasteRequestCommand` to a command in
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Define a `ViewModel` that implements the `ISmartPasteButtonProvider` interface for the fields that will be used for the by the SmartPasteButton, and the `SmartPasteRequestCommand` and `CopyToClipboardCommand`:
+**3.** Define a `ViewModel` that implements the `ISmartPasteButtonProvider` interface for the fields used by the SmartPasteButton, the `SmartPasteRequestCommand` and `CopyToClipboardCommand`:
 
 <snippet id='smartpaste-viewmodel-external' />
 

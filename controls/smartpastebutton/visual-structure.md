@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI SmartPasteButton Documentation - Visual Structure
-description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI SmartPasteButton control.
+description: Learn about the visual structure and anatomy of the Telerik UI for .NET MAUI SmartPasteButton control and its UI elements.
 position: 1
 slug: smartpastebutton-visual-structure
 ---
