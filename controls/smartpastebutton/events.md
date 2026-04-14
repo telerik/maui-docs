@@ -58,9 +58,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='smartpaste-gettingstarted-paste-request' />
 
-This is the result on WinUI:
+This is the result:
 
-![.NET MAUI SmartPasteButton Event](images/smartpastebutton-clicked-event.gif "SmartPasteButton for .NET MAUI")
+![.NET MAUI SmartPasteButton Event](images/smartpastebutton-default-look.gif)
 
 >important The SmartPasteButton examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
 >
