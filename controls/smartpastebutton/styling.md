@@ -62,7 +62,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='smartpaste-viewmodel-external' />
 
-This is the result on WinUI:
+This is the result:
 
 ![.NET MAUI SmartPasteButton Styling](images/smartpastebutton-styling.gif)
 
