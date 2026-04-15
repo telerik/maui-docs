@@ -76,7 +76,7 @@ Change the selected item using the swipe gesture. This allows you to change the 
 
 ![.NET MAUI TabView Swiping in the content](images/tabview-swiping.gif "Swiping in the TabView Content")
 
-If you want to prevent this feature you will need to set the `IsContentSwipingEnabled` (`bool`) property to `False`. The default value is `True`.
+If you want to prevent this feature you will need to set the `IsContentSwipeEnabled` (`bool`) property to `False`. The default value is `True`.
 
 ## See Also
 
