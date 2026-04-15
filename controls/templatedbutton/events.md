@@ -16,7 +16,7 @@ The .NET MAUI TemplatedButton exposes the following events:
 	* The `sender` argument which is of type `RadTemplatedButton`.
 	* An `EventArgs` object which provides information about the `Clicked` event.
 
-* `Pressed`&mdash;Raised when `RadTemplatedButton` is pressed (a finger presses on the buton, or a mouse button is pressed with a pointer positioned over the button). The `Pressed` event handler receives two parameters:
+* `Pressed`&mdash;Raised when `RadTemplatedButton` is pressed (a finger presses on the button, or a mouse button is pressed with a pointer positioned over the button). The `Pressed` event handler receives two parameters:
 	* The `sender` argument which is of type `RadTemplatedButton`.
 	* An `EventHandler` object which provides information about the `Pressed` event.
 
