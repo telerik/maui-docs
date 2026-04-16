@@ -30,6 +30,13 @@ This is the result on Android:
 
 ![.NET MAUI SmartPasteButton External UI](images/smartpastebutton-external-ui.gif)
 
+
+>important The SmartPasteButton examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
+>
+>To use the smart paste functionality in your application, you must configure your own AI service.
+>
+>How to do that is described in the [Configuration]({%slug smartpastebutton-getting-started%}#step-1-configure-the-ai-service) article.
+
 ## See Also
 
 - [Styling the SmartPasteButton]({%slug smartpastebutton-styling%})
