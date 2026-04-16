@@ -12,7 +12,7 @@ res_type: kb
 
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 6.7.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 13.1.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 ## Description
 
@@ -43,14 +43,13 @@ Here is an example:
        new Data { Country = "Singapore", Capital = "Singapore" }
    };
    dataGrid.AutoGenerateColumns = false;
-   var headerStyle = new DataGridColumnHeaderStyle
-   {
-       TextFontSize = 0,
-       FilterIndicatorFontSize = 0,
-       BackgroundColor = Colors.Transparent,
-       BorderColor = Colors.Transparent,
-       BorderThickness = new Thickness(0),
-   };
+   var headerStyle = new Style(typeof(DataGridColumnHeaderAppearance));
+   headerStyle.Setters.Add(new Setter { Property = DataGridColumnHeaderAppearance.TextFontSizeProperty, Value = 0 });
+   headerStyle.Setters.Add(new Setter { Property = DataGridColumnHeaderAppearance.FilterIndicatorFontSizeProperty, Value = 0 });
+   headerStyle.Setters.Add(new Setter { Property = DataGridColumnHeaderAppearance.BackgroundColorProperty, Value = Colors.Transparent });
+   headerStyle.Setters.Add(new Setter { Property = DataGridColumnHeaderAppearance.BorderColorProperty, Value = Colors.Transparent });
+   headerStyle.Setters.Add(new Setter { Property = DataGridColumnHeaderAppearance.BorderThicknessProperty, Value = new Thickness(0) });
+
    var column1 = new DataGridTextColumn { PropertyName = "Country" };
    column1.HeaderStyle = headerStyle;
 
@@ -70,12 +69,15 @@ Here is an example:
    <telerik:RadDataGrid>
        <telerik:RadDataGrid.Columns>
            <telerik:DataGridTextColumn PropertyName="Country">
-               <telerik:DataGridTextColumn.HeaderStyle>
-                   <telerik:DataGridColumnHeaderStyle BackgroundColor="Transparent" BorderThickness="0"
-                                                       BorderColor="Transparent"
-                                                       FilterIndicatorFontSize="0"
-                                                       TextFontSize="0"/>
-               </telerik:DataGridTextColumn.HeaderStyle>
+                <telerik:DataGridTextColumn.HeaderStyle>
+                    <Style TargetType="telerik:DataGridColumnHeaderAppearance">
+                        <Setter Property="TextFontSize" Value="0" />
+                        <Setter Property="FilterIndicatorFontSize" Value="0" />
+                        <Setter Property="BackgroundColor" Value="Transparent" />
+                        <Setter Property="BorderColor" Value="Transparent" />
+                        <Setter Property="BorderThickness" Value="0" />
+                    </Style>
+                </telerik:DataGridTextColumn.HeaderStyle>
            </telerik:DataGridTextColumn>
        </telerik:RadDataGrid.Columns>
    </telerik:RadDataGrid>

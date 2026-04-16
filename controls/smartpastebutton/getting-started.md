@@ -45,7 +45,7 @@ dotnet add package Telerik.AI.SmartComponents.Extensions
 
 3. Register the AI service and AI chat client in your application.
 
-    For the example, we will use the **Azure OpenAI**. To register the AI service and chat client, the following code is needed in MauiProgram.cs:
+    For the example, we will use the `Azure.AI.OpenAI` and `Microsoft.Extensions.AI.OpenAI` packages. Add the packages to your project. To register the AI service and chat client, the following code is needed in `MauiProgram.cs`:
 
     ```C#
     builder.Services.AddSingleton(sp =>
@@ -98,6 +98,8 @@ private async void OnSmartPasteRequest(object sender, SmartPasteButtonRequestCon
     }
 }
 ```
+
+>tip Review the [Integration with External UI]({%slug smartpastebutton-external-ui-integration%}) article for more details how to integrate the Telerik SmartPasteButton for .NET MAUI with external UI components to enhance user experience.
 
 ## Example with SmartPasteButton and DataForm
 
@@ -152,7 +154,7 @@ public static class MauiProgram
 >
 >To use the smart paste functionality in your application, you must configure your own AI service.
 >
->How to do that is described in the [Configuration]({%slug smartpastebutton-configuration%}) article.
+>How to do that is described in the [Configuration]({%slug smartpastebutton-getting-started%}#step-1-configure-the-ai-service) article.
 
 > For a runnable example with the SmartPasteButton Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SmartPasteButton > Getting Started**.
 

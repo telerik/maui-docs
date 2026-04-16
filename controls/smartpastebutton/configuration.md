@@ -25,6 +25,9 @@ To customize the appearance of the text, you can use the following properties:
 
 - `TextColor` (`Color`)&mdash;Specifies the color of the text.
 - `TextDecoration` (`TextDecorations`)&mdash;Specifies the text decorations (underline, strikethrough, or both) applied to the text.
+- `FontFamily` (`string`)&mdash;Specifies the font family of the text.
+- `FontSize` (`double`)&mdash;Specifies the size of the text.
+- `FontAttributes` (`FontAttributes`)&mdash;Specifies the font attributes (bold, italic, or both) applied to the text.
 
 ## Setting Icon
 

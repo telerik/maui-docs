@@ -1,32 +1,18 @@
 ---
 title: Events
 meta_title: .NET MAUI SmartPasteButton Documentation - Events
-description: Review the SmartPasteButton events that are raised when the button is clicked, pressed, or released.
+description: Review the SmartPasteButton event that is raised when the RadSmartPasteButton initiates a smart paste operation.
 position: 7
 slug: smartpastebutton-events
 ---
 
 # .NET MAUI SmartPasteButton Events
 
-The .NET MAUI SmartPasteButton emits a set of events that allow you to configure the component's behavior in response to specific user actions.
-
-The .NET MAUI SmartPasteButton exposes the following events:
+The .NET MAUI SmartPasteButton exposes the following event:
 
 * `SmartPasteRequest`&mdash;Raised when the `RadSmartPasteButton` initiates a smart paste operation. The `SmartPasteRequest` event handler receives two parameters:
 	* The `sender` argument which is of type `RadSmartPasteButton`.
 	* A `SmartPasteButtonRequestContext` object which contains the clipboard content, fields, a cancellation token, and methods to signal the result of the AI request.
-
-* `Clicked`&mdash;Raised when the `RadSmartPasteButton` is clicked. The `Clicked` event handler receives two parameters:
-	* The `sender` argument which is of type `RadSmartPasteButton`.
-	* An `EventArgs` object which provides information about the `Clicked` event.
-
-* `Pressed`&mdash;Raised when `RadSmartPasteButton` is pressed (a finger presses on the button, or a mouse button is pressed with a pointer positioned over the button). The `Pressed` event handler receives two parameters:
-	* The `sender` argument which is of type `RadSmartPasteButton`.
-	* An `EventHandler` object which provides information about the `Pressed` event.
-
-* `Released`&mdash;Raised when the `RadSmartPasteButton` is released (the finger or mouse button is released). The `Released` event handler receives two parameters:
-	* The `sender` argument which is of type `RadSmartPasteButton`.
-	* An `EventHandler` object which provides information about the `Released` event.
 
 ## Using the SmartPasteRequest Event
 
@@ -66,7 +52,7 @@ This is the result:
 >
 >To use the smart paste functionality in your application, you must configure your own AI service.
 >
->How to do that is described in the [Configuration]({%slug smartpastebutton-configuration%}) article.
+>How to do that is described in the [Configuration]({%slug smartpastebutton-getting-started%}#step-1-configure-the-ai-service) article.
 
 > For a runnable example demonstrating the SmartPasteButton `SmartPasteRequest` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SmartPasteButton > Getting Started** category.
 
