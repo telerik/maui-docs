@@ -51,7 +51,7 @@ This is the result on Android:
 >
 >To use the smart paste functionality in your application, you must configure your own AI service.
 >
->How to do that is described in the [Configuration]({%slug smartpastebutton-configuration%}) article.
+>How to do that is described in the [Configuration]({%slug smartpastebutton-getting-started%}#step-1-configure-the-ai-service) article.
 
 > For a runnable example with the SmartPasteButton with External UI scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SmartPasteButton > ExternalEditor** category.
 
