@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 >
 >To use the smart paste functionality in your application, you must configure your own AI service.
 >
->How to do that is described in the [Configuration]({%slug smartpastebutton-configuration%}) article.
+>How to do that is described in the [Configuration]({%slug smartpastebutton-getting-started%}#step-1-configure-the-ai-service) article.
 
 > For a runnable example with the SmartPasteButton Integration with DataForm, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **SmartPasteButton > Getting Started**.
 
