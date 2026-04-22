@@ -91,3 +91,5 @@ SpeechToText
 BottomSheet
 MCP
 MacCatalyst
+PromptInput
+SmartPaste
