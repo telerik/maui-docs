@@ -1,38 +1,42 @@
 ---
 title: Selection
 page_title: .NET MAUI SegmentedControl Documentation - Selection
-description: Learn more about the selection functionality that the Telerik UI for .NET MAUI SegmentedControl provides.
+description: Learn more about the selection functionality that the Telerik UI for .NET MAUI SegmentedControl provides, including selection modes, events, and commands.
 slug: segmentedcontrol-selection
 tags: selection
-position: 2
+position: 5
 ---
 
 # Selection in .NET MAUI SegmentedControl
 
-The SegmentedControl exposes properties, which can help you work with the items selection.
+The SegmentedControl exposes a rich set of properties, events, and commands for working with the selection of its segments.
 
-## Main Properties
+## Selection Properties
 
-* `SelectedIndex`(`int`): Specifies the index of the first item in the current selection or -1 if the selection is empty.
-* `SelectedItem`(`object`): Defines the first item in the current selection, or null if the selection is empty.
+The SegmentedControl provides the following properties for working with the current selection:
 
-## Events
+* `SelectedIndex` (`int`)&mdash;Specifies the index of the first item in the current selection, or `-1` if the selection is empty.
+* `SelectedItem` (`object`)&mdash;Defines the first item in the current selection, or `null` if the selection is empty.
 
-The SegmentedControl exposes a `SelectionChanged` event, which is fired when the selected item is programmatically changed or updated due to user interaction.
+## Selection Modes
 
-The `SelectionChanged` event handler receives two parameters:
-* The sender argument, which is of type `object`, but can be cast to the `RadSegmentedControl` type.
-* A `ValueChangedEventArgs&lt;int&gt;` object, which provides the old and new value of the `SelectedIndex`.
+The segment selection behavior is defined by the `SelectionMode` (`Telerik.Maui.Controls.SegmentedControl.SegmentedControlSelectionMode`) property, which determines how items can be selected by user interaction. The control supports three selection modes:
 
-## Style the currently selected item
+* (Default) `Single`&mdash;Only one segment can be selected at a time. Tapping the selected segment again keeps it selected.
+* `SingleDeselect`&mdash;Only one segment can be selected at a time. Tapping the selected segment again deselects it.
+* `None`&mdash;Tapping a segment performs no selection. Programmatic values assigned to `SelectedIndex` and `SelectedItem` are coerced to `-1` and `null`, respectively.
 
-You can define custom colors for the text and the background of the selected segment by using the `SelectedSegmentBackgroundColor` and `SelectedSegmentTextColor` properties of the SegmentedControl.
+## Selection Event
+
+The SegmentedControl raises the `SelectionChanged` event when the current selection changes, either programmatically or as a result of user interaction. The event handler receives a `RadSelectionChangedEventArgs` argument that exposes the added and removed items.
+
+> To respond to tap interactions regardless of the current selection, use the `ItemTapped` event or the `ItemTappedCommand` command. For more information, see the [Item Tapped]({%slug segmentedcontrol-item-tapped%}) article.
 
 ## Example
 
-The following example demonstrates how to use the selection feature of SegmentedControl.
+The following example demonstrates how to use the selection feature of the SegmentedControl.
 
-**1.** Create a `ViewModel` with a `SelectedItem` property bound to the `SelectedItem` property of the SegmentedControl:
+**1.** Create a `ViewModel` with `SelectedItem` and `SelectedIndex` properties bound to the SegmentedControl:
 
 <snippet id='segmentcontrol-selection-viewmodel' />
 
@@ -44,14 +48,20 @@ The following example demonstrates how to use the selection feature of Segmented
 
 <snippet id='segmentcontrol-selection-bindingcontext' />
 
-**4.** Add the SegmentedControl `SelectionChanged` event:
+**4.** Handle the SegmentedControl `SelectionChanged` event:
 
 <snippet id='segmentcontrol-selection-event' />
 
-The image below shows the end result on different platforms:
+This is the result:
 
 ![.NET MAUI SegmentedControl selection](images/segmentcontrol-selection.png)
 
+>tip For a runnable example demonstrating the SegmentedControl Selection scenarios, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SegmentedControl > Selection** category.
+
 ## See Also
 
-- [Customizing the Segment Colors]({%slug segmentedcontrol-styling%})
+- [Data Binding]({%slug segmentedcontrol-data-binding%})
+- [Size Mode]({%slug segmentedcontrol-size-mode%})
+- [Item Tapped]({%slug segmentedcontrol-item-tapped%})
+- [Disabled Segments]({%slug segmentedcontrol-disable-segment%})
+- [Styling]({%slug segmentedcontrol-styling%})

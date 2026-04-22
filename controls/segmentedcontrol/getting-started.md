@@ -14,6 +14,7 @@ This guide provides the information you need to start using the Telerik UI for .
 At the end, you will achieve the following result.
 
 ![.NET MAUI SegmentedControl Getting Started](images/segmentcontrol-getting-started.png)
+
 ## Prerequisites
 
 Before adding the SegmentedControl, you need to:
@@ -26,30 +27,21 @@ Before adding the SegmentedControl, you need to:
 
 ## Define the Control
 
-**1.** When your .NET MAUI application is set up, you are ready to add a SegmentedControl control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a SegmentedControl to your page. Define the control and populate it by using the `ItemsSource` property:
 
-```XAML
-<telerik:RadSegmentedControl x:Name="segmentControlText"
-								  HeightRequest="60"
-                                  VerticalOptions="Start">
-    <telerik:RadSegmentedControl.ItemsSource>
-        <x:Array Type="{x:Type x:String}">
-            <x:String>Popular</x:String>
-            <x:String>Library</x:String>
-            <x:String>Playlists</x:String>
-            <x:String>Friends</x:String>
-        </x:Array>
-    </telerik:RadSegmentedControl.ItemsSource>
-</telerik:RadSegmentedControl>
-```
+<snippet id='segmentcontrol-gettingstarted-xaml' />
 
-**2.** Add the following namespace:
+**2.** Alternatively, you can display custom content in each segment through the `ItemTemplate` property. The example below renders an image in each segment:
+
+<snippet id='segmentcontrol-gettingstarted-images-xaml' />
+
+**3.** Add the following namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
-**3.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
+**4.** Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 
 ```C#
 using Telerik.Maui.Controls.Compatibility;
@@ -71,7 +63,9 @@ public static class MauiProgram
 	}
 }           
 ```
- 
+
+>tip For a runnable example demonstrating the SegmentedControl Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SegmentedControl > Getting Started** category.
+
 ## Additional Resources
 
 - [.NET MAUI SegmentedControl Product Page](https://www.telerik.com/maui-ui/segmented-control)
@@ -81,5 +75,8 @@ public static class MauiProgram
 
 ## See Also
 
+- [Data Binding]({%slug segmentedcontrol-data-binding%})
+- [Size Mode]({%slug segmentedcontrol-size-mode%})
 - [Selection]({%slug segmentedcontrol-selection%})
 - [Disabled Segments]({%slug segmentedcontrol-disable-segment%})
+- [Styling]({%slug segmentedcontrol-styling%})
