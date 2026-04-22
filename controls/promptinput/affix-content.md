@@ -1,7 +1,7 @@
 ---
 title: Affix Content
 page_title: .NET MAUI PromptInput Documentation - Affix Content
-description: Learn how to add custom content around the input area of the Telerik UI for .NET MAUI PromptInput control through the top, start, and end affix content templates.
+description: Learn how to add custom content to the Telerik UI for .NET MAUI PromptInput through the top, start, and end affix content templates.
 position: 6
 slug: promptinput-affix-content
 ---
@@ -10,7 +10,7 @@ slug: promptinput-affix-content
 
 The PromptInput allows you to add custom content in different regions around the input area. This is useful for scenarios such as displaying the active topic, selecting a chat model, or showing a character counter next to the input.
 
-The affix content is configured through the following properties:
+Configure the affix content through the following properties:
 
 * `TopAffixContentTemplate` (`DataTemplate`)&mdash;Defines the template for the content displayed above the text input area and below the attached files view.
 * `StartAffixContentTemplate` (`DataTemplate`)&mdash;Defines the template for the content displayed on the left side at the bottom of the prompt input area, after the default content, that is, the 'More' button.

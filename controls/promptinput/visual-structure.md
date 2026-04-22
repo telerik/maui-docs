@@ -1,8 +1,8 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI PromptInput Documentation - PromptInput Visual Structure
-description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI PromptInput, and see how these elements build the visual structure of the control.
-position:1
+description: Learn what visual elements the Telerik UI for .NET MAUI PromptInput displays and how they build the visual structure of the control.
+position: 1
 slug: promptinput-visual-structure
 ---
 
@@ -10,7 +10,7 @@ slug: promptinput-visual-structure
 
 The visual structure of the .NET MAUI PromptInput represents the anatomy of the UI control. Being familiar with the visual elements of the PromptInput allows you to quickly find the information required to configure them.
 
-The images in this article show the anatomy of the <ControlName> and its building blocks.
+The images in this article show the anatomy of the PromptInput and its building blocks.
 
 ## PromptInput Structure
 

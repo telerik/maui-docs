@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI PromptInput Documentation - Configuration
-description: Learn how to configure the Telerik UI for .NET MAUI PromptInput control by setting the input message, placeholder, display mode, max input lines, buttons visibility, and more.
+description: Learn how to configure the Telerik UI for .NET MAUI PromptInput - set the message, placeholder, display mode, max input lines, button visibility, and more.
 position: 5
 slug: promptinput-configuration
 ---
@@ -24,8 +24,6 @@ The following example demonstrates how to set the `Placeholder` property:
 <telerik:RadPromptInput Placeholder="Type a prompt" />
 ```
 
->tip For customizing the color of the input text and the placeholder text, see the [Styling the Prompt Text]({%slug promptinput-styling%}#styling-the-prompt-text) section of the Styling article.
-
 ## Setting the Display Mode
 
 The `DisplayMode` (`Telerik.Maui.Controls.PromptInput.PromptInputDisplayMode`) property allows you to control how the PromptInput is rendered. The property accepts the following values:
@@ -46,7 +44,7 @@ The following example demonstrates how to set the `DisplayMode` property to `Exp
 
 <snippet id='promptinput-displaymode-expanded-xaml' />
 
-> For runnable examples demonstrating the PromptInput DisplayMode options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **PromptInput > Features** category.
+>tip For a runnable example demonstrating the PromptInput DisplayMode options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **PromptInput > Features** category.
 
 ## Defining the Max Input Lines
 

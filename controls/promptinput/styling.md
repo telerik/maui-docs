@@ -8,7 +8,7 @@ slug: promptinput-styling
 
 # .NET MAUI PromptInput Styling
 
-The PromptInput provides styling options for setting the appearance of its input text and built-in buttons. The actual style that is applied to the buttons is a merger between the custom style and the default style for the corresponding button.
+The PromptInput provides styling options for setting the appearance of its input text and built-in buttons. 
 
 ## Styling the Prompt Text
 
@@ -21,7 +21,7 @@ The PromptInput exposes the following properties for customizing the appearance 
 
 Style the PromptInput buttons using the following properties:
 
-* `SendButtonStyle` (`Style` with target type of `Radtemplatedbutton`)&mdash;Defines the style applied to the Send button.
+* `SendButtonStyle` (`Style` with target type of `RadTemplatedButton`)&mdash;Defines the style applied to the Send button.
 * `MoreButtonStyle` (`Style` with target type of `RadDropDownButton`)&mdash;Defines the style applied to the 'More' button.
 * `SpeechToTextButtonStyle` (`Style` with target type of `RadSpeechToTextButton`)&mdash;Defines the style applied to the Speech-to-Text button.
 

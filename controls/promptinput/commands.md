@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: .NET MAUI PromptInput Documentation - Commands
-description: Learn which commands are exposed by the Telerik UI for .NET MAUI PromptInput control and how to use them to handle sending messages, attaching files and photos, and more.
+description: Learn which commands the Telerik UI for .NET MAUI PromptInput exposes and how to use them to handle sending messages, attaching files, and more.
 position: 8
 slug: promptinput-commands
 ---
@@ -17,7 +17,7 @@ The PromptInput supports the following commands:
 * `PickPhotoCommand` (`ICommand`)&mdash;Opens the `Microsoft.Maui.Media.MediaPicker` so the end user can attach photos for upload.
 * `TakePhotoCommand` (`ICommand`)&mdash;Opens the device camera so the end user can capture and attach a photo.
 * `RemoveAttachedFileCommand` (`ICommand`)&mdash;Executed when an attached file is removed from the PromptInput.
-* `SpeechRecognizedCommand` (`ICommand`)&mdash;Executed when speech is recognized by the SpeechtoText button.
+* `SpeechRecognizedCommand` (`ICommand`)&mdash;Executed when speech is recognized by the Speech-to-Text button.
 
 ## See Also
 
