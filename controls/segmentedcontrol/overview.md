@@ -10,19 +10,20 @@ slug: segmentedcontrol-overview
 
 # .NET MAUI SegmentedControl Overview
 
-The Telerik UI for .NET MAUI SegmentedControl allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is a button that can display text or an image.
+The Telerik UI for .NET MAUI SegmentedControl allows you to display a list of horizontally aligned, mutually exclusive options, which can be selected by the user. Each option is rendered as a button that can display text, an image, or custom content.
 
 ![.NET MAUI SegmentedControl Overview](images/segmentcontrol-overview.png)
 
 ## Key Features of the .NET MAUI SegmentedControl
 
-* [Selection]({% slug segmentedcontrol-selection %})&mdash;The SegmentedControl exposes properties for working with its items selection.
+* [Data binding]({% slug segmentedcontrol-data-binding %})&mdash;Populate the control with a collection of business objects by using the `ItemsSource` property and visualize the data through `DisplayMemberPath`, a custom `ItemTemplate`, or a `DataTemplateSelector`.
+* [Size mode]({% slug segmentedcontrol-size-mode %})&mdash;Configure how each segment sizes itself within the control through the `SizeMode` property of the item view, which supports `Star`, `Auto`, and `Fixed` sizing.
+* [Selection]({% slug segmentedcontrol-selection %})&mdash;Select segments programmatically or through user interaction by using the `SelectedIndex` and `SelectedItem` properties. The control supports `Single`, `SingleDeselect`, and `None` selection modes and raises a `SelectionChanged` event.
+* [Item tapped]({% slug segmentedcontrol-item-tapped %})&mdash;Respond to tap interactions on the segments through the `ItemTapped` event and the `ItemTappedCommand` command, regardless of the current selection.
+* [Disabling segments]({% slug segmentedcontrol-disable-segment %})&mdash;Disable the interactions with a specific segment by using the `SetSegmentEnabled` method and check the current state through the `IsSegmentEnabled` method.
+* [Styling]({% slug segmentedcontrol-styling %})&mdash;Customize the appearance of the segments, the selection indicator, and the separators between segments through the `ItemViewStyle`, `ItemViewStyleSelector`, `SelectionIndicatorStyle`, and `SeparatorStyle` properties.
 
-* [Disabling segments]({% slug segmentedcontrol-disable-segment %})&mdash;You can disable the interactions with a specific segment and also set a specific color for this state.
-
-* [Styling]({% slug segmentedcontrol-styling %})&mdash;You can customize the colors of the segments in each of the supported normal, selected, and disabled states.
-
-## Next steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI SegmentedControl]({% slug segmentedcontrol-getting-started %})
 
