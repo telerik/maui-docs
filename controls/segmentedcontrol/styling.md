@@ -2,7 +2,7 @@
 title: Styling
 page_title: .NET MAUI SegmentedControl Documentation - Styling
 description: Learn how to customize the appearance of the segments, the selection indicator, and the separators of the Telerik UI for .NET MAUI SegmentedControl.
-position: 8
+position: 12
 slug: segmentedcontrol-styling
 ---
 
@@ -25,16 +25,16 @@ In addition to the styling properties above, the SegmentedControl inherits from 
 
 The `RadSegmentedControlItemView` exposes a number of bindable properties that can be set through the `ItemViewStyle` property of the SegmentedControl:
 
-* `TextColor` (`Color`)&mdash;Define the color of the text in the unselected state.
-* `SelectedTextColor` (`Color`)&mdash;Define the color of the text in the selected state.
-* `BackgroundColor` (`Color`)&mdash;Define the background color of the segment in the unselected state.
-* `BorderColor` (`Color`)&mdash;Define the border color of the segment in the unselected state.
-* `BorderThickness` (`Thickness`)&mdash;Define the border thickness of the segment.
+* `TextColor` (`Color`)&mdash;Defines the color of the text in the unselected state.
+* `SelectedTextColor` (`Color`)&mdash;Defines the color of the text in the selected state.
+* `BackgroundColor` (`Color`)&mdash;Defines the background color of the segment in the unselected state.
+* `BorderColor` (`Color`)&mdash;Defines the border color of the segment in the unselected state.
+* `BorderThickness` (`Thickness`)&mdash;Defines the border thickness of the segment.
 * `CornerRadius` (`CornerRadius`)&mdash;Defines the corner radius of the segment.
 * `Padding` (`Thickness`)&mdash;Defines the padding inside the segment.
 * Font Options&mdash;Define the `FontSize`, `FontFamily`, `FontAttributes` properties to customize the font of the segment text.
-* `HorizontalTextAlignment` (`TextAlignment`)&mdash;Define the horizontal alignment of the text.
-* `VerticalTextAlignment` (`TextAlignment`)&mdash;Define the vertical alignment of the text.
+* `HorizontalTextAlignment` (`TextAlignment`)&mdash;Defines the horizontal alignment of the text.
+* `VerticalTextAlignment` (`TextAlignment`)&mdash;Defines the vertical alignment of the text.
 * `SizeMode` (`SegmentedControlSizeMode`)&mdash;Defines how the segment sizes itself. For more information, see the [Size Mode]({%slug segmentedcontrol-size-mode%}) article.
 
 The following example demonstrates how to apply a style to the segments:
@@ -53,7 +53,7 @@ Customize the separator between segments by providing a `Style` targeting `RadBo
 
 <snippet id='segmentcontrol-separator-style-xaml' />
 
-## Example
+## Apply Styles to Segments, Selection Indicator, and Separator
 
 Apply the defined styles to the SegmentedControl through its `ItemViewStyle`, `SelectionIndicatorStyle`, and `SeparatorStyle` properties:
 

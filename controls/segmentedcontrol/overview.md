@@ -21,6 +21,8 @@ The Telerik UI for .NET MAUI SegmentedControl allows you to display a list of ho
 * [Selection]({% slug segmentedcontrol-selection %})&mdash;Select segments programmatically or through user interaction by using the `SelectedIndex` and `SelectedItem` properties. The control supports `Single`, `SingleDeselect`, and `None` selection modes and raises a `SelectionChanged` event.
 * [Item tapped]({% slug segmentedcontrol-item-tapped %})&mdash;Respond to tap interactions on the segments through the `ItemTapped` event and the `ItemTappedCommand` command, regardless of the current selection.
 * [Disabling segments]({% slug segmentedcontrol-disable-segment %})&mdash;Disable the interactions with a specific segment by using the `SetSegmentEnabled` method and check the current state through the `IsSegmentEnabled` method.
+* Right-to-left support&mdash;The SegmentedControl mirrors its layout when the `FlowDirection` is set to `RightToLeft`, providing full support for right-to-left languages and locales.
+* Keyboard navigation&mdash;Users can navigate between segments and change the selection through the keyboard on platforms that support it, improving the accessibility of the control.
 * [Styling]({% slug segmentedcontrol-styling %})&mdash;Customize the appearance of the segments, the selection indicator, and the separators between segments through the `ItemViewStyle`, `ItemViewStyleSelector`, `SelectionIndicatorStyle`, and `SeparatorStyle` properties.
 
 ## Next Steps

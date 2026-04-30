@@ -8,14 +8,16 @@ slug: segmentedcontrol-data-binding
 
 # .NET MAUI SegmentedControl Data Binding
 
-For all cases where the business items are not simple strings, data-binding is necessary to correctly visualize information. The SegmentedControl for .NET MAUI component supports data binding in the form of a path property.
+When the segments of the SegmentedControl are populated from a collection of business objects rather than plain strings, data binding is necessary to correctly visualize the data. The SegmentedControl supports data binding through the DisplayMemberPath property and the ItemTemplate property.
 
 ## Populate with Data
+
+To populate the SegmentedControl with data, use the following properties:
 
 - `ItemsSource` (`IEnumerable`)&mdash;Defines the collection of the items that will populate the control with data. The control supports both observable and static collections.
 - `DisplayMemberPath` (`string`)&mdash;Defines the name of the property which will be visualized inside each segment.
 
-> If `DisplayMemberPath` is not set the `ToString` implementation of the business object will be visualized. The `DisplayMemberPath` is a property that helps the developers to visualize an exact property from the business object they are bound to.
+If `DisplayMemberPath` is not set, the `ToString` implementation of the business object will be visualized. Use `DisplayMemberPath` to visualize a specific property from the bound business object.
 
 The following example demonstrates how to bind the `ItemsSource` of the control and specify the property used for display:
 
@@ -37,7 +39,7 @@ This is the result:
 
 ## Define Item Appearance
 
-The SegmentedControl provides a default appearance of the segments. If you want to customize this appearance, define an `ItemTemplate` (`DataTemplate`).
+To customize the appearance of each segment, set the `ItemTemplate` property to a `DataTemplate`.
 
 Here is an example with `ItemTemplate`:
 
@@ -57,7 +59,7 @@ Here is an example with `ItemTemplate`:
 
 <snippet id='segmentedcontrol-databinding-selectionindicator' />
 
-**4.** Add the `telerik` namespace:
+**5.** Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
@@ -69,7 +71,7 @@ This is the result:
 
 ## Item Appearance at Runtime
 
-When the SegmentedControl is bound to a collection of multiple data item objects and the appearance of each segment depends on a specific property of the business object then you can define an item appearance at runtime by setting the `ItemTemplate` property to a `DataTemplateSelector` object.
+When the SegmentedControl is bound to a collection of multiple data item objects and the appearance of each segment depends on a specific property of the business object, then you can define an item appearance at runtime by setting the `ItemTemplate` property to a `DataTemplateSelector` object.
 
 **1.** Define the data templates and the selector:
 

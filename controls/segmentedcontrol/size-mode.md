@@ -18,15 +18,15 @@ The `SizeMode` property is of type `Telerik.Maui.Controls.SegmentedControl.Segme
 
 The `SizeMode` can be applied to all segments through an `ItemViewStyle` that targets `RadSegmentedControlItemView`.
 
-**Example with Star Size Mode**
+The following example demonstrates how to apply the `Star` size mode to all segments:
 
 <snippet id='segmentcontrol-sizemode-star-xaml' />
 
-**Example with Fixed Size Mode**
+The following example demonstrates how to apply the `Fixed` size mode to all segments:
 
 <snippet id='segmentcontrol-sizemode-fixed-xaml' />
 
-**Example with Auto Size Mode**
+The following example demonstrates how to apply the `Auto` size mode to all segments:
 
 <snippet id='segmentcontrol-sizemode-auto-xaml' />
 
