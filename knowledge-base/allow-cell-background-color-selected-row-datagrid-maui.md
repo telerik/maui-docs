@@ -1,8 +1,7 @@
 ---
 title: Allowing Cell Background Color to Show When Row Is Selected in DataGrid for UI for .NET MAUI on Mac and iOS
-description: Learn how to ensure custom cell background colors remain visible when a row is selected in DataGrid for UI for .NET MAUI on iOS and Mac
+description: Learn how to ensure custom cell background colors remain visible when a row is selected in DataGrid for UI for .NET MAUI on iOS and MacCatalyst
 type: how-to
-page_title: Custom Cell Background Color Visibility in Selected Rows in .NET MAUI DataGrid
 meta_title: Custom Cell Background Color Visibility in Selected Rows in .NET MAUI DataGrid on iOS and MacCatalyst
 slug: allow-cell-background-color-selected-row-datagrid-maui
 tags: datagrid, ui-for-net-maui, render-mode, cell-style, row-selection
@@ -26,7 +25,7 @@ This knowledge base article also answers the following questions:
 
 ## Solution
 
-To allow cell background colors to remain visible on iOS and MacCatalyst when a row is selected,  set the `RenderMode` property of the `RadDataGrid` to `SkiaSharp`. This ensures that the cell styles are displayed on top of the row selection style.
+To allow cell background colors to remain visible on iOS and MacCatalyst when a row is selected, set the `RenderMode` property of the `RadDataGrid` to `SkiaSharp`. This ensures that the cell styles are displayed on top of the row selection style.
 
 ```csharp
 using Telerik.Maui.Controls;
