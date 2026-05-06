@@ -1,6 +1,6 @@
 ---
-title: WinUI
-page_title: .NET MAUI SegmentedControl Documentation - Keyboard Support
+title: Keyboard Navigation
+meta_title: .NET MAUI SegmentedControl Documentation - Keyboard Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI SegmentedControl accessibility standards.
 position: 1
 slug: segmentedcontrol-keyboard-support
