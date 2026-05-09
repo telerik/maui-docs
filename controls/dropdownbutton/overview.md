@@ -17,12 +17,12 @@ The Telerik UI for .NET MAUI DropDownButton combines a button surface with a con
 ## Key Features of the .NET MAUI DropDownButton
 
 * [`Content` and `ContentTemplate`]({%slug dropdownbutton-configuration%}#setting-content)&mdash;The DropDownButton allows you to define the content of the button surface using the `Content` property or `ContentTemplate` for more complex scenarios.
-* [`DropDownContent` and `DropDownContentTemplate`]({%slug dropdownbutton-drop-down-configuration%}#setting-content)&mdash;The button allows you define the content of the drop-down part using the `DropDownContent` property or `DropDownContentTemplate` for more complex scenarios.
+* [`DropDownContent` and `DropDownContentTemplate`]({%slug dropdownbutton-drop-down-configuration%}#setting-content)&mdash;The button allows you to define the content of the drop-down part using the `DropDownContent` property or `DropDownContentTemplate` for more complex scenarios.
 * [Drop-down indicator visibility and position]({%slug dropdownbutton-configuration%})&mdash;You can choose to show or hide the drop-down indicator and set its position relative to the button content.
 * [Drop-down position, size and alignment]({%slug dropdownbutton-drop-down-configuration%})&mdash;You can configure the position of the drop-down relative to the button, as well as its size and alignment.
 * [Styling]({%slug dropdownbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and more.
 * [Animation]({%slug dropdownbutton-animation%})&mdash;The control provides built-in open and close animations for the drop-down part, which you can customize or disable.
-* [Exhaustive number of events]({%slug dropdownbutton-events%})&mdash;You can use the events exposed by the DropDownButton to execute various operations on user interactions when the drop-down is opening, opened and closed.
+* [Exhaustive number of events]({%slug dropdownbutton-events%})&mdash;You can use the events exposed by the DropDownButton to execute various operations on user interactions when the drop-down is opening, opened, and closed.
 * [Command]({%slug dropdownbutton-command%})&mdash;The DropDownButton provides a command, that executes when the button is clicked.
 
 ## Next Steps

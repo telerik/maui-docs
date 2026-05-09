@@ -28,11 +28,11 @@ Before adding the DropDownButton, you need to:
 
 **1.** When your .NET MAUI application is set up, you are ready to add a DropDownButton control to your page:
 
-DropDownButton with layout and buttons inside the drop-down:
+* DropDownButton with layout and buttons inside the drop-down:
 
 <snippet id='dropdownbutton-gettingstarted' />
 
-DropDownButton with list content inside the drop-down:
+* DropDownButton with list content inside the drop-down:
 
 <snippet id='dropdownbutton-gettingstarted-list-content' />
 

@@ -1,9 +1,9 @@
 ---
 title: Drop-Down Configuration
 page_title: .NET MAUI DropDownButton Documentation - Drop-Down Configuration
-description: Learn how to define, position, and format the content of the Telerik DropDownButton for .NET MAUI.
-position: 3
-tags: .net maui, telerik drop-down button for .net maui, ui for .net maui, template contet, microsoft .net maui
+description: Learn how to size, position, and customize the content of the drop-down part of the Telerik DropDownButton for .NET MAUI. 
+position: 4
+tags: .net maui, telerik drop-down button for .net maui, ui for .net maui, template content, microsoft .net maui
 slug: dropdownbutton-drop-down-configuration
 ---
 
@@ -15,14 +15,14 @@ The purpose of this help article is to show you the main configuration options o
 
 Define the content inside the drop-down part of the button by setting the `DropDownContent` property (`View`) or `DropDownContentTemplate` (`DataTemplate`) property.
 
-__Setting DropDownContent__
+### Setting DropDownContent
 
 <snippet id='dropdownbutton-gettingstarted' />
 <snippet id='dropdownbutton-gettingstarted-list-content' />
 
 ![.NET MAUI DropDownButton Getting Started](images/dropdownbutton-getting-started.png)
 
-__Setting DropDownContentTemplate__
+### Setting DropDownContentTemplate
 
 <snippet id='dropdownbutton-templates-datatemplatee' />
 

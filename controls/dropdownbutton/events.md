@@ -2,7 +2,7 @@
 title: Events
 page_title: .NET MAUI DropDownButton Documentation - Events
 description: Review the DropDownButton events that are raised when the drop-down is opening, opened, or closed.
-position: 7
+position: 6
 slug: dropdownbutton-events
 ---
 
@@ -24,11 +24,11 @@ The .NET MAUI DropDownButton exposes the following events:
 	* The `sender` argument which is of type `RadDropDownButton`.
 	* An `EventArgs` object which provides information about the `Closed` event.
 
-The `RadDropDownButton` inherits the `Clicked`, `Pressed` and `Released` events from the `RadTemplatedButton`.
+The `RadDropDownButton` inherits the `Clicked`, `Pressed`, and `Released` events from the `RadTemplatedButton`.
 
 ## Using the Opening, Opened and Closed Events
 
-The following example demonstrates how to use the `Opening`, `Opened` and `Closed` events.
+The following example demonstrates how to use the `Opening`, `Opened`, and `Closed` events.
 
 **1.** Define the button in XAML:
 

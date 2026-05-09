@@ -2,7 +2,7 @@
 title: Visual States
 page_title: .NET MAUI DropDownButton Documentation - Visual States
 description: Learn how to set the border color, border thickness and other styling options for the different visual states of the Telerik DropDownButton for .NET MAUI.
-position: 10
+position: 8
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui
 slug: dropdownbutton-visual-states
 ---
@@ -10,18 +10,18 @@ slug: dropdownbutton-visual-states
 # .NET MAUI DropDownButton Visual States
 
 This article describes the visual states the DropDownButton provides. 
-You can use the visual states to change the visual appearance of the control depending on the state the control is set&mdash;whether it's disabled, or pressed, or has the mouse pointer over.
+You can use the visual states to change the visual appearance of the control depending on its current state—whether the control is disabled, pressed, or has the mouse pointer hovering over it.
 
 The DropDownButton provides the following `CommonStates` visual states:
 
-| Visual States | Description |
+| Visual states | Description |
 | ------------- | --------------- |
 | `Normal` | Applies when the button is in normal state. |
 | `Opened` | Applies when the drop-down is opened. |
 | `Pressed` | Applies when the button is pressed. |
-| `FocusedPressed` | (Desktop-only) Applies when the button is pressed and focused by the keyboard. |
+| `FocusedPressed` | (Desktop-only) Applies when the button is pressed and focused by using the keyboard. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
-| `FocusedMouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control and the control is focused by the keyboard. |
+| `FocusedMouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control and the control is focused by using the keyboard. |
 | `Disabled` | Applies when the button is disabled. |
 
 ## Using the Visual States

@@ -3,7 +3,7 @@ title: Button Configuration
 page_title: .NET MAUI DropDownButton Documentation - Button Configuration
 description: Learn how to define, position, and format the content of the Telerik DropDownButton for .NET MAUI.
 position: 3
-tags: .net maui, telerik drop-down button for .net maui, ui for .net maui, template contet, microsoft .net maui
+tags: .net maui, telerik drop-down button for .net maui, ui for .net maui, template content, microsoft .net maui
 slug: dropdownbutton-configuration
 ---
 
@@ -43,7 +43,7 @@ The DropDownButton allows you to configure the indicator position, visibility, a
 
 Use the `DropDownIndicatorPosition` (enum of type `Telerik.Maui.Controls.DropDownButton.DropDownButtonIndicatorPosition`) property to set the position of the drop-down indicator, presented inside the `RadDropDownButton`. The available options are:
 
-* (Default)`Right`&mdash;The drop-down indicator is positioned to the right of the content.
+* (Default) `Right`&mdash;The drop-down indicator is positioned to the right of the content.
 * `Left`&mdash;The drop-down indicator is positioned to the left of the content.
 * `Top`&mdash;The drop-down indicator is positioned above the content.
 * `Bottom`&mdash;The drop-down indicator is positioned below the content.
@@ -87,7 +87,7 @@ The following properties specify the font options that apply to the content when
 
 The DropDownButton allows you to configure the auto-open behavior of the drop-down part of the button on desktop platforms through the `AutoOpenDelay` (`TimeSpan`) property. The default value is `Zero`.
 
-Setting a non-zero value to the `AutoOpenDelay` property will trigger the drop-down to open after the specified time has passed while the mouse pointer is hovering over the button. This behavior is available on Windows and Mac Catalyst.
+Setting a non-zero value to the AutoOpenDelay property triggers the drop-down to open after the specified time has passed while the mouse pointer is hovering over the button. This behavior is available on Windows and Mac Catalyst.
 
 This is an example of setting the `AutoOpenDelay` to `1` second:
 

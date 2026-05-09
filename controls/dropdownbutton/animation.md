@@ -1,14 +1,14 @@
 ---
 title: Animation
 page_title: .NET MAUI DropDownButton Documentation - Animation
-description: Learn how to configure animations for the Telerik DropDownButton for .NET MAUI.
-position: 7
+description: Learn how to configure the drop-down animation type, duration, and easing for the Telerik UI for .NET MAUI DropDownButton.
+position: 5
 slug: dropdownbutton-animation
 ---
 
 # .NET MAUI DropDownButton Animation
 
-The .NET MAUI DropDownButton provides animation when the drop-down part of the control is opened or closed. The animation is enabled by default and can be configured by using the following properties:
+The .NET MAUI DropDownButton animates the drop-down part of the control as it opens and closes. The animation is enabled by default and can be configured by using the following properties:
 
 * `DropDownAnimation` (enum of type `Telerik.Maui.Controls.PopupAnimationType`)&mdash;Defines the animation type when the drop-down part of the control is opened or closed. The available options are:
     * (Default)`Slide`

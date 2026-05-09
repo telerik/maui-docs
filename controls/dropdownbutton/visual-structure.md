@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI DropDownButton Documentation - DropDownButton Visual Structure
-description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI DropDownButton, and see how these elements build the visual structure of the control.
+description: Learn about the visual elements that build the structure of the Telerik UI for .NET MAUI DropDownButton.
 position: 1
 slug: dropdownbutton-visual-structure
 ---
@@ -12,7 +12,7 @@ The visual structure of the .NET MAUI DropDownButton represents the anatomy of t
 
 The following image shows the anatomy of the DropDownButton.
 
-![.NET MAUI DropDownButton Visual Structure](images/dropdownbutton-visual-structure.png "Visual elements of The DropDownButton control")
+![.NET MAUI DropDownButton Visual Structure](images/dropdownbutton-visual-structure.png "Visual elements of the DropDownButton control")
 
 ## Displayed Elements
 

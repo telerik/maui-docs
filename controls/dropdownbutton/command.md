@@ -1,8 +1,8 @@
 ---
 title: Command
 page_title: .NET MAUI DropDownButton Documentation - Command
-description: Learn about the .NET MAUI DropDownButton Command that is executed when the button is clicked.
-position: 8
+description: Learn how to attach and use the Command and CommandParameter properties of the Telerik UI for .NET MAUI DropDownButton.
+position: 7
 slug: dropdownbutton-command
 ---
 
@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on WinUI:
 
-![.NET MAUI DropDownButton Command](images/DropDownButton-command.gif "DropDownButton for .NET MAUI")
+![.NET MAUI DropDownButton Command](images/dropdownbutton-command.gif "DropDownButton for .NET MAUI")
 
 > For a runnable example demonstrating the DropDownButton Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DropDownButton > Features** category.
 

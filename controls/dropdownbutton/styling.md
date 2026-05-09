@@ -22,7 +22,7 @@ To style the DropDownButton, you can use the following properties:
 * `CornerRadius` (`CornerRadius`)&mdash;Specifies the corner radius of the control.
 * `Padding` (`Thickness`)&mdash;Specifies the padding of the control.
 * `TextColor` (`Color`)&mdash;Specifies the color of the `Label.Text` created when `Content` is `string` and `ContentTemplate` is not set.
-* All Properties from the [Button Configuration]({%slug dropdownbutton-configuration%}) article can be applied through style.
+* All properties from the [Button Configuration]({%slug dropdownbutton-configuration%}) article can be applied through style.
 
 ## Styling the Drop-Down
 
@@ -49,7 +49,7 @@ The DropDownButton uses the .NET MAUI Visual State Manager and defines a visual 
 * `FocusedPressed`
 * `Disabled`
 
-### Example for Styling the DropDownButton
+### Example of Styling the DropDownButton
 
 The following example demonstrates how to apply styling to the DropDownButton using the visual states.
 
@@ -73,7 +73,7 @@ This is the result on WinUI:
 
 > For a runnable example demonstrating the DropDownButton styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DropDownButton > Styling** category.
 
-## Example for Styling the Drop-Down
+### Example of Styling the Drop-Down
 
 The following example demonstrates how to apply styling to the drop-down part of the button.
 
