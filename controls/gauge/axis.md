@@ -86,6 +86,21 @@ The following image shows the end result.
 
 ![Gauge label format](images/gauge-axis-label-format.png)
 
+## Label Formatter
+
+The Gauge Axis exposes a `LabelFormatter` property that allows you to set a custom function for formatting the axis labels. The function overrides the default label format. The function receives the axis tick value and returns return a string representing the formatted label.
+
+**Example with LabelFormatter**
+
+1. Define the Gauge in XAML:
+
+<snippet id='gauge-label-formatter-xaml'/>
+
+2. Set the `LabelFormatter` function to the Gauge axis:
+
+<snippet id='gauge-label-formatter-csharp'/>
+
+
 ## Label and Tick Position
 
 In the Radial Gauge, the Gauge elements can be positioned on the inside or on the outside of the axis line. Some of the elements, such as the ticks, can also be centered on the axis line. This behavior is controlled by the `Position` property of the specific element.
