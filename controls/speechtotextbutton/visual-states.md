@@ -21,9 +21,9 @@ The SpeechToTextButton provides the following `CommonStates` visual states:
 | ------------ | ----------- |
 | `Normal` | Applied when the button is in its default, inactive state. |
 | `Pressed` | Applied when the button is being pressed or tapped by the user. |
-| `PointerOver`| (Desktop) Applied when the mouse cursor is hovering over the button. |
+| `MouseOver`| (Desktop) Applied when the mouse cursor is hovering over the button. |
 | `Listening` | Applied when the button is actively listening for speech input. |
-| `ListeningPointerOver` | (Desktop) Applied when the mouse cursor is hovering over the button when in `Listening` state. |
+| `ListeningMouseOver` | (Desktop) Applied when the mouse cursor is hovering over the button when in `Listening` state. |
 | `ListeningPressed` | Applied when the button is pressed when actively listening for speech input. |
 | `Error` | Applied when an error occurs during speech recognition (e.g., no internet connection, speech recognizer issues, permission denied). |
 | `Disabled` | Applied when the button is disabled and cannot be interacted with. |

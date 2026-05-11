@@ -44,7 +44,7 @@ You can configure and style the More button using the following properties:
 
 * Define the actions that will appear when the More button is tapped by adding instances of `ChatMoreButtonAction` to the `MoreButtonActions` (`IList<ChatMoreButtonAction>`) collection.
 
-* Style the More button using the `MoreButtonStyle` (`Style` with target type `Telerik.Maui.Controls.Chat.ChatMoreButtonToolbarItemView`) property.
+* Style the More button using the `MoreButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadDropDownButton`) property.
 
 ## Style the SpeechToTextButton
 

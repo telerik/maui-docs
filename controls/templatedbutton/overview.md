@@ -18,7 +18,7 @@ Additionally, it enables you to align its content and define custom content by u
 
 * [Content and ContentTemplate]({%slug templatedbutton-configuration%}#setting-content)&mdash;The TemplatedButton allows you to define a `Content`. In addition, there is an option for setting `ContentTemplate`. For example, you can implement a [Loading Button]({%slug templatedbutton-loading-button%}) using the `ContentTemplate`.
 * [Text alignment]({%slug templatedbutton-configuration%}#text-alignment)&mdash;The TemplatedButton enables you to control the horizontal and vertical positioning of the text inside the content.
-* [Visual states]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance for different visual states like, `Normal`, `Pressed`, `PointerOver` (desktop-only), and `Disabled`.
+* [Visual states]({%slug templatedbutton-visual-states%})&mdash;You can change the TemplatedButton appearance for different visual states like, `Normal`, `Pressed`, `MouseOver` (desktop-only), and `Disabled`.
 * [Exhaustive number of events]({%slug templatedbutton-events%})&mdash;You can use the events exposed by the TemplatedButton to execute various operations on user interactions such as click, press, and release.
 * [Command]({%slug templatedbutton-command%})&mdash;The TemplatedButton provides a command, that executes when the button is clicked.
 * [Styling]({%slug templatedbutton-styling%})&mdash;You can apply different styling options to the button such as changing its background color, border color, border thickness, and more.

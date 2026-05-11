@@ -27,9 +27,9 @@ The SpeechToTextButton uses the .NET MAUI Visual State Manager and defines a vis
 
 * `Normal`&mdash;The default state when the button is not being interacted with and speech recognition is not active.
 * `Pressed`&mdash;The state when the user is physically pressing the button but speech recognition hasn't started yet.
-* (Desktop) `PointerOver`&mdash;The state when the mouse cursor is hovering over the button.
+* (Desktop) `MouseOver`&mdash;The state when the mouse cursor is hovering over the button.
 * `Listening`&mdash;The active state when the button is listening for speech input. This is the primary feedback state for users.
-* (Desktop) `ListeningPointerOver`&mdash;The state when the mouse cursor is hovering over the button when in `Listening` state.
+* (Desktop) `ListeningMouseOver`&mdash;The state when the mouse cursor is hovering over the button when in `Listening` state.
 * `ListeningPressed`&mdash;The state when the button is pressed when actively listening for speech input.
 * `Error`&mdash;The state displayed when speech recognition encounters an error or fails to process input.
 * `Disabled`&mdash;The state when the control is disabled and cannot be interacted with.

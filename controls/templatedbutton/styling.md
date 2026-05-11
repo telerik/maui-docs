@@ -27,7 +27,7 @@ To style the TemplatedButton, you can use the following properties:
 The TemplatedButton uses the .NET MAUI Visual State Manager and defines a visual state group named `CommonStates` with the following visual states:
 
 * `Normal`
-* `PointerOver`
+* `MouseOver`
 * `Pressed`
 * `Disabled`
 

@@ -18,7 +18,7 @@ The TemplatedButton provides the following `CommonStates` visual states:
 | ------------- | --------------- |
 | `Normal` | Applies when the button is in normal state. |
 | `Pressed` | Applies when the button is pressed. |
-| `PointerOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
+| `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
 | `Disabled` | Applies when the button is disabled. |
 
 ## Using the Visual States
