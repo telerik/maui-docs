@@ -518,7 +518,7 @@ redirects:
   to: /controls/datagrid/columns/column-types/combobox-column
   type: Permanent
 
-- from: ^/controls/listview/([0-9A-Za-z]+\/?)+/$
+- from: ^/controls/listview(?:/.*)?/?$
   to: /controls/collectionview/overview
   type: Permanent
 
