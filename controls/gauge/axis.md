@@ -88,9 +88,9 @@ The following image shows the end result.
 
 ## Label Formatter
 
-The Gauge Axis exposes a `LabelFormatter` property that allows you to set a custom function for formatting the axis labels. The function overrides the default label format. The function receives the axis tick value and returns return a string representing the formatted label.
+The Gauge Axis exposes a `LabelFormatter` property that allows you to set a custom function for formatting the axis labels. The function overrides the default label format. The function receives the axis tick value and returns a string representing the formatted label.
 
-**Example with LabelFormatter**
+>caption Example with LabelFormatter
 
 1. Define the Gauge in XAML:
 
