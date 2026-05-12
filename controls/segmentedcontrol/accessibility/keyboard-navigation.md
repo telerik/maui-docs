@@ -16,6 +16,7 @@ The [Telerik UI for .NET MAUI SegmentedControl]({%slug segmentedcontrol-overview
 | `Shift` + `Tab` | Enters or exits the SegmentedControl. |
 | `Left Arrow` | Navigates to the previous item in the SegmentedControl. |
 | `Right Arrow` | Navigates to the next item in the SegmentedControl. |
+| `Enter` | Selects the currently focused segment. |
 
 Here is how the keyboard navigation support looks on WinUI:
 

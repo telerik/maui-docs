@@ -2,7 +2,7 @@
 title: Visual States
 page_title: .NET MAUI SegmentedControl Documentation - Visual States
 description: Learn how to configure the visual states of the Telerik SegmentedControl for .NET MAUI, including Normal, Selected, MouseOver, and Disabled states.
-position: 10
+position: 11
 tags: .net maui, telerik .net maui, ui for .net maui, segmentedcontrol, microsoft .net maui
 slug: segmentedcontrol-visual-states
 ---
