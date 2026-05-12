@@ -231,6 +231,8 @@ meta:
     title: Entry
   controls/editor:
     title: Editor
+  controls/dropdownbutton:
+    title: DropDownButton
   controls/docklayout:
     title: DockLayout
   controls/datetimepicker/styling:
