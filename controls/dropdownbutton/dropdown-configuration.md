@@ -24,7 +24,7 @@ Define the content inside the drop-down part of the button by setting the `DropD
 
 ### Setting DropDownContentTemplate
 
-<snippet id='dropdownbutton-templates-datatemplatee' />
+<snippet id='dropdownbutton-templates-datatemplate' />
 
 ![.NET MAUI DropDownButton DropDown ContentTemplate](images/dropdownbutton-contenttemplate.gif "DropDownButton for .NET MAUI")
 

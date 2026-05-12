@@ -100,6 +100,9 @@ The Gauge Axis exposes a `LabelFormatter` property that allows you to set a cust
 
 <snippet id='gauge-label-formatter-csharp'/>
 
+The following image shows the end result.
+
+![Gauge label formatter](images/gauge-label-formatter.png)
 
 ## Label and Tick Position
 
@@ -112,7 +115,6 @@ In the Radial Gauge, the Gauge elements can be positioned on the inside or on th
 					     Step="0.5"
 					     TickPosition="Start" />
 ```
-
 
 The following image shows the end result.
 
