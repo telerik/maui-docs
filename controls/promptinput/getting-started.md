@@ -10,6 +10,10 @@ slug: promptinput-getting-started
 
 This guide provides the information you need to start using the Telerik UI for .NET MAUI PromptInput by adding the control to your project.
 
+At the end, you will achieve the following result.
+
+![.NET MAUI PromptInput Getting Started](images/promptinput-getting-started.png)
+
 ## Prerequisites
 
 Before adding the PromptInput, you need to:

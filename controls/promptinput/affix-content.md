@@ -38,6 +38,10 @@ The following example demonstrates how to add custom content in the top, start, 
 
 <snippet id='promptinput-viewmodel-affix' />
 
+This is the result on WinUI:
+
+![.NET MAUI PromptInput Affix Content](images/promptinput-affix.png)
+
 >tip For a runnable example demonstrating the PromptInput Affix Content, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **PromptInput > Features** category.
 
 ## See Also

@@ -32,6 +32,8 @@ The `DisplayMode` (`Telerik.Maui.Controls.PromptInput.PromptInputDisplayMode`) p
 * `Compact`&mdash;The control renders in a compact single-line layout with all elements displayed in a single-line.
 * `Expanded`&mdash;The control renders in an expanded multi-line layout.
 
+![.NET MAUI PromptInput Display Mode](images/promptinput-displaymode.png)
+
 The following example demonstrates how to set the `DisplayMode` property to `Automatic`:
 
 <snippet id='promptinput-displaymode-automatic-xaml' />
@@ -54,6 +56,10 @@ The following example demonstrates how to set the `MaxInputLines` property:
 
 <snippet id='promptinput-maxinputlines-xaml' />
 
+This is the result on WinUI:
+
+![.NET MAUI PromptInput Max Input Lines](images/promptinput-maxinputlines.png)
+
 >tip For a runnable example demonstrating the PromptInput MaxInputLines property, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **PromptInput > Features** category.
 
 ## Controlling the Buttons Visibility
@@ -66,6 +72,8 @@ The PromptInput exposes the following properties that control the visibility of 
 The following example demonstrates how to control the visibility of the built-in buttons:
 
 <snippet id='promptinput-buttons-visibility' />
+
+![.NET MAUI PromptInput Buttons Visibility](images/promptinput-buttonsvisibility.gif)
 
 ## Configuring the Send Message Button
 

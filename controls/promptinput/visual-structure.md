@@ -27,7 +27,7 @@ The images in this article show the anatomy of the PromptInput and its building 
 ![Telerik UI for .NET MAUI PromptInput Attached Files View and Messages Visual Structure](images/promptinput-attached-files-view-messages-structure.png)
 
 * **Attached Files View**&mdash;Represents the view that displays the files attached to the prompt.
-* **Messages**&mdash;Represents the messages typed in the input area.
+* **Message**&mdash;Represents the message typed in the input area.
 
 ## See Also
 

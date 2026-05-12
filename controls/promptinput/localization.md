@@ -21,7 +21,6 @@ The PromptInput for .NET MAUI provides language localization. The localization k
 
 > important To learn in details about the localization process of Telerik UI for .NET MAUI components, please go through the common [Localization and Globalization]({%slug globalization-localization%}) topic.
 
-
 ## See Also
 
 * [Localization and Globalization]({%slug globalization-localization%})
