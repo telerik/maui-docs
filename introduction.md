@@ -88,7 +88,8 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
         <IntroTableSection title="Buttons">
             <IntroTableAnchor title="Button" href="slug:button-overview"></IntroTableAnchor>
             <IntroTableAnchor title="CheckBox" href="slug:checkbox-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Segmented Control" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DropDownButton" href="slug:dropdownbutton-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="SegmentedControl" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
             <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="TemplatedButton" href="slug:templatedbutton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ToggleButton" href="slug:togglebutton-overview"></IntroTableAnchor>
