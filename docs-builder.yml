@@ -127,6 +127,9 @@ meta:
     title: SignaturePad
   controls/sidedrawer:
     title: SideDrawer
+  controls/segmentedcontrol/accessibility:
+    title: Accessibility
+    position: 10
   controls/segmentedcontrol:
     title: SegmentedControl
   controls/scheduler/styling:
@@ -167,6 +170,8 @@ meta:
     position: 10
   controls/rangeslider:
     title: RangeSlider
+  controls/promptinput:
+    title: PromptInput
   controls/progressbar:
     title: ProgressBar
   controls/popup:
