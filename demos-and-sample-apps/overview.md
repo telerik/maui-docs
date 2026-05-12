@@ -56,7 +56,7 @@ For more information on it, refer to [SDKBrowser App Examples]({%slug sdkbrowser
 
 ## .NET MAUI Crypto Tracker App Demo
 
-Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls. In this demo, you can see in action many of the .NET MAUI controls in the library, including the ListView, Charts and TabView.
+Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls. In this demo, you can see in action many of the .NET MAUI controls in the library, including the CollectionView, Charts and TabView.
 
 ![Telerik UI for .NET MAUI Crypto Tracker App Demo](../images/crypto-app.png)
 

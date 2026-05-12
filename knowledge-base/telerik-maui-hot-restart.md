@@ -56,7 +56,6 @@ The table below shows a list of controls and their compatibility with Hot Restar
 | ImageEditor | Fail | Yes | - | No exception details in VS output |
 | ItemsControl | Pass | - | - | - |
 | ListPicker | Pass | - | - | - |
-| ListView | Fail | Yes | - | Telerik_Maui_Controls_Compatibility_DataControlsRenderer_iOS_TKExtendedListView' does not implement methodSignatureForSelector |
 | Map | Fail | Yes | - | Failed at Telerik.Maui.Controls.Compatibility.Map.ShapefileLayer.GenerateFillPaint |
 | NumericInput | Fail | Yes | - | Telerik_Maui_InputElement_RadTextField does not implement methodSignatureForSelector |
 | MaskedEntry | Fail | Yes | - | Telerik_Maui_InputElement_RadTextField does not implement methodSignatureForSelector |

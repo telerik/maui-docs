@@ -206,23 +206,6 @@ meta:
     position: 3
   controls/map:
     title: Map
-  controls/listview/howto:
-    title: How To
-    position: 16
-  controls/listview/styling:
-    title: Styling
-    position: 15
-  controls/listview/cells:
-    title: Cells
-    position: 3
-  controls/listview/gestures:
-    title: Gestures
-    position: 12
-  controls/listview/grouping:
-    title: Grouping
-    position: 5
-  controls/listview:
-    title: ListView (Obsolete)
   controls/listpicker/styling:
     title: Styling
     position: 20
@@ -535,8 +518,8 @@ redirects:
   to: /controls/datagrid/columns/column-types/combobox-column
   type: Permanent
 
-- from: ^/controls/listview/grouping/grouping$
-  to: /controls/listview/grouping/overview
+- from: ^/controls/listview(?:/.*)?/?$
+  to: /controls/collectionview/overview
   type: Permanent
 
 - from: ^/ai/copilot-extension$
@@ -676,7 +659,7 @@ redirects:
   type: Permanent
 
 - from: https://docs.telerik.com/devtools/maui/listview
-  to: https://www.telerik.com/maui-ui/documentation/controls/listview/overview
+  to: https://www.telerik.com/maui-ui/documentation/controls/collectionview/overview
   type: Permanent
 
 - from: https://docs.telerik.com/devtools/maui/map

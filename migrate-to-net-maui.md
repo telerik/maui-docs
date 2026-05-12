@@ -97,7 +97,7 @@ Some of the Telerik .NET MAUI controls have dedicated migration articles. These 
 
 Before you start, note the following:
 
-* You can directly replace some components, such as the DataGrid, ListView, Barcode, Button, and more, by changing their respective namespace. All Telerik UI for .NET MAUI controls use a common `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` `telerik` namespace.
+* You can directly replace some components, such as the DataGrid, Barcode, Button, and more, by changing their respective namespace. All Telerik UI for .NET MAUI controls use a common `xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` `telerik` namespace.
 
 * Some components, such as the MaskedEntries, Entry, Pickers, and TabView, require API changes. For the detailed guide, go to their corresponding article on converting the Xamarin control to .NET MAUI, for example, the topic about [migrating the Entry from Xamarin.Forms]({%slug entry-migrate-from-xamarin%}).
 
@@ -130,7 +130,6 @@ The following list includes the links to the available Xamarin to MAUI migration
 * [Entry]({% slug entry-migrate-from-xamarin %})
 * [ImageEditor]({% slug imageeditor-migrate-from-xamarin %})
 * [ListPicker]({% slug migrate-xamarin-listpicker-to-maui %})
-* [ListView]({% slug migrate-xamarin-listview-to-maui %})
 * [MaskedEntry]({% slug maskedentry-migrate-from-xamarin %})
 * [ProgressBar]({% slug progressbar-migrate-from-xamarin %})
 * [RichTextEditor]({% slug richtexteditor-migrate-from-xamarin %})

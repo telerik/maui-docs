@@ -58,7 +58,6 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 | tm-imageeditor             | [ImageEditor]({%slug imageeditor-overview%}) |
 | tm-itemscontrol            | [ItemsControl]({%slug itemscontrol-overview%}) |
 | tm-listpicker              | [ListPicker]({%slug listpicker-overview%}) |
-| tm-listview                | [ListView]({%slug listview-overview%}) |
 | tm-map                     | [Map]({%slug map-overview%}) |
 | tm-maskedentry             | [MaskedEntry]({%slug maskedentry-overview%}) |
 | tm-navigationview          | [NavigationView]({%slug navigationview-overview%}) |
