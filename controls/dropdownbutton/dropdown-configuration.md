@@ -64,7 +64,7 @@ Use the following properties to offset the drop-down relative to the button:
 
 This is an example of setting the horizontal and vertical offset properties.
 
-<snippet id='dropdownbutton-dropdownconfiguration-offset' />
+<snippet id='dropdownbutton-dropdownconfiguration-offsets' />
 
 ![.NET MAUI DropDownButton DropDown Offset](images/dropdownbutton-drop-down-offset.png)
 
