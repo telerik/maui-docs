@@ -54,7 +54,7 @@ The following example demonstrates how to use the selection feature of the Segme
 
 This is the result:
 
-![.NET MAUI SegmentedControl selection](images/segmentcontrol-selection.png)
+![.NET MAUI SegmentedControl selection](images/segmentcontrol-selection.gif)
 
 >tip For a runnable example demonstrating the SegmentedControl Selection scenarios, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SegmentedControl > Selection** category.
 

@@ -81,7 +81,7 @@ When segments need to be styled differently based on their data, use the `ItemVi
 
 This is the result:
 
-![.NET MAUI SegmentedControl style selector](images/segmentcontrol-styleselector.png)
+![.NET MAUI SegmentedControl style selector](images/segmentcontrol-styleselector.gif)
 
 >tip For runnable examples demonstrating the SegmentedControl Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **SegmentedControl > Styling** category.
 
