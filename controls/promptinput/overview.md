@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI PromptInput Documentation - Overview
-description: Explore the Telerik UI for .NET MAUI PromptInput - a feature-rich AI input control with voice dictation, file attachments, camera access, and customizable affix regions.
+description: Explore the Telerik UI for .NET MAUI PromptInput - a feature-rich AI input control with voice dictation, file attachments, and customizable affix regions.
 tags: promptinput for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: promptinput-overview
@@ -19,7 +19,6 @@ The Telerik UI for .NET MAUI PromptInput is a feature-rich input control that br
 * **[Max input lines]({%slug promptinput-configuration%}#defining-the-max-input-lines)**&mdash;The control limits the number of lines the input area displays before it becomes scrollable.
 * **[Speech-to-text]({%slug promptinput-configuration%}#controlling-the-buttons-visibility)**&mdash;Users can dictate their messages instead of typing. The control transcribes speech to text automatically, broadening accessibility across different user needs and contexts.
 * **[File attachments]({%slug promptinput-configuration%}#managing-the-attached-files)**&mdash;The control allows users to pick and attach files to the prompt.
-* **[Camera access]({%slug promptinput-commands%})**&mdash;Users can launch the device camera or the media picker from within the control.
 * **[More button actions]({%slug promptinput-configuration%}#configuring-the-more-button-actions)**&mdash;The built-in More button exposes a customizable `MoreButtonActions` collection for additional toolbar actions, with an option to auto-generate the default actions.
 * **[Affix content]({%slug promptinput-affix-content%})**&mdash;Custom content can be placed in the top, start, and end regions around the input area for scenarios such as showing the active topic, selecting a chat model, or displaying a character counter.
 * **[Commands]({%slug promptinput-commands%})**&mdash;The PromptInput exposes commands for sending messages, picking files and photos, taking photos, removing attached files, and responding to speech recognition.
