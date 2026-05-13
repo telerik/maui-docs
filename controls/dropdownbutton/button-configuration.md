@@ -32,6 +32,7 @@ Here are the scenarios for the visualization of `Content` or `ContentTemplate` i
 This is an example of setting `Content` to a `string`:
 
 <snippet id='dropdownbutton-gettingstarted' />
+<snippet id='dropdownbutton-gettingstarted-list-content' />
 
 ![.NET MAUI DropDownButton Getting Started](images/dropdownbutton-getting-started.png)
 

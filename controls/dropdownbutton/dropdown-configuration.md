@@ -42,7 +42,7 @@ This is an example of setting the `DropDownContentPadding` property.
 
 Use the following properties to control the size constraints of the drop-down part of the `RadDropDownButton`:
 
-* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down. When the value is not set explicitly, the drop-down width matches the button width.
+* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down. When the value is not set explicitly, the drop-down width matches the width of the `View` displayed as `DropDownContent`.
 * `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
 * `DropDownMinWidth` (`double`)&mdash;Defines the minimum width of the drop-down.
 * `DropDownMinHeight` (`double`)&mdash;Defines the minimum height of the drop-down.

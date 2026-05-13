@@ -10,7 +10,7 @@ slug: dropdownbutton-visual-states
 # .NET MAUI DropDownButton Visual States
 
 This article describes the visual states the DropDownButton provides. 
-You can use the visual states to change the visual appearance of the control depending on its current state—whether the control is disabled, pressed, or has the mouse pointer hovering over it.
+You can use the visual states to change the visual appearance of the control depending on its current state whether the control is disabled, pressed, or has the mouse pointer hovering over it.
 
 The DropDownButton provides the following `CommonStates` visual states:
 

@@ -18,7 +18,7 @@ The following image shows the anatomy of the DropDownButton.
 
 * **Button Content**&mdash;The content of the DropDownButton.
 * **Drop-down Content**&mdash;The content of the drop-down part of the DropDownButton.
-* **Drop-down Indicator**&mdash;The indicator that presents whether the drop-down is opened or closed. By default, the drop-down indicator is an arrow pointing down when the drop-down is closed and pointing up when the drop-down is opened.
+* **Drop-down Indicator**&mdash;The indicator which function is to open or close the drop-down part of the control when clicked.
 
 ## See Also
 
