@@ -29,7 +29,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
     <IntroTableColumn>
         <IntroTableSection title="Data Controls">
             <IntroTableAnchor title="CollectionView" href="slug:collectionview-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="DataForm" href="slug:dataform-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DataForm" href="slug:dataform-overview" tag="updated"></IntroTableAnchor>
             <IntroTableAnchor title="DataGrid" href="slug:datagrid-overview"></IntroTableAnchor>
             <IntroTableAnchor title="DataPager" href="slug:datapager-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ItemsControl" href="slug:itemscontrol-overview"></IntroTableAnchor>
@@ -38,7 +38,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
         <IntroTableSection title="Data Visualization">
             <IntroTableAnchor title="Barcodes" href="slug:barcode-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Charts" href="slug:chart-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Gauges" href="slug:gauge-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Gauges" href="slug:gauge-overview" tag="updated"></IntroTableAnchor>
             <IntroTableAnchor title="Map" href="slug:map-overview"></IntroTableAnchor>
             <IntroTableAnchor title="ProgressBar" href="slug:progressbar-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Ratings" href="slug:rating-overview"></IntroTableAnchor>
@@ -83,16 +83,17 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
         </IntroTableSection>
         <IntroTableSection title="Calendar &amp; Scheduling">
             <IntroTableAnchor title="Calendar" href="slug:calendar-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Scheduler" href="slug:scheduler-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Scheduler" href="slug:scheduler-overview" tag="updated"></IntroTableAnchor>
         </IntroTableSection>
         <IntroTableSection title="Buttons">
             <IntroTableAnchor title="Button" href="slug:button-overview"></IntroTableAnchor>
             <IntroTableAnchor title="CheckBox" href="slug:checkbox-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="DropDownButton" href="slug:dropdownbutton-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="SegmentedControl" href="slug:segmentedcontrol-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="DropDownButton" href="slug:dropdownbutton-overview" tag="new"></IntroTableAnchor>
+            <IntroTableAnchor title="SegmentedControl" href="slug:segmentedcontrol-overview" tag="updated"></IntroTableAnchor>
+            <IntroTableAnchor title="SmartPasteButton" href="slug:smartpastebutton-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="SpeechToTextButton" href="slug:speechtotextbutton-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="TemplatedButton" href="slug:templatedbutton-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="ToggleButton" href="slug:togglebutton-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="TemplatedButton" href="slug:templatedbutton-overview" tag="updated"></IntroTableAnchor>
+            <IntroTableAnchor title="ToggleButton" href="slug:togglebutton-overview" tag="updated"></IntroTableAnchor>
         </IntroTableSection>
     </IntroTableColumn>
     <IntroTableColumn>
@@ -104,7 +105,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="GridSplitter" href="slug:gridsplitter-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="PromptInput" href="slug:promptinput-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="PromptInput" href="slug:promptinput-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="Skeleton" href="slug:skeleton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
         </IntroTableSection>
