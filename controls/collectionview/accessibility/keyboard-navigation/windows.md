@@ -1,14 +1,15 @@
 ---
-title: MacCatalyst
-page_title: .NET MAUI CollectionView Documentation - Keyboard Support on MacCatalyst
+title: WinUI
+page_title: .NET MAUI CollectionView Documentation - Keyboard Support for WinUI
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI CollectionView accessibility standards.
-position: 2
-slug: collectionview-keyboard-support-mac
+position: 1
+previous_url: /controls/collectionview/accessibility/keyboard-navgation/windows
+slug: collectionview-keyboard-support-winui
 ---
 
-# .NET MAUI CollectionView Keyboard Support on MacCatalyst
+# .NET MAUI CollectionView Keyboard Support on WinUI
 
-The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides keyboard navigation support on `MacCatalyst`.
+The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) provides keyboard navigation support on `WinUI`.
 
 @[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-common-text)
 
@@ -16,18 +17,23 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 | Hotkey | Action |
 | ------ | ------ |
 | `Tab` | Enters or exits the CollectionView. |
+| `Shift` + `Tab` | Enters or exits the CollectionView. |
 | `Up Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
 | `Down Arrow` | Navigates to the next item in the CollectionView when the orientation of the `ItemsLayout` is `Vertical`. |
 | `Left Arrow` | Navigates to the previous item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Right Arrow` | Navigates to the next item in the CollectionView when the orientation of the `ItemsLayout` is `Horizontal`. |
 | `Space` | Selects the currently focused item in `Single` `SelectionMode`. When `SelectionMode` is multiple, the `Space` key selects/deselects the current item. |
-| `Fn` + `Up Arrow` | When all items are in the viewport, the first item becomes current. When not all items are in the viewport, the first rendered item becomes current. Pressing `Page Up` again brings a new portion of items, and the first of them becomes current. |
-| `Fn` + `Down Arrow` | When all items are in the viewport, the last item becomes current. When not all items are in the viewport, the last rendered item becomes current. Pressing `Page Down` again brings a new portion of items, and the last of them becomes current. |
-| `Fn` + `Left Arrow` | The first item in the CollectionView becomes current. |
-| `Fn` + `Right Arrow` | The last item in the CollectionView becomes current. |
+| `Page Up` | When all items are in the viewport, the first item becomes current. When not all items are in the viewport, the first rendered item becomes current. Pressing `Page Up` again brings a new portion of items, and the first of them becomes current. |
+| `Page down` | When all items are in the viewport, the last item becomes current. When not all items are in the viewport, the last rendered item becomes current. Pressing `Page Down` again brings a new portion of items, and the last of them becomes current. |
+| `Home` | The first item in the CollectionView becomes current. |
+| `End` | The last item in the CollectionView becomes current. |
 
 
 @[template](/_contentTemplates/common/collectionview.md#collectionview-keyboard-notes)
+
+Here is how the keyboard navigation support looks on WinUI:
+
+![.NET MAUI CollectionView Keyboard Navigation Support](../../images/collectionview-keyboard-navigation-support.gif)
 
 ## Additional Resources
 

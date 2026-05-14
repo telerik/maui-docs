@@ -76,6 +76,9 @@ meta:
     position: 4
   controls/toolbar:
     title: Toolbar
+  controls/togglebutton/accessibility:
+    title: Accessibility
+    position: 12
   controls/togglebutton:
     title: ToggleButton
   controls/timespanpicker/styling:
@@ -93,6 +96,9 @@ meta:
     position: 20
   controls/templatedpicker:
     title: TemplatedPicker
+  controls/templatedbutton/accessibility:
+    title: Accessibility
+    position: 13
   controls/templatedbutton:
     title: TemplatedButton
   controls/tabview/styling:

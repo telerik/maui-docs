@@ -22,8 +22,9 @@ The SmartPasteButton provides the following `CommonStates` visual states:
 | `Disabled` | Applies when the button is disabled. |
 | `Processing` | Applies when a smart paste request is being processed. |
 | `ProcessingPressed` | Applies when the button is pressed while the smart paste request is in process. |
-| `ProcessingMouseOver` | Applies when the mouse pointer hovers over the button when the smart paste request is in process. |
-| `ProcessingFocused` | Applies when the button is focused and the smart paste request is being processed. |
+| `ProcessingMouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the button when the smart paste request is in process. |
+| `ProcessingFocused` | (Desktop-only) Applies when the button is focused and the smart paste request is being processed. |
+| `Focused` | (Desktop-only) Applies when the button is focused with the keyboard. |
 
 ## Using the Visual States
 

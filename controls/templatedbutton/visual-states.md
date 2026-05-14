@@ -20,6 +20,9 @@ The TemplatedButton provides the following `CommonStates` visual states:
 | `Pressed` | Applies when the button is pressed. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
 | `Disabled` | Applies when the button is disabled. |
+| `Focused` | (Desktop-only) Applies when the button is focused with the keyboard. |
+| `FocusedMouseOver` | (Desktop-only) Applies when the button is focused with the keyboard and the mouse pointer hovers over it. |
+| `FocusedPressed` | (Desktop-only) Applies when the button is focused with the keyboard and pressed. |
 
 ## Using the Visual States
 

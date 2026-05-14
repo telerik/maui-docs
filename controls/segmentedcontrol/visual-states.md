@@ -21,10 +21,10 @@ The SegmentedControl provides the following `CommonStates` visual states:
 | `SelectedPressed` | Applies when the segment is selected and pressed. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the segment. |
 | `SelectedMouseOver` | (Desktop-only) Applies when the segment is selected and the mouse pointer hovers over it. |
+| `Focused` | (Desktop-only) Applies when the segment is focused with the keyboard. |
 | `FocusedMouseOver` | (Desktop-only) Applies when the segment is focused with the keyboard and the mouse pointer hovers over it. |
 | `Selected` | Applies when the segment is selected. |
 | `FocusedSelected` | (Desktop-only) Applies when the segment is selected and focused with the keyboard. |
-| `Focused` | (Desktop-only) Applies when the segment is focused. |
 | `Disabled` | Applies when the segment is disabled. |
 | `DisabledSelected` | Applies when the segment is disabled and selected. |
 
