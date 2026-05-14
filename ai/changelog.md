@@ -11,6 +11,24 @@ tag: updated
 
 Learn about the latest changes, improvements and bug fixes in the Telerik UI for .NET MAUI AI Coding Assistant. The updates are structured in a chronological order with the newest ones appearing first.
 
+## May, 2026 Changelog
+ 
+### Highlights
+ 
+- **Chat**&mdash;Updated code snippets and included API documentation for the more button styling properties.
+- **CollectionView**&mdash;Provided API documentation and code snippets for new item hold and selection gesture features.
+- **DataGrid**&mdash;Included API documentation and a code snippet for the new `VisibleItemsChanged` event.
+- **DropDownButton**&mdash;Introduced comprehensive API documentation and code snippets for the new DropDownButton 
+component.
+- **Editor**&mdash;Included API documentation and a code snippet for the new MaxLines property.
+- **PromptInput**&mdash;Provided API documentation and code snippets for the new PromptInput component covering all its 
+properties, methods, and events.
+- **SegmentedControl**&mdash;Rewrote all code snippets and enhanced API documentation to reflect the redesigned component
+API.
+- **SmartPasteButton**&mdash;Introduced comprehensive API documentation and code snippets for the new SmartPasteButton 
+component.
+- **TreeDataGrid**&mdash;Included API documentation and a code snippet for the new `VisibleItemsChanged` event
+
 ## February, 2026 Changelog
 
 ### Highlights
