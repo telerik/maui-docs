@@ -11,6 +11,8 @@ slug: promptinput-overview
 
 The Telerik UI for .NET MAUI PromptInput is a feature-rich input control that bridges human-AI interaction within your .NET MAUI applications. It provides a polished, ready-made interface for sending prompts and managing the full input lifecycle in AI-driven scenarios such as chatbots, in-app assistants, and more. Beyond text input, the control supports voice dictation, file attachments, and in-app camera capture, covering everything users need to engage naturally within a conversational experience.
 
+![.NET MAUI PromptInput Overview](images/promptinput-getting-started.png)
+
 ## Key Features of the .NET MAUI PromptInput
 
 * **Chat-style input interface**&mdash;PromptInput delivers a purpose-built UI for prompt and message submission, giving your users a familiar, intuitive interaction model out of the box. For more information, see the [Getting Started]({%slug promptinput-getting-started%}) article.

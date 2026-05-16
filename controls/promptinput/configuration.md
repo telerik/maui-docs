@@ -28,9 +28,9 @@ The following example demonstrates how to set the `Placeholder` property:
 
 The `DisplayMode` (`Telerik.Maui.Controls.PromptInput.PromptInputDisplayMode`) property allows you to control how the PromptInput is rendered. The property accepts the following values:
 
-* (Default) `Automatic`&mdash;The control automatically chooses the most appropriate layout depending on the available space.
+* (Default on mobile) `Automatic`&mdash;The control automatically chooses the most appropriate layout depending on the available space. When the affix or the more button are not visible, the control renders in a compact single-line layout when unfocused, when it gets focused, it renders in an expanded multi-line layout.
 * `Compact`&mdash;The control renders in a compact single-line layout with all elements displayed in a single-line.
-* `Expanded`&mdash;The control renders in an expanded multi-line layout.
+* (Default on desktop) `Expanded`&mdash;The control renders in an expanded multi-line layout.
 
 ![.NET MAUI PromptInput Display Mode](images/promptinput-displaymode.png)
 
@@ -87,7 +87,7 @@ The `SendMessageButtonImage` (`ImageSource`) property allows you to set a custom
 
 The 'More' button can display a collection of custom actions. The PromptInput exposes the following properties for configuring them:
 
-* `MoreButtonActions` (`IList<PromptInputButtonAction>`)&mdash;Defines the collection of toolbar actions displayed in the **More** button.
+* `MoreButtonActions` (`IList<PromptInputButtonAction>`)&mdash;Defines the collection of actions displayed in the **More** button. The built-in default actions are **Attach files**, **Attach photos** and **Take photo**. You can add custom actions to the collection or replace the default ones entirely by setting the following property:
 * `AutoGenerateMoreButtonActions` (`bool`)&mdash;Defines a value indicating whether default actions for the **More** button are automatically generated. The default value is `true`.
 
 ## Managing the Attached Files

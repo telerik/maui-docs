@@ -32,7 +32,9 @@ The `RadSegmentedControlItemView` exposes a number of bindable properties that c
 * `BorderThickness` (`Thickness`)&mdash;Defines the border thickness of the segment.
 * `CornerRadius` (`CornerRadius`)&mdash;Defines the corner radius of the segment.
 * `Padding` (`Thickness`)&mdash;Defines the padding inside the segment.
-* Font Options&mdash;Define the `FontSize`, `FontFamily`, `FontAttributes` properties to customize the font of the segment text.
+* `FontSize`(`double`)&mdash;Defines the font size of the segment text.
+* `FontFamily`(`string`)&mdash;Defines the font family of the segment text.
+* `FontAttributes`(`FontAttributes`)&mdash;Defines the font attributes of the segment text.
 * `HorizontalTextAlignment` (`TextAlignment`)&mdash;Defines the horizontal alignment of the text.
 * `VerticalTextAlignment` (`TextAlignment`)&mdash;Defines the vertical alignment of the text.
 * `SizeMode` (`SegmentedControlSizeMode`)&mdash;Defines how the segment sizes itself. For more information, see the [Size Mode]({%slug segmentedcontrol-size-mode%}) article.
