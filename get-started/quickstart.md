@@ -41,14 +41,14 @@ Choose your preferred IDE to create a new .NET MAUI project and install the Tele
 <article-card-container>
     <article-card
         href="/get-started/first-steps-vs"
-        src="./images/getting-started.png"
+        src="../images/getting-started.png"
         title="Visual Studio"
         subTitle="Windows"
         description="Create a new .NET MAUI project and add Telerik UI for .NET MAUI controls using Visual Studio on Windows.">
     </article-card>
     <article-card
         href="/get-started/first-steps-vs-code"
-        src="./images/getting-started.png"
+        src="../images/getting-started.png"
         title="Visual Studio Code"
         subTitle="Windows & Mac"
         description="Create a new .NET MAUI project and add Telerik UI for .NET MAUI controls using Visual Studio Code on Windows or Mac.">
