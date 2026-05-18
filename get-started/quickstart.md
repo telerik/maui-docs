@@ -10,7 +10,7 @@ position: 1
 
 # Quick Start with Telerik UI for .NET MAUI
 
-This guide walks you through the essential steps to get Telerik UI for .NET MAUI up and running in your app. For a detailed IDE-specific walkthrough, see the [Visual Studio]({%slug maui-getting-started%}) or [Visual Studio Code]({%slug maui-getting-started-vs-code%}) tutorials.
+This guide walks you through the essential steps to get Telerik UI for .NET MAUI up and running in your app.
 
 ## Prerequisites
 
@@ -214,7 +214,7 @@ If your .NET MAUI project uses the default project template provided by Microsof
 	</article-card>
 	<article-card
 		href="/demos-and-sample-apps/overview"
-		src="../images/getting-started.png"
+		src="../images/samples-apps.png"
 		title="Sample Applications"
 		subTitle="Sample Apps"
 		description="Explore sample applications built with Telerik UI for .NET MAUI to see the controls in action.">
@@ -228,7 +228,7 @@ If your .NET MAUI project uses the default project template provided by Microsof
 	</article-card>
 	<article-card
 		href="/font-icons/examples-icons"
-		src="../images/getting-started.png"
+		src="../images/font-icons.png"
 		title="Font Icons"
 		subTitle="Icons"
 		description="Use the built-in Telerik font icons to enhance your .NET MAUI application UI.">
@@ -237,6 +237,5 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 ## See Also
 
-* [First Steps with UI for .NET MAUI in Visual Studio]({%slug maui-getting-started%})
-* [First Steps with UI for .NET MAUI in Visual Studio Code]({%slug maui-getting-started-vs-code%})
 * [Using a Telerik Theme]({%slug themes-overview%})
+* [Telerik Font Icons]({%slug telerik-font-icons%})
