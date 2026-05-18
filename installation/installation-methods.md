@@ -12,34 +12,50 @@ position: 2
 
 Telerik UI for .NET MAUI offers several installation methods, and the choice depends on your personal preferences and development environment.
 
-## Trial
-
-If you are new to Telerik UI for .NET MAUI and don't have a license yet, start a free trial by using the [MAUI installer]({% slug install-trial %}). During your 30-day trial, you also get free technical support.
-
-## NuGet
-
-Using [NuGet packages]({% slug telerik-nuget-overview %}) is the most common Telerik UI for .NET MAUI installation approach as it simplifies the dependency management and allows for easy updates.
-
-You can choose between two ways to access and download the Telerik UI for .NET MAUI NuGet packages:
-
-* [By using the online Telerik NuGet feed]({% slug telerik-nuget-overview %}#using-the-online-telerik-nuget-feed).
-* [By setting up your local repository with downloaded NuGet packages]({% slug telerik-nuget-overview %}#using-locally-available-nuget-packages).
-
-## Automated Installers
-
-The **Downloads** section of your Telerik account provides MSI and PKG installers. These [automated installers]({% slug automated-installer %}) for Windows and Mac simplify the setup process and come with a set of complete examples that you can browse and explore. In addition, the installer for Windows includes the Visual Studio extensions that help you improve your productivity.
-
-## Control Panel
-
-The [Progress Control Panel]({% slug control-panel %}) is a standalone application for Windows. Similarly to the [automated installers]({% slug automated-installer %}), it streamlines the setup process but also allows you to install and upgrade multiple Telerik products through a single tool. This makes the Control Panel suitable for developers who use more than one Telerik UI library.
-
-## ZIP Archive
-
-The ZIP archive is convenient if you want to create your own repository with Telerik UI for .NET MAUI versions. It contains everything that is available in the [automated installers]({% slug automated-installer %}) but in the form of a ZIP archive.
-
-## Referencing Assemblies Manually
-
-An alternative method to make the Telerik UI for .NET MAUI available in your solution is to [reference the library's assemblies manually]({% slug assembly-references %}). This approach isn't recommended due to its complexity, but you can still use it to install the MAUI controls.
+<article-card-container>
+    <article-card
+        href="/installation/install-trial"
+        src="../images/download_maui2.png"
+        title="Trial"
+        subTitle="Free 30-Day Trial"
+        description="Start a free trial using the MAUI installer. Includes free technical support for the duration of your trial.">
+    </article-card>
+    <article-card
+        href="/installation/nuget/overview"
+        src="../images/nuget.png"
+        title="NuGet"
+        subTitle="Recommended"
+        description="The most common installation approach. Simplifies dependency management and allows for easy updates via the online NuGet and Telerik NuGet feeds or a local repository with local packages.">
+    </article-card>
+    <article-card
+        href="/installation/automated-installer"
+        src="../installation/images/msi-installer.png"
+        title="Automated Installers"
+        subTitle="MSI & PKG"
+        description="MSI and PKG installers for Windows and Mac that simplify setup and include complete examples and Visual Studio extensions.">
+    </article-card>
+    <article-card
+        href="/installation/control-panel"
+        src="../installation/images/control-panel-introduction.png"
+        title="Control Panel"
+        subTitle="Windows"
+        description="A standalone Windows application for installing and upgrading multiple Telerik products through a single tool.">
+    </article-card>
+    <article-card
+        href="/installation/zip-archive"
+        src="../images/zip-archive.png"
+        title="ZIP Archive"
+        subTitle="Manual Setup"
+        description="Convenient if you want to maintain your own repository of Telerik UI for .NET MAUI versions. Contains everything available in the automated installers.">
+    </article-card>
+    <article-card
+        href="/installation/using-assembly-references"
+        src="../images/api.png"
+        title="Assembly References"
+        subTitle="Manual Setup"
+        description="Reference the Telerik UI for .NET MAUI assemblies manually in your solution. Not recommended due to complexity but available as an alternative.">
+    </article-card>
+</article-card-container>
 
 ## See Also
 

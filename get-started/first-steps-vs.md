@@ -33,9 +33,25 @@ This tutorial walks you through the Visual Studio-specific steps for setting up 
 
 If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>.
 
-## Step 2: Add the Telerik NuGet Server
+## Step 2: Install the Telerik UI for .NET MAUI Controls
 
-Telerik maintains a NuGet feed with official UI for .NET MAUI releases and service packs. These packages are available for registered users with an active trial or commercial license. Adding the Telerik NuGet server as a source in Visual Studio lets you download and install Telerik packages containing controls and utilities.
+The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org</a> registry (recommended) and on the authenticated Telerik NuGet server.
+
+### From NuGet.org (Recommended)
+
+1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
+
+1. Make sure the **Package source** is set to `nuget.org`.
+
+1. Select the **Browse** tab, enter `Telerik.UI.for.Maui` in the search box, and select the package.
+
+1. Select the checkbox for the target project, and then click **Install**.
+
+   ![Add Telerik UI for .NET MAUI package to the project](./images/gs-select-nuget-package.png)
+
+### From the Telerik NuGet Server (Alternative)
+
+As an alternative, you can install from the authenticated Telerik NuGet server:
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
@@ -53,23 +69,11 @@ Next, add the Telerik NuGet source to Visual Studio:
 
 	![Add the Telerik NuGet Feed in Visual Studio](./images/telerik-nuget-feed.png)
 
-## Step 3: Install the Telerik UI for .NET MAUI Controls
-
-1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
-
-1. Install the Telerik UI for .NET MAUI package:
-
-   1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate using `api-key` as the username and [your NuGet API key](#step-2-add-the-telerik-nuget-server) as the password.
-
-   1. Select the **Browse** tab, enter `MAUI` in the search box, and then select the `Telerik.UI.for.Maui` package.
-
-   1. Select the checkbox for the target project, and then click **Install**.
-
-   ![Add Telerik UI for .NET MAUI package to the project](./images/gs-select-nuget-package.png)
+1. Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**, select the `telerik.com` **Package source**, search for `Telerik.UI.for.Maui`, and install it.
 
 > If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
-## Step 4: Add the Telerik Namespace and Register the Controls
+## Step 3: Add the Telerik Namespace and Register the Controls
 
 If your .NET MAUI project uses the default project template provided by Microsoft (not the Telerik project template), you must configure the Telerik namespace, register the controls, and call `UseTelerik`:
 
@@ -77,11 +81,11 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 > If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
-## Step 5: Add a Telerik UI Component
+## Step 4: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
 
-## Step 6: Add Custom Content to the TemplatedButton
+## Step 5: Add Custom Content to the TemplatedButton
 @[template](/_contentTemplates/get-started.md#add-custom-content)
 
 ## Next Steps

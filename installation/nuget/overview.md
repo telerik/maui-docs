@@ -12,12 +12,25 @@ previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/i
 
 NuGet is a popular .NET package manager that enables the installation of the Telerik .NET MAUI controls in your application. The NuGet packages are the primary distribution method for the Telerik UI for .NET MAUI controls.
 
-Depending on your development environment, you can choose between two ways to access and download the Telerik UI for .NET MAUI NuGet packages:
+Telerik UI for .NET MAUI packages are available from the following sources:
 
-* By using the online Telerik NuGet feed.
-* By setting up your local repository with downloaded NuGet packages.
+* **NuGet.org** (Recommended)&mdash;The public NuGet registry. Install the package directly with `dotnet add package Telerik.UI.for.Maui`.
+* **Telerik NuGet feed**&mdash;A private authenticated feed maintained by Progress. Requires a [Telerik account API key](#using-the-online-telerik-nuget-feed).
+* **Local NuGet packages**&mdash;Downloaded packages stored in your local system or a private server. Useful for offline or air-gapped environments.
 
 @[template](/_contentTemplates/common/net-version.md#net-version)
+
+## Downloading from NuGet.org
+
+The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">nuget.org</a> registry. This is the recommended approach as it requires no authentication setup.
+
+To install the package, run the following command in your project directory:
+
+```bash
+dotnet add package Telerik.UI.for.Maui
+```
+
+Or search for `Telerik.UI.for.Maui` directly in the Visual Studio NuGet Package Manager using the default `nuget.org` package source.
 
 ## Using the Online Telerik NuGet Feed
 

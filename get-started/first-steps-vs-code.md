@@ -40,9 +40,21 @@ This tutorial walks you through the Visual Studio Code-specific steps for settin
 
 If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Microsoft's .NET MAUI documentation</a>.
 
-## Step 2: Add the Telerik NuGet Server
+## Step 2: Install the Telerik UI for .NET MAUI Controls
 
-Telerik maintains a NuGet feed with official UI for .NET MAUI releases and service packs. These packages are available for registered users with an active trial or commercial license. As Visual Studio Code does not offer a built-in NuGet package manager, use the .NET CLI to add the package source.
+The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org</a> registry (recommended) and on the authenticated Telerik NuGet server.
+
+### From NuGet.org (Recommended)
+
+Navigate to your project's root directory in the terminal and run:
+
+```bash
+dotnet add package Telerik.UI.for.Maui
+```
+
+### From the Telerik NuGet Server (Alternative)
+
+As an alternative, you can install from the authenticated Telerik NuGet server:
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
@@ -54,17 +66,13 @@ dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNu
 
 >See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials.
 
-## Step 3: Install the Telerik UI for .NET MAUI Controls
+Then install the package:
 
-1. Navigate to your project's root directory in the terminal.
+```bash
+dotnet add package Telerik.UI.for.Maui --source TelerikNuGetFeed
+```
 
-1. Use the .NET CLI to install the NuGet package:
-
-	```bash
-	dotnet add package Telerik.UI.for.Maui
-	```
-
-## Step 4: Add the Telerik Namespace and Register the Controls
+## Step 3: Add the Telerik Namespace and Register the Controls
 
 If your .NET MAUI project uses the default project template provided by Microsoft (not the Telerik project template), you must configure the Telerik namespace, register the controls, and call `UseTelerik`:
 
@@ -72,11 +80,11 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 > If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
-## Step 5: Add a Telerik UI Component
+## Step 4: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
 
-## Step 6: Add Custom Content to the TemplatedButton
+## Step 5: Add Custom Content to the TemplatedButton
 
 @[template](/_contentTemplates/get-started.md#add-custom-content)
 

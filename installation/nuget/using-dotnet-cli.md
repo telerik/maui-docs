@@ -8,9 +8,19 @@ position: 9
 
 # Using .NET CLI
 
-If you do not use a [Visual Studio's NuGet Package manager]({% slug nuget-server-vs %}) or a [custom `NuGet.Config` file]({% slug nuget-config %}), you can also add a new package source by utilizing the .NET CLI `add source` command.
+If you do not use a [Visual Studio's NuGet Package manager]({% slug nuget-server-vs %}) or a [custom `NuGet.Config` file]({% slug nuget-config %}), you can also manage NuGet packages by using the .NET CLI.
 
-Use the `add source` or `update source` command respectively to add the new source and set the credentials required for the authentication by the Telerik NuGet server.
+## Installing from NuGet.org (Recommended)
+
+As of Q2 2026, the `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/" target="_blank">NuGet.org</a> registry. This is the recommended way to install the libraries because NuGet.org is the default package source for the .NET CLI, so no additional feed configuration is required. Navigate to your project directory and run:
+
+```bash
+dotnet add package Telerik.UI.for.Maui
+```
+
+## Installing from the Telerik NuGet Server
+
+As an alternative, you can add the Telerik NuGet server as a package source and install from there. Use the `add source` or `update source` command to add the new source and set the credentials required for authentication.
 
 1. [Generate a NuGet API Key]({% slug nuget-config %}#generate-an-api-key).
 1. Add or update the Telerik NuGet source by using .NET CLI and the generated API key:

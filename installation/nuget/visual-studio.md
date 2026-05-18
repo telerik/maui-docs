@@ -9,18 +9,32 @@ position: 1
 
 # Installing with NuGet in Visual Studio
 
-To install the Telerik UI for .NET MAUI components, you can use the NuGet packages hosted on the public Telerik NuGet server. This online source lets you download and install various versions of the .NET MAUI controls and enables quick updates with minimal manual intervention.
+To install the Telerik UI for .NET MAUI components, you can use NuGet packages from the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">nuget.org</a> registry (recommended) or from the authenticated Telerik NuGet server.
+
+## Installing from NuGet.org (Recommended)
+
+The `Telerik.UI.for.Maui` package is available on the default `nuget.org` package source in Visual Studio. No additional configuration or authentication is required:
+
+1. Open or create a .NET MAUI project in Visual Studio.
+1. Right-click the solution in the **Solution Explorer** and select **Manage NuGet Packages for Solution...**.
+1. Make sure the **Package source** is set to `nuget.org`.
+1. Click the **Browse** tab, search for `Telerik.UI.for.Maui`, and select it.
+1. Choose the target project, select the desired version, and click **Install**.
+
+## Installing from the Telerik NuGet Server
+
+The Telerik NuGet server is a private authenticated feed that you can use as an alternative to nuget.org. This online source lets you download and install various versions of the .NET MAUI controls and enables quick updates with minimal manual intervention.
 
 Before adding the Telerik NuGet server to Visual Studio, make sure you have:
 
 1. .NET MAUI installed on the machine. For more information on the required steps and system requirements, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation" target="_blank">official Microsoft .NET MAUI documentation</a>.
 2. A commercial or trial license for Telerik .NET MAUI. Note that the Telerik NuGet server requires authentication and checks if you have a valid license.
 
-## Step 1: Generate an API Key
+### Step 1: Generate an API Key
 
 @[template](/_contentTemplates/common/nuget.md#generate-nuget-key)
 
-## Step 2: Add the Telerik NuGet Package Source to Visual Studio
+### Step 2: Add the Telerik NuGet Package Source to Visual Studio
 
 To configure the Telerik NuGet feed in Visual Studio:
 
@@ -40,7 +54,7 @@ If you previously stored credentials for the Telerik NuGet server, you need to r
 
 @[template](/_contentTemplates/common/nuget.md#reset-store-credentials)
 
-## Step 3: Install the Telerik UI for .NET MAUI NuGet Package
+### Step 3: Install the Telerik UI for .NET MAUI NuGet Package
 
 The next steps describe how to authenticate your local NuGet instance and display the available packages:
 
@@ -60,7 +74,7 @@ The next steps describe how to authenticate your local NuGet instance and displa
 
 ![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/maui-nuget.png)
 
-## Step 4: Register the Required Handlers
+### Step 4: Register the Required Handlers
 
 To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
 
