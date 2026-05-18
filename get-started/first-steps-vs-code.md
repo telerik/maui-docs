@@ -1,10 +1,11 @@
 ---
-title: First Steps with .NET MAUI in VS Code
+title: Using Visual Studio Code
 page_title: Get Started with Telerik UI for .NET MAUI in VS Code
 description: "Get started with Telerik UI for .NET MAUI in Visual Studio Code on Windows or Mac — create a .NET MAUI project, add the Telerik NuGet feed via CLI, and install the controls."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, macos, install, visual studio code
 slug: maui-getting-started-vs-code
 position: 3
+published: false
 previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget, /get-started/mac/first-steps-pkg
 ---
 

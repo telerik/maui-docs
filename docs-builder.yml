@@ -499,6 +499,14 @@ redirects:
   to: "/introduction"
   type: Permanent
 
+- from: https://www.telerik.com/maui-ui/documentation/get-started/first-steps-vs
+  to: /get-started/quickstart
+  type: Permanent
+
+- from: https://www.telerik.com/maui-ui/documentation/get-started/first-steps-vs-code
+  to: /get-started/quickstart
+  type: Permanent
+
 - from: ^/controls/busyindicator/custom-busy-content$
   to: /controls/busyindicator/content
   type: Permanent
@@ -531,7 +539,7 @@ redirects:
   to: /controls/datagrid/columns/column-types/combobox-column
   type: Permanent
 
-- from: ^/controls/listview(?:/.*)?/?$
+- from: https://www.telerik.com/maui-ui/documentation/controls/listview(?:/.*)?/?$
   to: /controls/collectionview/overview
   type: Permanent
 
