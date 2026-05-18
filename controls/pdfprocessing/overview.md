@@ -61,7 +61,7 @@ The document model of the library provides support for:
 
 You have two options to add the required Telerik references to your .NET MAUI app in order to use PdfProcessing:
 
-* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug maui-getting-started%}) topic.
+* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug telerik-nuget-overview%}) topic.
 
 * Add the references to Telerik assemblies manually, check the list below with the required assemblies for PdfProcessing:
 

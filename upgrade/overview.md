@@ -21,7 +21,7 @@ Before upgrading the Telerik UI for .NET MAUI version of your project, get acqua
 
 To upgrade the Telerik UI for .NET MAUI components used in your project:
 
-1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug maui-getting-started%}) or [MacOS]({%slug maui-getting-started-vs-code%})), but you can also use a local feed from the [MSI installer]({%slug maui-getting-started%}) or [PKG installer]({%slug maui-getting-started-vs-code%}) or [ZIP archive]({%slug installation-approaches %}).
+1. Make sure that you have a NuGet feed source with the version you want to upgrade to. This is usually the Telerik NuGet Feed (on [Windows]({%slug maui-quick-start %}) or [MacOS]({%slug maui-quick-start%})), but you can also use a local feed from the [MSI installer]({%slug automated-installer%}) or [PKG installer]({%slug automated-installer%}) or [ZIP archive]({%slug installation-approaches %}).
 
 1. Update the version of the `Telerik.UI.for.Maui` package your project references.
 

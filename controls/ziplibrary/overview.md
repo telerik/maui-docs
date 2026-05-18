@@ -37,7 +37,7 @@ This is a list with short descriptions of the top-of-the-line features of Teleri
 
 You have two options to add the required Telerik references to your .NET MAUI app in order to use ZipLibrary:
 
-* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug maui-getting-started%}) topic.
+* Add the Telerik UI for .NET MAUI Nuget package following the instructions in [Installing with NuGet]({%slug telerik-nuget-overview%}) topic.
 
 * Add the references to Telerik assemblies manually, check below the required assembly for RadZipLibrary:
 	
