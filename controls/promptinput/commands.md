@@ -19,9 +19,38 @@ The PromptInput supports the following commands:
 * `RemoveAttachedFileCommand` (`ICommand`)&mdash;Executed when an attached file is removed from the PromptInput.
 * `SpeechRecognizedCommand` (`ICommand`)&mdash;Executed when speech is recognized by the Speech-to-Text button.
 
+## Customizing the SendMessageCommand
+
+To use the default command behavior of the `SendMessageCommand` when creating a custom one, inherit from the `PromptInputSendCommand` class and override the `Execute` method. This way, you can execute custom logic while still keeping the default behavior of:
+
+* Clearing the input after sending a message.
+* Stopping the speech-to-text recognition if it is active.
+* Clearing the attached files collection.
+
+The following example demonstrates how to create a custom send command:
+
+```C#
+internal class SendMessageCommand : PromptInputSendCommand
+{
+    private readonly Action sendMessageAction;
+
+    public SendMessageCommand(Action sendMessageAction)
+    {
+        this.sendMessageAction = sendMessageAction;
+    }
+
+    public override void Execute(object parameter)
+    {
+        base.Execute(parameter);
+        this.sendMessageAction?.Invoke();
+    }
+}
+```
+
 ## See Also
 
 - [Getting Started]({%slug promptinput-getting-started%})
 - [Configuration]({%slug promptinput-configuration%})
 - [Affix Content]({%slug promptinput-affix-content%})
+- [Visual Structure]({%slug promptinput-visual-structure%})
 - [Styling]({%slug promptinput-styling%})

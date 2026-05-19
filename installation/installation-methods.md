@@ -5,6 +5,7 @@ description: Discover the available installation approaches for the Telerik UI f
 slug: installation-approaches
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui, mac, windows
 previous_url: /installation/download-product-files, /installation/approaches
+tag: updated
 position: 2
 ---
 

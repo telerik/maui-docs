@@ -3,7 +3,7 @@ title: Changelog
 page_title: Telerik UI for .NET MAUI AI Coding Assistant Changelog
 description: "Find out about the latest changes and improvements in the Telerik .NET MAUI AI Coding Assistant." 
 slug: ai-coding-assistant-changelog
-position: 3
+position: 4
 tag: updated
 ---
 
