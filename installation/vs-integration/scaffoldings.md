@@ -119,7 +119,7 @@ The image shows the default appearance of the page:
 ![.NET MAUI Login Page](../images/login_screen.png)
 
 </TabStripTab>
-<TabStripTab title="Register Screen">e
+<TabStripTab title="Register Screen">
 
 The Register page allows you to add a register page to your .NET MAUI application. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
 

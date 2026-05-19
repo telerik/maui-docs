@@ -19,7 +19,7 @@ You can develop applications with Telerik UI for .NET MAUI on both Windows and m
 
 ## Supported .NET Versions
 
-Telerik UI for .NET MAUI supports .NET 9.0 and .NET 10.0 (from 12.0.0 version).
+Telerik UI for .NET MAUI supports .NET 9.0 and .NET 10.0 (starting with version 12.0.0).
 
 For more information about the supported .NET versions in .NET MAUI, review Microsoft's <a href="https://dotnet.microsoft.com/en-us/platform/support/policy/maui" target="_blank">.NET MAUI Support Policy.</a>
 
