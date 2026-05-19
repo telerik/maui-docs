@@ -79,21 +79,17 @@ This is the result on iOS and MacCatalyst:
 
 ## Available Scaffoldings
 
-* [Products page](#products-page)
-* [DataGrid page](#datagrid-page)
-* [Login screen](#login-screen)
-* [Register screen](#register-screen)
-* [Reset password screen](#reset-password-screen)
+<TabStrip>
+<TabStripTab title="CollectionView Page">
 
-### Products Page
-
-The Products page represents a list of products. The main control used on this page is the Telerik UI for .NET MAUI [CollectionView]({%slug collectionview-overview%}) control. The scaffolding page allows you to configure the selection mode of the CollectionView and whether to add the predefined icons used in the template.
+The CollectionView page represents a list of products. The main control used on this page is the Telerik UI for .NET MAUI [CollectionView]({%slug collectionview-overview%}) control. The scaffolding page allows you to configure the selection mode of the CollectionView and whether to add the predefined icons used in the template.
 
 The image shows the default appearance of the page:
 
 ![.NET MAUI Products Page](../images/products_page.png)
 
-### DataGrid Page
+</TabStripTab>
+<TabStripTab title="DataGrid Page">
 
 The DataGrid page represents a data displayed in a table. The main control used on this page is the Telerik UI for .NET MAUI [DataGrid]({%slug datagrid-overview%}) control. The scaffolding page allows you to configure the data source used in the DataGrid, the selection mode, whether editing, sorting, filtering and grouping the data in the control will be enabled.
 
@@ -101,30 +97,35 @@ The image shows the default appearance of the page:
 
 ![.NET MAUI DataGrid Page](../images/datagrid_page.png)
 
-### Login Screen
+</TabStripTab>
+<TabStripTab title="Login Page">
 
 The Login screen represents a login panel. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls. The scaffolding page allows you to add a social login panel to this screen.
 
 The image shows the default appearance of the page:
 
-![.NET MAUI Login Screen](../images/login_screen.png)
+![.NET MAUI Login Page](../images/login_screen.png)
 
-### Register Screen
+</TabStripTab>
+<TabStripTab title="Register Screen">e
 
-This screen allows you to add a register page to your .NET MAUI application. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
+The Register page allows you to add a register page to your .NET MAUI application. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
 
 The image shows the default appearance of the page:
 
 ![.NET MAUI Register Screen](../images/register_screen.png)
 
-### Reset Password Screen
+</TabStripTab>
+<TabStripTab title="Reset Password Screen">
 
-This screen allows you to add a reset password page to your application. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
+The Reset Password page allows you to add a reset password page to your application. The main controls used on this screen are the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) and [TemplatedButton]({%slug templatedbutton-overview%}) controls.
 
 The image shows the default appearance of the page:
 
 ![.NET MAUI Reset Password Screen](../images/reset_screen.png)
 
+</TabStripTab>
+</TabStrip>
 
 ## See Also
 

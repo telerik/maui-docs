@@ -19,7 +19,8 @@ Using the automated installers has several advantages:
 
 >The steps in this article require an active trial or commercial license. If you are just starting with Telerik UI for .NET MAUI and want to activate your free trial, see [Starting a Free Trial]({%slug install-trial%}) instead.
 
-## Installing on Windows
+<TabStrip>
+<TabStripTab title="Windows">
 
 The Telerik UI for .NET MAUI installer for Windows is packaged as an MSI file. The MSI installs the controls in the `C:\Program Files\Progress\` folder and automatically creates the necessary virtual folders and projects.
 
@@ -34,7 +35,8 @@ To install Telerik UI for .NET MAUI using the MSI:
     >On a 32-bit machine, the wizard suggests installing the UI for .NET MAUI controls in `C:\Program Files (x86)\Progress\`. On a 64-bit machine, the suggested folder is `C:\Program Files\Progress\`.
 
 
-## Installing on macOS
+</TabStripTab>
+<TabStripTab title="macOS">
 
 The Telerik UI for .NET MAUI installer for macOS is a PKG file. The PKG installs the controls in the `Documents/Progress` folder.
 
@@ -43,6 +45,9 @@ The Telerik UI for .NET MAUI installer for macOS is a PKG file. The PKG installs
 1. Run the `Telerik_UI_for_dot_NET_Maui_[version].pkg` file and follow the instructions. The file automatically installs Telerik UI for .NET MAUI on your Mac.
 
     ![Telerik UI for .NET MAUI PKG Installer](images/pkg-installer.png)
+
+</TabStripTab>
+</TabStrip>
 
 ## Using the Installed Extras
 
