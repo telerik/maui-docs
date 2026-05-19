@@ -26,4 +26,4 @@ For more information and detailed installation and configuration instructions, s
 ## See Also
 
 * [UI for .NET MAUI - Installation Approaches]({%slug installation-approaches%})
-* [Get Started with UI for .NET MAUI in Visual Studio for Windows]({%slug maui-getting-started%})
+* [Get Started with UI for .NET MAUI in Visual Studio for Windows]({%slug maui-quick-start%})

@@ -118,7 +118,3 @@ public partial class MainPage : ContentPage
 	}
 }
 ```
-
-## See Also
-
--[ListView Layouts]({%slug listview-features-layouts%})

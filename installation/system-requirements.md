@@ -15,7 +15,7 @@ You can develop applications with Telerik UI for .NET MAUI on both Windows and m
 
 @[template](/_contentTemplates/common/supported-platforms.md#supported-platforms)
 
-*The macOS operating system does not support the development of WinUI apps for the Windows platform.
+>note The macOS operating system does not support the development of WinUI apps for the Windows platform.
 
 ## Supported .NET Versions
 

@@ -50,7 +50,3 @@ The default value of Orientation property is `Vertical`. If you want to apply ho
 	<telerik:ListViewLinearLayout Orientation="Horizontal"/>
 </telerik:RadListView.LayoutDefinition>
 ```
-
-## See Also
-
--[ListView Layouts]({%slug listview-features-layouts%})

@@ -1,7 +1,7 @@
 #getting-started
 * A [Telerik user account](https://www.telerik.com/account/).
 * An active [DevCraft or Telerik UI for MAUI license](https://www.telerik.com/purchase/maui-ui) or a [Telerik UI for MAUI trial](https://www.telerik.com/maui-ui).
-* A [.NET MAUI application that includes Telerik UI for .NET MAUI]({%slug maui-getting-started%}).
+* A [.NET MAUI application that includes Telerik UI for .NET MAUI]({%slug maui-quick-start %}).
 #end
 
 #number-of-requests

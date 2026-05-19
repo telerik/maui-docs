@@ -20,11 +20,11 @@ Before adding the SmartPasteButton, you need to:
 
 1. Install`.NET9` or later.
 
-1. [Set up your .NET MAUI application]({%slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-quick-start %}#prerequisites).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
+1. [Download Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-2-download-your-license-key-file).
 
-1. [Install Telerik UI for .NET MAUI]({%slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
+1. [Install Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-3-create-a-new-maui-project).
 
 1. Install an AI provider. For example **Azure OpenAI** or **OpenAI**, etc.
 

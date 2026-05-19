@@ -175,7 +175,7 @@ For any issues you might encounter while working with Telerik UI for .NET MAUI, 
 
 ## Next Steps with .NET MAUI UI
 
-* [Getting Started with Telerik UI for .NET MAUI (Online Guide)]({%slug maui-getting-started%})
+* [Getting Started with Telerik UI for .NET MAUI (Online Guide)]({%slug maui-quick-start%})
 
 ## See Also
 
