@@ -32,6 +32,8 @@ The example below shows how to customize the Send button in your Chat control.
                   SendMessageButtonImage="{StaticResource SendIconSource}"/>
 ```
 
+To style the send button, use the `SendButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`) property inside the `InputAreaStyle` of the `RadChat` control.
+
 ## Style the More Button
 
 The More button provides additional options for the user, such as attaching files or accessing other functionalities.
