@@ -1,5 +1,5 @@
 ---
-title: Styling Background Color of SendMessageButtonImage in Chat
+title: Styling Background Color of SendMessageButton in Chat
 description: Learn how to style the background color of the SendMessageButton in Chat when the button is enabled.
 type: how-to
 page_title: Changing Background Color of SendMessageButton in Chat
@@ -11,9 +11,9 @@ res_type: kb
 
 ## Environment
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 14.0.0 | Chat for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| Version | Product | Author |
+| --- | --- | ---- |
+| 14.0.0 | Telerik UI for .NET MAUI Chat | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
@@ -28,7 +28,7 @@ This knowledge base article also answers the following questions:
 
 To achieve this, use the `SendButtonStyle` property inside the `InputAreaStyle` of the `RadChat` control. Use the code snippet below to define a custom style for the button.
 
-1. Create a custom style for the SendMessageButton by setting the `SendButtonStyle` property.
+1.  Define a custom `Style` for the Send button that you will assign to the `SendButtonStyle` property.
 
    ```xaml
    <Style x:Key="CustomPromptInputSendButtonStyle" TargetType="telerik:RadTemplatedButton">
