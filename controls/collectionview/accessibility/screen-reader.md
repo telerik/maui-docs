@@ -28,7 +28,7 @@ Here's how to enable WinUI automation support:
 AutomationManager.EnableWindowsAutomation = true;
 ```
 
-If you want the Narrator to read the items in the CollectionView, when performing a keyboard navigation, you need to use the `caps lock` + `right arrow` keys.
+To have Narrator read the items in the CollectionView during keyboard navigation, press `Caps Lock` + `Right Arrow`.
 
 ## See Also
 
