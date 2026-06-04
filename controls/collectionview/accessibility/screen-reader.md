@@ -13,6 +13,8 @@ The Telerik UI for .NET MAUI CollectionView provides extensive accessibility sup
 
 The CollectionView allows users to use the Android (TalkBack), WinUI (Narrator), iOS and MacCatalyst (VoiceOver) screen readers for voice descriptions of the elements inside the CollectionView.
 
+![.NET MAUI CollectionView Screen Reader Support](../images/collectionview-screen-reader.png)
+
 The Telerik MAUI CollectionView exposes an `AutomationManager` class which controls the automation behavior of the control. The `AutomationManager` class is responsible for managing the automation features of the CollectionView, such as enabling or disabling screen reader support.
 
 ## WinUI Automation Behavior
@@ -26,7 +28,7 @@ Here's how to enable WinUI automation support:
 AutomationManager.EnableWindowsAutomation = true;
 ```
 
-![.NET MAUI CollectionView Screen Reader Support](../images/collectionview-screen-reader.png)
+To have Narrator read the items in the CollectionView during keyboard navigation, press `Caps Lock` + `Right Arrow`.
 
 ## See Also
 
