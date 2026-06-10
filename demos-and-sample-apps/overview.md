@@ -18,46 +18,36 @@ The Telerik UI for .NET MAUI library offers an extensive set of fully featured e
 
 The following demo apps deliver a rich collection of .NET MAUI examples:
 
-* [Controls Samples App]({%slug controls-samples-app%})
-* [Progress Agentic RAG and Telerik UI for .NET MAUI controls]({%slug maui-parag-demo-app%})
-* [SDKBrowser App]({%slug sdkbrowser-app%})
-* [Crypto Tracker App]({%slug maui-crypto-app%})
+<article-card-container>
+	<article-card
+		href="/demos-and-sample-apps/controls-showcase-app"
+		src="../images/samples-apps.png"
+		title="Controls Samples App"
+		subTitle="Showcase Demo App"
+		description="The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component.">
+	</article-card>
+	<article-card
+		href="/demos-and-sample-apps/parag-demo-maui-ai"
+		src="images/parag-demo-maui-ai-mobile.png"
+		title="Progress Agentic RAG Demo App"
+		subTitle=".NET MAUI Progress Agentic RAG Demo App"
+		description="The Telerik UI for .NET MAUI Progress Agentic RAG Demo App uses the Progress Agentic RAG service to demonstrate how to integrate AI capabilities into your .NET MAUI applications.">
+	</article-card>
+	<article-card
+		href="/demos-and-sample-apps/sdkbrowser-app"
+		src="images/sdk-browser-app.png"
+		title="SDKBrowser App Examples"
+		subTitle=".NET MAUI SDKBrowser Demo Application"
+		description="The SDKBrowser is a set of .NET MAUI samples in C# and XAML that explain how to use the features of a control.">
+	</article-card>
+	<article-card
+		href="/demos-and-sample-apps/crypto-app"
+		src="../images/crypto-app.png"
+		title="Crypto Tracker App Demo"
+		subTitle=".NET MAUI Crypto Tracker App Demo"
+		description="Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls.">
+	</article-card>
+</article-card-container>
 
 > Telerik UI for .NET MAUI version 12.0.0 adds support for .NET 10.0. You can easily switch the .NET version to .NET 9.0 or .NET 10 to build the apps. 
 > Inside the Examples folder of the installation/.zip file there are `.ps1` files - `SwitchToNet9.ps1` and `SwitchToNet10.ps1`. You can use them to switch the .NET version you use to build the .NET MAUI sample apps.
-
-## .NET MAUI Controls Samples App
-
-The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component. The app provides various .NET MAUI examples for many of the 60+ .NET MAUI controls included in the library.
-
-![Telerik UI for .NET MAUI Sample App WinU](images/controlssamples-winui.png)
-
-For more information on it, refer to [Controls Samples App]({%slug controls-samples-app%}).
-
-## .NET MAUI Progress Agentic RAG Demo App
-
-The Telerik UI for .NET MAUI Progress Agentic RAG Demo App uses the [Progress Agentic RAG](https://www.progress.com/agentic-rag) service to demonstrate how to integrate AI capabilities into your .NET MAUI applications. 
-
-The demo app showcases the AI-Powered search capabilities of the Progress Agentic RAG service, allowing users to interact with the AI assistant and retrieve relevant information based on their queries. 
-
-The app provides a practical example of how to leverage AI in .NET MAUI applications using the Telerik UI for .NET MAUI controls for the user interface and the Progress Agentic RAG service for the backend.
-
-![Telerik UI for .NET MAUI Progress Agentic RAG](images/parag-demo-maui-ai.png)
-
-For more information on it, refer to [.NET MAUI Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%}).
-
-## .NET MAUI SDKBrowser App Examples
-
-The SDKBrowser is a set of .NET MAUI samples in C# and XAML that explain how to use the features of a control. Contrary to the Controls Samples application, the SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
-
-![.NET MAUI examples and controls samples](images/sdk-mobile.png)
-
-For more information on it, refer to [SDKBrowser App Examples]({%slug sdkbrowser-app%}).
-
-## .NET MAUI Crypto Tracker App Demo
-
-Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls. In this demo, you can see in action many of the .NET MAUI controls in the library, including the CollectionView, Charts and TabView.
-
-![Telerik UI for .NET MAUI Crypto Tracker App Demo](../images/crypto-app.png)
-
-For more information on it, refer to [Crypto Tracker App Demo]({%slug maui-crypto-app%}).

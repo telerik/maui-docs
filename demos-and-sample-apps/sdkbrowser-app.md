@@ -10,7 +10,7 @@ position: 2
 
 # SDKBrowser Application
 
-The Telerik UI for .NET MAUI SDKBrowser is a set of examples that explain how to use the features of a control. The SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
+The Telerik UI for .NET MAUI SDKBrowser is a set of .NET MAUI samples in C# and XAML that explain how to use the features of a control. The SDKBrowser shows the components in their pure form without adding extra styling and polishing. It's the go-to source for "how do I use X in Y control". Most of the code snippets available in the documentation are directly generated from the examples in the SDKBrowser (you can see special comments in the code for this).
 
 You can access the SDKBrowser application in the following ways:
 
