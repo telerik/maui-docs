@@ -36,15 +36,15 @@ The following demo apps deliver a rich collection of .NET MAUI examples:
 	<article-card
 		href="/demos-and-sample-apps/sdkbrowser-app"
 		src="images/sdk-browser-app.png"
-		title="SDKBrowser App Examples"
+		title="SDKBrowser App"
 		subTitle=".NET MAUI SDKBrowser Demo Application"
 		description="The SDKBrowser is a set of .NET MAUI samples in C# and XAML that explain how to use the features of a control.">
 	</article-card>
 	<article-card
 		href="/demos-and-sample-apps/crypto-app"
 		src="../images/crypto-app.png"
-		title="Crypto Tracker App Demo"
-		subTitle=".NET MAUI Crypto Tracker App Demo"
+		title="Crypto Tracker Demo App"
+		subTitle=".NET MAUI Crypto Tracker Demo App"
 		description="Crypto Tracker demo is a real-case crypto application that shows changes in cryptocurrency prices, offering practical .NET MAUI app examples built with the Telerik UI for .NET MAUI controls.">
 	</article-card>
 </article-card-container>
