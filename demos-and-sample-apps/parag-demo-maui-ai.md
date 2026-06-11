@@ -12,6 +12,8 @@ tag: new
 
 The **Telerik UI for .NET MAUI Progress Agentic RAG Demo App** is a comprehensive demo application showcasing the powerful integration between [Progress Agentic RAG AI-powered search capabilities](https://www.progress.com/agentic-rag) and Telerik UI for .NET MAUI controls. This application demonstrates how to build intelligent, data-driven cross-platform mobile and desktop interfaces that combine enterprise-grade AI retrieval with beautiful, functional user interfaces.
 
+The app provides a practical example of how to leverage AI in .NET MAUI applications using the Telerik UI for .NET MAUI controls for the user interface and the Progress Agentic RAG service for the backend.
+
 Desktop look of the .NET MAUI Progress Agentic RAG Demo App:
 
 ![Telerik UI for .NET MAUI Progress Agentic RAG](images/parag-demo-maui-ai.png)

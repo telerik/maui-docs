@@ -9,7 +9,7 @@ position: 1
 
 # Controls Samples Application
 
-The **Telerik UI for .NET MAUI Controls Samples** application provides many scenario-specific use cases designed to show off a subset of features for each component.
+The Telerik UI for .NET MAUI Controls Samples is a highly polished application offering many scenario-specific use cases designed to show off a subset of features for each component. The app provides various .NET MAUI examples for many of the 60+ .NET MAUI controls included in the library.
 
 You can access the Controls Samples application in the following ways:
 
