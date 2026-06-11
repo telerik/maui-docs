@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-When using a custom `ItemTemplate` in the [RadSegmentedControl](https://www.telerik.com/maui-ui/documentation/controls/segmentedcontrol/overview) for UI for .NET MAUI, the `TextColor` and `SelectedTextColor` properties of the `RadSegmentedControlItemView` style do not automatically apply to the `Label` elements within the template. These properties only affect the default template. To ensure the colors apply to your custom `ItemTemplate`, you need to bind the `Label`'s `TextColor` to the `ActualTextColor` property of the `RadSegmentedControlItemView`.
+When using a custom `ItemTemplate` in the [RadSegmentedControl]({%slug segmentedcontrol-overview%}) for UI for .NET MAUI, the `TextColor` and `SelectedTextColor` properties of the `RadSegmentedControlItemView` style do not automatically apply to the `Label` elements within the template. These properties only affect the default template. To ensure the colors apply to your custom `ItemTemplate`, you need to bind the `Label`'s `TextColor` to the `ActualTextColor` property of the `RadSegmentedControlItemView`.
 
 This knowledge base article also answers the following questions:
 - How do I customize text colors for selected and unselected items in RadSegmentedControl?
