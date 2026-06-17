@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI ComboBox Overview
-description: The .NET MAUI ComboBox control allows users to select item or items from a drop down list of items. Learn more!
+description: Learn how to use the .NET MAUI ComboBox to select one or more items, search data, style the control, and apply theme-aware appearance settings.
 position: 0
 slug: combobox-overview
 ---
@@ -10,30 +10,42 @@ slug: combobox-overview
 
 The Telerik UI for .NET MAUI ComboBox enables users to select one or more items from a dropdown list. It offers various features, including search functionality, options for single and multiple selections, a flexible styling API, and customizable dropdowns, among others.
 
+Use the ComboBox when you want users to choose from a predefined list and optionally search, filter, or select multiple values in the same input area.
+
 ![.NET MAUI ComboBox Overview](images/combobox-overview.png "ComboBox Overview")
 
 ## Key Features of the .NET MAUI ComboBox
 
-* [Editable and NonEditable mode]({%slug combobox-editmode-and-search%})&mdash;The .NET MAUI ComboBox supports both editable and noneditable state. When the control is in edit mode searching can be performed. 
-* [Searching Support]({%slug combobox-editmode-and-search%})&mdash;The ComboBox provides both case-sensitive and case-insensitive searching modes. The available options are: `Contains`, `StartsWith`, `ContainsCaseSensitive` and `StartsWithCaseSensitive`. 
-* [Single and Multiple Selection Support]({%slug combobox-selection%})&mdash;The ComboBox control has a support for single and multiple selection. You can specify the required selection using the `SelectionMode` property.
-* [Complex Object Support]({%slug combobox-databinding%})&mdash;The .NET MAUI ComboBox control provides you a way to specify which property of your complex business object to be displayed in the control by setting `DisplayMemberPath`.
-* [Filtering support]({%slug combobox-filtering%})&mdash;The ComboBox control allows the users to refine their search results as they type into the input field.
-* [Search Highlighting Text]({%slug combobox-editmode-and-search%})&mdash;The ComboBox control highlights the matching text inside the dropdown list based on the given input after searching is performed.
-* [Placeholder]({%slug combobox-configuration%}#placeholder)&mdash;The text which is used to give guidance to the end user on what can be entered/searched in the input. The watermark text is displayed when the input field is empty, or the selected item/s is/are cleared.
-* [Header and Footer]({%slug combobox-header-footer%})&mdash;The ComboBox for .NET MAUI gives you the ability to add header and footer inside the dropdown list. For this purpose, you will need to define the `HeaderTemplate` property and the `FooterTemplate` property. 
-* [Clear button visibility]({%slug combobox-configuration%}#clearbutton-visibility)&mdash;Specify whether the button which users can use to clear the selection will be visible or not. 
-* [Customizable DropDown]({%slug combobox-configuration%}#dropdown-behavior)&mdash;Apply height and width for the dropdown. Also specify whether the dropdown will be closed on selection or initially opened. 
-* [Keyboard type]({%slug combobox-configuration%}#keyboard)&mdash;Specify the type of the keyboard that is displayed on mobile by using the `Keyboard` property.
-* [Keyboard navigation]({%slug combobox-keyboard-support%}) support&mdash;Use keyboard keys for navigation in the .NET MAUI ComboBox dropdown, opens or closes the dropdown. This feature is available on WinUI and MacCatalyst.
-* UI Virtualization Support&mdash;The ComboBox supports UI Virtualization which enables you to display large list of items. When the list (positioned inside the drop down part) is scrolled, the ComboBox reuses the existing items to display the relevant data instead of creating new ones.
-* [Templates]({%slug combobox-templates%})&mdash;You can change the default `ItemTemplate` and `SelectedItemTemplate`. In addition, if the ComboBox is in multiple selection mode, the selected item is displayed inside a token. You can customize the token using the `TokenTemplate` property. Also, you can customize the `ShowMoreTemplate` which is visualized inside the ComboBox when the control is not focused and when there isn't space for all tokens to be displayed. 
-* [Commands Support]({%slug combobox-commands%})&mdash;The ComboBox for .NET MAUI exposes `ClearSelectionCommand` that allows you clear the selected item(s) from external UI and `SelectAllCommand` that allows you to select all items from the source.
-* [Flexible Styling API]({%slug combobox-styling%})&mdash;Allows you to change the ComboBox background color, style the control’s dropdown box, change the clear and dropdown buttons. In addition, you can change the Placeholder text color and the Highlighted text color.
+* [Editable and non-editable modes]({%slug combobox-editmode-and-search%})&mdash;The ComboBox supports both editable and non-editable states. When the control is editable, users can type and search.
+* [Searching support]({%slug combobox-editmode-and-search%})&mdash;The ComboBox supports `Contains`, `StartsWith`, `ContainsCaseSensitive`, and `StartsWithCaseSensitive` search modes.
+* [Single and multiple selection]({%slug combobox-selection%})&mdash;Use the `SelectionMode` property to let users select one item or multiple items.
+* [Complex object binding]({%slug combobox-databinding%})&mdash;Use `DisplayMemberPath` to specify which property from a business object is displayed in the control.
+* [Filtering support]({%slug combobox-filtering%})&mdash;Users can refine the visible results while they type in the input field.
+* [Search highlighting]({%slug combobox-editmode-and-search%})&mdash;The ComboBox highlights the matching text in the dropdown after searching.
+* [Placeholder support]({%slug combobox-configuration%}#placeholder)&mdash;Show guidance text when the input is empty or the selected item is cleared.
+* [Header and footer templates]({%slug combobox-header-footer%})&mdash;Add custom content above and below the dropdown list through `HeaderTemplate` and `FooterTemplate`.
+* [Clear button visibility]({%slug combobox-configuration%}#clearbutton-visibility)&mdash;Control whether users can clear the selection through the built-in clear button.
+* [Customizable dropdown]({%slug combobox-configuration%}#dropdown-behavior)&mdash;Control the dropdown width, height, open state, and close-on-selection behavior.
+* [Keyboard type]({%slug combobox-configuration%}#keyboard)&mdash;Choose the mobile keyboard layout through the `Keyboard` property.
+* [Keyboard navigation]({%slug combobox-keyboard-support%})&mdash;Navigate, open, and close the dropdown with the keyboard on WinUI and MacCatalyst.
+* UI virtualization support&mdash;Display large item collections efficiently because the control reuses existing visual items while the dropdown is scrolled.
+* [Templates]({%slug combobox-templates%})&mdash;Customize `ItemTemplate`, `SelectedItemTemplate`, `TokenTemplate`, and `ShowMoreTemplate`.
+* [Command support]({%slug combobox-commands%})&mdash;Use `ClearSelectionCommand` and `SelectAllCommand` from external UI.
+* [Flexible styling API]({%slug combobox-styling%})&mdash;Customize colors, borders, buttons, dropdown appearance, and text presentation.
+
+## Theme-Aware Styling and AppThemeBinding
+
+If you are looking for app theme binding support, use the ComboBox styling properties together with the standard .NET MAUI `AppThemeBinding` markup extension or with Telerik theme resources.
+
+For example, you can apply theme-aware values to properties such as `BackgroundColor`, `BorderColor`, `TextColor`, `PlaceholderColor`, and dropdown styling properties. For control-specific styling options, see [Styling]({%slug combobox-styling%}). For app-wide theme resources and runtime theme switching, see [Theming Overview]({%slug themes-overview%}).
+
+Use the ComboBox styling article when you want to style only this control. Use the theming article when you want the ComboBox appearance to follow your app theme together with other Telerik controls.
 
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI ComboBox]({%slug combobox-getting-started%})
+- [Style the ComboBox]({%slug combobox-styling%})
+- [Apply Telerik Themes Across the App]({%slug themes-overview%})
 
 ## See Also
 
@@ -46,7 +58,8 @@ The Telerik UI for .NET MAUI ComboBox enables users to select one or more items 
 - [Header and Footer]({%slug combobox-header-footer%})
 - [Templates]({%slug combobox-templates%})
 - [Styling]({%slug combobox-styling%})
-- [.NET MAUI ComboBox Product Page](https://www.telerik.com/maui-ui/checkbox)
+- [Theming Overview]({%slug themes-overview%})
+- [.NET MAUI ComboBox Product Page](https://www.telerik.com/maui-ui/combobox)
 - [.NET MAUI ComboBox Forum Page](https://www.telerik.com/forums/maui?tagId=1937)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)
