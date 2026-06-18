@@ -1,108 +1,124 @@
 ---
-title: Configuration
-page_title: .NET MAUI ComboBox Documentation - Configuration
-description: Learn more about how to show the basic configuration options of the Telerik UI for .NET MAUI ComboBox control.
+title: Configuation
+page_title: .NET MAUI ComboBox Configuration
+description: Learn how to configure the Telerik UI for .NET MAUI ComboBox, including placeholder behavior, drop-down settings, clear button visibility, keyboard input, and app theme binding.
 position: 4
 slug: combobox-configuration
 ---
 
 # Configure the .NET MAUI ComboBox
 
-The purpose of this help article is to show the basic configuration options of the [.NET MAUI ComboBox]({%slug combobox-overview%}) control.
+Use this article to configure the most common [.NET MAUI ComboBox]({%slug combobox-overview%}) behaviors, including placeholder text, text input, spell checking, the clear button, drop-down behavior, keyboard type, and theme-aware placeholder color.
+
+## What Can You Configure in the ComboBox
+
+Use the following areas depending on the behavior you want to change:
+
+| Area | Main Properties | Use It When |
+|---|---|---|
+| Placeholder | `Placeholder`, `PlaceholderColor` | You want to guide the user before a value is selected or entered. |
+| Text input | `Text`, `IsSpellCheckEnabled`, `Keyboard` | You want to control what the user types and how the input behaves. |
+| Clear action | `IsClearButtonVisible` | You want to show or hide the clear button. |
+| Drop-down behavior | `DropDownWidth`, `DropDownHeight`, `DropDownMaxHeight`, `DropDownVerticalOffset`, `IsDropDownOpen`, `IsDropdownClosedOnSelection`, `OpenOnFocus` | You want to control how the drop-down opens, closes, and appears. |
 
 ## Placeholder
 
-* `Placeholder`(`string`): Sets the text which is used to give guidance to the end user on what can be entered/searched in the input. The watermark text is displayed when the input field is empty, or the selected item/s is/are cleared. 
-* `PlaceholderColor`(`Color`): Defines the color for the watermark text. 
+Use the placeholder properties when you want to guide the user before input or selection:
 
-Here is an example of setting the `Placeholder` property:
+- `Placeholder` of type `string` sets the guidance text shown when the input is empty or when the selected item or items are cleared.
+- `PlaceholderColor` of type `Color` defines the color of the placeholder text.
+
+The following example sets the `Placeholder` property:
 
 <snippet id='combobox-configuration-placeholder'/>
 
-The next image shows the result:
+The following image shows the result:
 
 ![ComboBox Placeholder](images/combobox-placeholder.png)
 
-Here is an example of setting the `PlaceholderColor` property:
+The following example sets the `PlaceholderColor` property:
 
 <snippet id='combobox-configuration-placeholder-color'/>
 
-The next image shows the result:
+The following image shows the result:
 
 ![.NET MAUI ComboBox Placeholder Color](images/combobox-placeholder-color.png)
 
 ## Text
 
-* `Text`(`string`): Specifies the Text of the control. This is the Text that gets visualized when:
-   * The control is editable.
-   * The control is non-editable and the selection mode is single.
+Use the `Text` property of type `string` when you want to set or read the visible text of the control. This text appears when:
+
+- The ComboBox is editable.
+- The ComboBox is non-editable and the selection mode is single.
 
 ## Spell Checking
 
-* `IsSpellCheckEnabled`(`bool`)&mdash;Specifies whether the spell checking of the ComboBox is enabled. By default, the `IsSpellCheckEnabled` value is `False`. When spell checking is enabled, misspellings are indicated in the ComboBox input.
+Use `IsSpellCheckEnabled` of type `bool` to control whether spell checking is enabled in the ComboBox input. The default value is `False`. When spell checking is enabled, misspellings are indicated in the input field.
 
-The example below shows how to apply the `IsSpellCheckEnabled` property:
+The following example applies `IsSpellCheckEnabled`:
 
 <snippet id='combobox-configuration-spellcheckenabled' />
 
 ## Clear Button Visibility
 
-The visibility state of the Clear **X** button can be changed using the `IsClearButtonVisible`(`bool`) property. By default its value is true.
+Use `IsClearButtonVisible` of type `bool` to show or hide the clear **X** button. The default value is `True`.
 
-Here is an example with `IsClearButtonVisible` property set:
+The following example sets `IsClearButtonVisible`:
 
 <snippet id='combobox-configuration-clearbuttonvisible-false'/>
 
-and the result: 
+The following image shows the result:
 
 ![ComboBox Clear Button Visibility](images/combobox-clearbuttonvisibility.png)
 
-> For the ComboBox Configuration example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Features** category.
+>note
+> For a complete ComboBox configuration example, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **ComboBox** > **Features**.
 
 ## Drop-Down Behavior
 
-To manage the drop-down of the ComboBox, use the following properties:
+Use the following properties to control how the drop-down opens, closes, and appears:
 
-* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
-* `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
-* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined height for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be higher.
-* `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
-* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
-* `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
+- `DropDownWidth` of type `double` defines the width of the drop-down.
+- `DropDownHeight` of type `double` defines the height of the drop-down.
+- `DropDownMaxHeight` of type `double` defines the maximum height of the drop-down. Set this property when you want the drop-down to stay within a known height range. If you use both `DropDownMaxHeight` and `DropDownHeight`, the maximum height must be larger than the fixed height.
+- `DropDownVerticalOffset` of type `double` defines the vertical offset of the drop-down relative to the control.
+- `IsDropDownOpen` of type `bool` defines whether the drop-down is open. The default value is `True`.
+- `IsDropdownClosedOnSelection` of type `bool` defines whether the drop-down closes when the user selects or clears an item. The default value is `True`.
+- `OpenOnFocus` of type `bool` defines whether the drop-down opens when the control receives focus. The default value is `True`. This property applies to the editable ComboBox.
 
-Here is an example that uses the `DropDownWidth` property:
+The following example sets `DropDownWidth`:
 
 <snippet id='combobox-configuration-dropdownwidth'/>
 
-Here is an example that uses the `DropDownHeight` property:
+The following example sets `DropDownHeight`:
 
 <snippet id='combobox-configuration-dropdownheight'/>
 
-Here is an example that uses the `DropDownMaxHeight` property:
+The following example sets `DropDownMaxHeight`:
 
 <snippet id='combobox-configuration-dropdownmaxheight'/>
 
-Here is an example that uses the `DropDownVerticalOffset` property:
+The following example sets `DropDownVerticalOffset`:
 
 <snippet id='combobox-configuration-dropdownverticaloffset'/>
 
-Here is an example with `IsDropdownClosedOnSelection` property set:
+The following example sets `IsDropdownClosedOnSelection`:
 
 <snippet id='combobox-configuration-dropdownvisibility-isdropdownclosed'/>
 
-* `OpenOnFocus`(`bool`):Defines whether the drop down can be opened when the control is focused. The default value is `true`. The property is applicable for Editable ComboBox.
-
-Here is an example with `OpenOnFocus` property set:
+The following example sets `OpenOnFocus`:
 
 <snippet id='combobox-configuration-dropdownvisibility-openonfocus'/>
 
->tip Review the [Adding Select All Option in ComboBox Drop-Down]({%slug adding-select-all-option-combobox-dropdown-net-maui%}) article for more details how to select all items from the drop-down list.
+>tip
+> See [Add a Select All option in the ComboBox drop-down]({%slug adding-select-all-option-combobox-dropdown-net-maui%}) if you want to let users select all items from the drop-down list.
 
 ## Keyboard
 
-The `Keyboard` property of type `Microsoft.Maui.Keyboard` allows you to define the type of the keyboard that will be visualized by the device. The default value is Text.
+Use the `Keyboard` property of type `Microsoft.Maui.Keyboard` to define which on-screen keyboard the device shows. The default value is `Text`.
 
-> For the ComboBox Drop-Down Configuration example, refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **ComboBox > Features** category.
+>note
+> For a ComboBox drop-down configuration example, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **ComboBox** > **Features**.
 
 ## See Also
 

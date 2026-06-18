@@ -1,41 +1,58 @@
 ---
 title: Command
-page_title: .NET MAUI Button Documentation - Command
-description: Learn about the .NET MAUI Button Command that is executed when the button is clicked.
+page_title: .NET MAUI Button Command
+description: Learn how to bind a command and command parameter to the Telerik UI for .NET MAUI Button and understand how to reuse the same command for keyboard-driven actions.
 position: 4
 slug: button-command
 ---
 
 # .NET MAUI Button Command
 
-The Telerik .NET MAUI Button allows you to attach a command that executes when the button is clicked.
+Use the Telerik UI for .NET MAUI Button `Command` property when you want to trigger view-model logic from the button without handling the click in code-behind. This is the recommended approach for MVVM scenarios.
 
-* `Command` (`ICommand`)&mdash;Defines the command which executes when the button is clicked.
-* `CommandParameter` (`object`)&mdash;Specifies the parameter of the command which executes when the button is clicked.
+The Button exposes the following command-related properties:
+
+- `Command` of type `ICommand` defines the command that runs when the button is activated.
+- `CommandParameter` of type `object` defines the parameter passed to that command.
+
+## When Should You Use Button Command Binding
+
+Use command binding when you want to:
+
+- Keep button actions in the view model.
+- Reuse the same action from multiple UI elements.
+- Pass context to the action through `CommandParameter`.
 
 ## Using the Command
 
-The following example demonstrates how to use the `Command`.
+The following example shows how to bind a command to the Button.
 
-**1.** Define the Button in XAML:
+1. Define the Button in XAML:
 
 <snippet id='button-command-xaml' />
 
-**2.** Add the `telerik` namespace:
+2. Add the `telerik` namespace:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** Execute the `Command`:
+3. Implement the `Command`:
 
 <snippet id='button-command' />
 
-This is the result on WinUI:
+The following image shows the result on WinUI:
 
 ![.NET MAUI Button Command](images/button-command.gif "Button for .NET MAUI")
 
-> For a runnable example demonstrating the Button Command, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Button > Features** category.
+## Trigger the Same Action from a Key Press
+
+If you want a key press to run the same action, keep the action in an `ICommand` and invoke that same command from your page-level or platform-specific keyboard handling logic. This lets the Button click and the keyboard shortcut reuse the same implementation.
+
+Use this approach when you want both mouse or touch activation and a keyboard-driven trigger for the same operation.
+
+>note
+> For a runnable example demonstrating Button command binding, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **Button** > **Features**.
 
 ## See Also
 
