@@ -141,7 +141,7 @@ telerik logout
 
 ## Get License Key
 
-To download or update your [Telerik license key]({%slug license-key%}), use the `license get-key` command:
+To download or update your [Telerik license key]({%slug set-up-your-license-key%}), use the `license get-key` command:
 
 ```powershell
 telerik license get-key
