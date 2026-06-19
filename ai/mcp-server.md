@@ -283,8 +283,6 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
       "args": ["-y", "@progress/telerik-maui-mcp@latest"],
       "env": {
         "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
-        // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
       }
     }
   }
