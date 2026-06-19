@@ -1,5 +1,5 @@
 #telerik-cli
-The Telerik CLI is a .NET global tool that automates common Telerik development tasks from the command line. Use the Telerik CLI to configure the Telerik NuGet package source, create new projects from Telerik templates, and update Telerik UI for MAUI packages without opening IDE.
+The Telerik CLI is a .NET global tool that automates common Telerik development tasks from the command line. Use the Telerik CLI to configure the Telerik NuGet package source, create new projects from Telerik templates, and update Telerik UI for .NET MAUI packages without opening an IDE.
 
 ## Prerequisites
 
@@ -7,7 +7,7 @@ The following table lists the requirements to run the Telerik CLI for using Tele
 
 | Requirement | Minimum version | Notes |
 |---|---|---|
-| .NET SDK | 9.0 or 10.0 | Required to install and run .NET global tools and building .NET MAUI apps. |
+| .NET SDK | 9.0 or later | Required to install and run .NET global tools and building .NET MAUI apps. |
 | Operating system | Windows or macOS | OS supported by the .NET SDK. |
 | Telerik account | N/A | Active Subscription or Trial license required. |
 
@@ -19,7 +19,7 @@ The following table lists all Telerik CLI commands with their purpose and usage.
 |---|---|---|
 | `dotnet tool install -g Telerik.CLI` | Installs the Telerik CLI as a .NET global tool. | Run once to install the CLI on your machine. |
 | `dotnet tool update -g Telerik.CLI` | Updates the Telerik CLI to the latest version. | Run periodically to get the latest features and fixes. |
-| `telerik nuget` | Configures the Telerik NuGet server to your package sources. | Run to set up the `https://nuget.telerik.com/v3/index.json` feed in your NuGet configuration. |
+| `telerik nuget config` | Configures the Telerik NuGet server to your package sources. | Run to set up the `https://nuget.telerik.com/v3/index.json` feed in your NuGet configuration. |
 | `telerik license get-key` | Downloads your Telerik license key and saves it as `telerik-license.txt`. | Run to download your license key file. |
 | `telerik mcp config` | Installs and configures the Telerik MCP Server for your IDE. | Run to set up AI coding assistance in Visual Studio, VS Code, or Cursor. |
 | `telerik login` | Authenticates with your Telerik account. Use `--no-browser` for manual authentication. | Run to store credentials for subsequent commands. |
@@ -104,13 +104,13 @@ If automatic browser-based authentication is blocked (for example, by corporate 
 ```powershell
 telerik login --no-browser
 ```
-When you run `telerik login --no-browser` the CLI will:
+When you run `telerik login --no-browser` the CLI:
 
 1. Prints a short URL and a one-time code in the terminal.
 2. Instructs you to open the URL on any device or browser with network access (for example, your desktop browser or a browser on another machine).
 3. Asks you to enter the one-time code and sign in to your Telerik account in the browser.
 
-After successful authentication the browser will display a success message and you can return to the CLI — it will detect the completed sign-in and store the session token locally.
+After successful authentication the browser will display a success message and you can return to the CLI. It will detect the completed sign-in and store the session token locally.
 
 The Telerik CLI stores a session token in:
 
