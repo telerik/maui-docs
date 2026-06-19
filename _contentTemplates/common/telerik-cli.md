@@ -83,7 +83,7 @@ The `telerik setup` command performs the following multiple actions at once to c
 
 If you do not want to use Telerik.CLI panel, you can run the commands described in the next sections to set up the Telerik .NET MAUI environment manually.
 
-## Log In to Your Telerik Account
+### Log In to Your Telerik Account
 
 Most Telerik CLI commands are related to your Telerik identity. It's recommended to log in first, so that all the other commands work without the need for additional authentication.
 
@@ -97,7 +97,7 @@ The `login` command opens `https://identity.telerik.com` in a browser window whe
 
 If this browser integration fails due to security or network restrictions, you can authenticate manually by using the `--no-browser` option.
 
-### Using `--no-browser` (Manual Authentication)
+#### Using `--no-browser` (Manual Authentication)
 
 If automatic browser-based authentication is blocked (for example, by corporate network policies, restricted browsers, or headless CI environments), use the `--no-browser` switch to perform a manual login flow:
 
@@ -121,7 +121,7 @@ The Telerik CLI stores a session token in:
 
 The session token is valid for one month.
 
-### Check Login State
+#### Check Login State
 
 To see which Telerik user is logged in the CLI, use the `whoami` command:
 
@@ -131,7 +131,7 @@ telerik whoami
 
 The CLI will output your Telerik user account email.
 
-## Log Out from Your Telerik Account
+### Log Out from Your Telerik Account
 
 To log out from the Telerik CLI, use the `logout` command.
 
@@ -139,7 +139,7 @@ To log out from the Telerik CLI, use the `logout` command.
 telerik logout
 ```
 
-## Get License Key
+### Get License Key
 
 To download or update your [Telerik license key]({%slug set-up-your-license%}), use the `license get-key` command:
 
@@ -149,7 +149,7 @@ telerik license get-key
 
 The `license get-key` command downloads your up-to-date Telerik license key and creates a `telerik-license.txt` file in your operating system user's folder.
 
-## Set Up Telerik NuGet Feed
+### Set Up Telerik NuGet Feed
 
 To add the Telerik NuGet server to your package sources, use the `nuget config` command:
 
@@ -171,7 +171,7 @@ You can use the `nuget config` command with the following options:
 telerik nuget config --scope project --path . --force
 ```
 
-## Install MCP Server
+### Install MCP Server
 
 To install the Telerik MCP servers, use the `mcp config` command:
 
@@ -189,7 +189,7 @@ By default, the command creates or updates the global `.mcp.json` configuration 
 | Cursor  | Windows | `%USERPROFILE%\.cursor\mcp.json` |
 | Cursor | macOS | `~/.cursor/mcp.json` |
 
-### Install MAUI MCP Server
+#### Install MAUI MCP Server
 
 You can also fine-tune the process with the following options:
 
