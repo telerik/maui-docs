@@ -26,7 +26,7 @@ Use the following templates depending on the part of the control that you want t
 
 Use `PlaceholderTemplate` when you want to replace the default placeholder content before the user selects a date.
 
-The following example shows how to use `PlaceholderTemplate`:
+The following example shows how to use the default `PlaceholderTemplate`:
 
 <snippet id='datepicker-placeholder-default-template' />
 
@@ -34,7 +34,7 @@ The following example shows how to use `PlaceholderTemplate`:
 
 Use `DisplayTemplate` when you want to change how the selected date is rendered after the user picks a value.
 
-The following example shows how to use `DisplayTemplate`:
+The following example shows how to use the default `DisplayTemplate`:
 
 <snippet id='datepicker-display-default-template' />
 
@@ -42,7 +42,7 @@ The following example shows how to use `DisplayTemplate`:
 
 Use `HeaderTemplate` when you want to customize the popup header area.
 
-The following example shows how to use `HeaderTemplate`:
+The following example shows how to use the default `HeaderTemplate`:
 
 <snippet id='datepicker-header-default-template' />
 
@@ -50,7 +50,7 @@ The following example shows how to use `HeaderTemplate`:
 
 Use `FooterTemplate` when you want to customize the popup footer area.
 
-The following example shows how to use `FooterTemplate`:
+The following example shows how to use the default `FooterTemplate`:
 
 <snippet id='datepicker-footer-default-template' />
 

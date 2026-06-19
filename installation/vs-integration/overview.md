@@ -1,38 +1,63 @@
 ---
 title: Overview
 page_title: Visual Studio Integration Overview
-description: Learn how to enhance your experience in developing .NET MAUI applications with the Progress Telerik UI for .NET MAUI library.
+description: Learn what the Telerik UI for .NET MAUI Visual Studio extensions add, how to install them, and where to access project templates, toolbox support, and scaffoldings.
 slug: vs-integration-overview
 position: 0
 ---
 
 # Visual Studio Integration Overview
 
-To integrate with Visual Studio (VS), Telerik UI for .NET MAUI provides VS extensions. These extensions enhance the experience in developing .NET MAUI applications with Telerik UI for .NET MAUI.
+Use the Telerik UI for .NET MAUI Visual Studio extensions to speed up common development tasks in Visual Studio 2022. The extensions help you create Telerik-ready projects, add controls from the Toolbox, scaffold pages and screens, add Document Processing libraries, and manage Telerik licensing prompts inside the IDE.
 
-The extensions handle the following major points in the development with Telerik UI for .NET MAUI:
+This overview explains what the extensions include, how to install them, and where to find them after installation.
 
-* [Project creation]({%slug vs-integration-new-project%})&mdash;Through the **Telerik .NET MAUI Blank App** and **Telerik .NET MAUI Blank Shell App** project templates, you can quickly create an application that is pre-configured to use Telerik UI for .NET MAUI.
-* [Toolbox support]({%slug toolbox-support %})&mdash;The Telerik UI for .NET MAUI Toolbox extension facilitates the adding of Telerik controls to your .NET MAUI application.
-* [Scaffolding Pages and Screens]({%slug maui-vs-scaffoldings%})&mdash;The scaffoldings allow you to quickly add predefined pages with controls to your application and define the parameters of the controls through an UI.
-* Wizard for adding [Document Processing Libraries]({%slug document-processing-libraries-overview%}) as a package reference to the project.
-* Notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
+## What Do the Visual Studio Extensions Add
+
+The Telerik UI for .NET MAUI Visual Studio extensions support the following tasks:
+
+- [Project creation]({%slug vs-integration-new-project%}) lets you create a **Telerik .NET MAUI Blank App** or **Telerik .NET MAUI Blank Shell App** that is already configured for Telerik UI for .NET MAUI.
+- [Toolbox support]({%slug toolbox-support%}) lets you add Telerik controls to your .NET MAUI application from the Visual Studio Toolbox.
+- [Scaffolding pages and screens]({%slug maui-vs-scaffoldings%}) lets you generate predefined pages and configure control parameters through a UI.
+- [Document Processing library integration]({%slug document-processing-libraries-overview%}) adds the required package references through a wizard.
+- [License notifications]({%slug set-up-your-license%}) alert you when the Telerik license key is missing or outdated and guide you through updating it.
 
 The Telerik UI for .NET MAUI VS extensions support Visual Studio 2022.
 
-You can get the extension from:
+## How Do You Install the Visual Studio Extensions
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
+Use one of the following installation options:
 
-* The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
+1. Install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions).
+2. Install from Visual Studio:
 
-* [The Telerik UI for .NET MAUI automated installer]({% slug automated-installer %})
+	- Open the **Extensions** tab in Visual Studio.
+	- Search for `Progress Telerik UI for .NET MAUI Extension`.
+	- Select the extension and click **Install**.
 
-To access the VS extensions, go to the **Extensions** > **Telerik** > **Telerik UI for .NET MAUI** menu.
+3. Install through [the Telerik UI for .NET MAUI automated installer]({%slug automated-installer%}).
+
+## Where Do You Find the Extensions in Visual Studio
+
+After installation, open the Telerik UI for .NET MAUI extension menu in Visual Studio:
+
+**Extensions** > **Telerik** > **Telerik UI for .NET MAUI**
+
+From this menu, you can access the Telerik project templates, Toolbox-related features, scaffoldings, and additional integration points.
 
 ![Telerik UI for .NET MAUI Visual Studio Extensions window](images/open-vs-extensions.png)
 
+## What Should You Try First
+
+If you are new to the Visual Studio integration, use this order:
+
+1. Create a new project with the Telerik .NET MAUI project templates.
+2. Open the Toolbox and verify that Telerik controls are available.
+3. Try the scaffolding workflow to add a predefined page or screen.
+4. Confirm that your Telerik license key is installed and up to date.
+
 ## See Also
 
-* [Creating New Projects with Visual Studio]({%slug vs-integration-new-project %})
-* [Toolbox Extension]({%slug toolbox-support %})
+- [Creating New Projects with Visual Studio]({%slug vs-integration-new-project%})
+- [Toolbox Extension]({%slug toolbox-support%})
+- [Scaffolding Pages and Screens]({%slug maui-vs-scaffoldings%})
