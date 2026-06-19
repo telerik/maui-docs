@@ -168,8 +168,6 @@ Use the following client-specific examples to create a working `mcp.json` file. 
           "args": ["-y", "@progress/telerik-maui-mcp@latest"],
           "env": {
             "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
           }
         }
       }
