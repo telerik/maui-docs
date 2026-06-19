@@ -264,6 +264,7 @@ Continue with the following resources after you complete the quick start:
 		description="Use the built-in Telerik font icons to enhance your .NET MAUI application UI.">
 	</article-card>
 </article-card-container>
+@[template](/_contentTemplates/common/see-also.md#see-also)
 
 ## See Also
 
