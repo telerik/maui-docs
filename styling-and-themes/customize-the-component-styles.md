@@ -96,7 +96,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following example customizes drag and reorder visuals and applies them through a custom based-on style:
 
-**5.** Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml`file, for example:
+**5.** Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml` file, for example:
 
 ```xaml
     <DataTemplate x:Key="DataGridColumnHeaderDragVisualTemplate">
