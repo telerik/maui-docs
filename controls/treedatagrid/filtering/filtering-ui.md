@@ -1,7 +1,7 @@
 ---
 title: Filtering UI
 page_title: .NET MAUI TreeDataGrid Documentation - Filtering UI
-description: Review the Telerik .NET MAUI TreeDataGrid Filtering UI documentation article to learn more about the built in Filtering UI functions you can use.
+description: Learn how to use the built-in Filtering UI in the Telerik UI for .NET MAUI TreeDataGrid to filter data interactively per column.
 position: 1
 slug: treedatagrid-filtering-ui
 ---

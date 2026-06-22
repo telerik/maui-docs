@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI TreeDataGrid Overview
-description: .NET MAUI TreeDataGrid is a control
+description: Display and edit hierarchical tabular data in .NET MAUI apps with the Telerik UI TreeDataGrid featuring sorting, filtering, and editing.
 position: 0
 tags: grid, tree data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: treedatagrid-overview
@@ -31,7 +31,7 @@ The .NET MAUI TreeDataGrid provides a number of features and configuration optio
 
 ## Sort and Filter Data
 
-Perform SORT and FILTER operations on your data by using the convenient API of the control. Apply the [sorting]({%slug treedatagrid-sorting%}) and [filtering]({%slug datagrid-filtering-overview%}) operations per column.
+Perform sorting and filtering operations on your data by using the convenient API of the control. Apply the [sorting]({%slug treedatagrid-sorting%}) and [filtering]({%slug treedatagrid-filtering-overview%}) operations per column. You can sort and filter through the built-in UI or programmatically using descriptors.
 
 ## Editing
 
@@ -75,7 +75,7 @@ When the .NET MAUI TreeDataGrid does not have any data (`ItemsSource` is null or
 
 ## Commands
 
-The MAUI TreeDataGrid allows you to add [commands]({%slug treedatagrid-commands-overview %}) to the commands collection, in case you want to execute an additional logic when certain actions occur. You can execute the commands when cell is tapped, double tapped, begins the editing operation, when tapping on the column header, filter the data and more. 
+The MAUI TreeDataGrid allows you to add [commands]({%slug treedatagrid-commands-overview %}) to the commands collection to execute additional logic when certain actions occur. You can execute the commands when a cell is tapped, double-tapped, when an editing operation begins, when tapping on a column header, when filtering data, and more. 
 
 ## Theming and Style
 

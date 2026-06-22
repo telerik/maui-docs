@@ -1,6 +1,6 @@
 ---
 title: Column Headers
-page_title: .NET MAUI DataGrid Documentation - Columns Header
+page_title: .NET MAUI DataGrid Documentation - Column Headers
 description: Learn how to style and customize the text in the Telerik UI for .NET MAUI DataGrid Header by using the properties of the component.
 position: 2
 previous_url: /controls/datagrid/columns/column-header
@@ -10,7 +10,7 @@ slug: datagrid-column-header
 
 # .NET MAUI DataGrid Column Headers
 
-This article will guide you through the usage of the column headers, their customization as well through performing different data operations. Column headers are always visible by default. You can further customize the headers by using the `HeaderStyle` property.
+This article describes how to customize and use column headers when performing different data operations. Column headers are always visible by default. You can further customize them by using the `HeaderStyle` property.
 
 ![DataGrid Column Header](../images/column-header.png)
 
@@ -97,10 +97,6 @@ The following example demonstrates how to apply the `BackgroundColor` property t
 This is the result:
 
 ![DataGrid Header Column Background Color](../columns/images/datagrid-hover-background-color.gif)
-
-## Customize the Column
-
-Customize the column header by using the `HeaderContentTemplate`(of type `DataTemplate`) to achieve the desired full customization of the column. The property demonstrates the ability of the DataGrid to specify and show custom appearance for the column headers.
 
 ## See Also
 

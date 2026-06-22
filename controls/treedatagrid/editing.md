@@ -1,7 +1,7 @@
 ---
 title: Editing
-page_title: .NET MAUI TreeTreeDataGrid Documentation - Editing
-description: Learn how to use the built-in column and custom editors for modifying the data records in the Telerik UI for .NET MAUI TreeTreeDataGrid component.
+page_title: .NET MAUI TreeDataGrid Documentation - Editing
+description: Learn how to use the built-in column and custom editors for modifying data records in the Telerik UI for .NET MAUI TreeDataGrid.
 position: 11
 slug: treedatagrid-editing
 ---
@@ -10,7 +10,7 @@ slug: treedatagrid-editing
 
 The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides built-in editing capabilities, which allow users to modify the data presented in the Grid.
 
-Depending on the [TreeDataGrid column data type]({% slug treedatagrid-columns-overview%}), the TreeDataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
+Depending on the [TreeDataGrid column data type]({% slug treedatagrid-columns-overview%}), the TreeDataGrid provides a relevant editor which allows users to edit the content upon double-clicking (desktop) or double-tapping (mobile) the desired cell.
 
 ## Editing Properties
 
@@ -57,7 +57,7 @@ You can change the visual appearance of each editor through the `CellEditorStyle
 
 ## Additional Resources
 
-- [.NET MAUI TreeDataGrid Product Page](https://www.telerik.com/maui-ui/TreeDataGrid)
+- [.NET MAUI TreeDataGrid Product Page](https://www.telerik.com/maui-ui/treedatagrid)
 - [.NET MAUI TreeDataGrid Forum Page](https://www.telerik.com/forums/maui?tagId=1801)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)
 - [Telerik .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap)

@@ -11,7 +11,7 @@ slug: datagrid-editing
 
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides built-in editing capabilities, which allow users to modify the data presented in the Grid.
 
-Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-column %}), the DataGrid provides a relevant editor which allows users to edit the content upon double-clicking the desired cell.
+Depending on the [DataGrid column data type]({% slug datagrid-columns-boolean-column %}), the DataGrid provides a relevant editor which allows users to edit the content upon double-clicking (desktop) or double-tapping (mobile) the desired cell.
 
 ## Editing Properties
 

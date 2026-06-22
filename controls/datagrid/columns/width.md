@@ -1,7 +1,7 @@
 ---
 title: Columns Width
-meta_title: .NET MAUI DataGrid Documentation - Columns Width
-description: Check our &quot;Columns Width&quot; documentation article for Telerik DataGrid for .NET MAUI.
+page_title: .NET MAUI DataGrid Documentation - Columns Width
+description: Learn how to set fixed, minimum, or maximum width for columns in the Telerik UI for .NET MAUI DataGrid.
 position: 4
 previous_url: /controls/datagrid/columns/datagrid-columns-width
 slug: datagrid-columns-width

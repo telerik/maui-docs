@@ -1,7 +1,7 @@
 ---
 title: Columns Reordering
 page_title: .NET MAUI DataGrid Documentation - Column Reordering
-description: Check our &quot;Reordering&quot; documentation article for Telerik DataGrid for .NET MAUI control.
+description: Learn how to enable and configure column reordering in the Telerik UI for .NET MAUI DataGrid.
 position: 7
 slug: datagrid-columns-reordering
 ---
@@ -12,7 +12,7 @@ The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering featur
 
 ![DataGrid Reordering Desktop](../images/datagrid-reordering-mac.gif)
 
-The following properties are relted to the reordering feature:
+The following properties are related to the reordering feature:
 
 * `CanUserReorderColumns`(`bool`)&mdash;Defines whether the user can reorder the `DataGridColumns`. The default value is `true`.
 * `ColumnReorderIndicatorTemplate`(`DataTemplate`)&mdash;Defines the template that presents the indicator that is displayed between two columns during reordering.

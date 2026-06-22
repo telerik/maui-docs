@@ -30,7 +30,7 @@ The `GroupHeaderStyle` property is of type `Style` and targets the `DataGridGrou
 * `TextFontattributes`(`FontAttributes`)&mdash;Defines the font attributes of the group header's text part.
 * `TextFontFamily`(`string`)&mdash;Defines the font family of the group header's text part.
 * `TextFontSize`(`double`)&mdash;Define the font size of the group header's text part.
-* `AggregatesTextMargin`(`Thickness`)&mdash;Defnes the margin for the aggregates part of the group header. For more details on this, see the [Aggregates]({%slug datagrid-aggregates%}) topic.
+* `AggregatesTextMargin`(`Thickness`)&mdash;Defines the margin for the aggregates part of the group header. For more details on this, see the [Aggregates]({%slug datagrid-aggregates%}) topic.
 * `AggregatesTextFontAttributes`(`FontAttributes`)&mdash;Defines the font attributes for the aggregates part of the group header.
 * `AggregatesTextFontFamily`(`string`)&mdash;Defines the font family for the aggregates part of the group header.
 * `AggregatesTextFontSize`(`double`)&mdash;Define the font size for the aggregates part of the group header.
@@ -39,7 +39,7 @@ The `GroupHeaderStyle` property is of type `Style` and targets the `DataGridGrou
 
 By default, the Button of the group header uses an internal symbol font family. To render text instead of a symbol when the button is expanded or collapsed, set a font family to the `ButtonFontFamily` property and add the text to the `ExpandButtonText` and `CollapseButtonText` properties.
 
-* `ButtonFontAttributes`(`FontAttributes`)&mdash;;Defines the font attributes of the expand and collapse symbol.
+* `ButtonFontAttributes`(`FontAttributes`)&mdash;Defines the font attributes of the expand and collapse symbol.
 * `ButtonFontFamily`(`string`)&mdash;Defines the font family of the expand and collapse symbol.
 * `ButtonFontSize`(`double`) options&mdash;Defines the font size of the expand and collapse symbol.
 * `ButtonMargin`(`Thickness`)&mdash;Defines the margin of the expand and collapse symbol.

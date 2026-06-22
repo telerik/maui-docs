@@ -15,7 +15,7 @@ The tables in the following sections list any differences between the APIs of th
 
 ## Migrate the Namespaces
 
-| Control | Control name | C# Namespace| XAML Namespcace |
+| Control | Control name | XAML Namespace | C# Namespace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin DataGrid | `RadDataGrid` | xmlns:telerikDataGrid="clr-namespace:Telerik.XamarinForms.DataGrid;assembly=Telerik.XamarinForms.DataGrid" | using Telerik.XamarinForms.DataGrid; |
 | .NET MAUI DataGrid | `RadDataGrid` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

@@ -1,7 +1,7 @@
 ---
 title: Column Resizing
 page_title: .NET MAUI DataGrid Documentation - Column Resizing
-description: Check how to resize the columns in the .NET MAUI DataGrid control
+description: Learn how to enable and configure column resizing in the Telerik UI for .NET MAUI DataGrid.
 position: 4
 slug: datagrid-column-resizing
 ---

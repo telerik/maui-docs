@@ -1,7 +1,7 @@
 ---
 title: Programmatic Filtering
 page_title: .NET MAUI TreeDataGrid Documentation - Programmatic Filtering
-description: Programmatic Filtering can be used for external filtering. You could disable the built-in filtering UI and programmatically filter tha data in the TreeDataGrid.
+description: Learn how to filter the Telerik UI for .NET MAUI TreeDataGrid programmatically using filter descriptors for external filtering.
 position: 3
 slug: treedatagrid-programmatic-filtering
 ---
