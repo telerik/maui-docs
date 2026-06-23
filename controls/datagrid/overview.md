@@ -72,7 +72,7 @@ You can [page the data]({%slug datagrid-paging%}) of the DataGrid using the Tele
 
 ## Keyboard Navigation Support
 
-Use [keyboard keys for navigation]({%slug datagrid-keyboard-support%}) in the MAUI DataGrid control. This feature is available on WinUI and MacCatalyst.
+Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on [WinUI]({%slug datagrid-keyboard-support%}) and [MacCatalyst]({%slug datagrid-keyboard-support-mac%}).
 
 ## Row Height
 

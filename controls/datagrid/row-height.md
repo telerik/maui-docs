@@ -26,9 +26,9 @@ The following image shows the difference in the way the DataGrid is rendered wit
 
 ![.NET MAUI DataGrid RowHeight](images/datagrid-row-height.png)
 
-## Customizing Cell Content
+## Styling the Row
 
-For more information on customizing the row style, positioning the text inside the cells, setting the text margins, and defining the text alignment, see the topic about [customizing the content style of the .NET MAUI DataGrid cell]({%slug datagrid-columns-styling%}#cellcontentstyle).
+For more information on styling the row, positioning the text inside the cells, setting the text margins, and defining the text alignment, see the topic about [customizing the .NET MAUI DataGrid row]({%slug datagrid-styling%}#cells-and-rows).
 
 ## Additional Resources
 
