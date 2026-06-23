@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI TreeDataGrid Documentation - Events
-description: Learn about the Telerik UI for .NET MAUI TreeDataGrid events and how to achieve various scenarios upon user interaction such as loading content on demand, binding to data, and more.
+description: Learn about the TreeDataGrid events for handling user interactions such as loading on demand, data binding, and more.
 position: 20
 tags: events
 slug: treedatagrid-events
@@ -9,7 +9,7 @@ slug: treedatagrid-events
 
 # .NET MAUI TreeDataGrid Events
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) component inherits the events from the [DataGrid]({%slug datagrid-overview%}) control a set of events which help users achieve seamless and effective experience when interacting with the component.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) component inherits a set of events from the [DataGrid]({%slug datagrid-overview%}) control, which help users achieve a seamless and effective experience when interacting with the component.
 
 ## Loading Content on Demand
 
@@ -17,7 +17,7 @@ The load-on-demand feature gets implemented through the `LoadOnDemand` event. Th
 * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `LoadOnDemandEventArgs` object, which provides the `IsDataLoaded` (`bool`) property, indicating whether the data is loaded.
 
-For more information, see the topic about [loading data on demand in the .NET MAUI TreeDataGrid]({%slug datagrid-features-loadondemand%}).
+For more information, see the topic about [loading data on demand in the .NET MAUI TreeDataGrid]({%slug treedatagrid-loadondemand%}).
 
 ## Loading Distinct Values
 

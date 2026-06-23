@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: .NET MAUI TreeDataGrid Documentation - Selection
-description: Learn more about how to set the single and multiple selection mode of the Telerik UI for .NET MAUI TreeDataGrid and use the available properties, events, and methods.
+description: Learn how to set single and multiple selection modes in the Telerik UI for .NET MAUI TreeDataGrid and use available properties, events, and methods.
 position: 12
 slug: treedatagrid-selection-overview
 ---
@@ -63,7 +63,7 @@ The TreeDataGrid exposes the `SelectedItem` and `SelectedItems` properties which
 
 Once you make a selection, you can get or modify the collection with the selected items by using the `SelectedItems` property of type `ObservableCollection<object>`. It gets or modifies an `ObservableCollection` of the currently selected items. Their type depends on the applied `SelectionUnit`, that is, `DataGridCellInfo` for a cell and a data item for a row. You can also directly listen to the `CollectionChanged` event of the `SelectedItems`.
 
-The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of the `SelectedItem` depends on the value of the `SelectedUnit`.
+The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of the `SelectedItem` depends on the value of the `SelectionUnit`.
 
 * `Row`&mdash;`SelectedItem` is of type `DataGridCellInfo`.
 * `Cell`&mdash;`SelectedItem` is the same type as the business object.

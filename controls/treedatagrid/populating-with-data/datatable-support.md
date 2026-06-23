@@ -1,7 +1,7 @@
 ---
 title: Binding to DataTable
 page_title: .NET MAUI TreeDataGrid Documentation - DataTable Support
-description: Learn how to bind the Telerik UI for .NET MAUI TreeDataGrid to a DataTable and enable all available features such as filtering, sorting, grouping, CRUD operations, and commands.
+description: Learn how to bind the TreeDataGrid to a DataTable and enable filtering, sorting, CRUD operations, and commands.
 position: 3
 tags: binding, datatable, data, dotnet maui, maui, datagrid
 slug: treedatagrid-datatable-support
@@ -9,7 +9,7 @@ slug: treedatagrid-datatable-support
 
 # .NET MAUI TreeDataGrid Data Binding: Binding to DataTable
 
-The [.NET MAUI TreeDataGrid]({%slug datagrid-overview%}) provides full and seamless support for all its features in the DataTable.
+The [.NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) provides full and seamless support for all its features in the DataTable.
 
 The component enables you to bind it to the DataTable and you can also add, remove, select, and edit DataGrid items, and update the TreeDataGrid `ItemsSource`. All available TreeDataGrid commands and operations, like filtering, sorting, and selection, are fully functioning when the DataGrid is bound to a DataTable.
 

@@ -1,7 +1,7 @@
 ---
 title: Editing Commands
 page_title: .NET MAUI TreeDataGrid Documentation - Editing Commands
-description: Lear how to use the editing commands in TreeDataGrid for .NET MAUI.
+description: Learn how to use editing commands in the Telerik UI for .NET MAUI TreeDataGrid to handle begin, commit, and cancel edit actions.
 position: 2
 slug: treedatagrid-commands-editing
 ---

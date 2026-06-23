@@ -44,7 +44,7 @@ The following example shows the full implementation of the configurations for th
 
 <snippet id='datagrid-currentcell-xaml' />
 
-**4.** Set the style for the `CurrentCellStyle` that is defined in the page'a resources.
+**4.** Set the style for the `CurrentCellStyle` that is defined in the page's resources.
 
 <snippet id='datagrid-current-cell-style' />
 
@@ -67,6 +67,6 @@ The following image shows the end result.
 
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
-- [Using the DataGrid Commands]({%slug datagrid-aggregates%})
+- [Using the DataGrid Commands]({%slug datagrid-commands-overview%})
 - [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
 - [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})

@@ -1,6 +1,6 @@
 ---
 title: Column Footers
-page_title: .NET MAUI TreeDataGrid Documentation - Columns Footer
+page_title: .NET MAUI TreeDataGrid Documentation - Column Footers
 description: Learn how to visualize a column footer in the Telerik TreeDataGrid for .NET MAUI control.
 position: 3
 slug: treedatagrid-column-footer

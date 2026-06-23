@@ -8,7 +8,7 @@ slug: treedatagrid-descriptor
 
 # .NET MAUI TreeDataGrid Item Hierarchy
 
-The TreeDataGrid for MAUI exposes an `ItemDescriptor` proeprty (of type `TreeDataGridItemDescriptor`), which defines the entities that describe an item.
+The TreeDataGrid for MAUI exposes an `ItemDescriptor` property (of type `TreeDataGridItemDescriptor`), which defines the entities that describe an item.
 
 To specify the data items' hierarchy and how each item is visualized, use the `TreeDataGridItemDescriptor` class.
 

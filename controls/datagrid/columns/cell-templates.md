@@ -1,7 +1,7 @@
 ---
 title: Columns Cell Templates
 page_title: .NET MAUI DataGrid Documentation - Columns Cell Templates
-description: Learn how to define cell templates in DataGrid for .NET MAUI columns.
+description: Learn how to define custom cell, edit, and group header templates for columns in the Telerik UI for .NET MAUI DataGrid.
 position: 2
 previous_url: /controls/datagrid/columns/datagrid-columns-cell-templates
 slug: datagrid-cell-templates

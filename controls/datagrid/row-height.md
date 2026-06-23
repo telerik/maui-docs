@@ -1,7 +1,7 @@
 ---
 title: Rows
 page_title: .NET MAUI DataGrid Documentation - Row Height
-description: "Learn more how to set the row height and apply custom settings for positioning the text, setting the text margins, and defining the text alignment when working with the Telerik UI for .NET MAUI DataGrid."
+description: Learn how to set the row height and customize cell content positioning in the Telerik UI for .NET MAUI DataGrid.
 position: 3
 slug: datagrid-row-height
 ---
@@ -12,7 +12,7 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) provides ful
 
 By default, the row height is calculated according to the cell content.
 
-For more information on customizing the row style, positioning the text inside the cells, setting the text margins, and defining the text alignment, see the topic about [customizing the content style of the .NET MAUI DataGrid cell]({%slug datagrid-columns-styling%}#cellcontentstyle).
+## Setting the Row Height
 
 To set the row height, apply the `RowHeight` property of type `double` to the DataGrid instance.
 
@@ -25,6 +25,10 @@ To set the row height, apply the `RowHeight` property of type `double` to the Da
 The following image shows the difference in the way the DataGrid is rendered with and without `RowHeight` specifically set:
 
 ![.NET MAUI DataGrid RowHeight](images/datagrid-row-height.png)
+
+## Styling the Row
+
+For more information on styling the row, positioning the text inside the cells, setting the text margins, and defining the text alignment, see the topic about [customizing the .NET MAUI DataGrid row]({%slug datagrid-styling%}#cells-and-rows).
 
 ## Additional Resources
 

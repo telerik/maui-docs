@@ -1,7 +1,7 @@
 ---
 title: Row Details
 page_title: .NET MAUI TreeDataGrid Documentation - Row Details
-description: Learn how to present additional information about DataGrid rows by using the row details functionality.
+description: Learn how to present additional information about TreeDataGrid rows by using the row details functionality.
 position: 0
 slug: treedatagrid-row-details
 ---

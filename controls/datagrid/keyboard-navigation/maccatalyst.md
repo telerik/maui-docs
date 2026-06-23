@@ -1,7 +1,7 @@
 ---
 title: MacCatalyst
 page_title: .NET MAUI DataGrid Documentation - Keyboard Support on MacCatalyst
-description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DataGrid accessibility standards.
+description: Learn the available keyboard shortcuts for navigating the Telerik UI for .NET MAUI DataGrid on MacCatalyst.
 position: 2
 slug: datagrid-keyboard-support-mac
 ---

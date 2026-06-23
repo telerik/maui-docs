@@ -1,7 +1,7 @@
 ---
 title: Empty Template
 page_title: .NET MAUI TreeDataGrid Documentation - Empty Template
-description: Learn more about the Empty Template property of the TreeDataGrid control.
+description: Learn how to display a custom empty template in the Telerik UI for .NET MAUI TreeDataGrid when ItemsSource is null or empty.
 position: 18
 slug: treedatagrid-empty-template
 ---
@@ -18,10 +18,9 @@ It exposes the following properties:
        - `ItemsSourceNull`&mdash;Displays the empty content view only when the `ItemsSource` is null.
        - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty (has zero items).
 
-> As the TreeDataGrid inhertis from the DataGrid, for a runnable example with empty template scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Empty Template** category. 
+> As the TreeDataGrid inherits from the DataGrid, for a runnable example with empty template scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Empty Template** category. 
 
 ## See Also
 
- - [Filtering]({%slug datagrid-filtering-overview%})
- - [Grouping]({%slug datagrid-grouping-overview%})
- - [Selection]({%slug datagrid-selection-overview%})
+ - [Filtering]({%slug treedatagrid-filtering-overview%})
+ - [Selection]({%slug treedatagrid-selection-overview%})

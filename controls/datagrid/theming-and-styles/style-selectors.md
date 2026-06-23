@@ -1,7 +1,7 @@
 ---
 title: Style Selectors
 page_title: .NET MAUI DataGrid Documentation - Style Selectors
-description: Check our &quot;Style Selectors&quot; documentation article for Telerik DataGrid for .NET MAUI control.
+description: Learn how to use style selectors to apply conditional styles to rows and cells in the Telerik UI for .NET MAUI DataGrid.
 position: 3
 previous_url: /controls/datagrid/theming-and-styles/datagrid-style-selectors
 slug: datagrid-style-selectors
@@ -27,7 +27,7 @@ To apply a `RowBackgroundStyleSelector` you have to:
 1. Create a custom class that inherits from `IStyleSelector`. 
 1. Implement the `SelectStyle` method.
 
-The object item of the `SelectStyle` method is of type `DataGridRowInfo`. The `DataGridRowInfo` represents a class that provides information for each row in DataGrid and exposes the follwoing properties:
+The object item of the `SelectStyle` method is of type `DataGridRowInfo`. The `DataGridRowInfo` represents a class that provides information for each row in DataGrid and exposes the following properties:
 
 * `Item` (`object`)&mdash;Gets the business object associated with the row.
 * `IsRowDetails` (`bool`)&mdash;Gets a value that specifies whether the row is RowDetail.

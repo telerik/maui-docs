@@ -1,7 +1,7 @@
 ---
 title: Sorting
 page_title: .NET MAUI DataGrid Documentation - Sorting
-description: "Learn how to implement the sorting functionality of the Telerik UI for .NET MAUI DataGrid through the UI or by using programmatic sorting over a custom or a defined key which is a property from the model."
+description: Learn how to sort DataGrid data through the UI or programmatically using property or custom sort descriptors.
 position: 12
 slug: datagrid-sorting-overview
 ---
@@ -16,10 +16,10 @@ To sort through the UI, click or tap the column header. `UserSortMode` defines h
 
 The `UserSortMode` has the following options: 
 
-* (Default) `Auto`
-* `Multiple`
-* `None`
-* `Single`
+* (Default) `Auto`&mdash;Sorting is applied according to the default platform behavior.
+* `Multiple`&mdash;Allows sorting by multiple columns simultaneously.
+* `None`&mdash;Disables sorting through the UI.
+* `Single`&mdash;Allows sorting by only one column at a time.
 
 You can also enable or disable the sorting of a specific column and define a value which indicates whether the user can sort the data by the column values by using the `CanUserSort` (bool) property.
 

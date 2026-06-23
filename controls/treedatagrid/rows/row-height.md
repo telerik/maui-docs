@@ -1,7 +1,7 @@
 ---
 title: Row Height
 page_title: .NET MAUI TreeDataGrid Documentation - Row Height
-description: Learn more how to set the row height and apply custom settings for positioning the text, setting the text margins, and defining the text alignment when working with the Telerik UI for .NET MAUI TreeDataGrid.
+description: Learn how to set row height and customize text positioning, margins, and alignment in the .NET MAUI TreeDataGrid.
 position: 3
 slug: treedatagrid-row-height
 ---

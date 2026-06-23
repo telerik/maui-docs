@@ -16,7 +16,7 @@ To show the Row Details, you can use the following exposed options:
 
 - The default `DataGridToggleRowDetailsColumn` column &mdash;Allows showing and hiding the row details for an item. For additional information, refer to the DataGrid [Toggle Row Details Column]({%slug datagrid-columns-toggle-column %})
 
-- For example, on a selection without using the default column. For this case you need a custom implementation. 
+- Programmatically through the `ExpandedRowDetails` collection&mdash;for example, expanding row details on selection. For this case you need a custom implementation. 
 
 Here is a sample implementation inside the DataGrid `SelectionChanged` event:
 

@@ -1,7 +1,7 @@
 ---
 title: Editing Commands
 page_title: .NET MAUI DataGrid Documentation - Editing Commands
-description: Check our &quot;Editing Commands&quot; documentation article for Telerik DataGrid for .NET MAUI control.
+description: Learn how to use editing commands in the Telerik UI for .NET MAUI DataGrid to handle begin, commit, and cancel edit actions.
 position: 2
 slug: datagrid-commands-editing
 ---
@@ -28,7 +28,7 @@ Here is an example how the DataGrid `Editing` commands work.
 
 <snippet id='datagrid-commands-editing-businessobject'/>
 
-**2.** Chen, create a `ViewModel` with a collection of Data objects:
+**2.** Then, create a `ViewModel` with a collection of Data objects:
 
 <snippet id='datagrid-commands-editing-viewmodel'/>
 

@@ -1,7 +1,7 @@
 ---
 title: Visual Structure
 page_title: .NET MAUI DataGrid Documentation - DataGrid Visual Structure
-description: Learn more about the visual elements used in the Telerik UI for .NET MAUI DataGrid control.
+description: Learn about the visual elements and structure of the Telerik UI for .NET MAUI DataGrid component.
 position: 1
 slug: datagrid-visual-structure
 ---
@@ -29,3 +29,9 @@ The following image shows the anatomy of the DataGrid.
 - **Column**&mdash;Represents the column in the DataGrid.
 - **Column Header Text**&mdash;Represents the header text in the column.
 - **ScrollBar**&mdash;Represents the ScrollBar.
+
+## See Also
+
+- [Getting Started with the .NET MAUI DataGrid]({%slug datagrid-getting-started%})
+- [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
+- [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})

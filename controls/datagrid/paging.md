@@ -1,7 +1,7 @@
 ---
 title: Paging
-page_title: .NET MAUI DataPager Documentation - Paging Support
-description: Learn more about how to add paging functionality to the DataGrid for .NET MAUI.
+page_title: .NET MAUI DataGrid Documentation - Paging Support
+description: Learn how to add paging support to the Telerik UI for .NET MAUI DataGrid using the DataPager control.
 position: 9
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: datagrid-paging

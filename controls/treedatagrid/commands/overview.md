@@ -1,14 +1,14 @@
 ---
 title: Overview
 page_title: .NET MAUI TreeDataGrid Documentation - Overview
-description: Review the commands the TreeDataGrid inherits from the DataGrid for .NET MAUI control.
+description: Learn how to use commands in the Telerik UI for .NET MAUI TreeDataGrid to execute custom logic when grid actions occur.
 position: 0
 slug: treedatagrid-commands-overview
 ---
 
 # .NET MAUI TreeDataGrid Commands
 
-The command design-pattern is very important and widely used in the XAML and MVVM world. The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) strictly follows these best practices and provides an intuitive and an easy-to-use set of APIs that allow different aspects of the DataGrid behavior to be handled and/or completely overridden.
+The command design-pattern is very important and widely used in the XAML and MVVM world. The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) strictly follows these best practices and provides an intuitive and easy-to-use set of APIs that allow different aspects of the TreeDataGrid behavior to be handled and/or completely overridden.
 
 The DataGrid exposes a `Commands` collection that allows you to register custom commands with each control instance through the `RadDataGrid.Commands` property:
 
@@ -54,8 +54,8 @@ The table below shows all commands in the DataGrid control and for each of the a
 | `KeyDown` | `KeyboardInfo` |
 | `ToggleRowDetailsButtonTap` | the `type` is the data model |
 
->tip For an outline of all TreeDataGrid features review the [.NET MAUI DataGrid Overview]({%slug treedatagrid-overview%}) article.
+>tip For an outline of all TreeDataGrid features, review the [.NET MAUI TreeDataGrid Overview]({%slug treedatagrid-overview%}) article.
 
 ## See Also
 
-- [Editing Command]({%slug datagrid-commands-editing%})
+- [Editing Command]({%slug treedatagrid-commands-editing%})

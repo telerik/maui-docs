@@ -1,7 +1,7 @@
 ---
 title: Boolean Column
 page_title: .NET MAUI DataGrid Documentation - Boolean Column
-description: Check our &quot;Boolean Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to use the Boolean column in the Telerik UI for .NET MAUI DataGrid to display and edit Boolean data.
 position: 2
 slug: datagrid-columns-boolean-column
 ---

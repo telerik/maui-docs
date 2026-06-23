@@ -1,14 +1,14 @@
 ---
 title: Filter Control Template
 page_title: .NET MAUI TreeDataGrid Documentation - Filter Control Template
-description: Review the Telerik .NET MAUI TreeDataGrid Filter Control Template documentation article to learn more about applying custom filter to the DataGrid using FilterControlTemplate property.
+description: Learn how to apply a custom filter control to a TreeDataGrid column using the FilterControlTemplate property in .NET MAUI.
 position: 2
 slug: treedatagrid-filter-control-template
 ---
 
 # Filter Control Template
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug datagrid-overview%}) inherits the filtering from the DataGrid through the Filtering UI which enables the user to quickly filter the displayed data. 
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) inherits the filtering functionality from the DataGrid through the Filtering UI, which enables the user to quickly filter the displayed data. 
 
 To customize the built-in Filtering UI for a concrete column, use the `FilterControlTemplate` property of the typed columns (text, boolean, numeric, date, time, and picker columns). 
 

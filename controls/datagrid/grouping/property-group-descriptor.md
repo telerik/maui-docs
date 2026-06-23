@@ -1,7 +1,7 @@
 ---
 title: Property Group Descriptor
 page_title: .NET MAUI DataGrid Documentation - Property Group Descriptor
-description: "Review the Telerik .NET MAUI DataGrid Property Group Descriptor documentation article to learn more about the property grouping function you can use."
+description: Learn how to group data in the Telerik UI for .NET MAUI DataGrid using PropertyGroupDescriptor with a property from the model.
 position: 2
 slug: datagrid-property-group-descriptor
 ---

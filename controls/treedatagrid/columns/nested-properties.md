@@ -1,7 +1,7 @@
 ---
 title: Nested Properties
 page_title: .NET MAUI TreeDataGrid Documentation - Nested Properties Support
-description: Check our &quot;Nested Properties&quot; documentation article for Telerik TreeDataGrid for .NET MAUI.
+description: Learn how to bind TreeDataGrid columns to nested properties of the underlying data object in .NET MAUI.
 position: 5
 slug: treedatagrid-nested-properties
 ---

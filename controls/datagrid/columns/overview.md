@@ -1,7 +1,7 @@
 ---
 title: Defining Columns
 page_title: .NET MAUI DataGrid Documentation - Defining Columns
-description: Check our &quot;Overview&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to define columns in the Telerik UI for .NET MAUI DataGrid automatically, manually, or in mixed mode, and control column headers visibility.
 position: 0
 previous_url: /controls/datagrid/columns/datagrid-columns-overview
 slug: datagrid-columns-overview
@@ -89,6 +89,14 @@ Check the result in the image below:
 ![Telerik .NET MAUI DataGrid Defining Columns](images/datagrid-columns.png)
 
 > For a runnable example with the DataGrid columns, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > Columns** category.
+
+## Column Headers Visibility
+
+The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is true. Set it to `False` to hide the header row entirely. 
+
+```XAML
+<telerik:RadDataGrid ShowColumnHeaders="False" />
+```
 
 ## Columns Features
 
