@@ -12,8 +12,8 @@ Use the Telerik UI for .NET MAUI Button `Command` property when you want to trig
 
 The Button exposes the following command-related properties:
 
-- `Command` of type `ICommand` defines the command that runs when the button is activated.
-- `CommandParameter` of type `object` defines the parameter passed to that command.
+- `Command` (`ICommand`)&mdash;Defines the command that runs when the button is activated.
+- `CommandParameter` (`object`)&mdash;Defines the parameter passed to that command.
 
 ## When Should You Use Button Command Binding
 

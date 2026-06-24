@@ -8,7 +8,7 @@ slug: gridsplitter-overview
 
 # .NET MAUI GridSplitter Overview
 
-Use the Telerik UI for .NET MAUI GridSplitter to let users resize rows or columns in a `Grid` layout by dragging a splitter. This is useful when you want the layout to adapt to different content sizes or when you want users to control how much space each region receives.
+The Telerik UI for .NET MAUI GridSplitter lets users resize rows or columns in a `Grid` layout by dragging a splitter. This is useful when you want the layout to adapt to different content sizes or when you want users to control how much space each region receives.
 
 The GridSplitter automatically detects the target rows or columns that it should resize based on its position in the `Grid`. You can also control whether it resizes rows or columns and which neighboring definitions it adjusts while the user drags it.
 

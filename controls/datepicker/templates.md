@@ -13,7 +13,7 @@ Use the Telerik UI for .NET MAUI DatePicker templates to customize the placehold
 
 ## Which DatePicker Template Should You Use
 
-Use the following templates depending on the part of the control that you want to customize:
+Use the following templates depending on the part of the control you want to customize:
 
 | Template | Type | Use It When |
 |---|---|---|
@@ -54,7 +54,7 @@ The following example shows how to use the default `FooterTemplate`:
 
 <snippet id='datepicker-footer-default-template' />
 
-## How Do You Apply All Templates to One DatePicker
+## Example with Default Templates
 
 After you define the templates in your page resources, assign them to the DatePicker and its selector settings:
 
@@ -71,13 +71,7 @@ After you define the templates in your page resources, assign them to the DatePi
 </telerik:RadDatePicker>
 ```
 
-In this example:
-
-- `PlaceholderTemplate` customizes the empty state of the control.
-- `DisplayTemplate` customizes the selected date area.
-- `HeaderTemplate` and `FooterTemplate` customize the popup content.
-
-## Customization Examples
+## Customization Example
 
 The following example builds a customized DatePicker step by step.
 
@@ -120,7 +114,6 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 The following image shows customized header and footer templates:
 
 ![DatePicker Header and Footer Templates](images/datepicker_header_footer_template.png)
-
 
 ## See Also
 

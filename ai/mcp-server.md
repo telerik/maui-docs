@@ -111,8 +111,7 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
     }
     ```
 
->note
-> Use a license file path unless you need to share settings across systems. When your Telerik license changes, [update the license key]({%slug set-up-your-license%}#updating-your-license-key) before you restart the MCP client.
+>note Use a license file path unless you need to share settings across systems. When your Telerik license changes, [update the license key]({%slug set-up-your-license%}#updating-your-license-key) before you restart the MCP client.
 
 ## MCP Clients Configuration
 
@@ -127,8 +126,7 @@ Use the following client-specific examples to create a working `mcp.json` file. 
 <TabStrip>
 <TabStripTab title="Visual Studio">
 
->note
-> Early Visual Studio 17.14 versions require the Copilot Chat window to stay open while the solution loads. For platform-specific details, see [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers).
+>note Early Visual Studio 17.14 versions require the Copilot Chat window to stay open while the solution loads. For platform-specific details, see [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers).
 
 1. Add an `.mcp.json` file to either of the following locations:
 
@@ -184,8 +182,7 @@ If you prefer to pass the license value directly, replace `TELERIK_LICENSE_PATH`
 </TabStripTab>
 <TabStripTab title="Visual Studio Code">
 
->note
-> Visual Studio Code `1.102.1` or later is required. For platform-specific details, see [Use MCP servers in Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
+>note Visual Studio Code `1.102.1` or later is required. For platform-specific details, see [Use MCP servers in Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
 
 The basic setup in Visual Studio Code involves the following steps:
 
@@ -247,8 +244,7 @@ If you prefer to pass the license value directly, replace `TELERIK_LICENSE_PATH`
 </TabStripTab>
 <TabStripTab title="Cursor">
 
->note
-> For Cursor-specific details, see [Model Context Protocol in Cursor](https://docs.cursor.com/context/mcp).
+>note For Cursor-specific details, see [Model Context Protocol in Cursor](https://docs.cursor.com/context/mcp).
 
 Create a `.cursor/mcp.json` file in your workspace root (or user folder for global setup):
 

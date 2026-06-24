@@ -86,17 +86,17 @@ The next steps illustrate how to customize the theme styles of the DataGrid cont
 
 1. Add the `telerik` namespace:
 
-```xaml
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```xaml
+ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
-1. Open `\TelerikTheming\Styles\DataGrid.xaml` and copy the templates and styles you want to modify.
+3. Open `\TelerikTheming\Styles\DataGrid.xaml` and copy the templates and styles you want to modify.
 1. Paste the copied definitions into `Resources\Styles\CustomGridStyles.xaml`.
 1. Update the copied definitions with your design values.
 
 The following example customizes drag and reorder visuals and applies them through a custom based-on style:
 
-**5.** Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml` file, for example:
+1. Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml` file, for example:
 
 ```xaml
     <DataTemplate x:Key="DataGridColumnHeaderDragVisualTemplate">
@@ -126,7 +126,7 @@ The following example customizes drag and reorder visuals and applies them throu
     </Style>
 ```
 
-1. In `MainPage.xaml`, apply the custom style to the DataGrid declaration.
+2. In `MainPage.xaml`, apply the custom style to the DataGrid declaration.
 
 ```xaml
 <telerik:RadDataGrid x:Name="grid"
@@ -138,7 +138,7 @@ The following example customizes drag and reorder visuals and applies them throu
 </telerik:RadDataGrid>
 ```
 
-1. In `App.xaml.cs`, merge the custom dictionary after the Telerik theme dictionary.
+3. In `App.xaml.cs`, merge the custom dictionary after the Telerik theme dictionary.
 
 ```C#
     public App()

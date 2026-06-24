@@ -53,7 +53,7 @@ The following example shows how to use the default `FooterTemplate`:
 
 <snippet id='datepicker-footer-default-template' />
 
-## How Do You Apply All Templates to One DateTimePicker
+## Example with Default Templates
 
 After you define the templates in your page resources, assign them to the DateTimePicker and its selector settings:
 
@@ -71,13 +71,7 @@ After you define the templates in your page resources, assign them to the DateTi
 </telerik:RadDateTimePicker>
 ```
 
-In this example:
-
-- `PlaceholderTemplate` customizes the empty state of the control.
-- `DisplayTemplate` customizes the selected value area.
-- `HeaderTemplate` and `FooterTemplate` customize the popup content.
-
-## Customization Examples
+## Customization Example
 
 The following example builds a customized DateTimePicker step by step.
 

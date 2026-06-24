@@ -29,20 +29,14 @@ If you want each value to appear as a separate category regardless of the time d
 
 Use the following properties to configure `DateTimeContinuousAxis`:
 
-- `Minimum` defines the start value of the timeline. Set it to `DateTime.Minimum` to clear the value and let the axis determine the start automatically from the smallest available date.
-- `Maximum` defines the end value of the timeline. Set it to `DateTime.Maximum` to clear the value and let the axis determine the end automatically from the greatest available date.
-- `PlotMode` defines how data points are positioned relative to the time slots. The available values are `BetweenTicks` and `OnTicks`.
-- `MajorStep` defines the interval between adjacent time slots. Set it to `double.PositiveInfinity` to clear the value and let the axis calculate it automatically from the smallest difference between any two dates.
-- `MajorStepUnit` defines which `DateTime` component the `MajorStep` value refers to: `Year`, `Quarter`, `Month`, `Week`, `Day`, `Hour`, `Minute`, `Second`, or `Millisecond`.
-- `GapLength` defines the distance in logical units `[0,1]` between adjacent time slots. The default value is `0.3`. For example, when clustered bar series should touch each other, set `GapLength` to `0`.
+- `Minimum`&mdash;Defines the start value of the timeline. Set it to `DateTime.Minimum` to clear the value and let the axis determine the start automatically from the smallest available date.
+- `Maximum`&mdash;Defines the end value of the timeline. Set it to `DateTime.Maximum` to clear the value and let the axis determine the end automatically from the greatest available date.
+- `PlotMode`&mdash;Defines how data points are positioned relative to the time slots. The available values are `BetweenTicks` and `OnTicks`.
+- `MajorStep`&mdash;Defines the interval between adjacent time slots. Set it to `double.PositiveInfinity` to clear the value and let the axis calculate it automatically from the smallest difference between any two dates.
+- `MajorStepUnit`&mdash;Defines which `DateTime` component the `MajorStep` value refers to: `Year`, `Quarter`, `Month`, `Week`, `Day`, `Hour`, `Minute`, `Second`, or `Millisecond`.
+- `GapLength`&mdash;Defines the distance in logical units `[0,1]` between adjacent time slots. The default value is `0.3`. For example, when clustered bar series should touch each other, set `GapLength` to `0`.
 
-## How Does the Axis Behave
-
-When the chart renders a `DateTimeContinuousAxis`:
-
-- Each data point is placed according to its `DateTime` value.
-- Missing dates can produce visible empty slots in the timeline.
-- The axis interval can be calculated automatically or fixed with `MajorStep` and `MajorStepUnit`.
+> The axis interval can be calculated automatically or fixed with `MajorStep` and `MajorStepUnit`.
 
 ## Example
 

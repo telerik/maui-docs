@@ -10,24 +10,17 @@ slug: calendar-day-styling
 
 Use the .NET MAUI Calendar day styling API to customize both the day-of-week headers in the month view and the individual day cells. Choose `DayNameLabelStyle` when you want one style for all day names, and use `DayStyleSelector` when different days need different styles.
 
-## Choose a Day Styling Approach
-
-Use the following properties based on what you want to style:
-
-* Use `DayNameLabelStyle` (`Style` with target type `Label`) to style the day-of-week headers such as Monday, Tuesday, and Wednesday in the month view.
-* Use `DayStyleSelector` (`CalendarStyleSelector`) to apply different styles to individual day cells in the month view based on your custom logic.
-
 ## Style the Day Names in the Month View
 
-Use `DayNameLabelStyle` to apply the same appearance to all day names in the month view. This property affects the day headers only. It does not style the individual date cells.
+Use `DayNameLabelStyle` (`Style` with target type `Label`) to apply the same appearance to all day names in the month view. This property affects the day headers only. It does not style the individual date cells.
 
 The following example shows how to style the day names:
 
-### Define the Calendar
+1. Define the Calendar
 
 <snippet id='calendar-daynames-styling'/>
 
-### Define the Day Name Style
+2. Define the Day Name Style
 
 <snippet id='calendar-daynamelabel-style'/>
 
@@ -42,15 +35,15 @@ The `DayStyleSelector` property is of type `CalendarStyleSelector` and selects t
 
 The following example shows how to style day cells with `DayStyleSelector`:
 
-### Define the Calendar
+1. Define the Calendar
 
 <snippet id='calendar-styleselectors-daystyleselector-usage'/>
 
-### Define the Styles in the Page Resources
+2. Define the Styles in the Page Resources
 
 <snippet id='calendar-styleselectors-daystyleselector-definition'/>
 
-### Add the `CustomStyleSelector` Class
+3. Add the `CustomStyleSelector` Class
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 

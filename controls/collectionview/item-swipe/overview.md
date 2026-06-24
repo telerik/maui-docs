@@ -30,12 +30,12 @@ Use this feature when you want quick item-level actions without opening a separa
 
 Use the following `RadCollectionView` properties to configure item swipe:
 
-- `IsItemSwipeEnabled`(`bool`)&mdash;Indicates whether the items of the CollectionView can be swiped. The default value is `False`.
-- `SwipeThreshold`(`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature.
-- `StartSwipeLength`(`double`)&mdash;Defines how far the item moves and remains open when the start swipe template is revealed.
-- `EndSwipeLength`(`double`)&mdash;Defines how far the item moves and remains open when the end swipe template is revealed.
-- `StartSwipeTemplate`(`DataTemplate`)&mdash;Defines the content shown for a swipe left in vertical orientation or a swipe up in horizontal orientation.
-- `EndSwipeTemplate`(`DataTemplate`)&mdash;Defines the content shown for a swipe right in vertical orientation or a swipe down in horizontal orientation.
+- `IsItemSwipeEnabled` (`bool`)&mdash;Indicates whether the items of the CollectionView can be swiped. The default value is `False`.
+- `SwipeThreshold` (`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature.
+- `StartSwipeLength` (`double`)&mdash;Defines how far the item moves and remains open when the start swipe template is revealed.
+- `EndSwipeLength` (`double`)&mdash;Defines how far the item moves and remains open when the end swipe template is revealed.
+- `StartSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe left in vertical orientation or a swipe up in horizontal orientation.
+- `EndSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe right in vertical orientation or a swipe down in horizontal orientation.
 
 If you want different actions on each side, define both swipe templates and set lengths that match the size of the content inside each template.
 
@@ -43,7 +43,7 @@ If you want different actions on each side, define both swipe templates and set 
 
 Use the following `RadCollectionView` method when you want to return the swiped item to its default position after the user taps an action:
 
-- void `EndItemSwipe`(`bool` `isAnimated`)&mdash;Moves the swiped item to its default position.
+- void `EndItemSwipe` (`bool` `isAnimated`)&mdash;Moves the swiped item to its default position.
 
 Call `EndItemSwipe` after the action completes when you want to close the swipe programmatically.
 

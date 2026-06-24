@@ -16,7 +16,7 @@ Use this overview to choose the Telerik UI for .NET MAUI demo app that matches y
 {% include cta-panel-maui-overview.html %}
 {% endif %}
 
-## Which .NET MAUI Sample App Should You Start With
+## .NET MAUI Apps
 
 Start with the app that matches how you want to learn: scenario-driven workflows, isolated control samples, AI integration, or a real-world dashboard. The following demo apps provide a focused path into the Telerik UI for .NET MAUI component suite:
 
@@ -68,7 +68,7 @@ Use this comparison table when you want to choose the most useful starting point
 
 If you want fast control reference material, start with the SDKBrowser App. If you want to study app structure, polished UX flows, or production-style composition, begin with the Controls Samples App or the Crypto Tracker Demo App.
 
-## How Do You Download and Run the .NET MAUI Sample Apps
+## Download and Run the .NET MAUI Sample Apps
 
 Open the `Examples` folder from your Telerik UI for .NET MAUI installation or downloaded `.zip` package, switch to the .NET version you want to target, and then build the app locally.
 
@@ -91,9 +91,4 @@ To run a sample app:
 
 ## Next Steps
 
-Use the following resources to continue from this overview:
-
-- Review the [Controls Samples App overview](/demos-and-sample-apps/controls-showcase-app) if you want scenario-based demos that combine multiple controls.
-- Browse the [SDKBrowser App](/demos-and-sample-apps/sdkbrowser-app) if you want isolated control examples in C# and XAML.
-- Explore the [Telerik UI for .NET MAUI demo applications](https://www.telerik.com/maui-ui/demo-apps/controls) if you want to preview the sample experiences before you download them.
-- Learn more about [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui) if you are evaluating the full component suite.
+@[template](/_contentTemplates/common/see-also.md#see-also)

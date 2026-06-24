@@ -32,13 +32,11 @@ The following style properties apply to the spinner controls inside the popup or
 
 ## Namespaces
 
-When you use `SelectionHighlightStyle` or define a `Style` with target type `telerik:TabViewHeaderItem`, add the following namespace:
+When the style targets a Telerik control, use the following namespace in your XAML page:
 
 ```xaml
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
-Use the same namespace for `SpinnerStyle`.
 
 ## Styling Examples
 

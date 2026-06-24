@@ -25,8 +25,8 @@ Use the following areas depending on the behavior you want to change:
 
 Use the placeholder properties when you want to guide the user before input or selection:
 
-- `Placeholder` of type `string` sets the guidance text shown when the input is empty or when the selected item or items are cleared.
-- `PlaceholderColor` of type `Color` defines the color of the placeholder text.
+- `Placeholder` (`string`)&mdash;Sets the guidance text shown when the input is empty or when the selected item or items are cleared.
+- `PlaceholderColor` (`Color`)&mdash;Defines the color of the placeholder text.
 
 The following example sets the `Placeholder` property:
 
@@ -53,7 +53,7 @@ Use the `Text` property of type `string` when you want to set or read the visibl
 
 ## Spell Checking
 
-Use `IsSpellCheckEnabled` of type `bool` to control whether spell checking is enabled in the ComboBox input. The default value is `False`. When spell checking is enabled, misspellings are indicated in the input field.
+Use `IsSpellCheckEnabled` (`bool`) to control whether spell checking is enabled in the ComboBox input. The default value is `False`. When spell checking is enabled, misspellings are indicated in the input field.
 
 The following example applies `IsSpellCheckEnabled`:
 
@@ -61,7 +61,7 @@ The following example applies `IsSpellCheckEnabled`:
 
 ## Clear Button Visibility
 
-Use `IsClearButtonVisible` of type `bool` to show or hide the clear **X** button. The default value is `True`.
+Use `IsClearButtonVisible` (`bool`) to show or hide the clear **X** button. The default value is `True`.
 
 The following example sets `IsClearButtonVisible`:
 
@@ -78,13 +78,13 @@ The following image shows the result:
 
 Use the following properties to control how the drop-down opens, closes, and appears:
 
-- `DropDownWidth` of type `double` defines the width of the drop-down.
-- `DropDownHeight` of type `double` defines the height of the drop-down.
-- `DropDownMaxHeight` of type `double` defines the maximum height of the drop-down. Set this property when you want the drop-down to stay within a known height range. If you use both `DropDownMaxHeight` and `DropDownHeight`, the maximum height must be larger than the fixed height.
-- `DropDownVerticalOffset` of type `double` defines the vertical offset of the drop-down relative to the control.
-- `IsDropDownOpen` of type `bool` defines whether the drop-down is open. The default value is `True`.
-- `IsDropdownClosedOnSelection` of type `bool` defines whether the drop-down closes when the user selects or clears an item. The default value is `True`.
-- `OpenOnFocus` of type `bool` defines whether the drop-down opens when the control receives focus. The default value is `True`. This property applies to the editable ComboBox.
+- `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
+- `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
+- `DropDownMaxHeight` (`double`)&mdash;Defines the maximum height of the drop-down. Set this property when you want the drop-down to stay within a known height range. If you use both `DropDownMaxHeight` and `DropDownHeight`, the maximum height must be larger than the fixed height.
+- `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down relative to the control.
+- `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down is open. The default value is `True`.
+- `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down closes when the user selects or clears an item. The default value is `True`.
+- `OpenOnFocus` (`bool`)&mdash;Defines whether the drop-down opens when the control receives focus. The default value is `True`. This property applies to the editable ComboBox.
 
 The following example sets `DropDownWidth`:
 
@@ -115,7 +115,7 @@ The following example sets `OpenOnFocus`:
 
 ## Keyboard
 
-Use the `Keyboard` property of type `Microsoft.Maui.Keyboard` to define which on-screen keyboard the device shows. The default value is `Text`.
+Use the `Keyboard` (`Microsoft.Maui.Keyboard`)property to define which on-screen keyboard the device shows. The default value is `Text`.
 
 >note
 > For a ComboBox drop-down configuration example, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **ComboBox** > **Features**.

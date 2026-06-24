@@ -11,16 +11,10 @@ slug: datepicker-date-range
 
 Use the Telerik UI for .NET MAUI DatePicker date-range settings when you want users to select a date only within a specific period. This is useful for scenarios such as booking windows, reporting periods, or restricting the control to valid business dates.
 
-## Which Properties Control the Date Range
-
 Use the following DatePicker properties to define the available date range:
 
-- `MinimumDate` of type `DateTime` defines the first available date in the range. The default value is `DateTime(2000, 1, 1)`.
-- `MaximumDate` of type `DateTime` defines the last available date in the range. The default value is `DateTime(2099, 12, 31, 23, 59, 59)`.
-
-Set both properties when you want to define a closed date interval that users can select from.
-
-## When Should You Use a Date Range
+- `MinimumDate` (`DateTime`)&mdash;Defines the first available date in the range. The default value is `DateTime(2000, 1, 1)`.
+- `MaximumDate` (`DateTime`)&mdash;Defines the last available date in the range. The default value is `DateTime(2099, 12, 31, 23, 59, 59)`.
 
 Use a date range when you want to:
 
@@ -28,7 +22,7 @@ Use a date range when you want to:
 - Prevent users from selecting dates outside a business rule.
 - Guide users to a valid start and end period for data entry.
 
-## How Do You Set the Date Range
+## Example with Date Range
 
 The following example defines a DatePicker that allows selection only within the 2020 calendar year.
 
@@ -55,14 +49,6 @@ In this configuration:
 The following image shows the result:
 
 ![DatePicker Date Range](images/datepicker-date-range.png)
-
-## Best Practices
-
-Use the following guidelines when you configure a date range:
-
-- Set both `MinimumDate` and `MaximumDate` when the valid range is known in advance.
-- Make sure `MinimumDate` is earlier than `MaximumDate`.
-- Combine date ranges with a clear `DisplayStringFormat` so the selected value is easy to read.
 
 ## See Also
 

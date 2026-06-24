@@ -24,9 +24,9 @@ Use `AreaSeries` when you want to:
 
 The `AreaSeries` exposes the following properties:
 
-- `Fill` defines the fill of the area.
-- `Stroke` defines the color of the series line.
-- `StrokeThickness` defines the width of the series line.
+- `Fill`&mdash;Defines the fill of the area.
+- `Stroke`&mdash;Defines the color of the series line.
+- `StrokeThickness`&mdash;Defines the width of the series line.
 
 ## Area Series Example
 
