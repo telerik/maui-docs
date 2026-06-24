@@ -1,7 +1,7 @@
 ---
 title: Empty Template
 page_title: .NET MAUI DataGrid Documentation - Empty Template
-description: Learn more about the Empty Template property of the DataGrid control.
+description: Learn how to display a custom empty template in the Telerik UI for .NET MAUI DataGrid when ItemsSource is null or empty.
 position: 14
 slug: datagrid-empty-template
 ---
@@ -19,7 +19,7 @@ It exposes the following properties:
        - `ItemsSourceNullOrEmpty`&mdash;Displays the empty content view when `ItemsSource` is null or when the source is empty(has zero items).
 
 
-## Example:
+## Example
 
 **1.** Add DataGrid definition in XAML:
 
@@ -31,6 +31,6 @@ It exposes the following properties:
 
 ## See Also
 
- - [Filtering]({%slug datagrid-filtering-overview%})
- - [Grouping]({%slug datagrid-grouping-overview%})
- - [Selection]({%slug datagrid-selection-overview%})
+- [Filtering]({%slug datagrid-filtering-overview%})
+- [Grouping]({%slug datagrid-grouping-overview%})
+- [Selection]({%slug datagrid-selection-overview%})

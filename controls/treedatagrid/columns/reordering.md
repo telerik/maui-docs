@@ -55,7 +55,7 @@ The TreeDataGrid inherits the following events related to the DataGrid reorderin
         - `NewIndex` (`int`) &mdash;Gets the new index of the column that has been reordered. The `NewIndex` is the new index of the item inside the `FrozenColumns` or `UnfrozenColumns` collection, depending on the value of `Column.IsFrozen`. 
 
 
-> As the TreeDataGrid inherits from DataGrid, ror the runnable example representing the Drag Templates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Columns**.
+> As the TreeDataGrid inherits from DataGrid, for the runnable example representing the Drag Templates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Columns**.
 
 ## See Also
 

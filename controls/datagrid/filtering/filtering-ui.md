@@ -1,7 +1,7 @@
 ---
 title: Filtering UI
 page_title: .NET MAUI DataGrid Documentation - Filtering UI
-description: "Review the Telerik .NET MAUI DataGrid Filtering UI documentation article to learn more about the built in Filtering UI functions you can use."
+description: Learn how to use the built-in Filtering UI in the Telerik UI for .NET MAUI DataGrid to filter data interactively per column.
 position: 1
 slug: datagrid-filtering-ui
 ---

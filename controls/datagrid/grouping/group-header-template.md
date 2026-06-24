@@ -1,7 +1,7 @@
 ---
 title: Group Header Template
-page_title: .NET MAUI DataGrid Documentation - GroupHeaderTemplate
-description: "Review the Telerik .NET MAUI DataGrid Property Group Descriptor documentation article to learn more about the property grouping function you can use."
+page_title: .NET MAUI DataGrid Documentation - Group Header Template
+description: Learn how to define a custom group header template in the Telerik UI for .NET MAUI DataGrid to control the group row appearance.
 position: 5
 slug: datagrid-group-header-template
 ---
@@ -10,7 +10,7 @@ slug: datagrid-group-header-template
 
 The [.NET MAUI DataGrid]({%slug datagrid-overview%}) features fully customizable group headers that allow you to tweak the appearance and behavior of the headers used to group data within the grid. You can achieve this customization by using the `GroupHeaderTemplate` property of the DataGrid, which allows you to set a custom `DataTemplate` to the group headers.
 
-The BindingContext of the `GroupHeaderTemplate` is a `GroupHeaderContext` object and it includes the following properties:
+The `BindingContext` of the `GroupHeaderTemplate` is a `GroupHeaderContext` object and it includes the following properties:
 
 * `Descriptor`: Specifies the descriptor used for the grouping.
 * `Group`: Gets details on the group such as:

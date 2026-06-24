@@ -1,7 +1,7 @@
 ---
 title: Events
 page_title: .NET MAUI DataGrid Documentation - Events
-description: "Learn about the Telerik UI for .NET MAUI DataGrid events and how to achieve various scenarios upon user interaction such as loading content on demand, binding to data, modifying group collections, and more."
+description: Learn about the Telerik UI for .NET MAUI DataGrid events and how to handle user interactions and data operations like loading, binding, and grouping.
 position: 17
 tags: events
 slug: datagrid-events
@@ -86,7 +86,7 @@ The DataGrid exposes the `ColumnReorderStarting`, `ColumnReordering`, `ColumnReo
 The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which is invoked when a column is resized by user interaction. The `ColumnUserResizeCompleted` event handler receives the following parameters:
 * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
 * A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
-	- `Column` (`DataGridColumn`)&mdash;Gets the previously `CurrentCell`.
+	- `Column` (`DataGridColumn`)&mdash;Gets the column that is resized.
 	- `Width` (`double`)&mdash;Gets the width of the column that is resized.
 
 ## Additional Resources
@@ -101,6 +101,6 @@ The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which 
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
-- [Using the DataGrid Commands]({%slug datagrid-aggregates%})
+- [Using the DataGrid Commands]({%slug datagrid-commands-overview%})
 - [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
 

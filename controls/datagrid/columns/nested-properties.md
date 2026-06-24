@@ -1,7 +1,7 @@
 ---
 title: Nested Properties
 page_title: .NET MAUI DataGrid Documentation - Nested Properties Support
-description: Check our &quot;Nested Properties&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to bind DataGrid columns to nested properties of the underlying data object in .NET MAUI.
 position: 5
 previous_url: /controls/datagrid/columns/datagrid-columns-nested-properties
 slug: datagrid-nested-properties

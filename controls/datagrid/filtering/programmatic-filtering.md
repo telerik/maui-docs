@@ -1,7 +1,7 @@
 ---
 title: Programmatic Filtering
 page_title: .NET MAUI DataGrid Documentation - Programmatic Filtering
-description: Programmatic Filtering can be used for external filtering. You could disable the built-in filtering UI and programmatically filter tha data in the grid.
+description: Learn how to filter the Telerik UI for .NET MAUI DataGrid programmatically using filter descriptors for external filtering scenarios.
 position: 3
 slug: datagrid-programmatic-filtering
 ---
@@ -13,20 +13,15 @@ Programmatic Filtering is achieved by adding different filter descriptors in the
 
 The following descriptor types are supported:
 
-- [.NET MAUI DataGrid Filtering](#net-maui-datagrid-filtering)
-  - [Filtering UI](#filtering-ui)
-  - [FilterControl Template](#filtercontrol-template)
-  - [Programmatic Filtering](#programmatic-filtering)
-    - [Text Filter Descriptor](#text-filter-descriptor)
-    - [Numerical Filter Descriptor](#numerical-filter-descriptor)
-    - [DateTime Filter Descriptor](#datetime-filter-descriptor)
-    - [TimeSpan Filter Descriptor](#timespan-filter-descriptor)
-    - [Boolean Filter Descriptor](#boolean-filter-descriptor)
-    - [Nested Property Text Filter Descriptor](#nested-property-text-filter-descriptor)
-    - [Distinct Values Filter Descriptor](#distinct-values-filter-descriptor)
-    - [Composite Filter Descriptor](#composite-filter-descriptor)
-    - [Delegate Filter Descriptor](#delegate-filter-descriptor)
-  - [See Also](#see-also)
+* [Text Filter Descriptor](#text-filter-descriptor)
+* [Numerical Filter Descriptor](#numerical-filter-descriptor)
+* [DateTime Filter Descriptor](#datetime-filter-descriptor)
+* [TimeSpan Filter Descriptor](#timespan-filter-descriptor)
+* [Boolean Filter Descriptor](#boolean-filter-descriptor)
+* [Nested Property Text Filter Descriptor](#nested-property-text-filter-descriptor)
+* [Distinct Values Filter Descriptor](#distinct-values-filter-descriptor)
+* [Composite Filter Descriptor](#composite-filter-descriptor)
+* [Delegate Filter Descriptor](#delegate-filter-descriptor)
 
 All `FilterDescriptors` are located in the `Telerik.Maui.Controls.Data` namespace.
 

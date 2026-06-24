@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataGrid Overview
-description: Learn what the Telerik UI for .NET MAUI DataGrid can do, from columns and editing to sorting, paging, theming, and localization.
+description: Visualize and edit tabular data in .NET MAUI apps with the Telerik UI DataGrid featuring sorting, filtering, grouping, and editing.
 position: 0
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 previous_url: /controls/datagrid/datagrid-overview
@@ -47,7 +47,7 @@ The .NET MAUI DataGrid provides a number of features and configuration options r
 
 ## Sort, Filter, and Group Data
 
-Perform SORT, FILTER, and GROUP operations on your data by using the convenient API of the control. Apply the [sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %}) operations per column.
+Perform sorting, filtering, and grouping operations on your data by using the convenient API of the control. Apply the [sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %}) operations per column. You can sort, filter and group through the built-in UI or programmatically using the exposed descriptors.
 
 ## Editing
 
@@ -79,11 +79,15 @@ You can [page the data]({%slug datagrid-paging%}) of the DataGrid using the Tele
 
 ## Keyboard Navigation Support
 
-Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on WinUI and MacCatalyst.
+Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on [WinUI]({%slug datagrid-keyboard-support%}) and [MacCatalyst]({%slug datagrid-keyboard-support-mac%}).
 
 ## Row Height
 
 By default, the row height is calculated according to the cell content. You can override this behavior by setting a [height for the rows]({%slug datagrid-row-height%}). 
+
+## Column Headers Visibility
+
+The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is true. Set it to `False` to remove the column headers row from the DataGrid. For more details, refer to the [Defining Columns]({%slug datagrid-columns-overview%}#column-headers-visibility) article.
 
 ## Column Footer
 
@@ -95,7 +99,7 @@ When the .NET MAUI DataGrid does not have any data (`ItemsSource` is null or the
 
 ## Commands
 
-The MAUI DataGrid allows you to add [commands]({%slug datagrid-commands-overview %}) to the commands collection, in case you want to execute an additional logic when certain actions occur. You can execute the commands when cell is tapped, double tapped, begins the editing operation, when tapping on the column header, filter the data and more. 
+The MAUI DataGrid allows you to add [commands]({%slug datagrid-commands-overview %}) to the commands collection to execute additional logic when certain actions occur. You can execute the commands when a cell is tapped, double-tapped, when an editing operation begins, when tapping on a column header, when filtering data, and more. 
 
 ## Theming and Style
 

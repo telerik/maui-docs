@@ -1,7 +1,7 @@
 ---
 title: Load On Demand
 page_title: .NET MAUI TreeDataGrid Documentation - Load on Demand
-description: Learn more about the available modes and approaches to load huge sets of data in the Telerik UI for .NET MAUI TreeDataGrid to improve the performance of the component and save computing resources.
+description: Learn about the available modes to load large data sets in the Telerik UI for .NET MAUI TreeDataGrid and improve performance.
 position: 13
 slug: treedatagrid-loadondemand
 ---

@@ -1,7 +1,7 @@
 ---
 title: Expand and Collapse Groups
 page_title: .NET MAUI DataGrid Documentation - Expand and Collapse
-description: "Review the Telerik .NET MAUI DataGrid Grouping Expand and Collapse documentation article to learn more about the Expand and Collapse functions you can use."
+description: Learn how to expand and collapse groups in the Telerik UI for .NET MAUI DataGrid through the UI or programmatically.
 position: 6
 slug: datagrid-expand-collapse
 ---
@@ -10,7 +10,7 @@ slug: datagrid-expand-collapse
 
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) lets you expand and collapse a group either through the UI&mdash;by tapping on the group headers&mdash;or programmatically. 
 
-The DataGrid allows you to collapse all groups by setting the `AutoExpandGroups` (`bool`) property. The default value is `false`, which means, all groups are expanded.
+The DataGrid allows you to collapse all groups and newly added groups by setting the `AutoExpandGroups` (`bool`) property. The default value of the `AutoExpandGroups` property is `true`, which means, all groups are expanded by default.
 
 This section provides an overview of the methods and commands used to control the expand/collapse state of the DataGrid groups.
 

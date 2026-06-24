@@ -1,7 +1,7 @@
 ---
 title: Column Headers
-page_title: .NET MAUI DataGrid Documentation - Columns Header
-description: Learn how to style and customize the text in the Telerik UI for .NET MAUI DataGrid Header by using the properties of the component.
+page_title: .NET MAUI TreeDataGrid Documentation - Column Headers
+description: Learn how to style and customize the column header text in the Telerik UI for .NET MAUI TreeDataGrid.
 position: 2
 slug: treedatagrid-column-header
 ---
@@ -9,7 +9,7 @@ slug: treedatagrid-column-header
 
 # .NET MAUI TreeDataGrid Column Headers
 
-This article will guide you through the usage of the column headers, their customization as well through performing different data operations. Column headers are always visible by default. You can further customize the headers by using the `HeaderStyle` property.
+This article describes how to customize and use column headers when performing different data operations. Column headers are always visible by default. You can further customize them by using the `HeaderStyle` property.
 
 ## Changing the Text in the Header
 

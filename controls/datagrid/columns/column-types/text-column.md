@@ -1,14 +1,14 @@
 ---
 title: Text Column
 page_title: .NET MAUI DataGrid Documentation - Text Column
-description: Check our &quot;Text Column&quot; documentation article for Telerik DataGrid for .NET MAUI.
+description: Learn how to use the Text column in the Telerik UI for .NET MAUI DataGrid to display and edit string data.
 position: 0
 slug: datagrid-columns-text-column
 ---
 
 # .NET MAUI DataGrid TextColumn
 
-A `DataGridTextColumn` converts the content of each associated cell to a `System.String` object. The `DataGridTextColumn` uses the Telerik UI for .NET MAUI [Entry]({}%slug entry-overview%}) control in Edit mode.
+A `DataGridTextColumn` converts the content of each associated cell to a `System.String` object. The `DataGridTextColumn` uses the Telerik UI for .NET MAUI [Entry]({%slug entry-overview%}) control in Edit mode.
 
 >note A `DataGridTextColumn` performs better than a `DataGridTemplateColumn`.
 

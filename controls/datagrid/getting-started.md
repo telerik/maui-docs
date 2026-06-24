@@ -102,7 +102,7 @@ this.dataGrid.ItemsSource = new List<Data>
 - [Setting the .NET MAUI DataGrid Columns]({%slug datagrid-columns-overview%})
 - [Grouping in the DataGrid]({%slug datagrid-grouping-overview%})
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
-- [Using the DataGrid Commands]({%slug datagrid-aggregates%})
+- [Using the DataGrid Commands]({%slug datagrid-commands-overview%})
 - [Sorting .NET MAUI DataGrid Records]({%slug datagrid-sorting-overview%})
 - [Filtering .NET MAUI DataGrid Records]({%slug datagrid-filtering-overview%})
 - [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})

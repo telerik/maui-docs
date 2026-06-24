@@ -1,7 +1,7 @@
 ---
 title: Columns Width
 page_title: .NET MAUI TreeDataGrid Documentation - Columns Width
-description: Learn what are the options for setting column width to the Telerik TreeDataGrid for .NET MAUI.
+description: Learn how to set fixed, minimum, or maximum width for columns in the Telerik UI for .NET MAUI TreeDataGrid.
 position: 4
 slug: treedatagrid-columns-width
 ---

@@ -1,6 +1,6 @@
 ---
 title: Frozen Columns
-page_title: .NET MAUI TreeDataGrid  Documentation - Frozen Columns
+page_title: .NET MAUI TreeDataGrid Documentation - Frozen Columns
 description: Learn how to freeze columns in Telerik TreeDataGrid for .NET MAUI.
 position: 4
 slug: treedatagrid-frozen-columns
