@@ -19,7 +19,7 @@ The `MaskedEntryBase` class exposes the following properties, which are valid fo
 * `EntryBackgroundColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the MaskedEntry.
 * `BackgroundColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the masked control.
 * `ClearButtonVisibility` (`Telerik.Maui.Controls.ClearButtonVisibility`)&mdash;Defines when the clear button is displayed. The default value is `WhileEditing`.
-* `ClearButtonStyle` (`Style` with a target type of `Telerik.Maui.Control.RadTemplatedButton`)&mdash;Defines the style of the clear button.
+* `ClearButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style of the clear button.
 
 The following example demonstrates how to style the `EmailMaskedEntry`. 
 

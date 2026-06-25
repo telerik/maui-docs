@@ -16,7 +16,7 @@ Check below the customization options for the RangeSlider tooltip:
 * `TooltipContentTemplate` (`DataTemplate`)&mdash;Sets a template or template selector that defines the content of the tooltip.
 * `TooltipControlTemplate` (`ControlTemplate`)&mdash;Sets the control template of the tooltip that defines its overall appearance.
 
-Check below a quick example with setting `TooltipStringFormat` and `TooltipTemplate` properties:
+Check below a quick example with setting `TooltipStringFormat` and `TooltipContentTemplate` properties:
 
 **1.** Add the custom `DataTemplate` to your page resources:
 
