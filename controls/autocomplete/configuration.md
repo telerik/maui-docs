@@ -19,7 +19,7 @@ You can also use the `PlaceholderColor` property to define the placeholder text 
 
 ## Text
 
-You can define a text in the input area by setting the `Text` (`string`) property.
+You can set the input text by using the `Text` (`string`) property.
 
 ## Display Mode
 
