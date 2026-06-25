@@ -1,7 +1,7 @@
 ---
 title: Command
 page_title: .NET MAUI Button Command
-description: Learn how to bind a command and command parameter to the Telerik UI for .NET MAUI Button and understand how to reuse the same command for keyboard-driven actions.
+description: Learn how to bind the Telerik UI for .NET MAUI Button to a command and command parameter and reuse the same action from keyboard input.
 position: 4
 slug: button-command
 ---
@@ -45,7 +45,7 @@ The following image shows the result on WinUI:
 
 ![.NET MAUI Button Command](images/button-command.gif "Button for .NET MAUI")
 
-## Trigger the Same Action from a Key Press
+## Triggering the Same Action from a Key Press
 
 If you want a key press to run the same action, keep the action in an `ICommand` and invoke that same command from your page-level or platform-specific keyboard handling logic. This lets the Button click and the keyboard shortcut reuse the same implementation.
 

@@ -1,7 +1,7 @@
 ---
 title: Introduction
 page_title: Telerik UI for .NET MAUI Documentation - Introduction
-description: Explore Telerik UI for .NET MAUI-build native cross-platform apps for Windows, macOS, Android, and iOS. Learn about 70+ components, quick-start guides, and migration paths from Xamarin.
+description: Explore Telerik UI for .NET MAUI and build native cross-platform apps for Windows, macOS, Android, and iOS with 70+ components.
 tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
 position: 0
@@ -15,7 +15,7 @@ This comprehensive UI library includes controls, [sample demo applications]({%sl
 
 <CtaPanelIntroduction></CtaPanelIntroduction>
 
-## Get Started Quickly
+## Getting Started Quickly
 
 Choose a path based on what you need:
 
@@ -137,7 +137,7 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 
 @[template](/_contentTemplates/common/supported-platforms.md#supported-platforms)
 
-## Why Choose Telerik UI for .NET MAUI?
+## Reasons for Choosing Telerik UI for .NET MAUI
 
 **Telerik UI for .NET MAUI** is designed to accelerate cross-platform development:
 

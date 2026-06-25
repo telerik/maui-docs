@@ -1,7 +1,7 @@
 ---
 title: Configuration
 page_title: .NET MAUI ComboBox Configuration
-description: Learn how to configure the Telerik UI for .NET MAUI ComboBox, including placeholder behavior, drop-down settings, clear button visibility, keyboard input, and app theme binding.
+description: Learn how to configure the Telerik UI for .NET MAUI ComboBox, including placeholders, drop-down settings, clear button visibility, and keyboard input.
 position: 4
 slug: combobox-configuration
 ---

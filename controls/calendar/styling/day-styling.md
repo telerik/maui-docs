@@ -1,7 +1,7 @@
 ---
 title: Day Styling
 page_title: .NET MAUI Calendar Documentation - Day Styling
-description: Learn how to style Calendar day names and individual day cells in the Telerik UI for .NET MAUI Calendar by using DayNameLabelStyle and DayStyleSelector.
+description: Learn how to style Calendar day names and day cells in the Telerik UI for .NET MAUI Calendar by using DayNameLabelStyle and DayStyleSelector.
 position: 3
 slug: calendar-day-styling
 ---

@@ -8,7 +8,7 @@ position: 1
 tag: updated
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI MCP Server
+# Getting Started with the Telerik UI for .NET MAUI AI Coding Assistant (MCP Server)
 
 Use the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://modelcontextprotocol.io/introduction) to give compatible AI tools grounded context about Telerik UI for .NET MAUI components and APIs. This article shows how to install the server, configure `mcp.json`, add your Telerik license, verify that the server is running, and start using it in prompts.
 
@@ -16,15 +16,6 @@ The MCP server helps AI-powered IDEs and tools generate more accurate code, answ
 
 >tip
 > The Telerik UI for .NET MAUI MCP server works in **Chat** (**Ask**) and **Agent** modes.
-
-## What Can the MCP Server Help You Do
-
-After you configure the server, you can use it to:
-
-- Ask questions about Telerik UI for .NET MAUI components and APIs.
-- Generate Telerik-specific control setup code, view models, and sample data.
-- Get implementation guidance that is more accurate than generic AI output.
-- Use the same Telerik-aware context across supported MCP clients.
 
 ## Prerequisites
 
@@ -35,25 +26,9 @@ To use the Telerik MAUI MCP server, you need:
 
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 
-## Quick Setup Checklist
-
-Use this sequence for the fastest successful setup:
-
-1. Choose whether you want to run the server with `.NET 10`, `.NET 9`, or `Node.js`.
-2. Install the Telerik UI for .NET MAUI MCP server with the matching command.
-3. Add the correct server entry to your `mcp.json` file.
-4. Configure your Telerik license if it is not already available in the default location.
-5. Restart your MCP client and verify that the `telerik-maui-assistant` server starts when prompted.
-
-## Install the Telerik UI for .NET MAUI MCP Server
+## Installing the Telerik UI for .NET MAUI MCP Server
 
 Choose the runtime that best matches your development environment:
-
-| Runtime | Use It When | Install Command |
-|---|---|---|
-| .NET 10 or later | You want the simplest .NET-based setup without preinstalling a local tool. | `dnx Telerik.MAUI.MCP` |
-| .NET 9 | You want to run the server through a locally installed .NET tool. | `dotnet tool install Telerik.MAUI.MCP` |
-| Node.js 18 or later | You prefer a Node.js-based setup or need it for your editor workflow. | `npm install @progress/telerik-maui-mcp` |
 
 Install the server package by using one of the following options:
 
@@ -62,7 +37,6 @@ Install the server package by using one of the following options:
   ```bash .NET 10
   dnx Telerik.MAUI.MCP
   ```
-
   ```bash .NET 9
   dotnet tool install Telerik.MAUI.MCP
   ```
@@ -113,15 +87,11 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
 
 >note Use a license file path unless you need to share settings across systems. When your Telerik license changes, [update the license key]({%slug set-up-your-license%}#updating-your-license-key) before you restart the MCP client.
 
+Client configuration examples in the next section use `TELERIK_LICENSE_PATH`. If you prefer to pass the license value directly, replace it with `TELERIK_LICENSE` in the `env` object.
+
 ## MCP Clients Configuration
 
 Use the following client-specific examples to create a working `mcp.json` file. The configuration values are the same across clients, but the config file location and top-level property name differ.
-
-| Client | Config File | Top-Level Property |
-|---|---|---|
-| Visual Studio | `.mcp.json` | `servers` |
-| Visual Studio Code | `.vscode/mcp.json` or user-level `mcp.json` | `servers` |
-| Cursor | `.cursor/mcp.json` | `mcpServers` |
 
 <TabStrip>
 <TabStripTab title="Visual Studio">
@@ -177,8 +147,6 @@ Use the following client-specific examples to create a working `mcp.json` file. 
 2. Restart Visual Studio.
 3. Enable the Telerik MAUI MCP server in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
-If you prefer to pass the license value directly, replace `TELERIK_LICENSE_PATH` with `TELERIK_LICENSE` in the `env` object.
-
 </TabStripTab>
 <TabStripTab title="Visual Studio Code">
 
@@ -200,7 +168,6 @@ The basic setup in Visual Studio Code involves the following steps:
       }
     }
     ```
-
     ```json .NET 9
     {
       "servers": {
@@ -238,8 +205,6 @@ The basic setup in Visual Studio Code involves the following steps:
     ```
 
 4. Restart Visual Studio Code.
-
-If you prefer to pass the license value directly, replace `TELERIK_LICENSE_PATH` with `TELERIK_LICENSE` in the `env` object.
 
 </TabStripTab>
 <TabStripTab title="Cursor">
@@ -289,12 +254,10 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
 }
 ```
 
-If you prefer to pass the license value directly, replace `TELERIK_LICENSE_PATH` with `TELERIK_LICENSE` in the `env` object.
-
 </TabStripTab>
 </TabStrip>
 
-## Verify That the MCP Server Is Working
+## Verifying That the MCP Server Is Working
 
 After you restart the client, confirm that the server is available before you begin a larger prompt:
 
@@ -352,7 +315,7 @@ Use the following practices when you work with the Telerik MAUI MCP server:
 4. Start a fresh session for unrelated prompts so earlier context does not affect the next result.
 5. Use the server in **Chat** (**Ask**) and **Agent** modes.
 
-### Increase Tool Selection Reliability
+### Increasing Tool Selection Reliability
 
 To increase the likelihood that your AI client uses the Telerik server, add client-specific instructions that mention Telerik UI for .NET MAUI as a preferred source for component generation and API guidance:
 

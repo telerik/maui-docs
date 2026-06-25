@@ -9,7 +9,7 @@ position: 1
 
 # Controls Samples Application
 
-The Telerik UI for .NET MAUI Controls Samples App helps you explore polished, scenario-based examples for many controls in the Telerik UI for .NET MAUI suite. Use it to review real UI patterns, inspect feature implementations, and compare how Telerik components behave across supported platforms.
+The Telerik UI for .NET MAUI Controls Samples App provides polished, scenario-based examples for many controls in the Telerik UI for .NET MAUI suite.
 
 This article explains where to get the app, how to open it locally, and how to run it on Windows, Android, macOS, and iOS.
 
@@ -45,15 +45,6 @@ Use one of the following options to access the app:
 
 >important
 > If you do not have a Telerik UI for .NET MAUI installation yet, first complete [Download Telerik UI for .NET MAUI]({%slug maui-quick-start%}#step-2-download-your-license-key-file) and [Install Telerik UI for .NET MAUI]({%slug maui-quick-start%}#step-3-create-a-new-maui-project).
-
-## Before Running the App Locally
-
-Before you run the sample locally, make sure that:
-
-- Telerik UI for .NET MAUI is installed on your machine.
-- The required .NET SDK and platform workloads are installed.
-- You have Visual Studio 2022 or later (Windows) or Visual Studio Code (macOS or Windows).
-- You can access the `ControlsSamples.sln` file or the sample repository source.
 
 ## Run ControlsSamples on Windows
 

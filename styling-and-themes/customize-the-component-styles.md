@@ -11,16 +11,6 @@ position: 5
 
 Use Telerik UI for .NET MAUI theme resources to customize control styles beyond color swatches. This article shows two approaches: a quick per-page customization and a reusable resource dictionary workflow for multi-app consistency.
 
-## Choose the Right Customization Approach
-
-Use the following guidance to decide which approach fits your scenario:
-
-| Scenario | Recommended approach | Why |
-|---|---|---|
-| One-off visual tweak in a single view | Customize in control declaration | Fast to apply and validate during prototyping |
-| Reusable branding across multiple views or apps | Customize in dedicated dictionary | Centralizes styles and reduces duplication |
-| Team-managed design system | Customize in dedicated dictionary | Improves consistency and maintenance |
-
 ## Prerequisites
 
 Before you customize component styles, ensure that:
@@ -70,13 +60,7 @@ The Telerik theme lets you customize and at the same time unify the styles of yo
 
 A common scenario is to apply your company's colors by [modifying the theme swatch]({%slug themes-customization %}) and then to additionally adjust the styles of a specific control by using your custom colors. This allows you to address specific design or accessibility requirements. As the colors and styles live in dedicated resource dictionaries, you can copy them to other applications, achieving consistent styles.
 
-To customize the desired control-specific theme styles:
-
-1. [Customize the theme colors]({%slug themes-customization %}).
-1. Copy the theme resources that target the desired control and apply your changes.
-1. Handle any style dependencies.
-
-### Copy and Modify Theme Resources
+### Copying and Modifying Theme Resources
 
 To modify the Telerik theme styles of a certain control, use the available resource dictionaries in the `\TelerikTheming\Styles` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
 
@@ -160,16 +144,7 @@ The following example customizes drag and reorder visuals and applies them throu
 >important
 > Merge your custom dictionary after Telerik theme resources. If you merge it earlier, Telerik default styles can override your custom setters.
 
-### Verify the Result
-
-After you apply the custom dictionary, validate the behavior:
-
-1. Run the app and open the page that hosts the DataGrid.
-1. Confirm that the column header drag visual uses the custom background and corner radius.
-1. Confirm that the column reorder indicator uses the custom color.
-1. If you changed swatch colors, verify that dynamic resources resolve correctly in light and dark app themes.
-
-### Troubleshoot Common Issues
+### Troubleshooting Common Issues
 
 If the styles are not applied, check the following:
 
