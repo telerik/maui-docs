@@ -10,7 +10,8 @@ slug: aiprompt-suggestions-styling
 
 The Input View of the AIPrompt control allows you to define suggestions for the user prior to initiating a request through the `Suggestions` property. You can modify the visual appearance of each suggestion with the `SuggestionStyle` property:
 
-* `SuggestionStyle`(`Style`)&mdash;Defines the style that is to be applied to the suggestions inside the Input View.
+* `SuggestionStyle` (`Style`)&mdash;Defines the style that is to be applied to the suggestions inside the Input View.
+* `SuggestionsExpanderStyle` (`Style` with target type `RadExpander`)&mdash;Defines the style that is to be applied to the expander wrapping the suggestions.
 
 The following example demonstrates how to modify the suggestions' appearance:
 

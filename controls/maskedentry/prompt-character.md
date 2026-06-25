@@ -10,6 +10,8 @@ slug: maskedentry-prompt-character
 
 The MaskedEntry exposes a `PromptChar`(`char`) property, which represents a symbol (char) for any mask position that the user has not filled in yet. The default `PromptChar` value is `_` (underscore).
 
+You can also control whether the prompt character is treated as a valid input character through the `AllowPromptAsInput` (`bool`) property.
+
 * Setting the IPMaskedEntry
 
 <snippet id='ipmaskedentry-xaml' />

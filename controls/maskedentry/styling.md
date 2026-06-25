@@ -12,11 +12,14 @@ The MaskedEntry control delivers a set of options for styling its appearance.
 
 The `MaskedEntryBase` class exposes the following properties, which are valid for all mask types.:
 
-* `TextColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the color of the text inside the MaskedEntry.
-* `EntryCornerRadius`(`Microsoft.Maui`)&mdash;Defines the corner radius around the MaskedEntry.
-* `EntryBackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the MaskedEntry.
-* `BackgroundColor`(`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the masked control.
-* `ClearButtonStyle` (`Style` with a target type of `Telerik.Maui.Control.RadTemplatedButton`)&mdash;Defines the style of the clear button.
+* `TextColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the color of the text inside the MaskedEntry.
+* `FontFamily` (`string`)&mdash;Defines the font family of the text inside the MaskedEntry.
+* `FontSize` (`double`)&mdash;Defines the font size of the text inside the MaskedEntry.
+* `EntryCornerRadius` (`Microsoft.Maui`)&mdash;Defines the corner radius around the MaskedEntry.
+* `EntryBackgroundColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the MaskedEntry.
+* `BackgroundColor` (`Microsoft.Maui.Graphics`)&mdash;Defines the background color of the masked control.
+* `ClearButtonVisibility` (`Telerik.Maui.Controls.ClearButtonVisibility`)&mdash;Defines when the clear button is displayed. The default value is `WhileEditing`.
+* `ClearButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style of the clear button.
 
 The following example demonstrates how to style the `EmailMaskedEntry`. 
 

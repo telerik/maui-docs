@@ -69,6 +69,10 @@ The RichTextEditor component exposes the following events:
 	* The `Sender`, which is the RichTextEditor control;
 	* `ValueChangedEventArgs<bool>` provides the `NewValue` and `PreviousValue` properties of type `TValue`.
 
+* `IsImageSelectedChanged`&mdash;Raised when an image inside the editor is selected. The `IsImageSelectedChanged` event handler receives two parameters:
+	* The `Sender`, which is the RichTextEditor control;
+	* `ValueChangedEventArgs<bool>` provides the `NewValue` and `PreviousValue`.
+
 ## See Also
 
 - [Commands]({%slug richtexteditor-commands%})

@@ -32,7 +32,7 @@ The example below shows how to customize the Send button in your Chat control.
                   SendMessageButtonImage="{StaticResource SendIconSource}"/>
 ```
 
-To style the send button, set `RadChat.InputAreaStyle` to a `Style` targeting `Telerik.Maui.Controls.RadPromptInput` and, within that style, set `SendButtonStyle` (a `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`).
+To style the send button, set `RadChat.InputAreaStyle` to a `Style` targeting `Telerik.Maui.Controls.RadPromptInput` and, within that style, set `SendButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`).
 
 ## Style the More Button
 
@@ -42,11 +42,13 @@ You can configure and style the More button using the following properties:
 
 * `IsMoreButtonVisible` (`bool`) property controls the visibility of the more button. The default value is `false`.
 
-* `AutoGenerateMoreButtonActions `(`bool`)&mdash;Defines whether to automatically generate default actions for the 'More' button. The default value is `true`.
+* `AutoGenerateMoreButtonActions` (`bool`)&mdash;Defines whether to automatically generate default actions for the More button. The default value is `true`.
 
-* Define the actions that will appear when the More button is tapped by adding instances of `ChatMoreButtonAction` to the `MoreButtonActions` (`IList<ChatMoreButtonAction>`) collection.
+* `MoreButtonActions` (`IList<PromptInputButtonAction>`)&mdash;Defines the actions that appear when the More button is tapped.
 
 * Style the More button using the `MoreButtonStyle` (`Style` with target type `Telerik.Maui.Controls.RadDropDownButton`) property.
+
+* Use `MoreButtonActionItemViewStyle` (`Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`) to style the action items inside the More button dropdown.
 
 ## Style the SpeechToTextButton
 

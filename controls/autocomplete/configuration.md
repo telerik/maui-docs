@@ -17,6 +17,10 @@ You can also use the `PlaceholderColor` property to define the placeholder text 
 
 <snippet id='autocomplete-placeholder'/>
 
+## Text
+
+You can set the input text by using the `Text` (`string`) property.
+
 ## Display Mode
 
 * `DisplayMode` (`Telerik.Maui.Controls.AutoCompleteDisplayMode`)&mdash;Specifies how an item picked from the `SuggestionView` is visualized. 

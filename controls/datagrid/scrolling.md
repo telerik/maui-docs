@@ -82,6 +82,17 @@ The following video shows the end result.
 
 ![.NET MAUI DataGrid Programmatic Scrolling to a Column](images/datagrid-scrollcolumnintoview.gif)
 
+## Virtualization Buffer
+
+The DataGrid exposes the `ViewportBufferHeight` (`double`) property that controls the additional area outside the visible viewport for which rows are prepared in advance. The default value is `200`.
+
+Increase `ViewportBufferHeight` when you want smoother scrolling at the cost of preparing more row visuals ahead of time. Reduce it when you want to minimize the amount of prefetched visual content.
+
+```XAML
+<telerik:RadDataGrid ItemsSource="{Binding Data}"
+					 ViewportBufferHeight="320" />
+```
+
 ## Additional Resources
 
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)

@@ -94,6 +94,15 @@ When the .NET MAUI DataGrid does not have any data (`ItemsSource` is null or the
 
 The MAUI DataGrid allows you to add [commands]({%slug datagrid-commands-overview %}) to the commands collection to execute additional logic when certain actions occur. You can execute the commands when a cell is tapped, double-tapped, when an editing operation begins, when tapping on a column header, when filtering data, and more. 
 
+## Data Refresh and Busy State
+
+The DataGrid also exposes APIs that help you control how data changes are processed:
+
+* `ApplyDataOperationsOnPropertyChange` (`bool`)&mdash;Defines whether sorting, filtering, and grouping are reapplied when an item in the `ItemsSource` raises `PropertyChanged`. The default value is `True`.
+* `IsBusy` (`bool`)&mdash;Indicates whether the DataGrid is currently busy. Set this property when you want to display an application-defined loading state while data is being fetched or updated.
+
+When you bind the DataGrid to models with nested properties, you can also enable `ListenForNestedPropertyChange` to react to changes coming from nested objects. For more details, see [Nested Properties]({%slug datagrid-nested-properties%}).
+
 ## Theming and Style
 
 You can apply a [theme]({%slug themes-overview%}) to the MAUI DataGrid. If you prefer to use your own styling, then you can use the [flexible styling API]({%slug datagrid-styling%}) of the .NET MAUI DataGrid. The styling API allows you to style the DataGrid rows and columns, the cell content inside the columns, the group header, the aggregates inside the group header and the group footer, etc. 

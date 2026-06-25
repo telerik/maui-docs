@@ -69,6 +69,27 @@ In addition, RichTextEditor provides a flexible API that allows you to apply for
 RichTextEditor has a text selection functionality—the end user can initiate a selection action through the tap and hold gesture over the text. The selected text is marked with a different background color and two drag handles are available to the user to make it easier to modify the current selection. 
 
 * `GetSelectionAsync` method—Asynchronously returns a `RichTextSelection` object which defines the current text selection inside the editor (returns `null` if no text is selected). The <code>RichTextSelection</code> object contains the `Text` itself as well as the `Start` and `End` position of the text characters.
+
+The following example shows how to retrieve the selected text:
+
+```C#
+var selection = await this.richTextEditor.GetSelectionAsync();
+
+if (selection != null)
+{
+	var selectedText = selection.Text;
+}
+```
+
+## Document and Selection State
+
+The RichTextEditor exposes read-only state properties that you can use in your UI logic:
+
+* `IsDocumentLoaded` (`bool`)&mdash;Read-only property that indicates whether the HTML document is loaded and ready for interaction.
+* `IsHyperlinkSelected` (`bool`)&mdash;Read-only property that indicates whether the current selection is on a hyperlink.
+* `IsImageSelected` (`bool`)&mdash;Read-only property that indicates whether the current selection is on an image.
+
+You can use these properties to enable or disable related commands in your application. For example, call editor commands that depend on the document content only after `IsDocumentLoaded` becomes `True`.
 	
 ## Read-Only State
 
@@ -91,6 +112,28 @@ The next code sample shows how to define the source of the RichTextEditor:
 > The `richtexteditor-htmlsource.html` file is visualized in the Editor as an `EmbeddedResource`.
 
 > For a runnable example with the RichTextEditor read-only state, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Features**.
+
+## Busy Indicator
+
+The RichTextEditor exposes a built-in busy state for long-running operations such as loading HTML content.
+
+* `IsBusy` (`bool`)&mdash;Read-only property that indicates whether the editor is currently performing a long-running operation.
+* `BusyIndicatorTemplate` (`DataTemplate`)&mdash;Specifies a custom template for the busy indicator visual.
+
+The following example shows how to replace the default busy indicator:
+
+```XAML
+<ContentPage.Resources>
+	<DataTemplate x:Key="BusyTemplate">
+		<VerticalStackLayout Spacing="8">
+			<ActivityIndicator IsRunning="True" />
+			<Label Text="Loading document..." />
+		</VerticalStackLayout>
+	</DataTemplate>
+</ContentPage.Resources>
+
+<telerik:RadRichTextEditor BusyIndicatorTemplate="{StaticResource BusyTemplate}" />
+```
 
 
 ## See Also

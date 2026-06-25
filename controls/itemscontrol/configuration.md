@@ -102,7 +102,6 @@ The following example demonstrates how to set the items template and uses the `E
 </telerikMauiControls:RadItemsControl>
 ```
 
-
 The following image shows the end result.
 
 ![ItemsControl Item Template](images/itemscontrol-itemtemplate.png)
