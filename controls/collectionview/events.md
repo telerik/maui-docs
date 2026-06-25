@@ -93,7 +93,9 @@ The CollectionView provides the `Scrolled` event, which is raised when scrolling
 
 * `SelectionChanged`&mdash;Raised when the current selection changes. The `SelectionChanged` event handler receives two parameters:
 	* The sender argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
-	* A `EventArgs` object, which provides information on the `SelectionChanged` event.
+	* A `RadSelectionChangedEventArgs` object, which provides the following properties:
+		* `AddedItems` (`IEnumerable<object>`)&mdash;The selected items.
+		* `RemovedItems` (`IEnumerable<object>`)&mdash;The deselected items.
 
 ## See Also
 
