@@ -55,7 +55,7 @@ The following properties style the ComboBox DropDown:
 
 * `DropDownBorderColor`(`Color`)&mdash;Defines the color of the border that surrounds the DropDown part of the control.
 * `DropDownBorderThickness`(`Thickness`)&mdash;Defines the thickness of the border that surrounds the DropDown part of the control.
-* `DropDownBorderCornerRadius`(`Thickness`)&mdash;Defines the corner radius of the border that surrounds the DropDownn part of the control.
+* `DropDownCornerRadius`(`Thickness`)&mdash;Defines the corner radius of the border that surrounds the DropDown part of the control.
 * `DropDownBackgroundColor`(`Color`)&mdash;Defines the background color of the DropDown part of the control.
 * `DropDownButtonStyle`(of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the DropDown button.
 
