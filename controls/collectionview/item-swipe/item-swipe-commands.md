@@ -14,10 +14,10 @@ The .NET MAUI CollectionView provides the following commands related to swipe ac
 - `SwipeStartingCommand`(`ICommand`)&mdash;Occurs when an item is about to be swiped. The command parameter is of the `CollectionViewSwipeStartingCommandContext` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that will be swiped.
   - `Cancel`(`bool`)&mdash;If you set this value to `false`, the swiping will be canceled.
-- `Swiping`(`ICommand`)&mdash;Occurs while the user is swiping the item. The command parameter is of the `CollectionViewSwipingCommandContext` type that provides the following properties:
+- `SwipingCommand`(`ICommand`)&mdash;Occurs while the user is swiping the item. The command parameter is of the `CollectionViewSwipingCommandContext` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that is being swiped.
   - `Offset`(`double`)&mdash;The offset of the swiped item from its initial position.
-- `ItemSwipeCompleted`(`ICommand`)&mdash;Occurs when the swiping of an item is completed. The command parameter is of the `CollectionViewSwipeCompletedCommandContext` type that provides the following properties:
+- `SwipeCompletedCommand`(`ICommand`)&mdash;Occurs when the swiping of an item is completed. The command parameter is of the `CollectionViewSwipeCompletedCommandContext` type that provides the following properties:
   - `Item`(`object`)&mdash;The item that was swiped.
   - `Offset`(`double`)&mdash;The final offset of the swiped item.
 

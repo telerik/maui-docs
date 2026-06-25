@@ -17,8 +17,8 @@ When migrating the Telerik .NET MAUI ListView, consider the following difference
 | Telerik .NET MAUI ListView | Telerik .NET MAUI CollectionView |
 | ------------- | ------------- |
 | Presenting the data through cells&mdash;`ListViewTextCell`, `ListViewTemplateCell` | [Presenting the data]({%slug collectionview-data-binding%}) through a `DisplayMemberPath` property or by defining an `ItemTemplate` |
- Selection&mdash;`None`, `Single` or `Multiple`, provide an option to set selection gesture - `Tap`, `Hold` | [Selection]({%slug collectionview-selection%})&mdash;`None`, `Single` or `Multiple`, no selection gesture |
-| Grouping through `PropertyGroupDescriptor` or `DelegateGroupDescriptor`, methods for expanding/collapsing groups, multi-level grouping, sticky group headers | [Grouping]({%slug collectionview-grouping%}) through `PropertyGroupDescriptor` or `DelegateGroupDescriptor`, methods for expanding/collapsing groups, multi-level grouping, no sticky group headers |
+ Selection&mdash;`None`, `Single` or `Multiple`, provide an option to set selection gesture - `Tap`, `Hold` | [Selection]({%slug collectionview-selection%})&mdash;`None`, `Single` or `Multiple`, supports selection gesture - `Tap` (default), `Hold` |
+| Grouping through `PropertyGroupDescriptor` or `DelegateGroupDescriptor`, methods for expanding/collapsing groups, multi-level grouping, sticky group headers | [Grouping]({%slug collectionview-grouping%}) through `PropertyGroupDescriptor` or `DelegateGroupDescriptor`, methods for expanding/collapsing groups, multi-level grouping, sticky group headers via `EnableStickyGroupHeaders` |
 | Sorting through `PropertySortDescriptor` or `DelegateSortDescriptor` | [Sorting]({%slug collectionview-sorting%}) through `PropertySortDescriptor` or `DelegateSortDescriptor` |
 | Filtering through `DelegateFilterDescriptor` | [Filtering]({%slug collectionview-filtering%}) through various filter descriptors, such as `TextFilterDescriptor`, `NumericalFilterDescriptor`, etc |
 | Header and Footer templates | [Header and Footer templates]({%slug collectionview-header-footer%}) |
