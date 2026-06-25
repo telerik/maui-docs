@@ -47,6 +47,15 @@ No matter which layout mode is selected, the viewport is the "window" which move
 
 The `Viewport` property of the PDF Viewer is of type `Microsoft.Maui.Graphics.Rect` and can be defined by its top left corner at the (x, y) position and width and height values. Keep in mind it's possible to have negative X and Y values in case the viewport becomes bigger than the content itself.
 
+## Visible Pages State
+
+The PDF Viewer also exposes read-only properties that describe which document pages are currently visible in the viewport:
+
+* `VisiblePagesStartIndex` (`int`)&mdash;Gets the index of the first visible page.
+* `VisiblePagesCount` (`int`)&mdash;Gets the number of pages currently visible in the viewport.
+
+These properties are useful when you need to synchronize external UI with the currently displayed page range in `ContinuousScroll` mode.
+
 ## Example: Navigating to a Page 
 
 The example below demonstrates how to use the `ChangeViewport` method and navigate to the last page of the document in the `ContinuousScroll` and `SinglePage` layout modes as well as how to access the current viewport.

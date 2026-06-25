@@ -10,13 +10,15 @@ slug: slider-thumb-styling
 
 The Slider for .NET MAUI provides the following styling options for the value thumb:
 
-* `ThumbFill`(`Color`)&mdash;Defines the fill color of the Slider's thumb.
-* `ThumbStyle`(`Style`)&mdash;Defines a custom style for the Slider's thumb.
+* `ThumbFill` (`Color`)&mdash;Defines the fill color of the Slider's thumb.
+* `ThumbStyle` (`Style`)&mdash;Defines a custom style for the Slider's thumb. The target type of `ThumbStyle` is `Telerik.Maui.Controls.RangeSlider.SliderThumb`.
+
+
 
 In addition, you can modify the look and feel of the range track, so it matches the style of the thumb. Range track refers to that part of the backtrack from the Slider's `OriginValue` along to the position of the value thumb. 
 
-* `RangeTrackFill`(`Color`)&mdash;Defines the fill color of the Slider's range track.
-* `RangeTrackStyle`(`Style`)&mdash;Defines a custom style for the Slider's range track.
+* `RangeTrackFill` (`Color`)&mdash;Defines the fill color of the Slider's range track.
+* `RangeTrackStyle` (`Style`)&mdash;Defines a custom style for the Slider's range track. The target type of `ThumbStyle` is `Telerik.Maui.Controls.RangeSlider.SliderRangeTrack`.
 
 The following example demonstrates how to use the described styling properties to style the Slider's thumb and range track:
 

@@ -13,6 +13,8 @@ Any change in the appearance of the `RadChat` components depends on the referenc
 
 The default templates contain a `RadBorder` control (used to achieve the rounded edges), an Image control (used for the avatar of the single and first message), and a Label for the text message itself.
 
+To style the item container that holds each generated chat message, use the `ChatListViewItemStyle` (`Style` with target type `Telerik.Maui.Controls.RadCollectionViewItemView`) property of `RadChat`.
+
 To customize the different parts of the control, you can use the following implicit styles:
 
 * `Image`&mdash;Represents the avatar image of the message.

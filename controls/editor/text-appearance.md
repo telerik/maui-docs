@@ -8,7 +8,7 @@ slug: editor-text-appearance
 
 # .NET MAUI Editor Text Appearance
 
-The Editor provides a number of settings for configuring the appearance of the text it displays such as the multiline text input itself, adding a watermark to the text, setting the Editor in its read-only state, and so on.
+The Editor provides settings for configuring text appearance, placeholder text, read-only behavior, and other text-input options.
 
 ## Setting the Text Input
 
@@ -35,7 +35,7 @@ The following image shows the end result.
 
 ## Setting the Read-Only State
 
-You can choose whether the Editor control is editable for end users by setting its read-only state through the `IsReadOnly` (`bool`) property. By default, `IsReadOnly` is set to `False`. To restrict the control from editing, set the `IsReadOnly` to `True`.
+Use the `IsReadOnly` (`bool`) property to control whether end users can edit the Editor content. By default, `IsReadOnly` equals `False`. Set `IsReadOnly` to `True` to prevent editing.
 
 ```XAML
 <telerik:RadEditor x:Name="telerikEntry"
@@ -57,7 +57,7 @@ The following example demonstrates how to set the maximum length of the input to
 
 ## Defining the Max Lines
 
-The `MaxLines` (`int`) property allows you to set a maximum number of lines for the Editor input. By default, the `MaxLines` is set to `0`, which means that there is no limit on the number of lines.
+Use the `MaxLines` (`int`) property to set the maximum number of lines for the Editor input. By default, `MaxLines` equals `0`, which means the Editor does not limit the number of lines.
 
 Here is an example of how to set the `MaxLines` property:
 
@@ -65,6 +65,21 @@ Here is an example of how to set the `MaxLines` property:
 <telerik:RadEditor x:Name="telerikEntry"
 				   Placeholder="Enter text"
 				   MaxLines="10" />
+```
+
+## Configuring Auto-Size
+
+The `AutoSize` (enum of type `EditorAutoSizeOption`) property controls whether the Editor changes its height automatically while users enter text. Automatic resizing is turned off by default.
+
+The available options are:
+
+* `Disabled` (Default)&mdash;The Editor keeps its current height.
+* `TextChanges`&mdash;The Editor grows and shrinks according to the entered text.
+
+```XAML
+<telerik:RadEditor Placeholder="Enter text"
+                   AutoSize="TextChanges"
+                   MaxLines="10" />
 ```
 
 ## Setting Spacing Between the Characters

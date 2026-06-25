@@ -8,14 +8,15 @@ slug: rangeslider-ticks
 
 # Ticks
 
-The RangeSlider for .NET MAUI can show ticks along the track in order to enable users to easily identify the range values.
+The RangeSlider for .NET MAUI can show ticks along the track to enable users to show the range values.
 
 ## Ticks Step and Placement
 
 To display ticks along the track, define `TickStep` and `TickPlacement` properties of the RangeSlider.
 
-* `TickStep(double)`&mdash;Defines at what positions/values ticks will be displayed.
-* `TicksPlacement(type Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement)`&mdash;Specifies the position of the ticks in the RangeSlider with respect to its track. The available options are:
+* `TickStep` (`double`)&mdash;Defines at what positions/values ticks will be displayed.
+* `TickOrigin` (`double`)&mdash;Defines a custom value that indicates where the ticks originate. The position of the ticks is determined based on the combination of the `TickStep` and `TickOrigin` values. The RangeSlider generates the ticks and labels in a way so that a tick is positioned at the given `TickOrigin`.
+* `TicksPlacement` (type of `Telerik.Maui.Controls.RangeSlider.SliderTicksPlacement`)&mdash;Specifies the position of the ticks in the RangeSlider with respect to its track. The available options are:
     * `None`&mdash;no ticks are displayed.
     * `Start`&mdash;ticks appear above the track.
     * `Center`&mdash;ticks appear in the track area of the slider, overlaying the track.
@@ -25,7 +26,7 @@ To display ticks along the track, define `TickStep` and `TickPlacement` properti
 
 RangeSlider for .NET MAUI provides snapping to ticks thus limiting `RangeStart` and `RangeEnd` to a predefined set of values depending on `TickStep` value. You can control whether the snapping is enabled through `SnapMode` property:
 
-* `SnapMode(type Telerik.Maui.Controls.RangeSlider.SliderSnapMode)`&mdash;Defines whether a value should be snapped to a tick while the end-user is dragging a start thumb, end thumb or the range track. Available options are:
+* `SnapMode `(type of `Telerik.Maui.Controls.RangeSlider.SliderSnapMode`)&mdash;Defines whether a value should be snapped to a tick while the end-user is dragging a start thumb, end thumb or the range track. Available options are:
     * `None`&mdash;The end user can move the dragged thumb freely.
     * `SnapToTicks`&mdash;The start and end thumbs are snapped to the position of the ticks when an end-user is dragging them.
 
@@ -41,7 +42,7 @@ Check the result below:
 
 Through the `TickTemplate` property you can customize the appearance of the ticks.
 
-* `TickTemplate (DataTemplate)`&mdash;Defines the template of the RangeSlider ticks.
+* `TickTemplate` (`DataTemplate`)&mdash;Defines the template of the RangeSlider ticks.
 
 Check below a sample `TickTemplate` example:
 

@@ -14,8 +14,9 @@ The track refers to that part of the range slider the range thumb runs along. It
 
 You need to configure a `Minimum` value and a `Maximum` value for the RangeSlider, which define the limits of the range slider’s track.
 
-* `Minimum(double)`&mdash;Defines the minimum value of the range slider.
-* `Maximum(double)`&mdash;Specifies the maximum value of the range slider.
+* `Minimum` (`double`)&mdash;Defines the minimum value of the range slider.
+* `Maximum` (`double`)&mdash;Specifies the maximum value of the range slider.
+* `BackTrackExtent` (`double`)&mdash;Defines how many pixels beyond the minimum and the maximum values the backtrack extends.
 
 <snippet id='rangeslider-getting-started-xaml' />
 

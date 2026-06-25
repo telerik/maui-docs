@@ -10,7 +10,7 @@ slug: chat-overview
 
 The Telerik UI for .NET MAUI Chat is a UI component that enables the implementation of conversational UI in .NET MAUI applications.
 
-The control is designed for extensibility, enabling developers to create rich chat experiences that can be tailored to specific application needs, including integration with chatbots, LLMs, and custom business logic.
+The control is designed for extensibility, enabling developers to create rich chat experiences that can be tailored to specific application needs, including integration with conversational bots, LLMs, and custom business logic.
 
 ![.NET MAUI Chat Overview](images/chat-overview.png)
 
@@ -18,12 +18,14 @@ The control is designed for extensibility, enabling developers to create rich ch
 
 * [A variety of chat items for great user experience]({%slug chat-items-overview %})&mdash;You can choose between simple text messages, various pickers, such as list view, calendar, date and time pickers, and cards.
 * [Attachments]({%slug chat-items-attachments%})&mdash;The Chat control allows attaching files to the messages. The supported file types are images, documents, audio and video files. Also you can take photos and attach them to the messages.
-* [SpeechToTextButton Integration]({%slug chat-buttons-styling%}#style-the-more-button)&mdash;The Chat control supports speech-to-text functionality, which allows users to dictate their messages instead of typing them.
+* [Speech-to-text integration]({%slug chat-buttons-styling%}#style-the-more-button)&mdash;The Chat control supports speech-to-text functionality, which allows users to dictate their messages instead of typing them.
 * [Typing indicator]({%slug chat-typing-indicator%})&mdash;Use the typing indicator to let the users that other Chat participants are currently typing.
 * [Template Selectors]({%slug chat-itemtemplate-selector%})&mdash;Apply different templates to each Chat items. 
-* [Predefined List of Suggestions]({%slug chat-suggested-actions%})&mdash;This feature allows you to have a predefind list of suggestions. So the users of the Chat can choose between predefined items before sending a message. 
+* [Predefined List of Suggestions]({%slug chat-suggested-actions%})&mdash;This feature allows you to have a predefined list of suggestions. So the users of the Chat can choose between predefined items before sending a message. 
 * [MVVM support]({%slug chat-mvvm-support %})&mdash;With the `RadChat` control, you can use the Model-View-ViewModel pattern. You can achieve this by bounding the `ItemsSource` property to a collection of any data items that will be converted into chat items.
 * [Commands support]({%slug chat-commands%})&mdash;Part of the MVVM support. You can execute a command when sending messages. 
+* [Scrolling API]({%slug chat-scrolling%})&mdash;Control whether the Chat scrolls automatically when items are added and scroll the conversation programmatically.
+* [Methods]({%slug chat-methods%})&mdash;Focus the input area and stop an active speech-to-text recognition session from code.
 * [Localization support]({%slug globalization-localization%}#localization)&mdash;Translate the phrases used across the Chat control to other languages so that you can adapt your app to different regions.
 
 ## Next Steps

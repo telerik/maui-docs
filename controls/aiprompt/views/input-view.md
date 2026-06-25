@@ -16,8 +16,9 @@ Additionally, the Input view can display suggestions related to the input itself
 
 The Input View is represented by the `AIPromptInputView` class and provides the following properties:
 
-* `InputText`(`string`)&mdash;Defines the input used for generating a response.
-* `PromptRequestCommand`(`ICommand`)&mdash;Defines a command that is executed when the end-user makes a request by pressing the input button.
+* `InputText` (`string`)&mdash;Defines the input used for generating a response.
+* `InputButtonText` (`string`)&mdash;Defines the text of the input button for generating the AI response.
+* `PromptRequestCommand` (`ICommand`)&mdash;Defines a command that is executed when the end-user makes a request by pressing the input button.
 
 > You can also apply `InputText` and `PromptRequestCommand` directly to the `RadAIPrompt` instance - for an example, check the [Views]({%slug aiprompt-views-overview%}) topic.
 

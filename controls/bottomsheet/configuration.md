@@ -123,6 +123,12 @@ Here is an example setting the width of the `BottomSheetContent` to 400 (absolut
 
 The BottomSheet exposes a visual cue which indicates the control can be dragged. You can customize the handle by using the `HandleStyle` (`Style` with target type `BottomSheetHandle`) property.
 
+## Gesture Threshold
+
+Use the `StateChangeThreshold` (`double`) property to control how far the user needs to drag the BottomSheet before it changes to the next state. The default value is `0.15`.
+
+Lower values make the BottomSheet switch states more easily. Higher values require a longer drag gesture before the next state is applied.
+
 For more details, review the [BottomSheet Handle Styling]({%slug bottomsheet-styling%}#handle-styling) article.
 
 ## See Also

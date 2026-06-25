@@ -10,13 +10,14 @@ slug: rangeslider-ticks-styling
 
 The RangeSlider for .NET MAUI control provides styling properties for its ticks as well as a style selector, which you can use to apply different styles to the ticks according to custom logic.
 
- * `InRangeTickColor`(`Color`)&mdash;Defines the color of the ticks that are within the start-end range.
- * `OutOfRangeTickColor`(`Color`)&mdash;Specifies the color of the ticks that are outside of the start-end range.
- * `TickThickness`(`double`)&mdash;Defines the width of the ticks.
- * `InRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are within the start-end range.
- * `OutOfRangeTickStyle`(`Style`)&mdash;Specifies custom style to the ticks that are outside of the start-end range.
+ * `InRangeTickColor` (`Color`)&mdash;Defines the color of the ticks that are within the start-end range.
+ * `OutOfRangeTickColor` (`Color`)&mdash;Specifies the color of the ticks that are outside of the start-end range.
+ * `TickThickness` (`double`)&mdash;Defines the width of the ticks.
+ * `TickLength` (`double`)&mdash;Defines the custom length of the ticks.
+ * `InRangeTickStyle` (`Style`)&mdash;Specifies custom style to the ticks that are within the start-end range.
+ * `OutOfRangeTickStyle` (`Style`)&mdash;Specifies custom style to the ticks that are outside of the start-end range.
 
- * `TicksStyleSelector(type Telerik.Maui.Controls.IStyleSelector)`&mdash;Defines a selector that can apply different styles for different ticks.
+ * `TicksStyleSelector` (type of `Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles for different ticks.
 
 Here is a quick example on how the `TicksStyleSelector` can be applied to set separate styles to the ticks before the selected range, inside the selected range and after the selected range.
 

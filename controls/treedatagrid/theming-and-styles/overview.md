@@ -50,13 +50,14 @@ For more information on styling the `CurrentCell` by using the `CurrentCellStyle
 
 ## Style the Expand/Collapse Indicator
 
-You can style the expand/collapse indicator by using the `ExpandCollapseIndicatorStyle` (`Style` with target type `TreeDataGridExpandCollapseIndicatorAppearance`) property. The `TreeDataGridExpandCollapseIndicatorAppearance` class exposes the following properties:
+You can style the expand/collapse indicator by using the `ExpandCollapseIndicatorStyle` (`Style` with target type `TreeDataGridExpandCollapseIndicatorAppearance`) property. You can also use `ExpandCollapseIndicatorStyleSelector` (`IStyleSelector`) to apply different styles to the expand/collapse indicators based on custom logic. The `TreeDataGridExpandCollapseIndicatorAppearance` class exposes the following properties:
 
 * `ExpandText`&mdash;Specifies the text for the expand indicator of the item.
 * `CollapseText`&mdash;Specifies the text for the collapse indicator of the item.
 * `TextColor`&mdash;Specifies the color of the expand/collapse symbol.
 * `Font Options`&mdash;Specifies the `FontSize`, `FontAttributes`, and `FontFamily`.
 * `Margin`&mdash;Specifies the margin for the expand/collapse symbol of the item.
+* `LevelIndentation` (`double`)&mdash;Specifies the indentation applied per hierarchy level.
 * `BackgroundColor` (`Color`)&mdash;Specifies the color that fills the area within the border.
 * `BorderColor` (`Color`)&mdash;Specifies the border color.
 * `BorderThickness` (`Thickness`)&mdash;Specifies the thickness of the border.
