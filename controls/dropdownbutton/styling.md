@@ -47,6 +47,7 @@ The DropDownButton uses the .NET MAUI Visual State Manager and defines a visual 
 * `FocusedMouseOver`
 * `Pressed`
 * `FocusedPressed`
+* `Focused`
 * `Disabled`
 
 ### Example of Styling the DropDownButton
