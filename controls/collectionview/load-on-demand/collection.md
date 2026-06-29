@@ -9,9 +9,9 @@ tags: loading data, .net maui, maui, collectionview, load data on demand, loadin
 
 # .NET MAUI CollectionView LoadOnDemand Collection
 
-To load items on demand, you can use the `RadCollectionView.LoadOnDemandCollection` and set it as an `ItemsSource` for the `CollectionView`.
+To load items on demand, you can use the `Telerik.Maui.LoadOnDemandCollection<T>` and set it as an `ItemsSource` for the `CollectionView`.
 
-The `LoadOnDemandCollection` is a generic type, so you need to point the type of objects it will contain. The type extends the `ObservableCollection<T>` class and expects a `Func<CancellationToken, IEnumerable>` in the constructor.
+The `Telerik.Maui.LoadOnDemandCollection<T>` is a generic type, so you need to point the type of objects it will contain. The type extends the `ObservableCollection<T>` class and expects a `Func<CancellationToken, IEnumerable>` in the constructor.
 
 ## Example
 
@@ -31,7 +31,7 @@ The following example demonstrates a simple setup that shows how to use the coll
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**4.** Create a `ViewModel` and use the `LoadOnDemandCollection` as a type of the property bound to the `RadCollectionView.ItemsSource`:
+**4.** Create a `ViewModel` and use the `Telerik.Maui.LoadOnDemandCollection<T>` as a type of the property bound to the `RadCollectionView.ItemsSource`:
 
 <snippet id='collectionview-loadondemand-collection-viewmodel' />
 

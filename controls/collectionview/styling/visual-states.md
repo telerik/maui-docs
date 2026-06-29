@@ -32,5 +32,5 @@ The CollectionView provides the following `CommonStates` visual states:
 - [Sorting]({%slug collectionview-sorting%})
 - [Selection]({%slug collectionview-selection%})
 - [Commands]({%slug collectionview-commands%})
-- [Events]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-events%})
 

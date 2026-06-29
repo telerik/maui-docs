@@ -23,7 +23,7 @@ When migrating the Telerik .NET MAUI ListView, consider the following difference
 | Filtering through `DelegateFilterDescriptor` | [Filtering]({%slug collectionview-filtering%}) through various filter descriptors, such as `TextFilterDescriptor`, `NumericalFilterDescriptor`, etc |
 | Header and Footer templates | [Header and Footer templates]({%slug collectionview-header-footer%}) |
 | Load On Demand&mdash;Automatic and Manual, items can be loaded on demand through a `ListViewLoadOnDemandCollection`, a `LoadOnDemand` event or LoadOnDemand `ListViewUserCommand`  | [Load On Demand]({%slug collectionview-load-on-demand%})&mdash;Automatic and Manual, items can be loaded on demand through a `LoadOnDemandCollection`, a `LoadOnDemand` event or `LoadOnDemandCommand` |
-| Scrolling&mdash;`VerticalScrollBarVisibility` property, `ScrollItemIntoView` method | [Scrolling]({%slug collectionview-scrolling%})&mdash;`ScrollItemIntoView` method, `Scrolled` event |
+| Scrolling&mdash;`VerticalScrollBarVisibility` and `HorizontalScrollBarVisibility` properties, `ScrollItemIntoView` method | [Scrolling]({%slug collectionview-scrolling%})&mdash;`VerticalScrollBarVisibility` and `HorizontalScrollBarVisibility` properties, `ScrollItemIntoView` method, `Scrolled` event |
 | Linear and Grid Layouts | [Linear]({%slug collectionview-linear-layout%}) and [Grid]({%slug collectionview-grid-layout%}) Layouts |
 | Cell Swipe with `ItemSwipeContentTemplate` and `SwipeOffset` | [Item Swipe]({%slug collectionview-item-swipe-overview%}) with `StartSwipeTemplate`, `EndSwipeTemplate`, `StartSwipeLength` and `EndSwipeLength` properties |
 | Pull To Refresh built-in funcionality | [Refresh Data functionality]({%slug collectionview-pull-to-refresh%}) through a RefreshView control |

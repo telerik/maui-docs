@@ -21,8 +21,8 @@ The following image shows swipe actions revealed on both sides of a CollectionVi
 
 When item swipe is enabled, the user swipes a CollectionView item to expose a template that contains custom content. The swipe direction depends on the CollectionView orientation:
 
-- In a vertically oriented CollectionView, `StartSwipeTemplate` appears on swipe left and `EndSwipeTemplate` appears on swipe right.
-- In a horizontally oriented CollectionView, `StartSwipeTemplate` appears on swipe up and `EndSwipeTemplate` appears on swipe down.
+- In a vertically oriented CollectionView, `StartSwipeTemplate` appears on swipe right and `EndSwipeTemplate` appears on swipe left.
+- In a horizontally oriented CollectionView, `StartSwipeTemplate` appears on swipe down and `EndSwipeTemplate` appears on swipe up.
 
 Use this feature when you want quick item-level actions without opening a separate details screen or context menu.
 
@@ -34,8 +34,8 @@ Use the following `RadCollectionView` properties to configure item swipe:
 - `SwipeThreshold` (`double`)&mdash;Defines the length (in pixels) of the swipe gesture that is required to trigger the feature.
 - `StartSwipeLength` (`double`)&mdash;Defines how far the item moves and remains open when the start swipe template is revealed.
 - `EndSwipeLength` (`double`)&mdash;Defines how far the item moves and remains open when the end swipe template is revealed.
-- `StartSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe left in vertical orientation or a swipe up in horizontal orientation.
-- `EndSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe right in vertical orientation or a swipe down in horizontal orientation.
+- `StartSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe right in vertical orientation or a swipe down in horizontal orientation.
+- `EndSwipeTemplate` (`DataTemplate`)&mdash;Defines the content shown for a swipe left in vertical orientation or a swipe up in horizontal orientation.
 
 If you want different actions on each side, define both swipe templates and set lengths that match the size of the content inside each template.
 
