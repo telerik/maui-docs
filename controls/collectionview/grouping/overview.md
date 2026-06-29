@@ -39,7 +39,7 @@ In a multi-level grouping scenario, the last inner group from the parent group w
 
 Style the group header by setting the following properties:
 
-* `GroupContainerStyle` (`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style applied to the group header when grouping is applied.
+* `GroupViewStyle` (`Style` with target type `RadCollectionViewGroupView`)&mdash;Specifies the style applied to the group header when grouping is applied.
 
 ## See Also
 

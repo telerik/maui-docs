@@ -23,6 +23,8 @@ In addition use the following properties for setting the minimum width at which 
 * `ExpandedModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Expanded display mode.
 * `CompactModeThresholdWidth` (`double`)&mdash;Specifies the minimum width at which the NavigationView enters Compact display mode.
 
+The control also exposes a read-only `IsDismissOverlayVisible` (`bool`) property that indicates whether the overlay over the main content is currently shown.
+
 ### Example with DisplayMode Minimal
 
 **1.** Define the `RadNavigationView` in XAML:

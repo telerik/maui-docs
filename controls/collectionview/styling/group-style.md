@@ -56,4 +56,4 @@ This is the result on WinUI:
 - [Sorting]({%slug collectionview-sorting%})
 - [Selection]({%slug collectionview-selection%})
 - [Commands]({%slug collectionview-commands%})
-- [Events]({%slug collectionview-commands%})
+- [Events]({%slug collectionview-events%})

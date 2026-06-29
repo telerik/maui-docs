@@ -41,6 +41,13 @@ The following image shows a barcode with an applied Code39 symbology.
 
 ![Barcode Symbology](images/barcode_setsymbology_1.png)
 
+## Validation State
+
+The Barcode exposes read-only properties that let you inspect whether the current `Value` is valid for the selected `Symbology`:
+
+* `IsValid` (`bool`)&mdash;Indicates whether the current barcode value can be encoded with the selected symbology.
+* `ErrorMessage` (`string`)&mdash;Provides the validation error message when the current value is not valid.
+
 ## See Also
 
 - [1D Supported Barcodes]({% slug 1dbarcode-overview %})

@@ -20,11 +20,14 @@ The available built-in views are:
 
 You can use two approaches for defining the views depending on the `AutoGenerateViews` property.
 
-* `AutoGenerateViews`(`bool`)&mdash;Indicates whether the AIPrompt views will be auto-generated. Its default value is `True`.
+* `AutoGenerateViews` (`bool`)&mdash;Indicates whether the AIPrompt views will be auto-generated. Its default value is `True`.
+* `SelectedIndex` (`int`)&mdash;Specifies the currently active view. Use it to switch between the Input, Output, and Commands views programmatically or through two-way binding.
 
 ### Automatic Views Generation
 
 By default, the .NET MAUI AIPrompt component will always render both the Input and the Output views. The Commands view will be rendered only if you pass a custom set of commands through the `Commands` property.
+
+When the built-in views are auto-generated, the selected tab follows the order of the generated `Views` collection. This lets you set `SelectedIndex` to activate the Input, Output, or Commands view from your view model.
 
 ### Manual Views Generation
 
@@ -40,9 +43,9 @@ Here is a sample `ViewModel` class used in the example:
 
 Each view that is supported by the AIPrompt extends the `AIPromptView` class. This class exposes the following properties that you can set for each view:
 
-* `ControlTemplate`(`ControlTemplate`)&mdash;Sets the template that defines the visual appearance of the view.
-* `HeaderText`(`string`)&mdash;Defines the text that resides in the TabView Header for switching the views.
-* `HeaderImageSource`(`ImageSource`)&mdash;Defines the image source that resides in the TabView Header for switching the views.
+* `ControlTemplate` (`ControlTemplate`)&mdash;Sets the template that defines the visual appearance of the view.
+* `HeaderText` (`string`)&mdash;Defines the text that resides in the TabView Header for switching the views.
+* `HeaderImageSource` (`ImageSource`)&mdash;Defines the image source that resides in the TabView Header for switching the views.
 
 ## See Also
 

@@ -34,7 +34,6 @@ The Telerik UI for .NET MAUI Map is a data visualization control whose primary p
 
 - [Getting Started with Telerik UI for .NET MAUI Map]({%slug map-getting-started %})
 
-
 ## See Also
 
 - [.NET MAUI Map Product Page](https://www.telerik.com/maui-ui/map)

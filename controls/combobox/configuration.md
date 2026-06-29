@@ -78,13 +78,12 @@ The following image shows the result:
 
 Use the following properties to control how the drop-down opens, closes, and appears:
 
-- `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
-- `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
-- `DropDownMaxHeight` (`double`)&mdash;Defines the maximum height of the drop-down. Set this property when you want the drop-down to stay within a known height range. If you use both `DropDownMaxHeight` and `DropDownHeight`, the maximum height must be larger than the fixed height.
-- `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down relative to the control.
-- `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down is open. The default value is `True`.
-- `IsDropdownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down closes when the user selects or clears an item. The default value is `True`.
-- `OpenOnFocus` (`bool`)&mdash;Defines whether the drop-down opens when the control receives focus. The default value is `True`. This property applies to the editable ComboBox.
+* `DropDownWidth` (`double`)&mdash;Defines the width of the drop-down.
+* `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
+* `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined height for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be higher.
+* `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
+* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropDownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 The following example sets `DropDownWidth`:
 
@@ -102,7 +101,7 @@ The following example sets `DropDownVerticalOffset`:
 
 <snippet id='combobox-configuration-dropdownverticaloffset'/>
 
-The following example sets `IsDropdownClosedOnSelection`:
+The following example sets `IsDropDownClosedOnSelection`:
 
 <snippet id='combobox-configuration-dropdownvisibility-isdropdownclosed'/>
 

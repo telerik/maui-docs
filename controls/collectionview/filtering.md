@@ -111,7 +111,7 @@ The descriptor exposes the following properties:
 
 ## Nested Property Text Filter Descriptor
 
-The `NestedProprtyTextFilterDescriptor` is a descriptor which filters the nested properties.
+The `NestedPropertyTextFilterDescriptor` is a descriptor which filters the nested properties.
 
 The descriptor exposes the following properties:
 

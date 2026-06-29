@@ -34,6 +34,15 @@ The table below lists the mask characters that can be used with `TextMaskedEntry
 |`\\`|Escape. Escapes a mask character, turning it into a literal. `"\\"` is the escape sequence for a backslash.|
 |All other characters|All non-mask elements will appear as themselves within `RadTextMaskedEntry`. Literals always occupy a static position in the mask at run time, and cannot be moved or deleted by the user.|
 
+## Additional Properties
+
+The `RadTextMaskedEntry` provides the following additional properties:
+
+* `AllowOnlyCompletedValues` (`bool`)&mdash;Defines whether only completed (valid) values are accepted. When set to `True`, invalid values are not accepted. When set to `False`, incomplete values are accepted and the `ValueChanging` and `ValueChanged` events are raised.
+* `RestrictToAscii` (`bool`)&mdash;Defines whether the input is restricted to ASCII characters only.
+
+## Example
+
 The following example demonstrates how to create a `RadTextMaskedEntry`:
 
 <snippet id='textmaskedentry-getting-started-xaml' />

@@ -14,8 +14,9 @@ To display the component as a button, create a new `RadAIPromptButton` instance 
 
 The `RadAIPromptButton` inherits from `RadTemplatedButton` and provides the following additional properties:
 
-* `AIPrompt`(`RadAIPrompt`)&mdash;Defines the corresponding `RadAIPrompt` control.
-* `Popup`(`RadPopup`)&mdash;Defines the corresponding `RadPopup` control.
+* `AIPrompt` (`RadAIPrompt`)&mdash;Defines the corresponding `RadAIPrompt` control.
+* `Popup` (`RadPopup`)&mdash;Defines the corresponding `RadPopup` control.
+* `PopupContentViewStyle` (`Style` with target type `AIPromptPopupContentView`)&mdash;Defines the style applied to the popup content view which presents the AIPrompt.
 
 Here is an example on how you can define an AIPrompt Button:
 
