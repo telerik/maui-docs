@@ -16,10 +16,10 @@ The tables in the following sections list any differences between the APIs of th
 
 ## Migrate the Namespaces
 
-| Control | Control name | C# Namespace| XAML Namespcace |
+| Control | Control name | C# Namespace | XAML Namespace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
-| Xamarin ComboBox | `RadComboBox` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
-| .NET MAUI ComboBox | `RadComboBox` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |
+| Xamarin ComboBox | `RadComboBox` | using Telerik.XamarinForms.Input; | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" |
+| .NET MAUI ComboBox | `RadComboBox` | using Telerik.Maui.Controls; | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" |
 
 ## API Changes
 
@@ -32,5 +32,5 @@ The tables in the following sections list any differences between the APIs of th
 
 * [Migrating from Xamarin.Forms to .NET MAUI Application]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
-* [.NET MAUI ComboBox Product Page](https://www.telerik.com/maui-ui/checkbox)
+* [.NET MAUI ComboBox Product Page](https://www.telerik.com/maui-ui/combobox)
 * [.NET MAUI ComboBox Forum Page](https://www.telerik.com/forums/maui?tagId=1937)

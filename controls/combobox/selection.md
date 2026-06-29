@@ -83,8 +83,8 @@ The `SelectionChanged` event handler receives two parameters:
 
 - The `sender` which is the RadComboBox control.
 - `ComboBoxSelectionChangedEventArgs` provides the following properties:
-	- `AddedItems`: the items added to the SelectedItemsCollection
-	- `RemovedItems`: the items removed from the SelectedItemsCollection
+	- `AddedItems`: the items added to the SelectedItems
+	- `RemovedItems`: the items removed from the SelectedItems
 
 ## Commands
 
