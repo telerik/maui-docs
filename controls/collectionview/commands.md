@@ -49,7 +49,7 @@ This is the result:
 
 <snippet id='collectionview-grouptapcommand-model' />
 
-**2.** Create a `ViewModel` with a command that will be bound to the `RadCollectionView.GroupItemTapCommand`:
+**2.** Create a `ViewModel` with a command that will be bound to the `RadCollectionView.GroupTapCommand`:
 
 <snippet id='collectionview-grouptapcommand-viewmodel' />
 

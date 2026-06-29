@@ -1,7 +1,7 @@
 ---
 title: Screen Reader
 page_title: .NET MAUI CollectionView Documentation - Screen Reader
-description: The Telerik UI for .NET MAUI CollectionView provides screen reader support for Android and iOS.
+description: The Telerik UI for .NET MAUI CollectionView provides screen reader support for Android, iOS, MacCatalyst, and WinUI.
 position: 0
 slug: collectionview-accessibility-screen-reader
 tags: accessibility, collectionview, screen reader, accessibility support, dotnet maui

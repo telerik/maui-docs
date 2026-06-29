@@ -15,7 +15,7 @@ You can achieve a pull-to-refresh functionality in Telerik .NET MAUI CollectionV
 
 ## Example
 
-The following example demonstrates how to use the .NET MAUI `RefresView` with `RadCollectionView`.
+The following example demonstrates how to use the .NET MAUI `RefreshView` with `RadCollectionView`.
 
 **1.** Define the `RefreshView` and `RadCollectionView` in XAML:
 

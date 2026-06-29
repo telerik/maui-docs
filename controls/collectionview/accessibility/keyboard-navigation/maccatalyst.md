@@ -39,5 +39,5 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 
 ## See Also
 
-- [Keyboard navigation support on MacCatalyst]({%slug collectionview-keyboard-support-mac%})
+- [Keyboard navigation support on WinUI]({%slug collectionview-keyboard-support-winui%})
 - [Screen Reader]({%slug collectionview-accessibility-screen-reader%})

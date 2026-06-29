@@ -75,7 +75,7 @@ This is the result for `ItemTapped`:
 
 ![.NET MAUI CollectionView ItemTapped](images/collectionview-item-tapped.gif "Telerik .NET MAUI CollectionView")
 
-> For a runnable example demonstrating the CollectionView `ItemTapped` event or `GroupItemTapped` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
+> For a runnable example demonstrating the CollectionView `ItemTapped` event or `GroupTapped` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
 
 ## Scrolling Events
 
