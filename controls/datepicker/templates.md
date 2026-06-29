@@ -1,116 +1,119 @@
 ---
 title: Templates
-page_title: .NET MAUI DatePicker Documentation - Templates
-description: Learn more about the templates in the Telerik UI for .NET MAUI DatePicker control.
+page_title: .NET MAUI DatePicker Templates
+description: Learn how to customize the Telerik UI for .NET MAUI DatePicker with placeholder, display, header, and footer templates.
 position: 7
 previous_url: /controls/datepicker/datepicker-templates
 slug: datepicker-templates
 ---
 
-# .NET MAUI DatePicker Templates
+# Customize DatePicker Templates in .NET MAUI
 
-The Telerik UI for .NET MAUI DatePicker provides a set of templates for customizing its elements.
+Use the Telerik UI for .NET MAUI DatePicker templates to customize the placeholder area, selected date display, and the popup header and footer. This article helps you choose the correct template for each part of the control and shows how to apply them together.
+
+## Which DatePicker Template Should You Use
+
+Use the following templates depending on the part of the control you want to customize:
+
+| Template | Type | Use It When |
+|---|---|---|
+| `PlaceholderTemplate` | `ControlTemplate` | You want to change what the control shows before the user picks a date. |
+| `DisplayTemplate` | `ControlTemplate` | You want to customize how the selected date appears in the input area. |
+| `HeaderTemplate` | `ControlTemplate` | You want to replace or extend the content in the popup header. |
+| `FooterTemplate` | `ControlTemplate` | You want to replace or extend the content in the popup footer. |
 
 ## Placeholder Template
 
-The `PlaceholderTemplate`(`ControlTemplate`) defines the template visualized for the placeholder of the DatePicker. The following example demonstrates how to set the default placeholder template.
+Use `PlaceholderTemplate` when you want to replace the default placeholder content before the user selects a date.
+
+The following example shows how to use the default `PlaceholderTemplate`:
 
 <snippet id='datepicker-placeholder-default-template' />
 
-You can also customize the placeholder template.
-
-**1.** Define the DatePicker:
-
-<snippet id='datepicker-custom-templates' />
-
-**2.** Define the template.
-
-<snippet id='datepicker-placeholder-template' />
-
-**3.** Add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
-The following image shows the end result.
-
-![DatePicker PlaceholderTemplate](images/datepicker_placeholder_template.png)
-
 ## Display Template
 
-The `DisplayTemplate`(`ControlTemplate`) defines the template visualized when the picked date/time of the DatePicker is displayed. The following example demonstrates how to set the display template.
+Use `DisplayTemplate` when you want to change how the selected date is rendered after the user picks a value.
+
+The following example shows how to use the default `DisplayTemplate`:
 
 <snippet id='datepicker-display-default-template' />
 
-You can also customize the display template.
-
-**1.** Define the DatePicker:
-
-<snippet id='datepicker-display-template' />
-
-**2.** Define the template.
-
-<snippet id='datepicker-placeholder-template' />
-
-**1.** Add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
-The following image shows the end result.
-
-![DatePicker DisplayTemplate](images/datepicker_display_template.png)
-
 ## Header Template
 
-The `HeaderTemplate`(`ControlTemplate`) defines what will be displayed inside the dialog (popup) header of the DatePicker. The following example demonstrates how to set the header template.
+Use `HeaderTemplate` when you want to customize the popup header area.
+
+The following example shows how to use the default `HeaderTemplate`:
 
 <snippet id='datepicker-header-default-template' />
 
-You can also customize the header template.
-
-**1.** Define the DatePicker:
-
-<snippet id='datepicker-display-template' />
-
-**2.** Define the template.
-
-<snippet id='datepicker-header-template' />
-
-**3.** Add the following namespace:
-
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
-
 ## Footer Template
 
-The `FooterTemplate`(`ControlTemplate`) defines what will be displayed inside the dialog (popup) footer of the DatePicker. The following example demonstrates how to set the footer template.
+Use `FooterTemplate` when you want to customize the popup footer area.
+
+The following example shows how to use the default `FooterTemplate`:
 
 <snippet id='datepicker-footer-default-template' />
 
-You can also customize the footer template.
+## Example with Default Templates
 
-**1.** Define the DatePicker:
+After you define the templates in your page resources, assign them to the DatePicker and its selector settings:
+
+```xaml
+<telerik:RadDatePicker MinimumDate="2020,01,1"
+					   MaximumDate="2025,12,31"
+					   DisplayTemplate="{StaticResource Picker_DisplayView_ControlTemplate}"
+					   PlaceholderTemplate="{StaticResource Picker_PlaceholderView_ControlTemplate}">
+	<telerik:RadDatePicker.SelectorSettings>
+		<telerik:PickerPopupSelectorSettings HeaderTemplate="{StaticResource PopupView_Header_ControlTemplate}"
+										   HeaderLabelText="Date Picker"
+										   FooterTemplate="{StaticResource PopupView_Footer_ControlTemplate}" />
+	</telerik:RadDatePicker.SelectorSettings>
+</telerik:RadDatePicker>
+```
+
+## Customization Example
+
+The following example builds a customized DatePicker step by step.
+
+1. Define a simple DatePicker:
+
+<snippet id='datepicker-custom-templates' />
+
+2. Add the templates to the page resources.
+
+### Define a Custom PlaceholderTemplate
+
+<snippet id='datepicker-placeholder-template' />
+
+The following image shows the custom placeholder template:
+
+![DatePicker PlaceholderTemplate](images/datepicker_placeholder_template.png)
+
+### Define a Custom DisplayTemplate
 
 <snippet id='datepicker-display-template' />
 
-**2.** Define the template.
+The following image shows the custom display template:
+
+![DatePicker DisplayTemplate](images/datepicker_display_template.png)
+
+### Define a Custom HeaderTemplate
+
+<snippet id='datepicker-header-template' />
+
+### Define a Custom FooterTemplate
 
 <snippet id='datepicker-footer-template' />
 
-**3.** Add the following namespace:
+3. Add the `telerik` namespace if it is not already declared in your XAML page:
 
-```XAML
+```xaml
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-The following image shows the end result.
+The following image shows customized header and footer templates:
 
-![DatePicker FooterTemplate](images/datepicker_header_footer_template.png)
-
+![DatePicker Header and Footer Templates](images/datepicker_header_footer_template.png)
 
 ## See Also
 

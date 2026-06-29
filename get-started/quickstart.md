@@ -1,7 +1,7 @@
 ---
 title: First Steps
-page_title: Telerik UI for .NET MAUI First Steps
-description: "Get started with Telerik UI for .NET MAUI by following the essential steps to set up your license, create a project, and add your first control."
+page_title: First Steps with Telerik UI for .NET MAUI
+description: "Get started with Telerik UI for .NET MAUI. Set up your license, install the Telerik package, register the controls, and add a component."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, macos, install, quick
 slug: maui-quick-start
 tag: updated
@@ -13,12 +13,16 @@ position: 1
 
 This guide walks you through the essential steps to get Telerik UI for .NET MAUI up and running in your app.
 
+By the end of this guide, you will have a working .NET MAUI project that uses Telerik UI for .NET MAUI and renders your first Telerik component.
+
 ## Prerequisites
 
-To create a .NET MAUI project, you need either of the following:
+Before you begin, choose the development environment that you want to use:
 
 * <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=vswin" target="_blank">Visual Studio 2022 17.12 or later</a> with installed <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=vswin#installation-1" target="_blank">.NET MAUI workload</a>.
 * <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Visual Studio Code</a> with the .NET MAUI extension and the <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-8.0&tabs=visual-studio-code#install-net-and-net-maui-workloads" target="_blank">.NET and .NET MAUI workloads</a>.
+
+You only need to follow one of the IDE-specific paths later in this article.
 
 ## Step 1: Start Your Free Trial
 
@@ -39,6 +43,15 @@ This will make the license key available to all Telerik .NET apps that you devel
 ## Step 3: Create a New MAUI Project
 
 Choose your preferred IDE to create a new .NET MAUI project and install the Telerik UI for .NET MAUI controls:
+
+Both IDE workflows follow the same sequence:
+
+1. Create a basic .NET MAUI project.
+1. Install the Telerik UI for .NET MAUI package.
+1. Register the Telerik controls.
+1. Add your first Telerik UI component.
+
+> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
 
 <TabStrip>
 <TabStripTab title="Visual Studio">
@@ -97,7 +110,7 @@ The `Telerik.UI.for.Maui` package is available on the public <a href="https://ww
 
 >caption Install the Telerik UI for .NET MAUI package:
 
-1. Select the `telerik.com` **Package source** that you [added earlier](#step-2-add-the-telerik-nuget-server). As this is a private NuGet feed, you must authenticate using `api-key` as the username and [your NuGet API key](#step-2-add-the-telerik-nuget-server) as the password.
+1. Select the `telerik.com` **Package source** that you added in the previous procedure. As this is a private NuGet feed, authenticate by using `api-key` as the username and your NuGet API key as the password.
 
 1. Select the **Browse** tab, enter `maui` in the search box, and then select the `Telerik.UI.for.Maui` package.
 
@@ -113,8 +126,6 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 @[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
 
-> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
-
 ### Step 4: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
@@ -128,7 +139,8 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 ### Step 1: Create a New MAUI Project
 
-1. Open Visual Studio Code and press `Cmd/Ctrl+Shift+P`. Enter **.NET: New Project...** in the input field.
+1. Open Visual Studio Code and open the Command Palette by pressing `Cmd`+`Shift`+`P` on Mac or `Ctrl`+`Shift`+`P` on Windows.
+1. Enter **.NET: New Project...** in the input field.
 
 1. Select the **.NET MAUI App** option.
 
@@ -175,7 +187,7 @@ Use the command below to add the Telerik NuGet source. Replace the placeholder w
 dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username api-key --password <YOUR-NUGET-API-KEY> --store-password-in-clear-text
 ```
 
->See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials.
+> See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials.
 
 Then install the package:
 
@@ -189,8 +201,6 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 @[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
 
-> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
-
 ### Step 4: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
@@ -203,6 +213,8 @@ If your .NET MAUI project uses the default project template provided by Microsof
 </TabStrip>
 
 ## Next Steps
+
+Continue with the following resources after you complete the quick start:
 
 @[template](/_contentTemplates/common/see-also.md#see-also)
 

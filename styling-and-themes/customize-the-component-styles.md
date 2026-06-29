@@ -1,7 +1,7 @@
 ---
 title: Customizing the Controls' Styles
 page_title: Customizing the Controls' Styles
-description: Learn how to customize the styles and appearance of the Telerik UI for .NET MAUI components by using the resource dictionary files provided by the Telerik UI theme.
+description: Learn how to customize Telerik UI for .NET MAUI control styles in XAML or dedicated resource dictionaries for reusable, consistent app theming.
 slug: theme-component-styles-customization
 tags: telerik,.net maui,theme,custom
 position: 5
@@ -9,25 +9,31 @@ position: 5
 
 # Customizing the Controls' Styles
 
-The Telerik UI for .NET MAUI themes let you apply custom styles not only by [changing the colors in the theme swatches]({%slug themes-customization %}), but also by selectively customizing individual controls. You can achieve this by using the control-specific resource dictionaries with styles and templates provided by the Telerik and Platform themes.
+Use Telerik UI for .NET MAUI theme resources to customize control styles beyond color swatches. This article shows two approaches: a quick per-page customization and a reusable resource dictionary workflow for multi-app consistency.
 
-The Telerik theming mechanism lets you customize individual controls like the DataGrid in two ways:
+## Prerequisites
 
-* By using the provided styles and data templates and applying them directly in the XAML file where you define the control.
-* By creating a dedicated resource dictionary where you paste and modify the desired styles and data templates.
+Before you customize component styles, ensure that:
 
-> Before proceeding with the next steps, make sure that the [Telerik theming is enabled]({%slug themes-overview%}#using-the-maui-theming).
+1. Telerik theming is enabled in the app. For setup details, see [Enable Telerik theming in .NET MAUI]({%slug themes-overview%}#using-the-maui-theming).
+1. The `\TelerikTheming\Styles` folder exists in your project output and contains control-specific resource dictionaries.
+1. You already defined your base theme colors, if needed. For details, see [Customize Telerik theme colors]({%slug themes-customization %}).
+
+>note
+> Keep your custom style keys unique to avoid accidental overrides when merging multiple dictionaries.
 
 ## Customizing the Control in Its Declaration
 
-A quick way to change the appearance of a control is to directly copy styles and control templates from the `\TelerikTheming\Styles` folder and use them in the XAML file where you define the control, for example, `MainPage.xaml`. This approach, however, doesn't scale well if you intend to apply your company's distinctive colors and styles to multiple applications.
+Use this approach when you need a local style override in one XAML page, such as `MainPage.xaml`.
 
-```XAML
-    <telerik:RadDataGrid x:Name="grid" 
-                     ItemsSource="{Binding Clubs}" >
-        <telerik:RadDataGrid.BindingContext>
-            <local:ViewModel />
-        </telerik:RadDataGrid.BindingContext>
+In the following example, the DataGrid applies custom alternate row and selection styles copied from `\TelerikTheming\Styles\DataGrid.xaml` and then adjusted locally:
+
+```xaml
+<telerik:RadDataGrid x:Name="grid"
+                     ItemsSource="{Binding Clubs}">
+    <telerik:RadDataGrid.BindingContext>
+        <local:ViewModel />
+    </telerik:RadDataGrid.BindingContext>
 
         <!--Adding custom styles for alternating rows. The source file is `\TelerikTheming\Styles\DataGrid.xaml`.-->
         <telerik:RadDataGrid.AlternateRowBackgroundStyle>
@@ -54,33 +60,29 @@ The Telerik theme lets you customize and at the same time unify the styles of yo
 
 A common scenario is to apply your company's colors by [modifying the theme swatch]({%slug themes-customization %}) and then to additionally adjust the styles of a specific control by using your custom colors. This allows you to address specific design or accessibility requirements. As the colors and styles live in dedicated resource dictionaries, you can copy them to other applications, achieving consistent styles.
 
-To customize the desired control-specific theme styles:
-
-1. [Customize the theme colors]({%slug themes-customization %}).
-1. Copy the theme resources that target the desired control and apply your changes.
-1. Handle any style dependencies.
-
-### Copy and Modify the Theme Resources
+### Copying and Modifying Theme Resources
 
 To modify the Telerik theme styles of a certain control, use the available resource dictionaries in the `\TelerikTheming\Styles` folder as a starting point. These files are generated when you enable the Telerik theming and serve as a reference for your customizations.
 
 The next steps illustrate how to customize the theme styles of the DataGrid control and assume that you've already [customized the colors]({%slug themes-customization %}) of the theme:
 
-**1.** Go to the `Resources\Styles` folder and create a resource dictionary file, for example, `CustomGridStyles.xaml`.
+1. Go to the `Resources\Styles` folder and create a resource dictionary file, for example, `CustomGridStyles.xaml`.
 
-**2.** Add the `telerik` namespace:
+1. Add the `telerik` namespace:
 
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+ ```xaml
+ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+ ```
 
-**3.** Open the `\TelerikTheming\Styles\DataGrid.xaml` resource dictionary and copy the styles and control templates that you intend to modify.
+3. Open `\TelerikTheming\Styles\DataGrid.xaml` and copy the templates and styles you want to modify.
+1. Paste the copied definitions into `Resources\Styles\CustomGridStyles.xaml`.
+1. Update the copied definitions with your design values.
 
-**4.** Paste the copied styles and control templates into the file that you created in the `Resources\Styles` folder, for example, into the `Resources\Styles\CustomGridStyles.xaml` file.
+The following example customizes drag and reorder visuals and applies them through a custom based-on style:
 
-**5.** Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml`file, for example:
+1. Apply the desired changes to the theme styles of the control in the `CustomGridStyles.xaml` file, for example:
 
-```XAML
+```xaml
     <DataTemplate x:Key="DataGridColumnHeaderDragVisualTemplate">
         <!--Customize the 'BackgroundColor' and the 'CornerRadius'.-->
         <telerik:RadBorder BackgroundColor="{DynamicResource RadPrimarySubtleActiveColor}"
@@ -108,18 +110,19 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
     </Style>
 ```
 
-**6.** In the `MainPage.xaml`, add the `CustomRadDataGridStyle` to the declaration of the Grid:
+2. In `MainPage.xaml`, apply the custom style to the DataGrid declaration.
 
-```XAML
-    <telerik:RadDataGrid x:Name="grid" Style="{StaticResource CustomRadDataGridStyle}"
-                     ItemsSource="{Binding Clubs}" >
-        <telerik:RadDataGrid.BindingContext>
+```xaml
+<telerik:RadDataGrid x:Name="grid"
+                     Style="{StaticResource CustomRadDataGridStyle}"
+                     ItemsSource="{Binding Clubs}">
+    <telerik:RadDataGrid.BindingContext>
         <local:ViewModel />
-        </telerik:RadDataGrid.BindingContext>
-    </telerik:RadDataGrid>
+    </telerik:RadDataGrid.BindingContext>
+</telerik:RadDataGrid>
 ```
 
-**7.** In the `App.xaml.cs` code behind, merge the `CustomGridStyles` resource dictionary after the Telerik theme. This allows the application to load the theme resources first.
+3. In `App.xaml.cs`, merge the custom dictionary after the Telerik theme dictionary.
 
 ```C#
     public App()
@@ -137,6 +140,18 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
         return new Window(new MainPage());
     }
 ```
+
+>important
+> Merge your custom dictionary after Telerik theme resources. If you merge it earlier, Telerik default styles can override your custom setters.
+
+### Troubleshooting Common Issues
+
+If the styles are not applied, check the following:
+
+1. The custom style uses `BasedOn="{StaticResource RadDataGridStyle}"` and the base style key exists.
+1. `CustomGridStyles.xaml` is merged in `App.xaml.cs` after Telerik theme resources.
+1. The DataGrid `Style` property points to `CustomRadDataGridStyle`.
+1. Dynamic resource keys, such as `RadPrimarySubtleActiveColor`, are defined in the active theme dictionaries.
 
 ## See Also
 

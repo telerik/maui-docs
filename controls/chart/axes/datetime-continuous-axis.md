@@ -1,7 +1,7 @@
 ---
 title: DateTime Continuous Axis
-page_title: .NET MAUI Chart Documentation - DateTime Continuous Axis
-description: Check our &quot;DateTimeContinuous Axis&quot; documentation article for Telerik Chart for .NET MAUI control.
+page_title: .NET MAUI Chart DateTime Continuous Axis
+description: Learn when to use the Telerik UI for .NET MAUI DateTimeContinuousAxis, how it builds timeline slots, and how to configure and format it.
 previous_url: /controls/chart/axes/axes-datetime-continuous-axis
 position: 4
 slug: axes-date-time-continuous-axis
@@ -9,34 +9,46 @@ slug: axes-date-time-continuous-axis
 
 # .NET MAUI Chart DateTime Continuous Axis
 
-The DateTime Continuous Axis is a special axis that extends the base `CartesianAxis` class and is a hybrid between a categorical and a numerical axis. `DateTimeContinuousAxis` works with categorical data but instead of categories, the axis builds time slots depending on its `Minimum`, `Maximum`, and `MajorStep` values.
+Use `DateTimeContinuousAxis` when your chart data is organized by `DateTime` values and you want the horizontal or vertical axis to behave like a true timeline. Instead of treating each value as an isolated category, the axis builds time slots based on `Minimum`, `Maximum`, and `MajorStep`.
 
-The DateTime Continuous Axis also expects valid `DateTime` values so that the data can be plotted correctly. The `DateTimeContinuousAxis` is a timeline where each data point has a position depending on its `DateTime` value. The timeline range properties are automatically calculated if not set explicitly by the user: the default value of the major step is the smallest difference between any two `DateTime` values. As the axis behaves like a numerical axis, it can have empty slots if no data is available for these slots.
+`DateTimeContinuousAxis` expects valid `DateTime` values so that the chart can position each data point correctly on the timeline. If you do not set the axis range properties explicitly, the chart calculates them automatically. The default major step is the smallest difference between any two `DateTime` values in the data source. Because the axis behaves like a numerical axis, it can display empty time slots when no data exists for a given interval.
 
-The `CategoricalAxis` inherits from the base `Axis` class. For more information, refer to the article on [inherited properties]({% slug axes-overview %}).
+`DateTimeContinuousAxis` inherits from `CartesianAxis`. For more information about shared axis members, see [Axis Overview]({%slug axes-overview%}).
+
+## When Should You Use DateTimeContinuousAxis
+
+Use `DateTimeContinuousAxis` when you want to:
+
+- Plot data points according to their actual `DateTime` value instead of their position in a category list.
+- Show gaps in the timeline when data is missing for certain time intervals.
+- Control the timeline range and interval units explicitly.
+
+If you want each value to appear as a separate category regardless of the time difference between items, use a categorical axis instead.
 
 ## Features
 
-The DateTime Continuous Axis exposes the following properties:
+Use the following properties to configure `DateTimeContinuousAxis`:
 
-- `Minimum`&mdash;Defines the start value of the timeline. Specify `DateTime.Minimum` to clear the value and force the axis to determine it automatically, depending on the smallest present `DateTime` value.
-- `Maximum`&mdash;Defines the end value of the timeline. Specify `DateTime.Maximum` to clear the value and force the axis to determine it automatically, depending on the greatest present `DateTime` value.
-- `PlotMode`&mdash;Defines the strategy that is used to position data points along the axis time slots. The available options are `{ BetweenTicks, OnTicks }`.
-- `MajorStep`&mdash;Defines the user-defined step between two adjacent time slots. Specify `double.PositiveInfinity` to clear the value and make the axis calculate an automatic step, depending on the smallest difference between any two dates.
-- `MajorStepUnit`&mdash;Defines what `DateTime` component to which the `MajorStep` property refers (`{ Year, Quarter, Month, Week, Day, Hour, Minute, Second, Millisecond }`).
-- `GapLength`&mdash;Defines the distance (in logical units [0,1]) between two adjacent time slots. The default value is `0.3`. As an example, if you have two Bar Series combined in the Cluster mode, you can remove the space between the bars by setting the `GapLength` property to `0`.
+- `Minimum`&mdash;Defines the start value of the timeline. Set it to `DateTime.Minimum` to clear the value and let the axis determine the start automatically from the smallest available date.
+- `Maximum`&mdash;Defines the end value of the timeline. Set it to `DateTime.Maximum` to clear the value and let the axis determine the end automatically from the greatest available date.
+- `PlotMode`&mdash;Defines how data points are positioned relative to the time slots. The available values are `BetweenTicks` and `OnTicks`.
+- `MajorStep`&mdash;Defines the interval between adjacent time slots. Set it to `double.PositiveInfinity` to clear the value and let the axis calculate it automatically from the smallest difference between any two dates.
+- `MajorStepUnit`&mdash;Defines which `DateTime` component the `MajorStep` value refers to: `Year`, `Quarter`, `Month`, `Week`, `Day`, `Hour`, `Minute`, `Second`, or `Millisecond`.
+- `GapLength`&mdash;Defines the distance in logical units `[0,1]` between adjacent time slots. The default value is `0.3`. For example, when clustered bar series should touch each other, set `GapLength` to `0`.
+
+> The axis interval can be calculated automatically or fixed with `MajorStep` and `MajorStepUnit`.
 
 ## Example
 
-The following example shows how to format the axis labels on the DateTime Continuous Axis:
+The following example shows how to format the labels on a `DateTimeContinuousAxis`.
 
-**1.** Create the needed business objects:
+1. Create the business object class:
 
 <snippet id='temporal-data-model' />
 
-**2.** Create a `ViewModel`:
+2. Create a `ViewModel` that exposes time-based data:
 
-```C#
+```csharp
 public class ViewModel
 {
     public ObservableCollection<TemporalData> Data { get; set; }
@@ -65,9 +77,9 @@ public class ViewModel
 }
 ```
 
-**3.** Create a class, for example, `DateLabelFormatter` that inherits from `LabelFormatterBase<DateTime>` for the DateTime Continuous Axis.
+3. Create a `DateLabelFormatter` class that inherits from `LabelFormatterBase<DateTime>`:
 
-```C#
+```csharp
 public class DateLabelFormatter : LabelFormatterBase<DateTime>
 {
     public override string FormatTypedValue(DateTime value)
@@ -92,38 +104,40 @@ public class DateLabelFormatter : LabelFormatterBase<DateTime>
 }
 ```
 
-**4.** Use the following snippet to declare the `RadChart` in XAML :
+4. Declare the `RadCartesianChart` in XAML and assign the axis formatter:
 
- ```XAML
+```xaml
 <telerik:RadCartesianChart>
-	<telerik:RadCartesianChart.BindingContext>
-	    <local:ViewModel />
-	</telerik:RadCartesianChart.BindingContext>
-	<telerik:RadCartesianChart.HorizontalAxis>
-	    <telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
-	                                         MajorStepUnit="Day">
-	        <telerik:DateTimeContinuousAxis.LabelFormatter>
-	            <local:DateLabelFormatter />
-	        </telerik:DateTimeContinuousAxis.LabelFormatter>
-	    </telerik:DateTimeContinuousAxis>
-	</telerik:RadCartesianChart.HorizontalAxis>
-	<telerik:RadCartesianChart.VerticalAxis>
-	    <telerik:NumericalAxis LabelFormat="C"
-	                                MajorStep="0.5"
-	                                Minimum="-1"
-	                                Maximum="1" />
-	</telerik:RadCartesianChart.VerticalAxis>
-	<telerik:RadCartesianChart.Series>
-	    <telerik:LineSeries ItemsSource="{Binding Data}"
+    <telerik:RadCartesianChart.BindingContext>
+        <local:ViewModel />
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
+                                         MajorStepUnit="Day">
+            <telerik:DateTimeContinuousAxis.LabelFormatter>
+                <local:DateLabelFormatter />
+            </telerik:DateTimeContinuousAxis.LabelFormatter>
+        </telerik:DateTimeContinuousAxis>
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis LabelFormat="C"
+                               MajorStep="0.5"
+                               Minimum="-1"
+                               Maximum="1" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>
+        <telerik:LineSeries ItemsSource="{Binding Data}"
                             CategoryBinding="Date"
                             ValueBinding="Value" />
-	</telerik:RadCartesianChart.Series>
+    </telerik:RadCartesianChart.Series>
 </telerik:RadCartesianChart>
- ```
+```
 
-The following image shows how the DateTime Continuous Axis `Formatter` looks:
+In this example, the axis uses `MajorStepUnit="Day"` and a custom label formatter so that each point is positioned on a daily timeline and each label shows a day suffix.
 
-![DateTimeContinuous Axis](images/chart-date-time-continuous-axis-example.png)
+The following image shows the formatted `DateTimeContinuousAxis` labels:
+
+![Formatted DateTimeContinuousAxis labels in a .NET MAUI Chart](images/chart-date-time-continuous-axis-example.png)
 
 ## See Also
 
