@@ -62,7 +62,7 @@ The following image shows the end result.
 
 ## Font Options
 
-The following properties specify the font options that apply to the content when `Content` is `string` and `ContentTemplate` is not set:
+The following properties specify the font options for the `Button.Text`:
 
 * `FontFamily` (`string`)&mdash;Specifies the font family of the `Button.Text`.
 * `FontSize` (`double`)&mdash;Specifies the font size of the `Button.Text` in pixels.

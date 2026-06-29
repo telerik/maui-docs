@@ -14,6 +14,7 @@ The [Telerik UI for .NET MAUI TemplatedButton]({%slug templatedbutton-overview %
 | ------ | ------ |
 | `Tab` | Enters or exits the TemplatedButton. |
 | `Enter` | Makes the TemplatedButton perform a click action. |
+| `Space` | Makes the TemplatedButton perform a click action. |
 
 ## See Also
 

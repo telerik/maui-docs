@@ -22,6 +22,7 @@ The DropDownButton provides the following `CommonStates` visual states:
 | `FocusedPressed` | (Desktop-only) Applies when the button is pressed and focused by using the keyboard. |
 | `MouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control. |
 | `FocusedMouseOver` | (Desktop-only) Applies when the mouse pointer hovers over the control and the control is focused by using the keyboard. |
+| `Focused` | (Desktop-only) Applies when the button is focused by using the keyboard and the drop-down is closed. |
 | `Disabled` | Applies when the button is disabled. |
 
 ## Using the Visual States
