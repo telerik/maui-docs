@@ -15,7 +15,7 @@ slug: datagrid-current-cell
 
 The DataGrid allows you to use the `CurrentCell` property of type `DataGridCellInfo` to programmatically modify the current cell during keyboard navigation, when using the mouse, and so on.
 
-The DataGrid also supports the `CurrentCellChanged` event which is invoked when the current cell changes as a result of user interaction with the keyboard.
+The DataGrid also supports the `CurrentCellChanged` event, which is invoked whenever the `CurrentCell` changes (for example, through keyboard navigation, mouse/touch interaction, or programmatic updates).
 
 The `CurrentCellChanged` event handler receives the following parameters:
 

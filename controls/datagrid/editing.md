@@ -30,12 +30,12 @@ The following table lists the integrated .NET MAUI control for editing the value
 
 | Column Type 		| Editor 			|
 |-------------------|-------------------|
-| `TextColumn`		| Entry				|
+| `TextColumn`		| RadEntry			|
 | `NumericalColumn`	| RadNumericInput	|
 | `BooleanColumn`	| CheckBox		    |
 | `DateColumn`		| RadDatePicker		|
 | `TimeColumn`		| RadTimePicker		|
-| `PickerColumn`	| RadComboBox	    |
+| `DataGridComboBoxColumn`	| RadComboBox	    |
 | `TemplateColumn`	| A custom editor by defining `CellEditTemplate`. |
 
 ## Custom Editors
@@ -72,4 +72,3 @@ The following snippet shows a `CellEditorStyle` applied to the `DataGridTextColu
 - [Editing Commands in the Telerik UI for .NET MAUI DataGrid]({%slug datagrid-commands-editing%})
 - [Column Cell Templates in the .NET MAUI DataGrid]({%slug datagrid-cell-templates%})
 - [Styling the Columns of the .NET MAUI DataGrid]({%slug datagrid-columns-styling%})
-

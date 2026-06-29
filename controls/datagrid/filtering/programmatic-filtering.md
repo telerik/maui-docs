@@ -9,7 +9,7 @@ slug: datagrid-programmatic-filtering
 # Programmatic Filtering
 
 Programmatic Filtering can be used for external filtering. For example, disable the built-in filtering UI and to filter the data in the grid programmatically. 
-Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) control. 
+Programmatic Filtering is achieved by adding different filter descriptors in the `FilterDescriptors` collection of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) control. 
 
 The following descriptor types are supported:
 
@@ -100,7 +100,7 @@ It exposes the following properties:
 ```XAML
 <telerik:TimeSpanFilterDescriptor PropertyName="Time"
                                   Operator="IsLessThan"
-                                  Value="22/11/21"/>
+                                  Value="22:11:21"/>
 ```
 
 ### Boolean Filter Descriptor
@@ -149,10 +149,16 @@ The `DistinctValuesFilterDescriptor` is a descriptor which filters by distinct v
 It exposes the following properties:
 
 * `PropertyName`&mdash;Gets or sets the name of the property that is used to retrieve the filter value.
-* `Value`&mdash;Gets or sets the value used in the comparisons. This is the right operand of the comparison.
+* `Value`&mdash;Gets or sets the collection of values used in the comparisons (for example, `HashSet<object>`).
 
-```XAML
-<telerik:DistinctValuesFilterDescriptor PropertyName="Country" Value="Austria" />
+```C#
+var distinctValuesFilterDescriptor = new DistinctValuesFilterDescriptor
+{
+    PropertyName = "Country",
+    Value = new HashSet<object> { "Austria", "Spain" }
+};
+
+this.dataGrid.FilterDescriptors.Add(distinctValuesFilterDescriptor);
 ```
 
 ### Composite Filter Descriptor

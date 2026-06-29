@@ -31,7 +31,7 @@ The Telerik DataGrid allows you to apply custom filter control to the DataGrid c
 
 ## Programmatic Filtering
 
-Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptor` collection of the control.
+Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptors` collection of the control.
 
 >tip Go to the [Programmatic Filtering]({%slug datagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
 

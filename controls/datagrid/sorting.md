@@ -62,7 +62,7 @@ The `DelegateSortDescriptor` exposes the following properties:
 * `KeyLookup`&mdash;Gets or sets the `IKeyLookup` instance that is used to retrieve the sort key for each data item.
 * `SortOrder`&mdash;Gets or sets the order of the sorting (ascending or descending).
 
-To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookUp` property.
+To use a `DelegateSortDescriptor`, create a class that implements the `IKeyLookup` interface which will return the key by which you want to sort. Then, add the `DelegateSortDescriptor` to the `RadDataGrid.SortDescriptors` collection and set its `KeyLookup` property.
 
 The following example demonstrates a custom `IKeyLookup` implementation.
 
