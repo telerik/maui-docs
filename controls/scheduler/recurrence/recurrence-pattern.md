@@ -22,7 +22,7 @@ Check below a list of the properties exposed by the `RecurrencePattern` class:
 *  `MinutesOfHour`&mdash;Defines the minutes of an hour. 
 * `FirstDayOfWeek` &mdash; Defines the day on which the week starts.
 * `Interval` &mdash;Defines the interval.
-* `MaxOccurences`&mdash;Defines the limit for the number of occurrences.
+* `MaxOccurrences`&mdash;Defines the limit for the number of occurrences.
 * `MonthOfYear` &mdash;Defines the month in the year.
 * `RecursUntil`&mdash; Defines the end date of the appointment occurrences.
 
