@@ -26,5 +26,5 @@ When migrating the Border from Xamarin to .NET MAUI, consider the following diff
 
 * [Migrating from Xamarin.Forms to .NET MAUI]({% slug migrate-to-net-maui %})
 * [.NET MAUI Sample Applications]({% slug sampleapps-overview %})
-* [.NET MAUI Barcode Product Page](https://www.telerik.com/maui-ui/barcode)
-* [.NET MAUI Barcode Forum Page](https://www.telerik.com/forums/maui?tagId=1780)
+* [.NET MAUI Border Product Page](https://www.telerik.com/maui-ui/border)
+* [.NET MAUI Border Forum Page](https://www.telerik.com/forums/maui?tagId=1763)
