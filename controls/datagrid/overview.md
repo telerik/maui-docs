@@ -80,10 +80,6 @@ Use keyboard keys for navigation in the MAUI DataGrid control. This feature is a
 
 By default, the row height is calculated according to the cell content. You can override this behavior by setting a [height for the rows]({%slug datagrid-row-height%}). 
 
-## Column Headers Visibility
-
-The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is true. Set it to `False` to remove the column headers row from the DataGrid. For more details, refer to the [Defining Columns]({%slug datagrid-columns-overview%}#column-headers-visibility) article.
-
 ## Column Footer
 
 The Telerik UI for .NET MAUI DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual [footer cells]({%slug datagrid-column-footer%}) for each column.
