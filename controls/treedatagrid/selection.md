@@ -65,8 +65,8 @@ Once you make a selection, you can get or modify the collection with the selecte
 
 The `SelectedItem` property gets or sets the value of the selected item in the `DataGrid`. The type of the `SelectedItem` depends on the value of the `SelectionUnit`.
 
-* `Row`&mdash;`SelectedItem` is of type `DataGridCellInfo`.
-* `Cell`&mdash;`SelectedItem` is the same type as the business object.
+* `Row`&mdash;`SelectedItem` is the same type as the business object.
+* `Cell`&mdash;`SelectedItem` is of type `DataGridCellInfo`.
 
 ## Events
 
