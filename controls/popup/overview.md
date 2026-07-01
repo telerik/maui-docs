@@ -17,7 +17,7 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 ## Key Features of the .NET MAUI Popup
 
-* [Modal popups]({% slug popup-modal %})&mdash;You can define whether the popup will be modal or not. In both cases, the UI behind the MAUI popup gets inactive and cannot be used until the popup is closed. When you have a modal popup, it will not be automatically closed when the user clicks outside its viewport.
+* [Modal popups]({% slug popup-modal %})&mdash;You can define whether the popup will be modal or not. For modal popups, the UI behind is inactive and cannot be used until the popup is closed, and tapping outside does not dismiss it. For non-modal popups, tapping outside the popup closes it automatically.
 
 * [Placement configuration]({% slug popup-placement %})&mdash;You can place the .NET MAUI Popup control in various positions by using the supported settings such as the placement mode, target, and horizontal and vertical offsets.
 
@@ -27,7 +27,7 @@ The Popup lets you display content of your choice on top of an existing view. Th
 
 ## Next Steps
 
-* [Getting Started with Telerik UI for .NE MAUI Popup]({% slug popup-getting-started %})
+* [Getting Started with Telerik UI for .NET MAUI Popup]({% slug popup-getting-started %})
 
 ## See Also
 
