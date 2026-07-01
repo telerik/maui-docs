@@ -39,7 +39,7 @@ Here is the result:
 
 ## Custom Filtering Behavior
 
-You can override the default item filtering logic by applying custom filtering in the ComboBox. In this case the built-in search is performed upon the filtered items. To implement a custom filter:
+You can override the default item filtering logic by applying custom filtering in the ComboBox. When you override `FilterItems`, your custom logic fully replaces the built-in filtering for that operation (no second built-in search pass is applied). To implement a custom filter:
 
 1. Create a custom class that inherits from `ComboBoxFilteringBehavior` and override its `FilterItems` method with a custom filtering condition.
 1. Assign the `ComboBoxFilteringBehavior` to the `FilteringBehavior` property of the `ComboBox`.

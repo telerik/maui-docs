@@ -19,7 +19,7 @@ Use the following areas depending on the behavior you want to change:
 | Placeholder | `Placeholder`, `PlaceholderColor` | You want to guide the user before a value is selected or entered. |
 | Text input | `Text`, `IsSpellCheckEnabled`, `Keyboard` | You want to control what the user types and how the input behaves. |
 | Clear action | `IsClearButtonVisible` | You want to show or hide the clear button. |
-| Drop-down behavior | `DropDownWidth`, `DropDownHeight`, `DropDownMaxHeight`, `DropDownVerticalOffset`, `IsDropDownOpen`, `IsDropdownClosedOnSelection`, `OpenOnFocus` | You want to control how the drop-down opens, closes, and appears. |
+| Drop-down behavior | `DropDownWidth`, `DropDownHeight`, `DropDownMaxHeight`, `DropDownVerticalOffset`, `IsDropDownOpen`, `IsDropDownClosedOnSelection`, `OpenOnFocus` | You want to control how the drop-down opens, closes, and appears. |
 
 ## Placeholder
 
@@ -82,7 +82,7 @@ Use the following properties to control how the drop-down opens, closes, and app
 * `DropDownHeight` (`double`)&mdash;Defines the height of the drop-down.
 * `DropDownMaxHeight` (`double`)&mdash;Defines the max height of the drop-down. Always set the `DropDownMaxHeight`, so that you can have a predefined height for the drop-down. If using both the `DropDownMaxHeight` and `DropDownHeight` properties, the max height value must be higher.
 * `DropDownVerticalOffset` (`double`)&mdash;Defines the vertical offset of the drop-down part of the control. This property allows an option to modify the control with no space between the ComboBox and the drop-down.
-* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `true`. 
+* `IsDropDownOpen` (`bool`)&mdash;Defines whether the drop-down part of the control is opened. The default value is `false`. 
 * `IsDropDownClosedOnSelection` (`bool`)&mdash;Defines whether the drop-down will be closed when the item is selected or deselected. The default value is `true`.
 
 The following example sets `DropDownWidth`:
@@ -114,7 +114,7 @@ The following example sets `OpenOnFocus`:
 
 ## Keyboard
 
-Use the `Keyboard` (`Microsoft.Maui.Keyboard`)property to define which on-screen keyboard the device shows. The default value is `Text`.
+Use the `Keyboard` (`Microsoft.Maui.Keyboard`)property to define which on-screen keyboard the device shows. The default value is `Default`.
 
 >note
 > For a ComboBox drop-down configuration example, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **ComboBox** > **Features**.
