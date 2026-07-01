@@ -26,14 +26,14 @@ The following example demonstrates the Entry definition in XAML with the `TextCh
 <VerticalStackLayout>
     <telerik:RadEntry x:Name="entry"
                       Keyboard="Numeric"
-                      WatermarkText="Watermark Text"
+                      Placeholder="Enter a number"
                       TextChanged="Entry_TextChanged"
                       Completed="Entry_Completed"/>
     <Label x:Name="textChangedLabel"/>
 </VerticalStackLayout>
  ```
 
-**2.** Set the `TexhChanged` event.
+**2.** Set the `TextChanged` event.
 
 ```C#
 private void Entry_TextChanged(object sender, TextChangedEventArgs e)
