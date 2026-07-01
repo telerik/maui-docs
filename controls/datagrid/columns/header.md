@@ -14,6 +14,14 @@ This article describes how to customize and use column headers when performing d
 
 ![DataGrid Column Header](../images/column-header.png)
 
+## Headers Visibility
+
+The `ShowColumnHeaders` property of the DataGrid allows you to show or hide the column headers. By default, the property is set to `True`, which means that the column headers are visible.
+
+```XAML
+<telerik:RadDataGrid ShowColumnHeaders="False" />
+```
+
 ## Changing the Text in the Header
 
 To customize text inside the header you have to use the `HeaderText` property. The property is per column. If `HeaderText` is not set, the text inside the `PropertyName` is displayed.
