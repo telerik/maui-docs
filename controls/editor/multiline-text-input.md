@@ -21,8 +21,8 @@ The Multiline TextInput exposes the following properties:
     * `SelectAll`&mdash;The whole text will be selected.
 
 * `Padding` (`Thickness`)&mdash;Defines the padding.
-* `MaxLines` (`string`)&mdash;Defines the maximum number of lines to display before the control stops growing. The default value is `0`, so there is no limit.
+* `MaxLines` (`int`)&mdash;Defines the maximum number of lines to display before the control stops growing. The default value is `0`, so there is no limit.
 * `Text` (`string`)&mdash;Defines the text of the Multiline TextInput.
-* `MinimumHeightRequest` (`string`)&mdash;Defines the minimum height the element will request during layout.
+* `MinimumHeightRequest` (`double`)&mdash;Defines the minimum height the element will request during layout.
 
 The `RadMultilineTextInput` control inherits from the `Microsoft.Maui.Editor` control.
