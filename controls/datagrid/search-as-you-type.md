@@ -103,7 +103,7 @@ Here is an example of how you can utilize `SearchStarting` to modify the way the
 
 **2.** Add a sample `SearchStarting` event handler:
 
-<snippet id='scheduler-search-searchstarting-event' />
+<snippet id='datagrid-search-searchstarting-event' />
 
 ![Telerik .NET MAUI DataGrid Search by Two Terms](images/datagrid-search-searchstarting.png)
 

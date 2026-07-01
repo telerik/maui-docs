@@ -32,7 +32,7 @@ The table below shows all commands in the DataGrid control and for each of the a
 | Commands | Object type |
 | -------- | ---------- |
 | Unknown | `DataGridColumn` |
-| `ColumnHeaderTap`  | `DataGridTextColumn` |
+| `ColumnHeaderTap`  | `DataGridColumn` |
 | `GroupHeaderTap`      | `GroupHeaderContext` |
 | `GroupHeaderButtonTap`      | `GroupHeaderContext` |
 | `CellTap` | `DataGridCellInfo` |
@@ -48,8 +48,13 @@ The table below shows all commands in the DataGrid control and for each of the a
 | `ApplyFilter` | `FilterTapContext` |
 | `CloseFilter` | `FilterTapContext` |
 | `ResetFilter` | `FilterTapContext` |
+| `ApplyGrouping` | `DataGridColumn` or `GroupDescriptorBase` |
+| `MoreTap` | `FilterTapContext` |
 | `KeyDown` | `KeyboardInfo` |
 | `ToggleRowDetailsButtonTap` | the `type` is the data model |
+| `AIFloatingActionButtonTap` | `null` |
+| `PromptRequest` | `DataGridPromptRequestCommandContext` |
+| `CancelPromptRequest` | `null` |
 
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 

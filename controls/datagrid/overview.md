@@ -86,7 +86,9 @@ The Telerik UI for .NET MAUI DataGrid allows you to display additional informati
 
 ## Empty Template
 
-When the .NET MAUI DataGrid does not have any data (`ItemsSource` is null or the collection is empty), an [empty template]({%slug datagrid-empty-template%}) is displayed in the DataGrid.
+When the .NET MAUI DataGrid does not have any data, you can display an [empty template]({%slug datagrid-empty-template%}) in the DataGrid.
+
+By default, `EmptyContentDisplayMode` is `ItemsSourceNull`, which means the empty template is shown only when `ItemsSource` is `null` (not when it is an empty collection). To also show it for empty collections, set `EmptyContentDisplayMode` to `ItemsSourceNullOrEmpty`.
 
 ## Commands
 

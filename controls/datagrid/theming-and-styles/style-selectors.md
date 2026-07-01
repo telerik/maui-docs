@@ -47,11 +47,11 @@ You can set a different style on a group header and footer based on custom style
 
 > For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
-The `CellContentStyleSelector`, `CellDecorationStyleSelector`, `RowBackgroundStyleSelector`, `GroupHeaderStyleSelectorand`, and `GroupFooterStyleSelector` use the `SelectStyle` method to change the style.
+The `CellContentStyleSelector`, `CellDecorationStyleSelector`, `RowBackgroundStyleSelector`, `GroupHeaderStyleSelector`, and `GroupFooterStyleSelector` use the `SelectStyle` method to change the style.
 
 ## Example with Cell and Group Style Selectors
 
-The following example demonstrates how to apply the style selectors on the DataGrid cell and group header. You will add the DataGrid and set the `CellContentStyleSelector` property as a static resource of type `MyCellContentStyleSelector`, `CellDecorationStyleSelector` as a static resource of type `MyCellDecorationStyleSelector`, and `GroupStyleSelector` as a static resource of type `MyGroupStyleSelector`:
+The following example demonstrates how to apply the style selectors on the DataGrid cell and group header. You will add the DataGrid and set the `CellContentStyleSelector` property as a static resource of type `MyCellContentStyleSelector`, `CellDecorationStyleSelector` as a static resource of type `MyCellDecorationStyleSelector`, and `GroupHeaderStyleSelector` as a static resource of type `MyGroupSelector`:
 
 **1.** Define the `RadDataGrid` in XAML:
 
