@@ -90,14 +90,6 @@ Check the result in the image below:
 
 > For a runnable example with the DataGrid columns, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > Columns** category.
 
-## Column Headers Visibility
-
-The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is true. Set it to `False` to hide the header row entirely. 
-
-```XAML
-<telerik:RadDataGrid ShowColumnHeaders="False" />
-```
-
 ## Columns Features
 
 Find below a quick overview of the DataGrid's Columns features.
