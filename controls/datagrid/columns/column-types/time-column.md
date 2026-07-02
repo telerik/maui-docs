@@ -1,7 +1,7 @@
 ---
 title: Time Column
 page_title: .NET MAUI DataGrid Documentation - Time Column
-description: Learn how to use the Time column in the Telerik UI for .NET MAUI DataGrid to display and edit the time portion of DateTime data.
+description: Learn how to use the Time column in the Telerik UI for .NET MAUI DataGrid to display and edit TimeSpan data.
 position: 4
 slug: datagrid-columns-time-column
 ---
