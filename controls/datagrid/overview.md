@@ -76,6 +76,12 @@ You can [page the data]({%slug datagrid-paging%}) of the DataGrid using the Tele
 
 Use keyboard keys for navigation in the MAUI DataGrid control. This feature is available on [WinUI]({%slug datagrid-keyboard-support%}) and [MacCatalyst]({%slug datagrid-keyboard-support-mac%}).
 
+## Smart AI Features
+
+The DataGrid control provides a set of AI features that allow you to enhance the user experience by providing AI-powered suggestions and actions. The AI Smart Features provide a built-in UI that allows users to interact with the DataGrid using natural language queries and commands.
+
+You can enable the [semantic search]({%slug datagrid-ai-semantic-search-overview%}) and [AI Smart Assistant]({%slug datagrid-ai-prompt-overview%}) features by setting the `IsAIEnabled` property to `true`. 
+
 ## Row Height
 
 By default, the row height is calculated according to the cell content. You can override this behavior by setting a [height for the rows]({%slug datagrid-row-height%}). 

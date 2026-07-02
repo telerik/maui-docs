@@ -34,6 +34,14 @@ Here is an example of how to style the AI Smart Assistant input:
 
 <snippet id='datagrid-prompt-input-style' />
 
+## Style the SegmentedControl
+
+You can customize the SegmentedControl used to switch between the appearance of the Search and AI Assistant panel by using the `SegmentedControlStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.RadSegmentedControl`.
+
+## Style the SearchView
+
+Style the SearchView by using the `SearchViewStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridAISearchView`.
+
 ## Style the SuggestionsView
 
 You can customize the appearance of the `SuggestionsView` that displays the suggested and recent prompts by using the `SuggestionsViewStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.DataGrid.DataGridAISuggestionsView`.
@@ -97,7 +105,6 @@ Here is an example of how to style the BottomSheet content:
 >How to do that is described in the [Getting Started with the AI Smart Assistant]({%slug datagrid-ai-prompt-overview%}#getting-started-with-the-ai-smart-assistant) article.
 
 >tip For a runnable example demonstrating the configuration options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > AI Smart Assistant** category.
-
 
 ## See also
 
