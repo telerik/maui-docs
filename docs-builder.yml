@@ -288,6 +288,9 @@ meta:
   controls/datagrid/row-details:
     title: Row Details
     position: 4
+  controls/datagrid/smart-ai-features/semantic-search:
+    title: Semantic Search
+    position: 2
   controls/datagrid/smart-ai-features/ai-assistant:
     title: Smart AI Assistant
     position: 1
