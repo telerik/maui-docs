@@ -98,6 +98,8 @@ Find below a quick overview of the DataGrid's Columns features.
 
 The top cell of a column is called Header. Its purpose is to set a caption for the column, which describes the data displayed in it. The .NET MAUI DataGrid provides fully customizable column headers, check [Column Headers]({%slug datagrid-column-header%}) for detailed information.
 
+The DataGrid exposes a `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is `True`. Set it to `False` to hide the header row entirely.
+
 ### Columns Cell Templates
 
 The DataGrid provides a set of predefined column types such as Text Column, Numerical Column, etc. In case you need to extend the functionality of a column, for example customize the default appearance or add more UI elements, use the exposed templates - `CellContentTemplate` and `CellEditTemplate`. For detailed information, see the [Columns Cells Templates]({%slug datagrid-cell-templates%}) topic.
