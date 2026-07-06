@@ -16,7 +16,8 @@ Use the `AutoScrollMode` (`AutoScrollMode`) property to control whether the Chat
 
 The property supports the following values:
 
-* `Automatic`&mdash;Applies the default behavior. The Chat scrolls automatically when the current user sends a message and when new items are added in scenarios where automatic scrolling should occur.
+* `Automatic`&mdash;Applies the default behavior. The Chat scrolls automatically when the current user sends a message and when new items are received only if the list is already scrolled to the bottom.
+* `Always`&mdash;Scrolls to the new message whenever a message is sent or received, regardless of the current scroll position.
 * `Never`&mdash;Disables automatic scrolling. Use this mode when you need to preserve the current scroll position while appending older or incoming messages.
 
 ## Scroll to Item
