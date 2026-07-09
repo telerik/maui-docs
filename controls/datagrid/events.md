@@ -45,7 +45,7 @@ For more information, see the topic about the [available filtering options in th
 The DataGrid also provides the `DataBindingComplete` event which occurs when the associated DataGrid `ItemsSource` has been successfully bound to the control, or when any data operation like grouping, sorting, or filtering is applied. The `DataBindingComplete` event handler receives the following parameters:
 
 * The `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
-* A `DataBindingCompleteEventArgs` object, which provides the `DataView` (`IDataViewCollection`) property and allows for traversing and/or manipulating the already computed data view.
+* A `DataBindingCompleteEventArgs` object, which provides the `DataView` (`IDataViewCollection`) and `ChangeFlags` properties, and allows for traversing and/or manipulating the already computed data view.
 
 ## Modifying the Selection
 
@@ -88,6 +88,13 @@ The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which 
 * A `ColumnUserResizeCompletedEventArgs` object, which provides the following properties:
 	- `Column` (`DataGridColumn`)&mdash;Gets the column that is resized.
 	- `Width` (`double`)&mdash;Gets the width of the column that is resized.
+
+## Content Paint Completed
+
+The DataGrid control provides the `ContentPaintCompleted` that is raised when the content is arranged and painted. The event receives the following parameters:
+* The `sender` argument, which is of the type of object, but can be cast to the `RadDataGrid` type.
+* A `DataGridContentPaintCompletedEventArgs` object, which provides the following properties:
+	- `IsContentFrozen`&mdash;Gets a value indicating whether the painted content of the data grid is frozen or not.
 
 ## Additional Resources
 
