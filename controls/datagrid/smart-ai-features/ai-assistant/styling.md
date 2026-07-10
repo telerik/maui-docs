@@ -36,7 +36,7 @@ Here is an example of how to style the AI Smart Assistant input:
 
 ## Style the SegmentedControl
 
-You can customize the SegmentedControl used to switch between the appearance of the Search and AI Assistant panel by using the `SegmentedControlStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.RadSegmentedControl`.
+You can customize the SegmentedControl used to switch between the Search and AI Assistant views by using the `SegmentedControlStyle` property. The property is of type `Style` with a target type of `Telerik.Maui.Controls.RadSegmentedControl`.
 
 ## Style the SearchView
 

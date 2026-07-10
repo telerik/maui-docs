@@ -57,9 +57,9 @@ The DataGrid also provides the `DataBindingComplete` event which occurs when the
 	* `ChangeFlags` (`enum` of type `DataChangeFlags`)&mdash;Specifies the type of change that has occurred in the data view. The possible values are:
 		- `None`&mdash;No changes have occurred.
 		- `PropertyChanged`&mdash;The change is associated with a property change in the data item.
-		- `Sort`&mdash;The change is associated with sorting operation.
-		- `Group`&mdash;The change is associated with grouping operation.
-		- `Filter`&mdash;The change is associated with filtering operation.
+		- `Sort`&mdash;The change is associated with a sorting operation.
+		- `Group`&mdash;The change is associated with a grouping operation.
+		- `Filter`&mdash;The change is associated with a filtering operation.
 		- `Aggregate`&mdash;The change is associated with adding or removing an AggregateDescriptor from the Descriptors collection.
 		- `Source`&mdash;The change is associated with changing the source.
 
@@ -106,13 +106,6 @@ The DataGrid resizing feature exposes a `ColumnUserResizeCompleted` event which 
 	- `Column` (`DataGridColumn`)&mdash;Gets the column that is resized.
 	- `Width` (`double`)&mdash;Gets the width of the column that is resized.
 
-## Content Paint Completed
-
-The DataGrid control provides the `ContentPaintCompleted` that is raised when the content is arranged and painted. The event receives the following parameters:
-* The `sender` argument, which is of the type of object, but can be cast to the `RadDataGrid` type.
-* A `DataGridContentPaintCompletedEventArgs` object, which provides the following properties:
-	- `IsContentFrozen`&mdash;Gets a value indicating whether the painted content of the data grid is frozen or not.
-
 ## Additional Resources
 
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)
@@ -127,4 +120,3 @@ The DataGrid control provides the `ContentPaintCompleted` that is raised when th
 - [Aggregating Data in the DataGrid]({%slug datagrid-aggregates%})
 - [Using the DataGrid Commands]({%slug datagrid-commands-overview%})
 - [Styling the Appearance of the DataGrid]({%slug datagrid-styling%})
-

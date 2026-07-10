@@ -12,7 +12,7 @@ The .NET MAUI DataGrid provides an AI semantic search feature that goes beyond t
 
 For example, searching for "food" can match a row containing "Snacks" or "pizza, pretzels, popcorn" because the terms are semantically related.
 
-> AI semantic search requires an external AI embedding service (such as **OpenAI**, **Azure AI**, or a local **ONNX** model, etc.) to compute vector similarity.
+> AI semantic search requires an external AI embedding service (such as **OpenAI**, **Azure AI**, or a local **ONNX** model) to compute vector similarity.
 
 ## Key Features
 

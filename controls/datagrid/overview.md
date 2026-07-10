@@ -88,7 +88,7 @@ By default, the row height is calculated according to the cell content. You can 
 
 ## Column Headers Visibility
 
-The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is true. Set it to `False` to remove the column headers row from the DataGrid. For more details, refer to the [Defining Columns]({%slug datagrid-columns-overview%}#column-headers) article.
+The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls whether the column headers row is visible. The default value is `True`. Set it to `False` to remove the column headers row from the DataGrid. For more details, refer to the [Defining Columns]({%slug datagrid-columns-overview%}#column-headers) article.
 
 ## Column Footer
 

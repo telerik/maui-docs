@@ -25,7 +25,7 @@ Configure the semantic search through the `SemanticSearchSettings` property of t
 When the `ProvideSearchMatchesAction` callback is invoked, it receives a `DataGridSemanticSearchCellProbe` object. This probe provides the following properties:
 
 * `SearchText` (`string`)&mdash;Gets the semantic-search text that should be searched for.
-* `Column` (`DataGridColumn`)&mdash;Gets the column for the cell that exploration for search matches is performed.
+* `Column` (`DataGridColumn`)&mdash;Gets the column of the cell being evaluated for search matches.
 * `CellValue` (`object`)&mdash;Gets the value of the cell being evaluated.
 * `IsMatch` (`bool`)&mdash;Specifies whether the cell is a semantic match. Setting this to `true` adds the cell to the search results.
 * `Item` (`object`)&mdash;Gets the data item (business object) associated with the current row.
@@ -39,7 +39,7 @@ The `DataGridSemanticSearchSettings` class provides the following events:
 
 * `SearchStarting`&mdash;Raised before searching starts. The `SearchStarting` event handler receives the following parameters: 
     * The `sender` argument, which is of type `object`.
-    * `DataGridSearchStartingEventArgs` object. The `DataGridSearchStartingEventArgs` provides the following properties:
+    * A `DataGridSearchStartingEventArgs` object. The `DataGridSearchStartingEventArgs` provides the following properties:
         * `SearchTerms` (`IList<string>`)&mdash;Gets or sets the search terms to search for.
         * `SearchTermsLogicalOperator` (`LogicalOperator`)&mdash;Gets or sets the logical operator used when more than one search term is present.
         * `Cancel` (`bool`)&mdash;Gets or sets a value indicating whether to cancel the search.
