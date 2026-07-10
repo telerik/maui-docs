@@ -8,9 +8,9 @@ slug: datagrid-ai-prompt-configuration
 
 # Configure the AI Smart Assistant in .NET MAUI DataGrid
 
-This article provides information on how to configure the AI Smart Assistant  functionality in the .NET MAUI DataGrid control.
+This article provides information on how to configure the AI Smart Assistant functionality in the .NET MAUI DataGrid control.
 
-## AI Smart Assistant  Settings
+## AI Smart Assistant Settings
 
 @[template](/_contentTemplates/controls/ai-data-operations.md#ai-smart-assistant-settings)
 

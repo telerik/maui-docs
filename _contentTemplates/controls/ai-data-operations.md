@@ -165,9 +165,12 @@ The `Telerik.AI.SmartComponents.Extensions` package has a dependency on the `Mic
 #ai-smart-assistant-settings
 You can configure the default settings for the AI Smart Assistant functionality using the `AISettings` (of type `Telerik.Maui.Controls.DataGrid.DataGridAISettings`) property of the DataGrid. 
 
+When the `IsAIEnabled` property is set to true, the DataGrid will display the AI Smart Assistant panel and the Semantic Search options. The `AISettings` property allows you to customize the behavior of the AI Smart Assistant, including the default view mode and search mode.
+
 Below you can find a list of the available configuration options applied through the `RadDataGrid.AISettings`:
 
 * `InputText` (`string`)&mdash;Specifies the text of the input field.
+* `Placeholder` (`string`)&mdash;Specifies the placeholder text of the input field.
 * `SubmitPromptOnSelection` (`bool`)&mdash;Specifies whether selecting a prompt should automatically submit the request. The default value is `false`.
 * `OpenOnFocus` (`bool`)&mdash;Specifies whether the prompt input should open the suggestions dropdown when the input field is focused. The default value is `true`.
 * `IsSuggestedPromptsVisible` (`bool`)&mdash;Specifies whether the suggested prompts should be visible. The default value is `true`.
@@ -175,6 +178,9 @@ Below you can find a list of the available configuration options applied through
 * `IsEmptyContentVisible` (`bool`)&mdash;Specifies whether the empty content message should be visible when no suggestions are available. The default value is `true`.
 * `SuggestedPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of suggested prompts.
 * `RecentPrompts` (`IEnumerable<string>`)&mdash;Specifies the collection of recent prompts.
+* `ViewMode` (`DataGridAIViewMode`)&mdash;Specifies the view mode of the AI Smart Assistant. The options are `Search` and `AIAssistant`.
+
+To hide the Semantic Search functionality, set the `IsTextSearchOptionVisible` and `IsSemanticSearchOptionVisible` properties to `false`.
 
 This is how the default AI Smart Assistant view looks like when there are no suggestions and recent prompts available and the `IsEmptyContentVisible` property is set to `True`:
 #end
