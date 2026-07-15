@@ -29,6 +29,7 @@ If you prefer video instructions, watch this short MAUI TabView video tutorial. 
 * [Change the header position]({%slug tabview-configuration%}#setting-the-headers-position) to top, bottom, left or right. 
 * [Data Binding]({%slug tabview-data-binding%})&mdash;TabView supports binding to a complex object through the `ItemsSource` property.
 * [Tabs Customization]({%slug tabview-item%})&mdash;You can customize the appearance of each tab. Each tab has a header and content. The `TabViewItem` class gives you the option to set Tab's header text, add an image which will be displayed in the header, add a content and decide whether the tab will be selected, visible and enabled.
+* Right-to-left support&mdash;The TabView automatically mirrors its layout when the `FlowDirection` is set to `RightToLeft` or when the device culture requires right-to-left rendering, providing full support for right-to-left languages and locales.
 * [Flexible styling API]({%slug tabview-styling%})&mdash;The TabView provides a number of styling capabilities, which enable you to style its header, header items and content. In addition, there is a styling option for the TabView control.
 * [Templates]({%slug tabview-templates%})&mdash;The TabView provides templates for its header, header items and content. 
 

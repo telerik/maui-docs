@@ -23,11 +23,19 @@ Start with the app that matches how you want to learn: scenario-driven workflows
 <article-card-container>
 	<article-card
 		href="/demos-and-sample-apps/controls-showcase-app"
-		src="../images/samples-apps.png"
+		src="images/controls-samples-android.png"
 		alt="Controls Samples App preview with multiple Telerik .NET MAUI components"
 		title="Controls Samples App"
 		subTitle="Showcase Demo App"
 		description="The Telerik UI for .NET MAUI Controls Samples app presents polished, scenario-specific use cases that highlight key features across selected components.">
+	</article-card>
+	<article-card
+		href="/demos-and-sample-apps/crm-app"
+		src="images/crm-android.png"
+		alt="CRM app preview with Telerik .NET MAUI controls"
+		title="CRM App"
+		subTitle=".NET MAUI CRM Demo Application"
+		description="The CRM app demonstrates how to build a customer relationship management application using Telerik UI for .NET MAUI controls.">
 	</article-card>
 	<article-card
 		href="/demos-and-sample-apps/parag-demo-maui-ai"
@@ -62,11 +70,12 @@ Use this comparison table when you want to choose the most useful starting point
 | App | Best when you want to | What you will find |
 |---|---|---|
 | [Controls Samples App](/demos-and-sample-apps/controls-showcase-app) | Explore polished feature combinations and complete user flows | Scenario-based examples that show how multiple Telerik UI for .NET MAUI controls work together in a finished experience. |
+| [CRM Demo App](/demos-and-sample-apps/crm-app) | Explore the CRM application structure and workflows | A comprehensive example that demonstrates how to build a customer relationship management application using Telerik UI for .NET MAUI controls. |
 | [Progress Agentic RAG Demo App](/demos-and-sample-apps/parag-demo-maui-ai) | Learn how AI capabilities fit into a .NET MAUI application | An end-to-end example that integrates the Progress Agentic RAG service and demonstrates AI-assisted workflows. |
 | [SDKBrowser App](/demos-and-sample-apps/sdkbrowser-app) | Review isolated control examples in C# and XAML | Small, focused samples that let you inspect one control feature at a time and compare implementation approaches. |
 | [Crypto Tracker Demo App](/demos-and-sample-apps/crypto-app) | Study a realistic, data-driven business app | Dashboards, navigation, charts, and live-data presentation patterns built with Telerik UI for .NET MAUI controls. |
 
-If you want fast control reference material, start with the SDKBrowser App. If you want to study app structure, polished UX flows, or production-style composition, begin with the Controls Samples App or the Crypto Tracker Demo App.
+If you want fast control reference material, start with the SDKBrowser App. If you want to study app structure, polished UX flows, or production-style composition, begin with the Controls Samples App, CRM App or the Crypto Tracker Demo App.
 
 ## Download and Run the .NET MAUI Sample Apps
 

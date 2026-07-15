@@ -25,7 +25,7 @@
 	</article-card>
 	<article-card
 		href="/demos-and-sample-apps/overview"
-		src="../images/samples-apps.png"
+		src="../images/controls-samples-android.png"
 		title="Sample Applications"
 		subTitle="Sample Apps"
 		description="Explore sample applications built with Telerik UI for .NET MAUI to see the controls in action.">

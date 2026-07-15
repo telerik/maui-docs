@@ -78,17 +78,17 @@ Here are the all toolbar items definition:
 
 Some specifics you'd need to take into account when placing `RichTextEditorToolbar` on the page:
 
-* On Android—When you place the RichTextEditor Toolbar below the RichTextEditor, you set the Application's `WindowSoftInputModeAdjust` to `Resize`. This setting causes the page to resize when the keyboard is shown, and in this way, if the `RichTextEditorToolbar` is on the bottom of the page, it will be displayed over the keyboard when it appears.
+* On Android&mdash;The toolbar monitors soft-keyboard visibility through window insets and automatically adjusts the attached layout's bottom padding so that all content remains above the keyboard. The .NET MAUI layout system re-measures automatically: a Grid's star-sized rows shrink while Auto rows (toolbar, status bar, etc.) keep their natural size. On other platforms this behavior is a no-op.
 
-You can apply it on application level like this:
+The class used for the Android keyboard padding behavior:
 
-```C#
-App.Current.On<Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust.Resize);
-```
+<snippet id='android-keyboard-padding-behavior' />
 
->tip For more details, check the [Soft Keyboard Input Mode on Android](https://learn.microsoft.com/en-us/dotnet/maui/android/platform-specifics/soft-keyboard-input-mode) from .NET MAUI documentation.
+Attach the behavior to the Grid layout:
 
-* On iOS—If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard so users can access it without a problem. Due to the [.NET MAUI implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds will contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
+<snippet id='android-toolbar-add-behaviors' />
+
+* On iOS&mdash;If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard so users can access it without a problem. Due to the [.NET MAUI implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds will contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
 * `RichTextEditorToolbar` must have a greater `ZIndex` than the other elements in its parent layout to be visible (and not behind other views, like RichTextEditor) when translated over the keyboard. Also, it must be contained in the bounds of its parent layout after translation. In this case, set the `ZIndex` property to the `RichTextEditorToolbar`.
 
 > For the RichTextEditor Toolbar examples, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Toolbar**.
