@@ -17,6 +17,7 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) provides the
 * `HighlightTextColor`(`Color`)&mdash;Specifies the color of the text that will be highlighted when searching (`IsEditable` must be `True`).
 * `BackgroundColor`(`Color`)&mdash;Defines the background color of the control.
 * `BorderColor`(`Color`)&mdash;Defines the color of the border.
+* `BorderBrush`(`Brush`)&mdash;Defines the brush of the border. `SolidColorBrush` is supported on all platforms. Gradient brushes are supported only on WinUI.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border.
 * `ClearButtonStyle` (of type `Style` with target type `Telerik.Maui.Controls.RadTemplatedButton`)&mdash;Defines the style for the clear button.
 * `Font Options`(`FontAttributes`, `FontFamily`, `FontSize`)&mdash;Defines the font options for the text of the ComboBox. It's applied to the Placeholder and Selected Text (for single selection) and when the control is in Editable Mode.

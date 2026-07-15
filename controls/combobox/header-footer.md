@@ -1,6 +1,6 @@
 ---
 title: Header and Footer
-page_title: .NET MAUI ComboBox Documentation - Templates
+page_title: .NET MAUI ComboBox Documentation - Header and Footer
 description: Learn more about the header and footer templates to the drop-down list of Telerik UI For .NET MAUI ComboBox control.
 position: 10
 slug: combobox-header-footer
