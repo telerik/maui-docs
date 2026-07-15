@@ -54,7 +54,9 @@ this.dataGrid.Columns.Add(new DataGridTimeColumn
 });
 ```
 
-![DataGrid Time Column](images/timecolumn-overview.png)
+**Time column in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid TimeColumn displaying TimeSpan values with a time picker editor](images/timecolumn-overview.png)
 
 **Example with CellContentTemplate and CellEditTemplate**
 

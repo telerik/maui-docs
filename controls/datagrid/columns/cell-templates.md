@@ -37,7 +37,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-club-model' />
 
-![DataGrid Cell Content Template](../images/datagrid-column-cell-content-template.png)
+**Cell content template in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid cell content template example showing custom date and boolean column content](../images/datagrid-column-cell-content-template.png)
 
 ## Cell Edit Template Example
 
@@ -61,7 +63,9 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 <snippet id='datagrid-club-model' />
 
-![DataGrid Cell Edit Template](../images/datagrid-column-cell-edit-template.png)
+**Cell edit template in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid cell edit template example showing custom boolean column editing controls](../images/datagrid-column-cell-edit-template.png)
 
 ## See Also
 

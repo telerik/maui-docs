@@ -52,7 +52,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik UI for .NET MAUI DataGrid DynamicObject](../images/datagrid-dynamicobject.png)
+![.NET MAUI DataGrid bound to a DynamicObject data source](../images/datagrid-dynamicobject.png)
 
 ## Binding to ExpandoObject
 
@@ -72,7 +72,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik UI for .NET MAUI DataGrid ExpandoObject](../images/datagrid-expandoobject.png)
+![.NET MAUI DataGrid bound to an ExpandoObject data source](../images/datagrid-expandoobject.png)
 
 ## Additional Resources
 

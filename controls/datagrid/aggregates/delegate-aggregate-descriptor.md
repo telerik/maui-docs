@@ -55,7 +55,7 @@ The following example uses the `DelegateAggregateDescriptor` and a custom implem
 
 The following image shows the end result.
 
-![Delegate Aggregate Descriptor](../images/datagrid-delegate-aggregate-windows.png)
+![.NET MAUI DataGrid DelegateAggregateDescriptor aggregate results example on Windows](../images/datagrid-delegate-aggregate-windows.png)
 
 >important For the DataGrid `DelegateAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 

@@ -24,7 +24,7 @@ To set the row height, apply the `RowHeight` property of type `double` to the Da
 
 The following image shows the difference in the way the DataGrid is rendered with and without `RowHeight` specifically set:
 
-![.NET MAUI DataGrid RowHeight](images/datagrid-row-height.png)
+![Telerik UI for .NET MAUI DataGrid comparing default row height with a custom RowHeight setting applied.](images/datagrid-row-height.png)
 
 ## Styling the Row
 

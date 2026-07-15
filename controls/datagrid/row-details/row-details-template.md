@@ -36,7 +36,7 @@ The following example shows how to define the `RowDetailsTemplate` property in t
 
 The image below illustrates the result from the code snippets:
 
-![DataGrid RowDetailsTemplate](../row-details/images/datagrid-rowdetails-template.png)
+![.NET MAUI DataGrid showing a custom row details template](../row-details/images/datagrid-rowdetails-template.png)
 
 
 ## See Also

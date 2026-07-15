@@ -14,7 +14,7 @@ This article provides information on how to configure the AI Smart Assistant fun
 
 @[template](/_contentTemplates/controls/ai-data-operations.md#ai-smart-assistant-settings)
 
-![MAUI DataGrid empty Prompts View](images/datagrid-empty-view.png)
+![.NET MAUI DataGrid AI Smart Assistant showing the empty prompts view](images/datagrid-empty-view.png)
 
 ## Events
 
@@ -74,7 +74,9 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 <snippet id='datagrid-prompt-load-sample-data-call' />
 
-![.NET MAUI DataGrid Configuration AI Assistant](images/datagrid-configuration.gif)
+**AI Smart Assistant configuration in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid AI Smart Assistant showing configured prompts and settings](images/datagrid-configuration.gif)
 
 >important The DataGrid AI Smart Assistant examples in the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) use a Telerik-hosted AI service for demonstration purposes only. 
 >

@@ -50,7 +50,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is how the DataGrid looks:
 
-![DataGrid Nested Properties](../images/datagrid-nested-properties.png)
+![.NET MAUI DataGrid showing columns bound to nested properties](../images/datagrid-nested-properties.png)
 
 ## See Also
 

@@ -10,7 +10,9 @@ slug: datagrid-columns-toggle-column
 
 The `DataGridToggleRowDetailsColumn` represents `DataGridColumn` that allows the user to show and hide the row details for an item.
 
-![DataGrid Toggle Row Details Column](images/datagrid-row-details.gif)
+**Toggle row details column in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid ToggleRowDetailsColumn showing expandable row details](images/datagrid-row-details.gif)
 
 ## Important Properties
 

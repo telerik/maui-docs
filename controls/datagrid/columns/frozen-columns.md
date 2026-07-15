@@ -12,7 +12,9 @@ This article describes the frozen columns feature that the [.NET MAUI DataGrid](
 
 You can pin a column on the left side of the grid by setting the `IsFrozen`(`bool`) property to the column. By default the value is `False`. When setting it to `True` to a concrete column, it makes the column frozen. 
 
-![.NET MAUI DataGrid Frozen Column](../images/frozen-column.gif)
+**Frozen column in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid showing a frozen column while horizontal scrolling](../images/frozen-column.gif)
 
 Set the column freeze in XAML
 
@@ -42,7 +44,7 @@ In a scenario with frozen columns and grouping, you can specify whether the grou
 
 Here is the result when the `AreGroupHeadersClippedWhenFrozen` property is set:
 
-![.NET MAUI DataGrid Frozen Columns and Group Headers](images/frozen-columns-group-headers.gif)
+![.NET MAUI DataGrid showing frozen columns with clipped group headers](images/frozen-columns-group-headers.gif)
 
 ## Styling
 
@@ -65,7 +67,9 @@ Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThi
 </telerik:RadDataGrid.FrozenColumnsSplitterStyle>
 ```
 
-![.NET MAUI DataGrid Frozen Column](../images/frozen-column-style.png)
+**Frozen columns splitter styling in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid showing a styled frozen columns splitter](../images/frozen-column-style.png)
 
 
 ## See Also

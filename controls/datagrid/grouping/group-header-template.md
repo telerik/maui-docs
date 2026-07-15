@@ -39,7 +39,7 @@ The following example demonstrates how to apply a sample `GroupHeaderTemplate` t
 
 Check the result at the image below:
 
-![Telerik .NET MAUI DataGrid Group Header Template](../images/datagrid-grouping-groupheadertemplate.png)
+![.NET MAUI DataGrid showing a custom group header template for grouped rows](../images/datagrid-grouping-groupheadertemplate.png)
 
 ## See Also
 

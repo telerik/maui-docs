@@ -32,7 +32,9 @@ Use the `ShowColumnFooters` property to visualize the [`ColumnFooters`]({%slug d
 
 > The aggregate results are displayed inside the column footer only if there is no `FooterText` set.
 
-![DataGrid Column Footer Aggregate](../images/datagrid-property-aggregate-windows.png)
+**.NET MAUI DataGrid aggregates displayed in the column footer**
+
+![.NET MAUI DataGrid column footer showing aggregate results on Windows](../images/datagrid-property-aggregate-windows.png)
 
 ### Aggregates in Group Header
 
@@ -40,7 +42,9 @@ When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid
 
 To show the Aggregates in the group header, set the `ShowGroupHeaderAggregates` to `True`.
 
-![DataGrid Group Header Aggregate](../images/datagrid-group-header-aggregate.png)
+**.NET MAUI DataGrid aggregates displayed in the group header**
+
+![.NET MAUI DataGrid group header showing aggregate results for grouped data](../images/datagrid-group-header-aggregate.png)
 
 To align the aggregates in the group according to its header, set the `GroupAggregatesAlignment` (`enum` of type `Telerik.Maui.Controls.DataGrid.DataGridGroupAggregatesAlignment`) property. The available options are:
 
@@ -53,7 +57,9 @@ When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid
 
 To visualize the group footer, set the `ShowGroupFooters` property to `True`. The group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
 
-![DataGrid Group Footer Aggregate](../images/datagrid-group-footer-aggregate.png)
+**.NET MAUI DataGrid aggregates displayed in the group footer**
+
+![.NET MAUI DataGrid group footer showing aggregate results for grouped data](../images/datagrid-group-footer-aggregate.png)
 
 >tip For an outline of all DataGrid features, review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
 

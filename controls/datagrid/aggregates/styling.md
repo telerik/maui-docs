@@ -159,7 +159,7 @@ The following example demonstrates how to change the style of the column footer 
 
 The following image shows the end result.
 
-![Group Aggregate Style](../images/datagrid-grouping-aggregates.png)
+![.NET MAUI DataGrid group footer aggregate styling example](../images/datagrid-grouping-aggregates.png)
 
 >important For the DataGrid `GroupFooter` styling example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 

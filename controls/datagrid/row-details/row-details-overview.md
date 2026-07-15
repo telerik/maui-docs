@@ -10,7 +10,7 @@ slug: datagrid-row-details-overview
 
 The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) control is capable of presenting additional information through the Row Details functionality. The Row Details is a Data Template defined on the grid or row level and is used for displaying data without affecting the dimensions of the row and the cells within it.
 
-![DataGrid Row Details Overview](images/datagrid-row-details.png)
+![.NET MAUI DataGrid showing expanded row details content](images/datagrid-row-details.png)
 
 To show the Row Details, you can use the following exposed options:
 

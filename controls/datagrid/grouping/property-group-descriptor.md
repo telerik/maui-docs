@@ -38,7 +38,7 @@ Apply the `PropertyGroupDescriptor`:
 
 Here is how the DataGrid looks when it's grouped:
 
-![DataGrid Property GroupDescriptor](../images/datagrid-property-group-descriptor.png)
+![.NET MAUI DataGrid grouped with a PropertyGroupDescriptor using a model property](../images/datagrid-property-group-descriptor.png)
 
 ## See Also
 

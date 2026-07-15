@@ -34,13 +34,17 @@ The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Te
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) and [Custom Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) articles.
 
+**DataGridDateColumn definition**
+
 ```XAML
 <telerik:DataGridDateColumn PropertyName="Established"
                             HeaderText="Date Established"
                             CellContentFormat="{}{0: ddd-d-MMM-yyyy}" />
 ```
 
-![DataGrid Date Column](images/datecolumn-overview.png)
+**Date column in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid DateColumn displaying DateTime values with a date picker editor](images/datecolumn-overview.png)
 
 **Example with CellContentTemplate and CellEditTemplate**
 

@@ -62,7 +62,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI DataGrid Mouse Hover Cell](../images/datagrid-mousehover-cell.gif)
+![.NET MAUI DataGrid mouse hover cell example showing hovered cell highlighting](../images/datagrid-mousehover-cell.gif)
 
 > For the runnable DataGrid Mouse Hover Cell example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Cells**.
 

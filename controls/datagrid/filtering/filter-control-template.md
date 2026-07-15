@@ -51,7 +51,7 @@ The example below shows how to apply the `DataGridTextFilterControl` as a `Filte
 
 Here is the `DataGridTextFilterControl` with the match case properties applied:
 
-![Telerik .NET MAUI DataGrid TextFilterControl](images/datagrid-textfiltercontrol.png)
+![.NET MAUI DataGrid TextFilterControl showing match case options in the filtering UI](images/datagrid-textfiltercontrol.png)
 
 In addition, you can hide the toggle buttons for matching the case with the following implicit style:
 
@@ -79,7 +79,7 @@ Check a quick example on how to create a custom `FilterControlTemplate` below.
 
 Check the result below:
 
-![Telerik .NET MAUI DataGrid Custom Filter Control Template](images/datagrid-customfiltertemplate.gif)
+![.NET MAUI DataGrid showing a custom filter control template in the filtering UI](images/datagrid-customfiltertemplate.gif)
 
 ## See Also
 

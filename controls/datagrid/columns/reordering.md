@@ -10,7 +10,9 @@ slug: datagrid-columns-reordering
 
 The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering feature allowing the user to drag and drop columns and change their order.
 
-![DataGrid Reordering Desktop](../images/datagrid-reordering-mac.gif)
+**Columns reordering in the .NET MAUI DataGrid on desktop**
+
+![.NET MAUI DataGrid showing drag-and-drop column reordering on desktop](../images/datagrid-reordering-mac.gif)
 
 The following properties are related to the reordering feature:
 
@@ -84,7 +86,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The result on mobile:
 
-![DataGrid Reordering Phone](../images/datagrid-reordering-winui.gif)
+![.NET MAUI DataGrid showing column reordering on mobile](../images/datagrid-reordering-winui.gif)
 
 ## Example with Indicator Template when Reordering Columns
 
@@ -122,7 +124,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The result on mobile:
 
-![DataGrid Reordering Indicator Phone](../images/datagrid-reordering-indicator.gif)
+![.NET MAUI DataGrid showing a custom column reordering indicator on mobile](../images/datagrid-reordering-indicator.gif)
 
 > For the runnable DataGrid Drag Templates example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **DataGrid > Columns**.
 

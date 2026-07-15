@@ -12,11 +12,11 @@ Columns inside the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%
 
 On `WinUI` and `MacCatalyst`, you can change the column width by positioning the mouse over the column's vertical grid line (in the column header) and dragging it until the desired size is achieved.
 
-![DataGrid Column Resizing](../images/column-resizing.png)
+![.NET MAUI DataGrid showing column resizing on desktop](../images/column-resizing.png)
 
 **Column Resizing on `MacCatalyst`**
 
-![DataGrid Column Resizing](../images/column-resizing-mac.gif)
+![.NET MAUI DataGrid showing column resizing on MacCatalyst](../images/column-resizing-mac.gif)
 
 To resize a column programmatically, you can use the columns `Width` property. For more details review the [Columns Width]({%slug datagrid-columns-width%}) article.
 
@@ -47,7 +47,9 @@ To disable the resizing on a specific column, set the `IsResizable` property. Th
                                  IsResizable="False"/>
 ```
 
-![.NET MAUI DataGrid disable column resizing](../images/column-resizing-disable-column-level.gif)
+**Disabled column resizing in the .NET MAUI DataGrid**
+
+![.NET MAUI DataGrid showing a column with resizing disabled](../images/column-resizing-disable-column-level.gif)
 
 ## Events
 
@@ -83,7 +85,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI DataGrid Resizing event](../images/datagrid-resizing-event.gif)
+![.NET MAUI DataGrid showing the column resizing completed event result](../images/datagrid-resizing-event.gif)
 
 ## See Also
 
