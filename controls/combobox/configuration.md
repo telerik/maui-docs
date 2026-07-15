@@ -114,7 +114,7 @@ The following example sets `OpenOnFocus`:
 
 ## Keyboard
 
-Use the `Keyboard` (`Microsoft.Maui.Keyboard`)property to define which on-screen keyboard the device shows. The default value is `Default`.
+Use the `Keyboard` (`Microsoft.Maui.Keyboard`) property to define which on-screen keyboard the device shows. The default value is `Default`.
 
 >note
 > For a ComboBox drop-down configuration example, see the [SDKBrowser App]({%slug sdkbrowser-app%}) and navigate to **ComboBox** > **Features**.
