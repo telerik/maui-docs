@@ -39,7 +39,7 @@ With the automatic columns generation TreeDataGrid will create the following col
 * `DataGridTextColumn` for the `Name` property.
 * `DataGridDateColumn` for the `Established` property.
 * `DataGridBooleanColumn` for the `IsChampion` property.
-* `DataGridTypedColumn` for the `IsChampion` property.
+* `DataGridTextColumn` for the `Children` property.
 
 ## Manual Columns Definition
 

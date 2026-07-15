@@ -29,7 +29,7 @@ The following table lists the actions and keyboard combinations that are availab
 | `End`	| Focuses the last cell of the selected row. |
 | `Ctrl` + `Home`| Focuses the first cell of the DataGrid. |
 | `Ctrl` + `End`| Focuses the last cell of the DataGrid. |
-| `Ctrl` + `Left Arrow` | Collapses the TreeDataGrid item. If pressign the key combination again, focuses the cell at the beginning. |
+| `Ctrl` + `Left Arrow` | Collapses the TreeDataGrid item. If pressing the key combination again, focuses the cell at the beginning. |
 | `Ctrl` + `Right Arrow` | Expands the TreeDataGrid item. If the item is expanded, focuses the next cell on the right. |
 | `Ctrl` + `Up Arrow` | Focuses the cell at the beginning. When using single selection mode, the selection also changes. |
 | `Ctrl` + `Down Arrow` | Focuses the last cell. When using single selection mode, the selection also changes. |

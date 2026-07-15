@@ -34,8 +34,8 @@ The table below shows all commands in the DataGrid control and for each of the a
 
 | Commands | Object type |
 | -------- | ---------- |
-| Unknown | `DataGridColumn` |
-| `ColumnHeaderTap`  | `DataGridTextColumn` |
+| `Unknown` | DataGridColumn |
+| `ColumnHeaderTap`  | `DataGridColumn` |
 | `GroupHeaderTap`      | `GroupHeaderContext` |
 | `GroupHeaderButtonTap`      | `GroupHeaderContext` |
 | `CellTap` | `DataGridCellInfo` |
@@ -51,8 +51,13 @@ The table below shows all commands in the DataGrid control and for each of the a
 | `ApplyFilter` | `FilterTapContext` |
 | `CloseFilter` | `FilterTapContext` |
 | `ResetFilter` | `FilterTapContext` |
+| `ApplyGrouping` | `FilterTapContext` |
+| `MoreTap` | `FilterTapContext` |
 | `KeyDown` | `KeyboardInfo` |
 | `ToggleRowDetailsButtonTap` | the `type` is the data model |
+| `AIFloatingActionButtonTap` | none |
+| `PromptRequest` | `DataGridPromptRequestCommandContext` |
+| `CancelPromptRequest` | none |
 
 >tip For an outline of all TreeDataGrid features, review the [.NET MAUI TreeDataGrid Overview]({%slug treedatagrid-overview%}) article.
 
