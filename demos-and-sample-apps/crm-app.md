@@ -92,7 +92,7 @@ Here is how the CRM application looks on MacCatalyst.
 1. Run the app.
 
 </TabStripTab>
-</TabStrip
+</TabStrip>
 
 >tip Check the [.NET MAUI Examples Apps]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 
