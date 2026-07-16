@@ -16,7 +16,7 @@ When setting their properties and getting them ready for displaying your stock d
 
 * Indicators that have a category and a value binding (usually the **close** one) as well as one or more periods:  
 
-  * `OscillatorIndicator`
+  * `MovingAverageIndicator`
   * `RateOfChangeIndicator`
   * `RelativeStrengthIndexIndicator`
   * `TrixIndicator`
