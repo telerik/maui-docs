@@ -41,74 +41,42 @@ Use one of the following options to access the app:
 
    Open the `ControlsSamples.sln` file.
 
-3. Browse the sample source in the [Telerik .NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples).
+3. Browse the sample source in the [Telerik .NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples) and run it on all platforms.
 
 >important
 > If you do not have a Telerik UI for .NET MAUI installation yet, first complete [Download Telerik UI for .NET MAUI]({%slug maui-quick-start%}#step-2-download-your-license-key-file) and [Install Telerik UI for .NET MAUI]({%slug maui-quick-start%}#step-3-create-a-new-maui-project).
 
-## Run ControlsSamples on Windows
+<TabStrip>
+<TabStripTab title="Run on Android">
 
-Run the Windows version from the local sample solution in Visual Studio 2022:
+1. On Windows or MacOS open the terminal inside the ControlsSamples folder.
 
-1. Open `ControlsSamples.sln` in Visual Studio 2022 on Windows.
+2. Run the following command to build and run the app on Android:
 
-**Solution structure in Visual Studio**
+```bash
+dotnet build -t:Run -f net10.0-android
+```
 
-![Visual Studio solution structure for the Controls Samples App](images/controlssamples_structure.png)
+Here is how the Controls Samples application looks on Android.
 
-2. Wait for the project packages to restore.
+![Controls Samples App running on Android](images/controls-samples-android.png)
 
-3. Select the target framework for the project.
-
-**Target framework selection in Visual Studio**
-
-![Target framework selector for the Controls Samples App in Visual Studio](images/sampleapps-visual-studio.png)
-
-4. Select the emulator, or device on which you want to run the application.
-
-The following screenshots show sample outputs on different Windows development targets:
-
-- **Controls Samples App on Android**
-
-  ![Controls Samples App running on Android](images/controlssamples_android.png)
-
-- **Controls Samples App on WinUI**
-
-  ![Controls Samples App running on WinUI](images/controlssamples-winui.png)
-
-## Run ControlsSamples on macOS
+</TabStripTab>
+<TabStripTab title="Run on iOS">
 
 >important
 > Review the [macOS Install .NET MAUI GitHub wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) before you run the sample on macOS.
 
-1. Open Terminal in the `ControlsSamples` folder.
-2. Run the Mac Catalyst target:
+1. On MacOS open the terminal inside the ControlsSamples folder.
 
-```bash
-dotnet build -t:Run -f net9.0-maccatalyst
-```
- 
-**Controls Samples App on Mac Catalyst**
-
-![Controls Samples App running on Mac Catalyst](images/controlssamples-mac.png)
-
-## Run ControlsSamples on iOS
-
-1. Open Terminal in the `ControlsSamples` folder.
-2. Run the iOS target:
-
-```bash
-dotnet build -t:Run -f net9.0-ios
-```
-
-This command starts the default simulator. To run the application on a specific device, provide the device ID:
+2. Run the following command to build and run the app on iOS:
 
 ```bash
 dotnet build -t:Run -f net9.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
 ```
 
 In this example, the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
- 
+
 To find the device ID in Xcode:
 
 1. Open Xcode.
@@ -116,9 +84,47 @@ To find the device ID in Xcode:
 3. Select the connected device.
 4. Copy the identifier, or UDID, from **Device Information**.
 
-**Controls Samples App on iOS**
+Here is how the Controls Samples application looks on iOS.
 
 ![Controls Samples App running on iOS](images/controlssamples-iphone.png)
+
+</TabStripTab>
+<TabStripTab title="Run on MacCatalyst">
+
+>important
+> Review the [macOS Install .NET MAUI GitHub wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) before you run the sample on macOS.
+
+1. On MacOS open the terminal inside the ControlsSamples folder.
+
+2. Run the following command:
+
+```bash
+dotnet build -t:Run -f net10.0-maccatalyst
+```
+
+Here is how the Controls Samples application looks on MacCatalyst.
+
+![Controls Samples App running on Mac Catalyst](images/controls-samples-mac.png)
+
+</TabStripTab>
+<TabStripTab title="Run on Windows">
+
+1. Open `ControlsSamples.sln` in Visual Studio 2022/2026 on Windows.
+
+1. Wait for the project packages to restore.
+
+1. Select the Windows target framework for the project.
+
+   ![Target framework selector for the Controls Samples App in Visual Studio](images/sampleapps-visual-studio.png)
+
+1. Run the app:
+
+Here is how the Controls Samples application looks on Windows.
+
+![Controls Samples App running on WinUI](images/controlssamples-winui.png)
+
+</TabStripTab>
+</TabStrip>
 
 >tip
 > Check the [.NET MAUI Examples and Sample Apps Overview]({%slug sampleapps-overview%}) for the full list of Telerik UI for .NET MAUI sample applications.
@@ -127,3 +133,4 @@ To find the device ID in Xcode:
 
 - [SDKBrowser App]({%slug sdkbrowser-app%})
 - [Crypto Tracker App]({%slug maui-crypto-app%})
+- [CRM App]({%slug maui-crm-app%})

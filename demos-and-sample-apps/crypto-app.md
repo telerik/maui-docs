@@ -4,7 +4,7 @@ page_title: .NET MAUI - Demo Applications
 description: "Learn how to download and install the Crypto Tracker Demo App and check out the Telerik UI for .NET MAUI controls library."
 slug: maui-crypto-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application
-position: 3
+position: 4
 ---
 
 # Crypto Tracker Application
@@ -17,65 +17,89 @@ You can access the SDKBrowser application in the following ways:
 
 * If you have already installed Telerik UI for .NET MAUI, navigate to the **/[installation-path]/Telerik UI for .NET MAUI [version]/Examples/CryptoTracker** folder and open the `CryptoTracker.sln` file;
 
-* Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker).
+* Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker) and run it on all platforms.
 
 >important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-2-download-your-license-key-file) and [Install Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-3-create-a-new-maui-project).
 
-## Run CryptoTracker on Windows
+<TabStrip>
+<TabStripTab title="Run on Android">
 
-**1.** Open the `CryptoTracker.sln` on Windows with Visual Studio 2022.
+1. On Windows or MacOS open the terminal inside the CryptoTracker folder.
 
-![Telerik UI .NET MAUI CryptoTracker App](../images/cryptotracker-structure.png)
+2. Run the following command to build and run the app on Android:
 
-**2.** Wait for the project to restore.
+```bash
+dotnet build -t:Run -f net10.0-android
+```
 
-**3.** Select the target framework of the project.
-
-![Telerik UI .NET MAUI CryptoTracker App VS](images/sampleapps-visual-studio.png)
-
-**4.** Select the emulator or device on which you want to run the application.
-
-* CryptoTracker application on Android.
+Here is how the CryptoTracker application looks on Android.
 
 ![Telerik UI for .NET MAUI CryptoTracker App Android](../images/cryptotracker-android.png)
 
-* CryptoTracker application on WinUI.
+</TabStripTab>
+<TabStripTab title="Run on iOS">
 
-![Telerik UI for .NET MAUI CryptoTracker App WinUI](../images/cryptotracker-winui.png)
+>important
+> Review the [macOS Install .NET MAUI GitHub wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) before you run the sample on macOS.
 
-## Run CryptoTracker on macOS
+1. On MacOS open the terminal inside the CryptoTracker folder.
 
->important Review the [macOS Install .NET MAUI GitHub Wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) for more information how to get started on macOS. 
+2. Run the following command to build and run the app on iOS:
 
-**1.** Open Terminal inside the CryptoTracler folder.
-
-**2.** Run on macOS using the following command:
-
-```SH
-dotnet build -t:Run -f net9.0-maccatalyst
+```bash
+dotnet build -t:Run -f net9.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
 ```
 
-* CryptoTracker application on MacOS.
+In this example, the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
+
+To find the device ID in Xcode:
+
+1. Open Xcode.
+2. Select **Window** > **Devices**.
+3. Select the connected device.
+4. Copy the identifier, or UDID, from **Device Information**.
+
+Here is how the CryptoTracker application looks on iOS.
+
+![Telerik UI for .NET MAUI CryptoTracker App iOS](../images/cryptotracker-iphone.png)
+
+</TabStripTab>
+<TabStripTab title="Run on MacCatalyst">
+
+>important
+> Review the [macOS Install .NET MAUI GitHub wiki page](https://github.com/dotnet/maui/wiki/macOS-Install) before you run the sample on macOS.
+
+1. On MacOS open the terminal inside the CryptoTracker folder.
+
+2. Run the following command:
+
+```bash
+dotnet build -t:Run -f net10.0-maccatalyst
+```
+
+Here is how the CryptoTracker application looks on MacCatalyst.
 
 ![Telerik UI for .NET MAUI CryptoTracker App MacCatalyst](../images/cryptotracker-macos.png)
 
-**3.** Run on iOS using the following command:
+</TabStripTab>
+<TabStripTab title="Run on Windows">
 
-```SH
-dotnet build -t:Run -f net9.0-ios
-``` 
+1. Open `CryptoTracker.sln` in Visual Studio 2022/2026 on Windows.
 
-This command starts a default simulator. To run the application on specific device, you need to provide the device ID. For example: `dotnet build -t:Run -f net9.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22` where the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
- 
- To find the ID: 
-  1. Open Xcode.
-  2. Click Devices from the Window menu.
-  3. Select Connected device.
-  4. Under Device Information, you will get an identifier, or UDID, of the device.
-  
-* CryptoTracker application on iOS.
+1. Wait for the project packages to restore.
 
-![Telerik UI for .NET MAUI CryptoTracker App iOS](../images/cryptotracker-iphone.png)
+1. Select the Windows target framework for the project.
+
+   ![Telerik UI .NET MAUI CryptoTracker App VS](images/sampleapps-visual-studio.png)
+
+1. Run the app:
+
+Here is how the CryptoTracker application looks on Windows.
+
+![Telerik UI for .NET MAUI CryptoTracker App WinUI](../images/cryptotracker-winui.png)
+
+</TabStripTab>
+</TabStrip>
 
 >tip Check the [.NET MAUI Examples Apps]({%slug sampleapps-overview%}) topic which lists all the sample applications built with Telerik UI for .NET MAUI.
 
@@ -83,3 +107,4 @@ This command starts a default simulator. To run the application on specific devi
 
 - [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
+- [CRM App]({%slug maui-crm-app%})
