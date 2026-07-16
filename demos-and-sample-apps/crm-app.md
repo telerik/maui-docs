@@ -101,3 +101,4 @@ Here is how the CRM application looks on MacCatalyst.
 
 - [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
+- [Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%})
