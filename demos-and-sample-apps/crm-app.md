@@ -5,6 +5,7 @@ description: "Learn how to download and install the CRM Demo App and check out t
 slug: maui-crm-app
 tags: .net maui, ui for .net maui, .net maui controls, crm, application
 position: 2
+tag: new
 ---
 
 # CRM Application
