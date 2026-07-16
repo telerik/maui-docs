@@ -6,9 +6,9 @@ position: 8
 slug: timespanpicker-localization
 ---
 
-# .NET MAUI ТimeSpanPicker Localization
+# .NET MAUI TimeSpanPicker Localization
 
-The ТimeSpanPicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
+The TimeSpanPicker for .NET MAUI provides language localization. The localization keys are described in the tables below:
 
 >caption TimeSpanPicker localization keys
 
