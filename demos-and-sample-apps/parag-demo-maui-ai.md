@@ -156,3 +156,4 @@ For more details about the application structure and configuration, refer to the
 - [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
 - [Crypto Tracker App]({%slug maui-crypto-app%})
+- [CRM App]({%slug maui-crm-app%})

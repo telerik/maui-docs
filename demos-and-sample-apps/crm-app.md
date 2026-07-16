@@ -5,6 +5,7 @@ description: "Learn how to download and install the CRM Demo App and check out t
 slug: maui-crm-app
 tags: .net maui, ui for .net maui, .net maui controls, crm, application
 position: 2
+tag: new
 ---
 
 # CRM Application
@@ -100,3 +101,4 @@ Here is how the CRM application looks on MacCatalyst.
 
 - [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
+- [Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%})

@@ -108,3 +108,4 @@ Here is how the CryptoTracker application looks on Windows.
 - [Controls Samples App]({%slug controls-samples-app%})
 - [SDKBrowser App]({%slug sdkbrowser-app%})
 - [CRM App]({%slug maui-crm-app%})
+- [Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%})

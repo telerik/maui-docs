@@ -100,3 +100,4 @@ Here is how the SDKBrowser application looks on Windows.
 - [Controls Samples App]({%slug controls-samples-app%})
 - [Crypto Tracker App]({%slug maui-crypto-app%})
 - [CRM App]({%slug maui-crm-app%})
+- [Progress Agentic RAG Demo App]({%slug maui-parag-demo-app%})
