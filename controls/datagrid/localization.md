@@ -48,6 +48,7 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_Search_MatchesNotfound` | `Not found` |
 | `DataGrid_Search_MatchesStringFormat` | `Matches: {0}` |
 | `DataGrid_Search_SearchEntryPlaceholder` | `Type to Search` |
+| `DataGrid_Search_StartsWith` | `Starts With` |
 | `DataGrid_Search_WholeWord` | `Whole Word` |
 | `DataGrid_AI_InputView_Placeholder` | `Sort, filter, or group with AI` |
 | `DataGrid_AI_InputView_Thinking` | `Thinking...` |
@@ -56,6 +57,17 @@ The table below shows the localization keys available for the DataGrid control a
 | `DataGrid_AI_PromptInputView_NoSuggestionsLabel` | `No previous prompts` |
 | `DataGrid_AI_SheetContent_HeaderLabel` | `Ask AI` |
 | `DataGrid_AI_FloatingActionButton_Text` | `AI Grid` |
+| `DataGrid_AI_Search_Placeholder` | `Search...` |
+| `DataGrid_AI_Semantic_Search_Placeholder` | `Semantic search...` |
+| `DataGrid_AI_SearchView_RecentSearchesLabel` | `Previously Searched` |
+| `DataGrid_AI_SearchView_SearchOptionTitle` | `Search` |
+| `DataGrid_AI_SearchView_SearchOptionDescription` | `Looks for exact word matches across data` |
+| `DataGrid_AI_SearchView_SemanticSearchOptionTitle` | `Semantic Search` |
+| `DataGrid_AI_SearchView_SemanticSearchOptionDescription` | `Understands context to surface the most relevant results` |
+| `DataGrid_AI_ViewMode_Search` | `Search` |
+| `DataGrid_AI_ViewMode_AIAssistant` | `AI Assistant` |
+| `DataGrid_AI_EmptyContent_Search` | `No previous searches` |
+| `DataGrid_AI_EmptyContent_AIAssistant` | `No previous prompts` |
 
 ## Additional Resources
 
