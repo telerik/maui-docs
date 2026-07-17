@@ -12,7 +12,9 @@ slug: datagrid-column-header
 
 This article describes how to customize and use column headers when performing different data operations. Column headers are always visible by default. You can further customize them by using the `HeaderStyle` property.
 
-![DataGrid Column Header](../images/column-header.png)
+>caption Column headers in the .NET MAUI DataGrid
+
+![.NET MAUI DataGrid showing column headers](../images/column-header.png)
 
 ## Headers Visibility
 
@@ -42,7 +44,7 @@ To customize text inside the header you have to use the `HeaderText` property. T
 
 The user of the application can sort a particular column when tapping on its header. When the data is sorted by a column, the sort indicator shows in the header.
 
-![.NET MAUI DataGrid Column Header Sorting indicator](../images/column-header-sorting.png)
+![.NET MAUI DataGrid column header showing a sorting indicator](../images/column-header-sorting.png)
 
 To learn more about the sorting functionality of the [.NET MAUI DataGrid]({%slug datagrid-overview%}) take a look at the [Sorting]({%slug datagrid-sorting-overview%}) article.
 
@@ -50,7 +52,7 @@ To learn more about the sorting functionality of the [.NET MAUI DataGrid]({%slug
 
 The header of the column hosts the built-in filtering mechanism (the filter indicator which opens the Filtering UI), which allows the user to filter the data by the columns' values.
 
-![.NET MAUI DataGrid Column Header filter indicator](../images/column-header-filtering.png)
+![.NET MAUI DataGrid column header showing a filter indicator](../images/column-header-filtering.png)
 
 To learn more about the filtering functionality take a look at the [Filtering]({%slug datagrid-filtering-overview%}) article.
 
@@ -74,7 +76,9 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 <snippet id='datagrid-headerfootercontenttemplate' />
 
-![.NET MAUI DataGrid Column Header Template](../images/header-content-template.png)
+This is the result:
+
+![.NET MAUI DataGrid showing a customized column header content template](../images/header-content-template.png)
 
 ## Color on Hover
 
@@ -104,7 +108,7 @@ The following example demonstrates how to apply the `BackgroundColor` property t
 
 This is the result:
 
-![DataGrid Header Column Background Color](../columns/images/datagrid-hover-background-color.gif)
+![.NET MAUI DataGrid column header hover state with custom background color](../columns/images/datagrid-hover-background-color.gif)
 
 ## See Also
 

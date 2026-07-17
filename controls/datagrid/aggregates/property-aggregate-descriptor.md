@@ -54,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![Property Aggregate Descriptor](../images/datagrid-property-aggregate-windows.png)
+![.NET MAUI DataGrid PropertyAggregateDescriptor aggregate results example on Windows](../images/datagrid-property-aggregate-windows.png)
 
 >important For the DataGrid `PropertyAggregateDescriptor` example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Aggregates** category.
 

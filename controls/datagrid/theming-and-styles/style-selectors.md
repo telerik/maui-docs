@@ -85,7 +85,7 @@ The following example demonstrates how to apply the style selectors on the DataG
 
 This is how the DataGrid control will look when `CellContentStyleSelector` is applied.
 
-![.NET MAUI DataGrid Cell and Group Header Style Selectors](../images/datagrid-style-selector.png)
+![Telerik UI for .NET MAUI DataGrid showing cell content and group header style selectors applied](../images/datagrid-style-selector.png)
 
 > For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 
@@ -115,7 +115,7 @@ The following example demonstrates how to apply the style selectors on the DataG
 
 This is how the DataGrid control looks when applying the `RowBackgroundStyleSelector`.
 
-![.NET MAUI DataGrid Row Background Style Selector](../images/datagrid-rowbackground-style-selector.png)
+![Telerik UI for .NET MAUI DataGrid showing row background style selector styling for rows, alternate rows, and row details.](../images/datagrid-rowbackground-style-selector.png)
 
 > For the DataGrid Row Background Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 

@@ -86,7 +86,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Check the result in the image below:
 
-![Telerik .NET MAUI DataGrid Defining Columns](images/datagrid-columns.png)
+![.NET MAUI DataGrid showing manually defined columns with different column types](images/datagrid-columns.png)
 
 > For a runnable example with the DataGrid columns, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **DataGrid > Columns** category.
 

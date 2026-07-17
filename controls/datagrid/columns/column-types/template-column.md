@@ -94,7 +94,9 @@ Define the DataGrid:
 </telerik:RadDataGrid>
 ```
 
-![DataGrid Template Column](images/templatecolumn-overview.png)
+>caption Template column in the .NET MAUI DataGrid
+
+![.NET MAUI DataGrid TemplateColumn showing custom cell content with sorting and grouping](images/templatecolumn-overview.png)
 
 ## See Also
 

@@ -10,7 +10,7 @@ slug: datagrid-filtering-ui
 
 The [.NET MAUI DataGrid]({%slug datagrid-overview%}) provides you with a built-in filtering functionality, which allows the user to filter the data by one or more columns by clicking on the filtering icon next to the header text.
 
-![Filtering UI](../filtering/images/datagrid-filtering-ui.gif)
+![.NET MAUI DataGrid filtering UI opened from a column header filter icon](../filtering/images/datagrid-filtering-ui.gif)
 
 > The Filtering UI appears when clicking the filtering icon in each column's header.
 

@@ -56,9 +56,11 @@ Here is an example how the Text Column properties can be used:
 </telerik:DataGridTextColumn>
 ```
 
-![DataGrid Text Column](images/textcolumn-overview.png)
+>caption Text column in the .NET MAUI DataGrid
 
-**Example with CellContentTemplate and CellEditTemplate**
+![.NET MAUI DataGrid TextColumn displaying string values with entry editing](images/textcolumn-overview.png)
+
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
 <telerik:DataGridTextColumn PropertyName="Name" 

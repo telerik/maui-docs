@@ -57,13 +57,13 @@ In addition to the column header text, the column header can contain the followi
 
     You can check how the individual indicators look on Windows below:
 
-    ![Telerik DataGrid Filtering and Sorting indicators](../images/datagrid-styling-indicators-individual.png)
+    ![Telerik UI for .NET MAUI DataGrid header showing individual filtering and sorting indicators in a column header on Windows.](../images/datagrid-styling-indicators-individual.png)
 
     * `Universal`&mdash;A single indicator will be used when any data operation (filtering, sorting or grouping) is applied. If sorting is applied, the sort indicator won't be displayed, only the universal indicator. If filtering is applied, in addition to the universal indicator, the filter indicator takes its active color (the active color can be modified through the `DataGridColumnHeaderStyle`'s `FilterIndicatorActiveTextColor` property).
 
     Check below how the indicators are displayed in `DataOperationIndicationMode`.`Universal`:
 
-    ![Telerik DataGrid Universal Indicator](../images/datagrid-styling-indicators-universal.png)
+    ![Telerik UI for .NET MAUI DataGrid header showing the universal data operation indicator in a column header on Windows.](../images/datagrid-styling-indicators-universal.png)
 
 ### Filter Indicator Styling
 
@@ -87,6 +87,8 @@ The `SortIndicator` appears once the `RadDataGridColumnHeader` is sorted (tapped
 * `SortIndicatorDescendingText`&mdash;Defines the text of the sort indicator when the sorting is descending.
 * `SortIndicatorHorizontalOptions`&mdash;Defines the horizontal options of the sort indicator.
 * `Font Options`(`SortIndicatorFontFamily`, `SortIndicatorFontSize`, `SortIndicatorFontAttributes`)&mdash;Define the font options to the sort indicator text. 
+
+>caption XAML example for styling the DataGrid sort indicator
 
 ```xaml
 <Style TargetType="telerik:DataGridColumnHeaderAppearance">
@@ -165,7 +167,7 @@ Here is an example how to set this property:
 
 And this is how the column style looks when the properties for customizing the column are applied:
 
-![DataGrid Columns Styling](../images/datagrid-columns-styling.png)
+![Telerik UI for .NET MAUI DataGrid with customized column header, cell, and editor styling applied.](../images/datagrid-columns-styling.png)
 
 >note The `CellEditorStyle` is not applied to the built-in columns when they have a custom `CellEditTemplate`.
 
@@ -178,9 +180,13 @@ And this is how the column style looks when the properties for customizing the c
 * `Font Options` (`TextFontFamily`, `TextFontAttributes`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnFooter`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnFooter`.
 
+>caption Example of styling the DataGrid column footer
+
 <snippet id='datagrid-columnstyle-footerstyle' />
 
-![DataGrid Column Footer](../images/column-footer-style.png)
+>caption Customized DataGrid column footer styling
+
+![Telerik UI for .NET MAUI DataGrid column footer showing customized footer styling.](../images/column-footer-style.png)
 
 ## See Also
 

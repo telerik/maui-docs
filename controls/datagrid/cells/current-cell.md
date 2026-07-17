@@ -54,7 +54,7 @@ The following example shows the full implementation of the configurations for th
 
 The following image shows the end result.
 
-![DataGrid Current Cell](../images/datagrid-keyboard-navigation.png)
+![.NET MAUI DataGrid current cell styling and navigation example](../images/datagrid-keyboard-navigation.png)
 
 ## Additional Resources
 

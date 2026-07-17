@@ -52,7 +52,7 @@ Check below an example on how to add a `BulletGraph` control as the content of a
 
 Here is the result:
 
-![Telerik .NET MAUI DataGrid SkiaSharp Cell Renderer](images/datagrid-custom-cellrenderer.png)
+![.NET MAUI DataGrid showing a custom SkiaSharp cell renderer with a bullet graph](images/datagrid-custom-cellrenderer.png)
 
 ## See Also
 - [Render Mode]({%slug datagrid-render-mode%})

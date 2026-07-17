@@ -34,7 +34,7 @@ The `DataGridTimeColumn` is used to represent `TimeSpan` objects. It uses the Te
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [Standard Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings) and [Custom Date and Time Formatting](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) articles.
 
-Examples with `CellContentFormat`:
+>caption Examples with `CellContentFormat`:
 
 ```XAML
 <telerik:DataGridTimeColumn PropertyName="Time"
@@ -54,9 +54,11 @@ this.dataGrid.Columns.Add(new DataGridTimeColumn
 });
 ```
 
-![DataGrid Time Column](images/timecolumn-overview.png)
+>caption mTime column in the .NET MAUI DataGrid
 
-**Example with CellContentTemplate and CellEditTemplate**
+![.NET MAUI DataGrid TimeColumn displaying TimeSpan values with a time picker editor](images/timecolumn-overview.png)
+
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
 <telerik:DataGridTimeColumn PropertyName="Time" 

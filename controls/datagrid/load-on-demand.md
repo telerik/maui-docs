@@ -82,7 +82,7 @@ You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 >caption Row appearance after setting the `LoadOnDemandRowStyle` property
 
-![.NET MAUI DataGrid LoadOnDemand Row Style](images/datagrid-rowstyle.png)
+![Telerik UI for .NET MAUI DataGrid load on demand row with a customized Load More button style](images/datagrid-rowstyle.png)
 
 ### Load-More-Button Row Template
 
@@ -98,7 +98,7 @@ The following example shows how to set the property:
 
 >caption Row appearance after setting the `LoadOnDemandRowTemplate`
 
-![.NET MAUI DataGrid LoadOnDemand Row Style](images/datagrid-rowtemplate.png)
+![Telerik UI for .NET MAUI DataGrid load on demand row with a customized Load More button template](images/datagrid-rowtemplate.png)
 
 ## Additional Resources
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)

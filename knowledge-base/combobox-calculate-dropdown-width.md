@@ -33,7 +33,7 @@ For example, let's say the first 49 items are only five characters wide, but the
 
 Here is a visual mockup of how such a viewport works
 
-![](./images/combobox-calculate-dropdown-width-1.png)
+![Telerik UI for .NET MAUI ComboBox dropdown width behavior showing narrow initial items and a wider item appearing later in the virtualized list.](./images/combobox-calculate-dropdown-width-1.png)
 
 So, if you want the same width with the widest item, then you'll need to determine this ahead of time and set the `DropDownWidth` property to the widest value.
 

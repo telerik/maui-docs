@@ -12,11 +12,13 @@ The [Telerik UI for .NET MAUI DataGrid]({%slug datagrid-overview%}) supports gro
 
 ## Grouping UI
 
-![Grouping UI](../images/datagrid-grouping-ui.gif)
-
 The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile, it allows the user to group the DataGrid by dragging and dropping the column headers to the `DataGridGroupingPanel`. 
 
 The UI is represented by the `DataGridGroupingPanel`. The panel is part of the DataGrid and it's visualized at the top.
+
+>caption Grouping UI in the .NET MAUI DataGrid
+
+![.NET MAUI DataGrid grouping UI showing drag-and-drop grouping in the grouping panel](../images/datagrid-grouping-ui.gif)
 
 > For more information about Grouping UI review the [Grouping UI]({%slug datagrid-grouping-ui%}) article of the DataGrid.
 

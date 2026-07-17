@@ -42,6 +42,8 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
 
 ## Example
 
+>caption DataGridComboBoxColumn definition
+
 ```XAML
 <telerik:DataGridComboBoxColumn PropertyName="Country"
                                 HeaderText="Country"
@@ -49,9 +51,11 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
                                 ItemsSourcePath="Countries" />
 ```
 
-![DataGrid ComboBox Column](images/pickercolumn-overview.png)
+>caption ComboBox column in the .NET MAUI DataGrid
 
-**Example with CellContentTemplate and CellEditTemplate**
+![.NET MAUI DataGrid ComboBoxColumn displaying a dropdown editor for selecting values](images/pickercolumn-overview.png)
+
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
  <telerik:DataGridComboBoxColumn PropertyName="Country"

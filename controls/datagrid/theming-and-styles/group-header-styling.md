@@ -71,7 +71,7 @@ The following example demonstrates how to apply a sample `GroupHeaderStyle` to t
 
 Check the result at the image below:
 
-![Telerik .NET MAUI DataGrid Group Header Style](../images/datagrid-grouping-groupheaderstyle.png)
+![Telerik UI for .NET MAUI DataGrid showing customized group header styling in a grouped grid.](../images/datagrid-grouping-groupheaderstyle.png)
 
 ## See Also
 

@@ -26,7 +26,7 @@ Choose a path based on what you need:
 
 >tip This documentation covers the latest version of Telerik UI for .NET MAUI. For earlier versions, download the [offline PDF documentation](#learning-resources) from your Telerik account.
 
-![Telerik UI for .NET MAUI documentation](front-image.png)
+![Telerik UI for .NET MAUI documentation landing page highlighting cross-platform controls and getting started resources.](front-image.png)
 
 ## List of .NET MAUI UI Controls
 
@@ -149,6 +149,8 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 - **Saves Development Time**&mdash;Ready-to-use, feature-rich components let you focus on app logic instead of UI details.
 - **Regular Updates**&mdash;Stays aligned with Microsoft's .NET MAUI releases and includes new features quarterly.
 - **Dedicated Support**&mdash;Technical support, community forums, and extensive documentation included.
+
+>caption Telerik UI for .NET MAUI introduction video overview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x0fY4qwkBTk?si=ULFP7NkbskhG9DEb" title="Introduction to Telerik UI for .NET MAUI: Course Overview and Prerequisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

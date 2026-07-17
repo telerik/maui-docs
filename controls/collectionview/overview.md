@@ -10,7 +10,7 @@ slug: collectionview-overview
 
 The Telerik .NET MAUI CollectionView is a virtualizing view component that provides features associated with scenarios where a list of items is used. The control gives you the option to filter, sort and group the items. Also you can take advantage of the flexible styling API and the exposed templates for customization. 
 
-![.NET MAUI CollectionView Overview](images/collectionview-overview.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView displaying a virtualized list layout with grouped items and styled item cards.](images/collectionview-overview.png "Telerik .NET MAUI CollectionView")
 
 ## Key Features of the .NET MAUI CollectionView
 

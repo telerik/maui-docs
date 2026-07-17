@@ -10,7 +10,9 @@ slug: datagrid-ai-prompt-styling
 
 The .NET MAUI DataGrid control allows you to customize the appearance of the AI Smart Assistant feature to match your application's design requirements. You can modify various visual aspects of the AI Smart Assistant panel, including colors, fonts, and layout.
 
-![DataGrid AI Smart Assistant Styling](images/datagrid-ai-smart-assistant-styling.png)
+>caption AI Smart Assistant styling in the .NET MAUI DataGrid
+
+![.NET MAUI DataGrid AI Smart Assistant showing custom styling for the panel and prompts](images/datagrid-ai-smart-assistant-styling.png)
 
 ## Style the AI Smart Assistant Input
 

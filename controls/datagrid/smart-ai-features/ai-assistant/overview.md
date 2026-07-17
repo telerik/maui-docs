@@ -14,11 +14,11 @@ On mobile, the AI Smart Assistant panel can be accessed via a floating action bu
 
 Here is how the AI Smart Assistant panel is arranged on desktop, with the panel above the DataGrid header area, and on mobile, where it is opened from a floating action button in the bottom-right corner of the DataGrid:
 
-![.NET MAUI DataGrid AI Smart Assistant Panel](images/datagrid-ai-prompt-overview.png)
+![.NET MAUI DataGrid AI Smart Assistant panel shown above the header on desktop and opened from a floating action button on mobile](images/datagrid-ai-prompt-overview.png)
 
 Here is how the AI Smart Assistant panel behaves on desktop and mobile when no suggestions are shown:
 
-![.NET MAUI DataGrid AI Smart Assistant Panel](images/datagrid-ai-prompt-panel.png)
+![.NET MAUI DataGrid AI Smart Assistant panel showing only the prompt input area without suggestions](images/datagrid-ai-prompt-panel.png)
 
 > When no suggestions are available, the AI Smart Assistant panel shows only the prompt input area and any configured helper text, without a suggestions list.
 

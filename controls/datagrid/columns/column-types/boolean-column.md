@@ -34,14 +34,18 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [`String.Format`](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.8) article.
 
+>caption DataGridBooleanColumn definition
+
 ```XAML
 <telerik:DataGridBooleanColumn PropertyName="IsChampion"
                                HeaderText="Champion?" />
 ```
 
-![DataGrid Boolean Column](images/booleancolumn-overview.png)
+>caption Boolean column in the .NET MAUI DataGrid
 
-**Example with CellContentTemplate and CellEditTemplate**
+![.NET MAUI DataGrid BooleanColumn displaying bool values with a checkbox editor](images/booleancolumn-overview.png)
+
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
 <telerik:DataGridBooleanColumn PropertyName="IsChampion" 
