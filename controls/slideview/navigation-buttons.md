@@ -10,7 +10,7 @@ slug: slideview-interaction
 
 To switch through the different views of the SlideView, you can use Navigation Buttons. On `WinUI` and `MacCatalyst` the buttons are visible by default. On `Android` and `iOS` the buttons are hidden.
 
-The SlideView exposes a `NavigationButtonVisibility` property that allows you to control the visibility options of the Navigation Buttons:
+The SlideView exposes a `NavigationButtonsVisibility` property that allows you to control the visibility options of the Navigation Buttons:
 
 * `Visible`&mdash;The buttons are visible. 
 
