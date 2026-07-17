@@ -36,7 +36,7 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
 
 ## Example
 
-**DataGridNumericalColumn definition**
+>caption DataGridNumericalColumn definition
 
 ```XAML
 <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity"
@@ -44,11 +44,11 @@ The `DataGridNumericalColumn` is used to represent only numerical values. It use
                                      CellContentFormat=" Seats - {0:D}" />
 ```
 
-**Numerical column in the .NET MAUI DataGrid**
+>caption Numerical column in the .NET MAUI DataGrid
 
 ![.NET MAUI DataGrid NumericalColumn displaying numeric values with a numeric editor](images/numericalcolumn-overview.png)
 
-**Example with CellContentTemplate and CellEditTemplate**
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
 <telerik:DataGridNumericalColumn PropertyName="StadiumCapacity">

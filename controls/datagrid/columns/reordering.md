@@ -10,7 +10,7 @@ slug: datagrid-columns-reordering
 
 The [.NET MAUI DataGrid]({%slug datagrid-overview%}) exposes a reordering feature allowing the user to drag and drop columns and change their order.
 
-**Columns reordering in the .NET MAUI DataGrid on desktop**
+>caption Columns reordering in the .NET MAUI DataGrid on desktop
 
 ![.NET MAUI DataGrid showing drag-and-drop column reordering on desktop](../images/datagrid-reordering-mac.gif)
 

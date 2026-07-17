@@ -6,6 +6,8 @@ position: 2
 slug: datagrid-columns-boolean-column
 ---
 
+# .NET MAUI DataGrid BooleanColumn
+
 The `DataGridBooleanColumn` is used to represent boolean values. It uses the CheckBox control to edit its values in `EditMode`.
 
 ## Important Properties
@@ -32,18 +34,18 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 
 >important `CellContentFormat` uses the format string provided by the framework. For more details, refer to the [`String.Format`](https://docs.microsoft.com/en-us/dotnet/api/system.string.format?view=netframework-4.8) article.
 
-**DataGridBooleanColumn definition**
+>caption DataGridBooleanColumn definition
 
 ```XAML
 <telerik:DataGridBooleanColumn PropertyName="IsChampion"
                                HeaderText="Champion?" />
 ```
 
-**Boolean column in the .NET MAUI DataGrid**
+>caption Boolean column in the .NET MAUI DataGrid
 
-![.NET MAUI DataGrid BooleanColumn displaying boolean values with a checkbox editor](images/booleancolumn-overview.png)
+![.NET MAUI DataGrid BooleanColumn displaying bool values with a checkbox editor](images/booleancolumn-overview.png)
 
-**Example with CellContentTemplate and CellEditTemplate**
+>caption Example with CellContentTemplate and CellEditTemplate
 
 ```XAML
 <telerik:DataGridBooleanColumn PropertyName="IsChampion" 

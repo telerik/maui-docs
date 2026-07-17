@@ -14,7 +14,7 @@ The **DataGrid Grouping UI** exposes the `DataGridServicePanel` view which conta
 
 > The user can drag more than one column into the panel.
 
-**Grouping UI in the .NET MAUI DataGrid**
+>caption Grouping UI in the .NET MAUI DataGrid
 
 ![.NET MAUI DataGrid grouping UI showing drag-and-drop grouping in the grouping panel](../images/datagrid-grouping-ui.gif)
 

@@ -54,7 +54,7 @@ You can style the frozen splitter UI using the `FrozenColumnsSplitterStyle`(`Tel
 
 Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThickness`. 
 
-**Example for `FrozenColumnsSplitterStyle`**
+>caption Example for `FrozenColumnsSplitterStyle`
 
 ```XAML
 <telerik:RadDataGrid.FrozenColumnsSplitterStyle>
@@ -67,7 +67,7 @@ Style the splitter UI's `Width`, `BackgroundColor`, `BorderColor` and `BorderThi
 </telerik:RadDataGrid.FrozenColumnsSplitterStyle>
 ```
 
-**Frozen columns splitter styling in the .NET MAUI DataGrid**
+>caption Frozen columns splitter styling in the .NET MAUI DataGrid
 
 ![.NET MAUI DataGrid showing a styled frozen columns splitter](../images/frozen-column-style.png)
 

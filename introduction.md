@@ -150,7 +150,7 @@ By clicking on each control you will navigate to the detailed .NET MAUI document
 - **Regular Updates**&mdash;Stays aligned with Microsoft's .NET MAUI releases and includes new features quarterly.
 - **Dedicated Support**&mdash;Technical support, community forums, and extensive documentation included.
 
-**Telerik UI for .NET MAUI introduction video overview**
+>caption Telerik UI for .NET MAUI introduction video overview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x0fY4qwkBTk?si=ULFP7NkbskhG9DEb" title="Introduction to Telerik UI for .NET MAUI: Course Overview and Prerequisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

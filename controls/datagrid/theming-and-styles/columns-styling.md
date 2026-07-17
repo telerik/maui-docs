@@ -88,7 +88,7 @@ The `SortIndicator` appears once the `RadDataGridColumnHeader` is sorted (tapped
 * `SortIndicatorHorizontalOptions`&mdash;Defines the horizontal options of the sort indicator.
 * `Font Options`(`SortIndicatorFontFamily`, `SortIndicatorFontSize`, `SortIndicatorFontAttributes`)&mdash;Define the font options to the sort indicator text. 
 
-**XAML example for styling the DataGrid sort indicator**
+>caption XAML example for styling the DataGrid sort indicator
 
 ```xaml
 <Style TargetType="telerik:DataGridColumnHeaderAppearance">
@@ -180,11 +180,11 @@ And this is how the column style looks when the properties for customizing the c
 * `Font Options` (`TextFontFamily`, `TextFontAttributes`, `TextFontSize`)&mdash;Define the font options to the text part of the `ColumnFooter`.
 * `Text Alignment` (`TextMargin`, `HorizontalTextAlignment`, `VerticalTextAlignment`)&mdash;Define the positioning for the text part of the `ColumnFooter`.
 
-**Example of styling the DataGrid column footer**
+>caption Example of styling the DataGrid column footer
 
 <snippet id='datagrid-columnstyle-footerstyle' />
 
-**Customized DataGrid column footer styling**
+>caption Customized DataGrid column footer styling
 
 ![Telerik UI for .NET MAUI DataGrid column footer showing customized footer styling.](../images/column-footer-style.png)
 

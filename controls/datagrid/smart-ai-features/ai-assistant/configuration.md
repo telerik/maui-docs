@@ -74,7 +74,7 @@ Here is an example of how to configure the AI Smart Assistant  settings in the .
 
 <snippet id='datagrid-prompt-load-sample-data-call' />
 
-**AI Smart Assistant configuration in the .NET MAUI DataGrid**
+This is how the AI Smart Assistant configuration in the .NET MAUI DataGrid looks:
 
 ![.NET MAUI DataGrid AI Smart Assistant showing configured prompts and settings](images/datagrid-configuration.gif)
 

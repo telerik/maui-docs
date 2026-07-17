@@ -14,7 +14,7 @@ On `WinUI` and `MacCatalyst`, you can change the column width by positioning the
 
 ![.NET MAUI DataGrid showing column resizing on desktop](../images/column-resizing.png)
 
-**Column Resizing on `MacCatalyst`**
+>caption Column Resizing on `MacCatalyst`
 
 ![.NET MAUI DataGrid showing column resizing on MacCatalyst](../images/column-resizing-mac.gif)
 
@@ -47,7 +47,7 @@ To disable the resizing on a specific column, set the `IsResizable` property. Th
                                  IsResizable="False"/>
 ```
 
-**Disabled column resizing in the .NET MAUI DataGrid**
+This is the result:
 
 ![.NET MAUI DataGrid showing a column with resizing disabled](../images/column-resizing-disable-column-level.gif)
 

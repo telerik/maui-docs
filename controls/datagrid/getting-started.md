@@ -12,7 +12,7 @@ This guide provides the information you need to start using the [Telerik UI for 
 
 At the end, you will achieve the following result.
 
-![Telerik UI for .NET MAUI DataGrid displaying sample country and capital data in the getting started example](images/datagrid-getting-started.png)
+![Telerik UI for .NET MAUI DataGrid getting started example with sample data](images/datagrid-getting-started.png)
 
 ## Prerequisites
 

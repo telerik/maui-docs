@@ -85,7 +85,7 @@ The following example demonstrates how to apply the style selectors on the DataG
 
 This is how the DataGrid control will look when `CellContentStyleSelector` is applied.
 
-![Telerik UI for .NET MAUI DataGrid showing cell content and group header style selectors applied in the grid.](../images/datagrid-style-selector.png)
+![Telerik UI for .NET MAUI DataGrid showing cell content and group header style selectors applied](../images/datagrid-style-selector.png)
 
 > For the DataGrid Style Selector example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataGrid > Styling** category.
 

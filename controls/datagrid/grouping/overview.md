@@ -16,7 +16,7 @@ The DataGrid Grouping UI is enabled by design on desktop and disabled on mobile,
 
 The UI is represented by the `DataGridGroupingPanel`. The panel is part of the DataGrid and it's visualized at the top.
 
-**Grouping UI in the .NET MAUI DataGrid**
+>caption Grouping UI in the .NET MAUI DataGrid
 
 ![.NET MAUI DataGrid grouping UI showing drag-and-drop grouping in the grouping panel](../images/datagrid-grouping-ui.gif)
 

@@ -12,7 +12,7 @@ slug: datagrid-column-header
 
 This article describes how to customize and use column headers when performing different data operations. Column headers are always visible by default. You can further customize them by using the `HeaderStyle` property.
 
-**Column headers in the .NET MAUI DataGrid**
+>caption Column headers in the .NET MAUI DataGrid
 
 ![.NET MAUI DataGrid showing column headers](../images/column-header.png)
 
@@ -76,7 +76,7 @@ Define the `HeaderContentTemplate` in the DataGrid column:
 
 <snippet id='datagrid-headerfootercontenttemplate' />
 
-**Header content template in the .NET MAUI DataGrid**
+This is the result:
 
 ![.NET MAUI DataGrid showing a customized column header content template](../images/header-content-template.png)
 

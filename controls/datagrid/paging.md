@@ -11,7 +11,7 @@ slug: datagrid-paging
 
 You can page the data of the Telerik UI for .NET MAUI DataGrid by using the [DataPager]({%slug datapager-overview%}) control.
 
-![Telerik UI for .NET MAUI DataGrid integrated with the DataPager control to show paged records and navigation buttons.](images/datapager-datagrid-paging.png)
+![.NET MAUI DataGrid integrated with the DataPager for displaying paged records.](images/datapager-datagrid-paging.png)
 
 >Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.
 
