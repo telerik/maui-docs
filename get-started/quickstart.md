@@ -220,5 +220,5 @@ Continue with the following resources after you complete the quick start:
 
 ## See Also
 
-* [Apply and customize Telerik themes]({%slug themes-overview%})
-* [Use Telerik font icons in .NET MAUI apps]({%slug telerik-font-icons%})
+* [Apply and Customize Telerik Themes]({%slug themes-overview%})
+* [Use Telerik Font Icons in .NET MAUI Apps]({%slug telerik-font-icons%})
