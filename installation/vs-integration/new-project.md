@@ -69,5 +69,5 @@ The following image shows the end result after running the application.
 
 ## See Also
 
-* [Add Telerik controls with the Visual Studio Toolbox]({%slug toolbox-support %})
-* [Scaffold .NET MAUI pages and screens in Visual Studio]({%slug maui-vs-scaffoldings%})
+* [Add Telerik Controls with the Visual Studio Toolbox]({%slug toolbox-support %})
+* [Scaffold .NET MAUI Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
