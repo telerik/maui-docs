@@ -22,7 +22,7 @@ This guide provides the information you need to convert your application, which 
 
 While you don't need to fully rewrite your existing Xamarin project, you will still need to make changes to ensure its smooth transition to .NET 9.0 and, thus, upgrade Xamarin to .NET MAUI.
 
-The following list summarizes the required steps of the Xamarin to MAUI migration. For the detailed guide, go to the official Microsoft documentation on [how to migrate your Xamarin.Forms application to the .NET SDK style](https://docs.microsoft.com/en-us/dotnet/maui/get-started/migrate).
+The following list summarizes the required steps of the Xamarin to MAUI migration. For the detailed guide, go to the official Microsoft documentation on [migrating a Xamarin.Forms application to the .NET SDK-style project format](https://docs.microsoft.com/en-us/dotnet/maui/get-started/migrate).
 
 1. Convert the projects from the .NET framework to the .NET SDK style.
 1. Update the namespaces.
@@ -48,13 +48,13 @@ Replace the Telerik Xamarin assemblies with the Telerik UI for .NET MAUI package
 * The `.zip` file that contains the `.nupkg` file.
 * The `Telerik.UI.for.Maui.[Version].nupkg` file from your Telerik account.
 
-When the `.nupkg` file is available on your machine, you are ready to set up the local NuGet feed. For the detailed guide on setting up the local NuGet package, go to the [Local feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) official Microsoft topic.
+When the `.nupkg` file is available on your machine, you are ready to set up the local NuGet feed. For the detailed guide on setting up the local NuGet package, go to the official Microsoft guide for [hosting packages in local NuGet feeds](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
 
 ### Referencing the Telerik .NET MAUI NuGet Packages using the Telerik NuGet Server
 
 When using the Telerik NuGet server, you can install the `Telerik.UI.for.MAUI` NuGet package in the .NET MAUI Application.
 
-For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI with NuGet]({%slug maui-quick-start%}).
+For the detailed guide on configuring the Telerik NuGet Server and installing the Telerik UI for .NET MAUI NuGet package, go to the article about [installing Telerik UI for .NET MAUI packages from NuGet]({%slug maui-quick-start%}).
 
 ## Step 3: Register the .NET MAUI Controls
 
@@ -103,49 +103,49 @@ Before you start, note the following:
 
 If you use components that are not yet available in Telerik UI for .NET MAUI, note that the team is constantly working on enriching the suite by adding more controls to it. To get more information about what is expected, refer to the following resources:
 
-* For more information on the planned releases, go to the [Telerik UI for .NET MAUI Roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap).
-* For logged issues and feature requests for new components, go to the [Telerik UI for .NET MAUI Feedback Portal](https://feedback.telerik.com/maui).
-* Alternatively, directly contact the team through the [support ticketing system](https://www.telerik.com/account/support-center/contact-us/technical-support?pid=2338), the [forums](https://www.telerik.com/forums/maui), or the [Feedback Portal](https://feedback.telerik.com/maui).
+* For more information on the planned releases, go to the [Telerik UI for .NET MAUI product roadmap](https://www.telerik.com/support/whats-new/maui-ui/roadmap).
+* For logged issues and feature requests for new components, go to the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).
+* Alternatively, directly contact the team through the [Telerik technical support ticketing system](https://www.telerik.com/account/support-center/contact-us/technical-support?pid=2338), the [Telerik UI for .NET MAUI community forums](https://www.telerik.com/forums/maui), or the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).
 
 ### Migration Guides for .NET MAUI Components
 
 The following list includes the links to the available Xamarin to MAUI migration guides for Telerik UI controls:
 
-* [Accordion]({% slug accordion-xamarin-migration %})
-* [AutoComplete]({% slug autocomplete-migrate-from-xamarin %})
-* [BadgeView]({% slug badgeview-migrate-from-xamarin %})
-* [Barcode]({% slug barcode-xamarin-migration %})
-* [Border]({% slug border-xamarin-migration %})
-* [BusyIndocator]({% slug busyindicator-xamarin-migration %})
-* [Button]({% slug button-xamarin-migration %})
-* [Calendar]({% slug calendar-migrate-from-xamarin %})
-* [Chart]({% slug chart-xamarin-migration %})
-* [CheckBox]({% slug checkbox-migrate-from-xamarin %})
-* [ComboBox]({% slug combobox-migrate-from-xamarin %})
-* [Conversational UI(Chat)]({% slug chat-migrate-from-xamarin %})
-* [DataForm]({% slug dataform-migrate-from-xamarin %})
-* [DataGrid]({% slug datagrid-xamarin-migration %})
-* [DatePicker]({% slug migrate-xamarin-datepicker-to-maui %})
-* [DateTimePicker]({% slug migrate-xamarin-datetimepicker-to-maui %})
-* [Entry]({% slug entry-migrate-from-xamarin %})
-* [ImageEditor]({% slug imageeditor-migrate-from-xamarin %})
-* [ListPicker]({% slug migrate-xamarin-listpicker-to-maui %})
-* [MaskedEntry]({% slug maskedentry-migrate-from-xamarin %})
-* [ProgressBar]({% slug progressbar-migrate-from-xamarin %})
-* [RichTextEditor]({% slug richtexteditor-migrate-from-xamarin %})
-* [Scheduler]({% slug scheduler-migrate-from-xamarin %})
-* [SignaturePad]({% slug signaturepad-migrate-from-xamarin %})
-* [SlideView]({% slug migrate-xamarin-slideview-to-maui %})
-* [TemplatedPicker]({% slug  migrate-xamarin-templatedpicker-to-maui %})
-* [TimePicker]({% slug  migrate-xamarin-timepicker-to-maui %})
-* [TimeSpanPicker]({% slug migrate-xamarin-timespanpicker-to-maui %})
-* [TreeView]({% slug migrate-xamarin-treeview-to-maui %})
+* [Migrate the Accordion control from Xamarin to .NET MAUI]({% slug accordion-xamarin-migration %})
+* [Migrate the AutoComplete control from Xamarin to .NET MAUI]({% slug autocomplete-migrate-from-xamarin %})
+* [Migrate the BadgeView control from Xamarin to .NET MAUI]({% slug badgeview-migrate-from-xamarin %})
+* [Migrate the Barcode control from Xamarin to .NET MAUI]({% slug barcode-xamarin-migration %})
+* [Migrate the Border control from Xamarin to .NET MAUI]({% slug border-xamarin-migration %})
+* [Migrate the BusyIndicator control from Xamarin to .NET MAUI]({% slug busyindicator-xamarin-migration %})
+* [Migrate the Button control from Xamarin to .NET MAUI]({% slug button-xamarin-migration %})
+* [Migrate the Calendar control from Xamarin to .NET MAUI]({% slug calendar-migrate-from-xamarin %})
+* [Migrate the Chart control from Xamarin to .NET MAUI]({% slug chart-xamarin-migration %})
+* [Migrate the CheckBox control from Xamarin to .NET MAUI]({% slug checkbox-migrate-from-xamarin %})
+* [Migrate the ComboBox control from Xamarin to .NET MAUI]({% slug combobox-migrate-from-xamarin %})
+* [Migrate the Conversational UI (Chat) control from Xamarin to .NET MAUI]({% slug chat-migrate-from-xamarin %})
+* [Migrate the DataForm control from Xamarin to .NET MAUI]({% slug dataform-migrate-from-xamarin %})
+* [Migrate the DataGrid control from Xamarin to .NET MAUI]({% slug datagrid-xamarin-migration %})
+* [Migrate the DatePicker control from Xamarin to .NET MAUI]({% slug migrate-xamarin-datepicker-to-maui %})
+* [Migrate the DateTimePicker control from Xamarin to .NET MAUI]({% slug migrate-xamarin-datetimepicker-to-maui %})
+* [Migrate the Entry control from Xamarin to .NET MAUI]({% slug entry-migrate-from-xamarin %})
+* [Migrate the ImageEditor control from Xamarin to .NET MAUI]({% slug imageeditor-migrate-from-xamarin %})
+* [Migrate the ListPicker control from Xamarin to .NET MAUI]({% slug migrate-xamarin-listpicker-to-maui %})
+* [Migrate the MaskedEntry control from Xamarin to .NET MAUI]({% slug maskedentry-migrate-from-xamarin %})
+* [Migrate the ProgressBar control from Xamarin to .NET MAUI]({% slug progressbar-migrate-from-xamarin %})
+* [Migrate the RichTextEditor control from Xamarin to .NET MAUI]({% slug richtexteditor-migrate-from-xamarin %})
+* [Migrate the Scheduler control from Xamarin to .NET MAUI]({% slug scheduler-migrate-from-xamarin %})
+* [Migrate the SignaturePad control from Xamarin to .NET MAUI]({% slug signaturepad-migrate-from-xamarin %})
+* [Migrate the SlideView control from Xamarin to .NET MAUI]({% slug migrate-xamarin-slideview-to-maui %})
+* [Migrate the TemplatedPicker control from Xamarin to .NET MAUI]({% slug  migrate-xamarin-templatedpicker-to-maui %})
+* [Migrate the TimePicker control from Xamarin to .NET MAUI]({% slug  migrate-xamarin-timepicker-to-maui %})
+* [Migrate the TimeSpanPicker control from Xamarin to .NET MAUI]({% slug migrate-xamarin-timespanpicker-to-maui %})
+* [Migrate the TreeView control from Xamarin to .NET MAUI]({% slug migrate-xamarin-treeview-to-maui %})
 
 ## Step 5: Port Custom Renderers to Handlers
 
 To customize the appearance and behavior of the native controls on each platform, Xamarin.Forms widely uses custom renderers and platform effects. In .NET MAUI, these renderers are replaced with handlers and, when migrating Xamarin to MAUI, you will need port the custom renderers to handlers.
 
-For the detailed guide, go to the official Microsoft documentation on GitHub about [how to migrate custom renderers to handlers](https://github.com/dotnet/maui/wiki/Porting-Custom-Renderers-to-Handlers).
+For the detailed guide, go to the official Microsoft documentation on GitHub about [porting Xamarin custom renderers to .NET MAUI handlers](https://github.com/dotnet/maui/wiki/Porting-Custom-Renderers-to-Handlers).
 
 ## Video Tutorial
 
@@ -155,7 +155,7 @@ The following video demonstrates how you can upgrade your Xamarin.Forms App to .
 
 ## See Also
 
-* [Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})
+* [Explore Telerik UI for .NET MAUI sample applications]({% slug sampleapps-overview %})
 
 <VideoMetadata 
     name="Upgrading your Xamarin Forms App to .NET MAUI | DevReach 2023"

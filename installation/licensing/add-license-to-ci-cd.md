@@ -17,7 +17,7 @@ When working with CI/CD platforms, always add the `Telerik.Licensing` NuGet pack
 
 The license activation process in a CI/CD environment involves the following steps:
 
-1. [Download]({%slug set-up-your-license%}) a license key from your Telerik account.
+1. [Download a Telerik UI for .NET MAUI license key]({%slug set-up-your-license%}) from your Telerik account.
 
 1. Add the `Telerik.Licensing` NuGet package as a project dependency.
 

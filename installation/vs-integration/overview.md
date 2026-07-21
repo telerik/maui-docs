@@ -28,14 +28,14 @@ The Telerik UI for .NET MAUI VS extensions support Visual Studio 2022.
 
 Use one of the following installation options:
 
-1. Install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions).
+1. Install the Telerik UI for .NET MAUI Visual Studio extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions).
 2. Install from Visual Studio:
 
 	- Open the **Extensions** tab in Visual Studio.
 	- Search for `Progress Telerik UI for .NET MAUI Extension`.
 	- Select the extension and click **Install**.
 
-3. Install through [the Telerik UI for .NET MAUI automated installer]({%slug automated-installer%}).
+3. Install through the [Telerik UI for .NET MAUI automated installer]({%slug automated-installer%}).
 
 ## Extensions Location in Visual Studio
 
@@ -49,6 +49,6 @@ From this menu, you can access the Telerik project templates, Toolbox-related fe
 
 ## See Also
 
-- [Creating New Projects with Visual Studio]({%slug vs-integration-new-project%})
-- [Toolbox Extension]({%slug toolbox-support%})
-- [Scaffolding Pages and Screens]({%slug maui-vs-scaffoldings%})
+- [Create .NET MAUI projects with Visual Studio]({%slug vs-integration-new-project%})
+- [Add Telerik controls with the Visual Studio Toolbox]({%slug toolbox-support%})
+- [Scaffold .NET MAUI pages and screens in Visual Studio]({%slug maui-vs-scaffoldings%})

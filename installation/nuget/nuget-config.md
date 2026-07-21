@@ -11,7 +11,7 @@ position: 5
 
 An alternative way to configure your system to use the Telerik NuGet server is to directly edit the `nuget.config` file. This approach is useful if you don't have Visual Studio installed.
 
->tip You can also install `Telerik.UI.for.Maui` directly from the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org</a> registry without any additional configuration. The steps below are only needed if you prefer to use the authenticated Telerik NuGet server.
+>tip You can also install `Telerik.UI.for.Maui` directly from the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org package registry</a> without any additional configuration. The steps below are only needed if you prefer to use the authenticated Telerik NuGet server.
 
 To configure the Telerik NuGet server as a package source directly in the `nuget.config` file, perform the following steps:
 
@@ -29,7 +29,7 @@ To configure the Telerik NuGet server as a package source directly in the `nuget
     * On Windows, open the `%AppData%\NuGet\NuGet.Config` file.
     * On Mac, open either the  `~/.config/NuGet/NuGet.Config` or `~/.nuget/NuGet/NuGet.Config` file (varies by tooling).
 
-    If the file doesn't exist on your machine, create it by running the `dotnet new nugetconfig` command in the terminal. For more information about the command, see <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new" target="blank">Microsoft's docs</a>.
+    If the file doesn't exist on your machine, create it by running the `dotnet new nugetconfig` command in the terminal. For more information about the command, see <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new" target="blank">Microsoft's dotnet new command reference</a>.
 
 1. In the `nuget.config` file, add the Telerik feed by inserting the line `<add key="MyTelerikFeed" value="https://nuget.telerik.com/v3/index.json" protocolVersion="3"/>`in the `packageSources` section.
 

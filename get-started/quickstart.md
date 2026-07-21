@@ -32,7 +32,7 @@ You only need to follow one of the IDE-specific paths later in this article.
 
 To download and install your Telerik [license key file]({%slug set-up-your-license%}):
 
-1. Go to the <a href="https://www.telerik.com/account/your-licenses/license-keys" target="_blank">License Keys page</a> in your Telerik account.
+1. Go to the <a href="https://www.telerik.com/account/your-licenses/license-keys" target="_blank">Telerik account License Keys page</a>.
 1. Click the **Download License Key** button.
 1. Save the `telerik-license.txt` file to the appropriate location for your OS:
     * (on Windows) `%AppData%\Telerik\telerik-license.txt`
@@ -220,5 +220,5 @@ Continue with the following resources after you complete the quick start:
 
 ## See Also
 
-* [Using a Telerik Theme]({%slug themes-overview%})
-* [Telerik Font Icons]({%slug telerik-font-icons%})
+* [Apply and customize Telerik themes]({%slug themes-overview%})
+* [Use Telerik font icons in .NET MAUI apps]({%slug telerik-font-icons%})

@@ -56,5 +56,5 @@ The **Upgrade Project Wizard** updates the Telerik UI for .NET MAUI version used
 
 ## See Also
 
-- [Toolbox Extension for Visual Studio]({%slug toolbox-support%})
-- [Scaffold Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
+- [Add Telerik controls with the Visual Studio Toolbox]({%slug toolbox-support%})
+- [Scaffold .NET MAUI pages and screens in Visual Studio]({%slug maui-vs-scaffoldings%})

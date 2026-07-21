@@ -30,7 +30,7 @@ To protect the API Key, store it as a secret environment variable. The exact ste
 
 If you use Azure DevOps Service connection instead of secret environment variables, enter `api-key` in the username filed and the API Key as the password in the **New NuGet service connection** form editor.
 
-For more details on storing and protecting your API Key, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
+For more details on storing and protecting your API Key, check the [Telerik NuGet API key security guidance](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
 ## Using an API Key
 
@@ -40,7 +40,7 @@ There are two popular ways to use the Telerik NuGet server in a build:
 
 * [Using only CLI commands](#using-only-cli-commands)
 
-For more information on how to use API Keys in a build, check the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
+For more information on how to use API Keys in a build, check the [Telerik NuGet API key build workflow guidance](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
 ### Using a NuGet.Config File with Your Projects
 
@@ -64,7 +64,7 @@ For more information on how to use API Keys in a build, check the [Announcing Nu
 
 **2.** Set the `MY_API_KEY` environment variable by using the value of your pipeline/workflow secret.
 
-The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Announcing NuGet Keys](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
+The exact steps to set the `MY_API_KEY` environment variable depend on your workflow. For more details, refer to the [Telerik NuGet API key environment variable guidance](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 
 ### Using .NET CLI Commands
 

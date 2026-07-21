@@ -11,17 +11,17 @@ position: 0
 The Telerik UI for .NET MAUI Extension for Visual Studio Code enhances the experience in developing .NET MAUI applications with Telerik UI for .NET MAUI.
 
 The extension for Visual Studio Code provides the following advantages:
-* Facilitates the [creation of project]({%slug getting-started-vs-code-integration-new-project%}) by using project templates.
-* Contains a collection of [code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and configuration.
-* Allows you to [add predefined pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
-* Wizard for adding [Document Processing Libraries]({%slug document-processing-libraries-overview%}) as a package reference to the project.
+* Facilitates the [creation of new .NET MAUI projects]({%slug getting-started-vs-code-integration-new-project%}) by using project templates.
+* Contains a collection of [Telerik UI for .NET MAUI code snippets]({%slug getting-started-vs-code-integration-snippets%}) for fast UI component reference and configuration.
+* Allows you to [add predefined .NET MAUI pages and screens to your application]({%slug maui-vs-code-scaffoldings%}) with a few clicks.
+* Wizard for adding [Telerik Document Processing Libraries]({%slug document-processing-libraries-overview%}) as a package reference to the project.
 * Notifies you about a missing or outdated [license key]({%slug set-up-your-license%}), and lets you install or update it.
 
 ## Get the Extension
 
 You can get the Telerik UI for .NET MAUI Extension extension from:
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Marketplace.</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">Telerik UI for .NET MAUI Productivity Tools in the Visual Studio Marketplace</a>
 
 * The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
 
@@ -34,7 +34,7 @@ To access the VS Code extension and to open the VS Code extension launcher, use:
 
 ## See Also
 
-* [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
-* [Scaffolding Pages]({%slug maui-vs-code-scaffoldings%})
-* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})
+* [Create .NET MAUI projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Use Telerik UI for .NET MAUI code snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Scaffold .NET MAUI pages and screens]({%slug maui-vs-code-scaffoldings%})
+* [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})

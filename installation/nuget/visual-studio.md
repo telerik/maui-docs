@@ -27,7 +27,7 @@ The Telerik NuGet server is a private authenticated feed that you can use as an 
 
 Before adding the Telerik NuGet server to Visual Studio, make sure you have:
 
-1. .NET MAUI installed on the machine. For more information on the required steps and system requirements, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation" target="_blank">official Microsoft .NET MAUI documentation</a>.
+1. .NET MAUI installed on the machine. For more information on the required steps and system requirements, refer to the <a href="https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation" target="_blank">Microsoft .NET MAUI installation guide</a>.
 2. A commercial or trial license for Telerik .NET MAUI. Note that the Telerik NuGet server requires authentication and checks if you have a valid license.
 
 ### Step 1: Generate an API Key
@@ -41,7 +41,7 @@ To configure the Telerik NuGet feed in Visual Studio:
 1. Open Visual Studio.
 1. Go to **Tools > NuGet Package Manager > Package Manager Settings**.
 1. Select **Package Sources**, and then click the + button.
-1. In the **Source** field, enter `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from <a href="https://www.telerik.com/account/" target="_blank">your account</a>, add the path to the local package instead of the URL.
+1. In the **Source** field, enter `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from <a href="https://www.telerik.com/account/" target="_blank">your Telerik account</a>, add the path to the local package instead of the URL.
 1. Click **Update** and then **OK**.
 
   ![Package Sources field with the checked Telerik NuGet option](../../installation/images/nuget-vs-telerik-server.png)
@@ -76,7 +76,7 @@ The next steps describe how to authenticate your local NuGet instance and displa
 
 ### Step 4: Register the Required Handlers
 
-To visualize the [.NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
+To visualize the [Telerik UI for .NET MAUI](https://www.telerik.com/maui-ui) controls, you have to register the required handlers by calling the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method inside the `Configure` method of the `MauiProgram.cs` file of your project.
 
 1. Add the needed `using` settings inside the `MauiProgram.cs` file.
 
