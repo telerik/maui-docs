@@ -34,7 +34,7 @@ To access the VS Code extension and to open the VS Code extension launcher, use:
 
 ## See Also
 
-* [Create .NET MAUI projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Use Telerik UI for .NET MAUI code snippets]({%slug getting-started-vs-code-integration-snippets%})
-* [Scaffold .NET MAUI pages and screens]({%slug maui-vs-code-scaffoldings%})
+* [Create .NET MAUI Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Use Telerik UI for .NET MAUI Code Snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Scaffold .NET MAUI Pages and Screens]({%slug maui-vs-code-scaffoldings%})
 * [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})
