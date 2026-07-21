@@ -5,6 +5,7 @@ description: Learn how to handle various issues that may occur when you work wit
 slug: nuget-troubleshooting
 tags: telerik, nuget, blazor, ui, troubleshooting, installation
 published: True
+previous_url: /installation/nuget/nuget-troubleshooting
 position: 10
 ---
 

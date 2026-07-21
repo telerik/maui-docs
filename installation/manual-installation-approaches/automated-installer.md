@@ -4,6 +4,7 @@ page_title: Automated Installers
 description: Learn how to install Telerik UI for .NET MAUI on both Windows and macOS by using the automated MSI or PKG installer.
 slug: automated-installer
 tags: .net maui, ui for .net maui, automatic installation, installer
+previous_url: /installation/utomated-installer
 position: 10
 ---
 

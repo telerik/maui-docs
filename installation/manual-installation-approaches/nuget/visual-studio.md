@@ -4,6 +4,7 @@ page_title: Adding the Telerik NuGet Server to Visual Studio
 description: Learn how to install the UI for .NET MAUI by using the Telerik NuGet Server with Visual Studio.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, install, telerik .net maui, 
 slug: nuget-server-vs
+previous_url: /installation/nuget/visual-studio
 position: 1
 ---
 

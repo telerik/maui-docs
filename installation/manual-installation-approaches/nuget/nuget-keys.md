@@ -3,6 +3,7 @@ title: Using NuGet in CI Workflows
 page_title: Using NuGet Packages in CI Workflows
 description: Learn how to use API Keys to authenticate with the Telerik NuGet server and restore Telerik UI for .NET MAUI packages in your CI or desktop environment.
 slug: nuget-keys
+previous_url: /installation/nuget/nuget-keys
 position: 8
 ---
 
