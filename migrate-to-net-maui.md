@@ -155,7 +155,7 @@ The following video demonstrates how you can upgrade your Xamarin.Forms App to .
 
 ## See Also
 
-* [Explore Telerik UI for .NET MAUI sample applications]({% slug sampleapps-overview %})
+* [Explore Telerik UI for .NET MAUI Sample Applications]({% slug sampleapps-overview %})
 
 <VideoMetadata 
     name="Upgrading your Xamarin Forms App to .NET MAUI | DevReach 2023"
