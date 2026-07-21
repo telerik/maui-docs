@@ -8,7 +8,7 @@ position: 2
 tag: new
 ---
 
-# Telerik.CLI
+# Installing Telerik UI for .NET MAUI with Telerik.CLI
 
 @[template](/_contentTemplates/common/telerik-cli.md#telerik-cli)
 
