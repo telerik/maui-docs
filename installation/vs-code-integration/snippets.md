@@ -88,6 +88,6 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 
 ## See Also
 
-* [Create .NET MAUI projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Scaffold .NET MAUI pages and screens in Visual Studio Code]({%slug maui-vs-code-scaffoldings%})
+* [Create .NET MAUI Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Scaffold .NET MAUI Pages and Screens in Visual Studio Code]({%slug maui-vs-code-scaffoldings%})
 * [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})
