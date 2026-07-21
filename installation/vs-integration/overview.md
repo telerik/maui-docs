@@ -49,6 +49,6 @@ From this menu, you can access the Telerik project templates, Toolbox-related fe
 
 ## See Also
 
-- [Create .NET MAUI projects with Visual Studio]({%slug vs-integration-new-project%})
-- [Add Telerik controls with the Visual Studio Toolbox]({%slug toolbox-support%})
-- [Scaffold .NET MAUI pages and screens in Visual Studio]({%slug maui-vs-scaffoldings%})
+- [Create .NET MAUI Projects with Visual Studio]({%slug vs-integration-new-project%})
+- [Add Telerik Controls with the Visual Studio Toolbox]({%slug toolbox-support%})
+- [Scaffold .NET MAUI Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
