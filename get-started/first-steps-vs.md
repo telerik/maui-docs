@@ -1,7 +1,7 @@
 ---
 title: Using Visual Studio
 page_title: Get Started with Telerik UI for .NET MAUI in Visual Studio
-description: "Get started with Telerik UI for .NET MAUI in Visual Studio on Windows � create a .NET MAUI project, add the Telerik NuGet feed, and install the controls."
+description: "Get started with Telerik UI for .NET MAUI in Visual Studio on Windows to create a .NET MAUI project, add the Telerik NuGet feed, and install the controls."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, install, visual studio
 slug: maui-getting-started
 position: 2
