@@ -129,6 +129,6 @@ The image shows the default appearance of the page:
 
 ## See Also
 
-* [Create .NET MAUI projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Use Telerik UI for .NET MAUI code snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Create .NET MAUI Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Use Telerik UI for .NET MAUI Code Snippets]({%slug getting-started-vs-code-integration-snippets%})
 * [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})
