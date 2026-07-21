@@ -140,4 +140,4 @@ If your .NET MAUI project uses the default project template provided by Microsof
 ## See Also
 
 * [Review Telerik UI for .NET MAUI System Requirements]({% slug system-requirements %})
-* [Explore the Telerik UI for .NET MAUI product overview](https://www.telerik.com/maui-ui)
+* [Explore the Telerik UI for .NET MAUI Product Overview](https://www.telerik.com/maui-ui)
