@@ -54,24 +54,22 @@ telerik setup maui
 
 The `telerik setup maui` command performs all the required setup steps at once:
 
-[x] Logs you into your Telerik account.
+&#10003; Logs you into your Telerik account.
 
-[x] Downloads your Telerik license key file and saves `telerik-license.txt` to your operating system user's folder, making it available to all Telerik .NET apps on your machine.
+&#10003; Downloads your Telerik license key file and saves `telerik-license.txt` to your operating system user's folder, making it available to all Telerik .NET apps on your machine.
 
-[x] Configures the Telerik NuGet package source.
+&#10003; Configures the Telerik NuGet package source.
 
-[x] Installs the Telerik MCP server for AI-powered coding assistance.
+&#10003; Installs the Telerik MCP server for AI-powered coding assistance.
 
 ## Step 4: Create a New MAUI Project
 
 Choose your preferred IDE to create a new .NET MAUI project and install the Telerik UI for .NET MAUI controls:
 
-> If your project uses the `Telerik.UI.for.Maui.8.0.0` NuGet package and .NET 9, you must also install the `Microsoft.Maui.Controls.Compatibility` package. This is needed because Telerik UI for .NET MAUI version 8.0.0 depends on Microsoft's compatibility package, which is no longer included in the default **.NET MAUI App** project template. This dependency has been removed in Telerik UI for .NET MAUI version 9.0.0.
-
 <TabStrip>
 <TabStripTab title="Visual Studio">
 
-### Step 1:
+### Step 1: Create a New MAUI Project
 
 1. Open Visual Studio and select **Create a new project** in the start window.
 
