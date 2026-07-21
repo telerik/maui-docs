@@ -27,7 +27,7 @@ To start your Telerik UI for .NET MAUI trial:
 
     - On Windows, open the downloaded EXE file, make sure that **Telerik UI for .NET MAUI** is selected, and continue with the setup.
 
-        ![Progress Installer](images/progress-installer.png)
+        ![Progress Installer](../images/progress-installer.png)
 
     - On macOS, use the downloaded PKG file, make sure that **Telerik UI for .NET MAUI** is selected, and continue with the setup.
  

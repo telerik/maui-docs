@@ -22,7 +22,7 @@ To install Telerik UI for .NET MAUI by using the Progress Control Panel:
 
 For more information and detailed installation and configuration instructions, see the <a href="https://docs.telerik.com/controlpanel/introduction" target="_blank">Progress Control Panel documentation</a>.
 
-![Installing UI for MAUI with the Progress Control Panel](images/control-panel-introduction.png)
+![Installing UI for MAUI with the Progress Control Panel](../images/control-panel-introduction.png)
     
 ## See Also
 

@@ -34,7 +34,7 @@ To configure a local NuGet source in Visual Studio:
 1. In the **Source** field, add the path to the downloaded NuGet package or the URL for your private server.
 1. Click **Update** and then **OK**.
 
-  ![Package Sources field with the checked Telerik NuGet option](../../installation/images/local-packages.png)
+  ![Package Sources field with the checked Telerik NuGet option](../../../installation/images/local-packages.png)
 
 ## Setting Up the NuGet Source in NuGet.Config
 
