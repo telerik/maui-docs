@@ -53,11 +53,12 @@ To add the TemplatedButton control to the application:
 1. In the `MainPage.xaml` file, add the Telerik UI for .NET MAUI TemplatedButton and set its content to a string:
 
 	```XAML
-	<telerik:RadTemplatedButton x:Name="templatedButton"
-		                        Content="My TemplatedButton Content" />
+        <telerik:RadTemplatedButton x:Name="templatedButton" 
+                                    Content="My TemplatedButton Content"
+                                    Clicked="OnCounterClicked" />
 	```
 
-After adding the basic TemplatedButton and setting the initial content, you can hit `F5` to confirm that the app is running. In the next steps, you will configure the control by adding some interactivity.
+After adding the basic TemplatedButton and setting the initial content, you can hit `F5` to confirm that the app is running.
 #end
 
 #add-custom-content

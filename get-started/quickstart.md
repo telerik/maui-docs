@@ -18,7 +18,7 @@ This guide walks you through the essential steps to get Telerik UI for .NET MAUI
 The following table lists the requirements to build .NET MAUI apps with Telerik UI for .NET MAUI:
 
 | Requirement | Minimum version |
-|---|---|---|
+|---|---|
 | [.NET SDK](https://dotnet.microsoft.com/en-us/download) | 9.0 or later |
 | Operating system | Windows or macOS |
 | Telerik account | Active subscription or trial license required. |
@@ -103,10 +103,6 @@ If you encounter any issues creating the basic project, see the complete guide i
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
 
-### Step 5: Add Custom Content to the TemplatedButton
-
-@[template](/_contentTemplates/get-started.md#add-custom-content)
-
 </TabStripTab>
 <TabStripTab title="Visual Studio Code">
 
@@ -142,10 +138,6 @@ dotnet add package Telerik.UI.for.Maui
 ### Step 4: Add a Telerik UI Component
 
 @[template](/_contentTemplates/get-started.md#add-telerik-component)
-
-### Step 5: Add Custom Content to the TemplatedButton
-
-@[template](/_contentTemplates/get-started.md#add-custom-content)
 
 </TabStripTab>
 </TabStrip>
