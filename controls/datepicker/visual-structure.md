@@ -26,7 +26,7 @@ The images in this article show the anatomy of the DatePicker and its building b
 
 - **Header**&mdash;The text that is displayed in the popup header. You can set it to a text input through the [`HeaderLabelText`]({%slug datepicker-styling%}#styling) property, or customize it by using the [`HeaderTemplate`]({%slug datepicker-templates%}#headertemplate) property.
 - **Header Text**&mdash;The text that is visualized in the header of the popup.
-- **Spinners Header**&mdash;The text that is visualized for each spinner header. For example, if the `SpinnerFormatString` is `d`, the visualized text for the spinner header will be `Month` `Day` `Year`.
+- **Spinners Header**&mdash;The text that is visualized for each spinner header. For example, if the `SpinnerFormat` is `d`, the visualized text for the spinner header will be `Month` `Day` `Year`.
 - **Spinners**&mdash;Displays items in a list. For `d` format, three spinners will be visualized: one for month, one for day, and one for year.
 - **SelectionHighlight**&mdash;Highlights the current selected date when the popup is open.
 - **Footer**&mdash;The footer of the popup. By default, it contains the **OK** and **Cancel** buttons. You can customize it through the [`FooterTemplate`]({%slug datepicker-templates%}#footertemplate) property.

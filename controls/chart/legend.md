@@ -33,7 +33,7 @@ The following list summarizes the most important properties of the `RadLegend` c
 * `LegendItemFontSize` (`double`)&mdash;The size of the item's title text.
 * `LegendItemFontColor` (`Color`)&mdash;The color of the item's title text.
 * `LegendItemIconSize` (`Size`)&mdash;The size of the title icons.
-* `Orientation` (`LegndOrientation`)&mdash;Sets the orientation of the legend. Can be `Horizontal` or `Vertical`.
+* `Orientation` (`LegendOrientation`)&mdash;Sets the orientation of the legend. Can be `Horizontal` or `Vertical`.
 
 `RadLegend` can be used in combination with `RadCartesianChart` as well.
 

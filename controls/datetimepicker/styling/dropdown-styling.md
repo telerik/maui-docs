@@ -11,7 +11,7 @@ slug: datetimepicker-dropdown-styling
 By using the `DropDownSettings` property (of type `Telerik.Maui.Controls.PickerDropDownSettings`) of the DateTimePicker, you can modify the appearance of the drop-down. The `PickerDropDownSettings` class exposes the following `Style` properties:
 
 * `DropDownViewStyle`(of type `Style` with target type `telerik:PickerDropDownContentView`)&mdash;Defines the drop-down view style.
-* `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the drop-down footer style.
+* `FooterStyle`(of type `Style` with target type `telerik:PickerDropDownFooterView`)&mdash;Defines the drop-down footer style.
 * `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 * `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 

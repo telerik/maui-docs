@@ -37,7 +37,7 @@ When migrating the TabView from Xamarin to .NET MAUI, consider the following dif
 | `IsScrollable` | `IsHeaderScrollable` |
 | N/A | `IsHeaderOverlaid` |
 | Overflow button | N/A |
-| `IsContentSwipingEnabled` | `IsContentSwipingEnabled` |
+| `IsContentSwipingEnabled` | `IsContentSwipeEnabled` |
 | `TabViewItem` | `TabViewItem` |
 | N/A | `HeaderStyle` |
 | N/A | `HeaderItemStyle` |

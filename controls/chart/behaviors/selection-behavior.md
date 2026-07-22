@@ -29,10 +29,12 @@ The Selection behavior supports the following properties:
 	-  `Multiple`
 - `SelectedPoints`&mdash;Retrieves all the points from all currently selected series within the chart plot area.
 - `SelectedSeries`&mdash;Retrieves all currently selected series instances within the plot area.
+- `Command`&mdash;Gets or sets the `ICommand` invoked when selection changes.
+- `CommandParameter`&mdash;Gets or sets the optional parameter passed to `Command`.
 
 ### Methods
 
-The Selection behavior supports the `ClearSelecton()` method, which removes the current selection within the chart.
+The Selection behavior supports the `ClearSelection()` method, which removes the current selection within the chart.
 
 ### Events
 
@@ -40,7 +42,7 @@ The Selection behavior supports the `SelectionChanged` event, which occurs when 
 
 ### Commands
 
-The Selection behavior supports the `Commands` selection.
+The Selection behavior supports the `Command` and `CommandParameter` properties.
 
 ## Example
 

@@ -24,7 +24,7 @@ The Pan and Zoom behavior of the Chart handles the drag, pinch open, and pinch c
 	- `Horizontal`
 	- `Vertical`
 	- Both
-- `HandleDoubleTap`&mdash;Determines whether a double-tap gesture will be handled by the behavior to reset the values of the `Zoom` and `ScrollOffset` (`Pan`) properties of the chart.
+- `HandleDoubleTap`&mdash;Determines whether a double-tap gesture will be handled by the behavior to reset the values of the `Zoom` and `PanOffset` properties of the chart.
 
 ## Example
 

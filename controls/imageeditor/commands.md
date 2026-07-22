@@ -90,7 +90,7 @@ Commands which cancel/apply the changes made in interactive commands:
 
 * `RedoCommand`(`ICommand`)&mdash;Gets the command for the redo action.
 
-* `ResetCommnad`(`ICommand`)&mdash;Reset all changes applied to the image.
+* `ResetCommand`(`ICommand`)&mdash;Reset all changes applied to the image.
 
 * `RotateBackwardCommand`(`ICommand`)&mdash;Rotates the image backwards.
 

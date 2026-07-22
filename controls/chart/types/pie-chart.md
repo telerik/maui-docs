@@ -16,7 +16,7 @@ The Pie Chart visualizes its data points by using the radial coordinate system. 
 The Pie Chart supports the following properties:
 
 * `Series`&mdash;Gets a collection of all series presented by the chart instance.
-* `Behaviors`&mdash;Gets a collection of all enabled behaviors.
+* `ChartBehaviors`&mdash;Gets a collection of all enabled behaviors.
 * `Palette`&mdash;Gets or sets the `ChartPalette` instance that defines the appearance of the chart.
 * `PaletteName`&mdash;Gets or sets the name of the predefined `Palette` that will be applied to the chart.
 * `SelectionPalette`&mdash;Gets or sets the `ChartPalette` instance that defines the appearance of the chart for the selected series and/or data points.
