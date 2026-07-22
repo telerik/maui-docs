@@ -19,7 +19,7 @@ navigation:
         title: "Mac"
         position: 2
     installation:
-        title: "Download & Installation"
+        title: "Installation"
         position: 2
     demos-and-sample-apps:
         title: "Sample Applications"
