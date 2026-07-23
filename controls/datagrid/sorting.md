@@ -27,8 +27,8 @@ You can also enable or disable the sorting of a specific column and define a val
 
 To sort the DataGrid programmatically, use either of the following approaches:
 
-* Sort by a property with the [`PropertySortDescriptor`](#property-sort-descriptor)
-* Sort by a custom key with the [`DelegateSortDescriptor`](#delegate-sort-descriptor)
+* Sort by a property with the [`PropertySortDescriptor`](#property-sort-descriptor) added to the `RadDataGrid.SortDescriptors` collection.
+* Sort by a custom key with the [`DelegateSortDescriptor`](#delegate-sort-descriptor) added to the `RadDataGrid.SortDescriptors` collection.
 
 ### Sorting by Properties
 

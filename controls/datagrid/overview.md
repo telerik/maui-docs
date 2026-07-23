@@ -42,7 +42,7 @@ The .NET MAUI DataGrid provides a number of features and configuration options r
 
 ## Sorting, Filtering, and Grouping Data
 
-Perform sorting, filtering, and grouping operations on your data by using the convenient API of the control. Apply the [sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %}) operations per column. You can sort, filter and group through the built-in UI or programmatically using the exposed descriptors.
+Perform sorting, filtering, and grouping operations on your data by using the convenient API of the control. Apply the [sorting]({%slug datagrid-sorting-overview %}), [filtering]({%slug datagrid-filtering-overview%}), and [grouping]({%slug datagrid-grouping-overview %}) operations per column. You can sort, filter and group through the built-in UI or programmatically using the `RadDataGrid.SortDescriptors`, `RadDataGrid.FilterDescriptors`, and `RadDataGrid.GroupDescriptors` collections.
 
 ## Editing
 
@@ -62,7 +62,7 @@ The MAUI DataGrid allows you to represent additional information for the data in
 
 ## Aggregates Support
 
-You can use the exposed API for applying [aggregates functions]({%slug datagrid-aggregates%}). You can use the predefined aggregates functions like `Sum`, `Count`, `Min`, `Max`, `Average`, etc, or implement a custom function. 
+You can use the exposed API for applying [aggregates functions]({%slug datagrid-aggregates%}). Add aggregate descriptors to `DataGridColumn.AggregateDescriptors`, then use the predefined aggregate functions like `Sum`, `Count`, `Min`, `Max`, `Average`, etc, or implement a custom function.
 
 ## Searching As You Type
 
@@ -92,7 +92,7 @@ The DataGrid exposes the `ShowColumnHeaders` (`bool`) property which controls wh
 
 ## Column Footer
 
-The Telerik UI for .NET MAUI DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. This row consists of individual [footer cells]({%slug datagrid-column-footer%}) for each column.
+The Telerik UI for .NET MAUI DataGrid allows you to display additional information which applies to the columns in a specific row placed at the bottom of the control. Set `ShowColumnFooters` to `True` to visualize the row of individual [footer cells]({%slug datagrid-column-footer%}) for each column.
 
 ## Empty Template
 
