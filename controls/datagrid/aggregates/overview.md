@@ -22,9 +22,11 @@ The [`PropertyAggregateDescriptor`]({%slug datagrid-property-aggregate-descripto
 
 You can visualize the aggregates inside the:
 
-* [DataGrid Column Footer](#aggregates-in-column-footer)
-* [DataGrid Group Header](#aggregates-in-group-header)
-* [DataGrid Group Footer](#aggregates-in-group-footer)
+* [DataGrid Column Footer](#aggregates-in-column-footer) through the `ShowColumnFooters` property.
+* [DataGrid Group Header](#aggregates-in-group-header) through the `ShowGroupHeaderAggregates` property.
+* [DataGrid Group Footer](#aggregates-in-group-footer) through the `ShowGroupFooters` property.
+
+To calculate and display aggregate results, add aggregate descriptors to the `DataGridColumn.AggregateDescriptors` collection of the target column.
 
 ### Aggregates in Column Footer
 

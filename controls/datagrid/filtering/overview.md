@@ -33,6 +33,8 @@ The Telerik DataGrid allows you to apply custom filter control to the DataGrid c
 
 Programmatic filtering is achieved by adding different filter descriptors in the `FilterDescriptors` collection of the control.
 
+The programmatic filtering API uses the `RadDataGrid.FilterDescriptors` collection together with the available filter descriptor types.
+
 >tip Go to the [Programmatic Filtering]({%slug datagrid-programmatic-filtering%}) topic for detailed information about the provided filter descriptors.
 
 >tip For an outline of all DataGrid features review the [.NET MAUI DataGrid Overview]({%slug datagrid-overview%}) article.
