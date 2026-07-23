@@ -30,8 +30,6 @@ To sort the DataGrid programmatically, use either of the following approaches:
 * Sort by a property with the [`PropertySortDescriptor`](#property-sort-descriptor) added to the `RadDataGrid.SortDescriptors` collection.
 * Sort by a custom key with the [`DelegateSortDescriptor`](#delegate-sort-descriptor) added to the `RadDataGrid.SortDescriptors` collection.
 
-Both approaches use the `RadDataGrid.SortDescriptors` collection.
-
 ### Sorting by Properties
 
 You can sort the data in a DataGrid by pointing a property from the class that defines your objects. To achieve this scenario, use the `PropertySortDescriptor` and set its `PropertyName` property.
