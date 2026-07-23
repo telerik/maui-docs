@@ -4,6 +4,7 @@ page_title: Adding the Telerik NuGet Server to Visual Studio
 description: Learn how to install the UI for .NET MAUI by using the Telerik NuGet Server with Visual Studio.
 tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui controls, windows, install, telerik .net maui, 
 slug: nuget-server-vs
+previous_url: /installation/nuget/visual-studio
 position: 1
 ---
 
@@ -44,7 +45,7 @@ To configure the Telerik NuGet feed in Visual Studio:
 1. In the **Source** field, enter `https://nuget.telerik.com/v3/index.json`. If you use a locally available NuGet package downloaded from <a href="https://www.telerik.com/account/" target="_blank">your Telerik account</a>, add the path to the local package instead of the URL.
 1. Click **Update** and then **OK**.
 
-  ![Package Sources field with the checked Telerik NuGet option](../../installation/images/nuget-vs-telerik-server.png)
+  ![Package Sources field with the checked Telerik NuGet option](../../../installation/images/nuget-vs-telerik-server.png)
 
 You have successfully added the Telerik NuGet feed as a Package source.
 
@@ -65,14 +66,14 @@ The next steps describe how to authenticate your local NuGet instance and displa
 1. Click the **Browse** tab to see the available packages.
 1. In the authentication window, enter `api-key` in the **User name** field and the [generated API key](#step-1-generate-an-api-key) in the **Password** field.
 
-   ![Windows authentication window in VS](../../installation/images/vs-nuget-auth-window.png)
+   ![Windows authentication window in VS](../../../installation/images/vs-nuget-auth-window.png)
 
 1. In the Visual Studio Package Manager, you will see all packages that are licensed to your user account.
 1. Search for the `Telerik.UI.for.Maui` package and select it.
 1. Choose the projects which require the package.
 1. Select the desired version and click **Install**.
 
-![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../installation/images/maui-nuget.png)
+![Manage Packages for Solutions dialog with the search field and the Telerik.UI.for.MAUI package](../../../installation/images/maui-nuget.png)
 
 ### Step 4: Register the Required Handlers
 

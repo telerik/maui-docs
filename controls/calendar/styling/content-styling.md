@@ -54,7 +54,7 @@ The `CalendarNode` class has the information for:
 * `IsToday`(`bool`)&mdash;Gets a value indicating whether the date is today.
 * `IsMouseOver`(`bool`)&mdash;Gets a value indicating whether the mouse is over the date.
 * `IsVisible`(`bool`)&mdash;Gets a value indicating whether the node is visible.
-* `SelectionState`(enum of type `Telerik.Maui.controls.Calendar.CalendarNodeSelectionState`)&mdash;Gets a value indicating the state of the date when selected. The options are: `None`, `Single`, `Middle`, `First` and `Last`.
+* `SelectionState`(enum of type `Telerik.Maui.Controls.Calendar.CalendarNodeSelectionState`)&mdash;Gets a value indicating the state of the date when selected. The options are: `None`, `Single`, `Middle`, `First` and `Last`.
 
 The following example demonstrates the `CustomStyleSelector` class that inherits from `CalendarStyleSelector`:
 

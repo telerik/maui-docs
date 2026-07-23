@@ -20,8 +20,13 @@ The table below shows the localization keys:
 | `Scheduler_MultidayViewDefinition_Title` | `Multiday` |
 | `Scheduler_DayViewDefinition_Title`  | `Day` |
 | `Scheduler_MonthViewDefinition_Title` | `Month` |
+| `Scheduler_AgendaViewDefinition_Title` | `Agenda` |
+| `Scheduler_AgendaViewDefinition_AllDay` | `All day` |
+| `Scheduler_AgendaViewDefinition_Until` | `Until` |
+| `Scheduler_AgendaViewDefinition_Appointment_Day` | `Day` |
 | `Scheduler_Today_Header_Text` | `Today` |
 | `Scheduler_Empty_ViewDefinition_Text` | `Please declare a View definition` |
+| `Scheduler_CreateAppointmentDialog_Header` | `New Appointment` |
 | `Scheduler_EditAppointmentDialog_Subject` | `Subject`|
 | `Scheduler_EditAppointmentDialog_StartTime` | `Start Time` |
 | `Scheduler_EditAppointmentDialog_EndTime` | `End Time` |
@@ -79,10 +84,13 @@ The table below shows the localization keys:
 | `Scheduler_ConfirmDeleteDialog_Question_Series` | `Are you sure you want to delete the series?` |
 | `Scheduler_ConfirmDeleteDialog_Delete` | `Delete` |
 | `Scheduler_ConfirmDeleteDialog_Cancel` | `Cancel` |
-| `Scheduler_DeleteAppointmentChoiceDialog_Header` | `Delete Appointment"` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Header` | `Delete Appointment` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Question_Occurrence` | `Are you sure you want to delete this occurrence?` |
 | `Scheduler_DeleteAppointmentChoiceDialog_Question_Appointment` | `Are you sure you want to delete this appointment?` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Question_Series` | `Are you sure you want to delete the series?` |
 | `Scheduler_DeleteAppointmentChoiceDialog_Delete` | `Delete` |
-| `"Scheduler_DeleteAppointmentChoiceDialog_Cancel` | `Cancel` |
+| `Scheduler_DeleteAppointmentChoiceDialog_Cancel` | `Cancel` |
+| `Scheduler_DeleteRecurrenceChoiceDialog_Header` | `Delete Appointment` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete_Occurrence` | `Delete this occurrence.` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete_Series` | `Delete the series.` |
 | `Scheduler_DeleteRecurrenceChoiceDialog_Delete` | `Delete` |

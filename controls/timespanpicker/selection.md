@@ -31,7 +31,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Clear Button
 
-You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TimePicker:
+You can enable a Clear button which can be used to quickly remove the selected value. To enable the button, set ``IsClearButtonVisible`` property of the TimeSpanPicker:
 
 ```XAML
 <telerik:RadTimeSpanPicker Time="5:10:30:00"
@@ -70,7 +70,7 @@ private void OnClearSelectionClicked(object sender, EventArgs e)
 
 ## Events
 
-The TimeSpanPicker exposes the `SelectionChanged` event, which is raised when the user picks a time value.
+The TimeSpanPicker exposes the `SelectionChanged` event, which is raised when the user picks a time interval.
 
 The following example shows how to set the `SelectionChanged` event.
 

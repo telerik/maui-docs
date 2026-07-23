@@ -4,7 +4,8 @@ page_title: Starting a Trial
 description: Get started with Telerik UI for .NET MAUI by installing the library and activating your 30-day free trial.
 slug: install-trial
 tags: .net maui, ui for .net maui, automatic installation, free trial
-position: 3
+previous_url: /installation/install-trial
+position: 2
 ---
 
 # Starting a Trial
@@ -17,9 +18,7 @@ To start your Telerik UI for .NET MAUI trial:
 
 1. Go to the [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui).
     
-    ![Product page for downloading Telerik UI for .NET MAUI](../images/download_maui2.png)
-
-1. Click the **Download** button.
+1. Click the **Get Started** or **Try Now** button.
 
     * If you aren't logged in to your Telerik account, you will be redirected to the login page.
     * If you don't have an account yet, enter your email address and you will see the registration form.
@@ -28,7 +27,7 @@ To start your Telerik UI for .NET MAUI trial:
 
     - On Windows, open the downloaded EXE file, make sure that **Telerik UI for .NET MAUI** is selected, and continue with the setup.
 
-        ![Progress Installer](images/progress-installer.png)
+        ![Progress Installer](../images/progress-installer.png)
 
     - On macOS, use the downloaded PKG file, make sure that **Telerik UI for .NET MAUI** is selected, and continue with the setup.
  

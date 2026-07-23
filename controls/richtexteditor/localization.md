@@ -68,7 +68,7 @@ The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides langua
 | `RichTextEditor_OpenHyperlink` | `Open Hyperlink` |
 | `RichTextEditor_OpenHyperlinkContextMenuText` | `Open` |
 | `RichTextEditor_OpenHyperlinkErrorHeaderText` | `Error` |
-| `RichTextEditor_OpenHyperlinkErrorOKButtonText` | `Ok` |
+| `RichTextEditor_OpenHyperlinkErrorOKButtonText` | `OK` |
 | `RichTextEditor_OpenHyperlinkErrorText` | `Cannot open url:` |
 | `RichTextEditor_OrderedList` | `Ordered Indent` |
 | `RichTextEditor_Paragraph` | `Paragraph` |
@@ -81,7 +81,7 @@ The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides langua
 | `RichTextEditor_RemoveHyperlink` | `Remove Hyperlink` |
 | `RichTextEditor_RemoveImage` | `Remove Image` |
 | `RichTextEditor_PickImage` | `Pick Image` |
-| `RichTextEditor_SelectAllContextMenuText`  | `Select Al` |
+| `RichTextEditor_SelectAllContextMenuText`  | `Select All` |
 | `RichTextEditor_Strike` | `Strike` |
 | `RichTextEditor_Subscript` | `Subscript` |
 | `RichTextEditor_Superscript` | `Superscript` |

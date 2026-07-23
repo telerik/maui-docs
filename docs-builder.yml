@@ -433,9 +433,12 @@ meta:
     title: AIPrompt
   controls/accordion:
     title: Accordion
-  installation/nuget:
+  installation/manual-installation-approaches/nuget:
     title: Installing with NuGet
-    position: 5
+    position: 3
+  installation/manual-installation-approaches:
+    title: Manual Setup Guides
+    position: 20
   installation/vs-code-integration:
     title: Visual Studio Code Integration
     position: 16
@@ -450,7 +453,7 @@ meta:
     position: 3
   installation/licensing:
     title: Activating Your License
-    position: 1
+    position: 10
   knowledge-base:
     title: Knowledge Base
     position: 14
@@ -485,7 +488,7 @@ meta:
     title: Sample Applications
     position: 3
   installation:
-    title: Download & Installation
+    title: Installation
     position: 2
   get-started/mac:
     title: Mac

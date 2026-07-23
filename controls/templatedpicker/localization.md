@@ -14,8 +14,8 @@ The Telerik .NET MAUI TemplatedPicker exposes localization keys explained in the
 
 | Localization Key | Default Value |
 | -----------------| ------------- |
-| `TemplatedPicker_PlaceholderLabelText`  | `Select value` |
-| `TemplatedPicker_Popup_HeaderLabelText` | `Select value` |
+| `TemplatedPicker_PlaceholderLabelText`  | `Select Value` |
+| `TemplatedPicker_Popup_HeaderLabelText` | `Select Value` |
 
 **Common Picker localization keys**
 

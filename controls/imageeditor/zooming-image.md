@@ -10,12 +10,12 @@ slug: imageeditor-zooming-image
 
 This article explains what are the zooming options you can apply to the image in the ImageEditor. The properties related to the zooming are:
 
-* `ZoomLevel`(`double`)&mdash;Specifies the current zoom level of the viewed image. The default value is 1. A zoom level of 1 means the image is displayed with its original size. 
+* `ZoomLevel`(`double`)&mdash;Specifies the current zoom level of the viewed image in percent. The default value is 100. A zoom level of 100 means the image is displayed with its original size. 
 
 In addition, you can restrict the zooming by applying min and max zoom: 
 
-* `MinZoomLevel`(`double`)&mdash;Specifies the minimum allowed zoom level of the image. The default value is 0.01. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
-* `MaxZoomLevel`(`double`)&mdash;Specifies the maximum allowed zoom level of the image. The default value is 10.0. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
+* `MinZoomLevel`(`double`)&mdash;Specifies the minimum allowed zoom level of the image in percent. The default value is 1. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
+* `MaxZoomLevel`(`double`)&mdash;Specifies the maximum allowed zoom level of the image in percent. The default value is 1000. Setting the `ZoomLevel` property is coerced between `MinZoomLevel` and `MaxZoomLevel`.
 
 
 **Example with Min and Max Zoom levels**

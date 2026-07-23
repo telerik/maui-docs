@@ -4,6 +4,7 @@ page_title: Using the ZIP Archive
 description: This article explains what the ZIP archive with the Telerik UI for .NET MAUI components includes, and how to get it.
 slug: zip-archive
 tags: manual installation,zip,archive
+previous_url: /installation/zip-archive
 position: 12
 ---
 

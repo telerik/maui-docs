@@ -26,8 +26,8 @@ The user can interact with the UI and navigate to the parent view by tapping or 
 
 To restrict the navigation depth to specific parent or child views, use the following properties:
 
-* `MinDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the Calendar.
-* `MaxDisplayMode`(`Telerik.Maui.controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the Calendar.
+* `MinDisplayMode`(`Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the minimum display mode of the Calendar.
+* `MaxDisplayMode`(`Telerik.Maui.Controls.Calendar.CalendarDisplayMode`)&mdash;Specifies the maximum display mode of the Calendar.
 
 ## Setting the Scroll Direction
 

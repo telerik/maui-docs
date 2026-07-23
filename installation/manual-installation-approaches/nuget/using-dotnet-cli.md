@@ -3,6 +3,7 @@ title: Using .NET CLI
 page_title: Using .NET CLI
 description: Learn how to use the .NET CLI to add the Telerik NuGet server as a package source in your development environment.
 slug: nuget-dotnet-cli
+previous_url: /installation/nuget/using-dotnet-cli
 position: 9
 ---
 

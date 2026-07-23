@@ -8,7 +8,7 @@ slug: templatedpicker-popup-styling
 
 # .NET MAUI TemplatedPicker Popup Styling
 
-By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the TimePicker, you can modify the appearance of the dialog (popup).
+By using the `PopupSettings` property (of type `Telerik.Maui.Controls.PickerPopupSettings`) of the TemplatedPicker, you can modify the appearance of the dialog (popup).
 
 The `PickerPopupSettings` class exposes the following `Style` properties:
 
@@ -72,13 +72,13 @@ In addition, add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-The following image shows how the TimePicker control looks when the styles described above are applied.
+The following image shows how the TemplatedPicker control looks when the styles described above are applied.
 
 ![TemplatedPicker Popup Style](../images/templatedpicker_popupstyle.png)
 
 ## See Also
 
-- [TimePicker Styling]({%slug timepicker-styling%})
-- [Custom Templates]({%slug timepicker-templates%})
-- [Commands]({%slug timepicker-commands%})
-- [Visual Structure]({%slug timepicker-visual-structure%})
+- [TemplatedPicker Styling]({%slug templatedpicker-styling%})
+- [Custom Templates]({%slug templatedpicker-templates%})
+- [Commands]({%slug templatedpicker-commands%})
+- [Visual Structure]({%slug templatedpicker-visual-structure%})

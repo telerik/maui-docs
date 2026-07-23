@@ -4,6 +4,7 @@ page_title: Referencing Assemblies Manually
 description: Learn how to manually reference the Telerik UI for .NET MAUI assemblies in your solution so you can utilize the Telerik controls.
 slug: assembly-references
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui, mac, windows
+previous_url: /installation/using-assembly-references
 position: 20
 ---
 

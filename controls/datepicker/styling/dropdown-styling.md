@@ -15,7 +15,7 @@ To modify the appearance of the DatePicker drop-down element, use the `DropDownS
 The `PickerDropDownSettings` class exposes the following `Style` properties:
 
 * `DropDownViewStyle`(of type `Style` with target type `telerik:PickerDropDownContentView`)&mdash;Defines the drop-down view style.
-* `FooterStyle`(of type `Style` with target type `telerik:PickerPopupFooterView`)&mdash;Defines the drop-down footer style.
+* `FooterStyle`(of type `Style` with target type `telerik:PickerDropDownFooterView`)&mdash;Defines the drop-down footer style.
 * `AcceptButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Accept** button style.
 * `CancelButtonStyle`(of type `Style` with target type `Button`)&mdash;Defines the **Cancel** button style.
 
