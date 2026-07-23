@@ -15,11 +15,11 @@ The Toolbox is part of the Visual Studio extensions for Telerik UI for .NET MAUI
 
 To use the Toolbox, install the Telerik UI for .NET MAUI Visual Studio Extension. You can get the extension from:
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">The Visual Studio Marketplace.</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.ProgressTelerikMAUIExtensions" target="_blank">Telerik UI for .NET MAUI Productivity Tools in the Visual Studio Marketplace</a>
 
 * The Extensions tab in Visual Studio&mdash;search for `Progress Telerik UI for .NET MAUI Extension`, select the extension, and then click **Install**.
 
-* [The Telerik UI for .NET MAUI automated installer]({% slug automated-installer %})
+* [The Telerik UI for .NET MAUI Visual Studio extension with the automated installer]({% slug automated-installer %})
 
 ## Adding Controls with the Toolbox
 
@@ -43,7 +43,7 @@ To add the desired Telerik UI for .NET MAUI controls with the Toolbox:
 
 ## See Also
 
-* [UI for MAUI Installation Methods]({%slug installation-approaches%})
-* [System Requirements for Windows]({% slug system-requirements %})
-* [Productivity Extensions for Visual Studio]({% slug vs-integration-overview %})
-* [Telerik UI for .NET MAUI Sample Apps]({% slug controls-samples-app %})
+* [Review Telerik UI for .NET MAUI Installation Methods]({%slug installation-approaches%})
+* [Check the Windows System Requirements for Telerik UI for .NET MAUI]({% slug system-requirements%})
+* [Explore Telerik UI for .NET MAUI Visual Studio Productivity Extensions]({% slug vs-integration-overview%})
+* [Browse Telerik UI for .NET MAUI Sample Applications]({% slug controls-samples-app%})

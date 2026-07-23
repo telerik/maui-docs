@@ -46,5 +46,5 @@ The wizard allows you to choose which library to add to the project. If the libr
 ## See Also
 
 * [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
-* [Scaffolding Pages]({%slug maui-vs-code-scaffoldings%})
+* [Use Code Snippets in Visual Studio Code]({%slug getting-started-vs-code-integration-snippets%})
+* [Scaffold .NET MAUI pages in Visual Studio Code]({%slug maui-vs-code-scaffoldings%})

@@ -13,7 +13,7 @@ Starting with the Q1 2025 release, the UI components from the Telerik UI for .NE
 
 An invalid license results in [errors and warnings]({%slug license-errors-warnings%}) during build and run-time indicators such as watermarks and banners.
 
-To download a license key for Telerik UI for .NET MAUI, you must have either a developer license or a trial license. If you are new to Telerik UI for .NET MAUI, sign up for a [free trial](https://www.telerik.com/try/ui-for-maui) first, and then follow the steps below.
+To download a license key for Telerik UI for .NET MAUI, you must have either a developer license or a trial license. If you are new to Telerik UI for .NET MAUI, [start a free Telerik UI for .NET MAUI trial](https://www.telerik.com/try/ui-for-maui) first, and then follow the steps below.
 
 Depending on your development environment and preferences, you can install your license key in either of the following ways:
 
@@ -66,7 +66,7 @@ To manually download and install a license key for Telerik UI for .NET MAUI:
 
     ![Download a Telerik UI for .NET MAUI License Key](./images/download-license-key.png)
 
-1. Copy the [downloaded](#manual-license-key-installation) `telerik-license.txt` license key file to your home directory. This makes the license key available to all projects that you develop on your computer:
+1. Copy the [downloaded license key file](#manual-license-key-installation) `telerik-license.txt` to your home directory. This makes the license key available to all projects that you develop on your computer:
 
     * For Windows: `%AppData%\Telerik\telerik-license.txt`. For the standard Windows user, that path resolves to `C:\Users\[windows_username]\AppData\Roaming\Telerik\telerik-license.txt`, it can resolve differently for service accounts.
     * For Mac/Linux: `~/.telerik/telerik-license.txt`. If `.telerik` folder does not exist, create such, and paste the `telerik-license.txt` file in it.

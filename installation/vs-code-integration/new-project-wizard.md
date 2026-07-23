@@ -68,6 +68,6 @@ The wizard allows you to configure the following options:
 
 ## See Also
 
-* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
-* [Scaffolding Pages]({%slug maui-vs-code-scaffoldings%})
-* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})
+* [Use code snippets in Visual Studio Code]({%slug getting-started-vs-code-integration-snippets%})
+* [Scaffold .NET MAUI pages in Visual Studio Code]({%slug maui-vs-code-scaffoldings%})
+* [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})

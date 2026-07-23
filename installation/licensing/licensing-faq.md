@@ -74,7 +74,7 @@ If both a global and a project-specific `telerik-license.txt` files exist, then 
 
 ## My team has more than one license holders. Which key do we have to use?
 
-* [Every developer must be assigned their own license or seat](https://www.telerik.com/purchase/faq/licensing-purchasing).
+* [Assign each developer an individual Telerik license or seat](https://www.telerik.com/purchase/faq/licensing-purchasing).
 * Every developer must use a license key that is associated with their personal Telerik account.
 * In a CI/CD environment, use any of the license keys in your team.
 

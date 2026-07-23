@@ -146,7 +146,3 @@ dotnet add package Telerik.UI.for.Maui
 
 @[template](/_contentTemplates/common/see-also.md#see-also)
 
-## See Also
-
-* [Using a Telerik Theme]({%slug themes-overview%})
-* [Telerik Font Icons]({%slug telerik-font-icons%})

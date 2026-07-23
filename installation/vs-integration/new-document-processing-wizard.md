@@ -10,7 +10,7 @@ position: 3
 
 This article demonstrates how to add the Telerik Document Processing Libraries to a new .NET MAUI project or to an existing one.
 
-To add the Telerik Document Processing Libraries, you will use the [Add Processing package reference wizard](#get-the-wizard), which is a feature of the Telerik extensions.
+To add the Telerik Document Processing Libraries, you will use the [Add Processing package reference wizard in Visual Studio](#get-the-wizard), which is a feature of the Telerik extensions.
 
 @[template](/_contentTemplates/common/extension.md#vs-extension-download)
 

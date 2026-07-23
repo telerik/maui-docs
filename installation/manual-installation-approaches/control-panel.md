@@ -14,7 +14,7 @@ Progress Control Panel is a standalone desktop application for Windows that enab
 
 To install Telerik UI for .NET MAUI by using the Progress Control Panel:
 
-1. <a href="https://www.telerik.com/try/control-panel" target="_blank">Download </a> the Progress Control Panel.
+1. <a href="https://www.telerik.com/try/control-panel" target="_blank">Download the Progress Control Panel</a>.
 
 1. Run the downloaded application and log in with your Telerik account.
 

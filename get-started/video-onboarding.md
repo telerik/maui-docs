@@ -9,7 +9,7 @@ position: 10
 
 # Video Onboarding
 
-Telerik UI for .NET MAUI offers a comprehensive [video getting started course](https://www.youtube.com/playlist?list=PLvmaC-XMqeBb8aH4rJbqRUl42cSriduua) available to all developers. This class is designed to help you get started with the Telerik UI for .NET MAUI components and features. It aims to put you in the shoes of an engineer who adds new features to an existing application.
+Telerik UI for .NET MAUI offers a comprehensive [video training course](https://www.youtube.com/playlist?list=PLvmaC-XMqeBb8aH4rJbqRUl42cSriduua) available to all developers. This class is designed to help you get started with the Telerik UI for .NET MAUI components and features. It aims to put you in the shoes of an engineer who adds new features to an existing application.
 
 The learning process starts by adding basic UI components to the application and shows how to harness the power of the Telerik UI for .NET MAUI controls and features in no time. Further on, you'll get into more advanced components, like the Chart, DataGrid, and DataForm. Then, you will learn how to incorporate Telerik UI components to interact with existing functionality and with each other. Finally, the course will explore the styling options provided by the Telerik UI for .NET MAUI controls.
 
@@ -35,4 +35,4 @@ The Telerik UI for .NET MAUI technical online training has an approximate durati
 * **Chapter 6: DataForm** (DataForm Overview, Setup, Editors, Commit Modes)
 * **Chapter 7: Styling** (Styling Overview, Examples, Palette Styling, Resources)
 
-To learn more and continue with the video onboarding process, [watch all the videos available online](https://www.youtube.com/playlist?list=PLvmaC-XMqeBb8aH4rJbqRUl42cSriduua).
+To learn more and continue with the video onboarding process, [follow the complete Telerik UI for .NET MAUI chapter playlist](https://www.youtube.com/playlist?list=PLvmaC-XMqeBb8aH4rJbqRUl42cSriduua).

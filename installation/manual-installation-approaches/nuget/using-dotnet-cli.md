@@ -9,11 +9,11 @@ position: 9
 
 # Using .NET CLI
 
-If you do not use a [Visual Studio's NuGet Package manager]({% slug nuget-server-vs %}) or a [custom `NuGet.Config` file]({% slug nuget-config %}), you can also manage NuGet packages by using the .NET CLI.
+If you do not use the [Visual Studio NuGet Package Manager]({% slug nuget-server-vs %}) or a [custom `NuGet.Config` file]({% slug nuget-config %}), you can also manage NuGet packages by using the .NET CLI.
 
 ## Installing from NuGet.org (Recommended)
 
-As of Q2 2026, the `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/" target="_blank">NuGet.org</a> registry. This is the recommended way to install the libraries because NuGet.org is the default package source for the .NET CLI, so no additional feed configuration is required. Navigate to your project directory and run:
+As of Q2 2026, the `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/" target="_blank">NuGet.org package registry</a>. This is the recommended way to install the libraries because NuGet.org is the default package source for the .NET CLI, so no additional feed configuration is required. Navigate to your project directory and run:
 
 ```bash
 dotnet add package Telerik.UI.for.Maui
@@ -30,7 +30,7 @@ As an alternative, you can add the Telerik NuGet server as a package source and 
 dotnet nuget add source https://nuget.telerik.com/v3/index.json --name TelerikNuGetFeed --username api-key --password <THE-VALUE-OF-YOUR-API-KEY> --store-password-in-clear-text
 ```
 
->See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's security best practices</a> for more information on how to securely store your NuGet source credentials.
+>See <a href="https://learn.microsoft.com/en-us/nuget/consume-packages/consuming-packages-authenticated-feeds#security-best-practices-for-managing-credentials" target="_blank">Microsoft's NuGet credential security guidance</a> for more information on how to securely store your NuGet source credentials.
 
 ## See Also
 

@@ -22,7 +22,7 @@ Telerik UI for .NET MAUI packages are available from the following sources:
 
 ## Downloading from NuGet.org
 
-The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">nuget.org</a> registry. This is the recommended approach as it requires no authentication setup.
+The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org Telerik.UI.for.Maui package page</a>. This is the recommended approach as it requires no authentication setup.
 
 To install the package, run the following command in your project directory:
 

@@ -1,7 +1,7 @@
 ---
 title: Using Visual Studio Code
 page_title: Get Started with Telerik UI for .NET MAUI in VS Code
-description: "Get started with Telerik UI for .NET MAUI in Visual Studio Code on Windows or Mac — create a .NET MAUI project, add the Telerik NuGet feed via CLI, and install the controls."
+description: "Get started with Telerik UI for .NET MAUI in Visual Studio Code on Windows or Mac - create a .NET MAUI project, add the Telerik NuGet feed via CLI, and install the controls."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, macos, install, visual studio code
 slug: maui-getting-started-vs-code
 position: 3
@@ -11,7 +11,7 @@ previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget,
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio Code
 
-This tutorial walks you through the Visual Studio Code-specific steps for setting up a .NET MAUI project with Telerik UI for .NET MAUI on Windows or Mac. Before you begin, make sure you have completed the [Quick Start]({%slug maui-quick-start%}) steps for your license and license key.
+This tutorial walks you through the Visual Studio Code-specific steps for setting up a .NET MAUI project with Telerik UI for .NET MAUI on Windows or Mac. Before you begin, make sure you have completed the [Telerik UI for .NET MAUI license and license-key quick start]({%slug maui-quick-start%}).
 
 ## Step 1: Create a New MAUI Project
 
@@ -38,7 +38,7 @@ This tutorial walks you through the Visual Studio Code-specific steps for settin
 
 1. Press `F5` to start a debug session. If Visual Studio Code prompts you to select a debugger, select C#.
 
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Microsoft's .NET MAUI documentation</a>.
+If you encounter any issues creating the basic project, see the Microsoft's guide to [create your first .NET MAUI app in Visual Studio Code](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=visual-studio-code).
 
 ## Step 2: Install the Telerik UI for .NET MAUI Controls
 
@@ -140,5 +140,5 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 ## See Also
 
-* [System Requirements]({% slug system-requirements %})
-* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Review Telerik UI for .NET MAUI System Requirements]({% slug system-requirements %})
+* [Explore the Telerik UI for .NET MAUI Product Overview](https://www.telerik.com/maui-ui)

@@ -21,7 +21,7 @@ To get the NuGet package with the Telerik UI for .NET MAUI controls:
 >To download the NuGet package with the Telerik UI for .NET MAUI controls, you need an active trial or commercial license.
 
 To set up a local NuGet source, you can use either of the following methods:
-* [The NuGet packet manager in Visual Studio](#setting-up-a-local-nuget-source-in-visual-studio).
+* [The NuGet Package Manager in Visual Studio](#setting-up-a-local-nuget-source-in-visual-studio).
 * [The `nuget.config` file](#setting-up-the-nuget-source-in-nugetconfig).
 
 ## Setting Up a Local NuGet Source in Visual Studio
@@ -45,7 +45,7 @@ An alternative way to configure your system to use locally available NuGet files
   * On Windows, open the `%AppData%\NuGet\NuGet.Config` file.
   * On Mac, open either the  `~/.config/NuGet/NuGet.Config` or `~/.nuget/NuGet/NuGet.Config` file (varies by tooling).
 
-    If the file doesn't exist on your machine, create it by running the `dotnet new nugetconfig` command in the terminal. For more information about the command, see <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new" target="blank">Microsoft's docs</a>.
+    If the file doesn't exist on your machine, create it by running the `dotnet new nugetconfig` command in the terminal. For more information about the command, see <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new" target="blank">Microsoft's dotnet new command reference</a>.
 
 2. Add the path or URL to the NuGet file containing the Telerik UI for .NET MAUI library. Here is an example of how your config file can look like:
 

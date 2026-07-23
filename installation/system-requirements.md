@@ -32,4 +32,4 @@ If your programming environment is already configured for the development of .NE
 
 ## See Also
 
-* [UI for MAUI Installation Methods]({% slug installation-approaches %})
+@[template](/_contentTemplates/common/see-also.md#see-also)

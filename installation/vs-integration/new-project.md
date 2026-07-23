@@ -11,7 +11,7 @@ previous_url: /installation/windows/vs-template
 
 This article demonstrates how to use the Telerik Visual Studio extensions to create a new project that is pre-configured for the Progress&reg; Telerik&reg; UI for .NET MAUI components.
 
-To create the project, you will use the [Create New Project wizard](#get-the-wizard), which is a feature of the Telerik extensions.
+To create the project, you will use the [Visual Studio Create New Project wizard](#get-the-wizard), which is a feature of the Telerik extensions.
 
 @[template](/_contentTemplates/common/extension.md#vs-extension-download)
 
@@ -33,7 +33,7 @@ To create the project, you will use the [Create New Project wizard](#get-the-wiz
 
      * **Telerik .NET MAUI App - Configurable Wizard**&mdash;Represents a configurable wizard, which contains various predefined application templates that include the Telerik .NET MAUI suite setup. 
      * **Telerik .NET MAUI Blank App**&mdash;Represents a blank project for creating a .NET MAUI application that includes the Telerik .NET MAUI suite setup.
-     * **Telerik .NET MAUI Blank Shell App**&mdash;Creates a blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use features like Shell Navigation, .NET MAUI Shell flyout, and .NET MAUI Shell tabs. For more details on .NET MAUI Shell, review the official [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
+    * **Telerik .NET MAUI Blank Shell App**&mdash;Creates a blank .NET MAUI Shell application. You can use this project as a .NET MAUI Shell example. In addition, you can use features like Shell Navigation, .NET MAUI Shell flyout, and .NET MAUI Shell tabs. For more details on .NET MAUI Shell, review the official [Microsoft .NET MAUI Shell documentation](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/). 
 
 ## Configure the Project
 
@@ -49,7 +49,7 @@ To create the project, you will use the [Create New Project wizard](#get-the-wiz
 
     * The **Telerik .NET MAUI Blank Shell App** option creates a blank .NET MAUI Shell application.
 
-1. Choose whether to add a [theme swatch]({%slug themes-overview%}) to the project. When selecting a theme swatch, the theme configuration is automatically added to the project.
+1. Choose whether to add a [Telerik UI for .NET MAUI theme swatch]({%slug themes-overview%}) to the project. When selecting a theme swatch, the theme configuration is automatically added to the project.
 
     ![Telerik .NET MAUI App configurable wizard select a theme](images/maui-select-theme.png)
 
@@ -69,5 +69,5 @@ The following image shows the end result after running the application.
 
 ## See Also
 
-* [Toolbox Extension for Visual Studio]({%slug toolbox-support %})
-* [Scaffolding Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})
+* [Add Telerik Controls with the Visual Studio Toolbox]({%slug toolbox-support %})
+* [Scaffold .NET MAUI Pages and Screens in Visual Studio]({%slug maui-vs-scaffoldings%})

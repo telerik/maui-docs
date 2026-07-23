@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI Visual Studio Code extension lets you scaffold an a
 
 To use the Telerik UI for .NET MAUI Scaffoldings, install the `Telerik UI for .NET MAUI Productivity Tools` extension for Visual Studio Code. You can get the extension from:
 
-* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">The Visual Studio Code Marketplace.</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=TelerikInc.telerik-maui-productivity-tools" target="_blank">Telerik UI for .NET MAUI Productivity Tools in the Visual Studio Code Marketplace</a>
 
 * The **Extensions** tab in Visual Studio Code&mdash;search for `Telerik UI for .NET MAUI Productivity Tools`, select the extension, and then click **Install**.
 
@@ -129,6 +129,6 @@ The image shows the default appearance of the page:
 
 ## See Also
 
-* [Creating New Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
-* [Snippets]({%slug getting-started-vs-code-integration-snippets%})
-* [Add Document Processing Libraries]({%slug vscode-add-document-processing-libraries%})
+* [Create .NET MAUI Projects with Visual Studio Code]({%slug getting-started-vs-code-integration-new-project%})
+* [Use Telerik UI for .NET MAUI Code Snippets]({%slug getting-started-vs-code-integration-snippets%})
+* [Add Document Processing Libraries with Visual Studio Code]({%slug vscode-add-document-processing-libraries%})

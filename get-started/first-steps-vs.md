@@ -1,7 +1,7 @@
 ---
 title: Using Visual Studio
 page_title: Get Started with Telerik UI for .NET MAUI in Visual Studio
-description: "Get started with Telerik UI for .NET MAUI in Visual Studio on Windows — create a .NET MAUI project, add the Telerik NuGet feed, and install the controls."
+description: "Get started with Telerik UI for .NET MAUI in Visual Studio on Windows to create a .NET MAUI project, add the Telerik NuGet feed, and install the controls."
 tags: maui, dotnet maui, microsoft maui, telerik maui, nuget, ui for .net maui, install, visual studio
 slug: maui-getting-started
 position: 2
@@ -11,7 +11,7 @@ previous_url: /maui-getting-started, /get-started/first-steps, /installation/win
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio
 
-This tutorial walks you through the Visual Studio-specific steps for setting up a .NET MAUI project with Telerik UI for .NET MAUI. Before you begin, make sure you have completed the [Quick Start]({%slug maui-quick-start%}) steps for your license and license key.
+This tutorial walks you through the Visual Studio-specific steps for setting up a .NET MAUI project with Telerik UI for .NET MAUI. Before you begin, make sure you have completed the [Telerik UI for .NET MAUI license and license-key quick start]({%slug maui-quick-start%}).
 
 ## Step 1:
 
@@ -31,11 +31,11 @@ This tutorial walks you through the Visual Studio-specific steps for setting up 
 
    ![Telerik UI for .NET MAUI - build and run in Visual Studio](./images/gs-vs-build-run.png)
 
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>.
+If you encounter any issues creating the basic project, see Microsoft's guide to [create a first .NET MAUI app in Visual Studio](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin).
 
 ## Step 2: Install the Telerik UI for .NET MAUI Controls
 
-The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org</a> registry (recommended) and on the authenticated Telerik NuGet server.
+The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">Telerik UI for .NET MAUI package on NuGet.org</a> registry (recommended) and on the authenticated Telerik NuGet server.
 
 ### From NuGet.org (Recommended)
 
@@ -139,5 +139,5 @@ If your .NET MAUI project uses the default project template provided by Microsof
 
 ## See Also
 
-* [System Requirements]({% slug system-requirements %})
-* [Telerik UI for .NET MAUI Product Page](https://www.telerik.com/maui-ui)
+* [Review Telerik UI for .NET MAUI System Requirements]({% slug system-requirements %})
+* [Explore the Telerik UI for .NET MAUI Product Overview](https://www.telerik.com/maui-ui)
