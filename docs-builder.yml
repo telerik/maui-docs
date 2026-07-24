@@ -350,6 +350,11 @@ meta:
     position: 5
   controls/collectionview:
     title: CollectionView
+  controls/circularslider/styling:
+        title: "Styling"
+        position: 12
+  controls/circularslider:
+        title: "CircularSlider"
   controls/checkbox:
     title: CheckBox
   controls/chat/templates:
