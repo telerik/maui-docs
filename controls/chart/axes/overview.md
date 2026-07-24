@@ -123,15 +123,16 @@ The following example demonstrates how to define the major ticks color and set t
 
 ### Location
 
-You can specify the location of the axis with the following properties:
+You can specify the location of the axis with the `Location` property of `CartesianAxis`:
 
-- `HorizontalLocation`&mdash;Specifies the horizontal location of the axis. Applicable for vertical axes.
-- `VerticalLocation`&mdash;Specifies the vertical location of the axis. Applicable for horizontal axes.
+- `Location`&mdash;Specifies which side of the chart the axis appears on. The available values are `Left`, `Right`, `Top`, `Bottom`, and `Unset` (default, uses the chart default side).
 
-The following example demonstrates how to set a vertical location for the axis.
+The following example demonstrates how to move the numerical axis to the right side of the chart.
 
 ```XAML
-	<telerik:CategoricalAxis VerticalLocation="Top"/>
+<telerik:RadCartesianChart.VerticalAxis>
+    <telerik:NumericalAxis Location="Right" />
+</telerik:RadCartesianChart.VerticalAxis>
 ```
 
 ## See Also
