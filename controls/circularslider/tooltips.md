@@ -34,7 +34,11 @@ Check below a quick example with setting the `TooltipStringFormat` and `TooltipC
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result:
+
 ![Telerik CircularSlider for .NET MAUI Tooltip](images/circularslider-tooltips-template.png)
+
+> For a runnable example demonstrating the CircularSlider tooltip content template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Tooltips** category.
 
 ## TooltipControlTemplate Example
 
@@ -42,7 +46,11 @@ Here is a quick example with setting the `TooltipControlTemplate` property:
 
 <snippet id='circularslider-tooltipcontroltemplate-xaml' />
 
+This is the result:
+
 ![Telerik CircularSlider for .NET MAUI Tooltip](images/circularslider-tooltips-controltemplate.png)
+
+> For a runnable example demonstrating the CircularSlider tooltip control template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Tooltips** category.
 
 ## See Also
 

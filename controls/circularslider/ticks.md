@@ -34,7 +34,11 @@ The snippet below shows how to apply the ticks configuration settings:
 
 <snippet id='circularslider-ticks-settings' />
 
+This is the result:
+
 ![Telerik CircularSlider for .NET MAUI Ticks](images/circularslider-ticks-settings.png)
+
+> For a runnable example demonstrating the CircularSlider ticks settings, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Ticks** category.
 
 ## Tick Template
 
@@ -58,7 +62,11 @@ Check below a sample `TickTemplate` example:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result:
+
 ![Telerik CircularSlider for .NET MAUI Ticks Template](images/circularslider-ticks-template.png)
+
+> For a runnable example demonstrating the CircularSlider ticks template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Ticks** category.
 
 ## See Also
 

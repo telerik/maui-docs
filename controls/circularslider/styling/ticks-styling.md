@@ -30,7 +30,11 @@ The following example demonstrates how to use the described styling properties t
 
 <snippet id='circularslider-ticks-styling-xaml' />
 
-![Telerik CircularSlider for .NET MAUI Ticks Styling](images/circularslider-ticks-styling.png)
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Ticks Styling](../images/circularslider-ticks-styling.png)
+
+> For a runnable example demonstrating the CircularSlider tick styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
 ## TickStyleSelector Example
 
@@ -44,9 +48,11 @@ The following example demonstrates how to use the `TickStyleSelector` to set two
 
 <snippet id='circularslider-tickstyleselector-xaml'/>
 
-> `Telerik.Maui.Controls.IStyleSelector` provides a mechanism to select a `Microsoft.Maui.Controls.Style` based on custom logic.
+This is the result:
 
-![Telerik CircularSlider for .NET MAUI Ticks Style Selector](images/circularslider-ticks-styleselector.png)
+![Telerik CircularSlider for .NET MAUI Ticks Style Selector](../images/circularslider-ticks-styleselector.png)
+
+> For a runnable example demonstrating the CircularSlider tick style selector scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
 ## See Also
 

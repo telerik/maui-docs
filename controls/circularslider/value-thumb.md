@@ -10,17 +10,19 @@ slug: circularslider-value-thumb
 
 The CircularSlider's value thumb is drawn based on its `Value` property. End users can modify the `Value` by dragging the thumb along the backtrack or touching anywhere on the slider (the thumb, the range track, or the backtrack) depending on the drag mode (configured with the `DragMode` property).
 
-* `Value` (`double`)&mdash;Specifies the selected value of the slider, corresponds to the thumb position across the backtrack.
+* `Value` (`double`)&mdash;Specifies the value of the slider, corresponds to the thumb position across the backtrack.
 
 Here is a quick example on how to define the `Value` property:
 
 <snippet id='circularslider-value-xaml' />
 
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Value Thumb](images/circularslider-value-thumb.png)
+
 ## Drag Mode
 
-The CircularSlider's `DragMode` property lets you configure one of three dragging options&mdash;only the thumb, free, or disabled.
-
-* `DragMode` (`Telerik.Maui.Controls.Sliders.SliderDragMode`)&mdash;Defines the possible ways to interact with the CircularSlider and change its `Value`. You can choose from:
+The CircularSlider's `DragMode` (`Telerik.Maui.Controls.Sliders.SliderDragMode`) property lets you configure one of three dragging options (only the thumb, free, or disabled) to interact with the CircularSlider and change its `Value`. You can choose from:
     * `Thumb`&mdash;The thumb moves along the backtrack only by dragging.
     * `Free`&mdash;The thumb's position (and the `Value` property) changes via dragging or touching anywhere on the range track or backtrack.
     * `Disabled`&mdash;The thumb's position is fixed on the backtrack and dragging is disabled.
@@ -31,13 +33,25 @@ Check below some quick examples:
 
 <snippet id='circularslider-drag-thumb-xaml' />
 
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Drag Mode Only Thumb](images/circularslider-drag-thumb.gif)
+
 >caption Example with DragMode set to Free
 
 <snippet id='circularslider-drag-free-xaml' />
 
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Drag Mode Free](images/circularslider-drag-free.gif)
+
 >caption Example with DragMode set to Disabled
 
 <snippet id='circularslider-drag-disabled-xaml' />
+
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Drag Mode Disabled](images/circularslider-drag-disabled.gif)
 
 ## See Also
 

@@ -31,6 +31,12 @@ The following example demonstrates how to use the `ValueChanging` event to preve
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Value Changing Event](images/circularslider-value-changing.gif)
+
+> For a runnable example demonstrating the CircularSlider value changing event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Events** category.
+
 ## See Also
 
 - [Value Thumb]({%slug circularslider-value-thumb%})

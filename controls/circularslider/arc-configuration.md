@@ -16,21 +16,27 @@ Use the following properties to define the position and length of the arc:
 
 * `StartAngle` (`double`)&mdash;Specifies the angle from which the arc starts. Regardless of the `SweepDirection`, the start angle is treated as in trigonometry&mdash;a positive rotation is a counter-clockwise rotation.
 * `SweepAngle` (`double`)&mdash;Specifies the angle that defines the length of the arc. When the `SweepAngle` is `360`, the CircularSlider forms a full circle.
-* `SweepDirection` (`Microsoft.Maui.Controls.Shapes.SweepDirection`)&mdash;Specifies the sweep direction of the arc. The value of this property does not affect the direction of the start angle. The available options are:
+* `SweepDirection` (`Telerik.Maui.SweepDirection`)&mdash;Specifies the sweep direction of the arc. The value of this property does not affect the direction of the start angle. The available options are:
     * `Clockwise`&mdash;The arc sweeps in a clockwise direction.
-    * `Counterclockwise`&mdash;The arc sweeps in a counter-clockwise direction.
+    * `CounterClockwise`&mdash;The arc sweeps in a counter-clockwise direction.
 
 The following example shows how to configure a partial arc:
 
 <snippet id='circularslider-arc-settings' />
 
+![Telerik CircularSlider for .NET MAUI Arc Configuration](images/circularslider-arc-configuration.png)
+
+> For a runnable example demonstrating the CircularSlider arc configuration, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Features** category.
+
 ## Radius Factor
 
-The `RadiusFactor` property controls how much of the available space the arc occupies.
-
-* `RadiusFactor` (`double`)&mdash;Specifies the radius factor that controls the size of the circular arc relative to the available space. The value must be between `0.1` and `1.0`, where `1.0` means the arc fills the entire available space and `0.1` means the arc is very small. The default value is `0.7`.
+Use the `RadiusFactor` (`double`) property to control the size of the circular arc relative to the available space. The value must be between `0.1` and `1.0`, where `1.0` means the arc fills the entire available space and `0.1` means the arc is very small. The default value is `0.7`.
 
 <snippet id='circularslider-radius-factor' />
+
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Radius Factor](images/circularslider-radius-factor.gif)
 
 ## Size
 

@@ -12,7 +12,7 @@ The Telerik UI for .NET MAUI CircularSlider represents a slider component that d
 
 The CircularSlider supports ticks, labels, and tooltips. The users can quickly identify the min-max range and the currently selected value, and modify them, if needed.
 
-![.NET MAUI CircularSlider Overview](images/circularslider-overview.png)
+![.NET MAUI CircularSlider Overview](images/circularslider-overview.gif)
 
 ## Key Features of the .NET MAUI CircularSlider
 

@@ -28,7 +28,11 @@ The following example demonstrates how to use the described styling properties t
 
 <snippet id='circularslider-value-elements-styling-xaml' />
 
-![Telerik CircularSlider for .NET MAUI Value Thumb Styling](images/circularslider-thumb-styling.png)
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Value Thumb Styling](../images/circularslider-thumb-styling.png)
+
+> For a runnable example demonstrating the CircularSlider thumb styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
 ## See Also
 

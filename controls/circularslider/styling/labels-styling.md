@@ -26,9 +26,11 @@ The following example demonstrates how to use the `LabelStyleSelector` to apply 
 
 <snippet id='circularslider-labelsstyleselector-xaml'/>
 
-> `Telerik.Maui.Controls.IStyleSelector` provides a mechanism to select a `Microsoft.Maui.Controls.Style` based on custom logic.
+This is the result:
 
-![Telerik CircularSlider for .NET MAUI Labels Styling](images/circularslider-labels-styling.png)
+![Telerik CircularSlider for .NET MAUI Labels Styling](../images/circularslider-labels-styling.gif)
+
+> For a runnable example demonstrating the CircularSlider label style selector scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
 ## See Also
 

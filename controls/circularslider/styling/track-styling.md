@@ -23,7 +23,11 @@ The following example demonstrates how to use the described styling properties t
 
 <snippet id='circularslider-track-style-xaml' />
 
-![Telerik CircularSlider for .NET MAUI Track Styling](images/circularslider-track-styling.png)
+This is the result:
+
+![Telerik CircularSlider for .NET MAUI Track Styling](../images/circularslider-track-styling.png)
+
+> For a runnable example demonstrating the CircularSlider track styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
 ## See Also
 
