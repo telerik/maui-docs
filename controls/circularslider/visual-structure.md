@@ -18,9 +18,9 @@ The following image shows the anatomy of the CircularSlider.
 
 - **Backtrack**&mdash;The circular arc across which the value thumb slides.
 - **Thumb**&mdash;A draggable handle which represents the CircularSlider value.
+- **Tooltip**&mdash;A visual indicator of the current value selected with the thumb.
 - **Range Track**&mdash;The part of the backtrack from its origin along to the value thumb.
 - **Ticks** and **Labels**&mdash;Visual indicators of the underlying min-max range.
-- **Tooltip**&mdash;A visual indicator of the current value selected with the thumb.
 
 ## See Also
 
