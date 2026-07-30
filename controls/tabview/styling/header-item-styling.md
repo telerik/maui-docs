@@ -34,6 +34,22 @@ The following table summarizes the properties that you can apply to the `TabView
 | `ImageSpacing` | Specifies the spacing between the image icon and the text in the header item. |
 | `ImagePosition` | Specifies the position of the image icon relative to the text (`Left`, `Top`, `Right`, and `Bottom`). |
 
+## Visual States
+
+The `TabViewHeaderItem` provides the following `CommonStates` visual states:
+
+| Visual States | Description |
+| ------------- | --------------- |
+| `Normal` | Applies when the header item is in normal state. |
+| `Focused` | (Desktop-only) Applies when the header item is focused with the keyboard. |
+| `Selected` | Applies when the header item is selected. |
+| `FocusedSelected` | (Desktop-only) Applies when the header item is selected and focused with the keyboard. |
+| `Disabled` | Applies when the header item is disabled. |
+
+The `Focused` visual state is used in keyboard navigation support and desktop scenarios.
+
+## Example
+
 The example below shows how to style the header item of the TabView:
 
 <snippet id='tabview-styling-headeritemstyle' />
