@@ -26,11 +26,11 @@ You can visualize the aggregates inside the:
 * [DataGrid Group Header](#aggregates-in-group-header) through the `ShowGroupHeaderAggregates` property.
 * [DataGrid Group Footer](#aggregates-in-group-footer) through the `ShowGroupFooters` property.
 
-To calculate and display aggregate results, add aggregate descriptors to the `DataGridColumn.AggregateDescriptors` collection of the target column.
+In all cases, the visualization options only control where the results appear. The results themselves are calculated only for columns whose `DataGridColumn.AggregateDescriptors` collection is populated, so always add the descriptors to the target column first.
 
 ### Aggregates in Column Footer
 
-Use the `ShowColumnFooters` property to visualize the [`ColumnFooters`]({%slug datagrid-column-footer %}) of the DataGrid. When applying aggregate descriptor(s) to the column, the aggregate results are displayed inside the column footer.
+Once the `AggregateDescriptors` collection of a column is populated, use the `ShowColumnFooters` property to visualize the [`ColumnFooters`]({%slug datagrid-column-footer %}) of the DataGrid and display the aggregate results of that column inside its footer.
 
 > The aggregate results are displayed inside the column footer only if there is no `FooterText` set.
 
@@ -40,7 +40,7 @@ Use the `ShowColumnFooters` property to visualize the [`ColumnFooters`]({%slug d
 
 ### Aggregates in Group Header
 
-When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, you can display the aggregate results for the groups data in the group header, next to the title of the group.
+When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, the columns with populated `AggregateDescriptors` collection can display the aggregate results for the groups data in the group header, next to the title of the group.
 
 To show the Aggregates in the group header, set the `ShowGroupHeaderAggregates` to `True`.
 
@@ -55,7 +55,7 @@ To align the aggregates in the group according to its header, set the `GroupAggr
 
 ### Aggregates in Group Footer
 
-When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, you can display the aggregate results for the groups data in the group footer.
+When [grouping]({%slug datagrid-grouping-overview %}) is applied to the DataGrid, the columns with populated `AggregateDescriptors` collection can display the aggregate results for the groups data in the group footer.
 
 To visualize the group footer, set the `ShowGroupFooters` property to `True`. The group footer is divided into cells which are aligned with the respective columns and show the aggregate results for the particular column.
 
