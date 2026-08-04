@@ -24,7 +24,7 @@ The following example demonstrates how to use the `SourcePasswordNeeded` event:
 The next code snippet represents the event handler:
 
 ```C#
-private void pdfViewer_SourcePasswordNeeded(object sender, Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.Import.PasswordNeededEventArgs e)
+private void pdfViewer_SourcePasswordNeeded(object sender, Telerik.Documents.Fixed.FormatProviders.Pdf.Import.PasswordNeededEventArgs e)
 {
     e.Password = "my_user_password_here";
 }

@@ -75,7 +75,7 @@ private static byte[] ReadAllBytes(Stream input)
 Assembly assembly = typeof(MainPage).Assembly;
 Stream stream = assembly.GetManifestResourceStream("SampleApp.Resources.SampleFont.ttf");
 var fontData = ReadAllBytes(stream);
-Telerik.Windows.Documents.Fixed.Model.Fonts.FontsRepository.RegisterFont(
+Telerik.Documents.Fixed.Model.Fonts.FontsRepository.RegisterFont(
 	new FontFamily("Verdana"), FontStyles.Normal, FontWeights.Normal, fontData);
 ```
 

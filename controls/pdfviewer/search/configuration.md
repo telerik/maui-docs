@@ -18,7 +18,7 @@ Through the `Text` property of the `SearchSettings` you can retrieve or explicit
 
 ## Searching Options
 
-Define the search criteria by using the `SearchOptions` (of type `Telerik.Windows.Documents.Fixed.Search.TextSearchOptions`) and use it to define some search criteria as listed below:
+Define the search criteria by using the `SearchOptions` (of type `Telerik.Documents.Fixed.Search.TextSearchOptions`) and use it to define some search criteria as listed below:
 
 * `UseRegularExpression`&mdash;Specifies whether a regular expression is used for searching.
 * `CaseSensitive`&mdash;Indicates whether the search can be case sensitive.
@@ -50,7 +50,7 @@ You can get the search results by using the following properties:
 * `TextSearchResult` (property of the `SearchSettings`)&mdash;Retrieves the current search result. It contains the results that match the search as well as the main result. The main result is highlighted differently from the other search results and is used for navigation purposes, so that the user can navigate to previous and next results and keep track.
 The `TextSearchResult` exposes the following properties:
 	* static `TextSearchResult.NotFound` property&mdash;Is Returned when the search criteria has no results;
-	* `SearchResults`&mdash;Read-only collection of type `Telerik.Windows.Documents.Fixed.Search.SearchResult` which contains all the search results.
+	* `SearchResults`&mdash;Read-only collection of type `Telerik.Documents.Fixed.Search.SearchResult` which contains all the search results.
 	* `MainSearchResult`&mdash;A reference to the search result that are the main result.
 
 ## Search Results Highlight Colors
@@ -65,7 +65,7 @@ Add the folowing namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-xmlns:telerikTextSearch="clr-namespace:Telerik.Windows.Documents.Fixed.Search;assembly=Telerik.Documents.Fixed"
+xmlns:telerikTextSearch="clr-namespace:Telerik.Documents.Fixed.Search;assembly=Telerik.Documents.Fixed"
 ```
 
 ## Methods

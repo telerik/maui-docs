@@ -190,7 +190,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 		RgbColor bordersColor = new RgbColor(205, 205, 205);
 		RgbColor alternatingRowColor = new RgbColor(243, 243, 243);
 
-		Telerik.Windows.Documents.Fixed.Model.Editing.Border border = new Telerik.Windows.Documents.Fixed.Model.Editing.Border(1, Telerik.Windows.Documents.Fixed.Model.Editing.BorderStyle.Single, bordersColor);
+		Telerik.Documents.Fixed.Model.Editing.Border border = new Telerik.Documents.Fixed.Model.Editing.Border(1, Telerik.Documents.Fixed.Model.Editing.BorderStyle.Single, bordersColor);
 
 		Table table = new Table();
 		table.Borders = new TableBorders(border);
@@ -209,7 +209,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 
 			Block block = headerCell.Blocks.AddBlock();
 			block.GraphicProperties.FillColor = RgbColors.White;
-			block.HorizontalAlignment = Telerik.Windows.Documents.Fixed.Model.Editing.Flow.HorizontalAlignment.Center;
+			block.HorizontalAlignment = Telerik.Documents.Fixed.Model.Editing.Flow.HorizontalAlignment.Center;
 			block.InsertText(column);
 	
 		}
@@ -237,7 +237,7 @@ public class ExportToPdfViewModel : NotifyPropertyChangedBase
 			cell.Background = rowColor;
 
 			block = cell.Blocks.AddBlock();
-			block.HorizontalAlignment = Telerik.Windows.Documents.Fixed.Model.Editing.Flow.HorizontalAlignment.Right;
+			block.HorizontalAlignment = Telerik.Documents.Fixed.Model.Editing.Flow.HorizontalAlignment.Right;
 			block.InsertText(string.Format("{0:P0}", (double)course.Progress / 100));
 		}
 
