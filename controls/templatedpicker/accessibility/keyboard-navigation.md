@@ -19,10 +19,6 @@ The table below lists the available keyboard combinations and their correspondin
 | `Space` | Opens the drop-down. |
 | `Esc` | Closes the drop-down. |
 
-Here is how the keyboard navigation support looks on WinUI:
-
-![.NET MAUI TemplatedPicker Keyboard Navigation Support](../images/templatedpicker-keyboard-navigation-support.gif)
-
 ## See Also
 
 - [TemplatedPicker Data Binding]({%slug templatedpicker-data-binding%})

@@ -73,10 +73,11 @@ By default, the first item in the `SuggestionView` is highlighted. To modify thi
 
 @[template](/_contentTemplates/controls/autocomplete.md#highlighted-behavior)
 
-## SuggestionView Visibility
+## SuggestionView Size and Customization
 
 * `ShowSuggestionView` (`bool`)&mdash;Determine the visibility of the popup containing the search results of the AutoComplete. The default value is `True`.
 * `SuggestionViewHeight` (`double`)&mdash;Defines the height of the `SuggestionView`.
+* `SuggestionViewWidth` (`double`)&mdash;Defines the width of the `SuggestionView`.
 * `SuggestionViewMaxHeight` (`double`)&mdash;Defines the max height of the `SuggestionView`. Always set the `SuggestionViewMaxHeight`, so that you can have a predefined height for the suggestion view. If using both the `SuggestionViewMaxHeight` and `SuggestionViewHeight` properties, the max height value must be higher.
 * `SuggestionViewBorderColor` (`Color`)&mdash;Defines the color of the suggestion view border (drop-down).
 * `SuggestionViewBorderThickness` (`Thickness`)&mdash;Defines the thickness of the border around the suggestion view.

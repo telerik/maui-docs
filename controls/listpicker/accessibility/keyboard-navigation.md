@@ -21,10 +21,6 @@ The table below lists the available keyboard combinations and their correspondin
 | `Space` | Opens the drop-down. |
 | `Esc` | Closes the drop-down. |
 
-Here is how the keyboard navigation support looks on WinUI:
-
-![.NET MAUI ListPicker Keyboard Navigation Support](../images/listpicker-keyboard-navigation-support.gif)
-
 ## See Also
 
 - [.NET MAUI ListPicker Looping]({%slug listpicker-looping%})

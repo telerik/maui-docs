@@ -16,6 +16,7 @@ The CollectionView provides three selection modes, which allow you to manipulate
 
 - `None`&mdash;The users cannot select an item.
 - `Single` (default)&mdash;The users can select only one item.
+- `SingleDeselect`&mdash;Only one item can be selected at a time. Tapping the selected item again deselects it.
 - `Multiple`&mdash;The users can select more than one item.
 
 The following images show multiple selection on desktop:
