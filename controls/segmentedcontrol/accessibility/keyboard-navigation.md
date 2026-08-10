@@ -6,9 +6,11 @@ position: 1
 slug: segmentedcontrol-keyboard-support
 ---
 
-# .NET MAUI SegmentedControl Keyboard Support on Desktop
+# .NET MAUI SegmentedControl Keyboard Navigation Support on Desktop
 
 The [Telerik UI for .NET MAUI SegmentedControl]({%slug segmentedcontrol-overview%}) provides keyboard navigation support on WinUI and MacCatalyst.
+
+The table below lists the available keyboard combinations and their corresponding actions:
 
 | Hotkey | Action |
 | ------ | ------ |
