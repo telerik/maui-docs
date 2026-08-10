@@ -52,7 +52,7 @@ private static void UpdateWatermarkTransparency(RadFixedPage fixedPage)
 {
     foreach (var contentElement in fixedPage.Content)
     {
-        if (contentElement is Telerik.Windows.Documents.Fixed.Model.Text.TextFragment textBlock)
+        if (contentElement is Telerik.Documents.Fixed.Model.Text.TextFragment textBlock)
         {
             if (textBlock.Text.Contains("Watermark text!"))
             {

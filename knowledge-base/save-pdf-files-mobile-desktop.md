@@ -77,7 +77,7 @@ public class ViewModel
 
 		using (Stream output = File.OpenWrite(filePath))
 		{
-			new Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider().Export(this.Document, output);
+			new Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider().Export(this.Document, output);
 
 			Application.Current.MainPage.DisplayAlert("Document is saved to local application data: ", filePath, "OK");
 		}
