@@ -17,9 +17,9 @@ The RangeSlider for .NET MAUI control provides styling properties for its ticks 
  * `InRangeTickStyle` (`Style`)&mdash;Specifies custom style to the ticks that are within the start-end range.
  * `OutOfRangeTickStyle` (`Style`)&mdash;Specifies custom style to the ticks that are outside of the start-end range.
 
- * `TicksStyleSelector` (type of `Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles for different ticks.
+ * `TickStyleSelector` (type of `Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles for different ticks.
 
-Here is a quick example on how the `TicksStyleSelector` can be applied to set separate styles to the ticks before the selected range, inside the selected range and after the selected range.
+Here is a quick example on how the `TickStyleSelector` can be applied to set separate styles to the ticks before the selected range, inside the selected range and after the selected range.
 
 **1.** Create a custom style selector class which inherits from `Telerik.Maui.Controls.IStyleSelector`:
 

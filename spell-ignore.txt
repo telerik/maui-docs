@@ -94,3 +94,4 @@ MacCatalyst
 PromptInput
 SmartPaste
 DropDownButton
+CircularSlider

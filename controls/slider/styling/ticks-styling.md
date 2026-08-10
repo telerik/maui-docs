@@ -16,7 +16,7 @@ The Slider for .NET MAUI provides the following styling options and a style sele
  * `InRangeTickStyle` (`Style`)&mdash;Defines a custom style for the ticks shown along the range track.
  * `OutOfRangeTickStyle`(`Style`)&mdash;Defines a custom style for the ticks shown outside of the range track.
  * `TickLength` (`double`)&mdash;Defines the custom length of the ticks.
- * `TicksStyleSelector` (`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to ticks according to custom logic.
+ * `TickStyleSelector` (`Telerik.Maui.Controls.IStyleSelector`)&mdash;Defines a selector that can apply different styles to ticks according to custom logic.
 
 ## Tick Styles Example
 
@@ -34,7 +34,7 @@ The following example demonstrates how to use the described styling properties t
 
 ## TickStyleSelector Example
 
-The following example demonstrates how to use the `TicksStyleSelector` to set two different styles for the major and minor ticks:
+The following example demonstrates how to use the `TickStyleSelector` to set two different styles for the major and minor ticks:
 
 **1.** Create a custom style selector class that inherits from `Telerik.Maui.Controls.IStyleSelector`:
 
