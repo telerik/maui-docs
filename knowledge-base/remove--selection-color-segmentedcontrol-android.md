@@ -34,8 +34,6 @@ To remove the default selection color block and customize the visual states in S
 
 3. Apply the `VisualStateGroupList` to the `RadSegmentedControlItemView` using the `VisualStateManager.VisualStateGroups` property.
 
-Here is the complete XAML structure:
-
 ```xaml
 <ContentPage.Resources>
     <ResourceDictionary>
