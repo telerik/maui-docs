@@ -11,6 +11,20 @@ tag: updated
 
 Learn about the latest changes, improvements and bug fixes in the Telerik UI for .NET MAUI AI Coding Assistant. The updates are structured in a chronological order with the newest ones appearing first.
 
+> [Microsoft sunset GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps) on November 10, 2025, in favor of the Model Context Protocol (MCP) standard.
+
+## August, 2026 Changelog
+
+### Highlights
+
+- **AutoComplete**&mdash;Added API documentation and a code snippet for `SuggestionViewWidth`.
+- **Chart**&mdash;Added API documentation and code snippets for axis-related scenarios, including `CategoricalAxis`, `DateTimeContinuousAxis`, and `NumericalAxis` with examples for `GapLength`, `MajorTickInterval`, `MajorStep`, `MajorStepUnit`, `PlotMode`, `Minimum`, `Maximum`, `RangeExtendDirection`, and `IsDefaultValue`.
+- **Chat**&mdash;Added API documentation and a code snippet for `SendButtonStyle`.
+- **CircularSlider**&mdash;Introduced documentation support for the new `RadCircularSlider` control, with broad API and snippet coverage across `RadCircularSlider`, `RadSlider`, and `RadSliderBase`, including styling, templates, selectors, ticks, labels, range/track configuration, and value interaction scenarios.
+- **DataGrid**&mdash;Expanded API documentation and snippet coverage for AI search capabilities through `DataGridAISettings` (`SearchMode`, `ViewMode`, `Placeholder`, `SearchDebounceDelay`, `RecentTextSearches`, `RecentSemanticSearches`, `SearchViewStyle`, `SegmentedControlStyle`, and visibility toggles), and added examples for `SemanticSearchSettings`, `ContentPaintCompleted`, and `ShowColumnHeaders`.
+- **TabView**&mdash;Added API documentation and a code snippet for `CurrentItem`.
+- **TreeDataGrid**&mdash;Expanded API documentation and snippet coverage for AI search capabilities, including the same `DataGridAISettings` and semantic search scenarios added for DataGrid.
+
 ## May, 2026 Changelog
  
 ### Highlights
@@ -49,8 +63,6 @@ component.
 - **DataForm**&mdash;Expanded snippet coverage for all built-in editors and their APIs.
 - **Skeleton**&mdash;Added API information and snippets for the newly introduced RadSkeleton component.
 - **Scheduler**&mdash;Enhanced with API information and snippets for the new AgendaViewDefinition, along with additional methods and properties.
-
-- > [Microsoft sunset GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps) on November 10, 2025, in favor of the Model Context Protocol (MCP) standard.
 
 ## See Also
 
