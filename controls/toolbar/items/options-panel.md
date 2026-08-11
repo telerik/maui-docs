@@ -2,6 +2,7 @@
 title: OptionsButton
 page_title: .NET MAUI Toolbar Documentation - OptionsButton ToolbarItem
 description: Review the Toolbar options button for .NET MAUI.
+components: ["toolbar"]
 position: 9
 slug: toolbar-items-overflow
 ---

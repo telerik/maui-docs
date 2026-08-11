@@ -2,6 +2,7 @@
 title: Categorical Axis
 page_title: .NET MAUI Cartesian Chart Documentation - Categorical Axis
 description: Learn how to use the CategoricalAxis in the Telerik UI for .NET MAUI Cartesian Chart to arrange data points into discrete categories and configure its labels, ticks, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, axes, categorical, .net maui
 position: 1
 slug: charts-cartesian-categorical-axis

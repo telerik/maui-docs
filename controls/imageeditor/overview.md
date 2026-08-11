@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI ImageEditor Documentation - Overview
 description: Try now the Telerik ImageEditor for .NET MAUI for editing and saving images in your mobile and desktop applications.
+components: ["imageeditor"]
 position: 0
 slug: imageeditor-overview
 ---

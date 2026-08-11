@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI MaskedEntry Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI MaskedEntry formatting and learn how to restrict the accepted text based on predefined patterns with the help of input validation and masks.
+components: ["maskedentry"]
 position: 0
 previous_url: /controls/maskedentry/maskedentry-overview
 slug: maskedentry-overview

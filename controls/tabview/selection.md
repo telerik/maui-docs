@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI TabView Documentation - Selection
 description: Review the Selection options for the Telerik TabView for .NET MAUI control.
+components: ["tabview"]
 slug: tabview-selection
 tags: tabview, selection, selected item, .net maui
 position: 7

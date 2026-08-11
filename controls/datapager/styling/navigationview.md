@@ -2,6 +2,7 @@
 title: Navigation View Styling
 page_title: .NET MAUI DataPager Documentation - NavigationView Styling
 description: Learn what are the styling options for the Telerik UI for .NET MAUI DataPager NavigationView view.
+components: ["datapager"]
 position: 2
 slug: datapager-styling-navigationview
 ---

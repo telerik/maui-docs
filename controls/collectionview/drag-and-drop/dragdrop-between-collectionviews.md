@@ -2,6 +2,7 @@
 title: Drag and Drop between CollectionViews
 page_title: .NET MAUI CollectionView Documentation - Drag and Drop between CollectionViews
 description: Review the Telerik UI for .NET MAUI CollectionView Drag and Drop between CollectionViews
+components: ["collectionview"]
 position: 2
 slug: collectionview-dragdrop-between-collectionviews
 tags: collectionview, drag-drop

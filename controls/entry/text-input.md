@@ -2,6 +2,7 @@
 title: TextInput
 page_title: .NET MAUI TextInput Documentation - TextInput
 description: Learn more about the TextInput control used inside the Telerik UI for .NET MAUI Entry controls.
+components: ["entry"]
 position: 25
 slug: entry-textinput
 ---

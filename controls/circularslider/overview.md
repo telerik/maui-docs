@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CircularSlider Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI CircularSlider to let your users select a value from a defined range along a circular arc. The CircularSlider supports fully customizable ticks, labels, and tooltips.
+components: ["circularslider"]
 position: 1
 slug: circularslider-overview
 ---

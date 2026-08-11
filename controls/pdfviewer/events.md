@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI PDF Viewer Documentation - Events
 description: Review all events the Telerik PDF Viewer for .NET MAUI control provides.
+components: ["pdfviewer"]
 position: 9
 slug: pdfviewer-events
 ---

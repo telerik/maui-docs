@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI Slider Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI Slider and add the control to your .NET MAUI project.
+components: ["slider"]
 position: 2
 slug: slider-getting-started
 ---

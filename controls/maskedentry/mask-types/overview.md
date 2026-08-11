@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI MaskedEntry Documentation - Overview
 description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as email, numbers, IP, regex, and text.
+components: ["maskedentry"]
 position: 1
 slug: maskedentry-masked-types
 ---

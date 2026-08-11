@@ -2,6 +2,7 @@
 title: Bar Series
 page_title: .NET MAUI Cartesian Chart Documentation - BarSeries
 description: Learn about the BarSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, series, bar, .net maui
 position: 1
 slug: charts-cartesian-bar-series

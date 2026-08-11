@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI AIPrompt Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 0
 slug: aiprompt-overview
 ---

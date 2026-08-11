@@ -2,6 +2,7 @@
 title: Tokens Support
 page_title: .NET MAUI AutoComplete Documentation - Multiple Selection
 description: "Multiple selection option for .NET MAUI AutoComplete"
+components: ["autocomplete"]
 position: 4
 slug: autocomplete-tokens-support
 ---

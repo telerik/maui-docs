@@ -2,6 +2,7 @@
 title: Pane Styling
 page_title: .NET MAUI NavigationView Documentation - Pane Styling
 description: Learn how to style the header and footer of the navigation pane in the .NET MAUI NavigationView control.
+components: ["navigationview"]
 position: 1
 slug: navigationview-pane-styling
 ---

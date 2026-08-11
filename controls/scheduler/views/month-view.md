@@ -2,6 +2,7 @@
 title: Month View
 page_title: .NET MAUI Month View Documentation - Month View 
 description: Learn more about the month view in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 4
 slug: scheduler-month-view
 ---

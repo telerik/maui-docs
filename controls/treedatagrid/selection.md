@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI TreeDataGrid Documentation - Selection
 description: Learn how to set single and multiple selection modes in the Telerik UI for .NET MAUI TreeDataGrid and use available properties, events, and methods.
+components: ["treedatagrid"]
 position: 12
 slug: treedatagrid-selection-overview
 ---

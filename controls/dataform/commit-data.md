@@ -2,6 +2,7 @@
 title: Commit Data
 page_title: .NET MAUI DataForm Documentation - Commit Data
 description: Commit the data using different options provided by the Telerik DataForm for .NET MAUI control.
+components: ["dataform"]
 position: 10
 slug: dataform-commit-data
 ---

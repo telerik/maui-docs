@@ -2,6 +2,7 @@
 title: Header Visual Structure
 page_title: .NET MAUI Scheduler Header Documentation - Header Visual Structure
 description: Learn what visual elements are displayed in the Header of the Telerik UI for .NET MAUI Scheduler , and see how these elements build the visual structure of header.
+components: ["scheduler"]
 position: 1
 slug: scheduler-header-visual-structure
 ---

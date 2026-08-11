@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI DropDownButton Documentation - Events
 description: Review the DropDownButton events that are raised when the drop-down is opening, opened, or closed.
+components: ["dropdownbutton"]
 position: 6
 slug: dropdownbutton-events
 ---

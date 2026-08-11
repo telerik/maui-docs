@@ -2,6 +2,7 @@
 title: BusyIndicator
 page_title: .NET MAUI Toolbar Documentation - BusyIndicator Toolbar Item
 description: Learn how to add and style the busy indicators when working with the Toolbar for .NET MAUI.
+components: ["toolbar"]
 position: 1
 slug: toolbar-items-busyindicator
 ---

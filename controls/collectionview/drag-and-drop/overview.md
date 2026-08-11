@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CollectionView Documentation - Drag and Drop/Reorder
 description: Review the Telerik UI for .NET MAUI CollectionView Drag and Drop feature.
+components: ["collectionview"]
 position: 0
 slug: collectionview-dragdrop-overview
 tags: reorder, collectionview, drag-drop

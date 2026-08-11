@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Editor Documentation - Editor Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI Editor control.
+components: ["editor"]
 position: 0
 slug: editor-visual-structure
 ---

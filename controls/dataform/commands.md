@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI DataForm Documentation - Commands
 description: Learn more about the commands in the Telerik UI .NET MAUI DataForm control.
+components: ["dataform"]
 position: 11
 slug: dataform-commands
 ---

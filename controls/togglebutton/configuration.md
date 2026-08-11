@@ -2,6 +2,7 @@
 title: Content Configuration
 page_title: .NET MAUI ToggleButton Documentation - Content Alignment
 description: Learn how to define, position, and format the content of the Telerik ToggleButton for .NET MAUI.
+components: ["togglebutton"]
 position: 3
 tags: .net maui, telerik toggle button for .net maui, ui for .net maui, toggle button, microsoft .net maui
 slug: togglebutton-configuration

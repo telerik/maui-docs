@@ -2,6 +2,7 @@
 title: Bar Series
 page_title: .NET MAUI Chart Documentation - Bar Series
 description: Learn more about the Bar series in the Cartesian chart.
+components: ["chart"]
 position: 0
 slug: chart-series-bar-series
 ---

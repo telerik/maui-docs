@@ -2,6 +2,7 @@
 title: Keyboard Navigation
 page_title: .NET MAUI TemplatedButton Documentation - Keyboard Navigation Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI TemplatedButton accessibility standards.
+components: ["templatedbutton"]
 position: 1
 slug: templatedbutton-keyboard-navigation
 ---

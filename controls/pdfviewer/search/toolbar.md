@@ -2,6 +2,7 @@
 title: Toolbar Items
 page_title: .NET MAUI PDF Viewer Documentation - Toolbar Items
 description: Learn more for the available toolbar items for search functionality in Telerik .NET MAUI PDF Viewer. 
+components: ["pdfviewer"]
 position: 1
 slug: pdfviewer-search-toolbar
 ---

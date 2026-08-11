@@ -2,6 +2,7 @@
 title: Visible Range
 page_title: .NET MAUI Scheduler Documentation - Visible Range
 description: Learn more about the visible range of the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 10
 slug: scheduler-visible-range
 ---

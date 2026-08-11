@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Expander Documentation - Overview
 description: Try now the Telerik for .NET MAUI Expander that helps you save screen space by presenting content in an expandable container that can be expanded/collapsed.
+components: ["expander"]
 position: 0
 slug: expander-overview
 ---

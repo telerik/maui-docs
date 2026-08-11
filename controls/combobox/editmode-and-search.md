@@ -2,6 +2,7 @@
 title: Edit Mode & Search
 page_title: .NET MAUI ComboBox Documentation - Edit Mode & Search
 description: Learn more about the edit mode and search functionalities in Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 4
 slug: combobox-editmode-and-search
 ---

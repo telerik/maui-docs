@@ -2,6 +2,7 @@
 title: Value Thumb
 page_title: .NET MAUI CircularSlider Documentation - Value Thumb
 description: Learn how to use the value thumb of the Telerik UI CircularSlider for .NET MAUI. End users drag the value thumb along the arc to select a desired value.
+components: ["circularslider"]
 position: 5
 slug: circularslider-value-thumb
 ---

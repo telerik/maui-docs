@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI ComboBox Overview
 description: Learn how to use the .NET MAUI ComboBox to select one or more items, search data, style the control, and apply theme-aware appearance settings.
+components: ["combobox"]
 position: 0
 slug: combobox-overview
 ---

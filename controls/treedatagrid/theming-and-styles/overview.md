@@ -2,6 +2,7 @@
 title: TreeDataGrid Styling
 page_title: .NET MAUI TreeDataGrid Documentation - Styling
 description: Learn how to style each element inside the .NET MAUI TreeDataGrid control.
+components: ["treedatagrid"]
 position: 0
 slug: treedatagrid-styling
 ---

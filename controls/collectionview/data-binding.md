@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI CollectionView Documentation - Data Binding
 description: Learn what are the options for data binding in Telerik UI CollectionView for .NET MAUI control.
+components: ["collectionview"]
 position: 3
 slug: collectionview-data-binding
 ---

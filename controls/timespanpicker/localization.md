@@ -2,6 +2,7 @@
 title: Localization
 page_title: Telerik .NET MAUI TimeSpan Picker Documentation - Localization
 description: Learn more about the maui localization options in the Telerik UI for .NET MAUI TimeSpanPicker control.
+components: ["timespanpicker"]
 position: 8
 slug: timespanpicker-localization
 ---

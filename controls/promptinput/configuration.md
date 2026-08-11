@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI PromptInput Documentation - Configuration
 description: Learn how to configure the Telerik UI for .NET MAUI PromptInput - set the message, placeholder, display mode, max input lines, button visibility, and more.
+components: ["promptinput"]
 position: 5
 slug: promptinput-configuration
 ---

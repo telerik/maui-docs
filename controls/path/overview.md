@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Path Documentation - Overview
 description: Try now the Telerik Path for .NET MAUI delivering a set of options for drawing complex shapes composed of various geometries like arcs, ellipses, lines, and rectangles.
+components: ["path"]
 position: 0
 previous_url: /controls/path/path-overview
 slug: path-overview

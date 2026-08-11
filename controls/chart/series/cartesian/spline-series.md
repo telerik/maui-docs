@@ -2,6 +2,7 @@
 title: Spline Series
 page_title: .NET MAUI Chart Documentation - Spline Series
 description: Learn more about the Spline series in the Cartesian chart.
+components: ["chart"]
 slug: chart-series-spline-series
 position: 0
 ---

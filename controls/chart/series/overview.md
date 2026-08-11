@@ -2,6 +2,7 @@
 title: Series Overview
 page_title: .NET MAUI Chart Documentation - Series Overview
 description: Try now the Telerik RadChart for .NET MAUI contro.
+components: ["chart"]
 slug: chart-series-overview
 previous_url: /controls/chart/series/chart-series-overview
 position: 0

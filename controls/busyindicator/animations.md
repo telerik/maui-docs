@@ -2,6 +2,7 @@
 title: Animations
 page_title: .NET MAUI BusyIndicator Documentation - Animations
 description: Learn how to controll the size and color of built-in animations and how to define custom animations in Telerik UI Busy Indicator .NET MAUI control.
+components: ["busyindicator"]
 position: 2
 previous_url: /controls/busyindicator/busyindicator-animations
 slug: busyindicator-animations

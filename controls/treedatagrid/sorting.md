@@ -2,6 +2,7 @@
 title: Sorting
 page_title: .NET MAUI TreeDataGrid Documentation - Sorting
 description: Learn how to sort data in the Telerik UI for .NET MAUI TreeDataGrid through the UI or programmatically using sort descriptors.
+components: ["treedatagrid"]
 position: 10
 slug: treedatagrid-sorting
 ---

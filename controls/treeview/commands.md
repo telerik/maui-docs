@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI TreeView Documentation - Commands
 description: The .NET MAUI TreeView provides various commands that allow you to initiate expand or collapse actions, check and uncheck actions, and to scroll to a specific item.
+components: ["treeview"]
 position: 10
 slug: treeview-commands
 ---

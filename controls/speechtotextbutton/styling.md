@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI SpeechToTextButton Documentation - Styling
 description: Learn how to set background color, border color, corner radius, and other properties of the SpeechToTextButton for .NET MAUI.
+components: ["speechtotextbutton"]
 tags: speech to text for .net maui, .net maui, ui for .net maui, listening state
 position: 11
 slug: speechtotextbutton-styling

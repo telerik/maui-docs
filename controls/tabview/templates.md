@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI TabView Documentation - Templates
 description: Review the customization options of the Telerik TabView for .NET MAUI control.
+components: ["tabview"]
 slug: tabview-templates
 tags: tabview, templates, customization
 position: 14

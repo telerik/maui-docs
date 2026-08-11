@@ -2,6 +2,7 @@
 title: Methods 
 page_title: .NET MAUI SlideView Documentation - Methods
 description: Review the different methods you can call when using the Slideview for .NET MAUI.
+components: ["slideview"]
 position: 11
 slug: slideview-methods
 ---

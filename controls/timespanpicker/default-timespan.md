@@ -2,6 +2,7 @@
 title: Default TimeSpan
 page_title: .NET MAUI TimeSpanPicker Documentation - Default TimeSpan
 description: Learn more about the time span functionality that the Telerik UI for .NET MAUI TimeSpanPicker provides.
+components: ["timespanpicker"]
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-default-timespan
 slug: timespanpicker-default-timespan

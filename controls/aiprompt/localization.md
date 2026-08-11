@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI AIPrompt Documentation - Localization
 description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 6
 slug: aiprompt-localization
 ---

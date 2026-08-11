@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI BottomSheet Documentation - Styling
 description: Learn how to customize the appearance of the Telerik UI for .NET MAUI BottomSheet control and its handle component using styling properties like colors, borders, and dimensions.
+components: ["bottomsheet"]
 position: 15
 slug: bottomsheet-styling
 ---

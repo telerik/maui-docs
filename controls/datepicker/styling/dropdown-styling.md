@@ -2,6 +2,7 @@
 title: Drop-Down Styling
 page_title: .NET MAUI DatePicker Documentation - Drop-Down Styling
 description: Learn how to style the elements in the drop-down part of the Telerik UI for .NET MAUI DatePicker.
+components: ["datepicker"]
 position: 2
 slug: datepicker-dropdown-styling
 ---

@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI DataGrid Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms DataGrid to .NET MAUI DataGrid control.
+components: ["datagrid"]
 position: 100
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 slug: datagrid-xamarin-migration

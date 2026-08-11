@@ -2,6 +2,7 @@
 title: CheckBox Elements
 page_title: .NET MAUI TreeView Documentation - CheckBox Elements
 description: Discover the CheckBox elements in the TreeView for .NET MAUI control and learn how to use and configure them.
+components: ["treeview"]
 position: 3
 slug: treeview-checkboxes
 ---

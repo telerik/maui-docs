@@ -2,6 +2,7 @@
 title: Tooltips
 page_title: .NET MAUI RangeSlider Documentation - Tooltips
 description: Learn how to use the tooltips that Telerik UI RangeSlider for .NET MAUI control provides.
+components: ["rangeslider"]
 position: 7
 slug: rangeslider-tooltips
 ---

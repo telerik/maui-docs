@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI SignaturePad Documentation - Overview
 description: Add signatures to your mobile and desktop apps using the Telerik SignaturePad for .NET MAUI control.
+components: ["signaturepad"]
 position: 0
 slug: signaturepad-overview
 ---

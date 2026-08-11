@@ -2,6 +2,7 @@
 title: Style Selectors
 page_title: .NET MAUI TreeDataGrid Documentation - Style Selectors
 description: Learn how to apply conditional styling to the .NET MAUI TreeDataGrid rows.
+components: ["treedatagrid"]
 position: 3
 slug: treedatagrid-style-selectors
 ---

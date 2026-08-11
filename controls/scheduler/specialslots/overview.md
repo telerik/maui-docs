@@ -2,6 +2,7 @@
 title: Special Slots
 page_title: .NET MAUI Scheduler Documentation - Special Slots
 description: Learn more about the special slots feature in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 0
 slug: scheduler-special-slots
 ---

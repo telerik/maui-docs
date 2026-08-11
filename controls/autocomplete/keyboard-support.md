@@ -2,6 +2,7 @@
 title: Keyboard Support
 meta_title: .NET MAUI AutoComplete Documentation - Keyboard Support for WinUI and MacCatalyst
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI AutoComplete accessibility standards.
+components: ["autocomplete"]
 position: 6
 slug: autocomplete-keyboard-support
 ---

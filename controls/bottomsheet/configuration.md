@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI BottomSheet Documentation - Configuration
 description: Learn more about how to configure the Telerik UI for .NET MAUI BottomSheet control.
+components: ["bottomsheet"]
 position: 3
 slug: bottomsheet-configuration
 ---

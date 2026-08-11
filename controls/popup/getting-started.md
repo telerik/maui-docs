@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI Popup Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI Popup and add the control to your .NET MAUI project.
+components: ["popup"]
 position: 1
 previous_url: /controls/popup/popup-getting-started
 slug: popup-getting-started

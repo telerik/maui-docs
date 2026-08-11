@@ -2,6 +2,7 @@
 title: CellTap Command
 page_title: .NET MAUI DataGrid Documentation - CellTap Command
 description: Learn how to use the CellTap command in the Telerik UI for .NET MAUI DataGrid to handle tap gestures on data cells.
+components: ["datagrid"]
 position: 1
 slug: datagrid-commands-cell-tap
 ---

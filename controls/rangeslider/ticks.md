@@ -2,6 +2,7 @@
 title: Ticks
 page_title: .NET MAUI RangeSlider Documentation - Ticks
 description: Learn how to use the ticks that Telerik UI RangeSlider for .NET MAUI control provides.
+components: ["rangeslider"]
 position: 5
 slug: rangeslider-ticks
 ---

@@ -2,6 +2,7 @@
 title: Keyboard Navigation
 page_title: .NET MAUI ToggleButton Documentation - Keyboard Navigation Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI ToggleButton accessibility standards.
+components: ["togglebutton"]
 position: 1
 slug: togglebutton-keyboard-navigation
 ---

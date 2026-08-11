@@ -2,6 +2,7 @@
 title: SuggestionView Template
 page_title: .NET MAUI AutoCompleteView Documentation | SuggestionView Template
 description: Check our &quot;SuggestionView Template&quot; documentation article for Telerik AutoComplete for .NET MAUI control.
+components: ["autocomplete"]
 position: 4
 slug: autocomplete-suggestion-view-template
 ---

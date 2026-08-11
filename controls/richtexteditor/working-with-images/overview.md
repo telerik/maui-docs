@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI RichTextEditor Documentation - Working with Images
 description: Learn more about how to work with images in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 tags: edit, add, delete, images, insert images
 position: 1
 slug: richtexteditor-images-overview

@@ -2,6 +2,7 @@
 title: Using TimeOnly
 page_title: .NET MAUI TimePicker Documentation - TimeOnly Support
 description: Take advantage of the TimeOnly type and make your dates even better when working with the Telerik UI for .NET MAUI TimePicker.
+components: ["timepicker"]
 position: 4
 slug: timepicker-timeonly
 ---

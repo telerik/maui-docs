@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Entry Documentation - Events
 description: Learn how to use the exposed events of the Telerik UI for .NET MAUI Entry control.
+components: ["entry"]
 position: 5
 tags: entry, input text, event, .net maui, text changed, enter key, complated event, input control
 previous_url: /controls/entry/entry-events

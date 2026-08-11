@@ -2,6 +2,7 @@
 title: Labels Styling
 page_title: .NET MAUI RangeSlider Documentation - Labels Styling
 description: Review the styling options that the Telerik UI for .NET MAUI RangeSlider control provides for its labels.
+components: ["rangeslider"]
 position: 3
 slug: rangeslider-labels-styling
 ---

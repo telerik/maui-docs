@@ -2,6 +2,7 @@
 title: Methods
 page_title: .NET MAUI Chat Documentation - Methods
 description: Learn about the public methods of the Telerik UI for .NET MAUI Chat control.
+components: ["chat"]
 position: 10
 slug: chat-methods
 ---

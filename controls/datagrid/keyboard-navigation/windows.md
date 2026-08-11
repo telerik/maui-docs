@@ -2,6 +2,7 @@
 title: WinUI
 page_title: .NET MAUI DataGrid Documentation - Keyboard Support for WinUI
 description: Learn the available keyboard shortcuts for navigating the Telerik UI for .NET MAUI DataGrid on Windows (WinUI).
+components: ["datagrid"]
 position: 1
 previous_url: /controls/datagrid/keyboard-support
 slug: datagrid-keyboard-support

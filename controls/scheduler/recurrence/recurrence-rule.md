@@ -2,6 +2,7 @@
 title: Recurrence Rule
 page_title: .NET MAUI Scheduler Documentation - Recurrence Rule
 description: Learn more about the reccurence rule option in Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 2
 slug: scheduler-recurrence-rule
 ---

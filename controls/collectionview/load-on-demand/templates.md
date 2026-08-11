@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI CollectionView Documentation - Load On Demand Templates
 description: Learn how to customize the default automatic and manual loading indicator in the Telerik UI for .NET MAUI CollectionView when using the load on demand feature.
+components: ["collectionview"]
 position: 4
 slug: collectionview-load-on-demand-templates
 tags: loading data, .net maui, maui, collectionview, load data on demand, loading templates

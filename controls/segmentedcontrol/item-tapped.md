@@ -2,6 +2,7 @@
 title: Item Tapped
 page_title: .NET MAUI SegmentedControl Documentation - Item Tapped
 description: Learn how to respond to tap interactions on segments of the Telerik UI for .NET MAUI SegmentedControl using the ItemTapped event and ItemTappedCommand.
+components: ["segmentedcontrol"]
 position: 6
 slug: segmentedcontrol-item-tapped
 ---

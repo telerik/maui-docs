@@ -2,6 +2,7 @@
 title: Page Sizes Styling
 page_title: .NET MAUI DataPager Documentation - Page Sizes Styling
 description: Learn what are the styling options for the Telerik UI for .NET MAUI DataPager PageSizes view.
+components: ["datapager"]
 position: 3
 slug: datapager-styling-pagesize
 ---

@@ -2,6 +2,7 @@
 title: Week View
 page_title: .NET MAUI Day View Documentation - Week View 
 description: Learn more about the week view definition in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 2
 slug: scheduler-week-view
 ---

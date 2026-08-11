@@ -2,6 +2,7 @@
 title: Defining Columns
 page_title: .NET MAUI DataGrid Documentation - Defining Columns
 description: Learn how to define columns in the Telerik UI for .NET MAUI DataGrid automatically, manually, or in mixed mode, and control column headers visibility.
+components: ["datagrid"]
 position: 0
 previous_url: /controls/datagrid/columns/datagrid-columns-overview
 slug: datagrid-columns-overview

@@ -2,6 +2,7 @@
 title: WinUI Support
 page_title: .NET MAUI SpeechToTextButton Documentation - WinUI Support
 description: Review what are the options and limitations using the .NET MAUI SpeechToTextButton on WinUI.
+components: ["speechtotextbutton"]
 position: 3
 slug: speechtotextbutton-winui-support
 ---

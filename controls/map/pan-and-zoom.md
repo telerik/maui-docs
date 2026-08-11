@@ -2,6 +2,7 @@
 title: Pan and Zoom
 page_title: .NET MAUI Map Documentation - Pan and Zoom
 description: Learn how to pan and zoom in the Telerik UI for .NET MAUI Map control.
+components: ["map"]
 position: 2
 slug: map-pan-zoom
 ---

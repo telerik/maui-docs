@@ -2,6 +2,7 @@
 title: Ticks Styling
 page_title: .NET MAUI RangeSlider Documentation - Ticks Styling
 description: Review the styling options that the Telerik UI for .NET MAUI RangeSlider control provides for its ticks.
+components: ["rangeslider"]
 position: 2
 slug: rangeslider-ticks-styling
 ---

@@ -2,6 +2,7 @@
 title: Suggestions
 page_title: .NET MAUI AIPrompt Documentation - Suggestions
 description: Learn more about the suggestions in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 4
 slug: aiprompt-suggestions
 ---

@@ -2,6 +2,7 @@
 title: Item Hierarchy
 page_title: .NET MAUI TreeView Documentation - Item Hierarchy
 description: Learn how to define the appearance of the items in the Telerik UI for .NET MAUI TreeView control.
+components: ["treeview"]
 position: 2
 slug: treeview-descriptor
 ---

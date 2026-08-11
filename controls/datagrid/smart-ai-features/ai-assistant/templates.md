@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI DataGrid Documentation - Templates
 description: Learn how to override the built-in templates for the prompt-controlled AI feature in the Telerik UI for .NET MAUI DataGrid component.
+components: ["datagrid"]
 position: 13
 slug: datagrid-ai-prompt-templates
 ---

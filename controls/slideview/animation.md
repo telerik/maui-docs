@@ -2,6 +2,7 @@
 title: Animation
 page_title: .NET MAUI SlideView Documentation - Animation
 description: Try now the Telerik SlideView for .NET MAUI that delivers an animation when slididng through different views
+components: ["slideview"]
 position: 9
 slug: slideview-animation
 ---

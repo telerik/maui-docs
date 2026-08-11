@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Expander Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Expander control.
+components: ["expander"]
 position: 1
 slug: expander-visual-structure
 ---

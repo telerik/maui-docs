@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI PDF Viewer Documentation - Overview
 description: Try the Telerik UI for .NET MAUI. PDF Viewer search feature for searching text in the loaded document. 
+components: ["pdfviewer"]
 position: 0
 slug: pdfviewer-search-overview
 ---

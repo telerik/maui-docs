@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Conversational UI Documentation - Events
 description: Learn what are the events exposed by the Telerik UI for .NET MAUI Chat
+components: ["chat"]
 position: 7
 slug: chat-events
 ---

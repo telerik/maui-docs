@@ -2,6 +2,7 @@
 title: DataPager Styling
 page_title: .NET MAUI DataPager Documentation - DataPager Styling
 description: Learn what are the styling options for the Telerik UI for .NET MAUI DataPager control.
+components: ["datapager"]
 position: 0
 slug: datapager-styling
 ---

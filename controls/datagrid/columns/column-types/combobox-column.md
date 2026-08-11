@@ -2,6 +2,7 @@
 title: ComboBox Column
 page_title: .NET MAUI DataGrid Documentation - ComboBox Column
 description: Learn how to use the ComboBox column in the Telerik UI for .NET MAUI DataGrid to display and edit data with a dropdown editor.
+components: ["datagrid"]
 position: 5
 slug: datagrid-columns-combobox-column
 ---

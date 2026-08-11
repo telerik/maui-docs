@@ -2,6 +2,7 @@
 title: SkiaSharp Cell Renderer
 page_title: .NET MAUI DataGrid Documentation - SkiaSharp Cell Renderer
 description: Learn how to define a custom SkiaSharp cell renderer for the DataGrid columns.
+components: ["datagrid"]
 position: 4
 slug: datagrid-skiasharp-cell-renderer
 ---

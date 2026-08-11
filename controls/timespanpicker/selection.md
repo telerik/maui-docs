@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI TimeSpanPicker Documentation - Selection
 description: Learn more about the selection functionality that the Telerik UI for .NET MAUI TimeSpanPicker control provides.
+components: ["timespanpicker"]
 position: 6
 previous_url: /controls/timespanpicker/timespanpicker-selection
 slug: timespanpicker-selection

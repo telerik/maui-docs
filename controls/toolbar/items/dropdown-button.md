@@ -2,6 +2,7 @@
 title: DropDownButton
 page_title: .NET MAUI Toolbar Documentation - DropDownButon ToolbarItem
 description: Review the Toolbar drop-down button item for .NET MAUI.
+components: ["toolbar"]
 position: 3
 slug: toolbar-items-dropdown-button
 ---

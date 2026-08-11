@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI ProgressBar Documentation - Overview
 description: Try now the Telerik ProgressBar for .NET MAUI designed to track the progress of various tasks.
+components: ["progressbar"]
 position: 0
 slug: progressbar-overview
 ---

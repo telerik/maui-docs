@@ -2,6 +2,7 @@
 title: Saving Options
 page_title: .NET MAUI SignaturePad Documentation - Saving Options
 description: Review the saving signature options that the Telerik UI for .NET MAUI SignaturePad control provides.
+components: ["signaturepad"]
 position: 3
 tags: sing pad, signature, .net maui, dotnet, sign, signature pad
 slug: signaturepad-saving-options

@@ -2,6 +2,7 @@
 title: RadioButton
 page_title: .NET MAUI Toolbar Documentation - RadioButton ToolbarItem
 description: Review the Toolbar radio button item for .NET MAUI.
+components: ["toolbar"]
 position: 3
 slug: toolbar-items-radio-button
 ---

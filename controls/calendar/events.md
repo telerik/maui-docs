@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Calendar Documentation - Events
 description: Learn about the events that the Telerik UI for .NET MAUI Calendar control exposes and find out how to use them to configure the UI component.
+components: ["calendar"]
 position: 11
 slug: calendar-events
 ---

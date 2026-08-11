@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI BottomSheet Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI BottomSheet that you can use to display action menus, various panels, previews, and more.
+components: ["bottomsheet"]
 position: 0
 tags: .net maui, bottomsheet, ui for .net maui, .net maui conrols, microsoft .net maui
 slug: bottomsheet-overview

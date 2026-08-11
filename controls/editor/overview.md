@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Editor Documentation - Overview
 description: Try now the Telerik for .NET MAUI Editor accepting string input and providing various customization options such as adding watermarks and more.
+components: ["editor"]
 tags: Editor for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: editor-overview

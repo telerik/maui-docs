@@ -2,6 +2,7 @@
 title: Paging
 page_title: .NET MAUI DataPager Documentation - Paging Support
 description: Learn more about how to add paging functionality to the CollectionView for .NET MAUI.
+components: ["collectionview"]
 position: 7
 slug: collectionview-paging
 ---

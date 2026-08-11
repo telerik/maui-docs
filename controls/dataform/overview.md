@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataForm Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI DataForm control which allows you to create a form for collecting or editing business object data.
+components: ["dataform"]
 position: 0
 slug: dataform-overview
 ---

@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: Getting Started with .NET MAUI SmartPasteButton
 description: Get started with the Telerik UI for .NET MAUI SmartPasteButton control and add the control to your .NET MAUI project.
+components: ["smartpastebutton"]
 position: 2
 slug: smartpastebutton-getting-started
 ---

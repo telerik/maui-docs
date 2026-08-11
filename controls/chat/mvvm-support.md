@@ -2,6 +2,7 @@
 title: MVVM Support 
 page_title: .NET MAUI Conversational UI Documentation - MVVM Support
 description: Learn how to utilize the MVVM pattern with RadChat control
+components: ["chat"]
 position: 7
 slug: chat-mvvm-support
 ---

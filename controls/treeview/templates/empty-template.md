@@ -2,6 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI TreeView Documentation - Empty Template
 description: Learn more about the Empty Template property of the .NET MAUI TreeView control.
+components: ["treeview"]
 position: 2
 slug: treeview-empty-template
 ---

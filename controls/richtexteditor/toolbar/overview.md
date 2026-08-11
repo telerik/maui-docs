@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI RichTextEditor Documentation - Toolbar
 description: Learn more about the toolbar in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 1
 slug: richtexteditor-toolbar
 ---

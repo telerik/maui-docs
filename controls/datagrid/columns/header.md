@@ -2,6 +2,7 @@
 title: Column Headers
 page_title: .NET MAUI DataGrid Documentation - Column Headers
 description: Learn how to style and customize the text in the Telerik UI for .NET MAUI DataGrid Header by using the properties of the component.
+components: ["datagrid"]
 position: 2
 previous_url: /controls/datagrid/columns/column-header
 slug: datagrid-column-header

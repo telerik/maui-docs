@@ -2,6 +2,7 @@
 title: Methods
 page_title: .NET MAUI TemplatedPicker Documentation - Methods
 description: Learn more about the ClearSelection method that the Telerik UI for .NET MAUI Templated picker control exposes.
+components: ["templatedpicker"]
 position: 6
 previous_url: /controls/templatedpicker/templatedpicker-methods
 slug: templatedpicker-methods

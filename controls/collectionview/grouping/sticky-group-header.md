@@ -2,6 +2,7 @@
 title: Sticky Group Headers
 page_title: .NET MAUI CollectionView Documentation - Sticky Group Grouping
 description: Review the Telerik UI for .NET MAUI CollectionView Sticky Group Headers option which if enabled makes the GroupHeader freeze while scrolling through the items until the whole group is scrolled away.
+components: ["collectionview"]
 position: 6
 slug: collectionview-sticky-group-header
 tags: group, collectionview, groupdescriptor, sticky, group, headers

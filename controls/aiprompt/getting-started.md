@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI AIPrompt Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI AIPrompt and add the control to your .NET MAUI project.
+components: ["aiprompt"]
 position: 2
 slug: aiprompt-getting-started
 ---

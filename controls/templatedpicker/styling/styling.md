@@ -2,6 +2,7 @@
 title: Picker Styling
 page_title: .NET MAUI TemplatedPicker Documentation - Styling
 description: Learn what are the styling options for customizing the appearance of the Telerik UI for .NET MAUI TemplatedPicker control.
+components: ["templatedpicker"]
 position: 1
 slug: templatedpicker-styling
 ---

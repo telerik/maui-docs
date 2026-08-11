@@ -2,6 +2,7 @@
 title: TabViewItem
 page_title: .NET MAUI TabView Documentation - TabViewItem
 description: Check the Telerik UI for .NET MAUI TabViewItem control used to populate the TabView.
+components: ["tabview"]
 slug: tabview-item
 tags: tabview, overview
 position: 6

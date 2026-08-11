@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI SmartPasteButton Documentation - Command
 description: Learn about the .NET MAUI SmartPasteButton Command that is executed when the SmartPasteButton is clicked.
+components: ["smartpastebutton"]
 position: 9
 slug: smartpastebutton-command
 ---

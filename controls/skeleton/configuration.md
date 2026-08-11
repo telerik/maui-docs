@@ -2,6 +2,7 @@
 title: Configuration
 meta_title: .NET MAUI Skeleton Documentation - Configuration
 description: Learn how to configure the width, height, and other properties in Telerik .NET MAUI Skeleton control.
+components: ["skeleton"]
 position: 5
 tags: .net maui, telerik .net maui, ui for .net maui, shimmer, microsoft .net maui
 slug: skeleton-configuration

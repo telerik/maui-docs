@@ -2,6 +2,7 @@
 title: ScatterArea Series
 page_title: .NET MAUI Chart Documentation - ScatterArea Series
 description: Learn more about the ScatterArea series in the Cartesian chart.
+components: ["chart"]
 slug: chart-series-scatter-area-series
 position: 0
 ---

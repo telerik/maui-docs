@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI ComboBox Documentation - Selection
 description: Learn more about the selection functionality in Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 6
 slug: combobox-selection
 ---

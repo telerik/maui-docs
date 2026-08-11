@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Editor Documentation - Events
 description: Learn how to use the exposed events of the Telerik UI for .NET MAUI Editor control.
+components: ["editor"]
 position: 5
 tags: editor, input text, event, .net maui, text changed, enter key, completed event, input control
 slug: editor-events

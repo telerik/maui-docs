@@ -2,6 +2,7 @@
 title: Insert and Edit Images
 page_title: .NET MAUI RichTextEditor Documentation - Insert and Edit Images
 description: Learn more about the toolbar items and how they work with images in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 2
 slug: richtexteditor-insert-images
 ---

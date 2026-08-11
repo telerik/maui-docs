@@ -2,6 +2,7 @@
 title: Header ItemStyle Selector
 page_title: .NET MAUI TabView Documentation - Header ItemStyle Selector
 description: Learn how to apply a style selector to the header items of the Telerik UI for .NET MAUI TabView.
+components: ["tabview"]
 slug: tabview-header-itemstyle-selector
 tags: tabview, maui, dotnet, header, styleselector
 position: 3

@@ -2,6 +2,7 @@
 title: Time Break
 page_title: .NET MAUI Conversational UI Documentation - Chat Time Break
 description: Learn more about TimeBreak item of the RadChart control
+components: ["chat"]
 position: 3
 slug: chat-items-timebreak
 ---

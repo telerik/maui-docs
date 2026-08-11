@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI Editor Documentation - Visual States
 description: Learn how to set the border color, background color, and other visual states for the Telerik UI for .NET MAUI Editor control.
+components: ["editor"]
 position: 9
 tags: .net maui, telerik .net maui, ui for .net maui, Editor, states, microsoft .net maui
 slug: editor-visual-states

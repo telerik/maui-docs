@@ -2,6 +2,7 @@
 title: Group Header Styling
 page_title: .NET MAUI DataGrid Documentation - Group Header Styling
 description: Learn how to style the Group Headers in a grouped DataGrid control.
+components: ["datagrid"]
 position: 2
 slug: datagrid-group-header-styling
 ---

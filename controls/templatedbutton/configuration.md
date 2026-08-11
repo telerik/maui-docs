@@ -2,6 +2,7 @@
 title: Content Configuration
 page_title: .NET MAUI TemplatedButton Documentation - Content Alignment
 description: Learn how to define, position, and format the content of the Telerik TemplatedButton for .NET MAUI.
+components: ["templatedbutton"]
 position: 3
 tags: .net maui, telerik templated button for .net maui, ui for .net maui, template contet, microsoft .net maui
 slug: templatedbutton-configuration

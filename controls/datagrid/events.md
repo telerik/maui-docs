@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI DataGrid Documentation - Events
 description: Learn about the Telerik UI for .NET MAUI DataGrid events and how to handle user interactions and data operations like loading, binding, and grouping.
+components: ["datagrid"]
 position: 17
 tags: events
 slug: datagrid-events

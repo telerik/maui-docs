@@ -2,6 +2,7 @@
 title: Grid Layout
 page_title: .NET MAUI CollectionView Documentation - Grid Layout
 description: Learn how to configure the CollectionView to display its items in a grid-like layout and arrange them vertically or horizontally.
+components: ["collectionview"]
 position: 1
 slug: collectionview-grid-layout
 tags: .net maui, collectionview, layout, grid layout

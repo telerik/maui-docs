@@ -2,6 +2,7 @@
 title: Header Styling
 page_title: .NET MAUI Calendar Documentation - Header Styling
 description: Review the styling options that the Telerik UI for .NET MAUI Calendar control provides for its header.
+components: ["calendar"]
 position: 1
 slug: calendar-header-styling
 ---

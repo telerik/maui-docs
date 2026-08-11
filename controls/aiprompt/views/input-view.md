@@ -2,6 +2,7 @@
 title: Input View
 page_title: .NET MAUI AIPrompt Documentation - Input View
 description: Learn more about the input view in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 1
 slug: aiprompt-input-view
 ---

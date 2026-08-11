@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI TreeView Documentation - Selection
 description: The TreeView for .NET MAUI exposes a selection feature that allows the user to select single or multiple items in the TreeView control.
+components: ["treeview"]
 position: 6
 slug: treeview-selection
 ---

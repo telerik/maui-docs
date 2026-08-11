@@ -2,6 +2,7 @@
 title: Date Ranges
 page_title: .NET MAUI DatePicker Date Ranges
 description: Learn how to limit the selectable dates in the Telerik UI for .NET MAUI DatePicker by using the MinimumDate and MaximumDate properties.
+components: ["datepicker"]
 position: 4
 previous_url: /controls/datepicker/datepicker-date-range
 slug: datepicker-date-range

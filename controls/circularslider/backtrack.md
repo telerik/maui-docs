@@ -2,6 +2,7 @@
 title: Backtrack
 page_title: .NET MAUI CircularSlider Documentation - Backtrack
 description: Learn how to configure the backtrack of the Telerik UI CircularSlider for .NET MAUI - set the min and max values and choose if the backtrack should extend beyond them.
+components: ["circularslider"]
 position: 6
 slug: circularslider-backtrack
 ---

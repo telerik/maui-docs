@@ -2,6 +2,7 @@
 title: Recurrence Pattern
 page_title: .NET MAUI Scheduler Documentation - Recurrence Pattern 
 description: Learn more about the reccurence pattern option in Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-recurrence-pattern
 ---

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CollectionView Item Swipe Overview
 description: Learn how to enable item swipe in the Telerik UI for .NET MAUI CollectionView, configure swipe templates, and add swipe actions.
+components: ["collectionview"]
 position: 0
 slug: collectionview-item-swipe-overview
 tags: item-swipe, collectionview, swiping

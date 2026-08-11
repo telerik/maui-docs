@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI PromptInput Documentation - Commands
 description: Learn which commands the Telerik UI for .NET MAUI PromptInput exposes and how to use them to handle sending messages, attaching files, and more.
+components: ["promptinput"]
 position: 8
 slug: promptinput-commands
 ---

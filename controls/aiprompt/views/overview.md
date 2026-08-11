@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI AIPrompt Documentation - Views
 description: Learn more about the available views in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 0
 slug: aiprompt-views-overview
 ---

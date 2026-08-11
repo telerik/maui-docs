@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI MaskedEntry Documentation - Styling
 description: Explore the Telerik .NET MAUI MaskedEntry Styling options like changing text color, hovered and pressed button colors background color and more.
+components: ["maskedentry"]
 position: 11
 slug: maskedentry-styling
 ---

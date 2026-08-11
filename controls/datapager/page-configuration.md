@@ -2,6 +2,7 @@
 title: Page Configuration
 page_title: .NET MAUI DataPager Documentation - Page Page Configuration
 description: Learn how to define the page buttons count, current page and the size of the page inside the Telerik .NET MAUI DataPager.
+components: ["datapager"]
 position: 4
 slug: datapager-page-configuration
 tags: page size, datapager, maui, dotnet maui

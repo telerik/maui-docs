@@ -2,6 +2,7 @@
 title: Attachments
 meta_title: .NET MAUI Chat Documentation - Attachments Templates
 description: Learn how to customize the default template of the outgoing and incoming attachments in the Telerik UI for .NET MAUI Chat control.
+components: ["chat"]
 position: 6
 tags: .net maui, telerik .net maui, ui for .net maui, chat, attachments templates
 slug: chat-attachments-templates

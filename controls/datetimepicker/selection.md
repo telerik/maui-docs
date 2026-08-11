@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI DateTimePicker Documentation - Selection
 description:  Learn more about the selection functionality that the Telerik UI for .NET MAUI DateTimePicker control provides.
+components: ["datetimepicker"]
 position: 5
 slug: datetimepicker-selection
 ---

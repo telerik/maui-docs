@@ -2,6 +2,7 @@
 title: Output View Styling
 page_title: .NET MAUI AIPrompt Documentation - Output View Styling
 description: Learn how to style the output items inside the output view of the Telerik .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 2
 slug: aiprompt-outputview-styling
 ---

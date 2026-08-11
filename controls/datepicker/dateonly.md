@@ -2,6 +2,7 @@
 title: Using DateOnly
 page_title: .NET MAUI Date Picker Documentation - Date Only Support
 description: Take advantage of the DateOnly type and make your dates even better when working with the Telerik UI for .NET MAUI DatePicker.
+components: ["datepicker"]
 position: 4
 slug: datepicker-dateonly
 ---

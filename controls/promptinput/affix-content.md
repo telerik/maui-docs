@@ -2,6 +2,7 @@
 title: Affix Content
 page_title: .NET MAUI PromptInput Documentation - Affix Content
 description: Learn how to add custom content to the Telerik UI for .NET MAUI PromptInput through the top, start, and end affix content templates.
+components: ["promptinput"]
 position: 6
 slug: promptinput-affix-content
 ---

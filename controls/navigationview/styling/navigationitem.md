@@ -2,6 +2,7 @@
 title: Navigation Item Styling
 page_title: .NET MAUI NavigationView Documentation - NavigationItem Styling
 description: Learn how to style the navigation item inside the .NET MAUI NavigationView Pane.
+components: ["navigationview"]
 position: 2
 slug: navigationview-item-styling
 ---

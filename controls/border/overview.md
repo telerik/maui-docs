@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Border Documentation | Overview
 description: Try now the Telerik UI for .NET MAUI Border, which enables you to control the look and feel of the border that wraps around your MAUI views.
+components: ["border"]
 position: 0
 tags: .net maui, border, ui for .net maui, .net maui conrols, microsoft .net maui
 previous_url: /controls/border/border-overview

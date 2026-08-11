@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI SpeechToTextButton Documentation - Events
 description: Learn about the events that the SpeechToTextButton for .NET MAUI exposes.
+components: ["speechtotextbutton"]
 position: 8
 tags: .net maui, telerik speech to text button for .net maui, ui for .net maui
 slug: speechtotextbutton-events

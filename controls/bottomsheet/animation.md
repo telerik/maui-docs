@@ -2,6 +2,7 @@
 title: Animation
 page_title: .NET MAUI BottomSheet Documentation - Animation
 description: Learn how to configure animation settings for the Telerik BottomSheet for .NET MAUI, including duration, easing, and enable/disable options.
+components: ["bottomsheet"]
 position: 5
 slug: bottomsheet-animation
 ---

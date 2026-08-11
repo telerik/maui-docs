@@ -2,6 +2,7 @@
 title: Day View
 page_title: .NET MAUI Day View Documentation - Day View 
 description: Learn more about the day view definition in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-day-view
 ---

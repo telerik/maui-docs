@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI TimePicker Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI TimePicker control and add the control to your .NET MAUI project.
+components: ["timepicker"]
 position: 1
 previous_url: /controls/timepicker/timepicker-getting-started
 slug: timepicker-getting-started

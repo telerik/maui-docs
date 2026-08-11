@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Button Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Button control.
+components: ["button"]
 position: 1
 slug: button-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: Toggle Row Details Column
 page_title: .NET MAUI DataGrid Documentation - Toggle Row Details Column
 description: Learn more about Toggle Row Details Column which allows you to show and hide the row details in the DataGrid control.
+components: ["datagrid"]
 position: 7
 slug: datagrid-columns-toggle-column
 ---

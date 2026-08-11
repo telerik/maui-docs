@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI TimeSpanPicker Documentation - Templates
 description: Learn more about the templates in the Telerik UI for .NET MAUI TimeSpanPicker control.
+components: ["timespanpicker"]
 position: 4
 previous_url: /controls/timespanpicker/timespanpicker-templates
 slug: timespanpicker-templates

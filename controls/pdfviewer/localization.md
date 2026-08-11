@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI PDF Viewer Documentation - Localization
 description: Learn more about the supported localization keys and default values provided by the Telerik UI for .NET MAUI Scheduler control.
+components: ["pdfviewer"]
 position: 15
 slug: pdfviewer-localization
 ---

@@ -2,6 +2,7 @@
 title: Columns Styling
 page_title: .NET MAUI TreeDataGrid Documentation - Columns Styling
 description: Learn how to define a style for the columns inside the TreeDataGrid for .NET MAUI control.
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-columns-styling
 ---

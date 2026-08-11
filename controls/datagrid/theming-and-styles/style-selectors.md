@@ -2,6 +2,7 @@
 title: Style Selectors
 page_title: .NET MAUI DataGrid Documentation - Style Selectors
 description: Learn how to use style selectors to apply conditional styles to rows and cells in the Telerik UI for .NET MAUI DataGrid.
+components: ["datagrid"]
 position: 3
 previous_url: /controls/datagrid/theming-and-styles/datagrid-style-selectors
 slug: datagrid-style-selectors

@@ -2,6 +2,7 @@
 title: Size Mode
 page_title: .NET MAUI SegmentedControl Documentation - Size Mode
 description: Learn how to control the sizing of segments in the Telerik UI for .NET MAUI SegmentedControl by using the Star, Auto, and Fixed size modes.
+components: ["segmentedcontrol"]
 position: 4
 slug: segmentedcontrol-size-mode
 ---

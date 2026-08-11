@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the TreeView from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin TreeView to the Telerik UI for .NET MAUI framework by updating the namespacesby updating the namespaces, the incompatible NuGet packages and API.
+components: ["treeview"]
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms, treeview
 position: 100
 slug: migrate-xamarin-treeview-to-maui

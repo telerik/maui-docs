@@ -2,6 +2,7 @@
 title: Setting the Keyboard
 page_title: .NET MAUI MaskedEntry Documentation - Setting the Keyboard
 description: Learn how to set the Keyboard type in Telerik UI for .NET MAUI MaskedEntry.
+components: ["maskedentry"]
 position: 12
 slug: maskedentry-keyboard
 ---

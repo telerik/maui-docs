@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI ToggleButton Documentation - Visual States
 description: Learn how to set the border color, border thickness and other in the different visual states of the Telerik ToggleButton for .NET MAUI.
+components: ["togglebutton"]
 position: 9
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-visual-states

@@ -2,6 +2,7 @@
 title: Lines Styling
 page_title: .NET MAUI Scheduler Documentation - Lines Styling
 description: Review the styling options that the Telerik UI for .NET MAUI Scheduler control provides for the lines across the views defined by MajorTickLength and MinorTickLength.
+components: ["scheduler"]
 position: 4
 slug: scheduler-lines-styling
 ---

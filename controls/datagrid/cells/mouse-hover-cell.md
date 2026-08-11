@@ -2,6 +2,7 @@
 title: Mouse Hover Cell
 page_title: .NET MAUI DataGrid Documentation - Hover Cell
 description: Learn how to get the current hovered cell and style the appearance of the cell of the Telerik UI for .NET MAUI DataGrid component.
+components: ["datagrid"]
 position: 2
 slug: datagrid-mouse-hover-cell
 ---

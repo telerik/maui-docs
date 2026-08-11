@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TreeView Documentation - Item Style
 description: The TreeView for .NET MAUI allows you to easily style its look.
+components: ["treeview"]
 position: 0
 slug: treeview-style-overview
 ---

@@ -2,6 +2,7 @@
 title: Numeric Format String
 page_title: .NET MAUI NumericInput Documentation - Numeric String Format
 description: Learn more about the numeric format in the Telerik UI for .NET MAUI NumericInput control.
+components: ["numericinput"]
 position: 4
 previous_url: /controls/numericinput/numericinput-numeric-string-format
 slug: numericinput-numeric-string-format

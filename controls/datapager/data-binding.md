@@ -2,6 +2,7 @@
 title: Binding a Source
 page_title: .NET MAUI DataPager Documentation - Data Binding
 description: Learn more about the ways you can bind data to the Telerik UI for .NET MAUI DataPager control.
+components: ["datapager"]
 position: 3
 slug: datapager-data-binding
 ---

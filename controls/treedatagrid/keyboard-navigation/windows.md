@@ -2,6 +2,7 @@
 title: WinUI
 page_title: .NET MAUI TreeDataGrid Documentation - Keyboard Support for WinUI
 description: Learn the available keyboard shortcuts for navigating the Telerik UI for .NET MAUI TreeDataGrid on Windows (WinUI).
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-keyboard-support
 ---

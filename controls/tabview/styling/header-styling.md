@@ -2,6 +2,7 @@
 title: Header Styling
 page_title: .NET MAUI TabView Documentation - Header Styling
 description: Learn how to style to the Telerik UI for .NET MAUI TabView header element.
+components: ["tabview"]
 slug: tabview-header-styling
 tags: tabview, header, styling
 position: 1

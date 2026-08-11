@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI DateTimePicker Templates
 description: Learn how to customize the Telerik UI for .NET MAUI DateTimePicker with placeholder, display, header, and footer templates.
+components: ["datetimepicker"]
 position: 6
 slug: datetimepicker-templates
 ---

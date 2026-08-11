@@ -2,6 +2,7 @@
 title: Overview
 page_title: NET MAUI Rich Text Editor
 description: NET MAUI Rich Text Editor enables formatted text editing with support for styling, links, and images in mobile and desktop apps.
+components: ["richtexteditor"]
 position: 0
 tags: dotnet maui editor, rich text editor
 slug: richtexteditor-overview

@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI ComboBox Documentation - Templates
 description: Check our &quot;Templates&quot; documentation article for Telerik ComboBox for .NET MAUI control.
+components: ["combobox"]
 position: 11
 slug: combobox-templates
 ---

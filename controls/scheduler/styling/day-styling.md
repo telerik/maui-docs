@@ -2,6 +2,7 @@
 title: Day Styling
 page_title: .NET MAUI Scheduler Documentation - Day Styling
 description: Learn how to style the days in the views of the Telerik .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 3
 slug: scheduler-day-styling
 ---

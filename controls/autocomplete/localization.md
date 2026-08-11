@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI AutoComplete Documentation - Localization
 description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI AutoComplete control.
+components: ["autocomplete"]
 position: 14
 tags: maui localization, maui, localization, dotnet maui
 slug: autocomplete-localization

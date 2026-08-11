@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI Conversational UI Documentation - Commands
 description: Learn how to use the exposed commands of the Telerik UI for .NET MAUI Chat
+components: ["chat"]
 position: 7
 slug: chat-commands
 ---

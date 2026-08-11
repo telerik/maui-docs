@@ -2,6 +2,7 @@
 title: Point Series
 page_title: .NET MAUI Cartesian Chart Documentation - Point Series
 description: Learn about the PointSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, series, point, .net maui
 position: 4
 slug: charts-cartesian-point-series

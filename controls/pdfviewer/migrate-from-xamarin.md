@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI PDF Viewer Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms PDF Viewer to .NET MAUI PDF Viewer control.
+components: ["pdfviewer"]
 position: 20
 slug: pdfviewer-migrate-from-xamarin
 ---

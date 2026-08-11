@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI SmartPasteButton Documentation - Visual States
 description: Learn how to configure the visual states of the Telerik SmartPasteButton for .NET MAUI, including Normal, Pressed, MouseOver, and Disabled states.
+components: ["smartpastebutton"]
 position: 10
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui
 slug: smartpastebutton-visual-states

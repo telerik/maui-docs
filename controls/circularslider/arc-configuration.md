@@ -2,6 +2,7 @@
 title: Arc Configuration
 page_title: .NET MAUI CircularSlider Documentation - Arc Configuration
 description: Learn how to configure the circular arc of the Telerik UI for .NET MAUI CircularSlider through the start angle, sweep angle, sweep direction, radius factor, and size.
+components: ["circularslider"]
 position: 4
 slug: circularslider-arc-configuration
 ---

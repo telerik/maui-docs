@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI Scheduler Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms Calendar & Scheduling to .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 30
 slug: scheduler-migrate-from-xamarin
 ---

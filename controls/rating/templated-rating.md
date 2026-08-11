@@ -2,6 +2,7 @@
 title: Templated Rating
 page_title: .NET MAUI Rating Documentation - Templated Rating
 description: Learn more about the templated rating component that is designed for cases when you need to use template.
+components: ["rating"]
 position: 5
 previous_url: /controls/rating/rating-templated-rating
 slug: rating-templated-rating

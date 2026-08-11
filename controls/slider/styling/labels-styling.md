@@ -2,6 +2,7 @@
 title: Labels Styling
 page_title: .NET MAUI Slider Documentation - Labels Styling
 description: Learn how to style the labels of the Telerik UI for .NET MAUI Slider. Set the colors and fonts, or use the style selector for a more complex styling approach.
+components: ["slider"]
 position: 3
 slug: slider-labels-styling
 ---

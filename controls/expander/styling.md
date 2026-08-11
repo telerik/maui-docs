@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Expander Documentation - Styling
 description: Learn more about how to style the header, header text and more in the Telerik UI for .NET MAUI Expander.
+components: ["expander"]
 position: 7
 slug: expander-styling
 ---

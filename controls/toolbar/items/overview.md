@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Toolbar Documentation - Overview
 description: Review the Toolbar items available in the Telerik UI for .NET MAUI ToolbarItem control.
+components: ["toolbar"]
 position: 0
 slug: toolbar-items
 ---

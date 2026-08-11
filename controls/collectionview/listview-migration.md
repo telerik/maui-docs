@@ -2,6 +2,7 @@
 title: Migrating from Telerik .NET MAUI ListView
 page_title: Migrating from Telerik .NET MAUI ListView to Telerik CollectionView
 description: Learn how to migrate the Telerik UI for .NET MAUI ListView to the Telerik CollectionView for .NET MAUI.
+components: ["collectionview"]
 slug: listview-migration
 position: 40
 ---

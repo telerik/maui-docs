@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI GridSplitter Documentation - Configuration
 description: Learn how to configure the Telerik UI for .NET MAUI GridSplitter resize direction and resize behavior.
+components: ["gridsplitter"]
 position: 3
 slug: gridsplitter-configuration
 ---

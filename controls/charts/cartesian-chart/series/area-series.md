@@ -2,6 +2,7 @@
 title: Area Series
 page_title: .NET MAUI Cartesian Chart Documentation - Area Series
 description: Learn about the AreaSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, series, area, .net maui
 position: 3
 slug: charts-cartesian-area-series

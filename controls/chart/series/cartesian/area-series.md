@@ -2,6 +2,7 @@
 title: Area Series
 page_title: .NET MAUI Chart Area Series Documentation
 description: Learn how to use the .NET MAUI Chart Area Series, customize its fill and stroke, and control where the shaded area appears.
+components: ["chart"]
 slug: chart-series-area-series
 position: 0
 ---

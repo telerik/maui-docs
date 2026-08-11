@@ -2,6 +2,7 @@
 title: Header
 page_title: .NET MAUI NavigationView Documentation - Header
 description: Learn more for the Navigation Header and how to customize its content.
+components: ["navigationview"]
 position: 4
 slug: navigationview-navigation-header
 ---

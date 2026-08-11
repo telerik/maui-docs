@@ -2,6 +2,7 @@
 title: WinUI
 page_title: .NET MAUI CollectionView Documentation - Keyboard Support for WinUI
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI CollectionView accessibility standards.
+components: ["collectionview"]
 position: 1
 previous_url: /controls/collectionview/accessibility/keyboard-navgation/windows
 slug: collectionview-keyboard-support-winui

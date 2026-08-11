@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI DataForm Documentation - Configuration
 description: Learn more about the configure and customize properties that Telerik UI for .NET MAUI provides.
+components: ["dataform"]
 position: 1
 previous_url: /controls/dataform/grouping/dataform-configuration
 slug: dataform-grouping-configuration

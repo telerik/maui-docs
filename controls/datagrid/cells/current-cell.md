@@ -2,6 +2,7 @@
 title: Current Cell
 page_title: .NET MAUI DataGrid Documentation - Current Cell
 description: Learn how to set the behavior and style the appearance of the current cell of the Telerik UI for .NET MAUI DataGrid component.
+components: ["datagrid"]
 position: 1
 previous_url: /controls/datagrid/current-cell
 slug: datagrid-current-cell

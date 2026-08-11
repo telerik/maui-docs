@@ -2,6 +2,7 @@
 title: AI Semantic Search
 page_title: .NET MAUI DataGrid Documentation - AI Semantic Search
 description: Learn how to use the AI Semantic Search feature in the .NET MAUI DataGrid to find results based on conceptual similarity rather than exact keyword matching.
+components: ["datagrid"]
 position: 1
 slug: datagrid-ai-semantic-search-overview
 ---

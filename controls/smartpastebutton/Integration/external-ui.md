@@ -2,6 +2,7 @@
 title: Integration with External UI
 page_title: Integrating .NET MAUI SmartPasteButton with External UI
 description: Learn how to integrate the Telerik SmartPasteButton for .NET MAUI with external UI components to enhance user experience.
+components: ["smartpastebutton"]
 position: 2
 slug: smartpastebutton-external-ui-integration
 ---

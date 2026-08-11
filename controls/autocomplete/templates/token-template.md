@@ -2,6 +2,7 @@
 title: Token Template
 page_title: .NET MAUI AutoComplete Documentation - Token Template
 description: Check our &quot;Token Template&quot; documentation article for Telerik AutoComplete for .NET MAUI control.
+components: ["autocomplete"]
 position: 2
 slug: autocomplete-token-template
 ---

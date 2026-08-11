@@ -2,6 +2,7 @@
 title: Row Details Template
 page_title: .NET MAUI DataGrid Documentation - Row Details Template
 description: Learn how to customize the row details template to control the additional information displayed per row in the .NET MAUI DataGrid.
+components: ["datagrid"]
 position: 1
 slug: datagrid-row-details-template
 ---

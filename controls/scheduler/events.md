@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Scheduler Documentation - Events
 description: Learn about the events that the Telerik UI for .NET MAUI Scheduler control exposes and find out how to use them to configure the UI component.
+components: ["scheduler"]
 position: 15 
 slug: scheduler-events
 ---

@@ -2,6 +2,7 @@
 title: Predefined AI Commands
 page_title: .NET MAUI AIPrompt Documentation - Predefined AI Commands
 description: Learn more about the predefined AI Commands in the CommandsView in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 7
 slug: aiprompt-aicommands
 ---

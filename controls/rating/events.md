@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI Rating Documentation - Events
 description: Learn more about the exposed events in the Telerik UI for .NET MAUI Rating control.
+components: ["rating"]
 position: 6
 previous_url: /controls/rating/rating-events
 slug: rating-events

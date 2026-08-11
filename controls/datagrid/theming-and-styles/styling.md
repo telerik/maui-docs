@@ -2,6 +2,7 @@
 title: DataGrid Styling
 page_title: .NET MAUI DataGrid Styling
 description: Learn how to style the Telerik UI for .NET MAUI DataGrid by customizing borders, rows, cells, grid lines, and the frozen columns splitter.
+components: ["datagrid"]
 position: 0
 previous_url: /controls/datagrid/theming-and-styles/datagrid-styling
 slug: datagrid-styling

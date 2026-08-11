@@ -2,6 +2,7 @@
 title: Interaction
 page_title: .NET MAUI SlideView Documentation - Infinite Looping
 description: Learn about the infinite looping mechanism that SlideView control provides.
+components: ["slideview"]
 position: 7
 slug: slideview-scrolling
 ---

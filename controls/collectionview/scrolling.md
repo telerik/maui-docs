@@ -2,6 +2,7 @@
 title: Scrolling
 page_title: .NET MAUI CollectionView Documentation - Scrolling
 description: Try now the Telerik UI for .NET MAUI CollectionView Scrolling options like the Vertical Scrollbar and programmatic scrolling with the ScrollItemIntoView method.
+components: ["collectionview"]
 position: 8
 slug: collectionview-scrolling
 tags: programmatic, scrolling, scrollbar

@@ -2,6 +2,7 @@
 title: Programmatic Filtering
 page_title: .NET MAUI DataGrid Documentation - Programmatic Filtering
 description: Learn how to filter the Telerik UI for .NET MAUI DataGrid programmatically using filter descriptors for external filtering scenarios.
+components: ["datagrid"]
 position: 3
 slug: datagrid-programmatic-filtering
 ---

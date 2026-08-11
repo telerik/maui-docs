@@ -2,6 +2,7 @@
 title: Rows
 page_title: .NET MAUI DataGrid Documentation - Row Height
 description: Learn how to set the row height and customize cell content positioning in the Telerik UI for .NET MAUI DataGrid.
+components: ["datagrid"]
 position: 3
 slug: datagrid-row-height
 ---

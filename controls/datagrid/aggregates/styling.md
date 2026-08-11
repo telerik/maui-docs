@@ -2,6 +2,7 @@
 title: Aggregate Styling
 page_title: .NET MAUI DataGrid Documentation - Aggregate Styling
 description: Learn how to style the group footer, header, and column footer of the Telerik UI for .NET MAUI DataGrid when its data is aggregated.
+components: ["datagrid"]
 position: 3
 slug: datagrid-aggregates-styling
 ---

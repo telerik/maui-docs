@@ -2,6 +2,7 @@
 title: Swipe Gesture
 page_title: .NET MAUI BottomSheet Documentation - Swipe Gesture
 description: Learn how to enable or disable swipe gestures for the Telerik UI for .NET MAUI BottomSheet control to control user interaction and accessibility.
+components: ["bottomsheet"]
 position: 3
 slug: bottomsheet-swipe-gesture
 ---

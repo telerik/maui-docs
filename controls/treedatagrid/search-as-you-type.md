@@ -2,6 +2,7 @@
 title: Search as You Type
 page_title: .NET MAUI TreeDataGrid Documentation - Search as You Type
 description: Learn about the Search as You Type feature in the .NET MAUI TreeDataGrid including panel visibility, configuration, and events.
+components: ["treedatagrid"]
 position: 14
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: treedatagrid-search-as-you-type

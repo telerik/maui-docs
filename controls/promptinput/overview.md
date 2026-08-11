@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI PromptInput Documentation - Overview
 description: Explore the Telerik UI for .NET MAUI PromptInput - a feature-rich AI input control with voice dictation, file attachments, and customizable affix regions.
+components: ["promptinput"]
 tags: promptinput for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: promptinput-overview

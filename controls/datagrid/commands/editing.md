@@ -2,6 +2,7 @@
 title: Editing Commands
 page_title: .NET MAUI DataGrid Documentation - Editing Commands
 description: Learn how to use editing commands in the Telerik UI for .NET MAUI DataGrid to handle begin, commit, and cancel edit actions.
+components: ["datagrid"]
 position: 2
 slug: datagrid-commands-editing
 ---

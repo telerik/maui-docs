@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI DataForm Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms DataForm to the .NET MAUI DataForm control.
+components: ["dataform"]
 position: 100
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 previous_url: /controls/dataform/migrate-from-xamarin

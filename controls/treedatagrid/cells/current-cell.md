@@ -2,6 +2,7 @@
 title: Current Cell
 page_title: .NET MAUI TreeDataGrid Documentation - Current Cell
 description: Learn how to set the behavior and style the appearance of the current cell of the Telerik UI for .NET MAUI TreeDataGrid component.
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-current-cell
 ---

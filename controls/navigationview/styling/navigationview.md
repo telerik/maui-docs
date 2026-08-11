@@ -2,6 +2,7 @@
 title: NavigationView Styling
 page_title: .NET MAUI NavigationView Documentation - NavigationView Styling
 description: Learn how to style the header and toggle button of the NavigationView control for .NET MAUI. 
+components: ["navigationview"]
 position: 0
 slug: navigationview-styling
 ---

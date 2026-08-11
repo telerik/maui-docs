@@ -2,6 +2,7 @@
 title: CustomLayout
 page_title: .NET MAUI DataForm Documentation - CustomLayout
 description: Learn how to apply custom layout in the .NET MAUI DataForm.
+components: ["dataform"]
 position: 4
 slug: dataform-layouts-custom
 ---

@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the ProgressBar from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin ProgressBar to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
+components: ["progressbar"]
 position: 20
 slug: progressbar-migrate-from-xamarin
 ---

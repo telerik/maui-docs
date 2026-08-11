@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI GridSplitter Documentation - GridSplitter Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI GridSplitter, and see how these elements build the visual structure of the control.
+components: ["gridsplitter"]
 position: 1
 slug: gridsplitter-visual-structure
 ---

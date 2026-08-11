@@ -2,6 +2,7 @@
 title: Defining Columns
 page_title: .NET MAUI TreeDataGrid Documentation - Defining Columns
 description: Learn how to define columns in the Telerik UI for .NET MAUI TreeDataGrid automatically, manually, or in mixed mode.
+components: ["treedatagrid"]
 position: 0
 slug: treedatagrid-columns-overview
 ---

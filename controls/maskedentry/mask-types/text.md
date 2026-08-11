@@ -2,6 +2,7 @@
 title: Text Mask
 page_title: .NET MAUI MaskedEntry Documentation - Text Mask
 description: Set the mask type of the Telerik UI for .NET MAUI MaskedEntry to validate the expected user input format such as text.
+components: ["maskedentry"]
 position: 2
 slug: maskedentry-text-mask
 ---

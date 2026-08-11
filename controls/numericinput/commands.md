@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI NumericInput Documentation - Commands
 description: Learn how to use the exposed commands in the Telerik UI for .NET MAUI NumericInput control.
+components: ["numericinput"]
 position: 9
 previous_url: /controls/numericinput/numericinput-commands
 slug: numericinput-commands

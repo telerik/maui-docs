@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataForm Documentation - Editors
 description: Learn more about the editors that Telerik UI for .NET MAUI DataForm control provides.
+components: ["dataform"]
 position: 0
 slug: dataform-editors
 ---

@@ -2,6 +2,7 @@
 title: Columns Reordering
 page_title: .NET MAUI TreeDataGrid Documentation - Column Reordering
 description: Learn how to reorder columns in the Telerik UI for .NET MAUI TreeDataGrid control.
+components: ["treedatagrid"]
 position: 7
 slug: treedatagrid-columns-reordering
 ---

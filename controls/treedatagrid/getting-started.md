@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI TreeDataGrid Documentation - Getting Started
 description: "Get started with the Telerik UI for .NET MAUI TreeDataGrid and add the control to your .NET MAUI project."
+components: ["treedatagrid"]
 position: 2
 slug: treedatagrid-getting-started
 ---

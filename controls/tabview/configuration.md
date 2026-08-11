@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI TabView Documentation - Configuration
 description: Learn how to configure the .NET MAUI TabView header position, placements and more.
+components: ["tabview"]
 slug: tabview-configuration
 tags: tabview, overview
 position: 5

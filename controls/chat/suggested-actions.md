@@ -2,6 +2,7 @@
 title: Suggested Actions
 page_title: .NET MAUI Conversational UI Documentation - Suggested Actions
 description: Learn more about suggested actions functionality of the RadChat
+components: ["chat"]
 position: 8
 slug: chat-suggested-actions
 ---

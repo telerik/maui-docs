@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI PDF Viewer Documentation - Commands
 description: Check out the commands provided by the Telerik UI for .NET MAUI PDF Viewer control.
+components: ["pdfviewer"]
 position: 13
 slug: pdfviewer-commands
 ---

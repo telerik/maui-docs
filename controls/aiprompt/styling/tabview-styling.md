@@ -2,6 +2,7 @@
 title: TabView Styling
 page_title: .NET MAUI AIPrompt Documentation - TabView Styling
 description: Learn how to style the TabView for switching the views of the Telerik .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 0
 slug: aiprompt-tabview-styling
 ---

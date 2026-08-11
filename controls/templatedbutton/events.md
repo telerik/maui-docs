@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI TemplatedButton Documentation - Events
 description: Review TemplatedButton events that are raised when button is pressed, clicked, and released. 
+components: ["templatedbutton"]
 position: 7
 slug: templatedbutton-events
 ---

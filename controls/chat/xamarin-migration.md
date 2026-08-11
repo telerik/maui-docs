@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI Conversational UI Documentation - Migrate from Xamarin
 description: Learn how to migrate from the Xamarin.Forms RadChat to the .NET MAUI Chat control.
+components: ["chat"]
 position: 100
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 previous_url: /controls/chat/migrate-from-xamarin

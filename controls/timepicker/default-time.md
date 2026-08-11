@@ -2,6 +2,7 @@
 title: Default Time
 page_title: .NET MAUI TimePicker Documentation - Default Time
 description: Learn more about the options for setting the default time of the Telerik UI for .NET MAUI TimePicker control.
+components: ["timepicker"]
 position: 2
 previous_url: /controls/timepicker/timepicker-default-time
 slug: timepicker-default-time

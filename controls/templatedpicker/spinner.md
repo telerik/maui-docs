@@ -2,6 +2,7 @@
 title: Spinner
 page_title: .NET MAUI TemplatedPicker Documentation - Spinner
 description: Learn more how to use the Spinner control inside the Telerik UI for .NET MAUI TemplatedPicker control.
+components: ["templatedpicker"]
 position: 8
 previous_url: /controls/templatedpicker/templatedpicker-spinner
 slug: templatedpicker-spinner

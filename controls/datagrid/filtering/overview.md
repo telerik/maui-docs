@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Filtering Overview
 description: Learn how to filter data in the Telerik UI for .NET MAUI DataGrid using the built-in Filtering UI or programmatic filter descriptors.
+components: ["datagrid"]
 position: 0
 previous_url: /controls/datagrid/datagrid-filtering-overview
 slug: datagrid-filtering-overview

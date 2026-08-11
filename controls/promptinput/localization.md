@@ -2,6 +2,7 @@
 title: Localization
 page_title: Telerik .NET MAUI PromptInput Documentation - Localization
 description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI PromptInput control.
+components: ["promptinput"]
 position: 8
 slug: promptinput-localization
 ---

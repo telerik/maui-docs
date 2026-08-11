@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Border Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Border control.
+components: ["border"]
 position: 1
 slug: border-visual-structure
 ---

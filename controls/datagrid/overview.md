@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataGrid Overview
 description: Visualize and edit tabular data in .NET MAUI apps with the Telerik UI DataGrid featuring sorting, filtering, grouping, and editing.
+components: ["datagrid"]
 position: 0
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 previous_url: /controls/datagrid/datagrid-overview

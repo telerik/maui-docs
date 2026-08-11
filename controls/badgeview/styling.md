@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI BadgeView Documentation - Styling
 description: Learn how to style the Telerik UI for .NET MAUI BadgeView control
+components: ["badgeview"]
 position: 8
 slug: badgeview-styling
 ---

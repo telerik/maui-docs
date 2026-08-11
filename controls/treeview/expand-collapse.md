@@ -2,6 +2,7 @@
 title: Expand-Collapse Items
 page_title: .NET MAUI TreeView Documentation - Expand and Collapse Items
 description: Review how to expand and collapse items when working with the TreeView control for .NET MAUI.
+components: ["treeview"]
 position: 2
 slug: treeview-expand-collapse
 ---

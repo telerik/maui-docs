@@ -2,6 +2,7 @@
 title: Attachments
 meta_title: .NET MAUI Conversational UI Documentation - Chat Attachments
 description: Learn more about Attachments item of the RadChart control
+components: ["chat"]
 position: 2
 slug: chat-items-attachments
 ---

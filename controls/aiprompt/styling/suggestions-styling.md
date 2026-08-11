@@ -2,6 +2,7 @@
 title: Suggestions Styling
 page_title: .NET MAUI AIPrompt Documentation - Suggestions Styling
 description: Learn how to style the suggestions shown inside the input view of the Telerik .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 4
 slug: aiprompt-suggestions-styling
 ---

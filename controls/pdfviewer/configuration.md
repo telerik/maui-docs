@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI PDF Viewer Documentation - Configuration
 description: Learn what are the options to configure the Telerik UI PDF Viewer for .NET MAUI.
+components: ["pdfviewer"]
 position: 4
 slug: pdfviewer-configuration
 ---

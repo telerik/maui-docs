@@ -2,6 +2,7 @@
 title: ScatterPoint Series
 page_title: .NET MAUI Chart Documentation - ScatterPoint Series
 description: Learn more about the ScatterPoint series in the Cartesian chart.
+components: ["chart"]
 slug: chart-series-scatter-point-series
 position: 0
 ---

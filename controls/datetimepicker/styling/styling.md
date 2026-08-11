@@ -2,6 +2,7 @@
 title: Picker Styling
 page_title: .NET MAUI DateTimePicker Documentation - Styling
 description: Learn how to style the Telerik UI for .NET MAUI DateTimePicker, including the input area, popup spinners, and date and time toggle buttons.
+components: ["datetimepicker"]
 position: 0
 slug: datetimepicker-styling
 ---

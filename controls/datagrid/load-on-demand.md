@@ -2,6 +2,7 @@
 title: Load On Demand
 page_title: .NET MAUI DataGrid Documentation - Load on Demand
 description: Learn how to load large datasets incrementally in the Telerik UI for .NET MAUI DataGrid to improve performance and save computing resources.
+components: ["datagrid"]
 position: 16
 slug: datagrid-features-loadondemand
 ---

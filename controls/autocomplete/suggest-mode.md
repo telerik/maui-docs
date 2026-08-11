@@ -2,6 +2,7 @@
 title: Suggest Mode
 page_title: .NET MAUI AutoCompleteView Documentation - Suggest Mode
 description: Learn more about suggestions in Telerik UI for .NET MAUI AutoComplete control.
+components: ["autocomplete"]
 position: 4
 slug: autocomplete-suggest-mode
 ---

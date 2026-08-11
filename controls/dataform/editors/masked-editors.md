@@ -2,6 +2,7 @@
 title: Masked Editors
 page_title: .NET MAUI DataForm Documentation - Masked Editors
 description: Learn more about the masked editors that the Telerik UI for .NET MAUI DataForm control provides.
+components: ["dataform"]
 position: 1
 slug: dataform-masked-editors
 ---

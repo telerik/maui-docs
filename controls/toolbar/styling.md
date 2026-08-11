@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Toolbar Documentation - Styling
 description: Review all styling options the Telerik .NET MAUI Toolbar provides.
+components: ["toolbar"]
 position: 14
 slug: toolbar-styling
 ---

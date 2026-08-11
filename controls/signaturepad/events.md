@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI SignaturePad Documentation - Events
 description: Learn about the exposed events in the Telerik UI for .NET MAUI SignaturePad control.
+components: ["signaturepad"]
 position: 9
 tags: sing pad, signature, .net maui, dotnet, sign, signature pad
 slug: signaturepad-events

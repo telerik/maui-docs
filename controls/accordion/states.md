@@ -2,6 +2,7 @@
 title: Expand and Collapse States
 page_title: .NET MAUI Accordion Documentation - Expand and Collapse States
 description: Check our &quot;Expand and Collapse States&quot; documentation article for Telerik .NET MAUI Accordion control.
+components: ["accordion"]
 position: 4
 slug: accordion-expand-collapse-states
 ---

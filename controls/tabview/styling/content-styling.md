@@ -2,6 +2,7 @@
 title: Content Styling
 page_title: .NET MAUI TabView Documentation - Content Styling
 description: Learn how to style the Telerik UI for .NET MAUI TabView Content by setting border thickness, color and corner radius.
+components: ["tabview"]
 slug: tabview-content-styling
 tags: tabview, content, style, maui, dotnet
 position: 4

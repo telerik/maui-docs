@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI ItemsControl Documentation - Overview
 description: Try now the Telerik ItemsControl for .NET MAUI for displaying a list of items and customizing their appearance.
+components: ["itemscontrol"]
 position: 0
 tags: .net maui, itemscontrol, ui for .net maui, .net maui controls, microsoft .net maui
 slug: itemscontrol-overview

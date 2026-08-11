@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI Toolbar Documentation - Commands
 description: Review all available commands for navigation and scrolling through the Telerik .NET MAUI Toolbar.
+components: ["toolbar"]
 position: 10
 slug: toolbar-commands
 ---

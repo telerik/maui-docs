@@ -2,6 +2,7 @@
 title: Navigation
 page_title: .NET MAUI Calendar Documentation - Navigation
 description: Learn how to use the navigation options that Telerik UI Calendar for .NET MAUI control provides.
+components: ["calendar"]
 position: 7
 slug: calendar-navigation
 ---

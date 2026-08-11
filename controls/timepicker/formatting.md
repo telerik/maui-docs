@@ -2,6 +2,7 @@
 title: Formatting
 page_title: .NET MAUI TimePicker Documentation - Time Format Strings
 description: Learn more about the time formatting that the Telerik UI for .NET MAUI TimePicker provides.
+components: ["timepicker"]
 position: 2
 previous_url: /controls/timepicker/timepicker-formatting
 slug: timepicker-formatting

@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI Calendar Documentation - Commands
 description: Review all available commands for navigation to the upper - lower view and next - previous month, year, century, decade that Calendar for .NET MAUI provides.
+components: ["calendar"]
 position: 12
 slug: calendar-commands
 ---

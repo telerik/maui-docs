@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI BottomSheet Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI BottomSheet control and learn how to add the control to your .NET MAUI application.
+components: ["bottomsheet"]
 position: 2
 slug: bottomsheet-getting-started
 ---

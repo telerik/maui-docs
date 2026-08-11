@@ -2,6 +2,7 @@
 title: Animations
 page_title: .NET MAUI ProgressBar Documentation - Animations
 description: Learn more about the animations in the Telerik UI for .NET MAUI ProgressBar control.
+components: ["progressbar"]
 position: 6
 slug: progressbar-animations
 ---

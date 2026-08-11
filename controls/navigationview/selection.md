@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI NavigationView Documentation - Selection
 description: Learn how to define the selection in the .NET MAUI NavigationView control.
+components: ["navigationview"]
 position: 7
 slug: navigationview-selection
 ---

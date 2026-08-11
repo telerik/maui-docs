@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TabView Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI TabView control that allows you to build tabbed interfaces.
+components: ["tabview"]
 slug: tabview-overview
 tags: tabview, overview
 position: 0

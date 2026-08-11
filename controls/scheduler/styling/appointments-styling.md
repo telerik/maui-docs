@@ -2,6 +2,7 @@
 title: Appointments Styling
 page_title: .NET MAUI Scheduler Documentation - Appointments Styling
 description: Learn how to style the appointments in the Telerik .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 6
 slug: scheduler-appointments-styling
 ---

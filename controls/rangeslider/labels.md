@@ -2,6 +2,7 @@
 title: Labels
 page_title: .NET MAUI RangeSlider Documentation - Labels
 description: Learn how to use the labels that Telerik UI RangeSlider for .NET MAUI control provides.
+components: ["rangeslider"]
 position: 7
 slug: rangeslider-labels
 ---

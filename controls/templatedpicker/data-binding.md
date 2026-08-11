@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI TemplatedPicker Documentation - Data Binding
 description: Learn more how to customize the Telerik UI for .NET MAUI TemplatedPicker control.
+components: ["templatedpicker"]
 position: 2
 previous_url: /controls/templatedpicker/templatedpicker-data-binding
 slug: templatedpicker-data-binding

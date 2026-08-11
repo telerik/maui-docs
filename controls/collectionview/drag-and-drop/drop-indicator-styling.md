@@ -2,6 +2,7 @@
 title: Drop Indicator Styling
 page_title: .NET MAUI CollectionView Documentation - Drop Indicator Styling
 description: Review the Telerik UI for .NET MAUI CollectionView Drop Indicator Styling.
+components: ["collectionview"]
 position: 4
 slug: collectionview-drop-indicator-styling
 tags: reorder, collectionview, drag-drop, indicator, styling

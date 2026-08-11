@@ -2,6 +2,7 @@
 title: Custom Editors
 page_title: .NET MAUI DataForm Documentation - Custom Editors
 description: Learn more about the custom editors that the Telerik UI for .NET MAUI DataForm control provides.
+components: ["dataform"]
 position: 5
 slug: dataform-custom-editor
 ---

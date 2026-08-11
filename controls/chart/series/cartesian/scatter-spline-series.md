@@ -2,6 +2,7 @@
 title: ScatterSpline Series
 page_title: .NET MAUI Chart Documentation - ScatterSpline Series
 description: Learn more about the ScatterSpline series in the Cartesian chart.
+components: ["chart"]
 slug: chart-series-scatter-spline-series
 position: 0
 ---

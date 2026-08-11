@@ -2,6 +2,7 @@
 title: Binding to DataTable
 page_title: .NET MAUI TreeDataGrid Documentation - DataTable Support
 description: Learn how to bind the TreeDataGrid to a DataTable and enable filtering, sorting, CRUD operations, and commands.
+components: ["treedatagrid"]
 position: 3
 tags: binding, datatable, data, dotnet maui, maui, datagrid
 slug: treedatagrid-datatable-support

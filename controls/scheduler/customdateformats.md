@@ -2,6 +2,7 @@
 title: Custom Date Formats
 page_title: .NET MAUI Scheduler Documentation - Custom Date Formats
 description: Learn more about the custom date formats feature in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 11
 slug: scheduler-custom-date-formats
 ---

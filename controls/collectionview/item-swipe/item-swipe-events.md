@@ -2,6 +2,7 @@
 title: Item Swipe Events
 page_title: .NET MAUI CollectionView Documentation - Item Swipe Events
 description: Review the Telerik UI for .NET MAUI CollectionView Item Swipe Events.
+components: ["collectionview"]
 position: 1
 slug: collectionview-item-swipe-events
 tags: item-swipe, collectionview, swiping, events

@@ -3,6 +3,7 @@ title: Overview
 page_title: .NET MAUI Chart Documentation - Axes Overview
 position: 1
 description: Check our &quot;Overview&quot; documentation article for Telerik Chart for .NET MAUI.
+components: ["chart"]
 previous_url: /controls/chart/axes/axes-overview
 slug: axes-overview
 ---

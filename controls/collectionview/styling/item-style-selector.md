@@ -2,6 +2,7 @@
 title: ItemStyle Selector
 page_title: .NET MAUI CollectionView Documentation - ItemStyle Selector
 description: The CollectionView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
+components: ["collectionview"]
 position: 1
 slug: collectionview-itemstyle-selector
 ---

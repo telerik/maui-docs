@@ -2,6 +2,7 @@
 title: Item Style
 page_title: .NET MAUI TreeView Documentation - Item Style
 description: The TreeView for .NET MAUI allows you to easily style its checkboxes, expand indicator, and items by using the provided properties.
+components: ["treeview"]
 position: 1
 slug: treeview-item-style
 ---

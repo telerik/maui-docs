@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the BusyIndicator from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin BusyIndicator to the Telerik UI for .NET MAUI BusyIndicator by updating the namespaces, the incompatible NuGet packages and API.
+components: ["busyindicator"]
 tags: maui, dotnet maui, telerik maui, migration, xamarin.forms
 position: 100
 slug: busyindicator-xamarin-migration

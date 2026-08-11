@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Rating Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Rating control.
+components: ["rating"]
 position: 1
 slug: rating-visual-structure
 ---

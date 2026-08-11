@@ -2,6 +2,7 @@
 title: ScrollBar Template
 page_title: .NET MAUI TreeView Documentation - ScrollBar Template
 description: Learn more about the available templates for customizing the ScrollBar of the .NET MAUI TreeView control.
+components: ["treeview"]
 position: 3
 slug: treeview-scrollbar-template
 ---

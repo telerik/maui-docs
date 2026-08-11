@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI ComboBox Documentation - Localization
 description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 13
 tags: maui localization, maui, localization, dotnet maui
 slug: combobox-localization

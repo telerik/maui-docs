@@ -2,6 +2,7 @@
 title: ItemStyle Selector
 page_title: .NET MAUI TreeView Documentation - ItemStyle Selector
 description: The TreeView exposes a conditional styling feature that allows you to apply different styles to each item depending on a specific condition.
+components: ["treeview"]
 position: 2
 slug: treeview-itemstyle-selector
 ---

@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Entry Documentation - Styling
 description: Learn how to use the border styles and the font styling options of the Telerik UI for .NET MAUI Entry control.
+components: ["entry"]
 position: 6
 previous_url: /controls/entry/entry-styling
 slug: entry-styling

@@ -2,6 +2,7 @@
 title: Validation
 page_title: .NET MAUI Editor Documentation - Validation
 description: Learn what are the validation options available in the Telerik UI for .NET MAUI Editor control.
+components: ["editor"]
 position: 4
 slug: editor-validation
 ---

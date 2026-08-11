@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI PDF Viewer Documentation - Styling
 description: Learn more about the styling options for the search toolbar items.
+components: ["pdfviewer"]
 position: 6
 slug: pdfviewer-search-styling
 ---
