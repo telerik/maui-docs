@@ -17,18 +17,25 @@ The Telerik UI for .NET MAUI Cartesian Chart (`RadCartesianChart`) visualizes da
 
 The Cartesian Chart plots data through the following series:
 
-* [`BarSeries`]({% slug charts-cartesian-bar-series %})&mdash;Represents each data point as a bar.
-* [`LineSeries`]({% slug charts-cartesian-line-series %})&mdash;Connects the data points with straight line segments.
-* [`AreaSeries`]({% slug charts-cartesian-area-series %})&mdash;Fills the area between the line that connects the data points and the axis.
-* [`PointSeries`]({% slug charts-cartesian-point-series %})&mdash;Represents each data point as a symbol positioned by two numerical values.
+| Series | Description |
+| --- | --- |
+| [`BarSeries`]({% slug charts-cartesian-bar-series %}) | Represents each data point as a bar. |
+| [`LineSeries`]({% slug charts-cartesian-line-series %}) | Connects the data points with straight line segments. |
+| [`AreaSeries`]({% slug charts-cartesian-area-series %}) | Fills the area between the line that connects the data points and the axis. |
+| [`PointSeries`]({% slug charts-cartesian-point-series %}) | Represents each data point as a symbol positioned by two numerical values. |
 
 ## Axes
 
-The CartesianChart requires three axes to position the data points. It supports the [Categorical Axis]({% slug charts-cartesian-categorical-axis %}), the [Numerical Axis]({% slug charts-cartesian-numerical-axis %}), and the [Date-Time Axis]({% slug charts-cartesian-datetime-axis %}).
+You can use the following axes to position the data points in a CartesianChart. 
+
+| Axis | Description |
+| --- | --- |
+| [Categorical Axis]({% slug charts-cartesian-categorical-axis %}) | Arranges the data points in discrete categories&mdash;for example, product names or months. |
+| [Numerical Axis]({% slug charts-cartesian-numerical-axis %}) | Positions the data points depending on their numeric value over a continuous range. |
+| [Date-Time Axis]({% slug charts-cartesian-datetime-axis %}) | Positions the data points on a time line based on their `System.DateTime` value. |
 
 ## Key Features
 
-* Axes&mdash;Configure the [Categorical]({% slug charts-cartesian-categorical-axis %}), [Numerical]({% slug charts-cartesian-numerical-axis %}), and [Date-Time]({% slug charts-cartesian-datetime-axis %}) axes with a range, ticks, and labels.
 * [Grid Lines]({% slug charts-cartesian-grid-lines %})&mdash;Display horizontal and vertical grid lines.
 * [Data Point Labels]({% slug charts-cartesian-data-point-labels %})&mdash;Show labels for the data points of a series.
 * [Multiple Series]({% slug charts-cartesian-multiple-series %})&mdash;Combine several series in a single chart.

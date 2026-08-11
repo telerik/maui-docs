@@ -84,16 +84,25 @@ meta:
   controls/timespanpicker/styling:
     title: Styling
     position: 20
+  controls/timespanpicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/timespanpicker:
     title: TimeSpanPicker
   controls/timepicker/styling:
     title: Styling
     position: 20
+  controls/timepicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/timepicker:
     title: TimePicker
   controls/templatedpicker/styling:
     title: Styling
     position: 20
+  controls/templatedpicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/templatedpicker:
     title: TemplatedPicker
   controls/templatedbutton/accessibility:
@@ -103,6 +112,9 @@ meta:
     title: TemplatedButton
   controls/tabview/styling:
     title: Styling
+    position: 10
+  controls/tabview/accessibility:
+    title: Accessibility
     position: 10
   controls/tabview:
     title: TabView
@@ -220,6 +232,9 @@ meta:
   controls/listpicker/styling:
     title: Styling
     position: 20
+  controls/listpicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/listpicker:
     title: ListPicker
   controls/itemscontrol:
@@ -249,11 +264,17 @@ meta:
   controls/datetimepicker/styling:
     title: Styling
     position: 20
+  controls/datetimepicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/datetimepicker:
     title: DateTimePicker
   controls/datepicker/styling:
     title: Styling
     position: 20
+  controls/datepicker/accessibility:
+    title: Accessibility
+    position: 15
   controls/datepicker:
     title: DatePicker
   controls/datapager/styling:
@@ -374,8 +395,17 @@ meta:
     position: 3
   controls/chat:
     title: Conversational UI (Chat)
+  controls/charts/pie-chart/series:
+    title: Series
+    position: 3
   controls/charts/pie-chart:
     title: PieChart
+    position: 2
+  controls/charts/cartesian-chart/series:
+    title: Series
+    position: 3
+  controls/charts/cartesian-chart/axes:
+    title: Axes
     position: 2
   controls/charts/cartesian-chart:
     title: CartesianChart

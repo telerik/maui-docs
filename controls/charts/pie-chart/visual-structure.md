@@ -13,12 +13,14 @@ The visual structure of the .NET MAUI PieChart represents the anatomy of the con
 
 The following image shows the anatomy of the PieChart.
 
+![PieChart Visual Structure](images/pie-chart-visual-structure.png)
+
 ## Displayed Elements
 
-- **Slices**&mdash;The arc segments that represent the data points. The size of each slice is proportional to the value of the data point.
-- **Series**&mdash;The visual representation of the data. The PieChart plots a `PieSeries` or a `DonutSeries`.
-- **Inner radius**&mdash;The hollow center of a `DonutSeries`, controlled by the `InnerRadiusFactor` property.
-- **Labels**&mdash;The text that annotates each slice, positioned through the `LabelOffsetFraction` property.
+- **Pie Series**&mdash;The arc segments that represent the data points. The size of each slice is proportional to the value of the data point.
+- **Donut Series**&mdash;The arc segments that represent the data points. The size of each slice is proportional to the value of the data point.
+- **Inner Radius**&mdash;The hollow center of a `DonutSeries`, controlled by the `InnerRadiusFactor` property.
+- **Series Labels**&mdash;The text that annotates each slice, positioned through the `LabelOffsetFraction` property.
 
 ## See Also
 
