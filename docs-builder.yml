@@ -351,10 +351,10 @@ meta:
   controls/collectionview:
     title: CollectionView
   controls/circularslider/styling:
-        title: "Styling"
-        position: 12
+    title: "Styling"
+    position: 12
   controls/circularslider:
-        title: "CircularSlider"
+    title: "CircularSlider"
   controls/checkbox:
     title: CheckBox
   controls/chat/templates:
@@ -374,6 +374,14 @@ meta:
     position: 3
   controls/chat:
     title: Conversational UI (Chat)
+  controls/charts/pie-chart:
+    title: PieChart
+    position: 2
+  controls/charts/cartesian-chart:
+    title: CartesianChart
+    position: 1
+  controls/charts:
+    title: Charts (Preview)
   controls/chart/series/financial:
     title: Financial Series
     position: 4
