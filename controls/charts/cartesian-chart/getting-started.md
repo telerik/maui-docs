@@ -65,7 +65,6 @@ The `BarSeries` binds to a collection of items through its `ItemsSource` propert
 
 ## Additional Resources
 
-- [.NET MAUI CartesianChart Series]({% slug charts-cartesian-series %})
 - [.NET MAUI CartesianChart Categorical Axis]({% slug charts-cartesian-categorical-axis %})
 - [.NET MAUI CartesianChart Numerical Axis]({% slug charts-cartesian-numerical-axis %})
 - [.NET MAUI CartesianChart Date-Time Axis]({% slug charts-cartesian-datetime-axis %})
@@ -74,6 +73,5 @@ The `BarSeries` binds to a collection of items through its `ItemsSource` propert
 
 ## See Also
 
-- [CartesianChart Series]({% slug charts-cartesian-series %})
 - [Categorical Axis]({% slug charts-cartesian-categorical-axis %})
 - [CartesianChart Visual Structure]({% slug charts-cartesian-visual-structure %})

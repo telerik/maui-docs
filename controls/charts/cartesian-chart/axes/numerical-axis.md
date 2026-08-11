@@ -56,6 +56,4 @@ The following example shows how to define a `NumericalAxis` with an explicit ran
 ## See Also
 
 - [Categorical Axis]({% slug charts-cartesian-categorical-axis %})
-- [Date-Time Axis]({% slug charts-cartesian-datetime-axis %})
-- [Cartesian Chart Series]({% slug charts-cartesian-series %})
 - [Grid Lines]({% slug charts-cartesian-grid-lines %})

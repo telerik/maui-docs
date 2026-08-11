@@ -60,6 +60,4 @@ The following example shows how to define a `DateTimeAxis` with a custom step an
 ## See Also
 
 - [Categorical Axis]({% slug charts-cartesian-categorical-axis %})
-- [Numerical Axis]({% slug charts-cartesian-numerical-axis %})
-- [Cartesian Chart Series]({% slug charts-cartesian-series %})
 - [Grid Lines]({% slug charts-cartesian-grid-lines %})

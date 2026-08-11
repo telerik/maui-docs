@@ -24,7 +24,7 @@ The Charts consist of the following controls:
 
 Each chart control renders a different set of series:
 
-* **CartesianChart series**&mdash;`BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`. For details, see the [Cartesian Chart Series]({% slug charts-cartesian-series %}) article.
+* **CartesianChart series**&mdash;`BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
 * **PieChart series**&mdash;`PieSeries` and `DonutSeries`. For details, see the [Pie Chart Series]({% slug charts-pie-series %}) article.
 
 ## Next Steps

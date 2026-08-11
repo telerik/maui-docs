@@ -22,8 +22,6 @@ The Cartesian Chart plots data through the following series:
 * [`AreaSeries`]({% slug charts-cartesian-area-series %})&mdash;Fills the area between the line that connects the data points and the axis.
 * [`PointSeries`]({% slug charts-cartesian-point-series %})&mdash;Represents each data point as a symbol positioned by two numerical values.
 
-For details, see the [CartesianChart Series]({% slug charts-cartesian-series %}) article.
-
 ## Axes
 
 The CartesianChart requires three axes to position the data points. It supports the [Categorical Axis]({% slug charts-cartesian-categorical-axis %}), the [Numerical Axis]({% slug charts-cartesian-numerical-axis %}), and the [Date-Time Axis]({% slug charts-cartesian-datetime-axis %}).

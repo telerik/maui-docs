@@ -75,6 +75,5 @@ This is the result:
 
 ## See Also
 
-- [CartesianChart Series]({% slug charts-cartesian-series %})
 - [Plot Areas]({% slug charts-cartesian-plot-areas %})
 - [Palette]({% slug charts-cartesian-palette %})
