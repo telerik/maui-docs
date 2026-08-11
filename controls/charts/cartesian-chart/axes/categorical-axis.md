@@ -50,6 +50,4 @@ The following example shows how to configure a `CategoricalAxis` as the horizont
 ## See Also
 
 - [Numerical Axis]({% slug charts-cartesian-numerical-axis %})
-- [Date-Time Axis]({% slug charts-cartesian-datetime-axis %})
-- [Cartesian Chart Series]({% slug charts-cartesian-series %})
 - [Grid Lines]({% slug charts-cartesian-grid-lines %})

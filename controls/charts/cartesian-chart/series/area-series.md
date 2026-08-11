@@ -47,7 +47,6 @@ This is the result:
 
 ## See Also
 
-- [Series Overview]({% slug charts-cartesian-series %})
 - [BarSeries]({% slug charts-cartesian-bar-series %})
 - [LineSeries]({% slug charts-cartesian-line-series %})
 - [PointSeries]({% slug charts-cartesian-point-series %})
