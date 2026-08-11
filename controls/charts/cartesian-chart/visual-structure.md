@@ -13,17 +13,18 @@ The visual structure of the .NET MAUI CartesianChart represents the anatomy of t
 
 The following image shows the anatomy of the CartesianChart.
 
+![CartesianChart Visual Structure](images/cartesian-chart-visual-structure.png)
 
 ## Displayed Elements
 
-- **Plot area**&mdash;The area where the series render the data points.
-- **Series**&mdash;The visual representation of the data. The CartesianChart plots `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
-- **Horizontal axis**&mdash;The axis positioned along the horizontal direction. It is typically a `CategoricalAxis`, a `NumericalAxis`, or a `DateTimeAxis`.
-- **Vertical axis**&mdash;The axis positioned along the vertical direction. It is typically a `NumericalAxis`.
-- **Axis labels**&mdash;The text that annotates the ticks of an axis.
-- **Axis ticks**&mdash;The marks that indicate the values along an axis.
-- **Grid lines**&mdash;The optional horizontal and vertical lines rendered across the plot area.
-- **Data point labels**&mdash;The optional labels that annotate the individual data points of a series.
+- **Plot Area**&mdash;The area where the series render the data points, axis labels, and series.
+- **Bar Series**&mdash;The visual representation of the data. The CartesianChart plots `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
+- **Horizontal Axis**&mdash;The axis positioned along the horizontal direction. It is typically a `CategoricalAxis`, a `NumericalAxis`, or a `DateTimeAxis`.
+- **Vertical Axis**&mdash;The axis positioned along the vertical direction. It is typically a `NumericalAxis`.
+- **Axis Label**&mdash;The text that annotates the ticks of an axis.
+- **Axis Tick**&mdash;The marks that indicate the values along an axis.
+- **Grid Lines**&mdash;The optional horizontal and vertical lines rendered across the plot area.
+- **Series Label**&mdash;The optional labels that annotate the individual data points of a series.
 
 ## See Also
 

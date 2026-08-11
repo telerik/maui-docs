@@ -20,13 +20,6 @@ The Charts consist of the following controls:
 * [CartesianChart]({% slug charts-cartesian-overview %})&mdash;Plots data in a Cartesian coordinate system defined by horizontal and vertical axes. It renders `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`, and supports categorical, numerical, and date-time axes.
 * [PieChart]({% slug charts-pie-overview %})&mdash;Plots data as proportional slices of a circle. It renders `PieSeries` and `DonutSeries` and does not use axes.
 
-## Series
-
-Each chart control renders a different set of series:
-
-* **CartesianChart series**&mdash;`BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
-* **PieChart series**&mdash;`PieSeries` and `DonutSeries`. For details, see the [Pie Chart Series]({% slug charts-pie-series %}) article.
-
 ## Next Steps
 
 - [Getting Started with the .NET MAUI Cartesian Chart]({% slug charts-cartesian-getting-started %})

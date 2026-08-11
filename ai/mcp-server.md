@@ -30,9 +30,7 @@ To use the Telerik MAUI MCP server, you need:
 
 Choose the runtime that best matches your development environment:
 
-Install the server package by using one of the following options:
-
-- By using the `dnx` script or the `dotnet` CLI:
+Install the server package by using the `dnx` script or the `dotnet` CLI:
 
   ```bash .NET 10
   dnx Telerik.MAUI.MCP
@@ -41,25 +39,19 @@ Install the server package by using one of the following options:
   dotnet tool install Telerik.MAUI.MCP
   ```
 
-- By using npm:
-
-  ```bash
-  npm i @progress/telerik-maui-mcp
-  ```
-
 After the package is available, configure `mcp.json`, add your Telerik license if needed, restart your MCP client, and then verify that the server is running.
 
 ### Configuring mcp.json
 
 Use the following values in the [`mcp.json` file](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) of your editor. The exact wrapper differs by client, but the `command`, `args`, and server name stay the same.
 
-| Setting Name | .NET 10 Value | .NET 9 Value | Node.js Value |
-|---------|---------------|-----------------------|---------------|
-| Package Name | `"Telerik.MAUI.MCP"` | `"Telerik.MAUI.MCP"` | `"@progress/telerik-maui-mcp"` |
-| Type | `"stdio"` | `"stdio"` | `"stdio"` |
-| Command | `"dnx"` | `"dotnet"` | `"npx"` |
-| Arguments | `"Telerik.MAUI.MCP", "--yes"` | `"tool", "run", "telerik-maui-assistant"` | `"-y"` |
-| Server Name | `"telerik-maui-assistant"` | `"telerik-maui-assistant"` | `"telerik-maui-assistant"` |
+| Setting Name | .NET 10 Value | .NET 9 Value |
+|---------|---------------|-----------------------|
+| Package Name | `"Telerik.MAUI.MCP"` | `"Telerik.MAUI.MCP"` |
+| Type | `"stdio"` | `"stdio"` |
+| Command | `"dnx"` | `"dotnet"` |
+| Arguments | `"Telerik.MAUI.MCP", "--yes"` | `"tool", "run", "telerik-maui-assistant"` |
+| Server Name | `"telerik-maui-assistant"` | `"telerik-maui-assistant"` |
 
 ### Configuring Your License
 
@@ -127,23 +119,6 @@ Use the following client-specific examples to create a working `mcp.json` file. 
     }
     ```
 
-    ```json Node.js
-    {
-      "servers": {
-        "telerik-maui-assistant": {
-          "type": "stdio",
-          "command": "npx",
-          "args": ["-y", "@progress/telerik-maui-mcp@latest"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-                    // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
-        }
-      }
-    }
-    ```
-
 2. Restart Visual Studio.
 3. Enable the Telerik MAUI MCP server in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
@@ -175,22 +150,6 @@ The basic setup in Visual Studio Code involves the following steps:
           "type": "stdio",
           "command": "dotnet",
           "args": ["tool", "run", "telerik-maui-assistant"]
-        }
-      }
-    }
-    ```
-    ```json Node.js
-    {
-      "servers": {
-        "telerik-maui-assistant": {
-          "type": "stdio",
-          "command": "npx",
-          "args": ["-y", "@progress/telerik-maui-mcp@latest"],
-          "env": {
-            "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE"
-            // or
-            "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-          }
         }
       }
     }
@@ -232,23 +191,6 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
       "type": "stdio",
       "command": "dotnet",
       "args": ["tool", "run", "telerik-maui-assistant"]
-    }
-  }
-}
-```
-
-```json Node.js
-{
-  "mcpServers": {
-    "telerik-maui-assistant": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@progress/telerik-maui-mcp@latest"],
-      "env": {
-        "TELERIK_LICENSE_PATH": "THE_PATH_TO_YOUR_LICENSE_FILE",
-                // or
-        "TELERIK_LICENSE": "YOUR_LICENSE_KEY"
-      }
     }
   }
 }
