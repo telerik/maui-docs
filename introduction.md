@@ -46,6 +46,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
         </IntroTableSection>
         <IntroTableSection title="Data Visualization">
             <IntroTableAnchor title="Barcodes" href="slug:barcode-overview"></IntroTableAnchor>
+            <IntroTableAnchor title="Charts (Preview)" href="slug:charts-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Charts" href="slug:chart-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Gauges" href="slug:gauge-overview" tag="updated"></IntroTableAnchor>
             <IntroTableAnchor title="Map" href="slug:map-overview"></IntroTableAnchor>
