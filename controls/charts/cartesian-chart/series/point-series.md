@@ -11,22 +11,45 @@ slug: charts-cartesian-point-series
 
 The `PointSeries` represents each data point as a symbol positioned by two numerical values. It requires two `NumericalAxis` instances.
 
-## Features
+## Data Binding
 
-The Point Series binds to data through the [common series properties]({% slug charts-cartesian-series %}) (`ItemsSource`, `HorizontalBinding`, and `VerticalBinding`).
+The `PointSeries` binds to data through the following properties:
 
-## Configuration and Styling
+* `ItemsSource` (`IEnumerable`)&mdash;Defines the collection of data items that the series plots.
+* `HorizontalBinding` (`string`)&mdash;Defines the name of the data-item member that provides the value of each point and this value is plotted along the horizontal axis.
+* `VerticalBinding` (`string`)&mdash;Defines the name of the data-item member that provides the value of each point and this value is plotted along the vertical axis.
+* `VerticalAxis` (`Telerik.Maui.Controls.Charts.ChartAxis`)&mdash;Defines the vertical axis for the series which values resolved from the `VerticalBinding` property are plotted against.
+* `HorizontalAxis` (`Telerik.Maui.Controls.Charts.ChartAxis`)&mdash;Defines the horizontal axis for the series which values resolved from the `HorizontalBinding` property are plotted against.
 
-Use the `PointSize` property to control the size of the symbols.
+## Point Customization
+
+Use the following properties to customize the appearance of the points:
+
+* `Fill` (`Brush`)&mdash;Defines the fill of the points.
+* `PointSize` (`double`)&mdash;Defines the size of the points.
+* `Stroke` (`Brush`)&mdash;Defines the brush to paint the stroke of the points.
+* `StrokeThickness` (`double`)&mdash;Defines the thickness of the points stroke.
+
+## Labels Customization
+
+Use the following properties to configure the labels visualized for each data point:
+
+* `ShowLabels` (`bool`)&mdash;Defines whether the axis labels will be displayed.
+* `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the points.
+* `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
 <snippet id='chart-cartesian-point-series-xaml' />
 
-![.NET MAUI Cartesian Chart Point Series](../images/charts-cartesian-point-series.png)
+This is the result:
+
+![.NET MAUI Cartesian Chart PointSeries](../images/charts-cartesian-point-series.png)
+
+> For a runnable example with the Cartesian Chart point series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
 
 ## See Also
 
 - [Series Overview]({% slug charts-cartesian-series %})
-- [Bar Series]({% slug charts-cartesian-bar-series %})
-- [Line Series]({% slug charts-cartesian-line-series %})
-- [Area Series]({% slug charts-cartesian-area-series %})
+- [BarSeries]({% slug charts-cartesian-bar-series %})
+- [LineSeries]({% slug charts-cartesian-line-series %})
+- [AreaSeries]({% slug charts-cartesian-area-series %})
 - [Categorical Axis]({% slug charts-cartesian-categorical-axis %})

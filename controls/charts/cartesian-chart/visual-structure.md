@@ -1,24 +1,23 @@
 ---
 title: Visual Structure
-page_title: .NET MAUI Cartesian Chart Documentation - Visual Structure
-description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI Cartesian Chart and how these elements build the visual structure of the control.
+page_title: .NET MAUI CartesianChart Documentation - Visual Structure
+description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI CartesianChart and how these elements build the visual structure of the control.
 tags: charts, cartesian chart, visual structure, .net maui, ui for .net maui
 position: 1
 slug: charts-cartesian-visual-structure
 ---
 
-# .NET MAUI Cartesian Chart Visual Structure
+# .NET MAUI CartesianChart Visual Structure
 
-The visual structure of the .NET MAUI Cartesian Chart represents the anatomy of the control. Being familiar with the visual elements of the Cartesian Chart allows you to quickly find the information required to configure them.
+The visual structure of the .NET MAUI CartesianChart represents the anatomy of the control. Being familiar with the visual elements of the CartesianChart allows you to quickly find the information required to configure them.
 
-The following image shows the anatomy of the Cartesian Chart.
+The following image shows the anatomy of the CartesianChart.
 
-![.NET MAUI Cartesian Chart Visual Structure](images/charts-cartesian-visual-structure.png "Visual elements of the Cartesian Chart control")
 
 ## Displayed Elements
 
 - **Plot area**&mdash;The area where the series render the data points.
-- **Series**&mdash;The visual representation of the data. The Cartesian Chart plots `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
+- **Series**&mdash;The visual representation of the data. The CartesianChart plots `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`.
 - **Horizontal axis**&mdash;The axis positioned along the horizontal direction. It is typically a `CategoricalAxis`, a `NumericalAxis`, or a `DateTimeAxis`.
 - **Vertical axis**&mdash;The axis positioned along the vertical direction. It is typically a `NumericalAxis`.
 - **Axis labels**&mdash;The text that annotates the ticks of an axis.
@@ -28,7 +27,7 @@ The following image shows the anatomy of the Cartesian Chart.
 
 ## See Also
 
-- [Getting Started with the .NET MAUI Cartesian Chart]({% slug charts-cartesian-getting-started %})
+- [Getting Started with the .NET MAUI CartesianChart]({% slug charts-cartesian-getting-started %})
 - [.NET MAUI Charts Product Page](https://www.telerik.com/maui-ui/charts)
 - [.NET MAUI Charts Forum Page](https://www.telerik.com/forums/maui)
 - [Telerik .NET MAUI Blogs](https://www.telerik.com/blogs/mobile-net-maui)

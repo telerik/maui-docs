@@ -11,9 +11,9 @@ slug: charts-donut-series
 
 The Telerik UI for .NET MAUI PieChart exposes a donut series. The donut series is used to visualize data in a circular graph, where each slice represents a proportion of the whole. The donut series is similar to the pie series, but it has a hole in the center, which can be used to display additional information or to create a more visually appealing chart.
 
-Donut series bind to a data collection through the `ItemsSource` property and map the data to the slices through the `ValueBinding` and `LabelBinding` properties.
-
 ## Data Binding
+
+The donut series binds to data through the following properties:
 
 * `ItemsSource` (`IEnumerable`)&mdash;Defines the collection of data items that the series plots.
 * `ValueBinding` (`string`)&mdash;Defines the name of the data-item member that provides the value of each slice.
@@ -53,7 +53,7 @@ This is the result:
 
 This is the result:
 
-![.NET MAUI PieChart Donut Series](images/charts-pie-donut-series.png)
+![.NET MAUI PieChart Donut Series](../images/charts-pie-donut-series.png)
 
 > For runnable examples with the PieChart donut series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
 

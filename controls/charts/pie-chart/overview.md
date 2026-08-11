@@ -1,17 +1,17 @@
 ---
 title: Overview
-page_title: .NET MAUI Pie Chart Documentation - Overview
-description: Explore the Telerik UI for .NET MAUI Pie Chart that plots data as proportional slices by using pie and donut series.
+page_title: .NET MAUI PieChart Documentation - Overview
+description: Explore the Telerik UI for .NET MAUI PieChart that plots data as proportional slices by using pie and donut series.
 tags: charts, pie chart, .net maui, ui for .net maui
 position: 0
 slug: charts-pie-overview
 ---
 
-# .NET MAUI Pie Chart Overview
+# .NET MAUI PieChart Overview
 
-The Telerik UI for .NET MAUI Pie Chart (`RadPieChart`) visualizes data by using a discrete polar coordinate system. Each data point is represented as a slice, and the size of the slice represents the value of the point as a percentage of the total sum. The PieChart does not use axes.
+The Telerik UI for .NET MAUI PieChart (`RadPieChart`) visualizes data by using a discrete polar coordinate system. Each data point is represented as a slice, and the size of the slice represents the value of the point as a percentage of the total sum. The PieChart does not use axes.
 
-![.NET MAUI Pie Chart Overview](images/charts-pie-overview.png)
+![.NET MAUI PieChart Overview](images/charts-pie-overview.png)
 
 ## Series
 

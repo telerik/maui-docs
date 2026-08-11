@@ -11,9 +11,9 @@ slug: charts-pie-series
 
 The Telerik UI for .NET MAUI PieChart exposes a pie series. The pie series is used to visualize data in a circular graph, where each slice represents a proportion of the whole. 
 
-Pie series bind to a data collection through the `ItemsSource` property and map the data to the slices through the `ValueBinding` and `LabelBinding` properties.
-
 ## Data Binding
+
+The pie series binds to data through the following properties:
 
 * `ItemsSource` (`IEnumerable`)&mdash;Defines the collection of data items that the series plots.
 * `ValueBinding` (`string`)&mdash;Defines the name of the data-item member that provides the value of each slice.
@@ -59,7 +59,7 @@ This is the result:
 
 This is the result:
 
-![.NET MAUI Pie Chart Pie Series](images/charts-pie-series.png)
+![.NET MAUI Pie Chart Pie Series](../images/charts-pie-series.png)
 
 > For runnable examples with the PieChart pie series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
 

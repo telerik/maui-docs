@@ -51,5 +51,5 @@ This is the result:
 
 ## See Also
 
-- [Cartesian Chart Series]({% slug charts-cartesian-series %})
+- [CartesianChart Series]({% slug charts-cartesian-series %})
 - [Grid Lines]({% slug charts-cartesian-grid-lines %})

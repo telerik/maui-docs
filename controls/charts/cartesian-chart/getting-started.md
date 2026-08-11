@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for [
 
 At the end, you will be able to achieve the following result.
 
-![.NET MAUI Cartesian Chart Default Look](images/charts-cartesian-getting-started.png)
+![.NET MAUI CartesianChart Default Look](images/charts-cartesian-getting-started.png)
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ Before adding the CartesianChart, you need to:
 
 The `BarSeries` binds to a collection of items through its `ItemsSource` property, while the `HorizontalBinding` and `VerticalBinding` properties define which data-item members supply the category and the value of each data point.
 
-> For a runnable example with the Cartesian Chart Getting Started scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Getting Started** category.
+> For a runnable example with the CartesianChart Getting Started scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Getting Started** category.
 
 ## Additional Resources
 

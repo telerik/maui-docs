@@ -1,17 +1,17 @@
 ---
 title: Overview
-page_title: .NET MAUI Cartesian Chart Documentation - Overview
-description: Explore the Telerik UI for .NET MAUI Cartesian Chart that plots data in a Cartesian coordinate system by using bar, line, area, and point series.
+page_title: .NET MAUI CartesianChart Documentation - Overview
+description: Explore the Telerik UI for .NET MAUI CartesianChart that plots data in a Cartesian coordinate system by using bar, line, area, and point series.
 tags: charts, cartesian chart, .net maui, ui for .net maui
 position: 0
 slug: charts-cartesian-overview
 ---
 
-# .NET MAUI Cartesian Chart Overview
+# .NET MAUI CartesianChart Overview
 
 The Telerik UI for .NET MAUI Cartesian Chart (`RadCartesianChart`) visualizes data in a Cartesian coordinate system. The horizontal and vertical axes define how the coordinates of each data point in the plot area are calculated, and the series type defines how these data points are rendered.
 
-![.NET MAUI Cartesian Chart Overview](images/charts-cartesian-overview.png)
+![.NET MAUI CartesianChart Overview](images/charts-cartesian-overview.png)
 
 ## Series
 
@@ -22,11 +22,11 @@ The Cartesian Chart plots data through the following series:
 * [`AreaSeries`]({% slug charts-cartesian-area-series %})&mdash;Fills the area between the line that connects the data points and the axis.
 * [`PointSeries`]({% slug charts-cartesian-point-series %})&mdash;Represents each data point as a symbol positioned by two numerical values.
 
-For details, see the [Cartesian Chart Series]({% slug charts-cartesian-series %}) article.
+For details, see the [CartesianChart Series]({% slug charts-cartesian-series %}) article.
 
 ## Axes
 
-The Cartesian Chart requires three axes to position the data points. It supports the [Categorical Axis]({% slug charts-cartesian-categorical-axis %}), the [Numerical Axis]({% slug charts-cartesian-numerical-axis %}), and the [Date-Time Axis]({% slug charts-cartesian-datetime-axis %}).
+The CartesianChart requires three axes to position the data points. It supports the [Categorical Axis]({% slug charts-cartesian-categorical-axis %}), the [Numerical Axis]({% slug charts-cartesian-numerical-axis %}), and the [Date-Time Axis]({% slug charts-cartesian-datetime-axis %}).
 
 ## Key Features
 
