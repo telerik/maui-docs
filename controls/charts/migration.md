@@ -15,13 +15,11 @@ The new charts provide better performance, improved rendering, and a more consis
 
 This article lists the differences between the Telerik MAUI Chart (implemented in the `Telerik.Maui.Controls.Compatibility.Chart` namespace) and the new Charts (implemented in the `Telerik.Maui.Controls.Charts` namespace), so you can update existing applications.
 
-> The previous Chart (Telerik.Maui.Controls.Compatibility.Chart) is part of the compatibility controls and uses native charts per platform. The new Charts (Telerik.Maui.Controls.Charts) are .NET MAUI controls.
-
 ## Data Binding
 
 Both the previous and the new charts populate their series through the `ItemsSource` property. The main difference is how each data point resolves its value and category.
 
-The previous Chart used `DataPointBinding` objects (`PropertyNameDataPointBinding`) assigned to the `ValueBinding` and `CategoryBinding` properties. The new Charts replace these with the simpler `string`-based `HorizontalBinding` and `VerticalBinding` properties that directly point to the data-item member.
+The Compatibility Chart uses `DataPointBinding` objects (`PropertyNameDataPointBinding`) assigned to the `ValueBinding` and `CategoryBinding` properties. The new Charts replace these with the simpler `string`-based `HorizontalBinding` and `VerticalBinding` properties that directly point to the data-item member.
 
 | Chart (`Telerik.Maui.Controls.Compatibility`) | Charts (`Telerik.Maui.Controls.Charts`) |
 | --- | --- |
