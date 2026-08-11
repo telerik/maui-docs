@@ -2,6 +2,7 @@
 title: Customization
 page_title: .NET MAUI NumericInput Documentation - Customization
 description: Learn more about the customization options that the Telerik UI for .NET MAUI NumericInput control provides.
+components: ["numericinput"]
 position: 5
 previous_url: /controls/numericinput/numericinput-customization
 slug: numericinput-customization

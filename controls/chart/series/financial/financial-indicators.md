@@ -3,6 +3,7 @@ title: Financial Indicators
 page_title: .NET MAUI Chart Documentation - Financial Indicators
 slug: chart-series-financial-indicators
 description: Learn more about the financial indicators that are used for keeping track of stock prices and patterns of price changes over time.
+components: ["chart"]
 position: 2
 ---
 

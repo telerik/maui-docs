@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Toolbar Documentation - Overview
 description: Review the Toolbar control for .NET MAUI for implementation set of tools and button strips in your desktop and mobile applications.
+components: ["toolbar"]
 position: 0
 slug: toolbar-overview
 ---

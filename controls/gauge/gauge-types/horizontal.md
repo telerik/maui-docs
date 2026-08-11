@@ -2,6 +2,7 @@
 title: Horizontal Gauge
 page_title: .NET MAUI Gauge Documentation - Horizontal Gauge
 description: Get started with the Telerik UI for .NET MAUI Horizontal Gauge and add the control to your .NET MAUI project.
+components: ["gauge"]
 position: 1
 previous_url: /controls/gauge/gauge-types/gauge-types-horizontal
 slug: gauge-types-horizontal

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Scheduler Documentation - Views
 description: Learn more about the built-in views in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 0
 slug: scheduler-views-overview
 ---

@@ -2,6 +2,7 @@
 title: Frozen Columns
 page_title: .NET MAUI DataGrid Documentation - Frozen Columns
 description: Learn how to freeze columns in the Telerik UI for .NET MAUI DataGrid to keep key data visible while users scroll horizontally.
+components: ["datagrid"]
 position: 4
 slug: datagrid-frozen-columns
 ---

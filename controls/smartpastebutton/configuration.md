@@ -2,6 +2,7 @@
 title: Configuration
 meta_title: .NET MAUI SmartPasteButton Documentation - Provider, Text, Icon, and Template Configuration
 description: Learn how to configure the Telerik SmartPasteButton for .NET MAUI by setting its provider, customizing its text and icon, and defining a custom control template.
+components: ["smartpastebutton"]
 position: 4
 tags: .net maui, telerik .net maui, ui for .net maui, smartpastebutton, microsoft .net maui
 slug: smartpastebutton-configuration

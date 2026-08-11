@@ -2,6 +2,7 @@
 title: Tooltips
 page_title: .NET MAUI Slider Documentation - Tooltips
 description: Learn how to use the tooltips that the Telerik UI Slider for .NET MAUI control provides.
+components: ["slider"]
 position: 9
 slug: slider-tooltips
 ---

@@ -2,6 +2,7 @@
 title: Separator
 page_title: .NET MAUI Toolbar Documentation - Separator ToolbarItem
 description: Review the Toolbar separator item for .NET MAUI.
+components: ["toolbar"]
 position: 7
 slug: toolbar-items-separator
 ---

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TreeView Documentation - Overview
 description: Visualize hierarchical data in a tree like structure with Telerik TreeView for .NET MAUI. 
+components: ["treeview"]
 position: 0
 slug: treeview-overview
 ---

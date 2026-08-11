@@ -2,6 +2,7 @@
 title: Column Resizing
 page_title: .NET MAUI TreeDataGrid Documentation - Column Resizing
 description: Learn how to enable and configure column resizing in the Telerik UI for .NET MAUI TreeDataGrid.
+components: ["treedatagrid"]
 position: 4
 slug: treedatagrid-column-resizing
 ---

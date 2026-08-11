@@ -2,6 +2,7 @@
 title: Current Time Indicator Styling
 page_title: .NET MAUI Scheduler Documentation - Current Time Indicator Styling
 description: Learn how to style the current time indicator in Month view of the Telerik .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 8
 slug: scheduler-currenttime-indicator-styling
 ---

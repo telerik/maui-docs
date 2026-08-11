@@ -2,6 +2,7 @@
 title: Navigation Buttons
 page_title: .NET MAUI SlideView Documentation - Navigation Buttons
 description: Learn how to interact with the navigation buttons of the SlideView control.
+components: ["slideview"]
 position: 5
 slug: slideview-interaction
 ---

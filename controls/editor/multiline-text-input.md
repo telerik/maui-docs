@@ -2,6 +2,7 @@
 title: Multiline TextInput
 page_title: .NET MAUI TextInput Documentation - Multiline TextInput
 description: Learn more about the Multiline TextInput control used inside the Telerik UI for .NET MAUI Editor controls.
+components: ["editor"]
 position: 25
 slug: editor-multiline-textinput
 ---

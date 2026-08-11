@@ -2,6 +2,7 @@
 title: CollectionView Integration
 page_title: .NET MAUI BusyIndicator Documentation - CollectionView Integration
 description: Learn more about the option to integrate the BusyIndicator with the CollectionView control.
+components: ["busyindicator"]
 position: 2
 previous_url: /controls/busyindicator/integrate-with-listview,/controls/busyindicator/busyindicator-integrate-with-listview
 slug: busyindicator-integration

@@ -2,6 +2,7 @@
 title: Display Images
 page_title: .NET MAUI ImageEditor Documentation - Display Images
 description: Learn what are the options to display images in the Telerik UI for .NET MAUI ImageEditor control.
+components: ["imageeditor"]
 position: 2
 slug: imageeditor-loading-image
 ---

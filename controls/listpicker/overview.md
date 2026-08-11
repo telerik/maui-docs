@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI ListPicker Documentation - Overview
 description: Try now the Telerik ListPicker for .NET MAUI for displaying items in a dropdown or popup and pick a single item form the list.
+components: ["listpicker"]
 position: 0
 slug: listpicker-overview
 previous_url: /controls/listpicker/listpicker-overview

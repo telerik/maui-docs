@@ -2,6 +2,7 @@
 title: Remote Search
 page_title: .NET MAUI AutoComplete Documentation - Remote Search
 description: Learn how to simulate remote searching by triggering custom seareching algorithm in the Telerik UI for .NET MAUI AutoComplete control.
+components: ["autocomplete"]
 position: 10
 slug: autocomplete-remote-search
 ---

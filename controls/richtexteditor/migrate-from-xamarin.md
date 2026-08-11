@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI RichTextEditor Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms RichTextEditor to .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 20
 slug: richtexteditor-migrate-from-xamarin
 ---

@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI DataPager Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI DataPager to navigate throught the pages.
+components: ["datapager"]
 position: 8
 slug: datapager-commands
 tags: commands

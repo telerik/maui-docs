@@ -2,6 +2,7 @@
 title: Integration with DataGrid
 page_title: .NET MAUI DataPager Documentation - Integration with DataGrid
 description: Learn more about how to add paging functionality to the DataGrid for .NET MAUI.
+components: ["datapager"]
 position: 0
 slug: datapager-datagrid
 ---

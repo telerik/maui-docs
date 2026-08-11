@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI Gauge Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI Gauge and add the control to your .NET MAUI project.
+components: ["gauge"]
 position: 2
 previous_url: /controls/gauge/gauge-getting-started
 slug: gauge-getting-started

@@ -2,6 +2,7 @@
 title: Range Thumb Styling
 page_title: .NET MAUI RangeSlider Documentation - Range Thumb Styling
 description: Review the styling options that the Telerik UI for .NET MAUI RangeSlider control provides for its range thumb.
+components: ["rangeslider"]
 position: 0
 slug: rangeslider-rangethumb-styling
 ---

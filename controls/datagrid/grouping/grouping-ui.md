@@ -2,6 +2,7 @@
 title: Grouping UI
 page_title: .NET MAUI DataGrid Documentation - Grouping UI
 description: Learn how to enable and configure the Grouping UI panel in the Telerik UI for .NET MAUI DataGrid for drag-and-drop grouping.
+components: ["datagrid"]
 position: 1
 slug: datagrid-grouping-ui
 ---

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CollectionView - Overview
 description: .NET MAUI CollectionView control creates a virtualized list view that enables the user to filter, sort, and group items.
+components: ["collectionview"]
 position: 0
 slug: collectionview-overview
 ---

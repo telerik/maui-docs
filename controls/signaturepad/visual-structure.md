@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI SignaturePad Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI SignaturePad control.
+components: ["signaturepad"]
 position: 1
 slug: signaturepad-visual-structure
 ---

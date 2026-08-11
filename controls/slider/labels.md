@@ -2,6 +2,7 @@
 title: Labels
 page_title: .NET MAUI Slider Documentation - Labels
 description: Learn how to configure the labels of the Telerik UI Slider for .NET MAUI. Set how labels display on the backtrack, or show custom text instead of range values.
+components: ["slider"]
 position: 8
 slug: slider-labels
 ---

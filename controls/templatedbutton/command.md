@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI TemplatedButton Documentation - Command
 description: Learn about the .NET MAUI TemplatedButton Command that is executed when the button is clicked.
+components: ["templatedbutton"]
 position: 8
 slug: templatedbutton-command
 ---

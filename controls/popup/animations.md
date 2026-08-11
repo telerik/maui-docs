@@ -2,6 +2,7 @@
 title: Animations
 page_title: .NET MAUI Popup Documentation - Animations
 description: Set the animation when the user opens or closes the Telerik UI for .NET MAUI Popup and customize its duration and acceleration.
+components: ["popup"]
 position: 6
 slug: popup-animations
 ---

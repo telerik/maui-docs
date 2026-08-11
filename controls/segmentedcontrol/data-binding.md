@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI SegmentedControl Documentation - Data Binding
 description: Learn how to bind the Telerik UI for .NET MAUI SegmentedControl to a collection of business objects and customize how each segment is visualized.
+components: ["segmentedcontrol"]
 position: 3
 slug: segmentedcontrol-data-binding
 ---

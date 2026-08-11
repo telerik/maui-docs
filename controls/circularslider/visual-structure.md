@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI CircularSlider Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI CircularSlider, and see how these elements build the visual structure of the control.
+components: ["circularslider"]
 position: 2
 slug: circularslider-visual-structure
 ---

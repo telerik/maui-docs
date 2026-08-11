@@ -2,6 +2,7 @@
 title: DragVisual and DropIndicator Templates
 page_title: .NET MAUI CollectionView Documentation - DragVisual and DropIndicator Templates
 description: Review the Telerik UI for .NET MAUI CollectionView DragVisual and DropIndicator Templates.
+components: ["collectionview"]
 position: 3
 slug: collectionview-dragdrop-templates
 tags: reorder, collectionview, drag-drop, templates, dragvisual, dropindicator

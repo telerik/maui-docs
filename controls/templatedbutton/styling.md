@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI TemplatedButton Documentation - Styling
 description: Learn how to set the border color, border thickness and other styling properties of the Telerik TemplatedButton for .NET MAUI.
+components: ["templatedbutton"]
 position: 11
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui
 slug: templatedbutton-styling

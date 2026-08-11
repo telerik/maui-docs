@@ -2,6 +2,7 @@
 title: Scrolling
 page_title: .NET MAUI Chat Documentation - Scrolling
 description: Learn how to control automatic and programmatic scrolling in the Telerik UI for .NET MAUI Chat control.
+components: ["chat"]
 position: 9
 slug: chat-scrolling
 ---

@@ -2,6 +2,7 @@
 title: Content
 page_title: .NET MAUI BusyIndicator Documentation - Content
 description: Learn more about the content options of the BusyIndicator when the control is and isn't in a busy state.
+components: ["busyindicator"]
 position: 2
 previous_url: /controls/busyindicator/busyindicator-custom-busy-content
 slug: busyindicator-custom-busy-content

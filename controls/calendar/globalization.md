@@ -2,6 +2,7 @@
 title: Globalization
 page_title: .NET MAUI Calendar Documentation - Globalization
 description: Check our &quot;Localization and Globalization&quot; documentation article for Telerik Calendar for .NET MAUI
+components: ["calendar"]
 position: 16
 slug: calendar-globalization
 ---

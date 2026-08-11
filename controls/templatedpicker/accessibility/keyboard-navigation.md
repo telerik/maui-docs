@@ -2,6 +2,7 @@
 title: Keyboard Navigation
 meta_title: .NET MAUI TemplatedPicker Documentation - Keyboard Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI TemplatedPicker accessibility standards.
+components: ["templatedpicker"]
 position: 1
 slug: templatedpicker-keyboard-support
 ---

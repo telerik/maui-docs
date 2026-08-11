@@ -2,6 +2,7 @@
 title: MacCatalyst
 page_title: .NET MAUI TreeDataGrid Documentation - Keyboard Support on MacCatalyst
 description: Learn the available keyboard shortcuts for navigating the Telerik UI for .NET MAUI TreeDataGrid on MacCatalyst.
+components: ["treedatagrid"]
 position: 2
 slug: treedatagrid-keyboard-support-mac
 ---

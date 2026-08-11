@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Scheduler Documentation - Recurrence Overview
 description: Learn more about the reccurence option in Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 0
 slug: scheduler-recurrence-overview
 ---

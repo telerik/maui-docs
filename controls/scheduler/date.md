@@ -2,6 +2,7 @@
 title: Date Properties
 page_title: .NET MAUI Scheduler Documentation - Date Properties
 description: Learn more about the date properties of the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 3
 slug: scheduler-date
 ---

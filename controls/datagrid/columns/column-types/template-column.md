@@ -2,6 +2,7 @@
 title: Template Column
 page_title: .NET MAUI DataGrid Documentation - Template Column
 description: Learn how to use the Template column in the Telerik UI for .NET MAUI DataGrid to define custom cell content using DataTemplate.
+components: ["datagrid"]
 position: 6
 slug: datagrid-columns-template-column
 ---

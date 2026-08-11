@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI CollectionView Documentation - Localization
 description: Learn more about the MAUI localization approaches and the common picker keys supported by the Telerik UI for .NET MAUI CollectionView component.
+components: ["collectionview"]
 position: 29
 tags: maui localization, maui, localization, dotnet maui
 slug: collectionview-localization

@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Skeleton Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Skeleton control.
+components: ["skeleton"]
 position: 1
 slug: skeleton-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: Content
 page_title: .NET MAUI Popup Documentation - Content
 description: Set the content of the Telerik UI for .NET MAUI Popup and determine when it will open or close.
+components: ["popup"]
 position: 2
 slug: popup-content
 ---

@@ -2,6 +2,7 @@
 title: Thumb Styling
 page_title: .NET MAUI Slider Documentation - Thumb Styling
 description: Learn how to style the thumb of the Telerik UI for .NET MAUI Slider. Explore an example that creates consistent styling for the thumb and the range track.
+components: ["slider"]
 position: 0
 slug: slider-thumb-styling
 ---

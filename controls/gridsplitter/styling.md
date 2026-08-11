@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI GridSplitter Documentation - Styling
 description: Set the border, background, and gripper color of the Telerik UI for .NET MAUI GridSplitter and customize its visual appearance.
+components: ["gridsplitter"]
 position: 4
 slug: gridsplitter-styling
 ---

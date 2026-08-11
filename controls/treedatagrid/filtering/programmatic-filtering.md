@@ -2,6 +2,7 @@
 title: Programmatic Filtering
 page_title: .NET MAUI TreeDataGrid Documentation - Programmatic Filtering
 description: Learn how to filter the Telerik UI for .NET MAUI TreeDataGrid programmatically using filter descriptors for external filtering.
+components: ["treedatagrid"]
 position: 3
 slug: treedatagrid-programmatic-filtering
 ---

@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI ToggleButton Documentation - Styling
 description: Learn how to set the border color, border thickness and other styling properties of the Telerik ToggleButton for .NET MAUI.
+components: ["togglebutton"]
 position: 11
 tags: .net maui, telerik .net maui, ui for .net maui, toggle, button, microsoft .net maui
 slug: togglebutton-styling

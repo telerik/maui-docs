@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI ToggleButton Documentation - Command
 description: Learn how to use the ToggleButton Command that is executed when the button is clicked or tapped. 
+components: ["togglebutton"]
 position: 8
 slug: togglebutton-command
 ---

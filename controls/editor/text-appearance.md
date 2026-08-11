@@ -2,6 +2,7 @@
 title: Text Appearance
 page_title: .NET MAUI Editor Documentation - Text Appearance
 description: Learn how to use the text input configuration options of the Telerik UI for .NET MAUI Editor control and show a placeholder, set the read-only state, define the max length of the input, and more.
+components: ["editor"]
 position: 2
 slug: editor-text-appearance
 ---

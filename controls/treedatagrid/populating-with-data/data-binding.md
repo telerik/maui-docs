@@ -2,6 +2,7 @@
 title: Binding to Collection
 page_title: .NET MAUI TreeDataGrid Documentation - Data Binding
 description: Learn how to bind the Telerik .NET MAUI TreeDataGrid to a collection of items and configure the data bindings for its columns.
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-data-binding
 tags: binding, collection, data, dotnet maui, maui, datagrid, enumerable

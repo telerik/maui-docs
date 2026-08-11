@@ -2,6 +2,7 @@
 title: Expand and Collapse Items
 page_title: .NET MAUI TreeDataGrid Documentation - Expand Collapse Items
 description: Learn how to expand or collapse parent nodes programmatically in the Telerik UI for .NET MAUI TreeDataGrid.
+components: ["treedatagrid"]
 position: 20
 tags: methods
 slug: treedatagrid-methods

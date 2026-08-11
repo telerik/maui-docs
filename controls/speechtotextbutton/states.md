@@ -2,6 +2,7 @@
 title: States
 page_title: .NET MAUI SpeechToTextButton Documentation - States
 description: Learn what are the different states the SpeechToTextControl for .NET MAUI uses.
+components: ["speechtotextbutton"]
 position: 4
 tags: .net maui, telerik speech to text button for .net maui, ui for .net maui
 slug: speechtotextbutton-states

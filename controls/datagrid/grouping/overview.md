@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Grouping Overview
 description: Learn how to group data in the Telerik UI for .NET MAUI DataGrid using the built-in grouping UI or programmatic group descriptors.
+components: ["datagrid"]
 position: 0
 slug: datagrid-grouping-overview
 ---

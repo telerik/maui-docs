@@ -2,6 +2,7 @@
 title: Track Styling
 page_title: .NET MAUI RangeSlider Documentation - Track Styling
 description: Review the styling options that the Telerik UI for .NET MAUI RangeSlider control provides for its track.
+components: ["rangeslider"]
 position: 1
 slug: rangeslider-track-styling
 ---

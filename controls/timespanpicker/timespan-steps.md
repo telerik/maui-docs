@@ -2,6 +2,7 @@
 title: Time Steps
 page_title: .NET MAUI TimeSpanPicker Documentation - Time Steps
 description: Learn more about the time span steps functionality in the Telerik UI for .NET MAUI TimePicker control.
+components: ["timespanpicker"]
 position: 3
 previous_url: /controls/timespanpicker/timespanpicker-timespan-steps
 slug: timespanpicker-timespan-steps

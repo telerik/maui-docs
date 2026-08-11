@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI SpeechToTextButton Documentation - Visual States
 description: Learn how to set the border color, border thickness and other styling options for the different visual states of the Telerik SpeechToTextButton for .NET MAUI.
+components: ["speechtotextbutton"]
 position: 10
 tags: .net maui, telerik .net maui, ui for .net maui, templated, button, microsoft .net maui
 slug: speechtotextbutton-visual-states

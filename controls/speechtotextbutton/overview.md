@@ -2,6 +2,7 @@
 title: Overview
 meta_title: .NET MAUI SpeechToTextButton Documentation - Overview
 description: Learn how the Telerik UI for .NET MAUI SpeechToTextButton enables seamless speech-to-text conversion in your applications.
+components: ["speechtotextbutton"]
 tags: speech to text for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: speechtotextbutton-overview

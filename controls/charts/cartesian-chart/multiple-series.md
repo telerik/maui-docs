@@ -2,6 +2,7 @@
 title: Multiple Series
 page_title: .NET MAUI CartesianChart Documentation - Multiple Series
 description: Learn how to combine multiple series in a single Telerik UI for .NET MAUI Cartesian Chart.
+components: ["charts"]
 tags: charts, cartesian chart, multiple series, .net maui, ui for .net maui
 position: 7
 slug: charts-cartesian-multiple-series

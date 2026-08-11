@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI AutoComplete Documentation - Commands
 description: Learn more about the commands that the Telerik UI for .NET MAUI AutoComplete control exposes.
+components: ["autocomplete"]
 position: 15
 slug: autocomplete-commands
 ---

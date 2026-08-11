@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI GridSplitter Overview
 description: Learn how the Telerik UI for .NET MAUI GridSplitter redistributes space between Grid rows and columns and how to configure its behavior.
+components: ["gridsplitter"]
 position: 0
 slug: gridsplitter-overview
 ---

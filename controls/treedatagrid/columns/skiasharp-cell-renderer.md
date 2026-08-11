@@ -2,6 +2,7 @@
 title: SkiaSharp Cell Renderer
 page_title: .NET MAUI TreeDataGrid Documentation - SkiaSharp Cell Renderer
 description: Learn how to define a custom SkiaSharp cell renderer for the TreeDataGrid columns.
+components: ["treedatagrid"]
 position: 4
 slug: treedatagrid-skiasharp-cell-renderer
 ---

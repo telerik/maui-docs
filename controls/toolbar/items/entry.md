@@ -2,6 +2,7 @@
 title: Entry
 page_title: .NET MAUI Toolbar Documentation - Entry ToolbarItem
 description: Learn how to add input fields to the NET MAUI Toolbar by using the Entry Toolbar item. Configure the Entry item by using the emitted events and styling properties.
+components: ["toolbar"]
 position: 1
 slug: toolbar-items-entry
 ---

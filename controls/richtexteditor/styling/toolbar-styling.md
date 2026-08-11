@@ -2,6 +2,7 @@
 title: Toolbar Styling
 page_title: .NET MAUI RichTextEditor Documentation - RichTextEditor Toolbar Styling
 description: Learn more how to style the toolbar items in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 2
 slug: richtexteditor-toolbar-styling
 ---

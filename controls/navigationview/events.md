@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI NavigationView Documentation - Events
 description: Learn more about the NavigationView events that are raised when the pane is opened, closed and an item is clicked and selected.
+components: ["navigationview"]
 position: 10
 slug: navigationview-events
 ---

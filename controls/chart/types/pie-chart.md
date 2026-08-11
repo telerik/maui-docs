@@ -3,6 +3,7 @@ title: Pie Chart
 page_title: .NET MAUI Chart Documentation - Pie Chart
 position: 2
 description: Learn how to configure the Telerik UI for .NET MAUI PieChart control.
+components: ["chart"]
 previous_url: /controls/chart/types/chart-types-pie-chart
 slug: chart-types-pie-chart
 ---

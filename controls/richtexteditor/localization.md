@@ -2,6 +2,7 @@
 title: Localization
 page_title: .NET MAUI RichTextEditor Documentation | Localization
 description: Learn more about the localization in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 8
 slug: richtexteditor-localization
 published: False

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Calendar Documentation - Overview
 description: "Try now the Telerik Calendar for .NET MAUI."
+components: ["calendar"]
 position: 0
 slug: calendar-overview
 ---

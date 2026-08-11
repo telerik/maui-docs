@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI PromptInput Documentation - Styling
 description: Learn how to style the built-in buttons of the Telerik UI for .NET MAUI PromptInput control through the exposed style properties.
+components: ["promptinput"]
 position: 10
 slug: promptinput-styling
 ---

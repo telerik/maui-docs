@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI BusyIndicator Documentation - Overview
 description: Try now the Telerik BusyIndicator for .NET MAUI delivering a more informative and smoother user experience when displaying a notification.
+components: ["busyindicator"]
 position: 0
 previous_url: /controls/busyindicator/busyindicator-overview
 slug: busyindicator-overview

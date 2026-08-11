@@ -2,6 +2,7 @@
 title: Custom Toolbar
 page_title: .NET MAUI ImageEditor Documentation - Custom Toolbar
 description: Review all built-in toolbar items you can use in the Telerik UI for .NET MAUI ImageEditor.
+components: ["imageeditor"]
 position: 2
 slug: imageeditor-custom-toolbar
 ---

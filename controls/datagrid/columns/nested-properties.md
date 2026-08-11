@@ -2,6 +2,7 @@
 title: Nested Properties
 page_title: .NET MAUI DataGrid Documentation - Nested Properties Support
 description: Learn how to bind DataGrid columns to nested properties of the underlying data object in .NET MAUI.
+components: ["datagrid"]
 position: 5
 previous_url: /controls/datagrid/columns/datagrid-columns-nested-properties
 slug: datagrid-nested-properties

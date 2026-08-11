@@ -2,6 +2,7 @@
 title: Content Styling
 page_title: .NET MAUI Calendar Documentation - Content Styling
 description: Learn what styling options are available for the content area of the Telerik UI for .NET MAUI Calendar control. Find out how to use the styling options to customize the appearance of the UI component.
+components: ["calendar"]
 position: 2
 slug: calendar-content-styling
 ---

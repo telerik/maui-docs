@@ -2,6 +2,7 @@
 title: Content
 page_title: .NET MAUI BottomSheet Documentation - Content
 description: Learn more about how to set content inside the Telerik UI for .NET MAUI BottomSheet control.
+components: ["bottomsheet"]
 position: 3
 slug: bottomsheet-content
 ---

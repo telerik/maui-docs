@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI SegmentedControl Documentation - Styling
 description: Learn how to customize the appearance of the segments, the selection indicator, and the separators of the Telerik UI for .NET MAUI SegmentedControl.
+components: ["segmentedcontrol"]
 position: 12
 slug: segmentedcontrol-styling
 ---

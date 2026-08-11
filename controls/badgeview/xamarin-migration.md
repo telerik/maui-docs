@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the BadgeView from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin BadgeView to the Telerik UI for .NET MAUI BadgeView by updating the namespaces, the incompatible NuGet packages and API.
+components: ["badgeview"]
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
 slug: badgeview-migrate-from-xamarin

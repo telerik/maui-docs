@@ -2,6 +2,7 @@
 title: Sorting
 page_title: .NET MAUI DataGrid Documentation - Sorting
 description: Learn how to sort DataGrid data through the UI or programmatically using property or custom sort descriptors.
+components: ["datagrid"]
 position: 12
 slug: datagrid-sorting-overview
 ---

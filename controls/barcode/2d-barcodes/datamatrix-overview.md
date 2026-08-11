@@ -2,6 +2,7 @@
 title: DataMatrix
 page_title: .NET MAUI 2D Barcode Documentation | DataMatrix Type
 description: Learn more about the two-dimensional (2D) DataMatrix barcode type supported by the Telerik UI for MAUI Barcode.
+components: ["barcode"]
 position: 4	
 slug: barcode-datamatrix-overview
 ---

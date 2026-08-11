@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI PDF Viewer Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI PDF Viewer and add the control to your .NET MAUI project.
+components: ["pdfviewer"]
 position: 2
 slug: pdfviewer-getting-started
 ---

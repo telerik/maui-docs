@@ -2,6 +2,7 @@
 title: Blackout Dates
 page_title: .NET MAUI Calendar Documentation - Blackout Dates
 description: Discover the blackout dates feature of the Telerik Calendar for .NET MAUI control, and learn how to use them to disable specific dates.
+components: ["calendar"]
 position: 3
 slug: calendar-blackout-dates
 ---

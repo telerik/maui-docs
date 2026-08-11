@@ -2,6 +2,7 @@
 title: Zooming
 page_title: .NET MAUI ImageEditor Documentation - Zooming
 description: Learn how to set the zoom level of the images in .NET MAUI ImageEditor control.
+components: ["imageeditor"]
 position: 6
 slug: imageeditor-zooming-image
 ---

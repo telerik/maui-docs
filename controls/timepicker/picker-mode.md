@@ -2,6 +2,7 @@
 title: Picker Mode
 page_title: .NET MAUI TimePicker Documentation - Picker Mode
 description: Learn how to set the PickerMode of the Telerik UI for .NET MAUI TimePicker to either DropDown or Popup.
+components: ["timepicker"]
 position: 5
 slug: timepicker-picker-mode
 ---  

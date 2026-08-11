@@ -2,6 +2,7 @@
 title: Date Column
 page_title: .NET MAUI DataGrid Documentation - Date Column
 description: Learn how to use the Date column in the Telerik UI for .NET MAUI DataGrid to display and edit DateTime data.
+components: ["datagrid"]
 position: 3
 slug: datagrid-columns-date-column
 ---

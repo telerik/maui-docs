@@ -2,6 +2,7 @@
 title: Pan and Zoom Behavior
 page_title: .NET MAUI Chart Documentation - Pan and Zoom Behavior
 description: Learn more about the Pan and Zoom behavior of the Telerik UI for .NET MAUI Chart control.
+components: ["chart"]
 tags: chart, .net maui, pan, zoom, ui for maui
 position: 4
 previous_url: /controls/chart/behaviors/chart-behaviors-pan-and-zoom-behavior

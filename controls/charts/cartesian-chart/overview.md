@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CartesianChart Documentation - Overview
 description: Explore the Telerik UI for .NET MAUI CartesianChart that plots data in a Cartesian coordinate system by using bar, line, area, and point series.
+components: ["charts"]
 tags: charts, cartesian chart, .net maui, ui for .net maui
 position: 0
 slug: charts-cartesian-overview

@@ -2,6 +2,7 @@
 title: Header Styling
 page_title: .NET MAUI Scheduler Documentation - Header Styling
 description: Review the styling options that the Telerik UI for .NET MAUI Scheduler control provides for its header.
+components: ["scheduler"]
 position: 1
 slug: scheduler-header-styling
 ---

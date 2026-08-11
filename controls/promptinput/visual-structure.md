@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI PromptInput Documentation - PromptInput Visual Structure
 description: Learn what visual elements the Telerik UI for .NET MAUI PromptInput displays and how they build the visual structure of the control.
+components: ["promptinput"]
 position: 1
 slug: promptinput-visual-structure
 ---

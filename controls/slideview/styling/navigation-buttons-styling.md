@@ -2,6 +2,7 @@
 title: Navigation Buttons Styling
 page_title: .NET MAUI SlideView Documentation - Navigation Buttons Styling
 description: Learn how to style and customize the .NET Maui SlideView navigation buttons.
+components: ["slideview"]
 position: 12
 slug: slideview-navigation-buttons-styling
 ---

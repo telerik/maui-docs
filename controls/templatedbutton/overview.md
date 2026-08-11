@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TemplatedButton Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI TemplatedButton control that provides various options for customizing its look and feel.
+components: ["templatedbutton"]
 tags: templated button for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: templatedbutton-overview

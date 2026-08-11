@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI BadgeView Documentation - Configuration
 description:  Learn how to define the Content, BadgeText, BadgeVisibility, and Padding properties of the Telerik UI for .NET MAUI BadgeView
+components: ["badgeview"]
 position: 3
 slug: badgeview-configuration
 ---

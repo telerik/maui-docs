@@ -2,6 +2,7 @@
 title: Reorder Grouped Items
 page_title: .NET MAUI CollectionView Documentation - Reorder Grouped Items
 description: Review the Telerik UI for .NET MAUI CollectionView Reorder Grouped Items.
+components: ["collectionview"]
 position: 1
 slug: collectionview-dragdrop-grouped-items
 tags: reorder, collectionview, drag-drop, grouping

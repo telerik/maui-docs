@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Charts Documentation - Overview
 description: Explore the Telerik UI for .NET MAUI Charts that visualize data through the Cartesian and Pie charts with a rich set of series, axes, and features.
+components: ["charts"]
 tags: charts, .net maui, ui for .net maui, cartesian chart, pie chart
 position: 0
 slug: charts-overview

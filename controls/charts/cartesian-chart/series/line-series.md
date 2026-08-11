@@ -2,6 +2,7 @@
 title: Line Series
 page_title: .NET MAUI Cartesian Chart Documentation - Line Series
 description: Learn about the LineSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, series, line, .net maui
 position: 2
 slug: charts-cartesian-line-series

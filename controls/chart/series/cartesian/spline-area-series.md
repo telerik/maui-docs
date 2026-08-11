@@ -2,6 +2,7 @@
 title: SplineArea Series
 page_title: .NET MAUI Chart Documentation - SplineArea Series
 description: Learn more about the SplineArea series in the Cartesian chart.
+components: ["chart"]
 slug: chart-series-spline-area-series
 position: 0
 ---

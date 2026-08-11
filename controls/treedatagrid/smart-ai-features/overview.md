@@ -2,6 +2,7 @@
 title: AI Smart Assistant
 page_title: .NET MAUI TreeDataGrid Documentation - AI Smart Assistant
 description: Learn how to interact with the .NET MAUI TreeDataGrid AI Smart Assistant using prompts for sorting, filtering, and column manipulation.
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-ai-prompt-overview
 ---

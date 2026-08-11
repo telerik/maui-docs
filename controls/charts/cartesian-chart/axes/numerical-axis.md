@@ -2,6 +2,7 @@
 title: Numerical Axis
 page_title: .NET MAUI Cartesian Chart Documentation - Numerical Axis
 description: Learn how to use the NumericalAxis in the Telerik UI for .NET MAUI Cartesian Chart to plot data points by their numeric value and configure its range, ticks, labels, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, axes, numerical, .net maui
 position: 2
 slug: charts-cartesian-numerical-axis

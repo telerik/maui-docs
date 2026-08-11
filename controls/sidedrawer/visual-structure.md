@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI SideDrawer Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI SideDrawer control.
+components: ["sidedrawer"]
 position: 1
 slug: sidedrawer-visual-structure
 ---

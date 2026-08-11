@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the Barcode from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin Barcode to the Telerik UI for .NET MAUI Barcode by updating the namespaces, the incompatible NuGet packages and API.
+components: ["barcode"]
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
 slug: barcode-xamarin-migration

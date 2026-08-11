@@ -2,6 +2,7 @@
 title: Filtering
 page_title: .NET MAUI ComboBox Documentation - Filtering
 description: Learn more about the filtering functionalities in Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 5
 slug: combobox-filtering
 ---

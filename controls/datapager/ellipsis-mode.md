@@ -2,6 +2,7 @@
 title: Ellipsis Mode
 page_title: .NET MAUI DataPager Documentation - Ellipsis Mode
 description: Learn what are the different options to display ellipsis in the .NET MAUI DataPager control.
+components: ["datapager"]
 position: 6
 slug: datapager-ellipsis-mode
 tags: ellipsis modes, data pager, maui, dotnet maui, paging

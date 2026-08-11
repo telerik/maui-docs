@@ -2,6 +2,7 @@
 title: Button Configuration
 page_title: .NET MAUI DropDownButton Documentation - Button Configuration
 description: Learn how to define, position, and format the content of the Telerik DropDownButton for .NET MAUI.
+components: ["dropdownbutton"]
 position: 3
 tags: .net maui, telerik drop-down button for .net maui, ui for .net maui, template content, microsoft .net maui
 slug: dropdownbutton-configuration

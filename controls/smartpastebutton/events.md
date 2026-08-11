@@ -2,6 +2,7 @@
 title: Events
 meta_title: .NET MAUI SmartPasteButton Documentation - Events
 description: Review the SmartPasteButton event that is raised when the RadSmartPasteButton initiates a smart paste operation.
+components: ["smartpastebutton"]
 position: 7
 slug: smartpastebutton-events
 ---

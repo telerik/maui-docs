@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Popup Documentation - Styling
 description: Style the appearance of the Telerik UI for .NET MAUI Popup by setting its overlay color.
+components: ["popup"]
 position: 10
 slug: popup-styling
 ---

@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Editor Documentation - Styling
 description: Learn how to use the border styles and the font styling options of the Telerik UI for .NET MAUI Editor control.
+components: ["editor"]
 position: 6
 slug: editor-styling
 ---

@@ -2,6 +2,7 @@
 title: Fonts
 page_title: .NET MAUI PDF Viewer Documentation - Fonts
 description: Learn how to register the fonts in the PDF document.
+components: ["pdfviewer"]
 position: 7
 slug: pdfviewer-fonts
 ---

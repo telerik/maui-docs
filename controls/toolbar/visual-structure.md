@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Toolbar Documentation - Visual Structure
 description: Learn what are the visual elements that the Telerik Toolbar for .NET MAUI displays and see the visual structure of the control.
+components: ["toolbar"]
 position: 1
 slug: toolbar-visual-structure
 ---

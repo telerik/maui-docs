@@ -2,6 +2,7 @@
 title: Input Area
 page_title: .NET MAUI Chat Documentation - Input Area Styling
 description: Learn how to style the input area of the Telerik UI for .NET MAUI Chat control.
+components: ["chat"]
 position: 6
 tags: .net maui, telerik .net maui, ui for .net maui, chat, style
 slug: chat-input-area-styling

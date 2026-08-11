@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI CollectionView Documentation - Visual States
 description: Learn how to set the border color, background color, and other visual states to the Telerik UI for .NET MAUI CollectionView item.
+components: ["collectionview"]
 position: 0
 slug: collectionview-visual-states
 tags: style, visual states, item, collectionview, maui, dotnet maui

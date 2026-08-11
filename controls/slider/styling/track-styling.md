@@ -2,6 +2,7 @@
 title: Track Styling
 page_title: .NET MAUI Slider Documentation - Track Styling
 description: Learn how to style the backtrack and the range track of the Telerik UI for .NET MAUI Slider. Play with colors and thickness, or define custom styles.
+components: ["slider"]
 position: 1
 slug: slider-track-styling
 ---

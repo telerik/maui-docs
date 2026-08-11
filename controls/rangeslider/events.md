@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI RangeSlider Documentation - Events
 description: Learn about the events that the Telerik UI for .NET MAUI RangeSlider control exposes and find out how to use them.
+components: ["rangeslider"]
 position: 9
 slug: rangeslider-events
 ---

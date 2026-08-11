@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Accordion Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Accordion control.
+components: ["accordion"]
 position: 1
 slug: accordion-visual-structure
 ---

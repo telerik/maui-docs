@@ -2,6 +2,7 @@
 title: Boolean Editors
 page_title: .NET MAUI DataForm Documentation - Boolean Editors
 description: Learn more about the boolean editors that the Telerik UI for .NET MAUI DataForm control provides.
+components: ["dataform"]
 position: 3
 slug: dataform-boolean-editors
 ---

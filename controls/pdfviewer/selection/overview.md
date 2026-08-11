@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI PDF Viewer Documentation - Selection Overview
 description: Try the Telerik UI for .NET MAUI. PDF Viewer selection feature for selecting a text in the loaded document. 
+components: ["pdfviewer"]
 position: 0
 slug: pdfviewer-selection-overview
 ---

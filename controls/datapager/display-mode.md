@@ -2,6 +2,7 @@
 title: Display Mode
 page_title: .NET MAUI DataPager Documentation - Display Mode
 description: Learn what are the different options to display buttons in the .NET MAUI DataPager control.
+components: ["datapager"]
 position: 5
 slug: datapager-display-mode
 tags: display mode

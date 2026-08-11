@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI RichTextEditor Documentation - Events
 description: Learn more about the exposed events in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 10
 slug: richtexteditor-events
 ---

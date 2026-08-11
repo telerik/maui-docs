@@ -2,6 +2,7 @@
 title: Paging
 page_title: .NET MAUI TreeDataGrid Documentation - Paging Support
 description: Learn more about how to add paging functionality to the TreeDataGrid for .NET MAUI.
+components: ["treedatagrid"]
 position: 15
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: treedatagrid-paging

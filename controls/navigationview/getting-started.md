@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI NavigationView Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI NavigationView control and add the control to your .NET MAUI project
+components: ["navigationview"]
 position: 2
 slug: navigationview-getting-started
 ---

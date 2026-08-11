@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI BottomSheet Documentation - Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI BottomSheet control.
+components: ["bottomsheet"]
 position: 1
 slug: bottomsheet-visual-structure
 ---

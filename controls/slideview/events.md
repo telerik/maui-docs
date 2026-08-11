@@ -2,6 +2,7 @@
 title: Events 
 page_title: .NET MAUI SlideView Documentation - Events
 description: Review the different events that are triggered on when the current item is changed.
+components: ["slideview"]
 position: 11
 slug: slideview-events
 ---

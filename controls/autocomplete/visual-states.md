@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI AutoComplete Documentation - Visual States
 description: Learn how to set the border color, background color, and other visual states for the Telerik UI for .NET MAUI AutoComplete control.
+components: ["autocomplete"]
 position: 17
 tags: .net maui, telerik .net maui, ui for .net maui, autocomplete, states, microsoft .net maui
 slug: autocomplete-visual-states

@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the Button from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin Button to the Telerik UI for .NET MAUI Button by updating the namespaces, the incompatible NuGet packages and API.
+components: ["button"]
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
 slug: button-xamarin-migration

@@ -3,6 +3,7 @@ title: Styling
 page_title: .NET MAUI AutoComplete Documentation - Styling
 meta_title: .NET MAUI AutoComplete Documentation - Styling
 description: Change the Telerik .NET MAUI AutoComplete look using its flexible styling API.
+components: ["autocomplete"]
 position: 16
 slug: autocomplete-styling
 ---

@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI CollectionView Documentation - Load On Demand Command
 description: Learn how to load data on demand in the Telerik UI for .NET MAUI CollectionView automatically or manually by using the exposed command.
+components: ["collectionview"]
 position: 2
 slug: collectionview-load-on-demand-command
 tags: loading data, .net maui, maui, collectionview, load data on demand, loading command

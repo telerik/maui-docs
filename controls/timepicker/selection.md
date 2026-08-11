@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI TimePicker Documentation - Selection
 description: Learn more about the selection functionality that the Telerik UI for .NET MAUI TimePicker control provides.
+components: ["timepicker"]
 position: 5
 previous_url: /controls/timepicker/timepicker-selection
 slug: timepicker-selection

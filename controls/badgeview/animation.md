@@ -2,6 +2,7 @@
 title: Animation
 page_title: .NET MAUI BadgeView Documentation - Animation
 description: Try now the Telerik UI for .NET MAUI BadgeView that allows you to display the Badge indicator with an animation flow
+components: ["badgeview"]
 tags: badge, animation, badgeview for .net maui, badge for .net maui
 position: 7
 slug: badgeview-animation

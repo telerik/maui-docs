@@ -2,6 +2,7 @@
 title: GridLayout
 page_title: .NET MAUI DataForm Documentation - GridLayout
 description: Learn more about the GridLayout definition that Telerik UI for .NET MAUI provides.
+components: ["dataform"]
 position: 2
 slug: dataform-layouts-grid
 ---

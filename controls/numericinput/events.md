@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI NumericInput Documentation - Events
 description: Learn more about the events that the Telerik UI for .NET MAUI NumericInput control provides.
+components: ["numericinput"]
 position: 8
 previous_url: /controls/numericinput/numericinput-events
 slug: numericinput-events

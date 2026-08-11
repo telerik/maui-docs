@@ -2,6 +2,7 @@
 title: Animation
 page_title: .NET MAUI DropDownButton Documentation - Animation
 description: Learn how to configure the drop-down animation type, duration, and easing for the Telerik UI for .NET MAUI DropDownButton.
+components: ["dropdownbutton"]
 position: 5
 slug: dropdownbutton-animation
 ---

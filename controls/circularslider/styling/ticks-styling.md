@@ -2,6 +2,7 @@
 title: Ticks Styling
 page_title: .NET MAUI CircularSlider Documentation - Ticks Styling
 description: Learn how to style the ticks of the Telerik UI for .NET MAUI CircularSlider. Set the size and style ticks within and outside of the range track differently.
+components: ["circularslider"]
 position: 2
 slug: circularslider-ticks-styling
 ---

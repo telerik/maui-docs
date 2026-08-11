@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI DataGrid Documentation - DataGrid Visual Structure
 description: Learn about the visual elements and structure of the Telerik UI for .NET MAUI DataGrid component.
+components: ["datagrid"]
 position: 1
 slug: datagrid-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: DateTime Continuous Axis
 page_title: .NET MAUI Chart DateTime Continuous Axis
 description: Learn when to use the Telerik UI for .NET MAUI DateTimeContinuousAxis, how it builds timeline slots, and how to configure and format it.
+components: ["chart"]
 previous_url: /controls/chart/axes/axes-datetime-continuous-axis
 position: 4
 slug: axes-date-time-continuous-axis

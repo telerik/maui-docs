@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI Calendar Documentation - Selection
 description: Discover the selection types provided by the Telerik UI for .NET MAUI Calendar control, and learn how to configure them.
+components: ["calendar"]
 position: 6
 slug: calendar-selection
 ---

@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI DataForm Documentation - Data Binding
 description: Review the available options for Data Binding which Telerik UI for .NET MAUI DataForm control provides.
+components: ["dataform"]
 position: 3
 slug: dataform-data-binding
 ---

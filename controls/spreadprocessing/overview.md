@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI SpreadProcessing Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik SpreadProcessing for .NET MAUI.
+components: ["spreadprocessing"]
 slug: spreadprocessing-overview
 tags: overview
 published: false

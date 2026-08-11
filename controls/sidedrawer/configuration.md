@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI SideDrawer Documentation - Configuration
 description: Learn what are the options to configure the Telerik UI for .NET MAUI SideDrawer and how to change the drawer position and interactivity.
+components: ["sidedrawer"]
 position: 2
 slug: sidedrawer-features-configuration
 ---

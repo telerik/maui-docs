@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI Path Documentation - Styling
 description: Learn more how to style the Telerik UI for .NET MAUI Path control.
+components: ["path"]
 position: 8
 previous_url: /controls/path/path-styling
 slug: path-styling

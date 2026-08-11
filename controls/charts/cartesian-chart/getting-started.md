@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: Getting Started with .NET MAUI Cartesian Chart
 description: Get started with the Telerik UI for .NET MAUI CartesianChart and add the control to your .NET MAUI project.
+components: ["charts"]
 tags: charts, cartesian chart, getting started, .net maui, ui for .net maui
 position: 2
 slug: charts-cartesian-getting-started

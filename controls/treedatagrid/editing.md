@@ -2,6 +2,7 @@
 title: Editing
 page_title: .NET MAUI TreeDataGrid Documentation - Editing
 description: Learn how to use the built-in column and custom editors for modifying data records in the Telerik UI for .NET MAUI TreeDataGrid.
+components: ["treedatagrid"]
 position: 11
 slug: treedatagrid-editing
 ---

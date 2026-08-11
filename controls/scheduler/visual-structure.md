@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Scheduler Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI Scheduler, and see how these elements build the visual structure of the control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-visual-structure
 ---

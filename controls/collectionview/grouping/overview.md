@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI CollectionView Documentation - Grouping
 description: Review the Telerik UI for .NET MAUI CollectionView Grouping feature.
+components: ["collectionview"]
 position: 0
 slug: collectionview-grouping
 tags: group, collectionview, grouping

@@ -2,6 +2,7 @@
 title: Context Menu
 page_title: .NET MAUI RichTextEditor Documentation - Context Menu
 description: Learn more about the options for adding and customizing the context menu in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 10
 slug: richtexteditor-context-menu
 ---

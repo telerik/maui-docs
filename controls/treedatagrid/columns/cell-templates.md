@@ -2,6 +2,7 @@
 title: Columns Cell Templates
 page_title: .NET MAUI TreeDataGrid Documentation - Columns Cell Templates
 description: Learn how to define custom cell, edit, and group header templates for columns in the Telerik UI for .NET MAUI TreeDataGrid.
+components: ["treedatagrid"]
 position: 2
 slug: treedatagrid-cell-templates
 ---

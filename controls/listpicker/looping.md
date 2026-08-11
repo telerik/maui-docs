@@ -2,6 +2,7 @@
 title: Looping
 page_title: .NET MAUI ListPicker Documentation - Looping
 description: Learn more about the looping functionality that the Telerik UI for .NET MAUI ListPicker control provides.
+components: ["listpicker"]
 position: 2
 previous_url: /controls/listpicker/listpicker-looping
 slug: listpicker-looping

@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI RichTextEditor Documentation - Commands
 description: Learn more about the exposed commands in the Telerik UI for .NET MAUI RichTextEditor control.
+components: ["richtexteditor"]
 position: 11
 slug: richtexteditor-commands
 ---

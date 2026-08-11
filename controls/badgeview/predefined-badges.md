@@ -2,6 +2,7 @@
 title: Badge Types
 page_title: .NET MAUI BadgeView Documentation - Predefined Badges
 description: Learn what are the available badges the .NET MAUI BadgeView control provides.
+components: ["badgeview"]
 tags: badge, marker, indicator, badgeview for .net maui, badge for .net maui
 position: 5
 slug: badgeview-predefined-badges

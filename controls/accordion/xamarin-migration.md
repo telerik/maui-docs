@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the Accordion from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin Accordion to the Telerik UI for .NET MAUI Accordion by updating the namespaces, the incompatible NuGet packages and API.
+components: ["accordion"]
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 position: 100
 previous_url: /controls/accordion/migrate-from-xamarin

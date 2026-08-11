@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataPager Overview
 description: .NET MAUI DataPager is a control that allows you to visualize and edit tabular data in your .NET MAUI apps.
+components: ["datapager"]
 position: 0
 slug: datapager-overview
 ---

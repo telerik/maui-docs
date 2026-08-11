@@ -2,6 +2,7 @@
 title: OverScroll Mode
 page_title: .NET MAUI SlideView Documentation - OverScroll Mode
 description: Learn how to use OverScroll property of the control.
+components: ["slideview"]
 position: 8
 slug: slideview-overscroll
 ---

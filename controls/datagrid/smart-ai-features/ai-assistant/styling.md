@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI DataGrid Documentation - Styling
 description: Learn how to customize the appearance of the Smart Assistant feature in the Telerik UI for .NET MAUI DataGrid component.
+components: ["datagrid"]
 position: 10
 slug: datagrid-ai-prompt-styling
 ---

@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI BottomSheet Documentation - Events
 description: Learn about the PositionChanged event in Telerik UI for .NET MAUI BottomSheet and how to handle position changes when the bottom sheet is dragged or programmatically moved.
+components: ["bottomsheet"]
 position: 9
 slug: bottomsheet-events
 ---

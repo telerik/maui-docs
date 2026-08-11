@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI ProgressBar Documentation - Events
 description: Learn more about the exposed events in the Telerik UI for .NET MAUI ProgressBar control.
+components: ["progressbar"]
 position: 8
 slug: progressbar-events
 ---

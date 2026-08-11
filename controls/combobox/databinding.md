@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI ComboBox Documentation - Data Binding
 description: Learn more about the ways for data binding in the Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 3
 slug: combobox-databinding
 ---

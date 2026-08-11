@@ -2,6 +2,7 @@
 title: Shape Rating
 page_title: .NET MAUI Rating Documentation - Shape Rating
 description: Check our &quot;Shape Rating&quot; documentation article for Telerik Rating for .NET MAUI.
+components: ["rating"]
 position: 3
 slug: rating-shape-rating
 ---

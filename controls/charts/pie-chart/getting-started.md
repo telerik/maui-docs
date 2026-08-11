@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: Getting Started with .NET MAUI PieChart
 description: Get started with the Telerik UI for .NET MAUI PieChart and add the control to your .NET MAUI project.
+components: ["charts"]
 tags: charts, pie chart, getting started, .net maui, ui for .net maui
 position: 2
 slug: charts-pie-getting-started

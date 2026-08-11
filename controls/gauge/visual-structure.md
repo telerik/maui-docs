@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Gauge Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI Gauge control.
+components: ["gauge"]
 position: 1
 slug: gauge-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: Ticks
 page_title: .NET MAUI CircularSlider Documentation - Ticks
 description: Learn how to configure the ticks of the Telerik UI CircularSlider for .NET MAUI. Choose where to place the ticks and choose if your slider will snap to them.
+components: ["circularslider"]
 position: 8
 slug: circularslider-ticks
 ---

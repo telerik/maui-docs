@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Map Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI Map control delivering a visualization for rich spatial data.
+components: ["map"]
 position: 0
 slug: map-overview
 ---

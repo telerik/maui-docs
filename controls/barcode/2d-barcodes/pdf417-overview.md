@@ -2,6 +2,7 @@
 title: PDF417
 page_title: .NET MAUI 2D Barcode Documentation - PDF417 Type
 description: Learn more about the two-dimensional (2D) PDF417 barcode type supported by the Telerik UI for MAUI Barcode.
+components: ["barcode"]
 position: 1
 previous_url: /controls/barcode/2d-barcodes/barcode-pdf417-overview
 slug: barcode-pdf417-overview

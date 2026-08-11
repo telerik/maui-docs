@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TreeDataGrid Documentation - Overview
 description: Learn how to use commands in the Telerik UI for .NET MAUI TreeDataGrid to execute custom logic when grid actions occur.
+components: ["treedatagrid"]
 position: 0
 slug: treedatagrid-commands-overview
 ---

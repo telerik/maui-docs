@@ -2,6 +2,7 @@
 title: Badge Indicator
 page_title: .NET MAUI BadgeView Documentation - Badge Indicator
 description: Review the main features of the Telerik UI for .NET MAUI BadgeView
+components: ["badgeview"]
 position: 4
 slug: badge-overview
 ---

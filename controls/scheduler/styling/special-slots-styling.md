@@ -2,6 +2,7 @@
 title: Special Slots Styling
 page_title: .NET MAUI Scheduler Documentation - Special Slots Styling
 description: Learn how to style the special slots in the Telerik .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 7
 slug: scheduler-special-slots-styling
 ---

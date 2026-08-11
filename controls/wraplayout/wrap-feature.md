@@ -2,6 +2,7 @@
 title: Wrap Functionality
 page_title: .NET MAUI WrapLayout Documentation - Wrap Functionality
 description: Lear how to set orientation, item sizing and position to the items in the Telerik .NET MAUI WrapLayout control. 
+components: ["wraplayout"]
 position: 2
 previous_url: /controls/wraplayout/wraplayout-wrap-feature
 slug: wraplayout-wrap-feature

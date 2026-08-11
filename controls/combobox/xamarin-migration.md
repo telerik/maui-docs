@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: .NET MAUI ComboBox Documentation - Migrate from Xamarin
 description: Learn how to migrate from Xamarin.Forms ComboBox to .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 100
 tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, migration, xamarin.forms
 previous_url: /controls/combobox/migrate-from-xamarin

@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI SlideView Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI SlideView to programmatically navigate throught the items.
+components: ["slideview"]
 position: 13
 slug: slideview-commands
 ---

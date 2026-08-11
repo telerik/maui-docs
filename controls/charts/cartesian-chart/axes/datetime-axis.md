@@ -2,6 +2,7 @@
 title: Date-Time Axis
 page_title: .NET MAUI Cartesian Chart Documentation - Date-Time Axis
 description: Learn how to use the DateTimeAxis in the Telerik UI for .NET MAUI Cartesian Chart to plot data points on a time line and configure its range, step, ticks, label format, and styling.
+components: ["charts"]
 tags: charts, cartesian chart, axes, datetime, .net maui
 position: 3
 slug: charts-cartesian-datetime-axis

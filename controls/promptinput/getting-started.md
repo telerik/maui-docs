@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI PromptInput Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI PromptInput control and add the control to your .NET MAUI project.
+components: ["promptinput"]
 position: 2
 slug: promptinput-getting-started
 ---

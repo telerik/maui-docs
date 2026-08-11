@@ -2,6 +2,7 @@
 title: Empty Template
 page_title: .NET MAUI TreeDataGrid Documentation - Empty Template
 description: Learn how to display a custom empty template in the Telerik UI for .NET MAUI TreeDataGrid when ItemsSource is null or empty.
+components: ["treedatagrid"]
 position: 18
 slug: treedatagrid-empty-template
 ---

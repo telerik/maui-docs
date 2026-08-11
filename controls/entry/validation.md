@@ -2,6 +2,7 @@
 title: Validation
 page_title: .NET MAUI Entry Documentation - Validation
 description: Learn what are the validation options available in the Telerik UI for .NET MAUI Entry control.
+components: ["entry"]
 position: 4
 slug: entry-validation
 ---

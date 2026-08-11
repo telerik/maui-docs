@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI SideDrawer Documentation - Commands
 description: Review the commands for opening and closing the Telerik UI for .NET MAUI SideDrawer control.
+components: ["sidedrawer"]
 position: 5
 slug: sidedrawer-features-commands
 ---

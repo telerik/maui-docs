@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI ToggleButton Documentation - Events
 description: Review the ToggleButton events that are raised when the button is pressed, clicked, released, or its toggle state changes.
+components: ["togglebutton"]
 position: 7
 slug: togglebutton-events
 ---

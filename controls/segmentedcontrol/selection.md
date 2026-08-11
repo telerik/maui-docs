@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI SegmentedControl Documentation - Selection
 description: Learn more about the selection functionality that the Telerik UI for .NET MAUI SegmentedControl provides, including selection modes, events, and commands.
+components: ["segmentedcontrol"]
 slug: segmentedcontrol-selection
 tags: selection
 position: 5

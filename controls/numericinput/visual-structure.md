@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI NumericInput Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI NumericInput control.
+components: ["numericinput"]
 position: 1
 slug: numericinput-visual-structure
 ---

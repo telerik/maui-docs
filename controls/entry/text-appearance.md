@@ -2,6 +2,7 @@
 title: Text Appearance
 page_title: .NET MAUI Entry Documentation - Text Appearance
 description: Learn how to use the text input configuration options of the Telerik UI for .NET MAUI Entry control and show a placeholder, set the read-only state, define the max length of the input, and more.
+components: ["entry"]
 position: 2
 previous_url: /controls/entry/entry-text-appearance
 slug: entry-text-appearance

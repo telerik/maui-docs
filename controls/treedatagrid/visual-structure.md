@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI TreeDataGrid Documentation - TreeDataGrid Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI TreeDataGrid control.
+components: ["treedatagrid"]
 position: 1
 slug: treedatagrid-visual-structure
 ---

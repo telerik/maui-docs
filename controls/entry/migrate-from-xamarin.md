@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the Entry from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin Entry to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
+components: ["entry"]
 position: 20
 slug: entry-migrate-from-xamarin
 ---

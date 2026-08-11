@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI TemplatedPicker Documentation - Events
 description: Learn more about the SelectionChanged event which the Telerik UI for .NET MAUI exposes.
+components: ["templatedpicker"]
 position: 5
 previous_url: /controls/templatedpicker/templatedpicker-events
 slug: templatedpicker-events

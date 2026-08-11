@@ -2,6 +2,7 @@
 title: Labels
 page_title: .NET MAUI CircularSlider Documentation - Labels
 description: Learn how to configure the labels of the Telerik UI CircularSlider for .NET MAUI. Set how labels display along the arc, or show custom text instead of range values.
+components: ["circularslider"]
 position: 9
 slug: circularslider-labels
 ---

@@ -2,6 +2,7 @@
 title: Grid Lines
 page_title: .NET MAUI Cartesian Chart Documentation - Grid Lines
 description: Learn how to display and customize the grid lines of the Telerik UI for .NET MAUI Cartesian Chart.
+components: ["charts"]
 tags: charts, cartesian chart, grid lines, .net maui, ui for .net maui
 position: 5
 slug: charts-cartesian-grid-lines

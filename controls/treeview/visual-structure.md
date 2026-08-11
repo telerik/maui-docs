@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI TreeView Documentation - Visual Structure
 description: Learn what are the visual elements that the Telerik TreeView for .NET MAUI displays and see the visual structure of the control.
+components: ["treeview"]
 position: 1
 slug: treeview-visual-structure
 ---

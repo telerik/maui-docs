@@ -2,6 +2,7 @@
 title: Search as You Type
 page_title: .NET MAUI DataGrid Documentation - Search as You Type
 description: Learn how to use the Search as You Type feature in the Telerik UI for .NET MAUI DataGrid with search settings, methods, and events.
+components: ["datagrid"]
 position: 3
 tags: grid, data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: datagrid-search-as-you-type

@@ -2,6 +2,7 @@
 title: TrackBall Behavior
 page_title: .NET MAUI Chart Documentation - TrackBall Behavior
 description: Learn more about the Trackball behavior in the Telerik UI for .NET MAUI Chart control.
+components: ["chart"]
 position: 2
 previous_url: /controls/chart/behaviors/chart-behaviors-trackball-behavior
 slug: chart-behaviors-trackball

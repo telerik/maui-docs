@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI ListPicker Documentation - Commands
 description: Use the exposed commands of the Telerik UI for .NET MAUI ListPicker to programmatically manipulate the display of its popup and clear selected dates or accept or cancel the date selection.
+components: ["listpicker"]
 position: 7
 previous_url: /controls/listpicker/listpicker-commands
 slug: listpicker-commands

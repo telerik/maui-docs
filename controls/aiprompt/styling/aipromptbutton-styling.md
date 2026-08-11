@@ -2,6 +2,7 @@
 title: AIPrompt Button Styling
 page_title: .NET MAUI AIPrompt Documentation -AIPrompt Button  Styling
 description: Learn how to style the AIPrompt Button for showing the AIPrompt inside a popup in the Telerik .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 5
 slug: aiprompt-aipromptbutton-styling
 ---

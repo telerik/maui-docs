@@ -2,6 +2,7 @@
 title: Track Configuration
 page_title: .NET MAUI RangeSlider Documentation - Track Configuration
 description: Learn how to use the track configuration options that Telerik UI RangeSlider for .NET MAUI control provides.
+components: ["rangeslider"]
 position: 4
 slug: rangeslider-track-configuration
 ---

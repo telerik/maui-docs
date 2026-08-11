@@ -2,6 +2,7 @@
 title: Read-Only Mode
 page_title: .NET MAUI NumericInput Documentation - Read-Only Mode
 description: Learn more about the read-only mode in the Telerik UI for .NET MAUI NumericInput control.
+components: ["numericinput"]
 position: 4
 previous_url: /controls/numericinput/numericinput-read-only-mode
 slug: numericinput-read-only-mode

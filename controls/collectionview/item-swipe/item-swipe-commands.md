@@ -2,6 +2,7 @@
 title: Item Swipe Commands
 page_title: .NET MAUI CollectionView Documentation - Item Swipe Commands
 description: Review the Telerik UI for .NET MAUI CollectionView Item Swipe Commands.
+components: ["collectionview"]
 position: 2
 slug: collectionview-item-swipe-commands
 tags: item-swipe, collectionview, swiping, commands

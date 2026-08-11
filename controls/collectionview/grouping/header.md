@@ -2,6 +2,7 @@
 title: Group View
 page_title: .NET MAUI CollectionView Documentation - Group View
 description: Check the Telerik UI for .NET MAUI CollectionView GroupView's BindingContext properties and how to define a custom GroupHeaderTemplate.
+components: ["collectionview"]
 position: 1
 slug: collectionview-group-header
 tags: group, collectionview, groupdescriptor, custom group header

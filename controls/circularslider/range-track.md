@@ -2,6 +2,7 @@
 title: Range Track
 page_title: .NET MAUI CircularSlider Documentation - Range Track
 description: Learn how to configure the range track of the Telerik UI CircularSlider for .NET MAUI.
+components: ["circularslider"]
 position: 7
 slug: circularslider-range-track
 ---

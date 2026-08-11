@@ -2,6 +2,7 @@
 title: Indeterminate Mode
 page_title: .NET MAUI ProgressBar Documentation - Indeterminate Mode
 description: Check our &quot;Indeterminate Mode&quot; documentation article for Telerik ProgressBar for .NET MAUI control.
+components: ["progressbar"]
 position: 4
 slug: progressbar-indeterminate-mode
 ---

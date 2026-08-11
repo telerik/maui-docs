@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI Button Command
 description: Learn how to bind the Telerik UI for .NET MAUI Button to a command and command parameter and reuse the same action from keyboard input.
+components: ["button"]
 position: 4
 slug: button-command
 ---

@@ -2,6 +2,7 @@
 title: Labels Styling
 page_title: .NET MAUI CircularSlider Documentation - Labels Styling
 description: Learn how to style the labels of the Telerik UI for .NET MAUI CircularSlider. Set the colors and fonts, or use the style selector for a more complex styling approach.
+components: ["circularslider"]
 position: 3
 slug: circularslider-labels-styling
 ---

@@ -2,6 +2,7 @@
 title: Keyboard Navigation
 meta_title: .NET MAUI TimeSpanPicker Documentation - Keyboard Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI TimeSpanPicker accessibility standards.
+components: ["timespanpicker"]
 position: 1
 slug: timespanpicker-keyboard-support
 ---

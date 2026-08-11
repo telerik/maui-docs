@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI NumericInput Documentation - Styling
 description: Learn more about styling options in Telerik UI for .NET MAUI NumericInput control.
+components: ["numericinput"]
 position: 15
 previous_url: /controls/numericinput/numericinput-control-template
 slug: numericinput-styling

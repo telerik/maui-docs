@@ -2,6 +2,7 @@
 title: Methods
 page_title: .NET MAUI BottomSheet Documentation - Methods
 description: Learn about the methods that the Telerik UI for .NET MAUI BottomSheet control exposes and find out how to use them to configure the UI component.
+components: ["bottomsheet"]
 position: 11
 slug: bottomsheet-methods
 ---

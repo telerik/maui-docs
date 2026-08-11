@@ -2,6 +2,7 @@
 title: Item Template
 page_title: .NET MAUI SlideView Documentation - Item Template
 description: Learn how to customize the visualization of the views in the ItemsSource of the control by using the ItemTemplate property.
+components: ["slideview"]
 position: 8
 slug: slideview-item-template
 ---

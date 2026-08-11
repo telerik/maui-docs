@@ -2,6 +2,7 @@
 title: Text Selection
 page_title: .NET MAUI Editor Documentation - Text Selection
 description: Learn how to specify the starting position of the selected text input and the number of characters in the current selection of the Telerik Editor for .NET MAUI control.
+components: ["editor"]
 position: 3
 slug: editor-text-selection
 ---

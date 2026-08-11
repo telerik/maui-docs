@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI TabView Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI TabView and add the control to your .NET MAUI project.
+components: ["tabview"]
 position: 2
 slug: tabview-getting-started
 ---

@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI ToggleButton Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI ToggleButton control and add the control to your .NET MAUI project.
+components: ["togglebutton"]
 position: 2
 slug: togglebutton-getting-started
 ---

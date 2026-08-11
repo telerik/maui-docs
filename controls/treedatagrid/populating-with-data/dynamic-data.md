@@ -2,6 +2,7 @@
 title: Binding to Dynamic Data
 page_title: .NET MAUI TreeDataGrid Documentation - Dynamic Data
 description: Learn how to bind the Telerik UI for .NET MAUI TreeDataGrid to different types of dynamic data - expando and dynamic objects.
+components: ["treedatagrid"]
 position: 2
 slug: treedatagrid-dynamic-data
 tags: binding, dynamic, data, expando, dynamic object, dotnet maui, maui, datagrid

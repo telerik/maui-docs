@@ -2,6 +2,7 @@
 title: Data Point Labels
 page_title: .NET MAUI CartesianChart Documentation - Data Point Labels
 description: Learn how to display and customize the data point labels of the Telerik UI for .NET MAUI CartesianChart series.
+components: ["charts"]
 tags: charts, cartesian chart, data point labels, .net maui, ui for .net maui
 position: 6
 slug: charts-cartesian-data-point-labels

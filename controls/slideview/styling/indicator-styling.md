@@ -2,6 +2,7 @@
 title: SlideView Navigation Indicator Styling
 page_title: .NET MAUI SlideView Documentation - SlideView Indicator Styling
 description: Learn how to style and customize the .NET Maui SlideView Indicators.
+components: ["slideview"]
 position: 12
 slug: indicators-styling
 ---

@@ -2,6 +2,7 @@
 title: ItemTemplateSelector
 page_title: .NET MAUI Conversational UI Documentation - RadChat ItemTemplateSelector
 description: Learn more about ItemTemplateSelector property that RadChat control provides
+components: ["chat"]
 position: 9
 slug: chat-itemtemplate-selector
 ---

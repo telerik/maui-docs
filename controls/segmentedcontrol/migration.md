@@ -2,6 +2,7 @@
 title: Migrating to SegmentedControl after 14.0.0 version
 meta_title: Migrating the SegmentedControl after 14.0.0 version of Telerik UI for .NET MAUI
 description: Learn how to migrate to the new SegmentedControl released in Telerik UI for .NET MAUI 14.0.0 version&mdash;updated API, data binding, selection, and styling.
+components: ["segmentedcontrol"]
 slug: segmented-migration
 position: 30
 ---

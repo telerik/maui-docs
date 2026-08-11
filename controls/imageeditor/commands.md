@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI ImageEditor Documentation - Commands
 description: Learn more about the commands in the Telerik UI for .NET MAUI ImageEditor control provides like hue, rotate, crop, saturation, brightness and more.
+components: ["imageeditor"]
 position: 10
 slug: imageeditor-commands
 ---

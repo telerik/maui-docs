@@ -2,6 +2,7 @@
 title: Special Slot Template
 page_title: .NET MAUI Scheduler Documentation - Special Slot Template
 description: Learn more about the special slot template feature in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-special-slot-template
 ---

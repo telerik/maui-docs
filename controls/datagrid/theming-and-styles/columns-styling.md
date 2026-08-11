@@ -2,6 +2,7 @@
 title: Columns Styling
 page_title: .NET MAUI DataGrid Documentation - Columns Styling
 description: Learn how to style column headers, cells, and content in the Telerik UI for .NET MAUI DataGrid using the columns styling API.
+components: ["datagrid"]
 position: 1
 previous_url: /controls/datagrid/theming-and-styles/datagrid-columns-styling
 slug: datagrid-columns-styling

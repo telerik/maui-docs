@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DataGrid Documentation - Aggregates Overview
 description: Learn how to apply built-in aggregate functions such as Sum, Count, Min, Max, and Average in the .NET MAUI DataGrid.
+components: ["datagrid"]
 position: 0
 slug: datagrid-aggregates
 ---

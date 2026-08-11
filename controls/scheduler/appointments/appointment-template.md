@@ -2,6 +2,7 @@
 title: Appointment Template
 page_title: .NET MAUI Scheduler Documentation - Appointment Template
 description: Learn more about the appointment template feature in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-appointment-template
 ---

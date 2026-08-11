@@ -2,6 +2,7 @@
 title: Keyboard Support
 page_title: .NET MAUI ComboBox Documentation - Keyboard Support for WinUI and MacCatalyst
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI ComboBox accessibility standards.
+components: ["combobox"]
 position: 6
 slug: combobox-keyboard-support
 ---

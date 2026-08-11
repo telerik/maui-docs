@@ -2,6 +2,7 @@
 title: Picker Editors
 page_title: .NET MAUI DataForm Documentation - Picker Editors
 description: Learn more about the pickers editors that Telerik UI for .NET MAUI provides.
+components: ["dataform"]
 position: 2
 slug: dataform-picker-editors
 ---

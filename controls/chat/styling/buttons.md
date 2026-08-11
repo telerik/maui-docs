@@ -2,6 +2,7 @@
 title: Buttons
 page_title: .NET MAUI Chat Documentation - Buttons Styling
 description: Learn how to style the buttons inside the Telerik UI for .NET MAUI Chat control.
+components: ["chat"]
 position: 6
 tags: .net maui, telerik .net maui, ui for .net maui, chat, style
 slug: chat-buttons-styling

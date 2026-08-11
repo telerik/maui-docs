@@ -2,6 +2,7 @@
 title: Filter Control Template
 page_title: .NET MAUI TreeDataGrid Documentation - Filter Control Template
 description: Learn how to apply a custom filter control to a TreeDataGrid column using the FilterControlTemplate property in .NET MAUI.
+components: ["treedatagrid"]
 position: 2
 slug: treedatagrid-filter-control-template
 ---

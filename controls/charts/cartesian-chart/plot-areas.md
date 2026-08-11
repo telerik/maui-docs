@@ -2,6 +2,7 @@
 title: Plot Areas
 page_title: .NET MAUI CartesianChart Documentation - Plot Areas
 description: Learn how to split the Telerik UI for .NET MAUI CartesianChart into separate plot areas.
+components: ["charts"]
 tags: charts, cartesian chart, plot areas, .net maui, ui for .net maui
 position: 9
 slug: charts-cartesian-plot-areas

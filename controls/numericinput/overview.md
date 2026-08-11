@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI NumericInput Documentation - Overview
 description: Try now the Telerik NumericInput for .NET MAUI delivering a set of options for customizing numeric input values.
+components: ["numericinput"]
 position: 0
 previous_url: /controls/numericinput/numericinput-overview
 slug: numericinput-overview

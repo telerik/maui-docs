@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI AutoComplete Documentation - AutoComplete Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI AutoComplete control.
+components: ["autocomplete"]
 position: 0
 slug: autocomplete-visual-structure
 ---

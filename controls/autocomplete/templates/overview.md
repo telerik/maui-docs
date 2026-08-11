@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI AutoComplete Documentation - Overview
 description: Check our &quot;Overview&quot; documentation article for Telerik AutoComplete for .NET MAUI.
+components: ["autocomplete"]
 position: 0
 slug: autocomplete-custom-templates
 ---

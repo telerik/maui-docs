@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI DataPager Documentation - DataPager Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI DataPager, and see how these elements build the visual structure of the control.
+components: ["datapager"]
 position: 1
 slug: datapager-visual-structure
 ---

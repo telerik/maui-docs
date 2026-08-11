@@ -2,6 +2,7 @@
 title: ToolTip Behavior
 page_title: .NET MAUI Chart Documentation - ToolTip Behavior
 description: Learn more about the tooltip behavior of the Chart that renders concise information about a data point in a small popup.
+components: ["chart"]
 position: 3
 previous_url: /controls/chart/behaviors/chart-behaviors-tooltip-behavior
 slug: chart-behaviors-tooltip

@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI SpeechToTextButton Documentation - SpeechToTextButton Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI SpeechToTextButton, and see how these elements build the visual structure of the control.
+components: ["speechtotextbutton"]
 position: 1
 slug: speechtotextbutton-visual-structure
 ---

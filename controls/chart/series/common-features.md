@@ -2,6 +2,7 @@
 title: Common Series Features
 page_title: .NET MAUI Chart Documentation - Common Series Features
 description: Learn more about the features that the Telerik UI for .NET MAUI Chart control exposes.
+components: ["chart"]
 slug: chart-series-features
 previous_url: /controls/chart/series/chart-series-features
 position: 1

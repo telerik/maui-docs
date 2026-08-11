@@ -2,6 +2,7 @@
 title: Modal Popup
 page_title: .NET MAUI Popup Documentation - Modal Popup
 description: Determine whether the Telerik UI for .NET MAUI Popup will be rendered as a modal or non-modal UI element.
+components: ["popup"]
 position: 3
 slug: popup-modal
 ---

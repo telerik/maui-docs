@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Scheduler Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 0
 slug: scheduler-overview
 ---

@@ -2,6 +2,7 @@
 title: Month Styling
 page_title: .NET MAUI Calendar Documentation - Month Styling
 description: Learn how to style the months in a year view of the Telerik .NET MAUI Calendar control.
+components: ["calendar"]
 position: 4
 slug: calendar-month-styling
 ---

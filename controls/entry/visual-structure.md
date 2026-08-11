@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI Entry Documentation - Entry Visual Structure
 description: Learn more about the visual elements used in the Telerik UI for .NET MAUI Entry control.
+components: ["entry"]
 position: 0
 slug: entry-visual-structure
 ---

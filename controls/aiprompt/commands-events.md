@@ -2,6 +2,7 @@
 title: Commands & Events
 page_title: .NET MAUI AIPrompt Documentation - Commands & Events
 description: Learn more about the commands and events in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 8
 slug: aiprompt-commands-events
 ---

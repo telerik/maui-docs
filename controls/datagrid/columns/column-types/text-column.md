@@ -2,6 +2,7 @@
 title: Text Column
 page_title: .NET MAUI DataGrid Documentation - Text Column
 description: Learn how to use the Text column in the Telerik UI for .NET MAUI DataGrid to display and edit string data.
+components: ["datagrid"]
 position: 0
 slug: datagrid-columns-text-column
 ---

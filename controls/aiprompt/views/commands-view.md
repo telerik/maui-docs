@@ -2,6 +2,7 @@
 title: Commands View
 page_title: .NET MAUI AIPrompt Documentation - Commands View
 description: Learn more about the commands view in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 3
 slug: aiprompt-commands-view
 ---

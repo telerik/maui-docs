@@ -2,6 +2,7 @@
 title: ListPickerButton
 page_title: .NET MAUI Toolbar Documentation - ListPickerButton ToolbarItem
 description: Review the Toolbar list picker button item for .NET MAUI.
+components: ["toolbar"]
 position: 5
 slug: toolbar-items-listpicker-button
 ---

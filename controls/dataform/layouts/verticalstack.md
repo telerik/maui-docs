@@ -2,6 +2,7 @@
 title: VerticalStackLayout
 page_title: .NET MAUI DataForm Documentation - VerticalStackLayout
 description: Review the Telerik UI for .NET MAUI DataForm VerticalStackLayout option.
+components: ["dataform"]
 position: 1
 slug: dataform-layouts-verticalstack
 ---

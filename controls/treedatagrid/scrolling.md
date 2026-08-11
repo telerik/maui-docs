@@ -2,6 +2,7 @@
 title: Scrolling
 page_title: .NET MAUI TreeDataGrid Documentation - Scrolling
 description: Learn how to programmatically scroll to items in the Telerik UI for .NET MAUI TreeDataGrid using the ScrollItemIntoView method.
+components: ["treedatagrid"]
 position: 18
 slug: treedatagrid-scrolling
 tags: programmatic, scrolling

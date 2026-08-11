@@ -3,6 +3,7 @@ title: OHLC Series
 page_title: .NET MAUI Chart Documentation - OHLC Series
 slug: chart-series-ohlc-series
 description: Learn more about the OHLC Series in the Telerik UI for .NET MAUI Chart control.
+components: ["chart"]
 position: 0
 ---
 

@@ -2,6 +2,7 @@
 title: Selection
 page_title: .NET MAUI DataGrid Documentation - Selection
 description: Learn how to enable single and multiple selection in the Telerik UI for .NET MAUI DataGrid and use selection properties, events, and methods.
+components: ["datagrid"]
 position: 10
 slug: datagrid-selection-overview
 ---

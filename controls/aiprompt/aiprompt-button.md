@@ -2,6 +2,7 @@
 title: AIPrompt Button
 page_title: .NET MAUI AIPrompt Documentation - AIPrompt Button
 description: Learn more about the AIPrompt button in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 5
 slug: aiprompt-aipromptbutton
 ---

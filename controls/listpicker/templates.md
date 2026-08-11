@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI ListPicker Documentation - Templates
 description: Learn more about the templates in the Telerik UI for .NET MAUI ListPicker control.
+components: ["listpicker"]
 position: 6
 previous_url: /controls/listpicker/listpicker-templates
 slug: listpicker-templates

@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI ImageEditor Documentation - Visual Structure
 description: Learn what are the visual elements that the Telerik ImageEditor for .NET MAUI displays and see the visual structure of the control.
+components: ["imageeditor"]
 position: 0
 slug: imageeditor-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: Range Thumb
 page_title: .NET MAUI RangeSlider Documentation - Range Thumb
 description: Learn how to use the range thumb that Telerik UI RangeSlider for .NET MAUI control provides.
+components: ["rangeslider"]
 position: 3
 slug: rangeslider-range-thumb
 ---

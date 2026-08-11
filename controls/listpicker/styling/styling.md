@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI  ListPicker Documentation - Styling
 description: Check our &quot;Styling&quot; documentation article for Telerik ListPicker for .NET MAUI.
+components: ["listpicker"]
 position: 1
 slug: listpicker-styling
 ---

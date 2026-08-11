@@ -2,6 +2,7 @@
 title: MacCatalyst
 page_title: .NET MAUI CollectionView Documentation - Keyboard Support on MacCatalyst
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI CollectionView accessibility standards.
+components: ["collectionview"]
 position: 2
 previous_url: /controls/collectionview/accessibility/keyboard-navgation/maccatalyst
 slug: collectionview-keyboard-support-mac

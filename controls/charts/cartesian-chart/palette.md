@@ -2,6 +2,7 @@
 title: Palette
 page_title: .NET MAUI CartesianChart Documentation - Palette
 description: Learn how to control the colors of the Telerik UI for .NET MAUI Cartesian Chart series through a palette.
+components: ["charts"]
 tags: charts, cartesian chart, palette, colors, .net maui, ui for .net maui
 position: 8
 slug: charts-cartesian-palette

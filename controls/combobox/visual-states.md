@@ -2,6 +2,7 @@
 title: Visual States
 page_title: .NET MAUI ComboBox Documentation - Visual States
 description: Learn how to set the border color, background color, and other visual states for the Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 15
 tags: .net maui, telerik .net maui, ui for .net maui, combobox, states, microsoft .net maui
 slug: combobox-visual-states

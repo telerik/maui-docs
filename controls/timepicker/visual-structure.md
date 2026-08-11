@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI TimePicker Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI TimePicker, and see how these elements build the visual structure of the control.
+components: ["timepicker"]
 position: 0
 previous_url: /controls/timepicker/timepicker-visual-structure
 slug: timepicker-visual-structure

@@ -2,6 +2,7 @@
 title: Getting Started
 page_title: .NET MAUI RangeSlider Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI RangeSlider and add the control to your .NET MAUI project.
+components: ["rangeslider"]
 position: 1
 slug: rangeslider-getting-started
 ---

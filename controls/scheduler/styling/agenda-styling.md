@@ -2,6 +2,7 @@
 title: Agenda Styling
 page_title: .NET MAUI Scheduler Documentation - Agenda Styling
 description: Learn how to style the agenda view of the Telerik .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 3
 slug: scheduler-agenda-styling
 ---

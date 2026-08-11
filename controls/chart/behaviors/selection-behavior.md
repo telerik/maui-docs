@@ -2,6 +2,7 @@
 title: Selection Behavior
 page_title: .NET MAUI Chart Documentation - Selection Behavior
 description: Learn more about the selection behavior in the Telerik UI for .NET MAUI Chart control.
+components: ["chart"]
 position: 1
 previous_url: /controls/chart/behaviors/chart-behaviors-selection-behavior
 slug: chart-behaviors-selection

@@ -2,6 +2,7 @@
 title: TimeRuler Labels Styling
 page_title: .NET MAUI Scheduler Documentation - TimeRuler Labels Styling
 description: Review the styling options that the Telerik UI for .NET MAUI Scheduler control provides for the labels on the time ruler for day, week and multiday views.
+components: ["scheduler"]
 position: 5
 slug: scheduler-timeruler-labels-styling
 ---

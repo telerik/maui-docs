@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI TimeSpanPicker Documentation - Visual Structure
 description: Learn what visual elements the Telerik TimeSpanPicker for .NET MAUI displays, and explore the visual structure of the control.
+components: ["timespanpicker"]
 position: 0
 previous_url: /controls/timespanpicker/timespanpicker-visual-structure
 slug: timespanpicker-visual-structure

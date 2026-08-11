@@ -3,6 +3,7 @@ title: Null Values
 page_title: .NET MAUI Chart Documentation - Null Values Support
 position: 10
 description: Learn more about the support for null values in the .NET MAUI Chart by Telerik.
+components: ["chart"]
 tags: .net maui, ui for .net maui, microsoft, maui
 previous_url: /controls/chart/chart-nullvalues
 slug: chart-nullvalues

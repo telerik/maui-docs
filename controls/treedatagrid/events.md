@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI TreeDataGrid Documentation - Events
 description: Learn about the TreeDataGrid events for handling user interactions such as loading on demand, data binding, and more.
+components: ["treedatagrid"]
 position: 20
 tags: events
 slug: treedatagrid-events

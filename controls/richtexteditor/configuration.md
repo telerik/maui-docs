@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI RichTextEditor Documentation - Configuration
 description: Check our &quot;Configuration&quot; documentation article for Telerik RichTextEditor for .NET MAUI control.
+components: ["richtexteditor"]
 position: 3
 slug: richtexteditor-configuration
 ---

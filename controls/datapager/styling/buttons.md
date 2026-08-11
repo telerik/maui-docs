@@ -2,6 +2,7 @@
 title: Buttons Styling
 page_title: .NET MAUI DataPager Documentation - Buttons Styling
 description: Learn how to style the navigation buttons and page buttons in the Telerik UI for .NET MAUI DataPager control.
+components: ["datapager"]
 position: 1
 slug: datapager-styling-buttons
 ---

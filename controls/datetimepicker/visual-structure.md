@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI DateTimePicker Documentation - Visual Structure
 description: Learn what visual elements are displayed by the Telerik UI for .NET MAUI DateTimePicker, and see how these elements build the visual structure of the control.
+components: ["datetimepicker"]
 position: 0
 slug: datetimepicker-visual-structure
 ---

@@ -2,6 +2,7 @@
 title: Input View Styling
 page_title: .NET MAUI AIPrompt Documentation - Input View Styling
 description: Learn how to style the editor and the input button inside the input view of the Telerik .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 1
 slug: aiprompt-inputview-styling
 ---

@@ -2,6 +2,7 @@
 title: Animation
 page_title: .NET MAUI Accordion Documentation - Animation
 description: Try now the Telerik Accordion for .NET MAUI that delivers an animation when expanding/collapsing an accordion item
+components: ["accordion"]
 position: 5
 slug: accordion-animation
 ---

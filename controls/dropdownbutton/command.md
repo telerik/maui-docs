@@ -2,6 +2,7 @@
 title: Command
 page_title: .NET MAUI DropDownButton Documentation - Command
 description: Learn how to attach and use the Command and CommandParameter properties of the Telerik UI for .NET MAUI DropDownButton.
+components: ["dropdownbutton"]
 position: 7
 slug: dropdownbutton-command
 ---

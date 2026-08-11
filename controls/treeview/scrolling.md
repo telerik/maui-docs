@@ -2,6 +2,7 @@
 title: Scrolling
 page_title: .NET MAUI TreeView Documentation - Scrolling
 description: Review the horizontal and vertical scrolling options available in TreeView for .NET MAUI.
+components: ["treeview"]
 position: 6
 slug: treeview-scrolling
 ---

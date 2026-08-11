@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI CheckBox Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI CheckBox control.
+components: ["checkbox"]
 position: 1
 slug: checkbox-visual-structure
 ---

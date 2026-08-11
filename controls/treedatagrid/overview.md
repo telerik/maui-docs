@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI TreeDataGrid Overview
 description: Display and edit hierarchical tabular data in .NET MAUI apps with the Telerik UI TreeDataGrid featuring sorting, filtering, and editing.
+components: ["treedatagrid"]
 position: 0
 tags: grid, tree data grid, maui grid, dot net maui grid, dotnet maui grid
 slug: treedatagrid-overview

@@ -2,6 +2,7 @@
 title: Header Text Formatting
 page_title: .NET MAUI Calendar Documentation - Header Text Formatting
 description: Learn how to format the header text of the Telerik UI for .NET MAUI Calendar control.
+components: ["calendar"]
 position: 9
 slug: calendar-date-formatting
 ---

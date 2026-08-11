@@ -2,6 +2,7 @@
 title: Configuration
 page_title: .NET MAUI DataGrid Documentation - Configuration
 description: Learn how to configure the .NET MAUI DataGrid AI Semantic Search.
+components: ["datagrid"]
 position: 2
 slug: datagrid-ai-semantic-search-configuration
 ---

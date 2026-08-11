@@ -1,7 +1,8 @@
 ---
 title: Overview
 meta_title: .NET MAUI Skeleton Documentation - Overview
-description: 
+description: Try now the Telerik .NET MAUI Skeleton control to create a smooth and engaging loading experience for your app users.
+components: ["skeleton"]
 tags: shimmer for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: skeleton-overview

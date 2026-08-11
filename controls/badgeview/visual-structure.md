@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI BadgeView Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI BadgeView control.
+components: ["badgeview"]
 position: 1
 slug: badgeview-visual-structure
 ---

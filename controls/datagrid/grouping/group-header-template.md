@@ -2,6 +2,7 @@
 title: Group Header Template
 page_title: .NET MAUI DataGrid Documentation - Group Header Template
 description: Learn how to define a custom group header template in the Telerik UI for .NET MAUI DataGrid to control the group row appearance.
+components: ["datagrid"]
 position: 5
 slug: datagrid-group-header-template
 ---

@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI SlideView Documentation - Overview
 description: Try now the Telerik SlideView for .NET MAUI delivering a flexible navigation between different views, convenient item templates, and UI virtualization.
+components: ["slideview"]
 position: 0
 slug: slideview-overview
 ---

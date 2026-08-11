@@ -2,6 +2,7 @@
 title: Donut Series
 page_title: .NET MAUI PieChart Documentation - Series
 description: Learn about the pie and donut series supported by the Telerik UI for .NET MAUI PieChart.
+components: ["charts"]
 tags: charts, pie chart, series, pie, donut, .net maui, ui for .net maui
 position: 3
 slug: charts-donut-series

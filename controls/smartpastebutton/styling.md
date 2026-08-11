@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI SmartPasteButton Documentation - Styling
 description: Learn how to set the border color and border thickness of the Telerik SmartPasteButton for .NET MAUI.
+components: ["smartpastebutton"]
 position: 10
 tags: .net maui, telerik .net maui, ui for .net maui, smartpastebutton, microsoft .net maui
 slug: smartpastebutton-styling

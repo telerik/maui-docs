@@ -2,6 +2,7 @@
 title: Layers Overview
 page_title: .NET MAUI Map Documentation - Map Layers Overview
 description: Learn more about the Map Layers used in Telerik UI for .NET MAUI Map control.
+components: ["map"]
 position: 0
 slug: map-layers-overview
 ---

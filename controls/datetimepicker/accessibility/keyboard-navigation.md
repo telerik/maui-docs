@@ -2,6 +2,7 @@
 title: Keyboard Navigation
 meta_title: .NET MAUI DateTimePicker Documentation - Keyboard Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI DateTimePicker accessibility standards.
+components: ["datetimepicker"]
 position: 1
 slug: datetimepicker-keyboard-support
 ---

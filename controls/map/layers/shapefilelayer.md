@@ -2,6 +2,7 @@
 title: Shapefile Layer
 page_title: .NET MAUI Map Documentation - Map ShapefileLayer
 description: Learn more about the Shapefile Layer used in Telerik UI for .NET MAUI Map control.
+components: ["map"]
 position: 1
 slug: map-layers-shapefilelayer
 ---

@@ -2,6 +2,7 @@
 title: Output View
 page_title: .NET MAUI AIPrompt Documentation - Output View
 description: Learn more about the output view in the Telerik UI for .NET MAUI AIPrompt control.
+components: ["aiprompt"]
 position: 2
 slug: aiprompt-output-view
 ---

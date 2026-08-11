@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI PDF Viewer Documentation - Commands
 description: Learn more about the commands for opening and closing the search view in the .NET MAUI PDF Viewer.
+components: ["pdfviewer"]
 position: 5
 slug: pdfviewer-search-commands
 ---

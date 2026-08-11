@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Slider Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI Slider to let your users select a value from a defined range. The Slider component supports fully customizable ticks, labels, and tooltips.
+components: ["slider"]
 position: 1
 slug: slider-overview
 ---

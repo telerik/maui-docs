@@ -2,6 +2,7 @@
 title: Migrating from Xamarin
 page_title: Migrating the MaskedInput from Xamarin.Forms to .NET MAUI
 description: Learn how to migrate the Telerik UI for Xamarin MaskedInput to the Telerik UI for .NET MAUI framework by updating the namespaces and the incompatible NuGet packages.
+components: ["maskedentry"]
 position: 20
 slug: maskedentry-migrate-from-xamarin
 ---

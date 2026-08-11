@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI PieChart Documentation - Overview
 description: Explore the Telerik UI for .NET MAUI PieChart that plots data as proportional slices by using pie and donut series.
+components: ["charts"]
 tags: charts, pie chart, .net maui, ui for .net maui
 position: 0
 slug: charts-pie-overview

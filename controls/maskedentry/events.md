@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI MaskedEntry Documentation - Events
 description: Learn more about the exposed events in the Telerik UI for .NET MAUI MaskedEntry control.
+components: ["maskedentry"]
 position: 10
 previous_url: /controls/maskedentry/maskedentry-events
 slug: maskedentry-events

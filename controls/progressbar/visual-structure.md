@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI ProgressBar Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI ProgressBar control.
+components: ["progressbar"]
 position: 1
 slug: progressbar-visual-structure
 ---

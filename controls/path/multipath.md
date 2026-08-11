@@ -2,6 +2,7 @@
 title: MultiPath
 page_title: .NET MAUI Path Documentation - MultiPath
 description: Learn more how to use the multi path which combines a number of Path Geometry objects into a single element.
+components: ["path"]
 previous_url: /controls/path/path-multipath
 slug: path-multipath
 ---

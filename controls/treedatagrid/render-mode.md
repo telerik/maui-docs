@@ -2,6 +2,7 @@
 title: Render Mode
 page_title: .NET MAUI TreeDataGrid Documentation - Render Mode
 description: Learn how to enable SkiaSharp rendering of the Telerik .NET MAUI TreeDataGrid on all platforms.
+components: ["treedatagrid"]
 position: 8
 slug: treedatagrid-render-mode
 ---

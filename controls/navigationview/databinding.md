@@ -2,6 +2,7 @@
 title: Data Binding
 page_title: .NET MAUI NavigationView Documentation - Data Binding
 description: Learn more about the ways for data binding in the Telerik UI for .NET MAUI NavigationView control.
+components: ["navigationview"]
 position: 3
 slug: navigationview-databinding
 ---

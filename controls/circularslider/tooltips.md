@@ -2,6 +2,7 @@
 title: Tooltips
 page_title: .NET MAUI CircularSlider Documentation - Tooltips
 description: Learn how to use the tooltips that the Telerik UI CircularSlider for .NET MAUI control provides.
+components: ["circularslider"]
 position: 10
 slug: circularslider-tooltips
 ---

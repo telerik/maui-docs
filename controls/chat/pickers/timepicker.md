@@ -2,6 +2,7 @@
 title: TimePicker
 page_title: .NET MAUI Conversational UI Documentation - Chat TimePicker
 description: Learn more about ChatPicker control and its TimePicker context
+components: ["chat"]
 position: 2
 slug: chat-timepicker
 ---

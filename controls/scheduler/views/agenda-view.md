@@ -2,6 +2,7 @@
 title: Agenda View
 page_title: .NET MAUI Agenda View Documentation - Agenda View
 description: Learn more about the agenda view definition in the Telerik UI for .NET MAUI Scheduler control.
+components: ["scheduler"]
 position: 1
 slug: scheduler-agenda-view
 ---

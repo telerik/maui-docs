@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI DropDownButton Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI DropDownButton control that provides various options for customizing its look and feel.
+components: ["dropdownbutton"]
 tags: templated button for .net maui, .net maui, ui for .net maui, microsoft .net maui
 position: 0
 slug: dropdownbutton-overview

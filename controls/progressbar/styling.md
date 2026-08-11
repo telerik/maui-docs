@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI ProgressBar Documentation - Styling
 description: Learn how to style the Telerik Ui for .NET MAUI ProgressBar control.
+components: ["progressbar"]
 position: 10
 slug: progressbar-styling
 ---

@@ -2,6 +2,7 @@
 title: Overview
 page_title: NET MAUI BadgeView Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI BadgeView allowing you to display badges in your application
+components: ["badgeview"]
 position: 0
 tags: badge, .net maui, badgeview, notifications, indicator, marker, badge for .net maui
 slug: badgeview-overview

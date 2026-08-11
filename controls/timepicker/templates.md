@@ -2,6 +2,7 @@
 title: Templates
 page_title: .NET MAUI TimePicker Documentation - Templates
 description: Learn more about the templates in the Telerik UI for .NET MAUI TimePicker control.
+components: ["timepicker"]
 position: 3
 previous_url: /controls/timepicker/timepicker-templates
 slug: timepicker-templates

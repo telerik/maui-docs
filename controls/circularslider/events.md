@@ -2,6 +2,7 @@
 title: Events
 page_title: .NET MAUI CircularSlider Documentation - Events
 description: Learn about the ValueChanging event that the Telerik UI for .NET MAUI CircularSlider control exposes and find out how to use it.
+components: ["circularslider"]
 position: 11
 slug: circularslider-events
 ---

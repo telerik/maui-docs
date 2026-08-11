@@ -2,6 +2,7 @@
 title: Styling
 page_title: .NET MAUI ComboBox Documentation - Styling
 description: Learn more about styling options in Telerik UI for .NET MAUI ComboBox control.
+components: ["combobox"]
 position: 15
 slug: combobox-styling
 ---

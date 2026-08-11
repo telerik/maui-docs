@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI Accordion Documentation - Overview
 description: Review the main features of the .NET MAUI Accordion control.
+components: ["accordion"]
 position: 0
 slug: accordion-overview
 ---

@@ -2,6 +2,7 @@
 title: Visual Structure
 page_title: .NET MAUI MaskedInput Documentation - Visual Structure
 description: Check our Visual Structure documentation article for Telerik UI for .NET MAUI MaskedInput control.
+components: ["maskedentry"]
 position: 1
 slug: maskedentry-visual-structure
 ---

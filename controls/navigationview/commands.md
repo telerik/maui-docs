@@ -2,6 +2,7 @@
 title: Commands
 page_title: .NET MAUI NavigationView Documentation - Commands
 description: The .NET MAUI NavigationView provides commands that allow you to initiate open or close actions for the pane.
+components: ["navigationview"]
 position: 12
 slug: navigationview-commands
 ---

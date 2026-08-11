@@ -2,6 +2,7 @@
 title: Row Height
 page_title: .NET MAUI TreeDataGrid Documentation - Row Height
 description: Learn how to set row height and customize text positioning, margins, and alignment in the .NET MAUI TreeDataGrid.
+components: ["treedatagrid"]
 position: 3
 slug: treedatagrid-row-height
 ---

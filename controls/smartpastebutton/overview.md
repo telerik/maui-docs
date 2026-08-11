@@ -2,6 +2,7 @@
 title: Overview
 meta_title: .NET MAUI SmartPasteButton Documentation - Overview
 description: Explore the Telerik UI for .NET MAUI SmartPasteButton, an AI-powered control that extracts clipboard data and populates form fields automatically.
+components: ["smartpastebutton"]
 position: 0
 slug: smartpastebutton-overview
 ---

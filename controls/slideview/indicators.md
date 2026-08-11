@@ -2,6 +2,7 @@
 title: Indicator
 page_title: .NET MAUI SlideView Documentation - Indicator
 description: Learn more about the .NET MAUI SlideView indicators and their features.
+components: ["slideview"]
 position: 6
 slug: slideview-indicators
 ---

@@ -2,6 +2,7 @@
 title: Popup Styling
 page_title: .NET MAUI TimePicker Documentation - Popup Styling
 description: Learn how to style the elements in the popup part of the Telerik UI for .NET MAUI TimePicker control.
+components: ["timepicker"]
 position: 1
 slug: timepicker-popup-styling
 ---

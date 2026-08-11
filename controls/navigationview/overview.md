@@ -2,6 +2,7 @@
 title: Overview
 page_title: .NET MAUI NavigationView Documentation - Overview
 description: Review the main features of the .NET MAUI NavigationView control.
+components: ["navigationview"]
 position: 0
 slug: navigationview-overview
 ---

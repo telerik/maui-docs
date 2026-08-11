@@ -2,6 +2,7 @@
 title: Getting Started
 page_title:  .NET MAUI TimeSpanPicker Documentation - Getting Started
 description: Get started with the Telerik UI for .NET MAUI TimeSpanPicker and add the control to your .NET MAUI project.
+components: ["timespanpicker"]
 position: 1
 previous_url: /controls/timespanpicker/timespanpicker-getting-started
 slug: timespanpicker-getting-started

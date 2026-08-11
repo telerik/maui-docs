@@ -2,6 +2,7 @@
 title: Localization
 page_title: Telerik .NET MAUI SmartPasteButton Documentation - Localization
 description: Learn more about the MAUI localization options in the Telerik UI for .NET MAUI SmartPasteButton control.
+components: ["smartpastebutton"]
 position: 8
 slug: smartpastebutton-localization
 ---

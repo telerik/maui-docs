@@ -2,6 +2,7 @@
 title: Orientation
 page_title: .NET MAUI SlideView Documentation - Orientation
 description: Learn more about how to set the orientation od the Telerik UI for .NET MAUI SlideView control.
+components: ["slideview"]
 position: 4
 slug: slideview-orientation
 ---
