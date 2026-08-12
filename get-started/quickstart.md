@@ -58,7 +58,7 @@ The `telerik setup maui` command performs multiple actions to configure your Tel
 
 ## Create New MAUI Project
 
-This section assumes that you have successfully installed the Telerik UI for MAUI project templates in the [previous step](#set-up-telerik-Development-Environment).
+This section assumes that you have successfully installed the Telerik UI for MAUI project templates in the [previous step](#set-up-telerik-development-environment).
 
 To create a new Telerik .NET MAUI app, use your preferred approach:
 

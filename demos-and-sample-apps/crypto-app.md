@@ -19,7 +19,7 @@ You can access the SDKBrowser application in the following ways:
 
 * Explore the CryptoTracker code directly in the [MAUI Samples Application repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker) and run it on all platforms.
 
->important If you don't have a Telerik UI for .NET MAUI installation, check the [Download Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-2-download-your-license-key-file) and [Install Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-3-create-a-new-maui-project).
+>important If you don't have a Telerik UI for .NET MAUI installation, check the [Geting Started guide]({%slug maui-quick-start%})
 
 <TabStrip>
 <TabStripTab title="Run on Android">
