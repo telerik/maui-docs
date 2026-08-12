@@ -48,7 +48,23 @@ The Numerical Axis exposes the following properties for configuring the labels a
 
 The following example shows how to define a `NumericalAxis` with an explicit range and tick count.
 
-<snippet id=''chart-cartesian-numerical-axis-xaml'' />
+1. Define the `NumericalAxis` and the chart definition in XAML:
+
+<snippet id='chart-cartesian-numerical-axis-xaml' />
+
+2. Add the `charts` namespace:
+ 
+```XAML
+xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
+```
+
+3. Add the data model:
+
+<snippet id='chart-datamodel-categorical-data' />
+
+4. Add the `ViewModel`:
+
+<snippet id='chart-categorical-viewmodel' />
 
 ![.NET MAUI Cartesian Chart Numerical Axis](../images/charts-cartesian-numerical-axis.png)
 

@@ -38,7 +38,27 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the area.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+## Example
+
+The following example shows how to define an `AreaSeries`.
+
+1. Define the `AreaSeries` and the chart definition in XAML:
+
 <snippet id='chart-cartesian-area-series-xaml' />
+
+2. Add the `charts` namespace:
+ 
+```XAML
+xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
+```
+
+3. Add the data model:
+
+<snippet id='chart-datamodel-categorical-data' />
+
+4. Add the `ViewModel`:
+
+<snippet id='chart-categorical-viewmodel' />
 
 This is the result:
 

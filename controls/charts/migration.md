@@ -174,12 +174,10 @@ The Cartesian axes keep their names and roles. Define them through the `Horizont
 >caption Charts (Telerik.Maui.Controls.Charts) axes:
 
 ```XAML
-<telerik:RadCartesianChart.HorizontalAxis>
+<telerik:RadCartesianChart.Axes>
     <telerik:CategoricalAxis />
-</telerik:RadCartesianChart.HorizontalAxis>
-<telerik:RadCartesianChart.VerticalAxis>
     <telerik:NumericalAxis />
-</telerik:RadCartesianChart.VerticalAxis>
+</telerik:RadCartesianChart.Axes>
 ```
 
 ## API Differences Summary

@@ -403,10 +403,10 @@ meta:
     position: 2
   controls/charts/cartesian-chart/series:
     title: Series
-    position: 3
+    position: 4
   controls/charts/cartesian-chart/axes:
     title: Axes
-    position: 2
+    position: 3
   controls/charts/cartesian-chart:
     title: CartesianChart
     position: 1
