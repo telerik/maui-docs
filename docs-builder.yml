@@ -411,7 +411,7 @@ meta:
     title: CartesianChart
     position: 1
   controls/charts:
-    title: Charts (Preview)
+    title: Charts (New)
   controls/chart/series/financial:
     title: Financial Series
     position: 4
