@@ -62,11 +62,10 @@ This section assumes that you have successfully installed the Telerik UI for MAU
 
 To create a new Telerik .NET MAUI app, use your preferred approach:
 
-
 <TabStrip>
 <TabStripTab title="Telerik.CLI">
 
-Run the following Telerik CLI command to create a new Telerik .NET MAUI app interactively:
+Run the following Telerik.CLI command to create a new Telerik .NET MAUI app interactively:
 
 ```powershell
 telerik create maui
@@ -79,78 +78,23 @@ When the project is ready, navigate to the project folder and open the app in yo
 </TabStripTab>
 <TabStripTab title=".NET CLI">
 
-</TabStripTab>
-<TabStripTab title="Visual Studio">
+Use the .NET CLI `dotnet new` command to create a new Telerik .NET MAUI Blank App:
 
-### Step 1: Create a New MAUI Project
-
-1. Open Visual Studio and select **Create a new project** in the start window.
-
-1. Select the **.NET MAUI App** template, and click the **Next** button.
-
-1. Name your project and select a location.
-
-1. Choose the .NET framework for your project.
-
-1. Wait until Visual Studio restores all dependencies (when done, all exclamation marks in the **Dependencies** tree view item disappear).
-
-1. Click the **Windows Machine** button to build and run the app.
-
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=vswin" target="_blank">Microsoft's .NET MAUI documentation</a>.
-
-### Step 2: Install the Telerik UI for .NET MAUI Controls
-
-1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
-
-1. Make sure the **Package source** is set to `nuget.org`.
-
-1. Select the **Browse** tab, enter `Telerik.UI.for.Maui` in the search box, and select the package.
-
-1. Select the checkbox for the target project, and then click **Install**.
-
-### Step 3: Add the Telerik Namespace and Register the Controls
-
-@[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
-
-### Step 4: Add a Telerik UI Component
-
-@[template](/_contentTemplates/get-started.md#add-telerik-component)
-
-</TabStripTab>
-<TabStripTab title="Visual Studio Code">
-
-### Step 1: Create a New MAUI Project
-
-1. Open Visual Studio Code and open the Command Palette by pressing `Cmd`+`Shift`+`P` on Mac or `Ctrl`+`Shift`+`P` on Windows.
-1. Enter **.NET: New Project...** in the input field.
-
-1. Select the **.NET MAUI App** option.
-
-1. Enter a name for your app.
-
-1. Select an empty folder for your project. If the folder is not empty, the file explorer opens again.
-
-1. Wait for Visual Studio Code to create the project and complete its configuration.
-
-If you encounter any issues creating the basic project, see the complete guide in <a href="https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-8.0&tabs=visual-studio-code" target="_blank">Microsoft's .NET MAUI documentation</a>.
-
-### Step 2: Install the Telerik UI for .NET MAUI Controls
-
-The `Telerik.UI.for.Maui` package is available on the public <a href="https://www.nuget.org/packages/Telerik.UI.for.Maui" target="_blank">NuGet.org</a> registry (recommended) and on the authenticated Telerik NuGet server.
-
-Navigate to your project's root directory in the terminal and run:
-
-```bash
-dotnet add package Telerik.UI.for.Maui
+```powershell
+dotnet new telerik-maui -o MyNewTelerikMAUIAppName
 ```
 
-### Step 3: Add the Telerik Namespace and Register the Controls
+> If the above command fails with type of error: `No templates or subcommands found matching:` , run the follwoing command in the terminal first:
+> ```powershell
+> dotnet new install Telerik.Maui.Templates
+> ```
+> Then run the command: `dotnet new telerik-maui -o MyNewTelerikMAUIAppName`
 
-@[template](/_contentTemplates/get-started.md#add-namespace-register-controls)
+The application includes the Telerik UI for .NET MAUI suite already set up. 
 
-### Step 4: Add a Telerik UI Component
+When the project is ready, navigate to the project folder and open the app in your preferred IDE.
 
-@[template](/_contentTemplates/get-started.md#add-telerik-component)
+For more detials about the Telerik UI for .NET MAUI projectTemplates in .NET CLI, review the [Telerik.Maui.Templates packages](https://www.nuget.org/packages/Telerik.Maui.Templates).
 
 </TabStripTab>
 </TabStrip>
