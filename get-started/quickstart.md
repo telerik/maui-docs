@@ -26,37 +26,27 @@ The following table lists the requirements to build .NET MAUI apps with Telerik 
 
 > Telerik UI for .NET MAUI supports .NET 11.0 Preview 6 (starting with version 15.0.0).
 
-## Step 1: Set up your Telerik account
-
-To use the Telerik UI for .NET MAUI controls, you need a Telerik account with an active license. If you have an active license, you can skip this step. 
-
-1. Go to the [Telerik UI for .NET MAUI product page](https://www.telerik.com/maui-ui).
-    
-1. Click the **Get Started** or **Try Now** button.
-
-1. Enter your email address and you will see the registration form.
-
-## Step 2: Set Up Telerik Development Environment
+## Set Up Telerik Development Environment
 
 This getting started guide uses the Telerik CLI .NET command tool to set up your development environment. The Telerik CLI is a command-line interface that helps you manage your Telerik account, license, NuGet package sources and Telerik MCP server.
 
-Install the Telerik CLI:
+1. Install the Telerik CLI:
 
 ```powershell
 dotnet tool install -g Telerik.CLI --source https://api.nuget.org/v3/index.json
 ```
 
-## Step 3: Set Up Your Telerik .NET MAUI Environment with Telerik CLI
-
-Use the `telerik setup maui` command to set up your Telerik environment:
+2. Run the Telerik.CLI `setup` command:
 
 ```powershell
 telerik setup maui
 ```
 
-The `telerik setup maui` command performs all the required setup steps at once:
+The `telerik setup maui` command performs multiple actions to configure your Telerik development environment:
 
-&#10003; Logs you into your Telerik account.
+&#10003; Creates your Telerik account or log in if you already have one.
+
+&#10003; Activates a Telerik UI for MAUI trial if you don't have an active license.
 
 &#10003; Downloads your Telerik license key file and saves `telerik-license.txt` to your operating system user's folder, making it available to all Telerik .NET apps on your machine.
 
@@ -64,11 +54,32 @@ The `telerik setup maui` command performs all the required setup steps at once:
 
 &#10003; Installs the Telerik MCP server for AI-powered coding assistance.
 
-## Step 4: Create a New MAUI Project
+&#10003; Installs the Telerik UI for MAUI project templates.
 
-Choose your preferred IDE to create a new .NET MAUI project and install the Telerik UI for .NET MAUI controls:
+## Create New MAUI Project
+
+This section assumes that you have successfully installed the Telerik UI for MAUI project templates in the [previous step](#set-up-telerik-Development-Environment).
+
+To create a new Telerik .NET MAUI app, use your preferred approach:
+
 
 <TabStrip>
+<TabStripTab title="Telerik.CLI">
+
+Run the following Telerik CLI command to create a new Telerik .NET MAUI app interactively:
+
+```powershell
+telerik create maui
+```
+
+Follow the instructions for creating a .NET MAUI app. The command creates a new project using the Telerik MAUI ProjectTemplates&mdash;**Telerik .NET MAUI Blank App** or **Telerik .NET MAUI Blank Shell App**.
+
+When the project is ready, navigate to the project folder and open the app in your preferred IDE.
+
+</TabStripTab>
+<TabStripTab title=".NET CLI">
+
+</TabStripTab>
 <TabStripTab title="Visual Studio">
 
 ### Step 1: Create a New MAUI Project
