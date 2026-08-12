@@ -21,9 +21,7 @@ Before adding the NavigationView, you need to:
 
 1. [Set up your .NET MAUI application]({%slug maui-quick-start %}#prerequisites).
 
-1. [Download Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-2-download-your-license-key-file).
-
-1. [Install Telerik UI for .NET MAUI]({%slug maui-quick-start %}#step-3-create-a-new-maui-project).
+1. [Set Up Telerik Development Environment]({%slug maui-quick-start %}#set-up-telerik-development-environment)
 
 ## Define the Control
 
