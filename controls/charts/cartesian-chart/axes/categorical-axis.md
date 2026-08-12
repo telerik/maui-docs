@@ -40,11 +40,27 @@ The Categorical Axis exposes the following properties for configuring its positi
 
 The following example shows how to configure a `CategoricalAxis` as the horizontal axis of the chart.
 
+1. Define the `CategoricalAxis` and Chart in XAML:
+
+<snippet id='chart-cartesian-datetime-axis-xaml' />
+
+2. Add the `charts` namespace:
+ 
 ```XAML
-<telerik:RadCartesianChart.HorizontalAxis>
-    <telerik:CategoricalAxis LabelInterval="2" />
-</telerik:RadCartesianChart.HorizontalAxis>
+xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
 ```
+
+3. Add the data model:
+
+<snippet id='chart-datamodel-categorical-data' />
+
+4. Add the `ViewModel`:
+
+<snippet id='chart-categorical-viewmodel' />
+
+This is the result:
+
+![.NET MAUI Cartesian Chart Categorical Axis](../images/charts-cartesian-numerical-axis.png)
 
 > For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Chart > Axes** category.
 

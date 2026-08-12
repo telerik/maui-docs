@@ -52,7 +52,25 @@ Use the following properties for configuring the axis labels and their appearanc
 
 The following example shows how to define a `DateTimeAxis` with a custom step and label format.
 
-<snippet id=''chart-cartesian-datetime-axis-xaml'' />
+1. Define the `DateTimeAxis` as the horizontal axis of the chart.
+ 
+<snippet id='chart-cartesian-datetime-axis-xaml' />
+
+2. Add the `charts` namespace:
+ 
+```XAML
+xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
+```
+
+3. Add the data model:
+
+<snippet id='chart-datamodel-datetime' />
+
+4. Add the `ViewModel`:
+
+<snippet id='chart-datetime-viewmodel' />
+
+This is the result:
 
 ![.NET MAUI Cartesian Chart Date-Time Axis](../images/charts-cartesian-datetime-axis.png)
 

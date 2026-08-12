@@ -39,7 +39,27 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the points.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+## Example
+
+The following example shows how to define a `PointSeries`.
+
+1. Define the `PointSeries` and the chart definition in XAML:
+
 <snippet id='chart-cartesian-point-series-xaml' />
+
+2. Add the `charts` namespace:
+ 
+```XAML
+xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
+```
+
+3. Add the data model:
+
+<snippet id='chart-datamodel-pointdata' />
+
+4. Add the `ViewModel`:
+
+<snippet id='chart-pointseries-viewmodel' />
 
 This is the result:
 
