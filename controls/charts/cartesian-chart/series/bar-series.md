@@ -30,7 +30,6 @@ Use the following properties to customize the appearance of the bars:
 * `Stroke` (`Brush`)&mdash;Defines the brush to paint the stroke of the bars.
 * `StrokeThickness` (`double`)&mdash;Defines the thickness of the bar stroke.
 * `CornerRadius` (`double`)&mdash;Defines the corner radius of the bars. The default value is `0`, which means that the bars will have sharp corners. Set a positive value to round the corners of the bars.
-* `CombineMode` (enum of type `Telerik.Maui.Controls.Charts.BarCombineMode`)&mdash;Defines how the bars are combined when multiple series are plotted in the same chart. The available options are `Clustered`, `Stacked`, and `Stack100`. The default value is `Clustered`.
 
 ## Labels Customization
 

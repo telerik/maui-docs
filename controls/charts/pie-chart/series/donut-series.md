@@ -30,6 +30,8 @@ Use the following properties to customize the appearance of the donut series:
 * `OuterRadiusFraction` (`double`)&mdash;Defines the fraction of the radius that is used for the outer edge of the donut series. The value is a fraction of the radius, where 0 is the center of the series and 1 is the edge of the series.
 * `RadiusWeight` (`double`)&mdash;Defines the weight of the radius for the donut series. The default value is `1.0`, which means that the radius is equal to the size of the chart.
 
+> The PieChart allows you to nest multiple donut series. In this scenario, the `RadiusWeight` property needs to be set.
+
 ## Example
 
 1. Define the donut series in XAML:
@@ -49,8 +51,6 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 4. Define the `ViewModel`:
 
 <snippet id='chart-pie-viewmodel' />
-
-This is the result:
 
 This is the result:
 

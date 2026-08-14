@@ -10,7 +10,7 @@ slug: charts-pie-overview
 
 # .NET MAUI PieChart Overview
 
-The Telerik UI for .NET MAUI PieChart (`RadPieChart`) visualizes data by using a discrete polar coordinate system. Each data point is represented as a slice, and the size of the slice represents the value of the point as a percentage of the total sum. The PieChart does not use axes.
+The Telerik UI for .NET MAUI PieChart (RadPieChart) displays data as a sliced circle, where each slice represents a single data point and its size reflects that point's value as a percentage of the total sum.
 
 ![.NET MAUI PieChart Overview](images/charts-pie-overview.png)
 

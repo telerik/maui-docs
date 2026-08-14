@@ -10,9 +10,11 @@ slug: charts-cartesian-categorical-axis
 
 # .NET MAUI Cartesian Chart Categorical Axis
 
-The `CategoricalAxis` arranges the data points in categories. The axis is divided into discrete slots and each data point is visualized in the slot that corresponds to its categorical value. Use a `CategoricalAxis` when one of the chart dimensions represents categories rather than numeric or date-time values&mdash;for example, when plotting a `BarSeries` against a `NumericalAxis`.
+The `CategoricalAxis` arranges the data points in categories. The axis is divided into discrete slots and each data point is visualized in the slot that corresponds to its categorical value. 
 
-You define the axis through the `HorizontalAxis`, the `VerticalAxis`, or the `Axes` collection of the `RadCartesianChart`.
+Use a `CategoricalAxis` when one of the chart dimensions represents categories rather than numeric values&mdash;for example, when plotting a `BarSeries` against a `NumericalAxis`.
+
+You define the axis through the `Axes` collection of the `RadCartesianChart`.
 
 ## Axis Location
 
@@ -62,7 +64,7 @@ This is the result:
 
 ![.NET MAUI Cartesian Chart Categorical Axis](../images/charts-cartesian-numerical-axis.png)
 
-> For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Chart > Axes** category.
+> For runnable examples with the Cartesian Chart categorical axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Axes** category.
 
 ## See Also
 

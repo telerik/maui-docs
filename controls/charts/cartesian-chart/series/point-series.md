@@ -10,7 +10,7 @@ slug: charts-cartesian-point-series
 
 # .NET MAUI Cartesian Chart Point Series
 
-The `PointSeries` represents each data point as a symbol positioned by two numerical values. It requires two `NumericalAxis` instances.
+The `PointSeries` represents each data point as a symbol positioned by two values. 
 
 ## Data Binding
 

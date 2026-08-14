@@ -84,7 +84,7 @@ Use the .NET CLI `dotnet new` command to create a new Telerik .NET MAUI Blank Ap
 dotnet new telerik-maui -o MyNewTelerikMAUIAppName
 ```
 
-> If the above command fails with type of error: `No templates or subcommands found matching:` , run the follwoing command in the terminal first:
+> If the above command fails with type of error: `No templates or subcommands found matching:` , run the following command in the terminal first:
 > ```powershell
 > dotnet new install Telerik.Maui.Templates
 > ```
