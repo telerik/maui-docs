@@ -97,7 +97,7 @@ Here is the result:
 
 ![AutoComplete Highlight Customization](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
 
->important For AutoComplete HighlightText example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Featrues** category.
+>important For AutoComplete HighlightText example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Features** category.
 
 ## See Also
 

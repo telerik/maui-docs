@@ -41,7 +41,7 @@ The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash
 
 ## Clear Text Command
 
-`ClearTextCommand`(`ICommand`)&mdash;Sets the AutoComplete text to `null`.This command is called when the user taps the clear button and clears the entered text as well as any tokens.
+`ClearTextCommand`(`ICommand`)&mdash;Sets the AutoComplete text to `null`. This command is called when the user taps the clear button and clears the entered text as well as any tokens.
 
 The example below demonstrates a custom `ClearTextCommand` implementation&mdash;a confirmation dialog appears before the default command is executed.
 

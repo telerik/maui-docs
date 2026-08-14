@@ -13,7 +13,7 @@ The Telerik UI for .NET MAUI TextInput is a control that inherits from the Micro
 
 The Telerik UI for .NET MAUI Entry control uses the TextInput control in its control template for the text input. The Telerik UI for .NET MAUI Entry is a templated control, with a `ControlTemplate`, and in that `ControlTemplate` there are borders, a close button, and a TextInput.
 
-Along with the properties the Telerik .NET MAUI TextInput control inherits from the Microsoft .NET MAUI Entry control, the Textinput exposes the following properties:
+Along with the properties the Telerik .NET MAUI TextInput control inherits from the Microsoft .NET MAUI Entry control, the TextInput exposes the following properties:
 
 * `SelectionOnFocus` (`enum` of type `Telerik.Maui.SelectionOnFocus`)&mdash;Specifies the text selection behavior when the Entry control receives focus. The available options are:
     * (Default) `Unchanged`&mdash;The selection will not be modified.

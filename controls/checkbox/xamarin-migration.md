@@ -17,7 +17,7 @@ The tables in the following sections list any differences between the APIs of th
 
 ## Migrating the Namespaces
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin CheckBox | `RadCheckBox` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI CheckBox | `RadCheckBox` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

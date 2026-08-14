@@ -15,12 +15,12 @@ The RangeSlider for .NET MAUI control exposes thickness and color styling proper
 * `BackTrackColor` (`Color`)&mdash;Defines the color of the range slider's backtrack.
 * `BackTrackStyle` (`Style`)&mdash;Sets a custom style to the range slider's backtrack.
 
-Check the following stype properties related to the range track (part of the range thumb):
+Check the following style properties related to the range track (part of the range thumb):
 
 * `RangeTrackFill` (`Color`)&mdash;Defines fill color to the range track.
 * `RangeTrackStyle` (`Style`)&mdash;Applies a custom style to the range track.
 
-Here is a  a quick example on how to apply the range/backtrack properties to the RangeSlider:
+Here is a quick example on how to apply the range/backtrack properties to the RangeSlider:
 
 **1.** Add a custom style with `TargetType` set to `RadBorder` to the page's resources:
 

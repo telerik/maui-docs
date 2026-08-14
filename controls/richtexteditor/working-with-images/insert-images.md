@@ -48,7 +48,7 @@ How the editing toolbar looks when image is selected:
 | `HeaderText` | Defines the header text value. Default string `Image` |
 | `PopupContentStyle` | Defines the Style applied to the popup content. |
 | `PopupContentTemplate` | Defines  the control template of the popup. |
-| `PopupOutsideBackgroundColor` | Defines the backgrounf color applied outside of the popup content. |
+| `PopupOutsideBackgroundColor` | Defines the background color applied outside of the popup content. |
 | `OkButtonText` | Defines the text for Ok button. Default value `Ok` |
 | `CancelButtonText` | Defines the text for Cancel button. Default value: `Cancel` |
 
@@ -74,7 +74,7 @@ In addition to this, you need to add the following namespace:
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-**3.** The `VieWModel` for the `ImagePicker` Items Source and RichTextEditor Source:
+**3.** The `ViewModel` for the `ImagePicker` Items Source and RichTextEditor Source:
 
 <snippet id='richtexteditor-customimage-viewmodel' />
 

@@ -26,7 +26,7 @@ This knowledge base article also answers the following questions:
 
 For sharing files, use the [.NET MAUI Share File API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/data/share?view=net-maui-9.0&tabs=android). The `Share` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
 
-**1.** Define the [PDF VIewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
+**1.** Define the [PDF Viewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
 
 ```XAML
 <Grid>

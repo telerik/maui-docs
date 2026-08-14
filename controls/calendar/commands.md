@@ -23,7 +23,7 @@ The following commands enable the navigation between same level views:
 The following commands enable the navigation between the view levels: 
 
 * `NavigateToUpperViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the upper view.
-* `NavigateToLowerViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the lower view..
+* `NavigateToLowerViewCommand`(`ICommand`)&mdash;Gets the command that is executed when the user navigates to the lower view.
 
 When switching between view levels, the Calendar implements the following navigation sequence:
 

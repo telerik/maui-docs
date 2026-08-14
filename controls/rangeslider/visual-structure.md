@@ -7,7 +7,7 @@ position: 0
 slug: rangeslider-visual-structure
 ---
 
-# .NET MAUI RangeSilder Visual Structure
+# .NET MAUI RangeSlider Visual Structure
 
 The visual structure of the .NET MAUI RangeSlider represents the anatomy of the UI component. Being familiar with the visual elements of the RangeSlider allows you to quickly find the information required to configure them.
 
@@ -17,9 +17,9 @@ The following image shows the anatomy of the RangeSlider.
 
 ## Displayed Elements
 
-- **Track**&mdash;The part of the range slider the range thumb sildes across.
+- **Track**&mdash;The part of the range slider the range thumb slides across.
 - **Start Thumb**&mdash;A draggable handle which represents the range start.
-- **Range Track**&mdash;The part of the range slider that represents the selected range. When dragged, RangeStart and RangeEnd are updated simulteneously.
+- **Range Track**&mdash;The part of the range slider that represents the selected range. When dragged, RangeStart and RangeEnd are updated simultaneously.
 - **End Thumb**&mdash;A draggable handle which represents the range end.
 - **Ticks** and **Labels**&mdash;Used for clarity of what the underlying min-max range is.
 - **Tooltips**&mdash; Used for clarity of what the value corresponding to the dragged element is.

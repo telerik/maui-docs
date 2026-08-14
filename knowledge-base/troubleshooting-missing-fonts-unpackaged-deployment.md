@@ -83,7 +83,7 @@ public static MauiApp CreateMauiApp()
 }
 ```
 
-Note: If you are looking for the font files used in the previous code example, you can find them in the [Telerik UI for Maui Samples](https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Resources/Fonts) source code. This prpblem is not specific to Telerik fonts, it can happen with any font that is not available by default. 
+Note: If you are looking for the font files used in the previous code example, you can find them in the [Telerik UI for Maui Samples](https://github.com/telerik/maui-samples/tree/main/Samples/ControlsSamples/Resources/Fonts) source code. This problem is not specific to Telerik fonts, it can happen with any font that is not available by default. 
 
 ### Further Assistance
 

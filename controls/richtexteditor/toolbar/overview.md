@@ -37,8 +37,8 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 
 | RichTextEditor Toolbar Item | Description |
 | ------------- | --------------- |
-| `RichTextEditorFontFamilyToolbarItem` | Changes the font family of the text with the selected from predefiend font families. |
-| `RichTextEditorFontSizeToolbarItem` | Chnages the font size of the text. |
+| `RichTextEditorFontFamilyToolbarItem` | Changes the font family of the text with the selected from predefined font families. |
+| `RichTextEditorFontSizeToolbarItem` | Changes the font size of the text. |
 | `SeparatorToolbarItem` | Separates the toolbar items. |
 | `RichTextEditorBoldToolbarItem` | Bolds the text. |
 | `RichTextEditorItalicToolbarItem` |  Makes the text italic. |
@@ -64,11 +64,11 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorCopyToolbarItem` | Copies the selected HTML to the clipboard. |
 | `RichTextEditorCutToolbarItem` | Cuts the selected HTML to the clipboard. |
 | `RichTextEditorPasteHtmlToolbarItem` | Pastes HTML from the clipboard. |
-| `RichTextEditorAddOrEditHyperlinkToolbarItem` | Opens a popup to add ot edit a hyperlink. |
+| `RichTextEditorAddOrEditHyperlinkToolbarItem` | Opens a popup to add or edit a hyperlink. |
 | `RichTextEditorAddHyperlinkToolbarItem` | Adds a hyperlink. |
 | `RichTextEditorRemoveHyperlinkToolbarItem` | Remove the hyperlink for the current selection. |
 | `RichTextEditorAddOrEditImageToolbarItem` | If image is selected, a dialog opens. If image is not selected, the `PickImage` event fires. |
-| `RichTextEditorHyperlinkNavigationToolbarItem` | If hyperlink is selected, navigates to the predefined toolbar items related to hyperlink operations like: Edit, Open, Remove. If huperlink is not selected, opens a popup with predefined UI for adding a hyperlink to the current selection. |
+| `RichTextEditorHyperlinkNavigationToolbarItem` | If hyperlink is selected, navigates to the predefined toolbar items related to hyperlink operations like: Edit, Open, Remove. If hyperlink is not selected, opens a popup with predefined UI for adding a hyperlink to the current selection. |
 | `RichTextEditorImageNavigationToolbarItem` | If image is selected, navigates to the operations related to image editing like: Cut, Copy, Remove, Paste, Edit. |
 
 Here are the all toolbar items definition:

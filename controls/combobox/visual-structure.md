@@ -24,7 +24,7 @@ The images in this article show the anatomy of the ComboBox and its building blo
 
 ![Telerik UI for .NET MAUI ComboBox Single Selection Visual Structure](images/combobox-single-selection-visual-structure.png "Visual elements of ComboBox control")
 
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - `Clear Button`&mdash;Clears the selection in the control (for both multiple and single selection scenarios).
 - `DropDown Button`&mdash;A button used for opening and closing the DropDown part of the control–the arrow icon of the button indicates whether it's currently opened or closed.
 - `Selected Item`&mdash;The currently selected item.
@@ -51,5 +51,5 @@ The images in this article show the anatomy of the ComboBox and its building blo
 - `Clear Button`&mdash;Clears the selection in the control (for both multiple and single selection scenarios).
 - `DropDown Button`&mdash;A button used for opening and closing the DropDown part of the control–the arrow icon of the button indicates whether it's currently opened or closed.
 - [`RadTextInput`]({%slug entry-textinput%})&mdash;The control used for the text input.
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - `Highlighted Items`&mdash;The items that match the text entered in the input area.

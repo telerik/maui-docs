@@ -35,7 +35,7 @@ The GridSplitter provides the following CommonStates visual states:
 
 This is the result of applying the visual states:
 
-![.NET MAUI GrdiSplitter Styling](images/gridsplitter-styling.gif)
+![.NET MAUI GridSplitter Styling](images/gridsplitter-styling.gif)
 
 ## Example
 
@@ -53,7 +53,7 @@ Here is an example of how to style the GridSplitter control and use the visual s
 
 This is the result:
 
-![.NET MAUI GrdiSplitter Styling](images/gridsplitter-styling.png)
+![.NET MAUI GridSplitter Styling](images/gridsplitter-styling.png)
 
 > For a runnable example with the GridSplitter Styling and visual states scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **GridSplitter > Features** category.
 

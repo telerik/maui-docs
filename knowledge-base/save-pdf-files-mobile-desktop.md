@@ -27,7 +27,7 @@ This knowledge base article also answers the following questions:
 
 For saving files, use the [.NET MAUI File System Helper API](https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-9.0&tabs=android). The `Save` command will be executed from a custom toolbar `ButtonToolbarItem` inside the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}).
 
-**1.** Define the [PDF VIewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
+**1.** Define the [PDF Viewer]({%slug pdfviewer-overview%}) and [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}):
 
 ```XAML
 <Grid>

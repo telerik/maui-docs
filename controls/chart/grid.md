@@ -17,7 +17,7 @@ The Cartesian Chart Grid provides the following features:
 
 - `MajorLinesVisibility`&mdash;Gets or sets the visibility of major grid lines; in other words, a line that extends the major ticks throughout the plot area.
 - `MajorLineThickness`&mdash;Gets or sets the thickness of the major grid lines.
-- `MajorLineColor`&mdash;Gets or sets the color the of major grid lines.
+- `MajorLineColor`&mdash;Gets or sets the color of major grid lines.
 - `MajorXLineDashArray`&mdash;Gets or sets a collection of double values that indicates the pattern of dashes and gaps that is used to outline the X major grid line.
 - `MajorYLineDashArray`&mdash;Gets or sets a collection of double values that indicates the pattern of dashes and gaps that is used to outline Y major grid line.
 - `StripeLinesVisibility`&mdash;Gets or sets the visibility of the grid stripes; in other words, the area between two grid lines.

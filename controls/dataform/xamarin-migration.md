@@ -17,7 +17,7 @@ The tables in the following sections list the differences between the APIs of th
 
 ## Migrate the Namespaces
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin DataForm | `RadDataForm` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI DataForm | `RadDataForm` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

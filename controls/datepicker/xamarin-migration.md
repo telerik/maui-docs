@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI DatePicker preserves the same API as its Xamarin co
 
 The following table lists the namespaces you need to update when migrating the DatePicker from Xamarin to .NET MAUI.
 
-| Control | Control Name | XAML Namespcace | C# Namespace|
+| Control | Control Name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin DatePicker | RadDatePicker | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI DatePicker | RadDatePicker | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

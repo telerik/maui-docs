@@ -1,11 +1,10 @@
 ---
 title: System Requirements
 page_title: Telerik UI for .NET MAUI System Requirements
-description: Learn what develoment tools you need to start developing applications with Telerik UI for .NET MAUI as well as what platforms you can support.
+description: Learn what development tools you need to start developing applications with Telerik UI for .NET MAUI as well as what platforms you can support.
 slug: system-requirements
 tags: .net maui, ui for .net maui, telerik .net maui, macOS, windows, system requirements, visual studio, visual studio code
 position: 1
----
 
 # System Requirements for Telerik UI for .NET MAUI
 

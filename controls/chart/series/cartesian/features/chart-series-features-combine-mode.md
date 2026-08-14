@@ -24,7 +24,7 @@ The default combine mode is `None`. You can define the current combine mode with
 
 ## Stack Bar Series Example
 
-The following example shows how to create a Stack Cartesian Chart with Bar Series :
+The following example shows how to create a Stack Cartesian Chart with Bar Series:
 
 **1.** Create the needed business objects, for example:
 

@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI DateTimePicker preserves the same API as its Xamari
 
 ## Migrating the Namespaces
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin DateTimePicker | `RadDateTimePicker` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI DateTimePicker | `RadDateTimePicker` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

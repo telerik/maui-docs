@@ -44,7 +44,7 @@ This article shows how to bind the ComboBox SelectedItems collection in DataForm
 </telerik:RadDataForm>
 ```
 
-**3.** DataForm needs a binding context. Here is a sample ViewModel implementation. Also the property bound to the SelectedItems - `Values` is a property defined in the ViewModel. For `Values`, you can subscribe to `CollectionChanged` event to listed for changes. For example, when item is added/removed to/from the collection.
+**3.** DataForm needs a binding context. Here is a sample ViewModel implementation. Also the property bound to the SelectedItems - `Values` is a property defined in the ViewModel. For `Values`, you can subscribe to `CollectionChanged` event to listen for changes. For example, when item is added/removed to/from the collection.
 
 ```C#
 public class CustomEditorViewModel : NotifyPropertyChangedBase

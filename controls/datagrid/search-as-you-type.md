@@ -36,7 +36,7 @@ The default searching behavior works in the following way: as soon as the user t
 
 Below you can find a list of the available configuration options applied through the `RadDataGrid.SearchSettings`:
 
-* `IntermediateSearchText`(`string`)&mdash;Specifies the text of the search entry. A change of this value will not necessarily trigger a search, for example,it will not necessarily change the `SearchText` property. The `SearchText` property is updated in accordance with the `SearchTrigger` property.
+* `IntermediateSearchText`(`string`)&mdash;Specifies the text of the search entry. A change of this value will not necessarily trigger a search, for example, it will not necessarily change the `SearchText` property. The `SearchText` property is updated in accordance with the `SearchTrigger` property.
 * `SearchText`(`string`)&mdash;Specifies the search text. Before a search is started, the `SearchStarting` event is raised. The `SearchStarting` event allows for a change in the effective search text that will be used for searching.
 * `SearchTrigger`(`DataGridSearchTrigger`)&mdash;Indicates when a search operation will be performed while the end user is typing in the search entry of the search panel. The available options are:
     * `TextChanged`&mdash;The search operation is triggered every time the text of the entry changes.

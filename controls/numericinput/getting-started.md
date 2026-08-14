@@ -26,7 +26,7 @@ Before adding the NumericInput, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a NumericInput control to your page.
 
  <snippet id='numericinput-getting-started-xaml'/>
 

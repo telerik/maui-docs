@@ -13,7 +13,7 @@ Telerik .NET MAUI ProgressBar control preserves the same API as Xamarin.Forms Pr
 
 ## Migrating the Namespaces
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin ProgressBar | `RadProgressBar` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI ProgressBar | `RadLinearProgressBar` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | using Telerik.Maui.Controls; |

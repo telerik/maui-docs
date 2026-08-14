@@ -162,7 +162,7 @@ The [Telerik UI for .NET MAUI ComboBox]({%slug combobox-overview%}) enables user
 
 ### Chart
 
-The [Telerik UI for .NET MAUI Charts]({%slug chart-overview%}) are feature-rich, intuitive, and easy-to-use data-visualization controls with differen series like bar, line, pie, financial, etc.
+The [Telerik UI for .NET MAUI Charts]({%slug chart-overview%}) are feature-rich, intuitive, and easy-to-use data-visualization controls with different series like bar, line, pie, financial, etc.
 
 <div style="display: grid; gap: 10px; grid-template-columns: 1fr 1fr;">
 

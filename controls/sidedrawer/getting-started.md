@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: .NET MAUI SideDrawer Documentation - Getting Started
-description: Learn what are the getting started steps to add the Telerik UI for .NET MAUI SideDrawer cotrol to your application.
+description: Learn what are the getting started steps to add the Telerik UI for .NET MAUI SideDrawer control to your application.
 components: ["sidedrawer"]
 position: 1
 slug: sidedrawer-getting-started

@@ -21,7 +21,7 @@ When using a `DataGridBooleanColumn` with a custom `CellContentTemplate` that in
 
 ## Solution
 
-To ensure that the `Switch` control inside the `DataGridBooleanColumn` can both trigger cell selection events (`SelectionChanged` and `CurrentCellChanged`) and remain interactive (toggable), follow these steps:
+To ensure that the `Switch` control inside the `DataGridBooleanColumn` can both trigger cell selection events (`SelectionChanged` and `CurrentCellChanged`) and remain interactive (toggleable), follow these steps:
 
 1. Avoid setting the `InputTransparent` property of the `Switch` to `true`. This keeps the `Switch` interactive.
 2. Use the `CellContentTemplate` to include the `Switch` control.

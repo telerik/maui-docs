@@ -53,7 +53,7 @@ RichTextEditor helps the app users to create and edit HTML content. You can appl
 
 In addition, RichTextEditor provides a flexible API that allows you to apply formatting at the current caret position or on the selected text inside the editing area.
 
-| Formating Options | Descriptions |
+| Formatting Options | Descriptions |
 | ------------- | --------------- |
 | `TextFormatting` of type `RichTextFormatting` | Defines the text formatting, such as heading, paragraph or quotation of the text at the current position or selection |
 | `TextColor` | Specifies the color of the text at the current position or selection |

@@ -33,7 +33,7 @@ The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides the a 
 | `ApplyHyperlinkCommand` | Gets a command to apply a hyperlink in the editor. |
 | `RemoveHyperlinkCommand` | Gets a command to remove a hyperlink in the editor. |
 | `OpenHyperlinkCommand` | Gets a command to open a hyperlink in the editor. |
-| `InsertImageCommand` | Gets a command to insert an image in the editor. The command takes a single paramerer of type `Telerik.Maui.Controls.RichTextEditor.RichTextImage`. |
+| `InsertImageCommand` | Gets a command to insert an image in the editor. The command takes a single parameter of type `Telerik.Maui.Controls.RichTextEditor.RichTextImage`. |
 | `RemoveImageCommand` | Gets a command to remove an image in the editor. |
 | `SelectAllCommand` | Gets a command to select all html in the editor. |
 

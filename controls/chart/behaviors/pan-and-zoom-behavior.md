@@ -29,7 +29,7 @@ The Pan and Zoom behavior of the Chart handles the drag, pinch open, and pinch c
 
 ## Example
 
-The following example shows how the Pan and Zoom behavior of the Cart works:
+The following example shows how the Pan and Zoom behavior of the Chart works:
 
 **1.** Create the needed business objects, for example:
 
