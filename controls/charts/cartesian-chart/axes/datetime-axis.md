@@ -12,7 +12,7 @@ slug: charts-cartesian-datetime-axis
 
 The `DateTimeAxis` positions the data points on a time line depending on a `System.DateTime` value. Instead of treating each value as an isolated category, the axis builds time slots based on its range and step, which allows it to display empty time slots when no data exists for a given interval.
 
-You define the axis through the `HorizontalAxis`, the `VerticalAxis`, or the `Axes` collection of the `RadCartesianChart`.
+You define the axis through the `Axes` collection of the `RadCartesianChart`.
 
 ## Axis Location
 
@@ -74,7 +74,7 @@ This is the result:
 
 ![.NET MAUI Cartesian Chart Date-Time Axis](../images/charts-cartesian-datetime-axis.png)
 
-> For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Chart > Axes** category.
+> For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Axes** category.
 
 ## See Also
 

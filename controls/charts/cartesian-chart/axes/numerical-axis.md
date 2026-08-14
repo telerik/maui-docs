@@ -12,7 +12,7 @@ slug: charts-cartesian-numerical-axis
 
 The `NumericalAxis` positions the data points depending on their numerical value. It builds a numerical range&mdash;either user-defined or automatically calculated&mdash;and determines the coordinate of each data point along the axis.
 
-You define the axis through the `HorizontalAxis`, the `VerticalAxis`, or the `Axes` collection of the `RadCartesianChart`.
+You define the axis through the `Axes` collection of the `RadCartesianChart`.
 
 ## Axis Location
 
@@ -68,7 +68,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 ![.NET MAUI Cartesian Chart Numerical Axis](../images/charts-cartesian-numerical-axis.png)
 
-> For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Chart > Axes** category.
+> For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Axes** category.
 
 ## See Also
 
