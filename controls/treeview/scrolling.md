@@ -87,7 +87,7 @@ The example below demonstrates how to use the `ScrollTo` method.
 
 <snippet id='treeview-programmatic-scrolling-xaml'/>
 
-**2.** Configure the `ScrollTo` executon on button click:
+**2.** Configure the `ScrollTo` execution on button click:
 
 <snippet id='treeview-programmatic-scrolling'/>
 

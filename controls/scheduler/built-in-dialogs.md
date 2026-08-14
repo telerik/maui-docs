@@ -59,7 +59,7 @@ When the end user interacts with a recurring appointment, the `DeleteRecurrenceC
 Use the following methods to show the built-in dialogs of the Scheduler:
 
 * `CreateAppointmentWithDialog(DataRange range)`&mdash;Opens a dialog for creating an appointment.
-* `EditAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for editing an exsisting appointment.
+* `EditAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for editing an existing appointment.
 * `DeleteAppointmentWithDialog(Occurrence occurrence)`&mdash;Opens a dialog for deleting an existing appointment.
 
 The following example demonstrates how to use the methods for managing the built-in dialogs:

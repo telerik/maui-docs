@@ -23,7 +23,7 @@ The selected mode is applied through the `CommitMode`(of type`Telerik.Maui.Contr
 * `LostFocus`&mdash;The changes are committed after the editor loses focus.
 * `PropertyChanged`&mdash;The changes in the editor are committed immediately on each property change (when the property value changes).
 
->important When the selected `CommitMode` is `LostFocus`, you have to set `ValidatonMode` to `LostFocus` or `Explicit`.
+>important When the selected `CommitMode` is `LostFocus`, you have to set `ValidationMode` to `LostFocus` or `Explicit`.
 
 The `CommitMode` must be applied globally to the `RadDataForm`:
 
@@ -53,7 +53,7 @@ The method returns `true` if the validation passes, otherwise `false`.
 
 <snippet id='dataform-commit-changes-on-property'/>
 
-**DataForm exposes a `CancleChanges` method with two overloads:**
+**DataForm exposes a `CancelChanges` method with two overloads:**
 
 * `CancelChanges`&mdash;Cancels all pending changes in the `RadDataForm` and reverts to the original values from the underlying business object. This method is useful when the `CommitMode` property is `Explicit`.
 

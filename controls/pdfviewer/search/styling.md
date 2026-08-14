@@ -31,7 +31,7 @@ The table below lists all toolbar items related to the `PdfViewerSearchNavigatio
 
 The default search toolbar item displayed on desktop devices is the `PdfViewerSearchToolbarItem`. The toolbar item exposes the following properties:
 
-* `Style` (target type `ButtonToolbarItemView`)&mdash;Specfies the style applied to the toolbar button that opens the search popup on desktop.
+* `Style` (target type `ButtonToolbarItemView`)&mdash;Specifies the style applied to the toolbar button that opens the search popup on desktop.
 * `SearchContentViewStyle` (`Style` with a target type of `PdfViewerSearchContentView`)&mdash;Specifies the style applied to the search popup.
 
 The table below lists all styling properties available in the `SearchContentViewStyle`:

@@ -12,7 +12,7 @@ slug: aiprompt-inputview-styling
 The Input View of the AIPrompt control provides the following customization properties:
 
 * `InputEditorStyle`(`Style`)&mdash;Defines the style that is to be applied to the input editor.
-* `InputButtonStyle`(`Style`)&mdash;Defines he style that is to be applied to the input button for generating the AI response.
+* `InputButtonStyle`(`Style`)&mdash;Defines the style that is to be applied to the input button for generating the AI response.
 
 The following example demonstrates how to modify the editor and the input button appearance:
 

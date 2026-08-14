@@ -29,7 +29,7 @@ The following table represents the available style properties.
 | `MaximumHeightRequest`|Defines a value which overrides the maximum height the element will request during layout.|
 | `MinimumHeightRequest`|Defines a value which overrides the minimum height the element will request during layout.|
 | `MaximumWidthRequest`|Defines a value which overrides the maximum width the element will request during layout.|
-| `MinimumWidthRequest`|Defines a value which overrides the mimimum width the element will request during layout.|
+| `MinimumWidthRequest`|Defines a value which overrides the minimum width the element will request during layout.|
 
 Further customize the indicator by using the `SlideViewIndicatorItem`. The customization is shown in the example below.
 

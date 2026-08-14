@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: .NET MAUI DataForm Documentation - Grouping
-description: Learn more about the grouping functionallity that Telerik UI for .NET MAUI DataForm control provides.
+description: Learn more about the grouping functionality that Telerik UI for .NET MAUI DataForm control provides.
 components: ["dataform"]
 position: 0
 slug: dataform-grouping

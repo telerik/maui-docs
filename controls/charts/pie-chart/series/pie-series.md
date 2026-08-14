@@ -58,8 +58,6 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-This is the result:
-
 ![.NET MAUI Pie Chart Pie Series](../images/charts-pie-series.png)
 
 > For runnable examples with the PieChart pie series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.

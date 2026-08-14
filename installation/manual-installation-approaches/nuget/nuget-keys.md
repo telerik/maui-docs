@@ -29,7 +29,7 @@ To protect the API Key, store it as a secret environment variable. The exact ste
 
 * In Azure DevOps YAML pipelines, save the key as a secret variable as well. Click the YAML editor's **Variables** button and complete the **New variable** form.
 
-If you use Azure DevOps Service connection instead of secret environment variables, enter `api-key` in the username filed and the API Key as the password in the **New NuGet service connection** form editor.
+If you use Azure DevOps Service connection instead of secret environment variables, enter `api-key` in the username field and the API Key as the password in the **New NuGet service connection** form editor.
 
 For more details on storing and protecting your API Key, check the [Telerik NuGet API key security guidance](https://www.telerik.com/blogs/announcing-nuget-keys) blog post by Lance McCarthy.
 

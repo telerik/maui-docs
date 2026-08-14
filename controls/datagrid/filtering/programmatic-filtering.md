@@ -32,7 +32,7 @@ When using C#, you'll need to add the using statement
 using Telerik.Maui.Controls.Data;
 ```
 
-Alternatively, if using XAML, they're be resolved through the same `telerik` xmlns:
+Alternatively, if using XAML, they'll be resolved through the same `telerik` xmlns:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

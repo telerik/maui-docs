@@ -25,7 +25,7 @@ Before adding the SpeechToTextButton, you need to:
 
 ## Required Permissions
 
-Before adding the contol, ensure that you have the required permissions set up in your project.
+Before adding the control, ensure that you have the required permissions set up in your project.
 
 ### Android
 

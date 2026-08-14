@@ -9,7 +9,7 @@ slug: richtexteditor-commands
 
 # Commands
 
-The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides the a long list of commands (of type `ICommand`) that allow you to perform various operations on the text.
+The [.NET MAUI RichTextEditor]({%slug richtexteditor-overview%}) provides a long list of commands (of type `ICommand`) that allow you to perform various operations on the text.
 
 | Commands | Description |
 | ------------- | --------------- |

@@ -35,7 +35,7 @@ Check a quick example on how to apply custom date formats to the Scheduler views
 
 <snippet id='scheduler-custom-date-formats' />
 
-And here is he result:
+And here is the result:
 
 ![Telerik .NET MAUI Scheduler Custom Date Formats](images/scheduler-customformats-applied-multiday.png)
 

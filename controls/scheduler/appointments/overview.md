@@ -11,7 +11,7 @@ slug: appointments-overview
 
 Telerik UI for .NET MAUI Scheduler control allows you to display appointments by setting its `AppointmentsSource` property. `AppointmentsSource` accepts a collection of `Appointment` objects. Each `Appointment` defines the following properties:
 
-* `Start`&mdash;Defines the value determining the start date and time of the аppointment.
+* `Start`&mdash;Defines the value determining the start date and time of the appointment.
 * `End`&mdash;Defines the value that determining the end date and time of the appointment.
 * `Subject`&mdash;Defines the value that indicates the subject of the appointment
 * `IsAllDay`&mdash;Indicates whether the appointment will take all day.

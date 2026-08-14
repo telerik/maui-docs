@@ -44,7 +44,7 @@ You can start the Telerik UI for .NET MAUI Template Wizard in either of the foll
 
 ## Select a Project
 
-The Create New Project wizard provides two options to start you project:
+The Create New Project wizard provides two options to start your project:
 
  -  Blank App&mdash;Allows you to create a blank project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.
  -  Blank Shell App&mdash;Allows you to create a blank shell project that is pre-configured for the Progress® Telerik® UI for .NET MAUI components.

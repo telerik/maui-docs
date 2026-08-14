@@ -27,7 +27,7 @@ The tables in the following sections list any differences between the APIs of th
 | ------------- | --------------- |
 | N/A | Row Details |
 | N/A | Aggregates |
-| N/A | Frozen Colums |
+| N/A | Frozen Columns |
 | N/A | Column Resizing |
 | N/A | Column Footer |
 | N/A | Column Reordering |

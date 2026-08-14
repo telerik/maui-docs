@@ -58,8 +58,8 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorStrikethroughToolbarItem` | Crosses out the text. |
 | `RichTextEditorSuperscriptToolbarItem` | Makes the text small and positioned below the paragraph line. |
 | `RichTextEditorSubscriptToolbarItem` | Makes the text small and positioned above the paragraph line. |
-| `RichTextEditorUndoToolbarItem` | Un-does the last action. |
-| `RichTextEditorRedoToolbarItem` | Re-does the last action. |
+| `RichTextEditorUndoToolbarItem` | Undoes the last action. |
+| `RichTextEditorRedoToolbarItem` | Redoes the last action. |
 | `RichTextEditorColorPickerToolbarItem` | Allows picking a specific color from a collection of colors. |
 | `RichTextEditorCopyToolbarItem` | Copies the selected HTML to the clipboard. |
 | `RichTextEditorCutToolbarItem` | Cuts the selected HTML to the clipboard. |

@@ -22,7 +22,7 @@ The following image shows the anatomy of the Scheduler control.
 * **Current Time Indicator**&mdash;Indicates the current time.
 * **Appointment**&mdash;Represents a single piece of data that is visualized in the Scheduler.
 * **Slot**&mdash;Represents the timeslots of the control defined by the TimeRuler.
-* **Special Slot**&mdash;Represents the hightlighted state of the Slot.
+* **Special Slot**&mdash;Represents the highlighted state of the Slot.
 
 ## See Also
 

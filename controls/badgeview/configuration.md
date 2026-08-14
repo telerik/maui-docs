@@ -20,7 +20,7 @@ The BadgeView exposes the `Content`(of type `Microsoft.Maui.Controls.View`) prop
 ```XAML
 <telerik:RadBadgeView>
     <telerik:RadBadgeView.Content>
-        <!-- Add the content of the BadgeView. For exmaple: Label, Image, Frame, Border, Button, and so on. -->
+        <!-- Add the content of the BadgeView. For example: Label, Image, Frame, Border, Button, and so on. -->
     </telerik:RadBadgeView.Content>
 </telerik:RadBadgeView>
 ```
