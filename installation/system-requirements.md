@@ -5,6 +5,7 @@ description: Learn what development tools you need to start developing applicati
 slug: system-requirements
 tags: .net maui, ui for .net maui, telerik .net maui, macOS, windows, system requirements, visual studio, visual studio code
 position: 1
+---
 
 # System Requirements for Telerik UI for .NET MAUI
 
