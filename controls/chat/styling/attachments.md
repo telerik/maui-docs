@@ -68,14 +68,6 @@ In addition, you can style the incoming and outgoing attachments messages separa
 
 Use the properties listed for the `ChatAttachmentsMessageView` for the customization of the incoming and outgoing attachments messages.
 
-Here is an example for styling the `ChatAttachmentsMessageView` and `ChatOutgoingAttachmentsMessageView`:
-
-<snippet id='chat-styling-attachments-messages' />
-
-And the needed converter for the attachments icon inside the messages area:
-
-<snippet id='chat-styling-image-outgoing-messages' />
-
 This is the result:
 
 ![.NET MAUI Chat Attachments Styling](../images/chat-attachedfiles-messages.png)
