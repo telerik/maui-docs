@@ -212,7 +212,7 @@ Below is an adjusted `MainPage.xaml` that ensures the BusyIndicator is part of t
 </ContentPage>
 ```
 
->note Important: ControlTemplates change over time as the control itself evolves and his example was built using v11.1.0. If you need help locating this, please open a Support Ticket. While Technical Support is unable to assist with your customizations, they can provide you with a copy of the XAML.
+>note Important: ControlTemplates change over time as the control itself evolves and this example was built using v11.1.0. If you need help locating this, please open a Support Ticket. While Technical Support is unable to assist with your customizations, they can provide you with a copy of the XAML.
 
 ## See Also
 

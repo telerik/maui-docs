@@ -19,7 +19,7 @@ The tables in the following sections list any differences between the APIs of th
 
 When migrating the AutoCompleteView from Xamarin to .NET MAUI, consider the following differences in the namespaces:
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin AutoCompleteView | `RadAutoCompleteView` | xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" | using Telerik.XamarinForms.Input; |
 | .NET MAUI AutoComplete | `RadAutoComplete` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

@@ -27,7 +27,7 @@ When migrating the Telerik .NET MAUI ListView, consider the following difference
 | Scrolling&mdash;`VerticalScrollBarVisibility` and `HorizontalScrollBarVisibility` properties, `ScrollItemIntoView` method | [Scrolling]({%slug collectionview-scrolling%})&mdash;`VerticalScrollBarVisibility` and `HorizontalScrollBarVisibility` properties, `ScrollItemIntoView` method, `Scrolled` event |
 | Linear and Grid Layouts | [Linear]({%slug collectionview-linear-layout%}) and [Grid]({%slug collectionview-grid-layout%}) Layouts |
 | Cell Swipe with `ItemSwipeContentTemplate` and `SwipeOffset` | [Item Swipe]({%slug collectionview-item-swipe-overview%}) with `StartSwipeTemplate`, `EndSwipeTemplate`, `StartSwipeLength` and `EndSwipeLength` properties |
-| Pull To Refresh built-in funcionality | [Refresh Data functionality]({%slug collectionview-pull-to-refresh%}) through a RefreshView control |
+| Pull To Refresh built-in functionality | [Refresh Data functionality]({%slug collectionview-pull-to-refresh%}) through a RefreshView control |
 | Reorder Items with `IsItemsReorderEnabled` property | [Drag and Drop feature]({%slug collectionview-dragdrop-overview%}) with `IsDragDropEnabled` property, customizable `DragDropBehavior` | 
 | N/A | [Empty Template]({%slug collectionview-empty-template%}) feature through `EmptyContentTemplate` and `EmptyContentDisplayMode` |
 | Events&mdash;`ItemTapped`, `ItemHold`, `GroupHeaderTapped` , `RefreshRequested`, `SelectionChanged` | [Events]({%slug collectionview-events%})&mdash;`ItemTapped`, `GroupTapped`, `Scrolled`, `SelectionChanged` |

@@ -62,7 +62,7 @@ Here is an example of how you can customize `SearchOptions` as well as highlight
 
 <snippet id='pdfviewer-search-settings' />
 
-Add the folowing namespaces:
+Add the following namespaces:
 
 ```XAML
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"

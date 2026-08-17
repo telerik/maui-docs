@@ -19,7 +19,7 @@ The available properties for customizing the input area are:
 * `BorderThickness` (`Thickness`)&mdash;Defines the border thickness of the input area.
 * `CornerRadius` (`Thickness`)&mdash;Defines the corner radius of the input area.
 * `ContentPadding` (`Thickness`)&mdash;Defines the padding inside the input area.
-* `AttachedFilesViewStyle` (`Style` with target type `Telerik.Maui.Controls.Chat.ChatInputAreaAttachedFilesView`)&mdash;Defines the style of view of the currently attached files hat have not yet been sent.
+* `AttachedFilesViewStyle` (`Style` with target type `Telerik.Maui.Controls.Chat.ChatInputAreaAttachedFilesView`)&mdash;Defines the style of view of the currently attached files that have not yet been sent.
 
 ## Style the Chat Entry
 

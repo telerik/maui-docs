@@ -63,4 +63,4 @@ For more details about the `NuGet.Config` file, see the following Microsoft reso
 ## See Also
 
 * [Troubleshooting Common NuGet Setup Issues]({%slug nuget-troubleshooting%})
-* [Using the Telerik NuGet Sever as Part of Your CI Workflow]({%slug nuget-keys%})
+* [Using the Telerik NuGet Server as Part of Your CI Workflow]({%slug nuget-keys%})

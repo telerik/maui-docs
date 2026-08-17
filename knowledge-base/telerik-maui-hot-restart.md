@@ -18,7 +18,7 @@ res_type: kb
 
 ## Description
 
-This article describes the behavior that occurs when using Hot Restart feature - deploying on iPhone device thorugh Visual Studio for Windows. Some of the Telerik .NET MAUI controls use static libraries, and when using hot restart an exception is thrown. The behavior occurs as Hot Restart has a limitation - does not support static libraries. 
+This article describes the behavior that occurs when using Hot Restart feature - deploying on iPhone device through Visual Studio for Windows. Some of the Telerik .NET MAUI controls use static libraries, and when using hot restart an exception is thrown. The behavior occurs as Hot Restart has a limitation - does not support static libraries. 
 The error message is described below: 
 
 ## Error Message
@@ -33,7 +33,7 @@ NSForwarding: warning: does not implement doesNotRecognizeSelector:
 
 ## Table of Compatibility
 
-The table below shows a list of controls and their compatibility with Hot Restart feaure. 
+The table below shows a list of controls and their compatibility with Hot Restart feature. 
 
 | Control | Results | Error message | Comments | Exception Details |
 | ------------- | --------------- | ------ | ------ | ------ |

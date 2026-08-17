@@ -73,7 +73,7 @@ Here is the XAML definition of the ComboBox with `RadHighlightLabel` inside the 
 </telerik:RadComboBox>
 ```
 
-> For a runnable demo with the ComboBox Search eamples with different scenarios, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ComboBox > Features** category.
+> For a runnable demo with the ComboBox Search examples with different scenarios, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **ComboBox > Features** category.
 
 ![.NET MAUI ComboBox Edit Mode](images/combobox-edit.gif)
 

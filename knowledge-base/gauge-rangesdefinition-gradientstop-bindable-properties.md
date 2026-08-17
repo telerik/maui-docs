@@ -90,7 +90,7 @@ public class ViewModel : NotifyPropertyChangedBase
 }
 ```
 
-**3.** DEfine a `TelerikUtils` class with the attached property implementation:
+**3.** Define a `TelerikUtils` class with the attached property implementation:
 
 ```C#
 public static class TelerikUtils

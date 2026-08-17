@@ -35,7 +35,7 @@ The available properties are:
 * `IsImageVisible`(`bool`)&mdash;Defines a value indicating whether the image is visible.
 * `IsExpandButtonVisible`(`bool`)&mdash;Defines a value indicating whether the expand button is visible.
 * `BackgroundColor`(`Color`)&mdash;Defines the background color of the tree item.
-* `BorderBrush`(`Brush`)&mdash;Defines the brush od the border around the tree item.
+* `BorderBrush`(`Brush`)&mdash;Defines the brush of the border around the tree item.
 * `BorderThickness`(`Thickness`)&mdash;Defines the thickness of the border around the tree item.
 * `TextColor`(`Color`)&mdash;Defines the color of the text in the tree item.
 * `CheckBoxStyle`(`Style` with target type `telerik:RadCheckBox`)&mdash;Specifies the style for the Checkbox element.

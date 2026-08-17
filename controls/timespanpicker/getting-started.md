@@ -76,6 +76,6 @@ public static class MauiProgram
 
 ## See Also
 
-- [Suppoted Standard TimeSpan Format Strings]({%slug timespanpicker-formatting%})
+- [Supported Standard TimeSpan Format Strings]({%slug timespanpicker-formatting%})
 - [Templates]({%slug timespanpicker-templates%})
 - [Styling]({%slug timespanpicker-styling%})

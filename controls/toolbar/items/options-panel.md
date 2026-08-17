@@ -21,7 +21,7 @@ And the `RadToolbarOptionsPanel` definition:
 
 * `OptionsPanel`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar item.
 * `OptionsContentStyle`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the style of the options content. The target type of this style is `Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
-* `OptionsContentTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the options content. The target type of this style is `Telerik.Maui.Controls.The target type of this template is Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
+* `OptionsContentTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the options content. The target type of this template is `Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
 * `Text`(`string`)&mdash;Defines the text(target type `Label`) in the toolbar item. You can display an image next to the text.
 * `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Specifies the source of the image to display in the toolbar item.
 
@@ -46,7 +46,7 @@ Use the `Style` property with target type `OptionsButtonToolbarItemView`. The av
 
 * `OptionsPanel`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the options panel associated with this toolbar item.
 * `OptionsContentStyle`(`Telerik.Maui.controls.RadToolbarOptionsPanel`)&mdash;Specifies the style of the options content. The target type of this style is `Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
-* `OptionsContentTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the options content. The target type of this style is `Telerik.Maui.Controls.The target type of this template is Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
+* `OptionsContentTemplate`(`Microsoft.Maui.Controls.ControlTemplate`)&mdash;Specifies the template of the options content. The target type of this template is `Telerik.Maui.Controls.OptionsButtonToolbarItemViewContent`.
 
 The other available properties are the properties used in the [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 

@@ -17,7 +17,7 @@ res_type: kb
 
 ## Description
 
-How can I customize the labels in the Pie Chart, for example, set the text color, font size, an so on?
+How can I customize the labels in the Pie Chart, for example, set the text color, font size, and so on?
 
 ## Solution
 

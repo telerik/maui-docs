@@ -13,7 +13,7 @@ The tables below compare the API changes between the Xamarin.Forms PDF Viewer an
 
 ## Namespace Changes
 
-| Control | Control name | C# Namespace| XAML Namespcace |
+| Control | Control name | C# Namespace| XAML Namespace |
 | --------------- | --------------- | --------------- | --------------------------------------------------- |
 | Xamarin PDF Viewer | `RadPdfViewer` | xmlns:telerikPdfViewer="clr-namespace:Telerik.XamarinForms.PdfViewer;assembly=Telerik.XamarinForms.PdfViewer" | using Telerik.XamarinForms.PdfViewer; |
 | .NET MAUI PDF Viewer | `RadPdfViewer` |  xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" | using Telerik.Maui.Controls; |

@@ -25,7 +25,7 @@ The Telerik UI for .NET MAUI DateTimePicker provides a way to pick a date, time 
 
 * [Date ranges]({%slug datetimepicker-date-range%})&mdash;You can also define date ranges by setting minimum and maximum date values, and choose a date within that range.
 
-* [Flexible styling API]({%slug datetimepicker-styling%})&mdash;The DateTimePicker provides a number of styling capabilities, which enable you to style its spinners, popup and popup header and footer, the displayed text displayed after a date is selected, and more.
+* [Flexible styling API]({%slug datetimepicker-styling%})&mdash;The DateTimePicker provides a number of styling capabilities, which enable you to style its spinners, popup and popup header and footer, the displayed text after a date is selected, and more.
 
 * [Commands support]({%slug datetimepicker-commands%})&mdash;The DateTimePicker exposes commands that allow you to clear the selected date and to open and close the popup.
 

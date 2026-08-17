@@ -29,7 +29,7 @@ The Slider supports ticks, labels, and tooltips. With them, your end users can q
 ## Next Steps
 
 - [Getting Started with the Telerik UI for .NET MAUI Slider]({%slug slider-getting-started%})
-- [.NET MAUI Silder Visual Structure]({%slug slider-visual-structure%})
+- [.NET MAUI Slider Visual Structure]({%slug slider-visual-structure%})
 - [.NET MAUI Slider Events]({%slug slider-events%})
 
 ## See Also

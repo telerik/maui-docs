@@ -34,7 +34,7 @@ The following list summarizes the required steps of the Xamarin to MAUI migratio
 
 Once your Xamarin.Forms app has been migrated to .NET MAUI, you’re ready to replace the Telerik UI for Xamarin references with the Telerik UI for .NET MAUI ones and, then, register the controls.
 
-To reference the .NET MAUI controls, use wither of the following approaches:
+To reference the .NET MAUI controls, use either of the following approaches:
 
 1. Manually add the required Telerik packages to the solution.
 or 

@@ -56,7 +56,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 ## Defining an ItemTemplate on TreeViewDescriptor Level 
 
-**1.** Define the `ItemTemplate` on `TreeViewDescriptor` leve:
+**1.** Define the `ItemTemplate` on `TreeViewDescriptor` level:
 
 <snippet id='treeview-itemtemplate' />
 

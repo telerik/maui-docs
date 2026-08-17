@@ -28,7 +28,7 @@ For more details on the available Telerik UI for .NET MAUI Barcode symbologies, 
 
 To apply the desired symbology to the Barcode:
 
-**.1** Add the symbology you need to the Barcode, for example, the Code39 one.
+**1.** Add the symbology you need to the Barcode, for example, the Code39 one.
 
 <snippet id='barcode-features-symbology'/>
 

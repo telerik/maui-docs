@@ -27,7 +27,7 @@ The following example shows how to create a `RadCartesianChart` with a SplineAre
 
 <snippet id='categorical-data-model' />
 
-**2.** reate a `ViewModel`:
+**2.** Create a `ViewModel`:
 
 <snippet id='chart-series-categorical-view-model' />
 

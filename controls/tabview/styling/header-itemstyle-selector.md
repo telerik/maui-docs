@@ -18,11 +18,11 @@ The following example shows how to apply styles to the TabView by using a style 
 
 <snippet id='tabview-styling-headeritemstyleselector' />
 
-**2.** Define the `StylSelector` resources:
+**2.** Define the `StyleSelector` resources:
 
 <snippet id='tabview-styling-styleselector-resources' />
 
-**3.** Define the `StylSelector` class:
+**3.** Define the `StyleSelector` class:
 
 <snippet id='tabview-header-styleselector-class' />
 

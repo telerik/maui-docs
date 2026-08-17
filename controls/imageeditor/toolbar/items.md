@@ -57,7 +57,7 @@ Review all properties available for toolbar items configuration.
 
 ### Properties for All Toolbar Items
 
-The properties described bellow apply to all toolbar items available in the `ImageEditorToolbar`:
+The properties described below apply to all toolbar items available in the `ImageEditorToolbar`:
 
 * `ControlTemplate`(`Microsoft.Maui.Controls.ControlTemplate` with target type `Telerik.Maui.Controls.ToolbarItem`)&mdash;Specifies the control template of the toolbar item.
 * `IsEnabled`(`bool`)&mdash;Specifies whether the toolbar item is enabled.

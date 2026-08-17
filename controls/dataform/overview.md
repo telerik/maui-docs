@@ -39,7 +39,7 @@ If you prefer video instructions, watch this short MAUI DataForm video tutorial.
 
 * [Different layouts]({%slug dataform-layouts%})&mdash;Arrange the editors and the groups using different layouts like stack, grid and more.
 
-* [Grouping support]({%slug dataform-grouping%})&mdash;Organize editors in groups for better user experience. Groups can be applied directly in the XAMl, in the ViewModel or in both. 
+* [Grouping support]({%slug dataform-grouping%})&mdash;Organize editors in groups for better user experience. Groups can be applied directly in the XAML, in the ViewModel or in both. 
 
 * [Commands support]({%slug dataform-commands%}) for validation and commit data and canceling the commit operation.
 

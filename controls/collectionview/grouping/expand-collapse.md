@@ -42,7 +42,7 @@ The following example demonstrates how these methods are used:
 
 ## Expand and Collapse Specific Group
 
-You can retrieve the first-level groups through the `GetGroups()` method of the `IDataViewCollection` object and use `ExpandGroup()`/`CollapseGroup()` to make a certain group to expand or collapse respectively. You can check whether a group is expanded trough the `GetIsExpanded()` method.
+You can retrieve the first-level groups through the `GetGroups()` method of the `IDataViewCollection` object and use `ExpandGroup()`/`CollapseGroup()` to make a certain group to expand or collapse respectively. You can check whether a group is expanded through the `GetIsExpanded()` method.
 
 ![.NET MAUI CollectionView Expand Collapse Group](../images/collectionview-group-expand-collapse.gif "Telerik .NET MAUI CollectionView")
 

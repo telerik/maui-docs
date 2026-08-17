@@ -13,7 +13,7 @@ To create a specific Path, you need to set a `RadPathGeometry` object to its `Ge
 
 ## RadPathFigure
 
-Each of the `RadPathFigure` objects is composed of one or more segments, for example, `RadArcSegment` or `RadLineSegment`. To create a figure that will be added to the figures collection of the geometry, add the segments and set up the the `StartPoint` of the `RadPathFigure`.
+Each of the `RadPathFigure` objects is composed of one or more segments, for example, `RadArcSegment` or `RadLineSegment`. To create a figure that will be added to the figures collection of the geometry, add the segments and set up the `StartPoint` of the `RadPathFigure`.
 
 Each line or arc segment you add to the path figure is drawn so - its starting point is the last point of the previous segment of the Segments collection of the `PathFigure` object. The first segment uses the `StartPoint` of the path figure as a starting point.
 

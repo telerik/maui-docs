@@ -16,7 +16,7 @@ The `AIPromptCommandBase` class provides the following properties:
 * `ImageSource`(`ImageSource`)&mdash;Allows you to display an icon for the command in the Commands View of the AIPrompt control.
 * `Text`(`string`)&mdash;Allows you to specify a string that will display information about the command.
 
-In addition, you can use the `AIPromptCommand` class which inherits from `AIPromtCommandBase` and provides additional `Command` property:
+In addition, you can use the `AIPromptCommand` class which inherits from `AIPromptCommandBase` and provides additional `Command` property:
 
 * `Command`(`ICommand`)&mdash;Defines the command that is executed when the AIPrompt command is tapped.
 

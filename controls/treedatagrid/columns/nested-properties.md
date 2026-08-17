@@ -9,7 +9,7 @@ slug: treedatagrid-nested-properties
 
 # .NET MAUI TreeDataGrid Nested Properties Support
 
-The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) inherits the support for nested properties form the DataGrid control. Nested properties allow binding of complex objects to the tree grid columns.
+The [Telerik UI for .NET MAUI TreeDataGrid]({%slug treedatagrid-overview%}) inherits the support for nested properties from the DataGrid control. Nested properties allow binding of complex objects to the tree grid columns.
 
 In addition, the `ListenForNestedPropertyChange` (`bool`) property gives the ability to listen for changes in the nested properties' values. The default value is `false`.
 

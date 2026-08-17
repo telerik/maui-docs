@@ -25,7 +25,7 @@ Before adding the ItemsControl, you need to:
 
 ## Define the Control
 
-**1.** When the your .NET MAUI application is set up, you are ready to add a ItemsControl to your page.
+**1.** When your .NET MAUI application is set up, you are ready to add a ItemsControl to your page.
 
 ```XAML
 <telerik:RadItemsControl x:Name="itemsControl"/>

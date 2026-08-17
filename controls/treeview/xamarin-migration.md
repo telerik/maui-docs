@@ -18,7 +18,7 @@ The tables in the following sections list the differences between the APIs of th
 
 When migrating the TreeView from Xamarin to .NET MAUI, consider the following differences in the namespaces:
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin TreeView | `RadTreeView` | xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls" | using Telerik.XamarinForms.DataControls; |
 | .NET MAUI TreeView | `RadTreeView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | using Telerik.Maui.Controls; |

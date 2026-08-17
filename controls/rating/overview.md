@@ -16,7 +16,7 @@ The Telerik UI for .NET MAUI Rating is an intuitive UI component that allows use
 
 ## Key Features of the .NET MAUI Rating
 
-* [Configuration options]({%slug rating-configuration%})&mdash;Configure the Rating by setting the number ot items that will be displayed, the spacing between them and the predefined value. 
+* [Configuration options]({%slug rating-configuration%})&mdash;Configure the Rating by setting the number of items that will be displayed, the spacing between them and the predefined value. 
 * [Predefined rating shapes]({%slug rating-shape-rating%})&mdash;The Rating provides simple shapes such as star, circle, diamond and heart that can be used for rating items out of the box.
 * [Customizable shapes]({%slug rating-shape-rating%}#shapes-styling)&mdash;You can take advantage of the flexible Rating API and customize the appearance of the predefined shapes.
 * [Custom items template support]({%slug rating-templated-rating%})&mdash;The Rating control provides two templates options for its normal and selected state, allowing you to achieve the desired look and feel.

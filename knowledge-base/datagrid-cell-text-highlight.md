@@ -26,7 +26,7 @@ To highlight the text in the DataGrid, use a `CellTemplateColumn` and add a `Rad
 
 ![.NET MAUI DataGrid Highlighted Text](images/highlightedtext.png)
 
-By binding the `HighlightText` property to the text value of the Entry you will be able to get the characters which need to be highlighted. The `UnformattedText` property must be bound to the `ItemsSource` propertys.
+By binding the `HighlightText` property to the text value of the Entry you will be able to get the characters which need to be highlighted. The `UnformattedText` property must be bound to the `ItemsSource` properties.
 
 The following example shows the implementation the suggested approach.
 

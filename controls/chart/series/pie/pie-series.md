@@ -42,7 +42,7 @@ The following image shows the end result:
 
 If you want to customize the labels in the pie series (setting color, formatting the value, changing the font family and so on) you have to use the native Android, iOS and WinUI chart control. 
 
-For more details what are the steps for customizing the labels, review the [Customizing Labels in the Pie Chart]({%slug piechart-label-customization%}) artcile.
+For more details what are the steps for customizing the labels, review the [Customizing Labels in the Pie Chart]({%slug piechart-label-customization%}) article.
 
 ## See Also
 

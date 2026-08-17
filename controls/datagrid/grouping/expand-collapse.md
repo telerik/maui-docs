@@ -39,7 +39,7 @@ dataView.CollapseAll();
 
 ## Expand and Collapse Specific Groups
 
-You can retrieve the first-level groups through the `GetGroups` method of the `IDataViewCollection` object and use `ExpandGroup`/`CollapseGroup` to make a certain group to expand or collapse respectively. You can check whether a group is expanded trough the `GetIsExpanded` method.
+You can retrieve the first-level groups through the `GetGroups` method of the `IDataViewCollection` object and use `ExpandGroup`/`CollapseGroup` to make a certain group to expand or collapse respectively. You can check whether a group is expanded through the `GetIsExpanded` method.
 
 The following example demonstrates how these methods are used:
 

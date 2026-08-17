@@ -42,7 +42,7 @@ The RichTextEditor component exposes the following events:
 	* The `Sender`, which is the RichTextEditor control;
 	* `ValueChangedEventArgs<RichTextDecorations>` provides the `NewValue` and `PreviousValue` properties of type `TValue`.
 
-* `TextFormattingChanged`&mdash;Raised when the `TextFormatting`, such as such as heading, paragraph or quotation is modified. The `TextFormattingChanged` event handler receives two parameters:
+* `TextFormattingChanged`&mdash;Raised when the `TextFormatting`, such as heading, paragraph or quotation is modified. The `TextFormattingChanged` event handler receives two parameters:
 	* The `Sender`, which is the RichTextEditor control;
 	* `ValueChangedEventArgs<RichTextFormatting>` provides the `NewValue` and `PreviousValue` properties of type `TValue`.
 

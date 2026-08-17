@@ -44,7 +44,7 @@ Use one of the following options to access the app:
 3. Browse the sample source in the [Telerik .NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples) and run it on all platforms.
 
 >important
-> If you don't have a Telerik UI for .NET MAUI installation, check the [Geting Started guide]({%slug maui-quick-start%})
+> If you don't have a Telerik UI for .NET MAUI installation, check the [Getting Started guide]({%slug maui-quick-start%})
 
 <TabStrip>
 <TabStripTab title="Run on Android">

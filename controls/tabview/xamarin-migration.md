@@ -18,7 +18,7 @@ The tables in the following sections list the differences between the APIs of th
 
 When migrating the TabView from Xamarin to .NET MAUI, consider the following differences in the namespaces:
 
-| Control | Control name | XAML Namespcace | C# Namespace|
+| Control | Control name | XAML Namespace | C# Namespace|
 | --------------- | --------------- | --------------- | --------------- |
 | Xamarin TabView | `RadTabView` | xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" | using Telerik.XamarinForms.Primitives; |
 | .NET MAUI TabView | `RadTabView` | xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"` | using Telerik.Maui.Controls; |

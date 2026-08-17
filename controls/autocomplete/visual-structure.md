@@ -28,7 +28,7 @@ The images in this article show the anatomy of the AutoComplete and its building
 
 ![Telerik UI for .NET MAUI AutoComplete Filtering Visual Structure](images/autocomplete-focused-text.png "Visual elements of AutoComplete control")
 
-- `Text`&mdash;The text entered in the control's input filed.
+- `Text`&mdash;The text entered in the control's input field.
 - [`RadTextInput`]({%slug entry-textinput%})&mdash;The control used for the text input.
 - `Clear Button`&mdash;Clears the selection in the control (for both multiple and single selection scenarios).
 - `Filtered Items`&mdash;The items that are displayed after filtering the `ItemsSource` of the AutoComplete control.

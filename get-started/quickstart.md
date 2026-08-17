@@ -94,7 +94,7 @@ The application includes the Telerik UI for .NET MAUI suite already set up.
 
 When the project is ready, navigate to the project folder and open the app in your preferred IDE.
 
-For more detials about the Telerik UI for .NET MAUI projectTemplates in .NET CLI, review the [Telerik.Maui.Templates packages](https://www.nuget.org/packages/Telerik.Maui.Templates).
+For more details about the Telerik UI for .NET MAUI projectTemplates in .NET CLI, review the [Telerik.Maui.Templates packages](https://www.nuget.org/packages/Telerik.Maui.Templates).
 
 </TabStripTab>
 </TabStrip>

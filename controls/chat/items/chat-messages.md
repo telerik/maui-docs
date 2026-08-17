@@ -17,7 +17,7 @@ The Author property is of type `Telerik.Maui.Controls.Chat.Author` and exposes t
 * `Avatar`&mdash;Image related to the author, displayed in the Chat UI;
 * `Data`&mdash;You can use it to preserve additional information about the author;
 
-By default, when the end user types in the text box and confirms the message, it is set to the to Chat's `Message` property. In addition, the `SendMessage` event is fired each time a new message is about to be added to the Chat UI. It allows you to modify the message itself.
+By default, when the end user types in the text box and confirms the message, it is set to the Chat's `Message` property. In addition, the `SendMessage` event is fired each time a new message is about to be added to the Chat UI. It allows you to modify the message itself.
 
 ## Text Message
 

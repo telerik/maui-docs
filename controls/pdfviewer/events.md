@@ -33,7 +33,7 @@ In some cases, the PDF Viewer will fail to load the passed PDF document. The rea
 
 The example below shows how to use the `RadPdfViewer` API for handling source exceptions.
 
-**1,.** Define the `RadPdfViewer` control and apply a `SourceExceptionTemplate`. The snippet below demonstrates a sample template with only one Label which holds the message. 
+**1.** Define the `RadPdfViewer` control and apply a `SourceExceptionTemplate`. The snippet below demonstrates a sample template with only one Label which holds the message. 
 
 <snippet id='pdfviewer-source-exception-xaml' />
 

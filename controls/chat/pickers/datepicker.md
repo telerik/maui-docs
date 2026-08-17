@@ -17,7 +17,7 @@ The `RadChatPicker` control provides a `DatePickerContext` that you can use to d
 * `MinDate`&mdash;Defines the min date that can be displayed and selected;
 * `MaxDate`&mdash;Defines the max date that can be displayed and selected;
 
-Here is a quick example on how to user DatePicker:
+Here is a quick example on how to use DatePicker:
 
 <snippet id='chat-chatpicker-datepicker' />
 	

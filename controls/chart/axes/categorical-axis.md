@@ -36,7 +36,7 @@ The following example shows how to format the axis labels on the Categorical Axi
 
 <snippet id='chart-series-categorical-data-view-model' />
 
-**3.** se the following snippet to declare the `RadChart` in XAML or in C#:
+**3.** Use the following snippet to declare the `RadChart` in XAML or in C#:
 
 ```XAML
 <telerik:RadCartesianChart>

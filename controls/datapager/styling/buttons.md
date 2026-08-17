@@ -32,7 +32,7 @@ The DataPager provides a styling mechanism for customizing the look of the numer
 * `NumericButtonsViewStyle` (`Style` with target type of `telerik:DataPagerNumericButtonsView`)&mdash;Specifies the style which applies to the view presenting the numeric buttons. 
 
 The `DataPagerButton` inherits from `RadTemplatedButton`. Set the properties described in the [TemplatedButton Styling]({%slug templatedbutton-styling%}) article to the DataPager navigation buttons styling properties.
-s
+
 The `DataPagerButton` exposes additional visual states&mdash;`Selected` and `SelectedDisabled`. Review the [TemplatedButton Visual States]({%slug templatedbutton-visual-states%}) article to check what are the other states you can set to the navigation buttons.
 
 ## Example

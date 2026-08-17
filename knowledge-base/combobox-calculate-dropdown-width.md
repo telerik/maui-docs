@@ -202,4 +202,4 @@ Take notice that the `var textWidth = paint.MeasureText(text)` code is what even
 ## Notes
 
 - This is an example as a place to start, the code is written for Windows and MacCatalyst but you can expand it to other platforms as needed.
-- This will not work if you have defined a custom `ItemTemplate` for the dropdown. You can still use it as an inpiration to determine the width for your ItemTemplate's root element (or just set a minimum width instead).
+- This will not work if you have defined a custom `ItemTemplate` for the dropdown. You can still use it as an inspiration to determine the width for your ItemTemplate's root element (or just set a minimum width instead).

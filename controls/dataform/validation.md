@@ -46,7 +46,7 @@ DataForm exposes the following events for validation:
 
 * `EditorValidationCompleted`&mdash;Raised when the validation of an editor has completed. The `EditorValidationCompleted` event handler receives two parameters:
     * `sender` argument which is of type object, but can be cast to the `RadDataForm` type. 
-    * `DataFormEditorValidationCompletedEventArgs`  which provides additional information for the validated `PropertyName`, the original value ff the validated property `PropertyValue`(`object`) in the model and the modified value of the validated property in the editor - `EditorValue`(`object`).
+	* `DataFormEditorValidationCompletedEventArgs`  which provides additional information for the validated `PropertyName`, the original value of the validated property `PropertyValue`(`object`) in the model and the modified value of the validated property in the editor - `EditorValue`(`object`).
 
 
 ## Manual Validation with Methods

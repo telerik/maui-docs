@@ -24,7 +24,7 @@ ComboBox control has a support for single and multiple selection. You can specif
 
 ## Single Selection
 
-The default `SelectinMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`) of the ComboBox control is `Single`.
+The default `SelectionMode`(enumeration of type `Telerik.Maui.Controls.ComboBoxSelectionMode`) of the ComboBox control is `Single`.
 
 ### Example with Single Selection and SelectedIndex Set
 

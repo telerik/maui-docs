@@ -25,7 +25,7 @@ By default, the PDF Viewer Toolbar provides the following toolbar items describe
 | `PdfViewerNavigateToPageToolbarItem` | Executes the `PdfViewerNavigateToPreviousPageCommand` |
 | `PdfViewerToggleLayoutModeToolbarItem` | toggles the `RadPdfViewer.LayoutMode` property between `SinglePage` and `ContinuousScroll` |
 | `PdfViewerSearchToolbarItem` | Activates the search functionality in the PDF viewer control. Opens a popup. |
-| `PdfViewerSearchNavigationToolbarItem` | Activates the search functionality in the PDF viewer control. Creates a default set of toolbar items applicabe for search feature |
+| `PdfViewerSearchNavigationToolbarItem` | Activates the search functionality in the PDF viewer control. Creates a default set of toolbar items applicable for search feature |
 
 >note `PdfToolbarItems` inherit from `ButtonToolbarItem` except `PdfViewerNavigateToPageToolbarItem`.
 
@@ -58,7 +58,7 @@ And this is the look on Android:
 
 ![.NET MAUI PdfViewer Toolbar](images/pdf-toolbar-mobile.png "PDF Viewer Toolbar")
 
-> For a runnalbe example with the PDF Viewer toolbar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
+> For a runnable example with the PDF Viewer toolbar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **PdfViewer > Toolbar**.
 
 ## Custom Toolbar Items
 

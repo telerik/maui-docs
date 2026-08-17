@@ -38,7 +38,7 @@ This article explains how to use the `SpanCount` property of the RadListView Gri
 
 The example below shows how the `SpanCount` can be updated according to another value changed from a NumericInput control.
 
-**1.** Here is the deifnition of the controls in XAML:
+**1.** Here is the definition of the controls in XAML:
 
 ```XAML
 <Grid>

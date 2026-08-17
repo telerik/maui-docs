@@ -23,7 +23,7 @@ You can programmatically select a `TabViewItem` by setting the following propert
 * `SelectedItem` (of type `Telerik.Maui.Controls.TabViewItem`)&mdash;Defines the selected item. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
 * `SelectedIndex` (`int`)&mdash;Specifies the index of the currently selected `TabViewItem`. The value of this property affects which header item is selected in the header area and which content is displayed in the content area.
 
-* `IsSelected` (`bool`)&mdash;Set the property directly to the `TabViewItem` to initiale a selection.
+* `IsSelected` (`bool`)&mdash;Set the property directly to the `TabViewItem` to initiate a selection.
 
 ### Animation
 

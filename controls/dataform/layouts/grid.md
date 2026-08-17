@@ -15,7 +15,7 @@ Use the following properties which the `DataFormGridLayout` provides:
 
 * `ColumnCount`(`int`)&mdash;Specifies the count of the columns in the grid layout. Default value is `2`.
 * `ColumnSpacing`(`double`)&mdash;Specifies the spacing between the columns. Default value is `24`.
-* `RowSpacing`(`bouble`)&mdash;Specifies the spacing between the rows in the grid layout. Default value is `24`.
+* `RowSpacing`(`double`)&mdash;Specifies the spacing between the rows in the grid layout. Default value is `24`.
 
 > For more details about the GridLayout review the official [GridLayout Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/layouts/grid).
 

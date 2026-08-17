@@ -30,11 +30,11 @@ The available properties are:
 * `TextDecorations`(enum of type `Microsoft.Maui.TextDecorations`)&mdash;Defines the decorations of the text to display in the toolbar item. Default value is `None`.
 * `HorizontalTextAlignment`(enum of type `Microsoft.Maui.TextAlignment`)&mdash;Defines the horizontal alignment of the text to display in the toolbar item. The default value is `Start`.
 * `VerticalTextAlignment`(enum of type `Microsoft.Maui.TextAlignment`)&mdash;Defines the vertical alignment of the text to display in the toolbar item. Default value is `Center`.
-* `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Defines the source of the image displayed in the in the toolbar item.
-* `ImageAspect`(enum of type `Microsoft.Maui.Aspect`)&mdash;Defines the aspect ratio of the image displayed in the in the toolbar item. Default value is `Center`.
-* `ImageWidth`(`double`)&mdash;Defines the width in pixels of the image displayed in the in the toolbar item. Default value is `-1.0`.
-* `ImageHeight`(`double`)&mdash;Defines the height in pixels of the image displayed in the in the toolbar item. Default value is `-1.0`.
-* `ImageSpacing`(`double`)&mdash;Defines the spacing in pixels between the image and the text displayed in the in the toolbar item. Default value is `8.0`.
+* `ImageSource`(`Microsoft.Maui.Controls.ImageSource`)&mdash;Defines the source of the image displayed in the toolbar item.
+* `ImageAspect`(enum of type `Microsoft.Maui.Aspect`)&mdash;Defines the aspect ratio of the image displayed in the toolbar item. Default value is `Center`.
+* `ImageWidth`(`double`)&mdash;Defines the width in pixels of the image displayed in the toolbar item. Default value is `-1.0`.
+* `ImageHeight`(`double`)&mdash;Defines the height in pixels of the image displayed in the toolbar item. Default value is `-1.0`.
+* `ImageSpacing`(`double`)&mdash;Defines the spacing in pixels between the image and the text displayed in the toolbar item. Default value is `8.0`.
 * `DisplayOptions`(enum of type `Telerik.Maui.Controls.ToolbarItemDisplayOptions`) property allows you to display text, image in the toolbar or in a combination of both. The options are `Text` and `Image`. This enum type supports a bitwise combination of its members to enable more than one option.
 
  Position the image relative to the text in the toolbar item by setting the `ImagePosition`(enum of type `Telerik.Maui.Controls.ToolbarItemImagePosition`). The available options are: 

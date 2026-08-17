@@ -13,7 +13,7 @@ The `RadChat` control exposes an `ItemTemplateSelector` property which you can u
 
 ## Default ItemTemplateSelector
 
-Any change in the appearance of the Chat items depends on the `ChatItemTemplateSelector` and the containing templates and referenced styles. The default selector includes separate templates for the incoming and outgoing messages (so they're aligned to the left or right) and for single, first, middle, and last messages (in the case there area a few messages in a row)—this is needed to achieve the "balloon" look & feel of the messages. In addition, the `TimeBreak` template is also assigned through the `ItemTemplateSelector`.
+Any change in the appearance of the Chat items depends on the `ChatItemTemplateSelector` and the containing templates and referenced styles. The default selector includes separate templates for the incoming and outgoing messages (so they're aligned to the left or right) and for single, first, middle, and last messages (in the case there are a few messages in a row)—this is needed to achieve the "balloon" look & feel of the messages. In addition, the `TimeBreak` template is also assigned through the `ItemTemplateSelector`.
 
 Below you can find the default `ItemTemplateSelector`, which you can use as a base for any further customizations to the way the messages look. 
 

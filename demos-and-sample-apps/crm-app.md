@@ -19,7 +19,7 @@ Use one of the following options to access the app:
 1. Install the published app from a store:
    - [Google Play Store for Android devices](https://play.google.com/store/apps/details?id=com.telerik.maui.ArtGalleryCRM&hl=en)
 
-2. Browse the sample source in the [Telerik .NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples) and run in on all platforms.
+2. Browse the sample source in the [Telerik .NET MAUI Samples repository on GitHub](https://github.com/telerik/maui-samples/tree/main/Samples) and run it on all platforms.
 
 <TabStrip>
 <TabStripTab title="Run on Android">

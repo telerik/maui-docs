@@ -24,7 +24,7 @@ The <a href="https://www.telerik.com/maui-ui/pdf-viewer" target="_blank">.NET MA
 		
 	* `FitPageToWidthCommand`&mdash;Executes the `FitToWidth` command for the current page and disregards the width of the other pages in the document.
 
-* `DoubleTappedCommand`&mdash;This command is triggerd by the user when double-tapping the content area of the PDF Viewer. On the first double-tap, the document is zoomed 2.5 times at the tapped location, another double-tap triggers the `FitToWidth` command.
+* `DoubleTappedCommand`&mdash;This command is triggered by the user when double-tapping the content area of the PDF Viewer. On the first double-tap, the document is zoomed 2.5 times at the tapped location, another double-tap triggers the `FitToWidth` command.
 
 >note PDF Viewer's toolbar contains some of the commands as built-in options so you can use them though the predefined items in the toolbar. For more information, check the [PDF Viewer Toolbar]({%slug pdfviewer-toolbar%}) article.
 

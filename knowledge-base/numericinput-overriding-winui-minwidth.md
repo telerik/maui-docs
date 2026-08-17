@@ -55,7 +55,7 @@ To address the issue of the NumericInput's value being cut off due to the `MinWi
         }
     ```
 
-4. Set the Inputeditor's MinWdith property&mdash;With access to the handler's PlatformView, you can now set the `MinWidth` property of the concrete native WinUI `InputEditor` (which is of type RadTextBox).
+4. Set the Inputeditor's MinWidth property&mdash;With access to the handler's PlatformView, you can now set the `MinWidth` property of the concrete native WinUI `InputEditor` (which is of type RadTextBox).
 
     ```csharp
         private void OnNumericInputLoaded(object sender, EventArgs e)
