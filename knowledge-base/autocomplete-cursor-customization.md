@@ -1,4 +1,4 @@
----
+﻿---
 title: Customize AutoComplete Cursor Color
 description: How to access the native entry element inside the RadAutoComplete to customize the cursor
 type: how-to
@@ -6,6 +6,7 @@ page_title: Customize AutoComplete Cursor
 slug: autocomplete-cursor-customization
 position: 
 tags: maui, autocomplete, radautocomplete, cursor, caret, color, styling
+components: ["autocomplete"]
 ticketid: 1612671
 res_type: kb
 ---

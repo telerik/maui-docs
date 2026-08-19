@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing SelectedItems in TreeDataGrid
 description: Learn how to manage the read-only SelectedItems collection in Telerik UI for .NET MAUI TreeDataGrid by binding it to a ViewModel property.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Bind and Manage SelectedItems in TreeDataGrid
 meta_title: Bind and Manage SelectedItems in Telerik MAUI TreeDataGrid
 slug: managing-selecteditems-treedatagrid
 tags: treedatagrid, ui for .net maui, selecteditems, binding, collectionchanged
+components: ["treedatagrid"]
 res_type: kb
 ---
 

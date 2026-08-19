@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Data Annotations in Telerik UI for .NET MAUI DataForm
 description: Learn how to use data annotations in the Telerik UI for .NET MAUI DataForm, including setting required fields and editor placeholder text.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Adding Data Annotations in Telerik UI for .NET MAUI DataForm
 meta_title: Adding Data Annotations in Telerik UI for .NET MAUI DataForm
 slug: using-data-annotations-in-telerik-maui-dataform
 tags: telerik, ui for .net maui, dataform, data annotations, required field, placeholder text
+components: ["dataform"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Selecting the First Row in DataGrid by Default Using MVVM in UI for .NET MAUI
 description: Learn how to select the first row in a UI for .NET MAUI DataGrid by default using the MVVM approach.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Automatically Select the First Row in UI for .NET MAUI DataGrid Usin
 meta_title: Automatically Select the First Row in UI for .NET MAUI DataGrid Using MVVM
 slug: select-first-row-datagrid-mvvm-maui
 tags: datagrid, ui-for-net-maui, mvvm, default-selection, selecteditem
+components: ["datagrid"]
 res_type: kb
 ---
 

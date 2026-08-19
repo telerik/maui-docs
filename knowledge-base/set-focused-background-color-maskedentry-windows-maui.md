@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting the Focused Background Color of a MaskedEntry Control on Windows
 description: Learn how to set the focused background color of a MaskedEntry control on Windows in the MaskedEntry for .NET MAUI.
 type: how-to
 page_title: How to Set the Focused Background Color of a MaskedEntry Control on Windows | MaskedEntry for .NET MAUI
 slug: set-focused-background-color-maskedentry-windows-maui
 tags: maskedentry, windows, background color, focused, control
+components: ["maskedentry"]
 res_type: kb
 ---
 

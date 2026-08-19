@@ -1,10 +1,11 @@
----
+﻿---
 title: Changing Edit Mode Behavior in DataGrid for MAUI
 description: Learn how to modify the edit mode behavior in RadDataGrid for MAUI to enter edit mode with a single click instead of a double-click.
 type: how-to
 page_title: Changing Edit Mode Behavior in RadDataGrid for MAUI
 slug: changing-edit-mode-behavior-maui-raddatagrid
 tags: maui, raddatagrid, edit mode, cell tap, cell double tap
+components: ["datagrid"]
 res_type: kb
 ---
 ## Environment

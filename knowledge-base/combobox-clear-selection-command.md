@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind custom Clear Selection command to editable ComboBox.
 description: Override the behavior of the Clear Selection Command in editable ComboBox by using the custom command.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Bind custom Clear Selection command to editable ComboBox
 slug: combobox-clear-selection-command
 position: 
 tags: command, combobox, clear, button, editable 
+components: ["combobox"]
 ticketid: 1616145
 res_type: kb
 ---

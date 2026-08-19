@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating a Bar Indicator with Color Based on Axis Size in UI for .NET MAUI
 description: Learn how to create a bar indicator in UI for .NET MAUI and change its color based on axis size.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Changing Bar Indicator Color Based on Axis Size in UI for .NET MAUI
 meta_title: Changing Bar Indicator Color Based on Axis Size in UI for .NET MAUI
 slug: changing-bar-indicator-color-based-on-axis-size-dotnet-maui
 tags: progressbar, ui-for-dotnet-maui, axis-size, progress-fill
+components: ["progressbar"]
 res_type: kb
 ---
 

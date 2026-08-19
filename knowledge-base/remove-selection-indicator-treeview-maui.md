@@ -1,10 +1,11 @@
----
+﻿---
 title: Removing Selection Indicator from TreeView on Windows
 description: Learn how to remove the selection indicator from a TreeView in a .NET MAUI application running on Windows.
 type: how-to
 page_title: How to Remove the Selection Indicator from TreeView in Windows
 slug: remove-selection-indicator-treeview-windows
 tags: TreeView, .net maui, windows, treeview, selection, indicator, control template, style
+components: ["treeview"]
 res_type: kb
 ---
 

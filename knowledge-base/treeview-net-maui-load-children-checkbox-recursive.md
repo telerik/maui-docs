@@ -1,10 +1,11 @@
----
+﻿---
 title: Handling TreeView Load Children on Demand with Recursive CheckBox Mode
 description: Learn how to ensure child nodes are checked when expanding a parent node with CheckBox Mode set to Recursive in TreeView for .NET MAUI.
 type: how-to
 page_title: Ensuring Child Nodes are Checked in TreeView for .NET MAUI
 slug: treeview-net-maui-load-children-checkbox-recursive
 tags: treeview, .net maui, load children on demand, checkbox, recursive
+components: ["treeview"]
 res_type: kb
 ---
 

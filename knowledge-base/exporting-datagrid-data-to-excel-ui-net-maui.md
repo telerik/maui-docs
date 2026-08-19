@@ -1,4 +1,4 @@
----
+﻿---
 title: Exporting DataGrid Data to Excel in UI for .NET MAUI
 description: Learn how to export DataGrid data to Excel in UI for .NET MAUI using Telerik Document Processing Library SpreadStreamProcessing.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Export DataGrid Data to Excel in UI for .NET MAUI
 meta_title: How to Export DataGrid Data to Excel in UI for .NET MAUI
 slug: exporting-datagrid-data-to-excel-ui-net-maui
 tags: ui-for-net-maui, datagrid, export-to-excel, spreadstreamprocessing, telerik-document-processing-library
+components: ["datagrid"]
 res_type: kb
 ---
 

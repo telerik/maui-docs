@@ -1,10 +1,11 @@
----
+﻿---
 title: Custom Sorting and Grouping in DataGrid Using Built-in UI in MAUI
 description: Learn how to implement custom sorting and grouping logic in a Telerik DataGrid for MAUI while utilizing the built-in user interface options.
 type: how-to
 page_title: Customizing Sort and Group Logic in MAUI DataGrid with Built-in UI Features
 slug: custom-sort-group-datagrid-maui
 tags: datagrid, maui, custom, sort, group, delegate, descriptor
+components: ["datagrid"]
 res_type: kb
 ---
 

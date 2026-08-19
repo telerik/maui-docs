@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating Dashed Line Series by Using the .NET MAUI Chart
 page_title: Creating Dashed Line Charts - .NET MAUI Knowledge Base
 description: Learn how to create dashed line chart series by using the Telerik UI for .NET MAUI Line Series Chart component on Android, iOS, MacCatalyst, and WinUI.
 type: how-to
 slug: chart-dash-series
 tags: maui, chart, .net maui, dashed chart, ios, mac, windows, android, line chart
+components: ["chart"]
 ticketid: 1582451
 res_type: kb
 ---
@@ -15,7 +16,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-      <td>Progress® Telerik® UI for .NET MAUI Chart</td>
+      <td>Telerik UI for .NET MAUI Chart</td>
     </tr>
   	<tr>
   		<td>Product Version</td>

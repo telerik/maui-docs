@@ -1,4 +1,4 @@
----
+﻿---
 title: Adding Tooltip to Toolbar Items in PDF Viewer for .NET MAUI
 description: Learn how to define a tooltip with text for the toolbar items in PDF Viewer for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Define Tooltip for PDF Viewer Toolbar Items in .NET MAUI
 meta_title: Define Tooltip for PDF Viewer Toolbar Items in .NET MAUI
 slug: tooltip-toolbar-items-pdfviewer-dotnet-maui
 tags: pdfviewer, .net-maui, tooltip, toolbaritems, buttontoolbaritemview, style, tooltipproperties.text
+components: ["pdfviewer"]
 res_type: kb
 ---
 

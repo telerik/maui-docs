@@ -1,4 +1,4 @@
----
+﻿---
 title: Forcing Commit Command When Tapping Outside the DataGrid in MAUI
 description: Learn how to force the CommitEdit command in the DataGrid for MAUI when tapping outside the control or interacting with another grid.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Triggering CommitEdit in MAUI DataGrid on External UI Tap or Second 
 meta_title: Triggering CommitEdit in MAUI DataGrid on External UI Tap or Second DataGrid Interaction
 slug: force-commit-command-maui-datagrid-outside-tap
 tags: datagrid,maui,commitedit,celltap,tapgesture,programmatic
+components: ["datagrid"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Styling Day Numbers and Day Names in Month View in Scheduler for .NET MAUI
 description: Learn how to change the position and style of day numbers and day names in the Month View of the Scheduler for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Customizing Day Numbers and Day Names in Scheduler Month View in .NE
 meta_title: Customizing Day Numbers and Day Names in Scheduler Month View in .NET MAUI
 slug: customize-day-numbers-and-day-names-scheduler-month-view-dotnet-maui
 tags: scheduler, monthview, daystyling, daynamestyling, scheduler .net maui
+components: ["scheduler"]
 res_type: kb
 ---
 

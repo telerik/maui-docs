@@ -1,4 +1,4 @@
----
+﻿---
 title: Defining Styles for CollectionView in XAML and C#
 description: Learn how to define styles for the CollectionView in UI for .NET MAUI using both XAML and C#. Control the background color in normal and selected states and adjust item spacing.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Styling CollectionView in XAML and C# for Background and Spacing
 meta_title: Styling CollectionView in XAML and C# for Background and Spacing
 slug: styling-radcollectionview-xaml-csharp-background-spacing
 tags: collectionview, .net maui, radcollectionview, styles, xaml, csharp, itemstyle, itemlayout
+components: ["collectionview"]
 res_type: kb
 ---
 

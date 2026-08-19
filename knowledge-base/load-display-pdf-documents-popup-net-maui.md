@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying PDF Documents in a Popup in a .NET MAUI App
 description: Learn how to load and display PDF documents within a popup in a .NET MAUI application.
 type: how-to
 page_title: How to Load and Display PDF Documents in a Popup in .NET MAUI
 slug: load-display-pdf-documents-popup-net-maui
 tags: pdfviewer, popup, .net maui, load, display, pdf, document
+components: ["pdfviewer"]
 res_type: kb
 ---
 

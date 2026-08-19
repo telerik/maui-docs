@@ -1,4 +1,4 @@
----
+﻿---
 title: Preventing Automatic Sorting of Groups in CollectionView
 description: Learn how to prevent automatic group sorting in RadCollectionView for UI for .NET MAUI by implementing a custom solution.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Avoid Automatic Group Sorting in CollectionView
 meta_title: Avoid Automatic Group Sorting in CollectionView for .NET MAUI
 slug: prevent-automatic-sorting-groups-collectionview
 tags: collectionview,radcollectionview,.net maui,group sorting,custom group order
+components: ["collectionview"]
 res_type: kb
 ---
 

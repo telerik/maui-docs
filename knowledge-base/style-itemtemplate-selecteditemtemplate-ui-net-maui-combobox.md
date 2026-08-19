@@ -1,4 +1,4 @@
----
+﻿---
 title: Styling ItemTemplate and SelectedItemTemplate in ComboBox for UI for .NET MAUI
 description: Learn how to style the ItemTemplate and SelectedItemTemplate in ComboBox for UI for .NET MAUI using implicit or explicit styles.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Style ItemTemplate and SelectedItemTemplate in UI for .NET MAUI Comb
 meta_title: Style ItemTemplate and SelectedItemTemplate in UI for .NET MAUI ComboBox
 slug: style-itemtemplate-selecteditemtemplate-ui-net-maui-combobox
 tags: combobox, ui for .net maui, itemtemplate, selecteditemtemplate, styling
+components: ["combobox"]
 res_type: kb
 ---
 

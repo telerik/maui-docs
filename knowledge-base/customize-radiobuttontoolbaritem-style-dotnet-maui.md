@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing RadioButtonToolbarItem Style in .NET MAUI Toolbar
 description: Learn how to change the style of RadioButtonToolbarItems in a .NET MAUI Toolbar, including background color and text color, when selected.
 type: how-to
 page_title: How to Customize RadioButtonToolbarItem Style in a .NET MAUI Toolbar Using Visual State Manager
 slug: customize-radiobuttontoolbaritem-style-dotnet-maui
 tags: visualstatemanager, radiobuttontoolbaritem, style, .net maui, toolbar
+components: ["toolbar"]
 res_type: kb
 ---
 

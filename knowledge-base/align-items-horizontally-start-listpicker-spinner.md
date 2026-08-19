@@ -1,4 +1,4 @@
----
+﻿---
 title: Aligning Items Horizontally to Start in ListPicker Spinner
 description: Learn how to align items in the UI for .NET MAUI ListPicker spinner to the left horizontally (Start) instead of center.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Set Horizontal Alignment for Spinner Items in RadListPicker
 meta_title: How to Set Horizontal Alignment for Spinner Items in RadListPicker
 slug: align-items-horizontally-start-listpicker-spinner
 tags: listpicker, ui for .net maui, alignment, itemstyle, selecteditemstyle
+components: ["listpicker"]
 res_type: kb
 ---
 

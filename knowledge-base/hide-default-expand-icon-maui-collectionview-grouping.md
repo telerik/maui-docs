@@ -1,4 +1,4 @@
----
+﻿---
 title: Hiding Default Expand Icon in .NET MAUI CollectionView with Grouping
 description: Learn how to hide the default expand icon in .NET MAUI CollectionView when grouping is used and use a custom icon instead.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Customizing Expand Icon in .NET MAUI CollectionView Grouping
 meta_title: Customizing Expand Icon in .NET MAUI CollectionView Grouping
 slug: hide-default-expand-icon-maui-collectionview-grouping
 tags: collectionview, expand-indicator, grouping, group-template, styling, hide expand icon
+components: ["collectionview"]
 res_type: kb
 ---
 

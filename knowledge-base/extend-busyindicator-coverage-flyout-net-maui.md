@@ -1,22 +1,14 @@
----
+﻿---
 title: Covering the Flyout Menu with BusyIndicator in .NET MAUI
 description: Learn how to extend the coverage of BusyIndicator to include the Flyout menu in .NET MAUI applications.
 type: how-to
 page_title: How to Extend BusyIndicator Coverage to the Flyout Menu in .NET MAUI
 slug: extend-busyindicator-coverage-flyout-net-maui
 tags: busyindicator, .net maui, shell, flyout, overlay
+components: ["busyindicator"]
 res_type: kb
 ticketid: 1674906
 ---
-
-## Description
-
-When implementing the [BusyIndicator for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/busyindicator), the indicator covers only the view area and not the Flyout menu. How can I cover the entire Flyout menu?
-
-This knowledge base article also answers the following questions:
-- How to cover the Flyout menu with BusyIndicator in .NET MAUI Shell?
-- How to ensure BusyIndicator visibility over the entire application including the Flyout in .NET MAUI?
-- How to implement an overlay for the Flyout menu in .NET MAUI?
 
 ## Environment
 
@@ -32,6 +24,15 @@ This knowledge base article also answers the following questions:
 </tr>
 </tbody>
 </table>
+
+## Description
+
+When implementing the [BusyIndicator for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/busyindicator), the indicator covers only the view area and not the Flyout menu. How can I cover the entire Flyout menu?
+
+This knowledge base article also answers the following questions:
+- How to cover the Flyout menu with BusyIndicator in .NET MAUI Shell?
+- How to ensure BusyIndicator visibility over the entire application including the Flyout in .NET MAUI?
+- How to implement an overlay for the Flyout menu in .NET MAUI?
 
 ## Solution
 
@@ -56,7 +57,7 @@ To achieve this, access your Shell definition and override the `FlyoutContent` t
                   Route="MainPage">
         <ShellContent.Icon>
             <FontImageSource
-                Glyph="🏠"
+                Glyph="ðŸ "
                 Color="DodgerBlue"
                 Size="18"/>
         </ShellContent.Icon>

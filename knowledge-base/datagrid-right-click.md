@@ -1,4 +1,4 @@
----
+﻿---
 title: Cell Info on Right Click in DataGrid
 description: Get the cell info on right click in the RadDataGrid for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Right click on DataGrid
 slug: datagrid-right-click
 position: 
 tags: 
+components: ["datagrid"]
 ticketid: 1608289
 res_type: kb
 ---
@@ -13,7 +14,7 @@ res_type: kb
 ## Environment
 | Version | Product | Author | 
 | --- | --- | ---- | 
-| 5.1.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| 5.1.0 | Telerik UI for .NET MAUI DataGrid | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
 
 
 ## Description
@@ -80,7 +81,7 @@ tap.Tapped += (s, e) =>
 	var cellInfo = hitTestService.CellInfoFromPoint(position.Value);
 
 	// sample visualization the data in the cell when right-click
-	App.Current.MainPage.DisplayAlert("Right click on",""+cellInfo.Value,"ОК");
+	App.Current.MainPage.DisplayAlert("Right click on",""+cellInfo.Value,"ÐžÐš");
 };
 
 ```

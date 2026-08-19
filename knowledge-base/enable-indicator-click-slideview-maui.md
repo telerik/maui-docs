@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Navigation between SlideView Items by Using the Indicator
 description: Learn how to enable the SlideView for .NET MAUI to navigate between the items when users click on the indicator on their mobile devices.
 type: how-to
 page_title: Enable Indicator Click to Navigate to Items in SlideView for .NET MAUI
 slug: enable-indicator-click-slideview-maui
 tags: maui, slideview, indicator, click, swipe
+components: ["slideview"]
 res_type: kb
 ---
 

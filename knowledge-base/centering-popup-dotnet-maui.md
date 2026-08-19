@@ -1,10 +1,11 @@
----
+﻿---
 title: Centering the Popup in .NET MAUI Applications
 description: Learn how to ensure a Popup is always displayed in the center of the screen in .NET MAUI applications using the Telerik UI for MAUI Popup control.
 type: how-to
 page_title: How to Ensure a Popup is Centered in .NET MAUI
 slug: centering-popup-dotnet-maui
 tags: popup, .net maui, center, placement, ui, telerik
+components: ["popup"]
 res_type: kb
 ---
 

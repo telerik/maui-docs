@@ -1,10 +1,11 @@
----
+﻿---
 title: Retrieving Selected Items / Tokens in ViewModel for MAUI RadAutoComplete Control
 description: Learn how to get tokens in the ViewModel for the MAUI RadAutoComplete control.
 type: how-to
 meta_title: How to Bind Tokens Collection in MAUI RadAutoComplete Control
 slug: maui-autocomplete-get-selected-items-in-viewmodel
 tags: autocomplete, ui-for-maui, tokens, viewmodel, xaml, collectionchanged
+components: ["autocomplete"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Displaying Current Selection State in Calendar for UI for .NET MAUI
 description: Learn how to display the current selection state (day, month, or year) in Calendar for UI for .NET MAUI using the DisplayMode property and a custom converter.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Identify Current Selection State in .NET MAUI Calendar
 meta_title: How to Identify Current Selection State in .NET MAUI Calendar
 slug: identify-current-selection-state-calendar-net-maui
 tags: calendar, ui-for-dotnet-maui, displaymode, converter, semanticproperties, description, headerlabelstyle
+components: ["calendar"]
 res_type: kb
 ---
 

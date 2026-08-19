@@ -6,6 +6,8 @@ page_title: Binding in the ListView GridLayour SpanCount
 slug: listview-gridlayout-spancount-binding
 position: 
 tags: 
+components: ["listview"]
+published: false
 ticketid: 1606449
 res_type: kb
 ---

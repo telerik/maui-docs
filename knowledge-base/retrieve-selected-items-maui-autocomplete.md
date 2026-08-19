@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Selected Items in AutoComplete for .NET MAUI
 description: Learn how to get selected items from AutoComplete in a .NET MAUI application using a ViewModel.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Retrieve Selected Items in .NET MAUI AutoComplete
 meta_title: Retrieve Selected Items in .NET MAUI AutoComplete
 slug: retrieve-selected-items-maui-autocomplete
 tags: autocomplete, maui, tokens, observablecollection, viewmodel
+components: ["autocomplete"]
 res_type: kb
 ---
 
@@ -18,7 +19,7 @@ res_type: kb
 
 ## Description
 
-I need to get the selected items from AutoComplete for .NET MAUI in a ViewModel. Since the tokens collection is read-only, I can’t use two-way binding directly.
+I need to get the selected items from AutoComplete for .NET MAUI in a ViewModel. Since the tokens collection is read-only, I canâ€™t use two-way binding directly.
 
 This knowledge base article also answers the following questions:
 - How to bind selected tokens from AutoComplete to a ViewModel.

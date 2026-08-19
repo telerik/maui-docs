@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply MaskedEntry Cursor Position at the Beginning
 description: Set cursor position at the beginning of the control
 type: how-to
@@ -6,6 +6,7 @@ page_title: MaskedEntry for .NET MAUI with Cursor Position on Focus
 slug: maskedentry-cursor-position-at-beginning
 position: 
 tags: maui, visual studio, official, masked, entry, cursor
+components: ["maskedentry"]
 ticketid: 1623597
 res_type: kb
 ---

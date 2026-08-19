@@ -1,4 +1,4 @@
----
+﻿---
 title: Programmatically Scrolling a Column into View in DataGrid for MAUI
 description: Learn how to programmatically scroll a column into view in DataGrid for MAUI using reflection to access an internal API.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Programmatic Column Scrolling in MAUI DataGrid
 meta_title: Programmatic Column Scrolling in MAUI DataGrid
 slug: maui-datagrid-scroll-column-into-view
 tags: maui, datagrid, scroll-column
+components: ["datagrid"]
 res_type: kb
 ---
 

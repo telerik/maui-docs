@@ -1,10 +1,11 @@
----
+﻿---
 title: Applying Hover Style with DecorationStyle or CellContentTemplate in DataGrid for MAUI
 description: Learn how to apply hover styles to cells in a DataGrid for MAUI when using DecorationStyle or CellContentTemplate.
 type: how-to
 page_title: Apply Hover Style with DecorationStyle or CellContentTemplate in DataGrid for MAUI
 slug: datagrid-apply-hover-style-decorationstyle-cellcontenttemplate
 tags: maui, datagrid, hover style, decoration style, cell content template, pointer over state, visualstatemanager
+components: ["datagrid"]
 res_type: kb
 category: knowledge-base
 ---
@@ -13,7 +14,7 @@ category: knowledge-base
 
 | Product | Version |
 |---------|---------|
-| Progress® Telerik® UI for .NET MAUI DataGrid | 6.6.0 |
+| Telerik UI for .NET MAUI DataGrid | 6.6.0 |
 
 ## Description
 

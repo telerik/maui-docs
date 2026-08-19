@@ -1,10 +1,11 @@
----
+﻿---
 title: Collapsing All Groups Initially in CollectionView for .NET MAUI
 description: Learn how to start with all groups collapsed within the CollectionView control in .NET MAUI applications.
 type: how-to
 page_title: How to Collapse Groups on Initial Load in .NET MAUI CollectionView
 slug: collapse-groups-collectionview-net-maui
 tags: collectionview, .net maui, groupdescriptor, collapse, initial load
+components: ["collectionview"]
 res_type: kb
 ---
 
