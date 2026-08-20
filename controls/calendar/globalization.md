@@ -31,7 +31,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI Calendar Globalization](images/calendar-globalization.png)
+![Telerik UI for .NET MAUI Calendar localized with Japanese month and day names](images/calendar-globalization.png)
 
 > For a runnable example demonstrating how to configure the Calendar Culture, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 

@@ -44,7 +44,7 @@ The examples below demonstrate how to set the [selected dates](#selected-dates-e
 
 The image below shows the result:
 
-![.NET MAUI Calendar Selected Dates](images/calendar-selected-dates.png)
+![Telerik UI for .NET MAUI Calendar displaying selected dates across Apple, Windows, iOS, and Android layouts](images/calendar-selected-dates.png)
 
 ### Single Selection Example
 
@@ -54,7 +54,7 @@ Define a .NET MAUI Calendar with `SelectionMode="Single"`:
 
 The image below shows how single selection looks:
 
-![.NET MAUI Calendar Single Selection](images/calendar-single-selection-all.png)
+![Telerik UI for .NET MAUI Calendar showing one selected date in Single selection mode across platforms](images/calendar-single-selection-all.png)
 
 ### Multiple Selection Example
 
@@ -64,7 +64,7 @@ Define a .NET MAUI Calendar with `SelectionMode="Multiple"`:
 
 The image below shows how multiple selection looks:
 
-![.NET MAUI Calendar Multiple Selection](images/calendar-multiple-selection.png)
+![Telerik UI for .NET MAUI Calendar showing several selected dates in Multiple selection mode across platforms](images/calendar-multiple-selection.png)
 
 ### Range Selection Example
 
@@ -74,7 +74,7 @@ Define a .NET MAUI Calendar with `SelectionMode="Range"`:
 
 The image below shows how range selection looks: 
 
-![.NET MAUI Calendar Range Selection](images/calendar-range-selection.png)
+![Telerik UI for .NET MAUI Calendar showing a highlighted consecutive date range in Range selection mode](images/calendar-range-selection.png)
 
 ### Disabled Selection Example
 

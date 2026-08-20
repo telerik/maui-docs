@@ -46,7 +46,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI CartesianChart Plot Areas](images/charts-cartesian-plot-areas.png)
+![Telerik UI for .NET MAUI CartesianChart split into two stacked plot areas with separate bar and line series](images/charts-cartesian-plot-areas.png)
 
 > For a runnable example with the CartesianChart Plot Areas scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Features** category.
 

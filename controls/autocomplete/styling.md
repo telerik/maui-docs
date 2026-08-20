@@ -61,11 +61,11 @@ The example below demonstrates some of the styling capabilities of the AutoCompl
 
 Here is how the AutoComplete looks when styling is applied:
 
-![.NET MAUI AutoComplete Styling](images/autocomplete-styling.png)
+![Telerik UI for .NET MAUI AutoComplete with customized purple suggestion item icons and highlighted search results](images/autocomplete-styling.png)
 
 And when an item is selected:
 
-![.NET MAUI AutoComplete Styling Selected Item](images/autocomplete-selected-styling.png)
+![Telerik UI for .NET MAUI AutoComplete styled input showing the selected Eric Wheeler item and clear button](images/autocomplete-selected-styling.png)
 
 >tip For a runnable example demonstrating the AutoComplete's Styling options, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Styling** category.
 
@@ -95,7 +95,7 @@ Here is an example with `RadHighlightLabel`:
 
 Here is the result:
 
-![AutoComplete Highlight Customization](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
+![Telerik UI for .NET MAUI AutoComplete custom suggestion template with highlighted matching letters](images/autocomplete-highlight.png "AutoComplete Highlight Customization")
 
 >important For AutoComplete HighlightText example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Features** category.
 

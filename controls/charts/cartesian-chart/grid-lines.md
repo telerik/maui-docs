@@ -44,7 +44,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI Cartesian Chart Grid Lines](images/charts-cartesian-grid-lines.png)
+![Telerik UI for .NET MAUI CartesianChart with purple horizontal and vertical grid lines behind a red line series](images/charts-cartesian-grid-lines.png)
 
 > For a runnable example with the CartesianChart Grid Lines scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Features** category.
 

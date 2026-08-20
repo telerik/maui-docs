@@ -172,7 +172,7 @@ The following example shows the full definition of the chart.
 
 The following image shows the final result:
 
-![Cartesian Chart](images/cartesian-bar-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a basic vertical BarSeries for categories A through E](images/cartesian-bar-series-basic-example.png)
 
 For a sample example 
 

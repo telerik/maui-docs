@@ -138,7 +138,7 @@ In this example, the axis uses `MajorStepUnit="Day"` and a custom label formatte
 
 The following image shows the formatted `DateTimeContinuousAxis` labels:
 
-![Formatted DateTimeContinuousAxis labels in a .NET MAUI Chart](images/chart-date-time-continuous-axis-example.png)
+![Telerik UI for .NET MAUI line chart with DateTimeContinuousAxis labels formatted as ordinal day values](images/chart-date-time-continuous-axis-example.png)
 
 ## See Also
 

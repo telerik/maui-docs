@@ -101,7 +101,7 @@ public class ViewModel
 
 The following image shows how the ToolTip looks:
 
-![Chart Tooltip Behavior](images/chart-behaviors-tooltip.png)
+![Telerik UI for .NET MAUI line chart showing a tooltip for the NearBy data point with value 77](images/chart-behaviors-tooltip.png)
 
 # See Also
 

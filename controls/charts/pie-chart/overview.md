@@ -12,7 +12,7 @@ slug: charts-pie-overview
 
 The Telerik UI for .NET MAUI PieChart (RadPieChart) displays data as a sliced circle, where each slice represents a single data point and its size reflects that point's value as a percentage of the total sum.
 
-![.NET MAUI PieChart Overview](images/charts-pie-overview.png)
+![Telerik UI for .NET MAUI PieChart overview showing matching pie and donut charts with four colored slices](images/charts-pie-overview.png)
 
 ## Series
 

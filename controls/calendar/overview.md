@@ -11,7 +11,7 @@ slug: calendar-overview
 
 The Telerik UI for .NET MAUI Calendar allows you to select single or multiple dates by navigating between centuries, decades, years, and months. The control is culture-aware, providing globalization support for all .NET calendar implementations. You can customize its appearance by using the flexible styling API and exposed templates. 
 
-![.NET MAUI Calendar Overview](images/calendar-getting-started.png "Calendar Overview")
+![Telerik UI for .NET MAUI Calendar showing June 2023 with a selected date across platform layouts](images/calendar-getting-started.png "Calendar Overview")
 
 ## Key Features of the .NET MAUI Calendar
 

@@ -24,7 +24,7 @@ Here is a quick example on how to use the TimePicker in `RadChat`:
 	
 >caption Chat with TimePicker
 
-![.NET MAUI Chat Message](images/chat-time-picker.png)
+![Telerik UI for .NET MAUI Chat TimePicker message listing hourly options from 01:00 through 05:00](images/chat-time-picker.png)
 
 ## See Also
 

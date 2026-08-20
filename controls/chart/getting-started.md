@@ -15,7 +15,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Basic RadCartesianChart](images/chart-gettingstarted.png "Basic RadCartesianChart")
+![Telerik UI for .NET MAUI RadCartesianChart with a basic vertical bar series and categorical labels](images/chart-gettingstarted.png "Basic RadCartesianChart")
 
 ## Prerequisites
 

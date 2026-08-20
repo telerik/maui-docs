@@ -14,7 +14,7 @@ The CheckBox provides a set of properties for customizing its visual appearance.
 
 The image below shows a configuration of the CheckBox size, stroke and corner radius:
 
-![.NET MAUI CheckBox Configuration](images/checkbox-configuration.png)
+![Telerik UI for .NET MAUI CheckBox configuration example showing StrokeWidth, Length, and CornerRadius settings](images/checkbox-configuration.png)
 
 ## Size
 
@@ -54,7 +54,7 @@ The CheckBox control exposes a `IsAnimated` (`bool`) property that allows to rem
 
 The video below shows two CheckBoxes with enabled and disabled animation: 
 
-![.NET MAUI CheckBox Animation](images/checkbox-animation.gif)
+![Telerik UI for .NET MAUI CheckBox comparison of enabled and disabled state animations](images/checkbox-animation.gif)
 
 > For a runnable example with the CheckBox Animation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Features** category.
 
@@ -66,7 +66,7 @@ The Checkbox control provides an attached property `ToggleOnTap`. when attaching
 
 The video below shows how the CheckBox `ToggleOnTap` attached property works: 
 
-![.NET MAUI CheckBox Animation](images/checkbox-toggle-on-tap.gif)
+![Telerik UI for .NET MAUI CheckBox ToggleOnTap example showing text that does and does not toggle the checkbox](images/checkbox-toggle-on-tap.gif)
 
 > For a runnable example with the CheckBox `ToggleOnTap` scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Features** category.
 

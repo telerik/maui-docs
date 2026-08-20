@@ -25,7 +25,7 @@ The following example shows how to configure a partial arc:
 
 <snippet id='circularslider-arc-settings' />
 
-![Telerik CircularSlider for .NET MAUI Arc Configuration](images/circularslider-arc-configuration.png)
+![Telerik UI for .NET MAUI CircularSlider showing a partial purple arc with a value thumb](images/circularslider-arc-configuration.png)
 
 > For a runnable example demonstrating the CircularSlider arc configuration, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Features** category.
 
@@ -37,7 +37,7 @@ Use the `RadiusFactor` (`double`) property to control the size of the circular a
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Radius Factor](images/circularslider-radius-factor.gif)
+![Telerik UI for .NET MAUI CircularSlider showing RadiusFactor 0.80 with a partial arc and size slider](images/circularslider-radius-factor.gif)
 
 ## Size
 

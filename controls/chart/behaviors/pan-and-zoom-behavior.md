@@ -113,7 +113,7 @@ public class ViewModel
 
 The following image shows the end result.
 
-![Chart Pan And Zoom Behavior](images/chart-behaviors-panandzoom.png "Chart Pan And Zoom Behavior")
+![Telerik UI for .NET MAUI Cartesian Chart demonstrating horizontal pan and zoom on a line series](images/chart-behaviors-panandzoom.png "Chart Pan And Zoom Behavior")
 
 # See Also
 

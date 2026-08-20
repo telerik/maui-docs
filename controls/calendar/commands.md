@@ -44,7 +44,7 @@ When switching between view levels, the Calendar implements the following naviga
 
 <snippet id='calendar-navigating-detween-views'/>
 
-![.NET MAUI Calendar Commands](images/calendar-commands.gif)
+![Telerik UI for .NET MAUI Calendar command buttons navigating between months and display-mode views](images/calendar-commands.gif)
 
 > For a runnable example demonstrating the Calendar Commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Commands** category.
 

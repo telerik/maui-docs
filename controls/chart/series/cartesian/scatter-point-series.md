@@ -36,7 +36,7 @@ The following example shows how to create a `RadCartesianChart` with a ScatterPo
 
 The following image shows the end result:
 
-![Basic ScatterPointSeries](images/cartesian-scatter-point-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart ScatterPointSeries showing unconnected colored data points](images/cartesian-scatter-point-series-basic-example.png)
 
 ## See Also
 

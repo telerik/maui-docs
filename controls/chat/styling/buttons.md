@@ -12,7 +12,7 @@ slug: chat-buttons-styling
 
 This section describes how to style the send, more and speech to text buttons inside the `RadChat` control.
 
-![Chat Buttons Styling](../images/chat-buttons.png)
+![Telerik UI for .NET MAUI Chat button styling showing More button actions on Windows and Android plus Send and SpeechToText buttons](../images/chat-buttons.png)
 
 ## Style the Send Button
 

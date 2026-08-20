@@ -31,7 +31,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on Android:
 
-![.NET MAUI CollectionView Empty Template](images/collectionview-empty-template.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView empty template showing a folder illustration and Empty Template title](images/collectionview-empty-template.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView `EmptyTemplate`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > EmptyTemplate** category.
 

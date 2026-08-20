@@ -52,7 +52,7 @@ Here is an example how the RadAutoComplete Tokens feature works:
 
 Here is the result when `ShowMoreTemplate` is used:
 
-![AutoComplete Tokens Support](images/autocomplete-features-tokens-support.png "AutoComplete Tokens Support")
+![Telerik UI for .NET MAUI AutoComplete Tokens display mode showing Tokyo and Paris tokens with Atlanta and Athens suggestions](images/autocomplete-features-tokens-support.png "AutoComplete Tokens Support")
 
 >important For Autocomplete Tokens example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

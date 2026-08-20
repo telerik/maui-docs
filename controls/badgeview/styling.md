@@ -42,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Badge Styling](images/badgeview-badge-styling.png)
+![Telerik UI for .NET MAUI BadgeView styled with a blue avatar and orange badge containing a down arrow](images/badgeview-badge-styling.png)
 
 > For a runnable example with the BadgeView Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Styling**.
 

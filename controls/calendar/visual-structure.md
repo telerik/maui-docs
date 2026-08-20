@@ -13,7 +13,7 @@ The visual structure of the <a href="https://www.telerik.com/maui-ui/calendar" t
 
 The following image shows the anatomy of the Calendar.
 
-![.NET MAUI Calendar Visual Structure](images/calendar-visual-structure.png "Visual elements of Calendar control")
+![Telerik UI for .NET MAUI Calendar visual structure labeling the header text, navigation buttons, day names, out-of-scope days, and today date](images/calendar-visual-structure.png "Visual elements of Calendar control")
 
 ## Displayed Elements
 

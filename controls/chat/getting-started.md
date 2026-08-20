@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the result on the first image for desktop platforms and the results on the second image for mobile platforms:
 
-![.NET MAUI Chat Getting Started](images/chat-gettingstarted.png)
+![Telerik UI for .NET MAUI Chat showing desktop and mobile layouts with user and assistant messages](images/chat-gettingstarted.png)
 
 ## Prerequisites
 

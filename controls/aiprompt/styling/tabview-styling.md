@@ -23,7 +23,7 @@ The following example demonstrates how to modify the visual states of the TabVie
 
 Here is the result after applying the `TabViewStyle`:
 
-![Telerik .NET MAUI AIPrompt TabView Styling](images/aiprompt-tabview-styling.png)
+![Telerik UI for .NET MAUI AIPrompt TabView with styled Input, Output, and Commands headers and Commands selected](images/aiprompt-tabview-styling.png)
 
 ## See Also
 

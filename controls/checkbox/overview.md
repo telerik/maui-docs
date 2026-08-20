@@ -14,7 +14,7 @@ Telerik UI for .NET MAUI CheckBox is a control, which enables users to make a ch
 
 > The CheckBox follows the rendering guidelines of the operating system. As a result, on iOS its visualized as a circle while `Android` and `WinUI` display it as a square.
 
-![.NET MAUI CheckBox Overview](images/checkbox-overview.png "CheckBox Overview")
+![Telerik UI for .NET MAUI CheckBox checked across Apple, Windows, iOS, and Android platform layouts](images/checkbox-overview.png "CheckBox Overview")
 
 ## Key Features of the .NET MAUI CheckBox
 

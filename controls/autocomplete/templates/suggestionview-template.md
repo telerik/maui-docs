@@ -31,7 +31,7 @@ Here is an example how to use the RadAutoComplete `SuggestionViewTemplate`:
 
 Here is the result:
 
-![AutoComplete SuggestionViewTemplate Example](../images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
+![Telerik UI for .NET MAUI AutoComplete custom SuggestionViewTemplate displaying filtered people in First Name and Last Name columns](../images/autocomplete-suggestionview-template.png "AutoComplete SuggestionItemTemplate Example")
 
 >important For AutoComplete SuggestionView Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

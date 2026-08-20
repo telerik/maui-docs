@@ -29,7 +29,7 @@ The following example demonstrates how to use the `LabelStyleSelector` to apply 
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Labels Styling](../images/circularslider-labels-styling.gif)
+![Telerik UI for .NET MAUI CircularSlider with labels styled in teal and purple based on their values](../images/circularslider-labels-styling.gif)
 
 > For a runnable example demonstrating the CircularSlider label style selector scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 

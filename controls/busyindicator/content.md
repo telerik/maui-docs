@@ -73,7 +73,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result.
 
-![BusyIndicator custom busy content](images/busyindicator-custombusycontent.png)
+![Telerik UI for .NET MAUI BusyIndicator showing a custom bar animation and Working on it message](images/busyindicator-custombusycontent.png)
 
 ## See Also
 

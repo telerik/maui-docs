@@ -13,7 +13,7 @@ The visual structure of the [.NET MAUI BottomSheet]({%slug bottomsheet-overview%
 
 The following image shows the anatomy of the BottomSheet.
 
-![Telerik UI for .NET MAUI BottomSheet Visual Structure](images/bottomsheet-visual-structure.png "Visual elements of the .NET MAUI BottomSheet control")
+![Telerik UI for .NET MAUI BottomSheet visual structure labeling the Main Content, Handle, and BottomSheet Content](images/bottomsheet-visual-structure.png "Visual elements of the .NET MAUI BottomSheet control")
 
 * **BottomSheet Main Content**&mdash;Represents the main content of the BottomSheet.
 * **BottomSheet Content**&mdash;Represents the content of the BottomSheet that slides up from the bottom of the screen.

@@ -15,7 +15,7 @@ The .NET MAUI CollectionView provides you with the functionality to programmatic
 * [`PropertyGroupDescriptor`]({%slug collectionview-property-group-descriptor%})&mdash;Uses a property from the model as a group key.
 * [`DelegateGroupDescriptor`]({%slug collectionview-delegate-group-descriptor%})&mdash;Enables you to group by a custom key (for example, some complex expression combining two or more properties) instead of being limited by the value of a single property. 
 
-![.NET MAUI CollectionView Grouping](../images/collectionview-grouping.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView grouped by continents and countries with expandable headers](../images/collectionview-grouping.gif "Telerik .NET MAUI CollectionView")
 
 ## Group Header
 

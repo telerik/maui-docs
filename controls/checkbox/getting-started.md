@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI Checkbox Getting Started](images/checkbox-getting-started.png)
+![Telerik UI for .NET MAUI CheckBox checked on Apple, Windows, iOS, and Android platform layouts](images/checkbox-getting-started.png)
 
 ## Prerequisites
 

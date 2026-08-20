@@ -177,7 +177,7 @@ public class ViewModel : NotifyPropertyChangedBase
 
 The following image shows how the selection looks:
 
-![Selection Behavior](images/chart-behaviors-selection.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a selected stacked bar data point](images/chart-behaviors-selection.png)
 
 # See Also
 
