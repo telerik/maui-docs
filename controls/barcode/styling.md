@@ -24,7 +24,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows a barcode with custom colors.
 
-![Barcode Colors](images/barcode_colors.png)
+![Telerik UI for .NET MAUI Barcode with custom foreground and background colors](images/barcode_colors.png)
 
 ## See Also
 

@@ -19,7 +19,7 @@ The following example shows how to create a sample `TimeBreak` item:
 
 <snippet id='chat-chatitems-timebreak' />
 
-![.NET MAUI Chat Time Break](../images/chat-time-break.png)
+![Telerik UI for .NET MAUI Chat showing a TimeBreak separator labeled Unread between message groups](../images/chat-time-break.png)
 
 ## See Also
 

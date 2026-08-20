@@ -72,7 +72,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI Cartesian Chart Date-Time Axis](../images/charts-cartesian-datetime-axis.png)
+![Telerik UI for .NET MAUI CartesianChart with a DateTime axis labeled by months from January through July 2024](../images/charts-cartesian-datetime-axis.png)
 
 > For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Axes** category.
 

@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![BadgeView Getting Started](images/badgeview-getting-started.png)
+![Telerik UI for .NET MAUI BadgeView with a red notification badge positioned above a labeled content panel](images/badgeview-getting-started.png)
 
 ## Prerequisites
 

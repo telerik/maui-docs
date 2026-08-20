@@ -60,7 +60,7 @@ First, create the needed business objects, for example type Client with the foll
 
 Here is how the DisplayText Formatter looks in both cases:
 
-![.NET MAUI AutoComplete DisplayText Formatter](images/autocomplete-features-display-text-formatter.png "AutoComplete DisplayText Formatter")
+![Telerik UI for .NET MAUI AutoComplete DisplayTextFormatter showing formatted client name and email in Plain and Tokens display modes across platforms](images/autocomplete-features-display-text-formatter.png "AutoComplete DisplayText Formatter")
 
 >important For Autocomplete DisplayText Formatter example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

@@ -63,7 +63,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI Cartesian Chart PointSeries](../images/charts-cartesian-point-series.png)
+![Telerik UI for .NET MAUI CartesianChart PointSeries showing red points positioned by horizontal and vertical values](../images/charts-cartesian-point-series.png)
 
 > For a runnable example with the Cartesian Chart point series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
 

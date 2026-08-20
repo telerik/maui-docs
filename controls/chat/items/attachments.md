@@ -63,7 +63,7 @@ To add attachments you have to apply the following settings:
 
 <snippet id='chat-data-server' />
 
-![.NET MAUI Chat Attachments Example](../images/chat-attach-photos.png)
+![Telerik UI for .NET MAUI Chat with attached file chips, a photo description field, and send button](../images/chat-attach-photos.png)
 
 ## See Also
 

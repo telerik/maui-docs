@@ -33,7 +33,7 @@ The Telerik UI for .NET MAUI CollectionView component exposes a set of events th
 			* `Key` (`object`): Gets the specific for the group key.
 			* `Level` (`int`): Gets the zero-based level (or the depth) of the group.
 
-![.NET MAUI CollectionView Group Tapped](images/collectionview-group-tapped.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView GroupTapped event showing expanded country groups and child city items](images/collectionview-group-tapped.gif "Telerik .NET MAUI CollectionView")
 
 * `GroupTapping`&mdash;Raised when tap is currently performing on the `CollectionViewGroupView`. The `GroupTapping` event handler receives two parameters:
 	* The `sender` argument, which is of type `object`, but can be cast to the `RadCollectionView` type.
@@ -74,7 +74,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result for `ItemTapped`:
 
-![.NET MAUI CollectionView ItemTapped](images/collectionview-item-tapped.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView ItemTapped event highlighting the selected Copenhagen item](images/collectionview-item-tapped.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView `ItemTapped` event or `GroupTapped` event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Events** category.
 

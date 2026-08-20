@@ -33,7 +33,7 @@ The following example demonstrates how to use the described styling properties t
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Ticks Styling](../images/circularslider-ticks-styling.png)
+![Telerik UI for .NET MAUI CircularSlider with teal in-range ticks and purple out-of-range ticks](../images/circularslider-ticks-styling.png)
 
 > For a runnable example demonstrating the CircularSlider tick styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 
@@ -51,7 +51,7 @@ The following example demonstrates how to use the `TickStyleSelector` to set two
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Ticks Style Selector](../images/circularslider-ticks-styleselector.png)
+![Telerik UI for .NET MAUI CircularSlider with a tick style selector applying teal major ticks and purple minor ticks](../images/circularslider-ticks-styleselector.png)
 
 > For a runnable example demonstrating the CircularSlider tick style selector scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 

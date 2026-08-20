@@ -66,7 +66,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 <snippet id='chart-categorical-viewmodel' />
 
-![.NET MAUI Cartesian Chart Numerical Axis](../images/charts-cartesian-numerical-axis.png)
+![Telerik UI for .NET MAUI CartesianChart with a numerical vertical axis and red monthly bars](../images/charts-cartesian-numerical-axis.png)
 
 > For runnable examples with the Cartesian Chart axes, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Axes** category.
 

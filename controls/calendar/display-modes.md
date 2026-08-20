@@ -24,7 +24,7 @@ The `DisplayMode` property (enum of type `Telerik.Maui.Controls.Calendar.Calenda
 
 The user can effortlessly change the `DisplayMode` through the UI by tapping (for mobile) or clicking (for desktop) the header text.
 
-![.NET MAUI Calendar Month View](images/calendar-change-display-mode.gif)
+![Telerik UI for .NET MAUI Calendar changing display modes through the header label](images/calendar-change-display-mode.gif)
 
 ## Setting Min and Max Display Mode
 
@@ -41,7 +41,7 @@ The month view represents all days in a single month.
 
 <snippet id='calendar-displaymode-month'/>
 
-![.NET MAUI Calendar Month View](images/display-mode-month.png)
+![Telerik UI for .NET MAUI Calendar Month display mode showing the days of June 2023](images/display-mode-month.png)
 
 ## Year View
 
@@ -49,7 +49,7 @@ The year view represents all months in a year.
 
 <snippet id='calendar-displaymode-year'/>
 
-![.NET MAUI Calendar Year View](images/display-mode-year.png)
+![Telerik UI for .NET MAUI Calendar Year display mode showing the twelve months of 2023](images/display-mode-year.png)
 
 ## Decade View
 
@@ -57,7 +57,7 @@ The decade view represents all years in a decade.
 
 <snippet id='calendar-displaymode-decade'/>
 
-![.NET MAUI Calendar Decade View](images/display-mode-decade.png)
+![Telerik UI for .NET MAUI Calendar Decade display mode showing the years 2019 through 2030](images/display-mode-decade.png)
 
 ## Century View
 
@@ -65,7 +65,7 @@ The century view represents all decades in a century.
 
 <snippet id='calendar-displaymode-century'/>
 
-![.NET MAUI Calendar Century View](images/display-mode-century.png)
+![Telerik UI for .NET MAUI Calendar Century display mode showing decade ranges from 1990 through 2110](images/display-mode-century.png)
 
 > For all examples with the display modes of the Calendar, check the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Display Modes** category.
 

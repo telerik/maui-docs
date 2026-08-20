@@ -26,7 +26,7 @@ The following code snippet represents a sample `RadCollectionView` definition wi
 
 This is how the items are arranged when you define a grid layout:
 
-![.NET MAUI CollectionView Grid Layout](../images/collectionview-grid-layout.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView displaying city items in a two-column grid layout](../images/collectionview-grid-layout.png "Telerik .NET MAUI CollectionView")
 
 The `CollectionViewGridLayout` provides the following properties:
 
@@ -60,7 +60,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView Grid Layout](../images/collectionview-grid-layout-configuration.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView displaying city items in a configured four-column grid layout across platforms](../images/collectionview-grid-layout-configuration.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable demo with the CollectionView `CollectionViewGridLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Layouts** category.
 

@@ -37,7 +37,7 @@ The following snippet demonstrates the code behind with the button click impleme
 
 The following image shows the final result.
 
-![BadgeView Badge Content](images/badgeview-content-text.gif)
+![Telerik UI for .NET MAUI BadgeView containing a Click me button with an updating red notification badge](images/badgeview-content-text.gif)
 
 ## Badge Text
 
@@ -61,7 +61,7 @@ To define some text in the BadgeView, set the `BadgeText` property(`string`). Th
 
 The following image shows the final result.
 
-![BadgeView Badge Text](images/badgeview-badgetext.png)
+![Telerik UI for .NET MAUI BadgeView showing custom BadgeText above a labeled content panel](images/badgeview-badgetext.png)
 
 >tip You can customize the look and feel of the BadgeView. For detailed information, refer to the articles on [BadgeView styling]({%slug badgeview-styling%}) and [customization]({%slug badgeview-customization%}).
 
@@ -97,7 +97,7 @@ The following example demonstrates how to hide the `BadgeVisibility` state.
 
 The following image shows the final result.
 
-![BadgeView Badge Visibility](images/badgeview-badge-visibility.png)
+![Telerik UI for .NET MAUI BadgeView showing Visible, Hidden, and Collapsed badge visibility states](images/badgeview-badge-visibility.png)
 
 
 ## Padding
@@ -114,7 +114,7 @@ The BadgeView provides the `Padding`(`Microsoft.Maui.Controls.Compatibility`) pr
 
 The following image shows the result.
 
-![BadgeView Padding](images/badgeview-padding.png)
+![Telerik UI for .NET MAUI BadgeView showing Padding 30 around a content panel and Add badge](images/badgeview-padding.png)
 
 ## See Also
 

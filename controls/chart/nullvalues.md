@@ -33,7 +33,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The image below shows how the null data points are visualized as gaps.
 
-![CartesianChart NullValues](images/chart-nullvalues.png)
+![Telerik UI for .NET MAUI Cartesian Chart spline area series showing a gap where null data points occur](images/chart-nullvalues.png)
 
 ## See Also
 

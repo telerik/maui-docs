@@ -46,7 +46,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI CartesianChart Data Point Labels](images/charts-cartesian-data-point-labels.png)
+![Telerik UI for .NET MAUI CartesianChart BarSeries with numeric labels displayed above each data point](images/charts-cartesian-data-point-labels.png)
 
 > For a runnable example with the Cartesian Chart Data Point Labels scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Features** category.
 

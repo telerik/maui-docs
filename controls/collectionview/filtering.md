@@ -67,7 +67,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView Filtering](images/collectionview-filtering.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView filtered by text entered in the CollectionView data filter field](images/collectionview-filtering.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable demo with the CollectionView Filtering example, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Filtering** category.
 

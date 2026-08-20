@@ -85,7 +85,7 @@ Here is an example on how to define a command in the ViewModel and bind the `Sen
 
 <snippet id='chat-data-server' />
 
-![.NET MAUI Chat Attachments Example](images/chat-attach-photos.png)
+![Telerik UI for .NET MAUI Chat attachment menu with options to attach files, attach photos, or take a photo](images/chat-attach-photos.png)
 
 ## See Also
 

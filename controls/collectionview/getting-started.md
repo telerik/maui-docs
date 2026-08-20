@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI CollectionView Getting Started](images/collectionview-getting-started.png)
+![Telerik UI for .NET MAUI CollectionView displaying a city list across Apple, Windows, iOS, and Android layouts](images/collectionview-getting-started.png)
 
 ## Prerequisites
 

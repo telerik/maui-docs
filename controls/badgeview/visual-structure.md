@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI BadgeView represents the anatomy of the UI
 
 The following image shows the anatomy of the BadgeView.
 
-![Badge Visual Structure](images/badgeview-visual-structure.png)
+![Telerik UI for .NET MAUI BadgeView visual structure labeling the Badge, BadgeView, and BadgeView Content](images/badgeview-visual-structure.png)
 
 ## Displayed Elements
 

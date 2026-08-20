@@ -23,7 +23,7 @@ Then, the `GetSuggestedActions` method populates the `Actions` property with a c
 
 >caption `RadChat` with suggested actions
 
-![.NET MAUI Chat with suggested actions](images/chat-suggested-actions.png)
+![Telerik UI for .NET MAUI Chat showing suggested action buttons labeled Action 0 through Action 4](images/chat-suggested-actions.png)
 
 ## See Also
 

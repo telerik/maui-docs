@@ -11,7 +11,7 @@ slug: accordion-overview
 
 The Telerik UI for .NET MAUI Accordion is a vertically collapsible content panel that displays only one of its items at a time within the available space. `RadAccordion` helps you save screen space and at the same time present the content to the end user in an accessible way.
 
-![.NET MAUI Accordion Overview](images/accordion-overview.png)
+![Telerik UI for .NET MAUI Accordion with expanded and collapsed items on desktop and mobile](images/accordion-overview.png)
 
 ## Key Features of the .NET MAUI Accordion
 

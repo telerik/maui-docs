@@ -15,7 +15,7 @@ The Badge is the indicator (or marker) which is displayed to show notifications,
 
 The following image shows the difference between the BadgeView control and the Badge indicator.
 
-![Badge vs BadgeView](images/badge-badgeview.png)
+![Telerik UI for .NET MAUI comparison of a standalone Badge control and a BadgeView containing labeled content](images/badge-badgeview.png)
 
 ## Badge Features
 

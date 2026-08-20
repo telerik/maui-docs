@@ -17,11 +17,11 @@ To specify the position of the Badge according to its content, use the following
 
 * `BadgeHorizontalPosition`(of type `Telerik.Maui.Controls.BadgeView.BadgePosition`)&mdash;Specifies the horizontal `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
-  ![Badge Horizontal Position](images/badgeview-horizontal-position.png)
+  ![Telerik UI for .NET MAUI BadgeView demonstrating Start, Center, and End horizontal badge positions](images/badgeview-horizontal-position.png)
 
 * `BadgeVerticalPosition`(of type `Telerik.Maui.Controls.BadgeView.BadgePosition`)&mdash;Specifies the vertical `BadgePosition` of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `Start`.
 
-  ![Badge Vertical Position](images/badgeview-vertical-position.png)
+  ![Telerik UI for .NET MAUI BadgeView demonstrating Start, Center, and End vertical badge positions](images/badgeview-vertical-position.png)
 
 ## Aligning the Badge
 
@@ -29,11 +29,11 @@ To specify the alignment of the Badge according to its content, use the followin
 
 * `BadgeHorizontalAlignment`(of type `Telerik.Maui.Controls.BadgeView.BadgeAlignment`)&mdash;Specifies the horizontal alignment of the badge. The supported options are: `Start`, `Center`, `End`. The default value is `Center`.
 
-  ![Badge Horizontal Alignment](images/badgeview-horizontal-alignment.png)
+  ![Telerik UI for .NET MAUI BadgeView demonstrating Start, Center, and End horizontal badge alignment](images/badgeview-horizontal-alignment.png)
 
 * `BadgeVerticalAlignment`(of type `Telerik.Maui.Controls.BadgeView.BadgeAlignment`)&mdash;Specifies the vertical alignment of the Badge. The supported options are: `Start`, `Center`, `End`. The default value is `End`.
 
-  ![Badge Vertical Alignment](images/badgeview-vertical-alignment.png)
+  ![Telerik UI for .NET MAUI BadgeView demonstrating Start, Center, and End vertical badge alignment](images/badgeview-vertical-alignment.png)
 
 ## Offset
 
@@ -51,7 +51,7 @@ The following example demonstrates how to position and align the Badge as well a
 
 The following image shows the final result.
 
-![Badge Position and Alignment](images/badgeview-position-alignment.png)
+![Telerik UI for .NET MAUI BadgeView with a Shopping Cart button and notification badge positioned and aligned on the right](images/badgeview-position-alignment.png)
 
 ## See Also
 

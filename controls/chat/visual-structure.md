@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI Chat represents the anatomy of the UI comp
 
 The following image shows the anatomy of the Chat.
 
-![.NET MAUI Chat Visual Structure](images/chat-visualstructure.png)
+![Telerik UI for .NET MAUI Chat visual structure labeling the avatar, items, input area, more button, send button, and SpeechToTextButton](images/chat-visualstructure.png)
 
 ## Displayed Elements
 

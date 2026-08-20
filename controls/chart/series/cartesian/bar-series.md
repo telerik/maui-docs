@@ -33,7 +33,7 @@ The following example shows how to create a Cartesian Chart with Bar Series:
 
 The following image shows how the Bar Series looks:
 
-![Basic BarSeries](images/cartesian-bar-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart BarSeries with vertical bars for categories A through E](images/cartesian-bar-series-basic-example.png)
 
 ## See Also
 

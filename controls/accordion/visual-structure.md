@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI Accordion represents the anatomy of the UI
 
 The following image shows the anatomy of the Accordion.
 
-![Accordion Visual Structure](images/accordion-visual-structure.png)
+![Telerik UI for .NET MAUI Accordion visual structure showing the header, header text, indicator, content, and AccordionItem](images/accordion-visual-structure.png)
 
 ## Displayed Elements
 

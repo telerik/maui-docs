@@ -29,7 +29,7 @@ If you don't want to use a [predefined Badge type]({%slug badgeview-predefined-b
 
 The following image shows the final result.
 
-![BadgeView Badge Text](images/badgeview-badgetext.png)
+![Telerik UI for .NET MAUI BadgeView showing custom BadgeText above a labeled content panel](images/badgeview-badgetext.png)
 
 ## ControlTemplate
 
@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Badge Default Control Template](images/badgeview-default-controltemplate.png)
+![Telerik UI for .NET MAUI BadgeView using the default control template with a red badge on a gray content area](images/badgeview-default-controltemplate.png)
 
 ### Use a Custom ControlTemplate
 
@@ -79,7 +79,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Badge Custom Control Template](images/badgeview-custom-controltemplate.png)
+![Telerik UI for .NET MAUI BadgeView using a custom control template with an blue badge above avatar content](images/badgeview-custom-controltemplate.png)
 
 > For a runnable example with the BadgeView ControlTemplate scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Features**.
 

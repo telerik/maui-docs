@@ -98,7 +98,7 @@ public class ViewModel
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
 
-![Chart GridLine Annotations](images/chart-annotations-grid-line-examples.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a blue dashed grid-line annotation across a bar series](images/chart-annotations-grid-line-examples.png)
 
 ## CartesianPlotBandAnnotation
 
@@ -179,7 +179,7 @@ public class ViewModel
 
 The following image shows how the `CartesianPlotBandAnnotation` looks:
 
-![Chart PlotAndBand Annotations](images/chart-annotations-plot-band-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a translucent green plot-band annotation across a line series](images/chart-annotations-plot-band-example.png)
 
 ## See Also
 

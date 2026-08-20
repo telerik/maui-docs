@@ -15,13 +15,13 @@ You can navigate between the different views of the <a href="https://www.telerik
 
 The Calendar header has two buttons (Previous and Next) that allow the user to navigate in the current view. For example, in the Month view, the Previous button navigates to the previous month, and the Next button navigates to the next month.
 
-![.NET MAUI Calendar navigation in the current view through the navigation buttons](images/calendar-navigation.gif)
+![Telerik UI for .NET MAUI Calendar navigating between months with previous and next header buttons](images/calendar-navigation.gif)
 
 ## Navigating to the Parent View
 
 The user can interact with the UI and navigate to the parent view by tapping or clicking the header label of the Calendar.
 
-![.NET MAUI Calendar navigation to upper view through the UI](images/calendar-change-display-mode.gif)
+![Telerik UI for .NET MAUI Calendar navigating to a parent display mode by tapping the header](images/calendar-change-display-mode.gif)
 
 ## Restricting the Navigation Depth
 
@@ -38,7 +38,7 @@ The user can scroll between the [display modes]({%slug calendar-display-modes%})
 
 <snippet id='calendar-vertical-navigation'/>
 
-![.NET MAUI Calendar scroll direction](images/calendar-scrolling.gif)
+![Telerik UI for .NET MAUI Calendar scrolling between month views in the configured navigation direction](images/calendar-scrolling.gif)
 
 > For a runnable example with the navigation of the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
@@ -51,7 +51,7 @@ Use the `InteractionMode`(enum of type `Telerik.Maui.Controls.Calendar.CalendarI
 
 > For a runnable example with the Calendar interaction mode, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 
-![.NET MAUI Calendar interaction mode](images/calendar-interaction-mode.gif)
+![Telerik UI for .NET MAUI Calendar using Pan interaction mode to navigate the current view with gestures](images/calendar-interaction-mode.gif)
 
 ## See Also
 
