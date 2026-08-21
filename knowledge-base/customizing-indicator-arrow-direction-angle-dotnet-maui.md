@@ -18,7 +18,7 @@ ticketid: 1685501
 
 ## Description
 
-I want to customize the expand-collapse indicator arrow in the [Expander for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/expander/overview). By default, the arrow points left (`â—€ï¸`) when collapsed and down (`â–¼`) when expanded. My goal is to change the behavior so the arrow points down (`â–¼`) in the collapsed state and up (`â–²`) in the expanded state.
+I want to customize the expand-collapse indicator arrow in the [Expander for .NET MAUI](https://docs.telerik.com/devtools/maui/controls/expander/overview). By default, the arrow points left (`◀️`) when collapsed and down (`▼`) when expanded. My goal is to change the behavior so the arrow points down (`▼`) in the collapsed state and up (`▲`) in the expanded state.
 
 This knowledge base article also answers the following questions:
 
@@ -68,7 +68,7 @@ To achieve this customization, create a custom control template for the Expander
 								</DataTrigger>
 							</telerik:RadBorder.Triggers>
 						</telerik:RadBorder>
-                        <Label Text="â–¼"
+                        <Label Text="▼"
                                 TextColor="Black"
                                FontSize="Large"
                                IsVisible="{TemplateBinding IsExpanded}"
@@ -76,7 +76,7 @@ To achieve this customization, create a custom control template for the Expander
                                HorizontalOptions="Center"
                                Grid.Column="{TemplateBinding IndicatorLocation, Converter={StaticResource ExpandCollapseIndicatorLocationToGridColumnConverter}}"
                                Margin="0, 0, 0, 2" />
-                        <Label Text="â–²"
+                        <Label Text="▲"
                                TextColor="Black"
                                FontSize="Large"
                                IsVisible="{TemplateBinding IsExpanded, Converter={StaticResource InvertedBooleanConverter}}"
@@ -112,8 +112,7 @@ To achieve this customization, create a custom control template for the Expander
 
 ## Notes
 
-Use the `Label` elements within the control template to specify the desired icons or text for the collapsed (`â–¼`) and expanded (`â–²`) states.
-
+Use the `Label` elements within the control template to specify the desired icons or text for the collapsed (`▼`) and expanded (`▲`) states.
 ## See Also
 
 - [Expander Overview](https://docs.telerik.com/devtools/maui/controls/expander/overview)

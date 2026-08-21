@@ -19,7 +19,7 @@ res_type: kb
 
 ## Description
 
-I need to get the selected items from AutoComplete for .NET MAUI in a ViewModel. Since the tokens collection is read-only, I canâ€™t use two-way binding directly.
+I need to get the selected items from AutoComplete for .NET MAUI in a ViewModel. Since the tokens collection is read-only, I can't use two-way binding directly.
 
 This knowledge base article also answers the following questions:
 - How to bind selected tokens from AutoComplete to a ViewModel.

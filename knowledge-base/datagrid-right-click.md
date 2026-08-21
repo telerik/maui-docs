@@ -81,7 +81,7 @@ tap.Tapped += (s, e) =>
 	var cellInfo = hitTestService.CellInfoFromPoint(position.Value);
 
 	// sample visualization the data in the cell when right-click
-	App.Current.MainPage.DisplayAlert("Right click on",""+cellInfo.Value,"ÐžÐš");
+	App.Current.MainPage.DisplayAlert("Right click on",""+cellInfo.Value,"Ok");
 };
 
 ```

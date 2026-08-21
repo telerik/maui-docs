@@ -18,7 +18,7 @@ res_type: kb
 
 ## Description
 
-I want to adjust the visible time range in the [Scheduler](https://docs.telerik.com/devtools/maui/controls/scheduler/overview) for UI for .NET MAUI. By default, the Scheduler displays the full day (00:00â€“24:00), but I need it to show only work hours (08:00â€“17:00) with the ability to switch back to the full day view.
+I want to adjust the visible time range in the [Scheduler](https://docs.telerik.com/devtools/maui/controls/scheduler/overview) for UI for .NET MAUI. By default, the Scheduler displays the full day (00:00-24:00), but I need it to show only work hours (08:00-17:00) with the ability to switch back to the full day view.
 
 This knowledge base article also answers the following questions:
 - How do I configure work hours in the Scheduler for .NET MAUI?

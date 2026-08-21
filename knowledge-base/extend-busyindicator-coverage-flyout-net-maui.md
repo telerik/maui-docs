@@ -57,7 +57,7 @@ To achieve this, access your Shell definition and override the `FlyoutContent` t
                   Route="MainPage">
         <ShellContent.Icon>
             <FontImageSource
-                Glyph="ðŸ "
+                 Glyph="🏠"
                 Color="DodgerBlue"
                 Size="18"/>
         </ShellContent.Icon>
