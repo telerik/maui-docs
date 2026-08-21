@@ -9,9 +9,19 @@ slug: maskedentry-value
 
 # .NET MAUI MaskedEntry Value
 
-To set a predefined value inside the MaskedEntry, define the `Value`(`string`) property. It returns the user input without the formatting characters.
+All MaskedEntry types expose a `Value` property that gets or sets the current input without the formatting characters. 
 
-* TextMaskedEntry with `Value` property
+| Masked Type | `Value` Type |
+|------------|------------|
+| `RadTextMaskedEntry` | `string` |
+| `RadEmailMaskedEntry` | `string` |
+| `RadRegexMaskedEntry` | `string` |
+| `RadIPMaskedEntry` | `string` |
+| `RadNumericMaskedEntry` | `object` |
+
+The value of the `Value` property accepts null, if the `AllowNullValue` property is set to `true`. 
+
+>caption Example with `RadTextMaskedEntry`
 
 Define the `RadTextMaskedEntry` in XAML:
 
@@ -26,7 +36,10 @@ xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Control
 Define the `RadTextMaskedEntry` in C#:
 
 ```C#
-this.textMaskedEntry.Value = "Test";
+var mask = new RadTextMaskedEntry
+{
+    Value = "Test"
+};
 ```
 
 Add the `telerik` namespace:
@@ -37,9 +50,9 @@ using Telerik.Maui.Controls;
 
 ## Null Value Support
 
-By default, the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead, the `null` value in the NumericMaskedEntry is coerced to `0`. To allow `null` values, you have to set the `AllowNullValue` property to `True`.
+By default, the MaskedEntry control doesn't allow you to set `null` to its `Value` property. Instead, the `null` value in the NumericMaskedEntry is coerced to `0`. To allow `null` values, set the `AllowNullValue` property to `true`.
 
-* NumericMaskedEntry with null value support
+>caption `RadNumericMaskedEntry` with null value support
 
 Define the control:
 
@@ -51,7 +64,7 @@ Add the namespace:
 xmlns:telerik="clr-namespace:Telerik.Maui.Controls;assembly=Telerik.Maui.Controls"
 ```
 
-> For the MaskedEntry Value example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to MaskedEntry -> Features category.
+> For the MaskedEntry Value example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to **MaskedEntry > Features** category.
 
 ## See Also
 
