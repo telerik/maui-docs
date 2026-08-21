@@ -1,4 +1,4 @@
----
+﻿---
 title: Implementing Additional Logic for Shift+Enter Keys in DataGrid on Windows
 description: Learn how to implement custom logic for Shift+Enter keyboard keys in the DataGrid component for UI for .NET MAUI on Windows.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Handle Shift+Enter Keys in DataGrid for .NET MAUI
 meta_title: Shift+Enter Key Handling in DataGrid for .NET MAUI
 slug: handle-shift-enter-keys-datagrid-dotnet-maui
 tags: datagrid, keyboard, shift, enter, windows, .net maui, radkeyboardkey
+components: ["datagrid"]
 res_type: kb
 ---
 

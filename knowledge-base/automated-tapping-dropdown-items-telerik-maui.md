@@ -1,4 +1,4 @@
----
+﻿---
 title: Automated Tapping on Dropdown Items in Telerik Controls for UI for .NET MAUI
 description: Addressing issues with automated testing of dropdown items in ComboBox and AutoComplete using Appium.
 type: troubleshooting
@@ -6,6 +6,7 @@ page_title: Issues with Automated Tapping on Dropdown Items in Telerik MAUI Cont
 meta_title: Automated Testing Issues with Dropdown Items in Telerik MAUI Controls
 slug: automated-tapping-dropdown-items-telerik-maui
 tags: ui for .net maui, automation, radcombobox, radautocomplete, radpopup, appium, dropdown, testing, automationid
+components: ["combobox"]
 res_type: kb
 ---
 

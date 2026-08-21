@@ -1,10 +1,11 @@
----
+﻿---
 title: Retrieving Row and Column Counts in DataGrid for MAUI
 description: Learn how to obtain the number of rows and columns in a DataGrid for MAUI.
 type: how-to
 page_title: How to Get Row and Column Counts in MAUI DataGrid
 slug: datagrid-maui-row-column-counts
 tags: datagrid, maui, rows, columns, count
+components: ["datagrid"]
 res_type: kb
 ---
 

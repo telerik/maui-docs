@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing the Column Name inside the DataGrid Grouping Panel
 description: Learn how to assign custom names to grouped columns in the DataGrid for MAUI.
 type: how-to
 page_title: How to Assign Friendly Names to Grouped Columns in MAUI DataGrid Grouping Panel
 slug: customize-grouped-column-names-datagrid-maui
 tags: datagrid, maui, grouping, custom name, PropertyGroupDescriptor, DisplayContent
+components: ["datagrid"]
 res_type: kb
 ---
 

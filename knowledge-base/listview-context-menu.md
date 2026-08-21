@@ -5,6 +5,8 @@ description: Learn how to implement and render a context menu for an item of the
 type: how-to
 slug: listview-context-menu
 tags: maui, listview, item, context menu, dotnet maui
+components: ["listview"]
+published: false
 res_type: kb
 ---
 

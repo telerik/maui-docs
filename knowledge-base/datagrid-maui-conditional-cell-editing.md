@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling and Disabling Cell Editing in DataGrid for MAUI Based on Conditions
 description: Learn how to control cell editing in the DataGrid for MAUI by applying conditions to specific cells or rows.
 type: how-to
 page_title: How to Conditionally Enable or Disable Cell Editing in DataGrid for MAUI
 slug: datagrid-maui-conditional-cell-editing
 tags: datagrid, maui, cell, edit, condition, enable, disable
+components: ["datagrid"]
 res_type: kb
 ---
 

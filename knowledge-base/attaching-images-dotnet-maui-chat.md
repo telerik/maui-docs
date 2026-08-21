@@ -1,10 +1,11 @@
----
+﻿---
 title: Attaching and Displaying Images in .NET MAUI Chat
 description: Learn how to attach and display images in the .NET MAUI Chat (Conversational UI) component using custom templates and logic.
 type: how-to
 page_title: How to Attach Images in .NET MAUI Chat Control
 slug: attaching-images-dotnet-maui-chat
 tags: chat, conversational-ui, .net-maui, image-upload, item-template-selector
+components: ["chat"]
 res_type: kb
 ---
 

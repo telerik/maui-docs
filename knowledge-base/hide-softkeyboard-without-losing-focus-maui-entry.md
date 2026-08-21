@@ -1,10 +1,11 @@
----
+﻿---
 title: Hiding the SoftKeyboard without Losing Focus on the Entry
 description: Learn how to hide the SoftKeyboard without losing focus on the Entry control in MAUI.
 type: how-to
 page_title: How to Hide SoftKeyboard without Losing Focus on the MAUI Entry
 slug: hide-softkeyboard-without-losing-focus-maui-entry
 tags: maui, entry, softkeyboard, hide, focus
+components: ["entry"]
 res_type: kb
 ---
 ## Environment

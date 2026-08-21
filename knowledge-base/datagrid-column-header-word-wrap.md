@@ -1,4 +1,4 @@
----
+﻿---
 title: Enabling Word Wrapping for Column Headers in DataGrid for UI for .NET MAUI
 description: Learn how to enable word wrapping for column headers in DataGrid for UI for .NET MAUI by using a header template.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Enable Word Wrapping in DataGrid Column Headers for UI for .N
 meta_title: How to Enable Word Wrapping in DataGrid Column Headers for UI for .NET MAUI
 slug: datagrid-column-header-word-wrap
 tags: datagrid, ui for .net maui, column header, wordwrap, template
+components: ["datagrid"]
 res_type: kb
 ---
 

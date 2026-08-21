@@ -1,10 +1,11 @@
----
+﻿---
 title: Adding Line Breaks to Header Text and Fitting Tabs to Screen in TabView for .NET MAUI
 description: Learn how to add line breaks to header text and adjust tab widths to fit all tabs within the screen in TabView for .NET MAUI.
 type: how-to
 page_title: Adjusting Header Text and Tab Size in TabView for .NET MAUI
 slug: tabview-line-break-header-tabs-fit-screen-dotnet-maui
 tags: tabview, .net-maui, headertext, linebreak, fit-screen
+components: ["tabview"]
 res_type: kb
 ---
 

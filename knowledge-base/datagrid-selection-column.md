@@ -1,10 +1,11 @@
----
+﻿---
 title: Implement Selection Column for DataGrid
 description: Learn how to add a selection column to the DataGrid in .NET MAUI so the user can select the entire row using or select all rows.
 type: how-to
 page_title: How to Create a Selection Column For Row selection in the RadDataGrid for .NET MAUI
 slug: datagrid-selection-column
 tags: datagrid, .net maui, selection, row, checkbox
+components: ["datagrid"]
 res_type: kb
 ---
 

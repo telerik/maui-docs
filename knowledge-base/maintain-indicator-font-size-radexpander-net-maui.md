@@ -1,10 +1,11 @@
----
+﻿---
 title: Maintaining the Indicator Font Size Scale in RadExpander for .NET MAUI
 description: Learn how to stop the font auto scaling of the indicator in RadExpander for .NET MAUI.
 type: how-to
 page_title: How to disable the auto scaling of the Indicator in RadExpander for .NET MAUI
 slug: maintain-indicator-font-size-radexpander-net-maui
 tags: radexpander, .net maui, indicator font size
+components: ["expander"]
 res_type: kb
 ---
 

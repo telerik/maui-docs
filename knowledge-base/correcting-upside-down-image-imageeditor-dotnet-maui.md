@@ -1,4 +1,4 @@
----
+﻿---
 title: Correcting Upside Down Image Display in ImageEditor for .NET MAUI
 description: Resolve the issue of upside-down image display in ImageEditor for .NET MAUI on iOS by handling EXIF metadata.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Fixing Upside Down Image in ImageEditor for .NET MAUI on iOS
 meta_title: Fixing Upside Down Image in ImageEditor for .NET MAUI on iOS
 slug: correcting-upside-down-image-imageeditor-dotnet-maui
 tags: imageeditor,.net maui,ios,skia,exif,bitmap,image-orientation,image-metadata
+components: ["imageeditor"]
 res_type: kb
 ticketid: 1691149
 ---

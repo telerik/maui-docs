@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing Indicator Arrow Direction Angle in Expander for .NET MAUI
 description: Learn how to customize the indicator arrow direction and rotation angle in the RadExpander control for .NET MAUI.
 type: how-to
 page_title: Changing Expand Collapse Arrow Behavior in RadExpander for .NET MAUI
 slug: customizing-indicator-arrow-direction-angle-dotnet-maui
 tags: expander,.net maui,indicator customization,arrow direction
+components: ["expander"]
 res_type: kb
 ticketid: 1685501
 ---
@@ -112,7 +113,6 @@ To achieve this customization, create a custom control template for the Expander
 ## Notes
 
 Use the `Label` elements within the control template to specify the desired icons or text for the collapsed (`▼`) and expanded (`▲`) states.
-
 ## See Also
 
 - [Expander Overview](https://docs.telerik.com/devtools/maui/controls/expander/overview)

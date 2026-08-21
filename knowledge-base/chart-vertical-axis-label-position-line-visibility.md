@@ -1,4 +1,4 @@
----
+﻿---
 title: Vertical Axis Label Position on iOS Same as on Android
 description: Learn how to position the y axis labels on left and display the axis line on iOS Chart for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: iOS Chart - Y Axis Labels Position and Line Visibility
 slug: chart-vertical-axis-label-position-line-visibility
 position: 
 tags: chart, axis, vertical axis, label position, android, ios, maui, dotnetmaui
+components: ["chart"]
 ticketid: 1630605
 res_type: kb
 ---

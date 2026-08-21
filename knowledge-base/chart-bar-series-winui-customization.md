@@ -1,4 +1,4 @@
----
+﻿---
 title: Change the Position of the Labels Inside the Bar Series and Customize the Vertical Axis
 description: Learn how to change the position of the labels inside the bar series and customize the vertical axis for Telerik MAUI Chart on WinUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Change Label Position for Bar Series and Customize the Vertical Axis
 slug: chart-bar-series-winui-label-position
 position: 
 tags: maui, chart, labels, bar series, position
+components: ["chart"]
 ticketid: 1612671
 res_type: kb
 ---

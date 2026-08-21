@@ -1,10 +1,11 @@
----
+﻿---
 title: How to Display Only ShowMoreTemplate and Hide TokenTemplate in ComboBox for .NET MAUI
 description: Learn how to customize the ComboBox control in .NET MAUI to display only the ShowMoreTemplate and hide the TokenTemplate.
 type: how-to
 page_title: Customize ComboBox in .NET MAUI to Display ShowMoreTemplate and Hide TokenTemplate
 slug: display-showmoretemplate-hide-tokentemplate-combobox-net-maui
 tags: [.net-maui, combobox, customization, showmoretemplate, tokentemplate]
+components: ["combobox"]
 res_type: kb
 ---
 

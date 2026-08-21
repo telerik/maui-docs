@@ -1,11 +1,11 @@
----
+﻿---
 title: TabView with Background Image
 description: Transparency in TabView to display background image
 type: how-to
 page_title: TabView with transparent background
-slug: tabview-background-image
-position: 
-tags: 
+slug: tabview-background-image 
+tags: tabview, maui, image, background, transparency, dotnet maui
+components: ["tabview"]
 ticketid: 1613132
 res_type: kb
 ---

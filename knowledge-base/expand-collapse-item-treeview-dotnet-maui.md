@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Expand and Collapse Commands in TreeView for .NET MAUI
 description: Learn how to use the Expand and Collapse commands in the TreeView control for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Expand and Collapse Items in TreeView for .NET MAUI
 meta_title: How to Expand and Collapse Items in TreeView for .NET MAUI
 slug: expand-collapse-item-treeview-dotnet-maui
 tags: treeview, .net maui, expand, collapse, commands, xaml, converter, viewmodel
+components: ["treeview"]
 res_type: kb
 ---
 

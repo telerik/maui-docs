@@ -1,4 +1,4 @@
----
+﻿---
 title: Localization Not Applying to Elements in DataPager When Using Telerik Localization Manager and Theme
 description: Resolve the issue where localization does not apply to DataPager elements when using Telerik Localization Manager and applying a Telerik theme.
 type: troubleshooting
@@ -6,6 +6,7 @@ page_title: Fix Localization Issue in DataPager When Using Telerik Localization 
 meta_title: Fix Localization Issue in DataPager When Using Telerik Localization Manager and Theme
 slug: datapager-localization-theme-issue
 tags: datapager, ui for .net maui, localization, theme, localization manager
+components: ["datapager"]
 res_type: kb
 ---
 

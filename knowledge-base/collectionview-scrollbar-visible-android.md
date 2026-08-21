@@ -1,10 +1,11 @@
----
+﻿---
 title: Ensuring CollectionView Scrollbar is Always Visible on Android in MAUI
 description: This article demonstrates how to make the CollectionView's scrollbar always visible on Android 
 type: how-to
 page_title: How to Keep the CollectionView Scrollbar Always Visible on Android
 slug: collectionview-scrollbar-visible-android
 tags: collectionview, scrollbar, android, visible, maui, 
+components: ["collectionview"]
 res_type: kb
 ---
 

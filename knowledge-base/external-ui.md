@@ -1,10 +1,11 @@
----
+﻿---
 title: Control DataGrid Operations from External UI with AI Prompts
 description: Learn how to manage filtering, sorting, grouping, and column manipulations in the Telerik UI for .NET MAUI DataGrid component from an external UI using AI prompts.
 type: how-to
 meta_title: DataGrid AI operations from external UI
 slug: datagrid-data-operations-external-ui
 tags: datagrid, ui-for-net-maui, filter, ai feature, ai prompts, sorting, grouping, column manipulations
+components: ["datagrid"]
 res_type: kb
 ---
 
