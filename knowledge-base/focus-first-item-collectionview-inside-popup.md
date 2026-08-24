@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Focusing the First Item in CollectionView Inside a Popup in UI for .NET MAUI
 description: Learn how to focus the first item in a CollectionView placed inside a RadPopup when the popup opens in UI for .NET MAUI.
@@ -157,5 +156,3 @@ public partial class MainPage : ContentPage
 
 - [CollectionView](https://www.telerik.com/maui-ui/documentation/controls/collectionview/overview)
 - [Popup](https://www.telerik.com/maui-ui/documentation/controls/popup/overview)
-
-```
