@@ -1,10 +1,11 @@
----
+﻿---
 title: Handling Switch Control in DataGridBooleanColumn for DataGrid in MAUI
 description: Learn how to manage Switch control within a DataGridBooleanColumn in MAUI DataGrid without affecting cell selection and editing.
 type: how-to
 page_title: Use Switch Control in MAUI DataGridBooleanColumn
 slug: datagrid-maui-switch-booleancolumn
 tags: maui, datagrid, switch, booleancolumn, event handling, cellcontenttemplate
+components: ["datagrid"]
 res_type: kb
 ticketid: 1684427
 ---

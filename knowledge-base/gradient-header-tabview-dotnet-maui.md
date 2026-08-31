@@ -1,10 +1,11 @@
----
+﻿---
 title: Applying Gradient to TabView Header for .NET MAUI
 description: Learn how to apply a gradient background to the Header of the TabView component in .NET MAUI.
 type: how-to
 page_title: Setting Gradient Background for TabView Header in .NET MAUI
 slug: gradient-header-tabview-dotnet-maui
 tags: tabview,.net maui, header, gradient, tabviewheaderitem
+components: ["tabview"]
 res_type: kb
 ---
 

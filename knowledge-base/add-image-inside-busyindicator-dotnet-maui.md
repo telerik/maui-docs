@@ -1,10 +1,11 @@
----
+﻿---
 title: Adding an Image Inside the BusyIndicator for .NET MAUI
 description: Learn how to add an image inside the BusyIndicator for .NET MAUI when the IsBusy property is set to true.
 type: how-to
 page_title: How to Add Image Inside the BusyIndicator in .NET MAUI
 slug: add-image-inside-busyindicator-dotnet-maui
 tags: busyindicator,.net maui,isbusy,busycontent,busycontenttemplate,image
+components: ["busyindicator"]
 res_type: kb
 ---
 

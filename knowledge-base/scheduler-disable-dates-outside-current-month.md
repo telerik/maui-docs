@@ -1,10 +1,11 @@
----
+﻿---
 title: Disabling Past and Future Month Dates in RadScheduler for .NET MAUI
 description: Learn how to prevent creating appointments for dates outside the current month in RadScheduler for .NET MAUI.
 type: how-to
 page_title: How to Disable Appointment Creation for Past and Future Month Dates in RadScheduler
 slug: scheduler-disable-dates-outside-current-month
 tags: calendar, .net maui, radscheduler, disable dates, month view
+components: ["scheduler"]
 res_type: kb
 ---
 

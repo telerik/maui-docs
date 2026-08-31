@@ -1,10 +1,11 @@
----
+﻿---
 title: Adding a Clear Button in TabView Header to Remove Tabs in .NET MAUI
 description: Learn how to modify the TabView HeaderItemTemplate to add a clear button that removes tabs in a .NET MAUI application.
 type: how-to
 page_title: How to Add a Remove Tab Button in .NET MAUI TabView Header
 slug: add-clear-button-tabview-header-net-maui
 tags: tabview, .net maui, headeritemtemplate, clear button, remove tab
+components: ["tabview"]
 res_type: kb
 ticketid: 1670259
 ---

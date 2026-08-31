@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing AutoComplete Cursor Color on Android and iOS
 description: Learn how to change the cursor color of the AutoComplete control on Android and on iOS to match the application's input field styling.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Adjusting Cursor Color for AutoComplete Control in UI for .NET MAUI
 meta_title: Adjusting Cursor Color for AutoComplete Control in UI for .NET MAUI
 slug: change-autocomplete-cursor-color-dotnet-maui
 tags: autocomplete, ui for .net maui, cursor color, android, radtextinput, handlerchanged, native customization
+components: ["autocomplete"]
 res_type: kb
 ---
 

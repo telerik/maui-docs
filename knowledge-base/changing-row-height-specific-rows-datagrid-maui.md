@@ -1,10 +1,11 @@
----
+﻿---
 title: Changing Row Height for Specific Rows in DataGrid
 description: Learn how to adjust the row height for specific rows in the DataGrid for Telerik UI for .NET MAUI using CellContentTemplateSelector and DataTemplate.
 type: how-to
 meta_title: Adjusting Row Height Dynamically in DataGrid for Telerik UI for .NET MAUI
 slug: changing-row-height-specific-rows-datagrid-maui
 tags: datagrid, rowheight, template selector, .net maui, telerik ui
+components: ["datagrid"]
 res_type: kb
 ---
 

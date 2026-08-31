@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Events in EmptyContentTemplate for CollectionView in .NET MAUI
 description: Learn how to enable GestureRecognizer and Button Click events in the EmptyContentTemplate of the CollectionView for .NET MAUI when they are not executing.
 type: how-to
 page_title: Resolving Event Execution Issues in EmptyContentTemplate of CollectionView in .NET MAUI
 slug: collectionview-emptycontenttemplate-events-net-maui
 tags: collectionview, .net maui, emptycontenttemplate, gesturerecognizer, button-click, inputtransparent
+components: ["collectionview"]
 res_type: kb
 ---
 

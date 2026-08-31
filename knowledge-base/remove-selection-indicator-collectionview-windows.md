@@ -1,10 +1,11 @@
----
+﻿---
 title: Removing Selection Indicator from CollectionView on Windows
 description: Learn how to remove the selection indicator from a CollectionView in a .NET MAUI application running on Windows.
 type: how-to
 page_title: How to Remove the Selection Indicator from RadCollectionView in Windows
 slug: remove-selection-indicator-collectionview-windows
 tags: collectionview, .net maui, windows, radcollectionviewitemview, selection, indicator, control template, style
+components: ["collectionview"]
 res_type: kb
 ---
 

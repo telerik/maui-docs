@@ -1,4 +1,4 @@
----
+﻿---
 title: Restricting Expand/Collapse to Arrow Click in UI for .NET MAUI TreeView on Android and iOS
 description: Learn how to configure the UI for .NET MAUI TreeView to expand/collapse items only when clicking the arrow on Android and on iOS.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Configure UI for .NET MAUI TreeView Expand/Collapse on Arrow Click f
 meta_title: Configure UI for .NET MAUI TreeView Expand/Collapse on Arrow Click for Android
 slug: android-treeview-expand-collapse-arrow-click
 tags: treeview, ui-for-net-maui, itemtapped-event, expand-collapse
+components: ["treeview"]
 res_type: kb
 ---
 

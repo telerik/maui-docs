@@ -1,9 +1,10 @@
----
+﻿---
 title: Apply Row Background Style Selector in the Telerik UI for .NET MAUI DataGrid
 description: Style the rows, alternate rows and row details using the style selector in the MAUI DataGrid control.
 type: how-to
 page_title: Row Style Selector in DataGrid
 slug: datagrid-row-style-selector
+components: ["datagrid"]
 position: 5
 res_type: kb
 ---

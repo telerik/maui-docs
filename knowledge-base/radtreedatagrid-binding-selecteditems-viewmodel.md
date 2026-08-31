@@ -1,4 +1,4 @@
----
+﻿---
 title: Binding TreeDataGrid SelectedItems Collection to ViewModel
 description: Explains why SelectedItems in RadTreeDataGrid cannot be bound directly in XAML and shows how to use it in the ViewModel.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Using SelectedItems in RadTreeDataGrid with ViewModel Binding
 meta_title: Using SelectedItems in RadTreeDataGrid with ViewModel Binding
 slug: radtreedatagrid-binding-selecteditems-viewmodel
 tags: radtreedatagrid, .net maui, selecteditems, binding, xaml, viewmodel
+components: ["treedatagrid"]
 res_type: kb
 ---
 

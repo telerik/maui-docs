@@ -1,4 +1,4 @@
----
+﻿---
 title: Binding SortOrder in PropertyGroupDescriptor in CollectionView
 description: Learn how to bind the SortOrder property in PropertyGroupDescriptor for the RadCollectionView in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Binding SortOrder in RadCollectionView's PropertyGroupDescriptor
 meta_title: Binding SortOrder in RadCollectionView's PropertyGroupDescriptor
 slug: binding-sortorder-propertygroupdescriptor-radcollectionview
 tags: collectionview, ui-for-dotnet-maui, propertygroupdescriptor, sortorder, binding
+components: ["collectionview"]
 res_type: kb
 ---
 

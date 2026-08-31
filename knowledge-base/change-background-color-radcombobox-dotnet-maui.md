@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing Background Color of RadComboBox Based on Selected Item
 description: Learn how to change the background color of the RadComboBox for .NET MAUI depending on the selected item.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Change Background Color of RadComboBox Items in .NET MAUI
 meta_title: Change Background Color of RadComboBox Items Based on Selection in .NET MAUI
 slug: change-background-color-radcombobox-dotnet-maui
 tags: combobox,.net maui,background color,selectionboxtemplate
+components: ["combobox"]
 res_type: kb
 ticketid: 1692680
 ---

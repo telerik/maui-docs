@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying Week Numbers in the Scheduler's HeaderTextFormat
 description: Learn how to show week numbers in the RadScheduler for .NET MAUI by binding the HeaderTextFormat property.
 type: how-to
 page_title: How to Display Week Numbers in Scheduler Header in .NET MAUI
 slug: display-week-number-scheduler-header-maui
 tags: scheduler, .net maui, headertextformat, binding, week number
+components: ["scheduler"]
 res_type: kb
 ---
 

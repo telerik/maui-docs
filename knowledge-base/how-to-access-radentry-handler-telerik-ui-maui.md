@@ -1,10 +1,11 @@
----
+﻿---
 title: Accessing RadEntry Handler in Telerik UI for MAUI 8.0.0
 description: Learn how to access the RadEntry handler in Telerik UI for MAUI version 8.0.0 after the breaking changes introduced in the latest update.
 type: how-to
 page_title: How to Access RadEntry Handler in Telerik UI for MAUI After Update to 8.0.0
 slug: how-to-access-radentry-handler-telerik-ui-maui
 tags: maui, radentry, handler, platformview, loaded event, radtextinput
+components: ["entry"]
 res_type: kb
 ticketid: 1673301
 ---

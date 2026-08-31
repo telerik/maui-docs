@@ -1,10 +1,11 @@
----
+﻿---
 title: Highlighting the Text in the DataGrid through Search Entry
 page_title: Searching and Highlighting the Result in the DataGrid Cells - .NET MAUI Knowledge Base
 description: Learn how to highlight the text in the cells of the Telerik UI for .NET MAUI DataGrid component through the Search entry when searching from an external UI.
 type: how-to
 slug: datagrid-cell-text-highlight
 tags: maui, datagrid, ui for maui, highlight search result, text highlight
+components: ["datagrid"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Grouping CollectionView by One Property and Displaying Another in .NET MAUI
 description: Learn how to group items in a CollectionView by one property and display a different property in the group header in .NET MAUI.
 type: how-to
 page_title: How to Group CollectionView by One Property and Display Another in .NET MAUI
 slug: group-collectionview-display-another-property-net-maui
 tags: collectionview, grouping, .net maui, displaymemberpath, groupheader, converter
+components: ["collectionview"]
 res_type: kb
 ---
 

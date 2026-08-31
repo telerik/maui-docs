@@ -1,4 +1,4 @@
----
+﻿---
 title: Applying Dark Theme to RadDataGrid Filtering UI in UI for .NET MAUI
 description: Learn how to configure the RadDataGrid Filtering UI to respond properly to a dark theme in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Configure RadDataGrid Filtering UI for Dark Theme in UI for .NET MAU
 meta_title: Configure RadDataGrid Filtering UI for Dark Theme in UI for .NET MAUI
 slug: configure-raddatagrid-dark-theme-filtering-ui
 tags: ui-for-net-maui, raddatagrid, filtering, dark-theme, theming
+components: ["datagrid"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Changing Background Color of Rows and Columns in DataGrid for MAUI
 description: Learn how to customize the background color of rows and columns in the DataGrid for MAUI component.
 type: how-to
 page_title: How to Customize Background Color in DataGrid Rows and Columns for MAUI
 slug: datagrid-maui-change-background-color
 tags: datagrid, maui, background, color, row, column
+components: ["datagrid"]
 res_type: kb
 ---
 

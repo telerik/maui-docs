@@ -1,10 +1,11 @@
----
+﻿---
 title: Hiding the CollectionView Footer in .NET MAUI
 description: Learn how to hide the footer of the RadCollectionView in a .NET MAUI application.
 type: how-to
 page_title: How to Hide the Footer in Telerik CollectionView for .NET MAUI
 slug: hide-collectionview-footer-net-maui
 tags: collectionview, footer, hide, .net maui, telerik
+components: ["collectionview"]
 res_type: kb
 ---
 

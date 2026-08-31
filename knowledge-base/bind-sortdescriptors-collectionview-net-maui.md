@@ -1,10 +1,11 @@
----
+﻿---
 title: Binding SortDescriptors in CollectionView for .NET MAUI
 description: Learn how to use data binding with CollectionView SortDescriptors in .NET MAUI applications.
 type: how-to
 page_title: How to Bind SortDescriptors in .NET MAUI CollectionView
 slug: bind-sortdescriptors-collectionview-net-maui
 tags: collectionview, sortdescriptors, databinding, .net maui, observablecollection
+components: ["collectionview"]
 res_type: kb
 ticketid: 1677846
 ---

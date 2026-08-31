@@ -1,4 +1,4 @@
----
+﻿---
 title: Adjusting the Spacing Between Legend Icon and Text in Telerik UI for .NET MAUI Pie Chart
 description: Learn how to control the spacing between the legend icon and text in the Pie Chart of Telerik UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Control Spacing Between Legend Icon and Text in .NET MAUI Chart
 meta_title: Control Spacing Between Legend Icon and Text in .NET MAUI Chart
 slug: control-spacing-legend-icon-text-maui-chart
 tags: chart, ui for .net maui, legend, spacing, collectionview
+components: ["collectionview"]
 res_type: kb
 ---
 

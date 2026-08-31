@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Focus on Entry Using MVVM in UI for .NET MAUI
 description: Learn how to set focus on an Entry control when it loads using the MVVM approach in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Set Focus on Entry Control in UI for .NET MAUI Using MVVM
 meta_title: Focus Entry Control Using MVVM in UI for .NET MAUI
 slug: set-focus-entry-mvvm-ui-net-maui
 tags: entry, mvvm, telerik ui for .net maui, entry focus, eventtocommandbehavior, radeventtocommandbehavior
+components: ["entry"]
 res_type: kb
 ---
 

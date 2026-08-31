@@ -1,4 +1,4 @@
----
+﻿---
 title: Sorting and Grouping in Descending Order in RadDataGrid
 description: Learn how to sort and group items in the RadDataGrid for UI for .NET MAUI in descending order.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Setting Sort and Group Descriptors to Descending Order in RadDataGri
 meta_title: Setting Sort and Group Descriptors to Descending Order in RadDataGrid
 slug: datagrid-sorting-grouping-descending-order
 tags: datagrid, ui-for-dotnet-maui, sort-descriptors, group-descriptors, descending-order
+components: ["datagrid"]
 res_type: kb
 ---
 

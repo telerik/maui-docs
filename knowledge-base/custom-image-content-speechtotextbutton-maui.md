@@ -1,4 +1,4 @@
----
+﻿---
 title: Adding Custom Image as Content to SpeechToTextButton in UI for .NET MAUI
 description: Learn how to add a custom image as content to the SpeechToTextButton in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Using Custom Image Content for SpeechToTextButton in .NET MAUI
 meta_title: Using Custom Image Content for SpeechToTextButton in .NET MAUI
 slug: custom-image-content-speechtotextbutton-maui
 tags: speechtotextbutton, ui-for-net-maui, content, image, button
+components: ["speechtotextbutton"]
 res_type: kb
 ---
 

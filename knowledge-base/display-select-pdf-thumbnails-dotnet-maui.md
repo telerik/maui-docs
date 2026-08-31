@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying Thumbnails of Multiple PDFs in a Single View with .NET MAUI
 description: Learn how to generate and display thumbnails for the first page of multiple PDF files in a single list box view, and open the selected PDF in a PDFViewer for .NET MAUI.
 type: how-to
 page_title: How to Display and Select PDF Thumbnails in a .NET MAUI Application
 slug: display-select-pdf-thumbnails-dotnet-maui
 tags: pdfviewer, .net maui, pdf, thumbnails, list box, pdf processing
+components: ["pdfviewer"]
 res_type: kb
 ---
 

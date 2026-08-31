@@ -1,4 +1,4 @@
----
+﻿---
 title: Disabling Mouse Hover in Telerik DataGrid for .NET MAUI
 description: Learn how to disable mouse hover effects in Telerik DataGrid for .NET MAUI by customizing the MouseHoverStyle property.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Disable Mouse Hover Effects in DataGrid for .NET MAUI
 meta_title: Disable Mouse Hover in Telerik DataGrid for .NET MAUI
 slug: disable-mouse-hover-datagrid-dotnet-maui
 tags: datagrid, telerik, .net maui, mousehoverstyle, styling
+components: ["datagrid"]
 res_type: kb
 ---
 

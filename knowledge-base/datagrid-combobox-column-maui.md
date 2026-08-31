@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying Collection of Items in .NET MAUI DataGrid ComboBox Column
 description: Learn how to populate the ComboBox column in Telerik MAUI DataGrid with a collection and configure the display settings.
 type: how-to
 page_title: How to Use ComboBox Column in Telerik MAUI DataGrid
 slug: datagrid-combobox-column-maui
 tags: datagrid, combobox, collection, maui, display, itemssource, propertyname, itemdisplaybindingpath
+components: ["datagrid"]
 res_type: kb
 ---
 

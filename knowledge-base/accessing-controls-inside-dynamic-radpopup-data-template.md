@@ -1,4 +1,4 @@
----
+﻿---
 title: Accessing Controls Inside Dynamic Popup Loaded from DataTemplate in ResourceDictionary
 description: Learn how to dynamically load Popup content from a DataTemplate in a ResourceDictionary in UI for .NET MAUI and update the controls inside.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Updating Controls Inside Popup Loaded Dynamically from DataTemplate 
 meta_title: Updating Controls Inside Popup Loaded Dynamically from DataTemplate in ResourceDictionary
 slug: accessing-controls-inside-dynamic-radpopup-data-template
 tags: popup, datatemplate, radpopup, maui, binding
+components: ["popup"]
 res_type: kb
 ---
 

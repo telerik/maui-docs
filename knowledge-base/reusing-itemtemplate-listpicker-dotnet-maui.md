@@ -1,4 +1,4 @@
----
+﻿---
 title: Reusing ItemTemplate with ListPicker in .NET MAUI
 description: Learn how to reuse a single ItemTemplate across multiple ListPickers in .NET MAUI using a value converter for dynamic data binding.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Reusing ItemTemplate Across ListPickers in .NET MAUI
 meta_title: Reusing ItemTemplate Across ListPickers in .NET MAUI
 slug: reusing-itemtemplate-listpicker-dotnet-maui
 tags: listpicker, .net maui, itemtemplate, displaymemberpath, converter
+components: ["listpicker"]
 res_type: kb
 ---
 

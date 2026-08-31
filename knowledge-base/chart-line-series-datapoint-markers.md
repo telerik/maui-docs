@@ -1,4 +1,4 @@
----
+﻿---
 title: Create Data Point Markers on Chart's Line Series
 description: Learn how to show data point markers in the Line Series of the RadChart when using the native Chart for Android and iOS.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Show Data Points on CartesianChart LineSeries
 slug: chart-line-series-datapoint-markers
 position: 
 tags: maui, chart, points, markers, line series, dornet maui
+components: ["chart"]
 ticketid: 1612671
 res_type: kb
 ---

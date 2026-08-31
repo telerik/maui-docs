@@ -1,4 +1,4 @@
----
+﻿---
 title: Updating External UI After Commit Edit Command is Executed in DataGrid for .NET MAUI
 description: Learn how to update external UI elements after committing edited values in the DataGrid for UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Displaying Updated Values in External UI After Commit Edit Command i
 meta_title: Displaying Updated Values in External UI After Commit Edit Command in .NET MAUI DataGrid
 slug: updating-external-ui-after-commit-edit-net-maui-datagrid
 tags: datagrid, ui-for-dotnet-maui, commit-edit-command, external-ui-update
+components: ["datagrid"]
 res_type: kb
 ---
 

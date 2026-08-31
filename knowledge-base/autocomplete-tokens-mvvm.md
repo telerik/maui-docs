@@ -1,10 +1,11 @@
----
+﻿---
 title: Manage the Tokens Collection in .NET MAUI AutoComplete
 description: Learn how to add and delete items from the AutoComplete's tokens collection.
 type: how-to
 page_title: How to Manage the Tokens collection of the RadAutoComplete for .NET MAUI in MVVM approach
 slug: autocomplete-tokens-collection-mvvm
 tags: autocomplete, .net maui, tokens, collection, mvvm
+components: ["autocomplete"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Using ItemTemplateSelector with CollectionView for .NET MAUI
 description: Learn how to implement an ItemTemplateSelector in the CollectionView for .NET MAUI to customize item appearance at runtime.
 type: how-to
 page_title: Implementing ItemTemplateSelector in CollectionView for .NET MAUI
 slug: item-template-selector-collectionview-dotnet-maui
 tags: collectionview, datatemplate, itemtemplate, selector, .net-maui
+components: ["collectionview"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Using DropDownButtonToolbarItem in Toolbar for .NET MAUI
 description: Learn how to implement and customize the DropDownButtonToolbarItem in a Toolbar for .NET MAUI application.
 type: how-to
 page_title: How to Customize DropDownButtonToolbarItem in .NET MAUI Toolbar
 slug: dropdown-button-toolbaritem-net-maui-toolbar
 tags: toolbar, .net maui, dropdownbuttontoolbaritem, controltemplate, displayoptions
+components: ["toolbar"]
 res_type: kb
 ---
 

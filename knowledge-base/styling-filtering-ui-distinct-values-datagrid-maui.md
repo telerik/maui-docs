@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling the Filtering UI with Distinct Values - DataGrid for MAUI
 description: Learn how to style the Filtering UI in the DataGrid for MAUI by changing the color of the area with the checkboxes.
 type: how-to
 page_title: Styling the Filtering UI with Distinct Values - DataGrid for MAUI
 slug: styling-filtering-ui-distinct-values-datagrid-maui
 tags: maui, datagrid, filtering, styling, distinct values
+components: ["datagrid"]
 res_type: kb
 ---
 ## Environment

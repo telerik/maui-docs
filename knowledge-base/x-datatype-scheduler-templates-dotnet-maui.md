@@ -1,10 +1,11 @@
----
+﻿---
 title: Using x:DataType in Scheduler Day/Week Templates in .NET MAUI
 description: Learn what is the x:DataType for the Scheduler DayView and WeekView templates in .NET MAUI when using a custom appointment class.
 type: how-to
 page_title: How to Define x:DataType for Scheduler Templates in .NET MAUI
 slug: x-datatype-scheduler-templates-dotnet-maui
 tags: scheduler,.net maui,data binding,appointmentnode,appointmenttemplate
+components: ["scheduler"]
 res_type: kb
 ---
 

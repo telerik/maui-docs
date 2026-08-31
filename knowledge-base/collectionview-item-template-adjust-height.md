@@ -1,4 +1,4 @@
----
+﻿---
 title: Adjusting Item Template Height in CollectionView for .NET MAUI
 description: Learn how to make the item template in CollectionView for .NET MAUI occupy only the space it uses by removing extra white space.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Removing Extra Space Below Text in CollectionView Item Template
 meta_title: Removing Extra Space Below Text in CollectionView Item Template
 slug: collectionview-item-template-adjust-height
 tags: collectionview, .net maui, item template, minimumheightrequest, itemlength
+components: ["collectionview"]
 res_type: kb
 ---
 

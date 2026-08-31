@@ -1,10 +1,11 @@
----
+﻿---
 title: Handling Selection Changes in TabView for .NET MAUI
 description: Learn how to determine the selected tab in RadTabView for .NET MAUI and perform actions based on the selected tab.
 type: how-to
 page_title: How to Handle Selection Changes in TabView for .NET MAUI
 slug: tabview-net-maui-handle-selection-changes
 tags: tabview, .net maui, selectionchanged, event, selectedindex, selecteditem
+components: ["tabview"]
 res_type: kb
 ---
 

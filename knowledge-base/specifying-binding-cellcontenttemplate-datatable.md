@@ -1,10 +1,11 @@
----
+﻿---
 title: Specifying the CellContentTemplate Binding in a MAUI DataGrid with a DataTable
 description: Learn how to specify the binding for a CellContentTemplate when using the .NET MAUI DataGrid DataTable.
 type: how-to
 page_title: Specifying the Binding for a CellContentTemplate DataTemplate
 slug: specifying-binding-cellcontenttemplate-datatable
 tags: DataGrid, DataTable, binding, template, dotnet, maui
+components: ["datagrid"]
 res_type: kb
 ---
 ## Environment

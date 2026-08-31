@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Single Tap Cell Editing in DataGrid for MAUI
 description: Learn how to configure the DataGrid in MAUI to enter edit mode with a single tap or click on a cell.
 type: how-to
 page_title: How to Enable Single Tap Editing in a MAUI DataGrid
 slug: datagrid-maui-single-tap-editing
 tags: datagrid, maui, editing, celltap, cell, tap, single tap, command
+components: ["datagrid"]
 res_type: kb
 ---
 

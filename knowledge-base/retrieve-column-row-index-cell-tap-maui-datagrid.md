@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Column and Row Index Using Cell Tap Command in DataGrid for MAUI
 description: Learn how to retrieve the column index and row index when using the Cell Tap command in the DataGrid for MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Retrieve Column and Row Index with Cell Tap Command in MAUI DataGrid
 meta_title: Retrieve Column and Row Index with Cell Tap Command in MAUI DataGrid
 slug: retrieve-column-row-index-cell-tap-maui-datagrid
 tags: datagrid,maui,column,row,index,cell-tap
+components: ["datagrid"]
 res_type: kb
 ---
 

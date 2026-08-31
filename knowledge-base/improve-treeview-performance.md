@@ -1,4 +1,4 @@
----
+﻿---
 title: Improving TreeView Performance in .NET MAUI
 description: Tips and tricks for optimizing the performance of the TreeView when dealing with large datasets and ideal layout practices.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Enhancing Performance for .NET MAUI TreeView with Large Datasets
 meta_title: Enhancing Performance for .NET MAUI TreeView with Large Datasets
 slug: improve-treeview-performance-dotnet-maui
 tags: treeview, .net maui, performance, layouts, images, optimization, loadondemand, paging
+components: ["treeview"]
 res_type: kb
 ---
 

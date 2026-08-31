@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing Header Settings in RadScheduler for .NET MAUI
 description: Learn how to modify the RadScheduler header, including removing navigation buttons and aligning the month text.
 type: how-to
 page_title: How to Customize Header in Telerik RadScheduler for .NET MAUI
 slug: customize-header-rad-scheduler-net-maui
 tags: scheduler, .net maui, header, customize, alignment, navigation button, visible views button
+components: ["scheduler"]
 res_type: kb
 ---
 

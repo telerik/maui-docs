@@ -1,10 +1,11 @@
----
+﻿---
 title: Applying Rounded Corners to BarSeries in .NET MAUI Chart
 description: Learn how to customize the BarSeries in a CartesianChart for .NET MAUI by applying rounded corners through platform-specific configurations.
 type: how-to
 page_title: How to Customize BarSeries with Rounded Corners in .NET MAUI Chart
 slug: rounded-corners-barseries-dotnet-maui-chart
 tags: chart, .net maui, customization, barseries, rounded corners
+components: ["chart"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating Custom Chart Palettes
 page_title: Adding Custom Colors to the Chart - .NET MAUI Knowledge Base
 description: Learn how to customize the colors of the Telerik UI for .NET MAUI Chart component.
 type: how-to
 slug: chart-how-to-create-custom-palette
 tags: maui, chart, color, custom, palette
+components: ["chart"]
 res_type: kb
 ---
 

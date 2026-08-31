@@ -1,4 +1,4 @@
----
+﻿---
 title: Cancel Checkbox Change in .NET MAUI
 description: Learn how to cancel a Checkbox change in .NET MAUI using the IsCheckedChanged event.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Prevent Checkbox State Change in .NET MAUI
 meta_title: Prevent Checkbox State Change in .NET MAUI
 slug: cancel-checkbox-change-net-maui
 tags: checkbox, .net maui, ischeckedchanged, ischecked, binding
+components: ["checkbox"]
 res_type: kb
 ---
 

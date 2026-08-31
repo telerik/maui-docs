@@ -1,4 +1,4 @@
----
+﻿---
 title: Hiding Large +- Button on DataGridNumericalColumn in UI for .NET MAUI
 description: Learn how to hide or disable the large "+" and "-" buttons on the DataGridNumericalColumn in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Removing Large +- Buttons from DataGridNumericalColumn in UI for .NE
 meta_title: Removing Large +- Buttons from DataGridNumericalColumn in UI for .NET MAUI
 slug: hide-large-plus-minus-buttons-datagridnumericalcolumn-dotnet-maui
 tags: datagridnumericalcolumn, datagrid, numericinput, buttons, celleditorstyle
+components: ["datagrid"]
 res_type: kb
 ---
 

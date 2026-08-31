@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing HeaderText in TabView When Tab Item Is Selected
 description: Learn how to dynamically change the HeaderText of TabView items when a tab is selected in UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Dynamically Update TabView HeaderText Based on Selection in UI for .
 meta_title: Dynamically Update TabView HeaderText Based on Selection
 slug: dynamically-update-tabview-headertext-based-on-selection
 tags: tabview,selectionchanged,event,headertext,ui-for-net-maui
+components: ["tabview"]
 res_type: kb
 ---
 

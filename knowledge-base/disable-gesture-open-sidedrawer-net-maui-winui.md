@@ -1,10 +1,11 @@
----
+﻿---
 title: Disabling Gesture to Open Drawer in .NET MAUI SideDrawer for WinUI
 description: Learn how to configure the RadSideDrawer in .NET MAUI so it can only be opened through a button click on WinUI, disabling the gesture control.
 type: how-to
 page_title: How to Disable Gesture Opening of RadSideDrawer in .NET MAUI on WinUI
 slug: disable-gesture-open-sidedrawer-net-maui-winui
 tags: sidedrawer, .net maui, winui, gesture, open, button
+components: ["sidedrawer"]
 res_type: kb
 ---
 

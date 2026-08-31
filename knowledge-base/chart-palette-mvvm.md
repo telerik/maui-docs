@@ -1,10 +1,11 @@
----
+﻿---
 title: Adding Different Colors to the Bars of the Chart
 page_title: Showing a Different Color for Each Chart Bar with MVVM - .NET MAUI Knowledge Base
 description: Learn how to apply a different color to each bar of the Telerik UI for .NET MAUI Chart component by using the MVVM pattern.
 type: how-to
 slug: chart-color-for-each-bar-mvvm
 tags: maui, chart, barseries, chart color, bar color, mvvm
+components: ["chart"]
 ticketid: 1567000
 res_type: kb
 ---
@@ -15,7 +16,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-      <td>Progress® Telerik® UI for .NET MAUI Chart</td>
+      <td>Telerik UI for .NET MAUI Chart</td>
     </tr>
   	<tr>
   		<td>Product Version</td>

@@ -1,4 +1,4 @@
----
+﻿---
 title: Removing ManualLoadOnDemandTemplate in CollectionView for .NET MAUI When No More Items Are Available
 description: Learn how to remove or hide the ManualLoadOnDemandTemplate in CollectionView for .NET MAUI when there are no more items to load.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Hiding CollectionView ManualLoadOnDemandTemplate When No More Items 
 meta_title: Hiding CollectionView ManualLoadOnDemandTemplate When No More Items to Load in .NET MAUI
 slug: removing-manualloadondemandtemplate-collectionview-dotnet-maui
 tags: collectionview, .net maui, manualloadondemandtemplate, isloadondemandenabled
+components: ["collectionview"]
 res_type: kb
 ---
 

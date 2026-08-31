@@ -1,4 +1,4 @@
----
+﻿---
 title: Displaying BusyIndicator In AIPrompt Control Popup
 description: Learn how to ensure BusyIndicator displays correctly over the AIPrompt Control popup in a UI for .NET MAUI application.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Adding Custom BusyIndicator In AI Prompt Popup
 meta_title: Adding Custom BusyIndicator In AI Prompt Popup
 slug: displaying-busyindicator-over-ai-prompt-control-popup
 tags: busyindicator, ai prompt, popup, threading, controltemplate, ui-for-net-maui
+components: ["busyindicator"]
 res_type: kb
 ticketid: 1697962
 ---

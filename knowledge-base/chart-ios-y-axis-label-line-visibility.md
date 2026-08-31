@@ -1,4 +1,4 @@
----
+﻿---
 title: Achieving Consistent Chart Rendering Across Android and iOS
 description: Learn how to achieve consistent rendering for CartesianChart in .NET MAUI between Android and iOS, including fixing Y-axis line visibility and label alignment.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Fixing Y-Axis Line and Label Alignment in Chart for iOS
 meta_title: Fixing Y-Axis Line and Label Alignment in Chart for iOS
 slug: chart-ios-y-axis-label-line-visibility
 tags: chart,.net maui,radcartesianchart,axis,handler
+components: ["chart"]
 res_type: kb
 ---
 

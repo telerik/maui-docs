@@ -1,10 +1,11 @@
----
+﻿---
 title: Removing Tree Indentation in TreeDataGrid for .NET MAUI
 description: Learn how to remove the tree indentation in the Telerik TreeDataGrid for .NET MAUI control.
 type: how-to
 page_title: How to Remove Tree Indentation in Telerik TreeDataGrid for .NET MAUI
 slug: remove-tree-indentation-treedatagrid-dotnet-maui
 tags: treedatagrid,.net maui,levelindentation,styling
+components: ["treedatagrid"]
 res_type: kb
 ticketid: 1689581
 ---

@@ -5,6 +5,8 @@ type: how-to
 page_title: Remove or Change Animation When Scrolling through RadListView | ListView for MAUI
 slug: remove-change-animation-scrolling-radlistview-maui
 tags: maui, radlistview, animation, scrolling, customization
+components: ["listview"]
+published: false
 res_type: kb
 ---
 
