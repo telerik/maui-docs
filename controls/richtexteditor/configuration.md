@@ -59,11 +59,34 @@ In addition, RichTextEditor provides a flexible API that allows you to apply for
 | `TextColor` | Specifies the color of the text at the current position or selection |
 | `HighlightTextColor` | Defines the text background color at the current position or selection |
 | `SelectionRange` of type `RichTextSelectionRange` | Specifies the start and end position of the currently selected inside the editor text |
+| `FontFamily` | Sets the font family of the text at the current caret position or selection |
 | `FontSize` | Sets the font size of the text at the current caret position or selection |
 | `FontAttributes` of type `RichTextFontAttributes` | Defines the font attributes, such as bold, italic, subscript, and superscript at the current position or selection |
 | `TextDecorations` of type `RichTextDecorations` | Specifies text decorations, such as underline and strikethrough at the current position or selection |
 | `HorizontalTextAlignment` of type `RichTextHorizontalAlignment` | Specifies the text alignment, such as left, right, center, or justify at the current position or selection |
 | `ListType` of type `RichTextListType` | Specifies the list type, such as numbered or bulleted list at the current position or selection |
+
+> Properties such as `TextColor`, `FontFamily`, and `FontSize` only affect the current `SelectionRange` (the highlighted text). If there is no active selection—only a caret position—setting these properties does not change any existing text; instead, it defines the formatting that will be applied to the *next* characters the user types. To restyle text that is already in the document, make sure a selection exists (either made by the end user, or set programmatically through `SelectionRange`) before you set the property.
+
+### Apply Formatting to the Entire Document
+
+To change the `TextColor` (or `FontFamily`/`FontSize`) of the whole document content, first select the entire document with the `SelectAllCommand`, and apply the desired formatting once the selection is in place. Since selecting the content happens asynchronously, use the `SelectionRangeChanged` event to know when the selection has been applied before setting the formatting property:
+
+```C#
+private void OnColorizeAllClicked(object sender, EventArgs e)
+{
+    this.richTextEditor.SelectionRangeChanged += this.RichTextEditor_SelectionRangeChanged;
+    this.richTextEditor.SelectAllCommand.Execute(null);
+}
+
+private void RichTextEditor_SelectionRangeChanged(object sender, ValueChangedEventArgs<RichTextSelectionRange> e)
+{
+    this.richTextEditor.SelectionRangeChanged -= this.RichTextEditor_SelectionRangeChanged;
+
+    // The whole document is now selected, so TextColor is applied to all of its text.
+    this.richTextEditor.TextColor = Colors.Red;
+}
+```
 
 ## Text Selection
 
