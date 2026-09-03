@@ -25,6 +25,14 @@ The following table lists the actions and keyboard combinations that are availab
 
 The first item in the suggestion view is highlighted by default (set as `CuttentItem`) when the view gets opened.
 
+## Screen Reader Support
+
+On WinUI and MacCatalyst, the default suggestion view is backed by a `RadCollectionView` and its suggestion items participate in the platform accessibility tree. No additional AutoComplete property is required to enable this behavior. Keep `ShowSuggestionView` enabled and use the `Suggest` or `SuggestAppend` `SuggestMode` to display the accessible suggestion list.
+
+When you use `SuggestionItemTemplate`, provide meaningful accessible text for the custom suggestion content by using the .NET MAUI `SemanticProperties.Description` and `SemanticProperties.Hint` properties where appropriate. Keep the suggestion item content focused on the value that should be announced by the screen reader.
+
+If you replace the default list with `SuggestionViewTemplate`, the custom view is responsible for providing accessible list and item semantics. For the best built-in accessibility behavior, customize individual suggestions with `SuggestionItemTemplate` instead of replacing the complete suggestion view.
+
 ## See Also
 
 - [Suggest Mode]({%slug autocomplete-suggest-mode%})

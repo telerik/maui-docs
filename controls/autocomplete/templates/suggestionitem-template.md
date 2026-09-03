@@ -13,6 +13,8 @@ Whenever the default template does not fit a particular scenario you can use the
 
 * `SuggestionItemTemplate`(`DataTemplate`)&mdash;Defines the template that will be used to create each of the suggestions.
 
+The default suggestion view provides platform accessibility semantics for its items on WinUI and MacCatalyst. When defining a custom `SuggestionItemTemplate`, set meaningful `SemanticProperties.Description` or `SemanticProperties.Hint` values on the custom content when the displayed content does not provide an adequate announcement for a screen reader.
+
 ## Example
 
 Here is an example how to use the RadAutoComplete `SuggestionItemTemplate`:

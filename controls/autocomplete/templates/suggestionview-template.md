@@ -13,6 +13,8 @@ AutoComplete provides the option to change the default template that visualize t
 
 * `SuggestionViewTemplate`(`DataTemplate`)&mdash;Defines the template used to visualize the filtered items
 
+`SuggestionViewTemplate` replaces the default suggestion list. The default list is backed by a `RadCollectionView`, which provides platform accessibility semantics for suggestion items on WinUI and MacCatalyst. When you use `SuggestionViewTemplate`, configure equivalent accessible list and item semantics in the custom view. Use `SuggestionItemTemplate` when you only need to customize the appearance of individual suggestions and want to retain the default suggestion-list accessibility behavior.
+
 ## Example
 
 Here is an example how to use the RadAutoComplete `SuggestionViewTemplate`:
