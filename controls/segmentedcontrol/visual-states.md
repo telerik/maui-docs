@@ -29,6 +29,8 @@ The SegmentedControl provides the following `CommonStates` visual states:
 | `Disabled` | Applies when the segment is disabled. |
 | `DisabledSelected` | Applies when the segment is disabled and selected. |
 
+The `Focused` and `FocusedSelected` states correspond to the item identified by the SegmentedControl's `CurrentItem` property. Use `CurrentItem` to retrieve the focused data item when applying a custom item style, and use `SelectedItem` to retrieve the committed selection.
+
 All `MouseOver` and `Focused` visual states are used in keyboard navigation support and desktop scenarios. They do not apply in mobile scenarios, where the touch interaction model does not have the concept of hovering or keyboard focus.
 
 ## See Also
