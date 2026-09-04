@@ -68,26 +68,6 @@ In addition, RichTextEditor provides a flexible API that allows you to apply for
 
 > Properties such as `TextColor`, `FontFamily`, and `FontSize` only affect the current `SelectionRange` (the highlighted text). If there is no active selection—only a caret position—setting these properties does not change any existing text; instead, it defines the formatting that will be applied to the *next* characters the user types. To restyle text that is already in the document, make sure a selection exists (either made by the end user, or set programmatically through `SelectionRange`) before you set the property.
 
-### Apply Formatting to the Entire Document
-
-To change the `TextColor` (or `FontFamily`/`FontSize`) of the whole document content, first select the entire document with the `SelectAllCommand`, and apply the desired formatting once the selection is in place. Since selecting the content happens asynchronously, use the `SelectionRangeChanged` event to know when the selection has been applied before setting the formatting property:
-
-```C#
-private void OnColorizeAllClicked(object sender, EventArgs e)
-{
-    this.richTextEditor.SelectionRangeChanged += this.RichTextEditor_SelectionRangeChanged;
-    this.richTextEditor.SelectAllCommand.Execute(null);
-}
-
-private void RichTextEditor_SelectionRangeChanged(object sender, ValueChangedEventArgs<RichTextSelectionRange> e)
-{
-    this.richTextEditor.SelectionRangeChanged -= this.RichTextEditor_SelectionRangeChanged;
-
-    // The whole document is now selected, so TextColor is applied to all of its text.
-    this.richTextEditor.TextColor = Colors.Red;
-}
-```
-
 ## Text Selection
 
 RichTextEditor has a text selection functionality—the end user can initiate a selection action through the tap and hold gesture over the text. The selected text is marked with a different background color and two drag handles are available to the user to make it easier to modify the current selection. 
