@@ -3,7 +3,7 @@ title: Overview
 page_title: .NET MAUI ToggleButton Documentation - Overview
 description: Try now the Telerik UI for .NET MAUI ToggleButton control that provides various options for customizing its look and feel.
 components: ["togglebutton"]
-tags: toggle button for .net maui, .net maui, ui for .net maui, microsoft .net maui
+tags: toggle button for .net maui, .net maui, ui for .net maui, microsoft .net maui, switch, toggle switch, radswitch
 position: 0
 slug: togglebutton-overview
 ---
