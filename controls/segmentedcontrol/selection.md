@@ -19,8 +19,6 @@ The SegmentedControl provides the following properties for working with the curr
 * `SelectedIndex` (`int`)&mdash;Specifies the index of the first item in the current selection, or `-1` if the selection is empty.
 * `SelectedItem` (`object`)&mdash;Defines the first item in the current selection, or `null` if the selection is empty.
 
-The `CurrentItem` property is separate from selection and identifies the segment that currently has keyboard focus during desktop keyboard navigation. The SegmentedControl does not expose a `CurrentItemChanged` event. To observe changes to `CurrentItem`, handle the control's `PropertyChanged` event or bind the property to a view-model property. Use `SelectionChanged` for committed selection changes.
-
 ## Selection Modes
 
 The segment selection behavior is defined by the `SelectionMode` (`Telerik.Maui.Controls.SegmentedControl.SegmentedControlSelectionMode`) property, which determines how items can be selected by user interaction. The control supports three selection modes:
