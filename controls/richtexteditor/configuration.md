@@ -66,7 +66,7 @@ In addition, RichTextEditor provides a flexible API that allows you to apply for
 | `HorizontalTextAlignment` of type `RichTextHorizontalAlignment` | Specifies the text alignment, such as left, right, center, or justify at the current position or selection |
 | `ListType` of type `RichTextListType` | Specifies the list type, such as numbered or bulleted list at the current position or selection |
 
-> Properties such as `TextColor`, `FontFamily`, and `FontSize` only affect the current `SelectionRange` (the highlighted text). If there is no active selection—only a caret position—setting these properties does not change any existing text; instead, it defines the formatting that will be applied to the *next* characters the user types. To restyle text that is already in the document, make sure a selection exists (either made by the end user, or set programmatically through `SelectionRange`) before you set the property.
+> Properties such as `TextColor`, `FontFamily`, and `FontSize` only affect the current `SelectionRange` (the highlighted text). If there is no active selection-only a caret position-setting these properties does not change any existing text; instead, it defines the formatting that will be applied to the *next* characters the user types. To restyle text that is already in the document, make sure a selection exists (either made by the end user, or set programmatically through `SelectionRange`) before you set the property.
 
 ## Text Selection
 
