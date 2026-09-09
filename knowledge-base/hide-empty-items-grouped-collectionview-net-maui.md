@@ -27,58 +27,64 @@ This knowledge base article also answers the following questions:
 
 To completely hide an item and eliminate any layout space it occupies within a `RadCollectionView`, target the item container itself (`RadCollectionViewItemView`) via `ItemViewStyle`. If you only hide the visual elements inside `ItemTemplate`, the parent `RadCollectionViewItemView` container will still preserve its default padding and dimensions.
 
-Apply a `DataTrigger` directly to `RadCollectionViewItemView` for both `null` and `string.Empty` values that resets `IsVisible`, `HeightRequest`, `MinimumHeightRequest`, `WidthRequest`, `MinimumWidthRequest`, and `Padding` to `0`.
+1. Apply a `DataTrigger` directly to `RadCollectionViewItemView` for both `null` and `string.Empty` values that resets `IsVisible`, `HeightRequest`, `MinimumHeightRequest`, `WidthRequest`, `MinimumWidthRequest`, and `Padding` to `0`. Here is the XAML definition of the `RadCollectionView` and `ItemViewStyle` with the `Triggers`:
 
-### C# Implementation
-
-Define and assign the `ItemViewStyle` in code-behind:
-
-```csharp
-using Microsoft.Maui;
-using Microsoft.Maui.Controls;
-using Telerik.Maui.Controls;
-
-namespace YourNamespace;
-
-public partial class MainPage : ContentPage
-{
-    public MainPage()
-    {
-        InitializeComponent();
-        CountriesCollectionView.ItemViewStyle = CreateCountryItemStyle();
-    }
-
-    private static Style CreateCountryItemStyle()
-    {
-        var style = new Style(typeof(RadCollectionViewItemView));
-
-        AddEmptyNameTrigger(style, null);
-        AddEmptyNameTrigger(style, string.Empty);
-
-        return style;
-    }
-
-    private static void AddEmptyNameTrigger(Style style, string? value)
-    {
-        var trigger = new DataTrigger(typeof(RadCollectionViewItemView))
-        {
-            Binding = new Binding(nameof(CountryOption.Name)),
-            Value = value
-        };
-
-        trigger.Setters.Add(new Setter { Property = VisualElement.IsVisibleProperty, Value = false });
-        trigger.Setters.Add(new Setter { Property = VisualElement.HeightRequestProperty, Value = 0d });
-        trigger.Setters.Add(new Setter { Property = VisualElement.MinimumHeightRequestProperty, Value = 0d });
-        trigger.Setters.Add(new Setter { Property = VisualElement.WidthRequestProperty, Value = 0d });
-        trigger.Setters.Add(new Setter { Property = VisualElement.MinimumWidthRequestProperty, Value = 0d });
-        trigger.Setters.Add(new Setter { Property = RadCollectionViewItemView.PaddingProperty, Value = new Thickness(0) });
-
-        style.Triggers.Add(trigger);
-    }
-}
+```XAML
+<ContentPage.Resources>
+    <ResourceDictionary>
+        <Style x:Key="CountryItemStyle" TargetType="telerik:RadCollectionViewItemView">
+            <Style.Triggers>
+                <DataTrigger TargetType="telerik:RadCollectionViewItemView"
+                                Binding="{Binding Name}"
+                                Value="{x:Null}">
+                    <Setter Property="IsVisible" Value="False" />
+                    <Setter Property="HeightRequest" Value="0" />
+                    <Setter Property="MinimumHeightRequest" Value="0" />
+                    <Setter Property="WidthRequest" Value="0" />
+                    <Setter Property="MinimumWidthRequest" Value="0" />
+                    <Setter Property="Padding" Value="0" />
+                </DataTrigger>
+                <DataTrigger TargetType="telerik:RadCollectionViewItemView"
+                                Binding="{Binding Name}"
+                                Value="">
+                    <Setter Property="IsVisible" Value="False" />
+                    <Setter Property="HeightRequest" Value="0" />
+                    <Setter Property="MinimumHeightRequest" Value="0" />
+                    <Setter Property="WidthRequest" Value="0" />
+                    <Setter Property="MinimumWidthRequest" Value="0" />
+                    <Setter Property="Padding" Value="0" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </ResourceDictionary>
+</ContentPage.Resources>
+<telerik:RadCollectionView x:Name="CountriesCollectionView"
+                            ItemsSource="{Binding Countries}"
+                            ItemViewStyle="{StaticResource CountryItemStyle}">
+    <telerik:RadCollectionView.GroupDescriptors>
+        <telerik:PropertyGroupDescriptor PropertyName="Continent" />
+    </telerik:RadCollectionView.GroupDescriptors>
+    <telerik:RadCollectionView.ItemTemplate>
+        <DataTemplate x:DataType="local:CountryOption">
+            <VerticalStackLayout Margin="10,5">
+                <Label Text="{Binding Name}" FontAttributes="Bold" />
+                <Label Text="{Binding ShortDescription}" />
+                <Label Text="{Binding LongDescription}" TextColor="Gray" FontSize="10" />
+            </VerticalStackLayout>
+        </DataTemplate>
+    </telerik:RadCollectionView.ItemTemplate>
+    <telerik:RadCollectionView.GroupHeaderTemplate>
+        <DataTemplate>
+            <Label BackgroundColor="LightGray" Padding="10"
+                   TextColor="Black"
+                    Text="{Binding Key}" FontAttributes="Bold"
+                    VerticalTextAlignment="Center" />
+        </DataTemplate>
+    </telerik:RadCollectionView.GroupHeaderTemplate>
+</telerik:RadCollectionView>
 ```
 
-### Sample Data Model
+2. Define sample data model and `ViewModel`:
 
 ```csharp
 public class CountryOption
@@ -115,25 +121,9 @@ public class MainViewModel
 }
 ```
 
-### XAML Definition
+3. This is the result:
 
-```xaml
-<telerik:RadCollectionView x:Name="CountriesCollectionView"
-                           ItemsSource="{Binding Countries}">
-    <telerik:RadCollectionView.GroupDescriptors>
-        <telerik:PropertyGroupDescriptor PropertyName="Continent" />
-    </telerik:RadCollectionView.GroupDescriptors>
-    <telerik:RadCollectionView.ItemTemplate>
-        <DataTemplate x:DataType="local:CountryOption">
-            <Label Text="{Binding Name}" Margin="10,5" />
-        </DataTemplate>
-    </telerik:RadCollectionView.ItemTemplate>
-</telerik:RadCollectionView>
-```
-
-### Result
-
-The following table compares the RadCollectionView before and after applying the style to collapse empty items:
+The following table compares the `RadCollectionView` before and after applying the style to collapse empty items:
 
 | Before (Empty items take up space) | After (Empty items hidden without taking space) |
 | --- | --- |
