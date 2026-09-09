@@ -36,7 +36,7 @@ The following example shows how to create a `RadCartesianChart` with a ScatterLi
 
 The following image shows the end result:
 
-![Basic ScatterLineSeries](images/cartesian-scatter-line-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart ScatterLineSeries with straight segments connecting numerical points](images/cartesian-scatter-line-series-basic-example.png)
 
 ## Customization Example
 
@@ -70,7 +70,7 @@ The following example adds customizations to the ScatterLine Series by applying 
 
 The following image shows the final result:
 
-![Scatter Line Series Customization](images/chart-scatter-line-series-customizatrion.png)
+![Telerik UI for .NET MAUI Cartesian Chart with customized red and blue ScatterLineSeries using thick strokes](images/chart-scatter-line-series-customizatrion.png)
 
 ## See Also
 

@@ -38,7 +38,7 @@ The following example shows how to create a basic `RadPieChart` with a Donut Ser
 
 The following image shows the end result.
 
-![Chart Donut Series](images/donut-series-basic-example.png)
+![Telerik UI for .NET MAUI DonutSeries with five colored slices and numeric value labels](images/donut-series-basic-example.png)
 
 ## See Also
 

@@ -46,7 +46,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on WinUI:
 
-![.NET MAUI CollectionView Group Style](../images/collectionview-group-view-style.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView group style showing teal country headers with expand and collapse indicators](../images/collectionview-group-view-style.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView GroupView Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Styling**.
 

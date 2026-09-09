@@ -37,11 +37,11 @@ Here is an example how the RadAutoComplete Remote Search works:
 
 This is the result when `LoadingTemplate` is searching for results: 
 
-![.NET MAUI AutoComplete Remote Search Searching](images/autocomplete-remote-search-searching.png "AutoComplete Remote Search Searching")
+![Telerik UI for .NET MAUI AutoComplete remote search showing a Searching indicator while results load](images/autocomplete-remote-search-searching.png "AutoComplete Remote Search Searching")
 
 This is the search complete results:
 
-![.NET MAUI AutoComplete Remote Search Results](images/autocomplete-remote-search-results.png "AutoComplete Remote Search Results")
+![Telerik UI for .NET MAUI AutoComplete remote search showing completed client results with matching letters highlighted](images/autocomplete-remote-search-results.png "AutoComplete Remote Search Results")
 
 >important For the AutoComplete Remote Search example  refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

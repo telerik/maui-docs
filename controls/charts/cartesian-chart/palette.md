@@ -47,7 +47,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI CartesianChart Palette](images/charts-cartesian-palette.png)
+![Telerik UI for .NET MAUI CartesianChart with a custom palette applied to two red and blue BarSeries](images/charts-cartesian-palette.png)
 
 > For a runnable example with the CartesianChart Palette scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Features** category.
 

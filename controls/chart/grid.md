@@ -96,7 +96,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows how the `CartesianGridLineAnnotation` looks:
 
-![Chart Grid](images/chart-grid-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with light green horizontal and vertical grid lines behind a bar series](images/chart-grid-example.png)
 
 ## See Also
 

@@ -40,7 +40,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows a barcode with an applied Code39 symbology.
 
-![Barcode Symbology](images/barcode_setsymbology_1.png)
+![Telerik UI for .NET MAUI Barcode displaying a Code39 symbology example](images/barcode_setsymbology_1.png)
 
 ## Validation State
 

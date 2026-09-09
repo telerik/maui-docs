@@ -13,9 +13,9 @@ The visual structure of the .NET MAUI AIPrompt represents the anatomy of the UI 
 
 The following images shows the anatomy of the AIPrompt control.
 
-![Telerik UI for .NET MAUI AIPrompt Visual Structure](images/aiprompt-visual-structure.png)
+![Telerik UI for .NET MAUI AIPrompt input view structure showing the Input View, Output View, Commands View, input editor, suggestions, and buttons](images/aiprompt-visual-structure.png)
 
-![Telerik UI for .NET MAUI AIPrompt Output Visual Structure](images/aiprompt-output-visual-structure.png)
+![Telerik UI for .NET MAUI AIPrompt output view structure showing a generated response with Copy, Retry, and Rating buttons](images/aiprompt-output-visual-structure.png)
 
 ## Displayed Elements
 

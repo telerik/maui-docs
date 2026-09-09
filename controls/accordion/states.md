@@ -33,11 +33,11 @@ The snippet below shows how the `CanCollapseAllItems` and `CanExpandMultipleItem
 
 The image below shows the result after running the snippet:
 
-![.NET MAUI Accordion States](images/accordion-states-1.png)
+![Telerik UI for .NET MAUI Accordion with multiple expanded items](images/accordion-states-1.png)
 
 And the `RadAccordion` when all items are collapsed:
 
-![.NET MAUI Accordion States](images/accordion-states-2.png)
+![Telerik UI for .NET MAUI Accordion with all items collapsed](images/accordion-states-2.png)
 
 >important For the Accordion Expand and Collapse states example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

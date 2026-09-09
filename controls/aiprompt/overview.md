@@ -13,7 +13,7 @@ The .NET MAUI AIPrompt component helps you write input (prompt) instructing the 
 
 The component allows you to interact with the output from the AI and execute a set of predefined commands. Furthermore, the AIPrompt comes with three predefined views—Input, Output, and Commands, as well as the option to define custom views. Users can navigate the views through the AIPrompt's TabView.
 
-![.NET MAUI AIPrompt Overview](images/aiprompt-overview.png)
+![Telerik UI for .NET MAUI AIPrompt showing the Ask AI input view with prompt suggestions and Generate button](images/aiprompt-overview.png)
 
 ## Key Features of the .NET MAUI AIPrompt
 

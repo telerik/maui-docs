@@ -25,7 +25,7 @@ The following example demonstrates how to style the months with the `MonthStyleS
 
 <snippet id='calendar-styleselectors-custom-calendarstyleselector'/>
 
-![.NET MAUI Calendar Month Style Selector](images/calendar-monthstyle-selector.png)
+![Telerik UI for .NET MAUI Calendar year view with a month style selector applying purple month labels](images/calendar-monthstyle-selector.png)
 
 >For a runnable example demonstrating how to style the months in the Calendar, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.
 

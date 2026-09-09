@@ -12,7 +12,7 @@ slug: charts-cartesian-overview
 
 The Telerik UI for .NET MAUI Cartesian Chart (`RadCartesianChart`) visualizes data in a Cartesian coordinate system. The horizontal and vertical axes define how the coordinates of each data point in the plot area are calculated, and the series type defines how these data points are rendered.
 
-![.NET MAUI CartesianChart Overview](images/charts-cartesian-overview.png)
+![Telerik UI for .NET MAUI CartesianChart overview showing bar, line, and area series across monthly categories](images/charts-cartesian-overview.png)
 
 ## Series
 

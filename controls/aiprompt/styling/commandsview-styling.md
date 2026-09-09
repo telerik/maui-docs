@@ -26,7 +26,7 @@ The following example demonstrates how to modify the commands' appearance:
 
 Here is the result after applying the `CommandStyle` and `CommandGroupStyle`:
 
-![Telerik .NET MAUI AIPrompt Commands View Styling](images/aiprompt-commands-styling.png)
+![Telerik UI for .NET MAUI AIPrompt Commands View with styled Simplify, Check Syntax, Translate, German, and Spanish command items](images/aiprompt-commands-styling.png)
 
 ## See Also
 

@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Border Getting Started](images/border-getting-started.png)
+![Telerik UI for .NET MAUI Border displaying a labeled text element with a thin cyan outline](images/border-getting-started.png)
 
 ## Prerequisites
 

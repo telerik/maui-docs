@@ -40,7 +40,7 @@ The following snippet shows how to customize the `AccordionItemHeader`:
 
 Next image displays how the `RadAccordion` looks with thus defined items:
 
-![.NET MAUI AccordionItem](images/accordion-accordionitem.png)
+![Telerik UI for .NET MAUI AccordionItem with an expanded Settings section and checkbox content](images/accordion-accordionitem.png)
 
 >important For the AccordionItem example refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}).
 

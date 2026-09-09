@@ -31,7 +31,7 @@ The following example demonstrates how to use the described styling properties t
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Value Thumb Styling](../images/circularslider-thumb-styling.png)
+![Telerik UI for .NET MAUI CircularSlider with a teal value thumb and matching range track](../images/circularslider-thumb-styling.png)
 
 > For a runnable example demonstrating the CircularSlider thumb styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Styling** category.
 

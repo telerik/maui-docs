@@ -19,11 +19,11 @@ The snippet below shows how the `Spacing` property can be applied:
 
 The image below shows the result after running the snippet:
 
-![.NET MAUI Accordion Item Spacing](images/accordion-item-spacing-1.png)
+![Telerik UI for .NET MAUI Accordion with expanded items separated by spacing](images/accordion-item-spacing-1.png)
 
 And the Accordion when all items are collapsed:
 
-![.NET MAUI Accordion Item Spacing](images/accordion-item-spacing-2.png)
+![Telerik UI for .NET MAUI Accordion with collapsed items separated by spacing](images/accordion-item-spacing-2.png)
 
 ## See Also
 

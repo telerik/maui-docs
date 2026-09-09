@@ -41,7 +41,7 @@ The following example demonstrates how to set the `IndeterminateColor` and `Inde
 
 The image below shows the end result.
 
-![.NET MAUI CheckBox Color Changing Options](images/checkbox-styling.png)
+![Telerik UI for .NET MAUI CheckBox showing custom checked, indeterminate, and unchecked colors and symbols](images/checkbox-styling.png)
 
 > For a runnable example with the CheckBox Styling scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CheckBox > Features** category.
 

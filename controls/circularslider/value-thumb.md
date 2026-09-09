@@ -19,7 +19,7 @@ Here is a quick example on how to define the `Value` property:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Value Thumb](images/circularslider-value-thumb.png)
+![Telerik UI for .NET MAUI CircularSlider showing Current Value 35.00 with the value thumb on a partial arc](images/circularslider-value-thumb.png)
 
 ## Drag Mode
 
@@ -36,7 +36,7 @@ Check below some quick examples:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Drag Mode Only Thumb](images/circularslider-drag-thumb.gif)
+![Telerik UI for .NET MAUI CircularSlider DragMode Thumb showing only the thumb can be dragged](images/circularslider-drag-thumb.gif)
 
 >caption Example with DragMode set to Free
 
@@ -44,7 +44,7 @@ This is the result:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Drag Mode Free](images/circularslider-drag-free.gif)
+![Telerik UI for .NET MAUI CircularSlider DragMode Free showing the thumb positioned by touching the track](images/circularslider-drag-free.gif)
 
 >caption Example with DragMode set to Disabled
 
@@ -52,7 +52,7 @@ This is the result:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Drag Mode Disabled](images/circularslider-drag-disabled.gif)
+![Telerik UI for .NET MAUI CircularSlider DragMode Disabled with a fixed value thumb](images/circularslider-drag-disabled.gif)
 
 ## See Also
 

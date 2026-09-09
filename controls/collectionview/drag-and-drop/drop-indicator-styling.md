@@ -26,7 +26,7 @@ For the purpose of the example, use the `ViewModel` and `DataModel` classes from
 
 Check the result below:
 
-![.NET MAUI CollectionView Drop Indicator Styling](../images/collectionview-dragdrop-dropindicatorstyle.png)
+![Telerik UI for .NET MAUI CollectionView with a customized teal drop indicator line and circular handle](../images/collectionview-dragdrop-dropindicatorstyle.png)
 
 ## See Also
 

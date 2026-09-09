@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI Border enables you to control the look and feel of 
 
 It provides various border thickness types and corner-side radiuses, which can be used for surrounding labels, images, and other elements.
 
-![Border Overview](images/border-overview.png "RadBorder Overview")
+![Telerik UI for .NET MAUI Border wrapping a text element with a thin cyan outline](images/border-overview.png "RadBorder Overview")
 
 ## Key Features of the .NET MAUI Border
 

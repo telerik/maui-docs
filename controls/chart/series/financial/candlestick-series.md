@@ -29,7 +29,7 @@ The following example shows how to create a basic `RadCartesianChart` with a Can
 
 The following image shows the end result:
 
-![Chart Candlestick](images/candlestick_series.png)
+![Telerik UI for .NET MAUI Cartesian Chart CandlestickSeries showing open, high, low, and close values by month](images/candlestick_series.png)
 
 ## See Also
 

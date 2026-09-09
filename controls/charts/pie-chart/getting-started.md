@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for [
 
 At the end, you will be able to achieve the following result.
 
-![.NET MAUI PieChart Default Look](images/charts-pie-getting-started.png)
+![Telerik UI for .NET MAUI PieChart default view showing a four-slice pie chart](images/charts-pie-getting-started.png)
 
 ## Prerequisites
 

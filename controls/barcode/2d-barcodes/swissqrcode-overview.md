@@ -14,7 +14,7 @@ The QR-bill makes issuing and paying invoices simpler, and is being introduced t
 
 The following image shows a Swiss QR-bill.
 
-![Swiss QR code](images/barcode-2d-swissqrcode-overview.png)
+![Telerik UI for .NET MAUI SwissQR Code on a Swiss QR-bill with payment details](images/barcode-2d-swissqrcode-overview.png)
 
 The SwissQR Code encodes all the information necessary for a payment in a specific format and structure. Along with the printed information, the SwissQR Code forms the payment part of the QR-bill. The allowed currencies for payments are CHF and EUR. The QR-Bill also guarantees you compliance with the regulatory requirements arising from the revised Anti-Money Laundering Ordinance.
 
@@ -80,7 +80,7 @@ if (string.IsNullOrEmpty(errors))
 
 Invoking the code from the above snippets will generate the following result:
 
-![Swiss Barcode](images/barcode-2d-swissqrcode-01.png)
+![Telerik UI for .NET MAUI Barcode displaying a generated SwissQR Code](images/barcode-2d-swissqrcode-01.png)
 
 ## See Also
 

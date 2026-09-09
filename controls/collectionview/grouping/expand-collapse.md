@@ -28,7 +28,7 @@ var dataView = this.collectionView.GetDataView();
 
 To expand all groups, use the `ExpandAll()` method and, to collapse all groups&mdash;`CollapseAll()` method.
 
-![.NET MAUI CollectionView Expand Collapse All Groups](../images/collectionview-groups-expand-collapse-all.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView with buttons to expand or collapse all groups and individual items](../images/collectionview-groups-expand-collapse-all.gif "Telerik .NET MAUI CollectionView")
 
 The following example demonstrates how these methods are used:
 
@@ -44,7 +44,7 @@ The following example demonstrates how these methods are used:
 
 You can retrieve the first-level groups through the `GetGroups()` method of the `IDataViewCollection` object and use `ExpandGroup()`/`CollapseGroup()` to make a certain group to expand or collapse respectively. You can check whether a group is expanded through the `GetIsExpanded()` method.
 
-![.NET MAUI CollectionView Expand Collapse Group](../images/collectionview-group-expand-collapse.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView showing group expand and collapse controls for country groups](../images/collectionview-group-expand-collapse.gif "Telerik .NET MAUI CollectionView")
 
 The following example demonstrates how these methods are used:
 

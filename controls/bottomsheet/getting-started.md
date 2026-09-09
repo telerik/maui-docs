@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![BottomSheet Getting Started](images/bottomsheet-getting-started.png)
+![Telerik UI for .NET MAUI BottomSheet with buttons to open and close a panel containing BottomSheet Content](images/bottomsheet-getting-started.png)
 
 ## Prerequisites
 

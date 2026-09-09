@@ -15,7 +15,7 @@ The Telerik UI for .NET MAUI Charts are feature-rich, intuitive, and easy-to-use
 
 The intuitive object model and public API allow complex charts to be set up either in XAML or in code-behind. The Chart is data-aware as the binding mechanism of the control is used to create the data points from the raw data. Chart types and series are organized in hierarchies, depending on the coordinate system, used to plot data points.
 
-![.NET MAUI Chart Overview](images/chart-overview.png)
+![Telerik UI for .NET MAUI Chart overview showing a filled area series with categorical labels](images/chart-overview.png)
 
 ## .NET MAUI Chart Video Tutorial
 

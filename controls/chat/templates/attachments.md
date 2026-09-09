@@ -26,7 +26,7 @@ To customize the appearance of the attachments in the messages, you can define a
 
 And the final result:
 
-![.NET MAUI Chat Attachments](../images/chat-attachments-custom-template.png)
+![Telerik UI for .NET MAUI Chat custom attachment template with Download and Share buttons for incoming and outgoing files](../images/chat-attachments-custom-template.png)
 
 ### Customize the Attachment Actions Template
 
@@ -38,7 +38,7 @@ Here is an example of how to create a custom actions template for the attachment
 
 And the final result:
 
-![.NET MAUI Chat Attachments](../images/chat-attachments-actions-custom-template.png)
+![Telerik UI for .NET MAUI Chat custom attachment actions template with teal Download and Share buttons](../images/chat-attachments-actions-custom-template.png)
 
 > For a runnable example with the Chat Attachments Template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Chat > Features** category.
 

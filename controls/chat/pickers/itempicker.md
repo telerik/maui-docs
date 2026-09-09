@@ -24,7 +24,7 @@ The following example shows how to use the `ItemPicker`
 	
 >caption Chat with `ItemPicker`
 
-![.NET MAUI Chat Message](images/chat-item-picker.png)
+![Telerik UI for .NET MAUI Chat ItemPicker message listing 2 days, 5 days, 7 days, and Another period](images/chat-item-picker.png)
 
 ## See Also
 

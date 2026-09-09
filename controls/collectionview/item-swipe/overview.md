@@ -16,7 +16,7 @@ This article explains how item swipe works, which properties control the behavio
 
 The following image shows swipe actions revealed on both sides of a CollectionView item:
 
-![.NET MAUI CollectionView Item Swipe](../images/collectionview-item-swipe.png)
+![Telerik UI for .NET MAUI CollectionView showing teal Like and red Delete actions revealed by swiping an item](../images/collectionview-item-swipe.png)
 
 ## How Does CollectionView Item Swipe Work
 

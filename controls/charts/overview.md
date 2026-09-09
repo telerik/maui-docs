@@ -12,7 +12,7 @@ slug: charts-overview
 
 The Telerik UI for .NET MAUI Charts provide a data-visualization solution built from two complementary chart controls. Each control targets a different plotting model and exposes its own series types, axes, and features, so that you can represent your data in the most suitable way.
 
-![.NET MAUI Charts Overview](images/charts-overview.png)
+![Telerik UI for .NET MAUI Charts overview showing bar, line, area, pie, and donut chart examples](images/charts-overview.png)
 
 ## Charts
 

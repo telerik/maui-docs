@@ -48,7 +48,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on WinUI:
 
-![.NET MAUI Button Styling](images/button-styling.gif)
+![Telerik UI for .NET MAUI Button showing different implicit and explicit styles](images/button-styling.gif)
 
 > For a runnable example demonstrating the Button Styling, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Button > Features** category.
 

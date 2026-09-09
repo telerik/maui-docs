@@ -29,7 +29,7 @@ The following example demonstrates how to use the `BorderColor` and `BorderThick
 
 The following image shows the end result.
 
-![Border Styling](images/border-styling.png)
+![Telerik UI for .NET MAUI Border styling example with platform icons and colored outlines around message content](images/border-styling.png)
 
 ## See Also
 

@@ -33,7 +33,7 @@ And the needed converter for the images inside the attachments icon in the input
 
 This is the result:
 
-![.NET MAUI Chat Attachments Styling](../images/chat-attachedfiles-input-area-styling.png)
+![Telerik UI for .NET MAUI Chat input area with a styled attached navigation image file chip and blue send button](../images/chat-attachedfiles-input-area-styling.png)
 
 > For a runnable example with Styling the Chat Attachments in the Input Area, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Chat > Features** category.
 
@@ -70,7 +70,7 @@ Use the properties listed for the `ChatAttachmentsMessageView` for the customiza
 
 This is the result:
 
-![.NET MAUI Chat Attachments Styling](../images/chat-attachedfiles-messages.png)
+![Telerik UI for .NET MAUI Chat with styled incoming and outgoing attachment messages and Download All actions](../images/chat-attachedfiles-messages.png)
 
 > For a runnable example with Styling the Chat Attachments in the Messages, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Chat > Features** category.
 

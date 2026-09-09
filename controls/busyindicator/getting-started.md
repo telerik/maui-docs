@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![BusyIndicator Getting Started](images/busyindicator-getting-started.png)
+![Telerik UI for .NET MAUI BusyIndicator showing its default green spinning-balls animation](images/busyindicator-getting-started.png)
 
 ## Prerequisites
 

@@ -32,7 +32,7 @@ The following XAML shows how to apply an image as part of the button content by 
 
 This is the end result:
 
-![.NET MAUI Button Content Alignment](images/button-images.png)
+![Telerik UI for .NET MAUI Button examples using BackgroundImage and ImageSource with button text](images/button-images.png)
 
 > For a runnable example with the Button Images scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Features**.
 
@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![.NET MAUI Button Content Alignment](images/button-content-alignment.png)
+![Telerik UI for .NET MAUI Button content aligned with recipe category images, text, and selection indicators](images/button-content-alignment.png)
 
 > For a runnable example with the Button Content Alignment scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Features**.
 

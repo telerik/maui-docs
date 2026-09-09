@@ -36,7 +36,7 @@ The following example shows how to create a `RadCartesianChart` with a ScatterSp
 
 The following image shows the end result:
 
-![Basic ScatterSplineSeries](images/cartesian-scatter-spline-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart ScatterSplineSeries with curved lines connecting numerical points](images/cartesian-scatter-spline-series-basic-example.png)
 
 ## Customization Example
 

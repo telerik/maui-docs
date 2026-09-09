@@ -42,7 +42,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI CartesianChart Multiple Series](images/charts-cartesian-multiple-series.png)
+![Telerik UI for .NET MAUI CartesianChart combining red bars and a yellow line across quarterly categories](images/charts-cartesian-multiple-series.png)
 
 > For a runnable example with the CartesianChart Multiple Series scenario, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Features** category.
 
@@ -72,7 +72,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI CartesianChart Explicit Axes](images/charts-cartesian-explicit-axes.png)
+![Telerik UI for .NET MAUI CartesianChart combining red bars and a yellow line with separate vertical axes](images/charts-cartesian-explicit-axes.png)
 
 ## See Also
 

@@ -43,7 +43,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView LoadOnDemand event with manual loading mode](../images/load-on-demand-manual-mode.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView manually loading additional Person items through the LoadOnDemand event](../images/load-on-demand-manual-mode.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView LoadOnDemand Event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
 

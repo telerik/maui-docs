@@ -31,7 +31,7 @@ The following example demonstrates how to apply custom styles to the header labe
 
 <snippet id='calendar-headerlabel-style'/>
 
-![.NET MAUI Calendar Header Style](images/calendar-header-styling.png)
+![Telerik UI for .NET MAUI Calendar with a custom lavender header background and italic August 2023 label](images/calendar-header-styling.png)
 
 > For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 
@@ -54,7 +54,7 @@ The following example demonstrates how to apply custom styles to the navigation 
 
 **3.** Add the `NavigateToNextViewButtonStyle` style:
 
-![.NET MAUI Calendar Navigation Buttons Style](images/calendar-headerbuttons-styling.png)
+![Telerik UI for .NET MAUI Calendar with orange circular previous and next navigation buttons](images/calendar-headerbuttons-styling.png)
 
 > For a runnable example that demonstrates how to style the Calendar header buttons, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Styling**.
 

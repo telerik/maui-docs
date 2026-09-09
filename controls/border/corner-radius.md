@@ -19,7 +19,7 @@ The `CornerRadius` property represents the degree to which the corners of the Bo
 
 The following image shows the result from that implementation.
 
-![Border CornerRadius](images/border_corner_radius.png)
+![Telerik UI for .NET MAUI Border with rounded top-left and bottom-right corners around message content](images/border_corner_radius.png)
 
 Additionally, the wrapped content will be clipped according to the specified corner radius of each side. 
 
@@ -27,13 +27,13 @@ The example below demonstrates how to render a circle image by wrapping an Image
 
 Let's use the following Image:
 
-![Border Clip Sample image](images/person_01.png)
+![Portrait photo used as the image content inside a Telerik UI for .NET MAUI Border](images/person_01.png)
 
 <snippet id='border-corner-radius-clipped' />
 
 Here is the result:
 
-![Border Circular Image](images/border_corner_radius_clipped.png)
+![Telerik UI for .NET MAUI Border clipping a portrait image into a circular shape](images/border_corner_radius_clipped.png)
 
 ## See Also
 

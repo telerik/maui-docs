@@ -12,7 +12,7 @@ slug: axes-overview
 
 The Cartesian Chart plots data points in a coordinate system defined by its two axes. Instead of having one axis type that tries to represent various types of information, the two axes provide a hierarchy where each concrete axis type exposes a specific functionality.
 
-![Axes Class Diagram](images/axes-class-diagram.png)
+![Telerik UI for .NET MAUI Chart axis class hierarchy showing Axis, CartesianAxis, CategoricalAxis, NumericalAxis, and DateTimeContinuousAxis](images/axes-class-diagram.png)
 
 The predefined axis types are:
 

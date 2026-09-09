@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![Barcode Getting Started](images/barcode_getting_started.png)
+![Telerik UI for .NET MAUI Barcode showing a generated QR Code](images/barcode_getting_started.png)
 
 ## Prerequisites
 

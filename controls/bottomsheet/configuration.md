@@ -24,7 +24,7 @@ The control includes four built-in states with predefined heights:
 * `Partial`&mdash;Represents a partial bottom sheet state with height `50%`.
 * `Full`&mdash;Represents a full bottom sheet state with height `90%`.
 
-![.NET MAUI BottomSheet States](images/bottomsheet-states.png "BottomSheet States")
+![Telerik UI for .NET MAUI BottomSheet showing Hidden, Minimal, Partial, and Full states with different panel heights](images/bottomsheet-states.png "BottomSheet States")
 
 ### Setting States
 
@@ -116,7 +116,7 @@ bottomSheet.BottomSheetContentWidth = new BottomSheetLength(300, false);
 
 Here is an example setting the width of the `BottomSheetContent` to 400 (absolute value) and 50%:
 
-![.NET MAUI BottomSheet width](images/bottomsheet-width.gif)
+![Telerik UI for .NET MAUI BottomSheet changing content width between an absolute 400 pixels and 50 percent](images/bottomsheet-width.gif)
 
 > For a runnable example with setting the BottomSheet Width, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Features** category.
 

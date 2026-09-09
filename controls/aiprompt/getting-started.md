@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI AIPrompt Getting Started](images/aiprompt-getting-started.png)
+![Telerik UI for .NET MAUI AIPrompt with Ask AI, prompt input, and Generate controls on Windows, macOS, Android, and iOS](images/aiprompt-getting-started.png)
 
 ## Prerequisites
 

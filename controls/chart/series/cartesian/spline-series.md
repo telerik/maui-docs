@@ -36,7 +36,7 @@ The following example shows how to create a `RadCartesianChart` with a Spline Se
 
 The following image shows the end result:
 
-![Basic SplineSeries](images/cartesian-spline-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart SplineSeries with a smooth blue curve across categories A through E](images/cartesian-spline-series-basic-example.png)
 
 ## Customization Example
 
@@ -50,7 +50,7 @@ var series = new SplineSeries
 };
 ```
 
-![Customized SplineSeries](images/cartesian-spline-series-customization-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart customized SplineSeries with a thick purple curve](images/cartesian-spline-series-customization-example.png)
 
 ## See Also
 

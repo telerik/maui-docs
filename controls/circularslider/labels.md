@@ -27,7 +27,7 @@ Check an example on how you can configure labels:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Labels](images/circularslider-labels-settings.png)
+![Telerik UI for .NET MAUI CircularSlider with numeric labels from 0 to 100 positioned around the arc](images/circularslider-labels-settings.png)
 
 > For a runnable example demonstrating the CircularSlider labels settings, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Labels** category.
 
@@ -43,7 +43,7 @@ When the CircularSlider forms a full circle, the first (minimum) and last (maxim
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Full Circle Label Display Mode](images/circularslider-full-circle-label-display-mode.gif)
+![Telerik UI for .NET MAUI CircularSlider full circle with ShowLast selected for the overlapping endpoint label](images/circularslider-full-circle-label-display-mode.gif)
 
 > For a runnable example demonstrating the CircularSlider full circle label display mode, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Labels** category.
 
@@ -72,7 +72,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Labels StringConverter](images/circularslider-labels-stringconverter.png)
+![Telerik UI for .NET MAUI CircularSlider with string-converted labels such as Low, Mid-Low, Mid, Mid-High, and High](images/circularslider-labels-stringconverter.png)
 
 > For a runnable example demonstrating the CircularSlider labels string converter, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Labels** category.
 
@@ -94,7 +94,7 @@ Check below a sample `LabelTemplate` example:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Label Template](images/circularslider-labels-template.png)
+![Telerik UI for .NET MAUI CircularSlider with a custom label template displaying values from negative 100 to 100](images/circularslider-labels-template.png)
 
 > For a runnable example demonstrating the CircularSlider labels template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Labels** category.
 

@@ -55,7 +55,7 @@ The following example shows how to create a basic `RadCartesianChart` with an OH
 
 The following image shows the end result:
 
-![Chart Financial Indicators](images/indicators_series.png)
+![Telerik UI for .NET MAUI financial chart with OHLC values and moving-average indicator lines](images/indicators_series.png)
 
 ## See Also
 

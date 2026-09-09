@@ -22,7 +22,7 @@ The following example demonstrates how to define a Calendar and format the heade
 
 <snippet id='calendar-headertext-formatting'/>
 
-![.NET MAUI Calendar Header Text Formatting](images/calendar-formmating-header.gif)
+![Telerik UI for .NET MAUI Calendar with a custom header format displaying 23 June](images/calendar-formmating-header.gif)
 
 ## See Also
 

@@ -45,7 +45,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result of styling the BottomSheet and `BottomSheetContent`. The `BottomSheetContent` opens when tapping on an item from the CollectionView:
 
-![.NET MAUI BottomSheet Styling](images/bottomsheet-styling.png)
+![Telerik UI for .NET MAUI BottomSheet with styled content, employee details, and a green handle](images/bottomsheet-styling.png)
 
 > For a runnable example with the BottomSheet Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 
@@ -81,7 +81,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result of styling the handle. The BottomSheet content opens when tapping on an item from the CollectionView:
 
-![.NET MAUI BottomSheet Styling](images/bottomsheet-handle-styling.png)
+![Telerik UI for .NET MAUI BottomSheet with a styled teal handle and white content panel](images/bottomsheet-handle-styling.png)
 
 > For a runnable example with the BottomSheet Handle Style scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BottomSheet > Styling** category.
 

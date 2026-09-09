@@ -62,7 +62,7 @@ The following example shows how to format the axis labels on the Categorical Axi
 
 The following image shows the end result.
 
-![CategoricalAxis](images/axes-categorical-axis-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a categorical axis and vertical bars](images/axes-categorical-axis-example.png)
 
 ## See Also
 

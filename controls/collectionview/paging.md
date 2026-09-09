@@ -11,7 +11,7 @@ slug: collectionview-paging
 
 You can page the data of the Telerik UI for .NET MAUI CollectionView by using the [DataPager]({%slug datapager-overview%}) control.
 
-![.NET MAUI CollectionView Paging support](../datapager/images/datapager-collectionview-paging.png)
+![Telerik UI for .NET MAUI CollectionView integrated with DataPager showing paged Information items and page navigation controls](../datapager/images/datapager-collectionview-paging.png)
 
 >Currently, the DataPager does not support the CollectionView `LoadOnDemand` collection.
 

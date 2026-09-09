@@ -14,7 +14,7 @@ The visual structure of the .NET MAUI CartesianChart represents the anatomy of t
 
 The following image shows the anatomy of the CartesianChart.
 
-![CartesianChart Visual Structure](images/cartesian-chart-visual-structure.png)
+![Telerik UI for .NET MAUI CartesianChart visual structure labeling the plot area, axes, ticks, grid lines, bar series, and series labels](images/cartesian-chart-visual-structure.png)
 
 ## Displayed Elements
 

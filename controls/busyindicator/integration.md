@@ -36,7 +36,7 @@ The example below demonstrates a sample integration of the BusyIndicator with th
 
 The gif below shows the result.
 
-![Telerik UI for .NET MAUI BusyIndicator Integration](images/busyindicator-integration.gif)
+![Telerik UI for .NET MAUI BusyIndicator integrated with a CollectionView while data loads from a Load Data button](images/busyindicator-integration.gif)
 
 ## See Also
 

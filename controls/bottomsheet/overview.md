@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI BottomSheet is a UI component that slides up from t
 
 The control presents the information or actions related to the current screen but it does not cover the full screen.
 
-![.NET MAUI BottomSheet Overview](images/bottomsheet-overview.png "BottomSheet Overview")
+![Telerik UI for .NET MAUI BottomSheet displaying an Employee Locator detail panel over an employee list](images/bottomsheet-overview.png "BottomSheet Overview")
 
 ## Key Features of the Telerik .NET MAUI BottomSheet
 

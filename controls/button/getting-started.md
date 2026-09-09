@@ -17,7 +17,7 @@ This guide provides the information you need to start using the Telerik UI for [
 
 This is the default look of the `RadButton` control:
 
-![.NET MAUI Button Default Look](images/button-default-look.png)
+![Telerik UI for .NET MAUI Button default Click me appearance on Apple, Windows, iOS, and Android platforms](images/button-default-look.png)
 
 ## Prerequisites
 

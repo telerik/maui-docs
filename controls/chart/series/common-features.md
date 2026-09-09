@@ -104,7 +104,7 @@ public class ViewModel
 
 The following image shows the end result:
 
-![Chart Series Labels](images/chart-series-labels.png)
+![Telerik UI for .NET MAUI line chart displaying numeric labels at each data point](images/chart-series-labels.png)
 
 >tip For detailed information about the supported numeric formats, refer to the [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) article.
 

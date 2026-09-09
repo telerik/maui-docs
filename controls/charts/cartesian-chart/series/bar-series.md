@@ -63,7 +63,7 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 This is the result:
 
-![.NET MAUI Cartesian Chart BarSeries](../images/charts-cartesian-bar-series.png)
+![Telerik UI for .NET MAUI CartesianChart BarSeries with red bars for monthly categories](../images/charts-cartesian-bar-series.png)
 
 > For a runnable example with the Cartesian Chart bar series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
 

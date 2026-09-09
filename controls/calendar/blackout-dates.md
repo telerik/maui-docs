@@ -23,7 +23,7 @@ The following snippets show how to disable dates in the Calendar control.
 
 <snippet id='calendar-blackoutdates-viewmodel'/>
 
-![.NET MAUI Calendar Blackout Dates](images/calendar-blackout-dates.png)
+![Telerik UI for .NET MAUI Calendar with blackout dates disabled and lock indicators shown on unavailable days](images/calendar-blackout-dates.png)
 
 > For the complete example with the Calendar Blackout dates, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **Calendar > Features** category.
 

@@ -26,7 +26,7 @@ The following example demonstrates how to modify the editor and the input button
 
 Here is how the customized Input View looks:
 
-![Telerik .NET MAUI AIPrompt Input View Styling](images/aiprompt-input-styling.png)
+![Telerik UI for .NET MAUI AIPrompt Input View with a styled prompt editor and Send request button](images/aiprompt-input-styling.png)
 
 ## See Also
 

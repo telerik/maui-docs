@@ -98,7 +98,7 @@ public class ViewModel
 
 The following image shows how the TrackBall looks:
 
-![Chart Track Ball Behavior](images/chart-behaviors-trackball.png)
+![Telerik UI for .NET MAUI line chart showing a trackball intersection with values for two series](images/chart-behaviors-trackball.png)
 
 # See Also
 

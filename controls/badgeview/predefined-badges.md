@@ -12,7 +12,7 @@ slug: badgeview-predefined-badges
 
 The `BadgeView` supports a set of Badge indicator types.  
 
-![Badge Types](images/badgeview-badge-types.png)
+![Telerik UI for .NET MAUI BadgeView predefined badge types displayed on avatar images, including Available, Add, Remove, and Away](images/badgeview-badge-types.png)
 
 To change and specify the Badge type, use the `BadgeType`(of type `Telerik.Maui.Controls.BadgeView.BadgeType`) property, which exposes the following options:
 
@@ -41,7 +41,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Badge Types](images/badgeview-badge-types-example.png)
+![Telerik UI for .NET MAUI BadgeView predefined badge types displayed on person icons, including Default, Available, Away, DoNotDisturb, and Offline](images/badgeview-badge-types-example.png)
 
 > For a runnable example with the Badge Types scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView -> Features category**.
 

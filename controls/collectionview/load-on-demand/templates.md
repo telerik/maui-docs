@@ -43,7 +43,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView LoadOnDemand custom template for automatic loading mode](../images/load-on-demand-automatic-template.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView automatic load-on-demand template showing a Loading more items indicator after Person 29](../images/load-on-demand-automatic-template.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView LoadOnDemand Automatic Template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
 
@@ -75,7 +75,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView LoadOnDemand custom template for manual loading mode](../images/load-on-demand-manual-templatre.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView manual load-on-demand template showing Person items and a Load more button](../images/load-on-demand-manual-templatre.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView LoadOnDemand Manual Template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Load On Demand** category.
 

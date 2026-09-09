@@ -44,7 +44,7 @@ The example below demonstrates some of the styling capabilities of the AutoCompl
 
 Here is how the AutoComplete looks when styling is applied:
 
-![.NET MAUI AutoComplete Styling](images/autocomplete-styling.png)
+![Telerik UI for .NET MAUI AutoComplete styled suggestion list with purple item icons and highlighted results](images/autocomplete-styling.png)
 
 >tip For a runnable example demonstrating the AutoComplete's Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **AutoComplete > Styling** category.
 

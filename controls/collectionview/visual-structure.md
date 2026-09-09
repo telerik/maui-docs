@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI CollectionView represents the anatomy of t
 
 The following image shows the anatomy of the CollectionView.
 
-![.NET MAUI CollectionView Visual Structure](images/collectionview-visual-structure.png "Visual elements of CollectionView control")
+![Telerik UI for .NET MAUI CollectionView visual structure labeling the item, selection, group with items, group view, group header, and expand or collapse indicator](images/collectionview-visual-structure.png "Visual elements of CollectionView control")
 
 ## Displayed Elements
 
