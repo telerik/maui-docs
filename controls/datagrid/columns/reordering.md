@@ -41,17 +41,20 @@ The DataGrid exposes the following events related to the reordering operation:
         - `NewIsFrozen` (`bool`)&mdash;Gets the new potential `Telerik.Maui.Controls.DataGrid.DataGridColumn.IsFrozen` value of the column that is being reordered.
         - `CanDrop` (`bool`)&mdash;Defines a value indicating whether dropping the column at this specific location is allowed. The default value is `true`.
 
-    For example, you can restrict reordering so columns cannot be dropped into the first index (position `0`):
+To restrict dropping a column at a specific position (such as index `0`) while reordering operation executes, set the `CanDrop` property to `false`. Here is an example:
 
-    ```csharp
-    private void OnColumnReordering(object sender, ColumnReorderingEventArgs e)
+```csharp
+
+this.dataGrid.ColumnReordering += OnColumnReordering;
+
+private void OnColumnReordering(object sender, ColumnReorderingEventArgs e)
+{
+    if (e.NewIndex == 0)
     {
-        if (e.NewIndex == 0)
-        {
-            e.CanDrop = false;
-        }
+        e.CanDrop = false;
     }
-    ```
+}
+```
 
 * `ColumnReorderCompleting`&mdash;Raised when the user drops the column. This doesn't mean the column is reordered. The `ColumnReorderCompleting` event handler receives the following parameters:
     - A `sender` argument, which is of type `object`, but can be cast to the `RadDataGrid` type.
