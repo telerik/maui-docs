@@ -22,7 +22,7 @@ The CollectionView provides three selection modes, which allow you to manipulate
 
 The following images show multiple selection on desktop:
 
-![.NET MAUI CollectionView Multiple Selection](images/collectionview-multiple-selection-desktop.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView showing multiple selected cities across desktop and mobile platform layouts](images/collectionview-multiple-selection-desktop.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView Multiple Selection and Disabled Selection, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Selection** category.
 
@@ -91,7 +91,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on mobile:
 
-![.NET MAUI CollectionView Multiple Selection](images/collectionview-multiple-selection-mobile.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView mobile layouts with London selected in Multiple selection mode](images/collectionview-multiple-selection-mobile.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView `SelectedItems`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Selection** category.
 

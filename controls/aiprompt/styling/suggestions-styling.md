@@ -26,7 +26,7 @@ The following example demonstrates how to modify the suggestions' appearance:
 
 Here is the result after applying the `SuggestionStyle`:
 
-![Telerik .NET MAUI AIPrompt Suggestions Styling](images/aiprompt-suggestions-styling.png)
+![Telerik UI for .NET MAUI AIPrompt Input View with styled prompt suggestions in teal](images/aiprompt-suggestions-styling.png)
 
 ## See Also
 

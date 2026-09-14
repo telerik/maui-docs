@@ -26,11 +26,11 @@ collectionView.EnableStickyGroupHeaders = true;
 
 Here is how the sticky group headers look in a single-level grouping scenario:
 
-![.NET MAUI CollectionView Sticky Group Headers](../images/collectionview-sticky-group-header.gif)
+![Telerik UI for .NET MAUI CollectionView with a sticky country group header while scrolling through cities](../images/collectionview-sticky-group-header.gif)
 
 Here is how the sticky group headers look in multi-level grouping scenario:
 
-![.NET MAUI CollectionView Sticky Group Headers Multi-Level Grouping](../images/collectionview-sticky-group-multi-level.gif)
+![Telerik UI for .NET MAUI CollectionView with sticky headers in a multi-level continent and country grouping](../images/collectionview-sticky-group-multi-level.gif)
 
 ## See Also
 

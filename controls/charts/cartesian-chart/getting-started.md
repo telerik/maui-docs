@@ -14,7 +14,7 @@ This guide provides the information you need to start using the Telerik UI for [
 
 At the end, you will be able to achieve the following result.
 
-![.NET MAUI CartesianChart Default Look](images/charts-cartesian-getting-started.png)
+![Telerik UI for .NET MAUI CartesianChart default view with red bar series from January to June](images/charts-cartesian-getting-started.png)
 
 ## Prerequisites
 

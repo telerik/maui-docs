@@ -37,7 +37,7 @@ The following example shows how to create a `RadCartesianChart` with a SplineAre
 
 The following image shows the end result:
 
-![Basic SplineAreaSeries](images/cartesian-spline-area-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart SplineAreaSeries with a smooth light blue filled curve](images/cartesian-spline-area-series-basic-example.png)
 
 ## Customization Example
 
@@ -52,7 +52,7 @@ var series = new SplineAreaSeries
 };
 ```
 
-![Customized SplineAreaSeries](images/cartesian-spline-area-series-customization-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart customized SplineAreaSeries with a thick purple stroke and light purple fill](images/cartesian-spline-area-series-customization-example.png)
 
 ## See Also
 

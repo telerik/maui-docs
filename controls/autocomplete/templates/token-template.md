@@ -35,7 +35,7 @@ and the code for `Label.GestureRecognizer` property:
 
 Here is the result:
 
-![.NET MAUI AutoComplete TokenTemplate Example](../images/autocomplete-token-template.png "AutoComplete TokenTemplate Example")
+![Telerik UI for .NET MAUI AutoComplete custom TokenTemplate showing Tokyo and Paris tokens with outlined close buttons](../images/autocomplete-token-template.png "AutoComplete TokenTemplate Example")
 
 >important For AutoComplete Tokens Template example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

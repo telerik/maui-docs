@@ -17,7 +17,7 @@ Data Matrix code consists of dark and light square cells that form a matrix. The
 
 **A Data Matrix Barcode**
 
-![Barcode DataMatrix](images/barcode-datamatrix-structure.png)
+![Telerik UI for .NET MAUI Data Matrix barcode visual structure showing the finder pattern, module size, timing pattern, and data area](images/barcode-datamatrix-structure.png)
 
 * Finder pattern&mdash;The L-shaped lines at the bottom and left of the code are called "finder pattern". It's used by the readers for orientation, customization, and correcting distortion.
 
@@ -80,7 +80,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 Here is the result:
 
-![Barcode DataMatrix](images/barcode-datamatrix-example.png)
+![Telerik UI for .NET MAUI Barcode displaying a generated Data Matrix symbol](images/barcode-datamatrix-example.png)
 
 ## See Also
 

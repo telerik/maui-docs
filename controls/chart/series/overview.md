@@ -18,7 +18,7 @@ Specific series types are available for specific charts. For example, a set of C
 
 The following image shows the hierarchy of all series:
 
-![Chart Series Class Diagram](images/chart-series-class-diagram.png)
+![Telerik UI for .NET MAUI Chart series class hierarchy showing pie, Cartesian, scatter, categorical, area, line, spline, and bar series](images/chart-series-class-diagram.png)
 
 ## Cartesian Chart Series
 

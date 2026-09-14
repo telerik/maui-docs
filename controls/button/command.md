@@ -44,7 +44,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the result on WinUI:
 
-![.NET MAUI Button Command](images/button-command.gif "Button for .NET MAUI")
+![Telerik UI for .NET MAUI Button displaying Click me and responding to command activation](images/button-command.gif "Button for .NET MAUI")
 
 ## Triggering the Same Action from a Key Press
 

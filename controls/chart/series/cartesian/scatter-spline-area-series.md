@@ -39,7 +39,7 @@ The following example shows how to create a `RadCartesianChart` with a ScatterSp
 
 The following image shows the end result:
 
-![Basic ScatterSplineAreaSeries](images/cartesian-scatter-spline-area-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart ScatterSplineAreaSeries with curved boundaries and a light blue fill](images/cartesian-scatter-spline-area-series-basic-example.png)
 
 ## Customization Example
 

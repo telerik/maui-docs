@@ -13,7 +13,7 @@ The CheckBox enables you to define its state as `Checked`, `Unchecked`, or `Inde
 
 The following image shows the states of the CheckBox control:
 
-![CheckBox States](images/checkbox-states.png)
+![Telerik UI for .NET MAUI CheckBox showing Checked, Unchecked, and Indeterminate states](images/checkbox-states.png)
 
 The state is controlled through the `IsChecked`(`bool?`) property. You can set all states either through the UI or programmatically. The `Indeterminate` state can be applied through the UI only for three-state checkboxes. `IsChecked` property binding mode is `TwoWay`.
 
@@ -90,7 +90,7 @@ Here is an example with the `CheckBox.Command`
 
 Here is the result:
 
-![CheckBox Command](images/checkbox-command.gif)
+![Telerik UI for .NET MAUI CheckBox command example with a selected Select this option checkbox](images/checkbox-command.gif)
 
 ## See Also
 

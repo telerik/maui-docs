@@ -37,7 +37,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on Android:
 
-![.NET MAUI BottomSheet Content](images/bottomsheet-content.png)
+![Telerik UI for .NET MAUI BottomSheet showing an employee list with a selected employee detail panel](images/bottomsheet-content.png)
 
 > For a runnable example with the BottomSheet Content scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and review all **BottomSheet** example.
 

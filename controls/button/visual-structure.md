@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI Button represents the anatomy of the UI co
 
 The following image shows the anatomy of the Button.
 
-![Button Visual Structure](images/button-visual-structure.png)
+![Telerik UI for .NET MAUI Button visual structure labeling the Text and Button elements](images/button-visual-structure.png)
 
 ## Displayed Elements
 

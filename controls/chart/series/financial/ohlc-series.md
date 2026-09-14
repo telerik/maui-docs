@@ -29,7 +29,7 @@ The following example shows how to create a basic `RadCartesianChart` with an OH
 
 The following image shows the end result:
 
-![Chart OhlcSeries](images/ohlc_series.png)
+![Telerik UI for .NET MAUI Cartesian Chart OHLCSeries showing open and close markers with high-low lines](images/ohlc_series.png)
 
 ## See Also
 

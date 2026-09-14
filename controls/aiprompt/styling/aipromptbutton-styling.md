@@ -23,7 +23,7 @@ The following example demonstrates how to modify the AIPrompt Button's appearanc
 
 Check the result below:
 
-![Telerik .NET MAUI AIPrompt Button Styling](images/aiprompt-aipromptbutton-styling.png)
+![Telerik UI for .NET MAUI AIPrompt Button styled as a light blue Ask AI button](images/aiprompt-aipromptbutton-styling.png)
 
 ## See Also
 

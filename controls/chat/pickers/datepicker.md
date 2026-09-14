@@ -23,7 +23,7 @@ Here is a quick example on how to use DatePicker:
 	
 >caption Chat with DatePicker
 
-![.NET MAUI Chat Message](images/chat-date-picker.png)
+![Telerik UI for .NET MAUI Chat DatePicker message showing a February 2019 calendar and Select a date button](images/chat-date-picker.png)
 
 ## See Also
 

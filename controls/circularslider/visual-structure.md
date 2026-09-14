@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI CircularSlider represents the anatomy of t
 
 The following image shows the anatomy of the CircularSlider.
 
-![.NET MAUI CircularSlider Visual Structure](images/circularslider-visual-structure.png "Visual elements of CircularSlider control")
+![Telerik UI for .NET MAUI CircularSlider visual structure labeling the tooltip, thumb, range track, backtrack, labels, and ticks](images/circularslider-visual-structure.png "Visual elements of CircularSlider control")
 
 ## Displayed Elements
 

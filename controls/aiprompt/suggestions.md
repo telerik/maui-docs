@@ -36,7 +36,7 @@ Check a quick example on how to apply suggestions to the AIPrompt:
 
 Here is the result on Windows:
 
-![Telerik UI for .NET MAUI AIPrompt Suggestions](images/aiprompt-suggestions.png)
+![Telerik UI for .NET MAUI AIPrompt Input View with prompt suggestions](images/aiprompt-suggestions.png)
 
 ## See Also
 

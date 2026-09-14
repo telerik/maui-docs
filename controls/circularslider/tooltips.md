@@ -37,7 +37,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Tooltip](images/circularslider-tooltips-template.png)
+![Telerik UI for .NET MAUI CircularSlider with a custom teal tooltip displaying 21 percent](images/circularslider-tooltips-template.png)
 
 > For a runnable example demonstrating the CircularSlider tooltip content template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Tooltips** category.
 
@@ -49,7 +49,7 @@ Here is a quick example with setting the `TooltipControlTemplate` property:
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Tooltip](images/circularslider-tooltips-controltemplate.png)
+![Telerik UI for .NET MAUI CircularSlider with a custom purple tooltip displaying the value 22.14](images/circularslider-tooltips-controltemplate.png)
 
 > For a runnable example demonstrating the CircularSlider tooltip control template, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Tooltips** category.
 

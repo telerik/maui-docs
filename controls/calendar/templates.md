@@ -24,7 +24,7 @@ Here is a sample day template definition for customizing the days in the `MonthV
 
 <snippet id='calendar-templates-daytemplate-definition'/>
 
-![.NET MAUI Calendar Day Template](images/calendar-day-template.png)
+![Telerik UI for .NET MAUI Calendar custom DayTemplate displaying underlined date cells](images/calendar-day-template.png)
 
 ## Month Template
 
@@ -34,7 +34,7 @@ Here is a sample month template definition for customizing the months in the `Ye
 
 <snippet id='calendar-templates-monthtemplate-definition'/>
 
-![.NET MAUI Calendar Month Template](images/calendar-month-template.png)
+![Telerik UI for .NET MAUI Calendar custom MonthTemplate displaying rounded month cells](images/calendar-month-template.png)
 
 ## Year Template
 
@@ -44,7 +44,7 @@ Here is a sample year template definition for customizing the years in the `Deca
 
 <snippet id='calendar-templates-yeartemplate-definition'/>
 
-![.NET MAUI Calendar Year Template](images/calendar-year-template.png)
+![Telerik UI for .NET MAUI Calendar custom YearTemplate displaying purple year buttons](images/calendar-year-template.png)
 
 ## Decade Template
 
@@ -54,7 +54,7 @@ Here is a sample decade template definition for customizing the decades in the `
 
 <snippet id='calendar-templates-decadetemplate-definition'/>
 
-![.NET MAUI Calendar Decade Template](images/calendar-decade-template.png)
+![Telerik UI for .NET MAUI Calendar custom DecadeTemplate displaying decade ranges inside star-shaped cells](images/calendar-decade-template.png)
 
 ## Template Selectors
 
@@ -72,7 +72,7 @@ And the Template Selector logic:
 
 <snippet id='calendar-templates-custom-templateselector'/>
 
-![.NET MAUI Calendar Template Selector](images/calendar-template-selector.png)
+![Telerik UI for .NET MAUI Calendar Template Selector applying custom colors, underlines, and lock icons to day cells](images/calendar-template-selector.png)
 
 >important For the Calendar Templates examples refer to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) Calendar -> Templates category.
 

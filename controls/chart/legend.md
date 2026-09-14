@@ -22,7 +22,7 @@ The Legend feature of the `RadChart` provide description about the series which 
 
 The following image shows the `RadLegend` in combination with the Pie Chart.
 
-![Pie Chart legend](images/piechart-legend.png)
+![Telerik UI for .NET MAUI Pie Chart with a vertical legend listing series A through E](images/piechart-legend.png)
 
 ## Properties
 
@@ -50,7 +50,7 @@ The following example demonstrates how to define some of the most important Char
 
 The following image shows the `RadLegend` control in combination with a Cartesian Chart.
 
-![Cartesian Chart legend](images/cartesianchart-legend.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a vertical legend for Data1, Data2, and Data3 line series](images/cartesianchart-legend.png)
 
 ## Legend Title Binding
 

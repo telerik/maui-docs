@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI Border represents the anatomy of the UI co
 
 The following image shows the anatomy of the Border.
 
-![Border Visual Structure](images/border-visual-structure.png)
+![Telerik UI for .NET MAUI Border visual structure labeling the Border and Content elements around a portrait and messages](images/border-visual-structure.png)
 
 ## Displayed Elements
 

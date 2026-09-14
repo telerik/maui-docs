@@ -47,7 +47,7 @@ The following example shows how to create a `RadCartesianChart` with an `AreaSer
 
 The following image shows the result:
 
-![Area Series with the shaded region below the line in a .NET MAUI Cartesian Chart](images/cartesian-area-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart AreaSeries with a light blue region shaded below the line](images/cartesian-area-series-basic-example.png)
 
 ## Customization Example
 
@@ -64,7 +64,7 @@ var series = new AreaSeries
 
 The following image shows a customized area series with a thicker line and a light fill:
 
-![Customized Area Series with a thicker stroke and light fill in a .NET MAUI Cartesian Chart](images/cartesian-area-series-customization-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart customized AreaSeries with a thicker purple stroke and light purple fill](images/cartesian-area-series-customization-example.png)
 
 ## See Also
 

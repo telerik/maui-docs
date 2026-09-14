@@ -31,11 +31,11 @@ The following example shows how to add a header and a footer to the CollectionVi
 
 The following image shows how the CollectionView header looks.
 
-![.NET MAUI CollectionView Header Template](images/collectionview-header-template.png)
+![Telerik UI for .NET MAUI CollectionView with a HeaderTemplate showing Selected city: Copenhagen above the items](images/collectionview-header-template.png)
 
 The following image shows how the CollectionView footer looks.
 
-![.NET MAUI CollectionView Footer Template](images/collectionview-footer-template.png)
+![Telerik UI for .NET MAUI CollectionView with a FooterTemplate showing Total cities: 65 below the items](images/collectionview-footer-template.png)
 
 ## See Also
 

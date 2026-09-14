@@ -14,7 +14,7 @@ The visual structure of the .NET MAUI PieChart represents the anatomy of the con
 
 The following image shows the anatomy of the PieChart.
 
-![PieChart Visual Structure](images/pie-chart-visual-structure.png)
+![Telerik UI for .NET MAUI PieChart visual structure labeling Pie Series, Donut Series, Inner Radius, and Series Labels](images/pie-chart-visual-structure.png)
 
 ## Displayed Elements
 

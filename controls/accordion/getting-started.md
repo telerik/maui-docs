@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will be able to achieve the following result.
 
-![Accordion Getting Started](images/accordion-getting-started.png)
+![Telerik UI for .NET MAUI Accordion with Attachments, Comments, and Rating sections on multiple platforms](images/accordion-getting-started.png)
 
 ## Prerequisites
 

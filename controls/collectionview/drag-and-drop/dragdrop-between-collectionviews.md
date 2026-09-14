@@ -28,7 +28,7 @@ Check an example on drag and drop between two CollectionViews:
 
 Here is the result:
 
-![.NET MAUI CollectionView Drag and Drop between CollectionViews](../images/collectionview-dragdrop-between-cv.gif)
+![Telerik UI for .NET MAUI two CollectionViews with city items and arrows showing drag and drop between lists](../images/collectionview-dragdrop-between-cv.gif)
 
 ## See Also
 

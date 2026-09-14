@@ -31,7 +31,7 @@ Here is an example how to use the RadAutoComplete `SuggestionItemTemplate`:
 
 Here is the result:
 
-![.NET MAUI AutoComplete SuggestionItemTemplate Example](../images/autocomplete-suggestionitem-template.png "AutoComplete SuggestionItemTemplate Example")
+![Telerik UI for .NET MAUI AutoComplete custom SuggestionItemTemplate showing purple icons beside client names](../images/autocomplete-suggestionitem-template.png "AutoComplete SuggestionItemTemplate Example")
 
 >important For AutoComplete SuggestionItemTemplate example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

@@ -18,7 +18,7 @@ To change the selected animation of the BusyIndicator, use its `AnimationType` p
 
 >important The animation will be displayed only when the `IsBusy` property is `True`.
 
-![BusyIndicator animations list](images/busyindicator-features-animations-0.png)
+![Telerik UI for .NET MAUI BusyIndicator grid showing the ten built-in animation types](images/busyindicator-features-animations-0.png)
 
 ### Controlling Size and Color
 
@@ -37,7 +37,7 @@ The snippet below shows how to configure the predefined BusyIndicator animations
 
 The image below shows the modified BusyIndicator in its busy state.
 
-![BusyIndicator Settings](images/busyindicator-animations-settings.png)
+![Telerik UI for .NET MAUI BusyIndicator showing a blue spiral animation with customized size and color](images/busyindicator-animations-settings.png)
 
 ## Custom Animation
 

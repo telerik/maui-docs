@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![AutoComplete Getting Started](images/autocomplete-getting-started.png)
+![Telerik UI for .NET MAUI AutoComplete with a list of suggestions that is displayed when entering a string that matches a name from the list](images/autocomplete-getting-started.png)
 
 ## Prerequisites
 

@@ -21,7 +21,7 @@ Here is a quick example on how to define the `OriginValue` property, so that the
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Range Track](images/circularslider-range-track.png)
+![Telerik UI for .NET MAUI CircularSlider with the range track starting at the center of the arc](images/circularslider-range-track.png)
 
 > For a runnable example demonstrating the CircularSlider range track, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Features** category.
 

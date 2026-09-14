@@ -13,7 +13,7 @@ This guide provides the information you need to start using the Telerik UI for .
 
 At the end, you will achieve the following result.
 
-![.NET MAUI Calendar Getting Started](images/calendar-getting-started.png)
+![Telerik UI for .NET MAUI Calendar showing June 2023 with the selected date highlighted](images/calendar-getting-started.png)
 
 ## Prerequisites
 

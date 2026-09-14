@@ -30,7 +30,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows a barcode with its applied manual sizing mode.
 
-![Barcode SizingMode](images/barcode_sizingmode.png)
+![Telerik UI for .NET MAUI Barcode rendered with the Manual sizing mode](images/barcode_sizingmode.png)
 
 ## See Also
 

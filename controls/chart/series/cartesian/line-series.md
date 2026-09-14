@@ -36,7 +36,7 @@ The following example shows how to create a `RadCartesianChart` with a Line Seri
 
 The following image shows the end result:
 
-![Basic LineSeries](images/cartesian-line-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with two basic LineSeries connecting categorical data points](images/cartesian-line-series-basic-example.png)
 
 ## Customization Example
 
@@ -50,7 +50,7 @@ var series = new LineSeries
 };
 ```
 
-![Customized LineSeries](images/cartesian-line-series-customization-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart with customized LineSeries using thicker strokes](images/cartesian-line-series-customization-example.png)
 
 ## See Also
 

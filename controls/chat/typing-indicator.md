@@ -38,7 +38,7 @@ The following images shows the results from the example above:
 
 >caption `RadChat` with a typing indicator
 
-![.NET MAUI Chat with typing indicator](images/chat-typing-indicator.png)
+![Telerik UI for .NET MAUI Chat typing indicator showing Sandra, John, and Billy are typing](images/chat-typing-indicator.png)
 
 ## See Also
 

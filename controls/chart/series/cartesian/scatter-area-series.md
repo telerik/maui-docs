@@ -37,7 +37,7 @@ The following example shows how to create a `RadCartesianChart` with a ScatterAr
 
 The following image shows the end result:
 
-![Basic ScatterAreaSeries](images/cartesian-scatter-area-series-basic-example.png)
+![Telerik UI for .NET MAUI Cartesian Chart ScatterAreaSeries with a light blue filled area connecting numerical points](images/cartesian-scatter-area-series-basic-example.png)
 
 ## Customization Example
 

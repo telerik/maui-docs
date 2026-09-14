@@ -12,7 +12,9 @@ tags: .net maui, collectionview, layout, vertical, horizontal
 
 The CollectionView control supports linear layouts through its `ItemsLayout` property. The `ItemsLayout` accepts values of type `CollectionViewLayoutBase` which is a base class.
 
-The linear layout is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `CollectionViewLinearLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
+The linear layout with vertical orientation for the items visualization is the default layout of the control. The linear layout can be explicitly set by creating an instance of the `CollectionViewLinearLayout` class and assigning it to the `RadCollectionView.ItemsLayout` property.
+
+>caption The default linear layout with vertical items arrangement set in XAML:
 
 ```XAML
 <telerik:RadCollectionView>
@@ -52,7 +54,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView Horizontal Orientation](../images/collectionview-horizontal-orientation.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView displaying city items in a horizontal linear layout](../images/collectionview-horizontal-orientation.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable demo with the CollectionView `CollectionViewLinearLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Layouts** category.
 

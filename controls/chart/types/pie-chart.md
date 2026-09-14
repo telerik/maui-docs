@@ -49,7 +49,7 @@ The following example shows the full definition of the chart.
 
 The following image shows the end result:
 
-![Pie Chart](images/pie-chart-example.png)
+![Telerik UI for .NET MAUI Pie Chart with five colored slices and numeric value labels](images/pie-chart-example.png)
 
 ## See Also
 

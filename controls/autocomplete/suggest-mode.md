@@ -35,7 +35,7 @@ Create a ViewModel with a collection of Client objects:
 
 Here is the result when `SuggestMode` is `Suggest`:
 
-![AutoComplete Suggest](images/autocomplete-suggest-mode-suggest.png "AutoComplete Suggest")
+![Telerik UI for .NET MAUI AutoComplete Suggest mode showing a dropdown of matching client names](images/autocomplete-suggest-mode-suggest.png "AutoComplete Suggest")
 
 **Example when `SuggestMode="Append"`**:
 
@@ -43,7 +43,7 @@ Here is the result when `SuggestMode` is `Suggest`:
 
 And the final result:
 
-![AutoComplete Append](images/autocomplete-suggest-mode-append.png "AutoComplete Append")
+![Telerik UI for .NET MAUI AutoComplete Append mode completing the input with the first matching client name](images/autocomplete-suggest-mode-append.png "AutoComplete Append")
 
 **Example when `SuggestMode="SuggestAppend"`**:
 
@@ -51,7 +51,7 @@ And the final result:
 
 Here is the result:
 
-![AutoComplete SuggestAppend](images/autocomplete-suggest-mode-suggestappend.png "AutoComplete SuggestAppend")
+![Telerik UI for .NET MAUI AutoComplete SuggestAppend mode showing the completed first match and suggestion dropdown](images/autocomplete-suggest-mode-suggestappend.png "AutoComplete SuggestAppend")
 
 >important For AutoComplete Suggest Mode example refer the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

@@ -52,7 +52,7 @@ The next snippet uses the Cards defined in the previous example and adds Actions
 
 <snippet id='chat-chatpicker-cardpicker-getcards' />
 
-![.NET MAUI chat Card Picker](../images/chat-cardpicker.gif)
+![Telerik UI for .NET MAUI Chat CardPicker showing Rome and Barcelona cards with Select actions](../images/chat-cardpicker.gif)
 
 ## See Also
 

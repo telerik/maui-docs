@@ -34,7 +34,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik CircularSlider for .NET MAUI Value Changing Event](images/circularslider-value-changing.gif)
+![Telerik UI for .NET MAUI CircularSlider ValueChanging event example with a blue range track and draggable thumb](images/circularslider-value-changing.gif)
 
 > For a runnable example demonstrating the CircularSlider value changing event, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Events** category.
 

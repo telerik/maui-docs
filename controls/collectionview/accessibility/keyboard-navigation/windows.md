@@ -34,7 +34,7 @@ The [Telerik UI for .NET MAUI CollectionView]({%slug collectionview-overview%}) 
 
 Here is how the keyboard navigation support looks on WinUI:
 
-![.NET MAUI CollectionView Keyboard Navigation Support](../../images/collectionview-keyboard-navigation-support.gif)
+![Telerik UI for .NET MAUI CollectionView on WinUI showing keyboard navigation focus moving through city items](../../images/collectionview-keyboard-navigation-support.gif)
 
 ## Additional Resources
 

@@ -31,7 +31,7 @@ The following example shows how to create a Cartesian Chart with a vertical `Cat
 
 The following image shows the end result.
 
-![Horizontal BarSeries](images/chart-series-features-horizontal-series.png)
+![Telerik UI for .NET MAUI Cartesian Chart with a horizontal BarSeries for categories A through E](images/chart-series-features-horizontal-series.png)
 
 ## Horizontal Stack Bar Series Example
 
@@ -51,7 +51,7 @@ The following example shows how to create a Cartesian Chart with a vertical `Cat
 
 The following image shows the end result:
 
-![Horizontal BarSeries](images/chart-series-features-horizontal-stack-series.png)
+![Telerik UI for .NET MAUI Cartesian Chart with horizontally stacked BarSeries for categories A through E](images/chart-series-features-horizontal-stack-series.png)
 
 ## See Also
 

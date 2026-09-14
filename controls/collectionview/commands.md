@@ -42,7 +42,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result: 
 
-![.NET MAUI CollectionView ItemTap Command](images/collectionview-item-tap-command.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView ItemTapCommand highlighting the tapped Teodor item](images/collectionview-item-tap-command.gif "Telerik .NET MAUI CollectionView")
 
 ### Example with GroupTap Command
 
@@ -66,7 +66,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![.NET MAUI CollectionView GroupTap Command](images/collectionview-group-tap-command.gif "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView GroupTapCommand showing expanded Accounting and Finance and Marketing groups](images/collectionview-group-tap-command.gif "Telerik .NET MAUI CollectionView")
 
 > For a runnable example demonstrating the CollectionView Commands, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **CollectionView > Commands** category.
 

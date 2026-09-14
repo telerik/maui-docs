@@ -23,7 +23,7 @@ The example below shows how to call the default `RemoveTokenCommand` from a cust
 
 <snippet id='autocomplete-default-removetoken' />
 
-![Telerik .NET MAUI AutoComplete default RemoveTokenCommand](images/autocomplete-removetokencommand-template.png)
+![Telerik UI for .NET MAUI AutoComplete Tokens mode showing New York and Madrid tokens with remove buttons](images/autocomplete-removetokencommand-template.png)
 
 ### Example with a Custom RemoveTokenCommand
 
@@ -37,7 +37,7 @@ The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash
 
 <snippet id='autocomplete-custom-removetoken' />
 
-![Telerik .NET MAUI AutoComplete custom RemoveTokenCommand](images/autocomplete-removetoken.gif)
+![Telerik UI for .NET MAUI AutoComplete custom RemoveTokenCommand with an Eva Lawson token and close button](images/autocomplete-removetoken.gif)
 
 ## Clear Text Command
 
@@ -73,7 +73,7 @@ public class CustomAutoCompleClearTextCommand : AutoCompleteClearTextCommand
 </telerik:RadAutoComplete>
 ```
 
-![Telerik .NET MAUI AutoComplete custom ClearTextCommand](images/autocomplete-cleartext.gif)
+![Telerik UI for .NET MAUI AutoComplete custom ClearTextCommand clearing the input field](images/autocomplete-cleartext.gif)
 
 ## See Also
 

@@ -50,7 +50,7 @@ The following example shows how to style day cells with `DayStyleSelector`:
 
 The following image shows a Calendar month view with different styles applied to individual day cells:
 
-![Calendar month view with custom styling applied to individual day cells through a day style selector](images/calendar-daystyle-selector.png)
+![Telerik UI for .NET MAUI Calendar month view with a day style selector applying orange, teal, and highlighted day-cell styles](images/calendar-daystyle-selector.png)
 
 >tip
 > For a runnable example that styles individual Calendar day cells, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Calendar > Style Selector**.

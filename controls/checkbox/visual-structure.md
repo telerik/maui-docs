@@ -13,7 +13,7 @@ The visual structure of the .NET MAUI CheckBox represents the anatomy of the UI 
 
 The following image shows the anatomy of the CheckBox.
 
-![CheckBox Visual Structure](images/checkbox-visual-structure.png)
+![Telerik UI for .NET MAUI CheckBox visual structure labeling the Checked mark, Unchecked border, and Indeterminate mark](images/checkbox-visual-structure.png)
 
 ## Displayed Elements
 

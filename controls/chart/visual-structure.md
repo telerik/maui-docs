@@ -13,7 +13,7 @@ slug: chart-visual-structure
 
 This article describes all visual elements and terms that are used in a standard Chart control.
 
-![Chart Visual Structure](images/chart-visual-structure.png "Visual elements of RadChart control")
+![Telerik UI for .NET MAUI Chart visual structure labeling the plot area, axes, series, series labels, ticks, axis labels, and chart grid](images/chart-visual-structure.png "Visual elements of RadChart control")
 
 ## Legend
 

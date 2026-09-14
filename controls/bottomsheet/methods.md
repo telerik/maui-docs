@@ -29,7 +29,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on Android:
 
-![.NET MAUI BottomSheet Methods](images/bottomsheet-methods.gif)
+![Telerik UI for .NET MAUI BottomSheet opening and closing through the GoToBottomSheetState method](images/bottomsheet-methods.gif)
 
 ## See Also
 

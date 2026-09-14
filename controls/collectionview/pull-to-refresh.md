@@ -38,7 +38,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result on Android:
 
-![.NET MAUI CollectionView Pull To Refresh](images/collectionview-pull-to-refresh.gif)
+![Telerik UI for .NET MAUI CollectionView with RefreshView showing a list while pull-to-refresh is performed](images/collectionview-pull-to-refresh.gif)
 
 ## See Also
 

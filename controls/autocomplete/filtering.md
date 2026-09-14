@@ -62,7 +62,7 @@ Here is an example how the AutoComplete Custom Filtering works when searching in
 
 This is the result:
 
-![.NET MAUI AutoComplete Filtering](images/autocomplete-filtering.png "AutoComplete Filtering")
+![Telerik UI for .NET MAUI AutoComplete filtering the search text and highlighting matching client names across platforms](images/autocomplete-filtering.png "AutoComplete Filtering")
 
 >important For AutoComplete Filtering example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 

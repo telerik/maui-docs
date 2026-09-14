@@ -40,7 +40,7 @@ The following example shows how to create a Stack Cartesian Chart with Bar Serie
 
 The following image shows how a Stack Bar Series looks:
 
-![Stack CombineMode](images/chart-series-features-combine-mode-stack-bar-series.png)
+![Telerik UI for .NET MAUI Cartesian Chart with two categorical BarSeries combined as stacked vertical bars](images/chart-series-features-combine-mode-stack-bar-series.png)
 
 ## Stack Area Series Example
 
@@ -50,7 +50,7 @@ The following image shows how a Stack Bar Series looks:
 
 The following image shows how a Stack Area Series looks:
 
-![Stack CombineMode](images/chart-series-features-combine-mode-stack-area-series.png)
+![Telerik UI for .NET MAUI Cartesian Chart with two AreaSeries combined as stacked filled areas](images/chart-series-features-combine-mode-stack-area-series.png)
 
 ## Stack Spline Area Series Example
 
@@ -60,7 +60,7 @@ The following image shows how a Stack Area Series looks:
 
 The following image shows how a Stack Spline Area Series looks:
 
-![Stack CombineMode](images/chart-series-features-combine-mode-stack-spline-area-series.png)
+![Telerik UI for .NET MAUI Cartesian Chart with two SplineAreaSeries combined as stacked smooth filled areas](images/chart-series-features-combine-mode-stack-spline-area-series.png)
 
 ## See Also
 
