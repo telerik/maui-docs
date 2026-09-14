@@ -57,7 +57,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the end result.
 
-![Telerik UI for .NET MAUI Button content aligned with recipe category images, text, and selection indicators](images/button-content-alignment.png)
+![Telerik UI for .NET MAUI Button content aligned left](images/button-content-alignment.png)
 
 > For a runnable example with the Button Content Alignment scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Button > Features**.
 

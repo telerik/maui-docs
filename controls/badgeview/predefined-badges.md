@@ -36,7 +36,7 @@ The following example demonstrates how to set the type of the Badge indicator.
 **2.** Use the `telerik` namespace:
 
 ```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"                    
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui" 
 ```
 
 The following image shows the final result.

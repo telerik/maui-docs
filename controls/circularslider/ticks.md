@@ -37,7 +37,7 @@ The snippet below shows how to apply the ticks configuration settings:
 
 This is the result:
 
-![Telerik UI for .NET MAUI CircularSlider with numeric labels and colored ticks around the arc](images/circularslider-ticks-settings.png)
+![Telerik UI for .NET MAUI CircularSlider with colored ticks around the arc](images/circularslider-ticks-settings.png)
 
 > For a runnable example demonstrating the CircularSlider ticks settings, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CircularSlider > Ticks** category.
 

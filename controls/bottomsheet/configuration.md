@@ -24,7 +24,7 @@ The control includes four built-in states with predefined heights:
 * `Partial`&mdash;Represents a partial bottom sheet state with height `50%`.
 * `Full`&mdash;Represents a full bottom sheet state with height `90%`.
 
-![Telerik UI for .NET MAUI BottomSheet showing Hidden, Minimal, Partial, and Full states with different panel heights](images/bottomsheet-states.png "BottomSheet States")
+![Telerik UI for .NET MAUI BottomSheet showing Hidden, Minimal, Partial, and Full states with different panel heights](images/bottomsheet-states.png)
 
 ### Setting States
 

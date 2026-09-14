@@ -19,7 +19,7 @@ The `CornerRadius` property represents the degree to which the corners of the Bo
 
 The following image shows the result from that implementation.
 
-![Telerik UI for .NET MAUI Border with rounded top-left and bottom-right corners around message content](images/border_corner_radius.png)
+![Telerik UI for .NET MAUI Border with rounded top-right and bottom-left and right corners around message content](images/border_corner_radius.png)
 
 Additionally, the wrapped content will be clipped according to the specified corner radius of each side. 
 

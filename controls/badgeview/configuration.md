@@ -37,7 +37,7 @@ The following snippet demonstrates the code behind with the button click impleme
 
 The following image shows the final result.
 
-![Telerik UI for .NET MAUI BadgeView containing a Click me button with an updating red notification badge](images/badgeview-content-text.gif)
+![Telerik UI for .NET MAUI BadgeView containing a Click me button with an updating red notification badge counting the clicks](images/badgeview-content-text.gif)
 
 ## Badge Text
 
@@ -114,7 +114,7 @@ The BadgeView provides the `Padding`(`Microsoft.Maui.Controls.Compatibility`) pr
 
 The following image shows the result.
 
-![Telerik UI for .NET MAUI BadgeView showing Padding 30 around a content panel and Add badge](images/badgeview-padding.png)
+![Telerik UI for .NET MAUI BadgeView showing Padding 30 around a content panel with BadgeText set to Add](images/badgeview-padding.png)
 
 ## See Also
 

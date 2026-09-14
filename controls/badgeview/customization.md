@@ -79,7 +79,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 The following image shows the final result.
 
-![Telerik UI for .NET MAUI BadgeView using a custom control template with an blue badge above avatar content](images/badgeview-custom-controltemplate.png)
+![Telerik UI for .NET MAUI BadgeView using a custom control template for the badge](images/badgeview-custom-controltemplate.png)
 
 > For a runnable example with the BadgeView ControlTemplate scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **BadgeView > Features**.
 

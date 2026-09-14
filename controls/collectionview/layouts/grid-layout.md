@@ -60,7 +60,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 This is the result:
 
-![Telerik UI for .NET MAUI CollectionView displaying city items in a configured four-column grid layout across platforms](../images/collectionview-grid-layout-configuration.png "Telerik .NET MAUI CollectionView")
+![Telerik UI for .NET MAUI CollectionView displaying city items in a configured four-column grid layout on desktop and three-column grid layout on mobile platforms](../images/collectionview-grid-layout-configuration.png "Telerik .NET MAUI CollectionView")
 
 > For a runnable demo with the CollectionView `CollectionViewGridLayout`, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to the **CollectionView > Layouts** category.
 
