@@ -11,9 +11,9 @@ previous_url: /font-icons/controls-icons
 
 You can choose any of the available Telerik font icons: 
 
-<main>
+<div class="icons-app">
     <div class="icons-grid" id="grid"></div>
-</main>
+</div>
 
 <div class="toast" id="toast">Copied!</div>
 
@@ -42,51 +42,26 @@ var label = new Label
 
 
 <style>
-    :root {
-        --bg: #f3f4f6;
-        --surface: #ffffff;
-        --surface-hover: #fbfdff;
-        --border: #d9dee7;
-        --border-strong: #cfd6e2;
-        --text: #111827;
-        --text-muted: #6b7280;
-        --label: #7b8495;
-        --accent: #2563eb;
-        --accent-soft: rgba(37, 99, 235, 0.08);
-        --success: #159957;
-        --warning: #d97706;
-        --radius-card: 14px;
-        --radius-inner: 8px;
-        --shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-        font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.45;
-        min-height: 100vh;
-    }
-
-    main {
+    .icons-app {
         max-width: 1700px;
         margin: 0 auto;
-        padding: 1rem 1rem 2rem;
+        padding: 1rem 0 2rem;
+        color: #111827;
+        line-height: 1.45;
     }
 
-    .icons-grid {
+    .icons-app .icons-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
         gap: 0.8rem;
         align-items: stretch;
     }
 
-    .icon-card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: var(--radius-card);
+    .icons-app .icon-card {
+        box-sizing: border-box;
+        background: #ffffff;
+        border: 1px solid #d9dee7;
+        border-radius: 14px;
         padding: 0.8rem 0.72rem 0.72rem;
         box-shadow: 0 1px 1px rgba(17, 24, 39, 0.02);
         transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
@@ -96,13 +71,13 @@ var label = new Label
         min-width: 0;
     }
 
-    .icon-card:hover {
+    .icons-app .icon-card:hover {
         transform: translateY(-1px);
-        border-color: var(--border-strong);
-        box-shadow: var(--shadow);
+        border-color: #cfd6e2;
+        box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
     }
 
-    .card-head {
+    .icons-app .card-head {
         position: relative;
         min-height: 84px;
         display: flex;
@@ -114,7 +89,7 @@ var label = new Label
         padding: 0.2rem 0.25rem 0.15rem;
     }
 
-    .icon-preview {
+    .icons-app .icon-preview {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -122,15 +97,15 @@ var label = new Label
         min-height: 28px;
         font-size: 1.55rem;
         line-height: 1;
-        color: var(--accent);
+        color: #2563eb;
         font-weight: 500;
     }
 
-    .icon-name {
+    .icons-app .icon-name {
         font-size: 0.9rem;
         font-weight: 600;
         letter-spacing: -0.01em;
-        color: var(--text);
+        color: #111827;
         line-height: 1.2;
         overflow: hidden;
         display: -webkit-box;
@@ -139,29 +114,30 @@ var label = new Label
         min-height: 2.15em;
     }
 
-    .source-warning {
+    .icons-app .source-warning {
         position: absolute;
         top: 0;
         right: 0;
         width: 8px;
         height: 8px;
         border-radius: 50%;
-        background: var(--warning);
+        background: #d97706;
     }
 
-    .code-row {
+    .icons-app .code-row {
         display: flex;
         flex-direction: column;
         gap: 0.35rem;
     }
 
-    .code-item {
+    .icons-app .code-item {
+        box-sizing: border-box;
         display: flex;
         align-items: center;
         gap: 0.4rem;
         min-height: 30px;
         border: 1px solid #e5e9f0;
-        border-radius: var(--radius-inner);
+        border-radius: 8px;
         background: #f8fafc;
         padding: 0.34rem 0.38rem 0.34rem 0.5rem;
         min-width: 0;
@@ -169,8 +145,8 @@ var label = new Label
         font-size: 0.72rem;
     }
 
-    .code-label {
-        color: var(--label);
+    .icons-app .code-label {
+        color: #7b8495;
         font-size: 0.66rem;
         letter-spacing: 0.04em;
         text-transform: uppercase;
@@ -179,7 +155,7 @@ var label = new Label
         font-weight: 600;
     }
 
-    .code-value {
+    .icons-app .code-value {
         flex: 1;
         min-width: 0;
         overflow: hidden;
@@ -188,7 +164,7 @@ var label = new Label
         color: #234fb1;
     }
 
-    .copy-btn {
+    .icons-app .copy-btn {
         width: 22px;
         height: 22px;
         border: none;
@@ -203,22 +179,22 @@ var label = new Label
         transition: background 0.15s, color 0.15s;
     }
 
-    .copy-btn:hover {
-        color: var(--accent);
-        background: var(--accent-soft);
+    .icons-app .copy-btn:hover {
+        color: #2563eb;
+        background: rgba(37, 99, 235, 0.08);
     }
 
-    .copy-btn.copied { color: var(--success); }
-    .copy-btn svg { width: 14px; height: 14px; }
+    .icons-app .copy-btn.copied { color: #159957; }
+    .icons-app .copy-btn svg { width: 14px; height: 14px; }
 
-    .empty {
+    .icons-app .empty {
         grid-column: 1 / -1;
         text-align: center;
         padding: 3rem 1rem;
-        color: var(--text-muted);
+        color: #6b7280;
     }
 
-    .empty svg { width: 42px; height: 42px; margin-bottom: 0.8rem; opacity: 0.45; }
+    .icons-app .empty svg { width: 42px; height: 42px; margin-bottom: 0.8rem; opacity: 0.45; }
 
     .toast {
         position: fixed;
@@ -232,7 +208,7 @@ var label = new Label
         border-radius: 999px;
         padding: 0.55rem 0.9rem;
         font-size: 0.8rem;
-        box-shadow: var(--shadow);
+        box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
         pointer-events: none;
         z-index: 200;
     }
@@ -240,28 +216,6 @@ var label = new Label
     .toast.show {
         transform: translateX(-50%) translateY(0);
         opacity: 1;
-    }
-
-    @media (min-width: 1680px) {
-        .icons-grid { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
-    }
-
-    @media (max-width: 900px) {
-        .icons-grid { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
-    }
-
-    @media (max-width: 640px) {
-        .icons-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
-        .icon-card { padding: 0.75rem 0.6rem 0.6rem; }
-        .card-head { min-height: 78px; }
-        .icon-preview { font-size: 1.4rem; }
-        .icon-name { font-size: 0.82rem; }
-        .code-item { font-size: 0.68rem; }
-        .code-label { font-size: 0.62rem; }
-    }
-
-    @media (max-width: 420px) {
-        .icons-grid { grid-template-columns: 1fr; }
     }
 </style>
 
