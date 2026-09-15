@@ -40,8 +40,8 @@ The following example demonstrates how to define the `LabelFitMode` and the font
 
 ```XAML
 <telerik:CategoricalAxis LabelFitMode="Rotate"
-							  LabelFontSize="25"
-							  LabelTextColor="#FFCC88CC"/>
+					     LabelFontSize="25"
+						 LabelTextColor="#FFCC88CC"/>
 ```
 
 ### Label Format
@@ -51,16 +51,16 @@ You can customize the labels text with the following properties:
 - `LabelFormat`&mdash;Provides a format string that will be used when converting the label value to a string. Each axis type requires different format:
   - `NumericalAxis`&mdash;Any numeric format like `"N"`, `"P2"`.
   - `DateTimeContinuousAxis`&mdash;Any date format like `"dd-MM-yy"`, `"HH:mm"`.
-  - `CategoricalAxis`&mdash;`"{0} items"`, `"{0:N}"`.
+  - `CategoricalAxis`&mdash;`"items {0}"`.
 - `LabelFormatter`&mdash;Specifies a custom formatter that implements the `ILabelFormatter` interface to apply a custom rule for setting each label text.
 
 The following example shows how to set `LabelFormat` to a Numerical Axis:
 
 ```XAML
 <telerik:NumericalAxis LabelFormat="C"
-							MajorStep="0.5"
-							Minimum="-1"
-							Maximum="1" />
+					   MajorStep="0.5"
+					   Minimum="-1"
+					   Maximum="1" />
 ```
 
 ### Label Formatter
