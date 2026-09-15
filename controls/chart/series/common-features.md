@@ -80,27 +80,27 @@ public class ViewModel
 **3.** Declare a `RadCartesianChart` with a Line Series in XAML:
 
 ```XAML
-<telerikChart:RadCartesianChart x:Name="chart">
-    <telerikChart:RadCartesianChart.BindingContext>
+<telerik:RadCartesianChart x:Name="chart">
+    <telerik:RadCartesianChart.BindingContext>
         <local:ViewModel />
-    </telerikChart:RadCartesianChart.BindingContext>
-    <telerikChart:RadCartesianChart.HorizontalAxis>
-        <telerikChart:DateTimeContinuousAxis LabelFitMode="Rotate"
-                                             MajorStepUnit="Day" />
-    </telerikChart:RadCartesianChart.HorizontalAxis>
-    <telerikChart:RadCartesianChart.VerticalAxis>
-        <telerikChart:NumericalAxis Minimum="-1.5"
-                                    Maximum="1.5" />
-    </telerikChart:RadCartesianChart.VerticalAxis>
-    <telerikChart:RadCartesianChart.Series>            
-        <telerikChart:LineSeries ValueBinding="Value"
-                                 CategoryBinding="Date"
-                                 ItemsSource="{Binding Data}"
-                                 ShowLabels="True"
-                                 LabelFormat="{}{0:N2}"/>
-</telerikChart:RadCartesianChart.Series>
+    </telerik:RadCartesianChart.BindingContext>
+    <telerik:RadCartesianChart.HorizontalAxis>
+        <telerik:DateTimeContinuousAxis LabelFitMode="Rotate"
+                                        MajorStepUnit="Day" />
+    </telerik:RadCartesianChart.HorizontalAxis>
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis Minimum="-1.5"
+                               Maximum="1.5" />
+    </telerik:RadCartesianChart.VerticalAxis>
+    <telerik:RadCartesianChart.Series>            
+        <telerik:LineSeries ValueBinding="Value"
+                            CategoryBinding="Date"
+                            ItemsSource="{Binding Data}"
+                            ShowLabels="True"
+                            LabelFormat="{}{0:N2}"/>
+    </telerik:RadCartesianChart.Series>
+</telerik:RadCartesianChart>
 ```
-
 
 The following image shows the end result:
 
