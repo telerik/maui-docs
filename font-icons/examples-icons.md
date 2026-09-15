@@ -11,175 +11,11 @@ previous_url: /font-icons/controls-icons
 
 You can choose any of the available Telerik font icons: 
 
-| Icon | Name | XAML | Code |
-| ---- | ---- | ---- | ---- |
-| ![Telerik UI for .NET MAUI example font icon: sort-descent](images/sort-descent.png) | sort descent | __\&#xe800;__ | __\ue800__ |
-| ![Telerik UI for .NET MAUI example font icon: star-empty](images/star-empty.png) | star-empty | __\&#xe801;__ | __\ue801__ |
-| ![Telerik UI for .NET MAUI example font icon: filter](images/filter.png) | filter | __\&#xe802;__ | __\ue802__ |
-| ![Telerik UI for .NET MAUI example font icon: sort-ascent](images/sort-ascent.png) | sort ascent | __\&#xe803;__ | __\ue803__ |
-| ![Telerik UI for .NET MAUI example font icon: group](images/group.png) | group | __\&#xe804;__ | __\ue804__ |
-| ![Telerik UI for .NET MAUI example font icon: star](images/star.png) | star | __\&#xe805;__ | __\ue805__ |
-| ![Telerik UI for .NET MAUI example font icon: right-dir](images/right-dir.png) | right-dir | __\&#xe806;__ | __\ue806__ |
-| ![Telerik UI for .NET MAUI example font icon: dots-vert](images/dots-vert.png) | dots vert | __\&#xe807;__ | __\ue807__ |
-| ![Telerik UI for .NET MAUI example font icon: menu](images/menu.png) | menu | __\&#xf008;__ | __\uf008__ |
-| ![Telerik UI for .NET MAUI example font icon: check](images/check.png) | check | __\&#xe876;__ | __\ue876__ |
-| ![Telerik UI for .NET MAUI example font icon: cancel](images/cancel.png) | cancel | __\&#xe877;__ | __\ue877__ |
-| ![Telerik UI for .NET MAUI example font icon: dot](images/dot.png) | dot | __\&#xe80b;__ | __\ue80b__ |
-| ![Telerik UI for .NET MAUI example font icon: dot-3](images/dot-3.png) | dot-3 | __\&#xe80c;__ | __\ue80c__ |
-| ![Telerik UI for .NET MAUI example font icon: down-dir](images/down-dir.png) | down-dir | __\&#xe80d;__ | __\ue80d__ |
-| ![Telerik UI for .NET MAUI example font icon: chevron-left](images/chevron-left.png) | chevron left | __\&#xe80e;__ | __\ue80e__ |
-| ![Telerik UI for .NET MAUI example font icon: configure](images/configure.png) | configure | __\&#xe80f;__ | __\ue80f__ |
-| ![Telerik UI for .NET MAUI example font icon: search](images/search.png) | search | __\&#xe810;__ | __\ue810__ |
-| ![Telerik UI for .NET MAUI example font icon: up-dir](images/up-dir.png) | up-dir | __\&#xe811;__ | __\ue811__ |
-| ![Telerik UI for .NET MAUI example font icon: pattern](images/pattern.png) | pattern | __\&#xe812;__ | __\ue812__ |
-| ![Telerik UI for .NET MAUI example font icon: add](images/add.png) | add | __\&#xe813;__ | __\ue813__ |
-| ![Telerik UI for .NET MAUI example font icon: right-dir-outlines](images/right-dir-outlines.png) | right-dir-outlines | __\&#xe814;__ | __\ue814__ |
-| ![Telerik UI for .NET MAUI example font icon: info](images/info.png) | info | __\&#xe815;__ | __\ue815__ |
-| ![Telerik UI for .NET MAUI example font icon: down-dir-outlines](images/down-dir-outlines.png) | down-dir-outlines | __\&#xe816;__ | __\ue816__ |
-| ![Telerik UI for .NET MAUI example font icon: bin-solid](images/bin-solid.png)  | bin-solid | __\&#xe817;__ | __\ue817__ |
-| ![Telerik UI for .NET MAUI example font icon: edit](images/edit.png) | edit | __\&#xe818;__ | __\ue818__ |
-| ![Telerik UI for .NET MAUI example font icon: copy](images/copy.png) | copy | __\&#xe819;__ | __\ue819__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-up](images/arrow-up.png) | arrow-up | __\&#xe81a;__ | __\ue81a__ |
-| ![Telerik UI for .NET MAUI example font icon: airplane](images/airplane.png) | airplane | __\&#xe81c;__ | __\ue81c__ |
-| ![Telerik UI for .NET MAUI example font icon: pdf](images/pdf.png) | pdf | __\&#xe81d;__ | __\ue81d__ |
-| ![Telerik UI for .NET MAUI example font icon: encoding](images/encoding.png) | encoding | __\&#xe81e;__ | __\ue81e__ |
-| ![Telerik UI for .NET MAUI example font icon: length](images/length.png) | length | __\&#xe81f;__ | __\ue81f__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-right](images/arrow-right.png) | arrow-right | __\&#xe820;__ | __\ue820__ |
-| ![Telerik UI for .NET MAUI example font icon: contacts](images/contacts.png) | contacts | __\&#xe821;__ | __\ue821__ |
-| ![Telerik UI for .NET MAUI example font icon: cog-outlines](images/cog-outlines.png) | cog-outlines | __\&#xe822;__ | __\ue822__ |
-| ![Telerik UI for .NET MAUI example font icon: type](images/type.png) | type | __\&#xe823;__ | __\ue823__ |
-| ![Telerik UI for .NET MAUI example font icon: location](images/location.png) | location | __\&#xe83d;__ | __\ue83d__ |
-| ![Telerik UI for .NET MAUI example font icon: link](images/link.png) | link | __\&#xe83e;__ | __\ue83e__ |
-| ![Telerik UI for .NET MAUI example font icon: archive](images/archive.png) | archive | __\&#xe826;__ | __\ue826__ |
-| ![Telerik UI for .NET MAUI example font icon: bin](images/bin.png) | bin | __\&#xe827;__ | __\ue827__ |
-| ![Telerik UI for .NET MAUI example font icon: draft](images/draft.png) | draft | __\&#xe828;__ | __\ue828__ |
-| ![Telerik UI for .NET MAUI example font icon: folder-open](images/folder-open.png) | folder-open | __\&#xe829;__ | __\ue829__ |
-| ![Telerik UI for .NET MAUI example font icon: folder](images/folder.png) | folder | __\&#xe82a;__ | __\ue82a__ |
-| ![Telerik UI for .NET MAUI example font icon: group](images/group.png) | group | __\&#xe82b;__ | __\ue82b__ |
-| ![Telerik UI for .NET MAUI example font icon: item](images/item.png) | item | __\&#xe82c;__ | __\ue82c__ |
-| ![Telerik UI for .NET MAUI example font icon: sent](images/sent.png) | sent | __\&#xe82d;__ | __\ue82d__ |
-| ![Telerik UI for .NET MAUI example font icon: spam](images/spam.png) | spam | __\&#xe82e;__ | __\ue82e__ |
-| ![Telerik UI for .NET MAUI example font icon: warning](images/warning.png) | warning | __\&#xe82f;__ | __\ue82f__ |
-| ![Telerik UI for .NET MAUI example font icon: lock](images/lock.png) | lock | __\&#xe830;__ | __\ue830__ |
-| ![Telerik UI for .NET MAUI example font icon: thickness](images/thickness.png) | thickness | __\&#xe831;__ | __\ue831__ |
-| ![Telerik UI for .NET MAUI example font icon: car](images/car.png) | car | __\&#xe832;__ | __\ue832__ |
-| ![Telerik UI for .NET MAUI example font icon: shopping-bag](images/shopping-bag.png) | shopping-bag | __\&#xe833;__ | __\ue833__ |
-| ![Telerik UI for .NET MAUI example font icon: coffee-cup](images/coffee-cup.png) | coffee-cup | __\&#xe834;__ | __\ue834__ |
-| ![Telerik UI for .NET MAUI example font icon: get-money](images/get-money.png) | get-money | __\&#xe835;__ | __\ue835__ |
-| ![Telerik UI for .NET MAUI example font icon: shopping-user](images/shopping-user.png) | shopping-user | __\&#xe836;__ | __\ue836__ |
-| ![Telerik UI for .NET MAUI example font icon: group-users](images/group-users.png) | group users | __\&#xe837;__ | __\ue837__ |
-| ![Telerik UI for .NET MAUI example font icon: dashboard](images/dashboard.png) | dashboard | __\&#xe838;__ | __\ue838__ |
-| ![Telerik UI for .NET MAUI example font icon: first](images/first.png) | first | __\&#xe839;__ | __\ue839__ |
-| ![Telerik UI for .NET MAUI example font icon: cake](images/cake.png) | cake | __\&#xe83a;__ | __\ue83a__ |
-| ![Telerik UI for .NET MAUI example font icon: chat](images/chat.png) | chat | __\&#xe83b;__ | __\ue83b__ |
-| ![Telerik UI for .NET MAUI example font icon: book2](images/book2.png) | book | __\&#xe83c;__ | __\ue83c__ |
-| ![Telerik UI for .NET MAUI example font icon: assets2](images/assets2.png) | assets | __\&#xe846;__ | __\ue846__ |
-| ![Telerik UI for .NET MAUI example font icon: book2](images/book2.png) | book | __\&#xe847;__ | __\ue847__ |
-| ![Telerik UI for .NET MAUI example font icon: cancel2](images/cancel2.png) | cancel | __\&#xe851;__ | __\ue851__ |
-| ![Telerik UI for .NET MAUI example font icon: design](images/design.png) | design | __\&#xe848;__ | __\ue848__ |
-| ![Telerik UI for .NET MAUI example font icon: graphics](images/graphics.png) | graphics | __\&#xe849;__ | __\ue849__ |
-| ![Telerik UI for .NET MAUI example font icon: picture](images/picture.png) | picture | __\&#xe852;__ | __\ue852__ |
-| ![Telerik UI for .NET MAUI example font icon: font-size](images/font-size.png) | font-size | __\&#xe84b;__ | __\ue84b__ |
-| ![Telerik UI for .NET MAUI example font icon: template](images/template.png) | template | __\&#xe84c;__ | __\ue84c__ |
-| ![Telerik UI for .NET MAUI example font icon: wireframes](images/wireframes.png) | wireframes | __\&#xe84d;__ | __\ue84d__ |
-| ![Telerik UI for .NET MAUI example font icon: distance](images/distance.png) | distance | __\&#xe84e;__ | __\ue84e__ |
-| ![Telerik UI for .NET MAUI example font icon: stopwatch](images/stopwatch.png) | stopwatch | __\&#xe84f;__ | __\ue84f__ |
-| ![Telerik UI for .NET MAUI example font icon: play](images/play.png) | play | __\&#xe850;__ | __\ue850__ |
-| ![Telerik UI for .NET MAUI example font icon: code](images/code.png) | code | __\&#xe854;__ | __\ue854__ |
-| ![Telerik UI for .NET MAUI example font icon: analysis](images/analysis.png) | analysis | __\&#xe855;__ | __\ue855__ |
-| ![Telerik UI for .NET MAUI example font icon: network](images/network.png) | network | __\&#xe856;__ | __\ue856__ |
-| ![Telerik UI for .NET MAUI example font icon: network2](images/network2.png) | network | __\&#xe857;__ | __\ue857__ |
-| ![Telerik UI for .NET MAUI example font icon: bar-chart](images/bar-chart.png) | bar-chart | __\&#xe858;__ | __\ue858__ |
-| ![Telerik UI for .NET MAUI example font icon: sap](images/sap.png) | sap | __\&#xe859;__ | __\ue859__ |
-| ![Telerik UI for .NET MAUI example font icon: dba](images/dba.png) | dba | __\&#xe85a;__ | __\ue85a__ |
-| ![Telerik UI for .NET MAUI example font icon: home](images/home.png) | home | __\&#xe85b;__ | __\ue85b__ |
-| ![Telerik UI for .NET MAUI example font icon: temperature](images/temperature.png) | temperature | __\&#xe85c;__ | __\ue85c__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | phone | __\&#xe85d;__ | __\ue85d__ |
-| ![Telerik UI for .NET MAUI example font icon: electricity](images/electricity.png) | electricity | __\&#xe85e;__ | __\ue85e__ |
-| ![Telerik UI for .NET MAUI example font icon: wifi](images/wifi.png) | wifi | __\&#xe85f;__ | __\ue85f__ |
-| ![Telerik UI for .NET MAUI example font icon: distance-horizontal](images/distance-horizontal.png) | distance-horizontal | __\&#xe860;__ | __\ue860__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-dayview](images/calendar-dayview.png) | calendar dayview | __\&#xe861;__ | __\ue861__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-multiday](images/calendar-multiday.png) | calendar multiday | __\&#xe862;__ | __\ue862__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-week](images/calendar-week.png) | calendar week | __\&#xe863;__ | __\ue863__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-month](images/calendar-month.png) | calendar month | __\&#xe864;__ | __\ue864__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-year](images/calendar-year.png) | calendar year | __\&#xe865;__ | __\ue865__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-single](images/calendar-selection-single.png) | calendar selection single | __\&#xe866;__ | __\ue866__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-multiple](images/calendar-selection-multiple.png) | calendar selection multiple | __\&#xe867;__ | __\ue867__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-range](images/calendar-selection-range.png) | calendar selection range | __\&#xe868;__ | __\ue868__ |
-| ![Telerik UI for .NET MAUI example font icon: gallery](images/gallery.png) | gallery | __\&#xe869;__ | __\ue869__ |
-| ![Telerik UI for .NET MAUI example font icon: camera](images/camera.png) | camera | __\&#xe86a;__ | __\ue86a__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-free](images/crop-free.png) | crop free | __\&#xe86b;__ | __\ue86b__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-original](images/crop-original.png) | crop original | __\&#xe86c;__ | __\ue86c__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-rect](images/crop-rect.png) | crop rect | __\&#xe86d;__ | __\ue86d__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-circular](images/crop-circular.png) | crop circular | __\&#xe86e;__ | __\ue86e__ |
-| ![Telerik UI for .NET MAUI example font icon: badge](images/badge.png) | badge | __\&#xe86f;__ | __\ue86f__ |
-| ![Telerik UI for .NET MAUI example font icon: notes](images/notes.png) | notes | __\&#xe870;__ | __\ue870__ |
-| ![Telerik UI for .NET MAUI example font icon: time](images/time.png) | time | __\&#xe871;__ | __\ue871__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-agenda](images/calendar-agenda.png) | calendar agenda | __\&#xe872;__ | __\ue872__ |
-| ![Telerik UI for .NET MAUI example font icon: arrows](images/arrows.png) | arrows | __\&#xe873;__ | __\ue873__ |
-| ![Telerik UI for .NET MAUI example font icon: video-camera](images/video-camera.png) | video-camera | __\&#xe87;__ | __\ue874__ |
-| ![Telerik UI for .NET MAUI example font icon: time](images/time.png) | check | __\&#xe878;__ | __\ue878__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | cancel | __\&#xe887;__ | __\ue887__ |
-| ![Telerik UI for .NET MAUI example font icon: text](images/text.png) | text | __\&#xe853;__ | __\ue853__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-down](images/arrow-down.png) | arrow-down | __\&#xe879;__ | __\ue879__ |
-| ![Telerik UI for .NET MAUI example font icon: flag](images/flag.png) | flag | __\&#xe87a;__ | __\ue87a__ |
-| ![Telerik UI for .NET MAUI example font icon: save](images/save.png) | save | __\&#xe87b;__ | __\ue87b__ |
-| ![Telerik UI for .NET MAUI example font icon: share](images/share.png) | share | __\&#xe87c;__ | __\ue87c__ |
-| ![Telerik UI for .NET MAUI example font icon: menu-custom](images/menu-custom.png) | menu-custom | __\&#xe87d;__ | __\ue87d__ |
-| ![Telerik UI for .NET MAUI example font icon: heart-filled](images/heart-filled.png) | heart-filled | __\&#xe87e;__ | __\ue87e__ |
-| ![Telerik UI for .NET MAUI example font icon: heart-empty](images/heart-empty.png) | heart-empty | __\&#xe87f;__ | __\ue87f__ |
-| ![Telerik UI for .NET MAUI example font icon: reorder](images/reorder.png) | reorder | __\&#xe881;__ | __\ue881__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-box-left](images/arrow-box-left.png) | arrow-box-left | __\&#xe882;__ | __\ue882__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-box-right](images/arrow-box-right.png) | arrow-box-right | __\&#xe883;__ | __\ue883__ |
-| ![Telerik UI for .NET MAUI example font icon: bell](images/bell.png) | bell | __\&#xe88a;__ | __\ue88a__ |
-| ![Telerik UI for .NET MAUI example font icon: chat](images/chat.png) | chat | __\&#xe88b;__ | __\ue88b__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | phone | __\&#xe904;__ | __\ue887 |
-| ![Telerik UI for .NET MAUI example font icon: unpin](images/unpin.png) | unpin | __\&#xe88e;__ | __\ue88e__ |
-| ![Telerik UI for .NET MAUI example font icon: pin](images/pin.png) | pin | __\&#xe88f;__ | __\ue88f__ |
-| ![Telerik UI for .NET MAUI example font icon: excel](images/excel.png) | excel | __\&#xe896;__ | __\ue896__ |
-| ![Telerik UI for .NET MAUI example font icon: powerpoint](images/powerpoint.png) | powerpoint | __\&#xe897;__ | __\ue897__ |
-| ![Telerik UI for .NET MAUI example font icon: word](images/word.png) | word | __\&#xe898;__ | __\ue898__ |
-| ![Telerik UI for .NET MAUI example font icon: pdf](images/pdf.png) | pdf | __\&#xe899;__ | __\ue899__ |
-| ![Telerik UI for .NET MAUI example font icon: last](images/last.png) | last | __\&#xe89a;__ | __\ue89a__ |
-| ![Telerik UI for .NET MAUI example font icon: expand](images/expand.png) | expand | __\&#xe89b;__ | __\ue89b__ |
-| ![Telerik UI for .NET MAUI example font icon: expand2](images/expand2.png) | expand 2 | __\&#xe89c;__ | __\ue89c__ |
-| ![Telerik UI for .NET MAUI example font icon: paint-bucket](images/paint-bucket.png) | paint bucket | __\&#xe89d;__ | __\ue89d__ |
-| ![Telerik UI for .NET MAUI example font icon: mail](images/mail.png) | mail | __\&#xe89e;__ | __\ue89e__ |
-| ![Telerik UI for .NET MAUI example font icon: promotion](images/promotion.png) | promotion | __\&#xe89f;__ | __\ue89f__ |
-| ![Telerik UI for .NET MAUI example font icon: scheduled](images/scheduled.png) | scheduled | __\&#xe8a0;__ | __\ue8a0__ |
-| ![Telerik UI for .NET MAUI example font icon: label](images/label.png) | label | __\&#xe8a1;__ | __\ue8a1__ |
-| ![Telerik UI for .NET MAUI example font icon: drawer](images/drawer.png) | drawer | __\&#xe8a2;__ | __\ue8a2__ |
-| ![Telerik UI for .NET MAUI example font icon: social](images/social.png) | social | __\&#xe8a3;__ | __\ue8a3__ |
-| ![Telerik UI for .NET MAUI example font icon: shipping](images/shipping.png) | shipping | __\&#xe8a6;__ | __\ue8a6__ |
-| ![Telerik UI for .NET MAUI example font icon: products](images/products.png) | products | __\&#xe8a7;__ | __\ue8a7__ |
-| ![Telerik UI for .NET MAUI example font icon: customer](images/customer.png) | customer | __\&#xe8a8;__ | __\ue8a8__ |
-| ![Telerik UI for .NET MAUI example font icon: export](images/export.png) | export | __\&#xe8a9;__ | __\ue8a9__ |
-| ![Telerik UI for .NET MAUI example font icon: info-outlines](images/info-outlines.png) | info-outlines | __\&#xe8ac;__ | __\ue8ac__ |
-| ![Telerik UI for .NET MAUI example font icon: contract](images/contract.png) | contract | __\&#xe8dd;__ | __\ue8dd__ |
-| ![Telerik UI for .NET MAUI example font icon: enlarge](images/enlarge.png) | enlarge | __\&#xe8de;__ | __\ue8de__ |
-| ![Telerik UI for .NET MAUI example font icon: translate](images/translate.png) | translate | __\&#xe8df;__ | __\ue8df__ |
-| ![Telerik UI for .NET MAUI example font icon: emoji](images/emoji.png) | emoji | __\&#xe900;__ | __\ue900__ |
-| ![Telerik UI for .NET MAUI example font icon: brightness](images/brightness.png) | brightness | __\&#xe901;__ | __\ue901__ |
-| ![Telerik UI for .NET MAUI example font icon: flip-vertical](images/flip-vertical.png) | flip-vertical | __\&#xe902;__ | __\ue902__ |
-| ![Telerik UI for .NET MAUI example font icon: flip-horizontal](images/flip-horizontal.png) | flip-horizontal | __\&#xe903;__ | __\ue903__ |
-| ![Telerik UI for .NET MAUI example font icon: rotate-cw](images/rotate-cw.png) | rotate-cw | __\&#xe904;__ | __\ue904__ |
-| ![Telerik UI for .NET MAUI example font icon: rotate-ccw](images/rotate-ccw.png) | rotate-ccw | __\&#xe905;__ | __\ue905__ |
-| ![Telerik UI for .NET MAUI example font icon: crop](images/crop.png) | crop | __\&#xe906;__ | __\ue906__ | 
-| ![Telerik UI for .NET MAUI example font icon: hue](images/hue.png) | hue | __\&#xe907;__ | __\ue907__ |
-| ![Telerik UI for .NET MAUI example font icon: link-external](images/link-external.png) | link-external | __\&#xf08e;__ | __\uf08e__ |
-| ![Telerik UI for .NET MAUI example font icon: plus-squared](images/plus-squared.png) | plus-squared | __\&#xf0fe;__ | __\uf0fe__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-left](images/angle-left.png) | angle-left | __\&#xf104;__ | __\uf104__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-right](images/angle-right.png) | angle-right | __\&#xf105;__ | __\uf105__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-up](images/angle-up.png) | angle-up | __\&#xf106;__ | __\uf106__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-down](images/angle-down.png) | angle-down | __\&#xf107;__ | __\uf107__ |
-| ![Telerik UI for .NET MAUI example font icon: spinner](images/spinner.png) | spinner | __\&#xf110;__ | __\uf110__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-circled-left](images/arrow-circled-left.png) | arrow-circled-left | __\&#xf137;__ | __\uf137__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-circled-right](images/arrow-circled-right.png) | arrow-circled-right | __\&#xf138;__ | __\uf138__ |
-| ![Telerik UI for .NET MAUI example font icon: minus-squared](images/minus-squared.png) | minus-squared | __\&#xf146;__ | __\uf146__ |
-| ![Telerik UI for .NET MAUI example font icon: minus-squared-alt](images/minus-squared-alt.png) | minus-squared-alt | __\&#xf147;__ | __\uf147__ |
-| ![Telerik UI for .NET MAUI example font icon: plus-squared-alt](images/plus-squared-alt.png) | plus-squared-alt | __\&#xf196;__ | __\uf196__ |
+<div class="icons-app">
+    <div class="icons-grid" id="grid"></div>
+</div>
 
-
+<div class="toast" id="toast">Copied!</div>
 
 >important You need to set the Telerik example font icon code on the concrete property to visualize the icon. 
 
@@ -203,3 +39,416 @@ var label = new Label
 ## See Also
 
 - [Icons Overview]({%slug telerik-font-icons%})
+
+
+<style>
+    .icons-app {
+        max-width: 1700px;
+        margin: 0 auto;
+        padding: 1rem 0 2rem;
+        color: #111827;
+        line-height: 1.45;
+    }
+
+    .icons-app .icons-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        gap: 0.8rem;
+        align-items: stretch;
+    }
+
+    .icons-app .icon-card {
+        box-sizing: border-box;
+        background: #ffffff;
+        border: 1px solid #d9dee7;
+        border-radius: 14px;
+        padding: 0.8rem 0.72rem 0.72rem;
+        box-shadow: 0 1px 1px rgba(17, 24, 39, 0.02);
+        transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 0.48rem;
+        min-width: 0;
+    }
+
+    .icons-app .icon-card:hover {
+        transform: translateY(-1px);
+        border-color: #cfd6e2;
+        box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
+    }
+
+    .icons-app .card-head {
+        position: relative;
+        min-height: 84px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.48rem;
+        text-align: center;
+        padding: 0.2rem 0.25rem 0.15rem;
+    }
+
+    .icons-app .icon-preview {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 28px;
+        min-height: 28px;
+        font-size: 1.55rem;
+        line-height: 1;
+        color: #2563eb;
+        font-weight: 500;
+    }
+
+    .icons-app .icon-name {
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: #111827;
+        line-height: 1.2;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        min-height: 2.15em;
+    }
+
+    .icons-app .source-warning {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #d97706;
+    }
+
+    .icons-app .code-row {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+
+    .icons-app .code-item {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        min-height: 30px;
+        border: 1px solid #e5e9f0;
+        border-radius: 8px;
+        background: #f8fafc;
+        padding: 0.34rem 0.38rem 0.34rem 0.5rem;
+        min-width: 0;
+        font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+        font-size: 0.72rem;
+    }
+
+    .icons-app .code-label {
+        color: #7b8495;
+        font-size: 0.66rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        flex: 0 0 auto;
+        font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+        font-weight: 600;
+    }
+
+    .icons-app .code-value {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #234fb1;
+    }
+
+    .icons-app .copy-btn {
+        width: 22px;
+        height: 22px;
+        border: none;
+        background: transparent;
+        color: #8a94a6;
+        border-radius: 6px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        flex: 0 0 22px;
+        transition: background 0.15s, color 0.15s;
+    }
+
+    .icons-app .copy-btn:hover {
+        color: #2563eb;
+        background: rgba(37, 99, 235, 0.08);
+    }
+
+    .icons-app .copy-btn.copied { color: #159957; }
+    .icons-app .copy-btn svg { width: 14px; height: 14px; }
+
+    .icons-app .empty {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 3rem 1rem;
+        color: #6b7280;
+    }
+
+    .icons-app .empty svg { width: 42px; height: 42px; margin-bottom: 0.8rem; opacity: 0.45; }
+
+    .toast {
+        position: fixed;
+        left: 50%;
+        bottom: 1rem;
+        transform: translateX(-50%) translateY(70px);
+        opacity: 0;
+        transition: transform 0.22s ease, opacity 0.22s ease;
+        background: #1f2937;
+        color: #fff;
+        border-radius: 999px;
+        padding: 0.55rem 0.9rem;
+        font-size: 0.8rem;
+        box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
+        pointer-events: none;
+        z-index: 200;
+    }
+
+    .toast.show {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+</style>
+
+<script>
+    const icons = [
+        { name: "sort descent", xaml: "&#xe800;", code: "\\ue800", glyph: "images/sort-descent.png" },
+        { name: "star-empty", xaml: "&#xe801;", code: "\\ue801", glyph: "images/star-empty.png" },
+        { name: "filter", xaml: "&#xe802;", code: "\\ue802", glyph: "images/filter.png" },
+        { name: "sort ascent", xaml: "&#xe803;", code: "\\ue803", glyph: "images/sort-ascent.png" },
+        { name: "group", xaml: "&#xe804;", code: "\\ue804", glyph: "images/group.png" },
+        { name: "star", xaml: "&#xe805;", code: "\\ue805", glyph: "images/star.png" },
+        { name: "right-dir", xaml: "&#xe806;", code: "\\ue806", glyph: "images/right-dir.png" },
+        { name: "dots vert", xaml: "&#xe807;", code: "\\ue807", glyph: "images/dots-vert.png" },
+        { name: "menu", xaml: "&#xf008;", code: "\\uf008", glyph: "images/menu.png" },
+        { name: "check", xaml: "&#xe876;", code: "\\ue876", glyph: "images/check.png" },
+        { name: "cancel", xaml: "&#xe877;", code: "\\ue877", glyph: "images/cancel.png" },
+        { name: "dot", xaml: "&#xe80b;", code: "\\ue80b", glyph: "images/dot.png" },
+        { name: "dot-3", xaml: "&#xe80c;", code: "\\ue80c", glyph: "images/dot-3.png" },
+        { name: "down-dir", xaml: "&#xe80d;", code: "\\ue80d", glyph: "images/down-dir.png" },
+        { name: "chevron left", xaml: "&#xe80e;", code: "\\ue80e", glyph: "images/chevron-left.png" },
+        { name: "configure", xaml: "&#xe80f;", code: "\\ue80f", glyph: "images/configure.png" },
+        { name: "search", xaml: "&#xe810;", code: "\\ue810", glyph: "images/search.png" },
+        { name: "up-dir", xaml: "&#xe811;", code: "\\ue811", glyph: "images/up-dir.png" },
+        { name: "pattern", xaml: "&#xe812;", code: "\\ue812", glyph: "images/pattern.png" },
+        { name: "add", xaml: "&#xe813;", code: "\\ue813", glyph: "images/add.png" },
+        { name: "right-dir-outlines", xaml: "&#xe814;", code: "\\ue814", glyph: "images/right-dir-outlines.png" },
+        { name: "info", xaml: "&#xe815;", code: "\\ue815", glyph: "images/info.png" },
+        { name: "down-dir-outlines", xaml: "&#xe816;", code: "\\ue816", glyph: "images/down-dir-outlines.png" },
+        { name: "bin-solid", xaml: "&#xe817;", code: "\\ue817", glyph: "images/bin-solid.png" },
+        { name: "edit", xaml: "&#xe818;", code: "\\ue818", glyph: "images/edit.png" },
+        { name: "copy", xaml: "&#xe819;", code: "\\ue819", glyph: "images/copy.png" },
+        { name: "arrow-up", xaml: "&#xe81a;", code: "\\ue81a", glyph: "images/arrow-up.png" },
+        { name: "airplane", xaml: "&#xe81c;", code: "\\ue81c", glyph: "images/airplane.png" },
+        { name: "pdf", xaml: "&#xe81d;", code: "\\ue81d", glyph: "images/pdf.png" },
+        { name: "encoding", xaml: "&#xe81e;", code: "\\ue81e", glyph: "images/encoding.png" },
+        { name: "length", xaml: "&#xe81f;", code: "\\ue81f", glyph: "images/length.png" },
+        { name: "arrow-right", xaml: "&#xe820;", code: "\\ue820", glyph: "images/arrow-right.png" },
+        { name: "contacts", xaml: "&#xe821;", code: "\\ue821", glyph: "images/contacts.png" },
+        { name: "cog-outlines", xaml: "&#xe822;", code: "\\ue822", glyph: "images/cog-outlines.png" },
+        { name: "type", xaml: "&#xe823;", code: "\\ue823", glyph: "images/type.png" },
+        { name: "location", xaml: "&#xe83d;", code: "\\ue83d", glyph: "images/location.png" },
+        { name: "link", xaml: "&#xe83e;", code: "\\ue83e", glyph: "images/link.png" },
+        { name: "archive", xaml: "&#xe826;", code: "\\ue826", glyph: "images/archive.png" },
+        { name: "bin", xaml: "&#xe827;", code: "\\ue827", glyph: "images/bin.png" },
+        { name: "draft", xaml: "&#xe828;", code: "\\ue828", glyph: "images/draft.png" },
+        { name: "folder-open", xaml: "&#xe829;", code: "\\ue829", glyph: "images/folder-open.png" },
+        { name: "folder", xaml: "&#xe82a;", code: "\\ue82a", glyph: "images/folder.png" },
+        { name: "group", xaml: "&#xe82b;", code: "\\ue82b", glyph: "images/group.png" },
+        { name: "item", xaml: "&#xe82c;", code: "\\ue82c", glyph: "images/item.png" },
+        { name: "sent", xaml: "&#xe82d;", code: "\\ue82d", glyph: "images/sent.png" },
+        { name: "spam", xaml: "&#xe82e;", code: "\\ue82e", glyph: "images/spam.png" },
+        { name: "warning", xaml: "&#xe82f;", code: "\\ue82f", glyph: "images/warning.png" },
+        { name: "lock", xaml: "&#xe830;", code: "\\ue830", glyph: "images/lock.png" },
+        { name: "thickness", xaml: "&#xe831;", code: "\\ue831", glyph: "images/thickness.png" },
+        { name: "car", xaml: "&#xe832;", code: "\\ue832", glyph: "images/car.png" },
+        { name: "shopping-bag", xaml: "&#xe833;", code: "\\ue833", glyph: "images/shopping-bag.png" },
+        { name: "coffee-cup", xaml: "&#xe834;", code: "\\ue834", glyph: "images/coffee-cup.png" },
+        { name: "get-money", xaml: "&#xe835;", code: "\\ue835", glyph: "images/get-money.png" },
+        { name: "shopping-user", xaml: "&#xe836;", code: "\\ue836", glyph: "images/shopping-user.png" },
+        { name: "group users", xaml: "&#xe837;", code: "\\ue837", glyph: "images/group-users.png" },
+        { name: "dashboard", xaml: "&#xe838;", code: "\\ue838", glyph: "images/dashboard.png" },
+        { name: "first", xaml: "&#xe839;", code: "\\ue839", glyph: "images/first.png" },
+        { name: "cake", xaml: "&#xe83a;", code: "\\ue83a", glyph: "images/cake.png" },
+        { name: "chat", xaml: "&#xe83b;", code: "\\ue83b", glyph: "images/chat.png" },
+        { name: "book", xaml: "&#xe83c;", code: "\\ue83c", glyph: "images/book2.png" },
+        { name: "assets", xaml: "&#xe846;", code: "\\ue846", glyph: "images/assets2.png" },
+        { name: "book", xaml: "&#xe847;", code: "\\ue847", glyph: "images/book2.png" },
+        { name: "cancel", xaml: "&#xe851;", code: "\\ue851", glyph: "images/cancel2.png" },
+        { name: "design", xaml: "&#xe848;", code: "\\ue848", glyph: "images/design.png" },
+        { name: "graphics", xaml: "&#xe849;", code: "\\ue849", glyph: "images/graphics.png" },
+        { name: "picture", xaml: "&#xe852;", code: "\\ue852", glyph: "images/picture.png" },
+        { name: "font-size", xaml: "&#xe84b;", code: "\\ue84b", glyph: "images/font-size.png" },
+        { name: "template", xaml: "&#xe84c;", code: "\\ue84c", glyph: "images/template.png" },
+        { name: "wireframes", xaml: "&#xe84d;", code: "\\ue84d", glyph: "images/wireframes.png" },
+        { name: "distance", xaml: "&#xe84e;", code: "\\ue84e", glyph: "images/distance.png" },
+        { name: "stopwatch", xaml: "&#xe84f;", code: "\\ue84f", glyph: "images/stopwatch.png" },
+        { name: "play", xaml: "&#xe850;", code: "\\ue850", glyph: "images/play.png" },
+        { name: "code", xaml: "&#xe854;", code: "\\ue854", glyph: "images/code.png" },
+        { name: "analysis", xaml: "&#xe855;", code: "\\ue855", glyph: "images/analysis.png" },
+        { name: "network", xaml: "&#xe856;", code: "\\ue856", glyph: "images/network.png" },
+        { name: "network", xaml: "&#xe857;", code: "\\ue857", glyph: "images/network2.png" },
+        { name: "bar-chart", xaml: "&#xe858;", code: "\\ue858", glyph: "images/bar-chart.png" },
+        { name: "sap", xaml: "&#xe859;", code: "\\ue859", glyph: "images/sap.png" },
+        { name: "dba", xaml: "&#xe85a;", code: "\\ue85a", glyph: "images/dba.png" },
+        { name: "home", xaml: "&#xe85b;", code: "\\ue85b", glyph: "images/home.png" },
+        { name: "temperature", xaml: "&#xe85c;", code: "\\ue85c", glyph: "images/temperature.png" },
+        { name: "phone", xaml: "&#xe85d;", code: "\\ue85d", glyph: "images/phone.png" },
+        { name: "electricity", xaml: "&#xe85e;", code: "\\ue85e", glyph: "images/electricity.png" },
+        { name: "wifi", xaml: "&#xe85f;", code: "\\ue85f", glyph: "images/wifi.png" },
+        { name: "distance-horizontal", xaml: "&#xe860;", code: "\\ue860", glyph: "images/distance-horizontal.png" },
+        { name: "calendar dayview", xaml: "&#xe861;", code: "\\ue861", glyph: "images/calendar-dayview.png" },
+        { name: "calendar multiday", xaml: "&#xe862;", code: "\\ue862", glyph: "images/calendar-multiday.png" },
+        { name: "calendar week", xaml: "&#xe863;", code: "\\ue863", glyph: "images/calendar-week.png" },
+        { name: "calendar month", xaml: "&#xe864;", code: "\\ue864", glyph: "images/calendar-month.png" },
+        { name: "calendar year", xaml: "&#xe865;", code: "\\ue865", glyph: "images/calendar-year.png" },
+        { name: "calendar selection single", xaml: "&#xe866;", code: "\\ue866", glyph: "images/calendar-selection-single.png" },
+        { name: "calendar selection multiple", xaml: "&#xe867;", code: "\\ue867", glyph: "images/calendar-selection-multiple.png" },
+        { name: "calendar selection range", xaml: "&#xe868;", code: "\\ue868", glyph: "images/calendar-selection-range.png" },
+        { name: "gallery", xaml: "&#xe869;", code: "\\ue869", glyph: "images/gallery.png" },
+        { name: "camera", xaml: "&#xe86a;", code: "\\ue86a", glyph: "images/camera.png" },
+        { name: "crop free", xaml: "&#xe86b;", code: "\\ue86b", glyph: "images/crop-free.png" },
+        { name: "crop original", xaml: "&#xe86c;", code: "\\ue86c", glyph: "images/crop-original.png" },
+        { name: "crop rect", xaml: "&#xe86d;", code: "\\ue86d", glyph: "images/crop-rect.png" },
+        { name: "crop circular", xaml: "&#xe86e;", code: "\\ue86e", glyph: "images/crop-circular.png" },
+        { name: "badge", xaml: "&#xe86f;", code: "\\ue86f", glyph: "images/badge.png" },
+        { name: "notes", xaml: "&#xe870;", code: "\\ue870", glyph: "images/notes.png" },
+        { name: "time", xaml: "&#xe871;", code: "\\ue871", glyph: "images/time.png" },
+        { name: "calendar agenda", xaml: "&#xe872;", code: "\\ue872", glyph: "images/calendar-agenda.png" },
+        { name: "arrows", xaml: "&#xe873;", code: "\\ue873", glyph: "images/arrows.png" },
+        { name: "video-camera", xaml: "&#xe87;", code: "\\ue874", glyph: "images/video-camera.png" },
+        { name: "check", xaml: "&#xe878;", code: "\\ue878", glyph: "images/time.png" },
+        { name: "cancel", xaml: "&#xe887;", code: "\\ue887", glyph: "images/phone.png" },
+        { name: "text", xaml: "&#xe853;", code: "\\ue853", glyph: "images/text.png" },
+        { name: "arrow-down", xaml: "&#xe879;", code: "\\ue879", glyph: "images/arrow-down.png" },
+        { name: "flag", xaml: "&#xe87a;", code: "\\ue87a", glyph: "images/flag.png" },
+        { name: "save", xaml: "&#xe87b;", code: "\\ue87b", glyph: "images/save.png" },
+        { name: "share", xaml: "&#xe87c;", code: "\\ue87c", glyph: "images/share.png" },
+        { name: "menu-custom", xaml: "&#xe87d;", code: "\\ue87d", glyph: "images/menu-custom.png" },
+        { name: "heart-filled", xaml: "&#xe87e;", code: "\\ue87e", glyph: "images/heart-filled.png" },
+        { name: "heart-empty", xaml: "&#xe87f;", code: "\\ue87f", glyph: "images/heart-empty.png" },
+        { name: "reorder", xaml: "&#xe881;", code: "\\ue881", glyph: "images/reorder.png" },
+        { name: "arrow-box-left", xaml: "&#xe882;", code: "\\ue882", glyph: "images/arrow-box-left.png" },
+        { name: "arrow-box-right", xaml: "&#xe883;", code: "\\ue883", glyph: "images/arrow-box-right.png" },
+        { name: "bell", xaml: "&#xe88a;", code: "\\ue88a", glyph: "images/bell.png" },
+        { name: "chat", xaml: "&#xe88b;", code: "\\ue88b", glyph: "images/chat.png" },
+        { name: "phone", xaml: "&#xe904;", code: "\\ue887", glyph: "images/phone.png" },
+        { name: "unpin", xaml: "&#xe88e;", code: "\\ue88e", glyph: "images/unpin.png" },
+        { name: "pin", xaml: "&#xe88f;", code: "\\ue88f", glyph: "images/pin.png" },
+        { name: "excel", xaml: "&#xe896;", code: "\\ue896", glyph: "images/excel.png" },
+        { name: "powerpoint", xaml: "&#xe897;", code: "\\ue897", glyph: "images/powerpoint.png" },
+        { name: "word", xaml: "&#xe898;", code: "\\ue898", glyph: "images/word.png" },
+        { name: "pdf", xaml: "&#xe899;", code: "\\ue899", glyph: "images/pdf.png" },
+        { name: "last", xaml: "&#xe89a;", code: "\\ue89a", glyph: "images/last.png" },
+        { name: "expand", xaml: "&#xe89b;", code: "\\ue89b", glyph: "images/expand.png" },
+        { name: "expand 2", xaml: "&#xe89c;", code: "\\ue89c", glyph: "images/expand2.png" },
+        { name: "paint bucket", xaml: "&#xe89d;", code: "\\ue89d", glyph: "images/paint-bucket.png" },
+        { name: "mail", xaml: "&#xe89e;", code: "\\ue89e", glyph: "images/mail.png" },
+        { name: "promotion", xaml: "&#xe89f;", code: "\\ue89f", glyph: "images/promotion.png" },
+        { name: "scheduled", xaml: "&#xe8a0;", code: "\\ue8a0", glyph: "images/scheduled.png" },
+        { name: "label", xaml: "&#xe8a1;", code: "\\ue8a1", glyph: "images/label.png" },
+        { name: "drawer", xaml: "&#xe8a2;", code: "\\ue8a2", glyph: "images/drawer.png" },
+        { name: "social", xaml: "&#xe8a3;", code: "\\ue8a3", glyph: "images/social.png" },
+        { name: "shipping", xaml: "&#xe8a6;", code: "\\ue8a6", glyph: "images/shipping.png" },
+        { name: "products", xaml: "&#xe8a7;", code: "\\ue8a7", glyph: "images/products.png" },
+        { name: "customer", xaml: "&#xe8a8;", code: "\\ue8a8", glyph: "images/customer.png" },
+        { name: "export", xaml: "&#xe8a9;", code: "\\ue8a9", glyph: "images/export.png" },
+        { name: "info-outlines", xaml: "&#xe8ac;", code: "\\ue8ac", glyph: "images/info-outlines.png" },
+        { name: "contract", xaml: "&#xe8dd;", code: "\\ue8dd", glyph: "images/contract.png" },
+        { name: "enlarge", xaml: "&#xe8de;", code: "\\ue8de", glyph: "images/enlarge.png" },
+        { name: "translate", xaml: "&#xe8df;", code: "\\ue8df", glyph: "images/translate.png" },
+        { name: "emoji", xaml: "&#xe900;", code: "\\ue900", glyph: "images/emoji.png" },
+        { name: "brightness", xaml: "&#xe901;", code: "\\ue901", glyph: "images/brightness.png" },
+        { name: "flip-vertical", xaml: "&#xe902;", code: "\\ue902", glyph: "images/flip-vertical.png" },
+        { name: "flip-horizontal", xaml: "&#xe903;", code: "\\ue903", glyph: "images/flip-horizontal.png" },
+        { name: "rotate-cw", xaml: "&#xe904;", code: "\\ue904", glyph: "images/rotate-cw.png" },
+        { name: "rotate-ccw", xaml: "&#xe905;", code: "\\ue905", glyph: "images/rotate-ccw.png" },
+        { name: "crop", xaml: "&#xe906;", code: "\\ue906", glyph: "images/crop.png" },
+        { name: "hue", xaml: "&#xe907;", code: "\\ue907", glyph: "images/hue.png" },
+        { name: "link-external", xaml: "&#xf08e;", code: "\\uf08e", glyph: "images/link-external.png" },
+        { name: "plus-squared", xaml: "&#xf0fe;", code: "\\uf0fe", glyph: "images/plus-squared.png" },
+        { name: "angle-left", xaml: "&#xf104;", code: "\\uf104", glyph: "images/angle-left.png" },
+        { name: "angle-right", xaml: "&#xf105;", code: "\\uf105", glyph: "images/angle-right.png" },
+        { name: "angle-up", xaml: "&#xf106;", code: "\\uf106", glyph: "images/angle-up.png" },
+        { name: "angle-down", xaml: "&#xf107;", code: "\\uf107", glyph: "images/angle-down.png" },
+        { name: "spinner", xaml: "&#xf110;", code: "\\uf110", glyph: "images/spinner.png" },
+        { name: "arrow-circled-left", xaml: "&#xf137;", code: "\\uf137", glyph: "images/arrow-circled-left.png" },
+        { name: "arrow-circled-right", xaml: "&#xf138;", code: "\\uf138", glyph: "images/arrow-circled-right.png" },
+        { name: "minus-squared", xaml: "&#xf146;", code: "\\uf146", glyph: "images/minus-squared.png" },
+        { name: "minus-squared-alt", xaml: "&#xf147;", code: "\\uf147", glyph: "images/minus-squared-alt.png" },
+        { name: "plus-squared-alt", xaml: "&#xf196;", code: "\\uf196", glyph: "images/plus-squared-alt.png" },
+        ];
+
+    const grid = document.getElementById("grid");
+    const toast = document.getElementById("toast");
+
+    function showToast(msg = "Copied!") {
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 1800);
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        btn.classList.add("copied");
+        showToast();
+        setTimeout(() => btn.classList.remove("copied"), 1500);
+      });
+    }
+
+    function render(list) {
+      if (!list.length) {
+        grid.innerHTML = `
+          <div class="empty">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <p>No icons found</p>
+          </div>`;
+        return;
+      }
+
+      grid.innerHTML = list.map(icon => `
+        <article class="icon-card" data-name="${escapeHtml(icon.name)}">
+          <div class="card-head">
+            ${icon.sourceIssue ? '<span class="source-warning" title="Official Telerik docs currently contain inconsistent XAML/Code values for this row"></span>' : ''}
+            <div class="icon-preview" title="${escapeHtml(icon.name)}">${escapeHtml(icon.glyph)}</div>
+            <div class="icon-name">${escapeHtml(icon.name)}</div>
+          </div>
+          <div class="code-row">
+            <div class="code-item">
+              <span class="code-label">XAML</span>
+              <span class="code-value">${escapeHtml(icon.xaml)}</span>
+              <button class="copy-btn" title="Copy XAML" data-copy="${escapeHtml(icon.xaml)}" onclick="copyText(this.dataset.copy, this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+            <div class="code-item">
+              <span class="code-label">Code</span>
+              <span class="code-value">${escapeHtml(icon.code)}</span>
+              <button class="copy-btn" title="Copy Code" data-copy="${escapeHtml(icon.code)}" onclick="copyText(this.dataset.copy, this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>`).join("");
+    }
+
+    render(icons);
+</script>
