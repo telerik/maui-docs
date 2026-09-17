@@ -17,6 +17,8 @@ This article describes all configuration options available in the .NET MAUI Tool
 
 ![.NET MAUI Toolbar Orientation](images/toolbar-orientation.png)
 
+> For a runnable example with the Toolbar Orientation scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Toolbar > Configuration** category.
+
 ## Spacing between the toolbar items
 
 * `ItemSpacing`(`double`)&mdash;Specifies the spacing in pixels between the items in the toolbar. The default value is `8`.

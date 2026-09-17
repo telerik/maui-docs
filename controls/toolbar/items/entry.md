@@ -42,20 +42,20 @@ In addition to the `Style` property that is specific to the Telerik `EntryToolba
 * `HorizontalOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the horizontal alignment options of the content displayed in the toolbar item.
 * `VerticalOptions`(enum of type `Microsoft.Maui.Controls.LayoutOptions`)&mdash;Specifies the vertical alignment options of the content displayed in the toolbar item.
 
-The following example demonstrates how to style the `EntryToolbarItem`.
+The following example demonstrates how to style the `EntryToolbarItem` using implicit style.
 
 **1.** Apply the style in the resources:
 
-```XAML
-<Style TargetType="telerik:RadEntry" x:Key="entryStyle">
-    <Setter Property="Placeholder" Value="EntryToolbar"/>
-</Style>
-```
+<snippet id='toolbar-visual-states-entry-style'/>
+
 
 **2.** Add the `EntryToolbarItem` definition:
 
 ```XAML
- <telerik:EntryToolbarItem EntryStyle="{StaticResource entryStyle}"/>
+<Style TargetType="telerik:EntryToolbarItemView">
+    <Setter Property="EntryStyle" Value="{StaticResource entryStyle}" />
+    <Setter Property="WidthRequest" Value="220" />
+</Style>
 ```
 
 ## See Also

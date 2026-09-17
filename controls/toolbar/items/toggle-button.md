@@ -35,6 +35,10 @@ The available commands are:
 
 All other properties that can be applied through style are the properties applicable for [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling)
 
+>caption Here is an example of how to style the `ToggleButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-selectable-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

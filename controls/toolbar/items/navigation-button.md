@@ -35,6 +35,10 @@ The available commands are:
 
 Use the `Style` property with target type `Telerik.Maui.Controls.NavigationButtonToolbarItemView`. Use all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling) in the `NavigationButtonToolbarItemView`.
 
+>caption Here is an example of how to style the `NavigationButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-button-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

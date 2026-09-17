@@ -48,6 +48,10 @@ The available properties are:
 
 All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling).
 
+>caption Here is an example of how to style the `LabelToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-label-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

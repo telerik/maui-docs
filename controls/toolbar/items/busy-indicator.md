@@ -25,21 +25,15 @@ The following example demonstrates how to style the `BusyIndicatorToolbarItem`.
 
 **1.** The style applied in the resources:
 
-```XAML
-<Style TargetType="telerik:RadBusyIndicator" x:Key="busy">
-    <Setter Property="AnimationContentColor" Value="Red"/>
-    <Setter Property="AnimationType" Value="Animation3"/>
-</Style>
-            
-<Style TargetType="telerik:BusyIndicatorToolbarItemView" x:Key="busyStyle">
-    <Setter Property="BusyIndicatorStyle" Value="{StaticResource busy}"/>
-</Style>
-```
+<snippet id='toolbar-visual-states-busyindicator-style'/>
 
 **2.** The BusyIndicatorToolbarItem definition:
 
 ```XAML
-<telerik:BusyIndicatorToolbarItem IsBusy="True" Style="{StaticResource busyStyle}"/>
+<Style TargetType="telerik:BusyIndicatorToolbarItemView">
+    <Setter Property="BusyIndicatorStyle" Value="{StaticResource busyIndicatorStyle}" />
+    <Setter Property="HorizontalOptions" Value="Start" />
+</Style>
 ```
 
 ## See Also
