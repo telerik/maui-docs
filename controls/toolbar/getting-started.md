@@ -61,8 +61,10 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-}           
+}
 ```
+
+> For a runnable example with the Toolbar Getting Started scenario, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Toolbar > Getting Started** category.
 
 ## Additional Resources
 

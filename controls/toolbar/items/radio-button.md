@@ -34,6 +34,10 @@ The available commands are:
 
 Use the `Style` property with target type `Telerik.Maui.Controls.RadioButtonToolbarItemView`. The properties that can be applied through style are: `IsSelected` and all properties available for the [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling).
 
+>caption Here is an example of how to style the `RadioButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-selectable-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

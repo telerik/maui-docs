@@ -45,7 +45,9 @@ The available commands are:
 
 All other properties that can be applied through style are the properties applicable for [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
-<snippet id='imageeditor-styling-button-toolbar-style'/>
+>caption Here is an example of how to style the `ButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-button-style'/>
 
 ## See Also
 

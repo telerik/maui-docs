@@ -30,7 +30,53 @@ Style the Toolbar using the following properties:
 
 ## Styling the toolbar items
 
-All styling options applicable for the toolbar items are described in each toolbar item article.
+@[template](/_contentTemplates/controls/toolbar.md#toolbar-styling)
+
+## Example
+
+Use visual states in the toolbar items to change their appearance when they are in different states. For example, you can change the background color of a button when it is pressed or hovered over.
+
+1. Define the toolbar items in XAML:
+
+<snippet id='toolbar-visual-states'/>
+
+2. Define the `telerik` namespace:
+
+```
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+3. Define the visual states for the toolbar items in XAML:
+
+>caption For `ButtonToolbarItem`, `DropDownButtonToolbarItem`, `ListPickerToolbarItem`, `OptionsButtonToolbarItem`, and `NavigationButtonToolbarItem`:
+
+<snippet id='toolbar-visual-states-button-style'/>
+
+>caption For `LabelToolbarItem`:
+
+<snippet id='toolbar-visual-states-label-style'/>
+
+>caption For `EntryToolbarItem`:
+
+<snippet id='toolbar-visual-states-entry-style'/>
+
+>caption For `ToggleButtonToolbarItem` and `RadioButtonToolbarItem`:
+
+<snippet id='toolbar-visual-states-selectable-style'/>
+
+>caption For `SplitButtonToolbarItem`:
+
+<snippet id='toolbar-visual-states-splitbutton-style'/>
+
+>caption For `OverflowMenuButtonToolbarItem`:
+
+<snippet id='toolbar-visual-states-overflow-menu-button-style'/>
+
+>caption For `BusyIndicatorToolbarItem`:
+
+<snippet id='toolbar-visual-states-busyindicator-style'/>
+
+> For a runnable example with the Toolbar Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Toolbar > Visual States** category.
 
 ## See Also
 

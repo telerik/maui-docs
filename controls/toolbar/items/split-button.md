@@ -23,6 +23,10 @@ The exposed property is `Items`(of type `IList<ToolbarItem>`)&mdash;Read-only co
 
 The properties that can be applied through style are the properties applicable for [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
+>caption Here is an example of how to style the `SplitButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-splitbutton-style'/>
+
 ## See Also
 
 - [ToggleButton ToolbarItem]({%slug toolbar-items-toggle-button%})

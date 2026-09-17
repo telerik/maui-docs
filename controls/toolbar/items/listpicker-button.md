@@ -45,6 +45,11 @@ Style the `ListPickerButtonToolbarItem` using the following properties:
 	* `ItemsSource`(`IList`)&mdash;Specifies a collection of items to display in the list.
     * All properties applicable in [DropDownButtonToolbarItemView]({%slug toolbar-items-dropdown-button%}#styling), [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [ToolbarItemView]({%slug toolbar-items%}#styling) and [LabelToolbarItemView]({%slug toolbar-items-label%}#styling).
 
+
+>caption Here is an example of how to style the `ListPickerButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-button-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})

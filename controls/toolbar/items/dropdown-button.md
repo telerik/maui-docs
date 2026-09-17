@@ -48,6 +48,14 @@ The available commands are:
 
 All other properties that can be applied through style are the properties applicable for [ButtonToolbarItemView]({%slug toolbar-items-button%}#styling), [LabelToolbarItemView]({%slug toolbar-items-label%}#styling) and [ToolbarItemView]({%slug toolbar-items%}#styling).
 
+>caption Here is an example of how to style the `DropDownButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-button-style'/>
+
+>caption Here is an example of how to style the content of the `DropDownButtonToolbarItem` and setting the visual states:
+
+<snippet id='toolbar-visual-states-dropdown-content-style'/>
+
 ## See Also
 
 - [SplitButton ToolbarItem]({%slug toolbar-items-split-button%})
