@@ -6,7 +6,7 @@ publish: false
 
 # Telerik UI for MAUI Public Documentation
 
-Welcome to the GitHub repo for [Telerik UI for MAUI](http://docs.telerik.com/devtools/maui) documentation. This repository contains the source content — written in Markdown — that we use to power the Telerik UI for MAUI Documentation at [docs.telerik.com/devtools/maui](http://docs.telerik.com/devtools/maui). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [docs.telerik.com/devtools/maui/](http://docs.telerik.com/devtools/maui) where our content is prettified and searchable.
+Welcome to the GitHub repo for [Telerik UI for MAUI](https://www.telerik.com/maui-ui/documentation) documentation. This repository contains the source content — written in Markdown — that we use to power the Telerik UI for MAUI Documentation at [telerik.com/maui-ui/documentation](https://www.telerik.com/maui-ui/documentation). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [telerik.com/maui-ui/documentation](https://www.telerik.com/maui-ui/documentation) where our content is prettified and searchable.
 
 We believe that the documentation for a product is at its best when the content is a collaboration between the builders and consumers of that product. As such, this documentation is both public, and open sourced under and MIT license (see below). That means you can clone this repository, read the docs off line, or even load the entire thing to an Apple Newton, if that's your thing.
 
@@ -58,24 +58,26 @@ There are two ways you can contribute to the public Telerik UI for MAUI document
 
     Once you've made your changes, commit, pull, merge, push and [send us a pull request](https://help.github.com/articles/using-pull-requests)! We — and MAUI users everywhere — thank you for making our docs the best front-end library documentation on the web!
 
-## Running locally
+## Offline PDF Version
 
-You can generate a static web site from the Telerik UI for MAUI the documentation and browse it locally.
+You can download a PDF with this documentation from [your telerik.com account](https://www.telerik.com/account). Go to the **Downloads** section, navigate to **UI for MAUI**, choose the version you want from the dropdown, and get the PDF file under the **Documentation** section.
 
-Detailed instructions on how to achieve this can be found in the [docs-seed repository](https://github.com/telerik/docs-seed#local-setup).
-        
+## Useful Links
+
+* Browse the [Telerik UI for .NET MAUI Demo Applications](https://www.telerik.com/maui-ui/documentation/demos-and-sample-apps/overview)
+* Browse the [Telerik UI for .NET MAUI Documentation](https://www.telerik.com/maui-ui/documentation)
+* Browse the Telerik UI for .NET MAUI [AI Controls and Features](https://www.telerik.com/maui-ui/documentation/aicomponents)
 
 ## License
 
-The Telerik UI for MAUI Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik UI for MAUI.
+The Telerik UI for .NET MAUI Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik UI for MAUI.
 
 ### MIT License
 
-Copyright (c) 2012-2020 Telerik
+Copyright (c) 2012-2026 Telerik
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software" ), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
