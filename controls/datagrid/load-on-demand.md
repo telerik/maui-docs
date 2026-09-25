@@ -69,7 +69,21 @@ Eventually, you need to add this custom command to the `Commands` collection of 
 
 Besides the different approaches for loading the data, the DataGrid exposes several mechanisms related to the styling of the functionality which you can use according to the approach you have chosen.
 
-### Load-More-Button Row
+### Style the loading indicator when `LoadOnDemandMode` is `Automatic`
+
+A loading indicator is visualized when automatically load data on demand. To style the appearance of the indicator, you have to use an implicit style. The control is the [`RadBusyIndicator`]({%slug busyindicator-overview%}), so you have to set the `TargetType` property of the style to `telerik:RadBusyIndicator`:
+
+```XAML
+ <Style TargetType="telerik:RadBusyIndicator">
+     <Setter Property="AnimationContentWidthRequest" Value="80" />
+     <Setter Property="AnimationContentHeightRequest" Value="100" />
+     <Setter Property="AnimationContentColor" Value="LightBlue" />
+     <Setter Property="AnimationType" Value="Animation5" />
+     <Setter Property="BackgroundColor" Value="LightCoral" />
+ </Style>
+```
+
+### Style the Load-More-Button Row when `LoadOnDemandMode` is `Manual`
 
 The `LoadOnDemandRowStyle` property can be used to style the appearance of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
@@ -85,7 +99,7 @@ You have to set it to the `LoadOnDemandRowStyle` property of the DataGrid:
 
 ![Telerik UI for .NET MAUI DataGrid load on demand row with a customized Load More button style](images/datagrid-rowstyle.png)
 
-### Load-More-Button Row Template
+### Style the Load-More-Button Row Template when `LoadOnDemandMode` is `Manual`
 
 The `LoadOnDemandRowTemplate` property can be used to set the template of the row that contains the **Load More** button when the `LoadOnDemandMode` is `Manual`.
 
