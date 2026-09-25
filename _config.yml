@@ -265,6 +265,9 @@ navigation:
     controls/datagrid/aggregates:
         title: "Aggregates"
         position: 10
+    controls/datagrid/load-on-demand:
+        title: "Load On Demand"
+        position: 16
     controls/datagrid/commands:
         title: "Commands"
         position: 16
