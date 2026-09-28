@@ -6,6 +6,7 @@ slug: install-trial
 tags: .net maui, ui for .net maui, automatic installation, free trial
 previous_url: /installation/install-trial
 position: 2
+components: ["general"]
 ---
 
 # Starting a Trial

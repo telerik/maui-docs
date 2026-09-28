@@ -5,6 +5,7 @@ description: Get started with the Telerik UI for .NET MAUI controls by following
 slug: video-onboarding
 tags: dotnetmaui, onboarding
 position: 10
+components: ["general"]
 ---
 
 # Video Onboarding

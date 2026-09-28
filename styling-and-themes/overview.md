@@ -5,6 +5,7 @@ description: The Telerik UI for .NET MAUI suite comes with a built-in theme with
 slug: themes-overview
 tags: telerik,.net maui,theme,built-in
 position: 0
+components: ["general"]
 ---
 
 # Theming Overview

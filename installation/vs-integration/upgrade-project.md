@@ -5,6 +5,7 @@ description: Learn how to upgrade a Telerik UI for .NET MAUI project with the Vi
 slug: vs-integration-upgrade-project
 position: 6
 tag: new
+components: ["general"]
 ---
 
 # Upgrading Projects

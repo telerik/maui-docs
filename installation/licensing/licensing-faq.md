@@ -5,6 +5,7 @@ description: Learn what can cause an invalid license for Telerik UI for .NET MAU
 slug: licensing-faq
 tags: maui,components,license,activate,download,error,warning,questions,faq
 position: 3
+components: ["general"]
 ---
 
 # Frequently Asked Questions About Installing Telerik UI for .NET MAUI License Key

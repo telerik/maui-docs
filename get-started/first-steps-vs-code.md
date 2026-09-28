@@ -7,6 +7,7 @@ slug: maui-getting-started-vs-code
 position: 3
 published: false
 previous_url: /installation/mac/install-pkg, /get-started/mac/first-steps-nuget, /get-started/mac/first-steps-pkg
+components: ["general"]
 ---
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio Code

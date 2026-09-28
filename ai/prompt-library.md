@@ -4,6 +4,7 @@ page_title: Telerik UI for .NET MAUI Prompt Library
 description: Explore the extensive collection of prompts that you can use with the Telerik UI for MAUI AI Coding Assistant.
 slug: ai-prompt-library
 position: 3
+components: ["general"]
 ---
 
 # Telerik UI for MAUI Prompt Library

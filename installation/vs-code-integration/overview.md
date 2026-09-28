@@ -4,6 +4,7 @@ page_title: Visual Studio Code Integration Overview
 description: Learn how to enhance your experience in developing .NET MAUI applications with the Telerik UI for .NET MAUI.
 slug: getting-started-vs-code-integration-overview
 position: 0
+components: ["general"]
 ---
 
 # Visual Studio Code Integration Overview

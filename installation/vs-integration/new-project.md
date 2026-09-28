@@ -5,6 +5,7 @@ description: Learn how to create a new Telerik UI for .NET MAUI project with the
 slug: vs-integration-new-project
 position: 1
 previous_url: /installation/windows/vs-template
+components: ["general"]
 ---
 
 # Creating New Projects

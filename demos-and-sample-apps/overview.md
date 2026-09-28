@@ -6,6 +6,7 @@ slug: sampleapps-overview
 tags: .net maui, ui for .net maui, .net maui controls, sample applications, demos, .net maui samples
 position: 0
 tag: updated
+components: ["general"]
 ---
 
 # .NET MAUI Examples, Demos, and Sample Apps Overview

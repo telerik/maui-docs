@@ -6,6 +6,7 @@ slug: sdkbrowser-app
 tags: .net maui, ui for .net maui, .net maui controls
 previous_url: /demos-and-sample-apps/maui-demo-app
 position: 3
+components: ["general"]
 ---
 
 # SDKBrowser Application

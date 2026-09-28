@@ -6,6 +6,7 @@ slug: telerik-cli
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui, mac, windows
 position: 2
 tag: new
+components: ["general"]
 ---
 
 # Installing Telerik UI for .NET MAUI with Telerik.CLI

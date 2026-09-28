@@ -6,6 +6,7 @@ tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui 
 slug: telerik-nuget-overview
 position: 0
 previous_url: /telerik-nuget-server, /get-started/install-nuget, /installation/install-nuget, /installation/nuget/overview
+components: ["general"]
 ---
 
 # Installing .NET MAUI with NuGet

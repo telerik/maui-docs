@@ -6,6 +6,7 @@ slug: ai-copilot-extension
 published: false
 tags: telerik, maui, ai, dotnetmaui, coding assistant, ai server
 position: 4
+components: ["general"]
 ---
 
 # Telerik MAUI GitHub Copilot Extension

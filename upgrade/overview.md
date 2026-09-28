@@ -5,6 +5,7 @@ description: Learn what are the options for upgrading the Telerik UI for .NET MA
 slug: upgrade-tutorial
 tags: upgrade,tutorial,changes,update
 position: 0
+components: ["general"]
 ---
 
 # Upgrade Your Telerik UI for .NET MAUI Version

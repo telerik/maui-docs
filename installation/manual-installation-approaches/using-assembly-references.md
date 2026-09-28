@@ -6,6 +6,7 @@ slug: assembly-references
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui, mac, windows
 previous_url: /installation/using-assembly-references
 position: 20
+components: ["general"]
 ---
 
 

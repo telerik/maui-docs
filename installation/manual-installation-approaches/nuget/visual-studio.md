@@ -6,6 +6,7 @@ tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui 
 slug: nuget-server-vs
 previous_url: /installation/nuget/visual-studio
 position: 1
+components: ["general"]
 ---
 
 # Installing with NuGet in Visual Studio

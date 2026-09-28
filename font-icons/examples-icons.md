@@ -5,6 +5,7 @@ description: Review the examples icons like filtering, sorting, gallery, avatar 
 slug: telerik-examples-icons
 position: 1
 previous_url: /font-icons/controls-icons
+components: ["general"]
 ---
 
 # Telerik UI for .NET MAUI Examples Icons

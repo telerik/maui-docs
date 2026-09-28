@@ -5,6 +5,7 @@ description: Learn how to use the .NET CLI to add the Telerik NuGet server as a 
 slug: nuget-dotnet-cli
 previous_url: /installation/nuget/using-dotnet-cli
 position: 9
+components: ["general"]
 ---
 
 # Using .NET CLI

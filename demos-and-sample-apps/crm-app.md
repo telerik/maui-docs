@@ -6,6 +6,7 @@ slug: maui-crm-app
 tags: .net maui, ui for .net maui, .net maui controls, crm, application
 position: 2
 tag: new
+components: ["general"]
 ---
 
 # CRM Application

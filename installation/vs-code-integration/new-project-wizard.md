@@ -4,6 +4,7 @@ page_title: Create New Project - Visual Studio Code Integration
 description: Learn how to create a new Telerik UI for .NET MAUI project with our Visual Studio Code Templates.
 slug: getting-started-vs-code-integration-new-project
 position: 1
+components: ["general"]
 ---
 
 # Create New Projects

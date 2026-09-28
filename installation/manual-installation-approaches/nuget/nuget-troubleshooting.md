@@ -7,6 +7,7 @@ tags: telerik, nuget, blazor, ui, troubleshooting, installation
 published: True
 previous_url: /installation/nuget/nuget-troubleshooting
 position: 10
+components: ["general"]
 ---
 
 # Telerik NuGet Feed Troubleshooting

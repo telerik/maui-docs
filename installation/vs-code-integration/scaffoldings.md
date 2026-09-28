@@ -5,6 +5,7 @@ description: Learn how to add predefined screens in your application using the T
 slug: maui-vs-code-scaffoldings
 position: 5
 tags: maui, dotnet maui, item templates, scaffoldings, predefined pages, screens, visual studio code
+components: ["general"]
 ---
 
 # Scaffolding Pages and Screens for Visual Studio Code

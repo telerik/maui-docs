@@ -5,6 +5,7 @@ description: "Find out about the latest changes and improvements in the Telerik 
 slug: ai-coding-assistant-changelog
 position: 4
 tag: updated
+components: ["general"]
 ---
 
 # Telerik UI for .NET MAUI AI Coding Assistant Changelog

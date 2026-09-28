@@ -6,6 +6,7 @@ slug: automated-installer
 tags: .net maui, ui for .net maui, automatic installation, installer
 previous_url: /installation/utomated-installer
 position: 10
+components: ["general"]
 ---
 
 # Using the Automated Installers for Telerik UI for .NET MAUI
