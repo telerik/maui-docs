@@ -6,6 +6,7 @@ slug: control-panel
 tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .net maui
 previous_url: /installation/control-panel
 position: 7
+components: ["general"]
 ---
 
 # Progress Control Panel

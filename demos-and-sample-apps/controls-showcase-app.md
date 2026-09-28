@@ -5,6 +5,7 @@ description: "Learn how to access the Telerik UI for .NET MAUI Controls Samples 
 slug: controls-samples-app
 tags: .net maui, ui for .net maui, .net maui controls, controls samples app, examples, sample application
 position: 1
+components: ["general"]
 ---
 
 # Controls Samples Application

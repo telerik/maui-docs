@@ -6,6 +6,7 @@ tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui 
 slug: nuget-config
 previous_url: /installation/nuget/nuget-config
 position: 5
+components: ["general"]
 ---
 
 # Setting Up the Telerik NuGet Source in NuGet.Config

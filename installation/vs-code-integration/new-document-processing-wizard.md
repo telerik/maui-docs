@@ -4,6 +4,7 @@ page_title: Document Processing Libraries - Visual Studio Code Integration
 description: Learn how to add the Document Processing Libraries to .NET MAUI project with our Visual Studio Code Wizard.
 slug: vscode-add-document-processing-libraries
 position: 1
+components: ["general"]
 ---
 
 # Document Processing Libraries

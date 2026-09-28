@@ -5,6 +5,7 @@ description: "Learn how to download and install the Crypto Tracker Demo App and 
 slug: maui-crypto-app
 tags: .net maui, ui for .net maui, .net maui controls, crypto, tracker, application
 position: 4
+components: ["general"]
 ---
 
 # Crypto Tracker Application

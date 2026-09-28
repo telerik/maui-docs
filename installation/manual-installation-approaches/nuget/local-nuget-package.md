@@ -6,6 +6,7 @@ tags: maui, dot net maui, microsoft maui, telerik maui, nuget, ui for .net maui 
 slug: local-nuget-packages
 previous_url: /installation/nuget/local-nuget-package
 position: 3
+components: ["general"]
 ---
 
 # Installing from a Local NuGet Source

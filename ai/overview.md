@@ -5,6 +5,7 @@ description: Learn about the AI-powered developer tools that integrate with your
 slug: ai-overview
 tags: telerik,maui,dotnetmaui,ai,coding assistant
 position: 0
+components: ["general"]
 ---
 
 # Telerik UI for .NET MAUI AI Coding Assistant

@@ -5,6 +5,7 @@ description: Learn how to use API Keys to authenticate with the Telerik NuGet se
 slug: nuget-keys
 previous_url: /installation/nuget/nuget-keys
 position: 8
+components: ["general"]
 ---
 
 # Using NuGet Packages in a CI Workflow

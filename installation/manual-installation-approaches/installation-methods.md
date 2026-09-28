@@ -7,6 +7,7 @@ tags: .net maui, ui for .net maui, .net maui controls, dot net maui, telerik .ne
 previous_url: /installation/download-product-files, /installation/approaches, /installation/installation-methods
 tag: updated
 position: 1
+components: ["general"]
 ---
 
 # Installation Methods

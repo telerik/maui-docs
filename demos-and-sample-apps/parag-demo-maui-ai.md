@@ -6,6 +6,7 @@ slug: maui-parag-demo-app
 tags: .net maui, ui for .net maui, .net maui controls, demo app, agentic rag
 position: 1
 tag: new
+components: ["general"]
 ---
 
 # Progress Agentic RAG Demo App with Telerik UI for .NET MAUI

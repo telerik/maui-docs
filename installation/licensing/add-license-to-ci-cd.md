@@ -5,6 +5,7 @@ description: Learn how to activate the Telerik UI for .NET MAUI components by do
 slug: add-license-to-ci-cd
 tags: maui,components,license,activate,download,ci,cd,environment
 position: 2
+components: ["general"]
 ---
 
 # Adding the License Key to CI/CD Services

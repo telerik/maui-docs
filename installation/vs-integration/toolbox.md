@@ -5,6 +5,7 @@ description: Learn more about the Telerik Toolbox extension for .NET MAUI on Win
 slug: toolbox-support
 position: 7
 previous_url: /installation/windows/toolbox-support
+components: ["general"]
 ---
 
 # Telerik Toolbox for .NET MAUI on Windows

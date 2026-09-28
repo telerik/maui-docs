@@ -7,6 +7,7 @@ slug: maui-quick-start
 tag: updated
 previous_url: /maui-getting-started, /get-started/first-steps, /installation/windows/install-msi, /first-steps, /get-started/windows/first-steps-msi, /get-started/windows/first-steps-nuget, /installation/mac/install-pkg, /get-started/mac/first-steps-nuget, /get-started/mac/first-steps-pkg
 position: 1
+components: ["general"]
 ---
 
 # First Steps with Telerik UI for .NET MAUI

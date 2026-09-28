@@ -5,6 +5,7 @@ description: Learn how to customize the colors of the Telerik theme for your .NE
 slug: themes-customization
 tags: telerik,.net maui,theme,custom
 position: 1
+components: ["general"]
 ---
 
 # Customizing the Theme Colors (Swatches)

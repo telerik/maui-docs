@@ -5,6 +5,7 @@ description: Learn what can cause an invalid license for Telerik UI for .NET MAU
 slug: license-errors-warnings
 tags: maui,components,license,activate,download,error,warning
 position: 4
+components: ["general"]
 ---
 
 # License Activation Errors and Warnings

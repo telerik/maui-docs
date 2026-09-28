@@ -6,6 +6,7 @@ slug: zip-archive
 tags: manual installation,zip,archive
 previous_url: /installation/zip-archive
 position: 12
+components: ["general"]
 ---
 
 # Using the ZIP Archive

@@ -7,6 +7,7 @@ slug: maui-getting-started
 position: 2
 published: false
 previous_url: /maui-getting-started, /get-started/first-steps, /installation/windows/install-msi, /first-steps, /get-started/windows/first-steps-msi, /get-started/windows/first-steps-nuget
+components: ["general"]
 ---
 
 # First Steps with Telerik UI for .NET MAUI in Visual Studio

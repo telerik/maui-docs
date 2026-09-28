@@ -6,6 +6,7 @@ slug: maui-vs-scaffoldings
 position: 10
 tags: maui, dotnet maui, item templates, scaffoldings, predefined pages, screens, visual studio
 previous_url: /installation/windows/scaffoldings
+components: ["general"]
 ---
 
 # .NET MAUI Scaffolding Pages and Screens for Visual Studio

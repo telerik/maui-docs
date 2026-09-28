@@ -5,6 +5,7 @@ description: Learn how to customize Telerik UI for .NET MAUI control styles in X
 slug: theme-component-styles-customization
 tags: telerik,.net maui,theme,custom
 position: 5
+components: ["general"]
 ---
 
 # Customizing the Controls' Styles

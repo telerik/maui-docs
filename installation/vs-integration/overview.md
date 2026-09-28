@@ -4,6 +4,7 @@ page_title: Visual Studio Integration Overview
 description: Learn what the Telerik UI for .NET MAUI Visual Studio extensions add, how to install them, and how to access templates and toolbox support.
 slug: vs-integration-overview
 position: 0
+components: ["general"]
 ---
 
 # Visual Studio Integration Overview
