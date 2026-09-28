@@ -20,7 +20,7 @@ The DataGrid provides the following data-loading modes, which are present in the
 
 * `Automatic`&mdash;The load-on-demand mechanism is activated when you scroll down near the last item present in the viewport.
 
-  >important To control when the items will start loading, set the `LoadOnDemandBufferItemsCount` property. It indicates at which point the additional items will start loading. For example, setting it to `20` will cause the new items to be loaded when you have scrolled the DataGrid, so that only 20 of the originally loaded items are left below.
+>important To control when the items will start loading, set the `LoadOnDemandBufferItemsCount` property. It indicates at which point the additional items will start loading. For example, setting it to `20` will cause the new items to be loaded when you have scrolled the DataGrid, so that only 20 of the originally loaded items are left below.
 
 * `Manual`&mdash;A **Load More** button is present at the bottom of the DataGrid. Tapping it loads additional items based on the approach you have chosen for loading the items (through the collection, the event, or the command).
 
