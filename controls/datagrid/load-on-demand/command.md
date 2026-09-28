@@ -14,15 +14,37 @@ The `LoadMoreData` command is another alternative for loading data on demand. Th
 
 ## Example
 
-1. Create the custom command:
+The following example demonstrates a sample setup that shows how to use the command:
+
+1. Define the DataGrid in XAML:
+
+<snippet id='datagrid-customloadmoredatacommand-xaml'/>
+
+2. Add the telerik namespace:
+
+```xaml
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+```
+
+2. Add sample data:
+
+<snippet id='person-datamodel'/>
+
+3. Define the `ViewModel`:
+
+<snippet id='datagrid-customloadmoredatacommand-viewmodel-csharp'/>
+
+4. Create the custom command:
 
 <snippet id='datagrid-customloadmoredatacommand-csharp'/>
 
-2. Add the custom command to the `Commands` collection of the DataGrid:
+>important Invoking the `ShowLoadOnDemandLoadingIndicator` and `HideLoadOnDemandLoadingIndicators` methods is required. Without calling these methods, the `BusyIndicator` used for the functionality is not visualized.
+
+5. Add the custom command to the `Commands` collection of the DataGrid:
 
 <snippet id='datagrid-customloadmoredatacommand-addtocollection-csharp'/>
 
->important Invoking the `ShowLoadOnDemandLoadingIndicator` and `HideLoadOnDemandLoadingIndicators` methods is required. Without calling these methods, the `BusyIndicator` used for the functionality is not visualized.
+>important For DataGrid LoadMoreData command example, refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}) and go to the **DataGrid > LoadOnDemand** category.
 
 ## See Also
 
