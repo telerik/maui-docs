@@ -29,11 +29,11 @@ For more information, see the topic about [loading data on demand in the .NET MA
 
 The following example demonstrates how to use the `LoadOnDemand` event.
 
-**1.** Define the `LoadOnDemand` method in XAML.
+1. Define the `LoadOnDemand` method in XAML.
 
 <snippet id='datagrid-loadondemand-event-xaml'/>
 
-**2.** Create the method that defines the functionality of the event.
+2. Create the method that defines the functionality of the event.
 
 <snippet id='datagrid-loadondemand-event-csharp'/>
 
