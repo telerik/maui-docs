@@ -5,6 +5,7 @@ description: Explore Telerik UI for .NET MAUI and build native cross-platform ap
 tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
 position: 0
+components: ["general"]
 ---
 
 # Welcome to Telerik UI for .NET MAUI

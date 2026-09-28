@@ -4,6 +4,7 @@ page_title: AI Controls and Features in Telerik UI for .NET MAUI
 description: Discover the AI-powered controls in Telerik UI for .NET MAUI designed to enhance functionality and user experience.
 slug: ai-components-maui
 position: 3
+components: ["general"]
 tag: updated
 ---
 

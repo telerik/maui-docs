@@ -6,6 +6,7 @@ tags: dot net maui, .net maui vs xamarin, maui vs xamarin, net maui vs xamarin, 
 slug: migrate-to-net-maui
 previous_url: /get-started/migrate-to-net-maui
 position: 6
+components: ["general"]
 ---
 
 # Xamarin to .NET MAUI Migration

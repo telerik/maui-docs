@@ -4,6 +4,7 @@ page_title: Support Policy for Earlier UI for MAUI Versions
 description: Learn about the support policy for old versions, how bug fixes and feature requests are implemented, and how to get them.
 slug: old_versions_support_policy
 position: 2
+components: ["general"]
 ---
 
 # Earlier Versions Support Policy in UI for .NET MAUI
