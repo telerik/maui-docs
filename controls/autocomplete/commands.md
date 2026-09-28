@@ -45,33 +45,27 @@ The next example demonstrates a custom `RemoveTokenCommand` implementation&mdash
 
 The example below demonstrates a custom `ClearTextCommand` implementation&mdash;a confirmation dialog appears before the default command is executed.
 
-**1.** Create a custom command class that inherits from `AutoCompleteClearTextCommand`. Override, for example, its `Execute` method:
+1. Create a custom command class that inherits from `AutoCompleteClearTextCommand`. Override, for example, its `Execute` method:
 
-```C#
-public class CustomAutoCompleClearTextCommand : AutoCompleteClearTextCommand
-{
-    public override async void Execute(object parameter)
-    {
-        bool executeDefault = await App.Current.MainPage.DisplayAlert("Confirm", "Clear text?", "Yes", "No");
-        if (executeDefault)
-        {
-            base.Execute(parameter);
-        }
-    }
-}
-```
+<snippet id='autocomplete-custom-cleartextcommand' />
 
-**2.** Apply the newly created command class to the `ClearTextCommand` of the AutoComplete:
+2. Apply the newly created command class to the `ClearTextCommand` of the AutoComplete:
+
+<snippet id='autocomplete-custom-cleartext' />
+
+3. Add the telerik namespace to the XAML page:
 
 ```XAML
-<telerik:RadAutoComplete ItemsSource="{Binding Source}"
-                         TextSearchPath="Name"
-                         DisplayMode="Tokens">
-    <telerik:RadAutoComplete.ClearTextCommand>
-        <local:CustomAutoCompleClearTextCommand />
-    </telerik:RadAutoComplete.ClearTextCommand>
-</telerik:RadAutoComplete>
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
+
+4. Define sample data model:
+
+<snippet id='autocomplete-client-businessobject' />
+
+5. Define the `ViewModel`:
+
+<snippet id='autocomplete-clients-viewmodel' />
 
 ![Telerik UI for .NET MAUI AutoComplete custom ClearTextCommand clearing the input field](images/autocomplete-cleartext.gif)
 

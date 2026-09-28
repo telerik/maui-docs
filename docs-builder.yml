@@ -291,6 +291,9 @@ meta:
   controls/datagrid/keyboard-navigation:
     title: Keyboard Navigation
     position: 20
+  controls/datagrid/load-on-demand:
+    title: Load On Demand
+    position: 16
   controls/datagrid/commands:
     title: Commands
     position: 18
@@ -582,6 +585,10 @@ redirects:
 
 - from: ^/controls/slideview/control-template$
   to: /controls/slideview/overview
+  type: Permanent
+
+- from: ^/controls/datagrid/load-on-demand$
+  to: /controls/datagrid/load-on-demand/overview
   type: Permanent
 
 - from: ^/controls/datagrid/columns/column-types/picker-column$

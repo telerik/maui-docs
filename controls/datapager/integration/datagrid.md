@@ -13,7 +13,7 @@ You can page the data of the [Telerik UI for .NET MAUI DataGrid]({%slug datagrid
 
 ![.NET MAUI DataPager with DataGrid](../images/datapager-datagrid-paging.png)
 
->Currently, the DataPager does not support the Telerik UI for .NET MAUI DataGrid [`LoadOnDemandCollection`]({%slug datagrid-features-loadondemand%}#loadOnDemand-collection).
+>Currently, the DataPager does not support the Telerik UI for .NET MAUI DataGrid [`LoadOnDemandCollection`]({%slug datagrid-load-on-demand-collection%}).
 
 ## Example
 
