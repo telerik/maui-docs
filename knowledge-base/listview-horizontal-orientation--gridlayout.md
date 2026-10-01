@@ -6,7 +6,9 @@ page_title: Create Horizontal ListView with GridLayout
 slug: listview-horizontal-orientation--gridlayout
 position: 
 tags: listview, horizontal, grid layout, orientation, .net maui, .net, dotnet
+components: ["listview"]
 ticketid: 1606449
+published: false
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Extracting Point Data from Signature in SignaturePad for UI for .NET MAUI
 description: Learn how to extract point and line data from a signature in the SignaturePad component for UI for .NET MAUI.
 type: how-to
 meta_title: How to Extract Point Data from SignaturePad in UI for .NET MAUI
 slug: extracting-point-data-from-signature-signaturepad-dotnet-maui
 tags: signaturepad, ui-for-dotnet-maui, point-data, signature, vector-data
+components: ["signaturepad"]
 res_type: kb
 ticketid: 1600847
 ---

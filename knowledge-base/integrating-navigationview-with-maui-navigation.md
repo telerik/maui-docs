@@ -1,10 +1,11 @@
----
+﻿---
 title: Integrating NavigationView with MAUI Navigation
 description: Learn how to integrate Telerik UI for .NET MAUI NavigationView with MAUI's navigation system.
 type: how-to
 page_title: How to Use NavigationView with MAUI's Navigation System
 slug: integrating-navigationview-with-maui-navigation
 tags: navigationview, .net maui, navigation, ui for .net maui
+components: ["navigationview"]
 res_type: kb
 ---
 

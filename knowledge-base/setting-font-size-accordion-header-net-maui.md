@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting Font Size for the Text inside the Accordion Header
 description: Learn how to set the font size for the text inside the AccordionItemHeader in the Accordion for .NET MAUI.
 type: how-to
 page_title: Setting Font Size for AccordionItemHeader in Accordion for .NET MAUI
 slug: setting-font-size-accordionitemheader-net-maui
 tags: accordion, accordionitemheader, font size, .net maui
+components: ["accordion"]
 res_type: kb
 ---
 

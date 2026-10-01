@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting ImageEditor to Crop Mode on Image Load
 description: Learn how to set the ImageEditor in .NET MAUI to automatically enter Crop mode when the image is loaded.
 type: how-to
 page_title: Automatically Enter Crop Mode with ImageEditor in .NET MAUI
 slug: imageeditor-crop-mode-on-load
 tags: imageeditor, .net maui, crop mode, image loaded
+components: ["imageeditor"]
 res_type: kb
 ---
 

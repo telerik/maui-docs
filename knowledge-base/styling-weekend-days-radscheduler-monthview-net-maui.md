@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling Weekend Days in the Scheduler Month View
 description: Learn how to style weekend days differently from weekdays in the Month View of Telerik UI for .NET MAUI Scheduler.
 type: how-to
 page_title: How to Style Weekend Days in RadScheduler Month View for .NET MAUI
 slug: styling-weekend-days-radscheduler-monthview-net-maui
 tags: calendar, .net maui, radscheduler, monthview, daystyleselector, weekend styling
+components: ["scheduler"]
 res_type: kb
 ---
 

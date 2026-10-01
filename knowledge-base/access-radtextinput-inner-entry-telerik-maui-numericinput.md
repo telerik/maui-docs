@@ -1,10 +1,11 @@
----
+﻿---
 title: Accessing the NumericInput Inner Entry in .NET MAUI with Telerik UI
 description: Learn how to access the RadTextInput inner entry in RadNumericInput when using Telerik MAUI version 8.0.0 or above.
 type: how-to
 page_title: How to Access RadTextInput Inner Entry in Telerik MAUI NumericInput
 slug: access-radtextinput-inner-entry-telerik-maui-numericinput
 tags: maui, numericinput, radtextinput, .net9, telerik, inner entry, handler
+components: ["numericinput"]
 res_type: kb
 ---
 

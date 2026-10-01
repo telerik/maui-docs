@@ -1,4 +1,4 @@
----
+﻿---
 title: DataForm with Custom ComboBox Editor and SelectedItems collection
 description: How to bind the ComboBox SelectedItems in DataForm CustomEditor Scenario
 type: how-to
@@ -6,6 +6,7 @@ page_title: DataForm with Custom ComboBox Editor and SelectedItems collection
 slug: dataform-custom-editor-combobox-selecteditems
 position: 
 tags: 
+components: ["dataform"]
 ticketid: 1617072
 res_type: kb
 ---

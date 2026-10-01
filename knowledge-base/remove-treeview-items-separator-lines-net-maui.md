@@ -1,10 +1,11 @@
----
+﻿---
 title: Removing Separator Lines in TreeView for .NET MAUI on Android and iOS
 description: Learn how to remove the bottom border separator lines from TreeView items on both Android and iOS platforms in .NET MAUI applications.
 type: how-to
 page_title: How to Remove TreeView Items Separator Lines in .NET MAUI on Mobile Platforms
 slug: remove-treeview-items-separator-lines-net-maui
 tags: treeview, .net maui, android, ios, separator, border
+components: ["treeview"]
 res_type: kb
 ---
 

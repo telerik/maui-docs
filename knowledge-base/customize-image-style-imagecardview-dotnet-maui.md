@@ -1,10 +1,11 @@
----
+﻿---
 title: Style Images in the ImageCardView for .NET MAUI
 description: Learn how to maintain the aspect ratio and adjust the size of images within ImageCardView in .NET MAUI applications.
 type: how-to
 page_title: How to Adjust Image Aspect Ratio and Size in .NET MAUI ImageCardView
 slug: style-image-imagecardview-dotnet-maui
 tags: chat, conversational ui, .net maui, imagecardview, aspect ratio, image size, chat image, chat
+components: ["chat"]
 res_type: kb
 ---
 

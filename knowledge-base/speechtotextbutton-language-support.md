@@ -1,10 +1,11 @@
----
+﻿---
 title: SpeechToTextButton Language Support in .NET MAUI
 description: Learn what are the supported languages for the SpeechToTextButton in .NET MAUI and how to set them.
 type: how-to
 page_title: How to check the supported languages for the SpeechToTextButton in .NET MAUI
 slug: speechtotextbutton-language-support
 tags: .net maui, speechtotext, languages, supported languages, .net maui, microsoft .net maui
+components: ["speechtotextbutton"]
 res_type: kb
 ---
 

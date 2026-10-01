@@ -1,4 +1,4 @@
----
+﻿---
 title: Limiting Characters in Entry and ComboBox Controls in UI for .NET MAUI
 description: Learn how to limit the number of characters entered in Telerik MAUI Entry and RadComboBox controls while typing.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Restricting Input Length in Entry and RadComboBox for UI for .NET MA
 meta_title: Restricting Input Length in Entry and RadComboBox for UI for .NET MAUI
 slug: restricting-input-length-entry-radcombobox-maui
 tags: radentry, radcombobox, input-validation, ui for .net maui, entry, combobox, maxlength, textchanged
+components: ["combobox"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: How to Hide Column Headers in a DataGrid for MAUI
 description: Learn how to hide the column headers in a Telerik UI for .NET MAUI DataGrid.
 type: how-to
 page_title: Hide Column Headers in DataGrid for MAUI
 slug: hide-column-headers-maui-datagrid
 tags: maui, datagrid, column-headers, hide
+components: ["datagrid"]
 res_type: kb
 ---
 

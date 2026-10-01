@@ -6,6 +6,7 @@ page_title: Hide the numeric buttons for increasing, decreasing the value
 slug: numeric-hide-buttons
 position:
 tags: numeric, buttons, hide buttons, .net maui, maui
+components: ["numericinput"]
 res_type: kb
 ---
 

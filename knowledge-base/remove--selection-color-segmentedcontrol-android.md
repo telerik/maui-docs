@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove the Default Selection Color in SegmentedControl on Android
 description: Learn how to remove the selection color block in SegmentedControl for UI for .NET MAUI on Android.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Remove Selection Color in SegmentedControl on Android
 meta_title: Remove Selection Color in SegmentedControl for UI for .NET MAUI
 slug: remove--selection-color-segmentedcontrol-android
 tags: segmentedcontrol, ui-for-dotnet-maui, visual-states, ripple-effect, styling
+components: ["segmentedcontrol"]
 res_type: kb
 ---
 

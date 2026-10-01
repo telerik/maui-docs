@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying the Horizontal Scrollbar in DataGrid for MAUI on Windows
 description: Learn how to make the horizontal scrollbar always visible in the DataGrid for MAUI on Windows.
 type: how-to
 page_title: How to Ensure the Horizontal ScrollBar is Always Visible in MAUI DataGrid on Windows
 slug: datagrid-maui-horizontal-scrollbar-always-visible
 tags: datagrid, maui, windows, scrollbar, visibility
+components: ["datagrid"]
 res_type: kb
 ---
 

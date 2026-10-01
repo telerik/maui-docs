@@ -5,6 +5,8 @@ type: how-to
 page_title: Nested Vertical and Horizontal RadListViews
 slug: listview-cross-orientation-nesting
 tags: listview, orientation, layout, nested, nesting, embedded, embedding, scrolling, programmatic
+components: ["listview"]
+published: false
 position: 5
 ticketid: 1618988
 res_type: kb

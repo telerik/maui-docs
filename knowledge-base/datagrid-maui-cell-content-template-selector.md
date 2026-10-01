@@ -1,10 +1,11 @@
----
+﻿---
 title: Implementing Cell Content Template Selector in DataGrid for MAUI
 description: Learn how to use a DataTemplateSelector for cell content in DataGrid for MAUI to display different templates based on data conditions.
 type: how-to
 page_title: Using DataTemplateSelector in DataGrid for MAUI Cells
 slug: datagrid-maui-cell-content-template-selector
 tags: datagrid, maui, cell, template, selector, datatemplateselector
+components: ["datagrid"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: .NET MAUI Editor Inside ScrollView
 description: Learn how to scroll the .NET MAUI Editor when the component is nested in a ScrollView and the user scrolls the Editor's text, which is wrapped in a border.
 type: how-to
 page_title: How to Scroll the Editor in a ScrollView - Editor for .NET MAUI
 slug: dotnet-maui-editor-scroll-inside-scrollview
 tags: editor, scrollview, scrolling, .NET MAUI, scrollable editor, dotnet maui, maui
+components: ["editor"]
 res_type: kb
 ---
 

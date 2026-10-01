@@ -1,4 +1,4 @@
----
+﻿---
 title: Calculate ComboBox DropDown Width
 description: Programatically calculate the largest width needed for the dropdown of RadComboBox for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Calculate ComboBox Width
 slug: combobox-calculate-dropdown-width
 position: 
 tags: 
+components: ["combobox"]
 ticketid: 1614587
 res_type: kb
 ---

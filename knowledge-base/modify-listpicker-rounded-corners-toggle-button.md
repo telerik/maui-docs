@@ -1,10 +1,11 @@
----
+﻿---
 title: Modifying ListPicker with Rounded Corners and Toggle Button Indicators
 description: Learn how to modify the ListPicker control in .NET MAUI to include rounded corners and toggle button indicators for dropdown functionality.
 type: how-to
 page_title: Styling ListPicker with Rounded Corners and Dropdown Indicators in .NET MAUI
 slug: modify-listpicker-rounded-corners-toggle-button
 tags: listpicker, .net maui, styling, borders, togglebutton, dropdown
+components: ["listpicker"]
 res_type: kb
 ---
 

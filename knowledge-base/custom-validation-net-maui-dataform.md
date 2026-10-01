@@ -1,10 +1,11 @@
----
+﻿---
 title: Applying Custom Validation in .NET MAUI DataForm Editors
 description: Learn how to implement custom validation for built-in editors within the .NET MAUI DataForm component.
 type: how-to
 page_title: Custom Validation for .NET MAUI DataForm Editors
 slug: custom-validation-net-maui-dataform
 tags: dataform, .net maui, validation, custom validation, editors
+components: ["dataform"]
 res_type: kb
 ---
 

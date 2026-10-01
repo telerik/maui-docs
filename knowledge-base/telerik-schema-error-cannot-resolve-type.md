@@ -1,4 +1,4 @@
----
+﻿---
 title: Schema Error Telerik Type cannot be Resolved
 page_title: Common schema Error Occurs When Using MS .NET MAUI Framework - .NET MAUI Knowledge Base
 description: "Learn how to resolve the common schema error stating XamlC error XFC0000: Cannot resolve type schemas.telerik.com/2022/xaml/maui:telerik:control"
@@ -15,7 +15,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-			<td>Progress® Telerik® UI for .NET MAUI</td>
+			<td>Telerik UI for .NET MAUI</td>
     </tr>
   	<tr>
   		<td>Product Version</td>

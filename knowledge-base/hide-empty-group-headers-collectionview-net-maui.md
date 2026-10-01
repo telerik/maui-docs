@@ -1,10 +1,11 @@
----
+﻿---
 title: Hiding Empty Group Headers in CollectionView for .NET MAUI
 description: Learn how to hide group headers with empty or null keys in CollectionView for .NET MAUI, ensuring they do not occupy vertical space.
 type: how-to
 page_title: How to Hide Empty or Null Group Headers in .NET MAUI CollectionView
 slug: hide-empty-group-headers-collectionview-net-maui
 tags: collectionview, .net maui, group header, visibility, styling
+components: ["collectionview"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: TimePicker, DatePicker, and ComboBox DropDown Not Displaying Correctly in Toolkit Popup
 description: Addressing the issue where TimePicker, DatePicker, and ComboBox dropdowns or popups are not displayed correctly on iOS and Mac when placed in Mopups.
 type: troubleshooting
@@ -6,6 +6,7 @@ page_title: Dropdowns and Pickers Not Rendering Properly Inside Mopups in .NET M
 meta_title: Dropdowns and Pickers Not Rendering Properly Inside Mopups in .NET MAUI
 slug: dropdowns-pickers-not-rendering-inside-mopups
 tags: timepicker, .net maui, combobox, mopups, community toolkit, modal page
+components: ["popup"]
 res_type: kb
 ---
 

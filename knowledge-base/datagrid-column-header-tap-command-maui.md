@@ -1,4 +1,4 @@
----
+﻿---
 title: Executing a Custom Command on DataGrid Column Header Tap in UI for .NET MAUI
 description: Learn how to use the ColumnHeaderTap command in the DataGrid component of UI for .NET MAUI to execute custom logic when a column header is clicked.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Implementing Custom Functionality for DataGrid Column Header Tap in 
 meta_title: Implementing Custom Functionality for DataGrid Column Header Tap in UI for .NET MAUI
 slug: datagrid-column-header-tap-command-maui
 tags: datagrid, ui for .net maui, columnheader, command
+components: ["datagrid"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Customize Entry Cursor Color
 description: How to access the native entry element to customize the cursor
 type: how-to
@@ -6,6 +6,7 @@ page_title: Customize Entry Cursor
 slug: entry-cursor-customization
 position: 
 tags: maui, entry, radentry, cursor, caret, color, styling
+components: ["entry"]
 ticketid: 1612671
 res_type: kb
 ---

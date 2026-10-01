@@ -1,10 +1,11 @@
----
+﻿---
 title: Configuring Sort Styling in DataGrid for MAUI
 description: Learn how to configure sort styling in the DataGrid for MAUI, including customizing the appearance of the sort indicators.
 type: how-to
 page_title: Customizing Sort Indicators in MAUI DataGrid
 slug: maui-datagrid-sort-styling
 tags: datagrid, maui, sort-indicator, header-style, appearance
+components: ["datagrid"]
 res_type: kb
 ---
 
