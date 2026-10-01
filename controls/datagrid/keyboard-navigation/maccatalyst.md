@@ -35,6 +35,8 @@ The following table lists the actions and keyboard combinations that are availab
 | `Fn` + `Up Arrow` | Focuses the first cell of the column where the current cell is presented. |
 | `Fn` + `Down Arrow` | Focuses the last cell of the column where the current cell is presented. |
 
+@[template](/_contentTemplates/controls/datagrid.md#datagrid-keyboard-navigation)
+
 ## Additional Resources
 
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)

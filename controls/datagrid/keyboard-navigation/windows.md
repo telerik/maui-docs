@@ -38,6 +38,8 @@ The following table lists the actions and keyboard combinations that are availab
 | `Tab` | Focuses the next cell. When in edit mode, the next cell editor is focused. |
 | `Shift` + `Tab` | Focuses the previous cell. When in edit mode, the previous editor is focused. |
 
+@[template](/_contentTemplates/controls/datagrid.md#datagrid-keyboard-navigation)
+
 ## Additional Resources
 
 - [.NET MAUI DataGrid Product Page](https://www.telerik.com/maui-ui/datagrid)

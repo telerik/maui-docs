@@ -30,6 +30,8 @@ Telerik UI for .NET MAUI NumericInput is a customizable input control for numeri
 
 * [Commands support]({%slug numericinput-commands%})&mdash;The NumericInput provides commands for defining custom functionalities upon decrease and increase actions.
 
+* [Keyboard navigation support]({%slug numericinput-keyboard-support%})&mdash;Users can enter or exit the NumericInput and change the input value using the keyboard on desktop devices.
+
 ## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI NumericInput]({%slug numericinput-getting-started%})
