@@ -38,7 +38,7 @@ Depending on your development environment and preferences, you can install your 
 Telerik provides tools that automatically provision your license key. These tools include the [Progress Control Panel]({%slug control-panel%}), the [Visual Studio Extensions]({%slug vs-integration-overview%}) and [Visual Studio Code extensions]({%slug getting-started-vs-code-integration-overview%}).
 
 <TabStrip>
-<TabStripTab title="Installing with Telerik.CLI">
+<TabStripTab title="Telerik.CLI">
 
 To install the license key by using the [Telerik.CLI]({%slug telerik-cli%}):
 
@@ -55,7 +55,7 @@ telerik license get-key
 ```
 
 </TabStripTab>
-<TabStripTab title="Installing a License Key with the VS Extensions">
+<TabStripTab title="VS Extensions">
 
 To install your license key by using the [Telerik UI for .NET MAUI Visual Studio extensions]({%slug vs-integration-overview%}):
 
@@ -65,7 +65,7 @@ To install your license key by using the [Telerik UI for .NET MAUI Visual Studio
     ![.NET MAUI VS Extension License Key](./images/vsx-download-license-key-file.png)
 
 </TabStripTab>
-<TabStripTab title="Installing a License Key with the VS Code Extensions">
+<TabStripTab title="VS Code Extensions">
 
 To install your license key by using the [Telerik UI for .NET MAUI Visual Studio Code extensions menu]({%slug getting-started-vs-code-integration-overview%}):
 
@@ -81,7 +81,7 @@ To install your license key by using the [Telerik UI for .NET MAUI Visual Studio
     ![.NET MAUI VS Extension License Key](./images/telerik-vs-code-extension.png)
 
 </TabStripTab>
-<TabStripTab title="Installing a License Key with the Progress Control Panel">
+<TabStripTab title="Progress Control Panel">
 
 To install your Telerik License Key by using the [Progress Control Panel]({%slug control-panel%}), start the application. It automatically downloads your license key file `telerik-license.txt` to your home directory:
 
