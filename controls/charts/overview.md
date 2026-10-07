@@ -18,7 +18,7 @@ The Telerik UI for .NET MAUI Charts provide a data-visualization solution built 
 
 The Charts consist of the following controls:
 
-* [CartesianChart]({% slug charts-cartesian-overview %})&mdash;Plots data in a Cartesian coordinate system defined by horizontal and vertical axes. It renders `BarSeries`, `LineSeries`, `AreaSeries`, and `PointSeries`, and supports categorical, numerical, and date-time axes.
+* [CartesianChart]({% slug charts-cartesian-overview %})&mdash;Plots data in a Cartesian coordinate system defined by horizontal and vertical axes. It renders `BarSeries`, `LineSeries`, `AreaSeries`, `PointSeries`, `SplineSeries`, `SplineAreaSeries`, and supports categorical, numerical, and date-time axes.
 * [PieChart]({% slug charts-pie-overview %})&mdash;Plots data as proportional slices of a circle. It renders `PieSeries` and `DonutSeries` and does not use axes.
 
 ## Next Steps

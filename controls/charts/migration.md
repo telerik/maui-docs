@@ -117,6 +117,7 @@ The following table maps the previous Chart features to their counterparts in th
 | Multiple series | Multiple series in `Series` collection |  Multiple series in `Series` collection |
 | Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`)  |
 | Plot areas | - | [Plot Areas]({% slug charts-cartesian-plot-areas %}) |
+| Stacked Bar Series | `CombineMode` property | [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property |
 
 ## Chart Series
 
@@ -132,7 +133,8 @@ Still the new chart is in a preview state, and some series are not yet implement
 | `LineSeries` | [`LineSeries`]({% slug charts-cartesian-line-series %}) |
 | `AreaSeries` | [`AreaSeries`]({% slug charts-cartesian-area-series %}) |
 | `ScatterPointSeries` | [`PointSeries`]({% slug charts-cartesian-point-series %}) |
-| `SplineSeries`, `SplineAreaSeries` | - |
+| `SplineSeries` | [`SplineSeries`]({% slug charts-cartesian-spline-series %}) |
+| `SplineAreaSeries` | [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) |
 | `ScatterLineSeries`, `ScatterSplineSeries`, `ScatterAreaSeries`, `ScatterSplineAreaSeries` | - |
 
 ### Pie Series

@@ -24,6 +24,8 @@ The Cartesian Chart plots data through the following series:
 | [`LineSeries`]({% slug charts-cartesian-line-series %}) | Connects the data points with straight line segments. |
 | [`AreaSeries`]({% slug charts-cartesian-area-series %}) | Fills the area between the line that connects the data points and the axis. |
 | [`PointSeries`]({% slug charts-cartesian-point-series %}) | Represents each data point as a symbol positioned by two numerical values. |
+| [`SplineSeries`]({% slug charts-cartesian-spline-series %}) | Connects the data points with a smooth curve. |
+| [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) | Fills the area between the smooth curve that connects the data points and the axis. |
 
 ## Axes
 
@@ -42,6 +44,8 @@ You can use the following axes to position the data points in a CartesianChart.
 * [Multiple Series]({% slug charts-cartesian-multiple-series %})&mdash;Combine several series in a single chart.
 * [Palette]({% slug charts-cartesian-palette %})&mdash;Control the colors applied to the series.
 * [Plot Areas]({% slug charts-cartesian-plot-areas %})&mdash;Split the chart into separate plot areas.
+* Stacked Bar Series&mdash;Stack the bars of a `BarSeries` on top of each other by using the [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property.
+* Null Values&mdash;Handle [null values]({% slug charts-cartesian-null-values %}) in the series.
 
 ## Next Steps
 
