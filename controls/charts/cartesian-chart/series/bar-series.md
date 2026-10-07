@@ -24,9 +24,9 @@ The `BarSeries` binds to data through the following properties:
 
 ## Combine Mode
 
-The `CombineMode` (`enum` of type `Telerik.Maui.Controls.Charts.ChartBarCombineMode`) property defines how the bars from same chart with different series are combined when they share the same category. The available options are:
+The `CombineMode` (`enum` of type `Telerik.Maui.Controls.Charts.ChartBarCombineMode`) property defines how the bars from the same chart with different series are combined when they share the same category. The available options are:
 
-* (Default)`Cluster`&mdash;Renders bars side by side in each category..
+* (Default)`Cluster`&mdash;Renders bars side by side in each category.
 * `Stack`&mdash;Renders bars stacked on top of each other, with the height of the stack representing the total value for that category.
 * `Stack100`&mdash;Renders bars stacked on top of each other, with the height of the stack representing 100% of the total value for that category. Each bar's height is proportional to its value relative to the total.
 
