@@ -29,6 +29,22 @@ Use the following properties to customize the appearance of the axis line:
 * `LineColor` (`Color`)&mdash;Defines the color of the axis line.
 * `LineThickness` (`double`)&mdash;Defines the thickness of the axis line.
 
+## Ticks
+
+Use the following properties to control the ticks of the axis:
+
+* `MajorTickColor` (`Color`)&mdash;Defines the color of the major ticks.
+* `MajorTickThickness` (`double`)&mdash;Defines the thickness of the major ticks.
+* `MajorTickLength` (`double`)&mdash;Defines the length of the major ticks.
+
+## Plot Mode
+
+The `PlotMode` (enum of type `Telerik.Maui.Controls.Charts.AxisPlotMode`) property defines how the data points are plotted relative to axis ticks. The available options are:
+
+* `BetweenTicks`&mdash;The data points are plotted between two consecutive ticks. This is the default value.
+* `OnTicks`&mdash;The data points are plotted directly on the axis tick positions.
+* (Default) `OnTicksPadded`&mdash;The data points are plotted directly on the axis tick positions, centered in their slot so the first/last points are inset from the plot area edges.
+
 ## Labels Customization
 
 The Categorical Axis exposes the following properties for configuring its position, labels, and appearance:
