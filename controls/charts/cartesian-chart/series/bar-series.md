@@ -22,6 +22,16 @@ The `BarSeries` binds to data through the following properties:
 * `VerticalAxis` (`Telerik.Maui.Controls.Charts.ChartAxis`)&mdash;Defines the vertical axis for the series which values resolved from the `VerticalBinding` property are plotted against.
 * `HorizontalAxis` (`Telerik.Maui.Controls.Charts.ChartAxis`)&mdash;Defines the horizontal axis for the series which values resolved from the `HorizontalBinding` property are plotted against.
 
+## Combine Mode
+
+The `CombineMode` (`enum` of type `Telerik.Maui.Controls.Charts.ChartBarCombineMode`) property defines how the bars from the same chart with different series are combined when they share the same category. The available options are:
+
+* (Default)`Cluster`&mdash;Renders bars side by side in each category.
+* `Stack`&mdash;Renders bars stacked on top of each other, with the height of the stack representing the total value for that category.
+* `Stack100`&mdash;Renders bars stacked on top of each other, with the height of the stack representing 100% of the total value for that category. Each bar's height is proportional to its value relative to the total.
+
+> For a runnable example with the Stacked bar series, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Series** category.
+
 ## Bars Customization
 
 Use the following properties to customize the appearance of the bars:
@@ -36,7 +46,16 @@ Use the following properties to customize the appearance of the bars:
 Use the following properties to configure the labels visualized for each data point:
 
 * `ShowLabels` (`bool`)&mdash;Defines whether the axis labels will be displayed.
+
+* * `LabelPosition` (`enum` of type `Telerik.Maui.Controls.Charts.BarLabelPosition`)&mdash;Defines the position of the labels relative to the bars before the `LabelOffset` is applied. The available options are:
+  * `Base`&mdash;Anchors the label inside the bar, next to its baseline (zero) end.
+  * `Center`&mdash;Anchors the label inside the bar, centered between its baseline and value ends.
+  * `TopInside`&mdash;Anchors the label inside the bar, next to its value end.
+  * (Default) `TopOutside`&mdash;Anchors the label outside the bar, beyond its value end.
+
+
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the bars.
+
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
 ## Example
