@@ -1,10 +1,11 @@
----
+﻿---
 title: RadCollectionView Drag and Swipe Do Not Work Inside ScrollView in .NET MAUI
 description: Learn how to address the issues where RadCollectionView drag and swipe do not work inside a ScrollView in .NET MAUI applications.
 type: troubleshooting
 page_title: Fixing RadCollectionView Scroll Issues Inside ScrollView in .NET MAUI
 slug: collectionview-not-scrolling-inside-scrollview
 tags: collectionview, .net maui, scrollview, scrolling, ui virtualization
+components: ["collectionview"]
 res_type: kb
 ---
 

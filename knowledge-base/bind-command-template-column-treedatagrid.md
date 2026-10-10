@@ -1,4 +1,4 @@
----
+﻿---
 title: Binding Template Column Button Command in TreeDataGrid
 description: Learn how to bind a button inside a template column in TreeDataGrid for UI for .NET MAUI to return the whole row info.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Bind Command in Template Column Button in TreeDataGrid
 meta_title: Bind Command in Template Column Button in TreeDataGrid
 slug: bind-command-template-column-treedatagrid
 tags: treedatagrid, ui-for-dotnet-maui, template-column, button-binding, command-parameter
+components: ["treedatagrid"]
 res_type: kb
 ---
 

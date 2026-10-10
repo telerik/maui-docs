@@ -1,4 +1,4 @@
----
+﻿---
 title: Disabling iOS Auto-Correction in RadAutoComplete for Correct Text Selection
 description: Fixing the issue where iOS auto-correction inserts incorrect text instead of selected items in RadAutoComplete.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Resolving Incorrect Text Issue in iOS RadAutoComplete
 meta_title: Resolving Incorrect Text Issue in iOS RadAutoComplete
 slug: ios-autocomplete-text-prediction-issue
 tags: autocomplete, ios, text-prediction, istextpredictionenabled
+components: ["autocomplete"]
 res_type: kb
 ---
 

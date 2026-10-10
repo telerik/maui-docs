@@ -1,10 +1,11 @@
----
+﻿---
 title: Disabling Right or Left Swipe in CollectionView for .NET MAUI
 description: Learn how to disable right or left swipe action in CollectionView for .NET MAUI while keeping left swipe enabled.
 type: how-to
 page_title: How to Disable Right or Left Swipe in .NET MAUI CollectionView
 slug: disable-right-left-swipe-collectionview-net-maui
 tags: collectionview, .net maui, swipe, disable right swipe
+components: ["collectionview"]
 res_type: kb
 ---
 

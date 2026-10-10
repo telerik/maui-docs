@@ -1,4 +1,4 @@
----
+﻿---
 title: Pickers and ComboBoxes in DataGrid CellEditTemplate
 description: how to use pickers and comboboxes in celledit template
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to define pickers and comboboxes in datagrid cell edit template
 slug: datagrid-celledittemplate-picker-combobox
 position: 
 tags: maui, datagrid, celledit template, combobox, picker
+components: ["datagrid"]
 ticketid: 1605456
 res_type: kb
 ---

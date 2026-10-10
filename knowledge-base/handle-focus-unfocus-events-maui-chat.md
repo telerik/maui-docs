@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Focus and Unfocus Events in Telerik UI for .NET MAUI Chat
 description: Learn how to handle focus and unfocus events in Telerik UI for .NET MAUI Chat by accessing the RadMultilineTextInput control within the chat template.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Handle Focus and Unfocus Events in Telerik UI for .NET MAUI Chat
 meta_title: Handle Focus and Unfocus Events in Telerik UI for .NET MAUI Chat
 slug: handle-focus-unfocus-events-maui-chat
 tags: telerik, ui for .net maui, chat, radmultilinetextinput, focus, unfocus
+components: ["chat"]
 res_type: kb
 ticketid: 1711957
 ---

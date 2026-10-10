@@ -1,10 +1,11 @@
----
+﻿---
 title: Attaching a Badge to the TabView Header (Tab)
 description: Learn how to attach a badge to each tab in the Telerik TabView control to display additional info.
 type: how-to
 page_title: How to Attach Badge to Telerik TabView Header/Tab
 slug: attaching-badge-to-telerik-tabview-header-tab
 tags: badge, tabview, header, tab, customization
+components: ["badgeview"]
 res_type: kb
 ---
 

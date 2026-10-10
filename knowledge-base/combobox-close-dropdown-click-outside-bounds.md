@@ -1,10 +1,11 @@
----
+﻿---
 title: Closing the DropDown of the ComboBox on Click Outside Its Bounds
 description: Learn how to configure the ComboBox to close its DropDown when the user clicks outside the component's bounds.
 type: how-to
 page_title: How to Close DropDown of ComboBox on Click Outside Bounds
 slug: combobox-close-dropdown-click-outside-bounds
 tags: [.NET MAUI, ComboBox, DropDown, Close, Click]
+components: ["combobox"]
 res_type: kb
 ---
 

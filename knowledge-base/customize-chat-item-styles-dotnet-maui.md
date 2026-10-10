@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing Chat Item Styles in .NET MAUI
 description: Learn how to modify the appearance of chat items, including text color, in the Telerik UI for .NET MAUI Chat component.
 type: how-to
 page_title: How to Customize Chat Item Styles in Telerik UI for .NET MAUI
 slug: customize-chat-item-styles-dotnet-maui
 tags: chat, conversational ui, .net maui, styling, text color, item template selector, implicit style
+components: ["chat"]
 res_type: kb
 category: knowledge-base
 ticketid: 1652367

@@ -1,10 +1,11 @@
----
+﻿---
 title: Comparison Between Entry and TextInput
 page_title: Review the differences between the Entry and TextInput controls and their usage - .NET MAUI Knowledge Base
 description: Learn what are the differences and the usage of the .NET MAUI Entry and TextInput controls.
 type: how-to
 slug: entry-vs-textinput
 tags: maui, entry, textinput, .net maui entry
+components: ["entry"]
 res_type: kb
 ---
 

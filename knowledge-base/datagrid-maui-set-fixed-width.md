@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting Fixed Width for DataGrid and Its Columns in .NET MAUI App
 description: Learn how to specify the width of a DataGrid and its columns in a MAUI application by using the WidthRequest and Width properties.
 type: how-to
 page_title: How to Define Fixed Width for MAUI DataGrid and Columns
 slug: datagrid-maui-set-fixed-width
 tags: datagrid, width, columns, fixed, maui
+components: ["datagrid"]
 res_type: kb
 ---
 

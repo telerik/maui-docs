@@ -1,4 +1,4 @@
----
+﻿---
 title: Customizing DataGrid Filtering UI in UI for .NET MAUI
 description: Learn how to customize the filtering UI in Telerik DataGrid to remove the filtering criteria and display distinct values checkbox only.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Modify Filtering UI in Telerik DataGrid for Distinct Values Only
 meta_title: Modify Filtering UI in Telerik DataGrid for Distinct Values Only
 slug: datagrid-filtering-ui-customization-keep-only-distinct-values
 tags: datagrid, ui-for-net-maui, filter, control-template, filtering-ui
+components: ["datagrid"]
 res_type: kb
 ---
 

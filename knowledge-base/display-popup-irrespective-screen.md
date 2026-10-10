@@ -1,10 +1,11 @@
----
+﻿---
 title: How to Display a Global Popup
 description: This article explains how to create a global popup control in Popup for MAUI that can be displayed on any screen without being specific to a particular page.
 type: how-to
 page_title: How to Display a Global Popup Irrespective of Screen | Popup for MAUI 
 slug: display-popup-irrespective-screen
 tags: popup, maui, global, display, page, dotnet, global popup
+components: ["popup"]
 res_type: kb
 ---
 

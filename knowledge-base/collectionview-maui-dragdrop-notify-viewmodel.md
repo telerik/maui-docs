@@ -1,10 +1,11 @@
----
+﻿---
 title: Using the Drop Method in DragDropBehavior with CollectionView for .NET MAUI
 description: Learn how to notify the view model about drag-and-drop actions in CollectionView for .NET MAUI using the Drop method in DragDropBehavior.
 type: how-to
 page_title: Handling DragDropBehavior in CollectionView for .NET MAUI
 slug: collectionview-maui-dragdrop-notify-viewmodel
 tags: collectionview, .net maui, dragdropbehavior, drop-method, viewmodel
+components: ["collectionview"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Styling Background Color of SendMessageButton in Chat
 description: Learn how to style the background color of the SendMessageButton in Chat when the button is enabled.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Changing Background Color of SendMessageButton in Chat
 meta_title: Changing Background Color of SendMessageButton in Chat
 slug: change-background-color-sendmessagebutton-chat
 tags: chat, ui for .net maui, sendmessagebutton, background color, sendbuttonstyle
+components: ["chat"]
 res_type: kb
 ---
 

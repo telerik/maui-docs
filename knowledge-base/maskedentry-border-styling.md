@@ -1,10 +1,11 @@
----
+﻿---
 title: Hide MaskedEntry Border (underline)
 description: Hide the underline or border around the MaskedEntry.
 type: how-to
 page_title: Hide MaskedEntry Borders
 slug: maskedentry-border-styling
 tags: maskedentry, textmaskedentry, numericmaskedentry, regexmaskedentry, ipmaskedentry, emailmaskedentry, border, style, hide, underline
+components: ["maskedentry"]
 position: 5
 ticketid: 1619085
 res_type: kb

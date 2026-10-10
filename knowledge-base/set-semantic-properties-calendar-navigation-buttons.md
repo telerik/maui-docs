@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Semantic Properties for Navigation Buttons in Calendar
 description: Learn how to set SemanticProperties.Description for navigation buttons in the Calendar control in UI for .NET MAUI to meet accessibility requirements.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Adding Semantic Properties to Calendar Navigation Buttons for Access
 meta_title: Adding Semantic Properties to Calendar Navigation Buttons for Accessibility in UI for .NET MAUI
 slug: set-semantic-properties-calendar-navigation-buttons
 tags: calendar, navigation-buttons, semanticproperties, accessibility, ui-for-dotnet-maui
+components: ["calendar"]
 res_type: kb
 ---
 

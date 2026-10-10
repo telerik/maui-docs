@@ -1,4 +1,4 @@
----
+﻿---
 title: Conditionally Showing or Hiding the Expand Arrow in Toggle Row Details Column Cells
 description: Learn how to conditionally show or hide the expand arrow in the toggle row details column cells in the DataGrid for UI for .NET MAUI when there are no details for the rows.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Conditionally Display Expand Arrow in DataGrid Toggle Row Details Co
 meta_title: Conditionally Display Expand Arrow in DataGrid Toggle Row Details Column
 slug: conditionally-show-hide-expand-arrow-datagrid
 tags: datagrid, ui-for-net-maui, toggle-row-details-column, isvisible-property, cellcontentstyleselector
+components: ["datagrid"]
 res_type: kb
 ticketid: 1700211
 ---

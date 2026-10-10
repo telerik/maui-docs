@@ -1,10 +1,11 @@
----
+﻿---
 title: Managing Row Details in DataGrid for MAUI on Cell or Row Selection
 description: Learn how to toggle row details in a DataGrid for MAUI application based on cell or row selection.
 type: how-to
 page_title: How to Display Row Details Based on Cell or Row Selection in DataGrid for MAUI
 slug: datagrid-maui-toggle-row-details-cell-selection
 tags: datagrid, maui, row details, cell selection, row selection, expandedrowdetails, selectionchanged
+components: ["datagrid"]
 res_type: kb
 ---
 

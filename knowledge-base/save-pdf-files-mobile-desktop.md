@@ -1,10 +1,11 @@
----
+﻿---
 title: Save PDF Files in Your Mobile and Desktop Apps.
 description: Learn how to save pdf files using the PDF Viewer Toolbar in your .NET MAUI application.
 type: how-to
 page_title: How to Save PDF Files in Your .NET MAUI Application
 slug: save-pdf-files-mobile-desktop
 tags: maui, pdf, save files, save documents, telerik, dotnet, pdf viewer
+components: ["pdfviewer"]
 res_type: kb
 ---
 

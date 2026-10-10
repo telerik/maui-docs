@@ -1,10 +1,11 @@
----
+﻿---
 title: Share PDF Files in Your Mobile and Desktop Apps.
 description: Learn how to share pdf files using the PDF Viewer Toolbar in your .NET MAUI application.
 type: how-to
 page_title: How to Share PDF Files in Your .NET MAUI Application
 slug: share-pdf-files-mobile-desktop
 tags: maui, pdf, share files, share documents, telerik, dotnet, pdf viewer
+components: ["pdfviewer"]
 res_type: kb
 ---
 

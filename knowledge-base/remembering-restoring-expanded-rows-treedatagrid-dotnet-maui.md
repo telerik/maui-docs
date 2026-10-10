@@ -1,4 +1,4 @@
----
+﻿---
 title: Remembering and Restoring Expanded Rows in TreeDataGrid for .NET MAUI
 description: Learn how to efficiently remember expanded rows and restore them in TreeDataGrid for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Efficiently Remember and Restore Expanded Rows in TreeDataGrid for .
 meta_title: Efficiently Remember and Restore Expanded Rows in TreeDataGrid for .NET MAUI
 slug: remembering-restoring-expanded-rows-treedatagrid-dotnet-maui
 tags: treedatagrid, .net maui, expand, collapse, isexpanded, isexpandablebinding
+components: ["treedatagrid"]
 res_type: kb
 ---
 

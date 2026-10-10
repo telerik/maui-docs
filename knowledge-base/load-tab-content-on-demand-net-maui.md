@@ -1,10 +1,11 @@
----
+﻿---
 title: Loading Tab Content on Demand in .NET MAUI TabView
 description: Learn how to load the content of TabView items on demand as the user selects tabs, improving performance for UI-heavy content in .NET MAUI applications.
 type: how-to
 page_title: Implementing On-Demand Content Loading in .NET MAUI TabView
 slug: load-tab-content-on-demand-net-maui
 tags: tabview, .net maui, on-demand loading, itemtemplate, contenttemplate
+components: ["tabview"]
 res_type: kb
 ticketid: 1668168
 ---

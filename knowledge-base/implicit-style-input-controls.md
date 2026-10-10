@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling ComboBox, AutoComplete and Entry in Telerik MAUI After Upgrading to Version 8.0.0 or Later
 description: Learn how to apply implicit and explicit styles to ComboBox, AutoComplete and Entry controls in Telerik MAUI version 8.0.0 or later.
 type: how-to
 page_title: How to Style ComboBox, AutoComplete and Entry in Telerik MAUI Version 8.0.0+
 slug: style-combobox-autocomplete-entry-implicit-explicit
 tags: combobox, styling, telerik, maui, implicit style, explicit style
+components: ["combobox"]
 res_type: kb
 ---
 

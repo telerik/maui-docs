@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Interaction with the Content behind the BusyIndicator
 description: Learn how to display .NET MAUI BusyIndicator above any content to mark long-running operations and allow interacting with the content behind when not busy.
 type: how-to
 page_title: Enabling Interaction with the Content behind the BusyIndicator
 slug: allow-interaction-with-busyindicator-content
 tags: busy indicator, interaction, InputTransparent, .NET MAUI
+components: ["busyindicator"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Disabling Keyboard Functionality in DataGrid for MAUI
 description: Learn how to disable keyboard navigation in DataGrid for MAUI to prevent automatic row or cell selection when using arrow keys.
 type: how-to
 page_title: How to Disable Keyboard Navigation in DataGrid for MAUI
 slug: disable-keyboard-functionality-datagrid-maui
 tags: datagrid, maui, keyboard, navigation, disable
+components: ["datagrid"]
 res_type: kb
 ---
 

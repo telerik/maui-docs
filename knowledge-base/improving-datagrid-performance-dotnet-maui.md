@@ -1,4 +1,4 @@
----
+﻿---
 title: Improving DataGrid Performance in .NET MAUI
 description: Tips and tricks for optimizing the performance of the DataGrid when dealing with large datasets and ideal layout practices.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Enhancing Performance for .NET MAUI DataGrid with Large Datasets
 meta_title: Enhancing Performance for .NET MAUI DataGrid with Large Datasets
 slug: improving-datagrid-performance-dotnet-maui
 tags: datagrid, .net maui, performance, layouts, images, optimization, loadondemand, paging
+components: ["datagrid"]
 res_type: kb
 ---
 

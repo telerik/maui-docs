@@ -1,10 +1,11 @@
----
+﻿---
 title: Implementing Localization in .NET MAUI SegmentedControl
 description: Learn how to apply localization values for the .NET MAUI SegmentedControl component to customize the strings in the ItemsSource.
 type: how-to
 page_title: Setting Localization for the Segments in the .NET MAUI SegmentedControl
 slug: localization-dotnet-maui-segmentedcontrol
 tags: segmentedcontrol, .net maui, localization, strings
+components: ["segmentedcontrol"]
 res_type: kb
 ---
 
