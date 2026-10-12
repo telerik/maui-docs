@@ -39,6 +39,10 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the points.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+## Scatter Point
+
+When plotting the `PointSeries` against two `NumericalAxis` instances and bind both `HorizontalBinding` and `VerticalBinding` to numeric members, the series works as a scatter point series. Use this setup to visualize the correlation between two numeric values. For more information, see [Scatter Series]({% slug charts-cartesian-scatter-series %}).
+
 ## Example
 
 The following example shows how to define a `PointSeries`.
@@ -72,4 +76,5 @@ This is the result:
 - [BarSeries]({% slug charts-cartesian-bar-series %})
 - [LineSeries]({% slug charts-cartesian-line-series %})
 - [AreaSeries]({% slug charts-cartesian-area-series %})
-- [Categorical Axis]({% slug charts-cartesian-categorical-axis %})
+- [Scatter Series]({% slug charts-cartesian-scatter-series %})
+- [Numerical Axis]({% slug charts-cartesian-numerical-axis %})

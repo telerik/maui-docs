@@ -4,7 +4,7 @@ page_title: .NET MAUI Cartesian Chart Documentation - Spline Series
 description: Learn about the SplineSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
 components: ["charts"]
 tags: charts, cartesian chart, series, spline, .net maui
-position: 3
+position: 6
 slug: charts-cartesian-spline-series
 ---
 

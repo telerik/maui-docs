@@ -132,10 +132,11 @@ Still the new chart is in a preview state, and some series are not yet implement
 | `BarSeries` | [`BarSeries`]({% slug charts-cartesian-bar-series %}) |
 | `LineSeries` | [`LineSeries`]({% slug charts-cartesian-line-series %}) |
 | `AreaSeries` | [`AreaSeries`]({% slug charts-cartesian-area-series %}) |
-| `ScatterPointSeries` | [`PointSeries`]({% slug charts-cartesian-point-series %}) |
 | `SplineSeries` | [`SplineSeries`]({% slug charts-cartesian-spline-series %}) |
 | `SplineAreaSeries` | [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) |
-| `ScatterLineSeries`, `ScatterSplineSeries`, `ScatterAreaSeries`, `ScatterSplineAreaSeries` | - |
+| `ScatterLineSeries` | [Scatter Series]({% slug charts-cartesian-scatter-series%}) |
+| `ScatterAreaSeries` | [Scatter Series]({% slug charts-cartesian-scatter-series%}) |
+| `ScatterPointSeries` | [Scatt.er Series]({% slug charts-cartesian-scatter-series%}) |
 
 ### Pie Series
 

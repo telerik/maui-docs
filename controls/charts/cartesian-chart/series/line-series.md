@@ -37,6 +37,10 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the line.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+## Scatter Line
+
+When plotting the `LineSeries` against two `NumericalAxis` instances and bind `HorizontalBinding` to a numeric member, the series works as a scatter line series&mdash;the data points are positioned by their actual X and Y values. For more information, see [Scatter Series]({% slug charts-cartesian-scatter-series %}).
+
 ## Example
 
 The following example shows how to define a `LineSeries`.
@@ -70,4 +74,5 @@ This is the result:
 - [BarSeries]({% slug charts-cartesian-bar-series %})
 - [AreaSeries]({% slug charts-cartesian-area-series %})
 - [PointSeries]({% slug charts-cartesian-point-series %})
-- [Categorical Axis]({% slug charts-cartesian-categorical-axis %})
+- [Scatter Series]({% slug charts-cartesian-scatter-series %})
+- [Categorical Axis]
