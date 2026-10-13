@@ -38,6 +38,10 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the area.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+## Scatter Area
+
+When plotting the `AreaSeries` against two `NumericalAxis` instances and bind `HorizontalBinding` to a numeric member, the series works as a scatter area series. For more information, see [Scatter Series]({% slug charts-cartesian-scatter-series %}).
+
 ## Example
 
 The following example shows how to define an `AreaSeries`.
@@ -71,4 +75,5 @@ This is the result:
 - [BarSeries]({% slug charts-cartesian-bar-series %})
 - [LineSeries]({% slug charts-cartesian-line-series %})
 - [PointSeries]({% slug charts-cartesian-point-series %})
+- [Scatter Series]({% slug charts-cartesian-scatter-series %})
 - [Categorical Axis]({% slug charts-cartesian-categorical-axis %})

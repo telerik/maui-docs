@@ -4,7 +4,7 @@ page_title: .NET MAUI Cartesian Chart Documentation - Spline Area Series
 description: Learn about the SplineAreaSeries of the Telerik UI for .NET MAUI Cartesian Chart, its features, configuration, and styling.
 components: ["charts"]
 tags: charts, cartesian chart, series, spline area, .net maui
-position: 3
+position: 7
 slug: charts-cartesian-spline-area-series
 ---
 
