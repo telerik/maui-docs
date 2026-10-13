@@ -76,4 +76,4 @@ This is the result:
 - [LineSeries]({% slug charts-cartesian-line-series %})
 - [PointSeries]({% slug charts-cartesian-point-series %})
 - [Scatter Series]({% slug charts-cartesian-scatter-series %})
-- [Categorical Axis]
+- [Categorical Axis]({% slug charts-cartesian-categorical-axis %})

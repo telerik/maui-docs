@@ -10,22 +10,12 @@ slug: charts-cartesian-scatter-series
 
 # .NET MAUI Cartesian Chart Scatter Series
 
-Instead, the `PointSeries`, `LineSeries`, and `AreaSeries` work as scatter (X/Y) series when you plot them against
+The scatter series is a combination of a series type and two numerical axes. Use the following series with two `NumericalAxis` instances to render scatter charts:
 
-In a scatter chart, both coordinates of each data point are numeric values. The chart positions the points by their actual values on both axes instead of placing them in evenly spaced categories.
-
-## Supported Scatter Scenarios
-
-The following table shows which series type to use for each scatter scenario:
-
-| Scatter Series | Axes |
-|----------------|------|
-| Scatter [`PointSeries`]({% slug charts-cartesian-point-series %}) | `NumericalAxis` (horizontal) and `NumericalAxis` (vertical) |
-| Scatter [`LineSeries`]({% slug charts-cartesian-line-series %}) | `NumericalAxis` (horizontal) and `NumericalAxis` (vertical) |
-| Scatter [`AreaSeries`]({% slug charts-cartesian-area-series %}) | `NumericalAxis` (horizontal) and `NumericalAxis` (vertical) |
-| Scatter [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) | `NumericalAxis` (horizontal) and `NumericalAxis` (vertical) |
-
-> To plot data against time instead of a numeric value on the horizontal axis, use a [`DateTimeAxis`]({% slug charts-cartesian-datetime-axis %}) as the horizontal axis.
+* [`PointSeries`]({% slug charts-cartesian-point-series %}) 
+* [`LineSeries`]({% slug charts-cartesian-line-series %}) 
+* [`AreaSeries`]({% slug charts-cartesian-area-series %}) 
+* [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %})
 
 ## Data Binding
 
@@ -35,6 +25,22 @@ To configure a scatter series:
 1. Set the series `ItemsSource` to a collection of data items with two numeric members.
 1. Set `HorizontalBinding` to the member that provides the X value.
 1. Set `VerticalBinding` to the member that provides the Y value.
+
+## Line and Area Customization
+
+Use the following properties to customize the appearance of the line and area:
+
+* `Fill` (`Brush`)&mdash;Defines the fill of the area (applicable for `AreaSeries` and `SplineAreaSeries`).
+* `Stroke` (`Brush`)&mdash;Defines the brush to paint the stroke of the line or area.
+* `StrokeThickness` (`double`)&mdash;Defines the thickness of the line or area stroke.
+
+## Labels Customization
+
+Use the following properties to configure the labels visualized for each data point:
+
+* `ShowLabels` (`bool`)&mdash;Defines whether the axis labels will be displayed.
+* `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the line or area.
+* `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
 ## Example
 
