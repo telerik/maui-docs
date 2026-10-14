@@ -17,14 +17,14 @@ You can take advantage of the following styling properties:
 * `BorderThickness` (`Thickness`)&mdash;Defines the border thickness around the editor.
 * `CornerRadius` (`Thickness`)&mdash;Defines corner radius of the border.
 * `BackgroundColor` (`Color`)&mdash;Defines the background color of the editor.
-* `DefaultTextColor` (`Color`)&mdash;Defines the default text color of all text in the editor.
+* `DefaultTextColor` (`Color`)&mdash;Defines the default text color of all text in the editor. Text with an explicit color keeps that color.
 * `DefaultHyperlinkTextColor` (`Color`)&mdash;Defines the default text color of all hyperlinks in the editor. Hyperlink text with an explicit color keeps that color.
 * `DefaultHyperlinkVisitedTextColor` (`Color`)&mdash;Defines the default text color of all visited hyperlinks in the editor. Visited hyperlink text with an explicit color keeps that color.
 
 > The `TextColor` applies to the current position or selection and changes the document content. The `DefaultTextColor` applies a document-wide default and does not modify the content. 
 > Text that has an explicit color applied to it keeps that color. Use this property to align the document with the theme of the application, for example when switching between light and dark mode.
 
->important On WinUI, the `BackgroundColor` works when the color is initially applied and with colors that have Alpha = `1`. So you do not have to add transparency to the `BackgroundColor` on WinUI.
+> Define the `BackgroundColor` and `DefaultTextColor` to match the theme of your application. 
 
 ## Example
 

@@ -118,6 +118,12 @@ The following table maps the previous Chart features to their counterparts in th
 | Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`)  |
 | Plot areas | - | [Plot Areas]({% slug charts-cartesian-plot-areas %}) |
 | Stacked Bar Series | `CombineMode` property | [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property |
+| Null values support | Null values support | [Null values support]({% slug charts-cartesian-null-values %}) |
+| Tooltip | Tooltip behavior | - |
+| Trackball | Trackball behavior | - |
+| Selection | Selection behavior | - |
+| Pan and Zoom | Pan and Zoom behavior | - |
+| Legend | Legend | - |
 
 ## Chart Series
 
@@ -134,9 +140,9 @@ Still the new chart is in a preview state, and some series are not yet implement
 | `AreaSeries` | [`AreaSeries`]({% slug charts-cartesian-area-series %}) |
 | `SplineSeries` | [`SplineSeries`]({% slug charts-cartesian-spline-series %}) |
 | `SplineAreaSeries` | [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) |
-| `ScatterLineSeries` | [Scatter Series]({% slug charts-cartesian-scatter-series%}) |
-| `ScatterAreaSeries` | [Scatter Series]({% slug charts-cartesian-scatter-series%}) |
-| `ScatterPointSeries` | [Scatt.er Series]({% slug charts-cartesian-scatter-series%}) |
+| `ScatterLineSeries` | [`Scatter Series`]({% slug charts-cartesian-scatter-series%}) |
+| `ScatterAreaSeries` | [`Scatter Series`]({% slug charts-cartesian-scatter-series%}) |
+| `ScatterPointSeries` | [`Scatter Series`]({% slug charts-cartesian-scatter-series%}) |
 
 ### Pie Series
 
@@ -192,7 +198,7 @@ The following table summarizes the main differences between the previous and the
 | Namespace | `Telerik.Maui.Controls.Compatibility.Chart` | `Telerik.Maui.Controls.Charts` |
 | XAML namespace | `http://schemas.telerik.com/2022/xaml/maui` | `clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls` |
 | Data binding | `ValueBinding`, `CategoryBinding` (`DataPointBinding`) | `VerticalBinding`, `HorizontalBinding` (`string`) |
-| Cartesian series | Bar, Line, Area, Spline, Scatter families | Bar, Line, Area, Point |
+| Cartesian series | Bar, Line, Area, Point, Spline, Scatter | Bar, Line, Area, Point, Spline, Scatter |
 | Pie series | `PieSeries`, `DoughnutSeries` | `PieSeries`, `DonutSeries` |
 | Financial series | OHLC, Candlestick, indicators | - |
 | Axes | `Categorical`, `Numerical`, `DateTimeContinuous` | `Categorical`, `Numerical`, `DateTime` |
