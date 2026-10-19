@@ -12,175 +12,173 @@ components: ["general"]
 
 You can choose any of the available Telerik font icons: 
 
-| Icon | Name | XAML | Code |
-| ---- | ---- | ---- | ---- |
-| ![Telerik UI for .NET MAUI example font icon: sort-descent](images/sort-descent.png) | sort descent | __\&#xe800;__ | __\ue800__ |
-| ![Telerik UI for .NET MAUI example font icon: star-empty](images/star-empty.png) | star-empty | __\&#xe801;__ | __\ue801__ |
-| ![Telerik UI for .NET MAUI example font icon: filter](images/filter.png) | filter | __\&#xe802;__ | __\ue802__ |
-| ![Telerik UI for .NET MAUI example font icon: sort-ascent](images/sort-ascent.png) | sort ascent | __\&#xe803;__ | __\ue803__ |
-| ![Telerik UI for .NET MAUI example font icon: group](images/group.png) | group | __\&#xe804;__ | __\ue804__ |
-| ![Telerik UI for .NET MAUI example font icon: star](images/star.png) | star | __\&#xe805;__ | __\ue805__ |
-| ![Telerik UI for .NET MAUI example font icon: right-dir](images/right-dir.png) | right-dir | __\&#xe806;__ | __\ue806__ |
-| ![Telerik UI for .NET MAUI example font icon: dots-vert](images/dots-vert.png) | dots vert | __\&#xe807;__ | __\ue807__ |
-| ![Telerik UI for .NET MAUI example font icon: menu](images/menu.png) | menu | __\&#xf008;__ | __\uf008__ |
-| ![Telerik UI for .NET MAUI example font icon: check](images/check.png) | check | __\&#xe876;__ | __\ue876__ |
-| ![Telerik UI for .NET MAUI example font icon: cancel](images/cancel.png) | cancel | __\&#xe877;__ | __\ue877__ |
-| ![Telerik UI for .NET MAUI example font icon: dot](images/dot.png) | dot | __\&#xe80b;__ | __\ue80b__ |
-| ![Telerik UI for .NET MAUI example font icon: dot-3](images/dot-3.png) | dot-3 | __\&#xe80c;__ | __\ue80c__ |
-| ![Telerik UI for .NET MAUI example font icon: down-dir](images/down-dir.png) | down-dir | __\&#xe80d;__ | __\ue80d__ |
-| ![Telerik UI for .NET MAUI example font icon: chevron-left](images/chevron-left.png) | chevron left | __\&#xe80e;__ | __\ue80e__ |
-| ![Telerik UI for .NET MAUI example font icon: configure](images/configure.png) | configure | __\&#xe80f;__ | __\ue80f__ |
-| ![Telerik UI for .NET MAUI example font icon: search](images/search.png) | search | __\&#xe810;__ | __\ue810__ |
-| ![Telerik UI for .NET MAUI example font icon: up-dir](images/up-dir.png) | up-dir | __\&#xe811;__ | __\ue811__ |
-| ![Telerik UI for .NET MAUI example font icon: pattern](images/pattern.png) | pattern | __\&#xe812;__ | __\ue812__ |
-| ![Telerik UI for .NET MAUI example font icon: add](images/add.png) | add | __\&#xe813;__ | __\ue813__ |
-| ![Telerik UI for .NET MAUI example font icon: right-dir-outlines](images/right-dir-outlines.png) | right-dir-outlines | __\&#xe814;__ | __\ue814__ |
-| ![Telerik UI for .NET MAUI example font icon: info](images/info.png) | info | __\&#xe815;__ | __\ue815__ |
-| ![Telerik UI for .NET MAUI example font icon: down-dir-outlines](images/down-dir-outlines.png) | down-dir-outlines | __\&#xe816;__ | __\ue816__ |
-| ![Telerik UI for .NET MAUI example font icon: bin-solid](images/bin-solid.png)  | bin-solid | __\&#xe817;__ | __\ue817__ |
-| ![Telerik UI for .NET MAUI example font icon: edit](images/edit.png) | edit | __\&#xe818;__ | __\ue818__ |
-| ![Telerik UI for .NET MAUI example font icon: copy](images/copy.png) | copy | __\&#xe819;__ | __\ue819__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-up](images/arrow-up.png) | arrow-up | __\&#xe81a;__ | __\ue81a__ |
-| ![Telerik UI for .NET MAUI example font icon: airplane](images/airplane.png) | airplane | __\&#xe81c;__ | __\ue81c__ |
-| ![Telerik UI for .NET MAUI example font icon: pdf](images/pdf.png) | pdf | __\&#xe81d;__ | __\ue81d__ |
-| ![Telerik UI for .NET MAUI example font icon: encoding](images/encoding.png) | encoding | __\&#xe81e;__ | __\ue81e__ |
-| ![Telerik UI for .NET MAUI example font icon: length](images/length.png) | length | __\&#xe81f;__ | __\ue81f__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-right](images/arrow-right.png) | arrow-right | __\&#xe820;__ | __\ue820__ |
-| ![Telerik UI for .NET MAUI example font icon: contacts](images/contacts.png) | contacts | __\&#xe821;__ | __\ue821__ |
-| ![Telerik UI for .NET MAUI example font icon: cog-outlines](images/cog-outlines.png) | cog-outlines | __\&#xe822;__ | __\ue822__ |
-| ![Telerik UI for .NET MAUI example font icon: type](images/type.png) | type | __\&#xe823;__ | __\ue823__ |
-| ![Telerik UI for .NET MAUI example font icon: location](images/location.png) | location | __\&#xe83d;__ | __\ue83d__ |
-| ![Telerik UI for .NET MAUI example font icon: link](images/link.png) | link | __\&#xe83e;__ | __\ue83e__ |
-| ![Telerik UI for .NET MAUI example font icon: archive](images/archive.png) | archive | __\&#xe826;__ | __\ue826__ |
-| ![Telerik UI for .NET MAUI example font icon: bin](images/bin.png) | bin | __\&#xe827;__ | __\ue827__ |
-| ![Telerik UI for .NET MAUI example font icon: draft](images/draft.png) | draft | __\&#xe828;__ | __\ue828__ |
-| ![Telerik UI for .NET MAUI example font icon: folder-open](images/folder-open.png) | folder-open | __\&#xe829;__ | __\ue829__ |
-| ![Telerik UI for .NET MAUI example font icon: folder](images/folder.png) | folder | __\&#xe82a;__ | __\ue82a__ |
-| ![Telerik UI for .NET MAUI example font icon: group](images/group.png) | group | __\&#xe82b;__ | __\ue82b__ |
-| ![Telerik UI for .NET MAUI example font icon: item](images/item.png) | item | __\&#xe82c;__ | __\ue82c__ |
-| ![Telerik UI for .NET MAUI example font icon: sent](images/sent.png) | sent | __\&#xe82d;__ | __\ue82d__ |
-| ![Telerik UI for .NET MAUI example font icon: spam](images/spam.png) | spam | __\&#xe82e;__ | __\ue82e__ |
-| ![Telerik UI for .NET MAUI example font icon: warning](images/warning.png) | warning | __\&#xe82f;__ | __\ue82f__ |
-| ![Telerik UI for .NET MAUI example font icon: lock](images/lock.png) | lock | __\&#xe830;__ | __\ue830__ |
-| ![Telerik UI for .NET MAUI example font icon: thickness](images/thickness.png) | thickness | __\&#xe831;__ | __\ue831__ |
-| ![Telerik UI for .NET MAUI example font icon: car](images/car.png) | car | __\&#xe832;__ | __\ue832__ |
-| ![Telerik UI for .NET MAUI example font icon: shopping-bag](images/shopping-bag.png) | shopping-bag | __\&#xe833;__ | __\ue833__ |
-| ![Telerik UI for .NET MAUI example font icon: coffee-cup](images/coffee-cup.png) | coffee-cup | __\&#xe834;__ | __\ue834__ |
-| ![Telerik UI for .NET MAUI example font icon: get-money](images/get-money.png) | get-money | __\&#xe835;__ | __\ue835__ |
-| ![Telerik UI for .NET MAUI example font icon: shopping-user](images/shopping-user.png) | shopping-user | __\&#xe836;__ | __\ue836__ |
-| ![Telerik UI for .NET MAUI example font icon: group-users](images/group-users.png) | group users | __\&#xe837;__ | __\ue837__ |
-| ![Telerik UI for .NET MAUI example font icon: dashboard](images/dashboard.png) | dashboard | __\&#xe838;__ | __\ue838__ |
-| ![Telerik UI for .NET MAUI example font icon: first](images/first.png) | first | __\&#xe839;__ | __\ue839__ |
-| ![Telerik UI for .NET MAUI example font icon: cake](images/cake.png) | cake | __\&#xe83a;__ | __\ue83a__ |
-| ![Telerik UI for .NET MAUI example font icon: chat](images/chat.png) | chat | __\&#xe83b;__ | __\ue83b__ |
-| ![Telerik UI for .NET MAUI example font icon: book2](images/book2.png) | book | __\&#xe83c;__ | __\ue83c__ |
-| ![Telerik UI for .NET MAUI example font icon: assets2](images/assets2.png) | assets | __\&#xe846;__ | __\ue846__ |
-| ![Telerik UI for .NET MAUI example font icon: book2](images/book2.png) | book | __\&#xe847;__ | __\ue847__ |
-| ![Telerik UI for .NET MAUI example font icon: cancel2](images/cancel2.png) | cancel | __\&#xe851;__ | __\ue851__ |
-| ![Telerik UI for .NET MAUI example font icon: design](images/design.png) | design | __\&#xe848;__ | __\ue848__ |
-| ![Telerik UI for .NET MAUI example font icon: graphics](images/graphics.png) | graphics | __\&#xe849;__ | __\ue849__ |
-| ![Telerik UI for .NET MAUI example font icon: picture](images/picture.png) | picture | __\&#xe852;__ | __\ue852__ |
-| ![Telerik UI for .NET MAUI example font icon: font-size](images/font-size.png) | font-size | __\&#xe84b;__ | __\ue84b__ |
-| ![Telerik UI for .NET MAUI example font icon: template](images/template.png) | template | __\&#xe84c;__ | __\ue84c__ |
-| ![Telerik UI for .NET MAUI example font icon: wireframes](images/wireframes.png) | wireframes | __\&#xe84d;__ | __\ue84d__ |
-| ![Telerik UI for .NET MAUI example font icon: distance](images/distance.png) | distance | __\&#xe84e;__ | __\ue84e__ |
-| ![Telerik UI for .NET MAUI example font icon: stopwatch](images/stopwatch.png) | stopwatch | __\&#xe84f;__ | __\ue84f__ |
-| ![Telerik UI for .NET MAUI example font icon: play](images/play.png) | play | __\&#xe850;__ | __\ue850__ |
-| ![Telerik UI for .NET MAUI example font icon: code](images/code.png) | code | __\&#xe854;__ | __\ue854__ |
-| ![Telerik UI for .NET MAUI example font icon: analysis](images/analysis.png) | analysis | __\&#xe855;__ | __\ue855__ |
-| ![Telerik UI for .NET MAUI example font icon: network](images/network.png) | network | __\&#xe856;__ | __\ue856__ |
-| ![Telerik UI for .NET MAUI example font icon: network2](images/network2.png) | network | __\&#xe857;__ | __\ue857__ |
-| ![Telerik UI for .NET MAUI example font icon: bar-chart](images/bar-chart.png) | bar-chart | __\&#xe858;__ | __\ue858__ |
-| ![Telerik UI for .NET MAUI example font icon: sap](images/sap.png) | sap | __\&#xe859;__ | __\ue859__ |
-| ![Telerik UI for .NET MAUI example font icon: dba](images/dba.png) | dba | __\&#xe85a;__ | __\ue85a__ |
-| ![Telerik UI for .NET MAUI example font icon: home](images/home.png) | home | __\&#xe85b;__ | __\ue85b__ |
-| ![Telerik UI for .NET MAUI example font icon: temperature](images/temperature.png) | temperature | __\&#xe85c;__ | __\ue85c__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | phone | __\&#xe85d;__ | __\ue85d__ |
-| ![Telerik UI for .NET MAUI example font icon: electricity](images/electricity.png) | electricity | __\&#xe85e;__ | __\ue85e__ |
-| ![Telerik UI for .NET MAUI example font icon: wifi](images/wifi.png) | wifi | __\&#xe85f;__ | __\ue85f__ |
-| ![Telerik UI for .NET MAUI example font icon: distance-horizontal](images/distance-horizontal.png) | distance-horizontal | __\&#xe860;__ | __\ue860__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-dayview](images/calendar-dayview.png) | calendar dayview | __\&#xe861;__ | __\ue861__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-multiday](images/calendar-multiday.png) | calendar multiday | __\&#xe862;__ | __\ue862__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-week](images/calendar-week.png) | calendar week | __\&#xe863;__ | __\ue863__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-month](images/calendar-month.png) | calendar month | __\&#xe864;__ | __\ue864__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-year](images/calendar-year.png) | calendar year | __\&#xe865;__ | __\ue865__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-single](images/calendar-selection-single.png) | calendar selection single | __\&#xe866;__ | __\ue866__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-multiple](images/calendar-selection-multiple.png) | calendar selection multiple | __\&#xe867;__ | __\ue867__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-selection-range](images/calendar-selection-range.png) | calendar selection range | __\&#xe868;__ | __\ue868__ |
-| ![Telerik UI for .NET MAUI example font icon: gallery](images/gallery.png) | gallery | __\&#xe869;__ | __\ue869__ |
-| ![Telerik UI for .NET MAUI example font icon: camera](images/camera.png) | camera | __\&#xe86a;__ | __\ue86a__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-free](images/crop-free.png) | crop free | __\&#xe86b;__ | __\ue86b__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-original](images/crop-original.png) | crop original | __\&#xe86c;__ | __\ue86c__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-rect](images/crop-rect.png) | crop rect | __\&#xe86d;__ | __\ue86d__ |
-| ![Telerik UI for .NET MAUI example font icon: crop-circular](images/crop-circular.png) | crop circular | __\&#xe86e;__ | __\ue86e__ |
-| ![Telerik UI for .NET MAUI example font icon: badge](images/badge.png) | badge | __\&#xe86f;__ | __\ue86f__ |
-| ![Telerik UI for .NET MAUI example font icon: notes](images/notes.png) | notes | __\&#xe870;__ | __\ue870__ |
-| ![Telerik UI for .NET MAUI example font icon: time](images/time.png) | time | __\&#xe871;__ | __\ue871__ |
-| ![Telerik UI for .NET MAUI example font icon: calendar-agenda](images/calendar-agenda.png) | calendar agenda | __\&#xe872;__ | __\ue872__ |
-| ![Telerik UI for .NET MAUI example font icon: arrows](images/arrows.png) | arrows | __\&#xe873;__ | __\ue873__ |
-| ![Telerik UI for .NET MAUI example font icon: video-camera](images/video-camera.png) | video-camera | __\&#xe87;__ | __\ue874__ |
-| ![Telerik UI for .NET MAUI example font icon: time](images/time.png) | check | __\&#xe878;__ | __\ue878__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | cancel | __\&#xe887;__ | __\ue887__ |
-| ![Telerik UI for .NET MAUI example font icon: text](images/text.png) | text | __\&#xe853;__ | __\ue853__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-down](images/arrow-down.png) | arrow-down | __\&#xe879;__ | __\ue879__ |
-| ![Telerik UI for .NET MAUI example font icon: flag](images/flag.png) | flag | __\&#xe87a;__ | __\ue87a__ |
-| ![Telerik UI for .NET MAUI example font icon: save](images/save.png) | save | __\&#xe87b;__ | __\ue87b__ |
-| ![Telerik UI for .NET MAUI example font icon: share](images/share.png) | share | __\&#xe87c;__ | __\ue87c__ |
-| ![Telerik UI for .NET MAUI example font icon: menu-custom](images/menu-custom.png) | menu-custom | __\&#xe87d;__ | __\ue87d__ |
-| ![Telerik UI for .NET MAUI example font icon: heart-filled](images/heart-filled.png) | heart-filled | __\&#xe87e;__ | __\ue87e__ |
-| ![Telerik UI for .NET MAUI example font icon: heart-empty](images/heart-empty.png) | heart-empty | __\&#xe87f;__ | __\ue87f__ |
-| ![Telerik UI for .NET MAUI example font icon: reorder](images/reorder.png) | reorder | __\&#xe881;__ | __\ue881__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-box-left](images/arrow-box-left.png) | arrow-box-left | __\&#xe882;__ | __\ue882__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-box-right](images/arrow-box-right.png) | arrow-box-right | __\&#xe883;__ | __\ue883__ |
-| ![Telerik UI for .NET MAUI example font icon: bell](images/bell.png) | bell | __\&#xe88a;__ | __\ue88a__ |
-| ![Telerik UI for .NET MAUI example font icon: chat](images/chat.png) | chat | __\&#xe88b;__ | __\ue88b__ |
-| ![Telerik UI for .NET MAUI example font icon: phone](images/phone.png) | phone | __\&#xe904;__ | __\ue887 |
-| ![Telerik UI for .NET MAUI example font icon: unpin](images/unpin.png) | unpin | __\&#xe88e;__ | __\ue88e__ |
-| ![Telerik UI for .NET MAUI example font icon: pin](images/pin.png) | pin | __\&#xe88f;__ | __\ue88f__ |
-| ![Telerik UI for .NET MAUI example font icon: excel](images/excel.png) | excel | __\&#xe896;__ | __\ue896__ |
-| ![Telerik UI for .NET MAUI example font icon: powerpoint](images/powerpoint.png) | powerpoint | __\&#xe897;__ | __\ue897__ |
-| ![Telerik UI for .NET MAUI example font icon: word](images/word.png) | word | __\&#xe898;__ | __\ue898__ |
-| ![Telerik UI for .NET MAUI example font icon: pdf](images/pdf.png) | pdf | __\&#xe899;__ | __\ue899__ |
-| ![Telerik UI for .NET MAUI example font icon: last](images/last.png) | last | __\&#xe89a;__ | __\ue89a__ |
-| ![Telerik UI for .NET MAUI example font icon: expand](images/expand.png) | expand | __\&#xe89b;__ | __\ue89b__ |
-| ![Telerik UI for .NET MAUI example font icon: expand2](images/expand2.png) | expand 2 | __\&#xe89c;__ | __\ue89c__ |
-| ![Telerik UI for .NET MAUI example font icon: paint-bucket](images/paint-bucket.png) | paint bucket | __\&#xe89d;__ | __\ue89d__ |
-| ![Telerik UI for .NET MAUI example font icon: mail](images/mail.png) | mail | __\&#xe89e;__ | __\ue89e__ |
-| ![Telerik UI for .NET MAUI example font icon: promotion](images/promotion.png) | promotion | __\&#xe89f;__ | __\ue89f__ |
-| ![Telerik UI for .NET MAUI example font icon: scheduled](images/scheduled.png) | scheduled | __\&#xe8a0;__ | __\ue8a0__ |
-| ![Telerik UI for .NET MAUI example font icon: label](images/label.png) | label | __\&#xe8a1;__ | __\ue8a1__ |
-| ![Telerik UI for .NET MAUI example font icon: drawer](images/drawer.png) | drawer | __\&#xe8a2;__ | __\ue8a2__ |
-| ![Telerik UI for .NET MAUI example font icon: social](images/social.png) | social | __\&#xe8a3;__ | __\ue8a3__ |
-| ![Telerik UI for .NET MAUI example font icon: shipping](images/shipping.png) | shipping | __\&#xe8a6;__ | __\ue8a6__ |
-| ![Telerik UI for .NET MAUI example font icon: products](images/products.png) | products | __\&#xe8a7;__ | __\ue8a7__ |
-| ![Telerik UI for .NET MAUI example font icon: customer](images/customer.png) | customer | __\&#xe8a8;__ | __\ue8a8__ |
-| ![Telerik UI for .NET MAUI example font icon: export](images/export.png) | export | __\&#xe8a9;__ | __\ue8a9__ |
-| ![Telerik UI for .NET MAUI example font icon: info-outlines](images/info-outlines.png) | info-outlines | __\&#xe8ac;__ | __\ue8ac__ |
-| ![Telerik UI for .NET MAUI example font icon: contract](images/contract.png) | contract | __\&#xe8dd;__ | __\ue8dd__ |
-| ![Telerik UI for .NET MAUI example font icon: enlarge](images/enlarge.png) | enlarge | __\&#xe8de;__ | __\ue8de__ |
-| ![Telerik UI for .NET MAUI example font icon: translate](images/translate.png) | translate | __\&#xe8df;__ | __\ue8df__ |
-| ![Telerik UI for .NET MAUI example font icon: emoji](images/emoji.png) | emoji | __\&#xe900;__ | __\ue900__ |
-| ![Telerik UI for .NET MAUI example font icon: brightness](images/brightness.png) | brightness | __\&#xe901;__ | __\ue901__ |
-| ![Telerik UI for .NET MAUI example font icon: flip-vertical](images/flip-vertical.png) | flip-vertical | __\&#xe902;__ | __\ue902__ |
-| ![Telerik UI for .NET MAUI example font icon: flip-horizontal](images/flip-horizontal.png) | flip-horizontal | __\&#xe903;__ | __\ue903__ |
-| ![Telerik UI for .NET MAUI example font icon: rotate-cw](images/rotate-cw.png) | rotate-cw | __\&#xe904;__ | __\ue904__ |
-| ![Telerik UI for .NET MAUI example font icon: rotate-ccw](images/rotate-ccw.png) | rotate-ccw | __\&#xe905;__ | __\ue905__ |
-| ![Telerik UI for .NET MAUI example font icon: crop](images/crop.png) | crop | __\&#xe906;__ | __\ue906__ | 
-| ![Telerik UI for .NET MAUI example font icon: hue](images/hue.png) | hue | __\&#xe907;__ | __\ue907__ |
-| ![Telerik UI for .NET MAUI example font icon: link-external](images/link-external.png) | link-external | __\&#xf08e;__ | __\uf08e__ |
-| ![Telerik UI for .NET MAUI example font icon: plus-squared](images/plus-squared.png) | plus-squared | __\&#xf0fe;__ | __\uf0fe__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-left](images/angle-left.png) | angle-left | __\&#xf104;__ | __\uf104__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-right](images/angle-right.png) | angle-right | __\&#xf105;__ | __\uf105__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-up](images/angle-up.png) | angle-up | __\&#xf106;__ | __\uf106__ |
-| ![Telerik UI for .NET MAUI example font icon: angle-down](images/angle-down.png) | angle-down | __\&#xf107;__ | __\uf107__ |
-| ![Telerik UI for .NET MAUI example font icon: spinner](images/spinner.png) | spinner | __\&#xf110;__ | __\uf110__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-circled-left](images/arrow-circled-left.png) | arrow-circled-left | __\&#xf137;__ | __\uf137__ |
-| ![Telerik UI for .NET MAUI example font icon: arrow-circled-right](images/arrow-circled-right.png) | arrow-circled-right | __\&#xf138;__ | __\uf138__ |
-| ![Telerik UI for .NET MAUI example font icon: minus-squared](images/minus-squared.png) | minus-squared | __\&#xf146;__ | __\uf146__ |
-| ![Telerik UI for .NET MAUI example font icon: minus-squared-alt](images/minus-squared-alt.png) | minus-squared-alt | __\&#xf147;__ | __\uf147__ |
-| ![Telerik UI for .NET MAUI example font icon: plus-squared-alt](images/plus-squared-alt.png) | plus-squared-alt | __\&#xf196;__ | __\uf196__ |
-
-
+<icon-card-container>
+    <icon-card name="sort descent" xaml="&amp;#xe800;" code="\ue800" src="images/sort-descent.png"></icon-card>
+    <icon-card name="star-empty" xaml="&amp;#xe801;" code="\ue801" src="images/star-empty.png"></icon-card>
+    <icon-card name="filter" xaml="&amp;#xe802;" code="\ue802" src="images/filter.png"></icon-card>
+    <icon-card name="sort ascent" xaml="&amp;#xe803;" code="\ue803" src="images/sort-ascent.png"></icon-card>
+    <icon-card name="group" xaml="&amp;#xe804;" code="\ue804" src="images/group.png"></icon-card>
+    <icon-card name="star" xaml="&amp;#xe805;" code="\ue805" src="images/star.png"></icon-card>
+    <icon-card name="right-dir" xaml="&amp;#xe806;" code="\ue806" src="images/right-dir.png"></icon-card>
+    <icon-card name="dots vert" xaml="&amp;#xe807;" code="\ue807" src="images/dots-vert.png"></icon-card>
+    <icon-card name="menu" xaml="&amp;#xf008;" code="\uf008" src="images/menu.png"></icon-card>
+    <icon-card name="check" xaml="&amp;#xe876;" code="\ue876" src="images/check.png"></icon-card>
+    <icon-card name="cancel" xaml="&amp;#xe877;" code="\ue877" src="images/cancel.png"></icon-card>
+    <icon-card name="dot" xaml="&amp;#xe80b;" code="\ue80b" src="images/dot.png"></icon-card>
+    <icon-card name="dot-3" xaml="&amp;#xe80c;" code="\ue80c" src="images/dot-3.png"></icon-card>
+    <icon-card name="down-dir" xaml="&amp;#xe80d;" code="\ue80d" src="images/down-dir.png"></icon-card>
+    <icon-card name="chevron left" xaml="&amp;#xe80e;" code="\ue80e" src="images/chevron-left.png"></icon-card>
+    <icon-card name="configure" xaml="&amp;#xe80f;" code="\ue80f" src="images/configure.png"></icon-card>
+    <icon-card name="search" xaml="&amp;#xe810;" code="\ue810" src="images/search.png"></icon-card>
+    <icon-card name="up-dir" xaml="&amp;#xe811;" code="\ue811" src="images/up-dir.png"></icon-card>
+    <icon-card name="pattern" xaml="&amp;#xe812;" code="\ue812" src="images/pattern.png"></icon-card>
+    <icon-card name="add" xaml="&amp;#xe813;" code="\ue813" src="images/add.png"></icon-card>
+    <icon-card name="right-dir-outlines" xaml="&amp;#xe814;" code="\ue814" src="images/right-dir-outlines.png"></icon-card>
+    <icon-card name="info" xaml="&amp;#xe815;" code="\ue815" src="images/info.png"></icon-card>
+    <icon-card name="down-dir-outlines" xaml="&amp;#xe816;" code="\ue816" src="images/down-dir-outlines.png"></icon-card>
+    <icon-card name="bin-solid" xaml="&amp;#xe817;" code="\ue817" src="images/bin-solid.png"></icon-card>
+    <icon-card name="edit" xaml="&amp;#xe818;" code="\ue818" src="images/edit.png"></icon-card>
+    <icon-card name="copy" xaml="&amp;#xe819;" code="\ue819" src="images/copy.png"></icon-card>
+    <icon-card name="arrow-up" xaml="&amp;#xe81a;" code="\ue81a" src="images/arrow-up.png"></icon-card>
+    <icon-card name="airplane" xaml="&amp;#xe81c;" code="\ue81c" src="images/airplane.png"></icon-card>
+    <icon-card name="pdf" xaml="&amp;#xe81d;" code="\ue81d" src="images/pdf.png"></icon-card>
+    <icon-card name="encoding" xaml="&amp;#xe81e;" code="\ue81e" src="images/encoding.png"></icon-card>
+    <icon-card name="length" xaml="&amp;#xe81f;" code="\ue81f" src="images/length.png"></icon-card>
+    <icon-card name="arrow-right" xaml="&amp;#xe820;" code="\ue820" src="images/arrow-right.png"></icon-card>
+    <icon-card name="contacts" xaml="&amp;#xe821;" code="\ue821" src="images/contacts.png"></icon-card>
+    <icon-card name="cog-outlines" xaml="&amp;#xe822;" code="\ue822" src="images/cog-outlines.png"></icon-card>
+    <icon-card name="type" xaml="&amp;#xe823;" code="\ue823" src="images/type.png"></icon-card>
+    <icon-card name="location" xaml="&amp;#xe83d;" code="\ue83d" src="images/location.png"></icon-card>
+    <icon-card name="link" xaml="&amp;#xe83e;" code="\ue83e" src="images/link.png"></icon-card>
+    <icon-card name="archive" xaml="&amp;#xe826;" code="\ue826" src="images/archive.png"></icon-card>
+    <icon-card name="bin" xaml="&amp;#xe827;" code="\ue827" src="images/bin.png"></icon-card>
+    <icon-card name="draft" xaml="&amp;#xe828;" code="\ue828" src="images/draft.png"></icon-card>
+    <icon-card name="folder-open" xaml="&amp;#xe829;" code="\ue829" src="images/folder-open.png"></icon-card>
+    <icon-card name="folder" xaml="&amp;#xe82a;" code="\ue82a" src="images/folder.png"></icon-card>
+    <icon-card name="group" xaml="&amp;#xe82b;" code="\ue82b" src="images/group.png"></icon-card>
+    <icon-card name="item" xaml="&amp;#xe82c;" code="\ue82c" src="images/item.png"></icon-card>
+    <icon-card name="sent" xaml="&amp;#xe82d;" code="\ue82d" src="images/sent.png"></icon-card>
+    <icon-card name="spam" xaml="&amp;#xe82e;" code="\ue82e" src="images/spam.png"></icon-card>
+    <icon-card name="warning" xaml="&amp;#xe82f;" code="\ue82f" src="images/warning.png"></icon-card>
+    <icon-card name="lock" xaml="&amp;#xe830;" code="\ue830" src="images/lock.png"></icon-card>
+    <icon-card name="thickness" xaml="&amp;#xe831;" code="\ue831" src="images/thickness.png"></icon-card>
+    <icon-card name="car" xaml="&amp;#xe832;" code="\ue832" src="images/car.png"></icon-card>
+    <icon-card name="shopping-bag" xaml="&amp;#xe833;" code="\ue833" src="images/shopping-bag.png"></icon-card>
+    <icon-card name="coffee-cup" xaml="&amp;#xe834;" code="\ue834" src="images/coffee-cup.png"></icon-card>
+    <icon-card name="get-money" xaml="&amp;#xe835;" code="\ue835" src="images/get-money.png"></icon-card>
+    <icon-card name="shopping-user" xaml="&amp;#xe836;" code="\ue836" src="images/shopping-user.png"></icon-card>
+    <icon-card name="group users" xaml="&amp;#xe837;" code="\ue837" src="images/group-users.png"></icon-card>
+    <icon-card name="dashboard" xaml="&amp;#xe838;" code="\ue838" src="images/dashboard.png"></icon-card>
+    <icon-card name="first" xaml="&amp;#xe839;" code="\ue839" src="images/first.png"></icon-card>
+    <icon-card name="cake" xaml="&amp;#xe83a;" code="\ue83a" src="images/cake.png"></icon-card>
+    <icon-card name="chat" xaml="&amp;#xe83b;" code="\ue83b" src="images/chat.png"></icon-card>
+    <icon-card name="book" xaml="&amp;#xe83c;" code="\ue83c" src="images/book2.png"></icon-card>
+    <icon-card name="assets" xaml="&amp;#xe846;" code="\ue846" src="images/assets2.png"></icon-card>
+    <icon-card name="book" xaml="&amp;#xe847;" code="\ue847" src="images/book2.png"></icon-card>
+    <icon-card name="cancel" xaml="&amp;#xe851;" code="\ue851" src="images/cancel2.png"></icon-card>
+    <icon-card name="design" xaml="&amp;#xe848;" code="\ue848" src="images/design.png"></icon-card>
+    <icon-card name="graphics" xaml="&amp;#xe849;" code="\ue849" src="images/graphics.png"></icon-card>
+    <icon-card name="picture" xaml="&amp;#xe852;" code="\ue852" src="images/picture.png"></icon-card>
+    <icon-card name="font-size" xaml="&amp;#xe84b;" code="\ue84b" src="images/font-size.png"></icon-card>
+    <icon-card name="template" xaml="&amp;#xe84c;" code="\ue84c" src="images/template.png"></icon-card>
+    <icon-card name="wireframes" xaml="&amp;#xe84d;" code="\ue84d" src="images/wireframes.png"></icon-card>
+    <icon-card name="distance" xaml="&amp;#xe84e;" code="\ue84e" src="images/distance.png"></icon-card>
+    <icon-card name="stopwatch" xaml="&amp;#xe84f;" code="\ue84f" src="images/stopwatch.png"></icon-card>
+    <icon-card name="play" xaml="&amp;#xe850;" code="\ue850" src="images/play.png"></icon-card>
+    <icon-card name="code" xaml="&amp;#xe854;" code="\ue854" src="images/code.png"></icon-card>
+    <icon-card name="analysis" xaml="&amp;#xe855;" code="\ue855" src="images/analysis.png"></icon-card>
+    <icon-card name="network" xaml="&amp;#xe856;" code="\ue856" src="images/network.png"></icon-card>
+    <icon-card name="network" xaml="&amp;#xe857;" code="\ue857" src="images/network2.png"></icon-card>
+    <icon-card name="bar-chart" xaml="&amp;#xe858;" code="\ue858" src="images/bar-chart.png"></icon-card>
+    <icon-card name="sap" xaml="&amp;#xe859;" code="\ue859" src="images/sap.png"></icon-card>
+    <icon-card name="dba" xaml="&amp;#xe85a;" code="\ue85a" src="images/dba.png"></icon-card>
+    <icon-card name="home" xaml="&amp;#xe85b;" code="\ue85b" src="images/home.png"></icon-card>
+    <icon-card name="temperature" xaml="&amp;#xe85c;" code="\ue85c" src="images/temperature.png"></icon-card>
+    <icon-card name="phone" xaml="&amp;#xe85d;" code="\ue85d" src="images/phone.png"></icon-card>
+    <icon-card name="electricity" xaml="&amp;#xe85e;" code="\ue85e" src="images/electricity.png"></icon-card>
+    <icon-card name="wifi" xaml="&amp;#xe85f;" code="\ue85f" src="images/wifi.png"></icon-card>
+    <icon-card name="distance-horizontal" xaml="&amp;#xe860;" code="\ue860" src="images/distance-horizontal.png"></icon-card>
+    <icon-card name="calendar dayview" xaml="&amp;#xe861;" code="\ue861" src="images/calendar-dayview.png"></icon-card>
+    <icon-card name="calendar multiday" xaml="&amp;#xe862;" code="\ue862" src="images/calendar-multiday.png"></icon-card>
+    <icon-card name="calendar week" xaml="&amp;#xe863;" code="\ue863" src="images/calendar-week.png"></icon-card>
+    <icon-card name="calendar month" xaml="&amp;#xe864;" code="\ue864" src="images/calendar-month.png"></icon-card>
+    <icon-card name="calendar year" xaml="&amp;#xe865;" code="\ue865" src="images/calendar-year.png"></icon-card>
+    <icon-card name="calendar selection single" xaml="&amp;#xe866;" code="\ue866" src="images/calendar-selection-single.png"></icon-card>
+    <icon-card name="calendar selection multiple" xaml="&amp;#xe867;" code="\ue867" src="images/calendar-selection-multiple.png"></icon-card>
+    <icon-card name="calendar selection range" xaml="&amp;#xe868;" code="\ue868" src="images/calendar-selection-range.png"></icon-card>
+    <icon-card name="gallery" xaml="&amp;#xe869;" code="\ue869" src="images/gallery.png"></icon-card>
+    <icon-card name="camera" xaml="&amp;#xe86a;" code="\ue86a" src="images/camera.png"></icon-card>
+    <icon-card name="crop free" xaml="&amp;#xe86b;" code="\ue86b" src="images/crop-free.png"></icon-card>
+    <icon-card name="crop original" xaml="&amp;#xe86c;" code="\ue86c" src="images/crop-original.png"></icon-card>
+    <icon-card name="crop rect" xaml="&amp;#xe86d;" code="\ue86d" src="images/crop-rect.png"></icon-card>
+    <icon-card name="crop circular" xaml="&amp;#xe86e;" code="\ue86e" src="images/crop-circular.png"></icon-card>
+    <icon-card name="badge" xaml="&amp;#xe86f;" code="\ue86f" src="images/badge.png"></icon-card>
+    <icon-card name="notes" xaml="&amp;#xe870;" code="\ue870" src="images/notes.png"></icon-card>
+    <icon-card name="time" xaml="&amp;#xe871;" code="\ue871" src="images/time.png"></icon-card>
+    <icon-card name="calendar agenda" xaml="&amp;#xe872;" code="\ue872" src="images/calendar-agenda.png"></icon-card>
+    <icon-card name="arrows" xaml="&amp;#xe873;" code="\ue873" src="images/arrows.png"></icon-card>
+    <icon-card name="video-camera" xaml="&amp;#xe874;" code="\ue874" src="images/video-camera.png"></icon-card>
+    <icon-card name="check" xaml="&amp;#xe878;" code="\ue878" src="images/time.png"></icon-card>
+    <icon-card name="cancel" xaml="&amp;#xe887;" code="\ue887" src="images/phone.png"></icon-card>
+    <icon-card name="text" xaml="&amp;#xe853;" code="\ue853" src="images/text.png"></icon-card>
+    <icon-card name="arrow-down" xaml="&amp;#xe879;" code="\ue879" src="images/arrow-down.png"></icon-card>
+    <icon-card name="flag" xaml="&amp;#xe87a;" code="\ue87a" src="images/flag.png"></icon-card>
+    <icon-card name="save" xaml="&amp;#xe87b;" code="\ue87b" src="images/save.png"></icon-card>
+    <icon-card name="share" xaml="&amp;#xe87c;" code="\ue87c" src="images/share.png"></icon-card>
+    <icon-card name="menu-custom" xaml="&amp;#xe87d;" code="\ue87d" src="images/menu-custom.png"></icon-card>
+    <icon-card name="heart-filled" xaml="&amp;#xe87e;" code="\ue87e" src="images/heart-filled.png"></icon-card>
+    <icon-card name="heart-empty" xaml="&amp;#xe87f;" code="\ue87f" src="images/heart-empty.png"></icon-card>
+    <icon-card name="reorder" xaml="&amp;#xe881;" code="\ue881" src="images/reorder.png"></icon-card>
+    <icon-card name="arrow-box-left" xaml="&amp;#xe882;" code="\ue882" src="images/arrow-box-left.png"></icon-card>
+    <icon-card name="arrow-box-right" xaml="&amp;#xe883;" code="\ue883" src="images/arrow-box-right.png"></icon-card>
+    <icon-card name="bell" xaml="&amp;#xe88a;" code="\ue88a" src="images/bell.png"></icon-card>
+    <icon-card name="chat" xaml="&amp;#xe88b;" code="\ue88b" src="images/chat.png"></icon-card>
+    <icon-card name="phone" xaml="&amp;#xe904;" code="\ue887" src="images/phone.png"></icon-card>
+    <icon-card name="unpin" xaml="&amp;#xe88e;" code="\ue88e" src="images/unpin.png"></icon-card>
+    <icon-card name="pin" xaml="&amp;#xe88f;" code="\ue88f" src="images/pin.png"></icon-card>
+    <icon-card name="excel" xaml="&amp;#xe896;" code="\ue896" src="images/excel.png"></icon-card>
+    <icon-card name="powerpoint" xaml="&amp;#xe897;" code="\ue897" src="images/powerpoint.png"></icon-card>
+    <icon-card name="word" xaml="&amp;#xe898;" code="\ue898" src="images/word.png"></icon-card>
+    <icon-card name="pdf" xaml="&amp;#xe899;" code="\ue899" src="images/pdf.png"></icon-card>
+    <icon-card name="last" xaml="&amp;#xe89a;" code="\ue89a" src="images/last.png"></icon-card>
+    <icon-card name="expand" xaml="&amp;#xe89b;" code="\ue89b" src="images/expand.png"></icon-card>
+    <icon-card name="expand 2" xaml="&amp;#xe89c;" code="\ue89c" src="images/expand2.png"></icon-card>
+    <icon-card name="paint bucket" xaml="&amp;#xe89d;" code="\ue89d" src="images/paint-bucket.png"></icon-card>
+    <icon-card name="mail" xaml="&amp;#xe89e;" code="\ue89e" src="images/mail.png"></icon-card>
+    <icon-card name="promotion" xaml="&amp;#xe89f;" code="\ue89f" src="images/promotion.png"></icon-card>
+    <icon-card name="scheduled" xaml="&amp;#xe8a0;" code="\ue8a0" src="images/scheduled.png"></icon-card>
+    <icon-card name="label" xaml="&amp;#xe8a1;" code="\ue8a1" src="images/label.png"></icon-card>
+    <icon-card name="drawer" xaml="&amp;#xe8a2;" code="\ue8a2" src="images/drawer.png"></icon-card>
+    <icon-card name="social" xaml="&amp;#xe8a3;" code="\ue8a3" src="images/social.png"></icon-card>
+    <icon-card name="shipping" xaml="&amp;#xe8a6;" code="\ue8a6" src="images/shipping.png"></icon-card>
+    <icon-card name="products" xaml="&amp;#xe8a7;" code="\ue8a7" src="images/products.png"></icon-card>
+    <icon-card name="customer" xaml="&amp;#xe8a8;" code="\ue8a8" src="images/customer.png"></icon-card>
+    <icon-card name="export" xaml="&amp;#xe8a9;" code="\ue8a9" src="images/export.png"></icon-card>
+    <icon-card name="info-outlines" xaml="&amp;#xe8ac;" code="\ue8ac" src="images/info-outlines.png"></icon-card>
+    <icon-card name="contract" xaml="&amp;#xe8dd;" code="\ue8dd" src="images/contract.png"></icon-card>
+    <icon-card name="enlarge" xaml="&amp;#xe8de;" code="\ue8de" src="images/enlarge.png"></icon-card>
+    <icon-card name="translate" xaml="&amp;#xe8df;" code="\ue8df" src="images/translate.png"></icon-card>
+    <icon-card name="emoji" xaml="&amp;#xe900;" code="\ue900" src="images/emoji.png"></icon-card>
+    <icon-card name="brightness" xaml="&amp;#xe901;" code="\ue901" src="images/brightness.png"></icon-card>
+    <icon-card name="flip-vertical" xaml="&amp;#xe902;" code="\ue902" src="images/flip-vertical.png"></icon-card>
+    <icon-card name="flip-horizontal" xaml="&amp;#xe903;" code="\ue903" src="images/flip-horizontal.png"></icon-card>
+    <icon-card name="rotate-cw" xaml="&amp;#xe904;" code="\ue904" src="images/rotate-cw.png"></icon-card>
+    <icon-card name="rotate-ccw" xaml="&amp;#xe905;" code="\ue905" src="images/rotate-ccw.png"></icon-card>
+    <icon-card name="crop" xaml="&amp;#xe906;" code="\ue906" src="images/crop.png"></icon-card>
+    <icon-card name="hue" xaml="&amp;#xe907;" code="\ue907" src="images/hue.png"></icon-card>
+    <icon-card name="link-external" xaml="&amp;#xf08e;" code="\uf08e" src="images/link-external.png"></icon-card>
+    <icon-card name="plus-squared" xaml="&amp;#xf0fe;" code="\uf0fe" src="images/plus-squared.png"></icon-card>
+    <icon-card name="angle-left" xaml="&amp;#xf104;" code="\uf104" src="images/angle-left.png"></icon-card>
+    <icon-card name="angle-right" xaml="&amp;#xf105;" code="\uf105" src="images/angle-right.png"></icon-card>
+    <icon-card name="angle-up" xaml="&amp;#xf106;" code="\uf106" src="images/angle-up.png"></icon-card>
+    <icon-card name="angle-down" xaml="&amp;#xf107;" code="\uf107" src="images/angle-down.png"></icon-card>
+    <icon-card name="spinner" xaml="&amp;#xf110;" code="\uf110" src="images/spinner.png"></icon-card>
+    <icon-card name="arrow-circled-left" xaml="&amp;#xf137;" code="\uf137" src="images/arrow-circled-left.png"></icon-card>
+    <icon-card name="arrow-circled-right" xaml="&amp;#xf138;" code="\uf138" src="images/arrow-circled-right.png"></icon-card>
+    <icon-card name="minus-squared" xaml="&amp;#xf146;" code="\uf146" src="images/minus-squared.png"></icon-card>
+    <icon-card name="minus-squared-alt" xaml="&amp;#xf147;" code="\uf147" src="images/minus-squared-alt.png"></icon-card>
+    <icon-card name="plus-squared-alt" xaml="&amp;#xf196;" code="\uf196" src="images/plus-squared-alt.png"></icon-card>
+</icon-card-container>
 
 >important You need to set the Telerik example font icon code on the concrete property to visualize the icon. 
 
