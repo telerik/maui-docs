@@ -1,10 +1,11 @@
----
+﻿---
 title: Bindings for Properties inside the RadGauge GaugeRangesDefinition and GradientStop Classes
 description: Learn how to apply bindings for the properties inside the GaugeRangesDefinition and GradientStop classes of the Gauge for .NET MAUI.
 type: how-to
 page_title: How to make the properties inside the GaugeRangesDefinition and GradientStop bindable.
 slug: gauge-rangesdefinition-gradientstop-bindable-properties
 tags: gauge, ranges, bindable properties, .net maui
+components: ["gauge"]
 res_type: kb
 ---
 

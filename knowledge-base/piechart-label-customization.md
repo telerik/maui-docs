@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing Labels in the Pie Chart
 page_title: Customizing Pie Charts Labels - .NET MAUI Knowledge Base
 description: Learn how to customize the Telerik UI for .NET MAUI Pie Chart labels.
 type: how-to
 slug: piechart-label-customization
 tags: maui, chart, axis, piechart, label, customization, text, color
+components: ["chart"]
 res_type: kb
 ---
 

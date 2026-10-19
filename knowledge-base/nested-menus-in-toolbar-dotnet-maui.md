@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating a Two-Level Hierarchy Menu in Toolbar for .NET MAUI
 description: Learn how to implement a two-layer hierarchy menu within the Toolbar component for .NET MAUI using context menus for desktop applications.
 type: how-to
 page_title: Implementing Nested Menus in Toolbar for .NET MAUI
 slug: nested-menus-in-toolbar-dotnet-maui
 tags: toolbar, .net maui, context menu, nested menu, hierarchy
+components: ["toolbar"]
 res_type: kb
 ---
 

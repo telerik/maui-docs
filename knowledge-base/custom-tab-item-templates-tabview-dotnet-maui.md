@@ -1,10 +1,11 @@
----
+﻿---
 title: Customize Tab Header Templates of TabView for .NET MAUI
 description: Learn how to apply custom templates for each tab item in the header of TabView for .NET MAUI, including using HeaderTemplate and HeaderItemTemplate.
 type: how-to
 page_title: How to Create Custom Tab Item Templates in TabView Header for .NET MAUI
 slug: custom-tab-item-templates-tabview-dotnet-maui
 tags: tabview, .net maui, custom template, header template, header item template
+components: ["tabview"]
 res_type: kb
 ---
 

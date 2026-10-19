@@ -1,4 +1,4 @@
----
+﻿---
 title: Making the Three Dots in Scheduler Month View Clickable
 description: Learn how to make the three dots clickable in the Scheduler Month View for small resolutions, allowing users to view and select events.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Enabling Clickable Three Dots in Scheduler Month View for Event Sele
 meta_title: Clickable Three Dots in UI for .NET MAUI Scheduler Month View
 slug: scheduler-month-view-clickable-three-dots
 tags: scheduler, ui-for-dotnet-maui, events, monthdaytapped, commands, appointments
+components: ["scheduler"]
 res_type: kb
 ---
 

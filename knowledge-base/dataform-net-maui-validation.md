@@ -1,10 +1,11 @@
----
+﻿---
 title: Implementing Validation in DataForm for .NET MAUI
 description: Learn how to add validation rules to your DataForm fields in .NET MAUI by using Data Annotations.
 type: how-to
 page_title: How to Add Validation to DataForm in .NET MAUI Using Data Annotations
 slug: dataform-net-maui-validation
 tags: dataform, .net maui, validation, data annotations, regex
+components: ["dataform"]
 res_type: kb
 ---
 

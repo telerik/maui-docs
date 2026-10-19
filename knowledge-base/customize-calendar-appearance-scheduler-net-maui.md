@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling the Calendar in Telerik Scheduler for .NET MAUI
 description: Learn how to customize the appearance of the drop-down calendar in Telerik Scheduler for .NET MAUI by changing text and selection colors.
 type: how-to
 page_title: Customizing Calendar Appearance in Telerik Scheduler for .NET MAUI
 slug: customize-calendar-appearance-scheduler-net-maui
 tags: calendar, styling, scheduler, .net maui, text color, selection color
+components: ["scheduler"]
 res_type: kb
 ---
 

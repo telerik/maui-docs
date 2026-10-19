@@ -1,4 +1,4 @@
----
+﻿---
 title: Hiding InputAccessoryView Buttons on iOS for Telerik MAUI RichTextEditor
 description: Learn how to hide the InputAccessoryView buttons on iOS when using Telerik MAUI RichTextEditor.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Remove Toolbar Buttons from Keyboard on iOS in Telerik MAUI RichText
 meta_title: Remove Toolbar Buttons from Keyboard on iOS in Telerik MAUI RichTextEditor
 slug: hide-inputaccessoryview-buttons-ios-maui-richtexteditor
 tags: maui, richtexteditor, ios, inputaccessoryview, webviewhandler, toolbar
+components: ["richtexteditor"]
 res_type: kb
 ---
 

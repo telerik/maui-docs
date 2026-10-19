@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting TextColor and SelectedTextColor for RadSegmentedControlItemView in UI for .NET MAUI
 description: Learn how to apply TextColor and SelectedTextColor to a custom template in RadSegmentedControlItemView for UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Customize TextColor and SelectedTextColor in RadSegmentedControlItem
 meta_title: Customize TextColor and SelectedTextColor in RadSegmentedControlItemView for UI for .NET MAUI
 slug: customize-textcolor-selectedtextcolor-radsegmentedcontrolitemview-maui
 tags: .net maui, segmentedcontrol, radsegmentedcontrolitemview, textcolor, selectedtextcolor
+components: ["segmentedcontrol"]
 res_type: kb
 ---
 

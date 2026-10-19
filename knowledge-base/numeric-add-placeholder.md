@@ -1,4 +1,4 @@
----
+﻿---
 title: Add a Placeholder in NumericInput
 description: Define a placeholder in numeric entry
 type: how-to
@@ -6,6 +6,7 @@ page_title: Style and customize the numeric entry
 slug: numeric-add-placeholder
 position: 
 tags: numeric, entry style, placeholder, .net maui, maui
+components: ["numericinput"]
 res_type: kb
 ---
 

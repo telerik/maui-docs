@@ -1,10 +1,11 @@
----
+﻿---
 title: Displaying Image and Text in a Toolbar Item
 description: Learn how to display both images and text in the button items of the Toolbar for .NET MAUI.
 type: how-to
 page_title: How to Display Image and Text in the ButtonToolbarItem of the Toolbar for .NET MAUI
 slug: display-image-text-buttontoolbaritem-net-maui
 tags: toolbar, buttontoolbaritem, image, text, display options, style, maui
+components: ["toolbar"]
 res_type: kb
 ---
 

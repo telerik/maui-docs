@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling AutoComplete in Telerik MAUI After Upgrading to Version 8.0.0 or Later
 description: Learn how to apply styles to RadAutoComplete, including border color and thickness, and background color when the control is focused, after upgrading to Telerik MAUI version 8.0.0 or later.
 type: how-to
 page_title: How to Style AutoComplete with Focused State in Telerik MAUI Version 8.0.0+
 slug: style-autocomplete-visual-state-border-telerik-maui
 tags: autocomplete, styling, visual states, telerik, maui, upgrade, focused state
+components: ["autocomplete"]
 res_type: kb
 ---
 

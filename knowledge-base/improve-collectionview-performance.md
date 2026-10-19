@@ -1,4 +1,4 @@
----
+﻿---
 title: Improving CollectionView Performance in .NET MAUI
 description: Tips and tricks for optimizing the performance of the CollectionView when dealing with large datasets and ideal layout practices.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Enhancing Performance for .NET MAUI CollectionView with Large Datase
 meta_title: Enhancing Performance for .NET MAUI CollectionView with Large Datasets
 slug: improve-collectionview-performance-dotnet-maui
 tags: collectionview, .net maui, performance, layouts, images, optimization, loadondemand, paging
+components: ["collectionview"]
 res_type: kb
 ---
 

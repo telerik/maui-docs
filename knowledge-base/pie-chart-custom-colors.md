@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating Custom PieChart Palettes
 page_title: Adding Custom Colors to the PieChart - .NET MAUI Knowledge Base
 description: Learn how to customize the colors of the Telerik UI for .NET MAUI PieChart component.
 type: how-to
 slug: pie-chart-custom-colors
 tags: maui, chart, color, custom, palette, pie chart, donut chart
+components: ["chart"]
 res_type: kb
 ---
 

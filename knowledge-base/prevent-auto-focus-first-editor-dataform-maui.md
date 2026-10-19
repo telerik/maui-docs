@@ -1,10 +1,11 @@
----
+﻿---
 title: Preventing Auto-Focus on the First Editor in ScrollView in MAUI
 description: Learn how to stop the first editor from automatically gaining focus in a ScrollView within the DataForm component for MAUI on WinUI.
 type: troubleshooting
 page_title: How to Prevent First Editor Auto-Focus in ScrollView for MAUI DataForm
 slug: prevent-auto-focus-first-editor-dataform-maui
 tags: dataform, maui, scrollview, autofocus, editor
+components: ["dataform"]
 res_type: kb
 ---
 

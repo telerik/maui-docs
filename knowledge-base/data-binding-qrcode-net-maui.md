@@ -1,10 +1,11 @@
----
+﻿---
 title: Data Binding with QRCode in .NET MAUI Applications
 description: Learn how to bind a QRCode to a property in the ViewModel in a .NET MAUI application using the Telerik Barcode component.
 type: how-to
 page_title: How to Implement Data Binding for QRCode in .NET MAUI
 slug: data-binding-qrcode-net-maui
 tags: barcode, qrcode, databinding, .net maui, viewmodel, bindingcontext
+components: ["barcode"]
 res_type: kb
 ticketid: 1680174
 ---

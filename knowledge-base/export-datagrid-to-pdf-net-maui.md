@@ -1,4 +1,4 @@
----
+﻿---
 title: Exporting DataGrid to PDF in .NET MAUI
 description: Learn how to export Telerik UI for .NET MAUI DataGrid to a PDF using RadPdfProcessing.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Export Telerik UI for .NET MAUI DataGrid to PDF
 meta_title: Export Telerik UI for .NET MAUI DataGrid to PDF
 slug: export-datagrid-to-pdf-net-maui
 tags: datagrid, ui for .net maui, export, pdf, pdfprocessing, radpdfprocessing
+components: ["datagrid"]
 res_type: kb
 ---
 

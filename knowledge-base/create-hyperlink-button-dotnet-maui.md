@@ -1,10 +1,11 @@
----
+﻿---
 title: Create a Hyperlink Button in .NET MAUI
 description: Learn how to style a Telerik MAUI TemplatedButton to look like a hyperlink.
 type: how-to
 page_title: How to Style a TemplatedButton as a Hyperlink in .NET MAUI
 slug: create-hyperlink-button-dotnet-maui
 tags: templatedbutton, hyperlink, styling, .net maui, telerik ui for .net maui
+components: ["templatedbutton"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Displaying Semi-Transparent Watermarks in .NET MAUI PDF Viewer
 description: Learn how to display semi-transparent watermarks in PDF documents using the PDF Viewer component from the UI for .NET MAUI suite.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Show Semi-Transparent Watermarks in MAUI PDFViewer
 meta_title: Show Semi-Transparent Watermarks in .NET MAUI PDF Viewer
 slug: display-semi-transparent-watermarks-maui-pdfviewer
 tags: pdfviewer, .net maui, transparency, watermark, pageelementloaded
+components: ["pdfviewer"]
 res_type: kb
 ---
 

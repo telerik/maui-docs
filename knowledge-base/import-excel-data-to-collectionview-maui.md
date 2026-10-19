@@ -1,10 +1,11 @@
----
+﻿---
 title: Importing Excel Data into .NET MAUI CollectionView
 description: Learn how to pick an Excel file, import its content, and display it in a .NET MAUI CollectionView.
 type: how-to
 page_title: How to Import Excel Data and Display in CollectionView in .NET MAUI
 slug: import-excel-data-to-collectionview-maui
 tags: collectionview, .net maui, excel, import, radspreadstreamprocessing
+components: ["collectionview"]
 res_type: kb
 ---
 

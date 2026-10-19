@@ -1,4 +1,4 @@
----
+﻿---
 title: Resolving Managed Vtable Types NotSupportedException with Telerik .NET MAUI SkiaSharp controls on Windows
 description: Learn how to fix the System.NotSupportedException for managed vtable types in DataGrid for MAUI and other Skia controls by updating the .NET Windows SDK version.
 type: troubleshooting

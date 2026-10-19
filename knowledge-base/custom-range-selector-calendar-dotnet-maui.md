@@ -1,10 +1,11 @@
----
+﻿---
 title: Style the Range Selector for Calendar in .NET MAUI
 description: Learn how to style the range selector for the Calendar component in .NET MAUI for the first, middle, and last selected dates.
 type: how-to
 page_title: Styling Calendar Range Selection in .NET MAUI
 slug: custom-range-selector-calendar-dotnet-maui
 tags: calendar, .net maui, range selection, styling, templates
+components: ["calendar"]
 res_type: kb
 ---
 

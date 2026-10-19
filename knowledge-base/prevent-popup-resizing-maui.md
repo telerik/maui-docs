@@ -1,10 +1,11 @@
----
+﻿---
 title: Fixing the Size of a Popup in MAUI Applications
 description: Learn how to set a fixed size for a Popup in MAUI to prevent resizing when its content changes.
 type: how-to
 page_title: How to Prevent Popup from Resizing with Content Changes in MAUI
 slug: prevent-popup-resizing-maui
 tags: maui, popup, fixed-size, content change
+components: ["popup"]
 res_type: kb
 ---
 

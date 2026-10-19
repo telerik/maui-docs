@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Keyboard Support with Custom Item Templates in ComboBox for .NET MAUI
 description: Learn how to maintain keyboard navigation functionality when using custom item and selected item templates in RadComboBox for .NET MAUI.
 type: how-to
 page_title: How to Use Custom Templates with Keyboard Support in RadComboBox for .NET MAUI
 slug: combobox-custom-templates-keyboard-support
 tags: combobox, .net maui, keyboard navigation, custom templates, item template, selected item template
+components: ["combobox"]
 res_type: kb
 ---
 

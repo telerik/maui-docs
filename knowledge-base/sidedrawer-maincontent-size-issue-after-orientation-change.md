@@ -1,4 +1,4 @@
----
+﻿---
 title: SideDrawer MainContent Size Incorrect After Orientation Change
 description: Learn how to resolve the SideDrawer MainContent size issue after changing the device orientation in UI for .NET MAUI.
 type: troubleshooting
@@ -6,6 +6,7 @@ page_title: Resolving SideDrawer MainContent Height Issue After Device Rotation
 meta_title: Fixing SideDrawer MainContent Size Calculation on Orientation Change
 slug: sidedrawer-maincontent-size-issue-after-orientation-change
 tags: sidedrawer, ui-for-dotnet-maui, orientation, maincontent, resize
+components: ["sidedrawer"]
 res_type: kb
 ---
 

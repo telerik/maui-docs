@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting the Visual States of the ComboBox
 page_title: Configure the Visual States of the ComboBox Component - .NET MAUI Knowledge Base
 description: Learn how to define the visual states of the Telerik UI for .NET MAUI ComboBox control.
 type: how-to
 slug: combobox-visual-states-kb
 tags: maui, combobox, visual states, .net maui combobox, focused, normal, disabled, hover, mouse over
+components: ["combobox"]
 res_type: kb
 ---
 

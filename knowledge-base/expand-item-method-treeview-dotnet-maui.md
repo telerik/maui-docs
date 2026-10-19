@@ -1,4 +1,4 @@
----
+﻿---
 title: Using the Expand Method of TreeView in UI for .NET MAUI
 description: Learn how to use the Expand method of the TreeView control in UI for .NET MAUI to expand specific nodes programmatically.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Expand Nodes in TreeView for UI for .NET MAUI
 meta_title: How to Expand Nodes in TreeView for UI for .NET MAUI
 slug: expand-item-method-treeview-dotnet-maui
 tags: treeview, ui-for-dotnet-maui, expand-method, control, method
+components: ["treeview"]
 res_type: kb
 ---
 

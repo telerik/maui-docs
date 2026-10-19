@@ -1,10 +1,11 @@
----
+﻿---
 title: Adjusting Toolbar Height in .NET MAUI
 description: Learn how to customize the height of the Toolbar in .NET MAUI by setting HeightRequest and MinimumHeightRequest.
 type: how-to
 page_title: How to Control Toolbar Height in a .NET MAUI App
 slug: adjust-toolbar-height-net-maui
 tags: height, toolbar, .net maui, customization
+components: ["toolbar"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Customizing Search Panel in DataGrid for MAUI
 description: Learn how to customize the search panel in DataGrid for MAUI by removing the options icon.
 type: how-to
 page_title: Customize DataGrid Search Panel in MAUI by Removing Options Icon
 slug: customize-datagrid-search-panel-maui
 tags: datagrid, search panel, maui, customization, remove icon
+components: ["datagrid"]
 res_type: kb
 ---
 

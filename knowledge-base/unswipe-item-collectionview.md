@@ -1,10 +1,11 @@
----
+﻿---
 title: Programmatically Unswiping an Item in CollectionView
 description: Learn how to unswipe an item in CollectionView for .NET MAUI programmatically using the EndItemSwipe method.
 type: how-to
 page_title: How to Unswipe an Item Programmatically in RadCollectionView for .NET MAUI
 slug: unswipe-item-collectionview
 tags: collectionview, .net maui, unswipe, item, programmatically
+components: ["collectionview"]
 res_type: kb
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 title: Setting the DataGrid Header Style Programmatically in MAUI When Using the GenerateColumnCommand
 description: Learn how to programmatically define the header style of a DataGrid component in MAUI applications.
 type: how-to
 page_title: Programmatically Styling DataGrid Headers in MAUI
 slug: datagrid-maui-header-style-programmatically
 tags: datagrid, maui, header, style, programmatically, column, generate columns command
+components: ["datagrid"]
 res_type: kb
 ---
 

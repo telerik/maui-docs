@@ -1,4 +1,4 @@
----
+﻿---
 title: Selecting All Text in Edit Mode in DataGrid for UI for .NET MAUI
 description: Learn how to select all text in a cell when entering edit mode in the DataGrid for UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: How to Select All Text in Edit Mode in DataGrid for UI for .NET MAUI
 meta_title: How to Select All Text in Edit Mode in DataGrid for UI for .NET MAUI
 slug: select-all-text-edit-mode-datagrid-dotnet-maui
 tags: datagrid, ui-for-dotnet-maui, selectiononfocus, radentry, edit-mode
+components: ["datagrid"]
 res_type: kb
 ---
 

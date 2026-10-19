@@ -1,10 +1,11 @@
----
+﻿---
 title: Localize DataForm Display Attributes in .NET MAUI
 description: Learn how to use the DisplayAttribute for localization in the Telerik .NET MAUI DataForm.
 type: how-to
 page_title: How to Localize Display Attributes in Telerik .NET MAUI DataForm
 slug: localize-dataform-display-attributes-net-maui
 tags: dataform, .net maui, localization, displayattribute, resourcetype
+components: ["dataform"]
 res_type: kb
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Adjusting TreeView Row Height and Expand Button Margin
 description: Learn how to set the row height and adjust the margin of the expand button in the TreeView for UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Setting Row Height and Customizing Expand Button Margin in TreeView
 meta_title: Setting Row Height and Customizing Expand Button Margin in TreeView
 slug: adjusting-treeview-row-height-expand-button-margin
 tags: treeview, .net maui, row height, expand button, styling
+components: ["treeview"]
 res_type: kb
 ---
 

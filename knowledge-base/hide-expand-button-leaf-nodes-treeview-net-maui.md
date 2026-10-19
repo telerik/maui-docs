@@ -1,4 +1,4 @@
----
+﻿---
 title: Hiding IsLeaf Space in TreeView for UI for .NET MAUI
 description: Learn how to hide the expand button in the TreeView for UI for .NET MAUI when an item has no children (IsLeaf).
 type: how-to
@@ -6,6 +6,7 @@ page_title: Hide Expand Button for Leaf Nodes in TreeView for UI for .NET MAUI
 meta_title: Hide Expand Button for Leaf Nodes in TreeView for UI for .NET MAUI
 slug: hide-expand-button-leaf-nodes-treeview-net-maui
 tags: treeview, ui-for-net-maui, isleaf, expand-button
+components: ["treeview"]
 res_type: kb
 ---
 

@@ -1,9 +1,10 @@
----
+﻿---
 title: Select Cell on Double Tap
 description: Select Cell in DataGrid by Using Double Tap or Double Click
 type: how-to
 page_title: Cell Selection on Double Tap
 slug: datagrid-cell-selection-doubletap
+components: ["datagrid"]
 position: 5
 ticketid: 1611664
 res_type: kb

@@ -1,10 +1,11 @@
----
+﻿---
 title: Synchronizing Scrolling Between Two DataGrid Controls in MAUI
 description: Learn how to synchronize horizontal and vertical scrolling between two DataGrid controls in a MAUI application.
 type: how-to
 page_title: How to Sync Scrolling for Two DataGrids in MAUI
 slug: sync-scrolling-datagrid-maui
 tags: datagrid, maui, scroll, synchronize, radscrollview
+components: ["datagrid"]
 res_type: kb
 ---
 

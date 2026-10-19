@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating a Custom Appointment Model in Scheduler for .NET MAUI
 description: Learn how to extend the appointment model in Scheduler for .NET MAUI with additional properties for enhanced data handling.
 type: how-to
 page_title: How to Extend the Appointment Model with Custom Properties in .NET MAUI Scheduler
 slug: custom-appointment-model-scheduler-net-maui
 tags: scheduler, .net maui, custom model, appointment, data binding
+components: ["scheduler"]
 res_type: kb
 ticketid: 1662472
 ---

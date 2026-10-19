@@ -1,9 +1,10 @@
----
+﻿---
 title: Creating Circular Buttons
 page_title: Rendering Circular Buttons - .NET MAUI Knowledge Base
 description: Learn how to create, implement, and develop a circular button when using the Telerik UI for .NET MAUI Button control.
 type: how-to
 slug: button-create-circle-button
+components: ["button"]
 previous_url: /controls/button/howto/button-howto-create-circle-button
 res_type: kb
 ---
@@ -14,7 +15,7 @@ res_type: kb
 	<tbody>
     <tr>
       <td>Product</td>
-      <td>Progress® Telerik® UI for .NET MAUI Button</td>
+      <td>Telerik UI for .NET MAUI Button</td>
     </tr>
   	<tr>
   		<td>Product Version</td>

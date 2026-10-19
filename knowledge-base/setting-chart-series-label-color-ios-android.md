@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Chart Series Label Color for iOS and Android
 description: Learn how to set the Chart Series Label color in UI for .NET MAUI for iOS and Android platforms.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Changing BarSeries Label Color in UI for .NET MAUI Chart
 meta_title: Changing BarSeries Label Color in UI for .NET MAUI Chart
 slug: setting-chart-series-label-color-ios-android
 tags: chart, ui for .net maui, series, labels, color, ios, android
+components: ["chart"]
 res_type: kb
 ticketid: 1709714
 ---

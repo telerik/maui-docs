@@ -1,10 +1,11 @@
----
+﻿---
 title: Creating Charts with Multiple Axes
 page_title: Creating Charts with Multiple Horizontal and Vertical Axes - .NET MAUI Knowledge Base
 description: Learn how to create a Telerik UI for .NET MAUI Chart component showing two vertical and a horizontal axis at the same time.
 type: how-to
 slug: chart-multiple-axis
 tags: maui, chart, axis, multiple axis, second axis, vertical axis
+components: ["chart"]
 res_type: kb
 ---
 

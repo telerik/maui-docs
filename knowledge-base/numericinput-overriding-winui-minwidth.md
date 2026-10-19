@@ -1,10 +1,11 @@
----
+﻿---
 title: Overriding MinWidth in NumericInput for MAUI
 description: Learn how to adjust the MinWidth of the NumericInput's InputEditor in MAUI to prevent content from being cut off.
 type: how-to
 page_title: How to Adjust the MinWidth of NumericInput's InputEditor in MAUI
 slug: numericinput-maui-overriding-minwidth
 tags: numericinput, maui, customization, minwidth, inputeditor
+components: ["numericinput"]
 res_type: kb
 ticketid: 1656724
 ---

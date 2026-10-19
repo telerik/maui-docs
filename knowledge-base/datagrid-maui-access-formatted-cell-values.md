@@ -1,10 +1,11 @@
----
+﻿---
 title: Accessing Formatted DataGrid Cell Values in MAUI
 description: Learn how to access and output the formatted string values of DataGrid cells in a MAUI application.
 type: how-to
 page_title: How to Access and Output Formatted DataGrid Cell Values in MAUI
 slug: datagrid-maui-access-formatted-cell-values
 tags: datagrid, maui, cell values, formatted strings, datagridcolumn, getvalueforinstance
+components: ["datagrid"]
 res_type: kb
 ---
 

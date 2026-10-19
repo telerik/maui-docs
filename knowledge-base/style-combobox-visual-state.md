@@ -1,10 +1,11 @@
----
+﻿---
 title: Styling ComboBox in Telerik MAUI After Upgrading to Version 8.0.0 or Later
 description: Learn how to apply styles to RadComboBox, including border color and thickness, and background color when the control is focused, after upgrading to Telerik MAUI version 8.0.0 or later.
 type: how-to
 page_title: How to Style ComboBox with Focused State in Telerik MAUI Version 8.0.0+
 slug: style-combobox-visual-state-border-telerik-maui
 tags: combobox, styling, visual states, telerik, maui, upgrade, focused state
+components: ["combobox"]
 res_type: kb
 ---
 

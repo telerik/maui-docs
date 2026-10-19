@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Editor Value Programmatically in DataForm for UI for .NET MAUI
 description: Learn how to programmatically set the value of a specific editor in the DataForm for UI for .NET MAUI.
 type: how-to
@@ -6,6 +6,7 @@ page_title: Programmatically Set Editor Value in UI for .NET MAUI DataForm
 meta_title: Programmatically Set Editor Value in UI for .NET MAUI DataForm
 slug: programmatically-set-editor-value-dataform-maui
 tags: dataform, editorgenerated, set-value, ui-for-dotnet-maui
+components: ["dataform"]
 res_type: kb
 ---
 

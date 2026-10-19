@@ -1,10 +1,11 @@
----
+﻿---
 title: Enabling Word Wrap in DataGrid Cells for MAUI
 description: Learn how to implement word wrap functionality within cells of the DataGrid for MAUI to display large text data effectively.
 type: how-to
 page_title: How to Enable Word Wrap in DataGrid Cells in MAUI
 slug: datagrid-maui-enable-word-wrap
 tags: datagrid, maui, cell, word wrap, text wrap, cellcontenttemplate
+components: ["datagrid"]
 res_type: kb
 ---
 

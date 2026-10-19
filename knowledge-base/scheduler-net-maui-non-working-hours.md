@@ -1,10 +1,11 @@
----
+﻿---
 title: Defining Non-Working Hours in Scheduler for .NET MAUI
 description: Learn how to display non-working hours in the Telerik Scheduler for .NET MAUI across DayView, WeekView, and MultiDayView.
 type: how-to
 page_title: Displaying Non-Working Hours in Scheduler Views for .NET MAUI
 slug: scheduler-net-maui-non-working-hours
 tags: scheduler, .net maui, non-working hours, dayview, weekview, multidateview, special slots
+components: ["scheduler"]
 res_type: kb
 ---
 

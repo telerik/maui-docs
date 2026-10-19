@@ -1,10 +1,11 @@
----
+﻿---
 title: Implementing Custom Localization in .NET MAUI DataForm through Validation Attributes
 description: Learn how to create and apply custom localization values for the .NET MAUI DataForm component to customize validation error messages.
 type: how-to
 page_title: Customizing Localization for Validation Messages in .NET MAUI DataForm when using data annotations
 slug: custom-localization-dotnet-maui-dataform
 tags: dataform, .net maui, localization, validation, custom error message
+components: ["dataform"]
 res_type: kb
 ticketid: 1663273
 ---
