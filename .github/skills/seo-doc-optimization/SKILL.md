@@ -50,10 +50,10 @@ Source rules: front matter `title` and `meta_title` / `page_title` fields.
 | Check | Pass condition | Violation examples |
 |---|---|---|
 | `meta_title` / `page_title` is present | Field exists in front matter | Field is absent |
-| Primary keyword appears early in `meta_title` | The most specific term (component + feature + product) leads the value, e.g. `"Grid Data Binding - Kendo UI for jQuery"` | `"Kendo UI for jQuery - Grid Data Binding"` (product leads instead of topic) |
+| Primary keyword appears early in `meta_title` | The most specific term (component + feature + product) leads the value, e.g. `"DataGrid Data Binding - Telerik UI for .NET MAUI"` | `"Telerik UI for .NET MAUI - DataGrid Data Binding"` (product leads instead of topic) |
 | `meta_title` length is 40–70 characters | Within the range Google displays without truncation | 25 characters (too short) or 90 characters (truncated in SERPs) |
 | `title` (sidebar nav) is distinct and descriptive | Not a generic label shared by sibling articles | Multiple articles all titled `"Overview"` or `"Introduction"` without qualifier |
-| No keyword stuffing | Title reads naturally; keywords appear once, not repeated | `"Grid Grid DataGrid Kendo Grid Overview"` |
+| No keyword stuffing | Title reads naturally; keywords appear once, not repeated | `"Grid Grid DataGrid Telerik MAUI Grid Overview"` |
 
 **Scoring guide:**
 - 5: Keyword-leading `meta_title`, 40–70 chars, distinct across sibling articles.
@@ -159,7 +159,7 @@ Google extracts featured snippets and `People Also Ask` answers from well-struct
 | `slug` is present | Field exists in front matter | Field is absent |
 | Slug is descriptive and keyword-bearing | Slug reflects the article topic, e.g. `grid-remote-data-binding` | `article-123`, `page1`, `untitled` |
 | Slug uses lowercase and hyphens only | No uppercase, underscores, or spaces | `Grid_RemoteData`, `GridRemoteDataBinding` |
-| Slug length is reasonable | 3–6 words / 30–60 characters | Single-word slugs (`grid`) or very long slugs (`kendo-ui-for-jquery-grid-component-remote-data-binding-with-odata`) |
+| Slug length is reasonable | 3–6 words / 30–60 characters | Single-word slugs (`grid`) or very long slugs (`telerik-ui-for-maui-grid-component-remote-data-binding-with-odata`) |
 | No keyword stuffing in slug | Each meaningful word appears once | `grid-grid-data-binding-grid` |
 
 **Scoring guide:**
@@ -175,11 +175,11 @@ Markdown content is often rendered by static-site generators or documentation pl
 
 | Check | Pass condition | Violation examples |
 |---|---|---|
-| `description` is a complete, standalone sentence | Can be used verbatim as the `description` in a JSON-LD `Article` object | Fragment: `"Grid data binding options."` |
+| `description` is a complete, standalone sentence | Can be used verbatim as the `description` in a JSON-LD `Article` object | Fragment: `"Data Grid data binding options."` |
 | Code examples are delimited with language tags | Enables platform to render `SoftwareSourceCode` structured data | Fenced blocks with no language |
 | Step-by-step procedures use numbered lists | Enables extraction as `HowTo` structured data | Procedures written as paragraphs |
 | FAQ-like sections use heading + answer pattern | Enables extraction as `FAQPage` structured data | Q&A embedded in prose with no distinguishing structure |
-| `title` matches H1 exactly (or differs only in casing) | Signals content coherence to crawlers | `title: "Overview"` but H1 is `"Grid Component Overview"` |
+| `title` matches H1 exactly (or differs only in casing) | Signals content coherence to crawlers | `title: "Overview"` but H1 is `"Data Grid Component Overview"` |
 
 **Scoring guide:**
 - 5: Description is a full sentence; code blocks labeled; steps numbered; title matches H1.
