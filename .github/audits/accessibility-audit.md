@@ -1,7 +1,7 @@
 # Telerik UI for .NET MAUI Documentation Accessibility Audit
 
-**Audit date:** October 21, 2026  
-**Status:** Baseline review of repository source; not a conformance certification  
+- **Audit date:** October 21, 2026
+- **Status:** Baseline review of repository source; not a conformance certification
 **Primary criteria:** [`accessibility-doc-optimization` skill](../skills/accessibility-doc-optimization/SKILL.md), which evaluates headings, alternative text, links, tables, plain language, formatting independence, callouts, and code blocks against WCAG 2.1 AA documentation practices.
 
 ## Executive summary
