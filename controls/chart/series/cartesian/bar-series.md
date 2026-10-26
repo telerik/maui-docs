@@ -15,6 +15,19 @@ The Bar Series inherits from the Categorical Series and requires one Categorical
 
 >tip For more information about the common Categorical Series features that are also applicable to the Bar Series, refer to the [article on series features]({%slug chart-series-overview%}).
 
+## Control Bar Thickness
+
+For charts in the `Telerik.Maui.Controls.Compatibility.Chart` namespace, use the categorical axis's `GapLength` property to adjust the relative spacing between categories. Increasing `GapLength` leaves more space around the bars and makes them thinner.
+
+Set `GapLength` on the categorical axis that determines the bar thickness:
+
+- For vertical bars, set it on the horizontal `CategoricalAxis` to adjust the bar width.
+- For horizontal bars, set it on the vertical `CategoricalAxis` to adjust the bar height. The bar width represents its numerical value, not its thickness.
+
+`GapLength` is a relative spacing setting, not an absolute maximum bar width or height. The resulting thickness depends on the available plot area and the number of categories. A fixed `GapLength` value does not enforce a fixed maximum thickness when the chart is resized or the category count changes, including when only one category is present.
+
+For property details and a configuration example, see [Categorical Axis]({%slug axes-categorical-axis%}#features).
+
 ## Example
 
 The following example shows how to create a Cartesian Chart with Bar Series:
