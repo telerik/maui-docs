@@ -113,3 +113,4 @@ Use this style when the default splitter is too subtle or when you want the froz
 
 - [Styling the .NET MAUI DataGrid Columns]({%slug datagrid-columns-styling%})
 - [Available DataGrid Style Selectors]({%slug datagrid-style-selectors%})
+- [Troubleshoot DataGrid Selection Styles]({%slug datagrid-troubleshoot-selection-styles%})
