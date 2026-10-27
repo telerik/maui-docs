@@ -17,12 +17,12 @@ The Bar Series inherits from the Categorical Series and requires one Categorical
 
 ## Control Bar Thickness
 
-For charts in the `Telerik.Maui.Controls.Compatibility.Chart` namespace, use the categorical axis's `GapLength` property to adjust the relative spacing between categories. Increasing `GapLength` leaves more space around the bars and makes them thinner.
+For charts in the `Telerik.Maui.Controls.Compatibility.Chart` namespace, the categorical and datetime axes expose a `GapLength` property (`double` in the range `[0,1]`) that controls the relative spacing between categories or datetime values. Larger `GapLength` values increase the space between bars and make them appear thinner.
 
-Set `GapLength` on the categorical axis that determines the bar thickness:
+Set `GapLength` on the categorical or datetime axis that determines the bar thickness:
 
-- For vertical bars, set it on the horizontal `CategoricalAxis` to adjust the bar width.
-- For horizontal bars, set it on the vertical `CategoricalAxis` to adjust the bar height. The bar width represents its numerical value, not its thickness.
+- For vertical bars, set it on the horizontal `CategoricalAxis` or `DateTimeContinuousAxis` to adjust the bar width.
+- For horizontal bars, set it on the vertical `CategoricalAxis` or `DateTimeContinuousAxis` to adjust the bar height. The bar width represents its numerical value, not its thickness.
 
 `GapLength` is a relative spacing setting, not an absolute maximum bar width or height. The resulting thickness depends on the available plot area and the number of categories. A fixed `GapLength` value does not enforce a fixed maximum thickness when the chart is resized or the category count changes, including when only one category is present.
 
@@ -44,7 +44,7 @@ The following example shows how to create a Cartesian Chart with Bar Series:
 
 <snippet id='chart-series-barvertical-xaml' />
 
-The following image shows how the Bar Series looks:
+The following image shows how the BarSeries looks:
 
 ![Telerik UI for .NET MAUI Cartesian Chart BarSeries with vertical bars for categories A through E](images/cartesian-bar-series-basic-example.png)
 
