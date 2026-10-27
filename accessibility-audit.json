@@ -1,0 +1,751 @@
+{
+  "title": "Telerik UI for MAUI Documentation Accessibility Audit",
+  "issue": "https://github.com/telerik/maui-docs/issues/1474",
+  "audit_date": "2026-10-27",
+  "baseline_commit": "95e1274b930577dc9a4a7e37e622549bbe3eab2b",
+  "repository_root": "/home/runner/work/maui-docs/maui-docs",
+  "Executive Summary": {
+    "assessment": "The documentation has a useful accessibility foundation, but recurring source-authoring patterns reduce nonvisual navigation and comprehension. Prioritize table relationships and text alternatives to instructional media, followed by heading, list, link, and code improvements.",
+    "main_risk_areas": [
+      "Raw HTML environment tables lack header cells, and some Markdown tables leave relationships implicit.",
+      "Instructional videos have descriptions but no article-level transcript links or equivalent written lesson paths.",
+      "Bold step numbers and inconsistent heading levels weaken semantic navigation.",
+      "Some image descriptions name a feature without explaining the comparison or demonstrated result.",
+      "A small number of repeated link labels lead to different destinations."
+    ],
+    "estimated_content_quality_maturity": "Developing: metadata, named links, image alternatives, language-tagged fences, and reusable content are established, but the inspected contributor guidance does not operationalize accessibility review or enforcement. This is a qualitative assessment, not a measured maturity certification.",
+    "confirmed_finding_groups": 20,
+    "severity_totals": {"Critical": 0, "High": 1, "Medium": 15, "Low": 4},
+    "critical_assessment": "No Critical finding was substantiated. The source review did not establish a widespread barrier that completely prevents understanding; repetition alone does not establish Critical severity.",
+    "positive_observations": [
+      "No empty alt text was found among the 1,309 recognized inline Markdown image references.",
+      "No exact generic labels matching here, click here, this article, this link, read more, learn more, or more were found among the recognized inline links.",
+      "Of 1,765 recognized fenced blocks, only one opening fence lacked a language tag.",
+      "All ten detected video iframes have title attributes.",
+      "Reviewed Markdown data tables generally have header and delimiter rows; complexity alone is not a failure."
+    ],
+    "scope": "Only Markdown source, authoring practices, and referenced documentation assets were assessed. No Telerik MAUI runtime functionality, product keyboard or screen-reader behavior, Report Viewer, Report Designer, generated-report compliance, or accuracy of product accessibility claims was evaluated.",
+    "change_scope": "This report records findings and recommendations. It does not remediate articles, modify publishing behavior, or introduce automation."
+  },
+  "Methodology and Coverage": {
+    "authoritative_guidance": "/home/runner/work/maui-docs/maui-docs/.github/skills/accessibility-doc-optimization/SKILL.md",
+    "skill_application": "Apply the skill's eight dimensions to source evidence. Embedded media, contextual image explanations, and repository authoring practices are additional requested checks; do not treat iframe titles as image alt text or silently add media scores to the eight-dimension formula.",
+    "weights": {
+      "heading_structure": 0.2,
+      "alternative_text": 0.2,
+      "link_text_clarity": 0.15,
+      "table_accessibility": 0.1,
+      "plain_language": 0.15,
+      "formatting_independence": 0.1,
+      "callout_structure": 0.05,
+      "code_block_accessibility": 0.05
+    },
+    "severity_definitions": {
+      "Critical": "Verified prevention of understanding or a significant, widespread barrier.",
+      "High": "Meaningful loss of access to instructional content or data relationships; remediate soon.",
+      "Medium": "Reduced accessibility or usability; address during scheduled content maintenance.",
+      "Low": "Minor improvement or authoring-process enhancement."
+    },
+    "inventory": {
+      "tracked_markdown_files": 1364,
+      "skill_reference_files_excluded_from_content_scan": 4,
+      "scanned_markdown_files": 1360,
+      "article_candidates": 1341,
+      "reusable_template_files": 17,
+      "readme_files": 1,
+      "api_asset_markdown_files": 1,
+      "knowledge_base_files_within_article_candidates": 271,
+      "inline_markdown_image_references": 1309,
+      "inline_link_syntax_matches": 7820,
+      "fenced_code_blocks": 1765,
+      "html_video_iframes": 10,
+      "files_with_video_iframes": 9
+    },
+    "scan_procedure": [
+      "Enumerate baseline files with git -C /home/runner/work/maui-docs/maui-docs ls-files '*.md'. Exclude .github skill reference articles from content metrics; inspect the accessibility skill separately.",
+      "Read UTF-8 with optional BOM; integrations/document-processing-libraries.md required a Windows-1252 decoding fallback. No source encoding was changed.",
+      "For the main scan, skip initial YAML front matter and fenced code bodies. Recognize indented or blockquoted backtick and tilde fences; distinguish opening fences from closing fences.",
+      "Count ATX headings, forward heading-level jumps, inline Markdown images and links, iframe elements, and pipe-table rows with adjacent empty cells. Inspect duplicate link-label candidates manually, normalizing slug whitespace and excluding template directives.",
+      "Supplement with raw-source searches for HTML tables without th elements, bold numeric procedure markers, alternate callout forms, and large fenced examples. These supplemental pattern counts are candidates, not parser-certified violations.",
+      "Manually inspect cited line ranges and surrounding sections across controls, installation, onboarding, Knowledge Base, theming, font icons, and contributor guidance. Confirm representative findings rather than treating every regex match as a failure.",
+      "Use absolute paths and one-based source lines at the baseline commit. Quotes are exact excerpts within the cited ranges, not claims about rendered HTML.",
+      "Score five reviewed articles using the skill's JSON fields and weighted formula. Do not extrapolate their scores to the entire repository."
+    ],
+    "pattern_counts": [
+      {"pattern": "No source H1", "occurrences": 288, "files": 288, "interpretation": "All 17 reusable templates and all 271 Knowledge Base articles. Templates are fragments; Knowledge Base titles may be generated from metadata. Not counted as 288 confirmed defects."},
+      {"pattern": "Multiple source H1 headings", "occurrences": 13, "files": 13, "interpretation": "File count, not count of extra headings. Includes 13 articles requiring outline review; see A05."},
+      {"pattern": "Forward ATX heading-level jumps", "occurrences": 24, "files": 24, "interpretation": "Transitions in each file's source outline, not the number of all headings that may need adjustment. Includes unpublished source."},
+      {"pattern": "Empty inline image alternative", "occurrences": 0, "files": 0, "interpretation": "Presence check only; not a claim that every alternative conveys equivalent information."},
+      {"pattern": "Generic exact inline link label", "occurrences": 0, "files": 0, "interpretation": "Limited to the labels listed in the positive observations; not proof that all links are unambiguous."},
+      {"pattern": "Pipe-table rows with adjacent empty cells", "occurrences": 10, "files": 6, "interpretation": "Row candidates, not a count of individual empty cells; determine whether a blank is intentional before remediation."},
+      {"pattern": "HTML tables without th elements", "occurrences": 24, "files": 24, "interpretation": "Raw-source matches, all in Knowledge Base articles; representative confirmed example A02."},
+      {"pattern": "Bold numeric procedure markers", "occurrences": 1847, "files": 466, "interpretation": "Raw-source candidates for semantic-list conversion, not 1,847 separately confirmed failures."},
+      {"pattern": "Unlabeled opening code fence", "occurrences": 1, "files": 1, "interpretation": "Confirmed in A15. C#, XAML, and other existing language labels were not treated as missing labels."},
+      {"pattern": "Image alternatives containing overview, example, image, screenshot, or control", "occurrences": 272, "files": 81, "interpretation": "Human-review queue only. These words are legitimate in many alternatives; do not replace them automatically."},
+      {"pattern": "Prose/source matches for above, below, left, right, red, green, or blue", "occurrences": 764, "files": 445, "interpretation": "Human-review queue only. Named controls, explicit text labels, color examples, and code identifiers do not by themselves establish sensory-only instructions."}
+    ],
+    "limitations": [
+      "Repository-wide automated candidate detection is not a manual audit of every article. Detailed findings are representative confirmed groups, not an exhaustive defect inventory.",
+      "Regex counts cover recognized syntax, not every CommonMark construct; reference-style links, indented code, escaped syntax, and custom components require parser-aware follow-up.",
+      "Unpublished and repository-only sources remain in inventory totals. Do not interpret article_candidates as the number of live documentation pages.",
+      "The publisher was not run. Generated H1s, landmarks, callout semantics, table header associations, custom article cards, tabbed-code navigation, and accessibility-tree behavior were not verified.",
+      "External snippets referenced by snippet IDs are outside this checkout. Only their surrounding source explanations were assessed, not the injected examples.",
+      "Referenced image paths and article context were inspected; not every asset was visually inspected. Exact screenshot colors, embedded image text, GIF timing, and flash behavior were not certified.",
+      "YouTube captions, audio descriptions, transcripts hosted off-site, and player interaction were not tested. Missing article-level alternatives must not be reported as proof that the videos lack captions.",
+      "No measured Flesch-Kincaid grade or WCAG conformance verdict is asserted. Readability recommendations are based on inspected prose.",
+      "Absent constructs receive 5 with an explicit not-applicable rationale in sample scores to preserve the skill's fixed denominator. This can raise scores for short pages and does not establish full accessibility."
+    ]
+  },
+  "Immediate Action Required": [
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/installation/licensing/license-errors-warnings.md",
+      "severity": "High",
+      "number_of_findings": 1,
+      "finding_ids": ["A01"],
+      "summary_of_risks": "Two remedy rows have no error or code label; readers traversing cells cannot independently identify the condition they address.",
+      "recommended_immediate_actions": ["Keep both remedies in the TKL102 solution cell or repeat the error and code in each row; verify linear reading order."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md",
+      "severity": "Medium",
+      "number_of_findings": 2,
+      "finding_ids": ["A02", "A13"],
+      "summary_of_risks": "The environment table has no semantic header cells, and the animated result has no useful textual walkthrough.",
+      "recommended_immediate_actions": ["Use a labeled list or row-header table for environment metadata.", "Describe the demonstrated states and outcomes in text without requiring animation playback."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/get-started/video-onboarding.md",
+      "severity": "Medium",
+      "number_of_findings": 1,
+      "finding_ids": ["A03"],
+      "summary_of_risks": "Two introductory videos and the course playlist have no linked transcripts or equivalent written lesson sequence in the article.",
+      "recommended_immediate_actions": ["Add descriptive transcript links or written equivalents for the embedded lessons.", "Check caption accuracy separately; retain existing descriptive iframe titles."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/richtexteditor/working-with-images/insert-images.md",
+      "severity": "Medium",
+      "number_of_findings": 2,
+      "finding_ids": ["A07", "A11"],
+      "summary_of_risks": "Two empty descriptions leave table meaning uncertain, and two different screenshots have identical, non-distinguishing alternatives.",
+      "recommended_immediate_actions": ["Complete the descriptions or explicitly identify not-applicable entries after editorial confirmation.", "Describe the toolbar and resize dialog separately."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/barcode/1d-barcodes/specifications.md",
+      "severity": "Medium",
+      "number_of_findings": 2,
+      "finding_ids": ["A08", "A19"],
+      "summary_of_risks": "Dense six-column reference data includes unexplained blanks, acronyms, and abbreviations.",
+      "recommended_immediate_actions": ["State whether blank fields inherit values or are unspecified.", "Move long explanations to named subsections and expand abbreviations."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/installation/vs-code-integration/snippets.md",
+      "severity": "Medium",
+      "number_of_findings": 1,
+      "finding_ids": ["A09"],
+      "summary_of_risks": "Repeated DataGrid and Gauge labels lead to different documentation targets.",
+      "recommended_immediate_actions": ["Give each destination a distinguishable label, including DataPager and GridSplitter."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/pan-and-zoom-behavior.md",
+      "severity": "Medium",
+      "number_of_findings": 2,
+      "finding_ids": ["A05", "A06"],
+      "summary_of_risks": "See Also is a second H1, and the example steps are bold paragraphs rather than an ordered list.",
+      "recommended_immediate_actions": ["Demote See Also to H2 and convert the procedure to an ordered list with nested code and snippets."]
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/rangeslider/range-thumb.md",
+      "severity": "Medium",
+      "number_of_findings": 1,
+      "finding_ids": ["A04"],
+      "summary_of_risks": "Example headings jump from H2 to H4.",
+      "recommended_immediate_actions": ["Make the three Drag Mode example headings H3 siblings."]
+    }
+  ],
+  "Detailed Findings": [
+    {
+      "id": "A01",
+      "severity": "High",
+      "category": "Table accessibility",
+      "skill_dimensions": ["table_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/installation/licensing/license-errors-warnings.md",
+      "evidence": [{"start_line": 36, "end_line": 38, "quote": "|                                        | | - Renew your license, then download a new license key and use it to activate the controls."}],
+      "impact": "The two continuation rows have blank Error or Condition and Message Code cells. Their connection to TKL102 is implied by visual adjacency rather than repeated row content, making isolated cell or linear table reading ambiguous.",
+      "recommended_remediation": "Keep the two alternatives in the TKL102 Solution cell, or repeat the condition and code in each alternative row. Preserve all remedy text.",
+      "example_correction": "Use a single TKL102 row whose Solution says: 'Choose one option: renew your license and install the new key; or downgrade to a version included in your perpetual license.'"
+    },
+    {
+      "id": "A02",
+      "severity": "Medium",
+      "category": "Table accessibility",
+      "skill_dimensions": ["table_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md",
+      "evidence": [{"start_line": 13, "end_line": 24, "quote": "<td>Product</td>"}],
+      "impact": "The table uses td for both metadata labels and values and contains no th elements. Header-based table navigation has no source-defined association between Product or Product Version and their values, although the adjacent labels remain understandable during linear reading.",
+      "recommended_remediation": "Prefer a simple labeled list for two metadata entries. If retaining a table, mark labels as th with scope='row' and verify that the publisher preserves those associations.",
+      "example_correction": "- Product: Progress Telerik UI for .NET MAUI Entry\n- Product version: 5.1.0",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/combobox-calculate-dropdown-width.md", "start_line": 14, "end_line": 25, "quote": "<table>"}],
+      "prevalence": "24 raw HTML tables in 24 Knowledge Base files have no th elements; use the representative fix to guide review of the remaining candidates."
+    },
+    {
+      "id": "A03",
+      "severity": "Medium",
+      "category": "Embedded content and media alternatives",
+      "skill_dimensions": [],
+      "file": "/home/runner/work/maui-docs/maui-docs/get-started/video-onboarding.md",
+      "evidence": [
+        {"start_line": 19, "end_line": 25, "quote": "This video shows the project code that you will use while working on the exercises in the .NET MAUI getting started course."},
+        {"start_line": 29, "end_line": 39, "quote": "* **Chapter 2: Getting Started** (Overview, Installation, Project Code, First Control, Running the Demos)"}
+      ],
+      "impact": "The brief descriptions and topic list do not provide the lessons' instructions or demonstrated project walkthrough. Readers seeking a written equivalent must independently discover whether one exists; the article does not identify that route. This is a verified discoverability gap, not proof that the external lessons are inaccessible.",
+      "recommended_remediation": "Add descriptive links to transcripts or equivalent written lessons for each embed and map the course chapters to a text learning path. Verify caption and visual-description coverage separately with the media owner; do not assume absence of captions from Markdown alone.",
+      "example_correction": "After each video, link a verified resource labeled 'Read the course prerequisites and resources transcript' or 'Read the project code walkthrough'. Do not publish placeholder links or invented transcript content.",
+      "prevalence": "Ten titled iframes occur in nine files. Review each for an equivalent text route; a title names a video but does not transcribe it."
+    },
+    {
+      "id": "A04",
+      "severity": "Medium",
+      "category": "Heading structure and navigation",
+      "skill_dimensions": ["heading_structure"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/rangeslider/range-thumb.md",
+      "evidence": [
+        {"start_line": 23, "end_line": 23, "quote": "## Drag Mode"},
+        {"start_line": 37, "end_line": 45, "quote": "#### Only Range Thumbs:"}
+      ],
+      "impact": "The H2 section jumps to H4 examples without an H3 parent, giving heading-outline users an inaccurate section hierarchy.",
+      "recommended_remediation": "Use H3 for Only Range Thumbs, Only Range Track, and Disabled beneath Drag Mode; retain descriptive labels.",
+      "example_correction": "### Drag Only the Range Thumbs",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/controls/slider/value-thumb.md", "start_line": 31, "end_line": 31, "quote": "#### Only Thumb"}]
+    },
+    {
+      "id": "A05",
+      "severity": "Medium",
+      "category": "Heading structure and navigation",
+      "skill_dimensions": ["heading_structure"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/pan-and-zoom-behavior.md",
+      "evidence": [
+        {"start_line": 12, "end_line": 12, "quote": "# .NET MAUI Chart Pan and Zoom Behavior"},
+        {"start_line": 118, "end_line": 118, "quote": "# See Also"}
+      ],
+      "impact": "Related links are exposed in source as a second top-level document section rather than a section of the article. This violates the skill's single-H1 rule and weakens heading navigation.",
+      "recommended_remediation": "Change See Also to H2; review other multiple-H1 candidates individually, including template/include effects.",
+      "example_correction": "## See Also",
+      "prevalence": "13 article files contain multiple source H1 headings. Not all extra H1s have the same editorial purpose."
+    },
+    {
+      "id": "A06",
+      "severity": "Medium",
+      "category": "Formatting independence and procedure structure",
+      "skill_dimensions": ["formatting_independence"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/pan-and-zoom-behavior.md",
+      "evidence": [{"start_line": 34, "end_line": 40, "quote": "**2.** Create a `ViewModel`:"}],
+      "impact": "Bold numeric paragraphs visually resemble a procedure but are not Markdown ordered-list items. List navigation and item-count announcements cannot be derived from this source structure.",
+      "recommended_remediation": "Use real ordered-list items and indent their code blocks and snippet directives to preserve each step's content and reading order. Preview with the actual publisher before bulk conversion.",
+      "example_correction": "1. Create the required business objects.\n\n   <snippet id='temporal-data-model' />\n\n1. Create a `ViewModel`.",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/controls/datagrid/paging.md", "start_line": 42, "end_line": 58, "quote": "**1.** Define the DataPager and the DataGrid in XAML:"}],
+      "prevalence": "1,847 bold numeric markers across 466 files are candidates for contextual review, not safe blind replacements."
+    },
+    {
+      "id": "A07",
+      "severity": "Medium",
+      "category": "Table accessibility",
+      "skill_dimensions": ["table_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/richtexteditor/working-with-images/insert-images.md",
+      "evidence": [{"start_line": 40, "end_line": 43, "quote": "| `RichTextEditorFontSizeToolbarItem` |  |"}],
+      "impact": "The Text and RichTextEditorFontSizeToolbarItem rows have empty descriptions, leaving readers unsure whether the information is omitted, inherited, or not applicable.",
+      "recommended_remediation": "Ask the article owner to supply descriptions or explicitly state 'Not applicable' or 'Not specified' as appropriate. Do not invent the underlying API semantics.",
+      "example_correction": "If a description is genuinely unavailable, write 'Not specified' rather than leaving the cell blank.",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/controls/aiprompt/localization.md", "start_line": 18, "end_line": 20, "quote": "| `AIPrompt_CommandView_Header` | |"}]
+    },
+    {
+      "id": "A08",
+      "severity": "Medium",
+      "category": "Table complexity and linear reading",
+      "skill_dimensions": ["table_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/barcode/1d-barcodes/specifications.md",
+      "evidence": [
+        {"start_line": 17, "end_line": 22, "quote": "|Barcode Type|Image|Description|Character Set|Length|Check Digit|"},
+        {"start_line": 28, "end_line": 30, "quote": "|Code 128 C|![Telerik UI for .NET MAUI Barcode Code 128 C symbology example](images/barcode-1d-barcodes012.png)|Code128C supports numbers only.||||"}
+      ],
+      "impact": "Long multi-sentence descriptions inside a six-column table increase the memory burden during linear reading. Three subset rows omit Character Set, Length, and Check Digit values without saying whether the parent row applies.",
+      "recommended_remediation": "Keep a concise comparison table and move long descriptions into named subsections. Explicitly state inherited, not-applicable, or unspecified values after editorial verification. Retain the existing lead-in and header row.",
+      "example_correction": "Where inheritance is intended and verified, use 'See Code 128' in each relevant cell instead of a blank."
+    },
+    {
+      "id": "A09",
+      "severity": "Medium",
+      "category": "Link text clarity",
+      "skill_dimensions": ["link_text_clarity"],
+      "file": "/home/runner/work/maui-docs/maui-docs/installation/vs-code-integration/snippets.md",
+      "evidence": [
+        {"start_line": 49, "end_line": 50, "quote": "| tm-datapager               | [DataGrid]({%slug datapager-overview%}) |"},
+        {"start_line": 56, "end_line": 58, "quote": "| tm-gridsplitter            | [Gauge]({%slug gridsplitter-overview %}) |"}
+      ],
+      "impact": "DataGrid labels identify both DataGrid and DataPager targets; Gauge labels identify multiple gauge targets and GridSplitter. A link-list user cannot reliably distinguish these destinations.",
+      "recommended_remediation": "Name destinations distinctly: DataPager, Radial Gauge, Horizontal Gauge, and GridSplitter. This is a link-label correction, not an evaluation of the documented controls.",
+      "example_correction": "| tm-datapager | [DataPager]({%slug datapager-overview%}) |"
+    },
+    {
+      "id": "A10",
+      "severity": "Medium",
+      "category": "Link text clarity",
+      "skill_dimensions": ["link_text_clarity"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/datagrid/paging.md",
+      "evidence": [
+        {"start_line": 13, "end_line": 13, "quote": "[DataPager]({%slug datapager-overview%})"},
+        {"start_line": 32, "end_line": 35, "quote": "* [DataPager]({%slug datapager-styling%})"}
+      ],
+      "impact": "The same DataPager link text leads to an overview and a styling article. The surrounding list supplies visual context, but an isolated links list loses that distinction.",
+      "recommended_remediation": "Keep DataPager for the overview and label the styling destination 'Style the DataPager'. Apply the same review to repeated paging prose in CollectionView and TreeDataGrid.",
+      "example_correction": "* [Style the DataPager]({%slug datapager-styling%})",
+      "related_evidence": [
+        {"file": "/home/runner/work/maui-docs/maui-docs/controls/collectionview/paging.md", "start_line": 12, "end_line": 32, "quote": "[DataPager]({%slug datapager-styling%})"},
+        {"file": "/home/runner/work/maui-docs/maui-docs/controls/treedatagrid/paging.md", "start_line": 13, "end_line": 33, "quote": "[DataPager]({%slug datapager-styling%})"}
+      ]
+    },
+    {
+      "id": "A11",
+      "severity": "Medium",
+      "category": "Alternative text quality",
+      "skill_dimensions": ["alternative_text"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/richtexteditor/working-with-images/insert-images.md",
+      "evidence": [
+        {"start_line": 32, "end_line": 34, "quote": "![.NET MAUI RichTextEditor Add Image](../images/rte-image-operation-toolbar-items.png)"},
+        {"start_line": 55, "end_line": 55, "quote": "![.NET MAUI RichTextEditor Add Image](../images/rte-edit-image-dialog.png)"}
+      ],
+      "impact": "Identical alternatives identify two different illustrations: image-operation toolbar items and an editing dialog. Neither alternative communicates which illustration the reader has reached.",
+      "recommended_remediation": "Describe each screenshot's purpose distinctly and place essential labels or relationships in adjacent text. Verify exact visible details with the asset owner before expanding the description.",
+      "example_correction": "Use 'Toolbar for operations on a selected image' and 'Image editing dialog with resize options' as context-based starting points, then verify them against the assets."
+    },
+    {
+      "id": "A12",
+      "severity": "Medium",
+      "category": "Image-dependent comparisons",
+      "skill_dimensions": ["alternative_text"],
+      "file": "/home/runner/work/maui-docs/maui-docs/styling-and-themes/overview.md",
+      "evidence": [{"start_line": 46, "end_line": 48, "quote": "The next image shows the differences and similarities between the Purple and Purple Dark swatches when applied to the AutoComplete control."}],
+      "impact": "The article promises a comparison, but the alternative only says 'Telerik .NET MAUI AutoComplete with applied theme' and the adjacent sentence does not state the differences. Nonvisual readers receive the topic without the promised comparison.",
+      "recommended_remediation": "State the relevant similarities and differences in prose after checking the screenshot, and use concise alt text identifying the comparison. Do not infer contrast compliance or invent exact colors.",
+      "example_correction": "Start the alternative with 'Comparison of AutoComplete with Purple and Purple Dark swatches'; add a verified textual comparison rather than relying on that label alone.",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/styling-and-themes/customize-the-theme.md", "start_line": 83, "end_line": 85, "quote": "![Telerik .NET MAUI Theming Custom Colors](images/telerik-theming-customized.png)"}]
+    },
+    {
+      "id": "A13",
+      "severity": "Medium",
+      "category": "Animated image alternatives and expected outcomes",
+      "skill_dimensions": ["alternative_text", "code_block_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md",
+      "evidence": [{"start_line": 68, "end_line": 70, "quote": "![End result for setting the visual states of the Telerik UI for .NET MAUI Entry control](images/entry-visual-states.gif)"}],
+      "impact": "The outcome is delegated to a GIF with generic 'End result' text. Readers who cannot perceive the animation must reconstruct the example's intended states from the XAML rather than read a short result explanation.",
+      "recommended_remediation": "Add a static written walkthrough of the states illustrated and what the sample changes in each state. Explain the example's outcome using state names and text, not color alone.",
+      "example_correction": "Summarize the sample in prose: 'The XAML sets FontSize to 35 for Normal and assigns BackgroundColor values for Focused, Disabled, and Unfocused.' Confirm which transitions the GIF actually demonstrates before describing its sequence.",
+      "limitation": "No claim is made about GIF flashing, pause controls, or Telerik Entry runtime accessibility."
+    },
+    {
+      "id": "A14",
+      "severity": "Medium",
+      "category": "Code block navigation and explanation",
+      "skill_dimensions": ["code_block_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/exporting-datagrid-data-to-excel-ui-net-maui.md",
+      "evidence": [
+        {"start_line": 76, "end_line": 79, "quote": "3. Create a `ViewModel` with sample data and a command for generating the spreadsheet."},
+        {"start_line": 253, "end_line": 282, "quote": "private void ExportData(IWorksheetExporter worksheetExporter)"}
+      ],
+      "impact": "One 203-line C# body follows a single broad lead-in. It combines sample data, commands, and export methods without a prose map or intermediate navigation, increasing serial-reading effort.",
+      "recommended_remediation": "Keep a complete copyable example, but precede it with a short map of the methods and key customization points. Consider smaller explained sections plus a complete-source link, and state the expected sample outcome in prose.",
+      "example_correction": "Add a 'Read the example' list covering data initialization, command execution, worksheet creation, and ExportData. Do not change or assess spreadsheet output accessibility as part of this documentation fix."
+    },
+    {
+      "id": "A15",
+      "severity": "Medium",
+      "category": "Code language identification",
+      "skill_dimensions": ["code_block_accessibility"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/toolbar/styling.md",
+      "evidence": [{"start_line": 43, "end_line": 47, "quote": "xmlns:telerik=\"http://schemas.telerik.com/2022/xaml/maui\""}],
+      "impact": "The opening fence at line 45 has no language identifier. Language-aware reading and highlighting tools must guess the namespace declaration's language.",
+      "recommended_remediation": "Add the existing repository's XAML language tag to the opening fence; retain the introduction.",
+      "example_correction": "```XAML\nxmlns:telerik=\"http://schemas.telerik.com/2022/xaml/maui\"\n```"
+    },
+    {
+      "id": "A16",
+      "severity": "Medium",
+      "category": "Plain language and readability",
+      "skill_dimensions": ["plain_language"],
+      "file": "/home/runner/work/maui-docs/maui-docs/introduction.md",
+      "evidence": [{"start_line": 13, "end_line": 13, "quote": "applications for cross-platform implementation targeting Android, iOS, macOS, and Windows from a single shared code-base."}],
+      "impact": "The opening sentence combines a marketing claim, purpose, platform list, and code-sharing explanation. Its length exceeds the skill's 25-word target and increases reading effort before readers reach the tasks.",
+      "recommended_remediation": "Split the introduction into short, direct sentences and prefer concrete purpose over stacked promotional qualifiers.",
+      "example_correction": "Telerik UI for .NET MAUI provides controls for mobile and desktop applications. You can target Android, iOS, macOS, and Windows from a shared codebase."
+    },
+    {
+      "id": "A17",
+      "severity": "Low",
+      "category": "Callout and admonition structure",
+      "skill_dimensions": ["callout_structure"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/datagrid/paging.md",
+      "evidence": [{"start_line": 17, "end_line": 17, "quote": ">Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection."}],
+      "impact": "An exceptional compatibility statement uses an untyped blockquote rather than the designated admonition syntax. Its role is less consistent with typed notices and cannot be processed uniformly from source.",
+      "recommended_remediation": "Use a typed note for supplemental constraints and an important or warning type only when the content warrants it. Verify rendered semantics separately rather than assuming a source marker guarantees an ARIA role.",
+      "example_correction": ">note Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.",
+      "related_evidence": [{"file": "/home/runner/work/maui-docs/maui-docs/security/overview.md", "start_line": 65, "end_line": 65, "quote": ">Note: Our definition of \"Done\" includes successful builds"}]
+    },
+    {
+      "id": "A18",
+      "severity": "Low",
+      "category": "Redundant image alternatives",
+      "skill_dimensions": ["alternative_text"],
+      "file": "/home/runner/work/maui-docs/maui-docs/font-icons/examples-icons.md",
+      "evidence": [{"start_line": 15, "end_line": 19, "quote": "| ![Telerik UI for .NET MAUI example font icon: star-empty](images/star-empty.png) | star-empty | __\\&#xe801;__ | __\\ue801__ |"}],
+      "impact": "Each row repeats the product prefix and nearly repeats the adjacent icon name in its alternative. In a long icon catalog, this adds repeated speech without describing additional shape information.",
+      "recommended_remediation": "Use concise shape-based alternatives when the visual glyph adds information. Use an empty alternative only after confirming the adjacent label fully conveys the image's purpose and the image is redundant.",
+      "example_correction": "For the star-empty row, consider alt text 'Outline star' instead of repeating the product name and internal icon identifier."
+    },
+    {
+      "id": "A19",
+      "severity": "Low",
+      "category": "Acronyms and unexplained abbreviations",
+      "skill_dimensions": ["plain_language"],
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/barcode/1d-barcodes/specifications.md",
+      "evidence": [
+        {"start_line": 25, "end_line": 28, "quote": "full ASCII character set"},
+        {"start_line": 36, "end_line": 39, "quote": "|12 bzw. 8|"}
+      ],
+      "impact": "ASCII and CRC appear without expansion, and length cells use the unexplained abbreviation 'bzw.'. These interrupt comprehension for unfamiliar readers and readers of the English article.",
+      "recommended_remediation": "Expand American Standard Code for Information Interchange (ASCII) and cyclic redundancy check (CRC) on first relevant use. Replace 'bzw.' with a verified explicit English relationship, not an assumed translation of the data.",
+      "example_correction": "Use 'cyclic redundancy check (CRC)' rather than 'CRC check'; ask the article owner what the paired length values mean before rewriting them."
+    },
+    {
+      "id": "A20",
+      "severity": "Low",
+      "category": "Contributor guidance and review practices",
+      "skill_dimensions": [],
+      "file": "/home/runner/work/maui-docs/maui-docs/README.md",
+      "evidence": [{"start_line": 32, "end_line": 57, "quote": "please use only standard Markdown syntax, and make to preview your additions or changes before sending us a pull request."}],
+      "impact": "The contributor ground rules require a preview but provide no actionable checks for headings, alternatives, table semantics, link labels, media, or code explanations. Repeated defects can pass a visual-only review.",
+      "recommended_remediation": "Add an accessibility checklist and link the existing accessibility skill. Explain publisher-specific constructs and how to review their generated semantics; require source checks plus an appropriate documentation preview.",
+      "example_correction": "Require reviewers to confirm one effective page H1, sequential headings, real lists, purposeful image alternatives, distinguishable links, labeled tables, typed callouts, introduced code, and media text alternatives."
+    }
+  ],
+  "Repository-Wide Patterns": [
+    {
+      "pattern": "Semantic structures replaced by visual conventions",
+      "evidence_ids": ["A02", "A04", "A05", "A06"],
+      "trend": "Bold step markers and heading inconsistencies recur across control articles; older Knowledge Base metadata uses headerless HTML tables.",
+      "bulk_remediation": "Review the 466 files with bold numeric markers and 24 headerless-table candidates in small batches. Preserve snippet nesting and use publisher previews for each authoring pattern.",
+      "automated_check": "Heading and list rules can flag new regressions; HTML table checks can require header cells or an approved labeled-list alternative."
+    },
+    {
+      "pattern": "Alternative presence is stronger than alternative quality",
+      "evidence_ids": ["A11", "A12", "A13", "A18"],
+      "trend": "The scan found nonempty alternatives throughout recognized images, but some alternatives repeat feature names instead of conveying the illustration's purpose, comparison, or result.",
+      "bulk_remediation": "Review related screenshot series together and remove repetitive product prefixes where they add no meaning. Keep essential outcomes in prose rather than very long alt text.",
+      "automated_check": "Flag repeated alternatives for different assets within an article as review candidates; do not fail any use of the word screenshot or control."
+    },
+    {
+      "pattern": "Ambiguous cells and links survive otherwise consistent Markdown",
+      "evidence_ids": ["A01", "A07", "A08", "A09", "A10"],
+      "trend": "Tables generally have headers and links usually have names, but blank continuations and destination-insensitive names weaken isolated navigation.",
+      "bulk_remediation": "Review all six files with empty pipe-cell candidates and the related paging articles. Normalize slug spacing before comparing link targets.",
+      "automated_check": "Warn on empty data cells and same-label/different-target links after excluding directives and intentional exceptions."
+    },
+    {
+      "pattern": "Media explanations and code maps need editorial ownership",
+      "evidence_ids": ["A03", "A13", "A14"],
+      "trend": "Videos and screenshots can stand in for written outcomes; very long examples have only a broad introductory instruction.",
+      "bulk_remediation": "Assign transcript ownership for the nine iframe-bearing articles and add textual result descriptions to instructional animations. Add prose maps to long samples without assessing runtime behavior.",
+      "automated_check": "Require a media-alternative reference and warn on long blocks; human review must confirm equivalence and usefulness."
+    },
+    {
+      "pattern": "Plain language and typed notices are not review gates",
+      "evidence_ids": ["A16", "A17", "A19", "A20"],
+      "trend": "Long introductions, unexpanded abbreviations, and alternate note styles appear alongside generally task-oriented content.",
+      "bulk_remediation": "Use first-use acronym expansions, shorter introductions, and consistent notice types during ordinary article maintenance.",
+      "automated_check": "Use advisory sentence-length, acronym, and notice-pattern checks rather than rigid gates on technical prose."
+    }
+  ],
+  "Recommendations": {
+    "Immediate (0-30 days)": [
+      "Documentation maintainers: address A01-A03 first, then the remaining Immediate Action Required articles. Record an owner and verification result for each finding group.",
+      "Media owners: supply verified transcript or equivalent-written-lesson links for onboarding and confirm caption accuracy separately.",
+      "Editors: correct distinguishable link labels, blank table meanings, and confirmed heading skips in small source-only PRs.",
+      "Reviewers: use the existing accessibility skill and the checklist proposed in A20 for new or changed articles."
+    ],
+    "Short Term (1-3 months)": [
+      "Content owners: review the repeated procedure and HTML-table candidates by component or Knowledge Base batch; avoid mass regex rewrites.",
+      "Documentation tooling owners: establish changed-file checks for heading structure, fence languages, image alternative presence, and table structure, with a baseline for existing issues.",
+      "Content and media owners: audit the remaining embedded-video articles and image-comparison pages for verified textual equivalents.",
+      "Publisher owners: verify Knowledge Base title generation, effective heading outlines, custom-card labels, callout announcements, and injected/tabbed examples in a documentation preview. Limit this to the documentation site."
+    ],
+    "Long Term (3+ months)": [
+      "Documentation owners: maintain a periodically refreshed inventory and track resolved finding groups, remaining candidates, and exception owners.",
+      "Documentation reviewers: sample newly published learning paths with assistive technology and narrow-screen or zoomed reading experiences; do not extend this review into product runtime testing.",
+      "Media owners: include transcripts, visual explanations, and caption review in the documentation asset lifecycle.",
+      "Contributor-experience owners: integrate accessibility rules into templates and PR review, and periodically rescore representative articles using the same weights."
+    ]
+  },
+  "Authoring Guideline Improvements": {
+    "accessibility_guidance": [
+      "Treat image alternatives as equivalent-purpose descriptions, not an attribute-presence requirement. Provide extended text for comparisons, diagrams, and instructional animation.",
+      "Describe actions with named targets and outcomes. Words such as above or below may supplement, but must not replace, an identifiable target.",
+      "Do not use color as the sole meaning carrier. Color values in sample code and named theme variants are not automatically violations.",
+      "Require verified text alternatives for instructional media and document ownership for caption and transcript updates."
+    ],
+    "markdown_authoring_standards": [
+      "Require one effective H1 per published page and no skipped heading levels. Document Knowledge Base title injection and fragment exceptions before adding source H1s.",
+      "Use ordered lists for ordered tasks; indent all associated code and snippets under the correct step.",
+      "Use descriptive, destination-distinguishable link labels. Keep names consistent for the same target without requiring exact identity for every anchor context.",
+      "Use tables only for genuine relationships, with headers and meaningful cells. Explicitly label inherited, empty-string, unavailable, or not-applicable values after confirmation.",
+      "Use established typed admonition syntax for notices; reserve severity types for their intended purpose.",
+      "Tag every fenced block, introduce it, explain replacement values, and state useful outcomes. Provide a navigation map for lengthy examples.",
+      "Expand less-familiar acronyms on first use and aim for concise active sentences, without rewriting legal text or necessary technical identifiers."
+    ],
+    "documentation_review_processes": [
+      "Review source heading outline, link list, table linearization, and image-independent comprehension, not just visual layout.",
+      "Preview using the actual documentation publisher when changing includes, snippet nesting, callouts, or custom components.",
+      "Treat automated matches as candidates until context confirms a violation; include rationale for intentional exceptions.",
+      "Do not characterize a source-only audit as a rendered-site WCAG conformance test or product accessibility assessment."
+    ],
+    "contributor_instructions": [
+      "Extend the README contribution ground rules with the checks in A20 and link the existing accessibility skill.",
+      "Explain front matter, fragment regions, slug links, snippet directives, and tabbed fences so generic Markdown rules do not create false positives.",
+      "Ask contributors to describe alternative-text changes, media-equivalence checks, and any publisher-preview limitations in their PR.",
+      "Provide good and bad source examples for semantic procedures, tables with explicit values, distinguishable links, and introductory prose for code."
+    ]
+  },
+  "Automation Opportunities": [
+    {
+      "area": "Markdown linting",
+      "suggested_checks": ["Sequential heading levels", "One effective H1 per page", "Language on opening code fences", "Semantic ordered lists instead of bold numeric paragraphs"],
+      "implementation_guidance": "Consider markdownlint-compatible rules such as MD001 and MD040; configure H1 checks around the verified publisher convention. No linter is added by this audit.",
+      "false_positive_controls": "Exclude reusable fragments from article-level H1 checks; recognize tabbed fence labels, snippets, quoted fences, and front matter.",
+      "enforcement": "Start with changed-file warnings and baseline existing candidates; gate only deterministic newly introduced defects."
+    },
+    {
+      "area": "Documentation validation",
+      "suggested_checks": ["Empty or missing image alternatives", "Repeated alternative text for different local assets", "Same link label with distinct normalized targets", "Headerless HTML tables", "Unexplained empty pipe-table cells", "Unresolved local asset references"],
+      "implementation_guidance": "Use a Markdown/HTML syntax-tree validator integrated with the publisher, rather than assuming regular expressions understand all Markdown.",
+      "false_positive_controls": "Permit documented decorative images, intentional empty-string defaults with visible explanation, template directives, and legitimate shared link labels after review.",
+      "enforcement": "Presence and structural checks can become blocking; alternative quality, ambiguous labels, and table complexity need editorial judgment."
+    },
+    {
+      "area": "Code and media review cues",
+      "suggested_checks": ["Long code blocks without a prose map", "Iframe or video elements without an adjacent text-alternative link", "Instructional GIFs without a written outcome", "Alternate untyped note forms"],
+      "implementation_guidance": "Use configurable thresholds, such as a review warning above 100 code lines, not an automatic declaration that long code is inaccessible.",
+      "false_positive_controls": "Do not require alt attributes on iframes, report unverified caption status as absent, or flag literal colors inside code as color-dependent instructions.",
+      "enforcement": "Advisory comments with a required human disposition for relevant changed content."
+    },
+    {
+      "area": "CI/CD checks and repository policies",
+      "suggested_checks": ["Run source validation on Markdown pull requests", "Require accessibility checklist acknowledgment", "Retain a reviewed exception baseline", "Publish candidate counts separately from confirmed findings"],
+      "implementation_guidance": "The inspected workflow is /home/runner/work/maui-docs/maui-docs/.github/workflows/publish-kb.yml, a repository-dispatch publication workflow, not an accessibility-validation gate. No tracked package manifest or dedicated Markdown lint/test configuration was found in the initial tooling inventory.",
+      "false_positive_controls": "Keep generated content and fragment rules distinct. Resolve includes and snippets before applying final-page heading or code checks.",
+      "enforcement": "Recommend, but do not implement, a PR validation job with a minimal permission scope and a staged rollout."
+    },
+    {
+      "area": "Rendered documentation follow-up",
+      "suggested_checks": ["Effective page headings and landmarks", "Table header associations", "Accessible names for article cards and embedded media", "Callout and tabbed-code reading order"],
+      "implementation_guidance": "Where a documentation preview exists, supplement source checks with an HTML accessibility validator and manual assistive-technology sampling of documentation pages.",
+      "false_positive_controls": "Treat results as documentation-site findings only. Do not test Telerik MAUI product controls or generated reports.",
+      "enforcement": "A follow-up validation task, not a result or conformance claim of this audit."
+    }
+  ],
+  "Unconfirmed and Context-Dependent Observations": [
+    {
+      "observation": "Knowledge Base articles have no source H1.",
+      "evidence": {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md", "start_line": 1, "end_line": 11, "quote": "page_title: Configure the Visual States of the Entry Component - .NET MAUI Knowledge Base"},
+      "disposition": "The article begins with H2 Environment and defines metadata titles. The publisher may inject the H1. Verify the effective page outline before treating this as a published defect or adding a duplicate H1; direct source consumption still lacks the skill's literal single-H1 structure."
+    },
+    {
+      "observation": "Unpublished tutorials contain additional authoring issues.",
+      "evidence": {"file": "/home/runner/work/maui-docs/maui-docs/get-started/first-steps-vs.md", "start_line": 8, "end_line": 29, "quote": "## Step 1:"},
+      "disposition": "The source has published: false, a vague heading, and an icon-disappearance completion cue. Review before republishing; do not inflate live-page risk or prescribe unverified Visual Studio status behavior."
+    },
+    {
+      "observation": "Named theme swatches include color examples.",
+      "evidence": {"file": "/home/runner/work/maui-docs/maui-docs/styling-and-themes/overview.md", "start_line": 31, "end_line": 42, "quote": "| Theme | Swatch | Color | `TelerikTheme` `enum` |"},
+      "disposition": "Rows already supply names and enum identifiers, so the colors do not establish color-only identification. A12 concerns the missing textual comparison, not product contrast, runtime theming, or a Critical color-dependent instruction."
+    },
+    {
+      "observation": "Custom documentation cards carry title, description, and asset attributes.",
+      "evidence": {"file": "/home/runner/work/maui-docs/maui-docs/get-started/first-steps-vs.md", "start_line": 94, "end_line": 110, "quote": "<article-card-container>"},
+      "disposition": "The component renderer is not in this source review. Do not infer missing image alt, link names, or landmarks solely from custom attributes; verify generated documentation HTML separately."
+    },
+    {
+      "observation": "No confirmed screenshot-only task, layout-only table, or syntax-highlighting-only instruction is asserted.",
+      "disposition": "These requested risks were screened, but the reviewed examples provide some textual instructions, genuine row-column relationships, or literal code. Contextual image explanations and structural weaknesses are reported where evidence supports them; absence of a confirmed example is not proof of repository-wide absence."
+    }
+  ],
+  "Article Scores": [
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/rangeslider/range-thumb.md",
+      "overall_score": "4.5",
+      "dimensions": {
+        "heading_structure": {"score": "3", "rationale": "One H1 and meaningful sections are present, but examples skip from H2 to H4.", "violations": ["Lines 23-45: Drag Mode contains H4 example headings without an H3 parent (A04)."]},
+        "alternative_text": {"score": "5", "rationale": "Not applicable: no images appear in this source article.", "violations": []},
+        "link_text_clarity": {"score": "5", "rationale": "The related links identify distinct documentation destinations.", "violations": []},
+        "table_accessibility": {"score": "5", "rationale": "Not applicable: no tables appear in this source article.", "violations": []},
+        "plain_language": {"score": "4", "rationale": "Property descriptions are direct, but the introduction combines multiple interactions in one long sentence.", "violations": ["Line 14: split the sentence describing three drag operations into shorter statements."]},
+        "formatting_independence": {"score": "5", "rationale": "Named properties and semantic bullet lists convey the options without color or emphasis alone.", "violations": []},
+        "callout_structure": {"score": "5", "rationale": "Not applicable: no callout appears in this source article.", "violations": []},
+        "code_block_accessibility": {"score": "5", "rationale": "Snippet references have surrounding explanations and named examples; no local fenced block lacks a tag. Injected snippet bodies were not assessed.", "violations": []}
+      }
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/controls/toolbar/styling.md",
+      "overall_score": "4.4",
+      "dimensions": {
+        "heading_structure": {"score": "4", "rationale": "There is one H1 and a sequential outline, but the Example heading does not describe the visual-state task.", "violations": ["Line 35: replace Example with a descriptive visual-state heading."]},
+        "alternative_text": {"score": "5", "rationale": "Not applicable: no images appear in this source article.", "violations": []},
+        "link_text_clarity": {"score": "4", "rationale": "Most links name topics, but Commands alone is less distinguishable outside its article context.", "violations": ["Line 84: label the link Toolbar Commands for a more self-contained link list."]},
+        "table_accessibility": {"score": "5", "rationale": "No local table is present; table content in the shared styling include needs separate final-page review.", "violations": []},
+        "plain_language": {"score": "4", "rationale": "Steps use direct verbs, but API is not expanded in the introductory prose.", "violations": ["Line 12: expand application programming interface (API) or omit the unnecessary acronym."]},
+        "formatting_independence": {"score": "5", "rationale": "The procedure uses actual ordered-list markers and named visual states.", "violations": []},
+        "callout_structure": {"score": "4", "rationale": "The demo notice uses an untyped blockquote rather than a consistent note marker.", "violations": ["Line 79: use the designated note syntax for the demo reference."]},
+        "code_block_accessibility": {"score": "3", "rationale": "The namespace block is introduced but lacks its language tag; snippet references have introductory labels.", "violations": ["Line 45: the opening namespace fence has no language identifier (A15)."]}
+      }
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/installation/licensing/license-errors-warnings.md",
+      "overall_score": "4.8",
+      "dimensions": {
+        "heading_structure": {"score": "5", "rationale": "A single H1 and descriptive H2 sections provide a sequential outline.", "violations": []},
+        "alternative_text": {"score": "5", "rationale": "Not applicable: no images appear in this source article.", "violations": []},
+        "link_text_clarity": {"score": "5", "rationale": "Links identify licensing actions or documentation destinations.", "violations": []},
+        "table_accessibility": {"score": "3", "rationale": "The table has headers and context, but two continuation rows leave the condition and code blank.", "violations": ["Lines 36-38: remedies rely on an implicit connection to the preceding TKL102 row (A01)."]},
+        "plain_language": {"score": "5", "rationale": "Conditions and remedies are expressed as concise, direct statements in the inspected source.", "violations": []},
+        "formatting_independence": {"score": "5", "rationale": "No color or emphasis-only warning was identified; row relationships are covered by the table score.", "violations": []},
+        "callout_structure": {"score": "5", "rationale": "Not applicable: no callout appears in this source article.", "violations": []},
+        "code_block_accessibility": {"score": "5", "rationale": "Not applicable: no fenced example appears in this source article.", "violations": []}
+      }
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md",
+      "overall_score": "3.6",
+      "dimensions": {
+        "heading_structure": {"score": "3", "rationale": "The source has descriptive H2 sections but no literal H1. A publisher-generated title remains unverified, so this is a source score, not a live-page defect verdict.", "violations": ["Lines 1-11: titles exist in metadata, but the Markdown outline starts at H2 Environment."]},
+        "alternative_text": {"score": "3", "rationale": "The sole GIF has nonempty alt text but does not explain the demonstrated result.", "violations": ["Lines 68-70: generic End result text does not replace the instructional animation (A13)."]},
+        "link_text_clarity": {"score": "5", "rationale": "Not applicable: no navigational links appear in the article body.", "violations": []},
+        "table_accessibility": {"score": "1", "rationale": "The sole environment table uses only data cells and lacks semantic headers.", "violations": ["Lines 13-24: Product and Product Version labels use td rather than row headers (A02)."]},
+        "plain_language": {"score": "4", "rationale": "The question is direct, but the solution starts with a long sentence combining inheritance and configuration.", "violations": ["Line 33: split the first sentence into short task-oriented statements."]},
+        "formatting_independence": {"score": "5", "rationale": "Named states and literal setters convey sample meaning without syntax colors alone.", "violations": []},
+        "callout_structure": {"score": "5", "rationale": "Not applicable: no callout appears in this source article.", "violations": []},
+        "code_block_accessibility": {"score": "3", "rationale": "The XAML fence is labeled and introduced, but the expected outcome is delegated to a GIF rather than explained in prose.", "violations": ["Lines 68-70: provide a written explanation of the example's outcome (A13)."]}
+      }
+    },
+    {
+      "file": "/home/runner/work/maui-docs/maui-docs/get-started/video-onboarding.md",
+      "overall_score": "4.9",
+      "dimensions": {
+        "heading_structure": {"score": "5", "rationale": "One H1 and descriptive H2 sections identify the introduction, project walkthrough, and chapter list.", "violations": []},
+        "alternative_text": {"score": "5", "rationale": "Not applicable: the article contains iframes, not images. Video alternatives are assessed separately in A03.", "violations": []},
+        "link_text_clarity": {"score": "5", "rationale": "The course and playlist links use meaningful, near-consistent descriptions of their shared destination.", "violations": []},
+        "table_accessibility": {"score": "5", "rationale": "Not applicable: no tables appear in this source article.", "violations": []},
+        "plain_language": {"score": "4", "rationale": "The chapter list is concise, but the first section uses the unexpanded abbreviation UI.", "violations": ["Line 15: expand user interface (UI) on first prose use or write basic interface components."]},
+        "formatting_independence": {"score": "5", "rationale": "Chapter numbers and semantic bullets preserve the learning-path structure without bold alone.", "violations": []},
+        "callout_structure": {"score": "5", "rationale": "Not applicable: no callouts appear in this source article.", "violations": []},
+        "code_block_accessibility": {"score": "5", "rationale": "Not applicable: no code blocks appear in this source article.", "violations": []}
+      }
+    }
+  ],
+  "Candidate Inventory": {
+    "interpretation": "Complete file-and-line lists for these five scan patterns at the baseline commit. These are review queues, not additional confirmed finding groups; lines identify the detected transition, second H1, table opening, empty row, or media embed. Publication status and publisher expansion still require review.",
+    "multiple_source_h1": [
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/accordion/overview.md", "lines": [25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/autocomplete/data-binding.md", "lines": [38]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/autocomplete/events.md", "lines": [30]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/autocomplete/methods.md", "lines": [45]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/autocomplete/overview.md", "lines": [34]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/autocomplete/suggest-mode.md", "lines": [58]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/pan-and-zoom-behavior.md", "lines": [118]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/selection-behavior.md", "lines": [184]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/tooltip-behavior.md", "lines": [106]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chart/behaviors/trackball-behavior.md", "lines": [103]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/collectionview/data-binding.md", "lines": [49]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/navigationview/overview.md", "lines": [31]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/scheduler/specialslots/overview.md", "lines": [40]}
+    ],
+    "forward_heading_level_jumps": [
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/aiprompt/predefined-ai-commands.md", "lines": [25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chat/items/timebreak.md", "lines": [16]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chat/pickers/overview.md", "lines": [29]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chat/suggested-actions.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/collectionview/commands.md", "lines": [23]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/combobox/styling.md", "lines": [30]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/combobox/templates.md", "lines": [24]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/dataform/grouping/overview.md", "lines": [16]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/datagrid/filtering/programmatic-filtering.md", "lines": [41]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/maskedentry/globalization.md", "lines": [16]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/numericinput/styling.md", "lines": [39]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/pdfviewer/search/toolbar.md", "lines": [38]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/rangeslider/range-thumb.md", "lines": [37]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/scheduler/header/visual-structure.md", "lines": [16]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/slider/value-thumb.md", "lines": [31]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/slideview/item-template.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/slideview/styling/navigation-buttons-styling.md", "lines": [18]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/templatedbutton/ripple.md", "lines": [25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/togglebutton/ripple.md", "lines": [25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/togglebutton/visual-states.md", "lines": [49]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/treedatagrid/filtering/programmatic-filtering.md", "lines": [46]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/installation/manual-installation-approaches/nuget/nuget-troubleshooting.md", "lines": [28]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/installation/vs-integration/new-document-processing-wizard.md", "lines": [18]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/installation/vs-integration/new-project.md", "lines": [19]}
+    ],
+    "html_tables_without_th": [
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/add-clear-button-tabview-header-net-maui.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/autocomplete-cursor-customization.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/button-howto-create-circle-button.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/change-telerik-theme-runtime.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/chart-dash-series.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/chart-palette-mvvm.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/collectionview-scrollbar-visible-android.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/combobox-calculate-dropdown-width.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/correcting-upside-down-image-imageeditor-dotnet-maui.md", "lines": [15]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/custom-appointment-scheduler-net-maui.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/custom-localization-dotnet-maui-dataform.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/data-binding-qrcode-net-maui.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-cursor-customization.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/entry-visual-states.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/extend-busyindicator-coverage-flyout-net-maui.md", "lines": [23]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/extracting-point-data-from-signature-signaturepad-dotnet-maui.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/ios-maui-provisioning-profile-not-found.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/listview-cross-orientation-nesting.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/load-tab-content-on-demand-net-maui.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/maui-managed-vtable-types-notsupportedexception.md", "lines": [14]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/nuget-error-maui-check-tool.md", "lines": [15]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/nuget-package-restore-fails.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/remaining-tasks-radial-gauge-dotnet-maui.md", "lines": [13]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/knowledge-base/telerik-schema-error-cannot-resolve-type.md", "lines": [14]}
+    ],
+    "empty_pipe_table_row_candidates": [
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/aiprompt/localization.md", "lines": [20]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/barcode/1d-barcodes/specifications.md", "lines": [28, 29, 30]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/richtexteditor/toolbar/overview.md", "lines": [56]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/richtexteditor/working-with-images/insert-images.md", "lines": [42, 43]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/speechtotextbutton/winui-support.md", "lines": [29]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/installation/licensing/license-errors-warnings.md", "lines": [37, 38]}
+    ],
+    "video_iframes": [
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/button/overview.md", "lines": [25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/chart/overview.md", "lines": [26]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/dataform/overview.md", "lines": [24]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/datagrid/overview.md", "lines": [34]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/listpicker/overview.md", "lines": [23]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/controls/tabview/overview.md", "lines": [23]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/get-started/video-onboarding.md", "lines": [20, 25]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/introduction.md", "lines": [156]},
+      {"file": "/home/runner/work/maui-docs/maui-docs/migrate-to-net-maui.md", "lines": [155]}
+    ]
+  },
+  "Score Interpretation": "Scores use the eight skill dimensions and round the weighted mean to one decimal place with half-up rounding. They are illustrative source-article scores, not a repository score or severity formula; for example, the near-perfect video article score does not account for the additional embedded-media finding A03. Minor score observations are not separately counted as Detailed Findings groups.",
+  "Validation": {
+    "approach": "Report-only change: validate JSON syntax, finding IDs and severity totals, priority-to-finding mappings, score weights and arithmetic, baseline file paths, line ranges, and exact evidence excerpts. No product build or runtime tests are relevant.",
+    "follow_up_acceptance_checks": [
+      "Revised tables retain all information and support understandable linear reading.",
+      "Revised heading outlines preserve one effective page title and sequential levels after publisher expansion.",
+      "Converted procedures expose ordered-list structure without separating code or snippets from their steps.",
+      "Each instructional image or media item has a verified useful text equivalent; an attribute-presence check alone is insufficient.",
+      "Link labels distinguish distinct targets in an isolated links list.",
+      "All follow-up work remains limited to documentation accessibility."
+    ]
+  }
+}
