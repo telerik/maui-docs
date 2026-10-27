@@ -12,6 +12,8 @@ slug: chart-behaviors-selection
 
 The Selection behavior of the Chart handles selecting, deselecting, and reporting the selection of either data points or series. In other words, the selection behavior can target data points, series or both if required.
 
+>important This article applies to charts in the `Telerik.Maui.Controls.Compatibility.Chart` namespace. Its `ChartSelectionBehavior` examples do not apply to the new charts in `Telerik.Maui.Controls.Charts`. See the [migration guide's feature comparison]({%slug charts-migration%}#features) for feature availability.
+
 ## Features
 
 The Chart exposes properties, methods, events, and commands for handling its Selection behavior.
