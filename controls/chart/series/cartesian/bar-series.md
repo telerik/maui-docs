@@ -15,6 +15,19 @@ The Bar Series inherits from the Categorical Series and requires one Categorical
 
 >tip For more information about the common Categorical Series features that are also applicable to the Bar Series, refer to the [article on series features]({%slug chart-series-overview%}).
 
+## Control Bar Thickness
+
+For charts in the `Telerik.Maui.Controls.Compatibility.Chart` namespace, the categorical and datetime axes expose a `GapLength` property (`double` in the range `[0,1]`) that controls the relative spacing between categories or datetime values. Larger `GapLength` values increase the space between bars and make them appear thinner.
+
+Set `GapLength` on the categorical or datetime axis that determines the bar thickness:
+
+- For vertical bars, set it on the horizontal `CategoricalAxis` or `DateTimeContinuousAxis` to adjust the bar width.
+- For horizontal bars, set it on the vertical `CategoricalAxis` or `DateTimeContinuousAxis` to adjust the bar height. The bar width represents its numerical value, not its thickness.
+
+`GapLength` is a relative spacing setting, not an absolute maximum bar width or height. The resulting thickness depends on the available plot area and the number of categories. A fixed `GapLength` value does not enforce a fixed maximum thickness when the chart is resized or the category count changes, including when only one category is present.
+
+For property details and a configuration example, see [Categorical Axis]({%slug axes-categorical-axis%}#features).
+
 ## Example
 
 The following example shows how to create a Cartesian Chart with Bar Series:
@@ -31,7 +44,7 @@ The following example shows how to create a Cartesian Chart with Bar Series:
 
 <snippet id='chart-series-barvertical-xaml' />
 
-The following image shows how the Bar Series looks:
+The following image shows how the BarSeries looks:
 
 ![Telerik UI for .NET MAUI Cartesian Chart BarSeries with vertical bars for categories A through E](images/cartesian-bar-series-basic-example.png)
 
