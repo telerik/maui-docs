@@ -18,7 +18,7 @@ The learning process starts by adding basic UI components to the application and
 
 The next video introduces the Telerik UI for .NET MAUI suite and outlines the prerequisites needed to follow along. You'll also learn about the resources available to guide you when using the controls.
 
-For written guidance, read the [Telerik UI for .NET MAUI system requirements]({%slug system-requirements%}) and explore the [sample applications and learning resources]({%slug sampleapps-overview%}). These topic guides are not a verbatim transcript of the course introduction.
+For written guidance, read the [Telerik UI for .NET MAUI system requirements]({%slug system-requirements%}) and explore the [sample applications and learning resources]({%slug sampleapps-overview%}).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x0fY4qwkBTk?si=ULFP7NkbskhG9DEb" title="Introduction to Telerik UI for .NET MAUI: Course Overview and Prerequisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -26,7 +26,7 @@ For written guidance, read the [Telerik UI for .NET MAUI system requirements]({%
 
 This video shows the project code that you will use while working on the exercises in the .NET MAUI getting started course. You will also take a first look at the application you are building in this course.
 
-For a written topic path, follow [First Steps with Telerik UI for .NET MAUI]({%slug maui-quick-start%}), [add a Button to your project]({%slug button-getting-started%}), and [run the SDKBrowser control examples]({%slug sdkbrowser-app%}). These guides use separate examples; they are not a transcript or a walkthrough of the exact course project.
+For a written topic path, follow [First Steps with Telerik UI for .NET MAUI]({%slug maui-quick-start%}), [add a Button to your project]({%slug button-getting-started%}), and [run the SDKBrowser control examples]({%slug sdkbrowser-app%}). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQe9qcoURRk?si=RO8W8zhSyWNt66bK&amp;start=246" title="Telerik UI for .NET MAUI – Project Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

@@ -58,22 +58,6 @@ There are two ways you can contribute to the public Telerik UI for MAUI document
 
     Once you've made your changes, commit, pull, merge, push and [send us a pull request](https://help.github.com/articles/using-pull-requests)! We — and MAUI users everywhere — thank you for making our docs the best front-end library documentation on the web!
 
-### Accessibility Review Checklist
-
-Use the [documentation accessibility guidance](.github/skills/accessibility-doc-optimization/SKILL.md) when writing or reviewing an article. Check the source and preview the published output:
-
-- Keep heading levels sequential and use descriptive headings. Verify one effective page H1 in the preview; do not add a source H1 to Knowledge Base articles, which use metadata titles, or to reusable fragments.
-- Use semantic ordered lists for procedures, with code blocks and snippet references nested under the step they explain.
-- Give links descriptive labels. Distinguish links that lead to different destinations.
-- Describe the purpose of each informative image. Explain comparisons, diagrams, and instructional animations in text; do not rely on color or position alone.
-- Give data tables column or row headers. Repeat inherited values and explain empty values; use labeled lists for simple metadata when clearer.
-- Link instructional videos to verified transcripts or written learning paths. Do not describe a related article as a verbatim transcript.
-- Use typed callouts such as `>note`, `>warning`, and `>important`.
-- Introduce code examples, label fenced blocks with their language, and give long examples a short map of their sections.
-- Prefer short, direct sentences and explain unfamiliar abbreviations on first use.
-
-The documentation publisher resolves `{%slug ...%}` links, injects `<snippet ... />` content, and renders typed callouts. A basic Markdown preview does not verify these features. In a publisher preview, check resolved links, the heading outline, table header relationships, callout labels, and reading order, including injected snippets.
-
 ## Offline PDF Version
 
 You can download a PDF with this documentation from [your telerik.com account](https://www.telerik.com/account). Go to the **Downloads** section, navigate to **UI for MAUI**, choose the version you want from the dropdown, and get the PDF file under the **Documentation** section.

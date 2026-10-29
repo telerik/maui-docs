@@ -39,8 +39,8 @@ How the editing toolbar looks when image is selected:
 
 | RichTextEditor ImageDialog ToolbarItem Options | Description |
 | ------------- | --------------- |
-| `Text` | Not specified in this article. |
-| `RichTextEditorFontSizeToolbarItem` | Not specified in this article. |
+| `Text` | Specifies the text. |
+| `RichTextEditorFontSizeToolbarItem` | Changes the font size of the text. |
 | `ResizeLabelText` | Defines the text of the `Resize` Label. Default value `Resize:` |
 | `MinimumLabelText` | Defines the text of the Minimum. Default value `0%` |
 | `MaximumLabelText` | Defines the text of the Maximum. Default value `100%` |

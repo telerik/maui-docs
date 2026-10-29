@@ -53,7 +53,7 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorNumberingToolbarItem` | Creates a numbered/ordered list. |
 | `RichTextEditorOutdentToolbarItem` | Moves the content of the current or selected paragraphs closer the margin of the control. |
 | `RichTextEditorIndentToolbarItem` | Moves the content of the current or selected paragraphs farther away from the margin of the control. |
-| `RichTextEditorTextFormattingToolbarItem` | Description not provided. |
+| `RichTextEditorTextFormattingToolbarItem` | Provides a dropdown list of text formatting styles, allowing users to apply selected styles to the current text selection. |
 | `RichTextEditorClearFormattingToolbarItem` | Clears all formatting for the selection. |
 | `RichTextEditorStrikethroughToolbarItem` | Crosses out the text. |
 | `RichTextEditorSuperscriptToolbarItem` | Makes the text small and positioned below the paragraph line. |

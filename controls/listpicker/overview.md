@@ -20,7 +20,7 @@ If you prefer video instructions, watch this short MAUI ListPicker video tutoria
 * Overview of the .NET MAUI ListPicker control.
 * Replace MAUI Picker with Telerik MAUI ListPicker.
 
-For a written alternative, follow [Getting Started with the .NET MAUI ListPicker]({%slug listpicker-getting-started%}) to add and populate the control. This guide uses its own example; it is not a transcript of the video's Picker replacement.
+For a written alternative, follow [Getting Started with the .NET MAUI ListPicker]({%slug listpicker-getting-started%}) to add and populate the control.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqe33HLkVfA?si=zf5EwIELGGie9HEd&amp;start=277" title="Exploring Basic UI Controls in Telerik UI for .NET MAUI: ListPicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
