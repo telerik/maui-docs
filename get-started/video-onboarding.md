@@ -34,7 +34,7 @@ For a written topic path, follow [First Steps with Telerik UI for .NET MAUI]({%s
 
 The Telerik UI for .NET MAUI technical online training has an approximate duration of 2 hours and is split into seven modules with the following learning path:
 
-Use the written topic links under each chapter to learn without playing the videos. This documentation path covers related topics with independent examples, not verbatim transcripts or the exact course project.
+Use the written topic links under each chapter to learn without playing the videos. 
 
 * **Chapter 1: Welcome** (Introduction, About Telerik UI for .NET MAUI, Course Prerequisites, Course Resources)
   * Written topic path: [System requirements]({%slug system-requirements%}) and [sample applications and learning resources]({%slug sampleapps-overview%}).
