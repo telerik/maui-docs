@@ -11,7 +11,7 @@ slug: slideview-item-template
 
 You can populate the SlideView component with various types of objects, for example, `string`, `int`, business objects, and so on. To customize the visualization of the views in the `ItemsSource` of the control, use its `ItemTemplate` property. The template can contain any of the views that you use to display the data.
 
-### Example
+## Example
 
 The following example shows how to populate the `ItemsSource` with business items and customize their appearance.
 

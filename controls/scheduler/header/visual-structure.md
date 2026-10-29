@@ -13,11 +13,11 @@ slug: scheduler-header-visual-structure
 
 The following image shows the anatomy of the Scheduler Header on desktop and mobile.
 
-### Visual Structure on Desktop
+## Visual Structure on Desktop
 
 ![Telerik UI for .NET MAUI Scheduler Header Visual Structure](../images/scheduler-header-visual-structure-desktop.png)
 
-### Visual Structure on mobile
+## Visual Structure on mobile
 
 ![Telerik UI for .NET MAUI Scheduler Header Visual Structure](../images/scheduler-header-visual-structure.png)
 

@@ -14,7 +14,7 @@ You can page the data of the Telerik UI for .NET MAUI DataGrid by using the [Dat
 
 ![.NET MAUI DataGrid integrated with the DataPager for displaying paged records.](images/datapager-datagrid-paging.png)
 
->Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.
+>note Currently, the DataPager does not support the DataGrid `LoadOnDemand` collection.
 
 ## DataPager Features
 
@@ -30,7 +30,7 @@ Here is a list of the most important features of the DataPager control:
     * `ItemsSpacing` (`double`)&mdash;Sets the spacing between the items in the pager.
 
 * Customizing the appearance of the DataPager by styling its elements:
-    * [DataPager]({%slug datapager-styling%})
+    * [Style the DataPager]({%slug datapager-styling%})
     * [NavigationView]({%slug datapager-styling-navigationview%})
     * [Navigation and Numeric Buttons]({%slug datapager-styling-buttons%})
     * [PageSizes]({%slug datapager-styling-pagesize%})
@@ -39,23 +39,23 @@ Here is a list of the most important features of the DataPager control:
 
 Here is an example of how to use the DataPager with the DataGrid control.
 
-**1.** Define the DataPager and the DataGrid in XAML:
+1. Define the DataPager and the DataGrid in XAML:
 
-<snippet id='datagrid-datapager' />
+   <snippet id='datagrid-datapager' />
 
-**2.** Add the following namespace:
+2. Add the following namespace:
 
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+   ```XAML
+   xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+   ```
 
-**3.** Define the `ViewModel`:
+3. Define the `ViewModel`:
 
-<snippet id='datapager-viewmodel' />
+   <snippet id='datapager-viewmodel' />
 
-**4.** Define sample data:
+4. Define sample data:
 
-<snippet id='datapager-data' />
+   <snippet id='datapager-data' />
 
 > For the DataPager Integration with DataGrid example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Integration** category.
 

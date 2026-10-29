@@ -53,7 +53,7 @@ The table below shows all toolbar items available for both Desktop and Mobile:
 | `RichTextEditorNumberingToolbarItem` | Creates a numbered/ordered list. |
 | `RichTextEditorOutdentToolbarItem` | Moves the content of the current or selected paragraphs closer the margin of the control. |
 | `RichTextEditorIndentToolbarItem` | Moves the content of the current or selected paragraphs farther away from the margin of the control. |
-| `RichTextEditorTextFormattingToolbarItem` |  |
+| `RichTextEditorTextFormattingToolbarItem` | Description not provided. |
 | `RichTextEditorClearFormattingToolbarItem` | Clears all formatting for the selection. |
 | `RichTextEditorStrikethroughToolbarItem` | Crosses out the text. |
 | `RichTextEditorSuperscriptToolbarItem` | Makes the text small and positioned below the paragraph line. |
@@ -92,7 +92,7 @@ Attach the behavior to the Grid layout:
 * On iOS&mdash;If the `RadRichTextEditorToolbar` is positioned under the keyboard, when the keyboard shows, the control is translated over the keyboard so users can access it without a problem. Due to the [.NET MAUI implementation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.visualelement.translationy?view=net-maui-6.0), it is important that the `RadRichTextEditorToolbar` is placed in a container which bounds will contain it after the control is translated over the keyboard. Otherwise, the tap and pan gestures on the `RadRichTextEditorToolbar` will not work until the keyboard is hidden and the control is translated back to its original place.
 * `RichTextEditorToolbar` must have a greater `ZIndex` than the other elements in its parent layout to be visible (and not behind other views, like RichTextEditor) when translated over the keyboard. Also, it must be contained in the bounds of its parent layout after translation. In this case, set the `ZIndex` property to the `RichTextEditorToolbar`.
 
-> For the RichTextEditor Toolbar examples, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Toolbar**.
+>note For the RichTextEditor Toolbar examples, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **RichTextEditor > Toolbar**.
 
 ## Custom Toolbar
 

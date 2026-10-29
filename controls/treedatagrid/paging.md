@@ -14,7 +14,7 @@ You can page the data of the Telerik UI for .NET MAUI TreeDataGrid by using the 
 
 ![.NET MAUI TreeDataGrid Paging support](images/datapager-treedatagrid-paging.png)
 
->Currently, the DataPager does not support the TreeDataGrid `LoadOnDemand` collection.
+>note Currently, the DataPager does not support the TreeDataGrid `LoadOnDemand` collection.
 
 ## DataPager Features
 
@@ -30,7 +30,7 @@ Here is a list of the most important features of the DataPager control:
     * `ItemsSpacing` (`double`)&mdash;Sets the spacing between the items in the pager.
 
 * Customizing the appearance of the DataPager by styling its elements:
-    * [DataPager]({%slug datapager-styling%})
+    * [Style the DataPager]({%slug datapager-styling%})
     * [NavigationView]({%slug datapager-styling-navigationview%})
     * [Navigation and Numeric Buttons]({%slug datapager-styling-buttons%})
     * [PageSizes]({%slug datapager-styling-pagesize%})
@@ -39,23 +39,23 @@ Here is a list of the most important features of the DataPager control:
 
 Here is an example of how to use the DataPager with the TreeDataGrid control.
 
-**1.** Define the DataPager and the TreeDataGrid in XAML:
+1. Define the DataPager and the TreeDataGrid in XAML:
 
-<snippet id='treedatagrid-datapager' />
+   <snippet id='treedatagrid-datapager' />
 
-**2.** Add the following namespace:
+2. Add the following namespace:
 
-```XAML
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+   ```XAML
+   xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+   ```
 
-**3.** Create a sample `Data` class:
+3. Create a sample `Data` class:
 
-<snippet id='treedatagrid-data-model' />
+   <snippet id='treedatagrid-data-model' />
 
-**4.** Add the `ViewModel` class:
+4. Add the `ViewModel` class:
 
-<snippet id='treedatagrid-viewmodel' />
+   <snippet id='treedatagrid-viewmodel' />
 
 > For the DataPager Integration with TreeDataGrid example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to the **DataPager > Integration** category.
 

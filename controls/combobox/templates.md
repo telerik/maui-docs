@@ -21,7 +21,7 @@ To customize the content inside the input area when an item is selected and the 
 
 To enable the [keyboard navigation support]({%slug combobox-keyboard-support%}) when the drop-down is opened and when setting the custom item and selected item templates in ComboBox for .NET MAUI, wrap the content of the templates in a `RadComboBoxItem`. Define the necessary visual states of the `RadComboBoxItem`, specifically `MouseOver` and `Highlighted`.
 
-### Example with ItemTemplate and SelectedItemTemplate
+## Example with ItemTemplate and SelectedItemTemplate
 
 **1.** Define the [.NET MAUI ComboBox]({%slug combobox-overview%}) in XAML:
 
@@ -47,7 +47,7 @@ The final result on WinUI:
 
 > For the ComboBox Item and SelectedItem Templates example, go to the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and navigate to ComboBox -> Templates category.
 
-### Example with TokenTemplate and ShowMoreTemplate
+## Example with TokenTemplate and ShowMoreTemplate
 
 **1.** Define the ComboBox in XAML:
 

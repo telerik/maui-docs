@@ -10,7 +10,7 @@ components: ["general"]
 
 # Welcome to Telerik UI for .NET MAUI
 
-**Telerik UI for .NET MAUI** is the most extensive UI suite on the market that delivers controls for building modern and professional-looking mobile and desktop applications for cross-platform implementation targeting Android, iOS, macOS, and Windows from a single shared code-base.
+**Telerik UI for .NET MAUI** provides controls for building mobile and desktop applications. You can target Android, iOS, macOS, and Windows from a shared codebase.
 
 This comprehensive UI library includes controls, [working sample applications]({%slug sampleapps-overview%}), and regular updates aligned with the latest Microsoft .NET MAUI versions.
 
@@ -154,6 +154,8 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
 >caption Telerik UI for .NET MAUI introduction video overview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x0fY4qwkBTk?si=ULFP7NkbskhG9DEb" title="Introduction to Telerik UI for .NET MAUI: Course Overview and Prerequisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+For a written guide to exploring the controls, see the [Telerik UI for .NET MAUI examples, demos, and sample apps overview]({%slug sampleapps-overview%}).
 
 ## Migration Paths
 

@@ -14,7 +14,7 @@ ticketid: 1668168
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>TabView for .NET MAUI, <br />Version 7.0.0</td>
 </tr>
 </tbody>

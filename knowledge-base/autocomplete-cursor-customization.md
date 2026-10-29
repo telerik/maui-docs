@@ -14,11 +14,11 @@ res_type: kb
 <table>
 	<tbody>
 		<tr>
-			<td>Product Version</td>
+			<th scope="row">Product Version</th>
 			<td>from 5.2.0 to 7.1.0</td>
 		</tr>
 		<tr>
-			<td>Product</td>
+			<th scope="row">Product</th>
 			<td>Telerik UI for .NET MAUI AutoComplete</td>
 		</tr>
 	</tbody>
