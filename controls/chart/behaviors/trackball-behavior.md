@@ -100,7 +100,7 @@ The following image shows how the TrackBall looks:
 
 ![Telerik UI for .NET MAUI line chart showing a trackball intersection with values for two series](images/chart-behaviors-trackball.png)
 
-# See Also
+## See Also
 
 - [Chart Selection Behavior]({%slug chart-behaviors-selection%})
 - [Chart Tool Tip Behavior]({%slug chart-behaviors-tooltip%})

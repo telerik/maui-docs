@@ -43,11 +43,11 @@ The Telerik .NET MAUI theme comes with a set of eight predefined swatches for bo
 
 The `TelerikTheme` enum has a `Default` value which indicates the default look of the controls (without theming). 
 
-The next image shows the differences and similarities between the Purple and Purple Dark swatches when applied to the AutoComplete control.
+The next image compares the Purple swatch (left) and Purple Dark swatch (right) on the AutoComplete control. Both use the same layout, selected item, and suggestions, with matching text highlighted in purple. Purple uses a light background with dark text, while Purple Dark uses a dark background with light text.
 
-![Telerik .NET MAUI AutoComplete with applied theme](images/theming-default.png)
+![AutoComplete with Purple and Purple Dark swatches side by side](images/theming-default.png)
 
->You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** button to switch between the theme swatches.
+>tip You can explore and compare the built-in theme swatches in the [Telerik .NET MAUI ControlsSamples App]({%slug controls-samples-app%}). Go to the Theming example of each component and use the **Change Theme** button to switch between the theme swatches.
 
 ## Using the MAUI Theming
 

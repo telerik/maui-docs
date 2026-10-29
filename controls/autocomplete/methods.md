@@ -42,7 +42,7 @@ Here is the result:
 
 ![Telerik UI for .NET MAUI AutoComplete focused with the ShowSuggestions method displaying the full client list](images/autocomplete-showsuggestions.png "AutoComplete ShowSuggestions")
 
-# See Also
+## See Also
 
 - [Data Binding]({%slug autocomplete-data-binding%})
 - [Configuration]({%slug autocomplete-configuration%})

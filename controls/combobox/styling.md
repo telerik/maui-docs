@@ -27,7 +27,7 @@ The ComboBox control uses the [`RadTextInput`]({%slug entry-textinput%}) control
 
 In addition to the available styling properties, you can apply specific [Visual States]({%slug combobox-visual-states%}) to the ComboBox control.
 
-### Example for ComboBox Styling
+## Example for ComboBox Styling
 
 The example below demonstrates some of the styling capabilities of the ComboBox, such as custom `ClearButtonStyle`, `TextInputStyle`, `TextColor`, `PlaceholderColor`, and others. It also shows how to switch its appearance through the .NET MAUI Visual State Manager.
 

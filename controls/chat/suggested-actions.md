@@ -11,7 +11,7 @@ slug: chat-suggested-actions
 
 The `RadChat` control enables you to add suggestions for the users. You can achieve this by adding `SuggestedActionsItem` instances to the `Items` collection of `RadChat`.
 
-### Adding the Suggested Actions 
+## Adding the Suggested Actions 
 
 The following example demonstrates how to create and set up a `SuggestedActionsItem`:
 

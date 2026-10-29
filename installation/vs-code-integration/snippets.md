@@ -47,15 +47,15 @@ To use the **Telerik UI for .NET MAUI Template Wizard**, install the `Telerik UI
 | tm-chat                    | [Chat]({%slug chat-overview%})    |
 | tm-dataform                | [DataForm]({%slug dataform-overview%}) |
 | tm-datagrid                | [DataGrid]({%slug datagrid-overview%}) |
-| tm-datapager               | [DataGrid]({%slug datapager-overview%}) |
+| tm-datapager               | [DataPager]({%slug datapager-overview%}) |
 | tm-datepicker              | [DatePicker]({%slug datepicker-overview%}) |
 | tm-datetimepicker          | [DateTimePicker]({%slug datetimepicker-overview%}) |
 | tm-docklayout              | [DockLayout]({%slug docklayout-overview%}) |
 | tm-entry                   | [Entry]({%slug entry-overview%}) |
 | tm-expander                | [Expander]({%slug expander-overview%}) |
-| tm-radial-gauge            | [Gauge]({%slug gauge-overview%}) |
-| tm-horizontal-gauge        | [Gauge]({%slug gauge-types-horizontal %}) |
-| tm-gridsplitter            | [Gauge]({%slug gridsplitter-overview %}) |
+| tm-radial-gauge            | [Radial Gauge]({%slug gauge-overview%}) |
+| tm-horizontal-gauge        | [Horizontal Gauge]({%slug gauge-types-horizontal %}) |
+| tm-gridsplitter            | [GridSplitter]({%slug gridsplitter-overview %}) |
 | tm-imageeditor             | [ImageEditor]({%slug imageeditor-overview%}) |
 | tm-itemscontrol            | [ItemsControl]({%slug itemscontrol-overview%}) |
 | tm-listpicker              | [ListPicker]({%slug listpicker-overview%}) |

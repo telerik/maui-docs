@@ -17,7 +17,7 @@ The table below shows the localization keys:
 
 | Localization Key | Default Value |
 | ----------------- | ------------- |
-| `AIPrompt_CommandView_Header` | |
+| `AIPrompt_CommandView_Header` | Not specified. |
 | `AIPrompt_Copy` | `Copy` |
 | `AIPrompt_InputButtonText` | `Generate` |
 | `AIPrompt_InputPlaceholder` | `Ask or generate content with AI` |

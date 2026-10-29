@@ -13,11 +13,11 @@ res_type: kb
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>Gauge for UI for .NET MAUI</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>15.0.0</td>
 </tr>
 </tbody>

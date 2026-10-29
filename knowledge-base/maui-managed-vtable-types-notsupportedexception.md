@@ -14,7 +14,7 @@ ticketid: 1667154
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>DataGrid, BusyIndicator, Gauge and other Telerik controls rendered through SkiaSharp</td>
 </tr>
 </tbody>

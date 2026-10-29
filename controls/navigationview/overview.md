@@ -28,7 +28,7 @@ The Telerik UI for .NET MAUI NavigationView is an adaptive control used to build
 * [Events]({%slug navigationview-events%})&mdash;NavigationView emits a set of events that allow you to configure the component's behavior in response to specific user actions like clicking on item, changing the selection, opening/closing the pane and more.
 * [Commands support]({%slug navigationview-commands%})&mdash;NavigationView provides commands that for opening, closing and toggling the pane.
 
-# Next Steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI NavigationView]({%slug navigationview-getting-started%})
 

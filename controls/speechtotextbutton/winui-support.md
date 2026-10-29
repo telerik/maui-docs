@@ -17,7 +17,7 @@ On WinUI, the `RadSpeechRecognizer` is not set to the `RadSpeechToTextButton`. W
 
 The `RadSpeechRecognizer` on WinUI utilizes the [`Windows.Media.SpeechRecognition`](https://learn.microsoft.com/en-us/uwp/api/windows.media.speechrecognition?view=winrt-26100). There are specific considerations when using the control on WinUI due to limitations in the `Windows.Media.SpeechRecognition` API. The app crashes when trying to close the application via the "X" button and the app is **Packaged**.
 
-> See the following bug report for more details: [Application crashes after using SpeechRecognizer in a Packaged App](https://github.com/microsoft/microsoft-ui-xaml/issues/10697).
+>note See the following bug report for more details: [Application crashes after using SpeechRecognizer in a Packaged App](https://github.com/microsoft/microsoft-ui-xaml/issues/10697).
 
 ## Solutions
 
@@ -26,7 +26,7 @@ To use the SpeechToTextButton on WinUI, you can use one of the following approac
 | Packaged Apps | Unpackaged Apps |
 | ------------- | --------------- |
 | Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) | Create a [custom recognizer]({%slug speechtotextbutton-custom-recognizer%}) |
-|  | Use the `RadSpeechRecognizer` |
+| Not applicable; see the WinUI limitation described above. | Use the `RadSpeechRecognizer` |
 | Set `<DeviceCapability Name="microphone" />` inside the `Platforms/Windows/Package.appxmanifest` file | Set `<DeviceCapability Name="microphone" />` inside the `Platforms/Windows/Package.appxmanifest` file |
 
 If you want to use the `RadSpeechRecognizer` on WinUI, set the `SpeechRecognizerCreator` property of the `RadSpeechToTextButton` to `RadSpeechRecognizer`:
