@@ -113,6 +113,7 @@ The following table maps the previous Chart features to their counterparts in th
 | Feature | Chart (Telerik.Maui.Controls.Compatibility) | Charts (Telerik.Maui.Controls.Charts) |
 | --- | --- | --- |
 | Grid lines | `RadCartesianChart.Grid` (`CartesianChartGrid`) | `RadCartesianChart.Grid` (`CartesianChartGrid`) |
+| Annotations | PlotandBand and GridLines | [`PlotandBand, GridLines and CategoricalPlotBandAnnotation`]({% slug charts-cartesian-annotations %}) |
 | Data point labels | `ChartSeries.ShowLabels` | `ChartSeries.ShowLabels` |
 | Multiple series | Multiple series in `Series` collection |  Multiple series in `Series` collection |
 | Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`)  |
@@ -155,7 +156,7 @@ Still the new chart is in a preview state, and some series are not yet implement
 
 | Chart (Telerik.Maui.Controls.Compatibility) | Charts (Telerik.Maui.Controls.Charts) |
 | --- | --- |
-| `CandlestickSeries`, `OhlcSeries`, financial indicators | - |
+| `CandlestickSeries`, `OhlcSeries`, financial indicators | [`CandlestickSeries`]({% slug charts-cartesian-candlestick-series %}), [`OhlcSeries`]({% slug charts-cartesian-ohlc-series %}) |
 
 The `PieSeries` data binding also changed. The previous Chart used `ValueBinding` (a `DataPointBinding`); the new `PieSeries` uses the `string`&mdash;based `ValueBinding` and `LabelBinding` properties.
 

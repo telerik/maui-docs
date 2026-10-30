@@ -26,6 +26,8 @@ The Cartesian Chart plots data through the following series:
 | [`PointSeries`]({% slug charts-cartesian-point-series %}) | Represents each data point as a symbol positioned by two numerical values. |
 | [`SplineSeries`]({% slug charts-cartesian-spline-series %}) | Connects the data points with a smooth curve. |
 | [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}) | Fills the area between the smooth curve that connects the data points and the axis. |
+| [`OhlcSeries`]({% slug charts-cartesian-ohlc-series %}) | Represents each data point as a high-low line with open and close ticks. |
+| [`CandlestickSeries`]({% slug charts-cartesian-candlestick-series %}) | Represents each data point as a filled candlestick with high-low wicks. |
 
 ## Axes
 
@@ -40,6 +42,7 @@ You can use the following axes to position the data points in a CartesianChart.
 ## Key Features
 
 * [Grid Lines]({% slug charts-cartesian-grid-lines %})&mdash;Display horizontal and vertical grid lines.
+* [Annotations]({% slug charts-cartesian-annotations %})&mdash;Mark values and highlight ranges with grid line and plot band annotations.
 * [Data Point Labels]({% slug charts-cartesian-data-point-labels %})&mdash;Show labels for the data points of a series.
 * [Multiple Series]({% slug charts-cartesian-multiple-series %})&mdash;Combine several series in a single chart.
 * [Palette]({% slug charts-cartesian-palette %})&mdash;Control the colors applied to the series.
