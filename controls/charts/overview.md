@@ -18,8 +18,8 @@ The Telerik UI for .NET MAUI Charts provide a data-visualization solution built 
 
 The Charts consist of the following controls:
 
-* [CartesianChart]({% slug charts-cartesian-overview %})&mdash;Plots data in a Cartesian coordinate system defined by horizontal and vertical axes. It renders `BarSeries`, `LineSeries`, `AreaSeries`, `PointSeries`, `SplineSeries`, `SplineAreaSeries`, and supports categorical, numerical, and date-time axes.
-* [PieChart]({% slug charts-pie-overview %})&mdash;Plots data as proportional slices of a circle. It renders `PieSeries` and `DonutSeries` and does not use axes.
+* [CartesianChart]({% slug charts-cartesian-overview %})&mdash;Plots data in a Cartesian coordinate system defined by horizontal and vertical axes. It renders [`BarSeries`]({% slug charts-cartesian-bar-series %}), [`LineSeries`]({% slug charts-cartesian-line-series %}), [`AreaSeries`]({% slug charts-cartesian-area-series %}), [`PointSeries`]({% slug charts-cartesian-point-series %}), [`SplineSeries`]({% slug charts-cartesian-spline-series %}), [`SplineAreaSeries`]({% slug charts-cartesian-spline-area-series %}), Financial series including the [`OhlcSeries`]({% slug charts-cartesian-ohlc-series %}) and [`CandlestickSeries`]({% slug charts-cartesian-candlestick-series %}), and supports categorical, numerical, and date-time axes.
+* [PieChart]({% slug charts-pie-overview %})&mdash;Plots data as proportional slices of a circle. It renders [`PieSeries`]({% slug charts-pie-series %}) and [`DonutSeries`]({% slug charts-pie-donut-series %}) and does not use axes.
 
 ## Next Steps
 
