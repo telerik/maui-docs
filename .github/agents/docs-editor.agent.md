@@ -154,7 +154,9 @@ Check these items explicitly:
 - No duplicated frontmatter keys such as repeated `title`, `description`,
   `page_title`, `meta_title`, `slug`, `tags`, `position`, or `previous_url`.
 - Exactly one H1 heading in the article body.
-- A valid introductory paragraph immediately after the H1.
+- An H1 and introductory paragraph when the article type and renderer use
+  them. MAUI Knowledge Base articles commonly omit a source H1; do not add one
+  without checking the existing article pattern.
 - Preserved required article content such as cross-reference slugs, code
   blocks, images, callouts, tables, and a closing navigational section when
   the article originally includes them or the topic warrants them.
