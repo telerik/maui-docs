@@ -21,8 +21,12 @@ by using the same output workflow as the `docs-editor` agent.
 
 ## Skills Reference
 
-The skills are listed in descending priority order. When violations from
-different skills conflict, resolve in favor of the higher-priority skill.
+Before scoring, load the applicable skills under
+`.github/skills/telerik-documentation-style-guide/` and use their repository
+and article-type conventions to override conflicting shared scoring rules.
+Apply those overrides to both dimension scores and violation lists.
+The shared skills below are listed in descending priority order; resolve
+remaining conflicts in favor of the higher-priority shared skill.
 
 | Priority | Skill | File | Evaluates |
 |---|---|---|---|
