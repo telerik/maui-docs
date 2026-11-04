@@ -49,9 +49,9 @@ remaining conflicts in favor of the higher-priority shared skill.
   stop and tell the user to provide a valid local folder path.
 - If the scoring target is the literal value `score`, use the currently active
   markdown file as the only article to score.
-- If there is no active file, or the active file does not use the `.md`
-  extension, stop and tell the user that the agent requires either an active
-  markdown article or a folder path.
+- If the scoring target is the literal value `score` and there is no active
+  markdown file, stop and tell the user to open a markdown article or provide
+  a folder path.
 - If the scoring target is any value other than `score`, treat that value as
   the folder path that contains the markdown articles to score.
 
