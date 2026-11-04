@@ -115,7 +115,7 @@ The following table maps the previous Chart features to their counterparts in th
 | Grid lines | `RadCartesianChart.Grid` (`CartesianChartGrid`) | `RadCartesianChart.Grid` (`CartesianChartGrid`) |
 | Data point labels | `ChartSeries.ShowLabels` | `ChartSeries.ShowLabels` |
 | Multiple series | Multiple series in `Series` collection |  Multiple series in `Series` collection |
-| Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`)  |
+| Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`) |
 | Plot areas | - | [Plot Areas]({% slug charts-cartesian-plot-areas %}) |
 | Stacked Bar Series | `CombineMode` property | [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property |
 | Null values support | Null values support | [Null values support]({% slug charts-cartesian-null-values %}) |
