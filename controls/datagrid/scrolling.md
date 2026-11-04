@@ -83,6 +83,10 @@ The following video shows the end result.
 
 ![.NET MAUI DataGrid Programmatic Scrolling to a Column](images/datagrid-scrollcolumnintoview.gif)
 
+## Directional Scrolling
+
+Users can scroll the DataGrid vertically, horizontally, and diagonally. To turn off diagonal scrolling and keep only vertical and horizontal scrolling, set the DataGrid's `IsDirectionalScrollLockEnabled` (`bool`) property to `true`. The default value is `false`.
+
 ## Virtualization Buffer
 
 The DataGrid exposes the `ViewportBufferHeight` (`double`) property that controls the additional area outside the visible viewport for which rows are prepared in advance. The default value is `200`.
