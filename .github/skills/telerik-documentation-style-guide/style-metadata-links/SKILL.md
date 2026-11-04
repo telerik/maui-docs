@@ -17,7 +17,7 @@ Every documentation article starts with a YAML frontmatter block delimited by `-
 
 | Field | Purpose | Rules |
 |-------|---------|-------|
-| `title` | Display title in navigation and breadcrumbs | Title case; may be a short label such as Getting Started or Data Binding. The descriptive H1 must cover the same topic, not necessarily repeat this label verbatim. |
+| `title` | Display title in navigation and breadcrumbs | Title case; may be a short label such as Getting Started or Data Binding. A standard article's single descriptive H1 must cover the same topic, not necessarily repeat this label verbatim. KB articles use metadata for the title and must not contain an H1. |
 | `page_title` | HTML `<title>` tag for SEO | Follow neighboring MAUI pages, for example `.NET MAUI DataGrid Documentation - Getting Started`; identify the control or product without trademark symbols. Do not invent a `meta_title` field. |
 | `description` | HTML meta description for search engines | Between 120 and 150 characters; must be a complete, meaningful sentence; include primary keywords naturally |
 | `slug` | Unique URL identifier for the article | New slugs are lowercase and hyphen-separated; all slugs must be unique across the site. Preserve exact historical identifiers unless URL migration is authorized. |

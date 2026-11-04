@@ -73,6 +73,8 @@ Keep sentences **25 words or fewer**. Long sentences force the reader to re-read
 
 Keep paragraphs **2–4 sentences** long, and never longer than **6 lines** of rendered text.
 
+Short lead-ins may be one sentence; do not pad them to meet paragraph-length guidance.
+
 - A wall of text discourages scanning.
 - Short paragraphs create visual breathing room.
 - Each paragraph should cover a single point.

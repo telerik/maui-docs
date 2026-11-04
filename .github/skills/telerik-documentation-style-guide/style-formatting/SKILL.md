@@ -1,6 +1,6 @@
 ---
 name: style-formatting
-description: "Use this skill when formatting Telerik UI for .NET MAUI documentation: UI labels, API references, keyboard shortcuts, paths, menus, admonitions, XAML and C# examples, external snippets, screenshots, and command-line instructions. Covers code context, MAUI namespaces, accessible visuals, and platform-specific captures. Use when asked to 'format the article', 'fix formatting', 'add a note', 'add a screenshot', or 'check code blocks'."
+description: "Use this skill when formatting or remediating Telerik UI for .NET MAUI Markdown documentation: UI labels, API references, keyboard shortcuts, paths, menus, admonitions, XAML and C# examples, external snippets, screenshots, and command-line instructions. Covers image introductions, automated content fixes, code context, accessible visuals, and platform-specific captures. Use when asked to 'format the article', 'fix formatting', 'remediate Markdown', 'add a screenshot', or 'check code blocks'."
 ---
 
 # Element Formatting, Admonitions, and Visual Content
@@ -224,9 +224,88 @@ When code examples include comments:
 
 Do not add comments that narrate assignments or control creation. Explain setup and platform restrictions in the surrounding prose; preserve useful comments in resolved source snippets.
 
+## Images and Captions
+
+Apply these rules to every documentation review, audit, accessibility or quality assessment, content-generation task, Markdown remediation, and automated content fix. These repository requirements override conflicting image-caption guidance, including an external style guide. They do not authorize changes during a review-only task or expand an explicitly limited editing scope; report out-of-scope defects with proposed corrections.
+
+### Image Validation and Remediation
+
+Inspect Markdown images (including reference-style and linked images) and HTML images in the article body. Exclude YAML metadata, code fences, literal Markdown examples, and template-generated content from image validation.
+
+Every image must have one of these approved introductions immediately before it, with only optional blank lines and required list or blockquote indentation between the introduction and image:
+
+* A meaningful introductory sentence explaining the image's purpose, content, or what the reader should observe.
+* A caption block using the exact syntax `>caption This describes shortly the image`.
+
+Preserve an existing introduction that provides sufficient context. An introduction elsewhere in the section, alt text alone, or text after the image does not satisfy this rule. Each image in a sequence needs its own introduction. Keep meaningful alt text as a separate accessibility requirement; a caption does not replace alt text.
+
+Never use a heading or standalone bold text as an image introduction. Never pair a caption with a heading used solely to label the same image. Inline bold UI labels within a complete introductory sentence remain valid. Genuine section headings may remain when they organize substantive content, but a separate approved introduction must immediately precede the image.
+
+When editing or automatically fixing content, replace a heading or bold label used solely to introduce an image with a concise, reader-focused sentence or a `>caption` block. Remove redundant image-only heading/caption pairs, retaining one approved introduction. Move or rewrite after-image captions when needed to satisfy the before-image rule. Do not remove structural headings that organize real section content. Add missing introductions using verified image context; do not invent visual details when the image or context is unavailable, and report any unresolved introduction instead of claiming compliance.
+
+Compliant sentence introduction:
+
+```markdown
+The following image shows the Data Source Configuration dialog.
+
+![Data Source Configuration](images/data-source.png)
+```
+
+Compliant caption introduction:
+
+```markdown
+>caption Data Source Configuration dialog
+
+![Data Source Configuration](images/data-source.png)
+```
+
+Non-compliant heading introduction (replace the image-only heading with a sentence or caption):
+
+```markdown
+### Data Source Configuration
+
+![Data Source Configuration](images/data-source.png)
+```
+
+Non-compliant bold introduction (replace the bold label with a sentence or caption):
+
+```markdown
+**Data Source Configuration**
+
+![Data Source Configuration](images/data-source.png)
+```
+
+Non-compliant heading/caption pair (remove the redundant image-only heading):
+
+```markdown
+### Data Source Configuration
+
+>caption Data Source Configuration dialog
+
+![Data Source Configuration](images/data-source.png)
+```
+
+### Image Sample Prompts and Expected Outcomes
+
+| Prompt | Required outcome |
+|---|---|
+| Fix missing image introductions, bold screenshot labels, and image-only headings | Preserve sufficient adjacent introductions; add or replace labels with a meaningful sentence or exact `>caption` block immediately before each image, without inventing image details. |
+| Generate a standard guide and a KB workaround with screenshots | Introduce every image using an approved adjacent sentence or caption and provide meaningful alt text. |
+
+### Image Review and Automated-Fix Acceptance
+
+Run this checklist before scoring or editing and again after content generation or authorized remediation:
+
+* [ ] Every image has a meaningful sentence or exact `>caption` block immediately before it.
+* [ ] No image relies on a heading, standalone bold label, after-image text, or redundant heading/caption pair as its introduction.
+* [ ] Sufficient existing introductions and meaningful alt text are preserved; unverified image content is not invented.
+* [ ] Authorized automated fixes replace image-only headings and bold labels, add missing introductions, and rerun these checks.
+
+For review-only work, report each image-introduction violation with its location and proposed correction without modifying the article. For explicitly scoped edits, report remaining out-of-scope issues. New content and image remediation pass only when every applicable image check passes.
+
 ## Screenshots
 
-Screenshots complement text but do not replace it. Always describe the action or result in text before or after the screenshot.
+Screenshots complement text but do not replace it. Every screenshot, like every other image, must have a meaningful introductory sentence or exact `>caption` block immediately before it. Text after the image is not an introduction.
 
 ### Screenshot Requirements
 
@@ -253,7 +332,9 @@ The DataGrid displays countries and capitals from the sample collection.
 ![DataGrid displaying countries and capitals](images/datagrid-getting-started.png)
 ```
 
-- Place screenshots **after** the text that describes them.
+- Place every image immediately after its meaningful introductory sentence or exact `>caption` block; only blank lines may separate them.
+- Never introduce an image with a heading or standalone bold label. During authorized fixes, replace image-only headings and bold labels with a sentence or caption; retain genuine structural headings and sufficient existing introductions.
+- Never pair a caption with a heading used solely to label the same image. Use `>caption DataGrid displaying countries and capitals` as the caption alternative to the sentence above.
 - Use descriptive alt text that explains what the screenshot shows.
 - Store screenshot files in an `images/` subdirectory relative to the article.
 
@@ -284,6 +365,8 @@ The following table distinguishes common data controls:
 
 When reviewing an article for formatting, verify:
 
+- [ ] Every image has a meaningful sentence or exact `>caption` block immediately before it
+- [ ] Missing introductions, image-only headings, standalone bold labels, and redundant heading/caption pairs are reported and corrected when authorized
 - [ ] UI elements (buttons, menus, tabs, fields) are in **bold**
 - [ ] Bold uses `**` asterisk syntax, not `__` underscore syntax
 - [ ] All API mentions (types, methods, properties, members) are in `monospace`

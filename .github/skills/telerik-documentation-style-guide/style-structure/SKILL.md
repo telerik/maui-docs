@@ -1,6 +1,6 @@
 ---
 name: style-structure
-description: "Use this skill when structuring Telerik UI for .NET MAUI articles, headings, lists, and figures. Covers Getting Started, Installation, Fundamentals, control overviews, Data Binding, Commands, Styling, Templating, Events, Localization, Accessibility, Troubleshooting, and KB organization. Use when asked to 'fix headings', 'restructure the article', 'check list formatting', 'fix capitalization', or 'organize the content'."
+description: "Use this skill when structuring or remediating Telerik UI for .NET MAUI articles, headings, lists, and figures. Covers mandatory standard-article and KB H1 rules, image introductions, automated heading fixes, Getting Started, Installation, Fundamentals, control overviews, Data Binding, Commands, Styling, Templating, Events, Localization, Accessibility, and Troubleshooting. Use when asked to 'fix headings', 'restructure the article', 'validate documentation structure', 'check list formatting', or 'organize the content'."
 ---
 
 # Article Structure, Headings, and Lists
@@ -76,11 +76,96 @@ These are authoring scenarios, not a mandate to create new folders or taxonomy v
 
 ### Structural Rules
 
-1. **One rendered H1 per documentation article** — Control articles have one descriptive source H1, such as "Getting Started with the .NET MAUI DataGrid", while `title` can remain "Getting Started" for navigation. KB templates must generate the title without a source H1. Inspect the article type and rendering convention before adding or removing a heading; never create a duplicate rendered H1 or force short navigation labels into descriptive headings.
+1. **Article-type-specific H1 usage** — Standard articles must have exactly one authored H1, such as "Getting Started with the .NET MAUI DataGrid", while `title` can remain "Getting Started" for navigation. Report additional H1s and demote them according to hierarchy; recommend one appropriate H1 when missing. KB articles must have no authored H1: never add one, and flag existing H1s for removal or conversion. Metadata-generated KB titles do not change this source requirement.
 2. **Text between heading and subheadings** — Always write at least one sentence between a heading and its first subheading. This gives readers context before they dive into subsections.
 3. **Minimum two subheadings** — If a section has subheadings, it must have at least two. A single subheading under a heading is a sign the content should be merged with the parent.
 4. **Heading levels do not skip** — Go from H2 to H3, not from H2 to H4. Every heading level must be one deeper than its parent.
 5. **"See Also" section** — Place a "See Also" section at the end of the article with links to related content. This is a convention, not a hard requirement.
+
+### H1 Usage
+
+Apply these rules to every documentation review, audit, accessibility or quality assessment, content-generation task, Markdown remediation, and automated content fix. These repository requirements override conflicting heading guidance, including an external style guide. They do not authorize changes during a review-only task or expand an explicitly limited editing scope; report out-of-scope defects with proposed corrections.
+
+#### Identify the Article Type First
+
+Treat an article as Knowledge Base (KB) content when its path is under `knowledge-base/`, its metadata contains `res_type: kb`, or the task explicitly identifies it as KB content. A how-to or FAQ is not automatically a KB article. A FAQ within a KB article inherits the KB rules; a standalone non-KB FAQ follows the standard-article rules.
+
+Inspect the article body separately from YAML metadata, code fences, literal Markdown examples, and template-generated titles. Do not count those as authored headings. Include authored ATX (`#`), Setext, and HTML headings when determining heading levels. If article type is unresolved or classification signals conflict, report the ambiguity and do not add an H1 until resolved.
+
+#### Heading Validation and Remediation
+
+| Article type | Mandatory validation | Review recommendation and authorized remediation |
+|---|---|---|
+| Standard documentation article | Exactly one H1; flag both zero H1s and multiple H1s | If missing, recommend one appropriate H1; new content must include it. If multiple exist, report each additional H1 and convert it to H2 or a deeper level appropriate to its section. |
+| KB article | No H1 headings, without exception | Never add an H1. Flag every H1 and recommend removing a redundant title or converting a meaningful section heading to H2 or the appropriate deeper level; apply that correction when editing is authorized. |
+
+Preserve the document hierarchy, section meaning, and title metadata. Keep the primary H1 in standard articles; do not blindly demote all headings. When converting a section, adjust its descendants only as needed to preserve parent-child relationships and avoid skipped levels. KB top-level sections start at H2; this is not a missing-H1 or skipped-level defect. Check affected anchors and internal references when heading changes alter them; disclose any unresolved references. Do not edit stable URLs or metadata merely to fix headings.
+
+Compliant standard article:
+
+```markdown
+# Configure the Scheduler
+
+## Prerequisites
+
+## Configuration
+```
+
+Compliant KB article:
+
+```markdown
+## Environment
+
+## Description
+
+## Solution
+```
+
+Non-compliant standard article (convert the second H1 to H2):
+
+```markdown
+# Configure the Scheduler
+
+# Additional Information
+```
+
+Non-compliant standard article with no H1 (recommend a single descriptive H1):
+
+```markdown
+## Prerequisites
+
+## Configuration
+```
+
+Non-compliant KB article (remove the redundant H1 or convert it without disrupting the sections):
+
+```markdown
+# Error When Loading Data
+
+## Symptoms
+
+## Resolution
+```
+
+#### Heading Sample Prompts and Expected Outcomes
+
+| Prompt | Required outcome |
+|---|---|
+| Review a standard Scheduler article with no H1 | Report the missing H1 and recommend one appropriate title; do not edit during review-only work. |
+| Fix a standard article with two H1s | Report the additional H1 and demote it according to hierarchy, preserving the primary H1 and checking affected references. |
+| Review and remediate a KB article with an H1 | Flag the H1 and remove a redundant title or convert a meaningful section heading; never add an H1, including for SEO or FAQ formatting. |
+| Generate a standard guide and a KB workaround | Include exactly one H1 in the standard guide and none in the KB article. |
+
+#### Heading Review and Automated-Fix Acceptance
+
+Run this checklist before scoring or editing and again after content generation or authorized remediation:
+
+* [ ] Article type is identified; ambiguity is reported before changing H1 usage.
+* [ ] Standard articles have exactly one H1; missing and additional H1s are reported, with a specific recommendation for each.
+* [ ] KB articles have zero H1s; no generation or fix step adds an H1.
+* [ ] Heading corrections preserve hierarchy and check affected anchors and references.
+
+For review-only work, report each heading violation with its location and proposed correction without modifying the article. For explicitly scoped edits, report remaining out-of-scope issues. New content and heading remediation pass only when every applicable heading check passes.
 
 ## Title Case Capitalization
 
@@ -234,25 +319,14 @@ The suite includes the following controls:
 
 ## Figures and Captions
 
-When inserting figures (images, diagrams, charts):
-
-1. Introduce the figure in the preceding text.
-2. Use descriptive alt text in the image tag.
-3. If the figure needs additional explanation, add a caption as italic text immediately after the image.
-
-```markdown
-For a DataGrid article, introduce the existing control screenshot:
-
-![DataGrid displaying countries and capitals](images/datagrid-getting-started.png)
-
-*Figure 1: The DataGrid displays the sample collection.*
-```
+Follow the [formatting skill](../style-formatting/SKILL.md) for image introductions, caption syntax, alt text, and remediation examples.
 
 ## Quick Checklist
 
 When reviewing an article for structure, verify:
 
-- [ ] Exactly one rendered H1; descriptive control headings and generated KB titles follow their own conventions
+- [ ] Standard articles have exactly one H1; missing or multiple H1s are flagged and corrections preserve hierarchy
+- [ ] KB articles have no H1; existing H1s are flagged for removal or conversion and no fix adds one
 - [ ] Article structure matches its MAUI task rather than an unrelated product workflow
 - [ ] Setup, XAML/C# context, sample data, expected result, platform scope, and version prerequisites are present where relevant
 - [ ] Accessibility and localization articles identify supported platforms and evidence, not assumed parity

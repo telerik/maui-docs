@@ -11,6 +11,8 @@ This skill defines how to write Knowledge Base (KB) articles and FAQ sections in
 
 There are three types of KB articles, each with a distinct purpose and structure.
 
+KB articles must contain no H1. Flag any H1 and, when editing is authorized, remove a redundant title or convert a meaningful heading at the appropriate level while preserving hierarchy. Never add an H1 to KB content.
+
 ### 1. How-To Articles
 
 How-to articles guide the reader through accomplishing a specific task.
@@ -21,7 +23,7 @@ How-to articles guide the reader through accomplishing a specific task.
 - ❌ "How to Bind a CollectionView" (avoid "How to" in the title)
 - ❌ "Bind Data" (too terse; use -ing form)
 
-**Required sections**: The following template assumes that the title is generated from metadata, as in existing MAUI KB pages. Do not add a duplicate H1. Replace every environment placeholder with tested values before publishing.
+**Required sections**: The following template uses metadata for the title, as in existing MAUI KB pages. KB source must never contain an H1, even if a template does not generate a title. Replace every environment placeholder with tested values before publishing.
 
 ````markdown
 ---
@@ -247,6 +249,8 @@ FAQ sections answer common questions concisely within a feature article or as st
 
 ### FAQ Formatting Rules
 
+Apply the containing article's H1 rule before formatting questions: a standard standalone FAQ needs exactly one H1, while a KB FAQ must have none. The examples below are section fragments, not complete standard articles.
+
 1. **Headings as questions** — Each FAQ item uses a heading formatted as a complete question with a question mark.
 
    ```markdown
@@ -278,6 +282,8 @@ FAQ sections answer common questions concisely within a feature article or as st
 
 When reviewing a KB or FAQ article, verify:
 
+- [ ] KB articles, including KB FAQs, contain no H1; existing H1s are flagged for removal/conversion and no fix adds one
+- [ ] Standard articles, including standalone non-KB FAQs, have exactly one H1; missing/multiple H1s are flagged and hierarchy is preserved
 - [ ] Article type matches the content (how-to, troubleshooting, or CVE)
 - [ ] Title uses the correct format (-ing form for how-to, problem statement for troubleshooting)
 - [ ] Environment, Description, and Solution are present; troubleshooting adds Cause when confirmed
