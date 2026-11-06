@@ -50,9 +50,9 @@ Source rules: front matter `title` and `meta_title` / `page_title` fields.
 | Check | Pass condition | Violation examples |
 |---|---|---|
 | `meta_title` / `page_title` is present | Field exists in front matter | Field is absent |
-| Primary keyword appears early in `meta_title` | The most specific term (component + feature + product) leads the value, e.g. `"DataGrid Data Binding - Telerik UI for .NET MAUI"` | `"Telerik UI for .NET MAUI - DataGrid Data Binding"` (product leads instead of topic) |
+| Primary keyword appears early in `meta_title` | The most specific term (component + feature + product) leads the value, e.g. `".NET MAUi DataGrid - Data Binding"` | `"Telerik UI for .NET MAUI - DataGrid Data Binding"` (product leads instead of topic) |
 | `meta_title` length is 40–70 characters | Within the range Google displays without truncation | 25 characters (too short) or 90 characters (truncated in SERPs) |
-| `title` (sidebar nav) is distinct and descriptive | Not a generic label shared by sibling articles | Multiple articles all titled `"Overview"` or `"Introduction"` without qualifier |
+| `title` (sidebar nav) is distinct and descriptive | Generic label usually with the naming of the .md file - for example, Overview, Getting Started | .NET MAUI Carousel Overview |
 | No keyword stuffing | Title reads naturally; keywords appear once, not repeated | `"Grid Grid DataGrid Telerik MAUI Grid Overview"` |
 
 **Scoring guide:**
