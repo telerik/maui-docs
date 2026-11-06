@@ -419,6 +419,13 @@ navigation:
     controls/rating:
         title: "Rating"
     ## End Rating
+    ## RefreshView
+    controls/refreshview:
+        title: "RefreshView"
+    controls/refreshview/integration:
+        title: "Integration"
+        position: 5
+    ## End RefreshView
     ## RichTextEditor
     controls/richtexteditor:
         title: "RichTextEditor"
