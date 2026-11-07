@@ -1,17 +1,17 @@
 ---
 title: Prompt Library
 page_title: Telerik UI for .NET MAUI Prompt Library
-description: Explore the extensive collection of prompts that you can use with the Telerik UI for MAUI AI Coding Assistant.
+description: Explore the extensive collection of prompts that you can use with the Telerik UI for MAUI Agentic UI Generator.
 slug: ai-prompt-library
 position: 3
 components: ["general"]
 ---
 
-# Telerik UI for MAUI Prompt Library
+# Agentic UI Generator Prompt Library
 
 Welcome to the Telerik UI for MAUI Prompt Library.
 
-The prompts provided here are intended and optimized for use with the Telerik UI for MAUI AI Coding Assistant [MCP Server]({%slug ai-mcp-server%}). They can help you kick start your app development and speed up the component configuration process.
+The prompts provided here are intended and optimized for use with the Telerik UI for MAUI Agentic UI Generator [MCP Server]({%slug ai-mcp-server%}). They can help you kick start your app development and speed up the component configuration process.
 
 This collection of prompts is not exhaustive and the Telerik UI for .NET MAUI team is constantly working on adding more prompts to the library.
 
@@ -23,7 +23,7 @@ All prompts in this library target the [MCP Server]({%slug ai-mcp-server%}) via 
 
 1. Browse the prompt library to find a prompt that suits your needs.
 2. Copy the prompt text (including the `#telerik-maui-assistant` handle).
-3. (Optional) Customize the prompt as needed for your specific use case but keep the `#telerik-maui-assistant` handle.<br/>When modifying the prompts, make sure the changes comply with the [recommendations]({%slug ai-overview%}#recommendations) for the AI Coding Assistant.
+3. (Optional) Customize the prompt as needed for your specific use case but keep the `#telerik-maui-assistant` handle.<br/>When modifying the prompts, make sure the changes comply with the [recommendations]({%slug ai-overview%}#recommendations) for the Agentic UI Generator.
 4. Run the prompt against the [MCP Server]({%slug ai-mcp-server%}).
 
 >warning Always double-check the code and solutions proposed by any AI-powered tool before applying them to your project.
