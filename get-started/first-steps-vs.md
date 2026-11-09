@@ -103,7 +103,7 @@ If your .NET MAUI project uses the default project template provided by Microsof
 	<article-card
 		href="/ai/mcp-server"
 		src="../images/aicomponents/Chat_Light_Large.svg"
-		title="AI Coding Assistant"
+		title="Agentic UI Generator"
 		subTitle="MCP Server"
 		darkSrc="../images/aicomponents/AI_Data_Operations_Dark_Large.svg"
 		description="Use the Telerik MCP server to get AI-assisted coding support for .NET MAUI development.">

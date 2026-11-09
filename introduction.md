@@ -171,7 +171,7 @@ If you are upgrading an existing Xamarin or Xamarin.Forms application to .NET MA
 
 When you need help, you have several options:
 
-- **AI Coding Assistant**&mdash;Get tips and code snippets from the [Telerik UI for .NET MAUI AI Coding Assistant]({%slug ai-overview%}).
+- **Agentic UI Generator**&mdash;Get tips and code snippets from the [Telerik UI for .NET MAUI Agentic UI Generator]({%slug ai-overview%}).
 - **Priority Support**&mdash;License holders can submit tickets through [Telerik support](https://www.telerik.com/account/support-tickets).
 - **Community Forum**&mdash;Ask questions and connect with the community in the [Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui).
 - **Feature Requests**&mdash;Share ideas and vote on features in the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).

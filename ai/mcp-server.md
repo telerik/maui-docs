@@ -9,11 +9,9 @@ tag: updated
 components: ["general"]
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI AI Coding Assistant (MCP Server)
+# Getting Started with the Telerik UI for .NET MAUI Agentic UI Generator
 
-Use the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://modelcontextprotocol.io/introduction) to give compatible AI tools grounded context about Telerik UI for .NET MAUI components and APIs. This article shows how to install the server, configure `mcp.json`, add your Telerik license, verify that the server is running, and start using it in prompts.
-
-The MCP server helps AI-powered IDEs and tools generate more accurate code, answer component questions with Telerik-specific context, and suggest implementations that match [Telerik UI for .NET MAUI components](https://www.telerik.com/maui-ui).
+The Agentic UI Generator is an intelligent development tool delivered through the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP) that enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik-maui-assistant`) together with the available specialized MCP assistants.
 
 >tip
 > The Telerik UI for .NET MAUI MCP server works in **Chat** (**Ask**) and **Agent** modes.
@@ -285,9 +283,9 @@ You can use the Telerik MAUI MCP server with a local large language model (LLM) 
 2. Use a bridge package like [MCP-LLM Bridge](https://github.com/patruff/ollama-mcp-bridge).
 3. Connect the local model and the Telerik MAUI MCP server through the bridge.
 
-This setup allows you to use the Telerik AI Coding Assistant without a cloud-based AI model.
+This setup allows you to use the Telerik Agentic UI Generator without a cloud-based AI model.
 
 ## See Also
 
-- [AI Coding Assistant Overview]({%slug ai-overview%})
+- [Agentic UI Generator Overview]({%slug ai-overview%})
 - [Set Up Your Telerik License]({%slug set-up-your-license%})

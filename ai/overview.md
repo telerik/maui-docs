@@ -8,15 +8,15 @@ position: 0
 components: ["general"]
 ---
 
-# Telerik UI for .NET MAUI AI Coding Assistant
+# Telerik UI for .NET MAUI Agentic UI Generator
 
-The Telerik UI for .NET MAUI AI Coding Assistant enhances your developer experience and increases productivity when building .NET MAUI applications with Telerik UI for .NET MAUI components.
+The Telerik UI for .NET MAUI Agentic UI Generator enhances your developer experience and increases productivity when building .NET MAUI applications with Telerik UI for .NET MAUI components.
 
 The coding assistant is an AI code generator that provides specialized context to AI models, enabling them to produce higher-quality code samples using the [Telerik UI for .NET MAUI components](https://www.telerik.com/maui-ui) and APIs.
 
 ## Available Tools
 
-The Telerik AI Coding Assistant is integrated in the [Telerik MAUI MCP Server]({%slug ai-mcp-server%})
+The Telerik Agentic UI Generator is integrated in the [Telerik MAUI MCP Server]({%slug ai-mcp-server%})
 
 | Feature                | MCP Server                                                                |
 |------------------------|---------------------------------------------------------------------------|
@@ -27,58 +27,58 @@ The Telerik AI Coding Assistant is integrated in the [Telerik MAUI MCP Server]({
 
 ## Getting Started
 
-To use the Telerik MAUI AI Coding Assistant, you need:
+To use the Telerik MAUI Agentic UI Generator, you need:
 
 @[template](/_contentTemplates/common/ai-coding-assistant.md#getting-started)
 * @[template](/_contentTemplates/common/ai-coding-assistant.md#number-of-requests)
 
-To learn how to set up and use the Telerik MAUI AI Coding Assistant, see the [Getting Started with the Telerik UI for .NET MAUI AI Coding Assistant]({%slug ai-mcp-server%}) article.
+To learn how to set up and use the Telerik MAUI Agentic UI Generator, see the [Getting Started with the Telerik UI for .NET MAUI Agentic UI Generator]({%slug ai-mcp-server%}) article.
 
 ## Intended Use
 
-You can use the Telerik AI Coding Assistant for:
+You can use the Telerik Agentic UI Generator for:
 
 * Initial code generation&mdash;Quickly add components to your app to speed up the initial development.
 * Component configuration&mdash;Enable or disable specific component features, or fine tune the configuration through prompting. More complex configurations are possible but may require additional manual work to be production-ready.
 * Dummy data generation and data binding&mdash;Quickly add data to your app for testing and prototyping purposes. Avoid exposing or providing access to your proprietary or production data to AI-enabled tools.
-* Step-by-step explanations&mdash;Understand the solutions provided by the AI Coding Assistant through the detailed explanations (depends on the tool, mode, and model). To further develop your knowledge, check the respective documentation.
+* Step-by-step explanations&mdash;Understand the solutions provided by the Agentic UI Generator through the detailed explanations (depends on the tool, mode, and model). To further develop your knowledge, check the respective documentation.
 * Preliminary troubleshooting&mdash;Resolve obvious and easy-to-solve issues affecting your code. For more complex issues, search the product documentation or look for assistance from the community.
 
 >warning Always double-check the suggested code and solutions of any AI-powered tool before applying them to your app.
 
 ## Recommendations
 
-Consider the following recommendations when working with the AI Coding Assistant:
+Consider the following recommendations when working with the Agentic UI Generator:
 
 * Add NuGet packages/referenced assemblies for the Telerik UI for MAUI product.
 * Set the `.sln` as a context.
 * When switching between tasks and files, start a new session in a new chat window to avoid polluting the context with irrelevant or outdated information.
 * At the time of publishing, Claude Sonnet 4 produces optimal results.
 
-## Telerik Document Processing AI Coding Assistant
+## Telerik Document Processing Agentic UI Generator
 
-You can also use the AI Coding Assistant for Telerik Document Processing to generate high-quality code samples and speed up your development.
-Read the full guide in the dedicated [DPL AI Coding Assistant article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
+You can also use the Agentic UI Generator for Telerik Document Processing to generate high-quality code samples and speed up your development.
+Read the full guide in the dedicated [DPL Agentic UI Generator article](https://docs.telerik.com/devtools/document-processing/ai-coding-assistant/overview).
 
 ## Usage Limits
 
-Access to the AI Coding Assistant depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
+Access to the Agentic UI Generator depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
 
 ### Subscription Licenses
 
-* A Subscription is the primary license that grants full access to the AI Coding Assistant.
+* A Subscription is the primary license that grants full access to the Agentic UI Generator.
 * Includes a virtually unlimited number of requests, with fair usage applied
 
 ### Perpetual Licenses
 
-* Perpetual license holders have no access to the AI Coding Assistant by default.
-* You can start a [30-day trial](https://www.telerik.com/try/ui-for-maui) to access the AI Coding Assistant.
+* Perpetual license holders have no access to the Agentic UI Generator by default.
+* You can start a [30-day trial](https://www.telerik.com/try/ui-for-maui) to access the Agentic UI Generator.
 * After the trial expires, access is no longer available unless the [Perpetual license is converted to a Subscription license](https://www.telerik.com/account/support-center/contact-us/account-support).
 
 ### Trial Licenses
 
 * A [Telerik UI for .NET MAUI trial](https://www.telerik.com/try/ui-for-maui) automatically starts a 30-day trial for the AI tools.
-* Trial licenses grant access to the AI Coding Assistant.
+* Trial licenses grant access to the Agentic UI Generator.
 * The number of requests is virtually unlimited, with fair use policy applied.
 * Reactivating the same trial for a new release does not grant additional requests.
 * Designed for evaluating the feature before purchasing.
@@ -88,7 +88,7 @@ Access to the AI Coding Assistant depends on your [Telerik license type](https:/
 
 ## Privacy
 
-The Telerik MAUI AI Coding Assistant operates under strict privacy guidelines:
+The Telerik MAUI Agentic UI Generator operates under strict privacy guidelines:
 
 Data Access:
 * No access to your workspace and application code.
