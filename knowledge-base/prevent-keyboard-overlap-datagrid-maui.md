@@ -37,11 +37,14 @@ To prevent the keyboard from overlapping the editable cell in DataGrid when the 
     <telerik:RadDataGrid x:Name="dataGrid"
                           ItemsSource="{Binding DataItems}"
                           AutoGenerateColumns="False"
+                          UserEditMode="Cell"
+                          WidthRequest="300"
+                          HeightRequest="400"
                           telerik:KeyboardHelper.IsTranslationTarget="True">
         <telerik:RadDataGrid.Columns>
             <telerik:DataGridTextColumn PropertyName="Name">
                 <telerik:DataGridTextColumn.CellEditorStyle>
-                    <Style TargetType="telerik:DataGridTextCellEditor">
+                    <Style TargetType="telerik:RadEntry">
                         <Setter Property="telerik:KeyboardHelper.IsTranslationPivot" Value="True" />
                     </Style>
                 </telerik:DataGridTextColumn.CellEditorStyle>
