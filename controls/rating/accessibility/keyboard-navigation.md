@@ -22,8 +22,5 @@ The table below lists the available keyboard combinations and their correspondin
 
 ## See Also
 
-- [Formatting the Telerik UI for .NET MAUI Rating]({%slug rating-formatting%})
-- [Setting Rating Ranges in the .NET MAUI Rating]({%slug rating-range%})
-- [.NET MAUI Rating Templates]({%slug rating-templates%})
-- [.NET MAUI Rating Selection]({%slug rating-selection%})
-- [.NET MAUI Rating Styling]({%slug rating-styling%})
+- [Configuring the .NET MAUI Rating]({%slug rating-configuration%})
+- [Customizing Rating Item Templates]({%slug rating-templated-rating%})
