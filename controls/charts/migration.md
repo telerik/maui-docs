@@ -120,7 +120,7 @@ The following table maps the previous Chart features to their counterparts in th
 | Plot areas | - | [Plot Areas]({% slug charts-cartesian-plot-areas %}) |
 | Stacked Bar Series | `CombineMode` property | [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property |
 | Null values support | Null values support | [Null values support]({% slug charts-cartesian-null-values %}) |
-| Tooltip | Tooltip behavior | - |
+| Tooltip | Tooltip behavior | Tooltip for [Cartesian Charts]({%slug charts-cartesian-tooltip %}) and [Pie Charts]({%slug charts-pie-tooltip %}) |
 | Trackball | Trackball behavior | - |
 | Selection | Selection behavior | - |
 | Pan and Zoom | Pan and Zoom behavior | - |
