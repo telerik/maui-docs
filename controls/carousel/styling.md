@@ -48,6 +48,12 @@ The following example sets rounded borders and a custom background to all item c
 
     <snippet id='carousel-viewmodel' />
 
+This is the result:
+
+![.NET MAUI Carousel with a custom style applied to the item containers](images/carousel-styling.png)
+
+> tip For a runnable example demonstrating the Carousel styling scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Styling** category.
+
 ## Apply Styles with a Style Selector
 
 Use a style selector when different items need different styles, for example, to emphasize featured items.
@@ -72,7 +78,11 @@ Use a style selector when different items need different styles, for example, to
 
     <snippet id='carousel-viewmodel' />
 
-> tip For a runnable example demonstrating the Carousel styling, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Styling** category.
+This is the result:
+
+![.NET MAUI Carousel with a style selector applied to each item containers](images/carousel-styling-selector.gif)
+
+> tip For a runnable example demonstrating the Carousel style selector scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Styling** category.
 
 ## See Also
 

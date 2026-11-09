@@ -42,6 +42,10 @@ The following example sets custom `PeekAreaRatio` and `ItemSpacing` values.
 
     <snippet id='carousel-viewmodel' />
 
+This is the result:
+
+![.NET MAUI Carousel with a custom peek area and spacing between the items](images/carousel-item-size-and-spacing.gif)
+
 > tip For a runnable example with the Carousel Item Size and Spacing scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Features** category.
 
 ## See Also
