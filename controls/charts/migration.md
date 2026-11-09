@@ -113,13 +113,14 @@ The following table maps the previous Chart features to their counterparts in th
 | Feature | Chart (Telerik.Maui.Controls.Compatibility) | Charts (Telerik.Maui.Controls.Charts) |
 | --- | --- | --- |
 | Grid lines | `RadCartesianChart.Grid` (`CartesianChartGrid`) | `RadCartesianChart.Grid` (`CartesianChartGrid`) |
+| Annotations | PlotandBand and GridLines | [`PlotandBand, GridLines and CategoricalPlotBandAnnotation`]({% slug charts-cartesian-annotations %}) |
 | Data point labels | `ChartSeries.ShowLabels` | `ChartSeries.ShowLabels` |
 | Multiple series | Multiple series in `Series` collection |  Multiple series in `Series` collection |
 | Palette | `RadChartBase.Palette` (`ChartPalette`) | `RadCartesianChart.Palette` (`ChartPalette`)  |
 | Plot areas | - | [Plot Areas]({% slug charts-cartesian-plot-areas %}) |
 | Stacked Bar Series | `CombineMode` property | [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property |
 | Null values support | Null values support | [Null values support]({% slug charts-cartesian-null-values %}) |
-| Tooltip | Tooltip behavior | - |
+| Tooltip | Tooltip behavior | Tooltip for [Cartesian Charts]({%slug charts-cartesian-tooltip %}) and [Pie Charts]({%slug charts-pie-tooltip %}) |
 | Trackball | Trackball behavior | - |
 | Selection | Selection behavior | - |
 | Pan and Zoom | Pan and Zoom behavior | - |
@@ -155,7 +156,7 @@ Still the new chart is in a preview state, and some series are not yet implement
 
 | Chart (Telerik.Maui.Controls.Compatibility) | Charts (Telerik.Maui.Controls.Charts) |
 | --- | --- |
-| `CandlestickSeries`, `OhlcSeries`, financial indicators | - |
+| `CandlestickSeries`, `OhlcSeries`, financial indicators | [`CandlestickSeries`]({% slug charts-cartesian-candlestick-series %}), [`OhlcSeries`]({% slug charts-cartesian-ohlc-series %}) |
 
 The `PieSeries` data binding also changed. The previous Chart used `ValueBinding` (a `DataPointBinding`); the new `PieSeries` uses the `string`&mdash;based `ValueBinding` and `LabelBinding` properties.
 
