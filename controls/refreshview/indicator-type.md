@@ -22,6 +22,18 @@ To select the built-in indicator, set the `IndicatorType` property (`enum` of ty
 
 > note When you set the `PullingTemplate` or `RefreshingTemplate` property, the template replaces the built-in indicator for the respective phase. For more information, see [RefreshView Templates]({% slug refreshview-templates %}).
 
+>caption Circular indicator
+
+![.NET MAUI RefreshView with a circular built-in indicator that shows a progress arc and a pull arrow](images/refreshview-indicator-type-circular.gif)
+
+>caption Spinner indicator
+
+![.NET MAUI RefreshView with a spinner built-in indicator that shows eight rotating bars](images/refreshview-indicator-type-spinner.gif)
+
+>caption Arrow indicator
+
+![.NET MAUI RefreshView with an arrow built-in indicator that rotates while pulling, pulses at the refresh threshold, and spins while refreshing](images/refreshview-indicator-type-arrow.gif)
+
 ## Set the Indicator Type
 
 The following example demonstrates how to set the `IndicatorType` property of the RefreshView.

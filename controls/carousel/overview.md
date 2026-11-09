@@ -13,6 +13,8 @@ The Telerik UI for .NET MAUI Carousel displays a scrollable sequence of items wi
 
 Use the Carousel for product and content cards, featured items, media browsing, recommendations, onboarding flows, and interactive showcases. The previews of the adjacent items help users discover more content without leaving the current view.
 
+![Telerik UI for .NET MAUI Carousel displays a horizontal sequence of image items](images/carousel-overview.png)
+
 ## Key Features of the Telerik .NET MAUI Carousel
 
 The Carousel provides the following features:
@@ -20,7 +22,6 @@ The Carousel provides the following features:
 * [Highlighted Item]({% slug carousel-highlighted-item %})&mdash;Get or set the item and the index displayed at the center of the viewport.
 * [Item Size and Spacing]({% slug carousel-item-size-and-spacing %})&mdash;Control how much of the viewport the neighboring items take and the space between items.
 * [Orientation]({% slug carousel-orientation %})&mdash;Arrange the items horizontally or vertically.
-* [Snap Mode]({% slug carousel-snap-mode %})&mdash;Define whether a single user interaction scrolls by one item or through multiple items.
 * [Item Effects]({% slug carousel-item-effects %})&mdash;Apply scale and opacity effects to the items based on their position relative to the viewport center.
 * [Commands]({% slug carousel-commands %})&mdash;Navigate to the previous or next item through the built-in navigation commands.
 * [Events]({% slug carousel-events %})&mdash;Respond to changes of the highlighted item and of the scroll position.

@@ -40,10 +40,6 @@ The following example demonstrates how to set the `TransitionMode` property of t
 
     <snippet id='refreshview-transition-mode-onrefreshing' />
 
-The following image shows the result:
-
-![.NET MAUI RefreshView in Push transition mode where the content moves down with the pull and the indicator slides in from the top edge](images/refreshview-transition-mode.png)
-
 > tip For a runnable example with the RefreshView Transition Mode scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Configuration** category.
 
 ## See Also

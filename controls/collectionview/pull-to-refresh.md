@@ -12,13 +12,13 @@ tags: refreshview, .net maui, maui, collectionview, pull to refresh
 
 Some lists contain items that may change after the initial load. The _pull-to-refresh_ functionality allows the user to manually trigger an update of the list.
 
-You can achieve a pull-to-refresh functionality in Telerik .NET MAUI CollectionView by using the <a href="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/refreshview?view=net-maui-8.0" target="_blank">Microsoft .NET MAUI `RefreshView`</a>.
+You can achieve a pull-to-refresh functionality in Telerik .NET MAUI CollectionView by using the RadRefreshView. The RefreshView wraps the CollectionView and provides a refresh indicator that appears when the user pulls the list down. When the user releases the list, the RefreshView executes a command to reload the items.
 
 ## Example
 
-The following example demonstrates how to use the .NET MAUI `RefreshView` with `RadCollectionView`.
+The following example demonstrates how to use the Telerik .NET MAUI `RadRefreshView` with `RadCollectionView`.
 
-**1.** Define the `RefreshView` and `RadCollectionView` in XAML:
+**1.** Define the `RadRefreshView` and `RadCollectionView` in XAML:
 
 <snippet id='collectionview-pull-to-refresh-xaml'/>
 

@@ -9,9 +9,11 @@ slug: carousel-getting-started
 
 # Getting Started with the .NET MAUI Carousel
 
-This guide provides the information you need to start using the Telerik UI for [.NET MAUI Carousel]({% slug carousel-overview %}) by adding the control to your project.
+This guide provides the information you need to start using the Telerik UI for .NET MAUI Carousel by adding the control to your project.
 
-At the end, the Carousel displays a horizontal sequence of image items, where the highlighted item is at the center and parts of the previous and next items are visible on both sides.
+At the end, you will achieve the following result.
+
+![Telerik UI for .NET MAUI Carousel Carousel displays a horizontal sequence of image items, where the highlighted item is at the center and parts of the previous and next items are visible on both sides](images/carousel-getting-started.png)
 
 ## Prerequisites
 

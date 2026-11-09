@@ -41,7 +41,7 @@ The following example demonstrates how to start and stop a refresh with buttons 
 
 The following image shows the result:
 
-![.NET MAUI RefreshView with an IsRefreshEnabled checkbox, Start Refresh and Stop Refresh buttons, and a label that shows the current IsRefreshing value](images/refreshview-refresh-state.png)
+![.NET MAUI RefreshView with an IsRefreshEnabled checkbox, Start Refresh and Stop Refresh buttons, and a label that shows the current IsRefreshing value](images/refreshview-refresh-state.gif)
 
 > tip For a runnable example with the RefreshView Refresh State scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Configuration** category.
 

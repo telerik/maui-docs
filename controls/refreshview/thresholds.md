@@ -40,10 +40,6 @@ The following example demonstrates how to set the `IndicatorThreshold`, `Pulling
 
     <snippet id='refreshview-thresholds-onrefreshing' />
 
-The following image shows the result:
-
-![.NET MAUI RefreshView with custom thresholds where the indicator appears after a longer pull and a refresh starts only past the custom pulling threshold](images/refreshview-thresholds.png)
-
 > tip For a runnable example with the RefreshView Thresholds scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Configuration** category.
 
 ## See Also

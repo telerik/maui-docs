@@ -12,7 +12,7 @@ slug: refreshview-collectionview
 
 You can add pull-to-refresh to the [Telerik UI for .NET MAUI CollectionView]({% slug collectionview-overview %}) by wrapping the CollectionView in the RefreshView. Use this approach to let users reload a list of items, for example, customers, messages, or news entries, by pulling the list.
 
-![.NET MAUI RefreshView wrapping a CollectionView with a list of customers and a refresh indicator shown above the first item](../images/refreshview-integration-collectionview.png)
+![.NET MAUI RefreshView wrapping a CollectionView with a list of customers and a refresh indicator shown above the first item](../images/refreshview-integration-collectionview.gif)
 
 ## How the Integration Works
 

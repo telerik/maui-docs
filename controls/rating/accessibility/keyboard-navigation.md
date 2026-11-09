@@ -4,6 +4,7 @@ meta_title: .NET MAUI Rating Documentation - Keyboard Support
 description: Learn more about the available keyboard combinations as part of the supported Telerik UI for .NET MAUI Rating accessibility standards.
 components: ["rating"]
 position: 1
+tag: new
 slug: rating-keyboard-support
 ---
 

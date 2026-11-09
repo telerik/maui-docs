@@ -45,4 +45,7 @@ The following example sets the `Orientation` of the Carousel to `Vertical`.
 ## See Also
 
 - [Item Size and Spacing]({% slug carousel-item-size-and-spacing %})
-- [Snap Mode]({% slug carousel-snap-mode %})
+- [Item Effects]({% slug carousel-item-effects %})
+- [Commands]({% slug carousel-commands %})
+- [Events]({% slug carousel-events %})
+- [Styling]({% slug carousel-styling %})

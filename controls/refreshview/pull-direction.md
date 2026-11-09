@@ -23,6 +23,8 @@ To set the pull direction, use the `PullDirection` property of type `Telerik.Mau
 
 > note The `LeftToRight` and `RightToLeft` values describe physical directions. The `FlowDirection` of the layout doesn't reverse them.
 
+
+
 ## Change the Pull Direction
 
 The following example demonstrates how to change the `PullDirection` of the RefreshView.
