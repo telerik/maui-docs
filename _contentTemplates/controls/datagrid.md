@@ -13,10 +13,6 @@ When entering the data grid edit mode, the keyboard navigation is different from
 #end
 
 #datagrid-pull-to-refresh
-You can add pull-to-refresh to the [Telerik UI for .NET MAUI DataGrid]({% slug datagrid-overview %}) by wrapping the DataGrid in the Telerik UI for .NET MAUI RefreshView. Use this approach to let users reload tabular data, for example, orders or customer records from a server, by pulling the grid.
-
-![.NET MAUI RefreshView wrapping a DataGrid with customer columns and a refresh indicator shown above the column headers](../images/refreshview-integration-datagrid.gif)
-
 ## How the Integration Works
 
 Wrap the `RadDataGrid` in the `RadRefreshView` as its content. When the user pulls the grid past the pulling threshold and releases it, the RefreshView starts a refresh and executes its `Command`.
