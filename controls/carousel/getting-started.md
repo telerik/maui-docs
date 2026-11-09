@@ -17,11 +17,9 @@ At the end, the Carousel displays a horizontal sequence of image items, where th
 
 Before adding the Carousel, complete the following steps:
 
-1. [Set up your .NET MAUI application]({% slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-quick-start %}#prerequisites).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
-
-1. [Install Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
+1. [Set Up Telerik Development Environment]({%slug maui-quick-start %}#set-up-telerik-development-environment)
 
 ## Define the Carousel
 
@@ -47,14 +45,6 @@ To display the Carousel on a page, complete the following steps:
     ```XAML
     xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
     ```
-
-1. Add the business object:
-
-    <snippet id='carousel-item-model' />
-
-1. Define the `ViewModel`:
-
-    <snippet id='carousel-viewmodel' />
 
 1. Register the Telerik controls through the `Telerik.Maui.Controls.Compatibility.UseTelerik` extension method called inside the `CreateMauiApp` method of the `MauiProgram.cs` file of your project:
 

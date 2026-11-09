@@ -181,6 +181,11 @@ meta:
     position: 6
   controls/richtexteditor:
     title: RichTextEditor
+  controls/refreshview/integration:
+    title: "Integration"
+    position: 5
+  controls/refreshview:
+    title: RefreshView
   controls/rating:
     title: Rating
   controls/rangeslider/styling:
@@ -441,6 +446,8 @@ meta:
     position: 3
   controls/chart:
     title: Chart
+  controls/carousel:
+    title: Carousel
   controls/calendar/styling:
     title: Styling
     position: 15
