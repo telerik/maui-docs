@@ -19,11 +19,9 @@ At the end, you will be able to achieve the following result.
 
 Before adding the RefreshView, complete the following steps:
 
-1. [Set up your .NET MAUI application]({% slug maui-getting-started %}#step-1-set-up-your-net-maui-application).
+1. [Set up your .NET MAUI application]({%slug maui-quick-start %}#prerequisites).
 
-1. [Download Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-2-download-telerik-ui-for-net-maui).
-
-1. [Install Telerik UI for .NET MAUI]({% slug maui-getting-started %}#step-3-install-telerik-ui-for-net-maui).
+1. [Set Up Telerik Development Environment]({%slug maui-quick-start %}#set-up-telerik-development-environment)
 
 ## Define the Control
 
