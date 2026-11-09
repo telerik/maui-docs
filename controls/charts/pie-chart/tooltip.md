@@ -1,7 +1,7 @@
 ---
 title: Tooltip
 page_title: .NET MAUI PieChart Documentation - Tooltip
-description: Learn how to display and customize tooltips for the slices of the Telerik UI for .NET MAUI PieChart PieSeries and DonutSeries by using the ChartTooltipBehavior.
+description: Learn how to display and customize PieSeries and DonutSeries tooltips with ChartTooltipBehavior in Telerik UI for .NET MAUI PieChart.
 components: ["charts"]
 tags: charts, pie chart, donut, tooltip, chart tooltip behavior, .net maui, ui for .net maui
 position: 3
@@ -52,6 +52,10 @@ private void OnTooltipOpening(object sender, ChartTooltipOpeningEventArgs e)
     string formattedPercentage = percentage.ToString("0", CultureInfo.InvariantCulture);
     e.AdditionalData = new PieDonutTooltipInfo($"{sign}{formattedPercentage}% vs target");
 }
+
+public sealed record PieDonutTooltipPoint(string Category, double Value, double Target, string Region, int Units);
+
+public sealed record PieDonutTooltipInfo(string VsTarget);
 ```
 
 ## Styling the Tooltip

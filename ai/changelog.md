@@ -12,9 +12,7 @@ components: ["general"]
 
 Learn about the latest changes, improvements and bug fixes in the Telerik UI for .NET MAUI Agentic UI Generator. The updates are structured in a chronological order with the newest ones appearing first.
 
-> [Microsoft sunset GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps) on November 10, 2025, in favor of the Model Context Protocol (MCP) standard.
-
-## November , 2026 Changelog
+## November, 2026 Changelog
 
 ### Highlights
 
@@ -74,6 +72,8 @@ component.
 - **DataForm**&mdash;Expanded snippet coverage for all built-in editors and their APIs.
 - **Skeleton**&mdash;Added API information and snippets for the newly introduced RadSkeleton component.
 - **Scheduler**&mdash;Enhanced with API information and snippets for the new AgendaViewDefinition, along with additional methods and properties.
+
+> [Microsoft sunset GitHub Copilot extensions](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps) on November 10, 2025, in favor of the Model Context Protocol (MCP) standard.
 
 ## See Also
 

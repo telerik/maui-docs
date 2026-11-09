@@ -1,7 +1,7 @@
 ---
 title: Tooltip
 page_title: .NET MAUI CartesianChart Documentation - Tooltip
-description: Learn how to display and customize tooltips for the data points of the Telerik UI for .NET MAUI CartesianChart series by using the ChartTooltipBehavior.
+description: Learn how to display and customize data point tooltips with ChartTooltipBehavior in Telerik UI for .NET MAUI CartesianChart series.
 components: ["charts"]
 tags: charts, cartesian chart, tooltip, chart tooltip behavior, .net maui, ui for .net maui
 position: 10
@@ -60,6 +60,21 @@ private void OnTooltipOpening(object sender, ChartTooltipOpeningEventArgs e)
     string formattedPercentage = percentage.ToString("0", CultureInfo.InvariantCulture);
     e.AdditionalData = new CartesianTooltipInfo($"{sign}{formattedPercentage}% vs target");
 }
+
+
+public sealed record CartesianTooltipPoint(
+    string Category,
+    DateTime Date,
+    double Value,
+    double Target,
+    double Open,
+    double High,
+    double Low,
+    double Close,
+    string Region,
+    int Units);
+
+public sealed record CartesianTooltipInfo(string VsTarget);
 ```
 
 

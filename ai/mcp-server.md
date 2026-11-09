@@ -11,7 +11,7 @@ components: ["general"]
 
 # Getting Started with the Telerik UI for .NET MAUI Agentic UI Generator
 
-The Agentic UI Generator is an intelligent development tool delivered through the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP) that enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik_ui_generator`) together with the available specialized MCP assistants.
+The Agentic UI Generator is an intelligent development tool delivered through the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP) that enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik-maui-assistant`) together with the available specialized MCP assistants.
 
 >tip
 > The Telerik UI for .NET MAUI MCP server works in **Chat** (**Ask**) and **Agent** modes.
