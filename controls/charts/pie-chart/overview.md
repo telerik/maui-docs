@@ -23,7 +23,7 @@ The PieChart plots data through the following series:
 
 ## Key Features
 
-* [Data Point Labels]({% slug charts-pie-data-point-labels %})&mdash;Show labels for the data points of a series.
+* [Data Point Labels]({% slug charts-pie-series %}#labels-settings)&mdash;Show labels for the data points of a series.
 * [Tooltip]({% slug charts-pie-tooltip %})&mdash;Show tooltip for the data points of a series.
 
 ## Next Steps

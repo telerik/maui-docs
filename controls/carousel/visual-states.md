@@ -3,7 +3,7 @@ title: Visual States
 page_title: .NET MAUI Carousel Documentation - Visual States
 description: Learn how to use the visual states of the Telerik UI for .NET MAUI Carousel item container to change its appearance based on its state.
 components: ["carousel"]
-position: 11
+position: 12
 slug: carousel-visual-states
 tags: style, visual states, item, carousel, maui, dotnet maui
 ---
