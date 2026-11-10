@@ -13,7 +13,7 @@ components: ["general"]
 
 The Telerik UI for .NET MAUI Component Skills are a set of agent skills that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui). Each agent skill contains AI-ready instructions and reference materials for a specific control or development scenario.
 
-The public [telerik/maui-component-skills](https://github.com/telerik/maui-component-skills) GitHub repository hosts the skills. The collection includes 70 skills that cover more than 70 Telerik UI for .NET MAUI controls and development scenarios.
+The public [telerik/maui-component-skills](https://github.com/telerik/maui-component-skills) GitHub repository hosts the skills.
 
 ## Why Use the Skills
 
@@ -131,22 +131,9 @@ The following prompts demonstrate common scenarios that the skills support:
 
 ## Available Skills
 
-The skills cover the following areas:
+The Component Skills cover the Telerik UI for .NET MAUI controls and the common development scenarios, such as getting started, theming, localization, font icons, and migration from Xamarin.Forms.
 
-| Area | Skills |
-|---|---|
-| Foundation | Getting Started, Theming, Localization, Font Icons, Xamarin Migration |
-| Data Controls | CollectionView, DataForm, DataGrid, DataPager, ItemsControl, TreeDataGrid |
-| Data Visualization | Barcode, Charts, Chart (legacy), Gauge, Map, ProgressBar, Rating |
-| Chatbots | Chat (Conversational UI) |
-| Editors | AutoComplete, CircularSlider, ComboBox, DatePicker, DateTimePicker, Editor, Entry, ImageEditor, ListPicker, MaskedEntry, NumericInput, RangeSlider, RichTextEditor, SignaturePad, Slider, TemplatedPicker, TimePicker, TimeSpanPicker |
-| Navigation and Layouts | Accordion, BottomSheet, Carousel, DockLayout, Expander, NavigationView, SideDrawer, SlideView, TabView, TreeView, WrapLayout |
-| Calendar and Scheduling | Calendar, Scheduler |
-| Buttons | Button, CheckBox, DropDownButton, SegmentedControl, SmartPasteButton, SpeechToTextButton, TemplatedButton, ToggleButton |
-| Interactivity and UX | AIPrompt, BadgeView, Border, BusyIndicator, GridSplitter, Path, Popup, PromptInput, RefreshView, Skeleton, Toolbar |
-| PDF Viewer | PdfViewer |
-
-For the full list with links to each skill, see the [Skill Index](https://github.com/telerik/maui-component-skills#skill-index) in the repository.
+For the current list of skills with links to each skill, see the [Skill Index](https://github.com/telerik/maui-component-skills#skill-index) in the repository.
 
 >tip If you are setting up a new project, start with the Getting Started skill.
 
