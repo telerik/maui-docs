@@ -29,5 +29,7 @@ The table below lists the available keyboard combinations and their correspondin
 
 ## See Also
 
-- [Configuring the .NET MAUI Carousel]({%slug carousel-configuration%})
-- [Customizing Carousel Item Templates]({%slug carousel-templated-carousel%})
+- [Items Effect]({%slug carousel-items-effect%})
+- [Events]({%slug carousel-events%})
+- [Styling]({%slug carousel-styling%})
+- [Commands]({%slug carousel-commands%})
