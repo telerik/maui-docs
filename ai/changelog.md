@@ -19,7 +19,7 @@ Learn about the latest changes, improvements and bug fixes in the Telerik UI for
 - **Agentic UI Generator**&mdash;The Telerik UI for .NET MAUI AI Coding Assistant is renamed to Telerik UI for .NET MAUI Agentic UI Generator to align with the naming across the Telerik and Kendo UI component products. The MCP server package, server name, and tool name remain unchanged.
 - **Upgrade Assistant**&mdash;Added `telerik_upgrade_assistant` to Agentic UI Generator. It provides step-by-step guidance for version upgrades and helps resolve breaking changes.
 - **Carousel**&mdash;Introduced API documentation and code snippets for the new Carousel component.
-- **Charts**&mdash;Added API documentation and code snippets for tooltips, stacked series, annotations (plot band and grid line annotations), grid lines, tooltips, stacked series, the new financial series (Candlestick and OHLC),
+- **Charts**&mdash;Added API documentation for tooltips, stacked series, plot band and grid line annotations, grid lines, and the new financial series (Candlestick and OHLC).
 - **RefreshView**&mdash;Introduced API documentation and code snippets for the new RefreshView component.
 
 ## August, 2026 Changelog
@@ -27,7 +27,7 @@ Learn about the latest changes, improvements and bug fixes in the Telerik UI for
 ### Highlights
 
 - **AutoComplete**&mdash;Added API documentation and a code snippet for `SuggestionViewWidth`.
-- **Charts**&mdash;Added API documentation and code snippets for axis-related scenarios, including `CategoricalAxis`, `DateTimeContinuousAxis`, and `NumericalAxis` with examples for `GapLength`, `MajorTickInterval`, `MajorStep`, `MajorStepUnit`, `PlotMode`, `Minimum`, `Maximum`, `RangeExtendDirection`, and `IsDefaultValue`.
+- **Chart (Compat)**&mdash;Added API documentation and code snippets for axis-related scenarios, including `CategoricalAxis`, `DateTimeContinuousAxis`, and `NumericalAxis` with examples for `GapLength`, `MajorTickInterval`, `MajorStep`, `MajorStepUnit`, `PlotMode`, `Minimum`, `Maximum`, `RangeExtendDirection`, and `IsDefaultValue`.
 - **Chat**&mdash;Added API documentation and a code snippet for `SendButtonStyle`.
 - **CircularSlider**&mdash;Introduced documentation support for the new `RadCircularSlider` control, with broad API and snippet coverage across `RadCircularSlider`, `RadSlider`, and `RadSliderBase`, including styling, templates, selectors, ticks, labels, range/track configuration, and value interaction scenarios.
 - **DataGrid**&mdash;Expanded API documentation and snippet coverage for AI search capabilities through `DataGridAISettings` (`SearchMode`, `ViewMode`, `Placeholder`, `SearchDebounceDelay`, `RecentTextSearches`, `RecentSemanticSearches`, `SearchViewStyle`, `SegmentedControlStyle`, and visibility toggles), and added examples for `SemanticSearchSettings`, `ContentPaintCompleted`, and `ShowColumnHeaders`.
