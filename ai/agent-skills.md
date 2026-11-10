@@ -1,9 +1,9 @@
 ---
 title: Agent Skills
-meta_title: Agent Skills for AI Coding Assistants - Telerik UI for .NET MAUI
-description: Learn how to install and use the Telerik UI for .NET MAUI Agent Skills to improve AI-generated code for Telerik controls.
+meta_title: Agent Skills for Telerik UI for .NET MAUI | Setup and Usage
+description: Install Telerik UI for .NET MAUI Agent Skills and use compatible AI coding assistants to build with Telerik controls.
 slug: ai-agent-skills
-tags: telerik,maui,dotnetmaui,ai,coding assistant,skills,agent skills
+tags: telerik,maui,dotnetmaui,ai,agent skills,coding assistant
 position: 2
 tag: new
 components: ["general"]
@@ -11,7 +11,7 @@ components: ["general"]
 
 # Telerik UI for .NET MAUI Agent Skills
 
-The Telerik UI for .NET MAUI Agent Skills are a set of skills that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui). Each skill contains AI-ready instructions and reference materials for a specific control or development scenario.
+Telerik UI for .NET MAUI Agent Skills give compatible AI coding assistants component-specific instructions and reference material. Use them to help an assistant generate code with Telerik APIs and follow recommended implementation patterns in your .NET MAUI project.
 
 The public [telerik/maui-agent-skills](https://github.com/telerik/maui-agent-skills) GitHub repository hosts the skills.
 
