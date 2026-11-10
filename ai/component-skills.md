@@ -3,7 +3,7 @@ title: Component Skills
 meta_title: Component Skills for AI Coding Assistants - Telerik UI for .NET MAUI
 description: Learn how to install and use the Telerik UI for .NET MAUI Component Skills to improve AI-generated code for Telerik controls.
 slug: ai-component-skills
-tags: telerik,maui,dotnetmaui,ai,coding assistant,skills,component skills
+tags: telerik,maui,dotnetmaui,ai,coding assistant,skills,component skills,agent skills
 position: 2
 tag: new
 components: ["general"]
@@ -11,7 +11,7 @@ components: ["general"]
 
 # Telerik UI for .NET MAUI Component Skills
 
-The Telerik UI for .NET MAUI Component Skills are a set of AI-ready instructions and reference materials that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui).
+The Telerik UI for .NET MAUI Component Skills are a set of agent skills that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui). Each agent skill contains AI-ready instructions and reference materials for a specific control or development scenario.
 
 The public [telerik/maui-component-skills](https://github.com/telerik/maui-component-skills) GitHub repository hosts the skills. The collection includes 70 skills that cover more than 70 Telerik UI for .NET MAUI controls and development scenarios.
 
@@ -41,7 +41,7 @@ You can use the skills on their own or together with the MCP Server.
 
 To use the Telerik UI for .NET MAUI Component Skills, you need:
 
-* An AI coding assistant that supports skills or compatible context mechanisms, for example, GitHub Copilot, Cursor, or Claude Code.
+* An AI coding assistant that supports agent skills or compatible context mechanisms, for example, GitHub Copilot, Cursor, or Claude Code.
 * [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or [.NET 11 SDK](https://dotnet.microsoft.com/download/dotnet/11.0).
 * A Telerik UI for .NET MAUI license. You can start a [free trial](https://www.telerik.com/try/ui-for-maui). For more details, see [Set Up Your Telerik License]({%slug set-up-your-license%}).
 * [Node.js](https://nodejs.org/en) if you install the skills with `npx`.
