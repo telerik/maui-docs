@@ -4,7 +4,8 @@ meta_title: .NET MAUI DataGrid Documentation - Refresh Data
 description: Learn how to add pull-to-refresh to the Telerik UI for .NET MAUI DataGrid by wrapping it in the RefreshView and binding a refresh command.
 components: ["datagrid"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, datagrid, microsoft .net maui
-position: 1
+position: 20
+tag: new
 slug: datagrid-pull-to-refresh
 ---
 
