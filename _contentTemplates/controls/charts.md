@@ -35,3 +35,13 @@ Use the `TooltipStyle` property of the `ChartTooltipBehavior` to apply a `Style`
 * `ContentPadding` (`Thickness`)&mdash;Defines the padding of the tooltip content.
 #end
 
+#chart-cartesian-combine-mode
+## Combine Mode
+
+The `CombineMode` (`enum` of type `Telerik.Maui.Controls.Charts.ChartLineAreaCombineMode`) property defines how the values of the series are combined with the values of sibling series from the same line or area family that share the same axes and category slot. The available options are:
+
+* `None` (default)&mdash;Plots each series independently.
+* `Stack`&mdash;Stacks the values of the series on top of the values of the previous series, so that each data point represents the summed value.
+* `Stack100`&mdash;Stacks the values of the series and normalizes the stack to 100 percent, so that each data point represents its percentage of the category total.
+#end
+

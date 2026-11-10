@@ -38,6 +38,8 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the area.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+@[template](/_contentTemplates/controls/charts.md#chart-cartesian-combine-mode)
+
 ## Scatter Area
 
 When plotting the `AreaSeries` against two `NumericalAxis` instances and bind `HorizontalBinding` to a numeric member, the series works as a scatter area series. For more information, see [Scatter Series]({% slug charts-cartesian-scatter-series %}).

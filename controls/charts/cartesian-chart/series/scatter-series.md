@@ -42,6 +42,8 @@ Use the following properties to configure the labels visualized for each data po
 * `LabelOffset` (`Size`)&mdash;Defines the offset of the labels from the line or area.
 * `LabelStyle` (`Style` with target type `ChartLabelAppearance`)&mdash;Defines the style of the axis labels.
 
+@[template](/_contentTemplates/controls/charts.md#chart-cartesian-combine-mode)
+
 ## Example
 
 The following example shows how to plot a `PointSeries` and a `LineSeries` as scatter series against two numerical axes.

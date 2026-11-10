@@ -1,5 +1,5 @@
 ---
-title: Getting Started with the .NET MAUI RefreshView
+title: Getting Started
 meta_title: .NET MAUI RefreshView Documentation - Getting Started
 description: Learn how to add the Telerik UI for .NET MAUI RefreshView to your project, register the Telerik controls, and handle your first refresh.
 components: ["refreshview"]

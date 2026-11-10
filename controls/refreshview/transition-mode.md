@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Transition Mode
 description: Learn how to set the transition mode of the Telerik UI for .NET MAUI RefreshView to push, slide over, or reveal the indicator while pulling.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 3
+position: 5
 slug: refreshview-transition-mode
 ---
 

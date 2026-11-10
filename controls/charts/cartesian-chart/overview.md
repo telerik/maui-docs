@@ -12,7 +12,7 @@ slug: charts-cartesian-overview
 
 The Telerik UI for .NET MAUI Cartesian Chart (`RadCartesianChart`) visualizes data in a Cartesian coordinate system. The horizontal and vertical axes define how the coordinates of each data point in the plot area are calculated, and the series type defines how these data points are rendered.
 
-![Telerik UI for .NET MAUI CartesianChart overview showing bar, line, and area series across monthly categories](images/charts-cartesian-overview.png)
+![Telerik UI for .NET MAUI CartesianChart overview showing bar, line, and area series across monthly categories](images/chart-cartesian-overview.png)
 
 ## Series
 
@@ -48,7 +48,9 @@ You can use the following axes to position the data points in a CartesianChart.
 * [Palette]({% slug charts-cartesian-palette %})&mdash;Control the colors applied to the series.
 * [Plot Areas]({% slug charts-cartesian-plot-areas %})&mdash;Split the chart into separate plot areas.
 * Stacked Bar Series&mdash;Stack the bars of a `BarSeries` on top of each other by using the [`CombineMode`]({% slug charts-cartesian-bar-series %}#combine-mode) property.
+* Stacked Line, Spline and Area Series&mdash;Stack the lines, spline and areas of a `LineSeries`, `SplineSeries` or `AreaSeries` on top of each other by using the [`CombineMode`]({% slug charts-cartesian-line-series %}#combine-mode) property.
 * Null Values&mdash;Handle [null values]({% slug charts-cartesian-null-values %}) in the series.
+* [Tooltip]({% slug charts-cartesian-tooltip %})&mdash;Show tooltip for the data points of a series.
 
 ## Next Steps
 

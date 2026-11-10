@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Pull Direction
 description: Learn how to set the pull direction of the Telerik UI for .NET MAUI RefreshView to start a refresh from the top, bottom, left, or right edge.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 2
+position: 4
 slug: refreshview-pull-direction
 ---
 

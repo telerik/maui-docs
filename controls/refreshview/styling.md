@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Styling
 description: Learn how to customize the color, size, and shadow of the Circular, Spinner, and Arrow indicators of the Telerik UI for .NET MAUI RefreshView.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 9
+position: 20
 slug: refreshview-styling
 ---
 

@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Indicator Type
 description: Learn how to choose the Circular, Spinner, or Arrow built-in refresh indicator of the Telerik UI for .NET MAUI RefreshView control.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 1
+position: 3
 slug: refreshview-indicator-type
 ---
 

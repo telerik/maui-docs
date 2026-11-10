@@ -3,7 +3,7 @@ title: Commands
 meta_title: .NET MAUI RefreshView Documentation - Commands
 description: Learn how to execute a view model command when a refresh starts in the Telerik UI for .NET MAUI RefreshView and control when users can refresh.
 components: ["refreshview"]
-position: 7
+position: 12
 slug: refreshview-commands
 ---
 
