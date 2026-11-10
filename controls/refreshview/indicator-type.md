@@ -52,10 +52,6 @@ The following example demonstrates how to set the `IndicatorType` property of th
 
     <snippet id='refreshview-indicator-type-onrefreshing' />
 
-The following image shows the result:
-
-![.NET MAUI RefreshView showing the Circular, Spinner, and Arrow built-in indicators at the top edge of the content while it refreshes](images/refreshview-indicator-type.png)
-
 > tip For a runnable example with the RefreshView Indicator Type scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Configuration** category.
 
 ## See Also
