@@ -1,19 +1,19 @@
 ---
-title: Component Skills
-meta_title: Component Skills for AI Coding Assistants - Telerik UI for .NET MAUI
-description: Learn how to install and use the Telerik UI for .NET MAUI Component Skills to improve AI-generated code for Telerik controls.
-slug: ai-component-skills
-tags: telerik,maui,dotnetmaui,ai,coding assistant,skills,component skills,agent skills
+title: Agent Skills
+meta_title: Agent Skills for AI Coding Assistants - Telerik UI for .NET MAUI
+description: Learn how to install and use the Telerik UI for .NET MAUI Agent Skills to improve AI-generated code for Telerik controls.
+slug: ai-agent-skills
+tags: telerik,maui,dotnetmaui,ai,coding assistant,skills,agent skills
 position: 2
 tag: new
 components: ["general"]
 ---
 
-# Telerik UI for .NET MAUI Component Skills
+# Telerik UI for .NET MAUI Agent Skills
 
-The Telerik UI for .NET MAUI Component Skills are a set of agent skills that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui). Each agent skill contains AI-ready instructions and reference materials for a specific control or development scenario.
+The Telerik UI for .NET MAUI Agent Skills are a set of skills that help AI coding assistants generate more accurate code with the [Telerik UI for .NET MAUI controls](https://www.telerik.com/maui-ui). Each skill contains AI-ready instructions and reference materials for a specific control or development scenario.
 
-The public [telerik/maui-component-skills](https://github.com/telerik/maui-component-skills) GitHub repository hosts the skills.
+The public [telerik/maui-agent-skills](https://github.com/telerik/maui-agent-skills) GitHub repository hosts the skills.
 
 ## Why Use the Skills
 
@@ -27,9 +27,9 @@ AI models have general knowledge about .NET MAUI, but they may not know the late
 
 ## Compare the Skills and the MCP Server
 
-The Component Skills and the [Telerik MAUI Model Context Protocol (MCP) Server]({%slug ai-mcp-server%}) are complementary. The following table compares the two tools:
+The Agent Skills and the [Telerik MAUI Model Context Protocol (MCP) Server]({%slug ai-mcp-server%}) are complementary. The following table compares the two tools:
 
-| Aspect | Component Skills | MCP Server |
+| Aspect | Agent Skills | MCP Server |
 |---|---|---|
 | Delivery | Markdown files added to your project or AI assistant | Server process that your MCP client runs |
 | How the assistant uses them | The assistant loads the relevant skill based on your prompt | The assistant calls the server tool during a chat or agent session |
@@ -39,7 +39,7 @@ You can use the skills on their own or together with the MCP Server.
 
 ## Prerequisites
 
-To use the Telerik UI for .NET MAUI Component Skills, you need:
+To use the Telerik UI for .NET MAUI Agent Skills, you need:
 
 * An AI coding assistant that supports agent skills or compatible context mechanisms, for example, GitHub Copilot, Cursor, or Claude Code.
 * [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or [.NET 11 SDK](https://dotnet.microsoft.com/download/dotnet/11.0).
@@ -55,7 +55,7 @@ You can install the skills with `npx` or copy them manually from the GitHub repo
 Run the following command in your project folder:
 
 ```bash
-npx skills add https://github.com/telerik/maui-component-skills
+npx skills add https://github.com/telerik/maui-agent-skills
 ```
 
 The command adds the skills to your project so that your AI coding assistant can discover them.
@@ -65,7 +65,7 @@ The command adds the skills to your project so that your AI coding assistant can
 As an alternative, clone the repository:
 
 ```bash
-git clone https://github.com/telerik/maui-component-skills.git
+git clone https://github.com/telerik/maui-agent-skills.git
 ```
 
 Then make the content of the `skills` folder available to your project according to the requirements of your AI coding assistant.
@@ -131,9 +131,9 @@ The following prompts demonstrate common scenarios that the skills support:
 
 ## Available Skills
 
-The Component Skills cover the Telerik UI for .NET MAUI controls and the common development scenarios, such as getting started, theming, localization, font icons, and migration from Xamarin.Forms.
+The Agent Skills cover the Telerik UI for .NET MAUI controls and the common development scenarios, such as getting started, theming, localization, font icons, and migration from Xamarin.Forms.
 
-For the current list of skills with links to each skill, see the [Skill Index](https://github.com/telerik/maui-component-skills#skill-index) in the repository.
+For the current list of skills with links to each skill, see the [Skill Index](https://github.com/telerik/maui-agent-skills#skill-index) in the repository.
 
 >tip If you are setting up a new project, start with the Getting Started skill.
 
@@ -143,7 +143,7 @@ The Telerik UI for .NET MAUI team maintains the skills and updates them as the p
 
 ## Report Issues with the Skills
 
-If a skill produces outdated, incomplete, or incorrect guidance, [open an issue](https://github.com/telerik/maui-component-skills/issues) in the repository and include:
+If a skill produces outdated, incomplete, or incorrect guidance, [open an issue](https://github.com/telerik/maui-agent-skills/issues) in the repository and include:
 
 * The prompt you used.
 * The generated result or relevant code.
@@ -156,4 +156,4 @@ If a skill produces outdated, incomplete, or incorrect guidance, [open an issue]
 * [Agentic UI Generator Overview]({%slug ai-overview%})
 * [Getting Started with the Telerik MAUI MCP Server]({%slug ai-mcp-server%})
 * [Prompt Library]({%slug ai-prompt-library%})
-* [Telerik UI for .NET MAUI Component Skills on GitHub](https://github.com/telerik/maui-component-skills)
+* [Telerik UI for .NET MAUI Agent Skills on GitHub](https://github.com/telerik/maui-agent-skills)

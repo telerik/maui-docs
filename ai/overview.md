@@ -109,5 +109,5 @@ Data Storage:
 ## Next Steps
 
 * Configure the [Telerik MAUI MCP Server]({%slug ai-mcp-server%}) with an MCP-enabled client
-* Add the [Telerik UI for .NET MAUI Component Skills]({%slug ai-component-skills%}) to your project
+* Add the [Telerik UI for .NET MAUI Agent Skills]({%slug ai-agent-skills%}) to your project
 * Review the [Prompt Library]({%slug ai-prompt-library%})
