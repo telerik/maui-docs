@@ -29,7 +29,7 @@ The table below lists the available keyboard combinations and their correspondin
 
 ## See Also
 
-- [Items Effect]({%slug carousel-items-effect%})
+- [Items Effect]({%slug carousel-item-effects%})
 - [Events]({%slug carousel-events%})
 - [Styling]({%slug carousel-styling%})
 - [Commands]({%slug carousel-commands%})

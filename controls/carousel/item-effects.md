@@ -30,6 +30,8 @@ Each `CarouselItemEffect` exposes the following properties:
 * `Scale` (`double`)&mdash;Specifies the item scale, between `0` and `1`. The default value is `1`.
 * `Opacity` (`double`)&mdash;Specifies the item opacity, between `0` and `1`. The default value is `1`.
 
+>tip When you change the default values of the `CarouselItemEffectSettings`, configure the `Pressed` visual state as well. This prevents a sudden change in the item's appearance when the user presses it. For more information, see the [Carousel Visual States]({%slug carousel-visual-states%}) article.
+
 ## Apply Custom Scale and Opacity Effects
 
 The following example sets a different scale and opacity for each item position.

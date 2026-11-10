@@ -15,8 +15,8 @@ The Carousel item size depends on the part of the viewport left for the neighbor
 
 To configure the size of the items and the space between them, use the following properties:
 
-* `PeekAreaRatio` (`double`)&mdash;Specifies the portion of the viewport left for the neighboring items on both sides of the highlighted item. Valid values range from `0.0` to `0.9`. At `0.0`, the highlighted item fills the viewport. At `0.9`, the highlighted item takes 10% of the viewport. The default value is `0.4`.
-* `ItemSpacing` (`double`)&mdash;Specifies the spacing between adjacent items in device-independent units. The value must be finite and nonnegative. The default value is `16`.
+* `PeekAreaRatio` (`double`)&mdash;Specifies the portion of the viewport left for the neighboring items on both sides of the highlighted item. Valid values range from `0.0` to `0.9`. At `0.0`, the highlighted item fills the viewport. At `0.9`, the highlighted item takes 10% of the viewport. The default value on iOS and Android is `0.4`, on WinUI and MacCatalyst is `0.75`.
+* `ItemSpacing` (`double`)&mdash;Specifies the spacing between adjacent items in device-independent units. The value must be finite and nonnegative. The default value on iOS and Android is `16`, on WinUI and MacCatalyst is `24`.
 
 When `PeekAreaRatio` is `0`, the Carousel ignores `ItemSpacing`. When [item effects]({% slug carousel-item-effects %}) are enabled, the Carousel keeps the spacing between the scaled items.
 
