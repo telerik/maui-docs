@@ -183,9 +183,12 @@ meta:
     title: RichTextEditor
   controls/refreshview/integration:
     title: "Integration"
-    position: 5
+    position: 8
   controls/refreshview:
     title: RefreshView
+  controls/rating/accessibility:
+    title: Accessibility
+    position: 10
   controls/rating:
     title: Rating
   controls/rangeslider/styling:

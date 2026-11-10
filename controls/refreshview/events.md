@@ -3,7 +3,7 @@ title: Events
 meta_title: .NET MAUI RefreshView Documentation - Events
 description: Learn how to handle the Pulling, Refreshing, and Refreshed events of the Telerik UI for .NET MAUI RefreshView to respond to pull gestures.
 components: ["refreshview"]
-position: 8
+position: 10
 slug: refreshview-events
 ---
 

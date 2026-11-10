@@ -32,6 +32,22 @@ Use the following properties to customize the appearance of the donut series:
 
 > The PieChart allows you to nest multiple donut series. In this scenario, the `RadiusWeight` property needs to be set.
 
+
+## Labels Settings
+
+Use the following properties to customize the appearance of the labels in the pie series:
+
+* `LabelOffsetFraction` (`double`)&mdash;Defines the position of the labels relative to the radius of the series.
+* `ShowLabels` (`bool`)&mdash;Defines a value indicating whether the labels are visible.
+* `LabelStyle` (`ChartDataPointLabelStyle`)&mdash;Defines the style of the labels.
+
+## Donut Settings
+
+Use the following properties to customize the appearance of the donut series:
+
+* `Stroke` (`Brush`)&mdash;Defines the brush of the stroke of the slices.
+* `StrokeThickness` (`double`)&mdash;Defines the thickness of the stroke of the slices.
+
 ## Example
 
 1. Define the donut series in XAML:

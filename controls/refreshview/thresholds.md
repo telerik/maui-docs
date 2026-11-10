@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Thresholds
 description: Learn how to set the pull distances at which the indicator appears and a refresh starts in the Telerik UI for .NET MAUI RefreshView control.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 4
+position: 6
 slug: refreshview-thresholds
 ---
 
