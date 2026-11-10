@@ -22,6 +22,12 @@ To style the item containers, use the following properties of the `RadCarousel`:
 
 The `RadCarouselItemView` supports visual states in the `CommonStates` visual state group, such as `Normal`, `Highlighted`, `Previous`, `Next`, and their `MouseOver` and `Pressed` variants. For the full list, see the [Carousel Visual States]({%slug carousel-visual-states%}) article.
 
+In addition, the `RadCarouselItemView` exposes the following read-only properties that indicate the current state of the item container:
+
+* `IsHighlighted` (`bool`)&mdash;Indicates whether the item is the highlighted item of the Carousel.
+* `IsPressed` (`bool`)&mdash;Indicates whether the user is currently pressing the item.
+* `IsMouseOver` (`bool`)&mdash;Indicates whether the mouse pointer is over the item.
+
 ## Apply a Custom Item View Style
 
 The following example sets rounded borders and a custom background to all item containers and changes the colors of the highlighted item.
