@@ -3,7 +3,7 @@ title: Styling
 meta_title: .NET MAUI Carousel Documentation - Styling
 description: Learn how to style the item containers of the Telerik UI for .NET MAUI Carousel with a style, a style selector, and visual states.
 tags: .net maui, telerik .net maui, ui for .net maui, carousel, styling
-position: 10
+position: 11
 slug: carousel-styling
 ---
 

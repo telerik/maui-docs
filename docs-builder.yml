@@ -449,6 +449,9 @@ meta:
     position: 3
   controls/chart:
     title: Chart
+  controls/carousel/accessibility:
+    title: Accessibility
+    position: 10
   controls/carousel:
     title: Carousel
   controls/calendar/styling:
