@@ -107,8 +107,9 @@ The MAUI DataGrid allows you to add [commands]({%slug datagrid-commands-overview
 
 ## Data Refresh and Busy State
 
-The DataGrid also exposes APIs that help you control how data changes are processed:
+The DataGrid allows you to refresh its data and exposes APIs that help you control how data changes are processed:
 
+* Refresh the data by using the [RadRefreshView]({%slug refreshview-overview%}) control.
 * `ApplyDataOperationsOnPropertyChange` (`bool`)&mdash;Defines whether sorting, filtering, and grouping are reapplied when an item in the `ItemsSource` raises `PropertyChanged`. The default value is `True`.
 * `IsBusy` (`bool`)&mdash;Indicates whether the DataGrid is currently busy. Set this property when you want to display an application-defined loading state while data is being fetched or updated.
 

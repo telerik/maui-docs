@@ -23,6 +23,8 @@ To set the pull direction, use the `PullDirection` property of type `Telerik.Mau
 
 > note The `LeftToRight` and `RightToLeft` values describe physical directions. The `FlowDirection` of the layout doesn't reverse them.
 
+![.NET MAUI RefreshView with the refresh indicator displayed at the left edge of the content while the user pulls from left to right](images/refreshview-pull-direction.gif)
+
 ## Change the Pull Direction
 
 The following example demonstrates how to change the `PullDirection` of the RefreshView.
@@ -41,9 +43,6 @@ The following example demonstrates how to change the `PullDirection` of the Refr
 
     <snippet id='refreshview-pull-direction-onrefreshing' />
 
-The following image shows the result:
-
-![.NET MAUI RefreshView with the refresh indicator displayed at the left edge of the content while the user pulls from left to right](images/refreshview-pull-direction.png)
 
 > tip For a runnable example with the RefreshView Pull Direction scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Configuration** category.
 

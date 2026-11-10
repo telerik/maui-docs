@@ -43,7 +43,7 @@ The following example demonstrates how to show a label and a progress bar while 
 
 The following image shows the result:
 
-![.NET MAUI RefreshView with a custom pulling template that shows a Release to refresh label above a teal progress bar bound to the pull progress](images/refreshview-templates.png)
+![.NET MAUI RefreshView with a custom pulling template that shows a Release to refresh label above a teal progress bar bound to the pull progress](images/refreshview-templates.gif)
 
 > tip For a runnable example with the RefreshView Templates scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **RefreshView > Features** category.
 

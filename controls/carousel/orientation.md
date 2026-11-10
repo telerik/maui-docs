@@ -40,9 +40,16 @@ The following example sets the `Orientation` of the Carousel to `Vertical`.
 
     <snippet id='carousel-viewmodel' />
 
+This is the result:
+
+![.NET MAUI Carousel with a vertical orientation](images/carousel-orientation.gif)
+
 > tip For a runnable example with the Carousel Orientation scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Features** category.
 
 ## See Also
 
 - [Item Size and Spacing]({% slug carousel-item-size-and-spacing %})
-- [Snap Mode]({% slug carousel-snap-mode %})
+- [Item Effects]({% slug carousel-item-effects %})
+- [Commands]({% slug carousel-commands %})
+- [Events]({% slug carousel-events %})
+- [Styling]({% slug carousel-styling %})

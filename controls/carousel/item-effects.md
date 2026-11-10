@@ -54,6 +54,8 @@ The following example sets a different scale and opacity for each item position.
 
 As a result, the highlighted item is displayed at full size, the adjacent items are slightly smaller and semi-transparent, and the farther items are smaller and fainter.
 
+![.NET MAUI Carousel with custom scale and opacity effects applied to the items](images/carousel-item-effects.gif)
+
 > tip For a runnable example with the Carousel Item Effects scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Features** category.
 
 ## See Also

@@ -45,6 +45,10 @@ The following example binds two buttons to the navigation commands of the Carous
 
     <snippet id='carousel-viewmodel' />
 
+This is the result:
+
+![.NET MAUI Carousel with two buttons that navigate to the previous and next items](images/carousel-commands.gif)
+
 > tip For a runnable example demonstrating the Carousel commands, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Commands** category.
 
 ## See Also

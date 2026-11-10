@@ -44,6 +44,10 @@ The following example binds a label to the `HighlightedItem` of the Carousel to 
 
 When the user scrolls to another item, the label text updates with the title of the new highlighted item.
 
+This is the result:
+
+![.NET MAUI Carousel with a label that displays the title of the highlighted item](images/carousel-highlighted-item.gif)
+
 > tip For a runnable example with the Carousel Highlighted Item scenario, see the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and go to the **Carousel > Features** category.
 
 ## See Also

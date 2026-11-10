@@ -14,7 +14,7 @@ The Telerik UI for .NET MAUI RefreshView is a container control that adds pull-t
 
 The `RadRefreshView` wraps a single content view. When the user pulls the content past a configurable distance and releases it, the RefreshView starts a refresh. The RefreshView raises events and executes a command so that you can load fresh data, and then you end the refresh by setting `IsRefreshing` to `false`.
 
-![.NET MAUI RefreshView with a circular refresh indicator displayed above a list of customers while the content is pulled down from the top edge](images/refreshview-overview.png)
+![.NET MAUI RefreshView with a circular refresh indicator displayed above a list of customers while the content is pulled down from the top edge](images/refreshview-overview.gif)
 
 ## Key Features of the Telerik .NET MAUI RefreshView
 
