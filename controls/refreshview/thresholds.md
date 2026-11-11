@@ -18,13 +18,13 @@ To configure the pull distances and the indicator size, use the following proper
 
 * `IndicatorThreshold` (`double`)&mdash;Specifies the pull distance at which the indicator starts to appear. The default value is `0`. If the value isn't less than `PullingThreshold`, the indicator appears just before the pulling threshold is reached.
 * `PullingThreshold` (`double`)&mdash;Specifies the pull distance required to start a refresh when the user releases the gesture. The default value is `80`. The value must be greater than `0`.
-* `IndicatorLength` (`double`)&mdash;Specifies the length of the refresh indicator along the pull direction. The default value is `48`. The value must be greater than `0`.
+* `IndicatorAreaLength` (`double`)&mdash;Specifies the length of the refresh indicator along the pull direction. The default value is `48`. The value must be greater than `0`.
 
 The RefreshView also exposes the read-only `Progress` (`double`) property. `Progress` returns the normalized pull progress from `0.0` to `1.0`. The value is `1.0` while a refresh is in progress.
 
 ## Set Custom Thresholds
 
-The following example demonstrates how to set the `IndicatorThreshold`, `PullingThreshold`, and `IndicatorLength` properties of the RefreshView.
+The following example demonstrates how to set the `IndicatorThreshold`, `PullingThreshold`, and `IndicatorAreaLength` properties of the RefreshView.
 
 1. Define the RefreshView in XAML:
 
