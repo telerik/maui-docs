@@ -20,12 +20,12 @@ The following table lists the requirements to build .NET MAUI apps with Telerik 
 
 | Requirement | Minimum version |
 |---|---|
-| [.NET SDK](https://dotnet.microsoft.com/en-us/download) | 9.0 or later |
+| [.NET SDK](https://dotnet.microsoft.com/en-us/download) | 10.0 or later |
 | Operating system | Windows or macOS |
 | Telerik account | Active subscription or trial license required. |
 | IDE | Visual Studio 2022 17.12 or later, or Visual Studio Code with the .NET MAUI workloads installed. |
 
-Telerik UI for .NET MAUI supports .NET 11 (starting with version 16.0.0).
+Telerik UI for .NET MAUI supports .NET 10.0 and .NET 11.0 (starting with version 16.0.0).
 
 ## Set Up Telerik Development Environment
 

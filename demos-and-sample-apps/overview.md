@@ -83,20 +83,22 @@ If you want fast control reference material, start with the SDKBrowser App. If y
 Open the `Examples` folder from your Telerik UI for .NET MAUI installation or downloaded `.zip` package, switch to the .NET version you want to target, and then build the app locally.
 
 >important
-> Telerik UI for .NET MAUI version `12.0.0` supports `.NET 10.0`. Before you build a sample app, switch the examples to `.NET 9.0` or `.NET 10.0` so the solution matches the SDK installed on your machine.
+> Telerik UI for .NET MAUI supports `.NET 10.0` and `.NET 11.0`. 
+
+Before you build a sample app, switch the examples to `.NET 10.0` or `.NET 11.0` so the solution matches the SDK installed on your machine.
 
 Use one of the following PowerShell scripts from the `Examples` folder:
 
 ```powershell
-.\SwitchToNet9.ps1
 .\SwitchToNet10.ps1
+.\SwitchToNet11.ps1
 ```
 
 To run a sample app:
 
 1. Open the `Examples` folder from your Telerik UI for .NET MAUI installation or downloaded `.zip` package.
 2. Choose the app you want to inspect based on the scenarios in this overview.
-3. Run `SwitchToNet9.ps1` or `SwitchToNet10.ps1`, depending on the SDK version you want to use.
+3. Run `SwitchToNet10.ps1` or `SwitchToNet11.ps1`, depending on the SDK version you want to use.
 4. Open the selected solution in Visual Studio, restore the NuGet packages, choose a device or emulator, and build the project.
 
 ## Next Steps
