@@ -7,7 +7,7 @@ The following table lists the requirements to run the Telerik CLI for using Tele
 
 | Requirement | Minimum version | Notes |
 |---|---|---|
-| .NET SDK | 9.0 or later | Required to install and run .NET global tools and building .NET MAUI apps. |
+| .NET SDK | 10.0 or later | Required to install and run .NET global tools and building .NET MAUI apps. |
 | Operating system | Windows or macOS | OS supported by the .NET SDK. |
 | Telerik account | N/A | Active Subscription or Trial license required. |
 

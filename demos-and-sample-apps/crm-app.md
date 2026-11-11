@@ -48,7 +48,7 @@ Here is how the CRM application looks on Android.
 2. Run the following command to build and run the app on iOS:
 
 ```bash
-dotnet build -t:Run -f net9.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
+dotnet build -t:Run -f net10.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
 ```
 
 In this example, the device ID is `02C556DA-64B8-440B-8F06-F8C56BB7CC22`.
