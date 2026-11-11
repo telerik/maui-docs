@@ -75,6 +75,54 @@ To get machine-readable output for scripts or continuous integration (CI) pipeli
 telerik migrate analyze --product maui --project ./MyMauiApp.csproj --json
 ```
 
+## Output Formats
+
+Human-readable output is the console:
+
+```text
+Telerik version range: 14.0.0 → 15.0.0
+Files discovered: 19, analyzed: 14
+Breaking changes found: 4
+
+--------------------------------------------------------------------------------
+C:\MyMauiApp\MainPage.xaml
+--------------------------------------------------------------------------------
+  L18:C9  [TypeRemoved]  PdfFormatProvider
+           The type `PdfFormatProvider` has been moved to the new namespace `Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider`. Update all usages by changing the namespace from `Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider` to `Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider`.
+```
+
+JSON output can be used in scripts or CI pipelines to automate the upgrade process. For example, you can parse the JSON output to generate a report or trigger automated code fixes.
+
+```json
+{
+  "exitCode": 1,
+  "message": "Analysis complete (14.0.0 → 15.0.0). 4 breaking change(s) detected.",
+  "data": [
+    {
+      "filePath": "C:\\MyMauiApp\\MyMauiApp\\MainPage.xaml.cs",
+      "line": 18,
+      "column": 9,
+      "typeName": "PdfFormatProvider",
+      "member": "",
+      "memberKind": "none",
+      "changeKind": "typeRemoved",
+      "old": "Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider",
+      "new": "Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider",
+      "message": "The type 'PdfFormatProvider' has been moved to the new namespace 'Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider'. Update all usages by changing the namespace from 'Telerik.Windows.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider' to 'Telerik.Documents.Fixed.FormatProviders.Pdf.PdfFormatProvider'.",
+      "confidence": "direct"
+    }
+  ]
+}
+```
+
+## Save the Report to a File
+
+To save the results to a file for later review, redirect the output.
+
+```powershell
+telerik migrate analyze --product winforms --project ./MyMauiApp.csproj --json > findings.json
+```
+
 ## See Also
 
 * [Install and set up the Telerik CLI]({%slug telerik-cli%})

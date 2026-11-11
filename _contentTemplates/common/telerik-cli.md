@@ -272,6 +272,10 @@ Example output:
 </TabStripTab>
 </TabStrip>
 
+## Detect Breaking Changes Before Upgrading
+
+Use the `telerik migrate analyze` command to scan your .NET MAUI project for breaking changes before you upgrade to a newer Telerik UI for .NET MAUI version. The command reports the affected C# and XAML code and provides guidance on how to update it. For more information, see the [Telerik CLI Migrate Analyzer article]({%slug telerik-cli-migrate-analyzer%}) article.
+
 ## Help
 
 To get help about the tool or a specific command in the Telerik CLI, use the `-h` option:
