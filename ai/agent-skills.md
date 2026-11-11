@@ -1,0 +1,162 @@
+---
+title: Agent Skills
+meta_title: .NET MAUI Agent Skills - Setup and Usage
+description: Install Telerik UI for .NET MAUI Agent Skills and use compatible AI coding assistants to build with Telerik controls.
+slug: ai-agent-skills
+tags: telerik,maui,dotnetmaui,ai,agent skills,coding assistant
+position: 2
+tag: new
+components: ["general"]
+---
+
+# Telerik UI for .NET MAUI Agent Skills
+
+Telerik UI for .NET MAUI Agent Skills give compatible AI coding assistants component-specific instructions and reference material. Use them to help an assistant generate code with Telerik APIs and follow recommended implementation patterns in your .NET MAUI project.
+
+The public [telerik/maui-agent-skills](https://github.com/telerik/maui-agent-skills) GitHub repository hosts the skills.
+
+## Benefits of the Agent Skills
+
+AI models have general knowledge about .NET MAUI, but they might not know the latest Telerik application programming interfaces (APIs), namespaces, packages, or recommended patterns.
+
+* Generate code with the correct Telerik APIs, namespaces, and NuGet packages.
+* Follow recommended Telerik UI for .NET MAUI implementation patterns.
+* Configure advanced control features and common development scenarios.
+* Provide Telerik-specific setup, licensing, theming, migration, and troubleshooting guidance.
+* Reduce incorrect or outdated API suggestions.
+
+## Compare the Skills and the MCP Server
+
+The Agent Skills and the [Telerik UI for .NET MAUI Model Context Protocol (MCP) server]({%slug ai-mcp-server%}) are complementary. The following table compares the two approaches:
+
+| Aspect | Agent Skills | MCP Server |
+|---|---|---|
+| Delivery | Markdown files added to your project or AI assistant | Server process that your MCP client runs |
+| How the assistant uses them | The assistant loads the relevant skill based on your prompt | The assistant calls the server tool during a chat or agent session |
+| Setup | Install once with `npx` or copy the files | Install the NuGet tool and configure `mcp.json` |
+
+You can use the skills on their own or together with the MCP Server.
+
+## Prerequisites
+
+To use the Telerik UI for .NET MAUI Agent Skills, you need:
+
+* AI coding assistant that supports agent skills or compatible context mechanisms, for example, GitHub Copilot, Cursor, or Claude Code.
+* [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or [.NET 11 SDK](https://dotnet.microsoft.com/download/dotnet/11.0).
+* Telerik UI for .NET MAUI license. To evaluate the product, start a [free Telerik UI for .NET MAUI trial](https://www.telerik.com/try/ui-for-maui). For license setup, see [Set Up Your Telerik License]({%slug set-up-your-license%}).
+* [Node.js](https://nodejs.org/en) if you install the skills with `npx`.
+
+## Install the Skills
+
+You can install the skills with `npx` or copy them manually from the GitHub repository.
+
+### Install with npx
+
+Run the following command in your project folder:
+
+```bash
+npx skills add https://github.com/telerik/maui-agent-skills
+```
+
+The command adds the skills to your project so that your AI coding assistant can discover them.
+
+### Install Manually
+
+As an alternative, clone the repository:
+
+```bash
+git clone https://github.com/telerik/maui-agent-skills.git
+```
+
+Then make the content of the `skills` folder available to your project according to the requirements of your AI coding assistant.
+
+>note Installation and skill discovery differ between AI coding assistants. Check the documentation of your assistant for the folder where it expects skills.
+
+## How the Skills Work
+
+Each skill provides focused knowledge about a single Telerik control or development scenario:
+
+```text
+skills/
+└── telerik-maui-<control>/
+    ├── SKILL.md
+    └── references/
+        ├── getting-started.md
+        ├── overview.md
+        └── ...
+```
+
+* `SKILL.md`&mdash;Describes when the assistant must use the skill, the relevant control, packages, namespaces, and APIs, the recommended implementation workflows, and links to deeper reference material.
+* `references/`&mdash;Contains detailed guidance for specific scenarios, such as setup, data binding, styling, advanced features, and troubleshooting.
+
+When you describe a task, the AI coding assistant identifies the matching skill and loads only the reference material that it needs for the task.
+
+## Use the Skills
+
+In most cases, you do not need to specify which skill to use. Describe the Telerik control and what you want to accomplish:
+
+```text
+Create a Telerik MAUI DataGrid that displays a list of orders.
+Add sorting and filtering.
+Allow users to edit the Quantity column.
+Export the data to Excel.
+```
+
+For more precise results, add relevant application context, such as your .NET version, architecture, data source, and desired behavior:
+
+```text
+I'm building a .NET MAUI application using MVVM.
+Create a Telerik Scheduler with appointments coming from an ObservableCollection.
+Add week and month views and support recurring appointments.
+```
+
+To make your intent clearer, you can also mention the skill explicitly:
+
+```text
+Use the Telerik MAUI DataGrid skill to add filtering to this DataGrid.
+```
+
+### Sample Prompts
+
+The following prompts demonstrate common scenarios that the skills support:
+
+| Scenario | Sample prompt |
+|---|---|
+| Getting started | `Set up Telerik UI for .NET MAUI in my application.` |
+| Building UI | `Create a Telerik CollectionView with grouping and sticky headers.` |
+| Advanced features | `Add filtering, grouping, and Excel export to my Telerik DataGrid.` |
+| Styling and theming | `Create a custom Telerik theme and allow users to switch themes at runtime.` |
+| Migration | `Migrate my Telerik Xamarin.Forms DataGrid to .NET MAUI.` |
+| Troubleshooting | `My Telerik Scheduler appointments are not appearing. Help me troubleshoot the setup.` |
+
+>warning Always double-check the suggested code and solutions of any AI-powered tool before applying them to your app.
+
+## Available Skills
+
+The Agent Skills cover the Telerik UI for .NET MAUI controls and the common development scenarios, such as getting started, theming, localization, font icons, and migration from Xamarin.Forms.
+
+For the current list of skills with links to each skill, see the [Skill Index](https://github.com/telerik/maui-agent-skills#skill-index) in the repository.
+
+>tip For a new project, start with the Getting Started skill.
+
+## Keep the Skills Up to Date
+
+The Telerik UI for .NET MAUI team maintains the skills and updates them as the product evolves. To get the latest guidance, run the `npx skills add` command again or pull the latest changes from the repository.
+
+## Report Issues with the Skills
+
+If a skill produces outdated, incomplete, or incorrect guidance, [open an issue in the maui-agent-skills repository](https://github.com/telerik/maui-agent-skills/issues) and include the following details:
+
+* Prompt that you used.
+* Generated result or relevant code.
+* Expected result.
+* Telerik UI for .NET MAUI version.
+* AI coding assistant and model that you used.
+
+## See Also
+
+* [Agentic UI Generator Overview]({%slug ai-overview%})
+* [Telerik UI for .NET MAUI MCP Server]({%slug ai-mcp-server%})
+* [Prompt Library]({%slug ai-prompt-library%})
+* [Set Up Your Telerik License]({%slug set-up-your-license%})
+* [Telerik UI for .NET MAUI Agent Skills on GitHub](https://github.com/telerik/maui-agent-skills)
