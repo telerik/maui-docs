@@ -21,7 +21,7 @@ To define custom indicator content, use the following properties:
 
 If the root element of a template doesn't have an explicitly set `BindingContext`, the RefreshView sets the binding context to the `RadRefreshView` instance. As a result, you can bind elements in the template to RefreshView properties, for example, to `Progress`, which returns the pull progress from `0.0` to `1.0`.
 
-To set the size of the area that hosts the template, use the `IndicatorLength` property. For more information, see [Thresholds]({% slug refreshview-thresholds %}).
+To set the size of the area that hosts the template, use the `IndicatorAreaLength` property. For more information, see [Thresholds]({% slug refreshview-thresholds %}).
 
 ## Show a Progress Bar While Pulling
 
