@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Templates
 description: Learn how to replace the built-in indicator of the Telerik UI for .NET MAUI RefreshView with custom pulling and refreshing templates.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 4
+position: 8
 slug: refreshview-templates
 ---
 

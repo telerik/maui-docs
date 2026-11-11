@@ -4,7 +4,7 @@ meta_title: .NET MAUI RefreshView Documentation - Refresh State
 description: Learn how to start and stop a refresh programmatically and turn the pull gesture on or off in the Telerik UI for .NET MAUI RefreshView.
 components: ["refreshview"]
 tags: .net maui, telerik .net maui, ui for .net maui, refreshview, microsoft .net maui
-position: 0
+position: 2
 slug: refreshview-refresh-state
 ---
 

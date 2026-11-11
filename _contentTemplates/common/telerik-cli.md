@@ -25,6 +25,7 @@ The following table lists all Telerik CLI commands with their purpose and usage.
 | `telerik login` | Authenticates with your Telerik account. Use `--no-browser` for manual authentication. | Run to store credentials for subsequent commands. |
 | `telerik whoami` | Displays the currently logged-in Telerik user account email. | Run to verify your authentication state. |
 | `telerik logout` | Logs out from the Telerik CLI. | Run to log out the credentials from your Telerik account. |
+| `telerik migrate analyze` | Scans Telerik UI for .NET MAUI projects and reports API breaking changes between product versions. | Run before upgrading a project to identify affected C# or XAML source code and review the recommended changes. |
 
 ## Install the Telerik CLI
 
@@ -270,6 +271,10 @@ Example output:
 
 </TabStripTab>
 </TabStrip>
+
+## Detect Breaking Changes Before Upgrading
+
+Use the `telerik migrate analyze` command to scan your .NET MAUI project for breaking changes before you upgrade to a newer Telerik UI for .NET MAUI version. The command reports the affected C# and XAML code and provides guidance on how to update it. For more information, see the [Telerik CLI Migrate Analyzer article]({%slug telerik-cli-migrate-analyzer%}) article.
 
 ## Help
 
