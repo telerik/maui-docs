@@ -13,7 +13,7 @@ res_type: kb
 
 | Product | Author |
 | --- | --- |
-| Telerik UI for .NET MAUI | [Author Name](https://www.telerik.com/blogs/author/author-name) |
+| Telerik UI for .NET MAUI | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
