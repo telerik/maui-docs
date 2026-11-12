@@ -21,3 +21,4 @@ The [Telerik UI for .NET MAUI NumericInput]({%slug numericinput-overview %}) pro
 
 - [Configuration]({%slug numericinput-configuration%})
 - [Numeric Format String]({%slug numericinput-numeric-string-format%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})

@@ -82,3 +82,4 @@ Here is the XAML definition of the ComboBox with `RadHighlightLabel` inside the 
 - [Configuration]({%slug combobox-configuration%})
 - [Single and Multiple Selection]({%slug combobox-selection%})
 - [Templates]({%slug combobox-templates%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})

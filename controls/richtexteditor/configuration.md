@@ -148,3 +148,4 @@ The following example shows how to replace the default busy indicator:
 - [Events]({%slug richtexteditor-events%})
 - [Working with images]({%slug richtexteditor-images-overview%})
 - [Hyperlinks]({%slug richtexteditor-hyperlink-support%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})
