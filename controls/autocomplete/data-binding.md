@@ -47,3 +47,4 @@ Here is an example how the `RadAutoComplete` Data Binding works:
 - [Methods]({%slug autocomplete-methods%})
 - [Templates]({%slug autocomplete-custom-templates%})
 - [Styling]({%slug autocomplete-styling%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})

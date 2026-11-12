@@ -110,3 +110,4 @@ You can change the keyboard **return key type** using the `ReturnType`(`Microsof
 - [Text Selection]({%slug entry-text-selection %})
 - [Events]({% slug entry-events%})
 - [Styling]({% slug entry-styling%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})

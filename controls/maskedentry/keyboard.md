@@ -24,3 +24,4 @@ Example with setting the `Keyboard` to `Numeric` on `TextMaskedEntry`
 - [Mask Types]({%slug maskedentry-masked-types%})
 - [Events]({%slug maskedentry-events%})
 - [Styling]({%slug maskedentry-styling%})
+- [Prevent Soft Keyboard Overlap with KeyboardHelper]({%slug keyboardhelper-prevent-soft-keyboard-overlap-maui%})
