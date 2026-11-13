@@ -12,24 +12,31 @@ slug: charts-pie-tooltip
 
 The Telerik UI for .NET MAUI PieChart displays a tooltip with information about a slice when you add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the chart. The tooltip works with the `PieSeries` and the `DonutSeries`.
 
+![PieChart Tooltip default look, custom template, custom content and style](images/pie-chart-tooltip.png)
+
 ## Enable the Tooltip
 
-Add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the `RadPieChart`:
+The following example demonstrates how to add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the `RadPieChart`. The tooltip opens when you tap a slice and is placed at the data point.
 
-```XAML
-<charts:RadPieChart x:Name="chart">
-    <charts:RadPieChart.ChartBehaviors>
-        <charts:ChartTooltipBehavior x:Name="tooltipBehavior"
-                                     TooltipOpening="OnTooltipOpening" />
-    </charts:RadPieChart.ChartBehaviors>
-</charts:RadPieChart>
-```
+1. Define the `RadPieChart` with a `ChartTooltipBehavior` in XAML:
 
-Add the `charts` namespace:
+<snippet id='chart-pie-tooltip-trigger-placement-xaml' />
+
+2. Add the `charts` namespace. The `local` namespace used in the examples points to the namespace in which the data model and the `ViewModel` are defined.
 
 ```XAML
 xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
 ```
+
+3. Define the data model. The `PieDonutTooltipInfo` record is used to pass additional data to the tooltip through the [`TooltipOpening`](#events) event:
+
+<snippet id='chart-pie-tooltip-datamodel' />
+
+4. Define the `ViewModel`:
+
+<snippet id='chart-pie-tooltip-viewmodel' />
+
+> For a runnable example with the PieChart Tooltip scenarios, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Tooltip** category.
 
 @[template](/_contentTemplates/controls/charts.md#charts-tooltip-display-position-format)
 
@@ -37,124 +44,60 @@ xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.C
 
 The `ChartTooltipBehavior` exposes the `TooltipOpening` event, which is raised before the tooltip opens. The `ChartTooltipOpeningEventArgs` expose the `Series`, `SeriesIndex`, `PointIndex`, `DataItem`, `Value`, `Category`, `FormattedValue`, and `SeriesColor` properties, and the `AdditionalData` property, which you can set to pass custom data to the `TooltipContentTemplate`.
 
-The following example calculates the difference between the actual value and a target value and passes it to the tooltip:
+The following example calculates the difference between the actual value and the target value, picks a trend color, and passes both to the tooltip through the `AdditionalData` property. The data is then displayed by the [`TooltipContentTemplate`](#customizing-the-tooltip-content):
 
-```C#
-private void OnTooltipOpening(object sender, ChartTooltipOpeningEventArgs e)
-{
-    if (e.DataItem is not PieDonutTooltipPoint point)
-    {
-        return;
-    }
-
-    double percentage = ((point.Value - point.Target) / point.Target) * 100.0;
-    string sign = percentage >= 0.0 ? "+" : string.Empty;
-    string formattedPercentage = percentage.ToString("0", CultureInfo.InvariantCulture);
-    e.AdditionalData = new PieDonutTooltipInfo($"{sign}{formattedPercentage}% vs target");
-}
-
-public sealed record PieDonutTooltipPoint(string Category, double Value, double Target, string Region, int Units);
-
-public sealed record PieDonutTooltipInfo(string VsTarget);
-```
+<snippet id='chart-pie-tooltip-opening-event' />
 
 ## Styling the Tooltip
 
 @[template](/_contentTemplates/controls/charts.md#charts-tooltip-style)
 
-```XAML
-<Style x:Key="TooltipStyle"
-       TargetType="charts:ChartTooltip">
-    <Setter Property="BackgroundColor" Value="#E8F5E9" />
-    <Setter Property="BorderColor" Value="#2E7D32" />
-    <Setter Property="BorderThickness" Value="1" />
-    <Setter Property="CornerRadius" Value="8" />
-    <Setter Property="ContentPadding" Value="12,8" />
-    <Setter Property="TextColor" Value="#1B5E20" />
-</Style>
-```
+The following example demonstrates how to style the tooltip and format its label.
 
-```C#
-this.tooltipBehavior.TooltipStyle = (Style)this.Resources["TooltipStyle"];
-```
+1. Define the `Style` with target type `ChartTooltip` in the page resources:
+
+<snippet id='chart-pie-tooltip-style' />
+
+2. Set the style to the `TooltipStyle` property of the `ChartTooltipBehavior`. The example also sets the `TooltipLabelFormat` property to format the displayed value:
+
+<snippet id='chart-pie-tooltip-styling-xaml' />
 
 ## Customizing the Tooltip Content
 
-Use the `TooltipContentTemplate` property to define custom content. The following template displays the series color and name, properties from the business object, the formatted value, and the `AdditionalData` set in the `TooltipOpening` event:
+Use the `TooltipContentTemplate` property to define custom content. The binding context of the template is a `ChartTooltipContext` object.
 
-```XAML
-<DataTemplate x:Key="TooltipContentTemplate"
-              x:DataType="charts:ChartTooltipContext">
-    <VerticalStackLayout Spacing="6">
-        <HorizontalStackLayout Spacing="8">
-            <BoxView Color="{Binding SeriesColor}"
-                     WidthRequest="12"
-                     HeightRequest="12"
-                     VerticalOptions="Center" />
-            <Label Text="{Binding Series.DisplayName}"
-                   FontAttributes="Bold"
-                   VerticalOptions="Center" />
-        </HorizontalStackLayout>
-        <VerticalStackLayout BindingContext="{Binding DataItem}"
-                             x:DataType="local:PieDonutTooltipPoint"
-                             Spacing="2">
-            <Label Text="{Binding Category}"
-                   FontSize="12" />
-            <Label Text="{Binding Region}" />
-            <Label Text="{Binding Units, StringFormat='Units: {0}'}" />
-        </VerticalStackLayout>
-        <Label Text="{Binding FormattedValue}"
-               FontSize="18"
-               FontAttributes="Bold" />
-        <VerticalStackLayout BindingContext="{Binding AdditionalData}"
-                             x:DataType="local:PieDonutTooltipInfo">
-            <Label Text="{Binding VsTarget}"
-                   FontAttributes="Bold" />
-        </VerticalStackLayout>
-    </VerticalStackLayout>
-</DataTemplate>
-```
+The following example displays the series color, the category, the series name, properties from the business object, the formatted value, and the `AdditionalData` set in the `TooltipOpening` event.
 
-```C#
-this.tooltipBehavior.TooltipContentTemplate = (DataTemplate)this.Resources["TooltipContentTemplate"];
-```
+1. Define the `TooltipStyle` and the `TooltipContentTemplate` in the page resources:
+
+<snippet id='chart-pie-tooltip-content-template' />
+
+2. Set the style and the template to the `ChartTooltipBehavior`, and subscribe to the `TooltipOpening` event:
+
+<snippet id='chart-pie-tooltip-content-template-xaml' />
+
+3. Add the `TooltipOpening` event handler that sets the `AdditionalData`:
+
+<snippet id='chart-pie-tooltip-opening-event' />
 
 ## Customizing the Tooltip Control Template
 
-To fully change the tooltip appearance, set the `ControlTemplate` property of the `ChartTooltip` through the `TooltipStyle`. Use a `ContentPresenter` to display the tooltip content, and bind to the `ChartTooltip` text properties through a `RelativeSource` binding:
+To fully change the tooltip appearance, set the `ControlTemplate` property of the `ChartTooltip` through the `TooltipStyle`. Use a `ContentPresenter` to display the tooltip content, and bind to the `ChartTooltip` properties, such as the text properties and the `Context`, through a `RelativeSource` binding.
+
+The following example displays the series color and the category above the tooltip content on a gradient background.
+
+1. Define the `ControlTemplate` and the `Style` that applies it in the page resources:
+
+<snippet id='chart-pie-tooltip-control-template' />
+
+2. Set the style to the `TooltipStyle` property of the `ChartTooltipBehavior`:
+
+<snippet id='chart-pie-tooltip-control-template-xaml' />
+
+3. Add the `telerik` namespace, which is used for the `RadBorder` in the `ControlTemplate`:
 
 ```XAML
-<ControlTemplate x:Key="TooltipControlTemplate">
-    <Grid>
-        <Grid.Resources>
-            <Style TargetType="Label">
-                <Setter Property="TextColor"
-                        Value="{Binding TextColor, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-                <Setter Property="FontSize"
-                        Value="{Binding FontSize, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-                <Setter Property="FontFamily"
-                        Value="{Binding FontFamily, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-                <Setter Property="FontAttributes"
-                        Value="{Binding FontAttributes, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-            </Style>
-        </Grid.Resources>
-        <telerik:RadBorder BackgroundColor="#F3E5F5"
-                           BorderColor="#7B1FA2"
-                           BorderThickness="2"
-                           CornerRadius="12">
-            <ContentPresenter Margin="10" />
-        </telerik:RadBorder>
-    </Grid>
-</ControlTemplate>
-
-<Style x:Key="TooltipControlTemplateStyle"
-       TargetType="charts:ChartTooltip">
-    <Setter Property="ControlTemplate" Value="{StaticResource TooltipControlTemplate}" />
-</Style>
-```
-
-```C#
-this.tooltipBehavior.TooltipStyle = (Style)this.Resources["TooltipControlTemplateStyle"];
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
 ## See Also

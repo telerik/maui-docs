@@ -12,30 +12,31 @@ slug: charts-cartesian-tooltip
 
 The Telerik UI for .NET MAUI CartesianChart displays a tooltip with information about a data point when you add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the chart. The tooltip works with all Cartesian series: `AreaSeries`, `BarSeries`, `CandlestickSeries`, `LineSeries`, `OhlcSeries`, `PointSeries`, `SplineAreaSeries`, and `SplineSeries`.
 
+![CartesianChart Tooltip default look, custom template, custom content and style](images/cartesian-chart-tooltip.png)
+
 ## Enable the Tooltip
 
-Add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the `RadCartesianChart`:
+The following example demonstrates how to add a `ChartTooltipBehavior` to the `ChartBehaviors` collection of the `RadCartesianChart`. The tooltip opens when you tap a bar and is placed at the data point.
 
-```XAML
-<charts:RadCartesianChart x:Name="chart">
-    <charts:RadCartesianChart.ChartBehaviors>
-        <charts:ChartTooltipBehavior x:Name="tooltipBehavior"
-                                     TooltipOpening="OnTooltipOpening" />
-    </charts:RadCartesianChart.ChartBehaviors>
-    <charts:RadCartesianChart.Axes>
-        <charts:CategoricalAxis x:Name="categoricalAxis"
-                                Location="Bottom" />
-        <charts:NumericalAxis x:Name="numericalAxis"
-                              Location="Left" />
-    </charts:RadCartesianChart.Axes>
-</charts:RadCartesianChart>
-```
+1. Define the `RadCartesianChart` with a `ChartTooltipBehavior` in XAML:
 
-Add the `charts` namespace:
+<snippet id='chart-cartesian-tooltip-trigger-placement-xaml' />
+
+2. Add the `charts` namespace. The `local` namespace used in the examples points to the namespace in which the data model and the `ViewModel` are defined.
 
 ```XAML
 xmlns:charts="clr-namespace:Telerik.Maui.Controls.Charts;assembly=Telerik.Maui.Controls"
 ```
+
+3. Define the data model. The `CartesianTooltipInfo` record is used to pass additional data to the tooltip through the [`TooltipOpening`](#events) event:
+
+<snippet id='chart-cartesian-tooltip-datamodel' />
+
+4. Define the `ViewModel`:
+
+<snippet id='chart-cartesian-tooltip-viewmodel' />
+
+> For a runnable example with the CartesianChart Tooltip scenarios, go to the [SDKBrowser Demo Application]({% slug sdkbrowser-app %}) and navigate to the **Charts > Tooltip** category.
 
 @[template](/_contentTemplates/controls/charts.md#charts-tooltip-display-position-format)
 
@@ -45,140 +46,61 @@ The `ChartTooltipBehavior` exposes the `TooltipOpening` event, which is raised b
 * The sender, which is of type object.
 * The `ChartTooltipOpeningEventArgs`, which provides information about the `Series`, `SeriesIndex`, `PointIndex`, `DataItem`, `Value`, `Category`, `FormattedValue`, and `SeriesColor` properties, and the `AdditionalData` property.
 
-The following example calculates the difference between the actual value and a target value and passes it to the tooltip:
+The following example calculates the difference between the actual value and the target value, picks a trend color, and passes both to the tooltip through the `AdditionalData` property. The data is then displayed by the [`TooltipContentTemplate`](#customizing-the-tooltip-content):
 
-```C#
-private void OnTooltipOpening(object sender, ChartTooltipOpeningEventArgs e)
-{
-    if (e.DataItem is not CartesianTooltipPoint point)
-    {
-        return;
-    }
-
-    double percentage = ((point.Value - point.Target) / point.Target) * 100.0;
-    string sign = percentage >= 0.0 ? "+" : string.Empty;
-    string formattedPercentage = percentage.ToString("0", CultureInfo.InvariantCulture);
-    e.AdditionalData = new CartesianTooltipInfo($"{sign}{formattedPercentage}% vs target");
-}
-
-
-public sealed record CartesianTooltipPoint(
-    string Category,
-    DateTime Date,
-    double Value,
-    double Target,
-    double Open,
-    double High,
-    double Low,
-    double Close,
-    string Region,
-    int Units);
-
-public sealed record CartesianTooltipInfo(string VsTarget);
-```
-
+<snippet id='chart-cartesian-tooltip-opening-event' />
 
 ## Styling the Tooltip
 
 @[template](/_contentTemplates/controls/charts.md#charts-tooltip-style)
 
-```XAML
-<Style x:Key="TooltipStyle"
-       TargetType="charts:ChartTooltip">
-    <Setter Property="BackgroundColor" Value="#FFF3E0" />
-    <Setter Property="BorderColor" Value="#E65100" />
-    <Setter Property="BorderThickness" Value="1" />
-    <Setter Property="CornerRadius" Value="8" />
-    <Setter Property="ContentPadding" Value="12,8" />
-    <Setter Property="TextColor" Value="#4E342E" />
-</Style>
-```
+The following example demonstrates how to style the tooltip and format its label.
 
-```C#
-this.tooltipBehavior.TooltipStyle = (Style)this.Resources["TooltipStyle"];
-```
+1. Define the `Style` with target type `ChartTooltip` in the page resources:
+
+<snippet id='chart-cartesian-tooltip-style' />
+
+2. Set the style to the `TooltipStyle` property of the `ChartTooltipBehavior`. The example also sets the `TooltipLabelFormat` property to format the displayed value:
+
+<snippet id='chart-cartesian-tooltip-styling-xaml' />
 
 ## Customizing the Tooltip Content
 
-Use the `TooltipContentTemplate` property to define custom content. The following template displays the series color and name, the category, properties from the business object, the formatted value, and the `AdditionalData` set in the `TooltipOpening` event:
+Use the `TooltipContentTemplate` property to define custom content. The binding context of the template is a `ChartTooltipContext` object.
 
-```XAML
-<DataTemplate x:Key="TooltipContentTemplate"
-              x:DataType="charts:ChartTooltipContext">
-    <VerticalStackLayout Spacing="6">
-        <HorizontalStackLayout Spacing="8">
-            <BoxView Color="{Binding SeriesColor}"
-                     WidthRequest="12"
-                     HeightRequest="12"
-                     VerticalOptions="Center" />
-            <Label Text="{Binding Series.DisplayName}"
-                   FontAttributes="Bold"
-                   VerticalOptions="Center" />
-        </HorizontalStackLayout>
-        <VerticalStackLayout Spacing="2">
-            <Label Text="{Binding Category, StringFormat='{}{0:MMM d}'}"
-                   FontSize="12" />
-            <VerticalStackLayout BindingContext="{Binding DataItem}"
-                                 x:DataType="local:CartesianTooltipPoint"
-                                 Spacing="2">
-                <Label Text="{Binding Region}" />
-                <Label Text="{Binding Units, StringFormat='Units: {0}'}" />
-            </VerticalStackLayout>
-        </VerticalStackLayout>
-        <Label Text="{Binding FormattedValue}"
-               FontSize="18"
-               FontAttributes="Bold" />
-        <VerticalStackLayout BindingContext="{Binding AdditionalData}"
-                             x:DataType="local:CartesianTooltipInfo">
-            <Label Text="{Binding VsTarget}"
-                   FontAttributes="Bold" />
-        </VerticalStackLayout>
-    </VerticalStackLayout>
-</DataTemplate>
-```
+The following example displays the series color and name, the category, properties from the business object, the formatted value, and the `AdditionalData` set in the `TooltipOpening` event.
 
-```C#
-this.tooltipBehavior.TooltipContentTemplate = (DataTemplate)this.Resources["TooltipContentTemplate"];
-```
+1. Define the `TooltipStyle` and the `TooltipContentTemplate` in the page resources:
+
+<snippet id='chart-cartesian-tooltip-content-template' />
+
+2. Set the style and the template to the `ChartTooltipBehavior`, and subscribe to the `TooltipOpening` event:
+
+<snippet id='chart-cartesian-tooltip-content-template-xaml' />
+
+3. Add the `TooltipOpening` event handler that sets the `AdditionalData`:
+
+<snippet id='chart-cartesian-tooltip-opening-event' />
 
 ## Customizing the Tooltip Control Template
 
-To fully change the tooltip appearance, set the `ControlTemplate` property of the `ChartTooltip` through the `TooltipStyle`. Use a `ContentPresenter` to display the tooltip content, and bind to the `ChartTooltip` text properties through a `RelativeSource` binding:
+To fully change the tooltip appearance, set the `ControlTemplate` property of the `ChartTooltip` through the `TooltipStyle`. Use a `ContentPresenter` to display the tooltip content, and bind to the `ChartTooltip` properties, such as the text properties and the `Context`, through a `RelativeSource` binding.
+
+The following example displays the category in a header above the tooltip content.
+
+1. Define the `ControlTemplate` and the `Style` that applies it in the page resources:
+
+<snippet id='chart-cartesian-tooltip-control-template' />
+
+2. Set the style to the `TooltipStyle` property of the `ChartTooltipBehavior`:
+
+<snippet id='chart-cartesian-tooltip-control-template-xaml' />
+
+3. Add the `telerik` namespace, which is used for the `RadBorder` in the `ControlTemplate`:
 
 ```XAML
-<ControlTemplate x:Key="TooltipControlTemplate">
-    <Grid>
-        <Grid.Resources>
-            <Style TargetType="Label">
-                <Setter Property="TextColor"
-                        Value="Black" />
-                <Setter Property="FontSize"
-                        Value="{Binding FontSize, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-                <Setter Property="FontFamily"
-                        Value="{Binding FontFamily, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-                <Setter Property="FontAttributes"
-                        Value="{Binding FontAttributes, Source={RelativeSource AncestorType={x:Type charts:ChartTooltip}}, x:DataType=charts:ChartTooltip}" />
-            </Style>
-        </Grid.Resources>
-        <telerik:RadBorder BackgroundColor="#E3F2FD"
-                            BorderColor="#1565C0"
-                            BorderThickness="2"
-                            CornerRadius="8">
-            <ContentPresenter Margin="10" />
-        </telerik:RadBorder>
-    </Grid>
-</ControlTemplate>
-
-<Style x:Key="TooltipControlTemplateStyle"
-        TargetType="charts:ChartTooltip">
-    <Setter Property="ControlTemplate" Value="{StaticResource TooltipControlTemplate}" />
-</Style>
+xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
-
-```C#
-this.tooltipBehavior.TooltipStyle = (Style)this.Resources["TooltipControlTemplateStyle"];
-```
-
 
 ## See Also
 
