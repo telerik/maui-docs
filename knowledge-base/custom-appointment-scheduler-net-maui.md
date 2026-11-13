@@ -14,7 +14,7 @@ ticketid: 1662472
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>Scheduler for .NET MAUI</td>
 </tr>
 </tbody>

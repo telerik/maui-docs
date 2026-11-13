@@ -26,7 +26,7 @@ You can use `RadChatPicker` in three different ways:
 * [Inside the Chat but not as a part of the conversation](#inside-the-chat---not-part-of-the-conversation)–The picker is placed between the entry and the conversation–implemented through the Chat’s Picker property.
 * As a separate Chat Picker control–Shown outside the `RadChat` control.
 
-### Inline as Part of the Conversation
+## Inline as Part of the Conversation
 
 In this case, you need to create an item of type `PickerItem` that derives from the `ChatItem`. Set its `Context`, and add it to the `Items` collection of the Chat.
 
@@ -38,7 +38,7 @@ When the user makes a selection, you can add a new `TextMessage` with the `Selec
 
 ![Telerik UI for .NET MAUI Chat inline DatePicker selecting a date from the February 2019 calendar](images/chat-datepicker.gif)
 
-### Inside the Chat - Not Part of the Conversation
+## Inside the Chat - Not Part of the Conversation
 
 If you choose this approach, you need to create a `RadChatPicker` instance and set it to the `Picker` property of the Chat:
 

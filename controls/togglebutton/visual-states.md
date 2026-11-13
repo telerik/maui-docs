@@ -46,7 +46,7 @@ The ToggleButton provides the following `FocusStates` visual states:
 | `Unfocused` | Applies when the button is in normal state. |
 | `Focused` | Applies when the button is pressed. |
 
-### Using the Visual States
+## Using the Visual States
 
 The following example demonstrates how to use the ToggleButton Visual States.
 

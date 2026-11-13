@@ -13,7 +13,7 @@ Telerik UI for .NET MAUI DataForm supports grouping. You can define the groups d
 
 >important The `GroupName`(`string`) property is the identifier for each group.
 
-### Define Groups in XAML and Add Editors to the Group
+## Define Groups in XAML and Add Editors to the Group
 
 You can organize the Editors in groups using the `DataFormGroup`(`Telerik.Maui.controls.DataFormItem`). 
 
@@ -27,7 +27,7 @@ And the business model used:
 
 <snippet id='dataform-editors-model'/>
 
-### Use GroupName Display Attribute in the model
+## Use GroupName Display Attribute in the model
 
 Apply grouping using the `GroupName` display attribute. More information about this can be found in the [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.groupname?view=net-6.0).
 
@@ -43,7 +43,7 @@ Example with `GroupName` display attribute applied in the business model.
 
 Note that `model` in the snippet above points to the namespace where the `GroupingModel` is defined.
 
-### Define the Groups in XAML and GroupName in the Model
+## Define the Groups in XAML and GroupName in the Model
 
 You can apply the groups in the XAML and set the `GroupName` property. Then inside the model add the `GroupName` attribute to the concrete property. 
 

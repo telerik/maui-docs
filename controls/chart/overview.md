@@ -23,6 +23,8 @@ If you prefer video instructions, watch this short MAUI Chart video tutorial. It
 * MAUI Chart anatomy—different Chart types, series, axis, labels, and more.
 * Add .NET MAUI Chart to the project.
 
+For a written alternative, read [Getting Started with the .NET MAUI Chart]({%slug chart-getting-started%}), [Chart visual structure]({%slug chart-visual-structure%}), and [Chart series labels and category binding]({%slug chart-series-features%}).
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fWsZRAb0s-8?si=3l0glUh8zOjmfr2r" title="Building Interactive Charts with Telerik UI for .NET MAUI: Setup, Categories, and Labels" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Chart Types

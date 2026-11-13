@@ -36,7 +36,7 @@ Note that the use of the Background and Border properties in the control templat
 * On WinUI&mdash;The `BackgroundColor` and `CornerRadius` are applied on the whole control (the top-most Grid in the control template); the `CornerRadius`, `BorderBrush` and `BorderThickness` properties are applied to a `RadBorder` that will also be visualized over the whole control. So visually, on WinUI, when `BackgroundColor`, `BorderThickness` and `CornerRadius` are applied, they will be visualized wrapping the whole control&mdash;the background will be visible under the input area, as well as the numeric buttons, the corner radius, and border will be visualized wrapping the input and buttons areas.
 
 
-### Example for NumericInput Styling
+## Example for NumericInput Styling
 
 The example below demonstrates some of the styling capabilities of the NumericInput, such as custom `IncreaseButtonStyle` and `DecreaseButtonStyle`, `TextInputStyle`, `BorderColor`, and others. It also shows how to switch its appearance through the .NET MAUI Visual State Manager.
 

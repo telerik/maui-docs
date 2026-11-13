@@ -103,7 +103,7 @@ The following image shows how the ToolTip looks:
 
 ![Telerik UI for .NET MAUI line chart showing a tooltip for the NearBy data point with value 77](images/chart-behaviors-tooltip.png)
 
-# See Also
+## See Also
 
 - [Chart Selection Behavior]({%slug chart-behaviors-selection%})
 - [Chart Track Ball Behavior]({%slug chart-behaviors-trackball%})

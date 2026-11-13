@@ -13,7 +13,7 @@ res_type: kb
 <table>
 	<tbody>
     <tr>
-      <td>Product</td>
+      <th scope="row">Product</th>
       <td>Progress® Telerik® UI for .NET MAUI</td>
       <td>Telerik® Private NuGet Server</td>
     </tr>

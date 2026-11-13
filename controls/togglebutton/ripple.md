@@ -22,7 +22,7 @@ Apply a ripple effect to the ToggleButton, by using the following attached prope
 
 ![.NET MAUI ToggleButton Ripple effect](images/togglebutton-ripple-effect-default.gif)
 
-### Customizing the Ripple Effect
+## Customizing the Ripple Effect
 
 The following example demonstrates how to customize the ripple effect of the ToggleButton by changing the `RippleMode` and `RippleColor`.
 

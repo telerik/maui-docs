@@ -20,7 +20,7 @@ The .NET MAUI CollectionView provides various commands that are listed in the fo
 
 >tip Commands action correspond to the events exposed by the CollectionView. For more details, see the [Events]({%slug collectionview-events%}) topic.
 
-### Example with ItemTap Command
+## Example with ItemTap Command
 
 **1.** Create a sample model:
 
@@ -44,7 +44,7 @@ This is the result:
 
 ![Telerik UI for .NET MAUI CollectionView ItemTapCommand highlighting the tapped Teodor item](images/collectionview-item-tap-command.gif "Telerik .NET MAUI CollectionView")
 
-### Example with GroupTap Command
+## Example with GroupTap Command
 
 **1.** Create a sample model:
 

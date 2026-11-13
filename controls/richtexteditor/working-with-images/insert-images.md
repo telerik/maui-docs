@@ -31,7 +31,7 @@ The `RichTextEditorImageNavigationToolbarItem` has the following items:
 
 How the editing toolbar looks when image is selected: 
 
-![.NET MAUI RichTextEditor Add Image](../images/rte-image-operation-toolbar-items.png)
+![Image-operation toolbar for a selected image](../images/rte-image-operation-toolbar-items.png)
 
 ## Edit Image Toolbar Item
 
@@ -39,8 +39,8 @@ How the editing toolbar looks when image is selected:
 
 | RichTextEditor ImageDialog ToolbarItem Options | Description |
 | ------------- | --------------- |
-| `Text` |  |
-| `RichTextEditorFontSizeToolbarItem` |  |
+| `Text` | Specifies the text. |
+| `RichTextEditorFontSizeToolbarItem` | Changes the font size of the text. |
 | `ResizeLabelText` | Defines the text of the `Resize` Label. Default value `Resize:` |
 | `MinimumLabelText` | Defines the text of the Minimum. Default value `0%` |
 | `MaximumLabelText` | Defines the text of the Maximum. Default value `100%` |
@@ -52,7 +52,7 @@ How the editing toolbar looks when image is selected:
 | `OkButtonText` | Defines the text for Ok button. Default value `Ok` |
 | `CancelButtonText` | Defines the text for Cancel button. Default value: `Cancel` |
 
-![.NET MAUI RichTextEditor Add Image](../images/rte-edit-image-dialog.png)
+![Image editing dialog with resize options](../images/rte-edit-image-dialog.png)
 
 ## ImagePickerToolbar Item
 

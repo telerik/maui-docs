@@ -22,7 +22,7 @@ Apply a ripple effect to the TemplatedButton, by using the following attached pr
 
 ![.NET MAUI TemplatedButton ripple effect](images/templatedbutton-default-ripple-effect.gif)
 
-### Customizing the Ripple Effect
+## Customizing the Ripple Effect
 
 The following example demonstrates how to customize the ripple effect of the TemplatedButton by changing the `RippleMode` and `RippleColor`.
 

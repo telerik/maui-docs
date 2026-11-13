@@ -34,8 +34,8 @@ When using Telerik UI for .NET MAUI in a project with an expired or missing lice
 | `Unable to locate licenses for all products` | TKL004 | Your license is not valid for all Telerik and Kendo products added to your project. If you have already purchased the required license, then [update your license key]({%slug set-up-your-license%}#updating-your-license-key). |
 | `Your subscription has expired.` | TKL103; TKL104 | Renew your subscription and [download a new license key]({%slug set-up-your-license%}#downloading-the-license-key). |
 | `Your current license has expired.` | TKL102 | You are using a product version released outside the validity period of your perpetual license. To remove the error message, do either of the following: |
-|                                        | | - Renew your license, then download a new license key and use it to activate the controls. |
-|                                        | | - Downgrade to a product version included in your perpetual license as indicated in the message. |
+| `Your current license has expired.` | TKL102 | Renew your license, then download a new license key and use it to activate the controls. |
+| `Your current license has expired.` | TKL102 | Downgrade to a product version included in your perpetual license as indicated in the message. |
 | `Your trial expired.`        | TKL105 | Purchase a commercial license to continue using the product. |
 | `Telerik UI for .NET MAUI is not listed in your current license file.` | TKL101 | Review the purchase options for the listed products. Alternatively, remove the references to the listed packages from `package.json`. |
 | `No Telerik or Kendo UI product references detected in project.` | TKL001 | If you use Telerik products and see this message, update the `Telerik.Licensing` package to version `1.4.9` or later. If you do not use Telerik products, remove the `Telerik.Licensing` NuGet reference from your project. |

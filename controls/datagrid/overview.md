@@ -31,6 +31,8 @@ The following image shows the DataGrid running on supported desktop and mobile p
 
 If you prefer a guided walkthrough, watch the MAUI DataGrid video tutorial.
 
+For a written alternative, start with [Getting Started with the .NET MAUI DataGrid]({%slug datagrid-getting-started%}). Continue with [defining DataGrid columns]({%slug datagrid-columns-overview%}) and [DataGrid template columns]({%slug datagrid-columns-template-column%}). Then explore [DataGrid sorting]({%slug datagrid-sorting-overview%}), [DataGrid filtering]({%slug datagrid-filtering-overview%}), and [DataGrid selection]({%slug datagrid-selection-overview%}).
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XxUvA4fKHzU" title="Take your .NET MAUI skills to the next level with Chapter 4 of the Telerik UI for .NET MAUI course! This video provides a comprehensive guide to .NET MAUI Grid control. Learn about its features, setup process, column configuration, and creating custom column templates. Discover how to enable sorting, filtering, and selection for a dynamic and powerful data presentation in your apps. Watch now and become a DataGrid expert!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Built-in Columns

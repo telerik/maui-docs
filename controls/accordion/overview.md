@@ -22,7 +22,7 @@ The Telerik UI for .NET MAUI Accordion is a vertically collapsible content panel
 * [Animation while expanding/collapsing]({%slug accordion-animation%}#animation-while-expandingcollapsing)&mdash;RadAccordion provides slick customizable animation played while the expandable content is expanded/collapsed.
 * Applying [space between Accordion items]({%slug accordion-item-spacing%}).
 
-# Next Steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI Accordion]({%slug accordion-getting-started%})
 

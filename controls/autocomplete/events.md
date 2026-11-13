@@ -27,7 +27,7 @@ AutoComplete for .NET MAUI exposes the following events:
 
 * `Completed`&mdash;Occurs when the user finalizes the text in an entry with the return key.
 
-# See Also
+## See Also
 
 - [Data Binding]({%slug autocomplete-data-binding%})
 - [Configuration]({%slug autocomplete-configuration%})

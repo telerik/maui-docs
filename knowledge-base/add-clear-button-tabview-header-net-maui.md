@@ -14,11 +14,11 @@ ticketid: 1670259
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>TabView for .NET MAUI</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>7.1.0</td>
 </tr>
 </tbody>

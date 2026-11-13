@@ -14,11 +14,11 @@ res_type: kb
 <table>
     <tbody>
         <tr>
-            <td>Product Version</td>
+            <th scope="row">Product Version</th>
             <td>5.2.0</td>
         </tr>
         <tr>
-            <td>Product</td>
+            <th scope="row">Product</th>
             <td>ComboBox for MAUI</td>
         </tr>
     </tbody>

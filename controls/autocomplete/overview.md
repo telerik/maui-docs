@@ -31,7 +31,7 @@ The Telerik UI for .NET MAUI AutoComplete can automatically complete user input 
 * [Nested properties support]({%slug autocomplete-data-binding%})&mdash;This allows binding of a complex object to the `TextSearchPath` property. 
 * [Styling options]({%slug autocomplete-styling%})&mdash;For changing the control's border brush and thickness, font options, suggestion item highlight text color and more.
 
-# Next Steps
+## Next Steps
 
 - [Getting Started with Telerik UI for .NET MAUI AutoComplete]({%slug autocomplete-getting-started%})
 

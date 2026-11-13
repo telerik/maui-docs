@@ -13,7 +13,7 @@ The `TimeBreak` item of the `RadChat` control encapsulates a group of messages a
 
 `TimeBreak` derives from `ChatItem` and provides an additional `Text` property which holds the string message.
 
-### Adding a Time Break
+## Adding a Time Break
 
 The following example shows how to create a sample `TimeBreak` item:
 

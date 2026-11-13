@@ -37,7 +37,7 @@ Check in the image below how the special slots look in MultiDay View:
 
 ![Telerik .NET MAUI Scheduler Special Slots](../images/scheduler-special-slots.png)
 
-# See Also
+## See Also
 
 - [Special Slots Template]({%slug scheduler-special-slot-template%})
 - [Views]({% slug scheduler-views-overview %})

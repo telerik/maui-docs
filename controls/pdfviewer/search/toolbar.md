@@ -35,7 +35,7 @@ By default, the search operation occurs when the user clicks the Search button o
 * `TextChanged`&mdash;Search is triggered every time the Text is changed.
 * `Completed` (default)&mdash;Search operation is triggered when the corresponding entry completes (by pressing Enter/Return key).
 
-### Example
+## Example
 
 The following example demonstrates how to use the Toolbar and its predefined items:
 
