@@ -82,3 +82,4 @@ this.dataGrid.Columns.Add(new DataGridTimeColumn
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Text Column]({%slug datagrid-columns-text-column%})
 - [Date Column]({%slug datagrid-columns-date-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})

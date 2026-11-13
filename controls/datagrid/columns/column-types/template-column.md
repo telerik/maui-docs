@@ -104,3 +104,4 @@ Define the DataGrid:
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Boolean Column]({%slug datagrid-columns-boolean-column%})
 - [Date Column]({%slug datagrid-columns-date-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})

@@ -93,3 +93,4 @@ Here are the specific properties defined for `DataGridComboBoxColumn`:
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Text Column]({%slug datagrid-columns-text-column%})
 - [Time Column]({%slug datagrid-columns-time-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})

@@ -86,3 +86,4 @@ Here is an example how the Text Column properties can be used:
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Numerical Column]({%slug datagrid-columns-numerical-column%})
 - [Boolean Column]({%slug datagrid-columns-boolean-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})
