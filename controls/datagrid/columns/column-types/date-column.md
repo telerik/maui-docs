@@ -72,3 +72,4 @@ The `DataGridDateColumn` is used to represent `DateTime` objects. It uses the Te
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Text Column]({%slug datagrid-columns-text-column%})
 - [Time Column]({%slug datagrid-columns-time-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})

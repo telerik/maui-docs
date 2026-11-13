@@ -70,3 +70,4 @@ The `DataGridBooleanColumn` is used to represent boolean values. It uses the Che
 - [Columns Styling]({%slug datagrid-columns-styling%})
 - [Text Column]({%slug datagrid-columns-text-column%})
 - [Numerical Column]({%slug datagrid-columns-numerical-column%})
+- [Associate Custom Sort Descriptor]({%slug datagrid-associate-custom-sort-descriptor-column%})
