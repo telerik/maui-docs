@@ -10,6 +10,8 @@ You are an expert in technical documentation SEO and content discoverability. Ev
 
 Score each dimension from **1 (poor) to 5 (excellent)**, provide a rationale (≤ 2 sentences), and list specific violations (empty array if none). Compute a weighted overall score at the end.
 
+Report violations with their locations and proposed corrections without editing during review-only scoring. An affected dimension cannot receive a perfect score, and a weighted score does not waive an unresolved required correction.
+
 ---
 
 ## Why SEO Readiness Matters for Documentation
@@ -86,23 +88,27 @@ Source rules: front matter `description` field.
 
 | Check | Pass condition | Violation examples |
 |---|---|---|
-| Primary keyword in H1 | The article's main term appears in the single `#` heading | H1 is a generic label like `"Overview"` |
+| Primary keyword in the article title | Standard articles include the main term in their single H1; KB articles use the metadata title and opening text without adding an H1 | Generic standard H1 or KB metadata title; adding an H1 to a KB article |
 | Primary keyword in the first paragraph | Core term used within the opening 50 words | Feature is first mentioned midway through the article |
 | Secondary keywords in H2 headings | Related terms and long-tail variants appear in `##` headings | All H2 headings are generic (`"Setup"`, `"Options"`, `"Example"`) without qualifying context |
 | Natural keyword density | Primary term appears several times in body text without forced repetition | Keyword appears once in 1500 words (too sparse) or 20 times in 500 words (stuffed) |
 | LSI / semantic terms present | Synonyms and closely related terms are used naturally in body text | Article about `"data binding"` never uses `"connect"`, `"fetch"`, `"source"`, `"remote data"` |
 
 **Scoring guide:**
-- 5: Keyword in H1 and opening paragraph; secondary keywords in H2s; natural density.
-- 3: Keyword in H1 but absent from first paragraph or H2 headings.
-- 1: H1 is generic; primary term rarely or never appears in the body.
+- 5: Keyword in the standard H1 or KB metadata title and opening paragraph; secondary keywords in meaningful H2s; natural density.
+- 3: Keyword in the applicable title but absent from the first paragraph or relevant topical headings.
+- 1: Applicable title is generic; primary term rarely or never appears in the body. A KB article's lack of H1 is not a defect.
 
 ---
 
 ### 4. Content Depth and Completeness — weight 10 %
 
+Use the [formatting skill](../telerik-documentation-style-guide/style-formatting/SKILL.md) for image-introduction examples and remediation that preserves sufficient introductions and genuine section headings.
+
 | Check | Pass condition | Violation examples |
 |---|---|---|
+| Image introduction present and adjacent | Every image has a meaningful sentence or exact `>caption` block immediately before it | Missing introduction or explanation only after the image |
+| No heading or bold image introductions | No image-only heading, standalone bold label, or redundant heading/caption pair | `### Data Source Configuration` or `**Data Source Configuration**` used as an image introduction; replace with a sentence or caption |
 | Minimum viable length | Article body is at least 300 words (thin content is a ranking signal) | 150-word stub with no examples |
 | Covers the topic end-to-end | Introduction, concept explanation, setup/usage, examples, and next steps are all present when relevant | Article jumps straight to code with no explanation of what the feature does |
 | Concrete examples | At least one code block or screenshot illustrates the key concept | Pure prose with no demonstrated usage |
@@ -110,7 +116,7 @@ Source rules: front matter `description` field.
 | No excessive duplication with sibling articles | Unique value not replicated verbatim in other articles | Introduction paragraph copy-pasted across multiple articles |
 
 **Scoring guide:**
-- 5: ≥ 300 words, full coverage, concrete examples, unique value.
+- 5: ≥ 300 words, full coverage, concrete examples with approved adjacent image introductions, unique value.
 - 3: Adequate length and examples but missing one major section.
 - 1: Thin, incomplete, or heavily duplicated.
 
@@ -120,16 +126,20 @@ Source rules: front matter `description` field.
 
 Google extracts featured snippets and `People Also Ask` answers from well-structured heading/content pairs.
 
+Use the [structure skill](../telerik-documentation-style-guide/style-structure/SKILL.md) for article-type classification and hierarchy-preserving heading corrections. Its no-H1 rule for KB content takes precedence over SEO recommendations.
+
 | Check | Pass condition | Violation examples |
 |---|---|---|
-| H2/H3 headings are question-like or task-like | Headings mirror common search queries, e.g. `"How to Enable Paging"`, `"What Is Virtual Scrolling"` | Generic headings: `"Paging"`, `"Scrolling"` |
+| Standard-article H1 count | Exactly one H1 in a standard article | Missing or multiple H1s; recommend a missing H1 or demote additional H1s according to hierarchy |
+| KB H1 prohibition | No H1 in a KB article; top-level H2 sections are valid | Any KB H1; recommend removal or conversion, never addition |
+| H2/H3 headings are question-like or task-like where appropriate | Topical headings mirror common search queries; required KB labels such as Symptoms, Cause, and Resolution remain valid | Generic topical headings with no context; do not rewrite required KB labels solely for keywords |
 | Answer immediately follows the heading | The first sentence under a heading directly answers or defines the heading topic | Heading is followed by a lengthy preamble before the actual answer |
 | Lists and tables are used for enumerable facts | Step-by-step procedures use numbered lists; option sets use tables | Steps described as dense paragraphs |
 | Definition pattern for concept articles | Concept heading followed by a one-sentence definition (ideal for featured snippet extraction) | Concept introduced indirectly through examples only |
 | No heading-only sections | Every heading has at least one substantive paragraph or list beneath it | Heading followed immediately by another heading |
 
 **Scoring guide:**
-- 5: Headings are query-like; answers are immediate; lists/tables used correctly.
+- 5: Article-type H1 count is correct; topical headings are query-like or use required KB labels; answers are immediate; lists/tables used correctly.
 - 3: Some headings are query-like; answers sometimes delayed.
 - 1: All headings are generic labels; no snippet-friendly structure.
 
@@ -179,10 +189,10 @@ Markdown content is often rendered by static-site generators or documentation pl
 | Code examples are delimited with language tags | Enables platform to render `SoftwareSourceCode` structured data | Fenced blocks with no language |
 | Step-by-step procedures use numbered lists | Enables extraction as `HowTo` structured data | Procedures written as paragraphs |
 | FAQ-like sections use heading + answer pattern | Enables extraction as `FAQPage` structured data | Q&A embedded in prose with no distinguishing structure |
-| `title` matches H1 exactly (or differs only in casing) | Signals content coherence to crawlers | `title: "Overview"` but H1 is `"Data Grid Component Overview"` |
+| Title and body describe the same topic | Standard H1 and navigation `title` share the topic without requiring identical wording; KB metadata title and body align without a source H1 | Title promises a different task from the body; adding an H1 to align a KB title |
 
 **Scoring guide:**
-- 5: Description is a full sentence; code blocks labeled; steps numbered; title matches H1.
+- 5: Description is a full sentence; code blocks labeled; steps numbered; title and body topic align under the article-type H1 rules.
 - 3: Most checks pass but one or two structured-data signals are missing.
 - 1: Multiple missing signals; article is difficult to annotate with structured data.
 
