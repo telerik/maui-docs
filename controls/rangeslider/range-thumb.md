@@ -34,15 +34,15 @@ You can control the available dragging options through the `DragMode` property o
 
 Check below some quick examples:
 
-#### Only Range Thumbs:
+### Only Range Thumbs:
 
 <snippet id='rangeslider-drag-both-thumbs-xaml' />
 
-#### Only Range Track:
+### Only Range Track:
 
 <snippet id='rangeslider-drag-rangetrack-xaml' />
 
-#### Disabled:
+### Disabled:
 
 <snippet id='rangeslider-drag-disabled-xaml' />
 

@@ -14,11 +14,11 @@ ticketid: 1680174
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>Barcode for .NET MAUI</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>9.0.0</td>
 </tr>
 </tbody>

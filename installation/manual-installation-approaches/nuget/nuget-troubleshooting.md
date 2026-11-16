@@ -25,7 +25,7 @@ The issues listed below are common when upgrading to a new version of Telerik .N
 * Errors like `Unable to find package Telerik.UI.for.Maui with version` and `ProjectName depends on Telerik.UI.for.Maui (>= 7.1.0) but Telerik.UI.for.Maui 7.1.0 was not found` can be related to the subscription period&mdash;Review the [Package Version Not Found]({%slug package-version-not-found%}) article for more details on how to solve this behavior.
 * Error `Failed to retrieve information about ... from remote source` occurs when using the v2 server&mdash;The solution is to use the [v3 NuGet feed]({%slug failed-retrieve-info-remote-source%}).
 
-### Quick Access Test (Credentials or Network Access)
+## Quick Access Test (Credentials or Network Access)
 
 You can quickly test your credentials or a specific package search results, the NuGet server is a REST service that can be accessed with a standard web browser. Try the following steps:
 

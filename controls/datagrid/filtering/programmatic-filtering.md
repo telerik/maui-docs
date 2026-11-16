@@ -38,7 +38,7 @@ Alternatively, if using XAML, they'll be resolved through the same `telerik` xml
 xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 ```
 
-### Text Filter Descriptor
+## Text Filter Descriptor
 
 The `TextFilterDescriptor` supports the following properties:
 
@@ -56,7 +56,7 @@ To use `TextFilterDescriptor`, you need to add its instance to the `RadDataGrid.
                               Value="En"/>
 ```
 
-### Numerical Filter Descriptor
+## Numerical Filter Descriptor
 
 The `NumericalFilterDescriptor` represents a descriptor which filters by properties of the `numerical` data type.
 
@@ -72,7 +72,7 @@ It exposes the following properties:
                                    Value="80000"/>
 ```
 
-### DateTime Filter Descriptor
+## DateTime Filter Descriptor
 
 The `DateTimeFilterDescriptor` is a descriptor which filters by properties of the `System.DateTime` data type.
 
@@ -88,7 +88,7 @@ It exposes the following properties:
                                   Value="1900/01/01"/>
 ```
 
-### TimeSpan Filter Descriptor
+## TimeSpan Filter Descriptor
 
 The `TimeSpanFilterDescriptor` is a descriptor which filters by properties of the `System.TimeSpan` data type.
 
@@ -104,7 +104,7 @@ It exposes the following properties:
                                   Value="22:11:21"/>
 ```
 
-### Boolean Filter Descriptor
+## Boolean Filter Descriptor
 
 The `BooleanFilterDescriptor` is a descriptor which filters by properties of the `System.Boolean` data type.
 
@@ -118,7 +118,7 @@ It exposes the following properties:
                                  Value="true"/>
 ```
 
-### Nested Property Text Filter Descriptor
+## Nested Property Text Filter Descriptor
 
 The `NestedPropertyTextFilterDescriptor` is a descriptor which allows you to filter the nested properties.
 
@@ -143,7 +143,7 @@ filterDescriptor.ItemPropertyGetter = (originalPropertyValue) =>
 this.radDataGrid.FilterDescriptors.Add(filterDescriptor);
 ```
 
-### Distinct Values Filter Descriptor
+## Distinct Values Filter Descriptor
 
 The `DistinctValuesFilterDescriptor` is a descriptor which filters by distinct values.
 
@@ -162,7 +162,7 @@ var distinctValuesFilterDescriptor = new DistinctValuesFilterDescriptor
 this.dataGrid.FilterDescriptors.Add(distinctValuesFilterDescriptor);
 ```
 
-### Composite Filter Descriptor
+## Composite Filter Descriptor
 
 The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that stores an arbitrary number of other descriptors instances. The logical `AND` or `OR` operator is applied upon all composed filters to determine the result of the `PassesFilter` routine.
 
@@ -179,7 +179,7 @@ The `CompositeFilterDescriptor` represents a special `FilterDescriptorBase` that
 </telerik:CompositeFilterDescriptor>
 ```
 
-### Delegate Filter Descriptor
+## Delegate Filter Descriptor
 
 The `DelegateFilterDescriptor` exposes the `Filter` property, which gets or sets the `IFilter` implementation used to check whether a data item passes the filter or not.
 

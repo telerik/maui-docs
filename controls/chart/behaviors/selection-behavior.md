@@ -181,7 +181,7 @@ The following image shows how the selection looks:
 
 ![Telerik UI for .NET MAUI Cartesian Chart with a selected stacked bar data point](images/chart-behaviors-selection.png)
 
-# See Also
+## See Also
 
 - [Chart Track Ball Behavior]({%slug chart-behaviors-trackball%})
 - [Chart Tool Tip Behavior]({%slug chart-behaviors-tooltip%})

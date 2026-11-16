@@ -14,11 +14,11 @@ ticketid: 1663273
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>DataForm for .NET MAUI</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>7.0.0</td>
 </tr>
 </tbody>

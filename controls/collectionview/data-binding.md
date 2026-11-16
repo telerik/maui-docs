@@ -46,7 +46,7 @@ xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
 
 When the CollectionView is bound to a collection of multiple data item objects and the appearance of each item depends on a specific property of the business object then you can define an item appearance at runtime by setting the `RadCollectionView.ItemTemplate` property to a `DataTemplateSelector` object.
 
-# See Also
+## See Also
 
 - [Grouping]({%slug collectionview-grouping%})
 - [Filtering]({%slug collectionview-filtering%})

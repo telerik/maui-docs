@@ -38,45 +38,45 @@ Use visual states in the toolbar items to change their appearance when they are 
 
 1. Define the toolbar items in XAML:
 
-<snippet id='toolbar-visual-states'/>
+   <snippet id='toolbar-visual-states'/>
 
 2. Define the `telerik` namespace:
 
-```
-xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
-```
+   ```XAML
+   xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+   ```
 
 3. Define the visual states for the toolbar items in XAML:
 
->caption For `ButtonToolbarItem`, `DropDownButtonToolbarItem`, `ListPickerToolbarItem`, `OptionsButtonToolbarItem`, and `NavigationButtonToolbarItem`:
+   >caption For `ButtonToolbarItem`, `DropDownButtonToolbarItem`, `ListPickerToolbarItem`, `OptionsButtonToolbarItem`, and `NavigationButtonToolbarItem`:
 
-<snippet id='toolbar-visual-states-button-style'/>
+   <snippet id='toolbar-visual-states-button-style'/>
 
->caption For `LabelToolbarItem`:
+   >caption For `LabelToolbarItem`:
 
-<snippet id='toolbar-visual-states-label-style'/>
+   <snippet id='toolbar-visual-states-label-style'/>
 
->caption For `EntryToolbarItem`:
+   >caption For `EntryToolbarItem`:
 
-<snippet id='toolbar-visual-states-entry-style'/>
+   <snippet id='toolbar-visual-states-entry-style'/>
 
->caption For `ToggleButtonToolbarItem` and `RadioButtonToolbarItem`:
+   >caption For `ToggleButtonToolbarItem` and `RadioButtonToolbarItem`:
 
-<snippet id='toolbar-visual-states-selectable-style'/>
+   <snippet id='toolbar-visual-states-selectable-style'/>
 
->caption For `SplitButtonToolbarItem`:
+   >caption For `SplitButtonToolbarItem`:
 
-<snippet id='toolbar-visual-states-splitbutton-style'/>
+   <snippet id='toolbar-visual-states-splitbutton-style'/>
 
->caption For `OverflowMenuButtonToolbarItem`:
+   >caption For `OverflowMenuButtonToolbarItem`:
 
-<snippet id='toolbar-visual-states-overflow-menu-button-style'/>
+   <snippet id='toolbar-visual-states-overflow-menu-button-style'/>
 
->caption For `BusyIndicatorToolbarItem`:
+   >caption For `BusyIndicatorToolbarItem`:
 
-<snippet id='toolbar-visual-states-busyindicator-style'/>
+   <snippet id='toolbar-visual-states-busyindicator-style'/>
 
-> For a runnable example with the Toolbar Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Toolbar > Visual States** category.
+>note For a runnable example with the Toolbar Visual States, see the [SDKBrowser Demo Application]({%slug sdkbrowser-app%}) and go to **Toolbar > Visual States** category.
 
 ## See Also
 

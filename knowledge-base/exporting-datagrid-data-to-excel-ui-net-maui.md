@@ -75,6 +75,21 @@ public class CourseViewModel
 
 3. Create a `ViewModel` with sample data and a command for generating the spreadsheet.
 
+### Read the ViewModel Example
+
+Use this map to locate the main sections of the complete code block below:
+
+- **Data initialization:** The `FirstLookViewModel` constructor calls `GenerateCourses` to populate `Courses` with 30 sample records. Customize `CoursesCount`, `CourseNames`, and `Universities` to change the sample data.
+- **Command execution and worksheet creation:** `GenerateSpreadsheetCommand` calls `GenerateSpreadsheet`, which creates an XLSX workbook and a worksheet named `Courses`. It calls the export methods, merges the title cells, and passes `my_courses.xlsx` to `IFileViewerService`.
+- **Worksheet layout:** `ExportColumnWidths` sets the three column widths. `ExportDocumentTitleRow` writes the document title, and `ExportDocumentHeaderRow` writes the column headings. Customize the title and header constants and the cell formats in these methods.
+- **Data rows:** `ExportData` writes each course's name, university, and progress from the `Courses` collection. It divides progress by 100 and applies the `0 %` number format.
+
+The sample is intended to generate a workbook containing the `MY COURSES` title, the `TITLE`, `UNIVERSITY`, and `PROGRESS` headings, and the 30 sample course records.
+
+### Complete ViewModel
+
+The following code keeps data initialization, command handling, and export methods together in one copyable class.
+
 ```csharp
 public class FirstLookViewModel : NotifyPropertyChangedBase
 {

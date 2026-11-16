@@ -14,11 +14,11 @@ ticketid: 1600847
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>UI for .NET MAUI SignaturePad</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>Current</td>
 </tr>
 </tbody>

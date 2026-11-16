@@ -35,7 +35,7 @@ Here is an example how the `RadAutoComplete` Data Binding works:
 
 >important For AutoComplete Data Binding example refer to the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
-# See Also
+## See Also
 
 - [Configuration]({%slug autocomplete-configuration%})
 - [Suggest Mode]({%slug autocomplete-suggest-mode%})

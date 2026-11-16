@@ -22,6 +22,8 @@ If you prefer video instructions, watch the Getting Started with the MAUI Button
 * Setup a sample demo project.
 * Add a Button control to the project.
 
+For a written alternative, follow [First Steps with Telerik UI for .NET MAUI]({%slug maui-quick-start%}) and [Getting Started with the .NET MAUI Button]({%slug button-getting-started%}). These guides cover setup and adding a Button with their own examples, not a verbatim video transcript.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQe9qcoURRk?si=3z0OPOMJZKCxZw7O" title="Getting Started with Telerik UI for .NET MAUI: Installation and First Control Demo with Button" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Key Features of the .NET MAUI Button

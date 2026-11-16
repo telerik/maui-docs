@@ -20,6 +20,8 @@ If you prefer video instructions, watch this short MAUI TabView video tutorial. 
 * Overview of the .NET MAUI TabView control.
 * Replace custom tab implementation with Telerik MAUI TabView.
 
+For a written alternative, follow [Getting Started with the .NET MAUI TabView]({%slug tabview-getting-started%}) to define tabs, headers, and content. This guide uses its own example; it is not a transcript of the video's custom-tab replacement.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqe33HLkVfA?si=bzs-mUESBBcLTR1u&amp;start=705" title="Exploring Basic UI Controls in Telerik UI for .NET MAUI: TabView" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Key Features of the .NET MAUI TabView

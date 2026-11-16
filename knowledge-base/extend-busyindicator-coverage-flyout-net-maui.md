@@ -23,11 +23,11 @@ This knowledge base article also answers the following questions:
 <table>
 <tbody>
 <tr>
-<td>Product</td>
+<th scope="row">Product</th>
 <td>BusyIndicator for .NET MAUI</td>
 </tr>
 <tr>
-<td>Version</td>
+<th scope="row">Version</th>
 <td>6.7.0</td>
 </tr>
 </tbody>

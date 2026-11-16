@@ -55,7 +55,7 @@ Here is the result:
 
 >important For AutoComplete Suggest Mode example refer the [SDKBrowser Demo application]({%slug sdkbrowser-app%}).
 
-# See Also
+## See Also
 
 - [Display Text]({%slug autocomplete-display-text-formatter%})
 - [Tokens Support]({%slug autocomplete-tokens-support%})

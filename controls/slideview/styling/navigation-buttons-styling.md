@@ -15,7 +15,7 @@ The SlideView control exposes styling properties that allow you to customize the
 
 * `NavigateToNextItemButtonStyle`(Style with target type `telerik:Radbutton`)&mdash;Defines the custom style that will be applied to the button leading to the next item.
 
-### Example
+## Example
 
 The following example demonstrates how to style the Navigation Buttons of the control.
 

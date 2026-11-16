@@ -13,11 +13,11 @@ res_type: kb
 <table>
 	<tbody>
     <tr>
-      <td>Product</td>
+      <th scope="row">Product</th>
       <td>Progress® Telerik® UI for .NET MAUI Entry</td>
     </tr>
   	<tr>
-  		<td>Product Version</td>
+  		<th scope="row">Product Version</th>
   		<td>5.1.0</td>
   	</tr>
 	</tbody>
@@ -65,6 +65,12 @@ To set the visual states of the Entry control, use the `RadEntry` class, which i
 ```
 
 
-The following `.gif` file represents the result from the code snippet:
+The animation illustrates the Entry visual-state example. The XAML above defines these settings:
 
-![End result for setting the visual states of the Telerik UI for .NET MAUI Entry control](images/entry-visual-states.gif)
+- `Normal` sets `FontSize` to `35`.
+- `Focused` sets `BackgroundColor` to `Red`.
+- `Disabled` sets `BackgroundColor` to `Pink`.
+- `Unfocused` sets `BackgroundColor` to `yellow`.
+- `PointerOver` has no setters in this example.
+
+![Telerik Entry visual-state example with state-specific font and background settings described above](images/entry-visual-states.gif)

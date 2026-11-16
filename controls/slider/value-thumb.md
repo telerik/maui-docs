@@ -28,15 +28,15 @@ The Slider's `DragMode` property lets you configure one of three dragging option
  
 Check below some quick examples:
 
-#### Only Thumb
+### Only Thumb
 
 <snippet id='slider-drag-thumb-xaml' />
 
-#### Free
+### Free
 
 <snippet id='slider-drag-free-xaml' />
 
-#### Disabled
+### Disabled
 
 <snippet id='slider-drag-disabled-xaml' />
 

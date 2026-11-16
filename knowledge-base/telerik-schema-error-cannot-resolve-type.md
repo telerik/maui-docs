@@ -14,11 +14,11 @@ res_type: kb
 <table>
 	<tbody>
     <tr>
-      <td>Product</td>
+      <th scope="row">Product</th>
 			<td>Progress® Telerik® UI for .NET MAUI</td>
     </tr>
   	<tr>
-  		<td>Product Version</td>
+  		<th scope="row">Product Version</th>
   		<td>4.0.0</td>
   	</tr>
 	</tbody>

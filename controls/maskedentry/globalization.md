@@ -13,7 +13,7 @@ Globalization refers to the practice of developing an application in such a way 
 
 The Telerik UI for .NET MAUI NumericMaskedEntry control supports globalization.
 
-### Globalization Example with NumericMaskedEntry
+## Globalization Example with NumericMaskedEntry
 
 **1.** Define the `NumericMaskedEntry` in XAML:
 

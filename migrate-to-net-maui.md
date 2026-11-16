@@ -152,6 +152,8 @@ For the detailed guide, go to the official Microsoft documentation on GitHub abo
 
 The following video demonstrates how you can upgrade your Xamarin.Forms App to .NET MAUI
 
+For a written migration path, follow this article's [Xamarin.Forms migration steps](#step-1-xamarinforms-to-net-maui-migration-steps), [Telerik reference replacement](#step-2-replace-the-telerik-references), [control registration](#step-3-register-the-net-maui-controls), [component migration guides](#migration-guides-for-net-maui-components), and [renderer-to-handler guidance](#step-5-port-custom-renderers-to-handlers). These instructions are related topic documentation, not a verbatim transcript of the video.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-AeFIjW0Jgc" title="One of the questions the .NET MAUI team has heard the most is What do I have to do to my Xamarin app to upgrade?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## See Also
