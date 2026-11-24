@@ -31,16 +31,8 @@ Choose the runtime that best matches your development environment:
 
 Install the server package by using the `dnx` script or the `dotnet` CLI:
 
-For .NET 10, run:
-
   ```bash
   dnx Telerik.MAUI.MCP
-  ```
-
-For .NET 9, run:
-
-  ```bash
-  dotnet tool install Telerik.MAUI.MCP
   ```
 
 After the package is available, configure `mcp.json`, add your Telerik license if needed, restart your MCP client, and then verify that the server is running.
@@ -113,20 +105,6 @@ Use the following client-specific examples to create a working `mcp.json` file. 
     }
     ```
 
-    For .NET 9, use:
-
-    ```json
-    {
-      "servers": {
-        "telerik-maui-assistant": {
-          "type": "stdio",
-          "command": "dotnet",
-          "args": ["tool", "run", "telerik-maui-assistant"]
-        }
-      }
-    }
-    ```
-
 2. Restart Visual Studio.
 3. Enable the Telerik MAUI MCP server in the [Copilot Chat window's tool selection dropdown](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022#configuration-example-with-github-mcp-server).
 
@@ -153,19 +131,6 @@ The basic setup in Visual Studio Code involves the following steps:
       }
     }
     ```
-    For .NET 9, use:
-
-    ```json
-    {
-      "servers": {
-        "telerik-maui-assistant": {
-          "type": "stdio",
-          "command": "dotnet",
-          "args": ["tool", "run", "telerik-maui-assistant"]
-        }
-      }
-    }
-    ```
 
 3. For global discovery, enable [`chat.mcp.discovery.enabled`](vscode://settings/chat.mcp.discovery.enabled) in `settings.json`:
 
@@ -184,6 +149,8 @@ The basic setup in Visual Studio Code involves the following steps:
 
 Create a `.cursor/mcp.json` file in your workspace root (or user folder for global setup):
 
+For .NET 10, use:
+
 ```json
 {
   "mcpServers": {
@@ -191,18 +158,6 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
       "type": "stdio",
       "command": "dnx",
       "args": ["Telerik.MAUI.MCP", "--yes"]
-    }
-  }
-}
-```
-
-```json
-{
-  "mcpServers": {
-    "telerik-maui-assistant": {
-      "type": "stdio",
-      "command": "dotnet",
-      "args": ["tool", "run", "telerik-maui-assistant"]
     }
   }
 }
