@@ -9,9 +9,9 @@ tag: updated
 components: ["general"]
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI Agentic UI Generator
+# Getting Started with the Telerik UI for .NET MAUI MCP Server
 
-The Agentic UI Generator is an intelligent development tool delivered through the Telerik UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP) that enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik-maui-assistant`) together with the available specialized MCP assistants.
+The Agentic UI Generator is an intelligent development tool delivered through the Progress® Telerik® UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP). It enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik-maui-assistant`) together with the available specialized MCP assistants.
 
 >tip
 > The Telerik UI for .NET MAUI MCP server works in **Chat** (**Ask**) and **Agent** modes.
@@ -31,10 +31,15 @@ Choose the runtime that best matches your development environment:
 
 Install the server package by using the `dnx` script or the `dotnet` CLI:
 
-  ```bash .NET 10
+For .NET 10, run:
+
+  ```bash
   dnx Telerik.MAUI.MCP
   ```
-  ```bash .NET 9
+
+For .NET 9, run:
+
+  ```bash
   dotnet tool install Telerik.MAUI.MCP
   ```
 
@@ -56,11 +61,11 @@ Use the following values in the [`mcp.json` file](https://code.visualstudio.com/
 
 An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI MCP server.
 
-- When you use the .NET tooling (`dnx` or `dotnet tool install`) and the [license key file]({%slug set-up-your-license%}) is stored in the default location, the server loads it automatically. The default path is `%AppData%\Telerik\telerik-license.txt` on Windows and `~/.telerik/telerik-license.txt` on Linux.
-- When you use the .NET tooling and the [license key file]({%slug set-up-your-license%}) is stored in a different location, add one of the following `env` settings to `mcp.json`.
-- When you use Node.js, add one of the following `env` settings to `mcp.json`:
+* When you use the .NET tooling (`dnx` or `dotnet tool install`) and the [license key file]({%slug set-up-your-license%}) is stored in the default location, the server loads it automatically. The default path is `%AppData%\Telerik\telerik-license.txt` on Windows and `~/.telerik/telerik-license.txt` on Linux.
+* When you use the .NET tooling and the [license key file]({%slug set-up-your-license%}) is stored in a different location, add one of the following `env` settings to `mcp.json`.
+* When you use Node.js, add one of the following `env` settings to `mcp.json`:
 
-  - As a license file path (recommended):
+  * As a license file path (recommended):
 
     ```json
     "env": {
@@ -68,7 +73,7 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
     }
     ```
 
-  - As a license key value:
+  * As a license key value:
 
     ```json
     "env": {
@@ -78,7 +83,7 @@ An active Telerik UI for .NET MAUI license is required to use the Telerik MAUI M
 
 >note Use a license file path unless you need to share settings across systems. When your Telerik license changes, [update the license key]({%slug set-up-your-license%}#updating-your-license-key) before you restart the MCP client.
 
-Client configuration examples in the next section use `TELERIK_LICENSE_PATH`. If you prefer to pass the license value directly, replace it with `TELERIK_LICENSE` in the `env` object.
+If your license file is not in the default location, add `TELERIK_LICENSE_PATH` to the `env` object in the client configuration. If you prefer to pass the license value directly, use `TELERIK_LICENSE` instead.
 
 ## MCP Clients Configuration
 
@@ -91,10 +96,12 @@ Use the following client-specific examples to create a working `mcp.json` file. 
 
 1. Add an `.mcp.json` file to either of the following locations:
 
-    - For a workspace-specific setup, add the file to the solution folder.
-    - For a global setup, add the file to your user directory, `%USERPROFILE%` (for example, `C:\Users\YourName\.mcp.json`).
+    * For a workspace-specific setup, add the file to the solution folder.
+    * For a global setup, add the file to your user directory, `%USERPROFILE%` (for example, `C:\Users\YourName\.mcp.json`).
 
-    ```json .NET 10
+    For .NET 10, use:
+
+    ```json
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -106,7 +113,9 @@ Use the following client-specific examples to create a working `mcp.json` file. 
     }
     ```
 
-    ```json .NET 9
+    For .NET 9, use:
+
+    ```json
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -131,7 +140,9 @@ The basic setup in Visual Studio Code involves the following steps:
 1. Enable [`chat.mcp.enabled`](vscode://settings/chat.mcp.enabled) in the Visual Studio Code settings.
 2. Create a `.vscode/mcp.json` file in your workspace root (or user folder for global setup):
 
-    ```json .NET 10
+    For .NET 10, use:
+
+    ```json
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -142,7 +153,9 @@ The basic setup in Visual Studio Code involves the following steps:
       }
     }
     ```
-    ```json .NET 9
+    For .NET 9, use:
+
+    ```json
     {
       "servers": {
         "telerik-maui-assistant": {
@@ -171,7 +184,7 @@ The basic setup in Visual Studio Code involves the following steps:
 
 Create a `.cursor/mcp.json` file in your workspace root (or user folder for global setup):
 
-```json .NET 10
+```json
 {
   "mcpServers": {
     "telerik-maui-assistant": {
@@ -183,7 +196,7 @@ Create a `.cursor/mcp.json` file in your workspace root (or user folder for glob
 }
 ```
 
-```json .NET 9
+```json
 {
   "mcpServers": {
     "telerik-maui-assistant": {
@@ -209,24 +222,24 @@ After you restart the client, confirm that the server is available before you be
 
 Use one of the following trigger strings in your prompt:
 
-- `#telerik`
-- `#telerikmaui`
-- `#telerik-maui-assistant`
+* `#telerik`
+* `#telerikmaui`
+* `#telerik-maui-assistant`
 
 Look for one of the following client messages:
 
-- Visual Studio: `Running telerik-maui-assistant`
-- Visual Studio Code: `Running telerik-maui-assistant`
-- Cursor: `Calling MCP tool telerik-maui-assistant`
+* Visual Studio: `Running telerik-maui-assistant`
+* Visual Studio Code: `Running telerik-maui-assistant`
+* Cursor: `Calling MCP tool telerik-maui-assistant`
 
 ## Troubleshooting
 
 If the server does not appear or does not respond, check the following items first:
 
-- Confirm that your installed runtime matches the configuration in `mcp.json`.
-- Confirm that the JSON file is valid and uses the correct top-level property for your client.
-- Confirm that your Telerik license file path or license value is available to the editor process.
-- Restart the editor after every `mcp.json` change.
+* Confirm that your installed runtime matches the configuration in `mcp.json`.
+* Confirm that the JSON file is valid and uses the correct top-level property for your client.
+* Confirm that your Telerik license file path or license value is available to the editor process.
+* Restart the editor after every `mcp.json` change.
 
 >warning
 > **Known Issue: Hanging tool calls in Visual Studio**
@@ -260,8 +273,8 @@ Use the following practices when you work with the Telerik MAUI MCP server:
 
 To increase the likelihood that your AI client uses the Telerik server, add client-specific instructions that mention Telerik UI for .NET MAUI as a preferred source for component generation and API guidance:
 
-- [GitHub Copilot custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot#about-repository-custom-instructions-for-github-copilot-chat)
-- [Cursor rules](https://docs.cursor.com/context/rules)
+* [GitHub Copilot custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot#about-repository-custom-instructions-for-github-copilot-chat)
+* [Cursor rules](https://docs.cursor.com/context/rules)
 
 ### Sample Prompts
 
@@ -287,5 +300,5 @@ This setup allows you to use the Telerik Agentic UI Generator without a cloud-ba
 
 ## See Also
 
-- [Agentic UI Generator Overview]({%slug ai-overview%})
-- [Set Up Your Telerik License]({%slug set-up-your-license%})
+* [Agentic UI Generator Overview]({%slug ai-overview%})
+* [Set Up Your Telerik License]({%slug set-up-your-license%})
