@@ -13,7 +13,7 @@ res_type: kb
 
 | Version | Product | Author |
 | --- | --- | ---- |
-| 11.0.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
+| 11.0.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
@@ -36,7 +36,6 @@ Start with a configured .NET MAUI app that includes the Telerik XAML namespace a
 In the page code-behind, subscribe to the `HandlerChanged` event and update the native chart when its handler is available:
 
 ```C#
-
 public partial class MainPage : ContentPage
 {
     public MainPage()
