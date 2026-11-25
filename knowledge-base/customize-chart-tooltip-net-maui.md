@@ -1,8 +1,8 @@
 ---
-title: Customize the tooltip's appearance in the Chart for .NET MAUI
-description: Learn how to customize the tooltip in the Chart for .NET MAUI by using the native chart implementation of the Android and iOS platforms.
+title: Customizing Chart Tooltips in .NET MAUI
+description: Learn how to customize Chart tooltips in Telerik UI for .NET MAUI with ChartTooltipBehavior or platform-specific native APIs for custom styling.
 type: how-to
-page_title: Customizing the tooltip in Chart for .NET MAUI
+page_title: Customizing Chart Tooltips in Chart for .NET MAUI
 slug: customize-chart-tooltip-net-maui
 tags: [.net maui, chart, tooltip, customization, template]
 res_type: kb
@@ -13,21 +13,26 @@ res_type: kb
 | Property | Value |
 |----------|-------|
 | Product  | Chart for .NET MAUI |
+| Platforms | Android and iOS |
 
 ## Description
 
-I want to customize the tooltips in the Chart for .NET MAUI.
+I want to customize the tooltips in the Chart for .NET MAUI on Android and iOS.
 
 ## Solution
 
-To customize the tooltip in the NET MAUI Chart, you can use the native Chart implementation of the different platforms (Android and iOS):
+The examples assume a configured `RadCartesianChart`. If you need to set up the chart first, follow [the CartesianChart getting started guide]({%slug chart-getting-started%}).
+
+Use the cross-platform `ChartTooltipBehavior` API for standard tooltip content and styling. See [Customizing CartesianChart tooltips]({%slug chart-behaviors-tooltip%}) for the supported cross-platform API.
+
+For platform-specific customization that the cross-platform API does not expose, use the native chart implementation for Android and iOS.
 
 1. Subscribe to the `HandlerChanged` event of the chart.
 2. Use the native chart objects to customize the tooltip on Android and iOS platforms.
 
-Here is an example of how to customize the tooltip:
+The following code-behind fragment accesses the native chart after its handler is created:
 
-```csharp
+```C#
 private void chart_HandlerChanged(object sender, EventArgs e)
 {
     var platformView = this.chart.Handler.PlatformView;
@@ -54,9 +59,9 @@ private void chart_HandlerChanged(object sender, EventArgs e)
 
 ### Android Specifics
 
-For Android, you must define a `MyTooltipContentAdapter` class inside the `Platforms/Android` folder:
+For Android, define the `MyTooltipContentAdapter` class inside the `Platforms/Android/` folder. This fragment implements the native tooltip content adapter:
 
-```csharp
+```C#
 public class MyTooltipContentAdapter : Java.Lang.Object, Com.Telerik.Android.Primitives.Widget.Tooltip.Contracts.ITooltipContentAdapter
 {
     public bool ApplyDefaultStyles { get; set; }
@@ -84,9 +89,9 @@ public class MyTooltipContentAdapter : Java.Lang.Object, Com.Telerik.Android.Pri
 
 ### iOS Specifics
 
-For iOS, define the `MyChartDelegate` class inside the `Platforms/iOS` folder:
+For iOS, define the `MyChartDelegate` class inside the `Platforms/iOS/` folder. This fragment overrides the native trackball selection callback:
 
-```csharp
+```C#
 public class MyChartDelegate : Telerik.Maui.Controls.Compatibility.ChartRenderer.iOS.CartesianChartDelegate
 {
     public MyChartDelegate(RadCartesianChart chart) : base(chart)
@@ -117,9 +122,11 @@ public class MyChartDelegate : Telerik.Maui.Controls.Compatibility.ChartRenderer
 
 ## Notes
 
-- With the native approach, you won't be able to bind properties from the page's View Model. You will have access to the data points and their data.
-- Make sure to replace the placeholder class names and namespaces with your actual class names and namespaces.
+The native approach does not support binding properties from the page's view model. You can access the data points and their data instead.
+
+Replace the placeholder class names and namespaces with the class names and namespaces from your app.
 
 ## See Also
 
-- [Chart for .NET MAUI Documentation](https://docs.telerik.com/devtools/maui-ui/controls/chart/chart-overview)
+* [Chart for .NET MAUI overview]({%slug chart-overview%})
+* [Customizing CartesianChart tooltips]({%slug chart-behaviors-tooltip%})
