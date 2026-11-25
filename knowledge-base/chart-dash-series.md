@@ -1,7 +1,7 @@
 ---
 title: Creating Dashed Line Series by Using the .NET MAUI Chart
 page_title: Creating Dashed Line Charts - .NET MAUI Knowledge Base
-description: Learn how to create dashed line chart series by using the Telerik UI for .NET MAUI Line Series Chart component on Android, iOS, MacCatalyst, and WinUI.
+description: Learn how to create a dashed line series in the Telerik UI for .NET MAUI Chart on Android, iOS, Mac Catalyst, and Windows.
 type: how-to
 slug: chart-dash-series
 tags: maui, chart, .net maui, dashed chart, ios, mac, windows, android, line chart
@@ -30,15 +30,15 @@ How can I create a dashed line chart by using the Line Series of the Telerik UI 
 
 ## Solution
 
-For the purposes of this guide, the example uses the following prerequisites:
+For this guide, the example uses the following prerequisites:
 
-* Native iOS, Android, and WinUI Chart controls.
-* The stroke approach to draw the lines of the Chart series.
-* The `DashedArray` which is part of the Stroke tool.
+* A `RadCartesianChart` with two `LineSeries` instances.
+* The native chart control for each target platform.
+* The platform-specific APIs that configure a series stroke dash pattern.
 
 To achieve the desired scenario:
 
-**1.** Define the Business Model and the `ViewModel`.
+1. Define the business model and the `ViewModel`.
 
 ```C#
 public class NumericalData
@@ -92,7 +92,7 @@ internal class ViewModel : NotifyPropertyChangedBase
 }
 ```
 
-**2.** Now, define the Chart in XAML:
+2. Define the chart in XAML:
 
 ```XAML
 <telerik:RadCartesianChart x:Name="chart" HeightRequest="300">
@@ -108,11 +108,11 @@ internal class ViewModel : NotifyPropertyChangedBase
             <telerik:RadCartesianChart.Series>
                 <telerik:LineSeries CategoryBinding="XData"
                                     ValueBinding="YData"
-                                    DisplayName=" Data1"
+                                    DisplayName="Data1"
                                     ItemsSource="{Binding Data1}" />
                 <telerik:LineSeries CategoryBinding="XData"
                                     ValueBinding="YData"
-                                    DisplayName=" Data2"
+                                    DisplayName="Data2"
                                     ItemsSource="{Binding Data2}" />
             </telerik:RadCartesianChart.Series>
         </telerik:RadCartesianChart>
@@ -122,7 +122,9 @@ internal class ViewModel : NotifyPropertyChangedBase
                            HeightRequest="200"/>
 ```
 
-**3.** Add the following code to your project to achieve dashed series:
+3. Add the following code to the code-behind file to configure the second series with a dashed stroke:
+
+The code uses series index `1`, which refers to the second series in the XAML collection.
 
 ```C#
 public partial class MainPage : ContentPage
@@ -161,6 +163,6 @@ public partial class MainPage : ContentPage
 }
 ```
 
-The following image demonstrates the end result on MacCatalyst:
+The following image shows the resulting dashed line series on Mac Catalyst.
 
-![Dashed line series Telerik UI for .NET MAUI Chart palette](images/dashedchart-mac.png)
+![Mac Catalyst chart with a dashed blue line series and a solid red line series](images/dashedchart-mac.png)
