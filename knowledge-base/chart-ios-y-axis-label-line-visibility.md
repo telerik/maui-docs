@@ -11,37 +11,37 @@ res_type: kb
 
 ## Environment
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
+| Version | Product | Author |
+| --- | --- | ---- |
 | 11.0.0 | Telerik UI for .NET MAUI Chart | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) | 
 
 ## Description
 
-I want to achieve consistent rendering for the [Chart](https://docs.telerik.com/devtools/maui/controls/chart/types/cartesian-chart) in .NET MAUI across Android and iOS. On iOS, the Y-axis line is not visible, and the axis labels are inside the chart renderer and right-aligned instead of left-aligned as on Android.
+The native Android and iOS chart controls can render the Y-axis differently. On iOS, the Y-axis line is not visible, and the axis labels are inside the chart renderer and right-aligned instead of left-aligned as on Android.
 
-This knowledge base article also answers the following questions:
-- How to make the Y-axis line visible in `RadCartesianChart` for iOS?
-- How to align the Y-axis labels to the left in `RadCartesianChart` for iOS?
-- How to customize the `RadCartesianChart` rendering for iOS in .NET MAUI?
+This article shows how to customize the native iOS chart control to make the Y-axis line visible and align the labels to the left.
 
 ## Solution
 
-Access the native iOS chart control via the handler to customize the Y-axis line visibility and label alignment.
+Start with a configured .NET MAUI app that includes the Telerik XAML namespace and a `RadCartesianChart`. The following XAML fragment defines the chart and its vertical axis:
 
-1. Subscribe to the `HandlerChanged` event of `RadCartesianChart`.
-2. Access the native iOS control in the event handler.
-3. Modify the Y-axis properties to make the line visible and align the labels to the left.
+```XAML
+<telerik:RadCartesianChart x:Name="chart">
+    <telerik:RadCartesianChart.VerticalAxis>
+        <telerik:NumericalAxis />
+    </telerik:RadCartesianChart.VerticalAxis>
+</telerik:RadCartesianChart>
+```
 
-```csharp
-<telerik:RadCartesianChart x:Name="chart" />
+In the page code-behind, subscribe to the `HandlerChanged` event and update the native chart when its handler is available:
+
+```C#
 
 public partial class MainPage : ContentPage
 {
     public MainPage()
     {
         InitializeComponent();
-        this.BindingContext = new SeriesCategoricalViewModel();
-
         this.chart.HandlerChanged += this.Chart_HandlerChanged;
     }
 
@@ -52,8 +52,13 @@ public partial class MainPage : ContentPage
 
     private void UpdateChart()
     {
-        var platformView = this.chart.Handler.PlatformView;
 #if IOS || MACCATALYST
+        var platformView = this.chart.Handler?.PlatformView;
+        if (platformView == null)
+        {
+            return;
+        }
+
         var platformChart = (Telerik.Maui.Controls.Compatibility.ChartRenderer.iOS.TKExtendedChart)platformView;
         platformChart.YAxis.Style.LineHidden = false;
         platformChart.YAxis.Style.LabelStyle.TextAlignment = TelerikUI.TKChartAxisLabelAlignment.Left;
@@ -63,7 +68,9 @@ public partial class MainPage : ContentPage
 }
 ```
 
+Run the app on iOS and verify that the Y-axis line is visible and the labels are left-aligned. The conditional compilation keeps the iOS-specific API out of Android builds.
+
 ## See Also
 
-- [CartesianChart Overview](https://docs.telerik.com/devtools/maui/controls/chart/types/cartesian-chart)
-- [Customizing Native Chart Controls in .NET MAUI](https://docs.telerik.com/devtools/maui/search?q=chart)
+- [CartesianChart Overview]({%slug chart-types-cartesian-chart%})
+- [Chart Overview]({%slug chart-overview%})
