@@ -21,9 +21,9 @@ I want to customize the tooltips in the Chart for .NET MAUI on Android and iOS.
 
 ## Solution
 
-The examples assume a configured `RadCartesianChart`. If you need to set up the chart first, follow [the CartesianChart getting started guide]({%slug charts-cartesian-getting-started%}).
+The examples assume a configured `RadCartesianChart`. If you need to set up the chart first, follow [the CartesianChart getting started guide]({%slug chart-getting-started%}).
 
-Use the cross-platform `ChartTooltipBehavior` API for standard tooltip content and styling. See [Customizing CartesianChart tooltips]({%slug charts-cartesian-tooltip%}) for the supported cross-platform API.
+Use the cross-platform `ChartTooltipBehavior` API for standard tooltip content and styling. See [Customizing CartesianChart tooltips]({%slug chart-behaviors-tooltip%}) for the supported cross-platform API.
 
 For platform-specific customization that the cross-platform API does not expose, use the native chart implementation for Android and iOS.
 
@@ -129,4 +129,4 @@ Replace the placeholder class names and namespaces with the class names and name
 ## See Also
 
 * [Chart for .NET MAUI overview]({%slug chart-overview%})
-* [Customizing CartesianChart tooltips]({%slug charts-cartesian-tooltip%})
+* [Customizing CartesianChart tooltips]({%slug chart-behaviors-tooltip%})
