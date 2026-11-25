@@ -27,8 +27,8 @@ Use the following styling areas depending on the part of the DataGrid that you w
 
 Use `BorderBrush` and `BorderThickness` when you want to emphasize the outer boundary of the DataGrid:
 
-- `BorderBrush`&mdash;Defines the brush of the border around the DataGrid.
-- `BorderThickness`&mdash;Defines the thickness of that border.
+* `BorderBrush`&mdash;Defines the brush of the border around the DataGrid.
+* `BorderThickness`&mdash;Defines the thickness of that border.
 
 The following example sets both properties:
 
@@ -46,11 +46,12 @@ The following image shows a styled DataGrid border:
 
 Use the following properties to style row backgrounds, selection state, the current cell, and hover behavior:
 
-- `RowBackgroundStyle` (`Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of each row.
-- `AlternateRowBackgroundStyle` (`Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of alternating rows.
-- `SelectionStyle` (`Style` with target type `DataGridSelectionAppearance`)&mdash;Defines the appearance of the selected row.
-- `CurrentCellStyle` (`Style` with target type `DataGridCurrentCellAppearance`)&mdash;Defines the style of the current cell.
-- `MouseHoverStyle` (`Style` with target type `DataGridMouseHoverAppearance`)&mdash;Defines the style applied to rows and cells when the pointer moves over them on desktop platforms.
+* `RowBackgroundStyle` (`Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of each row.
+* `AlternateRowBackgroundStyle` (`Style` with target type `DataGridRowBackgroundAppearance`)&mdash;Defines the style of alternating rows.
+* `SelectionStyle` (`Style` with target type `DataGridSelectionAppearance`)&mdash;Defines the appearance of the selected row.
+* `CurrentCellStyle` (`Style` with target type `DataGridCurrentCellAppearance`)&mdash;Defines the style of the current cell.
+* `MouseHoverStyle` (`Style` with target type `DataGridMouseHoverAppearance`)&mdash;Defines the style applied to rows and cells when the pointer moves over them on desktop platforms.
+
 These appearance types derive from `DataGridBorderAppearance`, which exposes `BackgroundColor`, `SearchMatchBackgroundColor`, `BorderColor`, and `BorderThickness`.
 
 Use `RowBackgroundStyle` to define the default row appearance:
@@ -75,9 +76,9 @@ The following image shows styled rows and selection state:
 
 Use the following properties to control the grid lines between rows and columns:
 
-- `GridLinesVisibility` (`Telerik.Maui.Controls.DataGrid.GridLinesVisibility`)&mdash;Defines which DataGrid lines are visible. The supported values are `Both`, `Horizontal`, `None`, and `Vertical`.
-- `GridLinesColor` (`Color`)&mdash;Defines the color of the horizontal and vertical grid lines.
-- `GridLinesThickness` (`double`)&mdash;Defines the width of the vertical lines and the height of the horizontal lines.
+* `GridLinesVisibility` (`Telerik.Maui.Controls.DataGrid.GridLinesVisibility`)&mdash;Defines which DataGrid lines are visible. The supported values are `Both`, `Horizontal`, `None`, and `Vertical`.
+* `GridLinesColor` (`Color`)&mdash;Defines the color of the horizontal and vertical grid lines.
+* `GridLinesThickness` (`double`)&mdash;Defines the width of the vertical lines and the height of the horizontal lines.
 
 The following example shows how to display and style the grid lines:
 
@@ -88,11 +89,9 @@ The following example shows how to display and style the grid lines:
 					 GridLinesThickness="5" />
 ```
 
-## Frozen Columns
+## Frozen Columns Splitter
 
 When your DataGrid uses frozen columns, `FrozenColumnsSplitterStyle` lets you style the divider between the frozen and scrollable column areas.
-
-## Splitter UI
 
 Use the `Width`, `BackgroundColor`, `BorderColor`, and `BorderThickness` properties to change the appearance of the splitter:
 
@@ -111,5 +110,5 @@ Use this style when the default splitter is too subtle or when you want the froz
 
 ## See Also
 
-- [Styling the .NET MAUI DataGrid Columns]({%slug datagrid-columns-styling%})
-- [Available DataGrid Style Selectors]({%slug datagrid-style-selectors%})
+* [Styling the .NET MAUI DataGrid Columns]({%slug datagrid-columns-styling%})
+* [Available DataGrid Style Selectors]({%slug datagrid-style-selectors%})
