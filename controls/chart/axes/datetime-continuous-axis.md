@@ -39,8 +39,6 @@ Use the following properties to configure `DateTimeContinuousAxis`:
 * `LabelFormat`&mdash;Defines the date or time format string for the axis labels, such as `"dd-MM-yy"` or `"HH:mm"`.
 * `LabelFormatter`&mdash;Defines a custom formatter for the axis labels.
 
-> The axis interval can be calculated automatically or fixed with `MajorStep` and `MajorStepUnit`.
-
 ## Example
 
 The following example shows how to format `DateTimeContinuousAxis` labels with a custom formatter.
@@ -123,10 +121,9 @@ The following example shows how to format `DateTimeContinuousAxis` labels with a
            </telerik:DateTimeContinuousAxis>
        </telerik:RadCartesianChart.HorizontalAxis>
        <telerik:RadCartesianChart.VerticalAxis>
-           <telerik:NumericalAxis LabelFormat="C"
-                                  MajorStep="0.5"
-                                  Minimum="-1"
-                                  Maximum="1" />
+           <telerik:NumericalAxis            MajorStep="0.5"
+           Minimum="-1"
+           Maximum="1" />
        </telerik:RadCartesianChart.VerticalAxis>
        <telerik:RadCartesianChart.Series>
            <telerik:LineSeries ItemsSource="{Binding Data}"
@@ -136,11 +133,11 @@ The following example shows how to format `DateTimeContinuousAxis` labels with a
    </telerik:RadCartesianChart>
    ```
 
-In this example, `MajorStepUnit="Day"` places the data points on a daily timeline. The custom formatter displays the day number with an ordinal suffix.
+In this example, `MajorStepUnit="Day"` sets the time-slot interval to days. The custom formatter displays the day number with an ordinal suffix.
 
 The following image shows the formatted `DateTimeContinuousAxis` labels:
 
-![Telerik UI for .NET MAUI line chart with DateTimeContinuousAxis labels formatted as ordinal day values](images/chart-date-time-continuous-axis-example.png)
+![Line chart with ordinal day labels on a DateTimeContinuousAxis](images/chart-date-time-continuous-axis-example.png)
 
 ## See Also
 
