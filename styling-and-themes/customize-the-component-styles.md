@@ -17,7 +17,7 @@ Use Telerik UI for .NET MAUI theme resources to customize control styles beyond 
 Before you customize component styles, ensure that:
 
 1. Telerik theming is enabled in the app. For setup details, see [Enable Telerik theming in .NET MAUI]({%slug themes-overview%}#using-the-maui-theming).
-2. The `\TelerikTheming\Styles` folder exists in your project output and contains the theme-specific control resource dictionaries.
+2. The `\TelerikTheming\Styles` folder is generated after you rebuild the project with theming enabled. It contains the `Telerik` and `Platform` theme-specific control resource dictionaries.
 3. You already defined your base theme colors, if needed. For details, see [Customize Telerik theme colors]({%slug themes-customization%}).
 
 >note
@@ -63,7 +63,7 @@ A common scenario is to apply your company's colors by [modifying the theme swat
 
 ### Copying and Modifying Theme Resources
 
-To modify the Telerik theme styles of a control, use the resource dictionaries in the selected theme folder, such as `\TelerikTheming\Styles\Telerik`, as a starting point. These files are generated when you enable Telerik theming and serve as references for your customizations.
+To modify the theme styles of a control, use the resource dictionaries in the selected theme folder, such as `\TelerikTheming\Styles\Telerik` or `\TelerikTheming\Styles\Platform`, as a starting point. These files are generated when you enable Telerik theming and serve as references for your customizations.
 
 The next steps show how to customize DataGrid theme styles. They assume that you have already [customized the theme colors]({%slug themes-customization%}):
 
