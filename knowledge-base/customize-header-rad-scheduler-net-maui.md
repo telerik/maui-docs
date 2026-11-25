@@ -1,6 +1,6 @@
 ---
 title: Customizing Header Settings in RadScheduler for .NET MAUI
-description: Learn how to modify the RadScheduler header, including removing navigation buttons and aligning the month text.
+description: Learn how to customize the Telerik UI for .NET MAUI Scheduler header by removing mobile controls, retaining the month text, and centering it.
 type: how-to
 page_title: How to Customize Header in Telerik RadScheduler for .NET MAUI
 slug: customize-header-rad-scheduler-net-maui
@@ -10,17 +10,17 @@ res_type: kb
 
 ## Environment
 
-| Version | Product | Author | 
-| --- | --- | ---- | 
-| 7.0.0 | Telerik UI for .NET MAUI Scheduler | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova)| 
+| Version | Product | Platform | Author |
+| --- | --- | --- | --- |
+| 7.0.0 | Telerik UI for .NET MAUI Scheduler | Android and iOS | [Dobrinka Yordanova](https://www.telerik.com/blogs/author/dobrinka-yordanova) |
 
 ## Description
 
-I need to modify the RadScheduler header to better suit my application's UI. How can I achieve the following Telerik UI for .NET MAUI Scheduler customizations?
+I need to modify the `RadScheduler` header to better suit my application's UI. How can I achieve the following Telerik UI for .NET MAUI Scheduler customizations?
 
-* Remove the drop-down navigation button located at the top left of the header, which opens the calendar, but retain the month text (e.g., Jun 2024). 
+* Remove the drop-down navigation button located at the top left of the header, which opens the calendar, but retain the month text, such as Jun 2024.
 * Center the month text within the header.
-* Hide the "Available views" button located at the header's top right.
+* Hide the **Available views** button located at the header's top right.
 
 This KB article also answers the following questions:
 - How to remove the navigation button from the RadScheduler header?
@@ -29,11 +29,11 @@ This KB article also answers the following questions:
 
 ## Solution
 
-To customize the header of the [RadScheduler]({%slug scheduler-overview%}) for .NET MAUI, including removing the navigation button, aligning the month text, and hiding the "Available views" button, you can use a control template. The steps below outline how to apply these customizations:
+To customize the header of the [RadScheduler control]({%slug scheduler-overview%}) for .NET MAUI, use a control template. This example assumes that your app already references Telerik UI for .NET MAUI, calls `UseTelerik()` during app setup, and declares the `telerik` XAML namespace. The template is applied only on Android and iOS.
 
-**1.** Define a control template in your XAML file. This template will specify the layout and appearance of the RadScheduler header.
+1. Define a control template in the page's XAML resources. Name the header label `PART_HeaderLabel` so the template retains the scheduler's month text.
 
-```xml
+```XAML
 <ContentPage.Resources>
     <ResourceDictionary>
         <Style TargetType="Label" x:Key="HeaderLabelStyle">
@@ -45,7 +45,9 @@ To customize the header of the [RadScheduler]({%slug scheduler-overview%}) for .
             <Grid RowDefinitions="Auto, *">
                 <telerik:RadBorder Style="{TemplateBinding ActualHeaderBorderStyle}">
                     <Grid ColumnDefinitions="*, Auto">
-                        <Label Style="{TemplateBinding ActualHeaderLabelStyle}" />
+                        <Label x:Name="PART_HeaderLabel"
+                               Grid.ColumnSpan="2"
+                               Style="{TemplateBinding ActualHeaderLabelStyle}" />
                         <Button Grid.Column="1"
                                 Style="{TemplateBinding ActualTodayButtonStyle}"
                                 IsVisible="{TemplateBinding IsTodayButtonVisible}"
@@ -60,18 +62,18 @@ To customize the header of the [RadScheduler]({%slug scheduler-overview%}) for .
     </ResourceDictionary>
 </ContentPage.Resources>
 
-<telerik:RadScheduler x:Name="scheduler" 
+<telerik:RadScheduler x:Name="scheduler"
                        HeaderLabelStyle="{StaticResource HeaderLabelStyle}">
     <telerik:RadScheduler.ViewDefinitions>
-        <telerik:MonthViewDefinition Title="Month Schedule" 
+        <telerik:MonthViewDefinition Title="Month Schedule"
                                HeaderTextFormat="{}{0:MMM yyyy}" />
     </telerik:RadScheduler.ViewDefinitions>
 </telerik:RadScheduler>
 ```
 
-**2.** Apply the control template to the RadScheduler component in your code-behind, specifically for iOS and Android platforms:
+2. Apply the control template in the page's code-behind on Android and iOS:
 
-```csharp
+```C#
 public partial class MainPage : ContentPage
 {
     public MainPage()
@@ -85,11 +87,10 @@ public partial class MainPage : ContentPage
 }
 ```
 
-By following these steps, you can customize the RadScheduler header according to your requirements, including removing specific buttons and aligning text.
+The template removes the mobile navigation and available-views buttons, retains the month text, centers it, and keeps the **Today** button when it is enabled.
 
 ## See Also
 
 - [.NET MAUI Scheduler]({%slug scheduler-overview%})
 - [.NET MAUI Scheduler Header Settings]({%slug header-settings%})
 - [.NET MAUI Scheduler Header Styling]({%slug scheduler-header-styling%})
-
