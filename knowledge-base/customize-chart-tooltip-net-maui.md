@@ -1,6 +1,6 @@
 ---
 title: Customizing Chart Tooltips in .NET MAUI
-description: Learn how to customize Chart tooltips in Telerik UI for .NET MAUI with ChartTooltipBehavior or platform-specific native APIs for advanced appearance changes.
+description: Learn how to customize Chart tooltips in Telerik UI for .NET MAUI with ChartTooltipBehavior or platform-specific native APIs for custom styling.
 type: how-to
 page_title: Customizing Chart Tooltips in Chart for .NET MAUI
 slug: customize-chart-tooltip-net-maui
