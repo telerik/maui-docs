@@ -9,7 +9,7 @@ tag: updated
 components: ["general"]
 ---
 
-# Getting Started with the Telerik UI for .NET MAUI MCP Server
+# Getting Started with the Telerik UI for .NET MAUI Agentic UI Generator
 
 The Agentic UI Generator is an intelligent development tool delivered through the Progress® Telerik® UI for .NET MAUI [MCP (Model Context Protocol) server](https://www.nuget.org/packages/Telerik.MAUI.MCP). It enables UI generation from natural language prompts. Once configured and authenticated, you can use the Agentic UI Generator tool (`#telerik-maui-assistant`) together with the available specialized MCP assistants.
 
@@ -31,8 +31,11 @@ Choose the runtime that best matches your development environment:
 
 Install the server package by using the `dnx` script or the `dotnet` CLI:
 
-  ```bash
+  ```bash .NET 10
   dnx Telerik.MAUI.MCP
+  ```
+  ```bash .NET 9
+  dotnet tool install Telerik.MAUI.MCP
   ```
 
 After the package is available, configure `mcp.json`, add your Telerik license if needed, restart your MCP client, and then verify that the server is running.
@@ -93,13 +96,24 @@ Use the following client-specific examples to create a working `mcp.json` file. 
 
     For .NET 10, use:
 
-    ```json
+    ```json .NET 10
     {
       "servers": {
         "telerik-maui-assistant": {
           "type": "stdio",
           "command": "dnx",
           "args": ["Telerik.MAUI.MCP", "--yes"]
+        }
+      }
+    }
+    ```
+    ```json .NET 9
+    {
+      "servers": {
+        "telerik-maui-assistant": {
+          "type": "stdio",
+          "command": "dotnet",
+          "args": ["tool", "run", "telerik-maui-assistant"]
         }
       }
     }
@@ -118,15 +132,24 @@ The basic setup in Visual Studio Code involves the following steps:
 1. Enable [`chat.mcp.enabled`](vscode://settings/chat.mcp.enabled) in the Visual Studio Code settings.
 2. Create a `.vscode/mcp.json` file in your workspace root (or user folder for global setup):
 
-    For .NET 10, use:
-
-    ```json
+    ```json .NET 10
     {
       "servers": {
         "telerik-maui-assistant": {
           "type": "stdio",
           "command": "dnx",
           "args": ["Telerik.MAUI.MCP", "--yes"]
+        }
+      }
+    }
+    ```
+    ```json .NET 9
+    {
+      "servers": {
+        "telerik-maui-assistant": {
+          "type": "stdio",
+          "command": "dotnet",
+          "args": ["tool", "run", "telerik-maui-assistant"]
         }
       }
     }
@@ -149,15 +172,24 @@ The basic setup in Visual Studio Code involves the following steps:
 
 Create a `.cursor/mcp.json` file in your workspace root (or user folder for global setup):
 
-For .NET 10, use:
-
-```json
+```json .NET 10
 {
   "mcpServers": {
     "telerik-maui-assistant": {
       "type": "stdio",
       "command": "dnx",
       "args": ["Telerik.MAUI.MCP", "--yes"]
+    }
+  }
+}
+```
+```json .NET 9
+{
+  "mcpServers": {
+    "telerik-maui-assistant": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["tool", "run", "telerik-maui-assistant"]
     }
   }
 }
