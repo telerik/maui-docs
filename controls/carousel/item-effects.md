@@ -40,6 +40,10 @@ The following example sets a different scale and opacity for each item position.
 
     <snippet id='carousel-item-effects' />
 
+1. Define the ItemViewStyle with `Pressed` visual state for applying the scale and opacity effects:
+
+    <snippet id='carousel-item-effects-item-view-style' />
+
 1. Add the `telerik` namespace:
 
     ```XAML
