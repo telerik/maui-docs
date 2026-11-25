@@ -31,7 +31,7 @@ This KB article also answers the following questions:
 
 To customize the header of the [RadScheduler control]({%slug scheduler-overview%}) for .NET MAUI, use a control template. This example assumes that your app already references Telerik UI for .NET MAUI, calls `UseTelerik()` during app setup, and declares the `telerik` XAML namespace. The template is applied only on Android and iOS.
 
-1. Define a control template in the page's XAML resources. Set the label `Text` with `TemplateBinding` so the template retains the scheduler's month text.
+1. Define a control template in the page's XAML resources. Name the header label `PART_HeaderLabel` so the template retains the scheduler's month text.
 
 ```XAML
 <ContentPage.Resources>
@@ -45,7 +45,8 @@ To customize the header of the [RadScheduler control]({%slug scheduler-overview%
             <Grid RowDefinitions="Auto, *">
                 <telerik:RadBorder Style="{TemplateBinding ActualHeaderBorderStyle}">
                     <Grid ColumnDefinitions="*, Auto">
-                        <Label Text="{TemplateBinding HeaderText}"
+                        <Label x:Name="PART_HeaderLabel"
+                               Grid.ColumnSpan="2"
                                Style="{TemplateBinding ActualHeaderLabelStyle}" />
                         <Button Grid.Column="1"
                                 Style="{TemplateBinding ActualTodayButtonStyle}"
