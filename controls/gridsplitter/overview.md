@@ -30,9 +30,9 @@ You can place the GridSplitter in different ways depending on the layout you wan
 - Place it in the same cell as another control when you want the splitter to share space with existing content.
 - Add it as the last element in the `Grid` when you want it to appear on top of another control in the same cell.
 
-In most layouts, a horizontal GridSplitter resizes rows and a vertical GridSplitter resizes columns.
+In most layouts, a horizontal GridSplitter resizes rows and a vertical GridSplitter resizes columns. The following animation shows a GridSplitter resizing rows and columns in a `Grid`.
 
-![.NET MAUI GridSplitter Overview](images/gridsplitter-overview.gif "GridSplitter Overview")
+![Animated example of a .NET MAUI GridSplitter resizing rows and columns in a Grid](images/gridsplitter-overview.gif "GridSplitter Overview")
 
 ## Key Features of the .NET MAUI GridSplitter
 
