@@ -31,9 +31,7 @@ Choose a path based on what you need:
 
 ## List of .NET MAUI UI Controls
 
-The suite includes high-performance, customizable controls organized by category. Click any control name to explore its documentation, features, and code examples.
-
-Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI. Clicking on each control navigates you to the detailed .NET MAUI documentation explaining the key features and how to utilize them.
+The suite includes high-performance, customizable controls organized by category. Select a control name to explore its documentation, features, and code examples.
 
 <IntroTable>
     <IntroTableColumn>
@@ -47,7 +45,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
         </IntroTableSection>
         <IntroTableSection title="Data Visualization">
             <IntroTableAnchor title="Barcodes" href="slug:barcode-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Charts (New)" href="slug:charts-overview" tag="new"></IntroTableAnchor>
+            <IntroTableAnchor title="Charts" href="slug:charts-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="Chart" href="slug:chart-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Gauges" href="slug:gauge-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Map" href="slug:map-overview"></IntroTableAnchor>
@@ -119,7 +117,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
             <IntroTableAnchor title="PromptInput" href="slug:promptinput-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="RefreshView" href="slug:refreshview-overview" tag="new">></IntroTableAnchor>
+            <IntroTableAnchor title="RefreshView" href="slug:refreshview-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="Skeleton" href="slug:skeleton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
         </IntroTableSection>
@@ -180,19 +178,20 @@ When you need help, you have several options:
 - **Community Forum**&mdash;Ask questions and connect with the community in the [Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui).
 - **Feature Requests**&mdash;Share ideas and vote on features in the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).
 - **What's New**&mdash;Check the [Telerik UI for .NET MAUI release history](https://www.telerik.com/support/whats-new/maui-ui/release-history) and [latest Telerik UI for .NET MAUI updates](https://www.telerik.com/support/whats-new/maui-ui).
-* This official Telerik UI for .NET MAUI documentation is public and available for all users. If you want to share your feedback on a specific article, fill in the **Is this article helpful?** form and tell us more about whether the content was useful for you to successfully achieve what you wanted.
+
+This official Telerik UI for .NET MAUI documentation is public and available for all users. To share feedback on a specific article, complete the **Is this article helpful?** form and tell us whether the content helped you achieve your goal.
 
 ## Learning Resources
 
 Use these resources to deepen your knowledge:
 
-- **Microsoft .NET MAUI Docs**&mdash;The [official .NET MAUI framework documentation](https://docs.microsoft.com/en-us/dotnet/maui) covers fundamentals and best practices.
+- **Microsoft .NET MAUI Docs**&mdash;The [official .NET MAUI framework documentation](https://learn.microsoft.com/dotnet/maui) covers fundamentals and best practices.
 - **Knowledge Base**&mdash;Browse [Telerik UI for .NET MAUI use cases and troubleshooting articles](https://docs.telerik.com/devtools/maui/knowledge-base) from our team.
 - **Product Overview**&mdash;The [Telerik UI for .NET MAUI product](https://www.telerik.com/maui-ui) features, component overviews and release information.
 - **Video Tutorials**&mdash;Watch [Telerik UI for .NET MAUI video tutorials on YouTube](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N) covering getting-started and advanced topics.
 - **Offline Documentation**&mdash;[Download Telerik UI for .NET MAUI PDF documentation](https://www.telerik.com/account/downloads/product-download?product=MAUI) from your account for offline access.
 
-## Next Steps with .NET MAUI UI
+## Next Steps
 
 Start building your first app with the [Telerik UI for .NET MAUI quick-start guide]({%slug maui-quick-start%}).
 
