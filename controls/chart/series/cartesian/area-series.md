@@ -1,7 +1,7 @@
 ---
 title: Area Series
 page_title: .NET MAUI Chart Area Series Documentation
-description: Learn how to use the .NET MAUI Chart Area Series, customize its fill and stroke, and control where the shaded area appears.
+description: Learn how to use the Telerik UI for .NET MAUI Chart Area Series, bind categorical data, customize its fill and stroke, and style the chart.
 components: ["chart"]
 slug: chart-series-area-series
 position: 0
@@ -11,7 +11,7 @@ position: 0
 
 Use `AreaSeries` to plot categorical data as a continuous line with a filled area between the line and the chart axis. This series is useful when you want to emphasize both the trend and the magnitude of the values across categories.
 
-`AreaSeries` derives from the categorical stroked series types, so it requires one categorical axis and one numerical axis in a `RadCartesianChart`. The series fill is defined by the chart axes, which matters when you want the shaded area to appear above instead of below the line.
+`AreaSeries` derives from the categorical stroked series types, so it requires one categorical axis and one numerical axis in a `RadCartesianChart`. The axes define the coordinates and the boundary of the filled area, while the `Fill` property defines its color.
 
 ## When to Use the Area Series
 
@@ -25,9 +25,9 @@ Use `AreaSeries` when you want to:
 
 The `AreaSeries` exposes the following properties:
 
-- `Fill`&mdash;Defines the fill of the area.
-- `Stroke`&mdash;Defines the color of the series line.
-- `StrokeThickness`&mdash;Defines the width of the series line.
+- `Fill` (`Color`)&mdash;Defines the fill of the area.
+- `Stroke` (`Color`)&mdash;Defines the color of the series line.
+- `StrokeThickness` (`double`)&mdash;Defines the width of the series line.
 
 ## Area Series Example
 
@@ -73,3 +73,6 @@ The following image shows a customized area series with a thicker line and a lig
 - [Bar Series]({%slug chart-series-bar-series%})
 - [Line Series]({%slug chart-series-line-series%})
 - [Spline Series]({%slug chart-series-spline-series%})
+- [Spline Area Series]({%slug chart-series-spline-area-series%})
+- [Scatter Area Series]({%slug chart-series-scatter-area-series%})
+- [Scatter Spline Area Series]({%slug chart-series-scatter-spline-area-series%})
