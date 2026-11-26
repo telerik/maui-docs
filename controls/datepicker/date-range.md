@@ -10,7 +10,7 @@ slug: datepicker-date-range
 
 # Date Ranges in .NET MAUI DatePicker
 
-Use the Progress® Telerik® UI for .NET MAUI DatePicker date-range settings when you want users to select a date only within a specific period. This is useful for scenarios such as booking windows, reporting periods, or restricting the control to valid business dates.
+Use the .NET MAUI DatePicker date-range settings when you want users to select a date only within a specific period. This is useful for scenarios such as booking windows, reporting periods, or restricting the control to valid business dates.
 
 Use the following DatePicker properties to define the available date range:
 
