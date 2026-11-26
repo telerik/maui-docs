@@ -135,7 +135,7 @@ The following steps customize the drag and reorder visuals and apply them throug
    <Application.Resources>
        <ResourceDictionary>
            <ResourceDictionary.MergedDictionaries>
-               <local:TelerikThemeResources />
+               <local:TelerikThemeResources Theme="TelerikPurple" />
 
                <ResourceDictionary Source="Resources/Styles/CustomGridStyles.xaml" />
            </ResourceDictionary.MergedDictionaries>
