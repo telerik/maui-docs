@@ -2,6 +2,7 @@
 title: Introduction
 page_title: Telerik UI for .NET MAUI Documentation - Introduction
 description: Explore Telerik UI for .NET MAUI and build native cross-platform apps for Windows, macOS, Android, and iOS with 70+ components.
+slug: introduction
 tags: .net maui, .net maui documentation, maui, .net, ui for .net maui, microsoft .net maui, telerik ui for .net maui
 previous_url: /license
 position: 0
@@ -20,10 +21,10 @@ This comprehensive UI library includes controls, [working sample applications]({
 
 Choose a path based on what you need:
 
-- **New to Telerik UI for .NET MAUI?** Start with the [Telerik UI for .NET MAUI quick-start guide]({%slug maui-quick-start%}).
-- **Migrating from Xamarin?** Follow the [Xamarin-to-.NET MAUI migration resources](#migration-paths) to upgrade your existing apps.
-- **Looking for a specific component?** Browse the [complete .NET MAUI control catalog](#list-of-net-maui-ui-controls) below.
-- **Want to see working examples?** Explore the [Telerik UI for .NET MAUI sample applications]({%slug sampleapps-overview%}).
+* **New to Telerik UI for .NET MAUI?** Start with the [Telerik UI for .NET MAUI quick-start guide]({%slug maui-quick-start%}).
+* **Migrating from Xamarin?** Follow the [Xamarin-to-.NET MAUI migration resources](#migration-paths) to upgrade your existing apps.
+* **Looking for a specific component?** Browse the [complete .NET MAUI control catalog](#list-of-net-maui-ui-controls) below.
+* **Want to see working examples?** Explore the [Telerik UI for .NET MAUI sample applications]({%slug sampleapps-overview%}).
 
 >tip This documentation covers the latest version of Telerik UI for .NET MAUI. For earlier versions, download the [offline PDF documentation](#learning-resources) from your Telerik account.
 
@@ -31,9 +32,7 @@ Choose a path based on what you need:
 
 ## List of .NET MAUI UI Controls
 
-The suite includes high-performance, customizable controls organized by category. Click any control name to explore its documentation, features, and code examples.
-
-Telerik UI for .NET MAUI features the following controls for cross-platform development with .NET MAUI. Clicking on each control navigates you to the detailed .NET MAUI documentation explaining the key features and how to utilize them.
+The suite includes high-performance, customizable controls organized by category. Select a control name to explore its documentation, features, and code examples.
 
 <IntroTable>
     <IntroTableColumn>
@@ -119,7 +118,7 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
             <IntroTableAnchor title="Path" href="slug:path-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Popup" href="slug:popup-overview"></IntroTableAnchor>
             <IntroTableAnchor title="PromptInput" href="slug:promptinput-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="RefreshView" href="slug:refreshview-overview" tag="new">></IntroTableAnchor>
+            <IntroTableAnchor title="RefreshView" href="slug:refreshview-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="Skeleton" href="slug:skeleton-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Toolbar" href="slug:toolbar-overview"></IntroTableAnchor>
         </IntroTableSection>
@@ -144,14 +143,14 @@ Telerik UI for .NET MAUI features the following controls for cross-platform deve
 
 **Telerik UI for .NET MAUI** is designed to accelerate cross-platform development:
 
-- **70+ Customizable Controls**&mdash;Data grids, charts, editors, navigation components, and more—all optimized for .NET MAUI.
-- **Cross-Platform Native Apps**&mdash;Build native apps for Android, iOS, macOS, and Windows with a single codebase.
-- **Consistent Design System**&mdash;Uniform look and feel across all supported platforms.
-- **Visual Studio Integration**&mdash;Seamless tooling support reduces setup overhead and speeds integration.
-- **Visual Studio Code Support**&mdash;Use the extensions to scaffold pages, add controls, and manage licenses in VS Code.
-- **Saves Development Time**&mdash;Ready-to-use, feature-rich components let you focus on app logic instead of UI details.
-- **Regular Updates**&mdash;Stays aligned with Microsoft's .NET MAUI releases and includes new features quarterly.
-- **Dedicated Support**&mdash;Technical support, community forums, and extensive documentation included.
+* **70+ Customizable Controls**&mdash;Data grids, charts, editors, navigation components, and more—all optimized for .NET MAUI.
+* **Cross-Platform Native Apps**&mdash;Build native apps for Android, iOS, macOS, and Windows with a single codebase.
+* **Consistent Design System**&mdash;Uniform look and feel across all supported platforms.
+* **Visual Studio Integration**&mdash;Seamless tooling support reduces setup overhead and speeds integration.
+* **Visual Studio Code Support**&mdash;Use the extensions to scaffold pages, add controls, and manage licenses in VS Code.
+* **Saves Development Time**&mdash;Ready-to-use, feature-rich components let you focus on app logic instead of UI details.
+* **Regular Updates**&mdash;Stays aligned with Microsoft's .NET MAUI releases and includes new features quarterly.
+* **Dedicated Support**&mdash;Technical support, community forums, and extensive documentation included.
 
 >caption Telerik UI for .NET MAUI introduction video overview
 
@@ -163,9 +162,9 @@ For a written guide to exploring the controls, see the [Telerik UI for .NET MAUI
 
 If you are upgrading an existing Xamarin or Xamarin.Forms application to .NET MAUI, these resources will help:
 
-- [Migrate Xamarin applications to .NET MAUI](https://www.telerik.com/maui-ui/migration)&mdash;Full migration path and best practices.
-- [Convert Xamarin custom renderers to .NET MAUI handlers](https://learn.microsoft.com/en-us/dotnet/maui/migration/renderer-to-handler?view=net-maui-8.0) &mdash;How to convert existing custom renderers.
-- [Migrate Telerik Xamarin controls to .NET MAUI controls](https://docs.telerik.com/devtools/maui/migrate-to-net-maui) &mdash;Component-by-component migration guide.
+* [Migrate Xamarin applications to .NET MAUI](https://www.telerik.com/maui-ui/migration)&mdash;Full migration path and best practices.
+* [Convert Xamarin custom renderers to .NET MAUI handlers](https://learn.microsoft.com/dotnet/maui/migration/renderer-to-handler)&mdash;How to convert existing custom renderers.
+* [Migrate Telerik Xamarin controls to .NET MAUI controls](https://docs.telerik.com/devtools/maui/migrate-to-net-maui)&mdash;Component-by-component migration guide.
 
 ## Trial and Commercial License
 
@@ -175,32 +174,33 @@ If you are upgrading an existing Xamarin or Xamarin.Forms application to .NET MA
 
 When you need help, you have several options:
 
-- **Agentic UI Generator**&mdash;Get tips and code snippets from the [Telerik UI for .NET MAUI Agentic UI Generator]({%slug ai-overview%}).
-- **Priority Support**&mdash;License holders can submit tickets through [Telerik support](https://www.telerik.com/account/support-tickets).
-- **Community Forum**&mdash;Ask questions and connect with the community in the [Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui).
-- **Feature Requests**&mdash;Share ideas and vote on features in the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).
-- **What's New**&mdash;Check the [Telerik UI for .NET MAUI release history](https://www.telerik.com/support/whats-new/maui-ui/release-history) and [latest Telerik UI for .NET MAUI updates](https://www.telerik.com/support/whats-new/maui-ui).
-* This official Telerik UI for .NET MAUI documentation is public and available for all users. If you want to share your feedback on a specific article, fill in the **Is this article helpful?** form and tell us more about whether the content was useful for you to successfully achieve what you wanted.
+* **Agentic UI Generator**&mdash;Get tips and code snippets from the [Telerik UI for .NET MAUI Agentic UI Generator]({%slug ai-overview%}).
+* **Priority Support**&mdash;License holders can submit tickets through [Telerik support](https://www.telerik.com/account/support-tickets).
+* **Community Forum**&mdash;Ask questions and connect with the community in the [Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui).
+* **Feature Requests**&mdash;Share ideas and vote on features in the [Telerik UI for .NET MAUI feedback portal](https://feedback.telerik.com/maui).
+* **What's New**&mdash;Check the [Telerik UI for .NET MAUI release history](https://www.telerik.com/support/whats-new/maui-ui/release-history) and [latest Telerik UI for .NET MAUI updates](https://www.telerik.com/support/whats-new/maui-ui).
+
+This official Telerik UI for .NET MAUI documentation is public and available for all users. To share feedback on a specific article, complete the **Is this article helpful?** form and tell us whether the content helped you achieve your goal.
 
 ## Learning Resources
 
 Use these resources to deepen your knowledge:
 
-- **Microsoft .NET MAUI Docs**&mdash;The [official .NET MAUI framework documentation](https://docs.microsoft.com/en-us/dotnet/maui) covers fundamentals and best practices.
-- **Knowledge Base**&mdash;Browse [Telerik UI for .NET MAUI use cases and troubleshooting articles](https://docs.telerik.com/devtools/maui/knowledge-base) from our team.
-- **Product Overview**&mdash;The [Telerik UI for .NET MAUI product](https://www.telerik.com/maui-ui) features, component overviews and release information.
-- **Video Tutorials**&mdash;Watch [Telerik UI for .NET MAUI video tutorials on YouTube](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N) covering getting-started and advanced topics.
-- **Offline Documentation**&mdash;[Download Telerik UI for .NET MAUI PDF documentation](https://www.telerik.com/account/downloads/product-download?product=MAUI) from your account for offline access.
+* **Microsoft .NET MAUI Docs**&mdash;The [official .NET MAUI framework documentation](https://learn.microsoft.com/dotnet/maui) covers fundamentals and best practices.
+* **Knowledge Base**&mdash;Browse [Telerik UI for .NET MAUI use cases and troubleshooting articles](https://docs.telerik.com/devtools/maui/knowledge-base) from our team.
+* **Product Overview**&mdash;The [Telerik UI for .NET MAUI product](https://www.telerik.com/maui-ui) features, component overviews and release information.
+* **Video Tutorials**&mdash;Watch [Telerik UI for .NET MAUI video tutorials on YouTube](https://www.youtube.com/playlist?list=PLvmaC-XMqeBZnCAEuEcW9LsUnfQm65B1N) covering getting-started and advanced topics.
+* **Offline Documentation**&mdash;[Download Telerik UI for .NET MAUI PDF documentation](https://www.telerik.com/account/downloads/product-download?product=MAUI) from your account for offline access.
 
-## Next Steps with .NET MAUI UI
+## Next Steps
 
 Start building your first app with the [Telerik UI for .NET MAUI quick-start guide]({%slug maui-quick-start%}).
 
 ## See Also
 
-- [Explore Telerik UI for .NET MAUI sample applications]({%slug sampleapps-overview%})
-- [Find Telerik UI for .NET MAUI solutions in the Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)
-- [Join the Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui)
+* [Explore Telerik UI for .NET MAUI sample applications]({%slug sampleapps-overview%})
+* [Find Telerik UI for .NET MAUI solutions in the Knowledge Base](https://docs.telerik.com/devtools/maui/knowledge-base)
+* [Join the Telerik UI for .NET MAUI community forum](https://www.telerik.com/forums/maui)
 
 <VideoMetadata 
     name="Introduction to Telerik UI for .NET MAUI"
