@@ -33,15 +33,15 @@ The `AreaSeries` exposes the following properties:
 
 The following example shows how to create a `RadCartesianChart` with an `AreaSeries`:
 
-**1.** Create a sample business object:
+1. Create a sample business object:
 
 <snippet id='categorical-data-model' />
 
-**2.** Create a `ViewModel`:
+2. Create a `ViewModel`:
 
 <snippet id='chart-series-categorical-view-model' />
 
-**3.** Declare a `RadCartesianChart` with an `AreaSeries` in XAML or C#:
+3. Declare a `RadCartesianChart` with an `AreaSeries` in XAML or C#:
 
 <snippet id='chart-series-area-xaml' />
 
