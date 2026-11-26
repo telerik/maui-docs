@@ -20,8 +20,8 @@ Use the following templates to customize specific parts of the DatePicker:
 |---|---|---|
 | `PlaceholderTemplate` | `ControlTemplate` | You want to change what the control shows before the user picks a date. |
 | `DisplayTemplate` | `ControlTemplate` | You want to customize how the selected date appears in the input area. |
-| `HeaderTemplate` | `ControlTemplate` | You want to customize the popup header through `PickerPopupSelectorSettings`. |
-| `FooterTemplate` | `ControlTemplate` | You want to customize the popup footer through `PickerPopupSelectorSettings`. |
+| `HeaderTemplate` | `ControlTemplate` | You want to customize the popup header through `PopupSettings` for popup `PickerMode`, or `DropDownSettings` for dropdown `PickerMode`. |
+| `FooterTemplate` | `ControlTemplate` | You want to customize the popup footer through `PopupSettings` for popup `PickerMode`, or `DropDownSettings` for dropdown `PickerMode`. |
 
 ## PlaceholderTemplate
 
@@ -61,7 +61,7 @@ After you define the templates in your page resources, assign them to the DatePi
 
 ```XAML
 <telerik:RadDatePicker MinimumDate="2020,1,1"
-					   MaximumDate="2030,12,31"
+					   MaximumDate="2025,12,31"
 					   DisplayTemplate="{StaticResource Picker_DisplayView_ControlTemplate}"
 					   PlaceholderTemplate="{StaticResource Picker_PlaceholderView_ControlTemplate}">
 	<telerik:RadDatePicker.SelectorSettings>
