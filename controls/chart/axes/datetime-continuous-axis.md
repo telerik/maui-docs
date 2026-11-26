@@ -30,14 +30,14 @@ If each value must appear as a separate category regardless of the time differen
 
 Use the following properties to configure `DateTimeContinuousAxis`:
 
-* `Minimum`&mdash;Defines the start of the timeline. Set it to `DateTime.MinValue` to clear the value and let the axis determine the start from the earliest date.
-* `Maximum`&mdash;Defines the end of the timeline. Set it to `DateTime.MaxValue` to clear the value and let the axis determine the end from the latest date.
-* `PlotMode`&mdash;Defines how data points are positioned relative to the time slots. The available values are `BetweenTicks` and `OnTicks`.
-* `MajorStep`&mdash;Defines the numeric interval between adjacent time slots.
-* `MajorStepUnit`&mdash;Defines the `DateTime` component that `MajorStep` uses: `None`, `Year`, `Quarter`, `Month`, `Week`, `Day`, `Hour`, `Minute`, `Second`, or `Millisecond`. The default value is `None`, which enables automatic unit selection.
-* `GapLength`&mdash;Defines the distance in logical units `[0,1]` between adjacent time slots. The default value is `0.3`. Set `GapLength` to `0` when clustered bar series must touch.
-* `LabelFormat`&mdash;Defines the date or time format string for the axis labels, such as `"dd-MM-yy"` or `"HH:mm"`.
-* `LabelFormatter`&mdash;Defines a custom formatter for the axis labels.
+* `Minimum` (`DateTime`)&mdash;Defines the start of the timeline. Set it to `DateTime.MinValue` to clear the value and let the axis determine the start from the earliest date.
+* `Maximum` (`DateTime`)&mdash;Defines the end of the timeline. Set it to `DateTime.MaxValue` to clear the value and let the axis determine the end from the latest date.
+* `PlotMode` (`enum` of type `Telerik.Maui.Controls.Compatibility.Chart.AxisPlotMode`)&mdash;Defines how data points are positioned relative to the time slots. The available values are `BetweenTicks` and `OnTicks`.
+* `MajorStep` (`double`)&mdash;Defines the numeric interval between adjacent time slots.
+* `MajorStepUnit` (`enum` of type `Telerik.Maui.Controls.Compatibility.Chart.TimeInterval`)&mdash;Defines the `DateTime` component that `MajorStep` uses: `Unset`, `Year`, `Quarter`, `Month`, `Week`, `Day`, `Hour`, `Minute`, `Second`, or `Millisecond`. The default value is `Unset`, which enables automatic unit selection.
+* `GapLength` (`double`)&mdash;Defines the distance in logical units `[0,1]` between adjacent time slots. The default value is `0.3`. Set `GapLength` to `0` when clustered bar series must touch.
+* `LabelFormat` (`string`)&mdash;Defines the date or time format string for the axis labels, such as `"dd-MM-yy"` or `"HH:mm"`.
+* `LabelFormatter` (`Telerik.Maui.Controls.Compatibility.Chart.ILabelFormatter`)&mdash;Defines a custom formatter for the axis labels.
 
 ## Example
 
