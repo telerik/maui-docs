@@ -29,14 +29,6 @@ The `AreaSeries` exposes the following properties:
 - `Stroke` (`Color`)&mdash;Defines the color of the series line.
 - `StrokeThickness` (`double`)&mdash;Defines the width of the series line.
 
-## Data Binding
-
-The `AreaSeries` uses the following properties to bind categorical data:
-
-- `ItemsSource` (`IList`)&mdash;Defines the data set that fills the series data points.
-- `CategoryBinding` (`PropertyNameDataPointBinding`)&mdash;Defines the data-model property used for the category axis.
-- `ValueBinding` (`PropertyNameDataPointBinding`)&mdash;Defines the data-model property used for the numerical axis.
-
 ## Area Series Example
 
 The following example shows how to create a `RadCartesianChart` with an `AreaSeries`:
