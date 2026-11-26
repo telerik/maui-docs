@@ -46,7 +46,7 @@ The suite includes high-performance, customizable controls organized by category
         </IntroTableSection>
         <IntroTableSection title="Data Visualization">
             <IntroTableAnchor title="Barcodes" href="slug:barcode-overview"></IntroTableAnchor>
-            <IntroTableAnchor title="Charts" href="slug:charts-overview" tag="new"></IntroTableAnchor>
+            <IntroTableAnchor title="Charts (New)" href="slug:charts-overview" tag="new"></IntroTableAnchor>
             <IntroTableAnchor title="Chart" href="slug:chart-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Gauges" href="slug:gauge-overview"></IntroTableAnchor>
             <IntroTableAnchor title="Map" href="slug:map-overview"></IntroTableAnchor>
