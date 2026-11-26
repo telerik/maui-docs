@@ -89,7 +89,7 @@ The following example shows how to display and style the grid lines:
 					 GridLinesThickness="5" />
 ```
 
-## Frozen Columns Splitter
+## Frozen Columns
 
 When your DataGrid uses frozen columns, `FrozenColumnsSplitterStyle` lets you style the divider between the frozen and scrollable column areas.
 
