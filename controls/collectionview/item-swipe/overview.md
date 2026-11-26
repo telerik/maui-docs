@@ -10,7 +10,7 @@ tags: item-swipe, collectionview, swiping
 
 # .NET MAUI CollectionView Item Swipe
 
-Use the Progress® Telerik® UI for .NET MAUI CollectionView item swipe feature to reveal custom content when you swipe an item. You can show action buttons, icons, or other views for common scenarios such as update, archive, or delete operations.
+Use the .NET MAUI CollectionView item swipe feature to reveal custom content when you swipe an item. You can show action buttons, icons, or other views for common scenarios such as update, archive, or delete operations.
 
 This article explains how item swipe works, which properties control the behavior, and how to build a complete example with start and end swipe templates.
 
